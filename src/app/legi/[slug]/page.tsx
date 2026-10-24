@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 }
 
-const AGREE_TONE = { strong: 'text-risk-green-text', partial: 'text-muted', split: 'text-risk-amber-text' } as const;
+const AGREE_TONE = { strong: 'text-muted', partial: 'text-muted', split: 'text-ink' } as const;
 
 const summaryCls = 'flex min-h-14 cursor-pointer items-center justify-between gap-4 px-5 py-4 text-base font-semibold text-ink transition-colors hover:bg-sunken/60';
 

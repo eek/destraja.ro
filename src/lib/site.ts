@@ -39,6 +39,8 @@ export function partyFullName(party: string) {
   return PARTY_NAMES[party] ?? party;
 }
 
-// Adresa la care vizitatorii pot scrie despre datele lor (politica de cookies). Necompletată până o confirmă operatorul.
+// Cine administrează site-ul și unde pot scrie vizitatorii despre datele lor (politica de cookies).
+// Necompletate până le confirmă operatorul; pagina afișează vizibil „de completat”.
+export const OPERATOR_NAME: string | null = null;
 export const CONTACT_EMAIL: string | null = null;
 export const POLICY_UPDATED = '25 octombrie 2026';

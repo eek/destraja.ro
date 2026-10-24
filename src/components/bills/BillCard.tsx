@@ -7,7 +7,7 @@ import { countWord, deadlineInfo, DEADLINE_TONE, fmt } from '@/lib/format';
 import { agreement, modelScore, oneLiner } from '@/lib/stats';
 import { Flags, PartyTag, RiskChip, RiskDot, btnPrimary, btnSecondary } from '@/components/ui';
 
-const AGREE_TONE = { strong: 'text-risk-green-text', partial: 'text-muted', split: 'text-risk-amber-text' } as const;
+const AGREE_TONE = { strong: 'text-muted', partial: 'text-muted', split: 'text-ink' } as const;
 
 export function ctaLabel(bill: BillLite) {
   const open = bill.daysRemaining >= 0;

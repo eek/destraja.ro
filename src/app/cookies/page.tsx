@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Check, X } from 'lucide-react';
-import { CONTACT_EMAIL, POLICY_UPDATED } from '@/lib/site';
+import { CONTACT_EMAIL, OPERATOR_NAME, POLICY_UPDATED } from '@/lib/site';
 import { Container, linkCls, panel } from '@/components/ui';
 import ClearPreferences from '@/components/site/ClearPreferences';
 
@@ -47,28 +47,19 @@ export default function CookiesPage() {
           Sunt informații strict necesare pentru funcțiile pe care le ceri, deci nu au nevoie de consimțământ (art. 4 alin. 5 din Legea 506/2004).
           Le găsești doar pe dispozitivul tău.
         </p>
-        <div className="relative mt-5 overflow-x-auto rounded-xl border border-line bg-surface">
-          <table className="w-full min-w-[560px] border-collapse text-left text-sm">
-            <thead className="bg-sunken/70 text-xs text-muted">
-              <tr>
-                <th scope="col" className="px-4 py-3 font-semibold">Nume</th>
-                <th scope="col" className="px-4 py-3 font-semibold">Ce reține</th>
-                <th scope="col" className="px-4 py-3 font-semibold">Unde</th>
-                <th scope="col" className="px-4 py-3 font-semibold">Cât timp</th>
-              </tr>
-            </thead>
-            <tbody className="divide-y divide-line">
-              {STORED.map((s) => (
-                <tr key={s.name} className="align-top">
-                  <td className="px-4 py-3 font-mono text-xs text-ink">{s.name}</td>
-                  <td className="px-4 py-3 text-body">{s.what}</td>
-                  <td className="px-4 py-3 text-body">{s.where}</td>
-                  <td className="px-4 py-3 text-body">{s.how}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+        <dl className="mt-5 divide-y divide-line border-y border-line">
+          {STORED.map((s) => (
+            <div key={s.name} className="grid gap-1 py-4 sm:grid-cols-[14rem_1fr] sm:gap-6">
+              <dt className="font-mono text-sm text-ink">{s.name}</dt>
+              <dd className="text-[15px] leading-7 text-body">
+                {s.what}
+                <span className="block text-sm text-muted">
+                  {s.where} · {s.how.toLowerCase()}
+                </span>
+              </dd>
+            </div>
+          ))}
+        </dl>
       </section>
 
       <section aria-labelledby="nu-folosim" className="mt-12">
@@ -78,7 +69,7 @@ export default function CookiesPage() {
         <ul className="mt-4 space-y-2">
           {NOT_USED.map((t) => (
             <li key={t} className="flex items-start gap-3 text-[15px] leading-7 text-body">
-              <X className="mt-1.5 h-4 w-4 shrink-0 text-risk-red-text" aria-hidden />
+              <X className="mt-1.5 h-4 w-4 shrink-0 text-muted" aria-hidden />
               {t}
             </li>
           ))}
@@ -112,7 +103,7 @@ export default function CookiesPage() {
             'Când deschizi senat.ro sau alt site extern, se aplică politica acelui site.',
           ].map((t) => (
             <li key={t} className="flex items-start gap-3 text-[15px] leading-7 text-body">
-              <Check className="mt-1.5 h-4 w-4 shrink-0 text-risk-green-text" aria-hidden />
+              <Check className="mt-1.5 h-4 w-4 shrink-0 text-link" aria-hidden />
               {t}
             </li>
           ))}
@@ -129,6 +120,30 @@ export default function CookiesPage() {
         </div>
       </section>
 
+      <section aria-labelledby="operator" className="mt-12">
+        <h2 id="operator" className={h2}>
+          Cine administrează site-ul
+        </h2>
+        <dl className="mt-4 divide-y divide-line border-y border-line text-[15px]">
+          <div className="grid gap-1 py-3 sm:grid-cols-[14rem_1fr] sm:gap-6">
+            <dt className="text-muted">Operator</dt>
+            <dd className={OPERATOR_NAME ? 'text-ink' : 'font-semibold text-ink'}>{OPERATOR_NAME ?? '[de completat]'}</dd>
+          </div>
+          <div className="grid gap-1 py-3 sm:grid-cols-[14rem_1fr] sm:gap-6">
+            <dt className="text-muted">Contact pentru date personale</dt>
+            <dd>
+              {CONTACT_EMAIL ? (
+                <a href={`mailto:${CONTACT_EMAIL}`} className={linkCls}>
+                  {CONTACT_EMAIL}
+                </a>
+              ) : (
+                <span className="font-semibold text-ink">[de completat]</span>
+              )}
+            </dd>
+          </div>
+        </dl>
+      </section>
+
       <section aria-labelledby="drepturi" className="mt-12">
         <h2 id="drepturi" className={h2}>
           Drepturile tale
@@ -140,16 +155,6 @@ export default function CookiesPage() {
             Autoritatea Națională de Supraveghere a Prelucrării Datelor cu Caracter Personal
           </a>
           .
-          {CONTACT_EMAIL && (
-            <>
-              {' '}
-              Pentru orice întrebare ne scrii la{' '}
-              <a href={`mailto:${CONTACT_EMAIL}`} className={linkCls}>
-                {CONTACT_EMAIL}
-              </a>
-              .
-            </>
-          )}
         </p>
         <p className={p}>
           Dacă vom adăuga vreodată statistici sau alte servicii care au nevoie de acordul tău, le vom porni doar după ce ți-l cerem, și vom actualiza

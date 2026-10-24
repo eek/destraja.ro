@@ -569,13 +569,13 @@ export default function ActionKitClient({ bill }: ActionKitClientProps) {
             </p>
 
             <div className="space-y-2">
-              <div className="text-xs font-semibold uppercase tracking-wider text-muted">
-                Ce a identificat în PDF-ul oficial
-              </div>
+              <h3 className="text-sm font-semibold text-ink">
+                Ce a găsit în textul oficial
+              </h3>
               <ul className="space-y-2 text-[15px] text-body prose-measure">
                 {currentModel.keyFindings.map((kf, i) => (
                   <li key={i} className="flex items-start gap-2.5">
-                    <span aria-hidden className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-risk-red" />
+                    <span aria-hidden className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-muted" />
                     <span>{kf}</span>
                   </li>
                 ))}
@@ -584,7 +584,7 @@ export default function ActionKitClient({ bill }: ActionKitClientProps) {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-4 border-t border-line text-sm">
               <div className="space-y-1">
-                <div className="font-semibold text-xs text-risk-red-text">
+                <div className="font-semibold text-xs text-ink">
                   Capcană ascunsă sesizată
                 </div>
                 <p className="text-body text-xs sm:text-sm leading-relaxed">

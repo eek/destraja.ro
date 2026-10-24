@@ -126,18 +126,20 @@ export function PartyDetail({ party, mps, onDossier }: { party?: PartyStat; mps:
           <p className="max-w-[8.5rem] text-xs leading-tight text-muted">din proiectele lui au risc ridicat</p>
         </div>
       </div>
-      <dl className="mt-6 grid grid-cols-3 gap-px overflow-hidden rounded-xl bg-line">
+      <dl className="mt-6 grid grid-cols-3 gap-x-4 border-y border-line py-4">
         {facts.map((f) => (
-          <div key={f.label} className="flex flex-col-reverse bg-surface p-3">
+          <div key={f.label} className="flex flex-col-reverse py-1.5">
             <dt className="text-[11px] text-muted">{f.label}</dt>
             <dd className={`text-lg font-semibold tabular-nums ${f.tone || 'text-ink'}`}>{f.value}</dd>
           </div>
         ))}
       </dl>
       {party.topBill && (
-        <Link href={`/legi/${party.topBill.slug}`} className="group mt-5 block rounded-xl border border-line p-4 transition-colors hover:border-line-strong">
-          <p className="text-xs text-muted">Cel mai riscant proiect semnat</p>
-          <p className="mt-1.5 font-semibold leading-snug text-ink group-hover:underline group-hover:underline-offset-4">{party.topBill.plainTitle}</p>
+        <Link href={`/legi/${party.topBill.slug}`} className="group mt-4 block border-b border-line pb-4">
+          <p className="text-sm leading-snug text-body">
+            Cel mai riscant proiect semnat:{' '}
+            <span className="font-semibold text-ink group-hover:underline group-hover:underline-offset-4">{party.topBill.plainTitle}</span>
+          </p>
           <p className="mt-1.5 flex items-center gap-2 text-xs text-muted">
             <RiskDot level={levelFromScore(party.topBill.riskScore)} />
             <span className="tabular-nums">{party.topBill.id}</span>· scor {fmt(party.topBill.riskScore)}
@@ -178,17 +180,17 @@ export function CrossPartyList({ bills }: { bills: BillLite[] }) {
   return (
     <div className="flex h-full flex-col">
       <PanelTitle title="Proiecte semnate de mai multe partide" sub={`${countWord(list.length, 'proiect', 'proiecte')}; întâi cele unde semnează împreună puterea și opoziția.`} />
-      <ul className="mt-4 space-y-2">
+      <ul className="mt-3 divide-y divide-line border-y border-line">
         {shown.map((b) => (
           <li key={b.id}>
-            <Link href={`/legi/${b.slug}`} className="block rounded-xl border border-line p-4 transition-colors hover:border-line-strong">
+            <Link href={`/legi/${b.slug}`} className="group block py-3.5">
               <div className="flex flex-wrap items-center gap-2 text-xs">
                 <RiskDot level={b.analysis.consensus.riskLevel} />
                 <span className="tabular-nums text-muted">{b.id}</span>
                 <span className={`font-semibold tabular-nums ${RISK[b.analysis.consensus.riskLevel].text}`}>{fmt(b.analysis.consensus.riskScore)}</span>
                 {camps(b.parties).bridge && <span className="font-semibold text-cross">Putere și opoziție</span>}
               </div>
-              <p className="mt-1.5 line-clamp-2 text-sm font-semibold leading-snug text-ink">{b.analysis.consensus.plainTitle}</p>
+              <p className="mt-1.5 line-clamp-2 text-sm font-semibold leading-snug text-ink group-hover:underline group-hover:underline-offset-4">{b.analysis.consensus.plainTitle}</p>
               <div className="mt-2 flex flex-wrap gap-1">
                 {b.parties.map((p) => (
                   <PartyTag key={p} party={p} />

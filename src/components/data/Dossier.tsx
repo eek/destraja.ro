@@ -12,7 +12,7 @@ import { billsCsv, citation, downloadFile, isoToday } from '@/lib/export';
 import { CopyButton, PartyTag, RiskDot, btnSecondary, inputCls } from '@/components/ui';
 
 type DSort = 'risc' | 'termen' | 'opinii' | 'dezacord';
-const AGREE_TONE = { strong: 'text-risk-green-text', partial: 'text-muted', split: 'text-risk-amber-text' } as const;
+const AGREE_TONE = { strong: 'text-muted', partial: 'text-muted', split: 'text-ink' } as const;
 
 const chip = (on: boolean) =>
   `inline-flex min-h-10 items-center gap-1.5 rounded-lg border px-3 text-xs font-semibold transition-colors ${
@@ -157,8 +157,8 @@ export default function Dossier({
                     <div className="flex items-center gap-2 text-xs text-muted">
                       <RiskDot level={lvl} />
                       <span className="tabular-nums">{b.id}</span>
-                      {b.cesNegative && <span className="font-semibold text-risk-amber-text">CES negativ</span>}
-                      {b.emergencyRequested && <span className="font-semibold text-risk-red-text">{b.emergencyApproved ? 'Urgență aprobată' : 'Urgență'}</span>}
+                      {b.cesNegative && <span className="font-semibold text-body">CES negativ</span>}
+                      {b.emergencyRequested && <span className="font-semibold text-ink">{b.emergencyApproved ? 'Urgență aprobată' : 'Urgență'}</span>}
                     </div>
                     <Link href={`/legi/${b.slug}`} className="mt-1 block font-semibold leading-snug text-ink hover:underline hover:underline-offset-4">
                       {b.analysis.consensus.plainTitle}

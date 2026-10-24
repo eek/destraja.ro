@@ -23,17 +23,19 @@ export default function BillExplorer({
   parties,
   onPartiesChange,
   initialRisk = 'all',
+  initialSoon = false,
 }: {
   bills: BillLite[];
   counts: RiskCounts;
   parties: string[];
   onPartiesChange: (parties: string[]) => void;
   initialRisk?: RiskLevel | 'all';
+  initialSoon?: boolean;
 }) {
   const [query, setQuery] = useState('');
   const [risk, setRisk] = useState<RiskLevel | 'all'>(initialRisk);
   const [group, setGroup] = useState('all');
-  const [soonOnly, setSoonOnly] = useState(false);
+  const [soonOnly, setSoonOnly] = useState(initialSoon);
   const [sort, setSort] = useState<SortKey>('risc');
   const [visible, setVisible] = useState(PAGE);
 

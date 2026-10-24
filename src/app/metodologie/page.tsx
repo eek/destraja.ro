@@ -68,15 +68,25 @@ export default async function MethodPage() {
         </p>
       </div>
 
-      <ol className="mt-12 grid gap-px overflow-hidden rounded-2xl border border-line bg-line sm:grid-cols-2 lg:grid-cols-4">
-        {STEPS.map((s) => (
-          <li key={s.title} className="flex flex-col bg-surface p-6">
-            <s.icon className="h-5 w-5 text-link" aria-hidden />
-            <h2 className="font-display mt-5 text-2xl font-normal">{s.title}</h2>
-            <p className="mt-2 text-[15px] leading-7 text-muted">{s.text}</p>
-          </li>
-        ))}
-      </ol>
+      <section aria-labelledby="pasi" className="mt-14 grid gap-10 lg:grid-cols-[0.8fr_1.2fr]">
+        <div>
+          <h2 id="pasi" className="font-display text-3xl font-normal sm:text-4xl">
+            Cum lucrăm
+          </h2>
+          <p className="mt-3 text-[15px] leading-7 text-muted">De la documentul oficial la obiecția ta, în patru pași.</p>
+        </div>
+        <ol className="divide-y divide-line border-y border-line">
+          {STEPS.map((s) => (
+            <li key={s.title} className="flex gap-4 py-6">
+              <s.icon className="mt-1 h-5 w-5 shrink-0 text-link" aria-hidden />
+              <div>
+                <h3 className="text-base font-semibold text-ink">{s.title}</h3>
+                <p className="mt-1.5 text-[15px] leading-7 text-muted">{s.text}</p>
+              </div>
+            </li>
+          ))}
+        </ol>
+      </section>
 
       <section aria-labelledby="modele" className="mt-16 grid gap-10 lg:grid-cols-[0.8fr_1.2fr]">
         <div>
@@ -124,8 +134,8 @@ export default async function MethodPage() {
         <section aria-labelledby="exemplu" className={`${panel} mt-16 p-6 sm:p-9`}>
           <div className="flex flex-wrap items-end justify-between gap-4">
             <div className="max-w-2xl">
-              <p className="text-sm text-muted">Exemplu real: {example.id}</p>
-              <h2 id="exemplu" className="font-display mt-2 text-2xl font-normal leading-tight sm:text-3xl">
+              <h2 id="exemplu" className="font-display text-2xl font-normal leading-tight sm:text-3xl">
+                <span className="text-muted">Un exemplu, {example.id}: </span>
                 <Link href={`/legi/${example.slug}`} className="hover:underline hover:underline-offset-4">
                   {example.analysis.consensus.plainTitle}
                 </Link>
@@ -150,8 +160,8 @@ export default async function MethodPage() {
         </section>
       )}
 
-      <div className="mt-10 flex items-start gap-3 rounded-2xl border border-risk-amber/40 bg-risk-amber-soft p-5 text-[15px] leading-7 text-ink">
-        <AlertTriangle className="mt-1 h-5 w-5 shrink-0 text-risk-amber-text" aria-hidden />
+      <div className="mt-10 flex items-start gap-3 rounded-2xl bg-brand-soft p-5 text-[15px] leading-7 text-ink">
+        <AlertTriangle className="mt-1 h-5 w-5 shrink-0 text-ink" aria-hidden />
         <p>
           <strong className="font-semibold">Analizele AI sunt un punct de plecare, nu o consultație juridică.</strong> Modelele pot greși sau pot omite
           context. Înainte să citezi sau să iei o decizie, verifică textul oficial pe{' '}

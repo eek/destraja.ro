@@ -58,8 +58,8 @@ export function deadlineInfo(days: number): { label: string; short: string; tone
 }
 
 export const DEADLINE_TONE: Record<DeadlineTone, string> = {
-  urgent: 'text-risk-red-text',
-  soon: 'text-risk-amber-text',
+  urgent: 'text-ink',
+  soon: 'text-body',
   calm: 'text-muted',
   closed: 'text-muted',
 };

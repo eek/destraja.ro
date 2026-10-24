@@ -16,7 +16,7 @@ export const inputCls =
 export const panel = 'rounded-2xl border border-line bg-surface';
 
 export const segCls = (on: boolean) =>
-  `inline-flex shrink-0 items-center gap-1.5 rounded-md px-3 py-1.5 text-xs font-semibold transition-colors ${
+  `inline-flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-md px-3 py-1.5 text-xs font-semibold transition-colors ${
     on ? 'bg-surface text-ink shadow-[0_1px_2px_rgb(0_0_0/0.08)]' : 'text-muted hover:text-ink'
   }`;
 
@@ -82,10 +82,10 @@ export function Flags({ bill }: { bill: BillLite }) {
       key: 'urg',
       icon: Flame,
       label: bill.emergencyApproved ? 'Urgență aprobată' : 'Urgență cerută',
-      cls: 'text-risk-red-text',
+      cls: 'text-ink',
     });
   }
-  if (bill.cesNegative) items.push({ key: 'ces', icon: AlertTriangle, label: 'Aviz negativ CES', cls: 'text-risk-amber-text' });
+  if (bill.cesNegative) items.push({ key: 'ces', icon: AlertTriangle, label: 'Aviz negativ CES', cls: 'text-body' });
   if (camps(bill.parties).bridge) items.push({ key: 'bridge', icon: Layers, label: 'Putere și opoziție împreună', cls: 'text-cross' });
   if (!items.length) return null;
   return (

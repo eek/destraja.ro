@@ -30,11 +30,11 @@ Three independent AI readings per bill, shown side by side with their disagreeme
 - Static site (Next.js, static export), deployed on Cloudflare; no accounts, no server-side personal data. The .docx personalisation runs in the browser.
 - Romanian only. Diacritics use comma-below ș/ț.
 - Risk levels (red/yellow/green) come from the AI consensus, not a fixed score threshold.
-- Open decision: operator identity and contact address for the privacy/cookie policy (not yet provided).
+- Open decision: operator identity and contact address for the privacy/cookie policy (not yet provided; `OPERATOR_NAME` / `CONTACT_EMAIL` in `src/lib/site.ts`, shown as „[de completat]” until set).
 
 ## Brand Commitments
 
-- Name and wordmark: lastraja.ro with the watchtower "L" (`public/lastraja-logo.svg`, `src/components/LastrajaLogo.tsx`).
+- Name and wordmark: lastraja.ro serif wordmark with a guard in a watchtower forming the "j" (`output/logo-strajer-concepts-2026-10-23/lastraja-logo-j.svg`, shipped as `public/lastraja-logo.svg` and `src/components/LastrajaLogo.tsx`; the tower alone is the favicon). Chosen by the user on 2026-10-25, replacing the earlier watchtower "L".
 - Confirmed by the user (2026-10-25): ink-navy brand colour; red/yellow/green reserved for risk levels only; light theme plus a soft slate dark theme (never pure black), following the visitor's system with a manual toggle.
 
 ## Evidence on Hand

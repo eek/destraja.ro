@@ -7,6 +7,13 @@ import { countWord } from '@/lib/format';
 import { isBridgePair } from '@/lib/stats';
 
 const pairKey = (a: string, b: string) => (a < b ? `${a}|${b}` : `${b}|${a}`);
+const SHORT: Record<string, string> = { Minorități: 'Min.', Neafiliați: 'Neaf.' };
+const label = (p: string) => (
+  <>
+    <span className="sm:hidden">{SHORT[p] ?? p}</span>
+    <span className="hidden sm:inline">{p}</span>
+  </>
+);
 const sameCamp = (a: string, b: string) => (PUTERE.has(a) && PUTERE.has(b)) || (OPOZITIE.has(a) && OPOZITIE.has(b));
 
 export default function CoalitionMatrix({
@@ -56,8 +63,8 @@ export default function CoalitionMatrix({
 
   return (
     <div className="flex flex-1 flex-col">
-      <div className="relative -mx-1 overflow-x-auto px-1 pb-1">
-        <table className="mx-auto border-separate border-spacing-[3px]">
+      <div className="relative overflow-x-auto pb-1">
+        <table className="mx-auto border-separate border-spacing-[2px] sm:border-spacing-[3px]">
           <caption className="sr-only">Numărul de proiecte semnate în comun de fiecare pereche de partide</caption>
           <thead>
             <tr>
@@ -65,8 +72,8 @@ export default function CoalitionMatrix({
                 <span className="sr-only">Partid</span>
               </th>
               {parties.map((p) => (
-                <th key={p} scope="col" className="h-20 align-bottom" title={partyFullName(p)}>
-                  <span className="inline-block rotate-180 text-[11px] font-semibold text-muted [writing-mode:vertical-rl]">{p}</span>
+                <th key={p} scope="col" className="h-14 align-bottom sm:h-20" title={partyFullName(p)}>
+                  <span className="inline-block rotate-180 text-[10px] font-semibold text-muted [writing-mode:vertical-rl] sm:text-[11px]">{label(p)}</span>
                 </th>
               ))}
             </tr>
@@ -74,8 +81,8 @@ export default function CoalitionMatrix({
           <tbody>
             {parties.map((row, i) => (
               <tr key={row}>
-                <th scope="row" className="whitespace-nowrap pr-1.5 text-right text-[11px] font-semibold text-muted" title={partyFullName(row)}>
-                  {row}
+                <th scope="row" className="whitespace-nowrap pr-1 text-right text-[10px] font-semibold text-muted sm:pr-1.5 sm:text-[11px]" title={partyFullName(row)}>
+                  {label(row)}
                 </th>
                 {parties.map((col, j) => {
                   if (j > i) return <td key={col} aria-hidden />;
@@ -97,7 +104,7 @@ export default function CoalitionMatrix({
                         onFocus={() => setHover([row, col])}
                         onBlur={() => setHover(null)}
                         aria-label={describe([row, col])}
-                        className={`flex h-8 w-8 items-center justify-center rounded-md text-xs tabular-nums transition-transform sm:h-9 sm:w-9 ${
+                        className={`flex h-[23px] w-[23px] items-center justify-center rounded-[4px] text-[10px] tabular-nums transition-transform sm:h-9 sm:w-9 sm:rounded-md sm:text-xs ${
                           diag
                             ? 'border border-line-strong bg-sunken font-semibold text-body'
                             : v === 0

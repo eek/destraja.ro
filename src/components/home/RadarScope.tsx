@@ -170,7 +170,7 @@ export default function RadarScope({ bills, counts }: { bills: BillLite[]; count
       </div>
 
       {active && dl && (
-        <div className="mt-4 rounded-2xl border border-line bg-paper p-4" aria-live="polite">
+        <div className="mt-4 border-t border-line pt-4" aria-live="polite">
           <div className="flex items-center justify-between gap-2">
             <RiskChip level={active.analysis.consensus.riskLevel} score={active.analysis.consensus.riskScore} />
             <span className="text-xs tabular-nums text-muted">{active.id}</span>

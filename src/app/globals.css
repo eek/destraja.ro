@@ -1,0 +1,151 @@
+@import "tailwindcss";
+
+/*
+ * Modern Web Guidance: dark-mode
+ * Claude Opus 5.5 Editorial Palette for lastraja.ro:
+ * Light mode: Ink #0F1B2D on warm paper #F7F4EC (cards #FFFFFF, elevated #EFECE3)
+ * Dark mode: Parchment #EDE6D3 on deep night #0B1320 (cards #111B2B, elevated #18253A)
+ */
+:root {
+  --surface-canvas-light: #f7f4ec;
+  --surface-canvas-dark: #0b1320;
+  --surface-card-light: #ffffff;
+  --surface-card-dark: #111b2b;
+  --surface-elevated-light: #efece3;
+  --surface-elevated-dark: #18253a;
+  --text-primary-light: #0f1b2d;
+  --text-primary-dark: #ede6d3;
+  --text-secondary-light: #334155;
+  --text-secondary-dark: #c5cedb;
+  --text-muted-light: #5b687a;
+  --text-muted-dark: #8c9ab0;
+  --border-subtle-light: #e2ddd2;
+  --border-subtle-dark: #223147;
+  --brand-accent-light: #b91c1c;
+  --brand-accent-dark: #f87171;
+
+  --surface-canvas: var(--surface-canvas-light);
+  --surface-card: var(--surface-card-light);
+  --surface-elevated: var(--surface-elevated-light);
+  --text-primary: var(--text-primary-light);
+  --text-secondary: var(--text-secondary-light);
+  --text-muted: var(--text-muted-light);
+  --border-subtle: var(--border-subtle-light);
+  --accent-color: var(--brand-accent-light);
+
+  /* MANDATORY: Fallback for browsers without light-dark support */
+  @media (prefers-color-scheme: dark) {
+    --surface-canvas: var(--surface-canvas-dark);
+    --surface-card: var(--surface-card-dark);
+    --surface-elevated: var(--surface-elevated-dark);
+    --text-primary: var(--text-primary-dark);
+    --text-secondary: var(--text-secondary-dark);
+    --text-muted: var(--text-muted-dark);
+    --border-subtle: var(--border-subtle-dark);
+    --accent-color: var(--brand-accent-dark);
+  }
+
+  /* Use light-dark() when supported */
+  @supports (color: light-dark(white, black)) {
+    --surface-canvas: light-dark(var(--surface-canvas-light), var(--surface-canvas-dark));
+    --surface-card: light-dark(var(--surface-card-light), var(--surface-card-dark));
+    --surface-elevated: light-dark(var(--surface-elevated-light), var(--surface-elevated-dark));
+    --text-primary: light-dark(var(--text-primary-light), var(--text-primary-dark));
+    --text-secondary: light-dark(var(--text-secondary-light), var(--text-secondary-dark));
+    --text-muted: light-dark(var(--text-muted-light), var(--text-muted-dark));
+    --border-subtle: light-dark(var(--border-subtle-light), var(--border-subtle-dark));
+    --accent-color: light-dark(var(--brand-accent-light), var(--brand-accent-dark));
+  }
+
+  /* MANDATORY: Automatically adapt native UI to user system preferences */
+  color-scheme: light dark;
+  accent-color: var(--accent-color);
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--surface-canvas);
+  color: var(--text-primary);
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* Theme browser surfaces (selection, focus ring, underline offset, tabular numerals) */
+::selection {
+  background-color: color-mix(in oklab, var(--accent-color) 22%, transparent);
+  color: var(--text-primary);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent-color);
+  outline-offset: 2px;
+}
+
+a {
+  text-underline-offset: 0.2em;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Comfortable reading measure (65-72ch) */
+.prose-measure {
+  max-width: 68ch;
+}
+
+/*
+ * Modern Web Guidance: improve-text-layout-and-legibility
+ * Target specific short heading elements for balanced line-breaking logic.
+ */
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+  letter-spacing: -0.02em;
+}
+
+/*
+ * Apply to multi-line text blocks to prevent orphaned words ("runts").
+ */
+p, blockquote, li, .pretty-text {
+  text-wrap: pretty;
+}
+
+/*
+ * Modern Web Guidance: defer-rendering-heavy-content
+ * Applied strictly to self-contained layout blocks below the initial fold.
+ */
+.heavy-section-deferred {
+  content-visibility: auto;
+  contain-intrinsic-size: auto none auto 180px;
+}
+
+/* Hide scrollbars on horizontal pill strips while preserving touch scrolling */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Native <details> disclosure reset (search-hidden-content) */
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Ensure coarse pointer (mobile touch) interactive controls meet 44px height */
+@media (pointer: coarse) {
+  .touch-target {
+    min-height: 44px;
+  }
+}

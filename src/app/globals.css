@@ -1,151 +1,251 @@
 @import "tailwindcss";
 
-/*
- * Modern Web Guidance: dark-mode
- * Claude Opus 5.5 Editorial Palette for lastraja.ro:
- * Light mode: Ink #0F1B2D on warm paper #F7F4EC (cards #FFFFFF, elevated #EFECE3)
- * Dark mode: Parchment #EDE6D3 on deep night #0B1320 (cards #111B2B, elevated #18253A)
- */
+/* Fără data-theme pe <html> tema urmează sistemul; data-theme="light|dark" e alegerea explicită a vizitatorului.
+   Toate culorile trec prin variabilele de mai jos, deci nu folosim variante dark: în componente. */
+
 :root {
-  --surface-canvas-light: #f7f4ec;
-  --surface-canvas-dark: #0b1320;
-  --surface-card-light: #ffffff;
-  --surface-card-dark: #111b2b;
-  --surface-elevated-light: #efece3;
-  --surface-elevated-dark: #18253a;
-  --text-primary-light: #0f1b2d;
-  --text-primary-dark: #ede6d3;
-  --text-secondary-light: #334155;
-  --text-secondary-dark: #c5cedb;
-  --text-muted-light: #5b687a;
-  --text-muted-dark: #8c9ab0;
-  --border-subtle-light: #e2ddd2;
-  --border-subtle-dark: #223147;
-  --brand-accent-light: #b91c1c;
-  --brand-accent-dark: #f87171;
+  /* Hârtie caldă, cerneală bleumarin. Roșu / galben / verde doar pentru nivelurile de risc. */
+  --paper: #f6f4ee;
+  --surface: #fffefb;
+  --sunken: #eeebe3;
+  --line: #e0dbcf;
+  --line-strong: #c9c2b2;
+  --ink: #121a2b;
+  --body: #2c3546;
+  --muted: #5b6475;
+  --faint: #8b93a1;
 
-  --surface-canvas: var(--surface-canvas-light);
-  --surface-card: var(--surface-card-light);
-  --surface-elevated: var(--surface-elevated-light);
-  --text-primary: var(--text-primary-light);
-  --text-secondary: var(--text-secondary-light);
-  --text-muted: var(--text-muted-light);
-  --border-subtle: var(--border-subtle-light);
-  --accent-color: var(--brand-accent-light);
+  --brand: #172c54;
+  --brand-hover: #213d70;
+  --on-brand: #ffffff;
+  --brand-soft: #e3e8f1;
+  --link: #1f3b70;
+  --focus: #2b4c8c;
 
-  /* MANDATORY: Fallback for browsers without light-dark support */
-  @media (prefers-color-scheme: dark) {
-    --surface-canvas: var(--surface-canvas-dark);
-    --surface-card: var(--surface-card-dark);
-    --surface-elevated: var(--surface-elevated-dark);
-    --text-primary: var(--text-primary-dark);
-    --text-secondary: var(--text-secondary-dark);
-    --text-muted: var(--text-muted-dark);
-    --border-subtle: var(--border-subtle-dark);
-    --accent-color: var(--brand-accent-dark);
+  --risk-red: #d0372b;
+  --risk-red-text: #a8261b;
+  --risk-red-soft: #fbe8e5;
+  --risk-amber: #dd9c12;
+  --risk-amber-text: #855700;
+  --risk-amber-soft: #f9efd6;
+  --risk-green: #3b8a52;
+  --risk-green-text: #2b6a3c;
+  --risk-green-soft: #e4f1e7;
+
+  --camp: #2f5bd3;
+  --cross: #9b35d6;
+
+  --band: #172c54;
+  --on-band: #f3f5fa;
+  --on-band-muted: #c3cde0;
+
+  --shadow-color: 32 28 18;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #1b2230;
+    --surface: #222a39;
+    --sunken: #283143;
+    --line: #333d51;
+    --line-strong: #46516a;
+    --ink: #eef0f5;
+    --body: #cdd3de;
+    --muted: #9ca5b5;
+    --faint: #7a8496;
+    --brand: #bccaee;
+    --brand-hover: #d2dcf5;
+    --on-brand: #13203d;
+    --brand-soft: #2d3b5a;
+    --link: #aac0f2;
+    --focus: #aac0f2;
+    --risk-red: #f06a5d;
+    --risk-red-text: #ff9e93;
+    --risk-red-soft: #43272a;
+    --risk-amber: #e8b23e;
+    --risk-amber-text: #f2c76d;
+    --risk-amber-soft: #3f3624;
+    --risk-green: #5fbd79;
+    --risk-green-text: #93d6a4;
+    --risk-green-soft: #24392f;
+    --camp: #6f95f6;
+    --cross: #c486f5;
+    --band: #2a3754;
+    --on-band: #eef0f5;
+    --on-band-muted: #b3bdd0;
+    --shadow-color: 0 0 0;
+    color-scheme: dark;
   }
+}
 
-  /* Use light-dark() when supported */
-  @supports (color: light-dark(white, black)) {
-    --surface-canvas: light-dark(var(--surface-canvas-light), var(--surface-canvas-dark));
-    --surface-card: light-dark(var(--surface-card-light), var(--surface-card-dark));
-    --surface-elevated: light-dark(var(--surface-elevated-light), var(--surface-elevated-dark));
-    --text-primary: light-dark(var(--text-primary-light), var(--text-primary-dark));
-    --text-secondary: light-dark(var(--text-secondary-light), var(--text-secondary-dark));
-    --text-muted: light-dark(var(--text-muted-light), var(--text-muted-dark));
-    --border-subtle: light-dark(var(--border-subtle-light), var(--border-subtle-dark));
-    --accent-color: light-dark(var(--brand-accent-light), var(--brand-accent-dark));
-  }
+:root[data-theme="dark"] {
+  --paper: #1b2230;
+  --surface: #222a39;
+  --sunken: #283143;
+  --line: #333d51;
+  --line-strong: #46516a;
+  --ink: #eef0f5;
+  --body: #cdd3de;
+  --muted: #9ca5b5;
+  --faint: #7a8496;
+  --brand: #bccaee;
+  --brand-hover: #d2dcf5;
+  --on-brand: #13203d;
+  --brand-soft: #2d3b5a;
+  --link: #aac0f2;
+  --focus: #aac0f2;
+  --risk-red: #f06a5d;
+  --risk-red-text: #ff9e93;
+  --risk-red-soft: #43272a;
+  --risk-amber: #e8b23e;
+  --risk-amber-text: #f2c76d;
+  --risk-amber-soft: #3f3624;
+  --risk-green: #5fbd79;
+  --risk-green-text: #93d6a4;
+  --risk-green-soft: #24392f;
+  --camp: #6f95f6;
+  --cross: #c486f5;
+  --band: #2a3754;
+  --on-band: #eef0f5;
+  --on-band-muted: #b3bdd0;
+  --shadow-color: 0 0 0;
+  color-scheme: dark;
+}
 
-  /* MANDATORY: Automatically adapt native UI to user system preferences */
-  color-scheme: light dark;
-  accent-color: var(--accent-color);
+@theme inline {
+  --color-paper: var(--paper);
+  --color-surface: var(--surface);
+  --color-sunken: var(--sunken);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-ink: var(--ink);
+  --color-body: var(--body);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-brand: var(--brand);
+  --color-brand-hover: var(--brand-hover);
+  --color-on-brand: var(--on-brand);
+  --color-brand-soft: var(--brand-soft);
+  --color-link: var(--link);
+  --color-risk-red: var(--risk-red);
+  --color-risk-red-text: var(--risk-red-text);
+  --color-risk-red-soft: var(--risk-red-soft);
+  --color-risk-amber: var(--risk-amber);
+  --color-risk-amber-text: var(--risk-amber-text);
+  --color-risk-amber-soft: var(--risk-amber-soft);
+  --color-risk-green: var(--risk-green);
+  --color-risk-green-text: var(--risk-green-text);
+  --color-risk-green-soft: var(--risk-green-soft);
+  --color-camp: var(--camp);
+  --color-cross: var(--cross);
+  --color-band: var(--band);
+  --color-on-band: var(--on-band);
+  --color-on-band-muted: var(--on-band-muted);
+  --color-focus: var(--focus);
+
+  --font-sans: var(--font-public), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: var(--font-serif), Georgia, "Times New Roman", serif;
+
+  --shadow-card: 0 1px 2px rgb(var(--shadow-color) / 0.05), 0 12px 32px -18px rgb(var(--shadow-color) / 0.28);
+  --shadow-lift: 0 2px 4px rgb(var(--shadow-color) / 0.06), 0 22px 44px -22px rgb(var(--shadow-color) / 0.4);
 }
 
 html {
   -webkit-text-size-adjust: 100%;
   scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+  accent-color: var(--brand);
+  scrollbar-color: var(--line-strong) var(--paper);
 }
 
 body {
-  background-color: var(--surface-canvas);
-  color: var(--text-primary);
-  font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background: var(--paper);
+  color: var(--body);
   font-size: 1rem;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
-  padding-bottom: env(safe-area-inset-bottom);
+  font-feature-settings: "kern", "liga";
+  caret-color: var(--brand);
 }
 
-/* Theme browser surfaces (selection, focus ring, underline offset, tabular numerals) */
 ::selection {
-  background-color: color-mix(in oklab, var(--accent-color) 22%, transparent);
-  color: var(--text-primary);
+  background: var(--brand-soft);
+  color: var(--ink);
 }
 
 :focus-visible {
-  outline: 2px solid var(--accent-color);
-  outline-offset: 2px;
+  outline: 2px solid var(--focus);
+  outline-offset: 3px;
+  border-radius: 4px;
 }
 
 a {
-  text-underline-offset: 0.2em;
+  text-underline-offset: 0.22em;
+  text-decoration-thickness: 1px;
+}
+
+h1, h2, h3, h4 {
+  color: var(--ink);
+  text-wrap: balance;
+}
+
+p, li, blockquote, dd {
+  text-wrap: pretty;
+}
+
+.font-display {
+  font-optical-sizing: auto;
+  letter-spacing: -0.015em;
 }
 
 .tabular-nums {
   font-variant-numeric: tabular-nums;
 }
 
-/* Comfortable reading measure (65-72ch) */
 .prose-measure {
   max-width: 68ch;
 }
 
-/*
- * Modern Web Guidance: improve-text-layout-and-legibility
- * Target specific short heading elements for balanced line-breaking logic.
- */
-h1, h2, h3, h4, h5, h6 {
-  text-wrap: balance;
-  letter-spacing: -0.02em;
-}
-
-/*
- * Apply to multi-line text blocks to prevent orphaned words ("runts").
- */
-p, blockquote, li, .pretty-text {
-  text-wrap: pretty;
-}
-
-/*
- * Modern Web Guidance: defer-rendering-heavy-content
- * Applied strictly to self-contained layout blocks below the initial fold.
- */
-.heavy-section-deferred {
+/* Secțiuni grele aflate sub prima vedere: browserul le randează doar când ajung aproape. */
+.deferred {
   content-visibility: auto;
-  contain-intrinsic-size: auto none auto 180px;
+  contain-intrinsic-size: auto 640px;
 }
 
-/* Hide scrollbars on horizontal pill strips while preserving touch scrolling */
 .no-scrollbar {
-  -ms-overflow-style: none;
   scrollbar-width: none;
 }
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
 
-/* Native <details> disclosure reset (search-hidden-content) */
 details > summary {
   list-style: none;
 }
 details > summary::-webkit-details-marker {
   display: none;
 }
+details[open] > summary .chevron {
+  transform: rotate(180deg);
+}
+.chevron {
+  transition: transform 180ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
 
-/* Ensure coarse pointer (mobile touch) interactive controls meet 44px height */
-@media (pointer: coarse) {
-  .touch-target {
-    min-height: 44px;
+@media (max-width: 639px) {
+  input, select, textarea {
+    font-size: 16px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }

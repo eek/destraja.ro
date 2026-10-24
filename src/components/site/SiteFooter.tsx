@@ -1,0 +1,71 @@
+import Link from 'next/link';
+import { ExternalLink } from 'lucide-react';
+import { LastrajaLogo } from '@/components/LastrajaLogo';
+import { MODELS, SENAT_URL } from '@/lib/site';
+import { formatDateRo } from '@/lib/format';
+import { ThemeSelect } from './ThemeControls';
+
+const linkCls = 'text-body transition-colors hover:text-ink hover:underline';
+
+export default function SiteFooter({ syncedAt }: { syncedAt: string | null }) {
+  return (
+    <footer className="mt-24 border-t border-line bg-surface">
+      <div className="mx-auto grid w-full max-w-[1240px] gap-10 px-4 py-12 sm:px-8 lg:grid-cols-12 lg:px-10">
+        <div className="lg:col-span-5">
+          <Link href="/" aria-label="lastraja.ro, pagina principală" className="inline-flex text-ink">
+            <LastrajaLogo className="h-11 w-auto" />
+          </Link>
+          <p className="mt-4 max-w-sm text-sm leading-6 text-muted">
+            La Straja Legii: radarul cetățenesc al proiectelor de lege aflate în consultare publică la Senatul României. Proiect civic
+            independent; nu reprezentăm Senatul și nu lucrăm pentru niciun partid.
+          </p>
+          {syncedAt && <p className="mt-3 text-xs text-muted">Date preluate de pe senat.ro la {formatDateRo(syncedAt)}.</p>}
+        </div>
+
+        <div className="grid grid-cols-2 gap-8 text-sm sm:grid-cols-3 lg:col-span-7">
+          <div>
+            <h2 className="text-sm font-semibold text-ink">Site</h2>
+            <ul className="mt-3 space-y-2">
+              <li><Link href="/#legi" className={linkCls}>Legi în consultare</Link></li>
+              <li><Link href="/parlamentari" className={linkCls}>Parlamentari</Link></li>
+              <li><Link href="/presa" className={linkCls}>Presă și date</Link></li>
+              <li><Link href="/metodologie" className={linkCls}>Metodologie</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h2 className="text-sm font-semibold text-ink">Surse oficiale</h2>
+            <ul className="mt-3 space-y-2">
+              <li>
+                <a href={SENAT_URL} target="_blank" rel="noopener noreferrer" className={`${linkCls} inline-flex items-center gap-1`}>
+                  Proiecte pe senat.ro <ExternalLink className="h-3 w-3" aria-hidden />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.ces.ro" target="_blank" rel="noopener noreferrer" className={`${linkCls} inline-flex items-center gap-1`}>
+                  Consiliul Economic și Social <ExternalLink className="h-3 w-3" aria-hidden />
+                </a>
+              </li>
+            </ul>
+            <h2 className="mt-6 text-sm font-semibold text-ink">Analiză</h2>
+            <p className="mt-2 text-muted">{MODELS.map((m) => m.name).join(' · ')}</p>
+          </div>
+          <div className="col-span-2 sm:col-span-1">
+            <h2 className="text-sm font-semibold text-ink">Confidențialitate</h2>
+            <ul className="mt-3 space-y-2">
+              <li><Link href="/cookies" className={linkCls}>Politica de cookies</Link></li>
+            </ul>
+            <h2 className="mt-6 text-sm font-semibold text-ink">Tema</h2>
+            <div className="mt-2">
+              <ThemeSelect />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="border-t border-line">
+        <p className="mx-auto w-full max-w-[1240px] px-4 py-5 text-xs leading-5 text-muted sm:px-8 lg:px-10">
+          Analizele sunt generate cu AI și pot conține erori. Nu sunt consultanță juridică; verifică întotdeauna textul oficial pe senat.ro.
+        </p>
+      </div>
+    </footer>
+  );
+}

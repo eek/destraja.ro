@@ -1,57 +1,98 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import type { BillAnalysis, EnrichedBill } from './types';
+import type { BillAnalysis, BillLite, EnrichedBill } from './types';
+import { daysUntil } from './format';
 
 const ROOT = process.cwd();
 const SENAT_BILLS_PATH = path.join(ROOT, 'data', 'senat-bills.json');
+const ONE_LINERS_PATH = path.join(ROOT, 'data', 'citizen-one-liners.json');
 const ANALYSES_DIR = path.join(ROOT, 'data', 'analyses');
 const TEXTS_DIR = path.join(ROOT, 'data', 'texts');
 
-function computeDaysRemaining(ddmmyyyy: string): number {
-  const parts = ddmmyyyy.split('-').map(Number);
-  if (parts.length !== 3) return 0;
-  const [day, month, year] = parts;
-  const deadline = new Date(year, month - 1, day, 23, 59, 59);
-  const now = new Date();
-  const diffMs = deadline.getTime() - now.getTime();
-  return Math.max(0, Math.ceil(diffMs / (1000 * 60 * 60 * 24)));
-}
+type RawBill = Omit<EnrichedBill, 'daysRemaining' | 'analysis' | 'cesNegative'> & { syncedAt?: string };
 
-export async function getAllBills(): Promise<EnrichedBill[]> {
+let cache: Promise<{ bills: EnrichedBill[]; syncedAt: string | null }> | null = null;
+
+async function load() {
   const raw = JSON.parse(await fs.readFile(SENAT_BILLS_PATH, 'utf8'));
-  const billsList = Array.isArray(raw) ? raw : raw.bills;
+  const list: RawBill[] = Array.isArray(raw) ? raw : raw.bills;
+  const oneLiners: Record<string, string> = JSON.parse(await fs.readFile(ONE_LINERS_PATH, 'utf8'));
 
-  const enriched: EnrichedBill[] = [];
-
-  for (const bill of billsList) {
-    const analysisFile = path.join(ANALYSES_DIR, `${bill.slug}.json`);
-    const analysis: BillAnalysis = JSON.parse(await fs.readFile(analysisFile, 'utf8'));
-
-    enriched.push({
+  let syncedAt: string | null = null;
+  const bills: EnrichedBill[] = [];
+  for (const { syncedAt: synced, ...bill } of list) {
+    const analysis: BillAnalysis = JSON.parse(await fs.readFile(path.join(ANALYSES_DIR, `${bill.slug}.json`), 'utf8'));
+    analysis.consensus.citizenOneLiner ??= oneLiners[bill.slug];
+    if (synced && (!syncedAt || synced > syncedAt)) syncedAt = synced;
+    bills.push({
       ...bill,
-      daysRemaining: computeDaysRemaining(bill.consultationDeadline),
+      daysRemaining: daysUntil(bill.consultationDeadline),
+      cesNegative: bill.timeline.some((t) => /consiliul economic/i.test(t.action) && /negativ/i.test(t.action)),
       analysis,
     });
   }
 
-  // Sort by riskScore descending, with B563/2026 always first if tied
-  enriched.sort((a, b) => {
-    if (a.slug === 'b563-2026') return -1;
-    if (b.slug === 'b563-2026') return 1;
-    return b.analysis.consensus.riskScore - a.analysis.consensus.riskScore;
-  });
+  bills.sort((a, b) => b.analysis.consensus.riskScore - a.analysis.consensus.riskScore || a.id.localeCompare(b.id, 'ro', { numeric: true }));
+  return { bills, syncedAt };
+}
 
-  return enriched;
+function data() {
+  cache ??= load();
+  return cache;
+}
+
+export async function getAllBills(): Promise<EnrichedBill[]> {
+  return (await data()).bills;
+}
+
+export async function getDataSyncedAt(): Promise<string | null> {
+  return (await data()).syncedAt;
 }
 
 export async function getBillBySlug(slug: string): Promise<EnrichedBill | null> {
-  const all = await getAllBills();
-  return all.find((b) => b.slug === slug) ?? null;
+  return (await getAllBills()).find((b) => b.slug === slug) ?? null;
 }
 
-export async function getBillExtractedTexts(
-  slug: string
-): Promise<{ filename: string; content: string }[]> {
+export function toLite(b: EnrichedBill): BillLite {
+  const c = b.analysis.consensus;
+  const verdict = (k: 'agy' | 'claude' | 'codex') => {
+    const v = b.analysis.council[k];
+    return { riskScore: v.riskScore, riskLevel: v.riskLevel, verdictShort: v.verdictShort };
+  };
+  return {
+    id: b.id,
+    slug: b.slug,
+    cod: b.cod,
+    officialTitle: b.officialTitle,
+    consultationDeadline: b.consultationDeadline,
+    daysRemaining: b.daysRemaining,
+    opinionsCount: b.opinionsCount,
+    sheetUrl: b.sheetUrl,
+    initiators: b.initiators.map(({ name, role, party }) => ({ name, role, party })),
+    parties: [...new Set(b.parties)],
+    isCrossParty: b.isCrossParty,
+    emergencyRequested: b.emergencyRequested,
+    emergencyApproved: b.emergencyApproved,
+    cesNegative: b.cesNegative,
+    analysis: {
+      consensus: {
+        riskScore: c.riskScore,
+        riskLevel: c.riskLevel,
+        plainTitle: c.plainTitle,
+        citizenOneLiner: c.citizenOneLiner,
+        summaryTlDr: c.summaryTlDr,
+        affectedGroups: c.affectedGroups,
+      },
+      council: { agy: verdict('agy'), claude: verdict('claude'), codex: verdict('codex') },
+    },
+  };
+}
+
+export async function getAllBillsLite(): Promise<BillLite[]> {
+  return (await getAllBills()).map(toLite);
+}
+
+export async function getBillExtractedTexts(slug: string): Promise<{ filename: string; content: string }[]> {
   const dir = path.join(TEXTS_DIR, slug);
   try {
     const files = await fs.readdir(dir);

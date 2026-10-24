@@ -111,6 +111,7 @@ export interface BillAnalysis {
 }
 
 export interface EnrichedBill {
+  cesNegative: boolean;
   id: string;
   slug: string;
   cod: string;
@@ -130,4 +131,31 @@ export interface EnrichedBill {
   timeline: TimelineItem[];
   publicOpinions: PublicOpinion[];
   analysis: BillAnalysis;
+}
+
+type ModelKey = 'agy' | 'claude' | 'codex';
+
+/** Ce ajunge în browser pe paginile de listă: fără PDF-uri, cronologie, opinii și kitul de acțiune. */
+export interface BillLite {
+  id: string;
+  slug: string;
+  cod: string;
+  officialTitle: string;
+  consultationDeadline: string;
+  daysRemaining: number;
+  opinionsCount: number;
+  sheetUrl: string;
+  initiators: Initiator[];
+  parties: string[];
+  isCrossParty: boolean;
+  emergencyRequested: boolean;
+  emergencyApproved: boolean;
+  cesNegative: boolean;
+  analysis: {
+    consensus: Pick<
+      BillAnalysis['consensus'],
+      'riskScore' | 'riskLevel' | 'plainTitle' | 'citizenOneLiner' | 'summaryTlDr' | 'affectedGroups'
+    >;
+    council: Record<ModelKey, Pick<AiVerdict, 'riskScore' | 'riskLevel' | 'verdictShort'>>;
+  };
 }

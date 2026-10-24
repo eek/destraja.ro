@@ -1,20 +1,20 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import type { Metadata } from 'next';
-import {
-  ArrowLeft,
-  ExternalLink,
-  Clock,
-  FileDown,
-  FileText,
-} from 'lucide-react';
-import { getAllBills, getBillBySlug, getBillExtractedTexts } from '@/lib/bills';
-import { getCitizenOneLiner, PARTY_META } from '@/lib/journalist-plain-data';
+import { ArrowLeft, ChevronDown, ExternalLink, FileDown, FileText } from 'lucide-react';
+import { getAllBills, getBillBySlug, getBillExtractedTexts, toLite } from '@/lib/bills';
+import { agreement, mpSlugs, oneLiner } from '@/lib/stats';
+import { RISK } from '@/lib/risk';
+import { fmt } from '@/lib/format';
 import ActionKitClient from '@/components/ActionKitClient';
+import LiveDeadline from '@/components/bills/LiveDeadline';
+import { Container, Flags, ModelMeters, PartyTag, RiskChip, panel } from '@/components/ui';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
 }
+
+export const dynamicParams = false;
 
 export async function generateStaticParams() {
   const bills = await getAllBills();
@@ -24,398 +24,304 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
   const bill = await getBillBySlug(slug);
-  if (!bill) {
-    return { title: 'Proiect negăsit — lastraja.ro' };
-  }
+  if (!bill) return { title: 'Proiect negăsit' };
+  const description = oneLiner(toLite(bill));
   return {
-    title: `${bill.id}: ${bill.analysis.consensus.plainTitle} | lastraja.ro`,
-    description: getCitizenOneLiner(bill),
+    title: `${bill.id}: ${bill.analysis.consensus.plainTitle}`,
+    description,
+    openGraph: { title: `${bill.id}: ${bill.analysis.consensus.plainTitle}`, description },
   };
 }
+
+const AGREE_TONE = { strong: 'text-risk-green-text', partial: 'text-muted', split: 'text-risk-amber-text' } as const;
+
+const summaryCls = 'flex min-h-14 cursor-pointer items-center justify-between gap-4 px-5 py-4 text-base font-semibold text-ink transition-colors hover:bg-sunken/60';
 
 export default async function BillDetailPage({ params }: PageProps) {
   const { slug } = await params;
   const bill = await getBillBySlug(slug);
-  if (!bill) {
-    notFound();
-  }
+  if (!bill) notFound();
 
+  const all = await getAllBills();
+  const slugs = mpSlugs(all.map(toLite));
   const extractedTexts = await getBillExtractedTexts(slug);
+  const lite = toLite(bill);
   const c = bill.analysis.consensus;
-  const oneLiner = getCitizenOneLiner(bill);
+  const ag = agreement(lite);
 
-  const isRed = c.riskLevel === 'red';
-  const isYellow = c.riskLevel === 'yellow';
-  const riskBadgeClass = isRed
-    ? 'bg-red-600 text-white'
-    : isYellow
-    ? 'bg-amber-500/20 text-amber-800 dark:text-amber-300 border border-amber-500/30'
-    : 'bg-emerald-500/15 text-emerald-800 dark:text-emerald-300 border border-emerald-500/25';
-
-  const riskLabel = isRed
-    ? 'Pericol / Risc major'
-    : isYellow
-    ? 'Atenție / Costuri'
-    : 'Utilă / Rutină';
-
-  // Group initiators by party
   const byParty: Record<string, typeof bill.initiators> = {};
   for (const init of bill.initiators) {
     const p = init.party || 'Neafiliați';
-    if (!byParty[p]) byParty[p] = [];
-    byParty[p].push(init);
+    (byParty[p] ??= []).push(init);
   }
+  const partyEntries = Object.entries(byParty).sort((a, b) => b[1].length - a[1].length);
 
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 py-6 sm:py-10 space-y-10">
-      {/* Top Navigation Row */}
-      <div className="flex flex-wrap items-center justify-between gap-3 text-xs sm:text-sm">
-        <Link
-          href="/"
-          className="touch-target inline-flex items-center gap-1.5 font-semibold text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
-        >
-          <ArrowLeft className="w-4 h-4" />
-          <span>Înapoi la toate cele 49 de legi (lastraja.ro)</span>
+    <Container className="max-w-[920px] py-8 sm:py-12">
+      <div className="flex flex-wrap items-center justify-between gap-3 text-sm">
+        <Link href="/#legi" className="inline-flex min-h-11 items-center gap-1.5 font-semibold text-body hover:text-ink">
+          <ArrowLeft className="h-4 w-4" aria-hidden />
+          Toate proiectele
         </Link>
-
-        <div className="flex items-center gap-3 text-xs text-[var(--text-muted)]">
-          <a
-            href={bill.sheetUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="touch-target inline-flex items-center gap-1 hover:text-[var(--text-primary)] underline"
-          >
-            <span>Fișa Senat ({bill.id})</span>
-            <ExternalLink className="w-3.5 h-3.5" />
+        <div className="flex flex-wrap items-center gap-x-4 text-muted">
+          <a href={bill.sheetUrl} target="_blank" rel="noopener noreferrer" className="inline-flex min-h-11 items-center gap-1 underline underline-offset-4 hover:text-ink">
+            Fișa {bill.id} pe senat.ro <ExternalLink className="h-3.5 w-3.5" aria-hidden />
           </a>
-          <a
-            href={bill.opinionsUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="touch-target inline-flex items-center gap-1 hover:text-[var(--text-primary)] underline tabular-nums"
-          >
-            <span>Opinii depuse ({bill.opinionsCount})</span>
-            <ExternalLink className="w-3.5 h-3.5" />
+          <a href={bill.opinionsUrl} target="_blank" rel="noopener noreferrer" className="inline-flex min-h-11 items-center gap-1 tabular-nums underline underline-offset-4 hover:text-ink">
+            Opinii depuse ({bill.opinionsCount}) <ExternalLink className="h-3.5 w-3.5" aria-hidden />
           </a>
         </div>
       </div>
 
-      {/* ZONA 1: PE ÎNȚELESUL TUTUROR (30 SECUNDE) */}
-      <section className="space-y-6 pb-8 border-b border-[var(--border-subtle)]">
-        {/* Status Meta Line */}
-        <div className="flex flex-wrap items-center gap-2 text-xs">
-          <span className={`px-2.5 py-1 rounded-md font-semibold tabular-nums ${riskBadgeClass}`}>
-            Scor AI (Gemini · Claude · ChatGPT): {c.riskScore.toFixed(1)} / 10 · {riskLabel}
-          </span>
+      <article className="mt-4">
+        <header className={`${panel} overflow-hidden shadow-[var(--shadow-card)]`}>
+          <div className={`h-1.5 ${RISK[c.riskLevel].fill}`} aria-hidden />
+          <div className="p-6 sm:p-9">
+            <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
+              <RiskChip level={c.riskLevel} score={c.riskScore} size="md" />
+              <span className="tabular-nums text-muted">
+                {bill.id} · cod Senat {bill.cod}
+              </span>
+            </div>
+            <h1 className="font-display mt-5 text-[clamp(1.9rem,4.2vw,3rem)] font-normal leading-[1.1]">{c.plainTitle}</h1>
+            <p className="mt-4 text-lg leading-8 text-ink sm:text-xl sm:leading-9">{oneLiner(lite)}</p>
+            <p className="mt-4 text-sm leading-6 text-muted">Titlul oficial: {bill.officialTitle}</p>
 
-          <span className="font-mono font-bold text-[var(--text-primary)] tabular-nums">
-            {bill.id} (Cod {bill.cod})
-          </span>
+            <div className="mt-5 flex flex-wrap items-center gap-x-5 gap-y-3 text-sm">
+              <LiveDeadline deadline={bill.consultationDeadline} days={bill.daysRemaining} />
+              <Flags bill={lite} />
+            </div>
 
-          {bill.emergencyRequested && (
-            <span className="px-2 py-0.5 rounded bg-[var(--surface-elevated)] text-[var(--text-secondary)] font-medium">
-              Procedură de urgență
-            </span>
-          )}
-
-          <span className="inline-flex items-center gap-1 font-semibold text-red-700 dark:text-red-400 tabular-nums ml-auto">
-            <Clock className="w-3.5 h-3.5" />
-            Termen: {bill.consultationDeadline} ({bill.daysRemaining} zile)
-          </span>
-        </div>
-
-        {/* Title & 1-Sentence Plain Explanation */}
-        <div className="space-y-3">
-          <h1 className="text-2xl sm:text-3xl font-bold tracking-tight leading-snug">
-            {c.plainTitle}
-          </h1>
-
-          {/* Highlighted 1-liner for the Average Joe */}
-          <p className="text-base sm:text-lg font-medium text-[var(--text-primary)] prose-measure leading-relaxed">
-            {oneLiner}
-          </p>
-
-          <p className="text-xs text-[var(--text-muted)] prose-measure">
-            Titlu oficial la Senat: {bill.officialTitle}
-          </p>
-        </div>
-
-        {/* Political Responsibility Bar: Which Parties Signed This Bill */}
-        {Object.keys(byParty).length > 0 && (
-          <div className="flex flex-wrap items-center gap-2 pt-1 text-xs">
-            <span className="font-semibold text-[var(--text-muted)]">
-              Cine a semnat legea ({bill.initiators.length} parlamentari):
-            </span>
-            {Object.entries(byParty).map(([party, members]) => {
-              const pm = PARTY_META[party] || PARTY_META.Neafiliați;
-              return (
-                <span
-                  key={party}
-                  className={`px-2.5 py-0.5 rounded-md border font-semibold tabular-nums ${pm.badgeClass}`}
-                >
-                  {party} · {members.length}
-                </span>
-              );
-            })}
+            {partyEntries.length > 0 && (
+              <div className="mt-5 flex flex-wrap items-center gap-2 border-t border-line pt-5 text-sm">
+                <span className="text-muted">Semnat de {bill.initiators.length} parlamentari:</span>
+                {partyEntries.map(([party, members]) => (
+                  <span key={party} className="inline-flex items-center gap-1">
+                    <PartyTag party={party} />
+                    <span className="text-xs tabular-nums text-muted">{members.length}</span>
+                  </span>
+                ))}
+              </div>
+            )}
           </div>
-        )}
+        </header>
 
-        {/* Clean 2-Column Comparison separated by hairlines */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-5 border-t border-[var(--border-subtle)]">
-          <div className="space-y-1.5">
-            <h2 className="text-xs font-bold uppercase tracking-wider text-[var(--text-muted)]">
-              Ce promit inițiatorii
-            </h2>
-            <p className="text-[15px] text-[var(--text-secondary)] leading-relaxed">
-              {c.initiatorClaim}
+        <section aria-labelledby="realitate" className="mt-6 grid gap-4 md:grid-cols-2">
+          <h2 id="realitate" className="sr-only">
+            Ce promit inițiatorii și ce face legea
+          </h2>
+          <div className="rounded-2xl bg-sunken p-6">
+            <h3 className="text-sm font-semibold text-ink">Ce promit inițiatorii</h3>
+            <p className="mt-2 text-[15px] leading-7 text-body">{c.initiatorClaim}</p>
+          </div>
+          <div className={`rounded-2xl p-6 ${c.riskLevel === 'red' ? 'bg-risk-red-soft' : c.riskLevel === 'yellow' ? 'bg-risk-amber-soft' : 'bg-risk-green-soft'}`}>
+            <h3 className={`text-sm font-semibold ${RISK[c.riskLevel].text}`}>Ce face legea în realitate</h3>
+            <p className="mt-2 text-[15px] leading-7 text-ink">{c.realityCheck}</p>
+          </div>
+        </section>
+
+        <section aria-labelledby="scoruri" className={`${panel} mt-6 p-6 sm:p-7`}>
+          <div className="flex flex-wrap items-end justify-between gap-4">
+            <div>
+              <h2 id="scoruri" className="text-base font-semibold text-ink">
+                De ce acest nivel de risc?
+              </h2>
+              <p className={`mt-1 text-sm font-semibold ${AGREE_TONE[ag.tone]}`}>{ag.label}</p>
+            </div>
+            <p className={`text-4xl font-semibold tabular-nums ${RISK[c.riskLevel].text}`}>
+              {fmt(c.riskScore)}
+              <span className="text-lg font-normal text-muted">/10</span>
             </p>
           </div>
-
-          <div className="space-y-1.5">
-            <h2 className="text-xs font-bold uppercase tracking-wider text-red-700 dark:text-red-400">
-              Ce face legea în realitate
-            </h2>
-            <p className="text-[15px] text-[var(--text-primary)] leading-relaxed">
-              {c.realityCheck}
-            </p>
+          <p className="mt-4 text-[15px] leading-7 text-body">{c.summaryTlDr}</p>
+          <div className="mt-5">
+            <ModelMeters bill={lite} />
           </div>
-        </div>
+          <a href="#audit-ai" className="mt-4 inline-flex min-h-11 items-center gap-1.5 text-sm font-semibold text-link underline underline-offset-4">
+            Ce a găsit fiecare model în text
+            <ChevronDown className="h-4 w-4" aria-hidden />
+          </a>
+        </section>
 
-        {/* Official PDF Links + DOCX */}
-        <div className="flex flex-wrap items-center justify-between gap-3 pt-4 border-t border-[var(--border-subtle)] text-xs">
+        <div className="mt-6 flex flex-wrap items-center justify-between gap-3 text-sm">
           <div className="flex flex-wrap items-center gap-2">
-            <span className="text-[var(--text-muted)] font-medium">Documente Senat:</span>
+            <span className="text-muted">Documente oficiale:</span>
             {bill.pdfs.map((pdf) => (
               <a
                 key={pdf.url}
                 href={pdf.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="touch-target inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-[var(--surface-elevated)] hover:bg-[var(--border-subtle)] font-medium transition-colors"
+                className="inline-flex min-h-10 items-center gap-1.5 rounded-lg border border-line bg-surface px-3 text-xs font-medium text-body transition-colors hover:border-line-strong hover:text-ink"
               >
-                <FileText className="w-3.5 h-3.5 text-[var(--text-muted)]" />
-                <span>{pdf.label}</span>
+                <FileText className="h-3.5 w-3.5 text-muted" aria-hidden />
+                {pdf.label}
               </a>
             ))}
           </div>
-
           <a
             href={`/docs/Punct_de_vedere_${bill.slug.toUpperCase()}.docx`}
             download
-            className="touch-target inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-[var(--surface-elevated)] hover:bg-[var(--border-subtle)] font-semibold transition-colors"
+            className="inline-flex min-h-10 items-center gap-1.5 rounded-lg border border-line-strong bg-surface px-3 text-xs font-semibold text-ink hover:bg-sunken"
           >
-            <FileDown className="w-3.5 h-3.5" />
-            <span>Memoriu complet (.docx)</span>
+            <FileDown className="h-3.5 w-3.5" aria-hidden />
+            Memoriu complet (.docx)
           </a>
         </div>
-      </section>
 
-      {/* ZONA 2: KITUL DE ACȚIUNE ÎN 60 DE SECUNDE & AUDITUL CELOR 3 AI-URI */}
-      <ActionKitClient bill={bill} />
+        <div className="mt-12">
+          <ActionKitClient bill={bill} />
+        </div>
 
-      {/* ZONA 3: DOSARUL TEHNIC & JURIDIC (Articole, Fapte vs. Mituri, Inițiatori, PDF-uri) */}
-      {c.articlesBreakdown && c.articlesBreakdown.length > 0 && (
-        <section className="space-y-4">
-          <h2 className="text-xl sm:text-2xl font-bold">
-            Articol cu articol: Ce modifică concret
-          </h2>
-
-          <div className="rounded-2xl bg-[var(--surface-card)] border border-[var(--border-subtle)] divide-y divide-[var(--border-subtle)]">
-            {c.articlesBreakdown.map((item, idx) => (
-              <div key={idx} className="p-5 sm:p-6 space-y-3">
-                <h3 className="font-bold text-base sm:text-lg">
-                  <span className="font-mono text-red-700 dark:text-red-400 mr-2">
-                    {item.article}
-                  </span>
-                  {item.title}
-                </h3>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-[15px] leading-relaxed">
-                  <div>
-                    <div className="text-xs font-semibold text-[var(--text-muted)] mb-1">
-                      Modificarea în lege:
+        {c.articlesBreakdown && c.articlesBreakdown.length > 0 && (
+          <section aria-labelledby="articole" className="mt-14">
+            <h2 id="articole" className="font-display text-3xl font-normal">
+              Articol cu articol: ce modifică
+            </h2>
+            <div className={`${panel} mt-5 divide-y divide-line`}>
+              {c.articlesBreakdown.map((item, idx) => (
+                <div key={idx} className="p-5 sm:p-6">
+                  <h3 className="text-base font-semibold text-ink sm:text-lg">
+                    <span className={`mr-2 tabular-nums ${RISK[item.severity]?.text ?? 'text-muted'}`}>{item.article}</span>
+                    {item.title}
+                  </h3>
+                  <div className="mt-3 grid gap-4 text-[15px] leading-7 md:grid-cols-2">
+                    <div>
+                      <p className="mb-1 text-xs font-semibold text-muted">Ce scrie în lege</p>
+                      <p className="text-body">{item.whatChanges}</p>
                     </div>
-                    <p className="text-[var(--text-secondary)]">{item.whatChanges}</p>
-                  </div>
-                  <div>
-                    <div className="text-xs font-semibold text-red-700 dark:text-red-400 mb-1">
-                      Efectul în viața reală:
+                    <div>
+                      <p className={`mb-1 text-xs font-semibold ${RISK[item.severity]?.text ?? 'text-muted'}`}>Ce înseamnă în viața reală</p>
+                      <p className="text-ink">{item.realWorldImpact}</p>
                     </div>
-                    <p className="text-[var(--text-primary)]">{item.realWorldImpact}</p>
                   </div>
                 </div>
-              </div>
-            ))}
-          </div>
-        </section>
-      )}
+              ))}
+            </div>
+          </section>
+        )}
 
-      {c.mythsAndFacts && c.mythsAndFacts.length > 0 && (
-        <section className="space-y-4">
-          <h2 className="text-xl sm:text-2xl font-bold">
-            Fapte vs. Scuzele Inițiatorilor
-          </h2>
-
-          <div className="rounded-2xl bg-[var(--surface-card)] border border-[var(--border-subtle)] divide-y divide-[var(--border-subtle)]">
-            {c.mythsAndFacts.map((mf, i) => {
-              const isConfirmed = mf.verdict === 'confirmat';
-              const isNuanced = mf.verdict === 'nuantat';
-              return (
-                <div key={i} className="p-5 sm:p-6 space-y-2">
-                  <div className="flex flex-wrap items-center gap-2">
-                    <span
-                      className={`px-2 py-0.5 rounded text-xs font-semibold ${
-                        isConfirmed
-                          ? 'bg-red-600 text-white'
-                          : isNuanced
-                          ? 'bg-amber-500/20 text-amber-800 dark:text-amber-300'
-                          : 'bg-[var(--surface-elevated)] text-[var(--text-secondary)]'
-                      }`}
-                    >
-                      {isConfirmed
-                        ? 'Confirmat 100%'
-                        : isNuanced
-                        ? 'Nuanță juridică importantă'
-                        : 'Fals / Demontat'}
-                    </span>
-                    <h3 className="font-bold text-base">{mf.claim}</h3>
-                  </div>
-                  <p className="text-[15px] text-[var(--text-secondary)] prose-measure leading-relaxed">
-                    {mf.explanation}
-                  </p>
-                </div>
-              );
-            })}
-          </div>
-        </section>
-      )}
-
-      {/* BELOW-THE-FOLD REFERENCE ACCORDIONS (Deferred + Find-in-Page searchable via native <details>) */}
-      <div className="space-y-3 heavy-section-deferred">
-        {/* Citizen Opinions */}
-        <details
-          open={bill.publicOpinions.length > 0}
-          className="group rounded-2xl bg-[var(--surface-card)] border border-[var(--border-subtle)] overflow-hidden"
-        >
-          <summary className="touch-target px-5 py-4 cursor-pointer flex items-center justify-between gap-4 font-bold text-base hover:bg-[var(--surface-elevated)]/40 transition-colors">
-            <span>
-              Puncte de vedere ale cetățenilor pe Senat.ro ({bill.publicOpinions.length})
-            </span>
-            <span className="text-xs font-normal text-[var(--text-muted)] group-open:rotate-180 transition-transform">
-              ▼
-            </span>
-          </summary>
-
-          <div className="px-5 pb-5 pt-2 border-t border-[var(--border-subtle)] space-y-3">
-            {bill.publicOpinions.length === 0 ? (
-              <p className="text-sm text-[var(--text-secondary)]">
-                Niciun punct de vedere publicat încă pe pagina Senatului pentru {bill.id}.
-              </p>
-            ) : (
-              <div className="divide-y divide-[var(--border-subtle)]">
-                {bill.publicOpinions.map((op) => (
-                  <div key={op.regNo} className="py-3 first:pt-0 last:pb-0 space-y-1 text-sm">
-                    <div className="flex flex-wrap items-center justify-between gap-2 text-xs text-[var(--text-muted)] tabular-nums">
-                      <span className="font-semibold text-[var(--text-primary)]">
-                        {op.author} · Nr. {op.regNo}
-                      </span>
-                      <span>{op.date}</span>
+        {c.mythsAndFacts && c.mythsAndFacts.length > 0 && (
+          <section aria-labelledby="fapte" className="mt-14">
+            <h2 id="fapte" className="font-display text-3xl font-normal">
+              Ce spun inițiatorii, verificat
+            </h2>
+            <div className={`${panel} mt-5 divide-y divide-line`}>
+              {c.mythsAndFacts.map((mf, i) => {
+                const tone =
+                  mf.verdict === 'confirmat'
+                    ? 'bg-risk-red-soft text-risk-red-text'
+                    : mf.verdict === 'nuantat'
+                      ? 'bg-risk-amber-soft text-risk-amber-text'
+                      : 'bg-sunken text-body';
+                const label = mf.verdict === 'confirmat' ? 'Riscul se confirmă' : mf.verdict === 'nuantat' ? 'Nuanțat' : 'Nu se confirmă';
+                return (
+                  <div key={i} className="p-5 sm:p-6">
+                    <div className="flex flex-wrap items-center gap-2">
+                      <span className={`rounded-md px-2 py-0.5 text-xs font-semibold ${tone}`}>{label}</span>
+                      <h3 className="text-base font-semibold text-ink">{mf.claim}</h3>
                     </div>
-                    <p className="text-[var(--text-secondary)] prose-measure leading-relaxed">
-                      {op.text}
-                    </p>
+                    <p className="mt-2 text-[15px] leading-7 text-body prose-measure">{mf.explanation}</p>
                   </div>
-                ))}
-              </div>
-            )}
-          </div>
-        </details>
+                );
+              })}
+            </div>
+          </section>
+        )}
 
-        {/* Initiators & Parties */}
-        <details className="group rounded-2xl bg-[var(--surface-card)] border border-[var(--border-subtle)] overflow-hidden">
-          <summary className="touch-target px-5 py-4 cursor-pointer flex items-center justify-between gap-4 font-bold text-base hover:bg-[var(--surface-elevated)]/40 transition-colors">
-            <span>
-              Lista nominală a inițiatorilor ({bill.initiators.length} parlamentari ·{' '}
-              {bill.parties.join(', ') || 'Parlament'})
-            </span>
-            <span className="text-xs font-normal text-[var(--text-muted)] group-open:rotate-180 transition-transform">
-              ▼
-            </span>
-          </summary>
-
-          <div className="px-5 pb-5 pt-3 border-t border-[var(--border-subtle)] space-y-4">
-            {Object.entries(byParty).map(([party, members]) => (
-              <div key={party} className="space-y-1.5">
-                <div className="text-xs font-bold uppercase tracking-wider text-[var(--text-muted)]">
-                  {party} ({members.length})
-                </div>
-                <div className="flex flex-wrap gap-1.5">
-                  {members.map((m, idx) => (
-                    <span
-                      key={idx}
-                      className="px-2.5 py-1 rounded-md bg-[var(--surface-elevated)] text-xs text-[var(--text-secondary)]"
-                    >
-                      <strong className="text-[var(--text-primary)]">{m.name}</strong> ({m.role}
-                      {m.note ? ` · ${m.note}` : ''})
-                    </span>
+        <div className="deferred mt-14 space-y-3">
+          <details open={bill.publicOpinions.length > 0} className={`${panel} overflow-hidden`}>
+            <summary className={summaryCls}>
+              Opiniile depuse pe senat.ro ({bill.publicOpinions.length})
+              <ChevronDown className="chevron h-5 w-5 shrink-0 text-muted" aria-hidden />
+            </summary>
+            <div className="border-t border-line px-5 pb-5 pt-3">
+              {bill.publicOpinions.length === 0 ? (
+                <p className="text-sm text-body">Nicio opinie publicată încă pe pagina Senatului pentru {bill.id}.</p>
+              ) : (
+                <div className="divide-y divide-line">
+                  {bill.publicOpinions.map((op) => (
+                    <div key={op.regNo} className="space-y-1 py-3 text-sm first:pt-0 last:pb-0">
+                      <div className="flex flex-wrap items-center justify-between gap-2 text-xs tabular-nums text-muted">
+                        <span className="font-semibold text-ink">
+                          {op.author} · nr. {op.regNo}
+                        </span>
+                        <span>{op.date}</span>
+                      </div>
+                      <p className="leading-relaxed text-body prose-measure">{op.text}</p>
+                    </div>
                   ))}
                 </div>
-              </div>
-            ))}
-          </div>
-        </details>
+              )}
+            </div>
+          </details>
 
-        {/* Legislative Timeline */}
-        <details className="group rounded-2xl bg-[var(--surface-card)] border border-[var(--border-subtle)] overflow-hidden">
-          <summary className="touch-target px-5 py-4 cursor-pointer flex items-center justify-between gap-4 font-bold text-base hover:bg-[var(--surface-elevated)]/40 transition-colors">
-            <span>Parcursul legislativ și avizele ({bill.timeline.length} etape)</span>
-            <span className="text-xs font-normal text-[var(--text-muted)] group-open:rotate-180 transition-transform">
-              ▼
-            </span>
-          </summary>
-
-          <div className="px-5 pb-5 pt-3 border-t border-[var(--border-subtle)] divide-y divide-[var(--border-subtle)] text-sm">
-            {bill.timeline.map((t, i) => (
-              <div
-                key={i}
-                className="py-2.5 first:pt-0 last:pb-0 flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-4"
-              >
-                <span className="font-mono text-xs text-[var(--text-muted)] tabular-nums shrink-0">
-                  {t.date}
-                </span>
-                <span className="text-[var(--text-secondary)]">{t.action}</span>
-              </div>
-            ))}
-          </div>
-        </details>
-
-        {/* Extracted Official PDF Texts */}
-        {extractedTexts.length > 0 && (
-          <details className="group rounded-2xl bg-[var(--surface-card)] border border-[var(--border-subtle)] overflow-hidden">
-            <summary className="touch-target px-5 py-4 cursor-pointer flex items-center justify-between gap-4 font-bold text-base hover:bg-[var(--surface-elevated)]/40 transition-colors">
-              <span>
-                Textul integral extras din PDF-urile oficiale ({extractedTexts.length} documente)
-              </span>
-              <span className="text-xs font-normal text-[var(--text-muted)] group-open:rotate-180 transition-transform">
-                ▼
-              </span>
+          <details className={`${panel} overflow-hidden`}>
+            <summary className={summaryCls}>
+              Inițiatorii ({bill.initiators.length})
+              <ChevronDown className="chevron h-5 w-5 shrink-0 text-muted" aria-hidden />
             </summary>
-
-            <div className="px-5 pb-5 pt-3 border-t border-[var(--border-subtle)] space-y-4">
-              {extractedTexts.map((doc) => (
-                <div key={doc.filename} className="space-y-1.5">
-                  <div className="font-mono font-semibold text-xs text-[var(--text-muted)]">
-                    Document: {doc.filename}
-                  </div>
-                  <pre className="whitespace-pre-wrap text-xs font-mono leading-relaxed max-h-96 overflow-y-auto bg-[var(--surface-elevated)] p-3.5 rounded-xl">
-                    {doc.content}
-                  </pre>
+            <div className="space-y-4 border-t border-line px-5 pb-5 pt-4">
+              {partyEntries.map(([party, members]) => (
+                <div key={party}>
+                  <h3 className="text-xs font-semibold text-muted">
+                    {party} ({members.length})
+                  </h3>
+                  <ul className="mt-2 flex flex-wrap gap-1.5">
+                    {members.map((m) => {
+                      const s = slugs.get(m.name.trim());
+                      return (
+                        <li key={`${m.name}-${m.role}`}>
+                          <Link
+                            href={s ? `/parlamentari/${s}` : '/parlamentari'}
+                            className="inline-flex rounded-md bg-sunken px-2.5 py-1 text-xs text-body transition-colors hover:bg-line hover:text-ink"
+                          >
+                            <strong className="font-semibold text-ink">{m.name}</strong>&nbsp;· {m.role}
+                          </Link>
+                        </li>
+                      );
+                    })}
+                  </ul>
                 </div>
               ))}
             </div>
           </details>
-        )}
-      </div>
-    </div>
+
+          <details className={`${panel} overflow-hidden`}>
+            <summary className={summaryCls}>
+              Parcursul legislativ și avizele ({bill.timeline.length})
+              <ChevronDown className="chevron h-5 w-5 shrink-0 text-muted" aria-hidden />
+            </summary>
+            <ol className="divide-y divide-line border-t border-line px-5 pb-5 pt-3 text-sm">
+              {bill.timeline.map((t, i) => (
+                <li key={i} className="flex flex-col gap-1 py-2.5 first:pt-0 last:pb-0 sm:flex-row sm:items-baseline sm:gap-4">
+                  <span className="shrink-0 text-xs tabular-nums text-muted">{t.date}</span>
+                  <span className="text-body">{t.action}</span>
+                </li>
+              ))}
+            </ol>
+          </details>
+
+          {extractedTexts.length > 0 && (
+            <details className={`${panel} overflow-hidden`}>
+              <summary className={summaryCls}>
+                Textul integral din PDF-urile oficiale ({extractedTexts.length})
+                <ChevronDown className="chevron h-5 w-5 shrink-0 text-muted" aria-hidden />
+              </summary>
+              <div className="space-y-4 border-t border-line px-5 pb-5 pt-3">
+                {extractedTexts.map((doc) => (
+                  <div key={doc.filename}>
+                    <h3 className="text-xs font-semibold text-muted">{doc.filename.replace(/_/g, ' ')}</h3>
+                    <pre className="mt-1.5 max-h-96 overflow-y-auto whitespace-pre-wrap rounded-xl bg-sunken p-4 font-mono text-xs leading-relaxed text-body">
+                      {doc.content}
+                    </pre>
+                  </div>
+                ))}
+              </div>
+            </details>
+          )}
+        </div>
+      </article>
+    </Container>
   );
 }

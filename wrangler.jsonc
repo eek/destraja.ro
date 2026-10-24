@@ -1,0 +1,11 @@
+{
+  // Site static: `npm run build` produce out/, iar Cloudflare servește fișierele direct, fără cod de Worker.
+  "name": "lastraja",
+  "compatibility_date": "2026-10-20",
+  "assets": {
+    "directory": "./out",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
+  },
+  "routes": [{ "pattern": "lastraja.ro", "custom_domain": true }]
+}

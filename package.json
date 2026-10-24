@@ -5,10 +5,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "wrangler dev",
     "straja:sync": "node scripts/straja-sync.mjs",
     "straja:council": "node scripts/straja-council.mjs",
-    "straja:docx": "node scripts/straja-docx.mjs"
+    "straja:docx": "node scripts/straja-docx.mjs",
+    "deploy": "next build && wrangler deploy",
+    "preview": "next build && wrangler dev"
   },
   "dependencies": {
     "docx": "^9.1.0",

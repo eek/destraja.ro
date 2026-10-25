@@ -135,7 +135,7 @@ export function computeStats(bills: BillLite[]) {
         : null,
     };
   });
-  partyStats.sort((a, b) => b.redCount - a.redCount || b.billsCount - a.billsCount);
+  partyStats.sort((a, b) => b.avgRiskScore - a.avgRiskScore || b.billsCount - a.billsCount);
 
   const slugs = mpSlugs(bills);
   const mpStats: MpStat[] = [...mpMap.values()].map((mp) => ({

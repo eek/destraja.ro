@@ -10,6 +10,7 @@ import { countWord, deadlineInfo, DEADLINE_TONE, fmt, normalize } from '@/lib/fo
 import { agreement, camps, modelScore } from '@/lib/stats';
 import { billsCsv, citation, downloadFile, isoToday } from '@/lib/export';
 import { CopyButton, PartyTag, RiskDot, btnSecondary, inputCls } from '@/components/ui';
+import { trackAttrs } from '@/lib/analytics';
 
 type DSort = 'risc' | 'termen' | 'opinii' | 'dezacord';
 const AGREE_TONE = { strong: 'text-muted', partial: 'text-muted', split: 'text-ink' } as const;
@@ -106,6 +107,7 @@ export default function Dossier({
         <button
           type="button"
           onClick={() => downloadFile(`lastraja-proiecte-${isoToday()}.csv`, billsCsv(rows))}
+          {...trackAttrs('csv_download', { scope: 'table' })}
           disabled={!rows.length}
           className={`${btnSecondary} min-h-10 px-3.5 text-xs lg:ml-auto`}
         >
@@ -192,11 +194,18 @@ export default function Dossier({
                   <td className="px-2 py-3 text-right tabular-nums text-body">{b.opinionsCount}</td>
                   <td className="px-3 py-3">
                     <div className="flex items-center justify-end gap-1.5">
-                      <CopyButton compact label={`Copiază citatul pentru ${b.id}`} active={copied === `row-${b.id}`} onClick={() => onCopy(`row-${b.id}`, citation(b))} />
+                      <CopyButton
+                        compact
+                        label={`Copiază citatul pentru ${b.id}`}
+                        active={copied === `row-${b.id}`}
+                        onClick={() => onCopy(`row-${b.id}`, citation(b))}
+                        track={trackAttrs('press_copy', { item: 'citation', bill_id: b.id })}
+                      />
                       <a
                         href={b.sheetUrl}
                         target="_blank"
                         rel="noopener noreferrer"
+                        {...trackAttrs('official_source_open', { bill_id: b.id, source: 'sheet' })}
                         aria-label={`Fișa ${b.id} pe senat.ro`}
                         title="Fișa oficială pe senat.ro"
                         className="inline-flex h-9 w-9 items-center justify-center rounded-lg border border-line-strong text-body transition-colors hover:border-muted hover:text-ink"

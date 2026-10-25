@@ -3,6 +3,7 @@ import { Public_Sans, Source_Serif_4 } from 'next/font/google';
 import SiteHeader from '@/components/site/SiteHeader';
 import SiteFooter from '@/components/site/SiteFooter';
 import CookieNotice from '@/components/site/CookieNotice';
+import AnalyticsBoot from '@/components/site/AnalyticsBoot';
 import { getDataSyncedAt } from '@/lib/bills';
 import { SITE_URL } from '@/lib/site';
 import { THEME_BOOT_SCRIPT } from '@/lib/theme';
@@ -69,6 +70,7 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
         </main>
         <SiteFooter syncedAt={syncedAt} />
         <CookieNotice />
+        <AnalyticsBoot />
       </body>
     </html>
   );

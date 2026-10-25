@@ -53,6 +53,7 @@ export default function SiteFooter({ syncedAt }: { syncedAt: string | null }) {
             <h2 className="text-sm font-semibold text-ink">Confidențialitate</h2>
             <ul className="mt-3 space-y-2">
               <li><Link href="/cookies" className={linkCls}>Politica de cookies</Link></li>
+              <li><Link href="/cookies#alegerea-ta" className={linkCls}>Setări statistici</Link></li>
             </ul>
             <h2 className="mt-6 text-sm font-semibold text-ink">Tema</h2>
             <div className="mt-2">

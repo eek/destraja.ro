@@ -8,6 +8,8 @@ import { RISK, RISK_LEVELS } from '@/lib/risk';
 import { countWord, deadlineInfo, DEADLINE_TONE, fmt } from '@/lib/format';
 import { byRiskDesc, type RiskCounts } from '@/lib/stats';
 import { RiskChip, RiskDot } from '@/components/ui';
+import { ctaLabel } from '@/components/bills/BillCard';
+import { track, trackAttrs } from '@/lib/analytics';
 
 /* Centrul ești tu: cu cât un punct e mai aproape, cu atât scorul de risc e mai mare. */
 const RC = 200;
@@ -124,10 +126,12 @@ export default function RadarScope({ bills, counts }: { bills: BillLite[]; count
               onMouseEnter={() => setActiveId(b.id)}
               onFocus={() => setActiveId(b.id)}
               onClick={() => setActiveId(b.id)}
+              {...trackAttrs('radar_select', { bill_id: b.id })}
               onKeyDown={(e) => {
                 if (e.key === 'Enter' || e.key === ' ') {
                   e.preventDefault();
                   setActiveId(b.id);
+                  track('radar_select', { bill_id: b.id });
                 }
               }}
             >
@@ -181,8 +185,12 @@ export default function RadarScope({ bills, counts }: { bills: BillLite[]; count
               <Clock className="h-3.5 w-3.5" aria-hidden />
               {dl.label}
             </span>
-            <Link href={`/legi/${active.slug}`} className="inline-flex items-center gap-1 text-sm font-semibold text-link hover:underline underline-offset-4">
-              {dl.open ? 'Vezi și obiectează' : 'Vezi analiza'}
+            <Link
+              href={`/legi/${active.slug}`}
+              {...trackAttrs('bill_open', { bill_id: active.id, source: 'radar' })}
+              className="inline-flex items-center gap-1 text-sm font-semibold text-link hover:underline underline-offset-4"
+            >
+              {ctaLabel(active, true)}
               <ArrowRight className="h-4 w-4" aria-hidden />
             </Link>
           </div>

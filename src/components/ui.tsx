@@ -105,16 +105,19 @@ export function CopyButton({
   onClick,
   label = 'Copiază',
   compact = false,
+  track,
 }: {
   active: boolean;
   onClick: () => void;
   label?: string;
   compact?: boolean;
+  track?: Record<string, string>;
 }) {
   return (
     <button
       type="button"
       onClick={onClick}
+      {...track}
       aria-label={compact ? (active ? 'Copiat' : label) : undefined}
       title={label}
       className={`inline-flex shrink-0 items-center gap-1.5 rounded-lg border text-xs font-semibold transition-colors ${

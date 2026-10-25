@@ -8,6 +8,7 @@ import { countWord, normalize } from '@/lib/format';
 import { byDeadline, byNewest, byRiskDesc, oneLiner, type RiskCounts } from '@/lib/stats';
 import { EmptyState, RiskDot, btnPrimary, btnSecondary, inputCls } from '@/components/ui';
 import BillCard from './BillCard';
+import { track, trackAttrs } from '@/lib/analytics';
 
 type SortKey = 'risc' | 'termen' | 'noi';
 const SORTS: { key: SortKey; label: string }[] = [
@@ -108,7 +109,13 @@ export default function BillExplorer({
           <label className="relative block">
             <span className="sr-only">Pe cine afectează</span>
             <Users className="pointer-events-none absolute left-4 top-1/2 h-[18px] w-[18px] -translate-y-1/2 text-muted" aria-hidden />
-            <select value={group} onChange={(e) => touch(setGroup)(e.target.value)} className={`${inputCls} appearance-none pl-11 pr-10`}>
+            <select
+              value={group}
+              onChange={(e) => {
+                touch(setGroup)(e.target.value);
+                track('bill_filter', { filter: 'affected_group', value: e.target.value });
+              }}
+              className={`${inputCls} appearance-none pl-11 pr-10`}>
               <option value="all">Pe cine afectează? Toate categoriile</option>
               {groups.map(([g, n]) => (
                 <option key={g} value={g}>
@@ -130,6 +137,7 @@ export default function BillExplorer({
                   type="button"
                   aria-pressed={on}
                   onClick={() => touch(setRisk)(o.key)}
+                  {...trackAttrs('bill_filter', { filter: 'risk', value: o.key })}
                   className={`inline-flex min-h-10 items-center gap-2 rounded-lg border px-3 text-sm font-semibold transition-colors ${
                     on
                       ? o.key === 'all'
@@ -149,6 +157,7 @@ export default function BillExplorer({
                 type="button"
                 aria-pressed={soonOnly}
                 onClick={() => touch(setSoonOnly)(!soonOnly)}
+                {...trackAttrs('bill_filter', { filter: 'closing_soon', value: soonOnly ? 'off' : 'on' })}
                 className={`inline-flex min-h-10 items-center gap-2 rounded-lg border px-3 text-sm font-semibold transition-colors ${
                   soonOnly ? 'border-brand bg-brand-soft text-ink' : 'border-line bg-surface text-body hover:border-line-strong hover:text-ink'
                 }`}
@@ -165,7 +174,10 @@ export default function BillExplorer({
             <span className="relative">
               <select
                 value={sort}
-                onChange={(e) => setSort(e.target.value as SortKey)}
+                onChange={(e) => {
+                  setSort(e.target.value as SortKey);
+                  track('bill_filter', { filter: 'sort', value: e.target.value });
+                }}
                 className="h-10 appearance-none rounded-lg border border-line bg-surface pl-3 pr-9 text-sm font-semibold text-ink focus:border-brand focus:outline-none"
               >
                 {SORTS.map((s) => (
@@ -198,7 +210,7 @@ export default function BillExplorer({
             </button>
           )}
           {hasFilters && (
-            <button type="button" onClick={reset} className="inline-flex min-h-9 items-center gap-1 text-xs font-semibold text-link underline underline-offset-4">
+            <button type="button" onClick={reset} {...trackAttrs('bill_filter', { filter: 'reset' })} className="inline-flex min-h-9 items-center gap-1 text-xs font-semibold text-link underline underline-offset-4">
               Șterge filtrele
             </button>
           )}
@@ -210,7 +222,7 @@ export default function BillExplorer({
           title="Niciun proiect nu se potrivește"
           text="Încearcă un cuvânt mai general sau renunță la unul dintre filtre."
           action={
-            <button type="button" onClick={reset} className={`${btnPrimary} min-h-11 px-5 text-sm`}>
+            <button type="button" onClick={reset} {...trackAttrs('bill_filter', { filter: 'reset' })} className={`${btnPrimary} min-h-11 px-5 text-sm`}>
               Arată toate proiectele
             </button>
           }

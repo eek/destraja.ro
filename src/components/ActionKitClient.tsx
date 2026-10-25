@@ -13,6 +13,8 @@ import {
 import type { EnrichedBill, InstitutionalEmail } from '@/lib/types';
 import { MODELS } from '@/lib/site';
 import { fmt } from '@/lib/format';
+import { trackAttrs } from '@/lib/analytics';
+import ReportIssue from '@/components/bills/ReportIssue';
 
 interface ActionKitClientProps {
   bill: EnrichedBill;
@@ -74,16 +76,20 @@ export default function ActionKitClient({ bill }: ActionKitClientProps) {
             targetName: 'Comisiile Raportoare ale Senatului României',
             badge: 'Procedură Parlamentară',
             to: ['juridica@senat.ro', 'infopub@senat.ro'],
-            subject: `Punct de vedere și obiecții tehnice privind propunerea legislativă ${bill.id} (Cod Senat ${bill.cod})`,
-            body: `Către: Biroul Permanent al Senatului României și Comisiile sesizate în fond\n\nSubiect: Punct de vedere privind ${bill.id} - ${bill.officialTitle}\n\nStimați Senatori,\n\nÎn temeiul Legii nr. 52/2003 privind transparența decizională, vă transmit următorul punct de vedere referitor la propunerea legislativă ${bill.id}:\n\n1. Articol vizat: ${articleRef}\n2. Propunere de modificare/respingere: ${proposalContent}\n3. Argumentare juridică și tehnică: ${argumentation}\n4. Observații suplimentare: ${otherComments}\n\nVă solicit înregistrarea oficială a acestui punct de vedere la dosarul legii (${bill.id}) și analizarea sa în ședința comisiilor raportoare.\n\nCu considerație,\n${citizenName.trim() || '[Numele Dvs.]'}\n${citizenRole}`,
+            subject: `Punct de vedere privind propunerea legislativă ${bill.id} (Cod Senat ${bill.cod})`,
+            body: `Către: Biroul Permanent al Senatului României și Comisiile sesizate în fond\n\nSubiect: Punct de vedere privind ${bill.id} - ${bill.officialTitle}\n\nStimați Senatori,\n\nÎn temeiul Legii nr. 52/2003 privind transparența decizională, vă transmit următorul punct de vedere referitor la propunerea legislativă ${bill.id}:\n\n1. Articol vizat: ${articleRef}\n2. Conținutul propunerii: ${proposalContent}\n3. Argumentare juridică și tehnică: ${argumentation}\n4. Observații suplimentare: ${otherComments}\n\nVă solicit înregistrarea oficială a acestui punct de vedere la dosarul legii (${bill.id}) și analizarea sa în ședința comisiilor raportoare.\n\nCu considerație,\n${citizenName.trim() || '[Numele Dvs.]'}\n${citizenRole}`,
             whyItMatters:
-              'Obligă staff-ul tehnic al comisiilor din Senat să înregistreze obiecția la dosarul proiectului de lege.',
+              'Obligă staff-ul tehnic al comisiilor din Senat să înregistreze punctul tău de vedere la dosarul proiectului de lege.',
           },
         ];
 
   const defaultSocialPost =
     c.socialShare?.facebookPost ||
-    `Atenție la proiectul de lege ${bill.id} aflat în consultare publică la Senat până pe ${bill.consultationDeadline}!\n\nCe spun inițiatorii: ${c.initiatorClaim}\n\nCe face legea în realitate (Scor risc AI: ${fmt(c.riskScore)}/10): ${c.realityCheck}\n\nAm pregătit textele pre-calculate la fix pentru formularul Senatului + documentul Word (.docx) gata de atașat în 60 de secunde! Link în primul comentariu.`;
+    `${
+      c.riskLevel === 'red'
+        ? `Atenție la proiectul de lege ${bill.id} aflat în consultare publică la Senat până pe ${bill.consultationDeadline}!`
+        : `Proiectul de lege ${bill.id} e în consultare publică la Senat până pe ${bill.consultationDeadline}.`
+    }\n\nCe spun inițiatorii: ${c.initiatorClaim}\n\nCe face legea în realitate (Scor risc AI: ${fmt(c.riskScore)}/10): ${c.realityCheck}\n\nAm pregătit textele pre-calculate la fix pentru formularul Senatului + documentul Word (.docx) gata de atașat în 60 de secunde! Link în primul comentariu.`;
 
   const defaultFirstComment =
     c.socialShare?.firstCommentLinks ||
@@ -92,6 +98,7 @@ export default function ActionKitClient({ bill }: ActionKitClientProps) {
   const formBoxes = [
     {
       id: 'articleRef',
+      field: 'article',
       label: '1. Nr. articol la care se face referire',
       max: 50,
       value: articleRef,
@@ -100,6 +107,7 @@ export default function ActionKitClient({ bill }: ActionKitClientProps) {
     },
     {
       id: 'proposalContent',
+      field: 'proposal',
       label: '2. Conținut propunere',
       max: 400,
       value: proposalContent,
@@ -108,6 +116,7 @@ export default function ActionKitClient({ bill }: ActionKitClientProps) {
     },
     {
       id: 'argumentation',
+      field: 'argument',
       label: '3. Argumentare',
       max: 400,
       value: argumentation,
@@ -116,6 +125,7 @@ export default function ActionKitClient({ bill }: ActionKitClientProps) {
     },
     {
       id: 'otherComments',
+      field: 'comments',
       label: '4. Alte idei, sugestii, comentarii',
       max: 400,
       value: otherComments,
@@ -149,6 +159,7 @@ export default function ActionKitClient({ bill }: ActionKitClientProps) {
               href="https://www.senat.ro/LegiProiect.aspx"
               target="_blank"
               rel="noopener noreferrer"
+              {...trackAttrs('senat_form_open', { bill_id: bill.id })}
               className="touch-target inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-brand hover:bg-brand-hover text-on-brand font-semibold text-sm shrink-0 transition-colors"
             >
               <span>Deschide Formularul Senat.ro</span>
@@ -167,6 +178,7 @@ export default function ActionKitClient({ bill }: ActionKitClientProps) {
               role="tab"
               aria-selected={activeTab === 'senat'}
               onClick={() => setActiveTab('senat')}
+              {...trackAttrs('kit_tab', { bill_id: bill.id, tab: 'senat' })}
               className={`touch-target py-2 px-2.5 rounded-lg transition-colors cursor-pointer ${
                 activeTab === 'senat'
                   ? 'bg-surface text-ink font-semibold'
@@ -180,6 +192,7 @@ export default function ActionKitClient({ bill }: ActionKitClientProps) {
               role="tab"
               aria-selected={activeTab === 'email'}
               onClick={() => setActiveTab('email')}
+              {...trackAttrs('kit_tab', { bill_id: bill.id, tab: 'email' })}
               className={`touch-target py-2 px-2.5 rounded-lg transition-colors cursor-pointer ${
                 activeTab === 'email'
                   ? 'bg-surface text-ink font-semibold'
@@ -193,6 +206,7 @@ export default function ActionKitClient({ bill }: ActionKitClientProps) {
               role="tab"
               aria-selected={activeTab === 'share'}
               onClick={() => setActiveTab('share')}
+              {...trackAttrs('kit_tab', { bill_id: bill.id, tab: 'share' })}
               className={`touch-target py-2 px-2.5 rounded-lg transition-colors cursor-pointer ${
                 activeTab === 'share'
                   ? 'bg-surface text-ink font-semibold'
@@ -222,6 +236,7 @@ export default function ActionKitClient({ bill }: ActionKitClientProps) {
                 <a
                   href={`/docs/Punct_de_vedere_${bill.slug.toUpperCase()}.docx`}
                   download
+                  {...trackAttrs('docx_download', { bill_id: bill.id, personalized: 'no', source: 'kit' })}
                   className="touch-target inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-brand text-on-brand font-semibold text-xs sm:text-sm shrink-0 transition-opacity hover:opacity-90"
                 >
                   <FileDown className="w-4 h-4" />
@@ -253,6 +268,7 @@ export default function ActionKitClient({ bill }: ActionKitClientProps) {
                   <button
                     type="button"
                     onClick={handleCustomDocx}
+                    {...trackAttrs('docx_download', { bill_id: bill.id, personalized: 'yes', source: 'kit' })}
                     disabled={isGeneratingDocx}
                     className="touch-target inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-xl bg-brand hover:bg-brand-hover text-on-brand font-semibold text-xs cursor-pointer"
                   >
@@ -300,6 +316,11 @@ export default function ActionKitClient({ bill }: ActionKitClientProps) {
                       <button
                         type="button"
                         onClick={() => copyText(box.id, box.value)}
+                        {...trackAttrs('text_copy', {
+                          bill_id: bill.id,
+                          field: box.field,
+                          edited: box.value === c.senatForm[box.id as keyof typeof c.senatForm] ? 'no' : 'yes',
+                        })}
                         className={`touch-target inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-semibold transition-colors cursor-pointer ${
                           isCopied
                             ? 'bg-brand-soft text-ink'
@@ -377,6 +398,7 @@ export default function ActionKitClient({ bill }: ActionKitClientProps) {
                     <div className="flex flex-wrap items-center gap-2 shrink-0">
                       <a
                         href={mailtoHref}
+                        {...trackAttrs('email_open', { bill_id: bill.id, institution: em.id })}
                         className="touch-target inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-xl bg-brand hover:bg-brand-hover text-on-brand font-semibold text-xs transition-colors"
                       >
                         <Mail className="w-3.5 h-3.5" />
@@ -385,6 +407,7 @@ export default function ActionKitClient({ bill }: ActionKitClientProps) {
                       <button
                         type="button"
                         onClick={() => copyText(`body-${em.id}`, em.body)}
+                        {...trackAttrs('text_copy', { bill_id: bill.id, field: 'email_body', institution: em.id })}
                         className="touch-target inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-xl bg-sunken hover:bg-line text-xs font-semibold cursor-pointer"
                       >
                         {copiedKey === `body-${em.id}` ? (
@@ -412,6 +435,7 @@ export default function ActionKitClient({ bill }: ActionKitClientProps) {
                         <button
                           type="button"
                           onClick={() => copyText(`subj-${em.id}`, em.subject)}
+                          {...trackAttrs('text_copy', { bill_id: bill.id, field: 'email_subject', institution: em.id })}
                           className="underline font-semibold shrink-0 cursor-pointer"
                         >
                           {copiedKey === `subj-${em.id}` ? 'Copiat' : 'Copiază subiect'}
@@ -441,6 +465,7 @@ export default function ActionKitClient({ bill }: ActionKitClientProps) {
                 <button
                   type="button"
                   onClick={() => copyText('social-post', defaultSocialPost)}
+                  {...trackAttrs('text_copy', { bill_id: bill.id, field: 'social_post' })}
                   className="touch-target inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-sunken hover:bg-brand hover:text-on-brand text-xs font-semibold transition-colors cursor-pointer shrink-0"
                 >
                   {copiedKey === 'social-post' ? (
@@ -471,6 +496,7 @@ export default function ActionKitClient({ bill }: ActionKitClientProps) {
                 <button
                   type="button"
                   onClick={() => copyText('social-comment', defaultFirstComment)}
+                  {...trackAttrs('text_copy', { bill_id: bill.id, field: 'social_comment' })}
                   className="touch-target inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-sunken hover:bg-brand hover:text-on-brand text-xs font-semibold transition-colors cursor-pointer shrink-0"
                 >
                   {copiedKey === 'social-comment' ? (
@@ -528,6 +554,7 @@ export default function ActionKitClient({ bill }: ActionKitClientProps) {
                   role="tab"
                   aria-selected={selected}
                   onClick={() => setActiveAi(key)}
+                  {...trackAttrs('ai_model_view', { bill_id: bill.id, model: key })}
                   className={`touch-target p-3 sm:p-4 text-left border-b-2 transition-colors cursor-pointer ${
                     selected
                       ? 'border-brand bg-surface font-semibold'
@@ -612,6 +639,8 @@ export default function ActionKitClient({ bill }: ActionKitClientProps) {
             </div>
           </div>
         </div>
+
+        <ReportIssue billId={bill.id} target={activeAi} />
       </section>
     </div>
   );

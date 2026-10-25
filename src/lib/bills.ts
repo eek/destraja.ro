@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import type { BillAnalysis, BillLite, EnrichedBill } from './types';
+import type { BillAnalysis, BillLite, BillNews, EnrichedBill } from './types';
 import { daysUntil } from './format';
 
 const ROOT = process.cwd();
@@ -8,6 +8,7 @@ const SENAT_BILLS_PATH = path.join(ROOT, 'data', 'senat-bills.json');
 const ONE_LINERS_PATH = path.join(ROOT, 'data', 'citizen-one-liners.json');
 const ANALYSES_DIR = path.join(ROOT, 'data', 'analyses');
 const TEXTS_DIR = path.join(ROOT, 'data', 'texts');
+const NEWS_DIR = path.join(ROOT, 'data', 'news');
 
 type RawBill = Omit<EnrichedBill, 'daysRemaining' | 'analysis' | 'cesNegative'> & { syncedAt?: string };
 
@@ -21,7 +22,14 @@ async function load() {
   let syncedAt: string | null = null;
   const bills: EnrichedBill[] = [];
   for (const { syncedAt: synced, ...bill } of list) {
-    const analysis: BillAnalysis = JSON.parse(await fs.readFile(path.join(ANALYSES_DIR, `${bill.slug}.json`), 'utf8'));
+    let analysis: BillAnalysis;
+    try {
+      analysis = JSON.parse(await fs.readFile(path.join(ANALYSES_DIR, `${bill.slug}.json`), 'utf8'));
+    } catch {
+      // Un proiect nou apare pe site abia după ce are analiza celor trei modele.
+      console.warn(`[bills] ${bill.id} nu are analiză; nu îl afișăm încă`);
+      continue;
+    }
     analysis.consensus.citizenOneLiner ??= oneLiners[bill.slug];
     if (synced && (!syncedAt || synced > syncedAt)) syncedAt = synced;
     bills.push({
@@ -90,6 +98,20 @@ export function toLite(b: EnrichedBill): BillLite {
 
 export async function getAllBillsLite(): Promise<BillLite[]> {
   return (await getAllBills()).map(toLite);
+}
+
+// Doar câmpurile afișate; propunerile neverificate („pending”) rămân în fișier, pentru operator.
+export async function getBillNews(slug: string): Promise<BillNews | null> {
+  try {
+    const raw = JSON.parse(await fs.readFile(path.join(NEWS_DIR, `${slug}.json`), 'utf8'));
+    const articles: BillNews['articles'] = (raw.articles ?? []).map(
+      ({ url, title, outlet, domain, publishedAt }: BillNews['articles'][number]) => ({ url, title, outlet, domain, publishedAt: publishedAt ?? null }),
+    );
+    articles.sort((a, b) => (b.publishedAt ?? '').localeCompare(a.publishedAt ?? ''));
+    return { checkedAt: raw.checkedAt, articles };
+  } catch {
+    return null;
+  }
 }
 
 export async function getBillExtractedTexts(slug: string): Promise<{ filename: string; content: string }[]> {

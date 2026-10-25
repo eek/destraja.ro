@@ -11,13 +11,15 @@ import { billsCsv, copyText, downloadFile, isoToday } from '@/lib/export';
 import { useLiveBills } from '@/lib/useLiveBills';
 import { Container, RiskDot, btnPrimary, btnSecondary, linkCls, panel } from '@/components/ui';
 import PartyChart from './PartyChart';
+import { trackAttrs } from '@/lib/analytics';
 import CoalitionMatrix from './CoalitionMatrix';
 import Dossier from './Dossier';
 import { CesList, CrossPartyList, Headlines, PanelTitle, PartyDetail, buildHeadlines } from './PressPanels';
 
 function pressSummary(ranked: BillLite[], stats: Stats, counts: RiskCounts, date: string | null) {
   const top = ranked.filter((b) => b.daysRemaining >= 0)[0] ?? ranked[0];
-  const redParty = [...stats.partyStats].sort((a, b) => b.redCount - a.redCount || b.avgRiskScore - a.avgRiskScore)[0];
+  // partyStats vine deja ordonat după scorul mediu de risc.
+  const riskiestParty = stats.partyStats[0];
   const lines = [
     'LA STRAJA LEGII · lastraja.ro',
     date ? `Situația la ${date}` : 'Situația la zi',
@@ -36,8 +38,11 @@ function pressSummary(ranked: BillLite[], stats: Stats, counts: RiskCounts, date
       `${SITE_URL}/legi/${top.slug}`,
     );
   }
-  if (redParty && redParty.redCount > 0) {
-    lines.push('', `Partidul cu inițiatori pe cele mai multe proiecte cu risc ridicat: ${redParty.party} (${redParty.redCount} din ${redParty.billsCount}).`);
+  if (riskiestParty) {
+    lines.push(
+      '',
+      `Cel mai mare scor mediu de risc pe partide: ${riskiestParty.party}, ${fmt(riskiestParty.avgRiskScore)} din 10, pe ${countWord(riskiestParty.billsCount, 'proiect', 'proiecte')}.`,
+    );
   }
   lines.push(
     '',
@@ -99,11 +104,11 @@ export default function PressClient({ bills: initial }: { bills: BillLite[] }) {
               </p>
             </div>
             <div className="flex flex-wrap gap-2">
-              <button type="button" onClick={copySummary} className={`${btnPrimary} min-h-11 px-4 text-sm`}>
+              <button type="button" onClick={copySummary} {...trackAttrs('press_copy', { item: 'summary' })} className={`${btnPrimary} min-h-11 px-4 text-sm`}>
                 {copied === 'summary' ? <Check className="h-4 w-4" aria-hidden /> : <Copy className="h-4 w-4" aria-hidden />}
                 {copied === 'summary' ? 'Rezumat copiat' : 'Copiază rezumatul de presă'}
               </button>
-              <button type="button" onClick={exportAll} className={`${btnSecondary} min-h-11 px-4 text-sm`}>
+              <button type="button" onClick={exportAll} {...trackAttrs('csv_download', { scope: 'all' })} className={`${btnSecondary} min-h-11 px-4 text-sm`}>
                 <Download className="h-4 w-4" aria-hidden />
                 CSV complet
               </button>
@@ -132,11 +137,11 @@ export default function PressClient({ bills: initial }: { bills: BillLite[] }) {
             <PanelTitle title="Rezumat de presă" sub="Gata de lipit într-un articol sau newsletter. Data se adaugă la copiere." />
             <pre className="mt-4 max-h-80 flex-1 overflow-auto whitespace-pre-wrap rounded-xl bg-sunken p-4 font-mono text-[12px] leading-relaxed text-body">{preview}</pre>
             <div className="mt-4 grid grid-cols-2 gap-2">
-              <button type="button" onClick={copySummary} className={`${btnPrimary} min-h-11 px-4 text-sm`}>
+              <button type="button" onClick={copySummary} {...trackAttrs('press_copy', { item: 'summary' })} className={`${btnPrimary} min-h-11 px-4 text-sm`}>
                 {copied === 'summary' ? <Check className="h-4 w-4" aria-hidden /> : <Copy className="h-4 w-4" aria-hidden />}
                 {copied === 'summary' ? 'Copiat' : 'Copiază'}
               </button>
-              <button type="button" onClick={exportAll} className={`${btnSecondary} min-h-11 px-4 text-sm`}>
+              <button type="button" onClick={exportAll} {...trackAttrs('csv_download', { scope: 'all' })} className={`${btnSecondary} min-h-11 px-4 text-sm`}>
                 <Download className="h-4 w-4" aria-hidden />
                 CSV
               </button>

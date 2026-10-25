@@ -291,6 +291,12 @@ async function main() {
 
   const list = await parseConsultationList();
   const enriched = [];
+  // Rulează nesupravegheat în fiecare dimineață: nu pierdem niciodată ce aveam deja.
+  // Proiectele scoase din lista Senatului rămân (consultare încheiată), iar o fișă care nu se
+  // încarcă azi își păstrează datele de ieri.
+  const previous = new Map(
+    (fs.existsSync(BILLS_FILE) ? JSON.parse(fs.readFileSync(BILLS_FILE, 'utf8')) : []).map((b) => [b.id, b]),
+  );
 
   for (let i = 0; i < list.length; i++) {
     const item = list[i];
@@ -311,9 +317,20 @@ async function main() {
       enriched.push(fullBill);
       console.log(`OK (${details.initiators.length} inițiatori, ${details.pdfs.length} PDF-uri, ${opinions.length} opinii)`);
     } catch (err) {
-      console.log(`EROARE: ${err.message}`);
-      enriched.push(item);
+      console.log(`EROARE: ${err.message}${previous.has(item.id) ? ' (păstrez datele anterioare)' : ''}`);
+      enriched.push(previous.get(item.id) ?? item);
     }
+  }
+
+  if (!targetFilter) {
+    const seen = new Set(enriched.map((b) => b.id));
+    const kept = [...previous.values()].filter((b) => !seen.has(b.id));
+    if (kept.length) console.log(`📁 Păstrez ${kept.length} proiecte care nu mai sunt în lista Senatului.`);
+    enriched.push(...kept);
+  } else {
+    // Cu filtru actualizăm doar proiectele cerute, restul rămân neatinse.
+    for (const b of enriched) previous.set(b.id, b);
+    enriched.splice(0, enriched.length, ...previous.values());
   }
 
   fs.writeFileSync(BILLS_FILE, JSON.stringify(enriched, null, 2), 'utf8');

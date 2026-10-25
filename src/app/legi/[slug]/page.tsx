@@ -2,12 +2,15 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { ArrowLeft, ChevronDown, ExternalLink, FileDown, FileText } from 'lucide-react';
-import { getAllBills, getBillBySlug, getBillExtractedTexts, toLite } from '@/lib/bills';
+import { getAllBills, getBillBySlug, getBillExtractedTexts, getBillNews, toLite } from '@/lib/bills';
 import { agreement, mpSlugs, oneLiner } from '@/lib/stats';
 import { RISK } from '@/lib/risk';
-import { fmt } from '@/lib/format';
+import { MODELS } from '@/lib/site';
+import { fmt, formatDateRo } from '@/lib/format';
+import { trackAttrs } from '@/lib/analytics';
 import ActionKitClient from '@/components/ActionKitClient';
 import LiveDeadline from '@/components/bills/LiveDeadline';
+import BillNews from '@/components/bills/BillNews';
 import { Container, Flags, ModelMeters, PartyTag, RiskChip, panel } from '@/components/ui';
 
 interface PageProps {
@@ -45,6 +48,7 @@ export default async function BillDetailPage({ params }: PageProps) {
   const all = await getAllBills();
   const slugs = mpSlugs(all.map(toLite));
   const extractedTexts = await getBillExtractedTexts(slug);
+  const news = await getBillNews(slug);
   const lite = toLite(bill);
   const c = bill.analysis.consensus;
   const ag = agreement(lite);
@@ -64,10 +68,20 @@ export default async function BillDetailPage({ params }: PageProps) {
           Toate proiectele
         </Link>
         <div className="flex flex-wrap items-center gap-x-4 text-muted">
-          <a href={bill.sheetUrl} target="_blank" rel="noopener noreferrer" className="inline-flex min-h-11 items-center gap-1 underline underline-offset-4 hover:text-ink">
+          <a
+            href={bill.sheetUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            {...trackAttrs('official_source_open', { bill_id: bill.id, source: 'sheet' })}
+            className="inline-flex min-h-11 items-center gap-1 underline underline-offset-4 hover:text-ink">
             Fișa {bill.id} pe senat.ro <ExternalLink className="h-3.5 w-3.5" aria-hidden />
           </a>
-          <a href={bill.opinionsUrl} target="_blank" rel="noopener noreferrer" className="inline-flex min-h-11 items-center gap-1 tabular-nums underline underline-offset-4 hover:text-ink">
+          <a
+            href={bill.opinionsUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            {...trackAttrs('official_source_open', { bill_id: bill.id, source: 'opinions' })}
+            className="inline-flex min-h-11 items-center gap-1 tabular-nums underline underline-offset-4 hover:text-ink">
             Opinii depuse ({bill.opinionsCount}) <ExternalLink className="h-3.5 w-3.5" aria-hidden />
           </a>
         </div>
@@ -137,6 +151,13 @@ export default async function BillDetailPage({ params }: PageProps) {
           <div className="mt-5">
             <ModelMeters bill={lite} />
           </div>
+          {bill.analysis.corrections?.map((fix) => (
+            <p key={fix.reportId} className="mt-4 rounded-lg bg-brand-soft px-3 py-2 text-sm leading-6 text-ink">
+              <strong className="font-semibold">Corectat la {formatDateRo(fix.date)}:</strong>{' '}
+              {fix.target === 'consensus' ? 'concluzia comună a fost refăcută' : `analiza ${MODELS.find((m) => m.key === fix.target)?.name} a fost refăcută`} după
+              raportul unui cititor, confirmat în textul oficial.
+            </p>
+          ))}
           <a href="#audit-ai" className="mt-4 inline-flex min-h-11 items-center gap-1.5 text-sm font-semibold text-link underline underline-offset-4">
             Ce a găsit fiecare model în text
             <ChevronDown className="h-4 w-4" aria-hidden />
@@ -152,6 +173,7 @@ export default async function BillDetailPage({ params }: PageProps) {
                 href={pdf.url}
                 target="_blank"
                 rel="noopener noreferrer"
+                {...trackAttrs('official_source_open', { bill_id: bill.id, source: 'pdf', doc: pdf.label })}
                 className="inline-flex min-h-10 items-center gap-1.5 rounded-lg border border-line bg-surface px-3 text-xs font-medium text-body transition-colors hover:border-line-strong hover:text-ink"
               >
                 <FileText className="h-3.5 w-3.5 text-muted" aria-hidden />
@@ -162,6 +184,7 @@ export default async function BillDetailPage({ params }: PageProps) {
           <a
             href={`/docs/Punct_de_vedere_${bill.slug.toUpperCase()}.docx`}
             download
+            {...trackAttrs('docx_download', { bill_id: bill.id, personalized: 'no', source: 'header' })}
             className="inline-flex min-h-10 items-center gap-1.5 rounded-lg border border-line-strong bg-surface px-3 text-xs font-semibold text-ink hover:bg-sunken"
           >
             <FileDown className="h-3.5 w-3.5" aria-hidden />
@@ -172,6 +195,8 @@ export default async function BillDetailPage({ params }: PageProps) {
         <div className="mt-12">
           <ActionKitClient bill={bill} />
         </div>
+
+        {news && <BillNews billId={bill.id} news={news} />}
 
         {c.articlesBreakdown && c.articlesBreakdown.length > 0 && (
           <section aria-labelledby="articole" className="mt-14">

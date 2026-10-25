@@ -27,10 +27,14 @@ Three independent AI readings per bill, shown side by side with their disagreeme
 
 ## Capabilities and Constraints
 
-- Static site (Next.js, static export), deployed on Cloudflare; no accounts, no server-side personal data. The .docx personalisation runs in the browser.
+- Static site (Next.js, static export), deployed on Cloudflare; no accounts. The .docx personalisation runs in the browser. One small Worker (`worker/index.ts`) handles `POST /api/report`: reader reports of AI mistakes, Turnstile-checked and stored in D1 without IP or email, deleted 90 days after review.
+- Reader reports are untrusted input. They are triaged by the three models with no tools; an analysis changes automatically only when all three confirm the error with quotes verified in code, and the correction is written without ever seeing the report text. Everything else goes to the operator's digest. A corrected analysis shows a dated note on the bill page.
+- Press coverage ("În presă") lists only links verified to exist and to quote the bill, from allowlisted Romanian outlets.
+- Daily update Monday–Friday 08:00 on the operator's Mac (launchd): Senate sync, new analyses, press, reports, deploy.
+- Google Analytics 4 (`G-237KQ8L2FE`) loads only after the visitor accepts in the consent banner; refusing is one click, same as accepting, and withdrawing on /cookies deletes the `_ga` cookies. Events carry public identifiers only (bill id, party, field name), never typed text. Event list in `src/lib/analytics.ts`.
 - Romanian only. Diacritics use comma-below ș/ț.
 - Risk levels (red/yellow/green) come from the AI consensus, not a fixed score threshold.
-- Open decision: operator identity and contact address for the privacy/cookie policy (not yet provided; `OPERATOR_NAME` / `CONTACT_EMAIL` in `src/lib/site.ts`, shown as „[de completat]” until set).
+- Operator: Radu-Sebastian Amarie (natural person), contact@lastraja.ro (`OPERATOR_NAME` / `CONTACT_EMAIL` in `src/lib/site.ts`).
 
 ## Brand Commitments
 
@@ -48,7 +52,8 @@ Three independent AI readings per bill, shown side by side with their disagreeme
 2. Show the disagreement: the three model scores are always reachable, never hidden behind the consensus.
 3. The deadline is the product: open/closed status and days left are always accurate.
 4. Cite the source: every claim links back to the official Senate file.
-5. Neutral on parties: data about parties is counted, never characterised.
+5. Neutral on parties: data about parties is counted, never characterised. Parties are compared by the average risk score of their bills, not by how many risky bills they co-signed, so volume alone never ranks a party first.
+6. Calls to object only on high-risk bills: lower-risk bills ask for an opinion, and prepared texts may support a bill.
 
 ## Accessibility & Inclusion
 

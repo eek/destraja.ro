@@ -5,6 +5,7 @@ import type { BillLite } from '@/lib/types';
 import { ARC_DATE, OPOZITIE, PARTY_ORDER, PUTERE, partyFullName } from '@/lib/site';
 import { countWord } from '@/lib/format';
 import { isBridgePair } from '@/lib/stats';
+import { trackAttrs } from '@/lib/analytics';
 
 const pairKey = (a: string, b: string) => (a < b ? `${a}|${b}` : `${b}|${a}`);
 const SHORT: Record<string, string> = { Minorități: 'Min.', Neafiliați: 'Neaf.' };
@@ -99,6 +100,7 @@ export default function CoalitionMatrix({
                         type="button"
                         disabled={v === 0}
                         onClick={() => onPick(diag ? [row] : [row, col])}
+                        {...trackAttrs('coalition_select', { pair: diag ? row : `${row}+${col}` })}
                         onMouseEnter={() => setHover([row, col])}
                         onMouseLeave={() => setHover(null)}
                         onFocus={() => setHover([row, col])}

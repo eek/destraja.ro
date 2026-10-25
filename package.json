@@ -9,8 +9,12 @@
     "straja:sync": "node scripts/straja-sync.mjs",
     "straja:council": "node scripts/straja-council.mjs",
     "straja:docx": "node scripts/straja-docx.mjs",
-    "deploy": "next build && wrangler deploy",
-    "preview": "next build && wrangler dev"
+    "straja:news": "node scripts/straja-news.mjs",
+    "deploy": "wrangler d1 migrations apply lastraja --remote && next build && wrangler deploy",
+    "preview": "next build && wrangler dev",
+    "straja:reports": "node scripts/straja-reports.mjs",
+    "straja:daily": "node scripts/straja-daily.mjs",
+    "db:migrate": "wrangler d1 migrations apply lastraja --remote"
   },
   "dependencies": {
     "docx": "^9.1.0",
@@ -27,6 +31,7 @@
     "@types/react-dom": "^19.0.4",
     "postcss": "^8.5.3",
     "tailwindcss": "^4.0.9",
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.2",
+    "wrangler": "^4.148.0"
   }
 }

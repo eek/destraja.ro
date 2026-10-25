@@ -1,29 +1,84 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Check, X } from 'lucide-react';
-import { CONTACT_EMAIL, OPERATOR_NAME, POLICY_UPDATED } from '@/lib/site';
+import { ANALYTICS_RETENTION, CONTACT_EMAIL, OPERATOR_NAME, POLICY_UPDATED } from '@/lib/site';
+import { GA_COOKIES } from '@/lib/analytics';
 import { Container, linkCls, panel } from '@/components/ui';
 import ClearPreferences from '@/components/site/ClearPreferences';
+import ConsentControls from '@/components/site/ConsentControls';
 
 export const metadata: Metadata = {
   title: 'Politica de cookies',
-  description: 'lastraja.ro nu folosește cookie-uri de urmărire, publicitate sau statistici. Ce păstrăm în browserul tău și cum ștergi.',
+  description:
+    'lastraja.ro folosește Google Analytics doar dacă accepți, fără reclame și fără ce scrii pe site. Ce păstrăm în browserul tău și cum îți schimbi alegerea.',
 };
 
 const STORED = [
   { name: 'lastraja-theme', where: 'Stocare locală (localStorage)', what: 'Tema aleasă de tine: luminoasă sau întunecată. Lipsește dacă tema urmează sistemul.', how: 'Până o ștergi' },
-  { name: 'lastraja-cookie-notice', where: 'Stocare locală (localStorage)', what: 'Faptul că ai închis mesajul despre cookie-uri, ca să nu-l mai vezi la fiecare pagină.', how: 'Până o ștergi' },
+  {
+    name: 'lastraja-consent',
+    where: 'Stocare locală (localStorage)',
+    what: 'Dacă ai acceptat sau ai refuzat statisticile, ca să nu te întrebăm la fiecare pagină.',
+    how: '13 luni, apoi te întrebăm din nou',
+  },
+];
+
+const ANALYTICS_COOKIES = [
+  { name: GA_COOKIES[0], what: 'Un număr aleatoriu care deosebește un browser de altul, fără să spună cine ești.' },
+  { name: GA_COOKIES[1], what: 'Ține evidența vizitei în curs, ca paginile citite una după alta să fie numărate ca o singură vizită.' },
+];
+
+const MEASURED = [
+  'Paginile deschise și site-ul de pe care ai ajuns aici.',
+  'Tipul dispozitivului, sistemul de operare, browserul, limba și, aproximativ, țara și orașul.',
+  'Ce funcții folosești, fără conținutul lor: deschiderea formularului Senatului, copierea unui text, descărcarea documentului .docx, alegerea unui filtru, a unui partid sau a temei.',
+];
+
+const NOT_SENT = [
+  'Numele trecut în documentul .docx, textele pe care le editezi și ce cauți pe site.',
+  'Adresa IP: Google o folosește doar ca să estimeze localitatea și nu o păstrează.',
+  'Nimic pentru reclame: Google Signals, personalizarea reclamelor și legătura cu contul tău Google sunt oprite.',
 ];
 
 const NOT_USED = [
   'Cookie-uri de publicitate sau de urmărire între site-uri',
-  'Statistici de trafic (Google Analytics, Meta Pixel sau altele)',
+  'Meta Pixel, TikTok Pixel sau alte instrumente de marketing',
   'Butoane sau conținut încorporat de pe rețele sociale',
-  'Fonturi, scripturi sau imagini încărcate de pe servere terțe',
+  'Fonturi sau imagini de pe servere terțe: le găzduim pe lastraja.ro',
 ];
 
 const h2 = 'font-display text-2xl font-normal sm:text-3xl';
+const h3 = 'mt-8 text-lg font-semibold text-ink';
 const p = 'mt-3 text-[15px] leading-7 text-body';
+
+function Ticks({ items, icon: Icon, tone }: { items: string[]; icon: typeof Check; tone: string }) {
+  return (
+    <ul className="mt-4 space-y-2">
+      {items.map((t) => (
+        <li key={t} className="flex items-start gap-3 text-[15px] leading-7 text-body">
+          <Icon className={`mt-1.5 h-4 w-4 shrink-0 ${tone}`} aria-hidden />
+          {t}
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+function StorageList({ items }: { items: { name: string; what: string; meta: string }[] }) {
+  return (
+    <dl className="mt-5 divide-y divide-line border-y border-line">
+      {items.map((s) => (
+        <div key={s.name} className="grid gap-1 py-4 sm:grid-cols-[14rem_1fr] sm:gap-6">
+          <dt className="font-mono text-sm text-ink">{s.name}</dt>
+          <dd className="text-[15px] leading-7 text-body">
+            {s.what}
+            <span className="block text-sm text-muted">{s.meta}</span>
+          </dd>
+        </div>
+      ))}
+    </dl>
+  );
+}
 
 export default function CookiesPage() {
   return (
@@ -34,10 +89,59 @@ export default function CookiesPage() {
       <div className={`${panel} mt-8 p-6 sm:p-8`}>
         <h2 className="text-lg font-semibold text-ink">Pe scurt</h2>
         <p className={p}>
-          lastraja.ro nu te urmărește. Nu setăm cookie-uri proprii, nu afișăm reclame și nu măsurăm traficul. În browserul tău păstrăm doar două
-          preferințe, ca site-ul să-și amintească tema aleasă și că ai citit mesajul despre cookie-uri. Ele nu ne sunt trimise niciodată.
+          Statisticile de vizitare (Google Analytics) pornesc doar dacă accepți. Până atunci nu se încarcă nimic de la Google și nu se setează
+          niciun cookie. Le folosim ca să vedem ce pagini sunt citite și ce funcții ajută cu adevărat, de exemplu câți oameni deschid formularul
+          Senatului. Nu afișăm reclame, nu aflăm cine ești și nu trimitem nimic din ce scrii pe site.
         </p>
       </div>
+
+      <section aria-labelledby="alegerea-ta" className="mt-12 scroll-mt-24">
+        <h2 id="alegerea-ta" className={h2}>
+          Alegerea ta
+        </h2>
+        <p className={p}>
+          O poți schimba oricând, la fel de ușor cum ai făcut-o prima dată. Dacă oprești statisticile, ștergem imediat cookie-urile Google
+          Analytics din browserul tău.
+        </p>
+        <div className="mt-5">
+          <ConsentControls />
+        </div>
+      </section>
+
+      <section aria-labelledby="statistici" className="mt-12">
+        <h2 id="statistici" className={h2}>
+          Statistici, doar cu acordul tău
+        </h2>
+        <p className={p}>
+          Folosim Google Analytics 4, un serviciu al Google Ireland Limited. Temeiul este consimțământul tău (art. 6 alin. 1 lit. a din
+          Regulamentul (UE) 2016/679 și art. 4 alin. 5 din Legea 506/2004). Nu vindem și nu dăm nimănui aceste date; le vedem doar ca totaluri.
+        </p>
+
+        <h3 className={h3}>Ce aflăm</h3>
+        <Ticks items={MEASURED} icon={Check} tone="text-link" />
+
+        <h3 className={h3}>Ce nu trimitem</h3>
+        <Ticks items={NOT_SENT} icon={X} tone="text-muted" />
+
+        <h3 className={h3}>Cookie-urile Google Analytics</h3>
+        <p className={p}>Apar doar după ce accepți și dispar când refuzi.</p>
+        <StorageList items={ANALYTICS_COOKIES.map((c) => ({ ...c, meta: 'Cookie pe lastraja.ro, setat de Google Analytics · 13 luni' }))} />
+
+        <h3 className={h3}>Cât timp și unde</h3>
+        <p className={p}>
+          Google păstrează datele la nivel de vizitator {ANALYTICS_RETENTION}, apoi le șterge automat; rămân doar totaluri, fără identificatori.
+          Datele pot fi prelucrate și în afara Uniunii Europene, inclusiv în SUA, în baza cadrului UE–SUA privind protecția datelor (Data Privacy
+          Framework). Detalii în{' '}
+          <a href="https://policies.google.com/technologies/partner-sites?hl=ro" target="_blank" rel="noopener noreferrer" className={linkCls}>
+            cum folosește Google datele de pe site-urile partenere
+          </a>{' '}
+          și în{' '}
+          <a href="https://policies.google.com/privacy?hl=ro" target="_blank" rel="noopener noreferrer" className={linkCls}>
+            politica de confidențialitate Google
+          </a>
+          .
+        </p>
+      </section>
 
       <section aria-labelledby="stocam" className="mt-12">
         <h2 id="stocam" className={h2}>
@@ -45,35 +149,16 @@ export default function CookiesPage() {
         </h2>
         <p className={p}>
           Sunt informații strict necesare pentru funcțiile pe care le ceri, deci nu au nevoie de consimțământ (art. 4 alin. 5 din Legea 506/2004).
-          Le găsești doar pe dispozitivul tău.
+          Rămân pe dispozitivul tău și nu ne sunt trimise.
         </p>
-        <dl className="mt-5 divide-y divide-line border-y border-line">
-          {STORED.map((s) => (
-            <div key={s.name} className="grid gap-1 py-4 sm:grid-cols-[14rem_1fr] sm:gap-6">
-              <dt className="font-mono text-sm text-ink">{s.name}</dt>
-              <dd className="text-[15px] leading-7 text-body">
-                {s.what}
-                <span className="block text-sm text-muted">
-                  {s.where} · {s.how.toLowerCase()}
-                </span>
-              </dd>
-            </div>
-          ))}
-        </dl>
+        <StorageList items={STORED.map((s) => ({ ...s, meta: `${s.where} · ${s.how.toLowerCase()}` }))} />
       </section>
 
       <section aria-labelledby="nu-folosim" className="mt-12">
         <h2 id="nu-folosim" className={h2}>
           Ce nu folosim
         </h2>
-        <ul className="mt-4 space-y-2">
-          {NOT_USED.map((t) => (
-            <li key={t} className="flex items-start gap-3 text-[15px] leading-7 text-body">
-              <X className="mt-1.5 h-4 w-4 shrink-0 text-muted" aria-hidden />
-              {t}
-            </li>
-          ))}
-        </ul>
+        <Ticks items={NOT_USED} icon={X} tone="text-muted" />
       </section>
 
       <section aria-labelledby="gazduire" className="mt-12">
@@ -96,25 +181,53 @@ export default function CookiesPage() {
         <h2 id="datele-tale" className={h2}>
           Datele pe care le scrii tu
         </h2>
-        <ul className="mt-4 space-y-3">
-          {[
-            'Numele pe care îl treci în documentul .docx personalizat este folosit doar în browserul tău, ca să genereze fișierul. Nu ajunge la noi.',
-            'Textele pentru formularul Senatului și e-mailurile către instituții se copiază sau se deschid în aplicația ta de e-mail. Le trimiți tu, direct.',
+        <Ticks
+          icon={Check}
+          tone="text-link"
+          items={[
+            'Numele pe care îl treci în documentul .docx personalizat este folosit doar în browserul tău, ca să genereze fișierul. Nu ajunge la noi și nici în statistici.',
+            'Textele pentru formularul Senatului și e-mailurile către instituții se copiază sau se deschid în aplicația ta de e-mail. Le trimiți tu, direct. Statisticile numără doar că ai copiat sau ai deschis un text, nu și ce scrie în el.',
+            'Singurul text pe care ni-l trimiți este raportul despre o greșeală, dacă alegi să-l scrii (mai jos).',
             'Când deschizi senat.ro sau alt site extern, se aplică politica acelui site.',
-          ].map((t) => (
-            <li key={t} className="flex items-start gap-3 text-[15px] leading-7 text-body">
-              <Check className="mt-1.5 h-4 w-4 shrink-0 text-link" aria-hidden />
-              {t}
-            </li>
-          ))}
-        </ul>
+          ]}
+        />
+      </section>
+
+      <section aria-labelledby="rapoarte" className="mt-12 scroll-mt-24">
+        <h2 id="rapoarte" className={h2}>
+          Când semnalezi o greșeală
+        </h2>
+        <p className={p}>
+          Formularul „Semnalează o greșeală” de pe pagina unui proiect ne trimite textul tău, proiectul și analiza la care te referi. Nu cerem nume
+          sau e-mail și nu păstrăm adresa IP.
+        </p>
+        <Ticks
+          icon={Check}
+          tone="text-link"
+          items={[
+            'Verificarea anti-roboți e făcută de Cloudflare Turnstile și pornește doar când deschizi formularul. Cloudflare primește pentru asta adresa IP și semnale despre browser și le folosește ca să deosebească oamenii de roboți.',
+            'Raportul e citit de noi și trimis spre reverificare modelelor Gemini (Google), Claude (Anthropic) și ChatGPT (OpenAI), împreună cu textul oficial al proiectului. De aceea te rugăm să nu scrii date personale.',
+            'Păstrăm rapoartele cel mult 90 de zile după ce le-am verificat, apoi le ștergem.',
+            'Temeiul este interesul nostru legitim de a corecta analizele publicate (art. 6 alin. 1 lit. f din Regulamentul (UE) 2016/679).',
+          ]}
+        />
+        <p className={p}>
+          Detalii despre Turnstile în{' '}
+          <a href="https://www.cloudflare.com/turnstile-privacy-policy/" target="_blank" rel="noopener noreferrer" className={linkCls}>
+            politica de confidențialitate Turnstile
+          </a>
+          .
+        </p>
       </section>
 
       <section aria-labelledby="sterge" className="mt-12">
         <h2 id="sterge" className={h2}>
-          Cum ștergi preferințele
+          Cum ștergi tot
         </h2>
-        <p className={p}>Cu butonul de mai jos, sau din setările browserului (ștergerea datelor site-ului lastraja.ro).</p>
+        <p className={p}>
+          Butonul de mai jos readuce tema la cea a sistemului, oprește statisticile și șterge alegerea ta, ca să te întrebăm din nou. Poți șterge și
+          din setările browserului (datele site-ului lastraja.ro).
+        </p>
         <div className="mt-4">
           <ClearPreferences />
         </div>
@@ -149,16 +262,20 @@ export default function CookiesPage() {
           Drepturile tale
         </h2>
         <p className={p}>
-          Conform Regulamentului (UE) 2016/679 (GDPR), ai dreptul să afli ce date despre tine sunt prelucrate, să ceri ștergerea lor și să depui
-          plângere la{' '}
+          Conform Regulamentului (UE) 2016/679 (GDPR), ai dreptul să afli ce date despre tine sunt prelucrate, să ceri ștergerea lor, să îți retragi
+          acordul și să depui plângere la{' '}
           <a href="https://www.dataprotection.ro" target="_blank" rel="noopener noreferrer" className={linkCls}>
             Autoritatea Națională de Supraveghere a Prelucrării Datelor cu Caracter Personal
           </a>
           .
         </p>
         <p className={p}>
-          Dacă vom adăuga vreodată statistici sau alte servicii care au nevoie de acordul tău, le vom porni doar după ce ți-l cerem, și vom actualiza
-          această pagină.
+          Statisticile folosesc doar numărul aleatoriu din cookie-ul <code className="rounded bg-sunken px-1 font-mono text-xs">_ga</code>, așa că
+          nu le putem lega de numele tău. Ca să le oprești, refuză statisticile din{' '}
+          <a href="#alegerea-ta" className={linkCls}>
+            Alegerea ta
+          </a>{' '}
+          sau șterge cookie-urile site-ului din browser. Retragerea acordului nu afectează ce s-a măsurat până atunci.
         </p>
       </section>
 

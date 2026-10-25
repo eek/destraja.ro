@@ -44,3 +44,10 @@ export function partyFullName(party: string) {
 export const OPERATOR_NAME: string | null = 'Radu-Sebastian Amarie (persoană fizică)';
 export const CONTACT_EMAIL: string | null = 'contact@lastraja.ro';
 export const POLICY_UPDATED = '25 octombrie 2026';
+// Cât păstrează Google Analytics datele la nivel de vizitator. Trebuie să fie la fel ca în
+// Google Analytics > Admin > Data retention (implicit 2 luni); rapoartele agregate rămân.
+export const ANALYTICS_RETENTION = '2 luni';
+
+// Cheia publică a widgetului Turnstile din formularul de raportare a greșelilor (lastraja.ro și localhost).
+// Pentru teste se poate pune cheia Cloudflare care trece mereu, 1x00000000000000000000AA.
+export const TURNSTILE_SITEKEY = '0x4AAAAAAFlkKaAg2YuWRuK_';

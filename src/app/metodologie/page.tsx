@@ -6,6 +6,7 @@ import { ARC_DATE, FEATURED_ID, MODELS, OPOZITIE, PUTERE, SENAT_URL } from '@/li
 import { RISK, RISK_LEVELS } from '@/lib/risk';
 import { fmt, formatDateRo } from '@/lib/format';
 import { Container, RiskChip, RiskDot, linkCls, panel } from '@/components/ui';
+import { trackAttrs } from '@/lib/analytics';
 
 export const metadata: Metadata = {
   title: 'Metodologie',
@@ -41,6 +42,10 @@ const FAQ = [
   {
     q: 'Cum sunt numărate partidele?',
     a: `Un proiect e atribuit fiecărui partid care are cel puțin un inițiator pe el, așa că totalurile pe partide nu se adună. Pentru harta coalițiilor folosim împărțirea putere/opoziție din ${ARC_DATE}: putere ${[...PUTERE].join(', ')}; opoziție ${[...OPOZITIE].join(', ')}. Co-semnarea nu spune cum va vota un partid.`,
+  },
+  {
+    q: 'Am găsit o greșeală într-o analiză. Ce fac?',
+    a: 'Folosește „Semnalează o greșeală” de sub auditul AI, pe pagina proiectului. În fiecare zi lucrătoare, Gemini, Claude și ChatGPT reverifică raportul față de textul oficial. Dacă toate trei confirmă greșeala, corectăm analiza și scriem pe pagină data corecturii; altfel raportul ajunge la un om.',
   },
   {
     q: 'Pot folosi datele într-un articol sau într-o cercetare?',
@@ -179,7 +184,7 @@ export default async function MethodPage() {
         <div className="divide-y divide-line border-y border-line">
           {FAQ.map((it) => (
             <details key={it.q} className="group py-2">
-              <summary className="flex min-h-14 cursor-pointer items-center justify-between gap-4 text-lg font-semibold text-ink">
+              <summary {...trackAttrs('faq_open', { question: it.q })} className="flex min-h-14 cursor-pointer items-center justify-between gap-4 text-lg font-semibold text-ink">
                 {it.q}
                 <ChevronDown className="chevron h-5 w-5 shrink-0 text-muted" aria-hidden />
               </summary>

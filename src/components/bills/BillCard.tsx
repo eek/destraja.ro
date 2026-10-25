@@ -5,14 +5,16 @@ import { MODELS } from '@/lib/site';
 import { RISK } from '@/lib/risk';
 import { countWord, deadlineInfo, DEADLINE_TONE, fmt } from '@/lib/format';
 import { agreement, modelScore, oneLiner } from '@/lib/stats';
+import { trackAttrs } from '@/lib/analytics';
 import { Flags, PartyTag, RiskChip, RiskDot, btnPrimary, btnSecondary } from '@/components/ui';
 
 const AGREE_TONE = { strong: 'text-muted', partial: 'text-muted', split: 'text-ink' } as const;
 
-export function ctaLabel(bill: BillLite) {
-  const open = bill.daysRemaining >= 0;
-  if (!open) return 'Citește analiza';
-  return bill.analysis.consensus.riskLevel === 'red' ? 'Obiectează în 60 de secunde' : 'Vezi detalii și spune-ți părerea';
+// Îndemnul la obiecție apare doar la proiectele cu risc ridicat; la celelalte cerem doar părerea.
+export function ctaLabel(bill: BillLite, short = false) {
+  if (bill.daysRemaining < 0) return short ? 'Vezi analiza' : 'Citește analiza';
+  if (bill.analysis.consensus.riskLevel === 'red') return short ? 'Vezi și obiectează' : 'Obiectează în 60 de secunde';
+  return short ? 'Vezi și spune-ți părerea' : 'Vezi detalii și spune-ți părerea';
 }
 
 export default function BillCard({ bill, onParty }: { bill: BillLite; onParty?: (party: string) => void }) {
@@ -35,7 +37,7 @@ export default function BillCard({ bill, onParty }: { bill: BillLite; onParty?: 
         </div>
 
         <h3 id={`t-${bill.slug}`} className="font-display mt-4 text-[1.3rem] leading-[1.25] text-ink">
-          <Link href={`/legi/${bill.slug}`} className="decoration-line-strong decoration-1 underline-offset-4 hover:underline">
+          <Link href={`/legi/${bill.slug}`} {...trackAttrs('bill_open', { bill_id: bill.id, source: 'card' })} className="decoration-line-strong decoration-1 underline-offset-4 hover:underline">
             {c.plainTitle}
           </Link>
         </h3>
@@ -59,6 +61,7 @@ export default function BillCard({ bill, onParty }: { bill: BillLite; onParty?: 
                       key={p}
                       type="button"
                       onClick={() => onParty(p)}
+                      {...trackAttrs('party_select', { party: p, source: 'card' })}
                       title={`Arată proiectele cu inițiatori din ${p}`}
                       className="rounded-md transition-colors hover:bg-sunken"
                     >
@@ -79,6 +82,7 @@ export default function BillCard({ bill, onParty }: { bill: BillLite; onParty?: 
 
           <Link
             href={`/legi/${bill.slug}`}
+            {...trackAttrs('bill_open', { bill_id: bill.id, source: 'card' })}
             className={`${primary ? btnPrimary : btnSecondary} mt-4 min-h-11 w-full px-4 text-sm`}
             aria-label={`${ctaLabel(bill)}: ${c.plainTitle}`}
           >
@@ -87,7 +91,7 @@ export default function BillCard({ bill, onParty }: { bill: BillLite; onParty?: 
           </Link>
 
           <details className="mt-2">
-            <summary className="flex min-h-11 cursor-pointer items-center justify-between gap-2 rounded-lg text-xs font-semibold text-muted hover:text-ink">
+            <summary {...trackAttrs('risk_reason_open', { bill_id: bill.id })} className="flex min-h-11 cursor-pointer items-center justify-between gap-2 rounded-lg text-xs font-semibold text-muted hover:text-ink">
               <span className="inline-flex items-center gap-1.5">
                 De ce acest nivel de risc?
                 <span className={`font-semibold ${AGREE_TONE[ag.tone]}`}>· {ag.label}</span>
@@ -108,7 +112,12 @@ export default function BillCard({ bill, onParty }: { bill: BillLite; onParty?: 
                   <MessageSquare className="h-3.5 w-3.5" aria-hidden />
                   {bill.opinionsCount === 0 ? 'Nicio opinie depusă încă' : countWord(bill.opinionsCount, 'opinie depusă', 'opinii depuse')}
                 </span>
-                <a href={bill.sheetUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 font-semibold text-link underline underline-offset-4">
+                <a
+                  href={bill.sheetUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  {...trackAttrs('official_source_open', { bill_id: bill.id, source: 'sheet' })}
+                  className="inline-flex items-center gap-1 font-semibold text-link underline underline-offset-4">
                   Fișa oficială pe senat.ro
                   <ExternalLink className="h-3 w-3" aria-hidden />
                   <span className="sr-only">(se deschide într-o filă nouă)</span>

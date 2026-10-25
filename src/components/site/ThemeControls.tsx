@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import { Moon, Sun } from 'lucide-react';
 import { applyThemePref, readThemePref, resolvedTheme, type ThemePref } from '@/lib/theme';
+import { trackAttrs } from '@/lib/analytics';
 
 function useTheme() {
   const [pref, setPref] = useState<ThemePref>('system');
@@ -33,6 +34,7 @@ export function ThemeToggle() {
     <button
       type="button"
       onClick={() => applyThemePref(dark ? 'light' : 'dark')}
+      {...trackAttrs('theme_change', { theme: dark ? 'light' : 'dark', control: 'header' })}
       aria-label={dark ? 'Treci la tema luminoasă' : 'Treci la tema întunecată'}
       title={dark ? 'Tema luminoasă' : 'Tema întunecată'}
       className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-lg text-muted transition-colors hover:bg-sunken hover:text-ink"
@@ -59,6 +61,7 @@ export function ThemeSelect() {
           role="radio"
           aria-checked={pref === o.value}
           onClick={() => applyThemePref(o.value)}
+          {...trackAttrs('theme_change', { theme: o.value, control: 'footer' })}
           className={`rounded-md px-2.5 py-1 text-xs font-semibold transition-colors ${
             pref === o.value ? 'bg-surface text-ink shadow-[0_1px_2px_rgb(0_0_0/0.08)]' : 'text-muted hover:text-ink'
           }`}

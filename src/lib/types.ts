@@ -108,6 +108,21 @@ export interface BillAnalysis {
     claude: AiVerdict;
     codex: AiVerdict;
   };
+  // Analize refăcute după rapoarte de cititori confirmate de toate cele trei modele
+  // (scripts/straja-reports.mjs). Nu conțin textul raportului.
+  corrections?: AnalysisCorrection[];
+}
+
+export interface AnalysisCorrection {
+  date: string;
+  target: 'consensus' | 'agy' | 'claude' | 'codex';
+  reportId: string;
+}
+
+/** Articole de presă găsite de scripts/straja-news.mjs și verificate pe pagina sursei. */
+export interface BillNews {
+  checkedAt: string;
+  articles: { url: string; title: string; outlet: string; domain: string; publishedAt: string | null }[];
 }
 
 export interface EnrichedBill {

@@ -9,6 +9,7 @@ import { RISK, levelFromScore } from '@/lib/risk';
 import { countWord, fmt } from '@/lib/format';
 import { byRiskDesc, camps, type MpStat, type PartyStat, type RiskCounts, type Stats } from '@/lib/stats';
 import { CopyButton, PartyTag, RiskDot, btnPrimary, btnSecondary } from '@/components/ui';
+import { trackAttrs } from '@/lib/analytics';
 
 export function PanelTitle({ title, sub }: { title: string; sub?: string }) {
   return (
@@ -88,7 +89,13 @@ export function Headlines({ items, copied, onCopy }: { items: ReturnType<typeof 
           <li key={h.key} className="flex items-start gap-4 py-4">
             <h.icon className="mt-1 h-5 w-5 shrink-0 text-link" aria-hidden />
             <p className="font-display flex-1 text-lg leading-snug text-ink">{h.text}</p>
-            <CopyButton compact label="Copiază titlul" active={copied === h.key} onClick={() => onCopy(h.key, `${h.text} (Sursa: lastraja.ro)`)} />
+            <CopyButton
+              compact
+              label="Copiază titlul"
+              active={copied === h.key}
+              onClick={() => onCopy(h.key, `${h.text} (Sursa: lastraja.ro)`)}
+              track={trackAttrs('press_copy', { item: 'headline', headline: h.key })}
+            />
           </li>
         ))}
       </ul>

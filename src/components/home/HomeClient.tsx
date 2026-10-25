@@ -13,6 +13,7 @@ import BillExplorer from '@/components/bills/BillExplorer';
 import PartyChart from '@/components/data/PartyChart';
 import CoalitionMatrix from '@/components/data/CoalitionMatrix';
 import RadarScope from './RadarScope';
+import { trackAttrs } from '@/lib/analytics';
 
 function scrollToList() {
   window.requestAnimationFrame(() => document.getElementById('legi')?.scrollIntoView({ behavior: 'smooth', block: 'start' }));
@@ -83,6 +84,7 @@ export default function HomeClient({ bills: initial, syncedLabel }: { bills: Bil
             <a
               href="#legi"
               onClick={() => setListRequest((r) => ({ n: r.n + 1, risk: 'red', soon: false }))}
+              {...trackAttrs('list_shortcut', { shortcut: 'high_risk' })}
               className="inline-flex min-h-11 items-center gap-2 text-[15px] font-semibold underline decoration-on-band-muted underline-offset-4"
             >
               <ShieldAlert className="h-4 w-4" aria-hidden />
@@ -92,6 +94,7 @@ export default function HomeClient({ bills: initial, syncedLabel }: { bills: Bil
               <a
                 href="#legi"
                 onClick={() => setListRequest((r) => ({ n: r.n + 1, risk: 'all', soon: true }))}
+                {...trackAttrs('list_shortcut', { shortcut: 'closing_soon' })}
                 className="inline-flex min-h-11 items-center gap-2 text-[15px] font-semibold underline decoration-on-band-muted underline-offset-4"
               >
                 <Clock className="h-4 w-4" aria-hidden />

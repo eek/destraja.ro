@@ -9,6 +9,7 @@ import { RISK, levelFromScore } from '@/lib/risk';
 import { countWord, fmt, normalize } from '@/lib/format';
 import { computeStats, type MpStat } from '@/lib/stats';
 import { EmptyState, PartyTag, RiskDot, btnSecondary, inputCls, segCls } from '@/components/ui';
+import { trackAttrs } from '@/lib/analytics';
 
 type SortKey = 'ridicat' | 'proiecte' | 'medie' | 'nume';
 const SORTS: { key: SortKey; label: string }[] = [
@@ -78,7 +79,7 @@ export default function MpDirectory({ bills }: { bills: BillLite[] }) {
           </label>
           <div role="group" aria-label="Camera" className="flex rounded-lg bg-sunken p-1">
             {(['all', 'senator', 'deputat'] as const).map((r) => (
-              <button key={r} type="button" aria-pressed={role === r} onClick={() => set(setRole)(r)} className={`${segCls(role === r)} flex-1 justify-center px-4 text-sm`}>
+              <button key={r} type="button" aria-pressed={role === r} onClick={() => set(setRole)(r)} {...trackAttrs('mp_filter', { filter: 'chamber', value: r })} className={`${segCls(role === r)} flex-1 justify-center px-4 text-sm`}>
                 {r === 'all' ? 'Toți' : r === 'senator' ? 'Senatori' : 'Deputați'}
               </button>
             ))}
@@ -94,6 +95,7 @@ export default function MpDirectory({ bills }: { bills: BillLite[] }) {
                 type="button"
                 aria-pressed={on}
                 onClick={() => set(setParty)(p.party)}
+                {...trackAttrs('mp_filter', { filter: 'party', value: p.party })}
                 title={p.party === 'all' ? undefined : partyFullName(p.party)}
                 className={`inline-flex min-h-10 shrink-0 items-center gap-1.5 rounded-lg border px-3 text-sm font-semibold transition-colors ${
                   on ? 'border-brand bg-brand text-on-brand' : 'border-line bg-surface text-body hover:border-line-strong hover:text-ink'
@@ -116,7 +118,7 @@ export default function MpDirectory({ bills }: { bills: BillLite[] }) {
           <span className="hidden sm:inline">Ordine:</span>
           <div role="group" aria-label="Ordonează" className="flex max-w-full overflow-x-auto rounded-lg bg-sunken p-1 no-scrollbar">
             {SORTS.map((s) => (
-              <button key={s.key} type="button" aria-pressed={sort === s.key} onClick={() => setSort(s.key)} className={segCls(sort === s.key)}>
+              <button key={s.key} type="button" aria-pressed={sort === s.key} onClick={() => setSort(s.key)} {...trackAttrs('mp_filter', { filter: 'sort', value: s.key })} className={segCls(sort === s.key)}>
                 {s.label}
               </button>
             ))}

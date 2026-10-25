@@ -270,12 +270,21 @@ async function generateDocxForBill(bill, analysis) {
 async function main() {
   await fs.mkdir(OUT_DIR, { recursive: true });
   const billsRaw = JSON.parse(await fs.readFile(BILLS_FILE, 'utf8'));
-  const bills = Array.isArray(billsRaw) ? billsRaw : billsRaw.bills;
+  const all = Array.isArray(billsRaw) ? billsRaw : billsRaw.bills;
+  // Cu argumente (slug-uri) regenerăm doar acele proiecte; fără, pe toate.
+  const only = process.argv.slice(2).filter((a) => !a.startsWith('--'));
+  const bills = only.length ? all.filter((b) => only.includes(b.slug)) : all;
   let count = 0;
 
   for (const bill of bills) {
     const analysisPath = path.join(ANALYSES_DIR, `${bill.slug}.json`);
-    const analysis = JSON.parse(await fs.readFile(analysisPath, 'utf8'));
+    let analysis;
+    try {
+      analysis = JSON.parse(await fs.readFile(analysisPath, 'utf8'));
+    } catch {
+      console.warn(`⚠️ ${bill.id} nu are încă analiză; sar peste .docx`);
+      continue;
+    }
     const buf = await generateDocxForBill(bill, analysis);
     const fileName = `Punct_de_vedere_${bill.slug.toUpperCase()}.docx`;
     await fs.writeFile(path.join(OUT_DIR, fileName), buf);

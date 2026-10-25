@@ -118,7 +118,7 @@ export function CopyButton({
       aria-label={compact ? (active ? 'Copiat' : label) : undefined}
       title={label}
       className={`inline-flex shrink-0 items-center gap-1.5 rounded-lg border text-xs font-semibold transition-colors ${
-        active ? 'border-risk-green/40 bg-risk-green-soft text-risk-green-text' : 'border-line-strong text-body hover:border-muted hover:text-ink'
+        active ? 'border-brand bg-brand-soft text-ink' : 'border-line-strong text-body hover:border-muted hover:text-ink'
       } ${compact ? 'h-9 w-9 justify-center' : 'px-3 py-2'}`}
     >
       {active ? <Check className="h-3.5 w-3.5" aria-hidden /> : <Copy className="h-3.5 w-3.5" aria-hidden />}

@@ -41,6 +41,6 @@ export function partyFullName(party: string) {
 
 // Cine administrează site-ul și unde pot scrie vizitatorii despre datele lor (politica de cookies).
 // Necompletate până le confirmă operatorul; pagina afișează vizibil „de completat”.
-export const OPERATOR_NAME: string | null = null;
-export const CONTACT_EMAIL: string | null = null;
+export const OPERATOR_NAME: string | null = 'Radu-Sebastian Amarie (persoană fizică)';
+export const CONTACT_EMAIL: string | null = 'contact@lastraja.ro';
 export const POLICY_UPDATED = '25 octombrie 2026';

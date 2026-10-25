@@ -233,6 +233,13 @@ details[open] > summary .chevron {
   transition: transform 180ms cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
+/* Ținte de atingere de cel puțin 44px pe ecrane tactile. */
+@media (pointer: coarse) {
+  .touch-target {
+    min-height: 44px;
+  }
+}
+
 @media (max-width: 639px) {
   input, select, textarea {
     font-size: 16px;

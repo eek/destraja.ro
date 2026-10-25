@@ -169,7 +169,7 @@ export default function ActionKitClient({ bill }: ActionKitClientProps) {
               onClick={() => setActiveTab('senat')}
               className={`touch-target py-2 px-2.5 rounded-lg transition-colors cursor-pointer ${
                 activeTab === 'senat'
-                  ? 'bg-surface text-ink font-semibold shadow-xs'
+                  ? 'bg-surface text-ink font-semibold'
                   : 'text-muted hover:text-ink'
               }`}
             >
@@ -182,7 +182,7 @@ export default function ActionKitClient({ bill }: ActionKitClientProps) {
               onClick={() => setActiveTab('email')}
               className={`touch-target py-2 px-2.5 rounded-lg transition-colors cursor-pointer ${
                 activeTab === 'email'
-                  ? 'bg-surface text-ink font-semibold shadow-xs'
+                  ? 'bg-surface text-ink font-semibold'
                   : 'text-muted hover:text-ink'
               }`}
             >
@@ -195,7 +195,7 @@ export default function ActionKitClient({ bill }: ActionKitClientProps) {
               onClick={() => setActiveTab('share')}
               className={`touch-target py-2 px-2.5 rounded-lg transition-colors cursor-pointer ${
                 activeTab === 'share'
-                  ? 'bg-surface text-ink font-semibold shadow-xs'
+                  ? 'bg-surface text-ink font-semibold'
                   : 'text-muted hover:text-ink'
               }`}
             >
@@ -279,7 +279,7 @@ export default function ActionKitClient({ bill }: ActionKitClientProps) {
                       <span
                         className={`text-xs font-mono tabular-nums px-1.5 py-0.5 rounded ${
                           isOver
-                            ? 'bg-risk-red text-white font-bold'
+                            ? 'bg-ink text-paper font-semibold'
                             : 'text-muted bg-sunken'
                         }`}
                       >
@@ -302,7 +302,7 @@ export default function ActionKitClient({ bill }: ActionKitClientProps) {
                         onClick={() => copyText(box.id, box.value)}
                         className={`touch-target inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-semibold transition-colors cursor-pointer ${
                           isCopied
-                            ? 'bg-risk-green-soft text-risk-green-text'
+                            ? 'bg-brand-soft text-ink'
                             : 'bg-sunken hover:bg-brand hover:text-on-brand text-ink'
                         }`}
                       >
@@ -361,7 +361,7 @@ export default function ActionKitClient({ bill }: ActionKitClientProps) {
                   <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-3">
                     <div className="space-y-1">
                       <div className="flex flex-wrap items-center gap-2">
-                        <h3 className="font-bold text-base">{em.targetName}</h3>
+                        <h3 className="font-semibold text-base">{em.targetName}</h3>
                         <span className="text-xs px-2 py-0.5 rounded bg-sunken text-body font-medium">
                           {em.badge}
                         </span>
@@ -389,7 +389,7 @@ export default function ActionKitClient({ bill }: ActionKitClientProps) {
                       >
                         {copiedKey === `body-${em.id}` ? (
                           <>
-                            <Check className="w-3.5 h-3.5 text-risk-green-text" />
+                            <Check className="w-3.5 h-3.5 text-link" />
                             <span>Corp copiat</span>
                           </>
                         ) : (
@@ -552,7 +552,7 @@ export default function ActionKitClient({ bill }: ActionKitClientProps) {
           <div className="p-5 sm:p-6 space-y-5">
             <div className="flex flex-wrap items-center justify-between gap-2 pb-3 border-b border-line">
               <div>
-                <div className="font-bold text-base">
+                <div className="font-semibold text-base">
                   {MODELS.find((x) => x.key === activeAi)!.fullName}
                 </div>
                 <div className="text-xs text-muted">

@@ -4,6 +4,7 @@ import { computeStats } from '@/lib/stats';
 import { countWord } from '@/lib/format';
 import { Container } from '@/components/ui';
 import MpDirectory from '@/components/mps/MpDirectory';
+import { getMpContacts } from '@/lib/mp-contacts';
 
 export const metadata: Metadata = {
   title: 'Parlamentari',
@@ -13,6 +14,10 @@ export const metadata: Metadata = {
 export default async function MpsPage() {
   const bills = await getAllBillsLite();
   const { mpStats } = computeStats(bills);
+  const contacts = await getMpContacts();
+  const withEmail = Object.entries(contacts)
+    .filter(([, c]) => c.matched && c.emails.length > 0)
+    .map(([name]) => name);
   return (
     <Container className="py-12 sm:py-16">
       <div className="max-w-2xl">
@@ -23,7 +28,7 @@ export default async function MpsPage() {
         </p>
       </div>
       <div className="mt-10">
-        <MpDirectory bills={bills} />
+        <MpDirectory bills={bills} withEmail={withEmail} />
       </div>
       <p className="mt-8 max-w-2xl text-xs leading-5 text-muted">
         Semnătura pe un proiect arată doar cine l-a inițiat, nu cum va vota. Lista cuprinde numai inițiatorii proiectelor aflate acum în consultare publică la Senat.

@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from 'react';
 import Link from 'next/link';
-import { ChevronDown, ChevronRight, Search, X } from 'lucide-react';
+import { ChevronDown, ChevronRight, Mail, Search, X } from 'lucide-react';
 import type { BillLite } from '@/lib/types';
 import { PARTY_ORDER, partyFullName } from '@/lib/site';
 import { RISK, levelFromScore } from '@/lib/risk';
@@ -22,8 +22,10 @@ const PAGE = 40;
 
 const roleLabel = (role: string) => (role === 'senator' ? 'Senator' : role === 'deputat' ? 'Deputat' : role);
 
-export default function MpDirectory({ bills }: { bills: BillLite[] }) {
+// withEmail: numele parlamentarilor pentru care fișa oficială publică o adresă de e-mail.
+export default function MpDirectory({ bills, withEmail = [] }: { bills: BillLite[]; withEmail?: string[] }) {
   const { mpStats } = useMemo(() => computeStats(bills), [bills]);
+  const emailSet = useMemo(() => new Set(withEmail), [withEmail]);
   const levelById = useMemo(() => new Map(bills.map((b) => [b.id, b.analysis.consensus.riskLevel])), [bills]);
 
   const parties = useMemo(() => {
@@ -159,6 +161,12 @@ export default function MpDirectory({ bills }: { bills: BillLite[] }) {
                       <span className="font-semibold text-ink group-hover:underline group-hover:underline-offset-4">{m.name}</span>
                       <PartyTag party={m.party} />
                       <span className="text-xs text-muted">{roleLabel(m.role)}</span>
+                      {emailSet.has(m.name) && (
+                        <span title="Are un e-mail oficial publicat" className="inline-flex items-center text-muted">
+                          <Mail className="h-3.5 w-3.5" aria-hidden />
+                          <span className="sr-only">are un e-mail oficial publicat</span>
+                        </span>
+                      )}
                     </span>
                     <span className="mt-2 flex flex-wrap items-center gap-1" aria-label={`${m.redCount} cu risc ridicat, ${m.yellowCount} moderat, ${m.greenCount} redus`}>
                       {m.billIds.slice(0, 14).map((id) => (

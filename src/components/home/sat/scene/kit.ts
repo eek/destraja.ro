@@ -10,7 +10,7 @@ import {
   Matrix4,
   type BufferGeometry,
   type Material,
-} from 'three';
+} from './three';
 
 /* Primitivele din care e făcut tot ce se mișcă: un singur InstancedMesh pe formă, deci câteva apeluri de desen
    pentru toți sătenii, animalele, uneltele și scrisorile. */

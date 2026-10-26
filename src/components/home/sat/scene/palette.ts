@@ -1,4 +1,4 @@
-import { Color } from 'three';
+import { Color } from './three';
 import type { RiskLevel } from '@/lib/types';
 
 /* Materialele machetei rămân aceleași zi și noapte; tema schimbă doar lumina.

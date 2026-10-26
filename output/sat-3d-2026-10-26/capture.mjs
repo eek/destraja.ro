@@ -69,7 +69,12 @@ if (flags.dark || flags.light) {
   const theme = flags.dark ? 'dark' : 'light';
   await send('Page.addScriptToEvaluateOnNewDocument', { source: `try{localStorage.setItem('lastraja-theme','${theme}')}catch(e){}` });
 }
+if (flags.savedata) await send('Page.addScriptToEvaluateOnNewDocument', { source: `Object.defineProperty(navigator, 'connection', { value: { saveData: true } })` });
 if (flags.reduced) await send('Emulation.setEmulatedMedia', { features: [{ name: 'prefers-reduced-motion', value: 'reduce' }] });
+// Profil de telefon: atingeri (pointer: coarse) și procesor încetinit.
+if (flags.touch || mobile) await send('Emulation.setTouchEmulationEnabled', { enabled: true, maxTouchPoints: 5 });
+if (flags.cpu) await send('Emulation.setCPUThrottlingRate', { rate: +flags.cpu });
+if (flags.dprOverride) await send('Emulation.setDeviceMetricsOverride', { width: W, height: H, deviceScaleFactor: +flags.dprOverride, mobile });
 await send('Page.navigate', { url });
 
 // Așteptăm până desenează scena (sau până apare posterul).
@@ -97,7 +102,88 @@ if (mode === 'shot') {
   fs.writeFileSync(a3, Buffer.from(shot.result.data, 'base64'));
   const info = await evaluate(`JSON.stringify({...document.querySelector('figure canvas')?.dataset, sw: document.documentElement.scrollWidth})`);
   console.log(info);
-} else if (mode === 'video') {
+} else if (mode === 'act' || mode === 'video') {
+  // Scenariu: listă de pași (JSON). Coordonatele sunt fracții din pânza scenei (0–1).
+  //   {"at":30,"down":[0.5,0.6]}  {"from":31,"to":70,"moveBy":[-0.4,0]}  {"at":71,"up":true}
+  //   {"at":150,"clickNotice":3}  {"at":40,"tapBoard":true}  {"at":80,"tapNotice":5}  {"at":120,"key":"Escape"}
+  //   {"at":20,"eval":"..."}  {"at":90,"shot":"/cale.png"}   (în modul act, "at" e în milisecunde)
+  const script = flags.script ? JSON.parse(fs.readFileSync(flags.script, 'utf8')) : [];
+  const dir = mode === 'video' ? a3 : null;
+  if (dir) fs.mkdirSync(dir, { recursive: true });
+  const box = JSON.parse(await evaluate(`JSON.stringify(document.querySelector('figure canvas').getBoundingClientRect())`));
+  const pt = ([fx, fy]) => ({ x: box.x + fx * box.width, y: box.y + fy * box.height });
+  const center = async (expr) => JSON.parse(await evaluate(`(() => { const b = (${expr}).getBoundingClientRect(); return JSON.stringify({ x: b.x + b.width / 2, y: b.y + b.height / 2 }); })()`));
+  let mouse = { x: 0, y: 0 };
+  const mouseEv = (type, p, buttons = 1) => send('Input.dispatchMouseEvent', { type, x: p.x, y: p.y, button: 'left', buttons, clickCount: type === 'mouseMoved' ? 0 : 1 });
+  const tap = async (p) => {
+    await send('Input.dispatchTouchEvent', { type: 'touchStart', touchPoints: [{ x: p.x, y: p.y }] });
+    await send('Input.dispatchTouchEvent', { type: 'touchEnd', touchPoints: [] });
+  };
+  const run = async (s, i) => {
+    if (s.down) {
+      mouse = pt(s.down);
+      await mouseEv('mouseMoved', mouse, 0);
+      await mouseEv('mousePressed', mouse);
+    }
+    if (s.moveBy && i >= s.from && i <= s.to) {
+      const k = 1 / (s.to - s.from + 1);
+      mouse = { x: mouse.x + s.moveBy[0] * box.width * k, y: mouse.y + s.moveBy[1] * box.height * k };
+      await mouseEv('mouseMoved', mouse);
+    }
+    if (s.up) await mouseEv('mouseReleased', mouse);
+    if (s.hover !== undefined) await mouseEv('mouseMoved', await center(`document.querySelectorAll('figure button[aria-pressed]')[${s.hover}]`), 0);
+    if (s.clickNotice !== undefined) {
+      const p = await center(`document.querySelectorAll('figure button[aria-pressed]')[${s.clickNotice}]`);
+      await mouseEv('mouseMoved', p, 0);
+      await mouseEv('mousePressed', p);
+      await mouseEv('mouseReleased', p);
+    }
+    if (s.clickSel) {
+      const p = await center(`document.querySelector(${JSON.stringify(s.clickSel)})`);
+      await mouseEv('mouseMoved', p, 0);
+      await mouseEv('mousePressed', p);
+      await mouseEv('mouseReleased', p);
+    }
+    if (s.tapBoard) {
+      const r = JSON.parse(await evaluate(`JSON.stringify(document.querySelector('figure button[tabindex="-1"]').getBoundingClientRect())`));
+      await tap({ x: r.x + r.width * 0.3, y: r.y + r.height * 0.5 });
+    }
+    if (s.tapNotice !== undefined) await tap(await center(`document.querySelectorAll('figure button[aria-pressed]')[${s.tapNotice}]`));
+    if (s.key) {
+      await send('Input.dispatchKeyEvent', { type: 'keyDown', key: s.key, code: s.key, windowsVirtualKeyCode: s.key === 'Escape' ? 27 : 0 });
+      await send('Input.dispatchKeyEvent', { type: 'keyUp', key: s.key, code: s.key, windowsVirtualKeyCode: s.key === 'Escape' ? 27 : 0 });
+    }
+    if (s.eval) console.log(i, await evaluate(s.eval));
+    if (s.shot) {
+      const clip = flags.clip ? await clipOf(flags.clip) : undefined;
+      const shot = await send('Page.captureScreenshot', { format: 'png', ...(clip ? { clip } : {}) });
+      fs.writeFileSync(s.shot, Buffer.from(shot.result.data, 'base64'));
+    }
+  };
+  if (mode === 'act') {
+    const t0 = Date.now();
+    for (const s of script) {
+      const wait = s.at - (Date.now() - t0);
+      if (wait > 0) await sleep(wait);
+      if (s.from !== undefined) {
+        for (let i = s.from; i <= s.to; i++) {
+          await run(s, i);
+          await sleep(16);
+        }
+      } else await run(s, 0);
+    }
+  } else {
+    const clip = flags.clip ? await clipOf(flags.clip) : undefined;
+    const frames = +(flags.frames || 270);
+    for (let i = 0; i < +(flags.warm || 0); i++) await evaluate(`window.dispatchEvent(new CustomEvent('sat-step', { detail: 1 / 30 }))`);
+    for (let i = 0; i < frames; i++) {
+      for (const s of script) if (s.at === i || (s.from !== undefined && i >= s.from && i <= s.to)) await run(s, i);
+      await evaluate(`window.dispatchEvent(new CustomEvent('sat-step', { detail: 1 / 30 }))`);
+      const shot = await send('Page.captureScreenshot', { format: 'png', ...(clip ? { clip } : {}) });
+      fs.writeFileSync(path.join(dir, `f${String(i).padStart(4, '0')}.png`), Buffer.from(shot.result.data, 'base64'));
+    }
+  }
+} else if (mode === 'video-old') {
   const dir = a3;
   fs.mkdirSync(dir, { recursive: true });
   const clip = flags.clip ? await clipOf(flags.clip) : undefined;
@@ -119,14 +205,22 @@ if (mode === 'shot') {
     const samples = []; let n = 0; let last = performance.now(); const gaps = [];
     const tick = () => {
       const now = performance.now(); gaps.push(now - last); last = now;
-      samples.push(+c.dataset.frameMs);
+      if (c.dataset.frameMs) samples.push(+c.dataset.frameMs);
       if (++n < 600) requestAnimationFrame(tick); else {
         gaps.sort((a, b) => a - b);
-        done(JSON.stringify({ frameMsAvg: (samples.slice(-300).reduce((a, b) => a + b, 0) / 300).toFixed(2), rafMedian: gaps[gaps.length >> 1].toFixed(2), rafP95: gaps[Math.floor(gaps.length * 0.95)].toFixed(2), calls: c.dataset.calls, tris: c.dataset.tris }));
+        done(JSON.stringify({ frameMsAvg: (samples.slice(-300).reduce((a, b) => a + b, 0) / Math.min(300, samples.length)).toFixed(2), n: samples.length, rafMedian: gaps[gaps.length >> 1].toFixed(2), rafP95: gaps[Math.floor(gaps.length * 0.95)].toFixed(2), calls: c.dataset.calls, tris: c.dataset.tris }));
       }
     };
     requestAnimationFrame(tick);
   })`);
+  // Rafală: cadre fără așteptarea ecranului, o singură sincronizare GPU la final.
+  const burst = [];
+  for (let r = 0; r < 3; r++) {
+    await evaluate(`window.dispatchEvent(new CustomEvent('sat-burst', { detail: 300 }))`);
+    burst.push(+(await evaluate(`document.querySelector('figure canvas').dataset.burstMs`)));
+    await sleep(300);
+  }
+  console.log('burstMs', burst.join(' / '), 'quality', await evaluate(`document.querySelector('figure canvas').dataset.quality`));
   const gl = await evaluate(`(() => { const g = document.createElement('canvas').getContext('webgl2'); const e = g && g.getExtension('WEBGL_debug_renderer_info'); return e ? g.getParameter(e.UNMASKED_RENDERER_WEBGL) : 'n/a'; })()`);
   console.log(res, '| renderer:', gl);
 }

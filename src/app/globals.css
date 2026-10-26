@@ -40,6 +40,8 @@
   --on-band-muted: #c3cde0;
 
   --shadow-color: 32 28 18;
+  /* Posterul satului din hero, afișat până pornește scena 3D (și fără WebGL). */
+  --sat-poster: url("/sat/sat-poster-light.webp");
   color-scheme: light;
 }
 
@@ -75,6 +77,7 @@
     --on-band: #eef0f5;
     --on-band-muted: #b3bdd0;
     --shadow-color: 0 0 0;
+    --sat-poster: url("/sat/sat-poster-dark.webp");
     color-scheme: dark;
   }
 }
@@ -110,6 +113,7 @@
   --on-band: #eef0f5;
   --on-band-muted: #b3bdd0;
   --shadow-color: 0 0 0;
+  --sat-poster: url("/sat/sat-poster-dark.webp");
   color-scheme: dark;
 }
 

@@ -26,7 +26,7 @@ import {
   Vector3,
   DynamicDrawUsage,
   ZeroFactor,
-} from 'three';
+} from './three';
 import type { RiskLevel } from '@/lib/types';
 import type { BubbleKind, BubbleOut } from './people';
 import { MAT, type Tokens } from './palette';
@@ -300,6 +300,7 @@ export class Smoke {
 }
 
 const BEAM_LEN = 9;
+const SWEEP_DAY = '#fff6dc';
 
 /** Fasciculul felinarului (noaptea) și raza care mătură satul ca un radar (ziua). */
 export class Beam {
@@ -340,7 +341,8 @@ export class Beam {
     }
     sg.setAttribute('color', new Float32BufferAttribute(sc, 4));
     this.sweepAlpha = Float32Array.from(sc.filter((_, i) => i % 4 === 3));
-    this.sweepMat = new MeshBasicMaterial({ color: MAT.navy, vertexColors: true, transparent: true, depthWrite: false, opacity: 0.12, polygonOffset: true, polygonOffsetFactor: -2, polygonOffsetUnits: -2 });
+    // Ziua, raza luminează pământul (lumină adăugată), nu-l întunecă: nu poate fi confundată cu o umbră.
+    this.sweepMat = glow(new MeshBasicMaterial({ color: SWEEP_DAY, vertexColors: true, opacity: 0, polygonOffset: true, polygonOffsetFactor: -2, polygonOffsetUnits: -2 }));
     this.sweep = new Mesh(sg, this.sweepMat);
     this.sweep.position.set(TOWER.x, 0.06, TOWER.z);
     this.sweep.renderOrder = 2;
@@ -352,7 +354,7 @@ export class Beam {
     this.cone.position.copy(lantern);
     this.cone.rotation.set(-(Math.PI / 2 - pitch), yaw, 0, 'YXZ');
     this.sweep.visible = night < 0.99;
-    this.sweepMat.opacity = (1 - night) * 0.15;
+    this.sweepMat.opacity = (1 - night) * 0.55;
     // Sectorul pornește de pe axa x; îl rotim ca marginea din față să fie pe direcția străjerului.
     const phi = yaw - Math.PI / 2;
     this.sweep.rotation.y = phi;
@@ -392,4 +394,82 @@ export function floatShadow() {
   const m = new Mesh(new PlaneGeometry(27, 22).rotateX(-Math.PI / 2), mat);
   m.renderOrder = -1;
   return { mesh: m, mat, tex };
+}
+
+const BLOB_MAX = 48;
+
+/** Umbrele moi de sub săteni și animale: un disc întunecat, instanțiat, în locul umbrelor calculate. */
+export class Blobs {
+  readonly mesh: InstancedMesh;
+  private readonly tex = radial(64, [
+    [0, 'rgba(255,255,255,1)'],
+    [0.5, 'rgba(255,255,255,0.55)'],
+    [1, 'rgba(255,255,255,0)'],
+  ]);
+  private readonly mat: MeshBasicMaterial;
+  private readonly m = new Matrix4();
+
+  constructor() {
+    this.mat = new MeshBasicMaterial({ color: MAT.ink, alphaMap: this.tex, transparent: true, depthWrite: false, opacity: 0.3, polygonOffset: true, polygonOffsetFactor: -1, polygonOffsetUnits: -1 });
+    this.mesh = new InstancedMesh(new PlaneGeometry(1, 1).rotateX(-Math.PI / 2), this.mat, BLOB_MAX);
+    this.mesh.instanceMatrix.setUsage(DynamicDrawUsage);
+    this.mesh.frustumCulled = false;
+    this.mesh.renderOrder = 1;
+  }
+
+  update(list: { x: number; y: number; z: number; r: number }[], night: number) {
+    const n = Math.min(BLOB_MAX, list.length);
+    for (let i = 0; i < n; i++) {
+      const b = list[i];
+      const d = b.r * 2;
+      this.mesh.setMatrixAt(i, this.m.makeScale(d, 1, d).setPosition(b.x, b.y, b.z));
+    }
+    this.mesh.count = n;
+    this.mesh.instanceMatrix.needsUpdate = true;
+    this.mat.opacity = 0.26 + night * 0.12;
+  }
+
+  dispose() {
+    this.mesh.geometry.dispose();
+    this.mat.dispose();
+    this.tex.dispose();
+  }
+}
+
+/** Sclipirea lunetei, când străjerul privește spre noi. */
+export class Glint {
+  readonly points: Points;
+  private readonly mat: PointsMaterial;
+  private readonly tex = radial(64, [
+    [0, 'rgba(255,255,255,1)'],
+    [0.18, 'rgba(255,250,235,0.8)'],
+    [1, 'rgba(255,250,235,0)'],
+  ]);
+
+  constructor() {
+    const g = new BufferGeometry();
+    g.setAttribute('position', new Float32BufferAttribute([0, 0, 0], 3));
+    this.mat = glow(new PointsMaterial({ map: this.tex, size: 1.1, color: '#ffffff', opacity: 0 }));
+    this.points = new Points(g, this.mat);
+    this.points.frustumCulled = false;
+    this.points.renderOrder = 6;
+  }
+
+  /** look: cât de drept spre cameră privește luneta (1 = drept în obiectiv). */
+  update(at: Vector3, look: number, night: number) {
+    const k = Math.max(0, look) ** 30 * (1 - night);
+    this.points.visible = k > 0.01;
+    if (!this.points.visible) return;
+    this.mat.opacity = k;
+    this.mat.size = 0.6 + k * 0.9;
+    const p = this.points.geometry.getAttribute('position');
+    p.setXYZ(0, at.x, at.y, at.z);
+    p.needsUpdate = true;
+  }
+
+  dispose() {
+    this.points.geometry.dispose();
+    this.mat.dispose();
+    this.tex.dispose();
+  }
 }

@@ -1,13 +1,11 @@
 import {
   CircleGeometry,
   CylinderGeometry,
-  ExtrudeGeometry,
   IcosahedronGeometry,
-  Shape,
   Vector3,
   type ColorRepresentation,
-} from 'three';
-import { Builder, frustum, gableRoof, hipRoof, seeded, xf } from './geo';
+} from './three';
+import { Builder, frustum, gableRoof, hipRoof, prism, seeded, xf } from './geo';
 import { MAT } from './palette';
 
 export type V2 = [number, number];
@@ -15,7 +13,8 @@ export type V2 = [number, number];
 /* Harta satului, în unități de machetă (un om are cam 1). x spre dreapta, z spre privitor. */
 export const ISLAND = { a: 11.8, b: 9.8, p: 2.6 };
 export const TOWER = { x: -4.5, z: -2.2, legBase: 1.15, legTop: 0.78, deck: 6.3, booth: 1.5, roof: 8.55 };
-export const BOARD = { x: 1.3, z: 1.9, w: 6.8, h: 2.65, y: 2.9 };
+/** Avizierul: mai mic decât un perete de casă, ridicat pe stâlpi ca oamenii din fața lui să nu acopere afișele. */
+export const BOARD = { x: 1.3, z: 2.0, w: 5.1, h: 2.0, y: 2.75 };
 export const SQUARE = { x: 0.7, z: 2.3, r: 4.5 };
 export const MAILBOX = { x: 6.3, z: 3.1, slotY: 1.05 };
 export const WELL = { x: -4.6, z: 4.6, r: 0.55, pivotY: 2.6, arm: 2.45, rope: 1.55 };
@@ -118,13 +117,7 @@ export function onIsland(x: number, z: number, margin = 0.6) {
 }
 
 function slab(b: Builder, pts: V2[], top: number, depth: number, color: ColorRepresentation) {
-  const shape = new Shape();
-  pts.forEach(([x, z], i) => (i ? shape.lineTo(x, z) : shape.moveTo(x, z)));
-  shape.closePath();
-  const g = new ExtrudeGeometry(shape, { depth, bevelEnabled: false, curveSegments: 1 });
-  g.rotateX(Math.PI / 2);
-  g.translate(0, top, 0);
-  b.add(g, color);
+  b.add(prism(pts, top, depth), color);
 }
 
 function island(b: Builder) {

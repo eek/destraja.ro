@@ -10,7 +10,7 @@ import {
   Quaternion,
   Vector3,
   type ColorRepresentation,
-} from 'three';
+} from './three';
 
 const _m = new Matrix4();
 const _q = new Quaternion();
@@ -55,6 +55,30 @@ export function gableRoof(w: number, d: number, h: number) {
 function triangles(pts: [number, number, number][]) {
   const g = new BufferGeometry();
   g.setAttribute('position', new Float32BufferAttribute(pts.flat(), 3));
+  g.computeVertexNormals();
+  return g;
+}
+
+/**
+ * O placă cu conturul dat (în planul x-z), groasă cât depth, cu fața de sus la y = top.
+ * Conturul e în formă de stea față de centru, așa că fețele de sus și de jos se închid în evantai.
+ */
+export function prism(pts: [number, number][], top: number, depth: number) {
+  const bottom = top - depth;
+  const cx = pts.reduce((a, p) => a + p[0], 0) / pts.length;
+  const cz = pts.reduce((a, p) => a + p[1], 0) / pts.length;
+  const out: number[] = [];
+  const tri = (a: number[], b: number[], c: number[]) => out.push(...a, ...b, ...c);
+  for (let i = 0; i < pts.length; i++) {
+    const [ax, az] = pts[i];
+    const [bx, bz] = pts[(i + 1) % pts.length];
+    tri([cx, top, cz], [bx, top, bz], [ax, top, az]);
+    tri([cx, bottom, cz], [ax, bottom, az], [bx, bottom, bz]);
+    tri([ax, top, az], [bx, top, bz], [ax, bottom, az]);
+    tri([bx, top, bz], [bx, bottom, bz], [ax, bottom, az]);
+  }
+  const g = new BufferGeometry();
+  g.setAttribute('position', new Float32BufferAttribute(out, 3));
   g.computeVertexNormals();
   return g;
 }

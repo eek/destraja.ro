@@ -1,4 +1,4 @@
-import { Color, Vector3 } from 'three';
+import { Color, Vector3 } from './three';
 import type { RiskLevel } from '@/lib/types';
 import { BALL, BOX, CONE, CYL, TAPER, type Pen } from './kit';
 import { C } from './palette';
@@ -236,6 +236,8 @@ class Person {
   private phase = 0;
   private stride = 0;
   bubble: Bubble | null = null;
+  /** Afișul citit: balonul apare abia după ce s-a îndepărtat de avizier, ca să nu acopere afișele. */
+  private pending: RiskLevel | null = null;
   heardLap = -1;
   heardAt = -99;
   private homeSince = 0;
@@ -296,10 +298,7 @@ class Person {
     if ('act' in s || 'wait' in s) this.faceStep(s);
     if ('wait' in s) this.homeSince = v.t;
     // După ce a citit, pleacă de la avizier cu balonul în culoarea afișului.
-    if ('act' in leaving && leaving.act === 'read' && v.levels.length) {
-      const level = v.levels[Math.floor(this.rnd() * v.levels.length)];
-      this.say({ kind: level, t0: v.t + 1.5, dur: 3.2 });
-    }
+    if ('act' in leaving && leaving.act === 'read' && v.levels.length) this.pending = v.levels[Math.floor(this.rnd() * v.levels.length)];
   }
 
   update(v: Village, dt: number) {
@@ -341,6 +340,10 @@ class Person {
     this.yaw += angleTo(this.yaw, this.targetYaw) * Math.min(1, dt * 7);
     this.phase %= TAU * 100;
     if (this.bubble && v.t > this.bubble.t0 + this.bubble.dur) this.bubble = null;
+    if (this.pending && clearOfBoard(this.x, this.z)) {
+      this.say({ kind: this.pending, t0: v.t, dur: 3.2 });
+      this.pending = null;
+    }
     this.pose_(v);
   }
 
@@ -496,7 +499,12 @@ class Person {
 
 /* ---------- traseele ---------- */
 
-const READ_Z = BOARD.z + 0.85;
+const READ_Z = BOARD.z + 0.9;
+
+/** Destul de departe de avizier încât balonul să nu stea peste afișe. */
+function clearOfBoard(x: number, z: number) {
+  return z - BOARD.z > 2.4 || Math.abs(x - BOARD.x) > BOARD.w / 2 + 0.7;
+}
 const POST_SPOTS: V2[] = [
   [5.72, 2.88],
   [5.86, 3.46],
@@ -528,6 +536,9 @@ type Letter = { t0: number; from: Vector3 };
 type Bit = { x: number; y: number; z: number; vx: number; vy: number; vz: number; t0: number; life: number; kind: 'chip' | 'clod' | 'dust' | 'splash' };
 
 export type BubbleOut = { x: number; y: number; z: number; kind: BubbleKind; s: number };
+export type BlobShadow = { x: number; y: number; z: number; r: number };
+const GROUND_Y = 0.09;
+const PORCH_Y = 0.16;
 
 export class Village {
   t = 0;
@@ -552,6 +563,10 @@ export class Village {
   private readonly guardLook: Look;
   private readonly guardPose = blank();
   readonly bubbles: BubbleOut[] = [];
+  /** Umbrele moi de sub tot ce se mișcă (umbrele adevărate sunt doar pentru ce stă pe loc). */
+  readonly blobs: BlobShadow[] = [];
+  /** Vârful lunetei, unde sclipește când străjerul privește spre noi. */
+  readonly glint = new Vector3();
   /** Unde e felinarul străjerului acum (în coordonatele insulei). */
   readonly lantern = new Vector3();
 
@@ -595,7 +610,7 @@ export class Village {
       3,
     );
 
-    const leftEnd: V2 = [BOARD.x - BOARD.w / 2 - 0.6, READ_Z - 0.1];
+    const leftEnd: V2 = [BOARD.x - BOARD.w / 2 - 1.05, READ_Z - 0.15];
     this.reader = new Person('cititor', man(C.paper, 'caciula', C.ink, C.balsa), leftEnd, [{ act: 'read', dur: 1e9, face: [BOARD.x - BOARD.w / 2 + 0.8, BOARD.z] }], 4);
 
     const people: Person[] = [
@@ -658,12 +673,12 @@ export class Village {
       new Person('bunica', woman(C.navy, C.navy), seat(benchA, -0.22), [{ act: 'knit', dur: 1e9, face: benchA.yaw }], 10),
       new Person('bunic', man(C.paper, 'caciula', C.ink, C.balsa), seat(benchA, 0.22), [{ act: 'sit', dur: 1e9, face: benchA.yaw }], 11),
       new Person('torcatoare', woman(C.paper, C.navy), seat(benchB, 0), [{ act: 'spin', dur: 1e9, face: benchB.yaw }], 12),
-      walker('w1', man(C.paper, 'caciula', C.ink), [-3.2, -4.6], [-2.6, -4.1], [[-2.2, -3.4], [-2.4, -0.8], [-3.0, 1.6], [-2.3, 3.3]], [-1.3, READ_Z], 0, [[4.5, 4.1], [-2.4, 3.8], [-3.0, 1.6], [-2.4, -0.8], [-2.4, -3.4]], 21),
-      walker('w2', woman(C.navy, C.navy), [-2.6, -4.1], [-3.2, -4.6], [[-1.8, -3.2], [-2.0, -0.8], [-2.8, 1.5], [-1.9, 3.4]], [-0.2, READ_Z + 0.05], 1, [[4.6, 4.2], [-2.2, 3.9], [-2.8, 1.5], [-2.0, -0.8], [-1.9, -3.2]], 22),
-      walker('w3', man(C.paper, 'palarie', C.ink, C.balsa), [6.0, -2.0], [6.5, -1.45], [[5.3, 0.2], [5.0, 3.0]], [3.8, READ_Z], 0, [[5.3, 2.4], [5.4, 0.3]], 23),
-      walker('w4', woman(C.paper, C.navy), [6.5, -1.45], [6.0, -2.0], [[5.6, 0.4], [5.2, 3.2]], [2.85, READ_Z + 0.05], 1, [[5.5, 2.4], [5.7, 0.4]], 24),
-      walker('w5', man(C.paper, 'caciula', C.navy), [-0.6, 6.6], [-0.05, 7.05], [[0.0, 4.4]], [0.9, READ_Z + 0.55], 0, [[3.8, 4.6], [0.6, 5.6]], 25),
-      walker('w6', woman(C.navy, C.navy), [-0.05, 7.05], [-0.6, 6.6], [[1.2, 4.6]], [1.9, READ_Z], 1, [[3.6, 4.8], [1.0, 6.0]], 26),
+      walker('w1', man(C.paper, 'caciula', C.ink), [-3.2, -4.6], [-2.6, -4.1], [[-2.2, -3.4], [-2.4, -0.8], [-3.0, 1.6], [-2.3, 3.3]], [-0.9, READ_Z], 0, [[4.5, 4.1], [-2.4, 3.8], [-3.0, 1.6], [-2.4, -0.8], [-2.4, -3.4]], 21),
+      walker('w2', woman(C.navy, C.navy), [-2.6, -4.1], [-3.2, -4.6], [[-1.8, -3.2], [-2.0, -0.8], [-2.8, 1.5], [-1.9, 3.4]], [0.0, READ_Z + 0.05], 1, [[4.6, 4.2], [-2.2, 3.9], [-2.8, 1.5], [-2.0, -0.8], [-1.9, -3.2]], 22),
+      walker('w3', man(C.paper, 'palarie', C.ink, C.balsa), [6.0, -2.0], [6.5, -1.45], [[5.3, 0.2], [5.0, 3.0]], [3.5, READ_Z], 0, [[5.3, 2.4], [5.4, 0.3]], 23),
+      walker('w4', woman(C.paper, C.navy), [6.5, -1.45], [6.0, -2.0], [[5.6, 0.4], [5.2, 3.2]], [2.6, READ_Z + 0.05], 1, [[5.5, 2.4], [5.7, 0.4]], 24),
+      walker('w5', man(C.paper, 'caciula', C.navy), [-0.6, 6.6], [-0.05, 7.05], [[0.0, 4.4]], [0.85, READ_Z + 0.55], 0, [[3.8, 4.6], [0.6, 5.6]], 25),
+      walker('w6', woman(C.navy, C.navy), [-0.05, 7.05], [-0.6, 6.6], [[1.2, 4.6]], [1.7, READ_Z], 1, [[3.6, 4.8], [1.0, 6.0]], 26),
     ];
     this.people = people;
     this.kids = [kid(false, C.navy), kid(true, C.navy)];
@@ -781,9 +796,13 @@ export class Village {
 
   draw(pen: Pen, night: number) {
     const t = this.t;
+    const blobs = this.blobs;
+    blobs.length = 0;
     for (const p of this.people) {
       pen.reset().move(p.x, 0, p.z).ry(p.yaw);
       drawPerson(pen, p.look, p.pose);
+      const sitting = p.acting === 'sit' || p.acting === 'knit' || p.acting === 'spin';
+      blobs.push({ x: p.x, y: sitting ? PORCH_Y : GROUND_Y, z: p.z, r: 0.38 * p.look.scale });
     }
 
     // Copiii se fugăresc în jurul pomului, câinele după ei.
@@ -804,6 +823,7 @@ export class Village {
       kp.headYaw = i ? 0.25 : -0.4;
       pen.reset().move(x, 0, z).ry(Math.atan2(-Math.sin(a), Math.cos(a) * 0.85));
       drawPerson(pen, this.kids[i], kp);
+      blobs.push({ x, y: GROUND_Y, z, r: 0.3 });
     }
     {
       const a = t * 0.95 - 1.7;
@@ -811,6 +831,7 @@ export class Village {
       const z = KIDS_TREE[1] + Math.sin(a) * 1.55;
       pen.reset().move(x, 0, z).ry(Math.atan2(-Math.sin(a), Math.cos(a) * 0.86));
       drawDog(pen, t * 13, 1, t);
+      blobs.push({ x, y: GROUND_Y, z, r: 0.34 });
     }
 
     // Gâștele, în șir, în jurul iazului.
@@ -820,10 +841,12 @@ export class Village {
       const z = POND.z + Math.sin(a) * (POND.rz + 0.5);
       pen.reset().move(x, 0, z).ry(Math.atan2(Math.sin(a), -Math.cos(a) * ((POND.rz + 0.5) / (POND.rx + 0.62))));
       drawGoose(pen, t * 6 + i * 1.3, i === 0 ? Math.max(0, Math.sin(t * 0.8)) : 0);
+      blobs.push({ x, y: GROUND_Y, z, r: 0.24 });
     }
 
     this.drawWell(pen);
     this.drawGuard(pen, night);
+    blobs.push({ x: TOWER.x, y: TOWER.deck + 0.1, z: TOWER.z, r: 0.5 });
 
     // Scrisorile zboară spre Senat.
     for (const l of this.letters) {
@@ -906,6 +929,8 @@ export class Village {
     }
     // Felinarul, pentru lumina de noapte: în fața străjerului, la mâna dreaptă.
     const y = this.guardYaw;
+    const [lx, ly, lz] = [0.07 * GUARD_SCALE, 0.89 * GUARD_SCALE + 0.09, 0.55 * GUARD_SCALE];
+    this.glint.set(TOWER.x + Math.cos(y) * lx + Math.sin(y) * lz, TOWER.deck + ly, TOWER.z - Math.sin(y) * lx + Math.cos(y) * lz);
     const f = 0.33 * GUARD_SCALE;
     const r = 0.19 * GUARD_SCALE;
     this.lantern.set(TOWER.x + Math.sin(y) * f + Math.cos(y) * r, TOWER.deck + 0.09 + 0.3 * GUARD_SCALE, TOWER.z + Math.cos(y) * f - Math.sin(y) * r);

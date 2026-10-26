@@ -7,7 +7,7 @@
 // texte scrise de vizitator: numele din .docx, căutările sau textele editate rămân în browser.
 //
 // Evenimente: senat_form_open, docx_download, text_copy, email_open, kit_tab, ai_model_view,
-// official_source_open, bill_open, radar_select, list_shortcut, bill_filter, party_select,
+// official_source_open, bill_open, radar_select, village_select, list_shortcut, bill_filter, party_select,
 // party_chart_metric, coalition_select, press_copy, csv_download, mp_filter, theme_change, faq_open,
 // report_open, report_sent, risk_reason_open, news_open, news_more, alerts_open, subscribe_sent,
 // subscribe_confirmed, alert_level_change, unsubscribe. Niciodată adresa de e-mail.

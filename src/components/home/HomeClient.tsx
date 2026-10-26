@@ -13,7 +13,7 @@ import BillExplorer from '@/components/bills/BillExplorer';
 import PartyChart from '@/components/data/PartyChart';
 import CoalitionMatrix from '@/components/data/CoalitionMatrix';
 import { CesList } from '@/components/data/PressPanels';
-import RadarScope from './RadarScope';
+import VillageHero from './sat/VillageHero';
 import { trackAttrs } from '@/lib/analytics';
 import { ALERTS_LIVE } from '@/lib/site';
 
@@ -68,7 +68,7 @@ export default function HomeClient({ bills: initial, syncedLabel }: { bills: Bil
               </p>
             </div>
           </div>
-          <RadarScope bills={bills} counts={counts} />
+          <VillageHero bills={bills} counts={counts} />
         </Container>
       </section>
 

@@ -5,17 +5,20 @@
 // 1. senat.ro → data/senat-bills.json, cu PDF-urile noi (straja-sync)
 // 2. analiza celor trei modele pentru proiectele noi (straja-council <slug>)
 // 3. presa pentru proiectele aflate în consultare (straja-news)
-// 4. rapoartele cititorilor din D1 (straja-reports)
-// 5. memoriile .docx pentru proiectele noi sau corectate (straja-docx <slug>…)
-// 6. verificări, migrațiile D1, build și publicare pe Cloudflare
-// 7. ediția zilnică a alertelor pe e-mail, doar după o publicare reușită (straja-digest --send)
-// 8. commit cu datele zilei, dacă semnarea commit-ului merge fără tine (altfel rămân necomise)
+// 4. datele de contact oficiale ale parlamentarilor (straja-mps): lunea toate fișele, în celelalte zile
+//    doar pentru inițiatorii noi; fără inițiatori noi nu trimite nicio cerere către cdep.ro sau senat.ro
+// 5. rapoartele cititorilor din D1 (straja-reports)
+// 6. memoriile .docx pentru proiectele noi sau corectate (straja-docx <slug>…)
+// 7. verificări, migrațiile D1, build și publicare pe Cloudflare
+// 8. ediția zilnică a alertelor pe e-mail, doar după o publicare reușită (straja-digest --send)
+// 9. commit cu datele zilei, dacă semnarea commit-ului merge fără tine (altfel rămân necomise)
 //
 // Un pas care eșuează nu oprește restul, cu excepția verificărilor: fără date valide nu publicăm.
 // Jurnalul: ops/logs/AAAA-LL-ZZ.log. La final apare o notificare macOS cu rezumatul.
 //
 //   --no-deploy   rulează tot, fără build, publicare și e-mailuri
 //   --skip-news   fără căutarea în presă
+//   --skip-mps    fără datele de contact ale parlamentarilor
 
 import fs from 'node:fs';
 import path from 'node:path';
@@ -28,6 +31,7 @@ const LOG_DIR = path.join(ROOT, 'ops', 'logs');
 const LOCK = path.join(ROOT, 'ops', 'daily.lock');
 const args = new Set(process.argv.slice(2));
 const day = new Date().toLocaleDateString('sv-SE', { timeZone: 'Europe/Bucharest' });
+const monday = new Date().toLocaleDateString('en-US', { weekday: 'short', timeZone: 'Europe/Bucharest' }) === 'Mon';
 
 fs.mkdirSync(LOG_DIR, { recursive: true });
 const logFile = path.join(LOG_DIR, `${day}.log`);
@@ -114,6 +118,12 @@ async function main() {
     if (!args.has('--skip-news')) {
       const news = await step('Presă', 'node', ['scripts/straja-news.mjs', '--max-age=20'], { timeoutMs: 5_400_000 });
       if (!news.ok) summary.push('presa a eșuat');
+    }
+
+    if (!args.has('--skip-mps')) {
+      // Fișele parlamentarilor se schimbă rar: o dată pe săptămână ajunge, cu o cerere pe secundă.
+      const mps = await step('Parlamentari', 'node', ['scripts/straja-mps.mjs', ...(monday ? [] : ['--only-new'])], { timeoutMs: 1_800_000 });
+      if (!mps.ok) summary.push('contactele parlamentarilor au eșuat');
     }
 
     const reports = await step('Rapoarte', 'node', ['scripts/straja-reports.mjs'], { timeoutMs: 3_600_000 });

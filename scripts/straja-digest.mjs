@@ -4,8 +4,8 @@
 // Compară datele de azi cu data/digests/state.json (ce au primit deja abonații) și scrie câte o ediție
 // pentru fiecare nivel: all (tot, cu rezumat), yellow (risc mediu și ridicat), red (doar risc ridicat).
 // Un nivel primește e-mail doar dacă are ceva nou: un proiect intrat în consultare, un proiect care mai
-// are cel mult 3 zile, articole noi în presă sau o analiză corectată. Fără state.json scrie prima ediție:
-// ce e deschis acum și presa din ultimele zile lucrătoare.
+// are cel mult 3 zile, articole noi în presă sau o analiză corectată. Niciodată tot ce e deschis: fără
+// state.json (prima rulare, evidență pierdută) doar notează ce există acum și nu trimite nimic.
 //
 // Trimiterea o face Worker-ul (POST /api/digest, cu DIGEST_TOKEN din .env); adresele abonaților nu
 // ajung pe acest calculator. Previzualizările rămân în ops/digest/ (ignorat de git).
@@ -35,6 +35,8 @@ const stateFile = LOCAL ? LOCAL_STATE_FILE : STATE_FILE;
 const DAY = argv.find((a) => a.startsWith('--day='))?.slice(6) ?? new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Bucharest' }).format(new Date());
 
 const CLOSING_DAYS = 3;
+// Un articol vechi găsit abia acum nu e o noutate: îl notăm ca văzut, dar nu îl trimitem.
+const PRESS_MAX_AGE_DAYS = 7;
 const PRESS_SHOWN = 8;
 const LEVEL_KEYS = ['all', 'yellow', 'red'];
 const MATCHES = { all: () => true, yellow: (r) => r === 'red' || r === 'yellow', red: (r) => r === 'red' };
@@ -117,21 +119,31 @@ function loadBills() {
   return bills;
 }
 
-function collect(bills, state) {
-  const first = !state;
+// Ce știu abonații după ediția de azi; la prima rulare, tot ce există deja.
+function snapshot(bills, state, closing) {
   const open = bills.filter((b) => b.days >= 0);
-  // Prima ediție: presa de la ultima zi lucrătoare încoace (lunea, de vineri).
-  const since = new Date(dayUtc(DAY) - (new Date(dayUtc(DAY)).getUTCDay() === 1 ? 3 : 1) * 86_400_000).toISOString().slice(0, 10);
+  return {
+    day: DAY,
+    bills: Object.fromEntries(bills.map((b) => [b.id, b.level])),
+    articles: [...new Set([...state.articles, ...bills.flatMap((b) => b.articles.map((a) => a.url))])],
+    corrections: [...new Set([...state.corrections, ...bills.flatMap((b) => b.corrections.map((c) => c.reportId))])],
+    // Ținem minte doar proiectele încă deschise, ca fișierul să nu crească la nesfârșit.
+    reminded: [...new Set([...state.reminded, ...closing.map((b) => b.id)])].filter((id) => open.some((b) => b.id === id)),
+  };
+}
 
-  const newBills = first ? [] : open.filter((b) => !(b.id in state.bills));
-  const closing = open.filter((b) => b.days <= CLOSING_DAYS && !(state?.reminded ?? []).includes(b.id) && !newBills.includes(b));
-  const seenArticles = new Set(state?.articles ?? []);
+function collect(bills, state) {
+  const open = bills.filter((b) => b.days >= 0);
+  const pressSince = new Date(dayUtc(DAY) - PRESS_MAX_AGE_DAYS * 86_400_000).toISOString().slice(0, 10);
+
+  const newBills = open.filter((b) => !(b.id in state.bills));
+  const closing = open.filter((b) => b.days <= CLOSING_DAYS && !state.reminded.includes(b.id) && !newBills.includes(b));
+  const seenArticles = new Set(state.articles);
   const press = [];
   const seenKeys = new Set();
   for (const b of open) {
     for (const a of b.articles) {
-      const isNew = first ? (a.publishedAt ?? '') >= since : !seenArticles.has(a.url);
-      if (!isNew) continue;
+      if (seenArticles.has(a.url) || (a.publishedAt && a.publishedAt < pressSince)) continue;
       const title = cleanTitle(a.title, a.outlet, a.domain);
       const key = `${a.domain.replace(/^(www|m|amp)\./, '')}|${title.toLowerCase()}`;
       if (seenKeys.has(key)) continue;
@@ -140,25 +152,15 @@ function collect(bills, state) {
     }
   }
   press.sort((a, b) => (b.publishedAt ?? '').localeCompare(a.publishedAt ?? '') || b.bill.score - a.bill.score);
-  const seenCorrections = new Set(state?.corrections ?? []);
-  const corrections = bills.flatMap((b) =>
-    b.corrections.filter((c) => (first ? c.date.slice(0, 10) >= since : !seenCorrections.has(c.reportId))).map((c) => ({ ...c, bill: b })),
-  );
+  const seenCorrections = new Set(state.corrections);
+  const corrections = bills.flatMap((b) => b.corrections.filter((c) => !seenCorrections.has(c.reportId)).map((c) => ({ ...c, bill: b })));
   // O singură notă pe proiect, cu toate secțiunile corectate.
   const correctionsByBill = [...new Set(corrections.map((c) => c.bill))].map((bill) => ({
     bill,
     targets: [...new Set(corrections.filter((c) => c.bill === bill).map((c) => c.target))],
   }));
 
-  const nextState = {
-    day: DAY,
-    bills: Object.fromEntries(bills.map((b) => [b.id, b.level])),
-    articles: [...new Set([...(state?.articles ?? []), ...bills.flatMap((b) => b.articles.map((a) => a.url))])],
-    corrections: [...new Set([...(state?.corrections ?? []), ...bills.flatMap((b) => b.corrections.map((c) => c.reportId))])],
-    // Ținem minte doar proiectele încă deschise, ca fișierul să nu crească la nesfârșit.
-    reminded: [...new Set([...(state?.reminded ?? []), ...closing.map((b) => b.id)])].filter((id) => open.some((b) => b.id === id)),
-  };
-  return { first, open, newBills, closing, press, corrections: correctionsByBill, nextState };
+  return { open, newBills, closing, press, corrections: correctionsByBill, nextState: snapshot(bills, state, closing) };
 }
 
 // --- HTML ----------------------------------------------------------------------------------------
@@ -178,14 +180,6 @@ function billCard(b, { cta = true } = {}) {
 ${b.oneLiner ? `<p class="lt-body" style="margin:8px 0 0;font-family:${SANS};font-size:15px;line-height:23px;color:${C.body}">${esc(b.oneLiner)}</p>` : ''}
 ${cta ? `<p style="margin:12px 0 0;font-family:${SANS};font-size:14px;line-height:20px;font-weight:600"><a href="${esc(billUrl(b))}" class="lt-link" style="${linkStyle}">${esc(ctaLabel(b))}</a></p>` : ''}
 </td></tr></table>`;
-}
-
-function billRow(b) {
-  const r = RISK[b.level];
-  return `<tr><td class="lt-line" style="padding:10px 0;border-top:1px solid ${C.line}">
-<a href="${esc(billUrl(b))}" class="lt-ink" style="font-family:${SERIF};font-size:16px;line-height:22px;color:${C.ink};text-decoration:none">${esc(b.title)}</a>
-<p class="lt-muted" style="margin:3px 0 0;font-family:${SANS};font-size:13px;line-height:19px;color:${C.muted}"><span class="lt-text-${b.level}" style="color:${r.text};font-weight:600">${r.label} · ${fmtScore(b.score)}</span> · ${esc(b.id)} · ${esc(deadlineText(b))}</p>
-</td></tr>`;
 }
 
 function pressRow(a, showRisk = true) {
@@ -225,14 +219,10 @@ function edition(level, data) {
   const closing = data.closing.filter(match).sort((a, b) => a.days - b.days || b.score - a.score);
   const press = data.press.filter((a) => match(a.bill));
   const corrections = data.corrections.filter((c) => match(c.bill));
-  const openHere = data.open.filter(match).sort((a, b) => b.score - a.score);
-  const fresh = newBills.length + closing.length + press.length + corrections.length;
-  if (!data.first && fresh === 0) return null;
-  if (data.first && openHere.length === 0 && fresh === 0) return null;
+  if (newBills.length + closing.length + press.length + corrections.length === 0) return null;
 
   const levelName = LEVELS[level].label;
   const dateLong = capitalize(formatDay(dayUtc(DAY), { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }));
-  const red = openHere.filter((b) => b.level === 'red');
 
   // Subiectul, previzualizarea și deschiderea spun întâi ce e mai important.
   const parts = [];
@@ -244,25 +234,12 @@ function edition(level, data) {
   if (press.length) parts.push(`${countWord(press.length, 'articol', 'articole')} în presă`);
   if (corrections.length) parts.push(corrections.length === 1 ? `analiza ${corrections[0].bill.id} corectată` : `${corrections.length} analize corectate`);
 
-  let subject;
-  let lead;
-  let intro;
-  if (data.first) {
-    const what = level === 'red' ? 'cu risc ridicat' : level === 'yellow' ? 'cu risc mediu sau ridicat' : '';
-    subject = `Prima ediție: ${countWord(openHere.length, 'proiect', 'proiecte')} ${what ? `${what} ` : ''}în consultare${level === 'all' && red.length ? `, ${red.length} cu risc ridicat` : ''}`;
-    lead =
-      level === 'all'
-        ? `${capitalize(countWord(openHere.length, 'proiect de lege e', 'proiecte de lege sunt'))} acum în consultare publică la Senat.`
-        : `${capitalize(countWord(openHere.length, 'proiect', 'proiecte'))} ${what} ${openHere.length === 1 ? 'e' : 'sunt'} acum în consultare publică la Senat.`;
-    intro = `Aceasta e prima ediție a alertelor tale: mai jos e ce se poate schimba${level === 'all' ? '' : ' pe nivelul ales'} și ce a scris presa în ultimele zile. De acum îți scriem doar în zilele lucrătoare în care apare ceva nou.`;
-  } else {
-    subject = capitalize(parts.slice(0, 2).join(' · '));
-    lead = `${capitalize(parts.join(', ').replace(/, ([^,]*)$/, ' și $1'))}.`;
-    intro = newBills.length
-      ? 'Fiecare proiect are pe site explicația pe înțeles, scorul celor trei modele AI și un formular pe care îl trimiți Senatului în 60 de secunde.'
-      : 'Mai jos e ce s-a schimbat de la ultima ediție.';
-  }
-  const preheader = data.first ? intro.split(':')[0] + '.' : (newBills[0] ?? closing[0])?.title ?? lead;
+  const subject = capitalize(parts.slice(0, 2).join(' · '));
+  const lead = `${capitalize(parts.join(', ').replace(/, ([^,]*)$/, ' și $1'))}.`;
+  const intro = newBills.length
+    ? 'Fiecare proiect are pe site explicația pe înțeles, scorul celor trei modele AI și un formular pe care îl trimiți Senatului în 60 de secunde.'
+    : 'Mai jos e ce s-a schimbat de la ultima ediție.';
+  const preheader = (newBills[0] ?? closing[0])?.title ?? lead;
 
   let body = `<h1 class="lt-ink lt-h1" style="margin:0 0 14px;font-family:${SERIF};font-size:28px;font-weight:400;line-height:35px;color:${C.ink}">${esc(lead)}</h1>${P(esc(intro))}`;
   let text = `${lead}\n\n${intro}\n`;
@@ -275,19 +252,6 @@ function edition(level, data) {
   if (closing.length) {
     body += H2('Ultimele zile pentru obiecții') + closing.map((b) => billCard(b)).join('');
     text += `\nULTIMELE ZILE PENTRU OBIECȚII\n${closing.map(textBill).join('\n')}\n`;
-  }
-  if (data.first) {
-    // Prima ediție arată ce e deschis acum: cardurile pentru risc ridicat, restul pe scurt.
-    const others = openHere.filter((b) => b.level !== 'red' && !closing.includes(b));
-    const redCards = red.filter((b) => !closing.includes(b));
-    if (redCards.length) {
-      body += H2('Cu risc ridicat, deschise acum') + redCards.map((b) => billCard(b)).join('');
-      text += `\nCU RISC RIDICAT, DESCHISE ACUM\n${redCards.map(textBill).join('\n')}\n`;
-    }
-    if (level === 'yellow' && others.length) {
-      body += H2('Cu risc mediu') + table(others.map(billRow).join(''));
-      text += `\nCU RISC MEDIU\n${others.map(textBill).join('\n')}\n`;
-    }
   }
   if (press.length) {
     const shown = press.slice(0, PRESS_SHOWN);
@@ -326,7 +290,7 @@ function edition(level, data) {
   text += `\n—\nPrimești acest e-mail pentru că te-ai abonat la alertele lastraja.ro, nivelul „${levelName}”.\nSchimbă nivelul: {{prefs_url}}\nDezabonează-te: {{unsubscribe_url}}\n\nAnalizele sunt făcute cu AI și pot conține erori; verifică textul oficial pe senat.ro.\n`;
 
   const html = emailLayout({ title: subject, preheader, eyebrow: `${esc(dateLong)} · Alerte: ${esc(levelName.toLowerCase())}`, body, footer });
-  return { subject, html, text, stats: { newBills: newBills.length, closing: closing.length, press: press.length, corrections: corrections.length, open: openHere.length } };
+  return { subject, html, text, stats: { newBills: newBills.length, closing: closing.length, press: press.length, corrections: corrections.length } };
 }
 
 // --- trimiterea ----------------------------------------------------------------------------------
@@ -369,9 +333,24 @@ async function send(editions) {
   return totals;
 }
 
+function writeState(next) {
+  fs.mkdirSync(path.dirname(stateFile), { recursive: true });
+  fs.writeFileSync(stateFile, JSON.stringify(next, null, 2) + '\n');
+}
+
 async function main() {
+  const bills = loadBills();
   const state = readJson(stateFile, null);
-  const data = collect(loadBills(), state);
+  if (!state) {
+    if (!SEND) {
+      console.log(`Nu există ${path.relative(ROOT, stateFile)}; cu --send notăm doar ce există acum, fără e-mail.`);
+      return;
+    }
+    writeState(snapshot(bills, { articles: [], corrections: [], reminded: [] }, []));
+    console.log('Prima rulare: am notat ce există acum; de la următoarea ediție trimitem doar noutăți.');
+    return;
+  }
+  const data = collect(bills, state);
   fs.mkdirSync(OUT_DIR, { recursive: true });
   const editions = {};
   for (const level of LEVEL_KEYS) {
@@ -391,12 +370,10 @@ async function main() {
     console.log('Doar previzualizare; cu --send trimitem și actualizăm data/digests/state.json.');
     return;
   }
-  // Fără abonați nu trimitem și nu mutăm state.json: prima ediție rămâne pentru primii abonați.
-  if (!(await activeSubscribers())) {
+  // Și fără abonați mutăm evidența: cine se abonează mâine primește noutățile de mâine, nu tot ce s-a strâns.
+  if (Object.keys(editions).length && !(await activeSubscribers())) {
     console.log('Niciun abonat activ încă; nu trimitem nimic.');
-    return;
-  }
-  if (Object.keys(editions).length) {
+  } else if (Object.keys(editions).length) {
     const totals = await send(editions);
     console.log(`✅ trimise: ${JSON.stringify(totals)}`);
     // Oprit de serviciul de e-mail (limită zilnică, domeniu neverificat): nu mutăm state.json, ca aceeași
@@ -407,8 +384,7 @@ async function main() {
       return;
     }
   }
-  fs.mkdirSync(path.dirname(stateFile), { recursive: true });
-  fs.writeFileSync(stateFile, JSON.stringify(data.nextState, null, 2) + '\n');
+  writeState(data.nextState);
 }
 
 main().catch((err) => {

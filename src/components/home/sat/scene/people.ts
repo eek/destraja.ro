@@ -573,7 +573,7 @@ export class Village {
       [4.6, 4.9],
       [0.8, 6.2],
     ];
-    this.crier = new Person('crainic', man(C.paper, 'palarie', C.ink, C.balsa), [0.8, 6.2], [{ walk: loop, speed: 0.78 }], 1);
+    this.crier = new Person('crainic', man(C.paper, 'palarie', C.ink, C.navy), [0.8, 6.2], [{ walk: loop, speed: 0.78 }], 1);
 
     const benchA = benches[6];
     const benchB = benches[7];
@@ -839,7 +839,7 @@ export class Village {
       const y = iu * iu * p0.y + 2 * iu * u * p1y + u * u * ey;
       const z = iu * iu * p0.z + 2 * iu * u * p1z + u * u * ez;
       const s = Math.min(1, u * 8) * (1 - ease((u - 0.72) / 0.28));
-      pen.reset().move(x, y, z).ry(0.4 + Math.sin(u * 14) * 0.3).rz(Math.sin(u * 19) * 0.5).scale(s * 1.25);
+      pen.reset().move(x, y, z).ry(0.4 + Math.sin(u * 14) * 0.3).rz(Math.sin(u * 19) * 0.5).scale(s * 1.8);
       pen.put(BOX, 0.22, 0.015, 0.15, C.paper).at(BOX, 0, 0.012, 0, 0.21, 0.012, 0.02, C.navy).at(BOX, 0.06, 0.012, 0.04, 0.04, 0.012, 0.04, C.navy);
     }
 

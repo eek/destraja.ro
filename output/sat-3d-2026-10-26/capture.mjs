@@ -104,7 +104,10 @@ if (mode === 'shot') {
   const frames = +(flags.frames || 270);
   // Încălzire: lăsăm satul să pornească.
   for (let i = 0; i < +(flags.warm || 90); i++) await evaluate(`window.dispatchEvent(new CustomEvent('sat-step', { detail: 1 / 30 }))`);
+  // --click=120:2,210:15  →  la cadrul 120 apasă afișul 2, la 210 afișul 15.
+  const clicks = new Map(String(flags.click || '').split(',').filter(Boolean).map((x) => x.split(':').map(Number)));
   for (let i = 0; i < frames; i++) {
+    if (clicks.has(i)) await evaluate(`document.querySelectorAll('figure button[aria-pressed]')[${clicks.get(i)}]?.click()`);
     await evaluate(`window.dispatchEvent(new CustomEvent('sat-step', { detail: 1 / 30 }))`);
     const shot = await send('Page.captureScreenshot', { format: 'png', ...(clip ? { clip } : {}) });
     fs.writeFileSync(path.join(dir, `f${String(i).padStart(4, '0')}.png`), Buffer.from(shot.result.data, 'base64'));

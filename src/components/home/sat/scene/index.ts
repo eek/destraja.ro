@@ -36,6 +36,7 @@ const AZ0 = (-6 * Math.PI) / 180;
 const ORBIT = (21 * Math.PI) / 180;
 const ORBIT_PERIOD = 46;
 const THEME_FADE = 0.7;
+const POP_S = 0.45;
 const MAX_DPR = 2;
 /** De unde începem să căutăm cadrul static: satul a pornit deja de-a binelea. */
 const STILL_AT = 24;
@@ -193,6 +194,7 @@ export function createVillageScene(canvas: HTMLCanvasElement, opts: SceneOptions
   let night = tokens.dark ? 1 : 0;
   let nightTarget = night;
   let clock = 0;
+  let pickedAt = -9;
   let last = 0;
   let cssW = 1;
   let cssH = 1;
@@ -225,7 +227,10 @@ export function createVillageScene(canvas: HTMLCanvasElement, opts: SceneOptions
   layout(opts.notices);
 
   const lift = (i: number) => (notices[i]?.id === activeId ? 1 : 0);
-  const noticeScale = (n: NoticeSlot, on: number) => 1 + on * 0.24 + (n.level === 'red' && !reduced ? Math.max(0, Math.sin(clock * 3 + n.x)) * 0.07 : 0);
+  // Afișul ales sare puțin în față când e ales; cele cu risc ridicat pulsează discret.
+  const pop = () => (reduced ? 0 : Math.max(0, 1 - (clock - pickedAt) / POP_S) ** 2 * 0.35);
+  const noticeScale = (n: NoticeSlot, on: number) =>
+    1 + on * (0.24 + pop()) + (n.level === 'red' && !reduced ? Math.max(0, Math.sin(clock * 3 + n.x)) * 0.07 : 0);
 
   const drawNotices = () => {
     noticeKit.begin();
@@ -236,9 +241,8 @@ export function createVillageScene(canvas: HTMLCanvasElement, opts: SceneOptions
         const col = tokens.risk[n.level];
         noticePen.reset().move(n.x, n.y, n.z + on * 0.14).scale(s);
         if (on) {
-          const fw = noticeW + 0.13;
-          const fh = noticeH + 0.13;
-          noticePen.at(BOX, 0, 0, -0.012, fw, fh, 0.02, C.paper);
+          const breathe = reduced ? 0.05 : 0.04 + Math.sin(clock * 4) * 0.035;
+          noticePen.at(BOX, 0, 0, -0.012, noticeW + 0.09 + breathe * 2, noticeH + 0.09 + breathe * 2, 0.02, C.paper);
         }
         noticePen.put(BOX, noticeW, noticeH, 0.03, col);
         const w = noticeW;
@@ -263,7 +267,7 @@ export function createVillageScene(canvas: HTMLCanvasElement, opts: SceneOptions
     sun.target.position.copy(target);
     paneMat.emissiveIntensity = n * 1.05;
     paneMat.color.set(MAT.pane).lerp(C.lamp, n * 0.4);
-    spot.intensity = n * 4.2;
+    spot.intensity = n * 2.8;
     boardLight.intensity = n * 1.6;
     noticeMat.color.setScalar(1 - n * 0.12);
     shadow.mat.opacity = 0.22 + n * 0.25;
@@ -460,6 +464,7 @@ export function createVillageScene(canvas: HTMLCanvasElement, opts: SceneOptions
       if (!playing()) render();
     },
     setActive(id, fromUser) {
+      if (id !== activeId) pickedAt = clock;
       activeId = id;
       const n = notices.find((x) => x.id === id);
       if (n && fromUser && !reduced) village.focus(n.x, n.y, n.z);

@@ -69,7 +69,7 @@ function radial(size: number, stops: [number, string][]) {
 const BUBBLE_W = 128;
 const BUBBLE_H = 150;
 const BUBBLE_POOL = 12;
-const BUBBLE_SIZE = 0.62;
+const BUBBLE_SIZE = 0.82;
 
 /** Baloanele de deasupra sătenilor: „!” pentru veste, culoarea afișului pentru cine a citit. */
 export class Bubbles {

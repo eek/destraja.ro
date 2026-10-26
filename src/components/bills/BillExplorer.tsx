@@ -4,7 +4,7 @@ import { useMemo, useState } from 'react';
 import { ChevronDown, Clock, Newspaper, Search, Users, X } from 'lucide-react';
 import type { BillLite, RiskLevel } from '@/lib/types';
 import { RISK, RISK_LEVELS } from '@/lib/risk';
-import { countWord, normalize } from '@/lib/format';
+import { countWord, initialRows, normalize } from '@/lib/format';
 import { byDeadline, byNewest, byRiskDesc, oneLiner, type RiskCounts } from '@/lib/stats';
 import { EmptyState, RiskDot, btnPrimary, btnSecondary, inputCls } from '@/components/ui';
 import BillCard from './BillCard';
@@ -74,6 +74,7 @@ export default function BillExplorer({
     return list.sort(sort === 'termen' ? byDeadline : sort === 'noi' ? byNewest : byRiskDesc);
   }, [bills, haystack, query, risk, group, soonOnly, pressOnly, parties, sort]);
 
+  const shown = initialRows(filtered.length, visible);
   const hasFilters = query.trim() !== '' || risk !== 'all' || group !== 'all' || soonOnly || pressOnly || parties.length > 0;
   const reset = () => {
     setQuery('');
@@ -249,17 +250,17 @@ export default function BillExplorer({
       ) : (
         <>
           <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-            {filtered.slice(0, visible).map((b) => (
+            {filtered.slice(0, shown).map((b) => (
               <BillCard key={b.id} bill={b} onParty={(p) => onPartiesChange([p])} />
             ))}
           </div>
           <div className="mt-8 flex flex-col items-center justify-between gap-4 sm:flex-row">
             <p className="text-sm tabular-nums text-muted">
-              Afișate {Math.min(visible, filtered.length)} din {filtered.length}
+              Afișate {shown} din {filtered.length}
             </p>
-            {visible < filtered.length && (
+            {shown < filtered.length && (
               <button type="button" onClick={() => setVisible((v) => v + PAGE)} className={`${btnSecondary} min-h-12 px-5 text-sm`}>
-                Arată încă {Math.min(PAGE, filtered.length - visible)} proiecte
+                Arată încă {initialRows(filtered.length, visible + PAGE) - shown} proiecte
                 <ChevronDown className="h-4 w-4" aria-hidden />
               </button>
             )}

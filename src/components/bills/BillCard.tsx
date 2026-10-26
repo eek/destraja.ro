@@ -43,24 +43,24 @@ export default function BillCard({ bill, onParty }: { bill: BillLite; onParty?: 
         </h3>
         <p className="mt-2.5 text-[15px] leading-relaxed text-body">{oneLiner(bill)}</p>
 
-        <div className="mt-3">
+        {/* Etichetele și presa stau lipite de subsol, ca pe un rând de carduri să fie la aceeași înălțime. */}
+        <div className="mt-auto space-y-1 pt-4">
           <Flags bill={bill} />
+          {bill.press.count > 0 && (
+            <Link
+              href={`/legi/${bill.slug}#presa`}
+              {...trackAttrs('bill_open', { bill_id: bill.id, source: 'card_press' })}
+              className="inline-flex min-h-8 items-center gap-1.5 text-xs font-semibold text-body underline-offset-4 hover:text-ink hover:underline"
+            >
+              <Newspaper className="h-3.5 w-3.5" aria-hidden />
+              {bill.press.recent > 0
+                ? `În presă: ${countWord(bill.press.recent, 'articol', 'articole')} în ultima săptămână`
+                : `În presă: ${countWord(bill.press.count, 'articol', 'articole')}`}
+            </Link>
+          )}
         </div>
 
-        {bill.press.count > 0 && (
-          <Link
-            href={`/legi/${bill.slug}#presa`}
-            {...trackAttrs('bill_open', { bill_id: bill.id, source: 'card_press' })}
-            className={`mt-2 inline-flex min-h-9 items-center gap-1.5 self-start text-xs font-semibold underline-offset-4 hover:underline ${bill.press.recent > 0 ? 'text-ink' : 'text-muted'}`}
-          >
-            <Newspaper className="h-3.5 w-3.5" aria-hidden />
-            {bill.press.recent > 0
-              ? `În presă: ${countWord(bill.press.recent, 'articol', 'articole')} în ultima săptămână`
-              : `În presă: ${countWord(bill.press.count, 'articol', 'articole')}`}
-          </Link>
-        )}
-
-        <div className="mt-auto pt-5">
+        <div className="pt-3">
           <div className="flex flex-wrap items-center justify-between gap-x-3 gap-y-2 border-t border-line pt-4 text-xs">
             <span className={`inline-flex items-center gap-1.5 font-semibold ${DEADLINE_TONE[dl.tone]}`}>
               <Clock className="h-3.5 w-3.5" aria-hidden />

@@ -12,6 +12,7 @@ import { Container, SectionHead, btnPrimary, btnSecondary, linkCls, panel } from
 import BillExplorer from '@/components/bills/BillExplorer';
 import PartyChart from '@/components/data/PartyChart';
 import CoalitionMatrix from '@/components/data/CoalitionMatrix';
+import { CesList } from '@/components/data/PressPanels';
 import RadarScope from './RadarScope';
 import { trackAttrs } from '@/lib/analytics';
 import { ALERTS_LIVE } from '@/lib/site';
@@ -154,7 +155,7 @@ export default function HomeClient({ bills: initial, syncedLabel }: { bills: Bil
                 Vezi și cine o propune.
               </>
             }
-            lead="Partidele inițiatorilor și cine semnează împreună cu cine. Alege un partid sau o pereche ca să vezi proiectele lor în listă."
+            lead="Partidele inițiatorilor, cine semnează împreună cu cine și unde a avertizat Consiliul Economic și Social. Alege un partid sau o pereche ca să vezi proiectele lor în listă."
             aside={
               <Link href="/presa" className={`${btnSecondary} min-h-11 px-4 text-sm`}>
                 Toate datele pentru presă
@@ -174,6 +175,11 @@ export default function HomeClient({ bills: initial, syncedLabel }: { bills: Bil
               <CoalitionMatrix bills={bills} active={parties} onPick={pickParties} />
             </div>
           </div>
+          {stats.cesNegativeBills.length > 0 && (
+            <div id="aviz-ces" className={`${panel} mt-6 scroll-mt-24 p-5 sm:p-6`}>
+              <CesList bills={stats.cesNegativeBills} wide source="home" />
+            </div>
+          )}
           <p className="mt-6 text-sm text-muted">
             Cauți un anume senator sau deputat?{' '}
             <Link href="/parlamentari" className={linkCls}>

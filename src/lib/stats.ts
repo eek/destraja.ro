@@ -166,7 +166,8 @@ export function computeStats(bills: BillLite[]) {
     partyStats,
     mpStats,
     crossPartyBills: bills.filter((b) => b.isCrossParty).sort(byRiskDesc),
-    cesNegativeBills: bills.filter((b) => b.cesNegative).sort(byRiskDesc),
+    // Întâi cele încă în consultare: acolo avizul CES mai poate susține o obiecție.
+    cesNegativeBills: bills.filter((b) => b.cesNegative).sort((a, b) => Number(a.daysRemaining < 0) - Number(b.daysRemaining < 0) || byRiskDesc(a, b)),
   };
 }
 

@@ -2,7 +2,7 @@
 
 import { ChevronDown, ExternalLink, Newspaper } from 'lucide-react';
 import type { BillNews as News, PressArticle, PressSummary } from '@/lib/types';
-import { addDays, countWord, formatDateRo } from '@/lib/format';
+import { addDays, countWord, formatDateRo, initialRows } from '@/lib/format';
 import { PRESS_RECENT_DAYS, recentPress } from '@/lib/stats';
 import { trackAttrs } from '@/lib/analytics';
 import { useToday } from '@/lib/useLiveBills';
@@ -64,7 +64,8 @@ export default function BillNews({ billId, news, builtOn }: { billId: string; ne
   const since = addDays(today, 1 - PRESS_RECENT_DAYS);
   const isRecent = (a: PressArticle) => !!a.publishedAt && a.publishedAt >= since && a.publishedAt <= today;
   const recent = news.articles.filter(isRecent).length;
-  const rest = news.articles.slice(SHOWN);
+  const first = initialRows(news.articles.length, SHOWN);
+  const rest = news.articles.slice(first);
   const row = (a: PressArticle) => (
     <li key={a.url}>
       <ArticleLink billId={billId} a={a} recent={isRecent(a)} />
@@ -93,7 +94,7 @@ export default function BillNews({ billId, news, builtOn }: { billId: string; ne
               : 'Niciun articol nou în ultima săptămână. Cele mai noi sunt primele.'}
           </p>
           <div className={`${panel} mt-4 overflow-hidden`}>
-            <ul className="divide-y divide-line">{news.articles.slice(0, SHOWN).map(row)}</ul>
+            <ul className="divide-y divide-line">{news.articles.slice(0, first).map(row)}</ul>
             {rest.length > 0 && (
               <details className="group/more border-t border-line">
                 <summary

@@ -9,6 +9,11 @@ export function countWord(n: number, one: string, many: string) {
   return `${n}${(rest === 0 && n !== 0) || rest >= 20 ? ' de' : ''} ${many}`;
 }
 
+/** Câte rânduri arătăm înainte de „Vezi toate”: dacă ar rămâne ascunse mai puțin de 3, le arătăm pe toate. */
+export function initialRows(total: number, shown: number, minHidden = 3) {
+  return total - shown < minHidden ? total : shown;
+}
+
 export function normalize(s: string) {
   return s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
 }

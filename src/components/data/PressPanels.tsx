@@ -6,7 +6,7 @@ import { AlertTriangle, ArrowRight, BarChart3, ChevronDown, ChevronRight, Flame,
 import type { BillLite } from '@/lib/types';
 import { ARC_DATE, OPOZITIE, PUTERE } from '@/lib/site';
 import { RISK, levelFromScore } from '@/lib/risk';
-import { countWord, fmt } from '@/lib/format';
+import { countWord, deadlineInfo, DEADLINE_TONE, fmt, initialRows } from '@/lib/format';
 import { byRiskDesc, camps, type MpStat, type PartyStat, type RiskCounts, type Stats } from '@/lib/stats';
 import { CopyButton, PartyTag, RiskDot, btnPrimary, btnSecondary } from '@/components/ui';
 import { trackAttrs } from '@/lib/analytics';
@@ -183,7 +183,8 @@ export function PartyDetail({ party, mps, onDossier }: { party?: PartyStat; mps:
 export function CrossPartyList({ bills }: { bills: BillLite[] }) {
   const list = useMemo(() => [...bills].sort((a, b) => Number(camps(b.parties).bridge) - Number(camps(a.parties).bridge) || byRiskDesc(a, b)), [bills]);
   const [all, setAll] = useState(false);
-  const shown = all ? list : list.slice(0, 5);
+  const first = initialRows(list.length, 5);
+  const shown = all ? list : list.slice(0, first);
   return (
     <div className="flex h-full flex-col">
       <PanelTitle title="Proiecte semnate de mai multe partide" sub={`${countWord(list.length, 'proiect', 'proiecte')}; întâi cele unde semnează împreună puterea și opoziția.`} />
@@ -207,7 +208,7 @@ export function CrossPartyList({ bills }: { bills: BillLite[] }) {
           </li>
         ))}
       </ul>
-      {list.length > 5 && (
+      {list.length > first && (
         <button type="button" onClick={() => setAll((v) => !v)} className={`${btnSecondary} mt-4 min-h-10 self-start px-4 text-xs`}>
           {all ? 'Arată mai puține' : `Arată toate cele ${countWord(list.length, 'proiect', 'proiecte')}`}
           <ChevronDown className={`h-4 w-4 transition-transform ${all ? 'rotate-180' : ''}`} aria-hidden />
@@ -217,22 +218,23 @@ export function CrossPartyList({ bills }: { bills: BillLite[] }) {
   );
 }
 
-export function CesList({ bills }: { bills: BillLite[] }) {
+export function CesList({ bills, wide = false, source = 'presa' }: { bills: BillLite[]; wide?: boolean; source?: string }) {
   return (
     <div className="flex h-full flex-col">
       <PanelTitle title="Aviz negativ de la CES" sub="Consiliul Economic și Social a dat aviz negativ, dar proiectele merg mai departe la Senat." />
       {bills.length === 0 ? (
         <p className="mt-5 text-sm text-muted">Niciun proiect din consultare nu are aviz negativ CES.</p>
       ) : (
-        <ol className="mt-4 space-y-1">
+        <ol className={`mt-4 ${wide ? 'grid gap-x-6 gap-y-1 md:grid-cols-2' : 'space-y-1'}`}>
           {bills.map((b) => (
             <li key={b.id}>
-              <Link href={`/legi/${b.slug}`} className="group flex items-start gap-3 rounded-xl p-3 transition-colors hover:bg-sunken">
+              <Link href={`/legi/${b.slug}`} {...trackAttrs('bill_open', { bill_id: b.id, source: `ces_${source}` })} className="group flex items-start gap-3 rounded-xl p-3 transition-colors hover:bg-sunken">
                 <RiskDot level={b.analysis.consensus.riskLevel} className="mt-1.5 h-2.5 w-2.5" />
                 <span className="min-w-0 flex-1">
                   <span className="block text-sm font-semibold leading-snug text-ink">{b.analysis.consensus.plainTitle}</span>
                   <span className="mt-1 block text-xs tabular-nums text-muted">
-                    {b.id} · scor {fmt(b.analysis.consensus.riskScore)} · {b.parties.join(', ')}
+                    {b.id} · scor {fmt(b.analysis.consensus.riskScore)} · {b.parties.join(', ')} ·{' '}
+                    <span className={`font-semibold ${DEADLINE_TONE[deadlineInfo(b.daysRemaining).tone]}`}>{deadlineInfo(b.daysRemaining).label}</span>
                   </span>
                 </span>
                 <ChevronRight className="mt-1 h-4 w-4 shrink-0 text-muted transition-transform group-hover:translate-x-0.5" aria-hidden />

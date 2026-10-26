@@ -6,7 +6,7 @@ import { AlertTriangle, ChevronDown, Download, ExternalLink, Flame, Layers, Sear
 import type { BillLite } from '@/lib/types';
 import { MODELS } from '@/lib/site';
 import { RISK } from '@/lib/risk';
-import { countWord, deadlineInfo, DEADLINE_TONE, fmt, normalize } from '@/lib/format';
+import { countWord, deadlineInfo, DEADLINE_TONE, fmt, initialRows, normalize } from '@/lib/format';
 import { agreement, camps, modelScore } from '@/lib/stats';
 import { billsCsv, citation, downloadFile, isoToday } from '@/lib/export';
 import { CopyButton, PartyTag, RiskDot, btnSecondary, inputCls } from '@/components/ui';
@@ -149,7 +149,7 @@ export default function Dossier({
                 </td>
               </tr>
             )}
-            {rows.slice(0, limit).map((b) => {
+            {rows.slice(0, initialRows(rows.length, limit)).map((b) => {
               const lvl = b.analysis.consensus.riskLevel;
               const ag = agreement(b);
               const dl = deadlineInfo(b.daysRemaining);
@@ -224,7 +224,7 @@ export default function Dossier({
         <p className="text-xs leading-5 text-muted">
           <span className="lg:hidden">Tabelul se derulează pe orizontală. </span>„Dezacord” = diferența dintre cel mai mare și cel mai mic scor dat de cele trei modele.
         </p>
-        {rows.length > limit && (
+        {rows.length > initialRows(rows.length, limit) && (
           <button type="button" onClick={() => setLimit(rows.length)} className={`${btnSecondary} min-h-10 px-4 text-xs`}>
             Arată toate cele {countWord(rows.length, 'proiect', 'proiecte')}
             <ChevronDown className="h-4 w-4" aria-hidden />

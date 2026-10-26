@@ -6,7 +6,7 @@ import { ChevronDown, Download, ExternalLink } from 'lucide-react';
 import type { PressArticle, RiskLevel } from '@/lib/types';
 import { SITE_URL } from '@/lib/site';
 import { RISK } from '@/lib/risk';
-import { addDays, countWord, formatDateRo } from '@/lib/format';
+import { addDays, countWord, formatDateRo, initialRows } from '@/lib/format';
 import { PRESS_RECENT_DAYS } from '@/lib/stats';
 import { downloadFile, isoToday, toCsv } from '@/lib/export';
 import { trackAttrs } from '@/lib/analytics';
@@ -43,7 +43,8 @@ export default function PressCoverage({ items, builtOn }: { items: CoverageItem[
   const recent = items.filter((a) => a.publishedAt && a.publishedAt >= since && a.publishedAt <= today).length;
   const outlets = new Set(items.map((a) => a.outlet)).size;
   const bills = new Set(items.map((a) => a.slug)).size;
-  const list = all ? items : items.slice(0, SHOWN);
+  const first = initialRows(items.length, SHOWN);
+  const list = all ? items : items.slice(0, first);
 
   return (
     <>
@@ -98,7 +99,7 @@ export default function PressCoverage({ items, builtOn }: { items: CoverageItem[
           </li>
         ))}
       </ol>
-      {items.length > SHOWN && (
+      {items.length > first && (
         <button
           type="button"
           onClick={() => setAll((v) => !v)}

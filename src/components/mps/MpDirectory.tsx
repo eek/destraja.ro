@@ -6,7 +6,7 @@ import { ChevronDown, ChevronRight, Search, X } from 'lucide-react';
 import type { BillLite } from '@/lib/types';
 import { PARTY_ORDER, partyFullName } from '@/lib/site';
 import { RISK, levelFromScore } from '@/lib/risk';
-import { countWord, fmt, normalize } from '@/lib/format';
+import { countWord, fmt, initialRows, normalize } from '@/lib/format';
 import { computeStats, type MpStat } from '@/lib/stats';
 import { EmptyState, PartyTag, RiskDot, btnSecondary, inputCls, segCls } from '@/components/ui';
 import { trackAttrs } from '@/lib/analytics';
@@ -59,6 +59,7 @@ export default function MpDirectory({ bills }: { bills: BillLite[] }) {
     fn(v);
     setVisible(PAGE);
   };
+  const shown = initialRows(list.length, visible);
   const hasFilters = query.trim() !== '' || party !== 'all' || role !== 'all';
 
   return (
@@ -150,7 +151,7 @@ export default function MpDirectory({ bills }: { bills: BillLite[] }) {
       ) : (
         <>
           <ul className="divide-y divide-line overflow-hidden rounded-2xl border border-line bg-surface">
-            {list.slice(0, visible).map((m) => (
+            {list.slice(0, shown).map((m) => (
               <li key={m.slug}>
                 <Link href={`/parlamentari/${m.slug}`} className="group grid gap-3 px-4 py-4 transition-colors hover:bg-sunken/50 sm:grid-cols-[minmax(0,1fr)_auto_auto] sm:items-center sm:gap-6 sm:px-6">
                   <span className="min-w-0">
@@ -187,11 +188,11 @@ export default function MpDirectory({ bills }: { bills: BillLite[] }) {
           </ul>
           <div className="mt-6 flex flex-col items-center justify-between gap-4 sm:flex-row">
             <p className="text-sm tabular-nums text-muted">
-              Afișați {Math.min(visible, list.length)} din {list.length}
+              Afișați {shown} din {list.length}
             </p>
-            {visible < list.length && (
+            {shown < list.length && (
               <button type="button" onClick={() => setVisible((v) => v + PAGE)} className={`${btnSecondary} min-h-12 px-5 text-sm`}>
-                Arată încă {Math.min(PAGE, list.length - visible)}
+                Arată încă {initialRows(list.length, visible + PAGE) - shown}
                 <ChevronDown className="h-4 w-4" aria-hidden />
               </button>
             )}

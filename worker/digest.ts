@@ -15,8 +15,18 @@ const LEVELS: Level[] = ['all', 'yellow', 'red'];
 const BATCH = 25;
 const MAX_HTML = 200_000;
 // Ce fac erorile serviciului de e-mail: adresa scoasă din listă, sau oprim lotul și reîncercăm mai târziu.
-const DROP = new Set(['E_RECIPIENT_SUPPRESSED', 'E_RECIPIENT_NOT_ALLOWED']);
-const STOP = new Set(['E_RATE_LIMIT_EXCEEDED', 'E_DAILY_LIMIT_EXCEEDED', 'E_SENDER_NOT_VERIFIED', 'E_SENDER_DOMAIN_NOT_AVAILABLE', 'E_INTERNAL_SERVER_ERROR']);
+// Doar suprimarea ține de adresă. E_RECIPIENT_NOT_ALLOWED ține de cont (domeniu neînrolat la Email Sending,
+// plan fără trimitere către oricine): dacă am șterge pentru ea, o configurare greșită ar goli toată lista.
+const DROP = new Set(['E_RECIPIENT_SUPPRESSED']);
+const STOP = new Set([
+  'E_RATE_LIMIT_EXCEEDED',
+  'E_DAILY_LIMIT_EXCEEDED',
+  'E_SENDER_NOT_VERIFIED',
+  'E_SENDER_DOMAIN_NOT_AVAILABLE',
+  'E_RECIPIENT_NOT_ALLOWED',
+  'E_ACCOUNT_SUSPENDED',
+  'E_INTERNAL_SERVER_ERROR',
+]);
 
 type Edition = { subject: string; html: string; text: string };
 

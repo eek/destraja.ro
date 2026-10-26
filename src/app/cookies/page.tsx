@@ -187,7 +187,7 @@ export default function CookiesPage() {
           items={[
             'Numele pe care îl treci în documentul .docx personalizat este folosit doar în browserul tău, ca să genereze fișierul. Nu ajunge la noi și nici în statistici.',
             'Textele pentru formularul Senatului și e-mailurile către instituții se copiază sau se deschid în aplicația ta de e-mail. Le trimiți tu, direct. Statisticile numără doar că ai copiat sau ai deschis un text, nu și ce scrie în el.',
-            'Singurul text pe care ni-l trimiți este raportul despre o greșeală, dacă alegi să-l scrii (mai jos).',
+            'Ne trimiți ceva doar dacă alegi: raportul despre o greșeală sau adresa de e-mail pentru alerte (mai jos).',
             'Când deschizi senat.ro sau alt site extern, se aplică politica acelui site.',
           ]}
         />
@@ -218,6 +218,32 @@ export default function CookiesPage() {
           </a>
           .
         </p>
+      </section>
+
+      <section aria-labelledby="alerte" className="mt-12 scroll-mt-24">
+        <h2 id="alerte" className={h2}>
+          Când te abonezi la alerte
+        </h2>
+        <p className={p}>
+          Pentru{' '}
+          <Link href="/abonare" className={linkCls}>
+            alertele pe e-mail
+          </Link>{' '}
+          păstrăm adresa ta, nivelul ales (tot, risc mediu și ridicat sau doar risc ridicat), data abonării, data confirmării și ziua ultimei ediții
+          primite. Nimic altceva: nici nume, nici adresa IP.
+        </p>
+        <Ticks
+          icon={Check}
+          tone="text-link"
+          items={[
+            'Te abonezi în doi pași: după formular primești un e-mail cu un link de confirmare. Fără confirmare nu îți trimitem nimic, iar cererea se șterge după 48 de ore.',
+            'Formularul folosește aceeași verificare anti-roboți Cloudflare Turnstile ca raportarea greșelilor (mai sus), ca nimeni să nu poată abona adresele altora în masă.',
+            'Te dezabonezi dintr-un click, din orice e-mail. Dezabonarea șterge adresa din baza noastră.',
+            'E-mailurile pleacă prin Cloudflare Email Service, iar adresele stau în baza de date Cloudflare D1, în Uniunea Europeană. Nu le dăm nimănui altcuiva și nu le folosim pentru altceva.',
+            'În e-mailuri nu sunt pixeli de urmărire. Linkurile spre lastraja.ro au eticheta „alerte” (utm_source), ca statisticile, dacă le-ai acceptat, să numere vizitele venite din e-mail; eticheta nu spune cine ești.',
+            'Temeiul este acordul tău (art. 6 alin. 1 lit. a din Regulamentul (UE) 2016/679), pe care îl retragi oricând prin dezabonare.',
+          ]}
+        />
       </section>
 
       <section aria-labelledby="sterge" className="mt-12">

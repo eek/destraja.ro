@@ -141,6 +141,42 @@ function setAt(obj, p, value) {
   parent[p[p.length - 1]] = value;
 }
 
+// Cuvintele care diferă între textul vechi și cel nou, fără începutul și sfârșitul comune.
+function changedFragment(oldText, newText) {
+  const a = oldText.split(' ');
+  const b = newText.split(' ');
+  let i = 0;
+  while (i < a.length && i < b.length && a[i] === b[i]) i++;
+  let j = 0;
+  while (j < a.length - i && j < b.length - i && a[a.length - 1 - j] === b[b.length - 1 - j]) j++;
+  return [a.slice(i, a.length - j).join(' '), b.slice(i, b.length - j).join(' ')];
+}
+
+// Formularul pentru Senat și memoriul .docx repetă fraze din concluzia comună. Corectura ajunge și
+// acolo, altfel cititorul ar trimite Senatului exact fraza greșită. Înlocuim doar textul vechi găsit
+// identic (câmpul întreg sau fragmentul schimbat, de minimum 20 de caractere).
+const SENAT_FIELD_MAX = 395;
+function propagate(analysis, patches) {
+  const c = analysis.consensus;
+  const paths = [
+    ...Object.keys(c.senatForm ?? {}).map((k) => ['consensus', 'senatForm', k]),
+    ...(c.docxSections ?? []).flatMap((s, i) => (s.paragraphs ?? []).map((_, j) => ['consensus', 'docxSections', i, 'paragraphs', j])),
+  ];
+  for (const p of patches) {
+    const [from, to] = changedFragment(p.old, p.new);
+    for (const path of paths) {
+      const value = getAt(analysis, path);
+      if (typeof value !== 'string') continue;
+      let next = value.includes(p.old) ? value.split(p.old).join(p.new) : from.length >= 20 && value.includes(from) ? value.split(from).join(to) : value;
+      if (path[1] === 'senatForm' && next.length > SENAT_FIELD_MAX) {
+        next = `${next.slice(0, SENAT_FIELD_MAX - 2).replace(/\s+\S*$/, '')}…`;
+        if ((next.match(/\(/g) ?? []).length > (next.match(/\)/g) ?? []).length) next += ')';
+      }
+      if (next !== value) setAt(analysis, path, next);
+    }
+  }
+}
+
 // --- pașii -----------------------------------------------------------------------------------------
 
 function triagePrompt({ bill, analysis, target, comment, official }) {
@@ -300,7 +336,13 @@ async function triageReport(report, bills) {
   const patches = fix.status === 'ok' ? validPatches(fix.data, fields, claims) : null;
   if (!patches) return { status: 'review', note: `corectura propusă nu a trecut verificările (${fix.status === 'ok' ? 'format' : fix.error})`, votes, triage };
 
-  const reviews = await Promise.all(['agy', 'codex'].map((m) => runModel(m, reviewPrompt({ bill, patches, evidence, official }), { mode: 'offline', timeoutMs: 240000 })));
+  // Un verificator care nu răspunde (timeout, limită) mai primește o încercare; tăcerea nu e aprobare.
+  const review = async (m) => {
+    const prompt = reviewPrompt({ bill, patches, evidence, official });
+    const first = await runModel(m, prompt, { mode: 'offline', timeoutMs: 240000 });
+    return first.status === 'ok' ? first : runModel(m, prompt, { mode: 'offline', timeoutMs: 360000 });
+  };
+  const reviews = await Promise.all(['agy', 'codex'].map(review));
   const approved = reviews.every((r) => r.status === 'ok' && r.data?.approve === true);
   triage.fixReview = Object.fromEntries(reviews.map((r) => [r.model, r.status === 'ok' ? r.data?.approve === true : 'error']));
   const reasons = reviews.map((r) => ({
@@ -313,6 +355,7 @@ async function triageReport(report, bills) {
 
   if (!DRY) {
     for (const p of patches) setAt(analysis, p.pathArr, p.new);
+    if (report.target === 'consensus') propagate(analysis, patches);
     analysis.corrections = [...(analysis.corrections ?? []), { date: new Date().toISOString(), target: report.target, reportId: report.id }];
     analysis.updatedAt = new Date().toISOString();
     fs.writeFileSync(file, JSON.stringify(analysis, null, 2), 'utf8');

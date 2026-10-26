@@ -8,12 +8,13 @@
 // 4. rapoartele cititorilor din D1 (straja-reports)
 // 5. memoriile .docx pentru proiectele noi sau corectate (straja-docx <slug>…)
 // 6. verificări, migrațiile D1, build și publicare pe Cloudflare
-// 7. commit cu datele zilei, dacă semnarea commit-ului merge fără tine (altfel rămân necomise)
+// 7. ediția zilnică a alertelor pe e-mail, doar după o publicare reușită (straja-digest --send)
+// 8. commit cu datele zilei, dacă semnarea commit-ului merge fără tine (altfel rămân necomise)
 //
 // Un pas care eșuează nu oprește restul, cu excepția verificărilor: fără date valide nu publicăm.
 // Jurnalul: ops/logs/AAAA-LL-ZZ.log. La final apare o notificare macOS cu rezumatul.
 //
-//   --no-deploy   rulează tot, fără build și publicare
+//   --no-deploy   rulează tot, fără build, publicare și e-mailuri
 //   --skip-news   fără căutarea în presă
 
 import fs from 'node:fs';
@@ -138,6 +139,13 @@ async function main() {
       const build = migrate.ok ? await step('Build', 'npx', ['next', 'build']) : { ok: false };
       const deploy = build.ok ? await step('Publicare', 'npx', ['wrangler', 'deploy']) : { ok: false };
       summary.push(deploy.ok ? 'publicat' : 'NEPUBLICAT');
+      // Linkurile din e-mail duc la paginile abia publicate; fără publicare nu trimitem nimic.
+      if (deploy.ok) {
+        const digest = await step('Alerte e-mail', 'node', ['scripts/straja-digest.mjs', '--send'], { timeoutMs: 1_800_000 });
+        const sent = digest.tail.match(/✅ trimise: (\{.*\})/);
+        if (!digest.ok) summary.push('alertele NU au plecat');
+        else if (sent) summary.push(`${JSON.parse(sent[1]).sent} e-mailuri`);
+      }
     }
 
     await step('Pregătire commit', 'git', ['add', 'data', 'public/docs']);

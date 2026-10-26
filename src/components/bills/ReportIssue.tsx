@@ -1,10 +1,10 @@
 'use client';
 
-import { useEffect, useId, useRef, useState } from 'react';
+import { useEffect, useId, useState } from 'react';
 import Link from 'next/link';
 import { Check, Flag } from 'lucide-react';
-import { MODELS, TURNSTILE_SITEKEY } from '@/lib/site';
-import { resolvedTheme } from '@/lib/theme';
+import { MODELS } from '@/lib/site';
+import { TURNSTILE_LOAD_ERROR, useTurnstile, useTurnstileEnabled } from '@/lib/turnstile';
 import { track, trackAttrs } from '@/lib/analytics';
 import { btnPrimary, inputCls } from '@/components/ui';
 
@@ -16,8 +16,6 @@ const TARGETS: { value: ReportTarget; label: string }[] = [
 ];
 const MIN = 15;
 const MAX = 1000;
-// Aceeași valoare verifică și Worker-ul (worker/index.ts).
-const TURNSTILE_ACTION = 'turnstile-spin-v2';
 
 const ERRORS: Record<string, string> = {
   rate_limited: 'Ai trimis mai multe rapoarte într-un minut. Încearcă din nou puțin mai târziu.',
@@ -26,87 +24,24 @@ const ERRORS: Record<string, string> = {
   busy: 'Avem acum prea multe rapoarte de verificat. Revino mâine, te rugăm.',
 };
 
-type Turnstile = {
-  render: (el: HTMLElement, opts: Record<string, unknown>) => string;
-  reset: (id?: string) => void;
-  remove: (id: string) => void;
-};
-
-declare global {
-  interface Window {
-    turnstile?: Turnstile;
-  }
-}
-
-let turnstileScript: Promise<Turnstile> | null = null;
-
-// Scriptul Cloudflare se încarcă doar când cineva deschide formularul.
-function loadTurnstile() {
-  turnstileScript ??= new Promise<Turnstile>((resolve, reject) => {
-    const s = document.createElement('script');
-    s.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit';
-    s.async = true;
-    s.onload = () => (window.turnstile ? resolve(window.turnstile) : reject(new Error('turnstile')));
-    s.onerror = () => {
-      turnstileScript = null;
-      reject(new Error('turnstile'));
-    };
-    document.head.appendChild(s);
-  });
-  return turnstileScript;
-}
-
-// Cu cheia de test formularul apare doar local, ca un build publicat înainte de cheia reală să nu-l arate.
-const TEST_KEY = TURNSTILE_SITEKEY.startsWith('1x0000');
-
 export default function ReportIssue({ billId, target: initialTarget }: { billId: string; target: ReportTarget }) {
-  const [enabled, setEnabled] = useState(!TEST_KEY);
+  const enabled = useTurnstileEnabled();
   const [open, setOpen] = useState(false);
   const [target, setTarget] = useState<ReportTarget>(initialTarget);
   const [comment, setComment] = useState('');
-  const [token, setToken] = useState<string | null>(null);
   const [status, setStatus] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle');
   const [error, setError] = useState('');
-  const widgetEl = useRef<HTMLDivElement>(null);
-  const widgetId = useRef<string | null>(null);
   const ids = useId();
-
-  useEffect(() => {
-    if (TEST_KEY && ['localhost', '127.0.0.1'].includes(location.hostname)) setEnabled(true);
-  }, []);
 
   // Formularul urmează modelul pe care îl citești, până îl deschizi.
   useEffect(() => {
     if (!open) setTarget(initialTarget);
   }, [initialTarget, open]);
 
-  const showWidget = open && status !== 'sent';
-  useEffect(() => {
-    if (!showWidget) return;
-    let cancelled = false;
-    loadTurnstile()
-      .then((ts) => {
-        if (cancelled || !widgetEl.current || widgetId.current) return;
-        widgetId.current = ts.render(widgetEl.current, {
-          sitekey: TURNSTILE_SITEKEY,
-          action: TURNSTILE_ACTION,
-          theme: resolvedTheme(),
-          language: 'ro',
-          callback: (t: string) => setToken(t),
-          'expired-callback': () => setToken(null),
-          'error-callback': () => setToken(null),
-        });
-      })
-      .catch(() => {
-        setStatus('error');
-        setError('Verificarea anti-roboți nu s-a putut încărca. Verifică dacă un blocant de reclame oprește challenges.cloudflare.com.');
-      });
-    return () => {
-      cancelled = true;
-      if (widgetId.current) window.turnstile?.remove(widgetId.current);
-      widgetId.current = null;
-    };
-  }, [showWidget]);
+  const { el: widgetEl, token, reset } = useTurnstile(open && status !== 'sent', () => {
+    setStatus('error');
+    setError(TURNSTILE_LOAD_ERROR);
+  });
 
   const length = comment.trim().length;
   const canSend = length >= MIN && length <= MAX && !!token && status !== 'sending';
@@ -132,8 +67,7 @@ export default function ReportIssue({ billId, target: initialTarget }: { billId:
       setError('Nu am putut trimite raportul. Verifică legătura la internet și încearcă din nou.');
     }
     setStatus('error');
-    setToken(null);
-    if (widgetId.current) window.turnstile?.reset(widgetId.current);
+    reset();
   };
 
   if (!enabled) return null;

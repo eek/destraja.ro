@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Menu, X } from 'lucide-react';
 import { LastrajaLogo } from '@/components/LastrajaLogo';
+import { ALERTS_LIVE } from '@/lib/site';
 import { ThemeToggle } from './ThemeControls';
 
 const NAV = [
@@ -12,6 +13,7 @@ const NAV = [
   { href: '/parlamentari', label: 'Parlamentari', match: (p: string) => p.startsWith('/parlamentari') },
   { href: '/presa', label: 'Presă și date', match: (p: string) => p.startsWith('/presa') },
   { href: '/metodologie', label: 'Metodologie', match: (p: string) => p.startsWith('/metodologie') },
+  ...(ALERTS_LIVE ? [{ href: '/abonare', label: 'Alerte', match: (p: string) => p.startsWith('/abonare') }] : []),
 ];
 
 export default function SiteHeader() {

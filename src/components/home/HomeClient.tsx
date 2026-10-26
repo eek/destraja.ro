@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from 'react';
 import Link from 'next/link';
-import { ArrowRight, ArrowUpRight, CheckCircle2, Clock, FileText, Layers, ShieldAlert } from 'lucide-react';
+import { ArrowRight, ArrowUpRight, BellRing, CheckCircle2, Clock, FileText, Layers, ShieldAlert } from 'lucide-react';
 import type { BillLite } from '@/lib/types';
 import { countWord } from '@/lib/format';
 import { computeStats, riskCounts } from '@/lib/stats';
@@ -14,6 +14,7 @@ import PartyChart from '@/components/data/PartyChart';
 import CoalitionMatrix from '@/components/data/CoalitionMatrix';
 import RadarScope from './RadarScope';
 import { trackAttrs } from '@/lib/analytics';
+import { ALERTS_LIVE } from '@/lib/site';
 
 function scrollToList() {
   window.requestAnimationFrame(() => document.getElementById('legi')?.scrollIntoView({ behavior: 'smooth', block: 'start' }));
@@ -122,6 +123,23 @@ export default function HomeClient({ bills: initial, syncedLabel }: { bills: Bil
             <ShieldAlert className="mt-0.5 h-3.5 w-3.5 shrink-0" aria-hidden />
             Nivelurile de risc sunt evaluări AI. Citește analiza și documentele oficiale înainte să iei o decizie.
           </p>
+          {ALERTS_LIVE && (
+          <div className={`${panel} mt-8 flex flex-col gap-5 p-5 sm:flex-row sm:items-center sm:justify-between sm:p-6`}>
+            <div className="flex items-start gap-4">
+              <BellRing className="mt-1 h-5 w-5 shrink-0 text-link" aria-hidden />
+              <div>
+                <h3 className="text-lg font-semibold text-ink">Nu vrei să verifici în fiecare zi? Îți scriem noi.</h3>
+                <p className="mt-1 max-w-[60ch] text-[15px] leading-7 text-body">
+                  Un e-mail dimineața, doar când intră în consultare un proiect nou sau se apropie un termen. Alegi tu: tot, risc mediu și ridicat
+                  sau doar risc ridicat.
+                </p>
+              </div>
+            </div>
+            <Link href="/abonare" {...trackAttrs('alerts_open', { from: 'home' })} className={`${btnPrimary} min-h-12 shrink-0 px-6`}>
+              Alege alertele
+            </Link>
+          </div>
+          )}
         </Container>
       </section>
 

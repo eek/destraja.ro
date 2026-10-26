@@ -8,7 +8,9 @@
 //
 // Evenimente: senat_form_open, docx_download, text_copy, email_open, kit_tab, ai_model_view,
 // official_source_open, bill_open, radar_select, list_shortcut, bill_filter, party_select,
-// party_chart_metric, coalition_select, press_copy, csv_download, mp_filter, theme_change, faq_open.
+// party_chart_metric, coalition_select, press_copy, csv_download, mp_filter, theme_change, faq_open,
+// report_open, report_sent, risk_reason_open, news_open, news_more, alerts_open, subscribe_sent,
+// subscribe_confirmed, alert_level_change, unsubscribe. Niciodată adresa de e-mail.
 
 export const GA_ID = 'G-237KQ8L2FE';
 export const GA_COOKIES = ['_ga', `_ga_${GA_ID.slice(2)}`];

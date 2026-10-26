@@ -187,7 +187,7 @@ function pressRow(a, showRisk = true) {
   const date = a.publishedAt ? formatDay(dayUtc(a.publishedAt), { day: 'numeric', month: 'long' }) : null;
   return `<tr><td class="lt-line" style="padding:12px 0;border-top:1px solid ${C.line}">
 <a href="${esc(a.url)}" class="lt-ink" style="font-family:${SERIF};font-size:16px;line-height:22px;color:${C.ink};text-decoration:none">${esc(a.title)}</a>
-<p class="lt-muted" style="margin:4px 0 0;font-family:${SANS};font-size:13px;line-height:19px;color:${C.muted}">${esc(a.outlet)}${date ? ` · ${date}` : ''} · despre <a href="${esc(billUrl(a.bill))}" class="lt-link" style="${linkStyle}">${esc(a.bill.id)}</a>${showRisk ? ` <span class="lt-text-${a.bill.level}" style="color:${r.text};font-weight:600">(${r.label.toLowerCase()})</span>` : ''}</p>
+<p class="lt-muted" style="margin:4px 0 0;font-family:${SANS};font-size:13px;line-height:19px;color:${C.muted}">${esc(a.outlet)}${date ? ` · ${date}` : ''} · despre <a href="${esc(billUrl(a.bill))}#presa" class="lt-link" style="${linkStyle}">${esc(a.bill.id)}</a>${showRisk ? ` <span class="lt-text-${a.bill.level}" style="color:${r.text};font-weight:600">(${r.label.toLowerCase()})</span>` : ''}</p>
 </td></tr>`;
 }
 

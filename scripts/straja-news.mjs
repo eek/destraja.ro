@@ -324,7 +324,10 @@ async function checkBill(bill) {
     const old = lists.articles.get(k) ?? lists.pending.get(k);
     lists.articles.delete(k);
     lists.pending.delete(k);
-    lists[kind].set(k, { ...v.article, foundBy: [...new Set([...(old?.foundBy ?? []), ...v.article.foundBy])] });
+    // Ziua în care l-am găsit prima oară, doar pentru diagnostic. Pe site și în alerte „recent” ține de data
+    // publicării. Articolele găsite înainte de acest câmp rămân fără el: nu inventăm o dată.
+    const firstSeenAt = old ? old.firstSeenAt : todayBucharest();
+    lists[kind].set(k, { ...v.article, foundBy: [...new Set([...(old?.foundBy ?? []), ...v.article.foundBy])], ...(firstSeenAt && { firstSeenAt }) });
   }
 
   const sortList = (m) => [...m.values()].sort((a, b) => (b.publishedAt ?? '').localeCompare(a.publishedAt ?? '') || a.domain.localeCompare(b.domain));

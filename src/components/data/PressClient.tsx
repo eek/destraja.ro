@@ -15,6 +15,7 @@ import { trackAttrs } from '@/lib/analytics';
 import CoalitionMatrix from './CoalitionMatrix';
 import Dossier from './Dossier';
 import { CesList, CrossPartyList, Headlines, PanelTitle, PartyDetail, buildHeadlines } from './PressPanels';
+import PressCoverage, { type CoverageItem } from './PressCoverage';
 
 function pressSummary(ranked: BillLite[], stats: Stats, counts: RiskCounts, date: string | null) {
   const top = ranked.filter((b) => b.daysRemaining >= 0)[0] ?? ranked[0];
@@ -53,7 +54,7 @@ function pressSummary(ranked: BillLite[], stats: Stats, counts: RiskCounts, date
   return lines.join('\n');
 }
 
-export default function PressClient({ bills: initial }: { bills: BillLite[] }) {
+export default function PressClient({ bills: initial, coverage, builtOn }: { bills: BillLite[]; coverage: CoverageItem[]; builtOn: string }) {
   const bills = useLiveBills(initial);
   const stats = useMemo(() => computeStats(bills), [bills]);
   const counts = useMemo(() => riskCounts(bills), [bills]);
@@ -148,6 +149,12 @@ export default function PressClient({ bills: initial }: { bills: BillLite[] }) {
             </div>
           </div>
         </div>
+
+        {coverage.length > 0 && (
+          <section id="articole" aria-label="Ce scrie presa despre proiecte" className={`${panel} scroll-mt-24 p-5 sm:p-7`}>
+            <PressCoverage items={coverage} builtOn={builtOn} />
+          </section>
+        )}
 
         <section aria-labelledby="partide-title" className="grid grid-cols-1 gap-6 lg:grid-cols-12">
           <div className={`${panel} flex min-w-0 flex-col p-5 sm:p-7 lg:col-span-7`}>

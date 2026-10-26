@@ -1,7 +1,8 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import type { BillAnalysis, BillLite, BillNews, EnrichedBill } from './types';
+import type { BillAnalysis, BillLite, BillNews, EnrichedBill, PressSummary } from './types';
 import { daysUntil } from './format';
+import { recentPress } from './stats';
 
 const ROOT = process.cwd();
 const SENAT_BILLS_PATH = path.join(ROOT, 'data', 'senat-bills.json');
@@ -10,7 +11,7 @@ const ANALYSES_DIR = path.join(ROOT, 'data', 'analyses');
 const TEXTS_DIR = path.join(ROOT, 'data', 'texts');
 const NEWS_DIR = path.join(ROOT, 'data', 'news');
 
-type RawBill = Omit<EnrichedBill, 'daysRemaining' | 'analysis' | 'cesNegative'> & { syncedAt?: string };
+type RawBill = Omit<EnrichedBill, 'daysRemaining' | 'analysis' | 'cesNegative' | 'news'> & { syncedAt?: string };
 
 let cache: Promise<{ bills: EnrichedBill[]; syncedAt: string | null }> | null = null;
 
@@ -37,6 +38,7 @@ async function load() {
       daysRemaining: daysUntil(bill.consultationDeadline),
       cesNegative: bill.timeline.some((t) => /consiliul economic/i.test(t.action) && /negativ/i.test(t.action)),
       analysis,
+      news: await getBillNews(bill.slug),
     });
   }
 
@@ -61,6 +63,12 @@ export async function getBillBySlug(slug: string): Promise<EnrichedBill | null> 
   return (await getAllBills()).find((b) => b.slug === slug) ?? null;
 }
 
+function pressSummary(news: BillNews | null): PressSummary {
+  const articles = news?.articles ?? [];
+  const dates = articles.flatMap((a) => (a.publishedAt ? [a.publishedAt] : []));
+  return { count: articles.length, dates, recent: recentPress(dates), latest: articles[0] ?? null };
+}
+
 export function toLite(b: EnrichedBill): BillLite {
   const c = b.analysis.consensus;
   const verdict = (k: 'agy' | 'claude' | 'codex') => {
@@ -82,6 +90,7 @@ export function toLite(b: EnrichedBill): BillLite {
     emergencyRequested: b.emergencyRequested,
     emergencyApproved: b.emergencyApproved,
     cesNegative: b.cesNegative,
+    press: pressSummary(b.news),
     analysis: {
       consensus: {
         riskScore: c.riskScore,

@@ -2,15 +2,15 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { ArrowLeft, ChevronDown, ExternalLink, FileDown, FileText } from 'lucide-react';
-import { getAllBills, getBillBySlug, getBillExtractedTexts, getBillNews, toLite } from '@/lib/bills';
+import { getAllBills, getBillBySlug, getBillExtractedTexts, toLite } from '@/lib/bills';
 import { agreement, mpSlugs, oneLiner } from '@/lib/stats';
 import { RISK } from '@/lib/risk';
 import { MODELS } from '@/lib/site';
-import { fmt, formatDateRo } from '@/lib/format';
+import { fmt, formatDateRo, todayISO } from '@/lib/format';
 import { trackAttrs } from '@/lib/analytics';
 import ActionKitClient from '@/components/ActionKitClient';
 import LiveDeadline from '@/components/bills/LiveDeadline';
-import BillNews from '@/components/bills/BillNews';
+import BillNews, { PressLink } from '@/components/bills/BillNews';
 import { Container, Flags, ModelMeters, PartyTag, RiskChip, panel } from '@/components/ui';
 
 interface PageProps {
@@ -48,7 +48,8 @@ export default async function BillDetailPage({ params }: PageProps) {
   const all = await getAllBills();
   const slugs = mpSlugs(all.map(toLite));
   const extractedTexts = await getBillExtractedTexts(slug);
-  const news = await getBillNews(slug);
+  const news = bill.news;
+  const builtOn = todayISO();
   const lite = toLite(bill);
   const c = bill.analysis.consensus;
   const ag = agreement(lite);
@@ -104,6 +105,7 @@ export default async function BillDetailPage({ params }: PageProps) {
             <div className="mt-5 flex flex-wrap items-center gap-x-5 gap-y-3 text-sm">
               <LiveDeadline deadline={bill.consultationDeadline} days={bill.daysRemaining} />
               <Flags bill={lite} />
+              {news && <PressLink press={lite.press} builtOn={builtOn} />}
             </div>
 
             {partyEntries.length > 0 && (
@@ -193,10 +195,8 @@ export default async function BillDetailPage({ params }: PageProps) {
         </div>
 
         <div className="mt-12">
-          <ActionKitClient bill={bill} />
+          <ActionKitClient bill={bill} press={news && <BillNews billId={bill.id} news={news} builtOn={builtOn} />} />
         </div>
-
-        {news && <BillNews billId={bill.id} news={news} />}
 
         {c.articlesBreakdown && c.articlesBreakdown.length > 0 && (
           <section aria-labelledby="articole" className="mt-14">

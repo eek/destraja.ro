@@ -18,9 +18,11 @@ import ReportIssue from '@/components/bills/ReportIssue';
 
 interface ActionKitClientProps {
   bill: EnrichedBill;
+  // Secțiunea „În presă”, randată pe server: stă între kit și auditul AI.
+  press?: React.ReactNode;
 }
 
-export default function ActionKitClient({ bill }: ActionKitClientProps) {
+export default function ActionKitClient({ bill, press }: ActionKitClientProps) {
   const c = bill.analysis.consensus;
 
   // Active tab in the 60-second action kit
@@ -519,6 +521,8 @@ export default function ActionKitClient({ bill }: ActionKitClientProps) {
           </div>
         )}
       </section>
+
+      {press}
 
       {/* 2. 3-AI COUNCIL AUDIT (Clean Segmented Switcher — No 3-screen mobile stack) */}
       <section id="audit-ai" className="scroll-mt-24 space-y-4">

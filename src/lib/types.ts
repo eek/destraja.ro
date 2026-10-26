@@ -122,7 +122,26 @@ export interface AnalysisCorrection {
 /** Articole de presă găsite de scripts/straja-news.mjs și verificate pe pagina sursei. */
 export interface BillNews {
   checkedAt: string;
-  articles: { url: string; title: string; outlet: string; domain: string; publishedAt: string | null }[];
+  articles: PressArticle[];
+}
+
+export interface PressArticle {
+  url: string;
+  title: string;
+  outlet: string;
+  domain: string;
+  publishedAt: string | null;
+}
+
+/**
+ * Presa pe scurt, pentru carduri și liste. Păstrăm datele de publicare, nu doar numărul celor noi, ca
+ * browserul să recalculeze „nou” pentru ziua de azi între două build-uri.
+ */
+export interface PressSummary {
+  count: number;
+  dates: string[];
+  recent: number;
+  latest: PressArticle | null;
 }
 
 export interface EnrichedBill {
@@ -146,6 +165,7 @@ export interface EnrichedBill {
   timeline: TimelineItem[];
   publicOpinions: PublicOpinion[];
   analysis: BillAnalysis;
+  news: BillNews | null;
 }
 
 type ModelKey = 'agy' | 'claude' | 'codex';
@@ -166,6 +186,7 @@ export interface BillLite {
   emergencyRequested: boolean;
   emergencyApproved: boolean;
   cesNegative: boolean;
+  press: PressSummary;
   analysis: {
     consensus: Pick<
       BillAnalysis['consensus'],

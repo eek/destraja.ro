@@ -22,7 +22,7 @@ export function billsCsv(list: BillLite[]) {
       'Proiect', 'Cod Senat', 'Pe înțeles', 'Ce schimbă', 'Titlu oficial', 'Nivel de risc', 'Scor consens',
       ...MODELS.map((m) => `Scor ${m.name}`), 'Acord între modele', 'Partide', 'Mai multe partide', 'Putere + opoziție',
       'Urgență cerută', 'Urgență aprobată', 'Aviz negativ CES', 'Termen consultare', 'Zile rămase', 'Opinii depuse',
-      'Pe cine afectează', 'Inițiatori', 'Fișa Senat', 'Analiza lastraja.ro',
+      'Pe cine afectează', 'Inițiatori', 'Articole în presă', 'Fișa Senat', 'Analiza lastraja.ro',
     ],
     ...list.map((b) => {
       const c = b.analysis.consensus;
@@ -31,7 +31,7 @@ export function billsCsv(list: BillLite[]) {
         ...MODELS.map((m) => fmt(modelScore(b, m.key))), agreement(b).label, b.parties.join(', '), yes(b.isCrossParty),
         yes(camps(b.parties).bridge), yes(b.emergencyRequested), yes(b.emergencyApproved), yes(b.cesNegative),
         b.consultationDeadline, b.daysRemaining, b.opinionsCount, c.affectedGroups.join(', '),
-        b.initiators.map((i) => `${i.name} (${i.party}, ${i.role})`).join('; '), b.sheetUrl, `${SITE_URL}/legi/${b.slug}`,
+        b.initiators.map((i) => `${i.name} (${i.party}, ${i.role})`).join('; '), b.press.count, b.sheetUrl, `${SITE_URL}/legi/${b.slug}`,
       ];
     }),
   ]);

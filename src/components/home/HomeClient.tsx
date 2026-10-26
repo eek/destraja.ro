@@ -130,7 +130,7 @@ export default function HomeClient({ bills: initial, syncedLabel }: { bills: Bil
               <div>
                 <h3 className="text-lg font-semibold text-ink">Nu vrei să verifici în fiecare zi? Îți scriem noi.</h3>
                 <p className="mt-1 max-w-[60ch] text-[15px] leading-7 text-body">
-                  Un e-mail dimineața, doar când intră în consultare un proiect nou sau se apropie un termen. Alegi tu: tot, risc mediu și ridicat
+                  Un e-mail dimineața, doar când intră în consultare un proiect nou, se apropie un termen sau apare un articol în presă. Alegi tu: tot, risc mediu și ridicat
                   sau doar risc ridicat.
                 </p>
               </div>

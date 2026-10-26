@@ -24,6 +24,12 @@ export function todayISO(now = new Date()) {
   return new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Bucharest' }).format(now);
 }
 
+/** „YYYY-MM-DD” mutat cu n zile calendaristice. */
+export function addDays(iso: string, n: number) {
+  const [y, m, d] = iso.split('-').map(Number);
+  return new Date(Date.UTC(y, m - 1, d) + n * DAY_MS).toISOString().slice(0, 10);
+}
+
 function parseDeadline(ddmmyyyy: string) {
   const m = /^(\d{2})-(\d{2})-(\d{4})$/.exec(ddmmyyyy);
   return m ? Date.UTC(Number(m[3]), Number(m[2]) - 1, Number(m[1])) : NaN;

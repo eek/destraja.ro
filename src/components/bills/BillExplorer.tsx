@@ -1,7 +1,7 @@
 'use client';
 
 import { useMemo, useState } from 'react';
-import { ChevronDown, Clock, Search, Users, X } from 'lucide-react';
+import { ChevronDown, Clock, Newspaper, Search, Users, X } from 'lucide-react';
 import type { BillLite, RiskLevel } from '@/lib/types';
 import { RISK, RISK_LEVELS } from '@/lib/risk';
 import { countWord, normalize } from '@/lib/format';
@@ -37,6 +37,7 @@ export default function BillExplorer({
   const [risk, setRisk] = useState<RiskLevel | 'all'>(initialRisk);
   const [group, setGroup] = useState('all');
   const [soonOnly, setSoonOnly] = useState(initialSoon);
+  const [pressOnly, setPressOnly] = useState(false);
   const [sort, setSort] = useState<SortKey>('risc');
   const [visible, setVisible] = useState(PAGE);
 
@@ -65,19 +66,21 @@ export default function BillExplorer({
       if (risk !== 'all' && b.analysis.consensus.riskLevel !== risk) return false;
       if (group !== 'all' && !b.analysis.consensus.affectedGroups.includes(group)) return false;
       if (soonOnly && !(b.daysRemaining >= 0 && b.daysRemaining <= 7)) return false;
+      if (pressOnly && b.press.recent === 0) return false;
       if (parties.length && !parties.every((p) => b.parties.includes(p))) return false;
       const text = haystack.get(b.id) ?? '';
       return terms.every((t) => text.includes(t));
     });
     return list.sort(sort === 'termen' ? byDeadline : sort === 'noi' ? byNewest : byRiskDesc);
-  }, [bills, haystack, query, risk, group, soonOnly, parties, sort]);
+  }, [bills, haystack, query, risk, group, soonOnly, pressOnly, parties, sort]);
 
-  const hasFilters = query.trim() !== '' || risk !== 'all' || group !== 'all' || soonOnly || parties.length > 0;
+  const hasFilters = query.trim() !== '' || risk !== 'all' || group !== 'all' || soonOnly || pressOnly || parties.length > 0;
   const reset = () => {
     setQuery('');
     setRisk('all');
     setGroup('all');
     setSoonOnly(false);
+    setPressOnly(false);
     onPartiesChange([]);
     setVisible(PAGE);
   };
@@ -165,6 +168,22 @@ export default function BillExplorer({
                 <Clock className="h-4 w-4" aria-hidden />
                 Se închid în 7 zile
                 <span className="font-normal tabular-nums opacity-80">{counts.closingSoon}</span>
+              </button>
+            )}
+            {counts.pressRecent > 0 && (
+              <button
+                type="button"
+                aria-pressed={pressOnly}
+                onClick={() => touch(setPressOnly)(!pressOnly)}
+                {...trackAttrs('bill_filter', { filter: 'press_recent', value: pressOnly ? 'off' : 'on' })}
+                title="Proiecte despre care a apărut cel puțin un articol în ultimele 7 zile"
+                className={`inline-flex min-h-10 items-center gap-2 rounded-lg border px-3 text-sm font-semibold transition-colors ${
+                  pressOnly ? 'border-brand bg-brand-soft text-ink' : 'border-line bg-surface text-body hover:border-line-strong hover:text-ink'
+                }`}
+              >
+                <Newspaper className="h-4 w-4" aria-hidden />
+                În presă în ultima săptămână
+                <span className="font-normal tabular-nums opacity-80">{counts.pressRecent}</span>
               </button>
             )}
           </div>

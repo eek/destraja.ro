@@ -1,6 +1,6 @@
 import type { BillLite, RiskLevel } from './types';
 import { MODELS, OPOZITIE, PUTERE, partyFullName, type ModelKey } from './site';
-import { slugify } from './format';
+import { addDays, slugify, todayISO } from './format';
 
 export function oneLiner(b: BillLite) {
   return b.analysis.consensus.citizenOneLiner || b.analysis.consensus.summaryTlDr;
@@ -21,6 +21,16 @@ export function byDeadline(a: BillLite, b: BillLite) {
 
 export function byNewest(a: BillLite, b: BillLite) {
   return b.id.localeCompare(a.id, 'ro', { numeric: true });
+}
+
+/**
+ * Câte articole au fost publicate în ultima săptămână: azi și cele 6 zile dinainte, ora României.
+ * Contează data publicării, nu ziua în care le-am găsit noi: un articol vechi găsit azi nu e o noutate.
+ */
+export const PRESS_RECENT_DAYS = 7;
+export function recentPress(dates: string[], today = todayISO()) {
+  const since = addDays(today, 1 - PRESS_RECENT_DAYS);
+  return dates.filter((d) => d >= since && d <= today).length;
 }
 
 export function modelScore(b: BillLite, key: ModelKey) {
@@ -163,7 +173,7 @@ export function computeStats(bills: BillLite[]) {
 export type Stats = ReturnType<typeof computeStats>;
 
 export function riskCounts(bills: BillLite[]) {
-  const c = { red: 0, yellow: 0, green: 0, open: 0, closingSoon: 0, emergency: 0, bridge: 0, split: 0, opinions: 0 };
+  const c = { red: 0, yellow: 0, green: 0, open: 0, closingSoon: 0, emergency: 0, bridge: 0, split: 0, opinions: 0, pressRecent: 0 };
   for (const b of bills) {
     c[b.analysis.consensus.riskLevel] += 1;
     if (b.daysRemaining >= 0) c.open += 1;
@@ -172,6 +182,7 @@ export function riskCounts(bills: BillLite[]) {
     if (camps(b.parties).bridge) c.bridge += 1;
     if (agreement(b).tone === 'split') c.split += 1;
     c.opinions += b.opinionsCount || 0;
+    if (b.press.recent > 0) c.pressRecent += 1;
   }
   return c;
 }

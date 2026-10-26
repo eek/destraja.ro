@@ -111,7 +111,7 @@ async function main() {
     if (stillMissing.length) summary.push(`${stillMissing.length} fără analiză`);
 
     if (!args.has('--skip-news')) {
-      const news = await step('Presă', 'node', ['scripts/straja-news.mjs'], { timeoutMs: 5_400_000 });
+      const news = await step('Presă', 'node', ['scripts/straja-news.mjs', '--max-age=20'], { timeoutMs: 5_400_000 });
       if (!news.ok) summary.push('presa a eșuat');
     }
 

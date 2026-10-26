@@ -100,13 +100,28 @@ export async function getAllBillsLite(): Promise<BillLite[]> {
   return (await getAllBills()).map(toLite);
 }
 
+// Titlurile vin din pagina publicației și se termină des cu numele ei („… - B1TV.ro”).
+function cleanTitle(title: string, outlet: string, domain: string) {
+  const site = domain.replace(/^www\./, '').split('.')[0].toLowerCase();
+  const tail = title.match(/\s+[-–|·]\s*([^-–|·]+)$/);
+  if (tail && (tail[1].toLowerCase().includes(site) || tail[1].trim().toLowerCase() === outlet.toLowerCase())) return title.slice(0, tail.index).trim();
+  return title.trim();
+}
+
 // Doar câmpurile afișate; propunerile neverificate („pending”) rămân în fișier, pentru operator.
 export async function getBillNews(slug: string): Promise<BillNews | null> {
   try {
     const raw = JSON.parse(await fs.readFile(path.join(NEWS_DIR, `${slug}.json`), 'utf8'));
-    const articles: BillNews['articles'] = (raw.articles ?? []).map(
-      ({ url, title, outlet, domain, publishedAt }: BillNews['articles'][number]) => ({ url, title, outlet, domain, publishedAt: publishedAt ?? null }),
-    );
+    const seen = new Set<string>();
+    const articles: BillNews['articles'] = [];
+    for (const { url, title, outlet, domain, publishedAt } of raw.articles ?? []) {
+      const clean = cleanTitle(title, outlet, domain);
+      // Aceeași publicație republică uneori articolul la altă adresă.
+      const key = `${domain.replace(/^(www|m|amp)\./, '')}|${clean.toLowerCase()}`;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      articles.push({ url, title: clean, outlet, domain, publishedAt: publishedAt ?? null });
+    }
     articles.sort((a, b) => (b.publishedAt ?? '').localeCompare(a.publishedAt ?? ''));
     return { checkedAt: raw.checkedAt, articles };
   } catch {

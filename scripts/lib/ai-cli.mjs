@@ -123,6 +123,7 @@ export async function runModel(model, prompt, { mode = 'offline', timeoutMs = 30
     const res = model === 'agy' ? await run(BINS.agy, [...argv, '--print-timeout', `${Math.round(timeoutMs / 1000)}s`, '-p', prompt], null, timeoutMs + 15000) : await run(BINS[model], argv, prompt, timeoutMs);
     const quota = /usage limit|rate limit|quota/i.test(res.stdout + res.stderr) && !/\{[\s\S]*\}/.test(res.stdout.split('\n').slice(-40).join('\n'));
     if (quota) throw new Error((res.stdout + res.stderr).match(/[^\n]*(usage limit|rate limit|quota)[^\n]*/i)?.[0]?.trim().slice(0, 200) ?? 'limită de utilizare');
+    if (!res.stdout.trim()) throw new Error(`răspuns gol după ${Math.round((Date.now() - start) / 1000)}s (probabil timp depășit)`);
     let data;
     try {
       data = extractJsonFromText(res.stdout);

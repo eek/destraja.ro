@@ -6,7 +6,7 @@
 //   npm run straja:news                 proiectele în consultare
 //   npm run straja:news -- b563-2026    un singur proiect (slug sau număr)
 //   npm run straja:news -- --all        toate proiectele, inclusiv cele închise
-//   opțiuni: --models=claude,agy  --concurrency=3
+//   opțiuni: --models=claude,agy  --concurrency=4  --max-age=20 (sare peste proiectele verificate în ultimele 20 de ore)
 //
 // Scrie data/news/<slug>.json. Publicațiile din data/news-outlets.json ajung în `articles` (pe site);
 // restul paginilor verificate ajung în `pending`, doar pentru rezumatul operatorului. Ce a picat la
@@ -36,7 +36,8 @@ const opt = (name, def) => argv.find((a) => a.startsWith(`--${name}=`))?.split('
 const ALL = argv.includes('--all');
 const TARGET = argv.find((a) => !a.startsWith('--'))?.toLowerCase();
 const MODELS = opt('models', MODEL_KEYS.join(',')).split(',').filter((m) => MODEL_KEYS.includes(m));
-const CONCURRENCY = Number(opt('concurrency', 3));
+const CONCURRENCY = Number(opt('concurrency', 4));
+const MAX_AGE_H = Number(opt('max-age', 0));
 
 // ---------- date ----------
 
@@ -208,7 +209,13 @@ async function fetchPage(url) {
       size += value.length;
     }
     reader.cancel().catch(() => {});
-    return { finalUrl: normalizeUrl(res.url) ?? url, html: Buffer.concat(chunks).toString('utf8') };
+    const html = Buffer.concat(chunks).toString('utf8');
+    const finalUrl = normalizeUrl(res.url) ?? url;
+    // Versiunea AMP sau cu parametri trimite la aceeași adresă canonică; o folosim ca să nu dublăm articolul.
+    const tag = /<link[^>]+rel=["']canonical["'][^>]*>/i.exec(html)?.[0];
+    const canonical = normalizeUrl(tag && decode(/href=["']([^"']+)["']/i.exec(tag)?.[1] ?? ''));
+    const sameSite = canonical && domainOf(canonical) === domainOf(finalUrl);
+    return { finalUrl: sameSite ? canonical : finalUrl, html };
   } catch (err) {
     return { error: err.name === 'AbortError' ? 'timeout' : String(err.message || err).slice(0, 120) };
   } finally {
@@ -273,7 +280,9 @@ async function mapLimit(items, n, fn) {
 
 async function checkBill(bill) {
   const prompt = buildPrompt(bill);
-  const results = await Promise.all(MODELS.map((m) => runModel(m, prompt, { mode: 'web', timeoutMs: 420000 })));
+  // Gemini caută încet (până la ~7 minute pe proiect), de aceea limita e generoasă.
+  const results = await Promise.all(MODELS.map((m) => runModel(m, prompt, { mode: 'web', timeoutMs: 600000 })));
+  const durations = Object.fromEntries(results.map((r) => [r.model, Math.round(r.durationMs / 1000)]));
 
   const models = {};
   const byUrl = new Map();
@@ -328,7 +337,7 @@ async function checkBill(bill) {
     pending: sortList(lists.pending),
   };
   fs.writeFileSync(file, `${JSON.stringify(out, null, 2)}\n`, 'utf8');
-  return { out, dropped, candidates: byUrl.size };
+  return { out, dropped, candidates: byUrl.size, durations };
 }
 
 // ---------- main ----------
@@ -339,11 +348,20 @@ async function main() {
   const bills = Array.isArray(raw) ? raw : raw.bills;
   const today = todayBucharest();
 
-  const targets = TARGET
+  let targets = TARGET
     ? bills.filter((b) => b.slug === TARGET || b.id.toLowerCase() === TARGET || b.slug.includes(TARGET))
     : ALL
       ? bills
       : bills.filter((b) => (isoFromRo(b.consultationDeadline) ?? '') >= today);
+  const fresh = (b) => {
+    try {
+      const { checkedAt } = JSON.parse(fs.readFileSync(path.join(NEWS_DIR, `${b.slug}.json`), 'utf8'));
+      return Date.now() - Date.parse(checkedAt) < MAX_AGE_H * 3600e3;
+    } catch {
+      return false;
+    }
+  };
+  if (MAX_AGE_H > 0) targets = targets.filter((b) => !fresh(b));
   if (!targets.length) {
     console.log('Niciun proiect de verificat.');
     return;
@@ -354,13 +372,13 @@ async function main() {
   const summary = [];
   await mapLimit(targets, CONCURRENCY, async (bill) => {
     const t = Date.now();
-    const { out, dropped, candidates } = await checkBill(bill);
+    const { out, dropped, candidates, durations } = await checkBill(bill);
     const status = MODELS.map((m) => `${m}:${out.models[m] === 'ok' ? 'ok' : 'err'}`).join(' ');
     console.log(
       `  ${bill.id.padEnd(10)} ${status}  ${candidates} linkuri → ${out.articles.length} articole, ${out.pending.length} în așteptare, ${dropped.length} respinse  (${Math.round((Date.now() - t) / 1000)}s)`,
     );
     for (const d of dropped) console.log(`      ✗ ${d.url} [${d.foundBy.join(',')}] ${d.reason}`);
-    summary.push({ slug: bill.slug, billId: bill.id, models: out.models, articles: out.articles.length, pending: out.pending.length, dropped });
+    summary.push({ slug: bill.slug, billId: bill.id, models: out.models, durations, articles: out.articles.length, pending: out.pending.length, dropped });
   });
 
   fs.mkdirSync(path.dirname(LAST_RUN), { recursive: true });

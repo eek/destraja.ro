@@ -50,7 +50,7 @@ export const ANALYTICS_RETENTION = '2 luni';
 
 // Alertele pe e-mail apar în meniu, pe prima pagină și pe /abonare doar după ce domeniul trimite e-mailuri
 // (Cloudflare Email Service). Până atunci /abonare spune că pornesc în curând.
-export const ALERTS_LIVE = false;
+export const ALERTS_LIVE = true;
 
 // Cheia publică a widgetului Turnstile din formularul de raportare a greșelilor (lastraja.ro și localhost).
 // Pentru teste se poate pune cheia Cloudflare care trece mereu, 1x00000000000000000000AA.

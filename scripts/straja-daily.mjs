@@ -2,8 +2,8 @@
 // Actualizarea de dimineață: luni–vineri la 08:00 prin launchd (scripts/launchd/), sau manual cu
 // `npm run straja:daily`.
 //
-// 1. senat.ro → data/senat-bills.json, cu PDF-urile noi (straja-sync)
-// 2. analiza celor trei modele pentru proiectele noi (straja-council <slug>)
+// 1. senat.ro → data/senat-bills.json, cu PDF-urile noi și textul lor, recitit cu OCR unde scanarea e stricată (straja-sync)
+// 2. analiza celor trei modele pentru proiectele noi (straja-council <slug>), apoi motivele avizelor negative CES (straja-ces)
 // 3. presa pentru proiectele aflate în consultare (straja-news)
 // 4. rapoartele cititorilor din D1 (straja-reports)
 // 5. memoriile .docx pentru proiectele noi sau corectate (straja-docx <slug>…)
@@ -110,6 +110,9 @@ async function main() {
     for (const b of missing) await step(`Analiză ${b.id}`, 'node', ['scripts/straja-council.mjs', b.slug], { timeoutMs: 1_200_000 });
     const stillMissing = readBills().filter((b) => !fs.existsSync(analysisPath(b.slug)));
     if (stillMissing.length) summary.push(`${stillMissing.length} fără analiză`);
+
+    const ces = await step('Avize CES', 'node', ['scripts/straja-ces.mjs'], { timeoutMs: 1_800_000 });
+    if (!ces.ok) summary.push('rezumatul avizelor CES a eșuat');
 
     if (!args.has('--skip-news')) {
       const news = await step('Presă', 'node', ['scripts/straja-news.mjs', '--max-age=20'], { timeoutMs: 5_400_000 });

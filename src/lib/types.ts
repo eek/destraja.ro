@@ -144,8 +144,18 @@ export interface PressSummary {
   latest: PressArticle | null;
 }
 
+/** Avizul negativ CES: număr și dată din cronologia Senatului, PDF-ul și motivele pe scurt (scripts/straja-ces.mjs). */
+export interface CesOpinion {
+  number: string | null;
+  date: string | null;
+  pdfUrl: string | null;
+  /** Fiecare motiv are un citat găsit, cuvânt cu cuvânt, în textul avizului. */
+  reasons: { text: string; quote: string }[];
+}
+
 export interface EnrichedBill {
   cesNegative: boolean;
+  ces: CesOpinion | null;
   id: string;
   slug: string;
   cod: string;
@@ -186,6 +196,7 @@ export interface BillLite {
   emergencyRequested: boolean;
   emergencyApproved: boolean;
   cesNegative: boolean;
+  ces: CesOpinion | null;
   press: PressSummary;
   analysis: {
     consensus: Pick<

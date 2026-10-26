@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import type { BillAnalysis, BillLite, BillNews, EnrichedBill, PressSummary } from './types';
+import type { BillAnalysis, BillLite, BillNews, BillPdf, CesOpinion, EnrichedBill, PressSummary } from './types';
 import { daysUntil } from './format';
 import { recentPress } from './stats';
 
@@ -10,8 +10,9 @@ const ONE_LINERS_PATH = path.join(ROOT, 'data', 'citizen-one-liners.json');
 const ANALYSES_DIR = path.join(ROOT, 'data', 'analyses');
 const TEXTS_DIR = path.join(ROOT, 'data', 'texts');
 const NEWS_DIR = path.join(ROOT, 'data', 'news');
+const CES_DIR = path.join(ROOT, 'data', 'ces');
 
-type RawBill = Omit<EnrichedBill, 'daysRemaining' | 'analysis' | 'cesNegative' | 'news'> & { syncedAt?: string };
+type RawBill = Omit<EnrichedBill, 'daysRemaining' | 'analysis' | 'cesNegative' | 'ces' | 'news'> & { syncedAt?: string };
 
 let cache: Promise<{ bills: EnrichedBill[]; syncedAt: string | null }> | null = null;
 
@@ -36,7 +37,8 @@ async function load() {
     bills.push({
       ...bill,
       daysRemaining: daysUntil(bill.consultationDeadline),
-      cesNegative: bill.timeline.some((t) => /consiliul economic/i.test(t.action) && /negativ/i.test(t.action)),
+      cesNegative: !!cesEntry(bill),
+      ces: await getCesOpinion(bill),
       analysis,
       news: await getBillNews(bill.slug),
     });
@@ -90,6 +92,7 @@ export function toLite(b: EnrichedBill): BillLite {
     emergencyRequested: b.emergencyRequested,
     emergencyApproved: b.emergencyApproved,
     cesNegative: b.cesNegative,
+    ces: b.ces,
     press: pressSummary(b.news),
     analysis: {
       consensus: {
@@ -118,6 +121,23 @@ function cleanTitle(title: string, outlet: string, domain: string) {
 }
 
 // Doar câmpurile afișate; propunerile neverificate („pending”) rămân în fișier, pentru operator.
+const cesEntry = (bill: Pick<RawBill, 'timeline'>) =>
+  bill.timeline.find((t) => /consiliul economic/i.test(t.action) && /negativ/i.test(t.action));
+
+async function getCesOpinion(bill: RawBill): Promise<CesOpinion | null> {
+  const entry = cesEntry(bill);
+  if (!entry) return null;
+  try {
+    const { number, date, pdfUrl, reasons } = JSON.parse(await fs.readFile(path.join(CES_DIR, `${bill.slug}.json`), 'utf8'));
+    return { number, date, pdfUrl, reasons: reasons ?? [] };
+  } catch {
+    // Încă nerezumat: numărul și data tot le avem din cronologie.
+    const m = entry.action.match(/nr\.\s*(\d+)\s*\/\s*(\d{2})\.(\d{2})\.(\d{4})/);
+    const pdf = bill.pdfs.find((p) => p.type === 'aviz' && /economic/i.test(p.label));
+    return { number: m?.[1] ?? null, date: m ? `${m[4]}-${m[3]}-${m[2]}` : null, pdfUrl: pdf?.url ?? null, reasons: [] };
+  }
+}
+
 export async function getBillNews(slug: string): Promise<BillNews | null> {
   try {
     const raw = JSON.parse(await fs.readFile(path.join(NEWS_DIR, `${slug}.json`), 'utf8'));
@@ -138,18 +158,40 @@ export async function getBillNews(slug: string): Promise<BillNews | null> {
   }
 }
 
-export async function getBillExtractedTexts(slug: string): Promise<{ filename: string; content: string }[]> {
-  const dir = path.join(TEXTS_DIR, slug);
+export interface BillText {
+  label: string;
+  url: string;
+  content: string;
+  /** Recitit cu OCR pentru că stratul de text al scanării era stricat. */
+  ocr: boolean;
+}
+
+const TEXT_ORDER = ['forma_initiatorului', 'expunere_motive', 'aviz', 'adresa_inaintare', 'other'];
+
+/** Același nume ca textName din scripts/lib/pdf-text.mjs: tipurile unice rămân așa, avizele primesc emitentul (aviz_ES). */
+function textName(pdf: BillPdf) {
+  if (pdf.type !== 'aviz' && pdf.type !== 'other') return pdf.type;
+  const base = path.basename(pdf.url).replace(/\.pdf$/i, '');
+  return `${pdf.type}_${base.replace(/^\d{2}b\d+/i, '') || base}`;
+}
+
+export async function getBillExtractedTexts(bill: Pick<EnrichedBill, 'slug' | 'pdfs'>): Promise<BillText[]> {
+  const dir = path.join(TEXTS_DIR, bill.slug);
+  let meta: Record<string, string> = {};
   try {
-    const files = await fs.readdir(dir);
-    const out: { filename: string; content: string }[] = [];
-    for (const f of files.sort()) {
-      if (!f.endsWith('.txt')) continue;
-      const content = await fs.readFile(path.join(dir, f), 'utf8');
-      out.push({ filename: f.replace(/\.txt$/, ''), content: content.trim() });
-    }
-    return out;
+    meta = JSON.parse(await fs.readFile(path.join(dir, '_meta.json'), 'utf8'));
   } catch {
-    return [];
+    // Texte vechi, fără meta: le arătăm oricum.
   }
+  const out: (BillText & { order: number })[] = [];
+  for (const pdf of bill.pdfs) {
+    const name = textName(pdf);
+    try {
+      const content = (await fs.readFile(path.join(dir, `${name}.txt`), 'utf8')).trim();
+      if (content) out.push({ label: pdf.label, url: pdf.url, content, ocr: meta[name] === 'ocr', order: TEXT_ORDER.indexOf(pdf.type) });
+    } catch {
+      // PDF fără text extras (încă nedescărcat sau gol).
+    }
+  }
+  return out.sort((a, b) => a.order - b.order).map(({ order: _, ...t }) => t);
 }

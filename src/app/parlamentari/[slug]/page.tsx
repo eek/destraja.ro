@@ -9,6 +9,8 @@ import { RISK, RISK_LEVELS, levelFromScore } from '@/lib/risk';
 import { countWord, fmt } from '@/lib/format';
 import { Container, PartyTag, RiskDot, panel } from '@/components/ui';
 import BillGrid from '@/components/bills/BillGrid';
+import MpContactPanel from '@/components/mps/MpContactPanel';
+import { getMpContact } from '@/lib/mp-contacts';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -43,6 +45,7 @@ export default async function MpPage({ params }: PageProps) {
 
   const ids = new Set(mp.billIds);
   const own = bills.filter((b) => ids.has(b.id)).sort(byRiskDesc);
+  const contact = await getMpContact(mp.name);
 
   const shared = new Map<string, number>();
   for (const b of own) for (const i of b.initiators) {
@@ -95,7 +98,9 @@ export default async function MpPage({ params }: PageProps) {
         </dl>
       </header>
 
-      <section aria-labelledby="proiecte-title" className="mt-10">
+      <MpContactPanel mp={mp} contact={contact} topBill={own[0]} />
+
+      <section aria-labelledby="proiecte-title" className="mt-12">
         <h2 id="proiecte-title" className="font-display text-3xl font-normal">
           Proiectele semnate
         </h2>
@@ -108,7 +113,7 @@ export default async function MpPage({ params }: PageProps) {
           <h2 id="cosemnatari-title" className="text-lg font-semibold text-ink">
             Semnează des împreună cu
           </h2>
-          <ul className="mt-4 grid gap-x-8 sm:grid-cols-2">
+          <ul className="mt-4 grid grid-cols-1 gap-x-8 sm:grid-cols-2">
             {cosigners.map(({ mp: c, n }) => (
               <li key={c.slug} className="border-b border-line last:border-0 sm:[&:nth-last-child(2)]:border-0">
                 <Link href={`/parlamentari/${c.slug}`} className="group flex min-h-12 items-center justify-between gap-3 py-2">

@@ -186,7 +186,7 @@ export default function CookiesPage() {
           tone="text-link"
           items={[
             'Numele pe care îl treci în documentul .docx personalizat este folosit doar în browserul tău, ca să genereze fișierul. Nu ajunge la noi și nici în statistici.',
-            'Textele pentru formularul Senatului și e-mailurile către instituții se copiază sau se deschid în aplicația ta de e-mail. Le trimiți tu, direct. Statisticile numără doar că ai copiat sau ai deschis un text, nu și ce scrie în el.',
+            'Textele pentru formularul Senatului și e-mailurile către instituții sau parlamentari se copiază sau se deschid în aplicația ta de e-mail. Le trimiți tu, direct. Statisticile numără doar că ai copiat sau ai deschis un text, nu și ce scrie în el.',
             'Ne trimiți ceva doar dacă alegi: raportul despre o greșeală sau adresa de e-mail pentru alerte (mai jos).',
             'Când deschizi senat.ro sau alt site extern, se aplică politica acelui site.',
           ]}
@@ -257,6 +257,32 @@ export default function CookiesPage() {
         <div className="mt-4">
           <ClearPreferences />
         </div>
+      </section>
+
+      <section aria-labelledby="parlamentari" className="mt-12 scroll-mt-24">
+        <h2 id="parlamentari" className={h2}>
+          Datele de contact ale parlamentarilor
+        </h2>
+        <p className={p}>
+          Paginile parlamentarilor arată datele de contact oficiale pe care Camera Deputaților și Senatul le publică pentru rolul lor public:
+          adresa de e-mail, telefonul și birourile parlamentare, dacă apar, și circumscripția electorală.
+        </p>
+        <p className={p}>
+          Copiem doar ce publică fișele oficiale de pe cdep.ro și senat.ro, cu sursa și data verificării alături. Nu adăugăm date din alte
+          surse. Dacă ceva e greșit sau nu mai e actual, scrie-ne
+          {CONTACT_EMAIL ? (
+            <>
+              {' '}
+              la{' '}
+              <a href={`mailto:${CONTACT_EMAIL}`} className={linkCls}>
+                {CONTACT_EMAIL}
+              </a>
+            </>
+          ) : (
+            ' la adresa de mai jos'
+          )}
+          .
+        </p>
       </section>
 
       <section aria-labelledby="operator" className="mt-12">

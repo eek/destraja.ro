@@ -42,7 +42,7 @@ export default function HomeClient({ bills: initial, syncedLabel }: { bills: Bil
           <div>
             <h1 id="hero-title" className="font-display text-[clamp(2.6rem,5vw,4.1rem)] font-normal leading-[1.02] tracking-[-0.03em]">
               <span className="block text-muted">Legile se schimbă.</span>
-              <span className="block font-medium text-ink">Tu ai un cuvânt de spus.</span>
+              <span className="block font-medium text-ink">Și tu ai un cuvânt de spus.</span>
             </h1>
             <p className="mt-7 max-w-[44ch] text-lg leading-8 text-body">
               Ce pregătește Senatul, ce înseamnă pentru tine și cum trimiți o obiecție oficială. Pe înțelesul tuturor.

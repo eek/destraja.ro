@@ -128,7 +128,8 @@ function text(html = '') {
 // Diacriticele cu sedilă (ş, ţ) devin cele corecte, cu virgulă (ș, ț).
 const commaBelow = (s) => s.replace(/ş/g, 'ș').replace(/Ş/g, 'Ș').replace(/ţ/g, 'ț').replace(/Ţ/g, 'Ț');
 
-const EMAIL_RE = /^[a-z0-9._%+-]{1,64}@[a-z0-9.-]{1,120}\.[a-z]{2,}$/i;
+// Doar adresele instituționale: o adresă personală (Gmail) trecută pe fișă nu o afișăm.
+const EMAIL_RE = /^[a-z0-9._%+-]{1,64}@(?:cdep|senat)\.ro$/i;
 const PHONE_RE = /(?:\+?40[\s./-]?|\(?0)\d{2,3}\)?[\s./-]?\d{2,3}[\s./-]?\d{2,3}[\s./-]?\d{0,3}/g;
 
 function cleanPhone(raw) {
@@ -486,8 +487,7 @@ async function main() {
         source,
         checkedAt: isoDay(fetchedAt),
         constituency: p.constituency ?? m.constituency,
-        // Adresele instituționale primele: pe ele merge butonul principal.
-        emails: p.emails.sort((a, b) => Number(!/@(cdep|senat)\.ro$/.test(a)) - Number(!/@(cdep|senat)\.ro$/.test(b))),
+        emails: p.emails,
         phones: p.phones,
         offices: p.offices,
       };

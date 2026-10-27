@@ -37,6 +37,7 @@ export const metadata: Metadata = {
     title: 'lastraja.ro · La Straja Legii',
     description: 'Ce legi pregătește Senatul, ce înseamnă pentru tine și cum îți spui părerea oficial.',
   },
+  twitter: { card: 'summary_large_image' },
 };
 
 export const viewport: Viewport = {

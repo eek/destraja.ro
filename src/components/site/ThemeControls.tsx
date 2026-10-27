@@ -53,7 +53,8 @@ const OPTIONS: { value: ThemePref; label: string }[] = [
 export function ThemeSelect() {
   const { pref } = useTheme();
   return (
-    <div role="radiogroup" aria-label="Tema site-ului" className="inline-flex rounded-lg bg-sunken p-1">
+    // Coloana din subsol e îngustă pe la 1100 px: butoanele trec pe rândul următor în loc să lărgească pagina.
+    <div role="radiogroup" aria-label="Tema site-ului" className="inline-flex max-w-full flex-wrap rounded-lg bg-sunken p-1">
       {OPTIONS.map((o) => (
         <button
           key={o.value}

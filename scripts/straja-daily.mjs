@@ -2,7 +2,8 @@
 // Actualizarea de dimineață: luni–vineri la 08:00 prin launchd (scripts/launchd/), sau manual cu
 // `npm run straja:daily`.
 //
-// 1. senat.ro → data/senat-bills.json, cu PDF-urile noi și textul lor, recitit cu OCR unde scanarea e stricată (straja-sync)
+// 1. senat.ro → data/senat-bills.json, cu PDF-urile noi și textul lor: scanările citite cu MinerU și verificate pagină cu
+//    pagină cu Tesseract (straja-sync, scripts/lib/pdf-text.mjs)
 // 2. analiza celor trei modele pentru proiectele noi (straja-council <slug>), apoi motivele avizelor negative CES (straja-ces)
 // 3. presa pentru proiectele aflate în consultare (straja-news)
 // 4. datele de contact oficiale ale parlamentarilor (straja-mps): lunea toate fișele, în celelalte zile
@@ -106,7 +107,8 @@ async function main() {
     const before = readBills().length;
     const analysesBefore = mtimes();
 
-    const sync = await step('Senat', 'node', ['scripts/straja-sync.mjs']);
+    // MinerU citește ~7 s pe pagină: o zi cu multe proiecte noi poate trece de o oră.
+    const sync = await step('Senat', 'node', ['scripts/straja-sync.mjs'], { timeoutMs: 3 * 3_600_000 });
     const after = readBills().length;
     summary.push(sync.ok ? `${after - before >= 0 ? after - before : 0} proiecte noi` : 'sincronizarea a eșuat');
 

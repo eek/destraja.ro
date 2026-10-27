@@ -4,6 +4,7 @@ import type { BillAnalysis, BillLite, BillNews, BillPdf, BillPositions, CesOpini
 import { daysUntil } from './format';
 import { recentPress } from './stats';
 import { positionsSummary } from './positions';
+import { pressArticle, stanceCounts, type RawPressItem } from './press';
 
 const ROOT = process.cwd();
 const SENAT_BILLS_PATH = path.join(ROOT, 'data', 'senat-bills.json');
@@ -71,7 +72,7 @@ export async function getBillBySlug(slug: string): Promise<EnrichedBill | null> 
 function pressSummary(news: BillNews | null): PressSummary {
   const articles = news?.articles ?? [];
   const dates = articles.flatMap((a) => (a.publishedAt ? [a.publishedAt] : []));
-  return { count: articles.length, dates, recent: recentPress(dates), latest: articles[0] ?? null };
+  return { count: articles.length, dates, recent: recentPress(dates), latest: articles[0] ?? null, stances: stanceCounts(articles) };
 }
 
 export function toLite(b: EnrichedBill): BillLite {
@@ -147,13 +148,20 @@ export async function getBillNews(slug: string): Promise<BillNews | null> {
     const raw = JSON.parse(await fs.readFile(path.join(NEWS_DIR, `${slug}.json`), 'utf8'));
     const seen = new Set<string>();
     const articles: BillNews['articles'] = [];
-    for (const { url, title, outlet, domain, publishedAt } of raw.articles ?? []) {
-      const clean = cleanTitle(title, outlet, domain);
+    // Întâi publicațiile din listă, apoi celelalte linkuri verificate, dacă Clef le-a clasificat ca fiind despre proiect.
+    const items: [RawPressItem, boolean][] = [
+      ...(raw.articles ?? []).map((it: RawPressItem) => [it, true] as [RawPressItem, boolean]),
+      ...(raw.pending ?? []).map((it: RawPressItem) => [it, false] as [RawPressItem, boolean]),
+    ];
+    for (const [item, listed] of items) {
+      const clean = cleanTitle(item.title, item.outlet, item.domain);
       // Aceeași publicație republică uneori articolul la altă adresă.
-      const key = `${domain.replace(/^(www|m|amp)\./, '')}|${clean.toLowerCase()}`;
+      const key = `${item.domain.replace(/^(www|m|amp)\./, '')}|${clean.toLowerCase()}`;
       if (seen.has(key)) continue;
+      const article = pressArticle(item, listed, clean);
+      if (!article) continue;
       seen.add(key);
-      articles.push({ url, title: clean, outlet, domain, publishedAt: publishedAt ?? null });
+      articles.push(article);
     }
     articles.sort((a, b) => (b.publishedAt ?? '').localeCompare(a.publishedAt ?? ''));
     return { checkedAt: raw.checkedAt, articles };

@@ -3,6 +3,7 @@ import { ArrowRight, ChevronDown, Clock, ExternalLink, MessageSquare, Newspaper,
 import type { BillLite } from '@/lib/types';
 import { MODELS } from '@/lib/site';
 import { RISK } from '@/lib/risk';
+import { stanceLine } from '@/lib/press';
 import { countWord, deadlineInfo, DEADLINE_TONE, fmt } from '@/lib/format';
 import { agreement, modelScore, oneLiner } from '@/lib/stats';
 import { trackAttrs } from '@/lib/analytics';
@@ -66,9 +67,11 @@ export default function BillCard({ bill, onParty }: { bill: BillLite; onParty?: 
               className="inline-flex min-h-8 items-center gap-1.5 text-xs font-semibold text-body underline-offset-4 hover:text-ink hover:underline"
             >
               <Newspaper className="h-3.5 w-3.5" aria-hidden />
-              {bill.press.recent > 0
-                ? `În presă: ${countWord(bill.press.recent, 'articol', 'articole')} în ultima săptămână`
-                : `În presă: ${countWord(bill.press.count, 'articol', 'articole')}`}
+              {stanceLine(bill.press.stances)
+                ? `În presă: ${countWord(bill.press.count, 'articol', 'articole')} · ${stanceLine(bill.press.stances)}`
+                : bill.press.recent > 0
+                  ? `În presă: ${countWord(bill.press.recent, 'articol', 'articole')} în ultima săptămână`
+                  : `În presă: ${countWord(bill.press.count, 'articol', 'articole')}`}
             </Link>
           ) : (
             // Tăcerea presei contează doar la proiectele riscante.

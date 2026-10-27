@@ -68,6 +68,21 @@ export function pageText(html) {
     .trim();
 }
 
+/**
+ * Doar textul articolului, pentru clasificare: paragrafele lungi din cel mai bogat <article> (sau din toată pagina),
+ * fără meniuri, cursuri valutare și liste „cele mai citite”. Verificarea citatelor folosește în continuare pageText.
+ */
+export function articleText(html) {
+  const paragraphs = (block) =>
+    [...block.matchAll(/<p[\s>][\s\S]*?<\/p>/gi)].map((m) => pageText(m[0])).filter((t) => t.length >= 60);
+  const blocks = [...html.matchAll(/<article[\s>][\s\S]*?<\/article>/gi)].map((m) => paragraphs(m[0]));
+  const best = blocks.sort((a, b) => b.join('').length - a.join('').length)[0] ?? [];
+  const chosen = best.join('').length >= 400 ? best : paragraphs(html);
+  const lead = meta(html, 'og:description', 'description');
+  const text = [lead, ...chosen].filter(Boolean).join('\n');
+  return text.length >= 300 ? text : pageText(html);
+}
+
 export function meta(html, ...names) {
   for (const n of names) {
     const re = new RegExp(`<meta[^>]+(?:property|name|itemprop)=["']${n}["'][^>]*>`, 'i');

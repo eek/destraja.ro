@@ -38,7 +38,7 @@ export const BINS = {
 
 const CODEX_OFF = ['shell_tool', 'apps', 'browser_use', 'browser_use_external', 'computer_use', 'in_app_browser', 'plugins', 'hooks', 'skill_mcp_dependency_install'];
 
-function args(model, mode) {
+function args(model, mode, codexModel) {
   const web = mode === 'web';
   if (model === 'claude') {
     return ['-p', '--model', 'claude-opus-5-5', '--tools', web ? 'WebSearch,WebFetch' : '', ...(web ? ['--allowedTools', 'WebSearch,WebFetch'] : []), '--strict-mcp-config'];
@@ -47,6 +47,7 @@ function args(model, mode) {
     return [
       ...(web ? ['--search'] : []),
       'exec',
+      ...(codexModel ? ['-m', codexModel] : []),
       '--skip-git-repo-check',
       '-s',
       'read-only',
@@ -118,10 +119,10 @@ export function extractJsonFromText(raw = '') {
  * Rulează un model și întoarce JSON-ul din răspuns.
  * @returns {Promise<{ model: string, status: 'ok', data: any, durationMs: number } | { model: string, status: 'error', error: string, durationMs: number }>}
  */
-export async function runModel(model, prompt, { mode = 'offline', timeoutMs = 300000 } = {}) {
+export async function runModel(model, prompt, { mode = 'offline', timeoutMs = 300000, codexModel } = {}) {
   const start = Date.now();
   try {
-    const argv = args(model, mode);
+    const argv = args(model, mode, codexModel);
     // agy primește promptul ca argument; ceilalți îl citesc din stdin.
     const res = model === 'agy' ? await run(BINS.agy, [...argv, '--print-timeout', `${Math.round(timeoutMs / 1000)}s`, '-p', prompt], null, timeoutMs + 15000) : await run(BINS[model], argv, prompt, timeoutMs);
     const quota = /usage limit|rate limit|quota/i.test(res.stdout + res.stderr) && !/\{[\s\S]*\}/.test(res.stdout.split('\n').slice(-40).join('\n'));

@@ -43,7 +43,8 @@ Proiect civic independent: nu reprezentăm Senatul și nu lucrăm pentru niciun 
   caractere) și un memoriu .docx, completat cu numele tău direct în browser.
 - **Semnale:** procedura de urgență, avizele negative ale Consiliului Economic și Social (cu motivele, citate din aviz)
   și proiectele semnate împreună de putere și opoziție.
-- **Presa:** doar articole verificate, care există și citează proiectul.
+- **Presa:** doar articole verificate, care există și citează proiectul, cu poziția lor față de proiect (critic,
+  favorabil, neutru, mixt) acolo unde două modele locale sunt de acord.
 - **Ce spun organizațiile:** scrisorile, petițiile și punctele de vedere ale ONG-urilor, sindicatelor, patronatelor și
   organizațiilor profesionale, cu semnatarii numărați din document.
 - **Parlamentarii:** proiectele fiecăruia și datele de contact oficiale de pe cdep.ro și senat.ro.
@@ -77,7 +78,10 @@ flowchart LR
 2. **Analiza** (`straja-council.mjs`): fiecare model citește proiectul separat și dă un scor de la 1 la 10. Publicăm
    consensul și scorul fiecăruia. Apoi `straja-ces.mjs` rezumă motivele avizelor negative CES.
 3. **Presa** (`straja-news.mjs`): caută articole despre proiectele aflate în consultare și păstrează doar linkurile care
-   se încarcă și conțin citatul dat de model.
+   se încarcă și conțin citatul dat de model. Apoi `straja-stance.mjs` dă textul fiecărui articol, curățat cu
+   trafilatura, la două modele de decizie open source rulate pe Mac, Clef (Cloudflare) și d1-3B (Liquid AI): poziția față
+   de proiect, tipul sursei, dacă e chiar despre proiect și dacă e un comunicat de partid. Pe site punem eticheta doar
+   unde sunt de acord (detalii în [`scripts/local-models`](scripts/local-models/README.md)).
 4. **Pozițiile organizațiilor** (`straja-positions.mjs`): caută scrisori deschise, petiții, solicitări și puncte de vedere,
    inclusiv pe site-urile emitenților. O poziție apare doar dacă pagina sau PDF-ul se deschide, pomenește proiectul și
    conține citatul; lista semnatarilor e numărată din document, cu numerotarea verificată. Proiectele cu risc ridicat

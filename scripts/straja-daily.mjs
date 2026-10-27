@@ -4,7 +4,8 @@
 //
 // 1. senat.ro → data/senat-bills.json, cu PDF-urile noi și textul lor, recitit cu OCR unde scanarea e stricată (straja-sync)
 // 2. analiza celor trei modele pentru proiectele noi (straja-council <slug>), apoi motivele avizelor negative CES (straja-ces)
-// 3. presa pentru proiectele aflate în consultare (straja-news)
+// 3. presa pentru proiectele aflate în consultare (straja-news), apoi poziția articolelor noi față de proiect, cu două
+//    modele de decizie rulate local, Clef și d1-3B (straja-stance)
 // 4. pozițiile organizațiilor (straja-positions --due): proiectele cu risc ridicat sau cu cel mult 3 zile până la
 //    termen zilnic, cele cu risc moderat la 3 zile, restul o dată pe săptămână; cel mult 16 proiecte pe zi
 // 5. datele de contact oficiale ale parlamentarilor (straja-mps): lunea toate fișele, în celelalte zile
@@ -137,6 +138,12 @@ async function main() {
         if (added) summary.push(`${added} ${added === 1 ? 'poziție nouă' : 'poziții noi'} ale organizațiilor`);
         log(`Poziții: ${bills} proiecte verificate, ${added} poziții noi, ${pending} neverificate de văzut`);
       }
+    }
+
+    if (!args.has('--skip-news')) {
+      // Poziția articolelor noi față de proiect, cu cele două modele locale; fără ele pasul doar anunță.
+      const stance = await step('Poziția presei', 'node', ['scripts/straja-stance.mjs'], { timeoutMs: 3_600_000 });
+      if (!stance.ok) summary.push('clasificarea presei a eșuat');
     }
 
     if (!args.has('--skip-mps')) {

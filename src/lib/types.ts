@@ -125,12 +125,30 @@ export interface BillNews {
   articles: PressArticle[];
 }
 
+/** Poziția articolului față de proiect, clasificată de Clef (scripts/straja-stance.mjs). */
+export type PressStance = 'critical' | 'supportive' | 'neutral' | 'mixed';
+export type PressSource =
+  | 'national_news'
+  | 'local_news'
+  | 'trade_press'
+  | 'party_or_politician'
+  | 'aggregator'
+  | 'opinion_blog'
+  | 'ngo_or_institution';
+
 export interface PressArticle {
   url: string;
   title: string;
   outlet: string;
   domain: string;
   publishedAt: string | null;
+  /** Publicație din lista noastră (data/news-outlets.json); celelalte apar doar după clasificare. */
+  listed: boolean;
+  /** Null dacă nu e clasificat sau dacă modelul nu e destul de sigur. */
+  stance: PressStance | null;
+  source: PressSource | null;
+  /** Comunicatul unui partid sau politician, publicat ca știre. */
+  release: boolean;
 }
 
 /**
@@ -142,6 +160,7 @@ export interface PressSummary {
   dates: string[];
   recent: number;
   latest: PressArticle | null;
+  stances: Record<PressStance, number>;
 }
 
 /** Avizul negativ CES: număr și dată din cronologia Senatului, PDF-ul și motivele pe scurt (scripts/straja-ces.mjs). */

@@ -20,6 +20,14 @@ export default function SiteFooter({ syncedAt }: { syncedAt: string | null }) {
             independent; nu reprezentăm Senatul și nu lucrăm pentru niciun partid.
           </p>
           {syncedAt && <p className="mt-3 text-xs text-muted">Date preluate de pe senat.ro la {formatDateRo(syncedAt)}.</p>}
+          {/* Alt proiect open source al autorului. Fără noreferrer, ca acolo să se vadă că vizitatorii vin de aici. */}
+          <p className="mt-6 max-w-sm text-sm leading-6 text-muted">
+            Alt proiect open source al autorului:{' '}
+            <a href="https://droneincidents.eu/" target="_blank" rel="noopener" className="font-semibold text-body underline underline-offset-4 hover:text-ink">
+              droneincidents.eu
+            </a>
+            , registrul dronelor venite din afara Uniunii care au ajuns în țările UE în 2026: incursiuni, doborâri și epave, cu hartă și cronologie.
+          </p>
         </div>
 
         <div className="grid grid-cols-2 gap-8 text-sm sm:grid-cols-3 lg:col-span-7">

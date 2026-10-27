@@ -6,7 +6,7 @@ export const SENAT_URL = 'https://www.senat.ro/LegiProiect.aspx';
 export const CONTENT_LICENSE = { name: 'CC BY 4.0', url: 'https://creativecommons.org/licenses/by/4.0/deed.ro' } as const;
 export const ATTRIBUTION = `Sursa: La Straja Legii (lastraja.ro), ${CONTENT_LICENSE.name}`;
 // Repo-ul cu codul (AGPL-3.0). Rămâne null cât timp repo-ul e privat, ca linkul „Cod sursă” să nu ducă la 404.
-export const SOURCE_URL: string | null = null;
+export const SOURCE_URL: string | null = 'https://github.com/eek/lastraja.ro';
 
 // Proiectul pus în față pe prima pagină cât timp consultarea lui e deschisă.
 export const FEATURED_ID = 'B563/2026';

@@ -11,7 +11,8 @@
 // 6. memoriile .docx pentru proiectele noi sau corectate (straja-docx <slug>…)
 // 7. verificări, migrațiile D1, build și publicare pe Cloudflare
 // 8. ediția zilnică a alertelor pe e-mail, doar după o publicare reușită (straja-digest --send)
-// 9. commit cu datele zilei, dacă semnarea commit-ului merge fără tine (altfel rămân necomise)
+// 9. commit cu datele zilei, dacă semnarea commit-ului merge fără tine (altfel rămân necomise), apoi push pe GitHub,
+//    după ce preia ce s-a aprobat între timp prin PR
 //
 // Un pas care eșuează nu oprește restul, cu excepția verificărilor: fără date valide nu publicăm.
 // Jurnalul: ops/logs/AAAA-LL-ZZ.log. La final apare o notificare macOS cu rezumatul.
@@ -164,6 +165,16 @@ async function main() {
     await step('Pregătire commit', 'git', ['add', 'data', 'public/docs']);
     const commit = await step('Commit', 'git', ['commit', '-q', '-m', `Date: actualizarea din ${day}`], { timeoutMs: 60_000 });
     if (!commit.ok && !/nothing to commit|nimic de comis/i.test(commit.tail)) summary.push('datele au rămas necomise');
+
+    // Întâi ce s-a aprobat între timp prin PR pe GitHub, altfel push-ul e respins.
+    const pull = await step('Sincronizare GitHub', 'git', ['pull', '--rebase', '--autostash', '-q', 'origin', 'main'], { timeoutMs: 120_000 });
+    if (!pull.ok) {
+      await step('Anulare rebase', 'git', ['rebase', '--abort'], { timeoutMs: 60_000 });
+      summary.push('GitHub: sincronizarea a eșuat');
+    } else {
+      const push = await step('Push GitHub', 'git', ['push', '-q', 'origin', 'main'], { timeoutMs: 120_000 });
+      if (!push.ok) summary.push('datele n-au ajuns pe GitHub');
+    }
   } catch (err) {
     log(`✗ Oprit: ${err.message}`);
     summary.push(`oprit: ${err.message}`);

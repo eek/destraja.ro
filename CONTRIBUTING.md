@@ -32,7 +32,8 @@ npm run dev        # http://localhost:3000
 - **Prompturile** (`scripts/`, `.agents/`) se pot îmbunătăți, dar orice schimbare trebuie explicată în PR: ce greșeală
   repară și pe ce proiecte ai testat-o.
 
-Orice PR care atinge `data/`, `public/docs/`, `scripts/` sau `.agents/` cere aprobarea întreținătorului.
+Orice PR cere aprobarea întreținătorului. Cele care ating `scripts/`, `.agents/`, `worker/` sau dependențele sunt citite
+cu și mai multă atenție: codul acesta rulează zilnic pe calculatorul întreținătorului, cu drept de publicare.
 
 ## Reguli de cod
 

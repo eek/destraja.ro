@@ -138,7 +138,8 @@ Are nevoie de:
 - `ocrmypdf` cu Tesseract și limba `ron`;
 - un token Cloudflare în `.env`.
 
-Jurnalul e în `ops/logs/`, iar la final apare o notificare macOS. Un pas care eșuează nu oprește restul, cu excepția
+La final face commit cu datele zilei și push pe GitHub, după ce preia ce s-a aprobat între timp prin PR. Jurnalul e în
+`ops/logs/`, iar la final apare o notificare macOS. Un pas care eșuează nu oprește restul, cu excepția
 verificării datelor: fără date valide nu publicăm. Dacă semnarea commit-urilor cere 1Password deblocat, datele zilei rămân
 necomise până la următorul commit.
 

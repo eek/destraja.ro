@@ -14,7 +14,11 @@ export const metadata: Metadata = {
 };
 
 const STEPS = [
-  { icon: FileText, title: 'Preluăm', text: 'Fiecare proiect pus în consultare publică pe senat.ro: textul, expunerea de motive, avizele, inițiatorii și termenul.' },
+  {
+    icon: FileText,
+    title: 'Preluăm',
+    text: 'Fiecare proiect pus în consultare publică pe senat.ro: textul, expunerea de motive, avizele, inițiatorii și termenul. Documentele Senatului sunt scanate, așa că textul lor e recunoscut automat cu MinerU (OpenDataLab) și verificat pagină cu pagină cu Tesseract.',
+  },
   { icon: Sparkles, title: 'Trei lecturi', text: 'Gemini, Claude și ChatGPT analizează independent fiecare proiect și dau fiecare un scor de risc de la 1 la 10.' },
   { icon: Scale, title: 'Consens', text: 'Publicăm un scor comun, o propoziție pe înțelesul oricui și locurile în care modelele nu sunt de acord.' },
   { icon: CheckCircle2, title: 'Vocea ta', text: 'Dacă nu ești de acord cu un proiect, trimiți o opinie oficială cât timp consultarea e deschisă. Durează 60 de secunde.' },

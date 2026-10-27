@@ -59,7 +59,7 @@ Proiect civic independent: nu reprezentăm Senatul și nu lucrăm pentru niciun 
 
 ```mermaid
 flowchart LR
-  S[senat.ro] -->|proiecte noi și PDF-uri| T[Text din PDF<br/>și OCR în română]
+  S[senat.ro] -->|proiecte noi și PDF-uri| T[Textul scanărilor<br/>MinerU + Tesseract]
   T --> A[Gemini · Claude · ChatGPT<br/>fiecare separat, fără unelte]
   A --> D[(data/)]
   P[Presa] -->|doar linkuri verificate| D
@@ -69,8 +69,10 @@ flowchart LR
   C --> E[Alerte pe e-mail]
 ```
 
-1. **Senatul** (`scripts/straja-sync.mjs`): proiectele noi, PDF-urile lor și textul. Unde scanarea are textul stricat, îl
-   recitim cu OCR în română (ocrmypdf și Tesseract).
+1. **Senatul** (`scripts/straja-sync.mjs`): proiectele noi, PDF-urile lor și textul. PDF-urile Senatului sunt scanări,
+   așa că le citim cu [MinerU](https://github.com/opendatalab/MinerU) 4, local, care păstrează titlurile și tabelele, și
+   verificăm fiecare pagină cu Tesseract în română. O pagină pe care MinerU o repetă în buclă sau din care pierde text
+   vine de la Tesseract (`scripts/lib/pdf-text.mjs`).
 2. **Analiza** (`straja-council.mjs`): fiecare model citește proiectul separat și dă un scor de la 1 la 10. Publicăm
    consensul și scorul fiecăruia. Apoi `straja-ces.mjs` rezumă motivele avizelor negative CES.
 3. **Presa** (`straja-news.mjs`): caută articole despre proiectele aflate în consultare și păstrează doar linkurile care
@@ -135,7 +137,10 @@ npm run dev       # http://localhost:3000
 Are nevoie de:
 - CLI-urile `agy` (Gemini), `claude` și `codex`, autentificate (implicit în `~/.local/bin`, sau căile din `AGY_BIN`,
   `CLAUDE_BIN`, `CODEX_BIN`);
-- `ocrmypdf` cu Tesseract și limba `ron`;
+- OCR-ul: `brew install uv tesseract ocrmypdf`, apoi `sh scripts/install-ocr.sh`. Scriptul pune MinerU 4 într-un venv
+  Python 3.12 în `~/.local/share/lastraja-ocr` (cu modelele, ~3 GB pe disc; o rulare ține 4–9 GB de RAM) și copiază
+  acolo limbile Tesseract `ron`, `eng` și `osd`, ca un `brew upgrade` să nu strice româna. Fără MinerU textele se citesc
+  doar cu Tesseract, iar fără ocrmypdf rămâne stratul de text al PDF-ului;
 - un token Cloudflare în `.env`.
 
 Jurnalul e în `ops/logs/`, iar la final apare o notificare macOS. Un pas care eșuează nu oprește restul, cu excepția
@@ -143,13 +148,17 @@ verificării datelor: fără date valide nu publicăm. Dacă semnarea commit-uri
 necomise până la următorul commit.
 
 Fiecare pas merge și separat: `npm run straja:sync`, `straja:council <slug>`, `straja:news`, `straja:mps`,
-`straja:reports`, `straja:docx`, `straja:digest`.
+`straja:reports`, `straja:docx`, `straja:digest`. Textele PDF-urilor se refac cu `node scripts/straja-texts.mjs --force
+[slug]`; rezultatele OCR rămân în `.cache/ocr`, așa că o refacere după o schimbare de cod durează secunde, iar o
+recitire completă (`--fresh`) durează 1,5–2 ore.
 
 ### Date
 
 - `data/senat-bills.json`: proiectele preluate de pe senat.ro.
 - `data/analyses/*.json`: analizele celor trei modele, cu consensul.
-- `data/texts/<slug>/`: textul fiecărui PDF; `_meta.json` spune unde a fost nevoie de OCR.
+- `data/texts/<slug>/`: textul fiecărui PDF, în Markdown (`.md`, afișat pe pagina proiectului, cu titluri și tabele) și
+  ca text simplu (`.txt`, pentru modele și pentru verificarea citatelor). `_meta.json` spune cum a fost citit:
+  `mineru`, `mineru+ocr` (unele pagini de la Tesseract), `ocr` (doar Tesseract) sau `text` (stratul PDF-ului).
 - `data/ces/`, `data/news/`, `data/mp-contacts.json`: avizele CES, presa verificată, contactele parlamentarilor.
 - `data/citizen-one-liners.json`: propoziția pe înțelesul tuturor, scrisă pentru proiectele de la lansare. Un proiect
   nou fără intrare aici afișează rezumatul modelelor (`summaryTlDr`).
@@ -201,12 +210,16 @@ privat; vezi [SECURITY.md](SECURITY.md).
   citezi sursa: online, cu link la pagina proiectului pe lastraja.ro; în tipar, la radio sau la TV, „potrivit La Straja
   Legii (lastraja.ro)”. Textele oficiale, citatele de presă, datele de contact ale parlamentarilor și logoul nu intră în
   licență; detalii în [LICENSE-DATA.md](LICENSE-DATA.md).
+- **OCR:** textul documentelor scanate e recunoscut cu [MinerU](https://github.com/opendatalab/MinerU) (OpenDataLab,
+  MinerU Open Source License, bazată pe Apache-2.0; modelul MinerU2.5-Pro, Apache-2.0) și verificat cu
+  [Tesseract](https://github.com/tesseract-ocr/tesseract) (Apache-2.0).
 
 ## In English
 
 **La Straja Legii** ("Guarding the Law") is an independent civic watch over every bill in public consultation at the
 Romanian Senate. Three AI models (Gemini, Claude and ChatGPT) read each official text separately. The site turns each
 bill into one plain sentence and a risk score, shows where the models disagree, and helps citizens file an official
-opinion before the deadline. Built with Next.js (static export) on Cloudflare; the daily pipeline runs on the
+opinion before the deadline. The Senate's PDFs are scans: their text is recognised locally with MinerU (OpenDataLab)
+and checked page by page with Tesseract. Built with Next.js (static export) on Cloudflare; the daily pipeline runs on the
 maintainer's Mac. Code: AGPL-3.0. Analyses and data: CC BY 4.0. Please credit "La Straja Legii (lastraja.ro)" and link
 to the bill page.

@@ -4,8 +4,9 @@
 //      PDF-ul și păstrează structura: titluri, paragrafe, tabele, note. Antetele, subsolurile, numerele de pagină,
 //      ștampilele și imaginile nu intră în text.
 //   2. Tesseract în română (ocrmypdf) citește aceleași pagini și verifică fiecare pagină a lui MinerU. Când MinerU
-//      intră în buclă („de la Partei de la Partei …”) sau pierde mai mult de 15% din textul citit de Tesseract,
-//      pagina aceea vine de la Tesseract, iar jurnalul o spune.
+//      intră în buclă („de la Partei de la Partei …”), sare peste rânduri de text sau pierde mai mult de 15% din
+//      cuvintele citite de Tesseract (mai puțin pe paginile cu grafice), pagina aceea vine de la Tesseract, iar
+//      jurnalul o spune. Pe paginile păstrate, Tesseract pune la loc ș, ț și ă pe care MinerU le-a scăpat.
 // Fără MinerU (scripts/install-ocr.sh) citim doar cu Tesseract; fără ocrmypdf rămânem la stratul de text al PDF-ului.
 // Pentru fiecare PDF scriem <nume>.md (Markdown, afișat pe pagina proiectului) și <nume>.txt (text simplu, pentru
 // analizele modelelor și verificarea citatelor), iar _meta.json spune cum a fost citit fiecare.
@@ -167,7 +168,9 @@ export function parseHtmlTable(html) {
   let cell = null;
   let inHead = false;
   const span = (attrs, name) => Math.max(1, Math.min(50, parseInt(attrs.match(new RegExp(`${name}\\s*=\\s*["']?(\\d+)`, 'i'))?.[1] ?? '1', 10) || 1));
-  for (const m of String(html).matchAll(/<!--[\s\S]*?-->|<(\/?)([a-z][a-z0-9]*)\b([^>]*)>|([^<]+)|</gi)) {
+  // Formulele din celule (<eq>^{1}</eq>) devin text înainte de rest.
+  const source = String(html).replace(/<eq>([\s\S]*?)<\/eq>/gi, (_, t) => escHtml(latexToText(decode(t))));
+  for (const m of source.matchAll(/<!--[\s\S]*?-->|<(\/?)([a-z][a-z0-9]*)\b([^>]*)>|([^<]+)|</gi)) {
     if (m[0].startsWith('<!--')) continue;
     if (m[4] !== undefined || m[0] === '<') {
       if (cell) cell.text += m[4] ?? '<';
@@ -189,7 +192,7 @@ export function parseHtmlTable(html) {
       }
     } else if (/^(br|p|div|li)$/.test(tag) && cell) cell.text += ' ';
   }
-  for (const r of rows) for (const c of r.cells) c.text = closeQuotes(oneLine(clean(latexToText(decode(c.text.replace(/<\/?eq>/gi, ''))))));
+  for (const r of rows) for (const c of r.cells) c.text = closeQuotes(oneLine(clean(decode(c.text))));
   return rows.filter((r) => r.cells.length && r.cells.some((c) => c.text));
 }
 
@@ -689,7 +692,8 @@ async function detectTools() {
       loud(`MinerU e instalat, dar nu pornește (${err.message}). Citim doar cu Tesseract. Rulează sh scripts/install-ocr.sh.`);
     }
   } else {
-    console.warn(`ℹ️ MinerU nu e instalat (${MINERU_BIN}); citim scanările doar cu Tesseract. Pentru structură și tabele: sh scripts/install-ocr.sh`);
+    const rest = tools.tesseract ? 'citim scanările doar cu Tesseract' : 'fără OCR rămâne stratul de text al PDF-urilor';
+    console.warn(`ℹ️ MinerU nu e instalat (${MINERU_BIN}); ${rest}. Pentru structură și tabele: sh scripts/install-ocr.sh`);
   }
   return tools;
 }

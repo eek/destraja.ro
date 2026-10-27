@@ -30,6 +30,7 @@ export default function SiteFooter({ syncedAt }: { syncedAt: string | null }) {
               <li><Link href="/parlamentari" className={linkCls}>Parlamentari</Link></li>
               <li><Link href="/presa" className={linkCls}>Presă și date</Link></li>
               <li><Link href="/metodologie" className={linkCls}>Metodologie</Link></li>
+              <li><Link href="/cum-functioneaza" className={linkCls}>Cum funcționează</Link></li>
               {ALERTS_LIVE && <li><Link href="/abonare" className={linkCls}>Alerte pe e-mail</Link></li>}
             </ul>
           </div>

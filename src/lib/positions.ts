@@ -22,6 +22,9 @@ function union(list: CivicPosition[]) {
   return all.size;
 }
 
+/** Câte organizații distincte au emis sau semnat aceste poziții, fiecare numărată o singură dată. */
+export const countOrganisations = union;
+
 /** Ce cer, la acuzativ: „retragerea proiectului”, „eliminarea unor prevederi”, „retragerea, respingerea sau modificarea proiectului”. */
 function ask(list: CivicPosition[]) {
   const amend = list.filter((p) => p.stance === 'modificare');

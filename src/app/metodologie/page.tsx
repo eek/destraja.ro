@@ -81,6 +81,9 @@ export default async function MethodPage() {
             Cum lucrăm
           </h2>
           <p className="mt-3 text-[15px] leading-7 text-muted">De la documentul oficial la obiecția ta, în patru pași.</p>
+          <Link href="/cum-functioneaza" className={`${linkCls} mt-4 inline-flex min-h-11 items-center text-sm`}>
+            Ce rulează în spate, pas cu pas
+          </Link>
         </div>
         <ol className="divide-y divide-line border-y border-line">
           {STEPS.map((s) => (

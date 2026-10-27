@@ -13,7 +13,7 @@ import { FEATURED_ID } from './site';
 export const OCR_ENGINE = { name: 'Tesseract', via: 'ocrmypdf', language: 'română' } as const;
 
 /**
- * Modelele care rulează pe Mac-ul întreținătorului, fără internet. Un al doilea model se adaugă cu o linie.
+ * Modelele care rulează local, pe Mac-ul întreținătorului, cu MLX. Un al doilea model se adaugă cu o linie.
  * Răspund la întrebările fixe din PRESS_QUESTIONS, cu o probabilitate pentru fiecare variantă.
  */
 export const LOCAL_MODELS = [

@@ -188,7 +188,7 @@ function LineMap({ facts }: { facts: TechFacts }) {
         Abonații
       </text>
       <text x={1084} y={313} textAnchor="middle" className={note}>
-        o ediție pe zi
+        când e ceva nou
       </text>
 
       {/* Numele modelelor, pe liniile lor */}

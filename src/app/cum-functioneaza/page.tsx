@@ -42,7 +42,7 @@ function QHead({ id, q, a, lead }: { id: string; q: string; a: string; lead?: Re
         <span className="block text-muted">{q}</span>
         <span className="block text-ink">{a}</span>
       </h2>
-      {lead && <p className="mt-5 max-w-[60ch] text-[17px] leading-8 text-body">{lead}</p>}
+      {lead && <p className="mt-5 max-w-[60ch] text-lg leading-8 text-body">{lead}</p>}
     </div>
   );
 }
@@ -106,7 +106,7 @@ export default async function TechPage() {
           <div className="max-w-4xl">
             <h1 id="tech-title" className="font-display text-[clamp(2.4rem,5vw,4rem)] font-normal leading-[1.05] tracking-[-0.025em]">
               <span className="block text-muted">Cum funcționează?</span>
-              <span className="block text-ink">În fiecare dimineață, la 8, un Mac citește Senatul.</span>
+              <span className="block text-ink">În fiecare dimineață, la 8, un Mac citește Senatul.</span>
             </h1>
             <p className="mt-6 max-w-[62ch] text-lg leading-8 text-body">
               De la PDF-ul de pe senat.ro până la pagina pe care o citești: ce rulează, unde rulează și ce verifică codul înainte să publicăm ceva.
@@ -263,14 +263,14 @@ export default async function TechPage() {
         </Container>
       </section>
 
-      <section id="cod" aria-labelledby="cod-title" className="scroll-mt-20 bg-band text-on-band">
+      <section id="cod" aria-labelledby="cod-title" className="-mb-24 scroll-mt-20 bg-band text-on-band">
         <Container className="grid gap-10 py-16 sm:py-20 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)] lg:items-end lg:gap-16">
           <div>
             <h2 id="cod-title" className="font-display text-[2rem] font-normal leading-[1.12] sm:text-5xl">
               <span className="block text-on-band-muted">Pot verifica singur?</span>
               <span className="block text-on-band">Da. Totul e public.</span>
             </h2>
-            <p className="mt-5 max-w-[60ch] text-[17px] leading-8 text-on-band">
+            <p className="mt-5 max-w-[60ch] text-lg leading-8 text-on-band">
               Codul, prompturile, răspunsurile modelelor și datele sunt pe GitHub, cu tot istoricul. Codul e sub AGPL-3.0, analizele și datele sub CC BY 4.0.
               Orice schimbare venită din afară trece prin aprobarea întreținătorului, pentru că acest cod rulează zilnic pe calculatorul lui, cu drept de
               publicare.

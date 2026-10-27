@@ -26,7 +26,7 @@ function gates(f: TechFacts): Gate[] {
     },
     {
       title: 'E o redacție?',
-      text: 'Nu senat.ro, nu rețele sociale, nu motoare de căutare.',
+      text: 'Nu site-uri oficiale ca senat.ro, nu rețele sociale, nu motoare de căutare.',
       stop: 'surse care nu sunt presă',
     },
     {
@@ -37,11 +37,11 @@ function gates(f: TechFacts): Gate[] {
     {
       title: 'E din perioada proiectului?',
       text: 'Nu mai vechi cu un an decât înregistrarea proiectului la Senat.',
-      stop: 'articole despre altceva, mai vechi',
+      stop: 'articole mai vechi cu peste un an',
     },
     {
       title: 'E o publicație urmărită?',
-      text: f.allowlisted ? `Pe site apar doar cele ${countWord(f.allowlisted, 'redacție', 'redacții')} din lista noastră.` : 'Pe site apar doar redacțiile din lista noastră.',
+      text: f.allowlisted ? `Pe site apar doar publicațiile din lista noastră, de ${countWord(f.allowlisted, 'redacție', 'redacții')}.` : 'Pe site apar doar publicațiile din lista noastră.',
       stop: 'restul rămâne la întreținător, nepublicat',
     },
   ];
@@ -54,7 +54,7 @@ export function PressGates({ facts }: { facts: TechFacts }) {
       <figcaption id="porti-caption" className="sr-only">
         Cele cinci verificări din cod prin care trece fiecare link de presă, de la căutare până pe site.
       </figcaption>
-      <div className="relative flex items-start gap-4 pb-6 lg:items-center lg:pb-0">
+      <div className="relative flex items-start gap-6 pb-6 lg:items-center lg:gap-4 lg:pb-0">
         <span aria-hidden className="absolute left-[14px] top-4 h-full w-1 bg-brand lg:hidden" />
         <span aria-hidden className="relative flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-brand text-on-brand">
           <Search className="h-4 w-4" strokeWidth={2.5} />
@@ -86,7 +86,7 @@ export function PressGates({ facts }: { facts: TechFacts }) {
         ))}
       </ol>
 
-      <div className="flex items-start gap-4 lg:mt-8">
+      <div className="flex items-start gap-6 lg:mt-8 lg:items-center lg:gap-4">
         <span aria-hidden className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border-4 border-brand bg-brand" />
         <p className="text-[15px] leading-7 text-body">
           <strong className="font-semibold text-ink">Pe site.</strong> Titlul, publicația și data le luăm din pagina articolului, nu de la model.
@@ -114,8 +114,8 @@ export function LocalModels() {
       <div>
         <h3 className="font-display text-2xl leading-tight text-ink sm:text-3xl">Ce fel de articol e?</h3>
         <p className="mt-3 text-[15px] leading-7 text-body">
-          Fiecare articol verificat e citit apoi de un model care rulează pe Mac, fără internet. Nu caută și nu scrie nimic: alege răspunsul la patru
-          întrebări fixe, cu o probabilitate pentru fiecare variantă. Durează câteva secunde pe articol.
+          Fiecare articol verificat e citit apoi de un model care rulează local, pe Mac. Nu scrie text: răspunde la patru întrebări fixe, cu o
+          probabilitate pentru fiecare variantă. Durează câteva secunde pe articol.
         </p>
         <ul className="mt-5 divide-y divide-line border-y border-line">
           {LOCAL_MODELS.map((m) => (
@@ -145,7 +145,7 @@ export function LocalModels() {
                     </span>
                   ))
                 ) : (
-                  <span className="text-xs text-muted">tipul sursei</span>
+                  <span className="text-xs text-muted">o listă fixă de tipuri</span>
                 )}
               </dd>
             </div>
@@ -177,7 +177,7 @@ export function LocalModels() {
             </div>
           </div>
           <p className="mt-3 text-sm leading-6 text-body">
-            Sub {threshold}% încredere, site-ul nu pune nicio etichetă articolului. Peste, eticheta apare lângă titlu.
+            Sub {threshold}% încredere, site-ul nu pune nicio etichetă articolului. Peste prag, eticheta apare.
           </p>
         </div>
       </div>

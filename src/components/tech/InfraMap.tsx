@@ -10,12 +10,12 @@ type Flow = { back?: boolean; text: string };
 function Flows({ id, flows, axis, lead }: { id: string; flows: Flow[]; axis: 'x' | 'y'; lead?: string }) {
   return (
     <ul aria-label="Ce circulă" className={`flex flex-col justify-center gap-1.5 py-3 ${axis === 'x' ? 'lg:px-1 lg:py-0' : 'lg:items-start lg:px-5'}`} style={{ gridArea: id }}>
-      {lead && <li className="text-[13px] font-semibold text-ink lg:hidden">{lead}</li>}
+      {lead && <li className="text-sm font-semibold text-ink lg:hidden">{lead}</li>}
       {flows.map((f) => {
         const Y = f.back ? ArrowUp : ArrowDown;
         const X = f.back ? ArrowLeft : ArrowRight;
         return (
-          <li key={f.text} className="flex items-center gap-2 text-[13px] leading-5 text-muted">
+          <li key={f.text} className="flex items-center gap-2 text-sm leading-5 text-muted">
             <span className="text-brand" aria-hidden>
               <Y className={`h-4 w-4 ${axis === 'x' ? 'lg:hidden' : ''}`} strokeWidth={2.5} />
               {axis === 'x' && <X className="hidden h-4 w-4 lg:block" strokeWidth={2.5} />}
@@ -65,7 +65,7 @@ export default function InfraMap() {
             'Scripturile lanțului, în Node.js',
             'Gemini, Claude și ChatGPT, prin CLI-urile lor, închise',
             `OCR: ${OCR_ENGINE.name}, prin ${OCR_ENGINE.via}`,
-            `${LOCAL_MODELS.map((m) => m.name).join(' și ')}, local, fără internet`,
+            `${LOCAL_MODELS.map((m) => m.name).join(' și ')}, local, cu MLX`,
             'Build-ul site-ului static',
           ]}
         />
@@ -84,7 +84,7 @@ export default function InfraMap() {
             'D1: rapoartele și abonații',
             'Turnstile, împotriva roboților',
             'Email Service, de la alerte@lastraja.ro',
-            'Cel mult 5 cereri pe minut de la o adresă',
+            'Cel mult 5 rapoarte sau abonări pe minut de la o adresă',
           ]}
         />
         <Flows id="f3" axis="y" flows={[{ text: 'pagini și e-mailuri' }, { back: true, text: 'rapoarte și abonări' }]} />
@@ -94,7 +94,7 @@ export default function InfraMap() {
           id="gh"
           title="GitHub"
           sub="github.com/eek/lastraja.ro, public"
-          items={['Codul (AGPL-3.0), prompturile și datele (CC BY 4.0)', 'Un commit pe zi cu datele zilei', 'Orice schimbare din afară trece pe la întreținător']}
+          items={['Codul (AGPL-3.0), prompturile și datele (CC BY 4.0)', 'Datele fiecărei zile, într-un commit', 'Orice schimbare din afară trece pe la întreținător']}
         />
         <p className="mt-6 text-[15px] leading-7 text-body lg:mt-0 lg:self-end lg:pr-6" style={{ gridArea: 'note' }}>
           <strong className="font-semibold text-ink">Adresele de e-mail stau doar în D1, pe Cloudflare.</strong> Pe Mac nu ajunge niciuna: scriptul trimite

@@ -11,7 +11,7 @@ const STEPS: Step[] = [
   {
     kind: 'stop',
     title: 'Raportul tău',
-    text: 'Îl trimiți de pe pagina proiectului. Turnstile oprește roboții, iar în baza de date nu păstrăm IP-ul și nici e-mailul tău.',
+    text: 'Îl trimiți de pe pagina proiectului. Turnstile oprește roboții, iar în baza de date nu păstrăm IP-ul tău sau alt identificator.',
   },
   {
     kind: 'gate',

@@ -65,7 +65,7 @@ export default function Council({ bill }: { bill: EnrichedBill }) {
               <span className="mt-2 h-1 overflow-hidden rounded-full bg-paper" aria-hidden>
                 <span className={`block h-full rounded-full ${RISK[v.riskLevel].fill}`} style={{ width: `${Math.min(100, v.riskScore * 10)}%` }} />
               </span>
-              <span className="mt-3 text-[11px] leading-4 text-muted sm:text-xs">fără unelte, răspuns în JSON</span>
+              <span className="mt-3 text-xs leading-4 text-muted">fără unelte, răspuns în JSON</span>
             </li>
           );
         })}

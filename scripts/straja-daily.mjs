@@ -5,13 +5,15 @@
 // 1. senat.ro → data/senat-bills.json, cu PDF-urile noi și textul lor, recitit cu OCR unde scanarea e stricată (straja-sync)
 // 2. analiza celor trei modele pentru proiectele noi (straja-council <slug>), apoi motivele avizelor negative CES (straja-ces)
 // 3. presa pentru proiectele aflate în consultare (straja-news)
-// 4. datele de contact oficiale ale parlamentarilor (straja-mps): lunea toate fișele, în celelalte zile
+// 4. pozițiile organizațiilor (straja-positions --due): proiectele cu risc ridicat sau cu cel mult 3 zile până la
+//    termen zilnic, cele cu risc moderat la 3 zile, restul o dată pe săptămână; cel mult 16 proiecte pe zi
+// 5. datele de contact oficiale ale parlamentarilor (straja-mps): lunea toate fișele, în celelalte zile
 //    doar pentru inițiatorii noi; fără inițiatori noi nu trimite nicio cerere către cdep.ro sau senat.ro
-// 5. rapoartele cititorilor din D1 (straja-reports)
-// 6. memoriile .docx pentru proiectele noi sau corectate (straja-docx <slug>…)
-// 7. verificări, migrațiile D1, build și publicare pe Cloudflare
-// 8. ediția zilnică a alertelor pe e-mail, doar după o publicare reușită (straja-digest --send)
-// 9. commit cu datele zilei, dacă semnarea commit-ului merge fără tine (altfel rămân necomise), apoi push pe GitHub,
+// 6. rapoartele cititorilor din D1 (straja-reports)
+// 7. memoriile .docx pentru proiectele noi sau corectate (straja-docx <slug>…)
+// 8. verificări, migrațiile D1, build și publicare pe Cloudflare
+// 9. ediția zilnică a alertelor pe e-mail, doar după o publicare reușită (straja-digest --send)
+// 10. commit cu datele zilei, dacă semnarea commit-ului merge fără tine (altfel rămân necomise), apoi push pe GitHub,
 //    după ce preia ce s-a aprobat între timp prin PR
 //
 // Un pas care eșuează nu oprește restul, cu excepția verificărilor: fără date valide nu publicăm.
@@ -19,6 +21,7 @@
 //
 //   --no-deploy   rulează tot, fără build, publicare și e-mailuri
 //   --skip-news   fără căutarea în presă
+//   --skip-positions  fără căutarea pozițiilor organizațiilor
 //   --skip-mps    fără datele de contact ale parlamentarilor
 
 import fs from 'node:fs';
@@ -122,6 +125,18 @@ async function main() {
     if (!args.has('--skip-news')) {
       const news = await step('Presă', 'node', ['scripts/straja-news.mjs', '--max-age=20'], { timeoutMs: 5_400_000 });
       if (!news.ok) summary.push('presa a eșuat');
+    }
+
+    if (!args.has('--skip-positions')) {
+      // Trei modele cu căutare web pe proiect, ca la presă; --due sare peste proiectele verificate de curând.
+      const positions = await step('Poziții', 'node', ['scripts/straja-positions.mjs', '--due'], { timeoutMs: 3_600_000 });
+      const found = positions.tail.match(/✅ poziții: (\{.*\})/);
+      if (!positions.ok) summary.push('pozițiile organizațiilor au eșuat');
+      else if (found) {
+        const { bills, added, pending } = JSON.parse(found[1]);
+        if (added) summary.push(`${added} ${added === 1 ? 'poziție nouă' : 'poziții noi'} ale organizațiilor`);
+        log(`Poziții: ${bills} proiecte verificate, ${added} poziții noi, ${pending} neverificate de văzut`);
+      }
     }
 
     if (!args.has('--skip-mps')) {

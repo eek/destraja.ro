@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { ArrowRight, ChevronDown, Clock, ExternalLink, MessageSquare, Newspaper } from 'lucide-react';
+import { ArrowRight, ChevronDown, Clock, ExternalLink, MessageSquare, Newspaper, Users } from 'lucide-react';
 import type { BillLite } from '@/lib/types';
 import { MODELS } from '@/lib/site';
 import { RISK } from '@/lib/risk';
@@ -47,6 +47,18 @@ export default function BillCard({ bill, onParty }: { bill: BillLite; onParty?: 
         {/* Etichetele și presa stau lipite de subsol, ca pe un rând de carduri să fie la aceeași înălțime. */}
         <div className="mt-auto space-y-2 pt-4">
           <Flags bill={bill} linkToBill />
+          {bill.positions.line && (
+            <div className="flex">
+              <Link
+                href={`/legi/${bill.slug}#pozitii`}
+                {...trackAttrs('bill_open', { bill_id: bill.id, source: 'card_positions' })}
+                className="inline-flex min-h-8 items-start gap-1.5 py-1.5 text-xs font-semibold leading-5 text-body underline-offset-4 hover:text-ink hover:underline"
+              >
+                <Users className="mt-[3px] h-3.5 w-3.5 shrink-0" aria-hidden />
+                {bill.positions.line}
+              </Link>
+            </div>
+          )}
           {bill.press.count > 0 ? (
             <Link
               href={`/legi/${bill.slug}#presa`}

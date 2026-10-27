@@ -17,6 +17,7 @@ import Dossier from './Dossier';
 import { CesList, CrossPartyList, Headlines, PanelTitle, PartyDetail, buildHeadlines } from './PressPanels';
 import PressCoverage, { type CoverageItem } from './PressCoverage';
 import CiteTerms from './CiteTerms';
+import PositionsRanking, { rankByPositions } from './PositionsRanking';
 
 function pressSummary(ranked: BillLite[], stats: Stats, counts: RiskCounts, date: string | null) {
   const top = ranked.filter((b) => b.daysRemaining >= 0)[0] ?? ranked[0];
@@ -62,6 +63,7 @@ export default function PressClient({ bills: initial, coverage, builtOn }: { bil
   const ranked = useMemo(() => [...bills].sort(byRiskDesc), [bills]);
   const headlines = useMemo(() => buildHeadlines(stats, counts), [stats, counts]);
   const preview = useMemo(() => pressSummary(ranked, stats, counts, null), [ranked, stats, counts]);
+  const organised = useMemo(() => rankByPositions(bills), [bills]);
 
   const [copied, setCopied] = useState<string | null>(null);
   const [focusParty, setFocusParty] = useState<string | null>(null);
@@ -158,6 +160,12 @@ export default function PressClient({ bills: initial, coverage, builtOn }: { bil
         {coverage.length > 0 && (
           <section id="articole" aria-label="Ce scrie presa despre proiecte" className={`${panel} scroll-mt-24 p-5 sm:p-7`}>
             <PressCoverage items={coverage} builtOn={builtOn} />
+          </section>
+        )}
+
+        {organised.length > 0 && (
+          <section id="organizatii" aria-label="Ce cer organizațiile" className={`${panel} scroll-mt-24 p-5 sm:p-7`}>
+            <PositionsRanking bills={organised} />
           </section>
         )}
 

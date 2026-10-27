@@ -1,8 +1,9 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import type { BillAnalysis, BillLite, BillNews, BillPdf, CesOpinion, EnrichedBill, PressSummary } from './types';
+import type { BillAnalysis, BillLite, BillNews, BillPdf, BillPositions, CesOpinion, EnrichedBill, PressSummary } from './types';
 import { daysUntil } from './format';
 import { recentPress } from './stats';
+import { positionsSummary } from './positions';
 
 const ROOT = process.cwd();
 const SENAT_BILLS_PATH = path.join(ROOT, 'data', 'senat-bills.json');
@@ -11,8 +12,9 @@ const ANALYSES_DIR = path.join(ROOT, 'data', 'analyses');
 const TEXTS_DIR = path.join(ROOT, 'data', 'texts');
 const NEWS_DIR = path.join(ROOT, 'data', 'news');
 const CES_DIR = path.join(ROOT, 'data', 'ces');
+const POSITIONS_DIR = path.join(ROOT, 'data', 'positions');
 
-type RawBill = Omit<EnrichedBill, 'daysRemaining' | 'analysis' | 'cesNegative' | 'ces' | 'news'> & { syncedAt?: string };
+type RawBill = Omit<EnrichedBill, 'daysRemaining' | 'analysis' | 'cesNegative' | 'ces' | 'news' | 'positions'> & { syncedAt?: string };
 
 let cache: Promise<{ bills: EnrichedBill[]; syncedAt: string | null }> | null = null;
 
@@ -41,6 +43,7 @@ async function load() {
       ces: await getCesOpinion(bill),
       analysis,
       news: await getBillNews(bill.slug),
+      positions: await getBillPositions(bill.slug),
     });
   }
 
@@ -94,6 +97,7 @@ export function toLite(b: EnrichedBill): BillLite {
     cesNegative: b.cesNegative,
     ces: b.ces,
     press: pressSummary(b.news),
+    positions: positionsSummary(b.positions?.positions ?? []),
     analysis: {
       consensus: {
         riskScore: c.riskScore,
@@ -156,6 +160,34 @@ export async function getBillNews(slug: string): Promise<BillNews | null> {
   } catch {
     return null;
   }
+}
+
+// Doar pozițiile verificate și câmpurile afișate; candidații neverificați („pending”) rămân în fișier, pentru operator.
+export async function getBillPositions(slug: string): Promise<BillPositions | null> {
+  let raw;
+  try {
+    raw = JSON.parse(await fs.readFile(path.join(POSITIONS_DIR, `${slug}.json`), 'utf8'));
+  } catch {
+    return null;
+  }
+  const positions: BillPositions['positions'] = (raw.positions ?? []).map((p: BillPositions['positions'][number]) => ({
+    issuer: p.issuer,
+    stance: p.stance,
+    ...(p.removesProvisions && { removesProvisions: true }),
+    documentType: p.documentType ?? null,
+    title: p.title ?? null,
+    quote: p.quote,
+    date: p.date ?? null,
+    pageUrl: p.pageUrl ?? null,
+    documentUrl: p.documentUrl ?? null,
+    domain: p.domain,
+    viaPress: !!p.viaPress,
+    signatories: p.signatories
+      ? { organizations: p.signatories.organizations, individuals: p.signatories.individuals, names: p.signatories.names ?? [] }
+      : null,
+    verifiedAt: p.verifiedAt,
+  }));
+  return { checkedAt: raw.checkedAt ?? null, positions };
 }
 
 export interface BillText {

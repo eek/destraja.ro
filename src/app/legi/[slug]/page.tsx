@@ -11,6 +11,7 @@ import { trackAttrs } from '@/lib/analytics';
 import ActionKitClient from '@/components/ActionKitClient';
 import LiveDeadline from '@/components/bills/LiveDeadline';
 import BillNews, { PressLink } from '@/components/bills/BillNews';
+import BillPositions, { PositionsLink } from '@/components/bills/BillPositions';
 import { Container, ModelMeters, PartyTag, RiskChip, panel } from '@/components/ui';
 import { Flags } from '@/components/bills/Flags';
 import CiteBill from '@/components/bills/CiteBill';
@@ -109,6 +110,7 @@ export default async function BillDetailPage({ params }: PageProps) {
               <LiveDeadline deadline={bill.consultationDeadline} days={bill.daysRemaining} />
               <Flags bill={lite} />
               {news && <PressLink press={lite.press} builtOn={builtOn} />}
+              <PositionsLink summary={lite.positions} />
             </div>
 
             {partyEntries.length > 0 && (
@@ -198,7 +200,15 @@ export default async function BillDetailPage({ params }: PageProps) {
         </div>
 
         <div className="mt-12">
-          <ActionKitClient bill={bill} press={news && <BillNews key="presa" billId={bill.id} news={news} builtOn={builtOn} />} />
+          <ActionKitClient
+            bill={bill}
+            press={
+              <>
+                {bill.positions && <BillPositions billId={bill.id} data={bill.positions} summary={lite.positions} />}
+                {news && <BillNews billId={bill.id} news={news} builtOn={builtOn} />}
+              </>
+            }
+          />
         </div>
 
         {c.articlesBreakdown && c.articlesBreakdown.length > 0 && (

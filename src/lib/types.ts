@@ -153,9 +153,53 @@ export interface CesOpinion {
   reasons: { text: string; quote: string }[];
 }
 
+export type PositionStance = 'retragere' | 'respingere' | 'modificare' | 'sustinere';
+
+/**
+ * Poziția publică a unei organizații despre proiect (scripts/straja-positions.mjs): o scrisoare, o petiție, un
+ * punct de vedere. Verificată pe documentul original: pomenește proiectul și conține citatul.
+ */
+export interface CivicPosition {
+  issuer: string;
+  stance: PositionStance;
+  /** Cere eliminarea unor prevederi, nu doar schimbarea lor (reiese din citat). */
+  removesProvisions?: boolean;
+  documentType: string | null;
+  title: string | null;
+  quote: string;
+  date: string | null;
+  pageUrl: string | null;
+  documentUrl: string | null;
+  domain: string;
+  /** Sursa e un articol de presă care relatează poziția, nu documentul emitentului. */
+  viaPress: boolean;
+  /** Din lista numerotată a documentului: doar organizațiile cu nume, persoanele fizice doar numărate. */
+  signatories: { organizations: number; individuals: number; names: string[] } | null;
+  verifiedAt: string;
+}
+
+export interface BillPositions {
+  checkedAt: string | null;
+  positions: CivicPosition[];
+}
+
+/** Pozițiile pe scurt, pentru carduri și /presa: câte organizații distincte cer ce, și propoziția de afișat. */
+export interface PositionsSummary {
+  count: number;
+  /** Cer retragerea, respingerea sau modificarea, fiecare organizație o singură dată. */
+  against: number;
+  /** Cer retragerea sau respingerea. */
+  oppose: number;
+  /** Cer modificări sau eliminarea unor prevederi. */
+  amend: number;
+  support: number;
+  line: string | null;
+}
+
 export interface EnrichedBill {
   cesNegative: boolean;
   ces: CesOpinion | null;
+  positions: BillPositions | null;
   id: string;
   slug: string;
   cod: string;
@@ -198,6 +242,7 @@ export interface BillLite {
   cesNegative: boolean;
   ces: CesOpinion | null;
   press: PressSummary;
+  positions: PositionsSummary;
   analysis: {
     consensus: Pick<
       BillAnalysis['consensus'],

@@ -275,8 +275,9 @@ async function main() {
     ? bills.filter((b) => b.slug.includes(targetSlug.toLowerCase()) || b.id.toLowerCase().includes(targetSlug.toLowerCase()))
     : bills;
 
+  // --force reface analiza chiar dacă există, de exemplu când două modele au depășit timpul.
   for (const bill of targets) {
-    await analyzeBillWithCouncil(bill);
+    await analyzeBillWithCouncil(bill, args.includes('--force'));
   }
 }
 

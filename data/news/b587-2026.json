@@ -1,7 +1,7 @@
 {
   "slug": "b587-2026",
   "billId": "B587/2026",
-  "checkedAt": "2026-10-25T19:50:33.654Z",
+  "checkedAt": "2026-10-27T06:57:51.505Z",
   "models": {
     "agy": "ok",
     "claude": "ok",
@@ -27,9 +27,10 @@
       "domain": "adevarul.ro",
       "publishedAt": "2026-10-21",
       "foundBy": [
-        "agy"
+        "agy",
+        "claude"
       ],
-      "quote": "Deputatele neafiliate Dumitrița Albu și Aurora Tasica Simu (Uniunea Națională pentru Inovație și Tradiție) au depus în Parlament un proiect de lege care prevede eliminarea TVA pentru mai multe categorii de produse de igienă, printre care absorbantele, scutecele pentru copii, produsele destinate persoanelor cu incontinenţă urinară şi prezervativele.",
+      "quote": "au depus în Parlament un proiect de lege care prevede eliminarea TVA pentru mai multe categorii de produse de igienă",
       "match": "quote"
     },
     {
@@ -43,7 +44,7 @@
         "claude",
         "codex"
       ],
-      "quote": "Un proiect privind eliminarea TVA pentru scutece, absorbante, alte produse de igienă, dar şi prezervative",
+      "quote": "Un proiect privind eliminarea TVA pentru scutece, absorbante, alte produse de igienă, dar şi prezervative, a fost depus, miercuri, la Parlament, de deputatele neafiliate Dumitriţa Albu şi Aurora Simu, reprezentante ale Partidului UNIT (Uniunea Naţională pentru Inovaţie şi Tradiţie).",
       "match": "quote"
     },
     {
@@ -65,9 +66,10 @@
       "domain": "observatornews.ro",
       "publishedAt": "2026-10-21",
       "foundBy": [
-        "claude"
+        "claude",
+        "agy"
       ],
-      "quote": "Un proiect privind eliminarea TVA pentru scutece, absorbante, alte produse de igienă, dar şi prezervative",
+      "quote": "Un proiect privind eliminarea TVA pentru scutece, absorbante, alte produse de igienă, dar şi prezervative,",
       "match": "quote"
     },
     {
@@ -77,9 +79,11 @@
       "domain": "stiripesurse.ro",
       "publishedAt": "2026-10-21",
       "foundBy": [
-        "agy"
+        "agy",
+        "claude",
+        "codex"
       ],
-      "quote": "Două deputate au depus miercuri în Senat o inițiativă legislativă în care propun eliminarea TVA-ului de 21% în cazul unor „produse care răspund unor nevoi fundamentale” și de care oamenii „nu se pot lipsi”, precum absorbante și alte produse de igienă menstruală, scutece pentru copii, produse destinate persoanelor care suferă de incontinență, dar și prezervative.",
+      "quote": "Propunerea legislativă este limitată astfel la aceste produse.",
       "match": "quote"
     },
     {
@@ -109,15 +113,29 @@
   ],
   "pending": [
     {
+      "url": "https://jurnalul.ro/special-jurnalul/propunere-tva-zero-la-prezervative-scutece-si-absorbante-1047735.html",
+      "title": "Propunere: TVA zero la prezervative, scutece și absorbante",
+      "outlet": "Jurnalul",
+      "domain": "jurnalul.ro",
+      "publishedAt": "2026-10-26",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Proiectul include, de asemenea, prezervativele externe și interne, indiferent de materialul din care sunt fabricate.",
+      "match": "quote",
+      "firstSeenAt": "2026-10-27"
+    },
+    {
       "url": "https://www.atlasnews.ro/tva-zero-produse-igiena-personala-proiect-lege-parlament",
       "title": "TVA zero pentru produse de igienă personală. Proiect de lege depus în Parlament",
       "outlet": "Atlas News Romania",
       "domain": "atlasnews.ro",
       "publishedAt": "2026-10-22",
       "foundBy": [
-        "agy"
+        "agy",
+        "codex"
       ],
-      "quote": "Inițiativa a fost înregistrată la Senat pe 21 octombrie 2026, sub numărul B587/2026, și urmărește reducerea cheltuielilor suportate de familii și de persoanele cu nevoi de îngrijire.",
+      "quote": "Propunerea prevede o scutire de TVA cu drept de deducere, în conformitate cu reglementările europene, dar nu a fost încă adoptată de Parlament.",
       "match": "quote"
     },
     {
@@ -139,9 +157,10 @@
       "domain": "voceasalajului.ro",
       "publishedAt": "2026-10-22",
       "foundBy": [
-        "agy"
+        "agy",
+        "codex"
       ],
-      "quote": "Propunerea legislativă, înregistrată sub numărul B587/2026, urmărește completarea Legii nr. 227/2015 privind Codul fiscal.",
+      "quote": "Propunerea B587/2026 a fost înregistrată la Senat pe 21 octombrie 2026, aceasta fiind prima Cameră sesizată.",
       "match": "quote"
     },
     {
@@ -155,6 +174,19 @@
       ],
       "quote": "Proiectul propune un regim efectiv de TVA zero, prin scutirea de taxă cu drept de deducere.",
       "match": "quote"
+    },
+    {
+      "url": "https://national.ro/social/parlamentarii-vor-tva-zero-la-prezervative",
+      "title": "Deputații propun TVA zero la tampoane, scutece și prezervative",
+      "outlet": "Național – Dezvăluiri, Scandaluri Politice și Știri din România",
+      "domain": "national.ro",
+      "publishedAt": "2026-10-21",
+      "foundBy": [
+        "codex"
+      ],
+      "quote": "Un grup de deputați neafiliați din Parlament cer, printr-un proiect de lege, introducerea cotei 0 la TVA pentru tampoane, ”pamperși” și prezervative.",
+      "match": "quote",
+      "firstSeenAt": "2026-10-27"
     },
     {
       "url": "https://newsweek.ro/social/fara-tva-absorbante-scutece-proiect-lege-depus-camera-deputatilor-igiena-baza",

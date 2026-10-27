@@ -11,12 +11,12 @@ import { RiskChip } from '@/components/ui';
 // Un proiect real, cele trei lecturi separate și media lor: aceleași cifre ca pe pagina proiectului.
 // Furca e desenată din linii drepte, așa că se poate întinde pe orice lățime fără să se strâmbe.
 
-// Centrul primei și al ultimei coloane din grila de dedesubt, cu tot cu spațiul dintre coloane (--g).
+// Centrul primei și al ultimei coloane din grila de dedesubt (--g e spațiul dintre coloane, aici zero).
 const EDGE = 'calc((100% - 2 * var(--g)) / 6)';
 
 function Fork({ down }: { down: boolean }) {
   return (
-    <div aria-hidden className="relative h-10 [--g:0.5rem] sm:[--g:1rem]">
+    <div aria-hidden className="relative h-10 [--g:0px]">
       <span className={`absolute left-1/2 w-0.5 -translate-x-1/2 bg-brand ${down ? 'top-0 h-5' : 'bottom-0 h-5'}`} />
       <span className="absolute top-5 h-0.5 -translate-y-1/2 bg-brand" style={{ left: EDGE, right: EDGE }} />
       {[EDGE, '50%', `calc(100% - ${EDGE})`].map((x) => (
@@ -30,13 +30,13 @@ export default function Council({ bill }: { bill: EnrichedBill }) {
   const c = bill.analysis.consensus;
   const agree = agreement(toLite(bill));
   return (
-    <figure className="rounded-2xl border border-line bg-surface p-4 sm:p-7">
+    <figure>
       <figcaption className="sr-only">
         Exemplu: proiectul {bill.id}. Același text ajunge la Gemini, Claude și ChatGPT, care dau fiecare un scor; scorul comun e media lor,{' '}
         {fmt(c.riskScore)} din 10, {RISK[c.riskLevel].label.toLowerCase()}.
       </figcaption>
 
-      <div className="flex items-start gap-3 rounded-xl bg-sunken p-4 sm:p-5">
+      <div className="flex items-start gap-3 rounded-2xl border border-line bg-surface p-4 shadow-card sm:p-5">
         <FileText className="mt-0.5 h-5 w-5 shrink-0 text-link" aria-hidden />
         <div className="min-w-0">
           <p className="text-xs font-semibold tabular-nums text-muted">{bill.id} · textul oficial</p>
@@ -51,18 +51,18 @@ export default function Council({ bill }: { bill: EnrichedBill }) {
 
       <Fork down />
 
-      <ul className="grid grid-cols-3 gap-2 sm:gap-4">
+      <ul className="grid grid-cols-3 divide-x divide-line">
         {MODELS.map((m) => {
           const v = bill.analysis.council[m.key];
           return (
-            <li key={m.key} className="flex min-w-0 flex-col rounded-xl bg-sunken p-3 sm:p-5">
+            <li key={m.key} className="flex min-w-0 flex-col items-center px-2 py-3 text-center sm:px-5">
               <span className="text-sm font-semibold text-ink sm:text-base">{m.name}</span>
               <span className="hidden text-xs text-muted sm:block">{m.vendor}</span>
               <span className={`mt-3 text-2xl font-semibold tabular-nums sm:text-4xl ${RISK[v.riskLevel].text}`}>
                 {fmt(v.riskScore)}
                 <span className="text-sm font-medium text-muted sm:text-base">/10</span>
               </span>
-              <span className="mt-2 h-1 overflow-hidden rounded-full bg-paper" aria-hidden>
+              <span className="mt-2 h-1 w-full max-w-[9rem] overflow-hidden rounded-full bg-sunken" aria-hidden>
                 <span className={`block h-full rounded-full ${RISK[v.riskLevel].fill}`} style={{ width: `${Math.min(100, v.riskScore * 10)}%` }} />
               </span>
               <span className="mt-3 text-xs leading-4 text-muted">fără unelte, răspuns în JSON</span>

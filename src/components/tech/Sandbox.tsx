@@ -41,9 +41,12 @@ export default function Sandbox() {
             </ul>
             <ul className="mt-5 grid grid-cols-1 gap-x-6 gap-y-2 border-t border-line pt-4 sm:grid-cols-2" aria-label="Ce nu au">
               {DENIED.map((d) => (
-                <li key={d} className="flex items-center gap-2 text-sm text-muted">
+                <li key={d} className="flex items-center gap-2 text-sm text-body">
                   <X className="h-4 w-4 shrink-0 text-ink" strokeWidth={2.5} aria-hidden />
-                  <span className="line-through decoration-line-strong">{d}</span>
+                  <span>
+                    <span className="sr-only">Fără: </span>
+                    {d}
+                  </span>
                 </li>
               ))}
               <li className="flex items-start gap-2 text-sm text-body sm:col-span-2">

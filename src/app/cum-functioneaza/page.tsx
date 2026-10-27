@@ -102,39 +102,41 @@ export default async function TechPage() {
   return (
     <>
       <section aria-labelledby="tech-title" className="border-b border-line">
-        <Container className="pt-12 pb-14 sm:pt-16 sm:pb-20">
-          <div className="max-w-4xl">
-            <h1 id="tech-title" className="font-display text-[clamp(2.4rem,5vw,4rem)] font-normal leading-[1.05] tracking-[-0.025em]">
+        <Container className="pt-10 pb-14 sm:pt-14 sm:pb-20">
+          <div className="grid gap-6 lg:grid-cols-[minmax(0,1.25fr)_minmax(0,0.75fr)] lg:items-end lg:gap-14">
+            <h1 id="tech-title" className="font-display text-[clamp(2.4rem,4.6vw,3.75rem)] font-normal leading-[1.05] tracking-[-0.025em]">
               <span className="block text-muted">Cum funcționează?</span>
               <span className="block text-ink">În fiecare dimineață, la 8, un Mac citește Senatul.</span>
             </h1>
-            <p className="mt-6 max-w-[62ch] text-lg leading-8 text-body">
-              De la PDF-ul de pe senat.ro până la pagina pe care o citești: ce rulează, unde rulează și ce verifică codul înainte să publicăm ceva.
-              {facts.articles > 0 && facts.documents > 0 && (
-                <>
-                  {' '}
-                  Până azi, {countWord(facts.bills, 'proiect urmărit', 'proiecte urmărite')}, {countWord(facts.documents, 'document oficial citit', 'documente oficiale citite')}{' '}
-                  și {countWord(facts.articles, 'articol de presă verificat', 'articole de presă verificate')}.
-                </>
-              )}
-            </p>
-            <nav aria-label="Pe pagina asta" className="mt-7">
-              <ul className="flex flex-wrap gap-x-5 gap-y-2 text-sm">
-                {TOC.map((t) => (
-                  <li key={t.href}>
-                    <a href={t.href} className="inline-flex min-h-8 items-center font-medium text-link underline decoration-1 underline-offset-4 hover:decoration-2">
-                      {t.label}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </nav>
+            <div>
+              <p className="max-w-[62ch] text-lg leading-8 text-body">
+                De la PDF-ul de pe senat.ro până la pagina pe care o citești: ce rulează, unde rulează și ce verifică codul înainte să publicăm ceva.
+                {facts.articles > 0 && facts.documents > 0 && (
+                  <>
+                    {' '}
+                    Până azi, {countWord(facts.bills, 'proiect urmărit', 'proiecte urmărite')}, {countWord(facts.documents, 'document oficial citit', 'documente oficiale citite')}{' '}
+                    și {countWord(facts.articles, 'articol de presă verificat', 'articole de presă verificate')}.
+                  </>
+                )}
+              </p>
+              <nav aria-label="Pe pagina asta" className="mt-5">
+                <ul className="flex flex-wrap gap-x-4 gap-y-1 text-sm">
+                  {TOC.map((t) => (
+                    <li key={t.href}>
+                      <a href={t.href} className="inline-flex min-h-8 items-center font-medium text-link underline decoration-1 underline-offset-4 hover:decoration-2">
+                        {t.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
+            </div>
           </div>
 
-          <div id="lant" className="mt-12 scroll-mt-24 sm:mt-14">
+          <div id="lant" className="mt-12 scroll-mt-24 lg:mt-10">
             <h2 className="sr-only">Lanțul de dimineață</h2>
             <MorningLine facts={facts} />
-            <p className="mt-10 max-w-[68ch] border-t border-line pt-6 text-[15px] leading-7 text-muted">
+            <p className="mt-6 max-w-[68ch] text-[15px] leading-7 text-muted">
               Fiecare pas merge și separat. Un pas care eșuează nu le oprește pe celelalte, cu o excepție: dacă verificarea datelor pică, nu publicăm nimic
               în ziua aceea.
             </p>

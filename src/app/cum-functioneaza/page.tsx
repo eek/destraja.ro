@@ -103,7 +103,7 @@ export default async function TechPage() {
     <>
       <section aria-labelledby="tech-title" className="border-b border-line">
         <Container className="pt-10 pb-14 sm:pt-14 sm:pb-20">
-          <div className="grid gap-6 lg:grid-cols-[minmax(0,1.25fr)_minmax(0,0.75fr)] lg:items-end lg:gap-14">
+          <div className="grid gap-6 lg:grid-cols-[minmax(0,1.25fr)_minmax(0,0.75fr)] lg:items-start lg:gap-14">
             <h1 id="tech-title" className="font-display text-[clamp(2.4rem,4.6vw,3.75rem)] font-normal leading-[1.05] tracking-[-0.025em]">
               <span className="block text-muted">Cum funcționează?</span>
               <span className="block text-ink">În fiecare dimineață, la 8, un Mac citește Senatul.</span>

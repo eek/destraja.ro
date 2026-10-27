@@ -124,7 +124,7 @@ export default function MpContactPanel({ mp, contact, topBill }: { mp: MpStat; c
           <p className="mt-3 text-[15px] leading-7 text-body">
             {email
               ? 'Ai o întrebare sau o părere despre ce a propus? Scrie pe adresa oficială. Un mesaj scurt, politicos și concret are cele mai mari șanse să primească răspuns.'
-              : `Fișa oficială de pe ${ch.site} nu include ${hasDetails ? 'o adresă de e-mail' : 'e-mail, telefon sau birou parlamentar'}. ${
+              : `Fișa oficială de pe ${ch.site} nu include ${hasDetails ? `o adresă de e-mail @${ch.site}` : `e-mail @${ch.site}, telefon sau birou parlamentar`}. ${
                   contact.offices.length ? 'Poți merge la biroul parlamentar sau poți' : 'Poți'
                 } trimite o scrisoare pe adresa ${chamber === 'senat' ? 'Senatului' : 'Camerei Deputaților'}.`}
           </p>

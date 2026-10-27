@@ -19,7 +19,38 @@
         "codex"
       ],
       "quote": "Un grup de parlamentari PNL propune reintroducerea avertismentului și amânarea aplicării unor sancțiuni timp de 24 de luni.",
-      "match": "quote"
+      "match": "quote",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-27",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.716,
+            "source": "national_news",
+            "sourceP": 0.824,
+            "about": 0.964,
+            "release": 0.055
+          },
+          "d1": {
+            "stance": "critical",
+            "stanceP": 0.373,
+            "source": "national_news",
+            "sourceP": 0.566,
+            "about": 0.818,
+            "release": 0.202
+          },
+          "luna": {
+            "stance": "critical",
+            "stanceP": 0.96,
+            "source": "national_news",
+            "sourceP": 0.98,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
     },
     {
       "url": "https://hunedoaraplus.ro/avertisment-in-loc-de-amenda-pentru-scoli-si-spitale-ce-propune-proiectul-sustinut-de-vetuta-stanescu",
@@ -31,7 +62,38 @@
         "agy"
       ],
       "quote": "Proiectul ar permite aplicarea unui avertisment în locul amenzii, în anumite condiții, dacă instituția responsabilă dovedește că a început demersurile pentru obținerea autorizației de securitate la incendiu și prezintă un program de conformare aprobat, cu termene și surse de finanțare identificate.",
-      "match": "quote"
+      "match": "quote",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-27",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.849,
+            "source": "local_news",
+            "sourceP": 0.818,
+            "about": 0.943,
+            "release": 0.348
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.449,
+            "source": "local_news",
+            "sourceP": 0.805,
+            "about": 0.798,
+            "release": 0.294
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.94,
+            "source": "local_news",
+            "sourceP": 0.99,
+            "about": 0.99,
+            "release": 0.02
+          }
+        }
+      }
     },
     {
       "url": "https://www.zvj.ro/articole-74293-Avertisment+in+loc+de+amend+++pentru+++coli+++i+spitale++Ce+propune+proiectul+sus++inut+de+Vetu++a+S.html",
@@ -44,7 +106,38 @@
         "claude"
       ],
       "quote": "Inițiativa vizează completarea articolului 47 din Legea nr. 307/2006 privind apărarea împotriva incendiilor.",
-      "match": "quote"
+      "match": "quote",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-27",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.874,
+            "source": "local_news",
+            "sourceP": 0.844,
+            "about": 0.949,
+            "release": 0.467
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.49,
+            "source": "local_news",
+            "sourceP": 0.66,
+            "about": 0.835,
+            "release": 0.269
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.97,
+            "source": "local_news",
+            "sourceP": 0.99,
+            "about": 0.99,
+            "release": 0.02
+          }
+        }
+      }
     }
   ],
   "pending": [
@@ -58,7 +151,38 @@
         "agy"
       ],
       "quote": "Un grup de 20 de deputați liberali a depus un proiect de lege la Senat prin care propune modificarea Legii nr. 307/2006 privind apărarea împotriva incendiilor.",
-      "match": "quote"
+      "match": "quote",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-27",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.837,
+            "source": "national_news",
+            "sourceP": 0.502,
+            "about": 0.955,
+            "release": 0.177
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.586,
+            "source": "aggregator",
+            "sourceP": 0.343,
+            "about": 0.881,
+            "release": 0.321
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.88,
+            "source": "trade_press",
+            "sourceP": 0.66,
+            "about": 0.99,
+            "release": 0.03
+          }
+        }
+      }
     }
   ]
 }

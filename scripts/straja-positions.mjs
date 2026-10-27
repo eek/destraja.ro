@@ -55,7 +55,7 @@ const DUE_HOURS = { urgent: 20, yellow: 72, green: 168 };
 const STANCE_WORDS = {
   retragere: /retrag|renunt|abandon|respin|abrog|sa nu (fie )?adopt|nu (il |o )?adopt|impotriva|opri|(se |ne )opun|opozitia (noastra |ferma )?fata/,
   respingere: /respin|impotriva|sa nu (fie )?adopt|nu (il |o )?adopt|vot negativ|retrag|(se |ne )opun|opozitia (noastra |ferma )?fata/,
-  modificare: /modific|elimin|amend|complet|reformul|revizu|reanaliz|retrag\w* (a )?(acestor |unor )?prevederi|clarific|schimb|corect|exceptar|exclud|scoate/,
+  modificare: /modific|elimin|amend|complet|reformul|revizu|reanaliz|reexamin|reconsider|retrag\w* (a )?(acestor |unor )?prevederi|clarific|schimb|corect|exceptar|exclud|scoate/,
   sustinere: /sustin|salut|favorabil|sprijin|bine ?venit|apreci/,
 };
 const NEGATED_SUPPORT = /nu (o |il )?sustin|nu (o |il )?sprijin|respin|retrag/;
@@ -301,7 +301,9 @@ async function verify(bill, cand) {
   if (!stanceFits(stance, quote)) return pend(`citatul nu arată poziția „${stance}”`);
   if (!issuerFound(issuer, texts)) return pend('emitentul nu apare în pagină sau în document');
 
-  const date = doc?.date ?? html?.date ?? null;
+  // Data: din PDF, din pagină sau, ca ultimă variantă, din adresa de tipul /2026/10/27/.
+  const urlDate = /\/(20\d{2})\/(\d{2})\/(\d{2})\//.exec(html?.finalUrl ?? '');
+  const date = doc?.date ?? html?.date ?? (urlDate ? `${urlDate[1]}-${urlDate[2]}-${urlDate[3]}` : null);
   const reg = registrationDate(bill);
   if (date && reg && Date.parse(date) < Date.parse(reg) - 30 * 864e5) return pend(`mai veche decât proiectul (${date})`);
 
@@ -345,7 +347,7 @@ async function verify(bill, cand) {
       quote,
       quoteIn,
       date,
-      dateSource: doc?.date ? 'document' : html?.date ? 'pagina' : null,
+      dateSource: doc?.date ? 'document' : html?.date ? 'pagina' : date ? 'adresa' : null,
       pageUrl: html?.finalUrl ?? null,
       documentUrl: doc ? docUrl ?? doc.finalUrl : null,
       domain,
@@ -354,6 +356,9 @@ async function verify(bill, cand) {
       signatories,
       ...(doc?.sha256 && { documentSha256: doc.sha256 }),
       foundBy: cand.foundBy,
+      // La reverificare (--recheck) păstrăm ziua în care am găsit-o și celelalte surse.
+      ...(cand.firstSeenAt && { firstSeenAt: cand.firstSeenAt }),
+      ...(cand.alsoAt?.length && { alsoAt: cand.alsoAt }),
       verifiedAt: todayBucharest(),
     },
   };
@@ -373,7 +378,7 @@ function mergePositions(previous, fresh) {
     const k = posKey(p);
     const old = out.get(k);
     const foundBy = [...new Set([...(old?.foundBy ?? []), ...p.foundBy])];
-    const firstSeenAt = old?.firstSeenAt ?? todayBucharest();
+    const firstSeenAt = old?.firstSeenAt ?? p.firstSeenAt ?? todayBucharest();
     // Aceeași adresă: rămâne poziția deja verificată, dacă noua nu e mai solidă (de pildă citatul din document
     // bate titlul comunicatului). O poziție diferită pe aceeași adresă ajunge la operator.
     const keep = old && strength(old) >= strength(p) ? old : p;

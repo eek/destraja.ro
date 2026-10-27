@@ -107,7 +107,7 @@ function PositionItem({ billId, p }: { billId: string; p: CivicPosition }) {
             {...trackAttrs('position_open', { bill_id: billId, domain: p.domain, link: 'page' })}
             className={linkCls}
           >
-            {p.viaPress ? `Relatat de ${p.domain}` : `Pagina pe ${p.domain}`}
+            {p.viaPress ? `Relatat de ${p.domain}` : `Sursa: ${p.domain}`}
             <ExternalLink className="h-3.5 w-3.5" aria-hidden />
             <span className="sr-only">(se deschide într-o filă nouă)</span>
           </a>

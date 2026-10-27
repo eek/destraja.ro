@@ -22,15 +22,17 @@ function union(list: CivicPosition[]) {
   return all.size;
 }
 
-/** Ce cer, la acuzativ: „retragerea proiectului”, „eliminarea unor prevederi”. */
+/** Ce cer, la acuzativ: „retragerea proiectului”, „eliminarea unor prevederi”, „retragerea, respingerea sau modificarea proiectului”. */
 function ask(list: CivicPosition[]) {
-  const oppose = list.filter((p) => p.stance === 'retragere' || p.stance === 'respingere');
   const amend = list.filter((p) => p.stance === 'modificare');
-  const kinds = new Set(oppose.map((p) => p.stance));
-  const stop = kinds.size === 2 ? 'retragerea sau respingerea' : kinds.has('respingere') ? 'respingerea' : 'retragerea';
-  if (oppose.length && amend.length) return `${stop} sau modificarea proiectului`;
-  if (oppose.length) return `${stop} proiectului`;
-  return amend.every((p) => p.removesProvisions) ? 'eliminarea unor prevederi' : 'modificarea proiectului';
+  if (amend.length === list.length) return amend.every((p) => p.removesProvisions) ? 'eliminarea unor prevederi' : 'modificarea proiectului';
+  const nouns = [
+    list.some((p) => p.stance === 'retragere') && 'retragerea',
+    list.some((p) => p.stance === 'respingere') && 'respingerea',
+    amend.length > 0 && 'modificarea',
+  ].filter((n): n is string => !!n);
+  const last = nouns.pop();
+  return `${nouns.length ? `${nouns.join(', ')} sau ${last}` : last} proiectului`;
 }
 
 /**

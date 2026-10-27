@@ -104,6 +104,8 @@ export function claimedTotals(text) {
   const re =
     /(?:\b(peste|mai\s+mult\s+de|aproape|circa|aproximativ|[îi]n\s+jur\s+de|cel\s+pu[țţt]in)\s+)?\b(\d{1,3}(?:[.\s]\d{3})+|\d{1,5})\s+(?:de\s+)?(organiza[țţt]ii(?:\s+neguvernamentale)?|ONG-uri|asocia[țţt]ii|entit[ăa][țţt]i|federa[țţt]ii|semnatari|organisations)\b/giu;
   for (const m of flat.matchAll(re)) {
+    // „Alte 2 organizații s-au alăturat” e un adaos, nu totalul.
+    if (/(?<!\p{L})(alte|al[țţt]i|[îi]nc[ăa])\s+$/iu.test(flat.slice(Math.max(0, m.index - 12), m.index))) continue;
     const dot = flat.lastIndexOf('. ', m.index);
     const start = dot === -1 ? 0 : dot + 2;
     const endDot = flat.indexOf('. ', m.index);

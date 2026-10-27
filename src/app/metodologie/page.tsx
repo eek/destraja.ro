@@ -37,7 +37,7 @@ const FAQ = [
   },
   {
     q: 'Cum sunt calculate scorurile de risc?',
-    a: 'Gemini, Claude și ChatGPT citesc fiecare proiect și dau fiecare un scor de la 1 la 10. Scorul comun e media celor trei: de la 6,8 în sus e risc ridicat (roșu), de la 3,8 la 6,7 risc mediu (galben), sub 3,8 risc scăzut (verde). Publicăm și scorul fiecărui model, ca să vezi unde nu sunt de acord.',
+    a: 'Gemini, Claude și ChatGPT citesc fiecare proiect și dau fiecare un scor de la 1 la 10. Scorul comun e media celor trei: de la 6,8 în sus e risc ridicat (roșu), de la 3,8 la 6,7 risc moderat (galben), sub 3,8 risc redus (verde). Publicăm și scorul fiecărui model, ca să vezi unde nu sunt de acord.',
   },
   {
     q: 'Cum sunt numărate partidele?',

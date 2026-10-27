@@ -81,7 +81,8 @@ flowchart LR
 4. **Pozițiile organizațiilor** (`straja-positions.mjs`): caută scrisori deschise, petiții, solicitări și puncte de vedere,
    inclusiv pe site-urile emitenților. O poziție apare doar dacă pagina sau PDF-ul se deschide, pomenește proiectul și
    conține citatul; lista semnatarilor e numărată din document, cu numerotarea verificată. Proiectele cu risc ridicat
-   sau aproape de termen sunt verificate zilnic, cele cu risc moderat la 3 zile, restul o dată pe săptămână.
+   sau aproape de termen sunt verificate zilnic, cele cu risc moderat la 3 zile, restul o dată pe săptămână, cel mult 16
+   pe zi.
 5. **Parlamentarii** (`straja-mps.mjs`): datele de contact de pe fișele oficiale, o cerere pe secundă.
 6. **Rapoartele cititorilor** (`straja-reports.mjs`): o greșeală semnalată pe site e reverificată de cele trei modele față
    de textul oficial.

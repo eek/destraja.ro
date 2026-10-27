@@ -12,8 +12,8 @@
 //
 //   npm run straja:positions                       proiectele în consultare
 //   npm run straja:positions -- b563-2026          un singur proiect (slug sau număr)
-//   npm run straja:positions -- --due              doar proiectele la rând (vezi DUE_HOURS), pentru rularea zilnică
-//   opțiuni: --models=claude,codex  --concurrency=4  --max-age=20 (ore)  --all (și cele închise)
+//   npm run straja:positions -- --due              doar proiectele la rând (vezi DUE_HOURS), cel mult --limit pe rulare
+//   opțiuni: --models=claude,codex  --concurrency=4  --max-age=20 (ore)  --limit=16  --all (și cele închise)
 //   --recheck                                       reverifică pozițiile salvate, fără modele
 //
 // Adaugă manual o poziție (trece prin aceeași verificare):
@@ -77,6 +77,9 @@ const TARGET = argv.find((a) => !a.startsWith('--'))?.toLowerCase();
 const MODELS = opt('models', MODEL_KEYS.join(',')).split(',').filter((m) => MODEL_KEYS.includes(m));
 const CONCURRENCY = Number(opt('concurrency', 4));
 const MAX_AGE_H = Number(opt('max-age', 0));
+// Cu --due, cel mult atâtea proiecte pe rulare (16 înseamnă patru runde de câte patru, sub o oră), ca prima
+// rulare, când niciun proiect n-a fost verificat, să nu depășească limita pasului zilnic. Restul vin a doua zi.
+const LIMIT = Number(opt('limit', DUE ? 16 : 0));
 
 // ---------- proiect ----------
 
@@ -529,8 +532,17 @@ async function main() {
     return;
   }
 
-  if (DUE) targets = targets.filter((b) => Date.now() - lastChecked(b) >= dueAfterHours(b) * 3600e3);
+  if (DUE) {
+    // Întâi cele urgente, apoi cele neverificate de cel mai mult timp.
+    targets = targets
+      .filter((b) => Date.now() - lastChecked(b) >= dueAfterHours(b) * 3600e3)
+      .sort((a, b) => dueAfterHours(a) - dueAfterHours(b) || lastChecked(a) - lastChecked(b));
+  }
   if (MAX_AGE_H > 0) targets = targets.filter((b) => Date.now() - lastChecked(b) >= MAX_AGE_H * 3600e3);
+  if (LIMIT > 0 && targets.length > LIMIT) {
+    console.log(`${targets.length} proiecte la rând; verific ${LIMIT} acum, restul la rularea următoare.`);
+    targets = targets.slice(0, LIMIT);
+  }
   if (!targets.length) {
     console.log('Niciun proiect de verificat.');
     console.log(`✅ poziții: ${JSON.stringify({ bills: 0, added: 0, positions: 0, pending: 0 })}`);

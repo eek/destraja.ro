@@ -229,7 +229,7 @@ export default function CookiesPage() {
           <Link href="/abonare" className={linkCls}>
             alertele pe e-mail
           </Link>{' '}
-          păstrăm adresa ta, nivelul ales (tot, risc mediu și ridicat sau doar risc ridicat), data abonării, data confirmării și ziua ultimei ediții
+          păstrăm adresa ta, nivelul ales (tot, risc moderat și ridicat sau doar risc ridicat), data abonării, data confirmării și ziua ultimei ediții
           primite. Nimic altceva: nici nume, nici adresa IP.
         </p>
         <Ticks

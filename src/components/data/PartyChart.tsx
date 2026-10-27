@@ -14,7 +14,7 @@ const METRICS: { key: Metric; label: string; note: string }[] = [
   {
     key: 'medie',
     label: 'Scor mediu',
-    note: 'Media scorurilor de risc ale proiectelor partidului, de la 1 la 10. Culoarea urmează media: 7 sau peste e risc ridicat, de la 4 e moderat, sub 4 e redus. O medie calculată pe puține proiecte se poate schimba ușor.',
+    note: 'Media scorurilor de risc ale proiectelor partidului, de la 1 la 10. Culoarea urmează media, cu aceleași praguri ca la proiecte: de la 6,8 e risc ridicat, de la 3,8 moderat, sub 3,8 redus. O medie calculată pe puține proiecte se poate schimba ușor.',
   },
   { key: 'volum', label: 'Proiecte', note: 'Câte proiecte au cel puțin un inițiator din partid, împărțite pe niveluri de risc.' },
   { key: 'urgente', label: 'Urgențe', note: 'Proiecte pentru care s-a cerut procedură de urgență.' },

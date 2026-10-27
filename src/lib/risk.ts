@@ -41,8 +41,9 @@ export const RISK: Record<RiskLevel, RiskMeta> = {
 
 export const RISK_LEVELS: RiskLevel[] = ['red', 'yellow', 'green'];
 
+/** Aceeași regulă ca scorul comun al unui proiect (scripts/straja-council.mjs și /metodologie). */
 export function levelFromScore(s: number): RiskLevel {
-  if (s >= 7) return 'red';
-  if (s >= 4) return 'yellow';
+  if (s >= 6.8) return 'red';
+  if (s >= 3.8) return 'yellow';
   return 'green';
 }

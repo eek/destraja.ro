@@ -74,7 +74,14 @@ function plain(s) {
 // ─── Markdown ────────────────────────────────────────────────────────────────────────────────────────────────────
 
 /** Caracterele care ar schimba sensul în Markdown sunt scăpate; textul afișat rămâne cel din document. */
-const escInline = (s) => s.replace(/[\\`*_~<[\]]/g, '\\$&').replace(/&(?=#?[a-z0-9]+;)/gi, '\\&');
+// Parantezele drepte („[art. 31 alin. (1)]”, dese în texte juridice) rămân așa cum sunt, cu excepția celor care ar
+// forma un link, o referință sau o notă Markdown („](”, „][”, „]:”, „[^”).
+const escInline = (s) =>
+  s
+    .replace(/[\\`*_~<]/g, '\\$&')
+    .replace(/\](?=[([:])/g, '\\]')
+    .replace(/\[(?=\^)/g, '\\[')
+    .replace(/&(?=#?[a-z0-9]+;)/gi, '\\&');
 /** „1. Text” sau „- text” la început de paragraf ar deveni listă, „# ” titlu, „> ” citat: păstrăm textul așa cum e. */
 const escStart = (md) => md.replace(/^(\d{1,9})([.)])(?=\s|$)/, '$1\\$2').replace(/^([#>+=-])/, '\\$1');
 const escHtml = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');

@@ -46,4 +46,5 @@ Le poți copia, publica, traduce și adapta, inclusiv în scop comercial. Singur
 **In English.** Analyses and data are licensed CC BY 4.0. Credit "La Straja Legii (lastraja.ro)" and link to the bill page.
 Official legislative texts are not copyrighted under Romanian law (Law 8/1996, art. 9). Press headlines and quotes belong
 to their publishers. Organisations' letters and petitions belong to their issuers: we link them and quote briefly, and
-signatory lists are facts taken from those documents. MP contact details are as published by the two chambers. The code is AGPL-3.0.
+signatory lists are facts taken from those documents. MP contact details are as published by the two chambers. The
+code is AGPL-3.0.

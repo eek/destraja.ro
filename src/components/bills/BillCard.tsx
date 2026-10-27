@@ -6,7 +6,8 @@ import { RISK } from '@/lib/risk';
 import { countWord, deadlineInfo, DEADLINE_TONE, fmt } from '@/lib/format';
 import { agreement, modelScore, oneLiner } from '@/lib/stats';
 import { trackAttrs } from '@/lib/analytics';
-import { Flags, PartyTag, RiskChip, RiskDot, btnPrimary, btnSecondary } from '@/components/ui';
+import { PartyTag, RiskChip, RiskDot, btnPrimary, btnSecondary } from '@/components/ui';
+import { Flags } from './Flags';
 
 const AGREE_TONE = { strong: 'text-muted', partial: 'text-muted', split: 'text-ink' } as const;
 
@@ -44,9 +45,9 @@ export default function BillCard({ bill, onParty }: { bill: BillLite; onParty?: 
         <p className="mt-2.5 text-[15px] leading-relaxed text-body">{oneLiner(bill)}</p>
 
         {/* Etichetele și presa stau lipite de subsol, ca pe un rând de carduri să fie la aceeași înălțime. */}
-        <div className="mt-auto space-y-1 pt-4">
-          <Flags bill={bill} />
-          {bill.press.count > 0 && (
+        <div className="mt-auto space-y-2 pt-4">
+          <Flags bill={bill} linkToBill />
+          {bill.press.count > 0 ? (
             <Link
               href={`/legi/${bill.slug}#presa`}
               {...trackAttrs('bill_open', { bill_id: bill.id, source: 'card_press' })}
@@ -57,6 +58,14 @@ export default function BillCard({ bill, onParty }: { bill: BillLite; onParty?: 
                 ? `În presă: ${countWord(bill.press.recent, 'articol', 'articole')} în ultima săptămână`
                 : `În presă: ${countWord(bill.press.count, 'articol', 'articole')}`}
             </Link>
+          ) : (
+            // Tăcerea presei contează doar la proiectele riscante.
+            c.riskLevel === 'red' && (
+              <p className="inline-flex min-h-8 items-center gap-1.5 text-xs font-semibold text-body">
+                <Newspaper className="h-3.5 w-3.5" aria-hidden />
+                În presă: niciun articol găsit încă
+              </p>
+            )
           )}
         </div>
 

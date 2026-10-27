@@ -10,6 +10,7 @@
     "straja:council": "node scripts/straja-council.mjs",
     "straja:docx": "node scripts/straja-docx.mjs",
     "straja:news": "node scripts/straja-news.mjs",
+    "straja:mps": "node scripts/straja-mps.mjs",
     "deploy": "wrangler d1 migrations apply lastraja --remote && next build && wrangler deploy",
     "preview": "next build && wrangler dev",
     "straja:reports": "node scripts/straja-reports.mjs",

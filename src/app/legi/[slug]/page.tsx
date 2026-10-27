@@ -11,7 +11,8 @@ import { trackAttrs } from '@/lib/analytics';
 import ActionKitClient from '@/components/ActionKitClient';
 import LiveDeadline from '@/components/bills/LiveDeadline';
 import BillNews, { PressLink } from '@/components/bills/BillNews';
-import { Container, Flags, ModelMeters, PartyTag, RiskChip, panel } from '@/components/ui';
+import { Container, ModelMeters, PartyTag, RiskChip, panel } from '@/components/ui';
+import { Flags } from '@/components/bills/Flags';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -47,7 +48,7 @@ export default async function BillDetailPage({ params }: PageProps) {
 
   const all = await getAllBills();
   const slugs = mpSlugs(all.map(toLite));
-  const extractedTexts = await getBillExtractedTexts(slug);
+  const extractedTexts = await getBillExtractedTexts(bill);
   const news = bill.news;
   const builtOn = todayISO();
   const lite = toLite(bill);
@@ -195,7 +196,7 @@ export default async function BillDetailPage({ params }: PageProps) {
         </div>
 
         <div className="mt-12">
-          <ActionKitClient bill={bill} press={news && <BillNews billId={bill.id} news={news} builtOn={builtOn} />} />
+          <ActionKitClient bill={bill} press={news && <BillNews key="presa" billId={bill.id} news={news} builtOn={builtOn} />} />
         </div>
 
         {c.articlesBreakdown && c.articlesBreakdown.length > 0 && (
@@ -335,11 +336,24 @@ export default async function BillDetailPage({ params }: PageProps) {
               </summary>
               <div className="space-y-4 border-t border-line px-5 pb-5 pt-3">
                 {extractedTexts.map((doc) => (
-                  <div key={doc.filename}>
-                    <h3 className="text-xs font-semibold text-muted">{doc.filename.replace(/_/g, ' ')}</h3>
-                    <pre className="mt-1.5 max-h-96 overflow-y-auto whitespace-pre-wrap rounded-xl bg-sunken p-4 font-mono text-xs leading-relaxed text-body">
+                  <div key={doc.url}>
+                    <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+                      <h3 className="text-sm font-semibold text-ink first-letter:uppercase">{doc.label}</h3>
+                      <a
+                        href={doc.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        {...trackAttrs('official_source_open', { bill_id: bill.id, source: 'pdf_text', doc: doc.label })}
+                        className="inline-flex items-center gap-1 text-xs font-semibold text-link underline-offset-4 hover:underline"
+                      >
+                        PDF oficial
+                        <ExternalLink className="h-3 w-3" aria-hidden />
+                      </a>
+                    </div>
+                    {doc.ocr && <p className="mt-1 text-xs text-muted">Text recunoscut automat din documentul scanat; pot exista mici greșeli. Sursa e PDF-ul oficial.</p>}
+                    <div className="mt-2 max-h-96 overflow-y-auto whitespace-pre-line rounded-xl bg-sunken p-4 text-[13px] leading-relaxed text-body">
                       {doc.content}
-                    </pre>
+                    </div>
                   </div>
                 ))}
               </div>

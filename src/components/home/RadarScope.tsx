@@ -17,6 +17,8 @@ const radius = (score: number) => R_INNER + ((10 - Math.min(10, Math.max(1, scor
 const RING_RED = radius(7);
 const RING_YELLOW = radius(4);
 const TICKS = Array.from({ length: 72 }, (_, i) => i * 5);
+// Serverul și browserul pot da cos/sin diferite la a 15-a zecimală; rotunjim ca hidratarea să se potrivească.
+const r2 = (n: number) => Math.round(n * 100) / 100;
 
 export default function RadarScope({ bills, counts }: { bills: BillLite[]; counts: RiskCounts }) {
   const ranked = useMemo(() => [...bills].sort(byRiskDesc), [bills]);
@@ -32,7 +34,7 @@ export default function RadarScope({ bills, counts }: { bills: BillLite[]; count
           // Unghiul de aur împrăștie punctele uniform fără să se suprapună.
           const angle = (((i * 137.508) % 360) - 90) * (Math.PI / 180);
           const r = radius(b.analysis.consensus.riskScore);
-          return { b, x: RC + r * Math.cos(angle), y: RC + r * Math.sin(angle) };
+          return { b, x: r2(RC + r * Math.cos(angle)), y: r2(RC + r * Math.sin(angle)) };
         }),
     [bills],
   );
@@ -41,7 +43,7 @@ export default function RadarScope({ bills, counts }: { bills: BillLite[]; count
   const active = (activeId ? bills.find((b) => b.id === activeId) : undefined) ?? ranked[0];
   const activePoint = points.find((p) => p.b.id === active?.id);
   const sweep = (-38 * Math.PI) / 180;
-  const sweepEnd = { x: RC + RR * Math.cos(sweep), y: RC + RR * Math.sin(sweep) };
+  const sweepEnd = { x: r2(RC + RR * Math.cos(sweep)), y: r2(RC + RR * Math.sin(sweep)) };
 
   return (
     <figure className="rounded-[1.75rem] border border-line bg-surface p-4 shadow-[var(--shadow-card)] sm:p-6">
@@ -82,10 +84,10 @@ export default function RadarScope({ bills, counts }: { bills: BillLite[]; count
           return (
             <line
               key={deg}
-              x1={RC + (RR + 3) * Math.cos(a)}
-              y1={RC + (RR + 3) * Math.sin(a)}
-              x2={RC + (RR + (long ? 10 : 6)) * Math.cos(a)}
-              y2={RC + (RR + (long ? 10 : 6)) * Math.sin(a)}
+              x1={r2(RC + (RR + 3) * Math.cos(a))}
+              y1={r2(RC + (RR + 3) * Math.sin(a))}
+              x2={r2(RC + (RR + (long ? 10 : 6)) * Math.cos(a))}
+              y2={r2(RC + (RR + (long ? 10 : 6)) * Math.sin(a))}
               strokeWidth={long ? 1.25 : 0.75}
               className="stroke-line-strong"
             />

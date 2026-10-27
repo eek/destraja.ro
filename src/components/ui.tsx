@@ -1,10 +1,10 @@
 import type { ReactNode } from 'react';
-import { AlertTriangle, Check, Copy, Flame, Layers } from 'lucide-react';
+import { Check, Copy } from 'lucide-react';
 import type { BillLite, RiskLevel } from '@/lib/types';
 import { MODELS, partyFullName } from '@/lib/site';
 import { RISK } from '@/lib/risk';
 import { fmt } from '@/lib/format';
-import { camps, modelScore } from '@/lib/stats';
+import { modelScore } from '@/lib/stats';
 
 export const btnPrimary =
   'inline-flex items-center justify-center gap-2 rounded-lg bg-brand font-semibold text-on-brand transition-colors hover:bg-brand-hover disabled:cursor-not-allowed disabled:opacity-50';
@@ -72,31 +72,6 @@ export function ModelMeters({ bill }: { bill: BillLite }) {
         );
       })}
     </dl>
-  );
-}
-
-export function Flags({ bill }: { bill: BillLite }) {
-  const items: { key: string; icon: typeof Flame; label: string; cls: string }[] = [];
-  if (bill.emergencyRequested) {
-    items.push({
-      key: 'urg',
-      icon: Flame,
-      label: bill.emergencyApproved ? 'Urgență aprobată' : 'Urgență cerută',
-      cls: 'text-ink',
-    });
-  }
-  if (bill.cesNegative) items.push({ key: 'ces', icon: AlertTriangle, label: 'Aviz negativ CES', cls: 'text-body' });
-  if (camps(bill.parties).bridge) items.push({ key: 'bridge', icon: Layers, label: 'Putere și opoziție împreună', cls: 'text-cross' });
-  if (!items.length) return null;
-  return (
-    <ul className="flex flex-wrap gap-x-3 gap-y-1">
-      {items.map((it) => (
-        <li key={it.key} className={`inline-flex items-center gap-1 text-xs font-semibold ${it.cls}`}>
-          <it.icon className="h-3.5 w-3.5" aria-hidden />
-          {it.label}
-        </li>
-      ))}
-    </ul>
   );
 }
 

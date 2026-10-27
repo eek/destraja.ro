@@ -3,6 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { spawn } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
+import { writeBillTexts } from './lib/pdf-text.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(__dirname, '..');
@@ -30,40 +31,10 @@ async function extractPdfTextsForBill(bill) {
     return {};
   }
 
-  const billPdfDir = path.join(PDF_DIR, bill.slug);
-  const billTextDir = path.join(TEXT_DIR, bill.slug);
-  fs.mkdirSync(billTextDir, { recursive: true });
-
-  const texts = {};
-  if (!fs.existsSync(billPdfDir)) return texts;
-
-  for (const file of fs.readdirSync(billPdfDir)) {
-    if (!file.toLowerCase().endsWith('.pdf')) continue;
-    let type = file.split('_')[0];
-    if (file.startsWith('forma_initiatorului')) type = 'forma_initiatorului';
-    else if (file.startsWith('expunere_motive')) type = 'expunere_motive';
-    else if (file.startsWith('adresa_inaintare')) type = 'adresa_inaintare';
-    const pdfPath = path.join(billPdfDir, file);
-    const txtPath = path.join(billTextDir, `${type}.txt`);
-
-    if (fs.existsSync(txtPath)) {
-      texts[type] = fs.readFileSync(txtPath, 'utf8');
-      continue;
-    }
-
-    try {
-      const buf = fs.readFileSync(pdfPath);
-      const parsed = await pdfParse(buf);
-      if (parsed?.text && parsed.text.trim().length > 20) {
-        const cleaned = parsed.text.replace(/\r\n/g, '\n').replace(/\n{3,}/g, '\n\n').trim();
-        fs.writeFileSync(txtPath, cleaned, 'utf8');
-        texts[type] = cleaned;
-      }
-    } catch (err) {
-      // ignore corrupted/scanned PDFs
-    }
-  }
-  return texts;
+  return writeBillTexts(path.join(PDF_DIR, bill.slug), path.join(TEXT_DIR, bill.slug), {
+    pdfParse,
+    cacheDir: path.join(ROOT_DIR, '.cache', 'ocr'),
+  });
 }
 
 function runCommand(cmd, args, inputStdin = null, timeoutMs = 180000) {

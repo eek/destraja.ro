@@ -2,6 +2,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { writeBillTexts } from './lib/pdf-text.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(__dirname, '..');
@@ -243,45 +244,27 @@ async function parsePublicOpinions(bill) {
 async function downloadPdfsAndExtractText(bill, shouldDownload = false) {
   if (!shouldDownload) return {};
   const billPdfDir = path.join(PDF_DIR, bill.slug);
-  const billTextDir = path.join(TEXT_DIR, bill.slug);
   fs.mkdirSync(billPdfDir, { recursive: true });
-  fs.mkdirSync(billTextDir, { recursive: true });
+
+  for (const pdf of bill.pdfs || []) {
+    const filePath = path.join(billPdfDir, `${pdf.type}_${path.basename(pdf.url)}`);
+    if (fs.existsSync(filePath)) continue;
+    try {
+      const res = await fetch(pdf.url);
+      if (res.ok) fs.writeFileSync(filePath, Buffer.from(await res.arrayBuffer()));
+    } catch (err) {
+      console.warn(`⚠️ Eroare PDF ${pdf.url}:`, err.message);
+    }
+  }
 
   let pdfParse = null;
   try {
     const mod = await import('pdf-parse/lib/pdf-parse.js');
     pdfParse = mod.default || mod;
   } catch {
-    // optional
+    return {};
   }
-
-  const extractedTexts = {};
-  for (const pdf of bill.pdfs || []) {
-    const filename = `${pdf.type}_${path.basename(pdf.url)}`;
-    const filePath = path.join(billPdfDir, filename);
-    const txtPath = path.join(billTextDir, `${pdf.type}.txt`);
-
-    try {
-      if (!fs.existsSync(filePath)) {
-        const res = await fetch(pdf.url);
-        if (res.ok) {
-          const buf = Buffer.from(await res.arrayBuffer());
-          fs.writeFileSync(filePath, buf);
-        }
-      }
-      if (pdfParse && fs.existsSync(filePath)) {
-        const buf = fs.readFileSync(filePath);
-        const parsed = await pdfParse(buf);
-        if (parsed?.text && parsed.text.trim().length > 50) {
-          fs.writeFileSync(txtPath, parsed.text.trim(), 'utf8');
-          extractedTexts[pdf.type] = txtPath;
-        }
-      }
-    } catch (err) {
-      console.warn(`⚠️ Eroare PDF ${pdf.url}:`, err.message);
-    }
-  }
-  return extractedTexts;
+  return writeBillTexts(billPdfDir, path.join(TEXT_DIR, bill.slug), { pdfParse, cacheDir: path.join(ROOT_DIR, '.cache', 'ocr') });
 }
 
 async function main() {

@@ -193,6 +193,8 @@ export function parseHtmlTable(html) {
     } else if (/^(br|p|div|li)$/.test(tag) && cell) cell.text += ' ';
   }
   for (const r of rows) for (const c of r.cells) c.text = closeQuotes(oneLine(clean(decode(c.text))));
+  // Rândurile goale cad, dar nu când o celulă unită pe verticală ar ajunge să acopere alt rând.
+  if (rows.some((r) => r.cells.some((c) => c.rowspan > 1))) return rows.some((r) => r.cells.some((c) => c.text)) ? rows : [];
   return rows.filter((r) => r.cells.length && r.cells.some((c) => c.text));
 }
 

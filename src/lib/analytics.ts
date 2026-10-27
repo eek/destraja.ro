@@ -13,7 +13,9 @@
 // subscribe_confirmed, alert_level_change, unsubscribe, mp_contact (slugul parlamentarului și canalul:
 // email, email_link, phone, office_phone, office_email, copy, profile), position_open (documentul sau pagina
 // unei poziții a organizațiilor: bill_id, domain, link), position_signatories (lista semnatarilor deschisă),
-// position_more (toate pozițiile unui proiect), news_filter (filtrul de poziție din presa unui proiect: bill_id, stance).
+// position_more (toate pozițiile unui proiect), news_filter (filtrul de poziție din presa unui proiect: bill_id, stance),
+// tech_details_open (un detaliu pentru programatori deschis pe /cum-functioneaza: topic), source_open (un link spre
+// codul de pe GitHub: link = repo, ai_cli, contributing, security, license_data).
 // Niciodată adresa de e-mail.
 
 export const GA_ID = 'G-237KQ8L2FE';

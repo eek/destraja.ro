@@ -1,0 +1,86 @@
+# EXPUNERE DE MOTIVE
+
+## la Legea pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 195/2005 privind protecția mediului
+
+## Descrierea situației actuale
+
+Ordonanța de urgență a Guvernului nr. 195/2005 privind protecția mediului reglementează cadrul general privind prevenirea și controlul integrat al poluării, precum și atribuțiile autorităților publice competente în domeniul protecției mediului, precum și al sănătății populației. În ceea ce privește sesizarea disconfortului olfactiv, în cadrul articolul 64⁶ din Ordonanța de urgență a Guvernului nr. 195/2005 se precizeaza, în prezent, că, în cazul existenței unor plângeri din partea publicului care reclamă existența existența disconfortului olfactiv, autoritatea publică centrală pentru sănătate, prin structurile subordonate, formulează răspunsurile la respectivele plângeri.
+
+Art. 64⁶ (1) În cazul existenței unor plângeri din partea publicului care reclamă existența unui disconfort olfactiv, autoritatea publică centrală pentru sănătate, prin structurile subordonate, formulează răspunsurile la respectivele plângeri.
+
+Totodată, în situația în care, în urma investigațiilor, autoritatea publică centrală pentru sănătate constată existența unei legături de cauzalitate între discomfortul olfactiv și starea de sănătate a populației, aceasta notifică autoritatea competentă pentru protecția mediului responsabilă cu emiterea actelor de reglementare, în vederea reexaminării și actualizării acestora.
+
+Art. 64⁶ (2) În situația în care în urma investigațiilor autoritatea publică centrală pentru sănătate, prin structurile subordonate, constată existența unei legături de cauzalitate între discomfortul olfactiv și starea de sănătate a populației, notifică autoritatea competentă pentru protecția mediului responsabilă cu emiterea actelor de reglementare în domeniul protecției mediului pentru reexaminarea și actualizarea respectivelor acte.
+
+Astfel, deși cadrul normativ actual recunoaște necesitatea protejării sănătății populației în raport cu disconfortul olfactiv, acesta nu reglementează suficient de clar conținutul acestor investigații pe care autoritatea publica centrală pentru sanatate le efectuează sau le dispune. În situațiile în care există sesizări privind un posibil disconfort olfactiv sau un fenomen de poluare, datele deja disponibile la autoritatea publică centrală pentru sanatate trebuie analizate în cadrul unui ansamblu mai larg de informații și, după caz, coroborate cu rezultatele unor evaluări și monitorizări independente.
+
+De asemenea, cadrul normativ actual se raportează în mod expres la plângerile formulate de public, fără a reglementa cu aceeași claritate situația în care necesitatea unei investigații este semnalată de autoritățile cu atribuții de control în domeniul protecției mediului, ca urmare a constatărilor realizate în exercitarea atribuțiilor proprii. Această situație poate conduce la un circuit instituțional incomplet, în care constatările realizate în cadrul controlului de mediu nu determină, în toate cazurile, declanșarea unei investigații de sănătate publică realizate potrivit unor reguli și criterii prestabilite.
+
+Relevanța practică a intervenției legislative este evidențiată și de datele cele mai recente comunicate de Garda Națională de Mediu, date disponibile public. În urma episodului de disconfort olfactiv resimțit în municipiul București și județul Ilfov în luna august 2026, au fost formulate peste 1.300 de sesizări din partea populației, fiind declanșate 55 de controale și dispuse sancțiuni contravenționale în valoare totală de 795.000 lei, trei sistări de activitate și 22 de măsuri de conformare. Situația prezintă o relevanță deosebită din perspectiva mecanismului propus prin prezenta inițiativă legislativă, întrucât, potrivit datelor comunicate de Garda Națională de Mediu, deși disconfortul olfactiv a fost reclamat de peste 1.300 de persoane, măsurătorile oficiale nu au înregistrat depășiri ale limitelor de poluare.¹
+
+Necesitatea clarificării acestui circuit instituțional este evidențiată inclusiv de datele comunicate de Garda Națională de Mediu (GNM). Potrivit declarației publice din data de 11 august, la nivel național, Garda Națională de Mediu a transmis 2.556 de adrese distincte către direcțiile de sănătate publică, prin care au fost puse la dispoziția acestora datele și concluziile rezultate din controalele efectuate, în vederea analizării și dispunerii măsurilor prevăzute de lege. Conform aceleiași comunicări publice, până la data declarației nu a fost primit niciun răspuns la aceste adrese ale Gărzii Naționale.² Totodată, în vederea susținerii nevoii reale de cooperare între instituții, potrivit Raportului de activitate al GNM pentru anul 2025, activitatea de monitorizare și control în domeniul calității aerului se fundamentează inclusiv pe date furnizate prin Rețeaua Națională de Monitorizare a Calității Aerului și prin laboratoarele autorităților de mediu. În acest context, colaborarea structurilor de sănătate publică cu autoritățile competente pentru protecția mediului pentru efectuarea măsurătorilor și determinărilor necesare permite valorificarea capacității tehnice și a datelor existente la nivelul acestora în cadrul investigațiilor privind impactul asupra sănătății populației.³
+
+## Necesitatea reglementării
+
+Intervenția legislativă este necesară pentru instituirea unui mecanism clar și obiectiv de investigare a sesizărilor privind discomfortul olfactiv, precum și a eventualului impact al disconfortului asupra sănătății și calității vieții populației. Protecția efectivă a sănătății populației presupune că răspunsurile autorității competente în domeniul sănătății să fie precedate de o investigație și, bineînțeles, sa fie fundamentate pe rezultatele acesteia.
+
+¹ Conform datelor oficiale din raportul Gârzii Naționale de Mediu
+
+https://www.gnm.ro/wp-content/uploads/2026/09/Raport-Disconfort-olfactiv-București-IF-17-27-august-2026.pdf?utm\_source=chatgpt.com.
+
+² Conform postarii Garzii Nationale de Mediu( pagina oficiala de Facebook), disponibila aici:
+
+https://www.facebook.com/share/v/1VJkobgkiD/?mibextid=wwXIfr
+
+În aceasta direcție, este necesară completarea actualului cadru de reglementare prin stabilirea obligației autorității publice centrale pentru sănătate, prin structurile subordonate, de a efectua investigații în vederea identificării factorilor de poluare și/sau a surselor generatoare de disconfort olfactiv și a evaluării impactului asupra sănătății populației. Necesitatea reglementării rezultă și din caracterul complex al fenomenelor de poluare. Existența sau efectele acestora nu pot fi evaluate, în toate situațiile, exclusiv prin raportare la datele disponibile, cel mai probabil, anterior formulării sesizărilor de către cetățeni.
+
+Este necesară, de asemenea, includerea expresă a sesizărilor formulate de autoritățile cu atribuții de control în domeniul protecției mediului printre situațiile care determină efectuarea investigațiilor de către structurile autorității publice centrale pentru sănătate. Prin această soluție se asigură continuitatea circuitului instituțional între constatarea unor posibile probleme de mediu și evaluarea eventualelor efecte asupra sănătății populației. Totodată, pentru ca obligația de investigare să poată fi aplicată în mod unitar la nivel național, este necesară elaborarea unei metodologii de investigare a impactului disconfortului olfactiv asupra sănătății și calității vieții populației. Metodologia va permite stabilirea unui cadru tehnic și procedural comun pentru efectuarea investigațiilor, evaluarea datelor disponibile și fundamentarea concluziilor autorității competente în domeniul sănătății.
+
+## Obiectivul propunerii legislative
+
+Obiectivul principal al propunerii legislative îl constituie consolidarea mecanismului de protecție a sănătății și calității vieții populației în situațiile în care sunt reclamate fenomene de discomfort olfactiv prin instituirea unei proceduri de investigare fundamentate pe date obiective și pe cooperarea dintre autoritățile competente.
+
+În acest scop, propunerea legislativă urmărește extinderea sferei situațiilor care determină efectuarea investigațiilor de sănătate publică, prin includerea, alături de plângerile publicului, a sesizărilor formulate de autoritățile cu atribuții de control în domeniul protecției mediului, precum si instituirea expresă a obligației autorității publice centrale pentru sănătate, prin structurile subordonate, de a efectua investigații în vederea identificării factorilor de poluare și/sau a surselor generatoare de disconfort olfactiv și a evaluării impactului asupra sănătății populației. Totodată, propunerea urmărește realizarea sau dispunerea, după caz, a unor evaluări și monitorizări independente ale forajelor și puțurilor de apă din jurul amplasamentelor reclamate și ale solului, cu respectarea actelor de autorizare și a prevederilor legale aplicabile. În cazul constatării existenței unei legături de cauzalitate între disconfortul olfactiv reclamat și starea de sănătate a populației se instituie obligația notificării de îndată a autorității competente pentru protecția mediului. Propunerea vizează și elaborarea și aprobarea, prin hotărâre a Guvernului, a metodologiei de investigare a impactului disconfortului olfactiv asupra sănătății și calității vieții populației, în termen de maximum 180 de zile de la data intrării în vigoare a legii.
+
+Prin aceste modificări se urmărește instituirea unui circuit procedural coerent, în care sesizarea este urmată de investigație, investigația conduce la rezultate obiective, răspunsul autorității este fundamentat pe aceste rezultate, iar constatarea unui impact asupra sănătății determină sesizarea autorității competente pentru protecția mediului în vederea luării măsurilor prevăzute de lege.
+
+## Impactul socio-juridic al propunerii legislative
+
+Propunerea legislativă este de natură să producă efecte pozitive atât în plan social, cât și instituțional și juridic. Din perspectiva populației, modificările propuse consolidează garanțiile privind analizarea sesizărilor referitoare la discomfortul olfactiv. Cetățeanul va beneficia, astfel, de un răspuns fundamentat pe rezultatele unei investigații, iar nu exclusiv de o analiză formală a informațiilor existente în baza de date a autorității.
+
+Din perspectiva autorităților publice, propunerea clarifică circuitul instituțional și consolidează cooperarea dintre structurile din domeniul sănătății publice și autoritățile cu atribuții de control și reglementare în domeniul protecției mediului. Constatările autorităților de control în domeniul protecției mediului vor putea determina declanșarea investigației de sănătate publică, iar rezultatele acesteia vor putea, atunci când sunt îndeplinite condițiile prevăzute de lege, să determine reexaminarea actelor de reglementare și adoptarea măsurilor corespunzătoare.
+
+Din perspectiva operatorilor economici, propunerea legislativă contribuie la crearea unui cadru mai predictibil și mai echilibrat. Sesizările publicului sau ale autorităților nu determină în mod automat existența unei răspunderi a operatorului, ci declanșează un proces de investigare în cadrul căruia sunt analizate și coroborate mai multe categorii de date.
+
+Din punct de vedere juridic, propunerea completează cadrul normativ existent prin transformarea obligației de formulare a răspunsurilor la plângerile privind discomfortul olfactiv într-un mecanism procedural fundamentat pe efectuarea unei investigații independete.
+
+Totodată, introducerea expresă a atribuției de investigare în sarcina autorității publice centrale pentru sănătate asigură o corelare între competența instituțională și procedura prevăzută la art. 64⁶. Reglementarea posibilității reexaminării și, după caz, a suspendării actelor de reglementare, în condițiile legii, creează cadrul necesar pentru adoptarea unor măsuri proporționale atunci când investigațiile evidențiază existența unei legături de cauzalitate între discomfortul olfactiv reclamat și starea de sănătate a populației.
+
+PAUH AXA-CYTH'A-IOANYA
+
+Oprievoh Kuref
+
+VARGA GZLAD
+
+GURGIN ADRIAN
+
+COLIBAN ALLEN
+
+## Tabel semnături
+
+## LEGE
+
+pentru modificarea și completarea Ordonanței de urgență nr. 195/2005 privind protectia mediului
+
+| Nume si prenume | Semnătură | Grup parlamentar |
+| --- | --- | --- |
+| RUS VASILE-CIPRIAN |  | USR |
+| Mireescu Morely |  | USR. |
+| MINARU CATAIIN-EMIL |  | USR |
+| BOCHILEANN GEORGE-CAJIA |  | USR |
+| NEGOL EUEEN REMA |  | USR |
+| SIPOS SORIM GHAISO LGHIS |  | USR |
+| PAADAS SUSTAN |  | USR |
+| CIBU JEACONU ROXANDZA |  | USR |
+| DOERA ADEUIPA |  | USR |
+| ANGHEL RAZVAN-PAUC |  | USR |

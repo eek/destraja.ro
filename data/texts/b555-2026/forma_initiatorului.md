@@ -1,0 +1,45 @@
+PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENAT
+
+# LEGE privind instituirea zilei de 30 ianuarie ca „Ziua Națională a Profesorului de Religie”
+
+Parlamentul României adoptă prezenta lege.
+
+Art. 1. Se instituie ziua de 30 ianuarie ca „Ziua Națională a Profesorului de Religie”, dedicată recunoașterii contribuției profesorilor de religie la educația elevilor și la promovarea valorilor morale, a responsabilității, respectului pentru demnitatea umană, solidarității, dialogului și cunoașterii patrimoniului religios și cultural.
+
+Art. 2. Ziua Națională a Profesorului de Religie se adresează profesorilor care predau disciplina Religie, potrivit legii, pentru cultele recunoscute în România, cu respectarea principiului egalității cultelor și a libertății de conștiință.
+
+Art. 3. (1) Cu prilejul Zilei Naționale a Profesorului de Religie pot fi organize activități educaționale, culturale și științifice, conferințe, dezbateri, expoziții, proiecte și alte manifestări dedicate educației religioase și activității profesorilor de religie.
+
+(2) Ministerul Educației și Cercetării, autoritățile administrației publice centrale și locale, unitățile și instituțiile de învățământ, instituțiile publice de cultură, precum și cultele recunoscute potrivit legii pot organiza sau sprijini manifestările prevăzute la alin. (1), în condițiile legii.
+
+(3) Activitățile organizate în unitățile și instituțiile de învățământ se desfășoară cu respectarea libertății de gândire, de conștiință și de religie, a principiului nediscriminării și a opțiunii privind educația religioasă, potrivit legii.
+
+(4) Participarea elevilor la activitățile cu caracter confesional organizate în aplicarea prezentei legi este facultativă și nu poate constitui criteriu pentru acordarea unor avantaje, aplicarea unor sancțiuni sau instituirea unui tratament diferențiat.
+
+Art. 4. Societatea Română de Radiodifuziune și Societatea Română de Televiziune pot include în programele proprii, cu respectarea autonomiei editoriale, emisiuni și materiale dedicate Zilei Naționale a Profesorului de Religie.
+
+Art. 5. (1) Manifestările prevăzute de prezenta lege se organizează în limita bugetelor aprobate instituțiilor implicate, potrivit legii.
+
+(2) Pentru organizarea manifestărilor pot fi utilizate sponsorizări, donații și alte surse legal constituite, în condițiile legii.
+
+(3) Aplicarea prezentei legi nu generează obligația alocării unor fonduri suplimentare de la bugetul de stat sau de la bugetele locale.
+
+Art. 6. Prezenta lege intră în vigoare la 3 zile de la data publicării în Monitorul Oficial al României, Partea I.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și art. 76 alin. (1) din Constituția României, republicată.
+
+Președintele Camerei Deputaților, Sorin-Mihai GRINDEANU
+
+Președintele Senatului,
+
+Mircea ABRUDEAN
+
+INITIATORI,
+
+Deputat: Ancută Florina IRIMIA Deputat: Bianca Eugenia GAVRILA
+
+PARTIDUL OAMENIOR TINERI

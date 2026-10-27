@@ -1,0 +1,21 @@
+Circumscripția electorală nr. 39, Vaslui București, 22 septembrie 2026
+
+Biroul permanent al Camerei Deputaților Inițiative legislative
+
+Nr. 720 din 22.09.1026
+
+## CÂTRE,
+
+## BIROUL PERMANENT AL CAMEREI DEPUTAȚILOR
+
+În temeiul art. 74 alin. (1) și al art. 75 din Constituția României, republicată, precum și al art. 92 din Regulamentul Camerei Deputaților, republicat, cu modificările și completările ulterioare, vă înaintez prezenta propunere legislativă pentru completarea Ordonanței de urgență a Guvernului nr. 195/2002 privind circulația pe drumurile publice, cu modificările și completările ulterioare, spre dezbatere și adoptare.
+
+În temeiul art. 111 alin. (1) din Constituția României, republicată, vă rog să solicitați Guvernului comunicarea punctului de vedere asupra prezentei propuneri legislative.
+
+De asemenea, vă rog să dispuneți îndeplinirea procedurilor necesare pentru solicitarea avizelor Consiliului Legislativ și Consiliului Economic și Social, potrivit legii.
+
+Imulator:
+
+Deputad Oaisa Enachi
+
+"PARLA"

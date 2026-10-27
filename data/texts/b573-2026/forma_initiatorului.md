@@ -1,0 +1,19 @@
+SENAT
+
+CAMERA DEPUTAȚILOR
+
+LEGE
+
+# pentru modificarea art. 94 alin. (2) lit. a) din Legea nr. 208/2015 privind alegerea Senatului și a Camerei Deputaților, precum și pentru organizarea și funcționarea Autorității Electorale Permanente
+
+Parlamentul României adoptă prezenta lege
+
+Articol Unic. – La articolul 94 alineatul (2) din Legea nr. 208/2015 privind alegerea Senatului și a Camerei Deputaților, precum și pentru organizarea și funcționarea Autorității Electorale Permanente, publicată în Monitorul Oficial al României, Partea I, nr. 553 din 24 iulie 2015, cu modificările și completările ulterioare, litera a) se modifică și va avea următorul cuprins:
+
+„a) 5% din totalul voturilor valabil exprimate la nivel național pentru toți competitorii electorali;”
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.
+
+Președintele Senatului
+
+Președintele Camerei Deputaților

@@ -1,0 +1,153 @@
+# LEGE
+
+# pentru modificarea și completarea Legii nr. 51/1995 pentru organizarea și exercitarea profesiei de avocat, precum și pentru completarea Legea nr. 287/2009 privind Codul Civil
+
+Parlamentul României adoptă prezenta lege.
+
+Art. I. - Legea nr. 51/1995 pentru organizarea și exercitarea profesiei de avocat, republicată în Monitorul Oficial al României, Partea I, nr. 440 din 24 mai 2018, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 3, alineatul (1), litera c) se modifică și va avea următorul cuprins:
+
+"c) redactarea de acte juridice și contracte, inclusiv cele pentru care legea prevede forma scrisă sub semnătură privată ad validitatem sau ad probationem, atestarea identității părților, a conținutului și/sau a datei actelor, în afară de cazurile în care legea prevede în mod expres forma autentică a actelor;”
+
+2\. La articolul 3, alineatul (1), după litera d) se introduce o nouă literă, lit. d¹), cu următorul cuprins:
+
+”d¹) activitatea de correspondent al unei societăți de asigurare dintr-un stat membru al Uniunii Europene sau dintr-un stat terț, în condițiile legii;”
+
+3\. La articolul 3, alineatul (1), litera f) se modifică și va avea următorul cuprins:
+
+”f) desfășurarea activității de mediator, în condițiile legii privind medierea și organizarea profesiei de mediator și ale normelor de aplicare a acesteia, cu respectarea cerințelor de competență, imparțialitate, confidențialitate, incompatibilitate și conflict de interese prevăzute de lege. În exercitarea activității de mediator, avocatul nu este condiționat de îndeplinirea formalităților de autorizare prevăzute pentru persoanele care exercită exclusiv profesia de mediator și nu este supus supravegherii profesionale a Consiliului de Mediere. Avocatul nu poate cumula în aceeași cauză activități de apărare, asistare și reprezentare juridică a unei părți cu activitatea de mediere.;”
+
+4\. La articolul 3, alineatul (1), după litera g) se introduc cinci noi litere, lit. g¹-g⁵), cu următorul cuprins:
+
+”g¹) îndeplinirea unor însărcinări de mandatar pentru efectuarea sau primirea unor plăți în numele și pe seama clientului, inclusiv în cadrul unui mecanism contractual de tip escrow, numai în condițiile Codului civil și ale legislației privind serviciile de plată, fără prestarea de servicii de plată pentru care este necesară autorizarea ca instituție de plată sau ca alt prestator autorizat; fondurile se păstrează separat de patrimoniul avocatului, se utilizează numai potrivit mandatului și sunt supuse unor reguli de evidență, trasabilitate, verificare și restituire stabilite prin statutul profesiei de avocat și prin normele aplicabile;
+
+g²) primirea și păstrarea, în temeiul unui contract de asistență juridică sau al unui contract distinct încheiat în legătură cu acesta, a actelor juridice, înscrisurilor și documentelor prezentate de părți, cu respectarea obligațiilor privind arhiva profesională, secretul profesional, protecția datelor și cele în materie de prevenire și combatere a spălării banilor, prevăzute de lege, precum și de normele de aplicare relevante;
+
+g³ ) activități de executor testamentar, în condițiile legii;
+
+g⁴) activități de consiliere judiciară, curatelă și tutelă specială;
+
+g⁵) activități de curatelă convențională, în condițiile mandatului sau ale convenției încheiate de părți și cu respectarea dispozițiilor Codului civil privind capacitatea, reprezentarea, limitele mandatului și răspunderea;”
+
+## 5. La articolul 3, alineatul (1), litera h) se modifică și va avea următorul cuprins:
+
+”h) stabilirea temporară a sediului pentru societăți la sediul profesional al avocatului și înregistrarea acestora, în numele și pe seama clientului, a părților de interes, a părților sociale sau a acțiunilor societăților astfel înregistrate; stabilirea temporară a sediului unor societăți comerciale la sediul profesional al avocatului presupune utilizarea sediului profesional al avocatului numai pentru scopul limitat al constituirii legale și autorizării funcționării societății comerciale sau, după caz, pentru mutarea sediului ori pentru stabilirea unui sediu secundar al societății în cauză, pentru o perioadă limitată de cel mult un an;”
+
+## 6. La articolul 3, alineatul (1), litera i) se modifică și va avea următorul cuprins:
+
+”i) activitățile prevăzute la lit. g), g¹)-g⁵) și h) se pot desfășura în temeiul unui contract distinct de asistență juridică;”
+
+7\. La articolul 3, alineatul (1), după litera k) se introduc șapte noi litere, lit. k¹)-k⁷), cu următorul cuprins:
+
+”k1) servicii de publicitate mobiliară, inclusiv redactarea, verificarea și îndeplinirea formalităților aferente înscrierilor în Registrul Național de Publicitate Mobiliară, în condițiile legii;
+
+k²) redactarea și depunerea actelor privind înființarea, modificarea și încetarea persoanelor juridice, cu excepția actelor pentru care legea prevede forma autentică sau o altă competență exclusivă, în condițiile legii;
+
+k³) activități de arbitraj, inclusiv arbitraj ad-hoc și arbitraj instituțional;
+
+k⁴) desfășurarea de activități juridice pentru recuperarea creanțelor, prin notificare, negociere, reprezentare și utilizarea procedurilor judiciare sau extrajudiciare prevăzute de lege, cu respectarea legislației privind protecția consumatorilor, protecția datelor și prevenirea practicilor comerciale agresive sau înșelătoare;
+
+k⁵) asistarea obligatorie a soților în procedurile de divorț, indiferent de calea procedurală aleasă, în condițiile Codului civil și ale Codului de procedură civilă, în cazul în care există copii minori născuți din căsătorie, din afara căsătoriei sau adoptați; obligația se aplică în mod proporțional, cu asigurarea asistenței juridice din oficiu sau a ajutorului public judiciar, potrivit legii, pentru persoanele care îndeplinesc condițiile legale;
+
+k⁶) activitatea de curator special al minorului, desemnat de instanța de judecată pentru reprezentarea și apărarea exclusivă a interesului superior al copilului în procedurile judiciare sau necontencioase în care drepturile, libertățile ori interesele legitime ale minorului sunt afectate ori pot fi afectate;
+
+k⁷) orice alte activități stabilite prin lege."
+
+## 8. La articolul 3, alineatul (2) se modifică și va avea următorul cuprins:
+
+"(2) Activitățile prevăzute la alin. (1) se exercită numai de avocat, cu excepția celor care sunt stabilite în mod expres prin lege și în competența altor profesii juridice."
+
+## 9. La articolul 3, după alineatul (2), se introduc două noi alineate, alin. (2¹) și (2²), cu următorul cuprins:
+
+"(2¹) Instituțiile publice și persoanele juridice de drept privat furnizează avocatului, în condițiile legii și în măsura necesară exercitării mandatului profesional, informațiile și înscrisurile solicitate pentru apărarea sau reprezentarea clientului, cu respectarea dispozițiilor privind protecția datelor cu caracter personal, secretul profesional, secretul fiscal, secretul comercial, secretul de serviciu, securitatea națională și a celorlalte restricții prevăzute de lege. Solicitarea se formulează în scris și cuprinde dovada mandatului, obiectul și temeiul cererii; termenul și modalitatea de comunicare, precum și căile de contestare a refuzului se stabilesc potrivit legii speciale aplicabile.
+
+(2²) Prezența avocatului în orice procedură jurisdicțională și administrativă, indiferent de specificul acesteia sau de faza în care se află, nu poate fi restricționată atâta timp cât persoana asistată sau reprezentată este implicată în procedura respectivă.”
+
+## 10. După articolul 3 se introduce un nou articol, art. 3¹, cu următorul cuprins:
+
+Art. 3¹. – (1) În sensul art. 3 alin. (1) lit. a), consultanța juridică constă într-un serviciu personalizat care vizează furnizarea unei opinii sau a unui sfat, pe baza aplicării normelor de drept, cu privire la o solicitare adresată referitoare la o situație juridică concretă, astfel încât, pe baza informațiilor primite și în urma unui proces decizional, clientul să își stabilească viitoarele acțiuni pentru rezolvarea situației juridice.
+
+(2) Nu constituie consultanță juridică furnizarea de informații generale privind dreptul și nici activitățile de documentare, cercetare, publicare sau furnizare de instrumente juridice standardizate, în măsura în care acestea nu presupun analiza juridică a unei situații concrete.
+
+(3) Calificarea unei activități drept consultanță juridică se realizează potrivit alin. (1), indiferent de mijlocul sau tehnologia utilizată pentru furnizarea acesteia.”
+
+## 11. După articolul 25 se introduce un nou articol, art. 25¹, cu următorul cuprins:
+
+„Art. 25¹. – (1) Atunci când constată că, prin intermediul serviciilor online, sunt realizate, promovate, oferite sau intermediate activități cu încălcarea prevederilor prezentei legi, Uniunea Națională a Barourilor din România poate solicita instanței:
+
+a) încetarea încălcării;
+
+b) emiterea unui ordin în temeiul art. 9 din Regulamentul (UE) 2022/2065, atunci când pentru încetarea încălcării este necesară intervenția unui furnizor de servicii intermediare.
+
+(2) Atunci când este necesară identificarea persoanei care desfășoară activitățile prevăzute la alin. (1), Uniunea Națională a Barourilor din România poate solicita, prin aceeași cerere sau separat, emiterea unui ordin de furnizare de informații în condițiile art. 10 din Regulamentul (UE) 2022/2065.
+
+(3) Cererile prevăzute la alin. (1) și (2) se judecă de instanța competentă potrivit legii, de urgență și cu precădere. Primul termen de judecată se stabilește în cel mult 5 zile de la înregistrarea cererii.
+
+(4) Hotărârea este executorie și poate fi atacată numai cu apel, în termen de 5 zile de la comunicare. Dispozițiile prezentului articol se completează cu prevederile Codului de procedură civilă.
+
+(5) Dispozițiile alin. (1)-(4) nu aduc atingere măsurilor care pot fi dispuse în cadrul procesului penal potrivit Codului de procedură penală și nici competenței autorităților judiciare de a emite ordinele prevăzute la art. 9 și 10 din Regulamentul (UE) 2022/2065, în condițiile art. 7 alin. (2) din Legea nr. 50/2024.”
+
+## 12. La articolul 28, după alineatul (1) se introduce un nou alineat, alin. (1¹), cu următorul cuprins:
+
+„(1¹) În exercitarea mandatului prevăzut la alin. (1), avocatul se legitimează față de terți prin împuternicirea avocațială emisă în baza contractului de asistență juridică. Împuternicirea avocațială face dovada mandatului pentru actele și operațiunile prevăzute în cuprinsul său, cu respectarea cerințelor de formă ale mandatului prevăzute de lege pentru validitatea actului juridic ce urmează a fi încheiat prin reprezentant și fără a fi necesară prezentarea unei procuri.”
+
+## 13. La articolul 34, alineatul (1) se modifică și va avea următorul cuprins:
+
+„(1) Pentru asigurarea secretului profesional, datele, informațiile, comunicările, actele, lucrările și celelalte materiale cu caracter profesional sunt inviolabile, indiferent de suportul, forma, modalitatea de creare, comunicare, prelucrare ori stocare și indiferent dacă se află asupra avocatului, în sediul profesional sau sunt păstrate ori prelucrate, pentru avocat ori pentru forma de exercitare a profesiei, de către un furnizor de servicii sau un alt terț. Percheziționarea avocatului, a domiciliului ori a cabinetului său sau ridicarea ori reținerea de înscrisuri și bunuri nu poate fi făcută decât de procuror, în baza unui mandat emis în condițiile legii.”
+
+## 14. La articolul 34, după alineatul (4) se introduc două noi alineate, alin. (5) și (6), cu următorul cuprins:
+
+„(5) Avocatul are dreptul de a păstra asupra sa dispozitivele electronice și să le utilizeze în scop profesional în sediile instanțelor judecătorești, parchetelor, organelor de cercetare penală, în locurile de deținere, precum și în sediile altor autorități și instituții publice în care își exercită activitatea profesională. Accesul avocatului în aceste locuri nu poate fi condiționat de predarea ori depozitarea dispozitivelor. Utilizarea acestora de către avocat se va face astfel încât să nu fie afectată activitatea curentă în aceste locuri.
+
+(6) Utilizarea anumitor funcții sau aplicații ale dispozitivelor poate fi restricționată, în condițiile legii, în măsura în care restricția este necesară și proporțională pentru desfășurarea procedurii, protejarea informațiilor clasificate ori asigurarea ordinii și siguranței locului de deținere.”
+
+## 15. După articolul 34 se introduce un nou articol, art. 34¹, cu următorul cuprins:
+
+„Art. 34¹. — (1) Protecția secretului profesional se aplică și în cadrul inspecțiilor, verificărilor, controalelor sau al altor proceduri desfășurate de autorități ori instituții publice care pot conduce la accesarea, examinarea, copierea, ștergerea, dezinstalarea, ridicarea ori obținerea datelor, aplicațiilor informatice și materialelor cu caracter profesional, cu excepția cazurilor și în condițiile expres prevăzute de lege.
+
+(2) Accesul la datele, aplicațiile și materialele prevăzute la alin. (1) se limitează la ceea ce este necesar scopului legal urmărit și se realizează cu respectarea garanțiilor secretului profesional.
+
+(3) Atunci când, cu ocazia unei măsuri prevăzute la alin. (1), avocatul invocă secretul profesional cu privire la anumite date, aplicații sau materiale, acestea nu pot fi examinate până la stabilirea, potrivit legii, a caracterului protejat al acestora.
+
+(4) Dispozițiile alin. (1)-(3) se aplică și atunci când datele, aplicațiile ori materialele sunt obținute de la un furnizor de servicii sau de la un alt terț care le păstrează ori le prelucrează pentru avocat sau pentru forma de exercitare a profesiei.”
+
+## 16. La articolul 59, alineatul (6) se modifică și va avea următorul cuprins:
+
+„(6) Folosirea fără drept a denumirilor «avocat», «Barou», «Uniunea Națională a Barourilor din România», «U.N.B.R.» ori «Uniunea Avocaților din România» sau a denumirilor specifice formelor de exercitare a profesiei de avocat, precum și folosirea însemnelor specifice profesiei ori purtarea robei de avocat în alte condiții decât cele prevăzute de prezenta lege constituie infracțiune și se pedepsește cu închisoare de la 6 luni la 3 ani sau cu amendă.”
+
+## 17. La articolul 59, după alineatul (6) se introduc două noi alineate, alin. (7) și (8), cu următorul cuprins:
+
+„(7) Cu pedeapsa prevăzută la alin. (6) se sancționează și folosirea fără drept a oricărei denumiri, titulaturi sau expresii care, prin modul de prezentare ori prin contextul în care sunt utilizate, sunt de natură să inducă publicul în eroare cu privire la deținerea calității de avocat, apartenența la o formă de exercitare a profesiei de avocat ori apartenența la o structură de organizare a profesiei.
+
+(8) Dispozițiile alin. (6) și (7) se aplică indiferent de mijlocul sau suportul utilizat, inclusiv atunci când fapta este săvârșită prin utilizarea unui nume de domeniu internet, a unui site, a unei platforme online, a unei rețele de socializare, a unei aplicații ori a altui serviciu al societății informaționale.”
+
+## 18. La articolul 65, după litera v) se introduce o nouă literă, lit. w), cu următorul cuprins:
+
+„w) formulează observații și propuneri asupra proiectelor de acte normative care care privesc activitățile profesionale ale avocaților, organizarea și exercitarea profesiei de avocat. În acest scop, autoritățile și instituțiile publice consultă U.N.B.R. într-o perioadă rezonabilă de timp și în mod efectiv, într-o etapă care permite formularea observațiilor și propunerilor înainte de adoptarea sau emiterea actului normativ.”
+
+Art.II - Legea nr. 287/2009 privind Codul Civil, republicată în Monitorul Oficial al României, Partea I, nr. 505 din data de 15 iulie 2011, cu modificările și completările ulterioare, se completează după cum urmează:
+
+1\. La art. 1241, după alineatul (1), se introduce un nou alineat, alin. (2), cu următorul cuprins: "(2) Atunci când legea cere, pentru validitatea sau pentru dovedirea contractului, forma scrisă sub semnătură privată, înscrisul constatator se întocmește de avocat, dacă legea nu prevede altfel."
+
+2\. La art. 1242, după alineatul (2), se introduce un nou alineat, alin. (3), cu următorul cuprins: „(3) Nerespectarea obligației prevăzute la art. 1241 alin. (2) nu atrage nulitatea contractului decât dacă legea prevede în mod expres această sancțiune.”
+
+3\. La art. 1243, după alineatul (1), se introduce un nou alineat, alin. (2), cu următorul cuprins: „(2) Obligația prevăzută la art. 1241 alin. (2) se aplică modificării contractului numai în măsura în care legea cere, pentru modificarea respectivă, forma scrisă sub semnătură privată pentru validitate sau pentru dovadă.”
+
+4\. La art. 1245, după alineatul (1), se introduce un nou alineat, alin. (2), cu următorul cuprins: „(2) În cazul contractelor încheiate prin mijloace electronice, obligația prevăzută la art. 1241 alin. (2) se aplică în condițiile și cu respectarea legii speciale.”
+
+Art. III. - În termen de 60 de zile de la data intrării în vigoare a prezentei legi, autoritățile și instituțiile competente pun în acord cu dispozițiile acesteia actele normative subsecvente și celelalte reglementări emise în aplicarea Legii nr. 51/1995 pentru organizarea și exercitarea profesiei de avocat, precum și, după caz, reglementările sectoriale incidente, în special cele referitoare la dovada calității și a mandatului avocatului, accesul avocaților în sediile autorităților și instituțiilor publice și în locurile de deținere, precum și protecția secretului profesional.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și 76 alin. (1) din Constituția României, republicată.
+
+PREȘEDINTELE
+
+PREȘEDINTELE
+
+CAMEREI DEPUTAȚILOR,
+
+SENATULUI,
+
+Sorin-Mihai Grindeanu
+
+Mircea Abrudean

@@ -1,0 +1,21 @@
+# Parlamentul României
+
+Camera Deputaților
+
+# DEPARTAMENTUL SECRETARIATULUI TEHNIC Grupul parlamentar al UDMR
+
+București
+
+Nr 6b-21 / nr. 210 / 16.05.2026
+
+## Câtre
+
+## Biroul Permanent al Camerei Deputaților
+
+În conformitate cu prevederile art. 74 alin. (1) din Constituția României, Vă înaintăm alăturat Propunerea legislativă pentru completarea alin. (1) al art. 76 din Legea nr. 566/2004
+
+Inițiatori,
+
+Miklos Zoltân, deputat UDMR\_\_\_\_
+
+Tânczos Barna, senator UDMR\_

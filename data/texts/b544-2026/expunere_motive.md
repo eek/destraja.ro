@@ -1,0 +1,1042 @@
+# EXPUNERE DE MOTIVE
+
+la proiectul de Lege pentru modificarea și completarea Legii nr. 143/2000 privind prevenirea și combaterea traficului și consumului ilicit de droguri, precum și pentru modificarea art. 271 din Legea nr. 86/2006 privind Codul vamal al României
+
+## Rezumat
+
+România anului 2026 se prezintă, în cifre, astfel: dosarele care au ca obiect substanțele psihoactive (droguri) au ajuns să reprezinte 77,51% din întreaga activitate DIICOT, structură înființată pentru combaterea crimei organizate (doar pentru substanțe psihoactive, 37.419 cauze de soluționat în 2025, dintre care aproape 22.000 restante).¹ Aproximativ 80% dintre persoanele cercetate penal sunt simpli consumatori (deținere pentru consum propriu),² dată fiind structura capturilor: 5.415 (79%) dintre cele 6.860 de capturi ale ultimului an pentru care există date disponibile au vizat cantități sub 5 grame (ori sub 250 de comprimate), cu medii în jurul a 1 gram per captură.³ Astfel, condamnările consumatorilor ating, anual, noi recorduri: 520 de persoane condamnate definitiv pentru deținere pentru consum propriu în 2025, mai mult decât dublul anului 2020 și echivalentul a aproape 1,5 consumatori condamnați în fiecare zi.⁴
+
+Concomitent, în ultimii ani pentru care există date defalcate, în aresturile poliției au ajuns anual de aproape 3 ori mai mulți consumatori decât primeau tratament cu metadonă în centrele specializate.⁵ În același timp, penitenciarele în care acești consumatori sunt trimiși funcționau, la 31 ianuarie 2024, la 116,3% din capacitate,⁶ cu toate că România este obligată să își reducă populația încarcerată.⁷ Ponderea deținuților pentru infracțiuni la regimul drogurilor în totalul populației penitenciare a trecut de dublu față de 2020 (4,66%), atingând 9,66% la finalul anului 2025 (2.457 din 25.424 de deținuți). Aidoma, numărul faptelor de deținere pentru consum propriu ajunse, în urma unei sentințe, sub supravegherea serviciului de probațiune s-a triplat din 2020 (558), până la 1.553 în 2025.
+
+Inclusiv amprenta administrativ-polițienească a acestor politici este cât se poate de largă: în 2025, într-un singur an, 6.531 de persoane au fost conduse la sediul poliției pentru substanțe psihoactive în lipsa unui mandat, dintre care 476 minori, iar 1.106 persoane au fost arestate preventiv pentru infracțiuni la regimul drogurilor, cu o durată medie a arestului preventiv de 73 de zile.⁸ Cheltuielile angajate numai de Poliția Română, din bugetul propriu, pentru activitățile legate de substanțe psihoactive au crescut de peste 7 ori în 5 ani, până la 271,3 milioane lei în 2024, de aproximativ 51 de ori mai mult decât alocarea pentru programele naționale de prevenire și asistență a consumatorilor; în același timp, întregul sistem național de tratament substitutiv deservea 1.686 de persoane, nu cu mult mai multe decât numărul arestaților preventiv dintr-un singur an (1.106 în 2025).⁹ Tot în acest interval, numărul câinilor de serviciu specializați în detectarea substanțelor a crescut de aproape 9 ori, de la 18 în 2020 la 161 în 2025, iar rezultatele confirmă eșecul evident al acestei abordări: în semestrul I 2026, peste 95% dintre misiunile echipelor canine ale Poliției Române, având ca obiect substanțele psihoactive, s-au încheiat fără nicio semnalare pozitivă, iar în ceea ce privește Poliția de Frontieră, aproape 4 din 5 semnalări canine nu au fost, ulterior, confirmate (79% semnalări fals-pozitive).¹⁰
+
+Cu toate acestea, consumul de substanțe psihoactive ilegale, în loc să scadă, a crescut cu circa 70% în timpul strategiei naționale antidrog precedente,¹¹ iar potrivit celei mai recente anchete naționale (GPS 2024), 12,6% dintre români au consumat cel puțin o dată un drog ilicit, în creștere față de 11,9% în 2019.¹² Urgențele medicale asociate drogurilor se mențin la cote istorice, în jurul a 3.000 de cazuri pe an,¹³ acoperirea tratamentului substitutiv este printre cele mai reduse din Uniunea Europeană,¹⁴ iar România poartă încă urmele epidemiei de HIV din 2011-2013, produsă de colapsul serviciilor destinate consumatorilor, rămase nefinanțate de statul român după retragerea fondurilor internaționale.¹⁵ Situația este cu atât mai deplorabilă cu cât inclusiv instanțe din țări ale Uniunii Europene refuză să predea României persoane condamnate în baza legilor românești antidrog, considerând pedepsele vădit disproporționate.¹⁶
+
+Aceste eșecuri sunt rezultatul previzibil al unei abordări sistemic greșite. Istoric, cadrul actual este un șablon prohibiționist importat de către România în anul 2000, fără evaluarea adecvării acestuia la realitățile românești, și înăsprit de atunci exclusiv reactiv, sub presiunea unor tragedii intens mediatizate, dar niciodată pe baza unei evaluări de eficacitate. Conceptual, abordarea României tratează o problemă de sănătate publică cu instrumentele justiției penale, deși o sumedenie de discipline științifice, de la criminologie la medicină, arată că severitatea pedepsei este irelevantă în descurajarea, prevenirea, gestionarea sau tratarea situațiilor de consum de substanțe.¹⁷ Academic, studiul OMS asupra a 17 state¹⁸ și analiza comparativă a diverse alte state,¹⁹ au constatat că nu există nicio corelație între duritatea legii și nivelul consumului. Aidoma, revizuirea sistematică a 114 studii de evaluare²⁰ și analizele successive EMCDDA/EUDA²¹ confirmă că dezincriminarea (nepedepsirea penală a deținerii pentru consum propriu) nu poate fi atribuită cauzal unei creșteri a consumului de substanțe. Din contră, incriminarea consumatorilor prin faptă de deținere este asociată cu înrăutățirea prospectelor vieții consumatorul (și a celor din jur, inclusiv a Statului) din toate punctele de vedere – personal, familial, comunitar, cât și social, economic, medical și, bineînțeles, legal.
+
+Internațional, peste 50 de jurisdicții au schimbat deja paradigma,²² dezincriminarea fiind indicată sau recomandată expres de întregul sistem al ONU (poziția comună a celor 31 de agenții, 2019;²³ raportul OHCHR, 2023)²⁴, de Organizația Mondială a Sănătății și de Grupul Pompidou al Consiliului Europei²⁵. Această măsură de eliminare a pedepselor penale pentru deținere-consum este, de asemenea, compatibilă cu convențiile internaționale potrivit chiar organului de supraveghere a acestora (INCB)²⁶ și nu intră sub obligațiile de incriminare ale dreptului Uniunii Europene, care exclude expres consumul și faptele associate.²⁷ Inclusiv constituțional, jurisprudența Curții Constituționale impune ca incriminarea să rămână ultima ratio (Decizia nr. 405/2016).²⁸
+
+Soluția: prezentul proiect operează, în consecință, trecerea de la modelul justiției penale la modelul sănătății publice. Așadar, faptele săvârșite pentru consum propriu (cultivărea, producerea, fabricarea, experimentarea, extragerea, prepararea, transformarea, cumpărarea sau deținerea de droguri, art. 4 din Legea nr. 143/2000) sunt scoase din sfera penală și transformate în contravenții, sancționate, în formele de bază, cu amenzi între 1.000 și 3.000 de lei, diferențiate după categoria drogurilor (risc/mare risc). Subsecvent, această faptă nu va mai fi direct asimilată traficului internațional de droguri în eventualitatea trecerii frontierei (infrațiune pedepsită astăzi cu închisoare de la 5 la 20 de ani), ci, în cazul în care organele abilitate constată deținerea pentru consum propriu, atunci fapta devine contravenție, sancționată, în formele de bază, cu amenzi între 1.500 și 3.500 de lei. Modificarea corelativă a art. 271 din Codul vamal exclude aplicarea incriminării de la alin. (1) acelorași fapte pentru consum propriu. În împrejurările prevăzute de noul art. 13 alin. (3), se dublează numai maximul amenzii.
+
+Contravențiile se constată de către polițiștii din cadrul Poliției Române, polițiștii de frontieră, polițiștii de penitenciare, jandarmi și personalul vamal, în exercitarea atribuțiilor de serviciu; sancțiunea se aplică de ofițerii și agenții formațiunilor specializate ale Poliției Române, pe baza probelor administrate. Organul competent să aplice sancțiunea poate dispune evaluarea consumatorului, dispunerea evaluării fiind obligatorie pentru minori; efectuarea evaluării și includerea în asistență respectă regulile de consimțământ prevăzute de art. 19. Sumele provenite din amenzi finanțează programele de prevenire și de asistență medicală, psihologică și socială.
+
+Traficul de droguri, sub toate formele acestuia, rămâne integral infracțiune, cu pedepsele actuale nemodificate, iar delimitarea față de consumul propriu se face pe baza materialului probator, cu sesizarea organelor de urmărire penală atunci când fapta constituie infracțiune. Reforma este cerută expres și de comunitatea medicală de specialitate, prin Asociația Română de Psihiatrie și Psihoterapie, iar dispozițiile tranzitorii din art. III asigură aplicarea legii penale de dezincriminare faptelor anterioare, fără amendarea retroactivă, reglementează totodată încetarea măsurilor dispuse exclusiv pentru aceste fapte, intervenția instanței în faza executării și scoaterea din evidența cazierului judiciar în condițiile legii.
+
+Complementar, proiectul permite, printr-o excepție strict delimitată de la art. 5 alin. (1), punerea la dispoziție a unor spații autorizate din unități sanitare pentru prevenirea supradozelor prin supravegherea consumului, destinate adulților cu dependență diagnosticată, fără procurarea sau furnizarea drogurilor de către unitate ori personal.
+
+Beneficiile prognozate ale proiectului, detaliate în Secțiunea a 3-a, implică degrevarea imediată a forțelor de ordine, a parchetelor și a instanțelor de zeci de mii de dosare de consum, cu redirecționarea resurselor către marele trafic și crima organizată;29 reducerea presiunii asupra penitenciarelor supraaglomerate și contribuirea la executarea hotărârii de reducere a populației încarcerate.³⁰ Prognozăm, de asemenea, creșterea accesării voluntare a tratamentului (în Portugalia, numărul persoanelor în tratament a crescut cu peste 60% în primii ani de la reformă)³¹ și reducerea transmiterii HIV și a hepatitei C; protejarea tinerilor de consecințele permanente ale condamnărilor care măresc de 16 ori riscul consecințelor negative la angajare fără a reduce cu nimic consumul;³² economii procedurale masive din dispariția a zeci de mii de dosare, dublate de reducerea treptată a costului încarcerării pentru infracțiuni la regimul drogurilor, estimat în prezent la circa 11 milioane de euro anual,³³ dublate de o sursă de venit dedicată programelor de prevenire și asistență; toate acestea la un nivel al consumului prognozat, pe baza dovezilor disponibile, drept a rămâne stabil.³⁴
+
+Proiectul nu legalizează niciun drog: deținerea rămâne ilicită și sancționată contravențional, vânzarea, administrarea către alții și îndemnul la consum rămân infracțiuni, conducerea sub influența substanțelor psihoactive rămâne infracțiune (art. 336 din Codul penal), iar dispunerea evaluării consumatorilor minori este obligatorie, cu respectarea regulilor de consimțământ și de protecție a copilului prevăzute de proiect. Proiectul schimbă, astfel, doar instrumentul: de la pedeapsa penală, dovedită îneficace și distructivă, către sancțiunea administrativă cuplată cu asistența medico-socială, și redirecționează resursele statului dinspre vânarea consumatorilor înspre combaterea marelui trafic.
+
+Graficele următoare rezumă vizual datele prezentate și citate detaliat în cuprinsul expunerii de motive și în anexa statistică (pentru rezoluția și detaliile complete ale imaginilor, vă rugăm să consultați anexa aflată la finalul acestui document).
+
+Condamnări: deținere pentru consum propriu (art. 4)
+
+Graficul 1. Condamnări definitive pentru deținere pentru consum propriu (art. 4), 2016-2025. Surse: CSM (2016-2021); Ministerul Justiției, răspunsul nr. 1254b/2026 (2022-2025).
+
+Graficul 2. Condamnări definitive: trafic (art. 2) și consum propriu (art. 4), 2016-2025. Surse: CSM; Ministerul Justiției.
+
+DIICOT: înculpați trimiși în judecată (droguri), 2019-2025
+
+Graficul 12. Inculpați trimiși în judecată de DIICOT (droguri) și, dintre aceștia, arestați preventiv, 2019-2025. Sursa: rapoartele anuale DIICOT.
+
+DIICOT: cauzele privind drogurile, 2019-2025
+
+Graficul 13. Cauzele DIICOT privind drogurile: de soluționat și soluționate pe fond, 2019-2025. Sursa: rapoartele anuale DIICOT.
+
+Graficul 11. Structura cauzelor de soluționat ale DIICOT în anul 2024, pe tipuri de infracțiuni. Sursa: DIICOT, Raportul de activitate 2024.
+
+Conduși la sediul poliției fără mandat, pentru substanțe (total și minori)
+
+Graficul 7. Persoane conduse la sediul poliției fără mandat, pentru substanțe psihoactive, total și minori, 2020-2025. Sursa: MAI, răspunsul nr. 14867/2026.
+
+Arestați preventiv (Legea 143/2000) și durata medie a arestului
+
+Graficul 8. Arestați preventiv pentru infracțiuni la regimul drogurilor și durata medie a arestului, 2020-2025. Sursa: MAI, răspunsul nr. 14867/2026.
+
+Ponderea deținuților pentru droguri în populația penitenciară (%)
+
+Fapte art. 4 aflate sub supravegherea serviciilor de probațiune
+
+Graficul 5. Ponderea deținuților pentru infracțiuni la regimul drogurilor în populația penitenciară, 2020-2025. Sursa: Ministerul Justiției, ANP.
+
+Graficul 6. Fapte de deținere pentru consum propriu (art. 4) sub supravegherea probațiunii, 2020-2025. Sursa: Ministerul Justiției, DNP.
+
+Beneficiari tratament de substituție cu metadonă, la nivel național
+
+Graficul 14. Beneficiari ai tratamentului de substituție cu metadonă la nivel național, 2011-2024. Sursa: ANPCDDA, Raportul național 2025.
+
+Graficul 3. Capturile sub 5 grame (2023): pondere în numărul capturilor față de pondere în cantitatea confiscată. Sursa: Raportul național privind situația drogurilor, ediția 2024 (date DCCO-IGPR și ANA).
+
+Opt ani de capturi la nivel stradal: ponderea capturilor sub 5 grame și media capturii mici, 2016-2023
+
+Graficul 3b. Structura capturilor principalelor droguri (heroină, cocaină, canabis iarbă, fragmente vegetale cu THC), 2016-2023: capturi sub 5 grame, cu ponderi anuale, față de restul capturilor, și media capturii sub 5 grame. Sursa: Rapoartele naționale privind situația drogurilor, edițiile 2017-2024 (date DCCO-IGPR și ANA).
+
+Graficul 16. Un raport de 51 la 1: aplicarea legii (IGPR) față de programele naționale de prevenire și asistență, 2024. Surse: MAI; ANPCDDA/ANA.
+
+Graficul 10. Câini de serviciu specializați în detectarea substanțelor interzise, pe structuri, 2020-2025. Sursa: MAI, răspunsul nr. 14867/2026.
+
+Graficul 9. Cheltuieli angajate de Poliția Română (IGPR), din bugetul propriu, pentru activități de reducere a ofertei de droguri, pe categorii, 2020-2024 (milioane lei). Sursa: MAI, răspunsul nr. 14867/2026; sumele aggregate pentru 2022-2023 corespund celor publicate în Rapoartele naționale.
+
+Graficul 10a. Echipele canine specializate în detectarea substanțelor psihoactive: misiunile operative la care au participat (percheziții, acțiuni și razii care au inclus obiectivul depistării de substanțe) față de semnalările pozitive efective (Poliția Română, semestrul I 2026), respectiv semnalările câinilor antidrog față de cele confirmate (Poliția de Frontieră, 2020-2025). Sursa: MAI, răspunsul nr. 14867/2026.
+
+## SECȚIUNEA 1. TITLUL PROIECTULUI DE ACT NORMATIV
+
+Lege pentru modificarea și completarea Legii nr. 143/2000 privind prevenirea și combaterea traficului și consumului ilicit de droguri, precum și pentru modificarea art. 271 din Legea nr. 86/2006 privind Codul vamal al României.
+
+## SECȚIUNEA A 2-A. MOTIVUL EMITERII ACTULUI NORMATIV
+
+## 2.1. Descrierea situației actuale
+
+## 2.1.1. Un sfert de secol de politică antidrog reactivă
+
+Cadrul represiv actual a fost stabilit prin Legea nr. 143/2000, adoptată într-un moment în care prevalența consumului în România era printre cele mai scăzute din Europa. Legea a preluat șablonul prohibiționist de inspirație trans-atlantică al „războiului împotriva drogurilor”, fără o evaluare a adecvării acestuia la realitățile românești și fără analiza eficacității acestuia în statele în care era deja implementat. ³⁵ În forma inițială a legii, simpla deținere pentru consum propriu se pedepsea cu închisoare de la 2 la 5 ani, fără nicio distinctie între substanțe, iar trecerea frontierei cu orice cantitate, cu închisoare de la 10 la 20 de ani (droguri de risc), respectiv de la 15 la 25 de ani (droguri de mare risc). ³⁶ Legea nr. 522/2004 a introdus o primă corecție: nuanțarea art. 4 cu distincția dintre drogurile de risc și cele de mare risc și alternativa amenzii, a creat „circuitul integrat de asistență” a consumatorilor și a adăugat, semnificativ, cuvântul „prevenirea” în chiar titlul legii. ³⁷ Direcția schițată atunci, o apropiere timidă de modelul sănătății publice, nu a mai fost însă niciodată continuată.
+
+Din contră, istoria recentă a legislației antidrog românești este una a reacțiilor legislative la episoade tragice intens mediatizate, fără evaluări sistematice ale politicilor sau calibrarea lor la recomandările internaționale. ³⁸ Moartea a doi tineri la un festival de muzică din București (5 iunie 2022) a declanșat un val mediatic și legislativ analizat în literatura academică drept o veritabilă panică morală îndreptată împotriva tinerilor consumatori, val concretizat, între altele, în Legea nr. 45/2023, care a majorat pedepsele pentru trafic. ³⁹ Tragedia de la 2 Mai (august 2023), în care un șofer aflat sub influența drogurilor a ucis doi tineri, a condus la Legea nr. 58/2024 („legea 2 Mai”), care a interzis suspendarea executării pedepsei pentru faptele de trafic de la art. 2 alin. (2) și art. 3 alin. (2), ajungând paradoxal să elimine individualizarea judiciară inclusiv pentru consumatorul care trece frontiera cu o doză pentru uz propriu, deși fapta care a revoltat pe bună dreptate opinia publică (conducerea sub influența substanțelor psihoactive, cu consecințe fatale) era și rămâne o infrațiune distinctă, prevăzută de Codul penal și neatinsă de acea lege. ⁴⁰ Astfel, constatăm că în România, fiecare tragedie generează o lege mai aspră împotriva consumatorilor, fără ca vreuna dintre înăspirile succesive să fi fost precedată ori urmată de o evaluare a eficacității înăspirilor. Semnificativ, prima inițiativă din istoria parlamentară a României care propunea reducerea sancțiunilor (dezincriminare) pentru deținerea în vederea consumului propriu a fost respinsă de Senat în 2023. ⁴¹ 42
+
+Acest istoric explică opțiunea cu care România se confrontă astăzi, căci în domeniul drogurilor există, la nivel global, două paradigme concurente de politică publică: modelul justiției penale (prohibiționist), care tratează consumatorul drept infractor (prin incriminarea deținerii pentru consum propriu), și modelul sănătății publice, care tratează consumul drept o chestiune medicală și socială. România se numără în continuare printre statele care duc un așa-numit „război împotriva drogurilor”, în fapt un război ineficient și contraproductiv împotriva simplilor consumatori, în vreme ce, inevitabil, marele trafic de droguri rămâne, în cea mai mare parte, neabordat.⁴³
+
+Consensul științific și instituțional internațional din ultimele două decenii s-a îndreptat, în mod evident, către concluzia că prohibiția dură, aplicată preponderent împotriva consumatorilor, a eșuat, cu consecințe devastatoare pentru indivizii și societățile din întreaga lume. De pildă, comisia Johns Hopkins-Lancet privind politicile în domeniul drogurilor și sănătatea publică (2016) a concluzionat că nu există nicio dovadă că amenințarea cu închisoarea ar avea un efect de descurajare a consumului de droguri – din contră, folosirea excesivă a încarcerării este, printre alte efecte negative, principalul factor care alimentează ratele de infectare (HIV, hepatitisă C) în rândul consumatorilor.⁴⁴ Războiul împotriva drogurilor, arată Comisia, a subminat sănătatea publică la nivel global, fără a afecta în mod semnificativ piețele sau consumul de droguri. În aceeași direcție, Comisia Globală pentru Politica Drogurilor, organism care reunește foști șefi de stat și de guvern, a constatat încă din 2011 că războiul global împotriva drogurilor a eșuat, cu consecințe devastatoare, și recomandă atât dezincriminarea consumului, cât și concentrarea aplicării legii exclusiv asupra elitelor crimei organize, iar nu asupra consumatorilor (aceștia din urmă necesitând exclusiv intervenții de sănătate publică).⁴⁵
+
+Aidoma, într-un studiu comparativ asupra a 11 state, realizat la cererea Guvernului Regatului Unit, Ministerul de Interne britanic, instituție prin excelență conservatoare în materie de ordine publică, a concluzionat că „nu există nicio corelație aparentă între
+
+«duritatea» abordării unei țări și prevalența consumului de droguri în rândul adulților".⁴⁶ Concluzia este convergentă cu literatura criminologică privind descurajarea, potrivit căreia eventualul efect disuasiv al sancțiunilor provine din certitudinea aplicării lor, iar nu din severitatea pedepsei,⁴⁷ precum și cu cele mai ample anchete epidemiologice mondiale: studiul Organizației Mondiale a Sănătății asupra a 17 state a constatat că țările cu politici punitive față de consumator nu au niveluri mai scăzute de consum decât cele cu politici de sănătate publică.⁴⁸
+
+Prezentul proiect de lege pornește de la această realitate și își propune să corecteze cea mai gravă disfuncționalitate a Legii nr. 143/2000, respectiv incriminarea deținerii de droguri pentru consum propriu, aliniind România la direcțiile europene, la dovezile științifice și la jurisprudența recentă a instanțelor europene.
+
+## 2.1.2. Standardele internaționale și europene actuale
+
+Peste 50 de jurisdicții din întreaga lume au eliminat, de jure sau de facto, sanctiunile penale pentru consumul de droguri și activitățile conexe (deținere, cumpărare, cultivare pentru consum propriu), iar peste o treime dintre statele membre ale Uniunii Europene nu mai permit pedeapsă închisorii pentru faptele minore de deținere. ⁴⁹ Agenția Uniunii Europene pentru Droguri (EUDA, fostă EMCDDA) definește dezincriminarea drept reclasificarea unei fapte din categoria infracțiunilor în cea a faptelor neinfraționale, care rămân ilicite, dar sunt sancționate administrativ, iar nu penal. ⁵⁰
+
+Aidoma, în 2019, Consiliul Directorilor Executivi ai sistemului ONU (CEB), care reunește 31 de agenții, inclusiv UNODC, a adoptat o poziție comună (prima de acest fel asumată de întregul sistem ONU) care solicită statelor „promovarea alternativelor la condamnare și pedeapsă în cazurile adecvate, inclusiv dezincriminarea deținerii de droguri pentru consum propriu, și promovarea principiului proporționalității".51 Organizația Mondială a Sănătății (2014) și UNAIDS (2019) au formulat apeluri similare, iar poziția a fost consolidată în 2023, când Înaltul Comisariat ONU pentru Drepturile Omului, a recomandat expres statelor să ia în considerare dezincriminarea deținerii pentru consum propriu, subliniind că, „dacă este concepută și implementată eficient, dezincriminarea poate fi un instrument puternic pentru a asigura protecția drepturilor persoanelor care consumă droguri".52 53
+
+Însăși Convenția ONU din 1988 împotriva traficului ilicit (art. 3 alin. 2 și 4) permite expres statelor să trateze diferit deținerea pentru consum propriu, sub rezerva principiilor lor constituționale, și să prevadă alternative la condamnare.⁵⁴ Mai mult, Organul Internațional de Control al Stupefiantelor (INCB), supraveghetorul respectării convențiilor, a confirmat în raportul anual pe 2022 că dezincriminarea și depenalizarea deținerii pentru consum propriu „pot fi considerate compatibile cu convențiile”⁵⁵.
+
+Decizia-cadru 2004/757/JAI a Consiliului din 25 octombrie 2004 stabilește pragul minim de incriminare pentru traficul de droguri, însă art. 2 alin. (2) exclude expres din domeniul său de aplicare conduita „comisă de autorii săi exclusiv pentru consumul lor personal, astfel cum este definit de dreptul național”.⁵⁶ Dreptul Uniunii lasă, așadar, în mod deliberat în marja de apreciere a statului membru tratamentul juridic al consumului propriu, inclusiv atunci când acesta implică trecerea unei frontiere, iar mai multe state au fixat praguri cantitative care separă consumul de trafic: 3 grame în Belgia și Luxemburg, 10 grame în
+
+Cehia și Elveția, până la cantități superioare în Spania.⁵⁷ Strategia UE în domeniul drogurilor 2021–2025 și concluziile Consiliului privind alternativele la sancțiunile coercitive pentru consumatori confirmă orientarea Uniunii către o abordare echilibrată, întemeiată pe dovezi și pe sănătatea publică.⁵⁸
+
+Nu în ultimul rând, Grupul Pompidou, platforma de cooperare în materie de politici privind drogurile a Consiliului Europei, din care România face parte, a adoptat în noiembrie 2024 un document de orientare privind alinierea politicilor în domeniul drogurilor la drepturile omului, care cere statelor „asigurarea proporționalității sancțiunilor penale prin prioritizarea măsurilor neprivative de libertate" pentru faptele minore legate de droguri și constată că alternativee la încarcerare și la pedeapsă „sunt permise și încurajate de convențiile ONU privind drogurile, constituind o bună practică în materia drepturilor omului".59
+
+## 2.1.3. Modelele internaționale de referință
+
+Portugalia a dezincriminat, prin Legea nr. 30/2000 (în vigoare din 1 iulie 2001), deținerea pentru consum propriu a tuturor drogurilor, transformând-o într-o faptă administrativă, soluționată de comisii de descurajare a dependenței. Rezultatele documentate de EUDA și de evaluările independente sunt remarcabile: ponderea deținuților condamnați pentru infracțiuni la regimul drogurilor a scăzut de la peste 40% (2001) la 15,7% (2019), sub media europeană; noile diagnostice HIV asociate consumului injectabil au scăzut de la 1.287 (2001) la 16 (2019), iar în 2022 doar 20 din cele 803 noi diagnostice HIV (2,5%) mai erau atribuite consumului injectabil; mortalitatea indusă de droguri a ajuns la 6 decese la milionul de locuitori (15–64 ani), față de o medie europeană de peste 23.⁶⁰ Numărul persoanelor aflate în tratament pentru dependență a crescut de la 23.654 (1998) la 38.532 (2008), aceasta fiind dovada că, eliberat de frica pedepsei, consumatorul problematic are șanse îmbunătățite de a intra în sistemul de sănătate.⁶¹ Astfel, evaluările subsecvente confirmă că dezincriminarea nu a condus la creșteri relevante ale consumului, ci a dus tocmai la reduceri ale consumului problematic, ale daunelor asociate și ale supraaglomerării sistemului judiciar.⁶² Efectele s-au văzut și în plan economic: costurile sociale ale drogurilor au scăzut cu 12% în primii cinci ani și cu 18% în primii unsprezece ani de la adoptarea noii strategii, în principal prin reducerea costurilor din sistemul judiciar și a celor asociate deceselor.⁶³ Iar pentru generația crescută integral sub regimul dezincriminării, consumul de canabis al acesteia (elevilor portughezi de 15–16 ani) se situează sub media europeană, medie care a atins, la rândul ei, în 2024, cel mai scăzut nivel înregistrat de la prima ediție a studiului (1995).⁶⁴
+
+De asemenea, și Republica Cehă oferă un exemplu similar: după ce deținerea pentru consum propriu fusese neincriminată în anii 1990, statul ceh a incriminat-o în 1999, iar guvernul a comandat o evaluare științifică independentă a efectelor (studiul PAD, 2001). Concluziile au fost întocmai că incriminarea nu a redus disponibilitatea drogurilor, nu a redus consumul (care a continuat să crească), dar a mărit costurile publice, astfel încât evaluarea guvernamentală a constatat că legea nu și-a atins niciunul dintre obiective. ⁶⁵ Pe baza acestor dovezi, noul Cod penal ceh (în vigoare din 2010) a reclasificat deținerea sub praguri cantitative drept simplă contravenție, dezincriminând de jure deținerea pentru consum propriu. Astfel, Gehia are una dintre cele mai scăzute mortalități induse de droguri din UE și o prevalență a HIV în rândul consumatorilor injectabili apropiată de zero (sub 1%), printre cele mai mici din Europa.⁶⁶ Studiile ulterioare au confirmat, de asemenea, că dezincriminarea nu a coborât vârsta de debut a consumului de canabis,⁶⁷ iar consumul de canabis în rândul adolescenților cehi este în scădere constantă, revenind în 2024 la nivelurile de la mijlocul anilor 1990.⁶⁸
+
+Elveția, confruntată în anii 1980–1990 cu una dintre cele mai grave crize de heroină din Europa, a abandonat represiunea consumatorului în favoarea politicii „celor patru piloni” (prevenire, terapie, reducerea riscurilor, aplicarea legii împotriva traficului). Între 1991 și 2004, mortalitatea asociată drogurilor s-a redus cu peste 50%, iar infecțiile HIV associate consumului au scăzut de 8 ori în decurs de un deceniu. ⁶⁹ Un studiu publicat în The Lancet arată că numărul noilor consumatori de heroină din Zürich a scăzut de la circa 850 (1990) la circa 150 (2002): gestionarea problemei printr-o abordare de sănătate publică a făcut heroina neatractivă pentru noii consumatori potențiali. ⁷⁰
+
+Un model funcțional al acestei abordări există chiar la granița României. Încă din anul 2006, Republica Moldova a dezincriminat (de jure) deținerea de cantități mici de substanțe psihoactive, printr-un sistem de praguri cantitative stabilite oficial pentru fiecare substanță, care delimitează cantitățile mici, mari și foarte mari (de exemplu, până la 2 grame de canabis, un comprimat de LSD sau 0,15 grame de cocaină reprezintă cantitate mică). Deținerea de cantități mici constituie contravenție, sancționată potrivit art. 85 din Codul contravențional cu amendă de la 30 la 60 de unități convenționale (cel mult circa 3.000 de lei moldovenești, echivalentul a aproximativ 150 de euro) ori cu muncă neremunerată în folosul comunității de până la 72 de ore, inclusiv în cazul substanțelor noi cu proprietăți psihoactive (etnobotanice).⁷¹ Chiar și deținerea de cantități mari, fără intenția de înstrăinare (art. 217 din Codul penal), se pedepsește, în forma cea mai severă, cu cel mult un an de închisoare, alternativ cu amendă penală sau cu muncă în folosul comunității.⁷² Potrivit autorităților moldovenești, dezincriminarea reprezintă „un instrument esențial pentru organele de aplicare a legii în procesul de încadrare a faptelor [...] drept infracțiune sau contravenție”, clasificare ce trebuie „ajustată la realitățile consumului de droguri din Republica Moldova, precum și la recomandările europene privind politica antidrog".⁷³
+
+Direcția de evoluție a continentului este, de asemenea, evidentă: Malta (2021) și Luxemburg (2023) au reglementat deținerea și cultivarea de canabis pentru uz personal, Germania a legalizat consumul recreativ de canabis prin Cannabisgesetz, în vigoare de la 1 aprilie 2024,⁷⁴ iar Cehia a creat, din iulie 2025, o categorie reglementată distinctă de „substanțe psihomodulatoare”.⁷⁵ Prezentul proiect nu propune nimic de acest fel, ci menține caracterul ilicit al tuturor drogurilor și întregul arsenal represiv împotriva traficului - dar contrastul arată cât de izolată a devenit poziția României, care merge în sens contrar întregii evoluții europene, înăsprind sancțiunile împotriva consumatorilor.
+
+## 2.1.4. Delimitarea dintre consumul propriu și trafic: criterii și modele internaționale
+
+Distincția dintre deținerea pentru consum propriu și deținerea în vederea traficului constituie problema centrală a oricărei legislații antidrog. O analiză comparativă recentă a 91 de jurisdicții a identificat cinci modele de delimitare: (i) praguri cantitative stabilite prin lege (Australia, Portugalia, Slovacia); (ii) praguri stabilite de o autoritate desemnată (Austria, Cehia); (iii) ghiduri ale parchetului sau de individualizare a pedepsei (Danemarca, Norvegia, Regatul Unit); (iv) praguri fixate prin jurisprudență (Germania, Spania); și (v) aprecierea de la caz la caz (Franța, Italia, Irlanda, Ungaria, Suedia, Canada). ⁷⁶ Convențiile ONU nu impun și nu definesc praguri cantitative, lăsând integral această delimitare în seama dreptului național, ceea ce înseamnă că România are deplina libertate de a o reglementa.
+
+Elementul comun al acestor modele, care constituie și temeiul prezentului proiect, este totuși că natura faptei (consum sau trafic) se stabilește în funcție de existența ori absența probelor de trafic, iar nu de simpla deținere. În statele care nu folosesc praguri cantitative, faptă de deținere este tratată drept consum propriu ori de câte ori nu se descoperă indicii de trafic, precum cântare, substanțe porționate ori ambalate pentru vânzare sau sume de bani. ⁷⁷ Niciun stat european nu se întemeiază exclusiv pe cantitate pentru a stabili intenția de a vinde, fiind necesare întotdeauna și alte probe. ⁷⁸ ⁷⁹
+
+În consecință, criteriul „consumului propriu” folosit de prezentul proiect la art. 3 și art. 4 se verifică de la caz la caz, pe baza ansamblului materialului probator. Pot fi relevante împrejurările procurării și deținerii substanței, cantitatea, modul de ambalare, existența unor acte de vânzare ori distribuire și celelalte date ale cauzei. Proiectul nu introduce praguri cantitative și nici o prezumție legală automată de consum propriu în lipsa anumitor indicii de trafic. Formațiunile specializate ale Poliției Române aplică sancțiunea contravențională pe baza probelor administrate și sesizează organele de urmărire penală dacă fapta constituie infracțiune, potrivit art. 21¹ alin. (3). Același criteriu al destinației pentru consum propriu se aplică atât faptelor din țară, cât și introducerii ori scoaterii drogurilor peste frontieră.
+
+## 2.1.5. Situația din România: cadrul legislativ și datele autohtone
+
+Legea nr. 143/2000 este principalul instrument legislativ antidrog și piesA definitorie a politicii prohibiționiste a României.⁸⁰ În forma sa actuală (după modificările successive operate, între altele, prin Legile nr. 45/2023, 58/2024, 171/2024, 172/2024, 234/2024 și 30/2025), legea sancționează:⁸¹
+
+\- la art. 2 (traficul intern): drogurile de risc cu închisoare de la 3 la 10 ani, iar drogurile de mare risc cu închisoare de la 5 la 15 ani;
+
+\- la art. 3 (introducerea sau scoaterea din țară, importul ori exportul, așa-numitul „trafic internațional”): drogurile de risc cu închisoare de la 5 la 15 ani, iar drogurile de mare risc cu închisoare de la 10 la 20 de ani;
+
+\- la art. 4 (deținerea pentru consum propriu): drogurile de risc cu închisoare de la 3 luni la 2 ani sau amendă, iar drogurile de mare risc cu închisoare de la 6 luni la 3 ani.
+
+Deși consumul în sine nu este incriminat (Curtea Constituțională, Decizia nr. 748/2019), el este de facto criminalizat, întrucât, pentru a consuma o substanță, este aproape întotdeauna necesar ca persoana să o și dețină, intrând astfel sub incidența art. 4 din legea penală.⁸² Tendința legislativă recentă a fost exclusiv de înăsprire: Legea nr. 45/2023 a majorat pedepsele pentru traficul de droguri de risc de la 2–7 ani la 3–10 ani, iar Legea nr. 58/2024 a introdus art. 15¹, care interzice suspendarea sub supraveghere a executării pedepsei pentru faptele de la art. 2 alin. (2) și art. 3 alin. (2), eliminând practic orice mecanism de individualizare judiciară chiar și pentru consumatorul aflat la prima abatere.⁸³
+
+În acest sens, datele arată un sistem îndreptat tot mai apăsat împotriva consumatorului, nu împotriva traficantului. Potrivit Consiliului Superior al Magistraturii, numărul consumatorilor condamnați definitiv pentru deținere în vederea consumului propriu (art. 4) a oscilat între 23 și 78 pe an în perioada 2007–2014, pentru ca apoi să crească exploziv, record după record: 78 (2016), 101 (2017), 141 (2018), 155 (2019), 165 (2020), 354 (2021), o creștere de peste 4 ori în cinci ani; ponderea consumatorilor în totalul condamnărilor pentru infracțiuni la regimul drogurilor a urcat, în același interval, de la aproximativ 10% la 36,6%.⁸⁴ În oglindă, numărul traficanților condamnați (art. 2) era în 2021 (559) cu aproape o treime mai mic decât în 2012 (820).⁸⁵(graficele complete pentru perioada 2016–2025, sunt prezentate în anexa la prezenta expunere de motive.)
+
+Conform Rapoartelor Naționale ale Agenției Naționale Antidrog, în anul 2021 au fost cercetate penal peste 10.000 de persoane pentru infrațiuni la regimul drogurilor (un record la acea dată), dintre care aproximativ 80% erau consumatori.⁸⁶ Au fost pronunțate 1.031 de condamnări, cel mai mare număr din ultimii nouă ani; peste 70% dintre simplii consumatori condamnați au primit o formă a pedepsei cu închisoarea.⁸⁷
+
+Iar tendința a continuat neabătut și după 2021. Datele oficiale ale Ministerului Justiției, comunicate Parlamentului în anul 2026, arată noi maxime istorice ale condamnărilor definitive pentru deținere pentru consum propriu: 392 (2022), 395 (2023), 472 (2024) și 520 (2025), mai mult decât dublul anului 2020 și echivalentul a aproape 1,5 consumatori condamnați în fiecare zi a anului; 88 dintre cei condamnați în 2025 au primit închisoare cu executare. ⁸⁸ Pentru art. 3 („traficul internațional”, care acoperă și consumatorul ce trece frontiera cu o doză) au fost condamnate definitiv 113 persoane în 2025, cel mai ridicat nivel din serie, dintre care 88 cu executare în detenție, inclusiv 35 cu pedepse între 5 și 10 ani și 5 cu pedepse de peste 10 ani. ⁸⁹
+
+Tendința s-a accentuat dramatic și prin faptul că în 2024, numărul cauzelor de soluționat privind drogurile (principal consum, pe lângă trafic) la nivelul DIICOT a atins 32.292, dublu față de 2019, reprezentând 75,53% din totalul cauzelor acestei structuri.⁹⁰ Pe anul 2025, raportul de activitate al DIICOT consemnează un nou maxim istoric: 37.419 de cauze de soluționat privind principal consumul de droguri (pe lângă trafic), adică 77,51% din totalul de 48.279 de cauze ale Direcției, dintre care 21.914 au rămas nesoluționate la sfârșitul anului.⁹¹ Mai mult de trei sferturi din activitatea structurii specializate în combaterea criminalității organizate este, așadar, absorbită de dosarele de droguri, deși doar trei dintre cele opt servicii principale ale acestei structuri au legătură cu drogurile, o alocare de resurse fără echivalent în Uniunea Europeană.
+
+Resursele statului sunt cheltuite pe cantități infime, unde peste 80% din totalul dosarelor DIICOT vizează cantități de substanță mai mici de 5 grame.⁹² Datele primare privind capturile anului 2023, publicate în Raportul național, confirmă și detaliază această realitate, substanță cu substanță, iar structura capturii medii este cea mai grăitoare.
+
+Pentru heroină, 132 din cele 145 de capturi (91%) au fost sub 5 grame, cu o medie de numai 0,63 grame pe captură, în timp ce au fost realizate doar 3 capturi de peste un kilogram. La cocaină, 577 din 682 de capturi (85%) au fost sub 5 grame (medie: 1,19 grame pe captură), în vreme ce s-au realizat numai 6 capturi mari.
+
+Pentru canabis, 2.402 din 3.214 capturi (75%) au fost sub 5 grame (medie: 1,35 grame pe captură), în timp ce s-au realizat 77 de capturi de peste un kilogram. Respectiv, fragmentele vegetale cu THC, 137 din 220 de capturi (62%) au avut o medie de 0,84 grame pe captură, față de o medie de peste 50.000 de grame la cele 9 capturi mari.
+
+Pentru MDMA, peste 91% dintre capturi s-au încadrat în categoria minimă, cu o medie de circa 13 comprimate ori 0,72 grame pe captură, iar la medicamentele cu conținut stupefiant (benzodiazepine, metadonă, oxicodonă, fentanil și altele), categoria minimă a avut o medie de circa 20 de comprimate ori 0,46 grame pe captură.
+
+Discrepanța dintre captura tipică (sub un gram și jumătate) și captura medie aritmetică pe ansamblu descrie întocmai funcționarea sistemului: mii de „capturi” de buzunar, adică mii de consumatori, și un fragment de transporturi semnificative.
+
+Respectiv pentru noile substanțe psihoactive, 1.200 din 1.521 de capturi (79%) au fost sub pragul minim, cu o medie de 1,15 grame pe captură.
+
+Cumulat, 5.415 din cele 6.860 de capturi ale anului (79%) au fost sub 5 grame ori sub 250 de comprimate, iar pentru cele patru substanțe măsurate integral în grame, capturile mici au reprezentat circa 0,3% din cantitatea confiscată.⁹³
+
+Astfel, în fiecare an din perioada 2016-2023, între 75% și 81% dintre capturile de heroină, cocaină, canabis iarbă și fragmente vegetale cu THC au fost sub 5 grame, prag pe care rapoartele oficiale îl definesc drept nivel stradal, cu o medie anuală a capturii mici de aproximativ un gram (0,94-1,27 grame): 8 ani de date confirmă că aparatul represiv lucrează sistematic la firul ierbii, nu la nivelul transporturilor (Graficul 3b).⁹⁴
+
+În paralel, capacitatea de interceptare a marelui trafic este estimată la doar 10% până la 20%, față de peste 50% în Țările de Jos, Belgia sau Spania. Astfel, cantitatea totală de substanțe confiscate în 2024 de România (circa 1,1 tone) a fost cea mai mică din ultimii 5 ani, iar capturile din 2025 (circa 3,1 tone) au rămas concentrate în câteva zeci de transporturi mari, deși prin România tranzitează anual zeci de tone de droguri, evaluate la cel puțin un sfert de miliard de euro. ⁹⁵ Costurile acestei abordări depășesc zeci de milioane de euro anual, o estimare conservatoare de 11 milioane de euro luând în calcul doar deținuții încarcerați pentru infracțiuni la regimul drogurilor. ⁹⁶
+
+Răspunsurile instituționale oficiale cuantifică această inversare de priorități, căci în centrele de reținere și arestare preventivă ale Ministerului Afacerilor Interne au fost încarcerate, pentru fapte de deținere în vederea consumului propriu (art. 4), 651 de persoane în 2021 și 681 în 2022. În aceiași ani, în toate Centrele de Prevenire, Evaluare și Consiliere Antidrog din țară primeau tratament substitutiv cu metadonă doar 225, respectiv 254 de persoane.⁹⁷
+
+Statul român ținea, așadar, în acei ani, (ultimii pentru care MAI a comunicat date defalcate) pe art. 4, de aproape 3 ori mai mulți consumatori în aresturile poliției decât în tratamentul cu metadonă al rețelei publice antidrog (centrele CPECA). Aceleași documente oficiale dezvăluie și opacitatea sistemului: Poliția Română declara atunci că nu poate preciza nici măcar câte persoane au fost conduse la secție, fără mandat, în urma depistării unor substanțe, întrucât bazele sale de date „nu sunt structurate în funcție de motivul conducerii persoanelor la sediul poliției”98.
+
+Noile date, communicate Parlamentului în iulie 2026, arată amploarea fenomenului: numărul persoanelor conduse la sediul poliției în lipsa unui mandat, ca urmare a depistării unor substanțe susceptibile de a avea efect psihoactiv, a crescut de 2,5 ori în șase ani, de la 2.571 (2020) la 6.531 (2025), în medie aproximativ 18 persoane în fiecare zi a anului, iar numărul minorilor aflați în această situație aproape s-a triplat, de la 161 (2020) la 476 (2025).⁹⁹ În același interval, numărul persoanelor arestate preventiv pentru infracțiuni la regimul drogurilor a urcat de la o medie de circa 640 pe an în intervalul 2020-2023 la 980 în 2024 și 1.106 în 2025, cu durate medii ale arestului preventiv de 68-84 de zile pe an, adică luni de privare de libertate anterioare oricărei condamnări.¹⁰⁰
+
+Costurile cresc de 7 ori, fără rezultate: acțiunile poliției având ca obiectiv prevenirea și combaterea traficului și consumului s-au dublat (de la 7.520 în 2020 la 16.562 în 2025, dintre care 10.112 filtre rutiere), numărul câinilor de serviciu specializați în detectarea drogurilor a crescut de aproape 9 ori (de la 18 la 161), iar cheltuielile angajate de Poliția Română, din bugetul propriu, pentru activitățile de reducere a ofertei de droguri s-au multiplicat de peste 7 ori în cinci ani, de la 37,4 milioane lei (2020) la 271,3 milioane lei (2024, dintre care 143,8 milioane lei active nefinanciare, componentă de investiții), echivalentul a circa 55 de milioane de euro într-un singur an, sumă care nu include cheltuielile parchetelor, ale instanțelor, ale penitenciarelor, ale Poliției de Frontieră ori ale Jandarmeriei. ¹⁰¹ Aceleași răspunsuri oficiale mențin însă zone întinse de opacitate: numărul polițiștilor alocați combaterii traficului este clasificat „secret de serviciu”, bazele de date nu permit defalcarea măsurilor preventive în funcție de tipul suspiciunii, iar pentru semnalările câinilor de serviciu nu există evidența cantităților descoperite, deși, potrivit datelor Poliției de Frontieră, din cele 220 de semnalări canine realizate între 2020 și 2025 doar 47 (21%) s-au confirmaț. ¹⁰²
+
+Constatăm, de asemenea, un dezechilibrul structural: 51 de lei pentru represiune la fiecare leu alocat programelor de asistență. Comparația celor două fluxuri bugetare, posibilă în premieră prin datele comunicate în 2026, arată prioritățile reale ale politicii actuale: în anul 2024, cheltuielile angajate de Poliția Română pentru activitățile antidrog au fost de 271,3 milioane lei, adică doar componentă polițienească a lanțului represiv, în timp ce alocarea efectivă pentru cele două programe naționale de prevenire și asistență a consumatorilor a fost de 5,33 milioane lei (circa 1,07 milioane euro), un raport de aproximativ 51 la 1.¹⁰³ Disproportia se regăsește și în serviciile de tratament: numărul beneficiarilor de tratament de substituție cu metadonă la nivel național stagnează de un deceniu sub 2.000 de persoane (1.686 în 2024, în scădere față de maximul de 1.905 atins în 2019), astfel încât numărul persoanelor arestate preventiv pentru droguri într-un singur an (1.106 în 2025) se apropie de numărul total al persoanelor aflate în tratament substitutiv din întreaga țară.¹⁰⁴ Iar prevalența consumului confirmă lipsa efectului disuasiv al represiunii: potrivit anchetei naționale GPS 2024, 12,6% dintre români au consumat cel puțin o dată un drog ilicit, în creștere față de 11,9% în 2019, în timp ce consumul recent a rămas la un nivel comparabil (5,7% în ultimul an, față de 6,7%). ¹⁰⁵
+
+Respectiv, politica de încarcerare a consumatorilor se desfășoară într-un sistem penitenciar aflat el însuși în criză, realitate constată de organismele internaționale. La 31 ianuarie 2024, în penitenciarele românești se aflau 23.879 de persoane, la o capacitate oficială de 20.526 de locuri, un grad de ocupare de 116,3%, cu secții care depășesc 150%. ¹⁰⁶ Pentru aceste condiții, România a fost condamnată de Curtea Europeană a Drepturilor Omului prin hotărârea-pilot Rezmiveș și alții împotriva României (25 aprilie 2017), care a constatat o disfuncționalitate a sistemului penitenciar și a cerut statului român tocmai reducerea numărului de persoane încarcerate. ¹⁰⁷ Este vădit irațional ca, sub imperiul unei hotărâri-pilot care obligă România să își reducă populația carcerală, statul să continue să trimită în aceste penitenciare simpli consumatori de droguri. Datele comunicate Parlamentului în anul 2026 confirmă amploarea fenomenului: la 31 decembrie 2025, din cele 25.424 de persoane aflate în custodia Administrației Naționale a Penitenciarelor, 2.457 executau pedepse pentru infrațiuni la regimul drogurilor, adică 9,66% din total, o pondere mai mult decât dublă față de cea din 2020 (4,66%) și în creștere în fiecare an al intervalului (4,69% în 2021, 5,19% în 2022, 6,64% în 2023, 8,34% în 2024). Tot din datele transmise reiese că rata de recidivă a persoanelor condamnate pentru infrațiuni la regimul drogurilor s-a menținut stabilă, în jur de 37%, în întreaga perioadă, iar numărul faptelor de deținere pentru consum propriu (art. 4) aflate sub supravegherea serviciilor de probațiune a crescut de la 558 (2020) la 1.553 (2025), aproape triplându-se.
+
+România a plătit deja, o dată, prețul abordării exclusiv represive, după retragerea finanțării serviciilor de reducere a riscurilor (Fondul Global, 2010). Din cauză că statul român nu a înlocuit finanțarea retrasă, programele de schimb de seringi s-au prăbușit, iar consecința a fost o epidemie de HIV în rândul persoanelor care își injectează droguri, concentrată în București.¹⁰⁸ ¹⁰⁹ Epidemia românească din 2011–2013 este citată în literatura internațională drept exemplu-manual al consecințelor abandonării serviciilor de sănătate destinate consumatorilor, adică exact modul de operare al politicii pe care legislația penală actuală o perpetuează, ținând consumatorii departe de servicii și împingându-i în clandestinitate.
+
+Agenția Uniunii Europene pentru Droguri nominalizează explicit România printre statele în care furnizarea tratamentului substitutiv cu agoniști de opioide rămâne „scăzută și insuficientă” raportat la numărul estimat de consumatori de opioide cu risc ridicat,¹¹⁰ numărul beneficiarilor de tratament substitutiv fiind de ordinul a doar câteva sute-mii de persoane la nivel național, concentrate aproape exclusiv în București.¹¹¹ În același timp, presiunea asupra sistemului medical crește: numărul cazurilor de urgență medicală în care s-a semnalat consumul a cel puțin unui drog ilicit a crescut de la 2.219 (2022) la 3.089 (2023), canabisul fiind raportat în 28,1% dintre cazuri, iar noile substanțe psihoactive în 23,1%.¹¹² Iar mortalitatea oficială asociată drogurilor (25–45 de decese direct asociate anual) este recunoscută de specialiștii în medicină legală drept sever subestimată, din cauza acoperirii reduse a testării toxicologice în afara Bucureștiului și a practicii deficitare a constatării cauzelor decesului.¹¹³
+
+Noul raport național, care revizuiește ușor seria pentru 2023 (3.098 de cazuri), indică 2.995 de cazuri în 2024, confirmând menținerea nivelurilor istorice; 12,2% dintre persoanele ajunse la urgențe în 2024 în urma consumului aveau sub 15 ani; totodată, decesele direct asociate consumului au urcat la 40 în 2024 (47 împreună cu cele indirect asociate), maximul ultimilor 5 ani, în condițiile în care 8 institute de medicină legală au furnizat date.¹¹⁴
+
+In pofida caracterului profund punitiv al politicii, consumul a crescut în medie cu aproximativ 75% între 2013 și 2020 (canabisul s-a dublat, cocaina s-a cvadruplat, iar consumul de substanțe noi cu proprietăți psihoactive a crescut de 8 ori). ¹¹⁵ Consumul frecvent (în ultima lună) s-a dublat între 2018 și 2020 (de la 1,8% la 3,9%). ¹¹⁶ Datele privind minorii sunt deosebit de relevante: cercetările derulate pe elevii români de 16 ani în cadrul proiectului european ESPAD arată că un procent semnificativ au consumat cel puțin o dată un drog ilicit sau o nouă substanță psihoactivă, consumul de noi substanțe psihoactive (5,3%) apropiindu-se de cel de canabis și de inhalante (7,2% fiecare), semn că piața s-a deplasat către substanțele create tocmai pentru a eluda legea penală. ¹¹⁷
+
+Între timp, la nivel european, consumul de canabis în rândul elevilor a scăzut în 2024 la cel mai redus nivel înregistrat din 1995, inclusiv în statele care au dezincriminat de mult consumul.¹¹⁸ Criminalizarea nu i-a protejat, așadar, pe tineri, ci i-a împins doar către substanțele cele mai periculoase și mai greu de controlat. România a ajuns să aibă cea mai abruptă creștere din Uniunea Europeană a incriminării și încarcerării consumatorilor și cel mai înalt nivel de criminalizare a acestui fenomen din UE, urmate așadar de o creștere a consumului.¹¹⁹
+
+La nivel individual, consumatorul condamnat, chiar și la amendă penală, rămâne cu cazier judiciar, ceea ce echivalează adesea cu o „sentință socială” care îi poate compromite ani la rând accesul la educație, la un loc de muncă și la sănătate.¹²⁰ Studiile internaționale au cuantificat acest cost: comparând consumatorii sancționați penal cu cei sancționați administrativ (contravențional) pentru aceeași faptă - un studiu australian de referință a constatat efecte negative asupra locului de muncă la 32% dintre cei condamnați penal, față de doar 2% dintre cei amendați contravențional, cu diferențe similare privind relațiile personale și locuirea, dar fără nicio diferență în consumul ulterior de droguri.¹²¹ Pedeapsa penală nu schimbă, deci, comportamentul de consum; ci are mai degrabă abilitatea de a înrăutăți prospectele/șansele vieții persoanelor afectate.
+
+## 2.1.6. Problema specifică a trecerii frontierei: consumatorul tratat drept traficant internațional
+
+Cea mai gravă disproporționalitate o reprezintă încadrarea, în temeiul art. 3 din Legea nr. 143/2000, a persoanei care trece frontiera cu o cantitate de droguri destinată exclusiv consumului propriu. Spre deosebire de Germania, Belgia, Cehia sau Spania, legea românească nu prevede niciun prag cantitativ și nu impune dovedirea unei intenții de trafic, astfel încât o persoană care introduce în țară 0,1 grame de substanță pentru uz personal este supusă aceluiași regim sancționator ca un traficant internațional care transportă kilograme de substanță.¹²² Jurisprudența a extins, suplimentar, sfera incriminării: prin Decizia nr. 3/2022, Înalta Curte de Casație și Justiție a statuat că drogurile sunt „introduse în țară” din momentul în care persoana trece frontiera de stat, independent de controlul vamal, iar prin Decizia nr. 15/2017 a reținut concursul ideal între art. 2 și art. 3 pentru un transport unic.¹²³ Mai mult, prin introducerea art. 15¹ (Legea nr. 58/2024) a fost interzisă suspendarea executării pedepsei pentru faptele de la art. 2 alin. (2) și art. 3 alin. (2), astfel încât consumatorul care aduce o cantitate minimă de drog de mare risc peste frontieră nu mai beneficiază de niciun mecanism real de individualizare a pedepsei (e.g. suspendarea executării pedepsei).¹²⁴
+
+Această încadrare contrazice atât doctrina, cât și logica internă a legii: așa cum s-a arătat în literatura de specialitate, „dacă se dovedește că introducerea sau scoaterea din țară a drogurilor se face exclusiv pentru consumul propriu, nu putem vorbi despre traficul internațional de droguri, ci de deținerea de droguri pentru consum propriu”, ¹²⁵ tocmai pentru că „a trafica înseamnă a face un negoț ilicit cu produse ilicite”, ceea ce nu se poate nicidecum confunda cu simpla deținere în vederea consumului propriu. ¹²⁶ Este profund inconsecvent ca aceeași substanță, deținută pentru același scop personal, să atragă pedepse minime (art. 4) atunci când este procurată în țară, dar pedepse de la 5 la 20 de ani atunci când a fost adusă de peste graniță.
+
+Caracterul vădit disproporționat al acestui regim a fost evidențiat în cauza C-583/24 (Tagu), aflată pe rolul Curții de Justiție a Uniunii Europene. O instanță română a condamnat un cetățean la 7 ani de închisoare, minimul aplicabil în cauză, pentru introducerea în țară a 3 grame de canabis și a 4 comprimate de MDMA destinate, potrivit constatărilor instanței neerlandeze, exclusiv consumului propriu, fără nicio intenție comercială. Rechtbank Amsterdam a refuzat executarea mandatului european de arestare, considerând pedeapsa vădit disproporționată în raport cu art. 49 alin. (3) din Carta drepturilor fundamentale a UE, și a sesizat CJUE.¹²⁷ În concluziile prezentate la 22 ianuarie 2026, avocatul general Jean Richard de la Tour a propus Curții să recunoască faptul că executarea unui mandat european de arestare poate fi refuzată, în mod excepțional, atunci când există, pe de o parte, deficiențe sistemice sau generalizate în statul emitent în privința respectării proporționalității pedepselor, în special acolo unde instanțele nu pot individualiza pedeapsa pentru anumite categorii de fapte, și, pe de altă parte, un risc real ca persoana să execute o pedeapsă „vădit disproporționată”, care depășește în mod clar ceea ce este necesar pentru sancționarea faptei.¹²⁸ Concluziile rețin expres că dreptul român a obligat instanța să aplice minimul de 7 ani „indiferent dacă această faptă privea o cantitate mică și dacă fapta a fost săvârșită pentru uz personal".
+
+Hotărârea Curții este așteptată; însă indiferent de soluția finală, faptul că un alt stat membru al Uniunii refuză să predea o persoană către România din cauza unei pedepse vădit disproporționate, iar avocatul general al CJUE construiește un test al „deficiențelor sistemice" pornind de la legislația română antidrog, constituie atât o problemă gravă de cooperare judiciară, cât și un argument imperativ pentru intervenția legislativă imediată. Combinația dintre minimele speciale ridicate, lipsa oricărui prag cantitativ și interdicția suspendării introdusă prin Legea nr. 58/2024 expune România riscului ca instanțele europene să îi constate, sistemic, incapacitatea de a asigura proporționalitatea pedepselor.
+
+## 2.1.7. Argumentele constituționale: ultima ratio și proporționalitatea sancțiunilor
+
+Prin Decizia nr. 405/2016, Curtea Constituțională a statuat că, „în exercitarea competenței de legiferare în materie penală, legiuiitorul trebuie să țină seama de principiul potrivit căruia incriminarea unei fapte ca infracțiune trebuie să intervină ca ultim resort în protejarea unei valori sociale”, legea penală fiind justificată numai atunci când este „singura în măsură să atingă scopul urmărit, alte măsuri de ordin civil, administrativ etc. fiind improprii în realizarea acestui deziderat” (par. 68). Curtea a subliniat, totodată, că „nu este suficient să se constate că faptele incriminate aduc atingere valorii sociale ocrotite, ci această atingere trebuie să prezinte un anumit grad de intensitate, de gravitate, care să justification sancțiunea penală”, iar măsurile legiuiitorului trebuie să fie „adecvate, necesare și să respecte un just echilibru între interesul public și cel individual” (par. 69). ¹²⁹ Or, dovezile științifice prezentate în secțiunile precedente demonstrează că, în privința deținerii pentru consum propriu, sancțiunea penală nu este nici adecvată (nu reduce consumul), nici necesară (sancțiunea administrativă atinge același scop declarativ, cu costuri sociale incomparabil mai mici): exact ipoteza în care, potrivit Curții, incriminarea încalcă principiul ultima ratio. Aceeași exigență este formulată și la nivel european: Comisia Europeană a statuat că „dreptul penal trebuie să rămână întotdeauna o măsură la care se recurge în ultimă instanță”. ¹³⁰
+
+Curtea Constituțională a aplicat deja acest raționament unei situații similar cu cea a art. 3 din Legea nr. 143/2000. Prin Decizia nr. 176/2022, Curtea a constatat neconstituționalitatea infracțiunii de contrabandă asimilată (art. 270 alin. (3) din Codul vamal) tocmai pentru că textul nu prevedea niciun prag valoric, permițând sancționarea penală a unor fapte de o gravitate vădit redusă și încălcând astfel principiul ultima ratio, exigențele statului de drept (art. 1 alin. (3) din Constituție) și înfăptuirea justiției (art. 124).¹³¹ Art. 3 din Legea nr. 143/2000 privind traficul internațional de droguri suferă de aceeași deficiență: lipsa oricărui prag sau criteriu care să separe consumatorul de traficant face ca pedepse de 5–20 de ani să fie aplicabile unor fapte (trecerea frontierei cu câteva grame pentru uz personal) de o gravitate incomparabil mai mică decât cea avută în vedere de legiutor la stabilirea normei.
+
+Este esențial de subliniat, de asemenea, că dezincriminarea deținerii pentru consum propriu este o opțiune aflată integral în competența Parlamentului. Curtea Constituțională a reținut expres, în jurisprudența sa referitoare la art. 4 din Legea nr. 143/2000, că „împrejurarea că legiutorul nu a incriminat ca infrațiune distinctă consumul ilicit de droguri nu reprezintă o problemă de constituționalitate, ci una de politică penală".¹³² Regimul juridic al consumului și al deținerii pentru consum propriu este, așadar, o chestiune de politică penală pe care Parlamentul o poate reconfigura liber, în acord cu dovezile științifice, ceea ce prezentul proiect îndeplinește.
+
+Potrivit art. 53 din Constituție, orice restrângere a exercițiului unor drepturi trebuie să fie necesară într-o societate democratică și proporțională cu situația care a determinat-o. Incriminarea deținerii pentru consum propriu poate restrânge dreptul la viață intimă și privată (art. 26) și dreptul la ocrotirea sănătății (art. 34), consumatorul dependent fiind descurajat să acceseze servicii medicale de frica răspunderii penale, fără ca această restrângere să își fi dovedit vreodată necesitatea sau eficacitatea. La rândul său, Curtea
+
+Europeană a Drepturilor Omului a statuat că o pedeapsă „vădit disproporționată” față de gravitatea faptei poate constitui un tratament contrar art. 3 din Convenție.¹³³
+
+## 2.1.8. Mesajul comunității medicale și științifice din România
+
+Asociația Română de Psihiatrie și Psihoterapie (ARPP), organism reprezentativ național al medicilor psihiatri, membră a Asociației Europene de Psihiatrie (EPA) și a World Psychiatric Association (WPA), a protestat „energic față de încercarea unor actori politici de a câștiga capital electoral prin inițierea de legi care să încrimineze și mai mult consumatorii de droguri neimplicați în alte fapte penale”, subliniind că „educația și tratamentul persoanelor cu probleme legate de consumul de substanțe nu se rezolvă cu sentințe penale și cu penitenciare”. În documentul în care propune soluții, ARPP cere expres „dezincriminarea posesiei în vederea consumului propriu de droguri”. ¹³⁴
+
+Direcția propusă este, de altfel, convergentă cu obiectivele asumate chiar de Guvernul României prin Strategia Națională în Domeniul Drogurilor 2022–2026 (aprobată prin H.G. nr. 344/2022), care își propune consolidarea unui sistem de prevenire și asistență bazat pe dovezi științifice și prioritizarea asistenței pentru grupurile vulnerabile.¹³⁵ Prezentul proiect oferă instrumentul legislativ fără de care aceste obiective rămân declarative: atâta vreme cât consumatorul este definit juridic drept infractor, niciun sistem de asistență nu îl poate ajuta în mod eficient.
+
+## 2.2. Schimbări preconizate
+
+Scopul principal al prezentului proiect de lege este de a iniția trecerea de la modelul justiției penale la modelul sănătății publice în abordarea consumului de droguri, în acord cu standardele internaționale și cu obligațiile ce decurg pentru România din calitatea de stat membru al Uniunii Europene. Proiectul nu legalizează drogurile și nu diminuează cu nimic instrumentele de combatere a traficului; dimpotrivă, urmărește să degreveze poliția, parchetele și instanțele de povara dosarelor de consum (până la 80% din totalul dosarelor existente), pentru ca resursele statului să poată fi concentrate asupra mareului trafic și a crimei organizate.¹³⁶
+
+## În concret, proiectul urmărește următoarele schimbări:
+
+(1) Dezincriminarea deținerii pentru consum propriu. Faptele de cultivare, producere, fabricare, experimentare, extragere, preparare, transformare, cumpărare sau deținere de droguri pentru consum propriu, prevăzute la art. 4, sunt scoase din sfera penală și transformate în contravenții, sancționate cu amendă. Soluția respectă „standardul de aur” al dezincriminării promovat de organismele internaționale de profil și preia mecanismul deja propus în spațiul legislativ românesc (conversia faptei într-o sancțiune administrativă, cu sume direcționate către sistemul de sănătate). ¹³⁷
+
+(2) Clarificarea regimului juridic al trecerii frontierei pentru consum propriu. Se introduce o reglementare expresă, prin care introducerea sau scoaterea din țară, importul ori exportul de droguri destinate exclusiv consumului propriu nu mai constituie trafic internațional (infrațiunea de la art. 3), ci o contravenție distinctă, sancționată cu amendă. Se elimină astfel lacuna normativă care permitea ca un consumator să fie tratat drept traficant internațional și se răspunde direct preocupărilor exprimate în cauza C-583/24. Pentru ca această soluție să fie coerentă și în raport cu legislația vamală, art. II al proiectului exclude aplicarea art. 271 alin. (1) din Legea nr. 86/2006 faptelor nou reglementate la art. 3 alin. (3) și (4).
+
+(3) Adaptarea procedurii contravenționale și consolidarea componentei de asistență. Proiectul separă constatarea contravenției de aplicarea sancțiunii de către formațiunile specializate ale Poliției Române și prevede analiza de laborator, confiscarea și distrugerea drogurilor, precum și termenul de prescripție de un an pentru aplicarea sancțiunii. Regimul general al contravențiilor completează această procedură, inclusiv în privința individualizării sancțiunii și a controlului judecătoresc. Majorarea maximului amenzii în împrejurările expres prevăzute la art. 13 alin. (3) permite un răspuns diferențiat în situațiile de gravitate sporită.
+
+Mecanismul prevăzut de art. 19 atribuie organului competent să aplice sancțiunea dispunerea evaluării și, în funcție de raportul de evaluare, includerea în programul integrat de asistență, cu acordul scris al persoanei. În cazul minorilor, obligația autorității de a dispune evaluarea se corelează cu regulile de consimțământ, implicarea părinților sau a reprezentantului legal și sesizarea serviciilor de protecție a copilului în situațiile de risc. Caracterul consimțit al evaluării și al includerii în asistență este în acord cu standardele internaționale privind tratamentul dependenței.¹³⁸
+
+(4) Corelările penale și aplicarea în timp. Actualizarea art. 9, 12, 13, 14, 15 și 16 limitează instituțiile penale la faptele care rămân infracțiuni, inclusiv traficul și infracțiunile conexe. Mecanismele de denunț, nepedepsire și reducere a pedepsei rămân disponibile în condițiile acestor texte. Art. 17 adaptează distrugerea drogurilor confiscate procedurii contravenționale, art. 18 reglementează includerea în programe terapeutice în penitenciar a consumatorilor condamnați pentru infracțiuni prevăzute de Legea nr. 143/2000, iar art. 20 se abrogă deoarece mecanismul său de individualizare a pedepsei nu mai are obiect pentru faptele dezincriminate. Art. 23 alin. (8) afectează veniturile din amenzi programelor de prevenire și asistență. Art. II corelează Codul vamal, iar art. III reglementează intrarea în vigoare, efectele asupra faptelor anterioare și adaptarea regulamentului de aplicare.
+
+(5) O intervenție complementară pentru prevenirea supradozelor. Modificarea art. 5 înlătură răspunderea pentru infracțiunea de punere la dispoziție a unui spațiu pentru consum ori de tolerare a consumului numai pentru spațiile autorizate din unități sanitare care îndeplinesc cumulativ garanțiile prevăzute de lege. Scopul este intervenția medicală rapidă în cazul unei supradoze și facilitarea accesului la tratament și asistență pentru adulții cu dependență diagnosticată, care își autoadministrează propriile substanțe. Unitatea și personalul nu procură și nu furnizează drogurile. Această măsură completează prevenirea și tratamentul dependenței; ea nu înlocuiește aceste servicii.¹³⁹
+
+Pentru a preveni orice interpretare eronată, se cuvine subliniat expres: proiectul nu legalizează niciun drog, substanțele rămân supuse controlului legal, iar operațiunile pentru consum propriu efectuate fără drept rămân ilicite și sanctionabile contravențional; incriminările traficului intern și internațional și pedepsele prevăzute la art. 2 și art. 3 alin. (1) și (2) se mențin. Punerea la dispoziție a unui spațiu pentru consum și tolerarea consumului rămân incriminate în afara excepției sanitare strict delimitate de art. 5 alin. (2); incriminările administrării de droguri de mare risc unei alte persoane și îndemnului la consumul ilicit de droguri de mare risc se mențin; conducerea unui vehicul sub influența substanțelor psihoactive rămâne infracțiune potrivit art. 336 din Codul penal (Graficul 15 din anexă), fapta aflată la originea tragediei de la 2 Mai ar fi sancționată identic și după adoptarea prezentului proiect; dispunerea evaluării consumatorilor minori este obligatorie, iar efectuarea ei și includerea în asistență respectă art. 19 alin. (2)–(5); iar normele privind ordinea și liniștea publică nu sunt în niciun fel afectate. Proiectul nu retrage statului niciun instrument împotriva traficului, iar calitatea de consumator sau de persoană dependentă nu înlătură răspunderea pentru eventualele infracțiuni distincte săvârșite de aceeași persoană.
+
+## Sinteza modificărilor principale:
+
+| Fapta (pentru consum propriu) | Regim actual (Legea nr. 143/2000) | Regim propus pentru formele de bază |
+| --- | --- | --- |
+| Operațiunile prevăzute la art. 4, droguri de risc | Închisoare de la 3 luni la 2 ani sau amendă penală (infracțiune) | Amendă contravențională de la 1.000 la 1.500 lei |
+| Operațiunile prevăzute la art. 4, droguri de mare risc | Închisoare de la 6 luni la 3 ani (infracțiune) | Amendă contravențională de la 1.500 la 3.000 lei |
+| Trecerea frontierei, droguri de risc (art. 3) | Închisoare de la 5 la 15 ani (trafic internațional) | Amendă contravențională de la 1.500 la 2.000 lei |
+| Trecerea frontierei, droguri de mare risc (art. 3) | Închisoare de la 10 la 20 de ani (trafic internațional) | Amendă contravențională de la 2.000 la 3.500 lei |
+
+Limitele din tabel privesc formele de bază ale contravențiilor. În împrejurările de la art. 13 alin. (1) lit. a) sau b) ori în locurile prevăzute la lit. c), noul alin. (3) dublează limita maximă a amenzii, fără majorarea minimului. Rămân aplicabile regulile generale privind proporționalitatea sancțiunii, avertismentul pentru faptele de gravitate redusă și răspunderea minorilor: minorii sub 14 ani nu răspund contravențional, iar pentru cei care au împlinit 14 ani limitele amenzii se reduc la jumătate. Dispunerea evaluării minorului este obligatorie, dar evaluarea și includerea în programul integrat de asistență respectă condițiile de consimțământ din art. 19; nu se instituie un tratament automat ori impus prin simpla aplicare a amenzii.¹⁴⁰
+
+## 2.3. Răspunsul la obiecțiile previzibile
+
+„Dezincriminarea va crește consumul” este una dintre eventualele obiecții cele mai clar infirmate de dovezile științifice. O revizuire sistematică a 114 studii de evaluare a impactului reformelor de dezincriminare și reglementare, publicată în BMJ Open, a constatat că, pe ansamblul indicatorilor de consum, reforma legislativă „cel mai adesea nu a fost asociată cu modificări ale consumului”.¹⁴¹ Analizele EMCDDA/EUDA asupra modificărilor legislative din statele europene au concluzionat că „nu poate fi observată nicio asociere simplă între modificările legislative și prevalența consumului de canabis”, adică consumul a evoluat identic în statele care au înăsprit și în cele care au relaxat sancțiunile.¹⁴² Concluziile coincid cu studiul OMS asupra a 17 state,¹⁴³ cu studiul comparativ al Ministerului de Interne britanic¹⁴⁴ și cu o analiză realistă a alternativelor la incriminare în nouă state, care a constatat că acestea reduc daunele criminalizării fără a crește consumul.¹⁴⁵ Cazurile particulare confirmă, de asemenea, regula: în Portugalia, consumul recent și consumul problematic chiar au scăzut după dezincriminare;¹⁴⁶ în Cehia, dezincriminarea nu a coborât vârsta de debut,¹⁴⁷ iar consumul adolescenților scade constant;¹⁴⁸ chiar și în Germania, după legalizarea canabisului, măsură mult mai amplă decât cea propusă aici, primele date oficiale arată că prevalența consumului în rândul minorilor de 12–17 ani nu a crescut, rămânând practic neschimbată, cu o scădere în rândul fetelor.¹⁴⁹ Reciproc, incriminarea, și-a dovedit ineficacitatea: când Cehia a incriminat deținerea în 1999, evaluarea guvernamentală a constatat că disponibilitatea nu a scăzut, consumul a continuat să crească, iar costurile publice au explodat.¹⁵⁰ România însăși este, de altfel, proba cea mai la îndemână: două decenii de incriminare au coexistat cu o creștere de 75% a consumului.¹⁵¹
+
+Exemplul statului american Oregon (Măsura 110, 2021–2024) este, de asemenea, invocat frecvent drept un model eșuat. Cu toate acestea, două studii cauzale publicate în JAMA Psychiatry și JAMA Network Open au demonstrat că dezincriminarea din Oregon nu a fost asociată cu creșterea deceselor prin supradoză: creșterea mortalității a fost cauzată de pătrunderea fentanilului pe piața ilicită din nord-vestul american, fenomen care a afectat și statele vecine care nu dezincriminaseră - analiza care atribuise inițial Măsurii 110 o creștere a deceselor s-a dovedit eronată odată ce difuzarea fentanilului a fost luată în calcul. ¹⁵² ¹⁵³ Prezentul proiect asociază regimul contravențional cu accesul la evaluare și asistență prin mecanismul prevăzut la art. 19. Dispunerea evaluării aparține organului competent să aplice sancțiunea și este obligatorie în cazul minorilor; evaluarea și includerea în program respectă consimțământul prevăzut de lege. Amenzile se fac venit la bugetul de stat, cu destinația stabilită la art. 23 alin. (8), iar accesul efectiv la servicii depinde de organizarea și finanțarea acestora.
+
+O altă obiecție comună este aceea a dezincriminării care ar putea, de fapt, ajuta traficul de substanțe. În acest sens, dezincriminarea propusă privește faptele săvârșite pentru consum propriu; producerea și deținerea în vederea traficului, precum și vânzarea și distribuirea, rămân infracțiuni cu pedepsele actuale, iar finanțarea traficului se sancționează în continuare agravat (art. 9).¹⁵⁴ Efectul real asupra pieței este invers celui invocat: eliberând poliția și parchetele de zecile de mii de dosare de consum, care reprezintă astăzi peste trei sferturi din activitatea DIICOT¹⁵⁵, reforma redirecționează resursele represive către traficanți, acolo unde capacitatea actuală de interceptare a României este scăzută. Experiența cehă este descrisă chiar în acești termeni: contravenționalizarea posesiei minore permite poliției „să își mențină atenția asupra traficului de amploare și a criminalității violente”.156
+
+O altă temere este că România ar putea deveni o destinație turistică pentru droguri - temere care a fost formulată identic înaintea reformei portugheze și a celei cehe, fără a se materializa în cazul portughez, cel mai bine documentat: evaluările internaționale au consemnat expres că dezincriminarea portugheză nu a generat turism al drogurilor.¹⁵⁷ Explicația este aceea că dezincriminarea nu creează nicio ofertă legală, adică vânzarea rămâne infracțiune. Fenomenele de turism apar în jurul regimurilor de vânzare reglementată (modelul olandez al coffeeshop-urilor), pe care proiectul nu le propune. În plus, deținerea rămâne ilicită și sancționată, contravențional.
+
+## SECȚIUNEA A 3-A. IMPACTUL SOCIOECONOMIC.
+
+Pe baza datelor românești prezentate în Secțiunea a 2-a și a dovezilor internaționale acumulate în jurisdicțiile care au parcurs deja această reformă spre dezincriminare, efectele prognozate ale proiectului pentru România sunt următoarele:
+
+3.1. Degrevarea sistemului de justiție și reorientarea resurselor către marele trafic. Dosarele de droguri reprezintă astăzi 77,51% din activitatea DIICOT (37.419 de cauze în 2025), iar peste 80% dintre acestea vizează cantități mai mici de 5 grame; ¹⁵⁸ aproximativ 80% dintre persoanele cercetate penal pentru infracțiuni la regimul drogurilor sunt simpli consumatori. ¹⁵⁹ Prin trecerea faptelor de consum propriu în sfera contravențională, cu constatarea de către categoriile de agenți prevăzute de lege și aplicarea sancțiunii de către formațiunile specializate, fără parcurgerea procesului penal pentru simplul consum propriu, dar cu posibilitatea controlului judecătoresc în materie contravențională, este de așteptat ca cea mai mare parte a acestui volum să iasă din circuitul penal, eliberând mii de ore de muncă ale polițiștilor, procurorilor și judecătorilor. Experiența britanică oferă, astfel, un exemplu de calcul: simpla înlocuire a arestării cu avertismentul stradal pentru posesia de canabis a economisit, într-un singur an, peste 269.000 de ore de muncă polițienească. ¹⁶⁰ Pentru România, unde restanța DIICOT pe droguri a ajuns la aproape 22.000 de dosare, ¹⁶¹ efectul de decongestionare ar fi imediat și substanțial, iar resursele eliberate ar putea fi direcționate către creșterea capacității de interceptare a marelui trafic. ¹⁶² Acesta este, de altfel, tiparul portughez: ponderea infractorilor de drept comun în materie de droguri în sistemul penal s-a redus la mai puțin de jumătate în primul deceniu de la reformă. ¹⁶³
+
+3.2. Reducerea presiunii asupra sistemului penitenciar și executarea hotărârii-pilot de reducere a populației încarcerate. Încetarea fluxului de consumatori către penitenciare (în 2021, peste 70% dintre consumatorii condamnați au primit o formă a pedepsei cu închisoarea ¹⁶⁴ ) și aplicarea legii penale de dezincriminare faptelor anterioare (art. III din proiect, care prevede intervenția instanței competente în faza executării) vor reduce gradul de ocupare al penitenciarelor, aflat la 116,3% la 31 ianuarie 2024, contribuind direct la executarea măsurilor generale dispuse de Curtea Europeană a
+
+Drepturilor Omului prin hotărârea-pilot Rezmiveș, care cere expres reducerea populației carcerale.¹⁶⁵ În Portugalia, ponderea deținuților condamnați pentru infracțiuni la regimul drogurilor a scăzut de la peste 40% la 15,7% după dezincriminare.¹⁶⁶
+
+3.3. Ameliorarea indicatorilor de sănătate publică. Pe baza tiparului constatat în Portugalia, Elveția și Cehia, sunt de așteptat: (i) creșterea semnificativă a numărului de consumatori problematici care accesează voluntar serviciile de tratament, odată dispărută frica de răspundere penală - în Portugalia, numărul persoanelor în tratament a crescut cu peste 60% în primii ani de la reformă; ¹⁶⁷ (ii) reducerea transmiterii HIV și a hepatitei C în rândul consumatorilor injectabili, pe măsură ce serviciile de reducere a riscurilor pot opera la vedere - Portugalia a redus noile diagnostice HIV asociate injectării de la 1.287 la 16-20 de cazuri anual, iar Cehia menține o prevalență HIV sub 1% la consumatorii injectabili; ¹⁶⁸ (iii) pe termen mediu, reducerea mortalității asociate drogurilor, după modelul elvețian (înjumătățire în 13 ani) și portughez (printre cele mai scăzute rate din UE). ¹⁶⁹ Aceste efecte sunt condiționate de finanțarea efectivă și de capacitatea serviciilor, susținute prin destinația veniturilor din amenzi prevăzută la art. 23 alin. (8), și de continuarea finanțării programelor de reducere a riscurilor, a căror prăbușire a contribuit la epidemia HIV din 2011-2013. ¹⁷⁰
+
+3.4. Protejarea capitalului uman: tinerii, educația și piața muncii. Eliminarea cazierului judiciar pentru faptele de consum propriu înlătură principala consecință socială a regimului actual. Datele comparative arată că sancțiunea administrativă produce același efect asupra consumului precum cea penală, dar reduce de 16 ori incidența consecințelor negative asupra locului de muncă (2% față de 32%). ¹⁷¹ Pentru o țară aflată în criză demografică și de forță de muncă, încetarea producției anuale a sute de tineri cu cazier, (în medie, un consumator condamnat pe zi din 2021 încoace) ¹⁷² , este și o măsură de protecție a capitalului uman național. Totodată, redefinirea juridică a consumatorului din infractor în persoană care poate avea nevoie de asistență reduce stigmatizarea, despre care cercetarea arată că este bariera principală în calea solicitării și primirii de ajutor.
+
+3.5. Impactul asupra nivelului consumului: neutru. Pe baza dovezilor disponibile, revizuirea sistematică a 114 studii, analizele EMCDDA, experiența directă a Portugaliei, Cehiei și a celorlalte jurisdicții, nu există temei pentru a prognoza o creștere a consumului ca efect al reformei.¹⁷³ Variabilele care determină consumul (disponibilitatea, prețul, factorii socioeconomici) s-au dovedit, în ansamblul evaluărilor, în mare măsură independente de regimul sancționator al consumatorului.
+
+## SECȚIUNEA A 4-A. IMPACTUL FINANCIAR ASUPRA BUGETULUI GENERAL CONSOLIDAT
+
+Din punct de vedere bugetar, proiectul poate produce economii prin restrângerea intervenției penale și creează o sursă de venit cu destinație pentru prevenire și asistență. Evaluarea impactului net trebuie să distingă aceste efecte de costurile procedurii contravenționale și ale serviciilor medicale și sociale necesare aplicării legii:
+
+(1) Reducerea numărului de dosare penale și a costurilor de încarcerare pentru faptele dezincriminate poate genera economii. Costul de circa 11 milioane de euro anual asociat detenției pentru ansamblul infracțiunilor la regimul drogurilor nu reprezintă însă o economie realizabilă integral prin acest proiect, deoarece traficul și celelalte fapte menținute ca infracțiuni rămân sancționate penal.¹⁷⁴ Economiile procedurale trebuie evaluate distinct, ținând seama de timpul de lucru eliberat la nivelul poliției, parchetelor și instanțelor, precum și de activitățile care continuă în procedura contravențională. Datele Ministerului Justiției comunicate în 2026 descriu amploarea costurilor actuale: costul mediu anual al unui deținut (fără cheltuielile de personal) a fost în 2025 de 22.409,73 lei, în creștere de la 10.519,21 lei în 2020. Raportat la cei 2.457 de deținuți pentru infracțiuni la regimul drogurilor (toate articolele Legii nr. 143/2000 și ale Legii nr. 194/2011), rezultă un cost total de peste 55 de milioane de lei anual (circa 11 milioane de euro), fără a include nici cheltuielile de personal, nici costurile urmăririi penale și ale judecății. Pentru deținerea în vederea consumului propriu (art. 4), una dintre categoriile vizate direct de dezincriminare, au fost pronunțate 88 de condamnări cu închisoare cu executare în 2025 (în medie circa 72 pe an în perioada 2020–2025); întrucât pedepsele aplicate la art. 4 sunt scurte, populația aflată în detenție pentru aceste fapte la un moment dat este de ordinul a 100–150 de persoane, echivalentul unor cheltuieli penitenciare directe de aproximativ 2–3 milioane de lei pe an (circa 450.000–700.000 de euro). Cea mai mare parte a economiilor reformei nu provine, așadar, din costurile de detenție, ci din eliminarea zecilor de mii de dosare penale (urmărire penală, expertize, judecată). Proiectul include și faptele transfrontaliere pentru consum propriu prevăzute la noile alin. (3) și (4) ale art. 3; economiile aferente acestora nu sunt cuantificate separat aici. Analizele de laborator, ridicarea, păstrarea, confiscarea și distrugerea drogurilor continuă să presupună costuri și în regimul contravențional.
+
+Cheltuielile de aplicare a legii (271,3 milioane lei numai la nivelul Poliției Române în 2024) nu sunt contabilizate aici drept economii: ele reprezintă capacitate operațională care, prin degrevarea de dosarele de consum, poate fi redirecționată către combaterea mareului trafic, potrivit logicii Secțiunii 3.1.
+
+(2) Amenzile contravenționale, cu limite ale formelor de bază cuprinse între 1.000 și 3.500 lei și maxime majorate până la 7.000 lei în cazurile prevăzute de art. 13 alin. (3), se fac venit la bugetul de stat și se direcționează, potrivit art. 23 alin. (8) introdus prin proiect, exclusiv către finanțarea programelor naționale și de interes național de prevenire și asistență medicală, psihologică și socială a consumatorilor, creând pentru prima dată o legătură directă între sancțiune și obiectivul de sănătate publică.
+
+(3) Randamentul investiției în tratament. Dovezile internaționale arată că fiecare unitate monetară investită în tratamentul dependenței economisește 4-7 unități din costurile criminalității și justiției, raport care ajunge la 12:1 cu includerea economicilor din sănătate,¹⁷⁵ iar evaluarea economică a reformei portugheze a constatat o reducere cu 18% a costurilor sociale totale ale drogurilor în primii unsprezece ani.¹⁷⁶ Aplicat la scara României, acest tipar indică economii sociale cumulate de ordinul sutelor de milioane de euro pe orizontul unui deceniu.
+
+(4) Implementarea presupune organizarea procedurii contravenționale și capacitate pentru evaluare și asistență, inclusiv gestionarea situațiilor de risc ale minorilor. Amenajarea și funcționarea eventualelor spații de prevenire a supradozelor presupun, la rândul lor, costuri de autorizare, dotare, personal și instruire. Proiectul stabilește cadrul legal, fără a fixa un număr de asemenea spații sau un buget distinct; aceste costuri trebuie fundamentate în etapa de implementare. Veniturile din amenzi completează finanțarea serviciilor, fără a garanta prin ele însele acoperirea tuturor necesităților.
+
+## SECȚIUNEA A 5-A. EFECTELE PROIECTULUI DE ACT NORMATIV ASUPRA LEGISLAȚIEI ÎN VIGOARE
+
+## 5.1. Fundamentarea juridică a soluțiilor legislative
+
+Prezenta subsecțiune explică mecanismul juridic al proiectului și compatibilitatea lui cu exigențele constituționale. Prezentarea modificărilor pe articole este cuprinsă în subsecțiunea 5.2.
+
+## 5.1.1. Natura juridică a intervenției și raportul dintre norme
+
+Din punct de vedere juridic, proiectul operează o dezincriminare, în sensul art. 4 din Codul penal, prin trecerea operațiunilor efectuate pentru consum propriu din sfera ilicitului penal în cea a ilicitului contravențional. Faptele rămân ilicite, fiind săvârșite „fără drept”.
+
+Noul art. 4 și noile alin. (3) și (4) ale art. 3 au caracterul unor norme speciale față de art. 2 și, respectiv, față de art. 3 alin. (1) și (2). Ori de câte ori operațiunea are ca scop consumul propriu al făptuitorului, se aplică exclusiv norma contravențională; în toate celelalte cazuri rămân aplicabile incriminările traficului.
+
+## 5.1.2. Delimitarea dintre consumul propriu și trafic în aplicarea legii
+
+Proiectul nu modifică modul în care se stabilește scopul în care au fost efectuate operațiunile cu droguri. Ca și în prezent, acesta se determină de la caz la caz (secțiunea 2.1.4). Ce se schimbă este parcursul procedural al cauzei.
+
+Agenții constatatori prevăzuți la art. 21¹ alin. (1) constată fapta și ridică substanța, dar nu aplică sancțiunea. Aceasta se aplică, potrivit alin. (3), de ofițerii și agenții din formațiunile specializate în prevenirea și combaterea traficului și consumului ilicit de droguri ale Poliției Române, pe baza materialului probator, inclusiv a raportului de analiză. Aprecierea asupra destinației drogurilor revine, astfel, personalului specializat, care cunoaște criteriile de delimitare folosite în cauzele de trafic.
+
+Dacă din împrejurări rezultă că fapta ar constitui infracțiune, este sesizat organul de urmărire penală, potrivit art. 30 alin. (1) din Ordonanța Guvernului nr. 2/2001, iar cauza urmează regulile procesului penal. În sens invers, atunci când urmărirea penală începută pentru trafic stabilește că drogurile erau destinate consumului propriu, fapta nu este prevăzută de legea penală, iar actele se trimit organului competent, potrivit art. 30 alin. (2) din aceeași ordonanță, în vederea aplicării sancțiunii contravenționale.
+
+## 5.1.3. Aplicarea legii în timp
+
+Art. III al proiectului aplică regulile constituționale și legale ale succesiunii legilor penale. Potrivit art. 15 alin. (2) din Constituție, legea dispune numai pentru viitor, cu excepția legii penale sau contravenționale mai favorabile. Potrivit art. 4 din Codul penal, legea penală nu se aplică faptelor săvârșite sub legea veche, dacă nu mai sunt prevăzute de legea nouă, iar executarea pedepselor, a măsurilor educative și a măsurilor de siguranță, precum și toate consecințele penale ale hotărârilor judecătorești privitoare la aceste fapte încetează prin intrarea în vigoare a legii noi.
+
+În cauzele aflate în curs, soluția este clasarea ori, după caz, achitarea, întrucât fapta nu mai este prevăzută de legea penală. Măsurile preventive, asigurătorii și de siguranță dispuse exclusiv pentru aceste fapte, cu excepția confiscării speciale a drogurilor, încetează de drept, potrivit art. III alin. (3). În privința hotărârilor definitive, instanța prevăzută la art. 595 alin. (2) din Codul de procedură penală, sesizată din oficiu potrivit art. III alin. (5), ia măsurile necesare pentru aplicarea art. 4 din Codul penal. Atunci când pedeapsa aplicată pentru fapta dezincriminată a fost contopită cu pedepse stabilite pentru alte infracțiuni, aceasta este înlăturată, iar pedeapsa rezultantă se stabilește din nou, numai pentru infracțiunile rămase. Încetează, pentru aceste fapte, și supravegherea exercitată de serviciile de probațiune.
+
+Condamnările pentru faptele dezincriminate nu mai atrag starea de recidivă, potrivit art. 42 lit. a) din Codul penal, iar persoanele condamnate sunt scoase din evidența cazierului judiciar, în condițiile art. 15 alin. (1) lit. a) din Legea nr. 290/2004, astfel cum prevede art. III alin. (6). Termenul de 30 de zile stabilit la art. III alin. (1) corespunde termenului general de intrare în vigoare a normelor contravenționale, prevăzut la art. 4 alin. (1) din Ordonanța Guvernului nr. 2/2001, astfel încât ieșirea faptelor din sfera penală și intrarea în vigoare a noului regim contravențional au loc la aceeași dată.
+
+## 5.1.4. Consecințele procesuale ale ieșirii din sfera penală
+
+În regimul propus, natura substanței se stabilește prin raport de analiză (art. 21¹ alin. (4)), urmat de aplicarea contravenției prin procesul-verbal de sancționare. Procesul-verbal poate fi contestat la judecătorie în termen de 15 zile, plângerea suspendă executarea, iar instanța verifică legalitatea și temeinicia actului și hotărăște asupra sancțiunii. Sancțiunea se individualizează în raport cu gravitatea faptei, putând fi aplicat avertismentul, iar contravenientul poate achita, în termen de 15 zile, jumătate din minimul amenzii.
+
+Constatarea contravenției se realizează cu mijloacele pe care legea le pune la îndemâna organelor de ordine publică pentru orice faptă ilicită, cum sunt, în cazul polițiștilor, legitimarea și controlul corporal și al bagajelor în vederea ridicării bunurilor supuse confiscării. Ori de câte ori există suspiciunea rezonabilă a unei fapte de trafic, toate instrumentele procesului penal folosite în prezent rămân disponibile.
+
+## 5.1.5. Constituționalitatea soluției
+
+Secțiunea 2.1.7 arată de ce incriminarea deținerii pentru consum propriu nu satisface exigențele principiului ultima ratio. Se impune și verificarea inversă: dacă, renunțând la sancțiunea penală, legiuiitorul rămâne în limitele Constituției. Curtea Constituțională a reținut că Parlamentul „nu-și poate exercita competența de incriminare și de dezincriminare a unor fapte antisociale, decât cu respectarea normelor și principiilor consacrate prin Constituție” și a cenzurat o dezincriminare prin care se crease „un inadmisibil vid de reglementare”.177
+
+Proiectul nu creează un asemenea vid. Operațiunile pentru consum propriu rămân ilicite și sancționate contravențional, iar faptele prin care drogurile ajung la alte persoane rămân infracțiuni, cu pedepsele actuale, astfel cum se arată în finalul secțiunii 2.2. Sănătatea publică și sănătatea persoanei rămân, așadar, ocrotite prin mijloace administrative, cărora legiutorul trebuie să le dea întâietate atunci când sunt apte să atingă scopul urmărit.
+
+## 5.1.6. Corelarea cu infrațiunea de contrabandă calificată
+
+Art. 271 alin. (1) din Legea nr. 86/2006 privind Codul vamal al României incriminează, sub denumirea de contrabandă calificată, introducerea în țară sau scoaterea din țară, fără drept, a unor categorii de bunuri între care sunt enumerate expres drogurile, fără nicio distincție după cantitate ori scop. Pedeapsa este închisoarea de la 3 la 12 ani și interzicerea unor drepturi, „dacă legea penală nu prevede o pedeapsă mai mare”. În prezent, această clauză de subsidiaritate face ca fapta să fie sancționată potrivit art. 3 din Legea nr. 143/2000, care prevede pedepse mai mari.
+
+După intrarea în vigoare a noilor alin. (3) și (4) ale art. 3, fapta săvârșită pentru consum propriu nu ar mai fi pedepsită de Legea nr. 143/2000, astfel încât clauza de subsidiaritate nu ar mai opera, iar art. 271 din Codul vamal ar deveni aplicabil. Consumatorul care trece frontiera cu o cantitate destinată consumului propriu ar răspunde în continuare penal, de această dată pentru contrabandă calificată, iar dezincriminarea ar rămâne fără efect tocmai în ipoteza care a generat cauza C-583/24. Art. II al proiectului înlătură această consecință: noul alin. (4) al art. 271 exclude aplicarea alin. (1) faptelor prevăzute la art. 3 alin. (3) și (4) din Legea nr. 143/2000. Excluderea este limitată strict la aceste fapte; introducerea în țară sau scoaterea din țară a drogurilor în orice alt scop rămâne infrațiune.
+
+## 5.1.7. Coerența cu regimul noilor substanțe psihoactive
+
+Reforma atenuează și o inconsecvență a legislației în vigoare. Noile substanțe psihoactive care nu sunt încă înscrise în tabelele anexă la Legea nr. 143/2000 intră sub incidența Legii nr. 194/2011, iar Înalta Curte de Casație și Justiție a statuat, cu caracter obligatoriu, că procurarea lor de către consumatorul final, exclusiv în vederea consumului propriu, nu intră sub incidența normei de incriminare din această lege.¹⁷⁸ În prezent, consumatorul unui drog înscris în tabele răspunde, așadar, penal, în timp ce consumatorul unei substanțe noi, ale cărei riscuri pentru sănătate sunt slab cunoscute și pot fi grave, nu răspunde.
+
+Această distincție are efecte practice. Ea orientează consumul către substanțele noi (secțiunea 2.1.5), al căror spectru nu este acoperit integral de aparatura de analiză toxicologică, ceea ce îngreunează, între altele, dovedirea conducerii unui vehicul sub influența acestor substanțe.¹⁷⁹ Prin scoaterea consumului propriu din sfera penală, proiectul reduce considerabil stimulentul juridic al acestei migrări și instituie un regim unitar: pe măsura înscrierii lor în tabelele anexă la Legea nr. 143/2000, substanțele noi intră sub control contravențional în privința consumului propriu și sub control penal în privința traficului, fără ca înscrierea unei substanțe să mai însemne transformarea în infractori a consumatorilor ei.
+
+## 5.2. Prezentarea modificărilor pe articole
+
+Art. I al proiectului modifică și completează Legea nr. 143/2000, republicată, prin următoarele 16 intervenții:
+
+1\. La art. 3, se introduc două noi alineate, (3) și (4). Se reglementează expres situația introducerii sau scoaterii din țară, a importului ori exportului de droguri în vederea consumului propriu, care devine contravenție, sancționată cu amendă de la 1.500 la 2.000 de lei pentru drogurile de risc și de la 2.000 la 3.500 de lei pentru drogurile de mare risc. Norma elimină tratarea consumatorului care trece frontiera drept traficant internațional și înlătură disproportiona pedepselor de la 5 la 20 de ani de închisoare prevăzute la art. 3 alin. (1) și (2), răspunzând direct deficientțelor semnalate în cauza C-583/24 și exigențelor Deciziei CCR nr. 176/2022.
+
+2\. Art. 4 se modifică integral. Deținerea și celelalte operațiuni efectuate pentru consum propriu (cultivarea, producerea, fabricarea, experimentarea, extragerea, prepararea, transformarea, cumpărarea) sunt transformate din infrațiune în contravenție, sancționată cu amendă de la 1.000 la 1.500 de lei (droguri de risc), respectiv de la 1.500 la 3.000 de lei (droguri de mare risc). Aceasta este măsura centrală de dezincriminare a consumatorului.
+
+3\. Art. 5 se modifică, păstrând incriminarea de la alin. (1) și introducând o excepție strict condiționată la alin. (2). Punerea la dispoziție a spațiului și tolerarea consumului în acesta nu constituie infracțiunea de la alin. (1) numai dacă spațiul este situat într-o unitate sanitară și autorizat de direcția de sănătate publică județeană sau a municipiului București; beneficiarii au cel puțin 18 ani și dependență diagnosticată de un medic de specialitate; consumul constă exclusiv în autoadministrarea substanțelor proprii; medici ori asistenți medicali cu drept de exercitare a profesiei, instruiți pentru intervenția în caz de supradoză, sunt prezenți pe întreaga durată a utilizării spațiului, cu mijloacele necesare intervenției medicale de urgență; iar unitatea sanitară și personalul acesteia nu procură și nu furnizează substanțele. Alin. (3) prevede că deținerea de droguri pentru consum propriu de către beneficiari, în incinta spațiilor autorizate, nu constituie contravenție. Alin. (4) încredințează ministrului sănătății aprobarea procedurii de autorizare, a normelor de amenajare și dotare, a cerințelor de instruire și a protocoalelor de supraveghere, intervenție și îndrumare către tratament și asistență psihologică și socială.
+
+4\. Art. 9 se modifică, în sensul corelării trimiterilor privind finanțarea faptelor. Sunt vizate art. 2, art. 3 alin. (1) și (2) și art. 5, în măsura în care faptele rămân infracțiuni; limita de aplicare a art. 5 este dată inclusiv de excepția sanitară nou introdusă. Se păstrează majorarea cu o treime a limitelor speciale ale pedepselor pentru finanțarea faptelor incriminate, fără includerea faptelor pentru consum propriu devenite contravenții.
+
+5\. La art. 12, alin. (1) se modifică, astfel încât tentativa să fie pedepsită pentru infracțiunile prevăzute la art. 2, art. 3 alin. (1) și (2), art. 6 alin. (2) și (3), art. 7 și 9. Se elimină trimiterea la art. 4 alin. (2), iar noile contravenții de la art. 3 nu sunt incluse în acest mecanism de răspundere penală.
+
+6\. La art. 13 alin. (1), lit. d) se modifică, actualizând trimiterile privind circumstanța agravantă a folosirii minorilor la săvârșirea faptelor prevăzute la art. 2, art. 3 alin. (1) și (2) și art. 5–10. Se păstrează astfel agravanta pentru faptele care rămân infracțiuni.
+
+7\. La art. 13 se introduce alin. (3), care dublează limita maximă a amenzii pentru contravențiile de la art. 3 alin. (3) și (4) și art. 4, dacă acestea sunt săvârșite în împrejurările de la alin. (1) lit. a) sau b) ori în locurile de la lit. c). Sunt avute în vedere exercitarea unei funcții de autoritate publică, calitatea de cadru medical ori de persoană cu atribuții în lupta împotriva drogurilor și locurile expres protejate, precum unitățile medicale, de învățământ, militare, de detenție ori de asistență socială și celelalte locuri enumerate de normă. Regula privește numai maximul amenzii și păstrează natura contravențională a faptei, permițând individualizarea unui răspuns mai sever în aceste situații.
+
+8\. Art. 14 se modifică, restrângând cauza de nepedepsire a denunțătorului la infrațiunile prevăzute la art. 2, art. 3 alin. (1) și (2) și art. 5–9. Se păstrează condițiile privind denunțul anterior începerii urmăririi penale și contribuția la identificarea și tragerea la răspundere penală a autorului sau a celorlalți participanți.
+
+9\. Art. 15 se modifică, cu aceeași corelare a trimiterilor la faptele care rămân infracțiuni. Se menține reducerea la jumătate a limitelor pedepsei pentru persoana care, în cursul urmăririi penale, denunță și facilitează identificarea și tragerea la răspundere penală a altor persoane care au săvârșit infracțiuni legate de droguri.
+
+10\. La art. 16, alin. (1) se modifică, corelând confiscarea penală cu infracțiunile prevăzute la art. 2, art. 3 alin. (1) și (2) și art. 5-9. Pentru noile contravenții, confiscarea drogurilor este prevăzută expres la art. 21¹ alin. (5), prin actul de aplicare a sancțiunii; nu este lăsată exclusiv trimiterii la dreptul comun.
+
+11\. La art. 17 se introduce alin. (5), care extinde corespunzător procedura prevăzută la alin. (1)-(4) la drogurile confiscate pentru noile contravenții, după ce procesul-verbal sau hotărârea judecătorească a devenit titlu executoriu. În comisia de distrugere, judecătorul delegat cu executarea este înlocuit de conducătorul formațiunii specializate care a dispus confiscarea ori de reprezentantul desemnat, iar un exemplar al procesului-verbal de distrugere se păstrează la această formațiune. Corelarea asigură trasabilitatea drogurilor confiscate și adaptarea procedurii la soluționarea contravențională.
+
+12\. Art. 18 se modifică. Pentru consumatorul condamnat la închisoare pentru o infracțiune prevăzută de Legea nr. 143/2000, instanța poate dispune includerea într-un program terapeutic derulat în sistemul penitenciar. Formularea proiectului leagă această posibilitate de infracțiunile prevăzute de lege și înlătură referirea anterioară la excepția faptelor de la art. 4, care devin contravenții.
+
+13\. Art 19 se înlocuiește integral cu cinci alineate care adaptează evaluarea și asistența noului regim. Organul competent să aplice sancțiunea poate dispune, prin actul de aplicare a acesteia, evaluarea de către centrele de sănătate mintală, pentru prevenirea și tratarea adicțiilor, organizate potrivit Ordonanței de urgență a Guvernului nr. 147/2024. Evaluarea se realizează cu consimțământul consumatorului. În funcție de raport, în termen de 5 zile de la primirea sa, organul competent dispune includerea în programul integrat de asistență cu acordul scris al persoanei. Dacă aceasta este deja inclusă într-un program, raportul se transmite centrului ori unității medicale care îi acordă asistență, pentru reevaluarea programului individual.
+
+Pentru minori, dispunerea evaluării este obligatorie, cu înștiințarea și în prezența părinților ori a reprezentantului legal, care trebuie să asigure prezentarea. Consimțământul este exprimat de aceștia, împreună cu minorul care a împlinit 14 ani. Dacă prezentarea nu este asigurată, în mod nejustificat, sau rezultă o situație de risc din evaluare ori din împrejurările faptei, organul competent ssizează de îndată serviciul public de asistență socială sau, după caz, direcția generală de asistență socială și protecția copilului, potrivit Legii nr. 272/2004. Noul alin. (5) consacră această garanție de protecție, astfel încât intervenția nu se reduce la aplicarea unei amenzi.
+
+14\. Art. 20 se abrogă. Norma, care permitea instanței să dispună renunțarea la aplicarea pedepsei sau amânarea aplicării pedepsei pentru inculpatul consumator inclus într-un program de asistență, rămâne fără obiect odată ce deținerea pentru consum propriu nu mai constituie infracțiune și nu mai există un „inculpat” în acest sens.
+
+15\. După art. 21 se introduce art. 21¹, cu șapte alineate. Constatarea contravențiilor revine polițiștilor din Poliția Română, polițiștilor de frontieră, polițiștilor de penitenciare, jandarmilor și personalului vamal, în exercitarea atribuțiilor de serviciu. Agentul constatator ridică drogurile, le descrie în procesul-verbal și le predă de îndată, împreună cu acesta, formațiunii specializate. Ofițerii și agenții de poliție din formațiunile specializate ale Poliției Române aplică sancțiunea pe baza materialului probator, potrivit art. 21 alin. (2) din Ordonanța Guvernului nr. 2/2001. Dacă fapta constituie infracțiune, se procedează potrivit art. 30 alin. (1) din aceeași ordonanță, prin sesizarea organelor de urmărire penală.
+
+Natura substanței se stabilește prin raport de analiză al laboratoarelor specializate ale Poliției Române sau al altui laborator acreditat potrivit legii. Drogurile se confiscă prin actul de aplicare a sancțiunii și se distrug potrivit art. 17. Aplicarea sancțiunii se prescrie în termen de un an de la săvârșirea faptei, termen care permite administrarea probelor și efectuarea analizelor necesare. Procedura se completează cu Ordonanța Guvernului nr. 2/2001, inclusiv în privința garanțiilor persoanei sancționate și a contestării actelor. Soluția combină capacitatea de constatare a mai multor autorități cu aplicarea sancțiunii de personal specializat.
+
+16\. La art. 23 se introduce un nou alineat, (8). Sumele provenite din amenzile contravenționale se fac venit la bugetul de stat și se folosesc pentru finanțarea programelor naționale și a programelor de interes național de prevenire și asistență medicală, psihologică și socială a consumatorilor de droguri, asigurând astfel o legătură directă între sancțiune și obiectivul de sănătate publică.
+
+Art. II completează art. 271 din Legea nr. 86/2006 privind Codul vamal al României cu alin. (4). Acesta exclude aplicarea alin. (1) faptelor pentru consum propriu prevăzute la art. 3 alin. (3) și (4) din Legea nr. 143/2000. Corelarea împiedică menținerea răspunderii penale pentru aceleași fapte prin incriminarea din Codul vamal și asigură efectivitatea trecerii lor în sfera contravențională.
+
+Art. III reglementează intrarea în vigoare și măsurile tranzitorii, după cum urmează:
+
+Alin. (1) stabilește intrarea în vigoare la 30 de zile de la data publicării în Monitorul Oficial al României, Partea I, pentru pregătirea aplicării noului regim.
+
+Alin. (2) prevede aplicarea art. 4 din Codul penal faptelor pentru consum propriu săvârșite anterior intrării în vigoare și exclude sancționarea lor contravențională potrivit noii legi, precum și aplicarea art. 30 alin. (2) din Ordonanța Guvernului nr. 2/2001. Cauzele penale în curs se soluționează potrivit regimului dezincriminării, iar executarea pedepselor și consecințele penale încetează în condițiile legii; dosarele nu sunt transformate în proceduri de amendare retroactivă.
+
+Alin. (3) prevede încetarea de drept a măsurilor preventive, asigurătorii și de siguranță dispuse exclusiv pentru aceste fapte, cu excepția confiscării speciale a drogurilor. Persoanele reținute, arestate preventiv ori aflate în arest la domiciliu exclusiv pentru asemenea fapte sunt puse de îndată în libertate. Măsurile care au un temei distinct în alte fapte nu sunt înlăturate prin această dispoziție.
+
+Alin. (4) menține confiscarea drogurilor ridicate în cauzele privind faptele anterioare dezincriminate, indiferent de soluția dispusă, și distrugerea lor potrivit art. 17. Confiscările drogurilor dispuse prin hotărâri definitive anterioare rămân în ființă. Dezincriminarea nu conduce, așadar, la restituirea substanțelor.
+
+Alin. (5) stabilește sesizarea din oficiu a instanței competente potrivit art. 595 alin. (2) din Codul de procedură penală, în termen de 30 de zile de la intrarea în vigoare, pentru persoanele care execută o pedeapsă sau o măsură educativă pentru faptele dezincriminate. Administrația locului de deținere, serviciul de probațiune și, după caz, procurorul comunică situațiile cunoscute în același termen. Termenul privește sesizarea și comunicarea situațiilor, fără a institui un termen de 30 de zile pentru finalizarea tuturor procedurilor judiciare.
+
+Alin. (6) reglementează scoaterea din evidența cazierului judiciar pentru condamnările aferente faptelor dezincriminate, din oficiu, în condițiile art. 15 alin. (1) lit. a) din Legea nr. 290/2004, pe baza comunicării instanței sau, după caz, la cererea persoanei. Această măsură urmărește înlăturarea consecințelor condamnării pentru fapte care nu mai constituie infracțiuni.
+
+Alin. (7) impune Guvernului actualizarea, în termen de 60 de zile de la publicarea legii, a Regulamentului de aplicare aprobat prin Hotărârea Guvernului nr. 860/2005. Acest termen este distinct de cel al intrării în vigoare și de termenul pentru sesizarea instanței în faza executării. Ordinul ministrului sănătății prevăzut la noul art. 5 alin. (4) reprezintă un act subsecvent separat, necesar autorizării și funcționării spațiilor de prevenire a supradozelor; proiectul nu îi stabilește un termen expres de adoptare.
+
+Proiectul nu transpune și nu este incompatibil cu niciun act juridic al Uniunii Europene; dimpotrivă, el valorifică marja de apreciere recunoscută expres statelor membre prin art. 2 alin. (2) din Decizia-cadru 2004/757/JAI și răspunde preocupărilor de proporționalitate ridicate în fața Curții de Justiție a Uniunii Europene în cauza C-583/24.
+
+## SECȚIUNEA A 6-A. CONSULTĂRI. FUNDAMENTAREA ȘTIINȚIFICĂ
+
+Prezenta expunere de motive valorifică: pozițiile publice ale Asociației Române de Psihiatrie și Psihoterapie (2023), care solicită expres dezincriminarea posesiei pentru consum propriu; ¹⁸⁰ analizele de politici publice realizate pentru România de Friedrich-Ebert-Stiftung (2023); ¹⁸¹ rapoartele oficiale ale Agenției Naționale Antidrog, DIICOT și ale Agenției Uniunii Europene pentru Droguri; recomandările sistemului Națiunilor Unite (CEB 2019; OHCHR 2023), ale Organizației Mondiale a Sănătății și ale Grupului Pompidou al Consiliului Europei (2024); precum și literatura științifică internațională de evaluare a reformelor similare, citată în cuprins. Doctrinele juridice românești recente privind deficiențele structurale ale art. 3 din Legea nr. 143/2000 au fost, de asemenea, integrate. ¹⁸²
+
+## SECȚIUNEA A 7-A. CONCLUZII
+
+Prezentul proiect de lege reprezintă un pas necesar și întârziat de aliniere a legislației românești la dovezile științifice, la standardele organismelor internaționale și la dreptul Uniunii Europene. Prin dezincriminarea deținerii pentru consum propriu și prin clarificarea faptului că trecerea frontierei cu o cantitate destinată exclusiv consumului propriu nu constituie trafic internațional, proiectul corectează cele mai disproporționate și mai contraproductive efecte ale Legii nr. 143/2000, fără a slăbi în vreun fel lupta împotriva traficului de droguri; dimpotrivă, redirecționează resursele statului către aceasta.
+
+Măsura protejează tinerii de consecințele permanente ale cazierului judiciar, transformă consumatorul dintr-un infractor „vânat” într-un eventual beneficiar al serviciilor de sănătate, degrevează sistemul de justiție penală de trei sferturi din volumul său de dosare antidrog, contribuie la executarea hotărârii-pilot Rezmiveș și răspunde direct semnalelor de alarmă transmise de instanțele europene în cauza C-583/24. Ea se sprijină pe consensul comunității medicale românești, pe jurisprudența Curții Constituționale privind principiul ultima ratio și pe experiența verificată a statelor care au parcurs deja această reformă. Urmând exemplul unor state precum Portugalia, Cehia, Elveția sau chiar al vecinei Republici Moldova, proiectul așază sănătatea consumatorului, iar nu pedepsirea lui, în centrul politicii antidrog a României.¹⁸³
+
+Față de cele prezentate, a fost elaborat prezentul proiect de Lege pentru modificarea și completarea Legii nr. 143/2000 privind prevenirea și combaterea traficului și consumului ilicit de droguri, precum și pentru modificarea art. 271 din Legea nr. 86/2006 privind Codul vamal al României, pe care îl supunem Parlamentului spre adoptare.
+
+## ANEXĂ. TABELE ȘI GRAFICE STATISTICE
+
+Prezenta anexă sistematizează datele statistice citate în cuprinsul expunerii de motive, pe baza surselor primare: statistica judiciară a Consiliului Superior al Magistraturii (2007-2021); răspunsul Ministerului Justiției nr. 1254b/2026 (perioada 2020-2025, date ECRIS, completat în 2026 cu informații de la Administrația Națională a Penitenciarelor și Direcția Națională de Probațiune, precum și cu cele trei anexe statistice ale Consiliului Superior al Magistraturii); răspunsul Ministerului Afacerilor Interne nr. 9372/2023; răspunsul Ministerului Afacerilor Interne nr. 14867/2026 privind costurile publice ale aplicării legii; situația detaliată a capturilor DIICOT aferente anului 2024; rapoartele anuale de activitate ale DIICOT (2020-2025); și Raportul național privind situația drogurilor în România 2025, publicat de ANPCDDA.
+
+Tabelul 1. Persoane condamnate definitiv pentru infracțiuni prevăzute de Legea nr. 143/2000, 2016-2025
+
+| An | Art. 4 (consum propriu) | Art. 2 (trafic) | Art. 3 („trafic internațional”) | Ponderea art. 4 în total (%) |
+| --- | --- | --- | --- | --- |
+| 2016 | 78 | 672 | — | 9,7 |
+| 2017 | 101 | 691 | — | 11,4 |
+| 2018 | 141 | 562 | — | 16,2 |
+| 2019 | 155 | 590 | — | 17,4 |
+| 2020 | 165 | 411 | — | 22,3 |
+| 2021 | 354 | 559 | — | 36,6 |
+| 2022 | 392 | 747 | 76 | 32,1 |
+| 2023 | 395 | 704 | 100 | 32,9 |
+| 2024 | 472 | 756 | 91 | 35,8 |
+| 2025 | 520 | 873 | 113 | 34,5 |
+
+Surse: 2016–2021, Consiliul Superior al Magistraturii (seria CSM nu raportează distinct art. 3, iar ponderea este cea calculată de CSM în totalul condamnărilor la regimul drogurilor); 2022–2025, Ministerul Justiției, răspunsul nr. 1254b/2026 (ponderea art. 4 calculată în totalul condamnărilor definitive raportate pentru Legea nr. 143/2000). Pentru anii de suprapunere 2020–2021, seria Ministerului Justiției indică valori ușor diferite (211, respectiv 396 la art. 4; 474, respectiv 702 la art. 2; 54, respectiv 93 la art. 3), ca urmare a criteriilor diferite de numărare; tendința este identică în ambele serii.
+
+Notă suplimentară: seria CSM publicată în Raportul național ANPCDDA 2025 continuă până în 2024 cu valori mai mici decât seria ECRIS a Ministerului Justiției (art. 4: 352 în 2022, 358 în 2023, 374 în 2024; art. 2: 664, 627, 619), ca urmare a acelorași diferențe de metodologie; ambele serii indică aceeași tendință de creștere a ponderii consumatorilor în totalul condamnărilor.
+
+Graficul 1. Condamnări definitive pentru deținere de droguri pentru consum propriu (art. 4), 2016–2025. Surse: CSM (2016–2021); Ministerul Justiției (2022–2025).
+
+Graficul 2. Condamnări definitive pentru trafic (art. 2) față de deținere pentru consum propriu (art. 4), 2016-2025. În acest interval, condamnările consumatorilor au crescut de 6,7 ori, iar cele ale traficanților de 1,3 ori. Surse: CSM (2016-2021); Ministerul Justiției (2022-2025).
+
+Tabelul 2. Individualizarea pedepselor aplicate pentru deținere pentru consum propriu (art. 4), 2020-2025
+
+| An | Condamnați | Închisoare cu executare | Amendă penală | Suspendare sub supraveghere | Amânarea aplicării pedepsei |
+| --- | --- | --- | --- | --- | --- |
+| 2020 | 165 | 53 | 55 | 66 | 34 |
+| 2021 | 354 | 79 | 107 | 152 | 54 |
+| 2022 | 392 | 86 | 93 | 143 | 66 |
+| 2023 | 395 | 63 | 120 | 158 | 50 |
+| 2024 | 472 | 65 | 161 | 183 | 61 |
+| 2025 | 520 | 88 | 135 | 172 | 125 |
+
+Sursa: Ministerul Justiției, răspunsul nr. 1254b/2026 (anexa Consiliului Superior al Magistraturii privind persoanele condamnate definitiv, 2020–2025). Pentru 2020–2021, totalul „Condamnați” urmează seria din Tabelul 1 (165, respectiv 354), în timp ce defalcarea pe tipuri de sancțiune provine din extragerea ECRIS, care indică totaluri ușor mai mari (211, respectiv 396) ca urmare a criteriilor diferite de numărare; de aceea, pentru acești doi ani, componentele nu se însumează exact la total. Pentru 2022–2025 sursa este unitară; componentele afișate nu includ măsurile educative aplicate minorilor, astfel încât totalul poate depăși cu câteva unități suma lor.
+
+Tabelul 3. Condamnări definitive pentru art. 3 („trafic internațional”, inclusiv trecerea frontierei pentru consum propriu), 2020-2025
+
+| An | Condamnați | Închisoare cu executare | din care 3-5 ani | din care 5-10 ani | din care peste 10 ani |
+| --- | --- | --- | --- | --- | --- |
+| 2020 | 54 | 39 | 16 | 11 | 1 |
+| 2021 | 93 | 36 | 26 | 7 | 2 |
+| 2022 | 76 | 45 | 15 | 19 | 3 |
+| 2023 | 100 | 53 | 23 | 20 | 0 |
+| 2024 | 91 | 62 | 25 | 30 | 5 |
+| 2025 | 113 | 88 | 40 | 35 | 5 |
+
+Sursa: Ministerul Justiției, răspunsul nr. 1254b/2026 (anexa Consiliului Superior al Magistraturii, date ECRIS). Intervalele afișate acoperă pedepsele de peste 3 ani; diferența până la totalul detenției o reprezintă pedepsele cu executare de până la 3 ani. Art. 3 nu distinge, în forma actuală a legii, între traficant și consumatorul care trece frontiera cu o cantitate pentru uz propriu, disproporție pe care prezentul proiect o corectează.
+
+Tabelul 4. Persoane nou-incarcerate pentru infracțiuni la regimul drogurilor, 2020-2025
+
+| An | Total persoane nou-incarcerate | Din care, pentru infracțiuni la regimul drogurilor | Pondere (%) |
+| --- | --- | --- | --- |
+| 2020 | 10.555 | 527 | 4,99 |
+| 2021 | 11.880 | 495 | 4,17 |
+| 2022 | 11.553 | 571 | 4,94 |
+| 2023 | 11.273 | 519 | 4,60 |
+| 2024 | 12.475 | 733 | 5,88 |
+| 2025 | 13.100 | 988 | 7,54 |
+
+Sursa: Ministerul Justiției — Administrația Națională a Penitenciarelor (răspunsul nr. 1254b/2026). La 31 decembrie 2025, ponderea deținuților pentru aceste infracțiuni în totalul populației penitenciare era de 9,66% (2.457 din 25.424 de persoane custodiate), mai mult decât dublă față de 4,66% în 2020.
+
+Ponderea deținuților pentru infracțiuni la regimul drogurilor în totalul populației penitenciare (31 decembrie), 2020-2025
+
+Graficul 5. Ponderea deținuților pentru infracțiuni la regimul drogurilor în totalul populației penitenciare (custodiați la 31 decembrie), 2020–2025. Sursa: Ministerul Justiției — Administrația Națională a Penitenciarelor (răspunsul nr. 1254b/2026).
+
+Fapte de deținere pentru consum propriu (art. 4) aflate sub supravegherea serviciilor de probațiune, 2020-2025
+
+Graficul 6. Fapte de deținere pentru consum propriu (art. 4) aflate sub supravegherea serviciilor de probațiune, 2020–2025. Sursa: Ministerul Justiției — Direcția Națională de Probațiune (răspunsul nr. 1254b/2026).
+
+Sinteza capturilor din anul 2023
+
+Capturile anului 2023: capturile sub 5 grame domină numeric, dar sunt neglijabile cantitativ
+
+Graficul 3. Capturile anului 2023: ponderea capturilor sub 5 grame în numărul total al capturilor, față de ponderea lor în cantitatea confiscată. Sursa: Raportul național privind situația drogurilor, ediția 2024 (date DCCO-IGPR și ANA).
+
+Graficul 3a. Media pe captură, anul 2023, pe categorii cantitative: capturile sub 5 grame față de capturile de peste un kilogram (scară logaritmică). Sursa: Raportul național privind situația drogurilor, ediția 2024 (date DCCO-IGPR și ANA).
+
+Opt ani de capturi la nivel stradal: ponderea capturilor sub 5 grame și media capturii mici, 2016-2023
+
+Graficul 3b. Structura capturilor principalelor droguri (heroină, cocaină, canabis iarbă, fragmente vegetale cu THC), 2016-2023: capturile sub 5 grame față de restul (bare, cu ponderi) și media capturii sub 5 grame (linie, axa din dreapta). Pragurile oficiale: nivel stradal sub 5 grame pe captură; piață medie între 5 grame și 1 kilogram; vânzare cu ridicata peste 1 kilogram. Sursa: Rapoartele naționale privind situația drogurilor, edițiile 2017-2024 (date DCCO-IGPR și ANA).
+
+Tabelul 5. Consumatori în arest preventiv față de consumatori în tratament substitutiv public, 2021-2022
+
+| An | Încarcerați în aresturile MAI pentru art. 2-3 (trafic) | Încarcerați în aresturile MAI pentru art. 4 (consum propriu) | Persoane în tratament substitutiv cu metadonă (CPECA/ANA) |
+| --- | --- | --- | --- |
+| 2021 | 1.010 | 651 | 225 |
+| 2022 | 1.065 | 681 | 254 |
+| 2023 (1 ian. - 2 | 201 | 105 | — |
+
+mar.)
+
+Sursa: Ministerul Afacerilor Interne, răspunsul nr. 9372 din 14 martie 2023 la întrebarea parlamentară nr. 8443A/2023, pe baza datelor IGPR și ANA.
+
+Notă de context: cifrele de mai sus privesc centrele CPECA ale rețelei publice antidrog, potrivit datelor MAI. La nivel național, incluzând toți furnizorii, numărul total al beneficiarilor de tratament de substituție cu metadonă a fost de 1.769 (2021), 1.728 (2022), 1.757 (2023) și 1.686 (2024), în stagnare de un deceniu (Graficul 14); pentru anii 2023-2025 nu au fost comunicate date actualizate privind persoanele încarcerate în aresturi pentru art. 4, seria totală a arestărilor preventive fiind prezentată în Tabelul 7 și în Graficul 8.
+
+Consumatori în aresturile MAI și persoane în tratament cu metadonă în rețeaua publică antidrog (CPECA), 2021-2022
+
+Graficul 4. Consumatori (art. 4) încarcerați în centrele de reținere și arestare preventivă ale MAI, față de persoanele aflate în tratament substitutiv cu metadonă în rețeaua publică (CPECA/ANA), 2021–2022. Sursa: MAI, răspunsul nr. 9372/2023.
+
+Secțiunea finală a anexei (Tabelele 6-10 și Graficele 7-16) valorifică răspunsul Ministerului Afacerilor Interne nr. 14867 din 10 iulie 2026 privind costurile publice associate aplicării Legii nr. 143/2000 (întrebarea nr. 1254a, pe baza datelor IGPR, IGJR și IGPF), rapoartele anuale de activitate ale DIICOT (2020-2025) și Raportul național privind situația drogurilor în România 2025, publicat de ANPCDDA.
+
+Tabelul 6. Persoane conduse la sediul poliției, în lipsa unui mandat, ca urmare a depistării unor substanțe susceptibile de a avea efect psihoactiv, 2020-2025
+
+| An | Persoane conduse la sediul poliției (total) | din care minori |
+| --- | --- | --- |
+| 2020 | 2.571 | 161 |
+| 2021 | 2.971 | 159 |
+| 2022 | 3.628 | 178 |
+| 2023 | 5.055 | 270 |
+| 2024 | 5.740 | 333 |
+| 2025 | 6.531 | 476 |
+
+Sursa: MAI, răspunsul nr. 14867/2026. În răspunsul nr. 9372 din martie 2023, aceeași instituție declara că aceste date nu pot fi extrase, bazele de date nefiind „structurate în funcție de motivul conducerii persoanelor la sediul poliției".
+
+Persoane conduse la sediul poliției fără mandat, pentru substanțe psihoactive, 2020-2025
+
+Graficul 7. Persoane conduse la sediul poliției, în lipsa unui mandat, pentru substanțe psihoactive, 2020-2025: total (bare) și minori (linie, axa din dreapta). Sursa: MAI, răspunsul nr. 14867/2026.
+
+Tabelul 7. Rețineri și arestări preventive pentru infracțiuni prevăzute de Legea nr. 143/2000, 2020-2025
+
+| An | Reținuți | Arestați preventiv | Durata medie a arestului preventiv (zile) |
+| --- | --- | --- | --- |
+| 2020 | 248 | 728 | 68 |
+| 2021 | 70 | 520 | 83 |
+| 2022 | 108 | 581 | 81 |
+| 2023 | 91 | 712 | 84 |
+| 2024 | 95 | 980 | 83 |
+| 2025 | 112 | 1.106 | 73 |
+
+Sursa: MAI, răspunsul nr. 14867/2026 (date IGPR; măsuri dispuse ca urmare a începerii urmăririi penale). Durata medie a reținerii a fost constant de o zi. Minori introduși în centrele de reținere și arestare preventivă în baza mandatelor de arestare: unul în 2021, unul în 2024 și patru în 2025. Baza de date a Poliției Române nu permite defalcarea măsurilor preventive pe tipul suspiciunii (art. 2, 3 ori 4).
+
+Arestarea preventivă pentru infracțiuni la regimul drogurilor, 2020-2025
+
+Graficul 8. Persoane arestate preventiv pentru infracțiuni la regimul drogurilor (bare) și durata medie a arestului preventiv (linie, axa din dreapta), 2020-2025. Sursa: MAI, răspunsul nr. 14867/2026.
+
+Tabelul 8. Cheltuieli angajate de Poliția Română (IGPR), din bugetul propriu, pentru activități de reducere a ofertei de droguri, 2020-2024 (lei)
+
+| An | Cheltuieli de personal | Bunuri și servicii | Proiecte cu finanțare externă | Active nefinanciare | Total |
+| --- | --- | --- | --- | --- | --- |
+| 2020 | 36.408.782 | 960.324 | - | - | 37.369.106 |
+| 2021 | 39.684.280 | 943.903 | 2.705.112 | - | 43.333.295 |
+| 2022 | 45.211.492 | 3.888.462 | 2.111.973 | - | 51.211.927 |
+| 2023 | 50.307.568 | 4.841.896 | 22.725 | - | 55.172.189 |
+| 2024 | 83.006.500 | 44.495.932 | - | 143.845.240 | 271.347.672 |
+
+Sursa: MAI, răspunsul nr. 14867/2026, pe baza datelor din Raportul național privind situația drogurilor. Rapoartele naționale publică, pentru 2022 și 2023, sumele aggregate angajate de IGPR din bugetul propriu pentru activități de reducere a ofertei (49.099.954 lei, respectiv 55.149.463 lei, la categoria bugetară ordine și siguranță publică), care corespund exact defalcărilor comunicate de MAI; defalcările pe categorii, precum și valorile pentru 2020-2021 și 2024, provin din evidențele IGPR transmise prin răspunsul MAI. Sumele nu includ cheltuielile DIICOT, ale instanțelor, ale penitenciarelor, ale Poliției de Frontieră ori ale Jandarmeriei, astfel încât costul total al aplicării legii este substanțial mai mare. Pentru comparație, alocarea efectivă a ANA pentru cele două programe naționale de prevenire și asistență a fost, în 2024, de 5.327.000 lei (Graficul 16). MAI precizează că fondurile structurilor Poliției Române nu sunt evidențiate distinct pe categorii de activități operative, iar numărul polițiștilor alocați combaterii traficului este clasificat „secret de serviciu”.
+
+Cheltuielile Poliției Române (IGPR), din bugetul propriu, pentru activitățile de reducere a ofertei de droguri, pe categorii, 2020-2024 (milioane lei)
+
+Graficul 9. Cheltuieli angajate de Poliția Română (IGPR), din bugetul propriu, pentru activități de reducere a ofertei de droguri, pe categorii, 2020-2024 (milioane lei). Sursa: MAI, răspunsul nr. 14867/2026; sumele aggregate pentru 2022-2023 corespund celor publicate în Rapoartele naționale.
+
+Tabelul 9. Câini de serviciu specializați în detectarea substanțelor interzise, pe structuri, 2020-2025
+
+| An | Poliția Română (IGPR) | Poliția de Frontieră (IGPF) | Jandarmeria (IGJR) | Total |
+| --- | --- | --- | --- | --- |
+| 2020 | 8 | 10 | - | 18 |
+| 2021 | 5 | 13 | - | 18 |
+| 2022 | 6 | 32 | - | 38 |
+| 2023 | 10 | 43 | 1 | 54 |
+| 2024 | 38 | 50 | 2 | 90 |
+| 2025 | 90 | 66 | 5 | 161 |
+
+Sursa: MAI, răspunsul nr. 14867/2026. Jandarmeria dispune de câini specializați începând cu 2023. Eficiența semnalărilor: în semestrul I 2026 (1 ianuarie - 2 iulie), echipele canine ale Poliției Române au participat la 1.411 misiuni operative (5 cercetări la fața locului, 169 de percheziții și 1.237 de acțiuni și razii), soldate cu 65 de semnalări pozitive; câinii Poliției de Frontieră au realizat, în perioada 2020-2025, 220 de semnalări, dintre care 47 (21%) s-au confirmat; câinii Jandarmeriei au generat, în 2025-2026, două semnalări, ambele confirmate. Nu există o evidență statistică a cantităților descoperite în urma semnalărilor canine.
+
+Câini de serviciu specializați în detectarea substanțelor interzise, pe structuri, 2020-2025
+
+Graficul 10. Câini de serviciu specializați în detectarea substanțelor interzise, pe structuri, 2020-2025. Sursa: MAI, răspunsul nr. 14867/2026.
+
+Echipele canine specializate în detectarea substanțelor psihoactive: misiuni cu obiectiv antidrog față de semnalările pozitive, respectiv confirmate
+
+Graficul 10a. Echipele canine specializate în detectarea substanțelor psihoactive: misiunile operative la care au participat (percheziții, acțiuni și razii care au inclus obiectivul depistării de substanțe) față de semnalările pozitive effective (Poliția Română, semestrul I 2026), respectiv semnalările câinilor antidrog față de cele confirmate (Poliția de Frontieră, 2020-2025). Sursa: MAI, răspunsul nr. 14867/2026.
+
+Tabelul 10. Activitatea operativă a structurilor MAI având ca obiectiv drogurile, 2020-2025
+
+| An | Acțiuni de ordine publică cu obiectiv antidrog\` | din care filtre rutiere | Polițiști mobilizați | Acțiuni operative ale structurilor de combatere (IGPR) |
+| --- | --- | --- | --- | --- |
+| 2020 | 7.520 | 3.582 | 571 | 810 |
+| 2021 | 9.317 | 4.730 | 573 | 895 |
+| 2022 | 10.315 | 6.120 | 622 | 846 |
+| 2023 | 12.176 | 6.731 | 689 | 897 |
+| 2024 | 12.361 | 7.176 | 728 | 991 |
+| 2025 | 16.562 | 10.112 | 748 | 969 |
+
+Sursa: MAI, răspunsul nr. 14867/2026. Acțiunile de ordine publică includ acțiunile în spații publice, filtrele rutiere și acțiunile de alte tipuri. Pentru context, în anul 2025 au fost destructurate 52 de grupări infraționale (339 de membri), cu capturi totale de 3.102,47 kg de droguri, 53.820 de comprimate, 3.682 de doze de LSD și 2.258 de plante de cannabis.
+
+Serii statistice complementare: DIICOT și ANPCDDA
+
+Graficul 11. Structura cauzelor de soluționat ale DIICOT în anul 2024, pe tipuri de infracțiuni. Sursa: DIICOT, Raportul de activitate 2024.
+
+Opt ani de capturi la nivel stradal: ponderea capturilor sub 5 grame și media capturii mici, 2016-2023
+
+Graficul 12. Inculpați trimiși în judecată de DIICOT pentru infracțiuni la regimul drogurilor și, dintre aceștia, arestați preventiv la trimiterea în judecată, 2019-2025. Sursa: rapoartele anuale de activitate ale DIICOT, 2020-2025.
+
+Notă: scăderea din 2025 față de 2024 este consemnată expres de raportul DIICOT (3.397 față de 3.662 inculpați trimiși în judecată, scădere cu 7,24%; 1.472 față de 1.545 arestați preventiv trimiși în judecată, scădere cu 4,73%) și survine pe fondul creșterii puternice a cauzelor soluționate, de la 9.594 la 13.451: din cele 13.451 de cauze privind drogurile soluționate în 2025, doar 2.105 (15,6%) au fost finalizate prin rechizitoriu ori prin acord de recunoaștere a vinovăției, restul fiind închise fără trimitere în judecată.
+
+Cauzele DILCOT privind drogurile, 2019-2025: volumul de soluționat crește mult mai repede decât capacitatea de soluționare
+
+Graficul 13. Cauzele DIICOT privind drogurile: volum de soluționat și cauze soluționate pe fond, 2019-2025. Sursa: rapoartele anuale de activitate ale DIICOT.
+
+Notă: pentru anul 2025, Raportul de activitate al DIICOT folosește în secțiunea dedicată drogurilor și în graficul comparativ cifra de 37.419 cauze de soluționat, consecventă cu ponderea declarată de 77,51% din 48.279; cifra de 37.149, care apare o singură dată în raport, este inconsecventă cu aceste valori, motiv pentru care prezentul document folosește 37.419.
+
+Beneficiari ai tratamentului de substituție cu metadonă la nivel național, 2011-2024: stagnare sub 2.000 de persoane
+
+Graficul 14. Beneficiari ai tratamentului de substituție cu metadonă la nivel național, 2011-2024. Sursa: ANPCDDA, Raportul național privind situația drogurilor în România, 2025.
+
+Infraciuni de conducere sub influența substanțelor psihoactive (art. 336 Cod penal), 2016-2024: instrument neatins de prezentul proiect
+
+Graficul 15. Infracțiuni de conducere sub influența substanțelor psihoactive (art. 336 Cod penal), 2016-2024. Depistările au crescut de 40 de ori, iar acest instrument, care vizează comportamentul periculos, rămâne neatins de prezentul proiect. Sursa: ANPCDDA, Raportul național 2025 (date ale Direcției Rutiere, IGPR).
+
+Graficul 16. Cheltuielile Poliției Române pentru activitățile de reducere a ofertei (271,3 milioane lei, fără parchete, instanțe și penitenciare) față de alocarea ANA pentru programele naționale de prevenire și asistență (5,33 milioane lei), anul 2024. Surse: MAI, răspunsul nr. 14867/2026; ANA/ANPCDDA, Rapoartele naționale.
+
+¹ Direcția de Investigare a Infracțiunilor de Criminalitate Organizată și Terorism (2026) Raport de activitate 2025. București: DIICOT, februarie 2026.
+
+² Zaha, V.-G., Dumitriu, A. și Militaru, C.-A. (2023) Politicile publice antidrog în România. Între justiție penală și sănătate publică. București: Friedrich-Ebert-Stiftung România; Zaha, V.-G. (2023) 'Toate legile antidrog prin care vor să ne execute tinerii, pentru voturi', PressOne, 17 februarie.
+
+³ Agenția Națională Antidrog (2022) Raport Național privind Situația Drogurilor. București: ANA (date pentru anul 2021).
+
+⁴ Ministerul Justiției (2026) Răspunsul nr. 1254b din mai 2026 la întrebarea parlamentară, anexa „Situația persoanelor condamnate definitiv pe rolul instanțelor din România, în perioada 2020–2025, în cauzele al căror obiect se referă la săvârșirea de infracțiuni prevăzute de Legea nr. 143/2000" (date ECRIS). Pentru anii de suprapunere, seria CSM (165 de condamnați în 2020; 354 în 2021) și seria Ministerului Justiției (211; 396) diferă ca urmare a criteriilor diferite de numărare (raportarea la obiectul principal, respectiv la ansamblul obiectelor cauzei), tendința fiind însă identică în ambele serii.
+
+⁵ Ministerul Afacerilor Interne (2023) Răspunsul nr. 9372 din 14 martie 2023 la întrebarea parlamentară nr. 8443A/2023, întocmit pe baza datelor Inspectoratului General al Poliției Române și ale Agenției Naționale Antidrog.
+
+⁶ Consiliul Europei (2024) SPACE I – Council of Europe Annual Penal Statistics: Prison populations 2024. Strasbourg: Consiliul Europei (date la 31 ianuarie 2024).
+
+7 Curtea Europeană a Drepturilor Omului (2017) Rezmiveș și alții împotriva României, cererile nr. 61467/12, 39516/13, 48231/13 și 68191/13, hotărârea din 25 aprilie 2017 (hotărâre-pilot); anterior, Iacov Stanciu împotriva României, nr. 35972/05, hotărârea din 24 iulie 2012.
+
+8 Ministerul Afacerilor Interne (2026) Răspunsul nr. 14867 din 10 iulie 2026 la întrebarea parlamentară nr. 1254a privind costurile publice asociate activităților de aplicare a Legii nr. 143/2000 (senator Victoria Stoiciu), întocmit pe baza datelor Inspectoratului General al Poliției Române, ale Inspectoratului General al Jandarmeriei Române și ale Inspectoratului General al Poliției de Frontieră. Prin O.U.G. nr. 147/2024, atribuțiile Agenției Naționale Antidrog au fost preluate de Agenția Națională pentru Politici și Coordonare în Domeniul Drogurilor și Adicțiilor (ANPCDDA), iar centrele de prevenire, evaluare și consiliere antidrog au fost reorganizate în centre de sănătate mintală și pentru prevenirea adicțiilor.
+
+antidrog au fost reorganizate în celur de 9 Agenția Națională pentru Politici și Coordonare în Domeniul Drogurilor și al Adicțiilor (2026) Raport național privind situația drogurilor în România, 2025. București: ANPCDDA (pentru alocarea programelor naționale, secțiunea 2.4); Ministerul Afacerilor Interne (2026), răspunsul nr. 14867 din 10 iulie 2026 (pentru cheltuielile angajate de IGPR, din bugetul propriu, pentru activitățile de reducere a ofertei).
+
+¹⁰ Ministerul Afacerilor Interne (2026), op. cit. (răspunsul nr. 14867 din 10 iulie 2026, datele privind echipele canine).
+
+¹¹ Ministerul Afacerilor Interne (2022) Strategia Națională în Domeniul Drogurilor 2022–2026, aprobată prin H.G. nr. 344/2022, Anexa 1, București: MAI.
+
+2026, aprobată prin H.G. nr. 344/2022, Aneka B, 1987; ANPCDDA (2026), op. cit. (ancheta General Population Survey 2024, comparativ cu GPS 2019).
+
+¹³ Institutul Național de Sănătate Publică (2025) 26 iunie – Ziua internațională de luptă împotriva abuzului și traficului ilicit de droguri, 26 iunie 2025 (pe baza datelor din Raportul Național privind Situația Drogurilor, ANA, 2024).
+
+Național privind Situația Droguri, 2025: European Drug Report 2025: Trends and Developments — secțiunea „Opioid agonist treatment”. Lisabona: EUDA.
+
+and Developments — Section 1 of the report of 15 Botescu, A. et al. (2012) HIV/AIDS among injecting drug users in Romania. Report of a recent outbreak and initial response policies. Lisabonia: EMCDDA; Paraschiv, S. et al. (2017) 'Epidemic dispersion of HIV and HCV in a population of co-infected Romanian injecting drug users', PLOS ONE, 12(10), e0185866.
+
+¹⁶ Curtea de Justiție a Uniunii Europene, cauza C-583/24 (Tagu), cerere de decizie preliminară introdusă de Rechtbank Amsterdam la 5 septembrie 2024; Uniunea Europeană (2012) Carta drepturilor fundamentale a Uniunii Europene, art. 49 alin. (3).
+
+(2012) Carta drepturilor Fundamentals 17 Nagin, D.S. (2013) 'Deterrence in the Twenty-First Century', Crime and Justice, 42(1), pp. 199–263; MacCoun, R. și Reuter, P. (2001) Drug War Heresies: Learning from Other Vices, Times, and Places. Cambridge: Cambridge University Press.
+
+¹⁸ Degenhardt, L. et al. (2008) 'Toward a Global View of Alcohol, Tobacco, Cannabis, and Cocaine Use: Findings from the WHO World Mental Health Surveys', PLoS Medicine, 5(7), e141.
+
+¹⁹ Home Office (2014) Drugs: International Comparators. Londra: Home Office, octombrie 2014.
+
+²⁰ Scheim, A.I., Maghsoudi, N., Marshall, Z., Churchill, S., Ziegler, C. și Werb, D. (2020) 'Impact evaluations of drug decriminalisation and legal regulation on drug use, health and social harms: a systematic review', BMJ Open, 10(9), e035148.
+
+21 EMCDDA (2011) Annual report on the state of the drugs problem in Europe. Lisabona: EMCDDA; EMCDDA (2017) Cannabis legislation in Europe: an overview. Lisabona: EMCDDA; EUDA (2023) Cannabis laws in Europe: questions and answers for policymaking. Lisabona: EUDA.
+
+22 Eastwood, N., Fox, E. și Rosmarin, A. (2016) A Quiet Revolution: Drug Decriminalisation Across the Globe. Londra: Release; Release/TalkingDrugs (2023) Drug Decriminalisation Across the World [hartă interactivă]; EUDA/EMCDDA (f.a.) Penalties for drug law offences in Europe at a glance.
+
+23 Consiliul Directorilor Executivi ai Sistemului Națiunilor Unite (CEB) (2019) United Nations system common position supporting the implementation of the international drug control policy through effective inter-agency collaboration. New York: Națiunile Unite.
+
+24 Înaltul Comisariat al Națiunilor Unite pentru Drepturile Omului (2023) Human rights challenges in addressing and countering all aspects of the world drug problem, Raport către Consiliul Drepturilor Omului, A/HRC/54/53, 15 august 2023.
+
+25 Grupul Pompidou al Consiliului Europei (2024) Bringing Human Rights to the Heart of Drug and Addiction Policies: Guidance for aligning drug and addiction policies with human rights, P-PG (2024) 8 FIN, 6 noiembrie 2024, pct. 17–18.
+
+26 Organul International de Control al Stupefiantelor (2023) Report of the International Narcotics Control Board for 2022, E/INCB/2022/1. Viena: INCB.
+
+27 Consiliul Uniunii Europene (2004) Decizia-cadru 2004/757/JAI din 25 octombrie 2004 privind traficul ilicit de droguri, art. 2 alin. (2).
+
+28 Curtea Constituțională a României (2016) Decizia nr. 405/2016, publicată în Monitorul Oficial nr. 517 din 8 iulie 2016, par. 68-69.
+
+29 Direcția de Investigare a Infrațiuunilor de Criminalitate Organizată și Terorism (2026). Raport de activitate 2025. București: DIICOT, februarie 2026.
+
+30 Curtea Europeană a Drepturilor Omului (2017) Rezmiveș și alții împotriva României, cererile nr. 61467/12, 39516/13, 48231/13 și 68191/13, hotărârea din 25 aprilie 2017 (hotărâre-pilot); anterior, Iacov Stanciu împotriva României, nr. 35972/05, hotărârea din 24 iulie 2012.
+
+31 Hughes, C.E. și Stevens, A. (2010) 'What Can We Learn From The Portuguese Decriminalization of Illicit Drugs?', British Journal of Criminology, 50(6), pp. 999–1022; Ritter, A., Barrett, L. și Kelaita, P. (2024) Was decriminalisation effective in Portugal? Sydney: Drug Policy Modelling Program, Social Policy Research Centre, UNSW.
+
+32 Lenton, S., Humeniuk, R., Heale, P. și Christie, P. (2000) 'Infringement versus conviction: the social impact of a minor cannabis offence in South Australia and Western Australia', Drug and Alcohol Review, 19(3), pp. 257–264; Lenton, S. și Heale, P. (2000) 'Arrest, Court and Social Impacts of Conviction for a Minor Cannabis Offense under Strict Prohibition', Contemporary Drug Problems, 27(4), pp. 805–833.
+
+33 Eurasian Harm Reduction Association (2020) Criminalization costs – Romania. Vilnius: EHRA.
+
+34 Scheim, A.I., Maghsoudi, N., Marshall, Z., Churchill, S., Ziegler, C. și Werb, D. (2020) 'Impact evaluations of drug decriminalisation and legal regulation on drug use, health and social harms: a systematic review', BMJ Open, 10(9), e035148.
+
+35 Zaha, V.-G. (2023) What punishment will your excuse get you? A visual criminology analysis of moral panic and counter-hegemonic ideas in Romanian anti-drug approaches. Dizertație de master, University of Oxford (cu trimiterile acolo citate); Agenția Națională Antidrog (2022) Raport Național privind Situația Drogurilor. București: ANA.
+
+(2022) Ruporă Nație (36) Parliamentul României (2000) Legea nr. 143/2000 privind combaterea traficului și consumului ilicit de droguri, forma inițială, publicată în Monitorul Oficial nr. 362 din 3 august 2000 (art. 3 și art. 4).
+
+37 Parlamentul României (2004) Legea nr. 522/2004 pentru modificarea și completarea Legii nr. 143/2000.
+
+38 Parlamentul României (2011) Legea nr. 194/2011 privind combaterea operațiunilor cu produse susceptibile de a avea efecte psihoactive, altele decât cele prevăzute de acte normative în vigoare.
+
+³⁹ Zaha, V.-G. (2023) What punishment will your excuse get you? A visual'criminology analysis of moral panic and counter-hegemonic ideas in Romanian anti-drug approaches. Dizertație de master, University of Oxford; Parlamentul României (2023) Legea nr. 45/2023, publicată în Monitorul Oficial nr. 178 din 2 martie 2023.
+
+40 Parlamentul României (2024) Legea nr. 58/2024, publicată în Monitorul Oficial nr. 243 din 21 martie 2024; pentru contextul adoptării: Europa Liberă România (2024) 'Legea „2 Mai", prin care traficanții de droguri nu mai pot fi condamnați cu suspendare, adoptată de Parlament', 5 martie.
+
+41 Senatul României (2023) Propunerea legislativă L384/2023 (transformarea în contravenție a deținerii de canabis în cantități mici pentru consum propriu), respinsă de Senat și transmisă Camerei Deputaților; Zaha, V.-G. (2023) What punishment will your excuse get you?, op. cit.
+
+42 Sondajele citate în Zaha, V.-G. (2023) What punishment will your excuse get you?, op. cit.: Copăceanu (2020) — 51% dintre tinerii de 16-24 de ani susțin legalizarea canabisului; Avangarde (2022) — 74% din populația adultă susține măsuri punitive; pentru concentrarea consumului la grupa 15-34 de ani: EMCDDA (2019) Romania Country Drug Report 2019. Lisabona: EMCDDA.
+
+43 Zaha, V.-G., Dumitriu, A. și Militaru, C.-A. (2023) Politicile publice antidrog în România. Între justiție penală și sănătate publică. București: Friedrich-Ebert-Stiftung România.
+
+44 Csete, J. et al. (2016) 'Public health and international drug policy', The Lancet, 387, pp. 1427-1480.
+
+45 Comisia Globală pentru Politica Drogurilor (2011) War on Drugs. Geneva: GCDP; Comisia Globală pentru Politica Drogurilor (2016) Advancing Drug Policy Reform: A New Approach to Decriminalization. Geneva: GCDP.
+
+46 Home Office (2014) Drugs: International Comparators. Londra: Home Office, octombrie 2014.
+
+⁴⁷ Nagin, D.S. (2013) 'Deterrence in the Twenty-First Century', Crime and Justice, 42(1), pp. 199–263; MacCoun, R. și Reuter, P. (2001) Drug War Heresies: Learning from Other Vices, Times, and Places. Cambridge: Cambridge University Press.
+
+48 Degenhardt, L. et al. (2008) 'Toward a Global View of Alcohol, Tobacco, Cannabis, and Cocaine Use: Findings from the WHO World Mental Health Surveys', PLoS Medicine, 5(7), e141.
+
+⁴⁹ Eastwood, N., Fox, E. și Rosmarin, A. (2016) A Quiet Revolution: Drug Decriminalisation Across the Globe. Londra: Release; Release/TalkingDrugs (2023) Drug Decriminalisation Across the World [hartă interactivă]; EUDA/EMCDDA (f.a.) Penalties for drug law offences in Europe at a glance.
+
+50 EUDA/EMCDDA (f.a.) Drug law penalties at a glance.
+
+51 Consiliul Directorilor Executivi ai Sistemului Națiunilor Unite (CEB) (2019) United Nations system common position supporting the implementation of the international drug control policy through effective inter-agency collaboration. New York: Națiunile Unite.
+
+52 Înaltul Comisariat al Națiunilor Unite pentru Drepturile Omului (2023) Human rights challenges in addressing and countering all aspects of the world drug problem, Raport către Consiliul Drepturilor Omului, A/HRC/54/53, 15 august 2023.
+
+53 Comisia pentru Stupefiante a ONU (2024) Rezoluția 67/4 – „Preventing and responding to drug overdose through prevention, treatment, care and recovery measures, as well as other public health interventions, to address the harms associated with illicit drug use as part of a balanced, comprehensive, scientific evidence-based approach”, adoptată la 22 martie 2024 (38 de voturi pentru, 2 împotrivă, 6 abțineri); termenul „harm reduction” figurează în partea dispozitivă a rezoluției, în premieră pentru acest organism.
+
+54 Organizația Națiunilor Unite (1988) Convenția contra traficului ilicit de stupefiante și substanțe psihotrope. Viena: ONU, art. 3 alin. (2) și (4).
+
+substanțe psihotrope. Viena: INCB, ar 55 Organul Internațional de Control al Stupefiantelor (2023) Report of the International Narcotics Control Board for 2022, E/INCB/2022/1. Viena: INCB.
+
+56 Consiliul Uniunii Europene (2004) Decizia-cadru 2004/757/JAI din 25 octombrie 2004 privind traficul ilicit de droguri, art. 2 alin. (2).
+
+privind traficul ilicit de droguri, al a 2014-2015. 57 Zaha, V.-G. (2024) '«Performança», ministrei Justiției: 4 neadevăruri despre droguri și consumatori în 3 minute', PressOne, 13 mai; Curtea Supremă a Cehiei (2014) Decizia din 13 martie 2014.
+
+58 Consiliul Uniunii Europene (2020) Strategia UE în domeniul drogurilor 2021-2025 (14178/20); Consiliul Uniunii Europene (2018) Concluziile Consiliului privind promovarea utilizării alternativelor la sancțiunile coercitive pentru infractorii consumatori de droguri.
+
+utilizării alternativelor la sunețianie de 59 Grupul Pompidou al Consiliului Europei (2024) Bringing Human Rights to the Heart of Drug and Addiction Policies: Guidance for aligning drug and addiction policies with human rights, P-PG (2024) 8 FIN, 6 noiembrie 2024, pct. 17–18.
+
+⁶⁰ Transform Drug Policy Foundation (2021) Drug decriminalisation in Portugal: setting the record straight. Bristol: Transform (pe baza datelor Consiliului Europei SPACE I, EMCDDA și ECDC); pentru datele HIV 2022: Direção-Geral da Saude și Instituto Nacional de Saude Doutor Ricardo Jorge (2023) Infecâo VIH e SIDA em Portugal – 2023. Lisabona: DGS/INSA.
+
+61 Hughes, C.E. și Stevens, A. (2010) 'What Can We Learn From The Portuguese Decriminalization of Illicit Drugs?', British Journal of Criminology, 50(6), pp. 999–1022; Ritter, A., Barrett, L. și Kelaita, P. (2024) Was decriminalisation effective in Portugal? Sydney: Drug Policy Modelling Program, Social Policy Research Centre, UNSW.
+
+Sydney: Drug Review, 31(1), pp. 101–113.
+
+62 Hughes, C.E. și Stevens, A. (2010) 'What Can We Learn From The Portuguese Decriminalization of Illicit Drugs?', British Journal of Criminology, 50(6), pp. 999–1022; Hughes, C.E. și Stevens, A. (2012) 'A resounding success or a disastrous failure: Re-examining the interpretation of evidence on the Portuguese decriminalisation of illicit drugs', Drug and Alcohol Review, 31(1), pp. 101–113.
+
+63 Gonçalves, R., Lourenço, A. și Silva, S.N. (2015) 'A social cost perspective in the wake of the Portuguese strategy for the fight against drugs', International Journal of Drug Policy, 26(2), pp. 199–209.
+
+64 ESPAD Group (2025) ESPAD Report 2024: Results from the European School Survey Project on Alcohol and Other Drugs. Lisabona: EUDA/ESPAD.
+
+65 Zăbransky, T., Mravčík, V., Gajdošíková, H. și Miovsky, M. (2001) PAD: Impact Analysis Project of the New Drugs Legislation. Summary Final Report. Praga: Secretariatul Comisiei Naționale Antidrog, Oficiul Guvernului Republicii Cehe; Zeman, P. et al. (2024) (De)criminalisation of drug possession as a litmus test of national drug policy? Experience from the Czech Republic. Praga: Institutul de Criminologie și Prevenție Socială (IKSP).
+
+⁶⁶ Centrul Național Ceh de Monitorizare a Drogurilor și Adicțiilor (2023) Report on Illicit Drugs in the Czech Republic 2023. Praga: Oficiul Guvernului; Mravčík, V. et al. (2019) 'HIV/AIDS Epidemic in the Czech Republic and Related Factors: Comparison of Key Populations of PWID and MSM', Adiktologie, 19(1).
+
+67 Cerveny, J., Chomynová, P., Mravčík, V. și van Ours, J.C. (2017) 'Cannabis decriminalization and the age of onset of cannabis use', International Journal of Drug Policy, 43, pp. 122–129.
+
+68 ESPAD Group (2025) ESPAD Report 2024. Lisabona: EUDA/ESPAD; Nârodni monitorovaci středisko pro drogy a zăvislosti (2025) Rezultatele naționale ESPAD 2024 pentru Republica Cehă.
+
+69 Savary, J.-F., Hallam, C. și Bewley-Taylor, D. (2009) The Swiss Four Pillars Policy: An Evolution From Local Experimentation to Federal Law. Beckley Foundation Drug Policy Programme, Briefing Paper 18, p. 5.
+
+70 Nordt, C. și Stohler, R. (2006) 'Incidence of heroin use in Zurich, Switzerland: a treatment case register analysis', The Lancet, 367(9525), pp. 1830–1834.
+
+71 Republica Moldova (2008) Codul contravențional, art. 85; Republica Moldova (2002) Codul penal, art. 217–219; Lista cantităților mici, mari și foarte mari de substanțe stupefiante (anexă, Monitorul Oficial al Republicii Moldova). O unitate convențională = 50 lei moldovenești.
+
+73 Ministerul Sănătății al Republicii Moldova (2024) Raport privind consumul și traficul ilicit de droguri în Republica Moldova 2024. Chișinău: Ministerul Sănătății, p. 9.
+
+74 Germania (2024) Cannabisgesetz (CanG), în vigoare de la 1 aprilie 2024.
+
+74 Germania (2021) Caminalg (2021); 75 Republica Cehă (2025) Legea privind substanțele psihomodulatoare, în vigoare de la 1 iulie 2025; Malta (2021) Legea nr. LXVI din 2021 (Authority on the Responsible Use of Cannabis Act); Luxemburg (2023) Legea din 10 iulie 2023, în vigoare de la 21 iulie 2023.
+
+76 O'Reilly, K., Kowalski, M., Barratt, M.J. și Ritter, A. (2022) 'Distinguishing personal use of drugs from drug supply: Approaches and challenges', International Journal of Drug Policy, 103, art. 103653.
+
+77 Ritter, A., Hughes, C. și Shanahan, M. (2018) Models for the decriminalisation of the personal use and possession of drugs. Bulletin No. 26. Sydney: Drug Policy Modelling Program, Social Policy Research Centre, UNSW.
+
+Program, Social Policy Research Council, 78 O'Reilly, K., Kowalski, M., Barratt, M.J. și Ritter, A. (2022) 'Distinguishing personal use of drugs from drug supply: Approaches and challenges', International Journal of Drug Policy, 103, art. 103653.
+
+⁷⁹ O'Reilly, K., Kowalski, M., Barratt, M.J. și Ritter, A. (2022) 'Distinguishing personal use of drugs from drug supply: Approaches and challenges', International Journal of Drug Policy, 103, art. 103653.
+
+80 Zaha, V.-G., Dumitriu, A. și Militaru, C.-A. (2023) Politicile publice antidrog în România. Între justiție penală și sănătate publică. București: Friedrich-Ebert-Stiftung România.
+
+81 Parlamentul României (2000) Legea nr. 143/2000 privind prevenirea și combaterea traficului și consumului ilicit de droguri, republicată (text consolidat, cu modificările aduse prin Legile nr. 45/2023, 58/2024, 171/2024, 172/2024, 234/2024 și 30/2025).
+
+82 Curtea Constituțională a României (2019) Decizia nr. 748/2019; Zaha, V.-G., Dumitriu, A. și Militaru, C.-A. (2023) Politicile publice antidrog în România. Între justiție penală și sănătate publică. București: Friedrich-Ebert-Stiftung România.
+
+83 Parlamentul României (2023) Legea nr. 45/2023; Parlamentul României (2024) Legea nr. 58/2024, publicată în Monitorul Oficial nr. 243 din 21 martie 2024 (art. 15¹).
+
+84 Consiliul Superior al Magistraturii, statistica persoanelor condamnate definitiv pentru infracțiuni prevăzute de Legea nr. 143/2000, seriile anuale 2007–2021; date prezentate public în analiza PressOne din 16 ianuarie 2024, realizată pe baza răspunsurilor CSM și a Raportului Național privind Situația Drogurilor (ANA, 2022).
+
+85 Consiliul Superior al Magistraturii, statistica persoanelor condamnate definitiv pentru infracțiuni prevăzute de Legea nr. 143/2000, seriile anuale 2007–2021; date prezentate public în analiza PressOne din 16 ianuarie 2024, realizată pe baza răspunsurilor CSM și a Raportului Național privind Situația Drogurilor (ANA, 2022).
+
+86 Agenția Națională Antidrog (2022) Raport Național privind Situația Drogurilor. București: ANA (date pentru anul 2021).
+
+87 Zaha, V.-G., Dumitriu, A. și Militaru, C.-A. (2023) Politicile publice antidrog în România. Între justiție penală și sănătate publică. București: Friedrich-Ebert-Stiftung România; Agenția Națională Antidrog (2022) Raport Național privind Situația Drogurilor. București: ANA.
+
+88 Pentru divergența metodologică dintre seriile CSM și ECRIS (Ministerul Justiției), a se vedea notele Tabelelor 1 și 2 din anexă.
+
+89 Pentru divergența metodologică dintre seriile CSM și ECRIS (Ministerul Justiției), a se vedea notele Tabelelor 1 și 2 din anexă.
+
+90 Zaha, V.-G. (2025) '5 eșecuri și situații incredibile din ultimul Raport DIICOT despre substanțele interzise', PressOne, 17 februarie; Direcția de Investigare a Infracțiunilor de Criminalitate Organizată și Terorism (2025) Raport de activitate 2024. București: DIICOT.
+
+91 Direcția de Investigare a Infracțiunilor de Criminalitate Organizată și Terorism (2026) Raport de activitate 2025. București: DIICOT, februarie 2026.
+
+92 Zaha, V.-G., Dumitriu, A. și Militaru, C.-A. (2023) Politicile publice antidrog în România. Între justiție penală și sănătate publică. București: Friedrich-Ebert-Stiftung România; Zaha, V.-G. (2023) "Toate legile antidrog prin care vor să ne execute tinerii, pentru voturi", PressOne, 17 februarie.
+
+⁹³ Raportul național privind situația drogurilor, ediția 2024 (date aferente anului 2023), pp. 182-184, pe baza datelor Direcției de Combatere a Criminalității Organizate (IGPR) și ale Agenției Naționale Antidrog; cantitățile raportate în kilograme au fost convertite în grame.
+
+94 Rapoartele naționale privind situația drogurilor, edițiile 2017-2024 (date aferente anilor 2016-2023), secțiunile privind capturile în funcție de cantitățile confiscate (date ale Direcției de Combatere a Criminalității Organizate, IGPR, și ale ANA). Pragurile cantitative folosite de rapoarte definesc nivelul stradal sub 5 grame pe captură, piața medie între 5 grame și 1 kilogram și vânzarea cu ridicata peste 1 kilogram.
+
+grame și 1 kilogram și vanizare de 95 Zaha, V.-G. (2025) '5 eșecuri și situații incredibile din ultimul Raport DIICOT despre substanțele interzise', PressOne, 17 februarie; Direcția de Investigare a Infracțiunilor de Criminalitate Organizată și Terorism (2025) Raport de activitate 2024. București: DIICOT.
+
+Criminalitate Organizată și Terofism (2020) 96 Eurasian Harm Reduction Association (2020) Criminalization costs – Romania. Vilnius: EHRA.
+
+⁹⁷ Ministerul Afacerilor Interne (2023) Răspunsul nr. 9372 din 14 martie 2023 la întrebarea parlamentară nr. 8443A/2023 (deputați Simina-Geanina-Daniela Tulbure și Daniel Toda), întocmit pe baza datelor Inspectoratului General al Poliției Române și ale Agenției Naționale Antidrog.
+
+98 Ministerul Afacerilor Interne (2023) Răspunsul nr. 9372 din 14 martie 2023 la întrebarea parlamentară nr. 8443A/2023 (deputați Simina-Geanina-Daniela Tulbure și Daniel Toda), întocmit pe baza datelor Inspectoratului General al Poliției Române și ale Agenției Naționale Antidrog.
+
+99 Ministerul Afacerilor Interne (2026), op. cit. (răspunsul nr. 14867 din 10 iulie 2026).
+
+100 Ministerul Afacerilor Interne (2026), op. cit. (răspunsul nr. 14867 din 10 iulie 2026).
+
+102 Ministerul Afacerilor Interne (2026), răspunsul nr. 103 ANPCDDA (2026), op. cit.; Ministerul Afacerilor Interne (2026), răspunsul nr. 14867/2026.
+
+¹⁰⁴ ANPCDDA (2026), op. cit. (evoluția beneficiarilor tratamentului de substituție, 2011-2024); MAI (2026), răspunsul nr. 14867/2026.
+
+2024); MAI (2026), raspunsur m. 11807, 105 ANPCDDA (2026), op. cit. (ancheta General Population Survey 2024, comparativ cu GPS 2019).
+
+¹⁰⁶ Consiliul Europei (2024) SPACE I – Council of Europe Annual Penal Statistics: Prison populations 2024. Strasbourg: Consiliul Europei (date la 31 ianuarie 2024).
+
+107 Curtea Europeană a Drepturilor Omului (2017) Rezmiveș și alții împotriva României, cererile nr. 61467/12, 39516/13, 48231/13 și 68191/13, hotărârea din 25 aprilie 2017 (hotărâre-pilot); anterior, Iacov Stanciu împotriva României, nr. 35972/05, hotărârea din 24 iulie 2012.
+
+¹⁰⁸ Botescu, A. et al. (2012) HIV/AIDS among injecting drug users in Romania. Report of a recent outbreak and initial response policies. Lisabona: EMCDDA; Paraschiv, S. et al. (2017) 'Epidemic dispersion of HIV and HCV in a population of co-infected Romanian injecting drug users', PLOS ONE, 12(10), e0185866.
+
+109 Sultana, C., Vagu, C., Temereanca, A., Grancea, C., Slobozeanu, J. și Ruta, S. (2011) 'Hepatitis C virus genotypes in injecting drug users from Romania', Central European Journal of Medicine, 6(5), pp. 672–678; Paraschiv, S. et al. (2017) 'Epidemic dispersion of HIV and HCV in a population of co-infected Romanian injecting drug users', PLOS ONE, 12(10), e0185866.
+
+110 Agenția Uniunii Europene pentru Droguri (2025) European Drug Report 2025: Trends and Developments — secțiunea „Opioid agonist treatment”. Lisabona: EUDA.
+
+111 Harm Reduction International (2022) The Global State of Harm Reduction 2022. Londra: HRI; Bocai, A. (2021) 'Needle Exchange Programmes in Romania: The point of hopelessness', Correlation – European Harm Reduction Network, 9 martie.
+
+112 Institutul Național de Sănătate Publică (2025) 26 iunie – Ziua internațională de luptă împotriva abuzului și traficului ilicit de droguri, 26 iunie 2025 (pe baza datelor din Raportul Național privind Situația Drogurilor, ANA, 2024).
+
+113 Agenția Națională Antidrog, Rapoartele Naționale privind Situația Drogurilor (seriile 2019-2024): maximum 45 de decese direct asociate consumului în 2019, 25-29 de cazuri anual ulterior; pentru subraportare, a se vedea declarațiile experților Institutului Național de Medicină Legală privind acoperirea limitată a testării toxicologice în afara Bucureștiului.
+
+114 ANPCDDA (2026), op. cit. (indicatorii privind urgențele medicale și decesele asociate consumului, date INML și CSML).
+
+115 Ministerul Afacerilor Interne (2022) Strategia Națională în Domeniul Drogurilor 2022-2026, aprobată prin H.G. nr. 344/2022. București: MAI.
+
+2026, aprobată primă de la publică în anul 2025. 116 Institutul Național de Sănătate Publică (2025) 26 iunie – Ziua internațională de luptă împotriva abuzului și traficului ilicit de droguri, 26 iunie 2025 (pe baza datelor din Raportul Național privind Situația Drogurilor, ANA, 2024).
+
+117 Oprea, S., Vișan, M.-G., Iliescu, R., Florescu, S. și Nițescu, G.V. (2014) 'New psychoactive substances and illicit drugs used among 16-year-old high school students in Romania', Clinical Toxicology, 52 (DOI: 10.3109/15563650.2014.906213), pe baza datelor culese în România în cadrul proiectului european ESPAD.
+
+118 ESPAD Group (2025) ESPAD Report 2024: Results from the European School Survey Project on Alcohol and Other Drugs. Lisabona: EUDA/ESPAD; EUDA (2025) Key findings from the 2024 ESPAD school survey. Lisabona: EUDA.
+
+119 Eastwood, N., Fox, E. și Rosmarin, A. (2016) A Quiet Revolution: Drug Decriminalisation Across the Globe. Londra: Release; Asociația Română de Psihiatrie și Psihoterapie (2023) Comunicat privind problematica drogurilor. București: ARPP.
+
+120 Zaha, V.-G. (2023) 'Toate legile antidrog prin care vor să ne execute tinerii, pentru voturi', PressOne, 17 februarie; Zaha, V.-G. (2024) «Performanța» ministrei Justiției: 4 neadevăruri despre droguri și consumatori în 3 minute', PressOne, 13 mai.
+
+121 Lenton, S., Humeniuk, R., Heale, P. și Christie, P. (2000) 'Infringement versus conviction: the social impact of a minor cannabis offence in South Australia and Western Australia', Drug and Alcohol Review, 19(3), pp. 257–264; Lenton, S. și Heale, P. (2000) 'Arrest, Court and Social Impacts of Conviction for a Minor Cannabis Offense under Strict Prohibition', Contemporary Drug Problems, 27(4), pp. 805–833.
+
+122 Doseanu, R. și Moisa, Ș. (2026) 'Consumatorul de droguri ca traficant internațional: deficiențe constituționale structurale ale art. 3 alin. (1) din Legea nr. 143/2000 în lumina cauzei C-583/24', JURIDICE.ro, 4 iunie (cu trimitere la ÎCCJ, Deciziile nr. 3/2022 și nr. 15/2017, și la CCR, Deciziile nr. 437/2024, 748/2019, 176/2022 și 405/2016; Legea nr. 58/2024, prin care a fost introdus art. 15¹).
+
+123 Doseanu, R. și Moisa, Ș. (2026) 'Consumatorul de droguri ca traficant internațional: deficiențe constituționale structurale ale art. 3 alin. (1) din Legea nr. 143/2000 în lumina cauzei C-583/24', JURIDICE.ro, 4 iunie (cu trimitere la ÎCCJ, Deciziile nr. 3/2022 și nr. 15/2017, și la CCR, Deciziile nr. 437/2024, 748/2019, 176/2022 și 405/2016; Legea nr. 58/2024, prin care a fost introdus art. 15¹).
+
+124 Doseanu, R. și Moisa, Ș. (2026) 'Consumatorul de droguri ca traficant internațional: deficiențe constituționale structurale ale art. 3 alin. (1) din Legea nr. 143/2000 în lumina cauzei C-583/24', JURIDICE.ro, 4 iunie (cu trimitere la ÎCCJ, Deciziile nr. 3/2022 și nr. 15/2017, și la CCR, Deciziile nr. 437/2024, 748/2019, 176/2022 și 405/2016; Legea nr. 58/2024, prin care a fost introdus art. 15¹).
+
+125 Cioclei, V., Mocanu, R. și Stan, A. (2018), în Universul Juridic, nr. 10/2018, citați în Doseanu, R. și Moisa, Ș. (2026), JURIDICE.ro, 4 iunie.
+
+Doseanu, R. și Moisa, Ș. (2010), 126 Hotca, M.A. și Dobrinoiu, M. (2010) Infracțiuni prevăzute în legi speciale. București: C.H. Beck, citați în Doseanu, R. și Moisa, Ș. (2026), JURIDICE.ro, 4 iunie.
+
+127 Curtea de Justiție a Uniunii Europene, cauza C-583/24 (Tagu), cerere de decizie preliminară introdusă de Rechtbank Amsterdam la 5 septembrie 2024; Uniunea Europeană (2012) Carta drepturilor fundamentale a Uniunii Europene, art. 49 alin. (3).
+
+NINE
+
+128 Concluziile avocatului general Jean Richard de la Tour prezentate la 22 ianuarie 2026 în cauza C-583/24 (Tagu), în special pct 48,56,71-76 (cauză pendinte la data redactării prezentei expuneri de motive).
+
+129 Curtea Constituțională a României (2016) Decizia nr. 405/2016, publicată în Monitorul Oficial nr. 517 din 8 iulie 2016, par. 68-69.
+
+130 Comisia Europeană (2011) Către o politică a UE în materie penală: asigurarea punerii în aplicare eficiente a politicilor UE prin intermediul dreptului penal, coM(2011) 573 final, pct.
+
+221\.
+
+131 Curtea Constituțională a României (2022) Decizia nr. 17 6/2022, publicată în Monitorul Oficial nr. 451 din 5 mai 2022.
+
+132 Curtea Constituțională a României (2019) Decizia nr. 748/2019, publicată în Monitorul
+
+Oficial nr. 108 din 12 februarie 2020, par. 15, cu trimitere la Decizia nr. 259/ 2019, par. 18.
+
+133 Curtea Europeană a Drepturilor Omului (2012) Harkins și Edwards împotriva Regatului Unit, cererile nr. 9146/07 și 32650/07, hotărârea din 17 ianuarie 2012.
+
+134 Asociația Română de Psihiatrie și Psihoterapie (2023) 10 soluții concrete și urgente pentru problema drogurilor în România (anexă la Comunicat privind problematica drogurilor). București: ARPP, pct. 2și4.
+
+135 Ministerul Afacerilor Interne (2022) Strategia Națională în Domeniul Drogurilor 2022- 2026, aprobată prin H.G. nr.344/2022. București: MAI.
+
+136 Zaha, V.-G. Dumitriu, A. și Militaru, C.-A. (2023) Politicile publice antidrog în România. Între justiție penală și sănătate publică. București: Friedrich-Ebert-Stiftung România; Comisia Globală peniTu Politica Drogurilor (2020) Enforcement of Drug Laws: Refocusing on Organized Crime Flites. Geneva: GCDP.
+
+137 Consorțiul Internațional pentru Politici în Domeniul Drogurilor (IDPC) (2022) Decriminalisation. Londra: IDPC; Zaha, V.-G. (2023) "oteria noilor substanțe psihoactive: ce este HHC. Cum ar putea acționa România?”, PressOne, 26 septembrie; Zaha, V.-G. (2023) What punishment will your excuse get you? A visual criminology analysis of moral panic and counter-hegemonic ideas in Romanian anti-drug approaches. Dizertație de master, University of Oxford.
+
+138 Înaltul Comisariat al Națiunilor Unite pentru Drepturile Omului (2023) Human rights challenges in addressing and countering all aspects ofthe world drug problem, Raport către Consiliul Drepturilor Omului, A/HRC/54/ 53,15 august 2023.
+
+139 Parlamentul Scoției (2026) Success and Ongoing Evaluation of Glasgow's Overdose Prevention Centre, moțiunea S7M-00842, depusă de Paul Sweeney la 14 august 2026. Disponibilă la: https:// www.parliament.scot/ chamber-and-commitiees [ votes-and-motions/ S7M-00842. Cifrele citate sunt cele consemnate în moțiune; aceasta menționează continuarea evaluării independente a programului-pilot.
+
+¹⁴⁰ Guvernul României (2001) Ordonanța nr. 2/2001 privind regimul juridic al contravențiilor, cu modificările și completările ulterioare, art. 5 alin. (5), art. 7, art. 11 alin. (2) și (3) și art. 21 alin. (3). Portalul Legislativ: https://legislatie.just.ro/Public/DetaliiDocument/202882.
+
+¹⁴¹ Scheim, A.I., Maghsoudi, N., Marshall, Z., Churchill, S., Ziegler, C. și Werb, D. (2020) 'Impact evaluations of drug decriminalisation and legal regulation on drug use, health and social harms: a systematic review', BMJ Open, 10(9), e035148.
+
+¹⁴² EMCDDA (2011) Annual report on the state of the drugs problem in Europe. Lisabona: EMCDDA; EMCDDA (2017) Cannabis legislation in Europe: an overview. Lisabona: EMCDDA; EUDA (2023) Cannabis laws in Europe: questions and answers for policymaking. Lisabona: EUDA.
+
+¹⁴³ Degenhardt, L. et al. (2008) ‘Toward a Global View of Alcohol, Tobacco, Cannabis, and Cocaine Use: Findings from the WHO World Mental Health Surveys’, PLoS Medicine, 5(7), e141.
+
+¹⁴⁴ Home Office (2014) Drugs: International Comparators. Londra: Home Office, octombrie 2014.
+
+¹⁴⁵ Stevens, A., Hughes, C.E., Hulme, S. și Cassidy, R. (2022) 'Depenalization, diversion and decriminalization: A realist review and programme theory of alternatives to criminalization for simple drug possession', European Journal of Criminology, 19(1), pp. 29–54.
+
+¹⁴⁶ Hughes, C.E. și Stevens, A. (2010) 'What Can We Learn From The Portuguese Decriminalization of Illicit Drugs?', British Journal of Criminology, 50(6), pp. 999–1022; Hughes, C.E. și Stevens, A. (2012) 'A resounding success or a disastrous failure: Re-examining the interpretation of evidence on the Portuguese decriminalisation of illicit drugs', Drug and Alcohol Review, 31(1), pp. 101–113.
+
+¹⁴⁷ Červený, J., Chomynovă, P., Mravčík, V. și van Ours, J.C. (2017) 'Cannabis decriminalization and the age of onset of cannabis use', International Journal of Drug Policy, 43, pp. 122–129.
+
+¹⁴⁸ ESPAD Group (2025) ESPAD Report 2024. Lisabona: EUDA/ESPAD; Nărodni monitorovaci středisko pro drogy a zăvislosti (2025) Rezultatele naționale ESPAD 2024 pentru Republica Cehă.
+
+¹⁴⁹ Bundesinstitut für Offentliche Gesundheit (2025) Drogenaffinitătsstudie 2025 (eșantion de 7.001 respondenți cu vârste între 12 și 25 de ani, anchetă derulată în aprilie-iulie 2025): prevalența consumului de canabis în ultimul an în rândul minorilor de 12-17 ani a rămas practic neschimbată față de 2023, în scădere în rândul fetelor (de la 6,1% la 4,6%).
+
+¹⁵⁰ Zăbransky, T., Mravčík, V., Gajdošíková, H. și Miovsky, M. (2001) PAD: Impact Analysis Project of the New Drugs Legislation. Summary Final Report. Praga: Secretariatul Comisiei Naționale Antidrog, Oficiul Guvernului Republicii Cehe; Zeman, P. et al. (2024)
+
+(De)criminalisation of drug possession as a litmus test of national drug policy? Experience from the Czech Republic. Praga: Institutul de Criminologie și Prevenție Socială (IKSP).
+
+¹⁵¹ Ministerul Afacerilor Interne (2022) Strategia Națională în Domeniul Drogurilor 2022–2026, aprobată prin H.G. nr. 344/2022. București: MAI.
+
+¹⁵² Joshi, S., Rivera, B.D., Cerdă, M. et al. (2023) 'One-Year Association of Drug Possession Law Change With Fatal Drug Overdose in Oregon and Washington', JAMA Psychiatry, 80(12), pp. 1277–1283; Zoorob, M.J., Park, J.N., Kral, A.H., Lambdin, B.H. și del Pozo, B. (2024) 'Drug Decriminalization, Fentanyl, and Fatal Overdoses in Oregon', JAMA Network Open, 7(9), e2431612.
+
+¹⁵³ Oregon Secretary of State (2023) Too Early to Tell: The Challenging Implementation of Measure 110 Has Increased Risks, but the Effectiveness of the Program Has Yet to Be Determined, Audit Report 2023-03. Salem: Oregon Audits Division.
+
+¹⁵⁴ Hughes, C.E. și Stevens, A. (2010) 'What Can We Learn From The Portuguese Decriminalization of Illicit Drugs?', British Journal of Criminology, 50(6), pp. 999–1022; Hughes, C.E. și Stevens, A. (2012) 'A resounding success or a disastrous failure: Re-examining the interpretation of evidence on the Portuguese decriminalisation of illicit drugs', Drug and Alcohol Review, 31(1), pp. 101–113.
+
+¹⁵⁵ Direcția de Investigare a Infracțiunilor de Criminalitate Organizată și Terorism (2026) Raport de activitate 2025. București: DIICOT, februarie 2026.
+
+¹⁵⁶ Open Society Foundations (2013–2019) Czech Republic Exemplifies Smart and Humane Drug Policy. New York: OSF.
+
+¹⁵⁷ UNODC (2009) World Drug Report 2009. Viena: UNODC (privind absența turismului drogurilor în Portugalia); Hughes, C.E. și Stevens, A. (2010) 'What Can We Learn From The Portuguese Decriminalization of Illicit Drugs?', British Journal of Criminology, 50(6), pp. 999–1022.
+
+¹⁵⁸ Direcția de Investigare a Infracțiunilor de Criminalitate Organizată și Terorism (2026) Raport de activitate 2025. București: DIICOT, februarie 2026; Zaha, V.-G., Dumitriu, A. și Militaru, C.-A. (2023) Politicile publice antidrog în România. Între justiție penală și sănătate publică. București: Friedrich-Ebert-Stiftung România.
+
+¹⁵⁹ Zaha, V.-G., Dumitriu, A. și Militaru, C.-A. (2023) Politicile publice antidrog în România. Între justiție penală și sănătate publică. București: Friedrich-Ebert-Stiftung România; Agenția Națională Antidrog (2022) Raport Național privind Situația Drogurilor. București: ANA.
+
+¹⁶⁰ May, T., Duffy, M., Warburton, H. și Hough, M. (2007) Policing Cannabis as a Class C Drug: An Arresting Change? York: Joseph Rowntree Foundation (269.327 de ore de muncă polițienească și peste 3,5 milioane de lire sterline economisite într-un an în Anglia și Tara Galilor).
+
+¹⁶¹ Direcția de Investigare a Infracțiunilor de Criminalitate Organizată și Terorism (2026) Raport de activitate 2025. București: DIICOT, februarie 2026; Zaha, V.-G., Dumitriu, A. și Militaru, C.-A. (2023) Politicile publice antidrog în România. Între justiție penală și sănătate publică. București: Friedrich-Ebert-Stiftung România.
+
+162 Zaha, V.-G. (2024) 'Cea mai mare teamă a candidaților la Cotroceni. 3 lucruri pe care ar trebui să le înțeleagă viitorul președinte al României despre droguri', PressOne, 14 noiembrie; Zaha, V.-G. (2025) '5 eșecuri și situații incredibile din ultimul Raport DIICOT despre substanțele interzise', PressOne, 17 februarie.
+
+¹⁶³ Hughes, C.E. și Stevens, A. (2010) 'What Can We Learn From The Portuguese Decriminalization of Illicit Drugs?', British Journal of Criminology, 50(6), pp. 999–1022 (ponderea infracțiunilor legate de droguri în sistemul penal portughez a scăzut de la 44% în 1999 la 21% în 2008).
+
+¹⁶⁴ Zaha, V.-G., Dumitriu, A. și Militaru, C.-A. (2023) Politicile publice antidrog în România. Între justiție penală și sănătate publică. București: Friedrich-Ebert-Stiftung România; Agenția Națională Antidrog (2022) Raport Național privind Situația Drogurilor. București: ANA.
+
+¹⁶⁵ Curtea Europeană a Drepturilor Omului (2017) Rezmiveș și alții împotriva României, hotărârea din 25 aprilie 2017; Consiliul Europei (2024) SPACE I – Annual Penal Statistics 2024.
+
+¹⁶⁶ Transform Drug Policy Foundation (2021) Drug decriminalisation in Portugal: setting the record straight. Bristol: Transform.
+
+¹⁶⁷ Hughes, C.E. și Stevens, A. (2010), op. cit. (de la 23.654 de persoane în tratament în 1998 la 38.532 în 2008).
+
+¹⁶⁸ Transform Drug Policy Foundation (2021), op. cit.; Direcția Generală de Sănătate (Portugalia), datele de supraveghere HIV/SIDA 2022; Mravčík, V. et al. (2019) 'HIV/AIDS Epidemic in the Czech Republic and Related Factors', Adiktologie, 19(1).
+
+¹⁶⁹ Savary, J.-F., Hallam, C. și Bewley-Taylor, D. (2009) The Swiss Four Pillars Policy. Beckley Foundation, Briefing Paper 18; Transform Drug Policy Foundation (2021), op. cit.
+
+¹⁷⁰ Botescu, A. et al. (2012) HIV/AIDS among injecting drug users in Romania. Lisabona: EMCDDA; Bocai, A. (2021) 'Needle Exchange Programmes in Romania: The point of hopelessness', Correlation – European Harm Reduction Network, 9 martie.
+
+¹⁷¹ Lenton, S., Humeniuk, R., Heale, P. și Christie, P. (2000) 'Infringement versus conviction: the social impact of a minor cannabis offence in South Australia and Western Australia', Drug and Alcohol Review, 19(3), pp. 257–264.
+
+¹⁷² Zaha, V.-G. (2024) 'România luptă împotriva drogurilor cu strategii de acum un secol', PressOne, 8 ianuarie.
+
+¹⁷³ Scheim, A.I. et al. (2020) 'Impact evaluations of drug decriminalisation and legal regulation on drug use, health and social harms: a systematic review', BMJ Open, 10(9), e035148; EMCDDA (2017) Cannabis legislation in Europe: an overview. Lisabona: EMCDDA.
+
+¹⁷⁴ Eurasian Harm Reduction Association (2020) Criminalization costs – Romania. Vilnius: EHRA.
+
+¹⁷⁵ National Institute on Drug Abuse (2018) Principles of Drug Addiction Treatment: A Research-Based Guide, ed. a 3-a. Bethesda: NIDA.
+
+¹⁷⁶ Goncalves, R., Lourenco, A. și Silva, S.N. (2015) ‘A social cost perspective in the wake of the Portuguese strategy for the fight against drugs’, International Journal of Drug Policy, 26(2), pp. 199–209.
+
+¹⁷⁷ Curtea Constituțională a României (2007) Decizia nr. 62/2007, publicată în Monitorul Oficial nr. 104 din 12 februarie 2007.
+
+¹⁷⁸ Înalta Curte de Casație și Justiție, Completul pentru dezlegarea unor chestiuni de drept în materie penală (2018) Decizia nr. 10/2018, publicată în Monitorul Oficial nr. 894 din 24 octombrie 2018, cu privire la art. 2 lit. b) și art. 16 alin. (1) din Legea nr. 194/2011 privind combaterea operațiunilor cu produse susceptibile de a avea efecte psihoactive, altele decât cele prevăzute de acte normative în vigoare.
+
+¹⁷⁹ HotNews.ro (2024) 'Un medic de la INML spune că aparatele pentru testarea antidrog nu detectează toate substanțele de pe piața neagră', 17 februarie (declarațiile dr. Gabriel Gorun, medic primar de medicină legală la Institutul Național de Medicină Legală „Mina Minovici”, cu privire la aparatura institutului).
+
+¹⁸⁰ Asociația Română de Psihiatrie și Psihoterapie (2023) 10 soluții concrete și urgente pentru problema drogurilor în România. București: ARPP, pct. 2 și 4.
+
+¹⁸¹ Zaha, V.-G., Dumitriu, A. și Militaru, C.-A. (2023) Politicile publice antidrog în România. Între justiție penală și sănătate publică. București: Friedrich-Ebert-Stiftung România.
+
+¹⁸² Doseanu, R. și Moisa, Ș. (2026) ‘Consumatorul de droguri ca traficant internațional: deficiențe constituționale structurale ale art. 3 alin. (1) din Legea nr. 143/2000 în lumina cauzei C-583/24’, JURIDICE.ro, 4 iunie.
+
+¹⁸³ Zaha, V.-G., Dumitriu, A. și Militaru, C.-A. (2023) Politicile publice antidrog în România. Între justiție penală și sănătate publică. București: Friedrich-Ebert-Stiftung România.
+
+VICTORIA
+
+stoiciu
+
+## LISTĂ SEMNĂTURI
+
+## LEGE
+
+pentru modificarea și completarea Legii nr. 143/2000 privind prevenirea și combaterea traficului și consumului ilicit de droguri, precum și pentru modificarea art. 271 din Legea nr. 86/2006 privind Codul vamal al Românici
+
+<table>
+<tbody>
+<tr><td>NR.</td><td>PARLAMENTAR</td><td colspan="2">SEMNĂTURĂ</td><td>PARTID</td></tr>
+<tr><td>1.</td><td>CRISTIAN GWINAP</td><td colspan="2" rowspan="3"></td><td>USR</td></tr>
+<tr><td>2.</td><td>Dunel FEMECHIN</td><td>PNL</td></tr>
+<tr><td>3.</td><td></td><td></td></tr>
+<tr><td>4.</td><td></td><td colspan="2">√</td><td></td></tr>
+<tr><td>5.</td><td></td><td colspan="2"></td><td></td></tr>
+<tr><td>6.</td><td></td><td colspan="2"></td><td></td></tr>
+<tr><td>7.</td><td></td><td colspan="2"></td><td></td></tr>
+<tr><td>8.</td><td></td><td colspan="2"></td><td></td></tr>
+<tr><td>9.</td><td></td><td colspan="2"></td><td></td></tr>
+<tr><td>10.</td><td></td><td colspan="2"></td><td></td></tr>
+<tr><td>11.</td><td></td><td colspan="2"></td><td></td></tr>
+<tr><td>12.</td><td></td><td colspan="2"></td><td></td></tr>
+<tr><td>13.</td><td></td><td colspan="2"></td><td></td></tr>
+<tr><td>14.</td><td></td><td colspan="2"></td><td></td></tr>
+<tr><td>15.</td><td></td><td colspan="2"></td><td></td></tr>
+<tr><td>16.</td><td></td><td colspan="2"></td><td></td></tr>
+</tbody>
+</table>

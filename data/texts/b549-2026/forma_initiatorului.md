@@ -1,0 +1,25 @@
+LEGE
+
+# pentru modificarea și completarea Legii nr. 360/2023 privind sistemul public de pensii
+
+Parlamentul României adoptă prezenta lege
+
+Art. I. – Legea nr. 360/2023 privind sistemul public de pensii, publicată în Monitorul Oficial al României, Partea I, nr. 1089 din 4 decembrie 2023, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 93, după alineatul (1) se introduc două noi alineate, alin. (1¹) și (1²), cu următorul cuprins:
+
+„(1¹) În aplicarea instrumentelor juridice cu caracter internațional la care România este parte, în cazul cererilor de pensionare pentru a căror soluționare este necesară valorificarea perioadelor de asigurare realizate în alte state, decizia de admitere sau de respingere a cererii se emite în termen de 45 de zile de la data primirii de către casa teritorială de pensii competentă a tuturor informațiilor și documentelor necesare stabilirii dreptului și solicitate instituțiilor competente ale statului/statelor indicat/indicate de solicitant în cererea de pensionare.
+
+(1²) În cazul cererilor de pensionare formulate în aplicarea instrumentelor juridice cu caracter internațional la care România este parte, dacă solicitantul a realizat perioade de asigurare în două sau mai multe state, iar pe baza documentelor existente la dosar poate fi stabilit dreptul la pensie, casa teritorială de pensii competentă emite o decizie provizorie de admitere și dispune plata drepturilor la pensie astfel stabilite, ce va avea caracter provizoriu, fără a aștepta primirea tuturor documentelor solicitate instituțiilor competente. La primirea tuturor documentelor justificative necesare, acestea se recalculează și se emite decizia potrivit alin. (1)."
+
+2\. La articolul 93 alineatul (3) se modifică și va avea următorul cuprins:
+
+„(3) Termenul prevăzut la alin. (1) și alin. (1¹) poate fi prelungit cu 30 de zile în cazul persoanelor care au calitatea de asigurat în luna solicitării, precum și în situația în care, pentru soluționarea cererii, sunt necesare documente și/sau operațiuni suplimentare.”
+
+3\. La articolul 123, după litera k) se introduce o nouă literă, lit. k¹), cu următorul cuprins: k¹) elaborază proceduri pentru aplicarea unitară de către casele territoriale de pensii a prevederilor instrumentelor juridice cu caracter internațional la care România este parte, prin care se stabilesc termenele și periodicitatea reiterării solicitărilor adresate instituțiilor competente din alte state, în vederea obținerii informațiilor și documentelor necesare stabilirii drepturilor de pensie;”
+
+4\. La articolul 124, după litera e) se introduce o nouă literă, lit. e¹), cu următorul cuprins: e¹) aplică procedurile corespunzătoare prevederilor instrumentelor juridice cu caracter internațional la care România este parte și asigură, cu respectarea termenelor și periodicității stabilite prin acestea, reiterarea solicitărilor adresate instituțiilor competente din alte state, până la primirea informațiilor și documentelor necesare stabilirii drepturilor de pensie;"
+
+Art. II. – Pentru punerea în aplicare a dispozițiilor art. 123 lit. k¹) din Legea nr. 360/2023 privind sistemul public de pensii, cu modificările și completările ulterioare, în termen de 30 zile de la intrarea în vigoare a prezentei legi, președintele Casei Naționale de Pensii Publice emite ordinul privind procedura pentru aplicarea unitară de către casele territoriale de pensii a prevederilor instrumentelor juridice cu caracter internațional la care România este parte.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.

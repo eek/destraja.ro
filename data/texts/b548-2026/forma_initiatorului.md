@@ -1,0 +1,587 @@
+# LEGE
+
+# privind organizarea și funcționarea Institutului Român pentru Drepturile Omului
+
+Parlamentul României adoptă prezenta lege.
+
+## CAPITOLUL I
+
+## Dispoziții generale
+
+Art. 1. — (1) Institutul Român pentru Drepturile Omului, denumit în continuare IRDO, este instituție publică autonomă de interes național, cu personalitate juridică, aflată sub control parlamentar.
+
+(2) IRDO își exercită atribuțiile în mod independent față de orice autoritate sau instituție publică, în limitele și în condițiile prezentei legi.
+
+(3) Sediul IRDO este în municipiul București.
+
+Art. 2. — (1) IRDO este instituția publică specializată în cercetarea, documentarea, analiza, educația, informarea și avertizarea timpurie cu privire la evoluțiile sistemice care pot afecta exercitarea drepturilor și libertăților fundamentale.
+
+(2) Scopul IRDO este de a contribui, prin expertiză independentă și dialog instituțional, la dezvoltarea unei culturi a drepturilor omului, la îmbunătățirea cadrului legislativ și a politicilor publice și la punerea în aplicare a obligațiilor internaționale asumate de România.
+
+Art. 3. — IRDO își desfășoară activitatea cu respectarea următoarelor principii:
+
+a) principiul legalității;
+
+b) principiul privind independența funcțională;
+
+c) principiul privind imparțialitatea și neutralitatea politică;
+
+d) principiul privind pluralismul și participarea societății civile;
+
+e) principiul privind fundamentarea științifică și profesionalismul;
+
+f) principiul privind transparența și accesul public la rezultatele activității;
+
+g) principiul privind cooperarea loială cu autoritățile și instituțiile publice;
+
+h) principiul privind protecția datelor cu caracter personal;
+
+i) principiul privind accesibilitatea informațiilor;
+
+j) principiul privind incluziunea persoanelor aparținând grupurilor vulnerabile.
+
+Art. 4. - Sesizările, semnalele și informațiile primite de IRDO pot fi utilizate exclusiv pentru identificarea unor probleme sistemice, pentru activități de cercetare și pentru formularea de recomandări cu caracter consultativ.
+
+## CAPITOLUL II
+
+## Atribuțiile Institutului Român pentru Drepturile Omului
+
+Art. 5. — În realizarea scopului său, IRDO:
+
+a) elaborează studii, cercetări, analize, rapoarte și alte lucrări de specialitate privind drepturile și libertățile fundamentale;
+
+b) documentează și analizează evoluțiile legislative, instituționale, sociale, economice și tehnologice cu impact asupra drepturilor omului;
+
+c) menține și dezvoltă un centru național de documentare în domeniul drepturilor omului și facilitează accesul publicului la resursele sale, în condițiile legii;
+
+d) dezvoltă baze de date, instrumente de analiză și indicatori privind evoluția drepturilor omului, pe baza informațiilor publice și a datelor comunicate potrivit legii;
+
+e) realizează analize comparative privind standardele și bunele practici europene și internaționale;
+
+f) poate organiza sondaje, consultări și cercetări sociologice, cu respectarea legislației aplicabile;
+
+g) monitorizează, pe baza informațiilor publice și a datelor comunicate potrivit legii, evoluțiile și problemele sistemice privind respectarea drepturilor și libertăților fundamentale și elaborază analize și rapoarte tematice în acest domeniu;
+
+h) urmărește stadiul îndeplinirii obligațiilor asumate de România în domeniul drepturilor omului prin tratatele internaționale și analizează implementarea recomandărilor formulate de organismele internaționale și europene competente;
+
+i) analizează stadiul executării hotărârilor Curții Europene a Drepturilor Omului pronunțate împotriva României, în ceea ce privește măsurile generale necesare prevenirii unor încălcări similare, și poate formula recomandări adresate autorităților competente;
+
+j) identifică domeniile în care cadrul normativ sau politicile publice necesită îmbunătățiri pentru asigurarea unei protecții effective a drepturilor și libertăților fundamentale și poate formula propuneri și recomandări cu caracter consultativ;
+
+k) publică raportul pe anul anterior privind starea drepturilor omului în România până la data de 10 decembrie a fiecărui an.
+
+Art. 6. — (1) IRDO identifică și analizează riscurile sistemice, tendințele și evoluțiile care pot afecta exercitarea drepturilor și libertăților fundamentale.
+
+(2) În cazul identificării unui risc sistemic, IRDO emite o notă de avertizare timpurie, care cuprinde descrierea situației, standardele relevante, autoritățile competente și recomandările de acțiune.
+
+(3) Notele de avertizare timpurie se transmit autorităților competente și se publică pe pagina de internet a IRDO.
+
+Art. 7. — (1) IRDO elaborează, din proprie inițiativă sau la solicitarea Parlamentului, a Guvernului ori a altor autorități publice, analize de impact asupra drepturilor și libertăților fundamentale.
+
+(2) Analizele prevăzute la alin. (1) pot privi proiecte sau propuneri legislative, acte normative în vigoare, politici publice și programe.
+
+Art. 8. — (1) IRDO documentează și analizează, pe baza informațiilor publice și a datelor comunicate de autoritățile competente, stadiul îndeplinirii obligațiilor României în domeniul drepturilor omului, urmărind evoluția:
+
+a) procedurilor de semnare, ratificare, acceptare, aprobare sau aderare la tratatele internaționale în domeniul drepturilor omului;
+
+b) îndeplinirii obligațiilor de raportare ale României către organismele europene și internaționale;
+
+c) implementării recomandărilor, observațiilor finale și hotărârilor în domeniul drepturilor omului, în limitele atribuțiilor autorităților competente;
+
+d) termenelor publice asumate de autoritățile române în legătură cu obligațiile și măsurile prevăzute la lit. a)-c).
+
+(2) În scopul asigurării accesului public la informațiile prevăzute la alin. (1), IRDO realizează și publică un registru electronic al obligațiilor și recomandărilor internaționale în domeniul drepturilor omului, pe baza informațiilor publice și a celor comunicate de autoritățile competente. Registrul cuprinde, după caz, autoritatea responsabilă, termenul, stadiul îndeplinirii și sursa informației.
+
+(3) IRDO solicită autorităților competente informații privind stadiul măsurilor asumate și poate transmite notificări de termen și recomandări cu caracter consultativ.
+
+Art. 9. — (1) IRDO elaborează:
+
+a) raportul anual privind starea drepturilor omului în România;
+
+b) rapoarte tematice;
+
+c) rapoarte speciale privind probleme sistemice ori situații care necesită o analiză urgentă;
+
+d) sinteze privind recomandările europene și internaționale adresate României.
+
+(2) Rapoartele prevăzute la alin. (1) se întemeiază pe metodologii publice, surse verificabile și consultarea autorităților, instituțiilor și organizațiilor relevante. Raportul prevăzut la alin. (1) lit. a) se transmite spre informare Președintelui României, Parlamentului, Guvernului, Înaltei Curți de Casație și Justiție, Consiliului Superior al Magistraturii și Avocatului Poporului și se publică pe pagina de internet a IRDO.
+
+(3) Autoritățile la care se referă constatări factuale sunt invitate să transmită observații în termen de 30 de zile, anterior publicării, fără ca netransmiterea acestor observații să împiedice finalizarea raportului.
+
+(4) Observațiile primite se reflectă în raport.
+
+(5) Rapoartele IRDO au caracter consultativ și se publică pe pagina de internet a IRDO în formate accesibile.
+
+Art. 10. — (1) IRDO poate formula recomandări Camerei Deputaților, Senatului, comisiilor parlamentare competente, Guvernului, ministerelor, precum și autorităților și instituțiilor publice în a căror competență intră problema care face obiectul recomandării.
+
+(2) Recomandările indică problema analizată, standardul juridic relevant, natura și forța juridică a acestuia, măsurile propuse și, după caz, termenul recomandat pentru realizarea acestora.
+
+(3) Autoritatea sau instituția publică destinatară comunică IRDO, în termen de 60 de zile de la primirea recomandării, măsurile adoptate, măsurile avute în vedere sau motivele pentru care recomandarea nu poate fi urmată.
+
+(4) IRDO publică răspunsurile primite. Recomandările pentru care nu a fost comunicat un răspuns în termenul prevăzut la alin. (3) sunt menționate ca atare în raportul anual.
+
+(5) Publicarea prevăzută la alin. (4) se realizează cu respectarea dispozițiilor legale privind informațiile exceptate de la accesul public.
+
+Art. 11. — (1) IRDO organizează programe de educație, informare, dezbatere publică și formare profesională în domeniul drepturilor omului, în mod direct sau în parteneriat cu autorități și instituții publice, instituții de învățământ superior și alte entități de specialitate, cu respectarea competențelor stabilite prin lege altor autorități și instituții publice.
+
+(2) IRDO elaborează ghiduri, metodologii, materiale educaționale și resurse accesibile publicului.
+
+(3) IRDO poate încheia parteneriate cu instituții de învățământ, organizații profesionale, sindicate, patronate, culte religioase și organizații neguvernamentale.
+
+Art. 12. — IRDO poate realiza studii, documentări și analize privind exercitarea drepturilor persoanelor aparținând comunităților istorice românești din afara granițelor României, exclusiv pe baza standardelor internaționale privind drepturile omului și cu respectarea competențelor autorităților române în domeniul politicii externe.
+
+Art. 13. — (1) IRDO publică studiile, rapoartele, recomandările, metodologiile și celelalte rezultate ale activității sale, cu excepția informațiilor protejate de lege.
+
+(2) IRDO editează revista „Drepturile Omului” și poate edita alte publicații de specialitate.
+
+(3) Publicațiile sunt puse la dispoziția publicului, cu prioritate în format electronic accesibil, cu respectarea drepturilor de proprietate intelectuală.
+
+## CAPITOLUL III
+
+## Cooperarea instituțională și accesul la informații
+
+Art. 14. — IRDO cooperează cu:
+
+a) Avocatul Poporului;
+
+b) Consiliul Național pentru Combaterea Discriminării;
+
+c) Consiliul de monitorizare a implementării Convenției privind drepturile persoanelor cu dizabilități;
+
+d) Consiliul Legislativ;
+
+e) Ministerul Afacerilor Externe;
+
+f) instituții de învățământ superior și cercetare;
+
+g) organizații neguvernamentale;
+
+h) organizații profesionale.
+
+Art. 15. — (1) IRDO cooperează cu institute de cercetare, organisme ale Uniunii Europene, Consiliului Europei, Organizației Națiunilor Unite și cu alte organizații internaționale de profil.
+
+(2) IRDO poate participa la proiecte, rețele și programe internaționale și poate accesa fonduri externe nerambursabile, în condițiile legii.
+
+Art. 16. —Pentru realizarea atribuțiilor sale, autoritățile și instituțiile publice comunică informațiile solicitate în condițiile și cu respectarea termenelor prevăzute de legislația aplicabilă.
+
+Art. 17. — (1) În elaborarea rapoartelor anuale, IRDO asigură consultarea organizațiilor neguvernamentale, mediului academic, sindicatelor, patronatelor, cultelor religioase, organizațiilor minorităților naționale și a altor actori relevanți.
+
+(2) Rezultatele consultârilor se publică pe pagina de internet a instituției, în sinteză .
+
+## CAPITOLUL IV
+
+## Conducerea Institutului Român pentru Drepturile Omului
+
+Art. 18. — (1) Conducerea IRDO este asigurată de președinte și vicepreședinte.
+
+(2) Președintele este conducătorul executiv al IRDO și ordonator principal de credite.
+
+(3) Vicepreședintele coordonează activitățile prevăzute la art. 8 și activitatea de cooperare internațională prevăzută la art. 15.
+
+(4) În cadrul IRDO funcționează Consiliul Consultativ pentru Drepturile Omului, organism pluralist de dialog instituțional și expertiză.
+
+Art. 19. — Președintele are următoarele atribuții:
+
+a) conduce activitatea IRDO și răspunde de îndeplinirea misiunii și a atribuțiilor sale;
+
+b) reprezintă IRDO în raporturile cu autoritățile, instituțiile și persoanele juridice de drept public sau privat;
+
+c) exercită atribuțiile ordonatorului principal de credite;
+
+d) aprobă strategia instituțională, programul anual de activitate și planul anual de cercetare, după consultarea Consiliului Consultativ;
+
+e) aprobă rapoartele, recomandările și notele de avertizare ale IRDO;
+
+f) numește și eliberează din funcție personalul contractual, în condițiile legii;
+
+g) propune birourilor permanente reunite ale celor două Camere ale Parlamentului proiectul regulamentului de organizare și funcționare al IRDO;
+
+h) prezintă Parlamentului raportul anual de activitate și raportul anual privind starea drepturilor omului;
+
+i) îndeplinește orice alte atribuții prevăzute de lege.
+
+Art. 20. — Vicepreședintele are următoarele atribuții:
+
+a) coordonează domeniile prevăzute la art. 18 alin. (3);
+
+b) asigură integrarea recomandărilor europene și internaționale în programele de analiză ale IRDO;
+
+c) coordonează registrul prevăzut la art. 8 alin. (2);
+
+d) sprijină președintele în realizarea atribuțiilor sale;
+
+e) exercită atribuțiile președintelui în caz de vacanță a funcției sau de imposibilitate temporară de exercitare, până la încetarea cauzei ori numirea unui nou președinte;
+
+f) îndeplinește alte atribuții stabilite prin regulamentul de organizare și funcționare.
+
+Art. 21. — (1) Președintele și vicepreședintele sunt numiți de Parlament, în ședință comună, pentru un mandat de 4 ani, care poate fi reînnoit o singură dată.
+
+(2) Președintele și vicepreședintele își exercită funcțiile până la depunerea jurământului de către succesori, fără ca această perioadă să poată depăși 90 de zile de la expirarea mandatului.
+
+Art. 22. — Poate candida pentru funcția de președinte sau vicepreședinte persoana care îndeplinește cumulativ următoarele condiții:
+
+a) are cetățenia română și domiciliul în România;
+
+b) are capacitate deplină de exercițiu;
+
+c) are studii universitare absolvite cu diplomă de licență;
+
+d) are o experiență profesională de cel puțin 10 ani, dintre care cel puțin 5 ani în domeniul drepturilor omului, dreptului, administrației publice, politicilor publice, relațiilor internaționale sau cercetării;
+
+e) cunoaște cel puțin o limbă de circulație internațională;
+
+f) nu a fost lucrător sau colaborator al Securității, în condițiile legii;
+
+g) nu a fost condamnată definitiv pentru o infracțiune, cu excepția situației în care a intervenit reabilitarea;
+
+h) nu aparține niciunui partid politic.
+
+Art. 23. — (1) Candidaturile pentru funcțiile de președinte și vicepreședinte se depun la Biroul Permanent al Senatului, respectiv Biroul Permanent al camerei Deputaților, de persoanele care îndeplinesc condițiile prevăzute la art. 22 sau pot fi propuse de grupurile parlamentare, de autoritățile și instituțiile publice cu atribuții în domeniul drepturilor omului, de instituțiile de învățământ superior acreditate ori de organizațiile neguvernamentale cu activitate în domeniul drepturilor omului.
+
+(2) Termenul de depunere a candidaturilor este de 10 zile de la publicarea anunțului.
+
+(3) Birourile permanente ale celor două Camere ale Parlamentului publică pe paginile de internet ale Camerei Deputaților și Senatului candidaturile depuse și înaintează propunerile comisiilor permanente de specialitate, în vederea audierii candidaților în ședință comună.
+
+(4) Anunțul cuprinde funcția pentru care se depun candidaturile, condițiile și criteriile prevăzute de prezenta lege, documentele necesare, calendarul procedurii, modalitatea de depunere și datele de contact.
+
+Art. 24. — Dosarul de candidatură cuprinde:
+
+a) cererea de înscriere;
+
+b) copia actului de identitate;
+
+c) curriculum vitae în format european;
+
+d) copiile diplomelor de studii și documentele care atestă experiența profesională;
+
+e) o scrisoare de intenție și un proiect de management de maximum 15 pagini;
+
+f) o listă a lucrărilor, projectelor și activităților relevante;
+
+g) cazierul judiciar și certificatul de integritate comportamentală;
+
+h) declarația pe propria răspundere privind îndeplinirea condițiilor, incompatibilitățile și conflictele de interese;
+
+i) declarațiile de avere și de interese;
+
+j) acordul candidatului privind publicarea documentelor prevăzute la art. 25 alin. (1).
+
+Art. 25. — (1) În termen de 5 zile de la expirarea termenului de depunere a candidaturilor, comisiile parlamentare competente publică lista candidaților admiși și, pentru fiecare candidat, curriculum vitae, scrisoarea de intenție și proiectul de management, cu protejarea datelor cu caracter personal care nu sunt destinate publicității.
+
+(2) Orice persoană poate transmite comisiilor parlamentare competente observații motivate privind îndeplinirea de către candidați a condițiilor prevăzute la art. 22, în termen de 10 zile de la data publicării listei prevăzute la alin. (1).
+
+Art. 26. — (1) Comisiile permanente ale celor două Camere competente în domeniul drepturilor omului verifică îndeplinirea condițiilor prevăzute la art. 22 și valuează candidații în ședință comună.
+
+(2) Evaluarea candidaților se realizează pe baza următoarelor criterii:
+
+a) experiența și competența profesională relevante pentru exercitarea funcției;
+
+b) independența în exercitarea atribuțiilor;
+
+c) calitatea proiectului de management;
+
+d) capacitatea de conducere și cooperare instituțională;
+
+e) cunoașterea cadrului constituțional, european și internațional în domeniul drepturilor omului;
+
+f) capacitatea de comunicare publică.
+
+(3) Candidații sunt audiați în ședință publică, transmisă online și arhivată.
+
+(4) Fiecare candidat beneficiază de timp egal pentru prezentare și răspunsuri.
+
+(5) În urma verificării condițiilor și a audierii candidaților, comisiile permanente de specialitate întocmesc un raport comun, pe care îl prezintă Camerei Deputaților și Senatului, în ședință comună.
+
+(6) Camera Deputaților și Senatul, în ședință comună, votează separat pentru funcția de președinte și pentru funcția de vicepreședinte.
+
+(7) Este numit în fiecare funcție candidatul care obține votul majorității deputaților și senatorilor prezenți.
+
+(8) În cazul în care niciun candidat nu întrunește majoritatea prevăzută la alin. (7), se organizează un nou tur de scrutin între primii doi candidați, în ordinea numărului de voturi obținute.
+
+(9) În cazul egalității de voturi care nu permite stabilirea candidaților care participă la turul următor, se organizează un nou scrutin între candidații aflați la egalitate.
+
+(10) Dacă, în urma celui de-al doilea tur de scrutin, niciun candidat nu întrunește majoritatea prevăzută la alin. (7), procedura de numire pentru funcția respectivă se reia.
+
+(11) În cazul reluării procedurii, candidaturile se depun în termen de 15 zile de la data la care se constată neîndeplinirea condiției prevăzute la alin. (7).
+
+(12) Procedura prevăzută de prezenta secțiune se aplică în mod corespunzător și în cazul reînnoirii mandatului.
+
+Art. 27. — (1) Președintele și vicepreședintele sunt numiți prin hotărâre a Parlamentului, cu votul majorității deputaților și senatorilor prezenți.
+
+(2) Votul este secret, cu buletine de vot.
+
+(3) După constatarea rezultatului votului, persoanele numite în funcțiile de președinte și vicepreședinte depun, în ședința comună a Camerei Deputaților și Senatului, următorul jurământ: „Jur să respect Constituția și legile țării, să apăr independența Institutului Român pentru Drepturile Omului și să îmi exercit mandatul cu imparțialitate, integritate și responsabilitate, în serviciul drepturilor și libertăților fundamentale”.
+
+(4) Refuzul depunerii jurământului atrage nulitatea numirii.
+
+(5) Mandatul președintelui și al vicepreședintelui începe la data depunerii jurământului.
+
+Art. 28. — (1) Funcțiile de președinte și vicepreședinte sunt incompatibile cu:
+
+a) orice altă funcție publică sau privată, cu excepția activităților didactice și de cercetare, desfășurate în condiții care nu afectează exercitarea mandatului;
+
+b) calitatea de membru al unui partid politic;
+
+c) calitatea de parlamentar, membru al Guvernului, ales local, prefect sau subprefect;
+
+d) funcțiile de conducere în sindicate, patronate, culte religioase sau organizații neguvernamentale;
+
+e) orice activitate care generează un conflict de interese.
+
+(2) Persoana numită are obligația să înlăture starea de incompatibilitate în termen de 30 de zile de la data numirii.
+
+Art. 29. — (1) Mandatul președintelui sau al vicepreședintelui încetează prin:
+
+a) expirarea duratei mandatului;
+
+b) demisie;
+
+c) deces;
+
+d) imposibilitatea definitivă de exercitare a funcției;
+
+e) pierderea cetățeniei române;
+
+f) condamnarea definitivă pentru o infracțiune;
+
+g) neînlăturarea, în termenul prevăzut la art. 28 alin. (2), a unei stări de incompatibilitate;
+
+h) constatarea definitivă, potrivit legii, a unui conflict de interese;
+
+i) revocare, în condițiile alin. (2)-(4).
+
+(2) Revocarea poate fi dispusă numai pentru încălcarea gravă a obligațiilor prevăzute de prezenta lege, dacă, prin natura, împrejurările sau consecințele sale, încălcarea aduce atingere exercitării cu independență și imparțialitate a mandatului ori împiedică îndeplinirea atribuțiilor legale ale Institutului.
+
+(3) Procedura de revocare este inițiată de comisiile parlamentare competente, printr-o sesizare care cuprinde faptele imputate și probele pe care se întemeiază. Persoanei vizate i se comunică sesizarea și i se asigură dreptul de a prezenta apărări și probe și de a fi audiată în ședință publică.
+
+(4) În urma procedurii prevăzute la alin. (3), comisiile parlamentare competente întocmesc un raport comun. Revocarea se dispune prin hotărâre a Parlamentului, adoptată cu votul majorității deputaților și senatorilor prezenți.
+
+Art. 30. — (1) Funcția de președinte este asimilată, exclusiv din punctul de vedere al salarizării și protocolului, funcției de secretar de stat.
+
+(2) Funcția de vicepreședinte este asimilată, exclusiv din punctul de vedere al salarizării și protocolului, funcției de subsecretar de stat.
+
+CAPITOLUL V
+
+Consiliul Consultativ pentru Drepturile Omului
+
+Art. 31. — (1) Consiliul Consultativ pentru Drepturile Omului, denumit în continuare Consiliul Consultativ, asigură pluralismul, dialogul instituțional și legătura permanentă dintre IRDO și principalele categorii de actori publici și sociali relevanți în garantarea, protejarea și afirmarea drepturilor omului.
+
+(2) Membrii Consiliului Consultativ acționează ca puncte de contact pentru domeniul ori sectorul din care provin, fără a fi supuși unui mandat imperativ.
+
+## Art. 32. — (1) Consiliul Consultativ este alcătuit din 11 membri, după cum urmează:
+
+a) un membru desemnat de Ministerul Justiției;
+
+b) un membru desemnat de Ministerul Afacerilor Interne;
+
+c) un membru desemnat de Ministerul Educației și Cercetării;
+
+d) un membru desemnat de Ministerul Apărării Naționale;
+
+e) un membru desemnat de Ministerul Dezvoltării, Lucrărilor Publice și Administrației;
+
+f) un membru desemnat de Ministerul Sănătății;
+
+g) un membru desemnat de Ministerul Muncii, Familiei, Tineretului și Solidarității Sociale;
+
+h) un membru desemnat de Ministerul Economiei, Digitalizării, Antreprenoriatului și Turismului, prin structura cu atribuții în domeniul transformării digitale și al serviciilor publice digitale;
+
+i) trei membri desemnați de organizațiile neguvernamentale cu activitate în domeniul drepturilor omului;
+
+(2) În termen de 30 de zile de la solicitarea birourilor permanente reunite ale Camerei Deputaților și Senatului, entitățile prevăzute la alin. (1) transmit desemnările. Membrii Consiliului Consultativ sunt numiți prin hotărâre a Parlamentului.
+
+(3) Membrii sunt numiți de Parlament, în ședință comună, pentru un mandat de 4 ani, care poate fi reînnoit o singură dată.
+
+(4) Componența urmărește asigurarea echilibrului de reprezentare și a diversității expertizei.
+
+Art. 33. — (1) Membrii Consiliului Consultativ trebuie să aibă studii superioare, cel puțin 7 ani de experiență profesională și experiență ori activitate relevantă în domeniul drepturilor omului, cercetării, educației, justiției, politicilor publice, dialogului social sau libertății religioase ori în cadrul societății civile.
+
+(2) Propunerile se depun la Biroul Permanent al Senatului, respectiv Biroul Permanent al camerei Deputaților și sunt însoțite de curriculum vitae, declarația de interese, declarația privind independența și o scrisoare de motivare.
+
+(3) Propunerile și documentele candidaților se publică pe paginile de internet ale Camerei Deputaților și Senatului cu cel puțin 15 zile înainte de data audierii în comisiile parlamentare competente.
+
+(4) Candidații sunt audiați în ședință publică de comisiile parlamentare competente, reunite în ședință comună.
+
+Art. 34. — Consiliul Consultativ are următoarele atribuții:
+
+a) formulează recomandări privind strategia instituțională, programul anual de activitate și planul anual de cercetare;
+
+b) analizează și formulează observații asupra proiectului raportului anual privind starea drepturilor omului, înainte de aprobarea acestuia de către președinte;
+
+c) poate propune realizarea unor studii, rapoarte tematice sau note de avertizare privind probleme de interes public;
+
+d) semnalează IRDO evoluții și probleme sistemice identificate în domeniile reprezentate;
+
+e) facilitează cooperarea dintre IRDO și autorități publice, mediul academic, culte religioase, parteneri sociali și societatea civilă;
+
+f) formulează recomandări privind urmăirea obligațiilor și recomandărilor internaționale;
+
+g) adoptă un punct de vedere consultativ asupra raportului anual de activitate, care se anexează raportului transmis Parlamentului.
+
+h) contribuie la identificarea problemelor sistemice din domeniul drepturilor omului și la aducerea acestora în atenția IRDO, precum și la promovarea recomandărilor formulate de IRDO în cadrul autorității, instituției sau organizației pe care o reprezintă.
+
+Art. 35. — (1) Consiliul Consultativ se întrunește trimestrial și ori de câte ori este necesar, la convocarea președintelui IRDO sau la solicitarea a cel puțin 3 membri.
+
+(2) Ședințele sunt conduse de un coordonator ales semestrial prin rotație dintre membri.
+
+(3) Cvorumul este de 6 membri, iar recomandările se adoptă cu votul majorității membrilor prezenți.
+
+(4) Opiniile separate se consemnează și se publică pe pagina de internet a instituției.
+
+(5) Președintele și vicepreședintele participă la ședințe fără drept de vot.
+
+(6) Secretariatul Consiliului Consultativ este asigurat de aparatul IRDO.
+
+(7) Ordinea de zi, procesele-verbale și recomandările se publică pe pagina de internet a IRDO, cu respectarea excepțiilor prevăzute de lege.
+
+(8) La ședințele Consiliului Consultativ, președintele poate invita, în calitate de observatori, fără drept de vot, pe Avocatul Poporului, președintele Consiliului Național pentru Combaterea Discriminării și președintele Consiliului de Monitorizare a implementării Convenției privind drepturile persoanelor cu dizabilități sau reprezentanții desemnați ai acestora.
+
+Art. 36. — (1) Membrii Consiliului Consultativ beneficiază, pentru participarea efectivă la fiecare ședință, de o indemnizație reprezentând 10% din indemnizația lunară brută a președintelui IRDO.
+
+(2) Indemnizația se acordă pentru cel mult 4 ședințe într-un an calendaristic și se suportă din bugetul IRDO.
+
+(3) Membrii beneficiază de decontarea cheltuielilor de transport și cazare, în condițiile legii.
+
+(4) Indemnizația nu se acordă persoanei care participă în cadrul atribuțiilor funcției sale și pentru care instituția care a desemnat-o suportă aceste cheltuieli, dacă legislația aplicabilă interzice cumulul.
+
+Art. 37. — (1) Mandatul membrilor Consiliului Consultativ încetează prin expirare, demisie, deces, imposibilitate definitivă de exercitare, pierderea condițiilor de numire, absența nemotivată la 3 ședințe consecutive sau revocare pentru încălcarea gravă a obligațiilor.
+
+(2) Revocarea se face de Parlament, la propunerea motivată a entității care a formulat propunerea inițială ori a comisiilor parlamentare competente, după audierea persoanei, după caz.
+
+(3) În cazul vacantării unui loc în Consiliul Consultativ, un nou membru este desemnat și numit potrivit procedurii prevăzute la art. 33, pentru durata rămasă a mandatului.
+
+## CAPITOLUL VI
+
+## Organizarea aparatului propriu
+
+Art. 38. — (1) IRDO are un aparat propriu de specialitate, format din personal contractual.
+
+(2) Numărul maxim de posturi este de 20, exclusiv președintele, vicepreședintele și membrii Consiliului Consultativ.
+
+(3) Structura organizatorică cuprinde funcții de cercetare și analiză, monitorizare a obligațiilor internaționale, educație și formare, cooperare și comunicare publică, documentare, juridic, economic și administrativ.
+
+(4) Structura detaliată, statul de funcții, atribuțiile compartimentelor și procedurile interne se stabilesc prin regulamentul de organizare și funcționare.
+
+Art. 39. — (1) Regulamentul de organizare și funcționare al IRDO se aprobă prin hotărâre a birourilor permanente reunite ale Camerei Deputaților și Senatului, la propunerea președintelui IRDO, cu avizul comisiilor permanente ale Camerei Deputaților și Senatului competente în domeniul drepturilor omului, și se publică în Monitorul Oficial al României, Partea I.
+
+(2) Proiectul regulamentului de organizare și funcționare este supus consultării publice pentru cel puțin 20 de zile.
+
+(3) Regulamentul de organizare și funcționare nu poate adăuga atribuții față de cele prevăzute prin lege și nu poate reglementa elemente esențiale ale statutului conducerii ori personalului.
+
+Art. 40. — (1) Angajarea personalului se realizează prin concurs sau examen, în condițiile legii, pe baza competenței profesionale, integrității și egalității de șanse.
+
+(2) Salarizarea se realizează potrivit legii-cadru privind salarizarea personalului plătit din fonduri publice.
+
+Art. 41. —IRDO adoptă și publică un cod de etică și integritate.
+
+## CAPITOLUL VII
+
+## Planificare, raportare și control parlamentar
+
+Art. 42. — (1) IRDO adoptă o strategie instituțională pentru o perioadă de 4 ani.
+
+(2) Strategia prevăzută la alin. (1) stabilește prioritățile, obiectivele, indicatorii de rezultat și modalitățile de evaluare a impactului.
+
+(3) Proiectul strategiei instituționale este supus consultării publice și consultării Consiliului Consultativ, iar strategia se aprobă de președintele IRDO."
+
+(4) Strategia prevăzută la alin. (1) și evaluările privind aplicarea acesteia se publică pe site-ul instituției.
+
+Art. 43. — (1) Programul anual de activitate cuprinde proiectele de cercetare, rapoartele planificate, activitățile de educație, cooperare și comunicare, precum și indicatorii de rezultat.
+
+(2) Programul prevăzut la alin. (1) se aprobă de președinte și vicepreședinte până la data de 31 ianuarie a fiecărui an și poate fi actualizat motivat.
+
+Art. 44. — (1) Până la data de 15 aprilie a fiecărui an, IRDO transmite Parlamentului raportul privind activitatea desfășurată în anul precedent.
+
+(2) Raportul cuprinde cel puțin activitățile realizate, recomandările formulate și răspunsurile primite, indicatorii de rezultat, execuția bugetară, cooperarea instituțională și prioritățile pentru anul următor.
+
+(3) Raportul se prezintă și se dezbate în ședință comună a celor două Camere ale Parlamentului cu avizul comisiilor de specialitate.
+
+(4) Parlamentul poate adopta recomandări prin hotărâre, fără a interveni în conținutul analizelor, concluziilor și recomandărilor profesionale ale IRDO.
+
+Art. 45. — (1) La fiecare 4 ani, IRDO este supus unei evaluări externe independente privind eficiența, impactul, independența, transparența și utilizarea resurselor.
+
+(2) Evaluarea se realizează de o comisie independentă alcătuită din 3 experți, desemnați de birurile permanente reunite ale Camerei Deputaților și Senatului, la propunerea comisiilor parlamentare competente în domeniul drepturilor omului. Experții trebuie să aibă experiență relevantă în unul sau mai multe dintre următoarele domenii: drepturile omului, administrație publică, management instituțional și evaluarea politicilor publice.
+
+(3) Membrii comisiei prevăzute la alin. (2) nu pot face parte din conducerea IRDO, nu pot avea raporturi contractuale cu IRDO și nu se pot afla în conflict de interese.
+
+(4) Activitatea comisiei încetează la data transmiterii raportului de evaluare către Parlament. Activitatea membrilor comisiei este neremunerată.
+
+(5) Raportul de evaluare se transmite Parlamentului spre informare și se publică pe pagina de internet a IRDO.
+
+Art. 46. — IRDO publică și menține actualizate următoarele documente:
+
+a) strategia și programul anual;
+
+b) organigrama, statul de funcții și datele de contact;
+
+c) bugetul, execuția bugetară și achizițiile publice;
+
+d) rapoartele, recomandările și răspunsurile autorităților;
+
+e) agenda publică a președintelui și vicepreședintelui;
+
+f) procesele-verbale și recomandările Consiliului Consultativ;
+
+g) declarațiile de avere și de interese, potrivit legii;
+
+h) informațiile prevăzute de Legea nr. 544/2001 privind liberul acces la informațiile de interes public, cu modificările și completările ulterioare.
+
+## CAPITOLUL VIII
+
+## Finanțare și patrimoniu
+
+Art. 47. — (1) IRDO are buget propriu, cu finanțare de la bugetul de stat.
+
+(2) IRDO poate beneficia, în condițiile legii, de fonduri externe nerambursabile, granturi, donații și sponsorizări care nu afectează independența instituției.
+
+Art. 48. — (1) Proiectul de buget se întocmește de IRDO și se transmite Ministerului Finantelor în termenele stabilite de legislația finanțelor publice.
+
+(2) Creditele bugetare se utilizează potrivit Legii nr. 500/2002 privind finanțele publice, cu modificările și completările ulterioare.
+
+(3) Execuția bugetară este supusă controlului Curții de Conturi.
+
+Art. 49. — (1) IRDO administrează bunurile din patrimoniul său potrivit legii.
+
+(2) Bunurile aflate în administrarea IRDO la data intrării în vigoare a prezentei legi rămân în administrarea acestuia.
+
+(3) Operațiunile patrimoniale se realizează cu respectarea regimului juridic aplicabil proprietății publice și private a statului.
+
+## CAPITOLUL IX
+
+## Dispoziții tranzitorii
+
+Art. 50. — (1) Institutul Român pentru Drepturile Omului, înființat prin Legea nr. 9/1991 privind înființarea Institutului Român pentru Drepturile Omului, se reorganizează potrivit prevederilor prezentei legi, cu păstrarea personalității juridice.
+
+(2) Patrimoniul, arhiva, drepturile, obligațiile, contractele și litigiile Institutului Român pentru Drepturile Omului se mențin în cadrul Institutului reorganizat potrivit prezentei legi.
+
+Art. 51. — (1) Raporturile de muncă ale personalului contractual al Institutului Român pentru Drepturile Omului continuă în cadrul Institutului reorganizat potrivit prezentei legi, până la aplicarea noii structuri organizatorice, cu menținerea drepturilor salariale în condițiile legii.
+
+(2) Încadrarea personalului în noua structură organizatorică se realizează cu respectarea legislației muncii, a numărului maxim de posturi și a criteriilor profesionale.
+
+Art. 52. — (1) Procedura pentru numirea președintelui și vicepreședintelui potrivit prezentei legi se declanșează în termen de 15 zile de la data intrării în vigoare a acesteia și se finalizează în termen de cel mult 90 de zile de la aceeași dată.
+
+(2) Mandatele organelor de conducere aflate în exercitare la data intrării în vigoare a prezentei legi încetează la data depunerii jurământului de către președintele și vicepreședintele numiți potrivit prezentei legi.
+
+(3) Până la data prevăzută la alin. (2), conducerea existentă asigură numai actele necesare administrării curente și continuității activității Institutului.
+
+(4) Procedura pentru constituirea Consiliului Consultativ potrivit prezentei legi se declanșează în termen de 30 de zile de la data intrării în vigoare a acesteia.
+
+Art. 53. — (1) Regulamentul de organizare și funcționare prevăzut la art. 39 se aprobă în termen de 60 de zile de la data numirii președintelui.
+
+(2) Până la aprobarea noului regulament, actele interne existente se aplică în măsura în care nu contravin prezentei legi.
+
+(3) Strategia instituțională prevăzută la art. 42 se adoptă în termen de 90 de zile de la data numirii președintelui.
+
+Art. 54. — (1) Aplicarea prezentei legi se realizează cu încadrarea în creditele bugetare aprobate pentru anul în curs.
+
+(2) Orice majorare a numărului de posturi ocupate și orice cheltuială suplimentară se realizează numai cu respectarea legislației fiscal-bugetare și pe baza fișei financiare.
+
+(3) Pentru primul an de aplicare, modificările bugetare se realizează potrivit legii.
+
+## CAPITOLUL X
+
+## Dispoziții finale
+
+Art. 55. — Prezenta lege intră în vigoare la 30 de zile de la data publicării în Monitorul Oficial al României, Partea I.
+
+Art. 56. - La data intrării în vigoare a prezentei legi, Legea nr. 9/1991 privind înființarea Institutului Român pentru Drepturile Omului, publicată în Monitorul Oficial al României, Partea I, nr. 24 din 30 ianuarie 1991, se abrogă.

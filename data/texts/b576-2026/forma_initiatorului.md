@@ -1,0 +1,117 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+# pentru modificarea și completarea Legii nr. 169/2026 privind Codul amenajării teritoriului, urbanismului și construcțiilor
+
+## Senatul adoptă prezentul proiect lege:
+
+Art. I. - Legea nr. 169/2026 privind Codul amenajării teritoriului, urbanismului și construcțiilor se modifică și se completează după cum urmează:
+
+1\. La articolul 66, după litera g) se introduce o nouă literă, litera h), cu următorul cuprins :
+
+” h) în vederea stabilirii reglementărilor urbanistice aplicabile terenurilor pentru care nu există reglementări urbanistice în vigoare, inclusiv ca urmare a încetării valabilității documentațiilor de urbanism anterior aprobate. Prevederile art. 361 și art. 573 se aplică corespunzător.”
+
+3.La articolul 245, alineatul (3) se modifică și va avea următorul cuprins :
+
+"(3) Execuția lucrărilor de construire/desființare este permisă, în condițiile alin. (1) și (2), titularilor de drepturi reale asupra imobilului, după cum urmează :
+
+a) titularilor dreptului de proprietate privată sau publică ;
+
+b) titularilor de dezmembrăminte ale dreptului de proprietate privată, respectiv superficie, uzufruct, uz, abitație, servitute, în limita actului de constituire sau cu acordul proprietarului ;
+
+c) titularilor de alte drepturi reale corespunzătoare proprietății publice, respectiv dreptul de administrare, concesiune, folosință gratuită, conform actului de atribuire sau legii."
+
+4\. La articolul 257 alîneatul (9), după litera d) se introduce o literă nouă, literă e) care va avea următorul cuprins :
+
+"e) să permită întocmirea documentației tehnice pentru autorizația de construire, fără elaborarea unei documentații de planificare sau de proiectare urbană, în situația construirii, supraetajării sau extinderii unei clădiri existente pe o parcelă în cadrul unui front preexistent, în care clădirile de pe parcelele adiacente au același regim de înălțime cu cel solicitat."
+
+## 5. La articolul 284, alineatul (5) se modificăși va avea următorul cuprins :
+
+"(5) În cazul construcțiilor monument istoric și al construcțiilor cu valoare arhitecturală sau istorică stabilită prin documentații de urbanism aprobate, lucrările prevăzute la alin. (3) se pot executa numai cu notificarea prealabilă a autorității administrației publice locale și a serviciului deconcentrat al autorității centrale competente în domeniul protejăriipatrimoniului cultural și în baza acordului scris al acestui serviciu deconcentrat care conține condițiile și termenele de executare ale lucrărilor sau, după caz, necesitatea urmării procedurii de autorizare a respectivelor lucrări."
+
+## 6. La articolul 294 alineatul (3) se modifică și va avea următorul cuprins :
+
+"(3) Pot fi executate lucrări de construire în baza notificării prealabile a autorității administrației publice locale și a serviciului deconcentrat al autorității centrale competente în domeniul protejării patrimoniului cultural și în baza acordului scris al acestui serviciu deconcentrat care conține condițiile și termenele de executare ale lucrărilor, numai pentru următoarele categorii de lucrări de construire realizate la construcții amplasate în zona de protecție a monumentelor sau în zone construite protejate, inclusiv la monumente istorice clasate sau care sunt în curs de clasare și la construcții cu valoare arhitecturală sau istorică, stabilite prin documentații de urbanism, cu excepția monumentelor UNESCO."
+
+7\. Art. La 352 alin 5 litera b se modifică și va avea următorul cuprins :
+
+"b) executarea prin Compania Națională de Investiții « C.N.I.» - S.A. a unor categorii de lucrări în cadrul subprogramului « Lucrări în primă urgență » și al Programului guvernamental construire creșe «Sfânta Ana » din cadrul Programului național de construcții de interes public sau social."
+
+8\. La art. 352 după litera d) se introduce un alineat nou, e) care va avea următorul cuprins :
+
+"e) activitatea de verificare și control a obiectivelor de investiții finanțate prin programele naționale de investiții derulate."
+
+9\. La articolul 357, după alineatul (5) se introduce un alineat nou, 5¹ care va avea următorul cuprins
+
+"(51) Prin derogare de la prevederile art. 13 alin. (1) din Ordonanța Guvernului nr. 2/2001 privind regimul juridic al contravențiilor, cu modificările și completările ulterioare, dreptul de a aplica sancțiunile amenzii contravenționale prevăzute la alin. (4) se prescrie în termen de 5 ani de la data săvârșirii faptei."
+
+## 10. La articolul 361, alineatul (4) se modifică și va avea următorul cuprins :
+
+„(4) În vederea prevenirii unui blocaj în procesul de emitere a certificatelor de urbanism, a autorizațiilor de construire/desființare și de realizare a investițiilor, în situația anulării în tot de către instanța de contencios administrativ a PUG sau PUGZM, devin aplicabile de drept PUG sau PUGZM care au fost în vigoare anterior celui anulat pentru teritoriul în cauză, fără a relua procedura de avizare, cu obligația inițierii demersurilor pentru elaborarea unui nou PUG sau PUGZM. Prevederile prezentului alineat se aplică în mod corespunzător și pentru unitățile administrativ-teritoriale ale căror Planuri Urbanistice Generale au fost anulate definitiv de către instanțele judecătorești anterior intrării în vigoare a prezentei legi, dacă la data intrării în vigoare a prezentei legi nu a fost aprobat un nou PUG.”
+
+10\. La articolul 361, după alineatul (4) se introduce un alineat nou, alineatul (4^1) care va avea următorul cuprins
+
+„(4^1) în situația în care pentru territoriul unității administrativ-teritoriale afectate de decizia de anulare prevăzută la alin. (4) nu a existat un PUG aprobat anterior celui anulat, până la aprobarea PUG se aplică de drept prevederile Regulamentului General de Urbanism, raportat la limita intravilanului existent la data rămânerii definitive a hotărârii judecătorești de anulare, cu luarea în considerare a extinderilor de intravilan realizate prin planuri urbanistice zonale legal aprobate precum și prevederile prezentului cod ”
+
+## 11. La articolul 361, alineatul (5) se modifică și va avea următorul cuprins
+
+„(5) Perioada de valabilitate a PUG sau PUGZM reintrat în vigoare conform alin. (4), precum și perioada de aplicare a regimului de autorizare prevăzut la alin. (4^1) este de maximum 24 de luni de la data rămânerii definitive a hotărârii judecătorești de anulare, iar în cazul în care hotărârea judecătorească de anulare a rămas definitivă anterior datei de 25 august 2026, de la această dată.”
+
+12.La articolul 573, după alineatul (3) se introduce un nou alineat, alin. (4), cu următorul cuprins :
+
+„(4) în absența Planului urbanistic general în vigoare, se pot realiza investiții în construcții, lucrări tehnico-edilitare, precum și orice alte investiții numai pe baza unui plan urbanistic zonal aprobat potrivit legii și cu respectarea Regulamentului general de urbanism, cu excepțiile prevăzute de prezenta lege, precum și de alte acte normative în vigoare.”
+
+## 13. Articolul 581, alineatul (3) se modifică și va avea următorul cuprins:
+
+"(3) în aplicarea prevederilor prezentului cod, dispozițiile Ordonanței Guvernului nr. 2/2001 privind regimul juridic al contravențiilor, cu modificările și completările ulterioare, se aplică în mod corespunzător numai în măsura în care nu contravin prezentului cod. Dispozițiile art. 28 și 29 din Ordonanța Guvernului nr. 2/2001 nu sunt aplicabile, cu excepția cazurilor în care în prezentul cod prevede expres altfel."
+
+14 La articolul 582, alineatele (1)-(4) se modifică și vor avea următorul cuprins :
+
+"(1) Procedurile privitoare la elaborarea, avizarea și aprobarea documentațiilor de urbanism și a celor de amenajare a teritoriului, demarate anterior intrării în vigoare a prezentului cod, rămân supuse dispozițiilor legale în vigoare la data inițierii acestora.
+
+(2) Prin excepție de la alin. (1), pentru obținerea avizelor care nu au fost încă obținute, procedura de avizare poate fi continuată simplificat prin analiza documentațiilor în comisia de avizare integrată, cu luare în considerare a avizelor deja obținute care își păstrează valabilitatea.
+
+(3) După intrarea în vigoare a prezentului cod, autoritățile administrației publice locale demarează procedurile de realizare a documentațiilor de amenajarea territoriului și a planurilor urbanistice generale în format GIS și cu completarea cu elementele de conținut prevăzute suplimentar de prezentul cod.
+
+(4) Certificatele de urbanism solicitate și/sau emise anterior intrării în vigoare a prezentului cod își păstrează valabilitatea, iar autorizațiile de construire/desființare vor fi emise de autoritățile administrației publice competente de la data emiterii certificatelor de urbanism respective sau de autoritățile administrației publice competente potrivit actualului cod, în baza avizelor, a documentațiilor solicitate prin certificatele de urbanism și vor fi eliberate potrivit dispozițiilor legale în vigoare de la data emiterii certificatelor de urbanism.”
+
+15\. La Anexa nr.1 DEFINIREA TERMENILOR UTILIZAȚI definiția termenului Drept de execuție a lucrărilor de construcții se modifică și completează după cum urmează
+
+"Dreptul asupra construcției și/sau terenului care conferă titularului dreptul de a obține, potrivit legii, din partea autorității competente autorizația de construire/desființare :
+
+1\. dreptul real principal : drept de proprietate, drept de administrare, drept de concesiune având ca obiect terenuri aflate în domeniul public sau privat al statului sau unităților administrativ-teritoriale, uz, uzufruct, superficie, servitute
+
+2\. drept de creanță dobândit prin : contract de cesiune, concesiune, comodat, locațiune. Emiterea autorizației de construire în baza unui contract de comodat/locațiune se poate face numai pentru construcții cu caracter provizoriu și acordul expres al proprietarului de drept. Prin excepție, în baza unui contract de închiriere încheiat în condițiile legislației specifice din domeniul petrolului și gazelor naturale, de către titularii de licențe/permise/autorizații cu proprietarii terenurilor din perimetrul de exploatare, se poate autoriza inclusiv executarea lucrărilor de construcții necesare pentru derularea operațiunilor de explorare/prospectare geologică și exploatare a petrolului și gazelor naturale, altele decât construcțiile cu caracter provizoriu, dacă respectivele contracte cuprind explicit acordul proprietarilor pentru executarea lucrărilor de construcții pe aceste terenuri, respectiv în baza unui acord pentru construcțiile care afectează temporar terenul și cu acordul expres al deținătorului de drept pentru executarea lucrărilor de construcții necesare extinderii, întreținerii sistemelor de apă și apă uzată, aduțiuni, având explicit acordul/declarația din partea deținătorului de drept pentru executarea lucrărilor de construcții pe aceste terenuri."
+
+## 16. Art. 582¹ - Regimul sancționator al lucrărilor executate anterior intrării în vigoare a Codului
+
+"(1) Pentru lucrările de construire, modificare, extindere, desființare sau pentru orice alte lucrări pentru care legea impunea obținerea unei autorizații și care au fost executate fără autorizație de construire ori cu nerespectarea autorizației de construire anterior datei intrării în vigoare a prezentului Cod, constatarea și sancționarea contravențiilor se realizează potrivit dispozițiilor legale în vigoare la data săvârșirii faptei.
+
+(2) în cazul în care lucrările prevăzute la alin. (1) fac obiectul unei proceduri de control sau al procedurii de regularizare prevăzute la art. 301, beneficiarul lucrarilor poate dovedi data finalizării lucrărilor, prin orice mijloc de probă admis de lege, inclusiv prin înscrisuri, documentații tehnice, evidențe cadastrale și fiscale, înscriere în registrul agrictol, documente privind racordarea sau consumul de utilități, imagini aeriene ori satelitare, fotografii datate, documente privind achiziția și punerea în operă a materialelor, precum și prin expertize tehnice sau alte mijloace de probă relevante.
+
+(3) Data efectuării controlului, data constatării existenței construcției sau data întocmirii procesului-verbal de constatare și sancționare a contravenției nu constituie, prin ele însele, data săvârșirii faptei."
+
+17\. La anexa nr. 1 DEFINIREA TERMENILOR UTILIZAȚI, definiția termenului procent de ocupare a terenului „POT” se modifică și va avea următorul cuprins:
+
+"Procent de ocupare a terenului (POT) - raportul dintre suprafața construită a clădirii și suprafața parcelei, exprimată procentual.
+
+La determinarea procentului de ocupare a terenului, suprafața construită luată în calcul reprezintă proiectția pe sol a volumului construcției, respectiv amprenta edificată la nivelul solului, și, după caz, proiectția pe sol a elementelor construite care depășesc această amprentă, inclusiv etajele în consolă, balcoanele și alte elemente constructive permanente, cu excepția următoarelor:
+
+exterioare de acces la nivelul parterului, demisolului și subsolului, scărilor deschise de incendiu;
+
+2\. suprafețele amenajărilor exterioare de incintă, precum alei de acces pietonal sau carosabil, trotuare de protecție, parcaje amenajate la nivelul solului, neacoperite, curți interioare;
+
+3\. suprafețele piscinelor exterioare neacoperite și a terenurilor de sport neacoperite;
+
+4\. suprafețele locurilor de joacă, cu echipamentele aferente;
+
+5\. suprafețele mobilierului urban, ale pergolelor, copertinelor în consolă, rastelurilor de biciclete, împrejmuirilor;
+
+6\. suprafețele platformelor pentru colectarea deșeurilor, cu echipamentele aferente;
+
+7\. suprafețele stațiilor de încărcare electrice, panourilor fotovoltaice, ale automatelor de plată;
+
+8\. suprafețele ocupate de construcții temporare (food truck etc.) pe o perioadă de maximum 6 luni. La calculul procentului de ocupare a terenului pentru amenajări de spații verzi, suprafața construită include amprenta edificată la nivelul solului a construcțiilor, instalațiilor, platformelor, precum și circulațiilor carosabile și pietonale."

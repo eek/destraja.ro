@@ -1,0 +1,17 @@
+# PARLAMENTUL ROMÂNIEI CAMERA DEPUTAȚILOR GRUPUL PARLAMENTAR USR
+
+București, 07.10.2026
+
+## Câtre SENATULUI Biroul Permanent al Camerei Deputaților
+
+În temeiul prevederilor art. 74 alin. (4) din Constituția României și ale art. 92 alin. (1) din Regulamentul Camerei Deputaților, republicat, vă înaintăm spre dezbatere și adoptare a propunerii legislative de modificare și completare a prevederilor Legii nr. 198/2023 privind învățământul preuniversitar.
+
+În numele inițiatorilor,
+
+deputat Rigman Ciprian Doru
+
+deputat Botez Mihai Cătălin
+
+senator Mîndru Cătălin Emil
+
+senator PALADE 8767AM

@@ -1,0 +1,13 @@
+# PARLAMENTUL ROMÂNIEI
+
+## CĂTRE, SENATUL ROMÂNIEI
+
+În conformitate cu prevederile art. 74 alin. (1) și ale art. 75 din Constituția României, republicată, precum și cu prevederile art. 92 alin. (1) din Regulamentul Senatului, republicat, cu modificările și completările ulterioare, vă înaintez spre dezbatere și adoptare Propunerea legislativă pentru modificarea și completarea Legii nr.227/2015 privind Codul Fiscal, publicată în Monitorul Oficial al României, Partea I, nr. 688 din 10 septembrie 2015, cu modificările și completările ulterioare.
+
+Inițiator:
+
+Albu Dumitrița
+
+Simu Aurora Tasica
+
+Deputați Neafiliați

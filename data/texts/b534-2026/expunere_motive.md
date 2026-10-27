@@ -1,0 +1,193 @@
+# EXPUNERE DE MOTIVE
+
+## la propunerea legislativă pentru modificarea și completarea Legii nr. 207/2015 privind Codul de procedură fiscală
+
+## I. Obiectul inițiativei legislative
+
+Prezenta inițiativă legislativă are ca obiect modificarea și completarea Legii nr. 207/2015 privind Codul de procedură fiscală, în vederea consacrării obligației autorităților și instituțiilor publice de a verifica direct, prin sistemele și mecanismele disponibile ale statului, două categorii de informații cu caracter administrativ și fiscal:
+
+a) situația fiscală a persoanelor fizice și juridice, inclusiv existența sau inexistența obligațiilor fiscale restante;
+
+b) efectuarea plăților datorate către autoritățile și instituțiile publice, inclusiv obligații fiscale, bugetare, taxe, tarife, amenzi, contribuții ori alte sume colectate în condițiile legii.
+
+Proiectul urmărește reducerea solicitării certificatului de atestare fiscală, a documentelor privind lipsa obligațiilor fiscale restante, precum și a dovezilor de plată, chitanțelor, ordinelor de plată, extraselor de cont sau altor documente similare, în acele situații în care informațiile pot fi obținute ori verificate direct de autoritatea sau instituția publică competentă.
+
+## II. Necesitatea reglementării
+
+În relația dintre cetățeni, mediul economic și instituțiile publice, continuă să existe numeroase proceduri administrative în care persoanei interesate i se solicită să prezinte documente emise, deținute, generate sau verificabile de către stat.
+
+În materie fiscală și bugetară, această practică se manifestă în special prin solicitarea certificatului de atestare fiscală, a documentelor privind lipsa datoriilor ori a dovezilor de plată pentru taxe, tarife, amenzi, contribuții sau alte sume datorate către autorități și instituții publice.
+
+Această practică generează costuri administrative, consumă timp, produce întârzieri și transformă contribuabilul, debitorul, plătitorul sau solicitantul unui serviciu public într-un intermediar între instituții ale aceluiași stat.
+
+Într-un stat modern, atunci când informația există deja în sistemele fiscale, bugetare, contabile sau informatice ale administrației publice, autoritatea competentă trebuie să o verifice direct, nu să transfere asupra cetățeanului sau a operatorului economic sarcina de a o dovedi prin documente suplimentare.
+
+Prezenta inițiativă legislativă răspunde acestei probleme prin introducerea unei reguli clare: statul nu trebuie să solicite documente pur constatatoare atunci când poate verifica direct informația relevantă.
+
+## III. Cadrul normativ existent
+
+Codul de procedură fiscală reglementează deja certificatul de atestare fiscală emis de organul fiscal central, certificatul de atestare fiscală emis de organul fiscal local, precum și solicitarea certificatului de atestare fiscală în anumite situații prevăzute de lege.
+
+De asemenea, Codul de procedură fiscală reglementează efectuarea plății obligațiilor fiscale, bugetare sau a altor sume colectate de instituții publice și stabilește documentele prin care efectuarea plății și data plății pot fi dovedite, dacă legea nu prevede altfel.
+
+Cadrul actual conține deja elemente care permit comunicarea electronică a dovezii plății și verificarea ulterioară a încasării în conturile instituțiilor publice, pe baza extraselor de cont eliberate de unitățile Trezoreriei Statului.
+
+Cu toate acestea, reglementarea actuală este construită în continuare preponderent pe logica prezentării documentului de către contribuabil, debitor sau plătitor. În privința dovezii plății, cadrul actual permite instituțiilor să accepte comunicarea electronică a dovezii, dar nu consacră suficient de clar obligația de verificare directă și prioritară de către instituția publică.
+
+Prin urmare, este necesară o intervenție legislativă care să mute centrul de greutate de la „persoana dovedește prin document” la „instituția verifică direct prin sistemele statului”.
+
+## IV. Finalitatea proiectului
+
+Inițiativa legislativă nu urmărește eliminarea certificatului de atestare fiscală, a dovezii plății sau a documentelor similare acolo unde acestea sunt necesare potrivit legii.
+
+Scopul proiectului este acela de a elimina solicitarea lor inutilă, ca documente standard, în procedurile în care informațiile pot fi obținute ori verificate direct de autoritățile și instituțiile publice.
+
+## Proiectul urmărește:
+
+a) reducerea birocrației fiscale și administrative;
+
+b) simplificarea relației dintre cetățeni, firme și instituțiile publice;
+
+c) utilizarea efectivă a datelor și evidențelor deținute de stat;
+
+d) consolidarea interoperabilității între instituții;
+
+e) eliminarea practicii prin care cetățeanul sau antreprenorul este transformat în curier între ghișee și baze de date publice;
+
+f) creșterea responsabilității administrative prin obligația de motivare a situațiilor în care documentul este totuși solicitat.
+
+## V. Verificarea directă a situației fiscale
+
+Proiectul introduce un nou articol, art. 160^1, prin care se consacră obligația autorităților și instituțiilor publice de a verifica direct situația fiscală a persoanelor fizice sau juridice ori existența sau inexistența obligațiilor fiscale restante, prin sistemele fiscale și informatice ale statului, în condițiile legii.
+
+În mod corelativ, autoritățile și instituțiile publice nu vor mai solicita contribuabilului sau plătitorului certificatul de atestare fiscală ori alte documente care atestă situația fiscală sau lipsa obligațiilor fiscale restante, în măsura în care informațiile necesare pot fi obținute ori verificate direct prin mijloace electronice.
+
+Sunt prevăzute excepții limitate, aplicabile atunci când informațiile nu pot fi obținute ori validate direct, când datele sunt incomplete sau prezintă neconcordanțe ori când un anumit document este cerut expres de lege pentru producerea unui efect juridic distinct de simpla verificare a situației fiscale.
+
+Această soluție păstrează siguranța juridică a procedurilor, dar transformă certificatul fiscal dintr-un document solicitat reflex într-un instrument utilizat atunci când este efectiv necesar.
+
+## VI. Verificarea directă a plăților
+
+Proiectul introduce un nou articol, art. 163^1, care stabilește regula potrivit căreia, în procedurile administrative în care soluționarea unei cereri, prestarea unui serviciu public, emiterea unui act administrativ ori realizarea unei operațiuni administrative este condiționată de achitarea unor obligații fiscale, bugetare, taxe, tarife, amenzi, contribuții ori alte sume colectate în condițiile legii, autoritatea sau instituția publică competentă are obligația de a verifica direct plata.
+
+Verificarea se poate realiza prin evidențele proprii, prin sistemele informatice disponibile, prin unitățile Trezoreriei Statului, prin sistemele electronice de plată puse la dispoziție potrivit legii sau prin alte mecanisme de acces, verificare ori interoperabilitate.
+
+În măsura în care plata poate fi identificată și verificată direct, instituția publică nu va mai solicita dovada plății, chitanța, ordinul de plată, extrasul de cont, confirmarea de plată ori alte documente similare.
+
+Această soluție este necesară deoarece, în practică, cetățenii și firmele sunt adesea obligați să prezinte dovezi de plată pentru sume achitate către stat, deși plata a fost efectuată prin canale oficiale sau verificabile.
+
+Principiul proiectului este simplu: dacă plata a fost făcută către stat printr-un mijloc verificabil, statul trebuie să o verifice direct, nu să solicite persoanei să prezinte încă o hârtie.
+
+## VII. Regimul excepțiilor
+
+Pentru a evita rigiditatea excesivă, proiectul prevede expres situațiile în care documentele pot fi solicitate în continuare.
+
+În materia situației fiscale, certificatul sau documentele similare pot fi solicitate atunci când informațiile nu pot fi obținute ori validate direct, când datele sunt incomplete sau prezintă neconcordanțe ori când legea cere documentul pentru un efect juridic distinct.
+
+În materia plăților, dovada plății sau documentele similare pot fi solicitate atunci când plata nu poate fi identificată ori validată direct, când datele sunt incomplete sau neconcordante, când plata a fost efectuată printr-un canal care nu permite verificarea directă ori când legea cere expres un document pentru producerea unui efect juridic distinct.
+
+În toate aceste situații, autoritatea sau instituția publică are obligația de a consemna motivul concret pentru care informația sau plata nu a putut fi verificată direct.
+
+Această obligație de motivare este esențială pentru prevenirea menținerii unor practici administrative formale și pentru asigurarea posibilității de control ulterior.
+
+## VIII. Protecția datelor, secretul fiscal și trasabilitatea
+
+Proiectul prevede expres că verificarea directă se realizează numai în măsura necesară îndeplinirii atribuțiilor legale ale autorităților și instituțiilor publice competente și cu respectarea dispozițiilor privind secretul fiscal, protecția datelor cu caracter personal, securitatea cibernetică, confidențialitatea informațiilor și trasabilitatea accesărilor.
+
+Această garanție este necesară pentru a asigura un echilibru corect între simplificarea administrativă și protectția informațiilor fiscale, bugetare și personale.
+
+## IX. Comunicarea electronică a dovezii plății
+
+Proiectul modifică art. 163 alin. (11^2), astfel încât, în situațiile în care dovada plății este prezentată potrivit legii, instituțiile publice să accepte comunicarea acesteia prin mijloace electronice.
+
+Această modificare este complementară regulii verificării directe. Regula principală devine verificarea directă de către instituție. Atunci când verificarea directă nu poate fi realizată și dovada este necesară, comunicarea electronică a dovezii trebuie acceptată, pentru a evita revenirea la o logică exclusiv pe suport hârtie.
+
+## X. Mecanisme de implementare
+
+Pentru ca legea să producă efecte reale, proiectul prevede obligații clare de implementare.
+
+În termen de 90 de zile de la publicarea legii, Ministerul Finanțelor, Agenția Națională de Administrare Fiscală, organele fiscale locale, unitățile Trezoreriei Statului și celelalte autorități și instituții publice competente trebuie să modifice și să completeze, după caz, procedurile administrative, instrucțiunile, formularele, listele de documente și fluxurile de lucru necesare aplicării legii.
+
+În termen de 180 de zile de la publicare, aceleași autorități și instituții trebuie să asigure operaționalizarea mecanismelor de acces, verificare directă și interoperabilitate necesare aplicării dispozițiilor prezentei legi.
+
+Totodată, proiectul introduce, prin art. 163², obligația Ministerului Finanțelor de a publica anual, până la data de 31 mai, un raport privind stadiul implementării mecanismelor de verificare directă a situației fiscale și a plăților efectuate către autoritățile și instituțiile publice.
+
+Această raportare permite monitorizarea publică și parlamentară a aplicării legii și identificarea blocajelor tehnice, juridice sau administrative.
+
+## XI. Efectele preconizate
+
+Adoptarea prezentei inițiative legislative va produce efecte pozitive semnificative:
+
+g) reducerea birocrației pentru cetățeni și operatorii economici;
+
+h) eliminarea solicitării inutile a certificatului fiscal și a dovezilor de plată;
+
+i) reducerea timpului pierdut în proceduri administrative;
+
+j) creșterea utilizării effective a sistemelor informatice și a evidențelor statului;
+
+k) uniformizarea practicilor administrative;
+
+l) consolidarea interoperabilității între instituțiile publice;
+
+m) creșterea transparenteți și responsabilității administrative;
+
+n) respectarea timpului cetățenilor și al mediului economic.
+
+## XII. Concluzie
+
+Prezenta inițiativă legislativă nu slăbește verificarea fiscală, bugetară sau administrativă. Dimpotrivă, o întărește prin mutarea verificării în locul firesc: în sistemele și evidențele oficiale ale statului.
+
+Nu se elimină certificatul fiscal acolo unde este necesar. Nu se elimină dovada plății atunci când verificarea directă nu poate fi realizată. Nu se elimină controlul administrativ.
+
+Se elimină, în schimb, solicitarea inutilă a unor documente pe care statul le poate înlocui prin verificare directă.
+
+Dacă statul poate verifica situația fiscală, nu trebuie să trimită cetățeanul după certificat fiscal.
+
+Dacă statul poate verifica plata, nu trebuie să trimită cetățeanul după chitanță.
+
+Aceasta este esența proiectului: mai puțină hârtie, mai multă responsabilitate administrativă și un stat care își folosește propriile date în interesul cetățenilor și al mediului economic.
+
+Pentru toate aceste motive, adoptarea prezentei propuneri legislative este necesară și oportună.
+
+În numele inițiatorilor,
+
+Senator RUS Vasile-Ciprian
+
+## LISTA SUSTINĂTORILOR
+
+# propunerii legislative pentru modificarea și completarea Legii nr. 207/2015 privind Codul de procedură fiscală
+
+| Nr. crt. | Numele și prenumele senatorului/deputatului | Grupul parlamentar | Semnătura de sustinere |
+| --- | --- | --- | --- |
+| 1 | ANGHEL RAZVAN | -PAUL USR |  |
+| 2. | MINARU CĂTĂLIN -EMIL | USR |  |
+| 3 | NEGOI EVEN REMUS | USR |  |
+| 4 | CERNIE SEBASTIAM | USIZ |  |
+
+## LISTA SUSTINĂTORILOR
+
+# propunerii legislative pentru modificarea și completarea Legii nr. 207/2015 privind Codul de procedură fiscală
+
+<table>
+<tbody>
+<tr><td>Nr. crt.</td><td>Numele și prenumele senatorului/deputatului</td><td>Grupul parlamentar</td><td>Semnătura de susținere</td></tr>
+<tr><td>1</td><td>ECHERT ADEITN</td><td>USC</td><td rowspan="3"></td></tr>
+<tr><td>2</td><td>Parasclivescu Qidiu</td><td>USR</td></tr>
+<tr><td>3</td><td>PLUJ AR ANDPEI</td><td>USR</td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+Prin semnătură, inițiatorul își exprimă susținerea pentru prezentul proiect de lege și solicită înregistrarea acestuia la Biroul Permanent al Senatului

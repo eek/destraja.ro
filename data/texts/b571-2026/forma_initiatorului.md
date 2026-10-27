@@ -1,0 +1,51 @@
+## LEGE
+
+## privind utilizarea daunelor-interese încasate din executarea contractelor de achiziții publice din cadrul Ministerul Apărării Naționale
+
+Art. 1 - Prin derogare de la prevederile art. 62 alin. (2) din Legea nr. 500/2002 privind finanțele publice, cu modificările și completările ulterioare, sumele efectiv încasate de Ministerul Apărării Naționale și de instituțiile publice din subordinea acestuia, finanțate integral de la bugetul de stat, reprezentând daune interese pentru neîndeplinirea, îndeplinirea cu întârziere sau îndeplinirea necorespunzătoare a obligațiilor contractuale, rezultate din executarea contractelor de achiziții publice, se constituie și se repartizează astfel:
+
+a) 30% se consideră venituri proprii și se rețin de Ministerul Apărării Naționale;
+
+b) 40% se fac venit la bugetul de stat;
+
+c) 20% se virează la bugetul de stat, cu destinație specială, în vederea constituirii unui fond pentru actualizarea pensiilor militare de stat, gestionat potrivit legii;
+
+c) 10% se utilizează pentru constituirea fondului pentru stimularea personalului, în condițiile prezentei legi.
+
+Art. 2 - (1) Veniturile proprii prevăzute la art. 1 lit. a) se evidențiază distinct și se utilizează, în condițiile legii, pentru finanțarea activităților și programelor Ministerului Apărării Naționale, inclusiv pentru programe de înzestrare, achiziții de produse, servicii și lucrări destinate apărării, cercetare-dezvoltare, inovare, testare și evaluare, infrastructură, mentenanță și pregătirea personalului.
+
+(2) Sumele rămase neutilizate la sfârșitul exercițiului bugetar se reportează în anul următor și se utilizează cu aceeași destinație, în condițiile legii.
+
+Art. 3 - (1) Din cota prevăzută la art. 1 lit. d) se constituie fondul pentru stimularea personalului militar și civil.
+
+(2) Fondul aferent sumelor rezultate din executarea unui contract se utilizează exclusiv pentru stimularea personalului militar și civil din cadrul autorității contractante implicate în atribuirea și executarea contractului respectiv.
+
+(3) Sumele constituite în fondul pentru stimularea personalului nu pot fi redistribuite și nu pot fi utilizate pentru stimularea personalului încadrat în alte structuri ale Ministerului Apărării Naționale decât structura prevăzută la alin. (2).
+
+(4) Constituirea și utilizarea fondului pentru stimularea personalului nu determină majorarea sumelor alocate Ministerului Apărării Naționale de la bugetul de stat, fondul fiind constituit exclusiv din sumele efectiv încasate potrivit prezentei legi.
+
+Art. 4 - (1) Stimulentele financiare prevăzute de prezenta lege constituie drepturi financiare cu caracter variabil, distincte de premiile de excelență prevăzute la art. 26 din Legea-cadru nr. 153/2017 privind salarizarea personalului plătit din fonduri publice, cu modificările și completările ulterioare, și se acordă exclusiv în limita fondului constituit potrivit art. 3.
+
+(2) Acordarea stimulentelor are în vedere contribuția individuală la pregătirea, negocierea, atribuirea, managementul și monitorizarea contractelor, activitățile tehnice, economico-financiare, juridice și administrative aferente, prevenirea prejudiciilor, protejarea intereselor patrimoniale ale statului, precum și constatarea, calcularea și recuperarea sumelor datorate.
+
+(3) Acordarea stimulentelor nu este condiționată exclusiv de participarea directă la constatarea sau aplicarea penalităților.
+
+Art. 5 - (1) Sumele prevăzute de prezenta lege se încasează, repartizează, evidențiază și utilizează prin Trezoreria Statului, potrivit legii.
+
+(2) Evidența sumelor se organizează astfel încât să permită identificarea contractului din executarea căruia acestea provin, a structurii care a gestionat contractul, a cuantumului total efectiv încasat și a repartizării acestuia potrivit art. 1.
+
+Art. 6 - (1) Sumele din fondul pentru stimularea personalului rămase neutilizate la sfârșitul anului bugetar se reportează în anul următor cu aceeași destinație și pentru personalul aceleiași structuri care a gestionat contractul.
+
+(2) Utilizarea fondului este supusă controlului financiar preventiv, auditului intern și celorlalte forme de control prevăzute de lege.
+
+Art. 7 - În termen de 60 de zile de la intrarea în vigoare a prezentei legi, ministrul apărării naționale aprobă, prin ordin, normele privind constituirea, evidențierea, repartizarea și utilizarea fondului pentru stimularea personalului.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR,
+
+PREȘEDINTELE SENATULUI,
+
+SORIN-MIHAI GRINDEANU
+
+MIRCEA ABRUDEAN

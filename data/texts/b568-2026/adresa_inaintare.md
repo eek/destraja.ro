@@ -1,0 +1,15 @@
+## CÂTRE,
+
+## BIROUL PERMANENT AL SENATULUI
+
+În conformitate cu prevederile art. 74 alin. (1) și ale art. 75 din Constituția României, republicată, precum și cu prevederile art. 92 alin. (2) și (4) din Regulamentul Senatului, republicat, vă înaintăm propunerea legislativă intitulată „Lege pentru completarea Legii nr. 47/1994 privind serviciile din subordinea Președintelui României, precum și pentru reglementarea utilizării fondurilor publice aferente deplasărilor oficiale externe ale Președintelui României” spre dezbatere și adoptare.
+
+În temeiul art. 111 alin. (1) din Constituția României, republicată, vă adresăm rugămintea de a solicita Guvernului să comunice punctul de vedere asupra prezentei propuneri legislative.
+
+De asemenea, adresăm rugămintea de a solicita avizele Consiliului Legislativ , Consiliului Economic și Social și Consiliului Concurenței.
+
+INIȚIATORI:
+
+Deputat AUR- Dumitrina,Mitrea
+
+Deputat AUR- Andra-Claudia Constantinescu

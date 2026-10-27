@@ -1,0 +1,76 @@
+## Expunere de motive
+
+Sectorul apicol reprezintă o componentă esențială a agriculturii românești, atât prin contribuția sa directă la producția de miere și produse apicole, cât și prin rolul fundamental pe care albinele îl au în polenizarea culturilor agricole și în menținerea biodiversității.
+
+O particularitate a activității apicole o constituie apicultura pastorală, care presupune deplasarea periodică a stupilor către diferite zone melifere, în funcție de succesiunea înfloririi principalelor plante de interes apicol. Aceste deplasări sunt indispensabile pentru asigurarea producției apicole și pentru valorificarea eficientă a resurselor naturale disponibile.
+
+În prezent, apicultorii care practică stupăritul pastoral suportă costuri semnificative generate de transportul stupilor pe rețeaua de drumuri naționale. Aceste costuri se adaugă cheltuielilor tot mai ridicate cu combustibilul, echipamentele, tratamentele sanitar-veterinare și întreținerea familiilor de albine. În contextul dificultăților cu care se confruntă sectorul apicol, generate de schimbările climatice, reducerea resurselor melifere și creșterea costurilor de producție, se impune adoptarea unor măsuri de sprijin adecvate.
+
+Prin prezenta inițiativă legislativă se propune exceptarea de la plata tarifului de utilizare a rețelei de drumuri naționale a vehiculelor specializate pentru transportul stupilor în cadrul practicării apiculturii pastorale, omologate în acest scop de Registrul Auto Român și utilizate exclusiv pentru transportul stupilor.
+
+Măsura propusă are un caracter limitat și bine determinat, întrucât se aplică numai vehiculelor specializate și omologate de Registrul Auto Român pentru această destinație, eliminând posibilitatea utilizării abuzive a facilității. Totodată, numărul acestor vehicule este redus în raport cu totalul vehiculelor supuse obligației de plată a rovinietei, astfel încât impactul bugetar estimat este unul nesemnificativ.
+
+Sprijinirea apiculturii pastorale contribuie indirect la susținerea producției agricole naționale, având în vedere importanța polenizării pentru numeroase culturi agricole și pentru ecosistemele naturale. Prin reducerea costurilor de exploatare ale apicultorilor, se creează premisele menținerii și dezvoltării efectivelor de albine, cu efecte benefice asupra agriculturii, mediului și economiei rurale.
+
+Având în vedere cele prezentate mai sus, propunem adoptarea acestei inițiative legislative.
+
+Inițiatori,
+
+Kolcsar Kăroly – deputat UDMR
+
+Proiect de lege pentru modificarea și completarea Ordonanței Guvernului nr. 15/2002 privind aplicarea tarifului de utilizare și a tarifului de trecere pe rețeaua de drumuri naționale din România
+
+| Nr.Crt. | NUME INIȚIATOR | GRUPPARLAMENTAR | SEMNĂTURA |
+| --- | --- | --- | --- |
+| 1 | Kolesár károly | UDMR |  |
+| 2 | MAGYAR LORANDALI | DMLR |  |
+| 3 | KÖNCHEI CSABA | UDMR |  |
+| 4 | MOLNAE ANDRE | UDMR |  |
+| 5 | Goua Botad | UDMR |  |
+| 6. | KONJOR AGORA | UUMR |  |
+| 7. | Casstar Karole | UDMR/RMDZ |  |
+| 8. | YASMIR JIMAN-SAYA | VDR/NHS87 |  |
+| 9. | Tyrholi odu | UDMR |  |
+| 10 | Kouoca Mote | UDMR/RMBSZ |  |
+| 11 | HAYAU GABOR | UDMR |  |
+| 12 | MAEKO ATTILA GABOR | UAMR |  |
+| 13 | KULCSÁR-TERZA JOLZ67 | UDMR |  |
+| 14 | CIVIT LONEC | PSD |  |
+| 15 | GOVOR MIRICE | PSJ |  |
+| 16 | CiUCA BOGDAN | PSD |  |
+| 17 | CAUU AALHAI | PSD |  |
+| 18 | PEA-STEFA VESCU ELIZI | PSH |  |
+| 19 | BLAGA JANNIEZ | USR |  |
+| 20 | NOSVSSI GEORGL | USR |  |
+| 21 | NASOI CCABUSU | USR |  |
+| 22 | PRUNA CRISTINA | JSR |  |
+| 23. | BANTOR BOGLARKA | UDMR |  |
+
+Proiect de lege pentru modificarea și completarea Ordonanței Guvernului nr. 15/2002 privind aplicarea tarifului de utilizare și a tarifului de trecere pe rețeaua de drumuri naționale din România
+
+<table>
+<tbody>
+<tr><td>Nr.Crt.</td><td>NUME INITIATOR</td><td>GRUPPARLAMENTAR</td><td rowspan="9">SEMNĂTURA</td></tr>
+<tr><td>24</td><td>LAVAHNI LAHAO 2005</td><td>UΔMR</td></tr>
+<tr><td>25</td><td>GAL KAROLY</td><td>VDMR</td></tr>
+<tr><td>26</td><td>VIRCA DAHIITRU</td><td>PNL</td></tr>
+<tr><td>27</td><td>CIOBAN ADRIAN</td><td>PNL</td></tr>
+<tr><td>28</td><td>Catoescu Aurahan</td><td>PNL</td></tr>
+<tr><td>29</td><td>China Octonii</td><td>PNL</td></tr>
+<tr><td>30</td><td>Golvolou Dnaan</td><td>PNL</td></tr>
+<tr><td>31</td><td>YANDRAISZU NOVISTA EVA</td><td>UOMR</td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>

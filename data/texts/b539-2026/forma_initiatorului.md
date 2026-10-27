@@ -1,0 +1,57 @@
+# ROMANIA PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENAT
+
+Lege pentru completarea Ordonanței de urgență a Guvernului nr. 195/2002 privind circulația pe drumurile publice
+
+Parlamentul României adoptă prezenta lege.
+
+Art. I. – Ordonanța de urgență a Guvernului nr. 195/2002 privind circulația pe drumurile publice, republicată în Monitorul Oficial al României, Partea I, nr. 670 din 3 august 2006, cu modificările și completările ulterioare, se completează după cum urmează:
+
+## 1. După articolul 45 se introduce un nou articol, art. 45¹, cu următorul cuprins:
+
+„Art. 45¹
+
+(1) Prin filtrarea traficului se înțelege deplasarea conducătorului unei motociclete sau al unui moped, pe același sens de circulație, pe lângă unul sau mai multe vehicule imobilizate temporar ca efect direct al condițiilor de trafic, în scopul continuării deplasării.
+
+(2) În sensul alin. (1), imobilizarea temporară determinată de condițiile de trafic reprezintă situația în care vehiculele sunt imobilizate ca efect direct al formării unei coloane sau al congestiei traficului, fără ca imobilizarea să constituie oprire voluntară, staționare sau parcare în condițiile prezentei ordonanțe de urgență.
+
+(3) Filtrarea traficului este permisă numai dacă sunt îndeplinite cumulativ următoarele condiții:
+
+a) motocicleta sau mopedul se deplasează cu o viteză care nu depășește 20 km/h;
+
+b) deplasarea se efectuează exclusiv pe același sens de circulație cu vehiculele pe lângă care se efectuează filtrarea;
+
+c) nu se utilizează trotuarul, zona pietonală, pista pentru biciclete, banda de urgență sau orice alt spațiu rezervat exclusiv unei alte categorii de participanți la trafic;
+
+d) nu se trece peste un marcaj longitudinal continuu și nu se pătrunde pe sensul opus de circulație;
+
+e) se păstrează o distanță laterală de cel puțin 0,50 m între extremitatea laterală a motocicletei sau mopedului și cea mai apropiată extremitate laterală a vehiculului pe lângă care se efectuează filtrarea;
+
+f) conducătorul motocicletei sau al mopedului se asigură că deplasarea poate fi efectuată fără contact cu celelalte vehicule și fără a pune în pericol pietonii ori ceilalți participanți la trafic;
+
+ROMANIA
+
+g) filtrarea nu se efectuează pe trecerile pentru pietoni și nici prin spațiul destinat traversării pietonilor;
+
+h) filtrarea nu se efectuează pentru a trece înaintea unei coloane de vehicule oprite la culoarea roșie a semaforului sau la o trecere la nivel cu calea ferată.
+
+(4) Prin derogare de la prevederile art. 41 alin. (1) și ale art. 42, pe durata efectuării filtrării traficului în condițiile alin. (1) – (3), motocicleta sau mopedul poate ocupa temporar spațiul longitudinal liber dintre două benzi de circulație pe același sens, inclusiv prin traversarea marcajului longitudinal discontinuu care delimitează benzile respective.
+
+(5) Deplasarea prevăzută la alin. (4), efectuată cu respectarea condițiilor prezentului articol, nu constituie trecere pe o altă bandă de circulație și nu constituie depășire în sensul art. 45 alin. (1).
+
+(6) Efectuarea filtrării traficului nu conferă conducătorului motocicletei sau al mopedului prioritate de trecere.
+
+(7) În situația în care oricare dintre condițiile prevăzute la alin. (3) încetează să fie îndeplinită, conducătorul motocicletei sau al mopedului este obligat să înceteze filtrarea și să își continue deplasarea potrivit regulilor generale de circulație.”
+
+2\. La articolul 100 alineatul (1), după punctul 14 se introduce un nou punct, pct. 15, cu următorul cuprins:
+
+„15. efectuarea filtrării traficului de către conducătorul unei motociclete sau al unui moped cu nerespectarea condițiilor prevăzute la art. 45¹ alin. (3), în măsura în care fapta nu constituie o contravenție sancționată distinct potrivit altor dispoziții ale prezentei ordonanțe de urgență.”
+
+Art. II. – În termen de 30 de zile de la data intrării în vigoare a prezentei legi, Guvernul va modifica în mod corespunzător, prin hotărâre, Regulamentul de aplicare a Ordonanței de urgență a Guvernului nr. 195/2002 privind circulația pe drumurile publice, aprobat prin Hotărârea Guvernului nr. 1391/2006, cu modificările și completările ulterioare, în vederea punerii acestuia în acord cu dispozițiile art. 45¹ din Ordonanța de urgență a Guvernului nr. 195/2002, astfel cum este completată prin prezenta lege.
+
+Art. III. – Prezenta lege intră în vigoare la 30 de zile de la data publicării în Monitorul Oficial al României, Partea I.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.

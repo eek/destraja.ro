@@ -1,0 +1,141 @@
+# ROMANIA PARLAMENTUL ROMÂNIEI
+
+# EXPUNERE DE MOTIVE
+
+# la propunerea legislativă pentru modificarea și completarea Legii nr. 227/2015 privind Codul fiscal și pentru compensarea veniturilor bugetelor locale "Legea: Ai platit-o, e a ta!"
+
+## Obiectul propunerii legislative
+
+Propunerea legislativă instituie o scutire de la plata impozitului pe mijloacele de transport pentru un singur autoturism aflat în proprietatea sau coproprietatea fiecărei persoane fizice, la alegerea contribuabilului. Dacă persoana deține un singur autoturism, scutirea se acordă din oficiu. Dacă deține mai multe, aceasta desemnează autoturismul pentru care solicită scutirea.
+
+Autoturismele suplimentare, mijloacele de transport ale persoanelor juridice și celelalte categorii de vehicule rămân supuse regimului fiscal în vigoare. Propunerea nu modifică taxele și tarifele legate de achiziție, combustibil, utilizarea infrastructurii sau activitatea economică.
+
+Pentru protejarea autonomiei financiare locale, diminuarea veniturilor se compensează integral de la bugetul de stat, prin sume defalcate din taxa pe valoarea adăugată cu destinație specială, aprobate distinct prin legea bugetului de stat.
+
+## Necesitatea intervenției legislative
+
+Impozitul pe mijloacele de transport este datorat anual pentru simpla deținere a unui vehicul înmatriculat sau înregistrat în România. Pentru numeroase gospodării, un autoturism asigură deplasarea la locul de muncă, la unități de învățământ, la servicii medicale și la servicii publice, în special în localitățile în care transportul public este redus ori lipsește.
+
+Începând cu anul 2026, calculul impozitului pentru autoturisme ia în considerare capacitatea cilindrică și norma de poluare. Acest mecanism urmărește obiective fiscale și de mediu. Propunerea păstrează aceste criterii pentru toate vehiculele care rămân impozabile și limitează scutirea la un singur autoturism pentru fiecare persoană fizică.
+
+Opțiunea legislativă este construită în jurul proprietății personale de bază. Ea nu consacră o imunitate fiscală generală pentru patrimoniul auto și nu scutește colecțiile sau flotele personale. Limitarea la un singur autoturism reduce impactul bugetar și păstrează legătura dintre facilitate și mobilitatea individuală.
+
+## Soluțiile propuse
+
+\- introducerea unei scutiri obligatorii la art. 469 alin. (1) din Codul fiscal;
+
+\- aplicarea scutirii pentru cota-parte deținută de beneficiarul aflat în coproprietate;
+
+\- acordarea din oficiu când persoana fizică deține un singur autoturism;
+
+\- exprimarea unei opțiuni când persoana deține două sau mai multe autoturisme;
+
+\- menținerea opțiunii pentru anii următori, până la modificarea ei;
+
+\- compensarea integrală a pierderii effective de venit a fiecărei unități administrativ-teritoriale;
+
+\- plata trimestrială a unor sume provizorii și regularizarea anuală;
+
+\- schimbul instituțional de date, fără solicitarea de documente deja deținute de autorități.
+
+## Impactul socioeconomic
+
+Măsura reduce costul anual al deținerii autoturismului personal de bază. Beneficiul este individual și uniform ca regulă juridică, dar valoarea sa depinde de impozitul care ar fi fost datorat pentru autoturismul desemnat. Persoanele care dețin mai multe autoturisme continuă să plătească impozit pentru toate vehiculele nescutite.
+
+Acordarea din oficiu pentru persoanele cu un singur autoturism limitează costurile de conformare. Procedura de opțiune este necesară numai pentru contribuabilii care dețin mai multe autoturisme. Digitalizarea cererii și schimbul de date reduc volumul documentelor gestionate de contribuabili și de organele fiscale locale.
+
+## Impactul asupra mediului
+
+Propunerea nu modifică standardele tehnice, obligațiile de inspecție, accizele, taxa pe valoarea adăugată, tarifele pentru utilizarea infrastructurii sau alte instrumente legate de consum și emisii. Scutirea privește exclusiv impozitul anual pentru autoturismul desemnat. Pentru autoturismele suplimentare și celelalte vehicule, calculul în funcție de capacitatea cilindrică și norma de poluare se menține.
+
+Aplicarea scutirii indiferent de norma de poluare poate reduce efectul stimulativ al componentei de mediu pentru primul autoturism. Acest efect este asumat în raport cu obiectivul social al proiectului. Politicile de mediu pot continua prin instrumentele care taxează achiziția, consumul, emisiile sau utilizarea efectivă.
+
+## Impactul bugetar
+
+## Metoda de calcul
+
+Impactul brut anual nu este egal cu totalul veniturilor din impozitul pe mijloacele de transport, deoarece proiectul păstrează impozitarea autoturismelor suplimentare, a vehiculelor persoanelor juridice și a celorlalte mijloace de transport. Pierdereă se calculează pentru fiecare unitate administrativ-territorială, la nivelul fiecărei poziții din rolul fiscal care beneficiază de scutire.
+
+Pentru unitatea administrativ-teritorială u și anul fiscal t, pierderea se determină prin însumarea impozitului care ar fi fost datorat, în lipsa scutirii, pentru fiecare autoturism sau cotă-parte scutită. Calculul folosește nivelurile prevăzute de art. 470 din Codul fiscal și hotărârea autorității deliberative locale aplicabilă anului de referință.
+
+| Indicator | Conținut | Sursa datelor |
+| --- | --- | --- |
+| Baza eligibilă | Un autoturism pentru fiecare persoană fizică, inclusiv cota-parte în coproprietate | Rolurile fiscale locale |
+| Impozitul contrafactual | Impozitul datorat în lipsa scutirii | Art. 470 și hotărârea locală |
+| Compensația provizorie | 90% din pierderea estimată | Situația la 31 decembrie |
+| Compensația definitivă | Pierderea efectivă certificată | Situația transmisă până la 31 martie |
+| Regularizarea | Diferența dintre compensația definitivă și plățile provizorii | Ministerul Finanțelor și UAT |
+
+## Cuantificarea
+
+Cuantumul național trebuie stabilit pe baza datelor aggregate ale organelor fiscale locale privind persoanele fizice care dețin unul sau mai multe autoturisme și impozitul aferent vehiculului ce poate fi desemnat. Inițiatorii vor solicita Guvernului fișa financiară prevăzută de art. 15 din Legea nr. 500/2002 privind finanțele publice. Potrivit legii, fișa financiară pentru o propunere legislativă este elaborată și transmisă de Guvern.
+
+Sursa de finanțare indicată de proiect o reprezintă veniturile bugetului de stat din taxa pe valoarea adăugată, prin sume defalcate cu destinație specială. Cuantumul anual va fi evidențiat distinct în legea bugetului de stat. Solicitarea fișei financiare și a informării Guvernului este necesară înaintea adoptării, având în vedere art. 111 alin. (1) și art. 138 alin. (5) din Constituție.
+
+## Mecanismul de compensare a bugetelor locale
+
+Compensația nu se repartizează după populație, suprafață sau capacitate fiscală. Fiecare unitate administrativ-teritorială primește valoarea pierderii proprii, certificată prin evidența fiscală. Sumele au destinație specială și se acordă separat de mecanismul general de echilibrare.
+
+| Etapă | Termen | Operațiune |
+| --- | --- | --- |
+| Estimarea inițială | Înaintea exercițiului bugetar | Stabilirea pierderii estimate pe baza rolurilor fiscale |
+| Plățile provizorii | Trimestrial | Virarea a 90% din pierderea estimată |
+| Certificarea | 31 martie anul următor | Transmiterea pierderii effective |
+| Regularizarea | 30 iunie anul următor | Achitarea diferenței sau recuperarea sumelor primite în plus |
+
+## Constituționalitatea soluției
+
+## Egalitatea în drepturi
+
+Diferența dintre persoanele fizice și persoanele juridice, precum și dintre autoturismul desemnat și autoturismele suplimentare, se întemeiază pe obiectivul protejării mobilității personale de bază. Regula este accesibilă tuturor persoanelor fizice aflate în aceeași situație și folosește un criteriu verificabil. Limitarea la un singur autoturism reduce riscul unui avantaj disproporționat acordat persoanelor cu patrimoniu auto multiplu.
+
+## Dreptul de proprietate și justa așezare a sarcinilor fiscale
+
+Dreptul de proprietate nu exclude impozitarea, iar Constituția permite legiutorului să stabilească obiectul și scutirile fiscale. Proiectul acordă o facilitate și nu restrânge dreptul de proprietate. Raportat la art. 56, criteriul unui singur autoturism este obiectiv, iar menținerea impozitării bunurilor suplimentare susține caracterul proporțional al măsurii.
+
+## Autonomia locală
+
+Impozitul pe mijloacele de transport constituie venit al bugetelor locale. Parlamentul poate stabili limitele și condițiile taxelor locale, dar eliminarea unei surse de venit trebuie analizată împreună cu resursele necesare exercitării competențelor locale. Compensarea integrală, separată de echilibrarea generală și calculată după pierderea efectivă, limitează afectarea autonomiei financiare.
+
+## Sursa de finanțare
+
+Simpla menționare a bugetului de stat nu este suficientă pentru respectarea art. 138 alin. (5). Proiectul indică mecanismul sumelor defalcate din TVA, iar expunerea stabilește metoda de calcul. Pentru închiderea riscului constituțional este obligatorie solicitarea fișei financiare și înscrierea creditelor corespunzătoare în legea bugetului de stat.
+
+## Compatibilitatea cu dreptul european și comparația internațională
+
+Dreptul Uniunii Europene nu impune un impozit anual general pe simpla deținere a autoturismului privat. Statele membre dispun de o marjă largă în alegerea structurii fiscalității auto și utilizează combinații diferite de taxe la înmatriculare, taxe periodice, accize, tarife pentru utilizarea infrastructurii și instrumente de mediu. În consecință, eliminarea impozitului românesc pentru un singur autoturism personal nu contravine, prin ea însăși, dreptului Uniunii Europene.
+
+Analiza comparativă arată că mai multe state europene nu aplică persoanei fizice un impozit anual general echivalent celui datorat în România pentru simplul fapt al proprietății asupra unui autoturism obișnuit. Această constatare nu înseamnă că în statele respective lipsește orice sarcină fiscală sau parafiscală legată de autovehicule. Pot exista taxe la dobândire ori la prima înmatriculare, accize și TVA, malusuri de mediu, viniete, taxe de drum sau impozite pentru vehicule folosite în activități economice.
+
+| Stat | Regimul autoturismului privat obișnuit | Precizare juridică |
+| --- | --- | --- |
+| Cehia | Nu este supus taxei rutiere anuale | Începând cu 2022, obiectul taxei rutiere îl formează vehiculele grele din categoriile N2, N3, O3 și O4; autoturismele M1 ale persoanelor fizice nu intră în această taxă. |
+| Polonia | Nu este inclus în impozitul local pe mijloacele de transport | Impozitul enumeră camioane de peste 3,5 t, autotractoare, anumite remorci și semiremorci, precum și autobuze; autoturismul personal obișnuit nu este cuprins. |
+| Slovacia | Nu este taxat anual dacă este folosit exclusiv personal | Impozitul pe autovehicule privește vehiculele înmatriculate în Slovacia care sunt folosite pentru desfășurarea unei activități economice. Folosința exclusiv personală nu generează acest impozit. |
+| Lituania | Nu există un impozit anual general pe proprietatea autoturismului M1 | Pentru autoturisme există o taxă legată de înmatriculare și emisiile de CO2. Taxa de utilizare a drumurilor privește categoriile M2-M3 și N1-N3, nu autoturismele M1. |
+| Franța | Nu există un impozit anual general identic pentru autoturismul privat | Taxele anuale pe emisii și poluanți vizează vehiculele afectate unor scopuri economice. Persoanele fizice pot datora malusul CO2 și malusul de masă la prima înmatriculare. |
+| România | Este supus impozitului local anual | Impozitul este datorat pentru deținere; din 2026, calculul pentru autoturisme ține seama de capacitatea cilindrică și norma de poluare. |
+
+Modelele prezentate confirmă că finanțarea infrastructurii și politicile de mediu nu depind în mod necesar de un impozit anual general asupra proprietății autoturismului personal. Legiuiitorul poate separa protecția proprietății personale de bază de taxarea utilizării effective a drumurilor, a consumului de carburant, a emisiilor ori a activității economice. Propunerea urmează această logică, păstrând celelalte instrumente fiscale și limitând scutirea la un singur autoturism pentru fiecare persoană fizică.
+
+## Impactul administrativ și normele de aplicare
+
+Aplicarea măsurii presupune adaptarea aplicațiilor fiscale locale și schimbul de date cu autoritățile care administrează evidența vehiculelor. Normele comune ale Ministerului Finanțelor și ministerului responsabil de administrația locală vor stabili structura situațiilor, termenele, controalele și regularizarea. Protocolul cu Ministerul Afacerilor Interne va limita datele prelucrate la cele necesare verificării eligibilității.
+
+Termenul de 90 de zile pentru normele de aplicare este anterior intrării în vigoare. Legea va produce efecte la începutul unui an fiscal, după împlinirea termenului de minimum 6 luni prevăzut de art. 4 alin. (1) din Codul fiscal. Această soluție evită recalculări în cursul anului și permite includerea compensațiilor în bugetul de stat.
+
+Initiatori:
+
+Simu Aurora Tasica
+
+.ALBV ΔUENITA la propunerea legislativă pentru modificarea și completarea Legii nr. 227/2015 privind Codul fiscal și pentru compensarea veniturilor bugetelor locale
+
+| Nr.crt | Nume și prenume | Grup Parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1 | Roclisam Sheorghe Petru | Independenț |  |
+| 2 | GRO2A CAZIN FLORIIY | PSD |  |
+| 3 | Vaupa Mauira | UPR |  |
+| 4 | ANDUSEED WEBA | PSD |  |
+| 5 | BAS OFNA MORSIA | S.O.S. Ro |  |
+| 6 | PORUMBOIU GABRIEFA | UPR |  |
+| 7 | CSICLAO ONDEI | NAME PIMENT |  |

@@ -1,0 +1,45 @@
+Cod fiscal: 10464660
+
+E-mail: ces@ces.ro
+
+www.ces.ro
+
+Membru fondator al Asociației Internaționale a Consiliilor Economice și Sociale și Instituților Similare (AICESIS) Membru al Uniunii Consiliilor Economice și Sociale și Instituților Similare Francofone (UCESIF)
+
+„Consiliul Economic și Social este organ consultativ al Parlamentului și al Guvernului în domeniile de specialitate stabilite prin legea sa organică de înființare, organizare și funcționare.” (Art. 141 din Constituția României revizuită)
+
+Nr. 6739/14.10.2026
+
+Biroul permanent al Senatului
+
+## AVIZ
+
+## referitor la propunerea legislativă pentru completarea Ordonanței de urgență a Guvernului nr.195/2002 privind circulația pe drumurile publice (b539/28.09.2026)
+
+În temeiul art. 2 alin. (1) din Legea nr. 248/2013 privind organizarea și funcționarea Consiliului Economic și Social, republicată, cu modificările și completările ulterioare, și art. 11 lit. a) din Regulamentul de organizare și funcționare, Consiliul Economic și Social a fost sesizat cu privire la avizarea propunerii legislative pentru completarea Ordonanței de urgență a Guvernului nr.195/2002 privind circulația pe drumurile publice (b539/28.09.2026).
+
+## CONSILIUL ECONOMIC ȘI SOCIAL
+
+În temeiul art. 5 lit. a) din Legea nr. 248/2013 privind organizarea și funcționarea Consiliului Economic și Social, republicată, cu modificările și completările ulterioare, în ședința din data de 14.10.2026, desfășurată online, conform prevederilor art. 30 alin. (1) din Regulamentul de organizare și funcționare, avizează FAVORABIL prezentul proiect de act normativ, cu propunerea de modificare prevăzută în anexă și cu următoarele observații:
+
+\- conducătorii motocicletelor sau mopedelor care efectuează „filtrarea” sunt expuși următoarelor pericole: riscul ca un șofer sau pasager dintr-un autovehicul „imobilizat temporar” să deschidă o portieră, riscul ca un autovehicul „imobilizat temporar” să pornească în altă direcție decât înainte cu scopul de a schimba banda;
+
+\- cu privire la art. 45¹ alin (3) lit h) „filtrarea nu se efectuează pentru a trece înaintea unei coloane de vehicule oprite la culoarea roșie a semaforului sau la o trecere la nivel cu calea ferată.” – aproape întotdeauna o coloană de vehicule „imobilizate temporar” se formează în situațiile prevăzute în acest paragraf, situații în care „filtrarea” se interzice;
+
+\- se constată inexistența în realitate a unor concepte utilizate în propunerea legislativă: la art. 45¹ alin (4) se menționează „spațiul longitudinal liber dintre două benzi de circulație pe același sens”, or, în realitate, conform Ordonanței de urgență a Guvernului nr.195/2002 privind circulația pe drumurile publice, cu modificările și completările ulterioare, benzile de circulație pe același sens sunt separate prin marcaj, neexistând conceptul de „spațiu între benzi”;
+
+\- de asemenea, opinăm că favorizarea în trafic a conducătorilor autovehiculelor pe două roți față de cei ale celorlalte autovehicule este discriminatoare.
+
+Președinte,
+
+Sterică FUDULEA
+
+Digitally signed by Fudulea Sterică Date: 2026.10.20 12:48:43 EEST
+
+## Propunere de modificare aferentă
+
+## propunerii legislative pentru completarea Ordonanței de urgență a Guvernului nr.195/2002 privind circulația pe drumurile publice (b539/28.09.2026)
+
+| Nr. crt. | Text inițial | Text propus | Motivare |
+| --- | --- | --- | --- |
+| 1. | Art. 451(1) Prin filtrarea traficului se înțelege deplasarea conducătorului unei motociclete sau al unui moped, pe același sens de circulație, pe lângă unul sau mai multe vehicule imobilizate temporar ca efect direct al condițiilor de trafic, în scopul continuării deplasării.(2) În sensul alin. (1), imobilizarea temporară determinată de condițiile de trafic reprezintă situația în care vehiculele sunt imobilizate ca efect direct al formării unei coloane sau al congestiei traficului, fără ca imobilizarea temporară să constituie oprire voluntară, staționare sau parcare în condițiile prezentei ordonanțe de urgență. | (1) Prin filtrarea traficului se înțelege deplasarea conducătorului unei motociclete sau al unui moped, pe același sens de circulație, pe lângă unul sau mai multe vehicule blocate temporar ca efect direct al condițiilor de trafic, în scopul continuării deplasării.(2) În sensul alin. (1), blocarea temporară determinată de condițiile de trafic reprezintă situația în care vehiculele sunt imobilizate ca efect direct al formării unei coloane sau al congestiei traficului, fără ca blocarea temporară să constituie oprire voluntară, staționare sau parcare în condițiile prezentei ordonanțe de urgență. | Termenul "imobilizat" pentru vehicule are ca înțeles că vehiculul este scos din uz sau a devenit inutilizabil (de exemplu, o mașină defectă) ceea ce nu este cazul în sensul legii.În aceste condiții termenul de blocare temporară este mai potrivit cu intenția legiutorului. |

@@ -1,0 +1,157 @@
+# PARLAMENTUL ROMÂNIEI
+
+# CAMERA DEPUTAȚILOR
+
+SENATUL
+
+# PROIECT DE LEGE
+
+privind intervențiile asupra fațadelor clădirilor clasate monumente istorice de către primării
+
+## Capitolul I – Dispoziții generale
+
+## Art. 1. Obiectul legii
+
+Prezenta lege stabilește cadrul legal pentru efectuarea lucrărilor de modernizare, întreținere și conservare a fațadelor clădirilor clasate ca monumente istorice, de către autoritățile administrației publice locale, chiar dacă acestea nu dețin proprietatea imobilelor. Explicație: Scopul este de a permite primăriilor să protejeze patrimoniul istoric, prevenind degradarea clădirilor de interes cultural, chiar și în lipsa consimțământului direct al proprietarului.
+
+## Art. 2. Definiții
+
+a) „Fațadă” – partea exterioară vizibilă a clădirii, incluzând pereții, balcoanele, ornamentele, tâmplăria și elementele decorative, care contribuie la aspectul urban și valoarea istorică a clădirii;
+
+b) „Clădire monument istoric” – imobil clasat conform legii patrimoniului cultural național;
+
+c) „Autoritate publică locală” – primăria și serviciile sale de specialitate, inclusiv arhitectul șef sau departamentele pentru patrimoniu.
+
+## Art. 3. Scopul legii
+
+Scopul legii este:
+
+a) Protejarea și conservarea patrimoniului cultural național;
+
+b) Prevenirea degradării imobilelor de interes istoric;
+
+c) Crearea unui cadru legal clar care să permită primăriilor să intervină eficient, respectând totodată drepturile proprietarilor;
+
+d) Stabilirea responsabilităților și procedurilor pentru planificarea și executarea lucrărilor asupra fațadelor.
+
+## Capitolul II – Autoritatea și competențele
+
+ROMANIA
+
+## Art. 4. Drepturile primăriilor
+
+Primăria, prin serviciile de specialitate, poate iniția lucrări asupra fațadelor clădirilor monument istoric, cu respectarea următoarelor condiții:
+
+a) Lucrările se limitează la fațadă și nu afectează structura de rezistență a clădirii;
+
+b) Lucrările respectă normele de protecție a patrimoniului cultural;
+
+c) Lucrările sunt executate de firme autorizate și supravegheate de arhitectul șef sau de un specialist în restaurarea monumentelor istorice;
+
+d) Primăria are responsabilitatea de a asigura că intervențiile nu deteriorază elementele originale ale clădirii.
+
+Exemplu: Primăria orașului X observă că fațada unei clădiri monument istoric se degradează și prezintă pericol public. Serviciul de patrimoniu al primăriei poate decide lucrări de restaurare, angajând o firmă autorizată, fără a aștepta consimțământul proprietarului, dar respectând procedura de notificare.
+
+## Capitolul III – Procedura de notificare și executare
+
+## Art. 5. Notificarea proprietarului
+
+Primăria va notifica proprietarul cu cel puțin 20 de zile înainte de începerea lucrărilor. Notificarea va include:
+
+\- Descrierea detaliată a lucrărilor și metodele utilizate;
+
+\- Durata estimată a intervenției și programul de execuție;
+
+\- Motivele lucrărilor și beneficiile pentru conservarea clădirii;
+
+\- Datele firmei executante și standardele tehnice aplicate;
+
+\- Informații privind organismul abilitat care va verifica lucrările.
+
+Exemplu: Primăria trimite proprietarului o scrisoare recomandată în care se precizează că se va restaura tencuiala fațadei, durata este de 10 zile, firma executantă este ABC Restaurări SRL, autorizată pentru monumente istorice.
+
+## Art. 6. Observații și contestații
+
+Proprietarul poate formula observații sau contestații în termen de 7 zile de la primirea notificării.
+
+a) Observațiile care nu ridică riscuri majore nu suspendă lucrările;
+
+b) Contestațiile care semnalează riscuri semnificative vor fi analizate de un organism abilitat, care poate dispune amânarea lucrărilor numai dacă există dovezi concrete.
+
+Exemplu: Proprietarul trimite observații că dorește păstrarea unui ornament original. Direcția Patrimoniu analizează observația și decide că ornamentul poate fi conservat fără a bloca restul lucrărilor.
+
+## Art. 7. Începerea lucrărilor
+
+În lipsa contestațiilor sau a observațiilor fundamentate, primăria poate începe lucrările conform planului notificat.
+
+Exemplu: Dacă proprietarul nu trimite contestații sau observații, firma începe lucrările. Chiar dacă există contestații minore, primăria poate continua restul intervenției.
+
+## Capitolul IV – Costuri și responsabilități
+
+## Art. 8. Costuri
+
+Costurile lucrărilor de intervenție vor fi suportate integral de primărie.
+
+Exemplu: Primăria suportă toate costurile lucrărilor, inclusiv materiale și manoperă, fără a le factura proprietarului.
+
+## Art. 9. Responsabilități
+
+Primăria este responsabilă pentru:
+
+a) Respectarea normelor tehnice și de protecție a monumentelor istorice;
+
+b) Supravegherea lucrărilor și utilizarea materialelor conforme cu reglementările;
+
+c) Informarea corectă și la timp a proprietarului despre desfășurarea lucrărilor.
+
+Exemplu: Dacă firma executantă folosește vopsea nepotrivită sau distruge un element ornamental, primăria răspunde pentru remedierea situației.
+
+## Capitolul V – Control și sancțiuni
+
+## Art. 10. Control și verificare
+
+Direcția pentru Patrimoniu sau un organism abilitat monitorizează lucrările pentru a verifica: a) Respectarea standardelor tehnice;
+
+b) Protecția elementelor originale ale fațadei;
+
+c) Respectarea termenelor și planului notificat.
+
+Exemplu: Specialistul Direcției Patrimoniu verifică fațada pentru conformitatea cu proiectul și standardele de restaurare.
+
+## Art. 11. Sancțiuni
+
+Nerespectarea prevederilor atrage răspunderea juridică a autorității sau firmei executante, inclusiv obligația de a reface lucrările și despăgubiri pentru eventualele daune provocate monumentului.
+
+Exemplu: Dacă firma sau primăria nu respectă standardele de restaurare, poate fi sancționată și obligată să refacă lucrările, proprietarul poate solicita despăgubiri.
+
+## Capitolul VI – Dispoziții finale
+
+## Art. 12. Intrarea în vigoare
+
+Prezenta lege intră în vigoare la 30 de zile de la publicarea în Monitorul Oficial.
+
+ROMANIA
+
+Art. 13. Aplicabilitate
+
+Legea se aplică tuturor clădirilor clasate monumente istorice aflate pe teritoriul administrației publice locale, fără a afecta alte drepturi legale ale proprietarilor.
+
+## Flux practic al aplicării legii
+
+1\. Identificarea clădirii de patrimoniu care necesită lucrări.
+
+2\. Planificarea detaliată a lucrărilor.
+
+3\. Notificarea proprietarului cu cel puțin 20 de zile înainte.
+
+4\. Depunerea observațiilor sau contestațiilor (7 zile).
+
+5\. Analiza contestațiilor de către organismul abilitat.
+
+6\. Începerea lucrărilor conform planului.
+
+7\. Supravegherea și controlul lucrărilor de către Direcția Patrimoniu.
+
+8\. Finalizarea lucrărilor și recepția acestora.
+
+9\. Răspundere și sancțiuni în caz de nerespectare a standardelor.

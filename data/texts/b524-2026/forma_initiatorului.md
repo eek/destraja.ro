@@ -1,0 +1,81 @@
+# LEGE pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 50/2010 privind contractele de credit pentru consumatori
+
+Parlamentul României adoptă prezenta lege.
+
+Art. I. Ordonanța de urgență a Guvernului nr. 50/2010 privind contractele de credit pentru consumatori, publicată în Monitorul Oficial al României, Partea I, nr. 389 din 11 iunie 2010, cu modificările și completările ulterioare, se modifică și se completează, după cum urmează:
+
+1\. Denumirea Capitolului III se modifică și va avea următorul cuprins: CAPITOLUL III Obligația de a verifica identitatea și de a evalua bonitatea consumatorului și accesul la bazele de date
+
+2\. După articolul 30 se introduce un nou articol, art. 30t, cu următorul cuprins:
+
+## Art. 30¹
+
+(1) Înainte de încheierea unui contract de credit folosind un mijloc de comunicare la distanță, creditorul verifică identitatea consumatorului pe baza actului de identitate al acestuia, cu scopul de a asigura consimțământul valabil exprimat al acestuia.
+
+(2) În cazul consumatorului cetățean român, verificarea prevăzută la alin. (1) cuprinde confruntarea datelor din actul de identitate prezentat cu datele furnizate din Registrul național de evidență a persoanelor, în condițiile art. 11 din Ordonanța de urgență a Guvernului nr. 97/2005 privind evidența, domiciliul, reședința și actele de identitate ale cetățenilor români, republicată, cu modificările și completările ulterioare, cel puțin cu privire la numele și prenumele consumatorului, codul numeric personal, tipul, seria, numărul, emitentul, data eliberării și data expirării actului de identitate.
+
+(3) Verificarea prevăzută la alin. (2) nu este obligatorie în cazul în care identitatea consumatorului este stabilită prin utilizarea unui mijloc de identificare electronică ce corespunde nivelului de asigurare ridicat, în sensul Regulamentului (UE) nr. 910/2014 al Parlamentului European și al Consiliului din 23 iulie 2014 privind identificarea electronică și serviciile de încredere pentru tranzacțiile electronice pe piața internă și de abrogare a Directivei 1999/93/CE.
+
+(4) Prelucrarea datelor cu caracter personal în scopul prevăzut la alin. (1) - (3) se realizează cu respectarea Regulamentului (UE) 2016/679 al Parlamentului European și al Consiliului din 27 aprilie 2016 privind protecția persoanelor fizice în ceea ce privește prelucrarea datelor cu caracter personal și privind libera circulație a acestor date și de abrogare a Directivei 95/46/CE.
+
+(5) Costul verificării prevăzute la alin. (1) este suportat exclusiv de creditor.
+
+(6) Creditorul păstrează dovada efectuării verificării prevăzute la alin. (1) și (2) pe durata relației contractuale și timp de 5 ani de la încetarea acesteia și o pune la dispoziția Autorității Naționale pentru Protecția Consumatorilor, la solicitarea acesteia.
+
+(7) În lipsa dovezii prevăzute la alin. (6), creditorul nu poate opune contractul de credit persoanei ale cărei date de identitate au fost utilizate la încheierea acestuia fără acordul său și rectifică, în termen de 5 zile lucrătoare de la data la care ia cunoștință despre aceasta, raportările efectuate în legătură cu acel contract către sistemele de evidență a riscului de credit. Prevederile prezentului alineat nu aduc atingere dreptului persoanei de a invoca, potrivit dreptului comun, lipsa consimțământului său la încheierea contractului.
+
+## 3. Articolul 44 se modifică și va avea următorul cuprins:
+
+(1) Orice notificare pe care creditorul o adresează consumatorului trebuie să fie semnată, datată și să conțină un număr de înregistrare. Notificarea se comunică pe suport hârtie sau pe alt suport durabil și se transmite fie personal, contra semnătură și dată de primire, fie prin scrisoare recomandată cu confirmare de primire, fie prin orice alt mijloc care asigură confirmarea primirii.
+
+(2) Notificarea care nu îndeplinește cerințele prevăzute la alin. (1) nu produce efecte față de consumator.
+
+(3) La încetarea raporturilor contractuale dintre creditor și consumator, indiferent de cauza acesteia, creditorul comunică consumatorului, în condițiile alin. (1), o notificare privind situația finală a creditului, care cuprinde în mod obligatoriu:
+
+a) valoarea totală a creditului și data la care acesta a fost pus la dispoziția consumatorului;
+
+b) data încetării raporturilor contractuale și cauza încetării;
+
+c) valoarea totală a sumelor achitate de consumator, defalcată pe principal, dobândă, comisioane și, după caz, dobânzi penalizatoare;
+
+d) valoarea fiecărei rate achitate și data efectuării fiecărei plăți, pentru perioada în care creditorul are obligația legală de păstrare a documentelor justificative aferente;
+
+e) soldul final al creditului, cu mențiunea expresă, după caz, a stingerii integrale a obligațiilor consumatorului;
+
+f) mențiunea privind existența și data raportărilor efectuate de creditor către sistemele de evidență a riscului de credit cu privire la contractul respectiv.
+
+(4) Notificarea prevăzută la alin. (3) se comunică fără întârziere nejustificată și, în orice caz, în termen de cel mult cinci zile lucrătoare de la data încetării raporturilor contractuale. Comunicarea notificării nu poate fi condiționată de formularea unei cereri de către consumator și nu poate fi supusă plății vreunui comision, tarif sau alt cost.
+
+4\. La articolul 71, alineatul (3) se modifică și va avea următorul cuprins:
+
+(3) Cesiunea se notifică în mod obligatoriu de către cedent consumatorului, în termen de 10 zile calendaristice de la transferul dreptului de proprietate asupra creanțelor către noul creditor, prin scrisoare recomandată cu confirmare de primire ori prin orice alt mijloc care asigură confirmarea primirii. Obligația de notificare subzistă indiferent de cauza încetării raporturilor contractuale și de stadiul recuperării creanței.
+
+5\. La articolul 71, după alineatul (3) se introduce un nou alineat, alin. (3¹), cu următorul cuprins:
+
+(3¹) Până la data comunicării notificării prevăzute la alin. (3), cesionarul nu poate iniția activități de recuperare a creanței față de consumator, iar pentru sumele cesionate nu curg dobânzi penalizatoare și nu pot fi percepute comisioane.
+
+6\. La articolul 86, alineatul (1) se modifică și va avea următorul cuprins:
+
+(1) Încălcarea prevederilor art. 8, 9, 11-20, 22-28, art. 29 alin. (2), art. 30 alin. (7), art. 30¹, art. 31, art. 32 alin. (1) și (2), art. 33, 34, 46-58, art. 59 alin. (3), art. 60-63, 65-78, 84, 84¹, 84², 95 și 95¹ constituie contravenție și se sancționează cu amendă de la 10.000 lei la 80.000 lei.
+
+Art. II. (1) Dispozițiile art. 30¹ din Ordonanța de urgență a Guvernului nr. 50/2010, astfel cum a fost introdus prin prezenta lege, se aplică contractelor de credit încheiate după data intrării în vigoare a prezentei legi.
+
+(2) Dispozițiile art. 44 alin. (1) și (2) din Ordonanța de urgență a Guvernului nr. 50/2010, astfel cum au fost modificate și completate prin prezenta lege, se aplică notificărilor emise după data intrării în vigoare a prezentei legi.
+
+(3) Dispozițiile art. 44 alin. (3) și (4) din Ordonanța de urgență a Guvernului nr. 50/2010, astfel cum au fost introduse prin prezenta lege, se aplică raporturilor contractuale care încetează după data intrării în vigoare a prezentei legi.
+
+(4) Dispozițiile art. 71 alin. (3) și (3¹) din Ordonanța de urgență a Guvernului nr. 50/2010, astfel cum au fost modificate, respectiv introduse prin prezenta lege, se aplică cesiunilor realizate după data intrării în vigoare a prezentei legi.
+
+(5) Prezenta lege intră în vigoare la 6 luni de la data publicării în Monitorul Oficial al României, Partea I.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+SENATULUI
+
+PREȘEDINTELE
+
+SORIN MIHAI GRINDEANU
+
+MIRCEA ABRUDEAN

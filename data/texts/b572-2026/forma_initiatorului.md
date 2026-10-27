@@ -1,0 +1,33 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+CAMERA DEPUTAȚILOR
+
+## LEGE
+
+# pentru modificarea și completarea art. 48 din Legea locuinței nr. 114/1996
+
+Parlamentul României adoptă prezenta lege
+
+Art. I. – Articolul 48 din Legea locuinței nr. 114/1996, republicată în Monitorul Oficial al României, Partea I, nr. 393 din 31 decembrie 1997, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. Alineatul (2) se modifică și va avea următorul cuprins:
+
+„(2) Prin excepție de la prevederile alin. (1) lit. a) și b), pot beneficia de locuințe sociale victimele violenței domestice care, în urma separării de agresor, nu beneficiază în mod efectiv de folosința unei locuințe pentru sine și, după caz, pentru copiii aflați în întreținere.”
+
+2\. După alineatul (2) se introduce un nou alineat, alin. (2¹), cu următorul cuprins:
+
+„(2¹) În cazul victimelor violenței domestice, finalizarea procedurii de partaj, deținerea unei cote-părți din dreptul de proprietate asupra unei locuințe sau înstrăinarea unei locuințe în cadrul procedurii de partaj nu constituie motive de excludere de la accesul la o locuință socială, în măsura în care persoana în cauză dovedește că nu beneficiază în mod efectiv de folosința unei locuințe pentru sine și, după caz, pentru copiii aflați în întreținere.”
+
+Art. II. – Contractele de închiriere pentru locuințele sociale încheiate anterior intrării în vigoare a prezentei legi, în beneficiul victimelor violenței domestice, nu încetează ca urmare a finalizării procedurii de partaj, dacă beneficiarul dovedește că nu beneficiază în mod efectiv de folosința unei locuințe pentru sine și, după caz, pentru copiii aflați în întreținere.
+
+Art. III. – În termen de 30 de zile de la data intrării în vigoare a prezentei legi, Guvernul, va modifica și completa, în mod corespunzător, Normele metodologice de aplicare prevăzute la art. 68 din Legea locuinței nr. 114/1996, republicată, cu modificările și completările ulterioare, în vederea corelării acestora cu prevederile prezentei legi.
+
+Art. IV – În termen de 60 de zile de la data intrării în vigoare a prezentei legi, autoritățile administrației publice locale vor proceda, după caz, la modificarea regulamentelor și criteriilor aplicabile acordării locuințelor sociale, în vederea punerii acestora în acord cu prevederile prezentei legi.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.
+
+Președintele Senatului
+
+Președintele Camerei Deputaților

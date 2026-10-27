@@ -1,0 +1,68 @@
+# Expunere de motive
+
+În contextul unei dinamici continue a sectorului agricol, al tendințelor de globalizare și de localizare totodată, al concurenței acerbe pe piețele diverselor produse primare, cooperarea și integrarea sunt metode eficiente de a face față competiției și pretențiilor consumatorilor. Agricultorii individuali care activează în gospodării tradiționale au înțeles că modernizarea și conlucrarea cu alte persoane fizice și/sau juridice care activează în acest sector constituie salvarea acestei ocupații.
+
+În vederea dezvoltării și funcționării comune a anumitor activități în domeniul agroalimentar de către producătorii de produse alimentare, legiutorul român, prin Legea cooperației agricole nr. 566/2004, a dezvoltat cadrul legal necesar organizării și funcționării cooperației agricole, ca organism autonom de asociere a persoanelor fizice și/sau juridice de drept privat, care exercită activități economice, tehnice și sociale, în vederea furnizării de bunuri, servicii și locuri de muncă, preponderent pentru membri cooperatori.
+
+În direcția stimulării practicării unei agriculturi moderne au venit și programele de absorbție a fondurilor europene, unde cooperativele agricole sunt beneficiari eligibili¹ pentru toate subsectoarele (vegetal, viticol, zootehnic, silvic etc.).
+
+Legea nr. 566/2004 derogă de la exigențele Legii nr. 227/2015 privind Codul fiscal, cu modificările și completările, cum ar fi scutirea de la plata impozitului pe profit a cooperativelor agricole, respectiv a membrilor cooperatori de la plata impozitului pe veniturile microîntreprinderilor/ pe norma de venit în condiții precizate, precum și de la plata impozitului pe veniturile obținute din cedarea folosinței bunurilor, adică pentru terenurile date în arendă către cooperativele agricole. În schimb, regulile în privința regimului TVA care se aplică entităților asociative ale cooperatorilor în raport cu mijloacele fixe – mașini, utilaje, echipamente, construcții – achiziționate de aceasta pentru uzul membrilor, nu sunt clare.
+
+Din practică reiese faptul că în interpretarea organelor fiscale, pentru utilajele achiziționate de cooperative la care apelează membrii cooperativei pentru a-și lucra terenurile, în condițiile în care producția obținută este doar parțial valorificată prin intermediul cooperativei, nu se poate beneficia de dreptul de deducere a TVA. Potrivit art. 297 alin. (4) din Codul fiscal, persoanele impozabile pot deduce taxa aferentă achițiilor² dacă acestea sunt folosite în operațiuni taxabile, acolo unde membrii cooperatori aplică regimul special prevăzut la art. 315¹. Or, plata TVA aferentă achizițiilor de mașini agricole, utilaje și echipamente similare reprezintă o povară fiscală pe care cooperativele nu și-o permit și, datorită modului de constituire a cooperativelor, ar fi imposibil ca aceste achiziții să fie efectuate de membrii cooperativei. În același timp, date fiind costurile modernizării în domeniul agriculturii, puțini fermieri își permit să achiziționeze utilaje agricole pentru uz propriu.
+
+¹ https://www.madr.ro/docs/dezvoltare-rurala/2022/PNS\_2023-2027-versiunea\_1.2-21.11.2022.pdf
+
+² Art. 297 din Legea nr. 227/2015 privind Codul fiscal, cu modificările și completările ulterioare
+
+(4)Orice persoană impozabilă are dreptul să deducă taxa aferentă achizițiilor, dacă acestea sunt destinate utilizării în folosul următoarelor operațiuni:
+
+a) operațiuni taxabile;
+
+Prin Legea nr. 10/2024 au fost anulate diferențele de taxă pe valoarea adăugată, precum și obligațiile fiscale accesorii aferente acestora, stabilite de organul fiscal prin decizie de impunere emisă și comunicată cooperativelor agricole, reprezentând taxa pe valoarea adăugată aferentă achizițiilor de utilaje agricole pentru care acestea și-au exercitat dreptul de deducere, pentru perioadele fiscale de până la intrarea acesteia în vigoare.
+
+Practica nerecunoașterii dreptului de deducere a TVA aferent achizționării de utilaje și echipamente agricole a continuat și în anii 2024, 2025 și 2026, Legea nr. 177/2026 intervenind pentru anularea diferențelor de TVA, în continuarea aplicării Legii nr. 10/2024.
+
+Prezenta propunere legislativă prevede la art. 76, tratând Sprijinul statului pentru cooperativele agricole, clarificarea dreptului de deducere a taxei pe valoarea adăugată având ca efect:
+
+\- remedierea cauzei care a condus la adoptarea Legea nr. 10/2024 și Legea nr. 177/2026 prin clarificarea deductibilității TVA de către cooperativele agricole la achiziționarea de utilaje agricole în folosul membrilor săi, înlăturându-se astfel atât posibilitatea interpretării legislației, cât și necesitatea adoptării altor legi de anulare a obligațiilor fiscale
+
+\- extinderea ariei operațiunilor pe care o cooperativă agricolă le poate întreprinde în comun și în interesul membrilor cooperatori pentru care se aplică deductibilitatea TVA: derularea de investiții în echipamente, în construcții și alte asemenea. Propunerea permite crearea cadrului ca scopuri multiple enunțate în documentele programatice vizând agricultura și dezvoltarea rurală să poată fi atinse: depozitarea, prezervarea sau prelucrarea produselor agricole primare cât mai aproape de locul producerii acestora, diversificarea activităților din mediul rural, crearea de locuri de muncă, reducerea presiunii pe importul de produse agroalimentare.
+
+O analiză a cooperativelor agricole din punctul de vedere al legislației fiscale, subliniază că acestea au elemente de similaritate cu asocierile în participațiune reglementate de pct. 102 din Normele metodologice de aplicare a Legii nr. 227/2015 privind Codul fiscal, aprobate prin HG nr. 1/2016, pentru care legislația fiscală permite deducerea TVA aferentă achizițiilor efectuate de asociatul administrator și care sunt utilizate pentru activitatea economică a asocierii.
+
+b) operațiuni rezultate din activități economice pentru care locul livrării/prestării se consideră ca fiind în străinătate, altele decât cele pentru care se aplică regimul special pentru întreprinderile mici, dacă taxa ar fi deductibilă, în cazul în care aceste operațiuni ar fi fost realizate în România;
+
+c)operațiuni scutite de taxă, conform art. 292¹, 294, 295 și 296;
+
+d)operațiuni scutite de taxă, conform art. 292 alin. (2) lit. a) pct. 1-5 și lit. b), în cazul în care cumpărătorul ori clientul este stabilit în afara Uniunii Europene sau în cazul în care aceste operațiuni sunt în legătură directă cu bunuri care vor fi exportate într-un stat din afara Uniunii Europene, precum și în cazul operațiunilor efectuate de intermediari care acționează în numele și în contul altei persoane, atunci când aceștia intervin în derularea unor astfel de operațiuni; e)operațiunile prevăzute la art. 270 alin. (7) și la art. 271 alin. (6), dacă taxa s-ar fi aplicat transferului respectiv.
+
+e)operațiunile prevăzute la art. 270 alin. (7) și la art. 271 alin. (6), dacă taxa s-ar fi aplicat transferului respectiv.
+
+În cazul cooperativelor, legislația specifică acestora nu permite organizarea lor drept asocieri în participațiune, dar, datorită elementelor comune cu acestea, considerăm că măsura acordării dreptului de deducere a TVA aferentă achizițiilor de utilaje de catre cooperative nu contravine principiului conform căruia TVA este deductibilă în măsura în care acestea sunt utilizate pentru operațiuni țu drept de deducere.
+
+Inițiatori,
+
+| Nr.crt. | Nume și prenume | Apartenențapolitică | Semnătură |
+| --- | --- | --- | --- |
+| 1. | Riibos Felkau | Gdpp2 |  |
+| 2. | Tamuzos Zurna | UDMR |  |
+| 3. | Gabi Ödin | Udu2 |  |
+| 4. | Goma Bifand | UDMR |  |
+| 5. | MAGAR LÓRAND-BALINR | UDMR |  |
+| 6. | STERÉS DÉNÉJ | UDMR |  |
+| 7. | Bende Són doz | UDUR |  |
+
+Tabel cu inițiatorii Propunerii legislative pentru completarea alin. (1) al art. 76 din Legea cooperației agricole nr. 566/2004
+
+| Nr. crt. | Nume și prenume | Apartenența politică | Semnătură |
+| --- | --- | --- | --- |
+|  | KULCSAR-TERZA JOZJEF-GTÓRF | VDMR |  |
+|  | MARKI ATTIA GABOR | UDMR |  |
+|  | HANTOR BOGLARHT | UDMR |  |
+|  | ZAHORA NOKI BIGITTAVA | UDMR |  |
+|  | HAYAO GÁBOR | UDMR |  |
+|  | MOLNAR ANDREI | UDMR |  |
+|  | GAIL KÁROLY | UDMR |  |
+|  | KÖNCEEI CSABA | VSMR |  |
+|  | KOLCSAR KÁROLY | VDMR |  |
+|  | NABY SAABOLCS | VSMR |  |

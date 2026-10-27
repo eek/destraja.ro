@@ -7,10 +7,11 @@ import { countOrganisations } from './positions';
 import { FEATURED_ID } from './site';
 
 /**
- * Motorul OCR folosit de scripts/lib/pdf-text.mjs când stratul de text al unei scanări e stricat.
+ * Cum citește scripts/lib/pdf-text.mjs PDF-urile Senatului: MinerU (OpenDataLab) pe tot documentul, cu titluri și
+ * tabele, iar Tesseract, prin ocrmypdf, verifică fiecare pagină și o preia unde MinerU sare text sau intră în buclă.
  * Un singur loc de schimbat dacă se schimbă motorul.
  */
-export const OCR_ENGINE = { name: 'Tesseract', via: 'ocrmypdf', language: 'română' } as const;
+export const OCR_ENGINE = { name: 'MinerU', maker: 'OpenDataLab', check: 'Tesseract', via: 'ocrmypdf', language: 'română' } as const;
 
 /**
  * Modelele de decizie care rulează local, pe Mac-ul întreținătorului (scripts/local-models). Răspund la întrebările

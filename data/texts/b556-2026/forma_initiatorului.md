@@ -1,0 +1,17 @@
+## LEGE
+
+pentru completarea art. 149 din Legea învățământului superior nr. 199/2023
+
+Parlamentul României adoptă prezenta lege.
+
+Art. I. – La articolul 149 din Legea învățământului superior nr. 199/2023, publicată în Monitorul Oficial al României, Partea I, nr. 614 din 05 iulie 2023, cu modificările și completările ulterioare, după alineatul (3) se introduce un nou alineat, alin.(3¹), care va avea următorul cuprins:
+
+„(3¹) Din fondurile pentru situații speciale prevăzute la alin. (3) lit. e), Ministerul Educației și Cercetării poate asigura finanțarea programelor de studii universitare destinate formării de specialiști în domeniul limbilor rare, în situațiile în care numărul redus de studenți nu permite asigurarea sustenabilității programului prin mecanismele finanțării de bază.”
+
+Art. II. – Prin derogare de la prevederile art. 260 alin.(16) din Legea învățământului superior nr. 199/2023, cu modificările și completările ulterioare, dispozițiile Art. I intră în vigoare la 3 zile de la data publicării prezentei legi în Monitorul Oficial al României, Partea I.
+
+Aceasta lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+PREȘEDINTELE SENATULUI

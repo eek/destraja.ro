@@ -1,0 +1,23 @@
+SENAT
+
+CAMERA DEPUTAȚILOR
+
+## LEGE
+
+pentru instituirea zilei de 5 martie ca „Ziua națională a auditorului energetic”
+
+Parlamentul României adoptă prezenta lege
+
+Art. 1 – (1) Se instituie ziua de 5 martie ca „Ziua națională a auditorului energetic”.
+
+(2) Ziua națională a auditorului energetic este dedicată auditorilor energetici pentru clădiri, atestați în condițiile Legii nr. 372/2005 privind performanța energetică a clădirilor, republicată, cu modificările și completările ulterioare, precum și auditorilor energetici, managerilor energetici și de localități autorizați în condițiile Legii nr. 121/2014 privind eficiența energetică, cu modificările și completările ulterioare, în scopul recunoașterii contribuției acestora la îmbunătățirea eficienței energetice, reducerea consumului de energie și a emisiilor de gaze cu efect de seră, renovarea și decarbonizarea fondului construit, creșterea performanței energetice a activităților economice și industriale, precum și la promovarea sustenabilității și utilizării eficiente a resurselor energetice.
+
+Art. 2 – Autoritățile și instituțiile publice centrale și locale, instituțiile de învățământ superior, organizațiile profesionale, organizațiile patronale, operatorii economici și organizațiile neguvernamentale pot organiza sau sprijini manifestări științifice, tehnice, educaționale și de informare publică dedicate Zilei naționale a auditorului energetic.
+
+Art. 3 – Cheltuielile generate de aplicarea prezentei legi se suportă din bugetele proprii ale autorităților, instituțiilor sau entităților prevăzute la art. 2.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.
+
+Președintele Senatului
+
+Președintele Camerei Deputaților

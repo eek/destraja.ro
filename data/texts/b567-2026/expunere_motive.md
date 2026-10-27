@@ -1,0 +1,182 @@
+# EXPUNERE DE MOTIVE
+
+Legea nr. 360/2023 privind sistemul public de pensii stabilește regulile generale pentru acordarea pensiei pentru limită de vârstă și permite ajustarea în viitor a vârstei standard de pensionare în raport cu evoluția speranței de viață.
+
+Acest mecanism general nu reglementează însă în mod distinct situația persoanelor care, în cursul vieții active, au fost diagnosticate cu neoplasm malign și care, în pofida bolii și a tratamentelor urmate, au continuat sau au revenit în activitate și au contribuit la sistemul public de pensii.
+
+Un diagnostic oncologic nu își epuizează efectele odată cu finalizarea tratamentului. Chimioterapia, radioterapia, intervențiile chirurgicale, imunoterapia și celelalte forme de tratament pot produce consecințe fizice și psihologice pe termen lung, iar persoanele aflate în remisie pot necesita monitorizare medicală continuă și se pot confrunta cu efecte tardive, afecțiuni asociate sau risc de recidivă.
+
+A aplica fără nicio diferențiere aceleași reguli privind vârsta de pensionare persoanelor care au trecut printr-o asemenea boală și populației generale înseamnă a ignora o situație medicală și socială obiectiv diferită.
+
+Prezenta inițiativă urmărește corectarea acestei situații prin instituirea unei măsuri clare de protecție socială.
+
+Cancerul reprezintă una dintre cele mai importante probleme de sănătate publică din România.
+
+Potrivit Profilului de țară privind cancerul – România 2025, pentru anul 2022 au fost estimate aproximativ 100.000 de cazuri noi de cancer, iar cancerul reprezintă a doua cauză de deces în România, după bolile cardiovasculare.
+
+În același timp, progresele în diagnostic și tratament determină creșterea numărului persoanelor care supraviețuiesc unui diagnostic oncologic și care își continuă activitatea profesională sau revin pe piața muncii.
+
+În acest context, răspunsul statului în domeniul oncologic trebuie să depășească etapa prevenției, diagnosticului și tratamentului și să includă măsuri concrete pentru perioada de după tratament, reintegrarea profesională și asigurarea unei protecții sociale adecvate pe termen lung.
+
+Prezenta propunere legislativă instituie dreptul persoanelor care au fost diagnosticate cu neoplasm malign de a beneficia, la cerere, de pensie pentru limită de vârstă la împlinirea vârstei de 60 de ani, cu condiția realizării cel puțin a stagiului minim de cotizare contributiv prevăzut de lege.
+
+Dreptul se acordă indiferent dacă persoana se află, la data solicitării pensiei, în tratament, sub monitorizare medicală sau în remisie.
+
+Măsura se aplică și persoanelor diagnosticate anterior intrării în vigoare a noilor dispoziții, fără acordarea retroactivă a unor drepturi de pensie.
+
+Pensionarea la vârsta de 60 de ani reprezintă un drept, nu o obligație. Persoanele care doresc să își continue activitatea profesională o pot face în condițiile legii.
+
+Stabilirea vârstei de 60 de ani urmărește realizarea unui echilibru între necesitatea unei protecții sociale suplimentare și principiile contributivității și sustenabilității sistemului public de pensii.
+
+Diagnosticul oncologic nu conduce la pensionare imediată. Dreptul poate fi exercitat numai la împlinirea vârstei de 60 de ani și cu îndeplinirea condiției privind stagiul minim de cotizare contributiv.
+
+În acest mod, măsura oferă o protecție concretă în ultima parte a vieții active, fără a transforma diagnosticul oncologic într-un mecanism de pensionare la o vârstă nejustificat de redusă.
+
+Totodată, stabilirea unei limite de 60 de ani protejează această categorie de eventualele majorări viitoare ale vârstei standard de pensionare determinate de evoluția speranței generale de viață.
+
+Alegerea stagiului minim de cotizare contributiv este, de asemenea, justificată de specificul situației avute în vedere.
+
+Pentru unele persoane, parcursul profesional poate fi afectat de perioadele de tratament, intervențiile chirurgicale, recuperarea medicală sau alte consecințe ale bolii. Impunerea stagiului complet de cotizare ar putea exclude tocmai persoane a căror activitate profesională a fost afectată semnificativ de diagnosticul oncologic.
+
+În același timp, condiția realizării stagiului minim păstrează caracterul contributiv al dreptului și legătura acestuia cu participarea efectivă la sistemul public de pensii.
+
+Este esențială și includerea persoanelor aflate în remisie. Succesul tratamentului nu trebuie să conducă la pierderea protecției sociale acordate în considerarea istoricului oncologic.
+
+O persoană care a trecut prin cancer, a urmat tratamente, a revenit la muncă și a continuat să contribuie la sistemul public de pensii nu trebuie exclusă de la această măsură pentru simplul fapt că, la momentul pensionării, boala nu mai este activă.
+
+Prezenta inițiativă are la bază principiile solidarității sociale, contributivității și protecției persoanelor aflate în situații obiectiv diferite.
+
+Existența unui diagnostic de neoplasm malign reprezintă un criteriu medical obiectiv și verificabil, care poate justifica instituirea unui tratament juridic distinct în materia protecției sociale.
+
+Măsura este proporțională cu scopul urmărit: dreptul nu se acordă imediat după diagnostic, este condiționat de realizarea stagiului minim de cotizare contributiv și poate fi exercitat numai începând cu vârsta de 60 de ani.
+
+Inițiativa este, totodată, în concordanță cu direcțiile asumate la nivel național și european în domeniul cancerului.
+
+Planul național de prevenire și combatere a cancerului și Planul european de luptă împotriva cancerului urmăresc nu doar prevenirea și tratarea bolii, ci și îmbunătățirea calității vieții pacienților și supraviețuitorilor oncologici, reintegrarea profesională și reducerea consecințelor sociale ale cancerului.
+
+Protecția socială a persoanelor care au trecut printr-un diagnostic oncologic trebuie să facă parte din această abordare.
+
+Aplicarea măsurii va avea impact asupra bugetului asigurărilor sociale de stat, dimensiunea exactă urmând să fie determinată pe baza datelor furnizate de instituțiile competente și prin întocmirea fișei financiare prevăzute de legislația în vigoare.
+
+Măsura nu presupune înființarea unor instituții sau structuri administrative noi, urmând să fie aplicată prin mecanismele existente ale sistemului public de pensii.
+
+Prezenta propunere legislativă pornește de la necesitatea recunoașterii unei realități medicale și sociale: consecințele unui diagnostic oncologic pot depăși cu mult perioada tratamentului activ.
+
+Persoanele care au trecut prin cancer, au urmat tratamente și au continuat să participe la sistemul public de pensii se află într-o situație care justifică o protecție distinctă la finalul vieții active.
+
+Instituirea posibilității pensionării la vârsta de 60 de ani, cu condiția realizării stagiului minim de cotizare contributiv, reprezintă o măsură de protecție socială clară, proporțională și fundamentată pe contributivitate.
+
+Față de considerentele prezentate, supunem Parlamentului României spre dezbatere și adoptare prezenta propunere legislativă pentru modificarea și completarea Legii nr. 360/2023 privind sistemul public de pensii.
+
+În temeiul art. 111 alin. (1) din Constituția României, republicată, vă adresăm rugămintea de a solicita Guvernului să comunice punctul de vedere asupra prezentei propuneri legislative.
+
+INIȚIATORI:
+
+Deputat AUR- Dumitrina Mitrea
+
+Deputat AUR- /Andra-Claudia Constantinescu
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege pentru modificarea și completarea Legii nr. 360/2023 privind sistemul public de pensii
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1 | PETRISOR PEIJI | AUR |  |
+| 2 | ACOB C. CIPRIAN | A.U.R. |  |
+| 3. | VASILE MARIAN | A.U.R |  |
+| 4 | Jefan Geamann | AUR |  |
+| 5. | CONSTANIMPSU 200JCA | AUR |  |
+| 6 | ONEA DCSA | AUR |  |
+| 7 | Parasea Seofi | AUR |  |
+| 8 | Luminita Toucean Fernandes | ALIR |  |
+| 9 | STOICA CIPRIAN-TITI | A.U.R. |  |
+| 10 | SIPOS CRISTIAN | ALIR |  |
+| 11 | Chisth C | AU |  |
+| 12 | Pete George COb | AUR |  |
+| 13 | Miburna FIZZA | AUR |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege pentru modificarea și completarea Legii nr. 360/2023 privind sistemul public de pensii
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 14. | Sandu M. lonut | AciR |  |
+| 15 | PAUL GATEOREHE | AUR |  |
+| 16 | Andrei Dirlau | AVR |  |
+| 17. | Potea Vaeiu | Aur |  |
+| 18. | Vibocan Voyulu | Aul |  |
+| 19. | Barean Donino | AUR |  |
+| 20 | ME6W CO2NEU | Au2 |  |
+| 21 | VLHHU NICOLAE | AUR |  |
+| 22 | Lavric Sirin | AVR |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege pentru modificarea și completarea Legii nr. 360/2023 privind sistemul public de pensii
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td>Semnătura</td></tr>
+<tr><td>1,</td><td>SIMION GEORGE NICOCAE</td><td>AUR</td><td rowspan="13"></td></tr>
+<tr><td>2,</td><td>Veleescu Bogdon</td><td>AUR</td></tr>
+<tr><td>3,</td><td>MIRAI ENACHU</td><td>AUR</td></tr>
+<tr><td>4,</td><td>PusCASU PETRE</td><td>AUR</td></tr>
+<tr><td>5,</td><td>Negreu Petru</td><td>AUR</td></tr>
+<tr><td>6,</td><td>SORIN MUNCACIU</td><td>AUR</td></tr>
+<tr><td>7,</td><td>MIMARESCU MIE</td><td>AUR</td></tr>
+<tr><td>8,</td><td>Mulpoiu Doad</td><td>AUR-</td></tr>
+<tr><td>9,</td><td>Lovin RAMOCHA</td><td>AUR</td></tr>
+<tr><td>10,</td><td>DANCED SIVYIJ</td><td>AUR</td></tr>
+<tr><td>11,</td><td>VARSAN CIPRIAN</td><td>AUR</td></tr>
+<tr><td>12,</td><td>Neleriu Munteanu</td><td>AUR-</td></tr>
+<tr><td>13,</td><td>CIORXEJ SAHIEZ-CAIJALIN</td><td>AUR</td></tr>
+</tbody>
+</table>
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege pentru modificarea și completarea Legii nr. 360/2023 privind sistemul public de pensii
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td>Semnătura</td></tr>
+<tr><td>14.</td><td>BARSTAN TIDEPEU CLOMORI</td><td>AUR</td><td rowspan="12"></td></tr>
+<tr><td>15.</td><td>Gylofu VENOMIA</td><td>AUR</td></tr>
+<tr><td>16.</td><td>GHEORGHE IONEL</td><td>AUR</td></tr>
+<tr><td>19.</td><td>TILE4 JIRU</td><td>AUR</td></tr>
+<tr><td>18.</td><td>POPESCU ANTONIO GABI</td><td>AUR</td></tr>
+<tr><td>19.</td><td>SOBOF ELENT</td><td>AUR</td></tr>
+<tr><td>20.</td><td>NEGOESCU MINAII-BOGDAH</td><td>AUR</td></tr>
+<tr><td>21.</td><td>BUTURA CRISINIA-IRICH</td><td>AUR</td></tr>
+<tr><td>22.</td><td>CAUIN GHE MATIES</td><td>AUR</td></tr>
+<tr><td>23.</td><td>MICLIFY SAMHEL-VIRUIC</td><td>AUR</td></tr>
+<tr><td>24.</td><td>GURCU' HILVIV- OCONJAN</td><td>NA</td></tr>
+<tr><td>25.</td><td>DASCALI CRISTINA EMANUELA</td><td>AUR</td></tr>
+<tr><td>26.</td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege pentru modificarea și completarea Legii nr. 360/2023 privind sistemul public de pensii
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td>Semnătura</td></tr>
+<tr><td>27.</td><td>GHERA SIN LAUKA</td><td>AUR</td><td rowspan="9"></td></tr>
+<tr><td>28.</td><td>Biro DANIEL RAZVAN</td><td>AUR</td></tr>
+<tr><td>29.</td><td>ioscr cosmin TEODOR</td><td>AUR</td></tr>
+<tr><td>30.</td><td>ARIADNA-ECEHA CIRLIGEANLI</td><td>A.C.I.R.</td></tr>
+<tr><td>31.</td><td>PASCARIU MIMAI-COSMIN</td><td>AUR</td></tr>
+<tr><td>32.</td><td>COLESA 14'E-ALIN'</td><td>AUR</td></tr>
+<tr><td>33.</td><td>BASCA VALENTIN</td><td>AUR</td></tr>
+<tr><td>34.</td><td>KOLER EDUARD</td><td>AUR</td></tr>
+<tr><td>35</td><td>PHARESCE SIAIU-TITUS</td><td>AUR</td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>

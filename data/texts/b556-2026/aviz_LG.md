@@ -1,0 +1,33 @@
+# referitor la propunerea legislativă pentru completarea art. 149 din Legea învățământului superior nr. 199/2023
+
+Analizând propunerea legislativă pentru completarea art. 149 din Legea învățământului superior nr. 199/2023 (b556/07.10.2026), transmisă de secretarul general al Senatului cu adresa nr. XXXV/4794/12.10.2026 și înregistrată la Consiliul Legislativ cu nr. D867/13.10.2026,
+
+## CONSILIUL LEGISLATIV
+
+În temeiul art. 2 alin. (1) lit. a) din Legea nr. 73/1993, republicată, și al art. 29 alin. (3) din Regulamentul de organizare și funcționare a Consiliului Legislativ,
+
+Avizează favorabil propunerea legislativă, cu următoarele observații și propuneri:
+
+1\. Propunerea legislativă are ca obiect de reglementare completarea art. 149 din Legea învățământului superior nr. 199/2023, în vederea instituirii posibilității finanțării, din fondurile pentru situații speciale, a programelor de studii universitare destinate formării de specialiști în domeniul limbilor rare, atunci când numărul redus de studenți nu permite asigurarea sustenabilității acestora prin mecanismele finanțării de bază.
+
+2\. Prin conținutul său normativ, propunerea legislativă face parte din categoria legilor ordinare, iar în aplicarea prevederilor art. 75 alin. (1) din Constituția României, republicată, prima Cameră sesizată este Senatul.
+
+3\. Menționăm că, prin avizul pe care îl emite, Consiliul Legislativ nu se pronunță asupra oportunității soluțiilor legislative preconizate.
+
+4\. La art. I, potrivit uzanțelor de redactare, partea dispozitivă se va reformula astfel:
+
+„Art. I. - La articolul 149 din Legea învățământului superior nr. 199/2023, publicată în Monitorul Oficial al României, Partea I, nr. 614 din 5 iulie 2023, cu modificările și completările ulterioare, după alineatul (3) se introduce un nou alineat, alin. (3¹), cu următorul cuprins:”.
+
+5\. Referitor la norma propusă pentru art. 149 alin. (3¹), propunem definirea sintagmei „limbi rare”, întrucât aceasta determină categoria programelor de studii universitare care pot beneficia de finanțare. În acest sens, în acord cu cerințele art. 25 din Legea nr. 24/2000 privind normele de tehnică legislativă pentru elaborarea actelor normative, recomandăm completarea anexei la Legea nr. 199/2023 cu definiția sintagmei „limbi rare”, prin precizarea criteriilor de încadrare în această categorie, potrivit intenției de reglementare.
+
+În cazul însușirii acestei recomandări, titlul va fi adaptat corespunzător, iar art. I va fi restructurat în două puncte distincte, corespunzătoare intervențiilor legislative asupra art. 149 și a anexei.
+
+6\. La art. II, abrevierea „Art.” din trimiterea la art. I se va redacta cu literă mică.
+
+PRESEDINTE \*
+
+Florin' IORDACHE
+
+București
+
+Nr. 871/15.10.2026

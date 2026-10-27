@@ -1,0 +1,123 @@
+SENATUL
+
+## PROIECT DE LEGE
+
+# privind instituirea obligativității testării antidrog a parlamentarilor și a personalului angajat în structurile Parlamentului României
+
+În temeiul art. 1 alin. (3) și (5), art. 61 și art. 69 din Constituția României, republicată, adoptă prezenta lege.
+
+## CAPITOLUL I – Dispoziții generale
+
+În contextul social, economic și politic din România, instituțiile fundamentale ale democrației trebuie să asigure un nivel înalt de integritate, responsabilitate și moralitate. Parlamentul României, ca reprezentant al voinței poporului și forul legislativ de bază al țării, joacă un rol esențial în stabilirea direcției politice și legislative a națiunii. În acest sens, este imperativ ca toți cei care exercită funcții publice în cadrul Parlamentului să demonstreze nu doar competență, ci și o conduită ireproșabilă, fiind un model pentru cetățeni.
+
+Însă, în pofida statutului său de instituție esențială în democrație, Parlamentul nu este imun la provocările și riscurile care pot afecta performanța și credibilitatea sa. Una dintre aceste provocări este influența substanțelor psihoactive asupra performanței profesionale a parlamentarilor și a personalului care sprijină activitatea acestora. Consumul de droguri sau alte substanțe psihoactive poate afecta sever capacitatea de judecată, obiectivitatea și responsabilitatea celor care lucrează în cadrul acestei instituții fundamentale.
+
+## Art. 1 – Scopul legii
+
+Scopul acestei legi este de a asigura un cadru legislativ clar și eficient prin care să se protejeze integritatea și funcționarea Parlamentului României. Legea propune instituirea obligativității testării antidrog a parlamentarilor și a personalului angajat în structurile Parlamentului, având ca obiectiv principal consolidarea încrederii cetățenilor în instituțiile publice și asigurarea unui climat de muncă profesionist și responsabil.
+
+Testarea antidrog se va desfășura conform unor proceduri riguroase și standardizate, respectând drepturile fundamentale ale persoanelor, dar cu aplicarea fermă a măsurilor necesare pentru garantarea unei activități parlamentare care să nu fie afectată de influența substanțelor psihoactive.
+
+Prezenta lege se bazează pe patru
+
+principii fundamentale:
+
+\- Principiul integrității publice – Parlamentul României trebuie să fie un exemplu de responsabilitate și moralitate. Este imperativ ca aleșii și angajații Parlamentului să demonstreze o conduită ireproșabilă, fără a fi afectați de consumul de substanțe psihoactive.
+
+\- Principiul transparenței – Cetățenii au dreptul de a fi informați că aleșii lor nu sunt sub influența substanțelor psihoactive. Testarea antidrog periodică și publicarea rezultatelor vor contribui la consolidarea încrederii în activitatea Parlamentului.
+
+\- Principiul egalității – Legea nu discriminează niciun angajat al Parlamentului, aplicând aceleași reguli de testare și verificare pentru toți, indiferent de funcția sau statutul acestora.
+
+\- Principiul prevenirii și protecției – Testarea antidrog are un caracter preventiv, asigurând o protecție atât pentru persoanele implicate, cât și pentru instituția în ansamblu. Scopul este de a preveni consumul de substanțe care ar putea compromite activitatea parlamentară.
+
+## Art. 3 – Definiții
+
+În sensul prezentei legi, termenii de mai jos au următoarea semnificație:
+
+a) Parlamentar – deputat sau senator, membru ales al Parlamentului României;
+
+b) Angajat – persoană încadrată prin contract individual de muncă în cadrul structurilor administrative ale Parlamentului sau în cabinetele parlamentare;
+
+c) Consilier – persoană numită ori angajată în cadrul cabinetelor parlamentare sau în aparatul de specialitate al Parlamentului;
+
+d) Personal auxiliar – alte categorii de personal care sprijină activitatea Parlamentului;
+
+e) Testare antidrog – procedura de recoltare și analiză a probelor biologice (urina, salivă, sânge sau păr), în scopul depistării consumului de substanțe psihoactive, legale sau ilegale.
+
+Secretariatul General al Camerei ROMANIA Deputaților și al Senatului are obligația de a organiza, în mod gratuit, spații special amenajate în incinta Palatului Parlamentului, dotate și autorizate pentru desfășurarea testării antidrog.
+
+Testarea se efectuează exclusiv de către personal medical specializat și acreditat, desemnat prin ordin comun al Ministerului Sănătății și Ministerului Afacerilor Interne.
+
+Procedurile de testare se vor desfășura cu respectarea strictă a dreptului la demnitate și la viață privată, fără a afecta însă caracterul obligatoriu al verificărilor.
+
+## Art. 5 – Periodicitatea testării
+
+Legea propune ca testarea antidrog să fie realizată în mod periodic, parlamentarii fiind testați la începutul fiecărei sesiuni parlamentare, iar angajații și personalul auxiliar să fie testați anual și prin sondaj. Testările vor fi realizate de personal medical specializat, iar procedurile vor respecta toate normele de protecție a datelor și a drepturilor fundamentale.
+
+Pentru asigurarea unui cadru adecvat de testare, Secretariatul General al Camerei Deputaților și al Senatului va fi responsabil de organizarea infrastructurii necesare. De asemenea, autoritățile competente vor fi implicate în procesul de confirmare a rezultatelor și în luarea măsurilor legale corespunzătoare, în cazul în care se identifică consumul de substanțe psihoactive.
+
+Parlamentarii se supun testării antidrog obligatorii la începutul fiecărei sesiuni ordinare și extraordinare.
+
+Angajații, consilierii și personalul auxiliar se testează anual, precum și prin sondaj, în perioada sesiunilor parlamentare.
+
+În situația în care testarea nu este organizată conform prezentei legi, lucrările sesiunii parlamentare se suspendă de drept până la îndeplinirea acestei obligații procedurale.
+
+## Art. 6 – Finanțarea programului
+
+Finanțarea implementării prezentei legi se realizează din bugetul Parlamentului României.
+
+Dacă este necesar, Guvernul va aloca fonduri suplimentare prin rectificare bugetară, pentru asigurarea funcționării programului.
+
+CAPITOLUL III – Obligațiile persoanelor vizate
+
+Art. 7 – Obligația de prezentare
+
+Parlamentarii, angajații, consilierii și personalul auxiliar au obligația de a se prezenta la testare la data și ora stabilite. Neprezentarea sau refuzul constituie abatere gravă și atrage sancțiunile prevăzute de prezenta lege.
+
+## CAPITOLUL IV – Regimul sancționator
+
+## Art. 8 – Sancțiuni aplicabile parlamentarilor
+
+Neprezentarea sau refuzul unui parlamentar de a efectua testarea antidrog atrage următoarele sancțiuni:
+
+a) suspendarea dreptului la cuvânt și la inițiativă parlamentară pentru o perioadă de 3 luni;
+
+b) reducerea indemnizației lunare cu până la 50% pentru o perioadă de 6 luni.
+
+În cazul unui rezultat pozitiv confirmat, Președintele Camerei din care face parte parlamentarul sesizează de îndată Ministerul Justiției și organele competente, în vederea demarării procedurilor legale. În ciuda caracterului obligatoriu al testării, legea garantează respectarea demnității și a vieții private ale persoanelor vizate. Procedurile de testare vor fi realizate într-un cadru adecvat, fără a încălca drepturile fundamentale ale celor supuși testării.
+
+## Art. 9 – Sancțiuni aplicabile personalului angajat
+
+Legea prevede sancțiuni clare și proporționale pentru neprezentarea la testare sau pentru rezultatele pozitive. Parlamentarii care refuză testarea sau care sunt testați pozitiv vor suporta sancțiuni severe, inclusiv suspendarea dreptului de a vorbi în Parlament și reducerea indemnizației. În cazul personalului angajat, sancțiunile includ suspendarea contractului de muncă, iar în caz de rezultate pozitive confirmate, contractul va fi suspendat de drept. Aceste măsuri sunt menite să asigure o disciplină riguros aplicată și să protejeze integritatea instituției parlamentare.
+
+## Art. 10 – Confirmarea rezultatelor
+
+În situația unui test inițial pozitiv, persoana vizată este condusă la o unitate spitalicească autorizată, pentru recoltarea probelor biologice în vederea confirmării rezultatului și stabilirii substanței identificate.
+
+Rezultatele confirmate sunt comunicate în regim de urgență instituțiilor prevăzute la art. 8 și 9.
+
+## CAPITOLUL V – Dispoziții finale
+
+Art. 11 – Intrarea în vigoare
+
+Prezenta lege intră în vigoare la 6 Monitorul Oficial al României, Partea I.
+
+luni de la data publicării în
+
+Art. 12 - Norme metodologice
+
+În termen de 90 de zile de la publicarea prezentei legi, Guvernul, prin Ministerul Sănătății și Ministerul Afacerilor Interne, va elabora și aproba normele metodologice de aplicare.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 alin. (1) și ale art. 76 alin. (2) din Constituția României, republicată.
+
+Președintele Camerei Deputaților,
+
+Președintele Senatului,
+
+GRINDEANU Sorin-Mihai
+
+ABRUDEAN Mircea
+
+Inițiator:
+
+Deputat CSILLAG Andrei

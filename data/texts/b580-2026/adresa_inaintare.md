@@ -1,0 +1,11 @@
+# Parlamentul României SENATUL ROMÂNIEI
+
+## Către,
+
+## BIROUL PERMANENT AL SENATULUI
+
+În conformitate cu prevederile art. 74 alin. (1), și ale art. 75 din Constituția României, republicată, precum și cu prevederile art. 92 alin.(1) din Regulamentul Senatului, republicat, cu modificările și completările ulterioare, vă înaintez spre dezbatere și adoptare „Propunerea legislativă privind înființarea, organizarea și funcționarea instituției Avocatul Furnizorului de Servicii Sociale, precum și pentru modificarea și completarea unor acte normative.”
+
+Inițiator,
+
+Deputat Mariana Vârgă -Circumscripția Electorală nr. 42 București

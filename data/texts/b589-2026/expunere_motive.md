@@ -1,0 +1,176 @@
+# EXPUNERE DE MOTIVE
+
+Prezenta propunere legislativă urmărește instituirea unei proceduri judiciare speciale, urgente și previzibile pentru soluționarea contestațiilor formulate împotriva hotărârilor de excludere din partidele politice, în situația persoanelor care exercită mandate de consilier local sau de consilier județean dobândite pe lista partidului politic respectiv.
+
+Există numeroase cazuri în care consilieri locali sau județeni sunt excluși din formațiunile politice de care aparțin, pentru abateri disciplinare prevăzute în Statutele partidelor. Ulterior, mare parte dintre cei excluși contestă în instanță aceste măsuri, iar finalizarea procedurilor durează uneori ani de zile până la luarea unor decizii definitive, fapt ce afectează reprezentativitatea politică în Consiliile locale și Consiliile județene.
+
+Potrivit legislației în vigoare, pierderea calității de membru al partidului politic pe a cărui listă a fost ales consilierul local sau consilierul județean constituie o cauză de încetare de drept a mandatului, înainte de expirarea duratei normale a acestuia.
+
+Pe de altă parte, având în vedere consecințele pe care excluderea din partid le produce asupra exercitării unui mandat electiv, persoana exclusă trebuie să beneficieze de posibilitatea unui control judecătoresc efectiv asupra legalității hotărârii și asupra respectării procedurilor statutare.
+
+Din păcate, în lipsa unei proceduri judiciare speciale, durata soluționării unor asemenea litigii poate conduce la menținerea pentru perioade îndelungate a unei stări de incertitudine juridică, atât în privința titularului mandatului, cât și în privința componenteia autorității deliberative locale. O asemenea situație nu servește nici interesului persoanei exclude, care are dreptul la clarificarea rapidă a situației sale juridice, nici interesului partidului politic și nici interesului colectivității locale reprezentate prin consiliul local sau județean.
+
+Prezenta inițiativă nu instituie o nouă cauză de încetare a mandatului și nu sancționează modul în care alesul local își exercită votul în cadrul autorității deliberative. Cauza de încetare a mandatului prin pierderea calității de membru al partidului politic există deja în legislația în vigoare. Intervenția legislativă privește exclusiv procedura de control judecătoresc al unei hotărâri de excludere și momentul la care aceasta poate produce efecte asupra mandatului electiv.
+
+Soluția legislativă propusă urmărește realizarea unui echilibru între autonomia partidelor politice, accesul efectiv la justiție al persoanei excluse, libertatea mandatului reprezentativ și necesitatea asigurării stabilității și previzibilității componenței consiliilor locale și județene.
+
+În cadrul scrutinului electoral desfășurat pe baza listelor de candidați, opțiunea alegătorilor privește atât persoanele înscrise pe listă, cât și programul și formațiunea politică sub însemnele căreia acestea participă la alegeri. Această realitate nu transformă mandatul alesului local într-un mandat imperativ și nu justifică limitarea libertății sale de opinie sau de vot. Ea justifică însă necesitatea ca litigiile privind pierderea calității politice care, potrivit legii, produce consecințe asupra mandatului să fie soluționate într-un interval rezonabil și compatibil cu durata mandatului electiv.
+
+Un reper constituțional esențial pentru prezenta reglementare îl reprezintă Decizia Curții Constituționale nr. 530 din 12 decembrie 2013. Prin această decizie, Curtea Constituțională a reținut necesitatea existenței unui control judecătoresc efectiv asupra hotărârilor de excludere, având în vedere consecințele pe care acestea le pot produce asupra mandatului alesului local. Controlul instanței trebuie să poată privi respectarea statutului partidului, competența organului care a dispus sancțiunea, regularitatea procedurii disciplinare și asigurarea efectivă a dreptului la opinie și la apărare.
+
+În același timp, controlul judecătoresc nu trebuie să transforme instanța într-un organ care apreciază oportunitatea politică a sancțiunii aplicate de partid. Pornind de la această delimitare, prezenta inițiativă consacră expres faptul că instanța verifică legalitatea hotărârii și regularitatea procedurii statutare, fără a se pronunța asupra oportunității politice a excluderii. Accesul la justiție este astfel menținut, însă exercitarea acestuia este organizată într-o procedură adaptată naturii raportului juridic și necesității clarificării rapide a situației mandatului.
+
+Proiectul instituie un termen de 10 zile pentru contestarea hotărârii de excludere și stabilește judecarea cauzei de urgență și cu precădere. Pentru evitarea întârzierilor incompatibile cu natura cauzei, nu este aplicabilă procedura de regularizare prevăzută la art. 200 din Codul de procedură civilă, instanța având posibilitatea de a solicita completarea eventualelor lipsuri ale cererii până la primul termen de judecată.
+
+Soluția nu este străină mecanismelor deja utilizate de legiuiitor în materia administrației publice locale. Prin Legea nr. 30/2026, procedura de validare a mandatelor supleanților pe durata mandatului consiliului local a fost accelerată, fiind stabilit un termen de 10 zile de la constatarea încetării mandatului și fiind exclusă procedura de regularizare a cererii.
+
+Proiectul reglementează expres și efectul introducerii contestației asupra mandatului. Pe durata termenului în care hotărârea de excludere poate fi contestată și, în cazul exercitării contestației, până la soluționarea definitivă a acesteia, mandatul consilierului continuă.
+
+În cazul în care hotărârea de excludere nu este contestată, mandatul încetează de drept la expirarea termenului legal de contestare. În cazul în care contestația este respinsă definitiv, mandatul încetează la data pronunțării hotărârii judecătorești definitive. În cazul admiterii definitive a contestației, hotărârea de excludere nu produce efectul încetării mandatului.
+
+Prin această soluție se elimină posibilitatea ca mandatul să înceteze înainte ca persoana exclusă să își poată exercita efectiv dreptul de acces la justiție și, în același timp, se evită perpetuarea pe o perioadă nejustificat de lungă a unei situații juridice incerte.
+
+Hotărârea judecătorească definitivă prin care contestația este respinsă este comunicată de îndată prefectului și secretarului general al unității sau subdiviziunii administrativ-teritoriale, pentru îndeplinirea actelor prevăzute de Codul administrativ în vederea constatării încetării mandatului, vacantării locului și aplicării procedurii legale privind validarea supleantului.
+
+Reglementarea propusă prin acest proiect nu presupune înființarea unor autorități, instituții sau structuri administrative noi. Litigiile vor fi soluționate de instanțele judecătorești existente, iar prefectul și secretarul general al unității/subdiviziunii administrativ-teritoriale vor exercita atribuțiile prevăzute de cadrul legal existent. În
+
+ROMANIA
+
+consecință, măsurile propuse nu sunt de natură să genereze un impact bugetar, ci vor degreva instanțele de procese lungi și costisitoare.
+
+Soluția legislativă propusă menține accesul la o instanță independentă și imparțială, dreptul efectiv la apărare și posibilitatea exercitării unei căi de atac, intervenția legislativă urmărind exclusiv asigurarea celerității și previzibilității procedurii.
+
+Astfel, prin prezenta propunere legislativă urmărim înlocuirea unei perioade îndelungate de incertitudine cu o procedură judiciară specială, rapidă și previzibilă, fără eliminarea controlului judecătoresc, fără transferarea către instanță a competenței de apreciere a oportunității politice a sancțiunii și fără afectarea substanței mandatului reprezentativ.
+
+În temeiul art. 111 alin. (1) din Constituția României, republicată, vă adresăm rugămintea de a solicita Guvernului să comunice punctul de vedere asupra prezentei propuneri legislative.
+
+## INITIATOR:
+
+Deputat AUR -/Georgel Badiu
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege pentru completarea Legii partidelor politice nr. 14/2003, precum și pentru modificarea și completarea art. 204 din Ordonanța de urgență a Guvernului nr. 57/2019 privind Codul administrativ
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1. | Jimion GEORGE NICOLAE | AUR |  |
+| 2. | Popesa ANTONIO GABI | AUR |  |
+| 3. | BORDIAN ALEXANDU | AOR |  |
+| 4. | Ramona Joana Broguarele | AUR |  |
+| 5. | Vulpsiu Darel | AUR |  |
+| 6. | Pușetsu PETRE | AOR |  |
+| 7. | Negrea Petru | AUR |  |
+| 8. | COLESA ilie ACIN | AUR |  |
+| 9. | ARIADHA -ELENA CIRLIGEANLI | A.U.R. |  |
+| 10. | Constantimescu AMDRA | AUR |  |
+| 11. | GIOLOI NIVIO -OCPAIJAN | AUR |  |
+| 12. | Lovin RAMOHA | AUR |  |
+| 13. | OANCEA SILVIU | AVR |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege pentru completarea Legii partidelor politice nr. 14/2003, precum și pentru modificarea și completarea art. 204 din Ordonanța de urgență a Guvernului nr. 57/2019 privind Codul administrativ
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 14. | Sorin MUNCAELI | AUR |  |
+| 15. | Valeriu Munteanu | AUR |  |
+| 16. | Juhio eni Iuyn | AUR |  |
+| 17. | BASTAH TIBOW CLANDU | AUR |  |
+| 18. | Socuz Sen u | AUR |  |
+| 19. | MITREA DUMITRINA | AUR |  |
+| 20. | ENACHE DIANA | AUR |  |
+| 21. | LOSUB COSUN TEODOR | AUR |  |
+| 22. | GHEORGE MIFIH CLAUDU | AUR |  |
+| 23. | CIPRIAN PARASEHIL | AUR |  |
+| 24. | VADH - TUDOR LIDIA | AUR |  |
+| 25. | MUSOF DORN - U EON | Aur2 |  |
+| 26. | FOLEA GABRIEL | AUK |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege pentru completarea Legii partidelor politice nr. 14/2003, precum și pentru modificarea și completarea art. 204 din Ordonanța de urgență a Guvernului nr. 57/2019 privind Codul administrativ
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 24. | Bogdan Volcsen | AUR |  |
+| 28. | Plesu lonelio | AUR |  |
+| 29. | PASCARIU MIMAI-COSMIN | AUR |  |
+| 30. | iAGAH MONICA | AUR |  |
+| 31. | Sebon Gioimo | AUR |  |
+| 32. | 'NEGOESCU MIHAI-BOGDAN | AUR |  |
+| 33. | MICLÀU SAMCEL-VIRNIK | AUR |  |
+| 34. | MIMORESCU MIC | AUR |  |
+| 35. | Kole2 EDARD | AUR |  |
+| 36. | MEAMÍJ MÍNÍ | AUR |  |
+| 37. | VĂRSAN CIPRIAN. | AUR |  |
+| 38. | ANDREI BUȘA | AUR |  |
+| 39. | HlisiJ COSMIN | AUR |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege pentru completarea Legii partidelor politice nr. 14/2003, precum și pentru modificarea și completarea art. 204 din Ordonanța de urgență a Guvernului nr. 57/2019 privind Codul administrativ
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td>Semnătura</td></tr>
+<tr><td>h0.</td><td>1801804 EUNA</td><td>AUR</td><td rowspan="4"></td></tr>
+<tr><td>h1.</td><td>GROSU VERONICA</td><td>AUR</td></tr>
+<tr><td>h2.</td><td>CATTASA DAM</td><td>AOL</td></tr>
+<tr><td>h3.</td><td>CAUII GHE MATIBS</td><td>AUR</td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege pentru completarea Legii partidelor politice nr. 14/2003, precum și pentru modificarea și completarea art. 204 din Ordonanța de urgență a Guvernului nr. 57/2019 privind Codul administrativ
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1. | PETRISOR PEIV | AUR |  |
+| 2 | ROMAN MARIUS-VALENTIN | AVR |  |
+| 3 | STOICA CIPRIAN-777 | A.V.R. |  |
+| 4 | LUCINITA RAUCEAN-FERNANDES | AUR |  |
+| 5 | DAMIE LA STEFANESCU | AVR |  |
+| 6 | JOOB & SIPUA | A.V.R |  |
+| 7 | SANDU M. lonut | AUR |  |
+| 8 | Vlsecu Voyla | AVR |  |
+| 9. | Pbeseu hawreufiu | AVR |  |
+| 10 | SIPOS CRISTIAN | AUR |  |
+| 11 | Andrei Sinlau | AUR |  |
+| 12 | PAUL GHEOEBH6 | AUR |  |
+| 13 | CRISN'XA SUMITRECU | AVR |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege pentru completarea Legii partidelor politice nr. 14/2003, precum și pentru modificarea și completarea art. 204 din Ordonanța de urgență a Guvernului nr. 57/2019 privind Codul administrativ
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td>Semnătura</td></tr>
+<tr><td>14.</td><td>Cousbautiiescu Podice</td><td>AVR</td><td rowspan="6"></td></tr>
+<tr><td>15</td><td>VASILE MARIAH</td><td>AVR</td></tr>
+<tr><td>16</td><td>Corishou VAXRU</td><td>AGL</td></tr>
+<tr><td>17</td><td>Lavrie Souin</td><td>AVR</td></tr>
+<tr><td>18</td><td>SPAU DUMITRU</td><td>A.U.R.</td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>

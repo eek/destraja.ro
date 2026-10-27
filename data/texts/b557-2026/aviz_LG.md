@@ -1,0 +1,41 @@
+# AVIZ
+
+# referitor la propunerea legislativă pentru completarea art.47 din Legea nr.307/2006 privind apărarea împotriva incendiilor
+
+Analizând propunerea legislativă pentru completarea art.47 din Legea nr.307/2006 privind apărarea împotriva incendiilor (b557/07.10.2026), transmisă de Secretarul General al Senatului cu adresa nr. XXXV/4794/12.10.2026 și înregistrată la Consiliul Legislativ cu nr. D868/13.10.2026,
+
+## CONSILIUL LEGISLATIV
+
+În temeiul art. 2 alin. (1) lit. a) din Legea nr. 73/1993, republicată, și al art. 29 alin. (3) din Regulamentul de organizare și funcționare a Consiliului Legislativ,
+
+Avizează favorabil propunerea legislativă, cu următoarele observații și propuneri:
+
+1\. Propunerea legislativă are ca obiect de reglementare completarea cu două noi alineate a art. 47 din Legea nr. 307/2006 privind apărarea împotriva incendiilor, republicată, cu modificările și completările ulterioare.
+
+Potrivit Expunerii de motive, soluțiile legislative preconizate sunt argumentate prin faptul că „Prin Ordonanța de urgență a Guvernului nr. 17/2026 au fost introduse/modificate mai multe prevederi în cuprinsul Legii nr. 307/2006 privind apărarea împotriva incendiilor, republicată, cu modificările și completările ulterioare, inclusiv la art. 47, prin instituirea unor reguli speciale privind regimul sanționator aplicabil anumitor contravenții. (...) Efectul practic al acestor dispoziții este acela că, pentru o categorie largă de contravenții, inclusiv cele referitoare la nedeținerea autorizației de securitate la incendiu, organele de control nu mai pot aplica sancțiunea avertismentului, ci sunt obligate să aplice direct sancțiunea amenzii, fără posibilitatea individualizării sanctiunii în funcție de circumstanțele concrete, de conduita instituției verificate, de existența unor demersuri în curs sau de imposibilitatea obiectivă de conformare imediată".
+
+2\. Propunerea legislativă face parte din categoria legilor ordinare, iar în aplicarea prevederilor art. 75 alin. (1) din Constituția României, republicată, prima Cameră sesizată este Senatul.
+
+3\. Precizăm că, prin avizul pe care îl emite, Consiliul Legislativ nu se pronunță asupra oportunității soluțiilor legislative preconizate.
+
+4\. Din punct de vedere al respectării normelor de tehnică legislativă, recomandăm reformularea părții introductive a articolului unic, astfel:
+
+„Articol unic. - Articolul 47 din Legea nr. 307/2006 privind apărarea împotriva incendiilor, republicată în Monitorul Oficial al României, Partea I, nr. 297 din 17 aprilie 2019, cu modificările și completările ulterioare, se completează după cum urmează:”.
+
+5\. La pct. 1, referitor la soluția legislativă preconizată pentru art. 47 alin. (8¹), prin care se instituie o excepție de la prevederile alin. (7), potrivit căruia „pentru contravențiile prevăzute la art. 45 pct. III - XII nu se aplică sancțiunea avertisment”, semnalăm că o excepție de la respectivul alineat se realizează deja și prin textul de lege lata al alin. (8) al aceluiași articol.
+
+Pentru o mai bună sistematizare a art. 47 din actul de bază, recomandăm ca soluția legislativă să vizeze modificarea alin. (8), astfel încât norma să stabilească ipoteza juridică specifică ansamblului articolului, de exceptare de la prevederile alin. (7), în situațiile preconizate.
+
+În ipoteza în care prezenta observație nu este însușită, pentru unitate terminologică cu alin. (8), recomandăm înlocuirea sintagmei „Prin excepție de la alin. (7)” cu sintagma „Prin excepție de la prevederile alin. (7)”.
+
+Pentru aceleași considerente, recomandăm ca sintagma „sancțiunea avertismentului poate fi aplicată” să fie redată sub forma „poate fi aplicată sancțiunea avertisment” și poziționată în partea de final a normei.
+
+De asemenea, semnalăm că sintagma „face dovada inițierii demersurilor necesare pentru obținerea autorizației de securitate la incendiu” este insuficient de clară deoarece, din actuala redactare, nu se înțelege în ce modalitate se poate face dovada, în ce constă procedura de inițiere și nici care sunt demersurile necesare vizate.
+
+Totodată, nici sintagma „program de conformare aprobat” nu este suficient de clară deoarece, pe de o parte, nu se înțelege despre, ce program de conformare este vorba și, pe de altă parte, nu se înțelege cine aprobă respectivul program.
+
+6\. La pct. 2, referitor la soluția legislativă preconizată pentru alin. (13¹), semnalăm că, în actuala redactare, norma este incompletă, deoarece din enunț nu se înțelege care este momentul de la care încep să curgă termenele de 24, respectiv de 12 luni și nici cine aprobă programul de conformare privind securitatea la incendiu.
+
+PRESEDINTE
+
+Florin FORDACHE

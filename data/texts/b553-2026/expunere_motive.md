@@ -1,0 +1,215 @@
+# PARLAMENTUL ROMÂNIEI CAMERA DEPUTAȚILOR
+
+# EXPUNERE DE MOTIVE
+
+Propunere legislativă pentru modificarea și completarea Legii nr. 227/2015 privind Codul fiscal și a Legii nr. 208/2015 privind alegerea Senatului și a Camerei Deputaților, precum și pentru organizarea și funcționarea Autorității Electorale Permanente, în vederea instituirii unei bonificații fiscale suplimentare anuale pentru participarea electorală
+
+## I. Obiectul și finalitatea reglementării
+
+Prezenta propunere legislativă instituie posibilitatea acordării, de către consiliile locale și de către Consiliul General al Municipiului București, a unei bonificații fiscale suplimentare anuale de până la 5% persoanelor fizice care achită integral, până la data de 31 martie a fiecărui an, impozitul sau taxa pe clădiri, impozitul sau taxa pe teren și impozitul pe mijloacele de transport și care au realizat participarea electorală completă, în sensul legii. Sunt avute în vedere obligațiile anuale pentru care Codul fiscal permite bonificația pentru plata cu anticipație.
+
+Bonificația suplimentară urmează periodicitatea mecanismului fiscal deja consacrat al plății anticipate. Participarea este valorificată în fiecare an fiscal până la sfârșitul anului anterior celui în care produce efecte următorul scrutin valabil din aceeași categorie. Participarea la toate scrutinurile de referință constituie o condiție unică și indivizibilă; facilitatea nu se fracționează și nu se acordă proporțional cu numărul participărilor.
+
+Reglementarea urmărește trei finalități convergente: diminuarea, într-o limită prudentă, a sarcinii fiscale suportate de contribuabili; stimularea plății anticipate și a conformării fiscale voluntare, cu efect asupra predictibilității bugetelor locale; precum și încurajarea participării electorale constante, ca premisă a unei reprezentativități și legitimități democratice sporite.
+
+## II. Cadrul legislativ în vigoare și necesitatea intervenției
+
+Art. 462 alin. (2), art. 467 alin. (2) și art. 472 alin. (2) din Legea nr. 227/2015 privind Codul fiscal reglementează, pentru plata cu anticipație până la data de 31 martie, o bonificație de până la 10% inclusiv, stabilită prin hotărârea autorității deliberative locale, pentru impozitul sau taxa pe clădiri, impozitul sau taxa pe teren și impozitul pe mijloacele de transport. Legislația recunoaște astfel bonificația drept un instrument legitim de stimulare a încasării anticipate a veniturilor locale.
+
+Cadrul în vigoare nu reglementează o facilitate fiscală distinctă legată de participarea electorală și nici un temei legal complet pentru verificarea securizată, anuală și limitată la scop a acestei condiții prin intermediul Autorității Electorale Permanente. O asemenea măsură nu poate fi instituită prin practici locale neunitare, fiind necesare criterii naționale clare, garanții de egalitate, reguli de protecție a datelor și o procedură unică de verificare, contestare și reparare a erorilor.
+
+Intervenția propusă completează Codul fiscal și legea de organizare și funcționare a Autorității Electorale Permanente. Bonificația electorală este integrată expres în regimul bonificațiilor pentru plata anticipată, fără a fi confundată cu scutirile sau reducerile autonome reglementate de art. 489¹ din Codul fiscal.
+
+## III. Contextul fiscal și social
+
+Modificările fiscale adoptate în anul 2025 au influențat atât cheltuielile curente ale populației, cât și obligațiile fiscale locale. Legea nr. 141/2025 privind unele măsuri fiscal-bugetare a majorat cota standard a taxei pe valoarea adăugată de la 19% la 21%, începând cu 1 august 2025. Legea nr. 239/2025 a modificat cadrul impozitelor și taxelor locale aplicabil de la 1 ianuarie 2026. Aceste intervenții justifică examinarea unor facilități limitate, a căror acordare să poată fi adaptată resurselor fiecărei comunități.
+
+În acest context, bonificația suplimentară propusă oferă contribuabilului o modalitate concretă de diminuare a obligațiilor locale, condiționată de plata anticipată și de participarea electorală. Acordarea ei nu presupune un test suplimentar al veniturilor sau patrimoniului persoanei și se realizează în cadrul administrării impozitelor și taxelor locale.
+
+Bonificația propusă nu înlocuiește și nu diminuează bonificația generală pentru plata anticipată. Persoana care nu îndeplinește condiția electorală rămâne supusă regimului fiscal general și poate beneficia, în aceleași condiții ca orice alt contribuabil, de bonificația pentru plata până la 31 martie stabilită de autoritatea locală. Plafonul suplimentar de 5%, împreună cu plafonul cumulat de 15%, păstrează caracterul moderat al stimulentului și limitează impactul asupra bugetelor locale.
+
+## IV. Încurajarea participării electorale constante
+
+Constituția consacră suveranitatea națională, exercitată de popor prin organele sale reprezentative, constituite prin alegeri libere, periodice și corecte, precum și caracterul universal, egal, direct, secret și liber exprimat al votului. Legitimitatea juridică a alegerilor nu depinde de atingerea unui prag general de prezență. Participarea mai largă poate însă întări reprezentativitatea instituțiilor și implicarea cetățenilor în viața publică.
+
+Inițiativa urmărește încurajarea participării la toate categoriile principale de alegeri. Acestea au obiecte distincte și privesc autorități cu atribuții diferite, de la administrația locală până la reprezentarea parlamentară și europeană. Alegerea fiecărui cetășean de a participa rămâne liberă. Stimularea continuității participării urmărește o implicare civică pe durata întregului ciclu electoral, independent de susținerea unui anumit competitor.
+
+Din acest motiv, participarea la toate scrutinurile electorale de referință la care contribuabilul a avut drept de vot este configurată drept o condiție unică și indivizibilă. Facilitatea nu este calculată în funcție de numărul prezentărilor la urne. Ea valorifică participarea la ansamblul alegerilor relevante, potrivit unei reguli comune, cunoscute înainte de organizarea scrutinurilor luate în considerare.
+
+Mecanismul include alegerile locale generale, alegerile pentru Senat și Camera Deputaților, alegerile pentru Președintele României, cu luarea în considerare a fiecărui tur valabil, și alegerile pentru membrii din România în Parlamentul European. Referendumurile și alegerile locale parțiale nu intră în domeniul de aplicare, întrucât nu au aceeași periodicitate și ar genera situații neuniforme între contribuabili.
+
+## V. Integritatea procesului electoral
+
+Participarea la vot și integritatea operațiunilor electorale trebuie susținute împreună. Creșterea prezenței nu înlocuiește controlul instituțional, observarea alegerilor, trasabilitatea materialelor electorale, funcționarea Sistemului informatic de monitorizare a prezenței la vot și de prevenire a votului ilegal sau răspunderea pentru încălcarea legii. Propunerea legislativă urmărește participarea civică; efectul său asupra prevenirii fraudelor nu poate fi considerat, în lipsa unei evaluări, un rezultat demonstrat.
+
+Cazul comunei Ciorani, județul Prahova, ilustrează importanța protejării evidențelor și a probelor electorale. Potrivit înformațiilor publice referitoare la dosar, la 8 februarie 2021 au fost sustrase 4.308 buletine de vot dintr-un spațiu utilizat de Judecătoria Mizil. Buletinele constituiau mijloace materiale de probă în cercetările privind alegerile locale din anul 2020 și au fost ulterior distruse prin ardere.
+
+Condamnarea primarului comunei pentru instigare la sustragerea sau distrugerea de probe ori înscrisuri și instigare la violarea sediului profesional a rămas definitivă la 17 decembrie 2025 și a fost urmată de încetarea mandatului. Distinct, cauza privind falsificarea documentelor și evidențelor electorale s-a încheiat în mai 2026 prin încetarea procesului penal ca urmare a prescripției răspunderii penale. Cele două soluții trebuie diferențiate: condamnarea definitivă privește sustragerea și distrugerea probelor, iar în dosarul electoral încetarea procesului nu reprezintă o condamnare definitivă pentru faptele cercetate.
+
+Acest exemplu arată consecințele pe care vulnerabilitățile procesului electoral le pot avea asupra încrederii publice. Participarea civică, protejarea materialelor electorale și funcționarea instituțiilor competente au roluri complementare. Bonificația propusă nu poate preveni singură falsificarea documentelor sau distrugerea probelor și nu este prezentată drept un substitut al garanțiilor electorale existente.
+
+## VI. Mecanismul juridic propus și caracterul anual
+
+Pentru fiecare an fiscal sunt avute în vedere ultimele scrutinuri electorale valabile, organizeate după operaționalizarea serviciului electronic, din fiecare dintre cele patru categorii prevăzute de lege și ale căror rezultate finale au fost confirmate, validate sau aduse la cunoștință publică, după caz, de autoritatea competentă potrivit legislației electorale aplicabile, până la data de 31 decembrie a anului calendaristic anterior. În cazul alegerilor prezidențiale se ia în considerare fiecare tur valabil al ultimei alegeri. Scrutinurile anulate nu produc efecte, iar în cazul repetării este relevant numai scrutinul în urma căruia rezultatele finale au fost confirmate, validate sau aduse la cunoștință publică potrivit legii.
+
+Participarea la un scrutin electoral de referință produce efecte pentru acordarea bonificației începând cu anul fiscal următor celui în care rezultatele finale ale scrutinului au fost confirmate, validate sau aduse la cunoștință publică. Participarea se valorifică anual până la sfârșitul anului fiscal anterior celui începând cu care produce efecte următorul scrutin valabil din aceeași categorie. În acest mod, organizarea unui nou scrutin nu modifică retroactiv situația fiscală aferență anului în curs.
+
+Alegerile locale parțiale nu sunt luate în considerare, deoarece organizarea lor depinde de evenimente accidentale și ar supune contribuabilii din anumite localități unei condiții suplimentare față de cei din restul țării.
+
+Sunt recunoscute toate modalitățile legale de exercitare a dreptului de vot, inclusiv votul în secția de votare, prin intermediul urnei speciale și, în cazurile prevăzute de lege, prin corespondență. Participarea este recunoscută independent de valabilitatea votului individual exprimat, întrucât autoritatea publică nu poate condiționa facilitatea de conținutul opțiunii electorale și nici nu poate verifica sau prelucra valabilitatea buletinului individual. Timbrul autocolant ori ștampila aplicată pe actul de identitate nu constituie mijlocul principal de probă, întrucât documentul poate fi înlocuit, iar modalitățile tehnice diferă de la un scrutin la altul.
+
+Nu sunt considerate absențe scrutinurile la care persoana nu avea drept de vot din motive juridice obiective, precum vârsta, cetățenia sau statutul electoral, domiciliul ori reședința, apartenența la circumscripție sau interdicția exercitării drepturilor electorale. Dacă persoana nu a avut drept de vot la niciun scrutin de referință al anului fiscal, condiția se consideră îndeplinită pentru întregul an respectiv. Organizarea unui scrutin în cursul anului nu modifică eligibilitatea aferentă acelui an.
+
+În materia alegerilor pentru Parlamentul European, scrutinul pentru alegerea membrilor din România nu se include în setul de referință al persoanei care, la data scrutinului, era înscrisă în lista electorală a statului membru al Uniunii Europene în care își avea reședința și, ca urmare, trebuia radiată, potrivit legii, din copia listei utilizate pentru alegerea membrilor din România. Situația se verifică pe baza comunicărilor oficiale ale autorităților electorale competente. Comunicările primite ulterior sunt luate în considerare dacă atestă situația existență la data scrutinului. Soluția nu echivalează înscrierea în alt stat cu participarea efectivă, ci împiedică tratarea drept absentă de la scrutinul românesc a unei persoane care nu mai putea vota legal pentru membrii din România. Organului fiscal local nu îi sunt comunicate statul membru de reședință, înscrierea electorală ori radierea din lista utilizată în România.
+
+## VII. Procentul, autonomia locală și echilibrul bugetar
+
+Procentul maxim al bonificației suplimentare este de 5%. Autoritatea deliberativă locală poate stabili anual un procent inferior sau poate decide neacordarea facilității, în funcție de situația bugetară concretă. Bonificația suplimentară, cumulată cu cea pentru plata anticipată, nu poate depăși 15% din obligația fiscală anuală datorată.
+
+Decizia se adoptă prin hotărârea anuală privind impozitele și taxele locale pentru anul fiscal următor și este fundamentată printr-o analiză cost-beneficiu publică. Analiza cuprinde cel puțin estimarea bazei fiscale eligibile, a numărului de beneficiari, a impactului maxim asupra veniturilor proprii, a efectului preconizat asupra gradului de colectare, a volumului arieratelor și a costurilor de administrare și executare silită.
+
+Caracterul facultativ al deciziei locale respectă autonomia financiară a unităților administrativ-teritoriale și evită instituirea unei obligații de diminuare a veniturilor fără evaluarea capacității bugetare. Legea creează instrumentul și condițiile uniforme, iar autoritatea locală stabilește oportunitatea și procentul concret.
+
+Nu se poate prezuma că orice bonificație determină automat o creștere nominală a veniturilor. Măsura poate însă accelera încasarea, reduce arieratele și costurile executării silite și îmbunătăți predictibilitatea fluxului de numerar. Aceste efecte trebuie evaluate anual și transparent.
+
+## VIII. Considerente de constituționalitate
+
+Reglementarea este propusă prin raportare la principiile securității juridice, egalității în drepturi, accesului la justiție, protecției vieții private, libertății votului, justei așezări a sarcinilor fiscale și autonomiei locale. Justificarea facilității trebuie examinată în raport cu scopul său civic și fiscal, cu întinderea avantajului acordat și cu garanțiile prevăzute pentru contribuabili.
+
+În raport cu art. 16 din Constituție, inițiatorul apreciază că participarea electorală, verificată după reguli comune, poate constitui un criteriu obiectiv pentru acordarea unei facilități limitate. Aceleași condiții se aplică tuturor contribuabililor aflați în aceeași situație juridică din unitatea administrativ-teritorială. Scrutinurile la care persoana nu avea drept de vot sunt excluse, astfel încât o imposibilitate juridică de participare să nu fie tratată ca absență.
+
+Persoanele înscrise în listele electorale ale unui alt stat membru al Uniunii Europene se află într-o situație juridică diferită de cea a alegătorilor care au păstrat dreptul de a vota pentru membrii din România în Parlamentul European. Înscrierea oficială în statul membru de reședință și radierea corespunzătoare din copia listei utilizate în România împiedică exercitarea simultană a acestui drept în cele două state. Excluderea scrutinului românesc din setul de referință urmărește să țină seama de această împrejurare și nu echivalează înscrierea în alt stat cu participarea efectivă la vot.
+
+Art. 36 și art. 38 din Constituție, împreună cu art. 62 alin. (1) și art. 81 alin. (1), constituie reperele privind dreptul de vot și caracterul liber al alegerilor. Proiectul nu introduce obligația de a vota pentru un candidat sau o listă și nu condiționează facilitatea de o opțiune politică. Participarea este recunoscută și atunci când votul individual este nevalabil. Autoritățile fiscale nu primesc informații despre conținutul votului sau despre scrutinurile concrete la care contribuabilul a participat.
+
+Condiția participării complete este propusă pentru a susține continuitatea implicării civice. Neîndeplinirea ei poate produce efecte în mai multe exerciții fiscale, până la înlocuirea scrutinului relevant printr-un scrutin nou din aceeași categorie. Inițiatorul apreciază că întinderea acestui efect trebuie evaluată împreună cu plafonul de 5%, caracterul facultativ al acordării la nivel local, aplicarea exclusiv pentru viitor și păstrarea bonificației generale pentru plata anticipată. Lipsa participării nu atrage amendă sau majorarea obligației stabilite prin regimul fiscal general.
+
+În raport cu art. 56 alin. (2) din Constituție, facilitatea se integrează mecanismului fiscal al plății anticipate și se raportează procentual la obligația anuală datorată. Această formulă produce avantaje diferite în valoare absolută, potrivit obligațiilor fiscale ale beneficiarilor. Ea păstrează însă aceeași proporție pentru contribuabilii eligibili din localitate, în limita procentului stabilit de autoritatea deliberativă. Justificarea soluției se întemeiază pe legătura dintre plata anticipată, administrarea veniturilor locale și obiectivul civic al măsurii; plafonul și analiza de impact limitează întinderea facilității.
+
+Proiectul prevede contestarea rezultatului verificării la Autoritatea Electorală Permanentă și atacarea deciziei de soluționare în condițiile Legii contenciosului administrativ nr. 554/2004. Dacă o contestație sau corectarea unei erori confirmă eligibilitatea existență la termenul legal, iar cererea și plata au fost efectuate în termen, beneficiul se acordă prin compensare sau restituire, potrivit Codului de procedură fiscală. Rezultatul negativ este explicat separat contribuabilului și este verificat de personal autorizat înainte de comunicare. Contestația privind eligibilitatea electorală și contestația împotriva actului fiscal au obiecte distincte; corectarea rezultatului AEP determină reexaminarea actului fiscal în privința bonificației.
+
+## IX. Protecția datelor cu caracter personal și secretul votului
+
+Participarea la vot este distinctă de opțiunea electorală, dar informația poate permite inferențe privind conduita civică și trebuie protejată riguros. Prelucrarea se întemeiază direct pe lege, pentru îndeplinirea unei obligații legale și a unei sarcini de interes public, nu pe consimțământul contribuabilului.
+
+Rezultatul final comunicat de Autoritatea Electorală Permanentă organului fiscal local este exclusiv „eligibil” sau „neeligibil”. În cazul indisponibilității tehnice ori al necesității corectării evidențelor, poate fi comunicată temporar starea procedurală „verificare în curs”, care nu reprezintă un rezultat al verificării și nu echivalează cu neeligibilitatea. Răspunsul electronic cuprinde numai identificatorul cererii, anul fiscal, rezultatul verificării sau, după caz, starea procedurală comunicată, data emiterii, termenul de valabilitate și codul de verificare a autenticității. Nu sunt comunicate numărul, categoria, data ori locul scrutinurilor, secția de votare, ora prezentării, modalitatea concretă de vot, istoricul participării, opțiunea electorală sau valabilitatea votului exprimat.
+
+Operațiunile de consultare și transmitere sunt jurnalizate, iar organele fiscale locale nu au acces la datele electorale-sursă și nu constituie baze de date privind istoricul participării. Datele și rezultatele obținute nu pot fi folosite pentru profilare politică, campanie, sondaje, publicitate ori pentru alte scopuri decât cele expres prevăzute de lege. Autoritatea Electorală Permanentă efectuează evaluarea impactului asupra protecției datelor înainte de operaționalizarea serviciului. Consultarea autorității de supraveghere în procesul legislativ și, după caz, înainte de prelucrare se realizează în condițiile art. 36 din Regulamentul (UE) 2016/679. Pentru verificarea multianuală se păstrează un set distinct și minim de date privind dreptul de vot, participarea și excepțiile legale, pe durata efectelor fiscale ale scrutinului și timp de cinci ani calculați de la 1 iulie a anului următor ultimului an fiscal relevant. La expirarea termenului, datele se șterg sau se anonimizează irreversibil, cu păstrarea limitată a celor necesare unor proceduri în curs.
+
+## X. Implementarea administrativă
+
+Legea nr. 208/2015 reglementează Registrul electoral și Sistemul informatic de monitorizare a prezenței la vot și de prevenire a votului ilegal, administrate cu participarea Autorității Electorale Permanente și a Serviciului de Telecomunicații Speciale. Art. 103¹ prevede infrastructura informatică electorală, inclusiv stocarea duplicatelor bazelor de date generate de sistem, iar art. 120 reglementează aplicarea corespunzătoare a normelor comune pentru principalele categorii de alegeri. Aceste prevederi oferă o bază instituțională pentru dezvoltarea noului serviciu; ele nu înseamnă că verificarea fiscală multianuală este deja disponibilă.
+
+Proiectul instituie un serviciu electronic distinct, care utilizează datele-sursă numai în măsura necesară verificării. Procedura tehnică se stabilește prin hotărâre a Autorității Electorale Permanente, iar procedura fiscală și modelul analizei cost-beneficiu se aprobă prin ordin comun al ministrului finanțelor și al ministrului dezvoltării, lucrărilor publice și administrației. Implementarea presupune corelarea evidențelor, verificarea exactității datelor și respectarea duratei de păstrare necesare scopului legal.
+
+În cazul indisponibilității serviciului, cererea contribuabilului este înregistrată în termen și verificată ulterior, fără ca defecțiunea tehnică să producă neeligibilitate. Rezultatul poate fi contestat, iar o eroare confirmată este reparată prin compensare sau restituire potrivit Codului de procedură fiscală. Procentele bonificațiilor se însumează și se aplică aceleiași obligații anuale, după scutirile și reducerile legale. Dacă verificarea electorală nu este finalizată la data plății, contribuabilul achită suma diminuată numai cu bonificația generală, iar diferența rezultată după confirmarea eligibilității se compensează sau se restituie.
+
+## XI. Compatibilitatea cu dreptul Uniunii Europene
+
+Facilitatea se adresează persoanelor fizice și nu este condiționată de desfășurarea unei activități economice. Calitatea de persoană fizică nu exclude însă, prin ea însăși, incidența normelor europene privind ajutorul de stat. Pentru bunurile folosite în activități economice, aplicarea măsurii trebuie examinată potrivit acestor norme și, dacă este cazul, regulilor privind ajutorul de minimis. Această verificare este distinctă de stabilirea eligibilității electorale.
+
+Cetățenii altor state membre ai Uniunii Europene care au drept de vot în România la alegerile locale și la alegerile pentru membrii din România în Parlamentul European sunt evaluați numai în raport cu scrutinurile la care au avut drept de vot. Persoanele înregistrate pentru exercitarea dreptului de vot pentru Parlamentul European într-un alt stat membru nu sunt dezavantajate pentru imposibilitatea legală de a vota simultan pentru membrii din România.
+
+Prelucrarea datelor se realizează în conformitate cu Regulamentul (UE) 2016/679, în special cu principiile legalității, limitării scopului, minimizării datelor, exactității, limitării stocării, integrității și responsabilității.
+
+## XII. Impactul financiar și cerințele procedurale
+
+Proiectul poate genera două categorii de efecte financiare: costurile dezvoltării și funcționării serviciului electronic, suportate din bugetul de stat prin bugetele Autorității Electorale Permanente și Serviciului de Telecomunicații Speciale, și diminuarea voluntar asumată a veniturilor proprii ale unității administrativ-teritoriale care decide acordarea bonificației.
+
+Implicațiile bugetare necesită informarea Guvernului, în condițiile art. 111 alin. (1) din Constituție, și fundamentarea financiară prevăzută de Legea nr. 500/2002 privind finanțele publice și Legea responsabilității fiscal-bugetare nr. 69/2010. Inițiatorul solicită, prin președintele Senatului, informarea asupra implicațiilor bugetare și întocmirea și transmiterea fișei financiare. În procedura parlamentară se solicită avizele legale și punctul de vedere al Guvernului. Evaluarea trebuie să distingă costurile informatice inițiale, cheltuielile anuale de funcționare, costurile de administrare locală și diminuarea potențială a veniturilor locale.
+
+Caracterul facultativ al bonificației nu înlătură obligația fundamentării, dar permite fiecărei autorități locale să evite o diminuare incompatibilă cu situația sa financiară. Analiza cost-beneficiu și publicarea acesteia înaintea adoptării hotărârii asigură transparență și control democratic local.
+
+## XIII. Efectele preconizate
+
+Pe plan social, măsura permite diminuarea anuală a sarcinii fiscale pentru contribuabilii care îndeplinesc condițiile legale, în localitățile în care autoritatea deliberativă decide acordarea bonificației.
+
+Pe plan administrativ și bugetar, măsura poate crește gradul de conformare voluntară, poate reduce arieratele și costurile executării silite și poate oferi autorității locale o imagine mai clară asupra resurselor disponibile încă din primul trimestru al anului.
+
+Pe plan democratic, mecanismul introduce un stimulent pentru participarea la toate categoriile principale de alegeri, independent de opțiunea politică. Efectele asupra prezenței la vot și asupra continuității participării vor trebui evaluate după aplicarea măsurii.
+
+## XIV. Concluzii
+
+Prezenta propunere legislativă folosește un instrument fiscal deja consacrat - bonificația anuală pentru plata anticipată până la 31 martie - și îi adaugă o componentă civică limitată, facultativă la nivel local și securizată printr-o procedură centralizată de verificare.
+
+Facilitatea este acordată în funcție de participare și de plata anticipată, fără verificarea opțiunii politice a contribuabilului. Primăriile primesc rezultatul eligibilității, iar decizia de acordare și procentul concret rămân la autoritatea deliberativă locală. Costurile serviciului și efectele asupra veniturilor locale sunt supuse fundamentării financiare și evaluării prevăzute de lege.
+
+Pentru aceste considerente, supunem Parlamentului spre dezbatere și adoptare prezenta propunere legislativă, cu parcurgerea procedurilor de avizare, consultare și fundamentare financiară prevăzute de lege.
+
+## Repere normative și factuale avute în vedere
+
+Constituția României, republicată, cu precădere dispozițiile privind egalitatea în drepturi, drepturile electorale, justa așezare a sarcinilor fiscale, autonomia locală și fundamentarea cheltuielilor publice.
+
+Legea nr. 227/2015 privind Codul fiscal, cu modificările și completările ulterioare: art. 4, art. 462, art. 467, art. 472, art. 489¹ și celelalte dispoziții relevante ale titlului IX; Legea nr. 141/2025 privind unele măsuri fiscal-bugetare și Legea nr. 239/2025, pentru contextul modificărilor fiscale.
+
+Legea nr. 208/2015 privind alegerea Senatului și a Camerei Deputaților, precum și pentru organizarea și funcționarea Autorității Electorale Permanente: art. 29, art. 103, art. 103¹, art. 110 și art. 120.
+
+Legile electorale nr. 115/2015, nr. 370/2004, nr. 33/2007 și nr. 288/2015, cu modificările și completările ulterioare.
+
+Legea nr. 24/2000 privind tehnica legislativă; Legea nr. 500/2002 privind finanțele publice; Legea responsabilității fiscal-bugetare nr. 69/2010; Legea nr. 273/2006 privind finanțele publice locale; Legea nr. 554/2004 a contenciosului administrativ; Legea nr. 207/2015 privind Codul de procedură fiscală, în formele în vigoare.
+
+Regulamentul (UE) 2016/679: art. 5, 6, 9, 15, 16, 22, 35 și 36; Legea nr. 190/2018 privind măsurile de punere în aplicare a regulamentului.
+
+Pentru cazul Ciorani: AGERPRES, 31 decembrie 2025, privind condamnarea definitivă și încetarea mandatului; News.ro, 5 mai 2026, privind încetarea procesului penal pentru falsificarea documentelor și evidențelor electorale.
+
+Inițiator,
+
+Deputat Robert Alecu
+
+## TABELUL INIȚIATORILOR
+
+Propunerea legislativă pentru modificarea și completarea Legii nr. 227/2015 privind Codul fiscal și a Legii nr. 208/2015 privind alegerea Senatului și a Camerei Deputaților, precum și pentru organizarea și funcționarea Autorității Electorale Permanente, în vederea instituirii unei bonificații fiscale suplimentare anuale pentru participarea electorală
+
+| Nr.crt. | Nume și prenume | Calitatea | Grup / statut | Semnătura |
+| --- | --- | --- | --- | --- |
+| 1 | Robert Alecu | deputz | dezgi/112+ |  |
+| 2 |  |  |  |  |
+| 3 |  |  |  |  |
+| 4 |  |  |  |  |
+| 5 |  |  |  |  |
+| 6 |  |  |  |  |
+| 7 |  |  |  |  |
+| 8 |  |  |  |  |
+| 9 |  |  |  |  |
+| 10 |  |  |  |  |
+| 11 |  |  |  |  |
+| 12 |  |  |  |  |
+| 13 |  |  |  |  |
+| 14 |  |  |  |  |
+| 15 |  |  |  |  |
+| 16 |  |  |  |  |
+| 17 |  |  |  |  |
+| 18 |  |  |  |  |
+| 19 |  |  |  |  |
+| 20 |  |  |  |  |
+| 21 |  |  |  |  |
+| 22 |  |  |  |  |
+| 23 |  |  |  |  |
+
+# PARLAMENTUL ROMÂNIEI CAMERA DEPUTAȚILOR ROBERT ALECU – DEPUTAT Circumscripția electorală nr. 04 – Bacău
+
+București, 7 octombrie 2026
+
+Anexa nr. 2 la adresa de înaintare
+
+## Către președintele Senatului
+
+## Solicitare privind informarea Guvernului și fișa financiară
+
+În temeiul art. 111 alin. (1) și al art. 138 alin. (5) din Constituția României, republicată, al art. 92 alin. (6) din Regulamentul Senatului, republicat, precum și al art. 15 alin. (1) și (2) din Legea nr. 500/2002 privind finanțele publice, cu modificările și completările ulterioare, solicit transmiterea către Guvern a cererii de informare asupra implicațiilor bugetare și de întocmire și transmitere a fișei financiare pentru propunerea legislativă pentru modificarea și completarea Legii nr. 227/2015 privind Codul fiscal și a Legii nr. 208/2015 privind alegerea Senatului și a Camerei Deputaților, precum și pentru organizarea și funcționarea Autorității Electorale Permanente, în vederea instituirii unei bonificații fiscale suplimentare anuale pentru participarea electorală.
+
+Evaluarea solicitată va avea în vedere efectele asupra bugetului general consolidat pentru anul curent și următorii patru ani, potrivit legii, cu evidențierea distinctă a următoarelor elemente:
+
+a) costurile dezvoltării, integrării, securizării și operaționalizării serviciului electronic administrat de Autoritatea Electorală Permanentă, cu sprijinul Serviciului de Telecomunicații Speciale;
+
+b) cheltuielile anuale de funcționare, mentenanță și personal ale serviciului;
+
+c) costurile de administrare pentru autoritățile fiscale locale și diminuarea potențială a veniturilor locale, în condițiile caracterului facultativ al bonificației;
+
+d) sursele de finanțare și măsurile de acoperire a cheltuielilor suplimentare ori a diminuării veniturilor.
+
+La prezenta solicitare sunt anexate textul propunerii legislative și expunerea de motive, înaintate împreună cu adresa de depunere.
+
+Deputat Robert Alecu
+
+Circumscripția electorală nr. 04 – Bacău

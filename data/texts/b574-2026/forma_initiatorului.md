@@ -1,0 +1,35 @@
+SENATUL ROMÂNIEI
+
+LEGE
+
+# pentru completarea Legii nr.53/2003 – Codul muncii și a Ordonanței de urgență a Guvernului nr.57/2019 privind Codul administrativ
+
+Parlamentul României adoptă prezenta lege
+
+## Art. I. – Completarea Codului muncii
+
+După alineatul (2) al articolului 52 din Legea nr.53/2003 - Codul muncii, republicată în Monitorul Oficial al României, Partea I, nr.345 din 18 mai 2011, cu modificările și completările ulterioare, se introduc două noi alineate, alin.(2¹) și (2²), cu următorul cuprins:
+
+„(2¹) În situația în care salariatul a fost încadrat în muncă pe perioada suspendării contractului individual de muncă, despăgubirea acordată în condițiile alin.(2) se diminuează cu salariile și celelalte drepturi de natură salarială încasate pentru aceeași perioadă."
+
+„(2²) Despăgubirea acordată potrivit alin.(2), astfel cum a fost, după caz, diminuată în condițiile alin.(2¹), se actualizează exclusiv cu indicele prețurilor de consum comunicat de Institutul Național de Statistică la data plății.”
+
+## Art. II. – Completarea Codului administrativ
+
+După alineatul (4) al articolului 513 din Ordonanța de urgență a Guvernului nr. 57/2019 privind Codul administrativ, publicată în Monitorul Oficial al României, Partea I, nr.555 din 5 iulie 2019, cu modificările și completările ulterioare, se introduc două noi alineate, alin.(5) și (6), cu următorul cuprins:
+
+„(5) În situația în care funcționarul public a fost încadrat în muncă, pe perioada suspendării raportului de serviciu, la aceeași sau la o altă autoritate ori instituție publică, drepturile salariale aferente perioadei de suspendare, acordate în condițiile alin.(4), se diminuează cu salariile și celelalte drepturi de natură salarială încasate pentru aceeași perioadă.”
+
+„(6) Drepturile salariale aferente perioadei de suspendare, acordate în condițiile alin.(4), astfel cum au fost, după caz, diminuate potrivit alin.(5), se actualizează exclusiv cu indicele prețurilor de consum comunicat de Institutul Național de Statistică la data plății.”
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art.75 și ale art.76 alin.(1) din Constituția României, republicată
+
+PREȘEDINTE
+
+CAMERA DEPUTAȚILOR
+
+PREȘEDINTE SENATUL ROMÂNIEI
+
+GRINDEANU SORIN-MIHAI
+
+ABRUDEAN MIRCEA

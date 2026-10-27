@@ -1,0 +1,25 @@
+# Parlamentul României Senat
+
+# CABINET SECRETAR Senator Doina-Elena FEDEROVICI
+
+29.09.2026
+
+## Către, BIROUL PERMANENT AL SENATULUI
+
+Subsemnata, Doina-Elena Federovici, senator ales în Circumscripția electorală nr. 07, Botoșani, solicit să aprobați dobândirea calității de coinițiator al următoarelor propuneri legislative:
+
+\- Propunere legislativă pentru modificarea Legii nr.21/1991 a cetățeniei române (b509/2026);
+
+\- Propunere legislativă pentru completarea Legii nr.150/2004 privind siguranța alimentelor și a hranei pentru animale (b519/2026);
+
+\- Propunere legislativă pentru completarea alin.(1) al art.76 din Legea cooperației agricole nr.566/2004 (b521/2026);
+
+\- Propunere legislativă pentru modificarea și completarea Legii nr.217/2003 pentru prevenirea și combaterea violenței domestice și a Legii nr.26/2024 privind ordinul de protecție (b522/2026);
+
+\- Propunere legislativă pentru modificarea și abrogarea unor dispoziții din Legea nr.161/2003 privind unele măsuri pentru asigurarea transparenței în exercitarea demnităților publice, a funcțiilor publice și în mediul de afaceri, prevenirea și sancționarea corupției (b529/2026);
+
+\- Propunere legislativă privind cadrul național pentru protejarea și conservarea bisericilor de lemn (b535/2026);
+
+Vă mulțumesc.
+
+Senator Doina-Elena FEDEROVICI, Secretar al Senatului

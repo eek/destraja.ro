@@ -15,6 +15,7 @@ import BillPositions, { PositionsLink } from '@/components/bills/BillPositions';
 import { Container, ModelMeters, PartyTag, RiskChip, panel } from '@/components/ui';
 import { Flags } from '@/components/bills/Flags';
 import CiteBill from '@/components/bills/CiteBill';
+import DocumentText from '@/components/bills/DocumentText';
 import { citation } from '@/lib/export';
 
 interface PageProps {
@@ -363,9 +364,15 @@ export default async function BillDetailPage({ params }: PageProps) {
                       </a>
                     </div>
                     {doc.ocr && <p className="mt-1 text-xs text-muted">Text recunoscut automat din documentul scanat; pot exista mici greșeli. Sursa e PDF-ul oficial.</p>}
-                    <div className="mt-2 max-h-96 overflow-y-auto whitespace-pre-line rounded-xl bg-sunken p-4 text-[13px] leading-relaxed text-body">
-                      {doc.content}
-                    </div>
+                    {doc.markdown ? (
+                      <div className="mt-2 max-h-96 overflow-y-auto break-words rounded-xl bg-sunken p-4 text-[13px] leading-relaxed text-body">
+                        <DocumentText markdown={doc.markdown} />
+                      </div>
+                    ) : (
+                      <div className="mt-2 max-h-96 overflow-y-auto whitespace-pre-line break-words rounded-xl bg-sunken p-4 text-[13px] leading-relaxed text-body">
+                        {doc.content}
+                      </div>
+                    )}
                   </div>
                 ))}
               </div>

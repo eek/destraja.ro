@@ -1,0 +1,254 @@
+## EXPUNERE DE MOTIVE
+
+la Propunerea legislativă pentru modificarea și completarea Legii nr. 217/2003 pentru prevenirea și combaterea violenței domestice și a Legii nr. 26/2024 privind ordinul de protecție
+
+Secțiunea 1-a. Motivul emiterii actului normativ
+
+Legea nr. 217/2003 pentru prevenirea și combaterea violenței domestice, republicată, reglementează posibilitatea monitorizării electronice a agresorului atât prin ordinul de protecție provizoriu [art. 31 alin. (1) lit. d)], cât și prin ordinul de protecție [art. 38 alin. (1) lit. g)]. O reglementare simetrică este cuprinsă în Legea nr. 26/2024 privind ordinul de protecție. În ambele cazuri, dispunerea acestei măsuri este condiționată cumulativ de: (a) dispunerea prealabilă a obligației de distanță minimă și (b) exprimarea acordului persoanelor protejate de a purta un dispozitiv electronic de supraveghere. Această a doua condiție funcționează pe principiul opt-in: monitorizarea nu se dispune decât dacă victima își exprimă activ consimțământul.
+
+Practica a relevat că această abordare generează o lacună semnificativă. În numeroase cazuri, lipsa monitorizării electronice nu se datorează unui refuz deliberat sau informat al victimei. În fapt, mecanismul actual (opt-in) pune povara deciziei și a inițiativei pe umerii persoanei agresate, deși aceasta se află, de regulă, într-o stare de șoc, de teamă sau de vulnerabilitate extremă, ori nu cunoaște adecvat procedura legală.
+
+De altfel, Inspecția Judicară a reținut în Raportul privind modul de instrumentare a cauzelor având ca obiect ordinele de protecție prevăzute de Legea nr. 217/2003 pentru prevenirea și combaterea violenței domestice, aprobat prin Hotărârea Secției pentru judecători nr. 1998 din 18.09.2025, că apreciază necesar pentru prevenirea revictimizării și abuzurilor, să se analizeze oportunitatea unor modificări legislative privitoare la :
+
+\-posibilitatea judecătorului de a dispune din oficiu monitorizarea electronică obligatorie în anumite cazuri, considerând că în cele mai multe situații emiterea unui ordin de protecție fără monitorizare electronică este o protecție teoretică. Multe victime nu sunt suficient informate despre dispozitivul respectiv și nu își exprimă acordul. Ipoteze în care ar fi indicată dispunerea din oficiu a monitorizării electronice: atunci când a existat o încălcare anterioară a ordinului de protecție; agreșorul are antecedente penale de violență ; sunt implicați minori aflați în pericol, riscul a fost evaluat ca fiind ridicat sau extrem.
+
+\-legiferarea dreptului victimei de a solicita modificarea măsurilor/obligațiilor dispuse prin ordinul de protecție. Legea nr. 217/2003 nu prevede posibilitatea pentru persoana în favoarea căreia a fost emis ordinul de protecție de a solicita modificarea obligațiilor impuse prin aceasta deși în practica pot apărea situații în care victima are interesul de a solicita modificarea măsurilor.
+
+În contextul recrudescenței cazurilor de violență domestică cu deznodământ fatal, o pondere semnificativă a victimelor femicidului dețineau deja un titlu executoriu sub forma unui ordin de protecție. Totuși, lipsa monitorizării electronice în cazurile critice a permis agresorilor să încalce perimetrul de siguranță fără ca organele de poliție să fie sesizate automat, intervenția având loc, de cele mai multe ori, post-factum. În ipoteza în care agresorul ar fi purtat un dispozitiv de supraveghere, pătrunderea neautorizată în zona de excluziune ar fi generat o notificare automată și concomitentă către organele de poliție și către victimă, anulând astfel avantajul tactic al proximității neașteptate.
+
+Considerând că implementarea sistemului de monitorizare electronică asigură eliminarea caracterului imprevizibil al agresiunii prin mecanismul alertării timpurii, de natură să prevină o parte dintre actele de femicid, proiectul propune două modificări structurale, aplicate simetric celor două acte normative:
+
+1\. Inversarea logicii consimțământului (mecanismul de opt-in e înlocuit de mecanismul opt-out): monitorizarea electronică se dispune implicit atunci când sunt îndeplinite condițiile legale, iar victima are dreptul de a refuza expres purtarea dispozitivului. Victima poate exercita acest drept în orice moment pe durata de valabilitate a ordinului.
+
+2\. Obligația autorităților de a informa și de a lua declarație: organele de poliție (în cazul ordinului de protecție provizoriu) și instanța de judecată (în cazul ordinului de protecție) au obligația expresă de a informa victima cu privire la dreptul de a beneficia de monitorizare și avantajele monitorizării și de a consemna poziția acesteia. Această obligație procedurală elimină riscul ca lipsa monitorizării să fie rezultatul omisiunii autorităților, iar nu al deciziei victimei.
+
+Prin această abordare, protecția prin monitorizare electronică devine starea implicită, asigurându-se că nicio victimă nu rămâne expusă riscului doar pentru că autoritățile au omis să o informeze sau pentru că ea nu a cunoscut procedura legală. Se creează astfel o plasă de siguranță automată, care maximizează utilizarea tehnologiei de supraveghere deja existente și reduce drastic probabilitatea ca erorile umane sau administrative să conducă la tragedii care ar fi putut fi prevenite.
+
+## Secțiunea a 2-a. Impactul socioeconomic
+
+Principalul efect urmărit este preventiv: reducerea numărului de cazuri de femicid și de vătămare gravă comise împotriva unor victime care beneficiau deja de un ordin de protecție. Prin transformarea monitorizării electronice în regulă, iar nu în excepție condiționată de o solicitare activă, statul își asumă obligația de a asigura cel mai înalt grad de securitate disponibil în absența unui refuz expres al victimei.
+
+Proiectul produce un efect social suplimentar prin diminuarea poverii decizionale care apasă pe umerii victimei în momentul de maximă vulnerabilitate. Informarea obligatorie și consemnarea poziției persoanei protejate consolidează încrederea în mecanismele de protecție și răspund criticilor recurrente privind caracterul formal și pasiv al intervenției instituționale. De asemenea, prevederile referitoare la victimele minore — completarea
+
+La art. 42 și art. 44 se reglementează administrarea probelor privind istoricul de violență domestică și dreptul persoanelor protejate de a solicita, ulterior, obligarea agresorului la purtarea dispozitivului sau predarea către victimă a dispozitivului-pereche.
+
+La art. 49 se modifică și se completează regimul revocării și înlocuirii măsurilor, condiționând încetarea monitorizării de o evaluare a riscului de recidivă și instituind măsuri suplimentare în caz de încălcare a ordinului. Se introduce, de asemenea, o normă tranzitorie (art. 60) privind actualizarea, în termen de 60 de zile, a ordinului comun al ministrului afacerilor interne și al ministrului muncii și protecției sociale.
+
+Articolul II — modifică și completează, în mod simetric, Legea nr. 26/2024 privind ordinul de protecție:
+
+La art. 4 și art. 5 se introduc mențiunea privind informarea persoanelor protejate și se consacră mecanismul opt-out (dispunerea monitorizării în lipsa unui dezacord expres, cu soluția aplicabilă în caz de refuz). La art. 8 se completează documentele care însoțesc ordinul de protecție provizoriu. La art. 12 se transpune mecanismul opt-out la nivelul ordinului emis de instanță, cu obligația de informare și de consemnare a poziției. La art. 19 se reglementează dreptul persoanelor protejate de a solicita ulterior monitorizarea ori predarea dispozitivului-pereche. La art. 27 se introduce norma tranzitorie privind actualizarea, în termen de 60 de zile, a ordinului ministrului afacerilor interne de aplicare.
+
+Proiectul nu are efecte asupra altor acte normative în vigoare și nu intră în conflict cu dreptul Uniunii Europene; dimpotrivă, dă expresie obligațiilor de protecție decurgând din Convenția de la Istanbul și din Directiva (UE) 2024/1385. Reforma propusă se înscrie în standardele internaționale și europene asumate de România, care impun statelor măsuri eficace de evaluare a riscului și de protecție proactivă a victimelor violenței domestice.
+
+## Secțiunea a 5-a. Consultări. Fundamentarea științifică
+
+Proiectul valorifică experiența practică a organizațiilor specializate în asistarea victimelor violenței domestice și concluziile centralizărilor publice privind femicidul și aplicarea ordinelor de protecție în România. Fundamentarea reformei pornește de la constatarea, larg împărtășită de experți și de societatea civilă, că eșecul prevenției nu provine, în cele mai multe cazuri, dintr-o deficiență a cadrului normativ care prevede monitorizarea, ci din caracterul condiționat și pasiv al aplicării acesteia.
+
+## Secțiunea a 6-a. Concluzii
+
+Monitorizarea electronică a agresorului este, în prezent, un instrument valoros, dar subutilizat, din cauza unei arhitecturi a consimțământului care transferă victimei povara unei decizii pe care, de multe ori, nu este în măsură să o ia și care, frecvent, nici nu îi este prezentată. Trecerea de la opt-in la opt-out, dublată de obligația autorităților de a informa și de a consemna poziția victimei, transformă protecția într-o stare implicită, fără a suprima dreptul victimei de a refuza.
+
+formularului de evaluare a riscului în prezența reprezentantului legal sau, în caz de conflict de interese, a unui reprezentant al direcției de asistență socială și protecția copilului — întăresc protecția copiilor expuși violenței domestice.
+
+Nu sunt identificate efecte socioeconomice negative. Măsura nu restrânge drepturi ale victimei, ci extinde nivelul de protecție disponibil, păstrând neatins dreptul acesteia de a refuza.
+
+## Secțiunea a 3-a. Impactul financiar asupra bugetului general consolidat
+
+Proiectul nu instituie un sistem nou, ci extinde gradul de utilizare a sistemului de monitorizare electronică deja funcțional, în baza căruia, în perioada octombrie 2024 – octombrie 2025, au fost montate peste 5.000 de dispozitive. În consecință, infrastructura tehnică, procedurile operaționale și capacitatea instituțională există deja, iar costurile incrementale se limitează la achiziția și operarea unui număr suplimentar de dispozitive, pe măsură ce monitorizarea devine starea implicită.
+
+Eventualele costuri suplimentare urmează a fi acoperite din bugetele aprobate cu această destinație ale ordonatorilor principali de credite implicați. Aceste costuri sunt, în orice caz, neglijabile prin raportare la costurile umane, sociale și bugetare ale fiecărui caz de femicid sau de vătămare gravă care ar putea fi prevenit.
+
+## Secțiunea a 4-a. Efectele proiectului asupra legislației în vigoare
+
+Articolul I — modifică și completează Legea nr. 217/2003, republicată, după cum urmează:
+
+La art. 28 se introduc reguli privind completarea formularului de evaluare a riscului în cazul victimelor minore, în prezența reprezentantului legal sau, în situații de conflict de interese ori indisponibilitate a acestuia, a unui reprezentant al direcției de asistență socială și protecția copilului.
+
+La art. 30 și art. 31 se introduc, respectiv se modifică, prevederile care consacră mecanismul opt-out la nivelul ordinului de protecție provizoriu: mențiunea privind informarea persoanelor protejate, dispunerea monitorizării în lipsa unui dezacord expres exprimat în scris, precum și soluția aplicabilă în caz de refuz (montarea dispozitivului pe glezna agresorului și a dispozitivelor fixe).
+
+La art. 34 se completează lista documentelor care însoțesc ordinul de protecție provizoriu înaintat parchetului, inclusiv declarația persoanelor protejate, și se actualizează regimul verificărilor și al probelor.
+
+La art. 38 se transpune mecanismul opt-out la nivelul ordinului de protecție emis de instanță, cu obligația de informare într-un limbaj accesibil victimei și de consemnare a poziției exprese, precum și soluția aplicabilă în caz de refuz.
+
+În condițiile in care durata ordinului de protecție a crescut prin modificări legislative recente, pentru o mai bună adaptare a măsurilor si obligațiilor dispuse inițial la situația concretă ulterioară, se instituie mecanisme prin care să se poată trece la masuri care să răspundă mai bine nevoilor victimei și agresorului.
+
+Aceste masuri pot deveni mai restrictive daca este necesară o protecție suplimentară a victimei față de un comportament al agresorului care cuprinde noi acțiuni violente sau încălcări ale ordinului de protecție in alte moduri. Dimpotrivă, daca agresorul conștientizează ca acel tip de comportament, care a determinat emiterea ordinului de protecție, este ilegal si producător de suferințe pentru victimă, a apelat la ajutor psihologic și/sau medical, poate cere revocarea ordinului de protecție sau o monitorizare a ordinului mai puțin intruzivă.
+
+Pentru o reacție mult mai rapida în cazul încălcării de către agresor a obligațiilor impuse, legea conferă calitate procesuală pentru a solicita instanței adaptarea masurilor si obligațiilor impuse agresorului, în scopul unei protejări sporite a victimei, nu doar persoanei protejate, ci si organului de politie care a constatat încălcarea ordinului de protecție. In acest fel, in paralel cu dosarul penal referitor la infrațiunea de nerespectare a ordinului de protecție, care poate presupune durate de timp mari pana la pronunțarea unei hotărâri definitive, organul de politie, constatând comportamentul ilegal al agresorului, poate solicita instanței să instituie măsuri sau obligații suplimentare, dintre cele prevăzute la art. 38.
+
+De asemenea, față de faptul că prin Legea nr. 53/2026 privind femicidul s-a instituit obligația elaborării de instrumente specifice pentru evaluarea complexă a riscului de atac sever sau fatal, prezenta lege instituie obligativitatea evaluării riscului pe baza acestor instrumente in cazul cererilor de revocare a ordinului de protecție.
+
+Deputat PNL Alina Ștefania Gorçhiu
+
+Deputat PSD Silvia-Claudia Mihalcea
+
+Deputat UDMR Eva-Andrea Csep
+
+Senator/neafiliat Victoria Stoiciu
+
+Senator USR Ana-Cynthia- Ioana Păun
+
+<table>
+<tbody>
+<tr><td>Nr.crt.</td><td>Nume și prenume</td><td>Grupparlamentar</td><td rowspan="17">Semnătura</td></tr>
+<tr><td>1</td><td>AùNA GORGU</td><td>PHC</td></tr>
+<tr><td>2.</td><td>SILVIA MIHALCEA</td><td>PSD</td></tr>
+<tr><td>3</td><td>PACH CYNTHIA</td><td>USR</td></tr>
+<tr><td>4</td><td>VICTORIA STOICIU</td><td>neq fi iot</td></tr>
+<tr><td>5.</td><td>CSEP ELVA ANDREA</td><td>UDHR</td></tr>
+<tr><td>6</td><td>POLYANNA HANGAN</td><td>USR</td></tr>
+<tr><td>7</td><td>SEARLAT GEORBE</td><td>PNL</td></tr>
+<tr><td>8</td><td>Pandea Cyprian</td><td>PNL</td></tr>
+<tr><td>9.</td><td>Teolorui Andrei Jormiș</td><td>PNL</td></tr>
+<tr><td>10</td><td>CULEAFA MIHAI</td><td>PNL</td></tr>
+<tr><td>11.</td><td>MATEI ANEIA</td><td>ANC</td></tr>
+<tr><td>12.</td><td>Jepa Alezondru</td><td>P.N.2</td></tr>
+<tr><td>13.</td><td>BERESCU MONICA</td><td>USR</td></tr>
+<tr><td>14.</td><td>Chiffina Morela</td><td>PSA</td></tr>
+<tr><td>15.</td><td>Audiei Baou</td><td>PNL</td></tr>
+<tr><td>16.</td><td>Ruiu SOBASTIAN MIHAI</td><td>PNL</td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td>Nr. crt.</td><td>Nume și prenume</td><td>Grup parlamentar</td><td>Semnătura</td></tr>
+<tr><td>1.</td><td>ANISIE MONICA CRISTINA</td><td>PNL</td><td rowspan="2"></td></tr>
+<tr><td>2.</td><td>Niculbena CegarCap, Grilben</td><td>PNL</td></tr>
+<tr><td></td><td>r</td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td>Nr. crt.</td><td>Nume și prenume</td><td>Grup parlamentar</td><td>Semnătura</td></tr>
+<tr><td>1</td><td>MİHALCEA SILVA</td><td>PSA</td><td></td></tr>
+<tr><td>2</td><td></td><td></td><td></td></tr>
+<tr><td>3</td><td>Sandu L'orica</td><td>PSD</td><td></td></tr>
+<tr><td>4.</td><td>Cicau Joinita</td><td>PSD</td><td></td></tr>
+<tr><td>5.</td><td>Sutotro Matulua Aluna</td><td>PSD</td><td></td></tr>
+<tr><td>6.</td><td>TUSA DIAH</td><td>PSD</td><td></td></tr>
+<tr><td>7</td><td>CHIRILJ IRGIC ALIN</td><td>PSD</td><td></td></tr>
+<tr><td>8</td><td>HOCBAI GEOLGETA</td><td>PSD</td><td></td></tr>
+<tr><td>9</td><td>GAVLICEJCU GHAIEVA</td><td>PSD</td><td></td></tr>
+<tr><td>10.</td><td>Shigiu Alexandru Mihai</td><td>PSD</td><td></td></tr>
+<tr><td>11.</td><td>Adouwurči Mirela</td><td>PSD</td><td></td></tr>
+<tr><td>12</td><td>RIVDER ANA SHARAND</td><td>PSD</td><td></td></tr>
+<tr><td>13</td><td>MASSAR ROBICA</td><td>PSD</td><td></td></tr>
+<tr><td>14</td><td>Cofca furora Adela</td><td>PSD</td><td></td></tr>
+<tr><td>15</td><td>MANICAREU MIRELA</td><td>PSD</td><td></td></tr>
+<tr><td>16</td><td>SCOENIEN INICIP</td><td>PSA</td><td></td></tr>
+<tr><td>17</td><td>PEIA STEFANESCU ELIZA</td><td>PSD</td><td></td></tr>
+<tr><td>18</td><td>Matache Dana</td><td>PSA</td><td></td></tr>
+<tr><td>19</td><td>Bauer Ariana</td><td>PSD</td><td></td></tr>
+<tr><td>20</td><td>FURTUNA MIRELA</td><td>PSD</td><td></td></tr>
+<tr><td>21</td><td>CONSTANTIVESO SORGU</td><td>PSD</td><td></td></tr>
+<tr><td>22</td><td>MINA PROC CÂTÂLIN</td><td>PSD</td><td></td></tr>
+</tbody>
+</table>
+
+| Nr.crt. | Nume și prenume | Grupparlamentar |
+| --- | --- | --- |
+| 23 | LAFUȘAN LEMVS | PSD |
+| 24 | BORS MÂFUN | PSD |
+| 25 | DRINCEANU VLAD PRORZUPH | PSD |
+| 26 | MÎldece Reuees | PSD |
+| 27 | Jhurn - BNY JIMUN | PSD |
+| 28. | COFOCARU BOGDAN | PSD |
+| 29 | Popo Maricei | PSD |
+| 30 | MÎHALCEA 10 AM | PSD |
+| 31 | Angel Tilvar | PSD |
+| 32 | WEBER MITAI | PSD |
+| 33 | MÂRGARIT MARIUS | PSD |
+| 34 | BOGDOU CRUCO | PSD |
+| 35 | TOMOESU ALIN | PSD |
+| 36 | ISAC MARIUS | PSD |
+| 37 | ENE CORINA | PSD |
+| 38 | MİHUTI BOGDAN | PSD |
+| 39. | CIBRTEA RAFAVAN-JUÇINK | PSD |
+| 40 | SAMOILA ion | PSD |
+| 41. | PRICBOUTU VOUNES | PSD |
+| 42 | NEFTA EUGER | PSD |
+| 43 | BUSÂO MARIUS CONSANTIN | PSD |
+| 44 | MANTA CLAUDIN | PSD |
+| 45 | PUNGU LOMEO JONIEL | PSD |
+
+<table>
+<tbody>
+<tr><td>Nr. crt.</td><td>Nume și prenume</td><td>Grup parlamentar</td><td>Semnătura</td></tr>
+<tr><td>46</td><td>TODA CLU</td><td>PSU</td><td></td></tr>
+<tr><td>47</td><td>HAGIU AUGUSTIN FIOAN</td><td>PSI</td><td></td></tr>
+<tr><td>48.</td><td>AOUNEASCBII AMDREI</td><td>PSU</td><td></td></tr>
+<tr><td>49</td><td>VUSCAN NOICJ</td><td>PSD</td><td></td></tr>
+<tr><td>50</td><td>TRIF BOGDAN</td><td>PSD</td><td></td></tr>
+<tr><td>51</td><td>NECULAESCU LAURENTIU</td><td>PSJ</td><td></td></tr>
+<tr><td>1</td><td>NEGOI REMUS</td><td>USR</td><td rowspan="13"></td></tr>
+<tr><td>2</td><td>CRISTIAN GRIINIBA</td><td>USR</td></tr>
+<tr><td>3</td><td>DPEGOES OU CEZAR</td><td>USR</td></tr>
+<tr><td>4</td><td>CRISTIAN BRIAN</td><td>USR</td></tr>
+<tr><td>5</td><td>GIVRGIV ADRIAN</td><td>USR</td></tr>
+<tr><td>6</td><td>PAWU CADISINA</td><td>USE</td></tr>
+<tr><td>7</td><td>RIGMAN CIPRIANI</td><td>USR</td></tr>
+<tr><td>8</td><td>INLENER ADRIAN</td><td>USR</td></tr>
+<tr><td>9</td><td>STELIAN ION</td><td>USE</td></tr>
+<tr><td>10</td><td>GIMA GEORGE</td><td>USR</td></tr>
+<tr><td>11</td><td>CIBU SEACONU RUXANDRA</td><td>USR</td></tr>
+<tr><td>12</td><td>RUS VASILE-CIPRIAN</td><td>USR</td></tr>
+<tr><td>13</td><td>SIPOS SARIN-GHEZOLGH</td><td>USR</td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+TABEL CU INIȚIATORII PENTRU PROPUNEREA LEGISLATIVĂ –LEGE PENTRU MODIFICAREA ȘI COMPLETAREA LEGII NR. 217/2003 PENTRU PREVENIREA ȘI COMBATEREA VIOLENȚEI DOMESTICE ȘI A LEGII NR.26/2024 PRIVIND ORDINUL DE PROTECȚIE
+
+<table>
+<tbody>
+<tr><td>Nr. crt.</td><td>Nume și prenume</td><td>Grup parlamentar</td><td>Semnătura</td></tr>
+<tr><td></td><td>ZHORAN EKU BRIGITA EUA</td><td>UDNR</td><td rowspan="9"></td></tr>
+<tr><td></td><td>BIRO BOZALIA BOLYA</td><td>UDHR</td></tr>
+<tr><td></td><td>MOLNAR ANDROI</td><td>UDMR</td></tr>
+<tr><td></td><td>NIAGY SABOLOS</td><td>UDMR</td></tr>
+<tr><td></td><td>KHANTOR BOGLARNA</td><td>UDMR</td></tr>
+<tr><td></td><td>Joua Botoud</td><td>UDMR</td></tr>
+<tr><td></td><td>Lacahuji Lainlo - 2018</td><td>UDMR</td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td>1.</td><td>KONOR ATOTA</td><td>UJMP</td><td></td></tr>
+<tr><td>2.</td><td>CsdaStar Kaloby ZoH</td><td>RDOR/RM32</td><td></td></tr>
+<tr><td>3.</td><td>Tavodi iArin AlInd</td><td>RHS8/UDM</td><td></td></tr>
+<tr><td>4.</td><td>Kovoke Diote</td><td>RUDST</td><td></td></tr>
+</tbody>
+</table>

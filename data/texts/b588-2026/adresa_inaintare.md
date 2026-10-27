@@ -1,0 +1,17 @@
+Biroul permanent al Senatului Bp.588, 121.10.2026
+
+# PARLAMENTUL ROMÂNIEI SENAT
+
+Către,
+
+Biroul permanent al Senatului
+
+În temeiul prevederilor art. 74 alin. (1) și 75 alin. (1) din Constituția României, republicată și ale art. 92 și 93 din Regulamentul Senatului, republicat, vă înaintăm spre dezbatere și adoptare propunerea legislativă – “LEGE pentru abrogarea art. 35 lit. e) din Legea apărării naționale a României nr. 45/1994, precum și pentru modificarea și completarea Legii nr. 446/2006 privind pregătirea populației pentru apărare”.
+
+În baza prevederilor art. 138 alin. (5) din Constituția României, art. 15 alin. (2) din Legea nr. 500/2002 privind finanțele publice, cu modificările și completările ulterioare, și ale art. 15 alin. (1) lit. a) din Legea responsabilității fiscal-bugetare nr. 69/2010, republicată, cu modificările și completările ulterioare, vă rugăm să solicitați Guvernului fișa financiară.
+
+De asemenea, în temeiul prevederilor art. 76 alin. (3) din Constituția României și art. 113 din Regulamentul Senatului, solicităm aplicarea procedurii de urgență pentru dezbaterea și adoptarea acestei propuneri legislative.
+
+În numele initiatorilor,
+
+Senator Nicoleta Pauliuc

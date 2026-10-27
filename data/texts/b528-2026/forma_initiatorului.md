@@ -1,0 +1,51 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENAT
+
+# LEGE pentru completarea Legii nr. 227/2015 privind Codul fiscal Parlamentul României adoptă prezenta lege.
+
+Art. I. — Legea nr. 227/2015 privind Codul fiscal, publicată în Monitorul Oficial al României, Partea I, nr. 688 din 10 septembrie 2015, cu modificările și completările ulterioare, se completează după cum urmează:
+
+1\. La articolul 292 alineatul (1), după litera f) se introduce o nouă literă, litera f¹), cu următorul cuprins:
+
+„f¹) prestările de servicii educaționale destinate dezvoltării competențelor digitale și a competențelor în domeniile științei, tehnologiei, ingineriei și matematicii (STEM), prestate persoanelor care nu au împlinit vârsta de 16 ani, în cadrul programelor educaționale înscrise în Registrul național al furnizorilor și programelor educaționale pentru competențe digitale și STEM, de către furnizori înscriși în același registru;”
+
+Art. II. — (1) În vederea aplicării art. 292 alin. (1) lit. f¹) din Legea nr. 227/2015 privind Codul fiscal, se înființează, la nivelul Ministerului Educației și Cercetării, Registrul național al furnizorilor și programelor educaționale pentru competențe digitale și STEM, denumit în continuare Registrul.
+
+(2) Înscrierea furnizorului și a programului educațional în Registru reprezintă, exclusiv în scopul aplicării scutirii prevăzute la art. 292 alin. (1) lit. f¹) din Legea nr. 227/2015, recunoașterea furnizorului, pentru programul respectiv, ca organizație cu scop educațional similar organismelor de drept public, în sensul art. 132 alin. (1) lit. (i) din Directiva 2006/112/CE a Consiliului din 28 noiembrie 2006 privind sistemul comun al taxei pe valoarea adăugată.
+
+(3) Înscrierea în Registru se realizează dacă sunt îndeplinite cumulativ următoarele condiții:
+
+a) furnizorul este constituit și funcționează legal și poate presta serviciile educaționale respective pe teritoriul României, potrivit legii;
+
+b) programul are un scop educațional determinat, obiective de învățare, conținut, durată și structură pedagogică definite și urmărește dezvoltarea competențelor digitale ori a competențelor în domeniile științei, tehnologiei, ingineriei și matematicii;
+
+c) programul presupune interacțiune pedagogică directă între formator și beneficiar, desfășurată fizic sau online în timp real;
+
+d) programul nu are caracter preponderent recreativ și nu constă exclusiv în punerea la dispoziție a unor materiale, aplicații sau conținuturi preînregistrate, fără suport pedagogic în timp real;
+
+e) furnizorul utilizează pentru desfășurarea programului persoane care dețin pregătire, calificare ori experiență profesională relevante pentru domeniul educațional sau tehnic în care este furnizat programul;
+
+f) furnizorul asigură evidența distinctă a programelor înscrise și a veniturilor aferente serviciilor pentru care se aplică scutirea.
+
+(4) Scutirea prevăzută la art. 292 alin. (1) lit. f¹) din Legea nr. 227/2015 se aplică exclusiv serviciilor prestate în cadrul programelor înscrise în Registru și numai în beneficiul
+
+persoanelor care nu au împlinit vârsta de 16 ani. Celelalte servicii prestate de același furnizor sunt supuse regimului fiscal aplicabil potrivit Codului fiscal.
+
+(5) Înscrierea în Registru produce efecte exclusiv în scopul prevăzut la alin. (2) și nu conferă furnizorului calitatea de unitate sau instituție de învățământ autorizată ori acreditată și nu echivalează cu autorizarea sau acreditarea prevăzută de legislația învățământului.
+
+(6) Registrul este public, în format electronic, și cuprinde cel puțin datele de identificare ale furnizorului, denumirea programelor eligibile, perioada pentru care este valabilă înscrierea și situația înscrierii, respectiv activă, suspendată sau radiată.
+
+(7) Neîndeplinirea condițiilor prevăzute la alin. (3) atrage suspendarea sau, după caz, radierea furnizorului ori a programului din Registru, în condițiile procedurii prevăzute la art. III alin. (1).
+
+Art. III. — (1) În termen de 90 de zile de la data publicării prezentei legi, procedura de organizare și funcționare a Registrului, de înscriere și actualizare a datelor, de verificare a îndeplinirii condițiilor prevăzute la art. II alin. (3), precum și de suspendare și radiere se aprobă prin ordin comun al ministrului educației și cercetării și al ministrului finanțelor.
+
+(2) Registrul devine operațional cu cel puțin 30 de zile înainte de data intrării în vigoare a art. I.
+
+(3) În termen de 120 de zile de la data publicării prezentei legi, Guvernul, la propunerea Ministerului Finanțelor, pune în concordanță Normele metodologice de aplicare a Legii nr. 227/2015 privind Codul fiscal, aprobate prin Hotărârea Guvernului nr. 1/2016, cu dispozițiile prezentei legi.
+
+Art. IV. — (1) Dispozițiile art. II și III intră în vigoare la 3 zile de la data publicării prezentei legi în Monitorul Oficial al României, Partea I.
+
+(2) Dispozițiile art. I intră în vigoare la împlinirea unui termen de 6 luni de la data publicării prezentei legi în Monitorul Oficial al României, Partea I.

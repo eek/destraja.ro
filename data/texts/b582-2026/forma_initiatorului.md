@@ -1,0 +1,23 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENATUL
+
+LEGE pentru modificarea art. 6 din Legea nr. 202/1998 privind organizarea Monitorului Oficial al României.
+
+Parlamentul României adoptă prezenta lege
+
+Articol unic. Legea nr. 202/1998 privind organizarea Monitorului Oficial al României republicată în Monitorul Oficial, Partea I nr. 511 din 03 iulie 2017, se modifică după cum urmează:
+
+1\. La articolul 6, litera E. se abrogă.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76, alin. (2) din Constituția României, republicată.
+
+Președintele Camerei Deputaților
+
+Președintele Senatului
+
+Sorin - Mihai GRINDEANU
+
+Mircea ABRUDEAN

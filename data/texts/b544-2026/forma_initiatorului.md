@@ -1,0 +1,147 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENATUL
+
+## LEGE
+
+pentru modificarea și completarea Legii nr. 143/2000 privind prevenirea și combaterea traficului și consumului ilicit de droguri, precum și pentru modificarea art. 271 din Legea nr. 86/2006 privind Codul vamal al României
+
+Parlamentul României adoptă prezenta lege.
+
+Art. I Legea nr. 143/2000 privind prevenirea și combaterea traficului și consumului ilicit de droguri, republicată în Monitorul Oficial al României, Partea I, nr. 163 din 6 martie 2014, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 3, după alineatul (2) se introduc două noi alineate, alin. (3) și (4), cu următorul cuprins:
+
+„(3) Introducerea sau scoaterea din țară, precum și importul ori exportul de droguri de risc, fără drept, în vederea consumului propriu, constituie contravenție și se sancționează cu amendă de la 1.500 lei la 2.000 lei.
+
+(4) Dacă faptele prevăzute la alin. (3) privesc droguri de mare risc, amenda este de la 2.000 lei la 3.500 lei."
+
+2\. Articolul 4 se modifică și va avea următorul cuprins:
+
+„Art. 4. -
+
+(1) Cultivarea, producerea, fabricarea, experimentarea, extragerea, prepararea, transformarea, cumpărarea sau deținerea de droguri de risc pentru consum propriu, fără drept, constituie contravenție și se sancționează cu amendă de la 1.000 lei la 1.500 lei.
+
+(2) Dacă faptele prevăzute la alin. (1) privesc droguri de mare risc, amenda este de la 1.500 lei la 3.000 lei."
+
+3\. Articolul 5 se modifică și va avea următorul cuprins:
+
+„Art 5.-
+
+(1) Punerea la dispoziție, cu știință, cu orice titlu, a unei locuințe sau a unui local ori a oricărui alt loc amenajat, în care are acces publicul, pentru consumul ilicit de droguri ori tolerarea consumului ilicit în asemenea locuri se pedepsește cu închisoare de la 2 la 7 ani și interzicerea unor drepturi.
+
+(2) Nu constituie infracțiunea prevăzută la alin. (1) punerea la dispoziție a unor spații special amenajate în cadrul unităților sanitare, precum și tolerarea consumului în aceste spații, dacă sunt îndeplinite cumulativ următoarele condiții:
+
+a) spațiile sunt autorizate de direcțiile de sănătate publică județene, respectiv a municipiului București, pentru desfășurarea activităților de prevenire a supradozelor și de reducere a riscurilor asociate consumului de droguri prin supravegherea consumului; b) beneficiarii sunt persoane care au împlinit vârsta de 18 ani și care au calitatea de consumator dependent, în sensul art. 1 lit. i) din Legea nr. 143/2000, atestată printr-un diagnostic de dependență stabilit de un medic de specialitate; consumul se realizează exclusiv prin autoadministrarea substanțelor deținute de acestea pentru consum propriu; c) supravegherea este asigurată de medici sau asistenți medicali cu drept de exercitare a profesiei, instruiți pentru intervenția în caz de supradoză, prezenți pe întreaga durată a utilizării spațiilor de către beneficiari, cu asigurarea mijloacelor necesare intervenției medicale de urgență;
+
+d) substanțele destinate autoadministrării nu sunt procurate ori furnizate beneficiarilor de către unitatea sanitară în cadrul căreia funcționează spațiul ori de către personalul acesteia.
+
+(3) Deținerea de droguri pentru consum propriu de către beneficiarii prevăzuți la alin. (2) lit. b), în incinta spațiilor autorizate potrivit alin. (2) lit. a), nu constituie contravenție.
+
+(4) Procedura de autorizare a spațiilor prevăzute la alin. (2), normele tehnice de amenajare și dotare, cerințele de instruire a personalului și protocoalele de supraveghere, intervenție în caz de supradoză și îndrumare către servicii de tratament și de asistență psihologică și socială se aprobă prin ordin al ministrului sănătății.”
+
+## 4. Articolul 9 se modifică și va avea următorul cuprins:
+
+„Art. 9. – Finanțarea săvârșirii faptelor prevăzute la art. 2, art. 3 alin. (1) și(2) și art. 5 se sancționează cu pedepsele prevăzute de lege pentru aceste fapte, limitele speciale ale acestora majorându-se cu o treime.”
+
+5\. La articolul 12, alineatul (1) se modifică și va avea următorul cuprins:
+
+"(1) Tentativa la infracțiunile prevăzute la art. 2, art. 3 alin. (1) și (2), art. 6 alin. (2)-(3), art. 7 și 9 se pedepsește."
+
+6\. La articolul 13, alineatul (1), litera d) se modifică și va avea următorul cuprins:
+
+„d) folosirea minorilor în săvârșirea faptelor prevăzute la art. 2, art. 3 alin. (1) și (2), art. 5-10.”
+
+7\. La articolul 13, după alineatul (2) se introduce un nou alineat, alin. (3), cu următorul cuprins:
+
+„(3) În cazul contravențiilor prevăzute la art. 3 alin. (3) și (4) și la art. 4, săvârșite în vreuna dintre împrejurările prevăzute la alin. (1) lit. a) sau b) ori în locurile prevăzute la alin. (1) lit. c), limita maximă a amenzii prevăzute de lege se majorează la dublu.”
+
+## 8. Articolul 14 se modifică și va avea următorul cuprins:
+
+„Art. 14. – Nu se pedepsește persoana care a comis una dintre infracțiunile prevăzute la art. 2, art. 3 alin. (1) și(2), art. 5–9 și care, mai înainte de a fi începută urmărirea penală, denunță autorităților participarea sa la comiterea infracțiunii, contribuind astfel la identificarea și tragerea la răspundere penală a autorului sau a celorlalți participanți.”
+
+## 9. Articolul 15 se modifică și va avea următorul cuprins:
+
+„Art. 15. – Persoana care a comis una dintre infracțiunile prevăzute la art. 2, art. 3 alin. (1) și(2), art. 5–9, iar în timpul urmăririi penale denunță și facilitează identificarea și tragerea la răspundere penală a altor persoane care au săvârșit infracțiuni legate de droguri beneficiază de reducerea la jumătate a limitelor pedepsei prevăzute de lege.”
+
+## 10. La articolul 16, alineatul (1) se modifică și va avea următorul cuprins:
+
+"(1) Drogurile și alte bunuri care au făcut obiectul infracțiunilor prevăzute la art. 2, art. 3 alin. (1) și (2), art. 5–9 se confiscă, iar dacă acestea nu se găsesc, condamnatul este obligat la plata echivalentului lor în bani."
+
+## 11. La articolul 17, după alineatul (4) se introduce un nou alineat, alin. (5), cu următorul cuprins:
+
+„(5) Dispozițiile alin. (1) la (4) se aplică în mod corespunzător drogurilor confiscate în cazul contravențiilor prevăzute la art. 3 alin. (3) și (4) și la art. 4, după ce procesul-verbal de constatare a contravenției sau, după caz, hotărârea judecătorească a devenit titlu executoriu. În acest caz, în comisia prevăzută la alin. (3), judecătorul delegat cu executarea este înlocuit de conducătorul formațiunii specializate care a dispus confiscarea sau de un reprezentant desemnat de acesta, iar un exemplar al procesului-verbal de distrugere se păstrează la această formațiune.”
+
+## 12. Articolul 18 se modifică și va avea următorul cuprins:
+
+„Art. 18. - În cazul în care un consumator este condamnat la pedeapsa închisorii pentru săvârșirea unei infracțiuni prevăzute de prezenta lege, instanța poate dispune includerea acestuia într-un program terapeutic derulat în sistemul penitenciar.”
+
+## 13. Articolul 19 se modifică și va avea următorul cuprins:
+
+„Art. 19. - (1) În cazul săvârșirii contravențiilor prevăzute la art. 3 alin. (3) și (4) și la art. 4, organul competent să aplice sancțiunea poate dispune, prin actul de aplicare a sancțiunii, evaluarea consumatorului de către centrele de sănătate mintală, pentru prevenirea și tratarea adicțiilor, organizate potrivit Ordonanței de urgență a Guvernului nr. 147/2024 privind înființarea, organizarea și funcționarea Agenției Naționale pentru Politici și Coordonare în Domeniul Drogurilor și al Adicțiilor, a centrelor de sănătate mintală și pentru prevenirea adicțiilor, precum și pentru modificarea unor acte normative, cu modificările și completările ulterioare, în scopul includerii acestuia în circuitul integrat de asistență a persoanelor consumatoare de droguri.
+
+(2) În cazul consumatorilor minori, dispunerea evaluării prevăzute la alin. (1) este obligatorie. Evaluarea minorului se realizează cu înștiințarea și în prezența părinților sau, după caz, a reprezentantului legal, care au obligația de a asigura prezentarea minorului la centrul de sănătate mintală, pentru prevenirea și tratarea adicțiilor.
+
+(3) Evaluarea consumatorului se realizează cu consimțământul acestuia. În cazul minorului, consimțământul se exprimă de părinți sau, după caz, de reprezentantul legal, împreună cu minorul care a împlinit vârsta de 14 ani.
+
+(4) În funcție de concluziile raportului de evaluare, în termen de 5 zile de la primirea acestuia, organul competent să aplice sancțiunea dispune, cu acordul scris al consumatorului, exprimat potrivit alin. (3), includerea acestuia în programul integrat de asistență a persoanelor consumatoare de droguri. Dacă consumatorul face dovada că este deja inclus într-un program, raportul de evaluare se transmite centrului sau unității medicale care îi acordă asistență, în vederea reevaluării programului individual.
+
+(5) Dacă părinții sau reprezentantul legal nu asigură, în mod nejustificat, prezentarea minorului la evaluare ori dacă din raportul de evaluare sau din împrejurările faptei rezultă că minorul se află într-o situație de risc, organul competenț să aplice sancțiunea sesizează de îndată serviciul public de asistență socială sau, după caz, direcția generală de asistență socială și protecția copilului, care procedează potrivit Legii nr. 272/2004 privind protecția și promovarea drepturilor copilului, republicată, cu modificările și completările ulterioare."
+
+## 14. Articolul 20 se abrogă.
+
+15\. După articolul 21 se introduce un nou articol, art. 21¹, cu următorul cuprins:
+
+„Art. 21¹. - (1) Contravențiile prevăzute la art. 3 alin. (3) și (4) și la art. 4 se constată de către polițiștii din cadrul Poliției Române, polițiștii de frontieră, polițiștii de penitenciare, jandarmi și personalul vamal, în exercitarea atribuțiilor de serviciu.
+
+(2) Agentul constatator ridică drogurile care fac obiectul contravenției, le descrie în procesul-verbal de constatare și le predă, împreună cu procesul-verbal, de îndată, formațiunii specializate prevăzute la alin. (3).
+
+(3) Sancțiunea se aplică, potrivit art. 21 alin. (2) din Ordonanța Guvernului nr. 2/2001 privind regimul juridic al contravențiilor, aprobată cu modificări și completări prin Legea nr. 180/2002, cu modificările și completările ulterioare, de către ofițerii și agenții de poliție din cadrul formațiunilor specializate în prevenirea și combaterea traficului și consumului ilicit de droguri ale Poliției Române, pe baza materialului probator administrat. Dacă din materialul probator rezultă că fapta a fost săvârșită în astfel de condiții încât constituie infracțiune, se procedează potrivit art. 30 alin. (1) din Ordonanța Guvernului nr. 2/2001.
+
+(4) Natura substanței se stabilește prin raport de analiză întocmit de laboratoarele specializate ale Poliției Române sau de un alt laborator acreditat potrivit legii.
+
+(5) Drogurile care fac obiectul contravenției se confiscă prin actul de aplicare a sancțiunii și se distrug potrivit art. 17.
+
+(6) Aplicarea sancțiunii se prescrie în termen de un an de la data săvârșirii faptei.
+
+(7) Contravențiilor prevăzute la art. 3 alin. (3) și (4) și la art. 4 le sunt aplicabile dispozițiile Ordonanței Guvernului nr. 2/2001, aprobată cu modificări și completări prin Legea nr. 180/2002, cu modificările și completările ulterioare."
+
+16\. La articolul 23, după alineatul (7) se introduce un nou alineat, alin. (8), cu următorul cuprins:
+
+"(8) Sumele provenite din aplicarea amenzilor prevăzute la art. 3 alin. (3) și (4) și la art. 4 se fac venit la bugetul de stat și se folosesc pentru finanțarea programelor naționale de prevenire și asistență medicală, psihologică și socială a consumatorilor de droguri și a programelor de interes național de prevenire și asistență medicală, psihologică și socială a consumatorilor de droguri."
+
+Art. II. – La articolul 271 din Legea nr. 86/2006 privind Codul vamal al României, publicată în Monitorul Oficial al României, Partea I, nr. 350 din 19 aprilie 2006, cu modificările și completările ulterioare, după alineatul (3) se introduce un nou alineat, alin. (4), cu următorul cuprins:
+
+„(4) Dispozițiile alin. (1) nu se aplică faptelor prevăzute la art. 3 alin. (3) și (4) din Legea nr. 143/2000 privind prevenirea și combaterea traficului și consumului ilicit de droguri, republicată, cu modificările și completările ulterioare.”
+
+## Art. III. -
+
+(1) Prezenta lege intră în vigoare la 30 de zile de la data publicării în Monitorul Oficial al României, Partea I.
+
+(2) Faptelor prevăzute la art. 3 alin. (3) și (4) și la art. 4 din Legea nr. 143/2000, republicată, cu modificările și completările ulterioare, precum și cu cele aduse prin prezenta lege, săvârșite anterior intrării în vigoare a prezentei legi, li se aplică dispozițiile art. 4 din Codul penal. Acestor fapte nu li se aplică sancțiunile contravenționale prevăzute de prezenta lege, dispozițiile art. 30 alin. (2) din Ordonanța Guvernului nr. 2/2001, aprobată cu modificări și completări prin Legea nr. 180/2002, cu modificările și completările ulterioare, nefiind aplicabile.
+
+(3) Măsurile preventive, măsurile asigurătorii și măsurile de siguranță, cu excepția confiscării speciale a drogurilor, dispuse exclusiv pentru faptele prevăzute la alin. (2), încetează de drept la data intrării în vigoare a prezentei legi. Persoanele reținute, arestate preventiv sau aflate în arest la domiciliu exclusiv pentru aceste fapte sunt puse de îndată în libertate.
+
+(4) Drogurile ridicate în cauzele având ca obiect faptele prevăzute la alin. (2) se confiscă, indiferent de soluția dispusă, și se distrug potrivit art. 17 din Legea nr. 143/2000, republicată, cu modificările și completările ulterioare. Confiscarea drogurilor dispusă prin hotărâri rămase definitive anterior intrării în vigoare a prezentei legi rămâne în ființă.
+
+(5) Pentru persoanele aflate în executarea unei pedepse sau a unei măsuri educative aplicate pentru faptele prevăzute la alin. (2), instanța competentă potrivit art. 595 alin. (2) din Codul de procedură penală se sesizează din oficiu în termen de 30 de zile de la data intrării în vigoare a prezentei legi. Administrația locului de deținere, serviciul de probațiune și, după caz, procurorul comunică instanței, în același termen, situațiile de care au cunoștință.
+
+(6) Persoanele condamnate pentru faptele prevăzute la alin. (2) se scot din evidența cazierului judiciar din oficiu, în condițiile art. 15 alin. (1) lit. a) din Legea nr. 290/2004 privind cazierul judiciar, republicată, cu modificările și completările ulterioare, pe baza comunicării instanței sau, după caz, la cererea persoanei.
+
+(7) În termen de 60 de zile de la data publicării prezentei legi, Guvernul actualizează Regulamentul de aplicare a dispozițiilor Legii nr. 143/2000, aprobat prin Hotărârea Guvernului nr. 860/2005, cu modificările și completările ulterioare.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.
+
+PREȘEDINTELE
+
+CAMEREI DEPUTAȚILOR
+
+SORIN MIHAI GRINDEANU
+
+PREȘEDINTELE
+
+SENATULUI
+
+MIRCEA ABRUDEAN

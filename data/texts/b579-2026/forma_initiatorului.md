@@ -1,0 +1,105 @@
+# PARLAMENTUL ROMÂNIEI
+
+# CAMERA DEPUTAȚILOR
+
+SENATUL
+
+# PROIECT DE LEGE
+
+# pentru sprijinirea cetățenilor în vederea construirii primei locuințe prin garantarea accesului gratuit și rapid la utilitățile esențiale
+
+În temeiul art. 1 alin. (3) și (5) și art. 69 din Constituția României, Parlamentul României adoptă prezenta lege:
+
+## CAPITOLUL I – Dispoziții generale
+
+## Art. 1 – Scopul legii
+
+Prezenta lege are ca scop sprijinirea cetățenilor români care doresc să își construiască prima locuință, prin garantarea furnizării gratuite și în termen optim a utilităților esențiale, de către autoritățile administrației publice locale.
+
+## Art. 2 – Definiții
+
+În sensul prezentei legi, termenii de mai jos se definesc astfel:
+
+a) Prima locuință – imobilul construit de o persoană fizică în scopul de a fi utilizat ca reședință principală;
+
+b) Beneficiar – orice cetățean român care construiește prima locuință pe un teren intravilan și care nu deține, la momentul solicitării, o altă locuință în proprietate;
+
+c) Utilități esențiale – serviciile de apă potabilă, canalizare, energie electrică, gaze naturale (dacă există rețea în localitate) și acces la internet fix.
+
+## CAPITOLUL II – Obligațiile autorităților locale
+
+## Art. 3 – Asigurarea gratuită a racordării la utilități
+
+(1) Autoritățile administrației publice locale, prin primării sau consilii locale, au obligația de a asigura, în mod gratuit, racordarea beneficiarilor la toate utilitățile esențiale.
+
+(2) Obligația prevăzută la alin. (1) se aplică exclusiv construcțiilor situate pe terenuri intravilane.
+
+## Art. 4 – Termenul de execuție
+
+(1) Racordarea la utilitățile esențiale se realizează în termen de maximum 90 de zile calendaristice de la data eliberării autorizației de construire.
+
+(2) În cazul depășirii acestui termen, autoritatea locală are obligația de a achita beneficiarului o despăgubire lunară în cuantum de 500 euro, echivalent în lei, până la finalizarea lucrărilor.
+
+## Art. 5 – Finanțarea programului
+
+(1) Finanțarea implementării prezentei legi se realizează din următoarele surse:
+
+a) bugetele locale ale unităților administrativ-teritoriale;
+
+b) fonduri guvernamentale alocate prin Ministerul Dezvoltării, Lucrărilor Publice și Administrației;
+
+c) fonduri europene destinate dezvoltării infrastructurii;
+
+d) parteneriate public-private cu operatorii de utilități.
+
+(2) Autoritățile locale pot solicita sprijin financiar din Fondul Național pentru Dezvoltarea Infrastructurii de Locuire, înființat și administrat de Guvern.
+
+## CAPITOLUL III – Condiții de eligibilitate și obligațiile beneficiarilor Art. 6 – Eligibilitatea beneficiarilor
+
+(1) Pot beneficia de prevederile prezentei legi persoanele fizice care îndeplinesc cumulativ următoarele condiții:
+
+a) nu au deținut anterior o locuință în proprietate;
+
+b) construiesc o locuință pe un teren intravilan;
+
+c) se angajează să utilizeze locuința ca reședință principală pentru o perioadă de minimum 10 ani.
+
+(2) Nerespectarea obligației prevăzute la alin. (1) lit. c) atrage obligația beneficiarului de a rambursa integral contravaloarea serviciilor de racordare acordate gratuit.
+
+## Art. 7 – Prevenirea speculației imobiliare
+
+(1) Locuințele construite în baza acestei legi nu pot fi înstrăinate (vândute, donate sau închiriate) în primii 10 ani de la finalizarea lucrărilor.
+
+(2) Prin excepție, înstrăinarea este permisă în cazuri de forță majoră, precum decesul beneficiarului sau incapacitatea permanentă a acestuia de a locui în respectivul imobil.
+
+## CAPITOLUL IV – Sancțiuni
+
+## Art. 8 – Răspunderea autorităților locale
+
+(1) Nerespectarea termenului prevăzut la art. 4 alin. (1) atrage aplicarea unei penalități în cuantum de 1.000 lei pentru fiecare zi de întârziere, achitată din bugetul local.
+
+(2) Primarul, precum și persoanele cu responsabilități tehnice în cadrul proiectului, pot fi trași la răspundere disciplinară, contravențională sau, după caz, penală, în condițiile legii.
+
+## CAPITOLUL V – Dispoziții finale
+
+## Art. 9 – Intrarea în vigoare
+
+Prezenta lege intră în vigoare la 6 luni de la data publicării în Monitorul Oficial al României, Partea I.
+
+## Art. 10 - Norme metodologice
+
+În termen de 90 de zile de la data intrării în vigoare, Guvernul României, prin Ministerul Dezvoltării, va elabora și aproba normele metodologice de aplicare a prezentei legi.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 alin. (1) și ale art. 76 alin. (2) din Constituția României, republicată.
+
+Președintele Camerei Deputaților,
+
+GRINDEANU Sorin-Mihai
+
+Președintele Senatului,
+
+ABRUDEAN Mircea
+
+Inițiator:
+
+Deputat CSILLAG Andrei

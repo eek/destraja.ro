@@ -1,0 +1,177 @@
+# PARLAMENTUL ROMÂNIEI
+
+## EXPUNERE DE MOTIVE
+
+la Propunerea legislativă pentru completarea Legii nr. 448/2006 privind protecția și promovarea drepturilor persoanelor cu handicap
+
+## I. Necesitatea intervenției legislative
+
+Prezenta inițiativă legislativă urmărește să răspundă unei situații insuficient reglementate în actualul sistem de protecție socială: situația persoanelor adulte cu handicap grav, permanent și ireversibil, determinat de o afectțiune congenitală sau dobândită înainte de împlinirea vârstei de 18 ani, care, din cauza afectării funcționale grave, se află în imposibilitatea totală și permanentă de a desfășura o activitate profesională în condiții obișnuite de muncă. Măsura îi vizează inclusiv pe cei care, din cauza unei afectțiuni congenitale, nu au avut niciodată această capacitate.
+
+Legislația în vigoare asigură prestații sociale persoanelor cu handicap și recunoaște anumite facilități în sistemul public de pensii persoanelor care au realizat stagii contributive în condiții de handicap.
+
+Există însă o categorie distinctă de persoane pentru care participarea la sistemul contributiv nu a reprezentat niciodată, în mod obiectiv, o posibilitate reală.
+
+Este cazul, cu titlu de exemplu, al persoanelor cu afecțiuni congenitale severe, tetrapareze grave, boli neuromusculare degenerative, afecțiuni genetice sau neurologice severe ori al persoanelor care au dobândit în copilărie afecțiuni sau vătămări care au determinat imposibilitatea totală și permanentă de a desfășura o activitate profesională în condiții obișnuite de muncă.
+
+Pentru aceste persoane, simpla raportare la mecanismele contributive nu poate răspunde integral necesității de protecție socială.
+
+## II. Raportarea la sistemul public de pensii
+
+Legea nr. 360/2023 privind sistemul public de pensii consacră principiul contributivității, potrivit căruia drepturile de asigurări sociale se acordă în temeiul contribuțiilor de asigurări sociale plătite.
+
+În același timp, legislația pensiilor recunoaște o serie de facilități persoanelor care au realizat stagii de cotizare în condiții de handicap.
+
+Prezenta inițiativă nu urmărește modificarea principiului contributivității și nu transformă o prestație de asistență socială într-un drept de pensie.
+
+Tocmai pentru protejarea coerenței juridice a sistemului de pensii, soluția propusă constă în instituirea unei prestații sociale distincte, finanțate de la bugetul de stat și reglementate prin Legea nr. 448/2006.
+
+## III. Necesitatea unui tratament juridic distinct
+
+Persoana care, din cauza unei afecțiuni congenitale sau dobândite în copilărie, nu a avut niciodată ori nu mai are capacitatea obiectivă de a desfășura o activitate profesională nu se află în aceeași situație juridică și factuală cu:
+
+a) persoana aptă de muncă;
+
+b) persoana care a participat o perioadă semnificativă la sistemul contributiv și ulterior și-a pierdut capacitatea de muncă;
+
+c) persoana cu handicap care, în pofida dizabilității, poate desfășura o activitate profesională.
+
+Diferența obiectivă dintre aceste situații justifică instituirea unei măsuri distincte de protecție socială.
+
+Mecanismul propus nu condiționează dreptul de absența absolută a oricărei contribuții anterioare. O asemenea condiție ar putea conduce la situații profund inechitabile, în care o persoană care a încercat să lucreze pentru o perioadă scurtă de timp ar fi dezavantajată față de o persoană care nu a realizat niciodată un stagiu contributiv.
+
+Din acest motiv, proiectul are în vedere imposibilitatea dobândirii unui drept propriu adecvat în sistemul public de pensii, iar nu simpla inexistență a oricărei perioade contributive.
+
+## IV. Temeiul constituțional
+
+Potrivit art. 47 din Constituția României, statul este obligat să ia măsuri de dezvoltare economică și de protecție socială de natură să asigure cetățenilor un nivel de trai decent.
+
+Art. 50 din Constituție consacră în mod expres dreptul persoanelor cu handicap la protecție specială și obligă statul să asigure realizarea unei politici naționale de egalitate a șanselor, prevenire și tratament al handicapului, în vederea participării effective a persoanelor cu handicap la viața comunității.
+
+Totodată, art. 16 alin. (1) din Constituție consacră principiul egalității în drepturi. Egalitatea juridică nu presupune aplicarea mecanică a unui tratament identic unor situații fundamental diferite, ci permite și impune, după caz, reglementarea diferențiată a unor situații obiectiv distincte.
+
+Prezenta propunere legislativă instituie un asemenea mecanism de protecție diferențiată și proporțională.
+
+## V. Raportarea la jurisprudența Curții Constituționale
+
+Curtea Constituțională a subliniat caracterul contributiv al pensiei de invaliditate și distincția dintre drepturile de asigurări sociale și măsurile de asistență socială.
+
+Prezenta inițiativă legislativă respectă această distincție. Indemnizația specială propusă:
+
+\- nu este calificată drept pensie;
+
+\- nu este suportată din bugetul asigurărilor sociale de stat;
+
+\- nu generează stagiu contributiv;
+
+\- nu modifică modul de calcul al pensiilor;
+
+\- nu afectează principiul contributivității;
+
+\- este suportată integral de la bugetul de stat, în cadrul sistemului de protecție socială a persoanelor cu handicap.
+
+Soluția legislativă urmărește, așadar, completarea sistemului de protecție socială, iar nu modificarea naturii juridice a sistemului public de pensii.
+
+## VI. Stabilirea beneficiarilor
+
+Beneficiarii măsurii sunt persoanele adulte cu handicap grav, permanent și irreversibil, determinat de o afecțiune congenitală ori de o afecțiune, boală sau vătămare dobândită anterior împlinirii vârstei de 18 ani, care, ca urmare a afectării funcționale grave, se află în imposibilitatea totală și permanentă de a desfășura o activitate profesională în condiții obișnuite de muncă.
+
+Noțiunea de imposibilitate acoperă atât persoanele care și-au pierdut această capacitate, cât și persoanele care, din cauza unei afecțiuni congenitale, nu au avut-o niciodată.
+
+Dreptul este reglementat prin noul art. 58⁴ din Legea nr. 448/2006 și se stabilește pe baza certificatului de încadrare în grad de handicap și a documentelor de evaluare medicală și complexă întocmite potrivit legii.
+
+Pentru persoanele care dețin deja certificat de handicap grav cu termen de valabilitate permanent este instituit principiul evitării reevaluărilor medicale repetitive și inutile, exclusiv în vederea menținerii dreptului.
+
+## VII. Cuantumul prestației și evitarea dublei compensări
+
+Nivelul indemnizației este raportat la indemnizația socială pentru pensionari, un indicator deja consacrat în legislația națională pentru asigurarea unui prag minim de protecție.
+
+Se propune un cuantum reprezentând 125% din nivelul indemnizației sociale pentru pensionari, stabilit potrivit Ordonanței de urgență a Guvernului nr. 6/2009 privind instituirea indemnizației sociale pentru pensionari, aprobată prin Legea nr. 196/2009, cu modificările și completările ulterioare.
+
+În cazul persoanei care nu beneficiază de pensie proprie, indemnizația se acordă integral. În cazul persoanei care dobândește sau beneficiază de o pensie proprie, indemnizația specială se acordă numai sub forma diferenței dintre nivelul de 125% și cuantumul cumulat al pensiei proprii și al indemnizației sociale pentru pensionari deja acordate în temeiul Ordonanței de urgență a Guvernului nr. 6/2009.
+
+Această modalitate de calcul ia în considerare sprijinul social deja plătit, evită dubla compensare și asigură, în același timp, că persoana care a realizat un stagiu contributiv redus nu ajunge într-o situație mai nefavorabilă decât persoana care nu a putut contribui deloc.
+
+Raportarea la un indicator stabilit prin lege prezintă avantajul actualizării nivelului de protecție fără necesitatea modificării periodice a Legii nr. 448/2006.
+
+## VIII. Menținerea prestațiilor specifice handicapului
+
+Indemnizația specială instituită prin prezenta lege are o finalitate diferită de indemnizația lunară, bugetul personal complementar, dreptul la asistent personal sau indemnizația acordată în locul acestuia.
+
+Aceste drepturi sunt destinate compensării costurilor și limitărilor generate de handicap și de nevoia de sprijin în viața de zi cu zi. Din acest motiv, proiectul prevede expres cumularea lor cu noua indemnizație specială.
+
+## IX. Debirocratizarea procedurii
+
+Proiectul instituie obligația autorităților de a utiliza schimbul de date pentru verificarea existenței și cuantumului pensiei proprii, a indemnizației sociale pentru pensionari, a încadrării în grad de handicap și a celorlalte informații deținute deja de instituțiile publice.
+
+Persoanele cu handicap grav și familiile acestora nu trebuie transformate în curieri între instituțiile statului. În cazul în care o informație există deja într-o bază de date publică și poate fi obținută legal prin schimb de date, autoritatea competentă nu o va solicita din nou beneficiarului.
+
+Prin derogare expresă de la art. 57 alin. (5) din Legea nr. 448/2006, dreptul la indemnizația specială se stabilește începând cu luna următoare celei în care a fost depusă cererea împreună cu documentele necesare. Derogarea este justificată de faptul că noul drept presupune verificarea unor condiții suplimentare față de simpla încadrare în grad de handicap.
+
+Normele metodologice vor fi actualizate în termen de 90 de zile și vor reglementa inclusiv procedura simplificată aplicabilă persoanelor care dețin certificat de handicap grav cu termen de valabilitate permanent și mecanismul de schimb de date dintre instituțiile competente.
+
+## X. Impactul financiar și sursa de finanțare
+
+Măsura se finanțează integral de la bugetul de stat, prin bugetul Ministerului Muncii, Familiei, Tineretului și Solidarității Sociale, și nu din bugetul asigurărilor sociale de stat.
+
+Sumele necesare aplicării legii se asigură de la bugetul de stat, prin bugetul Ministerului Muncii, Familiei, Tineretului și Solidarității Sociale, și se evidențiază distinct în legile bugetare anuale.
+
+Pentru persoanele care beneficiază de pensie proprie, impactul bugetar este limitat la diferența dintre nivelul indemnizației speciale și cuantumul cumulat al pensiei proprii și al indemnizației sociale pentru pensionari deja acordate, ceea ce evită finanțarea de două ori a aceluiași prag minim de protecție.
+
+Pentru determinarea exactă a impactului financiar este necesară identificarea, prin intermediul Autorității Naționale pentru Protecția Drepturilor Persoanelor cu Dizabilități, Agenției Naționale pentru Plăți și Inspecție Socială și Casei Naționale de Pensii Publice, a numărului persoanelor care îndeplinesc cumulativ condițiile prevăzute de lege.
+
+Impactul bugetar va fi fundamentat pe baza datelor oficiale comunicate de instituțiile competente, cu respectarea art. 138 alin. (5) din Constituția României și a legislației privind finanțele publice.
+
+## XI. Impactul social
+
+Inițiativa urmărește protejarea unei categorii clar delimitate și extrem de vulnerabile, pentru care imposibilitatea de a participa la piața muncii nu reprezintă o alegere, ci consecința directă a unei dizabilități grave, permanente și irreversibile.
+
+Statul nu poate transforma imposibilitatea obiectivă de a contribui la un sistem de asigurări sociale într-un motiv pentru lipsa unei protecț ii adecvate la vârsta adultă.
+
+Scopul prezentei legi este de a asigura un nivel suplimentar de protecț ie socială persoanelor pentru care munca și i constituirea unui stagiu contributiv nu au reprezentat niciodată ori nu mai reprezintă, în mod obiectiv, o posibilitate reală.
+
+Față de cele prezentate, supunem Parlamentului României, spre dezbatere și i adoptare, prezenta propunere legislativă.
+
+Iniț iatori:
+
+Simu Aurora Tasica
+
+ALBU ΔUMÍTAITA
+
+CSILLAC ANDREY
+
+Tabel cu Susținătorii
+
+propunerii legislative privind modificarea și completarea Legii nr. 448/2006 privind protecția și promovarea drepturilor persoanelor cu handicap
+
+<table>
+<tbody>
+<tr><td>Nr.crt</td><td>Nume și prenume</td><td>Grup Parlamentar</td><td>Semnătura</td></tr>
+<tr><td>1</td><td>Pacijan Shearghe Petre</td><td>Independent</td><td rowspan="7"></td></tr>
+<tr><td>2</td><td>Geovia Caiin Fizorin</td><td>PSD</td></tr>
+<tr><td>3.</td><td>Nânpô Mauiua</td><td>UPR</td></tr>
+<tr><td>4</td><td>Aundeusoi wedha</td><td>PSD</td></tr>
+<tr><td>5</td><td>BAS BA MA MDAEFA</td><td>S.D.S.Ro</td></tr>
+<tr><td>6</td><td>PORUMBOI4 GABRIEM</td><td>UPR</td></tr>
+<tr><td>7</td><td>KroncsisSebostion</td><td>POT</td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>

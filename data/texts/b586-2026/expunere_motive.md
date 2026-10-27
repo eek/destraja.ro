@@ -1,0 +1,150 @@
+# PARLAMENTUL ROMÂNIEI
+
+EXPUNERE DE MOTIVE
+
+la Propunerea legislativă pentru modificarea și completarea Legii nr. 448/2006 privind protecția și promovarea drepturilor persoanelor cu handicap, precum și pentru modificarea și completarea Legii nr. 76/2002 privind sistemul asigurărilor pentru șomaj și stimularea ocupării forței de muncă
+
+## I. Necesitatea intervenției legislative
+
+Prezenta inițiativă legislativă pornește de la necesitatea trecerii de la un model predominant centrat pe protecție și prestații sociale la un model care păstrează integral protecția socială, dar o completează cu instrumente concrete pentru autonomie, educație, formare profesională, integrare și menținere în muncă, precum și acces la tehnologiile moderne.
+
+Persoanele cu dizabilități se confruntă în continuare cu bariere care nu țin numai de starea de sănătate sau de gradul de handicap, ci și de lipsa accesibilității, dificultatea tranziției de la sistemul de protecție a copilului la cel pentru adulți, accesul redus la formare adaptată, lipsa serviciilor individualizate la locul de muncă și costurile pe care adaptarea rezonabilă le poate presupune pentru angajator.
+
+În același timp, transformarea digitală și dezvoltarea accelerată a instrumentelor de inteligență artificială creează oportunități noi. Pentru numeroase activități profesionale, tehnologia poate reduce barierele de mobilitate, comunicare, vedere, auz sau organizare a muncii și poate permite desfășurarea unor activități care anterior necesitau adaptări dificil de realizat.
+
+Inițiativa urmărește, în consecință, ca tehnologia să devină un instrument concret de incluziune, iar politica publică să fie evaluată nu numai prin numărul de prestații sau cursuri finanțate, ci prin rezultatul final: persoane care dobândesc autonomie, intră pe piața muncii și rămân în activitate.
+
+## II. Problemele identificate
+
+## 1. Tranziția insuficient coordonată de la copil la adult
+
+Împlinirea vârstei de 18 ani determină trecerea între două mecanisme administrative distincte de evaluare și protecție. Atunci când procedurile nu sunt pregătite din timp, beneficiarul și familia pot fi obligați să reia demersuri administrative într-un moment deja dificil, iar întârzierile administrative pot afecta continuitatea drepturilor și serviciilor.
+
+Proiectul introduce termene clare de informare și transmitere a documentelor, desemnarea unui manager de caz, posibilitatea începerii evaluării înainte de majorat și o perioadă limitată de continuitate provizorie a efectelor certificatului pentru copil atunci când întârzierea nu este imputabilă persoanei.
+
+## 2. Lipsa serviciilor de tranziție către viața adultă
+
+Sprijinul pentru tinerii cu dizabilități nu trebuie să înceapă abia după împlinirea vârstei de 18 ani. Pregătirea pentru continuarea studiilor, viață independentă și integrare profesională trebuie începută înainte de majorat și continuată suficient după acesta. Din acest motiv, proiectul instituie servicii de tranziție pentru grupa de vârstă 16-26 de ani, în comunitate, fără condiționarea de rezidență într-un centru.
+
+## 3. Acces limitat la competențe digitale și tehnologii asistive
+
+Oferta generală de formare profesională nu este întotdeauna accesibilă persoanelor cu dizabilități, iar platformele, materialele și evaluările pot crea bariere suplimentare. Proiectul instituie un program național cu minimum 3.000 de locuri anual, cu obligația accesibilizării cursurilor și posibilitatea finanțării tehnologiilor asistive necesare participării.
+
+## 4. Distanța dintre angajare și integrarea efectivă în muncă
+
+Angajarea formală nu garantează integrarea profesională. Unele persoane au nevoie, temporar sau permanent, de sprijin pentru învățarea sarcinilor, comunicare, orientare, organizarea activității sau folosirea tehnologiilor asistive. Introducerea serviciilor individualizate de angajare asistată și sprijin specializat la locul de muncă urmărește reducerea abandonului și creșterea stabilității raporturilor de muncă.
+
+## 5. Costurile adaptării locului de muncă și necesitatea stimulării retenției
+
+Pentru anumite locuri de muncă, integrarea reală presupune costuri suplimentare: echipamente asistive, software accesibil, mobilier adaptat, mijloace speciale de comunicare sau alte ajustări individualizate. Proiectul permite finanțarea a până la 90% din aceste cheltuieli, în limita a 30 de indicatori sociali de referință, cu aprobarea prealabilă a cheltuielilor și cu reguli privind recuperarea sumelor și interzicerea dublei finanțări.
+
+În plus, sistemele de stimulare existente sunt orientate în principal către momentul angajării. Proiectul adaugă o componentă de retenție, prin bonusul de stabilitate acordat după minimum 24 de luni, astfel încât politica publică să recompenseze nu doar intrarea formală în muncă, ci menținerea sustenabilă în activitate.
+
+## III. Principalele soluții legislative propuse
+
+1\. Introducerea, între principiile Legii nr. 448/2006, a valorificării potențialului individual și profesional prin educație, muncă, tehnologii asistive și instrumente digitale accesibile.
+
+2\. Crearea serviciilor de tranziție către viața adultă pentru tinerii cu handicap între 16 și 26 de ani.
+
+3\. Instituirea Programului național pentru competențe digitale, tehnologii asistive și inteligență artificială accesibilă, cu minimum 3.000 de locuri de formare anual.
+
+4\. Reglementarea serviciilor individualizate de angajare asistată și sprijin specializat la locul de muncă.
+
+5\. Finanțarea de până la 90% a costurilor eligibile pentru adaptarea rezonabilă a locului de muncă, în limita a 30 de indicatori sociali de referință, cu aprobarea cheltuielilor înainte de efectuarea lor.
+
+6\. Introducerea unui bonus de stabilitate pentru angajatorii care mențin în muncă persoane cu handicap grav sau accentuat minimum 24 de luni.
+
+7\. Introducerea, în Legea nr. 76/2002, a unui supliment temporar pentru angajarea pe durată nedeterminată a persoanelor cu handicap grav sau accentuat care prezintă nevoi individuale de sprijin, precum și reglementarea expresă a cumulului cu subvenția existentă.
+
+8\. Crearea Programului Național pentru Incluziune prin Muncă și Tehnologie și corelarea fundamentării bugetului acestuia cu nivelul sumelor colectate de la angajatorii care nu îndeplinesc obligațiile prevăzute la art. 78 din Legea nr. 448/2006.
+
+9\. Crearea, prin noul art. 86², a unui mecanism administrativ de tranziție copil-adult, cu informare anticipată, transfer de documente, manager de caz și continuitatea provizorie a drepturilor atunci când întârzierea nu este imputabilă beneficiarului.
+
+10\. Introducerea unei obligații anuale de raportare către Parlament a rezultatelor măsurilor, inclusiv menținerea în muncă la 6, 12 și 24 de luni și costul public mediu per persoană integrată profesional.
+
+## IV. Stimulentele pentru angajatori și mecanismele anti-abuz
+
+Proiectul păstrează caracterul stimulativ al intervenției legislative, dar evită suprapunerea necontrolată a facilităților. Legea nr. 76/2002 reglementează deja subvenții pentru angajatorii care încadrează în muncă persoane cu handicap. Noua intervenție este construită complementar, pentru situațiile în care gradul de handicap și evaluarea individuală indică nevoi suplimentare de sprijin.
+
+Sunt propuse trei instrumente distincte: finanțarea adaptării locului de muncă, un supliment temporar de integrare pentru persoanele cu handicap grav sau accentuat și un bonus de stabilitate acordat după minimum 24 de luni. Fiecare instrument urmărește o etapă diferită a procesului de integrare: accesul efectiv la locul de muncă, acomodarea și menținerea raportului de muncă.
+
+Pentru ca suplimentul prevăzut la noul art. 85³ să poată fi acordat împreună cu subvenția existență, proiectul modifică expres art. 95 alin. (1³) din Legea nr. 76/2002. Cumulul este permis numai în limitele intensității maxime de ajutor aplicabile și fără finanțarea dublă a acelorași costuri eligibile.
+
+Pentru prevenirea utilizării artificiale a facilităților, proiectul prevede obligații minime de menținere în muncă, recuperarea sumelor în cazul încetării imputabile angajatorului, reguli de necumulare pentru aceeași cheltuială sau același scop, aprobarea prealabilă a finanțărilor pentru adaptarea locului de muncă și excluderea transferurilor artificiale între întreprinderi afiliate.
+
+## V. Impactul social și economic estimat
+
+Măsurile propuse au potențialul de a produce un efect social și economic dublu. Pentru persoana cu dizabilitate, participarea la muncă înseamnă venit propriu, autonomie, dezvoltare profesională și participare socială. Pentru stat, creșterea ocupării poate conduce, pe termen mediu și lung, la venituri fiscale suplimentare și la reducerea dependenței exclusive de prestații sociale.
+
+Pentru angajatori, finanțarea adaptărilor și serviciilor individualizate reduce costul inițial al integrării, iar bonusul de stabilitate încurajează investiția pe termen lung în angajat. Pentru economie, măsurile pot extinde baza de persoane active într-un context în care digitalizarea permite tot mai multe forme flexibile și accesibile de muncă.
+
+Impactul efectiv va fi monitorizat anual prin indicatori de rezultat, nu doar de activitate. Proiectul impune raportarea numărului de persoane angajate și menținute în muncă la 6, 12 și 24 de luni, precum și a cheltuielii publice medii pentru fiecare persoană integrată profesional.
+
+## VI. Impactul financiar și sursele de finanțare
+
+Aplicarea proiectului implică cheltuieli bugetare suplimentare, în special pentru serviciile de tranziție, programul de formare, finanțarea adaptărilor locurilor de muncă, serviciile de sprijin și stimulentele acordate angajatorilor. Cuantificarea totală depinde de numărul beneficiarilor eligibili, de costurile unitare ale serviciilor și de nivelul efectiv al solicitărilor aprobate.
+
+Pentru transparență, costurile unitare maxime ale principalelor stimulente pot fi determinate direct din lege. La valoarea indicatorului social de referință de 660 lei, utilizată exclusiv ca reper pentru anul 2026, rezultă următoarele valori orientative:
+
+| Instrument | Formula legală de calcul | Valoare unitară orientativ |
+| --- | --- | --- |
+| Adaptarea locului de muncă , | maximum 30 ISR, în limita a 90% din cheltuielile eligibile | maximum 19.800 lei |
+| Bonusul de stabilitate | 8 ISR/persoană, o singură dată | 5.280 lei |
+| Suplimentul de integrare | 2 ISR/lună × maximum 12 luni | maximum 15.840 lei/persoană |
+
+Costul total al stimulentelor se calculează prin înmulțirea costului unitar efectiv cu numărul beneficiarilor aprobați. Pentru programul de formare, costul se determină prin înmulțirea numărului de locuri finanțate cu costul mediu eligibil al unui program accesibilizat. Pentru serviciile de tranziție și sprijin la locul de muncă, costul se fundamentează în raport cu standardele de cost și numărul beneficiarilor, date care se află la autoritățile responsabile.
+
+Proiectul indică expres sursele posibile de finanțare: bugetul de stat, bugetul asigurărilor pentru șomaj, bugetele locale, fondurile externe nerambursabile, programele și instrumentele financiare ale Uniunii Europene și alte surse prevăzute de lege. Măsurile cu impact bugetar intră în vigoare la 1 ianuarie al anului următor publicării, dar nu mai devreme de 180 de zile, pentru a permite fundamentarea creditelor bugetare.
+
+În conformitate cu art. 15 alin. (2) din Legea nr. 500/2002 privind finanțele publice, inițiatorii vor solicita Guvernului fișa financiară aferentă propunerii legislative. Estimarea oficială va utiliza datele deținute de Autoritatea Națională pentru Protecția Drepturilor Persoanelor cu Dizabilități, Agenția Națională pentru Ocuparea Forței de Muncă, direcțiile generale de asistență socială și protecția copilului și Ministerul Finanțelor. Estimările transmise după publicarea legii, prevăzute de art. V alin. (4), au rol de implementare și fundamentare bugetară și nu înlocuiesc fișa financiară solicitată în cursul procedurii parlamentare.
+
+În cazul Programului Național pentru Incluziune prin Muncă și Tehnologie, proiectul stabilește că la fundamentarea anuală a creditelor bugetare se are în vedere inclusiv nivelul sumelor colectate ca urmare a neîndeplinirii de către angajatori a obligațiilor privind încadrarea în muncă a persoanelor cu handicap, fără a institui o afectare automată a veniturilor bugetare.
+
+## VII. Compatibilitatea cu cadrul constituțional și european
+
+Proiectul urmărește realizarea principiilor constituționale privind egalitatea în drepturi, protecția persoanelor cu handicap, dreptul la muncă și obligația statului de a asigura condițiile necesare creșterii calității vieții. În ceea ce privește măsurile cu impact bugetar, textul stabilește sursele de finanțare și o intrare în vigoare etapizată, care permite fundamentarea bugetară și adoptarea normelor de aplicare.
+
+Măsurile privind adaptarea rezonabilă, tehnologiile asistive, accesul la educație și formare, sprijinul pentru viață independentă și participarea pe piața muncii sunt în concordanță cu abordarea bazată pe drepturi consacrată de Convenția ONU privind drepturile persoanelor cu dizabilități și cu obiectivele europene de incluziune, accesibilitate și ocupare.
+
+În materia ajutorului de stat, legislația Uniunii Europene permite ajutoare salariale pentru lucrătorii cu dizabilități și compensarea costurilor suplimentare generate de angajarea acestora, în limitele și condițiile stabilite de reglementările europene. Proiectul introduce expres obligația respectării intensității maxime, a costurilor eligibile și a regulilor de cumul, precum și aprobarea schemelor necesare înainte de acordarea finanțărilor.
+
+## VIII. Corelarea cu legislația în vigoare
+
+Articolul 3 din Legea nr. 448/2006 se încheie în prezent cu lit. p); în consecință, noul principiu este introdus ca lit. q).
+
+Mecanismul de tranziție copil-adult este reglementat prin noul art. 86², imediat după dispozițiile privind certificatul de încadrare în grad de handicap pentru copii, și nu ca alineate ale art. 87, care privește atribuțiile comisiei de evaluare a adulților.
+
+Legea nr. 448/2006 conține deja art. 94¹ și art. 94², motiv pentru care Programul Național pentru Incluziune prin Muncă și Tehnologie este reglementat prin noile art. 94³ și 94⁴. Pentru sancționarea distinctă a neîndeplinirii obligațiilor de tranziție se introduce art. 100⁴, după art. 100¹–100³ existente.
+
+În forma consolidată a Legii nr. 76/2002 sunt deja reglementate art. 85¹ și art. 85²; în consecință, noul supliment pentru incluziunea profesională este introdus ca art. 85³. Pentru a înlătura interdicția generală de cumul, art. 95 alin. (1³) este modificat expres, cu păstrarea limitelor impuse de legislația ajutorului de stat.
+
+Normele metodologice vor fi actualizate prin modificarea Hotărârii Guvernului nr. 268/2007 și a Hotărârii Guvernului nr. 174/2002, iar sancțiunile contravenționale vor intra în vigoare numai după intrarea în vigoare a obligațiilor pe care le protejează.
+
+## IX. Rezultatul urmărit
+
+Rezultatul urmărit de inițiativă este dezvoltarea unui sistem în care persoana cu dizabilitate nu este privită exclusiv ca beneficiar al protecției sociale, ci ca persoană cu dreptul și posibilitatea efectivă de a învăța, de a munci, de a utiliza tehnologia, de a obține venituri proprii și de a participa deplin la viața comunității.
+
+Protecția socială rămâne necesară și nu este diminuată prin prezenta inițiativă. Proiectul adaugă însă instrumente active de autonomie și incluziune, astfel încât succesul politicii publice să poată fi măsurat inclusiv prin numărul persoanelor care intră pe piața muncii și rămân în activitate.
+
+INIȚIATORI:
+
+SIMU AURORA TASICA
+
+ALBV AVMI TA IT4
+
+CILLAC AUDOBI
+
+Paclișan Sheorghe Petru
+
+## Tabel cu Susținătorii
+
+propunerii legislative privind modificarea și completarea Legii nr. 448/2006 privind protecția și promovarea drepturilor persoanelor cu handicap, precum și pentru modificarea și completarea Legii nr. 76/2002 privind sistemul asigurărilor pentru șomaj și stimularea ocupării forței de muncă
+
+| Nr.crt | Nume și prenume | Grup Parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1 | GRO2A CALINY FLORI | PSD |  |
+| 2 | VANG MAELUCA | UPR |  |
+| 3 | ANDURBEII WEIAH | PSD |  |
+| 4 | POTS ONIP MDAZUSAT | 0.-V.S. RA |  |
+| 5 | PORUMBOIU GABRIELA | UPR. |  |
+| 6 | KRONCS.IS SEBESTION | POT |  |

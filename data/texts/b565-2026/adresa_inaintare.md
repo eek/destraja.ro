@@ -1,0 +1,18 @@
+Biroul permanent al Camerei Deputaților Initiative legislative
+
+Nr. 774 din 13.10.2016
+
+Către BIROUL PERMANENT AL CAMEREI DEPUTATĂELOR Bp.565....14 10 2026,
+
+În conformitate cu prevederile art. 95 și 118 din Regulamentul Camerei Deputaților, republicat, vă înaintăm alăturat spre dezbatere și adoptare, în procedură de urgență, propunerea legislativă pentru completarea art. 513 din Ordonanța de Urgență a Guvernului nr. 57/2019 privind Codul administrativ, precum și pentru completarea art. 52 din Legea nr. 53/2003 – Codul muncii.
+
+## INIȚIATORI
+
+| Nr.crt. | Numele și prenumele | Grupulparlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1 | Ciunt Ionel | PSD |  |
+| 2 | Govor Mircea-Vasile | PSD |  |
+| 3 | Lăpușan Remus-Gabriel | PSD |  |
+| 4 | VUSCAN Voico | 750 |  |
+| 5 | AJELA COTEA | PSD |  |
+| 6 | JAMNOILÂ iON | PSD |  |

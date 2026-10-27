@@ -17,8 +17,8 @@ function steps(f: TechFacts): Step[] {
       name: 'Senatul',
       text: (
         <>
-          Proiectele noi și PDF-urile lor. Unde scanarea are textul stricat, îl recitim cu OCR în {OCR_ENGINE.language} ({OCR_ENGINE.name}, prin{' '}
-          {OCR_ENGINE.via}). {f.documents > 0 && fact(`${countWord(f.documents, 'document citit', 'documente citite')}, ${f.ocr} cu OCR.`)}
+          Proiectele noi și PDF-urile lor, citite cu {OCR_ENGINE.name}, cu titluri și tabele; {OCR_ENGINE.check} verifică fiecare pagină și o preia
+          unde lipsește text. {f.documents > 0 && fact(`${countWord(f.documents, 'document citit', 'documente citite')}, ${f.ocr} cu OCR.`)}
         </>
       ),
     },

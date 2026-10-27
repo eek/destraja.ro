@@ -1,0 +1,49 @@
+# PROPUNERE LEGISLATIVĂ
+
+Lege pentru modificarea și completarea art. 183 din Legea învățământului preuniversitar nr. 198/2023 și pentru modificarea art. 12 din anexa nr. I la Legea-cadru nr. 153/2017 privind salarizarea personalului plătit din fonduri publice
+
+Parlamentul României adoptă prezenta lege.
+
+Art. I. – Articolul 183 din Legea învățământului preuniversitar nr. 198/2023, publicată în Monitorul Oficial al României, Partea I, nr. 613 din 5 iulie 2023, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+## 1. Alineatul (5¹) se modifică și va avea următorul cuprins:
+
+„(5¹) În sistemul de învățământ preuniversitar de stat, tariful orar brut pentru activitatea didactică desfășurată în regim de plată cu ora se determină prin împărțirea bazei de calcul la produsul dintre 4 și numărul de ore al normei didactice săptămânale de referință, stabilită potrivit alin. (5²) și (5³). Baza de calcul este salariul de bază corespunzător funcției de predare a cadrului didactic încadrat, stabilit potrivit Legii-cadru nr. 153/2017 privind salarizarea personalului plătit din fonduri publice, cu modificările și completările ulterioare, având în vedere gradația de vechime în muncă, treapta de vechime în învățământ și gradul didactic corespunzător, la care se adaugă, după caz, majorarea pentru predare simultană, majorarea pentru învățământ special sau sporul pentru activitatea de predare în sistemul penitenciar, indemnizația pentru zone izolate, sporul pentru persoanele cu grad de handicap grav sau accentuat și sporul pentru suprasolicitare neuropsihică.”
+
+## 2. După alineatul (5¹) se introduc cinci noi alineate, alin. (5²)-(5⁶), cu următorul cuprins:
+
+„(5²) Norma didactică săptămânală de referință este norma de predare-învățare-evaluare, de instruire practică și de evaluare curentă stabilită prin lege pentru funcția de predare și tipul de învățământ în care se desfășoară activitatea, cu luarea în considerare a derogărilor legale aplicabile perioadei remunerate. Nu se iau în considerare reducerile sau degrevările individuale de normă, inclusiv cele aferente funcțiilor de conducere, de îndrumare și control ori activității de mentorat. Încadrarea cu timp parțial nu diminuează norma de referință.
+
+(5³) Pentru funcțiile a căror normă didactică este stabilită pe post, norma săptămânală de referință reprezintă numărul de ore de activitate directă cu antepreșcolarii, preșcolarii sau elevii aferent unui post întreg, potrivit planurilor-cadru de învățământ, programelor de activitate ori normelor de activitate aplicabile funcției și nivelului de învățământ. La stabilirea acestui număr se includ orele de pregătire remedială obligatorii pentru postul respectiv și nu se scad orele din programul clasei sau grupei predate de alte cadre didactice. Nu se includ orele remunerate distinct în regim de plată cu ora, suplimentar obligațiilor postului întreg.
+
+(54) Regula de calcul prevăzută la alin. (51)-(53) se aplică tuturor persoanelor legal încadrate pentru activitate didactică în regim de plată cu ora, inclusiv cadrelor didactice asociate și pensionate. Pentru personalul didactic de conducere, de îndrumare și control, baza de calcul și norma de referință corespund funcției de predare pentru care persoana îndeplinește condițiile legale de ocupare a orelor.
+
+(55) Remunerația lunară brută se determină prin înmulțirea tarifului orar brut cu numărul de ore de activitate didactică efectiv desfășurate în luna respectivă, evidențiate potrivit normelor metodologice. Remunerația include activitățile de pregătire și evaluare aferente orelor astfel remunerate. La solicitarea cadrului didactic, angajatorul comunică în scris, în termen de 15 zile de la înregistrarea cererii, baza de calcul, norma de referință, tariful și numărul orelor pentru care a fost calculată remunerația.
+
+(56) Normele metodologice de aplicare a alin. (51)-(55) se aprobă prin ordin al ministrului educației și cercetării, după consultarea federațiilor sindicale reprezentative la nivelul sectorului de negociere colectivă învățământ preuniversitar. Normele reglementează evidența activității și operațiunile de calcul și plată, fără a modifica baza de calcul, norma de referință ori formula tarifului stabilite prin lege. Prevederile alin. (51)-(55) privesc activitatea didactică desfășurată în baza contractelor individuale de muncă și nu se aplică activităților remunerate prin onorarii în baza contractelor civile.”
+
+Art. II. – La anexa nr. I, capitolul I, litera B din Legea-cadru nr. 153/2017 privind salarizarea personalului plătit din fonduri publice, publicată în Monitorul Oficial al României, Partea I, nr. 492 din 28 iunie 2017, cu modificările și completările ulterioare, articolul 12 se modifică și va avea următorul cuprins:
+
+„Art. 12. – (1) Personalul didactic de predare, de conducere, de îndrumare și control, inclusiv cadrele didactice metodiste din unitățile de învățământ preuniversitar, poate fi salarizat și prin plata cu ora sau prin cumul, în condițiile Legii învățământului preuniversitar nr. 198/2023, cu modificările și completările ulterioare. Calculul remunerației pentru activitatea didactică desfășurată în regim de plată cu ora în în învățământul preuniversitar de stat se face potrivit art. 183 alin. (5¹)–(5⁶) din aceeași lege. Calculul salarizării prin cumul se face prin raportare la norma didactică aplicabilă potrivit aceleiași legi și dispozițiilor legale derogatorii.
+
+(2) Modalitatea de aplicare a alin. (1) se stabilește prin ordin al ministrului educației și cercetării, cu respectarea regulilor de calcul prevăzute de lege.”
+
+Art. III. – (1) Art. I și II intră în vigoare în prima zi a anului școlar următor celui în care prezenta lege este adoptată. Dacă această dată este anterioară împlinirii termenului de 3 zile de la publicarea legii în Monitorul Oficial al României, Partea I, art. I și II intră în vigoare în prima zi a anului școlar următor celui în care legea este publicată. Celelalte dispoziții ale prezentei legi intră în vigoare la 3 zile de la publicarea în Monitorul Oficial al României, Partea I.
+
+(2) Regulile de calcul prevăzute la art. I și II se aplică orelor de activitate didactică desfășurate începând cu data intrării în vigoare a acestor articole, inclusiv în executarea contractelor individuale de muncă aflate în curs. Pentru activitatea desfășurată anterior acestei date se aplică dispozițiile în vigoare la data desfășurării ei.
+
+(3) În termen de 30 de zile de la intrarea în vigoare a prezentului articol, Ministerul Educației și Cercetării actualizează normele metodologice privind salarizarea prin plata cu ora și actele de aplicare ale art. 12 din anexa nr. I, capitolul I, litera B la Legea-cadru nr. 153/2017, cu modificările și completările ulterioare. Dispozițiile actualizate se aplică de la data prevăzută la alin. (1) pentru art. I și II. Neemiterea în termen a normelor nu suspendă aplicarea regulilor de calcul stabilite prin prezenta lege.
+
+Art. IV. – (1) Cheltuielile rezultate din aplicarea prezentei legi se finanțează de la bugetul de stat, prin bugetul Ministerului Educației și Cercetării și, după caz, prin bugetele ordonatorilor principali de credite care finanțează unitățile de învățământ preuniversitar de stat potrivit reglementărilor speciale aplicabile acestora.
+
+(2) Ordonatorii principali de credite prevăzuți la alin. (1) fundamentează necesarul de credite bugetare și pregătesc sistemele de calcul și plată pentru aplicarea art. I și II. Necesarul se include în proiectele de buget aferente anului în care începe aplicarea noii formule și anilor următori, potrivit legislației finanțelor publice.
+
+Inițiator,
+
+Deputat Robert Alecu
+
+Circumscripția electorală nr. 04 Bacău
+
+Semnătura: \_\_\_\_ : \_\_\_\_
+
+Data: 07.10.2026

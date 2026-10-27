@@ -1,0 +1,11 @@
+ROMANIA PARLAMENTUL ROMÂNIEI CAMERA DEPUTAȚILOR
+
+Către
+
+## BIROUL PERMANENT AL SENATULUI
+
+În conformitate cu prevederile art. 74 din Constituția României, republicată, și cu cele ale art. 92 din Regulamentul Camerei Deputaților, republicat, vă înaintăm, spre dezbatere și adoptare, propunerea legislativă pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 133/2021 privind gestionarea financiară a fondurilor europene pentru perioada de programare 2021-2027 alocate României din Fondul european de dezvoltare regională, Fondul de coeziune, Fondul social european Plus, Fondul pentru o tranziție justă.
+
+În numele inițiatorilor:
+
+Deputat PSD Alexandru/- Mihai GHIGIU

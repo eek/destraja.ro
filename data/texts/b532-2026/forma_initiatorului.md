@@ -1,0 +1,29 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENATUL
+
+# pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 195/2002 privind circulația pe drumurile publice
+
+Parlamentul României adoptă prezenta lege:
+
+Articol unic. – Ordonanța de urgență a Guvernului nr. 195/2002 privind circulația pe drumurile publice, republicată în Monitorul Oficial al României, Partea I, nr. 670 din 3 august 2006, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 102 alineatul (4), litera b) se modifică și va avea următorul cuprins:
+
+„b) circulația pe contrasens pe autostradă sau pe drumurile expres, caz în care se aplică amenda prevăzută în clasa a IV-a de sancțiuni și sancțiunea contravențională complementară a anulării permisului de conducere, cu interdicția de a se prezenta la un nou examen pentru obținerea dreptului de a conduce pentru o perioadă de 3 ani de la data rămânerii definitive a sancțiunii.”
+
+2\. La articolul 114 alineatul (1), după litera f) se introduce o nouă literă, lit. g), cu următorul cuprins:
+
+„g) titularul permisului de conducere a fost sancționat contravențional pentru fapta prevăzută la art. 102 alin. (4) lit. b).”
+
+Această lege a fost adoptată de Parlamentul României cu respectarea prevederilor art. 75 și 76 din Constituția României, republicată.
+
+Președintele Camerei Deputaților
+
+Președintele Senatului
+
+Sorin-Mihai Grindeanu
+
+Mircea Abrudean

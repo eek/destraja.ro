@@ -68,7 +68,7 @@ export default function InfraMap() {
       items: [
         'Scripturile lanțului, în Node.js',
         'Gemini, Claude și ChatGPT, prin CLI-urile lor, închise',
-        `OCR: ${OCR_ENGINE.name}, prin ${OCR_ENGINE.via}`,
+        `OCR: ${OCR_ENGINE.name}, verificat cu ${OCR_ENGINE.check}`,
         `${LOCAL_MODELS.map((m) => m.name).join(' și ')}, modelele de decizie locale`,
         'Build-ul site-ului static',
       ],

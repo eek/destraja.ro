@@ -202,10 +202,16 @@ export async function getBillPositions(slug: string): Promise<BillPositions | nu
 export interface BillText {
   label: string;
   url: string;
+  /** Textul simplu (.txt): pentru analize și pentru documentele fără Markdown. */
   content: string;
-  /** Recitit cu OCR pentru că stratul de text al scanării era stricat. */
+  /** Textul cu structură (.md: titluri, paragrafe, tabele), când PDF-ul a fost citit cu OCR. */
+  markdown: string | null;
+  /** Text recunoscut automat din scanare (MinerU și/sau Tesseract), nu luat din stratul de text al PDF-ului. */
   ocr: boolean;
 }
+
+/** Metodele din _meta.json: 'mineru', 'mineru+ocr', 'ocr' (OCR) sau 'text' (stratul PDF-ului); textele vechi pot lipsi din meta. */
+const isOcr = (method: string | undefined) => !!method && method !== 'text';
 
 const TEXT_ORDER = ['forma_initiatorului', 'expunere_motive', 'aviz', 'adresa_inaintare', 'other'];
 
@@ -229,7 +235,9 @@ export async function getBillExtractedTexts(bill: Pick<EnrichedBill, 'slug' | 'p
     const name = textName(pdf);
     try {
       const content = (await fs.readFile(path.join(dir, `${name}.txt`), 'utf8')).trim();
-      if (content) out.push({ label: pdf.label, url: pdf.url, content, ocr: meta[name] === 'ocr', order: TEXT_ORDER.indexOf(pdf.type) });
+      if (!content) continue;
+      const markdown = (await fs.readFile(path.join(dir, `${name}.md`), 'utf8').catch(() => '')).trim() || null;
+      out.push({ label: pdf.label, url: pdf.url, content, markdown, ocr: isOcr(meta[name]), order: TEXT_ORDER.indexOf(pdf.type) });
     } catch {
       // PDF fără text extras (încă nedescărcat sau gol).
     }

@@ -1,0 +1,15 @@
+# SENATUL ROMÂNIEI
+
+Către,
+
+Biroul Permanent al Senatului
+
+În conformitate cu prevederile art. 74 alin. (1) și art. 75 din Constituția României, republicată, și ale art. 92 din Regulamentul Senatului, vă înaintăm alăturat Propunerea legislativă pentru modificarea și completarea Legii nr. 143/2000 privind prevenirea și combaterea traficului și consumului ilicit de droguri, precum și pentru modificarea art. 271 din Legea nr. 86/2006 privind Codul vamal al României, pentru a fi supusă dezbaterii și adoptării Parlamentului României.
+
+Solicităm procedură de urgență în concordanță cu art. 113 alin. (2) din Regulamentul Senatului, republicat, cu modificările și completările ulterioare.
+
+În numele inițiatorilor,
+
+Victoria STOICIU
+
+Senator neafiliat

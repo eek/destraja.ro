@@ -1,0 +1,21 @@
+# PARLAMENTUL ROMÂNIEI
+
+# Lege
+
+# privind instituirea zilei de 26 septembrie ca Ziua Munților Carpați
+
+Art. 1 Se instituie ziua de 26 septembrie ca Ziua Munților Carpați.
+
+Art. 2 (1) Ziua Munților Carpați poate fi marcată de către autoritățile administrației publice centrale și locale, societatea civilă, unitățile de învățământ, unitățile de cult, centrele comunitare, instituțiile culturale, organizațiile de mediu, precum și de persoane fizice sau juridice, prin organizarea de evenimente educative, de voluntariat, științifice, culturale și turistice care să promoveze conștientizarea importanței Munților Carpați, protejarea patrimoniului natural și cultural, dezvoltarea zonelor montane din Carpații României și sprijinirea producătorilor locali.
+
+(2) Autoritățile administrației publice centrale și locale pot acorda sprijin logistic și pot aloca fonduri din bugetele proprii pentru organizarea și desfășurarea evenimentelor dedicate, în limita alocărilor bugetare aprobate.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art.75 și art.76 alin (2) din Constituția României, republicată.
+
+Președintele Senatului
+
+Președintele Camerei Deputaților
+
+Mircea Abrudean
+
+Sorin-Mihai Grindeanu

@@ -1,0 +1,63 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+CAMERA DEPUTAȚILOR
+
+LEGE
+
+pentru modificarea și completarea Legii nr. 227/2015 privind Codul fiscal și pentru compensarea veniturilor bugetelor locale
+
+Parlamentul României adoptă prezenta lege.
+
+Art. I. - Legea nr. 227/2015 privind Codul fiscal, publicată în Monitorul Oficial al României, Partea I, nr. 688 din 10 septembrie 2015, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 469 alineatul (1), după litera f) se introduce o nouă literă, lit. g), cu următorul cuprins:
+
+„g) un singur autoturism aflat în proprietatea sau coproprietatea unei persoane fizice, la alegerea contribuabilului;”
+
+2\. La articolul 469, după alineatul (3) se introduc patru noi alineate, alin. (3¹)- (3⁴), cu următorul cuprins:
+
+„(3¹) Scutirea prevăzută la alin. (1) lit. g) se acordă pentru un singur autoturism pentru fiecare persoană fizică. În cazul coproprietății, scutirea se aplică numai cotei-părți deținute de beneficiarul scutirii.”
+
+„(3²) Dacă persoana fizică deține un singur autoturism, scutirea se acordă din oficiu, pe baza evidențelor organului fiscal local. Dacă persoana fizică deține două sau mai multe autoturisme, aceasta desemnează autoturismul pentru care solicită scutirea, până la data de 31 martie a anului fiscal.”
+
+„(3³) Opțiunea prevăzută la alin. (3²) produce efecte pentru anul fiscal în curs și se menține pentru anii următori atât timp cât contribuabilul nu solicită modificarea acesteia și sunt îndeplinite condițiile legale. Cererea depusă după data de 31 martie produce efecte începând cu data de 1 ianuarie a anului fiscal următor.”
+
+„(3⁴) Cererea poate fi depusă pe suport hârtie sau prin mijloace electronice. Organul fiscal local verifică îndeplinirea condițiilor pe baza evidențelor proprii și a schimbului de date cu autoritățile și instituțiile publice competente, fără a solicita contribuabilului documente emise sau deținute de acestea.”
+
+## Art. II. -
+
+(1) Diminuarea veniturilor proprii ale bugetelor locale determinată de aplicarea scutirii prevăzute la art. 469 alin. (1) lit. g) din Legea nr. 227/2015, cu modificările și completările ulterioare, se compensează anual, în proporție de 100%, de la bugetul de stat, prin sume defalcate din taxa pe valoarea adăugată cu destinație specială, aprobate distinct prin legea bugetului de stat.
+
+(2) Pentru fiecare unitate administrativ-teritorială și subdiviziune administrativ-teritorială a municipiului București, compensația definitivă este egală cu impozitul pe mijloacele de transport care ar fi fost datorat pentru autoturismele și cotele-părți scutite în anul fiscal de referință, calculat potrivit art. 470 din Legea nr. 227/2015 și hotărârii autorității deliberative locale aplicabile acelui an.
+
+(3) Compensația prevăzută la alin. (1) se acordă distinct de sumele destinate echilibrării bugetelor locale și nu diminuează celelalte sume cuvenite unității administrativ-teritoriale potrivit legii.
+
+## Art. III. -
+
+(1) În primul an de aplicare, Ministerul Finanțelor repartizează trimestrial unităților administrativ-teritoriale, în limita creditelor bugetare aprobate, 90% din pierderea de venit estimată pe baza evidențelor fiscale existente la data de 31 decembrie a anului anterior.
+
+(2) Începând cu al doilea an de aplicare, sumele trimestriale se stabilesc pe baza compensației definitive aferente anului precedent, actualizată cu modificările intervenite în evidențele fiscale locale și în nivelul impozitului.
+
+(3) Organele fiscale locale transmit Ministerului Finanțelor, prin structurile sale territoriale, până la data de 31 martie a anului următor, situația certificată a pierderii effective de venit. Regularizarea sumelor se efectuează până la data de 30 iunie a aceluiași an. Diferențele cuvenite unității administrativ-teritoriale se achită de la bugetul de stat, iar sumele primite în plus se restituie ori se compensează cu transferurile următoare.
+
+## Art. IV. -
+
+(1) În termen de 90 de zile de la data publicării prezentei legi, normele privind aplicarea scutirii, estimarea, repartizarea, controlul și regularizarea compensațiilor se aprobă prin ordin comun al ministrului finanțelor și al ministrului dezvoltării, lucrărilor publice și administrației.
+
+(2) În același termen, Ministerul Dezvoltării, Lucrărilor Publice și Administrației și Ministerul Afacerilor Interne stabilesc, prin protocol, condițiile schimbului de date necesar aplicării scutirii, cu respectarea legislației privind protecția datelor cu caracter personal.
+
+(3) Pentru primul an de aplicare, persoanele fizice care dețin două sau mai multe autoturisme pot depune opțiunea prevăzută la art. 469 alin. (3²) din Legea nr. 227/2015 în termen de 60 de zile de la data intrării în vigoare a prezentei legi.
+
+Art. V. - Prezenta lege intră în vigoare la data de 1 ianuarie a anului fiscal care începe după împlinirea unui termen de 6 luni de la data publicării în Monitorul Oficial al României, Partea I.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.
+
+PREȘEDINTELE
+
+SENATULUI
+
+PREȘEDINTELE
+
+CAMEREI DEPUTAȚILOR

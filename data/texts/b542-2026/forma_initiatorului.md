@@ -1,0 +1,53 @@
+# PARLAMENTUL ROMÂNIEI
+
+Camera Deputaților
+
+Senat
+
+## LEGE
+
+pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 60/2019 privind reglementarea unor măsuri pentru stingerea unor obligații fiscale și bugetare, precum și unele măsuri referitoare la obligațiile de plată aferente împrumuturilor din venituri din privatizare și împrumuturilor contractate de statul român de la instituții de credit și subîmprumutate operatorilor economici
+
+Parlamentul României adoptă prezenta lege.
+
+Art. I. — Ordonanța de urgență a Guvernului nr. 60/2019 privind reglementarea unor măsuri pentru stingerea unor obligații fiscale și bugetare, precum și unele măsuri referitoare la obligațiile de plată aferente împrumuturilor din venituri din privatizare și împrumuturilor contractate de statul român de la instituții de credit și subîmprumutate operatorilor economici, publicată în Monitorul Oficial al României, Partea I, nr. 556 din 5 iulie 2019, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 1, alineatul (1) se modifică și va avea următorul cuprins:
+
+„(1) Prezenta ordonanță de urgență reglementează o modalitate specială de stingere a obligațiilor fiscale și bugetare ale administrației publice centrale, inclusiv a creanțelor prevăzute la alin. (2) lit. e), ale operatorilor economici care dețin capacități de producere a energiei electrice sau electrice și termice în cogenerare racordate la Sistemul electroenergetic național reprezentând active funcționale energetice cu sau fără activele miniere ce asigură cărbunele necesar funcționării acestora și/sau capacități industriale reprezentând active funcționale industriale.”
+
+2\. La articolul 1 alineatul (2), după litera d) se introduc două noi litere, lit. e) și f), cu următorul cuprins:
+
+„e) creanțe rezultate din operațiuni derulate în numele și în contul statului — creanțele bugetare ale statului, principale si accesorii în înțelesul art. 1 pct. 9 din Legea nr. 207/2015 privind Codul de procedură fiscală, cu modificările și completările ulterioare, rezultate din finanțările, garanțiile, contragaranțiile și asigurările acordate în numele și în contul statului de instituții de credit sau de alte entități mandatate în acest scop prin lege, inclusiv dobânzile, comisioanele și celelalte accesorii aferente. Administrarea acestor creanțe, în sensul art. 1 pct. 2 din Legea nr. 207/2015, se realizează prin structurile de specialitate ale Ministerului Finanțelor, recuperarea lor efectuându-se, în numele și în contul statului, de entitățile mandatate ori, după caz, de organul fiscal central, potrivit legilor speciale aplicabile;
+
+f) instituții creditoare — instituțiile administrației publice centrale care sunt titulare ale unui drept de creanta al statului rezultat din raporturi juridice fiscale sau bugetare ce fac obiectul prezentei ordonanțe de urgență.
+
+3\. La articolul 2, alineatul (1) se modifică și va avea următorul cuprins:
+
+„(1) Prin derogare de la prevederile art. 263 din Legea nr. 207/2015 privind Codul de procedură fiscală, cu modificările și completările ulterioare, la cererea operatorilor economici care dețin activele prevăzute la art. 1, creanțele fiscale și bugetare administrate de instituții ale administrației publice centrale, inclusiv creanțele prevăzute la art. 1 alin. (2) lit. e), se sting prin trecerea unor active funcționale din proprietatea acestora în proprietatea publică a statului și în administrarea ministerului de resort.”
+
+4\. La articolul 2 alineatele (2), (3), (7), (8) și (12), sintagmele „instituția creditoare”, „instituțiile publice creditoare”, „instituția publică creditoare” și „instituția administrației publice centrale creditoare” se înlocuiesc cu sintagma „instituțiile creditoare”.
+
+5\. La articolul 2, după alineatul (12) se introduce un nou alineat, alin. (12^1), cu următorul cuprins:
+
+„(12^1) În cazul garanțiilor reale constituite în favoarea statului, bunurile trec în proprietate publică libere de sarcini. La data semnării procesului-verbal prevăzut la alin. (7), sarcinile constituite in favoarea statului, indifferent de institutia care reprezinta statul, inceteaza de drept proportional cu valoarea bunurilor trecute în proprietatea publica a statului. Pentru partea de creanță rămasă nestinsă, creditorul își păstrează drepturile de recuperare potrivit legii. Dispozițiile prezentului alineat nu aduc atingere obligației de a obține acordul scris al celorlalți creditori, potrivit alin. (12). Radierea din cartea funciară și din Registrul Național de Publicitate Mobiliară se efectuează în baza procesului-verbal, fără alte formalități.”
+
+6\. Articolul 3^1 se modifică și va avea următorul cuprins:
+
+„Art. 3^1 — Dispozițiile art. 3 se aplică în mod corespunzător și pentru stingerea creanțelor fiscale și bugetare ale altor instituții ale administrației publice centrale, inclusiv a creanțelor prevăzute la art. 1 alin. (2) lit. e), situație în care operatorul economic depune cererea de stingere fie la instituția creditoare, fie la entitatea care o recuperează potrivit art. 1 alin. (2) lit. e). Stingerea se constată prin act emis de entitatea la care s-a depus cererea, în termen de 30 de zile de la depunere, care se comunică operatorului economic, organului fiscal central și ministerului de resort.”
+
+Art. II. — (1) Procedurile aflate în curs la data intrării în vigoare a prezentei legi se continuă potrivit dispozițiilor astfel clarificate.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.
+
+PREȘEDINTELE
+
+PREȘEDINTELE
+
+CAMEREI DEPUTAȚILOR
+
+SENATULUI
+
+SORIN-MIHAI GRINDEANU
+
+MIRCEA ABRUDEAN

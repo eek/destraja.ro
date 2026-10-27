@@ -1,0 +1,29 @@
+## AVIZ
+
+Analizând propunerea legislativă pentru instituirea zilei de 5 martie ca „Ziua națională a auditorului energetic” (b550/07.10.2026), transmisă de secretarul general al Senatului cu adresa nr. XXXV/4794/12.10.2026 și înregistrată la Consiliul Legislativ cu nr. D861/13.10.2026,
+
+## CONSILIUL LEGISLATIV
+
+În temeiul art. 2 alin. (1) lit. a) din Legea nr. 73/1993, republicată, și al art. 29 alin. (3) din Regulamentul de organizare și funcționare a Consiliului Legislativ,
+
+Avizează favorabil propunerea legislativă, cu următoarele observații și propuneri:
+
+1\. Propunerea legislativă are ca obiect de reglementare instituirea zilei de 5 martie ca „Ziua națională a auditorului energetic”, dedicată recunoașterii contribuției profesioniștilor din domeniul auditului și managementului energetic la îmbunătățirea eficienței·energetice.
+
+2\. Prin conținutul său normativ, propunerea legislativă face parte din categoria legilor ordinare, iar în aplicarea prevederilor art. 75 alin. (1) din Constituția României, republicată, prima Cameră sesizată este Senatul.
+
+3\. Menționăm că, prin avizul pe care îl emite, Consiliul Legislativ nu se pronunță asupra oportunității soluțiilor legislative preconizate.
+
+4\. La art. 2, semnalăm că norma propusă nu desemnează o instituție responsabilă pentru organizarea sau coordonarea manifestărilor dedicate Zilei naționale a auditorului energetic. Or, potrivit art. 6 alin. (1) din Legea nr. 24/2000, „proiectul de act normativ trebuie să instituie reguli necesare, suficiente și posibile care să conducă la o cât mai mare stabilitate și eficiență legislativă”.
+
+În aceste condiții, pentru asigurarea unui program coerent la nivel național, recomandăm desemnarea uneia sau mai multor instituții publice cărora să le revină coordonarea minimă a manifestărilor științifice, tehnice, educaționale și de informare publică, participarea celorlalte autorități și instituții publice rămânând facultativă.
+
+5\. La art. 1 alin. (2), în vederea identificării cu precizie a categoriilor profesionale vizate, este necesară corelarea textului cu regimul juridic al acestora. Astfel, potrivit art. 3 alin. (2) lit. h) și art. 9 alin. (11) din Legea nr. 121/2014 privind eficiența energetică, cu modificările și completările ulterioare, auditorii energetici pentru industrie sunt autorizați, în timp ce managerii energetici pentru industrie și pentru localități sunt atestați. Prin urmare, propunem înlocuirea sintagmei „auditorilor energetici, managerilor energetici și de localități autorizați în condițiile Legii nr. 121/2014” cu următorul text: „auditorilor energetici autorizați și managerilor energetici pentru industrie și pentru localități atestați în condițiile Legii nr. 121/2014”.
+
+Totodată, întrucât partea finală a alineatului, începând cu sintagma „în scopul recunoașterii contribuției acestora ...”, are caracter explicativ, prezentând motivarea reglementării, propunem eliminarea din textul normativ.
+
+6\. La art. 3, pentru fluența normei, recomandăm reformularea părții finale a acesteia astfel: „... ale autorităților și instituțiilor publice, precum și ale celorlalte entități prevăzute la art. 2”.
+
+PREȘEDİNTE®
+
+Florin IORDACHE

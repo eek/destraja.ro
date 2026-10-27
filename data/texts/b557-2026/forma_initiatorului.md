@@ -1,0 +1,33 @@
+# Parlamentul României
+
+Camera Deputaților
+
+Senat
+
+## LEGE
+
+## pentru completarea art.47 din Legea nr.307/2006 privind apărarea împotriva incendiilor
+
+Articol unic – Articolul 47 din Legea nr.307/2006 privind apărarea împotriva incendiilor, republicată în Monitorul Oficial, Partea I nr. 297 din 17 aprilie 2019, cu modificările și completările ulterioare, se completează și va avea următorul cuprins:
+
+1\. După alineatul (8) se introduce un nou alineat, alin.(8¹), cu următorul cuprins:
+
+„(8¹) Prin excepție de la alin. (7), pentru construcțiile aparținând domeniului public sau privat al statului ori al unităților administrativ-teritoriale, precum și pentru construcțiile aflate în administrarea autorităților și instituțiilor publice, sancțiunea avertismentului poate fi aplicată în cazul în care persoana juridică responsabilă face dovada inițierii demersurilor necesare pentru obținerea autorizației de securitate la incendiu și prezintă un program de conformare aprobat, cu termene și surse de finanțare identificate.”
+
+2\. După alineatul (13) se introduce un nou alineat, alin.(14), cu următorul cuprins:
+
+„Pentru construcțiile existente la data intrării în vigoare a Ordonanței de urgență a Guvernului nr. 17/2026 privind modificarea și completarea unor acte normative, aparținând domeniului public sau privat al statului ori al unităților administrativ-teritoriale sau aflate în administrarea autorităților și instituțiilor publice, prevederile alin.(6) și alin.(7) se aplică după expirarea unui termen de 24 de luni, cu condiția aprobării, în termen de 12 luni, a unui program de conformare privind securitatea la incendiu.”
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.
+
+PREȘEDINTELE
+
+CAMEREI DEPUTAȚILOR,
+
+Sorin-Mihai GRINDEANU
+
+PREȘEDINTELE
+
+SENATULUI,
+
+Mircea ABRUDEAN

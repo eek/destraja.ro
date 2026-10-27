@@ -1,0 +1,51 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+# CAMERA DEPUTAȚILOR
+
+## LEGE
+
+pentru completarea Legii nr. 227/2015 privind Codul fiscal
+
+Parlamentul României adoptă prezenta lege.
+
+Art. I. – La articolul 294 alineatul (5) din Legea nr. 227/2015 privind Codul fiscal, publicată în Monitorul Oficial al României, Partea I, nr. 688 din 10 septembrie 2015, cu modificările și completările ulterioare, după litera d) se introduce o nouă literă, lit. e), cu următorul cuprins:
+
+„e) livrarea următoarelor produse:
+
+1\. produse de protecție igienică destinate menstruației sau perioadei de lăuzie, de unică folosință sau reutilizabile, inclusiv absorbante igienice, protecții zilnice absorbante, absorbante pentru lăuzie, tampoane interne, cupe menstruale, discuri menstruale și lenjerie menstruală absorbantă;
+
+2\. scutece, chiloți-scutece și alte produse igienice absorbante destinate nou-născuților, sugarilor și copiilor, de unică folosință sau reutilizabile, inclusiv inserțiile absorbante proiectate și comercializate pentru utilizarea împreună cu acestea;
+
+3\. produse igienice absorbante pentru uz uman, destinate gestionării incontinenței urinare sau fecale, de unică folosință sau reutilizabile, inclusiv scutece, chiloți absorbanți, absorbante, protecții anatomice, aleze absorbante și inserții absorbante;
+
+4\. prezervative externe și interne, indiferent de materialul din care sunt fabricate.
+
+Scutirea prevăzută la prezenta literă se aplică direct la livrare, indiferent de calitatea beneficiarului, fără condiționarea acesteia de prezentarea de către cumpărător a unor documente privind venitul, vârsta, starea de sănătate ori o altă situație personală.
+
+Încadrarea produselor se realizează pe baza caracteristicilor obiective, a compoziției, a construcției, a modului normal de utilizare și a destinației principale a acestora, fără diferențiere exclusiv în funcție de caracterul de unică folosință sau reutilizabil ori de materialul din care sunt fabricate.”
+
+Art. II. – (1) În termen de 60 de zile de la data publicării prezentei legi în Monitorul Oficial al României, Partea I, Guvernul modifică în mod corespunzător Normele metodologice de aplicare a Legii nr. 227/2015 privind Codul fiscal, aprobate prin Hotărârea Guvernului nr. 1/2016, cu modificările și completările ulterioare.
+
+(2) Normele metodologice prevăzute la alin. (1) stabilesc delimitarea tehnică a produselor prevăzute la art. 294 alin. (5) lit. e) din Codul fiscal, prin raportare la caracteristicile obiective, compoziția, construcția, modul normal de utilizare, destinația principală și, după caz, codurile din Nomenclatura combinată în vigoare la data realizării operațiunii.
+
+(3) Delimitarea tehnică prevăzută la alin. (2) se realizează cu respectarea categoriilor de produse stabilite prin prezenta lege, fără restrângerea sau extinderea acestora, și nu poate conduce la excluderea unui produs exclusiv pentru motivul că acesta este reutilizabil ori este fabricat dintrun material diferit față de alte produse cu aceeași destinație principală.
+
+(4) În aplicarea art. 293 alin. (1) lit. a) din Codul fiscal, normele metodologice stabilesc condițiile tehnice și documentele necesare justificării scutirii pentru importurile și achizițiile intracomunitare ale produselor prevăzute la art. 294 alin. (5) lit. e) din Codul fiscal.
+
+(5) Până la data intrării în vigoare a art. I, Ministerul Finanțelor, Agenția Națională de Administrare Fiscală și Autoritatea Vamală Română actualizează, potrivit competențelor, formularele, instrucțiunile, procedurile și sistemele informatice necesare aplicării unitare a scutirii.
+
+Art. III. – Prevederile art. I intră în vigoare în prima zi a lunii următoare împlinirii unui termen de 6 luni de la data publicării prezentei legi în Monitorul Oficial al României, Partea I.
+
+Prezenta lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.
+
+PREȘEDINTELE SENATULUI
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+Inițiatori
+
+ALBU DUMITRIȚA
+
+SIMU AURORA TASICA

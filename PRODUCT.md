@@ -22,7 +22,7 @@ Three independent AI readings per bill, shown side by side with their disagreeme
 ## Operating Context
 
 - Data comes from `scripts/straja-sync.mjs` (senat.ro scrape into `data/senat-bills.json`) and `scripts/straja-council.mjs` (AI analyses into `data/analyses/*.json`). The site is rebuilt from these files.
-- PDF texts (`data/texts/`) come from the PDF text layer; when a scan's layer is garbled ("destina!iei", "Si"), `scripts/lib/pdf-text.mjs` re-reads it with Romanian OCR (ocrmypdf + Tesseract `ron`) and the bill page marks it as automatically recognised, next to the official PDF.
+- PDF texts (`data/texts/`): every Senate PDF is a scan, so the scanner's text layer is never trusted. `scripts/lib/pdf-text.mjs` reads each PDF with MinerU 4 (local, offline; keeps headings, tables and footnotes, drops letterheads, page numbers, stamps and images) and checks every page against Romanian Tesseract (ocrmypdf): a page where MinerU loops or misses text Tesseract read comes from Tesseract instead, and Tesseract also restores the ș/ț/ă MinerU sometimes drops. Each PDF gets `<name>.md` (rendered on the bill page as a formatted document, tables included, without client JS) and `<name>.txt` (plain text for the model analyses and the CES quote check); `_meta.json` records `mineru`, `mineru+ocr`, `ocr` or `text`. The bill page marks these texts as automatically recognised, next to the official PDF, and /metodologie credits MinerU (OpenDataLab) and Tesseract, as MinerU's licence requires.
 - Consultation deadlines move daily; a bill whose deadline passed stays visible as closed.
 - Party "arc" (government vs opposition) is a dated editorial classification used for the coalition map; it must be revisited when the governing coalition changes.
 

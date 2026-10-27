@@ -1,0 +1,72 @@
+## EXPUNERE DE MOTIVE
+
+Prin Ordonanța de urgență a Guvernului nr. 17/2026 au fost introduse/modificate mai multe prevederi în cuprinsul Legii nr. 307/2006 privind apărarea împotriva incendiilor, republicată, cu modificările și completările ulterioare, inclusiv la art. 47, prin instituirea unor reguli speciale privind regimul sancționator aplicabil anumitor contravenții.
+
+Astfel, potrivit art. 47 alin. (6) și alin. (7):
+
+„(6) Prin excepție de la prevederile alin. (5), sancțiunilor prevăzute la art. 45 pct. V și VI nu le sunt aplicabile prevederile art. 28 alin. (1) din Ordonanța Guvernului nr. 2/2001, cu modificările și completările ulterioare și prevederile art. 22 alin. (2) din Legea nr. 203/2018 privind măsuri de eficientizare a achitării amenzilor contravenționale, cu modificările și completările ulterioare.
+
+(7) În condițiile prezentei legi, pentru contravențiile prevăzute la art. 45 pct. III-XII nu se aplică sancțiunea avertisment."
+
+Efectul practic al acestor dispoziții este acela că, pentru o categorie largă de contravenții, inclusiv cele referitoare la nedeținerea autorizației de securitate la incendiu, organele de control nu mai pot aplica sancțiunea avertismentului, ci sunt obligate să aplice direct sancțiunea amenzii, fără posibilitatea individualizării sancțiunii în funcție de circumstanțele concrete, de conduita instituției verificate, de existența unor demersuri în curs sau de imposibilitatea obiectivă de conformare imediată.
+
+La nivelul autorităților administrației publice locale și județene, o parte semnificativă a clădirilor aflate în proprietate publică sau în administrare sunt construcții vechi, edificate anterior actualelor cerințe tehnice de securitate la incendiu sau anterior modificărilor successive ale reglementărilor în materie. Aceste imobile deserves servicii publice esențiale, precum: unități de învățământ; unități sanitare și medico-sociale; instituții de cultură; sedii administrative; centre sociale; clădiri de patrimoniu sau clădiri cu regim tehnic/juridic special; alte imobile utilizate pentru furnizarea serviciilor publice către cetățeni.
+
+În multe cazuri, obținerea autorizației de securitate la incendiu presupune nu doar întocmirea unei documentații tehnice, ci realizarea unor lucrări ample de intervenție, reabilitare, recompartimentare, modernizare a instalațiilor, asigurare a căilor de evacuare, instalare sau modernizare a sistemelor de detecție, semnalizare, alarmare, desfumare, hidranți interiori/exteriori, instalații electrice conforme, precum și alte măsuri tehnice impuse de normele aplicabile.
+
+Aceste lucrări presupun costuri semnificative, proceduri de achiziție publică, proiectare, expertizare tehnică, avizare, autorizare a lucrărilor de construire, execuție, recepție și, ulterior, parcurgerea procedurii de autorizare de securitate la incendiu. În cazul clădirilor vechi, al clădirilor cu valoare de patrimoniu sau al celor aflate în folosință continuă pentru servicii publice, procesul este cu atât mai dificil și de durată.
+
+Eliminarea avertismentului pentru contravențiile prevăzute la art. 45 pct. III-XII limitează posibilitatea organului de control de a aprecia concret gravitatea faptei, riscul efectiv, conduita autorității verificate și existența unor măsuri deja inițiate.
+
+Astfel, sunt tratate identic situații fundamental diferite, de exemplu: instituții care nu au inițiat niciun demers pentru conformare; instituții care au expertize, documentații, proiecte sau lucrări în curs; instituții care au depus cereri de finanțare;
+
+instituții care au prevăzut fonduri în buget, dar se află în proceduri de achiziție; instituții care funcționează în clădiri vechi, cu constrângeri tehnice obiective.
+
+Această abordare poate conduce la aplicarea unor sancțiuni pecuniare repetate, fără ca sancțiunea să accelereze în mod real conformarea, în lipsa resurselor financiare necesare.
+
+Nedeținerea autorizației de securitate la incendiu pentru unele clădiri publice nu este, în numeroase cazuri, rezultatul unei conduite culpabile sau al refuzului de conformare, ci consecința cumulată a vechimii fondului construit, a modificării successive a normelor tehnice, a subfinanțării cronice a investițiilor publice și a costurilor ridicate ale lucrărilor necesare. Aplicarea directă a amenzilor, fără o perioadă tranzitorie și fără un mecanism de finanțare, riscă să afecteze suplimentar bugetele locale, reducând chiar capacitatea autorităților de a finanța lucrările necesare pentru conformare.
+
+Amenzile aplicate instituțiilor publice sau autorităților locale nu rezolvă cauza neconformării, ci pot genera un circuit bugetar ineficient, în care resursele publice sunt direcționate către plata sancțiunilor, în loc să fie utilizate pentru proiectare, expertizare, execuție de lucrări și obținerea autorizațiilor.
+
+În lipsa unei etapizări, există riscul ca autoritățile să fie sancționate pentru situații care nu pot fi remediate într-un termen scurt, chiar dacă acestea au inițiat demersuri concrete pentru conformare.
+
+În aceste condiții, propunem introducerea unei perioade tranzitorii pentru clădirile aparținând domeniului public sau privat al unităților administrativ-teritoriale și pentru clădirile aflate în administrarea instituțiilor publice, în care sancțiunea avertismentului să poată fi aplicată numai atunci când autoritatea/instituția face dovada inițierii demersurilor de conformare.
+
+Având în vedere argumentele prezentate mai sus, înaintăm Parlamentului României, spre dezbatere și adoptare, prezenta propunere legislativă, în procedură de urgență.
+
+Procedura de urgență este necesară pentru a permite autorităților publice să se conformeze la noile norme și pentru a elimina orice risc de blocaj administrativ.
+
+INIȚIATORI
+
+| Nr.crt. | NUME ȘI PRENUME | SEMNĂTURA |
+| --- | --- | --- |
+| 1. | Raluca TURCAN – Deputat PNL |  |
+| 2. | MA’CEPTA SORIN PNL |  |
+| 3. | POMAH FIORIN PNL |  |
+| 4. | CIOBOTANU DRAGOS PNL |  |
+| 5. | GABRÎZL ANARONHÎG PNL |  |
+| 6. | COZMA ADRIAN PNL |  |
+| 7. | STANEOCU VE'NTN |  |
+| 8. | MIRCEA FECKEȘ - PNL |  |
+| 9. | PURDUYA SEBASTIAN-IOAXO |  |
+| 10. | CÎMPERN OVİHLY UAFFICE |  |
+
+11\. PISTRU POPA GRANINA
+
+12\. CADAR RAZVAN
+
+13\. cioban Additon
+
+14\. VIPLEA→DLPII886\<
+
+15\. >BuICAN CRISTIAN
+
+16\. SIGHIARTAU ROBERT
+
+17\. Vela lou Marcel
+
+18\. Joou Bobou
+
+19\. AARiAH MOeAMU
+
+20\. Storia Stifoy-Bucu

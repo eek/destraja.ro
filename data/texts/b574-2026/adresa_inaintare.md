@@ -1,0 +1,15 @@
+PARLAMENTUL ROMÂNIEI CAMERA DEPUTAȚILOR GRUP PARLAMENTAR S.O.S. ROMÂNIA
+
+Către,
+
+## BIROUL PERMANENT AL SENATULUI ROMÂNIEI
+
+În conformitate cu prevederile art.74 alin.(1) și ale art.75 alin.(1) din Constituția României, republicată și cu cele ale art.92 alin.(1) din Regulamentul Senatului României, republicat, cu modificările și completările ulterioare,
+
+vă înaintăm alăturat spre dezbatere și adoptare
+
+Propunerea legislativă pentru completarea Legii nr.53/2003 – Codul muncii și a Ordonanței de urgență a Guvernului nr.57/2019 privind Codul administrative
+
+## INIȚIATOR:
+
+Prof. univ. dr. Verginia VEDINAȘ - deputat S.O.S. România

@@ -1,0 +1,33 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+CAMERA DEPUTAȚILOR
+
+LEGE
+
+# pentru modificarea și completarea Legii nr. 360/2023 privind sistemul public de pensii
+
+Parlamentul României adoptă prezenta lege
+
+Parlamentul României adoptă prezenta lege.
+
+Art. I – Legea nr. 360/2023 privind sistemul public de pensii, publicată în Monitorul Oficial al României, Partea I, nr. 1089 din 4 decembrie 2023, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. După articolul 53 se introduce un nou articol, art. 53¹, cu următorul cuprins:
+
+Art. 53¹ – (1) Persoanele cărora li s-a stabilit diagnosticul de neoplasm malign și care nu au împlinit vârsta standard de pensionare prevăzută în anexa nr. 5 beneficiază, la cerere, de pensie pentru limită de vârstă, la împlinirea vârstei de 60 de ani, dacă au realizat stagiul minim de cotizare contributiv prevăzut la art. 47 alin. (2).
+
+(2) Dreptul prevăzut la alin. (1) se acordă indiferent de capacitatea de muncă a beneficiarului și stadiul evolutiv al afecțiunii, inclusiv în cazul în care, la data depunerii cererii, afecțiunea se află în remisie.
+
+## 2. Articolul 57 se modifică și va avea următorul cuprins:
+
+Art. 57 - Reducerile vârstei standard de pensionare prevăzute la art. 53^1 și art. 56 nu pot fi cumulate cu nicio altă reducere reglementată de prezenta lege sau de alte acte normative.
+
+Art. II – Dispozițiile art. I se aplică și persoanelor al căror diagnostic de neoplasm malign a fost stabilit înainte de data intrării în vigoare a prezentei legi.
+
+Art. III – În termen de 60 de zile de la data publicării prezentei legi în Monitorul Oficial al României, Guvernul modifică și completează Normele de aplicare a Legii nr. 360/2023 privind sistemul public de pensii, aprobate prin Hotărârea Guvernului nr. 181/2024, în vederea stabilirii procedurii de depunere și verificare a documentelor medicale, precum și a procedurii de soluționare a cererilor formulate în temeiul art. I.
+
+Art. IV – Prezenta lege intră în vigoare la 90 de zile de la data publicării în Monitorul Oficial al României, Partea I.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.

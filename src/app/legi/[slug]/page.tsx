@@ -13,6 +13,8 @@ import LiveDeadline from '@/components/bills/LiveDeadline';
 import BillNews, { PressLink } from '@/components/bills/BillNews';
 import { Container, ModelMeters, PartyTag, RiskChip, panel } from '@/components/ui';
 import { Flags } from '@/components/bills/Flags';
+import CiteBill from '@/components/bills/CiteBill';
+import { citation } from '@/lib/export';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -361,6 +363,8 @@ export default async function BillDetailPage({ params }: PageProps) {
           )}
         </div>
       </article>
+
+      <CiteBill billId={bill.id} text={citation(toLite(bill))} />
     </Container>
   );
 }

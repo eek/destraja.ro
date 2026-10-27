@@ -1,5 +1,5 @@
 import type { BillLite } from './types';
-import { MODELS, SITE_URL } from './site';
+import { CONTENT_LICENSE, MODELS, SITE_URL } from './site';
 import { agreement, camps, modelScore, oneLiner } from './stats';
 import { RISK } from './risk';
 import { fmt, formatDeadline } from './format';
@@ -44,7 +44,7 @@ export function citation(b: BillLite) {
     oneLiner(b),
     `Scor de risc ${fmt(c.riskScore)}/10 (${MODELS.map((m) => `${m.name} ${fmt(modelScore(b, m.key))}`).join(', ')}).`,
     `Termen de consultare: ${formatDeadline(b.consultationDeadline)}.`,
-    `Sursa: ${SITE_URL}/legi/${b.slug} · fișa oficială: ${b.sheetUrl}`,
+    `Sursa: La Straja Legii, ${SITE_URL}/legi/${b.slug} (${CONTENT_LICENSE.name}) · fișa oficială: ${b.sheetUrl}`,
   ].join(' ');
 }
 

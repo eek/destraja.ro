@@ -36,13 +36,14 @@ Three independent AI readings per bill, shown side by side with their disagreeme
 - MP pages carry a "Scrie-i direct" panel with only the official contact details the chamber publishes on the MP's profile (cdep.ro for deputies, senat.ro for senators): institutional e-mail only (@cdep.ro, @senat.ro; a personal Gmail listed on a profile is left out), phone, parliamentary offices and constituency, each with the source link and the date we checked it, plus a neutral starter message about the MP's highest-risk bill. Names are matched only against the official lists of sitting members; an uncertain match shows no contact data. `scripts/straja-mps.mjs` writes `data/mp-contacts.json` (one request per second, cached in `.cache/mps`); the daily run re-checks every profile on Mondays and only new initiators on other days.
 - Daily update Monday–Friday 08:00 on the operator's Mac (launchd): Senate sync, new analyses, press, reports, deploy, then the email edition.
 - Google Analytics 4 (`G-237KQ8L2FE`) loads only after the visitor accepts in the consent banner; refusing is one click, same as accepting, and withdrawing on /cookies deletes the `_ga` cookies. Events carry public identifiers only (bill id, party, field name), never typed text. Event list in `src/lib/analytics.ts`.
+- Licences: code AGPL-3.0 (`LICENSE`), analyses and data CC BY 4.0 (`LICENSE-DATA.md`). `/presa#citare` says how to cite: online, a link to the bill page; in print, radio or TV, "potrivit La Straja Legii (lastraja.ro)". Copied summaries and citations carry the attribution, and every bill page ends with "Scrii despre acest proiect?" (citation with the link). Official texts, press headlines and quotes, MP contact details and the logo are outside the licence. The "Cod sursă" links appear only once `SOURCE_URL` in `src/lib/site.ts` is set, i.e. when the repo is public.
 - Romanian only. Diacritics use comma-below ș/ț.
 - Risk levels (red/yellow/green) come from the AI consensus, not a fixed score threshold.
 - Operator: Radu-Sebastian Amarie (natural person), contact@lastraja.ro (`OPERATOR_NAME` / `CONTACT_EMAIL` in `src/lib/site.ts`).
 
 ## Brand Commitments
 
-- Name and wordmark: lastraja.ro serif wordmark with a guard in a watchtower forming the "j" (`output/logo-strajer-concepts-2026-10-23/lastraja-logo-j.svg`, shipped as `public/lastraja-logo.svg` and `src/components/LastrajaLogo.tsx`; the tower alone is the favicon). Chosen by the user on 2026-10-25, replacing the earlier watchtower "L".
+- Name and wordmark: lastraja.ro serif wordmark with a guard in a watchtower forming the "j" (`public/lastraja-logo.svg` and `src/components/LastrajaLogo.tsx`; the tower alone is the favicon). Chosen by the user on 2026-10-25, replacing the earlier watchtower "L".
 - Confirmed by the user (2026-10-25): ink-navy brand colour; red/yellow/green reserved for risk levels only; light theme plus a soft slate dark theme (never pure black), following the visitor's system with a manual toggle.
 
 ## Evidence on Hand

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { AlertTriangle, CheckCircle2, ChevronDown, FileText, Scale, Sparkles } from 'lucide-react';
 import { getAllBills, getDataSyncedAt, toLite } from '@/lib/bills';
-import { ARC_DATE, FEATURED_ID, MODELS, OPOZITIE, PUTERE, SENAT_URL } from '@/lib/site';
+import { ARC_DATE, FEATURED_ID, MODELS, OPOZITIE, PUTERE, SENAT_URL, SOURCE_URL } from '@/lib/site';
 import { RISK, RISK_LEVELS } from '@/lib/risk';
 import { fmt, formatDateRo } from '@/lib/format';
 import { Container, RiskChip, RiskDot, linkCls, panel } from '@/components/ui';
@@ -49,11 +49,13 @@ const FAQ = [
   },
   {
     q: 'Pot folosi datele într-un articol sau într-o cercetare?',
-    a: 'Da. Din Camera de presă copiezi rezumatul, titluri verificabile sau descarci un CSV. Te rugăm să citezi sursa, lastraja.ro, și să verifici textul oficial pe senat.ro.',
+    a: 'Da. Analizele, scorurile și datele sunt sub licența CC BY 4.0: le poți prelua și adapta, inclusiv în scop comercial, dacă citezi sursa. Online, pune linkul la pagina proiectului pe lastraja.ro; în tipar, la radio sau la TV, spune „potrivit La Straja Legii (lastraja.ro)”. Din Camera de presă copiezi rezumatul și titluri verificabile sau descarci un CSV. Verifică textul oficial pe senat.ro înainte de publicare.',
   },
   {
     q: 'Cine este în spatele proiectului?',
-    a: 'lastraja.ro este un proiect civic independent. Nu reprezentăm Senatul României și nu lucrăm pentru niciun partid politic.',
+    a: `lastraja.ro este un proiect civic independent. Nu reprezentăm Senatul României și nu lucrăm pentru niciun partid politic.${
+      SOURCE_URL ? ` Codul (AGPL-3.0), prompturile și datele sunt publice: ${SOURCE_URL.replace(/^https:\/\//, '')}.` : ''
+    }`,
   },
 ];
 

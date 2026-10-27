@@ -4,7 +4,7 @@ import { useMemo, useState } from 'react';
 import Link from 'next/link';
 import { ArrowRight, Check, Copy, Download } from 'lucide-react';
 import type { BillLite } from '@/lib/types';
-import { SITE_URL } from '@/lib/site';
+import { CONTENT_LICENSE, SITE_URL } from '@/lib/site';
 import { countWord, fmt } from '@/lib/format';
 import { byRiskDesc, computeStats, oneLiner, riskCounts, type RiskCounts, type Stats } from '@/lib/stats';
 import { billsCsv, copyText, downloadFile, isoToday } from '@/lib/export';
@@ -16,6 +16,7 @@ import CoalitionMatrix from './CoalitionMatrix';
 import Dossier from './Dossier';
 import { CesList, CrossPartyList, Headlines, PanelTitle, PartyDetail, buildHeadlines } from './PressPanels';
 import PressCoverage, { type CoverageItem } from './PressCoverage';
+import CiteTerms from './CiteTerms';
 
 function pressSummary(ranked: BillLite[], stats: Stats, counts: RiskCounts, date: string | null) {
   const top = ranked.filter((b) => b.daysRemaining >= 0)[0] ?? ranked[0];
@@ -49,7 +50,7 @@ function pressSummary(ranked: BillLite[], stats: Stats, counts: RiskCounts, date
     '',
     'Scorurile sunt evaluări AI (Gemini, Claude, ChatGPT) și pot conține erori; nu sunt verdicte juridice.',
     'Un proiect e atribuit fiecărui partid care are inițiatori; co-semnarea nu indică votul final.',
-    'Sursa: lastraja.ro · documente oficiale: senat.ro',
+    `Sursa: La Straja Legii (${SITE_URL}), ${CONTENT_LICENSE.name} · documente oficiale: senat.ro`,
   );
   return lines.join('\n');
 }
@@ -101,7 +102,11 @@ export default function PressClient({ bills: initial, coverage, builtOn }: { bil
                 Camera de presă
               </h1>
               <p className="mt-4 text-lg leading-8 text-body">
-                Cine propune legile riscante, cine semnează cu cine și unde avertizează Consiliul Economic și Social. Totul se poate cita și exporta.
+                Cine propune legile riscante, cine semnează cu cine și unde avertizează Consiliul Economic și Social. Totul se poate cita și exporta:{' '}
+                <a href="#citare" className={linkCls}>
+                  preia liber, cu sursa
+                </a>
+                .
               </p>
             </div>
             <div className="flex flex-wrap gap-2">
@@ -220,6 +225,8 @@ export default function PressClient({ bills: initial, coverage, builtOn }: { bil
           <p className="mt-1 mb-5 text-sm text-muted">Scorul fiecărui model, partidele, termenele. Sortează, filtrează, copiază un citat sau exportă.</p>
           <Dossier bills={bills} parties={dossierParties} onClearParties={() => setDossierParties([])} copied={copied} onCopy={flash} />
         </section>
+
+        <CiteTerms copied={copied} onCopy={flash} />
       </Container>
     </>
   );

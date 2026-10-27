@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { ExternalLink } from 'lucide-react';
 import { LastrajaLogo } from '@/components/LastrajaLogo';
-import { ALERTS_LIVE, MODELS, SENAT_URL } from '@/lib/site';
+import { ALERTS_LIVE, CONTENT_LICENSE, MODELS, SENAT_URL, SOURCE_URL } from '@/lib/site';
 import { formatDateRo } from '@/lib/format';
 import { ThemeSelect } from './ThemeControls';
 
@@ -64,9 +64,27 @@ export default function SiteFooter({ syncedAt }: { syncedAt: string | null }) {
         </div>
       </div>
       <div className="border-t border-line">
-        <p className="mx-auto w-full max-w-[1240px] px-4 py-5 text-xs leading-5 text-muted sm:px-8 lg:px-10">
-          Analizele sunt generate cu AI și pot conține erori. Nu sunt consultanță juridică; verifică întotdeauna textul oficial pe senat.ro.
-        </p>
+        <div className="mx-auto w-full max-w-[1240px] space-y-1 px-4 py-5 text-xs leading-5 text-muted sm:px-8 lg:px-10">
+          <p>Analizele sunt generate cu AI și pot conține erori. Nu sunt consultanță juridică; verifică întotdeauna textul oficial pe senat.ro.</p>
+          <p>
+            Analizele și datele sunt sub licența{' '}
+            <a href={CONTENT_LICENSE.url} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-ink">
+              {CONTENT_LICENSE.name}
+            </a>
+            : preia-le liber, cu sursa și linkul la lastraja.ro.{' '}
+            <Link href="/presa#citare" className="underline underline-offset-2 hover:text-ink">
+              Cum ne citezi
+            </Link>
+            {SOURCE_URL && (
+              <>
+                {' · '}
+                <a href={SOURCE_URL} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-ink">
+                  Codul sursă
+                </a>
+              </>
+            )}
+          </p>
+        </div>
       </div>
     </footer>
   );

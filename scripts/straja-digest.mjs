@@ -38,6 +38,8 @@ const CLOSING_DAYS = 3;
 // Un articol vechi găsit abia acum nu e o noutate: îl notăm ca văzut, dar nu îl trimitem.
 const PRESS_MAX_AGE_DAYS = 7;
 const PRESS_SHOWN = 8;
+// Sub cardul unui proiect scos în față, doar primele articole despre el; restul sunt pe pagina lui.
+const OWN_PRESS_SHOWN = 3;
 const LEVEL_KEYS = ['all', 'yellow', 'red'];
 const MATCHES = { all: () => true, yellow: (r) => r === 'red' || r === 'yellow', red: (r) => r === 'red' };
 const MODEL_NAMES = { consensus: 'concluzia comună', agy: 'analiza Gemini', claude: 'analiza Claude', codex: 'analiza ChatGPT' };
@@ -171,23 +173,32 @@ const H2 = (text) =>
 const linkStyle = `color:${C.link};text-decoration:underline`;
 const ctaLabel = (b) => (b.level === 'red' ? 'Obiectează în 60 de secunde' : 'Vezi detalii și spune-ți părerea');
 
-function billCard(b, { cta = true } = {}) {
+function billCard(b, { cta = true, press = [] } = {}) {
   const r = RISK[b.level];
+  const shownPress = press.slice(0, OWN_PRESS_SHOWN);
+  const pressHtml = shownPress.length
+    ? `<p class="lt-muted" style="margin:14px 0 2px;font-family:${SANS};font-size:12px;line-height:18px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:${C.muted}">În presă despre ${esc(b.id)}</p>${table(shownPress.map((a) => pressRow(a, { bill: false })).join(''))}${
+        press.length > shownPress.length
+          ? `<p class="lt-muted" style="margin:6px 0 0;font-family:${SANS};font-size:13px;line-height:19px;color:${C.muted}">Încă ${countWord(press.length - shownPress.length, 'articol', 'articole')} pe <a href="${esc(billUrl(b))}#presa" class="lt-link" style="${linkStyle}">pagina proiectului</a>.</p>`
+          : ''
+      }`
+    : '';
   return `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" class="lt-surface" style="margin:0 0 14px;border:1px solid ${C.line};border-left:4px solid ${r.fill};border-radius:12px;background:${C.surface}">
 <tr><td style="padding:16px 18px 18px">
 <p style="margin:0 0 10px;font-family:${SANS};font-size:13px;line-height:20px">${riskChip(b.level, b.score)} <span class="lt-muted" style="color:${C.muted};white-space:nowrap">&nbsp;${esc(b.id)} · ${esc(deadlineText(b))}</span></p>
 <a href="${esc(billUrl(b))}" class="lt-ink" style="font-family:${SERIF};font-size:19px;line-height:25px;color:${C.ink};text-decoration:none">${esc(b.title)}</a>
 ${b.oneLiner ? `<p class="lt-body" style="margin:8px 0 0;font-family:${SANS};font-size:15px;line-height:23px;color:${C.body}">${esc(b.oneLiner)}</p>` : ''}
+${pressHtml}
 ${cta ? `<p style="margin:12px 0 0;font-family:${SANS};font-size:14px;line-height:20px;font-weight:600"><a href="${esc(billUrl(b))}" class="lt-link" style="${linkStyle}">${esc(ctaLabel(b))}</a></p>` : ''}
 </td></tr></table>`;
 }
 
-function pressRow(a, showRisk = true) {
+function pressRow(a, { bill = true, risk = true } = {}) {
   const r = RISK[a.bill.level];
   const date = a.publishedAt ? formatDay(dayUtc(a.publishedAt), { day: 'numeric', month: 'long' }) : null;
   return `<tr><td class="lt-line" style="padding:12px 0;border-top:1px solid ${C.line}">
 <a href="${esc(a.url)}" class="lt-ink" style="font-family:${SERIF};font-size:16px;line-height:22px;color:${C.ink};text-decoration:none">${esc(a.title)}</a>
-<p class="lt-muted" style="margin:4px 0 0;font-family:${SANS};font-size:13px;line-height:19px;color:${C.muted}">${esc(a.outlet)}${date ? ` · ${date}` : ''} · despre <a href="${esc(billUrl(a.bill))}#presa" class="lt-link" style="${linkStyle}">${esc(a.bill.id)}</a>${showRisk ? ` <span class="lt-text-${a.bill.level}" style="color:${r.text};font-weight:600">(${r.label.toLowerCase()})</span>` : ''}</p>
+<p class="lt-muted" style="margin:4px 0 0;font-family:${SANS};font-size:13px;line-height:19px;color:${C.muted}">${esc(a.outlet)}${date ? ` · ${date}` : ''}${bill ? ` · despre <a href="${esc(billUrl(a.bill))}#presa" class="lt-link" style="${linkStyle}">${esc(a.bill.id)}</a>${risk ? ` <span class="lt-text-${a.bill.level}" style="color:${r.text};font-weight:600">(${r.label.toLowerCase()})</span>` : ''}` : ''}</p>
 </td></tr>`;
 }
 
@@ -220,6 +231,12 @@ function edition(level, data) {
   const press = data.press.filter((a) => match(a.bill));
   const corrections = data.corrections.filter((c) => match(c.bill));
   if (newBills.length + closing.length + press.length + corrections.length === 0) return null;
+  // Articolele despre proiectele scoase în față stau în cardul lor; restul, separat, ca să nu pară despre ele.
+  const featured = [...newBills, ...closing];
+  const featuredIds = new Set(featured.map((b) => b.id));
+  const ownPress = press.filter((a) => featuredIds.has(a.bill.id));
+  const otherPress = press.filter((a) => !featuredIds.has(a.bill.id));
+  const pressOf = (b) => ownPress.filter((a) => a.bill.id === b.id);
 
   const levelName = LEVELS[level].label;
   const dateLong = capitalize(formatDay(dayUtc(DAY), { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }));
@@ -231,10 +248,14 @@ function edition(level, data) {
     parts.push(`${countWord(newBills.length, 'proiect nou', 'proiecte noi')} în consultare${redNew && level !== 'red' ? `, ${redNew} cu risc ridicat` : ''}`);
   }
   if (closing.length) parts.push(closing.length === 1 ? `ultimele zile pentru ${closing[0].id}` : `${countWord(closing.length, 'consultare se închide', 'consultări se închid')} curând`);
-  if (press.length) parts.push(`${countWord(press.length, 'articol', 'articole')} în presă`);
+  // Presa despre proiectele scoase în față apare în subiect; cea despre alte proiecte doar în deschidere, ca
+  // subiectul să nu promită articole despre proiectul care se închide.
+  if (ownPress.length) parts.push(`${countWord(ownPress.length, 'articol', 'articole')} în presă despre ${featured.length === 1 ? 'el' : 'ele'}`);
+  const otherPart = otherPress.length ? `${countWord(otherPress.length, 'articol', 'articole')} în presă${featured.length ? ' despre alte proiecte' : ''}` : null;
+  if (otherPart) parts.push(otherPart);
   if (corrections.length) parts.push(corrections.length === 1 ? `analiza ${corrections[0].bill.id} corectată` : `${corrections.length} analize corectate`);
 
-  const subject = capitalize(parts.slice(0, 2).join(' · '));
+  const subject = capitalize(parts.filter((p) => p !== otherPart || !featured.length).slice(0, 2).join(' · '));
   const lead = `${capitalize(parts.join(', ').replace(/, ([^,]*)$/, ' și $1'))}.`;
   const intro = newBills.length
     ? 'Fiecare proiect are pe site explicația pe înțeles, scorul celor trei modele AI și un formular pe care îl trimiți Senatului în 60 de secunde.'
@@ -243,21 +264,27 @@ function edition(level, data) {
 
   let body = `<h1 class="lt-ink lt-h1" style="margin:0 0 14px;font-family:${SERIF};font-size:28px;font-weight:400;line-height:35px;color:${C.ink}">${esc(lead)}</h1>${P(esc(intro))}`;
   let text = `${lead}\n\n${intro}\n`;
-  const textBill = (b) => `\n- ${b.title}\n  ${RISK[b.level].label} ${fmtScore(b.score)} · ${b.id} · ${deadlineText(b)}\n  ${billUrl(b)}`;
+  const textBill = (b) =>
+    `\n- ${b.title}\n  ${RISK[b.level].label} ${fmtScore(b.score)} · ${b.id} · ${deadlineText(b)}\n  ${billUrl(b)}` +
+    pressOf(b)
+      .slice(0, OWN_PRESS_SHOWN)
+      .map((a) => `\n  În presă: ${a.title} (${a.outlet}) ${a.url}`)
+      .join('');
 
   if (newBills.length) {
-    body += H2(newBills.length === 1 ? 'Proiect nou în consultare' : 'Proiecte noi în consultare') + newBills.map((b) => billCard(b)).join('');
+    body += H2(newBills.length === 1 ? 'Proiect nou în consultare' : 'Proiecte noi în consultare') + newBills.map((b) => billCard(b, { press: pressOf(b) })).join('');
     text += `\nPROIECTE NOI ÎN CONSULTARE\n${newBills.map(textBill).join('\n')}\n`;
   }
   if (closing.length) {
-    body += H2('Ultimele zile pentru obiecții') + closing.map((b) => billCard(b)).join('');
+    body += H2('Ultimele zile pentru obiecții') + closing.map((b) => billCard(b, { press: pressOf(b) })).join('');
     text += `\nULTIMELE ZILE PENTRU OBIECȚII\n${closing.map(textBill).join('\n')}\n`;
   }
-  if (press.length) {
-    const shown = press.slice(0, PRESS_SHOWN);
-    body += H2('În presă') + table(shown.map((a) => pressRow(a, level !== 'red')).join(''));
-    if (press.length > shown.length) body += P(`Încă ${countWord(press.length - shown.length, 'articol', 'articole')} pe paginile proiectelor.`, 'margin:12px 0 0;font-size:14px;line-height:22px');
-    text += `\nÎN PRESĂ\n${shown.map((a) => `\n- ${a.title}\n  ${a.outlet} · despre ${a.bill.id}\n  ${a.url}`).join('\n')}\n`;
+  if (otherPress.length) {
+    const heading = featured.length ? 'În presă despre celelalte proiecte' : 'În presă';
+    const shown = otherPress.slice(0, PRESS_SHOWN);
+    body += H2(heading) + table(shown.map((a) => pressRow(a, { risk: level !== 'red' })).join(''));
+    if (otherPress.length > shown.length) body += P(`Încă ${countWord(otherPress.length - shown.length, 'articol', 'articole')} pe paginile proiectelor.`, 'margin:12px 0 0;font-size:14px;line-height:22px');
+    text += `\n${heading.toUpperCase()}\n${shown.map((a) => `\n- ${a.title}\n  ${a.outlet} · despre ${a.bill.id}\n  ${a.url}`).join('\n')}\n`;
   }
   if (corrections.length) {
     body +=

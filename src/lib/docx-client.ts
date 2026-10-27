@@ -141,7 +141,7 @@ export async function downloadPersonalizedDocx(
             paragraphs: [
               `Evaluare Gemini (Gemini 4 Argon): ${bill.analysis.council.agy.verdictShort} — ${bill.analysis.council.agy.constitutionalityNote} ${bill.analysis.council.agy.euLawNote}`,
               `Evaluare Claude (Claude Opus 5.5): ${bill.analysis.council.claude.verdictShort} — ${bill.analysis.council.claude.constitutionalityNote} ${bill.analysis.council.claude.euLawNote}`,
-              `Evaluare ChatGPT (GPT-6.1): ${bill.analysis.council.codex.verdictShort} — ${bill.analysis.council.codex.constitutionalityNote} ${bill.analysis.council.codex.euLawNote}`,
+              `Evaluare ChatGPT (GPT-6.1 Sol): ${bill.analysis.council.codex.verdictShort} — ${bill.analysis.council.codex.constitutionalityNote} ${bill.analysis.council.codex.euLawNote}`,
             ],
           },
           {

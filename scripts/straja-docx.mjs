@@ -134,7 +134,7 @@ async function generateDocxForBill(bill, analysis) {
           paragraphs: [
             `Evaluare Gemini (Gemini 4 Argon): ${analysis.council.agy.verdictShort} — ${analysis.council.agy.constitutionalityNote} ${analysis.council.agy.euLawNote}`,
             `Evaluare Claude (Claude Opus 5.5): ${analysis.council.claude.verdictShort} — ${analysis.council.claude.constitutionalityNote} ${analysis.council.claude.euLawNote}`,
-            `Evaluare ChatGPT (GPT-6.1): ${analysis.council.codex.verdictShort} — ${analysis.council.codex.constitutionalityNote} ${analysis.council.codex.euLawNote}`,
+            `Evaluare ChatGPT (GPT-6.1 Sol): ${analysis.council.codex.verdictShort} — ${analysis.council.codex.constitutionalityNote} ${analysis.council.codex.euLawNote}`,
           ],
         },
         {

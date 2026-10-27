@@ -14,7 +14,7 @@ export const FEATURED_ID = 'B563/2026';
 export const MODELS = [
   { key: 'agy', name: 'Gemini', fullName: 'Gemini 4 Argon', vendor: 'Google DeepMind', role: 'Tehnică legislativă, sancțiuni și impact cetățenesc' },
   { key: 'claude', name: 'Claude', fullName: 'Claude Opus 5.5', vendor: 'Anthropic', role: 'Constituționalitate și drept UE' },
-  { key: 'codex', name: 'ChatGPT', fullName: 'ChatGPT (GPT-6.1)', vendor: 'OpenAI', role: 'Impact economic, IT/AI, IMM și fiscalitate' },
+  { key: 'codex', name: 'ChatGPT', fullName: 'ChatGPT (GPT-6.1 Sol)', vendor: 'OpenAI', role: 'Impact economic, IT/AI, IMM și fiscalitate' },
 ] as const;
 
 export type ModelKey = (typeof MODELS)[number]['key'];

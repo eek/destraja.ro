@@ -1,6 +1,6 @@
 import { ChevronDown, ExternalLink, Users } from 'lucide-react';
 import type { BillPositions as Positions, CivicPosition, PositionStance, PositionsSummary } from '@/lib/types';
-import { countWord, formatDateRo } from '@/lib/format';
+import { countWord, formatDateRo, initialRows } from '@/lib/format';
 import { stanceLabel } from '@/lib/positions';
 import { trackAttrs } from '@/lib/analytics';
 import { panel } from '@/components/ui';
@@ -14,6 +14,7 @@ const CHIP: Record<PositionStance, string> = {
 };
 
 const linkCls = 'inline-flex min-h-11 items-center gap-1 font-semibold text-link underline-offset-4 hover:underline';
+const SHOWN = 3;
 
 /** Linia din antetul proiectului, ca „În presă”: duce la secțiunea cu pozițiile. */
 export function PositionsLink({ summary }: { summary: PositionsSummary }) {
@@ -107,7 +108,7 @@ function PositionItem({ billId, p }: { billId: string; p: CivicPosition }) {
             {...trackAttrs('position_open', { bill_id: billId, domain: p.domain, link: 'page' })}
             className={linkCls}
           >
-            {p.viaPress ? `Relatat de ${p.domain}` : `Sursa: ${p.domain}`}
+            {p.ownSite ? `Pagina pe ${p.domain}` : `Relatat de ${p.domain}`}
             <ExternalLink className="h-3.5 w-3.5" aria-hidden />
             <span className="sr-only">(se deschide într-o filă nouă)</span>
           </a>
@@ -119,6 +120,9 @@ function PositionItem({ billId, p }: { billId: string; p: CivicPosition }) {
 
 export default function BillPositions({ billId, data, summary }: { billId: string; data: Positions; summary: PositionsSummary }) {
   const list = data.positions;
+  const first = initialRows(list.length, SHOWN);
+  const rest = list.slice(first);
+  const item = (p: CivicPosition) => <PositionItem key={p.documentUrl ?? p.pageUrl ?? p.issuer} billId={billId} p={p} />;
   const checked = data.checkedAt ?? list.map((p) => p.verifiedAt).sort().at(-1) ?? null;
   return (
     <section id="pozitii" aria-labelledby="pozitii-title" className="scroll-mt-24">
@@ -139,14 +143,26 @@ export default function BillPositions({ billId, data, summary }: { billId: strin
           <p className="mt-1 text-sm text-body">
             {summary.line ? `${summary.line}. ` : ''}Scrisori, petiții și puncte de vedere publice, fiecare verificată în sursa ei.
           </p>
-          <ul className={`${panel} mt-4 divide-y divide-line overflow-hidden`}>
-            {list.map((p) => (
-              <PositionItem key={p.documentUrl ?? p.pageUrl ?? p.issuer} billId={billId} p={p} />
-            ))}
-          </ul>
+          <div className={`${panel} mt-4 overflow-hidden`}>
+            <ul className="divide-y divide-line">{list.slice(0, first).map(item)}</ul>
+            {rest.length > 0 && (
+              <details className="group/more border-t border-line">
+                <summary
+                  {...trackAttrs('position_more', { bill_id: billId })}
+                  className="flex min-h-12 cursor-pointer items-center justify-between gap-3 px-5 text-sm font-semibold text-link transition-colors hover:bg-sunken/60 sm:px-6"
+                >
+                  <span className="group-open/more:hidden">Vezi toate cele {countWord(list.length, 'poziție', 'poziții')}</span>
+                  <span className="hidden group-open/more:inline">Arată mai puține</span>
+                  <ChevronDown className="chevron h-4 w-4 shrink-0" aria-hidden />
+                </summary>
+                <ul className="divide-y divide-line border-t border-line">{rest.map(item)}</ul>
+              </details>
+            )}
+          </div>
           <p className="mt-3 text-xs leading-5 text-muted">
-            Le căutăm cu Gemini, Claude și ChatGPT și le verificăm automat: documentul se deschide, pomenește proiectul și conține citatul de mai sus.
-            Semnatarii sunt numărați din lista documentului; persoanele fizice apar doar ca număr. Pozițiile nu influențează scorul de risc.
+            Le căutăm cu Gemini, Claude și ChatGPT și le verificăm automat: pagina sau documentul se deschide, pomenește proiectul și conține citatul.
+            „Relatat de” înseamnă că sursa e un articol despre poziție, nu pagina organizației. Semnatarii sunt numărați din lista documentului;
+            persoanele fizice apar doar ca număr. Pozițiile nu influențează scorul de risc.
           </p>
         </>
       )}

@@ -171,8 +171,10 @@ export interface CivicPosition {
   pageUrl: string | null;
   documentUrl: string | null;
   domain: string;
-  /** Sursa e un articol de presă care relatează poziția, nu documentul emitentului. */
+  /** Sursa e o publicație din lista de presă urmărită. */
   viaPress: boolean;
+  /** Pagina e pe site-ul emitentului (domeniul e numele, acronimul sau inițialele lui); altfel e o relatare. */
+  ownSite: boolean;
   /** Din lista numerotată a documentului: doar organizațiile cu nume, persoanele fizice doar numărate. */
   signatories: { organizations: number; individuals: number; names: string[] } | null;
   verifiedAt: string;

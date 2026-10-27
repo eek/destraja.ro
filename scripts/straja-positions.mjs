@@ -241,6 +241,28 @@ function issuerFound(issuer, texts) {
   return issuerVariants(issuer).some((v) => hay.some((h) => h.includes(` ${v} `)));
 }
 
+/**
+ * Pagina e chiar pe site-ul emitentului? Domeniul trebuie să fie numele, acronimul sau inițialele lui:
+ * concordia.ro (Confederația Patronală Concordia), ceccar.ro (CECCAR), ccjb.ro (Colegiul Consilierilor Juridici București).
+ */
+function ownSite(issuer, domain) {
+  const label = norm(domain.split('.').slice(-2, -1)[0] ?? '').replace(/ /g, '');
+  if (label.length < 3) return false;
+  const words = norm(issuer.replace(/\([^)]*\)/g, ' ')).split(' ').filter(Boolean);
+  const initials = words.filter((w) => w.length > 2).map((w) => w[0]).join('');
+  const names = [...issuerVariants(issuer), ...words.filter((w) => w.length >= 5)].map((v) => v.replace(/ /g, ''));
+  return [initials, ...names].some((n) => n.length >= 3 && (label === n || label.startsWith(n) || n.startsWith(label)));
+}
+
+/** „Titlul articolului - Dobrogea Online” → „Titlul articolului”, când coada e numele site-ului. */
+function dropSiteName(title, domain) {
+  const m = /\s+[-–|·]\s*([^-–|·]+)$/.exec(title);
+  if (!m) return title;
+  const tail = norm(m[1]).replace(/ /g, '');
+  const site = norm(domain.split('.').slice(-2, -1)[0] ?? '').replace(/ /g, '');
+  return tail && site && (tail.includes(site) || site.includes(tail)) ? title.slice(0, m.index).trim() : title;
+}
+
 const sameIssuer = (a, b) => {
   const x = norm(a.replace(/\([^)]*\)/g, ' '));
   const y = norm(b.replace(/\([^)]*\)/g, ' '));
@@ -334,7 +356,8 @@ async function verify(bill, cand) {
   }
 
   const domain = domainOf(html?.finalUrl ?? doc.finalUrl);
-  const title = [cand.title, doc?.title, html?.title].map((t) => ro(t ?? '')).find((t) => t.length >= 8 && texts.some((x) => norm(x).includes(norm(t)))) ?? null;
+  const found = [cand.title, doc?.title, html?.title].map((t) => ro(t ?? '')).find((t) => t.length >= 8 && texts.some((x) => norm(x).includes(norm(t))));
+  const title = found ? dropSiteName(found, domain) : null;
   return {
     status: 'ok',
     position: {
@@ -352,6 +375,7 @@ async function verify(bill, cand) {
       documentUrl: doc ? docUrl ?? doc.finalUrl : null,
       domain,
       viaPress: Boolean(matchDomain(domain, Object.keys(OUTLETS))),
+      ownSite: ownSite(issuer, domain),
       billMatch: mention,
       signatories,
       ...(doc?.sha256 && { documentSha256: doc.sha256 }),
@@ -369,7 +393,7 @@ async function verify(bill, cand) {
 const posKey = (p) => urlKey(p.documentUrl ?? p.pageUrl);
 const orgCount = (p) => (p.signatories ? Math.max(p.signatories.organizations, 1) : 1);
 // Ce poziție păstrăm când două spun același lucru: documentul emitentului bate articolul, citatul din document bate pagina.
-const strength = (p) => (p.viaPress ? 0 : 4) + (p.documentUrl ? 2 : 0) + (p.quoteIn === 'document' ? 1 : 0) + (p.signatories ? 1 : 0);
+const strength = (p) => (p.ownSite ? 4 : 0) + (p.documentUrl ? 2 : 0) + (p.quoteIn === 'document' ? 1 : 0) + (p.signatories ? 1 : 0);
 
 function mergePositions(previous, fresh) {
   const out = new Map(previous.map((p) => [posKey(p), p]));
@@ -397,7 +421,9 @@ function mergePositions(previous, fresh) {
       twin.foundBy = [...new Set([...twin.foundBy, ...p.foundBy])];
     }
   }
-  return { positions: kept.sort((a, b) => orgCount(b) - orgCount(a) || (b.date ?? '').localeCompare(a.date ?? '')), conflicts };
+  // Întâi coalițiile mari, apoi documentele de pe site-ul emitentului, apoi cele mai noi.
+  kept.sort((a, b) => orgCount(b) - orgCount(a) || Number(!!b.ownSite) - Number(!!a.ownSite) || (b.date ?? '').localeCompare(a.date ?? ''));
+  return { positions: kept, conflicts };
 }
 
 // ---------- un proiect ----------

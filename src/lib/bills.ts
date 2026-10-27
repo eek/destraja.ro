@@ -182,6 +182,7 @@ export async function getBillPositions(slug: string): Promise<BillPositions | nu
     documentUrl: p.documentUrl ?? null,
     domain: p.domain,
     viaPress: !!p.viaPress,
+    ownSite: !!p.ownSite,
     signatories: p.signatories
       ? { organizations: p.signatories.organizations, individuals: p.signatories.individuals, names: p.signatories.names ?? [] }
       : null,

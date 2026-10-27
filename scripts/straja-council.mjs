@@ -1,10 +1,9 @@
 #!/usr/bin/env node
 import fs from 'node:fs';
 import path from 'node:path';
-import { spawn } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { writeBillTexts } from './lib/pdf-text.mjs';
-import { BINS } from './lib/ai-cli.mjs';
+import { runModel } from './lib/ai-cli.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(__dirname, '..');
@@ -30,60 +29,6 @@ async function extractPdfTextsForBill(bill) {
     pdfParse,
     cacheDir: path.join(ROOT_DIR, '.cache', 'ocr'),
   });
-}
-
-function runCommand(cmd, args, inputStdin = null, timeoutMs = 180000) {
-  return new Promise((resolve, reject) => {
-    const child = spawn(cmd, args, {
-      cwd: ROOT_DIR,
-      env: { ...process.env },
-      stdio: ['pipe', 'pipe', 'pipe'],
-    });
-
-    let stdout = '';
-    let stderr = '';
-    const timer = setTimeout(() => {
-      child.kill('SIGTERM');
-      reject(new Error(`Timeout after ${timeoutMs}ms running ${path.basename(cmd)}`));
-    }, timeoutMs);
-
-    child.stdout.on('data', (chunk) => {
-      stdout += chunk.toString();
-    });
-    child.stderr.on('data', (chunk) => {
-      stderr += chunk.toString();
-    });
-
-    child.on('error', (err) => {
-      clearTimeout(timer);
-      reject(err);
-    });
-
-    child.on('close', (code) => {
-      clearTimeout(timer);
-      if (code !== 0 && !stdout.trim()) {
-        reject(new Error(`${cmd} exited with code ${code}: ${stderr.slice(0, 400)}`));
-      } else {
-        resolve({ stdout, stderr, code });
-      }
-    });
-
-    if (inputStdin) {
-      child.stdin.write(inputStdin);
-    }
-    child.stdin.end();
-  });
-}
-
-function extractJsonFromText(raw = '') {
-  const fenced = raw.match(/```(?:json)?\s*([\s\S]*?)```/i);
-  const candidate = fenced ? fenced[1] : raw;
-  const firstBrace = candidate.indexOf('{');
-  const lastBrace = candidate.lastIndexOf('}');
-  if (firstBrace !== -1 && lastBrace !== -1 && lastBrace > firstBrace) {
-    return JSON.parse(candidate.slice(firstBrace, lastBrace + 1));
-  }
-  throw new Error('Nu am putut extrage JSON valid din răspunsul AI');
 }
 
 function buildCouncilPrompt(bill, texts) {
@@ -144,37 +89,13 @@ STRUCTURA JSON CERUTĂ:
 }`;
 }
 
+// Același apel izolat ca în restul scripturilor (scripts/lib/ai-cli.mjs): fără unelte, într-un director gol,
+// fără variabilele din .env. Proiectele lungi pot cere câteva minute.
 async function runSingleAi(modelKey, prompt) {
-  const start = Date.now();
-  try {
-    let res;
-    if (modelKey === 'agy') {
-      res = await runCommand(BINS.agy, ['--disable-slash-commands', '--model', 'gemini-4-argon-high', '-p', prompt], null, 150000);
-    } else if (modelKey === 'claude') {
-      res = await runCommand(BINS.claude, ['-p', '--tools', ''], prompt, 150000);
-    } else if (modelKey === 'codex') {
-      res = await runCommand(
-        BINS.codex,
-        ['exec', '--skip-git-repo-check', '-s', 'read-only', '-'],
-        prompt,
-        150000
-      );
-    }
-    const parsed = extractJsonFromText(res.stdout);
-    return {
-      model: modelKey,
-      status: 'ok',
-      durationMs: Date.now() - start,
-      ...parsed,
-    };
-  } catch (err) {
-    return {
-      model: modelKey,
-      status: 'error',
-      durationMs: Date.now() - start,
-      error: err.message,
-    };
-  }
+  const res = await runModel(modelKey, prompt, { mode: 'offline', timeoutMs: 420000 });
+  return res.status === 'ok'
+    ? { model: modelKey, status: 'ok', durationMs: res.durationMs, ...res.data }
+    : { model: modelKey, status: 'error', durationMs: res.durationMs, error: res.error };
 }
 
 async function analyzeBillWithCouncil(bill, force = false) {

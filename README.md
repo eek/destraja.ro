@@ -8,8 +8,8 @@
 </p>
 
 <p align="center">
-  <b>Legile se schimbă. Și tu ai un cuvânt de spus.</b><br>
-  Ce pregătește Senatul, ce înseamnă pentru tine și cum trimiți o obiecție oficială. Pe înțelesul tuturor.
+  <b>Stăm de strajă. Să știi ce se pregătește.</b><br>
+  Proiectele aflate în consultare la Senat, ce înseamnă pentru tine și cum trimiți o obiecție oficială. Pe înțelesul tuturor.
 </p>
 
 <p align="center">
@@ -22,7 +22,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset=".github/readme/home-dark.webp">
-  <img src=".github/readme/home-light.webp" alt="Prima pagină lastraja.ro: titlul „Legile se schimbă. Și tu ai un cuvânt de spus.” și satul 3D, cu avizierul proiectelor aflate în consultare">
+  <img src=".github/readme/home-light.webp" alt="Prima pagină lastraja.ro: titlul „Stăm de strajă. Să știi ce se pregătește.” și satul 3D, cu avizierul proiectelor aflate în consultare">
 </picture>
 
 ## Ce este

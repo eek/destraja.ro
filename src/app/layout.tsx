@@ -25,7 +25,7 @@ const sans = Public_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: 'lastraja.ro · La Straja Legii',
+    default: 'lastraja.ro · Stăm de strajă. Să știi ce se pregătește.',
     template: '%s · lastraja.ro',
   },
   description:
@@ -34,8 +34,8 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'ro_RO',
     siteName: 'lastraja.ro',
-    title: 'lastraja.ro · La Straja Legii',
-    description: 'Ce legi pregătește Senatul, ce înseamnă pentru tine și cum îți spui părerea oficial.',
+    title: 'lastraja.ro · Stăm de strajă. Să știi ce se pregătește.',
+    description: 'Proiectele de lege aflate în consultare la Senat, ce înseamnă pentru tine și cum îți spui părerea oficial.',
   },
   twitter: { card: 'summary_large_image' },
 };

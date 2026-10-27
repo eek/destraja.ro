@@ -17,7 +17,7 @@ OWN-WORLD: Warm paper ground (#F6F4EE) with white surfaces, ink-navy (#13233F) t
 
 STORY: A citizen sees that laws are changing, finds the risky ones on the radar, reads one sentence, and files an opinion in 60 seconds. A journalist sees who proposes them and who signs together, and takes the data.
 
-FIRST VIEWPORT: Left: two-line serif headline "Legile se schimbă. / Tu ai un cuvânt de spus.", one-line lead, primary navy button "Vezi legile care te afectează", secondary link "Explorează datele", source line. Right (desktop) / below (mobile): the risk radar, all bills as dots (closer to centre = riskier), with the selected bill's card under it.
+FIRST VIEWPORT: Left: two-line serif headline "Stăm de strajă. / Să știi ce se pregătește.", one-line lead, primary navy button "Vezi legile care te afectează", secondary link "Explorează datele", source line. Right (desktop) / below (mobile): the risk radar, all bills as dots (closer to centre = riskier), with the selected bill's card under it.
 
 FORM: user-pinned merge (brief-pinned; no concept roll): GPT V3 layout and voice, Opus V2 bill cards, radar, ordered party chart and coalition map, GPT "De ce acest nivel de risc?" disclosure.
 

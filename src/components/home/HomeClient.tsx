@@ -41,11 +41,11 @@ export default function HomeClient({ bills: initial, syncedLabel }: { bills: Bil
         <Container className="grid items-center gap-12 py-12 sm:py-16 lg:grid-cols-[minmax(0,1.08fr)_minmax(0,0.92fr)] lg:gap-14 lg:py-20">
           <div>
             <h1 id="hero-title" className="font-display text-[clamp(2.6rem,5vw,4.1rem)] font-normal leading-[1.02] tracking-[-0.03em]">
-              <span className="block text-muted">Legile se schimbă.</span>
-              <span className="block font-medium text-ink">Și tu ai un cuvânt de spus.</span>
+              <span className="block text-muted">Stăm de strajă.</span>
+              <span className="block font-medium text-ink">Să știi ce se pregătește.</span>
             </h1>
             <p className="mt-7 max-w-[44ch] text-lg leading-8 text-body">
-              Ce pregătește Senatul, ce înseamnă pentru tine și cum trimiți o obiecție oficială. Pe înțelesul tuturor.
+              Proiectele aflate în consultare la Senat, ce înseamnă pentru tine și cum trimiți o obiecție oficială. Pe&nbsp;înțelesul tuturor.
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-4">
               <a href="#legi" className={`${btnPrimary} min-h-12 px-5 text-[15px]`}>

@@ -9,7 +9,7 @@ export const OG_SIZE = { width: 1200, height: 630 };
 
 // Tema deschisă a site-ului; fundalul e cel al imaginii cu satul, ca să nu se vadă marginea ei.
 export const OG = {
-  bg: '#fffdfc',
+  bg: '#fffefb',
   ink: '#121a2b',
   body: '#2c3546',
   muted: '#5b6475',

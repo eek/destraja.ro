@@ -50,7 +50,7 @@ export function positionsSummary(positions: CivicPosition[]): PositionsSummary {
   }
   if (pro.length) {
     if (!against.length) parts.push(support === 1 ? `${pro[0].issuer} susține proiectul` : `${countWord(support, 'organizație', 'organizații')} susțin proiectul`);
-    else parts.push(support === 1 ? '1 îl susține' : `${support} îl susțin`);
+    else parts.push(`${countWord(support, 'organizație', 'organizații')} îl ${support === 1 ? 'susține' : 'susțin'}`);
   }
   return { count: positions.length, against: union(against), oppose, amend, support, line: parts.length ? parts.join('; ') : null };
 }

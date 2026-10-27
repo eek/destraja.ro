@@ -53,8 +53,8 @@ const DUE_HOURS = { urgent: 20, yellow: 72, green: 168 };
 
 // Cuvintele care trebuie să apară în citat ca să susțină poziția (textul e fără diacritice, cu litere mici).
 const STANCE_WORDS = {
-  retragere: /retrag|renunt|abandon|respin|abrog|sa nu (fie )?adopt|nu (il |o )?adopt|impotriva|opri/,
-  respingere: /respin|impotriva|sa nu (fie )?adopt|nu (il |o )?adopt|vot negativ|retrag/,
+  retragere: /retrag|renunt|abandon|respin|abrog|sa nu (fie )?adopt|nu (il |o )?adopt|impotriva|opri|(se |ne )opun|opozitia (noastra |ferma )?fata/,
+  respingere: /respin|impotriva|sa nu (fie )?adopt|nu (il |o )?adopt|vot negativ|retrag|(se |ne )opun|opozitia (noastra |ferma )?fata/,
   modificare: /modific|elimin|amend|complet|reformul|revizu|reanaliz|retrag\w* (a )?(acestor |unor )?prevederi|clarific|schimb|corect|exceptar|exclud|scoate/,
   sustinere: /sustin|salut|favorabil|sprijin|bine ?venit|apreci/,
 };

@@ -45,28 +45,30 @@ function Signatories({ billId, p }: { billId: string; p: CivicPosition }) {
   // Numerotăm ca în document doar când lista are numai organizații; altfel numerele n-ar mai corespunde.
   const numbered = s.individuals === 0;
   return (
-    <details className="group/sig mt-4">
-      <summary
-        {...trackAttrs('position_signatories', { bill_id: billId, domain: p.domain })}
-        className="flex min-h-11 cursor-pointer flex-wrap items-center gap-x-3 gap-y-1 py-2 text-sm"
-      >
-        <span className="whitespace-nowrap font-semibold tabular-nums text-ink">{countWord(s.organizations, 'organizație semnatară', 'organizații semnatare')}</span>
-        <span className="inline-flex items-center gap-1 whitespace-nowrap font-semibold text-link">
-          <span className="group-open/sig:hidden">Vezi lista</span>
-          <span className="hidden group-open/sig:inline">Ascunde lista</span>
-          <ChevronDown className="chevron h-4 w-4 shrink-0" aria-hidden />
-        </span>
-      </summary>
-      <ol className="mt-1 grid max-h-[26rem] gap-y-1 overflow-y-auto overscroll-contain rounded-xl bg-sunken p-4 text-sm leading-6 text-body sm:grid-cols-2 sm:gap-x-8">
-        {s.names.map((name, i) => (
-          <li key={i} className="flex gap-2">
-            {numbered && <span className="w-8 shrink-0 text-right text-xs leading-6 tabular-nums text-muted">{i + 1}.</span>}
-            <span className="min-w-0">{name}</span>
-          </li>
-        ))}
-      </ol>
+    <>
+      <details className="group/sig mt-4">
+        <summary
+          {...trackAttrs('position_signatories', { bill_id: billId, domain: p.domain })}
+          className="flex min-h-11 cursor-pointer flex-wrap items-center gap-x-3 gap-y-1 py-2 text-sm"
+        >
+          <span className="whitespace-nowrap font-semibold tabular-nums text-ink">{countWord(s.organizations, 'organizație semnatară', 'organizații semnatare')}</span>
+          <span className="inline-flex items-center gap-1 whitespace-nowrap font-semibold text-link">
+            <span className="group-open/sig:hidden">Vezi lista</span>
+            <span className="hidden group-open/sig:inline">Ascunde lista</span>
+            <ChevronDown className="chevron h-4 w-4 shrink-0" aria-hidden />
+          </span>
+        </summary>
+        <ol className="mt-1 grid max-h-[26rem] gap-y-1 overflow-y-auto overscroll-contain rounded-xl bg-sunken p-4 text-sm leading-6 text-body sm:grid-cols-2 sm:gap-x-8">
+          {s.names.map((name, i) => (
+            <li key={i} className="flex gap-2">
+              {numbered && <span className="w-8 shrink-0 text-right text-xs leading-6 tabular-nums text-muted">{i + 1}.</span>}
+              <span className="min-w-0">{name}</span>
+            </li>
+          ))}
+        </ol>
+      </details>
       {people}
-    </details>
+    </>
   );
 }
 

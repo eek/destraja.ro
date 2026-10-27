@@ -17,6 +17,7 @@
 // Nu folosim niciodată --dangerously-skip-permissions sau flagurile „dangerously” ale codex.
 
 import fs from 'node:fs';
+import os from 'node:os';
 import path from 'node:path';
 import { spawn } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
@@ -27,10 +28,12 @@ export const SANDBOX_DIR = path.join(ROOT_DIR, '.cache', 'ai-sandbox');
 
 export const MODEL_KEYS = ['agy', 'claude', 'codex'];
 
-const BINS = {
-  agy: process.env.AGY_BIN || '/Users/eek/.local/bin/agy',
-  claude: process.env.CLAUDE_BIN || '/Users/eek/.local/bin/claude',
-  codex: process.env.CODEX_BIN || '/Users/eek/.local/bin/codex',
+// CLI-urile stau implicit în ~/.local/bin; AGY_BIN, CLAUDE_BIN și CODEX_BIN le pot muta.
+const LOCAL_BIN = path.join(os.homedir(), '.local', 'bin');
+export const BINS = {
+  agy: process.env.AGY_BIN || path.join(LOCAL_BIN, 'agy'),
+  claude: process.env.CLAUDE_BIN || path.join(LOCAL_BIN, 'claude'),
+  codex: process.env.CODEX_BIN || path.join(LOCAL_BIN, 'codex'),
 };
 
 const CODEX_OFF = ['shell_tool', 'apps', 'browser_use', 'browser_use_external', 'computer_use', 'in_app_browser', 'plugins', 'hooks', 'skill_mcp_dependency_install'];
@@ -61,7 +64,7 @@ function args(model, mode) {
 // Doar ce le trebuie CLI-urilor ca să găsească autentificarea din HOME; nimic din .env.
 function minimalEnv() {
   const keep = ['HOME', 'USER', 'LOGNAME', 'LANG', 'LC_ALL', 'TMPDIR', 'CODEX_HOME'];
-  const env = { PATH: '/Users/eek/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin' };
+  const env = { PATH: `${LOCAL_BIN}:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin` };
   for (const k of keep) if (process.env[k]) env[k] = process.env[k];
   env.LANG ??= 'en_US.UTF-8';
   return env;

@@ -4,6 +4,7 @@ import path from 'node:path';
 import { spawn } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { writeBillTexts } from './lib/pdf-text.mjs';
+import { BINS } from './lib/ai-cli.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(__dirname, '..');
@@ -15,12 +16,6 @@ const BILLS_FILE = path.join(DATA_DIR, 'senat-bills.json');
 
 fs.mkdirSync(TEXT_DIR, { recursive: true });
 fs.mkdirSync(ANALYSES_DIR, { recursive: true });
-
-const AI_BINS = {
-  agy: process.env.AGY_BIN || '/Users/eek/.local/bin/agy',
-  claude: process.env.CLAUDE_BIN || '/Users/eek/.local/bin/claude',
-  codex: process.env.CODEX_BIN || '/Users/eek/.local/bin/codex',
-};
 
 async function extractPdfTextsForBill(bill) {
   let pdfParse = null;
@@ -49,7 +44,7 @@ function runCommand(cmd, args, inputStdin = null, timeoutMs = 180000) {
     let stderr = '';
     const timer = setTimeout(() => {
       child.kill('SIGTERM');
-      reject(new Error(`Timeout after ${timeoutMs}ms running ${cmd}`));
+      reject(new Error(`Timeout after ${timeoutMs}ms running ${path.basename(cmd)}`));
     }, timeoutMs);
 
     child.stdout.on('data', (chunk) => {
@@ -154,12 +149,12 @@ async function runSingleAi(modelKey, prompt) {
   try {
     let res;
     if (modelKey === 'agy') {
-      res = await runCommand(AI_BINS.agy, ['--disable-slash-commands', '--model', 'gemini-4-argon-high', '-p', prompt], null, 150000);
+      res = await runCommand(BINS.agy, ['--disable-slash-commands', '--model', 'gemini-4-argon-high', '-p', prompt], null, 150000);
     } else if (modelKey === 'claude') {
-      res = await runCommand(AI_BINS.claude, ['-p', '--tools', ''], prompt, 150000);
+      res = await runCommand(BINS.claude, ['-p', '--tools', ''], prompt, 150000);
     } else if (modelKey === 'codex') {
       res = await runCommand(
-        AI_BINS.codex,
+        BINS.codex,
         ['exec', '--skip-git-repo-check', '-s', 'read-only', '-'],
         prompt,
         150000

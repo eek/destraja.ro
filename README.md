@@ -1,62 +1,212 @@
-# lastraja.ro · La Straja Legii
+<p align="center">
+  <a href="https://lastraja.ro">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset=".github/readme/logo-dark.svg">
+      <img src="public/lastraja-logo.svg" alt="lastraja.ro" width="260">
+    </picture>
+  </a>
+</p>
 
-Radarul cetățenesc al proiectelor de lege aflate în consultare publică la Senatul României. Next.js (export static) găzduit pe Cloudflare.
+<p align="center">
+  <b>Legile se schimbă. Și tu ai un cuvânt de spus.</b><br>
+  Ce pregătește Senatul, ce înseamnă pentru tine și cum trimiți o obiecție oficială. Pe înțelesul tuturor.
+</p>
 
-## Pagini
+<p align="center">
+  <a href="https://lastraja.ro"><b>lastraja.ro</b></a> ·
+  <a href="https://lastraja.ro/metodologie">Metodologie</a> ·
+  <a href="https://lastraja.ro/presa">Camera de presă</a> ·
+  <a href="#licență">Licență</a> ·
+  <a href="#in-english">English</a>
+</p>
 
-| Rută | Ce e |
-|---|---|
-| `/` | Radarul, proiectul în atenție, lista filtrabilă a legilor, partidele și harta coalițiilor |
-| `/legi/[slug]` | Analiza unui proiect și kitul de obiecție în 60 de secunde |
-| `/parlamentari`, `/parlamentari/[slug]` | Căutare printre toți inițiatorii și pagina fiecăruia |
-| `/presa` | Camera de presă: titluri, rezumat, CSV, profil de partid, tabelul complet |
-| `/metodologie`, `/cookies` | Metodă, întrebări frecvente, politica de cookies |
-| `/abonare`, `/abonare/confirma`, `/abonare/preferinte` | Alertele pe e-mail: abonare, confirmare, nivel și dezabonare |
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/readme/home-dark.webp">
+  <img src=".github/readme/home-light.webp" alt="Prima pagină lastraja.ro: titlul „Legile se schimbă. Și tu ai un cuvânt de spus.” și satul 3D, cu avizierul proiectelor aflate în consultare">
+</picture>
 
-## Date
+## Ce este
 
-- `data/senat-bills.json`: proiectele preluate de pe senat.ro (`npm run straja:sync`).
-- `data/analyses/*.json`: analizele Gemini, Claude și ChatGPT (`npm run straja:council`).
-- `data/citizen-one-liners.json`: propoziția pe înțelesul tuturor pentru fiecare proiect. **Un proiect nou are nevoie de o intrare aici**; până atunci site-ul afișează rezumatul tehnic (`summaryTlDr`).
-- `src/lib/site.ts`: proiectul pus în față (`FEATURED_ID`), împărțirea putere/opoziție (`PUTERE`, `OPOZITIE`, `ARC_DATE`) și adresa de contact pentru politica de cookies.
+**La Straja Legii** urmărește fiecare proiect de lege aflat în consultare publică la
+[Senatul României](https://www.senat.ro/LegiProiect.aspx). Trei modele AI, Gemini, Claude și ChatGPT, citesc separat
+textul oficial. Site-ul traduce fiecare proiect într-o propoziție, îi dă un scor de risc și te ajută să trimiți o opinie
+oficială la Senat înainte să expire termenul.
 
-## Statistici
+Proiect civic independent: nu reprezentăm Senatul și nu lucrăm pentru niciun partid.
 
-Google Analytics (`G-237KQ8L2FE`) pornește doar după ce vizitatorul acceptă în bannerul de cookies; până atunci nu se încarcă nimic de la Google. Codul și lista evenimentelor sunt în `src/lib/analytics.ts`. Un link sau buton nou se măsoară cu `{...trackAttrs('nume_eveniment', { bill_id })}`; nu trimite niciodată texte scrise de vizitator. Durata de păstrare din Google Analytics (Admin > Data retention) trebuie să fie aceeași cu `ANALYTICS_RETENTION` din `src/lib/site.ts`, pentru că apare în politica de cookies.
+## Ce găsești pe site
 
-Zilele rămase se recalculează în browser, deci termenele rămân corecte între build-uri. Proiectele noi apar doar după un build nou.
+- **O propoziție pe înțeles** pentru fiecare proiect: ce schimbă pentru tine, nu doar ce scrie în titlul oficial.
+- **Trei lecturi AI, separate.** Scorul fiecărui model e la vedere, la fel și locurile în care nu sunt de acord.
+  Afirmațiile inițiatorilor sunt verificate față de text.
+- **Kitul de obiecție în 60 de secunde:** textele gata dimensionate pentru formularul Senatului (50 și 400 de
+  caractere) și un memoriu .docx, completat cu numele tău direct în browser.
+- **Semnale:** procedura de urgență, avizele negative ale Consiliului Economic și Social (cu motivele, citate din aviz)
+  și proiectele semnate împreună de putere și opoziție.
+- **Presa:** doar articole verificate, care există și citează proiectul.
+- **Parlamentarii:** proiectele fiecăruia și datele de contact oficiale de pe cdep.ro și senat.ro.
+- **Alerte pe e-mail** în zilele lucrătoare, doar când apare ceva nou.
+- **Camera de presă:** rezumat, titluri verificabile, harta coalițiilor și export CSV.
 
-## Rapoarte de erori
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/readme/bill-dark.webp">
+  <img src=".github/readme/bill-light.webp" alt="Pagina unui proiect: scorul de risc, propoziția pe înțeles, termenul, procedura de urgență, presa și partidele inițiatorilor">
+</picture>
 
-Pe pagina fiecărui proiect, sub auditul AI, cititorii pot semnala o greșeală. `worker/index.ts` primește raportul pe `POST /api/report`, îl verifică cu Turnstile (secretul e `TURNSTILE_SECRET`, pus cu `wrangler secret put`; cheia publică e `TURNSTILE_SITEKEY` în `src/lib/site.ts`) și îl salvează în D1 (`migrations/`). Nu păstrăm IP sau e-mail.
+## Cum funcționează
 
-`npm run straja:reports` verifică rapoartele noi: Gemini, Claude și GPT, fără unelte, compară raportul cu textul oficial. Analiza se corectează singură doar dacă toate trei confirmă greșeala cu citate pe care codul le găsește literal în analiză și în textul oficial, iar corectura propusă de Claude e aprobată de celelalte două. Textul raportului nu ajunge niciodată la modelul care scrie corectura. Restul ajunge în digestul `ops/digest/AAAA-LL-ZZ.md`, de decis manual.
+În fiecare zi lucrătoare la 08:00 rulează `npm run straja:daily`:
 
-## Alerte pe e-mail
-
-Vizitatorii aleg un nivel (`all`: tot, cu rezumat; `yellow`: risc mediu și ridicat; `red`: doar risc ridicat) și confirmă adresa din e-mail (dublă confirmare). `worker/subscribe.ts` primește abonarea pe `POST /api/subscribe` (Turnstile, ca la rapoarte), trimite confirmarea prin Cloudflare Email Service (legătura `EMAIL` din `wrangler.jsonc`, doar de la `alerte@lastraja.ro`) și ține abonații în D1. Linkurile de preferințe și dezabonare sunt semnate cu `SUBSCRIBE_KEY` (secret în Worker); dezabonarea dintr-un click (`List-Unsubscribe`) șterge adresa.
-
-`npm run straja:digest` scrie ediția zilei pentru fiecare nivel în `ops/digest/email-AAAA-LL-ZZ-<nivel>.html` (previzualizare). Cu `--send` o trimite prin Worker (`POST /api/digest`, cu `DIGEST_TOKEN` din `.env`, același ca secretul din Worker) și actualizează `data/digests/state.json`, evidența a ce au primit deja abonații. Un nivel primește e-mail doar dacă are ceva nou: un proiect intrat în consultare, un termen la 3 zile, presă din ultimele 7 zile sau o corectură. Nu trimitem niciodată tot ce e deschis: fără evidență (prima rulare), scriptul doar notează ce există și nu trimite nimic, iar evidența avansează și în zilele fără abonați. Adresele nu ajung pe calculatorul care rulează scriptul. Șablonul comun e în `email/layout.mjs`.
-
-Meniul, prima pagină și formularul arată alertele doar cu `ALERTS_LIVE = true` în `src/lib/site.ts`, după ce domeniul e pregătit în Cloudflare (Email Service > Email Sending > Onboard Domain; trimiterea către orice adresă cere planul Workers Paid).
-
-## Presa
-
-`npm run straja:news` caută articole despre proiectele aflate în consultare, cu cele trei modele și căutare web, și păstrează doar linkurile verificate: pagina se încarcă și conține citatul dat de model. Pe site apar doar publicațiile din `data/news-outlets.json`; restul rămân în `data/news/<slug>.json` la `pending`, pentru verificare.
-
-## Actualizarea zilnică
-
-`npm run straja:daily` face tot lanțul: Senat, analize pentru proiectele noi, presă, rapoarte, memorii .docx, build, publicare și, după o publicare reușită, ediția zilnică a alertelor. Rulează singur luni–vineri la 08:00 prin launchd (`scripts/install-daily.sh`; `--remove` îl oprește). Jurnalul e în `ops/logs/`, iar la final apare o notificare macOS. Dacă semnarea commit-urilor cere 1Password deblocat, datele zilei rămân necomise până la următorul commit manual.
-
-## Dezvoltare și publicare
-
-```bash
-npm run dev       # http://localhost:3000
-npm run build     # export static în out/
-npm run preview   # build + Worker și site local, ca pe Cloudflare (wrangler dev, D1 local)
-npm run deploy    # migrații D1 + build + publicare pe Cloudflare (lastraja.ro)
+```mermaid
+flowchart LR
+  S[senat.ro] -->|proiecte noi și PDF-uri| T[Text din PDF<br/>și OCR în română]
+  T --> A[Gemini · Claude · ChatGPT<br/>fiecare separat, fără unelte]
+  A --> D[(data/)]
+  P[Presa] -->|doar linkuri verificate| D
+  R[Rapoartele cititorilor] -->|reverificate de cele trei modele| D
+  D --> B[Next.js, export static]
+  B --> C[Cloudflare]
+  C --> E[Alerte pe e-mail]
 ```
 
-Local, `wrangler dev` folosește cheile de test Turnstile și secretele de test din `.dev.vars` (ignorat de git) și o bază D1 locală (`npx wrangler d1 migrations apply lastraja --local`). E-mailurile nu pleacă: wrangler le scrie în `.wrangler/tmp/email/`. `node scripts/straja-digest.mjs --send --local` trimite ediția prin Worker-ul local, cu evidența în `.cache/`.
+1. **Senatul** (`scripts/straja-sync.mjs`): proiectele noi, PDF-urile lor și textul. Unde scanarea are textul stricat, îl
+   recitim cu OCR în română (ocrmypdf și Tesseract).
+2. **Analiza** (`straja-council.mjs`): fiecare model citește proiectul separat și dă un scor de la 1 la 10. Publicăm
+   consensul și scorul fiecăruia. Apoi `straja-ces.mjs` rezumă motivele avizelor negative CES.
+3. **Presa** (`straja-news.mjs`): caută articole despre proiectele aflate în consultare și păstrează doar linkurile care
+   se încarcă și conțin citatul dat de model.
+4. **Parlamentarii** (`straja-mps.mjs`): datele de contact de pe fișele oficiale, o cerere pe secundă.
+5. **Rapoartele cititorilor** (`straja-reports.mjs`): o greșeală semnalată pe site e reverificată de cele trei modele față
+   de textul oficial.
+6. **Memoriile .docx** (`straja-docx.mjs`), apoi verificări, build, publicare pe Cloudflare și ediția zilnică a alertelor
+   (`straja-digest.mjs`).
 
-Publicarea folosește tokenul din `.env` (`CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`), cu permisiunile: Workers Scripts, Workers Routes, D1 și Turnstile, toate pe Edit.
+Rezultatele intră în `data/`, cu tot istoricul lor în git.
+
+## De ce poți avea încredere
+
+- **Totul e public:** codul, prompturile, răspunsurile modelelor și datele. Poți vedea exact ce a primit fiecare model
+  și ce a răspuns.
+- **Modelele nu au unelte când citesc proiectele și rapoartele.** Primesc textul în prompt și răspund cu JSON; nu pot
+  naviga, rula comenzi sau scrie fișiere. Doar căutarea în presă folosește căutare web.
+- **Citatele se verifică în cod.** Un motiv dintr-un aviz CES apare doar dacă citatul lui e găsit literal în aviz.
+- **Corecturile au reguli.** O greșeală raportată corectează analiza doar dacă toate trei modelele o confirmă cu citate
+  verificate, iar corectura apare pe pagină, cu data. Restul rapoartelor ajung la un om.
+- **Fără conturi și fără reclame.** Statisticile pornesc doar după ce accepți.
+
+## Pornește site-ul local
+
+Ai nevoie doar de Node.js 20 sau mai nou. Datele sunt deja în `data/`, deci nu-ți trebuie abonamente AI.
+
+```bash
+git clone https://github.com/eek/lastraja.ro.git
+cd lastraja.ro
+npm install
+npm run dev       # http://localhost:3000
+```
+
+| Comandă | Ce face |
+|---|---|
+| `npm run dev` | site-ul în modul de dezvoltare |
+| `npm run build` | exportul static în `out/` |
+| `npm run preview` | build plus Worker-ul și D1 local, ca pe Cloudflare (`wrangler dev`) |
+| `npm run deploy` | migrațiile D1, build și publicarea pe lastraja.ro (doar pentru întreținător) |
+
+## Structura
+
+| Folder | Ce e |
+|---|---|
+| `src/app/` | paginile (Next.js, export static) |
+| `src/components/` | componentele; satul 3D (three.js) e în `home/sat/` |
+| `src/lib/` | citirea datelor, calculele pentru grafice, exportul, Google Analytics |
+| `worker/` | Worker-ul Cloudflare: rapoarte, abonări, confirmări, preferințe, alerte |
+| `migrations/` | schema bazei D1 |
+| `scripts/` | lanțul zilnic: Senat, OCR, modele, presă, parlamentari, alerte |
+| `.agents/` | agenții Gemini: unul fără unelte, unul doar cu căutare web |
+| `email/` | șablonul e-mailurilor |
+| `data/` | datele publicate |
+| `public/docs/` | memoriile .docx |
+
+## Pentru întreținere
+
+### Lanțul zilnic
+
+`npm run straja:daily` rulează luni–vineri la 08:00 prin launchd (`scripts/install-daily.sh`; `--remove` îl oprește).
+Are nevoie de:
+- CLI-urile `agy` (Gemini), `claude` și `codex`, autentificate (implicit în `~/.local/bin`, sau căile din `AGY_BIN`,
+  `CLAUDE_BIN`, `CODEX_BIN`);
+- `ocrmypdf` cu Tesseract și limba `ron`;
+- un token Cloudflare în `.env`.
+
+Jurnalul e în `ops/logs/`, iar la final apare o notificare macOS. Un pas care eșuează nu oprește restul, cu excepția
+verificării datelor: fără date valide nu publicăm. Dacă semnarea commit-urilor cere 1Password deblocat, datele zilei rămân
+necomise până la următorul commit.
+
+Fiecare pas merge și separat: `npm run straja:sync`, `straja:council <slug>`, `straja:news`, `straja:mps`,
+`straja:reports`, `straja:docx`, `straja:digest`.
+
+### Date
+
+- `data/senat-bills.json`: proiectele preluate de pe senat.ro.
+- `data/analyses/*.json`: analizele celor trei modele, cu consensul.
+- `data/texts/<slug>/`: textul fiecărui PDF; `_meta.json` spune unde a fost nevoie de OCR.
+- `data/ces/`, `data/news/`, `data/mp-contacts.json`: avizele CES, presa verificată, contactele parlamentarilor.
+- `data/citizen-one-liners.json`: propoziția pe înțelesul tuturor, scrisă pentru proiectele de la lansare. Un proiect
+  nou fără intrare aici afișează rezumatul modelelor (`summaryTlDr`).
+- `src/lib/site.ts`: proiectul pus în față, împărțirea putere/opoziție (de revizuit când se schimbă coaliția), datele
+  operatorului și cheile publice.
+
+### Rapoarte de erori
+
+`worker/index.ts` primește raportul pe `POST /api/report`, îl verifică cu Turnstile (`TURNSTILE_SECRET`, pus cu
+`wrangler secret put`) și îl salvează în D1, fără IP și fără e-mail. `npm run straja:reports` le verifică: cele trei
+modele, fără unelte, compară raportul cu textul oficial. Analiza se corectează singură doar dacă toate trei confirmă
+greșeala cu citate găsite literal în analiză și în textul oficial, iar corectura propusă de Claude e aprobată de
+celelalte două. Textul raportului nu ajunge niciodată la modelul care scrie corectura. Restul ajunge în
+`ops/digest/AAAA-LL-ZZ.md`, de decis manual.
+
+### Alerte pe e-mail
+
+Vizitatorii aleg un nivel (`all`: tot, cu rezumat; `yellow`: risc mediu și ridicat; `red`: doar risc ridicat) și confirmă
+adresa din e-mail. `worker/subscribe.ts` trimite confirmarea prin Cloudflare Email Service (doar de la
+`alerte@lastraja.ro`) și ține abonații în D1. Linkurile de preferințe și dezabonare sunt semnate cu `SUBSCRIBE_KEY`;
+dezabonarea dintr-un click (`List-Unsubscribe`) șterge adresa.
+
+`npm run straja:digest` scrie ediția zilei în `ops/digest/` (previzualizare). Cu `--send` o trimite prin Worker
+(`POST /api/digest`, cu `DIGEST_TOKEN`) și actualizează `data/digests/state.json`, evidența a ce au primit deja abonații.
+Un nivel primește e-mail doar dacă are ceva nou. Adresele nu ajung pe calculatorul care rulează scriptul.
+
+### Statistici
+
+Google Analytics pornește doar după acordul vizitatorului. Un link sau un buton nou se măsoară cu
+`{...trackAttrs('nume_eveniment', { bill_id })}` (lista evenimentelor e în `src/lib/analytics.ts`); nu trimitem
+niciodată texte scrise de vizitator.
+
+### Local, cu Worker
+
+`npm run preview` folosește cheile de test Turnstile și secretele din `.dev.vars` (ignorat de git) și o bază D1 locală
+(`npx wrangler d1 migrations apply lastraja --local`). E-mailurile nu pleacă: wrangler le scrie în
+`.wrangler/tmp/email/`.
+
+## Contribuie
+
+Greșelile de afișare, textele, accesibilitatea și codul se repară prin pull request; vezi [CONTRIBUTING.md](CONTRIBUTING.md).
+O greșeală într-o analiză se semnalează de pe pagina proiectului, nu prin PR. Problemele de securitate se trimit
+privat; vezi [SECURITY.md](SECURITY.md).
+
+## Licență
+
+- **Codul:** [AGPL-3.0](LICENSE). Dacă rulezi o versiune modificată pe un site, publică și tu modificările.
+- **Analizele și datele:** [CC BY 4.0](LICENSE-DATA.md). Le poți prelua și adapta, inclusiv în scop comercial, dacă
+  citezi sursa: online, cu link la pagina proiectului pe lastraja.ro; în tipar, la radio sau la TV, „potrivit La Straja
+  Legii (lastraja.ro)”. Textele oficiale, citatele de presă, datele de contact ale parlamentarilor și logoul nu intră în
+  licență; detalii în [LICENSE-DATA.md](LICENSE-DATA.md).
+
+## In English
+
+**La Straja Legii** ("Guarding the Law") is an independent civic watch over every bill in public consultation at the
+Romanian Senate. Three AI models (Gemini, Claude and ChatGPT) read each official text separately. The site turns each
+bill into one plain sentence and a risk score, shows where the models disagree, and helps citizens file an official
+opinion before the deadline. Built with Next.js (static export) on Cloudflare; the daily pipeline runs on the
+maintainer's Mac. Code: AGPL-3.0. Analyses and data: CC BY 4.0. Please credit "La Straja Legii (lastraja.ro)" and link
+to the bill page.

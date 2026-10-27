@@ -17,7 +17,7 @@ if [ "${1:-}" = "--remove" ]; then
 fi
 
 mkdir -p "$ROOT/ops/logs"
-sed -e "s#__ROOT__#$ROOT#g" -e "s#__NODE_DIR__#$(dirname "$NODE")#g" -e "s#__NODE__#$NODE#g" \
+sed -e "s#__ROOT__#$ROOT#g" -e "s#__NODE_DIR__#$(dirname "$NODE")#g" -e "s#__NODE__#$NODE#g" -e "s#__HOME__#$HOME#g" \
   "$ROOT/scripts/launchd/ro.lastraja.daily.plist" > "$PLIST"
 plutil -lint "$PLIST" >/dev/null
 launchctl bootstrap "$DOMAIN" "$PLIST"

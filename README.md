@@ -44,6 +44,8 @@ Proiect civic independent: nu reprezentăm Senatul și nu lucrăm pentru niciun 
 - **Semnale:** procedura de urgență, avizele negative ale Consiliului Economic și Social (cu motivele, citate din aviz)
   și proiectele semnate împreună de putere și opoziție.
 - **Presa:** doar articole verificate, care există și citează proiectul.
+- **Ce spun organizațiile:** scrisorile, petițiile și punctele de vedere ale ONG-urilor, sindicatelor, patronatelor și
+  organizațiilor profesionale, cu semnatarii numărați din document.
 - **Parlamentarii:** proiectele fiecăruia și datele de contact oficiale de pe cdep.ro și senat.ro.
 - **Alerte pe e-mail** în zilele lucrătoare, doar când apare ceva nou.
 - **Camera de presă:** rezumat, titluri verificabile, harta coalițiilor și export CSV.
@@ -63,6 +65,7 @@ flowchart LR
   T --> A[Gemini · Claude · ChatGPT<br/>fiecare separat, fără unelte]
   A --> D[(data/)]
   P[Presa] -->|doar linkuri verificate| D
+  O[Pozițiile organizațiilor] -->|doar documente verificate| D
   R[Rapoartele cititorilor] -->|reverificate de cele trei modele| D
   D --> B[Next.js, export static]
   B --> C[Cloudflare]
@@ -75,10 +78,14 @@ flowchart LR
    consensul și scorul fiecăruia. Apoi `straja-ces.mjs` rezumă motivele avizelor negative CES.
 3. **Presa** (`straja-news.mjs`): caută articole despre proiectele aflate în consultare și păstrează doar linkurile care
    se încarcă și conțin citatul dat de model.
-4. **Parlamentarii** (`straja-mps.mjs`): datele de contact de pe fișele oficiale, o cerere pe secundă.
-5. **Rapoartele cititorilor** (`straja-reports.mjs`): o greșeală semnalată pe site e reverificată de cele trei modele față
+4. **Pozițiile organizațiilor** (`straja-positions.mjs`): caută scrisori deschise, petiții, solicitări și puncte de vedere,
+   inclusiv pe site-urile emitenților. O poziție apare doar dacă pagina sau PDF-ul se deschide, pomenește proiectul și
+   conține citatul; lista semnatarilor e numărată din document, cu numerotarea verificată. Proiectele cu risc ridicat
+   sau aproape de termen sunt verificate zilnic, cele cu risc moderat la 3 zile, restul o dată pe săptămână.
+5. **Parlamentarii** (`straja-mps.mjs`): datele de contact de pe fișele oficiale, o cerere pe secundă.
+6. **Rapoartele cititorilor** (`straja-reports.mjs`): o greșeală semnalată pe site e reverificată de cele trei modele față
    de textul oficial.
-6. **Memoriile .docx** (`straja-docx.mjs`), apoi verificări, build, publicare pe Cloudflare și ediția zilnică a alertelor
+7. **Memoriile .docx** (`straja-docx.mjs`), apoi verificări, build, publicare pe Cloudflare și ediția zilnică a alertelor
    (`straja-digest.mjs`).
 
 Rezultatele intră în `data/`, cu tot istoricul lor în git.
@@ -88,8 +95,11 @@ Rezultatele intră în `data/`, cu tot istoricul lor în git.
 - **Totul e public:** codul, prompturile, răspunsurile modelelor și datele. Poți vedea exact ce a primit fiecare model
   și ce a răspuns.
 - **Modelele nu au unelte când citesc proiectele și rapoartele.** Primesc textul în prompt și răspund cu JSON; nu pot
-  naviga, rula comenzi sau scrie fișiere. Doar căutarea în presă folosește căutare web.
-- **Citatele se verifică în cod.** Un motiv dintr-un aviz CES apare doar dacă citatul lui e găsit literal în aviz.
+  naviga, rula comenzi sau scrie fișiere. Doar căutarea în presă și cea a pozițiilor organizațiilor folosesc căutare
+  web, tot fără terminal și fără fișiere.
+- **Citatele se verifică în cod.** Un motiv dintr-un aviz CES apare doar dacă citatul lui e găsit literal în aviz. O
+  poziție a unei organizații apare doar dacă documentul pomenește proiectul și conține citatul; semnatarii sunt
+  numărați din listă, nu luați de la model.
 - **Corecturile au reguli.** O greșeală raportată corectează analiza doar dacă toate trei modelele o confirmă cu citate
   verificate, iar corectura apare pe pagină, cu data. Restul rapoartelor ajung la un om.
 - **Fără conturi și fără reclame.** Statisticile pornesc doar după ce accepți.
@@ -143,8 +153,9 @@ La final face commit cu datele zilei și push pe GitHub, după ce preia ce s-a a
 verificării datelor: fără date valide nu publicăm. Dacă semnarea commit-urilor cere 1Password deblocat, datele zilei rămân
 necomise până la următorul commit.
 
-Fiecare pas merge și separat: `npm run straja:sync`, `straja:council <slug>`, `straja:news`, `straja:mps`,
-`straja:reports`, `straja:docx`, `straja:digest`.
+Fiecare pas merge și separat: `npm run straja:sync`, `straja:council <slug>`, `straja:news`, `straja:positions`,
+`straja:mps`, `straja:reports`, `straja:docx`, `straja:digest`. `--skip-news`, `--skip-positions` și `--skip-mps` sar
+peste pașii respectivi în rularea zilnică.
 
 ### Date
 
@@ -152,6 +163,12 @@ Fiecare pas merge și separat: `npm run straja:sync`, `straja:council <slug>`, `
 - `data/analyses/*.json`: analizele celor trei modele, cu consensul.
 - `data/texts/<slug>/`: textul fiecărui PDF; `_meta.json` spune unde a fost nevoie de OCR.
 - `data/ces/`, `data/news/`, `data/mp-contacts.json`: avizele CES, presa verificată, contactele parlamentarilor.
+- `data/positions/<slug>.json`: pozițiile organizațiilor. `positions` sunt cele verificate (pe site): emitentul, poziția
+  (`retragere`, `respingere`, `modificare`, `sustinere`), citatul, data, pagina și documentul, semnatarii numărați din
+  document (doar organizațiile cu nume) și ziua verificării. `pending` sunt propunerile care au picat o verificare, cu
+  motivul, doar pentru tine. O poziție găsită altfel se adaugă cu
+  `npm run straja:positions -- <slug> --add --issuer=… --stance=… --quote=… --page=… --doc=…` și trece prin aceeași
+  verificare; `--recheck` le reverifică pe cele salvate, fără modele.
 - `data/citizen-one-liners.json`: propoziția pe înțelesul tuturor, scrisă pentru proiectele de la lansare. Un proiect
   nou fără intrare aici afișează rezumatul modelelor (`summaryTlDr`).
 - `src/lib/site.ts`: proiectul pus în față, împărțirea putere/opoziție (de revizuit când se schimbă coaliția), datele

@@ -10,6 +10,8 @@ Codul din acest repo e sub [AGPL-3.0](LICENSE). Analizele și datele produse de 
 
 - analizele, scorurile, rezumatele și explicațiile: `data/analyses/`, `data/citizen-one-liners.json`, `data/ces/`;
 - datele structurate despre proiecte și presă: `data/senat-bills.json`, `data/news/`, `data/news-outlets.json`;
+- verificările și numărătorile noastre pentru pozițiile organizațiilor din `data/positions/` (ce cere fiecare document,
+  câte organizații îl semnează, când l-am verificat);
 - memoriile .docx din `public/docs/`;
 - aceleași conținuturi, așa cum apar pe [lastraja.ro](https://lastraja.ro).
 
@@ -31,6 +33,9 @@ Le poți copia, publica, traduce și adapta, inclusiv în scop comercial. Singur
   prelua oricum.
 - **Titlurile și citatele din articolele de presă** din `data/news/`: aparțin publicațiilor. Le păstrăm doar ca citate
   scurte, cu link la articolul original.
+- **Pozițiile organizațiilor** (`data/positions/`): scrisorile, petițiile și punctele de vedere sunt documentele
+  emitenților. Le dăm linkul și cităm scurt din ele. Listele de semnatari sunt fapte preluate din aceste documente
+  (numele organizațiilor, așa cum apar acolo); persoanele fizice care semnează apar doar ca număr.
 - **Datele de contact ale parlamentarilor** (`data/mp-contacts.json`): sunt cele publicate de cdep.ro și senat.ro. Le
   afișăm ca să le poți scrie aleșilor tăi; nu le licențiem noi.
 - **Numele și logoul** La Straja Legii: folosește-le ca să ne citezi, nu ca să sugerezi că un material e al nostru sau că îl
@@ -40,4 +45,5 @@ Le poți copia, publica, traduce și adapta, inclusiv în scop comercial. Singur
 
 **In English.** Analyses and data are licensed CC BY 4.0. Credit "La Straja Legii (lastraja.ro)" and link to the bill page.
 Official legislative texts are not copyrighted under Romanian law (Law 8/1996, art. 9). Press headlines and quotes belong
-to their publishers. MP contact details are as published by the two chambers. The code is AGPL-3.0.
+to their publishers. Organisations' letters and petitions belong to their issuers: we link them and quote briefly, and
+signatory lists are facts taken from those documents. MP contact details are as published by the two chambers. The code is AGPL-3.0.

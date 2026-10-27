@@ -1,7 +1,7 @@
 import type { ReactNode } from 'react';
 import { Check, CornerDownRight, Search } from 'lucide-react';
 import { countWord } from '@/lib/format';
-import { LABEL_MIN_CONFIDENCE, LOCAL_MODELS, PRESS_QUESTIONS, type TechFacts } from '@/lib/tech';
+import { LABEL_MIN_CONFIDENCE, LOCAL_MODELS, PRESS_QUESTIONS, REMOTE_READER, type TechFacts } from '@/lib/tech';
 
 // Porțile prin care trece un link de presă (scripts/straja-news.mjs, scripts/lib/web.mjs), în ordinea din cod.
 // Fiecare poartă spune ce lasă să treacă și ce oprește.
@@ -41,7 +41,7 @@ function gates(f: TechFacts): Gate[] {
     },
     {
       title: 'E o publicație urmărită?',
-      text: `${f.allowlisted ? `Publicațiile din lista noastră, de ${countWord(f.allowlisted, 'redacție', 'redacții')}, apar direct.` : 'Publicațiile din lista noastră apar direct.'} Celelalte apar doar dacă modelele locale spun că articolul e chiar despre proiect.`,
+      text: `${f.allowlisted ? `Publicațiile din lista noastră, de ${countWord(f.allowlisted, 'redacție', 'redacții')}, apar direct.` : 'Publicațiile din lista noastră apar direct.'} Celelalte apar doar dacă cei trei cititori spun că articolul e chiar despre proiect.`,
       stop: 'preluări și articole care doar pomenesc proiectul',
     },
   ];
@@ -114,8 +114,9 @@ export function LocalModels() {
       <div>
         <h3 className="font-display text-2xl leading-tight text-ink sm:text-3xl">Ce fel de articol e?</h3>
         <p className="mt-3 text-[15px] leading-7 text-body">
-          Fiecare articol verificat e citit apoi de două modele de decizie care rulează local, pe Mac. Nu scriu text: răspund la patru întrebări
-          fixe, cu o probabilitate pentru fiecare variantă. Textul articolului îl curățăm întâi de meniuri și reclame, cu trafilatura.
+          Fiecare articol verificat e citit apoi de trei cititori: două modele de decizie care rulează local, pe Mac, și {REMOTE_READER.name}.
+          Răspund la patru întrebări fixe, cu o probabilitate pentru fiecare variantă. Textul articolului îl curățăm întâi de meniuri și reclame,
+          cu trafilatura.
         </p>
         <ul className="mt-5 divide-y divide-line border-y border-line">
           {LOCAL_MODELS.map((m) => (
@@ -128,9 +129,17 @@ export function LocalModels() {
               </p>
             </li>
           ))}
+          <li className="py-4">
+            <p className="font-semibold text-ink">
+              {REMOTE_READER.name} <span className="font-normal text-muted">· {REMOTE_READER.maker}</span>
+            </p>
+            <p className="mt-1 text-sm leading-6 text-body">
+              Modelul din spatele Decisions API al OpenAI. Nu rulează local: îl întrebăm {REMOTE_READER.runtime}, ca pe celelalte modele mari.
+            </p>
+          </li>
         </ul>
         <p className="mt-4 text-sm leading-6 text-muted">
-          Pe 46 de articole etichetate de mână, cele două au nimerit poziția în 84% din cazurile în care au fost de acord.
+          Pe 46 de articole etichetate de mână, acolo unde cel puțin doi au fost de acord, poziția a fost corectă în 89% din cazuri.
         </p>
       </div>
 
@@ -179,8 +188,8 @@ export function LocalModels() {
             </div>
           </div>
           <p className="mt-3 text-sm leading-6 text-body">
-            Eticheta apare doar dacă ambele modele aleg aceeași variantă, fiecare cu cel puțin {threshold}% încredere. Altfel, articolul rămâne
-            fără etichetă.
+            Eticheta apare doar dacă cel puțin doi din trei aleg aceeași variantă, fiecare cu cel puțin {threshold}% încredere. Altfel,
+            articolul rămâne fără etichetă.
           </p>
         </div>
       </div>

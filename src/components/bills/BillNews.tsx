@@ -160,8 +160,9 @@ export default function BillNews({ billId, news, builtOn }: { billId: string; ne
             )}
           </div>
           <p className="mt-3 text-xs leading-5 text-muted">
-            Articole găsite de Gemini, Claude și ChatGPT și verificate pe site-ul publicației. Poziția față de proiect și tipul sursei le clasifică automat două
-            modele open source pe care le rulăm noi, Clef (Cloudflare) și d1 (Liquid AI); punem eticheta doar unde sunt de acord. Site-urile din afara publicațiilor
+            Articole găsite de Gemini, Claude și ChatGPT și verificate pe site-ul publicației. Poziția față de proiect și tipul sursei le clasifică automat trei
+            modele: Clef (Cloudflare) și d1 (Liquid AI), open source, rulate de noi, plus GPT-6 Luna (OpenAI); punem eticheta doar unde cel
+            puțin două sunt de acord. Site-urile din afara publicațiilor
             pe care le urmărim apar doar dacă articolul e chiar despre proiect și nu e o simplă preluare. Nu le-am scris noi, iar numărul lor nu
             influențează scorul de risc.
           </p>

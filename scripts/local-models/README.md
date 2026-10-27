@@ -9,11 +9,12 @@ de lege sau un articol și câteva întrebări cu variante fixe, și dau o proba
 | [d1-3B](https://huggingface.co/LiquidAI/d1-3B) | Liquid AI | 3B | LFM Open License v1.0 | PyTorch, MPS |
 
 Le folosim pentru presă (`scripts/straja-stance.mjs`): poziția fiecărui articol față de proiect (critic, favorabil,
-neutru, mixt), tipul sursei, dacă e chiar despre proiect și dacă e comunicatul unui partid. Pe site punem eticheta doar
-când cele două modele sunt de acord.
+neutru, mixt), tipul sursei, dacă e chiar despre proiect și dacă e comunicatul unui partid. Al treilea cititor e GPT-6
+Luna, prin Codex, în mediul izolat din `scripts/lib/ai-cli.mjs`. Pe site punem eticheta doar unde cel puțin doi din trei
+aleg aceeași variantă, fiecare cu cel puțin 60% siguranță.
 
-Pe un set de 46 de articole etichetate de mână, la poziție, Clef a nimerit 78% și d1 85%; unde sunt de acord, 84%, iar
-articolele critice le-au găsit pe 6 din 8, respectiv pe toate 8. Le-am încercat și pentru riscul proiectelor, de la 1 la
+Pe un set de 46 de articole etichetate de mână, la poziție, Clef a nimerit 78%, d1 85% și Luna 88%. Cu regula „doi din
+trei”, 36 din 40 de articole primesc etichetă și 89% dintre ele sunt corecte; articolele critice: 7 din 8. Le-am încercat și pentru riscul proiectelor, de la 1 la
 10, dar pe textele lungi ale legilor nu țin pasul cu Gemini, Claude și ChatGPT (B563, cu 9,8 la cele trei, primea 4,5),
 așa că acolo nu le folosim.
 

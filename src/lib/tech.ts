@@ -21,8 +21,11 @@ export const LOCAL_MODELS = [
   { name: 'd1-3B', maker: 'Liquid AI', license: 'LFM Open License v1.0', params: '3 miliarde', runtime: 'PyTorch, pe GPU-ul Mac-ului', engine: 'PyTorch', weights: 'LiquidAI/d1-3B' },
 ] as const;
 
-/** Eticheta apare doar unde toate modelele locale aleg aceeași variantă, fiecare cu cel puțin atâta încredere (src/lib/press.ts). */
-export const LABEL_MIN_CONFIDENCE = 0.5;
+/** Al treilea cititor al presei: nu e local, rulează prin Codex, în același mediu izolat ca Gemini, Claude și ChatGPT. */
+export const REMOTE_READER = { name: 'GPT-6 Luna', maker: 'OpenAI', runtime: 'prin Codex CLI, fără unelte' } as const;
+
+/** Eticheta apare doar unde cel puțin doi din trei cititori aleg aceeași variantă, fiecare cu atâta încredere (src/lib/press.ts). */
+export const LABEL_MIN_CONFIDENCE = 0.6;
 
 export const PRESS_QUESTIONS = [
   { q: 'Ce poziție are față de proiect?', options: ['critic', 'favorabil', 'neutru', 'mixt'] },

@@ -1,23 +1,28 @@
 #!/usr/bin/env node
-// Clasifică articolele din data/news/<slug>.json cu cele două modele de decizie rulate local (scripts/local-models):
-// Clef (Cloudflare) și d1-3B (Liquid AI). Pentru fiecare link verificat, din `articles` și din `pending`, fiecare model
-// răspunde la patru întrebări cu variante fixe și dă o probabilitate pentru fiecare: poziția față de proiect, tipul
-// sursei, dacă articolul chiar e despre proiect și dacă e de fapt comunicatul unui partid sau politician. Modelele nu
-// scriu text și nu au unelte; articolul e doar „starea” pe care o citesc. Site-ul pune eticheta doar unde sunt de acord
-// (src/lib/press.ts).
+// Clasifică articolele din data/news/<slug>.json cu trei cititori: două modele de decizie rulate local
+// (scripts/local-models), Clef (Cloudflare) și d1-3B (Liquid AI), plus GPT-6 Luna prin Codex, în același mediu izolat
+// ca restul modelelor (scripts/lib/ai-cli.mjs). Pentru fiecare link verificat, din `articles` și din `pending`, fiecare
+// răspunde la patru întrebări cu variante fixe: poziția față de proiect, tipul sursei, dacă articolul chiar e despre
+// proiect și dacă e de fapt comunicatul unui partid sau politician. Niciunul nu are unelte; articolul e doar „starea”
+// pe care o citesc. Site-ul pune eticheta doar unde cel puțin doi sunt de acord (src/lib/press.ts).
 //
-//   node scripts/straja-stance.mjs              articolele încă neclasificate
+// Fiecare articol primește doar răspunsurile care îi lipsesc: dacă Luna nu răspunde azi, îl întrebăm mâine, fără să
+// rulăm din nou modelele locale.
+//
+//   node scripts/straja-stance.mjs              articolele cărora le lipsește un răspuns
 //   node scripts/straja-stance.mjs --all        reclasifică tot (de exemplu după ce schimbi întrebările)
 //   node scripts/straja-stance.mjs b563         doar proiectele al căror slug conține „b563”
+//   node scripts/straja-stance.mjs --no-luna    doar modelele locale
 //   node scripts/straja-stance.mjs --prepare    doar citește paginile și scrie cererile în .cache/decide, fără modele
 //
-// Fără modelele locale instalate (scripts/local-models/README.md) scriptul doar anunță și iese fără eroare.
+// Fără modelele locale instalate (scripts/local-models/README.md) rulează doar Luna.
 
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { articleText, fetchPage, mapLimit, pageTitle, quoteFound, urlKey } from './lib/web.mjs';
 import { DECISION_MODELS, available, decide, extractArticles } from './lib/decide.mjs';
+import { runModel } from './lib/ai-cli.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const NEWS = path.join(ROOT, 'data', 'news');
@@ -27,6 +32,7 @@ const VERSION = 2;
 const args = process.argv.slice(2);
 const all = args.includes('--all');
 const prepare = args.includes('--prepare');
+const luna = !args.includes('--no-luna');
 const only = args.find((a) => !a.startsWith('--'));
 
 // Modelele au fost antrenate pe scheme în engleză; starea (proiectul și articolul) rămâne în română.
@@ -76,12 +82,39 @@ function window(text, quote) {
 
 const round = (p) => Math.round(p * 1000) / 1000;
 
+// Aceleași întrebări, puse lui GPT-6 Luna (modelul din spatele Decisions API al OpenAI) printr-un prompt; răspunsul are
+// forma System One, iar „confidence” e cât de sigur se declară modelul, nu o probabilitate calibrată.
+const lunaPrompt = (request) => `You are a decision model. Read the state (a Romanian bill and a press article about it) and answer every question with exactly one allowed option.
+
+STATE:
+${JSON.stringify(request.state)}
+
+QUESTIONS:
+${JSON.stringify(request.questions, null, 1)}
+
+Reply with JSON only, no prose:
+{"stance": {"choice": "<option id>", "confidence": <0..1>}, "source": {"choice": "<option id>", "confidence": <0..1>}, "about": {"noul": <probability of true, 0..1>}, "release": {"noul": <probability of true, 0..1>}}`;
+
+async function askLuna(requests) {
+  const answers = new Map();
+  const valid = (a) =>
+    a?.stance?.choice in QUESTIONS.stance.criteria &&
+    a?.source?.choice in QUESTIONS.source.criteria &&
+    [a.stance.confidence, a.source.confidence, a.about?.noul, a.release?.noul].every((x) => typeof x === 'number' && x >= 0 && x <= 1);
+  await mapLimit(requests, 4, async (r) => {
+    const res = await runModel('codex', lunaPrompt(r), { codexModel: 'gpt-6-luna', timeoutMs: 240_000 });
+    if (res.status === 'ok' && valid(res.data)) answers.set(r.id, res.data);
+  });
+  return answers;
+}
+
 async function main() {
   const models = DECISION_MODELS.filter(available);
-  if (!models.length && !prepare) {
+  if (!models.length && !luna && !prepare) {
     console.log('Modelele locale nu sunt instalate (scripts/local-models/README.md); sar peste clasificare.');
     return;
   }
+  const wanted = [...models.map((m) => m.key), ...(luna ? ['luna'] : [])];
   const files = fs
     .readdirSync(NEWS)
     .filter((f) => f.endsWith('.json') && (!only || f.includes(only.toLowerCase())))
@@ -94,8 +127,9 @@ async function main() {
     docs.set(file, news);
     for (const kind of ['articles', 'pending']) {
       for (const item of news[kind] ?? []) {
-        if (!all && item.decision?.v === VERSION) continue;
-        todo.push({ file, slug: news.slug, item });
+        const kept = !all && item.decision?.v === VERSION ? item.decision.models : {};
+        const need = wanted.filter((k) => !kept[k]);
+        if (need.length) todo.push({ file, slug: news.slug, item, kept, need });
       }
     }
   }
@@ -144,17 +178,19 @@ async function main() {
 
   const start = Date.now();
   const byModel = {};
-  for (const model of models) byModel[model.key] = await decide(model, requests, 'stance');
+  const asked = (key) => requests.filter((_, i) => todo[i].need.includes(key));
+  for (const model of models) if (asked(model.key).length) byModel[model.key] = await decide(model, asked(model.key), 'stance');
+  if (luna && asked('luna').length) byModel.luna = await askLuna(asked('luna'));
 
   const today = new Date().toISOString().slice(0, 10);
   const touched = new Set();
   let ok = 0;
-  todo.forEach(({ file, item }, i) => {
-    const answers = {};
-    for (const model of models) {
-      const a = byModel[model.key].get(String(i));
+  todo.forEach(({ file, item, kept, need }, i) => {
+    const answers = { ...kept };
+    for (const key of need) {
+      const a = byModel[key]?.get(String(i));
       if (!a) continue;
-      answers[model.key] = {
+      answers[key] = {
         stance: a.stance.choice,
         stanceP: round(a.stance.confidence),
         source: a.source.choice,
@@ -163,16 +199,16 @@ async function main() {
         release: round(a.release.noul),
       };
     }
-    // Doar cu răspunsul tuturor modelelor; altfel articolul rămâne pentru rularea următoare.
-    if (Object.keys(answers).length < models.length) return;
+    // Ce lipsește încă (de exemplu Luna, fără răspuns azi) se cere la rularea următoare.
+    if (!Object.keys(answers).length) return;
     item.decision = { v: VERSION, checkedAt: today, text: sources[i], models: answers };
     delete item.clef;
     touched.add(file);
-    ok++;
+    if (wanted.every((k) => answers[k])) ok++;
   });
   // Articolele au fost completate pe loc, în obiectele citite la început; scriem doar fișierele atinse.
   for (const file of touched) fs.writeFileSync(file, JSON.stringify(docs.get(file), null, 2) + '\n');
-  console.log(`✅ clasificare: ${JSON.stringify({ articles: ok, total: todo.length, models: models.map((m) => m.key), seconds: Math.round((Date.now() - start) / 1000) })}`);
+  console.log(`✅ clasificare: ${JSON.stringify({ complete: ok, total: todo.length, models: wanted, seconds: Math.round((Date.now() - start) / 1000) })}`);
 }
 
 main().catch((err) => {

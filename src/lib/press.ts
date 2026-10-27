@@ -1,8 +1,9 @@
 import type { PressArticle, PressSource, PressStance } from './types';
 
-// Pragurile pentru clasificarea făcută de modelele de decizie locale (scripts/straja-stance.mjs). Punem o etichetă doar
-// unde toate modelele sunt de acord, fiecare cel puțin la jumătate de siguranță: „neclar” e mai cinstit decât o ghicire.
-const AGREE_MIN = 0.5;
+// Pragurile pentru clasificarea făcută de cei trei cititori (scripts/straja-stance.mjs): Clef, d1-3B și GPT-6 Luna.
+// Punem o etichetă doar unde cel puțin doi aleg aceeași variantă, fiecare cu cel puțin 60% siguranță (cu un singur
+// răspuns, doar el): „neclar” e mai cinstit decât o ghicire.
+const AGREE_MIN = 0.6;
 const ABOUT_MIN = 0.5;
 const RELEASE_MIN = 0.5;
 
@@ -45,15 +46,18 @@ export interface RawPressItem {
 
 const mean = (xs: number[]) => xs.reduce((a, b) => a + b, 0) / xs.length;
 
-// Varianta pe care toate modelele o aleg, fiecare peste prag; altfel null.
+// Varianta aleasă de cel puțin doi cititori (de unul, dacă doar el a răspuns), fiecare peste prag; altfel null.
 function agreed<T>(answers: ModelAnswer[], pick: (a: ModelAnswer) => T, confidence: (a: ModelAnswer) => number): T | null {
-  const first = pick(answers[0]);
-  return answers.every((a) => pick(a) === first && confidence(a) >= AGREE_MIN) ? first : null;
+  const votes = new Map<T, number>();
+  for (const a of answers) if (confidence(a) >= AGREE_MIN) votes.set(pick(a), (votes.get(pick(a)) ?? 0) + 1);
+  const need = Math.min(2, answers.length);
+  for (const [choice, n] of votes) if (n >= need) return choice;
+  return null;
 }
 
 /**
- * Un link verificat, așa cum îl afișăm. Publicațiile din listă apar mereu; celelalte doar dacă modelele spun că
- * articolul e chiar despre proiect și nu sunt de acord că e o simplă preluare.
+ * Un link verificat, așa cum îl afișăm. Publicațiile din listă apar mereu; celelalte doar dacă cititorii spun, în medie,
+ * că articolul e chiar despre proiect, și nu cad de acord că e o simplă preluare.
  */
 export function pressArticle(raw: RawPressItem, listed: boolean, title: string): PressArticle | null {
   const answers = Object.values(raw.decision?.models ?? {});

@@ -69,6 +69,9 @@ if (flags.dark || flags.light) {
   const theme = flags.dark ? 'dark' : 'light';
   await send('Page.addScriptToEvaluateOnNewDocument', { source: `try{localStorage.setItem('lastraja-theme','${theme}')}catch(e){}` });
 }
+// Fără bannerul de cookie-uri și fără insigna de dezvoltare a Next peste capturi.
+if (!flags.consent) await send('Page.addScriptToEvaluateOnNewDocument', { source: `try{localStorage.setItem('lastraja-consent','denied:'+Date.now())}catch(e){}` });
+await send('Page.addScriptToEvaluateOnNewDocument', { source: `document.addEventListener('DOMContentLoaded',()=>{const s=document.createElement('style');s.textContent='nextjs-portal{display:none!important}';document.head.appendChild(s)})` });
 if (flags.savedata) await send('Page.addScriptToEvaluateOnNewDocument', { source: `Object.defineProperty(navigator, 'connection', { value: { saveData: true } })` });
 if (flags.reduced) await send('Emulation.setEmulatedMedia', { features: [{ name: 'prefers-reduced-motion', value: 'reduce' }] });
 // Profil de telefon: atingeri (pointer: coarse) și procesor încetinit.
@@ -85,7 +88,8 @@ for (let i = 0; i < 80; i++) {
 }
 await sleep(+(flags.wait || 1500));
 if (flags.eval) {
-  await evaluate(flags.eval);
+  const out = await evaluate(flags.eval);
+  if (out !== undefined && out !== true) console.log('eval', out);
   await sleep(+(flags.after || 600));
 }
 
@@ -98,7 +102,7 @@ const clipOf = async (sel) => {
 
 if (mode === 'shot') {
   const clip = flags.clip ? await clipOf(flags.clip) : undefined;
-  const shot = await send('Page.captureScreenshot', { format: 'png', captureBeyondViewport: true, ...(clip ? { clip } : {}) });
+  const shot = await send('Page.captureScreenshot', { format: 'png', captureBeyondViewport: !!clip, ...(clip ? { clip } : {}) });
   fs.writeFileSync(a3, Buffer.from(shot.result.data, 'base64'));
   const info = await evaluate(`JSON.stringify({...document.querySelector('figure canvas')?.dataset, sw: document.documentElement.scrollWidth})`);
   console.log(info);
@@ -114,6 +118,9 @@ if (mode === 'shot') {
   const pt = ([fx, fy]) => ({ x: box.x + fx * box.width, y: box.y + fy * box.height });
   const center = async (expr) => JSON.parse(await evaluate(`(() => { const b = (${expr}).getBoundingClientRect(); return JSON.stringify({ x: b.x + b.width / 2, y: b.y + b.height / 2 }); })()`));
   let mouse = { x: 0, y: 0 };
+  let pressed = false;
+  let touchAt = null;
+  const cursor = [];
   const mouseEv = (type, p, buttons = 1) => send('Input.dispatchMouseEvent', { type, x: p.x, y: p.y, button: 'left', buttons, clickCount: type === 'mouseMoved' ? 0 : 1 });
   const tap = async (p) => {
     await send('Input.dispatchTouchEvent', { type: 'touchStart', touchPoints: [{ x: p.x, y: p.y }] });
@@ -124,31 +131,60 @@ if (mode === 'shot') {
       mouse = pt(s.down);
       await mouseEv('mouseMoved', mouse, 0);
       await mouseEv('mousePressed', mouse);
+      pressed = true;
     }
     if (s.moveBy && i >= s.from && i <= s.to) {
       const k = 1 / (s.to - s.from + 1);
       mouse = { x: mouse.x + s.moveBy[0] * box.width * k, y: mouse.y + s.moveBy[1] * box.height * k };
-      await mouseEv('mouseMoved', mouse);
+      await mouseEv('mouseMoved', mouse, pressed ? 1 : 0);
     }
-    if (s.up) await mouseEv('mouseReleased', mouse);
-    if (s.hover !== undefined) await mouseEv('mouseMoved', await center(`document.querySelectorAll('figure button[aria-pressed]')[${s.hover}]`), 0);
+    if (s.up) {
+      await mouseEv('mouseReleased', mouse);
+      pressed = false;
+    }
+    if (s.hover !== undefined) {
+      mouse = await center(`document.querySelectorAll('figure button[aria-pressed]')[${s.hover}]`);
+      await mouseEv('mouseMoved', mouse, 0);
+    }
     if (s.clickNotice !== undefined) {
       const p = await center(`document.querySelectorAll('figure button[aria-pressed]')[${s.clickNotice}]`);
+      mouse = p;
       await mouseEv('mouseMoved', p, 0);
       await mouseEv('mousePressed', p);
       await mouseEv('mouseReleased', p);
     }
+    // Mâna alunecă spre un afiș sau un buton, pe parcursul cadrelor from..to.
+    if ((s.glideNotice !== undefined || s.glideSel) && i >= s.from && i <= s.to) {
+      if (i === s.from) {
+        const expr = s.glideSel ? `document.querySelector(${JSON.stringify(s.glideSel)})` : `document.querySelectorAll('figure button[aria-pressed]')[${s.glideNotice}]`;
+        s.start = { ...mouse };
+        s.end = await center(expr);
+      }
+      const k = (i - s.from + 1) / (s.to - s.from + 1);
+      const e = k < 0.5 ? 2 * k * k : 1 - (-2 * k + 2) ** 2 / 2;
+      mouse = { x: s.start.x + (s.end.x - s.start.x) * e, y: s.start.y + (s.end.y - s.start.y) * e };
+      await mouseEv('mouseMoved', mouse, 0);
+    }
+    if (s.moveTo) {
+      mouse = s.moveTo === 'notice' ? mouse : pt(s.moveTo);
+      await mouseEv('mouseMoved', mouse, 0);
+    }
     if (s.clickSel) {
       const p = await center(`document.querySelector(${JSON.stringify(s.clickSel)})`);
+      mouse = p;
       await mouseEv('mouseMoved', p, 0);
       await mouseEv('mousePressed', p);
       await mouseEv('mouseReleased', p);
     }
     if (s.tapBoard) {
       const r = JSON.parse(await evaluate(`JSON.stringify(document.querySelector('figure button[tabindex="-1"]').getBoundingClientRect())`));
-      await tap({ x: r.x + r.width * 0.3, y: r.y + r.height * 0.5 });
+      touchAt = { x: r.x + r.width * 0.3, y: r.y + r.height * 0.5 };
+      await tap(touchAt);
     }
-    if (s.tapNotice !== undefined) await tap(await center(`document.querySelectorAll('figure button[aria-pressed]')[${s.tapNotice}]`));
+    if (s.tapNotice !== undefined) {
+      touchAt = await center(`document.querySelectorAll('figure button[aria-pressed]')[${s.tapNotice}]`);
+      await tap(touchAt);
+    }
     if (s.key) {
       await send('Input.dispatchKeyEvent', { type: 'keyDown', key: s.key, code: s.key, windowsVirtualKeyCode: s.key === 'Escape' ? 27 : 0 });
       await send('Input.dispatchKeyEvent', { type: 'keyUp', key: s.key, code: s.key, windowsVirtualKeyCode: s.key === 'Escape' ? 27 : 0 });
@@ -179,9 +215,15 @@ if (mode === 'shot') {
     for (let i = 0; i < frames; i++) {
       for (const s of script) if (s.at === i || (s.from !== undefined && i >= s.from && i <= s.to)) await run(s, i);
       await evaluate(`window.dispatchEvent(new CustomEvent('sat-step', { detail: 1 / 30 }))`);
-      const shot = await send('Page.captureScreenshot', { format: 'png', ...(clip ? { clip } : {}) });
+      const shot = await send('Page.captureScreenshot', { format: 'png', captureBeyondViewport: !!flags.beyond, ...(clip ? { clip } : {}) });
       fs.writeFileSync(path.join(dir, `f${String(i).padStart(4, '0')}.png`), Buffer.from(shot.result.data, 'base64'));
+      // Unde e mâna, în px CSS față de colțul decupajului (pentru cursorul desenat peste video).
+      const ox = clip ? clip.x - (await evaluate('scrollX')) : 0;
+      const oy = clip ? clip.y - (await evaluate('scrollY')) : 0;
+      cursor.push({ x: mouse.x - ox, y: mouse.y - oy, down: pressed, touch: touchAt ? { x: touchAt.x - ox, y: touchAt.y - oy } : null });
+      touchAt = null;
     }
+    fs.writeFileSync(path.join(dir, 'cursor.json'), JSON.stringify(cursor));
   }
 } else if (mode === 'video-old') {
   const dir = a3;
@@ -199,8 +241,10 @@ if (mode === 'shot') {
     fs.writeFileSync(path.join(dir, `f${String(i).padStart(4, '0')}.png`), Buffer.from(shot.result.data, 'base64'));
   }
 } else if (mode === 'bench') {
+  if (flags.debug) await evaluate(`window.__c = document.querySelector('figure canvas')`);
   await sleep(+(flags.settle || 6000));
-  const res = await evaluate(`new Promise((done) => {
+  if (flags.debug) console.log('debug', await evaluate(`JSON.stringify({ same: window.__c === document.querySelector('figure canvas'), nav: performance.getEntriesByType('navigation').length, t: performance.now(), ds: { ...document.querySelector('figure canvas').dataset }, canvases: document.querySelectorAll('canvas').length, vis: document.visibilityState })`));
+  const res = flags.nosample ? '{}' : await evaluate(`new Promise((done) => {
     const c = document.querySelector('figure canvas');
     const samples = []; let n = 0; let last = performance.now(); const gaps = [];
     const tick = () => {
@@ -216,11 +260,11 @@ if (mode === 'shot') {
   // Rafală: cadre fără așteptarea ecranului, o singură sincronizare GPU la final.
   const burst = [];
   for (let r = 0; r < 3; r++) {
-    await evaluate(`window.dispatchEvent(new CustomEvent('sat-burst', { detail: 300 }))`);
+    await evaluate(`window.dispatchEvent(new CustomEvent('sat-burst', { detail: ${+(flags.burst || 300)} }))`);
     burst.push(+(await evaluate(`document.querySelector('figure canvas').dataset.burstMs`)));
     await sleep(300);
   }
-  console.log('burstMs', burst.join(' / '), 'quality', await evaluate(`document.querySelector('figure canvas').dataset.quality`));
+  console.log('burstMs', burst.join(' / '), 'ds', await evaluate(`JSON.stringify(document.querySelector('figure canvas').dataset)`));
   const gl = await evaluate(`(() => { const g = document.createElement('canvas').getContext('webgl2'); const e = g && g.getExtension('WEBGL_debug_renderer_info'); return e ? g.getParameter(e.UNMASKED_RENDERER_WEBGL) : 'n/a'; })()`);
   console.log(res, '| renderer:', gl);
 }

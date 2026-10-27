@@ -79,6 +79,9 @@ const NIGHT = {
   sunPos: new Vector3(8, 15, -4),
 };
 
+/** Spre ce privește soarele: mijlocul satului (umbrele nu depind de unghiul camerei). */
+const SUN_AIM = new Vector3(0, 1.6, 0.6);
+
 type NoticeSlot = { x: number; y: number; z: number; level: RiskLevel; id: string };
 type NavigatorHints = Navigator & { deviceMemory?: number };
 
@@ -332,8 +335,8 @@ export function createVillageScene(canvas: HTMLCanvasElement, opts: SceneOptions
     sun.color.copy(DAY.sun).lerp(NIGHT.sun, n);
     sun.intensity = lerp(DAY.sunI, NIGHT.sunI, n);
     sun.shadow.intensity = lerp(DAY.shadow, NIGHT.shadow, n);
-    sun.position.copy(DAY.sunPos).lerp(NIGHT.sunPos, n).add(villageTarget);
-    sun.target.position.copy(villageTarget);
+    sun.position.copy(DAY.sunPos).lerp(NIGHT.sunPos, n).add(SUN_AIM);
+    sun.target.position.copy(SUN_AIM);
     paneMat.emissiveIntensity = n * 1.05;
     paneMat.color.set(MAT.pane).lerp(C.lamp, n * 0.4);
     spot.intensity = lerp(DAY.spot, NIGHT.spot, n);
@@ -393,6 +396,7 @@ export function createVillageScene(canvas: HTMLCanvasElement, opts: SceneOptions
     return radius;
   };
   const fit = () => {
+    const t0 = performance.now();
     camera.aspect = cssW / cssH;
     camera.updateProjectionMatrix();
     for (let i = 0; i < FIT_STEPS; i++) {
@@ -403,6 +407,7 @@ export function createVillageScene(canvas: HTMLCanvasElement, opts: SceneOptions
       fitY[i] = villageTarget.y;
     }
     boardRadius = fitRadius(boardPts, [0], boardTarget, ZOOM_ELEVATION, 0.95, 0.8, false);
+    canvas.dataset.fitMs = (performance.now() - t0).toFixed(1);
   };
 
   const pixelRatio = () => Math.min(low ? LOW_DPR : MAX_DPR, window.devicePixelRatio || 1);
@@ -584,6 +589,7 @@ export function createVillageScene(canvas: HTMLCanvasElement, opts: SceneOptions
   const sync = () => {
     last = 0;
     renderer.setAnimationLoop(playing() ? frame : null);
+    canvas.dataset.loop = playing() ? 'on' : `off v${+visible} r${+reduced}`;
     if (!playing() && !disposed) render();
   };
 

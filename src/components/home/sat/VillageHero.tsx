@@ -71,8 +71,6 @@ export default function VillageHero({ bills }: { bills: BillLite[]; counts: Risk
   const liveRefs = useRef<(HTMLButtonElement | null)[]>([]);
   const posterRefs = useRef<(HTMLButtonElement | null)[]>([]);
   const fromUser = useRef(false);
-  const touchMode = useRef({ coarse: false, zoomed: false });
-  touchMode.current = { coarse, zoomed };
   const latest = useRef({ notices, newspaper, activeId: active?.id ?? null });
   latest.current = { notices, newspaper, activeId: active?.id ?? null };
 
@@ -111,9 +109,8 @@ export default function VillageHero({ bills }: { bills: BillLite[]; counts: Risk
             poster,
             surface: box,
             onProject: (rects, facing) => {
-              const { coarse: c, zoomed: z } = touchMode.current;
-              // Pe telefon, în afara prim-planului, o atingere pe tablă apropie camera; afișele se aleg de aproape.
-              const tappable = facing && !(c && !z);
+              // Cu tabla întoarsă, afișele nu se pot apăsa (rămân accesibile din tastatură și din ‹ ›).
+              const pe = facing ? '' : 'none';
               liveRefs.current.forEach((el, i) => {
                 if (!el) return;
                 const w = Math.max(rects[i * 4 + 2], 6) + 2;
@@ -121,7 +118,7 @@ export default function VillageHero({ bills }: { bills: BillLite[]; counts: Risk
                 el.style.width = `${w}px`;
                 el.style.height = `${h}px`;
                 el.style.transform = `translate(${rects[i * 4] - w / 2}px, ${rects[i * 4 + 1] - h / 2}px)`;
-                el.style.pointerEvents = tappable ? 'auto' : 'none';
+                el.style.pointerEvents = pe;
               });
               const b = boardRef.current;
               const n = (rects.length >> 2) - 1;
@@ -131,7 +128,7 @@ export default function VillageHero({ bills }: { bills: BillLite[]; counts: Risk
                 b.style.width = `${w}px`;
                 b.style.height = `${h}px`;
                 b.style.transform = `translate(${rects[n * 4] - w / 2}px, ${rects[n * 4 + 1] - h / 2}px)`;
-                b.style.pointerEvents = facing ? 'auto' : 'none';
+                b.style.pointerEvents = pe;
               }
             },
             onFirstFrame: () => setReady(true),
@@ -210,7 +207,10 @@ export default function VillageHero({ bills }: { bills: BillLite[]; counts: Risk
     if (mode !== 'live') return;
     const sync = () => sceneRef.current?.setTheme();
     const mo = new MutationObserver(sync);
-    mo.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+    mo.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['data-theme'],
+    });
     const mq = window.matchMedia('(prefers-color-scheme: dark)');
     mq.addEventListener('change', sync);
     return () => {
@@ -245,10 +245,24 @@ export default function VillageHero({ bills }: { bills: BillLite[]; counts: Risk
   };
 
   const live = mode === 'live' && ready;
+  const closeUpFirst = coarse && !zoomed;
+
+  // Când scena preia de la poster, focusul de pe un afiș trece pe același afiș din scenă.
+  const focusedPoster = useRef(-1);
+  useEffect(() => {
+    if (!live || focusedPoster.current < 0) return;
+    liveRefs.current[focusedPoster.current]?.focus({ preventScroll: true });
+    focusedPoster.current = -1;
+  }, [live]);
   const refs = live ? liveRefs : posterRefs;
   const onNoticeKey = (e: KeyboardEvent<HTMLButtonElement>, i: number) => {
     const { cols } = boardGrid(open.length);
-    const delta = { ArrowRight: 1, ArrowLeft: -1, ArrowDown: cols, ArrowUp: -cols }[e.key];
+    const delta = {
+      ArrowRight: 1,
+      ArrowLeft: -1,
+      ArrowDown: cols,
+      ArrowUp: -cols,
+    }[e.key];
     if (!delta) return;
     e.preventDefault();
     const j = Math.min(open.length - 1, Math.max(0, i + delta));
@@ -285,28 +299,41 @@ export default function VillageHero({ bills }: { bills: BillLite[]; counts: Risk
         {/* Posterul apare imediat, din CSS (după temă); scena 3D îl acoperă când e gata. */}
         <div
           aria-hidden
-          className={`absolute inset-0 bg-[image:var(--sat-poster)] bg-[length:100%_100%] bg-no-repeat transition-opacity duration-700 motion-reduce:transition-none ${
-            live ? 'opacity-0' : 'opacity-100'
+          className={`absolute inset-0 bg-[image:var(--sat-poster)] bg-[length:100%_100%] bg-no-repeat transition-opacity motion-reduce:transition-none ${
+            live ? 'opacity-0 delay-700 duration-200' : 'opacity-100'
           }`}
         />
-        {!live && <PosterNotices open={open} activeId={active?.id} onPick={pick} refs={posterRefs} onKey={onNoticeKey} onChoose={choose} />}
+        {!live && (
+          <PosterNotices
+            open={open}
+            activeId={active?.id}
+            onPick={pick}
+            refs={posterRefs}
+            onKey={onNoticeKey}
+            onChoose={choose}
+            onFocusAt={(i) => (focusedPoster.current = i)}
+          />
+        )}
         <canvas
           ref={canvasRef}
           aria-hidden
           className={`absolute inset-0 h-full w-full transition-opacity duration-700 motion-reduce:transition-none ${live ? 'opacity-100' : 'opacity-0'}`}
         />
         {mode === 'live' && (
-          <div className="absolute inset-0" role="group" aria-label="Afișele de pe avizier. Alege un afiș ca să vezi proiectul.">
-            {coarse && !zoomed && (
-              <button
-                ref={boardRef}
-                type="button"
-                tabIndex={-1}
-                aria-hidden
-                className="absolute left-0 top-0 h-0 w-0 rounded-md bg-transparent"
-                onClick={() => sceneRef.current?.setZoom(true)}
-              />
-            )}
+          <div
+            className={`absolute inset-0 ${closeUpFirst ? '[&_button[aria-pressed]]:pointer-events-none' : ''}`}
+            role="group"
+            aria-label="Afișele de pe avizier. Alege un afiș ca să vezi proiectul."
+          >
+            {/* Pe telefon, o atingere pe tablă apropie camera; afișele se aleg apoi de aproape. */}
+            <button
+              ref={boardRef}
+              type="button"
+              tabIndex={-1}
+              aria-hidden
+              className={`absolute left-0 top-0 h-0 w-0 rounded-md bg-transparent ${closeUpFirst ? '' : 'hidden'}`}
+              onClick={() => sceneRef.current?.setZoom(true)}
+            />
             {open.map((b, i) => (
               <button
                 key={b.id}
@@ -394,6 +421,7 @@ function PosterNotices({
   refs,
   onKey,
   onChoose,
+  onFocusAt,
 }: {
   open: BillLite[];
   activeId: string | undefined;
@@ -401,43 +429,55 @@ function PosterNotices({
   refs: RefObject<(HTMLButtonElement | null)[]>;
   onKey: (e: KeyboardEvent<HTMLButtonElement>, i: number) => void;
   onChoose: (id: string) => void;
+  onFocusAt: (i: number) => void;
 }) {
   const { cols, rows } = boardGrid(open.length);
   return (
     <div
-      role="group"
-      aria-label="Afișele de pe avizier. Alege un afiș ca să vezi proiectul."
-      className="absolute grid gap-x-[1.8%] gap-y-[9%] p-[0.4%]"
+      className="absolute"
       style={{
         left: `${POSTER_BOARD.left}%`,
         top: `${POSTER_BOARD.top}%`,
         width: `${POSTER_BOARD.width}%`,
         height: `${POSTER_BOARD.height}%`,
-        gridTemplateColumns: `repeat(${cols}, minmax(0, 1fr))`,
-        gridTemplateRows: `repeat(${rows}, minmax(0, 1fr))`,
         transform: `skewY(${POSTER_BOARD.skew}deg)`,
       }}
     >
-      {open.map((b, i) => {
-        const on = b.id === activeId;
-        return (
-          <button
-            key={b.id}
-            ref={(el) => {
-              refs.current[i] = el;
-            }}
-            type="button"
-            aria-pressed={on}
-            aria-label={label(b)}
-            className={`mx-auto aspect-[11/10] h-full max-w-full rounded-[1px] ${RISK[b.analysis.consensus.riskLevel].fill} ${on ? 'relative z-10 scale-125 ring-2 ring-surface' : ''} transition-transform`}
-            onMouseEnter={() => onPick(b.id, false)}
-            onFocus={() => onPick(b.id, true)}
-            onClick={() => onChoose(b.id)}
-            onKeyDown={(e) => onKey(e, i)}
-            {...trackAttrs('village_select', { bill_id: b.id })}
-          />
-        );
-      })}
+      {/* Aceeași așezare ca în scenă: marginea tablei, apoi câte o celulă pe afiș. */}
+      <div
+        role="group"
+        aria-label="Afișele de pe avizier. Alege un afiș ca să vezi proiectul."
+        className="absolute inset-x-[2.9%] inset-y-[6.5%] grid"
+        style={{
+          gridTemplateColumns: `repeat(${cols}, minmax(0, 1fr))`,
+          gridTemplateRows: `repeat(${rows}, minmax(0, 1fr))`,
+        }}
+      >
+        {open.map((b, i) => {
+          const on = b.id === activeId;
+          return (
+            <button
+              key={b.id}
+              ref={(el) => {
+                refs.current[i] = el;
+              }}
+              type="button"
+              aria-pressed={on}
+              aria-label={label(b)}
+              className={`h-[84%] w-[82%] place-self-center rounded-[1px] ${RISK[b.analysis.consensus.riskLevel].fill} ${on ? 'relative z-10 scale-125 ring-2 ring-surface' : ''} transition-transform`}
+              onMouseEnter={() => onPick(b.id, false)}
+              onFocus={() => {
+                onPick(b.id, true);
+                onFocusAt(i);
+              }}
+              onBlur={(e) => e.relatedTarget && onFocusAt(-1)}
+              onClick={() => onChoose(b.id)}
+              onKeyDown={(e) => onKey(e, i)}
+              {...trackAttrs('village_select', { bill_id: b.id })}
+            />
+          );
+        })}
+      </div>
     </div>
   );
 }

@@ -49,4 +49,4 @@ export function boardGrid(n: number) {
  * Unde e tabla avizierului în poster, în procente din imagine, măsurat pe pixelii posterului.
  * skew: tabla e văzută puțin din stânga, așa că marginile de sus și de jos urcă spre dreapta.
  */
-export const POSTER_BOARD = { left: 46.4, top: 46.38, width: 17.14, height: 6.82, skew: -3.9 };
+export const POSTER_BOARD = { left: 45.85, top: 47.89, width: 19.54, height: 7.77, skew: -3.8 };

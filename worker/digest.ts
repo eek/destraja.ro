@@ -98,7 +98,7 @@ export async function handleDigest(request: Request, env: Env) {
         headers: {
           'List-Unsubscribe': `<${unsub}>`,
           'List-Unsubscribe-Post': 'List-Unsubscribe=One-Click',
-          'List-Id': 'Alertele destrajă.ro <alerte.destraja.ro>',
+          'List-Id': 'Alertele destrajă <alerte.destraja.ro>',
           'X-Edition': `${day}-${s.level}`,
         },
       });

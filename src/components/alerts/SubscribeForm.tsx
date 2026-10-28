@@ -4,6 +4,7 @@ import { useEffect, useId, useState } from 'react';
 import Link from 'next/link';
 import { MailCheck } from 'lucide-react';
 import type { AlertLevel } from '@/lib/alerts';
+import { suggestEmail } from '@/lib/email-typos';
 import { track } from '@/lib/analytics';
 import { ALERTS_LIVE } from '@/lib/site';
 import { TURNSTILE_LOAD_ERROR, useTurnstile, useTurnstileEnabled } from '@/lib/turnstile';
@@ -41,6 +42,7 @@ export default function SubscribeForm({ initialLevel = 'yellow' }: { initialLeve
   });
 
   const valid = EMAIL.test(email.trim());
+  const suggestion = valid ? suggestEmail(email) : null;
   const canSend = valid && !!token && status !== 'sending';
 
   const send = async () => {
@@ -119,7 +121,17 @@ export default function SubscribeForm({ initialLevel = 'yellow' }: { initialLeve
           onChange={(e) => setEmail(e.target.value)}
           placeholder="nume@exemplu.ro"
           className={`${inputCls} px-4`}
+          aria-describedby={suggestion ? `${ids}-typo` : undefined}
         />
+        {suggestion && (
+          <p id={`${ids}-typo`} className="text-sm text-body">
+            Ai vrut să scrii{' '}
+            <button type="button" onClick={() => setEmail(suggestion)} className={`${linkCls} font-semibold`}>
+              {suggestion}
+            </button>
+            ?
+          </p>
+        )}
       </div>
       {enabled ? (
         <>

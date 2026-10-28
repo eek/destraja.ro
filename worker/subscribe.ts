@@ -54,7 +54,7 @@ export const unsubscribeUrl = (token: string) => `${SITE}/api/unsubscribe?t=${en
 // --- e-mailurile de confirmare ---------------------------------------------------------------
 
 type ConfirmKind = 'confirm' | 'change' | 'already';
-const LATE = 'Ne pare rău că mesajul vine cu întârziere: când ai cerut alertele, atinsesem limita zilnică de e-mailuri.';
+const LATE = 'Ne pare rău că mesajul vine cu întârziere: prima încercare de a ți-l trimite n-a reușit.';
 
 // late: confirmarea a stat la coadă (limita zilnică de e-mailuri), deci cerem scuze pentru întârziere.
 function confirmEmail(kind: ConfirmKind, level: Level, confirmUrl: string | null, prefs: string | null, late = false) {
@@ -68,16 +68,16 @@ function confirmEmail(kind: ConfirmKind, level: Level, confirmUrl: string | null
   let body: string;
   let text: string;
   if (kind === 'confirm') {
-    subject = 'Confirmă abonarea la alertele destrajă.ro';
+    subject = 'Confirmă abonarea la alertele destrajă';
     body =
       h1('Mai e un pas: confirmă adresa') +
       (late ? p(LATE) : '') +
-      p(`Ai cerut alertele destrajă.ro pentru <strong>${esc(levelName)}</strong>. Îți scriem doar în zilele lucrătoare în care apare ceva nou pe nivelul ales.`) +
+      p(`Ai cerut alertele destrajă pentru <strong>${esc(levelName)}</strong>. Îți scriem doar în zilele lucrătoare în care apare ceva nou pe nivelul ales.`) +
       button(confirmUrl!, 'Confirmă abonarea') +
       small(`Linkul e valabil ${CONFIRM_HOURS} de ore. Dacă nu ai cerut tu alertele, ignoră acest mesaj: fără confirmare nu te abonăm și ștergem adresa.`);
-    text = `Mai e un pas: confirmă adresa.\n\n${late ? `${LATE}\n\n` : ''}Ai cerut alertele destrajă.ro pentru ${levelName}. Îți scriem doar în zilele lucrătoare în care apare ceva nou pe nivelul ales.\n\nConfirmă abonarea: ${confirmUrl}\n\nLinkul e valabil ${CONFIRM_HOURS} de ore. Dacă nu ai cerut tu alertele, ignoră acest mesaj: fără confirmare nu te abonăm și ștergem adresa.`;
+    text = `Mai e un pas: confirmă adresa.\n\n${late ? `${LATE}\n\n` : ''}Ai cerut alertele destrajă pentru ${levelName}. Îți scriem doar în zilele lucrătoare în care apare ceva nou pe nivelul ales.\n\nConfirmă abonarea: ${confirmUrl}\n\nLinkul e valabil ${CONFIRM_HOURS} de ore. Dacă nu ai cerut tu alertele, ignoră acest mesaj: fără confirmare nu te abonăm și ștergem adresa.`;
   } else if (kind === 'change') {
-    subject = 'Confirmă noul nivel al alertelor destrajă.ro';
+    subject = 'Confirmă noul nivel al alertelor destrajă';
     body =
       h1('Schimbi nivelul alertelor?') +
       p(`Adresa ta e deja abonată. Ai cerut să primești de acum <strong>${esc(levelName)}</strong>.`) +
@@ -85,7 +85,7 @@ function confirmEmail(kind: ConfirmKind, level: Level, confirmUrl: string | null
       small(`Dacă nu ai cerut tu schimbarea, ignoră mesajul; alertele rămân cum erau. Linkul e valabil ${CONFIRM_HOURS} de ore.`);
     text = `Schimbi nivelul alertelor?\n\nAdresa ta e deja abonată. Ai cerut să primești de acum ${levelName}.\n\nConfirmă noul nivel: ${confirmUrl}\n\nDacă nu ai cerut tu schimbarea, ignoră mesajul; alertele rămân cum erau.`;
   } else {
-    subject = 'Adresa ta e deja abonată la alertele destrajă.ro';
+    subject = 'Adresa ta e deja abonată la alertele destrajă';
     body =
       h1('Adresa e deja abonată') +
       p(`Primești deja <strong>${esc(levelName)}</strong>. Nu trebuie să faci nimic.`) +
@@ -95,11 +95,11 @@ function confirmEmail(kind: ConfirmKind, level: Level, confirmUrl: string | null
   const html = emailLayout({
     title: subject,
     preheader: kind === 'already' ? 'Nu trebuie să faci nimic.' : `Un click și primești ${levelName}.`,
-    eyebrow: 'Alertele destrajă.ro',
+    eyebrow: 'Alertele destrajă',
     body,
-    footer: footerHtml({ reason: 'Primești acest mesaj pentru că cineva a cerut alertele destrajă.ro pentru această adresă, din formularul de pe site.' }),
+    footer: footerHtml({ reason: 'Primești acest mesaj pentru că cineva a cerut alertele destrajă pentru această adresă, din formularul de pe site.' }),
   });
-  return { subject, html, text: `${text}\n\n—\ndestrajă.ro · proiect civic independent · ${REPLY_TO}` };
+  return { subject, html, text: `${text}\n\n—\ndestrajă (destraja.ro) · proiect civic independent · ${REPLY_TO}` };
 }
 
 async function sendConfirm(env: Env, to: string, mail: { subject: string; html: string; text: string }) {
@@ -192,9 +192,10 @@ export async function handleSubscribe(request: Request, env: Env, url: URL) {
 export async function sendQueued(env: Env) {
   const nowIso = new Date().toISOString();
   const { results } = await env.DB.prepare(
-    'SELECT id, email, status, level, pending_level FROM subscribers WHERE confirm_queued_at IS NOT NULL AND confirm_expires > ? ORDER BY confirm_queued_at LIMIT 25',
+    // confirm_queued_at poate fi și în viitor: o retrimitere programată (de exemplu după ce un domeniu nou capătă reputație).
+    'SELECT id, email, status, level, pending_level FROM subscribers WHERE confirm_queued_at <= ? AND confirm_expires > ? ORDER BY confirm_queued_at LIMIT 25',
   )
-    .bind(nowIso)
+    .bind(nowIso, nowIso)
     .all<{ id: string; email: string; status: 'pending' | 'active'; level: Level; pending_level: Level | null }>();
   let sent = 0;
   for (const r of results) {
@@ -270,5 +271,5 @@ export async function handleUnsubscribe(request: Request, env: Env, url: URL) {
   if (request.method !== 'POST') return new Response(null, { status: 405, headers: { allow: 'GET, POST' } });
   const id = await verifyManageToken(env, token);
   if (id) await env.DB.prepare('DELETE FROM subscribers WHERE id = ?').bind(id).run();
-  return new Response('Te-ai dezabonat de la alertele destrajă.ro.', { status: 200, headers: { 'content-type': 'text/plain; charset=utf-8', 'cache-control': 'no-store' } });
+  return new Response('Te-ai dezabonat de la alertele destrajă.', { status: 200, headers: { 'content-type': 'text/plain; charset=utf-8', 'cache-control': 'no-store' } });
 }

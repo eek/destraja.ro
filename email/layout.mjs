@@ -6,7 +6,9 @@
 // roluri prin clasele lt-*; clienții care nu citesc <style> rămân pe varianta deschisă.
 
 export const SITE = 'https://destraja.ro';
-export const FROM = { email: 'alerte@destraja.ro', name: 'destrajă.ro' };
+// În e-mailuri scriem numele fără „.ro”: „destrajă.ro” e alt domeniu (xn--destraj-f4a.ro) decât cel din linkuri,
+// iar filtrele anti-spam (rspamd) citesc textul și alt-ul imaginilor ca pe niște linkuri spre el.
+export const FROM = { email: 'alerte@destraja.ro', name: 'destrajă' };
 export const REPLY_TO = 'contact@destraja.ro';
 
 export const LEVELS = {
@@ -113,7 +115,7 @@ export function emailLayout({ title, preheader, eyebrow, body, footer }) {
 <tr><td align="center" style="padding:24px 12px 40px">
 <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="width:100%;max-width:600px">
 <tr><td class="lt-band lt-pad" bgcolor="${C.band}" style="background:${C.band};border-radius:16px 16px 0 0;padding:26px 32px 22px">
-<a href="${SITE}/?utm_source=alerte&amp;utm_medium=email" style="text-decoration:none"><img src="${SITE}/email/logo-light.png" width="161" height="54" alt="destrajă.ro" style="display:block;border:0;width:161px;height:54px;color:${C.onBand};font-family:${SERIF};font-size:24px"></a>
+<a href="${SITE}/?utm_source=alerte&amp;utm_medium=email" style="text-decoration:none"><img src="${SITE}/email/logo-light.png" width="161" height="54" alt="destrajă" style="display:block;border:0;width:161px;height:54px;color:${C.onBand};font-family:${SERIF};font-size:24px"></a>
 <p style="margin:14px 0 0;font-family:${SANS};font-size:13px;line-height:20px;color:${C.onBandMuted}">${eyebrow}</p>
 </td></tr>
 <tr><td class="lt-surface lt-pad" bgcolor="${C.surface}" style="background:${C.surface};border:1px solid ${C.line};border-top:0;border-radius:0 0 16px 16px;padding:30px 32px 34px">
@@ -136,5 +138,5 @@ export function footerHtml({ reason, links = [] }) {
     .join(' &nbsp;·&nbsp; ');
   return `<p class="lt-muted" style="margin:0;font-family:${SANS};font-size:12px;line-height:19px;color:${C.muted}">${reason}</p>
 ${linkHtml ? `<p class="lt-muted" style="margin:10px 0 0;font-family:${SANS};font-size:12px;line-height:19px;color:${C.muted}">${linkHtml}</p>` : ''}
-<p class="lt-muted" style="margin:14px 0 0;font-family:${SANS};font-size:12px;line-height:19px;color:${C.muted}">Analizele sunt făcute cu AI și pot conține erori. Nu sunt consultanță juridică; verifică textul oficial pe senat.ro.<br>destrajă.ro · proiect civic independent, administrat de Radu-Sebastian Amarie · ${REPLY_TO}</p>`;
+<p class="lt-muted" style="margin:14px 0 0;font-family:${SANS};font-size:12px;line-height:19px;color:${C.muted}">Analizele sunt făcute cu AI și pot conține erori. Nu sunt consultanță juridică; verifică textul oficial pe senat.ro.<br>destrajă (destraja.ro) · proiect civic independent, administrat de Radu-Sebastian Amarie · ${REPLY_TO}</p>`;
 }

@@ -19,6 +19,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { C, LEVELS, RISK, SANS, SERIF, SITE, button, emailLayout, esc, footerHtml, riskChip } from '../email/layout.mjs';
+// Aceeași regulă ca pe site pentru poziția unui articol (Node rulează TypeScript-ul fără compilare: press.ts importă doar tipuri).
+import { pressArticle, STANCE } from '../src/lib/press.ts';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = path.join(ROOT, 'data');
@@ -150,7 +152,7 @@ function collect(bills, state) {
       const key = `${a.domain.replace(/^(www|m|amp)\./, '')}|${title.toLowerCase()}`;
       if (seenKeys.has(key)) continue;
       seenKeys.add(key);
-      press.push({ ...a, title, bill: b });
+      press.push({ ...a, title, bill: b, stance: pressArticle(a, true, title)?.stance ?? null });
     }
   }
   press.sort((a, b) => (b.publishedAt ?? '').localeCompare(a.publishedAt ?? '') || b.bill.score - a.bill.score);
@@ -193,14 +195,37 @@ ${cta ? `<p style="margin:12px 0 0;font-family:${SANS};font-size:14px;line-heigh
 </td></tr></table>`;
 }
 
-function pressRow(a, { bill = true, risk = true } = {}) {
+// Poziția față de proiect, unde cititorii presei sunt de acord; neutrele nu le marcăm, ca pe cardul de pe site.
+const stanceLabel = (a) => (a.stance && a.stance !== 'neutral' ? STANCE[a.stance].label : null);
+const stanceTag = (a) => (stanceLabel(a) ? ` · <strong class="lt-ink" style="color:${C.ink};font-weight:600">${stanceLabel(a)}</strong>` : '');
+
+// Articolele noi grupate pe proiect, în ordinea celui mai nou articol al fiecăruia.
+function byBill(press) {
+  const groups = new Map();
+  for (const a of press) {
+    if (!groups.has(a.bill.id)) groups.set(a.bill.id, { bill: a.bill, articles: [] });
+    groups.get(a.bill.id).articles.push(a);
+  }
+  return [...groups.values()];
+}
+
+/** Un articol; cu `more`, și celelalte articole noi despre același proiect, pe un rând. */
+function pressRow(a, { bill = true, risk = true, more = [] } = {}) {
   const r = RISK[a.bill.level];
   const date = a.publishedAt ? formatDay(dayUtc(a.publishedAt), { day: 'numeric', month: 'long' }) : null;
+  const outlets = [...new Set(more.map((m) => m.outlet))];
+  const critical = more.filter((m) => m.stance === 'critical').length;
+  const moreHtml = more.length
+    ? `<p class="lt-muted" style="margin:4px 0 0;font-family:${SANS};font-size:13px;line-height:19px;color:${C.muted}">Încă ${countWord(more.length, 'articol', 'articole')}${critical ? ` (${countWord(critical, 'critic', 'critice')})` : ''}: ${esc(outlets.slice(0, 3).join(', '))}${outlets.length > 3 ? ' și altele' : ''}, pe <a href="${esc(billUrl(a.bill))}#presa" class="lt-link" style="${linkStyle}">pagina proiectului</a>.</p>`
+    : '';
   return `<tr><td class="lt-line" style="padding:12px 0;border-top:1px solid ${C.line}">
 <a href="${esc(a.url)}" class="lt-ink" style="font-family:${SERIF};font-size:16px;line-height:22px;color:${C.ink};text-decoration:none">${esc(a.title)}</a>
-<p class="lt-muted" style="margin:4px 0 0;font-family:${SANS};font-size:13px;line-height:19px;color:${C.muted}">${esc(a.outlet)}${date ? ` · ${date}` : ''}${bill ? ` · despre <a href="${esc(billUrl(a.bill))}#presa" class="lt-link" style="${linkStyle}">${esc(a.bill.id)}</a>${risk ? ` <span class="lt-text-${a.bill.level}" style="color:${r.text};font-weight:600">(${r.label.toLowerCase()})</span>` : ''}` : ''}</p>
+<p class="lt-muted" style="margin:4px 0 0;font-family:${SANS};font-size:13px;line-height:19px;color:${C.muted}">${esc(a.outlet)}${date ? ` · ${date}` : ''}${stanceTag(a)}${bill ? ` · despre <a href="${esc(billUrl(a.bill))}#presa" class="lt-link" style="${linkStyle}">${esc(a.bill.id)}</a>${risk ? ` <span class="lt-text-${a.bill.level}" style="color:${r.text};font-weight:600">(${r.label.toLowerCase()})</span>` : ''}` : ''}</p>${moreHtml}
 </td></tr>`;
 }
+
+const textPress = (a, more = []) =>
+  `\n- ${a.title}\n  ${a.outlet}${stanceLabel(a) ? ` · ${stanceLabel(a)}` : ''} · despre ${a.bill.id}\n  ${a.url}${more.length ? `\n  Încă ${countWord(more.length, 'articol', 'articole')}: ${[...new Set(more.map((m) => m.outlet))].join(', ')}` : ''}`;
 
 const table = (rows) => `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">${rows}</table>`;
 
@@ -268,7 +293,7 @@ function edition(level, data) {
     `\n- ${b.title}\n  ${RISK[b.level].label} ${fmtScore(b.score)} · ${b.id} · ${deadlineText(b)}\n  ${billUrl(b)}` +
     pressOf(b)
       .slice(0, OWN_PRESS_SHOWN)
-      .map((a) => `\n  În presă: ${a.title} (${a.outlet}) ${a.url}`)
+      .map((a) => `\n  În presă: ${a.title} (${a.outlet}${stanceLabel(a) ? `, ${stanceLabel(a).toLowerCase()}` : ''}) ${a.url}`)
       .join('');
 
   if (newBills.length) {
@@ -281,10 +306,14 @@ function edition(level, data) {
   }
   if (otherPress.length) {
     const heading = featured.length ? 'În presă despre celelalte proiecte' : 'În presă';
-    const shown = otherPress.slice(0, PRESS_SHOWN);
-    body += H2(heading) + table(shown.map((a) => pressRow(a, { risk: level !== 'red' })).join(''));
-    if (otherPress.length > shown.length) body += P(`Încă ${countWord(otherPress.length - shown.length, 'articol', 'articole')} pe paginile proiectelor.`, 'margin:12px 0 0;font-size:14px;line-height:22px');
-    text += `\n${heading.toUpperCase()}\n${shown.map((a) => `\n- ${a.title}\n  ${a.outlet} · despre ${a.bill.id}\n  ${a.url}`).join('\n')}\n`;
+    // Un rând pe proiect: cel mai nou articol, apoi câte mai sunt, ca un subiect cu multe preluări să nu umple e-mailul.
+    const groups = byBill(otherPress);
+    const shown = groups.slice(0, PRESS_SHOWN);
+    body += H2(heading) + table(shown.map((g) => pressRow(g.articles[0], { risk: level !== 'red', more: g.articles.slice(1) })).join(''));
+    const rest = groups.slice(PRESS_SHOWN);
+    const restCount = rest.reduce((n, g) => n + g.articles.length, 0);
+    if (restCount) body += P(`Încă ${countWord(restCount, 'articol', 'articole')} despre ${countWord(rest.length, 'alt proiect', 'alte proiecte')}, pe paginile lor.`, 'margin:12px 0 0;font-size:14px;line-height:22px');
+    text += `\n${heading.toUpperCase()}\n${shown.map((g) => textPress(g.articles[0], g.articles.slice(1))).join('\n')}\n`;
   }
   if (corrections.length) {
     body +=

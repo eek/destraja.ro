@@ -2,7 +2,7 @@
 // Ediția zilnică a alertelor pe e-mail, după actualizarea de dimineață (straja-daily).
 //
 // Compară datele de azi cu data/digests/state.json (ce au primit deja abonații) și scrie câte o ediție
-// pentru fiecare nivel: all (tot, cu rezumat), yellow (risc mediu și ridicat), red (doar risc ridicat).
+// pentru fiecare nivel: all (tot, cu rezumat), yellow (risc moderat și ridicat), red (doar risc ridicat).
 // Un nivel primește e-mail doar dacă are ceva nou: un proiect intrat în consultare, un proiect care mai
 // are cel mult 3 zile, articole noi în presă sau o analiză corectată. Niciodată tot ce e deschis: fără
 // state.json (prima rulare, evidență pierdută) doar notează ce există acum și nu trimite nimic.

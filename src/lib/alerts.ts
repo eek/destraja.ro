@@ -12,7 +12,7 @@ export const ALERT_LEVELS: { value: AlertLevel; label: string; text: string; ris
   },
   {
     value: 'yellow',
-    label: 'Risc mediu și ridicat',
+    label: 'Risc moderat și ridicat',
     text: 'Doar proiectele cu risc moderat sau ridicat și ce scrie presa despre ele.',
     risks: ['red', 'yellow'],
   },

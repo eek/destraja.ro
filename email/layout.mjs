@@ -11,7 +11,7 @@ export const REPLY_TO = 'contact@lastraja.ro';
 
 export const LEVELS = {
   all: { label: 'Tot', long: 'toate noutățile, cu rezumatul zilei' },
-  yellow: { label: 'Risc mediu și ridicat', long: 'proiectele cu risc mediu și ridicat' },
+  yellow: { label: 'Risc moderat și ridicat', long: 'proiectele cu risc moderat și ridicat' },
   red: { label: 'Doar risc ridicat', long: 'doar proiectele cu risc ridicat' },
 };
 
@@ -33,8 +33,8 @@ export const C = {
 
 export const RISK = {
   red: { fill: '#d0372b', text: '#a8261b', soft: '#fbe8e5', label: 'Risc ridicat' },
-  yellow: { fill: '#dd9c12', text: '#855700', soft: '#f9efd6', label: 'Risc mediu' },
-  green: { fill: '#3b8a52', text: '#2b6a3c', soft: '#e4f1e7', label: 'Risc scăzut' },
+  yellow: { fill: '#dd9c12', text: '#855700', soft: '#f9efd6', label: 'Risc moderat' },
+  green: { fill: '#3b8a52', text: '#2b6a3c', soft: '#e4f1e7', label: 'Risc redus' },
 };
 
 export const SERIF = "Georgia, 'Times New Roman', Times, serif";

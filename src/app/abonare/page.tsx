@@ -34,7 +34,7 @@ export default function AlertsPage() {
           </div>
           <p className="mt-4 text-sm leading-6 text-muted">
             Te-ai abonat deja? Linkul „Schimbă nivelul” din orice e-mail te duce la preferințe. Ce păstrăm și cât timp:{' '}
-            <Link href="/cookies#alerte" className={linkCls}>
+            <Link href="/confidentialitate#alerte" className={linkCls}>
               politica de confidențialitate
             </Link>
             .

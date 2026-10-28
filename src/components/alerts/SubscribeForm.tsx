@@ -122,8 +122,8 @@ export default function SubscribeForm({ initialLevel = 'yellow' }: { initialLeve
             </button>
             <p className="text-xs leading-5 text-muted sm:max-w-[22rem] sm:text-right">
               Păstrăm doar adresa și nivelul ales. Te dezabonezi dintr-un click, din orice e-mail.{' '}
-              <Link href="/cookies#alerte" className={linkCls}>
-                Detalii
+              <Link href="/confidentialitate#alerte" className={linkCls}>
+                Politica de confidențialitate
               </Link>
             </p>
           </div>

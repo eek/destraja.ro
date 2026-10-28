@@ -21,8 +21,8 @@ export default function CookieNotice() {
     return () => window.removeEventListener(CONSENT_EVENT, sync);
   }, []);
 
-  // Pe pagina de cookies alegerea se face din secțiunea „Alegerea ta”.
-  if (!show || pathname === '/cookies') return null;
+  // Pe pagina de confidențialitate alegerea se face din secțiunea „Alegerea ta”.
+  if (!show || pathname === '/confidentialitate') return null;
 
   return (
     <section
@@ -35,7 +35,7 @@ export default function CookieNotice() {
           <p className="text-sm leading-6 text-body">
             <strong className="font-semibold text-ink">Ne lași să numărăm vizitele?</strong> Dacă accepți, Google Analytics ne arată ce pagini și ce
             funcții sunt folosite. Nu aflăm cine ești, nu afișăm reclame și nu trimitem nimic din ce scrii pe site.{' '}
-            <Link href="/cookies" className="font-semibold text-link underline underline-offset-4">
+            <Link href="/confidentialitate" className="font-semibold text-link underline underline-offset-4">
               Detalii
             </Link>
           </p>

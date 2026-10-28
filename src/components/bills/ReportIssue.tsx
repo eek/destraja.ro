@@ -153,7 +153,7 @@ export default function ReportIssue({ billId, target: initialTarget }: { billId:
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-xs leading-5 text-muted">
             Păstrăm doar textul raportului, proiectul și data. Îl citim noi și modelele AI care reverifică analiza.{' '}
-            <Link href="/cookies#rapoarte" className="font-semibold text-link underline underline-offset-4">
+            <Link href="/confidentialitate#rapoarte" className="font-semibold text-link underline underline-offset-4">
               Detalii
             </Link>
           </p>

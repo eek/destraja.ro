@@ -8,9 +8,9 @@ import ClearPreferences from '@/components/site/ClearPreferences';
 import ConsentControls from '@/components/site/ConsentControls';
 
 export const metadata: Metadata = {
-  title: 'Politica de cookies',
+  title: 'Confidențialitate și cookies',
   description:
-    'destrajă.ro folosește Google Analytics doar dacă accepți, fără reclame și fără ce scrii pe site. Ce păstrăm în browserul tău și cum îți schimbi alegerea.',
+    'Ce date păstrează destrajă.ro despre tine (alerte pe e-mail, rapoarte de greșeli, statistici doar cu acordul tău), cât timp, cine le prelucrează și ce drepturi ai.',
 };
 
 const STORED = [
@@ -80,10 +80,10 @@ function StorageList({ items }: { items: { name: string; what: string; meta: str
   );
 }
 
-export default function CookiesPage() {
+export default function PrivacyPage() {
   return (
     <Container className="max-w-[880px] py-12 sm:py-16">
-      <h1 className="font-display text-[clamp(2.4rem,5vw,4rem)] font-normal leading-[1.05]">Politica de cookies</h1>
+      <h1 className="font-display text-[clamp(2.4rem,5vw,4rem)] font-normal leading-[1.05]">Confidențialitate și cookies</h1>
       <p className="mt-3 text-sm text-muted">Actualizată la {POLICY_UPDATED}</p>
 
       <div className={`${panel} mt-8 p-6 sm:p-8`}>

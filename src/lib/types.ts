@@ -117,6 +117,8 @@ export interface AnalysisCorrection {
   date: string;
   target: 'consensus' | 'agy' | 'claude' | 'codex';
   reportId: string;
+  /** Pentru corecturile făcute de mână: ce s-a schimbat, afișat în locul textului standard. */
+  note?: string;
 }
 
 /** Articole de presă găsite de scripts/straja-news.mjs și verificate pe pagina sursei. */

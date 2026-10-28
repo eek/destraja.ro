@@ -162,8 +162,12 @@ export default async function BillDetailPage({ params }: PageProps) {
           {bill.analysis.corrections?.map((fix) => (
             <p key={fix.reportId} className="mt-4 rounded-lg bg-brand-soft px-3 py-2 text-sm leading-6 text-ink">
               <strong className="font-semibold">Corectat la {formatDateRo(fix.date)}:</strong>{' '}
-              {fix.target === 'consensus' ? 'concluzia comună a fost refăcută' : `analiza ${MODELS.find((m) => m.key === fix.target)?.name} a fost refăcută`} după
-              raportul unui cititor, confirmat în textul oficial.
+              {fix.note ?? (
+                <>
+                  {fix.target === 'consensus' ? 'concluzia comună a fost refăcută' : `analiza ${MODELS.find((m) => m.key === fix.target)?.name} a fost refăcută`} după
+                  raportul unui cititor, confirmat în textul oficial.
+                </>
+              )}
             </p>
           ))}
           <a href="#audit-ai" className="mt-4 inline-flex min-h-11 items-center gap-1.5 text-sm font-semibold text-link underline underline-offset-4">

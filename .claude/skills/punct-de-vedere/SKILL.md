@@ -21,7 +21,8 @@ datele proiectului după [references/date.md](references/date.md).
 Spune-i cititorului într-un rând titlul pe înțeles (`plainTitle`), scorul de risc și termenul consultării. Când termenul
 a trecut, spune-i că s-a închis consultarea și întreabă-l dacă mai vrea punctul de vedere.
 
-**Gata când** ai analiza, fișa proiectului și lista destinatarilor, iar cititorul a văzut rândul cu termenul.
+**Gata când** ai analiza, fișa proiectului și lista destinatarilor, cu fiecare adresă `@senat.ro` verificată pe
+senat.ro, iar cititorul a văzut rândul cu termenul.
 
 ## 2. Întrebările
 

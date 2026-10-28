@@ -21,9 +21,15 @@ Citește datele de pe GitHub, ca skill-ul să meargă și fără clona repo-ului
 | `institutionalEmails` | destinatarii: `targetName`, `to`, `cc`, `subject`, `body`, `whyItMatters` |
 | `docxSections`, `docxRequests` | argumentația lungă și cererile din memoriu |
 
-Când `institutionalEmails` lipsește, destinatarul e Senatul: `juridica@senat.ro` și `infopub@senat.ro`, cu subiectul
-`Punct de vedere privind propunerea legislativă <id> (Cod Senat <cod>)`. Același e-mail îl dă site-ul, în
-`src/components/ActionKitClient.tsx`.
+Când `institutionalEmails` lipsește, destinatarul e Comisia juridică a Senatului, `com.juridica@senat.ro`, cu subiectul
+`Punct de vedere privind propunerea legislativă <id> (Cod Senat <cod>)`.
+
+## Adresele Senatului
+
+Fiecare adresă `@senat.ro` din e-mail apare pe pagina comisiei ei, în
+[lista comisiilor permanente](https://www.senat.ro/EnumComisii.aspx?Permanenta=1). Deschide pagina comisiei, ia adresa
+de la „Contact” și pune-o în locul celei din date când diferă. Exemplu: Comisia juridică are `com.juridica@senat.ro`,
+iar `juridica@senat.ro` și `comisia.juridica@senat.ro` întorc eroarea 550 (issue #2).
 
 ## Fișa proiectului
 

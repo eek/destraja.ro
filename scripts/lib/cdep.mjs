@@ -65,6 +65,7 @@ export const clean = (html = '') =>
       .replace(/\s*>>/g, '”')
       .replace(/<\/?[a-z!][^>]*>/gi, ' '),
   )
+    .replace(/"([^"]+)"/g, '„$1”')
     .replace(/ş/g, 'ș')
     .replace(/Ş/g, 'Ș')
     .replace(/ţ/g, 'ț')

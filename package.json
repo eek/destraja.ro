@@ -24,7 +24,8 @@
     "straja:digest": "node scripts/straja-digest.mjs",
     "straja:daily": "node scripts/straja-daily.mjs",
     "db:migrate": "wrangler d1 migrations apply lastraja --remote",
-    "straja:stance": "node scripts/straja-stance.mjs"
+    "straja:stance": "node scripts/straja-stance.mjs",
+    "ai:watch": "node scripts/ai-watch.mjs"
   },
   "dependencies": {
     "docx": "^9.1.0",

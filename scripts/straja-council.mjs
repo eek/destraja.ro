@@ -121,8 +121,8 @@ STRUCTURA JSON CERUTĂ:
 
 // Același apel izolat ca în restul scripturilor (scripts/lib/ai-cli.mjs): fără unelte, într-un director gol,
 // fără variabilele din .env. Proiectele lungi pot cere câteva minute.
-async function runSingleAi(modelKey, prompt) {
-  const res = await runModel(modelKey, prompt, { mode: 'offline', timeoutMs: 420000 });
+async function runSingleAi(modelKey, prompt, label) {
+  const res = await runModel(modelKey, prompt, { mode: 'offline', timeoutMs: 420000, label });
   return res.status === 'ok'
     ? { model: modelKey, status: 'ok', durationMs: res.durationMs, ...res.data }
     : { model: modelKey, status: 'error', durationMs: res.durationMs, error: res.error };
@@ -144,9 +144,9 @@ async function analyzeBillWithCouncil(bill, force = false) {
   const prompt = buildCouncilPrompt(bill, texts);
 
   const [agyRes, claudeRes, codexRes] = await Promise.all([
-    existing?.council?.agy?.status === 'ok' ? Promise.resolve(existing.council.agy) : runSingleAi('agy', prompt),
-    existing?.council?.claude?.status === 'ok' ? Promise.resolve(existing.council.claude) : runSingleAi('claude', prompt),
-    existing?.council?.codex?.status === 'ok' ? Promise.resolve(existing.council.codex) : runSingleAi('codex', prompt),
+    existing?.council?.agy?.status === 'ok' ? Promise.resolve(existing.council.agy) : runSingleAi('agy', prompt, bill.id),
+    existing?.council?.claude?.status === 'ok' ? Promise.resolve(existing.council.claude) : runSingleAi('claude', prompt, bill.id),
+    existing?.council?.codex?.status === 'ok' ? Promise.resolve(existing.council.codex) : runSingleAi('codex', prompt, bill.id),
   ]);
 
   console.log(

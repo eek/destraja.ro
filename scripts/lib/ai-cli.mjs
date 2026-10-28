@@ -36,17 +36,84 @@ export const BINS = {
   codex: process.env.CODEX_BIN || path.join(LOCAL_BIN, 'codex'),
 };
 
+// Jurnalul live: fiecare apel își scrie aici, pe parcurs, ce gândește și ce răspunde modelul, ca să se poată urmări cu
+// `npm run ai:watch`. Fișierele mai vechi de trei zile se șterg singure.
+export const LIVE_DIR = path.join(ROOT_DIR, '.cache', 'ai-live');
+const LIVE_KEEP_MS = 3 * 86_400_000;
+
+// Toate trei CLI-urile pot transmite evenimente pe parcurs (un JSON pe rând). Din fiecare eveniment păstrăm textul
+// pentru jurnal (`live`), bucățile de răspuns (`delta`) și răspunsul final (`final`), din care scoatem JSON-ul.
+const STREAM = {
+  agy(ev) {
+    const u = ev.step_update;
+    if (u) {
+      if (u.text_delta) return { live: u.text_delta, delta: u.text_delta };
+      if (u.state === 'ACTIVE' && u.step_type && u.step_type !== 'agent_response') return { live: `\n[${u.step_type}]\n` };
+      return {};
+    }
+    if (ev.event === 'result') {
+      const r = ev.result ?? {};
+      return { final: r.response ?? '', live: r.status && r.status !== 'SUCCESS' ? `\n[${r.status}] ${r.error ?? ''}\n` : '' };
+    }
+    return {};
+  },
+  claude(ev) {
+    if (ev.type === 'stream_event') {
+      const e = ev.event ?? {};
+      if (e.type === 'content_block_start') return { live: e.content_block?.type === 'thinking' ? '\n[gândește]\n' : e.content_block?.type === 'text' ? '\n[răspunde]\n' : '' };
+      if (e.type === 'content_block_delta') {
+        if (e.delta?.type === 'text_delta') return { live: e.delta.text, delta: e.delta.text };
+        if (e.delta?.type === 'thinking_delta') return { live: e.delta.thinking };
+      }
+      return {};
+    }
+    if (ev.type === 'result') return { final: ev.result ?? '', live: ev.is_error ? `\n[eroare] ${ev.result ?? ''}\n` : '' };
+    return {};
+  },
+  codex(ev) {
+    const item = ev.item;
+    if (ev.type === 'item.completed' && item?.type === 'agent_message') return { final: item.text, live: `\n[răspunde]\n${item.text}\n` };
+    if (ev.type === 'item.completed' && item?.type === 'reasoning') return { live: `\n[gândește]\n${item.text ?? ''}\n` };
+    if (ev.type === 'turn.failed' || ev.type === 'error') return { live: `\n[eroare] ${ev.error?.message ?? ev.message ?? ''}\n` };
+    return {};
+  },
+};
+
+function liveFile(model, label) {
+  fs.mkdirSync(LIVE_DIR, { recursive: true });
+  for (const f of fs.readdirSync(LIVE_DIR)) {
+    const full = path.join(LIVE_DIR, f);
+    if (Date.now() - fs.statSync(full).mtimeMs > LIVE_KEEP_MS) fs.rmSync(full, { force: true });
+  }
+  const stamp = new Date().toISOString().replace(/[-:]/g, '').replace('T', '-').slice(0, 15);
+  const safe = (label || path.basename(process.argv[1] ?? 'model', '.mjs')).replace(/[^\w.-]+/g, '-').slice(0, 40);
+  return path.join(LIVE_DIR, `${stamp}-${model}-${safe}-${process.pid}.log`);
+}
+
 const CODEX_OFF = ['shell_tool', 'apps', 'browser_use', 'browser_use_external', 'computer_use', 'in_app_browser', 'plugins', 'hooks', 'skill_mcp_dependency_install'];
 
 function args(model, mode, codexModel) {
   const web = mode === 'web';
   if (model === 'claude') {
-    return ['-p', '--model', 'claude-opus-5-5', '--tools', web ? 'WebSearch,WebFetch' : '', ...(web ? ['--allowedTools', 'WebSearch,WebFetch'] : []), '--strict-mcp-config'];
+    return [
+      '-p',
+      '--model',
+      'claude-opus-5-5',
+      '--tools',
+      web ? 'WebSearch,WebFetch' : '',
+      ...(web ? ['--allowedTools', 'WebSearch,WebFetch'] : []),
+      '--strict-mcp-config',
+      '--output-format',
+      'stream-json',
+      '--verbose',
+      '--include-partial-messages',
+    ];
   }
   if (model === 'codex') {
     return [
       ...(web ? ['--search'] : []),
       'exec',
+      '--json',
       ...(codexModel ? ['-m', codexModel] : []),
       '--skip-git-repo-check',
       '-s',
@@ -59,7 +126,7 @@ function args(model, mode, codexModel) {
       '-',
     ];
   }
-  return ['--disable-slash-commands', '--agent', web ? 'lastraja-web' : 'lastraja-offline', '--model', 'gemini-4-argon-high'];
+  return ['--disable-slash-commands', '--agent', web ? 'lastraja-web' : 'lastraja-offline', '--model', 'gemini-4-argon-high', '--output-format', 'stream-json'];
 }
 
 // Doar ce le trebuie CLI-urilor ca să găsească autentificarea din HOME; nimic din .env.
@@ -71,26 +138,68 @@ function minimalEnv() {
   return env;
 }
 
-function run(cmd, argv, stdin, timeoutMs) {
+function run(cmd, argv, stdin, timeoutMs, { parse, live } = {}) {
   fs.mkdirSync(SANDBOX_DIR, { recursive: true });
+  const out = live ? fs.createWriteStream(live, { flags: 'a' }) : null;
+  let pending = '';
+  let text = '';
+  let final = null;
+  const onLine = (line) => {
+    if (!line.trim()) return;
+    let ev;
+    try {
+      ev = JSON.parse(line);
+    } catch {
+      out?.write(`${line}\n`);
+      return;
+    }
+    const r = parse(ev);
+    if (r.live) out?.write(r.live);
+    if (r.delta) text += r.delta;
+    if (r.final != null) final = r.final;
+  };
   return new Promise((resolve, reject) => {
-    const child = spawn(cmd, argv, { cwd: SANDBOX_DIR, env: minimalEnv(), stdio: ['pipe', 'pipe', 'pipe'] });
+    // Grup de procese propriu: la expirare oprim și procesele pornite de CLI, nu doar CLI-ul.
+    const child = spawn(cmd, argv, { cwd: SANDBOX_DIR, env: minimalEnv(), stdio: ['pipe', 'pipe', 'pipe'], detached: true });
+    const killGroup = (signal) => {
+      try {
+        process.kill(-child.pid, signal);
+      } catch {
+        // grupul s-a oprit deja
+      }
+    };
     let stdout = '';
     let stderr = '';
+    // agy ignoră SIGTERM și rămânea viu ore întregi după expirare, ocupând Argon: după 5 secunde îl oprim forțat.
     const timer = setTimeout(() => {
-      child.kill('SIGTERM');
+      killGroup('SIGTERM');
+      setTimeout(() => killGroup('SIGKILL'), 5000).unref();
       reject(new Error(`timeout după ${Math.round(timeoutMs / 1000)}s`));
     }, timeoutMs);
-    child.stdout.on('data', (c) => (stdout += c));
-    child.stderr.on('data', (c) => (stderr += c));
+    child.stdout.on('data', (c) => {
+      stdout += c;
+      if (!parse) return;
+      pending += c;
+      const lines = pending.split('\n');
+      pending = lines.pop();
+      lines.forEach(onLine);
+    });
+    child.stderr.on('data', (c) => {
+      stderr += c;
+      out?.write(c);
+    });
     child.on('error', (err) => {
       clearTimeout(timer);
       reject(err);
     });
     child.on('close', (code) => {
       clearTimeout(timer);
-      if (code !== 0 && !stdout.trim()) reject(new Error(`cod ${code}: ${(stderr || stdout).trim().split('\n').slice(-2).join(' ').slice(0, 300)}`));
-      else resolve({ stdout, stderr, code });
+      if (parse && pending) onLine(pending);
+      out?.end();
+      // Cu evenimente în flux, `text` e răspunsul final al modelului (sau bucățile lui, dacă lipsește evenimentul final).
+      const answer = parse ? (final ?? text) : stdout;
+      if (code !== 0 && !answer.trim()) reject(new Error(`cod ${code}: ${(stderr || stdout).trim().split('\n').slice(-2).join(' ').slice(0, 300)}`));
+      else resolve({ stdout: answer, raw: stdout, stderr, code });
     });
     if (stdin) child.stdin.write(stdin);
     child.stdin.end();
@@ -119,12 +228,20 @@ export function extractJsonFromText(raw = '') {
  * Rulează un model și întoarce JSON-ul din răspuns.
  * @returns {Promise<{ model: string, status: 'ok', data: any, durationMs: number } | { model: string, status: 'error', error: string, durationMs: number }>}
  */
-export async function runModel(model, prompt, { mode = 'offline', timeoutMs = 300000, codexModel } = {}) {
+export async function runModel(model, prompt, { mode = 'offline', timeoutMs = 300000, codexModel, label } = {}) {
   const start = Date.now();
+  const live = liveFile(model, label);
+  fs.writeFileSync(live, `# ${model} · ${label ?? path.basename(process.argv[1] ?? '', '.mjs')} · ${new Date(start).toLocaleTimeString('ro-RO')} · limită ${Math.round(timeoutMs / 1000)}s · prompt ${prompt.length} caractere\n`);
+  const finish = (status) => fs.appendFileSync(live, `\n# gata: ${status} în ${Math.round((Date.now() - start) / 1000)}s\n`);
   try {
     const argv = args(model, mode, codexModel);
-    // agy primește promptul ca argument; ceilalți îl citesc din stdin.
-    const res = model === 'agy' ? await run(BINS.agy, [...argv, '--print-timeout', `${Math.round(timeoutMs / 1000)}s`, '-p', prompt], null, timeoutMs + 15000) : await run(BINS[model], argv, prompt, timeoutMs);
+    const stream = { parse: STREAM[model], live };
+    // agy primește promptul ca argument; ceilalți îl citesc din stdin. Jurnalul intern al lui agy (cererile HTTP) arată,
+    // când un apel durează, dacă modelul încă lucrează sau dacă agy reîncearcă.
+    const res =
+      model === 'agy'
+        ? await run(BINS.agy, [...argv, '--log-file', live.replace(/\.log$/, '.agy.txt'), '--print-timeout', `${Math.round(timeoutMs / 1000)}s`, '-p', prompt], null, timeoutMs + 15000, stream)
+        : await run(BINS[model], argv, prompt, timeoutMs, stream);
     const quota = /usage limit|rate limit|quota/i.test(res.stdout + res.stderr) && !/\{[\s\S]*\}/.test(res.stdout.split('\n').slice(-40).join('\n'));
     if (quota) throw new Error((res.stdout + res.stderr).match(/[^\n]*(usage limit|rate limit|quota)[^\n]*/i)?.[0]?.trim().slice(0, 200) ?? 'limită de utilizare');
     if (!res.stdout.trim()) throw new Error(`răspuns gol după ${Math.round((Date.now() - start) / 1000)}s (probabil timp depășit)`);
@@ -135,8 +252,10 @@ export async function runModel(model, prompt, { mode = 'offline', timeoutMs = 30
       const snippet = res.stdout.replace(/\s+/g, ' ').trim();
       throw new Error(`${err.message}: „${snippet.slice(0, 120)}${snippet.length > 240 ? ` … ${snippet.slice(-120)}` : snippet.slice(120)}”`);
     }
+    finish('ok');
     return { model, status: 'ok', data, durationMs: Date.now() - start };
   } catch (err) {
+    finish(`eroare: ${String(err.message || err).slice(0, 200)}`);
     return { model, status: 'error', error: String(err.message || err), durationMs: Date.now() - start };
   }
 }

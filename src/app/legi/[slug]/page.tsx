@@ -113,6 +113,13 @@ export default async function BillDetailPage({ params }: PageProps) {
               {news && <PressLink press={lite.press} builtOn={builtOn} />}
               <PositionsLink summary={lite.positions} />
             </div>
+            {bill.announcedDeadline && bill.leftListAt && (
+              <p className="mt-3 text-sm leading-6 text-body">
+                Senatul a scos proiectul din consultarea publică pe {formatDateRo(bill.leftListAt)}, înainte de termenul anunțat (
+                {formatDateRo(bill.announcedDeadline)}). De obicei asta înseamnă că proiectul a primit număr de lege și a trecut la
+                comisii.
+              </p>
+            )}
 
             {partyEntries.length > 0 && (
               <div className="mt-5 flex flex-wrap items-center gap-2 border-t border-line pt-5 text-sm">

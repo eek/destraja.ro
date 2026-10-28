@@ -228,6 +228,10 @@ export interface EnrichedBill {
   cod: string;
   officialTitle: string;
   consultationDeadline: string;
+  /** Termenul afișat inițial de Senat, când proiectul a ieșit din consultare înainte de el (vezi leftListAt). */
+  announcedDeadline?: string;
+  /** Ziua în care proiectul nu mai era în lista de consultare, înainte de termenul anunțat. */
+  leftListAt?: string;
   daysRemaining: number;
   opinionsCount: number;
   sheetUrl: string;

@@ -136,6 +136,10 @@ export function Flags({ bill, linkToBill = false }: { bill: BillLite; linkToBill
               ? 'Senatul a aprobat ca proiectul să fie dezbătut în procedură de urgență (art. 76 alin. 3 din Constituție). Termenele de avizare și de dezbatere sunt mai scurte, așa că proiectul poate ajunge la vot mai repede.'
               : 'Inițiatorii au cerut ca Senatul să dezbată proiectul în procedură de urgență (art. 76 alin. 3 din Constituție). Dacă plenul aprobă, termenele de avizare și de dezbatere se scurtează, iar proiectul poate ajunge la vot mai repede.'}
           </p>
+          <p>
+            Senatul poate închide și consultarea mai devreme: în toamna lui 2026, cel puțin șapte proiecte cu urgență cerută au primit
+            număr de lege și au ieșit din consultare cu 9–23 de zile înainte de termenul anunțat.
+          </p>
           <p className="font-semibold text-ink">Pentru tine: mai puțin timp să reacționezi. Nu amâna părerea cât consultarea e deschisă.</p>
           {more}
         </FlagInfo>

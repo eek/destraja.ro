@@ -3,6 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { writeBillTexts } from './lib/pdf-text.mjs';
+import { todayBucharest } from './lib/web.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(__dirname, '..');
@@ -300,12 +301,20 @@ async function downloadPdfsAndExtractText(bill, shouldDownload = false) {
   return writeBillTexts(billPdfDir, path.join(TEXT_DIR, bill.slug), { pdfParse, cacheDir: path.join(ROOT_DIR, '.cache', 'ocr') });
 }
 
+function addDays(iso, n) {
+  const d = new Date(`${iso}T12:00:00Z`);
+  d.setUTCDate(d.getUTCDate() + n);
+  return d.toISOString().slice(0, 10);
+}
+
 async function main() {
   const args = process.argv.slice(2);
   const downloadAllPdfs = args.includes('--download-pdfs');
   const targetFilter = args.find((a) => !a.startsWith('--'));
 
   const list = await parseConsultationList();
+  // O listă aproape goală înseamnă o pagină stricată, nu proiecte închise: nu marcăm nimic pe baza ei.
+  if (list.length < 5) throw new Error(`Lista Senatului are doar ${list.length} proiecte; formatul s-a schimbat?`);
   const enriched = [];
   // Rulează nesupravegheat în fiecare dimineață: nu pierdem niciodată ce aveam deja.
   // Proiectele scoase din lista Senatului rămân (consultare încheiată), iar o fișă care nu se
@@ -342,6 +351,15 @@ async function main() {
     const seen = new Set(enriched.map((b) => b.id));
     const kept = [...previous.values()].filter((b) => !seen.has(b.id));
     if (kept.length) console.log(`📁 Păstrez ${kept.length} proiecte care nu mai sunt în lista Senatului.`);
+    // Senatul scoate un proiect din consultare când îi dă număr L (sau îl trece „pt. informare”), uneori cu săptămâni
+    // înainte de termenul afișat. Lista e o interogare pe starea proiectului, deci o singură citire validă ajunge.
+    // Păstrăm termenul anunțat și mutăm termenul efectiv în ziua dinainte, ca site-ul să-l arate închis.
+    const today = todayBucharest();
+    for (const b of kept) {
+      if (b.leftListAt || b.consultationDeadline < today) continue;
+      Object.assign(b, { leftListAt: today, announcedDeadline: b.consultationDeadline, consultationDeadline: addDays(today, -1) });
+      console.log(`🔒 ${b.id} a ieșit din consultare pe ${today}, înainte de termenul anunțat (${b.announcedDeadline}).`);
+    }
     enriched.push(...kept);
   } else {
     // Cu filtru actualizăm doar proiectele cerute, restul rămân neatinse.

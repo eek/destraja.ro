@@ -64,7 +64,7 @@ să-l trimiți tu. Dă și textele pentru formularul Senatului, numărate la lim
 repo-ului și scrie `/punct-de-vedere https://destraja.ro/legi/b563-2026`. Ca să-l folosești din orice folder, copiază
 `.claude/skills/punct-de-vedere/` în `~/.claude/skills/`.
 
-Întrebările vin din skill-ul [`grilling`](https://github.com/mattpocock/skills) al lui Matt Pocock: câte o rundă, cu un
+Întrebările vin din skill-ul [`grilling`](https://github.com/mattpocock/skills/tree/main/skills/productivity/grilling) al lui Matt Pocock: câte o rundă, cu un
 răspuns propus la fiecare întrebare. Un punct de vedere cântărește când arată un caz real, pe care inițiatorii nu l-au
 văzut, iar întrebările scot acel caz la iveală. Instalează-l cu `claude plugins install mattpocock-skills`; fără el,
 skill-ul folosește o copie (licență MIT) din `references/`.

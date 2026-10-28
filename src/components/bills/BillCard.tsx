@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { ArrowRight, ChevronDown, Clock, ExternalLink, MessageSquare, Newspaper, Users } from 'lucide-react';
+import { ArrowRight, ChevronRight, Clock, ExternalLink, MessageSquare, Newspaper, Users, X } from 'lucide-react';
 import type { BillLite } from '@/lib/types';
 import { MODELS } from '@/lib/site';
 import { RISK } from '@/lib/risk';
@@ -127,17 +127,52 @@ export default function BillCard({ bill, onParty }: { bill: BillLite; onParty?: 
             <ArrowRight className="h-4 w-4 transition-transform group-hover/card:translate-x-0.5" aria-hidden />
           </Link>
 
-          <details className="mt-2">
-            <summary {...trackAttrs('risk_reason_open', { bill_id: bill.id })} className="flex min-h-11 cursor-pointer items-center justify-between gap-2 rounded-lg text-xs font-semibold text-muted hover:text-ink">
-              <span className="inline-flex items-center gap-1.5">
-                De ce acest nivel de risc?
-                <span className={`font-semibold ${AGREE_TONE[ag.tone]}`}>· {ag.label}</span>
-              </span>
-              <ChevronDown className="chevron h-4 w-4 shrink-0" aria-hidden />
-            </summary>
-            <div className="mt-1 space-y-4 rounded-xl bg-sunken p-4">
+          {/* Explicația se deschide într-o fereastră peste pagină: desfășurată în card, lungea un singur card din grilă. */}
+          <button
+            type="button"
+            popoverTarget={`risc-${bill.slug}`}
+            aria-haspopup="dialog"
+            {...trackAttrs('risk_reason_open', { bill_id: bill.id })}
+            className="mt-2 flex min-h-11 w-full cursor-pointer items-center justify-between gap-2 rounded-lg text-left text-xs font-semibold text-muted hover:text-ink"
+          >
+            <span className="inline-flex flex-wrap items-center gap-x-1.5">
+              De ce acest nivel de risc?
+              <span className={`font-semibold ${AGREE_TONE[ag.tone]}`}>· {ag.label}</span>
+            </span>
+            <ChevronRight className="h-4 w-4 shrink-0" aria-hidden />
+          </button>
+          <div
+            id={`risc-${bill.slug}`}
+            popover="auto"
+            role="dialog"
+            aria-labelledby={`risc-${bill.slug}-t`}
+            className="fixed inset-0 m-auto max-h-[min(40rem,calc(100dvh-2rem))] w-[min(32rem,calc(100vw-2rem))] overflow-y-auto rounded-2xl border border-line bg-surface p-5 text-left shadow-[var(--shadow-lift)] backdrop:bg-black/40 sm:p-6"
+          >
+            <div className="flex items-start justify-between gap-3">
+              <div>
+                <p className="text-xs font-semibold text-muted">
+                  De ce acest nivel de risc? <span className={AGREE_TONE[ag.tone]}>· {ag.label}</span>
+                </p>
+                <p id={`risc-${bill.slug}-t`} className="mt-1 font-display text-lg leading-snug text-ink">
+                  {c.plainTitle}
+                </p>
+              </div>
+              <button
+                type="button"
+                popoverTarget={`risc-${bill.slug}`}
+                popoverTargetAction="hide"
+                aria-label="Închide"
+                className="-m-1.5 inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg text-muted hover:bg-sunken hover:text-ink"
+              >
+                <X className="h-4 w-4" aria-hidden />
+              </button>
+            </div>
+            <div className="mt-4 space-y-4">
+              <RiskChip level={c.riskLevel} score={c.riskScore} />
               <p className="text-sm leading-6 text-body">{c.summaryTlDr}</p>
-              <ModelVerdicts bill={bill} />
+              <div className="rounded-xl bg-sunken p-4">
+                <ModelVerdicts bill={bill} />
+              </div>
               {c.affectedGroups.length > 0 && (
                 <p className="text-xs leading-5 text-muted">
                   <span className="font-semibold text-body">Pe cine afectează: </span>
@@ -160,8 +195,16 @@ export default function BillCard({ bill, onParty }: { bill: BillLite; onParty?: 
                   <span className="sr-only">(se deschide într-o filă nouă)</span>
                 </a>
               </div>
+              <Link
+                href={`/legi/${bill.slug}`}
+                {...trackAttrs('bill_open', { bill_id: bill.id, source: 'risk_modal' })}
+                className={`${primary ? btnPrimary : btnSecondary} min-h-11 w-full px-4 text-sm`}
+              >
+                {ctaLabel(bill)}
+                <ArrowRight className="h-4 w-4" aria-hidden />
+              </Link>
             </div>
-          </details>
+          </div>
         </div>
       </div>
     </article>

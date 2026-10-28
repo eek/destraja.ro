@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import type { BillAnalysis, BillLite, BillNews, BillPdf, BillPositions, CameraLink, CesOpinion, EnrichedBill, PressSummary } from './types';
+import type { BillAnalysis, BillLite, BillNews, BillPdf, BillPositions, CameraLink, CesOpinion, EnrichedBill, InstitutionalEmail, PressSummary } from './types';
 import { daysUntil } from './format';
 import { recentPress } from './stats';
 import { positionsSummary } from './positions';
@@ -15,6 +15,38 @@ const NEWS_DIR = path.join(ROOT, 'data', 'news');
 const CES_DIR = path.join(ROOT, 'data', 'ces');
 const POSITIONS_DIR = path.join(ROOT, 'data', 'positions');
 const CAMERA_DIR = path.join(ROOT, 'data', 'camera');
+const SENAT_COMMITTEES_PATH = path.join(ROOT, 'data', 'senat', 'comisii.json');
+
+// Adresele @senat.ro scrise de modele din memorie întorc des 550 RecipientNotFound (issue #2). Păstrăm doar adresele
+// de pe paginile comisiilor (scripts/straja-senat-comisii.mjs); greșelile văzute deja le corectăm, restul le scoatem.
+const SENAT_ALIASES: Record<string, string> = {
+  'juridica@senat.ro': 'com.juridica@senat.ro',
+  'comisia.juridica@senat.ro': 'com.juridica@senat.ro',
+  'comisia.it@senat.ro': 'comunicatii@senat.ro',
+};
+
+async function senatEmails() {
+  const raw = JSON.parse(await fs.readFile(SENAT_COMMITTEES_PATH, 'utf8')) as { generale: string[]; comisii: { email: string | null }[] };
+  return new Set([...raw.generale, ...raw.comisii.map((c) => c.email).filter((e): e is string => !!e)]);
+}
+
+function checkSenatEmails(emails: InstitutionalEmail[] | undefined, valid: Set<string>, billId: string) {
+  const fix = (list: string[] = []) =>
+    [
+      ...new Set(
+        list.flatMap((raw) => {
+          const e = raw.trim().toLowerCase();
+          if (!e.endsWith('@senat.ro') || valid.has(e)) return [e];
+          if (SENAT_ALIASES[e]) return [SENAT_ALIASES[e]];
+          console.warn(`[bills] ${billId}: scot adresa necunoscută ${e}`);
+          return [];
+        }),
+      ),
+    ];
+  return emails
+    ?.map((m) => ({ ...m, to: fix(m.to), cc: m.cc && fix(m.cc) }))
+    .filter((m) => m.to.length > 0);
+}
 
 type RawBill = Omit<EnrichedBill, 'daysRemaining' | 'analysis' | 'cesNegative' | 'ces' | 'news' | 'positions'> & { syncedAt?: string };
 
@@ -24,6 +56,8 @@ async function load() {
   const raw = JSON.parse(await fs.readFile(SENAT_BILLS_PATH, 'utf8'));
   const list: RawBill[] = Array.isArray(raw) ? raw : raw.bills;
   const oneLiners: Record<string, string> = JSON.parse(await fs.readFile(ONE_LINERS_PATH, 'utf8'));
+
+  const validSenat = await senatEmails();
 
   let syncedAt: string | null = null;
   const bills: EnrichedBill[] = [];
@@ -37,6 +71,7 @@ async function load() {
       continue;
     }
     analysis.consensus.citizenOneLiner ??= oneLiners[bill.slug];
+    analysis.consensus.institutionalEmails = checkSenatEmails(analysis.consensus.institutionalEmails, validSenat, bill.id);
     if (synced && (!syncedAt || synced > syncedAt)) syncedAt = synced;
     bills.push({
       ...bill,

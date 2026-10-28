@@ -77,7 +77,8 @@ export default function ActionKitClient({ bill, press }: ActionKitClientProps) {
             id: 'senat-general',
             targetName: 'Comisiile Raportoare ale Senatului României',
             badge: 'Procedură Parlamentară',
-            to: ['juridica@senat.ro', 'infopub@senat.ro'],
+            // Adresele de pe senat.ro (data/senat/comisii.json); juridica@senat.ro întorcea 550 (issue #2).
+            to: ['com.juridica@senat.ro', 'infopub@senat.ro'],
             subject: `Punct de vedere privind propunerea legislativă ${bill.id} (Cod Senat ${bill.cod})`,
             body: `Către: Biroul Permanent al Senatului României și Comisiile sesizate în fond\n\nSubiect: Punct de vedere privind ${bill.id} - ${bill.officialTitle}\n\nStimați Senatori,\n\nÎn temeiul Legii nr. 52/2003 privind transparența decizională, vă transmit următorul punct de vedere referitor la propunerea legislativă ${bill.id}:\n\n1. Articol vizat: ${articleRef}\n2. Conținutul propunerii: ${proposalContent}\n3. Argumentare juridică și tehnică: ${argumentation}\n4. Observații suplimentare: ${otherComments}\n\nVă solicit înregistrarea oficială a acestui punct de vedere la dosarul legii (${bill.id}) și analizarea sa în ședința comisiilor raportoare.\n\nCu considerație,\n${citizenName.trim() || '[Numele Dvs.]'}\n${citizenRole}`,
             whyItMatters:

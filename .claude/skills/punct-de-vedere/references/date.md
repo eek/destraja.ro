@@ -1,6 +1,7 @@
 # Datele unui proiect
 
-Citește datele de pe GitHub, ca skill-ul să meargă și fără clona repo-ului. În clona repo-ului, aceleași fișiere sunt în
+Citește datele de pe GitHub cu `curl` sau cu unealta ta de citit pagini web, ca skill-ul să meargă și fără clona
+repo-ului. În clona repo-ului, aceleași fișiere sunt în
 `data/`. Toate adresele încep cu `https://raw.githubusercontent.com/eek/destraja.ro/main/`.
 
 | Fișier | Ce conține |

@@ -36,6 +36,10 @@ const FAQ = [
     a: 'Înainte de dezbatere, fiecare proiect de lege e publicat pe site-ul Senatului, cu un termen până la care oricine (cetățean, firmă sau organizație) poate trimite o opinie. Opiniile primesc număr de înregistrare și apar public lângă proiect.',
   },
   {
+    q: 'Ce urmăriți la Camera Deputaților?',
+    a: 'Toate proiectele înregistrate la Cameră în anul curent, din lista și fișele publice de pe cdep.ro: stadiul, comisiile care fac raportul sau dau aviz, termenul pentru amendamente și documentele. Camera nu are o consultare publică pentru fiecare proiect; amendamentele oficiale le depun deputații. Pe pagina proiectului găsești un mesaj gata de trimis comisiei care face raportul, iar un deputat îl poate prelua. Modelele analizează întâi proiectele programate la vot și pe cele noi, apoi, treptat, restul.',
+  },
+  {
     q: 'Chiar contează dacă trimit o obiecție?',
     a: 'Da. Opiniile depuse rămân în dosarul oficial al proiectului, sunt vizibile pentru parlamentari și pentru presă și arată că cineva urmărește. Tăcerea e ușor de interpretat drept acord.',
   },

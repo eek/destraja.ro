@@ -270,16 +270,40 @@ async function mainChamber(args) {
         .map((p) => read(p.slug))
         .filter((s) => s && !s.senat);
 
+  // Mai multe loturi pot rula în paralel: fiecare proiect e „rezervat” de primul lot care îl ia (un fișier creat cu
+  // 'wx', atomic). O rezervare mai veche de trei ore e a unui lot oprit.
+  const claimDir = path.join(ROOT_DIR, '.cache', 'claims', 'camera');
+  fs.mkdirSync(claimDir, { recursive: true });
+  const claim = (s) => {
+    const file = path.join(claimDir, s);
+    try {
+      if (Date.now() - fs.statSync(file).mtimeMs > 3 * 3600_000) fs.rmSync(file, { force: true });
+    } catch {}
+    try {
+      fs.writeFileSync(file, String(process.pid), { flag: 'wx' });
+      return () => fs.rmSync(file, { force: true });
+    } catch {
+      return null;
+    }
+  };
+
   let done = 0;
   let failed = 0;
   for (const sheet of targets) {
     if (done >= max) break;
+    const release = slug ? () => {} : claim(sheet.slug);
+    if (!release || (!slug && fs.existsSync(path.join(ANALYSES_DIR, `${sheet.slug}.json`)))) {
+      release?.();
+      continue;
+    }
     try {
       if (!(await downloadChamberPdfs(sheet))) {
         console.log(`⏭️  ${sheet.numar}: fișa n-are încă textul proiectului`);
+        release();
         continue;
       }
     } catch (err) {
+      release();
       if (err instanceof CdepBlocked) {
         console.log(`⏸️  ${err.message}`);
         break;
@@ -294,6 +318,8 @@ async function mainChamber(args) {
     } catch (err) {
       console.log(`⚠️  ${sheet.numar}: ${err.message}`);
       failed++;
+    } finally {
+      release();
     }
   }
   console.log(`🏛️ Camera: ${done} proiecte analizate${failed ? `, ${failed} cu erori` : ''}`);

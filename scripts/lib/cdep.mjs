@@ -7,6 +7,10 @@
 // după conținut și ne oprim, iar cererile au cel puțin cinci secunde între ele (în octombrie 2026, captcha a apărut
 // după vreo 200 de cereri la trei secunde).
 
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
 export const CDEP = 'https://www.cdep.ro';
 export const listUrl = (kind, year) => `${CDEP}/ords/pls/proiecte/upl_pck2015.lista?cam=2&${kind}=${year}`;
 export const sheetUrl = (idp) => `${CDEP}/ords/pls/proiecte/upl_pck2015.proiect?cam=2&idp=${idp}`;
@@ -18,14 +22,39 @@ export const parseCommitteeEmail = (html) =>
 
 const UA = 'DeStraja/1.0 (+https://destraja.ro; contact@destraja.ro)';
 const PAUSE_MS = 5000;
-let last = 0;
+// Pauza e comună tuturor proceselor (citirea fișelor și mai multe loturi de analize în paralel): ora ultimei cereri
+// stă într-un fișier, iar un director creat atomic face de lacăt. Un lacăt mai vechi de un minut e al unui proces mort.
+const PACE_FILE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../.cache/cdep-last-request');
+const LOCK = `${PACE_FILE}.lock`;
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+async function pace() {
+  fs.mkdirSync(path.dirname(PACE_FILE), { recursive: true });
+  for (;;) {
+    try {
+      fs.mkdirSync(LOCK);
+      break;
+    } catch {
+      try {
+        if (Date.now() - fs.statSync(LOCK).mtimeMs > 60_000) fs.rmSync(LOCK, { recursive: true, force: true });
+      } catch {}
+      await sleep(250);
+    }
+  }
+  try {
+    const last = Number(fs.existsSync(PACE_FILE) ? fs.readFileSync(PACE_FILE, 'utf8') : 0) || 0;
+    const wait = last + PAUSE_MS - Date.now();
+    if (wait > 0) await sleep(wait);
+    fs.writeFileSync(PACE_FILE, String(Date.now()));
+  } finally {
+    fs.rmSync(LOCK, { recursive: true, force: true });
+  }
+}
 
 export class CdepBlocked extends Error {}
 
 export async function fetchCdep(url) {
-  const wait = last + PAUSE_MS - Date.now();
-  if (wait > 0) await new Promise((r) => setTimeout(r, wait));
-  last = Date.now();
+  await pace();
   const res = await fetch(url, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(60_000) });
   if (!res.ok) throw new Error(`HTTP ${res.status} la ${url}`);
   const html = await res.text();
@@ -35,9 +64,7 @@ export async function fetchCdep(url) {
 
 /** Un PDF de pe cdep.ro, cu aceeași pauză între cereri; o pagină HTML în loc de PDF înseamnă captcha sau eroare. */
 export async function fetchCdepFile(url) {
-  const wait = last + PAUSE_MS - Date.now();
-  if (wait > 0) await new Promise((r) => setTimeout(r, wait));
-  last = Date.now();
+  await pace();
   const res = await fetch(url, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(120_000) });
   if (!res.ok) throw new Error(`HTTP ${res.status} la ${url}`);
   const buf = Buffer.from(await res.arrayBuffer());

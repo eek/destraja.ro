@@ -49,7 +49,7 @@ export default async function Image() {
     (
       <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', background: OG.bg, fontFamily: 'Sans', padding: '52px 64px 0' }}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-          <img src={logo} width={180} height={65} alt="" />
+          <img src={logo} width={193} height={65} alt="" />
           <span style={{ fontSize: 24, color: OG.muted }}>Cum funcționează</span>
         </div>
         <div style={{ display: 'flex', flexDirection: 'column', marginTop: 40, fontFamily: 'Serif', fontSize: 62, lineHeight: 1.08, letterSpacing: -1.2 }}>

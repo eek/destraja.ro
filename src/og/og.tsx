@@ -35,7 +35,7 @@ export async function ogFonts() {
 }
 
 export async function logoSrc() {
-  return `data:image/svg+xml;base64,${(await read(process.cwd(), 'public', 'lastraja-logo.svg')).toString('base64')}`;
+  return `data:image/svg+xml;base64,${(await read(process.cwd(), 'public', 'destraja-logo.svg')).toString('base64')}`;
 }
 
 export async function villageSrc() {

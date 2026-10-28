@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { ExternalLink } from 'lucide-react';
-import { LastrajaLogo } from '@/components/LastrajaLogo';
+import { Logo } from '@/components/Logo';
 import { ALERTS_LIVE, CONTENT_LICENSE, MODELS, SENAT_URL, SOURCE_URL } from '@/lib/site';
 import { formatDateRo } from '@/lib/format';
 import { ThemeSelect } from './ThemeControls';
@@ -13,7 +13,7 @@ export default function SiteFooter({ syncedAt }: { syncedAt: string | null }) {
       <div className="mx-auto grid w-full max-w-[1240px] gap-10 px-4 py-12 sm:px-8 lg:grid-cols-12 lg:px-10">
         <div className="lg:col-span-5">
           <Link href="/" aria-label="destrajă.ro, pagina principală" className="inline-flex text-ink">
-            <LastrajaLogo className="h-11 w-auto" />
+            <Logo className="h-11 w-auto" />
           </Link>
           <p className="mt-4 max-w-sm text-sm leading-6 text-muted">
             destrajă.ro: radarul cetățenesc al proiectelor de lege aflate în consultare publică la Senatul României. Proiect civic

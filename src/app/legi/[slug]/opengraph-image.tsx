@@ -48,7 +48,7 @@ export default async function Image({ params }: { params: Promise<{ slug: string
           <div style={{ marginTop: 30, fontFamily: 'Serif', fontSize: title.length > 80 ? 52 : 60, lineHeight: 1.12, color: OG.ink, letterSpacing: -1 }}>{title}</div>
           <div style={{ marginTop: 22, fontSize: 27, lineHeight: 1.4, color: OG.body }}>{line}</div>
           <div style={{ display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', marginTop: 'auto', paddingTop: 24, borderTop: `2px solid ${OG.line}` }}>
-            <img src={logo} width={166} height={60} alt="" />
+            <img src={logo} width={178} height={60} alt="" />
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', fontSize: 22, color: OG.muted, lineHeight: 1.4 }}>
               <span style={{ color: OG.ink, fontWeight: 600 }}>Consultare până pe {formatDeadline(bill.consultationDeadline)}</span>
               <span>Evaluat de Gemini, Claude și ChatGPT</span>

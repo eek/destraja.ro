@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Menu, X } from 'lucide-react';
-import { LastrajaLogo } from '@/components/LastrajaLogo';
+import { Logo } from '@/components/Logo';
 import { ALERTS_LIVE } from '@/lib/site';
 import { ThemeToggle } from './ThemeControls';
 
@@ -26,7 +26,7 @@ export default function SiteHeader() {
     <header className="sticky top-0 z-40 border-b border-line bg-paper/90 backdrop-blur-md">
       <div className="mx-auto flex h-16 w-full max-w-[1240px] items-center gap-4 px-4 sm:h-[72px] sm:px-8 lg:px-10">
         <Link href="/" aria-label="destrajă.ro, pagina principală" className="shrink-0 rounded-md text-ink">
-          <LastrajaLogo className="h-9 w-auto sm:h-11" />
+          <Logo className="h-9 w-auto sm:h-11" />
         </Link>
 
         <nav aria-label="Navigație principală" className="ml-auto hidden items-center gap-1 md:flex">

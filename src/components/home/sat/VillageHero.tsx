@@ -278,7 +278,7 @@ export default function VillageHero({ bills }: { bills: BillLite[]; counts: Risk
 
   const prev = open.length ? open[(Math.max(0, activeIndex) - 1 + open.length) % open.length] : undefined;
   const next = open.length ? open[(Math.max(0, activeIndex) + 1) % open.length] : undefined;
-  const altText = `Satul de la straja legii: ${countWord(open.length, 'proiect', 'proiecte')} în consultare pe avizier. ${RISK_LEVELS.map(
+  const altText = `Satul care stă de strajă: ${countWord(open.length, 'proiect', 'proiecte')} în consultare pe avizier. ${RISK_LEVELS.map(
     (l) => `${RISK[l].label}: ${openCounts[l]}`,
   ).join('. ')}.`;
 

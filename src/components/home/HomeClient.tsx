@@ -7,7 +7,7 @@ import type { BillLite } from '@/lib/types';
 import { countWord } from '@/lib/format';
 import { computeStats, riskCounts } from '@/lib/stats';
 import { useLiveBills } from '@/lib/useLiveBills';
-import { LastrajaTowerIcon } from '@/components/LastrajaLogo';
+import { TowerIcon } from '@/components/Logo';
 import { Container, SectionHead, btnPrimary, btnSecondary, linkCls, panel } from '@/components/ui';
 import BillExplorer from '@/components/bills/BillExplorer';
 import PartyChart from '@/components/data/PartyChart';
@@ -58,7 +58,7 @@ export default function HomeClient({ bills: initial, syncedLabel }: { bills: Bil
               </Link>
             </div>
             <div className="mt-10 flex items-start gap-3 border-t border-line pt-5">
-              <LastrajaTowerIcon className="mt-0.5 h-6 w-auto shrink-0 text-ink" />
+              <TowerIcon className="mt-0.5 h-6 w-auto shrink-0 text-ink" />
               <p className="max-w-md text-sm leading-6 text-muted">
                 Fiecare proiect e citit de <strong className="font-semibold text-ink">Gemini, Claude și ChatGPT</strong>, cu scorul fiecăruia la vedere.
                 {syncedLabel && ` Date de pe senat.ro, preluate la ${syncedLabel}.`}{' '}
@@ -192,7 +192,7 @@ export default function HomeClient({ bills: initial, syncedLabel }: { bills: Bil
       <section aria-labelledby="cum-title" className="deferred py-16 sm:py-24">
         <Container className="grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:gap-16">
           <div>
-            <LastrajaTowerIcon className="mb-6 h-14 w-auto text-ink" />
+            <TowerIcon className="mb-6 h-14 w-auto text-ink" />
             <h2 id="cum-title" className="font-display text-[2rem] leading-[1.12] sm:text-5xl">
               <span className="block text-muted">O lege poate fi complicată.</span>
               <span className="block text-ink">Participarea ta poate fi simplă.</span>

@@ -2,7 +2,7 @@
   <a href="https://destraja.ro">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset=".github/readme/logo-dark.svg">
-      <img src="public/lastraja-logo.svg" alt="destrajă.ro" width="260">
+      <img src="public/destraja-logo.svg" alt="destrajă.ro" width="260">
     </picture>
   </a>
 </p>

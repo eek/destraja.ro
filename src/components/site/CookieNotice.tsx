@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { LastrajaTowerIcon } from '@/components/LastrajaLogo';
+import { TowerIcon } from '@/components/Logo';
 import { CONSENT_EVENT, readConsent, saveConsent } from '@/lib/analytics';
 
 // Cele două butoane arată la fel: refuzul trebuie să fie la fel de ușor ca acordul.
@@ -31,7 +31,7 @@ export default function CookieNotice() {
     >
       <div className="flex flex-col gap-3 md:flex-row md:items-center md:gap-6">
         <div className="flex min-w-0 flex-1 items-start gap-3">
-          <LastrajaTowerIcon className="mt-0.5 h-7 w-auto shrink-0 text-ink" />
+          <TowerIcon className="mt-0.5 h-7 w-auto shrink-0 text-ink" />
           <p className="text-sm leading-6 text-body">
             <strong className="font-semibold text-ink">Ne lași să numărăm vizitele?</strong> Dacă accepți, Google Analytics ne arată ce pagini și ce
             funcții sunt folosite. Nu aflăm cine ești, nu afișăm reclame și nu trimitem nimic din ce scrii pe site.{' '}

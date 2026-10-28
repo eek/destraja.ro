@@ -17,7 +17,7 @@ export default async function Image() {
       <div style={{ width: '100%', height: '100%', display: 'flex', background: OG.bg, fontFamily: 'Sans', position: 'relative' }}>
         <img src={village} width={640} height={512} style={{ position: 'absolute', right: -24, top: 70 }} alt="" />
         <div style={{ display: 'flex', flexDirection: 'column', padding: '56px 0 52px 64px', width: 640, height: '100%' }}>
-          <img src={logo} width={210} height={76} alt="" />
+          <img src={logo} width={226} height={76} alt="" />
           <div style={{ display: 'flex', flexDirection: 'column', marginTop: 48, fontFamily: 'Serif', fontSize: 68, lineHeight: 1.04, letterSpacing: -1.5 }}>
             <span style={{ color: OG.muted }}>Stăm de strajă.</span>
             <span style={{ color: OG.ink, fontWeight: 600 }}>Să știi ce se pregătește.</span>

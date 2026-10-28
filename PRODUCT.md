@@ -44,7 +44,7 @@ Three independent AI readings per bill, shown side by side with their disagreeme
 
 ## Brand Commitments
 
-- Name and wordmark: destrajă.ro serif wordmark with a guard in a watchtower forming the "j" (`public/lastraja-logo.svg` and `src/components/LastrajaLogo.tsx`; the tower alone is the favicon). Chosen by the user on 2026-10-25, replacing the earlier watchtower "L".
+- Name and wordmark: destrajă.ro serif wordmark with a guard in a watchtower forming the "j" (`public/destraja-logo.svg` and `src/components/Logo.tsx`; the tower alone is the favicon). Chosen by the user on 2026-10-25, replacing the earlier watchtower "L".
 - Confirmed by the user (2026-10-25): ink-navy brand colour; red/yellow/green reserved for risk levels only; light theme plus a soft slate dark theme (never pure black), following the visitor's system with a manual toggle.
 
 ## Evidence on Hand

@@ -419,6 +419,8 @@ function mergePositions(previous, fresh) {
       const extra = [p.pageUrl, p.documentUrl, ...(p.alsoAt ?? [])].filter((u) => u && u !== twin.pageUrl && u !== twin.documentUrl);
       twin.alsoAt = [...new Set([...(twin.alsoAt ?? []), ...extra])];
       twin.foundBy = [...new Set([...twin.foundBy, ...p.foundBy])];
+      // Pagina emitentului poate să n-aibă dată citibilă; atunci luăm data sursei care a preluat poziția.
+      if (!twin.date && p.date) Object.assign(twin, { date: p.date, dateSource: 'preluare' });
     }
   }
   // Întâi coalițiile mari, apoi documentele de pe site-ul emitentului, apoi cele mai noi.

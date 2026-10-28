@@ -6,10 +6,11 @@ import { getAllBills, getBillBySlug, getBillExtractedTexts, toLite } from '@/lib
 import { agreement, mpSlugs, oneLiner } from '@/lib/stats';
 import { RISK } from '@/lib/risk';
 import { MODELS } from '@/lib/site';
-import { fmt, formatDateRo, todayISO } from '@/lib/format';
+import { fmt, formatDateRo, formatDeadline, todayISO } from '@/lib/format';
 import { trackAttrs } from '@/lib/analytics';
 import ActionKitClient from '@/components/ActionKitClient';
 import LiveDeadline from '@/components/bills/LiveDeadline';
+import BillRoute from '@/components/bills/BillRoute';
 import BillNews, { PressLink } from '@/components/bills/BillNews';
 import BillPositions, { PositionsLink } from '@/components/bills/BillPositions';
 import { Container, ModelMeters, PartyTag, RiskChip, panel } from '@/components/ui';
@@ -116,7 +117,7 @@ export default async function BillDetailPage({ params }: PageProps) {
             {bill.announcedDeadline && bill.leftListAt && (
               <p className="mt-3 text-sm leading-6 text-body">
                 Senatul a scos proiectul din consultarea publică pe {formatDateRo(bill.leftListAt)}, înainte de termenul anunțat (
-                {formatDateRo(bill.announcedDeadline)}). De obicei asta înseamnă că proiectul a primit număr de lege și a trecut la
+                {formatDeadline(bill.announcedDeadline)}). De obicei asta înseamnă că proiectul a primit număr de lege și a trecut la
                 comisii.
               </p>
             )}
@@ -134,6 +135,8 @@ export default async function BillDetailPage({ params }: PageProps) {
             )}
           </div>
         </header>
+
+        <BillRoute bill={bill} />
 
         <section aria-labelledby="realitate" className="mt-6 grid gap-4 md:grid-cols-2">
           <h2 id="realitate" className="sr-only">

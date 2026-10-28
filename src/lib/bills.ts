@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import type { BillAnalysis, BillLite, BillNews, BillPdf, BillPositions, CesOpinion, EnrichedBill, PressSummary } from './types';
+import type { BillAnalysis, BillLite, BillNews, BillPdf, BillPositions, CameraLink, CesOpinion, EnrichedBill, PressSummary } from './types';
 import { daysUntil } from './format';
 import { recentPress } from './stats';
 import { positionsSummary } from './positions';
@@ -14,6 +14,7 @@ const TEXTS_DIR = path.join(ROOT, 'data', 'texts');
 const NEWS_DIR = path.join(ROOT, 'data', 'news');
 const CES_DIR = path.join(ROOT, 'data', 'ces');
 const POSITIONS_DIR = path.join(ROOT, 'data', 'positions');
+const CAMERA_DIR = path.join(ROOT, 'data', 'camera');
 
 type RawBill = Omit<EnrichedBill, 'daysRemaining' | 'analysis' | 'cesNegative' | 'ces' | 'news' | 'positions'> & { syncedAt?: string };
 
@@ -45,6 +46,7 @@ async function load() {
       analysis,
       news: await getBillNews(bill.slug),
       positions: await getBillPositions(bill.slug),
+      camera: await getBillCamera(bill.slug),
     });
   }
 
@@ -165,6 +167,17 @@ export async function getBillNews(slug: string): Promise<BillNews | null> {
     }
     articles.sort((a, b) => (b.publishedAt ?? '').localeCompare(a.publishedAt ?? ''));
     return { checkedAt: raw.checkedAt, articles };
+  } catch {
+    return null;
+  }
+}
+
+/** Fișa proiectului la Camera Deputaților, doar ce se afișează; fără fișier, proiectul n-are încă legătură verificată. */
+export async function getBillCamera(slug: string): Promise<CameraLink | null> {
+  try {
+    const raw = JSON.parse(await fs.readFile(path.join(CAMERA_DIR, `${slug}.json`), 'utf8'));
+    const { idp, numar, tip, inregistrat, url, cameraDecizionala, stadiu, stadiuData } = raw;
+    return { idp, numar, tip, inregistrat, url, cameraDecizionala, stadiu, stadiuData };
   } catch {
     return null;
   }

@@ -123,6 +123,9 @@ async function main() {
     const stillMissing = readBills().filter((b) => !fs.existsSync(analysisPath(b.slug)));
     if (stillMissing.length) summary.push(`${stillMissing.length} fără analiză`);
 
+    const camera = await step('Camera Deputaților', 'node', ['scripts/straja-camera.mjs'], { timeoutMs: 900_000 });
+    if (!camera.ok) summary.push('legătura cu Camera Deputaților a eșuat');
+
     const ces = await step('Avize CES', 'node', ['scripts/straja-ces.mjs'], { timeoutMs: 1_800_000 });
     if (!ces.ok) summary.push('rezumatul avizelor CES a eșuat');
 

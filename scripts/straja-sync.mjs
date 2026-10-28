@@ -201,6 +201,13 @@ async function parseBillSheet(bill) {
     }
   }
 
+  // Numerele și camerele din antetul fișei; numărul de la Cameră apare uneori cu zile de întârziere.
+  const field = (label) => {
+    const m = html.match(new RegExp(`${label}\\s*:\\s*</td>\\s*<td[^>]*>([\\s\\S]*?)</td>`, 'i'));
+    return m ? stripTags(m[1]).replace(/\s+/g, ' ').trim() || null : null;
+  };
+  const senatNr = field('Număr de înregistrare Senat')?.match(/[BL]\d+\/\d{4}/)?.[0] ?? null;
+
   return {
     initiators,
     parties,
@@ -208,6 +215,10 @@ async function parseBillSheet(bill) {
     emergencyRequested,
     emergencyApproved,
     stage,
+    senatNr,
+    cdepNr: field('Număr de înregistrare Camera Deputaților'),
+    firstChamber: field('Prima cameră'),
+    lawType: field('Caracterul legii'),
     pdfs,
     timeline,
   };
@@ -354,10 +365,13 @@ async function main() {
     // Senatul scoate un proiect din consultare când îi dă număr L (sau îl trece „pt. informare”), uneori cu săptămâni
     // înainte de termenul afișat. Lista e o interogare pe starea proiectului, deci o singură citire validă ajunge.
     // Păstrăm termenul anunțat și mutăm termenul efectiv în ziua dinainte, ca site-ul să-l arate închis.
+    // Termenele Senatului sunt „ZZ-LL-AAAA”; leftListAt e ISO.
     const today = todayBucharest();
+    const iso = (ddmmyyyy) => ddmmyyyy.split('-').reverse().join('-');
     for (const b of kept) {
-      if (b.leftListAt || b.consultationDeadline < today) continue;
-      Object.assign(b, { leftListAt: today, announcedDeadline: b.consultationDeadline, consultationDeadline: addDays(today, -1) });
+      if (b.leftListAt || iso(b.consultationDeadline) <= today) continue;
+      const closed = addDays(today, -1).split('-').reverse().join('-');
+      Object.assign(b, { leftListAt: today, announcedDeadline: b.consultationDeadline, consultationDeadline: closed });
       console.log(`🔒 ${b.id} a ieșit din consultare pe ${today}, înainte de termenul anunțat (${b.announcedDeadline}).`);
     }
     enriched.push(...kept);

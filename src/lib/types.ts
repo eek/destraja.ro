@@ -247,6 +247,26 @@ export interface EnrichedBill {
   publicOpinions: PublicOpinion[];
   analysis: BillAnalysis;
   news: BillNews | null;
+  /** Numărul de la Senat (B… sau, după prezentarea în Biroul permanent, L…), din antetul fișei. */
+  senatNr?: string | null;
+  /** „Senat” pentru toate proiectele din consultare: Camera Deputaților decide la final. */
+  firstChamber?: string | null;
+  lawType?: string | null;
+  /** Fișa aceluiași proiect la Camera Deputaților, legată și verificată de scripts/straja-camera.mjs. */
+  camera: CameraLink | null;
+}
+
+export interface CameraLink {
+  idp: number;
+  /** „BP760/2026” (propunere a deputaților, trimisă întâi la Senat) sau „PL-x 691/2026”. */
+  numar: string;
+  tip: string;
+  /** Data înregistrării la Cameră (YYYY-MM-DD). */
+  inregistrat: string;
+  url: string;
+  cameraDecizionala: string | null;
+  stadiu: string;
+  stadiuData: string | null;
 }
 
 type ModelKey = 'agy' | 'claude' | 'codex';

@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 // Datele de contact oficiale ale parlamentarilor care semnează proiectele urmărite.
 //
-// Pentru fiecare inițiator din data/senat-bills.json caută fișa oficială: deputații pe cdep.ro,
-// senatorii pe senat.ro. Numele se potrivesc doar cu listele oficiale ale membrilor în funcție;
+// Pentru fiecare inițiator din data/senat-bills.json și de pe fișele Camerei (data/cdep/proiecte) caută fișa oficială:
+// deputații pe cdep.ro, senatorii pe senat.ro. Numele se potrivesc doar cu listele oficiale ale membrilor în funcție;
 // dacă potrivirea nu e sigură, parlamentarul rămâne cu matched:false și motivul, fără să ghicim.
 //
 // Copiem doar ce publică fișa camerei pentru rolul public: e-mailul și telefonul din caseta de contact,
@@ -14,14 +14,17 @@
 //   npm run straja:mps -- --dry-run    doar potrivirea numelor cu listele oficiale, fără fișe și fără scriere
 //   opțiuni: --refresh (descarcă tot din nou)  --offline (doar din cache)  --max-age=6 (zile)
 //
-// Scrie data/mp-contacts.json, cu cheia = numele exact din senat-bills.json.
+// Scrie data/mp-contacts.json, cu cheia = numele exact din senat-bills.json (sau de pe fișa Camerei, pentru cei care
+// apar doar acolo). Cererile spre cdep.ro așteaptă pauza comună cu celelalte scripturi (scripts/lib/cdep.mjs).
 
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { pace as cdepPace } from './lib/cdep.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const BILLS_FILE = path.join(ROOT, 'data', 'senat-bills.json');
+const CDEP_SHEETS = path.join(ROOT, 'data', 'cdep', 'proiecte');
 const OUT_FILE = path.join(ROOT, 'data', 'mp-contacts.json');
 const CACHE_DIR = path.join(ROOT, '.cache', 'mps');
 
@@ -74,6 +77,7 @@ async function getPage(url) {
   for (let attempt = 0; attempt < 2; attempt++) {
     const wait = lastRequest + DELAY_MS * (attempt + 1) - Date.now();
     if (wait > 0) await sleep(wait);
+    if (url.startsWith(CDEP)) await cdepPace();
     lastRequest = Date.now();
     requests++;
     try {
@@ -87,9 +91,12 @@ async function getPage(url) {
       const buf = Buffer.from(await res.arrayBuffer());
       if (buf.length > MAX_BYTES) throw new Error(`pagină prea mare (${buf.length} octeți)`);
       const html = buf.toString('utf8');
+      // Pagina de captcha a firewall-ului cdep.ro nu e o fișă: ne oprim, fără s-o păstrăm în cache.
+      if (/Firewall Captcha Authentication/i.test(html)) throw Object.assign(new Error('cdep.ro cere captcha'), { fatal: true });
       fs.writeFileSync(file, html, 'utf8');
       return { html, fetchedAt: Date.now() };
     } catch (err) {
+      if (err.fatal) throw err;
       lastErr = err;
     }
   }
@@ -401,12 +408,26 @@ function parseSenatProfile(html) {
 
 // ---------- programul ----------
 
+// Numele → camera („senator”, „deputat” sau null dacă nu o știm). Senatul are întâietate; de pe fișele Camerei luăm doar
+// pe cine nu apare deja acolo, comparând numele fără diacritice și cratime („Doina Elena” = „Doina-Elena”).
+const nameKey = (s) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
 function initiators() {
   const bills = JSON.parse(fs.readFileSync(BILLS_FILE, 'utf8'));
   const byName = new Map();
   for (const b of bills) for (const i of b.initiators ?? []) {
     const name = i.name.trim();
     if ((i.role === 'senator' || i.role === 'deputat') && !byName.has(name)) byName.set(name, i.role);
+  }
+  const known = new Set([...byName.keys()].map(nameKey));
+  const sheets = fs.existsSync(CDEP_SHEETS) ? fs.readdirSync(CDEP_SHEETS) : [];
+  for (const f of sheets) {
+    const sheet = JSON.parse(fs.readFileSync(path.join(CDEP_SHEETS, f), 'utf8'));
+    for (const i of sheet.fisa?.initiatori ?? []) {
+      const key = nameKey(i.nume);
+      if (known.has(key)) continue;
+      known.add(key);
+      byName.set(i.nume.trim(), i.rol ?? null);
+    }
   }
   return byName;
 }
@@ -430,16 +451,17 @@ async function main() {
   const stats = { matched: 0, unmatched: 0, withEmail: 0, withOffice: 0, approx: [] };
 
   for (const [i, [name, role]] of todo.entries()) {
+    // Fără cameră cunoscută (fișe vechi ale Camerei), căutăm întâi printre deputați, apoi printre senatori.
     const chamber = role === 'senator' ? 'senat' : 'cdep';
     const other = chamber === 'senat' ? 'cdep' : 'senat';
     let hit = findMember(name, lists[chamber].current);
     let note;
     // Rolul din fișa Senatului e aproape mereu corect; o potrivire exactă în cealaltă cameră o acceptăm, cu notă.
-    if (!hit) {
+    if (!hit?.member) {
       const elsewhere = findMember(name, lists[other].current);
       if (elsewhere?.member && (elsewhere.rule === 'exact' || elsewhere.rule === 'ordine')) {
         hit = elsewhere;
-        note = `senat.ro îl trece ca ${role}, dar apare pe lista ${other === 'senat' ? 'senatorilor' : 'deputaților'}`;
+        if (role) note = `senat.ro îl trece ca ${role}, dar apare pe lista ${other === 'senat' ? 'senatorilor' : 'deputaților'}`;
       }
     }
 
@@ -463,7 +485,7 @@ async function main() {
         offices: [],
       };
       stats.unmatched++;
-      console.log(`  ✗ ${name} (${role}): ${reason}`);
+      console.log(`  ✗ ${name} (${role ?? "cameră necunoscută"}): ${reason}`);
       continue;
     }
 
@@ -495,6 +517,11 @@ async function main() {
       if (p.offices.length) stats.withOffice++;
       console.log(`${p.emails.length} e-mail, ${p.phones.length} tel., ${p.offices.length} birouri`);
     } catch (err) {
+      // La captcha ne oprim; ce lipsește se ia la rularea următoare cu --only-new.
+      if (err.fatal) {
+        console.log(`⏸️  ${err.message}; ne oprim aici`);
+        break;
+      }
       console.log(`EROARE: ${err.message}`);
       out[name] = previous[name] ?? {
         matched: true,

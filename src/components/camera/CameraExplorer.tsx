@@ -162,6 +162,11 @@ export default function CameraExplorer({ items, pages, builtOn }: { items: CdepL
                         {stageLabel(p.stage)}
                       </span>
                       {p.risk && <RiskChip level={p.risk.level} score={p.risk.score} />}
+                      {p.textChange && (
+                        <span className={p.textChange.direction === 'mai_riscant' ? 'text-risk-red-text' : 'text-risk-green-text'}>
+                          {p.textChange.direction === 'mai_riscant' ? 'mai riscant' : 'mai puțin riscant'} după {p.textChange.after === 'senat' ? 'Senat' : 'Cameră'}
+                        </span>
+                      )}
                       {p.senat && <span className="text-muted">urmărit de la Senat</span>}
                     </span>
                     <span className="mt-1.5 block text-[15px] font-semibold leading-6 text-ink group-hover:underline group-hover:underline-offset-4">

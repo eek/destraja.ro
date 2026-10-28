@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { ArrowLeft, ExternalLink, FileText } from 'lucide-react';
-import { getCdepAnalysis, getCdepBill, getCdepSlugs, getCommittees, initiatorLabel } from '@/lib/cdep';
+import { cdepParty, getBillVersions, getCdepAnalysis, getCdepBill, getCdepSlugs, getCommittees, initiatorLabel } from '@/lib/cdep';
 import { dayDiff, shortCommittee, shortDate, stageLabel, stageOf } from '@/lib/cdep-text';
 import { RISK } from '@/lib/risk';
 import { MODELS } from '@/lib/site';
@@ -11,6 +11,7 @@ import { trackAttrs } from '@/lib/analytics';
 import { Container, PartyTag, RiskChip, linkCls, panel } from '@/components/ui';
 import { RouteSteps, type RouteStep } from '@/components/bills/BillRoute';
 import WriteCommittee from '@/components/camera/WriteCommittee';
+import BillVersions from '@/components/camera/BillVersions';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -34,12 +35,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 // „26.10.2026” → „2026-10-26”.
 const iso = (d: string) => d.split('.').reverse().join('-');
 // Fișa Camerei scrie grupurile fără diacritice („Minoritati”, „Neafiliati”).
-const partyName = (p: string | null) => ({ Minoritati: 'Minorități', Neafiliati: 'Neafiliați' })[p ?? 'Neafiliati'] ?? p ?? 'Neafiliați';
 const LAW_TYPE: Record<string, string> = { ordinar: 'Ordinară', organic: 'Organică', constitutional: 'Constituțională' };
 
 export default async function CameraBillPage({ params }: PageProps) {
   const { slug } = await params;
-  const [bill, analysis, committees] = await Promise.all([getCdepBill(slug), getCdepAnalysis(slug), getCommittees()]);
+  const [bill, analysis, committees, versions] = await Promise.all([getCdepBill(slug), getCdepAnalysis(slug), getCommittees(), getBillVersions(slug)]);
   if (!bill) notFound();
 
   const f = bill.fisa;
@@ -85,7 +85,7 @@ export default async function CameraBillPage({ params }: PageProps) {
 
   const byParty: Record<string, number> = {};
   for (const i of f.initiatori) {
-    const party = partyName(i.partid);
+    const party = cdepParty(i.partid) || 'Neafiliați';
     byParty[party] = (byParty[party] ?? 0) + 1;
   }
   const partyEntries = Object.entries(byParty).sort((a, b) => b[1] - a[1]);
@@ -284,6 +284,8 @@ export default async function CameraBillPage({ params }: PageProps) {
             </section>
           </>
         )}
+
+        {versions && <BillVersions data={versions} />}
 
         {f.comisii && (
           <section aria-labelledby="comisii" className="mt-12">

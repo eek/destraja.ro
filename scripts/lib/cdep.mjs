@@ -28,7 +28,7 @@ const PACE_FILE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..
 const LOCK = `${PACE_FILE}.lock`;
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-async function pace() {
+export async function pace() {
   fs.mkdirSync(path.dirname(PACE_FILE), { recursive: true });
   for (;;) {
     try {
@@ -135,11 +135,17 @@ export function parseSheet(html) {
   let party = null;
   const initBlock = html.slice(start).match(/Initiator:([\s\S]*?)Obiect de reglementare/i)?.[1] ?? '';
   // Fiecare bucată începe cu numele (linkul fișei) și se poate termina cu eticheta partidului următor („- PNL:”).
+  // Grupurile arată ca „deputati - PSD:”, „senatori - neafiliati:” sau „deputati - SOS RO:”: de acolo luăm și camera.
+  let rol = null;
   for (const piece of initBlock.split(/(?=<a )/i)) {
     const name = piece.match(/structura2015\.mp\?idm=(\d+)[^>]*>([^<]+)<\/a>/);
-    if (name) initiatori.push({ idm: +name[1], nume: clean(name[2]), partid: party });
-    const labels = [...clean(piece).matchAll(/-\s*([A-ZĂÂÎȘȚ][\w-]*):/g)];
-    if (labels.length) party = labels.at(-1)[1];
+    if (name) initiatori.push({ idm: +name[1], nume: clean(name[2]), partid: party, ...(rol && { rol }) });
+    const labels = [...clean(piece).matchAll(/(deputati|senatori)\s*-\s*([^:,]{1,30}):/gi)];
+    if (labels.length) {
+      const [, who, label] = labels.at(-1);
+      rol = /^senat/i.test(who) ? 'senator' : 'deputat';
+      party = label.trim();
+    }
   }
   const timeline = [];
   const proc = html.slice(html.indexOf('Derularea procedurii'));
@@ -159,6 +165,12 @@ export function parseSheet(html) {
   const documente = [];
   for (const [, href, label] of html.matchAll(/<a href="(\/proiecte\/[^"]+\.pdf)"[^>]*>[\s\S]*?<\/a>\s*<\/td>\s*<td[^>]*>([\s\S]*?)<\/td>/gi)) {
     if (!documente.some((d) => d.url.endsWith(href))) documente.push({ url: `${CDEP}${href}`, eticheta: clean(label) });
+  }
+  // Formele votate stau în derularea procedurii, cu adresă relativă („docs?2026/pl001_cd001_26.pdf”) și o celulă goală
+  // înaintea etichetei („Forma adoptată de Cameră”).
+  for (const [, href, label] of html.matchAll(/<a href="(docs\?[^"]+\.pdf)"[^>]*>[\s\S]*?<\/a>\s*<\/td>(?:\s*<td[^>]*>\s*(?:&nbsp;)?\s*<\/td>)?\s*<td[^>]*>([\s\S]*?)<\/td>/gi)) {
+    const url = `${CDEP}/ords/pls/proiecte/${href}`;
+    if (!documente.some((d) => d.url === url)) documente.push({ url, eticheta: clean(label) });
   }
 
   // Ultima trimitere la comisii: cine face raportul, cine dă aviz și termenele (amendamente, raport).

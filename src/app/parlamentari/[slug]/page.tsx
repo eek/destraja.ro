@@ -3,11 +3,12 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import { ArrowLeft } from 'lucide-react';
 import { getAllBillsLite } from '@/lib/bills';
-import { byRiskDesc, computeStats } from '@/lib/stats';
+import { byRiskDesc, computeMpStats, mpKey } from '@/lib/stats';
+import { getCdepSigned } from '@/lib/cdep';
 import { partyFullName } from '@/lib/site';
 import { RISK, RISK_LEVELS, levelFromScore } from '@/lib/risk';
 import { countWord, fmt } from '@/lib/format';
-import { Container, PartyTag, RiskDot, panel } from '@/components/ui';
+import { Container, PartyTag, RiskChip, RiskDot, panel } from '@/components/ui';
 import BillGrid from '@/components/bills/BillGrid';
 import MpContactPanel from '@/components/mps/MpContactPanel';
 import { getMpContact } from '@/lib/mp-contacts';
@@ -20,13 +21,14 @@ export const dynamicParams = false;
 
 async function load(slug: string) {
   const bills = await getAllBillsLite();
-  const { mpStats } = computeStats(bills);
+  const chamber = await getCdepSigned();
+  const mpStats = computeMpStats([...bills, ...chamber]);
   const mp = mpStats.find((m) => m.slug === slug);
-  return { bills, mpStats, mp };
+  return { bills, chamber, mpStats, mp };
 }
 
 export async function generateStaticParams() {
-  const { mpStats } = computeStats(await getAllBillsLite());
+  const mpStats = computeMpStats([...(await getAllBillsLite()), ...(await getCdepSigned())]);
   return mpStats.map((m) => ({ slug: m.slug }));
 }
 
@@ -35,29 +37,31 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!mp) return { title: 'Parlamentar negăsit' };
   return {
     title: `${mp.name} (${mp.party})`,
-    description: `${mp.name}, ${mp.role} ${mp.party}, a semnat ${countWord(mp.billsCount, 'proiect', 'proiecte')} aflate în consultare la Senat, dintre care ${mp.redCount} cu risc ridicat.`,
+    description: `${mp.name}${mp.role ? `, ${mp.role}` : ''} ${mp.party}, a semnat ${countWord(mp.billsCount, 'proiect analizat', 'proiecte analizate')} de noi la Senat și la Camera Deputaților, dintre care ${mp.redCount} cu risc ridicat.`,
   };
 }
 
 export default async function MpPage({ params }: PageProps) {
-  const { bills, mpStats, mp } = await load((await params).slug);
+  const { bills, chamber, mpStats, mp } = await load((await params).slug);
   if (!mp) notFound();
 
   const ids = new Set(mp.billIds);
   const own = bills.filter((b) => ids.has(b.id)).sort(byRiskDesc);
+  const ownChamber = chamber.filter((b) => ids.has(b.id)).sort(byRiskDesc);
   const contact = await getMpContact(mp.name);
 
   const shared = new Map<string, number>();
-  for (const b of own) for (const i of b.initiators) {
-    const name = i.name.trim();
-    if (name !== mp.name) shared.set(name, (shared.get(name) ?? 0) + 1);
+  for (const b of [...own, ...ownChamber]) {
+    for (const key of new Set(b.initiators.map((i) => mpKey(i.name)))) {
+      if (key !== mp.slug) shared.set(key, (shared.get(key) ?? 0) + 1);
+    }
   }
-  const bySlug = new Map(mpStats.map((m) => [m.name, m]));
+  const bySlug = new Map(mpStats.map((m) => [m.slug, m]));
   const cosigners = [...shared.entries()]
-    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'ro'))
-    .slice(0, 10)
-    .map(([name, n]) => ({ mp: bySlug.get(name)!, n }))
-    .filter((x) => x.mp);
+    .map(([key, n]) => ({ mp: bySlug.get(key)!, n }))
+    .filter((x) => x.mp)
+    .sort((a, b) => b.n - a.n || a.mp.name.localeCompare(b.mp.name, 'ro'))
+    .slice(0, 10);
 
   const role = mp.role === 'senator' ? 'Senator' : mp.role === 'deputat' ? 'Deputat' : mp.role;
   const levels = { red: mp.redCount, yellow: mp.yellowCount, green: mp.greenCount };
@@ -74,7 +78,7 @@ export default async function MpPage({ params }: PageProps) {
           <h1 className="font-display text-[clamp(2.2rem,5vw,3.8rem)] font-normal leading-[1.05]">{mp.name}</h1>
           <p className="mt-4 flex flex-wrap items-center gap-2 text-base text-body">
             <PartyTag party={mp.party} />
-            {role} · {partyFullName(mp.party)}
+            {role ? `${role} · ` : ''}{partyFullName(mp.party)}
           </p>
         </div>
         <dl className="grid grid-cols-3 gap-x-8 gap-y-4 sm:grid-cols-5">
@@ -105,7 +109,37 @@ export default async function MpPage({ params }: PageProps) {
           Proiectele semnate
         </h2>
         <p className="mt-2 mb-6 text-sm text-muted">Ordonate după risc. Semnătura arată cine a inițiat proiectul, nu cum va vota.</p>
-        <BillGrid bills={own} />
+        {own.length > 0 && (
+          <>
+            {ownChamber.length > 0 && <h3 className="mb-4 text-lg font-semibold text-ink">În consultare la Senat</h3>}
+            <BillGrid bills={own} />
+          </>
+        )}
+        {ownChamber.length > 0 && (
+          <>
+            {own.length > 0 && <h3 className="mt-10 mb-4 text-lg font-semibold text-ink">La Camera Deputaților</h3>}
+            <ul className="divide-y divide-line overflow-hidden rounded-2xl border border-line bg-surface">
+              {ownChamber.map((b) => (
+                <li key={b.slug}>
+                  <Link
+                    href={`/camera/${b.slug}`}
+                    className="group block px-4 py-4 transition-colors hover:bg-sunken/50 sm:px-6"
+                  >
+                    <span className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs">
+                      <span className="font-semibold tabular-nums text-ink">{b.id}</span>
+                      <RiskChip level={b.analysis.consensus.riskLevel} score={b.analysis.consensus.riskScore} />
+                      <span className="text-muted">{b.stadiu}</span>
+                    </span>
+                    <span className="mt-1.5 block text-[15px] font-semibold leading-6 text-ink group-hover:underline group-hover:underline-offset-4">
+                      {b.analysis.consensus.plainTitle}
+                    </span>
+                    <span className="mt-0.5 line-clamp-1 block text-xs leading-5 text-muted">{b.officialTitle}</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
       </section>
 
       {cosigners.length > 0 && (

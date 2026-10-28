@@ -3,11 +3,11 @@
 import { useMemo, useState } from 'react';
 import Link from 'next/link';
 import { ArrowDown, ArrowUp, ChevronDown, ChevronsUpDown, Mail, Search, X } from 'lucide-react';
-import type { BillLite } from '@/lib/types';
+import type { RiskLevel } from '@/lib/types';
 import { PARTY_ORDER, partyFullName } from '@/lib/site';
 import { RISK, levelFromScore } from '@/lib/risk';
 import { countWord, fmt, initialRows, normalize } from '@/lib/format';
-import { computeStats, type MpStat } from '@/lib/stats';
+import type { MpStat } from '@/lib/stats';
 import { EmptyState, PartyTag, RiskDot, btnSecondary, inputCls, segCls } from '@/components/ui';
 import type { ReactNode } from 'react';
 import { trackAttrs } from '@/lib/analytics';
@@ -20,11 +20,10 @@ const PAGE = 40;
 
 const roleLabel = (role: string) => (role === 'senator' ? 'Senator' : role === 'deputat' ? 'Deputat' : role);
 
-// withEmail: numele parlamentarilor pentru care fișa oficială publică o adresă de e-mail.
-export default function MpDirectory({ bills, withEmail = [] }: { bills: BillLite[]; withEmail?: string[] }) {
-  const { mpStats } = useMemo(() => computeStats(bills), [bills]);
+// Statisticile vin calculate de pe server (Senat + Cameră), ca semnăturile tuturor proiectelor să nu ajungă în browser.
+// levels: nivelul de risc al fiecărui proiect, după id. withEmail: parlamentarii cu e-mail pe fișa oficială.
+export default function MpDirectory({ mpStats, levels, withEmail = [] }: { mpStats: MpStat[]; levels: Record<string, RiskLevel>; withEmail?: string[] }) {
   const emailSet = useMemo(() => new Set(withEmail), [withEmail]);
-  const levelById = useMemo(() => new Map(bills.map((b) => [b.id, b.analysis.consensus.riskLevel])), [bills]);
 
   const parties = useMemo(() => {
     const n = new Map<string, number>();
@@ -173,7 +172,7 @@ export default function MpDirectory({ bills, withEmail = [] }: { bills: BillLite
                       </span>
                       <span className="mt-2 flex flex-wrap items-center gap-1" aria-label={`${m.redCount} cu risc ridicat, ${m.yellowCount} moderat, ${m.greenCount} redus`}>
                         {m.billIds.slice(0, 14).map((id) => (
-                          <RiskDot key={id} level={levelById.get(id) ?? 'green'} className="h-2.5 w-2.5" />
+                          <RiskDot key={id} level={levels[id] ?? 'green'} className="h-2.5 w-2.5" />
                         ))}
                         {m.billIds.length > 14 && <span className="ml-1 text-[11px] text-muted">+{m.billIds.length - 14}</span>}
                       </span>

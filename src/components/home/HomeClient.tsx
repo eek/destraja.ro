@@ -21,7 +21,8 @@ function scrollToList() {
   window.requestAnimationFrame(() => document.getElementById('legi')?.scrollIntoView({ behavior: 'smooth', block: 'start' }));
 }
 
-export default function HomeClient({ bills: initial, syncedLabel }: { bills: BillLite[]; syncedLabel: string | null }) {
+// mpCount: câți parlamentari are pagina /parlamentari (Senat + Cameră), numărați pe server.
+export default function HomeClient({ bills: initial, syncedLabel, mpCount }: { bills: BillLite[]; syncedLabel: string | null; mpCount: number }) {
   const bills = useLiveBills(initial);
   const counts = useMemo(() => riskCounts(bills), [bills]);
   const stats = useMemo(() => computeStats(bills), [bills]);
@@ -183,7 +184,7 @@ export default function HomeClient({ bills: initial, syncedLabel }: { bills: Bil
           <p className="mt-6 text-sm text-muted">
             Cauți un anume senator sau deputat?{' '}
             <Link href="/parlamentari" className={linkCls}>
-              Caută printre cei {stats.mpStats.length} de inițiatori
+              Caută printre cei {mpCount} de inițiatori
             </Link>
           </p>
         </Container>

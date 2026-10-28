@@ -1,4 +1,4 @@
-import type { BillLite, RiskLevel } from './types';
+import type { BillLite, RiskLevel, Signed } from './types';
 import { MODELS, OPOZITIE, PUTERE, partyFullName, type ModelKey } from './site';
 import { addDays, slugify, todayISO } from './format';
 
@@ -6,7 +6,7 @@ export function oneLiner(b: BillLite) {
   return b.analysis.consensus.citizenOneLiner || b.analysis.consensus.summaryTlDr;
 }
 
-export function byRiskDesc(a: BillLite, b: BillLite) {
+export function byRiskDesc(a: Signed, b: Signed) {
   return b.analysis.consensus.riskScore - a.analysis.consensus.riskScore || a.id.localeCompare(b.id, 'ro', { numeric: true });
 }
 
@@ -85,32 +85,56 @@ export interface MpStat {
 }
 
 const avg = (xs: number[]) => (xs.length ? Math.round((xs.reduce((s, x) => s + x, 0) / xs.length) * 10) / 10 : 0);
-const levelCount = (bills: BillLite[], level: RiskLevel) => bills.filter((b) => b.analysis.consensus.riskLevel === level).length;
+const levelCount = (bills: Signed[], level: RiskLevel) => bills.filter((b) => b.analysis.consensus.riskLevel === level).length;
 
-/** Slug stabil per parlamentar; la nume identice se adaugă partidul. */
-export function mpSlugs(bills: BillLite[]) {
-  const byName = new Map<string, Set<string>>();
-  for (const b of bills) for (const i of b.initiators) {
-    const name = i.name.trim();
-    if (!byName.has(name)) byName.set(name, new Set());
-    byName.get(name)!.add(slugify(name));
-  }
+/**
+ * Cheia și slug-ul unui parlamentar: numele fără diacritice, cratime și majuscule. Așa „Federovici Doina Elena” de pe
+ * fișa Camerei și „Federovici Doina-Elena” de la Senat sunt aceeași persoană, cu aceeași pagină.
+ */
+export const mpKey = (name: string) => slugify(name) || 'parlamentar';
+
+/** Numele exact, așa cum apare într-un proiect → slug-ul paginii parlamentarului. */
+export function mpSlugs(bills: Signed[]) {
   const seen = new Map<string, string>();
-  const taken = new Set<string>();
-  for (const name of [...byName.keys()].sort((a, b) => a.localeCompare(b, 'ro'))) {
-    let slug = slugify(name) || 'parlamentar';
-    let n = 2;
-    while (taken.has(slug)) slug = `${slugify(name)}-${n++}`;
-    taken.add(slug);
-    seen.set(name, slug);
-  }
+  for (const b of bills) for (const i of b.initiators) seen.set(i.name.trim(), mpKey(i.name));
   return seen;
+}
+
+/**
+ * Statisticile fiecărui parlamentar din proiectele primite: cele de la Senat și, pe paginile parlamentarilor, și cele
+ * analizate la Cameră. Numele, partidul și camera vin din primul proiect care le are, deci Senatul (dat primul) are
+ * întâietate, apoi proiectele Camerei de la cel mai nou.
+ */
+export function computeMpStats(bills: Signed[]): MpStat[] {
+  const mpMap = new Map<string, { name: string; party: string; role: string; bills: Signed[] }>();
+  for (const bill of bills) {
+    for (const init of bill.initiators) {
+      const key = mpKey(init.name);
+      if (!mpMap.has(key)) mpMap.set(key, { name: init.name.trim(), party: '', role: '', bills: [] });
+      const mp = mpMap.get(key)!;
+      mp.party ||= init.party;
+      mp.role ||= init.role;
+      if (!mp.bills.some((b) => b.id === bill.id)) mp.bills.push(bill);
+    }
+  }
+  const mpStats: MpStat[] = [...mpMap.entries()].map(([slug, mp]) => ({
+    slug,
+    name: mp.name,
+    party: mp.party || 'Neafiliați',
+    role: mp.role,
+    billsCount: mp.bills.length,
+    redCount: levelCount(mp.bills, 'red'),
+    yellowCount: levelCount(mp.bills, 'yellow'),
+    greenCount: levelCount(mp.bills, 'green'),
+    avgRiskScore: avg(mp.bills.map((b) => b.analysis.consensus.riskScore)),
+    billIds: [...mp.bills].sort(byRiskDesc).map((b) => b.id),
+  }));
+  return mpStats.sort((a, b) => b.redCount - a.redCount || b.billsCount - a.billsCount || a.name.localeCompare(b.name, 'ro'));
 }
 
 export function computeStats(bills: BillLite[]) {
   const partyBills = new Map<string, BillLite[]>();
   const partySignatures = new Map<string, number>();
-  const mpMap = new Map<string, { name: string; party: string; role: string; bills: BillLite[] }>();
 
   for (const bill of bills) {
     for (const p of new Set(bill.parties)) {
@@ -120,10 +144,6 @@ export function computeStats(bills: BillLite[]) {
     for (const init of bill.initiators) {
       const party = init.party || 'Neafiliați';
       partySignatures.set(party, (partySignatures.get(party) ?? 0) + 1);
-      const name = init.name.trim();
-      if (!mpMap.has(name)) mpMap.set(name, { name, party, role: init.role, bills: [] });
-      const mp = mpMap.get(name)!;
-      if (!mp.bills.some((b) => b.id === bill.id)) mp.bills.push(bill);
     }
   }
 
@@ -147,24 +167,9 @@ export function computeStats(bills: BillLite[]) {
   });
   partyStats.sort((a, b) => b.avgRiskScore - a.avgRiskScore || b.billsCount - a.billsCount);
 
-  const slugs = mpSlugs(bills);
-  const mpStats: MpStat[] = [...mpMap.values()].map((mp) => ({
-    slug: slugs.get(mp.name)!,
-    name: mp.name,
-    party: mp.party,
-    role: mp.role,
-    billsCount: mp.bills.length,
-    redCount: levelCount(mp.bills, 'red'),
-    yellowCount: levelCount(mp.bills, 'yellow'),
-    greenCount: levelCount(mp.bills, 'green'),
-    avgRiskScore: avg(mp.bills.map((b) => b.analysis.consensus.riskScore)),
-    billIds: [...mp.bills].sort(byRiskDesc).map((b) => b.id),
-  }));
-  mpStats.sort((a, b) => b.redCount - a.redCount || b.billsCount - a.billsCount || a.name.localeCompare(b.name, 'ro'));
-
   return {
     partyStats,
-    mpStats,
+    mpStats: computeMpStats(bills),
     crossPartyBills: bills.filter((b) => b.isCrossParty).sort(byRiskDesc),
     // Întâi cele încă în consultare: acolo avizul CES mai poate susține o obiecție.
     cesNegativeBills: bills.filter((b) => b.cesNegative).sort((a, b) => Number(a.daysRemaining < 0) - Number(b.daysRemaining < 0) || byRiskDesc(a, b)),

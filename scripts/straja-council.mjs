@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url';
 import { writeBillTexts } from './lib/pdf-text.mjs';
 import { runModel } from './lib/ai-cli.mjs';
 import { CdepBlocked, fetchCdepFile } from './lib/cdep.mjs';
+import { unitDiff } from './lib/text-diff.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(__dirname, '..');
@@ -32,10 +33,20 @@ async function extractPdfTextsForBill(bill) {
   });
 }
 
-function buildCouncilPrompt(bill, texts) {
-  // La Cameră, textul dezbătut e forma adoptată de Senat, dacă Senatul a votat deja; altfel forma inițiatorului. La legile de
-  // aprobare a unei ordonanțe, legea are un articol, iar conținutul e în ordonanță: le dăm pe amândouă.
-  const main = texts.forma_senat || texts.forma_initiatorului || '';
+// Formele textului unui proiect de la Cameră, de la cea mai nouă: modelele analizează forma aflată acum în dezbatere,
+// iar la comparații (--versions) câte una anume.
+const FORMS = {
+  camera: { text: 'forma_camera', label: 'FORMA ADOPTATĂ DE CAMERA DEPUTAȚILOR' },
+  senat: { text: 'forma_senat', label: 'FORMA ADOPTATĂ DE SENAT' },
+  initiator: { text: 'forma_initiatorului', label: 'FORMA INIȚIATORULUI' },
+};
+const VERSION_LABEL = { initiator: 'Forma inițiatorului', senat: 'Forma adoptată de Senat', camera: 'Forma adoptată de Cameră' };
+const latestVersion = (texts) => Object.keys(FORMS).find((k) => texts[FORMS[k].text]) ?? 'initiator';
+
+function buildCouncilPrompt(bill, texts, version) {
+  // La legile de aprobare a unei ordonanțe, legea are un articol, iar conținutul e în ordonanță: le dăm pe amândouă.
+  const form = bill.chamber ? FORMS[version ?? latestVersion(texts)] : FORMS.initiator;
+  const main = texts[form.text] || '';
   const oug = texts.forma_ordonanta || '';
   const fgSnippet = (oug ? `${main.slice(0, 5000)}\n\n[TEXTUL ORDONANȚEI]\n${oug}` : main).slice(0, 14000);
   const emSnippet = (texts.expunere_motive || '').slice(0, 10000);
@@ -45,7 +56,9 @@ function buildCouncilPrompt(bill, texts) {
 
   const cam = bill.chamber;
   const intro = cam
-    ? `Analizează următorul proiect de lege aflat în dezbatere la Camera Deputaților`
+    ? AT_CHAMBER.test(cam.stadiu)
+      ? `Analizează următorul proiect de lege aflat în dezbatere la Camera Deputaților`
+      : `Analizează următorul proiect de lege înregistrat la Camera Deputaților (stadiul de acum: ${cam.stadiu})`
     : `Analizează următoarea propunere legislativă aflată în consultare publică la Senatul României`;
   const facts = cam
     ? `DATE OFICIALE CAMERA DEPUTAȚILOR:
@@ -64,11 +77,10 @@ function buildCouncilPrompt(bill, texts) {
 - Termen consultare publică: ${bill.consultationDeadline}
 - Procedură de urgență solicitată: ${bill.emergencyRequested ? 'DA' : 'NU'}
 - Inițiatori: ${initiatorsStr || 'Vezi documentele PDF'}`;
-  const textLabel = cam
-    ? texts.forma_senat
-      ? 'TEXT EXTRAS DIN FORMA ADOPTATĂ DE SENAT (textul pe care îl dezbate Camera)'
-      : 'TEXT EXTRAS DIN FORMA INIȚIATORULUI (dacă e disponibil, altfel bazează-te pe titlu și context)'
-    : 'TEXT EXTRAS DIN FORMA INIȚIATORULUI (dacă e disponibil, altfel bazează-te pe titlu și context)';
+  const textLabel =
+    form === FORMS.initiator
+      ? 'TEXT EXTRAS DIN FORMA INIȚIATORULUI (dacă e disponibil, altfel bazează-te pe titlu și context)'
+      : `TEXT EXTRAS DIN ${form.label} (evaluează această formă a textului)`;
   const formRule = cam
     ? `4. Câmpul "senatForm" conține aici propunerea de modificare pe care un cetățean o trimite prin e-mail comisiei Camerei care face raportul (un deputat o poate prelua ca amendament): articleRef = articolul vizat, proposalContent = textul propus pentru articol (sau eliminarea lui), argumentation = motivarea, otherComments = alte observații. Respectă STRICT limitele de caractere:`
     : `4. Pentru formularul Senatului, respectă STRICT limitele de caractere:`;
@@ -128,9 +140,9 @@ async function runSingleAi(modelKey, prompt, label) {
     : { model: modelKey, status: 'error', durationMs: res.durationMs, error: res.error };
 }
 
-async function analyzeBillWithCouncil(bill, force = false) {
-  console.log(`\n🤖 Consiliul AI (AGY + Claude + Codex) analizează ${bill.id}: ${bill.officialTitle.slice(0, 80)}...`);
-  const outFile = path.join(ANALYSES_DIR, `${bill.slug}.json`);
+// texts, version și outFile servesc comparațiilor (--versions): o formă anume a textului, scrisă în alt fișier.
+async function analyzeBillWithCouncil(bill, force = false, { texts: given, version: wanted, outFile = path.join(ANALYSES_DIR, `${bill.slug}.json`) } = {}) {
+  console.log(`\n🤖 Consiliul AI (AGY + Claude + Codex) analizează ${bill.id}${wanted ? ` (${VERSION_LABEL[wanted]})` : ''}: ${bill.officialTitle.slice(0, 80)}...`);
   let existing = null;
   if (!force && fs.existsSync(outFile)) {
     try {
@@ -140,8 +152,9 @@ async function analyzeBillWithCouncil(bill, force = false) {
     }
   }
 
-  const texts = await extractPdfTextsForBill(bill);
-  const prompt = buildCouncilPrompt(bill, texts);
+  const texts = given ?? (await extractPdfTextsForBill(bill));
+  const version = bill.chamber ? (wanted ?? latestVersion(texts)) : undefined;
+  const prompt = buildCouncilPrompt(bill, texts, version);
 
   const [agyRes, claudeRes, codexRes] = await Promise.all([
     existing?.council?.agy?.status === 'ok' ? Promise.resolve(existing.council.agy) : runSingleAi('agy', prompt, bill.id),
@@ -173,6 +186,7 @@ async function analyzeBillWithCouncil(bill, force = false) {
   const analysis = {
     billId: bill.id,
     slug: bill.slug,
+    ...(version && { version }),
     updatedAt: new Date().toISOString(),
     consensus: {
       riskScore: avgScore,
@@ -202,14 +216,16 @@ async function analyzeBillWithCouncil(bill, force = false) {
 
 // ─── Camera Deputaților ─────────────────────────────────────────────────────────────────────────────────────────
 // node scripts/straja-council.mjs --camera [slug] [--due] [--max=10]
-// Fără slug, --due alege proiectele aflate acum la Cameră, fără analiză și neurmărite de la Senat: întâi cele pe ordinea
-// de zi, apoi cele cu raport, apoi cele mai noi. Fiecare rulare face cel mult --max, ca analizele să se strângă treptat.
+// Fără slug, --due alege proiectele fără analiză și neurmărite de la Senat: întâi cele aflate acum la Cameră (ordinea
+// de zi, apoi cele cu raport, apoi celelalte), apoi restul anului (trimise la Senat, la promulgare, legi, respinse), de la
+// cele mai noi. Fiecare rulare face cel mult --max, ca analizele să se strângă treptat.
 const CDEP_DIR = path.join(DATA_DIR, 'cdep');
 const AT_CHAMBER = /^(la comisii|raport|pe ordinea de zi|în reexaminare|aviz|sesizare)/i;
 const PRIORITY = [/^pe ordinea de zi/i, /^raport/i];
 
 // Documentele care ne trebuie din fișa Camerei și numele sub care le păstrăm (scripts/lib/pdf-text.mjs: textName).
 const CDEP_DOCS = [
+  { type: 'forma_camera', match: /^Forma adoptată de Cameră/i },
   { type: 'forma_senat', match: /^Forma adoptată de Senat/i },
   { type: 'forma_initiatorului', match: /^Forma inițiatorului/i },
   { type: 'forma_ordonanta', match: /^Ordonanța( de urgență)? a Guvernului/i },
@@ -244,10 +260,31 @@ async function downloadChamberPdfs(sheet) {
   if (!wanted.some((d) => d.type.startsWith('forma'))) return false;
   fs.mkdirSync(dir, { recursive: true });
   for (const { type, doc } of wanted) {
-    const file = path.join(dir, `${type}_${path.basename(new URL(doc.url).pathname).replace(/_/g, '')}`);
+    // Formele votate au adresa „…/proiecte/docs?2026/pl001_cd001_26.pdf”: numele fișierului e în query.
+    const u = new URL(doc.url);
+    const file = path.join(dir, `${type}_${path.basename(u.pathname.endsWith('.pdf') ? u.pathname : u.search.slice(1)).replace(/_/g, '')}`);
     if (!fs.existsSync(file)) fs.writeFileSync(file, await fetchCdepFile(doc.url));
   }
   return true;
+}
+
+// Mai multe loturi pot rula în paralel: fiecare proiect e „rezervat” de primul lot care îl ia (un fișier creat cu
+// 'wx', atomic). O rezervare mai veche de trei ore e a unui lot oprit. Întoarce funcția care eliberează rezervarea.
+function claimer(kind) {
+  const claimDir = path.join(ROOT_DIR, '.cache', 'claims', kind);
+  fs.mkdirSync(claimDir, { recursive: true });
+  return (s) => {
+    const file = path.join(claimDir, s);
+    try {
+      if (Date.now() - fs.statSync(file).mtimeMs > 3 * 3600_000) fs.rmSync(file, { force: true });
+    } catch {}
+    try {
+      fs.writeFileSync(file, String(process.pid), { flag: 'wx' });
+      return () => fs.rmSync(file, { force: true });
+    } catch {
+      return null;
+    }
+  };
 }
 
 async function mainChamber(args) {
@@ -260,32 +297,17 @@ async function mainChamber(args) {
   };
   const rank = (p) => {
     const i = PRIORITY.findIndex((re) => re.test(p.stadiu));
-    return i === -1 ? PRIORITY.length : i;
+    return i !== -1 ? i : AT_CHAMBER.test(p.stadiu) ? PRIORITY.length : PRIORITY.length + 1;
   };
   const targets = slug
     ? [read(slug)].filter(Boolean)
     : index
-        .filter((p) => !p.senat && AT_CHAMBER.test(p.stadiu) && !fs.existsSync(path.join(ANALYSES_DIR, `${p.slug}.json`)))
+        .filter((p) => !p.senat && !fs.existsSync(path.join(ANALYSES_DIR, `${p.slug}.json`)))
         .sort((a, b) => rank(a) - rank(b) || b.inregistrat.localeCompare(a.inregistrat))
         .map((p) => read(p.slug))
         .filter((s) => s && !s.senat);
 
-  // Mai multe loturi pot rula în paralel: fiecare proiect e „rezervat” de primul lot care îl ia (un fișier creat cu
-  // 'wx', atomic). O rezervare mai veche de trei ore e a unui lot oprit.
-  const claimDir = path.join(ROOT_DIR, '.cache', 'claims', 'camera');
-  fs.mkdirSync(claimDir, { recursive: true });
-  const claim = (s) => {
-    const file = path.join(claimDir, s);
-    try {
-      if (Date.now() - fs.statSync(file).mtimeMs > 3 * 3600_000) fs.rmSync(file, { force: true });
-    } catch {}
-    try {
-      fs.writeFileSync(file, String(process.pid), { flag: 'wx' });
-      return () => fs.rmSync(file, { force: true });
-    } catch {
-      return null;
-    }
-  };
+  const claim = claimer('camera');
 
   let done = 0;
   let failed = 0;
@@ -325,8 +347,253 @@ async function mainChamber(args) {
   console.log(`🏛️ Camera: ${done} proiecte analizate${failed ? `, ${failed} cu erori` : ''}`);
 }
 
+// ─── Cum se schimbă textul ──────────────────────────────────────────────────────────────────────────────────────
+// node scripts/straja-council.mjs --versions [slug] [--max=10] [--recompare]
+// Formele unui proiect de la Cameră, în ordinea prin care a trecut: a inițiatorului, apoi cea adoptată de prima cameră,
+// apoi cea adoptată de a doua. Fiecare formă primește analiza consiliului (data/analyses/versions/<slug>/<formă>.json),
+// iar două forme la rând o comparație făcută de Claude: ce s-a schimbat și dacă proiectul a devenit mai riscant.
+// Rezumatul ajunge în data/analyses/versions/<slug>.json. Analiza principală a proiectului e a formei celei mai noi.
+const VERSIONS_DIR = path.join(ANALYSES_DIR, 'versions');
+const UA = 'DeStraja/1.0 (+https://destraja.ro; contact@destraja.ro)';
+
+/**
+ * „L619/22.12.2025” sau „L12/2026” → PDF-ul de pe senat.ro, cu numărul pe cel puțin trei cifre (26L012FG.PDF).
+ * FG = forma inițiatorului, FS = forma adoptată de Senat.
+ */
+function senatPdf(numarSenat, code) {
+  const m = numarSenat?.match(/\bL(\d+)\/(?:\d{1,2}\.\d{1,2}\.)?(\d{4})/);
+  return m ? `https://www.senat.ro/legis/PDF/${m[2]}/${m[2].slice(2)}L${m[1].padStart(3, '0')}${code}.PDF` : null;
+}
+
+/** Formele pe care le putem citi, în ordinea legislativă. */
+function versionPlan(sheet) {
+  const docs = sheet.fisa.documente ?? [];
+  const doc = (re) => docs.find((d) => re.test(d.eticheta));
+  const init = doc(/^Forma inițiatorului/i);
+  const senat = doc(/^Forma adoptată de Senat/i);
+  const camera = doc(/^Forma adoptată de Cameră/i);
+  const plan = [];
+  if (senat) {
+    // Venit de la Senat: forma inițiatorului e doar pe senat.ro.
+    const fg = senatPdf(sheet.fisa.numarSenat, 'FG');
+    if (fg) plan.push({ key: 'initiator', url: fg, source: 'senat.ro' });
+    plan.push({ key: 'senat', url: senat.url, source: 'cdep.ro' });
+    if (camera) plan.push({ key: 'camera', url: camera.url, source: 'cdep.ro' });
+  } else {
+    if (init) plan.push({ key: 'initiator', url: init.url, source: 'cdep.ro' });
+    if (camera) plan.push({ key: 'camera', url: camera.url, source: 'cdep.ro' });
+    // După Cameră a votat și Senatul (cameră decizională): forma lui apare pe senat.ro.
+    const fs_ = camera && !/^la Senat/i.test(sheet.stadiu ?? '') ? senatPdf(sheet.fisa.numarSenat, 'FS') : null;
+    if (fs_) plan.push({ key: 'senat', url: fs_, source: 'senat.ro', optional: true });
+  }
+  return plan;
+}
+
+async function fetchSenatPdf(url) {
+  await new Promise((r) => setTimeout(r, 1500));
+  const res = await fetch(url, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(120_000) });
+  if (res.status === 404) return null;
+  if (!res.ok) throw new Error(`HTTP ${res.status} la ${url}`);
+  const buf = Buffer.from(await res.arrayBuffer());
+  return buf.subarray(0, 5).toString() === '%PDF-' ? buf : null;
+}
+
+/** Descarcă formele care lipsesc; întoarce planul fără formele care nu există (încă). */
+async function downloadVersions(sheet, plan) {
+  const dir = path.join(PDF_DIR, sheet.slug);
+  fs.mkdirSync(dir, { recursive: true });
+  const kept = [];
+  for (const v of plan) {
+    const type = FORMS[v.key].text;
+    const u = new URL(v.url);
+    const name = `${type}_${path.basename(u.pathname.toLowerCase().endsWith('.pdf') ? u.pathname : u.search.slice(1)).replace(/_/g, '')}`;
+    const file = path.join(dir, name.toLowerCase().endsWith('.pdf') ? name : `${name}.pdf`);
+    const existing = fs.readdirSync(dir).find((f) => f.startsWith(`${type}_`));
+    if (!existing) {
+      const buf = v.source === 'senat.ro' ? await fetchSenatPdf(v.url) : await fetchCdepFile(v.url);
+      if (!buf) {
+        if (!v.optional) console.log(`   ⚠️ ${VERSION_LABEL[v.key]} lipsește: ${v.url}`);
+        continue;
+      }
+      fs.writeFileSync(file, buf);
+    }
+    kept.push(v);
+  }
+  return kept;
+}
+
+const readJsonFile = (file) => {
+  try {
+    return JSON.parse(fs.readFileSync(file, 'utf8'));
+  } catch {
+    return null;
+  }
+};
+
+async function compareVersions(bill, a, b, texts, analyses) {
+  const ta = texts[FORMS[a.key].text];
+  const tb = texts[FORMS[b.key].text];
+  const diff = unitDiff(ta, tb);
+  const findings = (an) =>
+    (an.council?.claude?.keyFindings ?? Object.values(an.council ?? {}).find((r) => r?.status === 'ok')?.keyFindings ?? [])
+      .slice(0, 4)
+      .map((f) => `- ${f}`)
+      .join('\n');
+  const [A, B] = [analyses[a.key], analyses[b.key]];
+  // Dacă textul a fost rescris aproape în întregime, diferențele nu mai spun mare lucru: dăm ambele texte.
+  const body =
+    diff.same >= 0.25
+      ? `DIFERENȚELE DE TEXT DE LA FORMA A LA FORMA B (bucăți scoase cu „-”, adăugate cu „+”, „…” = text neschimbat):\n${diff.text}`
+      : `TEXTUL A FOST RESCRIS. FORMA A (început):\n${ta.slice(0, 9000)}\n\nFORMA B (început):\n${tb.slice(0, 9000)}`;
+  const prompt = `Ești un auditor legislativ român. Compari două forme ale aceluiași proiect de lege, ${bill.id}: „${bill.officialTitle}”.
+
+FORMA A: ${VERSION_LABEL[a.key]}. Trei modele AI i-au dat scorul de risc ${A.consensus.riskScore}/10 (${A.consensus.riskLevel}). Ce au găsit:
+${findings(A)}
+
+FORMA B: ${VERSION_LABEL[b.key]}. Scor ${B.consensus.riskScore}/10 (${B.consensus.riskLevel}). Ce au găsit:
+${findings(B)}
+
+${body}
+
+Spune ce s-a schimbat de la forma A la forma B și dacă proiectul a devenit mai riscant sau mai puțin riscant pentru
+cetățeni și firme. Nu inventa: folosește doar diferențele de mai sus. În răspuns nu scrie „A” sau „B”: numește formele
+(„${VERSION_LABEL[a.key].toLowerCase()}”, „${VERSION_LABEL[b.key].toLowerCase()}”) sau spune „inițial” și „acum”. Schimbările doar de formă (tehnică legislativă,
+renumerotări, diacritice, titlul legii de aprobare) nu contează; dacă sunt doar de felul ăsta, direcția e "la_fel".
+
+Returnează EXCLUSIV un obiect JSON valid:
+{
+  "direction": "mai_riscant" | "mai_putin_riscant" | "la_fel",
+  "summary": "1-2 fraze pe înțelesul oricui: ce s-a schimbat de la A la B și ce înseamnă (max 300 caractere)",
+  "changes": [
+    { "text": "o schimbare concretă, cu articolul dacă reiese din text (max 220 caractere)", "effect": "mai_bine" | "mai_rau" | "neutru" }
+  ]
+}
+În "changes" pune 2-6 schimbări, cele mai importante întâi; o listă goală doar dacă nu s-a schimbat nimic de fond.`;
+  const res = await runModel('claude', prompt, { mode: 'offline', timeoutMs: 420000, label: `${bill.id} ${a.key}→${b.key}` });
+  if (res.status !== 'ok') throw new Error(`comparația ${a.key}→${b.key}: ${res.error}`);
+  const d = res.data;
+  const direction = ['mai_riscant', 'mai_putin_riscant', 'la_fel'].includes(d.direction) ? d.direction : 'la_fel';
+  return {
+    from: a.key,
+    to: b.key,
+    direction,
+    summary: String(d.summary ?? '').slice(0, 400),
+    changes: (Array.isArray(d.changes) ? d.changes : [])
+      .slice(0, 6)
+      .map((c) => ({ text: String(c.text ?? '').slice(0, 260), effect: ['mai_bine', 'mai_rau', 'neutru'].includes(c.effect) ? c.effect : 'neutru' }))
+      .filter((c) => c.text),
+    diff: { added: diff.added, removed: diff.removed, same: diff.same },
+    model: 'claude',
+    updatedAt: new Date().toISOString(),
+  };
+}
+
+async function versionsForBill(sheet, force, recompare = false) {
+  const bill = chamberBill(sheet);
+  const plan = await downloadVersions(sheet, versionPlan(sheet));
+  if (plan.length < 2) return false;
+  const texts = await extractPdfTextsForBill(bill);
+  const withText = plan.filter((v) => (texts[FORMS[v.key].text] ?? '').trim().length > 200);
+  if (withText.length < 2) {
+    console.log(`⏭️  ${bill.id}: mai puțin de două forme cu text`);
+    return false;
+  }
+
+  const dir = path.join(VERSIONS_DIR, sheet.slug);
+  fs.mkdirSync(dir, { recursive: true });
+  const mainFile = path.join(ANALYSES_DIR, `${sheet.slug}.json`);
+  const main = readJsonFile(mainFile);
+  // Analizele vechi n-au „version”: atunci era forma adoptată de Senat, dacă exista, altfel a inițiatorului.
+  const mainVersion = main?.version ?? (texts.forma_senat ? 'senat' : 'initiator');
+  const analyses = {};
+  for (const v of withText) {
+    const file = path.join(dir, `${v.key}.json`);
+    if (!force && fs.existsSync(file)) analyses[v.key] = readJsonFile(file);
+    else if (!force && main && mainVersion === v.key) {
+      analyses[v.key] = { ...main, version: v.key };
+      fs.writeFileSync(file, JSON.stringify(analyses[v.key], null, 2));
+    } else {
+      analyses[v.key] = await analyzeBillWithCouncil(bill, force, { texts, version: v.key, outFile: file });
+    }
+  }
+  // Analiza principală e a formei celei mai noi.
+  const latest = withText.at(-1).key;
+  if (!main || mainVersion !== latest) fs.writeFileSync(mainFile, JSON.stringify(analyses[latest], null, 2));
+
+  const summaryFile = path.join(VERSIONS_DIR, `${sheet.slug}.json`);
+  const previous = readJsonFile(summaryFile);
+  const changes = [];
+  for (let i = 1; i < withText.length; i++) {
+    const [a, b] = [withText[i - 1], withText[i]];
+    const old = previous?.changes?.find((c) => c.from === a.key && c.to === b.key);
+    const stale = !old || [analyses[a.key], analyses[b.key]].some((an) => an.updatedAt > old.updatedAt);
+    changes.push(force || recompare || stale ? await compareVersions(bill, a, b, texts, analyses) : old);
+  }
+  const scores = (an) => Object.fromEntries(['agy', 'claude', 'codex'].map((k) => [k, an.council?.[k]?.status === 'ok' ? an.council[k].riskScore : null]));
+  const summary = {
+    slug: sheet.slug,
+    billId: bill.id,
+    updatedAt: new Date().toISOString(),
+    versions: withText.map((v) => ({
+      key: v.key,
+      label: VERSION_LABEL[v.key],
+      url: v.url,
+      source: v.source,
+      riskScore: analyses[v.key].consensus.riskScore,
+      riskLevel: analyses[v.key].consensus.riskLevel,
+      plainTitle: analyses[v.key].consensus.plainTitle,
+      summaryTlDr: analyses[v.key].consensus.summaryTlDr,
+      scores: scores(analyses[v.key]),
+    })),
+    changes,
+  };
+  fs.writeFileSync(summaryFile, JSON.stringify(summary, null, 2));
+  const arrow = summary.versions.map((v) => `${v.riskScore}`).join(' → ');
+  console.log(`📜 ${bill.id}: ${summary.versions.map((v) => v.key).join(' → ')} = ${arrow}; ${changes.map((c) => c.direction).join(', ')}`);
+  return true;
+}
+
+async function mainVersions(args) {
+  const slug = args.find((a) => !a.startsWith('--'));
+  const max = Number(args.find((a) => a.startsWith('--max='))?.split('=')[1] ?? 10);
+  const force = args.includes('--force');
+  // --recompare: doar comparațiile din nou (de exemplu după o schimbare a instrucțiunilor), fără analize noi.
+  const recompare = args.includes('--recompare');
+  const index = JSON.parse(fs.readFileSync(path.join(CDEP_DIR, 'index.json'), 'utf8')).proiecte;
+  const read = (s) => readJsonFile(path.join(CDEP_DIR, 'proiecte', `${s}.json`));
+  // Proiectele cu analiză principală și cel puțin două forme posibile; întâi cele aflate acum la Cameră.
+  const targets = (slug ? [{ slug }] : index.filter((p) => !p.senat && fs.existsSync(path.join(ANALYSES_DIR, `${p.slug}.json`))))
+    .map((p) => read(p.slug))
+    .filter((s) => s && versionPlan(s).length >= 2)
+    .filter((s) => slug || force || recompare === fs.existsSync(path.join(VERSIONS_DIR, `${s.slug}.json`)))
+    .sort((a, b) => Number(!AT_CHAMBER.test(a.stadiu ?? '')) - Number(!AT_CHAMBER.test(b.stadiu ?? '')));
+  const claim = claimer('versions');
+  let done = 0;
+  let failed = 0;
+  for (const sheet of targets) {
+    if (done >= max) break;
+    const release = slug ? () => {} : claim(sheet.slug);
+    if (!release) continue;
+    try {
+      if (await versionsForBill(sheet, force, recompare)) done++;
+    } catch (err) {
+      if (err instanceof CdepBlocked) {
+        console.log(`⏸️  ${err.message}`);
+        release();
+        break;
+      }
+      console.log(`⚠️  ${sheet.numar}: ${err.message}`);
+      failed++;
+    } finally {
+      release();
+    }
+  }
+  console.log(`📜 Versiuni: ${done} proiecte comparate${failed ? `, ${failed} cu erori` : ''} (din ${targets.length} posibile)`);
+}
+
 async function main() {
   const args = process.argv.slice(2);
+  if (args.includes('--versions')) return mainVersions(args);
   if (args.includes('--camera')) return mainChamber(args);
   const extractOnly = args.includes('--extract-texts');
   const targetSlug = args.find((a) => !a.startsWith('--'));

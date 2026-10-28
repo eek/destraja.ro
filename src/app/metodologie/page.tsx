@@ -37,7 +37,7 @@ const FAQ = [
   },
   {
     q: 'Ce urmăriți la Camera Deputaților?',
-    a: 'Toate proiectele înregistrate la Cameră în anul curent, din lista și fișele publice de pe cdep.ro: stadiul, comisiile care fac raportul sau dau aviz, termenul pentru amendamente și documentele. Camera nu are o consultare publică pentru fiecare proiect; amendamentele oficiale le depun deputații. Pe pagina proiectului găsești un mesaj gata de trimis comisiei care face raportul, iar un deputat îl poate prelua. Modelele analizează întâi proiectele programate la vot și pe cele noi, apoi, treptat, restul.',
+    a: 'Toate proiectele înregistrate la Cameră în anul curent, din lista și fișele publice de pe cdep.ro: stadiul, comisiile care fac raportul sau dau aviz, termenul pentru amendamente și documentele. Camera nu are o consultare publică pentru fiecare proiect; amendamentele oficiale le depun deputații. Pe pagina proiectului găsești un mesaj gata de trimis comisiei care face raportul, iar un deputat îl poate prelua. Modelele analizează întâi proiectele aflate acum la Cameră (cele programate la vot primele), apoi restul anului: cele trimise la Senat, promulgate sau respinse.',
   },
   {
     q: 'Chiar contează dacă trimit o obiecție?',
@@ -46,6 +46,14 @@ const FAQ = [
   {
     q: 'Cum sunt calculate scorurile de risc?',
     a: 'Gemini, Claude și ChatGPT citesc fiecare proiect și dau fiecare un scor de la 1 la 10. Scorul comun e media celor trei: de la 6,8 în sus e risc ridicat (roșu), de la 3,8 la 6,7 risc moderat (galben), sub 3,8 risc redus (verde). Publicăm și scorul fiecărui model, ca să vezi unde nu sunt de acord.',
+  },
+  {
+    q: 'Cum urmăriți schimbările din text?',
+    a: 'Un proiect trece prin mai multe forme: a inițiatorului, cea adoptată de prima cameră și cea adoptată de a doua. Când găsim cel puțin două forme pe cdep.ro sau pe senat.ro, cele trei modele le analizează pe fiecare separat, iar Claude compară textele și spune ce s-a schimbat și dacă proiectul a devenit mai riscant. Scorul principal al proiectului e al formei celei mai noi. Între două analize ale aceluiași text scorul poate varia cu până la un punct, așa că o diferență mică nu înseamnă neapărat o schimbare.',
+  },
+  {
+    q: 'Cum e calculat scorul unui parlamentar?',
+    a: 'E media scorurilor proiectelor pe care le-a semnat ca inițiator, dintre cele analizate: cele din consultarea publică a Senatului și cele din 2026 de la Camera Deputaților. Semnătura arată cine a propus proiectul, nu cum votează. Proiectele Guvernului nu intră, pentru că nu au semnături de parlamentari.',
   },
   {
     q: 'Cum sunt numărate partidele?',

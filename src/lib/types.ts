@@ -271,6 +271,55 @@ export interface CameraLink {
 
 type ModelKey = 'agy' | 'claude' | 'codex';
 
+/** Cât trebuie dintr-un proiect pentru statisticile parlamentarilor; BillLite (Senat) și CdepSigned (Cameră) se potrivesc. */
+export interface Signed {
+  id: string;
+  initiators: Initiator[];
+  analysis: { consensus: Pick<BillAnalysis['consensus'], 'riskScore' | 'riskLevel'> };
+}
+
+/** Un proiect de la Camera Deputaților cu analiză, cu inițiatorii lui, pentru paginile parlamentarilor. */
+export interface CdepSigned extends Signed {
+  slug: string;
+  officialTitle: string;
+  stadiu: string;
+  analysis: { consensus: Pick<BillAnalysis['consensus'], 'riskScore' | 'riskLevel' | 'plainTitle'> };
+}
+
+/** O formă a textului unui proiect (a inițiatorului, adoptată de Senat, adoptată de Cameră), cu analiza ei. */
+export interface BillVersion {
+  key: 'initiator' | 'senat' | 'camera';
+  label: string;
+  url: string;
+  source: string;
+  riskScore: number;
+  riskLevel: RiskLevel;
+  plainTitle: string;
+  summaryTlDr: string;
+  scores: Record<ModelKey, number | null>;
+}
+
+/** Comparația a două forme la rând, făcută de un model pe diferențele de text. */
+export interface VersionChange {
+  from: BillVersion['key'];
+  to: BillVersion['key'];
+  direction: 'mai_riscant' | 'mai_putin_riscant' | 'la_fel';
+  summary: string;
+  changes: { text: string; effect: 'mai_bine' | 'mai_rau' | 'neutru' }[];
+  diff: { added: number; removed: number; same: number };
+  model: string;
+  updatedAt: string;
+}
+
+/** data/analyses/versions/<slug>.json (scripts/straja-council.mjs --versions). */
+export interface BillVersions {
+  slug: string;
+  billId: string;
+  updatedAt: string;
+  versions: BillVersion[];
+  changes: VersionChange[];
+}
+
 /** Ce ajunge în browser pe paginile de listă: fără PDF-uri, cronologie, opinii și kitul de acțiune. */
 export interface BillLite {
   id: string;

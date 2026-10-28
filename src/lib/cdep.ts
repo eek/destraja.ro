@@ -3,7 +3,9 @@
 // ține propunerea de amendament pentru comisie (aceleași patru câmpuri: articol, text propus, motivare, observații).
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import type { BillAnalysis } from './types';
+import type { BillAnalysis, BillVersions, CdepSigned } from './types';
+import { getMpContacts } from './mp-contacts';
+import { slugify } from './format';
 import { stageOf, type StageKey } from './cdep-text';
 
 export type { StageKey };
@@ -24,7 +26,8 @@ export interface CdepSheet {
   caracter: string | null;
   urgenta: string | null;
   stadiu: string | null;
-  initiatori: { idm: number; nume: string; partid: string | null }[];
+  /** rol: din eticheta grupului („deputati - PSD:”); lipsește pe fișele citite înainte să-l păstrăm. */
+  initiatori: { idm: number; nume: string; partid: string | null; rol?: 'deputat' | 'senator' }[];
   obiect: string | null;
   timeline: { camera: string | null; data: string; actiune: string }[];
   documente?: { url: string; eticheta: string }[];
@@ -62,6 +65,8 @@ export interface CdepListItem extends CdepRow {
   termenAmendamente: string | null;
   termenRaport: string | null;
   risk: { level: BillAnalysis['consensus']['riskLevel']; score: number; plainTitle: string } | null;
+  /** Încotro a mers textul la ultima schimbare de fond și după ce cameră (din comparația formelor). */
+  textChange: { direction: 'mai_riscant' | 'mai_putin_riscant'; after: 'senat' | 'camera' } | null;
 }
 
 /** „Guvernul” sau „12 parlamentari”: fișa Camerei scrie „Initiator: Guvern” fără nume, altfel listează parlamentarii. */
@@ -91,6 +96,12 @@ export async function getCdepAnalysis(slug: string): Promise<BillAnalysis | null
   return readJson(path.join(ANALYSES_DIR, `${slug}.json`));
 }
 
+/** Formele textului și comparațiile lor, dacă proiectul are cel puțin două forme analizate. */
+export async function getBillVersions(slug: string): Promise<BillVersions | null> {
+  const v = await readJson<BillVersions>(path.join(ANALYSES_DIR, 'versions', `${slug}.json`));
+  return v && v.versions.length >= 2 ? v : null;
+}
+
 export async function getCommittees(): Promise<Record<string, { nume: string; url: string; email: string | null }>> {
   return (await readJson(path.join(DIR, 'comisii.json'))) ?? {};
 }
@@ -110,7 +121,9 @@ export async function getCdepList(): Promise<CdepListItem[]> {
     index.proiecte.map(async (row) => {
       const bill = await getCdepBill(row.slug);
       const analysis = row.senat ? null : await getCdepAnalysis(row.slug);
+      const versions = row.senat ? null : await getBillVersions(row.slug);
       const c = analysis?.consensus;
+      const last = versions?.changes.at(-1);
       return {
         ...row,
         senat: row.senat ?? bill?.senat,
@@ -121,7 +134,57 @@ export async function getCdepList(): Promise<CdepListItem[]> {
         termenAmendamente: bill?.fisa.comisii?.termenAmendamente ?? null,
         termenRaport: bill?.fisa.comisii?.termenRaport ?? null,
         risk: c ? { level: c.riskLevel, score: c.riskScore, plainTitle: c.plainTitle } : null,
+        textChange:
+          last && last.direction !== 'la_fel' && last.to !== 'initiator' ? { direction: last.direction, after: last.to } : null,
       };
     }),
   );
+}
+
+/** Partidul de pe fișa Camerei, cu numele de pe site: „neafiliati” → Neafiliați, „Minoritati” → Minorități, „SOS RO” → SOS. */
+export function cdepParty(raw: string | null): string {
+  const p = raw?.trim() ?? '';
+  if (!p) return '';
+  if (/^neafilia/i.test(p)) return 'Neafiliați';
+  if (/^minorit/i.test(p)) return 'Minorități';
+  if (/^SOS\b/i.test(p)) return 'SOS';
+  return p.toUpperCase();
+}
+
+/**
+ * Proiectele de la Cameră care au analiză, cu inițiatorii, pentru statisticile parlamentarilor (cele mai noi întâi).
+ * Pe fișele citite înainte să păstrăm camera fiecăruia, rolul vine din datele de contact; un partid lipsă rămâne gol,
+ * iar computeMpStats îl ia din alt proiect al aceluiași parlamentar.
+ */
+export async function getCdepSigned(): Promise<CdepSigned[]> {
+  const index = await getCdepIndex();
+  if (!index) return [];
+  const contacts = await getMpContacts();
+  // Camera o știm doar când numele s-a potrivit pe lista oficială (în funcție sau cu mandat încetat).
+  const chamberOf = new Map(
+    Object.entries(contacts)
+      .filter(([, c]) => c.matched || c.endedOn)
+      .map(([name, c]) => [slugify(name), c.chamber === 'senat' ? 'senator' : 'deputat']),
+  );
+  const rows = [...index.proiecte].filter((r) => !r.senat).sort((a, b) => b.inregistrat.localeCompare(a.inregistrat));
+  const out = await Promise.all(
+    rows.map(async (row): Promise<CdepSigned | null> => {
+      const [bill, analysis] = await Promise.all([getCdepBill(row.slug), getCdepAnalysis(row.slug)]);
+      if (!bill || !analysis || !bill.fisa.initiatori.length) return null;
+      const c = analysis.consensus;
+      return {
+        id: row.numar,
+        slug: row.slug,
+        officialTitle: row.titlu,
+        stadiu: row.stadiu,
+        initiators: bill.fisa.initiatori.map((i) => ({
+          name: i.nume,
+          role: i.rol ?? chamberOf.get(slugify(i.nume)) ?? '',
+          party: cdepParty(i.partid),
+        })),
+        analysis: { consensus: { riskScore: c.riskScore, riskLevel: c.riskLevel, plainTitle: c.plainTitle } },
+      };
+    }),
+  );
+  return out.filter((b) => b !== null);
 }

@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import { slugify } from './format';
 
 /** Date de contact copiate de pe fișa oficială a parlamentarului (scripts/straja-mps.mjs). */
 export interface MpOffice {
@@ -61,8 +62,12 @@ export function getMpContacts(): Promise<Record<string, MpContact>> {
   return cache;
 }
 
+/** După numele exact; altfel după numele fără diacritice și cratime, cum îl scrie cealaltă cameră. */
 export async function getMpContact(name: string): Promise<MpContact | null> {
-  return (await getMpContacts())[name] ?? null;
+  const all = await getMpContacts();
+  if (all[name]) return all[name];
+  const key = slugify(name);
+  return Object.entries(all).find(([n]) => slugify(n) === key)?.[1] ?? null;
 }
 
 /** „021 316 0300” → „+40213160300”, pentru linkurile tel:. */

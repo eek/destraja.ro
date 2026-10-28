@@ -146,14 +146,14 @@ export default function BillCard({ bill, onParty }: { bill: BillLite; onParty?: 
             popover="auto"
             role="dialog"
             aria-labelledby={`risc-${bill.slug}-t`}
-            className="fixed inset-0 m-auto max-h-[min(40rem,calc(100dvh-2rem))] w-[min(32rem,calc(100vw-2rem))] overflow-y-auto rounded-2xl border border-line bg-surface p-5 text-left shadow-[var(--shadow-lift)] backdrop:bg-black/40 sm:p-6"
+            className="fixed inset-0 m-auto max-h-[calc(100dvh-2rem)] w-[min(64rem,calc(100vw-2rem))] flex-col overflow-hidden rounded-2xl border border-line bg-surface p-0 text-left shadow-[var(--shadow-lift)] backdrop:bg-black/50 sm:max-h-[calc(100dvh-4rem)] [&:popover-open]:flex"
           >
-            <div className="flex items-start justify-between gap-3">
-              <div>
-                <p className="text-xs font-semibold text-muted">
+            <div className="flex items-start justify-between gap-4 border-b border-line px-5 py-4 sm:px-7 sm:py-5">
+              <div className="min-w-0">
+                <p className="text-xs font-semibold text-muted sm:text-sm">
                   De ce acest nivel de risc? <span className={AGREE_TONE[ag.tone]}>· {ag.label}</span>
                 </p>
-                <p id={`risc-${bill.slug}-t`} className="mt-1 font-display text-lg leading-snug text-ink">
+                <p id={`risc-${bill.slug}-t`} className="mt-1 font-display text-xl leading-snug text-ink sm:text-2xl">
                   {c.plainTitle}
                 </p>
               </div>
@@ -162,26 +162,28 @@ export default function BillCard({ bill, onParty }: { bill: BillLite; onParty?: 
                 popoverTarget={`risc-${bill.slug}`}
                 popoverTargetAction="hide"
                 aria-label="Închide"
-                className="-m-1.5 inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg text-muted hover:bg-sunken hover:text-ink"
+                className="-mr-2 inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-xl text-muted hover:bg-sunken hover:text-ink"
               >
-                <X className="h-4 w-4" aria-hidden />
+                <X className="h-6 w-6" aria-hidden />
               </button>
             </div>
-            <div className="mt-4 space-y-4">
-              <RiskChip level={c.riskLevel} score={c.riskScore} />
-              <p className="text-sm leading-6 text-body">{c.summaryTlDr}</p>
-              <div className="rounded-xl bg-sunken p-4">
-                <ModelVerdicts bill={bill} />
+            <div className="min-h-0 flex-1 space-y-5 overflow-y-auto px-5 py-5 sm:px-7 sm:py-6">
+              <div className="flex flex-wrap items-center gap-3">
+                <RiskChip level={c.riskLevel} score={c.riskScore} size="md" />
+                {c.affectedGroups.length > 0 && (
+                  <p className="text-sm text-muted">
+                    <span className="font-semibold text-body">Pe cine afectează: </span>
+                    {c.affectedGroups.join(', ')}
+                  </p>
+                )}
               </div>
-              {c.affectedGroups.length > 0 && (
-                <p className="text-xs leading-5 text-muted">
-                  <span className="font-semibold text-body">Pe cine afectează: </span>
-                  {c.affectedGroups.join(', ')}
-                </p>
-              )}
-              <div className="flex flex-wrap items-center justify-between gap-2 text-xs text-muted">
+              <p className="prose-measure text-base leading-7 text-body">{c.summaryTlDr}</p>
+              <ModelVerdicts bill={bill} columns />
+            </div>
+            <div className="flex flex-col gap-3 border-t border-line px-5 py-4 sm:flex-row sm:items-center sm:justify-between sm:px-7">
+              <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted">
                 <span className="inline-flex items-center gap-1.5">
-                  <MessageSquare className="h-3.5 w-3.5" aria-hidden />
+                  <MessageSquare className="h-4 w-4" aria-hidden />
                   {bill.opinionsCount === 0 ? 'Nicio opinie depusă încă' : countWord(bill.opinionsCount, 'opinie depusă', 'opinii depuse')}
                 </span>
                 <a
@@ -189,16 +191,16 @@ export default function BillCard({ bill, onParty }: { bill: BillLite; onParty?: 
                   target="_blank"
                   rel="noopener noreferrer"
                   {...trackAttrs('official_source_open', { bill_id: bill.id, source: 'sheet' })}
-                  className="inline-flex items-center gap-1 font-semibold text-link underline underline-offset-4">
+                  className="inline-flex min-h-11 items-center gap-1 font-semibold text-link underline underline-offset-4">
                   Fișa oficială pe senat.ro
-                  <ExternalLink className="h-3 w-3" aria-hidden />
+                  <ExternalLink className="h-3.5 w-3.5" aria-hidden />
                   <span className="sr-only">(se deschide într-o filă nouă)</span>
                 </a>
               </div>
               <Link
                 href={`/legi/${bill.slug}`}
                 {...trackAttrs('bill_open', { bill_id: bill.id, source: 'risk_modal' })}
-                className={`${primary ? btnPrimary : btnSecondary} min-h-11 w-full px-4 text-sm`}
+                className={`${primary ? btnPrimary : btnSecondary} min-h-12 shrink-0 px-6 text-sm sm:text-base`}
               >
                 {ctaLabel(bill)}
                 <ArrowRight className="h-4 w-4" aria-hidden />
@@ -211,15 +213,15 @@ export default function BillCard({ bill, onParty }: { bill: BillLite; onParty?: 
   );
 }
 
-export function ModelVerdicts({ bill }: { bill: BillLite }) {
+export function ModelVerdicts({ bill, columns = false }: { bill: BillLite; columns?: boolean }) {
   return (
-    <ul className="space-y-3">
+    <ul className={columns ? 'grid gap-3 md:grid-cols-3' : 'space-y-3'}>
       {MODELS.map((m) => {
         const v = bill.analysis.council?.[m.key];
         const s = modelScore(bill, m.key);
         const lvl = v?.riskLevel ?? bill.analysis.consensus.riskLevel;
         return (
-          <li key={m.key} className="border-t border-line pt-3 first:border-0 first:pt-0">
+          <li key={m.key} className={columns ? 'rounded-xl bg-sunken p-4' : 'border-t border-line pt-3 first:border-0 first:pt-0'}>
             <div className="flex items-center justify-between gap-3 text-sm">
               <span className="inline-flex items-center gap-2 font-semibold text-ink">
                 <RiskDot level={lvl} />
@@ -227,7 +229,7 @@ export function ModelVerdicts({ bill }: { bill: BillLite }) {
               </span>
               <span className={`text-sm font-semibold tabular-nums ${RISK[lvl].text}`}>{fmt(s)} / 10</span>
             </div>
-            {v?.verdictShort && <p className="mt-1 text-xs leading-5 text-body">{v.verdictShort}</p>}
+            {v?.verdictShort && <p className={`mt-1 text-body ${columns ? 'text-sm leading-6' : 'text-xs leading-5'}`}>{v.verdictShort}</p>}
           </li>
         );
       })}

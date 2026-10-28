@@ -26,6 +26,10 @@
     // Domeniile vechi și cel pentru Moldova: paginile lor trimit 301 spre destraja.ro (reguli Single Redirect pe zonă);
     // /api/* rămâne aici, ca linkurile de dezabonare din e-mailurile deja trimise să meargă în continuare.
     { "pattern": "lastraja.ro", "custom_domain": true },
-    { "pattern": "destraja.md", "custom_domain": true }
+    { "pattern": "destraja.md", "custom_domain": true },
+    // www.destraja.ro și destrajă.ro (cu ă, aici în punycode), cu www: tot 301 spre destraja.ro, din aceleași reguli.
+    { "pattern": "www.destraja.ro", "custom_domain": true },
+    { "pattern": "xn--destraj-f4a.ro", "custom_domain": true },
+    { "pattern": "www.xn--destraj-f4a.ro", "custom_domain": true }
   ]
 }

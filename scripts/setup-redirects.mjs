@@ -1,5 +1,5 @@
 // Redirecționările spre destraja.ro, ca reguli Single Redirect pe zonele vechi (nu costă cereri la Worker):
-// lastraja.ro (numele de până pe 28 octombrie 2026), destraja.md (rezervat pentru Moldova) și destrajă.ro. Fiecare pagină trimite
+// lastraja.ro (numele de până pe 28 octombrie 2026), destraja.md (rezervat pentru Moldova), destrajă.ro și www. Fiecare pagină trimite
 // 301 la aceeași cale pe destraja.ro, cu tot cu query. /api/* pe lastraja.ro rămâne la Worker, ca linkurile de
 // dezabonare din e-mailurile deja trimise să meargă în continuare.
 //
@@ -15,11 +15,13 @@ import { fileURLToPath } from 'node:url';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const TARGET = 'https://destraja.ro';
 const REF = 'destraja_redirect';
+// zonă → adresele ei care trimit spre destraja.ro, plus o condiție în plus (opțională).
 const ZONES = {
-  'lastraja.ro': 'not starts_with(http.request.uri.path, "/api/")',
-  'destraja.md': null,
+  'lastraja.ro': { hosts: ['lastraja.ro'], extra: 'not starts_with(http.request.uri.path, "/api/")' },
+  'destraja.md': { hosts: ['destraja.md'] },
+  'destraja.ro': { hosts: ['www.destraja.ro'] },
   // destrajă.ro, cu ă, ca în siglă; zona apare în Cloudflare sub forma punycode.
-  'xn--destraj-f4a.ro': null,
+  'xn--destraj-f4a.ro': { hosts: ['xn--destraj-f4a.ro', 'www.xn--destraj-f4a.ro'] },
 };
 const APPLY = process.argv.includes('--apply');
 
@@ -33,13 +35,16 @@ const env = Object.fromEntries(
 const headers = { Authorization: `Bearer ${env.CLOUDFLARE_API_TOKEN}`, 'content-type': 'application/json' };
 const api = async (p, init = {}) => (await fetch(`https://api.cloudflare.com/client/v4${p}`, { headers, ...init })).json();
 
-for (const [zone, expression] of Object.entries(ZONES)) {
+for (const [zone, { hosts, extra }] of Object.entries(ZONES)) {
   const zoneId = (await api(`/zones?name=${zone}`)).result?.[0]?.id;
   if (!zoneId) throw new Error(`${zone}: zona nu e vizibilă cu tokenul din .env`);
   const rule = {
     ref: REF,
     description: `${zone} → ${TARGET}`,
-    expression: expression ? `(http.host eq "${zone}") and ${expression}` : `http.host eq "${zone}"`,
+    expression: [hosts.length === 1 ? `http.host eq "${hosts[0]}"` : `http.host in {${hosts.map((h) => `"${h}"`).join(' ')}}`, extra]
+      .filter(Boolean)
+      .map((e, _, all) => (all.length > 1 ? `(${e})` : e))
+      .join(' and '),
     action: 'redirect',
     action_parameters: {
       from_value: {

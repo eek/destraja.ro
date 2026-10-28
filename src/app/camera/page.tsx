@@ -16,6 +16,9 @@ export default async function CameraPage() {
   const [items, pages, index] = await Promise.all([getCdepList(), getCdepSlugs(), getCdepIndex()]);
   const builtOn = todayISO();
   const count = (stage: string) => items.filter((p) => p.stage === stage).length;
+  const analysed = items.filter((p) => p.risk).length;
+  const atChamber = items.filter((p) => ['comisii', 'raport', 'plen', 'altele'].includes(p.stage)).length;
+  const read = pages.length + items.filter((p) => p.senat).length;
   const soon = items.filter((p) => p.stage === 'comisii' && p.termenAmendamente && dayDiff(p.termenAmendamente, builtOn) >= 0 && dayDiff(p.termenAmendamente, builtOn) <= 7).length;
   const stats = [
     { n: count('comisii'), label: 'la comisii' },
@@ -36,6 +39,17 @@ export default async function CameraPage() {
           . Aici vezi ce e acum la Cameră, ce comisie face raportul și până când se pot propune amendamente.
         </p>
       </div>
+
+      {(read < items.length || analysed < atChamber) && (
+        <div role="note" className="mt-8 max-w-3xl rounded-2xl border border-brand/30 bg-brand-soft px-5 py-4 text-[15px] leading-7 text-ink">
+          <p className="font-semibold">Pagina e nouă și o completăm treptat.</p>
+          <p className="mt-1 text-body">
+            Am citit până acum {read} din cele {items.length} fișe de pe cdep.ro și am analizat cu modelele AI {analysed === 1 ? 'un proiect' : `${analysed} proiecte`}.
+            Citim fișele încet, ca să nu încărcăm site-ul Camerei, iar analizele se adaugă în fiecare zi: întâi proiectele programate la vot, apoi
+            cele noi, apoi restul. Până atunci, proiectele fără fișă citită duc direct la cdep.ro.
+          </p>
+        </div>
+      )}
 
       <dl className="mt-8 grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-line bg-line sm:grid-cols-4">
         {stats.map((s) => (

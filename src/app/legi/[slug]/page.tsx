@@ -220,10 +220,9 @@ export default async function BillDetailPage({ params }: PageProps) {
             <div className={`${panel} mt-5 divide-y divide-line`}>
               {c.articlesBreakdown.map((item, idx) => (
                 <div key={idx} className="p-5 sm:p-6">
-                  <h3 className="text-base font-semibold text-ink sm:text-lg">
-                    <span className={`mr-2 tabular-nums ${RISK[item.severity]?.text ?? 'text-muted'}`}>{item.article}</span>
-                    {item.title}
-                  </h3>
+                  {/* Întâi ce schimbă, pe înțeles; referința juridică dedesubt (o sugestie a unui cititor). */}
+                  <h3 className="text-base font-semibold text-ink sm:text-lg">{item.title}</h3>
+                  <p className={`mt-1 text-sm tabular-nums ${RISK[item.severity]?.text ?? 'text-muted'}`}>{item.article}</p>
                   <div className="mt-3 grid gap-4 text-[15px] leading-7 md:grid-cols-2">
                     <div>
                       <p className="mb-1 text-xs font-semibold text-muted">Ce scrie în lege</p>

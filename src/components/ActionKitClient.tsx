@@ -80,9 +80,10 @@ export default function ActionKitClient({ bill, press }: ActionKitClientProps) {
             // Adresele de pe senat.ro (data/senat/comisii.json); juridica@senat.ro întorcea 550 (issue #2).
             to: ['com.juridica@senat.ro', 'infopub@senat.ro'],
             subject: `Punct de vedere privind propunerea legislativă ${bill.id} (Cod Senat ${bill.cod})`,
-            body: `Către: Biroul Permanent al Senatului României și Comisiile sesizate în fond\n\nSubiect: Punct de vedere privind ${bill.id} - ${bill.officialTitle}\n\nStimați Senatori,\n\nÎn temeiul Legii nr. 52/2003 privind transparența decizională, vă transmit următorul punct de vedere referitor la propunerea legislativă ${bill.id}:\n\n1. Articol vizat: ${articleRef}\n2. Conținutul propunerii: ${proposalContent}\n3. Argumentare juridică și tehnică: ${argumentation}\n4. Observații suplimentare: ${otherComments}\n\nVă solicit înregistrarea oficială a acestui punct de vedere la dosarul legii (${bill.id}) și analizarea sa în ședința comisiilor raportoare.\n\nCu considerație,\n${citizenName.trim() || '[Numele Dvs.]'}\n${citizenRole}`,
+            body: `Către: Biroul Permanent al Senatului României și Comisiile sesizate în fond\n\nSubiect: Punct de vedere privind ${bill.id} - ${bill.officialTitle}\n\nStimați Senatori,\n\nÎn cadrul consultării publice organizate de Senat pentru propunerea legislativă ${bill.id} și în exercitarea dreptului de petiționare prevăzut de art. 51 din Constituție, vă transmit următorul punct de vedere:\n\n1. Articol vizat: ${articleRef}\n2. Conținutul propunerii: ${proposalContent}\n3. Argumentare juridică și tehnică: ${argumentation}\n4. Observații suplimentare: ${otherComments}\n\nVă rog să înregistrați acest punct de vedere la dosarul propunerii legislative ${bill.id} și să-l transmiteți inițiatorilor și comisiilor sesizate.\n\nCu considerație,\n${citizenName.trim() || '[Numele Dvs.]'}\n${citizenRole}`,
             whyItMatters:
-              'Obligă staff-ul tehnic al comisiilor din Senat să înregistreze punctul tău de vedere la dosarul proiectului de lege.',
+              // Senatul cere formularul ca opinia să fie luată în considerare (senat.ro/LegiProiect.aspx); e-mailul o completează.
+              'Ajunge direct la Comisia juridică și la registratura Senatului. Ca opinia să fie luată în considerare, Senatul cere și formularul de la pasul 1.',
           },
         ];
 

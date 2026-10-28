@@ -79,7 +79,7 @@ async function generateDocxForBill(bill, analysis) {
         new TextRun({
           text:
             c.docxIntro ||
-            `În temeiul art. 7 din Legea nr. 52/2003 privind transparența decizională și al procedurii de consultare publică a Senatului României, formulăm prezentul punct de vedere tehnic și juridic referitor la propunerea legislativă ${bill.id}.`,
+            `În cadrul consultării publice organizate de Senatul României și în exercitarea dreptului de petiționare prevăzut de art. 51 din Constituția României, formulăm prezentul punct de vedere tehnic și juridic referitor la propunerea legislativă ${bill.id}.`,
           size: 22,
           font: 'Calibri',
         }),

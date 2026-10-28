@@ -77,7 +77,7 @@ export async function downloadPersonalizedDocx(
       alignment: AlignmentType.JUSTIFIED,
       children: [
         new TextRun({
-          text: `Subsemnatul/a ${signerName} (${signerRole}), în temeiul art. 7 din Legea nr. 52/2003 privind transparența decizională în administrația publică și al procedurii de consultare publică a Senatului României, formulez prezentul punct de vedere tehnic și juridic referitor la propunerea legislativă ${bill.id}:`,
+          text: `Subsemnatul/a ${signerName} (${signerRole}), în cadrul consultării publice organizate de Senatul României și în exercitarea dreptului de petiționare prevăzut de art. 51 din Constituția României, formulez prezentul punct de vedere tehnic și juridic referitor la propunerea legislativă ${bill.id}:`,
           size: 22,
           font: 'Calibri',
         }),

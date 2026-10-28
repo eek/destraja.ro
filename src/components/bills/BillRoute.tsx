@@ -98,10 +98,11 @@ export default function BillRoute({ bill }: { bill: EnrichedBill }) {
               target="_blank"
               rel="noopener noreferrer"
               {...trackAttrs('official_source_open', { bill_id: bill.id, source: 'cdep_sheet' })}
-              className="inline-flex items-center gap-1 font-semibold text-link underline underline-offset-4"
+              className="font-semibold text-link underline underline-offset-4"
             >
               Fișa de la Camera Deputaților ({bill.camera.numar})
-              <ExternalLink className="h-3.5 w-3.5" aria-hidden />
+              {/* Inline, nu flex: pe telefon linkul se rupe pe două rânduri, iar iconița rămâne lângă ultimul cuvânt. */}
+              <ExternalLink className="ml-1 inline h-3.5 w-3.5 align-[-2px]" aria-hidden />
               <span className="sr-only">(se deschide într-o filă nouă)</span>
             </a>
           </>

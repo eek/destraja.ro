@@ -12,10 +12,11 @@ import { EmptyState, PartyTag, RiskDot, btnSecondary, inputCls, segCls } from '@
 import { trackAttrs } from '@/lib/analytics';
 
 type SortKey = 'ridicat' | 'proiecte' | 'medie' | 'nume';
+// Implicit după scorul mediu al proiectelor semnate: un singur proiect roșu nu urcă pe cineva în fața celor cu multe riscante.
 const SORTS: { key: SortKey; label: string }[] = [
+  { key: 'medie', label: 'Scor mediu' },
   { key: 'ridicat', label: 'Risc ridicat' },
   { key: 'proiecte', label: 'Nr. proiecte' },
-  { key: 'medie', label: 'Scor mediu' },
   { key: 'nume', label: 'Nume' },
 ];
 const PAGE = 40;
@@ -38,7 +39,7 @@ export default function MpDirectory({ bills, withEmail = [] }: { bills: BillLite
   const [query, setQuery] = useState('');
   const [party, setParty] = useState('all');
   const [role, setRole] = useState<'all' | 'senator' | 'deputat'>('all');
-  const [sort, setSort] = useState<SortKey>('ridicat');
+  const [sort, setSort] = useState<SortKey>('medie');
   const [visible, setVisible] = useState(PAGE);
 
   const list = useMemo(() => {

@@ -17,7 +17,7 @@ const TARGET = 'https://destraja.ro';
 const REF = 'destraja_redirect';
 const ZONES = {
   'lastraja.ro': 'not starts_with(http.request.uri.path, "/api/")',
-  'destraja.md': 'true',
+  'destraja.md': null,
 };
 const APPLY = process.argv.includes('--apply');
 
@@ -37,7 +37,7 @@ for (const [zone, expression] of Object.entries(ZONES)) {
   const rule = {
     ref: REF,
     description: `${zone} → ${TARGET}`,
-    expression: `(http.host eq "${zone}") and ${expression}`,
+    expression: expression ? `(http.host eq "${zone}") and ${expression}` : `http.host eq "${zone}"`,
     action: 'redirect',
     action_parameters: {
       from_value: {

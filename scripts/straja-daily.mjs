@@ -60,7 +60,8 @@ function step(name, cmd, argv, { timeoutMs = 3_600_000 } = {}) {
     };
     child.stdout.on('data', keep);
     child.stderr.on('data', keep);
-    const timer = setTimeout(() => child.kill('SIGTERM'), timeoutMs);
+    // timeoutMs: 0 înseamnă fără limită (pasul se termină singur; fiecare apel la model are limita lui).
+    const timer = timeoutMs ? setTimeout(() => child.kill('SIGTERM'), timeoutMs) : null;
     child.on('close', (code) => {
       clearTimeout(timer);
       out.end();
@@ -144,7 +145,8 @@ async function main() {
 
     if (!args.has('--skip-news')) {
       // Poziția articolelor noi față de proiect, cu cele două modele locale; fără ele pasul doar anunță.
-      const stance = await step('Poziția presei', 'node', ['scripts/straja-stance.mjs'], { timeoutMs: 3_600_000 });
+      // Fără limită: pasul salvează fiecare răspuns pe loc și nu are ce pierde, iar o oprire forțată doar l-ar amâna.
+      const stance = await step('Poziția presei', 'node', ['scripts/straja-stance.mjs'], { timeoutMs: 0 });
       if (!stance.ok) summary.push('clasificarea presei a eșuat');
     }
 

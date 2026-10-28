@@ -105,7 +105,7 @@ async function askLuna(requests, onProgress) {
   await mapLimit(requests, 4, async (r) => {
     const res = await runModel('codex', lunaPrompt(r), { codexModel: 'gpt-6-luna', timeoutMs: 240_000 });
     if (res.status === 'ok' && valid(res.data)) answers.set(r.id, res.data);
-    if (answers.size - saved >= 20) {
+    if (answers.size > saved) {
       saved = answers.size;
       onProgress?.(answers);
     }
@@ -186,8 +186,8 @@ async function main() {
   const asked = (key) => requests.filter((_, i) => todo[i].need.includes(key));
   const today = new Date().toISOString().slice(0, 10);
 
-  // Scriem după fiecare model și, la Luna, din 20 în 20 de răspunsuri: dacă rularea zilnică oprește pasul la limita
-  // de timp, ce s-a citit deja rămâne salvat, iar data viitoare se cere doar ce lipsește.
+  // Scriem fiecare răspuns imediat ce vine (modelele locale, din 10 în 10 secunde): dacă pasul se oprește din orice
+  // motiv, ce s-a citit deja rămâne salvat, iar data viitoare se cere doar ce lipsește.
   const save = () => {
     const touched = new Set();
     let ok = 0;
@@ -219,7 +219,12 @@ async function main() {
 
   for (const model of models) {
     if (!asked(model.key).length) continue;
-    byModel[model.key] = await decide(model, asked(model.key), 'stance');
+    byModel[model.key] = await decide(model, asked(model.key), 'stance', {
+      onProgress: (answers) => {
+        byModel[model.key] = answers;
+        save();
+      },
+    });
     save();
   }
   if (luna && asked('luna').length) {

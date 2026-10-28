@@ -42,18 +42,47 @@ function run(venv, args, stdin) {
  * @param {string} label numele lotului, pentru fișierele din .cache/decide
  * @returns {Promise<Map<string, any>>} răspunsurile după id; cererile cu eroare lipsesc
  */
-export async function decide(model, requests, label) {
+export async function decide(model, requests, label, { onProgress } = {}) {
   fs.mkdirSync(WORK, { recursive: true });
   const input = path.join(WORK, `${label}-${model.key}-in.jsonl`);
   const output = path.join(WORK, `${label}-${model.key}-out.jsonl`);
   fs.writeFileSync(input, requests.map((r) => JSON.stringify(r)).join('\n') + '\n');
-  await run(model.venv, ['decide.py', model.key, input, output]);
-  const answers = new Map();
-  for (const line of fs.readFileSync(output, 'utf8').split('\n').filter(Boolean)) {
-    const row = JSON.parse(line);
-    if (row.answers) answers.set(String(row.id), row.answers);
+  fs.rmSync(output, { force: true });
+  // decide.py scrie câte o linie pe răspuns; le citim și pe parcurs, ca apelantul să poată salva ce e gata.
+  const read = () => {
+    const answers = new Map();
+    let text = '';
+    try {
+      text = fs.readFileSync(output, 'utf8');
+    } catch {
+      return answers;
+    }
+    for (const line of text.split('\n')) {
+      try {
+        const row = JSON.parse(line);
+        if (row.answers) answers.set(String(row.id), row.answers);
+      } catch {
+        // ultima linie poate fi pe jumătate scrisă; o luăm data viitoare
+      }
+    }
+    return answers;
+  };
+  let seen = 0;
+  const tick = onProgress
+    ? setInterval(() => {
+        const answers = read();
+        if (answers.size > seen) {
+          seen = answers.size;
+          onProgress(answers);
+        }
+      }, 10_000)
+    : null;
+  try {
+    await run(model.venv, ['decide.py', model.key, input, output]);
+  } finally {
+    clearInterval(tick);
   }
-  return answers;
+  return read();
 }
 
 /** Textul articolelor cu trafilatura (extract.py); pagini HTML după id → text după id. Fără mediu, o hartă goală. */

@@ -212,26 +212,59 @@ async function parseBillSheet(bill) {
   };
 }
 
+// Pagina de opinii arată câte 10; restul vin prin „postback”-ul ASP.NET al listei (Page$2, Page$3…), cu cookie-ul de
+// sesiune primit la prima cerere. Doar citim paginile următoare, nu trimitem nimic altceva.
+async function fetchOpinionPages(url) {
+  const headers = { 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) DeStraja/1.0', Accept: 'text/html,application/xhtml+xml' };
+  const first = await fetch(url, { headers });
+  if (!first.ok) throw new Error(`HTTP ${first.status} for ${url}`);
+  const cookie = (first.headers.getSetCookie?.() ?? []).map((c) => c.split(';')[0]).join('; ');
+  const pages = [await first.text()];
+  const hidden = (page) =>
+    Object.fromEntries(
+      [...page.matchAll(/<input[^>]+type="hidden"[^>]*>/gi)].flatMap(([tag]) => {
+        const name = tag.match(/name="([^"]+)"/)?.[1];
+        return name ? [[decodeHtmlEntities(name), decodeHtmlEntities(tag.match(/value="([^"]*)"/)?.[1] ?? '')]] : [];
+      }),
+    );
+  for (let n = 2; n <= 50; n++) {
+    const last = pages.at(-1);
+    if (!last.includes(`Page$${n}`)) break;
+    await new Promise((r) => setTimeout(r, 1000));
+    const res = await fetch(url, {
+      method: 'POST',
+      headers: { ...headers, 'Content-Type': 'application/x-www-form-urlencoded', Referer: url, ...(cookie && { Cookie: cookie }) },
+      body: new URLSearchParams({ ...hidden(last), __EVENTTARGET: 'ctl00$B_Center$lstOPinii', __EVENTARGUMENT: `Page$${n}` }),
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status} la pagina ${n} de opinii`);
+    pages.push(await res.text());
+  }
+  return pages;
+}
+
 async function parsePublicOpinions(bill) {
   if (!bill.opinionsCount || bill.opinionsCount === 0) return [];
   try {
-    const html = await fetchHtml(bill.opinionsUrl);
     const opinions = [];
-    const blocks = html.split(/Număr de înregistrare:/i).slice(1);
-    for (const block of blocks) {
-      const regMatch = block.match(/^\s*(?:<[^>]+>\s*)*(\d+)/i);
-      const dateMatch = block.match(/Data de postare a opiniei:\s*(?:<[^>]+>\s*)*([\d.: ]+)/i);
-      const fromMatch = block.match(/De la:\s*(?:<[^>]+>\s*)*([^<]+)/i);
-      const textMatch = block.match(/Textul opiniei:\s*([\s\S]*?)(?:<\/table>|$)/i);
+    const seen = new Set();
+    for (const html of await fetchOpinionPages(bill.opinionsUrl)) {
+      const blocks = html.split(/Număr de înregistrare:/i).slice(1);
+      for (const block of blocks) {
+        const regMatch = block.match(/^\s*(?:<[^>]+>\s*)*(\d+)/i);
+        const dateMatch = block.match(/Data de postare a opiniei:\s*(?:<[^>]+>\s*)*([\d.: ]+)/i);
+        const fromMatch = block.match(/De la:\s*(?:<[^>]+>\s*)*([^<]+)/i);
+        const textMatch = block.match(/Textul opiniei:\s*([\s\S]*?)(?:<\/table>|$)/i);
 
-      const regNo = regMatch ? regMatch[1].trim() : '';
-      const date = dateMatch ? dateMatch[1].trim() : '';
-      const author = fromMatch ? decodeHtmlEntities(fromMatch[1]) : 'Anonim';
-      let text = textMatch ? stripTags(textMatch[1]) : '';
-      text = text.replace(/Atașament:.*$/i, '').trim();
+        const regNo = regMatch ? regMatch[1].trim() : '';
+        const date = dateMatch ? dateMatch[1].trim() : '';
+        const author = fromMatch ? decodeHtmlEntities(fromMatch[1]) : 'Anonim';
+        let text = textMatch ? stripTags(textMatch[1]) : '';
+        text = text.replace(/Atașament:.*$/i, '').trim();
 
-      if (text) {
-        opinions.push({ regNo, date, author, text });
+        if (text && !seen.has(regNo)) {
+          seen.add(regNo);
+          opinions.push({ regNo, date, author, text });
+        }
       }
     }
     return opinions;

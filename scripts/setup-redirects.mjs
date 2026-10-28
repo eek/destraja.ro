@@ -1,12 +1,12 @@
 // Redirecționările spre destraja.ro, ca reguli Single Redirect pe zonele vechi (nu costă cereri la Worker):
-// lastraja.ro (numele de până pe 28 octombrie 2026) și destraja.md (rezervat pentru Moldova). Fiecare pagină trimite
+// lastraja.ro (numele de până pe 28 octombrie 2026), destraja.md (rezervat pentru Moldova) și destrajă.ro. Fiecare pagină trimite
 // 301 la aceeași cale pe destraja.ro, cu tot cu query. /api/* pe lastraja.ro rămâne la Worker, ca linkurile de
 // dezabonare din e-mailurile deja trimise să meargă în continuare.
 //
 //   node scripts/setup-redirects.mjs            arată ce ar face
 //   node scripts/setup-redirects.mjs --apply    scrie regulile
 //
-// Tokenul din .env are nevoie de „Zone → Single Redirect → Edit” pe cele două zone. Scriptul înlocuiește doar regula
+// Tokenul din .env are nevoie de „Zone → Single Redirect → Edit” pe aceste zone. Scriptul înlocuiește doar regula
 // lui (după `ref`), restul regulilor din zonă rămân neatinse.
 import fs from 'node:fs';
 import path from 'node:path';
@@ -18,6 +18,8 @@ const REF = 'destraja_redirect';
 const ZONES = {
   'lastraja.ro': 'not starts_with(http.request.uri.path, "/api/")',
   'destraja.md': null,
+  // destrajă.ro, cu ă, ca în siglă; zona apare în Cloudflare sub forma punycode.
+  'xn--destraj-f4a.ro': null,
 };
 const APPLY = process.argv.includes('--apply');
 

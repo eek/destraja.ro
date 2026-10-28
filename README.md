@@ -56,12 +56,18 @@ Proiect civic independent: nu reprezentăm Senatul și nu lucrăm pentru niciun 
   <img src=".github/readme/bill-light.webp" alt="Pagina unui proiect: scorul de risc, propoziția pe înțeles, termenul, procedura de urgență, presa și partidele inițiatorilor">
 </picture>
 
-### Obiecția scrisă cu Claude Code
+### Punctul de vedere scris cu Claude Code
 
-Skill-ul [`obiectie`](.claude/skills/obiectie/SKILL.md) scrie cu tine e-mailul de obiecție: citește analiza
-proiectului, te întreabă cine ești și cum te atinge legea, apoi pune e-mailul ca ciornă, ca să-l trimiți tu. Pornește
-`claude` în clona repo-ului și scrie „vreau să trimit o obiecție la https://destraja.ro/legi/b563-2026”. Ca să-l
-folosești din orice folder, copiază `.claude/skills/obiectie/` în `~/.claude/skills/`.
+Skill-ul [`punct-de-vedere`](.claude/skills/punct-de-vedere/SKILL.md) scrie cu tine punctul de vedere: citește analiza
+proiectului, te întreabă cine ești și cum te atinge legea, apoi pune e-mailul ca ciornă, cu memoriul .docx atașat, ca
+să-l trimiți tu. Dă și textele pentru formularul Senatului, numărate la limitele lui. Pornește `claude` în clona
+repo-ului și scrie `/punct-de-vedere https://destraja.ro/legi/b563-2026`. Ca să-l folosești din orice folder, copiază
+`.claude/skills/punct-de-vedere/` în `~/.claude/skills/`.
+
+Întrebările vin din skill-ul [`grilling`](https://github.com/mattpocock/skills) al lui Matt Pocock: câte o rundă, cu un
+răspuns propus la fiecare întrebare. Un punct de vedere cântărește când arată un caz real, pe care inițiatorii nu l-au
+văzut, iar întrebările scot acel caz la iveală. Instalează-l cu `claude plugins install mattpocock-skills`; fără el,
+skill-ul folosește o copie (licență MIT) din `references/`.
 
 ## Cum funcționează
 

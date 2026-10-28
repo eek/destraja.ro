@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from 'react';
 import type { BillLite } from '@/lib/types';
-import { ARC_DATE, OPOZITIE, PARTY_ORDER, PUTERE, partyFullName } from '@/lib/site';
+import { ARC_DATE, OPOZITIE, PARTY_ORDER, PUTERE, SPRIJIN, partyFullName } from '@/lib/site';
 import { countWord } from '@/lib/format';
 import { isBridgePair } from '@/lib/stats';
 import { trackAttrs } from '@/lib/analytics';
@@ -151,7 +151,9 @@ export default function CoalitionMatrix({
           </span>
         </p>
         <p className="leading-5">
-          Putere: {[...PUTERE].join(', ')}. Opoziție: {[...OPOZITIE].join(', ')} ({ARC_DATE}). Co-semnarea unui proiect nu spune cum va vota partidul.
+          Putere: {[...PUTERE].join(', ')} (guvernul Niculescu, din {ARC_DATE}). Opoziție: {[...OPOZITIE].join(', ')}. Au votat guvernul fără să intre
+          în el: {[...SPRIJIN].join(', ')}. Multe proiecte au fost semnate înainte, sub coaliția Bolojan. Co-semnarea unui proiect nu spune cum va vota
+          partidul.
         </p>
       </div>
     </div>

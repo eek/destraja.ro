@@ -4,7 +4,7 @@ import { useMemo, useState } from 'react';
 import Link from 'next/link';
 import { AlertTriangle, ArrowRight, BarChart3, ChevronDown, ChevronRight, Flame, Layers, Scale, ShieldAlert, Sparkles, Users } from 'lucide-react';
 import type { BillLite } from '@/lib/types';
-import { ARC_DATE, OPOZITIE, PUTERE } from '@/lib/site';
+import { ARC_DATE, OPOZITIE, PUTERE, SPRIJIN } from '@/lib/site';
 import { RISK, levelFromScore } from '@/lib/risk';
 import { countWord, deadlineInfo, DEADLINE_TONE, fmt, initialRows } from '@/lib/format';
 import { byRiskDesc, camps, type MpStat, type PartyStat, type RiskCounts, type Stats } from '@/lib/stats';
@@ -125,7 +125,8 @@ export function PartyDetail({ party, mps, onDossier }: { party?: PartyStat; mps:
           <PartyTag party={party.party} />
           <h3 className="font-display mt-3 text-2xl leading-tight text-ink">{party.fullName}</h3>
           <p className="mt-1 text-xs text-muted">
-            {PUTERE.has(party.party) ? 'Arcul guvernamental' : OPOZITIE.has(party.party) ? 'Opoziție' : 'Fără tabără'} ({ARC_DATE})
+            {PUTERE.has(party.party) ? 'La guvernare' : OPOZITIE.has(party.party) ? 'Opoziție' : SPRIJIN.has(party.party) ? 'A votat guvernul, fără miniștri' : 'Fără tabără'} (din{' '}
+            {ARC_DATE})
           </p>
         </div>
         <div className="shrink-0 text-right">

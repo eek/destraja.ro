@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { AlertTriangle, CheckCircle2, ChevronDown, FileText, Scale, Sparkles } from 'lucide-react';
 import { getAllBills, getDataSyncedAt, toLite } from '@/lib/bills';
-import { ARC_DATE, FEATURED_ID, MODELS, OPOZITIE, PUTERE, SENAT_URL, SOURCE_URL } from '@/lib/site';
+import { ARC_DATE, FEATURED_ID, MODELS, OPOZITIE, PUTERE, SENAT_URL, SOURCE_URL, SPRIJIN } from '@/lib/site';
 import { RISK, RISK_LEVELS } from '@/lib/risk';
 import { fmt, formatDateRo } from '@/lib/format';
 import { Container, RiskChip, RiskDot, linkCls, panel } from '@/components/ui';
@@ -49,7 +49,7 @@ const FAQ = [
   },
   {
     q: 'Cum sunt numărate partidele?',
-    a: `Un proiect e atribuit fiecărui partid care are cel puțin un inițiator pe el, așa că totalurile pe partide nu se adună. Pentru harta coalițiilor folosim împărțirea putere/opoziție din ${ARC_DATE}: putere ${[...PUTERE].join(', ')}; opoziție ${[...OPOZITIE].join(', ')}. Co-semnarea nu spune cum va vota un partid.`,
+    a: `Un proiect e atribuit fiecărui partid care are cel puțin un inițiator pe el, așa că totalurile pe partide nu se adună. Pentru harta coalițiilor folosim împărțirea putere/opoziție de la învestirea guvernului Niculescu (${ARC_DATE}): putere ${[...PUTERE].join(', ')}; opoziție ${[...OPOZITIE].join(', ')}; ${[...SPRIJIN].join(', ')} au votat guvernul fără să intre în el. Multe proiecte au fost semnate înainte, sub coaliția Bolojan (PSD, PNL, USR, UDMR și minoritățile; PSD a ieșit în aprilie 2026). Co-semnarea nu spune cum va vota un partid.`,
   },
   {
     q: 'Am găsit o greșeală într-o analiză. Ce fac?',

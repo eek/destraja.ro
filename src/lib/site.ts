@@ -35,11 +35,16 @@ export const PARTY_NAMES: Record<string, string> = {
 
 export const PARTY_ORDER = ['PSD', 'PNL', 'USR', 'UDMR', 'Minorități', 'AUR', 'SOS', 'POT', 'PACE', 'UPR', 'Neafiliați'];
 
-// Arcul guvernamental la data datelor (octombrie 2026). Se folosește doar ca să marcăm
-// proiectele semnate împreună de putere și opoziție; de revizuit când se schimbă coaliția.
-export const ARC_DATE = 'octombrie 2026';
-export const PUTERE = new Set(['PSD', 'PNL', 'USR', 'UDMR', 'Minorități']);
-export const OPOZITIE = new Set(['AUR', 'SOS', 'POT', 'PACE']);
+// Cine e la guvernare de la învestirea guvernului Niculescu (20 octombrie 2026): doar PSD are miniștri, alături de
+// independenți. PNL a anunțat că va „activa în opoziție”, USR refuzase un guvern cu PSD, AUR a cerut alegeri anticipate.
+// UDMR a votat guvernul fără să intre în el, iar PACE și UPR apar printre susținătorii de la învestire; pe acestea le
+// arătăm separat, fără tabără. Până la 20 octombrie a guvernat coaliția Bolojan (PSD, PNL, USR, UDMR, minoritățile;
+// PSD a ieșit în aprilie 2026). Se folosește ca să marcăm proiectele semnate împreună de putere și opoziție; de
+// revizuit când se schimbă guvernul.
+export const ARC_DATE = '20 octombrie 2026';
+export const PUTERE = new Set(['PSD']);
+export const OPOZITIE = new Set(['PNL', 'USR', 'AUR', 'SOS', 'POT']);
+export const SPRIJIN = new Set(['UDMR', 'PACE', 'UPR']);
 
 export function partyFullName(party: string) {
   return PARTY_NAMES[party] ?? party;

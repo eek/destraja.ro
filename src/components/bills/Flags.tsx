@@ -207,7 +207,7 @@ export function Flags({ bill, linkToBill = false }: { bill: BillLite; linkToBill
           flag="bridge"
           title="Semnat de putere și de opoziție"
         >
-          <p>Printre inițiatori sunt parlamentari și de la partidele de guvernare, și din opoziție: {bill.parties.join(', ')}.</p>
+          <p>Printre inițiatori sunt parlamentari și de la putere, și din opoziție, după guvernul de acum: {bill.parties.join(', ')}.</p>
           {more}
         </FlagInfo>
       )}

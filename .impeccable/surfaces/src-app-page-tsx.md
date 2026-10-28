@@ -5,7 +5,7 @@ primary_target: "src/app/page.tsx"
 related_targets: ["src/app/presa/page.tsx","src/app/parlamentari/page.tsx"]
 ---
 
-# Surface brief: lastraja.ro master site (home, /legi, /parlamentari, /presa, /metodologie, /cookies)
+# Surface brief: destrajă.ro master site (home, /legi, /parlamentari, /presa, /metodologie, /cookies)
 
 Scope: merge of three prior variants (V1 Argon, V2 Opus blind, V3 GPT blind) into one site. Home is Persuade (citizen acts on a bill); /presa and /parlamentari are Operate; /metodologie and /cookies are Read.
 

@@ -20,7 +20,7 @@ const SHOWN = 8;
 
 function coverageCsv(items: CoverageItem[]) {
   return toCsv([
-    ['Data publicării', 'Publicație', 'Titlul articolului', 'Link', 'Proiect', 'Pe înțeles', 'Nivel de risc', 'Analiza lastraja.ro', 'Verificat la'],
+    ['Data publicării', 'Publicație', 'Titlul articolului', 'Link', 'Proiect', 'Pe înțeles', 'Nivel de risc', 'Analiza destrajă.ro', 'Verificat la'],
     ...items.map((a) => [
       a.publishedAt ?? '',
       a.outlet,
@@ -55,7 +55,7 @@ export default function PressCoverage({ items, builtOn }: { items: CoverageItem[
         />
         <button
           type="button"
-          onClick={() => downloadFile(`lastraja-presa-${isoToday()}.csv`, coverageCsv(items))}
+          onClick={() => downloadFile(`destraja-presa-${isoToday()}.csv`, coverageCsv(items))}
           {...trackAttrs('csv_download', { scope: 'press' })}
           className={`${btnSecondary} min-h-11 shrink-0 px-4 text-sm`}
         >

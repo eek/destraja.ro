@@ -22,7 +22,7 @@ export function billsCsv(list: BillLite[]) {
       'Proiect', 'Cod Senat', 'Pe înțeles', 'Ce schimbă', 'Titlu oficial', 'Nivel de risc', 'Scor consens',
       ...MODELS.map((m) => `Scor ${m.name}`), 'Acord între modele', 'Partide', 'Mai multe partide', 'Putere + opoziție',
       'Urgență cerută', 'Urgență aprobată', 'Aviz negativ CES', 'Termen consultare', 'Zile rămase', 'Opinii depuse',
-      'Pe cine afectează', 'Inițiatori', 'Articole în presă', 'Fișa Senat', 'Analiza lastraja.ro',
+      'Pe cine afectează', 'Inițiatori', 'Articole în presă', 'Fișa Senat', 'Analiza destrajă.ro',
     ],
     ...list.map((b) => {
       const c = b.analysis.consensus;
@@ -44,7 +44,7 @@ export function citation(b: BillLite) {
     oneLiner(b),
     `Scor de risc ${fmt(c.riskScore)}/10 (${MODELS.map((m) => `${m.name} ${fmt(modelScore(b, m.key))}`).join(', ')}).`,
     `Termen de consultare: ${formatDeadline(b.consultationDeadline)}.`,
-    `Sursa: La Straja Legii, ${SITE_URL}/legi/${b.slug} (${CONTENT_LICENSE.name}) · fișa oficială: ${b.sheetUrl}`,
+    `Sursa: destrajă.ro, ${SITE_URL}/legi/${b.slug} (${CONTENT_LICENSE.name}) · fișa oficială: ${b.sheetUrl}`,
   ].join(' ');
 }
 

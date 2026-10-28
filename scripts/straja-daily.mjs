@@ -73,7 +73,7 @@ function step(name, cmd, argv, { timeoutMs = 3_600_000 } = {}) {
 
 function notify(message) {
   const safe = message.replace(/["\\]/g, '');
-  spawn('osascript', ['-e', `display notification "${safe}" with title "lastraja.ro"`], { stdio: 'ignore' });
+  spawn('osascript', ['-e', `display notification "${safe}" with title "destrajă.ro"`], { stdio: 'ignore' });
 }
 
 const readBills = () => JSON.parse(fs.readFileSync(path.join(DATA, 'senat-bills.json'), 'utf8'));

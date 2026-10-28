@@ -93,7 +93,7 @@ export function Headlines({ items, copied, onCopy }: { items: ReturnType<typeof 
               compact
               label="Copiază titlul"
               active={copied === h.key}
-              onClick={() => onCopy(h.key, `${h.text} (Sursa: lastraja.ro)`)}
+              onClick={() => onCopy(h.key, `${h.text} (Sursa: destrajă.ro)`)}
               track={trackAttrs('press_copy', { item: 'headline', headline: h.key })}
             />
           </li>

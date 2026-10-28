@@ -43,7 +43,7 @@ const LAST_RUN = path.join(ROOT, '.cache', 'positions-last-run.json');
 
 // Nu sunt surse pentru pozițiile societății civile: instituțiile statului (avizele lor apar deja pe site),
 // rețelele sociale (nu se pot verifica fără cont) și motoarele de căutare.
-const NOT_SOURCES = ['senat.ro', 'cdep.ro', 'gov.ro', 'ces.ro', 'clr.ro', 'lastraja.ro', 'facebook.com', 'instagram.com', 'x.com', 'twitter.com', 'linkedin.com', 'youtube.com', 'tiktok.com', 'reddit.com', 'google.com', 'vertexaisearch.cloud.google.com'];
+const NOT_SOURCES = ['senat.ro', 'cdep.ro', 'gov.ro', 'ces.ro', 'clr.ro', 'lastraja.ro', 'destraja.ro', 'destraja.md', 'facebook.com', 'instagram.com', 'x.com', 'twitter.com', 'linkedin.com', 'youtube.com', 'tiktok.com', 'reddit.com', 'google.com', 'vertexaisearch.cloud.google.com'];
 const STANCES = ['retragere', 'respingere', 'modificare', 'sustinere'];
 const MAX_CANDIDATES = 8;
 const MAX_PENDING = 20;

@@ -25,7 +25,7 @@ export default function SiteHeader() {
   return (
     <header className="sticky top-0 z-40 border-b border-line bg-paper/90 backdrop-blur-md">
       <div className="mx-auto flex h-16 w-full max-w-[1240px] items-center gap-4 px-4 sm:h-[72px] sm:px-8 lg:px-10">
-        <Link href="/" aria-label="lastraja.ro, pagina principală" className="shrink-0 rounded-md text-ink">
+        <Link href="/" aria-label="destrajă.ro, pagina principală" className="shrink-0 rounded-md text-ink">
           <LastrajaLogo className="h-9 w-auto sm:h-11" />
         </Link>
 

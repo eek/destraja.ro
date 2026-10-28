@@ -34,7 +34,7 @@ const cdepProfile = (idm) => `${CDEP}/ords/pls/parlam/structura2015.mp?idm=${idm
 const senatProfile = (id) => `${SENAT}/FisaSenator.aspx?ParlamentarID=${id}`;
 
 // Ne prezentăm cinstit: cine suntem și unde ne poate scrie administratorul site-ului.
-const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) LaStrajaLegii/1.0 (+https://lastraja.ro; contact@lastraja.ro)';
+const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) DeStraja/1.0 (+https://destraja.ro; contact@destraja.ro)';
 const DELAY_MS = 1100;
 const MAX_BYTES = 3 * 1024 * 1024;
 

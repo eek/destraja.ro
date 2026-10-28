@@ -10,7 +10,7 @@ import ConsentControls from '@/components/site/ConsentControls';
 export const metadata: Metadata = {
   title: 'Politica de cookies',
   description:
-    'lastraja.ro folosește Google Analytics doar dacă accepți, fără reclame și fără ce scrii pe site. Ce păstrăm în browserul tău și cum îți schimbi alegerea.',
+    'destrajă.ro folosește Google Analytics doar dacă accepți, fără reclame și fără ce scrii pe site. Ce păstrăm în browserul tău și cum îți schimbi alegerea.',
 };
 
 const STORED = [
@@ -44,7 +44,7 @@ const NOT_USED = [
   'Cookie-uri de publicitate sau de urmărire între site-uri',
   'Meta Pixel, TikTok Pixel sau alte instrumente de marketing',
   'Butoane sau conținut încorporat de pe rețele sociale',
-  'Fonturi sau imagini de pe servere terțe: le găzduim pe lastraja.ro',
+  'Fonturi sau imagini de pe servere terțe: le găzduim pe destraja.ro',
 ];
 
 const h2 = 'font-display text-2xl font-normal sm:text-3xl';
@@ -125,7 +125,7 @@ export default function CookiesPage() {
 
         <h3 className={h3}>Cookie-urile Google Analytics</h3>
         <p className={p}>Apar doar după ce accepți și dispar când refuzi.</p>
-        <StorageList items={ANALYTICS_COOKIES.map((c) => ({ ...c, meta: 'Cookie pe lastraja.ro, setat de Google Analytics · 13 luni' }))} />
+        <StorageList items={ANALYTICS_COOKIES.map((c) => ({ ...c, meta: 'Cookie pe destraja.ro, setat de Google Analytics · 13 luni' }))} />
 
         <h3 className={h3}>Cât timp și unde</h3>
         <p className={p}>
@@ -240,7 +240,7 @@ export default function CookiesPage() {
             'Formularul folosește aceeași verificare anti-roboți Cloudflare Turnstile ca raportarea greșelilor (mai sus), ca nimeni să nu poată abona adresele altora în masă.',
             'Te dezabonezi dintr-un click, din orice e-mail. Dezabonarea șterge adresa din baza noastră.',
             'E-mailurile pleacă prin Cloudflare Email Service, iar adresele stau în baza de date Cloudflare D1, în Uniunea Europeană. Nu le dăm nimănui altcuiva și nu le folosim pentru altceva.',
-            'În e-mailuri nu sunt pixeli de urmărire. Linkurile spre lastraja.ro au eticheta „alerte” (utm_source), ca statisticile, dacă le-ai acceptat, să numere vizitele venite din e-mail; eticheta nu spune cine ești.',
+            'În e-mailuri nu sunt pixeli de urmărire. Linkurile spre destraja.ro au eticheta „alerte” (utm_source), ca statisticile, dacă le-ai acceptat, să numere vizitele venite din e-mail; eticheta nu spune cine ești.',
             'Temeiul este acordul tău (art. 6 alin. 1 lit. a din Regulamentul (UE) 2016/679), pe care îl retragi oricând prin dezabonare.',
           ]}
         />
@@ -252,7 +252,7 @@ export default function CookiesPage() {
         </h2>
         <p className={p}>
           Butonul de mai jos readuce tema la cea a sistemului, oprește statisticile și șterge alegerea ta, ca să te întrebăm din nou. Poți șterge și
-          din setările browserului (datele site-ului lastraja.ro).
+          din setările browserului (datele site-ului destraja.ro).
         </p>
         <div className="mt-4">
           <ClearPreferences />
@@ -333,7 +333,7 @@ export default function CookiesPage() {
 
       <p className="mt-14 border-t border-line pt-6 text-sm text-muted">
         <Link href="/" className={linkCls}>
-          Înapoi la lastraja.ro
+          Înapoi la destrajă.ro
         </Link>
       </p>
     </Container>

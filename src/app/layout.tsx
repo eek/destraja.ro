@@ -25,16 +25,16 @@ const sans = Public_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: 'lastraja.ro · Stăm de strajă. Să știi ce se pregătește.',
-    template: '%s · lastraja.ro',
+    default: 'destrajă.ro · Stăm de strajă. Să știi ce se pregătește.',
+    template: '%s · destrajă.ro',
   },
   description:
     'Proiectele de lege aflate în consultare publică la Senatul României, explicate într-o propoziție, evaluate de Gemini, Claude și ChatGPT, cu obiecția oficială pregătită în 60 de secunde.',
   openGraph: {
     type: 'website',
     locale: 'ro_RO',
-    siteName: 'lastraja.ro',
-    title: 'lastraja.ro · Stăm de strajă. Să știi ce se pregătește.',
+    siteName: 'destrajă.ro',
+    title: 'destrajă.ro · Stăm de strajă. Să știi ce se pregătește.',
     description: 'Proiectele de lege aflate în consultare la Senat, ce înseamnă pentru tine și cum îți spui părerea oficial.',
   },
   twitter: { card: 'summary_large_image' },

@@ -1,10 +1,10 @@
 # Licența pentru date și analize
 
-Codul din acest repo e sub [AGPL-3.0](LICENSE). Analizele și datele produse de La Straja Legii sunt sub licența
+Codul din acest repo e sub [AGPL-3.0](LICENSE). Analizele și datele produse de destrajă.ro sunt sub licența
 [Creative Commons Atribuire 4.0 Internațional (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.ro)
 ([textul juridic](https://creativecommons.org/licenses/by/4.0/legalcode.ro)).
 
-© 2026 Radu-Sebastian Amarie și contributorii La Straja Legii.
+© 2026 Radu-Sebastian Amarie și contributorii destrajă.ro.
 
 ## Ce acoperă
 
@@ -13,16 +13,16 @@ Codul din acest repo e sub [AGPL-3.0](LICENSE). Analizele și datele produse de 
 - verificările și numărătorile noastre pentru pozițiile organizațiilor din `data/positions/` (ce cere fiecare document,
   câte organizații îl semnează, când l-am verificat);
 - memoriile .docx din `public/docs/`;
-- aceleași conținuturi, așa cum apar pe [lastraja.ro](https://lastraja.ro).
+- aceleași conținuturi, așa cum apar pe [destrajă.ro](https://destraja.ro).
 
 Le poți copia, publica, traduce și adapta, inclusiv în scop comercial. Singura condiție: să citezi sursa.
 
 ## Cum ne citezi
 
-- **Online:** `Sursa: La Straja Legii (lastraja.ro), CC BY 4.0`, cu link la pagina proiectului, de exemplu
-  `https://lastraja.ro/legi/b563-2026`. Acolo cititorii tăi găsesc analiza completă, documentele oficiale și cum trimit o
+- **Online:** `Sursa: destrajă.ro, CC BY 4.0`, cu link la pagina proiectului, de exemplu
+  `https://destraja.ro/legi/b563-2026`. Acolo cititorii tăi găsesc analiza completă, documentele oficiale și cum trimit o
   opinie la Senat.
-- **Tipar, radio, TV:** „potrivit La Straja Legii (lastraja.ro)”.
+- **Tipar, radio, TV:** „potrivit destrajă.ro”.
 - Scorurile sunt evaluări făcute cu AI (Gemini, Claude, ChatGPT), nu verdicte juridice. Spune asta când le citezi.
 - Dacă ai prelucrat datele, spune că le-ai prelucrat.
 
@@ -38,12 +38,12 @@ Le poți copia, publica, traduce și adapta, inclusiv în scop comercial. Singur
   (numele organizațiilor, așa cum apar acolo); persoanele fizice care semnează apar doar ca număr.
 - **Datele de contact ale parlamentarilor** (`data/mp-contacts.json`): sunt cele publicate de cdep.ro și senat.ro. Le
   afișăm ca să le poți scrie aleșilor tăi; nu le licențiem noi.
-- **Numele și logoul** La Straja Legii: folosește-le ca să ne citezi, nu ca să sugerezi că un material e al nostru sau că îl
+- **Numele și logoul** destrajă.ro: folosește-le ca să ne citezi, nu ca să sugerezi că un material e al nostru sau că îl
   susținem.
 
 ---
 
-**In English.** Analyses and data are licensed CC BY 4.0. Credit "La Straja Legii (lastraja.ro)" and link to the bill page.
+**In English.** Analyses and data are licensed CC BY 4.0. Credit "destrajă.ro" and link to the bill page.
 Official legislative texts are not copyrighted under Romanian law (Law 8/1996, art. 9). Press headlines and quotes belong
 to their publishers. Organisations' letters and petitions belong to their issuers: we link them and quote briefly, and
 signatory lists are facts taken from those documents. MP contact details are as published by the two chambers. The

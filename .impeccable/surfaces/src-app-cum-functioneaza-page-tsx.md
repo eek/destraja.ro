@@ -7,7 +7,7 @@ related_targets: []
 
 # Surface brief: /cum-functioneaza (the public "under the hood" page)
 
-Scope: one new route inside the established lastraja.ro world. Mode: Read, with a Persuade edge (readers should come away saying "nice, who built this" and share it). Ordinary readers first, developers second. Code-led build; no comp.
+Scope: one new route inside the established destrajă.ro world. Mode: Read, with a Persuade edge (readers should come away saying "nice, who built this" and share it). Ordinary readers first, developers second. Code-led build; no comp.
 
 Audience and job: a citizen who wonders where the scores come from and whether to trust them; a journalist or developer checking the machine. They should understand the daily run, the three separate readings, the verification in code, where it runs, and that everything is public.
 

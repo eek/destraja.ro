@@ -24,7 +24,7 @@ function pressSummary(ranked: BillLite[], stats: Stats, counts: RiskCounts, date
   // partyStats vine deja ordonat după scorul mediu de risc.
   const riskiestParty = stats.partyStats[0];
   const lines = [
-    'LA STRAJA LEGII · lastraja.ro',
+    'DESTRAJĂ.RO · destraja.ro',
     date ? `Situația la ${date}` : 'Situația la zi',
     '',
     `• ${countWord(ranked.length, 'proiect de lege urmărit', 'proiecte de lege urmărite')}, dintre care ${counts.open} încă în consultare publică la Senat`,
@@ -51,7 +51,7 @@ function pressSummary(ranked: BillLite[], stats: Stats, counts: RiskCounts, date
     '',
     'Scorurile sunt evaluări AI (Gemini, Claude, ChatGPT) și pot conține erori; nu sunt verdicte juridice.',
     'Un proiect e atribuit fiecărui partid care are inițiatori; co-semnarea nu indică votul final.',
-    `Sursa: La Straja Legii (${SITE_URL}), ${CONTENT_LICENSE.name} · documente oficiale: senat.ro`,
+    `Sursa: destrajă.ro (${SITE_URL}), ${CONTENT_LICENSE.name} · documente oficiale: senat.ro`,
   );
   return lines.join('\n');
 }
@@ -77,7 +77,7 @@ export default function PressClient({ bills: initial, coverage, builtOn }: { bil
   };
   const today = () => new Date().toLocaleDateString('ro-RO', { day: 'numeric', month: 'long', year: 'numeric' });
   const copySummary = () => flash('summary', pressSummary(ranked, stats, counts, today()));
-  const exportAll = () => downloadFile(`lastraja-proiecte-${isoToday()}.csv`, billsCsv(ranked));
+  const exportAll = () => downloadFile(`destraja-proiecte-${isoToday()}.csv`, billsCsv(ranked));
   const toDossier = (list: string[]) => {
     setDossierParties(list);
     window.requestAnimationFrame(() => document.getElementById('tabel')?.scrollIntoView({ behavior: 'smooth', block: 'start' }));

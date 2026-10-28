@@ -8,7 +8,7 @@ import { OG, OG_SIZE, clip, logoSrc, ogFonts } from '@/og/og';
 export const dynamic = 'force-static';
 export const size = OG_SIZE;
 export const contentType = 'image/png';
-export const alt = 'Proiectul de lege pe lastraja.ro: scorul de risc, ce schimbă și termenul de consultare';
+export const alt = 'Proiectul de lege pe destrajă.ro: scorul de risc, ce schimbă și termenul de consultare';
 
 export async function generateStaticParams() {
   return (await getAllBills()).map((b) => ({ slug: b.slug }));

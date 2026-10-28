@@ -1,12 +1,12 @@
-export const SITE_URL = 'https://lastraja.ro';
-export const SITE_NAME = 'lastraja.ro';
+export const SITE_URL = 'https://destraja.ro';
+export const SITE_NAME = 'destrajă.ro';
 export const SENAT_URL = 'https://www.senat.ro/LegiProiect.aspx';
 
 // Analizele și datele se pot prelua cu sursa (CC BY 4.0); /presa#citare explică cum ne citezi.
 export const CONTENT_LICENSE = { name: 'CC BY 4.0', url: 'https://creativecommons.org/licenses/by/4.0/deed.ro' } as const;
-export const ATTRIBUTION = `Sursa: La Straja Legii (lastraja.ro), ${CONTENT_LICENSE.name}`;
+export const ATTRIBUTION = `Sursa: destrajă.ro, ${CONTENT_LICENSE.name}`;
 // Repo-ul cu codul (AGPL-3.0). Rămâne null cât timp repo-ul e privat, ca linkul „Cod sursă” să nu ducă la 404.
-export const SOURCE_URL: string | null = 'https://github.com/eek/lastraja.ro';
+export const SOURCE_URL: string | null = 'https://github.com/eek/destraja.ro';
 
 // Proiectul pus în față pe prima pagină cât timp consultarea lui e deschisă.
 export const FEATURED_ID = 'B563/2026';
@@ -48,7 +48,7 @@ export function partyFullName(party: string) {
 // Cine administrează site-ul și unde pot scrie vizitatorii despre datele lor (politica de cookies).
 // Necompletate până le confirmă operatorul; pagina afișează vizibil „de completat”.
 export const OPERATOR_NAME: string | null = 'Radu-Sebastian Amarie (persoană fizică)';
-export const CONTACT_EMAIL: string | null = 'contact@lastraja.ro';
+export const CONTACT_EMAIL: string | null = 'contact@destraja.ro';
 export const POLICY_UPDATED = '26 octombrie 2026';
 // Cât păstrează Google Analytics datele la nivel de vizitator. Trebuie să fie la fel ca în
 // Google Analytics > Admin > Data retention (implicit 2 luni); rapoartele agregate rămân.
@@ -58,6 +58,6 @@ export const ANALYTICS_RETENTION = '2 luni';
 // (Cloudflare Email Service). Până atunci /abonare spune că pornesc în curând.
 export const ALERTS_LIVE = true;
 
-// Cheia publică a widgetului Turnstile din formularul de raportare a greșelilor (lastraja.ro și localhost).
+// Cheia publică a widgetului Turnstile din formularul de raportare a greșelilor (destraja.ro, lastraja.ro și localhost).
 // Pentru teste se poate pune cheia Cloudflare care trece mereu, 1x00000000000000000000AA.
 export const TURNSTILE_SITEKEY = '0x4AAAAAAFlkKaAg2YuWRuK_';

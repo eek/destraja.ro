@@ -61,15 +61,15 @@ function confirmEmail(kind: ConfirmKind, level: Level, confirmUrl: string | null
   let body: string;
   let text: string;
   if (kind === 'confirm') {
-    subject = 'Confirmă abonarea la alertele lastraja.ro';
+    subject = 'Confirmă abonarea la alertele destrajă.ro';
     body =
       h1('Mai e un pas: confirmă adresa') +
-      p(`Ai cerut alertele lastraja.ro pentru <strong>${esc(levelName)}</strong>. Îți scriem doar în zilele lucrătoare în care apare ceva nou pe nivelul ales.`) +
+      p(`Ai cerut alertele destrajă.ro pentru <strong>${esc(levelName)}</strong>. Îți scriem doar în zilele lucrătoare în care apare ceva nou pe nivelul ales.`) +
       button(confirmUrl!, 'Confirmă abonarea') +
       small(`Linkul e valabil ${CONFIRM_HOURS} de ore. Dacă nu ai cerut tu alertele, ignoră acest mesaj: fără confirmare nu te abonăm și ștergem adresa.`);
-    text = `Mai e un pas: confirmă adresa.\n\nAi cerut alertele lastraja.ro pentru ${levelName}. Îți scriem doar în zilele lucrătoare în care apare ceva nou pe nivelul ales.\n\nConfirmă abonarea: ${confirmUrl}\n\nLinkul e valabil ${CONFIRM_HOURS} de ore. Dacă nu ai cerut tu alertele, ignoră acest mesaj: fără confirmare nu te abonăm și ștergem adresa.`;
+    text = `Mai e un pas: confirmă adresa.\n\nAi cerut alertele destrajă.ro pentru ${levelName}. Îți scriem doar în zilele lucrătoare în care apare ceva nou pe nivelul ales.\n\nConfirmă abonarea: ${confirmUrl}\n\nLinkul e valabil ${CONFIRM_HOURS} de ore. Dacă nu ai cerut tu alertele, ignoră acest mesaj: fără confirmare nu te abonăm și ștergem adresa.`;
   } else if (kind === 'change') {
-    subject = 'Confirmă noul nivel al alertelor lastraja.ro';
+    subject = 'Confirmă noul nivel al alertelor destrajă.ro';
     body =
       h1('Schimbi nivelul alertelor?') +
       p(`Adresa ta e deja abonată. Ai cerut să primești de acum <strong>${esc(levelName)}</strong>.`) +
@@ -77,7 +77,7 @@ function confirmEmail(kind: ConfirmKind, level: Level, confirmUrl: string | null
       small(`Dacă nu ai cerut tu schimbarea, ignoră mesajul; alertele rămân cum erau. Linkul e valabil ${CONFIRM_HOURS} de ore.`);
     text = `Schimbi nivelul alertelor?\n\nAdresa ta e deja abonată. Ai cerut să primești de acum ${levelName}.\n\nConfirmă noul nivel: ${confirmUrl}\n\nDacă nu ai cerut tu schimbarea, ignoră mesajul; alertele rămân cum erau.`;
   } else {
-    subject = 'Adresa ta e deja abonată la alertele lastraja.ro';
+    subject = 'Adresa ta e deja abonată la alertele destrajă.ro';
     body =
       h1('Adresa e deja abonată') +
       p(`Primești deja <strong>${esc(levelName)}</strong>. Nu trebuie să faci nimic.`) +
@@ -87,11 +87,11 @@ function confirmEmail(kind: ConfirmKind, level: Level, confirmUrl: string | null
   const html = emailLayout({
     title: subject,
     preheader: kind === 'already' ? 'Nu trebuie să faci nimic.' : `Un click și primești ${levelName}.`,
-    eyebrow: 'Alertele lastraja.ro',
+    eyebrow: 'Alertele destrajă.ro',
     body,
-    footer: footerHtml({ reason: 'Primești acest mesaj pentru că cineva a cerut alertele lastraja.ro pentru această adresă, din formularul de pe site.' }),
+    footer: footerHtml({ reason: 'Primești acest mesaj pentru că cineva a cerut alertele destrajă.ro pentru această adresă, din formularul de pe site.' }),
   });
-  return { subject, html, text: `${text}\n\n—\nlastraja.ro · proiect civic independent · ${REPLY_TO}` };
+  return { subject, html, text: `${text}\n\n—\ndestrajă.ro · proiect civic independent · ${REPLY_TO}` };
 }
 
 async function sendConfirm(env: Env, to: string, mail: { subject: string; html: string; text: string }) {
@@ -226,5 +226,5 @@ export async function handleUnsubscribe(request: Request, env: Env, url: URL) {
   if (request.method !== 'POST') return new Response(null, { status: 405, headers: { allow: 'GET, POST' } });
   const id = await verifyManageToken(env, token);
   if (id) await env.DB.prepare('DELETE FROM subscribers WHERE id = ?').bind(id).run();
-  return new Response('Te-ai dezabonat de la alertele lastraja.ro.', { status: 200, headers: { 'content-type': 'text/plain; charset=utf-8', 'cache-control': 'no-store' } });
+  return new Response('Te-ai dezabonat de la alertele destrajă.ro.', { status: 200, headers: { 'content-type': 'text/plain; charset=utf-8', 'cache-control': 'no-store' } });
 }

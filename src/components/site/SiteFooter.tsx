@@ -12,11 +12,11 @@ export default function SiteFooter({ syncedAt }: { syncedAt: string | null }) {
     <footer className="mt-24 border-t border-line bg-surface">
       <div className="mx-auto grid w-full max-w-[1240px] gap-10 px-4 py-12 sm:px-8 lg:grid-cols-12 lg:px-10">
         <div className="lg:col-span-5">
-          <Link href="/" aria-label="lastraja.ro, pagina principală" className="inline-flex text-ink">
+          <Link href="/" aria-label="destrajă.ro, pagina principală" className="inline-flex text-ink">
             <LastrajaLogo className="h-11 w-auto" />
           </Link>
           <p className="mt-4 max-w-sm text-sm leading-6 text-muted">
-            La Straja Legii: radarul cetățenesc al proiectelor de lege aflate în consultare publică la Senatul României. Proiect civic
+            destrajă.ro: radarul cetățenesc al proiectelor de lege aflate în consultare publică la Senatul României. Proiect civic
             independent; nu reprezentăm Senatul și nu lucrăm pentru niciun partid.
           </p>
           {syncedAt && <p className="mt-3 text-xs text-muted">Date preluate de pe senat.ro la {formatDateRo(syncedAt)}.</p>}
@@ -80,7 +80,7 @@ export default function SiteFooter({ syncedAt }: { syncedAt: string | null }) {
             <a href={CONTENT_LICENSE.url} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-ink">
               {CONTENT_LICENSE.name}
             </a>
-            : preia-le liber, cu sursa și linkul la lastraja.ro.{' '}
+            : preia-le liber, cu sursa și linkul la destrajă.ro.{' '}
             <Link href="/presa#citare" className="underline underline-offset-2 hover:text-ink">
               Cum ne citezi
             </Link>

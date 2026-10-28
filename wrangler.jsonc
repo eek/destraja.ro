@@ -19,7 +19,13 @@
     { "name": "SUBSCRIBE_LIMIT", "namespace_id": "1002", "simple": { "limit": 5, "period": 60 } }
   ],
   // Confirmările abonării și ediția zilnică pleacă doar de la această adresă.
-  "send_email": [{ "name": "EMAIL", "allowed_sender_addresses": ["alerte@lastraja.ro"] }],
+  "send_email": [{ "name": "EMAIL", "allowed_sender_addresses": ["alerte@destraja.ro"] }],
   "observability": { "enabled": true, "head_sampling_rate": 1 },
-  "routes": [{ "pattern": "lastraja.ro", "custom_domain": true }]
+  "routes": [
+    { "pattern": "destraja.ro", "custom_domain": true },
+    // Domeniile vechi și cel pentru Moldova: paginile lor trimit 301 spre destraja.ro (reguli Single Redirect pe zonă);
+    // /api/* rămâne aici, ca linkurile de dezabonare din e-mailurile deja trimise să meargă în continuare.
+    { "pattern": "lastraja.ro", "custom_domain": true },
+    { "pattern": "destraja.md", "custom_domain": true }
+  ]
 }

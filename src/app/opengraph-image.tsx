@@ -4,7 +4,7 @@ import { riskCounts } from '@/lib/stats';
 import { OG, OG_SIZE, logoSrc, ogFonts, villageSrc } from '@/og/og';
 
 export const dynamic = 'force-static';
-export const alt = 'lastraja.ro: Stăm de strajă. Să știi ce se pregătește.';
+export const alt = 'destrajă.ro: Stăm de strajă. Să știi ce se pregătește.';
 export const size = OG_SIZE;
 export const contentType = 'image/png';
 

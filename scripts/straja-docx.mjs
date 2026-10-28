@@ -245,7 +245,7 @@ async function generateDocxForBill(bill, analysis) {
     new Paragraph({
       children: [
         new TextRun({
-          text: `Generat prin platforma civică „La Straja Legii” • Referință proiect: ${bill.id} (Cod Senat ${bill.cod})`,
+          text: `Generat prin platforma civică destrajă.ro • Referință proiect: ${bill.id} (Cod Senat ${bill.cod})`,
           italics: true,
           size: 18,
           color: '666666',

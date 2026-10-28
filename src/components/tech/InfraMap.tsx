@@ -77,13 +77,13 @@ export default function InfraMap() {
     {
       id: 'cf',
       title: 'Cloudflare',
-      sub: 'lastraja.ro',
+      sub: 'destraja.ro',
       items: [
         'Site-ul static, din exportul Next.js',
         'Un Worker pentru /api: rapoarte, abonări, alerte',
         'D1: rapoartele și abonații',
         'Turnstile, împotriva roboților',
-        'Email Service, de la alerte@lastraja.ro',
+        'Email Service, de la alerte@destraja.ro',
         'Cel mult 5 rapoarte sau abonări pe minut de la o adresă',
       ],
       flows: [{ text: 'pagini și e-mailuri' }, { back: true, text: 'rapoarte și abonări' }],
@@ -123,7 +123,7 @@ export default function InfraMap() {
                   {/* Pe telefon, ramura iese din linia principală spre dreapta. */}
                   <span aria-hidden className="absolute -left-10 top-4 h-2 w-10 bg-brand lg:hidden" />
                   <span aria-hidden className={`${STATION} bg-surface`} />
-                  <Name title="GitHub" sub="github.com/eek/lastraja.ro, public" />
+                  <Name title="GitHub" sub="github.com/eek/destraja.ro, public" />
                   <Items items={['Codul (AGPL-3.0), prompturile și datele (CC BY 4.0)', 'Datele fiecărei zile, într-un commit', 'Orice schimbare din afară trece pe la întreținător']} />
                 </div>
                 {s.flows && <Flows flows={s.flows} axis="y" className="mt-6 gap-1 lg:hidden" />}

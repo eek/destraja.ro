@@ -1,6 +1,6 @@
 # Cum contribui
 
-Mulțumim că vrei să ajuți. La Straja Legii e un proiect civic mic, întreținut de un singur om, așa că un PR clar și mic
+Mulțumim că vrei să ajuți. destrajă.ro e un proiect civic mic, întreținut de un singur om, așa că un PR clar și mic
 ajunge mai repede pe site decât unul mare.
 
 ## Pornește site-ul local
@@ -8,8 +8,8 @@ ajunge mai repede pe site decât unul mare.
 Nu ai nevoie de abonamente AI și nici de cont Cloudflare: datele zilei sunt deja în `data/`.
 
 ```bash
-git clone https://github.com/eek/lastraja.ro.git
-cd lastraja.ro
+git clone https://github.com/eek/destraja.ro.git
+cd destraja.ro
 npm install
 npm run dev        # http://localhost:3000
 ```

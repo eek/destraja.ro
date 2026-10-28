@@ -337,13 +337,13 @@ function edition(level, data) {
   text += `\nToate proiectele în consultare: ${track(`${SITE}/#legi`)}\n`;
 
   const footer = footerHtml({
-    reason: `Primești acest e-mail pentru că te-ai abonat la alertele lastraja.ro, nivelul „${esc(levelName)}”. Îți scriem doar în zilele lucrătoare în care apare ceva nou pe nivelul tău.`,
+    reason: `Primești acest e-mail pentru că te-ai abonat la alertele destrajă.ro, nivelul „${esc(levelName)}”. Îți scriem doar în zilele lucrătoare în care apare ceva nou pe nivelul tău.`,
     links: [
       ['{{prefs_url}}', 'Schimbă nivelul'],
       ['{{unsubscribe_url}}', 'Dezabonează-te'],
     ],
   });
-  text += `\n—\nPrimești acest e-mail pentru că te-ai abonat la alertele lastraja.ro, nivelul „${levelName}”.\nSchimbă nivelul: {{prefs_url}}\nDezabonează-te: {{unsubscribe_url}}\n\nAnalizele sunt făcute cu AI și pot conține erori; verifică textul oficial pe senat.ro.\n`;
+  text += `\n—\nPrimești acest e-mail pentru că te-ai abonat la alertele destrajă.ro, nivelul „${levelName}”.\nSchimbă nivelul: {{prefs_url}}\nDezabonează-te: {{unsubscribe_url}}\n\nAnalizele sunt făcute cu AI și pot conține erori; verifică textul oficial pe senat.ro.\n`;
 
   const html = emailLayout({ title: subject, preheader, eyebrow: `${esc(dateLong)} · Alerte: ${esc(levelName.toLowerCase())}`, body, footer });
   return { subject, html, text, stats: { newBills: newBills.length, closing: closing.length, press: press.length, corrections: corrections.length } };

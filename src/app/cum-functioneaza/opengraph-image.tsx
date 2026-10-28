@@ -2,7 +2,7 @@ import { ImageResponse } from 'next/og';
 import { OG, OG_SIZE, logoSrc, ogFonts } from '@/og/og';
 
 export const dynamic = 'force-static';
-export const alt = 'Cum funcționează lastraja.ro: în fiecare dimineață, la 8, un Mac citește Senatul.';
+export const alt = 'Cum funcționează destrajă.ro: în fiecare dimineață, la 8, un Mac citește Senatul.';
 export const size = OG_SIZE;
 export const contentType = 'image/png';
 

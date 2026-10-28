@@ -106,7 +106,7 @@ export default function Dossier({
         </div>
         <button
           type="button"
-          onClick={() => downloadFile(`lastraja-proiecte-${isoToday()}.csv`, billsCsv(rows))}
+          onClick={() => downloadFile(`destraja-proiecte-${isoToday()}.csv`, billsCsv(rows))}
           {...trackAttrs('csv_download', { scope: 'table' })}
           disabled={!rows.length}
           className={`${btnSecondary} min-h-10 px-3.5 text-xs lg:ml-auto`}

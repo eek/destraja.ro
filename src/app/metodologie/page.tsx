@@ -53,13 +53,17 @@ const FAQ = [
   },
   {
     q: 'Pot folosi datele într-un articol sau într-o cercetare?',
-    a: 'Da. Analizele, scorurile și datele sunt sub licența CC BY 4.0: le poți prelua și adapta, inclusiv în scop comercial, dacă citezi sursa. Online, pune linkul la pagina proiectului pe lastraja.ro; în tipar, la radio sau la TV, spune „potrivit La Straja Legii (lastraja.ro)”. Din Camera de presă copiezi rezumatul și titluri verificabile sau descarci un CSV. Verifică textul oficial pe senat.ro înainte de publicare.',
+    a: 'Da. Analizele, scorurile și datele sunt sub licența CC BY 4.0: le poți prelua și adapta, inclusiv în scop comercial, dacă citezi sursa. Online, pune linkul la pagina proiectului pe destrajă.ro; în tipar, la radio sau la TV, spune „potrivit destrajă.ro”. Din Camera de presă copiezi rezumatul și titluri verificabile sau descarci un CSV. Verifică textul oficial pe senat.ro înainte de publicare.',
   },
   {
     q: 'Cine este în spatele proiectului?',
-    a: `lastraja.ro este un proiect civic independent. Nu reprezentăm Senatul României și nu lucrăm pentru niciun partid politic.${
+    a: `destrajă.ro este un proiect civic independent. Nu reprezentăm Senatul României și nu lucrăm pentru niciun partid politic.${
       SOURCE_URL ? ` Codul (AGPL-3.0), prompturile și datele sunt publice: ${SOURCE_URL.replace(/^https:\/\//, '')}.` : ''
     }`,
+  },
+  {
+    q: 'De ce destrajă.ro și nu lastraja.ro?',
+    a: 'Până pe 28 octombrie 2026, site-ul s-a numit lastraja.ro. Mulți l-au confundat cu stațiunea Straja, așa că i-am schimbat numele după ce facem: stăm de strajă. Linkurile vechi duc în continuare la pagina potrivită de aici.',
   },
 ];
 

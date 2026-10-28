@@ -25,7 +25,7 @@ const OUTLETS = JSON.parse(fs.readFileSync(path.join(DATA, 'news-outlets.json'),
 const LAST_RUN = path.join(ROOT, '.cache', 'news-last-run.json');
 
 // Nu sunt presă: surse oficiale, rețele sociale, motoare de căutare.
-const NOT_PRESS = ['senat.ro', 'cdep.ro', 'gov.ro', 'just.ro', 'lastraja.ro', 'facebook.com', 'instagram.com', 'x.com', 'twitter.com', 'linkedin.com', 'youtube.com', 'tiktok.com', 'reddit.com', 'google.com', 'vertexaisearch.cloud.google.com'];
+const NOT_PRESS = ['senat.ro', 'cdep.ro', 'gov.ro', 'just.ro', 'lastraja.ro', 'destraja.ro', 'destraja.md', 'facebook.com', 'instagram.com', 'x.com', 'twitter.com', 'linkedin.com', 'youtube.com', 'tiktok.com', 'reddit.com', 'google.com', 'vertexaisearch.cloud.google.com'];
 const MAX_ARTICLES = 6;
 
 // ---------- argumente ----------

@@ -1,4 +1,4 @@
-"""Modelele de decizie rulate local pe Mac, pentru lastraja.ro.
+"""Modelele de decizie rulate local pe Mac, pentru destrajă.ro.
 
 Un model de decizie („System One”) nu scrie text: primește o stare (aici un proiect de lege sau un articol de presă)
 și întrebări cu variante fixe, și dă o probabilitate pentru fiecare variantă, într-o singură trecere. Le folosim pentru

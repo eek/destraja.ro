@@ -1,5 +1,5 @@
 ---
-name: lastraja.ro
+name: destrajă.ro
 description: A calm civic monitor where the bill, its risk colour and its deadline read in one glance.
 colors:
   paper: "#f6f4ee"
@@ -171,7 +171,7 @@ components:
     padding: "20px 0"
 ---
 
-# Design System: lastraja.ro
+# Design System: destrajă.ro
 
 ## Overview
 

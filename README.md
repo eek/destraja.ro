@@ -1,8 +1,8 @@
 <p align="center">
-  <a href="https://lastraja.ro">
+  <a href="https://destraja.ro">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset=".github/readme/logo-dark.svg">
-      <img src="public/lastraja-logo.svg" alt="lastraja.ro" width="260">
+      <img src="public/lastraja-logo.svg" alt="destrajă.ro" width="260">
     </picture>
   </a>
 </p>
@@ -13,21 +13,21 @@
 </p>
 
 <p align="center">
-  <a href="https://lastraja.ro"><b>lastraja.ro</b></a> ·
-  <a href="https://lastraja.ro/metodologie">Metodologie</a> ·
-  <a href="https://lastraja.ro/presa">Camera de presă</a> ·
+  <a href="https://destraja.ro"><b>destrajă.ro</b></a> ·
+  <a href="https://destraja.ro/metodologie">Metodologie</a> ·
+  <a href="https://destraja.ro/presa">Camera de presă</a> ·
   <a href="#licență">Licență</a> ·
   <a href="#in-english">English</a>
 </p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset=".github/readme/home-dark.webp">
-  <img src=".github/readme/home-light.webp" alt="Prima pagină lastraja.ro: titlul „Stăm de strajă. Să știi ce se pregătește.” și satul 3D, cu avizierul proiectelor aflate în consultare">
+  <img src=".github/readme/home-light.webp" alt="Prima pagină destrajă.ro: titlul „Stăm de strajă. Să știi ce se pregătește.” și satul 3D, cu avizierul proiectelor aflate în consultare">
 </picture>
 
 ## Ce este
 
-**La Straja Legii** urmărește fiecare proiect de lege aflat în consultare publică la
+**destrajă.ro** (până pe 28 octombrie 2026, lastraja.ro) urmărește fiecare proiect de lege aflat în consultare publică la
 [Senatul României](https://www.senat.ro/LegiProiect.aspx). Trei modele AI, Gemini, Claude și ChatGPT, citesc separat
 textul oficial. Site-ul traduce fiecare proiect într-o propoziție, îi dă un scor de risc și te ajută să trimiți o opinie
 oficială la Senat înainte să expire termenul.
@@ -117,8 +117,8 @@ Rezultatele intră în `data/`, cu tot istoricul lor în git.
 Ai nevoie doar de Node.js 20 sau mai nou. Datele sunt deja în `data/`, deci nu-ți trebuie abonamente AI.
 
 ```bash
-git clone https://github.com/eek/lastraja.ro.git
-cd lastraja.ro
+git clone https://github.com/eek/destraja.ro.git
+cd destraja.ro
 npm install
 npm run dev       # http://localhost:3000
 ```
@@ -128,7 +128,7 @@ npm run dev       # http://localhost:3000
 | `npm run dev` | site-ul în modul de dezvoltare |
 | `npm run build` | exportul static în `out/` |
 | `npm run preview` | build plus Worker-ul și D1 local, ca pe Cloudflare (`wrangler dev`) |
-| `npm run deploy` | migrațiile D1, build și publicarea pe lastraja.ro (doar pentru întreținător) |
+| `npm run deploy` | migrațiile D1, build și publicarea pe destraja.ro (doar pentru întreținător) |
 
 ## Structura
 
@@ -202,7 +202,7 @@ celelalte două. Textul raportului nu ajunge niciodată la modelul care scrie co
 
 Vizitatorii aleg un nivel (`all`: tot, cu rezumat; `yellow`: risc mediu și ridicat; `red`: doar risc ridicat) și confirmă
 adresa din e-mail. `worker/subscribe.ts` trimite confirmarea prin Cloudflare Email Service (doar de la
-`alerte@lastraja.ro`) și ține abonații în D1. Linkurile de preferințe și dezabonare sunt semnate cu `SUBSCRIBE_KEY`;
+`alerte@destraja.ro`) și ține abonații în D1. Linkurile de preferințe și dezabonare sunt semnate cu `SUBSCRIBE_KEY`;
 dezabonarea dintr-un click (`List-Unsubscribe`) șterge adresa.
 
 `npm run straja:digest` scrie ediția zilei în `ops/digest/` (previzualizare). Cu `--send` o trimite prin Worker
@@ -231,8 +231,8 @@ privat; vezi [SECURITY.md](SECURITY.md).
 
 - **Codul:** [AGPL-3.0](LICENSE). Dacă rulezi o versiune modificată pe un site, publică și tu modificările.
 - **Analizele și datele:** [CC BY 4.0](LICENSE-DATA.md). Le poți prelua și adapta, inclusiv în scop comercial, dacă
-  citezi sursa: online, cu link la pagina proiectului pe lastraja.ro; în tipar, la radio sau la TV, „potrivit La Straja
-  Legii (lastraja.ro)”. Textele oficiale, citatele de presă, datele de contact ale parlamentarilor și logoul nu intră în
+  citezi sursa: online, cu link la pagina proiectului pe destrajă.ro; în tipar, la radio sau la TV, „potrivit
+  destrajă.ro”. Textele oficiale, citatele de presă, datele de contact ale parlamentarilor și logoul nu intră în
   licență; detalii în [LICENSE-DATA.md](LICENSE-DATA.md).
 - **OCR:** textul documentelor scanate e recunoscut cu [MinerU](https://github.com/opendatalab/MinerU) (OpenDataLab,
   MinerU Open Source License, bazată pe Apache-2.0; modelul MinerU2.5-Pro, Apache-2.0) și verificat cu
@@ -240,10 +240,10 @@ privat; vezi [SECURITY.md](SECURITY.md).
 
 ## In English
 
-**La Straja Legii** ("Guarding the Law") is an independent civic watch over every bill in public consultation at the
+**destrajă.ro** ("on guard", from *a sta de strajă*) is an independent civic watch over every bill in public consultation at the
 Romanian Senate. Three AI models (Gemini, Claude and ChatGPT) read each official text separately. The site turns each
 bill into one plain sentence and a risk score, shows where the models disagree, and helps citizens file an official
 opinion before the deadline. The Senate's PDFs are scans: their text is recognised locally with MinerU (OpenDataLab)
 and checked page by page with Tesseract. Built with Next.js (static export) on Cloudflare; the daily pipeline runs on the
-maintainer's Mac. Code: AGPL-3.0. Analyses and data: CC BY 4.0. Please credit "La Straja Legii (lastraja.ro)" and link
+maintainer's Mac. Code: AGPL-3.0. Analyses and data: CC BY 4.0. Please credit "destrajă.ro" and link
 to the bill page.

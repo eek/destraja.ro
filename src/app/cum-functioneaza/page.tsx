@@ -15,12 +15,12 @@ import Sandbox from '@/components/tech/Sandbox';
 import InfraMap from '@/components/tech/InfraMap';
 
 const DESCRIPTION =
-  'Ce se întâmplă în fiecare dimineață pe lastraja.ro: Senatul, trei modele AI care citesc separat, verificarea presei în cod, unde rulează site-ul și cu ce e construit. Codul și datele sunt publice.';
+  'Ce se întâmplă în fiecare dimineață pe destrajă.ro: Senatul, trei modele AI care citesc separat, verificarea presei în cod, unde rulează site-ul și cu ce e construit. Codul și datele sunt publice.';
 
 export const metadata: Metadata = {
   title: 'Cum funcționează',
   description: DESCRIPTION,
-  openGraph: { title: 'Cum funcționează lastraja.ro', description: DESCRIPTION },
+  openGraph: { title: 'Cum funcționează destrajă.ro', description: DESCRIPTION },
 };
 
 const TOC = [

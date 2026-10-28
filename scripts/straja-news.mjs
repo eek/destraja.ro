@@ -165,7 +165,13 @@ async function checkBill(bill) {
     // Ziua în care l-am găsit prima oară, doar pentru diagnostic. Pe site și în alerte „recent” ține de data
     // publicării. Articolele găsite înainte de acest câmp rămân fără el: nu inventăm o dată.
     const firstSeenAt = old ? old.firstSeenAt : todayBucharest();
-    lists[kind].set(k, { ...v.article, foundBy: [...new Set([...(old?.foundBy ?? []), ...v.article.foundBy])], ...(firstSeenAt && { firstSeenAt }) });
+    // Poziția articolului (scripts/straja-stance.mjs) rămâne: articolul e același, nu-l mai dăm o dată la citit.
+    lists[kind].set(k, {
+      ...v.article,
+      foundBy: [...new Set([...(old?.foundBy ?? []), ...v.article.foundBy])],
+      ...(firstSeenAt && { firstSeenAt }),
+      ...(old?.decision && { decision: old.decision }),
+    });
   }
 
   const sortList = (m) => [...m.values()].sort((a, b) => (b.publishedAt ?? '').localeCompare(a.publishedAt ?? '') || a.domain.localeCompare(b.domain));

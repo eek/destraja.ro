@@ -95,8 +95,9 @@ ${JSON.stringify(request.questions, null, 1)}
 Reply with JSON only, no prose:
 {"stance": {"choice": "<option id>", "confidence": <0..1>}, "source": {"choice": "<option id>", "confidence": <0..1>}, "about": {"noul": <probability of true, 0..1>}, "release": {"noul": <probability of true, 0..1>}}`;
 
-async function askLuna(requests) {
+async function askLuna(requests, onProgress) {
   const answers = new Map();
+  let saved = 0;
   const valid = (a) =>
     a?.stance?.choice in QUESTIONS.stance.criteria &&
     a?.source?.choice in QUESTIONS.source.criteria &&
@@ -104,6 +105,10 @@ async function askLuna(requests) {
   await mapLimit(requests, 4, async (r) => {
     const res = await runModel('codex', lunaPrompt(r), { codexModel: 'gpt-6-luna', timeoutMs: 240_000 });
     if (res.status === 'ok' && valid(res.data)) answers.set(r.id, res.data);
+    if (answers.size - saved >= 20) {
+      saved = answers.size;
+      onProgress?.(answers);
+    }
   });
   return answers;
 }
@@ -179,35 +184,51 @@ async function main() {
   const start = Date.now();
   const byModel = {};
   const asked = (key) => requests.filter((_, i) => todo[i].need.includes(key));
-  for (const model of models) if (asked(model.key).length) byModel[model.key] = await decide(model, asked(model.key), 'stance');
-  if (luna && asked('luna').length) byModel.luna = await askLuna(asked('luna'));
-
   const today = new Date().toISOString().slice(0, 10);
-  const touched = new Set();
-  let ok = 0;
-  todo.forEach(({ file, item, kept, need }, i) => {
-    const answers = { ...kept };
-    for (const key of need) {
-      const a = byModel[key]?.get(String(i));
-      if (!a) continue;
-      answers[key] = {
-        stance: a.stance.choice,
-        stanceP: round(a.stance.confidence),
-        source: a.source.choice,
-        sourceP: round(a.source.confidence),
-        about: round(a.about.noul),
-        release: round(a.release.noul),
-      };
-    }
-    // Ce lipsește încă (de exemplu Luna, fără răspuns azi) se cere la rularea următoare.
-    if (!Object.keys(answers).length) return;
-    item.decision = { v: VERSION, checkedAt: today, text: sources[i], models: answers };
-    delete item.clef;
-    touched.add(file);
-    if (wanted.every((k) => answers[k])) ok++;
-  });
-  // Articolele au fost completate pe loc, în obiectele citite la început; scriem doar fișierele atinse.
-  for (const file of touched) fs.writeFileSync(file, JSON.stringify(docs.get(file), null, 2) + '\n');
+
+  // Scriem după fiecare model și, la Luna, din 20 în 20 de răspunsuri: dacă rularea zilnică oprește pasul la limita
+  // de timp, ce s-a citit deja rămâne salvat, iar data viitoare se cere doar ce lipsește.
+  const save = () => {
+    const touched = new Set();
+    let ok = 0;
+    todo.forEach(({ file, item, kept, need }, i) => {
+      const answers = { ...kept };
+      for (const key of need) {
+        const a = byModel[key]?.get(String(i));
+        if (!a) continue;
+        answers[key] = {
+          stance: a.stance.choice,
+          stanceP: round(a.stance.confidence),
+          source: a.source.choice,
+          sourceP: round(a.source.confidence),
+          about: round(a.about.noul),
+          release: round(a.release.noul),
+        };
+      }
+      // Ce lipsește încă (de exemplu Luna, fără răspuns azi) se cere la rularea următoare.
+      if (!Object.keys(answers).length) return;
+      item.decision = { v: VERSION, checkedAt: today, text: sources[i], models: answers };
+      delete item.clef;
+      touched.add(file);
+      if (wanted.every((k) => answers[k])) ok++;
+    });
+    // Articolele au fost completate pe loc, în obiectele citite la început; scriem doar fișierele atinse.
+    for (const file of touched) fs.writeFileSync(file, JSON.stringify(docs.get(file), null, 2) + '\n');
+    return ok;
+  };
+
+  for (const model of models) {
+    if (!asked(model.key).length) continue;
+    byModel[model.key] = await decide(model, asked(model.key), 'stance');
+    save();
+  }
+  if (luna && asked('luna').length) {
+    byModel.luna = await askLuna(asked('luna'), (answers) => {
+      byModel.luna = answers;
+      save();
+    });
+  }
+  const ok = save();
   console.log(`✅ clasificare: ${JSON.stringify({ complete: ok, total: todo.length, models: wanted, seconds: Math.round((Date.now() - start) / 1000) })}`);
 }
 

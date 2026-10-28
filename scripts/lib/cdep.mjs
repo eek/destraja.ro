@@ -2,15 +2,22 @@
 //   upl_pck2015.lista?cam=2&anp=AN   proiectele cu număr de Cameră (PL-x, Pl-x, PL…) înregistrate în anul AN
 //   upl_pck2015.lista?cam=2&anb=AN   propunerile deputaților trimise întâi la Senat (BP), încă fără număr de Cameră
 //   upl_pck2015.proiect?cam=2&idp=N  fișa proiectului; `idp` rămâne același de la BP la PL-x
+//   structura2015.co?idc=N&leg=2024&cam=2  pagina unei comisii (adresa de e-mail)
 // cdep.ro are un firewall care, după prea multe cereri, răspunde cu HTTP 200 și o pagină de captcha: o recunoaștem
-// după conținut și ne oprim, iar cererile au cel puțin două secunde între ele.
+// după conținut și ne oprim, iar cererile au cel puțin cinci secunde între ele (în octombrie 2026, captcha a apărut
+// după vreo 200 de cereri la trei secunde).
 
 export const CDEP = 'https://www.cdep.ro';
 export const listUrl = (kind, year) => `${CDEP}/ords/pls/proiecte/upl_pck2015.lista?cam=2&${kind}=${year}`;
 export const sheetUrl = (idp) => `${CDEP}/ords/pls/proiecte/upl_pck2015.proiect?cam=2&idp=${idp}`;
+export const committeeUrl = (idc) => `${CDEP}/ords/pls/parlam/structura2015.co?idc=${idc}&leg=2024&cam=2`;
+
+/** Adresa de e-mail publicată pe pagina unei comisii (cp11@cdep.ro, cti@cdep.ro…), fără cea a webmasterului. */
+export const parseCommitteeEmail = (html) =>
+  [...html.matchAll(/mailto:([\w.+-]+@cdep\.ro)/gi)].map((m) => m[1].toLowerCase()).find((e) => e !== 'webmaster@cdep.ro') ?? null;
 
 const UA = 'DeStraja/1.0 (+https://destraja.ro; contact@destraja.ro)';
-const PAUSE_MS = 2000;
+const PAUSE_MS = 5000;
 let last = 0;
 
 export class CdepBlocked extends Error {}
@@ -26,14 +33,38 @@ export async function fetchCdep(url) {
   return html;
 }
 
+/** Un PDF de pe cdep.ro, cu aceeași pauză între cereri; o pagină HTML în loc de PDF înseamnă captcha sau eroare. */
+export async function fetchCdepFile(url) {
+  const wait = last + PAUSE_MS - Date.now();
+  if (wait > 0) await new Promise((r) => setTimeout(r, wait));
+  last = Date.now();
+  const res = await fetch(url, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(120_000) });
+  if (!res.ok) throw new Error(`HTTP ${res.status} la ${url}`);
+  const buf = Buffer.from(await res.arrayBuffer());
+  if (buf.subarray(0, 5).toString() !== '%PDF-') {
+    if (/Firewall Captcha Authentication/i.test(buf.toString('utf8'))) throw new CdepBlocked('cdep.ro cere captcha; ne oprim până la rularea următoare');
+    throw new Error(`${url} nu e un PDF`);
+  }
+  return buf;
+}
+
 const ENTITIES = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ' };
 const decode = (s) =>
   s.replace(/&(#x[0-9a-f]+|#\d+|[a-z]+);/gi, (m, e) =>
     e[0] === '#' ? String.fromCodePoint(e[1].toLowerCase() === 'x' ? parseInt(e.slice(2), 16) : +e.slice(1)) : (ENTITIES[e.toLowerCase()] ?? m),
   );
 /** Text dintr-o bucată de HTML, pe un rând, cu diacriticele cu virgulă. */
+// Titlurile Camerei scriu ghilimelele ca „<< Noua casă >>” și exponenții ca „art.1<sup>1</sup>”: le păstrăm înainte să
+// scoatem etichetele HTML, altfel „<< Noua casă >” arată ca o etichetă și dispare.
+const SUP = '⁰¹²³⁴⁵⁶⁷⁸⁹';
 export const clean = (html = '') =>
-  decode(html.replace(/<[^>]+>/g, ' '))
+  decode(
+    html
+      .replace(/<sup>\s*(\d+)\s*<\/sup>/gi, (_, d) => [...d].map((x) => SUP[x]).join(''))
+      .replace(/<<\s*/g, '„')
+      .replace(/\s*>>/g, '”')
+      .replace(/<\/?[a-z!][^>]*>/gi, ' '),
+  )
     .replace(/ş/g, 'ș')
     .replace(/Ş/g, 'Ș')
     .replace(/ţ/g, 'ț')
@@ -90,8 +121,32 @@ export function parseSheet(html) {
     if (!date) continue;
     const i = cells.indexOf(date);
     const action = cells.slice(i + 1).find((c) => c.length > 3);
-    if (action) timeline.push({ camera: cells[i - 1] === 'Senat' ? 'Senat' : cells[i - 1] === 'CD' ? 'CD' : cells[i - 1] || null, data: date, actiune: action });
+    // Camera se vede după culoarea celulei cu data: albastru la Senat, portocaliu la Cameră.
+    const color = row.match(/bgcolor="#(dfefff|fff0d8)"[^>]*>\s*\d{2}\.\d{2}\.\d{4}/i)?.[1]?.toLowerCase();
+    const camera = color === 'dfefff' ? 'Senat' : color === 'fff0d8' ? 'Camera Deputaților' : null;
+    if (action) timeline.push({ camera, data: date, actiune: action });
   }
+
+  // Documentele: fiecare PDF stă într-o celulă, iar eticheta lui („Forma adoptată de Senat”) în celula următoare.
+  const documente = [];
+  for (const [, href, label] of html.matchAll(/<a href="(\/proiecte\/[^"]+\.pdf)"[^>]*>[\s\S]*?<\/a>\s*<\/td>\s*<td[^>]*>([\s\S]*?)<\/td>/gi)) {
+    if (!documente.some((d) => d.url.endsWith(href))) documente.push({ url: `${CDEP}${href}`, eticheta: clean(label) });
+  }
+
+  // Ultima trimitere la comisii: cine face raportul, cine dă aviz și termenele (amendamente, raport).
+  const committees = (block) =>
+    [...(block ?? '').matchAll(/structura2015\.co\?idc=(\d+)[^"]*">([^<]+)<\/a>/g)].map(([, idc, nume]) => ({ idc: +idc, nume: clean(nume) }));
+  const isoDate = (d) => d?.replace(/^(\d{2})\.(\d{2})\.(\d{4})$/, '$3-$2-$1') ?? null;
+  const raport = [...proc.matchAll(/trimis pentru raport la:([\s\S]*?)<\/td>\s*<\/tr>/g)].at(-1)?.[1];
+  const aviz = [...proc.matchAll(/trimis pentru aviz la:([\s\S]*?)<\/td>\s*<\/tr>/g)].at(-1)?.[1];
+  const comisii = raport
+    ? {
+        raport: committees(raport),
+        aviz: committees(aviz),
+        termenAmendamente: isoDate(raport.match(/termen depunere amendamente:\s*([\d.]+)/)?.[1]),
+        termenRaport: isoDate(raport.match(/termen depunere raport:\s*([\d.]+)/)?.[1]),
+      }
+    : null;
   return {
     titlu: titles.at(-1) ?? null,
     bpi: field('- B\\.P\\.I\\.:'),
@@ -104,5 +159,7 @@ export function parseSheet(html) {
     initiatori,
     obiect: field('Obiect de reglementare:'),
     timeline,
+    documente,
+    comisii,
   };
 }

@@ -10,6 +10,7 @@ import { ThemeToggle } from './ThemeControls';
 
 const NAV = [
   { href: '/#legi', label: 'Legi', match: (p: string) => p === '/' || p.startsWith('/legi') },
+  { href: '/camera', label: 'Camera', match: (p: string) => p.startsWith('/camera') },
   { href: '/parlamentari', label: 'Parlamentari', match: (p: string) => p.startsWith('/parlamentari') },
   { href: '/presa', label: 'Presă și date', match: (p: string) => p.startsWith('/presa') },
   { href: '/metodologie', label: 'Metodologie', match: (p: string) => p.startsWith('/metodologie') },

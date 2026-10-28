@@ -125,6 +125,14 @@ async function main() {
 
     const camera = await step('Camera Deputaților', 'node', ['scripts/straja-camera.mjs'], { timeoutMs: 900_000 });
     if (!camera.ok) summary.push('legătura cu Camera Deputaților a eșuat');
+    // Lista Camerei și fișele noi sau schimbate (cel mult 50, la 5 secunde una de alta), apoi analiza câtorva proiecte:
+    // întâi cele pe ordinea de zi, apoi cele cu raport, apoi cele mai noi.
+    const cdep = await step('Camera: proiecte', 'node', ['scripts/straja-cdep.mjs', '--max=50'], { timeoutMs: 1_800_000 });
+    if (!cdep.ok) summary.push('lista Camerei a eșuat');
+    else {
+      const cdepCouncil = await step('Camera: analize', 'node', ['scripts/straja-council.mjs', '--camera', '--due', '--max=8'], { timeoutMs: 7_200_000 });
+      if (!cdepCouncil.ok) summary.push('analizele Camerei au eșuat');
+    }
 
     const ces = await step('Avize CES', 'node', ['scripts/straja-ces.mjs'], { timeoutMs: 1_800_000 });
     if (!ces.ok) summary.push('rezumatul avizelor CES a eșuat');
@@ -171,7 +179,9 @@ async function main() {
 
     const changed = Object.entries(mtimes())
       .filter(([f, t]) => analysesBefore[f] !== t)
-      .map(([f]) => f.replace(/\.json$/, ''));
+      .map(([f]) => f.replace(/\.json$/, ''))
+      // Proiectele de la Cameră n-au memoriu pentru formularul Senatului.
+      .filter((slug) => !slug.startsWith('plx-'));
     if (changed.length) await step('Memorii .docx', 'node', ['scripts/straja-docx.mjs', ...changed]);
 
     const counts = checkData();

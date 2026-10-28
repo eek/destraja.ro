@@ -4,6 +4,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { writeBillTexts } from './lib/pdf-text.mjs';
 import { runModel } from './lib/ai-cli.mjs';
+import { CdepBlocked, fetchCdepFile } from './lib/cdep.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(__dirname, '..');
@@ -32,22 +33,51 @@ async function extractPdfTextsForBill(bill) {
 }
 
 function buildCouncilPrompt(bill, texts) {
-  const fgSnippet = (texts.forma_initiatorului || '').slice(0, 14000);
+  // La Cameră, textul dezbătut e forma adoptată de Senat, dacă Senatul a votat deja; altfel forma inițiatorului. La legile de
+  // aprobare a unei ordonanțe, legea are un articol, iar conținutul e în ordonanță: le dăm pe amândouă.
+  const main = texts.forma_senat || texts.forma_initiatorului || '';
+  const oug = texts.forma_ordonanta || '';
+  const fgSnippet = (oug ? `${main.slice(0, 5000)}\n\n[TEXTUL ORDONANȚEI]\n${oug}` : main).slice(0, 14000);
   const emSnippet = (texts.expunere_motive || '').slice(0, 10000);
   const initiatorsStr = (bill.initiators || [])
     .map((i) => `${i.name} (${i.role} ${i.party})`)
     .join(', ');
 
-  return `Ești un auditor legislativ și constituționalist român de elită. Analizează următoarea propunere legislativă aflată în consultare publică la Senatul României și returnează EXCLUSIV un obiect JSON valid (fără alte comentarii în afara JSON-ului).
-
-DATE OFICIALE SENAT:
+  const cam = bill.chamber;
+  const intro = cam
+    ? `Analizează următorul proiect de lege aflat în dezbatere la Camera Deputaților`
+    : `Analizează următoarea propunere legislativă aflată în consultare publică la Senatul României`;
+  const facts = cam
+    ? `DATE OFICIALE CAMERA DEPUTAȚILOR:
+- Indicativ: ${bill.id}${cam.numarSenat ? ` (la Senat: ${cam.numarSenat})` : ''}
+- Titlu oficial: ${bill.officialTitle}
+- Stadiu: ${cam.stadiu}
+- Camera decizională: ${cam.cameraDecizionala || 'necunoscută'}
+- Comisiile care fac raportul: ${cam.raport.join('; ') || 'nestabilite încă'}
+- Termen pentru amendamente: ${cam.termenAmendamente || 'nestabilit'}
+- Procedură de urgență: ${bill.emergencyRequested ? 'DA' : 'NU'}
+- Inițiatori: ${initiatorsStr || cam.initiator || 'Vezi documentele PDF'}
+- Obiectul de reglementare, după fișa Camerei: ${cam.obiect || '-'}`
+    : `DATE OFICIALE SENAT:
 - Indicativ: ${bill.id}
 - Titlu oficial: ${bill.officialTitle}
 - Termen consultare publică: ${bill.consultationDeadline}
 - Procedură de urgență solicitată: ${bill.emergencyRequested ? 'DA' : 'NU'}
-- Inițiatori: ${initiatorsStr || 'Vezi documentele PDF'}
+- Inițiatori: ${initiatorsStr || 'Vezi documentele PDF'}`;
+  const textLabel = cam
+    ? texts.forma_senat
+      ? 'TEXT EXTRAS DIN FORMA ADOPTATĂ DE SENAT (textul pe care îl dezbate Camera)'
+      : 'TEXT EXTRAS DIN FORMA INIȚIATORULUI (dacă e disponibil, altfel bazează-te pe titlu și context)'
+    : 'TEXT EXTRAS DIN FORMA INIȚIATORULUI (dacă e disponibil, altfel bazează-te pe titlu și context)';
+  const formRule = cam
+    ? `4. Câmpul "senatForm" conține aici propunerea de modificare pe care un cetățean o trimite prin e-mail comisiei Camerei care face raportul (un deputat o poate prelua ca amendament): articleRef = articolul vizat, proposalContent = textul propus pentru articol (sau eliminarea lui), argumentation = motivarea, otherComments = alte observații. Respectă STRICT limitele de caractere:`
+    : `4. Pentru formularul Senatului, respectă STRICT limitele de caractere:`;
 
-TEXT EXTRAS DIN FORMA INIȚIATORULUI (dacă e disponibil, altfel bazează-te pe titlu și context):
+  return `Ești un auditor legislativ și constituționalist român de elită. ${intro} și returnează EXCLUSIV un obiect JSON valid (fără alte comentarii în afara JSON-ului).
+
+${facts}
+
+${textLabel}:
 ${fgSnippet || '[PDF scanat ca imagine sau indisponibil text]'}
 
 TEXT EXTRAS DIN EXPUNEREA DE MOTIVE:
@@ -57,7 +87,7 @@ REGULI DE RIGOARE:
 1. Nu exagera și nu inventa articole care nu există. Separă clar pretextul din Expunerea de Motive de efectul mecanic real al articolelor.
 2. Verifică: (a) Claritatea/previzibilitatea legii (Art. 1 alin. 5 / Art. 23 alin. 12 Constituție), (b) Impactul asupra concurenței și Directiva (UE) 2018/958 privind testul de proporționalitate, (c) Directiva (UE) 2015/1535 (TRIS) dacă reglementează servicii digitale/AI, (d) Impactul bugetar sau birocratic asupra cetățenilor/IMM-urilor.
 3. Dacă legea este benignă, tehnică sau pozitivă, dă-i scor mic de risc (1-3, "green") și explică onest de ce e utilă sau neutră. Dacă are capcane, monopoluri, taxe sau sancțiuni disproporționate, dă-i scor 4-6 ("yellow") sau 7-10 ("red").
-4. Pentru formularul Senatului, respectă STRICT limitele de caractere:
+${formRule}
    - articleRef: MAXIMUM 50 caractere
    - proposalContent: MAXIMUM 380 caractere
    - argumentation: MAXIMUM 380 caractere
@@ -170,8 +200,108 @@ async function analyzeBillWithCouncil(bill, force = false) {
   return analysis;
 }
 
+// ─── Camera Deputaților ─────────────────────────────────────────────────────────────────────────────────────────
+// node scripts/straja-council.mjs --camera [slug] [--due] [--max=10]
+// Fără slug, --due alege proiectele aflate acum la Cameră, fără analiză și neurmărite de la Senat: întâi cele pe ordinea
+// de zi, apoi cele cu raport, apoi cele mai noi. Fiecare rulare face cel mult --max, ca analizele să se strângă treptat.
+const CDEP_DIR = path.join(DATA_DIR, 'cdep');
+const AT_CHAMBER = /^(la comisii|raport|pe ordinea de zi|în reexaminare|aviz|sesizare)/i;
+const PRIORITY = [/^pe ordinea de zi/i, /^raport/i];
+
+// Documentele care ne trebuie din fișa Camerei și numele sub care le păstrăm (scripts/lib/pdf-text.mjs: textName).
+const CDEP_DOCS = [
+  { type: 'forma_senat', match: /^Forma adoptată de Senat/i },
+  { type: 'forma_initiatorului', match: /^Forma inițiatorului/i },
+  { type: 'forma_ordonanta', match: /^Ordonanța( de urgență)? a Guvernului/i },
+  { type: 'expunere_motive', match: /^Expunerea de motive/i },
+];
+
+function chamberBill(sheet) {
+  const f = sheet.fisa;
+  const comisii = f.comisii ?? {};
+  return {
+    id: sheet.numar,
+    slug: sheet.slug,
+    officialTitle: sheet.titlu,
+    emergencyRequested: /^da/i.test(f.urgenta ?? ''),
+    initiators: f.initiatori.map((i) => ({ name: i.nume, role: 'parlamentar', party: i.partid ?? '' })),
+    chamber: {
+      numarSenat: f.numarSenat,
+      stadiu: sheet.stadiu,
+      cameraDecizionala: f.cameraDecizionala,
+      raport: (comisii.raport ?? []).map((c) => c.nume),
+      termenAmendamente: comisii.termenAmendamente ?? null,
+      initiator: f.initiatori.length ? null : 'Guvernul',
+      obiect: f.obiect,
+    },
+  };
+}
+
+/** Descarcă textul proiectului și expunerea de motive; întoarce false dacă fișa n-are niciun text al legii. */
+async function downloadChamberPdfs(sheet) {
+  const dir = path.join(PDF_DIR, sheet.slug);
+  const wanted = CDEP_DOCS.map((d) => ({ ...d, doc: (sheet.fisa.documente ?? []).find((x) => d.match.test(x.eticheta)) })).filter((d) => d.doc);
+  if (!wanted.some((d) => d.type.startsWith('forma'))) return false;
+  fs.mkdirSync(dir, { recursive: true });
+  for (const { type, doc } of wanted) {
+    const file = path.join(dir, `${type}_${path.basename(new URL(doc.url).pathname).replace(/_/g, '')}`);
+    if (!fs.existsSync(file)) fs.writeFileSync(file, await fetchCdepFile(doc.url));
+  }
+  return true;
+}
+
+async function mainChamber(args) {
+  const slug = args.find((a) => !a.startsWith('--'));
+  const max = Number(args.find((a) => a.startsWith('--max='))?.split('=')[1] ?? 10);
+  const index = JSON.parse(fs.readFileSync(path.join(CDEP_DIR, 'index.json'), 'utf8')).proiecte;
+  const read = (s) => {
+    const file = path.join(CDEP_DIR, 'proiecte', `${s}.json`);
+    return fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : null;
+  };
+  const rank = (p) => {
+    const i = PRIORITY.findIndex((re) => re.test(p.stadiu));
+    return i === -1 ? PRIORITY.length : i;
+  };
+  const targets = slug
+    ? [read(slug)].filter(Boolean)
+    : index
+        .filter((p) => !p.senat && AT_CHAMBER.test(p.stadiu) && !fs.existsSync(path.join(ANALYSES_DIR, `${p.slug}.json`)))
+        .sort((a, b) => rank(a) - rank(b) || b.inregistrat.localeCompare(a.inregistrat))
+        .map((p) => read(p.slug))
+        .filter((s) => s && !s.senat);
+
+  let done = 0;
+  let failed = 0;
+  for (const sheet of targets) {
+    if (done >= max) break;
+    try {
+      if (!(await downloadChamberPdfs(sheet))) {
+        console.log(`⏭️  ${sheet.numar}: fișa n-are încă textul proiectului`);
+        continue;
+      }
+    } catch (err) {
+      if (err instanceof CdepBlocked) {
+        console.log(`⏸️  ${err.message}`);
+        break;
+      }
+      console.log(`⚠️  ${sheet.numar}: ${err.message}`);
+      failed++;
+      continue;
+    }
+    try {
+      await analyzeBillWithCouncil(chamberBill(sheet), args.includes('--force'));
+      done++;
+    } catch (err) {
+      console.log(`⚠️  ${sheet.numar}: ${err.message}`);
+      failed++;
+    }
+  }
+  console.log(`🏛️ Camera: ${done} proiecte analizate${failed ? `, ${failed} cu erori` : ''}`);
+}
+
 async function main() {
   const args = process.argv.slice(2);
+  if (args.includes('--camera')) return mainChamber(args);
   const extractOnly = args.includes('--extract-texts');
   const targetSlug = args.find((a) => !a.startsWith('--'));
 

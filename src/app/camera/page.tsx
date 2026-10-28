@@ -1,0 +1,60 @@
+import type { Metadata } from 'next';
+import Link from 'next/link';
+import { getCdepIndex, getCdepList, getCdepSlugs } from '@/lib/cdep';
+import { dayDiff } from '@/lib/cdep-text';
+import { formatDateRo, todayISO } from '@/lib/format';
+import { Container, linkCls } from '@/components/ui';
+import CameraExplorer from '@/components/camera/CameraExplorer';
+
+export const metadata: Metadata = {
+  title: 'La Camera Deputaților',
+  description:
+    'Proiectele de lege aflate acum la Camera Deputaților: comisia care face raportul, termenul pentru amendamente și unde a ajuns fiecare. Camera decide la final pentru majoritatea legilor.',
+};
+
+export default async function CameraPage() {
+  const [items, pages, index] = await Promise.all([getCdepList(), getCdepSlugs(), getCdepIndex()]);
+  const builtOn = todayISO();
+  const count = (stage: string) => items.filter((p) => p.stage === stage).length;
+  const soon = items.filter((p) => p.stage === 'comisii' && p.termenAmendamente && dayDiff(p.termenAmendamente, builtOn) >= 0 && dayDiff(p.termenAmendamente, builtOn) <= 7).length;
+  const stats = [
+    { n: count('comisii'), label: 'la comisii' },
+    { n: count('raport'), label: 'cu raportul gata' },
+    { n: count('plen'), label: 'pe ordinea de zi a plenului' },
+    { n: soon, label: 'cu termen de amendamente în 7 zile' },
+  ];
+
+  return (
+    <Container className="py-12 sm:py-16">
+      <div className="max-w-2xl">
+        <h1 className="font-display text-[clamp(2.4rem,5vw,4rem)] font-normal leading-[1.05]">La Camera Deputaților</h1>
+        <p className="mt-4 text-lg leading-8 text-body">
+          Camera Deputaților decide la final pentru majoritatea legilor, inclusiv pentru toate proiectele din{' '}
+          <Link href="/#legi" className={linkCls}>
+            consultarea Senatului
+          </Link>
+          . Aici vezi ce e acum la Cameră, ce comisie face raportul și până când se pot propune amendamente.
+        </p>
+      </div>
+
+      <dl className="mt-8 grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-line bg-line sm:grid-cols-4">
+        {stats.map((s) => (
+          <div key={s.label} className="flex flex-col bg-surface px-5 py-4">
+            <dt className="text-sm leading-5 text-muted">{s.label}</dt>
+            <dd className="order-first text-3xl font-semibold tabular-nums text-ink">{s.n}</dd>
+          </div>
+        ))}
+      </dl>
+
+      <div className="mt-10">
+        <CameraExplorer items={items} pages={pages} builtOn={builtOn} />
+      </div>
+
+      <p className="mt-8 max-w-2xl text-xs leading-5 text-muted">
+        Datele vin din lista proiectelor înregistrate la Camera Deputaților în {index?.an ?? 'acest an'} și din fișa fiecărui proiect de pe cdep.ro
+        {index ? `, citite pe ${formatDateRo(index.cititLa.slice(0, 10))}` : ''}. Analiza modelelor AI apare pe proiectele noi și pe cele programate la
+        vot; pentru celelalte arătăm deocamdată doar datele oficiale.
+      </p>
+    </Container>
+  );
+}

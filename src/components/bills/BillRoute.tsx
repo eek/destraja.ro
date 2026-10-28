@@ -5,7 +5,7 @@ import { trackAttrs } from '@/lib/analytics';
 import { panel } from '@/components/ui';
 
 type State = 'done' | 'now' | 'next';
-type Step = { label: string; detail: string; state: State };
+export type RouteStep = { label: string; detail: string };
 
 // „07-10-2026” (istoricul Senatului) → „2026-10-07”.
 const isoFromSenat = (d?: string) => (d ? d.split('-').reverse().join('-') : null);
@@ -28,7 +28,7 @@ export default function BillRoute({ bill }: { bill: EnrichedBill }) {
     : bill.leftListAt && bill.announcedDeadline
       ? `închisă pe ${formatDateRo(bill.leftListAt)}, înainte de termen`
       : `încheiată pe ${formatDeadline(bill.consultationDeadline)}`;
-  const steps: Step[] = [
+  const steps: RouteStep[] = [
     {
       label: 'Depus',
       detail: fromDeputies
@@ -36,19 +36,13 @@ export default function BillRoute({ bill }: { bill: EnrichedBill }) {
         : registered
           ? `la Senat, pe ${formatDateRo(registered)}`
           : 'la Senat',
-      state: 'done',
     },
-    { label: 'Consultare publică', detail: consultation, state: 'next' },
-    { label: 'Comisiile Senatului', detail: 'avize și raport', state: 'next' },
-    { label: 'Votul Senatului', detail: 'prima cameră', state: 'next' },
-    {
-      label: decisional,
-      detail: bill.camera && !fromDeputies ? `${bill.camera.numar}: ${bill.camera.stadiu}` : 'decide la final',
-      state: 'next',
-    },
-    { label: 'Promulgare', detail: 'și Monitorul Oficial', state: 'next' },
+    { label: 'Consultare publică', detail: consultation },
+    { label: 'Comisiile Senatului', detail: 'avize și raport' },
+    { label: 'Votul Senatului', detail: 'prima cameră' },
+    { label: decisional, detail: bill.camera && !fromDeputies ? `${bill.camera.numar}: ${bill.camera.stadiu}` : 'decide la final' },
+    { label: 'Promulgare', detail: 'și Monitorul Oficial' },
   ];
-  steps.forEach((s, i) => (s.state = i < now ? 'done' : i === now ? 'now' : 'next'));
 
   return (
     <section aria-labelledby="traseu" className={`${panel} mt-6 p-6 sm:p-8`}>
@@ -58,35 +52,7 @@ export default function BillRoute({ bill }: { bill: EnrichedBill }) {
         </h2>
         <p className="text-sm text-muted">Stadiul oficial la Senat: {bill.stage}</p>
       </div>
-      <ol className="mt-5 grid gap-0 md:grid-cols-6 md:gap-3">
-        {steps.map((s, i) => (
-          <li key={s.label} className="relative flex gap-3 pb-5 last:pb-0 md:flex-col md:gap-2 md:pb-0">
-            {/* Linia dintre pași: verticală pe telefon, orizontală pe ecran lat. */}
-            {i < steps.length - 1 && (
-              <span
-                aria-hidden
-                className={`absolute left-[7px] top-5 h-[calc(100%-1.25rem)] w-0.5 md:left-5 md:top-[7px] md:h-0.5 md:w-[calc(100%-0.5rem)] ${
-                  s.state === 'done' ? 'bg-ink' : 'bg-line'
-                }`}
-              />
-            )}
-            <span
-              aria-hidden
-              className={`relative z-[1] mt-0.5 h-4 w-4 shrink-0 rounded-full border-2 ${
-                s.state === 'done' ? 'border-ink bg-ink' : s.state === 'now' ? 'border-brand bg-surface ring-4 ring-brand/20' : 'border-line-strong bg-surface'
-              }`}
-            />
-            <div className="min-w-0">
-              <p className={`text-sm font-semibold ${s.state === 'next' ? 'text-muted' : 'text-ink'}`}>
-                {s.label}
-                {s.state === 'now' && <span className="ml-2 rounded-md bg-brand px-1.5 py-0.5 text-[11px] font-semibold text-on-brand">Acum</span>}
-                <span className="sr-only">{s.state === 'done' ? ' (trecut)' : s.state === 'now' ? ' (etapa de acum)' : ' (urmează)'}</span>
-              </p>
-              <p className="mt-0.5 text-[13px] leading-5 text-muted">{s.detail}</p>
-            </div>
-          </li>
-        ))}
-      </ol>
+      <RouteSteps steps={steps} now={now} />
       <p className="mt-6 border-t border-line pt-4 text-sm leading-6 text-body">
         Senatul votează primul, iar {decisional} decide la final.
         {fromDeputies && ' Propunerea vine de la deputați, care au depus-o la Cameră și au trimis-o întâi la Senat.'}
@@ -109,5 +75,41 @@ export default function BillRoute({ bill }: { bill: EnrichedBill }) {
         )}
       </p>
     </section>
+  );
+}
+
+/** Pașii drumului: cei de dinainte de `now` sunt trecuți, `now` e etapa de acum, restul urmează. */
+export function RouteSteps({ steps, now }: { steps: RouteStep[]; now: number }) {
+  const state = (i: number): State => (i < now ? 'done' : i === now ? 'now' : 'next');
+  return (
+    <ol className={`mt-5 grid gap-0 md:gap-3 ${steps.length === 5 ? 'md:grid-cols-5' : 'md:grid-cols-6'}`}>
+      {steps.map((s, i) => (
+        <li key={s.label} className="relative flex gap-3 pb-5 last:pb-0 md:flex-col md:gap-2 md:pb-0">
+          {/* Linia dintre pași: verticală pe telefon, orizontală pe ecran lat. */}
+          {i < steps.length - 1 && (
+            <span
+              aria-hidden
+              className={`absolute left-[7px] top-5 h-[calc(100%-1.25rem)] w-0.5 md:left-5 md:top-[7px] md:h-0.5 md:w-[calc(100%-0.5rem)] ${
+                state(i) === 'done' ? 'bg-ink' : 'bg-line'
+              }`}
+            />
+          )}
+          <span
+            aria-hidden
+            className={`relative z-[1] mt-0.5 h-4 w-4 shrink-0 rounded-full border-2 ${
+              state(i) === 'done' ? 'border-ink bg-ink' : state(i) === 'now' ? 'border-brand bg-surface ring-4 ring-brand/20' : 'border-line-strong bg-surface'
+            }`}
+          />
+          <div className="min-w-0">
+            <p className={`text-sm font-semibold ${state(i) === 'next' ? 'text-muted' : 'text-ink'}`}>
+              {s.label}
+              {state(i) === 'now' && <span className="ml-2 rounded-md bg-brand px-1.5 py-0.5 text-[11px] font-semibold text-on-brand">Acum</span>}
+              <span className="sr-only">{state(i) === 'done' ? ' (trecut)' : state(i) === 'now' ? ' (etapa de acum)' : ' (urmează)'}</span>
+            </p>
+            <p className="mt-0.5 text-[13px] leading-5 text-muted">{s.detail}</p>
+          </div>
+        </li>
+      ))}
+    </ol>
   );
 }

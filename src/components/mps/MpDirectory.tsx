@@ -2,23 +2,20 @@
 
 import { useMemo, useState } from 'react';
 import Link from 'next/link';
-import { ChevronDown, ChevronRight, Mail, Search, X } from 'lucide-react';
+import { ArrowDown, ArrowUp, ChevronDown, ChevronsUpDown, Mail, Search, X } from 'lucide-react';
 import type { BillLite } from '@/lib/types';
 import { PARTY_ORDER, partyFullName } from '@/lib/site';
 import { RISK, levelFromScore } from '@/lib/risk';
 import { countWord, fmt, initialRows, normalize } from '@/lib/format';
 import { computeStats, type MpStat } from '@/lib/stats';
 import { EmptyState, PartyTag, RiskDot, btnSecondary, inputCls, segCls } from '@/components/ui';
+import type { ReactNode } from 'react';
 import { trackAttrs } from '@/lib/analytics';
 
 type SortKey = 'ridicat' | 'proiecte' | 'medie' | 'nume';
+type Sort = { key: SortKey; dir: 'asc' | 'desc' };
 // Implicit după scorul mediu al proiectelor semnate: un singur proiect roșu nu urcă pe cineva în fața celor cu multe riscante.
-const SORTS: { key: SortKey; label: string }[] = [
-  { key: 'medie', label: 'Scor mediu' },
-  { key: 'ridicat', label: 'Risc ridicat' },
-  { key: 'proiecte', label: 'Nr. proiecte' },
-  { key: 'nume', label: 'Nume' },
-];
+const DEFAULT_SORT: Sort = { key: 'medie', dir: 'desc' };
 const PAGE = 40;
 
 const roleLabel = (role: string) => (role === 'senator' ? 'Senator' : role === 'deputat' ? 'Deputat' : role);
@@ -39,12 +36,16 @@ export default function MpDirectory({ bills, withEmail = [] }: { bills: BillLite
   const [query, setQuery] = useState('');
   const [party, setParty] = useState('all');
   const [role, setRole] = useState<'all' | 'senator' | 'deputat'>('all');
-  const [sort, setSort] = useState<SortKey>('medie');
+  const [sort, setSort] = useState<Sort>(DEFAULT_SORT);
+  // Click pe o coloană: o ordonează (numerele descrescător, numele alfabetic); încă un click inversează ordinea.
+  const sortBy = (key: SortKey) =>
+    setSort((cur) => (cur.key === key ? { key, dir: cur.dir === 'asc' ? 'desc' : 'asc' } : { key, dir: key === 'nume' ? 'asc' : 'desc' }));
   const [visible, setVisible] = useState(PAGE);
 
   const list = useMemo(() => {
     const terms = normalize(query.trim()).split(/\s+/).filter(Boolean);
-    const val = (m: MpStat) => (sort === 'ridicat' ? m.redCount : sort === 'proiecte' ? m.billsCount : m.avgRiskScore);
+    const val = (m: MpStat) => (sort.key === 'ridicat' ? m.redCount : sort.key === 'proiecte' ? m.billsCount : m.avgRiskScore);
+    const sign = sort.dir === 'asc' ? 1 : -1;
     return mpStats
       .filter((m) => (party === 'all' || m.party === party) && (role === 'all' || m.role === role))
       .filter((m) => {
@@ -52,9 +53,9 @@ export default function MpDirectory({ bills, withEmail = [] }: { bills: BillLite
         return terms.every((t) => text.includes(t));
       })
       .sort((a, b) =>
-        sort === 'nume'
-          ? a.name.localeCompare(b.name, 'ro')
-          : val(b) - val(a) || b.redCount - a.redCount || b.billsCount - a.billsCount || a.name.localeCompare(b.name, 'ro'),
+        sort.key === 'nume'
+          ? sign * a.name.localeCompare(b.name, 'ro')
+          : sign * (val(a) - val(b)) || b.redCount - a.redCount || b.billsCount - a.billsCount || a.name.localeCompare(b.name, 'ro'),
       );
   }, [mpStats, query, party, role, sort]);
 
@@ -113,22 +114,10 @@ export default function MpDirectory({ bills, withEmail = [] }: { bills: BillLite
         </div>
       </div>
 
-      <div className="flex min-h-14 flex-wrap items-center justify-between gap-3 py-3">
-        <p role="status" aria-live="polite" className="text-sm text-muted">
-          <strong className="font-semibold text-ink">{countWord(list.length, 'parlamentar', 'parlamentari')}</strong>
-          {hasFilters ? ' corespund căutării' : ' au semnat proiectele urmărite'}
-        </p>
-        <div className="flex max-w-full items-center gap-2 text-sm text-muted">
-          <span className="hidden sm:inline">Ordine:</span>
-          <div role="group" aria-label="Ordonează" className="flex max-w-full overflow-x-auto rounded-lg bg-sunken p-1 no-scrollbar">
-            {SORTS.map((s) => (
-              <button key={s.key} type="button" aria-pressed={sort === s.key} onClick={() => setSort(s.key)} {...trackAttrs('mp_filter', { filter: 'sort', value: s.key })} className={segCls(sort === s.key)}>
-                {s.label}
-              </button>
-            ))}
-          </div>
-        </div>
-      </div>
+      <p role="status" aria-live="polite" className="py-4 text-sm text-muted">
+        <strong className="font-semibold text-ink">{countWord(list.length, 'parlamentar', 'parlamentari')}</strong>
+        {hasFilters ? ' corespund căutării' : ' au semnat proiectele urmărite'}
+      </p>
 
       {list.length === 0 ? (
         <EmptyState
@@ -153,48 +142,52 @@ export default function MpDirectory({ bills, withEmail = [] }: { bills: BillLite
         />
       ) : (
         <>
-          <ul className="divide-y divide-line overflow-hidden rounded-2xl border border-line bg-surface">
-            {list.slice(0, shown).map((m) => (
-              <li key={m.slug}>
-                <Link href={`/parlamentari/${m.slug}`} className="group grid gap-3 px-4 py-4 transition-colors hover:bg-sunken/50 sm:grid-cols-[minmax(0,1fr)_auto_auto] sm:items-center sm:gap-6 sm:px-6">
-                  <span className="min-w-0">
-                    <span className="flex flex-wrap items-center gap-2">
-                      <span className="font-semibold text-ink group-hover:underline group-hover:underline-offset-4">{m.name}</span>
-                      <PartyTag party={m.party} />
-                      <span className="text-xs text-muted">{roleLabel(m.role)}</span>
-                      {emailSet.has(m.name) && (
-                        <span title="Are un e-mail oficial publicat" className="inline-flex items-center text-muted">
-                          <Mail className="h-3.5 w-3.5" aria-hidden />
-                          <span className="sr-only">are un e-mail oficial publicat</span>
-                        </span>
-                      )}
-                    </span>
-                    <span className="mt-2 flex flex-wrap items-center gap-1" aria-label={`${m.redCount} cu risc ridicat, ${m.yellowCount} moderat, ${m.greenCount} redus`}>
-                      {m.billIds.slice(0, 14).map((id) => (
-                        <RiskDot key={id} level={levelById.get(id) ?? 'green'} className="h-2.5 w-2.5" />
-                      ))}
-                      {m.billIds.length > 14 && <span className="ml-1 text-[11px] text-muted">+{m.billIds.length - 14}</span>}
-                    </span>
-                  </span>
-                  <dl className="flex gap-6 text-right sm:gap-8">
-                    <div>
-                      <dt className="text-[11px] text-muted">proiecte</dt>
-                      <dd className="text-base font-semibold tabular-nums text-ink">{m.billsCount}</dd>
-                    </div>
-                    <div>
-                      <dt className="text-[11px] text-muted">risc ridicat</dt>
-                      <dd className={`text-base font-semibold tabular-nums ${m.redCount ? 'text-risk-red-text' : 'text-ink'}`}>{m.redCount}</dd>
-                    </div>
-                    <div>
-                      <dt className="text-[11px] text-muted">scor mediu</dt>
-                      <dd className={`text-base font-semibold tabular-nums ${RISK[levelFromScore(m.avgRiskScore)].text}`}>{fmt(m.avgRiskScore)}</dd>
-                    </div>
-                  </dl>
-                  <ChevronRight className="hidden h-5 w-5 text-muted transition-transform group-hover:translate-x-0.5 sm:block" aria-hidden />
-                </Link>
-              </li>
-            ))}
-          </ul>
+          <div className="overflow-hidden rounded-2xl border border-line bg-surface">
+            <table className="w-full border-collapse text-left">
+              <caption className="sr-only">Parlamentarii care au semnat proiectele urmărite; antetul coloanelor ordonează tabelul.</caption>
+              <thead className="border-b border-line bg-sunken/60 text-xs text-muted">
+                <tr>
+                  <SortHeader label="Parlamentar" k="nume" sort={sort} onSort={sortBy} className="pl-4 sm:pl-6" />
+                  <SortHeader label="Proiecte" k="proiecte" sort={sort} onSort={sortBy} numeric />
+                  <SortHeader label={<>Risc<span className="hidden sm:inline"> ridicat</span></>} k="ridicat" sort={sort} onSort={sortBy} numeric />
+                  <SortHeader label={<>Scor<span className="hidden sm:inline"> mediu</span></>} k="medie" sort={sort} onSort={sortBy} numeric className="pr-4 sm:pr-6" />
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-line">
+                {list.slice(0, shown).map((m) => (
+                  <tr key={m.slug} className="group relative transition-colors hover:bg-sunken/50">
+                    <td className="py-4 pl-4 pr-2 sm:pl-6">
+                      <span className="flex flex-wrap items-center gap-x-2 gap-y-1">
+                        {/* Linkul acoperă tot rândul, ca pe vechea listă. */}
+                        <Link href={`/parlamentari/${m.slug}`} className="font-semibold text-ink after:absolute after:inset-0 group-hover:underline group-hover:underline-offset-4">
+                          {m.name}
+                        </Link>
+                        <PartyTag party={m.party} />
+                        <span className="text-xs text-muted">{roleLabel(m.role)}</span>
+                        {emailSet.has(m.name) && (
+                          <span title="Are un e-mail oficial publicat" className="inline-flex items-center text-muted">
+                            <Mail className="h-3.5 w-3.5" aria-hidden />
+                            <span className="sr-only">are un e-mail oficial publicat</span>
+                          </span>
+                        )}
+                      </span>
+                      <span className="mt-2 flex flex-wrap items-center gap-1" aria-label={`${m.redCount} cu risc ridicat, ${m.yellowCount} moderat, ${m.greenCount} redus`}>
+                        {m.billIds.slice(0, 14).map((id) => (
+                          <RiskDot key={id} level={levelById.get(id) ?? 'green'} className="h-2.5 w-2.5" />
+                        ))}
+                        {m.billIds.length > 14 && <span className="ml-1 text-[11px] text-muted">+{m.billIds.length - 14}</span>}
+                      </span>
+                    </td>
+                    <td className="px-2 py-4 text-right text-base font-semibold tabular-nums text-ink sm:px-4">{m.billsCount}</td>
+                    <td className={`px-2 py-4 text-right text-base font-semibold tabular-nums sm:px-4 ${m.redCount ? 'text-risk-red-text' : 'text-ink'}`}>{m.redCount}</td>
+                    <td className={`py-4 pl-2 pr-4 text-right text-base font-semibold tabular-nums sm:pl-4 sm:pr-6 ${RISK[levelFromScore(m.avgRiskScore)].text}`}>
+                      {fmt(m.avgRiskScore)}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
           <div className="mt-6 flex flex-col items-center justify-between gap-4 sm:flex-row">
             <p className="text-sm tabular-nums text-muted">
               Afișați {shown} din {list.length}
@@ -209,5 +202,38 @@ export default function MpDirectory({ bills, withEmail = [] }: { bills: BillLite
         </>
       )}
     </div>
+  );
+}
+
+/** Antetul unei coloane: un buton care ordonează tabelul, cu săgeata direcției și aria-sort pentru cititoarele de ecran. */
+function SortHeader({
+  label,
+  k,
+  sort,
+  onSort,
+  numeric = false,
+  className = '',
+}: {
+  label: ReactNode;
+  k: SortKey;
+  sort: Sort;
+  onSort: (k: SortKey) => void;
+  numeric?: boolean;
+  className?: string;
+}) {
+  const active = sort.key === k;
+  const Icon = !active ? ChevronsUpDown : sort.dir === 'asc' ? ArrowUp : ArrowDown;
+  return (
+    <th scope="col" aria-sort={active ? (sort.dir === 'asc' ? 'ascending' : 'descending') : 'none'} className={`px-2 py-1 font-semibold sm:px-4 ${numeric ? 'text-right' : ''} ${className}`}>
+      <button
+        type="button"
+        onClick={() => onSort(k)}
+        {...trackAttrs('mp_filter', { filter: 'sort', value: k })}
+        className={`inline-flex min-h-10 items-center gap-1 rounded-md transition-colors hover:text-ink ${numeric ? 'flex-row-reverse' : ''} ${active ? 'text-ink' : ''}`}
+      >
+        <Icon className={`h-3.5 w-3.5 shrink-0 ${active ? '' : 'opacity-50'}`} aria-hidden />
+        <span>{label}</span>
+      </button>
+    </th>
   );
 }

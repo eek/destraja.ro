@@ -35,6 +35,15 @@ function stripTags(html = '') {
   return decodeHtmlEntities(html.replace(/<[^>]+>/g, ' '));
 }
 
+// Senatul scrie grupurile neuniform: „NEAFILIAT”, „Neafiliați”, „UUR (minoritãti)” (cu ã în loc de ă). Pe site
+// le vrem ca în restul paginilor: „Neafiliați”, „Minorități”, iar partidele cu sigla lor.
+function normalizeParty(raw = '') {
+  const p = raw.trim();
+  if (!p || /^neafilia/i.test(p)) return 'Neafiliați';
+  if (/minorit/i.test(p)) return 'Minorități';
+  return p.toUpperCase();
+}
+
 function parseInitiators(raw = '') {
   if (!raw) return [];
   // Format: "Cazanciuc Robert-Marius - senator PSD; Cerva Nadia-Cosmina - senator PACE; ..."
@@ -48,10 +57,10 @@ function parseInitiators(raw = '') {
         return {
           name: m[1].trim(),
           role: m[2].toLowerCase(),
-          party: m[3].trim().toUpperCase(),
+          party: normalizeParty(m[3]),
         };
       }
-      return { name: entry, role: 'parlamentar', party: 'NEAFILIAT' };
+      return { name: entry, role: 'parlamentar', party: 'Neafiliați' };
     });
 }
 

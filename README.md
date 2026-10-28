@@ -56,6 +56,13 @@ Proiect civic independent: nu reprezentăm Senatul și nu lucrăm pentru niciun 
   <img src=".github/readme/bill-light.webp" alt="Pagina unui proiect: scorul de risc, propoziția pe înțeles, termenul, procedura de urgență, presa și partidele inițiatorilor">
 </picture>
 
+### Obiecția scrisă cu Claude Code
+
+Skill-ul [`obiectie`](.claude/skills/obiectie/SKILL.md) scrie cu tine e-mailul de obiecție: citește analiza
+proiectului, te întreabă cine ești și cum te atinge legea, apoi pune e-mailul ca ciornă, ca să-l trimiți tu. Pornește
+`claude` în clona repo-ului și scrie „vreau să trimit o obiecție la https://destraja.ro/legi/b563-2026”. Ca să-l
+folosești din orice folder, copiază `.claude/skills/obiectie/` în `~/.claude/skills/`.
+
 ## Cum funcționează
 
 În fiecare zi lucrătoare la 08:00 rulează `npm run straja:daily`:

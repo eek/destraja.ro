@@ -11,7 +11,7 @@ Cititorul a citit proiectul pe destrajă.ro și știe ce vrea să spună. Tu adu
 analiza proiectului. Cititorul aduce ce doar el știe: cine e și cum îl atinge legea. Rezultatul e un punct de vedere la
 persoana întâi, cu cazul lui.
 
-Lucrează în patru pași, în ordine. Treci la pasul următor doar când criteriul pasului e îndeplinit.
+Vorbește cu cititorul în limba lui, de la primul mesaj până la ultimul. Lucrează în patru pași, în ordine. Treci la pasul următor doar când criteriul pasului e îndeplinit.
 
 ## 1. Proiectul
 
@@ -38,7 +38,7 @@ Arborele de decizii pornește de aici:
 
 1. **Canalul:** e-mail, formularul Senatului sau amândouă.
 2. **Cine scrie:** numele, calitatea (cetățean, antreprenor, contabil, avocat, ONG) și datele de contact pentru
-   semnătură (e-mail, opțional adresa).
+   semnătură: e-mailul, iar pentru formular și telefonul și adresa, pe care portalul Senatului le cere.
 3. **Cazul:** ce se schimbă concret pentru el sau pentru firma lui.
 4. **Cererea:** respingerea proiectului, eliminarea unor articole sau modificarea lor. Propune varianta din
    `senatForm.proposalContent`.
@@ -66,11 +66,14 @@ al destinatarului. Ordinea:
 3. argumentele alese, numerotate, fiecare cu articolul lui;
 4. cererea de înregistrare la dosarul proiectului, în temeiul Legii nr. 52/2003, apoi semnătura cu datele de contact.
 
-**Formularul Senatului:** cele patru câmpuri din `senatForm`, rescrise cu cazul cititorului. Articolul are cel mult 50
-de caractere, iar propunerea, argumentarea și observațiile cel mult 400 fiecare. Numără caracterele cu `len()` din
-Python (o literă cu diacritice e un caracter) și scrie numărul lângă fiecare câmp.
+**Formularul Senatului:** cele patru câmpuri din `senatForm`, rescrise cu cazul cititorului, cu numele de pe portal:
+„Nr. articol” (`articleRef`), „Conținut propunere/opinie/recomandare” (`proposalContent`, singurul obligatoriu),
+„Argumentarea propunerii/opiniei/recomandării” (`argumentation`) și „Alte idei/sugestii/comentarii”
+(`otherComments`). Portalul nu limitează textul, dar kitul destrajă.ro ține articolul la cel mult 50 de caractere și
+celelalte câmpuri la cel mult 400, ca textul să fie citit. Numără caracterele cu `len()` din Python (o literă cu
+diacritice e un caracter) și scrie numărul lângă fiecare câmp.
 
-**Memoriul .docx** (doar pentru e-mail): descarcă memoriul proiectului după [references/date.md](references/date.md) și
+**Memoriul .docx** (pentru e-mail; pentru formular când cititorul vrea să-l pună la „Fișier anexat”): descarcă memoriul proiectului după [references/date.md](references/date.md) și
 pune numele cititorului în locul `{{NUME_CETATEAN}}`. Restul memoriului e argumentația generală a site-ului, iar cazul
 cititorului stă în e-mail. Când locul gol lipsește din `word/document.xml`, spune-i cititorului să ia memoriul cu
 numele lui din kitul de pe pagina proiectului.
@@ -96,8 +99,12 @@ Outlook, sau altul pe care îl folosește deja.
 4. Fără instrument de e-mail, dă-i un link `mailto:` cu destinatarii și subiectul, textul gata de copiat și calea spre
    memoriu, ca să-l atașeze el.
 
-Pentru formular, dă-i fișa proiectului (`sheetUrl`), portalul de consultare (`https://www.senat.ro/LegiProiect.aspx`)
-și textele câmp cu câmp.
+Pentru formular, întreabă-l dacă atașează memoriul. Formularul e pe portalul Senatului,
+`https://online.senat.ro/portal/serviciu/initiative-legislative-aflate-in-consultare-publica`, și cere un cont cu
+e-mailul confirmat; contul îl face cititorul. Proiectul se alege din „Lista legilor în consultare”. Cu un instrument de
+browser, poți completa tu formularul după ce cititorul a intrat în cont. CAPTCHA și „Trimite solicitare” rămân la
+cititor. Fără browser, dă-i linkul, fișa proiectului (`sheetUrl`) și textele câmp cu câmp.
 
-**Gata când** cititorul știe pentru fiecare e-mail dacă e ciornă sau trimis, are textele formularului și are linkul
+**Gata când** cititorul știe pentru fiecare e-mail dacă e ciornă sau trimis, are formularul completat sau textele lui
+și are linkul
 `opinionsUrl`, unde vede punctele de vedere depuse.

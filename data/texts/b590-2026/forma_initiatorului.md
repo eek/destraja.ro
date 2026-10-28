@@ -1,0 +1,111 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENATUL
+
+## LEGE
+
+privind durata mandatului, limitarea numărului de mandate și condițiile de exercitare a funcțiilor de conducere ale unor autorități și instituții din cadrul sistemului național de apărare, ordine publică și securitate națională
+
+Parlamentul României adoptă prezenta lege.
+
+## Art. 1 — Obiectul legii
+
+Prezenta lege reglementează durata mandatului, limitarea numărului de mandate, continuitatea exercitării atribuțiilor și condițiile de acces în funcție ale conducătorilor Serviciului Român de Informații, Serviciului de Informații Externe, Serviciului de Protecție și Pază, Serviciului de Telecomunicații Speciale, Direcției Generale de Protecție Internă și Direcției Generale de Informații a Apărării. Legea stabilește, de asemenea, o condiție privind componența comisiei parlamentare de control al Serviciului Român de Informații și obligații de informare parlamentară și publică privind activitatea Direcției Generale de Informații a Apărării.
+
+## Art. 2 — Mandatul directorului Serviciului Român de Informații și controlul parlamentar
+
+1\. La articolul 1 din Legea nr. 14/1992 privind organizarea și funcționarea Serviciului Român de Informații, cu modificările și completările ulterioare, după al treilea alineat se introduce un nou alineat, cu următorul cuprins:
+
+„Membrii Comisiei comune permanente a Camerei Deputaților și Senatului pentru exercitarea controlului parlamentar asupra activității Serviciului Român de Informații sunt desemnați dintre membrii comisiilor permanente pentru apărare, ordine publică și siguranță națională ale celor două Camere, potrivit apartenenței lor la Camera Deputaților sau la Senat. Aceștia păstrează, pe întreaga durată a exercitării calității de membru al comisiei comune, și calitatea de membru al comisiei permanente pentru apărare, ordine publică și siguranță națională a Camerei din care fac parte."
+
+2\. La articolul 23 din Legea nr. 14/1992 privind organizarea și funcționarea Serviciului Român de Informații, cu modificările și completările ulterioare, după al doilea alineat se introduce un nou alineat, cu următorul cuprins:
+
+„Mandatul directorului Serviciului Român de Informații este de 5 ani și începe la data depunerii jurământului. Aceeași persoană poate exercita funcția de director pentru cel mult două mandate, consecutive sau neconsecutive. La expirarea mandatului, atribuțiile directorului sunt exercitate temporar de prim-adjunctul directorului, în calitate de înlocuitor legal, până la depunerea jurământului de către noul director.”
+
+## Art. 3 — Mandatul directorului Serviciului de Informații Externe
+
+La articolul 6 din Legea nr. 1/1998 privind organizarea și funcționarea Serviciului de Informații Externe, republicată, cu modificările și completările ulterioare, după alineatul (2) se introduc trei noi alineate, alin. (3)-(5), cu următorul cuprins:
+
+„(3) Mandatul directorului Serviciului de Informații Externe este de 5 ani și începe la data depunerii jurământului. Aceeași persoană poate exercita funcția de director pentru cel mult două mandate, consecutive sau neconsecutive.
+
+(4) Eliberarea din funcție a directorului Serviciului de Informații Externe se face de Camera Deputaților și Senat, în ședință comună, la propunerea Președintelui României sau a cel puțin unei treimi din numărul total al deputaților ori al senatorilor.
+
+(5) La expirarea mandatului, atribuțiile directorului Serviciului de Informații Externe sunt exercitate temporar de unul dintre adjuncții directorului, desemnat prin hotărâre a Consiliului Suprem de Apărare a Țării, la propunerea Președintelui României, până la depunerea jurământului de către noul director."
+
+## Art. 4 — Mandatul directorului Serviciului de Protecție și Pază
+
+1\. La articolul 7 din Legea nr. 191/1998 privind organizarea și funcționarea Serviciului de Protecție și Pază, cu modificările și completările ulterioare, după alineatul (2) se introduce un nou alineat, alin. (3), cu următorul cuprins:
+
+„(3) Mandatul directorului Serviciului de Protecție și Pază este de 5 ani și începe la data depunerii jurământului. Aceeași persoană poate exercita funcția de director pentru cel mult două mandate, consecutive sau neconsecutive. Eliberarea din funcție înainte de expirarea mandatului se dispune prin decret al Președintelui României, la propunerea Consiliului Suprem de Apărare a Țării.”
+
+2\. La articolul 8 din Legea nr. 191/1998, cu modificările și completările ulterioare, după alineatul (1) se introduce un nou alineat, alin. (1¹), cu următorul cuprins:
+
+„(1¹) La expirarea mandatului sau în cazul vacanței funcției de director, prim-adjunctul exercită temporar atribuțiile directorului, în calitate de înlocuitor legal, până la numirea noului director.”
+
+## Art. 5 — Mandatul directorului Serviciului de Telecomunicații Speciale
+
+1\. La articolul 8 din Legea nr. 92/1996 privind organizarea și funcționarea Serviciului de Telecomunicații Speciale, cu modificările și completările ulterioare, după alineatul (1) se introduce un nou alineat, alin. (1¹), cu următorul cuprins:
+
+„(1¹) Mandatul directorului Serviciului de Telecomunicații Speciale este de 5 ani și începe la data numirii. Aceeași persoană poate exercita funcția de director pentru cel mult două mandate, consecutive sau neconsecutive. Eliberarea din funcție înainte de expirarea mandatului se dispune de Consiliul Suprem de Apărare a Țării, la propunerea președintelui acestuia. În cazul în care directorul este cadru militar în activitate, expirarea mandatului sau eliberarea din funcție nu constituie, prin ea însăși, temei pentru trecerea în rezervă sau direct în retragere. Situația sa ulterioară se soluționează potrivit Legii nr. 80/1995 privind statutul cadrelor militare, cu modificările și completările ulterioare.”
+
+2\. La articolul 8 alineatul (3) din Legea nr. 92/1996, cu modificările și completările ulterioare, după teza întâi se introduce o nouă teză, cu următorul cuprins:
+
+„La expirarea mandatului sau în cazul vacanței funcției de director, prim-adjunctul exercită temporar atribuțiile directorului, în calitate de înlocuitor, până la numirea noului director de către Consiliul Suprem de Apărare a Țării.”
+
+## Art. 6 — Mandatul directorului Direcției Generale de Protecție Internă
+
+La articolul 8 din Ordonanța de urgență a Guvernului nr. 76/2016 privind înființarea, organizarea și funcționarea Direcției Generale de Protecție Internă a Ministerului Afacerilor Interne, aprobată cu modificări prin Legea nr. 194/2017, cu modificările și completările ulterioare, după alineatul (1) se introduc patru noi alineate, alin. (1¹)–(1⁴), cu următorul cuprins:
+
+„(1¹) Directorul general al Direcției Generale de Protecție Internă are rang de secretar de stat.
+
+(1²) Mandatul directorului general al Direcției Generale de Protecție Internă este de 5 ani și începe la data numirii în funcție. Aceeași persoană poate exercita funcția de director general pentru cel mult două mandate, consecutive sau neconsecutive.
+
+(1³) În cazul în care directorul general este cadru militar în activitate, expirarea mandatului sau eliberarea din funcție nu constituie, prin ea însăși, temei pentru trecerea în rezervă sau direct în retragere. Situația sa ulterioară se soluționează potrivit Legii nr. 80/1995 privind statutul cadrelor militare, cu modificările și completările ulterioare.
+
+(14) La expirarea mandatului sau în cazul vacanței funcției de director general, ministrul afacerilor interne desemnează, prin ordin, un înlocuitor temporar dintre cadrele din conducerea Direcției Generale de Protecție Internă, până la numirea unui nou director general. Ministrul afacerilor interne informează de îndată Consiliul Suprem de Apărare a Țării cu privire la desemnarea înlocuitorului temporar."
+
+## Art. 7 — Conducerea Direcției Generală de Informații a Apărării și raportarea activității
+
+Legea nr. 346/2006 privind organizarea și funcționarea Ministerului Apărării Naționale, republicată, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 15, alineatul (3) se modifică și va avea următorul cuprins:
+
+"(3) Direcția Generală de Informații a Apărării este condusă de un director general, cadru militar în activitate. Directorul general este numit și eliberat din funcție de ministrul apărării naționale, cu avizul Consiliului Suprem de Apărare a Țării. Funcția de director general al Direcției generale de informații a apărării este asimilată funcției de secretar de stat."
+
+2\. La articolul 15, după alineatul (3), se introduc patru noi alineate, alin. (3¹)–(3⁴), cu următorul cuprins:
+
+"(3¹) Mandatul directorului general este de 5 ani și începe la data numirii în funcție. Aceeași persoană poate exercita funcția de director general pentru cel mult două mandate, consecutive sau neconsecutive."
+
+(3²) Expirarea mandatului sau eliberarea din funcție nu constituie, prin ea însăși, temei pentru trecerea în rezervă sau direct în retragere. Situația ulterioară a cadrului militar se soluționează potrivit Legii nr. 80/1995 privind statutul cadrelor militare, cu modificările și completările ulterioare.
+
+(3³) La expirarea mandatului sau în cazul vacanței funcției de director general, ministrul apărării naționale desemnează, prin ordin, un cadru militar în activitate din conducerea Direcției Generale de Informații a Apărării pentru exercitarea temporară a atribuțiilor directorului general, până la numirea unui nou director general. Ministrul apărării naționale informează de îndată Consiliul Suprem de Apărare a Țării.
+
+(3⁴) Ministrul apărării naționale prezintă anual, până la data de 30 iunie, comisiilor pentru apărare, ordine publică și siguranță națională ale Camerei Deputaților și Senatului un raport privind activitatea Direcției Generale de Informații a Apărării desfășurată în anul precedent, cu respectarea legislației privind protecția informațiilor clasificate. Ministerul Apărării Naționale publică pe pagina proprie de internet, în același termen, o sinteză neclasificată a raportului. Sinteza se întocmește cu respectarea legislației privind protecția informațiilor clasificate și a datelor cu caracter personal, fără divulgarea surselor, metodelor, mijloacelor și capabilităților operative ori a altor informații a căror divulgare ar putea afecta securitatea națională."
+
+## Art. 8 — Condiții de eligibilitate
+
+(1) Poate fi numită în una dintre funcțiile prevăzute la art. 2–7 persoana care îndeplinește cumulativ următoarele condiții:
+
+a) are cetățenia română;
+
+b) are domiciliul în România;
+
+c) are capacitate deplină de exercițiu;
+
+d) îndeplinește condițiile specifice prevăzute de lege pentru funcția respectivă;
+
+e) îndeplinește condițiile legale pentru accesul la informații clasificate, corespunzător nivelului necesar exercitării funcției;
+
+f) nu se află într-o situație de incompatibilitate, conflict de interese ori interdicție prevăzută de lege.
+
+(2) Retragerea definitivă, potrivit legii, a certificatului de securitate sau a autorizației de acces la informații clasificate corespunzătoare nivelului necesar exercitării funcției constituie motiv de eliberare din funcție, potrivit procedurii aplicabile fiecărei funcții.
+
+## Art. 9 — Intrarea în vigoare
+
+Prezenta lege intră în vigoare la 30 de zile de la data publicării în Monitorul Oficial al României, Partea I.
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+PREȘEDINTELE SENATULUI

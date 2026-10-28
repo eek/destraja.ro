@@ -1,13 +1,26 @@
 {
   "slug": "b579-2026",
   "billId": "B579/2026",
-  "checkedAt": "2026-10-27T06:49:29.774Z",
+  "checkedAt": "2026-10-28T08:54:25.902Z",
   "models": {
-    "agy": "ok",
+    "agy": "error: răspuns gol după 603s (probabil timp depășit)",
     "claude": "ok",
     "codex": "ok"
   },
   "articles": [
+    {
+      "url": "https://observatornews.ro/economic/racordare-gratuita-la-utilitati-pentru-romanii-care-isi-construiesc-prima-casa-ce-nu-au-voie-sa-faca-10-ani-670456.html",
+      "title": "Racordare gratuită la utilităţi pentru românii care îşi construiesc prima casă. Ce nu au voie să facă 10 ani",
+      "outlet": "Observator",
+      "domain": "observatornews.ro",
+      "publishedAt": "2026-10-27",
+      "foundBy": [
+        "codex"
+      ],
+      "quote": "Proiectul de lege înregistrat la Senat prevede ca primăriile să asigure racordarea gratuită a celor care vor să-și construiască prima casă.",
+      "match": "quote",
+      "firstSeenAt": "2026-10-28"
+    },
     {
       "url": "https://www.capital.ro/romanii-ar-putea-beneficia-de-racordare-gratuita-la-utilitati-ce-prevede-proiectul-pentru-cei-care-isi-construiesc-prima-casa.html",
       "title": "Românii ar putea beneficia de racordare gratuită la utilități. Ce prevede proiectul pentru cei care își construiesc prima casă",
@@ -19,40 +32,9 @@
         "claude",
         "codex"
       ],
-      "quote": "Inițiativa urmărește facilitarea accesului la locuințe și sprijinirea dezvoltării comunităților locale.",
+      "quote": "Un proiect de lege înregistrat la Senat propune eliminarea acestor costuri",
       "match": "quote",
-      "firstSeenAt": "2026-10-27",
-      "decision": {
-        "v": 2,
-        "checkedAt": "2026-10-27",
-        "text": "trafilatura",
-        "models": {
-          "clef": {
-            "stance": "neutral",
-            "stanceP": 0.837,
-            "source": "national_news",
-            "sourceP": 0.719,
-            "about": 0.971,
-            "release": 0.187
-          },
-          "d1": {
-            "stance": "neutral",
-            "stanceP": 0.874,
-            "source": "national_news",
-            "sourceP": 0.523,
-            "about": 0.867,
-            "release": 0.148
-          },
-          "luna": {
-            "stance": "neutral",
-            "stanceP": 0.86,
-            "source": "national_news",
-            "sourceP": 0.82,
-            "about": 0.99,
-            "release": 0.99
-          }
-        }
-      }
+      "firstSeenAt": "2026-10-27"
     },
     {
       "url": "https://www.dcbusiness.ro/romanii-care-isi-construiesc-prima-casa-ar-putea-beneficia-de-racordare-gratuita-la-utilitati_700722.html",
@@ -62,42 +44,12 @@
       "publishedAt": "2026-10-26",
       "foundBy": [
         "agy",
-        "codex"
+        "codex",
+        "claude"
       ],
-      "quote": "Iniţiativa legislativă vine în sprijinul celor care îşi construiesc o locuinţă, aducând o facilitate privind racordarea acesteia la utilităţi.",
+      "quote": "A fost înregistrat la Senat un proiect de lege privind sprijinirea cetățenilor în vederea construirii primei locuințe",
       "match": "quote",
-      "firstSeenAt": "2026-10-27",
-      "decision": {
-        "v": 2,
-        "checkedAt": "2026-10-27",
-        "text": "trafilatura",
-        "models": {
-          "clef": {
-            "stance": "neutral",
-            "stanceP": 0.716,
-            "source": "aggregator",
-            "sourceP": 0.326,
-            "about": 0.958,
-            "release": 0.713
-          },
-          "d1": {
-            "stance": "supportive",
-            "stanceP": 0.687,
-            "source": "trade_press",
-            "sourceP": 0.828,
-            "about": 0.852,
-            "release": 0.148
-          },
-          "luna": {
-            "stance": "supportive",
-            "stanceP": 0.94,
-            "source": "trade_press",
-            "sourceP": 0.82,
-            "about": 0.99,
-            "release": 0.62
-          }
-        }
-      }
+      "firstSeenAt": "2026-10-27"
     },
     {
       "url": "https://epitesti.ro/stiri/social/racordare-gratuita-la-utilitati-pentru-cei-care-isi-construiesc-prima-locuinta",
@@ -109,39 +61,8 @@
         "claude",
         "codex"
       ],
-      "quote": "Conform inițiativei, noile reguli ar urma să intre în vigoare la șase luni de la publicare.",
-      "match": "quote",
-      "decision": {
-        "v": 2,
-        "checkedAt": "2026-10-27",
-        "text": "trafilatura",
-        "models": {
-          "clef": {
-            "stance": "neutral",
-            "stanceP": 0.862,
-            "source": "local_news",
-            "sourceP": 0.679,
-            "about": 0.96,
-            "release": 0.108
-          },
-          "d1": {
-            "stance": "neutral",
-            "stanceP": 0.885,
-            "source": "trade_press",
-            "sourceP": 0.352,
-            "about": 0.893,
-            "release": 0.148
-          },
-          "luna": {
-            "stance": "neutral",
-            "stanceP": 0.98,
-            "source": "local_news",
-            "sourceP": 0.99,
-            "about": 0.99,
-            "release": 0.01
-          }
-        }
-      }
+      "quote": "Inițiativa legislativă a fost înregistrată pe 20 octombrie 2026 și urmărește să reducă cheltuielile",
+      "match": "quote"
     },
     {
       "url": "https://www.avocatnet.ro/articol_72891/Proiect-Cei-care-%C8%99i-construiesc-prima-locuin%C8%9B%C4%83-ar-putea-beneficia-de-racordare-gratuit%C4%83-la-utilit%C4%83%C8%9Bi.html",
@@ -154,38 +75,7 @@
         "codex"
       ],
       "quote": "Potrivit proiectului, racordarea ar trebui realizată în cel mult 90 de zile calendaristice de la eliberarea autorizației de construire.",
-      "match": "quote",
-      "decision": {
-        "v": 2,
-        "checkedAt": "2026-10-27",
-        "text": "trafilatura",
-        "models": {
-          "clef": {
-            "stance": "neutral",
-            "stanceP": 0.888,
-            "source": "national_news",
-            "sourceP": 0.369,
-            "about": 0.963,
-            "release": 0.157
-          },
-          "d1": {
-            "stance": "neutral",
-            "stanceP": 0.898,
-            "source": "trade_press",
-            "sourceP": 0.804,
-            "about": 0.915,
-            "release": 0.068
-          },
-          "luna": {
-            "stance": "neutral",
-            "stanceP": 0.98,
-            "source": "trade_press",
-            "sourceP": 0.96,
-            "about": 0.99,
-            "release": 0.01
-          }
-        }
-      }
+      "match": "quote"
     },
     {
       "url": "https://www.b1tv.ro/eveniment/proiect-legislativ-depus-in-parlament-prima-casa-construita-ar-putea-veni-cu-utilitati-gratuite-1743074.html",
@@ -199,38 +89,7 @@
         "codex"
       ],
       "quote": "Proiectul a fost înregistrat la Senat pe 20 octombrie și urmează să parcurgă procedura parlamentară.",
-      "match": "quote",
-      "decision": {
-        "v": 2,
-        "checkedAt": "2026-10-27",
-        "text": "trafilatura",
-        "models": {
-          "clef": {
-            "stance": "neutral",
-            "stanceP": 0.861,
-            "source": "national_news",
-            "sourceP": 0.733,
-            "about": 0.968,
-            "release": 0.193
-          },
-          "d1": {
-            "stance": "neutral",
-            "stanceP": 0.935,
-            "source": "national_news",
-            "sourceP": 0.481,
-            "about": 0.915,
-            "release": 0.133
-          },
-          "luna": {
-            "stance": "neutral",
-            "stanceP": 0.98,
-            "source": "national_news",
-            "sourceP": 0.98,
-            "about": 0.99,
-            "release": 0.01
-          }
-        }
-      }
+      "match": "quote"
     },
     {
       "url": "https://alba24.ro/racordare-gratuita-la-utilitati-pentru-cei-care-isi-construiesc-prima-locuinta-propunere-legislativa-la-senat-1163621.html",
@@ -240,44 +99,27 @@
       "publishedAt": "2026-10-21",
       "foundBy": [
         "agy",
-        "claude"
+        "claude",
+        "codex"
       ],
-      "quote": "Măsurile prevăzute în propunerea legislativă nu se aplică în prezent.",
-      "match": "quote",
-      "decision": {
-        "v": 2,
-        "checkedAt": "2026-10-27",
-        "text": "trafilatura",
-        "models": {
-          "clef": {
-            "stance": "neutral",
-            "stanceP": 0.89,
-            "source": "local_news",
-            "sourceP": 0.706,
-            "about": 0.961,
-            "release": 0.293
-          },
-          "d1": {
-            "stance": "neutral",
-            "stanceP": 0.881,
-            "source": "local_news",
-            "sourceP": 0.473,
-            "about": 0.915,
-            "release": 0.245
-          },
-          "luna": {
-            "stance": "neutral",
-            "stanceP": 0.98,
-            "source": "local_news",
-            "sourceP": 0.99,
-            "about": 0.99,
-            "release": 0.01
-          }
-        }
-      }
+      "quote": "Un proiect de lege în acest sens, înregistrat la Senat, prevede ca autoritățile locale să asigure gratuit",
+      "match": "quote"
     }
   ],
   "pending": [
+    {
+      "url": "https://stirileimobiliare.ro/prima-casa-ar-putea-avea-racordare-gratuita",
+      "title": "Proiectul de racordare gratuită pentru prima casă",
+      "outlet": "Știrile Imobiliare",
+      "domain": "stirileimobiliare.ro",
+      "publishedAt": "2026-10-27",
+      "foundBy": [
+        "codex"
+      ],
+      "quote": "Proiectul îi vizează pe cetățenii români care construiesc prima locuință pe un teren din interiorul unei localități și nu dețin altă locuință.",
+      "match": "quote",
+      "firstSeenAt": "2026-10-28"
+    },
     {
       "url": "https://oficiuldestiri.ro/racordarea-gratuita-la-apa-curent-gaze-si-internet-pentru-romanii-care-isi-construiesc-prima-casa-primariile-ar-putea-plati-toate-costurile-si-despagubiri-de-500-de-euro-pe-luna-daca-intarzie-ce-c",
       "title": "Racordarea gratuită la apă, curent, gaze și internet pentru românii care își construiesc prima casă: Primăriile ar putea plăti toate costurile și despăgubiri de 500 de euro pe lună dacă întârzie. Ce condiții trebuie înde",
@@ -288,39 +130,8 @@
         "agy",
         "claude"
       ],
-      "quote": "Propunerea legislativă a fost înregistrată la Senat pe 20 octombrie 2026.",
-      "match": "quote",
-      "decision": {
-        "v": 2,
-        "checkedAt": "2026-10-27",
-        "text": "trafilatura",
-        "models": {
-          "clef": {
-            "stance": "neutral",
-            "stanceP": 0.787,
-            "source": "national_news",
-            "sourceP": 0.768,
-            "about": 0.965,
-            "release": 0.063
-          },
-          "d1": {
-            "stance": "neutral",
-            "stanceP": 0.871,
-            "source": "national_news",
-            "sourceP": 0.383,
-            "about": 0.852,
-            "release": 0.223
-          },
-          "luna": {
-            "stance": "neutral",
-            "stanceP": 0.96,
-            "source": "national_news",
-            "sourceP": 0.78,
-            "about": 0.99,
-            "release": 0.01
-          }
-        }
-      }
+      "quote": "Un proiect legislativ înregistrat la Senat pe 20 octombrie 2026 propune ca primăriile să suporte costurile conectării",
+      "match": "quote"
     },
     {
       "url": "https://albabusiness.ro/prima-locuinta-racordare-gratuita-la-utilitati-proiect-depus-la-senat-termen-de-90-de-zile-si-despagubiri-pentru-intarzieri",

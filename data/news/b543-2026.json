@@ -1,9 +1,9 @@
 {
   "slug": "b543-2026",
   "billId": "B543/2026",
-  "checkedAt": "2026-10-27T06:06:51.930Z",
+  "checkedAt": "2026-10-28T08:11:46.110Z",
   "models": {
-    "agy": "ok",
+    "agy": "error: răspuns gol după 603s (probabil timp depășit)",
     "claude": "ok",
     "codex": "ok"
   },
@@ -19,39 +19,8 @@
         "claude",
         "codex"
       ],
-      "quote": "Proiectul lui Becali permite biserici de până la 130 m2 fără studii de impact, chiar în arii Natura 2000",
-      "match": "quote",
-      "decision": {
-        "v": 2,
-        "checkedAt": "2026-10-27",
-        "text": "pagina",
-        "models": {
-          "clef": {
-            "stance": "neutral",
-            "stanceP": 0.589,
-            "source": "national_news",
-            "sourceP": 0.792,
-            "about": 0.963,
-            "release": 0.046
-          },
-          "d1": {
-            "stance": "neutral",
-            "stanceP": 0.575,
-            "source": "national_news",
-            "sourceP": 0.509,
-            "about": 0.867,
-            "release": 0.223
-          },
-          "luna": {
-            "stance": "critical",
-            "stanceP": 0.94,
-            "source": "national_news",
-            "sourceP": 0.97,
-            "about": 0.99,
-            "release": 0.01
-          }
-        }
-      }
+      "quote": "Proiectul prevede că amplasarea într-o astfel de zonă nu poate constitui, prin ea însăși, motiv pentru respingerea notificării.",
+      "match": "quote"
     },
     {
       "url": "https://www.b1tv.ro/eveniment/notificare-locala-pentru-biserici-rurale-propusa-de-becali-1737970.html",
@@ -63,39 +32,21 @@
         "agy",
         "claude"
       ],
-      "quote": "Propunerea legislativă vizează modificarea și completarea Codului amenajării teritoriului, urbanismului și construcțiilor",
+      "quote": "Inițiativa mai prevede ca lăcașurile respective să fie construite în locuri care au fost deja sfințite de ierarhii cultului.",
+      "match": "quote"
+    },
+    {
+      "url": "https://m.ziare.com/amp/gigi-becali/biserica-techirghiol-proiect-parlament-2039749",
+      "title": "Gigi Becali nu renunță la biserica de la Techirghiol. Deputatul a depus în Parlament un proiect care poate schimba regulile în ariile protejate",
+      "outlet": "Ziare.com",
+      "domain": "m.ziare.com",
+      "publishedAt": "2026-10-06",
+      "foundBy": [
+        "codex"
+      ],
+      "quote": "Propunerea legislativă, înregistrată pe 5 octombrie, modifică noul Cod al amenajării teritoriului, urbanismului și construcțiilor, intrat în vigoare în august.",
       "match": "quote",
-      "decision": {
-        "v": 2,
-        "checkedAt": "2026-10-27",
-        "text": "trafilatura",
-        "models": {
-          "clef": {
-            "stance": "neutral",
-            "stanceP": 0.839,
-            "source": "national_news",
-            "sourceP": 0.74,
-            "about": 0.952,
-            "release": 0.061
-          },
-          "d1": {
-            "stance": "neutral",
-            "stanceP": 0.751,
-            "source": "national_news",
-            "sourceP": 0.394,
-            "about": 0.755,
-            "release": 0.245
-          },
-          "luna": {
-            "stance": "neutral",
-            "stanceP": 0.91,
-            "source": "national_news",
-            "sourceP": 0.94,
-            "about": 0.99,
-            "release": 0.01
-          }
-        }
-      }
+      "firstSeenAt": "2026-10-28"
     },
     {
       "url": "https://www.profit.ro/perspective/gigi-becali-propune-schimbarea-codului-urbanismului-pentru-biserici-in-arii-protejate-22804183",
@@ -108,39 +59,8 @@
         "claude",
         "codex"
       ],
-      "quote": "Proiectul prevede că noile lăcașuri de cult vor putea fi construite doar în baza notificării",
-      "match": "quote",
-      "decision": {
-        "v": 2,
-        "checkedAt": "2026-10-27",
-        "text": "trafilatura",
-        "models": {
-          "clef": {
-            "stance": "neutral",
-            "stanceP": 0.853,
-            "source": "national_news",
-            "sourceP": 0.564,
-            "about": 0.924,
-            "release": 0.163
-          },
-          "d1": {
-            "stance": "neutral",
-            "stanceP": 0.811,
-            "source": "trade_press",
-            "sourceP": 0.298,
-            "about": 0.798,
-            "release": 0.349
-          },
-          "luna": {
-            "stance": "neutral",
-            "stanceP": 0.98,
-            "source": "trade_press",
-            "sourceP": 0.88,
-            "about": 0.99,
-            "release": 0.02
-          }
-        }
-      }
+      "quote": "Proiectul prevede că noile lăcașuri de cult vor putea fi construite doar în baza notificării transmise autorităților administrației publice locale.",
+      "match": "quote"
     },
     {
       "url": "https://www.stiripesurse.ro/gigi-becali-vrea-sa-schimbe-regulile-ce-proiect-de-lege-a-depus-la-senat-stai-sa-vezi-tot-fac-biserica_3926218",
@@ -150,41 +70,11 @@
       "publishedAt": "2026-10-06",
       "foundBy": [
         "claude",
-        "agy"
+        "agy",
+        "codex"
       ],
-      "quote": "Omul de afaceri a propus crearea unei excepții pentru lăcașurile de cult de mici dimensiuni.",
-      "match": "quote",
-      "decision": {
-        "v": 2,
-        "checkedAt": "2026-10-27",
-        "text": "trafilatura",
-        "models": {
-          "clef": {
-            "stance": "neutral",
-            "stanceP": 0.867,
-            "source": "national_news",
-            "sourceP": 0.576,
-            "about": 0.954,
-            "release": 0.079
-          },
-          "d1": {
-            "stance": "neutral",
-            "stanceP": 0.595,
-            "source": "aggregator",
-            "sourceP": 0.543,
-            "about": 0.852,
-            "release": 0.294
-          },
-          "luna": {
-            "stance": "neutral",
-            "stanceP": 0.89,
-            "source": "national_news",
-            "sourceP": 0.91,
-            "about": 0.99,
-            "release": 0.02
-          }
-        }
-      }
+      "quote": "Propunerea legislativă vizează modificarea și completarea Codului amenajării teritoriului, urbanismului și construcțiilor",
+      "match": "quote"
     },
     {
       "url": "https://ziare.com/gigi-becali/biserica-techirghiol-proiect-parlament-2039749",
@@ -198,38 +88,7 @@
         "codex"
       ],
       "quote": "Deputatul a depus la Senat o inițiativă care ar permite ridicarea unor biserici de mici dimensiuni",
-      "match": "quote",
-      "decision": {
-        "v": 2,
-        "checkedAt": "2026-10-27",
-        "text": "trafilatura",
-        "models": {
-          "clef": {
-            "stance": "neutral",
-            "stanceP": 0.85,
-            "source": "national_news",
-            "sourceP": 0.445,
-            "about": 0.949,
-            "release": 0.215
-          },
-          "d1": {
-            "stance": "neutral",
-            "stanceP": 0.751,
-            "source": "national_news",
-            "sourceP": 0.369,
-            "about": 0.852,
-            "release": 0.378
-          },
-          "luna": {
-            "stance": "neutral",
-            "stanceP": 0.91,
-            "source": "national_news",
-            "sourceP": 0.88,
-            "about": 0.99,
-            "release": 0.02
-          }
-        }
-      }
+      "match": "quote"
     }
   ],
   "pending": [
@@ -288,38 +147,7 @@
         "codex"
       ],
       "quote": "Pe scurt, proiectul afaceristului propune introducerea unei noi excepții la art. 294 alin. (2) din Codul urbanismului.",
-      "match": "quote",
-      "decision": {
-        "v": 2,
-        "checkedAt": "2026-10-27",
-        "text": "trafilatura",
-        "models": {
-          "clef": {
-            "stance": "neutral",
-            "stanceP": 0.837,
-            "source": "national_news",
-            "sourceP": 0.598,
-            "about": 0.948,
-            "release": 0.141
-          },
-          "d1": {
-            "stance": "neutral",
-            "stanceP": 0.623,
-            "source": "aggregator",
-            "sourceP": 0.335,
-            "about": 0.469,
-            "release": 0.469
-          },
-          "luna": {
-            "stance": "neutral",
-            "stanceP": 0.91,
-            "source": "national_news",
-            "sourceP": 0.94,
-            "about": 0.99,
-            "release": 0.03
-          }
-        }
-      }
+      "match": "quote"
     }
   ]
 }

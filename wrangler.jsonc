@@ -21,6 +21,8 @@
   // Confirmările abonării și ediția zilnică pleacă doar de la această adresă.
   "send_email": [{ "name": "EMAIL", "allowed_sender_addresses": ["alerte@destraja.ro"] }],
   "observability": { "enabled": true, "head_sampling_rate": 1 },
+  // Confirmările de abonare rămase la coadă când s-a atins limita zilnică de e-mailuri (worker/subscribe.ts).
+  "triggers": { "crons": ["*/15 * * * *"] },
   "routes": [
     { "pattern": "destraja.ro", "custom_domain": true },
     // Domeniile vechi și cel pentru Moldova: paginile lor trimit 301 spre destraja.ro (reguli Single Redirect pe zonă);

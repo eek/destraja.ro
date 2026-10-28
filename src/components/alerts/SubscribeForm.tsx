@@ -32,6 +32,8 @@ export default function SubscribeForm({ initialLevel = 'yellow' }: { initialLeve
   // Turnstile se încarcă abia când cineva începe să completeze formularul.
   const [touched, setTouched] = useState(false);
   const [status, setStatus] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle');
+  // Serverul a păstrat cererea, dar confirmarea pleacă mai târziu (limita zilnică de e-mailuri).
+  const [queued, setQueued] = useState(false);
   const [error, setError] = useState('');
   const { el, token, reset } = useTurnstile(touched && status !== 'sent', () => {
     setStatus('error');
@@ -52,6 +54,8 @@ export default function SubscribeForm({ initialLevel = 'yellow' }: { initialLeve
         body: JSON.stringify({ email: email.trim(), level, token }),
       });
       if (r.ok) {
+        const body = (await r.json().catch(() => ({}))) as { queued?: boolean };
+        setQueued(!!body.queued);
         setStatus('sent');
         track('subscribe_sent', { level });
         return;
@@ -72,8 +76,17 @@ export default function SubscribeForm({ initialLevel = 'yellow' }: { initialLeve
         <div>
           <p className="font-semibold">Verifică-ți căsuța de e-mail.</p>
           <p className="mt-1 text-body">
-            Ți-am trimis la <strong className="font-semibold text-ink">{email.trim()}</strong> un link de confirmare, valabil 48 de ore. Până nu
-            dai click pe el, nu primești nimic. Dacă nu apare în câteva minute, uită-te în Spam sau în Promoții.
+            {queued ? (
+              <>
+                Am primit cererea. Azi am atins limita zilnică de e-mailuri, așa că linkul de confirmare îți vine la{' '}
+                <strong className="font-semibold text-ink">{email.trim()}</strong> în următoarele ore. Până nu dai click pe el, nu primești nimic.
+              </>
+            ) : (
+              <>
+                Ți-am trimis la <strong className="font-semibold text-ink">{email.trim()}</strong> un link de confirmare, valabil 48 de ore. Până nu
+                dai click pe el, nu primești nimic. Dacă nu apare în câteva minute, uită-te în Spam sau în Promoții.
+              </>
+            )}
           </p>
         </div>
       </div>

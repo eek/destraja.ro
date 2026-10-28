@@ -4,11 +4,12 @@
 // /api/report                 rapoartele cititorilor despre greșeli în analize (report.ts)
 // /api/subscribe, /api/confirm, /api/preferences, /api/unsubscribe   alertele pe e-mail (subscribe.ts)
 // /api/digest, /api/digest/stats   trimiterea ediției zilnice, doar cu DIGEST_TOKEN (digest.ts)
+// cron la 15 minute              confirmările rămase la coadă (subscribe.ts, sendQueued)
 
 import { handleDigest, handleDigestStats } from './digest';
 import { json, logError } from './http';
 import { handleReport } from './report';
-import { handleConfirm, handlePreferences, handleSubscribe, handleUnsubscribe } from './subscribe';
+import { handleConfirm, handlePreferences, handleSubscribe, handleUnsubscribe, sendQueued } from './subscribe';
 
 type Handler = (request: Request, env: Env, url: URL) => Promise<Response>;
 
@@ -37,5 +38,9 @@ export default {
     }
     if (url.pathname.startsWith('/api/')) return json({ error: 'not_found' }, 404);
     return env.ASSETS.fetch(request);
+  },
+  // La 15 minute: confirmările rămase la coadă când s-a atins limita zilnică de e-mailuri (subscribe.ts).
+  async scheduled(_controller, env, ctx) {
+    ctx.waitUntil(sendQueued(env).catch((err) => logError('queue_failed', err)));
   },
 } satisfies ExportedHandler<Env>;

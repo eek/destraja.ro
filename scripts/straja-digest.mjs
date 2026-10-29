@@ -296,9 +296,9 @@ function cameraAnnouncement(senateBills) {
   if (s.compared) {
     html += H2('Cum se schimbă legile pe drum');
     html += P(
-      `Un proiect trece prin mai multe forme: textul inițiatorului, forma votată de Senat, forma votată de Cameră. Le-am analizat pe fiecare și le-am comparat. Din ${countWord(s.compared, 'proiect comparat', 'proiecte comparate')}, <strong>${s.direction.mai_riscant}</strong> au devenit mai riscante, <strong>${s.direction.mai_putin_riscant}</strong> mai puțin riscante, iar ${s.direction.la_fel} au rămas pe fond la fel.`,
+      `Un proiect trece prin mai multe forme: textul inițiatorului, forma votată de Senat, forma votată de Cameră. Le-am analizat pe fiecare și le-am comparat. Din ${countWord(s.compared, 'proiect comparat', 'proiecte comparate')}, <strong>${s.direction.mai_riscant}</strong> au devenit mai riscante, <strong>${s.direction.mai_putin_riscant}</strong> mai puțin riscante, iar ${s.direction.la_fel} au rămas pe fond la fel.${s.comparePending ? ` Comparația e încă în lucru: mai avem de comparat cel mult ${countWord(s.comparePending, 'proiect', 'proiecte')}, pe care le adăugăm pe site în zilele următoare.` : ''}`,
     );
-    text += `\nCUM SE SCHIMBĂ LEGILE PE DRUM\nAm analizat și comparat formele prin care trece un proiect (inițiator, Senat, Cameră). Din ${countWord(s.compared, 'proiect comparat', 'proiecte comparate')}: ${s.direction.mai_riscant} mai riscante, ${s.direction.mai_putin_riscant} mai puțin riscante, ${s.direction.la_fel} pe fond la fel.\n`;
+    text += `\nCUM SE SCHIMBĂ LEGILE PE DRUM\nAm analizat și comparat formele prin care trece un proiect (inițiator, Senat, Cameră). Din ${countWord(s.compared, 'proiect comparat', 'proiecte comparate')}: ${s.direction.mai_riscant} mai riscante, ${s.direction.mai_putin_riscant} mai puțin riscante, ${s.direction.la_fel} pe fond la fel.${s.comparePending ? ` Comparația e încă în lucru: mai avem de comparat cel mult ${countWord(s.comparePending, 'proiect', 'proiecte')}, pe care le adăugăm în zilele următoare.` : ''}\n`;
     if (s.riskier) {
       const c = s.riskier.changes.at(-1);
       html += P(

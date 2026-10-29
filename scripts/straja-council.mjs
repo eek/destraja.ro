@@ -375,7 +375,7 @@ async function mainChamber(args) {
 }
 
 // ─── Cum se schimbă textul ──────────────────────────────────────────────────────────────────────────────────────
-// node scripts/straja-council.mjs --versions [slug] [--max=10] [--recompare]
+// node scripts/straja-council.mjs --versions [slug] [--max=10] [--recompare] [--status]
 // Formele unui proiect de la Cameră, în ordinea prin care a trecut: a inițiatorului, apoi cea adoptată de prima cameră,
 // apoi cea adoptată de a doua. Fiecare formă primește analiza consiliului (data/analyses/versions/<slug>/<formă>.json),
 // iar două forme la rând o comparație făcută de Claude: ce s-a schimbat și dacă proiectul a devenit mai riscant.
@@ -687,6 +687,24 @@ async function versionsForBill(sheet, force, recompare = false) {
   return true;
 }
 
+/**
+ * data/cdep/versions-status.json: câte proiecte au cel puțin două forme posibile, câte sunt comparate și care așteaptă.
+ * Site-ul și mailul spun din el cât mai e de comparat. „Posibile” e o limită de sus: unele forme lipsesc de pe senat.ro.
+ */
+function writeVersionsStatus(index, read) {
+  const comparable = index
+    .filter((p) => !p.senat && fs.existsSync(path.join(ANALYSES_DIR, `${p.slug}.json`)))
+    .filter((p) => {
+      const s = read(p.slug);
+      return s && versionPlan(s).length >= 2;
+    })
+    .map((p) => p.slug);
+  const pending = comparable.filter((s) => !fs.existsSync(path.join(VERSIONS_DIR, `${s}.json`)));
+  const status = { updatedAt: new Date().toISOString(), comparable: comparable.length, compared: comparable.length - pending.length, pending };
+  fs.writeFileSync(path.join(CDEP_DIR, 'versions-status.json'), JSON.stringify(status, null, 2) + '\n');
+  return status;
+}
+
 async function mainVersions(args) {
   const slug = args.find((a) => !a.startsWith('--'));
   const max = Number(args.find((a) => a.startsWith('--max='))?.split('=')[1] ?? 10);
@@ -695,6 +713,11 @@ async function mainVersions(args) {
   const recompare = args.includes('--recompare');
   const index = JSON.parse(fs.readFileSync(path.join(CDEP_DIR, 'index.json'), 'utf8')).proiecte;
   const read = (s) => readJsonFile(path.join(CDEP_DIR, 'proiecte', `${s}.json`));
+  // --status: doar data/cdep/versions-status.json, fără comparații.
+  if (args.includes('--status')) {
+    const st = writeVersionsStatus(index, read);
+    return console.log(`📜 Versiuni: ${st.compared} din ${st.comparable} proiecte comparate, ${st.pending.length} în așteptare`);
+  }
   // Proiectele cu analiză principală și cel puțin două forme posibile; întâi cele aflate acum la Cameră.
   const targets = (slug ? [{ slug }] : index.filter((p) => !p.senat && fs.existsSync(path.join(ANALYSES_DIR, `${p.slug}.json`))))
     .map((p) => read(p.slug))
@@ -723,6 +746,7 @@ async function mainVersions(args) {
     }
   }
   console.log(`📜 Versiuni: ${done} proiecte comparate${failed ? `, ${failed} cu erori` : ''} (din ${targets.length} posibile)`);
+  writeVersionsStatus(index, read);
 }
 
 async function main() {

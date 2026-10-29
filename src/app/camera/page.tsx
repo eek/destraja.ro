@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { getCdepIndex, getCdepList, getCdepSlugs } from '@/lib/cdep';
+import { getCdepIndex, getCdepList, getCdepSlugs, getVersionsStatus } from '@/lib/cdep';
 import { dayDiff } from '@/lib/cdep-text';
 import { formatDateRo, todayISO } from '@/lib/format';
 import { Container, linkCls } from '@/components/ui';
@@ -13,7 +13,8 @@ export const metadata: Metadata = {
 };
 
 export default async function CameraPage() {
-  const [items, pages, index] = await Promise.all([getCdepList(), getCdepSlugs(), getCdepIndex()]);
+  const [items, pages, index, versionsStatus] = await Promise.all([getCdepList(), getCdepSlugs(), getCdepIndex(), getVersionsStatus()]);
+  const comparePending = versionsStatus?.pending.length ?? 0;
   const builtOn = todayISO();
   const count = (stage: string) => items.filter((p) => p.stage === stage).length;
   const analysed = items.filter((p) => p.risk).length;
@@ -40,14 +41,26 @@ export default async function CameraPage() {
         </p>
       </div>
 
-      {(read < items.length || analysed < atChamber) && (
+      {(read < items.length || analysed < atChamber || comparePending > 0) && (
         <div role="note" className="mt-8 max-w-3xl rounded-2xl border border-brand/30 bg-brand-soft px-5 py-4 text-[15px] leading-7 text-ink">
           <p className="font-semibold">Pagina e nouă și o completăm treptat.</p>
-          <p className="mt-1 text-body">
-            Am citit până acum {read} din cele {items.length} fișe de pe cdep.ro și am analizat cu modelele AI {analysed === 1 ? 'un proiect' : `${analysed} proiecte`}.
-            Citim fișele încet, ca să nu încărcăm site-ul Camerei, iar analizele se adaugă în fiecare zi: întâi proiectele programate la vot, apoi
-            cele noi, apoi restul. Până atunci, proiectele fără fișă citită duc direct la cdep.ro.
-          </p>
+          {read < items.length || analysed < atChamber ? (
+            <p className="mt-1 text-body">
+              Am citit până acum {read} din cele {items.length} fișe de pe cdep.ro și am analizat cu modelele AI {analysed === 1 ? 'un proiect' : `${analysed} proiecte`}.
+              Citim fișele încet, ca să nu încărcăm site-ul Camerei, iar analizele se adaugă în fiecare zi: întâi proiectele programate la vot, apoi
+              cele noi, apoi restul. Până atunci, proiectele fără fișă citită duc direct la cdep.ro.
+            </p>
+          ) : (
+            <p className="mt-1 text-body">
+              Am citit toate cele {items.length} fișe de pe cdep.ro și am analizat cu modelele AI {analysed === 1 ? 'un proiect' : `${analysed} proiecte`}.
+            </p>
+          )}
+          {comparePending > 0 && versionsStatus && (
+            <p className="mt-2 text-body">
+              Comparăm și formele prin care trece fiecare proiect (inițiator, Senat, Cameră): am terminat {versionsStatus.compared} și mai avem cel mult{' '}
+              {comparePending === 1 ? 'un proiect' : `${comparePending} proiecte`}, pe care le adăugăm în zilele următoare.
+            </p>
+          )}
         </div>
       )}
 

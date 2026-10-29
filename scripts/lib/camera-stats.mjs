@@ -40,6 +40,9 @@ export function cameraStats(DATA, senateBills) {
     .map((v) => ({ v, delta: v.versions.at(-1).riskScore - v.versions[0].riskScore }))
     .sort((a, b) => b.delta - a.delta)[0]?.v;
 
+  // Cât mai e de comparat (scripts/straja-council.mjs --versions scrie fișierul la fiecare rulare).
+  const status = readJson(path.join(DATA, 'cdep', 'versions-status.json'), null);
+
   // Parlamentarii cu cel puțin un proiect analizat, la Senat sau la Cameră (ca pe /parlamentari).
   const mps = new Set();
   for (const b of senateBills) for (const i of b.initiators) mps.add(nameKey(i.name));
@@ -55,6 +58,7 @@ export function cameraStats(DATA, senateBills) {
     top: here.filter((b) => b.level === 'red').sort((a, b) => b.score - a.score),
     government,
     compared: versions.length,
+    comparePending: status?.pending.length ?? 0,
     direction,
     riskier,
     mps: mps.size,

@@ -102,6 +102,11 @@ export async function getBillVersions(slug: string): Promise<BillVersions | null
   return v && v.versions.length >= 2 ? v : null;
 }
 
+/** Cât mai e de comparat între forme (data/cdep/versions-status.json, scris de straja-council.mjs --versions). */
+export async function getVersionsStatus(): Promise<{ comparable: number; compared: number; pending: string[] } | null> {
+  return readJson(path.join(DIR, 'versions-status.json'));
+}
+
 export async function getCommittees(): Promise<Record<string, { nume: string; url: string; email: string | null }>> {
   return (await readJson(path.join(DIR, 'comisii.json'))) ?? {};
 }

@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { ArrowLeft, ExternalLink, FileText } from 'lucide-react';
-import { cdepParty, getBillVersions, getCdepAnalysis, getCdepBill, getCdepSlugs, getCommittees, initiatorLabel } from '@/lib/cdep';
+import { cdepParty, getBillVersions, getCdepAnalysis, getCdepBill, getCdepSlugs, getCommittees, getVersionsStatus, initiatorLabel } from '@/lib/cdep';
 import { dayDiff, shortCommittee, shortDate, stageLabel, stageOf } from '@/lib/cdep-text';
 import { RISK } from '@/lib/risk';
 import { MODELS } from '@/lib/site';
@@ -39,7 +39,14 @@ const LAW_TYPE: Record<string, string> = { ordinar: 'Ordinară', organic: 'Organ
 
 export default async function CameraBillPage({ params }: PageProps) {
   const { slug } = await params;
-  const [bill, analysis, committees, versions] = await Promise.all([getCdepBill(slug), getCdepAnalysis(slug), getCommittees(), getBillVersions(slug)]);
+  const [bill, analysis, committees, versions, versionsStatus] = await Promise.all([
+    getCdepBill(slug),
+    getCdepAnalysis(slug),
+    getCommittees(),
+    getBillVersions(slug),
+    getVersionsStatus(),
+  ]);
+  const comparing = !versions && versionsStatus?.pending.includes(slug);
   if (!bill) notFound();
 
   const f = bill.fisa;
@@ -201,6 +208,17 @@ export default async function CameraBillPage({ params }: PageProps) {
         </section>
 
         {versions && <BillVersions data={versions} />}
+        {comparing && (
+          <section aria-labelledby="versiuni" role="note" className={`${panel} mt-6 p-6 sm:p-7`}>
+            <h2 id="versiuni" className="text-base font-semibold text-ink">
+              Cum s-a schimbat pe drum
+            </h2>
+            <p className="mt-2 text-[15px] leading-7 text-body">
+              Proiectul a trecut prin mai multe forme. Le comparăm acum, una câte una, ca să vezi ce s-a schimbat și dacă a devenit mai riscant; rezultatul
+              apare aici în zilele următoare.
+            </p>
+          </section>
+        )}
 
         {atChamber && report.length > 0 && (
           <section aria-labelledby="actiune" className={`${panel} mt-6 border-brand/40 p-6 sm:p-8`}>

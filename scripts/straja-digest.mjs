@@ -26,6 +26,7 @@ import { fileURLToPath } from 'node:url';
 import { C, LEVELS, RISK, SANS, SERIF, SITE, button, emailLayout, esc, footerHtml, riskChip } from '../email/layout.mjs';
 // Aceeași regulă ca pe site pentru poziția unui articol (Node rulează TypeScript-ul fără compilare: press.ts importă doar tipuri).
 import { pressArticle, STANCE } from '../src/lib/press.ts';
+import { cameraStats } from './lib/camera-stats.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = path.join(ROOT, 'data');
@@ -256,59 +257,7 @@ ${next ? P(`Următorul termen: <a href="${esc(billUrl(next))}" class="lt-link" s
 
 // --- ediția specială: Camera Deputaților ---------------------------------------------------------
 
-// Proiectele aflate acum în dezbatere la Cameră (aceeași regulă ca în scripts/straja-council.mjs).
-const AT_CHAMBER = /^(la comisii|raport|pe ordinea de zi|în reexaminare|aviz|sesizare)/i;
-const nameKey = (name) => name.normalize('NFKD').replace(/\p{M}/gu, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const cameraUrl = (slug) => track(`${SITE}/camera/${slug}`);
-
-/** Cifrele despre Cameră din datele de azi: proiecte, analize, forme comparate, parlamentari. */
-function cameraStats(senateBills) {
-  const index = readJson(path.join(DATA, 'cdep', 'index.json'), { proiecte: [] });
-  const rows = index.proiecte.filter((p) => !p.senat);
-  const bills = rows
-    .map((p) => ({ ...p, analysis: readJson(path.join(DATA, 'analyses', `${p.slug}.json`), null), sheet: readJson(path.join(DATA, 'cdep', 'proiecte', `${p.slug}.json`), null) }))
-    .filter((b) => b.analysis)
-    .map((b) => ({ ...b, level: b.analysis.consensus.riskLevel, score: b.analysis.consensus.riskScore, title: b.analysis.consensus.plainTitle }));
-  const levels = { red: 0, yellow: 0, green: 0 };
-  for (const b of bills) levels[b.level]++;
-  const here = bills.filter((b) => AT_CHAMBER.test(b.stadiu));
-  const government = bills.filter((b) => b.sheet && !b.sheet.fisa.initiatori.length).length;
-
-  // Comparația formelor: direcția ultimei schimbări, ca în lista de pe site.
-  const versions = fs.existsSync(path.join(DATA, 'analyses', 'versions'))
-    ? fs
-        .readdirSync(path.join(DATA, 'analyses', 'versions'))
-        .filter((f) => f.endsWith('.json'))
-        .map((f) => readJson(path.join(DATA, 'analyses', 'versions', f), null))
-        .filter((v) => v?.changes?.length)
-    : [];
-  const direction = { mai_riscant: 0, mai_putin_riscant: 0, la_fel: 0 };
-  for (const v of versions) direction[v.changes.at(-1).direction]++;
-  const riskier = versions
-    .filter((v) => v.changes.at(-1).direction === 'mai_riscant')
-    .map((v) => ({ v, delta: v.versions.at(-1).riskScore - v.versions[0].riskScore }))
-    .sort((a, b) => b.delta - a.delta)[0]?.v;
-
-  // Parlamentarii cu cel puțin un proiect analizat, la Senat sau la Cameră (ca pe /parlamentari).
-  const mps = new Set();
-  for (const b of senateBills) for (const i of b.initiators) mps.add(nameKey(i.name));
-  for (const b of bills) for (const i of b.sheet?.fisa.initiatori ?? []) mps.add(nameKey(i.nume));
-  mps.delete('');
-
-  return {
-    total: rows.length,
-    analysed: bills.length,
-    levels,
-    here: here.length,
-    hereRed: here.filter((b) => b.level === 'red').length,
-    top: here.filter((b) => b.level === 'red').sort((a, b) => b.score - a.score).slice(0, 3),
-    government,
-    compared: versions.length,
-    direction,
-    riskier,
-    mps: mps.size,
-  };
-}
 
 function cameraCard(b) {
   const r = RISK[b.level];
@@ -321,7 +270,7 @@ function cameraCard(b) {
 
 /** Ediția specială: { subject, lead, intro, html, text }, pusă înaintea noutăților zilei. */
 function cameraAnnouncement(senateBills) {
-  const s = cameraStats(senateBills);
+  const s = cameraStats(DATA, senateBills);
   const subject = `destrajă urmărește acum și Camera Deputaților: ${countWord(s.analysed, 'proiect analizat', 'proiecte analizate')}`;
   const lead = 'destrajă urmărește acum și Camera Deputaților';
   const intro = `Până acum urmăream doar proiectele aflate în consultare publică la Senat. De azi, pe site sunt și proiectele înregistrate în ${new Date().getFullYear()} la Camera Deputaților, analizate cu aceleași trei modele AI.`;
@@ -336,9 +285,10 @@ function cameraAnnouncement(senateBills) {
   const hereRed = s.hereRed === 0 ? 'niciunul' : s.hereRed === 1 ? 'unul' : String(s.hereRed);
   html += P(`Acum sunt în dezbatere la Cameră (în comisii, cu raport sau pe ordinea de zi) <strong>${countWord(s.here, 'proiect', 'proiecte')}</strong>, dintre care ${hereRed} cu risc ridicat.`);
   text += `\nCE AM GĂSIT LA CAMERĂ\nAm citit ${countWord(s.total, 'proiect', 'proiecte')} și am analizat ${s.analysed}: ${s.levels.red} cu risc ridicat, ${s.levels.yellow} cu risc moderat și ${s.levels.green} cu risc scăzut. ${countWord(s.government, 'proiect vine', 'proiecte vin')} de la Guvern, restul de la parlamentari.\nÎn dezbatere la Cameră acum: ${countWord(s.here, 'proiect', 'proiecte')}, ${s.hereRed} cu risc ridicat.\n`;
-  if (s.top.length) {
-    html += P('Cele mai riscante dintre cele aflate acum în dezbatere:', 'margin:18px 0 10px;font-size:15px;line-height:23px') + s.top.map(cameraCard).join('');
-    text += `\nCele mai riscante dintre cele aflate acum în dezbatere:\n${s.top.map((b) => `- ${b.title}\n  ${RISK[b.level].label} ${fmtScore(b.score)} · ${b.numar} · ${b.stadiu}\n  ${cameraUrl(b.slug)}`).join('\n')}\n`;
+  const top = s.top.slice(0, 3);
+  if (top.length) {
+    html += P('Cele mai riscante dintre cele aflate acum în dezbatere:', 'margin:18px 0 10px;font-size:15px;line-height:23px') + top.map(cameraCard).join('');
+    text += `\nCele mai riscante dintre cele aflate acum în dezbatere:\n${top.map((b) => `- ${b.title}\n  ${RISK[b.level].label} ${fmtScore(b.score)} · ${b.numar} · ${b.stadiu}\n  ${cameraUrl(b.slug)}`).join('\n')}\n`;
   }
   html += `<div style="margin-top:18px">${button(track(`${SITE}/camera`), 'Proiectele de la Cameră')}</div>`;
   text += `\nProiectele de la Cameră: ${track(`${SITE}/camera`)}\n`;
@@ -545,7 +495,7 @@ async function main() {
   const data = collect(bills, state);
   if (ANUNT && ANUNT !== 'camera') throw new Error(`--anunt=${ANUNT}: nu există; avem doar --anunt=camera`);
   const anunt = ANUNT === 'camera' ? cameraAnnouncement(readJson(path.join(DATA, 'senat-bills.json'), []).filter((b) => fs.existsSync(path.join(DATA, 'analyses', `${b.slug}.json`)))) : null;
-  if (anunt) console.log(`📣 anunț: ${JSON.stringify({ ...anunt.stats, top: anunt.stats.top.map((b) => b.numar), riskier: anunt.stats.riskier?.billId ?? null })}`);
+  if (anunt) console.log(`📣 anunț: ${JSON.stringify({ ...anunt.stats, top: anunt.stats.top.slice(0, 3).map((b) => b.numar), riskier: anunt.stats.riskier?.billId ?? null })}`);
   fs.mkdirSync(OUT_DIR, { recursive: true });
   const editions = {};
   for (const level of LEVEL_KEYS) {

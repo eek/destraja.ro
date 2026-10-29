@@ -1,0 +1,119 @@
+#!/usr/bin/env node
+// Imaginea de share pentru ediția specială despre Camera Deputaților: 1080×1350 (Facebook, Instagram), în stilul
+// imaginilor de previzualizare ale site-ului (src/og: fonturile, culorile, logo-ul), cu cifrele din
+// scripts/lib/camera-stats.mjs, aceleași ca în e-mail. O desenează Chrome fără interfață.
+//
+//   node scripts/straja-share.mjs     → ops/share/camera-AAAA-LL-ZZ.png (și .html)
+//
+// CHROME_BIN schimbă calea spre Chrome (implicit cea de pe macOS).
+import fs from 'node:fs';
+import path from 'node:path';
+import { spawnSync } from 'node:child_process';
+import { fileURLToPath } from 'node:url';
+import { cameraStats } from './lib/camera-stats.mjs';
+
+const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const DATA = path.join(ROOT, 'data');
+const OUT_DIR = path.join(ROOT, 'ops', 'share');
+const CHROME = process.env.CHROME_BIN || '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
+const DAY = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Bucharest' }).format(new Date());
+const SIZE = { width: 1080, height: 1350 };
+const TOP = 5;
+
+// Culorile temei deschise a site-ului (src/og/og.tsx, src/app/globals.css).
+const OG = { bg: '#fffefb', ink: '#121a2b', body: '#2c3546', muted: '#5b6475', line: '#e0dbcf', brand: '#172c54' };
+const RED = { bar: '#d0372b', text: '#a8261b', soft: '#fbe8e5' };
+
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+const fmtScore = (n) => n.toFixed(1).replace('.', ',');
+const font = (name) => `url('${pathToUrl(path.join(ROOT, 'src', 'og', name))}') format('truetype')`;
+const pathToUrl = (p) => `file://${p.split(path.sep).map(encodeURIComponent).join('/')}`;
+/** Taie la ultimul cuvânt întreg sub `max` caractere (ca clip din src/og/og.tsx). */
+function clip(text, max) {
+  if (text.length <= max) return text;
+  const cut = text.slice(0, max - 1);
+  return `${cut.slice(0, cut.lastIndexOf(' ')).replace(/[\s,;:.–-]+$/, '')}…`;
+}
+
+const readJson = (file, fallback) => (fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : fallback);
+const senateBills = readJson(path.join(DATA, 'senat-bills.json'), []).filter((b) => fs.existsSync(path.join(DATA, 'analyses', `${b.slug}.json`)));
+const s = cameraStats(DATA, senateBills);
+const top = s.top.slice(0, TOP);
+
+const stat = (value, label, color = OG.ink) => `
+  <div class="stat">
+    <div class="value" style="color:${color}">${value}</div>
+    <div class="label">${label}</div>
+  </div>`;
+
+const row = (b) => `
+  <div class="row">
+    <div class="score">${fmtScore(b.score)}</div>
+    <div class="text">
+      <div class="title">${esc(clip(b.title, 112))}</div>
+      <div class="meta">${esc(b.numar)} · ${esc(b.stadiu)}</div>
+    </div>
+  </div>`;
+
+const html = `<!doctype html>
+<html lang="ro"><head><meta charset="utf-8"><title>Camera Deputaților</title>
+<style>
+  @font-face { font-family: Serif; font-weight: 400; src: ${font('serif-400.ttf')}; }
+  @font-face { font-family: Serif; font-weight: 600; src: ${font('serif-600.ttf')}; }
+  @font-face { font-family: Sans; font-weight: 400; src: ${font('sans-400.ttf')}; }
+  @font-face { font-family: Sans; font-weight: 600; src: ${font('sans-600.ttf')}; }
+  * { box-sizing: border-box; margin: 0; }
+  html, body { width: ${SIZE.width}px; height: ${SIZE.height}px; background: ${OG.bg}; overflow: hidden; }
+  body { font-family: Sans; color: ${OG.body}; padding: 60px 72px 0; position: relative; display: flex; flex-direction: column; }
+  .head { display: flex; align-items: center; justify-content: space-between; }
+  .eyebrow { font-size: 24px; color: ${OG.muted}; letter-spacing: .02em; }
+  h1 { font-family: Serif; font-weight: 600; font-size: 70px; line-height: 1.04; letter-spacing: -1.5px; color: ${OG.ink}; margin-top: 38px; }
+  h1 span { display: block; color: ${OG.muted}; font-weight: 400; }
+  .stats { display: flex; gap: 28px; margin-top: 36px; padding: 26px 0 26px; border-top: 2px solid ${OG.line}; border-bottom: 2px solid ${OG.line}; }
+  .stat { flex: 1; }
+  .value { font-family: Serif; font-weight: 600; font-size: 88px; line-height: 1; letter-spacing: -2px; }
+  .label { font-size: 23px; line-height: 1.3; color: ${OG.muted}; margin-top: 8px; }
+  .list-label { font-size: 22px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: ${RED.text}; margin: 28px 0 4px; }
+  .row { display: flex; gap: 22px; align-items: flex-start; padding: 14px 0; border-top: 1px solid ${OG.line}; }
+  .row:first-of-type { border-top: 0; }
+  .score { flex: none; width: 84px; padding: 8px 0; border-radius: 12px; background: ${RED.soft}; color: ${RED.text}; font-weight: 600; font-size: 30px; text-align: center; }
+  .title { font-family: Serif; font-size: 28px; line-height: 1.2; color: ${OG.ink}; }
+  .meta { font-size: 19px; color: ${OG.muted}; margin-top: 4px; }
+  .foot { margin: auto 0 44px; padding-top: 18px; display: flex; justify-content: space-between; align-items: flex-end; }
+  .url { font-family: Serif; font-weight: 600; font-size: 38px; color: ${OG.brand}; }
+  .note { font-size: 18px; line-height: 1.35; color: ${OG.muted}; text-align: right; width: 420px; }
+  .bar { position: absolute; left: 0; right: 0; bottom: 0; height: 14px; background: ${OG.brand}; }
+</style></head>
+<body>
+  <div class="head">
+    <img src="${pathToUrl(path.join(ROOT, 'public', 'destraja-logo.svg'))}" width="210" height="71" alt="destrajă.ro">
+    <div class="eyebrow">Camera Deputaților · ${new Date().getFullYear()}</div>
+  </div>
+  <h1><span>Ce se pregătește</span>la Camera Deputaților</h1>
+  <div class="stats">
+    ${stat(s.total, `proiecte în ${new Date().getFullYear()}`)}
+    ${stat(s.here, 'în dezbatere acum')}
+    ${stat(s.hereRed, 'cu risc ridicat', RED.text)}
+  </div>
+  <div class="list-label">Cele mai riscante, acum în dezbatere</div>
+  ${top.map(row).join('')}
+  <div class="foot">
+    <div class="url">destraja.ro/camera</div>
+    <div class="note">Scoruri de risc de la 0 la 10, date de Gemini, Claude și ChatGPT. Pot conține erori.</div>
+  </div>
+  <div class="bar"></div>
+</body></html>`;
+
+fs.mkdirSync(OUT_DIR, { recursive: true });
+const base = path.join(OUT_DIR, `camera-${DAY}`);
+fs.writeFileSync(`${base}.html`, html);
+const shot = spawnSync(
+  CHROME,
+  ['--headless=new', '--disable-gpu', '--hide-scrollbars', '--allow-file-access-from-files', `--window-size=${SIZE.width},${SIZE.height}`, `--screenshot=${base}.png`, pathToUrl(`${base}.html`)],
+  { encoding: 'utf8', timeout: 60_000 },
+);
+if (shot.status !== 0 || !fs.existsSync(`${base}.png`)) {
+  console.error(`✗ Chrome nu a desenat imaginea: ${(shot.stderr || shot.error?.message || '').slice(0, 300)}`);
+  process.exit(1);
+}
+console.log(`🖼  ${path.relative(ROOT, base)}.png: ${s.total} proiecte, ${s.here} în dezbatere, ${s.hereRed} cu risc ridicat; top: ${top.map((b) => b.numar).join(', ')}`);

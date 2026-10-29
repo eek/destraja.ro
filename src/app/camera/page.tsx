@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getCdepIndex, getCdepList, getCdepSlugs, getVersionsStatus } from '@/lib/cdep';
-import { dayDiff } from '@/lib/cdep-text';
 import { formatDateRo, todayISO } from '@/lib/format';
 import { Container, linkCls } from '@/components/ui';
 import CameraExplorer from '@/components/camera/CameraExplorer';
@@ -16,17 +15,9 @@ export default async function CameraPage() {
   const [items, pages, index, versionsStatus] = await Promise.all([getCdepList(), getCdepSlugs(), getCdepIndex(), getVersionsStatus()]);
   const comparePending = versionsStatus?.pending.length ?? 0;
   const builtOn = todayISO();
-  const count = (stage: string) => items.filter((p) => p.stage === stage).length;
   const analysed = items.filter((p) => p.risk).length;
   const atChamber = items.filter((p) => ['comisii', 'raport', 'plen', 'altele'].includes(p.stage)).length;
   const read = pages.length + items.filter((p) => p.senat).length;
-  const soon = items.filter((p) => p.stage === 'comisii' && p.termenAmendamente && dayDiff(p.termenAmendamente, builtOn) >= 0 && dayDiff(p.termenAmendamente, builtOn) <= 7).length;
-  const stats = [
-    { n: count('comisii'), label: 'la comisii' },
-    { n: count('raport'), label: 'cu raportul gata' },
-    { n: count('plen'), label: 'pe ordinea de zi a plenului' },
-    { n: soon, label: 'cu termen de amendamente în 7 zile' },
-  ];
 
   return (
     <Container className="py-12 sm:py-16">
@@ -64,16 +55,7 @@ export default async function CameraPage() {
         </div>
       )}
 
-      <dl className="mt-8 grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-line bg-line sm:grid-cols-4">
-        {stats.map((s) => (
-          <div key={s.label} className="flex flex-col bg-surface px-5 py-4">
-            <dt className="text-sm leading-5 text-muted">{s.label}</dt>
-            <dd className="order-first text-3xl font-semibold tabular-nums text-ink">{s.n}</dd>
-          </div>
-        ))}
-      </dl>
-
-      <div className="mt-10">
+      <div className="mt-8">
         <CameraExplorer items={items} pages={pages} builtOn={builtOn} />
       </div>
 

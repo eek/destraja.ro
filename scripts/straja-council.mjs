@@ -459,35 +459,54 @@ const readJsonFile = (file) => {
 
 // Versiunea instrucțiunilor de comparație. 2 (29 octombrie 2026): fără scorurile formelor în prompt (direcția trebuie să
 // vină din text, nu din scoruri), plus titlu, importanță și citate pentru fiecare schimbare și inventarul formei noi.
-// O comparație cu altă versiune se reface la --recompare.
-const COMPARE_SCHEMA = 2;
+// 3: deosebim „prevederea nu exista” (modelul a spus null) de „citatul n-a trecut verificarea”, iar inventarul spune când
+// e doar al începutului textului. O comparație cu altă versiune se reface la --recompare.
+const COMPARE_SCHEMA = 3;
 // Cât din forma nouă primește modelul pentru inventar (caractere).
 const INVENTORY_CHARS = 40_000;
 
-/** Ca să găsim un citat în textul OCR: aceleași diacritice, ghilimele și liniuțe, spații simple, fără despărțiri în silabe. */
+/**
+ * Ca să găsim un citat în textul OCR: aceleași diacritice, ghilimele și liniuțe, spații simple. Cratima dintre două litere
+ * dispare de ambele părți, ca „opera-\ntorii” (despărțire în silabe) și „s-\na” (cratimă ruptă la capăt de rând) să se
+ * potrivească la fel cu citatul.
+ */
 const quoteKey = (s) =>
   s
     .normalize('NFC')
+    .replace(/\u00ad/g, '')
     .replace(/ş/g, 'ș').replace(/ţ/g, 'ț').replace(/Ş/g, 'Ș').replace(/Ţ/g, 'Ț')
     .replace(/[„”“"«»]/g, '"').replace(/[‘’`]/g, "'").replace(/[–—‑]/g, '-')
     .replace(/\s+/g, ' ')
-    .replace(/(\p{L})- (\p{L})/gu, '$1$2')
+    .replace(/(\p{L}) ?- ?(\p{L})/gu, '$1$2')
     .toLowerCase()
     .trim();
 
-/** Citatul, doar dacă apare cuvânt cu cuvânt în text (bucățile dintre „…” pe rând); altfel null, ca să nu afișăm citate inventate. */
-function verifiedQuote(quote, text) {
-  if (typeof quote !== 'string' || quote.trim().length < 12) return null;
-  const hay = quoteKey(text);
-  const pieces = quote.split(/…|\.\.\./).map(quoteKey).filter((p) => p.length >= 8);
-  return pieces.length && pieces.every((p) => hay.includes(p)) ? quote.trim().slice(0, 400) : null;
+/**
+ * Citatul, doar dacă apare cuvânt cu cuvânt în text; altfel null, ca să nu afișăm citate inventate. „…” e voie doar la
+ * început sau la sfârșit; o bucată lipsă din mijloc ar lăsa nevăzute exact cuvintele scurte care schimbă sensul („nu”, „90”).
+ */
+function verifiedQuote(quote, hay) {
+  if (typeof quote !== 'string') return null;
+  const core = quote.trim().replace(/^(?:…|\.\.\.)\s*/, '').replace(/\s*(?:…|\.\.\.)$/, '');
+  if (core.length < 12 || /…|\.\.\./.test(core)) return null;
+  return hay.includes(quoteKey(core)) ? quote.trim().slice(0, 400) : null;
 }
 
-const inventory = (list) =>
-  (Array.isArray(list) ? list : [])
-    .slice(0, 14)
-    .map((x) => ({ text: String(x?.text ?? '').slice(0, 160), major: x?.major === true, article: x?.article ? String(x.article).slice(0, 80) : null }))
-    .filter((x) => x.text);
+/** Un șir de la model, fără spații goale și fără „null” scris ca text. */
+const clean = (v, max) => {
+  const s = typeof v === 'string' ? v.trim() : '';
+  return s && s.toLowerCase() !== 'null' ? s.slice(0, max) : null;
+};
+
+/** Inventarul, cu cele majore întâi, ca limita să taie din cele minore; null dacă modelul nu l-a dat. */
+function inventory(list) {
+  if (!Array.isArray(list)) return null;
+  return list
+    .map((x) => ({ text: clean(x?.text, 160), major: x?.major === true, article: clean(x?.article, 80) }))
+    .filter((x) => x.text)
+    .sort((a, b) => Number(b.major) - Number(a.major))
+    .slice(0, 20);
+}
 
 async function compareVersions(bill, a, b, texts, analyses) {
   const ta = texts[FORMS[a.key].text];
@@ -500,10 +519,11 @@ async function compareVersions(bill, a, b, texts, analyses) {
       .join('\n');
   const [A, B] = [analyses[a.key], analyses[b.key]];
   // Dacă textul a fost rescris aproape în întregime, diferențele nu mai spun mare lucru: dăm ambele texte.
+  // Forma B vine oricum întreagă mai jos, pentru inventar.
   const body =
     diff.same >= 0.25
       ? `DIFERENȚELE DE TEXT DE LA FORMA A LA FORMA B (bucăți scoase cu „-”, adăugate cu „+”, „…” = text neschimbat):\n${diff.text}`
-      : `TEXTUL A FOST RESCRIS. FORMA A (început):\n${ta.slice(0, 9000)}\n\nFORMA B (început):\n${tb.slice(0, 9000)}`;
+      : `TEXTUL A FOST RESCRIS. FORMA A (început):\n${ta.slice(0, 9000)}`;
   // Fără scorurile formelor: altfel direcția s-ar putea lua după ele, iar comparația n-ar mai fi o verificare separată.
   const prompt = `Ești un auditor legislativ român. Compari două forme ale aceluiași proiect de lege, ${bill.id}: „${bill.officialTitle}”.
 
@@ -558,28 +578,42 @@ Returnează EXCLUSIV un obiect JSON valid:
   if (res.status !== 'ok') throw new Error(`comparația ${a.key}→${b.key}: ${res.error}`);
   const d = res.data;
   const direction = ['mai_riscant', 'mai_putin_riscant', 'la_fel'].includes(d.direction) ? d.direction : 'la_fel';
+  const [hayA, hayB] = [quoteKey(ta), quoteKey(tb)];
+  let rejected = 0;
   const changes = (Array.isArray(d.changes) ? d.changes : [])
     .slice(0, 6)
-    .map((c) => ({
-      title: String(c.title ?? '').slice(0, 90),
-      text: String(c.text ?? '').slice(0, 260),
-      effect: ['mai_bine', 'mai_rau', 'neutru'].includes(c.effect) ? c.effect : 'neutru',
-      major: c.major === true,
-      article: c.article ? String(c.article).slice(0, 80) : null,
-      before: verifiedQuote(c.before, ta),
-      after: verifiedQuote(c.after, tb),
-    }))
+    .map((c) => {
+      const before = verifiedQuote(c?.before, hayA);
+      const after = verifiedQuote(c?.after, hayB);
+      // Modelul a spus null = prevederea nu exista (sau a fost scoasă); un citat dat care n-a trecut verificarea nu spune asta.
+      const absent = (q) => q === null || (typeof q === 'string' && clean(q, 10) === null);
+      const [beforeAbsent, afterAbsent] = [absent(c?.before), absent(c?.after)];
+      rejected += Number(!before && !beforeAbsent) + Number(!after && !afterAbsent);
+      return {
+        title: clean(c?.title, 90),
+        text: clean(c?.text, 260),
+        effect: ['mai_bine', 'mai_rau', 'neutru'].includes(c?.effect) ? c.effect : 'neutru',
+        major: c?.major === true,
+        article: clean(c?.article, 80),
+        before,
+        after,
+        beforeAbsent: !before && beforeAbsent,
+        afterAbsent: !after && afterAbsent,
+      };
+    })
     .filter((c) => c.text);
-  const quoted = changes.filter((c) => c.before || c.after).length;
-  if (changes.length && quoted < changes.length) console.log(`   ✂️  ${bill.id} ${a.key}→${b.key}: ${changes.length - quoted} din ${changes.length} schimbări fără citat găsit în text`);
+  if (rejected) console.log(`   ✂️  ${bill.id} ${a.key}→${b.key}: ${rejected} citate negăsite cuvânt cu cuvânt în text`);
+  const problems = inventory(d.remaining?.problems);
+  const good = inventory(d.remaining?.good);
   return {
     from: a.key,
     to: b.key,
     direction,
-    headline: String(d.headline ?? '').slice(0, 140),
-    summary: String(d.summary ?? '').slice(0, 400),
+    headline: clean(d.headline, 140),
+    summary: clean(d.summary, 400) ?? '',
     changes,
-    remaining: { problems: inventory(d.remaining?.problems), good: inventory(d.remaining?.good) },
+    // Fără inventar valid nu scriem liste goale: pagina ar spune „nicio problemă majoră”.
+    remaining: problems && good ? { problems, good, partial: tb.length > INVENTORY_CHARS } : null,
     diff: { added: diff.added, removed: diff.removed, same: diff.same },
     model: 'claude',
     schema: COMPARE_SCHEMA,

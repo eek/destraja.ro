@@ -307,6 +307,9 @@ export interface VersionItem {
   article?: string | null;
   before?: string | null;
   after?: string | null;
+  /** Schema 3: modelul a spus că prevederea nu exista în forma veche, respectiv că a fost scoasă din cea nouă. */
+  beforeAbsent?: boolean;
+  afterAbsent?: boolean;
 }
 
 /** O problemă sau o parte bună din forma nouă, din inventarul comparației. */
@@ -325,8 +328,8 @@ export interface VersionChange {
   headline?: string;
   summary: string;
   changes: VersionItem[];
-  /** Ce e acum în forma nouă, schimbat sau nu (schema 2). */
-  remaining?: { problems: RemainingItem[]; good: RemainingItem[] };
+  /** Ce e acum în forma nouă, schimbat sau nu (schema 2); partial = modelul a văzut doar începutul unui text lung. */
+  remaining?: { problems: RemainingItem[]; good: RemainingItem[]; partial?: boolean } | null;
   diff: { added: number; removed: number; same: number };
   model: string;
   schema?: number;

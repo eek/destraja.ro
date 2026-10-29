@@ -1,0 +1,180 @@
+# EXPUNERE DE MOTIVE
+
+## a) Motivul emiterii actului normativ
+
+## 1. Cerințele care reclamă intervenția normativă
+
+Prezenta propunere legislativă vizează modificarea și completarea art. 106 din Legea învățământului preuniversitar nr. 198/2023, publicată în Monitorul Oficial al României, Partea I, nr. 613 din 5 iulie 2023, cu modificările și completările ulterioare, cu privire la regimul juridic al utilizării telefoanelor mobile și al celorlalte echipamente de comunicații electronice de către elevii din învățământul preuniversitar.
+
+Cadrul normativ în vigoare este structurat pe două paliere. Pe de o parte, art. 106 alin. (4) din Legea nr. 198/2023 instituie o interdicție legală directă de utilizare a telefoanelor mobile pe durata cursurilor din învățământul preșcolar, primar și gimnazial, inclusiv în timpul activităților educaționale desfășurate în afara unităților de învățământ, cu singurele excepții ale utilizării în scop educativ sau în spațiile autorizate explicit de regulamentul intern. Pe de altă parte, art. 106 alin. (5) lasă la latitudinea fiecărei unități de învățământ liceal decizia de a interzice, prin regulamentul intern, folosirea dispozitivelor electronice în incinta școlii sau doar într-o parte a acesteia, precum și în timpul activităților desfășurate în afara unității. Alineatul (6) exceptează echipamentele pe care elevii cu CES sunt autorizați să le folosească, iar alineatul (7) prevede că nerespectarea interdicțiilor poate conduce la preluarea echipamentului de către personalul unității de învățământ, în vederea predării către părinți, tutori legali sau elevi, conform regulamentului intern.
+
+Deși această arhitectură normativă reflectă un principiu corect, acela de a diferenția regimul juridic aplicabil învățământului liceal față de cel aplicabil ciclurilor inferioare, aplicarea sa practică a relevat insuficiențe și neconcordanțe pe care prezenta propunere legislativă își propune să le remedieze.
+
+## 2. Insuficiențele și neconcordanțele reglementărilor în vigoare
+
+## A. Lipsa unei garanții procedurale pentru decizia de restricționare în învățământul liceal.
+
+Potrivit reglementării actuale, regulamentul intern al unității de învățământ liceal poate interzice utilizarea dispozitivelor electronice, fără nicio condiție specială de cvorum sau de majoritate. Decizia se adoptă de consiliul de administrație în condițiile de cvorum obișnuite, prevăzute de art. 128 alin. (2) din Legea nr. 198/2023. Or, această decizie produce consecințe juridice semnificative: ea echivalează cu o restricționare a exercitării dreptului de proprietate al elevilor asupra bunurilor personale, cu o limitare a dreptului la comunicație și, în anumite situații, cu o încălcare a dreptului la viață privată. Gravitatea acestor efecte nu este proporțională cu ușurința procedurală cu care măsura poate fi adoptată.
+
+Această insuficiență capătă o relevanță deosebită dacă este raportată la regimul juridic general al persoanelor cu vârsta cuprinsă între 16 și 18 ani. Potrivit art. 13 alin.
+
+(1) din Legea nr. 53/2003 – Codul muncii, republicată, cu modificările și completările ulterioare, persoana fizică dobândește capacitate de muncă la împlinirea vârstei de 16 ani. Aceasta înseamnă că, în viziunea legiutorului român, un tânăr de 16 ani dispune de discernământul și maturitatea necesare pentru a încheia în mod autonom un contract individual de muncă – act juridic cu implicații patrimoniale și personale considerabile – fără a fi necesar acordul părinților sau al reprezentanților legali. Prin simetrie de raționament, este greu de justificat ca aceluiași tânăr să-i fie retrasă posesia temporară asupra telefonului mobil propriu printr-o simplă decizie de consiliu de administrație, adoptată în condiții de cvorum obișnuit, fără nicio garanție procedurală proporțională cu gravitatea măsurii.
+
+Spre deosebire de elevii din învățământul preșcolar, primar și gimnazial, unde interdicția operează ope legis și este justificată de vârsta fragedă a beneficiarilor primari, elevii de liceu se află în majoritate în intervalul de vârstă 16-18 ani, adică în categoria persoanelor cărora dreptul român le recunoaște deja o capacitate juridică parțială semnificativă. Prin urmare, orice restricție aplicabilă acestei categorii trebuie să fie însoțită de garanții procedurale adecvate, care să asigure că măsura reflectă voința reală și deliberată a comunității școlare, iar nu rezultatul unei majorități conjuncturale.
+
+## B. Absența oricăror standarde privind gestionarea dispozitivelor preluate.
+
+Alineatul (7) al art. 106 din forma în vigoare prevede că nerespectarea interdicției poate conduce la preluarea echipamentului de către personalul unității de învățământ, în vederea predării ulterioare către părinți, tutori legali sau elevi, „conform regulamentului intern”. Legea trimite, așadar, la regulamentul intern, dar nu stabilește nicio cerință minimă pe care acesta trebuie să o îndeplinească în ceea ce privește procedura de preluare, condițiile de depozitare, evidența predării sau modul de soluționare a incidentelor.
+
+Această lacună a generat, în practică, o serie de probleme semnificative. Telefoanele mobile sunt preluate frecvent de la elevi fără niciun document de predareprimire, fără individualizarea sau sigilarea dispozitivelor, fără desemnarea unor persoane responsabile și fără garanții adecvate de securizare. Dispozitivele sunt depozitate uneori pe catedra profesorului, în sertare neîncuiate sau în cutii nesecurizate, ceea ce creează un risc real de pierdere, deteriorare, furt sau acces neautorizat la datele personale ale elevilor. În absența unor norme clare, răspunderea patrimonială pentru eventualele prejudicii rămâne incertă, ceea ce generează litigii potențiale și un climat de neîncredere între elevi, părinți și personalul didactic.
+
+Semnalele din societate confirmă această realitate. În dezbaterile publice din anii 2024–2025, atât părinții, cât și cadrele didactice au subliniat în mod constant că principala problemă nu este interdicția în sine, ci modalitatea concretă în care aceasta este pusă în aplicare. Ministerul Educației însuși a recunoscut, prin comunicări oficiale, că implementarea diferă substanțial de la o școală la alta, în funcție de resursele și de inițiativa locală.
+
+## 3. Principiile de bază, finalitatea și elementele noi ale reglementării propuse
+
+Propunerea legislativă se fundamentează pe următoarele principii: principiul proporționalității restricțiilor cu gravitatea măsurii; principiul responsabilizării progresive în funcție de vârstă; principiul protecției dreptului de proprietate și a vieții private a elevilor; principiul subsidiarității și al autonomiei instituționale a unităților de învățământ; principiul previzibilității și al securității juridice în materia procedării de preluare a bunurilor personale.
+
+Finalitatea reglementării nu este aceea de a elimina sau de a atenua interdicția de utilizare a dispozitivelor electronice în școli, ci aceea de a consolida cadrul juridic prin care aceasta este pusă în aplicare, asigurând atât legitimitatea decizională, cât și garanții concrete pentru protecția bunurilor și a datelor personale ale elevilor.
+
+Elementele noi introduse prin prezenta propunere legislativă sunt următoarele:
+
+Primul element de noutate constă în modificarea alin. (5) al art. 106, în sensul instituirii unui cvorum de ședință calificat pentru adoptarea, de către consiliul de administrație al unității de învățământ liceal, a măsurii de interzicere a dispozitivelor electronice. Concret, prin derogare de la prevederile art. 128 alin. (2) din Legea nr. 198/2023, cvorumul de ședință este constituit în prezența a cel puțin 75% dintre membrii consiliului de administrație. Această cerință procedurală asigură că decizia de restricționare – care afectează drepturi fundamentale ale elevilor – este adoptată numai în urma unei deliberări reprezentative și ample, cu participarea cvasi-totalității membrilor, și nu poate fi impusă de un număr restrâns de membri prezenți la ședință. Practic, cvorumul calificat funcționează ca o garanție instituțională împotriva adoptării discreționare sau precipitate a măsurii, fără a împiedica însă consiliile de administrație care doresc să aplice interdicția să o facă.
+
+Al doilea element de noutate constă în introducerea unui nou alineat (7¹) la art. 106, care stabilește un conținut minim obligatoriu al regulamentului intern pentru toate unitățile de învățământ în care utilizarea dispozitivelor electronice este interzisă, indiferent dacă interdicția decurge din lege [alin. (4), pentru ciclul preșcolar, primar și gimnazial] sau din decizia consiliului de administrație [alin. (5), pentru ciclul liceal]. Regulamentul intern trebuie să cuprindă: procedura de preluare temporară a dispozitivelor, cu precizarea momentului, locului, persoanelor autorizate și a modului de individualizare a acestora prin etichetare sau sigilare; modalitatea de evidență și consemnare a preluării, inclusiv documentul sau registrul de predare-primire; condițiile de păstrare, depositare și securizare a dispozitivelor pe durata preluării; procedura și termenele de restituire; precum și măsurile de gestionare a incidentelor, cum ar fi pierderea, deteriorarea sau accesul neautorizat.
+
+## 4. Contextul internațional și european
+
+Tendința de reglementare a utilizării telefoanelor mobile în unitățile de învățământ este generalizată la nivel european și internațional. Franța a interzis telefoanele mobile în școlile primare și secundare încă din 2018, iar în 2024 a extins măsura prin proiecte-pilot de „pauză digitală” în aproape 200 de școli. Ungaria a implementat, din septembrie 2024, o interdicție la nivel național prin Decretul guvernamental nr. 245/2024, aplicând-o inclusiv în timpul pauzelor și incluzând clase de la 1 la 13. Olanda a introdus, din ianuarie 2024, o interdicție în învățământul secundar, extinsă apoi și la ciclul primar. Grecia, Italia, Portugalia, Letonia, precum și mai multe comunități din Belgia și regiuni din Spania au adoptat măsuri similare. Raportul global UNESCO privind educația, publicat
+
+În 2023, a recomandat interzicerea telefoanelor mobile în clasă atunci când acestea nu sunt folosite în scop educațional, iar potrivit datelor UNESCO din 2024, peste 79 de state din întreaga lume au implementat astfel de măsuri.
+
+Ceea ce distinge însă statele cu reglementări mature de cele cu reglementări incomplete este tocmai existența unor proceduri clare și previzibile de gestionare a dispozitivelor preluate. Prezenta propunere legislativă urmărește ca România să parcurgă același pas calitativ: de la simpla interdicție la un cadru procedural complet, care să protejeze deopotrivă actul educațional și drepturile elevilor.
+
+## b) Impactul socioeconomic
+
+Efecte asupra mediului social. Propunerea legislativă produce efecte pozitive asupra mediului social prin reducerea conflictualității asociate preluării telefoanelor mobile în școli. În prezent, absența unor proceduri unitare generează tensiuni frecvente între personalul didactic, elevi și părinți, semnalate atât în presa națională, cât și în sesizările adresate Ministerului Educației. Stabilirea unor reguli clare de preluare, depozitare și restituire a dispozitivelor contribuie la creșterea încrederii reciproce între actorii educaționali și la consolidarea unui climat școlar predictibil. Totodată, cerința cvorumului calificat pentru decizia de interzicere la nivel liceal asigură legitimitatea și acceptabilitatea socială a măsurii, prevenind adoptarea unor decizii percepute ca arbitrare.
+
+Efecte asupra mediului de afaceri. Propunerea legislativă nu produce efecte directe asupra mediului de afaceri. În mod marginal, cerința amenajării unor spații securizate de depozitare poate genera o cerere limitată de mobilier sau echipamente de securizare, cu un impact economic nesemnificativ.
+
+Efecte asupra mediului macroeconomic și asupra mediului înconjurător. Propunerea legislativă nu produce efecte asupra mediului macroeconomic și nici asupra mediului înconjurător.
+
+## c) Impactul financiar asupra bugetului general consolidat
+
+Propunerea legislativă nu generează cheltuieli suplimentare semnificative din bugetul general consolidat, atât pe termen scurt (anul curent), cât și pe termen lung (5 ani). Eventualele costuri asociate amenajării spațiilor de depozitare în unitățile de învățământ care aplică interdicția se suportă din bugetele proprii ale acestora, în limita resurselor existente, fără a necesita alocări bugetare suplimentare de la bugetul de stat sau de la bugetele locale. Propunerea legislativă nu generează venituri bugetare suplimentare. Impactul financiar net este neutru.
+
+## d) Impactul asupra sistemului juridic
+
+Implicații asupra legislației în vigoare. Propunerea legislativă modifică alin. (5) al art. 106 din Legea nr. 198/2023, prin adăugarea unei cerințe de cvorum calificat de 75% din membrii consiliului de administrație, prin derogare de la art. 128 alin. (2) din aceeași lege, și introduce un nou alineat (7¹) care stabilește conținutul minim obligatoriu al regulamentului intern în materia preluării dispozitivelor electronice. Celelalte prevederi ale art. 106, precum și celelalte dispoziții ale Legii nr. 198/2023 și ale altor acte normative rămân neafectate. Modificarea nu presupune adaptarea legislației secundare, cu excepția actualizării Regulamentului-cadru de organizare și funcționare a unităților de învățământ preuniversitar (ROFUIP) emis prin ordin al ministrului educației.
+
+Compatibilitatea cu dreptul Uniunii Europene. Reglementarea utilizării telefoanelor mobile în unitățile de învățământ constituie o competență exclusivă a statelor membre, nefiind armonizată prin niciun act normativ al Uniunii Europene. Propunerea legislativă se corelează însă cu orientările Parlamentului European și ale Comisiei Europene în materia protecției minorilor în mediul digital, astfel cum rezultă din rapoartele și recomandările recente ale Serviciului de Cercetare al Parlamentului European (EPRS). Totodată, aspectele referitoare la preluarea și depozitarea dispozitivelor care conțin date cu caracter personal intră în sfera de aplicare a Regulamentului (UE) 2016/679 (GDPR), iar procedurile instituite prin noul alin. (7¹) contribuie la respectarea cerințelor de securitate a datelor prevăzute de acest regulament.
+
+Raportarea la jurisprudența Curții Europene a Drepturilor Omului. Restricționarea utilizării telefoanelor mobile în mediul școlar implică potențiale ingerințe în drepturile garantate de art. 8 din Convenția Europeană a Drepturilor Omului (respectarea vieții private și a corespondenței) și de art. 1 din Protocolul adițional nr. 1 (protecția proprietății). Potrivit jurisprudenței constante a Curții, astfel de ingerințe sunt admisibile numai dacă sunt prevăzute de lege, urmăresc un scop legitim și sunt necesare și proporționale într-o societate democratică. Propunerea legislativă răspunde acestor exigențe prin condiționarea măsurii la nivel liceal de un cvorum calificat (garanția deliberării) și prin instituirea unui cadru procedural detaliat (garanția previzibilității și a proporționalității).
+
+Corelarea cu dreptul intern. Propunerea legislativă este compatibilă cu prevederile constituționale privind protecția proprietății private (art. 44), dreptul la viață intimă (art. 26), secretul corespondenței (art. 28) și protecția copiilor și a tinerilor (art. 49) din Constituția României, republicată, precum și cu prevederile Convenției ONU cu privire la drepturile copilului, ratificată de România prin Legea nr. 18/1990, republicată, în special cu art. 5 (capacitățile în evoluție ale copilului), art. 12 (dreptul la exprimarea opiniei) și art. 16 (protecția vieții private).
+
+## e) Consultările derulate în vederea elaborării proiectului de act normativ
+
+La elaborarea prezentei propuneri legislative au fost avute în vedere sesizările și petițiile primite de la părinți, cadre didactice și organizații ale societății civile, care au semnalat în mod repetat dificultățile practice generate de lipsa unor proceduri clare de gestionare a telefoanelor mobile preluate de la elevi. Au fost, de asemenea, luate în considerare dezbaterile publice intense din anii 2024–2025, reflectate în presa națională și în pozițiile oficiale ale Ministerului Educației, ale inspectoratelor școlare și ale organizațiilor de părinți. Recomandările organizațiilor internaționale au constituit, de asemenea, surse de fundamentare a soluțiilor propuse.
+
+## f) Activitățile de informare publică privind elaborarea și implementarea proiectului de act normativ
+
+După adoptare, implementarea reglementărilor va fi adusă la cunoștința unităților de învățământ prin intermediul inspectoratelor școlare județene și al inspectoratului școlar al municipiului București, care vor asigura diseminarea informațiilor necesare actualizării regulamentelor interne.
+
+## g) Măsurile de implementare
+
+La nivelul administrației publice centrale: Ministerul Educației va actualiza Regulamentul-cadru de organizare și funcționare a unităților de învățământ preuniversitar (ROFUIP), aprobat prin ordin al ministrului educației, pentru a reflecta modificările aduse prin prezenta lege, în special cerințele procedurale din noul alin. (71).
+
+La nivelul unităților de învățământ: Consiliile de administrație ale unităților de învățământ în care se aplică interdicția de utilizare a dispozitivelor electronice vor revizui regulamentele interne pentru a include procedurile detaliate impuse de noul alin. (7¹) al art. 106. În cazul unităților de învățământ liceal, consiliile de administrație care doresc să mențină sau să introducă interdicția vor trebui să asigure cvorumul calificat de 75% prevăzut de noul alin. (5).
+
+Nu sunt necesare modificări instituționale sau funcționale la nivelul administrației publice centrale ori locale. Măsurile de implementare se realizează în cadrul competențelor și atribuțiilor existente ale structurilor din sistemul de învățământ preuniversitar.
+
+Evaluarea preliminară a impactului asupra drepturilor și libertăților fundamentale ale omului
+
+Propunerea legislativă produce un impact pozitiv asupra protecției drepturilor și libertăților fundamentale ale elevilor, pe următoarele dimensiuni:
+
+Sub aspectul dreptului de proprietate, consacrat de art. 44 din Constituția României și de art. 1 din Protocolul adițional nr. 1 la Convenția Europeană a Drepturilor Omului, propunerea legislativă instituie garanții concrete împotriva deposădării arbitrare sau a gestionării neglijente a bunurilor personale ale elevilor. Obligația de a reglementa prin regulamentul intern procedura de preluare, evidență, depositare și restituire a dispozitivelor asigură previzibilitatea și transparenta măsurii, iar stabilirea unor mecanisme de gestionare a incidentelor protejează elevii și familiile acestora împotriva prejudiciilor patrimoniale.
+
+Sub aspectul dreptului la viață privată și la corespondență, garantat de art. 26 și art. 28 din Constituția României și de art. 8 din Convenția Europeană a Drepturilor Omului, procedurile de preluare și de depositare securizată, cu individualizarea și sigilarea dispozitivelor, reduc semnificativ riscul de acces neautorizat la conținutul telefoanelor mobile și, implicit, la datele cu caracter personal, la comunicările private și la conținutul digital al elevilor.
+
+Sub aspectul principiului proporționalității, cerința cvorumului calificat de 75% pentru adoptarea interdicției în învățământul liceal asigură că restricția este rezultatul unei deliberări reprezentative, iar nu a unei majorități conjuncturale. Această abordare este coerentă cu recunoașterea de către legiuiitorul român, prin art. 13 alin. (1) din Codul muncii, a capacității de muncă depline a persoanei fizice la vârsta de 16 ani: dacă un tânăr de 16 ani este considerat suficient de matur pentru a încheia în mod autonom un contract individual de muncă, orice restricție suplimentară aplicabilă aceluiași tânăr trebuie să fie însoțită de garanții procedurale proporționale. Tratamentul diferențiat față de elevii din învățământul preșcolar, primar și gimnazial este, prin urmare, pe deplin justificat.
+
+Propunerea legislativă este compatibilă cu principiile Convenției ONU cu privire la drepturile copilului.
+
+În temeiul art. 111 alin. (1) din Constituția României, republicată, vă adresăm rugămintea de a solicita Guvernului să comunice punctul de vedere asupra prezentei propuneri legislative.
+
+INIȚIATOR:
+
+Deputat AUR Cosmin Hristu\_
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege pentru modificarea și completarea Legii învățământului preuniversitar nr. 198/2023
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1. | MUSA Dom -coo'iu | AUR |  |
+| 2. | Guncu'i 6'LV'U -OCFAVIAN | AUR |  |
+| 3. | CIBRNEI DARUIER - CATALIN | AUR |  |
+| 4. | ARIADNA-ECEXIA GIRLIGEANLI | A.U.R. |  |
+| 5. | Valeriu Munteanu | AUR |  |
+| 6. | Butura Quishua Jiuua | AUR |  |
+| 7. | POSCASU PETRE | AUR |  |
+| 8. | Priescu lonelio | AUR |  |
+| 9. | MÎN'DRE SCU.MI'c | AUR |  |
+| 10. | BARSTAN TIBENU CUAWSIU | AUR |  |
+| 11. | Negrea Petru-Gabriel | AUR |  |
+| 12. | Dau A1 TiJn | AUR |  |
+| 13. | Vulposu Drel | AUR |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege pentru modificarea și completarea Legii învățământului preuniversitar nr. 198/2023
+
+| Nr. | Numele și prenumele | Grupul parlamentar |
+| --- | --- | --- |
+| 14. | HRISTU COSMIN | AUR |
+| 15. | DASCALU CRISTINA-EMANUELA | AUR |
+| 16. | GHEORGHE IOHEZ | AUR |
+| 17. | LOVIK RAMOHA | AUR |
+| 18. | BRO DANIEL-RAZVAN | AUR |
+| 19. | PASCARIUMIMAI-COSMIN | AUR |
+| 20. | BOANDAV ALEXANDRU | AUR |
+| 21. | Constantnuseu Anolda Cloudie | AUR |
+| 22. | COLEȘA-ILIE-ALIN | AUR |
+| 23. | NEGOESCU MIHAI-BOGDAN | AUR |
+| 24. | IOSUB COSMIYI-TEODOR | AUR |
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege pentru modificarea și completarea Legii învățământului preuniversitar nr. 198/2023
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td rowspan="15">Semnătura</td></tr>
+<tr><td>1.</td><td>PEIU PETRIȘOR - GABRIZ</td><td>AUR</td></tr>
+<tr><td>2.</td><td>PRESU LAUREAU</td><td>AUR</td></tr>
+<tr><td>3.</td><td>LAVRIC SHIN</td><td>AUR</td></tr>
+<tr><td>4.</td><td>SILGEONI COLDI</td><td>AUR</td></tr>
+<tr><td>5.</td><td>CONSTANINESCU ROJICA</td><td>AUR</td></tr>
+<tr><td>6.</td><td>IACOB.C.CIPRIAN</td><td>A.U.R</td></tr>
+<tr><td>7.</td><td>SANDU M. IONUT</td><td>AUR</td></tr>
+<tr><td>8.</td><td>ROMAN MARIVS-VALENTIN</td><td>AUR</td></tr>
+<tr><td>9.</td><td>PATE GEUGE CAGO</td><td>AUR</td></tr>
+<tr><td>10.</td><td>PAUCEAN - TEICANDES LUMINITA</td><td>AUR</td></tr>
+<tr><td>11.</td><td>VASILE MARIAN</td><td>AUR</td></tr>
+<tr><td>12.</td><td>SIPOS EUGEN-CISIJA</td><td>AUR</td></tr>
+<tr><td>13.</td><td>SPRCAU ANDPEI-87ML</td><td>AUR</td></tr>
+<tr><td>14.</td><td>PARASCA TEOTIL</td><td>AUR</td></tr>
+</tbody>
+</table>
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege pentru modificarea și completarea Legii învățământului preuniversitar nr. 198/2023
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 15 | Boxcovi Dorina | AUR |  |
+| 16 | Gezamăau Stefan | AUR |  |
+| 17 | CNERIT COSTACHE | AUR |  |
+| 18 | SPAU DUMITRU | A.V.A. |  |

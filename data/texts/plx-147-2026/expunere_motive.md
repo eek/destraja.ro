@@ -1,0 +1,140 @@
+# EXPUNERE DE MOTIVE
+
+## Secțiunea 1 Titlul proiectului de act normativ
+
+Lege pentru aprobarea Ordonanței de urgență privind stabilirea unor măsuri în cadrul sistemului de sănătate
+
+## Secțiunea a 2-a Motivul emiterii actului normativ
+
+## 2.1 Sursa proiectului de act normativ
+
+Inițiativa Ministerului Sănătății – în temeiul art. 115 alin. (4) din Constituția României, republicată și în scopul continuării măsurilor de reformă în cadrul sistemului de sănătate. De asemenea, modificările și completările urmăresc eficientizarea utilizării bugetului Fondului național unic de asigurări sociale de sănătate.
+
+## 2.2 Descrierea situației actuale
+
+Ordonanța de urgență a Guvernului nr. 158/2005 reglementează acordarea concediilor și indemnizațiilor de asigurări sociale de sănătate, stabilind cadrul general privind drepturile asiguraților, obligațiile plătitorilor de indemnizații și atribuțiile caselor de asigurări de sănătate.
+
+În forma actuală a art. 51, competențele caselor de asigurări de sănătate în materia controlului concediilor medicale sunt reglementate într-un mod limitat, fără a detalia: posibilitatea declanșării controlului la sesizarea plătitorilor de indemnizații, obiectul controlului sub aspectul legalității și temeiniciei acordării concediilor medicale, tipurile de verificări care pot fi efectuate (administrative și medicale), procedura, documentele și condițiile în care se realizează controlul sau efectele constatărilor rezultate în urma controlului asupra plății indemnizațiilor.
+
+Această situație a generat dificultăți în practică, în special pentru plătitorii de indemnizații, care nu dispun de un mecanism eficient și clar reglementat pentru a solicita verificarea concediilor medicale suspectate de neconformitate. De asemenea, lipsa unor norme procedurale detaliate poate conduce la interpretări neunitare și la imposibilitatea prevenirii sau sancționării acordării nelegale a certificatelor de concediu medical.
+
+Totodată, în absența unor reglementări explicite, casele de asigurări de sănătate nu beneficiază de un temei legal suficient de clar pentru a efectua verificări medicale și administrative complexe, ceea ce poate afecta buna gestionare a bugetului Fondului national de asigurări sociale de sănătate.În prezent, medicii de specialitate pentru specialitățile clinice pot desfășura activitate cu casa de asigurări de sănătate în baza unui singur contract. Programul de activitate al fiecărui medic de specialitate în relație contractuală cu casa de asigurări de sănătate este de maximum o normă și jumătate. Programul de activitate al fiecărui medic de specialitate care își desfășoară activitatea în ambulatoriul integrat al spitalului face obiectul contractului încheiat cu casa de asigurări de sănătate, putând fi modificat prin act adițional la contract.În prezent, fondul alocat asistenței medicale primare este repartizat 35% - pentru plata per capita si 65% - pentru plata per serviciu medical (valorile de punct sunt 12 lei/plata per capita si 8 lei/plata per serviciu medical).Prin art. I pct. 17 din Legea nr. 163/2025, dispozițiile art. 261 din Legea nr. 95/2006 au fost completate în sensul stabilirii în anul 2026 a modalității de distribuire a fondului alocat asistenței medicale primare, destinat plății per capita și plății pe serviciu medical, respectiv în proporție de 25% pentru plata per capita și 75% pentru plata pe serviciu medical.Prin același act normativ, dispozițiile articolului XXXII din Legea nr. 141/2025 au fost modificate în sensul menținerii în anul 2026, la nivelul valabil în trimestrul IV al anului 2025, a valorilor garantate ale punctelor pentru acordarea serviciilor medicale în asistența medicală primară.Concediile și indemnizațiile de asigurări sociale de sănătate reglementate prin Ordonanța de urgență a Guvernului nr. 158/2005 sunt următoarele:- concedii medicale și indemnizații pentru incapacitate temporară de muncă, cauzată de boli obișnuite sau de accidente în afara muncii;- concedii medicale și indemnizații pentru prevenirea îmbolnăvirilor și recuperarea capacității de muncă, exclusiv pentru situațiile rezultate ca urmare a unor accidente de muncă sau boli profesionale;- concedii medicale și indemnizații pentru maternitate;- concedii medicale și indemnizații pentru îngrijirea copilului bolnav;- concedii medicale și indemnizații pentru îngrijirea pacientului cu afecțiuni oncologice;- concedii medicale și indemnizații de risc maternal.În prezent, din FNUASS se suportă cheltuielile pentru indemnizațiile de asigurări sociale de sănătate, de care beneficiază asigurații sistemului de asigurări sociale de sănătate, astfel:- din a 6-a zi de incapacitate și până la data încetării incapacității temporare de muncă a asiguratului sau a pensionării acestuia, pentru persoanele careșețălă în
+
+| incapacitate temporară de muncă;- integral, din prima zi, până la data încetării incapacității temporare de muncă a asiguratului pentru persoanele care realizează în România veniturile prevăzute la lit. A, de la angajatori din state care nu intră sub incidența legislației europene aplicabile în domeniul securității sociale, precum și a acordurilor privind sistemele de securitate socială la care România este parte;- integral, din prima zi, până la data încetării incapacității temporare de muncă a asiguratului sau a pensionării acestuia, pentru persoanele care beneficiază de indemnizație de șomaj;- integral, din prima zi, până la data încetării incapacității temporare de muncă a asiguratului sau a pensionării acestuia, pentru persoanele fizice care se asigură facultativ pentru concedii și indemnizații;- integral, din prima zi de incapacitate temporară de muncă, în cazul persoanelor asigurate pentru care a fost instituită măsura izolării, potrivit Legii nr. 136/2020.- integral, pentru persoanele care beneficiază de concediu medical pentru reducerea timpului de muncă;- integral, pentru persoanele care beneficiază de concediu medical pentru carantină;- integral, pentru persoanele care beneficiază de concediu medical de maternitate;- integral, pentru persoanele care beneficiază de concediu medical pentru îngrijirea copilului bolnav în vârstă de până la 12 ani, iar în cazul copilului cu handicap, pentru afecțiunile intercurente, până la împlinirea vârstei de 18 ani, precum și în cazul copilului cu afecțiuni grave, asigurații au dreptul la concediu și indemnizație pentru îngrijirea copilului bolnav în vârstă de până la 18 ani;- integral, pentru persoanele care supraveghează și îngrijesc copilul în vârstă de până la 18 ani, pentru care s-a dispus măsura carantinei sau a izolării;- integral, pentru persoanele care beneficiază de concediu de risc maternal;- integral, pentru persoanele care beneficiază de tratament balnear, în conformitate cu programul individual de recuperare, costurile tratamentului balnear, precum și cele ale acțiunilor de recuperare a capacității de muncă, se suportă din bugetul fondului în condițiile prevăzute de Contractul-cadru privind condițiile acordării asistenței medicale în cadrul sistemului de asigurări sociale de sănătate și de normele metodologice de aplicare a acestuia;- integral, pentru persoanele care îngrijesc pacientul cu afecțiuni oncologice. |
+| --- |
+| 2.3Schimbări preconizate |
+
+| Ordonanța de urgență a Guvernului nr. 158/2005 |
+| --- |
+| Prin completarea art. 51 din Ordonanței de urgență a Guvernului nr. 158/2005 se urmărește instituirea iunui cadru legal clar, coerent și predictibil privind controlul concediilor medicale, având ca scop asigurarea respectării legalității și utilizării eficiente a fondurilor publice. Astfel, se reglementează expres posibilitatea de control la sesizarea plătitorului de indemnizații, oferind acestora un instrument legal pentru a solicita verificarea concediilor medicale atunci când există suspiciuni privind acordarea nelegală a acestora. |
+| Totodată, sunt stabilite obiectul și modalitățile de realizare a controlului, respectiv: analiza documentelor medicale care au stat la baza eliberării certificatelor, verificarea respectării condițiilor legale privind durata concediului medical, precum și verificarea corectitudinii completării certificatelor și a concordanței acestora cu diagnosticul și recomandările medicale. |
+| Se propune stabilirea unui mecanism de control al concediilor medicale pe mai multe paliere: |
+| - Control la nivelul CAS, |
+| - Sesizare și verificare la nivelul cabinetelor de expertizare a capacității de muncă, |
+| - Sesizare și verificare la nivelul Comisiei de disciplină a Colegiului Medicilor din România, a consiliilor județene ale medicilor și al municipiului București care, în condițiile constatării nerespectării prevederilor cu privire la acordarea concediilor medicale și eliberarea certificatelor de concediu medical, aplică sancțiunile prevăzute de art. 455 din Legea nr. 95/2006, republicată, cu modificările și completările ulterioare. |
+| Instituirea unei proceduri unitare de desfășurare a controlului, urmează a fi stabilită prin hotărâre a Guvernului, care se va elabora în termen de 90 de zile de la intrarea în vigoare a ordonanței de urgență, asigurând astfel aplicarea unitară și transparentă a noilor dispoziții. |
+| Propunerea constituie o măsură prin care se asigură o flexibilitate crescută pentru medici. Totodată, se optimizează colaborarea public-privat în interesul pacientului, fără a afecta funcționarea normală a unităților medicale publice. Astfel, se asigură condițiile pentru îndeplinirea de către medici a obligației de a desfășura activitate în ambulatoriul integrat al spitalului, în cadrul normei lunare de lucru, conform graficului stabilit de managerul spitalului. Propunerea vizează încheierea a maximum două contracte cu casele de asigurări de sănătate pentru acordarea de servicii medicale în ambulatoriul de specialitate de către medicii de specialitate, cu reglementarea unei soluții tranzitorii, până la aprobarea prin Contractul-cadru a condițiilor exprese aplicabile pentru aceste situații. În plus, pentru ambulatoriul integrat al spitalului, programul fiecărui medic va fi stabilit de managerul spitalului, la propunerea medicului șef de secție sau a medicului coordonator, nemaifiind obiectul contractului cu casa de asigurări de sănătate. Unitatea sanitară cu paturi va depune la contractare și va modifica prin act adițional cu casa de asigurări de sănătate doar programul fiecărui cabinet medical din ambulatoriul integrat. Programul de activitate al medicului din ambulatoriul integrat se desfășoara în cadrul |
+
+| programului cabinetului medical. Programul cabinetului medical poate fi acoperit de unul sau mai mulți medici. |
+| --- |
+| În condițiile în care, în anul 2026, distribuția fondului alocat asistenței medicale primare va fi de 25% pentru plata per capita și de 75% pentru plata pe serviciu medical, potrivit art. 261 din Legea nr. 95/2006 (forma aprobată prin art. art. I pct. 17 din Legea nr. 163/2025), nu mai pot fi menținute aceleași valori de punct ca și în anul 2025, astfel că prevederile art. XXXII din Legea nr. 141/2025, referitoare la menținerea valorilor de punct în asistența medicală primară – nu pot fi aplicate și sunt în contradicție cu art. 261 alin. (14) din Legea nr. 95/2006.Noua distribuție 25% - 75% a bugetului aprobat în anul 2026 cu destinația asistență medicală primară se transpune prin diminuarea valorii punctului per capita și creșterea valorii punctului pe serviciu medical, care reprezintă tocmai utilizarea eficientă a fondurilor pentru a deconta servicii medicale necesare și efectiv prestate asiguraților.Această nouă distribuție are ca efect diminuarea valorii punctului per capita și creșterea valorii punctului pe serviciu medical, în cadrul aceluiași buget global.Propunerea formulată la art. IV din proiect are în vedere corelarea dispozițiilor art. VII din Legea nr. 163/2025, cu reglementările incidente în materia finanțării asistenței medicale primare, de la art. I pct.17, din același act normativ.Prin proiectul de act normativ se propune ca pentru certificatele de concediu medical eliberate în perioada 1 februarie 2026 - 31 decembrie 2027, indemnizațiile de asigurări sociale de sănătate prevăzute prin Ordonanța de urgență a Guvernului nr. 158/2005 privind concediile și indemnizațiile de asigurări sociale de sănătate, cu modificările și completările ulterioare, să se calculeze și să se plătească prin diminuarea cu o zi a zilelor suportate din bugetul Fondului național unic de asigurări sociale de sănătate potrivit legii.De asemenea, se stabilește că aceste perioade de diminuare a indemnizației de asigurări sociale de sănătate constituie în continuare stagiu de asigurare pentru concedii și indemnizații de asigurări sociale de sănătate, precum și faptul că se menține calitatea de asigurat în cadrul sistemului de asigurări sociale de sănătate în perioadele respective.Modalitatea de punere în aplicare a acestor dispoziții se va stabili prin normele prevăzute la art. 56 din Ordonanța de urgență a Guvernului nr. 158/2005, în termen de 30 de zile de la data intrării în vigoare a actului normativ, întrucât necesită stabilirea unei modalități de calcul pentru indemnizațiile aferente fiecărui tip de concediu medical, precum și modul de determinare a bazei de calcul. |
+| 2.4Alte informații |
+| Secțiunea a 3-aImpactul socioeconomic |
+
+3.1 Descrierea generală a beneficiilor și costurilor estimate ca urmare a intrării în vigoare a actului normativ
+
+## 3.2 Impactul social.
+
+Prin proiectul de ordonanță se oferă:
+
+\- utilizarea eficientă a fondurilor în asistență medicală primară pentru a pune accentul pe decontarea de servicii medicale efectiv acordate asiguraților,
+
+\- flexibilitate crescută pentru medicii specialiști care acordă servicii medicale în ambulatoriul de specialitate,
+
+\- se asigură condițiile pentru îndeplinirea de către medici a obligației de a desfășura activitate în ambulatoriul integrat al spitalului,
+
+\- asigurarea unui cadru legal clar, coerent și predictibil privind controlul concediilor medicale, având ca scop asigurarea respectării legalității și utilizării eficiente a fondurilor publice.
+
+3.3 Impactul asupra drepturilor și libertăților fundamentale ale omului
+
+## 3.4 Impactul macroeconomic
+
+3.4.1 Impactul asupra economiei și asupra principalilor indicatori macroeconomici
+
+3.4.2 Impactul asupra mediului concurențial si domeniul ajutoarelor de stat Prezentul act normativ nu se referă la acest subiect.
+
+3.5. Impactul asupra mediului de afaceri
+
+Prezentul act normativ nu se referă la acest subiect.
+
+3.6 Impactul asupra mediului înconjurător
+
+Prezentul act normativ nu se referă la acest subiect.
+
+3.7 Evaluarea costurilor și beneficiilor din perspectiva inovării și digitalizării
+
+3.8 Evaluarea costurilor și beneficiilor din perspectiva dezvoltării durabile
+
+## 3.9 Alte informații
+
+## Secțiunea a 4-a
+
+Impactul financiar asupra bugetului general consolidat,
+
+atât pe termen scurt, pentru anul curent, cât și pe termen lung (pe 5 ani), inclusiv informații cu privire la cheltuieli și venituri
+
+Modificarea vizează asigurarea clarității normei de reglementare pentru asistența medicală primară cu privire la distribuția în anul 2026 a fondurilor per capita și pe serviciu, respectiv prin procente de 25% și 75%, față de 35% și 65% aplicabile în prezent.
+
+Astfel, distribuția fondurilor destinate plății per capita și pe serviciu se realizează cu
+
+<table>
+<tbody>
+<tr><td colspan="7">încadrarea în bugetul alocat în anul 2026 cu această destinație, care se menține la nivelul aprobat pentru anul 2025 prin Legea bugetului de stat, norma propusă neavând impact financiar.Prin implementarea dispozițiilor propuse la art. V din proiect, numărul de zile de concediu medical suportate din bugetul FNUASS va scădea, aspect care se va reflecta și in sumele decontate din bugetul FNUASS pentru aceste indemnizații.</td></tr>
+<tr><td>Indicatori</td><td>Anul curent</td><td colspan="4">Următorii 4 ani</td><td>Media pe 5 ani</td></tr>
+<tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr>
+<tr><td>4.1 Modificări ale veniturilor bugetare, plus/minu din care:a) buget de stat, din acesta:(i) impozit pe profit(ii) impozit pe venitb) bugete locale:(i) impozit pe profitc) bugetul asigurărilor sociale de stat:(i) contribuții de asigurărid) alte tipuri de venituri (se va menționa natura acestora)</td><td colspan="6" rowspan="3"></td></tr>
+<tr><td>4.2 Modificări ale cheltuielilor bugetare, plus/minus, din care:a) buget de stat, din acesta:(i) cheltuieli de personal(ii) bunuri și serviciib) bugete locale:(i) cheltuieli de personal(ii) bunuri și serviciic) bugetul asigurărilor sociale de stat:(i) cheltuieli de personal(ii) bunuri și serviciid) alte tipuri de cheltuieli (se va menționa natura acestora)</td></tr>
+<tr><td>4.3Impact financiar, plus/minus, din care:a) buget de statb) bugete locale</td></tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr><td>4.4Propuneri pentru acoperirea creșterii cheltuielilor bugetare</td><td rowspan="3"></td></tr>
+<tr><td>4.5Propuneri pentru a compensa reducerea veniturilor bugetare</td></tr>
+<tr><td>4.6 Calcule detaliate privind fundamentarea modificărilor veniturilor și/sau cheltuielilor bugetare</td></tr>
+<tr><td colspan="2">4.6 Prezentarea, în cazul proiectelor de acte normative a căror adoptare atrage majorarea cheltuielilor bugetare, a următoarelor documente:</td></tr>
+<tr><td colspan="2">1.8Alte informațiiPunerea în aplicare a prevederilor proiectului nu înregistrează un impact asupra bugetului Ministerului Sănătății și al Fondului unic de asigurări sociale de sănătate</td></tr>
+<tr><td colspan="2">Secțiunea a 5-aEfectele proiectului de act normativ asupra legislației în vigoare</td></tr>
+<tr><td colspan="2">5.1 Măsuri normative necesare pentru aplicarea prevederilor proiectului de act normativ</td></tr>
+<tr><td colspan="2">5.2 Impactul asupra legislației în domeniul achizițiilor publice</td></tr>
+<tr><td colspan="2">5.3 Conformitatea proiectului de act normativ cu legislația UE (în cazul proiectelor ce transpun sau asigură aplicarea unor prevederi de drept UE).5.3.1 Măsuri normative necesare transpunerii directivelor UE5.3.2 Măsuri normative necesare aplicării actelor legislative UE</td></tr>
+<tr><td colspan="2">5.4 Hotărâri ale Curții de Justiție a Uniunii Europene</td></tr>
+<tr><td colspan="2">5.5 Alte acte normative și/sau documente internaționale din care decurg angajamente asumate</td></tr>
+<tr><td colspan="2">5.6. Alte informații</td></tr>
+<tr><td colspan="2">Secțiunea a 6-aConsultările efectuate în vederea elaborării proiectului de act normativ</td></tr>
+<tr><td colspan="2">6.1 Informații privind neaplicarea procedurii de participare la elaborarea actelor normative</td></tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr><td colspan="2">6.2 Informații privind procesul de consultare cu organizații neguvernamentale, institute de cercetare și alte organisme implicate.</td></tr>
+<tr><td colspan="2">6.3 Informații despre consultările organizate cu autoritățile administrației publice locale</td></tr>
+<tr><td colspan="2">6.4 Informații privind puncte de vedere/opinii emise de organisme consultative constituite prin acte normative</td></tr>
+<tr><td colspan="2">6.5 Informații privind avizarea de către:a) Consiliul Legislativ: Proiectul prezentului act normativ a fost avizat de Consiliul Legislativ prin avizul nr. 1106/2025.b) Consiliul Suprem de Apărare a Țăriic) Consiliul Economic și Social – Nu este cazuld) Consiliul Concurenței - Nu este cazule) Curtea de Conturi – Nu este cazul</td></tr>
+<tr><td colspan="2">6.6 Alte informații:</td></tr>
+<tr><td colspan="2">Secțiunea a 7-aActivități de informare publică privind elaborareași implementarea proiectului de act normativ</td></tr>
+<tr><td colspan="2">7.1 Informarea societății civile cu privire la elaborarea proiectului de act normativProiectul de act normativ este postat în transparență decizională pe site-ul Ministerului Sănătății începând cu data de 29.12.2025.</td></tr>
+<tr><td colspan="2">7.2 Informarea societății civile cu privire la eventualul impact asupra mediului în urma implementării proiectului de act normativ, precum și efectele asupra sănătății și securității cetățenilor sau diversității biologice.</td></tr>
+<tr><td colspan="2">Secțiunea a 8-aMăsuri privind implementarea, monitorizarea și evaluarea proiectului de act normativ</td></tr>
+<tr><td>8.1 Măsurile de punere în aplicare a proiectului de act normativ</td><td></td></tr>
+<tr><td>8.2 Alte informații.</td><td></td></tr>
+</tbody>
+</table>
+
+Față de cele prezentate, a fost elaborat proiectul de Lege pentru aprobarea Ordonanței de urgență a Guvernului privind stabilirea unor măsuri în cadrul sistemului de sănătate, pe care îl supunem Parlamentului spre adoptare.
+
+PRIM-MINISTRU
+
+ILIE-GAVRIL BOLOJAN V

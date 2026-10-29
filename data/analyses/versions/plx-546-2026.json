@@ -1,0 +1,132 @@
+{
+  "slug": "plx-546-2026",
+  "billId": "PL-x 546/2026",
+  "updatedAt": "2026-10-29T13:06:45.272Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L416FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Construcțiile ridicate fără acte pe teren agricol pot fi legalizate, cu taxă de 5 ori mai mare",
+      "summaryTlDr": "O amnistie contra cost, utilă pentru casele rămase fără acte. Textul e însă scris prea larg: acoperă orice construcție ridicată până la intrarea în vigoare a legii, nu cere dovada datei și nu are excepții pentru arii protejate sau zone inundabile. Merită votată doar cu o dată-limită fixă și cu aceste excepții.",
+      "scores": {
+        "agy": 5,
+        "claude": 5,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/40/6/se592.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Clădiri ridicate pe teren agricol fără acte: regularizare cu tarif de 5 ori mai mare",
+      "summaryTlDr": "Este o amnistie cu penalitate, utilă pentru gospodăriile blocate juridic, dar scrisă prea sumar. Nu spune cum se dovedește vechimea construcției, cum se calculează taxa pentru aviz și nici că plata nu înlocuiește autorizația de construire. Pe lângă asta, a doua amnistie de acest fel în 9 ani transmite că protecția terenului agricol se poate ocoli și plăti mai târziu.",
+      "scores": {
+        "agy": 6,
+        "claude": 4,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a păstrat textul inițiatorului; s-au schimbat doar detalii de redactare",
+      "summary": "Senatul a adoptat textul inițiatorului aproape neschimbat: „cinci” e scris cu cifre, iar trimiterea la Legea 18/1991 vizează acum forma ei actuală. Problemele de fond rămân: data-limită mobilă, lipsa regulilor de probă și „construcții de orice fel”.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Data-limită e intrarea în vigoare a legii, ceea ce încurajează construcții grăbite",
+            "major": true,
+            "article": "art. unic alin. (1)"
+          },
+          {
+            "text": "Lipsesc regulile de probă a datei construirii; clădiri noi pot trece drept vechi",
+            "major": true,
+            "article": "art. unic alin. (1)"
+          },
+          {
+            "text": "„Construcții de orice fel” acoperă și hale, depozite, spații comerciale, nu doar locuințe",
+            "major": true,
+            "article": "art. unic alin. (1)"
+          },
+          {
+            "text": "Redactare contradictorie: cere teren în extravilan, dar vizează și terenuri trecute în intravilan",
+            "major": true,
+            "article": "art. unic alin. (1)"
+          },
+          {
+            "text": "Nu spune ce tarif se multiplică pentru emiterea avizului privind clasa de calitate",
+            "major": true,
+            "article": "art. unic alin. (1)"
+          },
+          {
+            "text": "Nu precizează suprafața vizată: doar amprenta construcției sau întreaga parcelă",
+            "major": true,
+            "article": "art. unic alin. (1)"
+          },
+          {
+            "text": "Nu exclude zonele cu interdicție de construire, ariile protejate sau zonele inundabile",
+            "major": true,
+            "article": "art. unic alin. (1)"
+          },
+          {
+            "text": "Neclar dacă rămân aplicabile restricțiile Legii 18/1991: clasa de calitate, îmbunătățiri funciare",
+            "major": true,
+            "article": "art. unic alin. (1)"
+          },
+          {
+            "text": "Neclar dacă avizul emis ulterior acoperă viciul hotărârii de aprobare a PUZ/PUG",
+            "major": false,
+            "article": "art. unic alin. (1)"
+          },
+          {
+            "text": "Nu stabilește criteriile după care administrația aprobă sau respinge cererea",
+            "major": false,
+            "article": "art. unic alin. (1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Proprietarii pot regulariza construcții ridicate pe teren agricol fără aprobarea scoaterii din circuit",
+            "major": true,
+            "article": "art. unic alin. (1)"
+          },
+          {
+            "text": "Legalizarea nu e gratuită: tariful din anexa 1 se plătește de cinci ori",
+            "major": true,
+            "article": "art. unic alin. (1)"
+          },
+          {
+            "text": "Măsura e temporară: se aplică doar 5 ani de la intrarea în vigoare",
+            "major": false,
+            "article": "art. unic alin. (2)"
+          },
+          {
+            "text": "Trimiterea la Legea 18/1991 vizează forma actuală, cu modificările și completările ulterioare",
+            "major": false,
+            "article": "art. unic alin. (1)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 5,
+        "removed": 3,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:54:44.308Z"
+    }
+  ]
+}

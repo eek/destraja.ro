@@ -1,0 +1,245 @@
+# LEGE
+
+# pentru modificarea și completarea Legii nr.14/1992 privind organizarea și funcționarea Serviciului Român de Informații
+
+Parlamentul României adoptă prezenta lege.
+
+Art.I - Legea nr.14/1992 privind organizarea și funcționarea Serviciului Român de Informații, publicată în Monitorul Oficial al României, Partea I, nr.33 din 3 martie 1992, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. Articolul 23 se modifică și va avea următorul cuprins:
+
+Art.23 (1) Serviciul Român de Informații este condus de un director civil, cu rang de ministru, numit de Camera Deputaților și Senat, în ședință comună, la propunerea Președintelui României, în urma audierii persoanei propuse de către comisia parlamentară însărcinată să exercite controlul asupra activității Serviciului Român de Informații.
+
+(2) Directorul Serviciului Român de Informații este numit pentru un mandat de 5 ani. Mandatul poate fi reînnoit o singură dată.
+
+(3) Comisia parlamentară prevăzută la alin.(1) întocmește un raport motivat, cu caracter consultativ, care cuprinde constatări privind îndeplinirea sau neîndeplinirea condițiilor de eligibilitate, integritate, neutralitate politică și caracter civil ale persoanei propuse.
+
+(4) Nedepunerea raportului comisiei parlamentare în termenul prevăzut de prezenta lege nu împiedică exercitarea atribuției constituționale a Parlamentului de numire a directorului Serviciului Român de Informații. În această situație, Birourile permanente reunite înscriu propunerea pe ordinea de zi a ședinței comune, cu mențiunea nedepunerii raportului în termen.
+
+(5) La numirea în funcție, directorul Serviciului Român de Informații depune în fața Parlamentului următorul jurământ:
+
+„Eu, ............, jur că voi îndeplini cu bună-credință și nepărtinire, în deplinul respect al Constituției și al legilor țării, atribuțiile ce îmi revin în calitate de director civil al Serviciului Român de Informații, că voi respecta controlul democratic parlamentar și că voi apăra drepturile, libertățile fundamentale și securitatea națională a României."
+
+(6) În exercitarea atribuțiilor ce revin Serviciului Român de Informații, directorul emite, potrivit legii, ordine și instrucțiuni.
+
+(7) Eliberarea din funcție a directorului Serviciului Român de Informații se face de Parlament, în ședință comună a Camerei Deputaților și Senatului, la propunerea Președintelui României sau a cel puțin unei treimi din numărul total al deputaților ori al senatorilor.
+
+2\. După articolul 23 se introduc cinci noi articole, art.23^1-23^5, cu următorul cuprins: Art.23^1 Condiția de director civil
+
+(1) În sensul prezentei legi, prin director civil al Serviciului Român de Informații se înțelege persoana care, la data propunerii, la data numirii și pe întreaga durată a mandatului, nu are calitatea de militar activ, polițist, polițist de penitenciare, cadru operativ, funcționar public cu statut special în structuri operative sau angajat al unei structuri de informații, contrainformații, protecție internă ori securitate națională.
+
+(2) Nu poate fi numită în funcția de director al Serviciului Român de Informații persoana care, în ultimii 5 ani anteriori datei propunerii:
+
+a) a avut calitatea de cadru militar activ;
+
+b) a avut calitatea de polițist, polițist de penitenciare, funcționar public cu statut special ori personal operativ în cadrul unei instituții din sistemul național de apărare, ordine publică și securitate națională;
+
+c) a fost încadrată, detașată, delegată, împuternicită, pusă la dispoziție, reactivată, concentrată, mobilizată sau utilizată în cadrul unei structuri militare, operative, de informații, contrainformații, protecție internă ori securitate națională;
+
+d) a exercitat funcții de conducere, comandă, coordonare, control, analiză operativă sau planificare operativă în cadrul unei structuri prevăzute la lit.c);
+
+e) a avut raporturi contractuale, directe sau indirecte, remunerate sau neremunerate, cu Serviciul Român de Informații ori cu alte structuri de informații, contrainformații, protecție internă sau securitate națională, cu excepția raporturilor instituționale publice, transparente și declarate, fără caracter operativ, secret sau de colaborare informativă;
+
+f) a avut calitatea de colaborator, consultant, consilier, expert sau prestator de servicii în raporturi nedeclarate public cu Serviciul Român de Informații ori cu alte structuri de informații, contrainformații, protecție internă sau securitate națională.
+
+(3) Calitatea de cadru militar în rezervă sau în retragere nu constituie, prin ea însăși, impediment la numire, cu condiția ca persoana să nu fi fost reactivată, concentrată, mobilizată, detașată, delegată, împuternicită, pusă la dispoziție, utilizată sau implicată în raporturi operative, informative ori de securitate națională în ultimii 5 ani anteriori datei propunerii.
+
+(4) Persoana propusă pentru funcția de director al Serviciului Român de Informații trebuie să îndeplinească următoarele condiții:
+
+a) să aibă cetățenie română și domiciliul în România;
+
+b) să aibă capacitate deplină de exercițiu;
+
+c) să aibă studii superioare finalizate cu diplomă de licență sau echivalentă;
+
+d) să aibă o experiență profesională de cel puțin 10 ani în domenii relevante pentru exercitarea funcției, precum administrație publică, drept, securitate națională, relații internaționale, management instituțional, politici publice, control parlamentar, diplomăție, apărare, ordine publică, protecția drepturilor și libertăților fundamentale ori alte domenii conexe;
+
+e) să nu fi fost condamnată definitiv pentru săvârșirea unei infracțiuni intenționate;
+
+f) să nu fi fost constatată definitiv ca lucrător sau colaborator al fostei Securități; g) să nu se afle în stare de incompatibilitate sau conflict de interese, potrivit legii; h) să nu se afle într-o situație legală care împiedică accesul la informații clasificate corespunzătoare nivelului funcției, potrivit legii.
+
+(5) La data depunerii jurământului și pe întreaga durată a mandatului, directorul Serviciului Român de Informații nu poate avea calitatea de membru al unui partid politic, al unei organizații politice ori al unei formațiuni politice.
+
+(6) Persoana numită în funcția de director al Serviciului Român de Informații are obligația ca, cel mai târziu la data depunerii jurământului, să înceteze orice calitate prevăzută la alin.(5).
+
+(7) Pe durata mandatului, directorului Serviciului Român de Informații îi este interzisă participarea la activități politice, electorale sau de partid, precum și exprimarea publică în favoarea ori în defavoarea unui partid politic, competitor electoral sau candidat.
+
+Art.23^2 Dosarul propunerii de numire
+
+(1) Propunerea Președintelui României pentru funcția de director al Serviciului Român de Informații se transmite Birourilor permanente reunite ale Camerei Deputaților și Senatului, însoțită de următoarele documente:
+
+a) curriculum vitae al persoanei propuse;
+
+b) copie a actului de identitate;
+
+c) copie a actelor de studii;
+
+d) cazier judiciar;
+
+e) declarație de avere și declarație de interese, potrivit legii;
+
+f) declarație pe propria răspundere privind îndeplinirea condiției de director civil;
+
+g) declarație pe propria răspundere privind inexistența unor raporturi de colaborare informativă, operative, contractuale nedeclarate, directe sau indirecte, cu Serviciul Român de Informații ori cu alte structuri de informații, contrainformații, protecție internă sau securitate națională;
+
+h) declarație pe propria răspundere privind inexistența unor situații de incompatibilitate sau conflict de interese;
+
+i) document emis de autoritatea competentă privind inexistența calității de lucrător sau colaborator al fostei Securități ori dovada solicitării acestuia;
+
+j) declarație pe propria răspundere privind disponibilitatea persoanei propuse de a parcurge, potrivit legii, procedurile necesare accesului la informații clasificate corespunzătoare nivelului funcției, fără ca această procedură să poată substitui votul Parlamentului asupra numirii;
+
+k) un proiect de mandat, în formă neclasificată, privind principiile de conducere, respectarea controlului parlamentar, protecția drepturilor și libertăților fundamentale, neutralitatea politică a Serviciului Român de Informații și prioritățile instituționale ale mandatului.
+
+(2) Declarațiile prevăzute la alin.(1) lit.f)-h) și j) se dau sub sancțiunea legii penale privind falsul în declarații.
+
+(3) Birourile permanente reunite transmit de îndată dosarul prevăzut la alin.(1) comisiei parlamentare însărcinate să exercite controlul asupra activității Serviciului Român de Informații.
+
+(4) în cazul în care dosarul este incomplet, comisia parlamentară solicită completarea acestuia în termen de cel mult 5 zile lucrătoare.
+
+(5) Refuzul, întârzierea nejustificată sau imposibilitatea finalizării procedurilor administrative privind accesul la informații clasificate se comunică de îndată Birourilor permanente reunite și comisiei parlamentare competente, în formă corespunzătoare regimului informațiilor clasificate, fără a afecta competența Parlamentului de a se pronunța asupra numirii.
+
+(6) Comisia parlamentară competentă poate solicita, în condițiile legii, puncte de vedere, informări sau documente de la autoritățile publice competente pentru verificarea îndeplinirii condițiilor prevăzute de prezenta lege, cu respectarea regimului informațiilor clasificate și a protecției datelor cu caracter personal.
+
+Art.23^3 Audierea parlamentară
+
+(1) Audierea persoanei propuse pentru funcția de director al Serviciului Român de Informații se realizează de comisia parlamentară însărcinată să exercite controlul asupra activității Serviciului Român de Informații, în termen de cel mult 15 zile de la primirea dosarului complet.
+
+(2) Audierea are o componentă publică, pentru aspectele neclasificate privind integritatea, experiența profesională, caracterul civil al candidaturii, viziunea instituțională, neutralitatea politică, respectarea drepturilor și libertăților fundamentale și respectarea controlului democratic parlamentar.
+
+(3) Aspectele care privesc informații clasificate se discută în ședință nepublică, cu respectarea regimului informațiilor clasificate.
+
+(4) Comisia parlamentară întocmește un raport motivat, cu caracter consultativ, care cuprinde cel puțin:
+
+a) verificarea îndeplinirii condiției de director civil;
+
+b) verificarea condițiilor de eligibilitate prevăzute de prezenta lege;
+
+c) verificarea inexistenței unor incompatibilități sau conflicte de interese evidente;
+
+d) evaluarea proiectului de mandat prezentat de persoana propusă;
+
+e) mențiuni privind documentele analizate și eventualele solicitări transmise autorităților competente;
+
+f) recomandarea de admitere sau respingere a propunerii.
+
+(5) Raportul comisiei se transmite Birourilor permanente reunite și se prezintă în ședința comună a Camerei Deputaților și Senatului.
+
+(6) Dacă raportul nu este transmis în termen de cel mult 20 de zile de la primirea dosarului complet, procedura parlamentară poate continua, cu mențiunea nedepunerii raportului în termen.
+
+Art.23^4 Incompatibilități și încetarea mandatului
+
+(1) Funcția de director al Serviciului Român de Informații este incompatibilă cu:
+
+a) orice altă funcție publică sau privată, cu excepția activităților didactice, științifice ori de cercetare, desfășurate fără afectarea obligațiilor de serviciu și fără utilizarea informațiilor clasificate ori a calității oficiale;
+
+b) calitatea de membru al unui partid politic, al unei organizații politice ori al unei formațiuni politice;
+
+c) calitatea de administrator, asociat semnificativ, acționar semnificativ, beneficiar real, consultant sau reprezentant al unei persoane juridice care are sau a avut, în ultimii 3 ani, raporturi contractuale cu Serviciul Român de Informații;
+
+d) orice raport contractual, direct sau indirect, cu Serviciul Român de Informații, altul decât cel decurgând din exercitarea mandatului;
+
+e) desfășurarea oricărei activități de consultanță, reprezentare, intermediere sau lobby în favoarea unor persoane fizice sau juridice care au interese în raport cu Serviciul Român de Informații;
+
+f) exercitarea oricărei activități care poate afecta independența, imparțialitatea, neutralitatea politică sau credibilitatea funcției.
+
+(2) Mandatul directorului Serviciului Român de Informații încetează:
+
+a) la expirarea duratei mandatului;
+
+b) prin demisie;
+
+c) prin eliberare din funcție de către Parlament, potrivit art.23 alin.(7);
+
+d) în cazul pierderii cetățeniei române;
+
+e) în cazul condamnării definitive pentru săvârșirea unei infracțiuni intenționate;
+
+f) în cazul constatării definitive a calității de lucrător sau colaborator al fostei Securități;
+
+g) în cazul constatării încălcării condiției de director civil;
+
+h) în cazul încălcării obligației de neutralitate politică prevăzute de prezenta lege;
+
+i) în cazul constatării unei stări de incompatibilitate sau a unui conflict de interese, potrivit legii;
+
+j) în cazul imposibilității legale definitive de acces la informații clasificate corespunzătoare nivelului funcției, constată potrivit legii și comunicată Parlamentului.
+
+(3) Situațiile prevăzute la alin. (2) lit. e)-j) se aduc de îndată la cunoștința Birourilor permanente reunite ale Camerei Deputaților și Senatului de către comisia parlamentară însărcinată să exercite controlul asupra activității Serviciului Român de Informații.
+
+(4) În termen de cel mult 15 zile de la sesizare, comisia parlamentară competentă întocmește un raport privind existența cauzei de încetare a mandatului, care se supune dezbaterii Camerelor reunite.
+
+(5) În situația prevăzută la alin.(2) lit. a), directorul Serviciului Român de Informații rămâne în funcție până la depunerea jurământului de către noul director, dar nu mai mult de 90 de zile de la data expirării mandatului.
+
+Art.23^5 Vacanța funcției și interimatul
+
+(1) În cazul vacantării funcției de director al Serviciului Român de Informații, Președintele României transmite Parlamentului o propunere de numire în termen de cel mult 30 de zile de la data vacantării funcției.
+
+(2) în cazul respingerii propunerii de către Parlament, Președintele României transmite o nouă propunere în termen de cel mult 15 zile de la data respingerii.
+
+(3) În perioada vacanței funcției, atribuțiile curente ale directorului Serviciului Român de Informații sunt exercitate de prim-adjunctul directorului, în calitate de înlocuitor legal, numai pentru asigurarea continuității administrative, operative și instituționale curente.
+
+(4) Pe durata interimatului nu pot fi adoptate reorganizări structurale majore, modificări ale orientărilor strategice ale instituției, numiri sau eliberări din funcții de conducere de nivel strategic ori acte interne cu impact structural, cu excepția măsurilor urgente, motivate și necesare pentru prevenirea sau înlăturarea unor riscuri imediate la adresa securității naționale.
+
+(5) Măsurile adoptate în condițiile alin.(4) se comunică, în termen de cel mult 10 zile, comisiei parlamentare însărcinate să exercite controlul asupra activității Serviciului Român de Informații, cu respectarea regimului informațiilor clasificate.
+
+(6) Dacă interimatul depășește 90 de zile, comisia parlamentară însărcinată să exercite controlul asupra activității Serviciului Român de Informații prezintă Camerelor reunite, din 30 în 30 de zile, un raport privind cauzele menținerii interimatului, efectele instituționale ale acestuia și măsurile necesare pentru restabilirea conducerii civile numite de Parlament.
+
+(7) Raportul prevăzut la alin. (6) se dezbate în ședința comună a Camerei Deputaților și Senatului.
+
+3\. La articolul 24, după alineatul (1) se introduce un nou alineat, alin.(1^1), cu următorul cuprins:
+
+(1^1) Calitatea de înlocuitor legal al directorului Serviciului Român de Informații se exercită numai pentru asigurarea continuității administrative, operative și instituționale curente a Serviciului Român de Informații și nu poate substitui obligația numirii unui director civil, în condițiile art.23-23^5.
+
+4\. După articolul 24 se introduce un nou articol, art.24^1, cu următorul cuprins:
+
+Art.24^1 Raportarea privind respectarea controlului civil
+
+(1) Directorul Serviciului Român de Informații prezintă anual comisiei parlamentare însărcinate să exercite controlul asupra activității Serviciului Român de Informații o informare neclasificată privind:
+
+a) respectarea principiului controlului democratic civil;
+
+b) respectarea limitelor legale ale activității Serviciului Român de Informații;
+
+c) măsurile adoptate pentru prevenirea implicării Serviciului Român de Informații în activități politice;
+
+d) măsurile privind protecția drepturilor și libertăților fundamentale;
+
+e) execuția bugetară agregată, în limitele permise de regimul informațiilor clasificate;
+
+f) principalele măsuri instituționale adoptate pentru întărirea legalității, integrității și răspunderii interne;
+
+g) situația generală a sesizărilor, controalelor și măsurilor administrative privind respectarea neutralității politice a instituției, în limitele regimului informațiilor clasificate.
+
+(2) Comisia parlamentară poate solicita directorului Serviciului Român de Informații informări suplimentare, cu respectarea regimului informațiilor clasificate.
+
+(3) O sinteză neclasificată a informării prevăzute la alin.(1) poate fi publicată pe pagina de internet a Parlamentului, prin grija comisiei parlamentare competente, cu respectarea legii privind protecția informațiilor clasificate.
+
+Art.II (1) Dispozițiile prezentei legi se aplică procedurilor de numire în funcția de director al Serviciului Român de Informații inițiate după intrarea sa în vigoare.
+
+(2) Procedurile de numire aflate în curs la data intrării în vigoare a prezentei legi se supun dispozițiilor acesteia, cu obligația completării dosarului de propunere în termen de cel mult 10 zile.
+
+(3) Dacă, la data intrării în vigoare a prezentei legi, funcția de director al Serviciului Român de Informații este vacantă sau este exercitată prin interimat, procedura de numire a unui director civil se declanșează în termen de cel mult 30 de zile.
+
+(4) Dacă, la data intrării în vigoare a prezentei legi, există un director al Serviciului Român de Informații numit de Parlament, acesta își exercită funcția până la încetarea mandatului potrivit legii, dispozițiile privind durata mandatului aplicându-se următoarei numiri.
+
+(5) În termen de 30 de zile de la intrarea în vigoare a prezentei legi, comisia parlamentară însărcinată să exercite controlul asupra activității Serviciului Român de Informații își actualizează procedurile interne privind audierea persoanei propuse pentru funcția de director al Serviciului Român de Informații, în acord cu prevederile prezentei legi.
+
+Art.III În termen de 60 de zile de la intrarea în vigoare a prezentei legi, hotărârea Parlamentului privind organizarea, funcționarea și modalitățile de exercitare a controlului parlamentar asupra activității Serviciului Român de Informații se modifică și se completează, după caz, pentru punerea în acord cu prevederile prezentei legi.
+
+Art.IV Legea nr.14/1992 privind organizarea și funcționarea Serviciului Român de Informații, cu modificările și completările ulterioare, precum și cu cele aduse prin prezenta lege, va fi republicată în Monitorul Oficial al României, Partea I, dându-se textelor o nouă numerotare.
+
+Art.V Prezenta lege intră în vigoare la 3 zile de la publicarea în Monitorul Oficial al României, Partea
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art.76 alin. (1) din Constituția României, republicată.
+
+PREȘEDINTE
+
+CAMERA DEPUTAȚILOR
+
+PREȘEDINTE
+
+SENATUL ROMÂNIEI
+
+GRINDEANU SORIN-MIHAI
+
+ABRUDEAN MIRCEA

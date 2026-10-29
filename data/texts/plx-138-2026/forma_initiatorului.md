@@ -1,0 +1,41 @@
+## LEGE pentru modificarea și completarea Legii nr. 135/2010 privind Codul de procedură penală
+
+## Parlamentul României adoptă prezenta lege.
+
+Art. I. Legea nr. 135/ 2020 privind Codul de procedură penală, publicată în Monitorul Oficial al româniei, Partea I, nr. 486 din 15 iulie 2010, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 10, după alineatul (3), se introduce un nou alineat, alin. (3¹), cu următorul cuprins:
+
+„(3¹) Înainte de prima sa audiere, suspectului i se comunica, în mod obligatoriu, un exemplar al procesului-verbal de aducere la cunoștință a calității de suspect. Înainte de prima sa audiere, inculpatului i se comunică, în mod obligatoriu, un exemplar al procesului-verbal de aducere la cunoștință a calității de inculpat.”
+
+2\. La articolul 10, după alineatul (7), se introduce un nou alineat, alin. (8), cu următorul cuprins:
+
+„(8) La termenul fixat pentru soluționarea propunerii de arestare preventivă în cursul urmăririi penale, inculpatului i se comunică, în mod obligatoriu, un exemplar al referatului cu propunere de arestare preventivă. La termenul fixat pentru soluționarea propunerii de prelungire a arestării preventive în cursul urmăririi penale, inculpatului i se comunică, în mod obligatoriu, un exemplar al referatului cu propunere de prelungire a arestării preventive.
+
+3\. La articolul 83, după litera a¹) se introduc două noi litere, lit. a²) și a³), cu următorul cuprins:
+
+„a²) dreptul de a i se comunica un exemplar al procesului-verbal de aducere la cunoștință a calității de inculpat;
+
+a³) dreptul de a i se comunica un exemplar al referatului cu propunere de arestare preventivă sau un exemplar al referatului cu propunere de prelungire a arestării preventivă în cursul urmăririi penale, la termenul fixat pentru soluționarea acesteia în fata judecătorului de drepturi și libertăți;”
+
+4\. La art. 225, după alineatul (4) se introduce un nou alineat, alin. (4¹), cu următorul cuprins:
+
+„(4¹) Inculpatului prezent i se comunică, în mod obligatoriu, un exemplar al referatului cu propunere de arestare preventivă. În cazul în care inculpatul nu este prezent, un exemplar al referatului cu propunere de arestare preventivă i se comunică, în mod obligatoriu, avocatului acestuia.”
+
+## 5. Art. 307 se modifică și va avea următorul curpins:
+
+„Persoanei care a dobândit calitatea de suspect i se aduc la cunoștință, înainte de prima sa audiere, această calitate, fapta pentru care este suspectată, încadrarea juridică a acesteia, drepturile procesuale prevăzute la art. 83, încheindu-se în acest sens un proces-verbal. De asemenea, cu aceeași ocazie, persoanei care a dobândit calitatea de suspect i se comunică, în mod obligatoriu, un exemplar al procesului-verbal de aducere la cunoștință a calității de suspect.”
+
+## 6. La art. 309, alineatul (2) se modifică și va avea următorul cuprins:
+
+"(2) Punerea în mișcare a acțiunii penale este comunicată inculpatului de către organul de urmărire penală care îl cheamă pentru a-l audia, comunincându-i-se totodată, în mod obligatoriu, un exemplar al procesului-verbal de aducere la cunoștință a calitatății de inculpat. Dispozițiile art. 108 se aplică în mod corespunzător, încheindu-se în acest sens un proces-verbal."
+
+Aceasta'lege a fost adoptata de Parlamentul României, cu respectarea prevederilor art. 75 alin. (1) și ale art. 76 alin. (2) din Constituția României, republicata.
+
+Președintele Camerei Deputaților,
+
+Președintele Senatului,
+
+SORIN-MIHAI GRINDEANU
+
+MIRCEA ABRUDEAN

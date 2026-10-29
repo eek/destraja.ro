@@ -1,0 +1,117 @@
+# EXPUNERE DE MOTIVE
+
+## Lege pentru completarea și modificarea articolului 18 din Legea nr. 481 din 8 noiembrie 2004 privind protecția civilă
+
+La data de 17 octombrie 2025, în cartierul Rahova din București, o explozie puternică produsă într-un bloc de locuințe a avut ca rezultat pierderi de vieți omenești, oameni răniți și pagube materiale semnificative. Blocul a fost evacuat complet de urgență, sute de oameni rămânând fără munca lor de-o viață în câteva minute. Potrivit rapoartelor preliminare, deflagrația s-a produs ca urmare a unei acumulări de gaze, iar clădirea afectată a fost declarată instabilă structural, urmând a fi demolată. În acest caz, numeroși locatari s-au trezit peste noapte fără locuință, iar cadrul legal actual nu garantează despăgubiri raportate la valoarea reală de piață, ceea ce creează o gravă inechitate socială. Mai mult, ulterior tragediei, Guvernul a propus să demoleze și să reconstruiască blocul respectiv, cu precizarea că proprietarii locuințelor afectate vor deveni chiriași la stat.
+
+În temeiul principiilor constituționale privind garantarea dreptului de proprietate și protejarea locuinței, propunem modificarea legislației în vigoare în sensul ca cetățenii care suferă pagube ca urmare a unui dezastru sau a unei calamități (naturală ori provocată) să fie despăgubiți la valoarea reală, actualizată, a bunului pierdut – de exemplu un apartament sau o casă – și nu la valoarea contabilă ori funciară stabilită anterior, care adesea nu reflectă valoarea de piață la zi, iar pierderile să fie acoperite din fondul de urgență al Guvernului, care va transfera cât mai rapid posibil sumele necesare în conturile primăriilor de domiciliu ale păgubiților.
+
+Legislația în vigoare privind despăgubirile pentru bunuri afectate de calamități nu asigură, în mod consecvent, restituirea valorii reale a pierderilor. În prezent, despăgubirile sunt adesea calculate pe baza unor evaluări învechite sau plafonate, fără a ține cont de dinamica pieței imobiliare, de inflație și de costurile reale de reconstrucție, iar asigurările obligatorii despăgubesc cu sume derizorii în astfel de situații. Astfel, pe lângă trauma de care au parte prin pierderea muncii de o viață, oamenii sunt de multe ori puși în situații la care nu au forța financiară să facă față.
+
+De exemplu, în urma cutremurului din 2023 din județul Gorj au fost afectate și locuințe din localitatea Aninoasa, județul Hunedoara. Oamenii sunt disperați pentru că nici o instituție nu a luat în considerare faptul că acestea vor trebui din nou racordate la utilități, așa că nu există bani prevăzuți în acest scop, iar păgubiții nu își permit să suporte aceste cheltuieli.
+
+## Prin prezenta inițiativă se urmărește:
+
+1\. Stabilirea obligativității ca despăgubirile pentru bunuri distruse în urma unor dezastre sau calamități să fie acordate la valoarea de piață actualizată în momentul producerii evenimentului, respectiv la costul de reconstrucție echivalent;
+
+2\. Plata despăgubirilor într-un termen rezonabil, astfel încât cetățeanul afectat să poată reconstrui sau achiziționa o locuință similară fără întârzieri;
+
+3\. Introducerea obligației Guvernului ca, prin intermediul fondului de urgență la dispoziția Executivului, să asigure în mod prioritar și cât mai rapid posibil sumele necesare pentru plata despăgubirilor către persoanele afectate, evitând amânări birocratice sau blocaje administrative;
+
+Considerăm că prin adoptarea acestor măsuri se garantează exercitarea efectivă a dreptului de proprietate, se asigură protecția cetățenilor afectați de evenimente neprevăzute, se creează un mecanism de intervenție rapidă, bazat pe solidaritate și echitate și se evită situații dramatice precum cea a locatarilor blocului afectat din Rahova, care se confruntă cu incertitudine și pierderi greu de acoperit din resurse proprii. Se propune, așadar, adoptarea acestei inițiative legislative, în scopul alinierii normelor naționale la principiile de echitate și solidaritate socială și a prioritizării interesului cetățeanului.
+
+Inițiatori,
+
+Tabel cu susținătorii Proiectului de Lege pentru completarea și modificarea articolului 18 din Legea nr. 481 din 8 noiembrie 2004 privind protecția civilă
+
+| Nr. crt. | Numele și prenumele | Grup parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1. | DOORS MĂDAUIN | PSD |  |
+| 2 | LĂPUȘAN ROMVS | PSD |  |
+| 3 | CONSTANTINESEU SERGIU MÎRCED | PSD |  |
+| 4 | ĂRÎNEZANU VLAȚĂ FLORENEPĂH | PSD |  |
+| 5 | STOENIEĂ IRINĂ | PSD |  |
+| 6. | SAMOÎNĂ IOW | PSD |  |
+| 7. | MORAR LUCĂIAN | PSD |  |
+| 8 | BUCUR HĂIANA | PSD |  |
+| 9. | BĂRA AĂRIAN | PSD |  |
+| 10 | Voicv VUSSCĂ | SPD |  |
+| 11 | FILOR ULIIAI | PSD |  |
+| 12 | POFA DECEIĂ | PSA |  |
+| 13 | Savala Uțio | PSD |  |
+| 14 | PROCEPUTĂ VEAU | PSD |  |
+| 15. | CIRCAU AĂRIUȚĂ | PSD |  |
+
+Tabel cu susținătorii Proiectului de Lege pentru completarea și modificarea articolului 18 din Legea nr. 481 din 8 noiembrie 2004 privind protecția civilă
+
+| Nr.crt. | Numele și prenumele | Grup parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 16 | Chilof Cima Mcvelo | PSD |  |
+| 17 | ISAE MARIUS | PSD |  |
+| 18 | ENE CORINA | PSD |  |
+| 19 | TOHOESW ALIN | PSD |  |
+| 20 | GOROR MICRO | PSD |  |
+| 21 | CIUKI LOHEL | PSD |  |
+| 22 | BEGINARIU EUGEN | PSD |  |
+| 23 | MIWA MARIAN | PSD |  |
+| 24 | FUIREUNA MIRGA | PSD |  |
+| 25 | TINTA STZPAW | PSD |  |
+| 26 | JOAN MIHALOES | PSD |  |
+| 27 | Popa MARICEI | PSD |  |
+| 28. | Coyocaru Bogdan | PSD |  |
+| 29 | CAYCU ABLIANI | PSD |  |
+| 30 | ABONNICATI MIRELA | PSD |  |
+
+Tabel cu susținătorii Proiectului de Lege pentru completarea și modificarea articolului 18 din Legea nr. 481 din 8 noiembrie 2004 privind protecția civilă
+
+| Nr. crt. | Numele și prenumele | Grup parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 31 | Remeride C. Ginion | PSD |  |
+| 32 | RUJAN ION CRISTINEL | PSD |  |
+| 33 | PADUZARU PĀNUC -M027AN | 25D |  |
+| 34 | Vāmašescu Hua Čuna | PSD |  |
+| 35 | PRESURĀ ALEXANDRA | PSD |  |
+| 36 | FLOKOJU IONEL | PSD |  |
+| 37 | VLASIN SORIN | 9S D |  |
+| 38 | CASCHAZ AN | PSA |  |
+| 39 | HUMEZNICU MARIUS | PSD |  |
+| 40 | CARP IOJNEC | PSA |  |
+| 41 | OXIĀHU PUI'4 | PSD |  |
+| 42 | MAYINEM DRAVA | PSD |  |
+| 43 | MIHAI ANLIECA | PSD |  |
+| 44 | STROE FEIX | PSD |  |
+| 45 | OABAU CARUEE | PSD |  |
+
+Tabel cu susținătorii Proiectului de Lege pentru completarea și modificarea articolului 18 din Legea nr. 481 din 8 noiembrie 2004 privind protecția civilă
+
+| Nr.crt. | Numele și prenumele | Grup parlamentar | Semnăturan |
+| --- | --- | --- | --- |
+| 46 | Topolun dawouuqi cršiud | PSD |  |
+| 47 | FEJEROVIOI DOIXA-ELCNA | PSD |  |
+| 48 | DUNCA HARIUS | PSD |  |
+| 49 | MA2ILU LIVIU | PSD |  |
+| 50 | CATANA CLAUDIV DANIEL | PSD |  |
+| 51 | NICULA MIRCEA CRISTIAN | PSD |  |
+| 52 | Malaiescu Leca | PSD |  |
+| 53 | GDAUR CATAUIO | PSD |  |
+| 54 | BICA' ANDRA | PSD |  |
+| 55 | SVA H. 10AH | PSD |  |
+| 56 | Stouu VICHOR | PSD |  |
+| 57 | POUJAN OANA | PSA |  |
+| 58 | STIR HESCU PAUL | PSA |  |
+| 59 | QUERCEANY CIPNUN | PSA |  |
+| 60 | TRIF BOGDAN | PSA |  |
+
+Către,
+
+BIROUL PERMANENT AL CAMEREI DEPUTAȚILOR
+
+Prin prezenta, vă informez că doresc să devin co-inițiator pentru următoarea propunere legislativă:
+
+Propunere legislativă pentru completarea și modificarea art.18 din Legea nr. 481 din 8 noiembrie 2004 privind protecția civilă Pl-x nr. 482/2025
+
+Deputat PSD
+
+Dumitrița Gliga
+
+Circumscripția electorăla nr. 28, Mureș

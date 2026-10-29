@@ -1,0 +1,131 @@
+{
+  "billId": "PL-x 204/2026",
+  "slug": "plx-204-2026",
+  "version": "senat",
+  "updatedAt": "2026-10-29T06:21:14.190Z",
+  "consensus": {
+    "riskScore": 3.7,
+    "riskLevel": "green",
+    "plainTitle": "Site-urile statului trebuie să accepte logarea cu ROeID; pentru cetățeni rămâne opțională",
+    "summaryTlDr": "Ideea e bună și necesară: legea obligă instituțiile, nu oamenii, să accepte un login unic (ROeID sau un serviciu acreditat) și portofelul digital european, iar accesul clasic rămâne garantat. Textul e însă scris neglijent și lasă protecția datelor pe seama unei simple trimiteri la GDPR. În plus, face din ADR operator, acreditor și amendator în același timp.",
+    "initiatorClaim": "Inițiatorii vor să înlocuiască zecile de conturi și sisteme de autentificare nearmonizate de pe platformele statului cu un mecanism unic: ROeID sau un serviciu eIDAS acreditat. Invocă interoperabilitatea, costuri IT mai mici, securitatea cibernetică și alinierea la portofelul european de identitate digitală (Reg. UE 2024/1183).",
+    "realityCheck": "Forma Senatului a renunțat la «utilizarea obligatorie» din titlul inițial. Obligația cade pe instituții (art. 3 alin. 1 și 3), iar pentru cetățeni ROeID e voluntar, cu acces garantat «prin alte mijloace» (art. 3 alin. 4). Dacă însă ROeID devine «mecanism unitar», cine îl refuză poate rămâne doar cu ghișeul, nu cu vechiul cont online. Legea nu obligă explicit la închiderea sistemelor paralele: art. 3 alin. (5) permite mecanisme interne «în alte cazuri», nedefinite. Nu aduce nici bani pentru implementare, dar amendează personal șefii de instituții cu 5.000–10.000 lei (art. 10), fără un termen de conformare distinct de intrarea în vigoare.",
+    "affectedGroups": [
+      "Toți cetățenii",
+      "IMM & Antreprenori",
+      "IT & AI",
+      "Justiție & Drepturi Civile"
+    ],
+    "senatForm": {
+      "articleRef": "Art. 6 – alineat nou (3)",
+      "proposalContent": "(3) Prin ROeID se prelucrează doar datele strict necesare autentificării. Evidența platformelor accesate de o persoană se păstrează cel mult 6 luni și nu poate fi folosită pentru profilare sau în alte scopuri, cu excepția incidentelor de securitate și a cererilor organelor judiciare, potrivit legii. Persoana își poate consulta gratuit online propriul istoric.",
+      "argumentation": "Art. 6 doar trimite generic la GDPR. Un login unic pentru toate platformele statului îi arată ADR unde și când se autentifică fiecare om. Art. 26 din Constituție și art. 6 alin. (3) GDPR cer o bază legală clară și proporțională, deci limitele de păstrare și folosire trebuie puse în lege, nu lăsate normelor. Altfel, autentificarea devine registru de supraveghere.",
+      "otherComments": "Art. 3 alin. (6): „Regulamentul (UE) nr. 910/2024” e greșit, corect 910/2014, modificat prin Regulamentul (UE) 2024/1183. Art. 3 alin. (2): acreditarea de către ADR are nevoie de criterii, termen de răspuns și refuz motivat, fixate în lege, ADR fiind și operatorul ROeID. Art. 10: amenda conducătorilor doar după un termen clar și cu finanțare asigurată."
+    }
+  },
+  "council": {
+    "agy": {
+      "model": "agy",
+      "status": "ok",
+      "durationMs": 60624,
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Un singur cont digital (ROeID) pentru toate platformele online ale statului",
+      "verdictShort": "O lege utilă și pro-cetățean care obligă instituțiile publice să accepte autentificarea unică prin ROeID sau portofelul digital european, sancționând doar șefii de instituții care refuză interconectarea. Textul votat de Senat are însă câteva erori de redactare și de corelare a termenelor care trebuie corectate la Camera Deputaților.",
+      "initiatorClaim": "Inițiatorii vor să elimine haosul zecilor de conturi și parole diferite cerute de fiecare instituție publică, obligând administrația să folosească ROeID sau servicii acreditate eIDAS pentru o autentificare unică (Single Sign-On).",
+      "realityCheck": "Legea este echilibrată: păstrează caracterul voluntar al identității digitale pentru cetățeni (fără a bloca accesul la ghișeu) și aplică amenzi exclusiv conducătorilor entităților publice care ignoră standardizarea. Totuși, conjuncția „sau” din Art. 3 alin. (1) lasă teoretic unei instituții portița de a alege doar un serviciu acreditat fără ROeID, iar normele metodologice sunt programate să apară abia după intrarea în vigoare a sancțiunilor.",
+      "affectedGroups": [
+        "Toți cetățenii",
+        "IMM & Antreprenori",
+        "IT & AI"
+      ],
+      "keyFindings": [
+        "Obligația și sancțiunile vizează exclusiv statul: Art. 10 sancționează cu amendă între 5.000 și 10.000 lei conducătorii instituțiilor publice care nu integrează autentificarea standardizată sau cumpără platforme IT incompatibile (Art. 3 și Art. 5).",
+        "Protecție împotriva excluderii digitale: Art. 3 alin. (4) garantează expres că folosirea ROeID este voluntară pentru cetățeni și firme, iar cei care nu folosesc mijloace electronice își păstrează accesul la serviciile publice prin căile clasice.",
+        "Deschidere către piața privată și UE: Art. 3 alin. (1), (2) și (6) permit nu doar ROeID, ci și servicii de identificare acreditate de ADR pe maximum 5 ani, precum și portofelele europene pentru identitatea digitală (EUDI Wallet).",
+        "Eroare de cronologie în Art. 11: Legea intră în vigoare la 18 luni de la publicare (alin. 1), dar normele metodologice de acreditare și înrolare se adoptă în 60 de zile „de la intrarea în vigoare” (alin. 2), lăsând instituțiile fără norme în cele 18 luni de pregătire."
+      ],
+      "blindSpotsCaught": "În Art. 3 alin. (6), textul adoptat de Senat face trimitere la un act european inexistent — „Regulamentul (UE) nr. 910/2024 din 23 iulie 2014” — o contopire accidentală între Regulamentul (UE) nr. 910/2014 și Regulamentul de modificare (UE) 2024/1183. În plus, deși Art. 3 alin. (1) permite entităților publice să aleagă între ROeID „sau” un serviciu acreditat, registrul de transparență din Art. 9 monitorizează exclusiv implementarea ROeID.",
+      "constitutionalityNote": "Proiectul respectă dreptul la informație (Art. 31) și dreptul persoanei vătămate de o autoritate publică (Art. 52), protejând accesul nediscriminatoriu la servicii publice (Art. 16) prin menținerea alternativelor neelectronice la Art. 3 alin. (4). Pentru deplina respectare a principiului calității și previzibilității legii (Art. 1 alin. 5), trebuie corectată trimiterea eronată la „Regulamentul 910/2024” și decalajul normelor metodologice din Art. 11.",
+      "euLawNote": "Proiectul aliniază legislația internă la Regulamentul (UE) nr. 910/2014 (eIDAS) și Regulamentul (UE) 2024/1183 (EUDI Wallet), precum și la Regulamentul de punere în aplicare (UE) 2015/1502. Nu introduce restricții asupra profesiilor reglementate (Directiva 2018/958 nu este incidentă) și nu impune bariere tehnice pe piața privată care să necesite notificare TRIS conform Directivei (UE) 2015/1535, ci deschide infrastructura publică spre furnizori acreditați conform eIDAS.",
+      "senatForm": {
+        "articleRef": "Art. 3 alin. (6) și Art. 11 alin. (2)",
+        "proposalContent": "La art. 3 alin. (6), sintagma „Regulamentul (UE) nr.910/2024” se înlocuiește cu „Regulamentul (UE) nr. 910/2014, astfel cum a fost modificat prin Regulamentul (UE) 2024/1183”. La art. 11 alin. (2), termenul de 60 de zile pentru adoptarea normelor metodologice curge de la data publicării legii în Monitorul Oficial, nu de la intrarea în vigoare.",
+        "argumentation": "Art. 3 alin. (6) citează greșit un act inexistent („Regulamentul 910/2024 din 23 iulie 2014”), combinând eronat Regulamentul 910/2014 cu Regulamentul 2024/1183. De asemenea, la art. 11, dacă normele se adoptă abia la 60 de zile după intrarea în vigoare (18 luni), instituțiile nu au reperele tehnice de acreditare și înrolare în perioada de tranziție.",
+        "otherComments": "Se recomandă și îndreptarea erorilor materiale din forma adoptată de Senat: la art. 2 lit. c) („pentru a accesa” în loc de „pentru a accesă”), la art. 4 („Condițiile” în loc de „Conditile”) și la art. 5 („ROeID” în loc de „RoelD”), precum și clarificarea art. 3 alin. (1) astfel încât ROeID să fie obligatoriu alături de alte servicii acreditate."
+      }
+    },
+    "claude": {
+      "model": "claude",
+      "status": "ok",
+      "durationMs": 212985,
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Site-urile statului trebuie să accepte logarea cu ROeID; pentru cetățeni rămâne opțională",
+      "verdictShort": "Ideea e bună și necesară: legea obligă instituțiile, nu oamenii, să accepte un login unic (ROeID sau un serviciu acreditat) și portofelul digital european, iar accesul clasic rămâne garantat. Textul e însă scris neglijent și lasă protecția datelor pe seama unei simple trimiteri la GDPR. În plus, face din ADR operator, acreditor și amendator în același timp.",
+      "initiatorClaim": "Inițiatorii vor să înlocuiască zecile de conturi și sisteme de autentificare nearmonizate de pe platformele statului cu un mecanism unic: ROeID sau un serviciu eIDAS acreditat. Invocă interoperabilitatea, costuri IT mai mici, securitatea cibernetică și alinierea la portofelul european de identitate digitală (Reg. UE 2024/1183).",
+      "realityCheck": "Forma Senatului a renunțat la «utilizarea obligatorie» din titlul inițial. Obligația cade pe instituții (art. 3 alin. 1 și 3), iar pentru cetățeni ROeID e voluntar, cu acces garantat «prin alte mijloace» (art. 3 alin. 4). Dacă însă ROeID devine «mecanism unitar», cine îl refuză poate rămâne doar cu ghișeul, nu cu vechiul cont online. Legea nu obligă explicit la închiderea sistemelor paralele: art. 3 alin. (5) permite mecanisme interne «în alte cazuri», nedefinite. Nu aduce nici bani pentru implementare, dar amendează personal șefii de instituții cu 5.000–10.000 lei (art. 10), fără un termen de conformare distinct de intrarea în vigoare.",
+      "affectedGroups": [
+        "Toți cetățenii",
+        "IT & AI",
+        "Justiție & Drepturi Civile",
+        "IMM & Antreprenori"
+      ],
+      "keyFindings": [
+        "Art. 3 alin. (4) este garanția centrală: folosirea ROeID e voluntară pentru beneficiarii serviciilor, iar accesul prin alte mijloace legale rămâne. Funcționarii de la art. 3 alin. (3) lit. c)-d) nu sunt însă «beneficiari», așa că pentru ei nu e clar dacă autentificarea prin ROeID e opțională sau impusă.",
+        "Calitate redacțională slabă (art. 1 alin. 5 din Constituție). Art. 3 alin. (1) și (3) impun de două ori aceeași obligație. Art. 2 lit. b) definește serviciul «acreditat» fără să pomenească acreditarea ADR din art. 3 alin. (2). Art. 3 alin. (6) trimite la un inexistent «Regulament (UE) nr. 910/2024 ... din 23 iulie 2014». Art. 3 alin. (5) nu spune care sunt «alte cazuri».",
+        "Art. 3 alin. (2) și art. 10 alin. (2): ADR operează ROeID, acreditează prin decizia președintelui serviciile concurente (cel mult 5 ani, criteriile fiind lăsate normelor metodologice) și tot ea constată contravențiile. Legea nu fixează criterii, termen de soluționare sau eventuale taxe de acreditare. Asta creează un risc pentru neutralitatea concurențială față de furnizorii privați de identificare electronică.",
+        "Art. 10: amendă de 5.000–10.000 lei pentru conducători dacă încalcă art. 3 alin. (1) sau art. 5. Legea nu prevede însă nicio sursă de finanțare pentru implementare și sancționează un standard vag: platforme «proiectate astfel încât să permită» integrarea (art. 5).",
+        "Art. 11: obligația devine exigibilă la intrarea în vigoare (la 18 luni de la publicare). Normele metodologice, inclusiv procedura de acreditare, vin abia în următoarele 60 de zile, iar adaptarea ROeID la portofelul european în încă 12 luni. În primele luni, singura opțiune reală e ROeID.",
+        "Art. 6 și art. 7 lit. c): protecția datelor se reduce la o trimitere la GDPR. Legea nu stabilește ce date se colectează, cât se păstrează jurnalele de autentificare și dacă pot fi folosite în alte scopuri, deși un SSO central vede toate interacțiunile unei persoane cu statul. Nici modul în care ADR «validează autenticitatea conturilor» nu e reglementat.",
+        "Art. 5 se contrazice: prima frază vizează platformele «în curs de achiziție», a doua le exclude pe cele cu procedura deja inițiată. Practic, obligația privește doar platformele viitoare. Art. 4 e echilibrat: apărarea și siguranța națională pot integra opțional ROeID, cu protocol și aviz CSAT."
+      ],
+      "blindSpotsCaught": "Trei detalii scapă la prima lectură. (1) Ordinea termenelor din art. 11: amenzile pentru art. 3 alin. (1) pot fi aplicate din prima zi de vigoare, dar procedura de acreditare a alternativelor apare abia în normele adoptate în următoarele 60 de zile. Formula «ROeID sau un serviciu acreditat» înseamnă deci, la început, doar ROeID. (2) Calendarul total (18 + 12 luni de la publicare) rămâne mult în urma termenului UE pentru furnizarea portofelului european de identitate digitală (finalul lui 2026), care curge oricum direct din Regulamentul 2024/1183. (3) Art. 4 dă CSAT o atribuție nouă (aviz prealabil). Organizarea CSAT e materie de lege organică (art. 73 alin. 3 lit. e), iar legea a fost adoptată ca ordinară (art. 76 alin. 2), așa că merită verificat dacă nu e necesar caracterul organic al acestei dispoziții.",
+      "constitutionalityNote": "Scopul e compatibil cu Constituția, iar art. 3 alin. (4) protejează accesul egal la servicii (art. 16) al celor fără identitate digitală. Problemele țin în primul rând de art. 1 alin. (5), adică de previzibilitate: obligații dublate, trimitere la un regulament inexistent, «alte cazuri» nedefinite (art. 3 alin. 5) și un standard vag sancționat contravențional (art. 5 coroborat cu art. 10). Legalitatea sancțiunii (art. 23 alin. 12 și art. 7 CEDO) contează și pentru contravenții cu caracter «penal» în sens convențional. Art. 26 (viața privată) cere garanții concrete pentru un sistem central de autentificare, nu doar o trimitere la GDPR. Legea impune costuri tuturor entităților publice fără sursă de finanțare, ceea ce ridică problema art. 138 alin. (5). Trebuie verificat și dacă s-a solicitat informarea Guvernului (art. 111 alin. 1 teza a doua), a cărei lipsă CCR a sancționat-o constant. Avizul CSAT din art. 4 poate atrage caracter organic.",
+      "euLawNote": "Legea merge în linia eIDAS. Art. 3 alin. (6) impune acceptarea mijloacelor de identificare notificate și a portofelelor europene fără cerințe suplimentare, iar art. 11 alin. (3) cere adaptarea ROeID. Trimiterea trebuie corectată la Reg. (UE) 910/2014, modificat prin Reg. (UE) 2024/1183. Calendarul rămâne însă în urma termenului UE pentru portofel. Directiva 2018/958 nu se aplică, fiindcă nu e reglementată nicio profesie. În privința TRIS (2015/1535), obligațiile autorităților pentru propriile platforme țin de organizarea internă. Regimul de acreditare a furnizorilor privați (art. 3 alin. 2 și normele) poate însă constitui o regulă privind serviciile societății informaționale, așa că notificarea prealabilă e prudentă; altfel, regula devine inopozabilă particularilor (C-194/94 CIA Security). Dacă acreditarea devine condiție de acces la clienții publici, criteriile trebuie să fie clare, nediscriminatorii și proporționale (Directiva 2006/123, art. 9–11), iar limita de 5 ani trebuie justificată. GDPR: prelucrarea pe scară largă de către ADR cere o bază legală precisă (art. 6 alin. 3) și o evaluare de impact (art. 35).",
+      "senatForm": {
+        "articleRef": "Art. 6 – alineat nou (3)",
+        "proposalContent": "(3) Prin ROeID se prelucrează doar datele strict necesare autentificării. Evidența platformelor accesate de o persoană se păstrează cel mult 6 luni și nu poate fi folosită pentru profilare sau în alte scopuri, cu excepția incidentelor de securitate și a cererilor organelor judiciare, potrivit legii. Persoana își poate consulta gratuit online propriul istoric.",
+        "argumentation": "Art. 6 doar trimite generic la GDPR. Un login unic pentru toate platformele statului îi arată ADR unde și când se autentifică fiecare om. Art. 26 din Constituție și art. 6 alin. (3) GDPR cer o bază legală clară și proporțională, deci limitele de păstrare și folosire trebuie puse în lege, nu lăsate normelor. Altfel, autentificarea devine registru de supraveghere.",
+        "otherComments": "Art. 3 alin. (6): „Regulamentul (UE) nr. 910/2024” e greșit, corect 910/2014, modificat prin Regulamentul (UE) 2024/1183. Art. 3 alin. (2): acreditarea de către ADR are nevoie de criterii, termen de răspuns și refuz motivat, fixate în lege, ADR fiind și operatorul ROeID. Art. 10: amenda conducătorilor doar după un termen clar și cu finanțare asigurată."
+      }
+    },
+    "codex": {
+      "model": "codex",
+      "status": "ok",
+      "durationMs": 183971,
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Un singur cont pentru serviciile publice, cu reguli încă neclare",
+      "verdictShort": "Proiectul poate simplifica accesul la administrație și păstrează alegerea cetățeanului. Riscul mediu provine din calendarul incoerent, acreditarea insuficient definită și fundamentarea financiară incompletă.",
+      "initiatorClaim": "Inițiatorii urmăresc reducerea numărului de conturi separate, a costurilor IT și a fragmentării autentificării în administrație. Invocă interoperabilitatea europeană și pregătirea ROeID pentru portofelul european de identitate digitală.",
+      "realityCheck": "Art. 3 obligă instituțiile să integreze ROeID sau un serviciu acreditat, dar utilizarea rămâne voluntară pentru beneficiari, cu păstrarea accesului prin alte mijloace legale. Textul nu instituie taxe ori amenzi pentru cetățeni sau IMM-uri și nu garantează singur interoperabilitatea bazelor de date, economiile bugetare ori securitatea promisă. Instituțiile suportă adaptări tehnice și administrative, iar conducătorii lor riscă amenzi în condițiile unui calendar de aplicare insuficient corelat.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "IT & AI",
+        "Angajați & HR",
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 3 alin. (4) este o garanție pozitivă: beneficiarii pot refuza identificarea electronică fără pierderea accesului la serviciile publice prin alte mijloace legale. Totuși, textul nu garantează expres că alternativa va fi tot online sau la fel de comodă.",
+        "Art. 10 prevede amenzi de 5.000–10.000 lei pentru conducătorii entităților publice. Art. 11 activează obligațiile și sancțiunile la 18 luni de la publicare, dar permite adoptarea normelor abia în următoarele 60 de zile; acreditarea și înrolarea depind tocmai de aceste norme. Cuantumul nu este vădit disproporționat în sine, însă condițiile conformării trebuie clarificate.",
+        "Art. 2 lit. b) și art. 3 alin. (2) permit alternative la ROeID, deci nu instituie un monopol legal exclusiv. Totuși, ADR administrează ROeID și acreditează alternativele, fără criterii suficient detaliate în lege privind evaluarea, durata concretă, reînnoirea și retragerea acreditării; există risc de bariere administrative și tratament inegal.",
+        "Art. 11 alin. (3) plasează adaptarea ROeID la cerințele portofelului european la maximum 30 de luni de la publicare. Acest termen intern nu poate amâna obligația europeană de furnizare a cel puțin unui portofel până la sfârșitul anului 2026; regulamentul nu impune ca acesta să fie obligatoriu ROeID. [Comisia Europeană](https://digital-strategy.ec.europa.eu/en/policies/eudi-regulation)",
+        "Art. 8 alin. (1) utilizează nivelul de asigurare «substanțial», în timp ce portofelul european necesită nivelul «ridicat». Nu este o incompatibilitate automată pentru ROeID ca mecanism actual, dar transformarea sa în portofel european cere garanții suplimentare; simpla redenumire sau trimitere la eIDAS nu ajunge. [Regulamentul (UE) 2024/1183, art. 5a](https://eur-lex.europa.eu/eli/reg/2024/1183/oj)",
+        "Art. 5 protejează anumite achiziții și contracte deja inițiate împotriva noii cerințe de proiectare, dar nu le exceptează expres de obligația generală de integrare din art. 3. Pot rezulta costuri ulterioare de adaptare, care trebuie estimate.",
+        "Costurile integrării, suportului, acreditării și monitorizării nu sunt cuantificate în materialele furnizate. Consiliul Fiscal a constatat, pentru inițiativa b664/2025 devenită L32/2026, neîndeplinirea cerințelor art. 15 alin. (1) din Legea nr. 69/2010 și a solicitat documentele financiare; această constatare inițială nu dovedește că dosarul nu a fost completat ulterior. [Adresa Consiliului Fiscal din 15.01.2026](https://www.senat.ro/Legis/PDF/2026/26L032CF.pdf)",
+        "Art. 6 trimite la GDPR, fără să detalieze rolurile operatorilor, păstrarea jurnalelor și limitarea corelării accesărilor între servicii. GDPR rămâne direct aplicabil, inclusiv protecția datelor prin proiectare și evaluarea impactului când există risc ridicat; textul nu autorizează prin el însuși supravegherea generalizată. [GDPR](https://eur-lex.europa.eu/eli/reg/2016/679/oj)"
+      ],
+      "blindSpotsCaught": "Art. 9 monitorizează exclusiv implementarea ROeID: o instituție care folosește legal un serviciu acreditat poate apărea ca neimplementând ROeID, deși respectă legea. Art. 4 derogă numai de la art. 3 alin. (1), deși obligația este reluată la alin. (3), ceea ce fragilizează excepția pentru apărare și securitate. Trimiterea la «910/2024» din art. 3 alin. (6) trebuie corectată la «910/2014»; eroarea apare și în forma oficială, nu doar în extras. [Forma adoptată de Senat](https://www.senat.ro/Legis/PDF/2026/26L032FS.pdf)",
+      "constitutionalityNote": "Nu rezultă o neconstituționalitate evidentă a obiectivului sau obligarea generală a cetățenilor să dețină identitate digitală. Art. 1 alin. (5) ridică însă probleme concrete privind calendarul sancțiunilor, întinderea excepțiilor și criteriile acreditării. Art. 23 alin. (12) consacră legalitatea pedepsei; analiza amenzilor contravenționale trebuie să țină seama de natura lor, fără confundarea automată cu infracțiunile. Protejarea vieții private, potrivit art. 26, cere garanții efective privind datele. Pentru cheltuielile generate trebuie verificate stabilirea sursei de finanțare, conform art. 138 alin. (5), și solicitarea informării Guvernului în condițiile art. 111 alin. (1); materialele prezentate nu permit constatarea definitivă a încălcării acestor cerințe. [Constituția României](https://www.senat.ro/pagini/constitutia/constitutia.htm)",
+      "euLawNote": "Directiva (UE) 2018/958 privește accesul la profesii reglementate și exercitarea acestora; acreditarea unui serviciu informatic nu o activează automat, iar proiectul nu introduce calificări profesionale rezervate. [Art. 2 al directivei](https://eur-lex.europa.eu/eli/dir/2018/958/oj). Concurența și libera prestare a serviciilor impun totuși criterii transparente, nediscriminatorii și proporționale pentru alternativele la ROeID. Art. 3 alin. (6) protejează recunoașterea europeană și nu trebuie neutralizat prin acreditări naționale suplimentare. Pentru TRIS, digitalizarea administrației nu declanșează singură notificarea: trebuie verificat dacă acreditarea și standardele obligatorii reglementează specific servicii ale societății informaționale, în special servicii economice de identificare electronică. Dacă da, sunt relevante notificarea și termenul de așteptare, cu examinarea excepției pentru executarea cerințelor obligatorii ale UE; nu este demonstrată aici o omisiune de notificare. Proiectul nu reglementează explicit AI. [Directiva (UE) 2015/1535, art. 1 și 5–7](https://eur-lex.europa.eu/eli/dir/2015/1535/oj)",
+      "senatForm": {
+        "articleRef": "Art. 11 alin. (2)",
+        "proposalContent": "(2) Prin derogare de la alin. (1), prezentul alineat intră în vigoare la 3 zile de la publicarea legii. În termen de 6 luni de la publicarea legii, Guvernul adoptă, prin hotărâre, normele metodologice de aplicare.",
+        "argumentation": "Art. 10 permite sancționarea de la intrarea în vigoare, deși normele necesare acreditării și înrolării pot apărea abia după 60 de zile. Publicarea lor înaintea aplicării obligațiilor oferă instituțiilor timp efectiv de conformare și reduce riscul sancționării pentru cerințe insuficient determinate.",
+        "otherComments": "Separat, corectați trimiterea din art. 3 alin. (6) la Regulamentul nr. 910/2014 și corelați art. 11 alin. (3) cu termenele UE. Termenul comunicat pentru amendamente, 30.03.2026, a trecut; observația cetățeanului poate fi transmisă comisiilor, iar un deputat o poate prelua potrivit procedurii parlamentare."
+      }
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "slug": "plx-439-2026",
+  "billId": "PL-x 439/2026",
+  "updatedAt": "2026-10-29T12:41:56.087Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L204FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Firmele mici care depășesc plafonul de TVA primesc 3 zile lucrătoare ca să se înregistreze și plătesc TVA abia după ce primesc codul",
+      "summaryTlDr": "Problema e reală: casa de marcat nu se reprogramează la miezul nopții sau în weekend, iar 3 zile lucrătoare pentru cerere e un termen rezonabil. Dar proiectul amână și momentul de la care se datorează TVA până după comunicarea codului de către ANAF, ceea ce contrazice Directiva TVA, și aplică aceeași regulă celor care întârzie sau sunt înregistrați din oficiu. Astfel, neconformarea poate ajunge să fie răsplătită.",
+      "scores": {
+        "agy": 3,
+        "claude": 5,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/30/9/se474.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "Firmele mici care trec plafonul de TVA primesc 3 zile lucrătoare ca să ceară codul de TVA",
+      "summaryTlDr": "Este o corecție utilă pentru micii comercianți. În loc să devină plătitori de TVA chiar în clipa în care trec plafonul, ar avea 3 zile lucrătoare să ceară codul și să-și actualizeze casa de marcat. Problema ține de redactare: momentul de la care se datorează TVA depinde de cât de repede comunică ANAF codul, iar câteva trimiteri din Codul fiscal nu mai sunt corelate.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat proiectul fără modificări de fond față de forma inițiatorului",
+      "summary": "Senatul a păstrat același conținut. Cererea de înregistrare în scopuri de TVA se face în cel mult 3 zile lucrătoare, dar TVA se aplică abia după ce ANAF comunică codul, fără un termen pentru asta. Diferențele sunt doar de redactare.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "TVA se aplică abia după comunicarea codului, iar ANAF nu are termen",
+            "major": true,
+            "article": "art. 310 alin. (6), art. 316 alin. (1¹) lit. b)"
+          },
+          {
+            "text": "Cine nu cere înregistrarea la timp poate ajunge să datoreze mai puțin TVA",
+            "major": true,
+            "article": "art. 310 alin. (6¹) lit. a), art. 316 alin. (1¹) lit. f)"
+          },
+          {
+            "text": "Taxarea opțională din ziua depășirii nu mai are sens în noul sistem",
+            "major": false,
+            "article": "art. 310 alin. (6)"
+          },
+          {
+            "text": "Facturile de corecție trimit la o perioadă aproape golită de conținut",
+            "major": false,
+            "article": "art. 330 alin. (3¹)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Termen realist de 3 zile lucrătoare pentru cererea de înregistrare în scopuri de TVA",
+            "major": false,
+            "article": "art. 310 alin. (6), art. 316 alin. (1) lit. b)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 16,
+        "removed": 22,
+        "same": 0.16
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:39:09.254Z"
+    }
+  ]
+}

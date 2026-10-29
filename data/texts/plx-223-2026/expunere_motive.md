@@ -1,0 +1,76 @@
+# EXPUNERE DE MOTIVE
+
+<table>
+<tbody>
+<tr><td colspan="2">Secțiunea 1Titlul proiectului de act normativ:Lege pentru modificarea și completarea Ordonanței de urgență a Guvernului nr.57/2019 privind Codul administrativ și a Legii nr.53/2003 – Codul Muncii</td></tr>
+<tr><td colspan="2">Secțiunea a 2-aMotivul emiterii actului normativ</td></tr>
+<tr><td>2.1. Sursaproiectului de actnormativ</td><td>Inițiativă legislativă</td></tr>
+<tr><td>2.2. Descriereasituatiei actuale</td><td>Suspendarea de drept intervine în cazurile expres prevăzute de lege. Astfel, funcționarilor publici li se aplică dispozițiile art.513 și urm. din Codul administrativ, iar celorlalți angajați dispozițiile art.50 din Codul Muncii.Majoritatea situațiilor de suspendare a raporturilor de serviciu sunt limitate în timp ori de situația în fapt, ori de legiutor, cum este cazul art.515 alin.(1) din Codul administrativ.Există, însă, situații în care suspendarea de drept ori la inițiativa funcționarului public nu are un termen maxim prevăzut de lege, ceea ce în practică duce la blocarea unor posturi pe perioade extrem de lungi de timp, cu efecte negative asupra angajatorilor, dar și asupra posibililor candidați.Astfel, în cazul persoanelor care sunt alese sau numite în funcții sau demnități publice sau care sunt desemnat să desfășoare activități în cadrul unor misiuni diplomatice ale României ori în cadrul unor organisme sau instituții ale Uniunii Europene sau în alte organisme sau instituții de drept public internațional, ca reprezentant al autorității sau instituției publice sau al statului român, raportul de serviciu poate fi suspendat pe o perioadă foarte lungă de timp.Situatie este similară și în cazul persoanelor care au contract individual de muncă și cărora li se aplică Codul muncii.În aceste cazuri, funcția publică sau contractuală nu poate fi ocupată decât pe perioadă determinată, iar în cazul profesorilor aceștia nu pot fi titularizați pe post.Considerăm că este necesară o limitare în timp a acestor suspendări de drept, astfel încât la finalul termenului stabilit funcționarul public sau salariatul, după caz, să opteze dacă mai dorește să revină pe funcția de bază sau să renunțe la aceasta în favoarea funcției pe care o deține la momentul respectiv.Ne motivăm inițiativa și prin faptul că este greu de crezut că o persoană care nu și-a mai desfășurat activitatea de bază pentru un număr semnificativ de ani mai poate fi un bun profesionist ori profesor fără a susține un examen de testare profesională.În România avem deja cazuri celebre, care și-au blocat posturile zeci de ani, iar ulterior au renunțat la acestea, blocând în toți acești ani titularizarea pe post sau angajarea pe perioadă nedeterminată.</td></tr>
+<tr><td>2.3. Schimbări preconizate</td><td>Având în vedere toate aceste aspecte, considerăm că o suspendarea de drept ca urmare a numirii sau alegerii într-o funcție de demnitate publică, ori exercitarea unei funcții în cadrul unei autorități executive, legislative ori judecătorești, trebuie limitată la maxim 5 ani de zile. La împlinirea acestui termen raporturile de serviciu vor înceta</td></tr>
+<tr><td></td><td>de drept, dacă funcționarul public sau salariatul nu informează în scris angajatorul cu 5 zile lucrătoare înainte de împlinirea termenului de 5 ani de opțiunea de a reveni pe funcția de bază. În acest sens, art.513 din Codul administrativ va fi completat cu un nou alineat, alin.(5), care va avea următorul cuprins: &quot;Pentru situațiile prevăzute la alin.(1) lit. a) – c) raportul de serviciu se poate suspenda pe o durată cumulată de cel mult 5 ani.&quot; Atfel vor fi acoperite situațiile în care funcționarul public este numit sau ales într-o demnitate publică, ori este desemnat să desfășoare activități în cadrul unor misiuni diplomatice ale României ori în cadrul unor organisme sau instituții ale Uniunii Europene sau în alte organisme sau instituții de drept public internațional, ca reprezentant al autorității sau instituției publice sau al statului român pe o perioadă mai mare de 5 ani. Ne referim aici în special la persoanele care ar obține al doilea mandat de Președinte al României sau de parlamentar ori europarlamentar, ori sunt numiți în demnitați publice pentru un mandat mai lung de 5 ani. De asemenea, art.514 din Codul administrativ va fi completat cu un nou alineat, alin.(5), care va avea următorul cuprins: &quot;Pentru situațiile prevăzute la alin.(1) lit. e) și j) raportul de serviciu se poate suspenda pe o durată cumulată de cel mult 5 ani.&quot; Pentru a fi acoperite situațiile în care un funcționar public este încadrat la cabinetul unui demnitar, ori desfășoară activități în cadrul unor organisme sau instituții internaționale pe perioadă determinată, dacă perioada în care e încadrat în astfel de funcții depășește 5 ani de zile. Pentru simetrie legislativă, lit.d) a art.50 din Codul muncii va fi completată și va avea următorul cuprins: &quot;d) exercitarea unei funcții în cadrul unei autorități executive, legislative ori judecătorești, pe toată durata mandatului, dacă legea nu prevede altfel. Raportul de serviciu se poate suspenda pe o durată cumulată de cel mult 5 ani.&quot; Lege ava intra în vigoare la 90 de zile de la publicarea în Monitorul Oficial al României, iar termenele se vor calcula de la momentul intrării în vigoare a legii, pentru a fi respectat principiul neretroactivității legii.</td></tr>
+<tr><td>2.4. Alte informații</td><td>Nu sunt.</td></tr>
+<tr><td colspan="2">Secțiunea a 3-a Impactul socioeconomic</td></tr>
+<tr><td>3.1. Descrierea generală a beneficiilor și costurilor estimate ca urmare a intrării în vigoare a actului normativ</td><td>Nu este cazul</td></tr>
+<tr><td>3.2. Impactul social</td><td>Nu este cazul.</td></tr>
+<tr><td>3.3. Impactul asupra drepturilor și libertăților fundamentale ale omului</td><td>Nu este cazul.</td></tr>
+<tr><td>3.4. Impactul macroeconomic</td><td>Nu este cazul.</td></tr>
+<tr><td>3.4.1. Impactul asupra economiei și asupra principalilor indicatori macroeconomici</td><td>Nu este cazul.</td></tr>
+<tr><td>3.4.2. Impactul asupra mediului concurențial și domeniul ajutoarelor de stat</td><td>Nu este cazul</td></tr>
+<tr><td>3.5. Impactul asupra mediului de afaceri</td><td>Nu este cazul.</td></tr>
+<tr><td>3.6. Impactul asupra mediului înconjurător</td><td>Nu este cazul.</td></tr>
+<tr><td>3.7. Evaluarea costurilor și beneficiilor din perspectiva inovării și digitalizării</td><td>Nu este cazul.</td></tr>
+<tr><td>3.8. Evaluarea costurilor și beneficiilor din perspectiva dezvoltării durable</td><td>Nu este cazul.</td></tr>
+<tr><td>3.9. Alte informații</td><td>Nu sunt.</td></tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr><td colspan="8">Secțiunea a 4-aImpactul financiar asupra bugetului general consolidat, atât pe termen scurt, pentru anul curent,cât și pe termen lung (pe 5 ani), inclusiv informații cu privire la cheltuieli și venituri</td></tr>
+<tr><td colspan="8">- mii lei -</td></tr>
+<tr><td rowspan="2">Indicatori</td><td>Anul curent</td><td colspan="5">Următorii 4 ani</td><td rowspan="2">Media pe 5 ani</td></tr>
+<tr><td>2022</td><td>2023</td><td>2024</td><td>2025</td><td>2026</td><td></td></tr>
+<tr><td>4.1. Modificări ale veniturilor bugetare,plus/minus, din care:a) buget de stat, din acesta:(i) impozit pe profit(ii) impozit pe venitb) bugete locale:(i) impozit pe profitc) bugetul asigurărilor sociale de stat:(i) contribuții de asigurărid) alte tipuri de venituri</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.2. Modificări ale cheltuielilor bugetare,plus/minus, din care:a) buget de stat, din acesta:(i) cheltuieli de personal(ii) bunuri și serviciib) bugete locale:(i) cheltuieli de personal(ii) bunuri și serviciic) bugetul asigurărilor sociale de stat:(i) cheltuieli de personal(ii) bunuri și serviciid) alte tipuri de cheltuieli</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.3. Impact financiar, plus/minus, din care:a) buget de statb) bugete locale</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.4. Propuneri pentru acoperirea creșterii cheltuielilor bugetare</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.5. Propuneri pentru a compensa reducerea veniturilor bugetare</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.6. Calcule detaliate privind fundamentarea modificărilor veniturilor și/sau cheltuielilor bugetare</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.7. Prezentarea majorării cheltuielilor bugetare</td><td colspan="7">Aplicarea prevederilor prezentului act nu are efecte asupra bugetului de stat.</td></tr>
+<tr><td>4.8. Alte informații</td><td colspan="7"></td></tr>
+<tr><td colspan="8">Secțiunea a 5-aEfectele proiectului de act normativ asupra legislației în vigoare</td></tr>
+<tr><td colspan="2">5.1. Măsuri normative necesare pentru aplicarea prevederilor proiectului de act normativ</td><td colspan="6">Nu este cazul</td></tr>
+<tr><td colspan="2">5.2. Impactul asupra legislației în domeniul achizițiilor publice</td><td colspan="6">Nu este cazul.</td></tr>
+<tr><td colspan="2">5.3. Conformitatea proiectului de act normativ cu legislația UE</td><td colspan="6">Nu este cazul</td></tr>
+<tr><td>5.3.1. Măsuri normative necesare transpunerilor directivelor UE</td><td colspan="2">Nu este cazul.</td></tr>
+<tr><td>5.3.2. Măsuri normative necesare aplicării actelor legislative UE</td><td colspan="2">Nu este cazul.</td></tr>
+<tr><td>5.4. Hotărâri ale Curții de Justiție a Uniunii Europene</td><td colspan="2">Nu este cazul.</td></tr>
+<tr><td>5.5. Alte acte normative și/sau documente internaționale din care decurg angajamente asumate</td><td colspan="2">Nu este cazul.</td></tr>
+<tr><td>5.6. Alte informații</td><td colspan="2">Nu sunt.</td></tr>
+<tr><td colspan="3">Secțiunea a 6-a Consultările efectuate în vederea elaborării proiectului de act normativ</td></tr>
+<tr><td>6.1. Informații privind neaplicarea procedurii de participare la elaborarea actelor normative</td><td colspan="2">Nu este cazul.</td></tr>
+<tr><td>6.2. Informații privind procesul de consultare cu organizații neguvernamentale, institute de cercetare și alte organisme implicate</td><td colspan="2">Nu este cazul.</td></tr>
+<tr><td>6.3. Informații despre consultările organizate cu autoritățile administrației publice locale</td><td colspan="2">Nu este cazul.</td></tr>
+<tr><td>6.4. Informații privind punctele de vedere/opinii emise de organisme consultative constituite prin acte administrative</td><td colspan="2">Nu este cazul.</td></tr>
+<tr><td>6.5. Informații privind avizarea de către: a) Consiliul Legislativ b) Consiliul Suprem de Apărare a Țării c) Consiliul Economic și Social d) Consiliul Concurenței e) Curtea de Conturi</td><td colspan="2">a) Este necesar avizul b) Nu este necesar c) Este necesar avizul d) Nu este necesar e) Nu este necesar</td></tr>
+<tr><td>6.6. Alte informații</td><td colspan="2">Nu sunt</td></tr>
+<tr><td colspan="3">Secțiunea a 7-a Activități de informare publică privind elaborarea și implementarea proiectului de act normativ</td></tr>
+<tr><td colspan="2">7.1. Informarea societății civile cu privire la elaborarea proiectului de act normativ</td><td>Nu este cazul</td></tr>
+<tr><td colspan="2">7.2. Informarea societății civile cu privire la eventualul impact asupra mediului în urma implementării proiectului de act normativ, precum și efectele asupra sănătății și securității cetățenilor sau diversității biologice</td><td>Nu este cazul.</td></tr>
+<tr><td colspan="3">Secțiunea a 8-a Măsuri privind implementarea, monitorizarea și evaluarea proiectului de act normativ</td></tr>
+<tr><td colspan="2">8.1. Măsurile de punere în aplicare a proiectului de act normativ</td><td>Nu este cazul.</td></tr>
+<tr><td colspan="2">8.2. Alte informații</td><td>Nu sunt.</td></tr>
+</tbody>
+</table>
+
+## INIȚIATORI
+
+<table>
+<tbody>
+<tr><td>Nr.crt.</td><td>Nume și prenume inițiator</td><td>Grup parlamentar</td><td>Semnătură</td></tr>
+<tr><td>1</td><td>Borțun Ștefan</td><td>Neafiliat PACE</td><td rowspan="2"></td></tr>
+<tr><td>2</td><td>Robe Liviu Sorin</td><td>Neafiliat</td></tr>
+<tr><td>3</td><td></td><td></td><td>√</td></tr>
+<tr><td>4</td><td></td><td></td><td></td></tr>
+</tbody>
+</table>

@@ -1,0 +1,96 @@
+{
+  "slug": "plx-428-2026",
+  "billId": "PL-x 428/2026",
+  "updatedAt": "2026-10-29T12:36:33.854Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L290FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Comitet de organizare și bani publici pentru evenimentele olimpice găzduite de România (FOTE iarna 2027)",
+      "summaryTlDr": "Lege în mare parte tehnică și utilă. Dă bază legală comitetului de organizare pe care Carta FOTE îl cere pentru ediția de iarnă 2027. Problema reală este că bani publici ajung într-o asociație de drept privat, fără nicio regulă scrisă despre transparență, plafon de cheltuieli sau ce se întâmplă cu bunurile după eveniment.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/20/8/se467.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Cine organizează și cine plătește evenimentele olimpice găzduite de România (FOTE iarna 2027)",
+      "summaryTlDr": "Lege tehnică și în mare utilă: dă bază legală comitetului de organizare pe care Carta FOTE îl cere pentru ediția de iarnă 2027. Punctul slab este banul public. Comitetul este o asociație privată finanțată din fonduri publice, iar OUG nu spune nimic despre transparență, achiziții, control și soarta bunurilor la final.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat ordonanța fără modificări; problemele comitetelor olimpice rămân",
+      "summary": "Senatul a aprobat ordonanța pentru evenimentele olimpice exact cum a dat-o Guvernul. S-au adăugat doar data ordonanței și numărul Monitorului Oficial. Rămân neclare cine finanțează comitetele de organizare, cine poate fi cooptat în ele și ce evenimente intră sub lege.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Comitet obligatoriu pentru orice eveniment olimpic, noțiune nedefinită, chiar și pentru unul mic",
+            "major": true,
+            "article": "art. 20³ alin. (1)-(2)"
+          },
+          {
+            "text": "Fondatorii, finanțarea, votul, răspunderea și dizolvarea comitetului sunt lăsate actului constitutiv",
+            "major": true,
+            "article": "art. 20³ alin. (3)-(4)"
+          },
+          {
+            "text": "Parteneri privați pot fi cooptați fără criterii, cu risc de conflict de interese",
+            "major": true,
+            "article": "art. 20³ alin. (5)"
+          },
+          {
+            "text": "ANS finanțează direct, COSR are prioritate la bani publici, fără costuri estimate",
+            "major": true,
+            "article": "art. 18¹ alin. (2) lit. e), art. 20² alin. (5)"
+          },
+          {
+            "text": "Neclar ce înseamnă «tutelează» și ce formă are acordul Guvernului",
+            "major": false,
+            "article": "art. 20² alin. (1¹)"
+          },
+          {
+            "text": "Alineat redactat ca literă de enumerare, fără subiect, contrar Legii 24/2000",
+            "major": false,
+            "article": "art. 20² alin. (1¹)"
+          },
+          {
+            "text": "Membrii asociației, care sunt persoane juridice, confundați cu reprezentanții lor",
+            "major": false,
+            "article": "art. 20³ alin. (3)"
+          }
+        ],
+        "good": [],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:33:36.759Z"
+    }
+  ]
+}

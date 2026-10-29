@@ -1,0 +1,233 @@
+# GUVERNUL ROMÂNIEI
+
+# ORDONANȚĂ DE URGENȚĂ
+
+# pentru modificarea și completarea Legii nr. 95/2006 privind reforma în domeniul sănătății, precum și pentru modificarea și completarea unor acte normative
+
+În prezent, procedura de aprobare a ghidurilor medicale presupune obținerea avizului Ministerului Sănătății, ceea ce generează întârzieri semnificative în actualizarea și implementarea acestora. Evoluția rapidă a practicii medicale și necesitatea alinierii permanente la standardele europene și internaționale impun o adaptare promptă a ghidurilor de diagnostic și tratament. Menținerea actualului mecanism birocratic determină riscul ca profesioniștii din domeniul sănătății să utilizeze ghiduri depășite, fapt ce poate afecta calitatea actului medical și siguranța pacientului. În plus, întârzierea actualizării ghidurilor are un impact negativ asupra procesului de formare profesională continuă și a capacității sistemului de sănătate de a răspunde rapid la provocări epidemiologice sau terapeutice emergente. Prin urmare, este necesară adoptarea de urgență a unei reglementări care să permită organismului profesional reprezentativ să elaboreze, să actualizeze, respectiv să avizeze direct ghidurile medicale, fără a mai fi necesar avizul Ministerului Sănătății. Această măsură va reduce birocrația, va accelera procesul de actualizare și implementare a ghidurilor și va asigura o reacție mai rapidă la evoluțiile științifice și la nevoile sistemului sanitar. Adoptarea în regim de urgență este justificată și de necesitatea asigurării conformității cu recomandările europene privind autonomia profesională a corpului medical și rolul
+
+acestuia în stabilirea standardelor de practică,
+
+În prezent, activitatea cabinetelor de medicină de familie, care reprezintă primul nivel de acces al populației la servicii medicale, se confruntă cu dificultăți majore în asigurarea continuității și stabilității funcționării, ca urmare a lipsei unui cadru juridic clar care să recunoască rolul lor esențial de interes public. Lipsa statutului de utilitate publică pentru cabinetele de medicină de familie conduce la imposibilitatea accesării unor facilități și forme de sprijin financiar necesare pentru menținerea infrastructurii medicale de bază în comunități, în special în mediul rural și în zonele defavorizate,
+
+În condițiile în care numeroase cabinete de medicină de familie riscă să își înceteze activitatea, ceea ce ar priva populația din aceste zone de accesul la servicii medicale esențiale, se impune adoptarea de urgență a unei reglementări prin care aceste cabinete să fie recunoscute ca entități de utilitate publică,
+
+Amânarea unei astfel de măsuri ar agrava criza de acces la servicii medicale primare, ar genera costuri suplimentare pentru sistemul sanitar și ar afecta grav dreptul constituțional al cetățenilor la ocrotirea sănătății,
+
+Având în vedere caracterul vital al medicinei de familie pentru asigurarea prevenției, depistării precoce a bolilor și gestionării fluxului pacienților în sistemul medical, precum și urgența adoptării unor măsuri care să prevină colapsul funcțional al rețelei de asistență medicală primară, se justifică adoptarea prezentei ordonanțe de urgență,
+
+Având în vedere necesitatea creării cadrului legal pentru autorizarea serviciilor de ambulanță județene și al municipiului București și a serviciilor mobile de urgență, reanimare și descarcerare, denumite în continuare SMURD, precum și a furnizorilor privați de servicii de asistență medicală de urgență prespitalicească și de transport medical asistat și transport sanitar neasistat,
+
+Având în vedere că în prezent, regimul răspunderii civile pentru prejudiciile cauzate de personalul medical în cadrul unităților sanitare este neclar și aplicat neunitar, ceea ce generează dificultăți majore în despăgubirea persoanelor vătămate și în soluționarea litigiilor. Lipsa unei reglementări exprese privind răspunderea solidară a unității medicale împreună cu personalul său conduce la tergiversarea procedurilor judiciare afectând grav dreptul pacienților la reparații juste și rapide. Aceasta situație creează tensiuni sociale și riscuri semnificative pentru stabilitatea sistemului medical, precum și o insecuritate juridică pentru personalul medical aflat în contract de prestări servicii cu unitatea medicală și pentru pacienți. Având în vedere numărul în creștere al litigiilor privind malpraxisul medical, precum și necesitatea asigurării unei protecții juridice coerente și imediate pentru pacienți, se impune adoptarea de urgență a prezentei reglementări, întrucât amânarea intervenției legislative ar perpetua disfuncționalitățile existente și ar genera prejudicii suplimentare persoanelor afectate,
+
+În contextul numeroaselor litigii privind malpraxisul medical, încrederea pacienților în corectitudinea expertizelor este esențială. Transferarea competenței de aprobare a listelor experților medicali exclusiv către organismele profesionale ar elimina aceste suspiciuni și ar spori transparența și integritatea procesului,
+
+Având în vedere impactul direct asupra sănătății publice, riscul generării de blocaje procedurale, lipsa de uniformitate în aplicarea legii și necesitatea alinierii la bune practici internaționale, stabilirea urgentă a direcției de sănătate publică ca reprezentant al comisiei de malpraxis în instanță este justificată pentru protejarea drepturilor pacienților și consolidarea încrederii în sistemul de sănătate,
+
+În considerarea obligației statului de a garanta dreptul la sănătate al populației și având în vedere faptul că în lipsa unor măsuri concrete și rapide de organizare a sistemului sanitar, ar fi afectat dreptul la sănătate al cetățenilor,
+
+Deoarece asigurarea asistenței medicale, inclusiv în regim ambulatoriu, reprezintă o prioritate strategică națională și o componentă esențială a prevenției și continuității tratamentului pacienților,
+
+Având în vedere faptul că unitățile sanitare publice sunt obligate prin lege să asigure servicii medicale în regim continuu și că lipsa unor norme clare privind activitatea ambulatorie generează disfuncționalități în organizare, finanțare și asigurarea personalului medical,
+
+În vederea creșterii accesului populației la serviciile medicale ambulatorii de specialitate și a reducerii presiunii asupra secțiilor de urgență și spitalizare continuă,
+
+Având în vedere că Planul Național de Redresare și Reziliență al denumit în continuare PNRR, include măsuri de reformă a asistenței ambulatorii, menite să crească accesul populației la servicii medicale integrate și să reducă presiunea asupra spitalelor,
+
+Întrucât neadoptarea în regim de urgență a cadrului normativ privind activitatea ambulatorie ar conduce la blocaje în acordarea serviciilor medicale, la întârzierea accesului pacienților la diagnostic și tratament și la afectarea gravă a dreptului la sănătate,
+
+Având în vedere necesitatea definirii unor noțiuni, precum și a deosebirii clare între structura organizatorică a unui spital și structura sa medicală, inclusiv în scopul evaluării distincte a performanței administrative și medicale,
+
+În vederea aplicării unitare la nivelul tuturor unităților sanitare în care este normată funcția de asistent medical-șef și stabilirea corectă a nivelului salarizării potrivit prevederilor Legii-cadru nr. 153/2017 privind salarizarea personalului plătit din fonduri publice, cu modificările și completările ulterioare,
+
+Având în vedere necesitatea stringentă de a asigura actualizarea și corelarea cadrului normativ privind organizarea și finanțarea rezidențiatului, reglementat prin Ordonanța Guvernului nr. 18/2009, privind organizarea și finanțarea rezidențiatului, aprobată prin Legea nr. 103/2012, cu modificările și completările ulterioare, cu evoluțiile recente ale sistemului de formare profesională medicală și cu cerințele de uniformizare la nivel european,
+
+Menținerea cadrului normativ actual generează disfuncționalități în procesul de organizare și desfășurare a examenelor de rezidențiat, lipsa de predictibilitate în planificarea resurselor umane din sănătate și imposibilitatea recunoașterii unor competențe profesionale dobândite în contexte internaționale. Aceste deficiențe produc efecte imediate asupra organizării sesiunilor de rezidențiat, asupra repartizării candidaților și asupra formării profesionale continue a medicilor, medicilor stomatologi și farmaciștilor,
+
+Având în vedere importanța și impactul direct al acestor reglementări asupra funcționării sistemului sanitar civil și militar, precum și necesitatea evitării întârzierilor în aplicarea noilor mecanisme de recunoaștere, clasificare și publicitatea curriculumurilor,
+
+Având în vedere necesitatea completării urgente a normelor care să asigure continuitatea conducerii Agenției Naționale pentru Dezvoltarea Infrastructurii în Sănătate,
+
+În considerarea faptului că statul este garant al dreptului la ocrotirea sănătății publice și trebuie să ia măsuri pentru asigurarea acestui drept,
+
+Având în vedere faptul că, în ultimii ani, durata medie de aprobare a ghidurilor medicale a crescut, ceea ce determină utilizarea unor protocoale depășite în mai multe specialități, cu impact direct asupra siguranței pacienților și calității actului medical,
+
+Având în vedere că mai multe cabinete de medicină de familie din mediul rural au notificat intenția de încetare a activității din lipsa sprijinului financiar, ceea ce ar priva populația din mediul rural, și, în mod deosebit, din zonele defavorizate, de acces la servicii medicale primare esențiale,
+
+Având în vedere creșterea litigiilor de malpraxis medical aflate pe rolul instanțelor în ultimii ani, precum și dificultățile majore generate de lipsa unei reglementări clare privind răspunderea solidară a unităților medicale și a personalului, care afectează dreptul pacienților la reparații juste și rapide,
+
+Având în vedere riscul imediat de blocaj în organizarea sesiunii de rezidențiat din anul 2026, ca urmare a necorelării cadrului normativ cu standardele europene, ceea ce ar afecta planificarea resurselor umane în sănătate și recunoașterea competențelor profesionale dobândite,
+
+Având în vedere faptul că PNRR prevede măsuri urgente de reformă a asistenței medicale ambulatorii, iar neadoptarea cadrului normativ ar conduce la întârzieri în implementarea acestora și la afectarea gravă a accesului pacienților la diagnostic și tratament,
+
+Având în vedere obligația constituțională a statului, prevăzută la art. 34 alin. (2) din Constituția României, republicată, de a lua măsuri pentru asigurarea igienei și sănătății publice, precum și faptul că toate elementele mai sus prezentate constituie situații extraordinare, obiective și imprevizibile, a căror reglementare nu mai poate fi amânată,
+
+În considerarea interesului public general și a necesității de a preveni colapsul funcțional al unor componente esențiale ale sistemului sanitar, se impune adoptarea de măsuri imediate pe calea ordonanței de urgență.
+
+În temeiul art. 115 alin. (4) din Constituția României, republicată,
+
+Guvernul României adoptă prezenta ordonanță de urgență.
+
+Art. I. - Legea nr. 95/2006 privind reforma în domeniul sănătății, republicată în Monitorul Oficial al României, Partea I, nr. 652 din 28 august 2015, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+## 1. La articolul 4 alineatul (1), litera g) se modifică și va avea următorul cuprins:
+
+„g) ghiduri de practică medicală - documente care transpun, la nivel național, recomandările dezvoltate în mod sistematic, bazate pe dovezi științifice privind îngrijirile medicale care trebuie acordate într-o anumită circumstanță clinică, elaborate fie de Colegiul Medicilor din România sau Colegiul Medicilor Stomatologi din România, fie de societăți medicale de profil sau de experți în cadrul proiectelor derulate de Ministerul Sănătății sau de unitățile din subordinea acestuia cu avizul Colegiului Medicilor din România sau Colegiului Medicilor Stomatologi din România, după caz; Colegiul Medicilor din România sau Colegiul Medicilor Stomatologi din România, după caz, asigură publicarea ghidurilor elaborate pe site-ul propriu;”
+
+## 2. După articolul 92 se introduce un nou articol, art. 92¹ cu următorul cuprins:
+
+„Art. 92¹. - Normele metodologice de autorizare a furnizorilor privați de servicii de asistență medicală de urgență prespitalicească și de transport medical asistat și transport sanitar neasistat, a serviciilor de ambulanță județene și al municipiului București și a SMURD, precum și a modelului de autorizație emis de direcțiile de sănătate publică județene și a municipiului București se aprobă prin ordin comun al ministrului afacerilor interne și al ministrului sănătății.”
+
+## 3. La art. 165, după alineatul (1⁴), se introduce un nou alineat, alin. (1⁵), cu următorul cuprins:
+
+„(1⁵) Prin excepție de la prevederile alin. (1¹), personalul medico-farmaceutic încadrat pe perioadă nedeterminată în cadrul unităților și instituțiilor publice, care dobândește ulterior calitatea de cadru didactic, beneficiază de integrare clinică fără concurs sau examen, prin modificarea raportului de muncă.”
+
+## 4. La articolul 171, alineatul (1) se modifică și va avea următorul cuprins:
+
+„(1) Structura organizatorică a unui spital poate cuprinde secții, compartimente, laboratoare, cabinete, servicii medicale, de diagnostic și tratament, de asistență prespitalicească și transport urgențe, structuri de primiri urgențe, alte structuri aprobate prin ordin al ministrului sănătății, structuri tehnice, economice și administrative, unități de implementare a proiectelor. Structura medicală face parte din structura organizatorică a spitalului și reprezintă ansamblul secțiilor, compartimentelor, laboratoarelor, cabinetelor și serviciilor medicale în care se desfășoară activitate medicală .”
+
+## 5. La articolul 172, alineatele (6)-(8) se modifică și vor avea următorul cuprins:
+
+„(6) Structura organizatorică, reorganizarea, restructurarea, schimbarea sediului și a denumirilor pentru spitalele publice din rețeaua proprie a Ministerului Sănătății se aprobă prin ordin al ministrului sănătății, la propunerea managerului spitalului sau la inițiativa Ministerului Sănătății și/sau a serviciilor deconcentrate ale acestuia.
+
+(7) Structura organizatorică, reorganizarea, schimbarea sediului și a denumirilor pentru spitalele publice din rețeaua proprie a altor ministere și instituții publice cu retea sanitară proprie se aprobă prin ordin al ministrului, respectiv prin act administrativ al conducătorului instituției, la propunerea managerului spitalului. Structura medicală se avizează, la propunerea managerului spitalului, de Ministerul Sănătății, de direcțiile de sănătate publică județene, respectiv a municipiului București sau de direcțiile medicale cu atribuții de direcții de sănătate publică ale ministerelor ori instituțiilor cu rețea sanitară proprie, în condițiile stabilite prin ordin al ministrului sănătății.
+
+(8) Spitalele private se înființează sau se desființează cu avizul Ministerului Sănătății sau al direcțiilor de sănătate publică județene, respectiv a municipiului București, în condițiile stabilite prin ordin al ministrului sănătății. Structura medicală, reorganizarea, schimbarea sediului și a denumirii spitalelor private se avizează de Ministerul Sănătății sau de direcțiile de sănătate publică județene, respectiv a municipiului București, în condițiile stabilite prin ordin al ministrului sănătății.”
+
+## 6. Articolul 172¹ se modifică și va avea următorul cuprins:
+
+„Art. 172¹. - Regiile autonome și cultele recunoscute pot înființa unități sanitare private cu sau fără personalitate juridică, în scopul furnizării de servicii medicale.”
+
+## 7. La articolul 185, după alineatul (2) se introduce un nou alineat, alin.(2¹) cu următorul cuprins:
+
+„(2¹) În spitalele publice funcția de asistent medical șef este funcție de conducere și va putea fi ocupată de asistenți medicali sau moașe, cu o vechime de cel puțin 5 ani în funcția de asistent medical sau de moașă, după caz. Salariul de bază pentru funcția de asistent medical șef/asistent coordonator, este salariul de bază stabilit în conformitate cu prevederile Legii-cadru nr. 153/2017 privind salarizarea personalului plătit din fonduri publice, cu modificările și completările ulterioare, pentru funcția de asistent medical principal cu studii superioare și vechime în muncă la nivel maxim în aceeași specialitate/specializare, majorat cu 20%.”
+
+## 8. După art. 199 se introduce un articol nou, art. 199¹, cu următorul cuprins:
+
+„Art. 199¹. - Pentru finanțarea acțiunilor prioritare, stabilite prin ministrului sănătății, inclusiv pentru cazurile prevăzute la art. 100 alin. (derulate de către spitalele publice, pot fi asigurate sume de la bugetul de bugetul Ministerului Sănătății, din bugetele ordonatorilor principali de credite și din venituri proprii.”
+
+9\. La articolul 414 alineatul (1), litera g) se modifică și va avea următorul cuprins:
+
+„g) elaborează, actualizează și avizează, după caz, ghidurile de practică medicală, adaptând conținutul acestora la ghidurile internaționale;”
+
+10\. La articolul 512 alineatul (1), litera g) se modifică și va avea următorul cuprins:
+
+„g) elaborează, actualizează și avizează, după caz, ghidurile de practică medicală, adaptând conținutul acestora la ghidurile internaționale.”
+
+11\. La articolul 655, alineatul (2) se modifică și va avea următorul cuprins:
+
+„(2) Unitățile prevăzute la alin. (1) răspund în condițiile legii civile pentru prejudiciile produse de personalul medical angajat sau care își exercită profesia în unitatea respectivă în baza unui contract de prestări servicii medicale, în solidar cu acesta.”
+
+12\. La articolul 680, alineatul (1) se modifică și va avea următorul cuprins:
+
+„(1) Colegiul Medicilor din România, Colegiul Medicilor Stomatologi din România, Colegiul Farmaciștilor din România și Ordinul Asistenților Medicali Generaliști, Moașelor și Asistenților Medicali din România, la propunerea organismelor profesionale territoriale, aprobă, prin hotărâre a Consiliului Național, pentru fiecare județ și municipiul București, o listă națională de experți medicali, în fiecare specialitate, care vor fi consultați conform regulamentului de organizare și funcționare a Comisiei. Fiecare organism profesional va publica și actualiza lista națională a experților medicali proprii și va informa Ministerul Sănătății ori de câte ori sunt produse modificări în cuprinsul acesteia.”
+
+## 13. La articolul 684 după alineatul (1), se introduce un nou alineat, alin.(1¹) cu următorul cuprins:
+
+„(1¹) Reprezentarea comisiei în instanță este asigurată de direcția de sănătate publică la nivelul căreia este constituită.”
+
+Art. II. - Ordonanța Guvernului nr. 18/2009 privind organizarea și finanțarea rezidențiatului, publicată în Monitorul Oficial al României, Partea I, nr. 601 din 31 august 2009, aprobată prin Legea nr. 103/2012, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+## 1. La articolul 10, alineatul (4) se modifică și va avea următorul cuprins:
+
+„(4) Curriculumurile aprobate conform alin. (3) se publică pe site-ul Ministerului Sănătății în termen de maxim 5 zile lucrătoare de la aprobare.”
+
+2\. La articolul 15, după alineatul (3²), se introduc două noi alineate, alin. (3³) și (3⁴), cu următorul cuprins:
+
+„(3³) Pentru examenul prevăzut la alin. (3¹), punctajul obținut se poate asimila cu media generală a examenului prevăzut la alin. (2) sau cu nota obținută la una dintre probele din cadrul acestuia, prin aplicarea unei metodologii specifice, aprobate prin ordin al ministrului sănătății.
+
+(3⁴) Ministerul Sănătății poate organiza în același an calendaristic, în sesiuni diferite, atât examenul prevăzut la alin. (2), cât și examenul prevăzut la alin. (3¹).”
+
+## 3. La articolul 15, după alineatul (6), se introduce un nou alineat, alin. (6¹), cu următorul cuprins:
+
+„(6¹) Unitățile sanitare în care rezidenții sunt încadrați au obligația de a transmite, în maxim 5 zile lucrătoare de la data finalizării integrale a pregătirii, lista rezidenților însoțită de dovada prevăzută la alin. (7) către direcția de sănătate publică județeană, respectiv a Municipiului București sau către structura de specialitate care coordonează activitatea spitalelor din cadrul ministerelor cu rețea sanitară proprie, după caz. Acestea au obligația de a transmite Ministerului Sănătății, în maximum 3 zile lucrătoare de la primire, lista centralizată a rezidenților, însoțită de dovada prevăzută la alin. (7).”
+
+## 4. La articolul 16, după alineatul (2), se introduc două noi alineate, alin. (2¹) și (2²), cu următorul cuprins:
+
+„(2¹) Medicii, medicii stomatologi și farmaciștii care susțin concursul național de admitere în rezidențiat se înscriu separat pe locurile/posturile alocate Ministerului Sănătății, Ministerului Apărării Naționale, Ministerului Afacerilor Interne, Ministerului Justiției și Ministerului Educației și Cercetării, pentru candidații români de pretutindeni, fiind întocmite clasificări separate.
+
+(2²) În urma susținerii concursului național de admitere în rezidențiat, candidații vor alege locurile și posturile disponibile din listele publicate în ordine descrescătoare a punctajului obținut conform metodologiei prevăzute la art. 3 alin. (1).”
+
+## 5. La articolul 22², după alineatul (4), se introduce un nou alineat, alin. (5), cu următorul cuprins:
+
+„(5) Prin excepție de la prevederile alin. (1), medicii, medicii stomatologi și farmaciștii rezidenți pe loc, încadrați în instituții cu structuri sanitare proprii aparținând Ministerului Apărării Naționale, Ministerului Afacerilor Interne și Ministerului Justiției, pot solicita schimbarea specialității conform metodologiilor proprii aprobate prin ordin al ministrului de resort. În acest scop, rezidenții vor depune la Ministerul Sănătății o solicitare însoțită de avizul emis de ministerul de resort, care atestă aprobarea schimbării specialității în conformitate cu metodologia internă aplicabilă. Pe baza acestui aviz, Ministerul Sănătății va emite ordinul de confirmare în noua specialitate.”
+
+Art. III. - Articolul 1 din Ordonanța de urgență a Guvernului nr. 41/2023 privind transferul rețelei sanitare a Ministerului Transporturilor și Infrastructurii către alte ministere și instituții cu rețele sanitare proprii, așa cum sunt reglementate la art. 4 alin.
+
+(2) din Legea nr. 95/2006 privind reforma în domeniul sănătății, publicată în Monitorul Oficial al României, Partea I, nr. 459 din 25 mai 2023, aprobată cu modificări și completări prin Legea nr. 429/2023, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+## 1. Alineatul (5) se modifică după cum urmează:
+
+„(5) Cererea entității de preluare a unităților sanitare, precum și documentele din care rezultă îndeplinirea criteriilor prevăzute la alin. (4) se transmit Comisiei privind transferul rețelei sanitare din cadrul Ministerului Transporturilor și Infrastructurii, denumită în continuare Comisia. Comisia analizează solicitările, iar în situația îndeplinirii cumulative a criteriilor prevăzute la alin. (4), propune conducerii Ministerului Transporturilor și Infrastructurii promovarea hotărârii de Guvern, potrivit alin. (3).”
+
+## 2. După alineatul (5) se introduce un nou alineat, alin. (6), cu următorul cuprins:
+
+„(6) Componența și atribuțiile Comisiei privind transferul rețelei sanitare din cadrul Ministerului Transporturilor și Infrastructurii precum și Ghidul privind stabilirea indicatorilor pentru îndeplinirea criteriilor prevăzute la alin. (4) se aprobă prin ordin al ministrului transporturilor și infrastructurii.”
+
+Art. IV. - Articolul III din Legea nr. 163/2025 privind modificarea și completarea unor acte normative și pentru stabilirea unor măsuri în domeniul sănătății, publicată în Monitorul Oficial al României, Partea I, nr. 984 din 24 octombrie 2025, se modifică și va avea următorul cuprins:
+
+„Art. III. - Medicii, cu excepția șefilor de secție, care acordă servicii medicale într-o/într-un secție/compartiment dintr-un spital public, au obligația de a desfășura activitate în ambulatoriul integrat al spitalului, în cadrul normei lunare de lucru, conform graficului stabilit de managerul spitalului, la propunerea medicului șef de secție sau a medicului coordonator, după caz.”
+
+Art. V. - La articolul 15 din Ordonanța de urgență a Guvernului nr. 76/2022 privind înființarea, organizarea și funcționarea Agenției Naționale pentru Dezvoltarea Infrastructurii în Sănătate, publicată în Monitorul Oficial al României, Partea I, nr. 547 din 3 iunie 2022, aprobată cu modificări prin Legea nr. 66/2023, alineatul (12) se modifică și va avea următorul cuprins:
+
+„(12) In cazul în care funcțiile de președinte și vicepreședinte al ANDIS sunt vacante în mod simultan, până la numirea persoanelor în funcția de președinte și vicepreședinte al ANDIS, în condițiile prevederilor alin. (1), ministrul sănătății numește prin ordin persoanele care să îndeplinească cu caracter temporar atribuțiile președintelui ANDIS, respectiv vicepreședintelui, dar nu mai mult de 6 luni, termen în care Ministerul Sănătății are obligația de a organiza concurs.”
+
+Art. VI. - La art. XXII din Legea nr. 141/2025 privind unele măsuri fiscal-bugetare, publicată în Monitorul Oficial al României, Partea I, nr. 699 din 25 iulie 2025, cu modificările și completările ulterioare, după alineatul (12), se introduc trei noi alineate, alin. (13)-(15), cu următorul cuprins:
+
+„(13) Prevederile alin. (1) nu se aplică concursului național de rezidențiat și concursurilor sau examenelor pentru ocuparea posturilor prin integrare clinică.
+
+(14) Prin excepție de la prevederile alin. (1), în cazuri temeinic justificate, prin memorandum aprobat în ședința Guvernului se poate aproba organizarea de concursuri sau examene pentru ocuparea posturilor vacante sau temporar vacante, din unitățile și instituțiile din subordinea Ministerului Sănătății, precum și din unitățile sanitare din subordinea ministerelor și instituțiilor cu rețea sanitară proprie.
+
+(15) Prin excepție de la prevederile alin. (1), administratorul Sistemului național unic pentru apeluri de urgență, în cazuri temeinic justificate, prin memorandum aprobat în ședința Guvernului, poate ocupa posturile vacante, necesare pentru administrarea tehnică și operarea sistemului.”
+
+Art. VII. - Începând cu data de 1 ianuarie 2026 se suspendă aplicarea prevederilor art. 38 alin. (10) din Legea-cadru nr. 153/2017 privind salarizarea personalului plătit din fonduri publice, cu modificările și completările ulterioare, până la data de 31 decembrie 2026.
+
+Art. VIII. - (1) La data intrării în vigoare a prezentei ordonanțe de urgență, Decizia prim-ministrului nr. 57/2023 privind înființarea, organizarea și funcționarea Comitetului interministerial privind transferul rețelei sanitare a Ministerului Transporturilor și Infrastructurii, publicată în Monitorul Oficial al României, Partea I, nr.188 din 6 martie 2023, cu modificările și completările ulterioare, se abrogă.
+
+(2) Documentele rezultate în urma desfășurării activității Comitetului menționat la alin. (1) se inventariază și se predau, pe bază de proces verbal, Ministerului Transporturilor și Infrastructurii, în termen de 30 de zile de la intrarea în vigoare a prezentei ordonanțe de urgență.
+
+Art. IX. - Prin derogare de la prevederile art. 54 alin. (2) din Legea nr. 500/2002 privind finanțele publice, cu modificările și completările ulterioare, ordonatorii principali de credite pot propune Ministerului Finanțelor anularea de credite bugetare și credite de angajament, pentru care sarcinile au fost desființate sau amânate, până pe data de 24 decembrie 2025.
+
+Art.X. - În termen de 90 de zile de la data intrării în vigoare a prezentei ordonanțe de urgență, se emite ordinul ministrului afacerilor interne și al ministrului sănătății prevăzut la art. 92¹ din Legea nr.95/2006 privind reforma în domeniul sănătății, republicată, cu modificările și completările ulterioare, astfel cum a fost modificată și completată prin prezenta ordonanță de
+
+PRIM-MINISTRU
+
+ILIE-GAVRIL BOLOJA
+
+Contrasemnează:
+
+Viceprim-ministru
+
+Marian Neacsu.
+
+Viceptim-ministru, ministrul afacerilor interne
+
+Bogdan Deslescu Marian-Cătălin Predoiu 18.12.2025
+
+Viceprim-ministru, ministrul apărării naționale, interimar
+
+Radú-Dinel Miruță
+
+EDUARO BRENDE
+
+Ministrul sănătăti Alexandru Florin Rogobete
+
+Secretarungeneral al Guvernului Stefan-Radu Oprea
+
+Ministrul educație/și cercetării
+
+Daniel-Ovidiu David
+
+Ministrul transporturilor și infrastructurii
+
+Ciprian-Constantin Șerban
+
+10/8/2021 19.122021
+
+Ministrul dezvoltării, lucrărilor publice si administrației
+
+Cseke\\Attilk-Zoltán
+
+Ministrul muncii, familiei, tineretului și solidarității sociale Petre-Florin Manole
+
+București,18.12.2025 Nr.841

@@ -1,0 +1,39 @@
+## LEGE
+
+pentru modificarea și completarea art. 25 din Legea nr. 227/2015 privind Codul fiscal, precum și completarea Legii nr.165/2018 privind acordarea biletelor de valoare
+
+Parlamentul României adoptă prezenta lege.
+
+Art. I – Articolul 25 din Legea nr.227/2015 privind Codul fiscal, cu modificările și completările ulterioare, publicată în Monitorul Oficial al României, Partea I, nr.688 din 10 septembrie 2015, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La alineatul (3), litera c) se modifică și va avea următorul cuprins:
+
+„c) cheltuielile reprezentând tichetele de masă acordate de angajatori, potrivit legii;”
+
+2\. La alineatul (4), după litera h) se introduce o nouă literă, lit. h¹), cu următorul cuprins:
+
+„h¹) cheltuielile reprezentând voucherele de vacanță, acordate de angajatori, potrivit legii; contribuabilii care efectuează cheltuieli cu acordarea voucherelor de vacanță, potrivit prevederilor Legii nr. 165/2018 privind acordarea biletelor de valoare, cu modificările și completările ulterioare, scad sumele aferente din impozitul pe profit datorat la nivelul valorii minime dintre următoarele:
+
+1\. valoarea totală a voucherelor de vacanță acordate angajaților în anul fiscal respectiv;
+
+2\. 20% din impozitul pe profit datorat."
+
+Art. II - După articolul 24 din Legea nr. 165/2018 privind acordarea biletelor de valoare publicată în Monitorul Oficial al României, Partea I, nr. 599 din 13 iulie 2018, cu modificările și completările ulterioare, se introduce un nou articol, art. 24¹, cu următorul cuprins:
+
+„Art. 24¹- (1) Angajatorii pot acorda vouchere de vacanță angajaților proprii din impozitul pe profit redus potrivit prevederilor Legii nr. 227/2015, cu modificările și completările ulterioare.
+
+(2) Voucherele de vacanță acordate potrivit alin. (1) se supun regimului fiscal prevăzut de legislația fiscală în vigoare pentru veniturile salariale.
+
+(3) Condițiile, plafonul anual și procedura de aplicare se stabilesc prin Normele metodologice de aplicare a Legii nr. 227/2015 privind Codul fiscal, aprobate prin Hotărârea Guvernului nr. 1/2016, cu modificările și completările ulterioare.”
+
+Art. III - În termen de 60 de zile de la data intrării în vigoare a prezentei legi Guvernul, la propunerea Ministerului Finanțelor, va modifica în mod corespunzător Normele metodologice de aplicare a Legii nr. 227/2015 privind Codul fiscal, aprobate prin Hotărârea Guvernului nr. 1/2016, cu modificările și completările ulterioare.
+
+Art. IV - Prezenta lege intră în vigoare la data de 1 ianuarie a anului fiscal următor publicării în Monitorul Oficial al României, Partea I.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.
+
+PREȘEDINTE SENAT
+
+PREȘEDINTE
+
+CAMERA DEPUTAȚILOR

@@ -1,0 +1,112 @@
+{
+  "slug": "plx-349-2026",
+  "billId": "PL-x 349/2026",
+  "updatedAt": "2026-10-29T13:07:13.198Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L216FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Bani în plus pentru copiii săraci și cu handicap și un ajutor de 600-1.000 lei pentru pensionarii cu venituri mici",
+      "summaryTlDr": "Este o lege de sprijin social, în esență pozitivă. Majorează ajutoarele pentru copiii din familii sărace și pentru copiii cu handicap și dă pensionarilor cu pensii de până la 3.000 lei între 600 și 1.000 lei, din oficiu. Problemele sunt de redactare: pragurile de venit pentru familii sunt scrise fără indexarea din martie, iar pensionarii care locuiesc în alt stat UE sunt excluși.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/300/40/9/se383.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Ajutoare mai mari pentru familii sărace și copii cu handicap, plus 600–1.000 lei pentru pensionarii cu pensii de până la 3.000 lei",
+      "summaryTlDr": "Lege de sprijin social, în esență pozitivă: majorează ajutoare care există deja și dă pensionarilor cu pensii mici 600–1.000 lei, plătiți din oficiu, fără cerere. Problemele sunt tehnice: pragurile de venit pentru familiile cu copii par să revină sub nivelul indexat, există salturi bruște la limitele tranșelor, iar cei cu reședința în străinătate sunt excluși.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat ordonanța fără modificări; s-a schimbat doar formula de adoptare a legii",
+      "summary": "Senatul a aprobat OUG 23/2026 exact cum a venit de la Guvern. Au fost adăugate doar data ordonanței, Monitorul Oficial în care a apărut și formula de adoptare. Creșterile de ajutoare, banii pentru pensionari și problema pragurilor de venit au rămas la fel.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Pragurile de venit fixate la 366 și 930 lei, sub cele indexate",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Unele familii cu doi părinți ar putea primi mai puțin decât în martie",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Familiile cu venit între 931 și 998 lei nu mai intră în nicio tranșă",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Eligibilitatea pensionarilor se verifică în aprilie și noiembrie; suma totală nu e garantată",
+            "major": true,
+            "article": "art. IV"
+          },
+          {
+            "text": "Expunerea de motive descrie greșit dublarea stimulentului ca o creștere de 50%",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "good": [
+          {
+            "text": "Ajutorul pentru familia cu copii crește cu 17–31%, până la 900 lei",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Stimulentul pentru grădiniță se dublează, de la circa 133 la 265 lei",
+            "major": true,
+            "article": "art. II"
+          },
+          {
+            "text": "Prestația pentru copilul cu handicap crește la 548, 397 și 199 lei",
+            "major": true,
+            "article": "art. III"
+          },
+          {
+            "text": "Pensionarii cu pensii până la 3.000 lei primesc 1.000, 800 sau 600 lei",
+            "major": true,
+            "article": "art. IV–V"
+          },
+          {
+            "text": "Plata către pensionari se face din oficiu, fără cerere",
+            "major": false,
+            "article": "art. IV"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:07:13.198Z"
+    }
+  ]
+}

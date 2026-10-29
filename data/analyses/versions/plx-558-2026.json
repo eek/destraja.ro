@@ -1,0 +1,102 @@
+{
+  "slug": "plx-558-2026",
+  "billId": "PL-x 558/2026",
+  "updatedAt": "2026-10-29T13:06:52.141Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L342FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Fără impozit pe casă dacă nu ai apă, canalizare sau gaze",
+      "summaryTlDr": "O scutire ușor de vândut, dar scrisă atât de vag încât fiecare primărie o poate aplica altfel. E plătită din bugetele exact ale comunelor care n-au bani de rețele. Se poate apăra doar dacă e limitată la casa de domiciliu și are o dovadă simplă, o dată de încetare și compensare de la stat.",
+      "scores": {
+        "agy": 6,
+        "claude": 4,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/50/8/se641.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Fără impozit pe clădiri dacă nu ai apă, canalizare sau gaze",
+      "summaryTlDr": "Ideea are logică socială, dar textul e atât de vag încât poate scuti de impozit și vile sau case de vacanță din zone fără gaze. Nota de plată o achită comunele sărace, care ar trebui tocmai să construiască rețelele. Merită salvată doar dacă e țintită pe locuința de domiciliu și compensată de la bugetul de stat.",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat tacit textul inițial, fără nicio modificare de fond",
+      "summary": "Senatul nu a votat proiectul, care s-a considerat adoptat tacit în forma inițiatorului, cu text identic. Problemele rămân: scutirea e neclară, nu se limitează la locuința de domiciliu și lasă primăriile fără bani, fără compensare.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Nu e clar dacă scutirea cere lipsa unei singure rețele sau a tuturor trei",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "„Acces la infrastructură” nedefinit; ar putea scuti și pe cine refuză racordarea",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Scutirea nu se limitează la domiciliu: scapă și case de vacanță, vile, spații închiriate",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Scutire obligatorie; consiliul local nu poate refuza, deși pierde venit propriu",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Fără estimare de cost și fără compensare; comunele rurale sărace pierd cel mai mult",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Nu se spune cine eliberează dovada lipsei rețelelor",
+            "major": false,
+            "article": "art. 1"
+          }
+        ],
+        "good": [
+          {
+            "text": "Scutește de impozit clădirile persoanelor fizice fără apă, canalizare sau gaze",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Se aplică de la 1 ianuarie a anului următor, la început de an fiscal",
+            "major": false,
+            "article": "art. 2"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 4,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:05:10.788Z"
+    }
+  ]
+}

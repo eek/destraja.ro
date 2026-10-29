@@ -1,0 +1,31 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+# pentru modificarea și completarea Ordonanței de urgență a Guvernului nr.111/2011 privind comunicațiile electronice
+
+Senatul adoptă prezentul proiect de lege
+
+Articol unic.- Ordonanța de urgență a Guvernului nr.111/2011 privind comunicațiile electronice, publicată în Monitorul Oficial al României, Partea I, nr. 925 din 27 decembrie 2011, aprobată cu modificări și completări prin Legea nr.140/2012, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 50³, după alineatul (6) se introduce un nou alineat, alin.(7), cu următorul cuprins:
+
+„(7) În cazul contractelor al căror preț este exprimat în euro sau în altă monedă străină, furnizorii de rețele ori servicii de comunicații electronice destinate publicului au obligația să informeze utilizatorii finali, anterior încheierii contractului, că facturile vor fi emise în lei, la cursul de schimb valutar comunicat de Banca Națională a României pentru ziua lucrătoare precedentă datei emiterii facturii, publicat la ora 13:00, fără aplicarea de marje, adaosuri sau comisioane suplimentare.”
+
+2\. După articolul 84 se introduce un nou articol, art.84¹, cu următorul cuprins:
+
+„Art.84¹.- Furnizorii de rețele sau de servicii de comunicații electronice destinate publicului care încheie contracte al căror preț este exprimat în euro sau în altă monedă străină au obligația de a emite facturile în lei, la cursul de schimb valutar comunicat de Banca Națională a României pentru ziua lucrătoare precedentă datei emiterii facturii, publicat la ora 13:00, fără aplicarea de marje, adaosuri sau comisioane suplimentare.”
+
+3\. La articolul 142, după punctul 46¹ se introduce un nou punct, pct.46², cu următorul cuprins:
+
+„46². nerespectarea obligației de a emite facturile în lei, la cursul de schimb valutar al Băncii Naționale a României comunicat în ziua lucrătoare precedentă emiterii facturii, la ora 13:00, prevăzută la art.84¹;”
+
+4\. La articolul 144, alineatul (1) se modifică și va avea următorul cuprins: „Art.144.- (1) Contravențiile prevăzute la art.142 pct.1 - 2², 4, 5, 7 - 9¹, 11 - 19, 24³, 24⁶ - 24¹⁵, 24¹⁷ - 29, 29¹, 33, 35, 36 - 37³, 38 - 40¹, 40³ - 40¹³, 41², 46, 46¹, 46² și 48 - 50 se constată de către personalul de control din cadrul ANCOM prin procesul-verbal de constatare a contravenției și de aplicare a sancțiunii.”
+
+Acest proiect de lege a fost adoptat de Senat în ședința din 18 mai 2026, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.
+
+p. PREȘEDINTELE SENATULUI
+
+MIHAI COTEȚ

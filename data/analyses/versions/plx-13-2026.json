@@ -1,0 +1,135 @@
+{
+  "slug": "plx-13-2026",
+  "billId": "PL-x 13/2026",
+  "updatedAt": "2026-10-29T12:25:44.362Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L577FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Grupa specială nu se mai pierde pentru o zi de instructaj",
+      "summaryTlDr": "Corectură utilă și favorabilă salariaților: o singură zi de instructaj sau de curs nu mai anulează o lună întreagă de grupă specială. Formularea nouă e însă vagă și nu spune cum se numără stagiul, așa că disputa riscă să se mute de la lege la casele de pensii.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/10/3/se786.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Grupa specială de muncă nu se mai pierde pentru o singură zi de instructaj",
+      "summaryTlDr": "Corectură utilă, în spiritul contributivității: un angajat din grupa specială nu mai pierde o lună întreagă de stagiu pentru o zi de instructaj sau de mentenanță. Formularea nouă e însă vagă („acte normative specifice domeniului”) și nu spune explicit că stagiul se numără proporțional, așa că efectul real va depinde de normele și de practica caselor de pensii.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Senatul a extins relaxarea și la munca în grupa I de dinainte de 1 aprilie 2001",
+      "summary": "Inițial se schimba doar regula pentru stagiul în condiții speciale de acum. Senatul a adăugat aceeași relaxare și pentru anii lucrați în grupa I înainte de 2001, deci beneficiază mai mulți oameni. Textul nou păstrează însă „în fiecare lună” și poate fi aplicat diferit.",
+      "changes": [
+        {
+          "title": "Contează și munca în grupa I dinainte de 2001",
+          "text": "Senatul a adăugat la art. 133 alin. (4) aceeași relaxare pentru perioadele lucrate în grupa I înainte de 1 aprilie 2001, la locurile de la art. 28 alin. (1) lit. d) și f)-j).",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 133 alin. (4)",
+          "before": null,
+          "after": "perioada anterioară datei de 1 aprilie 2001, în care salariații au desfășurat activități, pe durata programului normal de lucru în fiecare lună, dintre cele prevăzute la art.28 alin.(1) lit.d) și f) - j) în locurile de muncă încadrate conform legislației anterioare în grupa I de muncă",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Pentru munca veche rămâne formula „în fiecare lună”",
+          "text": "La art. 133 alin. (4) textul păstrează „în fiecare lună”, spre deosebire de noul art. 55 alin. (3). Casele de pensii pot aplica diferit regula pentru perioadele de dinainte de 2001.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. 133 alin. (4)",
+          "before": null,
+          "after": "pe durata programului normal de lucru în fiecare lună",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Nu se spune clar dacă stagiul special se numără proporțional, pe zile sau ore",
+            "major": true,
+            "article": "art. 55 alin. (3)"
+          },
+          {
+            "text": "Nicio regulă pentru lunile lucrate din 1 septembrie 2024 până la intrarea în vigoare",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Nu se spune ce se întâmplă cu pensiile deja stabilite",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Criteriul trimite la acte specifice care lipsesc pentru multe locuri de muncă",
+            "major": false,
+            "article": "art. 55 alin. (3)"
+          },
+          {
+            "text": "Art. 133 păstrează „în fiecare lună”, nealiniat cu noul art. 55",
+            "major": false,
+            "article": "art. 133 alin. (4)"
+          },
+          {
+            "text": "Lipsește termenul pentru modificarea normelor din HG 181/2024, care repetă vechea regulă",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Costul pentru bugetul de pensii nu e estimat; lipsește fișa financiară",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Extinderea la perioadele dinainte de 2001 nu e motivată în expunerea de motive",
+            "major": false,
+            "article": "art. 133 alin. (4)"
+          }
+        ],
+        "good": [
+          {
+            "text": "O zi lucrată în condiții normale nu mai anulează toată luna",
+            "major": true,
+            "article": "art. 55 alin. (3)"
+          },
+          {
+            "text": "Relaxarea se aplică și perioadelor în grupa I dinainte de 1 aprilie 2001",
+            "major": true,
+            "article": "art. 133 alin. (4)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 7,
+        "removed": 5,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:23:38.170Z"
+    }
+  ]
+}

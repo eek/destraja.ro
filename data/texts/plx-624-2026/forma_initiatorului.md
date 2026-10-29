@@ -1,0 +1,39 @@
+# PARLAMENTUL ROMÂNIEI
+
+# CAMERA DEPUTAȚILOR
+
+SENAT
+
+Lege
+
+privind modificarea și completarea Legii nr. 287/2009 privind Codul civil, precum și pentru modificarea și completarea Legii nr. 134/2010 privind Codul de procedură civilă
+
+Parlamentul României adoptă prezenta lege.
+
+Art. I – Legea nr. 287/2009 privind Codul civil, republicată în Monitorul Oficial al României, Partea I, nr. 505 din 15 iulie 2011, cu modificările și completările ulterioare, se completează după cum urmează:
+
+1\. După articolul 2517 se introduce un nou articol, art. 2517¹, cu următorul cuprins: Art. 2517¹: Prescripția dreptului material la acțiune privind obligația de întreținere (1) Dreptul material la acțiune având ca obiect obligația de întreținere datorată copilului se prescrie în termen de 10 ani.
+
+(2) Termenul de prescripție nu începe să curgă, iar dacă a început să curgă se suspendă, pe durata minorității creditorului obligației de întreținere.
+
+(3) Dispozițiile alin. (1) și (2) se aplică și copilului major aflat în continuarea studiilor, până la finalizarea acestora, fără a depăși vârsta de 26 de ani, în condițiile legii.
+
+(4) Dispozițiile prezentului articol se aplică exclusiv obligațiilor de întreținere stabilite prin hotărâre judecătorească, convenție autentificată sau alt titlu executoriu, în condițiile legii.
+
+Art. II – Legea nr. 134/2010 privind Codul de procedură civilă, republicată în Monitorul Oficial al României, Partea I, nr. 247 din 10 aprilie 2015, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 706 după alineatul (1) se introduce un nou alineat, alin. (1¹), cu următorul cuprins:
+
+(1¹) În cazul obligațiilor de întreținere datorate copilului, dreptul de a obține executarea silită se prescrie în termenul prevăzut de lege pentru dreptul material la acțiune.
+
+Art. III
+
+(1) Dispozițiile prezentei legi se aplică prescripțiilor neîmplinite la data intrării sale în vigoare.
+
+(2) Prescripțiile împlinite anterior intrării în vigoare a prezentei legi rămân supuse dispozițiilor legale în vigoare la data împlinirii lor.
+
+(3) Termenele de prescripție aflate în curs la data intrării în vigoare a prezentei legi se supun dispozițiilor acesteia, fără ca durata totală a acestora să poată depăși termenul prevăzut de legea anterioară, dacă acesta este mai scurt.
+
+Art. IV
+
+Prezenta lege intră în vigoare la 30 de zile de la data publicării în Monitorul Oficial al României, Partea I.

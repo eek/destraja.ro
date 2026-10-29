@@ -1,0 +1,19 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+## pentru completarea Legii-cadru nr.153/2017 privind salarizarea personalului plătit din fonduri publice
+
+Senatul adoptă prezentul proiect de lege
+
+Articol unic.- După articolul 1 din anexa nr.I - FAMILIA OCUPAȚIONALĂ DE FUNCȚII BUGETARE „ÎNVĂȚĂMÂNT”, capitolul I litera B - Reglementări specifice personalului didactic din învățământ din Legea-cadru nr.153/2017 privind salarizarea personalului plătit din fonduri publice, publicată în Monitorul Oficial al României, Partea I, nr.492 din 28 iunie 2017, cu modificările și completările ulterioare, se introduce un nou articol, art.1¹, cu următorul cuprins:
+
+„Art.1¹.- În cadrul instituțiilor de învățământ superior de stat, funcția de auditor intern este inclusă în categoria personalului didactic auxiliar și beneficiază de prevederile aplicabile personalului didactic auxiliar, prevăzute în prezenta anexă.”
+
+Acest proiect de lege a fost adoptat de Senat, în ședința din 23 martie 2026, cu respectarea prevederilor articolului 76 alineatul (1) din Constituția României, republicată.
+
+## p. PREȘEDINTELE SENATULUI
+
+MIHAI COTEȚ,

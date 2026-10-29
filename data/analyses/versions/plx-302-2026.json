@@ -1,0 +1,249 @@
+{
+  "slug": "plx-302-2026",
+  "billId": "PL-x 302/2026",
+  "updatedAt": "2026-10-29T13:03:31.503Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L089FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Bere slabă pe stadioane, agenți de pază atestați și reguli noi pentru artificii",
+      "summaryTlDr": "În mare parte, proiectul modernizează rezonabil legea violenței pe stadioane: permite bere de până la 5% în afara tribunelor, artificii doar prin firme autorizate și cere personal de pază pregătit. Textul are însă scăpări serioase: consumul de alcool este monitorizat pe baza datelor din bilet, gradele de risc sunt procente fără reper, iar lojele VIP sunt scutite de limita de 5%.",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 6
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/300/00/2/se328.pdf",
+      "source": "cdep.ro",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Bere la stadion, artificii autorizate și CNP-ul pe fiecare bilet",
+      "summaryTlDr": "Pe fond este o modernizare utilă: bere slabă în zone delimitate, artificii legale făcute de firme autorizate și decizii motivate ale jandarmeriei. Capcana este CNP-ul fiecărui spectator, trimis jandarmeriei la orice meci. Se adaugă meciul fără spectatori dictat de un aviz pentru care jandarmeria nu are termen de răspuns.",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 7
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_riscant",
+      "headline": "Organizatorii vor colecta CNP-ul fiecărui spectator și îl vor trimite jandarmeriei",
+      "summary": "Acum organizatorul ia CNP-ul fiecărui spectator și îl trimite jandarmeriei, iar meciul se joacă fără public dacă planul de acțiune nu e aprobat. În schimb, au dispărut procentele neclare de risc, iar agenții calificați se cer abia după un an.",
+      "changes": [
+        {
+          "title": "CNP-ul fiecărui spectator ajunge la jandarmerie",
+          "text": "Acum organizatorul colectează numele, prenumele și CNP-ul pentru fiecare bilet și le trimite jandarmeriei pentru toți spectatorii, la orice meci. Inițial nu exista această obligație.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 10 alin. (2) lit. c¹ și h",
+          "before": null,
+          "after": "să transmită unității de jandarmi competente teritorial numele, prenumele și codul numeric personal al tuturor spectatorilor",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Meci fără spectatori dacă planul nu e aprobat",
+          "text": "Inițial, neregulile neremediate din planul de acțiune erau contravenție. Acum, dacă planul nu e aprobat, meciul se joacă fără public, iar organizatorul care nu respectă riscă 15.000-50.000 lei (art. 26).",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 5 alin. (5²), art. 10 alin. (1) lit. b¹",
+          "before": "În funcție de gravitatea neregulilor constatate, lipsa remedierii acestora constituie contravenție și se sancționează potrivit prezentei legi.",
+          "after": "În situația neaprobării planului de acțiune pentru lipsa remedierii neregulilor prevăzute la alin.(5¹), competiția sau jocul sportiv se va disputa fără participarea spectatorilor.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dispar procentele neclare pentru gradele de risc",
+          "text": "Inițial, gradele de risc erau procente (0%, 0-2%, 2-5%, 5%) fără bază de calcul și cu limite suprapuse. Acum se modifică doar alin. (2), iar grila procentuală a dispărut.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 7 alin. (1)",
+          "before": "d) competiții sau jocuri sportive cu grad ridicat de risc - 5%.",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Doar jandarmii mai pot cere schimbarea gradului de risc",
+          "text": "Inițial, oricine putea contesta gradul de risc, cu motivare în fapt și în drept. Acum doar jandarmeria poate cere modificarea, cu o simplă motivare. Cluburile și suporterii nu mai pot contesta.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 7 alin. (4¹)",
+          "before": "gradul de risc poate fi contestat și modificat, la solicitarea motivată în fapt și în drept a oricărui subiect de drept.",
+          "after": "gradul de risc poate fi modificat la solicitarea motivată a unității de jandarmi responsabilă teritorial.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Un an de tranziție pentru agenții de securitate",
+          "text": "Cerința de agenți calificați la meciurile cu risc mediu sau ridicat și cea de stewarzi la risc scăzut se aplică abia la un an de la intrarea în vigoare. Inițial nu exista o perioadă de tranziție.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. II",
+          "before": null,
+          "after": "referitoare la specializările de „agent de securitate competiții sportive” și „steward sportiv” devin aplicabile la un an de la data intrării în vigoare a prezentei legi.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Lojele trebuie verificate de comisia de siguranță",
+          "text": "Acum lojele trebuie să îndeplinească condiții de siguranță constatate de comisia de la art. 11. Dispare mențiunea «în cantități limitate», iar alcoolul din loje rămâne în condițiile organizatorului (art. 20 lit. c).",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 1 lit. n¹",
+          "before": "servirea de băuturi alcoolice, indiferent de concentrația alcoolică, în cantități limitate, stabilite de organizator, în condițiile legii;",
+          "after": "care îndeplinește condițiile de siguranță corespunzătoare, constatate de către comisia prevăzută la art.11",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "CNP-ul tuturor spectatorilor ajunge la jandarmerie, la orice meci, fără termen de păstrare",
+            "major": true,
+            "article": "art. 10 alin. (2) lit. c¹ și h"
+          },
+          {
+            "text": "Datele din bilete se dau oricărei instituții publice, fără scop sau termen",
+            "major": true,
+            "article": "art. 20¹ alin. (2)"
+          },
+          {
+            "text": "Orice amendă a organizatorului atrage suspendarea meciurilor cu spectatori 30-90 de zile",
+            "major": true,
+            "article": "art. 26 alin. (2)"
+          },
+          {
+            "text": "Jandarmeria nu are termen de verificare a planului, iar meciul poate fi fără public",
+            "major": true,
+            "article": "art. 5 alin. (5)–(5²)"
+          },
+          {
+            "text": "Doar jandarmeria cere schimbarea gradului de risc; organizatorii nu-l pot contesta",
+            "major": true,
+            "article": "art. 7 alin. (4¹)"
+          },
+          {
+            "text": "Criteriile de risc rămân în regulamentele federațiilor, nepublicate în Monitorul Oficial",
+            "major": true,
+            "article": "art. 7 alin. (2)"
+          },
+          {
+            "text": "Exclusiv agenți calificați la risc mediu sau ridicat, legătura cu Legea 333/2003 nelămurită",
+            "major": true,
+            "article": "art. 5 alin. (1²)"
+          },
+          {
+            "text": "În loje se permite orice alcool, în condițiile fixate de organizator",
+            "major": true,
+            "article": "art. 20 lit. c)"
+          },
+          {
+            "text": "Plata redusă e jumătate din amenda aplicată, nu din minimul legal",
+            "major": true,
+            "article": "art. 29¹"
+          },
+          {
+            "text": "Interdicțiile din alte state se aplică automat în România, fără contestare prevăzută",
+            "major": true,
+            "article": "art. 58 alin. (3)"
+          },
+          {
+            "text": "Nu se spune cum intră spectatorii străini, care nu au CNP",
+            "major": false,
+            "article": "art. 10 alin. (2) lit. c¹"
+          },
+          {
+            "text": "Registrul agenților nu stabilește ce date conține, cine le vede și cât timp",
+            "major": false,
+            "article": "art. 5 alin. (1³)"
+          },
+          {
+            "text": "Excepția pentru loje contrazice derogarea de 5,5% și interdicția cu vedere spre teren",
+            "major": false,
+            "article": "art. 20¹ alin. (1) și (3)"
+          },
+          {
+            "text": "Fapta de la art. 20 lit. t) are două amenzi diferite",
+            "major": false,
+            "article": "art. 22 lit. a) și b)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Se pot vinde băuturi de până la 5,5% alcool în spații delimitate",
+            "major": true,
+            "article": "art. 20 lit. c), art. 20¹ alin. (1)"
+          },
+          {
+            "text": "Neregulile din planul de acțiune trebuie motivate în fapt și în drept",
+            "major": false,
+            "article": "art. 5 alin. (5¹)"
+          },
+          {
+            "text": "Cerințele noi pentru agenți și stewarzi se aplică abia după un an",
+            "major": false,
+            "article": "art. II"
+          },
+          {
+            "text": "La meciurile cu risc scăzut organizatorul poate folosi stewarzi proprii",
+            "major": false,
+            "article": "art. 5 alin. (2)"
+          },
+          {
+            "text": "Lojele trebuie să treacă verificarea de siguranță a comisiei de la art. 11",
+            "major": false,
+            "article": "art. 1 lit. n¹"
+          },
+          {
+            "text": "Sectoarele de siguranță pot ocupa cel mult 5% din capacitatea arenei",
+            "major": false,
+            "article": "art. 10 alin. (2) lit. f¹"
+          },
+          {
+            "text": "Alcoolul se vinde doar de la o oră înainte până la fluierul final",
+            "major": false,
+            "article": "art. 20³"
+          },
+          {
+            "text": "Interdicții clare pentru minori și persoane în stare de ebrietate, cu mesaje afișate",
+            "major": false,
+            "article": "art. 20²"
+          },
+          {
+            "text": "Băuturile se servesc doar în pahare de hârtie sau plastic, fără sticlă",
+            "major": false,
+            "article": "art. 20⁴"
+          },
+          {
+            "text": "Focurile de artificii cer firmă autorizată, aviz de poliție și zonă interzisă minorilor",
+            "major": false,
+            "article": "art. 10¹"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 105,
+        "removed": 105,
+        "same": 0.13
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:03:31.503Z"
+    }
+  ]
+}

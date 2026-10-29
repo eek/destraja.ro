@@ -1,0 +1,249 @@
+{
+  "slug": "plx-300-2026",
+  "billId": "PL-x 300/2026",
+  "updatedAt": "2026-10-29T13:02:52.364Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L167FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Site-urile și aplicațiile statului, construite după același model și accesibile tuturor",
+      "summaryTlDr": "Lege utilă și benignă: preia modelul GOV.UK, DSFR și USWDS și dă statului un set comun și gratuit de componente pentru site-uri și aplicații accesibile. Problemele sunt de redactare: trimiteri greșite, un termen de 24 de luni care curge înainte să existe standardul și amenzi personale pe șefii instituțiilor pentru costuri nefinanțate.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/300/00/0/se323.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Un design unic și accesibil pentru toate site-urile și aplicațiile statului",
+      "summaryTlDr": "Lege utilă, după modelul GOV.UK sau al francezului DSFR: un set comun și deschis de componente care poate face serviciile online ale statului mai simple, mai accesibile și mai ieftin de construit. Forma Senatului are însă trei probleme: scăpări de redactare, un drept de reclamație care depinde de bunul plac al instituției și un termen fix în 2028 greu de ținut.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_riscant",
+      "headline": "Remedierea problemelor semnalate de cetățeni devine la latitudinea instituției, fără termen",
+      "summary": "Acum instituțiile repară problemele semnalate de cetățeni doar dacă le consideră potrivite principiilor legii, fără termen și fără amendă; plângerea la instituția superioară dispare. În schimb, legea acoperă toate organismele publice, cu termen fix 1 ianuarie 2028 și rapoarte anuale.",
+      "changes": [
+        {
+          "title": "Sesizările cetățenilor: fără termen, remediere la latitudinea instituției",
+          "text": "Art. 5: dispar termenul de 30 de zile și plângerea la instituția superioară; remedierea se face doar dacă instituția consideră sesizarea conformă principiilor de la art. 3.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 5 alin. (2)",
+          "before": "Entitățile publice au obligația de a analiza și de a răspunde semnalărilor prevăzute la alin. (1), în termen de 30 de zile. În acest termen, entitățile publice dispun măsuri de remediere pentru a asigura accesibilitatea și funcționalitățile interfeței digitale publice.",
+          "after": "Organismele din sectorul public verifică, de îndată, neconformitățile sesizate și dispun măsuri de remediere pentru a asigura accesibilitatea și funcționalitățile interfeței digitale publice, dacă consideră că acestea se aliniază principiilor prevăzute la art.3.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Amenzi pentru instituții, nu șefi, pe mai puține fapte",
+          "text": "Art. 10 alin. (1): amenda, acum 7.500–10.000 lei, se aplică instituției, nu conducătorului, și doar pentru art. 4; ignorarea sesizărilor și achizițiile fără cerințe SUDD nu mai sunt sancționate.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 10 alin. (1)",
+          "before": "Constituie contravenție și se sancționează cu amendă de la 5.000 lei la 10.000 lei, nerespectarea de către conducătorii entităților publice a dispozițiilor art. 4 alin. (3) și (4), art. 5 alin. (1) și (2), art. 8.",
+          "after": "Constituie contravenție și se sancționează cu amendă de la 7.500 lei la 10.000 lei, nerespectarea de către organismele din sectorul public a dispozițiilor art.4 alin.(3) și (4).",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Legea se aplică tuturor organismelor din sectorul public",
+          "text": "Art. 1 alin. (2) și art. 2 lit. e): legea vizează toate organismele din sectorul public, inclusiv organisme de drept public și asociațiile lor; trimiterile greșite din art. 4 sunt corectate.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 1 alin. (2)",
+          "before": "Prezenta lege se aplică autorităților și instituțiilor publice centrale, entităților publice aflate în subordonarea, coordonarea sau sub autoritatea acestora, care dezvoltă, administrează ori operează servicii publice digitale.",
+          "after": "Prezenta lege se aplică tuturor organismelor din sectorul public care dezvoltă, administrează ori operează servicii publice digitale.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Scutiri temporare de până la 12 luni",
+          "text": "Art. 4 alin. (5)-(6): ADR poate scuti temporar, cel mult 12 luni, servicii de securitate sau cu date sensibile, sisteme în migrare ori cazuri cu constrângeri tehnice majore; scutirile se publică.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 4 alin. (5)",
+          "before": null,
+          "after": "Autoritatea pentru Digitalizarea României poate acorda, la cererea motivată a organismului din sectorul public, o derogare temporară de maximum 12 luni de la obligațiile de conformitate SUDD",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Sprijin promis pentru primării și raport public anual",
+          "text": "Art. 6 alin. (2) lit. f)-i): ADR sprijină financiar și tehnic primăriile, publică raport anual de conformitate pe județe și susține formarea gratuită a personalului; nu e stabilită nicio sumă.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 6 alin. (2) lit. h)",
+          "before": null,
+          "after": "asigură mecanisme concrete de sprijin financiar și tehnic pentru autoritățile administrației publice locale",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Termen fix: servicii existente conforme până în 2028",
+          "text": "Art. 4 alin. (4): serviciile existente trebuie aliniate până la 1 ianuarie 2028, nu în 24 de luni; cu legea încă la comisii, timpul real poate scădea sub un an.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 4 alin. (4)",
+          "before": "în termen de 24 de luni de la data intrării în vigoare a prezentei legi, acestea să fie conforme dispozițiilor legale și normelor metodologice de aplicare legii.",
+          "after": "până la data de 1 ianuarie 2028, acestea să fie conforme dispozițiilor legale și normelor metodologice de aplicare a legii.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Remedierea sesizărilor e la latitudinea instituției, fără termen de răspuns",
+            "major": true,
+            "article": "art. 5 alin. (2)"
+          },
+          {
+            "text": "Nicio amendă și nicio escaladare dacă instituția ignoră sesizarea cetățeanului",
+            "major": true,
+            "article": "art. 5, art. 10 alin. (1)"
+          },
+          {
+            "text": "Amenda o plătește instituția din bani publici, nu conducătorul responsabil",
+            "major": true,
+            "article": "art. 10 alin. (1)"
+          },
+          {
+            "text": "Obligațiile amendabile depind de norme și cerințe SUDD încă neadoptate",
+            "major": true,
+            "article": "art. 2 lit. i), art. 4"
+          },
+          {
+            "text": "Neclar dacă primăriile pot fi amendate din 2028, înaintea calendarului din HG",
+            "major": true,
+            "article": "art. 1 alin. (3), art. 4 alin. (4)"
+          },
+          {
+            "text": "Costurile primăriilor puse „de la bugetul de stat”, deși au bugete proprii",
+            "major": true,
+            "article": "art. 9 alin. (2)"
+          },
+          {
+            "text": "Sprijinul financiar promis nu e cuantificat; nu există nicio estimare de cost",
+            "major": true,
+            "article": "art. 6 alin. (2) lit. h)"
+          },
+          {
+            "text": "Termenul fix 1 ianuarie 2028 poate lăsa sub un an pentru conformare",
+            "major": false,
+            "article": "art. 4 alin. (4)"
+          },
+          {
+            "text": "ADR constată și amendează, deși este ea însăși organism vizat de lege",
+            "major": false,
+            "article": "art. 10 alin. (2)"
+          },
+          {
+            "text": "Feedback-ul se suprapune cu cel din OUG 112/2018, fără regulă de prioritate",
+            "major": false,
+            "article": "art. 5, art. 1 alin. (4)"
+          },
+          {
+            "text": "Derogarea pentru „constrângeri tehnice majore” nu are criterii, deci e largă",
+            "major": false,
+            "article": "art. 4 alin. (5) lit. c)"
+          },
+          {
+            "text": "Definiția SUDD e trunchiată („cu titlu”), gratuitatea nu mai e explicită",
+            "major": false,
+            "article": "art. 2 lit. f)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Legea vizează toate organismele din sectorul public, cu definiție clară",
+            "major": true,
+            "article": "art. 1 alin. (2), art. 2 lit. e)"
+          },
+          {
+            "text": "Utilizatorii au dreptul la canale digitale accesibile și la mecanism de sesizare",
+            "major": true,
+            "article": "art. 5 alin. (1)"
+          },
+          {
+            "text": "Achizițiile de servicii digitale publice trebuie să ceară conformitate cu SUDD",
+            "major": true,
+            "article": "art. 8"
+          },
+          {
+            "text": "Proiectele digitale noi trebuie concepute conform SUDD încă de la început",
+            "major": true,
+            "article": "art. 4 alin. (3)"
+          },
+          {
+            "text": "ADR trebuie să sprijine financiar și tehnic primăriile și formarea gratuită",
+            "major": true,
+            "article": "art. 6 alin. (2) lit. h)-i)"
+          },
+          {
+            "text": "Trimiterile greșite din art. 4 au fost corectate, obligațiile sunt aplicabile",
+            "major": false,
+            "article": "art. 4 alin. (1), (4)"
+          },
+          {
+            "text": "Raport public anual de conformitate, pe județe, cu servicii neconforme",
+            "major": false,
+            "article": "art. 6 alin. (2) lit. f)"
+          },
+          {
+            "text": "SUDD devine resursă open-source integrală, deschisă contribuțiilor controlate",
+            "major": false,
+            "article": "art. 6 alin. (2) lit. g)"
+          },
+          {
+            "text": "Derogările sunt limitate la 12 luni și publicate de ADR",
+            "major": false,
+            "article": "art. 4 alin. (5)-(6)"
+          },
+          {
+            "text": "Raport independent de impact, cu costuri reale, după 36 de luni",
+            "major": false,
+            "article": "art. 11 alin. (4)"
+          },
+          {
+            "text": "Principii clare: accesibilitate, limbaj simplu, protecția datelor, standarde deschise",
+            "major": false,
+            "article": "art. 3"
+          },
+          {
+            "text": "Aplicarea respectă explicit OUG 112/2018 privind accesibilitatea site-urilor publice",
+            "major": false,
+            "article": "art. 1 alin. (4)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 55,
+        "removed": 54,
+        "same": 0.23
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:02:52.364Z"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "slug": "plx-65-2026",
+  "billId": "PL-x 65/2026",
+  "updatedAt": "2026-10-29T12:30:47.353Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L644FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Centralele pe cărbune primesc un nou calendar de închidere, negociat cu Bruxelles-ul",
+      "summaryTlDr": "Este o ajustare în mare parte tehnică, negociată cu Comisia Europeană. Evită penalități PNRR și păstrează termoficarea la Craiova și Râmnicu Vâlcea. Capcana e alta: Guvernul își rezervă dreptul să mute prin simplă HG termenele pentru centralele pe gaz și pentru ecologizarea minelor, fără plafon și fără condiția acordului Comisiei.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/60/5/se58.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Închiderea centralelor pe cărbune, reprogramată după renegocierea PNRR cu Comisia Europeană",
+      "summaryTlDr": "Ordonanța este în principal tehnică și are justificare: pune în lege calendarul de închidere a centralelor pe cărbune renegociat cu Comisia Europeană și ține în funcțiune grupuri necesare iarna și pentru termoficare. Problemele reale sunt două: Guvernul primește un cec în alb ca să mute termene prin simplă hotărâre, iar sancțiunea este redactată defectuos.",
+      "scores": {
+        "agy": 3,
+        "claude": 4,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat OUG 88/2025 fără modificări de fond; a corectat doar numărul greșit (80 în 88)",
+      "summary": "Acum, ca și inițial, legea aprobă ordonanța fără modificări, deci regulile de retragere a capacităților energetice rămân aceleași. Senatul a corectat doar numărul greșit al ordonanței (80 în loc de 88) și a adăugat data publicării în Monitorul Oficial.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Acordul Ministerului Energiei nu are criterii sau termen; ministerul e acționar la CE Oltenia",
+            "major": true,
+            "article": "art. 4 alin. (1¹)"
+          },
+          {
+            "text": "Interdicția de a crește din nou puterea din licență vizează doar etapa 2025",
+            "major": true,
+            "article": "art. 1 alin. (4)"
+          },
+          {
+            "text": "Reducerea puterii din licență contează ca închidere; grupul poate funcționa în continuare",
+            "major": true,
+            "article": "art. 1 alin. (3), art. 4 alin. (1¹)"
+          },
+          {
+            "text": "HG poate muta termenele noilor centrale și închiderii minelor, fără limită sau acord UE",
+            "major": false,
+            "article": "art. 4 alin. (9¹), art. 6 alin. (1¹)"
+          },
+          {
+            "text": "Neclar dacă hotărârea de Guvern poate trece de termenul final 31.12.2032",
+            "major": false,
+            "article": "art. 3 alin. (1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Ținta totală de 4.920 MW rămâne; calendarul e decalat, nu abandonat",
+            "major": true,
+            "article": "art. 3 alin. (3), art. 4 alin. (1)"
+          },
+          {
+            "text": "Pentru etapa 2025, ANRE nu poate majora ulterior puterea din licență",
+            "major": true,
+            "article": "art. 1 alin. (4)"
+          },
+          {
+            "text": "Articolul unic numește corect OUG 88/2025 și publicarea în Monitorul Oficial",
+            "major": false,
+            "article": "art. unic"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:30:47.353Z"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+# Parlamentul României
+
+Camera Deputaților
+
+Senat
+
+## LEGE
+
+pentru modificarea Legii nr. 227/2018 privind susținerea activității în sectorul avicol
+
+Parlamentul României adoptă prezenta lege:
+
+Art. I – Legea nr. 227/2018 privind susținerea activității în sectorul avicol, publicată în Monitorul Oficial al României, nr. 678 din 3 august 2018, se modifică și se completează și va avea următorul cuprins:
+
+## La articolul 2, alineatul (1) se modifică după cum urmează:
+
+„(1) Scopul prezentei legi îl reprezintă instituirea unei scheme de ajutor de stat, având ca obiectiv implementarea Programului de susținere pentru activitatea de reproducție, incubație și de creștere în sectorul avicol, în vederea îmbunătățirii nivelului de performanță și sustenabilitate al fermelor de reproducție sau de creștere a păsărilor, precum și de creștere a nivelului de bunăstare al păsărilor.”
+
+La articolul 3, după litera „r)” se introduc două noi litere, „s¹)” și „§¹)”, cu următorul cuprins:
+
+„s¹) sistem alternativ de creștere - orice sistem de creștere a păsărilor care nu implică utilizarea cuștilor, cum ar fi sistemele la sol, creșterea în aer liber sau ecologice;
+
+§¹) bunăstare animală - starea fizică și mentală a unui animal în raport cu condițiile în care trăiește și moare".
+
+La articolul 4, alineatul (4) literele (i), (ii) și (iii) se modifică și vor avea următorul cuprins:
+
+(i) găini ouă consum 200.000 de locuri de cazare/producție, fără utilizarea cuștilor;
+
+(ii) pui de găină pentru carne 350.000 de locuri de cazare/producție, fără utilizarea cuștilor;
+
+(iii) pui de curcă pentru carne 150.000 de locuri de cazare/producție, fără utilizarea cuștilor.”
+
+La articolul 5, după litera „b)” se introduce o nouă literă, „c)”, și va avea următorul cuprins:
+
+„c) utilizează sau intenționează să utilizeze cuști pentru creșterea păsărilor ouătoare în cadrul fermelor de reproducție sau de creștere pentru ouă de consum.”
+
+La articolul 6 alineatul (1), se modifică litera b) și va avea următorul cuprins:
+
+„b) achiziționarea sau achiziționarea prin leasing de utilaje și echipamente, respectiv echipamentele pentru furajare și adăpare, microclimat, depozitarea, evacuarea și tratarea dejecțiilor, precum și echipamente specifice sistemelor de creștere fără cuști, care cresc bunăstarea păsărilor;”
+
+După articolul 6, se introduce un nou articol, articolul 6¹, și va avea următorul cuprins: „Articolul 6¹
+
+(1) Se interzice utilizarea fondurilor pentru achiziționarea de noi cuști pentru creșterea păsărilor ouătoare sau pentru mentenanța cuștilor îmbunătățite existente.
+
+(2) În termen de maximum 6 ani de la intrarea în vigoare a prezentei legi, fermele de păsări ouătoare vor finaliza tranziția completă la sisteme de creștere fără cuști.
+
+La articolul 15, după alin. (3) se introduce un nou alineat, alin. (4), și va avea următorul cuprins:
+
+„(4) Beneficiarii se angajează să mențină standarde înalte de bunăstare pentru păsările ouătoare pe toată perioada de funcționare a investiției.”
+
+La Anexa nr. 1, după litera c) se adaugă litera d) și va avea următorul cuprins: ,,d) Să implementez următoarele măsuri de bunăstare pentru păsările ouătoare:
+
+La Anexa nr. 3, după litera c) se adaugă litera d) și va avea următorul cuprins:
+
+„d) Să implementez următoarele măsuri de bunăstare pentru păsările ouătoare”.
+
+Președintele Camerei Deputaților
+
+Sorin-Mihai GRINDEANU
+
+Președintele Senatului
+
+Mircea ABRUDEAN

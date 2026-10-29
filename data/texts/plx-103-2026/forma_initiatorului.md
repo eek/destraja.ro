@@ -1,0 +1,29 @@
+LEGE
+
+# pentru modificarea și completarea Legii nr. 333/2003 privind paza obiectivelor, bunurilor, valorilor și protecția persoanelor
+
+Parlamentul României adoptă prezenta lege.
+
+Articol unic. - Legea nr. 333/2003 privind paza obiectivelor, bunurilor, valorilor și protecția persoanelor, publicată în Monitorul Oficial al României, Partea I, nr. 525 din 22 iulie 2003, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La capitolul II, secțiunea 1, articolul 6, alineatul (1) se modifică și se completează, având următorul cuprins:
+
+"(1) Paza obiectivelor de importanță deosebită pentru apărarea țării, activitatea statului, economie, sănătate, știință, cultură și artă, ale unor instituții din domeniul financiar-bancar, a obiectivelor diplomatice, precum și a transporturilor valorilor deosebite sau speciale se asigură cu effective de jandarmi."
+
+2\. La capitolul II, secțiunea 1, articolul 6, după alineatul (3), se introduce un nou alineat, alin. (3¹) cu următorul cuprins:
+
+“(31) În cadrul spitalelor de urgență, unitățile de primiri urgențe (UPU) și compartimentele de primiri urgențe (CPU) pot beneficia, la cerere, de pază cu effective de jandarmi, contra cost, stabilită prin hotărâre a Guvernului.”
+
+Această lege a fost adoptată de Parlamentul României, în condițiile art.77 alin. (2), cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.
+
+PREȘEDINTELE
+
+PREȘEDINTELE
+
+CAMEREI DEPUTAȚILOR
+
+SENATULUI
+
+SORIN-MIHAI GRINDEANU
+
+MIRCEA ABRUDEAN

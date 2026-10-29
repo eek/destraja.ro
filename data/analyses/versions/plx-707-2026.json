@@ -1,0 +1,102 @@
+{
+  "slug": "plx-707-2026",
+  "billId": "PL-x 707/2026",
+  "updatedAt": "2026-10-29T13:31:58.804Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L529FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Avans de 5% în „Noua casă” pentru tinerii sub 35 de ani și la creditele de peste 70.000 EUR",
+      "summaryTlDr": "Măsură socială țintită, scurtă și în esență benefică: tinerii sub 35 de ani ar putea lua și credite între 70.001 și 140.000 EUR cu doar 5% avans, în loc de 15%. Riscurile nu sunt capcane juridice, ci efecte economice nemăsurate de inițiatori: credite mai mari pe garanția statului, un plafon anual consumat mai repede și presiune pe prețuri.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/700/00/7/se800.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Avans de 5% la „Noua casă” pentru tinerii sub 35 de ani, și la creditele mai mari",
+      "summaryTlDr": "Lege scurtă și utilă: tinerii sub 35 de ani ar putea da avans de 5% în loc de 15% și pentru finanțările „Noua casă” între 70.001 și 140.000 EUR. Riscurile sunt mici, dar reale: credite mai mari pe același plafon de garanții consumă plafonul mai repede, iar textul nu spune ce se întâmplă cu cuplurile în care doar un soț are sub 35 de ani.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Textul de fond nu s-a schimbat: tinerii sub 35 de ani pot plăti avans de 5% la Noua casă",
+      "summary": "Senatul a păstrat neschimbată prevederea de fond: tinerii sub 35 de ani pot opta pentru un avans de 5% la creditele Noua casă de 70.001–140.000 EUR. S-au schimbat doar titlul și formulele de introducere și de adoptare, deci riscul rămâne același.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Neclar ce se întâmplă la cumpărarea cu soțul/soția sau codebitori peste 35 de ani",
+            "major": true,
+            "article": "art. unic, lit. c)"
+          },
+          {
+            "text": "Plafonul de 500 mil. lei se poate epuiza mai repede, în dauna altor solicitanți",
+            "major": true,
+            "article": "art. unic, lit. c)"
+          },
+          {
+            "text": "Fără dispoziții tranzitorii și termen pentru normele HG 717/2009; aplicarea depinde de Guvern",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Băncile nu sunt obligate să acorde creditul cu avans de 5%",
+            "major": false,
+            "article": "art. unic, lit. c)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Avans minim de 5% în loc de 15% pentru tinerii sub 35 de ani",
+            "major": true,
+            "article": "art. unic, lit. c)"
+          },
+          {
+            "text": "Doar palierul 70.001–140.000 EUR se schimbă; restul condițiilor programului rămân neschimbate",
+            "major": false,
+            "article": "art. unic, lit. c)"
+          },
+          {
+            "text": "Vârsta se verifică la promisiunea de vânzare, criteriu clar, aliniat Legii 350/2006",
+            "major": false,
+            "article": "art. unic, lit. c)"
+          },
+          {
+            "text": "Avansul redus e opțiunea beneficiarului, nu o obligație",
+            "major": false,
+            "article": "art. unic, lit. c)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 5,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:28:11.440Z"
+    }
+  ]
+}

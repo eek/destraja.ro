@@ -1,0 +1,122 @@
+{
+  "slug": "plx-306-2026",
+  "billId": "PL-x 306/2026",
+  "updatedAt": "2026-10-29T13:03:31.508Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L148FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Șomaj: mai mult sprijin pentru tinerii sub 30 de ani, victimele violenței și grupurile vulnerabile",
+      "summaryTlDr": "Ordonanța e în mare parte tehnică și utilă. Lărgește sprijinul pentru tineri, victimele violenței domestice și grupurile vulnerabile și dă 180 de zile fără penalități pentru returnarea indemnizației primite greșit. Are însă erori de redactare, între care o trimitere care pare să pună destituirea disciplinară printre motivele neimputabile, și scade discret plafonul asigurării facultative.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/300/00/6/se333.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Legea șomajului: sprijin mai rapid pentru tinerii sub 30 de ani și pentru victime, reguli noi la recuperarea banilor",
+      "summaryTlDr": "OUG preponderent tehnică și, pe ansamblu, favorabilă: extinde sprijinul pentru tineri și pentru victimele violenței domestice și elimină o formalitate inutilă. Capcanele sunt mici, dar reale: plafon redus pentru asigurații facultativi, accesorii retroactive după ziua 180 și o redactare neglijentă.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat OUG 11/2026 fără modificări; diferențele față de forma inițială sunt doar de formă",
+      "summary": "Senatul a aprobat ordonanța așa cum a dat-o Guvernul, fără amendamente. S-au schimbat doar formula de adoptare, numărul corectat în titlu și trimiterea la Monitorul Oficial. Riscurile și avantajele rămân aceleași.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Plafonul asigurării facultative scade la 5 salarii minime: indemnizații viitoare mai mici",
+            "major": true,
+            "article": "art. I pct. 4 (art. 22 alin. 2)"
+          },
+          {
+            "text": "După 180 de zile, accesoriile se calculează retroactiv și pentru perioada de grație",
+            "major": true,
+            "article": "art. I pct. 6 (art. 47 alin. 4–5)"
+          },
+          {
+            "text": "Nu tratează separat plățile necuvenite cauzate de eroarea agenției",
+            "major": true,
+            "article": "art. I pct. 6 (art. 47 alin. 4–5)"
+          },
+          {
+            "text": "Ordinul de protecție provizoriu emis de poliție nu e menționat explicit",
+            "major": true,
+            "article": "art. I pct. 3 (art. 16 lit. g)"
+          },
+          {
+            "text": "Nu reglementează plățile parțiale sau eșalonate în termenul de 180 de zile",
+            "major": false,
+            "article": "art. I pct. 6 (art. 47 alin. 4–5)"
+          },
+          {
+            "text": "Neclar ce se aplică deciziilor comunicate înainte de intrarea în vigoare",
+            "major": false,
+            "article": "art. I pct. 6 (art. 47 alin. 4–5)"
+          },
+          {
+            "text": "Eroare de redactare: „echivalentul a de 5 ori”",
+            "major": false,
+            "article": "art. I pct. 4 (art. 22 alin. 2)"
+          },
+          {
+            "text": "La tineri scrie „pe o perioadă de 6 luni”, nu „mai mare de”",
+            "major": false,
+            "article": "art. I pct. 1 (art. 5 pct. IV²)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Victimele violenței domestice rămân protejate încă 12 luni după expirarea ordinului",
+            "major": true,
+            "article": "art. I pct. 3 (art. 16 lit. g)"
+          },
+          {
+            "text": "Pragul de vârstă urcă la 30 de ani: angajatorii tinerilor accesează mai devreme subvenții",
+            "major": true,
+            "article": "art. I pct. 1 (art. 5 pct. IV²)"
+          },
+          {
+            "text": "Indemnizația încasată necuvenit se poate returna fără accesorii în 180 de zile",
+            "major": true,
+            "article": "art. I pct. 6 (art. 47 alin. 4)"
+          },
+          {
+            "text": "Pragul de 30 de ani se aliniază cu Garanția pentru tineret",
+            "major": false,
+            "article": "art. I pct. 1 (art. 5 pct. IV²)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:01:42.114Z"
+    }
+  ]
+}

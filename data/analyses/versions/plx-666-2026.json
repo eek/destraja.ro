@@ -1,0 +1,122 @@
+{
+  "slug": "plx-666-2026",
+  "billId": "PL-x 666/2026",
+  "updatedAt": "2026-10-29T13:12:21.092Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L392FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Bugetarii care ies la pensie și pensionarii își primesc mai repede banii câștigați în instanță",
+      "summaryTlDr": "Lege în favoarea oamenilor: bugetarii care ies la pensie și pensionarii nu mai așteaptă ani de zile banii câștigați definitiv în instanță. Scopul e legitim, dar textul e scris în grabă. Termenele sunt ambigue, lipsește sursa de finanțare și nu există nicio consecință dacă statul nu plătește la timp.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/600/60/6/se757.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Pensionarii care au câștigat procese salariale cu statul să-și primească banii mai repede",
+      "summaryTlDr": "Ideea e corectă și îi ajută pe oamenii care au câștigat în instanță, dar textul e scris neglijent. Un termen depinde de data aleasă de salariat, iar celălalt poate fi deja expirat când intră legea în vigoare. Lipsa unei estimări de cost o expune respingerii sau unei contestații la CCR.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat tacit textul inițiatorului, fără nicio schimbare de fond",
+      "summary": "Textul adoptat de Senat e identic cu cel inițial: proiectul a trecut tacit, fără vot și fără amendamente. Rămân toate problemele: termene de plată neclare sau deja expirate, pensionarii caselor sectoriale lăsați deoparte, nicio sursă de finanțare.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "6 luni de la pronunțare: termene deja expirate, datorii scadente imediat, fără buget",
+            "major": true,
+            "article": "art. XXIII alin. (1¹) lit. b)"
+          },
+          {
+            "text": "Trimiterea la casa teritorială exclude pensionarii caselor sectoriale (MApN, MAI, SRI)",
+            "major": true,
+            "article": "art. XXIII alin. (1¹) lit. a)"
+          },
+          {
+            "text": "„Condițiile de pensionare” nedefinite: nu se spune ce tip de pensie, nici cine atestă",
+            "major": true,
+            "article": "art. XXIII alin. (1¹)"
+          },
+          {
+            "text": "Lipsesc fișa financiară și sursa de finanțare; impactul bugetar nu e cuantificat",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Acoperă doar hotărârile devenite executorii în 2026, ca alin. (1)",
+            "major": true,
+            "article": "art. XXIII alin. (1¹)"
+          },
+          {
+            "text": "Nu reglementează plata către moștenitorii unui beneficiar decedat",
+            "major": true,
+            "article": "art. XXIII alin. (1¹)"
+          },
+          {
+            "text": "Plata înainte de dosarul de pensionare: termen ales de salariat, uneori deja depășit",
+            "major": false,
+            "article": "art. XXIII alin. (1¹) lit. a)"
+          },
+          {
+            "text": "Punctul de vedere al Guvernului nu apare în datele disponibile",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Adoptat tacit de Senat, fără vot și fără corectarea problemelor",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Cei care îndeplinesc condițiile de pensionare primesc restanțele înainte de dosarul de pensie",
+            "major": true,
+            "article": "art. XXIII alin. (1¹) lit. a)"
+          },
+          {
+            "text": "Pensionarii primesc integral drepturile din hotărâri în cel mult 6 luni",
+            "major": true,
+            "article": "art. XXIII alin. (1¹) lit. b)"
+          },
+          {
+            "text": "Sume deja datorate, grup restrâns: impact bugetar probabil moderat",
+            "major": false,
+            "article": null
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 4,
+        "same": 0.2
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:12:08.007Z"
+    }
+  ]
+}

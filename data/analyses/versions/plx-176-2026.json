@@ -1,0 +1,137 @@
+{
+  "slug": "plx-176-2026",
+  "billId": "PL-x 176/2026",
+  "updatedAt": "2026-10-29T12:45:23.654Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L542FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Toate taxele bucureștenilor intră la Primăria Generală, iar CGMB le împarte sectoarelor",
+      "summaryTlDr": "Legea nu crește nicio taxă pentru bucureșteni. Mută circa 9 miliarde lei din bugetele sectoarelor în bugetul Capitalei și lasă CGMB să decidă împărțirea. Ideea are legitimitate democratică, dar textul nu prevede o tranziție, un termen de virare sau o soluție de rezervă dacă CGMB se blochează.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/70/6/se189.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Taxele locale ale bucureștenilor merg la Primăria Generală, care împarte apoi banii sectoarelor",
+      "summaryTlDr": "Reforma are legitimitate democratică reală, prin referendumul din 2024, și nu introduce nicio taxă nouă pentru bucureșteni. Problemele țin de execuție: textul mută toți banii la bugetul municipiului, dar lasă neclar cine controlează și execută creanțele, în ce termen se virează banii și de la ce dată se aplică.",
+      "scores": {
+        "agy": 4,
+        "claude": 5,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul l-a adoptat tacit, în forma inițiatorului: nicio schimbare de fond",
+      "summary": "Senatul nu a votat proiectul, ci l-a adoptat tacit în forma inițiatorului. Diferențele sunt doar de redactare (ghilimele, spații, m², o greșeală de tipar corectată), deci riscurile și beneficiile au rămas aceleași.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Statul cedează Bucureștiului 100% din impozitul pe venit, fără compensare prevăzută",
+            "major": true,
+            "article": "art. V (Legea 273/2006, art. 32 alin. 3)"
+          },
+          {
+            "text": "Banii sectoarelor depind de hotărâri CGMB, după criterii vagi, fără ponderi",
+            "major": true,
+            "article": "art. V (Legea 273/2006, art. 32 alin. 4 și art. 32³)"
+          },
+          {
+            "text": "Neclar cine stabilește, controlează și execută silit taxele; contestațiile se complică",
+            "major": true,
+            "article": "art. I pct. 10 (art. 490 alin. 2 Cod fiscal)"
+          },
+          {
+            "text": "Excepții circulare la amenzile firmelor și taxele de timbru: neclar ce rămâne statului",
+            "major": true,
+            "article": "art. III (OG 2/2001, art. 8 alin. 3) și art. IV (OUG 80/2013, art. 40 alin. 1¹)"
+          },
+          {
+            "text": "Sectoarele virează banii fără termen, procedură sau sancțiune pentru întârziere",
+            "major": false,
+            "article": "art. I pct. 10 (art. 490 alin. 2 Cod fiscal)"
+          },
+          {
+            "text": "Sectoarele colectează pentru municipiu fără să li se acopere costul colectării",
+            "major": false,
+            "article": "art. I pct. 10 (art. 490 alin. 2 Cod fiscal)"
+          },
+          {
+            "text": "Lipsesc prevederi tranzitorii pentru bugetele, debitele și litigiile în curs",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Adoptat tacit de Senat, fără vot și fără nicio corectură",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Nivelul impozitelor și taxelor locale nu crește; nicio taxă nouă pentru contribuabili",
+            "major": true,
+            "article": "art. I (art. 455, 463, 468, 477, 478, 480, 488 Cod fiscal)"
+          },
+          {
+            "text": "Taxe unice în tot Bucureștiul pentru HoReCa, reclamă și autorizații sanitare",
+            "major": true,
+            "article": "art. I pct. 4, 5, 8 (art. 475, 477, 486 Cod fiscal)"
+          },
+          {
+            "text": "Transpune rezultatul referendumului local din 24 noiembrie 2024",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Criteriile de repartizare includ populația, suprafața și gradul de colectare",
+            "major": false,
+            "article": "art. V (Legea 273/2006, art. 32³)"
+          },
+          {
+            "text": "Municipiul primește lunar impozitul pe venit, până pe 8 ale lunii",
+            "major": false,
+            "article": "art. V (Legea 273/2006, art. 32 alin. 3)"
+          },
+          {
+            "text": "Guvernul are 30 de zile să actualizeze normele de aplicare",
+            "major": false,
+            "article": "art. II"
+          },
+          {
+            "text": "Impozitul pe vehiculele grele rămâne destinat exclusiv drumurilor",
+            "major": false,
+            "article": "art. I pct. 11 (art. 494 alin. 5 Cod fiscal)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 59,
+        "removed": 39,
+        "same": 0.37
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:44:14.353Z"
+    }
+  ]
+}

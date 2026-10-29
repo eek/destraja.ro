@@ -1,0 +1,127 @@
+{
+  "slug": "plx-366-2026",
+  "billId": "PL-x 366/2026",
+  "updatedAt": "2026-10-29T12:27:15.189Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L217FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Acciză mai mică la motorină, taxă pe petrolul extras în România și o singură scumpire pe zi la pompă",
+      "summaryTlDr": "Pachetul de criză are o intenție rezonabilă: ieftinește motorina prin acciză și recuperează o parte din câștigul celor care extrag țiței ieftin în România. Problemele sunt de execuție. Taxa pentru producătorii integrați se aplică pe vânzări, cu salturi bruște între trepte și o bază de calcul neclară, iar nimic din text nu garantează că cei 30 de bani ajung la pompă.",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 6
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/300/60/6/se400.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Motorina are acciza mai mică cu 30 de bani pe litru, petroliștii plătesc o taxă pe câștigurile din criză, iar la pompă se poate scumpi o singură dată pe zi",
+      "summaryTlDr": "Reducerea accizei ajută puțin la pompă, iar taxa pe câștigurile neașteptate are o logică solidă. Textul e însă scris în grabă: nu spune ce cotație Brent se folosește, grila de cote are goluri și salturi, iar țițeiul din Marea Neagră e scutit fără explicație. Nu e o capcană pentru cetățeni, dar e vulnerabil juridic și nu garantează că reducerea ajunge la pompă.",
+      "scores": {
+        "agy": 6,
+        "claude": 4,
+        "codex": 6
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat ordonanța fără modificări: acciza și contribuția de solidaritate rămân la fel",
+      "summary": "Față de forma inițiatorului, Senatul a schimbat doar formula legii de aprobare: a adăugat data ordonanței și publicarea ei în Monitorul Oficial. Ordonanța e aprobată fără modificări, deci acciza mai mică la motorină și contribuția de solidaritate rămân la fel.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Contribuția integraților se calculează pe venituri, nu pe profitul excepțional",
+            "major": true,
+            "article": "art. 2 alin. (4) lit. b), alin. (5) și art. 3"
+          },
+          {
+            "text": "Cota se aplică întregii baze, cu salturi bruște la fiecare prag Brent",
+            "major": true,
+            "article": "art. 2 alin. (5)-(6)"
+          },
+          {
+            "text": "Raportul R rămâne fixat pe 2025, chiar dacă mixul de țiței se schimbă",
+            "major": true,
+            "article": "art. 3"
+          },
+          {
+            "text": "Țițeiul extras din marea teritorială e exceptat, fără justificare în preambul",
+            "major": true,
+            "article": "art. 2 alin. (8)"
+          },
+          {
+            "text": "Legea nu obligă transferul reducerii accizei în prețul de la pompă",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Reducerea accizei vizează doar motorina, benzina nu e inclusă",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Contribuția se cumulează cu impozitul de 0,5% din OG 6/2013",
+            "major": true,
+            "article": "art. 2 alin. (4) lit. b)"
+          },
+          {
+            "text": "Reducerea nu are dată fixă de expirare, depinde de durata crizei",
+            "major": false,
+            "article": "art. 1"
+          },
+          {
+            "text": "Trimitere la „prezentul capitol”, deși textul nu are capitole",
+            "major": false,
+            "article": "art. 2 alin. (8)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Acciza la motorină scade cu 0,30 lei/l, circa 0,36 lei/l cu TVA",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Țițeiul onshore plătește 60% doar din câștigul peste 70 USD/baril",
+            "major": true,
+            "article": "art. 2 alin. (4) lit. a)"
+          },
+          {
+            "text": "Contribuția se datorează doar în lunile cu Brent mediu peste 70 USD",
+            "major": true,
+            "article": "art. 2 alin. (2)"
+          },
+          {
+            "text": "În prima și ultima lună se plătește proporțional cu zilele",
+            "major": false,
+            "article": "art. 2 alin. (3)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:21:13.535Z"
+    }
+  ]
+}

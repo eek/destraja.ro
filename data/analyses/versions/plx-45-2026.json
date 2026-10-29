@@ -1,0 +1,162 @@
+{
+  "slug": "plx-45-2026",
+  "billId": "PL-x 45/2026",
+  "updatedAt": "2026-10-29T12:28:42.501Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L461FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Bani europeni mai repede: avans de 30%, plată pe rezultat și aprobare automată a decontărilor după 30 de zile",
+      "summaryTlDr": "Intenția e bună și utilă pentru firme, ONG-uri și primării cu proiecte UE, dar textul e scris în grabă. Aprobarea tacită a plăților ocolește verificările cerute de Bruxelles, iar extinderea la 2021-2027 se suprapune cu OUG 133/2021, așa că riscul e ca statul să plătească apoi corecții financiare din bugetul național.",
+      "scores": {
+        "agy": 5,
+        "claude": 5,
+        "codex": 6
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/40/5/se38.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Fonduri UE: avans de 30%, rambursare în 30 de zile, altfel aprobare automată",
+      "summaryTlDr": "Intenția e bună: bani europeni mai rapizi pentru firme, ONG-uri și primării. Textul însă a fost adoptat tacit de Senat și e scris în grabă: suprapune OUG 40/2015 peste OUG 133/2021 și introduce o aprobare tacită a plăților incompatibilă cu verificările cerute de UE. Riscul real nu cade pe cetățeni, ci pe buget, prin corecții financiare, și pe beneficiari, prin recuperări ulterioare.",
+      "scores": {
+        "agy": 5,
+        "claude": 5,
+        "codex": 6
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat tacit proiectul în forma inițiatorului, fără modificări de fond",
+      "summary": "Senatul nu a schimbat nimic de fond: proiectul s-a considerat adoptat în forma inițială, prin depășirea termenului, iar diferențele sunt doar de redactare. Rămân toate problemele, inclusiv aprobarea tacită a plăților și penalitățile plătite din bani publici.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Plata aprobată tacit după 30 de zile, fără verificarea cerută de regulile UE",
+            "major": true,
+            "article": "art. 22 alin. (1¹)"
+          },
+          {
+            "text": "Extinderea la 2021-2027 se suprapune cu OUG 133/2021, fără regulă de prioritate",
+            "major": true,
+            "article": "art. I pct. 1"
+          },
+          {
+            "text": "Lista fondurilor e cea veche: include FEAD, omite FSE+ și Fondul pentru Tranziție Justă",
+            "major": true,
+            "article": "art. 15 alin. (1)"
+          },
+          {
+            "text": "Penalitățile se plătesc din bugetul autorității, adică tot din bani publici",
+            "major": true,
+            "article": "art. 22 alin. (1²)"
+          },
+          {
+            "text": "Rata penalităților e neclară: amestecă dobânda legală cu accesoriile fiscale",
+            "major": true,
+            "article": "art. 22 alin. (1²)"
+          },
+          {
+            "text": "O cerere de clarificări oprește aprobarea tacită; nu se spune când reîncepe termenul",
+            "major": false,
+            "article": "art. 22 alin. (1¹)"
+          },
+          {
+            "text": "Se plătesc sumele „solicitate și verificate”, deși aprobarea tacită înseamnă fără verificare",
+            "major": false,
+            "article": "art. 22 alin. (1¹)"
+          },
+          {
+            "text": "Termenele se contrazic: 180 de zile pentru ultima cerere, dar 30 pentru toate",
+            "major": false,
+            "article": "art. 21 alin. (6) și art. 22 alin. (1¹)"
+          },
+          {
+            "text": "„180 de ziile”: greșeală de scriere; nu spune dacă zilele sunt calendaristice sau lucrătoare",
+            "major": false,
+            "article": "art. 21 alin. (6)"
+          },
+          {
+            "text": "Multe autorități de management sunt direcții în ministere, fără buget propriu",
+            "major": false,
+            "article": "art. 22 alin. (1²)"
+          },
+          {
+            "text": "Formula „nu o exonerează pe deplin” sugerează o exonerare parțială de răspundere",
+            "major": false,
+            "article": "art. 22 alin. (1²)"
+          },
+          {
+            "text": "Formula „perioadele de programare 2014-2020, cu modificările și completările ulterioare” e incoerentă",
+            "major": false,
+            "article": "art. I pct. 1"
+          },
+          {
+            "text": "Aceeași categorie de beneficiari e repetată de două ori",
+            "major": false,
+            "article": "art. 15 alin. (1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Plata se poate face pe baza rezultatelor, cu mai puține documente justificative",
+            "major": true,
+            "article": "art. 14 alin. (3)"
+          },
+          {
+            "text": "Tranșele următoare de prefinanțare se dau doar după progres verificat",
+            "major": true,
+            "article": "art. 15 alin. (3¹)"
+          },
+          {
+            "text": "Beneficiarii primesc penalități pentru fiecare zi de întârziere a plății",
+            "major": true,
+            "article": "art. 22 alin. (1²)"
+          },
+          {
+            "text": "Prefinanțarea nu e venit impozabil cât timp proiectul se derulează",
+            "major": true,
+            "article": "art. 37¹ alin. (1)"
+          },
+          {
+            "text": "Termen de 30 de zile pentru verificarea cererilor de plată și rambursare",
+            "major": false,
+            "article": "art. 22 alin. (1¹)"
+          },
+          {
+            "text": "Penalitățile nu sunt cheltuieli eligibile, deci nu se plătesc din fonduri UE",
+            "major": false,
+            "article": "art. 22 alin. (1²)"
+          },
+          {
+            "text": "Norme actualizate în 60 de zile, contracte în 90, cu drepturile dobândite protejate",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 26,
+        "removed": 22,
+        "same": 0.28
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:28:42.501Z"
+    }
+  ]
+}

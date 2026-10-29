@@ -1,0 +1,147 @@
+{
+  "slug": "plx-114-2026",
+  "billId": "PL-x 114/2026",
+  "updatedAt": "2026-10-29T12:36:31.032Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L005FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Reguli de pază și asigurare pentru obiectele de patrimoniu împrumutate și voie să folosești viori sau locomotive clasate",
+      "summaryTlDr": "Lege tehnică și în mare parte utilă. Pune în lege reguli de pază, asigurare și contract pentru expoziții, restaurări și exporturi temporare și permite folosirea efectivă a instrumentelor și utilajelor clasate. Singurul punct sensibil este folosirea unor bunuri unicat, unde condițiile sunt lăsate în mare parte pe seama contractelor.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/10/4/se133.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Viorile și utilajele istorice clasate pot fi folosite la concerte și evenimente, pe bază de contract",
+      "summaryTlDr": "Lege tehnică și în general utilă. O vioară Stradivarius clasată poate fi cântată, iar o locomotivă istorică poate fi pusă în funcțiune, în loc să stea doar în vitrină. Slăbiciunea reală: textul nu spune ce trebuie să conțină contractul, deși tocmai contractul protejează bunul.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a rescris doar regula pentru viori și bunuri tehnice clasate; clauzele contractului rămân vagi",
+      "summary": "Senatul a aprobat ordonanța cu o singură modificare: a rescris regula care permite folosirea instrumentelor muzicale și a bunurilor tehnice clasate în proiecte culturale. Acum spune cine semnează contractul, dar clauzele lui tot nu sunt definite.",
+      "changes": [
+        {
+          "title": "Contractul numește clar cine dă și cine folosește bunul",
+          "text": "La art. 23 alin. (4), contractul se încheie între proprietar, administrator sau titularul altor drepturi reale și utilizator sau organizator. Astfel și un muzeu public poate da bunuri din domeniul public.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 23 alin. (4)",
+          "before": null,
+          "after": "încheiat între proprietar, titularul dreptului de administrare sau titularul altor drepturi reale asupra acestor bunuri, pe de o parte, și utilizatorul bunurilor sau organizatorul evenimentului, pe de altă parte",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Contract civil cu clauze specifice, tot nedefinite",
+          "text": "Art. 23 alin. (4) cere acum un contract civil cu clauze specifice, ca excepție de la alin. (1) lit. e). Legea tot nu spune ce clauze, deci protecția bunului rămâne la latitudinea părților.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 23 alin. (4)",
+          "before": null,
+          "after": "pe baza unui contract civil cu clauze specifice",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Excepția trimite la lista bunurilor tehnice din lege",
+          "text": "Art. 23 alin. (4) se aplică instrumentelor muzicale și bunurilor de importanță tehnică de la art. 3 alin. (2) pct. 5. Nu reiese dacă trimiterea privește și instrumentele sau doar bunurile tehnice.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 23 alin. (4)",
+          "before": null,
+          "after": "instrumente muzicale și bunuri de importanță tehnică prevăzute la art.3 alin.(2) pct.5",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Ordonanța, aprobată cu o singură modificare",
+          "text": "Inițial legea aproba ordonanța ca atare. Acum Senatul o aprobă cu o singură modificare, la art. 23 alin. (4) din Legea 182/2000; restul ordonanței rămâne neschimbat.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. unic",
+          "before": "Se aprobă Ordonanța Guvernului nr. M /2026 pentru modificarea și completarea Legii nr. 182/2000 privind protejarea patrimoniului cultural național mobil",
+          "after": "La articolul I punctul 1, alineatul (4) al articolului 23 va avea următorul cuprins:",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Clauzele contractului pentru bunurile clasate folosite în proiecte nu sunt definite",
+            "major": true,
+            "article": "art. 23 alin. (4)"
+          },
+          {
+            "text": "Uzura sau un accident pot distruge ireversibil un bun clasat unicat",
+            "major": true,
+            "article": "art. 23 alin. (4)"
+          },
+          {
+            "text": "Trimiterea la art. 3 alin. (2) pct. 5 e ambiguă pentru instrumentele muzicale",
+            "major": false,
+            "article": "art. 23 alin. (4)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Scoaterea unui bun clasat din loc cere contract cu pază și asigurare",
+            "major": true,
+            "article": "art. 38"
+          },
+          {
+            "text": "Instrumentele și bunurile tehnice clasate pot fi folosite legal în proiecte culturale",
+            "major": true,
+            "article": "art. 23 alin. (4)"
+          },
+          {
+            "text": "Contractul arată clar cine răspunde: proprietarul sau administratorul și utilizatorul",
+            "major": false,
+            "article": "art. 23 alin. (4)"
+          },
+          {
+            "text": "HG necesară doar dacă participă mai multe autorități centrale; conținut fixat prin lege",
+            "major": false,
+            "article": "art. 34^1"
+          },
+          {
+            "text": "Procedura certificatului de export e acum scrisă în lege, nu doar în HG",
+            "major": false,
+            "article": "art. 37"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:36:31.032Z"
+    }
+  ]
+}

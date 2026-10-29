@@ -1,0 +1,69 @@
+# LEGE pentru modificarea și completarea Legii 98/2016 privind achizițiile publice
+
+Parlamentul României adopta prezenta lege:
+
+Articolul unic - Legea 98/2016 privind achizițiile publice, publicată în Monitorul oficial al României, Partea I, nr. 390 din 23 mai 2016, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 3, alineatul (1) după pct. 58.fff), se introduc patru noi puncte, pct. 59.ggg) – 62.jjj), cu următorul cuprins:
+
+59.ggg) lanțul scurt de aprovizionare - circuit de aprovizionare care implică un număr limitat de operatori economici angajați în activități de cooperare și de dezvoltare economică locală, precum și relații geografice și sociale strânse între producători, procesatori și consumatori;
+
+60.hhh) în sensul prevederilor pct. 59.ggg), lanțul scurt de aprovizionare se organizează pe următoarele niveluri:
+
+(i) Lanțul 1 - la nivel de unitate administrativ-teritorială, respectiv comună, oraș, municipiu;
+
+(ii) Lanțul 2 - la nivel de comune/oraș/municipiu învecinate, conform arondării din Ordinul președintelui Agenției Naționale de Administrație Fiscală nr. 3631/2015 pentru aprobarea competenței teritoriale de administrare, cu modificările ulterioare;
+
+(iii) Lanțul 3 - la nivel de județ, respectiv municipiul București;
+
+(iv) Lanțul 4 - la nivel regional, pe territoriul României, conform Nomenclatorului unităților territoriale pentru statistică - NUTS 2;
+
+(v) Lanțul 5 - la nivel regional, pe territoriul României, conform Nomenclatorului unităților teritoriale pentru statistică - NUTS 1;
+
+(vi) Lanțul 6 - la nivel național;
+
+(vii) Lanțul 7 - la nivelul Uniunii Europene;
+
+(viii) Lanțul 8 - la nivel extracomunitar / piețe terțe.
+
+61.iii) principiul „de la fermă la consumator” în context de piață locală - principiu care urmărește crearea unui sistem alimentar corect, sănătos și prietenos cu mediul în acord cu Pactul ecologic european și Strategia „De la fermă la consumator” a Comisiei Europene;
+
+62.jjj) produs agroalimentar - orice produs alimentar rezultat din activități agricole, horticole, zootehnice sau piscicole, obținut prin cultivare, creștere, recoltare, colectare ori prelucrare primară, destinat consumului uman, în stare naturală sau după o prelucrare de bază.
+
+## 2. La articolul 155, după alineatul (4) se introduce un nou alineat, alin. (4¹), cu următorul cuprins:
+
+(4¹) Prin excepție de la prevederile prezentei legi, achizițiile ce au ca obiect produsele agroalimentare, indiferent de procedura de atribuire stabilită, specificațiile tehnice se definesc astfel încât să includă cerințe de performanță direct legate de obiectul contractului: prospețime (interval maxim de la producție la livrare) și care să țină seama de principiul lanțului scurt de aprovizionare, cu toate nivelurile sale, astfel cum sunt definite la art. 3 alin. (1) pct. 59.ggg) și pct. 60.hhh).
+
+## 3. La articolul 187, după alineatul (4¹) se introduce un nou alineat, alin. (4²), cu următorul cuprins:
+
+(4²) Pentru atribuirea contractelor de achiziție publică de la alin. (8) lit. d), autoritatea contractantă va include în cadrul criteriului de atribuire prevăzut la alin. (3) lit. a) și b) factori de evaluare privind achiziția care să vizeze prospețimea (interval maxim de ore/zile de la producție la livrare), utilizarea lanțului scurt de aprovizionare, precum și impactul social al ofertelor.
+
+4\. La articolul 187 alineatul (5), după litera c), se introduce o nouă literă, lit. e), cu următorul cuprins:
+
+e) utilizarea lanțului scurt de aprovizionare, ținând cont de distanța dintre punctul de producție și punctul de livrare așa cum a fost definit la art. 3 alin. (1) pct. 59.ggg) și pct. 60.hhh), ca măsură a performanței de mediu a livrării.
+
+5\. La articolul 187 alineatul (8), după litera c), se introduce o nouă literă, lit. d), cu următorul cuprins:
+
+d) categoriilor de contracte de achiziție publică/acorduri-cadru de servicii care au ca obiect produse agroalimentare.
+
+6\. La articolul 187, după alineatul (9¹), se introduce un nou alineat, alin. (9²), cu următorul cuprins:
+
+(9²) Pentru de categoriile de contracte de achiziție publică/acorduri cadru prevăzute la alin. (8) lit. d), ponderea pe care elementul preț sau cost o va avea în cadrul criteriului de atribuire a acestor contracte va fi de maxim 50%.
+
+7\. La articolul 187, după alineatul (10), se introduce un nou alineat, alin. (11), cu următorul cuprins:
+
+(11) Pentru de categoriile de contracte de achiziție publică/acorduri cadru prevăzute la alin. (8) lit. d), în cazul în care două sau mai multe oferte sunt echivalente, autoritățile contractante pot aplica un criteriu suplimentar față de cele definite la alin. (10), constând în lanțul scurt de aprovizionare, cu toate niveluri sale, ce se va menționa explicit în anunțul de participare.
+
+8\. La articolul 188, partea introductivă a alineatului (3) se modifică și va avea următorul cuprins:
+
+(3) în sensul dispozițiilor alin. (1), pentru categoriile de contracte de achiziție publică/acorduri-cadru prevăzute la art. 187 alin. (8) lit. c) și d), autoritatea contractantă va avea în vedere cel puțin factori de evaluare în legătură cu:
+
+9\. La articolul 224, alineatul (1), litera g¹) se modifică și va avea următorul cuprins:
+
+g¹) încălcarea dispozițiilor prevăzute la art. 187 alin. (4¹), (4²) și (8);
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.
+
+Președintele Camerei Deputaților Sorin Mihai GRINDEANU
+
+Președintele Senatului Mircea ABRUDEAN

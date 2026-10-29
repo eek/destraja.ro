@@ -1,0 +1,119 @@
+{
+  "slug": "plx-470-2026",
+  "billId": "PL-x 470/2026",
+  "updatedAt": "2026-10-29T12:46:53.894Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L336FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 1.3,
+      "riskLevel": "green",
+      "plainTitle": "22 ianuarie devine Ziua Națională Ana Aslan, fără zi liberă",
+      "summaryTlDr": "Este o lege comemorativă inofensivă. Nu dă zi liberă, nu impune cheltuieli și nu creează obligații pentru nimeni. Problemele țin doar de tehnica legislativă: textul numește un minister care nu mai există și folosește o formulă finală greșită.",
+      "scores": {
+        "agy": 1,
+        "claude": 1,
+        "codex": 2
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/70/0/se520.pdf",
+      "source": "cdep.ro",
+      "riskScore": 1.3,
+      "riskLevel": "green",
+      "plainTitle": "22 ianuarie devine Ziua Națională Ana Aslan, o zi de omagiu, nu una liberă",
+      "summaryTlDr": "Lege simbolică și inofensivă: nu dă nicio zi liberă, nu obligă pe nimeni și nu creează cheltuieli noi. O singură scăpare: nu împiedică transformarea evenimentelor plătite din bani publici în reclamă pentru produse comerciale.",
+      "scores": {
+        "agy": 1,
+        "claude": 1,
+        "codex": 2
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul corectează ministerul care poate finanța: Educației și Cercetării, nu unul care nu mai există",
+      "summary": "Singura schimbare de fond: la art. 4, ministerul Cercetării, Inovării și Digitalizării, care nu mai există, a fost înlocuit cu Ministerul Educației și Cercetării. Riscul pentru cetățeni și firme rămâne același: nicio zi liberă, nicio obligație, niciun cost.",
+      "changes": [
+        {
+          "title": "Corectat ministerul care poate finanța evenimentele",
+          "text": "La art. 4, inițial sprijinul putea veni de la Ministerul Cercetării, Inovării și Digitalizării, care nu mai există; acum poate veni de la Ministerul Educației și Cercetării, alături de Ministerul Sănătății.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 4",
+          "before": "Ministerul Sănătății și Ministerul Cercetării, Inovării și Digitalizării vor putea sprijini logistic și/sau financiar, în limita bugetelor aprobate, evenimentele dedicate acestei zile",
+          "after": "Ministerul Sănătății și Ministerul Educației și Cercetării vor putea sprijini logistic și/sau financiar, în limita bugetelor aprobate, evenimentele dedicate acestei zile",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Scrie „private” în loc de „particular”, termenul din legile educației",
+            "major": false,
+            "article": "art. 2 alin. (2)"
+          },
+          {
+            "text": "Universitățile și facultățile de medicină nu sunt numite expres",
+            "major": false,
+            "article": "art. 2 alin. (2)"
+          },
+          {
+            "text": "Prevederea despre SRTV și SRR nu adaugă nimic; pot difuza oricum",
+            "major": false,
+            "article": "art. 3"
+          },
+          {
+            "text": "Art. 4 folosește „vor putea”, restul legii „pot”: inconsecvență de redactare",
+            "major": false,
+            "article": "art. 4"
+          },
+          {
+            "text": "Afirmații istorice fără surse în expunerea de motive, fără efect juridic",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "22 ianuarie nu devine zi liberă; nu costă nimic angajatorii sau IMM-urile",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Nicio obligație sau sancțiune: totul e opțional („pot”, „vor putea”)",
+            "major": true,
+            "article": "art. 2–5"
+          },
+          {
+            "text": "Finanțare doar din bugetele aprobate, bugete locale, sponsorizări sau donații",
+            "major": true,
+            "article": "art. 4–5"
+          },
+          {
+            "text": "Ministerul numit acum există: Ministerul Educației și Cercetării",
+            "major": true,
+            "article": "art. 4"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 7,
+        "removed": 8,
+        "same": 0.13
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:42:21.725Z"
+    }
+  ]
+}

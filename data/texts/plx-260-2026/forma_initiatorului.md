@@ -1,0 +1,53 @@
+# ROMANIA PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENAT
+
+LEGE pentru completarea Legii nr. 287/2009 privind Codul civil, republicată, cu modificările și completările ulterioare
+
+Parlamentul României adoptă prezenta lege:
+
+Art. I – La Legea nr. 287/2009 privind Codul civil, republicată în Monitorul Oficial al României, Partea I, nr. 505 din 15 iulie 2011, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+La Capitolul VII – Desfacerea căsătoriei, Secțiunea 2 – Efectele divorțului, Subsecțiunea 2 – Efectele divorțului cu privire la raporturile nepatrimoniale dintre soți, după articolul 383 se introduce un nou articol, articolul 383¹, cu următorul cuprins:
+
+Art.383¹: Folosința locuinței familiale în cazul divorțului pentru victimele violenței domestice
+
+(1) În cadrul procesului de divorț, dacă instanța constată, pe baza probelor administrate, că unul dintre soți a fost victimă a violenței domestice, aceasta dispune, la cerere, atribuirea dreptului exclusiv de folosință asupra locuinței familiale în favoarea victimei, ca efect civil accesoriu al desfacerii căsătoriei.
+
+(2) În sensul prezentului articol, locuința familială reprezintă imobilul în care soții au conviețuit în mod statornic anterior separării sau imobilul în care locuiește efectiv victima, împreună sau fără copiii aflați în întreținerea sa, la momentul introducerii cererii de divorț.
+
+(3) Constatarea violenței domestice se poate realiza prin orice mijloc de probă, inclusiv ordine de protecție provizorii sau definitive, certificate medico-legale, declarații de martori, înscrisuri, înregistrări audio-video sau alte mijloace permise de lege.
+
+(4) Măsura se dispune cu caracter excepțional, atunci când protecția victimei nu poate fi asigurată prin alte mijloace, pentru o perioadă de până la 10 ani, stabilită de instanță în mod individualizat, în funcție de:
+
+a) gravitatea faptelor;
+
+b) riscul de revictimizare;
+
+c) vulnerabilitatea victimei și a copiilor aflați în întreținerea sa;
+
+d) necesitatea refacerii vieții personale, profesionale și sociale în condiții de siguranță.
+
+(5) Minorii aflați în întreținerea victimei au, de drept, posibilitatea de a locui în imobil pe durata măsurii.
+
+(6) Măsura se dispune indiferent de titularul dreptului de proprietate asupra imobilului, atunci când protecția victimei o impune, cu respectarea principiului proporționalității.
+
+(7) Pe durata aplicării măsurii prevăzute la alin. (1)-(6), agresorului i se interzice să revină în locuința familială. Încălcarea acestei interdicții atrage răspunderea penală potrivit legii speciale și constituie motiv de evacuare silită prin procedură specială, fără termen de grație.
+
+(8) Dreptul de folosință și interdicțiile aferente se înscriu de îndată în cartea funciară, în baza dispozitivului hotărârii judecătorești, fără alte formalități.
+
+(9) Dreptul exclusiv de folosință atribuit victimei este opozabil oricăror terți, inclusiv creditorilor. În cadrul procedurilor de executare silită, instanța competentă va lua măsuri astfel încât să nu fie afectată siguranța victimei și va ține seama de măsura dispusă potrivit prezentului articol la aprecierea cererilor formulate.
+
+(10) Dispozițiile prezentului articol se completează cu cele ale legislației privind prevenirea și combaterea violenței domestice.
+
+## Art. II
+
+Prezenta lege intră în vigoare la data publicării în Monitorul Oficial al României, Partea I.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+PREȘEDINTELE SENATULUI

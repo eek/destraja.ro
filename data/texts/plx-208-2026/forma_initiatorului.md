@@ -1,0 +1,77 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+CAMERA DEPUTAȚILOR
+
+# LEGE
+
+pentru reducerea controalelor excesive asupra întreprinderilor mici și mijlocii
+
+Parlamentul României adoptă prezenta lege
+
+Art. I – După articolul 133 din Legea nr. 207/2015 privind Codul de procedură fiscală, publicată în Monitorul Oficial al României, Partea I, nr. 547 din 23 iulie 2015, cu modificările și completările ulterioare, se introduce un nou articol, art. 133¹, cu următorul cuprins:
+
+„Art. 133¹ – Limitarea controalelor fiscale la IMM-uri
+
+(1) Pentru contribuabilii care au calitatea de microîntreprinderi, întreprinderi mici sau mijlocii, potrivit legii, numărul controalelor fiscale efectuate de organul fiscal competent nu poate depăși două intervenții pe parcursul unui an calendaristic, indiferent de natura inspecției: generală, parțială sau tematică.
+
+(2) Fac excepție de la prevederile alin. (1) cazurile în care:
+
+a) există indicii temeinice privind săvârșirea unei fraude fiscale, documentate prin note interne aprobate de conducerea organului fiscal;
+
+b) contribuabilul solicită în mod expres o inspecție anticipată;
+
+c) apar elemente noi privind activități economice nedeclarate sau cu risc fiscal ridicat, identificate prin schimburi de informații interne sau internaționale.
+
+(3) În toate cazurile, inspecțiile fiscale se notifică în prealabil cu cel puțin 15 zile lucrătoare, iar durata inspecției nu poate depăși 30 de zile lucrătoare pentru microîntreprinderi și întreprinderi mici.
+
+(4) Nerespectarea prevederilor alin. (1) atrage nulitatea actelor de control întocmite în plus față de limita legală, precum și sancționarea disciplinară a funcționarilor implicați."
+
+Art. II - După articolul 20 din Legea nr. 108/1999 pentru înființarea și organizarea Inspecției Muncii, republicată în Monitorul Oficial al României, Partea I, nr. 290 din 3 mai
+
+2012, cu modificările și completările ulterioare, se introduce un nou articol, art. 20¹, cu următorul cuprins:
+
+## „Art. 20¹ – Limitarea controalelor la IMM-uri
+
+(1) Inspectoratele territoriale de muncă pot efectua controale la microîntreprinderi și întreprinderi mici și mijlocii de cel mult două ori pe an, cu respectarea principiului proporționalității și cu notificare prealabilă de minimum 10 zile lucrătoare.
+
+(2) Sunt exceptate de la limitarea prevăzută la alin. (1) următoarele situații:
+
+a) accidente de muncă, plângeri scrise semnate de angajați sau notificări ale altor autorități;
+
+b) controale încrucișate derulate la solicitarea organelor judiciare sau a altor autorități competente.
+
+(3) Fiecare control trebuie să fie motivat în scris, cu indicarea bazei legale și a obiectului verificării, iar rezultatele se comunică angajatorului în termen de 15 zile de la finalizarea controlului."
+
+Art. III - După articolul 11 din Legea nr. 363/2007 privind combaterea practicilor incorecte ale comercianților în relația cu consumatoriți și armonizarea reglementărilor cu legislația europeană privind protecția consumatorilor, publicată în Monitorul Oficial al României, Partea I, nr. 899 din 28 decembrie 2007, cu modificările și completările ulterioare, se introduce un nou articol, art. 11¹, cu următorul cuprins:
+
+## „Art. 11¹ – Regimul inspecțiilor pentru IMM-uri
+
+(1) Autoritatea Națională pentru Protecția Consumatorilor și structurile subordonate pot efectua maximum două controale pe an la același operator economic, dacă acesta este încadrat ca microîntreprindere sau întreprindere mică ori mijlocie.
+
+(2) Controalele suplimentare se pot efectua numai în cazul:
+
+a) existenței unei reclamații scrise și justificate privind un pericol grav pentru sănătatea sau securitatea consumatorilor;
+
+b) unei dispoziții exprese primite de la autoritatea judecătorească;
+
+c) unor campanii naționale tematice anunțate public cu minimum 30 de zile înainte.
+
+(3) În toate cazurile, controlul trebuie să fie proporțional, justificat, și însoțit de un proces-verbal detaliat, pus la dispoziția operatorului în termen de 5 zile lucrătoare de la finalizarea verificărilor."
+
+## Art. IV – Dispoziții finale și tranzitorii
+
+(1) Prezenta lege intră în vigoare în termen de 30 de zile de la publicarea în Monitorul Oficial al României, Partea I.
+
+(2) Contractele aflate în derulare, planurile anuale de control și procedurile administrative în desfășurare se modifică în consecință în termen de 60 de zile de la intrarea în vigoare a prezentei legi.
+
+(3) Autoritățile competente au obligația de a actualiza ghidurile de control și registrele publice de inspecții, cu evidențierea clară a numărului de controale efectuate la fiecare IMM.
+
+Art. V – Legea nr. 207/2015 privind Codul de procedură fiscală, publicată în Monitorul Oficial al României, Partea I, nr. 547 din 23 iulie 2015, cu modificările și completările ulterioare, precum și cu cele aduse prin prezenta lege, se va republica în Monitorul Oficial al României, Partea I, dându-se textelor o nouă renumerotare.
+
+Art. VI – Legea nr. 108/1999 pentru înființarea și organizarea Inspecției Muncii, republicată în Monitorul Oficial al României, Partea I, nr. 290 din 3 mai 2012, cu modificările și completările ulterioare, precum și cu cele aduse prin prezenta lege, se va republica în Monitorul Oficial al României, Partea I, dându-se textelor o nouă renumerotare.
+
+Art. VII – Legea nr. 363/2007 privind combaterea practicilor incorecte ale comercianților în relația cu consumatorii și armonizarea reglementărilor cu legislația europeană privind protecția consumatorilor, publicată în Monitorul Oficial al României, Partea I, nr. 899 din 28 decembrie 2007, cu modificările și completările ulterioare, precum și cu cele aduse prin prezenta lege, se va republica în Monitorul Oficial al României, Partea I, dându-se textelor o nouă renumerotare.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.

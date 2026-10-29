@@ -1,0 +1,17 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+pentru ratificarea Acordului de parteneriat dintre Uniunea Europeană și statele membre ale acesteia, pe de o parte, și membrii Organizației statelor din Africa, zona Caraibilor și Pacific, pe de altă parte, semnat la Apia, Samoa, la 15 noiembrie 2023
+
+Senatul adoptă prezentul proiect de lege
+
+Articol unic.- Se ratifică Acordul de parteneriat dintre Uniunea Europeană și statele membre ale acesteia, pe de o parte, și membrii Organizației statelor din Africa, zona Caraibilor și Pacific, pe de altă parte, semnat la Apia, Samoa, la 15 noiembrie 2023.
+
+Acest proiect de lege a fost adoptat de Senat, în ședința din 2 iunie 2026, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.
+
+p. PREȘEDINTELE SENATULUI
+
+MIHAI COTET

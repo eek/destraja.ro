@@ -1,0 +1,102 @@
+{
+  "slug": "plx-291-2026",
+  "billId": "PL-x 291/2026",
+  "updatedAt": "2026-10-29T12:59:08.831Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L177FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "2026 devine „Anul clerului militar”, cu un calendar de evenimente organizat de Parlament",
+      "summaryTlDr": "Lege simbolică, fără obligații, taxe sau sancțiuni pentru cetățeni ori firme. Problema reală e că vine târziu: aniversarea din 23 aprilie 2026 a trecut, iar proiectul e încă în dezbatere cu doar două luni rămase din an.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/200/90/1/se315.pdf",
+      "source": "cdep.ro",
+      "riskScore": 1.7,
+      "riskLevel": "green",
+      "plainTitle": "Anul 2026 devine oficial «Anul preoților din armată»",
+      "summaryTlDr": "Lege simbolică și inofensivă: nu impune nimănui taxe, obligații sau sancțiuni, ci doar un calendar de evenimente organizat de Parlament. Problemele țin de tehnica legislativă: organizatorul e numit ambiguu, finanțarea nu e precizată, iar calendarul riscă să vină după ce anul aniversar s-a încheiat practic.",
+      "scores": {
+        "agy": 1,
+        "claude": 2,
+        "codex": 2
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a păstrat textul neschimbat în fond: doar ghilimele, diacritice și formula de adoptare",
+      "summary": "Senatul a adoptat legea practic în forma inițiatorului: au dispărut ghilimelele din jurul denumirii, s-a corectat „diplomăția” și s-a adăugat formula de adoptare. Legea rămâne declarativă, fără obligații pentru cetățeni sau firme.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Nu indică sursa banilor pentru evenimente; costurile ar cădea pe bugetul Parlamentului",
+            "major": true,
+            "article": "art. 2 alin. (2)"
+          },
+          {
+            "text": "Nu fixează niciun termen pentru adoptarea calendarului de evenimente",
+            "major": false,
+            "article": "art. 2 alin. (1)"
+          },
+          {
+            "text": "Nu cere publicarea calendarului și nu stabilește forma actului de adoptare",
+            "major": false,
+            "article": "art. 2 alin. (1)"
+          },
+          {
+            "text": "Nu precizează clar dacă sunt implicate comisiile pentru apărare ale ambelor Camere",
+            "major": false,
+            "article": "art. 2 alin. (1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Efect pur declarativ: fără drepturi, obligații, taxe sau sancțiuni pentru cetățeni și firme",
+            "major": false,
+            "article": "art. 1"
+          },
+          {
+            "text": "Nu modifică Legea nr. 195/2000 și nu creează posturi sau sporuri noi",
+            "major": false,
+            "article": "art. 1"
+          },
+          {
+            "text": "Se referă la clerul militar al tuturor cultelor recunoscute, nu doar al unuia",
+            "major": false,
+            "article": "art. 2 alin. (2) lit. a)"
+          },
+          {
+            "text": "Lista exemplificativă oferă flexibilitate rezonabilă, cu manifestări desfășurate în condițiile legii",
+            "major": false,
+            "article": "art. 2 alin. (2) lit. f)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 5,
+        "removed": 4,
+        "same": 0.55
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:58:19.740Z"
+    }
+  ]
+}

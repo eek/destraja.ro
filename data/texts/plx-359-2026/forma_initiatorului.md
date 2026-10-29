@@ -1,0 +1,39 @@
+# ROMANIA PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENAT
+
+LEGE
+
+pentru modificarea și completarea Legii nr. 287/2009 privind Codul civil
+
+Parlamentul României adoptă prezenta lege:
+
+Art. I. – Legea nr. 287/2009 privind Codul civil, republicată în Monitorul Oficial al României, Partea I, nr. 505 din 15 iulie 2011, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+După articolul 503 se introduce un nou articol, art. 503¹, cu următorul cuprins:
+
+Art. 503¹: Consimțământul pentru actele medicale ale minorului
+
+(1) Pentru actele medicale efectuate asupra minorului care nu au caracter de urgență și nu implică un risc major pentru sănătatea ori integritatea acestuia, consimțământul poate fi exprimat de unul dintre părinți, în exercitarea autorității părintești.
+
+(2) Părintele care a exprimat consimțământul are obligația de a-l informa pe celălalt părinte cu privire la actul medical, anterior efectuării acestuia sau, dacă informarea prealabilă nu a fost posibilă, ulterior, într-un termen rezonabil.
+
+(3) Prin excepție de la alin. (1), este necesar consimțământul ambilor părinți atunci când:
+
+a) actul medical implică un risc major pentru sănătatea ori integritatea minorului; sau
+
+b) există o hotărâre judecătorească definitivă care stabilește o altă modalitate de exercitare a autorității părintești ori condiții speciale privind luarea deciziilor referitoare la sănătatea minorului.
+
+(4) Obligația de informare prevăzută la alin. (2) se îndeplinește cu respectarea interesului superior al minorului și fără a pune în pericol siguranța minorului ori a părintelui care a exprimat consimțământul.
+
+Art. II. – Intrarea în vigoare
+
+Prezenta lege intră în vigoare la 30 de zile de la data publicării în Monitorul Oficial al României, Partea I.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+PREȘEDINTELE SENATULUI

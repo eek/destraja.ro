@@ -1,0 +1,152 @@
+{
+  "slug": "plx-559-2026",
+  "billId": "PL-x 559/2026",
+  "updatedAt": "2026-10-29T13:06:52.143Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L357FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Permisul B: marșarierul, întoarcerea, parcarea și oprirea devin obligatorii la examenul în traseu",
+      "summaryTlDr": "Lege tehnică și rezonabilă. Nu aduce taxe, sancțiuni sau poligon nou, ci face obligatorii la proba de pe drum patru manevre de bază. Riscul real e administrativ: examene mai lungi, posibil cozi mai mari la programare, iar criteriile sunt lăsate în întregime pe seama unui ordin MAI.",
+      "scores": {
+        "agy": 4,
+        "claude": 2,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/50/9/se642.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Parcarea, mersul cu spatele și întoarcerea devin obligatorii la examenul auto, tot în trafic, fără poligon",
+      "summaryTlDr": "Lege tehnică și în mare parte benignă: trece în lege manevrele pe care Directiva 2006/126/CE le cere deja la examenul pentru categoria B. Nu reintroduce poligonul promis în Expunerea de motive. În plus, ordinul MAI și intrarea în vigoare au același termen de 90 de zile, așa că candidații pot afla criteriile abia în ziua aplicării.",
+      "scores": {
+        "agy": 3,
+        "claude": 2,
+        "codex": 2
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Dispare proba eliminatorie în poligon: cele patru manevre se dau acum în traseul pe drumurile publice",
+      "summary": "Inițial, candidații la categoria B treceau întâi o probă eliminatorie în poligon. Acum marșarierul, întoarcerea, parcarea și oprirea se verifică în proba din trafic, iar detaliile le stabilește ordinul MAI. Legea se aplică însă după 90 de zile, nu după 6 luni.",
+      "changes": [
+        {
+          "title": "Dispare proba eliminatorie în poligon",
+          "text": "Inițial, examenul pentru categoria B avea două etape, iar fără promovarea poligonului nu intrai în trafic. Acum manevrele se verifică în proba pe drumurile publice (art. I, alin. (9⁶)–(9⁷)).",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. I, alin. (9⁶)–(9⁷)",
+          "before": "Promovarea probei tehnice de conducere în poligon prevăzută la alin. (96) lit. a) este o condiție obligatorie pentru accesul la proba de conducere pe drumurile publice.",
+          "after": "în cadrul probei practice de conducere pe drumurile publice se verifică în mod obligatoriu aptitudinile candidatului privind efectuarea manevrelor tehnice de bază",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Altă listă de manevre: fără rampă, cu oprire",
+          "text": "Inițial legea cerea plecarea din rampă, parcarea laterală și întoarcerea în spațiu limitat. Acum cere marșarier, întoarcere, parcare și oprire, fără să spună ce fel de parcare sau de întoarcere.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. I, alin. (9⁷)",
+          "before": "cel puțin următoarele manevre: plecarea din rampă, deplasarea în marșarier, parcarea laterală și întoarcerea în spațiu limitat.",
+          "after": "candidatul execută în mod obligatoriu manevre de deplasare în marșarier, întoarcere, parcare și oprire.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Regulile le stabilește ministrul de interne, nu Guvernul",
+          "text": "Inițial Guvernul trebuia să modifice HG 1391/2006. Acum ministrul afacerilor interne modifică Ordinul 268/2010 privind examinarea și stabilește condițiile și criteriile de evaluare (art. II).",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. II",
+          "before": "Guvernul va modifica Hotărârea nr. 1391/2006 pentru aprobarea Regulamentului de aplicare a Ordonanței de urgență a Guvernului nr. 195/2002",
+          "after": "ministrul afacerilor interne modifică în mod corespunzător Ordinul ministrului administrației și internelor nr. 268/2010 privind procedura de examinare pentru obținerea permisului de conducere",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Se aplică după 90 de zile, nu 6 luni",
+          "text": "Inițial legea intra în vigoare la 6 luni de la publicare. Acum intră la 90 de zile, exact când expiră termenul pentru ordinul MAI, deci școlile și candidații nu mai au timp să se pregătească (art. III).",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. III",
+          "before": "Prezenta lege intră în vigoare la 6 luni de la data publicării în Monitorul Oficial al României, Partea I.",
+          "after": "Prezenta lege intră în vigoare la 90 de zile de la data publicării în Monitorul Oficial al României, Partea I.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Tipul de parcare, sensul „opririi”, încercările și respingerea le stabilește ordinul MAI",
+            "major": false,
+            "article": "art. I, alin. (9⁷)"
+          },
+          {
+            "text": "Ordinul poate apărea chiar în ziua intrării în vigoare, fără timp de pregătire",
+            "major": false,
+            "article": "art. II–III"
+          },
+          {
+            "text": "Nicio regulă tranzitorie pentru examenele deja programate",
+            "major": false,
+            "article": "art. III"
+          },
+          {
+            "text": "Examene mai lungi pot lungi așteptarea la programări în orașele mari",
+            "major": false,
+            "article": "art. I, alin. (9⁷)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Nu mai există etapă eliminatorie separată în poligon",
+            "major": true,
+            "article": "art. I, alin. (9⁶)"
+          },
+          {
+            "text": "Patru manevre de bază devin obligatorii prin lege la examenul categoriei B",
+            "major": false,
+            "article": "art. I, alin. (9⁷)"
+          },
+          {
+            "text": "Manevrele corespund celor prevăzute deja de Directiva 2006/126/CE",
+            "major": false,
+            "article": "art. I, alin. (9⁷)"
+          },
+          {
+            "text": "Fără taxe, sancțiuni sau obligații noi pentru cetățeni ori școli de șoferi",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Ordinul MAI trebuie modificat în 90 de zile, până la intrarea în vigoare",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 8,
+        "removed": 12,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:04:58.823Z"
+    }
+  ]
+}

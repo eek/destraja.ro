@@ -1,0 +1,209 @@
+{
+  "slug": "plx-215-2026",
+  "billId": "PL-x 215/2026",
+  "updatedAt": "2026-10-29T12:50:27.723Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L640FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Informațiile publice ale băncilor ajung și în portalul unic european ESAP",
+      "summaryTlDr": "Este o lege tehnică de transpunere, fără taxe sau obligații noi pentru cetățeni și IMM-uri. Băncile, conglomeratele financiare și autoritățile vor trimite din 10 ianuarie 2030 aceleași informații publice și în portalul european ESAP. Problemele sunt de redactare, iar fișa de pe cdep.ro descrie o altă lege.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/200/10/5/se234.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Rapoartele publice ale băncilor, BNR, ASF și CNSM ajung, din 2030, într-un portal european unic (ESAP)",
+      "summaryTlDr": "Lege tehnică, utilă și întârziată: transpune Directiva ESAP, astfel încât informațiile deja publice din sectorul bancar și de rezoluție să fie trimise din 2030 într-un portal european unic, în format care permite extragerea datelor. Riscul pentru cetățeni e minim; problemele reale sunt câteva erori de redactare și o fișă oficială pe cdep.ro care descrie alt proiect.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_riscant",
+      "headline": "Senatul a adăugat reguli pentru acționarii din privatizare: preț minim la fracțiuni și campanii TV",
+      "summary": "Pe lângă transmiterea informațiilor în ESAP, Senatul a adăugat reguli pentru acționarii din privatizare: preț minim la fracțiunile de acțiuni, sume care nu se prescriu și campanii TV obligatorii pentru emitenți. Apar și sancțiuni noi legate de ESAP.",
+      "changes": [
+        {
+          "title": "Preț minim pentru fracțiunile de acțiuni compensate",
+          "text": "Nou la art. VII pct. 2: prețul pentru fracțiunile de acțiuni nu poate fi sub cea mai mare dintre valoarea de piață și cea nominală, iar sumele datorate acționarilor nu se prescriu.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. VII pct. 2",
+          "before": null,
+          "after": "organul statutar al emitentului stabilește prețul instrumentului financiar la care se compensează fracțiunile de instrumente financiare, care nu poate fi mai mic decât cea mai mare valoare dintre valoarea de piață și valoarea nominală a respectivului instrument financiar.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Campanii TV și radio obligatorii pentru unii emitenți",
+          "text": "Nou la art. VII pct. 3: emitenții cu acționari din privatizarea în masă difuzează zilnic, cel puțin 2 săptămâni, comunicate la TV și radio publice. Costul poate fi mare, iar regulile sunt vagi.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. VII pct. 3",
+          "before": null,
+          "after": "emitentul de acțiuni care are în structura acționariatului acționari care au beneficiat de programul de privatizare în masă desfășurat în anii 1990 derulează campanii naționale de informare a acționarilor privind respectivul eveniment corporativ.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Sancțiuni pentru netransmiterea informațiilor în ESAP",
+          "text": "Nou la art. I pct. 2 (art. 46 din OUG 98/2006): încălcarea obligațiilor ESAP se sancționează prin trimitere la regulile sectoriale, fără gradare pentru simple erori de format sau metadate.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. I pct. 2",
+          "before": null,
+          "after": "pentru nerespectarea obligațiilor prevăzute la art.24², autoritățile competente pot aplica entităților reglementate aflate sub supravegherea lor oricare dintre măsurile sau sancțiunile prevăzute de regulile sectoriale",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Obligații și sancțiuni noi pentru emitenții de obligațiuni garantate",
+          "text": "Nou la art. V (Legea 233/2022): emitenții transmit informațiile la BNR pentru ESAP și obțin cod LEI; nerespectarea sau raportarea incorectă ori incompletă intră la art. 48 alin. (2) lit. l).",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. V",
+          "before": null,
+          "after": "a obligațiilor privind furnizarea de informații către Banca Națională a României, prevăzute la art.30 alin.(5), art.33¹ și, după caz, la art.51 alin.(8), sau raportarea de informații incorecte sau incomplete",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "ASF colectează și pentru firmele pe care le supraveghează",
+          "text": "Art. IV are acum art. 633¹–633⁶: și entitățile supravegheate de ASF îi transmit informațiile pentru ESAP și obțin LEI. ASF devine organism de colectare și prin art. VI (Legea 236/2022).",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. IV",
+          "before": null,
+          "after": "entitatea relevantă transmite concomitent informațiile respective Autorității de Supraveghere Financiară",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Comunicare electronică cu acționarii doar cu acordul adunării",
+          "text": "Nou la art. VII pct. 1 (art. 79 din Legea 24/2017): acționarii nu pot fi împiedicați să își exercite drepturile prin împuternicire, iar comunicarea electronică cere decizia adunării generale.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. VII pct. 1",
+          "before": null,
+          "after": "Emitenții pot utiliza calea electronică pentru transmiterea de informații acționarilor, numai în măsura în care această decizie este luată în cadrul adunării generale",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Nume de persoane fizice ajung în ESAP, fără garanții naționale privind păstrarea datelor",
+            "major": true,
+            "article": "art. II pct. 3"
+          },
+          {
+            "text": "Sancțiuni prin trimitere la regulile sectoriale, fără gradare pentru erori de format",
+            "major": true,
+            "article": "art. I pct. 2"
+          },
+          {
+            "text": "Campanii TV și radio zilnice obligatorii, costisitoare și vag definite, pentru unii emitenți",
+            "major": true,
+            "article": "art. VII pct. 3"
+          },
+          {
+            "text": "Raportarea incorectă sau incompletă către BNR poate fi sancționată la emitenții de obligațiuni",
+            "major": true,
+            "article": "art. V pct. 2"
+          },
+          {
+            "text": "Entitățile fără cod LEI trebuie să și-l obțină",
+            "major": true,
+            "article": "art. I pct. 1, art. IV, art. V"
+          },
+          {
+            "text": "ASF și CNA trebuie să facă campanii, fără termen, buget sau conținut stabilit",
+            "major": false,
+            "article": "art. VII pct. 3"
+          },
+          {
+            "text": "Art. IX trimite greșit la art. VII pct. 4, nu la pct. 5",
+            "major": false,
+            "article": "art. IX"
+          }
+        ],
+        "good": [
+          {
+            "text": "Fracțiunile de acțiuni se compensează la preț minim, iar sumele nu se prescriu",
+            "major": true,
+            "article": "art. VII pct. 2"
+          },
+          {
+            "text": "Acționarii pot folosi împuternicire; comunicarea electronică cere decizia adunării generale",
+            "major": true,
+            "article": "art. VII pct. 1"
+          },
+          {
+            "text": "Informațiile financiare deja publice devin căutabile centralizat în ESAP din 2030",
+            "major": false,
+            "article": "art. I–VI"
+          },
+          {
+            "text": "Obligațiile ESAP se aplică abia din 10 ianuarie 2030, cu timp de pregătire",
+            "major": false,
+            "article": "art. I–VI"
+          },
+          {
+            "text": "Fiecare autoritate are clar stabilit ce informații colectează pentru ESAP",
+            "major": false,
+            "article": "art. I–VI, art. VIII"
+          },
+          {
+            "text": "Metadatele semnalează dacă informațiile conțin date cu caracter personal",
+            "major": false,
+            "article": "art. I pct. 1, art. II pct. 3"
+          },
+          {
+            "text": "Codul LEI al instituțiilor e cerut doar dacă este disponibil",
+            "major": false,
+            "article": "art. II pct. 3, art. IV"
+          },
+          {
+            "text": "BNR și ASF trebuie să anunțe ESMA până la 9 ianuarie 2030",
+            "major": false,
+            "article": "art. IV, art. V"
+          },
+          {
+            "text": "ASF și Depozitarul Central au 90 de zile pentru planul de actualizare a datelor",
+            "major": false,
+            "article": "art. IX"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 103,
+        "removed": 81,
+        "same": 0.12
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:50:27.723Z"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "slug": "plx-691-2026",
+  "billId": "PL-x 691/2026",
+  "updatedAt": "2026-10-29T13:17:32.207Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L483FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Amenzi pentru ghișeele care îți cer dosar cu șină și acte pe care statul le are deja",
+      "summaryTlDr": "Lege utilă: dă în sfârșit consecințe regulilor anti-birocrație din OUG 41/2016, iar amenzile le plătesc funcționarii și șefii care le încalcă, nu cetățenii. Are însă fisuri de redactare care trebuie reparate în comisii, mai ales amenzile de până la 25.000 lei pentru obligații vagi de „informatizare”.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/600/90/1/se786.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Amenzi pentru ghișeele care îți cer dosar cu șină și acte pe care statul le are deja",
+      "summaryTlDr": "Este o lege bună pentru cetățeni: regulile anti-birocrație din OUG 41/2016 primesc în sfârșit sancțiuni. Problemele sunt de redactare și de proporționalitate, nu de intenție. Cea mai serioasă: amenzile de până la 25.000 lei pentru obligații vagi de „informatizare”.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a păstrat fondul textului; a apărut doar o trimitere greșită la amenda pentru dosarele cu șină",
+      "summary": "Senatul a adoptat textul inițiatorului fără schimbări de fond: aceleași interdicții, aceleași amenzi și aceiași controlori. A apărut însă o trimitere greșită („art.²” în loc de „art. 2²”) chiar la amenda pentru cererea de dosare cu șină, ceea ce o poate face contestabilă.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Până la 25.000 lei pentru informatizare și e-servicii fără standard, termen sau buget",
+            "major": true,
+            "article": "art. 14¹ alin. (1) lit. C b)–c)"
+          },
+          {
+            "text": "Consimțământul beneficiarului e cerut și la controale; persoana controlată poate bloca documentele",
+            "major": true,
+            "article": "art. 2¹ alin. (2)"
+          },
+          {
+            "text": "Funcționarul nu e exonerat când aplică o procedură internă impusă în scris",
+            "major": true,
+            "article": "art. 14¹ alin. (2)"
+          },
+          {
+            "text": "Prefectul poate amenda personal primari aleși; risc de folosire politică",
+            "major": true,
+            "article": "art. 14² alin. (1) lit. b)"
+          },
+          {
+            "text": "Trimiterea greșită „art.²” face contestabilă amenda pentru dosarele cu șină",
+            "major": false,
+            "article": "art. 14¹ alin. (1) lit. A e)"
+          },
+          {
+            "text": "Nu se spune cine controlează ADR și prefectura, obligate și ele",
+            "major": false,
+            "article": "art. 14² alin. (1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Controlorii nu mai pot cere copii după acte emise de alte instituții",
+            "major": true,
+            "article": "art. 2¹ alin. (1)"
+          },
+          {
+            "text": "Funcționarul care refuză CI pe e-mail sau cere dosar cu șină e amendat personal",
+            "major": true,
+            "article": "art. 14¹ alin. (1) lit. A"
+          },
+          {
+            "text": "Conducătorii amendați fără formulare online, e-mail pentru CI, fotocopiere gratuită sau plată alternativă",
+            "major": true,
+            "article": "art. 14¹ alin. (1) lit. B"
+          },
+          {
+            "text": "Amendă dacă instituția nu preia drepturile de autor pe software-ul plătit",
+            "major": true,
+            "article": "art. 14¹ alin. (1) lit. C a)"
+          },
+          {
+            "text": "Avertisment posibil, iar amenda plătită în 15 zile scade la jumătate din minim",
+            "major": false,
+            "article": "art. 14¹ alin. (4), art. 14⁴"
+          },
+          {
+            "text": "Orice persoană vătămată poate sesiza; formular online și raport anual publicat",
+            "major": false,
+            "article": "art. 14² alin. (2), art. 14⁶"
+          },
+          {
+            "text": "Amenda se poate contesta la judecătorie în 15 zile, cu suspendarea executării",
+            "major": false,
+            "article": "art. 14⁵"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 38,
+        "removed": 41,
+        "same": 0.24
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:17:32.207Z"
+    }
+  ]
+}

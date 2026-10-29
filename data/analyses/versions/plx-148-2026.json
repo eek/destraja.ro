@@ -1,0 +1,102 @@
+{
+  "slug": "plx-148-2026",
+  "billId": "PL-x 148/2026",
+  "updatedAt": "2026-10-29T12:40:35.743Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L012FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Fermele de porci și păsări finanțate de stat primesc încă un an pentru investiții, iar un termen la retrocedări este amânat",
+      "summaryTlDr": "Lege tehnică și în mare parte utilă: dă încă 12 luni (48 în total) pentru 63 de investiții deja finanțate, fără bani noi. Minusurile sunt prelungirea acordată fără criterii clare și un articol despre retrocedări adăugat într-o ordonanță agricolă.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/40/8/se155.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Fermele de porci și păsări finanțate de stat primesc încă un an ca să fie terminate (plus o amânare ascunsă la dosarele de restituire a proprietăților)",
+      "summaryTlDr": "Lege tehnică, în mare parte utilă: dă timp suplimentar pentru 21 de investiții zootehnice întârziate și nu cere bani noi de la buget. Are două minusuri: prelungirea se acordă fără criterii scrise în lege, iar o amânare legată de restituirea proprietăților a fost atașată ordonanței, deși nu are legătură cu subiectul ei.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat ordonanța fără modificări; prelungirea de până la 30 de luni rămâne fără criterii",
+      "summary": "Senatul a aprobat ordonanța așa cum a propus-o Guvernul. S-au schimbat doar formulări tehnice. Crescătorii de porci și păsări pot cere în continuare prelungiri de până la 30 de luni, fără criterii, iar articolul despre retrocedări rămâne în lege.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Prelungire la simpla cerere, fără criterii, pentru oricare dintre cele 63 de contracte",
+            "major": true,
+            "article": "art. I și art. II"
+          },
+          {
+            "text": "Durata poate ajunge la 48 de luni; recuperarea banilor devine mai grea",
+            "major": true,
+            "article": "art. I și art. II"
+          },
+          {
+            "text": "Legea nu numește autoritatea care aprobă prelungirea",
+            "major": false,
+            "article": "art. I și art. II"
+          },
+          {
+            "text": "Termen pentru retrocedări, fără legătură cu agricultura, strecurat sub titlu generic",
+            "major": false,
+            "article": "art. III"
+          },
+          {
+            "text": "Urgența mutării termenului pentru retrocedări e justificată printr-o singură frază",
+            "major": false,
+            "article": "art. III"
+          }
+        ],
+        "good": [
+          {
+            "text": "Crescătorii de porci și păsări primesc încă 12 luni pentru investiții",
+            "major": false,
+            "article": "art. I și art. II"
+          },
+          {
+            "text": "Ajutorul nu crește, deci nu apar cheltuieli bugetare directe noi",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Doar cele 63 de contracte existente; programele nu se redeschid",
+            "major": false,
+            "article": "art. I și art. II"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:40:02.955Z"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+# privind interzicerea obligării conducătorilor auto din transportul rutier de mărfuri la efectuarea operațiunilor de descărcare/încărcare a mărfurilor transportate
+
+Senatul adoptă prezentul proiect de lege
+
+Art.1.- Prezenta lege are ca obiect reglementarea obligațiilor privind activitățile de descărcare/încărcare a mărfurilor transportate în cadrul transportului rutier de mărfuri.
+
+Art.2.- (1) Conducătorii auto angajați ai operatorilor de transport rutier nu pot fi obligați, prin contract individual de muncă, contract de transport, dispoziție internă a angajatorului sau solicitare din partea beneficiarului transportului, furnizorului mărfurilor sau intermediarilor, să efectueze operațiuni de descărcare/încărcare a mărfurilor transportate.
+
+(2) Obligația descărcării/încărcării mărfurilor revine beneficiarului transportului, furnizorului mărfurilor sau intermediarilor, după caz, cu respectarea reglementărilor legale în vigoare privind securitatea și sănătatea în muncă.
+
+Art.3.- Prin excepție de la art.2, conducătorii auto pot efectua operațiuni de descărcare a mărfurilor în cazul transporturilor specializate, atunci când natura transportului impune în mod obiectiv acest lucru, respectiv în cazul transporturilor vrac, transporturilor de combustibili, transporturilor cu auto-betoniera, transporturilor de animale vii, însă fără ca excepția să se limiteze numai la acestea.
+
+Art.4.- Orice clauză contractuală sau dispoziție prin care șoferii sunt obligați să descarce sau să încarce mărfuri, în afara situațiilor prevăzute la art.3, este nulă de drept.
+
+Art.5.- Încălcarea prevederilor prezentei legi constituie contravenție și se sancționează cu amendă de la 10.000 lei la 30.000 lei aplicată operatorului de transport, beneficiarului transportului, furnizorului mărfurilor sau intermediarilor, după caz.
+
+Art.6.- (1) Constatarea contravențiilor și aplicarea sancțiunilor prevăzute la art.5 se realizează de către personalul împuternicit al Inspecției Muncii, prin inspectoratele territoriale de muncă.
+
+(2) În exercitarea atribuțiilor prevăzute la alin.(1), inspectorii de muncă pot solicita documente justificative privind efectuarea transporturilor și pot efectua verificări la sediul social al operatorilor de transport, precum și la locurile de încărcare sau descărcare a mărfurilor respectiv la furnizori, beneficiari sau intermediari.
+
+Art.7.- Ministerul muncii, familiei, tineretului și solidarității sociale elaborează, în termen de 90 de zile de la intrarea în vigoare a prezentei legi, normele metodologice de aplicare.
+
+Art.8.- Prezenta lege intră în vigoare la 30 de zile de la data publicării în Monitorul Oficial al României, Partea I.
+
+Acest proiect de lege se consideră adoptat de Senat în forma inițială, în condițiile articolului 75 alineatul (2) teza a III-a din Constituția României, republicată.
+
+## PREȘEDINTEĐE SENATULUI
+
+## MIRCEÀABRUDEAN

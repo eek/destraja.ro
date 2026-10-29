@@ -1,0 +1,57 @@
+{
+  "slug": "b600-2026",
+  "billId": "B600/2026",
+  "checkedAt": "2026-10-29T12:59:09.865Z",
+  "models": {
+    "agy": "ok",
+    "claude": "ok",
+    "codex": "ok"
+  },
+  "articles": [
+    {
+      "url": "https://www.napocanews.ro/2026/10/deputat-robert-alecu-act-pretul-in-lei-de-la-inceput.html",
+      "title": "Deputat Robert Alecu ( ACT): Prețul în lei, de la început",
+      "outlet": "NapocaNews",
+      "domain": "napocanews.ro",
+      "publishedAt": "2026-10-29",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Dacă plătim în lei, trebuie să știm în lei cât avem de plătit până la finalul contractului.",
+      "match": "quote",
+      "firstSeenAt": "2026-10-29",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-29",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "supportive",
+            "stanceP": 0.539,
+            "source": "party_or_politician",
+            "sourceP": 0.446,
+            "about": 0.885,
+            "release": 0.889
+          },
+          "d1": {
+            "stance": "supportive",
+            "stanceP": 0.497,
+            "source": "local_news",
+            "sourceP": 0.664,
+            "about": 0.407,
+            "release": 0.622
+          },
+          "luna": {
+            "stance": "supportive",
+            "stanceP": 0.96,
+            "source": "local_news",
+            "sourceP": 0.78,
+            "about": 0.99,
+            "release": 0.98
+          }
+        }
+      }
+    }
+  ],
+  "pending": []
+}

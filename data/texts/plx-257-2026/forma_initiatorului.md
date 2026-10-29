@@ -1,0 +1,31 @@
+# PARLAMENTUL ROMÂNIEI
+
+## Camera Deputaților
+
+## Senat
+
+## LEGE
+
+pentru completarea Legii vânătorii și a protecției fondului cinegetic nr. 407/2006
+
+Parlamentul României adoptă prezenta lege:
+
+Articol unic. - Legea vânătorii și a protecției fondului cinegetic nr. 407/2006, publicată în Monitorul Oficial, Partea I nr. 944 din 22 noiembrie 2006, cu modificările și completările ulterioare, se completează după cum urmează:
+
+1\. La articolul 39 alineatul (1), după litera aj) se introduce o nouă literă, lit. ak), cu următorul cuprins:
+
+ak) vânătoarea la o distanță mai mică de 200 m, în cazul armei cu alice, respectiv 500 m în cazul armei cu glonț sau cartuș cu proiectil unic, față de drumurile deschise circulației publice sau față de terenurile intravilane ocupate cu construcții sau curți, cu excepția situațiilor reglementate la art. 34 alin. (1).
+
+2\. La articolul 42 alineatul (1), după litera s) se introduce o nouă literă, lit. ș), cu următorul cuprins:
+
+§) vânătoarea cu încălcarea distanței minime de 200 m, în cazul armei cu alice, respectiv 500 m în cazul armei cu glonț sau cartuș cu proiectil unic, față de drumurile deschise circulației publice sau față de terenurile intravilane ocupate cu construcții sau curți, cu excepția situațiilor reglementate la art. 34 alin. (1).
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor articolului 75 și ale articolului 76 alineatul (1) din Constituția României, republicată.
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+PREȘEDINTELE SENATULUI
+
+SORIN MIHAI GRINDEANU
+
+MIRCEA ABRUDEAN

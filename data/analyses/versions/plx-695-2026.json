@@ -1,0 +1,112 @@
+{
+  "slug": "plx-695-2026",
+  "billId": "PL-x 695/2026",
+  "updatedAt": "2026-10-29T13:17:32.210Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L497FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Fără impozit pe premiile mici de la concursuri sportive, culturale și școlare",
+      "summaryTlDr": "Intenția e bună și costul bugetar e mic, dar textul ratează ținta din Expunerea de motive. Pragul fix de 600 lei pentru premiile impozitate după art. 110 rămâne neschimbat, iar noua scutire acoperă doar premiile impuse pe alte regimuri, cu o formulare („până la o șesime”) care se poate interpreta în mai multe feluri.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/600/90/5/se787.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Premiile mici de la concursuri sportive, culturale și școlare, fără impozit",
+      "summaryTlDr": "Ideea e benignă și costă puțin bugetul. Textul are însă o excepție care o poate lăsa aproape fără obiect: premiile impozitate la art. 110, adică majoritatea premiilor din concursuri, sunt scoase din scutire. De susținut, dar după reformulare.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a păstrat textul inițial: scutire de impozit pentru premii de până la 1/6 din salariul minim",
+      "summary": "Senatul a adoptat textul inițiatorului fără schimbări de fond, doar cu retușuri de redactare. Problemele rămân aceleași: nu e clar ce premii scapă de regimul art. 110, câștigul față de pragul de 600 lei e mic, iar formula „până la” e ambiguă.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Exclude premiile impozitate la art. 110, deci e neclar ce premii mai acoperă",
+            "major": true,
+            "article": "art. 62 lit. w¹)"
+          },
+          {
+            "text": "Plafonul de circa 675–720 lei depășește cu puțin pragul actual de 600 lei",
+            "major": true,
+            "article": "art. 62 lit. w¹)"
+          },
+          {
+            "text": "Neclar dacă un premiu peste plafon e impozitat integral sau doar pe diferență",
+            "major": true,
+            "article": "art. 62 lit. w¹)"
+          },
+          {
+            "text": "Plafon pe fiecare premiu, fără limită anuală: un premiu mare poate fi fragmentat",
+            "major": true,
+            "article": "art. 62 lit. w¹)"
+          },
+          {
+            "text": "Lipsesc reguli de evaluare pentru premiile în natură",
+            "major": false,
+            "article": "art. 62 lit. w¹)"
+          },
+          {
+            "text": "„Concursuri cu caracter educațional” și „alte surse similare” nu sunt definite",
+            "major": false,
+            "article": "art. 62 lit. w¹)"
+          },
+          {
+            "text": "Competițiile pe meserii, invocate în expunerea de motive, lipsesc din text",
+            "major": false,
+            "article": "art. 62 lit. w¹)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Scutire de impozit pentru premiile din competiții sportive, culturale și educaționale",
+            "major": true,
+            "article": "art. 62 lit. w¹)"
+          },
+          {
+            "text": "Plafonul urmează salariul minim în vigoare la data acordării premiului",
+            "major": true,
+            "article": "art. 62 lit. w¹)"
+          },
+          {
+            "text": "Acoperă și premiile în natură și cele finanțate din sponsorizări sau taxe",
+            "major": true,
+            "article": "art. 62 lit. w¹)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 4,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:16:54.796Z"
+    }
+  ]
+}

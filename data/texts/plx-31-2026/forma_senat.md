@@ -1,0 +1,17 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+privind aprobarea Ordonanței de urgență a Guvernului nr.70/2025 pentru modificarea și completarea unor acte normative în domeniul asistenței sociale
+
+Senatul adoptă prezentul proiect de lege
+
+Articol unic.- Se aprobă Ordonanța de urgență a Guvernului nr.70 din 5 decembrie 2025 pentru modificarea și completarea unor acte normative în domeniul asistenței sociale, publicată în Monitorul Oficial al României, Partea I, nr.1138 din 9 decembrie 2025.
+
+Acest proiect de lege a fost adoptat de Senat, în ședința din 2 februarie 2026, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.
+
+PREȘEDINTENE SENATULUI
+
+MIRCEA ABRUDEAN

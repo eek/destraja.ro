@@ -1,0 +1,33 @@
+# PARLAMENTUL ROMÂNIEI
+
+# CAMERA DEPUTAȚILOR
+
+LEGE
+
+pentru modificarea și completarea Legii nr. 95/2006 privind reforma în domeniul sănătății
+
+Camera Deputaților adoptă prezentul proiect de lege.
+
+Art. I. – Legea nr. 95/2006 privind reforma în domeniul sănătății, republicată în Monitorul Oficial al României, Partea I, nr. 652 din 28 august 2015, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 6, litera h), după punctul 10 se introduce un nou punct, punctul 11, cu următorul cuprins:
+
+„11. servicii de consiliere psihologică pentru părinții ori tutorii legali ai copiilor cu sindrom Down sau cu tulburări din spectrul autist;”
+
+## 2. La articolul 48 alineatul (2) litera b) se modifică și va avea următorul cuprins:
+
+„b) programe naționale de sănătate curative care au drept scop asigurarea tratamentului specific în cazul bolilor cu impact major asupra sănătății publice, altele decât TBC și HIV/SIDA și transplant de organe, țesuturi și celule, precum și acordarea de servicii medicale, servicii de consiliere psihologică acordate părinților ori tutorilor legali ai copiilor cu sindrom Down sau cu tulburări din spectrul autist, în unități de specialitate, servicii de îngrijiri paliative și servicii conexe actului medical pentru persoanele diagnosticate cu tulburări din spectrul autist, potrivit structurii și obiectivelor stabilite conform art. 51 alin. (4).”
+
+## 3. La articolul 230, după alineatul (4) se introduce un nou alineat, alin. (5), cu următorul cuprins:
+
+„(5) Părinții ori tutorii legali ai copiilor cu sindrom Down sau cu tulburări din spectrul autist pot beneficia de servicii de consiliere psihologică, cu decontare integrală din fondurile asigurărilor sociale de sănătate.”
+
+Art. II. – (1) Prevederile prezentei legi intră în vigoare în termen de 30 de zile de la data intrării în vigoare a Legii bugetului de stat pe anul 2027.
+
+(2) În termen de 90 de zile de la intrarea în vigoare a prezentei legi, Guvernul României actualizează normele metodologice de aplicare ale legii.
+
+Acest proiect de lege a fost adoptat de Camera Deputaților în ședința din 8 aprilie 2026, cu respectarea prevederilor art. 76 alin. (2) din Constituția României, republicată.
+
+p. PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+NATALIA – ELENA INTOTERO

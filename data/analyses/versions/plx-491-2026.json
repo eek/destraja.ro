@@ -1,0 +1,132 @@
+{
+  "slug": "plx-491-2026",
+  "billId": "PL-x 491/2026",
+  "updatedAt": "2026-10-29T12:50:36.987Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L239FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "1% din taxele pe jocurile de noroc, pentru prevenirea și tratarea dependenței",
+      "summaryTlDr": "Idee utilă, care nu crește taxele: mută 1% din taxele deja plătite de operatorii de jocuri de noroc într-un fond pentru prevenția și tratarea dependenței. Textul e însă subțire. Nu spune cine acreditează beneficiarii și nu cere raportarea banilor. În plus, pune fondul pe mâna autorității care supraveghează industria, nu a unui organism cu competențe medicale.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/90/1/se550.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "1% din taxele pe jocuri de noroc pentru tratarea dependenței",
+      "summaryTlDr": "Măsura e bine intenționată și nu aduce costuri noi pentru operatori: mută 1% din taxele existente spre prevenirea și tratarea dependenței de jocuri. Problemele țin de execuție, pentru că textul nu spune cine acreditează beneficiarii, cum se împart banii și cine verifică rezultatele.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul n-a schimbat nimic de fond: proiectul se consideră adoptat în forma inițială",
+      "summary": "Textul a rămas același, doar cu retușuri de redactare: proiectul se consideră adoptat de Senat în forma inițială. Rămân aceleași probleme: fondul de 1% e gestionat de ONJN, iar beneficiarii „acreditați” nu au criterii clare.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Fondul e gestionat de ONJN, care controlează industria jocurilor și nu are competențe medicale",
+            "major": true,
+            "article": "art. 13 alin. (3⁴)"
+          },
+          {
+            "text": "Baza e mai mică decât în expunerea de motive: fără impozitele din Codul fiscal",
+            "major": true,
+            "article": "art. 13 alin. (3)"
+          },
+          {
+            "text": "Nu se spune cine acreditează centrele și ONG-urile beneficiare și după ce criterii",
+            "major": true,
+            "article": "art. 13 alin. (3⁵) lit. a) și d)"
+          },
+          {
+            "text": "Centrele private pot primi bani fără o procedură competitivă de selecție",
+            "major": true,
+            "article": "art. 13 alin. (3⁵) lit. a)"
+          },
+          {
+            "text": "Fără plafon pentru costuri administrative și fără reguli pentru sumele necheltuite",
+            "major": true,
+            "article": "art. 13 alin. (3⁵)"
+          },
+          {
+            "text": "ONJN poate derula chiar el campaniile de informare, fără nicio limită",
+            "major": true,
+            "article": "art. 13 alin. (3⁵) lit. b)"
+          },
+          {
+            "text": "Ministerul Sănătății nu are niciun rol în stabilirea programelor de tratament",
+            "major": false,
+            "article": "art. 13 alin. (3⁴)"
+          },
+          {
+            "text": "Lipsesc raportul public anual, indicatorii de rezultat și regulile privind conflictele de interese",
+            "major": false,
+            "article": "art. 13 alin. (3⁴)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Nicio taxă nouă: operatorii plătesc la fel, doar 1% se mută la fond",
+            "major": true,
+            "article": "art. 13 alin. (3)"
+          },
+          {
+            "text": "Un fond dedicat prevenirii, tratamentului și reintegrării persoanelor dependente de jocuri de noroc",
+            "major": true,
+            "article": "art. 13 alin. (3)"
+          },
+          {
+            "text": "Procentele însumează corect 100%, iar cotele COSR și Paralimpic rămân neschimbate",
+            "major": false,
+            "article": "art. 13 alin. (3)"
+          },
+          {
+            "text": "Destinațiile banilor sunt enumerate: centre, campanii, formarea specialiștilor, proiecte ONG",
+            "major": false,
+            "article": "art. 13 alin. (3⁵)"
+          },
+          {
+            "text": "Cheltuielile fondului urmează un plan anual aprobat prin hotărâre de Guvern",
+            "major": false,
+            "article": "art. 13 alin. (3⁴)"
+          },
+          {
+            "text": "Normele de gestionare și alocare a fondului trebuie aprobate în 90 de zile",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 9,
+        "removed": 12,
+        "same": 0.25
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:49:23.029Z"
+    }
+  ]
+}

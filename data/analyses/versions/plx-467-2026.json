@@ -1,0 +1,152 @@
+{
+  "slug": "plx-467-2026",
+  "billId": "PL-x 467/2026",
+  "updatedAt": "2026-10-29T13:10:45.323Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L272FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Anchetatorii pot cere datele tale online direct de la furnizorii din UE (și invers)",
+      "summaryTlDr": "Lege tehnică și necesară. Pune în practică un regulament UE deja aplicabil și păstrează judecătorul pentru datele de trafic și conținut. Garanțiile pentru omul vizat sunt însă subțiri: contestația se face în 3 zile, nu oprește nimic și nu spune ce se întâmplă cu datele dacă o câștigi.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/60/7/se515.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Procurorii și judecătorii pot cere direct firmelor de internet din UE datele tale",
+      "summaryTlDr": "Lege tehnică și în mare parte necesară: pune în aplicare un regulament UE care se aplică deja din 18 august 2026, iar România e în întârziere. Are însă o clauză de urgență scrisă confuz (art.4 alin.(2)), care poate fi citită ca acces fără judecător la trafic și conținut. Are și o contestație de doar 3 zile, fără efect clar dacă e admisă.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a păstrat textul inițiatorului fără schimbări de fond, doar corecturi de redactare",
+      "summary": "Senatul a păstrat forma inițiatorului. S-au corectat doar greșeli de scriere („invoice”, „consultârilor”), „patru luni” a devenit „4 luni” și s-a schimbat formatarea trimiterilor. Problemele rămân, mai ales excepția de urgență neclară și lipsa efectelor unei contestații admise.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Excepția de urgență e vagă și trimite la ordine emise oricum fără judecător",
+            "major": true,
+            "article": "art. 4 alin. (2)"
+          },
+          {
+            "text": "Pragul pentru accesul la e-mailuri și fișiere e neclar: trimite la art. 152 CPP",
+            "major": true,
+            "article": "art. 4 alin. (1) lit. a)"
+          },
+          {
+            "text": "Admiterea contestației nu duce expres la ștergerea datelor sau interdicția folosirii lor",
+            "major": true,
+            "article": "art. 7"
+          },
+          {
+            "text": "Amenda minimă de 100.000 lei e aceeași pentru orice furnizor, indiferent de mărime",
+            "major": true,
+            "article": "art. 8 alin. (8)"
+          },
+          {
+            "text": "Confirmarea și infirmarea vizează doar divulgarea, deși urgența include și păstrarea",
+            "major": false,
+            "article": "art. 4 alin. (5)-(6)"
+          },
+          {
+            "text": "Nu se definește ce înseamnă „restricționarea utilizării” datelor la infirmare",
+            "major": false,
+            "article": "art. 4 alin. (6)"
+          },
+          {
+            "text": "Nu se spune ce verifică judecătorul: legalitate, necesitate sau proporționalitate",
+            "major": false,
+            "article": "art. 7"
+          },
+          {
+            "text": "Termen scurt de 3 zile, iar contestația nu suspendă divulgarea datelor",
+            "major": false,
+            "article": "art. 7 alin. (2)"
+          },
+          {
+            "text": "Contestația în urmărire penală ajunge la un judecător de aceeași instanță, fără incompatibilitate expresă",
+            "major": false,
+            "article": "art. 7 alin. (3)"
+          },
+          {
+            "text": "În urgență se cere traducere doar în română, ceea ce poate încetini cazul",
+            "major": false,
+            "article": "art. 6 alin. (8)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Datele de trafic și conținut cer încheierea unui judecător sau a instanței",
+            "major": true,
+            "article": "art. 4 alin. (1)"
+          },
+          {
+            "text": "Ordinele de urgență trebuie confirmate de judecător, altfel se retrag și datele se șterg",
+            "major": true,
+            "article": "art. 4 alin. (3)-(6)"
+          },
+          {
+            "text": "Persoana vizată poate contesta divulgarea datelor la judecător, cu citarea ei",
+            "major": true,
+            "article": "art. 7"
+          },
+          {
+            "text": "Parchetele și instanțele române pot refuza sau condiționa folosirea datelor cerute din străinătate",
+            "major": true,
+            "article": "art. 6 alin. (3)"
+          },
+          {
+            "text": "Furnizorii pot formula obiecții și cere control judiciar la obligații contradictorii",
+            "major": true,
+            "article": "art. 8-9"
+          },
+          {
+            "text": "Termene clare pentru ordinele străine: 10 zile, 96 de ore în urgență, consultare prealabilă",
+            "major": false,
+            "article": "art. 6 alin. (5)-(7)"
+          },
+          {
+            "text": "Păstrarea și datele de abonat urmează aceleași reguli ca în procedurile românești",
+            "major": false,
+            "article": "art. 2-3"
+          },
+          {
+            "text": "Ordinele emise înainte de lege rămân supuse regulilor în vigoare la primirea lor",
+            "major": false,
+            "article": "art. 11"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 42,
+        "removed": 41,
+        "same": 0.45
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:10:45.323Z"
+    }
+  ]
+}

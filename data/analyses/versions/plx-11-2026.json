@@ -1,0 +1,112 @@
+{
+  "slug": "plx-11-2026",
+  "billId": "PL-x 11/2026",
+  "updatedAt": "2026-10-29T12:25:44.360Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L478FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "Retrocedări deblocate când terenul e în comuna vecină",
+      "summaryTlDr": "Lege utilă și de bun-simț: deblochează retrocedări rămase în aer de peste două decenii, doar pentru că vechiul teren a ajuns, după reorganizarea teritorială din 1968, pe raza comunei vecine. Mecanismul depinde însă de bunăvoința comisiei vecine, nu are termen și nici arbitru, iar Art. II trimite la o hotărâre de guvern abrogată.",
+      "scores": {
+        "agy": 5,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/10/1/se779.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Dosarele de pământ blocate pentru că terenul a ajuns pe teritoriul comunei vecine pot fi finalizate",
+      "summaryTlDr": "Lege tehnică și utilă, care poate debloca dosare de fond funciar rămase nerezolvate de 35 de ani din cauza reorganizării administrative din 1968. Textul e însă formulat lax: finalizarea e doar o posibilitate, nu are termen și nu precizează cine validează protocolul. În plus, Art. II trimite la o hotărâre de Guvern abrogată.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat textul inițiatorului fără nicio modificare de fond",
+      "summary": "Senatul a păstrat neschimbat textul inițiatorului. Diferențele sunt doar de redactare și de formula de adoptare. Rămân aceleași probleme: restituirea pe terenul din altă comună depinde de acordul ambelor comisii, fără termen, iar art. II trimite la o hotărâre de guvern abrogată.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Finalizarea depinde de acordul ambelor comisii locale, fără termen, criterii sau motivarea refuzului",
+            "major": true,
+            "article": "art. 38 alin. (2)"
+          },
+          {
+            "text": "Dispare interdicția expresă a transferului de terenuri între unități administrativ-teritoriale",
+            "major": true,
+            "article": "art. 38"
+          },
+          {
+            "text": "Comisia vecină nu e obligată să rezerve parcela; rămâne riscul de dublă atribuire",
+            "major": true,
+            "article": "art. 38 alin. (2)"
+          },
+          {
+            "text": "Neclar dacă intră cererile aprobate doar local sau numai cele validate de județ",
+            "major": true,
+            "article": "art. 38 alin. (2)"
+          },
+          {
+            "text": "Nu reiese dacă comisia județeană verifică protocolul sau doar ia act de el",
+            "major": false,
+            "article": "art. 38 alin. (3)"
+          },
+          {
+            "text": "Nu se știe ce comisie județeană e competentă când UAT-urile sunt în județe diferite",
+            "major": false,
+            "article": "art. 38 alin. (3)"
+          },
+          {
+            "text": "Trimitere greșită la HG nr. 1.172/2001, abrogată prin HG nr. 890/2005",
+            "major": false,
+            "article": "art. II"
+          },
+          {
+            "text": "Termenul de 60 de zile pentru Guvern nu are nicio sancțiune",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "good": [
+          {
+            "text": "Oferă o cale de a finaliza restituirea când terenul e în altă UAT",
+            "major": true,
+            "article": "art. 38 alin. (2)"
+          },
+          {
+            "text": "Păstrează regula reconstituirii proprietății pe vechile amplasamente",
+            "major": false,
+            "article": "art. 38 alin. (1)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 5,
+        "removed": 5,
+        "same": 0.17
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:22:48.050Z"
+    }
+  ]
+}

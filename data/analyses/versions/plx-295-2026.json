@@ -1,0 +1,152 @@
+{
+  "slug": "plx-295-2026",
+  "billId": "PL-x 295/2026",
+  "updatedAt": "2026-10-29T13:00:53.772Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L050FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Magistrații delegați ar primi diurna ca restul bugetarilor, nu ca procent din salariu",
+      "summaryTlDr": "Lege utilă, care taie un privilegiu greu de justificat: diurna magistraților delegați sau detașați ar trece de la procent din indemnizația brută la nivelul general din sectorul public. Redactarea e însă grăbită: păstrează un forfetar procentual la cazare, taie toate drepturile pe criteriul proprietății și nu închide explicit breșa pe care spune că o vizează.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/200/90/5/se313.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Magistrații delegați ar primi aceeași diurnă ca ceilalți bugetari, iar cei delegați lângă casă n-ar mai primi nimic",
+      "summaryTlDr": "Lege benignă și justificată. Diurna magistraților delegați sau detașați coboară la nivelul celorlalți bugetari și se taie când delegarea e practic acasă. Defectul principal: forma Senatului a redus pragul de 20 km din expunere la 5 km, iar unele criterii de excludere sunt vagi și prea largi.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_riscant",
+      "headline": "Pragul sub care magistrații delegați nu primesc diurnă și decontări scade de la 20 km la 5 km",
+      "summary": "Acum doar delegările la sub 5 km de casă, nu la sub 20 km, pierd diurna și decontările, deci statul plătește în mai multe cazuri. Senatul a scos și plafoanele propuse la cazare și transport; acolo rămâne regula actuală.",
+      "changes": [
+        {
+          "title": "Pragul de distanță coboară la 5 km",
+          "text": "Inițial pierdeau diurna și decontările cei delegați la sub 20 km de domiciliu, chiar fără locuință acolo. Acum pragul e 5 km de localitatea de domiciliu, fără regulă de măsurare.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 13 alin. (1¹) lit. c)",
+          "before": "c) într-o localitate situată la o distanță mai mică de 20 km față de domiciliu, indiferent dacă dețin sau nu locuință în acea localitate",
+          "after": "c) într-o localitate situată la o distanță mai mică de 5 km față de localitatea de domiciliu.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dispar plafonul de 3 stele și suma pe noapte",
+          "text": "Inițial cazarea se deconta doar până la 3 stele, iar cine nu se caza primea 0,5% din indemnizație pe noapte, fără acte. Acum art. 13 alin. (1) lit. b) nu mai e modificat; rămâne regula actuală.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 13 alin. (1) lit. b)",
+          "before": "În situația în care nu beneficiază de cazare în aceste condiții, au dreptul la o sumă egală cu 0,5% din indemnizația de încadrare brută lunară pentru fiecare noapte, pe toată durata delegării sau detașării în altă localitate;",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Dispare limita de 4 călătorii pe lună",
+          "text": "Inițial se decontau cel mult 4 călătorii dus-întors pe lună, cu avion fără limită de clasă sau 7,5 l/100 km. Acum art. 13 alin. (1) lit. c) nu mai e modificat; rămâne regula actuală.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 13 alin. (1) lit. c)",
+          "before": "c) decontarea, în limita a 4 călătorii dus-întors, pe lună, a transportului aerian, naval, auto sau pe calea ferată clasa I, inclusiv vagon de dormit clasa I, ori, după caz, a 7,5 litri carburant la suta de kilometri, în situația în care deplasarea se face cu autoturismul.",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Diurna nu mai privește și deplasările de serviciu",
+          "text": "Ambele forme dau magistraților diurna bugetarilor. Inițial art. 13 alin. (1) lit. a) acoperea și deplasările în interes de serviciu; acum doar delegarea și detașarea în altă localitate.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 13 alin. (1) lit. a)",
+          "before": "a) Diurnă sau indemnizație de delegare sau detașare în cuantumul stabilit pentru personalul autorităților și instituțiilor publice pe perioada delegării sau detașării în altă localitate, precum și în cazul deplasării în interes de serviciu.",
+          "after": "a) diurnă în cuantumul stabilit pentru personalul autorităților și instituțiilor publice pe perioada delegării și detașării în altă localitate;",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Fără dispoziții tranzitorii: diurna redusă se aplică și detașărilor deja în curs",
+            "major": true,
+            "article": "art. 13 alin. (1) lit. a)"
+          },
+          {
+            "text": "Pragul de 5 km prinde foarte puține cazuri; expunerea argumenta pentru 20 km",
+            "major": true,
+            "article": "art. 13 alin. (1¹) lit. c)"
+          },
+          {
+            "text": "O locuință deținută la destinație anulează toate drepturile, inclusiv diurna și transportul",
+            "major": true,
+            "article": "art. 13 alin. (1¹) lit. b)"
+          },
+          {
+            "text": "Limitele „rezonabile” la cazare și transport, promise în expunere, lipsesc din text",
+            "major": true,
+            "article": "art. 13 alin. (1) lit. b) și c)"
+          },
+          {
+            "text": "Legea nu numește actul care fixează diurna; nivelul îl stabilește Guvernul",
+            "major": false,
+            "article": "art. 13 alin. (1) lit. a)"
+          },
+          {
+            "text": "Nu se spune cum se măsoară distanța de 5 km",
+            "major": false,
+            "article": "art. 13 alin. (1¹) lit. c)"
+          },
+          {
+            "text": "„Dețin o locuință” e neclar pentru cotă-parte, nudă proprietate sau locuință închiriată",
+            "major": false,
+            "article": "art. 13 alin. (1¹) lit. b)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Diurna magistraților se aliniază la regimul general al bugetarilor, cu economie bugetară",
+            "major": true,
+            "article": "art. 13 alin. (1) lit. a)"
+          },
+          {
+            "text": "Delegarea în localitatea de domiciliu nu mai aduce diurnă și decontări",
+            "major": true,
+            "article": "art. 13 alin. (1¹) lit. a)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 8,
+        "removed": 11,
+        "same": 0.27
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:00:53.772Z"
+    }
+  ]
+}

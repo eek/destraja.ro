@@ -1,0 +1,77 @@
+# Parlamentul României Camera Deputaților GRUPUL PARLAMENTAR S.O.S. ROMÂNIA
+
+## Expunere de motive:
+
+România este țara cu cele mai restrictive condiții de înscriere la alegerile parlamentare din Uniunea Europeană. România are un prag de semnături necesare depunerii listei de candidați de 9 ori mai mare decât media europeană. Prin numărul mare de semnături obligatorii, se îngrădește dreptul de a candida al tuturor cetățenilor, partidele neparlamentare și candidații independenți fiind direct afectați.
+
+În țările occidentale, membre UE, este nevoie de un număr simbolic de doar câteva mii de semnături. De exemplu, cel mai mare stat din UE solicita 2.000 de semnaturi pentru fiecare land, iar la nivel national 32.000 de semnaturi. Germania are o populatie de 84 milione de locuitori.
+
+Numărul uriaș, de sute de mii de semnături obligatorii, este un model electoral folosit doar de regimurile autoritare, precum cel din Rusia, Turcia, samd.
+
+Romania trebuie sa isi armonizeze legislatia ce reglementeaza procesul electoral cu cea a statelor cu traditii democratice.
+
+Numarul mare de semnatari necesari depunerii candidaturii, lasa loc in prezent unor grave abuzuri ale autoritatilor publice, care prin intimidare, santaj si alte ilegalitati, constrang alegatorii sa se teama a isi arata deschis simpatiile politice, prin semnarea listelor.
+
+În Polonia, la alegerile parlamentare, fiecare partid trebuie să strângă 5.000 de semnături în fiecare unitate teritorială pentru a-și susține lista de candidați. Însă Polonia are aproape 37 milioane locuitori.
+
+Sunt state ale UE care au eliminat numarul de semnaturi pentru susținere și au introdus o taxă ce se achită la înscrierea în cursa electorală.
+
+În Irlanda s-au stabilit ambele condiții pentru înregistrarea candidaturilor (liste de susținători și depozite electorale), cu precizarea că ele trebuie îndeplinite alternativ.
+
+Numărul mare de semnături necesare depunerii candidaturii, lasă loc în prezent unor
+
+# Parlamentul României Camera Deputaților GRUPUL PARLAMENTAR S.O.S. ROMÂNIA
+
+grave abuzuri ale autorităților publice, care prin intimidare și alte metode aflate nu doar la limita legii, ci și a moralei publice, constrâng alegătorii să se teamă a-și arăta deschis simpatiile politice, prin semnarea listelor.
+
+În egală măsură, dezavantajează o mare parte a candidaților care, în loc să se concentreze să demonstreze electoratului rațiunile pentru care ar trebui să fie aleși, meritele pe care le au, ei își consumă energiile, timpul și resursele de toate categoriile, inclusiv financiare, pe strângerea de semnături care, ulterior fiecărui ciclu electoral, la anumite intervale de timp sunt destinate distrugerii. Se creează, în mod implicit și discriminări între diferite categorii de competitori electorali, după cum aceștia provin de la forțe politice puternice, cu potențial financiar și susținere validată inclusiv prin participarea la guvernarea și administrarea țării și cei care nu au o asemenea apartenență, inclusiv independenții.
+
+Nu este de neglijat nici aspectul care privește protecția mediului, care reprezintă o problemă de actualitate la nivel global și față de care se poate constata că, din păcate, nu manifestăm întotdeauna suficient interes.
+
+Avem în vedere cantitățile de hârtie care se consumă, la baza cărora se află copaci măcelăriți inutil, într-un ecosistem în care, din păcate, a început să "ne fugă pământul de sub picioare" la propriu din cauza modului iresponsabil în care s-au realizat prea adeseori defrișările de păduri.
+
+Și nu în ultimul rând, trebuie să ne punem în acord și cu soluția existență la nivelul Uniunii Europene, din care facem parte.
+
+Soluția preconizată
+
+Propunerea noastră legislativă are ca obiect reducerea numărului de susținători prin listele de susținatori de la 0,5% din numărul total al alegătorilor înscriși în Registrul electoral la nivel național, cât este în prezent la 0,2% din numărul total al alegătorilor înscriși în Registrul electoral la nivel național, număr care este în armonie cu populația țării și în acord cu realitățile normative existente în alte state. Conform comunicatului Autorității Electorale Permanente (AEP), numărul total de cetățeni cu drept de vot înscriși în Registrul electoral, la data de 31
+
+# Parlamentul României Camera Deputaților GRUPUL PARLAMENTAR S.O.S. ROMÂNIA
+
+octombrie 2024, este de 19.002.912. Ceea ce inseamnă că vor fi necesare 38.006 semnături de susținere pentru ca un cetațean român să poată candida la alegerile prezidențiale.
+
+De asemenea, acest numar de semnături atrage, pe de o parte, o necesară legitimare a candidaților, dar le și permite acestora să se înscrie în cursa electorală fără a exista opreliști exagerate sau condiții greu de îndeplinit.
+
+Impact bugetar
+
+Propunerea legislativă nu generează un impact bugetar.
+
+Impact socio – economic
+
+Propunerea legislativă nu generează impact socio – economic.
+
+Inițiator:
+
+Tiu Mihai Adrian, deputat S.O.S. ROMÂNIA de Olt
+
+Proiect de Lege pentru modificarea și completarea Legii nr. 208 din 20 iulie 2015, privind alegerea Senatului si a Camerei Deputaților, precum și pentru organizarea și funționarea Autorității Electorale Permanente, publicată în MONITORUL OFICIAL nr. 553 din 24 iulie 2015
+
+| Nr.crt. | Deputați/Senatori | Grupul Parlamentar | Semnătură |
+| --- | --- | --- | --- |
+| 1 | Tiu ivimii-ADR'AN | S.O.S. RO |  |
+| 2. | LAZARO: IOAN | S.O.S.RO |  |
+| 3. | IONESCO TUDOR | S.O.S. RO |  |
+| 4. | IOU McAder/Miuel | S.O.S. RO |  |
+| 5. | PASCALIMI MIMI AURARAN | S.O.S. RO |  |
+| 6. | VIORA VLAG-ANDREI | S.O.S. RO |  |
+| 7. | BOSS ANA MARELA | S.O.S. RO |  |
+| 8. | SIMLI AURORA TASICA | NEAFILIAT |  |
+| 9. | OLIENASU SORIN | S.O.S. RO |  |
+| 10. | MACOVEI'JIE SI'MONA | S.O.S. RO |  |
+| 11. | TORDER ELENA-LAURA | S.O.S.RO |  |
+| 12. | NAGO VASICE | S.O.S. RO |  |
+| 13. | GOLDEREJ JONER | S.O.S. RO |  |
+| 14. | VANPO MAUOWA | Dudeput |  |
+| 15. | PLOREANU ROKDA | INDEPENDENT |  |
+| 16. | LAVASU CLAU'O | INDEPENDENT |  |
+| 17. | TAGET MADALIN LAURENTIU | INDEPENDENT |  |

@@ -1,0 +1,102 @@
+{
+  "slug": "plx-156-2026",
+  "billId": "PL-x 156/2026",
+  "updatedAt": "2026-10-29T12:42:13.781Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L557FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Penalități zilnice obligatorii pentru cine refuză să execute o hotărâre judecătorească",
+      "summaryTlDr": "Lege utilă pentru o problemă reală: debitori care ignoră ani la rând obligații stabilite de instanță. Este însă redactată neglijent: are greșeli de text, apel doar pentru creditor și o dublare a penalităților pe care motivarea nu o menționează. Trebuie corectată în comisie înainte de vot.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/50/6/se165.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Penalități zilnice aproape automate pentru cei care refuză să execute o hotărâre judecătorească",
+      "summaryTlDr": "Lege utilă, care întărește executarea hotărârilor pe care doar debitorul le poate îndeplini, de exemplu reintegrarea unui angajat sau eliberarea unui act. Forma Senatului are însă o greșeală de redactare chiar în textul-cheie și un apel acordat numai creditorului, ceea ce poate duce la practică neunitară și la obiecții de neconstituționalitate.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat textul inițiatorului fără modificări de fond, inclusiv greșeala „este obliga”",
+      "summary": "Senatul a adoptat textul inițiatorului și a schimbat doar formulări de tehnică legislativă. Rămân penalitățile obligatorii de 200–2.000 lei/zi, apelul doar pentru creditor și greșeala „este obliga”, care trebuie corectată la Cameră.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Judecătorul nu mai poate refuza penalitățile dacă sunt îndeplinite condițiile legale",
+            "major": true,
+            "article": "art. 906 alin. (1) și (2)"
+          },
+          {
+            "text": "Penalitățile se dublează la 200–2.000 lei pe zi, fără justificare în expunerea de motive",
+            "major": true,
+            "article": "art. 906 alin. (2)"
+          },
+          {
+            "text": "Doar creditorul poate face apel; debitorul nu poate ataca admiterea penalităților",
+            "major": true,
+            "article": "art. 906 alin. (2)"
+          },
+          {
+            "text": "Greșeala „este obliga” apare chiar în propoziția care face penalitatea obligatorie",
+            "major": false,
+            "article": "art. 906 alin. (2)"
+          },
+          {
+            "text": "Apelul nu are termen special, deci 30 de zile, deși se judecă de urgență",
+            "major": false,
+            "article": "art. 906 alin. (2)"
+          },
+          {
+            "text": "Așteptarea de 3 luni se aplică și respingerilor pentru vicii procedurale reparabile",
+            "major": false,
+            "article": "art. 906 alin. (1¹)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Creditorul respins poate depune o cerere nouă după 3 luni, dacă obligația rămâne neîndeplinită",
+            "major": false,
+            "article": "art. 906 alin. (1¹)"
+          },
+          {
+            "text": "Cererea de penalități se judecă de urgență, în camera de consiliu, cu citarea părților",
+            "major": false,
+            "article": "art. 906 alin. (1)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 9,
+        "removed": 12,
+        "same": 0.18
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:41:40.721Z"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+CAMERA DEPUTAȚILOR
+
+## LEGE
+
+pentru modificarea și completarea Legii nr. 227/2015 privind Codul fiscal
+
+Parlamentul României adoptă prezenta lege
+
+Articol unic. – Legea nr. 227/2015 privind Codul fiscal, publicată în Monitorul Oficial al României, Partea I, nr. 688 din 10 septembrie 2015, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 456, alineatul (1) după litera p) se introduce litera r) cu următorul cuprins:
+
+„r) clădirile care sunt utilizate ca sere, solare, răsadnițe, ciupercării, silozuri pentru furaje, silozuri și/sau pătule pentru depozitarea și conservarea cerealelor, cu excepția încăperilor care sunt folosite pentru alte activități economice.”
+
+2\. La articolul 456, alineatul (3) se abrogă.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.

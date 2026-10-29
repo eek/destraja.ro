@@ -1,9 +1,9 @@
 {
   "slug": "b570-2026",
   "billId": "B570/2026",
-  "checkedAt": "2026-10-28T08:42:00.037Z",
+  "checkedAt": "2026-10-29T12:24:53.764Z",
   "models": {
-    "agy": "error: răspuns gol după 603s (probabil timp depășit)",
+    "agy": "ok",
     "claude": "ok",
     "codex": "ok"
   },
@@ -61,7 +61,7 @@
       "foundBy": [
         "claude"
       ],
-      "quote": "Potrivit proiectului USR, sumele reținute ca impozit progresiv între 1 ianuarie 2024 și 30 ianuarie 2025 ar urma să fie returnate în trei tranșe anuale.",
+      "quote": "Deputatul USR Radu Miruță a depus un proiect de lege prin care impozitul progresiv reținut din pensiile militare și de serviciu ar urma să fie returnat din oficiu, după ce CCR a declarat neconstituționale prevederile care îl introduseseră.",
       "match": "quote",
       "firstSeenAt": "2026-10-27",
       "decision": {
@@ -141,15 +141,60 @@
       }
     },
     {
+      "url": "https://www.digi24.ro/stiri/actualitate/politica/proiect-de-lege-care-vizeaza-pensionarii-militari-depus-de-fostul-ministru-al-apararii-radu-miruta-4009325",
+      "title": "Proiect de lege care vizează pensionarii militari, depus de fostul ministru al Apărării, Radu Miruță",
+      "outlet": "Digi24",
+      "domain": "digi24.ro",
+      "publishedAt": "2026-10-26",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Proiectul de lege stabileşte modul în care să fie restituite, eşalonat, de la bugetul de stat, sumele reprezentând impozitul progresiv pe pensiile de serviciu şi pensiile militare reţinut în baza unor prevederi declarate neconstituţionale de Curtea Constituţională.",
+      "match": "quote",
+      "firstSeenAt": "2026-10-29",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-29",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.784,
+            "source": "national_news",
+            "sourceP": 0.861,
+            "about": 0.947,
+            "release": 0.498
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.702,
+            "source": "national_news",
+            "sourceP": 0.486,
+            "about": 0.731,
+            "release": 0.438
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.88,
+            "source": "national_news",
+            "sourceP": 0.99,
+            "about": 0.99,
+            "release": 0.04
+          }
+        }
+      }
+    },
+    {
       "url": "https://evz.ro/pensionarii-care-ar-putea-primi-bani-inapoi-de-la-stat-cum-ar-urma-sa-fie-restituite-sumele.html",
       "title": "Pensionarii care ar putea primi bani înapoi de la stat",
       "outlet": "Evenimentul Zilei",
       "domain": "evz.ro",
       "publishedAt": "2026-10-26",
       "foundBy": [
-        "codex"
+        "codex",
+        "agy"
       ],
-      "quote": "Proiectul stabilește un calendar de restituire eșalonată a sumelor reținute în perioada 1 ianuarie 2024 – 30 ianuarie 2025.",
+      "quote": "Proiectul USR prevede ca sumele reţinute cu titlul de impozit progresiv în perioada 1 ianuarie 2024 – 30 ianuarie 2025 să se restituie în tranşe anuale: 10% în luna decembrie 2026, 40% în luna martie 2027, 50% în luna martie 2028”, subliniază USR în comunicat.",
       "match": "quote",
       "firstSeenAt": "2026-10-28",
       "decision": {
@@ -279,9 +324,10 @@
       "domain": "stirileprotv.ro",
       "publishedAt": "2026-10-26",
       "foundBy": [
-        "claude"
+        "claude",
+        "agy"
       ],
-      "quote": "Proiectul USR prevede ca sumele reţinute cu titlul de impozit progresiv în perioada 1 ianuarie 2024 – 30 ianuarie 2025",
+      "quote": "Proiectul de lege stabileşte modul în care să fie restituite, eşalonat, de la bugetul de stat, sumele reprezentând impozitul progresiv pe pensiile de serviciu şi pensiile militare reţinut în baza unor prevederi declarate neconstituţionale de Curtea Constituţională.",
       "match": "quote",
       "firstSeenAt": "2026-10-28",
       "decision": {
@@ -368,9 +414,10 @@
       "publishedAt": "2026-10-24",
       "foundBy": [
         "claude",
-        "codex"
+        "codex",
+        "agy"
       ],
-      "quote": "Propunerea legislativă a fost înregistrată la Senat pe 19 octombrie 2026 și se află în etapa dezbaterii parlamentare.",
+      "quote": "Proiectul B570/2026 prevede restituirea sumelor reținute în perioada în care s-a aplicat impozitarea progresivă a pensiilor.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -448,15 +495,60 @@
       }
     },
     {
+      "url": "https://ziare.com/proiect-de-lege/pensionari-impozit-progresiv-restituire-part-bani-2043490",
+      "title": "Pensionarii cărora li s-a reținut impozit progresiv între 2024 și 2025 ar putea primi o parte din bani înapoi. Când ar putea fi restituite sumele",
+      "outlet": "Ziare.com",
+      "domain": "ziare.com",
+      "publishedAt": "2026-10-24",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Proiectul de lege cu numărul B570/2026 prevede restituirea sumelor reținute în perioada în care s-a aplicat impozitarea progresivă a pensiilor.",
+      "match": "quote",
+      "firstSeenAt": "2026-10-29",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-29",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.905,
+            "source": "national_news",
+            "sourceP": 0.463,
+            "about": 0.968,
+            "release": 0.059
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.925,
+            "source": "national_news",
+            "sourceP": 0.388,
+            "about": 0.777,
+            "release": 0.076
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.98,
+            "source": "aggregator",
+            "sourceP": 0.72,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
       "url": "https://ziarulunirea.ro/pensionarii-ar-putea-primi-inapoi-impozitul-retinut-in-perioada-2024-2025-restituirea-propusa-in-trei-transe-pana-in-2028-proiect-1016489",
       "title": "Pensionarii ar putea primi înapoi impozitul reținut în perioada 2024-2025: Restituirea, propusă în trei tranșe, până în 2028. Proiect",
       "outlet": "Ziarul Unirea",
       "domain": "ziarulunirea.ro",
       "publishedAt": "2026-10-24",
       "foundBy": [
-        "claude"
+        "claude",
+        "agy"
       ],
-      "quote": "Inițiativa legislativă, înregistrată cu numărul B570/2026, stabilește procedura de recalculare și restituire a diferențelor de impozit reținute în perioada în care a fost aplicat mecanismul de impozitare progresivă a pensiilor.",
+      "quote": "Potrivit unui proiect de lege înregistrat la Senat pe 19 octombrie 2026, banii ar urma să fie returnați în trei tranșe, ultima fiind programată pentru martie 2028.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -675,7 +767,7 @@
         "claude",
         "codex"
       ],
-      "quote": "Potrivit proiectului legislativ, sumele reținute suplimentar ar urma să fie restituite eșalonat, pe parcursul a trei ani calendaristici.",
+      "quote": "Propunerea legislativă B570/2026, intitulată „Propunere legislativă privind stabilirea unor măsuri de restituire a sumelor aferente impozitului progresiv”, a fost înregistrată la Senat pe 19 octombrie 2026, fiind inițiată de parlamentari USR.",
       "match": "quote",
       "decision": {
         "v": 2,

@@ -1,0 +1,275 @@
+# PARLAMENTUL ROMANIEI
+
+SENAT
+
+# CAMERA DEPUTATILOR
+
+## LEGE
+
+pentru modificarea si completarea Legii nr. 208/2015 privind alegerea Senatului și a Camerei Deputaților, precum și pentru organizarea și funcționarea Autorității Electorale Permanente, cu modificarile si completarile ulterioare
+
+Parlamentul României adoptă prezenta lege:
+
+Articol unic. Legea nr. 208/2015 privind alegerea Senatului și a Camerei Deputaților, precum și pentru organizarea și funcționarea Autorității Electorale Permanente publicată în Monitorul Oficial nr. 553 din 24 iulie 2015 cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+## 1. Articolul 5 se modifica si va avea urmatorul cuprins:
+
+(1) Senatorii și deputații se aleg prin scrutin de listă, potrivit principiului reprezentării proporționale.
+
+(2) Norma de reprezentare pentru alegerea Camerei Deputaților este de un deputat la 100.000 de locuitori.
+
+(3) Norma de reprezentare pentru alegerea Senatului este de un senator la 200.000 de locuitori.
+
+(4) Numărul locuitorilor care se iau în calcul este conform populației după domiciliu, raportat de Institutul Național de Statistică în ultimul Recensamant precedent anului în care au loc alegeri la termen.
+
+(5) Numărul de mandate pentru Senat, respectiv pentru Camera Deputaților se determină prin raportarea numărului de locuitori al fiecărei circumscripții electorale la normele de reprezentare prevăzute la alin. (2)-(4), la care se adaugă un mandat de senator, respectiv de deputat, pentru ceea ce depășește jumătatea normei de reprezentare, fără ca numărul mandatelor de senator dintr-o circumscripție electorală să fie mai mic de 1, iar cel de deputat, mai mic de 2.
+
+(6) Numărul de mandate pentru Senat, respectiv pentru Camera Deputaților, pe fiecare circumscripție în parte, sunt prevăzute în anexa nr. 1.
+
+(7) în cazul alegerilor parlamentare anticipate se iau în calcul datele utilizate la ultimele alegeri parlamentare la termen.
+
+2\. Articolul 94 se modifica si va avea urmatorul :
+
+(1) După primirea dosarelor prevăzute la art. 93, biroul electoral de circumscripție încheie, separat pentru Senat și pentru Camera Deputaților, câte un proces-verbal cuprinzând totalizarea voturilor valabil exprimate pentru fiecare partid politic, alianță politică, alianță electorală și candidat independent pe care îl înaintează în termen de 24 de ore la Biroul Electoral Central.
+
+(2) Repartizarea și atribuirea mandatelor de deputat și de senator se fac la nivelul fiecărei circumscripții electorale.
+
+(3) Pentru repartizarea mandatelor de senator si de deputat, biroul electoral de circumscripție stabilește pragul electoral al circumscripției, reprezentând 5% din numărul total al voturilor valabil exprimate în circumscripția respectivă. În cazul alianțelor politice sau alianțelor electorale, la pragul de 5% se adaugă pentru al doilea membru al alianței 2%. Pentru alianțele cu cel puțin 3 membri, pragul electoral este de 8%.
+
+(4) Pragul electoral este egal cu numărul întreg, fără zecimale, nerotunjit, rezultat din înmulțirea punctelor procentuale stabilite conform alin. (1) cu numărul total al voturilor valabil exprimate întro circumscripție electorală.
+
+(5) Atribuirea mandatelor se face avându-se în vedere numai partidele politice, organizațiile cetățenilor aparținând minorităților naționale, alianțele politice și alianțele electorale care au întrunit pragul electoral prevăzut la alin. (3) în mod distinct pentru Senat și pentru Camera Deputaților, si candidații independenți care au întrunit coeficientul electoral prevăzut la alin. (6) lit. a).
+
+(6) Repartizarea mandatelor de senator si de deputat se face astfel:
+
+a) în prima etapă, biroul electoral de circumscripție stabilește, separat pentru Senat și pentru Camera Deputaților, numărul de mandate ce revine fiecărei liste de candidați, precum și candidaților independenți, pe baza coeficientului electoral, care este egal cu numărul întreg, fără zecimale, nerotunjit, rezultat din împărțirea numărului total de voturi valabil exprimate pentru toate listele de candidați și pentru candidații independenți care au întrunit pragul electoral la numărul de deputați, respectiv de senatori, ce urmează să fie aleși în acea circumscripție; coeficientul electoral este numărul întreg, fără zecimale, nerotunjit, rezultat din această împărțire; biroul electoral de circumscripție repartizează fiecărei liste atâtea mandate de câte ori coeficientul electoral se include în numărul total al voturilor valabil exprimate pentru lista respectivă; de asemenea, este declarat ales candidatul independent care a obținut un număr de voturi cel puțin egal cu coeficientul electoral. Se consideră voturi neutilizate pentru fiecare listă de candidați a partidelor politice, alianțelor politice și alianțelor electorale voturile care au rămas după atribuirea mandatelor, precum și cele inferioare coeficientului electoral;
+
+b) dacă unui partid politic, alianțe politice sau electorale ori unei organizații a cetățenilor aparținând minorităților naționale care participă la alegeri i-au revenit, pe baza coeficientului electoral, mai multe mandate decât candidații înscriși în listă, mandatele suplimentare primite vor fi disponibilizate și vor fi repartizate în etapa a ll-a;
+
+c) în a doua etapă, biroul electoral de circumscripție repartizează mandatele neatribuite, pe baza unui tabel cuprinzând partidele politice, alianțele politice, alianțele electorale și organizațiile cetățenilor aparținând minorităților naționale care au întrunit pragul electoral, în ordinea descrescătoare a numărului de voturi neutilizate; mandatele neatribuite se repartizează partidelor politice, alianțelor politice și alianțelor electorale , în ordinea înscrierii acestora în tabel, câte unul pentru fiecare partid politic, alianță politică, alianță electorală . Dacă nu se reușește repartizarea tuturor mandatelor, operațiunea se repetă până la epuizarea acestora.
+
+(7) în situația în care una sau mai multe organizații ale cetățenilor aparținând minorităților naționale întrunesc atat pragul electoral, cat si coeficientul electoral vor participa la repartizarea mandatelor atât în etapa I, cât și în cea de-a doua etapă, ca orice partid politic. Candidații independenți care au primit un număr de voturi valabil exprimate mai mic decât coeficientul electoral stabilit nu participă în etapa a II-a de repartizare a mandatelor de senator sau deputat. Dacă unui partid politic, alianțe politice sau electorale si organizație a cetățenilor aparținând minorităților naționale i-au fost atribuite din prima etapă un număr de mandate egal cu numărul de candidaturi înscrise în listă, nu va mai participa la etapa a doua de repartizare a mandatelor chiar dacă are voturi neutilizate.
+
+(8) Se consideră voturi neutilizate pentru fiecare listă de candidați a partidelor politice, alianțelor politice, alianțelor electorale și a organizațiilor cetățenilor aparținând minorităților naționale voturile care au rămas după atribuirea mandatelor din prima etapă, precum și voturile valabil exprimate pentru partidele politice, alianțele politice sau electorale și organizații ale cetățenilor aparținând minorităților naționale care, deși au întrunit pragul electoral, nu au participat la prima etapă de distribuire a mandatelor, deoarece numărul voturilor primite este inferior coeficientului electoral.
+
+(9) Prin exceptie de la dispozitiile alin.5 organizațiile cetățenilor aparținând minorităților naționale, care nu au întrunit pragul electoral prevăzut la alin. (3), au dreptul la câte un loc de deputat, în condițiile in care au obtinut minim 1% din totalul voturilor exprimate la nivel national.
+
+(10) Candidații înscriși în liste, care nu au fost aleși, sunt declarați supleanți în listele respective. În caz de vacanță a mandatelor de senatori si de deputati aleși pe liste de candidați, supleanții vor ocupa locurile devenite vacante, în ordinea în care sunt înscriși în liste.
+
+## 3. Articolul 95 se modifica si va avea urmatorul cuprins:
+
+(1) Biroul electoral de circumscripție încheie, separat, câte un proces-verbal pentru Senat și pentru Camera Deputaților privind toate operațiunile electorale, centralizarea voturilor, constatarea rezultatului alegerilor și atribuirea mandatelor.
+
+(2) Procesul-verbal cuprinde:
+
+a) numărul total al alegătorilor prevăzuți în listele electorale din circumscripția electorală, cu respectarea formulei:
+
+pct. a = pct. a1 + pct. a2
+
+a1) numărul total al alegătorilor potrivit listelor electorale permanente, cu respectarea formulei:
+
+pct. a1 ≥ pct. b1;
+
+a2) numărul total al alegătorilor potrivit listelor electorale suplimentare, cu respectarea formulei:
+
+pct. a2 \\geq pct. b2;
+
+b) numărul total al alegătorilor care s-au prezentat la urne, înscriși în listele electorale din circumscripția electorală, cu respectarea formulei:
+
+pct. b = pct. b1 + pct. b2
+
+b1) numărul total al alegătorilor care s-au prezentat la urne, înscriși în listele electorale permanente;
+
+b2) numărul total al alegătorilor care s-au prezentat la urne, înscriși în listele electorale suplimentare;
+
+c) numărul buletinelor de vot primite, cu respectarea formulei:
+
+pct. c \\geq pct. d + pct. e + pct. f + pct. g;
+
+d) numărul buletinelor de vot neîntrebuințate și anulate;
+
+e) numărul total al voturilor valabil exprimate, cu respectarea formulei:
+
+pct. e ≤ [pct. b - (pct. f + pct. g)]; pct. e = suma voturilor valabil exprimate la pct. h;
+
+f) numărul voturilor nule;
+
+g) numărul voturilor albe;
+
+h) numărul voturilor valabil exprimate obținute de fiecare listă de candidați și candidat independent;
+
+i) modul de atribuire a mandatelor, potrivit art. 94, prenumele și numele candidaților aleși, precum și, după caz, partidul politic, alianța politică sau alianța electorală care i-a propus;
+
+j) expunerea, pe scurt, a întâmpinârilor, contestațiilor și hotărârilor luate de biroul electoral de circumscripție.
+
+(3) Procesul-verbal, împreună cu întâmpinările, contestațiile și procesele-verbale primite de la birourile electorale ale secțiilor de votare și de la oficiile electorale, după caz, formând un dosar, încheiat, sigilat, ștampilat și semnat de membrii biroului electoral, se înaintează, sub paza personalului structurilor Ministerului Afacerilor Interne la Biroul Electoral Central.
+
+(4) Buletinele de vot întrebuințate trebuie păstrate în deplină siguranță, ambalate, sigilate și etichetate, pe fiecare secție de votare, la birourile electorale de circumscripție și la sediile misiunilor diplomatice, respectiv ale oficiilor consulare, până la data publicării rezultatelor alegerilor în Monitorul Oficial al României, Partea I.
+
+## 4. Articolul 96 se modifica si va avea urmatorul cuprins:
+
+(1) Biroul Electoral Central rezolvă întâmpinările și contestațiile depuse, după care încheie câte un proces-verbal separat pentru Senat și pentru Camera Deputaților, cuprinzând, pe întreaga țară:
+
+a) numărul total al alegătorilor înscriși în listele electorale permanente și în listele electorale suplimentare, din care:
+
+\-numărul total al alegătorilor înscriși în listele electorale permanente;
+
+\-numărul total al alegătorilor înscriși în listele electorale suplimentare;
+
+b) numărul total al alegătorilor înscriși în listele electorale, care s-au prezentat la urne, din care:
+
+—numărul total al alegătorilor înscriși în listele electorale permanente;
+
+\-numărul total al alegătorilor înscriși în listele electorale suplimentare;
+
+c) numărul total al voturilor valabil exprimate;
+
+d) numărul voturilor nule;
+
+e) numărul voturilor valabil exprimate, obținute de fiecare listă de candidați sau de fiecare candidat independent;
+
+f) numărul buletinelor de vot primite de secțiile de votare;
+
+g) numărul buletinelor de vot neîntrebuințate și anulate;
+
+h)constatarea cu privire la modul de aplicare de către birourile electorale de circumscripție a prevederilor art. 94;
+
+i)repartizarea pe țară a mandatelor potrivit art. 94 și desfășurarea acestora pe circumscripții electorale potrivit aceluiași articol;
+
+j) modul de soluționare a contestațiilor și întâmpinărilor primite.
+
+(2) Procesele-verbale se semnează de către președinte, de locțiitorul acestuia și de ceilalți membri ai Biroului Electoral Central în prezența cărora au fost întocmite și se înaintează Senatului și Camerei Deputaților, în vederea validării alegerilor, împreună cu dosarele întocmite de birourile electorale de circumscripție. Lipsa semnăturii unor membri ai birourilor nu are influență asupra valabilității procesului-verbal și a alegerilor. Președintele menționează motivele care au împiedicat semnarea.
+
+Anexa 1
+
+Denumirea, numerotarea și numărul de mandate aferent circumscripțiilor electorale
+
+Numărul Numărul de mandate de Numărul de mandate de circumscripției Delimitarea teritorială a senatori pentru fiecare deputați pentru fiecare electorale circumscripției electorale circumscripție electorală circumscripție electorală Circumscripția
+
+electorală nr. 1 județul Alba 2 3 Circumscripția
+
+electorală nr.2 județul Arad 2 4 Circumscripția
+
+electorală nr. 3 județul Argeș 3 6 Circumscripția
+
+electorală nr. 4 județul Bacău 3 6 Circumscripția
+
+electorală nr. 5 județul Bihor 3 6 Circumscripția
+
+electorală nr. & județul Bistrița-Năsăud 1 3 Circumscripția
+
+electorală nr. 7 județul Botoșani 2 4 Circumscripția
+
+electorală nr.8 județul Brașov 3 5 Circumscripția
+
+electorală nr. 9 județul Brăila 1 3 Circurmscripția
+
+electorală nr. 10 județul Buzău 2 4 Circumscripția
+
+electorală nr. 11 [județul Caraș-Severin 1 2 Circumscripția
+
+electorală nr. 12 județul Călărași 1 3 Circumscripția
+
+electorală nr. 13 județul Cluj 3 7 Circumscripția
+
+electorală nr. 14 județul Constanța 3 7 Circumscripția
+
+electorală nr. 15 jjudețul Covasna 1 2
+
+Circumscripția electorală nr. 16
+
+județul Dâmbovița
+
+Circumscripția electorală nr. 17
+
+județul Dolj
+
+Circumscripția electorală nr. 18
+
+județul Galați
+
+Circumscripția electorală nr. 19
+
+județul Giurgiu
+
+Circumscripția electorală nr. 20
+
+județul Gorj
+
+Circumscripția electorală nr. 21
+
+județul Harghita
+
+Circumscripția electorală nr. 22
+
+județul Hunedoara
+
+Circumscripția electorală nr. 23
+
+udețul Ialomița
+
+Circumscripția electorală nr. 24
+
+județul lași
+
+Circumscripția electorală nr. 25
+
+udețul Ilfov
+
+Circumscripția electorală nr. 26
+
+județul Maramureș
+
+Circumscripția electorală nr. 27
+
+județul Mehedinți
+
+Circumscripția electorală nr. 28
+
+județul Mureș
+
+Circumscripția lefectorală nr. 29
+
+județul Neamț
+
+Circumscripția electorală nr. 30
+
+județul Olt
+
+Circumscripția lelectorată nr. 31
+
+județul Prahova
+
+Circumscripția electorală nr. 32
+
+județul Satu Mare
+
+Circumscripția electorală nr. 33. județul Sălaj 1 2
+
+Circumscripția electorală nr. 34 județul Sibiu 2 4
+
+Circumscripția electorală nr. 35 județul Suceava 3 6
+
+Circumscripția electorală nr. 36 județul Teleorman 2 3
+
+Circumscripția electorală nr. 37 județul Timiș 3 7
+
+Circumscripția electorală nr. 38. județul Tulcea 1 2
+
+Circumscripția electorală nr. 39. județul Vaslui 2 4
+
+Circumscripția electorală nr. 40 |județul Vâlcea 2 3
+
+Circumscripția electorală nr. 41. județul Vrancea 2 3
+
+Circumscripția
+
+electorală nr.42 jmunicipiul București p 18 Circumscripția electorală
+
+Circumscripția pentru cetățenii români cu
+
+electorală nr. 43 [domiciliul în afara țării d 8
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art 76 alin. 3 din Constituția României, republicată.
+
+Președintele Senatului Președintele Camerei Deputatilor

@@ -1,0 +1,153 @@
+{
+  "slug": "plx-249-2026",
+  "billId": "PL-x 249/2026",
+  "updatedAt": "2026-10-29T12:56:23.949Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L092FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Gărzile de 24 de ore ale medicilor să conteze ca două zile de vechime",
+      "summaryTlDr": "Intenția e corectă: recunoașterea gărzilor medicale. Textul e însă scris greșit, pentru că o gardă obișnuită de 24 de ore (08:00–08:00) nu «acoperă integral» nicio zi calendaristică, deci legea fie rămâne fără efect, fie premiază doar gărzile mai lungi. Nu e periculoasă pentru cetățeni, dar are un cost bugetar nedeclarat și va naște litigii.",
+      "scores": {
+        "agy": 3,
+        "claude": 4,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/200/40/9/se273.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Gărzile medicilor sunt declarate timp de muncă, dar vechimea se calculează la fel ca până acum",
+      "summaryTlDr": "Legea e inofensivă, dar aproape goală. Senatul a scos exact regula promisă (fiecare zi acoperită de gardă să conteze ca zi separată de vechime), iar ce a rămas repetă ce spun deja legislația muncii și dreptul UE. Riscul real e confuzia: titlul și fișa Camerei promit medicilor un câștig pe care textul nu îl mai dă.",
+      "scores": {
+        "agy": 3,
+        "claude": 2,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Senatul a scos ziua distinctă de vechime pentru gărzi; legea doar repetă regulile actuale",
+      "summary": "Inițial, fiecare zi acoperită integral de gardă devenea zi distinctă de vechime, o regulă greu aplicabilă și fără calcul de cost. Acum textul nu mai acordă nimic în plus medicilor și trimite la regulile existente, dar se aplică doar spitalelor publice și are erori.",
+      "changes": [
+        {
+          "title": "Ziua de gardă nu mai aduce vechime în plus",
+          "text": "Art. 386¹: dispare regula «zi de gardă = zi distinctă de vechime», care practic nu acoperea gărzile de 24 de ore și ar fi adus costuri salariale nebugetate. Medicii nu mai primesc însă nimic în plus.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 386¹ alin. (1), (2) și (5)",
+          "before": "Pentru calculul vechimii în muncă, fiecare zi calendaristică acoperită integral de activitatea de gardă constituie zi distinctă de vechime în muncă.",
+          "after": "Prevederile prezentului articol nu instituie derogări de la regimul juridic general al timpului de muncă, al muncii suplimentare și al timpului de odihnă și nu aduc atingere drepturilor și obligațiilor stabilite de legislația muncii.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Codul muncii nu mai este modificat",
+          "text": "Art. II din forma inițiatorului, care repeta regula vechimii pentru gărzi în Codul muncii, a fost scos, iar titlul legii vizează acum doar Legea nr. 95/2006.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. II (Codul muncii, art. 194¹)",
+          "before": "Pentru personalul medical care efectuează gărzi cu durata de cel puțin 24 de ore, vechimea în muncă se stabilește prin raportare la numărul de zile calendaristice acoperite integral de activitatea prestată.",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Legea vizează doar gărzile din spitalele publice",
+          "text": "Art. 386¹ alin. (1) se aplică acum doar în unitățile sanitare publice, deși gărzi se fac și în spitalele private. A dispărut și pragul de cel puțin 24 de ore.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 386¹ alin. (1)",
+          "before": "Activitatea de gardă desfășurată de personalul medical, cu durata de cel puțin 24 de ore, se consideră timp de muncă în sensul Codului muncii.",
+          "after": "Activitatea de gardă desfășurată de personalul medical în unitățile sanitare publice, organizată potrivit reglementărilor legale speciale privind timpul de muncă și efectuare gărzilor, constituie timp de muncă.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Gărzile suplimentare, tratate ca muncă suplimentară",
+          "text": "Art. 386¹ alin. (3), nou: gărzile pe un contract distinct se socotesc după regulile muncii suplimentare, deși pe contractul cu timp parțial Codul muncii interzice în principiu munca suplimentară.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 386¹ alin. (3)",
+          "before": null,
+          "after": "Orele de gardă suplimentare, efectuate în baza unui contact individual de muncă distinct sau a unui act adițional, se valorifică la stabilirea vechimii în muncă și în specialitate în măsura și în condițiile prevăzute de legislația muncii aplicabile muncii suplimentare.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Spitalele nu mai trebuie să evidențieze distinct gărzile",
+          "text": "Dispare obligația angajatorilor de a evidenția separat zilele de gardă în pontaj și registre; art. 386¹ alin. (4) trimite acum la reglementările speciale în vigoare.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 386¹ alin. (4)",
+          "before": "Angajatorii din unitățile sanitare au obligația de a evidenția distinct zilele de gardă prevăzute la alin. (1) în documentele interne de pontaj și în registrul de evidență a timpului de muncă.",
+          "after": "Modalitatea de evidență, organizare și efectuare a activității de gardă, precum și regulile de valorificare a acesteia din perspectiva vechimii în muncă și în specialitate se stabilesc potrivit reglementărilor legale speciale în vigoare.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Textul nu mai face ce promite expunerea: nicio vechime în plus pentru gărzi",
+            "major": true,
+            "article": "art. 386¹ alin. (5)"
+          },
+          {
+            "text": "Regulile muncii suplimentare nu se potrivesc gărzilor pe contract cu timp parțial",
+            "major": true,
+            "article": "art. 386¹ alin. (3)"
+          },
+          {
+            "text": "Se aplică doar unităților sanitare publice, nu și spitalelor private",
+            "major": true,
+            "article": "art. 386¹ alin. (1)"
+          },
+          {
+            "text": "Trimiteri circulare la regulile existente, fără conținut normativ propriu",
+            "major": false,
+            "article": "art. 386¹ alin. (2)-(4)"
+          },
+          {
+            "text": "Erori materiale: «contact individual de muncă» și «efectuare gărzilor»",
+            "major": false,
+            "article": "art. 386¹ alin. (1) și (3)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Fără vechime accelerată, nu mai apar costuri salariale nebugetate în spitale",
+            "major": true,
+            "article": "art. 386¹ alin. (5)"
+          },
+          {
+            "text": "Gărzile sunt recunoscute expres ca timp de muncă",
+            "major": false,
+            "article": "art. 386¹ alin. (1)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 8,
+        "removed": 11,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:56:23.948Z"
+    }
+  ]
+}

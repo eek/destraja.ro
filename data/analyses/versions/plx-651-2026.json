@@ -1,0 +1,122 @@
+{
+  "slug": "plx-651-2026",
+  "billId": "PL-x 651/2026",
+  "updatedAt": "2026-10-29T13:25:15.951Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L376FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Viză și ședere pentru sportivii străini care joacă pe contract de activitate sportivă",
+      "summaryTlDr": "Lege tehnică și utilă. Le dă cluburilor un drum legal clar pentru sportivii din afara UE care nu au contract de muncă. Riscul e mic, dar textul are greșeli de redactare și nu se apără de cluburile de fațadă.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/600/50/1/se738.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Sportivii din afara UE pot primi viză și drept de ședere pe baza contractului sportiv, nu doar a celui de muncă",
+      "summaryTlDr": "Lege tehnică și utilă cluburilor, care pune capăt contractelor de muncă de fațadă pentru sportivii din afara UE. Riscul vine din redactarea grăbită și din lipsa câtorva garanții, nu din intenția legii.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat tacit textul inițiatorului, fără nicio modificare de fond",
+      "summary": "Senatul nu a modificat nimic de fond: proiectul a fost considerat adoptat tacit, în forma inițială. Diferențele sunt doar de redactare, iar problemele rămân: viza pentru sportivi cere doar un contract, fără afiliere la federație sau acordul părinților pentru minori.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Viza pentru sportivi cere doar contractul, fără afiliere la federație sau remunerație minimă",
+            "major": true,
+            "article": "art. I pct. 1 (art. 49 alin. (1) lit. h) OUG 194/2002)"
+          },
+          {
+            "text": "Ruta sportivă ocolește avizul de angajare și probabil contingentul, încurajând evitarea contractului de muncă",
+            "major": true,
+            "article": "art. I pct. 1 (art. 49 alin. (1) lit. h) OUG 194/2002)"
+          },
+          {
+            "text": "Pentru sportivii minori nu se cere acordul părinților sau al tutorelui",
+            "major": true,
+            "article": "art. I pct. 1 (art. 49 alin. (1) lit. h) OUG 194/2002)"
+          },
+          {
+            "text": "Nu spune ce se întâmplă la încetarea anticipată, transfer sau împrumut la alt club",
+            "major": false,
+            "article": "art. I pct. 3 (art. 69 alin. (8) OUG 194/2002)"
+          },
+          {
+            "text": "Neclar dacă prelungirea acoperă toată durata contractului sau doar restul ei",
+            "major": false,
+            "article": "art. I pct. 3 (art. 69 alin. (8) OUG 194/2002)"
+          },
+          {
+            "text": "Lit. h) vorbește de cei care „desfășoară” activitatea, deși viza se cere înainte",
+            "major": false,
+            "article": "art. I pct. 1 (art. 49 alin. (1) lit. h) OUG 194/2002)"
+          },
+          {
+            "text": "Art. II: nu e clar dacă „unuia” înseamnă alt contract sau alt drept",
+            "major": false,
+            "article": "art. II (art. 14 alin. (5) Legea 69/2000)"
+          },
+          {
+            "text": "Art. II omite formula care spune că se modifică alin. (5)",
+            "major": false,
+            "article": "art. II"
+          },
+          {
+            "text": "Greșeală de scriere în art. II: „territoriul”",
+            "major": false,
+            "article": "art. II (art. 14 alin. (5) Legea 69/2000)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Sportivii străini cu contract sportiv primesc o rută proprie de viză și ședere",
+            "major": true,
+            "article": "art. I pct. 1-2 (art. 49 alin. (1) lit. h) și art. 69 alin. (1) lit. j) OUG 194/"
+          },
+          {
+            "text": "Prelungirea șederii pe durata contractului, maximum 2 ani, reduce birocrația",
+            "major": false,
+            "article": "art. I pct. 3 (art. 69 alin. (8) OUG 194/2002)"
+          },
+          {
+            "text": "Contractul trebuie încheiat cu o structură înregistrată în Registrul Sportiv",
+            "major": false,
+            "article": "art. I pct. 1 (art. 49 alin. (1) lit. h) OUG 194/2002)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 8,
+        "removed": 9,
+        "same": 0.2
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:24:23.486Z"
+    }
+  ]
+}

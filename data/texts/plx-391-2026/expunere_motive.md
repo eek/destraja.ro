@@ -1,0 +1,117 @@
+## EXPUNERE DE MOTIVE
+
+Prezenta inițiativă legislativă propune instituirea a unor garanții suplimentare de transparență și integritate în concursurile pentru ocuparea posturilor vacante ale personalului medical. În acest sens, propunem participarea observatorilor independenți acreditați din partea societății civile pentru a supraveghea desfășurarea concursurilor din spitalele publice cu scopul de a se asigura că procedurile se derulează corect, fără privilegii sau favoritisme.
+
+Necesitatea reglementării survine ca urmare a vulnerabilităților intens prezentate în spațiul public care descriu suspiciuni de favorizare și tratament inegal în procedurile de concurs în spitalele naționale. În domeniul sanitar, calitatea resursei umane are consecințe directe asupra sănătății publice și a încrederii pe care pacienții o au asupra tratamentelor medicale efectuate. Orice deficit de transparență, chiar și în aparență, duce la demotivarea candidaților, la degradarea climatului profesional de muncă, la scăderea calității serviciilor publice și, în fond, la evitarea de către pacienți a sistemului public de sănătate.
+
+Pentru a adresa aceste riscuri sistemice, propunem crearea unui cadru procedural pentru a asigura că în unitățile sanitare concursurile se desfășoară în mod obiectiv, prin supraveghere externă, din partea observatorilor independenți. În cadrul concursurilor personalului medical, aceștia vor supraveghea respectarea regulilor de organizare și desfășurare, vor consemna operațiunile desfășurate, asigurând tratamentul uniform al candidaților, în etapa de evaluare și de soluționare a contestațiilor.
+
+Observatorii independenți acreditați din partea societății civile vor fi persoane desemnate din afara unității sanitare organizatoare a concursului, selectate exclusiv dintre organizațiile neguvernamentale legal constituite, care au ca obiect de activitate protecția sănătățiii publice, drepturile pacientului, sau alte activități similare în ceea ce privește sistemul sanitar. Organizațiile neguvernamentale vor fi acreditate în prealabil de Ministerul Sănătății în baza unei proceduri publice și transparente. Observatorii nu vor putea interveni în evaluarea profesională a candidaților, în stabilirea subiectelor ori a baremelor, rolul lor fiind limitat la supravegherea respectării regulilor procedurale, consemnarea eventualelor neregularități în documentele concursului, putând formula un raport de observare.
+
+Procedura pe care o propunem nu este străină dreptului pozitiv românesc. În acest sens, există mecanisme de observare externă a unor operațiuni competitive care prezintă un interes public ridicat. Un prim exemplu îl reprezintă posibilitatea de a participa cu titlu de observator a reprezentanților federațiilor sindicale reprezentative la nivel de sector la etapele de organizare și desfășurare a concursurilor organizate de inspectorate sau de unitățile de învățământ, în conformitate cu Legea învățământului preuniversitar nr. 198/2023. Un alt exemplu, îl reprezintă procedurile electorale, în care pot participa observatori electorali acreditați pentru a asista la operațiunile birourilor electorale în vederea supravegherii asupra corectitudinii aplicării legislației în domeniu. Totodată, conform Ordinului MS nr. 166/2023, se prevede participarea reprezentantului organizației sindicale reprezentative la nivel de unitate în cadrul comisiilor constituite pentru concurs, cu rol de observator; totuși, acesta face parte chiar din unitatea medicală care organizează concursului, neavând capacitatea de a înlătura complet orice suspiciune de favorizare a anumitor candidați, motiv pentru care este necesară participarea și a unui terț observator.
+
+Având în vedere toate acestea, propunerea sprijină un sector important în societate deoarece personalul medical ales pe criterii complet meritocratice va determina creșterea calității serviciilor de sănătate publică. Observatorul independent are capacitatea reală de a crește transparența și integritatea concursurilor în spitalele publice, acționând ca un „watchdog” împotriva corupției, abuzurilor și tratamentelor inegale.
+
+Tabel comparativ:
+
+| FORMA ÎN VIGOARE | FORMA PROPUSĂ |
+| --- | --- |
+| Legea nr. 95/2006 privind reforma în domeniul sănătății - art. 180 alin. (3) | Legea nr. 95/2006 privind reforma în domeniul sănătății - art. 180 alin. (3) |
+| (3) Concursul pentru ocuparea posturilor vacante se organizează la nivelul spitalului, iar repartizarea personalului pe locuri de muncă este de competența managerului. | (3) Concursul pentru ocuparea posturilor vacante se organizează la nivelul spitalului, iar repartizarea personalului pe locuri de muncă este de competența managerului. La concursul pentru ocuparea posturilor vacante participă observatori independenți acreditați din partea societății civile în conformitate cu metodologia aprobată prin ordin al ministrului sănătății. |
+
+inițiatori:
+
+Murariu Oana - deputat USR(
+
+Cibu Deaconu Ruxandra - senator USR
+
+Ungureanu Emanuel-Dumitru - deputat USR
+
+Stoica Diana - deputat:USR
+
+Wiener Adrian - deputat USR
+
+Propunere legislativă pentru modificarea art. 180 din Legea nr. 95/2006 privind reforma în domeniul sănătății
+
+| Nr. crt. | Deputat/Senator | GrupParlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1 | Morussi George | USR |  |
+| 2 | VADUVA AONITRU | USR |  |
+| 3 | PLUSAR ANDREI | USR |  |
+| 4 | Paraschivesa Vidin | USR |  |
+| 5 | Bulescă țăcu | USR |  |
+| 6 | GHEORCHIV ANDREI | USR |  |
+| 7 | TANAZR STEFAN | USR |  |
+| 8 | PAUNĂ COUTAIVA | USR |  |
+| 9 | SENOROIU VLAD-10AN | USR |  |
+| 10 | CRISTAN BRAN | USR |  |
+| 11 | Radu Mihajin | USR |  |
+| 12 | PAUN CYNTHIA | USR |  |
+| 13 | ALIN STOICE | USR |  |
+| 14 | Dimi-mir ALEXANDU | USR |  |
+| 15 | ATATHASIV CODIHA | USR |  |
+| 16 | DRAGOTSCH CEZAR | USR |  |
+| 17 | STEFAN-ILLIAN LOAINCZ | USR |  |
+| 18 | Rocleanu Bogdan | USR |  |
+| 19 | BOTIEZ MIHAI-CĂTĂLIJ | USR |  |
+| 20 | ALECSANDRU HARIUS-NIPOLAE | USR |  |
+| 21 | NPSUY CĂULJU | USR |  |
+| 22 | BLAGA DANIEZ | USR |  |
+
+Propunere legislativă pentru modificarea art. 180 din Legea nr. 95/2006 privind reforma în domeniul sănătății
+
+<table>
+<tbody>
+<tr><td>Nr. crt.</td><td>Deputat/Senator</td><td>GrupParlamentar</td><td rowspan="3">Semnătura</td></tr>
+<tr><td>1</td><td>RUS VASILE-CIPRIAN</td><td>USR</td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+Propunere legislativă pentru modificarea art. 180 din Legea nr. 95/2006 privind reforma în domeniul sănătății
+
+<table>
+<tbody>
+<tr><td>Nr. crt.</td><td>Deputat/Senator</td><td>GrupParlamentar</td><td rowspan="7">Semnătura</td></tr>
+<tr><td>1.</td><td>POPA ADRIAN</td><td>PSD</td></tr>
+<tr><td>2.</td><td>VASS LEVENTE</td><td>UDMR</td></tr>
+<tr><td>3.</td><td>Orihui Vicin GANT</td><td>MINORITATI</td></tr>
+<tr><td>4.</td><td>Sheno Giunoci-Sloboda</td><td>HAM.</td></tr>
+<tr><td>5.</td><td>POGDAN IONEL</td><td>PNL</td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>

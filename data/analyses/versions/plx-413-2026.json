@@ -1,0 +1,137 @@
+{
+  "slug": "plx-413-2026",
+  "billId": "PL-x 413/2026",
+  "updatedAt": "2026-10-29T12:35:40.292Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L170FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Pensie privată de până la 500 lei/lună pentru angajați, plătită din impozitul pe profit al firmei",
+      "summaryTlDr": "Scopul e bun: mai mulți bani în pensiile private ale angajaților. Textul e însă scris neglijent: rescrie integral regula sponsorizărilor, poate șterge reguli de care depind ONG-urile și afirmă, greșit, că nu costă nimic bugetul. Pentru majoritatea angajaților, beneficiul real ar fi mic.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/10/3/se444.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Pensie ocupațională de până la 500 lei/lună plătită de firmă din impozitul pe profit",
+      "summaryTlDr": "Scopul e util: pensii suplimentare pentru salariați. Textul e însă scris neglijent: rescrie integral regula sponsorizărilor și riscă să șteargă bursele private și reportarea pe 7 ani, are erori de numerotare și pretinde fals că nu costă bugetul. Riscul e moderat și se poate repara prin amendamente în comisie.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat tacit forma inițiatorului; doar corecturi de redactare, riscurile rămân",
+      "summary": "Proiectul se consideră adoptat de Senat în forma inițială, fără vot pe text. Diferențele sunt doar de redactare (spații, punctuație, ghilimele, o greșeală corectată), deci creditul fiscal pentru pensii ocupaționale și problemele lui rămân aceleași.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Beneficiul de 500 lei/angajat e realist doar la firme foarte profitabile",
+            "major": true,
+            "article": "art. I pct. 1 (art. 25 alin. (4) lit. i))"
+          },
+          {
+            "text": "Pensiile concurează cu sponsorizările pe același plafon; ONG-urile și cultele pot pierde bani",
+            "major": true,
+            "article": "art. I pct. 1 (art. 25 alin. (4) lit. i))"
+          },
+          {
+            "text": "Rescrierea literei i) elimină tacit bursele private și reportarea pe 7 ani",
+            "major": true,
+            "article": "art. I pct. 1 (art. 25 alin. (4) lit. i))"
+          },
+          {
+            "text": "Partea peste plafon riscă să rămână cheltuială nedeductibilă, mai dezavantajoasă decât un salariu",
+            "major": true,
+            "article": "art. I pct. 1 (art. 25 alin. (4) lit. i))"
+          },
+          {
+            "text": "Statul pierde circa 207 lei/lună pe angajat, inclusiv din bugetul de pensii publice",
+            "major": true,
+            "article": "art. I pct. 2 și 3 (art. 76 alin. (4), art. 142 lit. s))"
+          },
+          {
+            "text": "Expunerea de motive afirmă lipsă de impact bugetar, contrazisă de pierderile probabile",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Avantaj mult mai mare decât Pilonul III, necorelat cu plafonul de 400 euro/an",
+            "major": true,
+            "article": "art. I pct. 1 (art. 25 alin. (4) lit. i))"
+          },
+          {
+            "text": "Plafoanele de 0,75% și 20% trebuie verificate față de Codul fiscal în vigoare",
+            "major": false,
+            "article": "art. I pct. 1 (art. 25 alin. (4) lit. i))"
+          },
+          {
+            "text": "Numerotare greșită: litera x) introdusă după litera y) la art. 76",
+            "major": false,
+            "article": "art. I pct. 2 (art. 76 alin. (4))"
+          }
+        ],
+        "good": [
+          {
+            "text": "Contribuția angajatorului nu e venit impozabil pentru angajat și nici bază de CAS/CASS",
+            "major": true,
+            "article": "art. I pct. 2 și 3 (art. 76 alin. (4) lit. x), art. 142 lit. s) pct. 6)"
+          },
+          {
+            "text": "Firmele scad contribuția direct din impozitul pe profit, în limita plafonului comun",
+            "major": true,
+            "article": "art. I pct. 1 (art. 25 alin. (4) lit. i))"
+          },
+          {
+            "text": "Pensiile pot ocupa cel mult jumătate din plafon, lăsând loc sponsorizărilor",
+            "major": true,
+            "article": "art. I pct. 1 (art. 25 alin. (4) lit. i) pct. 3)"
+          },
+          {
+            "text": "Sponsorizările către ONG-uri și culte cer în continuare înscrierea în Registru",
+            "major": true,
+            "article": "art. I pct. 1 (art. 25 alin. (4) lit. i))"
+          },
+          {
+            "text": "Intră în vigoare la 1 ianuarie a anului următor publicării, predictibil pentru firme",
+            "major": false,
+            "article": "art. II alin. (1)"
+          },
+          {
+            "text": "Ministerul Finanțelor și ASF au termen de 90 de zile pentru normele de aplicare",
+            "major": false,
+            "article": "art. II alin. (2) și (3)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 11,
+        "removed": 10,
+        "same": 0.35
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:34:12.329Z"
+    }
+  ]
+}

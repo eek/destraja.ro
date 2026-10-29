@@ -1,0 +1,45 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+## LEGE
+
+pentru modificarea art. 46 din Legea nr. 360/2023 privind sistemul public de pensii și a art. 56 din Legea nr. 53/2003 privind Codul muncii
+
+Parlamentul României adoptă prezenta lege
+
+Art. I – Articolul 46 din Legea nr. 360/2023 privind sistemul public de pensii, publicată în Monitorul Oficial al României, Partea I, nr. 1089 din 4 decembrie 2023, se modifică și va avea următorul cuprins:
+
+„(1) Pensia pentru limită de vârstă se cuvine persoanelor care îndeplinesc, cumulativ, la data pensionării, condițiile privind vârsta standard de pensionare și stagiul minim de cotizare prevăzute în anexa nr. 5.
+
+(2) Acordarea și exercitarea dreptului la pensie pentru limită de vârstă nu sunt condiționate de încetarea, suspendarea sau inexistența unui raport de muncă ori de serviciu, public sau privat.
+
+(3) Exercitarea dreptului la muncă de către beneficiarul pensiei pentru limită de vârstă nu constituie temei pentru suspendarea, restrângerea sau retragerea dreptului la pensie pentru limită de vârstă."
+
+Art. II – La articolul 56 din Legea nr. 53/2003 privind Codul muncii, republicată în Monitorul Oficial al României, Partea I, nr. 345 din 18 mai 2011, cu modificările și completările ulterioare, alineatele (1) și (2) se modifică și vor avea următorul cuprins:
+
+„(1) Contractul individual de muncă existent încetează de drept:
+
+a) la data decesului salariatului sau al angajatorului persoană fizică, precum și în cazul dizolvării angajatorului persoană juridică, de la data la care angajatorul și-a încetat existența conform legii;
+
+b) la data rămânerii definitivă a hotărârii judecătorești de declarare a morții sau a instituirii tutelei speciale a salariatului sau a angajatorului persoană fizică;
+
+c) ca urmare a constatării nulității absolute a contractului individual de muncă, de la data la care nulitatea a fost constatată prin acordul părților sau prin hotărâre judecătorească definitivă;
+
+d) ca urmare a admiterii cererii de reintegrare în funcția ocupată de salariat a unei persoane concediate nelegal sau pentru motive neîntemeiate, de la data rămânerii definitive a hotărârii judecătorești de reintegrare;
+
+e) ca urmare a condamnării la executarea unei pedepse privative de libertate, de la data rămânerii definitive a hotărârii judecătorești;
+
+f) de la data retragerii de către autoritățile sau organismele competente a avizelor, autorizațiilor ori atestărilor necesare pentru exercitarea profesiei;
+
+g) ca urmare a interzicerii exercitării unei profesii sau a unei funcții, ca măsură de siguranță ori pedeapsă complementară, de la data rămânerii definitive a hotărârii judecătorești prin care s-a dispus interdicția;
+
+h) la data expirării termenului contractului individual de muncă încheiat pe durată determinată;
+
+i) retragerea acordului părinților sau al reprezentanților legali, în cazul salariaților cu vârsta cuprinsă între 15 și 16 ani.
+
+(2) Pentru situațiile prevăzute la alin. (1) lit. c)-i), constatarea cazului de încetare de drept a contractului individual de muncă se face în termen de 5 zile lucrătoare de la intervenirea acestuia, în scris, prin decizie a angajatorului, și se comunică persoanelor aflate în situațiile respective în termen de 5 zile lucrătoare."
+
+Art. III - Legea nr. 53/2003 privind Codul muncii, republicată în Monitorul Oficial al României, Partea I, nr. 345 din 18 mai 2011, cu modificările și completările ulterioare, și cu cele aduse prin prezenta lege, va fi republicată, dându-se textelor o nouă numerotare.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.

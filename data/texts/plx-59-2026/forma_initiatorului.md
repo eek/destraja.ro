@@ -1,0 +1,11 @@
+CAMERA DEPUTAȚILOR
+
+SENATUL
+
+LEGE
+
+# pentru aprobarea Ordonanței de urgență a Guvernului nr. 73/2025 privind unele măsuri pentru realizarea de investiții în domeniul securității naționale prin asigurarea unor condiții optime dezvoltării de proiecte ale operatorilor economici din industria de apărare
+
+Parlamentul României adoptă prezenta lege.
+
+Articol unic. – Se aprobă Ordonanța de urgență a Guvernului nr. 73/2025 privind unele măsuri pentru realizarea de investiții în domeniul securității naționale prin asigurarea unor condiții optime dezvoltării de proiecte ale operatorilor economici din industria de apărare.

@@ -1,0 +1,33 @@
+# PARLAMENTUL ROMÂNIEI
+
+# SENAT
+
+## LEGE
+
+## pentru completarea Legii nr. 227/2015 privind Codul fiscal
+
+## Senatul adoptă prezentul proiect de lege
+
+Art.I.- Legea nr.227/2015 privind Codul fiscal, publicată în Monitorul Oficial al României, Partea I, nr.688 din 10 septembrie 2015, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 76 alineatul (4), după litera j) se introduce o nouă literă, litera j¹), cu următorul cuprins:
+
+„j¹) sumele reprezentând primele de asigurare de răspundere civilă profesională achitate de persoanele fizice care realizează venituri din salarii, inclusiv de către funcționarii publici, personalul contractual și persoanele care obțin venituri asimilate salariilor prevăzute la art.76 alin.(2) lit.a), în scopul acoperirii riscurilor profesionale, încheiate în nume propriu, în limita unui plafon anual stabilit prin norme metodologice;”
+
+2\. La articolul 77, după alineatul (13) se introduce un nou alineat, alineatul (13¹), cu următorul cuprins:
+
+„(13¹) Se acordă o deducere personală suplimentară reprezentând sumele achitate cu titlu de primă de asigurare de răspundere civilă profesională, încheiată în nume propriu de persoanele fizice care realizează venituri din salarii, inclusiv de către funcționarii publici, personalul contractual și persoanele care obțin venituri asimilate salariilor prevăzute la art.76 alin.(2) lit.a), în scopul acoperirii riscurilor profesionale, în limita unui plafon anual stabilit prin norme metodologice.”
+
+## 3. La articolul 78 alineatul (2) litera a), după subpunctul (v) se introduce un nou subpunct, subpunctul (vi), cu următorul cuprins:
+
+„(vi) primele de asigurare de răspundere civilă profesională achitate de persoanele fizice care realizează venituri din salarii, inclusiv de către funcționarii publici, personalul contractual și persoanele care obțin venituri asimilate salariilor prevăzute la art.76 alin.(2) lit.a), în scopul acoperirii riscurilor profesionale, încheiate în nume propriu, în limita unui plafon anual stabilit prin norme metodologice.”
+
+Art.II.- Prezenta lege intră în vigoare la data de 1 ianuarie 2027.
+
+Art.III.- În termen de 60 de zile de la publicarea prezentei legi în Monitorul Oficial al României, Partea I, Ministerul Finanțelor elaborază normele metodologice de aplicare a prevederilor acesteia, care se aprobă prin ordin al ministrului finanțelor.
+
+Acest proiect de lege se consideră adoptat de Senat în forma inițială, în condițiile articolului 75 alineatul (2) teza a III-a din Constituția României, republicată.
+
+PREȘEDINTELE SENATULUI
+
+MIRCEA ABRUDEAN

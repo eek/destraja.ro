@@ -1,0 +1,67 @@
+# LEGE
+
+# pentru modificarea și completarea Ordonanței Guvernului nr. 2/2021 privind depozitarea deșeurilor
+
+Parlamentul României adoptă prezenta lege:
+
+Articol unic. Ordonanța nr. 2/2021 privind depozitarea deșeurilor publicată în Monitorul Oficial, Partea I, nr. 794 din 18 august 2021, se modifică și se completează, după cum urmează:
+
+1\. Articolul 32 se modifică și se completează cu următorul cuprins:
+
+32\. – (1) La atingerea unui nivel de 75% din capacitatea autorizată a unui depozit de deșeuri municipale, operatorul depozitului are obligația de a notifica în scris autoritățile administrației publice locale beneficiare ale serviciului de salubrizare, consiliul județean, asociația de dezvoltare intercomunitară, după caz, precum și autoritatea județeană pentru protecția mediului, în termen de 10 zile de la constatarea situației. Notificarea va cuprinde cel puțin:
+
+a) identificarea depozitului și capacitatea autorizată;
+
+b) cantitățile anuale depozitate până la data notificării;
+
+c) ritmul mediu anual de umplere din ultimii 3 ani;
+
+d) estimarea datei la care se atinge capacitatea autorizată, în lipsa unor măsuri suplimentare.
+
+(2) În termen de 90 de zile de la primirea notificării prevăzute la alin. (1), autoritățile deliberative ale administrației publice locale sau consiliul județean, după caz, vor elabora și aproba, prin hotărâre, un plan de acțiune pentru asigurarea capacităților de eliminare a deșeurilor municipale, corelat cu planurile de gestionare a deșeurilor, care va include:
+
+a) analiza capacității rămase disponibile și proiecția duratei de utilizare a depozitului existent;
+
+b) identificarea amplasamentului pentru un nou depozit de deșeuri, dacă este cazul, și planificarea studiilor preliminare;
+
+c) calendarul etapelor de autorizare, execuție și punere în funcțiune;
+
+d) sursele potențiale de finanțare;
+
+e) responsabilitățile instituționale pentru fiecare măsură și termenele intermediare.
+
+(2¹) Autoritățile administrației publice competente pot iniția demersurile prevăzute la alin. (2) pentru asigurarea capacităților de eliminare a deșeurilor municipale și anterior primirii notificării prevăzute la alin. (1).
+
+(3) Planul de acțiune pentru realizarea noului depozit prevăzut la alin. (2) se implementează în termen de maximum 1 an de la primirea notificării prevăzute la alin. (1).
+
+4\) La atingerea unui nivelul de 90% din capacitatea autorizată, operatorul are obligația de a transmite o nouă notificare autorităților prevăzute la alin. (1), actualizând informațiile privind ritmul de umplere și data estimată de atingere a capacității maxime. În termen de 30 de zile de la primirea notificării, autoritățile administrației publice locale și/sau consiliul județean informează Ministerul Mediului și Agenția Națională pentru Protecția Mediului cu privire la stadiul implementării planului de acțiune și la eventualele măsuri suplimentare de urgență necesare.
+
+(5) Dacă în termen de 12 luni de la notificarea prevăzută la alin. (1) nu a fost aprobat planul de acțiune sau nu au fost demarate măsurile esențiale prevăzute în acesta, autoritățile deliberative ale unităților administrative territoriale și/sau Consiliul Județean, după caz, au obligația:
+
+a) să comunice Ministerului Mediului, în termen de 30 de zile de la împlinirea termenului de 12 luni, motivele întârzierii, stadiul demersurilor efectuate și un nou calendar ferm de adoptare/implementare;
+
+b) să adopte, în termen de cel mult 90 de zile de la împlinirea termenului prevăzut la lit. a) hotărârile necesare pentru aprobarea planului de acțiune sau pentru demararea măsurilor esențiale.
+
+(6) Măsurile prevăzute în planul de acțiune se implementează etapizat, astfel încât, până la atingerea capacității autorizate a depozitului, să fie asigurate capacități suficiente și conforme de eliminare a deșeurilor municipale, cu respectarea ierarhiei deșeurilor și a obiectivelor de reducere a depozitării stabilite de legislația națională.
+
+(7) Ministerul Mediului informează anual asupra situațiilor de neconformare Curtea de Conturi și celelalte instituții abilitate, în vederea exercitării atribuțiilor legale.
+
+2\. La articolul 33, alineatul 1, după litera l se introduc literele m, n și o, cu următorul cuprins:
+
+m. nerespectarea de către operatorul depozitului de deșeuri municipale a obligației de notificare prevăzute la art. 32 alin. (1) și (4) cu amendă de la 20.000 lei la 50.000 lei.
+
+n. nerespectarea de către autoritățile deliberative ale unităților administrativ-teritoriale și/sau de către consiliul județean, după caz, a obligației de elaborare și aprobare a planului de acțiune prevăzut la art. 32 alin. (2), în termenele stabilite, cu amendă de la 50.000 lei la 100.000 lei.
+
+o. nerespectarea de către autoritățile deliberative ale unităților administrativ-teritoriale și/sau de către consiliul județean, după caz, a obligațiilor de informare și de adoptare a hotărârilor necesare, prevăzute la art. 32 alin. (5) cu amendă de la 50.000 lei la 100.000 lei.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor articolului 75 și ale articolului 76 alineatul (1) din Constituția României, republicată.
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+PREȘEDINTELE
+
+SENATULUI
+
+SORIN GRINDEANU
+
+MIRCEA ABRUDEAN

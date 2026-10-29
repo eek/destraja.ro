@@ -1,0 +1,209 @@
+{
+  "slug": "plx-157-2026",
+  "billId": "PL-x 157/2026",
+  "updatedAt": "2026-10-29T12:45:23.647Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L015FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Primăriile și instituțiile renunță la Gmail: e-mail oficial obligatoriu, verificabil într-un registru public",
+      "summaryTlDr": "Ideea e bună și necesară, pentru că primăriile care lucrează pe Gmail sunt o problemă reală de securitate. Textul e însă scris în grabă: trimite la o sancțiune care nu există, are o formulare care poate bloca e-mailurile către Gmail-ul cetățenilor și creează o arhivă centrală a corespondenței fără reguli de acces în lege.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/50/7/se166.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "Gata cu Gmail la primărie: instituțiile trec pe e-mail oficial de stat",
+      "summaryTlDr": "Ideea e bună și necesară: e-mail oficial verificabil, mai puțin phishing și mai puține date ale cetățenilor pe conturi private. Textul e însă scris în grabă: amenzi de până la 10.000 lei pentru angajați care nu decid ce server folosește instituția, norme care apar după ce obligațiile intră în vigoare și o arhivă centrală a corespondenței fără reguli de acces.",
+      "scores": {
+        "agy": 2,
+        "claude": 4,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_riscant",
+      "headline": "Nou: amendă de 1.000–3.000 lei pentru angajații care nu anunță ADR în 30 de zile schimbarea adreselor",
+      "summary": "Acum și neanunțarea ADR în 30 de zile se pedepsește cu amendă de 1.000–3.000 lei, care poate lovi funcționari și angajați. Interdicția neclară privind Gmail-ul atinge și firmele, iar arhivarea mesajelor pierde garanția de confidențialitate.",
+      "changes": [
+        {
+          "title": "Amendă nouă pentru neanunțarea ADR în 30 de zile",
+          "text": "Neanunțarea ADR în 30 de zile despre modificarea adreselor devine contravenție: amendă de 1.000–3.000 lei pentru conducător, funcționar sau angajat contractual, potrivit art. 10 alin. (1) lit. c).",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 10 alin. (1) lit. c)",
+          "before": null,
+          "after": "nerespectarea de către conducătorul entității publice, funcționarul public sau personalul contractual al entității publice a dispozițiilor prevăzute la art.7 alin.(4)",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Interdicția ambiguă include acum și corespondența cu firmele",
+          "text": "Inițial interdicția privea cetățenii; acum art. 8 alin. (1) include persoanele fizice și juridice, tot fără să spună ale cui sunt adresele comerciale, deci și firmele cu Gmail riscă să fie refuzate.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 8 alin. (1)",
+          "before": "este interzis entităților publice să solicite sau să furnizeze cetățenilor documente sau informații prin intermediul adreselor de poștă electronică comercială",
+          "after": "inclusiv pentru solicitarea de la persoanele fizice sau juridice sau furnizarea către acestea a documentelor și informațiilor prin intermediul unor astfel de adrese",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dispare garanția de confidențialitate la arhivarea mesajelor",
+          "text": "La art. 4 lit. c), arhivarea automată și trasabilitatea nu mai au limita „fără a aduce atingere confidențialității”; au dispărut și protecția datelor personale din scopul legii și autenticitatea de la lit. b).",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. 4 lit. c)",
+          "before": "arhivarea automată și trasabilitatea completă a comunicărilor electronice oficiale, fără a aduce atingere confidențialității acestora",
+          "after": "arhivarea automată și trasabilitatea comunicărilor electronice oficiale",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Auditul DNSC înlocuit cu o evaluare făcută de STS",
+          "text": "Inițial DNSC audita anual SNCE. Acum STS, administratorul tehnic al sistemului, își face singur evaluarea anuală și o trimite DNSC, potrivit art. 3 alin. (5); rolurile ADR și STS sunt însă clar numite.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. 3 alin. (5)",
+          "before": "SNCE este supus auditului anual de securitate informatică și protecție a datelor informatice, realizat de DNSC.",
+          "after": "Administratorul tehnic al SNCE are obligația de a realiza anual o evaluare de securitate informatică și protecția datelor informatice, pe care o va înainta DNSC.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Sprijinul pentru localitățile mici depinde de cerere și norme",
+          "text": "Sprijinul ADR pentru UAT-urile sub 10.000 de locuitori se dă acum la cererea lor și în condițiile normelor metodologice, care se adoptă abia după intrarea în vigoare (art. 5 alin. (1)).",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. 5 alin. (1)",
+          "before": "Autoritatea pentru Digitalizarea României asigură, din fonduri proprii și/sau ale bugetului de stat, sprijinul tehnic și financiar necesar pentru a îndeplini prevederile prezentei legi",
+          "after": "ADR asigură, la solicitarea unităților administrativ-teritoriale, din fonduri proprii și/sau de la bugetul de stat, sprijinul tehnic și financiar necesar în vederea operaționalizării utilizării SNCE la nivelul acestora",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Nou: adrese oficiale posibile pe domeniul e-adm.ro",
+          "text": "Art. 6 alin. (3) lit. c) adaugă domeniul „e-adm.ro”, gestionat de STS, printre domeniile admise pentru adresele de poștă electronică oficiale.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 6 alin. (3) lit. c)",
+          "before": null,
+          "after": "domeniul „e-adm.ro”, gestionat de STS",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Amenzi de 5.000–10.000 lei pentru angajați, fără criteriu despre cine răspunde",
+            "major": true,
+            "article": "art. 10"
+          },
+          {
+            "text": "Normele vin după intrarea în vigoare; amenzile pot veni înainte ca SNCE să funcționeze",
+            "major": true,
+            "article": "art. 11"
+          },
+          {
+            "text": "Interdicția poate fi citită ca refuz al cetățenilor sau firmelor care folosesc Gmail",
+            "major": true,
+            "article": "art. 8 alin. (1)"
+          },
+          {
+            "text": "Neclar dacă Microsoft 365 sau Google Workspace pe domeniul instituției sunt permise",
+            "major": true,
+            "article": "art. 2 lit. d)"
+          },
+          {
+            "text": "Arhivarea automată a comunicărilor, fără termen de păstrare și fără reguli de acces",
+            "major": true,
+            "article": "art. 4 lit. c)"
+          },
+          {
+            "text": "Securitatea e evaluată chiar de STS, care operează sistemul, nu auditată independent",
+            "major": false,
+            "article": "art. 3 alin. (5)"
+          },
+          {
+            "text": "Sprijinul pentru UAT-urile mici vine doar la cerere, în condiții încă nestabilite",
+            "major": false,
+            "article": "art. 5 alin. (1)"
+          },
+          {
+            "text": "După cele 12 luni de mesaj automat, mesajele pe vechile adrese se pot pierde",
+            "major": false,
+            "article": "art. 8 alin. (2)"
+          }
+        ],
+        "good": [
+          {
+            "text": "ADR oferă sprijin tehnic și financiar UAT-urilor sub 10.000 de locuitori",
+            "major": true,
+            "article": "art. 5 alin. (1)"
+          },
+          {
+            "text": "Registru public online în care oricine verifică dacă o adresă e oficială",
+            "major": false,
+            "article": "art. 7 alin. (3)"
+          },
+          {
+            "text": "Mesaj automat timp de 12 luni pe vechile adrese, cu noua adresă oficială",
+            "major": false,
+            "article": "art. 8 alin. (2)"
+          },
+          {
+            "text": "ADR și STS au roluri clare: administrator operațional și administrator tehnic",
+            "major": false,
+            "article": "art. 3"
+          },
+          {
+            "text": "Instituțiile cu domeniu propriu își pot găzdui independent adresele, cu verificare anuală",
+            "major": false,
+            "article": "art. 9"
+          },
+          {
+            "text": "Domeniul e-adm.ro, gestionat de STS, disponibil pentru adrese oficiale",
+            "major": false,
+            "article": "art. 6 alin. (3) lit. c)"
+          },
+          {
+            "text": "Raport anual ADR către Guvern și comisiile Parlamentului, până la 15 martie",
+            "major": false,
+            "article": "art. 3 alin. (7)"
+          },
+          {
+            "text": "Finanțarea SNCE și RNAEO stabilită: bugetul ADR, bugetul de stat, fonduri europene",
+            "major": false,
+            "article": "art. 5 alin. (2)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 57,
+        "removed": 68,
+        "same": 0.08
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:45:23.647Z"
+    }
+  ]
+}

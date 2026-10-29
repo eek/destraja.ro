@@ -1,0 +1,29 @@
+# EXPUNERE DE MOTIVE
+
+# Propunere legislativă privind modificarea și completarea art. 22 din Legea nr. 227/2015 privind Codul fiscal
+
+Prezenta inițiativă legislativă vizează modernizarea și clarificarea regimului fiscal aplicabil profitului reinvestit, reglementat în prezent de art. 22 din Codul fiscal. Deși facilitatea există în legislația actuală, aplicarea sa este limitată de definiții restrictive, interpretări neunitare și neadaptarea la realitățile economiei moderne. În forma actuală, regimul profitului reinvestit favorizează preponderent investițiile în active corporale tradiționale, în timp ce investițiile esențiale pentru competitivitate – digitalizare, automatizare, software, eficiență energetică și inovare – sunt insuficient reglementate sau tratate neunitar de autoritățile fiscale.
+
+Acest fapt a condus la o utilizare redusă a facilității, în special de către întreprinderile mici și mijlocii.
+
+Prezenta propunere legislativă nu creează o facilitate fiscală nouă, ci clarifică și eficientizează un mecanism existent, adaptându-l economiei actuale și nevoilor reale ale mediului de afaceri.
+
+Sunt definite explicit categoriile de investiții eligibile, este instituit un mecanism de aplicare automată, bazat pe evidențele contabile, și este menținut un cadru de protecție împotriva utilizărilor abuzive prin obligația de menținere a activelor.
+
+Un element distinct al inițiativei îl reprezintă introducerea unui tratament adaptat pentru întreprinderile mici și mijlocii, justificat de accesul limitat al acestora la capital și de ciclurile investiționale mai scurte.
+
+Măsurile propuse – recunoașterea leasingului financiar, reducerea perioadei minime de menținere a activelor și posibilitatea reportării scutirii – permit IMM-urilor să utilizeze efectiv facilitatea, fără a crea discriminări sau excepții nejustificate.
+
+Intrarea în vigoare a legii este stabilită la data de 1 ianuarie 2027, pentru a asigura predictibilitate fiscală și corelare cu procesul de construcție bugetară multianuală.
+
+În acest mod, inițiativa nu afectează execuția bugetară a anului 2026 și permite autorităților competente să integreze măsura în proiecțiile bugetare aferente anilor următori.
+
+Din punct de vedere bugetar, măsura nu implică alocări directe de la bugetul de stat și nu generează un impact negativ asupra veniturilor bugetare pe termen scurt.
+
+Pe termen mediu și lung, efectele sunt pozitive, prin stimularea investițiilor productive, creșterea productivității, menținerea și crearea de locuri de muncă și consolidarea bazei de impozitare.
+
+Prin această inițiativă, cadrul fiscal devine mai clar, mai predictibil și mai adaptat realităților economice, încurajând reinvestirea profitului în economia națională și susținând dezvoltarea durabilă a mediului de afaceri din România.
+
+## INIȚIATOR
+
+Lucian-Nicolaț/ANDRUȘCĂ Deputat afiliat PSD

@@ -1,0 +1,33 @@
+Expunere de motive
+
+pentru modificarea și completarea Legii nr. 227/2015 privind Codul fiscal
+
+Prezenta propunere legislativă are ca obiect modificarea și completarea Legii nr. 227/2015 privind Codul fiscal, în vederea reintroducerii scutirilor de la plata impozitelor locale pentru persoanele cu handicap grav sau accentuat, scutiri care au fost eliminate prin modificări legislative recente.
+
+Persoanele cu handicap grav sau accentuat reprezintă o categorie distinctă de contribuabili, caracterizată printr-o capacitate redusă de a genera venituri și prin existența unor cheltuieli suplimentare permanente, determinate de starea de dizabilitate. În majoritatea cazurilor, veniturile acestora sunt limitate și provin din indemnizații sau alte forme de sprijin social, insuficiente pentru acoperirea integrală a costurilor necesare traiului zilnic și îngrijirii medicale.
+
+Potrivit art. 50 din Constituția României, statul are obligația de a asigura protecție specială a persoanelor cu handicap, prin măsuri de natură să garanteze integrarea socială, demnitatea și egalitatea de șanse. Eliminarea scutirilor de la plata impozitelor locale, fără instituirea unor mecanisme compensatorii, afectează în mod direct nivelul de trai al acestei categorii și nu este compatibilă cu principiul protecției speciale consacrat constituțional.
+
+De asemenea, România este stat parte la Convenția Organizației Națiunilor Unite privind drepturile persoanelor cu dizabilități, care impune adoptarea de măsuri legislative și administrative adecvate pentru prevenirea discriminării și a marginalizării economice. Aplicarea unui tratament fiscal identic unor situații obiectiv diferite nu conduce la realizarea echității fiscale, ci la accentuarea dezechilibrelor sociale.
+
+Inițiativa legislativă nu instituie un privilegiu fiscal, ci urmărește restabilirea unui regim de protecție justificat de situația obiectiv diferită a persoanelor cu handicap grav sau accentuat. Tratamentul diferențiat este justificat de caracterul permanent al dizabilității și de impactul acesteia asupra capacității economice a persoanei.
+
+Prin prezenta propunere se reintroduc scutiri de la plata:
+
+\- impozitului pe clădirea utilizată ca locuință de domiciliu sau reședință;
+
+– impozitului pe terenul aferent acestei clădiri;
+
+– impozitului pentru un singur mijloc de transport deținut în proprietate sau coproprietate, utilizat pentru uz personal.
+
+Măsura propusă are un impact bugetar limitat, întrucât se aplică exclusiv unei categorii bine determinate de beneficiari și numai pentru bunuri impozabile clar delimitate. Diminuarea veniturilor bugetelor locale este redusă și poate fi absorbită în cadrul execuției bugetare curente, fără a afecta capacitatea autorităților administrației publice locale de a-și îndeplini atribuțiile legale.
+
+În același timp, impactul social este semnificativ, prin reducerea poverii fiscale asupra unei categorii vulnerabile, expuse unui risc crescut de sărăcie și excluziune socială. Măsura contribuie la consolidarea autonomiei personale și la asigurarea unui nivel minim de securitate economică pentru persoanele cu handicap grav sau accentuat.
+
+Prezenta inițiativă legislativă urmărește corectarea unui efect social inechitabil, consolidarea protecției sociale acordate persoanelor cu dizabilități și armonizarea cadrului fiscal cu prevederile constituționale și angajamentele internaționale asumate de România.
+
+Adoptarea propunerii este justificată din punct de vedere juridic, social și economic, fără a genera un impact negativ semnificativ asupra bugetelor publice.
+
+Deputat Raisa Enachj
+
+Senator Cristian Bem

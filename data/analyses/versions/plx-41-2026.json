@@ -1,0 +1,97 @@
+{
+  "slug": "plx-41-2026",
+  "billId": "PL-x 41/2026",
+  "updatedAt": "2026-10-29T12:28:02.361Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L645FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Ordonanța fiscală de final de 2025: impozitul minim scade, 300 lei scutiți la salariul minim, control central pe accize",
+      "summaryTlDr": "Ordonanță-omnibus mai degrabă favorabilă contribuabililor: IMCA redus și eliminat din 2027, cotă unică la micro, 300 lei neimpozabili la salariul minim. Riscul real nu e o taxă ascunsă, ci previzibilitatea: zeci de măsuri eterogene sub o singură motivare de urgență, bariere administrative noi pe accize și o aprobare parlamentară întârziată de aproape un an.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/40/1/se34.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Pachetul fiscal adoptat pe 23 decembrie: impozit minim redus pentru marile firme, cotă unică la micro, 300 lei scutiți la salariul minim și control mai strict la accize",
+      "summaryTlDr": "Pachetul conține destule măsuri utile: IMCA redus și apoi eliminat, o singură cotă la microîntreprinderi, simplificări la concediile medicale și amânări la RO e-TVA. Problema e forma: o ordonanță-omnibus publicată pe 24 decembrie, aplicabilă de la 1 ianuarie, care mai înăsprește și accesul pe piața produselor accizabile.",
+      "scores": {
+        "agy": 5,
+        "claude": 5,
+        "codex": 6
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat OUG 89/2025 fără modificări de fond; s-a corectat doar numărul ordonanței",
+      "summary": "Inițial și acum, legea aprobă ordonanța fiscală fără nicio modificare. Senatul a corectat numărul greșit al ordonanței (2025/2025 în loc de 89) și a adăugat data și Monitorul Oficial, deci efectele pentru cetățeni și firme rămân aceleași.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Salariul minim rămâne înghețat la 4.050 lei până la 30 iunie 2026",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Suma neimpozabilă scade la 200 lei din iulie 2026, deși salariul minim crește",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "ICAS (petrol, gaze) și impozitul pe resurse naturale se prelungesc până la 31.12.2026",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Plafonul de microîntreprindere este redus la 100.000 euro din 2026",
+            "major": true,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Impozitul minim pe cifra de afaceri scade în 2026 și dispare din 2027",
+            "major": true,
+            "article": "art. 18^41 Cod fiscal"
+          },
+          {
+            "text": "Microîntreprinderile au o singură cotă, aceeași pentru toate domeniile de activitate",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "300 lei fără impozit și contribuții la salariul minim, în ianuarie–iunie 2026",
+            "major": true,
+            "article": null
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:28:02.361Z"
+    }
+  ]
+}

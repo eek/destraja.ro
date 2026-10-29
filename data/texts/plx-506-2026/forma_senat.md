@@ -1,0 +1,17 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+pentru modificarea art.35 alin.(2) din Ordonanța de urgență a Guvernului nr.195/2002 privind circulația pe drumurile publice
+
+Senatul adoptă prezentul proiect de lege
+
+Articol unic.- La articolul 35 din Ordonanța de urgență a Guvernului nr.195/2002 privind circulația pe drumurile publice, republicată în Monitorul Oficial al României, Partea I, nr. 670 din 3 august 2006, cu modificările și completările ulterioare, alineatul (2) se modifică și va avea următorul cuprins:
+
+„(2) Participanții la trafic sunt obligați ca, la cererea polițistului rutier, să prezinte acestuia documentul de identitate sau, după caz, permisul de conducere, documentul de înmatriculare ori de înregistrare a vehiculului condus, documentele referitoare la bunurile transportate, precum și alte documente prevăzute de lege. Obligația de prezentare a documentelor este considerată îndeplinită dacă datele aferente pot fi verificate de către polițistul rutier prin accesarea bazelor de date oficiale.”
+
+Acest proiect de lege a fost adoptat de Senat în ședința din 23 iunie 2026, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.
+
+p. PREȘEDINTELE SENATULUI

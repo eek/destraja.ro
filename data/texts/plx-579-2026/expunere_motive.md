@@ -1,0 +1,29 @@
+## EXPUNERE DE MOTIVE
+
+Prezentul proiect de lege propune reducerea numarul de parlamentari la 299, respectiv 201 deputati si 98 de senatori.
+
+Initierea acestuia proiect de act normativ are in vedere faptul ca au trecut peste 16 ani de la referendumul inițiat în 2009 de către fostul președinte Traian Băsescu privind reducerea numărului de parlamentari de la 465 de senatori și deputați la maximum 300 de aleși într-un Parlament unicameral.Poporul Român și-a exercitat suveranitatea atunci când, prin vot liber și democratic, a decis — la referendumul din 2009 — reducerea numărului de parlamentari la maximum 300 de membri și transformarea Parlamentului într-un for unicameral. A fost un act evident de voință națională, un semnal puternic că românii doresc un stat mai suplu si mai eficient.
+
+Constituția României spune limpede, la art. 2 alin. (1): „Suveranitatea națională aparține poporului român, care o exercită prin organele sale reprezentative, constituite prin alegeri libere, periodice și corecte, precum și prin referendum”.
+
+Prin Decizia CCR 682/2012 s-a statuat că un referendum consultativ (cum a fost cel din 2009, când Președintele a întrebat poporul dacă este de acord cu un parlament unicameral și 300 de parlamentari), produce totuși obligații pentru instituțiile statului să pună în aplicare voința exprimată la referendum a cetățenilor. Chiar dacă a fost un referendum consultativ, rezultatele validate ale acelui referendum exprimă voința populară, iar voința populară nu poate si nu trebuie sa fie ignorată de Parlament. Ignorarea acestei voințe populare înseamnă subminarea principiului suveranității naționale, consfințit în Constituția României. Într-un stat democratic, suveranitatea aparține poporului, iar reprezentanții săi senatori și deputati au obligația să o respecte.
+
+La punctul 1.10 din Decizia din 2012 CCR spunea asa :
+
+1.10. “Ceea ce distinge un referendum consultativ de unul decizional nu este, în principal, chestiunea privitoare la respectarea sau nu a voinței populare – această voință nu poate fi ignorată de aleșii poporului, întrucât este o expresie a suveranității naționale –, ci caracterul efectului referendumului (direct sau indirect). Spre deosebire de referendumul decizional, referendumul consultativ produce un efect indirect, în sensul că necesită intervenția altor organe, de cele mai multe ori a celor legislative, pentru a pune în operă voința exprimată de corpul electoral.”
+
+Cu puține rânduri mai sus, CCR citează dintr-o decizie a Comisiei de la Veneția care a reținut că efectele referendumului trebuie să fie expres prevăzute în Constituție sau prin lege, fie că referendumul este consultativ, fie că este decizional. Apoi, la pct. 1.7. Curtea scrie așa:
+
+1.7. Faptul că, în cazul referendumului consultativ, nu este stabilită o astfel de procedură ulterioară, nu se traduce într-o lipsă a efectelor acestui referendum. Nici nu ar fi admisibil într-un stat de drept ca voința populară, exprimată cu o largă majoritate (în cazul de față, 83,31% dintre voturile valabil exprimate), să fie ignorată de reprezentanții aleși ai poporului.
+
+La punctul 286 din Decizia nr. 80/2014 Curtea Constitutionala subliniază că „O altă viziune asupra efectelor referendumului consultativ l-ar reduce pe acesta la un exercițiu pur formal, un simplu sondaj de opinie.”
+
+Prin urmare avand in vedere Deciziile CCR invocate mai sus precum si timpul extrem de lung de 16 ani de la Referendumul din 2009, consider ca se impune modificare Legii nr. 208/2015 privind alegerea Senatului și a Camerei Deputaților, prin implementarea modificarii adoptate de poporul roman de reducere a numarului de parmamentarii .
+
+Prezentul proiect de lege propune reducerea numarul de parlamentari la 299, respectiv 201 deputati si 98 de senatori.
+
+Calculul mandatelor pe circumscriptii electorale s-a facut in baza datelor raportate de Institutul Național de Statistică în ultimul Recensamant al populatiei efectuat în anul 2021.
+
+INIȚIATOR
+
+SENATOR CORNELIU NEGRU

@@ -1,0 +1,33 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+pentru modificarea Legii cetățeniei române nr.21/1991
+
+Senatul adoptă prezentul proiect de lege
+
+Articol unic.- Legea cetățeniei române nr.21/1991, republicată în Monitorul Oficial al României, Partea I, nr.576 din 13 august 2010, cu modificările și completările ulterioare, se modifică după cum urmează:
+
+## 1. La articolul 19, alineatul (4) va avea următorul cuprins:
+
+„(4) Ordinul de respingere a cererii de acordare sau redobândire a cetățeniei române poate fi atacat, în termen de 15 zile de la data comunicării, la secția de contencios administrativ și fiscal a tribunalului în a cărui circumscripție reclamantul are domiciliul sau reședința ori în a cărui circumscripție se află biroul teritorial din subordinea Autorității Naționale pentru Cetățenie. Hotărârea tribunalului poate fi atacată cu recurs la secția de contencios administrativ și fiscal a curții de apel în a cărei circumscripție se află tribunalul sesizat.”
+
+## 2. La articolul 31, alineatul (6) va avea următorul cuprins:
+
+„(6) Ordinul de respingere a cererii de renunțare la cetățenia română poate fi atacat, în termen de 15 zile de la data comunicării, la secția de contencios administrativ și fiscal a tribunalului în a cărui circumscripție reclamantul are domiciliul sau reședința ori în a cărui circumscripție se află biroul teritorial din subordinea Autorității Naționale pentru Cetățenie. Hotărârea tribunalului poate fi atacată cu recurs la secția de contencios administrativ și fiscal a curții de apel în a cărei circumscripție se află tribunalul sesizat.”
+
+## 3. La articolul 32, alineatul (7) va avea următorul cuprins:
+
+„(7) Ordinul poate fi atacat, în termen de 15 zile de la data comunicării, la secția de contencios administrativ și fiscal a curții de apel în a cărei circumscripție se află tribunalul sesizat. Hotărârea pronunțată este definitivă.”
+
+## 4. Articolul 37¹ va avea următorul cuprins:
+
+„Art.37¹.-Litigiile privind refuzul nejustificat al emiterii actelor administrative, precum și litigiile privind actele emise sau adoptate în aplicarea dispozițiilor prezentei legi, respectiv litigiile privind nesoluționarea cererilor în termenul prevăzut de lege sunt de competența secției de contencios administrativ și fiscal a tribunalului în a cărui circumscripție reclamantul are domiciliul sau reședința ori în a cărui circumscripție se află biroul teritorial din subordinea Autorității Naționale pentru Cetățenie. Hotărârea pronunțată de tribunal poate fi atacată cu recurs la secția de contencios administrativ și fiscal a curții de apel în a cărei circumscripție se află tribunalul sesizat.”
+
+Acest proiect de lege a fost adoptat de Senat, în ședința din 8 septembrie 2026, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.
+
+## PREȘEDINTEÆ SENATULUI
+
+## MIRCEA ABRJUDEAN

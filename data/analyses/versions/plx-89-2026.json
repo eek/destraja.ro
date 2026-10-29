@@ -1,0 +1,141 @@
+{
+  "slug": "plx-89-2026",
+  "billId": "PL-x 89/2026",
+  "updatedAt": "2026-10-29T12:33:45.834Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L571FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "ONG-urile și instituțiile care folosesc gratuit clădiri publice vor putea să le extindă și să le modernizeze",
+      "summaryTlDr": "Lege tehnică și utilă, care deblochează fonduri nerambursabile pentru clădirile publice date în folosință gratuită, fără costuri pentru buget. Are o scăpare la lit. e): titularul ar fi scutit de răspundere și pentru daunele produse de propriile lucrări.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/80/9/se82.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Cine primește gratuit o clădire publică va putea s-o modernizeze, dacă proprietarul public își dă acordul",
+      "summaryTlDr": "Lege tehnică și utilă: deblochează investiții din fonduri nerambursabile în bunuri publice date gratuit ONG-urilor și serviciilor publice, iar proprietarul public păstrează controlul prin acord. Riscurile țin doar de redactare: nu spune clar dacă se permit extinderi, cum se dă acordul și ce se întâmplă cu investiția la încetarea folosinței.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Cine folosește gratuit un bun public răspunde acum de stricăciunile făcute de propriile lucrări",
+      "summary": "Acum, cine folosește gratuit un bun public răspunde pentru stricăciunile făcute de propriile lucrări și poate doar îmbunătăți bunul, fără ca extinderile să mai fie menționate. Legea tot nu spune dacă investitorul primește vreo despăgubire.",
+      "changes": [
+        {
+          "title": "Titularul răspunde pentru stricăciunile propriilor lucrări",
+          "text": "La art. 350 alin. (2) lit. e), inițial titularul nu răspundea pentru deteriorările cauzate de lucrările de investiții. Acum e scuzată doar uzura din vechime.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 350 alin. (2) lit. e)",
+          "before": "în afară de ceea ce a pierit sau s-a deteriorat din cauza vechimii sau a lucrărilor de investiții",
+          "after": "în afară de ceea ce a pierit sau s-a deteriorat din cauza vechimii, și liber de orice sarcini",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Extinderile bunului nu mai sunt menționate",
+          "text": "La art. 350 alin. (3) (inițial lit. d¹), lucrările sunt permise doar pentru buna funcționalitate, nu și pentru extindere. Bunul public e mai protejat, dar rămâne neclar dacă se pot face extinderi.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 350 alin. (3)",
+          "before": "poate efectua lucrări de investiții asupra bunului în scopul extinderii sau îmbunătățirii funcționalității acestuia și cu respectarea destinației inițiale",
+          "after": "poate efectua lucrări de investiții asupra bunului în scopul îmbunătățirii pentru asigurarea bunei funcționalități a acestuia și cu respectarea destinației inițiale",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dispare precizarea că investiția devine proprietate publică",
+          "text": "Inițial, îmbunătățirile intrau explicit în proprietatea publică și puteau fi lăsate investitorului. Acum fraza lipsește, dar bunul se restituie îmbunătățit, deci investiția rămâne în bunul public.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 350 alin. (2) lit. d¹)",
+          "before": "Extinderile sau îmbunătățirile astfel efectuate intră în proprietatea publică a autorităților prevăzute la art. 287 și pot fi date în folosință gratuită titularului care a efectuat investiția.",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Legea nu spune dacă titularul e despăgubit pentru investiție, mai ales la încetare anticipată",
+            "major": true,
+            "article": "art. 350 alin. (2) lit. e)"
+          },
+          {
+            "text": "Nu e clar dacă titularul poate construi extinderi, deși asta voia inițiatorul",
+            "major": true,
+            "article": "art. 350 alin. (3)"
+          },
+          {
+            "text": "Nimic nu garantează că investitorul păstrează folosința cât cere finanțatorul",
+            "major": true,
+            "article": "art. 350 alin. (3)"
+          },
+          {
+            "text": "Acordul autorității e la latitudinea ei; legea nu fixează termen de răspuns",
+            "major": false,
+            "article": "art. 350 alin. (3)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Titularul folosinței gratuite poate investi în bun, ceea ce înainte era interzis",
+            "major": true,
+            "article": "art. 350 alin. (3)"
+          },
+          {
+            "text": "Lucrările cer acordul proprietarului public și respectarea destinației inițiale a bunului",
+            "major": true,
+            "article": "art. 350 alin. (3)"
+          },
+          {
+            "text": "Titularul răspunde pentru stricăciunile lucrărilor; e scuzată doar uzura din vechime",
+            "major": true,
+            "article": "art. 350 alin. (2) lit. e)"
+          },
+          {
+            "text": "Investiția rămâne în bunul public, care se restituie îmbunătățit",
+            "major": true,
+            "article": "art. 350 alin. (2) lit. e)"
+          },
+          {
+            "text": "Nu introduce taxe, sancțiuni sau obligații pentru cetățeni și IMM-uri",
+            "major": false,
+            "article": null
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 6,
+        "removed": 6,
+        "same": 0.14
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:33:45.834Z"
+    }
+  ]
+}

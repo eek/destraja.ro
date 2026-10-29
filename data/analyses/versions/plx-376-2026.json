@@ -1,0 +1,182 @@
+{
+  "slug": "plx-376-2026",
+  "billId": "PL-x 376/2026",
+  "updatedAt": "2026-10-29T12:30:04.655Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L287FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Blocarea vânzării acțiunilor de stat și a listărilor la bursă până la finalul anului 2027",
+      "summaryTlDr": "Sub pretextul protejării companiilor strategice, proiectul instituie un moratoriu general care blochează orice listare de pachete minoritare pe bursă și îngheață procedurile în curs până la 31 decembrie 2027. Textul este copiat mecanic din Legea nr. 173/2020, cu tot cu erori de redactare și criterii de evaluare neclare sancționate cu nulitatea absolută.",
+      "scores": {
+        "agy": 6,
+        "claude": null,
+        "codex": 6
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/300/70/6/se411.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Statul nu are voie să-și vândă acțiunile la companii până la sfârșitul lui 2027",
+      "summaryTlDr": "Pauza la vânzarea acțiunilor statului este o alegere politică legitimă, dar textul e prea larg și prea vag. Blochează orice participație, nu doar pe cele strategice, și îngheață tranzacțiile deja începute. Introduce și permanent o cotă de 30% rezervată fondurilor cu active în România, greu de apărat în fața dreptului UE.",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 6
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Senatul permite majorări de capital la firmele cu acțiuni de stat, cu cel puțin 50% pentru retail",
+      "summary": "Interdicția de a vinde acțiunile statului până la finalul lui 2027 rămâne, dar acum firmele pot atrage bani prin acțiuni noi sau obligațiuni convertibile, cu minimum 50% pentru micii investitori. Problemele inițiale rămân, iar art. 3 nu cere păstrarea controlului statului.",
+      "changes": [
+        {
+          "title": "Firmele cu acțiuni de stat pot emite acțiuni noi",
+          "text": "Art. 3 alin. (2) permite acum majorări de capital și obligațiuni convertibile în orice firmă vizată, dacă statul nu își vinde acțiunile. Nu cere însă ca statul să păstreze controlul.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 3 alin. (2)",
+          "before": "pot fi înstrăinate, pe piețe reglementate sau sisteme alternative de tranzacționare autorizate conform legii, cu respectarea dispozițiilor prezentului articol.",
+          "after": "Dispozițiile art.1 și 2 nu împiedică majorarea capitalului social prin emisiunea de acțiuni noi și nici emisiunea de obligațiuni convertibile în acțiuni, realizate în condițiile legii, dacă aceste operațiuni nu au ca obiect înstrăinarea acțiunilor deținute de stat",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Excepție fără termen în legea guvernanței firmelor de stat",
+          "text": "Noul art. 46² din OUG 109/2011 permite, fără termen, acțiuni noi și obligațiuni convertibile la întreprinderile publice, chiar dacă o lege interzice vânzarea, dacă statul nu pierde controlul.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 4 (art. 46² alin. (1) din OUG nr. 109/2011)",
+          "before": null,
+          "after": "majorarea capitalului social prin emisiunea de acțiuni noi sau părți sociale noi, subscrise de investitori, sunt permise dacă aceste operațiuni nu au ca obiect înstrăinarea acțiunilor ori părților sociale deținute de stat și nu conduc la pierderea controlului de către stat.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Cel puțin jumătate din acțiunile noi, pentru micii investitori",
+          "text": "Art. 46² alin. (2) lit. a) rezervă investitorilor de retail cel puțin 50% din acțiunile oferite, dar numai „în măsura în care există cerere suficientă”, noțiune pe care textul nu o definește.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 4 (art. 46² alin. (2) lit. a))",
+          "before": null,
+          "after": "cel puțin 50% din numărul total de acțiuni sau părți sociale oferite spre subscriere se alocă investitorilor de retail",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "30% rezervat fondurilor investite aproape integral în România",
+          "text": "Lit. b) rezervă cel puțin 30% fondurilor care au minimum 90% din active în România sau la entități românești. Fondurile cu portofoliu mai divers nu intră în această cotă.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 4 (art. 46² alin. (2) lit. b))",
+          "before": null,
+          "after": "cel puțin 30% din numărul total de acțiuni sau părți sociale oferite spre subscriere se alocă fondurilor de investiții sau altor vehicule de investiții reglementate care, la data operațiunii, au investit minimum 90% din valoarea activelor",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Interdicția se aplică oricărei firme cu acțiuni de stat, nu doar celor strategice",
+            "major": true,
+            "article": "art. 1 alin. (1)"
+          },
+          {
+            "text": "Nu se spune cum se calculează pragul de 5 milioane lei",
+            "major": true,
+            "article": "art. 1 alin. (2)"
+          },
+          {
+            "text": "Firmele nelistate sau în insolvență pot fi vândute doar pe bursă, sub sancțiunea nulității",
+            "major": true,
+            "article": "art. 3 alin. (2)-(3)"
+          },
+          {
+            "text": "Vânzările semnate dar nefinalizate rămân blocate până la sfârșitul lui 2027",
+            "major": true,
+            "article": "art. 2"
+          },
+          {
+            "text": "Art. 3 permite majorări fără păstrarea controlului statului, pe care art. 46² o cere",
+            "major": true,
+            "article": "art. 3 alin. (2)"
+          },
+          {
+            "text": "Nu se precizează intervalul pentru cei 5 ani consecutiv de pierderi",
+            "major": false,
+            "article": "art. 1 alin. (2)"
+          },
+          {
+            "text": "Cotele pentru retail și fonduri depind de o „cerere suficientă”, nedefinită",
+            "major": false,
+            "article": "art. 4"
+          },
+          {
+            "text": "Nu se explică cum se împacă cotele de alocare cu dreptul de preferință",
+            "major": false,
+            "article": "art. 4"
+          }
+        ],
+        "good": [
+          {
+            "text": "Firmele cu capital de stat se pot finanța prin acțiuni noi sau obligațiuni convertibile",
+            "major": true,
+            "article": "art. 3 alin. (2), art. 4"
+          },
+          {
+            "text": "Micii investitori primesc cel puțin 50% din acțiunile noi oferite",
+            "major": true,
+            "article": "art. 4"
+          },
+          {
+            "text": "Pentru întreprinderile publice, majorările nu pot duce la pierderea controlului statului",
+            "major": true,
+            "article": "art. 4"
+          },
+          {
+            "text": "Exceptate: firmele cu pierderi 5 ani, în insolvență și pachetele sub 5 mil. lei",
+            "major": true,
+            "article": "art. 1 alin. (2)"
+          },
+          {
+            "text": "Vânzările deja finalizate prin transferul proprietății nu sunt afectate",
+            "major": true,
+            "article": "art. 2 alin. (2)"
+          },
+          {
+            "text": "Se păstrează dreptul de preferință al acționarilor existenți și regulile de ajutor de stat",
+            "major": false,
+            "article": "art. 3 alin. (2), art. 4"
+          },
+          {
+            "text": "Interdicția e temporară, până la 31 decembrie 2027",
+            "major": false,
+            "article": "art. 1 alin. (1)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 15,
+        "removed": 13,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:30:04.655Z"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "slug": "plx-44-2026",
+  "billId": "PL-x 44/2026",
+  "updatedAt": "2026-10-29T12:28:02.365Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L449FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Mai mulți bani în Pilonul 2: cota crește de la 4,75% la 6%",
+      "summaryTlDr": "Direcția e favorabilă milioanelor de participanți, pentru că banii ajung în conturi personale, moștenibile. Textul e însă scris pentru un calendar expirat: alin.(5) cere 5,25% de la 1 ianuarie 2026, deci ar fi retroactiv, iar costul pentru bugetul de pensii de stat nu e cuantificat, deși România e în procedură de deficit excesiv.",
+      "scores": {
+        "agy": 2,
+        "claude": 4,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/40/4/se36.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "O parte mai mare din contribuția ta de pensie ajunge în contul tău de Pilon 2, până la 6%",
+      "summaryTlDr": "Scopul e bun și nu aduce nicio taxă nouă: salariul net rămâne același, doar se schimbă împărțirea CAS-ului între Pilonul 1 și contul personal. Problema e calendarul: alin.(5) cere 5,25% de la 1 ianuarie 2026, o dată deja trecută, iar costul bugetar nu e cuantificat.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul l-a adoptat tacit, fără nicio modificare: cotele de 5,25% din 2026 și 6% din 2027 rămân",
+      "summary": "Senatul nu a votat proiectul, ci l-a adoptat tacit, cu textul inițiatorului neschimbat. Rămân cota de 5,25% de la 1 ianuarie 2026, dată deja trecută, și cota de 6% de la 1 ianuarie 2027, mutate din CAS spre Pilonul 2, fără ca impactul bugetar să fie calculat.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Cota de 5,25% de la 1 ianuarie 2026, dată trecută: retroactivă sau inaplicabilă",
+            "major": true,
+            "article": "art. unic alin.(5)"
+          },
+          {
+            "text": "Nicio regulă pentru contribuțiile din 2026 deja virate la 4,75%",
+            "major": true,
+            "article": "art. unic alin.(5)"
+          },
+          {
+            "text": "Impactul asupra bugetului asigurărilor sociale nu e calculat, fără fișă financiară",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Nu abrogă și nu corelează normele care fixează azi cota de 4,75%",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Legile bugetare anuale pot îngheța din nou cota, ca în anii trecuți",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Nu spune nimic despre efectul asupra pensiei viitoare din Pilonul I",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Mai mulți bani ajung în contul personal de Pilon 2 al salariatului",
+            "major": true,
+            "article": "art. unic alin.(5)-(6)"
+          },
+          {
+            "text": "Cota de 6% de la 1 ianuarie 2027 atinge ținta inițială a legii",
+            "major": true,
+            "article": "art. unic alin.(6)"
+          },
+          {
+            "text": "Salariul net și costul angajatorului nu se schimbă, doar repartizarea CAS-ului",
+            "major": false,
+            "article": "art. unic"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0.4
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:27:52.588Z"
+    }
+  ]
+}

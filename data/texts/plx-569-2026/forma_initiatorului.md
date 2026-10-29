@@ -1,0 +1,21 @@
+PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENAT
+
+Lege
+
+pentru modificarea și completarea OUG nr. 170/2020 privind acțiunile în despăgubire în cazurile de încălcare a dispozițiilor legislației în materie de concurență, precum și pentru modificarea și completarea Legii concurenței nr. 21/1996
+
+Parlamentul României adoptă prezenta lege.
+
+Articol unic. OUG nr. 170/2020 privind acțiunile în despăgubire în cazurile de încălcare a dispozițiilor legislației în materie de concurență, precum și pentru modificarea și completarea Legii concurenței nr. 21/1996, se modifică și se completează după cum urmează:
+
+1\. La articolul 3, după alineatul (3) se introduc două noi alineate, (4)-(5), cu următorul cuprins:
+
+„(4) Ministerul Finanțelor, în calitate de reprezentant al statului, este abilitat să întreprindă toate demersurile legale necesare, inclusiv formularea de acțiuni în justiție, în vederea recuperării despăgubirilor cuvenite autorităților și instituțiilor publice centrale și locale care au calitatea de parte prejudiciată
+
+(5) În scopul facilitării accesului efectiv la justiție și al asigurării unei protecții eficiente a drepturilor consumatorilor, persoanele fizice vor putea fi împreună reclamante, prevederile art. 59-60 din Codul de procedură civilă fiind aplicabile".
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.

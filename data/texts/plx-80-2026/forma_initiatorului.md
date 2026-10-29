@@ -1,0 +1,13 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENATUL
+
+## LEGE
+
+privind aprobarea Ordonanței de urgență a Guvernului nr. 85 /2025 pentru completarea Ordonanței de urgență a Guvernului nr. 49/2015 privind gestionarea financiară a fondurilor europene nerambursabile aferente politicii agricole comune, politicii comune de pescuit și politicii maritime integrate la nivelul Uniunii Europene, precum și a fondurilor alocate de la bugetul de stat pentru perioada de programare 2014-2020 și pentru modificarea și completarea unor acte normative din domeniul garantării
+
+## Parlamentul României adoptă prezenta lege.
+
+Articol unic. – Se aprobă Ordonanța de urgență a Guvernului nr. 85/2025 pentru completarea Ordonanței de urgență a Guvernului nr. 49/2015 privind gestionarea financiară a fondurilor europene nerambursabile aferente politicii agricole comune, politicii comune de pescuit și politicii maritime integrate la nivelul Uniunii Europene, precum și a fondurilor alocate de la bugetul de stat pentru perioada de programare 2014-2020 și pentru modificarea și completarea unor acte normative din domeniul garantării.

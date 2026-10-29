@@ -1,0 +1,175 @@
+{
+  "slug": "plx-28-2026",
+  "billId": "PL-x 28/2026",
+  "updatedAt": "2026-10-29T13:51:06.697Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/000/20/8/pl10.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Educație: autorizări automate pentru licee, masterat didactic prelungit cu un an și voucherele culturale de 250 lei amânate",
+      "summaryTlDr": "Ordonanță în mare parte tehnică și utilă. Ține deschise înscrierile din 2026-2027 la liceele tehnologice și pedagogice și la masteratul didactic. Totodată amână fără zgomot voucherele culturale de 250 lei pentru elevi, măsură pe care fișa oficială a Camerei nici nu o pomenește.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl028_cd028_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Autorizări din oficiu pentru licee și facultăți, masterat didactic prelungit, vouchere culturale amânate",
+      "summaryTlDr": "Ordonanță tehnică, de reparat calendarul școlar, cu un efect util: înscrierile din 2026-2027 nu se blochează. Problemele sunt mici, dar reale: autorizări acordate prin efectul legii, fără evaluare, și amânarea voucherelor culturale, justificată diferit în preambul și în Expunere.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L130FS.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Școlile și facultățile de pedagogie își păstrează autorizările, iar voucherele culturale pentru elevi se amână până în 2027",
+      "summaryTlDr": "Lege tehnică și utilă. Fără ea, înscrierile din 2026-2027 la unele licee tehnologice și pedagogice s-ar fi blocat. Are două rezerve: autorizările se dau prin lege, fără verificare și fără termen de evaluare, iar amânarea voucherelor culturale de 250 lei nici nu apare în fișa Camerei.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a aprobat ordonanța fără modificări; voucherele culturale rămân suspendate până în 2027-2028",
+      "summary": "Camera a aprobat ordonanța exact cum a venit de la Guvern; s-au completat doar numărul și data ordonanței. Rămân suspendarea voucherelor culturale de 250 lei, autorizarea automată a școlilor tehnologice pentru nivelul 4 fără verificare și echivalarea doar a două specializări.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Voucherele culturale de 250 lei, suspendate până în 2027-2028, cu efect imediat",
+            "major": true,
+            "article": "art. IV"
+          },
+          {
+            "text": "Școlile cu nivel 3 primesc automat nivelul 4, fără verificarea dotărilor și personalului",
+            "major": true,
+            "article": "art. III alin. (1)-(2)"
+          },
+          {
+            "text": "Doar două specializări sunt echivalate, deși expunerea de motive promite toate",
+            "major": true,
+            "article": "art. III alin. (3)"
+          },
+          {
+            "text": "Nu se spune de când curge termenul pentru acreditarea noului nivel",
+            "major": false,
+            "article": "art. III alin. (1)-(2)"
+          },
+          {
+            "text": "Excepția de la pragul de efective e vagă; aplicare diferită între județe",
+            "major": false,
+            "article": "art. II (art. 16 alin. (4¹) din Legea 198/2023)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Programul PIPP devine PIP fără reautorizare, dar evaluarea periodică rămâne",
+            "major": false,
+            "article": "art. I pct. 1 (art. 102¹ din Legea 199/2023)"
+          },
+          {
+            "text": "Masteratele didactice vechi intră în lichidare abia din 2027-2028, păstrând accesul în profesie",
+            "major": false,
+            "article": "art. I pct. 2 (art. 264 din Legea 199/2023)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:38:17.928Z"
+    },
+    {
+      "from": "camera",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat OUG 1/2026 fără modificări, la fel ca forma adoptată de Cameră",
+      "summary": "Ambele forme aprobă ordonanța fără nicio modificare. Diferă doar camera care a votat, data ședinței și semnătura. Riscurile ordonanței rămân aceleași: excepții nedefinite pentru liceele mici și autorizări provizorii fără verificare.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Excepția de la pragul de elevi nu are minim; „preponderent” nu e definit",
+            "major": true,
+            "article": "art. II"
+          },
+          {
+            "text": "Școli autorizate pentru nivelul 3 sau 4 primesc provizoriu și celălalt nivel, fără verificare",
+            "major": true,
+            "article": "art. III alin. (1)-(2)"
+          },
+          {
+            "text": "Nu spune cine aprobă funcționarea și față de ce se calculează 75%",
+            "major": false,
+            "article": "art. II"
+          },
+          {
+            "text": "Nu are termen expres pentru verificare sau acreditare după autorizarea provizorie",
+            "major": false,
+            "article": "art. III alin. (1)-(2)"
+          },
+          {
+            "text": "Nu spune nimic despre componenta preșcolară, Educație timpurie, rezultată din divizare",
+            "major": false,
+            "article": "art. I pct. 1"
+          },
+          {
+            "text": "Motivul proiectului „Start în carieră” apare în expunere, nu și în preambul",
+            "major": false,
+            "article": "art. I pct. 2"
+          }
+        ],
+        "good": [
+          {
+            "text": "Programul PIPP continuă fără reautorizare, dar termenele de evaluare nu se resetează",
+            "major": false,
+            "article": "art. I pct. 1"
+          },
+          {
+            "text": "Masteratul didactic vechi mai funcționează un an, păstrând o cale în profesie",
+            "major": false,
+            "article": "art. I pct. 2"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 4,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:38:47.008Z"
+    }
+  ]
+}

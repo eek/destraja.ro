@@ -1,0 +1,148 @@
+## EXPUNERE DE MOTIVE
+
+Prezenta propunere legislativă este elaborată în temeiul dispozițiilor Constituției României republicată, precum și ale Legii nr. 24/2000 privind normele de tehnică legislativă pentru elaborarea actelor normative, republicată. Obiectul vizează completarea cadrului normativ în materia impozitului pe venit, prin instituirea dreptului contribuabililor care realizează venituri din pensii de a dispune asupra destinației unei cote de 3,5% din impozitul aferent acestor venituri, în favoarea entităților nonprofit care funcționează în condițiile legii și a unităților de cult.
+
+În prezent, potrivit Legii nr. 227/2015 privind Codul fiscal, contribuabili persoane fizice pot dispune asupra destinației unei cote de până la 3,5% din impozitul pe venit datorat, în condițiile legii, dar acest mecanism nu este aplicabil veniturilor din pensii, deși acestea sunt supuse impozitării potrivit dispozițiilor aceluiași act normativ.
+
+Această omisiune legislativă conduce la un tratament juridic diferențiat între contribuabili, fără o fundamentare obiectivă, fiind necesară intervenția legislativă pentru asigurarea coerenței și unității reglementării în materia impozitului pe venit. Extinderea dreptului de opțiune asupra veniturilor din pensii contribuie la consolidarea implicării civice și la susținerea activităților desfășurate de sectorul nonprofit și de unitățile de cult, care au un rol esențial în furnizarea de servicii sociale, educaționale și comunitare. Persoanele vârstnice reprezintă o categorie socială activă și implicată, iar recunoașterea posibilității de a decide asupra destinației unei părți din impozitul datorat valorifică această dimensiune a participării sociale.
+
+Măsura are potențialul de a diversifica sursele de finanțare ale organizațiilor beneficiare și de a stimula dezvoltarea unor proiecte cu impact direct în comunitate.
+
+Propunerea legislativă vizează: completarea Codului fiscal al României prin introducerea unui nou articol, art. 101², care reglementează expres dreptul contribuabililor care realizează venituri din pensii de a dispune asupra destinației unei cote de 3,5% din impozitul aferent; preluarea, în mod corespunzător, a mecanismelor procedurale existente aplicabile altor categorii de venituri, pentru asigurarea unei aplicări unitare; stabilirea competenței organului fiscal central în ceea ce privește calculul, reținerea și distribuirea sumelor, în condițiile legii; reglementarea posibilității exercitării opțiunii pe o perioadă de până la 2 ani, în acord cu practica existență.
+
+De asemenea, se propune modificarea art. LVIII din Ordonanța de urgență a Guvernului nr. 115/2023, în vederea clarificării sferei veniturilor pentru care nu se aplică mecanismul redirecționării, evitându-se astfel interpretări neunitare.
+
+Măsura propusă nu implică cheltuieli bugetare suplimentare, ci doar redirecționarea unei părți din impozitul pe venit deja datorat. Impactul asupra veniturilor bugetare este unul limitat și previzibil, fiind compensat de efectele pozitive generate la nivel social prin susținerea activităților nonprofit și a serviciilor comunitare, urmând a fi detaliat în fișa financiară întocmită potrivit dispozițiilor legale incidente.
+
+Propunerea legislativă respectă dispozițiile din Constituția României privind: egalitatea în drepturi; așezarea justă a sarcinilor fiscale și legalitatea în materie fiscală.
+
+Prin extinderea mecanismului de redirecționare și asupra veniturilor din pensii, se elimină o diferență de tratament nejustificată între contribuabili.
+
+Adoptarea propunerii legislative asigură coerența și unitatea reglementării în materia redirecționării unei cote din impozitul pe venit, prin eliminarea diferențelor de tratament între contribuabili și prin integrarea veniturilor din pensii în mecanismul existent.
+
+Măsura propusă este clară, proporțională și contribuie la dezvoltarea unui cadru fiscal modern, bazat pe transparență, implicare și responsabilitate socială.
+
+Față de cele prezentate, se constată că propunerea legislativă este: necesară pentru completarea cadrului normativ existent; oportună din perspectiva asigurării unui tratament fiscal unitar și conformă cu normele de tehnică legislativă.
+
+În consecință, se propune adoptarea acesteia.
+
+## INIȚIATOR:
+
+Senator AUR Ștefănescu Daniela \_\_\_\_
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege completarea Legii nr. 227/2015 privind Codul fiscal și pentru modificarea art. LVIII din Ordonanța de urgență a Guvernului nr. 115/2023
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1 | PETRISOR PEIV | AVR |  |
+| 2 | VASICE MARIAN | AVR |  |
+| 3 | ANDREIEMILDÎRLÂÜ | AOR |  |
+| 4. | ORINTHA NUMTEGCU | AUR |  |
+| 5. | SILGEONU SIOHIN | AVR |  |
+| 6. | Petue George CEBER | AUR |  |
+| 7. | VLAHU XII COCAE | AUR |  |
+| 8. | CRISTINY VÂNPU | AUR |  |
+| 9 | CONSTANTINEGCU RODICA | AUR |  |
+| 10 | STEEA NICUUMA | AUR |  |
+| 11. | KANIELA STEFANIESCU | AVR |  |
+| 12. | Vlascu Vophy | AVR |  |
+| 13. | Sandu MlonuJ | AUR |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege completarea Legii nr. 227/2015 privind Codul fiscal și pentru modificarea art. LVIII din Ordonanța de urgență a Guvernului nr. 115/2023
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td rowspan="11">Semnătura</td></tr>
+<tr><td>14.</td><td>Stoica ciprian-7n'</td><td>A.V.R.</td></tr>
+<tr><td>15.</td><td>Plöesu laweniu</td><td>AVR</td></tr>
+<tr><td>16.</td><td>Lawic Sociu</td><td>AVR</td></tr>
+<tr><td>18.</td><td>Shea Geanān</td><td>AVR</td></tr>
+<tr><td>18.</td><td>SPAU DOMITRU</td><td>A.U.R.</td></tr>
+<tr><td>19.</td><td>Porexo JeefP</td><td>AVR</td></tr>
+<tr><td>20.</td><td>ROMAN MARIUS-VAENITH</td><td>AVR</td></tr>
+<tr><td>21.</td><td>Baroon Soniuo</td><td>AVR</td></tr>
+<tr><td>22.</td><td>IACOB O.CIPRIAN</td><td>A.U.R.</td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege pentru completarea Legii nr. 227/2015 privind Codul fiscal și pentru modificarea art. LVIII din Ordonanța de urgență a Guvernului nr. 115/2023
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1. | Butuna luishica - Jnie | AUR |  |
+| 2. | FLOREA GADRIEC | AUR |  |
+| 3. | GUROU; DIVIO -OCRANINN | AUR |  |
+| 4. | PUȘEASUPETRE | AUR |  |
+| 5. | MITREA DUMITEINA | AUR |  |
+| 6. | LUCESU FLORIN BAYDON | AUR |  |
+| 7. | SOGIN MUNCACIU | AUR |  |
+| 8. | CONSTANISEAU ANDRA - CLAUDU | AUR |  |
+| 9. | DASÇALU CRISTINAEMANUELA | AUR |  |
+| 10. | Luciau FlooiuPUSÇASU | AUR |  |
+| 11. | BIRO DANIEL - RĂEVAŃ | AUR |  |
+| 12. | CIOKROSIARUAZ - CĂRĂLIN | AUR |  |
+| 13. | BARSON TIBENUCIAVON | AUR |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege pentru completarea Legii nr. 227/2015 privind Codul fiscal și pentru modificarea art. LVIII din Ordonanța de urgență a Guvernului nr. 115/2023
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td rowspan="14">Semnătura</td></tr>
+<tr><td>1h.</td><td>BORDIAN ALEXANDRU</td><td>AOR</td></tr>
+<tr><td>15.</td><td>iOSCB ROSMIN TEODOX</td><td>AUR</td></tr>
+<tr><td>16.</td><td>OANCEA SICVIU</td><td>AVR</td></tr>
+<tr><td>17.</td><td>BAADU GEORQOL</td><td>AUR</td></tr>
+<tr><td>18.</td><td>POPESAN ANTONIO GAOI</td><td>AVR</td></tr>
+<tr><td>19.</td><td>TILEA STRY</td><td>AFFR</td></tr>
+<tr><td>20.</td><td>TAMASA DAN</td><td>AUR</td></tr>
+<tr><td>21.</td><td>CAUIN CATHMAYIBS</td><td>AUR</td></tr>
+<tr><td>22.</td><td>CIPARIAN PARASCHU</td><td>AVR</td></tr>
+<tr><td>23.</td><td>JACAL MOMICS</td><td>AVR</td></tr>
+<tr><td>26.</td><td>NIUSH LVOIAN</td><td>AVR</td></tr>
+<tr><td>25.</td><td>Naleu Muteou</td><td>AFFR</td></tr>
+<tr><td>26.</td><td>CHEORGAR IOHBL</td><td>AVR</td></tr>
+</tbody>
+</table>
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege pentru completarea Legii nr. 227/2015 privind Codul fiscal și pentru modificarea art. LVIII din Ordonanța de urgență a Guvernului nr. 115/2023
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td rowspan="14">Semnătura</td></tr>
+<tr><td>21.</td><td>NEAMIV MIHAL</td><td>AVR</td></tr>
+<tr><td>28.</td><td>GTEGRAJIN CAURA</td><td>AUR</td></tr>
+<tr><td>29</td><td>PASCARIUMIHAI-COSMIN</td><td>AUR</td></tr>
+<tr><td>30.</td><td>BryunseelsRoumoua</td><td>AVR</td></tr>
+<tr><td>31.</td><td>Vulpoiu Dorel</td><td>AUR</td></tr>
+<tr><td>32.</td><td>Popovici FGLiP CORNEC</td><td>AUR</td></tr>
+<tr><td>33.</td><td>NEGOESCU MIHAI-BOGDAN</td><td>AUR</td></tr>
+<tr><td>34.</td><td>MICLIF4SHMIEL-VIRHIL</td><td>ACIR</td></tr>
+<tr><td>35.</td><td>ARIADNA-ECENA CIRLIGEANLI</td><td>A.U.R.</td></tr>
+<tr><td>36.</td><td>LOUIN RAMONA</td><td>AUR</td></tr>
+<tr><td>37.</td><td>GHEORGHE MIHAI CLAUO</td><td>AUR</td></tr>
+<tr><td>38.</td><td>COLESA I'4'E-AL'N</td><td>AUR</td></tr>
+<tr><td>39.</td><td>SIMION GEORGO NICOLAE</td><td>AVR</td></tr>
+</tbody>
+</table>
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege pentru completarea Legii nr. 227/2015 privind Codul fiscal și pentru modificarea art. LVIII din Ordonanța de urgență a Guvernului nr. 115/2023
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 40 | PAUNESCU SILVIU - TITUS | AUR |  |

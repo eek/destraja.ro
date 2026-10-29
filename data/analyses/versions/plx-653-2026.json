@@ -1,0 +1,102 @@
+{
+  "slug": "plx-653-2026",
+  "billId": "PL-x 653/2026",
+  "updatedAt": "2026-10-29T13:26:15.346Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L408FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Votul la alegerile locale cu viză de flotant: un an de reședință, nu 6 luni",
+      "summaryTlDr": "Modificarea e mică și are un scop legitim, dar îi lovește mai ales pe cei care se mută cinstit: studenți, chiriași, angajați relocați. Cine face reședințe fictive le poate face pur și simplu mai devreme. Problema principală e previzibilitatea: nu există perioadă de tranziție și nici o regulă pentru prelungirea vizei de flotant. Nu e o încălcare constituțională gravă.",
+      "scores": {
+        "agy": 6,
+        "claude": 4,
+        "codex": 6
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/600/50/3/se740.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Ca să votezi la locale acolo unde stai cu viză de reședință, vei avea nevoie de un an vechime, nu de 6 luni",
+      "summaryTlDr": "Scopul e legitim, combaterea „turismului electoral”, dar instrumentul e slab. Proiectul dublează vechimea cerută doar celor cu viză de reședință, în timp ce schimbarea domiciliului din buletin rămâne fără nicio vechime. Depășește pragul de 6 luni recomandat de Comisia de la Veneția și are o scăpare de redactare pentru cazul de exact un an.",
+      "scores": {
+        "agy": 6,
+        "claude": 4,
+        "codex": 6
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat textul fără schimbări de fond: votul la locale cere un an de reședință",
+      "summary": "Senatul a adoptat textul inițiatorului neschimbat, doar reformulat: pentru a vota la locale unde locuiești cu viză de flotant trebuie să ai reședința de peste un an, nu 6 luni ca acum; altfel votezi doar la domiciliu.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Reședința necesară pentru vot la locale crește de la 6 luni la un an",
+            "major": true,
+            "article": "art. 18 alin. (1)"
+          },
+          {
+            "text": "Sub un an de reședință votezi doar la domiciliu, mergând fizic acolo",
+            "major": true,
+            "article": "art. 18 alin. (4¹)"
+          },
+          {
+            "text": "Românii cu domiciliul în străinătate nu pot vota la locale în primul an",
+            "major": true,
+            "article": "art. 18 alin. (4¹)"
+          },
+          {
+            "text": "Fără normă tranzitorie, la parțiale cei cu 6 luni pierd votul local",
+            "major": true,
+            "article": "art. unic"
+          },
+          {
+            "text": "Reședința stabilită exact cu un an înainte nu e acoperită de text",
+            "major": false,
+            "article": "art. 18 alin. (1) și (4¹)"
+          },
+          {
+            "text": "Nu e clar dacă durata reședinței se adună peste prelungirile vizei de flotant",
+            "major": false,
+            "article": "art. 18 alin. (1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Cererea la primar se poate face până cu 45 de zile înaintea scrutinului",
+            "major": false,
+            "article": "art. 18 alin. (1)"
+          },
+          {
+            "text": "Nu introduce sancțiuni, costuri sau mecanisme noi de verificare",
+            "major": false,
+            "article": "art. unic"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 7,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:25:37.812Z"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+# PARLAMENTUL ROMÂNIEI
+
+## CAMERA DEPUTAȚILOR
+
+LEGE
+
+## pentru instituirea anului 2026 ca Anul Grigore Constantin Moisil
+
+Camera Deputaților adoptă prezentul proiect de lege.
+
+Art. 1. - Se instituie anul 2026 ca Anul Grigore Constantin Moisil în semn de cinstire a memoriei și a contribuțiilor deosebite aduse de academicianul Grigore Constantin Moisil în domeniul matematicii, informaticii și al dezvoltării științei în România.
+
+Art. 2. - (1) Sărbătorirea Anului Grigore Constantin Moisil poate fi marcată de către autoritățile administrației publice centrale și locale, de către instituțiile aflate în subordinea sau coordonarea acestora, precum și de către persoane fizice și persoane juridice, inclusiv organizații neguvernamentale, prin organizarea și/sau participarea la programe și manifestări culturale, educative, cu caracter social sau științific.
+
+(2) Autoritățile administrației publice centrale și locale, precum și instituțiile aflate în subordinea sau coordonarea acestora pot acorda sprijin logistic și pot aloca fonduri din bugetele proprii în vederea organizării și derulării în bune condiții a manifestărilor prevăzute la alin. (1), în limita alocațiilor bugetare aprobate.
+
+Acest proiect de lege a fost adoptat de Camera Deputaților în ședința din 9 septembrie 2026, cu respectarea prevederilor art. 76 alin. (2) din Constituția României, republicată.
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+## SORIN-MIHAI GRINDEANU

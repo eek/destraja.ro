@@ -1,0 +1,189 @@
+{
+  "slug": "plx-685-2026",
+  "billId": "PL-x 685/2026",
+  "updatedAt": "2026-10-29T13:16:21.515Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L428FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Statul ar trebui să te anunțe cu 30 de zile înainte să-ți expire actele",
+      "summaryTlDr": "Lege utilă și fără capcane pentru cetățeni: primești un e-mail sau un SMS înainte să-ți expire pașaportul, permisul ori autorizația, dar amenda pentru actul expirat rămâne. Problemele sunt de tehnică legislativă: amendă pe un funcționar nedefinit, fără agenți constatatori, și un beneficiu care, pentru actele valabile mulți ani, apare abia la începutul anilor 2030.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/600/80/5/se775.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Statul te anunță, dacă vrei, cu 30 de zile înainte să-ți expire un act",
+      "summaryTlDr": "Lege utilă și inofensivă pentru cetățeni: la cerere, primești un e-mail sau un SMS înainte să-ți expire un act, un permis sau o autorizație. Problemele sunt de redactare: termene de implementare care se contrazic, amenzi simbolice plătite din bani publici către bani publici și o excepție largă pentru legile speciale.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Notificarea înainte de expirarea actelor devine opțională, prin platforma ADR, din iulie 2028",
+      "summary": "Acum primești notificare înainte să-ți expire un act doar dacă o ceri, iar datele tale de contact servesc doar la asta. Lista actelor e mai clară, dar legile speciale pot scoate acte importante din sistem, iar amenda pentru instituții e mică și greu de aplicat.",
+      "changes": [
+        {
+          "title": "Notificarea devine opțională, la cererea ta",
+          "text": "Inițial, toți titularii trebuiau notificați, fără să-și fi dat acordul. Acum primești notificarea doar dacă o ceri și o poți retrage oricând. Datele de contact servesc doar la asta (art. 4¹ alin. (1), (3), (5)).",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 4¹ alin. (1)",
+          "before": "au obligația de a notifica beneficiarii/titularii acestora cu cel puțin 30 de zile înainte de data expirării.",
+          "after": "au obligația de a asigura, beneficiarilor sau titularilor acestora posibilitatea de a opta pentru primirea unei notificări, în sistem digitalizat, cu cel puțin 30 de zile înainte de data expirării.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Se acoperă doar acte administrative, nu orice act juridic",
+          "text": "Inițial, obligația privea și „alte acte juridice”, nedefinite, emise inclusiv de companii private. Acum: acte administrative individuale, permise, autorizații, certificate, licențe (art. 4¹ alin. (1)).",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 4¹ alin. (1)",
+          "before": "companiile și entitățile private cărora le-au fost delegate competențele pentru livrarea serviciului public care emit acte administrative sau alte acte juridice având termen de valabilitate",
+          "after": "care emit sau eliberează în condițiile legii acte administrative individuale, permise, autorizații, certificate, licențe sau alte documente administrative individuale, având o durată de valabilitate determinată",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Excepții noi pentru legi speciale și acte scurte",
+          "text": "Sistemul nu se aplică dacă o lege specială are deja o procedură de informare, chiar nedigitală sau fără avans de 30 de zile. Nu se aplică nici actelor valabile sub 30 de zile (art. 4¹ alin. (6), art. III alin. (3)).",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 4¹ alin. (6)",
+          "before": null,
+          "after": "Obligația de notificare prevăzută la alin. (1) nu se aplică în cazul în care, prin legi speciale, este reglementată o procedură privind notificarea sau informarea beneficiarilor sau titularilor",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Amendă mai mică, plătită de instituție, nu de persoană",
+          "text": "Inițial: 1.000–2.500 lei pentru „persoana responsabilă”, după o procedură stabilită prin HG. Acum: 500–1.000 lei pentru instituție, dacă nu implementează sistemul, după OG 2/2001 (art. 4¹ alin. (7), (9)).",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 4¹ alin. (7)",
+          "before": "se sancționează cu amendă de la 1.000 lei la 2.500 lei, aplicată persoanei responsabile, potrivit procedurii stabilite prin Hotărâre a Guvernului.",
+          "after": "constituie contravenție și se sancționează cu amendă de la 500 lei la 1.000 lei. Amendă se aplică autorității, instituției, organismului sau entității prevăzute la alin. (1), cu personalitate juridică.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Și actele deja emise pot primi notificare",
+          "text": "Inițial, legea privea doar actele emise după intrarea ei în vigoare. Acum poți cere notificarea și pentru actele încă valabile la 1 iulie 2028, dacă mai e timp de avansul de 30 de zile (art. III alin. (5)).",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. III alin. (5)",
+          "before": "Dispozițiile prezentei legi se aplică actelor administrative prevăzute la art. I, emise după data intrării sale în vigoare.",
+          "after": "emise sau eliberate anterior datei de 1 iulie 2028 și aflate în perioada de valabilitate la această dată, beneficiarul sau titularul poate opta pentru primirea notificării",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Platformă unică ADR, funcțională abia din iulie 2028",
+          "text": "Inițial, legea intra în vigoare la 1 ianuarie 2027. Acum intră la 1 ianuarie 2028, iar platforma unică făcută de ADR trebuie să funcționeze până la 1 iulie 2028 (art. 4¹ alin. (2), art. II, art. III).",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. II alin. (2)",
+          "before": "Prezenta lege intră în vigoare la data de 1 ianuarie 2027.",
+          "after": "se implementează și se pune în funcțiune până la data de 1 iulie 2028.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Excepția pentru legi speciale poate scoate din sistem tocmai actele importante",
+            "major": true,
+            "article": "art. 4¹ alin. (6)"
+          },
+          {
+            "text": "Riscul expirării rămâne la cetățean; notificarea lipsă nu poate fi invocată",
+            "major": true,
+            "article": "art. 4¹ alin. (4)"
+          },
+          {
+            "text": "Amenda pedepsește neimplementarea unei platforme construite de ADR, greu de imputat",
+            "major": true,
+            "article": "art. 4¹ alin. (7)"
+          },
+          {
+            "text": "Amenda de 500–1.000 lei e simbolică și se plătește din bani publici",
+            "major": true,
+            "article": "art. 4¹ alin. (7)"
+          },
+          {
+            "text": "Termenele se contrazic: 6 luni de la 1.01.2028, dar cel târziu 31.12.2027",
+            "major": false,
+            "article": "art. II alin. (1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Notificarea e opțională și poate fi cerută sau retrasă oricând",
+            "major": true,
+            "article": "art. 4¹ alin. (3)"
+          },
+          {
+            "text": "Datele de contact se folosesc exclusiv pentru notificare",
+            "major": true,
+            "article": "art. 4¹ alin. (5)"
+          },
+          {
+            "text": "Ca titulari, cetățenii și firmele nu primesc obligații sau costuri noi",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Lista actelor acoperite e clară: permise, autorizații, certificate, licențe",
+            "major": true,
+            "article": "art. 4¹ alin. (1)"
+          },
+          {
+            "text": "Actele încă valabile la 1 iulie 2028 pot primi notificare la cerere",
+            "major": true,
+            "article": "art. III alin. (5)"
+          },
+          {
+            "text": "Amenda se aplică instituției, după regulile generale din OG 2/2001",
+            "major": true,
+            "article": "art. 4¹ alin. (9)"
+          },
+          {
+            "text": "O singură platformă, făcută de ADR, pentru toate instituțiile",
+            "major": false,
+            "article": "art. 4¹ alin. (2)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 23,
+        "removed": 15,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:15:50.982Z"
+    }
+  ]
+}

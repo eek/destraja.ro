@@ -1,0 +1,31 @@
+# EXPUNERE DE MOTIVE
+
+la propunerea legislativă pentru completarea Ordonanței de urgență a Guvernului nr. 195/2002 privind circulația pe drumurile publice
+
+Prezenta propunere legislativă are ca obiect completarea legislației rutiere în vederea reglementării clare a modului în care conducătorii de motociclete, mopede și tricicluri cu motor se pot deplasa în raport cu celelalte vehicule aflate în trafic, în special în coloane, la semafor, în apropierea intersecțiilor și în situațiile în care există spații laterale neamenajate între vehicule și bordură, acostament ori marginea părții carosabile.
+
+Necesitatea acestei intervenții legislative rezultă din existența unor situații frecvente în traficul rutier în care vehiculele pe două roți sau vehiculele cu gabarit redus se deplasează printre autovehicule, între benzi, între rânduri de vehicule sau prin spațiul lateral dintre un autovehicul și bordură, pentru a avansa față de coloana de vehicule aflată în mers lent ori oprită temporar.
+
+În practică, aceste conduite sunt adesea tratate neunitar. Uneori sunt considerate depășiri neregulamentare, alteori devansări, deplasări paralele, circulație între rânduri sau simple manevre laterale. Această lipsă de claritate creează dificultăți atât pentru participanții la trafic, cât și pentru organele de constatare, mai ales atunci când se produc accidente în zona intersecțiilor sau în timpul virajului la dreapta al unui autovehicul.
+
+Legislația actuală reglementează obligația conducătorului de vehicul care schimbă direcția de mers, virează la dreapta sau la stânga, trece pe o altă bandă ori efectuează o altă manevră de a semnaliza din timp și de a se asigura că poate efectua manevra fără a pune în pericol siguranța celorlalți participanți la trafic. Această obligație trebuie menținută integral. Prezenta inițiativă nu elimină și nu diminuează obligația conducătorilor auto de a se asigura la efectuarea virajului sau la schimbarea direcției de mers.
+
+Totuși, siguranța rutieră nu poate fi fundamentată exclusiv pe obligația conducătorului auto de a anticipa apariția unui vehicul pe două roți într-un spațiu lateral care nu este bandă de circulație și care, în mod normal, nu ar trebui să fie utilizat ca traseu de deplasare. În special în cazul virajului la dreapta, prezența unei motociclete sau a unui moped între autovehicul și bordură poate deveni dificil de observat, mai ales din cauza unghiului mort, a gabaritului redus al vehiculului pe două roți, a diferenței de viteză și a momentului scurt în care se produce manevra.
+
+În lipsa unei reguli exprese, se ajunge la situații în care răspunderea este stabilită aproape exclusiv prin aplicarea regulii generale privind neasigurarea la viraj, fără o evaluare clară a conduitei motociclistului sau mopediștilor care avansează pe un spațiu neamenajat, paralel cu autovehiculele, în afara unei benzi distincte de circulație.
+
+Prezenta propunere legislativă introduce o regulă simplă și previzibilă: motocicletele, mopedele și triciclurile cu motor trebuie să respecte ordinea de deplasare a coloanei și nu pot utiliza spațiile laterale dintre vehicule, dintre rândurile de vehicule ori dintre un vehicul și bordură, acostament sau marginea părții carosabile ca benzi improvizate de circulație.
+
+Inițiativa nu interzice depășirea regulamentară, nu interzice circulația pe benzi distincte și nu afectează situațiile în care există benzi, culoare sau spații special amenajate și semnalizate pentru anumite categorii de vehicule. Dimpotrivă, textul propus stabilește expres excepția pentru situațiile în care deplasarea se face pe o bandă de circulație distinctă, delimitată prin marcaje, ori pe un spațiu special amenajat și semnalizat.
+
+Scopul propunerii este eliminarea conduitei periculoase prin care vehiculele pe două roți avansează printre mașini, între rânduri sau pe partea dreaptă a autovehiculelor, fără ca acel spațiu să fie destinat circulației. O asemenea reglementare este necesară pentru reducerea riscului de accidente, pentru clarificarea obligațiilor participanților la trafic și pentru asigurarea unei practici unitare de constatare și sancționare.
+
+Propunerea stabilește și un regim sancționător expres. Nerespectarea noilor reguli urmează să fie sancționată cu amenda prevăzută în clasa a II-a de sancțiuni și cu suspendarea exercitării dreptului de a conduce pentru 30 de zile. În cazul în care încălcarea regulii produce un accident de circulație soldat numai cu avarierea unui vehicul sau alte pagube materiale, sancțiunea se agravează, prin aplicarea amenzii din clasa a III-a și suspendarea exercitării dreptului de a conduce pentru 60 de zile.
+
+Această soluție este proporțională, întrucât se raportează la regimul deja existent pentru fapte precum depășirea coloanelor de vehicule oprite la culoarea roșie a semaforului, nerespectarea regulilor privind depășirea sau adoptarea unui comportament agresiv în trafic. Totodată, sancțiunea este necesară pentru ca norma nou introdusă să nu rămână una pur declarativă, ci să poată fi aplicată efectiv de poliția rutieră.
+
+Prin această inițiativă se urmărește protejarea tuturor participanților la trafic: conducători auto, motocicliști, mopediști, pietoni și ceilalți participanți vulnerabili. Regula propusă nu este îndreptată împotriva unei categorii de participanți la trafic, ci împotriva unei conduite periculoase și greu previzibile, care transformă spațiile neamenajate dintre vehicule în culoare improvizate de deplasare.
+
+Inițiator:
+
+Nini-Alexandru Pascalini

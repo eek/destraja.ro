@@ -1,0 +1,168 @@
+{
+  "slug": "plx-311-2026",
+  "billId": "PL-x 311/2026",
+  "updatedAt": "2026-10-29T13:05:24.074Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L174FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Terenul stațiunii agricole din Oradea trece la primărie pentru un nou parc industrial",
+      "summaryTlDr": "Scopul e legitim și are susținere din toate partidele: o stațiune de cercetare îndatorată și abandonată de 14 ani devine parc industrial. Textul este însă redactat neglijent. Interdicția de schimbare a destinației contrazice chiar scopul legii, nu există clauză de revenire la stat, iar soarta salariaților și a cercetării nu este reglementată.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 6
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/300/10/1/se342.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Stațiunea agricolă îndatorată din Oradea și 53 ha de teren de stat trec gratuit la Primăria Oradea",
+      "summaryTlDr": "Este o lege tehnică, de patrimoniu local, care închide un dosar blocat de peste un deceniu. Terenul rămâne proprietate publică, iar materialul de cercetare este salvat la Lovrin. Punctul slab: parcul industrial promis nu apare nicăieri în text, deci nimic nu obligă municipiul să-l și facă.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 6
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Stațiunea din Oradea nu mai e desființată prin lege, dar cele 53 ha trec fără nicio destinație impusă",
+      "summary": "Inițial stațiunea era desființată prin lege. Acum trece la municipiul Oradea cu datorii și procese, iar datele și brevetele merg la Lovrin. Terenul de 53 ha se dă însă fără scop sau interdicție, iar clădirile nu mai apar.",
+      "changes": [
+        {
+          "title": "Stațiunea nu mai e desființată, trece la municipiu",
+          "text": "Inițial art. 3 desființa stațiunea. Acum (art. 54 alin. (1¹²)) ea trece în subordinea municipiului Oradea cu datoriile, drepturile, obligațiile și procesele în curs; legea nu o mai desființează.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. I pct. 1 (art. 54 alin. (1¹²))",
+          "before": "Stațiunea de Cercetare Dezvoltare Agricolă – Oradea se desființează.",
+          "after": "trece în subordinea municipiului Oradea, județul Bihor, la data intrării în vigoare a prezentei legi cu tot patrimoniul activ și pasiv, toate drepturile și obligațiile, inclusiv litigiile aflate în curs pe rolul instanțelor judecătorești sau arbitrale ale acesteia.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Terenul nu mai are destinație impusă prin lege",
+          "text": "Inițial terenul se dădea pentru un parc industrial, iar schimbarea destinației era interzisă. Acum cele 53,2382 ha trec la municipiu fără scop, interdicție, termen sau revenire la stat.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. I pct. 2 (art. 54 alin. (7))",
+          "before": "Schimbarea destinației suprafețelor de teren transmise potrivit prevederilor alin.(1) este interzisă și se sancționează conform legii.",
+          "after": "aflată în domeniul public al statului și administrarea Stațiunii de Cercetare-Dezvoltare Agricolă Oradea, nepreluată în administrare de Universitatea din Oradea, trece în proprietatea publică a municipiului Oradea, județul Bihor.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Datele, materialul biologic și brevetele merg la Lovrin",
+          "text": "Nou (art. II alin. (2)): documentațiile științifice, materialul biologic vegetal și brevetele stațiunii trec fără plată la SCDA Lovrin în 60 de zile, deci nu se pierd. Lipsesc inventarul și procedura de predare.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. II alin. (2)",
+          "before": null,
+          "after": "Documentațiile și informațiile științifice, materialul biologic de cercetare vegetală și brevetele Stațiunii de Cercetare-Dezvoltare Agricolă Oradea se preiau fără plată de Stațiunea de Cercetare-Dezvoltare Agricolă Lovrin, județul Timiș",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Cele trei clădiri nu mai apar în transfer",
+          "text": "Inițial legea transfera explicit terenul și trei clădiri. Acum alin. (7) și anexa nr. 2 cuprind doar terenul, așa că nu e clar cui aparțin clădirile din domeniul public al statului.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. I pct. 2 (art. 54 alin. (7))",
+          "before": "și a trei construcții din aceeași locație având nr inv MF 116314, 116454 și nr. MF 116461",
+          "after": "Prin derogare de la dispozițiile art.31 alin. (2) și (3) suprafața de teren de 53,2382 ha",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Consiliul Local decide reorganizarea în 60 de zile",
+          "text": "Inițial bunurile se predau prin protocol în 30 de zile. Acum Consiliul Local stabilește prin hotărâre, în 60 de zile, organizarea stațiunii și reorganizarea, fără garanții scrise pentru salariați.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. II alin. (1)",
+          "before": "Predarea-preluarea bunurilor prevăzute la art. 1 se face pe bază de protocol încheiat între părțile interesate, în termen de 30 de zile de la data intrării în vigoare a prezentei legi.",
+          "after": "reglementarea aspectelor determinate de aplicarea măsurilor de reorganizare prevăzute de prezenta lege se adoptă prin hotărâre a Consiliului Local al Municipiului Oradea, în termen de 60 de zile",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Cele 53 ha trec gratuit, fără destinație, termen sau revenire la stat",
+            "major": true,
+            "article": "art. I pct. 2 (art. 54 alin. (7))"
+          },
+          {
+            "text": "Nu e clar al cui devin cele trei clădiri ale stațiunii",
+            "major": true,
+            "article": "art. I pct. 2 (art. 54 alin. (7))"
+          },
+          {
+            "text": "Municipiul preia tot pasivul stațiunii, circa 2,1 milioane lei datorii după Expunere",
+            "major": true,
+            "article": "art. I pct. 1 (art. 54 alin. (1¹²))"
+          },
+          {
+            "text": "Desființarea și soarta salariaților sunt lăsate Consiliului Local, fără nicio garanție",
+            "major": true,
+            "article": "art. II alin. (1)"
+          },
+          {
+            "text": "Lipsesc inventarul și procedura de predare a materialului științific către Lovrin",
+            "major": false,
+            "article": "art. II alin. (2)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Datele științifice, materialul biologic și brevetele stațiunii trec gratuit la SCDA Lovrin",
+            "major": true,
+            "article": "art. II alin. (2)"
+          },
+          {
+            "text": "Stațiunea nu e desființată prin lege; drepturile, obligațiile și litigiile se preiau explicit",
+            "major": true,
+            "article": "art. I pct. 1 (art. 54 alin. (1¹²))"
+          },
+          {
+            "text": "Terenul transferat e identificat pe tarlale, parcele și categorii în anexa nr. 2",
+            "major": false,
+            "article": "art. I pct. 7 (anexa nr. 10.3)"
+          },
+          {
+            "text": "Legea 45/2009 e modificată explicit, nu „în mod corespunzător”",
+            "major": false,
+            "article": "art. I"
+          },
+          {
+            "text": "Guvernul actualizează în 60 de zile inventarul bunurilor statului",
+            "major": false,
+            "article": "art. II alin. (3)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 23,
+        "removed": 16,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:05:24.074Z"
+    }
+  ]
+}

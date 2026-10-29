@@ -1,0 +1,112 @@
+{
+  "slug": "plx-437-2026",
+  "billId": "PL-x 437/2026",
+  "updatedAt": "2026-10-29T12:41:56.084Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L221FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5.5,
+      "riskLevel": "yellow",
+      "plainTitle": "Reținerea permisului șoferilor străini la ieșirea din țară până la plata amenzii rutiere",
+      "summaryTlDr": "Deși scopul de a încasa amenzile de la șoferii nerezidenți este legitim, proiectul este redactat neglijent: blochează restituirea permisului chiar înainte de crearea contului unic de plată și încalcă Convenția de la Viena privind circulația rutieră.",
+      "scores": {
+        "agy": 5,
+        "claude": null,
+        "codex": 6
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/30/7/se472.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Permisul străin suspendat se dă înapoi mai devreme doar dacă amenda e plătită",
+      "summaryTlDr": "Este o modificare mică și în mare rezonabilă. O facilitate care există deja pentru șoferii cu permis străin, restituirea anticipată a permisului suspendat, devine condiționată de plata amenzii. Problema e redactarea: nu spune ce amendă, ce dovadă se acceptă și cum se plătește în cele până la 90 de zile până apare „contul unic”.",
+      "scores": {
+        "agy": 5,
+        "claude": 3,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Proiect adoptat tacit de Senat, fără schimbări de fond; doar o greșeală de scriere corectată",
+      "summary": "Textul nu s-a schimbat pe fond: Senatul l-a adoptat tacit, în forma inițiatorului, corectând doar „constată” în „constatată” și diacriticele. Problemele rămân: nu e clar ce amendă trebuie plătită și cum plătesc străinii până primesc contul unic.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Nu reiese ce amendă trebuie plătită: cea din procesul-verbal sau orice restanță",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Neclar dacă plata a jumătate din minim în 15 zile contează ca achitare",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "La avertisment plus suspendare nu există amendă, dar textul cere dovada plății",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Condiția de plată se aplică înainte ca ministerul să comunice contul pentru străini",
+            "major": true,
+            "article": "art. I și II"
+          },
+          {
+            "text": "Obligația de a comunica contul nu are destinatar, formă de publicare sau sancțiune",
+            "major": false,
+            "article": "art. II"
+          },
+          {
+            "text": "Ministerul e numit cu denumirea veche, „Ministerul Finanțelor Publice”",
+            "major": false,
+            "article": "art. II"
+          },
+          {
+            "text": "Amenzile fără suspendare, inclusiv cele de la camere, rămân greu de recuperat",
+            "major": false,
+            "article": "art. I"
+          }
+        ],
+        "good": [
+          {
+            "text": "Străinii își pot recupera permisul înainte de plecarea din țară, ca până acum",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Plata amenzii devine condiție, ca amenzile șoferilor străini să nu rămână neplătite",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Ministerul trebuie să comunice un cont unic pentru plata amenzilor de către străini",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 4,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:41:56.084Z"
+    }
+  ]
+}

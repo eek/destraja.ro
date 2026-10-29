@@ -1,0 +1,144 @@
+{
+  "slug": "plx-703-2026",
+  "billId": "PL-x 703/2026",
+  "updatedAt": "2026-10-29T13:19:24.024Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L498FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "plainTitle": "2 lei pe litru pentru fermierii care produc lapte ecologic",
+      "summaryTlDr": "Scopul e legitim și sprijinul e plafonat, dar formula aleasă, 2 lei pe fiecare litru valorificat, intră exact în excepția pe care regulamentul european de minimis o exclude, așa că fermierii ar putea fi obligați să dea banii înapoi. Textul mai are trimiteri greșite și cerințe de acte care se contrazic, ușor de reparat în comisii.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 7
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/700/00/3/se798.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "plainTitle": "2 lei pe litru pentru laptele ecologic, timp de 3 ani",
+      "summaryTlDr": "Sprijinul e util și bine țintit pentru un sector aflat în declin. Problema e mecanismul ales, plata pe litru valorificat, pe care chiar regulamentul european invocat îl exclude de la regimul de minimis. Dacă art. 6 nu se corectează, fermierii riscă să încaseze bani pe care să fie obligați apoi să-i returneze cu dobânzi.",
+      "scores": {
+        "agy": 4,
+        "claude": 5,
+        "codex": 7
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a corectat doar o trimitere greșită; plata pe litru, contrară regulilor UE, rămâne",
+      "summary": "Senatul a făcut doar corecturi de formulare și a reparat o trimitere greșită la documentele cererii. Problemele de fond rămân: ajutorul pe litru vândut e exclus de regulile UE de minimis, iar bugetul anual și sursa banilor nu sunt stabilite.",
+      "changes": [
+        {
+          "title": "Trimiterea la documentele cererii a fost corectată",
+          "text": "Art. 9 alin. (2) trimitea inițial la documentele „de la alin. (2)”, adică la el însuși; acum trimite corect la lista din alin. (1).",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 9 alin. (2)",
+          "before": "Cererea de înscriere în Program, însoțită de documentele prevăzute la alin.(2), poate fi transmisă la APIA și prin mijloace electronice și/sau poștă/curierat.",
+          "after": "Cererea de înscriere în Program, însoțită de documentele prevăzute la alin.(1), poate fi transmisă la APIA și prin mijloace electronice și/sau poștă/curierat.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Plata pe litru vândut e exclusă din regimul de minimis; risc de recuperare",
+            "major": true,
+            "article": "art. 6 alin. (2)"
+          },
+          {
+            "text": "Fără plafon bugetar în lege, cei 2 lei/litru pot scădea imprevizibil",
+            "major": true,
+            "article": "art. 6 alin. (4)"
+          },
+          {
+            "text": "Cheltuiala de circa 99 mil. lei/an nu are o sursă de finanțare precisă",
+            "major": true,
+            "article": "art. 7"
+          },
+          {
+            "text": "Atestatul de producător e cerut tuturor, deși firmele nu au așa ceva",
+            "major": false,
+            "article": "art. 9 alin. (1) lit. b)"
+          },
+          {
+            "text": "Plafonul de 50.000 euro e scris „pe beneficiar”, deși contează tot grupul de firme",
+            "major": false,
+            "article": "art. 6 alin. (3)"
+          },
+          {
+            "text": "Estimarea costului numără doar vacile, deși ajutorul acoperă și bivolițele, oile și caprele",
+            "major": false,
+            "article": "art. 5"
+          },
+          {
+            "text": "Termenul de verificare curge de la o perioadă de depunere nedefinită",
+            "major": false,
+            "article": "art. 9 alin. (3)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Pot primi ajutorul fermierii cu atestat, PFA-urile, întreprinderile familiale și firmele",
+            "major": true,
+            "article": "art. 3 lit. e)"
+          },
+          {
+            "text": "Ajutorul acoperă laptele ecologic de vacă, bivoliță, oaie și capră",
+            "major": true,
+            "article": "art. 5"
+          },
+          {
+            "text": "Ajutorul se poate cumula cu alte forme de sprijin pentru agricultură",
+            "major": true,
+            "article": "art. 10"
+          },
+          {
+            "text": "Banii se plătesc în două tranșe pe an",
+            "major": false,
+            "article": "art. 6 alin. (5)"
+          },
+          {
+            "text": "APIA ajută solicitanții să verifice ajutoarele de minimis primite în ultimii 3 ani",
+            "major": false,
+            "article": "art. 8 alin. (2)"
+          },
+          {
+            "text": "Cererea se poate depune electronic sau prin poștă ori curier",
+            "major": false,
+            "article": "art. 9 alin. (2)"
+          },
+          {
+            "text": "Guvernul trebuie să adopte normele de aplicare în 30 de zile",
+            "major": false,
+            "article": "art. 13"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 23,
+        "removed": 29,
+        "same": 0.51
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:18:50.971Z"
+    }
+  ]
+}

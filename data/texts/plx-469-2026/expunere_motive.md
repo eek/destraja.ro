@@ -1,0 +1,192 @@
+Grupul Parlamentar al Partidului Național Liberal
+
+## Expunere de motive
+
+## la propunerea legislativă pentru modificarea art. Il din Legea nr. 254/2022 pentru modificarea și completarea Legii fondului funciar nr. 18/1991 și a altor acte normative
+
+## 1. Contextul general și sursa inițiativei legislative
+
+Legea nr. 254/2022 a introdus, între altele, posibilitatea amplasării în extravilan, pe terenuri agricole de clasa III-a, a IV-a și a V-a (în condițiile legii), a unor obiective de investiție specifice producerii de energie electrică din surse regenerabile, cu limitarea suprafeței la maximum 50 ha/obiectiv și cu reguli privind scoaterea din circuitul agricol, inclusiv utilizarea în sistem dual pentru anumite categorii de folosință.
+
+Totodată, art. Il din Legea nr. 254/2022 stabilește că dispozițiile acesteia produc efecte juridice până la data de 31 decembrie 2026.
+
+Prezenta inițiativă legislativă are ca sursă necesitatea asigurării predictibilității și continuității regimului juridic instituit de Legea nr. 254/2022 pentru proiectele de investiții în energie regenerabilă și infrastructura aferentă, întrun context în care investițiile sunt planificate și implementate pe orizonturi multianuale.
+
+## 2. Fundamentarea europeană a inițiativei, dacă este cazul
+
+Uniunea Europeană a stabilit pentru anul 2030 o țintă obligatorie de cel puțin 42,5% energie din surse regenerabile în mixul energetic, cu aspirația de a atinge 45%, și promovează accelerarea autorizării proiectelor de energie regenerabilă.
+
+Grupul Parlamentar al Partidului Național Liberal
+
+De asemenea, Fondul pentru Modernizare este stabilit pentru perioada 2021–2030, având ca scop sprijinirea modernizării sistemelor energetice și creșterea eficienței energetice în statele beneficiare, inclusiv România.
+
+În acest cadru, un termen național de aplicare până la 31 decembrie 2030 pentru regimul temporar asigurat de Legea nr. 254/2022 este coerent cu orizontul de implementare 2030 al principalelor politici și instrumente europene în domeniul energiei și climei.
+
+## 3. Situația existentă la nivel național
+
+În prezent, art. Il din Legea nr. 254/2022 limitează efectele juridice ale dispozițiilor acesteia până la 31 decembrie 2026.
+
+În paralel, sunt în derulare sau în pregătire apeluri și scheme de finanțare pentru capacități de producere a energiei din surse regenerabile (autoconsum pentru întreprinderi, scheme pentru sectorul agricol și industria alimentară, proiecte în cadrul Programului Tranziție Justă, inclusiv pentru dezvoltarea surselor de energie regenerabilă în perspectiva comunităților de energie), care presupun parcurgerea etapelor de autorizare și execuție.
+
+Calendarul etapelor de autorizare și implementare (documentații tehnice, avize, aprobări, scoatere din circuitul agricol, autorizații de construire, execuție) este, în practică, multianual, iar menținerea termenului 31 decembrie 2026 poate genera presiune excesivă și risc de nefinalizare a procedurilor la timp pentru proiecte mature.
+
+## 4. Necesitatea și obiectivele intervenției legislative
+
+Necesitatea intervenției este determinată de:
+
+\- asigurarea predictibilității cadrului juridic pentru amplasarea proiectelor de energie regenerabilă pe anumite terenuri agricole din extravilan, în condițiile legii;
+
+Grupul Parlamentar al Partidului Național Liberal
+
+\- evitarea apariției unor sincope de reglementare (incertitudini administrative și interpretări neunitare) generate de expirarea clauzei temporare la finalul anului 2026;
+
+\- menținerea unui ritm sustenabil de autorizare și implementare a proiectelor, prin evitarea concentrării artificiale a demersurilor de autorizare într-un termen scurt.
+
+Obiectivul principal al intervenției legislative este prelungirea termenului din art. Il al Legii nr. 254/2022 până la 31 decembrie 2030, fără modificarea celorlalte condiții/substanțe ale regimului existent.
+
+## 5. Conformitatea cu legislația UE, principiile generale și tehnica legislativă
+
+Propunerea este conformă cu obiectivele UE privind creșterea ponderii energiei din surse regenerabile și cu direcția generală de simplificare/accelerare a procedurilor de autorizare, fără a elimina obligațiile de protecție a mediului, de urbanism ori de securitate a construcțiilor prevăzute de legislația aplicabilă.
+
+Din perspectiva tehnicii legislative, intervenția este una de mică întindere (Articol unic), limitată la înlocuirea unei sintagme (data), în acord cu principiile de claritate, concizie și previzibilitate ale normei.
+
+## 6. Riscuri potențiale și vulnerabilități identificate
+
+Riscurile asociate neadoptării propunerii:
+
+\- apariția incertitudinilor juridice privind aplicabilitatea regimului derogatoriu pentru amplasarea proiectelor în extravilan după 31 decembrie 2026;
+
+\- creșterea riscului de întârzieri și blocaje administrative, inclusiv prin solicitări suplimentare de documentații sau reevaluări de amplasamente;
+
+Grupul Parlamentar al Partidului Național Liberal
+
+\- afectarea calendarului de implementare a investițiilor în capacități regenerabile, inclusiv pentru proiecte în curs de finanțare sau pregătire.
+
+Riscuri asociate adoptării propunerii:
+
+\- necesitatea de a menține echilibrul între investițiile energetice și protecția fondului funciar; acest risc este atenuat prin condițiile deja existente (plafon 50 ha, clase de calitate, reguli de circuit agricol și sistem dual).
+
+## 7. Schimbările preconizate și mecanismele de implementare
+
+Schimbarea preconizată: înlocuirea datei „31 decembrie 2026” cu „31 decembrie 2030” în art. Il din Legea nr. 254/2022.
+
+Mecanismul de implementare este unul direct: intrarea în vigoare a legii de modificare va produce efectul de prelungire a termenului de aplicare, fără instituirea de structuri noi, fără norme tranzitorii suplimentare și fără cheltuieli administrative suplimentare.
+
+## 8. Beneficiile așteptate ale adoptării actului normativ
+
+– creșterea predictibilității pentru investitori și autorități în aplicarea regimului juridic privind proiectele regenerabile în extravilan;
+
+\- reducerea presiunii de autorizare și implementare până la finalul anului 2026;
+
+\- alinierea la orizontul 2030 al politicilor și instrumentelor europene relevante (ținte regenerabile și perioada 2021–2030 a Fondului pentru Modernizare);
+
+\- susținerea implementării proiectelor de investiții pentru autoconsum și pentru inițiative locale/regionale, în condițiile respectării obligațiilor de mediu, urbanism și siguranță în construcții.
+
+PARLAMENTUL ROMÂNIEI SENAT
+
+București, Calea 13 Septembrie, Nr. 1-3
+
+Grupul Parlamentar al Partidului Național Liberal
+
+## 9. Concluzie
+
+Prezenta propunere legislativă are caracter punctual și urmărește prelungirea termenului de aplicare stabilit la art. Il din Legea nr. 254/2022 până la 31 decembrie 2030, în vederea asigurării continuității și predictibilității cadrului juridic pentru dezvoltarea proiectelor de energie electrică din surse regenerabile în condițiile stabilite de legislația fondului funciar.
+
+În numele inițiatorilor :
+
+Glad Aurel VARGA
+
+Senator PNL
+
+Lucian Rosu
+
+Sonder PNL
+
+## Parlamentul României
+
+## Senat
+
+## Tabel inițiatori
+
+| Nr.Crt. | Nume și PrenumeParlamentar(senator sau deputat) | GRUPPARLAMENTAR | Circumscripțiaelectorală | Semnătură |
+| --- | --- | --- | --- | --- |
+| 1 | Daniel Catlin Fenechiu | PNL | BC |  |
+| 2 | Pauliue Nicolela | PNL | Jefou |  |
+| 3 | Nieulescu Cergare, Grichien | PNL | HUL |  |
+| 4 | COTET MIAHAI | PNL | AG |  |
+| 5 | Manan Qiu | PNL | HD |  |
+| 6 | ANTAC ISYAHZJIN | no VΔUR/2018 | UTC |  |
+| 7 | SILW WCDW COST | PNL | CT |  |
+| 8 | PAJSOUETJU VETA | P.H.L. | DJ |  |
+| 9 | ANINE MONICA CRISTINA | PNL | B |  |
+
+| 10 | BUGA V. | PNL | TIMIS |
+| --- | --- | --- | --- |
+| 11 | BOTA GUE | PNL | BHOR |
+| 12 | Rouei: Loumu | PHL | ABS |
+| 13 | HORGA MARIA-GABRIEA | PNL | GIURGIU |
+| 14 |  |  |  |
+| 15 |  |  |  |
+| 16 |  |  |  |
+| 17 |  |  |  |
+| 18 |  |  |  |
+| 19 |  |  |  |
+| 20 |  |  |  |
+| 21 |  |  |  |
+| 22 |  |  |  |
+| 23 |  |  |  |
+| 24 |  |  |  |
+| 25 |  |  |  |
+| 26 |  |  |  |
+| 27 |  |  |  |
+| 28 |  |  |  |
+
+JUL 659 ..NENT N....8102026 Data....
+
+# Parlamentul României
+
+## Către Biroul permanent al Senatului
+
+Ion Cristinel RUJAN, senator ales în Circumscripția electorală nr. 20 Gorj, și Sorin VLAȘIN, senator ales în Circumscripția electorală nr. 26 Maramureș, în conformitate cu prevederile art. 92 alin. (4) și ale art. 95 din Regulamentul Senatului, republicat, în vigoare, vă rugăm să luați act de faptul că dorim să devenim co-inițiatori ai Propunerii legislative pentru modificarea art.II din Legea nr.254/2022 pentru modificarea și completarea Legii fondului funciar nr.18/1991 și a altor acte normative (B174/2026).
+
+Vă menționăm că această inițiativă legislativă nu a fost dezbătută de către nici o Cameră a Parlamentului.
+
+Atașăm fișa proiectului legislativ.
+
+Cu deosebită considerație,
+
+Senator PSD
+
+Senator PSD
+
+Ion Cristinel RUJAN
+
+Sorin VLAȘIN
+
+# Parlamentul României Senat
+
+## Către: Biroul Permanent al Senatului României
+
+Subsemnatul, RUSU Ioan-Cristian, vă solicit să fiu înregistrat în calitate de co-inițiator, pentru următoarele propuneri legislative:
+
+\- L296/2026- Propunere legislativă pentru modificarea art.II din Legea nr.254/2022 pentru modificarea și completarea Legii fondului funciar nr.18/1991 și a altor acte normative;
+
+\- L245/2026- Propunere legislativă pentru completarea Legii petrolului nr.238/2004;
+
+\- L270/2026- Propunere legislativă pentru modificarea și completarea Legii nr.185/2016 privind unele măsuri necesare pentru implementarea proiectelor de importanță națională în domeniul gazelor naturale;
+
+\- L265/2026- Propunere legislativă pentru modificarea și completarea Legii nr.82/1993 privind constituirea Rezervației Biosferei "Delta Dunării";
+
+\- L315/2026- Propunere legislativă privind anularea unor obligații fiscale stabilite ca urmare a anulării înregistrării în scopuri de TVA;
+
+\- L332/2026- Propunere legislativă pentru completarea Ordonanței Guvernului 26/2000 cu privire la asociații și fundații;
+
+\- L335/2026- Propunere legislativă pentru modificarea și completare unor acte normative pentru protecția și promovarea drepturilor persoanelor cu handicap.
+
+Vă mulțumesc,
+
+Senator
+
+RUSU Ioan-Cristian
+
+Grup parlamentar, Pace – Întâi România

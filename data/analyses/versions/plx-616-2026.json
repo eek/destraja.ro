@@ -1,0 +1,165 @@
+{
+  "slug": "plx-616-2026",
+  "billId": "PL-x 616/2026",
+  "updatedAt": "2026-10-29T13:22:14.914Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L350FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 7,
+      "riskLevel": "red",
+      "plainTitle": "Consumatorii n-ar mai putea fi executați direct pe contract sau factură, iar casa familiei ar primi protecție specială",
+      "summaryTlDr": "Scopul e legitim și o parte din mecanisme sunt deja cerute de dreptul UE, dar textul merge mult mai departe: desființează titlurile executorii împotriva oricărui consumator, îi dă celui evacuat încă un an gratuit în casa vândută altcuiva și se aplică și executărilor deja pornite. Așa cum e scris, riscă să cadă la CCR pe art. 44 și art. 15 alin. (2) și să scumpească creditul pentru toți.",
+      "scores": {
+        "agy": 8,
+        "claude": 6,
+        "codex": 7
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/600/10/6/se695.pdf",
+      "source": "cdep.ro",
+      "riskScore": 7,
+      "riskLevel": "red",
+      "plainTitle": "Consumatorii nu mai pot fi executați direct pe contract sau factură, iar casa familiei primește protecție",
+      "summaryTlDr": "Scopul e legitim și legea are câteva unelte bune: oferta de reeșalonare înainte de executare, verificarea din oficiu a clauzelor abuzive și anunțarea asistenței sociale când sunt copii. Problema e că art. 6 desființează în bloc titlurile executorii contra consumatorilor, iar art. 5 alin. (4) dă un an de ședere în casa deja vândută. Protecția e făcută din topor, cu risc real la CCR și cu efect probabil de scumpire a creditului.",
+      "scores": {
+        "agy": 8,
+        "claude": 6,
+        "codex": 7
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat tacit textul inițial; singura noutate: legea intră în vigoare la 30 de zile",
+      "summary": "Senatul nu a votat proiectul: l-a adoptat tacit, cu același conținut, plus intrarea în vigoare la 30 de zile. Rămân problemele mari: credite și facturi fără titlu executoriu, un an în casă după evacuare, suspendare obligatorie.",
+      "changes": [
+        {
+          "title": "Legea intră în vigoare la 30 de zile",
+          "text": "Acum art. 11 spune că legea intră în vigoare la 30 de zile de la publicarea în Monitorul Oficial. Inițial nu exista un termen, deci se aplica regula generală de 3 zile.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 11",
+          "before": null,
+          "after": "Art.11.- Prezenta lege intră în vigoare în termen de 30 de zile de la publicarea în Monitorul Oficial al României, Partea I.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Senatul nu a votat: proiect adoptat tacit, neschimbat",
+          "text": "Senatul nu s-a pronunțat în termen, așa că proiectul s-a considerat adoptat în forma inițiatorului. Celelalte diferențe sunt doar corecturi de scriere și numerotare.",
+          "effect": "neutru",
+          "major": false,
+          "article": null,
+          "before": null,
+          "after": "Acest proiect de lege se consideră adoptat de Senat în forma inițială, în condițiile articolului 75 alineatul (2) teza a III-a din Constituția României, republicată.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Credite, leasing, acte notariale, facturi nu mai sunt titluri executorii: procese în plus",
+            "major": true,
+            "article": "art. 6"
+          },
+          {
+            "text": "Un an în casă după evacuare, fără chirie, pe seama cumpărătorului de la licitație",
+            "major": true,
+            "article": "art. 5"
+          },
+          {
+            "text": "Instanța trebuie să suspende executarea la simpla cerere, fără cauțiune, până la hotărârea definitivă",
+            "major": true,
+            "article": "art. 8"
+          },
+          {
+            "text": "Legea nu spune ce se întâmplă cu o executare abuzivă sau intempestivă",
+            "major": true,
+            "article": "art. 5"
+          },
+          {
+            "text": "Se aplică și executărilor în curs: titluri deja folosite pot deveni inaplicabile",
+            "major": true,
+            "article": "art. 10"
+          },
+          {
+            "text": "Art. 6 contrazice art. 7-8: procedurile pentru titluri executorii rămân fără obiect",
+            "major": false,
+            "article": "art. 6-8"
+          },
+          {
+            "text": "Nu e clar dacă lista e completă; ipoteca (art. 2431 Cod civil) lipsește",
+            "major": false,
+            "article": "art. 6"
+          },
+          {
+            "text": "Apelul contra încuviințării suspendă automat executarea, chiar și când e dilatoriu",
+            "major": false,
+            "article": "art. 7"
+          },
+          {
+            "text": "Executarea devine subsidiară renegocierii, fără criterii sau termene clare",
+            "major": false,
+            "article": "art. 4"
+          }
+        ],
+        "good": [
+          {
+            "text": "Creditorul trebuie să propună reeșalonare sau alte soluții cu 30 de zile înainte",
+            "major": true,
+            "article": "art. 5"
+          },
+          {
+            "text": "Casa familiei poate fi executată doar excepțional, cu verificarea proporționalității de instanță",
+            "major": true,
+            "article": "art. 5, art. 7"
+          },
+          {
+            "text": "Instanța verifică din oficiu clauzele abuzive, inclusiv la contestația la executare",
+            "major": true,
+            "article": "art. 7, art. 8"
+          },
+          {
+            "text": "Familiile cu copii: asistența socială e anunțată, evacuarea abia după 30 de zile",
+            "major": true,
+            "article": "art. 9"
+          },
+          {
+            "text": "Garanții persoane fizice fără legătură cu firma debitoare sunt protejați ca consumatori",
+            "major": true,
+            "article": "art. 3"
+          },
+          {
+            "text": "Consumatorul trebuie citat când instanța încuviințează executarea",
+            "major": false,
+            "article": "art. 7"
+          },
+          {
+            "text": "Nicio evacuare înainte de soluționarea cererii de suspendare",
+            "major": false,
+            "article": "art. 8"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 19,
+        "removed": 16,
+        "same": 0.55
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:22:14.914Z"
+    }
+  ]
+}

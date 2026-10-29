@@ -1,0 +1,21 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENAT
+
+Parlamentul României adoptă prezenta lege:
+
+LEGE pentru modificarea art. 92, alin (2), lit. i) din Legea fondului funciar nr 18/1991
+
+Articol unic- La articolul 92, alineatul (2) din Legea fondului funciar nr 18/1991, republicată în Monitorul Oficial al României, Partea I, nr. 1 din 5 ianuarie 1998, cu modificările și completările ulterioare, litera i) se modifică și va avea următorul cuprins:
+
+„i) infrastructuri de comunicații radio-TV sau telefonie, drumuri publice și private, drumuri tehnologice și mijloace de publicitate definite și autorizate potrivit Legii nr. 185/2013 privind amplasarea și autorizarea mijloacelor de publicitate, cu modificările și completările ulterioare și cu respectarea prevederilor Ordonanței Guvernului nr. 43/1997 privind regimul drumurilor, cu modificările și completările ulterioare.”
+
+Aceasta lege a fost adoptată de Camera Deputaților în ședința din ... ... .... cu respectarea prevederilor art. 76 alin (2) din Constituția României
+
+Președintele Camerei Deputaților Sorin-Mihai GRINDEANU
+
+Aceasta lege a fost adoptată de Senat în ședința din ... ... .... cu respectarea prevederilor art. 76 alin (2) din Constituția României
+
+Președintele Senatului Mircea ABRUDEAN

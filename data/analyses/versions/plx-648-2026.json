@@ -1,0 +1,104 @@
+{
+  "slug": "plx-648-2026",
+  "billId": "PL-x 648/2026",
+  "updatedAt": "2026-10-29T13:12:21.091Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L524FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 1.3,
+      "riskLevel": "green",
+      "plainTitle": "Stațiunea agricolă de la Dăbuleni primește numele profesorului Petre Baniță",
+      "summaryTlDr": "Lege de redenumire, inofensivă: stațiunea care cercetează nisipurile Olteniei primește numele omului care a condus-o aproape trei decenii, fără costuri pentru cetățeni. Singura problemă e o frază scrisă neglijent în alin. (2), care vorbește de „desființarea” unui centru, deși scopul declarat este doar schimbarea numelui.",
+      "scores": {
+        "agy": 1,
+        "claude": 2,
+        "codex": 1
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/600/40/8/se746.pdf",
+      "source": "cdep.ro",
+      "riskScore": 1.7,
+      "riskLevel": "green",
+      "plainTitle": "Stațiunea agricolă de la Dăbuleni primește numele profesorului Petre Baniță",
+      "summaryTlDr": "Lege simbolică și inofensivă: schimbă doar numele stațiunii de cercetare de la Dăbuleni și nu costă nimic bugetul sau cetățenii. Singura problemă reală este o frază din art.II, formulată neclar.",
+      "scores": {
+        "agy": 1,
+        "claude": 2,
+        "codex": 2
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Singura schimbare: numele stațiunii Dăbuleni include acum „Prof. univ. dr.” Petre Baniță",
+      "summary": "Acum, noul nume al stațiunii de la Dăbuleni include titlul „Prof. univ. dr. Petre Baniță” în loc de „Prof. dr.”. În rest, conținutul e același, doar renumerotat. Riscul pentru cetățeni și firme nu se schimbă: nu apar obligații, taxe sau sancțiuni noi.",
+      "changes": [
+        {
+          "title": "Numele stațiunii include acum „Prof. univ. dr.”",
+          "text": "Art. I: în noua denumire a stațiunii, titlul lui Petre Baniță devine „Prof. univ. dr.” în loc de „Prof. dr.”. Atribuțiile, banii, personalul și bunurile stațiunii rămân aceleași.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. I",
+          "before": "se înlocuiește cu sintagma „Stațiunea de Cercetare-Dezvoltare pentru Cultura Plantelor pe Nisipuri «Prof. dr. Petre Baniță» Dăbuleni”",
+          "after": "se înlocuiește cu sintagma „Stațiunea de Cercetare-Dezvoltare pentru Cultura Plantelor pe Nisipuri «Prof. univ. dr. Petre Baniță» Dăbuleni”",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Formularea „prin desființarea Centrului...” e ambiguă: pare să ceară desființarea unei entități deja reorganizate",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "good": [
+          {
+            "text": "Schimbă doar denumirea; persoana juridică, contractele, personalul și terenurile rămân neafectate",
+            "major": false,
+            "article": "art. I"
+          },
+          {
+            "text": "Guvernul are 90 de zile să actualizeze HG nr. 837/2017 și inventarul bunurilor statului",
+            "major": false,
+            "article": "art. II"
+          },
+          {
+            "text": "Cost zero pentru bugetul de stat; identitatea vizuală se plătește din veniturile stațiunii",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Nicio obligație, taxă sau sancțiune nouă pentru cetățeni ori firme",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Urmează precedentul Legii nr. 37/2026, care a redenumit Stațiunea Lovrin",
+            "major": false,
+            "article": null
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 4,
+        "same": 0.2
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:11:26.224Z"
+    }
+  ]
+}

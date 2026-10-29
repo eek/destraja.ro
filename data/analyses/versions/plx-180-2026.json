@@ -1,0 +1,127 @@
+{
+  "slug": "plx-180-2026",
+  "billId": "PL-x 180/2026",
+  "updatedAt": "2026-10-29T12:45:47.465Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L118FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Noi droguri interzise (nitazene, HHC), iar medicamentele cu stupefiante trec exclusiv în mâna farmacistului",
+      "summaryTlDr": "Lege în mare parte tehnică și necesară: pune sub control opioide sintetice extrem de periculoase (nitazene) și aplică decizii ONU obligatorii pentru România. Problemele sunt de redactare: o abrogare suspectă (Ethylone), termenul vag „manipulare” și lipsa unei perioade de tranziție pentru farmacii.",
+      "scores": {
+        "agy": 5,
+        "claude": 3,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/80/0/se193.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "Noi droguri interzise (nitazene, HHC), iar medicamentele controlate trec doar prin mâna farmacistului",
+      "summaryTlDr": "Lege tehnică și în mare parte utilă: pune sub control opioide sintetice extrem de periculoase (nitazenele) și HHC, cum cer deciziile ONU din martie 2025. Singurul punct care merită amendat este art. 37 alin. (6). Acesta rezervă exclusiv farmacistului toate operațiunile cu medicamentele din tabelele II și III, iar Expunerea nu analizează deloc impactul asupra asistenților de farmacie și a oficinelor rurale.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat textul inițiatorului fără schimbări de fond, doar cu corecturi de redactare",
+      "summary": "Senatul a votat textul inițiatorului fără schimbări de fond. S-au schimbat doar scrierea trimiterilor, majusculele și formula de adoptare. Rămân aceleași probleme, între care exclusivitatea farmacistului și abrogarea Ethylone fără explicație.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Doar farmacistul poate lucra cu medicamentele din tabelele II și III; asistenții excluși",
+            "major": true,
+            "article": "art. 37 alin. (6)"
+          },
+          {
+            "text": "Ethylone, abrogat ca „eroare materială”, fără să se arate unde rămâne controlat",
+            "major": true,
+            "article": "art. unic pct. 8 (anexă, tabelul II pct. 18)"
+          },
+          {
+            "text": "Preparatele din tabelul II intră sub regim strict, fără estimarea efectului asupra pacienților",
+            "major": true,
+            "article": "art. 10 și art. unic pct. 9"
+          },
+          {
+            "text": "Termenul „manipulare” nu e definit, deci nu se știe ce activități sunt rezervate",
+            "major": false,
+            "article": "art. 37 alin. (6)"
+          },
+          {
+            "text": "Condițiile din Expunere pentru farmacist (liberă practică, contract) lipsesc din text",
+            "major": false,
+            "article": "art. 37 alin. (6)"
+          },
+          {
+            "text": "Unele denumiri chimice folosesc litera „l” în loc de cifra „1”",
+            "major": false,
+            "article": "art. unic pct. 5 și 6"
+          }
+        ],
+        "good": [
+          {
+            "text": "Patru nitazene, opioide sintetice foarte puternice, intră sub control strict în tabelul I",
+            "major": true,
+            "article": "art. unic pct. 5"
+          },
+          {
+            "text": "Eutylone și HHC trec la psihotropele din tabelul I, conform deciziilor ONU",
+            "major": true,
+            "article": "art. unic pct. 6 și 7"
+          },
+          {
+            "text": "Carisoprodolul intră în tabelul III, conform deciziilor ONU din martie 2025",
+            "major": true,
+            "article": "art. unic pct. 13"
+          },
+          {
+            "text": "Preparatele urmează regimul substanței conținute; amestecurile, pe cel al celei mai stricte",
+            "major": true,
+            "article": "art. 10"
+          },
+          {
+            "text": "Unitățile și transportatorii autorizați trebuie să prevină deturnarea din circuitul legal",
+            "major": true,
+            "article": "art. 33 alin. (1)"
+          },
+          {
+            "text": "Lista preparatelor se aprobă prin ordin al ministrului sănătății, publicat în Monitorul Oficial",
+            "major": false,
+            "article": "art. 10 alin. (4)"
+          },
+          {
+            "text": "Distrugerea se face doar de operatori cu autorizație de mediu, în fața unei comisii",
+            "major": false,
+            "article": "art. 48 alin. (3)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 28,
+        "removed": 29,
+        "same": 0.35
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:45:47.465Z"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+Camera Deputaților
+
+Senat
+
+LEGE
+
+# pentru modificarea și completarea Legii nr.47/1992 privind organizarea și funcționarea Curții Constituționale
+
+Articol unic - Legea nr.47/1992 privind organizarea și funcționarea Curții Constituționale, republicată în Monitorul Oficial al României, Partea I, nr.807 din 03 decembrie 2010, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 9 alineatul (1), după litera d) se introduce o nouă literă, lit. d¹), cu următorul cuprins:
+
+d¹) verifică temeinicia absenței judecătorilor la ședințele Plenului, motivele putând fi exclusiv de natură medicală, caz fortuit sau de forță majoră;
+
+1\. La articolul 9 alineatul (1), după litera e) se introduce o nouă literă, lit. e¹), cu următorul cuprins:
+
+e¹) sancționează fiecare absență nemotivată temeinic a judecătorului, prin diminuarea cu 10% a indemnizației brute pentru luna respectivă;
+
+2\. La articolul 52, alineatul (1) se modifică și va avea următorul cuprins:
+
+(1) La ședințele Plenului, prezența tuturor judecătorilor Curții Constituționale este obligatorie. Absența judecătorului trebuie temeinic justificată, în scris, către Președintele Curții Constituționale.
+
+3\. La articolul 64, după litera a) se introduc două litere noi, lit. a¹)-a²), cu următorul cuprins:
+
+a¹) să participe la ședințele Plenului și la alte activități prevăzute de prezenta lege;
+
+a²) să comunice, în scris, președintelui Curții Constituționale motivele temeinice ale absenței la ședințele Plenului;
+
+4\. La articolul 64 după litera f) se introduce o nouă literă, lit. d), cu următorul cuprins:
+
+g) să se abțină și să formuleze în scris o declarație de abținere dacă există un motiv de incompatibilitate sau de conflict de interese în legătură cu cauza judecată.
+
+5\. La articolul 67 alineatul (1), litera b) se modifică și va avea următorul cuprins:
+
+b) în situațiile de incompatibilitate, la trei absențe consecutive la ședințele Plenului Curții, nemotivate temeinic, în scris, sau dacă se află în imposibilitatea exercitării funcției de judecător mai mult de 90 de zile;
+
+## 6. La articolul 67, alineatul (2) se modifică și va avea următorul cuprins:
+
+(2) Constatarea încetării mandatului, potrivit alin. (1) lit. a), se face de președintele Curții Constituționale.
+
+7\. La articolul 67, după alineatul (2) se introduce un nou alineat, alin.(3), cu următorul cuprins:
+
+(3) Constatarea încetării mandatului, potrivit alin. (1) lit. b) și c), se face prin hotărâre a Camerei Deputaților, a Senatului României sau prin decret al Președintelui României, după caz, în funcție de instituția care a numit judecătorul respectiv.

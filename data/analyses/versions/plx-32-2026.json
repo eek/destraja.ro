@@ -1,0 +1,92 @@
+{
+  "slug": "plx-32-2026",
+  "billId": "PL-x 32/2026",
+  "updatedAt": "2026-10-29T12:25:52.632Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L585FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Platformele de cripto vor raporta la ANAF tranzacțiile clienților (DAC8)",
+      "summaryTlDr": "Este o transpunere obligatorie și în mare parte tehnică a Directivei DAC8. Nu introduce taxe noi, dar ANAF va vedea tranzacțiile cu criptoactive ale românilor și le va transmite altor state. Riscul real ține de redactare: unele texte sunt copiate din directivă, cu termene expirate și formulări adresate „statelor membre”.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/30/2/se16.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Platformele de criptomonede vor raporta la ANAF tranzacțiile clienților (DAC8)",
+      "summaryTlDr": "Este o transpunere tehnică și obligatorie a Directivei DAC8. Nu introduce taxe noi, ci obligă furnizorii de criptoactive să trimită date la ANAF, iar ANAF le schimbă cu alte state. Riscurile reale țin de confidențialitatea datelor și de costurile de conformare ale platformelor. Nu am găsit capcane ascunse în textul analizat.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat ordonanța fără modificări; diferențele țin doar de redactarea legii de aprobare",
+      "summary": "Senatul a aprobat OUG 71/2025 exact cum a propus inițiatorul. Acum legea de aprobare menționează și data ordonanței și Monitorul Oficial în care a apărut. Regulile despre schimbul de date fiscale cu alte state rămân aceleași.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Mai multe date despre dividendele cetățenilor ajung automat la alte state UE",
+            "major": true,
+            "article": "art. 291 alin. (1) lit. g)"
+          },
+          {
+            "text": "Raportarea criptoactivelor poate include adresele de portofel, deci mai puțină confidențialitate",
+            "major": false,
+            "article": "art. 286 lit. dd)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Intermediarii cu secret profesional își notifică doar propriul client, conform hotărârii CJUE",
+            "major": true,
+            "article": "art. 286 lit. ee)"
+          },
+          {
+            "text": "Deciziile fiscale anticipate despre domiciliul fiscal al persoanelor fizice intră în schimbul de date",
+            "major": true,
+            "article": "art. 286 lit. n) pct. 4"
+          },
+          {
+            "text": "Dividendele scutite de impozit pe profit (art. 24 Cod fiscal) rămân în afara schimbului",
+            "major": true,
+            "article": "art. 291 alin. (1) lit. g)"
+          },
+          {
+            "text": "Aceleași termene de raportare a criptoactivelor și pentru statele din afara UE (CARF)",
+            "major": false,
+            "article": "art. 71 alin. (4)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:25:52.632Z"
+    }
+  ]
+}

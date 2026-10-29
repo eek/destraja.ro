@@ -1,0 +1,184 @@
+# EXPUNERE DE MOTIVE
+
+## Proiect de lege pentru modificarea și completarea Legii nr. 85/2003 a minelor
+
+România dispune de un potențial geotermal semnificativ, dar acesta nu este valorificat suficient în prezent. Particularitățile tehnice ale exploatărilor geotermale moderne impun actualizarea cadrului legislativ, în vederea clarificării regimului juridic aplicabil, simplificării procedurilor administrative, asigurării conservării zăcămintelor și facilitării utilizării energiei geotermale în beneficiul comunităților locale și al procesului de tranziție energetică.
+
+Prezenta inițiativă legislativă vizează adaptarea cadrului normativ primar aplicabil activităților miniere la realitățile tehnologice actuale, prin recunoașterea expresă a energiei geotermale ca obiect distinct de valorificare a subsolului, care, în condițiile exploatații corecte și ale conservării zăcămintelor, reprezintă o sursă regenerabilă de energie.
+
+În acest sens, calificarea energiei geotermale ca sursă regenerabilă de energie este consacrată expres atât în legislația națională, cât și în cea europeană, inclusiv prin Legea nr. 123/2012 a energiei electrice și a gazelor naturale, Legea nr. 220/2008 privind promovarea energiei din surse regenerabile, precum și prin OUG nr. 163/2022 de transpunere a Directivei (UE) 2018/2001, care confirmă includerea energiei geotermale și a energiei captate prin pompe de căldură în categoria surselor regenerabile nefosile, cu rol esențial în obiectivele de decarbonizare și tranziție energetică ale Uniunii Europene.
+
+Prezenta inițiativă legislativă nu modifică principiile generale ale Legii nr. 85/2003 a minelor privind exploatarea resurselor minerale epuizabile, ci instituie un regim specific activităților geotermale, în cele trei forme, justificat de particularitățile tehnice ale acestora privind desfășurarea activității sub suprafața terestră și de necesitatea promovării utilizării durabile a potențialului geotermic al subsolului.
+
+Prin instituirea unor termene ferme și a unei proceduri accelerate de autorizare, precum și recunoașterea unui drept de inițiativă a unităților administrativ-teritoriale și a instituțiilor publice în privința concesionării activităților miniere pentru proiecte de valorificare a căldurii din sistemele geotermale destinate serviciului public de alimentare cu energie termică în sistem centralizat, în acord cu exigențele europene privind promovarea energiei din surse regenerabile, se favorizează dezvoltarea acestui sector împreună cu asigurarea unor costuri reduse la populație.
+
+## SITUAȚIA ACTUALĂ
+
+Deși dispune de un potențial geotermal remarcabil, concentrat în special în Bazinul Panonic (Câmpia de Vest), dar și în județe precum Ilfov sau Vâlcea, iar eficiența acestei resurse este demonstrată de modelele de succes implementate la nivel național, România nu dispune de un cadru juridic adecvat pentru valorificarea corectă a energiei din sistemele geotermale. Costurile raportate de producători pentru energia termică sunt în domeniul 100 – 500+ lei/MWh, valorile minime fiind raportate pentru energia geotermală.
+
+Legea nr. 85/2003 a minelor reprezintă cadrul normativ primar pentru punerea în valoare a resurselor minerale, proprietate publică a statului, reglementând desfășurarea activităților miniere pe teritoriul și în subsolul țării. Potrivit art. 2 alin. (1) din actul normativ, în sfera resurselor minerale intră, printre altele, apele geotermale și gazele care le însoțesc, fără ca această lege să facă referire la valorificarea căldurii din sistemele geotermale ca resursă distinctă, energie în categoria surselor regenerabile nefosile, care poate fi acumulată, transferată, captată și valorificată prin lucrări specifice asupra sondelor geotermale.
+
+În forma sa actuală, legea nu face distincția între exploatarea clasică a apelor geotermale și valorificarea energiei termice naturale conținute în subsolul scoarței terestre, în acvifere, roci colectoare, formațiuni geologice și fluide subterane.
+
+În timp ce exploatarea clasică a apelor geotermale presupune extragerea și poate conduce la diminuarea resursei în lipsa măsurilor de conservare și reinjecție, valorificarea energiei termice naturale conținute în subsolul scoarței terestre, în acvifere, roci colectoare, formațiuni geologice și fluide subterane, se face prin lucrări de captare, schimb de căldură și recircularea unui fluid tehnologic într-un sistem etanș. Astfel, valorificarea energiei termice naturale conținute în subsolul scoarței terestre asigură integritatea zăcământului și caracterul de energie regenerabilă, fără extragerea unui minereu și fără consumarea resursei minerale din subsol. În această situație are loc exclusiv captarea și transferul energiei termice naturale existente în formațiuni geologice, ceea ce exclude natura de exploatare minieră în sensul clasic al extracției de resurse minerale. Prin urmare, valorificarea energiei termice naturale conținute în subsolul scoarței terestre nu duce la diminuarea zăcământului.
+
+La nivel european, reglementarea sistemelor geotermale se realizează diferențiat în funcție de adâncimea lucrărilor și de impactul acestora asupra utilizării subsolului. Sistemele geotermale superficiale, utilizate în principal prin intermediul pompelor de căldură pentru clădiri, sunt reglementate prin legislația privind construcțiile, protecția mediului și gospodărirea apelor. În schimb, utilizarea geotermală a subsolului profund este supusă unor regimuri speciale de autorizare și control, de regulă în cadrul legislației miniere sau geologice. Prezenta inițiativă preia această abordare și delimitează sistemele geotermale superficiale de cele profunde prin introducerea pragului de 400 m, adâncime de la care lucrările pot interfera cu alte utilizări ale subsolului, cu resurse minerale sau cu formațiuni geologice de interes public.
+
+## PROBLEME IDENTIFICATE
+
+Analiza cadrului normativ în vigoare relevă existența unor neclarități și insuficiențe de reglementare privind valorificarea energiei geotermale prin tehnologii moderne, în special prin sisteme geotermale în circuit închis, precum și a unor deficiențe structurale în procedurile de atribuire și de autorizare prevăzute de Legea nr. 85/2003 a minelor, care afectează viteza de implementare a proiectelor de energie regenerabilă.
+
+În mod concret, au fost identificate următoarele probleme:
+
+1\. absența definițiilor actualizate pentru noțiunile conexe valorificării energiei geotermale, în special „energie geotermală”, „sistem geotermal”, „exploatare geotermală în circuit închis” „lucrări la sonde geotermale”;
+
+2\. inexistența unei abordări diferențiate, precum și absența unei calificări exprese a energiei termice obținute prin valorificarea resurselor minerale prin cele trei metode tehnologice diferite;
+
+3\. inexistența unor termene maximale pentru procedura de autorizare a începerii activităților miniere, precum și absența unui termen maximal global aplicabil întregii proceduri de acordare a autorizațiilor pentru valorificarea energiei geotermale, ceea ce conduce la o durată medie de autorizare semnificativ mai îndelungată celei înregistrate în alte state membre ale Uniunii Europene și la descurajarea investițiilor în tehnologii inovatoare;
+
+4\. imposibilitatea unităților administrativ-teritoriale de a iniția, sub regimul legii actuale, procedura de concesionare a activităților miniere de explorare sau exploatare pentru valorificarea căldurii din sistemele geotermale destinate serviciului public de alimentare cu energie termică în sistem centralizat, deși aceste unități suportă nemijlocit impactul socio-economic al modului de organizare al serviciului local de termoficare;
+
+5\. lipsa unei proceduri accelerate de autorizare pentru proiectele de energie din surse regenerabile desfășurate în subsol, precum și absența unor termene correlate cu specificul proiectelor de mică putere, în condițiile în care Directiva (UE) 2023/2413 impune termene reduse și proceduri simplificate pentru proiectele de energie din surse regenerabile.
+
+În acest context, se constată că legislația națională nu reflectă în mod adecvat diferențele tehnice dintre exploatarea geotermală clasică și sistemele geotermale moderne, în special cele în circuit închis, în care nu are loc extractția unei resurse minerale, ci doar utilizarea energiei termice naturale a subsolului.
+
+Potrivit normelor de tehnică legislativă consacrate de art. 13–15 din Legea nr. 24/2000, reglementările având același obiect trebuie concentrate într-un singur act normativ, iar materiile conexe pot fi incluse în actul normativ care reglementează materia principală. Întrucât valorificarea căldurii geotermale presupune intervenții asupra subsolului, activitate care se circumscrie domeniului de reglementare al Legii minelor nr. 85/2003 și al competențelor Autorității Naționale de Reglementare în Domeniul Minier, Petrolier și al Stocării Geologice a Dioxidului de Carbon (în continuare ANRMPSG), modificarea și completarea Legii nr. 85/2003 a minelor reprezintă soluția legislativă adecvată, asigurând evitarea paralelismelor normative și păstrarea coerenței regimului juridic aplicabil intervențiilor asupra subsolului.
+
+## SCHIMBĂRI PRECONIZATE
+
+Soluția legislativă propusă constă în modificarea și completarea Legii nr. 85/2003 a minelor, astfel încât aceasta să reflecte realitatea tehnologică actuală, concomitent cu accelerarea procedurilor de autorizare. Intervenția legislativă se concentrează pe următoarele direcții principale:
+
+a) clarificarea domeniului de aplicare al Legii minelor în cazul activităților de explorare și exploatare a resurselor geotermale, precum și al noilor tehnologii de valorificare a energiei geotermale
+
+\- precizarea expresă a faptului că activitățile de explorare și exploatare a apelor geotermale și a gazelor associate, precum și valorificarea energiei termice rezultate din acestea, intră sub incidența Legii minelor;
+
+\- includerea în domeniul de aplicare al legii a sistemelor geotermale în circuit închis realizate la adâncimi mai mari de 400 m, având în vedere că acestea utilizează și ocupă volume de subsol aflate în proprietatea publică a statului;
+
+Pragul de 400 de metri este introdus în scopul delimitării sistemelor geotermale de suprafață de lucrările geotermale profunde care utilizează volume semnificative de subsol, presupun foraje de complexitate ridicată și pot interfera cu resurse minerale, structuri geologice și alte utilizări ale subsolului aflate în administrarea statului.
+
+b) introducerea unor definiții legale pentru noțiuni precum: „sistem geotermal”, „exploatare geotermală în sistem închis”, „căldură din sistemele geotermale”, „energie geotermală”, „lucrări la sonde geotermale” și „procedură de acordare a autorizațiilor pentru valorificarea energiei geotermale”, precum și includerea expresă a căldurii din sistemele geotermale în lista resurselor gestionate prin intermediul acestei legi;
+
+c) delimitarea și clarificarea situațiilor distincte întâlnite în practică:
+
+\- exploatarea geotermală clasică cu valorificarea apelor geotermale și a gazelor associate prin extracție;
+
+\- valorificarea energiei termice concomitent cu reinjectarea fluidelor geotermale în scopul conservării zăcământului;
+
+\- sistemele geotermale în circuit închis cu valorificarea potențialului geotermic al subsolului fără extracția fluidelor naturale.
+
+Clarificarea acestor situații elimină interpretările divergente și creează predictibilitate pentru autorități și investitori.
+
+d) stabilirea unor termene maxime de autorizare pentru începerea activităților miniere, precum și a unei proceduri accelerate de autorizare (fast-track) aplicabile proiectelor de valorificare a căldurii geotermale cu un termen total al procedurii de cel mult 12 luni și cu reducerea la jumătate a termenelor pentru proiectele cu o capacitate de până la 20 MW;
+
+e) favorizarea exploatații zăcămintelor în regim sustenabil prin instituirea unui regim special de redevență pentru valorificarea căldurii geotermale prin sisteme cu reinjecție în zăcământ, constând în cote diferite de redevență calculată la cantitatea netă de fluid extras din zăcământ și la cantitatea reinjectată în aceeași formațiune.
+
+f) sistemele geotermale în circuit închis sunt supuse redevenței miniere raportate la cantitatea de căldură produsă, întrucât acestea nu implică extractția și consumarea unei resurse miniere și nu afectează patrimoniul mineral al statului, însă exploatarea se face prin utilizarea subsolului și implică o posibilă interacțiune cu alte zăcăminte și exploatări miniere.
+
+g) recunoașterea în favoarea unităților administrativ-teritoriale a unui drept de a solicita inițierea procedurii de concesiune a activităților miniere de explorare și de exploatare, exclusiv pentru proiectele de valorificare a căldurii din sistemele geotermale destinate serviciului public de alimentare cu energie termică în sistem centralizat;
+
+Energia geotermală reprezintă una dintre puținele resurse regenerabile disponibile local, independent de condițiile meteorologice și capabilă să asigure furnizarea continuă de energie termică.
+
+Facilitarea accesului unităților administrativ-teritoriale și asociațiilor de dezvoltare intercomunitară la exploatarea geotermală contribuie la:
+
+\- creșterea securității energetice locale;
+
+\- reducerea costurilor suportate de populație;
+
+\- dezvoltarea sistemelor centralizate de alimentare cu energie termică;
+
+\- reducerea emisiilor de gaze cu efect de seră.
+
+## h) simplificarea accesului la exploatarea geotermală
+
+În prezent, procedurile successive de explorare, negociere, concesionare, licențiere, pot întârzia nejustificat dezvoltarea proiectelor geotermale. Inițiativa urmărește:
+
+\- reducerea duratei procedurilor administrative;
+
+• instituirea unor termene clare;
+
+\- facilitarea accesului la exploatare în situațiile justificate de interes public.
+
+i) Introducerea unei excepții de la obligația de plată a redevențelor pentru energia geotermală produsă și destinată exclusiv serviciului public de alimentare cu energie termică pentru o perioadă de 5 ani în condițiile respectării programului de exploatare aprobat în cazul titularilor unități administrativ-teritoriale și instituții publice și a unui criteriu de performanță privind prețul de producție realizat în cadrul agenților economici.
+
+j) instituirea unei obligații a autorității competente și de reglementare de a elabora, modifica sau completa, în termen de maximum 90 de zile de la intrarea în vigoare a legii, actele normative subsecvente, inclusiv Normele pentru aplicarea Legii nr. 85/2003 a minelor aprobate prin Hotărârea Guvernului nr. 1208/2003, în vederea reglementării certificării competențelor tehnice, a programelor de lucrări, a planurilor de refacere a mediului, a ghidurilor de închidere și monitorizare post-închidere și a lucrărilor la sonde geotermale, precum și menținerea valabilității licențelor de explorare sau exploatare aflate în curs de aprobare ori de executare la data intrării în vigoare a legii.
+
+Competența de punere în aplicare a prezentei legi revine ANRMPSG, în calitate de autoritate competentă în domeniul resurselor minerale, potrivit art. 54 din Legea nr. 85/2003 a minelor, cu participarea unităților administrativ-teritoriale în procedurile prevăzute expres de lege și cu respectarea cadrului instituțional existent.
+
+## IMPACTUL PRECONIZAT
+
+## Impactul macroeconomic
+
+Proiectul de act normativ va asigura îndeplinirea unei priorități strategice privind exploatarea sustenabilă a resurselor naturale și promovarea utilizării energiilor regenerabile.
+
+## Impactul asupra mediului de afaceri
+
+Măsura înlătură sarcina birocratică excesivă și incertitudinea pentru titularii licențelor. Totodată, încurajează alocarea capitalului către proiecte de modernizare și de adoptare a noilor soluții tehnologice și oferă predictibilitate investitorilor.
+
+Prin accelerarea procedurilor de autorizare și prin instituirea unor termene maximale se vor crea condițiile necesare pentru diversificarea mixului energetic național, pentru reducerea dependenței de combustibilii fosili și pentru crearea de locuri de muncă în regiunile cu potențial geotermal ridicat.
+
+## Impactul social
+
+Impactul social și economic constă în facilitarea accesului investitorilor și al populației la căldura din sistemele geotermale la costuri mai mici, prin recunoașterea unui drept de inițiativă în favoarea unităților administrativ-teritoriale, exercitat sub controlul de oportunitate al ANRMPSG.
+
+## Impactul asupra mediului
+
+Proiectul de lege are un impact favorabil asupra mediului prin promovarea utilizării eficiente a resurselor și promovarea energiilor regenerabile împreună cu utilizarea responsabilă și conservarea resurselor într-un cadru legal bine reglementat și condiționat de întocmirea unei documentații tehnico-economice riguroase.
+
+## Impactul bugetar
+
+Din perspectiva impactului bugetar, prezenta inițiativă legislativă nu generează cheltuieli suplimentare la bugetul de stat sau la bugetele locale, funcționarea ANRMPSG urmând a se realiza în limitele bugetului aprobat. Prin recunoașterea dreptului de inițiativă a unităților administrativ- teritoriale în procedurile de atribuire și prin accelerarea autorizării proiectelor de energie regenerabilă se anticipează creșterea veniturilor din extinderea proiectelor geotermale cu și fără extracție de fluide, precum și din taxele aferente licențelor și exploatații.
+
+## CORELAREA CU POLITICILE EUROPENE
+
+Inițiativa legislativa este în concordanță cu obiectivele Uniunii Europene privind tranziția energetică, creșterea ponderii energiilor regenerabile și promovarea utilizării durabile a resurselor naturale.
+
+Geotermalul reprezintă o sursă regenerabilă cu caracter predictibil și disponibilitate permanentă, complementară surselor regenerabile dependente de condițiile meteorologice.
+
+Analiza comparativă evidențiază tendința europeană de integrare a reglementării geotermiei în legislația privind utilizarea subsolului, concomitent cu simplificarea procedurilor administrative și diferențierea regimului juridic al sistemelor care nu implică extracția resurselor minerale.
+
+Astfel, având în vedere argumentele de mai sus, adoptarea prezentei inițiative legislative este necesară pentru asigurarea coerenței regimului juridic aplicabil energiei geotermale și pentru valorificarea eficientă a potențialului geotermal al României în contextul tranziției energetice.
+
+În numele inițiatorilor, Marussi George
+
+## LISTĂ INIȚIATORI
+
+## Pentru proiect de lege pentru modificarea și completarea Legii nr. 85/2003 a minelor
+
+| NR. | PARLAMENTAR | GRUP PARLAMENTAR | SEMNĂTURĂ |
+| --- | --- | --- | --- |
+| 1 | Morussi George | USR |  |
+| 2 | Oprea Stif Roal | PSD |  |
+| 3 | ANTAL TORAIN | UDUE/RMOSZ |  |
+| 4 | Duml FE ME CHW | PNC |  |
+| 5 | Rosu LuciAm | PML |  |
+| 6 | Bude Saindoor | UDUR |  |
+| 7 | Sipos Sorin G Hezo2G | USR |  |
+| 8 |  |  |  |
+| 9 |  |  |  |
+| 10 |  |  |  |
+
+## LISTĂ SEMNĂTURI
+
+## Pentru proiect de lege pentru modificarea și completarea Legii nr. 85/2003 a minelor
+
+| NR. | PARLAMENTAR | GRUP PARLAMENTAR |
+| --- | --- | --- |
+| 1 | Norussi George | USR |
+| 2 | Cristian Grinisa | USR |
+| 3 | Zisopoc Dragos | Minoritate |
+| 4 | Diana Sibica | USR |
+| 5 | Bulgar Telue | USR |
+| 5 | BLASA SAMIEL | USR |
+| 6 | SEND ROIV VIAD-10AN | USR |
+| 7 | TOLYANNA HANGAN | USR |
+| 8 | ALECSANDR HARIUS-NICOLAE | USR |
+| 9 | VABUVA AUMITH V | USR |
+
+| 10. | RIGMAN CIPRIAN | USR |
+| --- | --- | --- |
+| 11 | BOTEZ MIHAI-CATALIN | USR |
+| 12 | ROSU PETRIC LUCAM | PNL |
+| 13 | VARGA GLAD | PNL |
+| 14 | PETREA DORIN SICIVI | PNL |
+| 15. | SIEBUNOCHP CHEOPHE | USR |
+| 16 | PAUN CYPHIIA | USR |

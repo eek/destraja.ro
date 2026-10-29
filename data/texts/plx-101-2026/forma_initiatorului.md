@@ -1,0 +1,13 @@
+PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENATUL
+
+LEGE
+
+# privind aprobarea Ordonanței de urgență a Guvernului nr. 87-2025 pentru stabilirea unor măsuri bugetare privind implementarea programelor naționale din domeniul lucrărilor publice
+
+Parlamentul României adoptă prezenta lege.
+
+Articol unic. – Se aprobă Ordonanța de urgență a Guvernului nr. 87–/2025 pentru stabilirea unor măsuri bugetare privind implementarea programelor naționale din domeniul lucrărilor publice.

@@ -1,0 +1,25 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+CAMERA DEPUTAȚILOR
+
+LEGE
+
+# pentru modificarea art. 127 din Legea nr. 360/2023 privind sistemul public de pensii
+
+Parlamentul României adoptă prezenta lege
+
+Articol unic. – Articolul 127 din Legea nr. 360/2023 privind sistemul public de pensii, publicată în Monitorul Oficial al României, Partea I, nr. 1089 din 4 decembrie 2023, cu modificările și completările ulterioare, se modifică și va avea următorul cuprins:
+
+"Articolul 127
+
+(1) Deciziile emise de casele territoriale de pensii pot fi contestate fie la casa teritorială de pensii emitentă, fie direct la instanța judecătorească competentă. În cazul contestației formulate pe cale administrativă, casa teritorială de pensii are obligația de a o soluționa și de a comunica răspunsul motivat în termen de 45 de zile de la înregistrare.
+
+(2) Drepturile de pensie sunt imprescriptibile și nu pot fi cedate total sau parțial."
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.
+
+Președintele Senatului
+
+Președintele Camerei Deputaților

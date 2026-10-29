@@ -1,0 +1,31 @@
+# Parlamentul României
+
+Camera Deputaților
+
+Senat
+
+## LEGE
+
+# pentru modificarea art.7 alin.(1) și (3) din Ordonanța de urgență a Guvernului nr.77/2009 privind organizarea și exploatarea jocurilor de noroc
+
+Parlamentul României adoptă prezenta lege:
+
+Articol unic – La articolul 7 din Ordonanța de urgență a Guvernului nr.77/2009 privind organizarea și exploatarea jocurilor de noroc, publicată în Monitorul Oficial nr. 439 din 26 iunie 2009, cu modificările și completările ulterioare, alineatele (1) și (3) se modifică după cum urmează:
+
+"(1) Prin participant la jocul de noroc se înțelege orice persoană fizică, cu vârsta de cel puțin 21 de ani împliniți, care dorește și are dreptul legal să participe la jocuri de noroc autorizate în condițiile prezentei ordonanțe de urgență și a reglementărilor specifice. Participarea la joc presupune acceptarea necondiționată a regulamentului respectivului joc de noroc."
+
+"(3) Accesul oricărei persoane cu vârsta mai mică de 21 de ani împliniți în locațiile specializate pentru desfășurarea jocurilor de noroc, precum și participarea acestora la orice tip de joc de noroc sunt interzise."
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.
+
+PREȘEDINTELE
+
+PREȘEDINTELE
+
+CAMEREI DEPUTAȚILOR,
+
+SENATULUI,
+
+Sorin-Mihai GRINDEANU
+
+Mircea ABRUDEAN

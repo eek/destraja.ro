@@ -1,0 +1,113 @@
+# Camera Deputaților
+
+## LEGE
+
+pentru modificarea art. 3 din Legea nr.61/1993 privind alocația de stat pentru copii, republicată, precum și modificarea și completarea art. 108¹ din Legea învățământului preuniversitar nr. 198/2023.
+
+Parlamentul României adoptă prezenta lege.
+
+Art. I. - La articolul 3 din Legea nr.61/1993 privind alocația de stat pentru copii, republicată în Monitorul Oficial al României, Partea I, nr.767 din 14 noiembrie 2012, cu modificările și completările ulterioare, alineatele (1) și (2) se modifică și vor avea următorul cuprins:
+
+„(1) Începând cu drepturile aferente lunii septembrie 2027, alocația de stat pentru copii se stabilește în cuantum de:
+
+a) 719 lei pentru copiii cu vârsta de până la 3 ani;
+
+b) 100 lei pentru copiii cu vârsta cuprinsă între 3 ani și 18 ani, precum și pentru tinerii prevăzuți la art. 1 alin. (3);
+
+c) 719 lei pentru copiii cu vârsta cuprinsă între 3 ani și 18 ani, în cazul copilului cu handicap.
+
+(2) Începând cu drepturile aferente lunii septembrie 2027, cuantumul alocației de stat pentru copii se indexează anual, din oficiu, cu rata medie anuală a inflației. Rata medie anuală a inflației este indicatorul definitiv cunoscut în anul curent pentru anul calendaristic anterior, comunicat de Institutul Național de Statistică.”
+
+Art. II. - Articolul 108¹ din Legea învățământului preuniversitar nr. 198/2023, publicată în Monitorul Oficial al României, Partea I, nr. 613 din 05 iulie 2023, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+## 1. Alineatul (1) se modifică și va avea următorul cuprins:
+
+„(1) Preșcolarii și elevii de la cursurile cu frecvență de zi din învățământul preuniversitar de stat obligatoriu beneficiază de burse. Metodologia-cadru de acordare a burselor și cuantumul acestora se aprobă prin hotărâre a Guvernului, inițiată de Ministerul Educației și Cercetării, la propunerea Consiliului Național pentru Finanțarea Învățământului Preuniversitar.”
+
+## 2. După alineatul (1), se introduc două alineate noi, alin.(1¹) și (1²), cu următorul cuprins:
+
+„(1¹) Prin derogare de la prevederile alin. (1), cuantumul bursei de prezență este de minimum 250 lei lunar. Acesta se indexează anual, din oficiu, cu rata medie anuală a inflației. Rata medie anuală a inflației este indicatorul definitiv cunoscut în anul curent pentru anul calendaristic anterior, comunicat de Institutul Național de Statistică. Cuantumul actualizat și modalitatea de acordare se stabilesc prin hotărârea Guvernului prevăzută la alin. (1).”
+
+(1²) Dacă din calculul cuantumului bursei de prezență pentru preșcolari și elevi prevăzut la alin. (1¹) rezultă fracțiuni în bani, cuantumul se rotunjește la leu în favoarea beneficiarului. În situația în care în urma indexării rezultă un cuantum mai mic decât cel acordat, atunci se menține cuantumul în plată.”
+
+## 3. Alineatul (2) se modifică și se completează și va avea următorul cuprins:
+
+„(2) Bursele care se acordă preșcolarilor și elevilor din sistemul de învățământ preuniversitar de stat sunt:
+
+a) bursă de prezență pentru preșcolari și elevi;
+
+b) bursă socială pentru preșcolari și elevi;
+
+c) bursă de merit elevilor;
+
+d) bursa tehnologică pentru elevii care frecventează învățământul profesional.”
+
+## 4. Alineatul (3) se modifică și va avea următorul cuprins:
+
+„(3) Prin excepție de la prevederile alin. (2), preșcolarii și elevii din unitățile de învățământ preuniversitar particular și confesional beneficiază, de la bugetul de stat, din sume defalcate din unele venituri ale bugetului de stat, de:
+
+a) burse de prezență;
+
+b) burse sociale, dacă sunt școlarizați fără taxe;
+
+c) burse tehnologice, pentru elevii care frecventează învățământul profesional, dacă se încadrează în specializările și condițiile stabilite prin metodologia-cadru.”
+
+## 5. Alineatul (4) se modifică și va avea următorul cuprins:
+
+„(4) Preșcolarii și elevii care beneficiază de bursă socială au dreptul la păstrarea confidențialității asupra identității, datelor cu caracter personal și informațiilor referitoare la situația de dificultate în care se află.”
+
+## 6. Alineatul (5) se modifică și va avea următorul cuprins:
+
+„(5) Dreptul la bursă socială al preșcolarilor și elevilor proveniți din familii care beneficiază de venit minim de incluziune conform Legii nr. 196/2016 privind venitul minim de incluziune, cu modificările și completările ulterioare, se acordă în baza deciziei de stabilire a dreptului la ajutor de incluziune a familiei preșcolarului, elevului. Acordarea dreptului se face în urma comunicării de către agențiile pentru plăți și inspecție socială județene, respectiv a municipiului București a listei preșcolarilor și elevilor care frecventează învățământul cu frecvență, proveniți din familii beneficiare de ajutor de incluziune, în luna anterioară celei de raportare a listei.”
+
+## 7. Alineatul (7) se modifică și va avea următorul cuprins:
+
+„(7) Prin excepție de la prevederile alin. (6), în cazul preșcolarilor și elevilor cu situații medicale speciale, inclusiv al elevilor cu afecțiuni oncologice și/sau cronice școlarizați, pentru o perioadă mai mare de 4 săptămâni, în cadrul «Școlii din Spital» sau la domiciliu, al elevilor care revin după școlarizarea din cadrul «Școlii din Spital» în unitatea de învățământ preuniversitar la care au fost înmatriculați anterior, al preșcolarilor și elevilor asupra cărora a fost instituită o măsură de protecție specială, precum și al preșcolarilor și elevilor orfani de unul sau de ambii părinți, bursa socială nu este condiționată de venitul mediu net pe membru de familie, supus impozitării.”
+
+## 8. Alineatul (8) se modifică și va avea următorul cuprins:
+
+„(8) Preșcolarii și elevii înscriși în «Școala din Spital» beneficiază de burse sociale necondiționate de venitul mediu net pe membru de familie, supus impozitării, și pot beneficia și de burse de prezență, burse de merit sau de burse tehnologice pentru elevi.”
+
+## 9. După alineatul (8), se introduc cinci alineate noi, alin.(8¹), (8²), (8³), (8⁴) și (8⁵), cu următorul cuprins:
+
+„(8¹) Bursa de prezență se acordă tuturor preșcolarilor și elevilor care frecventează cursurile și care au obținut media 10 la purtare sau calificativul „foarte bine” la purtare la finalul anului școlar anterior.
+
+(8²) În sensul prezentei legi, prin frecventarea cursurilor se înțelege prezența zilnică a preșcolarului și elevului în unitățile de învățământ preuniversitar, cu excepția absențelor motivate.
+
+„(8³) Prin excepție de la prevederile alin. (8²), în cazul preșcolarilor, se consideră îndeplinită condiția de frecventare a cursurilor și în situația în care aceștia înregistrează absențe nemotivate în limita a maximum 5 zile pe lună, fără ca acestea să afecteze dreptul la acordarea bursei de prezență.”
+
+(8⁴) Bursa de prezență se acordă și în perioada vacanțelor școlare.
+
+(8⁵) Prin excepție de la prevederile alin. (8⁴), nu primesc bursa de prezență în perioada vacanței de vară preșcolarii și elevii care la sfârșitul cursurilor anului școlar au depășit limita absențelor prevăzute în Regulamentul de organizare și funcționare a învățământului preuniversitar."
+
+## 10. Alineatul (9) se modifică și va avea următorul cuprins:
+
+„(9) Sumele alocate pentru bursele preșcolarilor și elevilor sunt neimpozabile și nu sunt luate în considerare la calculul venitului mediu net lunar pe membru de familie, necesar pentru obținerea venitului minim garantat, precum și pentru alte beneficii sociale.”
+
+## 11. Alineatul (10) se modifică și va avea următorul cuprins:
+
+„(10) Preșcolarii și elevii pot beneficia și de alte tipuri de burse, pe bază de contract încheiat cu operatori economici ori cu alte persoane juridice sau fizice sau acordate de autoritatea publică locală sau județeană. Acestea pot fi cumulate cu bursele provenite de la bugetul de stat.”
+
+## 12. Alineatul (11) se modifică și va avea următorul cuprins:
+
+„(11) Preșcolarii și elevii străini din învățământul preuniversitar pot beneficia de burse, potrivit prevederilor legale.”
+
+## 13. Alineatul (12) se modifică și va avea următorul cuprins:
+
+„(12) Statul român poate aloca anual, prin hotărâre a Guvernului, un număr de burse pentru școlarizarea preșcolarilor, elevilor și cursanților străini, în baza unor acorduri bilaterale, a ofertei unilaterale a statului român sau la propunerea ministerelor interesate.”
+
+## 14. Alineatul (13) se modifică și va avea următorul cuprins:
+
+„(13) Condițiile de școlarizare a preșcolarilor și elevilor străini, inclusiv condițiile de finanțare, se stabilesc prin hotărâre a Guvernului.”
+
+Art. III.- Hotărârea Guvernului nr. 577/2008 pentru aprobarea Normelor metodologice de aplicare a prevederilor Legii nr. 61/1993 privind alocația de stat pentru copii, precum și pentru reglementarea modalităților de stabilire și plată a alocației de stat pentru copii publicată în Monitorul Oficial al României, Partea I, nr. 442 din 12 iunie 2008, se modifică corespunzător cu prevederile prezentei legi.
+
+Art. IV. – Hotărârea Guvernului nr 732/2025 pentru aprobarea Metodologiei-cadru de acordare a burselor și cuantumul acestora, publicată în Monitorul Oficial al României, Partea I, nr. 823 din 05 septembrie 2025, cu modificările și completările ulterioare, se modifică corespunzător cu prevederile prezentei legi.
+
+Art. V. – Prevederile prezentei legi intră în vigoare la data de 1 ianuarie a anului următor publicării în Monitorul Oficial al României, Partea I.
+
+Aceasta lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+PREȘEDINTELE SENATULUI

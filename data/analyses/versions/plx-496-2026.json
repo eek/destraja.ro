@@ -1,0 +1,233 @@
+{
+  "slug": "plx-496-2026",
+  "billId": "PL-x 496/2026",
+  "updatedAt": "2026-10-29T12:52:07.785Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L399FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "Farmaciile și drogheriile se autorizează online, fără dosar pe hârtie",
+      "summaryTlDr": "În esență, legea e utilă: autorizarea farmaciilor trece pe o platformă a Ministerului Sănătății, iar statul ia singur din registre actele pe care le are deja. Primește galben din cauza redactării: ministerul nu are termen pentru validarea cererii, solicitantul are termene scurte urmate de clasare, iar datele persoanelor din platformă pot fi verificate oricând, fără limite stabilite în lege.",
+      "scores": {
+        "agy": 3,
+        "claude": 4,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/90/6/se558.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Autorizarea farmaciilor și drogheriilor trece online, fără dosar pe hârtie",
+      "summaryTlDr": "Este o lege utilă de digitalizare. Farmaciile își cer autorizația pe o platformă a Ministerului Sănătății, iar statul preia singur datele din propriile registre. Problemele sunt de redactare: termenele încep să curgă doar după o validare a ministerului pentru care legea nu fixează niciun termen, unele formulări sunt ambigue și multe detalii sunt lăsate pe seama normelor.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Farmacia vândută sau adjudecată în insolvență nu mai pierde autorizația la radierea punctului de lucru",
+      "summary": "Acum, farmaciile vândute sau adjudecate în insolvență nu pierd autorizația la radierea punctului de lucru, firmele pot avea mai mulți împuterniciți, iar datele se preiau în aceeași zi. Validarea de către minister rămâne fără termen în lege.",
+      "changes": [
+        {
+          "title": "Vânzarea farmaciei nu mai duce la pierderea autorizației",
+          "text": "La art. 22 lit. g), radierea punctului de lucru nu mai anulează autorizația dacă farmacia e vândută prin fondul de comerț sau adjudecată în insolvență, în condițiile din norme.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 22 lit. g)",
+          "before": "în cazul radierii punctului de lucru la adresa căruia este autorizată unitatea farmaceutică",
+          "after": "unitatea farmaceutică, cu excepția situațiilor în care aceasta face obiectul unei tranzacții privind transferul autorizației către o altă persoană juridică, prin vânzarea-cumpărarea fondului de comerț sau prin adjudecare în cadrul procedurii de insolvență",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Firmele pot avea mai mulți împuterniciți pe platformă",
+          "text": "Inițial, înregistrarea o făcea reprezentantul legal sau un împuternicit. Acum sunt permiși 2 împuterniciți până la 15 puncte de lucru și încă unul peste, dar formula e neclară.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 10 alin. (3)",
+          "before": "(3) Înregistrarea pe platformă se realizează de către reprezentantul legal al societății sau împuternicitul acestuia, prin accesarea link-ului dedicat",
+          "after": "sau de către împuternicitul/ împuterniciții acestuia, respectiv 2 împuterniciți pentru până la 15 puncte de lucru și un nou împuternicit, pentru peste 15 puncte de lucru",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Datele din registre se preiau în aceeași zi",
+          "text": "Art. 10 alin. (8) cere acum ca datele din registrele publice să fie preluate automat în aceeași zi în care se face solicitarea.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 10 alin. (8)",
+          "before": "și preluarea automată a informațiilor în formularul electronic, fără a fi necesară depunerea de către solicitant a documentelor justificative aferente",
+          "after": "și preluarea automată a informațiilor, în aceeași zi în care se face solicitarea, în formularul electronic",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Formularul se validează în timp real",
+          "text": "Art. 10 alin. (10) cere acum validarea formularului în timp real înainte de semnarea cererii. Nu e clar dacă e aceeași validare de care depinde termenul de inspecție.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 10 alin. (10)",
+          "before": "(10) După completarea și validarea formularului prevăzut la alin. (6), solicitantul descarcă din platformă cererea de autorizare generată automat",
+          "after": "(10) După completarea și validarea în timp real a formularului prevăzut la alin.(6) solicitantul descarcă din platformă cererea de autorizare generată automat",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Program mai flexibil pentru șeful drogheriei",
+          "text": "La art. 23 alin. (2), norma întreagă a șefului drogheriei e definită acum ca 8 ore și/sau 40 de ore pe săptămână. Formularea „și/sau” lasă loc de interpretări.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 23 alin. (2)",
+          "before": "care își exercită profesia pentru o normă întreagă cu durata timpului de lucru de 8 ore.",
+          "after": "care își exercită profesia pentru o normă întreagă cu durata timpului de lucru de 8 ore și/sau 40 de ore pe săptămână.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Schița spațiului cere o persoană autorizată nedefinită, deci un cost nou",
+            "major": true,
+            "article": "art. 10 alin. (9) lit. b), art. 24 alin. (5) lit. a)"
+          },
+          {
+            "text": "Neînrolarea în 30 de zile lucrătoare suspendă de drept contractele cu casele de sănătate",
+            "major": true,
+            "article": "art. II alin. (6)"
+          },
+          {
+            "text": "Erori din registre pot duce la suspendarea autorizației după 30 de zile",
+            "major": true,
+            "article": "art. 31¹ alin. (5)"
+          },
+          {
+            "text": "Validarea de către minister, de la care curg cele 30 de zile, n-are termen",
+            "major": false,
+            "article": "art. 10 alin. (11)"
+          },
+          {
+            "text": "Termenul pentru aprobarea accesului în platformă e lăsat pe seama normelor",
+            "major": false,
+            "article": "art. 10 alin. (4) lit. d)"
+          },
+          {
+            "text": "Decizia DSP poate ajunge la minister abia după 15 zile, deși totul e digital",
+            "major": false,
+            "article": "art. 10 alin. (14)"
+          },
+          {
+            "text": "Solicitantul are doar 15 zile lucrătoare pentru completări, altfel dosarul se clasează",
+            "major": false,
+            "article": "art. 10 alin. (12)"
+          },
+          {
+            "text": "Limita de împuterniciți e formulată neclar și e arbitrară pentru lanțurile mari",
+            "major": false,
+            "article": "art. 10 alin. (3)"
+          },
+          {
+            "text": "Clasarea o decide personalul de specialitate, deși conformitatea o aprobă directorul DSP",
+            "major": false,
+            "article": "art. 10 alin. (14)–(15)"
+          },
+          {
+            "text": "Fișele de atribuții rămân avizate separat la Colegiul Farmaciștilor, în afara platformei",
+            "major": false,
+            "article": "art. 10 alin. (9) lit. a)"
+          },
+          {
+            "text": "Trimitere probabil greșită: termenul de înrolare e în alin. (1), nu (2)",
+            "major": false,
+            "article": "art. II alin. (3)"
+          },
+          {
+            "text": "Formula „8 ore și/sau 40 de ore” pentru șeful drogheriei e ambiguă",
+            "major": false,
+            "article": "art. 23 alin. (2)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Dosarul pe hârtie la DSP dispare; cererea se depune și se semnează online",
+            "major": true,
+            "article": "art. 10 alin. (2)–(10)"
+          },
+          {
+            "text": "Datele se preiau automat din registre în aceeași zi; rămân cinci documente de încărcat",
+            "major": true,
+            "article": "art. 10 alin. (8)–(9)"
+          },
+          {
+            "text": "Farmacia vândută sau adjudecată în insolvență nu pierde autorizația la radierea punctului de lucru",
+            "major": true,
+            "article": "art. 22 lit. g)"
+          },
+          {
+            "text": "După neconformitate, inspecția se reprogramează o dată și se poate contesta la minister",
+            "major": true,
+            "article": "art. 10 alin. (15)–(17)"
+          },
+          {
+            "text": "Înainte de sancțiuni bazate doar pe registre, firma e notificată și poate contesta",
+            "major": true,
+            "article": "art. 31¹ alin. (3)"
+          },
+          {
+            "text": "Termene maxime pentru inspecție, contestație și eliberarea autorizației",
+            "major": false,
+            "article": "art. 10 alin. (11)–(19)"
+          },
+          {
+            "text": "Firmele cu multe puncte de lucru pot avea mai mulți împuterniciți",
+            "major": false,
+            "article": "art. 10 alin. (3)"
+          },
+          {
+            "text": "Ministerul preîncarcă singur, în 5 zile lucrătoare, datele farmaciilor deja autorizate",
+            "major": false,
+            "article": "art. II alin. (2)"
+          },
+          {
+            "text": "Termenul de înrolare se prelungește dacă platforma nu funcționează",
+            "major": false,
+            "article": "art. II alin. (1)"
+          },
+          {
+            "text": "Dosarele în curs se finalizează după regulile vechi până la noile norme",
+            "major": false,
+            "article": "art. III"
+          },
+          {
+            "text": "Drogheriile primesc aceeași procedură online, cu date preluate automat",
+            "major": false,
+            "article": "art. 24"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 64,
+        "removed": 65,
+        "same": 0.46
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:52:07.785Z"
+    }
+  ]
+}

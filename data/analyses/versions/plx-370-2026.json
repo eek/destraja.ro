@@ -1,0 +1,97 @@
+{
+  "slug": "plx-370-2026",
+  "billId": "PL-x 370/2026",
+  "updatedAt": "2026-10-29T13:07:46.618Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L208FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 1.3,
+      "riskLevel": "green",
+      "plainTitle": "2027 devine oficial „Anul Independenței”: 150 de ani de la 1877",
+      "summaryTlDr": "Lege simbolică și inofensivă: nu impune taxe, sancțiuni sau zile libere și nu obligă pe nimeni la nimic, în afară de un calendar online pe care Ministerul Culturii trebuie să-l publice. Singurul punct slab e momentul: dacă proiectul mai stă la comisii, coordonarea ajunge prea târziu pentru 9-10 mai 2027.",
+      "scores": {
+        "agy": 1,
+        "claude": 1,
+        "codex": 2
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/300/70/0/se404.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Declararea anului 2027 drept „Anul Independenței României” (150 de ani de la 1877), fără zile libere sau structuri noi",
+      "summaryTlDr": "O lege aniversară benignă și neobișnuit de disciplinată bugetar: marchează 150 de ani de la Independență fără să înființeze agenții noi, fără bugete paralele și fără zile libere suplimentare pe cheltuiala angajatorilor.",
+      "scores": {
+        "agy": 2,
+        "claude": null,
+        "codex": 2
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat textul inițiatorului fără nicio schimbare de fond",
+      "summary": "Senatul a păstrat textul inițial. Diferențele sunt doar de redactare: ghilimele, formula de adoptare și semnături. Legea rămâne simbolică. Nu creează obligații, taxe sau zile libere, dar nu are nici buget dedicat, nici raportare a cheltuielilor.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Nicio obligație de raportare privind cheltuielile, sponsorizările și manifestările organizate",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Calendarul oficial poate apărea foarte aproape de aniversarea din 9-10 mai 2027",
+            "major": false,
+            "article": "art. 2 alin. (3)"
+          },
+          {
+            "text": "Fără buget dedicat și fără garanția că manifestările vor avea loc",
+            "major": false,
+            "article": "art. 2 alin. (1)-(2)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Nu se instituie zile nelucrătoare suplimentare, deci niciun cost pentru angajatori",
+            "major": true,
+            "article": "art. 2 alin. (4)"
+          },
+          {
+            "text": "Nicio sancțiune, taxă, autorizare sau obligație pentru cetățeni ori firme",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Nicio cheltuială nouă: banii vin doar din bugetele deja aprobate",
+            "major": true,
+            "article": "art. 2 alin. (2)"
+          },
+          {
+            "text": "Ministerul Culturii publică calendarul și identitatea vizuală prin structurile existente, fără structuri noi",
+            "major": false,
+            "article": "art. 2 alin. (3)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 6,
+        "removed": 7,
+        "same": 0.14
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:07:35.821Z"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+EXPUNERE DE MOTIVE
+
+Potrivit dispozițiilor art. 248 alin. (4) din Legea învățământului preuniversitar nr. 198/2023, noile modalități de organizare a admiterii la liceu și de desfășurare a examenului de evaluare națională la finalul clasei a VIII-a ar trebui să se desfășoare începând cu generația de elevi înscriși în clasa a V-a în anul școlar 2023-2024, respectiv admiterea în liceu și evaluarea națională din anul 2027. Din păcate, întârzierea lansării unor ample dezbateri și consultări publice asupra noilor modalități de organizare a admiterii la liceu și de desfășurare a examenului de evaluare națională nu mai permite implementarea acestora în cele mai bune condiții la finalul anului școlar 2026-2027. Mai mult decât atât, atât evaluarea națională, cât și admiterea la liceu reprezintă puncte critice în ceea ce privește abandonul școlar din România. O pondere semnificativă a elevilor care se înscriu în clasa pregătitoare nu ajung să finalizeze clasa a VIII-a (cca. 15%) și o pondere foarte mare dintre elevi nu doresc să urmeze cursurile liceale, optând pentru angajarea pe posturi necalificate, pentru activități în familie sau pentru calificări primare la vârste mai avansate. In condițiile în care atât evaluarea națională, cât și admiterea la liceu reprezintă etape fundamentale în procesul național de educație, considerăm că se impune ca termenul pentru elaborarea noilor modele să fie extins până în orizontul anului 2030, astfel încât, Guvernul, asociațiile de părinți, asociațiile de profesori și elevi, experți în educație și organizații de profil să poată contribui în mod activ la elaborarea unor modalități superioare de evaluare a elevilor și de repartizare a acestora în învățământul liceal. Propunem, așadar, ca admiterea la liceu și evaluarea națională organizată la finalul clasei a VIII-a să se desfășoare începând cu generația de elevi înscriși în clasa a V-a în anul școlar 2026-2027, pentru a asigura generației care începe
+
+ciclul gimnazial în luna septembrie 2026 predictibilitatea necesară pentru aceste procese. Mai mult decât atât, personalul didactic din învățământul gimnazial are nevoie de un orizont de timp corespunzător pentru a adopta cele mai adecvate măsuri în vederca creșterii performanțelor școlare ale elevilor la primul și cel mai important examen din învățământul preuniversitar - evaluarea la finalizarea clasei a VIII-a.
+
+Având în vedere argumentele prezentate mai sus, înaintăm Parlamentului României, spre dezbatere și adoptare, prezenta propunere legislativă, în procedură de urgență.
+
+Procedura de urgență este necesară pentru a permite declanșarea unor ample procese de dezbatere publică privind modalitățile optime de organizare a admiterii în liceu și de desfășurare a evaluării naționale.
+
+INIȚIATORI Nr. | NUME ȘI PRENUME | SEMNĂTURA crt. 1. | Raluca TURCAN
+
+Deputat PNL
+
+Gabriel Andronache
+
+Ghigiu Alexandku Mihai. | - PSd \_ ".\*" 4.
+
+Propunerea legislativă pentru modificarea art.248 alin. (4) din Legea învățământului preuniversitar nr.198/2023 INIȚIATORI
+
+Nr. | NUME ȘI PRENUME | SEMNĂTURA crt.
+
+1 | Maria-Gabriela Horga

@@ -1,0 +1,17 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+## LEGE
+
+privind aprobarea Ordonanței de urgență a Guvernului nr.67/2025 pentru modificarea și completarea Legii petrolului nr.238/2004
+
+Senatul adoptă prezentul proiect de lege
+
+Articol unic.- Se aprobă Ordonanța de urgență a Guvernului nr.67 din 5 decembrie 2025 pentru modificarea și completarea Legii petrolului nr.238/2004, publicată în Monitorul Oficial al României, Partea I, nr.1127 din 5 decembrie 2025.
+
+Acest proiect de lege a fost adoptat de Senat, în ședința din 22 decembrie 2025, cu respectarea prevederilor articolului 76 alineatul (1) din Constituția României, republicată.
+
+PREȘEDINTÆLÈ SENATULUI
+
+MIRCEA' ABRUDEAN

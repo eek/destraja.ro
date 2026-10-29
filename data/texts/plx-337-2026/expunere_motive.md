@@ -1,0 +1,49 @@
+EXPUNERE DE MOTIVE
+
+Prezenta inițiativă vizează eliminarea vidului de protecție juridică în procedura de acordare/retragere a certificatului de securitate (ORNIS). În prezent, persoana vizată de o decizie negativă nu are acces la motivele de fapt ale acesteia, fapt ce contravine Art. 21 (Accesul la justiție) și Art. 24 (Dreptul la apărare) din Constituția României și Art. 31 (Dreptul la informație). Statul român a fost deja condamnat de Curtea Europeană a Drepturilor Omului (CEDO) în cauza Corneschi vs. România(2022) pentru lipsa unor garanții adecvate împotriva arbitrariului în această materie. Propunerea instituie obligația furnizării unui rezumat neclasificat al motivelor și permite un control judiciar real pe fondul probelor, nu doar pe formă. Practică și abuzuri: • Jurisprudența CEDO: Cauzele Corneschi vs. România și Miryana Petrova c. Bulgariei demonstrează că secretul de stat nu poate anihila dreptul la un proces echitabil. • Abuzuri Administrative: S-au identificat situații în care retragerea certificatului a fost utilizată ca mecanism de „epurare" a unor profesioniști (piloți, magistrați, ofițeri) pe fondul unor conflicte de muncă, fără nicio dovadă de risc de securitate real. • Rolul Judecătorului:Propunerea transformă judecătorul dintr-un simplu observator într-un arbitru al legalității, garantând că nicio carieră nu este distrusă pe baza unor „suspiciuni" neprobate.
+
+1\. Necesitatea și oportunitatea intervenției legislative
+
+Actualul cadru normativ privind accesul la informații clasificate, deși conceput pentru protejarea intereselor superioare ale statului, a generat în practică o zonă de imunitate administrativă totală, incompatibilă cu principiile unui stat de drept. În prezent, retragerca sau refuzul certificatului de securitate (ORNIS) funcționează ca o „sancțiune neîncadrată", emisă fără motivare, care conduce automat la încetarea raporturilor de muncă sau la blocarea carierei profesionale, fără ca persoana vizată să aibă posibilitatea de a-și exercita dreptul la apărare.
+
+2\. Argumente de neconstituționalitate și jurisprudența CEDO
+
+Baza juridică a acestui proiect este reprezentată de necesitatea remedierii unor deficiențe grave, confirmate deja prin condamnări internaționale: • Condamnarea în Cauza Corneschi împotriva României (Hotărârea CEDO din 11 ianuarie 2022): Curtea Europeană a statuat că procedura românească de retragere a autorizației de securitate este inechitabilă. Statul a fost sancționat deoarece informațiile clasificate nu au fost dezvăluite nici reclamantului, nici avocatului său, făcând imposibilă orice contestație reală. • Încălcarea art. 21 din Constituție (Accesul liber la justiție): In prezent, controlul judiciar este pur formal. Instanțele de contencios administrativ se află în imposibilitatea de a cenzura fondul deciziei, deoarece autoritatea nu furnizează niciun element de fapt. Absența motivării transformă actul administrativ într-unul arbitrar. • Decizia CCR nr. 21/2018:Curtea Constituțională a subliniat că accesul avocaților la informațiile clasificate trebuie garantat pentru a asigura dreptul la apărare, principiu care trebuie extins și în faza administrativă a deciziilor ORNIS pentru a evita arbitrariul. • Incălcarea art. 31 din Constituție (Dreptul la informație): Curtea de Apel Bucuresți a hotărât că motivarea unei decizii administrative nu poate fi limitată la considerente legate de competența emitentului ori la temeiul de drept al acesteia, ci trebuie să conțină și elementele de fapt care să permită, pe de o parte, destinatarilor să cunoască și să evalueze temeiurile deciziei, iar pe de altă parte, să facă posibilă exercitarea controlului de legalitate.
+
+3\. Impactul practic și abuzurile identificate (Solidaritatea Instituțională) In activitatea parlamentară, s-au semnalat numeroase cazuri de „execuție profesională" prin intermediul avizului negativ: • Instrument de control în cariera magistraților: Magistrați aflați în proceduri de numire pe funcții cheie au fost blocați prin retrageri subite de avize, fără posibilitatea de a clarifica eventuale erori de fapt sau confuzii de identitate. • Epurări administrative: Profesioniști din sectoarele strategice (apărare, energie, infrastructură) au fost îndepărtați din funcții în urma unor conflicte cu managementul, sub pretextul unor riscuri de securitate niciodată probate. • Arbitrariul probatoriu: Inalta Curte de Casație și Justiție a reținut în cauze recente că dreptul la apărare este încălcat grav atunci când apărătorul nu are acces la documentul pe baza căruia se dispune măsura.
+
+4\. Soluția propusă: Echilibrul între Securitate și Justiție Proiectul propune o soluție utilizată cu succes în state NATO cu tradiție democratică:
+
+5\. Motivarea esențializată (Rezumatul neclasificat):Autoritatea nu trebuie să divulge sursele, ci faptele imputate (ex: „contacte neautorizate cu cetățeni străini în data X", „vulnerabilitate financiară majoră"). Această transparență minimă permite persoanei să combată acuzațiile eronate.
+
+Controlul judiciar pe fond: Instanța, prin judecători cu certificat de securitate, va avea acces la întreg dosarul pentru a verifica dacă „riscul" invocat este real sau fictive.
+
+6\. Concluzii
+
+Menținerea legislației în forma actuală este o invitație la noi condamnări la CEDO și o perpetuare a fricii în aparatul de stat. Prezenta lege nu slăbește siguranța națională, ci o întărește prin profesionalizarea procedurilor de verificare, eliminând posibilitatea ca un instrument de securitate să fie folosit ca armă de șantaj sau eliminare administrativă.
+
+Realitatea dură pe care trebuie să o acceptăm este următoarea: În prezent, orice persoană care deține un astfel de certificat poate fi „executată" profesional în 24 de ore, printr-o decizie administrativă care nu conține nicio motivare. Sub paravanul „secretului de stat", un funcționar sau un demnitar poate fi înlăturat fără a i se spune ce i se reproșează, fără a i se permite să aducă probe în apărare și fără ca un judecător să poată verifica dacă acuzația este reală sau o simplă eroare.
+
+Dacă legea rămâne așa, oricare dintre noi poate fi eliminat oricând, fără explicații. Acest proiect de lege vizează o anomalie ce persistă de peste două decenii în legislația noastră: lipsa totală de transparență și de control judiciar asupra retragerii sau refuzului certificatelor de securitate (ORNIS). In arhitectura actuală a statului, certificatul de securitate a încetat de mult să fie doar un instrument de protecție a secretelor. El a devenit o fara de care nu se poate exercita mandatul de demnitate publică, pentru funcțiile de conducere în magistratură, apărare, energie sau diplomație.
+
+De ce acest proiect de lege este și în interesul unei functionari a statului? 1. Protecția împotriva abuzului: Sistemul actual permite transformarea serviciilor de informații în „decidenți supremi" asupra carierelor politice și administrative. Fără obligativitatea unei motivări (măcar sub formă de rezumat), nimeni nu este la adăpost de o decizie subiectivă sau eronată. 2. Responsabilizarea sistemului: O instituție care știe că decizia sa va fi verificată pe fond de un judecător (care deține, la rândul lui, certificat de securitate) va fi mult mai riguroasă în verificări. Transparența naște profesionalism; opacitatea naște abuz. 3. Alinierea la standardele NATO și CEDO: Partenerii noștri strategici au proceduri de contestare transparente. România a fost deja condamnată la CEDO (Cauza Corneschi) pentru acest vid legislativ. Nu mai putem pretinde că suntem o democrație consolidată cât timp menținem mecanisme de tip „cutie neagră".
+
+Ce NU face această lege și de ce trebuie modificată:
+
+În primul rand pentru că realitățile prezente depășesc, ca cerințe și exigențe, forma pe care această lege a "îmbrăcat-o" în anul 2002. În al doilea rând pentru că este dreptul minim al oricărui cetățean de a ști de ce este sancționat. In al treilea rând pentru că reprezintă și va reprezenta o vulnerabilitate, o breșă, un mecanism lăsat la latitudinea unor indivizi mai mult sau mai puțin profesioniști.
+
+Această lege și această modificare nu deconspiră surse, nu publică metode operative și nu vulnerabilizează siguranța națională, ea trebuie doar să oblige autoritatea, să-și argumenteze opțiunea și să spună:ạ Vă retragem avizul pentru că există dovezi că ați intrat în contact cu un serviciu ostil" sau „pentru că aveți datorii masive care vă fac vulnerabil la șantaj" etc.
+
+Vă invit să priviți acest proiect nu ca pe un atac la adresa sistemului de securitate, ci ca pe O „plasă de siguranță" democratică pentru noi toți, în contextul geopolitic și de securitate pe care îl trăim în acești ani.
+
+INIȚIATOR: Deputat, Eugen NEAȚĂ- PSD Subesu fofiae - deptet PSA
+
+TABEL INIȚIATORI
+
+Nr. Crt. | NUME ȘI PRENUME | FORMAȚIUNE | CEMNITIRĂ→ POLITICĂ
+
+1\. | PSD
+
+2\. | TITA STERAN | PSD 3. | RiNDER ANt WARANDA | PSD 4. CHiRILĂ VIRGIL -ALiNI | P.s .K 5. | PSA HAGU AposT Foßa 6. | orica 7. | hilot Cisca Fiorela | Cucau Vrinita 9. TONA IUE | SA 10. | PED UPA CUMBETA 11. | ADONMICAT MIRELO | PSK 12. | COTiRLET PAUL - CLAUDiU PSD 13. | ₽ 811 ION' SATRO iLA 14. Böisaru Stefan Atrach | pS1 15. MILEL | TSA 16. | BOMOUR ARiAUA 17. ZOVOR K/iRCER 18. 14HT LOMEL 19. TOHOESCU IOH ALIH 20. Neegt fen. Erman'l | 21. | POPA DORIN | 28.0. 22. Ilerka Adrian - Hiroslav | Hinoritati 23. | MINORTA→ BOUDA STEFAN 24.
+
+25\.

@@ -1,0 +1,49 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENATUL
+
+Lege
+
+privind transferul unor bunuri din proprietatea publică a statului și din administrarea Academiei de Științe Agricole și Silvice "Gheorghe Ionescu-Șișești" - Stațiunea de Cercetare-Dezvoltare Agricolă Oradea în proprietatea publică a municipiului Oradea
+
+Parlamentul României adoptă prezenta lege:
+
+## Art.1.
+
+(1) Prin derogare de la dispozițiile art. 6 alin. (5) și art. 31 alin. (2) și (3) din Legea nr. 45/2009 privind organizarea și funcționarea Academiei de Științe Agricole și Silvice "Gheorghe lonescu-Șișești" și a sistemului de cercetare-dezvoltare din domeniile agriculturii, silviculturii și industriei alimentare, cu modificările și completările ulterioare, se aprobă:
+
+\- transferul suprafeței de 53,2382 ha teren extravilan din Municipiul Oradea, Calea Aradului, nr.5, identificat cu nr MF 152071 și a trei construcții din aceeași locație având nr inv MF 116314, 116454 și nr. MF 116461- cu datele de identificare prevăzute în Anexa nr.1, care face parte integrantă din prezenta lege, din proprietatea publică a statului și din administrarea Academiei de Științe Agricole și Silvice "Gheorghe Ionescu-Șișești" - Stațiunea de Cercetare-Dezvoltare Agricolă Oradea în proprietatea publică a municipiului Oradea, județul Bihor, în vederea amenajării unui nou parc industrial.
+
+(2). Se abrogă ANEXA Nr.4.3. privitoare la preluarea de către Universitatea din Oradea a Stațiunii de Cercetare Dezvoltare Agricolă – Oradea, a suprafeței de 53,2382 ha teren din municipiul Oradea, județul Bihor, Calea Aradului nr. 5.
+
+(3). Schimbarea destinației suprafețelor de teren transmise potrivit prevederilor alin.(1) este interzisă și se sancționează conform legii.
+
+Art. 2. – Predarea-preluarea bunurilor prevăzute la art. 1 se face pe bază de protocol încheiat între părțile interesate, în termen de 30 de zile de la data intrării în vigoare a prezentei legi.
+
+## Art.3.
+
+(1) Stațiunea de Cercetare Dezvoltare Agricolă – Oradea se desființează.
+
+(2) Patrimoniul activ și pasiv al Stațiunii de Cercetare Dezvoltare Agricolă – Oradea, se preia de către Municipiului Oradea, cu respectarea dispozițiilor legale în vigoare.
+
+## Art.4.
+
+Legea nr. 45/2009 privind organizarea și funcționarea Academiei de Științe Agricole și Silvice "Gheorghe lonescu-Șișești" și a sistemului de cercetare-dezvoltare din domeniile agriculturii, silviculturii și industriei alimentare, publicată în Monitorul Oficial al României, Partea I, nr. 200 din 30 martie 2009, cu modificările și completările ulterioare, se modifică în mod corespunzător.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art 75, si ale art. 76 alin.(2) din Constituția României.
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+PREȘEDINTELE SENATULUI
+
+ANEXA 1
+
+DATELE DE IDENTIFICARE
+
+ale suprafețelor de teren care se transferă din proprietatea publică a statului și din administrarea Academiei de Științe Agricole și Silvice "Gheorghe Ionescu-Șișești" - Stațiunea de Cercetare-
+
+Dezvoltare Agricolă Oradea în proprietatea publică a municipiului Oradea, județul Bihor
+
+Nr. Locul unde este Persoana juridică de la | Persoanajuridică la | Caracteristicile tehnice Crt. situat terenul care | care se transferă terenul care se transferă ale terenului se transferă terenul 1 Municipiul Oradea | Statul român din | Municipiul Oradea Teren extravilan având extravilan administrarea Academiei Nr.tarla 261, 269 și de Științe Agricole și 5992 și Nr. M.F. Silvice "Gheorghe 152071, în suprafață de Ionescu-Șișești" - 53,2382 ha din care Stațiunea de Cercetare- 50,00 ha arabil, 0,36 ha Dezvoltare Agricolă drumuri, 0,68 ha ape Oradea HCN, 2,1982 ha Curti Construcții 2 Municipiul Oradea | Statul român din | Municipiul Oradea Clădire administrativă, extravilan administrarea Academiei P+I, fundație de beton, de Științe Agricole și zidărie, cărămidă, Silvice "Gheorghe planșeu beton, Sc=384 Ionescu-Șișești" \_ mp, Sd=770 mp, Nr, Stațiunea de Cercetare- MF 116314 Dezvoltare Agricolă Oradea 3 Municipiul Oradea | Statul TOMĂÂN din | Municipiul Oradea Laborator cercetare, extravilan administrarea Academiei P+2, fundație de beton, de Științe Agricole și zidărie, cărămidă, Silvice "Gheorghe planșeu beton, Sc=550 Ionescu-Șișești" - mp, Sd=1650 mp, Nr. Stațiunea de Cercetare- MF 116454 Dezvoltare Agricolă Oradea 4 Municipiul Oradea | Statul român din | Municipiul Oradea | Remiză magazie extravilan administrarea Academiei agricolă, fundație de de Științe Agricole și beton, zidărie, Silvice "Gheorghe cărămidă, șarpantă Ionescu-Șișești" - lemn, Sc=5d=480 mp, Stațiunea de Cercetare- Nr. MF 116461 Dezvoltare Agricolă Oradea

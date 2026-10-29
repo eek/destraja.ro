@@ -1,0 +1,91 @@
+{
+  "slug": "plx-64-2026",
+  "billId": "PL-x 64/2026",
+  "updatedAt": "2026-10-29T12:30:09.272Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L616FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Fibra optică de pe liniile de înaltă tensiune, dată direct filialei Transelectrica",
+      "summaryTlDr": "Scopul e legitim: fibra din rețeaua de transport trebuie protejată și pusă în valoare. Textul legalizează însă fără licitație un aranjament vechi de 20 de ani, cu o redevență fixată prin lege și cu trimiteri neclare. Nu lovește direct cetățenii, dar lasă loc pierderii de bani publici și închide concurența.",
+      "scores": {
+        "agy": 5,
+        "claude": 5,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/60/4/se57.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Fibra optică din liniile de înaltă tensiune intră legal pe mâna Transelectrica și a filialei sale Teletrans",
+      "summaryTlDr": "În mare, o reglementare tehnică. Pune ordine într-o practică veche de 20 de ani, aduce o redevență la buget și filtrează de securitate clienții rețelei. Însă consfințește atribuirea directă, fără licitație, către filiala de stat. Redevența are o bază neclară, definițiile sunt vagi și lipsesc regulile de acces egal pentru ceilalți operatori de telecomunicații.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 6
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat ordonanța fără modificări de fond; problemele din forma inițială rămân",
+      "summary": "Senatul a aprobat ordonanța fără modificări. S-au schimbat doar detalii de redactare, cum ar fi data ordonanței și Monitorul Oficial. Rămân riscurile: subconcesiune directă către filialele Transelectrica, redevență neclară și autorizare confuză pentru clienți.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Subconcesiune atribuită direct filialelor Transelectrica, fără licitație, durată, preț sau condiții de acces",
+            "major": true,
+            "article": "art. I pct. 3 (art. 36 alin. (2^2))"
+          },
+          {
+            "text": "Redevența de 0,4% e fixată prin lege, fără evaluare de piață sau justificare",
+            "major": true,
+            "article": "art. II alin. (2)"
+          },
+          {
+            "text": "Neclar ale cui venituri formează baza redevenței: Transelectrica sau filiala care încasează",
+            "major": true,
+            "article": "art. II alin. (2)"
+          },
+          {
+            "text": "Clienții terți au nevoie de autorizare după o lege făcută pentru producători de tehnologie",
+            "major": true,
+            "article": "art. I pct. 3 (art. 36 alin. (2^3))"
+          },
+          {
+            "text": "Obiectul concesiunii e incoerent: întreaga rețea, definită generic, sau doar capacitatea disponibilă",
+            "major": true,
+            "article": "art. II alin. (1) și art. I pct. 2 (art. 3 pct. 99^1)"
+          },
+          {
+            "text": "Niciun termen de tranziție pentru contractele în curs ale clienților Teletrans",
+            "major": false,
+            "article": "art. I pct. 3 (art. 36 alin. (2^3))"
+          }
+        ],
+        "good": [],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:29:51.000Z"
+    }
+  ]
+}

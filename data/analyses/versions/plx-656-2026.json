@@ -1,0 +1,112 @@
+{
+  "slug": "plx-656-2026",
+  "billId": "PL-x 656/2026",
+  "updatedAt": "2026-10-29T13:31:58.801Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L509FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Parlamentarii județului trebuie invitați la orice ceremonie oficială locală",
+      "summaryTlDr": "Este o lege de protocol, fără costuri pentru cetățeni sau firme. Parlamentarii își garantează prin lege invitația la ceremoniile locale, iar invitațiile primesc un termen și un conținut minim. Riscurile sunt mici și țin de redactare, mai ales o formulare care poate fi citită ca drept la cuvânt.",
+      "scores": {
+        "agy": 3,
+        "claude": 2,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/600/50/6/se743.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Senatorii și deputații județului trebuie invitați obligatoriu la ceremoniile oficiale locale",
+      "summaryTlDr": "Lege de protocol scrisă de parlamentari pentru parlamentari. Nu costă nimic și nu atinge cetățenii sau firmele, dar reașază discret ordinea de precădere: la ceremoniile locale, miniștrii ajung după primar și prefect. Risc mic, cu câteva stângăcii de redactare.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Forma adoptată de Senat păstrează textul inițiatorului; diferențele sunt doar de redactare",
+      "summary": "Forma adoptată de Senat reia textul inițiatorului fără schimbări de fond: rămân invitația obligatorie pentru toți parlamentarii circumscripției și termenul de 48 de ore. Diferă doar redactarea și formula de adoptare.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Urgența nedefinită sau data fixată târziu permit ocolirea termenului de 48 de ore",
+            "major": false,
+            "article": "art. 11 alin. (3)"
+          },
+          {
+            "text": "Demnitarii din afara primelor 4 poziții, ca miniștrii, ajung după prefect",
+            "major": false,
+            "article": "art. 7 alin. (1) lit. g)"
+          },
+          {
+            "text": "Invitatul nu e obligat să confirme participarea, deși invitația stabilește un termen pentru asta",
+            "major": false,
+            "article": "art. 11 alin. (5)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Toți parlamentarii circumscripției trebuie invitați la ceremoniile oficiale, indiferent de partid",
+            "major": true,
+            "article": "art. 7 alin. (2)"
+          },
+          {
+            "text": "La ceremoniile interjudețene sunt invitați parlamentarii tuturor județelor participante",
+            "major": true,
+            "article": "art. 7 alin. (3)"
+          },
+          {
+            "text": "Invitația trebuie trimisă cu cel puțin 48 de ore înainte, pe hârtie sau e-mail",
+            "major": false,
+            "article": "art. 11 alin. (2)"
+          },
+          {
+            "text": "Invitația trebuie să cuprindă șapte elemente obligatorii, inclusiv data, locul și regulile pentru alocuțiuni",
+            "major": false,
+            "article": "art. 11 alin. (4)"
+          },
+          {
+            "text": "Organizatorul trebuie să respecte ordinea de precădere la listă, locuri și desfășurător",
+            "major": false,
+            "article": "art. 10 alin. (1¹)"
+          },
+          {
+            "text": "Reguli clare pentru alocuțiuni: invitatul anunță în scris dacă vrea să vorbească",
+            "major": false,
+            "article": "art. 11 alin. (5)–(6)"
+          },
+          {
+            "text": "Ghidul Protocolului Național trebuie actualizat în 60 de zile",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 15,
+        "removed": 17,
+        "same": 0.56
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:28:42.372Z"
+    }
+  ]
+}

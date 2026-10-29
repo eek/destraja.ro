@@ -1,0 +1,203 @@
+{
+  "slug": "plx-681-2026",
+  "billId": "PL-x 681/2026",
+  "updatedAt": "2026-10-29T13:16:21.512Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L447FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Despăgubiri de la bănci pentru dobânzile umflate prin ROBOR",
+      "summaryTlDr": "Scopul e legitim, iar mecanismul e opțional pentru consumator. Textul e însă atât de neglijent redactat încât, în forma actuală, e practic inaplicabil: indicele de recalculare (IRCC) apare doar în expunerea de motive, un articol întreg nu are număr, iar amenda de până la 1% din cifra de afaceri nu are cine s-o aplice. Fără rescriere, riscă să rămână o promisiune pe hârtie sau să cadă la CCR.",
+      "scores": {
+        "agy": 6,
+        "claude": 6,
+        "codex": 6
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/600/80/1/se776.pdf",
+      "source": "cdep.ro",
+      "riskScore": 6.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Banii înapoi pentru ROBOR: băncile recalculează creditele la IRCC, la cererea clientului",
+      "summaryTlDr": "Scopul e legitim și favorabil datornicilor, dar textul adoptat de Senat e plin de contradicții: termene care se bat cap în cap, un declanșator nedefinit, dobândă suspendată fără limită și recalculare retroactivă la IRCC. Așa cum e scris, riscă să cadă la CCR, cum a căzut legea conversiei creditelor în franci în 2017, iar consumatorii ar rămâne doar cu o promisiune.",
+      "scores": {
+        "agy": 6,
+        "claude": 6,
+        "codex": 7
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Recalcularea se face acum după IRCC și doar după o decizie definitivă de concurență",
+      "summary": "Acum legea spune clar că ratele se recalculează după IRCC, pentru creditele cu ROBOR, și doar după o decizie definitivă de concurență. Amenzile sunt sume fixe, nu un procent din cifra de afaceri. Rămân termene contradictorii și o suspendare neclară a dobânzii.",
+      "changes": [
+        {
+          "title": "Recalcularea se face după IRCC, numit explicit",
+          "text": "Inițial, legea folosea un „indice de referință ajustat” definit circular. Acum art. 3, 4, 5 și 7 cer recalcularea după IRCC, deci suma de primit poate fi calculată.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 3 lit. b)",
+          "before": "recalculeze obligațiile contractuale prin aplicarea indicelui de referință ajustat tuturor contractelor de credit afectate",
+          "after": "recalculeze obligațiile contractuale prin aplicarea indicelui IRCC tuturor contractelor de credit afectate",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Obligațiile pornesc doar de la o decizie definitivă",
+          "text": "Inițial erau suficiente anchetele ANPC sau ale Consiliului Concurenței. Acum art. 3 cere o încălcare a concurenței constatată prin decizie definitivă, deci plățile nu mai depind de un act anulabil.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 3",
+          "before": "anchetele desfășurate la institutiile de credit de catre Autoritatea Națională pentru Protecția Consumatorilor sau Consiliul Concurenței constată că",
+          "after": "ca urmare a unei încălcări a legislației în materie de concurență constatate printr-o decizie definitivă",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Legea acoperă clar creditele cu ROBOR, și cele închise",
+          "text": "Art. 7 este nou. Legea se aplică creditelor cu dobândă la ROBOR, recalculate după IRCC de la 2 mai 2019, și celor încetate, în termenul de prescripție. Drepturile deja prescrise nu se redeschid.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 7",
+          "before": null,
+          "after": "Prevederile prezentei legi se aplică contractelor de credit în derulare, inclusiv celor care au fost acordate înainte de 2 mai 2019, în cadrul cărora rata dobânzii variabile a fost calculată, intergal sau în parte, prin raportare la indicele ROBOR.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Amenzi fixe, nu procent din cifra de afaceri",
+          "text": "Inițial, orice încălcare se pedepsea cu 0,5%-1% din cifra de afaceri a băncii. Acum art. 6 enumeră trei fapte, cu amenzi de 10.000-100.000 lei aplicate de ANPC, mult mai mici pentru bănci.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 6",
+          "before": "Nerespectarea prevederilor prezentei legi constituie contravenție și se sancționează cu amendă cuprinsă între 0.5% și 1% din cifra de afaceri relizată în anul finaniar anterior de către instituția de credit responsabilă",
+          "after": "Contravenția prevăzută la alin.(1) lit.a) se sancționează cu amendă de la 10.000 lei la 50.000 lei, contravenția prevăzută la lit.b), cu amendă de la 20.000 lei la 100.000 lei, iar contravenția prevăzută la lit.c), cu amendă de la 50.000 lei la 100.000 lei.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Erorile de calcul ale dobânzii nu mai sunt acoperite",
+          "text": "Inițial, legea viza și erorile de calcul ale dobânzilor. Acum art. 1 și art. 3 o limitează la indicele denaturat prin practici anticoncurențiale, deci se aplică în mai puține situații.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 1",
+          "before": "ori a unor erori de calcul a dobânzilor aplicate",
+          "after": "ori a utilizării unui indice de referință denaturat",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Termenul de 45 de zile curge de la un document nedefinit; efectul ratării, neclar",
+            "major": true,
+            "article": "art. 4 alin. (1)"
+          },
+          {
+            "text": "Dobânda variabilă se suspendă, dar nu se spune ce plătește clientul între timp",
+            "major": true,
+            "article": "art. 4 alin. (2), art. 5 alin. (7)"
+          },
+          {
+            "text": "Recalcularea din oficiu pentru toate contractele contrazice recalcularea la cerere",
+            "major": true,
+            "article": "art. 3 lit. b)"
+          },
+          {
+            "text": "Nu e clar care bănci plătesc: „instituții responsabile” și „control” nedefinite",
+            "major": true,
+            "article": "art. 3"
+          },
+          {
+            "text": "Amenda pentru nesoluționare trimite la un articol fără termen pentru bancă",
+            "major": true,
+            "article": "art. 6 alin. (1) lit. b)"
+          },
+          {
+            "text": "Perioada recalculării e fixată prin lege, nelegată de perioada încălcării din decizie",
+            "major": true,
+            "article": "art. 7 alin. (2)"
+          },
+          {
+            "text": "Banca are pentru aceeași recalculare atât 45, cât și 30 de zile",
+            "major": false,
+            "article": "art. 5 alin. (1)-(2)"
+          },
+          {
+            "text": "Definiția prejudiciului folosește încă „indicele ajustat”, care nu mai e definit",
+            "major": false,
+            "article": "art. 2 lit. b), d)"
+          },
+          {
+            "text": "„Debitor”, „creditor” și „instituție de credit” nu mai sunt definite",
+            "major": false,
+            "article": "art. 2"
+          }
+        ],
+        "good": [
+          {
+            "text": "Recalcularea se face după indicele IRCC, numit explicit în lege",
+            "major": true,
+            "article": "art. 3, 4, 5 și 7"
+          },
+          {
+            "text": "Obligațiile apar doar după o decizie definitivă privind încălcarea concurenței",
+            "major": true,
+            "article": "art. 3"
+          },
+          {
+            "text": "Se aplică și creditelor încetate, în termenul general de prescripție",
+            "major": true,
+            "article": "art. 7 alin. (3)"
+          },
+          {
+            "text": "Drepturile deja prescrise nu se redeschid, ceea ce dă siguranță juridică",
+            "major": true,
+            "article": "art. 7 alin. (4)"
+          },
+          {
+            "text": "Amenzi fixe, aplicate de ANPC, cu obligația de conformare în 30 de zile",
+            "major": true,
+            "article": "art. 6"
+          },
+          {
+            "text": "Plata în 15 zile după acord, prin virament sau reducerea soldului",
+            "major": true,
+            "article": "art. 5 alin. (8)-(9)"
+          },
+          {
+            "text": "Banca trebuie să trimită în scris recalcularea detaliată și prejudiciul total",
+            "major": false,
+            "article": "art. 5 alin. (3)"
+          },
+          {
+            "text": "Fără acord, consumatorul poate cere în instanță recalcularea și prejudiciul",
+            "major": false,
+            "article": "art. 5 alin. (6)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 39,
+        "removed": 35,
+        "same": 0.05
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:15:52.756Z"
+    }
+  ]
+}

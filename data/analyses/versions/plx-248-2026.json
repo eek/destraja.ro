@@ -1,0 +1,178 @@
+{
+  "slug": "plx-248-2026",
+  "billId": "PL-x 248/2026",
+  "updatedAt": "2026-10-29T12:55:11.654Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L086FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Copiii cu CES primesc masă la școală în loc de bani pentru hrană",
+      "summaryTlDr": "Intenție bună, execuție subțire: alocația de hrană a copiilor cu cerințe educaționale speciale devine masă caldă sau pachet, dar legea nu prevede nicio excepție și nu spune ce se întâmplă cu banii rămași. În școlile mici, fără cantină, pachetul alimentar riscă să devină regula, nu excepția.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/200/40/8/se272.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Copiii cu CES primesc masă caldă la școală, plătită din propria alocație de hrană",
+      "summaryTlDr": "Scopul e bun: o masă caldă garantată pe zi pentru copiii cu cerințe educaționale speciale. Textul are și garanții reale: se reține doar pentru zilele de prezență, iar restul banilor ajunge la părinte. Problema este că textul se contrazice. Alin.(7²) obligă școala să dea masa, iar alin.(7³) permite reținerea banilor doar «în cazuri bine documentate», fără să definească ce înseamnă asta. «Costul real» rămâne în seama unui ordin de ministru.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Familia primește acum diferența dintre alocația de hrană și costul mesei luate la școală",
+      "summary": "Inițial, alocația de hrană devenea în întregime masă sau pachet, fără reguli pentru bani. Acum școala poate reține doar costul real al mesei, pe zilele de prezență, iar restul merge la părinte. Rămâne neclar când se reține.",
+      "changes": [
+        {
+          "title": "Restul alocației de hrană merge la părinte",
+          "text": "Nou la art. I, alin. (7⁵): diferența dintre alocația de hrană și suma reținută de școală se virează reprezentantului legal. Inițial, textul nu spunea ce se întâmplă cu acești bani.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. I, alin. (7⁵)",
+          "before": null,
+          "after": "Diferența dintre cuantumul alocației de hrană și suma reținută potrivit alin.(73) se virează reprezentantului legal al copilului.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Școala poate reține doar costul real al mesei",
+          "text": "Alin. (7³) nou: școala poate reține din alocație contravaloarea mesei efectiv furnizate, cel mult costul real. Reținerea e însă facultativă, „în cazuri bine documentate”, fără să se spună ce se documentează.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. I, alin. (7³)",
+          "before": null,
+          "after": "din cuantumul alocației de hrană se poate reține de către unitatea de învățământ în cazuri bine documentate contravaloarea mesei efectiv furnizate, în limita costului real al acesteia.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Se reține doar pentru zilele de prezență",
+          "text": "Alin. (7⁴) nou: reținerea se face proporțional cu zilele de prezență efectivă, pe baza situației trimise lunar de școală la DGASPC. Inițial, zilele de absență nu erau reglementate.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. I, alin. (7⁴)",
+          "before": null,
+          "after": "Reținerea prevăzută la alin.(7³) se realizează proporțional cu numărul de zile de prezență efectivă la cursuri, pe baza situației comunicate lunar de unitatea de învățământ către direcția generală de asistență socială și protecția copilului.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dreptul copilului la hrană nu poate scădea",
+          "text": "Alin. (7⁵) adaugă garanția că aplicarea noilor reguli nu poate diminua dreptul copilului la hrană stabilit prin lege.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. I, alin. (7⁵)",
+          "before": null,
+          "after": "Aplicarea prezentelor dispoziții nu poate conduce la diminuarea dreptului copilului la hrană stabilit prin lege.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Ordinul de aplicare trebuie să acopere și banii",
+          "text": "Art. II: ordinul comun al miniștrilor trebuie să stabilească acum și procedura de calcul, reținere și virare a sumelor, plus monitorizarea. Inițial privea doar implementarea și standardele nutriționale.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. II",
+          "before": "se va reglementa modalitatea concretă de implementare și standardele nutriționale.",
+          "after": "normele metodologice de aplicare, inclusiv procedura de calcul, reținere și virare a sumelor, standardelor nutriționale minime și mecanismul de monitorizare.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Reținere facultativă „în cazuri bine documentate”, contradictorie cu masa obligatorie; neclar cine plătește",
+            "major": true,
+            "article": "art. I, alin. (7³)"
+          },
+          {
+            "text": "„Costul real” nedefinit; poate include transport, ambalare sau adaosul de catering",
+            "major": true,
+            "article": "art. I, alin. (7³)"
+          },
+          {
+            "text": "Dietele medicale ale copiilor (diabet, celiachie, alergii, autism, disfagie) nu sunt prevăzute",
+            "major": true,
+            "article": "art. I, alin. (7²)"
+          },
+          {
+            "text": "Nu e definit când „masa caldă nu poate fi asigurată”; pachetul poate deveni regula",
+            "major": true,
+            "article": "art. I, alin. (7²) lit. c)"
+          },
+          {
+            "text": "Copiii școlarizați la domiciliu sau în spital nu sunt tratați explicit",
+            "major": false,
+            "article": "art. I, alin. (7²)"
+          },
+          {
+            "text": "Legea se aplică fără să aștepte ordinul cu standardele și procedura de calcul",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "good": [
+          {
+            "text": "Diferența dintre alocație și suma reținută se virează reprezentantului legal",
+            "major": true,
+            "article": "art. I, alin. (7⁵)"
+          },
+          {
+            "text": "Reținerea se face doar proporțional cu zilele de prezență efectivă, comunicate lunar",
+            "major": true,
+            "article": "art. I, alin. (7⁴)"
+          },
+          {
+            "text": "Școala poate reține cel mult costul real al mesei efectiv furnizate",
+            "major": true,
+            "article": "art. I, alin. (7³)"
+          },
+          {
+            "text": "Dreptul copilului la hrană nu poate fi diminuat prin aplicarea legii",
+            "major": true,
+            "article": "art. I, alin. (7⁵)"
+          },
+          {
+            "text": "Ordine clară: cantină proprie, apoi catering, pachetul doar când niciuna nu e posibilă",
+            "major": true,
+            "article": "art. I, alin. (7²)"
+          },
+          {
+            "text": "Ordinul trebuie să stabilească calculul, reținerea, virarea, standardele nutriționale și monitorizarea",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 7,
+        "removed": 7,
+        "same": 0.3
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:55:11.654Z"
+    }
+  ]
+}

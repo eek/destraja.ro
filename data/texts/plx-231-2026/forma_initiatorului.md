@@ -1,0 +1,113 @@
+# ROMANIA PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENAT
+
+LEGE pentru modificarea și completarea Legii nr. 272/2004 privind protecția și promovarea drepturilor copilului, cu modificările și completările ulterioare
+
+## Parlamentul României adoptă prezenta lege:
+
+Art. I – Legea nr. 272/2004 privind protecția și promovarea drepturilor copilului, republicată în Monitorul Oficial al României, Partea I, nr. 159 din 5 martie 2014, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La Secțiunea 3 Sănătatea și bunăstarea copilului, după articolul 48 se introduce un nou articol, articolul 48¹, cu următorul cuprins: Art.48¹
+
+(1) Se înființează Registrul Național al Debitorilor de Întreținere pentru Copii (RNDIC) ca instrument național de evidență, monitorizare și executare a obligațiilor de întreținere datorate copiilor minori.
+
+(2) RNDIC este organizat și administrat de Autoritatea Națională pentru Protecția Drepturilor Copilului și Adopție (ANPDCA), în colaborare cu Ministerul Justiției și Agenția Națională de Administrare Fiscală (ANAF).
+
+(3) RNDIC este nepublic, accesul fiind permis exclusiv instituțiilor abilitate prin prezenta lege.
+
+(4) Sunt înscrise în RNDIC persoanele obligate la plata pensiei de întreținere în baza unui titlu executoriu care nu și-au îndeplinit obligațiile timp de minimum 3 luni consecutive, fără justificare legală.
+
+(5) Înscrierea se realizează automat de executorul judecătoresc, prin intermediul sistemului informatic pus la dispoziție de ANPDCA.
+
+(6) În RNDIC se înscriu:
+
+a) identitatea debitorului;
+
+b) titlul executoriu și suma datorată;
+
+c) cuantumul restanțelor;
+
+d) perioada de neplată;
+
+e) informații relevante privind executarea;
+
+f) notificări privind veniturile declarate la ANAF.
+
+ROMANIA
+
+(7) Persoana înscrisă în RNDIC are obligația de a notifica, în termen de 15 zile, orice schimbare a domiciliului, reședinței, locului de muncă sau a altor elemente relevante pentru executarea obligației de întreținere.
+
+(8) ANAF transmite lunar către ANPDCA date privind veniturile declarate și eventualele neconcordanțe în activitatea economică a persoanelor înscrise în RNDIC.
+
+(9) Accesul la RNDIC îl au:
+
+a) instanțele judecătorești;
+
+b) executorii judecătorești;
+
+c) ANAF;
+
+d) poliția;
+
+e) autoritățile de frontieră;
+
+f) serviciile publice de asistență socială, exclusiv în scopul îndeplinirii atribuțiilor prevăzute de lege.
+
+(10) În cazul în care împotriva unei persoane înscrise în RNDIC este în curs o procedură de executare silită pentru recuperarea obligațiilor de întreținere, direcția generală de asistență socială și protecția copilului competentă sau, după caz, executorul judecătoresc care instrumentează dosarul de executare silită are obligația de a sesiza instanța de executare cu cererea privind instituirea interdicției temporare de a părăși teritoriul României, fără perceperea vreunui onorariu, taxe ori cheltuieli în sarcina părintelui îndreptățit, iar costurile aferente acestui demers se acoperă integral dintr-un fond special constituit la nivelul Ministerului Justiției, în vederea protejării interesului superior al copilului.
+
+(11) Persoanele înscrise în RNDIC pot fi supuse următoarelor măsuri:
+
+a) suspendarea sau refuzul eliberării pașaportului pentru restanțe mai mari de 6 luni;
+
+b) notificarea angajatorului pentru reținerea sumelor datorate;
+
+c) suspendarea permisului de conducere pentru restanțe mai mari de 12 luni, cu exceptarea motivelor profesionale;
+
+d) restricții la eliberarea autorizațiilor sau licențelor, conform legii;
+
+e) interdicția temporară de a accesa anumite servicii publice.
+
+(12) Pe durata înscrierii în RNDIC, persoana nu poate:
+
+a) adopta un copil;
+
+b) deveni tutore;
+
+c) dobândi calitatea de asistent maternal;
+
+d) primi un copil în plasament familial, în încredințare sau în orice altă formă de protecție specială.
+
+(13) Instituțiile de credit pot refuza acordarea unui credit în situația în care verificarea RNDIC indică existența unor obligații de întreținere restante, având în vedere conduita financiară și riscul de neplată al solicitantului.
+
+(14) În cadrul procedurilor de recrutare pentru funcții publice sau pentru activități care implică protecția copilului, relația directă cu minori ori exercitarea atribuțiilor de ordine publică, instituția angajatoare poate consulta RNDIC și poate refuza numirea unei persoane înscrise în RNDIC.
+
+(15) Persoanele înscrise în RNDIC sunt notificate în termen de 10 zile de la înregistrare, cu indicarea motivelor, a datelor înscrise și a dreptului de contestare.
+
+(16) Contestarea înscrierii în RNDIC se poate face în termen de 30 de zile la instanța competentă, fără suspendarea executării obligațiilor.
+
+(17) Radierea persoanei din RNDIC se dispune de către ANPDCA în termen de 5 zile de la:
+
+a) achitarea integrală a obligațiilor restante;
+
+b) încetarea obligației de întreținere potrivit legii;
+
+c) constatarea, prin hotărâre judecătorească, a imposibilității obiective de plată;
+
+d) orice altă situație în care temeiul înscrierii a încetat.
+
+(18) Orice persoană înscrisă în RNDIC poate sesiza instanța competentă pentru verificarea legalității înscrierii, pentru rectificarea datelor sau pentru radierea eronată.
+
+(19) RNDIC funcționează sub supravegherea Ministerului Muncii și Solidarității Sociale, care controlează modul în care ANPDCA își îndeplinește atribuțiile privind administrarea acestuia.
+
+(20) Prelucrarea datelor cuprinse în RNDIC se realizează cu respectarea legislației privind protecția datelor cu caracter personal, sub controlul Autorității Naționale de Supraveghere a Prelucrării Datelor cu Caracter Personal.
+
+(21) Procedura privind organizarea RNDIC, schimbul de date, modul de acces, responsabilitățile instituțiilor și fluxul operațional se stabilesc prin hotărâre a Guvernului, emisă în termen de 90 de zile de la intrarea în vigoare a prezentei legi.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+PREȘEDINTELE SENATULUI

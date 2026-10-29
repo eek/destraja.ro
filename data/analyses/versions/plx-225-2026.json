@@ -1,0 +1,172 @@
+{
+  "slug": "plx-225-2026",
+  "billId": "PL-x 225/2026",
+  "updatedAt": "2026-10-29T12:51:38.972Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L003FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Guvernul va decide prin HG ce consultații online sunt permise pe fiecare specialitate; subiecte unice la examenul de specialist abia din semestrul II 2026",
+      "summaryTlDr": "Lege în mare parte tehnică și cu scop legitim, dar care dă Guvernului un cec în alb: ce consultații la distanță rămân permise și când devine obligatorie vizita la cabinet se va hotărî prin HG, fără criterii fixate de Parlament. Partea despre rezidențiat e o amânare logistică benignă.",
+      "scores": {
+        "agy": 3,
+        "claude": 4,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/200/20/5/se250.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Telemedicina pe specialități, recuperarea medicală la distanță și amânarea subiectelor unice la examenul de medic specialist",
+      "summaryTlDr": "Lege tehnică și în mare utilă. Recunoaște explicit recuperarea medicală la distanță și amână cu un semestru subiectele unice pe țară la examenul de specialist. Riscul real e cecul în alb dat Guvernului: va decide prin HG, fără criterii fixate în lege, ce specialități pot lucra la distanță și când pacientul trebuie să vină fizic la medic.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Senatul adaugă telerecuperarea în telemedicină, făcută de medici de recuperare și fizioterapeuți",
+      "summary": "Acum legea prevede explicit recuperarea medicală la distanță (telerecuperare), făcută de medici de recuperare și fizioterapeuți, la prescripția medicului curant. Riscul principal rămâne: regulile concrete ale telemedicinei se stabilesc ulterior prin hotărâre de guvern, fără termen.",
+      "changes": [
+        {
+          "title": "Recuperarea medicală la distanță devine serviciu de telemedicină",
+          "text": "Senatul adaugă la art. 30¹ alin. (6) o nouă literă, g) „telerecuperarea”, în lista serviciilor de telemedicină: recuperarea medicală poate fi făcută și la distanță.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 30¹ alin. (6) lit. g) din Legea 95/2006",
+          "before": null,
+          "after": "g) telerecuperarea.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Cine poate face telerecuperare: medici de recuperare, fizioterapeuți",
+          "text": "Art. 30¹³ alin. (1), nou: telerecuperarea o fac medicii de medicină fizică și de reabilitare, cei de medicină fizică și balneologie și fizioterapeuții, în limitele competențelor stabilite prin lege.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 30¹³ alin. (1) din Legea 95/2006",
+          "before": null,
+          "after": "serviciile de telerecuperare furnizate de medicii specialiști în medicină fizică și de reabilitare, respectiv medicină fizică și balneologie, precum și de fizioterapeuți, în limitele competențelor profesionale stabilite prin lege.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Fizioterapeuții lucrează online doar pe prescripția medicului curant",
+          "text": "Art. 30¹³ alin. (3): serviciile conexe urmează strict prescripția medicului curant. E o garanție de siguranță, dar nu e clar dacă e medicul de recuperare sau orice medic care tratează pacientul.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 30¹³ alin. (3) din Legea 95/2006",
+          "before": null,
+          "after": "În cadrul telerecuperării, serviciile conexe actului medical se furnizează în strictă concordanță cu prescripția și recomandările cu caracter medical ale medicului curant",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Ce înseamnă telerecuperarea: consult, evaluare, terapie, monitorizare online",
+          "text": "Art. 30¹³ alin. (2) definește telerecuperarea: consult, evaluare funcțională, intervenție terapeutică, educarea și monitorizarea pacientului la distanță, prin mijloace digitale.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 30¹³ alin. (2) din Legea 95/2006",
+          "before": null,
+          "after": "Telerecuperarea reprezintă furnizarea la distanță a serviciilor de medicină fizică și de reabilitare și a serviciilor conexe actului medical, utilizând mijloace digitale pentru realizarea consultului, evaluării funcționale, intervenției terapeutice de specialitate",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Limitele telemedicinei pe specialități, lăsate integral pe seama unei hotărâri de guvern viitoare",
+            "major": true,
+            "article": "art. 30¹² din Legea 95/2006"
+          },
+          {
+            "text": "Legea nu fixează criterii de proporționalitate pentru restricțiile din telemedicină",
+            "major": true,
+            "article": "art. 30¹² din Legea 95/2006"
+          },
+          {
+            "text": "Niciun termen pentru adoptarea normelor de aplicare a telemedicinei",
+            "major": false,
+            "article": "art. 30¹² din Legea 95/2006"
+          },
+          {
+            "text": "Nicio consultare obligatorie a CMR, CMSR, CFR sau a pacienților la normele de aplicare",
+            "major": false,
+            "article": "art. 30¹² din Legea 95/2006"
+          },
+          {
+            "text": "Principiul telemedicinei diferențiate e formulat general, fără criterii verificabile",
+            "major": false,
+            "article": "art. 30¹ alin. (7) din Legea 95/2006"
+          },
+          {
+            "text": "Neclar ce medic e „medicul curant” care prescrie telerecuperarea",
+            "major": false,
+            "article": "art. 30¹³ alin. (3) din Legea 95/2006"
+          },
+          {
+            "text": "Candidații din semestrul I 2026 au dat examenul de specialist fără subiecte unice",
+            "major": false,
+            "article": "art. 15 alin. (32) din OG 18/2009"
+          }
+        ],
+        "good": [
+          {
+            "text": "Recuperarea medicală la distanță devine explicit serviciu de telemedicină",
+            "major": true,
+            "article": "art. 30¹ alin. (6) lit. g) din Legea 95/2006"
+          },
+          {
+            "text": "Telerecuperarea e rezervată medicilor de recuperare și fizioterapeuților, în limitele competențelor",
+            "major": true,
+            "article": "art. 30¹³ alin. (1) din Legea 95/2006"
+          },
+          {
+            "text": "Serviciile conexe la distanță trebuie să urmeze prescripția și recomandările medicale",
+            "major": true,
+            "article": "art. 30¹³ alin. (3) din Legea 95/2006"
+          },
+          {
+            "text": "Definiție clară a telerecuperării: consult, evaluare, terapie, educare, monitorizare",
+            "major": false,
+            "article": "art. 30¹³ alin. (2) din Legea 95/2006"
+          },
+          {
+            "text": "Normele vor stabili când consultul față în față e obligatoriu",
+            "major": false,
+            "article": "art. 30¹² din Legea 95/2006"
+          },
+          {
+            "text": "Subiecte unice pe țară la examenul de specialist din semestrul II 2026",
+            "major": false,
+            "article": "art. 15 alin. (32) din OG 18/2009"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 12,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:51:27.671Z"
+    }
+  ]
+}

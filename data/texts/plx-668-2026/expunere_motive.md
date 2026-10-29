@@ -1,0 +1,374 @@
+# EXPUNERE DE MOTIVE
+
+Lege privind instituirea Sistemului național de notificare a excavățiilor în zona de protecție și de siguranță a rețelelor de gaze naturale „Sapă Sigur”
+
+## Secțiunea 1
+
+## Titlul prezentului proiect de act normativ
+
+Lege privind instituirea Sistemului național de notificare a excavățiilor în zona de protecție și de siguranță a rețelelor de gaze naturale „Sapă Sigur”.
+
+## Secțiunea a 2-a
+
+## Motivul emiterii prezentului act normativ
+
+## 2.1. Sursa proiectului de act normativ
+
+Prezentul proiect de act normativ are ca sursă inițiativa legislativă a unui grup de deputați și senatori, formulată în temeiul art. 74 alin. (1) și (4) din Constituția României, republicată. Proiectul respectă normele de tehnică legislativă prevăzute de Legea nr. 24/2000, republicată, cu modificările și completările ulterioare, precum și exigențele instrumentului de prezentare și motivare reglementate de Hotărârea Guvernului nr. 443/2022.
+
+## 2.2. Descrierea situației actuale
+
+## a) Cadrul normativ și instituțional existent
+
+Rețelele de gaze naturale din România sunt reglementate, în principal, prin Legea energiei electrice și a gazelor naturale nr. 123/2012, cu modificările și completările ulterioare. Articolul 100 din lege definește noțiunile de „zonă de protecție” și „zonă de siguranță” ale obiectivelor din sectorul gazelor naturale, iar art. 190 interzice o serie de activități în aceste zone, inclusiv efectuarea de săpături fără avizul operatorului de rețea.
+
+Cadrul tehnic relevant este reprezentat de Normele Tehnice pentru proiectarea, executarea și exploatarea sistemelor de alimentare cu gaze naturale, aprobate prin Ordinul președintelui ANRE nr. 89/2018, cu modificările ulterioare; Normele Tehnice pentru proiectarea și execuția conductelor de transport gaze naturale, aprobate prin Ordinul președintelui ANRE nr. 118/2013, cu modificările ulterioare; Procedura de emitere a avizului în vederea autorizării executării construcțiilor amplasate în vecinătatea obiectivelor/sistemelor din sectorul petrol și gaze naturale, aprobată prin Ordinul ministrului economiei și comerțului nr. 47/2003.
+
+## b) Deficiențele cadrului actual
+
+Cadrul normativ actual, deși stabilește în mod principal interdicția executării de excavății neautorizate în zonele de protecție și siguranță, nu dispune de mecanismele operaționale necesare pentru respectarea efectivă a acestor obligații. Principalele deficiențe sunt: absența unui sistem informatic național centralizat la care toți executanții de lucrări de excavăție să fie obligați să notifice prealabil intenția de excavare; lipsa transparenței cartografice — culoarele zonelor de protecție și de siguranță nu sunt accesibile publicului în format digital interactiv și uniform la nivel național; o conformare deficitară a executanților cu obligația de obținere a avizului de amplasament; absența unui regim juridic codificat pentru lucrările de urgență; absența unui registru al incidentelor.
+
+## c) Cauze și efecte
+
+Cauzele structurale ale problemei sunt de natură normativă (obligațiile de la art. 190 din Legea nr. 123/2012 sunt formulate în termeni generali, fără proceduri operaționale detaliate, termene clare sau instrumente digitale), administrativă (fragmentarea responsabilităților între operatorii de rețea, absența unui ghișeu unic) și tehnologică (rămânerea în urmă față de bunele practici europene de tip „one-call”/„call before you dig”). Efectele acestor cauze includ producerea frecventă de incidente cu consecințe pentru siguranța cetățenilor, pentru continuitatea serviciului de alimentare, pentru integritatea infrastructurii energetice critic și pentru bugetele operatorilor și ale executanților.
+
+## d) Grupuri-țintă afectate
+
+Beneficiari direcți ai proiectului: executanții de lucrări de construcții și excavăție; beneficiarii lucrărilor (investitori publici și privați); operatorii de rețele de gaze naturale; autoritățile administrației publice locale; cetățenii și consumatorii finali; autoritatea de reglementare ANRE.
+
+## e) Consecințele neadoptării proiectului
+
+În absența unui cadru legal care să instituie Sistemul Sapă Sigur, România va rămâne unul dintre puținele state membre ale Uniunii Europene cu rețele a gazelor naturale de mare amploare fără un sistem național de notificare digitală a excavțiilor. Neadoptarea va perpetua producerea de incidente cu consecințe umane și economice, va întârzia implementarea cerințelor din Directiva (UE) 2022/2557 privind reziliența entităților critic și va menține costuri sociale ridicate generate de întreruperi de servicii și de reparații.
+
+## 2.3. Schimbări preconizate
+
+## a) Scopul și obiectivele proiectului
+
+Proiectul instituie Sistemul Sapă Sigur ca platformă națională digitală pentru notificarea, evidența, monitorizarea și controlul tuturor lucrărilor de excavație realizate în zona de protecție și de siguranță a rețelelor de gaze naturale din România (art. 1–2 din proiect). Obiectivele specifice sunt prevenirea incidentelor, protecția vieții și sănătății persoanelor, asigurarea transparenței cartografice, standardizarea procedurii de notificare și autorizare, instituirea Biletului de Săpătură digital, reducerea costurilor sociale generate de incidente și promovarea culturii de percepție a riscului.
+
+## b) Modificările substanțiale aduse
+
+## Propunerea legislativă prevede:
+
+1\) repoziționarea rolului operatorului de rețea în validarea Biletului de Săpătură (art. 16, 18, 21, 25). Validarea devine atribuția expresă a operatorului de rețea, după efectuarea marcajului zonei de protecție și semnarea procesului verbal de predare-primire amplasament. Executantul, prin responsabilul de lucrare, are obligația de a verifica marcajul — operațiune distinctă de validarea propriu-zisă a Biletului;
+
+2\) introducerea procesului verbal de predare-primire amplasament ca instrument formal de transfer al amplasamentului și ca document premergător validării Biletului de Săpătură (art. 5 pct. 12, art. 18, art. 21);
+
+3\) instituirea art. 4 — regimul lucrărilor în situații de urgență — cu definiție cumulativă pe patru criterii (pericol iminent; imposibilitatea amânării, calitatea legală a executantului, proporționalitatea intervenției), notificare telefonică ex ante către operator, notificare ex post în 48 de ore prin Sistem, generare automată a Biletului de Săpătură cu mențiunea „regim de urgență”, confirmare a operatorului în 5 zile lucrătoare, sancțiune calificată pentru invocare abuzivă și răspundere civilă agravată;
+
+4\) reglementarea regimului hărții digitale (art. 28) prin instituirea a patru niveluri de acces: nivelul public general (informații pe raza unei localități), nivelul public extins (culoare pe un teren, condiționat de dovada dreptului), nivelul de editare (operatori) și nivelul de administrare (ANRE);
+
+5\) recunoașterea costurilor operatorilor de rețea în tarifele reglementate (art. 39 alin. (3) și art. 43 alin. (2)), conform principiului costurilor justificate prevăzut de Legea nr. 123/2012;
+
+6\) crearea calendarului de implementare etapizată cu introducerea unui termen suplimentar de 60 de zile de la finalizarea fiecărei etape (art. 39 alin. (2));
+
+## c) Opțiunile de reglementare examinațe
+
+Au fost analizate trei opțiuni: (i) menținerea statu quo și consolidarea procedurală prin amendarea Legii nr. 123/2012 și a reglementărilor secundare, fără sistem digital dedicat; (ii) un sistem de notificare voluntar administrat de asociațiile profesionale; (iii) un sistem digital obligatoriu național, cu operator public (ANRE) și finanțare mixtă. Opțiunile (i) și (ii) au fost respinse ca insuficiente; experiența europeană (KLIC/WIBON-Olanda; DT-DICT-Franța; NUAR-Regatul Unit; sistemul 811-Statele Unite) demonstrează că numai caracterul obligatoriu, universalitatea acoperirii și administrarea publică garantează rata de conformare necesară. Opțiunea (iii), selectată, urmează modelul francez DT-DICT, operațional din 1 iulie 2012, și modelul olandez KLIC/WIBON, administrat de Kadaster.
+
+## d) Monitorizarea și evaluarea implementării
+
+Proiectul instituie un mecanism de monitorizare multistrat — raport anual ANRE publicat până la 31 martie (art. 36), rapoarte trimestriale, tablou de bord public în timp real (art. 35), indicatori cuantificabili (art. 38: reducerea cu cel puțin 50% a incidentelor în 5 ani; rată de conformare de cel puțin 75% în 3 ani).
+
+## 2.4. Alte informații
+
+Din perspectiva dreptului comparat, proiectul se aliniază cu bunele practici consacrate ale statelor membre ale Uniunii Europene și OCDE: sistemul francez DT-DICT (Decretul nr. 2011-1241, art. R. 554-32 din Code de l'environnement pentru lucrările în regim de urgență); sistemul olandez KLIC/WIBON (administrat de Kadaster în baza Wet Informatie-uitwisseling Bovengrondse en Ondergrondse Netten); sistemul britanic NUAR (National Underground Asset Register); sistemul american 811 (operat sub regimul 49 CFR Part 198 coroborat cu Common Ground Alliance Best Practices); sistemul german BIL eG. Convergența acestor modele cu arhitectura propusă prin proiect validează atât necesitatea, cât și fezabilitatea Sistemului Sapă Sigur.
+
+## Secțiunea a 3-a
+
+## Impactul socioeconomic al prezentului act normativ
+
+## 3.1. Descrierea generală a beneficiilor și costurilor estimate
+
+Adoptarea proiectului generează beneficii și costuri finite, cu un raport net favorabil. Pe latura beneficiilor: reducerea incidentelor provocate de excavății necontrolate, având ca țintă cuantificabilă reducerea cu cel puțin 50% în 5 ani de la implementarea integrală (art. 38 lit. a)); economii directe și indirecte pentru operatorii de rețea (reducerea costurilor de reparație, de gestionare a situațiilor de urgență și a celor juridice); reducerea perturbărilor serviciului de alimentare pentru consumatorii finali; eficientizarea procedurilor de autorizare a construcțiilor; crearea unui registru național al incidentelor cu valoare adăugată pentru planificarea urbană și politica energetică.
+
+Pe latura costurilor: cheltuieli de dezvoltare și implementare a platformei digitale; cheltuieli recurente de operare și mentenanță; costuri de conformare pentru executanții de lucrări, limitate la timpul administrativ de transmitere a notificărilor și la parcurgerea modulului de instruire online gratuit. Costurile suplimentare suportate de operatorii de rețea pentru îndeplinirea obligațiilor prevăzute de prezenta lege se recunosc, conform art. 39 alin. (3), în tarifele reglementate de transport și de distribuție a gazelor naturale, conform principiului costurilor justificate prevăzut de Legea nr. 123/2012.
+
+## 3.2. Impactul social
+
+Proiectul contribuie la protecția dreptului la viață, la integritate fizică și la sănătate, consacrate la art. 22 și art. 34 din Constituția României, republicată, și la art. 2 din Convenția pentru apărarea drepturilor omului și a libertăților fundamentale. Reducerea numărului de incidente cu gaze naturale elimină riscuri letale și de rănire gravă pentru muncitorii din construcții și pentru locuitorii din vecinătatea lucrărilor de excavație. Modulul de instruire online prevăzut la art. 30 contribuie la formarea profesională a responsabililor de lucrare. Harta digitală publică și tabloul de bord public (art. 35) sporesc transparența și accesul cetățenilor la informații relevante privind infrastructura critică din vecinătatea lor. Obligațiile se aplică uniform tuturor executanților de lucrări de excavăție, fără caracter discriminatoriu.
+
+## 3.3. Impactul asupra drepturilor și libertăților fundamentale ale omului
+
+Proiectul instituie, prin art. 14 alin. (3), obligația de a obține un Bilet de Săpătură valid înainte de începerea lucrărilor de excavăție. Această obligație reprezintă o limitare a libertății de exercitare a activităților economice în condițiile art. 45 din Constituție și art. 16 din Carta drepturilor fundamentale a Uniunii Europene, dar este justificată de un scop legitim (protecția vieții, sănătății și siguranței publice), este proporțională cu situația care a determinat-o (procedura se realizează digital, gratuit sau cu tarif rezonabil, în termene predeterminate) și nu aduce atingere existenței dreptului — în sensul jurisprudenței constante a Curții Constituționale privind testul proporționalității (a se vedea, în general, jurisprudența Curții Constituționale dezvoltată pe marginea art. 53 din Constituție privind calitatea legii).
+
+Restrângerea respectă cerințele cumulative ale art. 53 din Constituție: este prevăzută prin lege; este necesară într-o societate democratică; este proporțională cu situația care a determinat-o; se aplică nediscriminatoriu; nu aduce atingere existenței dreptului.
+
+Regimul lucrărilor în situații de urgență, instituit prin art. 4, asigură că nu sunt afectate posibilitățile de intervenție în situațiile de pericol iminent pentru viață, sănătate, bunuri sau continuitatea serviciilor esențiale.
+
+Dispozițiile privind protecția datelor cu caracter personal, prevăzute la art. 7 alin. (5) și art. 10 alin. (2) lit. j), asigură conformitatea cu Regulamentul (UE) 2016/679 (GDPR) și cu Legea nr. 190/2018.
+
+## 3.4. Impactul macroeconomic
+
+## 3.4.1. Impactul asupra economiei și asupra principalilor indicatori macroeconomici
+
+Reducerea incidenței avariilor rețelei de gaze naturale va contribui la securitatea aprovizionării cu energie și la reducerea costurilor externalizate generate de perturbările producției industriale și ale activității comerciale. Sectorul construcțiilor va beneficia de simplificarea și digitalizarea procedurii de autorizare. Impactul cantitativ asupra principalilor indicatori macroeconomici nu este cuantificabil cu certitudine la momentul prezent și va fi evaluat ex-post pe baza datelor aggregate din Sistem.
+
+## 3.4.2. Impactul asupra mediului concurențial și domeniul ajutoarelor de stat
+
+Proiectul instituie o platformă digitală de utilitate publică, accesibilă în mod gratuit sau la tarife identice pentru toți utilizatorii, indiferent de dimensiune sau de apartenența la un grup de afaceri. Cadrul procedural este uniform, nediscriminatoriu și aplicabil egal tuturor executanților de lucrări de excavăție. Finanțarea din bugetul public a infrastructurii Sistemului nu constituie ajutor de stat în sensul art. 107 din Tratatul privind funcționarea Uniunii Europene, întrucât platforma este un instrument de utilitate publică accesibil universal, fără a conferi un avantaj economic selectiv unor întreprinderi determinate. Recunoașterea costurilor operatorilor de rețea în tarifele reglementate (art. 39 alin. (3)) respectă principiul costurilor justificate prevăzut de Legea nr. 123/2012 și nu modifică logica reglementării tarifare a sectorului.
+
+## 3.5. Impactul asupra mediului de afaceri
+
+Impactul direct asupra mediului de afaceri este pozitiv net. Costurile de conformare constau în: obligația de notificare prealabilă prin Sistem, realizabilă digital, inclusiv prin aplicație mobilă; desemnarea unui responsabil de lucrare cu certificat de absolvire al modulului de instruire online (art. 24 lit. c)), modulul fiind gratuit. Beneficiile directe pentru mediul de afaceri includ predictibilitate procedurală, acces la harta digitală cu informații actualizate privind culoarele de protecție și reducerea timpului de obținere a avizului de amplasament. Proiectul va fi supus Testului Întreprinderilor Mici și Mijlocii prevăzut de Legea nr. 346/2004.
+
+## 3.6. Impactul asupra mediului înconjurător
+
+Proiectul are un impact pozitiv asupra mediului înconjurător prin reducerea numărului de avarii la rețelele de gaze naturale. Metanul, componenta principală a gazelor naturale, este un gaz cu efect de seră cu potențial de încălzire globală semnificativ mai ridicat decât dioxidul de carbon pe orizont scurt. Reducerea pierderilor de gaze prin avariile rețelei de distribuție și transport contribuie la diminuarea emisiilor fugitive de metan, în linie cu obiectivele Regulamentului (UE) 2024/1787 privind reducerea emisiilor de metan în sectorul energiei. Totodată, reducerea săpăturilor necontrollate diminuează fragmentarea solului în proximitatea traseelor de rețea.
+
+## 3.7. Implicații asupra digitalizării și inovării
+
+Proiectul este o intervenție normativă cu puternic conținut de digitalizare, întrucât creează cadrul juridic pentru construirea și operarea unei platforme digitale naționale de utilitate publică. Arhitectura tehnică (art. 8) valorifică soluțiile cloud-first și cloud-native pe infrastructura cloud governamentală a ADR, cu disponibilitate de minimum 99,5% (art. 10 alin. (2) lit. c)) și cu cerințe de securitate cibernetică conform Directivei (UE) 2022/2555 transpusă prin Legea nr. 58/2023. Interoperabilitatea cu Platforma națională de interoperabilitate (Legea nr. 242/2022), cu INIS (Ordonanța Guvernului nr. 4/2010), cu sistemele informatice ale Inspectoratului de Stat în Construcții și cu ghișeul unic al construcțiilor (Legea nr. 50/1991) valorifică datele existente, în spiritul principiului „once only” promovat de Cadrul european de interoperabilitate.
+
+## 3.8. Evaluarea costurilor și beneficiilor din perspectiva dezvoltării durabile
+
+Proiectul contribuie la implementarea Strategiei naționale pentru dezvoltarea durabilă a României 2030 și la realizarea obiectivelor de dezvoltare durabilă ale Organizației Națiunilor Unite, în special: ODD 3 (sănătate și bunăstare), ODD 7 (energie curată și accesibilă), ODD 9 (industrie, inovare și infrastructură), ODD 11 (orașe și comunități durabile) și ODD 13 (acțiune climatică). Implementarea etapizată (art. 39) asigură durabilitatea proiectului prin testare pilotă și ajustare progresivă înainte de extinderea națională.
+
+## 3.9. Alte informații
+
+Nu există alte informații relevante pentru secțiunea de impact socioeconomic care nu au fost acoperite în subsecțiunile precedente.
+
+## Secțiunea a 4-a
+
+Impactul financiar asupra bugetului general consolidat, atât pe termen scurt, pentru anul curent, cât și pe termen lung (pe 5 ani), inclusiv informații cu privire la cheltuieli și venituri
+
+Tabelul de impact financiar este prezentat orientativ, urmând a fi consolidat prin fișa financiară prevăzută la art. 15 din Legea nr. 500/2002 privind finanțele publice, cu modificările și completările ulterioare, elaborată de Ministerul Energiei și ANRE, cu avizul Ministerului Finanțelor, ulteiror depunerii proiectului pe circuitul parlamentar definitiv.
+
+Sumele exprimate în mii lei (RON).
+
+| Indicatori | Anul curent (2026) | Anul I (2027) | Anul II (2028) | Anul III (2029) | Anul IV (2030) | Anul V (2031) | Media 5 ani |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 4.1.Modificări ale veniturilor bugetare, plus/minus, din care: | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| a) buget de stat, din acesta: | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| (i) impozit pe profit | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| (ii) impozit pe venit | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| b) bugete locale | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| c) bugetul asigurărilor sociale de stat | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| d) alte tipuri de venituri | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 4.2.Modificări ale cheltuielilor bugetare, plus/minus, din care: | 0 | +24.830 | +9.640 | +7.980 | +5.800 | +5.800 | +10.810 |
+| a) buget de stat, din acesta: | 0 | +7.080 | +2.750 | +2.280 | +1.740 | +1.740 | +3.118 |
+| (i) cheltuieli de personal | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| (ii) bunuri și servicii | 0 | +7.080 | +2.750 | +2.280 | +1.740 | +1.740 | +3.118 |
+| b) bugete locale | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| c) bugetul asigurărilor sociale de stat | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| d) alte tipuri de cheltuieli (bugetul propriu ANRE) | 0 | +17.750 | +6.890 | +5.700 | +4.060 | +4.060 | +7.692 |
+| 4.3. Impact financiar, plus/minus, din care: | 0 | -24.830 | -9.640 | -7.980 | -5.800 | -5.800 | -10.810 |
+| a) buget de stat | 0 | -7.080 | -2.750 | -2.280 | -1.740 | -1.740 | -3.118 |
+| b) bugete locale | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+
+## 4.4. Propuneri pentru acoperirea creșterii cheltuielilor bugetare
+
+Bugetul propriu al ANRE; bugetul de stat alocat ADR pentru componenta de infrastructură de cloud guvernamental; fonduri europene nerambursabile (Planul Național de Redresare și Reziliență — Componenta 7 „Transformare digitală", Programul Orizont Europa, Fondul European pentru Dezvoltare Regională, Programul Digital Europe); tarife percepute prin Sistem, stabilite prin ordin al președintelui ANRE.
+
+## 4.5. Propuneri pentru a compensa reducerea veniturilor bugetare
+
+Nu este cazul. Proiectul nu reduce venituri bugetare.
+
+## 4.6. Calcule detaliate privind fundamentarea modificărilor cheltuielilor bugetare
+
+Estimările sunt fundamentate prin comparație cu proiecte similare europene — National Underground Asset Register (Regatul Unit), KLIC/WIBON (Olanda) — ajustate la prețurile pieței de tehnologia informației din România și la dimensiunea infrastructurii reglementate. Etapa I (12 luni — pilot București + Mediaș): aproximativ 24.830 mii lei, din care dezvoltare platformă software 15.000-17.000 mii lei, infrastructură cloud guvernamental 3.000-4.000 mii lei, încărcare date inițială + reglementări secundare + comunicare pilot 4.000-5.000 mii lei. Etapa a II-a (12 luni — municipii reședință de județ): aproximativ 9.640 mii lei. Etapa a III-a (12 luni — implementare națională): aproximativ 7.980 mii lei. Anii IV-V (operare curentă): aproximativ 5.800 mii lei/an. Impactul financiar net cumulat pe 5 ani este estimat la aproximativ -54.050 mii lei (cheltuieli nete), cu perspectiva atingerii autofinanțării parțiale începând cu Etapa a III-a prin creșterea veniturilor din tarife.
+
+## 4.7. Prezentarea documentelor aplicabile în cazul majorării cheltuielilor bugetare
+
+Fișa financiară prevăzută la art. 15 din Legea nr. 500/2002 privind finanțele publice, cu modificările și completările ulterioare, urmează a fi elaborată de Ministerul Energiei și ANRE, cu avizul Ministerului Finanțelor.
+
+## 4.8. Alte informații
+
+Proiectul prevede la art. 12 alin. (1) lit. b) posibilitatea finanțării din fonduri europene nerambursabile, care poate reduce semnificativ impactul net asupra bugetului general consolidat. Identificarea instrumentelor de finanțare europeană aplicabile revine inițiatorului și autorităților competente în etapa de pregătire a implementării.
+
+## Secțiunea a 5-a
+
+## Efectele prezentului act normativ asupra legislației în vigoare
+
+## 5.1. Măsuri normative necesare pentru aplicarea prevederilor prezentului act normativ
+
+Prin art. 42 din proiect, Legea energiei electrice și a gazelor naturale nr. 123/2012, publicată în Monitorul Oficial al României, Partea I, nr. 485 din 16 iulie 2012, cu modificările și completările ulterioare, se completează la articolul 190, prin introducerea, după litera d), a unei noi litere, litera e), care prevede interdicția efectuării de lucrări de excavăție în zona de protecție a obiectivelor de gaze naturale fără un Bilet de Săpătură valid emis prin Sistemul Sapă Sigur.
+
+Prin art. 41 din proiect, Procedura de emitere a avizului în vederea autorizării executării construcțiilor amplasate în vecinătatea obiectivelor/sistemelor din sectorul petrol și gaze naturale, aprobată prin Ordinul ministrului economiei și comerțului nr. 47/2003, cu modificările și completările ulterioare, se modifică și se completează prin introducerea mențiunii privind obligativitatea obținerii Biletului de Săpătură.
+
+Prin art. 40 din proiect, ANRE are obligația de a emite, în termen de 6 luni de la intrarea în vigoare a legii, prin ordin al președintelui: specificațiile tehnice ale Sistemului, cu avizul ADR; regulamentul de organizare și funcționare a Sistemului Sapă Sigur; normele privind procedura de marcare a zonei de protecție; conținutul modulului de instruire online; nivelul de detaliu al informațiilor accesibile publicului pe harta digitală (cu avizul conform al Consiliului Suprem de Apărare a Țării, în termen de 8 luni); procedura de verificare a marcajului și de evaluare a impactului.
+
+## 5.2. Impactul asupra legislației în domeniul achizițiilor publice
+
+Dezvoltarea platformei informatice va impune derularea de proceduri de achiziție publică de către ANRE și/sau ADR, în conformitate cu Legea nr. 98/2016 privind achizițiile publice, cu modificările și completările ulterioare, și cu Legea nr. 99/2016 privind achizițiile sectoriale. Proiectul nu conține prevederi derogatorii de la cadrul achizițiilor publice.
+
+## 5.3. Conformitatea proiectului de act normativ cu legislația Uniunii Europene
+
+## 5.3.1. Măsuri normative necesare transpunerii directivelor UE
+
+Proiectul nu transpune o directivă a Uniunii Europene în mod formal. Proiectul asigură crearea cadrului național de aplicare a prevederilor incidente din directive europene transpuse anterior în dreptul intern:
+
+a) Directiva 2007/2/CE a Parlamentului European și a Consiliului din 14 martie 2007 de instituire a unei infrastructuri pentru informații spațiale în Comunitatea Europeană (INSPIRE), transpusă prin Ordonanța Guvernului nr. 4/2010, republicată — prin obligarea operatorilor de rețea să furnizeze date în format GIS, cu integrarea progresivă a standardelor INSPIRE;
+
+b) Directiva (UE) 2022/2557 a Parlamentului European și a Consiliului din 14 decembrie 2022 privind reziliența entităților critice (CER) — Sistemul constituie o măsură de prevenție a incidentelor provocate de excavății necontrolate, implementând cerințele art. 13 lit. a) și lit. b) din Directivă;
+
+c) Directiva (UE) 2022/2555 a Parlamentului European și a Consiliului din 14 decembrie 2022 privind măsuri pentru un nivel comun ridicat de securitate cibernetică în Uniune (NIS 2), transpusă prin Legea nr. 58/2023 — prin desemnarea Directoratului Național de Securitate Cibernetică ca autoritate de avizare a cerințelor de securitate.
+
+## 5.3.2. Măsuri normative necesare aplicării actelor legislative UE direct aplicabile
+
+a) Regulamentul (UE) 2016/679 al Parlamentului European și al Consiliului din 27 aprilie 2016 privind protecția persoanelor fizice în ceea ce privește prelucrarea datelor cu caracter personal — proiectul asigură aplicarea prin desemnarea expresă a ANRE ca operator de date (art. 10 alin. (2) lit. j)), prin limitarea datelor colectate la minimum necesar și prin trimiterea la Lcgca nr. 190/2018;
+
+b) Regulamentul (UE) nr. 1089/2010 al Comisiei din 23 noiembrie 2010 de punere în aplicare a Directivei 2007/2/CE privind interoperabilitatea seturilor și serviciilor de date spațiale — proiectul asigură integrarea progresivă a prevederilor regulamentului în harta digitală și în baza de date națională;
+
+c) Regulamentul (UE) nr. 910/2014 al Parlamentului European și al Consiliului din 23 iulie 2014 privind identificarea electronică și serviciile de încredere pentru tranzacțiile electronice pe piața internă (eIDAS) — proiectul asigură mecanismele de autentificare electronică și de semnătură electronică în cadrul Sistemului (art. 11 alin. (1) lit. e));
+
+d) Regulamentul (UE) 2017/1938 al Parlamentului European și al Consiliului din 25 octombrie 2017 privind măsuri de garantare a siguranței aprovizionării cu gaze naturale — proiectul contribuie la implementarea obligațiilor privind protecția infrastructurii și la prevenirea incidentelor cu impact asupra aprovizionării.
+
+## 5.4. Hotărâri ale Curții de Justiție a Uniunii Europene
+
+Nu există hotărâri ale Curții de Justiție a Uniunii Europene direct incidente în domeniul de reglementare al proiectului — sistemele digitale naționale de notificare a excavțiilor. Jurisprudența Curții privind libertatea de stabilire și libera prestare a serviciilor (art. 49 și art. 56 din Tratatul privind funcționarea Uniunii Europene) este relevantă în măsura în care obligația de notificare ar putea constitui o restricție a accesului pe piața construcțiilor; totuși, obligația este proporțională cu scopul de protecție a siguranței publice, condiție recunoscută ca justificare legitimă de jurisprudența constantă a Curții.
+
+## 5.5. Alte acte normative și/sau documente internaționale din care decurg angajamente asumate
+
+Planul de acțiune al Comisiei Europene pentru digitalizarea sectorului energetic (COM/2022/552 final din 18 octombrie 2022); Convenția de la Aarhus privind accesul la informație, participarea publicului la luarea deciziei și accesul la justiție în probleme de mediu, ratificată de România prin Legea nr. 86/2000, relevantă pentru obligația de transparență cartografică instituită prin harta digitală publică.
+
+## 5.6. Alte informații
+
+Nu există alte informații relevante.
+
+## Secțiunea a 6-a
+
+## Consultările efectuate în vederea elaborării prezentului act normativ
+
+## 6.1. Informații privind neaplicarea procedurii de participare la elaborarea actelor normative
+
+Nu este cazul. Proiectul nu se încadrează în categoriile exceptate de la procedura de consultare publică prevăzute de art. 6 și art. 7 alin. (13) din Legea nr. 52/2003 privind transparența decizională în administrația publică, republicată. Procedura de consultare publică se aplică integral.
+
+6.2. Informații privind procesul de consultare cu organizații neguvernamentale, institute de cercetare și alte organisme implicate
+
+Proiectul a fost dezbătut public, inclusiv în cadrul dezbaterii organize la Senat la data de 17 martie 2026, și a fost supus consultării cu următoarele entități:
+
+a) Asociația Energia Inteligentă (AEI) — organizație neguvernamentală specializată în analiza sectorului energetic, în calitate de inițiator al consolidării și de filtrare a remarcilor formulate de operatori și autorități;
+
+b) Asociația Companiilor de Utilități din Energie (ACUE) — care a transmis 85 de remarci pe articole, integrate în centralizatorul închis la 11 mai 2026. Din acestea, AEI a acceptat integral 53, a acceptat parțial 12 (cu reformulări specifice) și a respins motivat 18;
+
+c) Agenția Națională de Cadastru și Publicitate Imobiliară (ANCPI) — care a transmis 7 remarci tehnice de corelare cu cadrul Infrastructurii Naționale pentru Informații Spațiale și cu Hotărârea Guvernului nr. 777/2016 privind structura, organizarea și funcționarea Registrului electronic național al nomenclaturilor stradale. AEI a acceptat 4 integral și 3 parțial;
+
+d) operatori de rețele de gaze naturale (Transgaz S.A., Distrigaz Sud Rețele S.A., Delgaz Grid S.A.) — care au participat la dezbateri privind obligațiile de furnizare a datelor, termenele de marcare a zonei de protecție și protecția informațiilor clasificate;
+
+Autoritatea pentru Digitalizarea României (ADR) — va fi consultată cu privire la arhitectura cloud a Sistemului și la cerințele de interoperabilitate;
+
+Directoratul Național de Securitate Cibernetică (DNSC) — va fi consultat cu privire la cerințele de securitate cibernetică.
+
+## 6.4. Informații despre consultările organizate cu autoritățile administrației publice locale
+
+Proiectul instituie obligații semnificative pentru unitățile administrativ-teritoriale (art. 13, art. 27). Structurile asociative ale administrației publice locale — Asociația Municipiilor din România (AMR), Asociația Orașelor din România (AOR), Federația Autorităților Locale din România (FALR) — urmează a fi consultate.
+
+## 6.5. Informații privind avizarea de către
+
+a) Consiliul Legislativ — aviz obligatoriu potrivit art. 79 alin. (1) din Constituție și art. 4 din Legea nr. 73/1993 privind înființarea, organizarea și funcționarea Consiliului Legislativ, republicată;
+
+b) Consiliul Suprem de Apărare a Țării — aviz necesar exclusiv pentru componenta de reglementare a accesului la informațiile cu caracter sensibil din harta digitală, potrivit art. 28 alin. (6) din proiect;
+
+c) Consiliul Economic și Social — se solicită aviz consultativ
+
+d) Consiliul Concurenței — punct de vedere potrivit art. 25 lit. d) din Legea concurenței nr. 21/1996, republicată, cu modificările și completările ulterioare, deși proiectul nu instituie ajutoare de stat și nu ridică probleme de concurență.
+
+## 6.6. Alte informații
+
+Nu există alte informații privind consultările efectuate.
+
+## Secțiunea a 7-a
+
+Activități de informare publică privind elaborarea și implementarea prezentului act normativ
+
+7.1. Informarea societății civile cu privire la elaborarea prezentului act normativ Nu e cazul.
+
+7.2. Informarea societății civile cu privire la eventualul impact asupra mediului în urma implementării prezentului act normativ, precum și efectele asupra sănătății și securității cetățenilor sau diversității biologice
+
+Impactul asupra mediului este analizat detaliat la subsecțiunea 3.6. Proiectul nu generează impact negativ asupra biodiversității. Efectele asupra sănătății și securității cetățenilor sunt pozitive — reducerea numărului de incidente cu gaze naturale, prevenirea exploziilor și incendiilor cu pierderi umane.
+
+## 7.3. Alte informații
+
+Nu există alte informații privind activitățile de informare publică.
+
+## Secțiunea a 8-a
+
+Măsuri privind implementarea, monitorizarea și evaluarea prezentului act normativ
+
+## 8.1. Măsurile de punere în aplicare a prezentului act normativ
+
+a) Necesitatea înființării unor noi organisme în cadrul administrației publice centrale și/sau locale
+
+Proiectul nu impune înființarea unor organisme noi. Operatorul Sistemului Sapă Sigur este Autoritatea Națională de Reglementare în Domeniul Energiei, autoritate publică autonomă cu personalitate juridică, deja existentă. Rolul de gazdă a infrastructurii cloud guvernamental revine Autorității pentru Digitalizarea României, organism deja existent.
+
+## b) Necesitatea extinderii competențelor instituțiilor existente
+
+ANRE dobândește atribuții suplimentare privind instituirea, administrarea, dezvoltarea și mentenanța Sistemului; elaborarea regulamentului de organizare și funcționare; gestionarea bazei de date naționale; administrarea registrelor; aprobarea conținutului modulului de instruire; raportul anual și rapoartele trimestriale; constatarea contravențiilor și aplicarea sancțiunilor; încheierea protocoalelor de colaborare. Finanțarea activităților suplimentare se asigură din bugetul ANRE și din fondurile prevăzute la art. 12.
+
+ADR dobândește atribuții suplimentare privind asigurarea infrastructurii de cloud guvernamental; conectarea Sistemului la Platforma națională de interoperabilitate; acordarea de asistență tehnică; avizarea specificațiilor tehnice; asigurarea mecanismelor de autentificare electronică.
+
+Inspectoratul de Stat în Construcții, poliția locală și organele Ministerului Afacerilor Interne dobândesc competențe de control al respectării prevederilor prezentei legi, integrate în atribuțiile existente de inspecție și control (art. 31). Operatorii sistemelor de distribuție a gazelor naturale și operatorul Sistemului Național de Transport dobândesc competența de a dispune oprirea lucrărilor de excavăție neregulamentare (art. 32 alin. (1)), în corelare cu prevederile art. 114 din Legea nr. 123/2012.
+
+## c) Planul de implementare etapizată
+
+Implementarea este etapizată în trei etape de câte 12 luni (art. 39 alin. (1)): Etapa I — pregătire și pilotare (dezvoltare infrastructură IT, prima încărcare a datelor în 3 luni pentru proiectele-pilot și 12 luni pentru restul rețelelor, aprobarea regulamentului și a normelor secundare, implementarea piloților la nivelul municipiului București și al municipiului Mediaș); Etapa a II-a — implementare în toate municipiile reședință de județ; Etapa a III-a — implementare națională. Obligația de notificare devine efectivă după 60 de zile de la data finalizării fiecărei etape sau de la data comunicării ANRE a finalizării, în situația în care această dată este ulterioară (art. 39 alin. (2)).
+
+## d) Monitorizarea
+
+Monitorizarea se realizează prin tabloul de bord public în timp real (art. 35); rapoarte trimestriale ale ANRE (art. 36 alin. (3)); raport anual al ANRE publicat și transmis Parlamentului și Guvernului până la 31 martie (art. 36 alin. (1) și (4)); indicatori de performanță cuantificabili (art. 38: reducerea cu cel puțin 50% a numărului de incidente în 5 ani; rată de conformare de minimum 75% în 3 ani; reducerea timpului mediu de marcare a zonei de protecție; creșterea numărului de verificări ale hărții digitale; reducerea timpului mediu de emitere a Biletelor de Săpătură). Aceste criterii vor constitui baza pentru evaluarea ex-post a actului normativ, planificată a fi realizată de ANRE după 5 ani de la implementarea integrală a Sistemului.
+
+## e) Extinderea Sistemului la alte categorii de infrastructură subterană
+
+Art. 44 prevede că, în termen de 24 de luni de la finalizarea Etapei a III-a, Guvernul, la propunerea ANRE și cu consultarea autorităților de reglementare competente, analizează oportunitatea extinderii Sistemului la alte categorii de infrastructură subterană (rețele electrice, rețele de apă, rețele de telecomunicații), potrivit art. 1 alin. (4) din proiect, și prezintă Parlamentului un raport însoțit, după caz, de un proiect de act normativ.
+
+## 8.2. Alte informații
+
+Nu există alte informații privind măsurile de implementare, monitorizare și evaluare.
+
+În numele inițiatorilor,
+
+Sébastian-Iban Bürduja
+
+Deputat PNL de Buculesti
+
+## Tabel susținători LEGE
+
+privind instituirea Sistemului național de notificare a excavățiilor în zona de protecție și de siguranță a rețelelor de gaze naturale „Sapă Sigur”
+
+| Nr.crt. | Nume și prenume | Grup parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1. | Jiauu Josif - Ploiu | PNL |  |
+| 2 | MOLSEEV ALEXAV DRIN | PNL |  |
+| 3 | CIOBAU ADRIAN NIBGI | PNL |  |
+| 4. | TIPLEA DALEJIN FLL | PNL |  |
+| 5 | Ciprian Söhne | PNL |  |
+| 6 | SIROE iONUN MARIN | PNL |  |
+| 7. | Rena Alexandru | P.N.L |  |
+| 8 | Pandea Ciprian | PNL |  |
+| 9. | MOS ATRINA | PNL |  |
+| 10. | Paluce Tursau | PNL |  |
+
+## Tabel susținători
+
+privind instituirea Sistemului național de notificare a excavățiilor în zona de protecție și de siguranță a rețelelor de gaze naturale „Sapă Sigur”
+
+| Nr. crt. | Nume și prenume | Grup parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1 | BURUJA SERVESTAN-ICAN | PNL |  |
+| 2 | Uprua Octouiom | PNL |  |
+| 3 | Gal Căln | P.N.L. |  |
+| 4. | Rosca Mincea | P.H.L |  |
+| 5 | CHAR RAZVAN | PNL |  |
+
+## Tabel susținători
+
+LEGE
+
+privind instituirea Sistemului național de notificare a excavăților în zona de protecție și de siguranță a rețelelor de gaze naturale „Sapă Sigur”
+
+| Nr.crt. | Nume și prenume | Grup parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1 | BURDIA SEPASTIAN-IOAU | PNL |  |
+| 2. | TIPLEA-NUMI-PEK | PIX |  |
+| 3. | NOISIN RADU-NARIN | PNL |  |
+| 4. | RADIS MKNUCIN | PSD |  |
+| 5 | PLOPEANU ROJICA | PSD |  |
+| 6 | Manta Claudin | PSD |  |
+| 7 | NICOLAE SAN | UPR |  |
+| 8. | ALECSANIAA RIVICO2AE | USR |  |
+| 9 | Scarlat George | PNL |  |
+| 10 | Mivera Fedut | PNL |  |
+| 11 | LONGHER GITERVAZEN | MIN |  |
+| 12 | Herke Adrian | MIN |  |
+| 13 | CONSTANTINEGA SERG'4 | PSD |  |

@@ -1,0 +1,29 @@
+# PARLAMENTUL ROMÂNIEI CAMERA DEPUTAȚILOR
+
+LEGE
+
+pentru prorogarea termenului prevăzut la art. 248 alin. (4) și pentru modificarea art. 101 din Legea învățământului preuniversitar nr. 198/2023
+
+Camera Deputaților adoptă prezentul proiect de lege.
+
+Art. I. – Termenul prevăzut la art. 248 alin. (4) din Legea învățământului preuniversitar nr. 198/2023, publicată în Monitorul Oficial al României, Partea I, nr. 613 din 5 iulie 2023, cu modificările și completările ulterioare, pentru desfășurarea admiterii la liceu și evaluării naționale organizate la finalul clasei a VIII-a se prorogă până la absolvirea clasei a VIII-a de către generația de elevi înscriși în clasa a V-a în anul școlar 2025 – 2026.
+
+Art. II. – Legea învățământului preuniversitar nr. 198/2023, publicată în Monitorul Oficial al României, Partea I, nr. 613 din 5 iulie 2023, cu modificările și completările ulterioare, se modifică după cum urmează:
+
+1\. La articolul 101, alineatul (2) se abrogă.
+
+## 2. La articolul 101, alineatele (4) și (10) se modifică și vor avea următorul cuprins:
+
+„(4) Locurile rămase neocupate după repartizarea prevăzută la alin. (3) se atribuie pe baza rezultatelor obținute la evaluarea națională, conform opțiunilor exprimate, prin repartiție computerizată.
+
+(10) Prin excepție de la prevederile alin. (3) și (4), unitățile de învățământ organizează, pentru filiera vocațională, anterior susținerii evaluării naționale, probe de aptitudini specifice pentru admitere.”
+
+## 3. La articolul 101, alineatele (5) – (9) se abrogă.
+
+Art. III. – Prin derogare de la prevederile art. 10 alin. (2) din Legea învățământului preuniversitar nr. 198/2023, cu modificările și completările ulterioare, prezenta lege intră în vigoare la 3 zile de la data publicării în Monitorul Oficial al României, Partea I.
+
+Acest proiect de lege a fost adoptat de Camera Deputaților în ședința din 24 august 2026, cu respectarea prevederilor art. 76 alin. (1) din Constituția României, republicată.
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+SORIN – MIHAI GRINDEANU

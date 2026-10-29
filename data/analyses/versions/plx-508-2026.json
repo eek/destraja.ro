@@ -1,0 +1,172 @@
+{
+  "slug": "plx-508-2026",
+  "billId": "PL-x 508/2026",
+  "updatedAt": "2026-10-29T12:53:49.863Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L331FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Instituțiile nu-ți mai pot cere copie după buletin",
+      "summaryTlDr": "Lege utilă, care mută povara de pe cetățean pe stat: instituțiile verifică identitatea și domiciliul direct în registrul de evidență, în loc să-ți ceară copie după buletin. Redactarea are însă scăpări reparabile: verificarea depinde de „consimțământul” tău, nu e clar cine răspunde pentru amendă, iar băncile și operatorii privați rămân în afara interdicției.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/00/8/se565.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Gata cu copia după buletin la ghișeu: instituțiile verifică datele direct în registrul statului",
+      "summaryTlDr": "Lege utilă și de bun-simț: statul nu mai are voie să-ți ceară copie după un buletin emis tot de el. Textul are însă scăpări de redactare și un decalaj de calendar care pot bloca ghișeele în primele luni.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Amenda pentru cererea copiei de buletin crește la 3.000–5.000 lei; constată și ANSPDCP",
+      "summary": "Acum instituțiile verifică datele în registrul populației fără să mai ceară acordul persoanei. Amenda pentru cine cere copia buletinului urcă la 3.000–5.000 lei, iar ANSPDCP poate amenda alături de Poliție. Rămâne neclar cine plătește amenda.",
+      "changes": [
+        {
+          "title": "Amenda pentru cererea copiei de buletin crește",
+          "text": "Art. 13¹ alin. (1) din OUG 41/2016: amenda pentru cererea sau reținerea copiei actului de identitate urcă de la 2.000–3.000 lei la 3.000–5.000 lei. Nici acum nu se spune cine o plătește.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. I pct. 2 (art. 13¹ alin. (1) OUG 41/2016)",
+          "before": "Nerespectarea prevederilor art. 2 alin. (2) constituie contravenție și se sanționează cu amendă de la 2000 lei la 3000 lei.",
+          "after": "Nerespectarea prevederilor art.2 alin.(2) constituie contravenție și se sancționează cu amendă de la 3000 lei la 5000 lei.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Verificarea în registru nu mai cere acordul persoanei",
+          "text": "Art. 2 alin. (1) din OUG 41/2016: inițial verificarea în RNEP se făcea „cu consimțământul persoanei”, fără să se spună ce urmează la refuz. Acum instituțiile verifică direct, pe temeiul legii.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. I pct. 1 (art. 2 alin. (1) OUG 41/2016)",
+          "before": "verifică, cu consimțământul persoanei, datele privind identitatea acesteia",
+          "after": "entitățile prevăzute la art. 1 verifică datele privind identitatea acesteia",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Și ANSPDCP poate da amenzi, nu doar Poliția",
+          "text": "Art. 13¹ alin. (2): pe lângă Poliție, poate constata și amenda și ANSPDCP, autoritatea pentru protecția datelor personale. Inițial amenda o dădea doar Poliția, care nu controlează procedurile administrative.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. I pct. 2 (art. 13¹ alin. (2) OUG 41/2016)",
+          "before": "Constatarea contravențiilor și aplicarea sancțiunilor se fac de către ofițerii și agenții de poliție din cadrul Poliției Române.",
+          "after": "Constatarea contravențiilor și aplicarea sancțiunilor se fac de către ofițerii și agenții de poliție din cadrul Poliției Române, precum și de către personalul împuternicit al Autorității Naționale de Supraveghere a Prelucrării Datelor cu Caracter Personal.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Regulile de acces la registru, prin hotărâre de Guvern",
+          "text": "Art. 11 alin. (8) din OUG 97/2005: condițiile verificării gratuite în RNEP se stabilesc prin hotărâre a Guvernului, nu prin ordin al ministrului de interne.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. II (art. 11 alin. (8) OUG 97/2005)",
+          "before": "verificarea datelor se face în condițiile stabilite prin ordin al ministrului afacerilor interne.",
+          "after": "verificarea datelor se face în condițiile stabilite prin hotărâre a Guvernului.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Nu se spune dacă amenda o plătește instituția (bani publici) sau funcționarul",
+            "major": true,
+            "article": "art. 13¹ OUG 41/2016"
+          },
+          {
+            "text": "Excepția „prin lege se dispune altfel” poate păstra copiile cerute prin HG sau ordine",
+            "major": true,
+            "article": "art. 2 alin. (2) OUG 41/2016"
+          },
+          {
+            "text": "Străinii nu apar în RNEP, dar nici lor nu li se poate cere copia",
+            "major": true,
+            "article": "art. 2 OUG 41/2016"
+          },
+          {
+            "text": "Amenzile pot începe înainte ca ghișeele să aibă reguli de acces la registru",
+            "major": false,
+            "article": "art. III, art. IV"
+          },
+          {
+            "text": "Nu e clar dacă „copia” include scanarea, poza cu telefonul sau pașaportul",
+            "major": false,
+            "article": "art. 2 alin. (2) OUG 41/2016"
+          },
+          {
+            "text": "Legea despre registru spune „pot verifica”, deși OUG 41/2016 obligă la verificare",
+            "major": false,
+            "article": "art. 11 alin. (7) OUG 97/2005"
+          },
+          {
+            "text": "Controlul accesărilor în registru nu e în lege, ci lăsat unei hotărâri de Guvern",
+            "major": false,
+            "article": "art. 11 alin. (8) OUG 97/2005"
+          }
+        ],
+        "good": [
+          {
+            "text": "Instituțiile și furnizorii de servicii publice nu pot cere sau reține copia buletinului",
+            "major": true,
+            "article": "art. 2 alin. (2) OUG 41/2016"
+          },
+          {
+            "text": "Instituțiile verifică identitatea și domiciliul direct în registrul populației",
+            "major": true,
+            "article": "art. 2 alin. (1) OUG 41/2016"
+          },
+          {
+            "text": "Temeiul verificării e obligația legală, nu un acord neclar al persoanei",
+            "major": true,
+            "article": "art. 2 alin. (1) OUG 41/2016"
+          },
+          {
+            "text": "Încălcarea interdicției se amendează cu 3.000–5.000 lei",
+            "major": true,
+            "article": "art. 13¹ alin. (1) OUG 41/2016"
+          },
+          {
+            "text": "Verificarea datelor în RNEP e gratuită pentru instituții și furnizori de servicii publice",
+            "major": true,
+            "article": "art. 11 alin. (7) OUG 97/2005"
+          },
+          {
+            "text": "ANSPDCP, autoritatea pentru protecția datelor, poate constata și amenda abaterile",
+            "major": false,
+            "article": "art. 13¹ alin. (2) OUG 41/2016"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 13,
+        "removed": 15,
+        "same": 0.07
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:51:45.811Z"
+    }
+  ]
+}

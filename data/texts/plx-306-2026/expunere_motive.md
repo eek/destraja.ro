@@ -1,0 +1,367 @@
+# EXPUNERE DE MOTIVE
+
+## Secțiunea 1 Titlul proiectului de act normativ
+
+LEGE
+
+privind sistemul asigurărilor pentru șomaj și stimularea ocupării forței de muncă
+
+## Secțiunea a 2-a
+
+Motivul emitterii actului normativ
+
+## 2.1. Sursa proiectului de act normativ
+
+Inițiativa Ministerului Muncii, Familiei, Tineretului și Solidarității Sociale.
+
+Necesitatea modificării și completării cadrului normativ rezultă atât din angajamentele asumate de România prin Strategia Națională pentru Ocuparea Forței de Muncă 2021–2027, în concordanță cu recomandările specifice de țară formulate de Comisia Europeană, cât și din obiectivele asumate prin Programul de guvernare PSD–PNL–USR–UDMR–Grupul Parlamentar al Minorităților Naționale din Camera Deputaților 2025–2028, referitoare la promovarea ocupării durabile și la consolidarea mecanismelor de incluziune socială.
+
+Strategia Națională pentru Ocuparea Forței de Muncă 2021 – 2027 prevede, între direcțiile sale de acțiune, reducerea disparităților de participare pe piața muncii, creșterea gradului de ocupare a persoanelor vulnerabile și a tinerilor NEET , precum și consolidarea rolului economiei sociale în integrarea acestora. În același sens, recomandările Comisiei Europene subliniază nevoia de modernizare a serviciilor publice de ocupare și de adaptare a măsurilor active la nevoile actuale ale pieței muncii, în special în contextul tranziției verzi și digitale.
+
+Programul de guvernare în vigoare menționează explicit necesitatea revizuirii Legii nr. 76/2002 privind sistemul asigurărilor pentru șomaj și stimularea ocupării forței de muncă, cu modificările și completările ulterioare, în scopul simplificării și flexibilizării măsurilor active, al corelării acestora cu politicile de formare profesională și de incluziune socială, precum și al îmbunătățirii accesului la piața muncii pentru categoriile defavorizate.
+
+De asemenea, dinamica actuală a pieței muncii impune o adaptare constantă a instrumentelor juridice la realitățile economice și sociale emergente. În contextul schimbărilor structurale generate de transformările tehnologice, de tranziția către economia verde și de impactul migrației forței de muncă, devine necesară armonizarea legislației interne cu noile priorități europene privind ocuparea și protecția socială.
+
+De asemenea, prezenta inițiativă a MMFTSS se înscrie într-o abordare sinergică cu Reforma 6 – „Îmbunătățirea legislației privind economia socială”, aferentă Componentei 13 – Reforme Sociale din cadrul Planului Național de Redresare și Reziliență al României, adoptat de Comisia Europeană la 27 septembrie 2021.
+
+Reforma respectivă a fost implementată prin Ordonanța de urgență a Guvernului nr. 33/2022, pentru modificarea și completarea Legii nr. 219/2015 privind economia socială, publicată în Monitorul Oficial al României, Partea I, nr. 323 din 1 aprilie 2022, precum și prin Hotărârea Guvernului nr. 876/2022, pentru modificarea și completarea Normelor metodologice de aplicare a prevederilor Legii nr. 219/2015, aprobate prin Hotărârea Guvernului nr. 585/2016, publicată în Monitorul Oficial al României, Partea I, nr. 712 din 15 iulie 2022.
+
+Astfel, proiectul de act normativ nu alterează rezultatele reformei realizate prin PNRR, ci le completează prin consolidarea măsurilor destinate angajatorilor de inserție care dețin marca socială, în scopul facilitării integrării pe piața muncii a persoanelor din grupurile vulnerabile. Inițiativa asigură coerență și continuitate între mecanismele de sprijin dezvoltate în cadrul economiei sociale și cele ale sistemului de asigurări pentru șomaj și stimularea ocupării, contribuind la crearea unui cadru unitar și integrat de intervenție pentru incluziunea profesională și socială.
+
+## 2.2. Descrierea situației actuale
+
+În prezent, Legea nr. 76/2002, cu modificările și completările ulterioare, prevede măsuri distincte pentru șomeri și angajatori, cu obiective specifice de integrare a persoanelor vulnerabile pe piața muncii, după cum urmează:
+
+## - La nivelul definițiilor și criteriilor de eligibilitate
+
+Conform reglementărilor în vigoare, șomerii de lungă durată sunt persoanele aflate în șomaj mai mult de 12 luni (pentru cei cu vârsta de peste 25 de ani) sau mai mult de 6 luni (pentru tinerii între 16 și 25 de ani).
+
+Totodată, prin Legea nr. 45/2025 pentru modificarea și completarea Legii nr. 76/2002 privind sistemul asigurărilor pentru șomaj și stimularea ocupării forței de muncă, cu modificările și completările ulterioare, au fost aduse modificări și completări, dintre care cele mai importante vizează: (i) introducerea unei noi situații în care se pot regăsi persoanele în căutarea unui loc de muncă care sunt beneficiare ale prevederilor legii, respectiv: „nu au putut ocupa un loc de muncă și sunt victime ale violenței domestice protejate prin ordin de protecție emis potrivit dispozițiilor Legii nr. 217/2003 pentru prevenirea și combaterea violenței domestice, republicată, cu modificările și completările ulterioare, ori ale traficului de persoane, astfel cum sunt definite potrivit Legii nr. 678/2001 privind prevenirea și combaterea traficului de persoane, cu modificările și completările ulterioare”; (ii) modificarea art. 66 astfel încât să beneficieze, în mod gratuit, de serviciile de formare profesională și persoanele în căutarea unui loc de muncă aflate în noua situație introdusă; (iii) modificarea a alin. (1) și (8) ale art. 85 pentru a crea cadrul legal necesar ca angajatorii care încadrează în muncă inclusiv persoane ce nu au putut ocupa un loc de muncă și sunt victime ale violenței domestice, protejate prin ordin de protecție emis potrivit dispozițiilor Legii nr. 217/2003, republicată, cu modificările și completările ulterioare, ori ale traficului de persoane, astfel cum sunt definite potrivit Legii nr. 678/2001, cu modificările și completările ulterioare, să poată beneficia de suma de 2.250 lei, în condițiile reglementate de lege, cu condiția ca persoanele din categoriile enumerate la art. 85 alin. (1) să aibă calitatea de șomeri înregistrați în evidența agențiilor pentru ocuparea forței de muncă județene, respectiv a municipiului București.
+
+Persoanele aflate în căutarea unui loc de muncă, inclusiv cele care nu beneficiază de indemnizație de șomaj, trebuie să se înregistreze la agențiile territoriale pentru ocuparea forței de muncă și să își reînnoiască cererea la intervale de șase luni, pentru a-și păstra eligibilitatea în vederea medierii și consilierii profesionale.
+
+De asemenea, cadrul legislativ actual prevede profilarea persoanelor înregistrate, în vederea stabilirii nivelului de ocupabilitate: ușor, mediu, greu sau foarte greu ocupabil. Persoanele încadrate în categoriile „greu” și „foarte greu ocupabil” pot beneficia, cu acordul angajatorului, de servicii de îndrumare și accompaniament în procesul de integrare socioprofesională, pentru o perioadă de până la trei luni după angajare.
+
+Totuși, între termenii și expresiile a căror semnificație este stabilită de lege nu există o definiție explicită a persoanei care face parte dintr-un grup vulnerabil în sensul Legii nr. 76/2002, cu modificările și completările ulterioare. Lipsa unei astfel de definiții este de natură să genereze neclarități în aplicare și diferențe de tratament între categoriile de persoane protejate prin diverse politici publice, în special în raport cu Legea nr. 219/2015 privind economia socială, care stabilește rolul întreprinderilor sociale de inserție în integrarea persoanelor din grupuri vulnerabile.- cu privire la măsurile pentru stimularea ocupării forței de muncă.
+
+Venitul lunar la care persoanele se pot asigura facultativ în temeiul Legii nr. 76/2002, cu modificările și completările ulterioare, nu poate fi mai mic decât salariul minim brut pe țară garantat în plată și nu poate depăși de cinci ori câștigul salarial mediu brut.
+
+Actualmente de la sprijinul financiar acordat angajatorilor sunt excluși cei care la data solicitării se află în situația de insolvență, în procedură de executare silită, reorganizare judiciară, faliment, dizolvare, lichidare ori administrare specială, care au activitățile suspendate sau restricții asupra acestora.
+
+\- Cu privire la prevederile generale referitoare la creșterea șanselor de ocupare a persoanelor în căutarea unui loc de muncă
+
+Serviciile prevăzute de lege care conduc la creșterea șanselor de ocupare a persoanelor în căutarea unui loc de muncă constau în: informare și consiliere profesională; mediere a muncii; formare profesională; evaluare și certificare a competențelor profesionale dobândite pe alte căi decât cele formale; consultanță și asistență pentru începerea unei activități independente sau pentru inițierea unei afaceri. Aceste servicii sunt implementate de agențiile territoriale pentru ocuparea forței de muncă sau de către furnizori de servicii din sectorul public sau privat acreditați și/sau autorizați în condițiile legii. Șomerii care nu beneficiază de indemnizație trebuie să se înregistreze la agențiile territoriale și să reînnoiască cererea la fiecare șase luni, pentru a rămâne eligibili pentru medierea în vederea angajării. - Referitor la stimulentele pentru angajatori Angajatorii care încadrează persoane din anumite categorii vulnerabile – precum șomerii în vârstă de peste 45 de ani, șomerii de lungă durată, tinerii NEET sau părinții unici susținători ai familiilor monoparentale, persoane care nu au putut ocupa loc de muncă și sunt victime ale violenței domestice protejate prin ordin de protecție emis potrivit dispozițiilor Legii nr. 217/2003 pentru prevenirea și combaterea violenței domestice, republicată, cu modificările și completările ulterioare, ori ale traficului de persoane, astfel cum sunt definite potrivit Legii nr. 678/2001 privind prevenirea și combaterea traficului de persoane, cu modificările și completările ulterioare – beneficiază de o sumă lunară fixă de 2.250 lei pentru fiecare persoană angajată, cu obligația menținerii raporturilor de muncă pentru cel puțin 18 luni. Facilitățile se acordă și în situațiile în care, pe durata stimulentelor, persoanele beneficiare își modifică statutul (de exemplu, nu mai sunt părinți unici sau persoane cu handicap). Angajatorii aflați în insolvență sau cu activitățile suspendate sunt excluși de la aceste facilități. De asemenea, pentru șomerii care, în termen de cinci ani de la angajare, ating condițiile legale pentru pensia anticipată parțială sau pentru pensia la limită de vârstă, angajatorii primesc aceeași sumă de stimulent lunar până la îndeplinirea condițiilor respective.
+
+\- Referitor la finanțarea măsurilor
+
+Regulamentul (UE) nr. 1303/2013 al Parlamentului European și al Consiliului din 17 decembrie 2013 a stabilit dispoziții comune privind Fondul european de dezvoltare regională (FEDR), Fondul social european (FSE), Fondul de coeziune, Fondul european agricol pentru dezvoltare rurală (FEADR) și Fondul european pentru pescuit și afaceri maritime (FEPAM), aplicabile pentru perioada de programare 2014–2020.
+
+Articolul 95 din acest Regulament prevedea aplicarea principiului adiționalității, care asigură că sprijinul din fondurile europene nu înlocuiește cheltuielile publice structurale ale statelor membre.
+
+Având în vedere faptul că perioada de aplicabilitate a Regulamentului (UE) nr. 1303/2013 s-a încheiat, iar politica de coeziune a Uniunii Europene este guvernată de noi regulamente cadru adoptate pentru perioada de programare 2021–2027 (ex: Regulamentul (UE) 2021/1060), este necesară modificarea în mod corespunzător a prevederilor art. 85² din Legea nr. 76/2002, cu modificările și completările ulterioare. Aplicarea principiului adiționalității, prevăzut în cadrul politicii de coeziune a Uniunii Europene, în conformitate cu regulamentele europene aplicabile perioadei de programare în vigoare, este justificată, deoarece asigură coerența legislativă în aplicarea aceluiași regim de finanțare tuturor măsurilor active relevante; permite accesarea fondurilor europene pentru tipuri de sprijin deja eligibile conform regulamentelor europene (FSE+, în perioada 2021–2027); răspunde recomandărilor Comisiei Europene privind utilizarea integrată a fondurilor pentru sprijinirea ocupării, cu respectarea principiului adiționalității; contribuie la utilizarea eficientă a bugetului asigurărilor pentru șomaj, prin atragerea de surse externe.
+
+\- În ceea ce privește măsurile specifice pentru tinerii cu risc de marginalizare socială
+
+Promovarea participării tinerilor cu risc de marginalizare socială pe piața muncii se realizează prin activități de informare, prin promovarea intereselor acestora în rândul angajatorilor, precum și prin servicii de accompaniament social personalizat oferite de Agenția Națională pentru Ocuparea Forței de Muncă prin agențiile teritoriale.
+
+| Acompaniamentul social se desfășoară în baza unui contract de solidaritate, pe o durată de unu până la trei ani, și constă într-un ansamblu de servicii acordate gratuit. Angajatorii care încadrează tineri cu risc de marginalizare socială – denumiți angajatori de inserție – beneficiază de o sumă lunară din bugetul asigurărilor pentru șomaj egală cu salariul de bază al persoanei angajate, dar nu mai mult de patru ori valoarea indicatorului social de referință. |
+| --- |
+| Locul de muncă trebuie să fie vacant și comunicat agenției territoriale. Angajatorii aflați în insolvență sau cu activitățile restricționate nu pot beneficia de aceste stimulente. În cazul în care raportul de muncă încetează înainte de expirarea contractului de solidaritate din motive imputabile angajatorului, sumele primite trebuie restituite integral, cu dobânda de referință a Băncii Naționale a României. |
+| După expirarea contractului de solidaritate, dacă angajatorul menține raportul de muncă, acesta primește lunar o sumă echivalentă cu 50% din indemnizația de șomaj ce ar fi fost datorată persoanei, dacă raportul de muncă s-ar fi încheiat din motive neimputabile acesteia. Tinerii care își încetează raportul de muncă pot fi reîncadrați la un alt angajator de inserție, fie pe perioadă determinată, fie pe perioadă nedeterminată, până la expirarea duratei contractului de solidaritate. |
+| - Cu referire la recuperarea sumelor acordate necuvenit |
+| În actuala formă a Legii nr. 76/2002, cu modificările și completările ulterioare, în situația în care sumele acordate cu titlu de stimulent trebuie recuperate, acestea constituie titluri executorii, iar executarea silită este realizată de Agenția Națională de Administrare Fiscală (ANAF), în baza titlurilor transmise de Agenția Națională pentru Ocuparea Forței de Muncă și de agențiile territoriale care nu dispun de organe proprii de executare silită. |
+| Deși procedura este prevăzută de lege, aplicarea sa presupune o colaborare administrativă complexă, cu dificultăți privind termenul de transmitere a titlurilor, urmărirea sumelor și raportarea execuției financiare. |
+| - Neconcordanțe și limite ale actualului cadru |
+| Deși Legea nr. 76/2002, cu modificările și completările ulterioare, oferă un set important de instrumente de sprijin, aceasta conține necorelări și limitări semnificative |
+
+În raport cu cadrul legal actual cu impact asupra domeniului ocupării forței de muncă și cu noile realități socio-economice:- absența unei corelări directe între Legea nr. 76/2002, cu modificările și completările ulterioare și Legea nr. 219/2015 privind economia socială, cu modificările și completările ulterioare, deși ambele vizează integrarea persoanelor vulnerabile;- existența unor trimiteri la acte normative abrogate sau depășite, precum Legea nr. 416/2001 privind venitul minim garantat, cu modificările și completările ulterioare, și Legea nr. 188/1999 privind Statutul funcționarilor publici, republicată, cu modificările și completările ulterioare, ceea ce generează neclarități în aplicare;- lipsa unor mecanisme consolidate de monitorizare a eficienței stimulentelor, în special în cazurile de încetare repetată a raporturilor de muncă în perioada subvenționată;- orientarea insuficientă către întreprinderile sociale de inserție, care reprezintă cu predilecție angajatori ai persoanelor vulnerabile, dar nu beneficiază de un regim distinct de stimulare.Analiza aplicării cadrului normativ actual relevă că, deși instrumentele existente au contribuit la sprijinirea anumitor categorii de persoane aflate în căutarea unui loc de muncă, acestea nu mai răspund în mod adecvat complexității și dinamismului actual și noilor tendințe ale pieței muncii. Persistența șomajului structural, creșterea ponderii tinerilor NEET și dificultățile majore de integrare profesională a persoanelor vulnerabile și a șomerilor de lungă durată, precum și deficitul de forță de muncă calificată în anumite sectoare economice evidențiază limitele actualului cadru normativ în asigurarea unor intervenții coerente, eficiente și orientate către rezultate .În lipsa unor ajustări legislative imediate, aceste disfuncționalități sunt susceptibile de amplificare, generând blocaje operaționaleși afectând implementarea coerentă a programelor naționale și europene destinate ocupării forței de muncă, cu impact direct asupra pieței muncii și coeziunii sociale.De asemenea, persistența acestor disfuncționalități are un impact disproporționat asupra anumitor regiuni și comunități vulnerabile, contribuind la accentuarea dezechilibrelor territoriale, la migrația forței de muncă și la reducerea coeziunii sociale, cu efecte negative asupra dezvoltării economice locale și regionale.
+
+Din perspectivă financiară, menținerea actualului cadru normativ limitează corelarea eficientă a măsurilor active de ocupare cu prevederile Legii bugetului d stat, ale Legii bugetului asigurărilor sociale de stat și cu execuția bugetară a bugetului asigurărilor pentru șomaj. Această incoerență limitează capacitatea autorităților de a planifica și utiliza în mod eficient resursele publice alocate și poate conduce la utilizarea ineficientă a fondurilor, cu consecințe negative asupra echilibrului financiar și asupra sustenabilității sistemului de asigurări pentru șomaj.
+
+Totodată, neadaptarea legislației naționale la regulamentele europene aplicabile perioadei de programare 2021–2027 creează un risc semnificativ de neeligibilitate a cheltuielilor, de aplicare a corecțiilor financiare și de pierdere a fondurilor externe nerambursabile destinate sprijinirii ocupării forței de muncă. Aceste riscuri afectează direct implementarea reformelor structurale planificate prin Strategia Națională pentru Ocuparea Forței de Muncă 2021–2027, Programul de guvernare 2025–2028, Planul Național de Redresare și Reziliență al României și documentele programatice europene aferente politicii de coeziune 2021–2027, care impun termene clare de realizare a obiectivelor de ocupare.
+
+Menținerea cadrului normativ actual și neadaptarea legislației poate conduce la nerespectarea angajamentelor asumate de țara noastră pentru 2030 în contextul Planului de acțiune pentru implementarea Pilonului european al drepturilor sociale în domeniul ocupării forței de muncă, respectiv atingerea unei rate de ocupare de 74,7% pentru grupa de vârstă 20-64 ani. De asemenea, România și-a asumat, prin Strategia Națională pentru Ocuparea Forței de Muncă 2021-2027, ca obiectiv general "creșterea ocupării de calitate, în condiții de sustenabilitate, astfel încât, până la sfârșitul anului 2027, rata de ocupare a populației 20-64 ani să fie de 75%". Conform datelor EUROSTAT, în anul 2024, rata de ocupare a populației 20-64 ani în România a fost de 69,8%, sub media UE de 75,3%. În același timp, rata tinerilor NEET (15-29 ani) a fost de 19,4% în România, comparativ cu 11% la nivelul UE, iar rata șomajului tinerilor 15-24 ani a fost de 23,9%, față de 14,7% media europeană. Aceste diferențe indică persistența decalajelor structurale și dificultățile de integrare profesională a tinerilor, în special a celor vulnerabili.Astfel, datele comparative național-european subliniază necesitatea unor măsuri legislative urgente pentru creșterea eficienței intervențiilor publice și reducerea decalajelor structurale.
+
+De asemenea, insuficiența mecanismelor consolidate de monitorizare, evaluare și condiționare a stimulentelor financiare acordate din bugetul asigurărilor pentru șomaj, precum și dificultățile întâmpinate în recuperarea creanțelor bugetare, diminuează eficiența intervențiilor publice și favorizează apariția unor practici administrative neunitare, cu potențial de generare a unor blocaje operaționale care să împiedice atingerea obiectivelor programelor de ocupare.
+
+În aceste condiții, menținerea statu-quo-ului legislativ ar conduce, pe termen scurt și mediu, la accentuarea șomajului de lungă durată, creșterea dependenței de prestații sociale, diminuarea gradului de absorbție a fondurilor europene, afectarea echilibrului bugetar și reducerea capacității de intervenție a statului în domeniul ocupării forței de muncă. Riscurile identificate au un caracter cumulativ și interdependent, astfel încât perpetuarea deficiențelor existente amplifică efectele negative asupra pieței muncii, finanțelor publice și funcționării instituționale, reducând progresiv capacitatea sistemului de a răspunde adecvat nevoilor reale ale beneficiarilor.
+
+Având în vedere caracterul obiectiv, actual și independent de voința Guvernului al acestor disfuncționalități, precum și termenele asumate prin documentele programatice naționale și europene, aceste efecte nu pot fi prevenite prin procedura legislativă parlamentară ordinară. În acest context, intervenția imediată prin ordonanță de urgență se impune pentru asigurarea aplicării unitare și eficiente a măsurilor active de ocupare, pentru consolidarea sustenabilității sistemului asigurărilor pentru șomaj și pentru prevenirea prejudiciilor semnificative asupra interesului public și asupra echilibrului financiar, în conformitate cu jurisprudența Curții Constituționale privind existența situațiilor extraordinare și al caracterului urgent al reglementării.
+
+## 2.3. Schimbări preconizate
+
+Având în vedere realitățile socio-economice curente și nevoia imediată de adaptare a măsurilor active la piața muncii, prezentul proiect se propune a fi adoptat sub formă de ordonanță de urgență. Intervenția legislativă rapidă este necesară pentru: (i) prevenirea dezechilibrelor pe piața muncii, în special pentru tinerii NEET, persoanele vulnerabile și șomerii de lungă durată.”; (ii) corelarea cadrului legislativ național cu reglementările europene privind finanțarea măsurilor active aplicabile perioadei de programare 2021–2027, asigurând eligibilitatea cheltuielilor și prevenind pierderea fondurilor externe nerambursabile destinate sprijinirii ocupării forței de muncă; (iii) asigurarea continuității și eficienței implementării stimulentelor pentru angajatori și pentru persoanele aflate în căutarea unui loc de muncă și prevenirea unor blocaje administrative.; (iv) consolidarea sustenabilității bugetului asigurărilor pentru șomaj.
+
+Legea nr. 76/2002, cu modificările și completările ulterioare, reglementează cadrul juridic al sistemului asigurărilor pentru șomaj și al măsurilor active de ocupare a forței de muncă. De-a lungul anilor, acest act normativ a suferit numeroase modificări pentru a răspunde schimbărilor socio-economice și evoluției pieței muncii. Cu toate acestea, realitățile actuale impun o nouă intervenție legislativă, substanțială și adaptată cerințelor moderne.
+
+În prezent, România se confruntă cu o serie de provocări structurale, printre care se numără rata ridicată a șomajului de lungă durată, în special în rândul tinerilor, persoanelor cu un nivel scăzut de educație, dar și dificultățile de reinserție profesională a persoanelor care au executat pedepse privative de libertate. În același timp, angajatorii reclamă lipsa forței de muncă calificate și dificultăți în atragerea de personal stabil, în special în zonele defavorizate.
+
+Totodată, măsurile active de ocupare implementate până în prezent nu au generat întotdeauna impactul așteptat, fie din cauza lipsei de corelare cu nevoile reale ale pieței, fie din cauza unor constrângeri administrative și financiare.
+
+| În acest context, este necesară modernizarea și diversificarea instrumentelor de intervenție active, introducerea unor noi măsuri de sprijin adaptate categoriilor vulnerabile, precum și consolidarea digitalizării serviciilor publice de ocupare. |
+| --- |
+| Astfel, prezentul proiect de ordonanță de urgență urmărește revizuirea și corelarea Legii nr. 76/2002, cu modificările și completările ulterioare, în vederea adaptării acesteia la realitățile actuale ale pieței muncii și la obiectivele asumate prin Strategia Națională pentru Ocuparea Forței de Muncă 2021–2027 și Programul de Guvernare 2025–2028, precum și în concordanță cu Reforma 6 – „Îmbunătățirea legislației privind economia socială”, aferentă Componentei 13 – Reforme Sociale din Planul Național de Redresare și Reziliență al României (PNRR). |
+| De asemenea, modificările propuse nu alterează reformele deja realizate în domeniul economiei sociale prin Ordonanța de urgență a Guvernului nr. 33/2022 și Hotărârea Guvernului nr. 876/2022, ci sunt menite să completeze și să consolidateze impactul acestora, prin extinderea instrumentelor de sprijin pentru angajatorii de inserție și prin clarificarea regimului aplicabil persoanelor din grupurile vulnerabile. |
+| Redăm în cele ce urmează principalele modificări și completări, prin care se urmărește creșterea gradului de ocupare, consolidarea sustenabilității bugetului asigurărilor pentru șomaj, extinderea măsurilor de sprijin pentru persoanele aflate în situații de vulnerabilitate și stimularea angajatorilor de inserție din economia socială, după cum urmează: |
+| 1. Corelări terminologice și de definire |
+| Se modifică definiția „șomerului de lungă durată” pentru a o corela cu prevederile art. 5 pct. IV^4 din Legea nr. 76/2002, cu modificările și completările ulterioare, care stabilesc că tânărul NEET este persoana cu vârsta între 16 și 30 de ani. Prin această ajustare se asigură coerența legislativă și o mai bună corelare între măsurile active de ocupare și categoriile de beneficiari cărora li se adresează. |
+| De asemenea, se clarifică situația în care se regăsesc persoanele care nu au putut ocupa loc de muncă și sunt victime ale violenței domestice, respectiv să se afle în perioada valabilității măsurilor dispuse prin ordin de protecție emis potrivit Legii nr. |
+
+217/2003, republicată, cu modificările și completările ulterioare, precum și pe o perioadă de 12 luni de la data expirării acestora. Totodată, se introduce o clarificare privind „persoana care face parte dintr-un grup vulnerabil”, având în vedere lipsa unei definiții explicite în Legea nr. 76/2002, cu modificările și completările ulterioare, și necesitatea corelării cu Legea nr. 219/2015 privind economia socială, cu modificările și completările ulterioare, care definește conceptul de vulnerabilitate în raport cu incluziunea profesională și socială. Modificarea plafonului venitului lunar asigurat prin raportare la salariul minim brut pe țară garantat în plată, în locul câștigului salarial mediu brut utilizat în prezent, urmărește să stabilească o limită clară, stabilă și ușor de aplicat în cadrul contractului de asigurare pentru șomaj. Menținerea câștigului salarial mediu ca referință pentru plafonul venitului lunar asigurat prezintă inconveniente semnificative, deoarece acest indicator poate varia frecvent în funcție de datele statistice și revizuirile periodice, ceea ce creează incertitudine în determinarea drepturilor persoanelor asigurate. Această variabilitate poate genera confuzie și lipsa unei predictibilități în ceea ce privește venitul pentru care se calculează contribuțiile și, implicit, indemnizația de șomaj. În schimb, raportarea plafonului venitului lunar la salariul minim brut oferă un reper clar și constant, actualizat periodic prin hotărâre de Guvern, asigurând transparență și stabilitate în aplicarea contractului de asigurare pentru șomaj. Această modificare contribuie astfel la protecția bugetară și la securitatea drepturilor persoanelor asigurate, eliminând riscurile generate de fluctuațiile câștigului salarial mediu și facilitând aplicarea uniformă și previzibilă a prevederilor legale. 2. Recuperarea sumelor și reîntregirea bugetului asigurărilor pentru șomaj Se reglementează posibilitatea reîntregirii bugetului asigurărilor pentru șomaj cu sumele recuperate de Agenția Națională de Administrare Fiscală, în baza titlurilor executorii transmise de Agenția Națională pentru Ocuparea Forței de Muncă și unitățile sale territoriale care nu dețin organe proprii de executare silită. Această derogare punctuală de la Codul de procedură fiscală are scopul de a permite o recuperare mai rapidă și eficientă a sumelor datorate, fără a crea un regim paralel de executare silită, fiind aplicabilă exclusiv bugetului asigurărilor pentru șomaj. În același sens, se prevede ca, în situația restituirii voluntare și în termen legal a sumelor încasate necuvenit, să nu se aplice accesorii fiscale, pentru a stimula conformarea voluntară și a reduce costurile administrative. După expirarea termenului, accesoriiile devin datorate, menținându-se astfel disciplina financiară. 3. Furnizarea online a serviciilor de ocupare Se instituie posibilitatea furnizării online, de către agențiile pentru ocuparea forței de muncă, a serviciilor specializate de mediere, consiliere și formare profesională. Această modificare are ca scop creșterea accesibilității și eficienței serviciilor publice de ocupare, adaptarea lor la cerințele tehnologice actuale și asigurarea continuității sprijinului pentru persoanele aflate în căutarea unui loc de muncă, inclusiv pentru cele din zone defavorizate. 4. Simplificarea procedurii de evidență a șomerilor Se elimină obligația reînnoirii cererii de evidență la fiecare 6 luni. Măsura simplifică procedura administrativă, reduce sarcina birocratică asupra persoanelor aflate în căutarea unui loc de muncă și permite accesul neîntrerupt la serviciile de mediere și formare profesională oferite de agențiile territoriale ale ANOFM. 5. Extinderea categoriilor de beneficiari ai măsurilor active de ocupare Pragul de vârstă pentru șomerii vârstnici se majorează de la 45 la 50 de ani, pentru alinierea la politicile europene și recomandările Organizației pentru Cooperare și Dezvoltare Economică (OCDE) privind îmbătrânirea activă și prelungirea vieții profesionale. De asemenea, se introduc două noi categorii de persoane pentru care angajatorii pot beneficia de subvenționarea locurilor de muncă: i. mame cu cel puțin 3 copii în întreținere, până la împlinirea vârstei de 18 ani; ii. persoanele care au executat o pedeapsă privativă de libertate, o măsură educativă sau alte măsuri neprivative de libertate dispuse de organele judiciare, în vederea susținerii reintegrării lor sociale.
+
+Astfel, s-a realizat extinderea categoriilor de persoane de la art. 85 prin includerea expresă a persoanelor care au executat o pedeapsă privativă de libertate, care au fost condamnate la executarea unei pedepse, a unei măsuri educative sau a altor măsuri neprivative de libertate dispuse de organele judiciare, în conformitate cu art. 53 lit. d) din Legea nr. 76/2002. Această modificare urmărește: (i) corelarea legislativă, asigurând coerența între măsura stimulentului și obiectivele prevăzute la art. 53 lit. d) și eliminând ambiguitățile interpretative privind dreptul de a beneficia de stimulent; (ii) integrarea socio-profesională, facilitând reinserția pe piața muncii a persoanelor care au fost supuse unor măsuri judiciare, contribuind la reducerea riscului de recidivă și promovând incluziunea socială; (iii) alinierea la politici publice și recomandări europene și coerența cu obiectivele Strategiei Naționale pentru Ocuparea Forței de Muncă 2021 – 2027. De asemenea, extinderea ariei de aplicare a măsurilor active de ocupare este în concordanță cu Strategia Națională privind prevenirea recidivei 2025–2029 și cu principiile egalității de șanse și nediscriminării.
+
+În ceea ce privește regimul de menținere a facilităților prevăzut prin excepție pentru părinții unici susținători, persoanele cu handicap și beneficiarii măsurilor de protecție prin ordin de protecție este justificat prin necesitatea de a proteja angajatorii care încadrează aceste categorii vulnerabile, chiar dacă acestea își pierd statutul în timpul perioadei de stimulare sau de menținere a raporturilor de muncă.
+
+În cazul mamelor cu cel puțin 3 copii în întreținere, regimul facilităților angajatorilor în cazul pierderii calității de mamă cu 3 copii sub 18 ani este clarificat și este menit să sprijine integrarea și menținerea în muncă a angajaților în situații de vulnerabilitate accentuată și iminentă, fără a crea o protecție excepțională pentru situații care nu prezintă același grad de risc imediat asupra menținerii raporturilor de muncă. Această diferențiere asigură coerență și predictibilitate juridică, evitând extinderea nejustificată a facilităților.
+
+6\. Clarificări necesare pentru acordarea primelor de mobilitate
+
+În ceea ce privește situațiile în care persoanele nu pot beneficia de primele de mobilitate, pentru un plus de claritate este introdus termenul „limitrof”, care este utilizat constant și consacrat în legislația românească (ex. urbanism, transport, administrație publică). Sensul este mai precis, respectiv localități care au limită administrativ-teritorială comună, ceea ce permite o aplicare predictibilă și verificabilă prin documente oficiale (hărți administrative, HG-uri privind delimitarea UAT).
+
+7\. Introducerea unei prime de stabilitate pentru tinerii NEET
+
+Se instituie o primă de stabilitate destinată tinerilor NEET care accesează primul loc de muncă pe durată nedeterminată, în cuantum total de 27.000 lei, acordată în două tranșe: 1.000 lei lunar în primele 12 luni și 1.250 lei lunar în următoarele 12 luni.
+
+Prima este neimpozabilă, nu se datorează contribuții sociale obligatorii, în sensul Legii nr. 227/2015 privind Codul fiscal, cu modificările și completările ulterioare, și se acordă proporțional cu menținerea raportului de muncă, constituind astfel un stimulent direct pentru integrarea și fidelizarea tinerilor pe piața muncii.
+
+Prima de stabilitate este concepută ca un instrument de stimulare a angajării durabile a tinerilor NEET în mediul concurențial privat, caracterizat printr-un grad mai ridicat de volatilitate și risc ocupațional. În acest context, acordarea sprijinului financiar este orientată prioritar către angajatorii care nu beneficiază, în mod structural, de finanțare publică pentru desfășurarea activității și pentru plata cheltuielilor de personal.
+
+Astfel, sunt exceptate de la acordarea primei de stabilitate entitățile finanțate integral sau majoritar din fonduri publice și care funcționează în cadrul sistemului bugetar consolidat. Acordarea unui sprijin suplimentar pentru angajările realizate de aceste structuri ar conduce la o suprapunere nejustificată a surselor de finanțare publică și la utilizarea ineficientă a resurselor bugetare.
+
+Totodată, reglementarea contribuie la menținerea unui cadru concurențial echitabil între sectorul public și cel privat, evitând acordarea unor avantaje competitive nejustificate entităților finanțate din bugetul public.
+
+Măsura contribuie la reducerea fluctuației timpurii a personalului tânăr, la creșterea stabilității locurilor de muncă și la dobândirea experienței profesionale, în acord cu Recomandarea Consiliului UE privind Garanția pentru Tineret consolidată (2021).
+
+8\. Asigurarea finanțării măsurilor prevăzute la art. 57 alin. (1) lit. e) și f) și art. 77 lit. a) din Legea nr. 76/2002, cu modificările și completările ulterioare
+
+Având în vedere că politica de coeziune a Uniunii Europene este guvernată de noi regulamente cadru adoptate pentru perioada de programare 2021–2027 (ex: Regulamentul (UE) 2021/1060), este necesară modificarea în mod corespunzător a prevederilor art.85² din Legea nr. 76/2002, cu modificările și completările ulterioare, prin extinderea regimului de finanțare mixtă, aplicabil în prezent numai măsurilor prevăzute la art. 73², 74, 75, 80 și 85 din actul normativ menționat, asupra tuturor măsurilor reglementate de art. 57 alin. (1) lit. e) și f), precum și art. 77 lit. a) din lege. Aceste măsuri vizează creșterea șanselor de ocupare a persoanelor în căutarea unui loc de muncă realizate de către ANOFM prin completarea veniturilor salariale ale angajaților și prin stimularea mobilității forței de muncă, precum și stimularea angajatorilor pentru încadrarea în muncă a șomerilor prin subvenționarea locurilor de muncă.
+
+9\. Extinderea sprijinului către persoanele care fac parte dintr-un grup vulnerabil
+
+Se includ în mod explicit persoanele care fac parte dintr-un grup vulnerabil, astfel cum sunt definite la art. 5 pct. IV^5 din Legea nr. 76/2002 cu modificările și completările ulterioare și la art. 6 alin. (1) lit. g) din Legea nr. 219/2015 privind economia socială, cu modificările și completările ulterioare,.
+
+Această extindere asigură o intervenție mai amplă și echitabilă în promovarea participării pe piața muncii pentru persoanele care se confruntă cu bariere sociale, economice sau educaționale.
+
+Măsura permite aplicarea integrată a sprijinului pentru tineri cu risc de marginalizare și pentru alte grupuri vulnerabile, reducând inegalitățile și sporind incluziunea socio-profesională.
+
+10\. Stimularea angajatorilor din economia socială
+
+Se extinde măsura prevăzută la art. 93^4 pentru a include și angajatorii care au statutul de întreprinderi sociale de inserție, definite potrivit Legii nr. 219/2015, cu modificările și completările ulterioare.
+
+| Aceștia pot beneficia de sprijin financiar pentru încadrarea persoanelor din grupuri vulnerabile care beneficiază de accompaniament social personalizat, în baza unui contract de solidaritate.Măsura este sinergică cu reforma 6 „Îmbunătățirea legislației privind economia socială”, aferentă Componentei 13 – Reforme Sociale din Planul Național de Redresare și Reziliență, consolidând sprijinul pentru integrarea sustenabilă a persoanelor vulnerabile și pentru dezvoltarea economiei sociale.11. Condiționarea reîncadrării succesiveSe introduce o condiționalitate potrivit căreia persoanele care au beneficiat de măsuri de stimulare a ocupării și ale căror raporturi de muncă au încetat prin demisie nu pot accesa din nou astfel de măsuri mai devreme de 24 luni.Această reglementare are rolul de a preveni abuzul, de a responsabiliza beneficiarii și de a asigura utilizarea eficientă a fondurilor publice. Prin stabilirea unei perioade minime între participările successive la măsuri de stimulare a ocupării forței de muncă, se reduce fenomenul de „rotație artificială” și se promovează angajarea durabilă, în concordanță cu bunele practici europene.12. Dispoziții de corelare legislativă, tranzitorii și finaleSe actualizează trimiterile legislative prin eliminarea referințelor la Legea nr. 188/1999 privind Statutul funcționarilor publici, republicată, cu modificările și completările ulterioare, și la Legea nr. 416/2001 privind venitul minim garantat, cu modificările și completările ulterioare, acte normative abrogate, pentru asigurarea coerenței și actualității cadrului legal.De asemenea, se introduc dispoziții tranzitorii pentru aplicarea unitară a noilor prevederi și corelarea cu actele subsecvente. |
+| --- |
+| 2.4. Alte informații\*)Nu este cazul. |
+| Secțiunea a 3-aImpactul socioeconomic |
+
+3.1. Descrierea generală a beneficiilor și costurilor estimate ca urmare a intrării în vigoare a actului normativ
+
+Pachetul de măsuri propus va avea un impact pozitiv atât în plan social, cât și economic. Prin măsurile propuse, proiectul de ordonanță de urgență contribuie la atingerea obiectivelor prevăzute în Programul de Guvernare 2025-2028 pentru domeniul “Ocupare” și este în deplină concordanță cu recomandările Comisiei Europene privind combaterea inactivității și promovarea ocupării durabile.
+
+Implementarea modificărilor propuse prin proiectul de act normativ generează beneficii semnificative la nivel social și economic, atât pentru persoanele aparținând grupurilor vulnerabile, cât și pentru angajatorii care se implică activ în integrarea acestora pe piața muncii.
+
+Prin extinderea sferei de aplicare a măsurilor de stimulare a ocupării forței de muncă, prevăzute de Legea nr. 76/2002, cu modificările și completările ulterioare, și includerea întreprinderilor sociale de inserție care dețin marca socială, se creează un mecanism mai echilibrat și mai sustenabil de sprijin, care asigură accesul unui număr mai mare de persoane aflate în risc de marginalizare la opportunități de angajare și formare profesională.
+
+Introducerea „primei de stabilitate” va contribui semnificativ la reducerea șomajului în rândul tinerilor NEET, categorie care, potrivit datelor Eurostat, înregistra o rată a șomajului pentru grupa de vârstă 15-29 ani de 18,5% în trimestrul II al anului 2025.
+
+De asemenea, lărgirea sprijinului pentru angajarea persoanelor vulnerabile - inclusiv a mame cu cel puțin 3 copii în întreținere, până la împlinirea vârstei de 18 ani sau a persoanelor care au executat o pedeapsă privativă de libertate, o măsură educativă sau alte măsuri neprivative de libertate dispuse de organele judiciare va susține incluziunea socială activă și va reduce riscul de sărăcie.
+
+Costurile estimate pentru implementarea acestor măsuri se vor reflecta în principal în alocări bugetare din bugetul asigurărilor pentru șomaj, proporționale cu extinderea categoriilor de beneficiari și cu durata contractelor de solidaritate. Aceste costuri sunt, însă, compensate pe termen mediu și lung prin reducerea cheltuielilor cu prestațiile sociale pasive, creșterea veniturilor la bugetul de stat și consolidarea ocupării durabile.
+
+În același timp, digitalizarea serviciilor publice de ocupare și eficientizarea administrativă vor conduce la o relație mai accesibilă și mai transparentă între cetățeni și administrație.
+
+## 3.2. Impact social
+
+Proiectul de act normativ are un impact social pozitiv semnificativ, contribuind la creșterea gradului de ocupare a forței de muncă în rândul persoanelor aparținând grupurilor vulnerabile, tinerilor NEET, mamelor cu cel puțin 3 copii în întreținere, până la împlinirea vârstei de 18 ani sau a persoanelor care au executat o pedeapsă privativă de libertate, o măsură educativă sau alte măsuri neprivative de libertate dispuse de organele judiciare va susține incluziunea socială activă și va reduce riscul de sărăcie.
+
+Prin stimularea angajatorilor, în special a întreprinderilor sociale de inserție, de a încadra în muncă aceste persoane și de a le asigura măsuri de accompaniament social și profesional, se facilitează integrarea lor durabilă pe piața muncii, reducerea dependenței de prestațiile sociale și creșterea incluziunii sociale.
+
+Implementarea măsurilor prevăzute va genera, pe termen mediu și lung, consolidarea coeziunii sociale și reducerea disparităților territoriale și economice, contribuind la obiectivele naționale privind ocuparea și incluziunea, în concordanță cu principiile Pilonului european al drepturilor sociale.
+
+## 3.3. Impactul asupra drepturilor și libertăților fundamentale ale omului
+
+Proiectul de act normativ respectă pe deplin principiile constituționale și tratatele internaționale privind drepturile fundamentale ale omului, asigurând egalitate de șanse și nediscriminare în accesul la ocuparea forței de muncă.
+
+Prin extinderea măsurilor de stimulare a angajatorilor pentru încadrarea persoanelor din grupuri vulnerabile, se urmărește concretizarea dreptului la muncă și la protecție socială, conform articolului 41 din Constituția României, precum și conform documentelor strategice europene privind incluziunea socială și combaterea sărăciei.
+
+Măsurile prevăzute nu impun restricții nejustificate asupra libertății economice a angajatorilor, ci stabilesc condiții de stimulare voluntară,
+
+Prin contractul de solidaritate și măsurile de accompaniament social, beneficiarii primesc sprijin personalizat, ceea ce contribuie la realizarea efectivă a drepturilor sociale, la dezvoltarea competențelor și la integrarea lor activă pe piața muncii, fără a fi afectate drepturile individuale ale angajatorilor sau ale terților.
+
+Astfel, proiectul consolidează drepturile fundamentale la muncă, la protecție socială și la egalitate de șanse, în paralel cu promovarea incluziunii sociale și protecției grupurilor vulnerabile, fără a genera conflicte cu alte drepturi sau libertăți fundamentale.
+
+## 3.4. Impactul macroeconomic
+
+Proiectul de act normativ produce efecte macroeconomice pozitive, prin extinderea participării pe piața muncii, creșterea numărului de persoane active și reducerea șomajului structural, în special în rândul tinerilor și al persoanelor cu dificultăți de integrare.
+
+Prin stimularea angajării persoanelor aparținând grupurilor vulnerabile, se contribuie la lărgirea bazei de contribuabili la bugetul asigurărilor sociale și la bugetul general consolidat, diminuând presiunea asupra cheltuielilor publice cu asistența socială.
+
+De asemenea, măsurile propuse sprijină dezvoltarea economiei sociale ca sector complementar economiei tradiționale, cu efecte benefice asupra sustenabilității pieței muncii și asupra rezilienței economiei la nivel local și regional.
+
+Actul normativ nu implică costuri bugetare suplimentare semnificative, ci o redistribuire eficientă a resurselor existente, cu potențial multiplicator în economie, generând pe termen lung o utilizare mai eficientă a fondurilor publice destinate ocupării forței de muncă.
+
+## 3.4.1. Impactul asupra economiei și asupra principalilor indicatori macroeconomici
+
+Proiectul de act normativ nu se referă la acest subiect.
+
+3.4.2. Impactul asupra mediului concurentițial și domeniul ajutoarelor de stat
+
+<table>
+<tbody>
+<tr><td>Proiectul de act normativ introduce măsuri de stimulare a angajatorilor pentru încadrarea persoanelor din grupuri vulnerabile, mamelor cu cel puțin 3 copii în întreținere, până la împlinirea vârstei de 18 ani sau a persoanelor care au executat o pedeapsă privativă de libertate, o măsură educativă sau alte măsuri neprivative de libertate dispuse de organele judiciare va susține incluziunea socială activă și va reduce riscul de sărăcie, fără a crea distorsiuni semnificative în concurența pe piața muncii.Măsurile sunt voluntare și se acordă pe baza unui cadru transparent, cu criterii clar stabilite privind eligibilitatea angajatorilor și a persoanelor beneficiare, fiind compatibile cu reglementările UE privind ajutoarele de stat pentru ocuparea forței de muncă și integrarea socială.Procedurile transparente și monitorizarea prin agențiile teritoriale pentru ocuparea forței de muncă contribuie la evitarea utilizării necorespunzătoare a fondurilor publice și la menținerea unui mediu concurențial echilibrat.</td></tr>
+<tr><td>3.5. Impactul asupra mediului de afaceriProiectul de act normativ nu instituie sarcini administrative, obligații suplimentare sau costuri pentru întreprinderile mici și mijlocii, ci, dimpotrivă, facilitează accesul acestora la măsuri de sprijin financiar și stimulează ocuparea persoanelor aparținând categoriilor nou introduse.Prin urmare, actul normativ propus are un impact pozitiv asupra mediului de afaceri, în sensul încurajării responsabilității sociale a întreprinderilor, precum și al consolidării ecosistemului economiei sociale, fără a genera costuri suplimentare sau obligații noi de conformare.Având în vedere că proiectul de act normativ nu creează efecte economice negative asupra întreprinderilor mici și mijlocii, nu se impune parcurgerea procedurii de Test IMM, conform prevederilor Legii nr. 346/2004 privind stimularea înființării și dezvoltării întreprinderilor mici și mijlocii, cu modificările și completările ulterioare, și ale Hotărârii Guvernului nr. 189/2025 privind organizarea și funcționarea Ministerului Economiei, Digitalizării, Antreprenoriatului și Turismului.</td></tr>
+<tr><td>3.6 Impactul asupra mediului înconjurător</td></tr>
+<tr><td colspan="7">Proiectul de act normativ nu se referă la acest subiect.</td></tr>
+<tr><td colspan="7">3.7. Evaluarea costurilor și beneficiilor din perspectiva inovării și digitalizării Proiectul de act normativ nu se referă la acest subiect.</td></tr>
+<tr><td colspan="7">3.8. Evaluarea costurilor și beneficiilor din perspectiva dezvoltării durable Proiectul de act normativ nu se referă la acest subiect.</td></tr>
+<tr><td colspan="7">3.9. Alte informații Nu este cazul.</td></tr>
+<tr><td colspan="7">Secțiunea a 4-a Impactul financiar asupra bugetului general consolidat, atât pe termen scurt, pentru anul curent, cât și pe termen lung (pe 5 ani)</td></tr>
+<tr><td colspan="7">- în mii lei (RON) -</td></tr>
+<tr><td>Indicatori</td><td>Anul curent</td><td colspan="4">Următorii patru ani</td><td>Media pe cinci ani</td></tr>
+<tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr>
+<tr><td rowspan="5">1. Modificări ale veniturilor bugetare, plus/minus, din care: a) buget de stat, din acesta: i. impozit pe profit ii. impozit pe venit iii. CASS b) bugete locale i. impozit pe profit c) bugetul asigurărilor sociale de stat: i. contribuții de asigurări</td><td>+332.237</td><td>+957.653</td><td>+1.277.035</td><td>+1.325.486</td><td>+1.372.454</td><td>+1.052.973</td></tr>
+<tr><td>+143.136</td><td>+412.581</td><td>+550.179</td><td>+571.053</td><td>+591.288</td><td>+453.647</td></tr>
+<tr><td>+67.536</td><td>+194.668</td><td>+259.591</td><td>+269.440</td><td>+278.988</td><td>+214.045</td></tr>
+<tr><td>+75.600</td><td>+217.913</td><td>+290.588</td><td>+301.613</td><td>+312.300</td><td>+239.602</td></tr>
+<tr><td>+189.101</td><td>+545.072</td><td>+726.856</td><td>+754.433</td><td>+781.166</td><td>+599.326</td></tr>
+<tr><td>2. Modificări ale cheltuielilor bugetare, plus/minus, din care:</td><td>-72.520</td><td>+398.195</td><td>+647.584</td><td>+685.024</td><td>+720.440</td><td>+475.745</td></tr>
+</tbody>
+</table>
+
+a) buget de stat, din acesta:
+
+i. cheltuieli de personal
+
+i, bunuri și servicii
+
+iii. asistență socială
+
+b) bugete locale:
+
+i. cheltuieli de personal
+
+îi. bunuri și servicii
+
+c) bugetul asigurărilor sociale de stat:
+
+i. cheltuieli de personal
+
+ii. bunuri și servicii
+
+d) bugetul asigurărilor pentru șomaj:
+
+Î. cheltuieli de personal
+
+îl. bunuri și servicii
+
+i. asistență socială
+
+\-72.520
+
+\-72.520
+
+\+398.193
+
+\+398.195
+
+\+647.584
+
+\+647.584
+
+\+683.024
+
+\+683.024
+
+\+720.440
+
+\+720.440
+
+\+475.745
+
+\+475.745
+
+3\. Impact financiar, plus/minus, din care:
+
+a) buget de stat b) bugete locale c) buget de asigurări sociale de stat
+
+d) bugetul asigurărilor pentru șomaj
+
+\+404.757
+
+\+143.136
+
+\+189.101
+
+\+72.520
+
+\+359.458
+
+\+412.581
+
+\+545.072
+
+\-398.198
+
+\+629.451
+
+\+330.179
+
+\+726.856
+
+\-647.584
+
+\+640.462
+
+\+571.053
+
+\+7354.433
+
+\-683.024
+
+\+6352.014
+
+\+391.288
+
+\+781.166
+
+\+3577.228
+
+\+453.647
+
+\+399.326
+
+<table>
+<tbody>
+<tr><td>4. Propuneri pentru acoperirea creșterii cheltuielilor bugetare</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>5. Propuneri pentru a compensa reducerea veniturilor bugetare</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>6. Calcule detaliate privind fundamentarea modificărilor veniturilor și/sau cheltuielilor bugetare</td><td>Sunt prezentate în fișele atașate.</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>7. Alte informații</td><td colspan="6"></td></tr>
+<tr><td colspan="7">Secțiunea a 5-a Efectele proiectului de act normativ asupra legislației în vigoare</td></tr>
+<tr><td colspan="7">5.1. Măsuri normative necesare pentru aplicarea prevederilor actului normativ: a) acte normative în vigoare ce vor fi modificate sau abrogate, ca urmare a intrării în vigoare a prezentului act normativ: - Hotărârea Guvernului nr. 174/2002 pentru aprobarea Normelor metodologice de aplicare a Legii nr. 76/2002 privind sistemul asigurărilor pentru șomaj și stimularea ocupării forței de muncă, cu modificările și completările ulterioare; - Hotărârea Guvernului nr. 377/2002 pentru aprobarea Procedurilor privind accesul la măsurile pentru stimularea ocupării forței de muncă, modalitățile de finanțare și instrucțiunile de implementare a acestora, cu modificările și completările ulterioare. b) acte normative ce urmează a fi elaborate în vederea implementării noilor dispoziții: Nu este cazul.</td></tr>
+<tr><td colspan="7">5.2. Impactul asupra legislației în domeniul achizițiilor publice Nu este cazul.</td></tr>
+<tr><td colspan="7">5.3. Conformitatea proiectului de act normativ cu legislația UE (în cazul proiectelor ce transpun sau asigură aplicarea unor prevederi de drept UE) 5.3.1. Măsuri normative necesare transpunerii directivelor UE Nu este cazul.</td></tr>
+<tr><td>5.3.2. Măsuri normative necesare aplicării actelor legislative UE Nu este cazul.</td></tr>
+<tr><td>3. Măsuri normative necesare aplicării directe a actelor normative comunitare Nu este cazul</td></tr>
+<tr><td>5. 4. Hotărâri ale Curții de Justiție a Uniunii Europene Nu este cazul</td></tr>
+<tr><td>5.5. Alte acte normative și/sau documente internaționale din care decurg angajamente, făcându-se referire la un anume acord, o anume rezoluție sau recomandare internațională ori la alt document al unei organizații internaționale: Nu este cazul</td></tr>
+<tr><td>5.6. Alte informații Nu este cazul</td></tr>
+<tr><td>Secțiunea a 6-a Consultările efectuate în vederea elaborării proiectului de act normativ</td></tr>
+<tr><td>6.1. Informații privind neaplicarea procedurii de participare la elaborarea actelor normative</td></tr>
+<tr><td>6. 2. Informații privind procesul de consultare cu organizații neguvernamentale, institute de cercetare și alte organisme implicate Nu este cazul.</td></tr>
+<tr><td>6.3. Informații despre consultările organizate cu autoritățile administrației publice locale: administrației publice locale la elaborarea proiectelor de acte normative Nu este cazul.</td></tr>
+<tr><td>6.4. Informații privind puncte de vedere/opinii emise de organisme consultative constituite prin acte normative Nu este cazul.</td></tr>
+<tr><td>5. Informații privind avizarea de către: a) Consiliul Legislativ b) Consiliul Suprem de Apărare a Țării c) Consiliul Economic și Social d) Consiliul Concurenței e) Curtea de Conturi Prezentul proiect a fost avizat de către Consiliul Economic și Social prin avizul nr. 1633/2026. Prezentul proiect a fost avizat de către Consiliul Legislativ prin avizul nr. 181/2026.</td></tr>
+<tr><td>6.6. Alte informații Nu este cazul</td></tr>
+<tr><td>Secțiunea a 7-a Activități de informare publică privind elaborarea și implementarea proiectului de act normativ</td></tr>
+<tr><td>7.1. Informarea societății civile cu privire la necesitatea elaborării proiectului de act normativ Pentru prezentul proiect de act normativ a fost îndeplinită procedura stabilită prin Legea nr. 52/2003 privind transparența decizională în administrația publică, cu modificările și completările ulterioare. Au fost întreprinse demersurile legale prevăzute de art.7 din Regulamentul privind procedurile, la nivelul Guvernului, pentru elaborarea, avizarea și prezentarea proiectelor de documente de politici publice, a proiectelor de acte normative, precum și a altor documente, în vederea adoptării/aprobării, aprobat prin Hotărârea Guvernului nr. 561/2009. Prezentul proiect de act normativ a fost supus comentariilor publicului prin publicarea pe pagina de internet a Ministerului Muncii, Familiei, Tineretului și Solidarității Sociale începând cu data de 07.11.2025. Perioada pentru propuneri și sugestii: 07-16.11.2025.</td></tr>
+<tr><td>7.2. Informarea societății civile cu privire la eventualul impact asupra mediului în urma implementării proiectului de act normativ, precum și efectele asupra sănătății și securității cetățenilor sau diversității biologice Nu este cazul</td></tr>
+<tr><td>Secțiunea a 8-a Măsuri privind implementarea, monitorizarea și evaluarea proiectului de act normativ</td></tr>
+<tr><td>8.1. Măsurile de punere în aplicare a proiectului de act normativ Nu este cazul. 8.2. Alte informații Nu este cazul.</td></tr>
+</tbody>
+</table>
+
+Față de cele prezentate, a fost elaborat proiectul de Lege privind aprobarea Ordonanței de urgență a Guvernului pentru modificarea și completarea Legii nr.76/2002 privind sistemul asigurărilor pentru șomaj și stimularea ocupării forței de muncă, pe care îl supunem Parlamentului spre adoptare.
+
+PRIM-MINISTRU
+
+ILIE-GAVRIL BOLOJAN

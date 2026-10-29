@@ -1,0 +1,229 @@
+{
+  "slug": "plx-228-2026",
+  "billId": "PL-x 228/2026",
+  "updatedAt": "2026-10-29T12:54:52.983Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L620FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Procese penale mai rapide și mai puțină traumă pentru victime, mai ales pentru copii",
+      "summaryTlDr": "Lege în mare parte utilă, susținută de toate partidele: întărește drepturile victimelor (traduceri, audieri înregistrate, protecție după proces) și reduce reluarea inutilă a unor etape. Trebuie corectate trei puncte: citarea prin rețele sociale, păstrarea probelor strânse de organe care nu erau competente și lipsa unei sancțiuni când înregistrarea obligatorie lipsește.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/200/20/8/se235.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "Procese penale mai rapide și victime mai bine protejate",
+      "summaryTlDr": "Este o lege tehnică, susținută de toate partidele, și în cea mai mare parte utilă. Victimele primesc mai multă informare, traducere și protecție, iar abuzurile sexuale asupra minorilor ajung la tribunal. Problemele vizibile țin de redactare și de resurse, nu de capcane ascunse.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Senatul a scos regula care păstra probele strânse de un organ de anchetă „superior” celui competent",
+      "summary": "Senatul a scos păstrarea probelor strânse de un anchetator „superior” și întrebarea despre rețelele sociale. A adăugat anunțarea victimei înainte de eliberarea agresorului. În schimb, victimele și inculpații pot cere mai puține traduceri.",
+      "changes": [
+        {
+          "title": "Dispare regula probelor strânse de un anchetator „superior”",
+          "text": "Inițial, art. 58 și art. 63 mențineau obligatoriu probele unui organ de urmărire penală „superior” celui competent, un termen nedefinit și cu risc la CCR. Acum regula lipsește.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 58 alin. (4), art. 63 alin. (1)",
+          "before": "se mențin probele administrate sau actele efectuate de organul judiciar care își declină competența, dacă acesta era competent la momentul efectuării lor în raport de încadrarea juridică și persoanele cercetate, precum și dacă era organ de urmărire penală superior celui competent.",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Victima e anunțată înainte ca agresorul să fie eliberat",
+          "text": "Nou art. 81¹: victima și familia aflate în pericol sunt anunțate cu cel puțin 5 zile înainte de eliberare sau de ieșirea din internarea medicală. La evadare, poliția le anunță imediat.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 81¹",
+          "before": null,
+          "after": "Dacă data eliberării este cunoscută, informarea victimei infracțiunii și a membrilor de familie ai acesteia se realizează cu cel puțin 5 zile înainte de momentul eliberării",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Mai puține traduceri la cerere pentru victime și inculpați",
+          "text": "La art. 81 lit. g²) și art. 83 lit. f) dispare dreptul de a cere motivat traducerea altor acte esențiale. Inculpatul primește doar motivele privării de libertate, oral în cauzele urgente.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 81 alin. (1) lit. g²), art. 83 lit. f)",
+          "before": "iar, la cererea motivată a inculpatului sau a apărătorului acestuia, și de traducerea altor acte de procedură esențiale, stabilite de organul judiciar",
+          "after": "precum și de traducerea motivelor de privare de libertate a acestuia, în scris sau oral în cauzele urgente, a rechizitoriului și a oricărei hotărâri judecătorești care soluționează fondul cauzei",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Suspectul nu mai e întrebat de rețelele sociale",
+          "text": "La art. 107, suspectul nu mai trebuie să-și dea conturile din rețelele sociale și alte coordonate de mesagerie. Rămân telefonul și adresa poștală sau electronică aleasă pentru citare.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 107 alin. (1)",
+          "before": "precum și orice alte date de contact la care pot fi trimise citațiile prin mijloace ce asigură transmiterea textului, inclusiv conturile din rețelele sociale",
+          "after": "precum și orice alte date de contact la care acestea pot fi trimise prin mijloace ce asigură transmiterea textului",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Avocat din oficiu pentru grupurile mari de victime",
+          "text": "Nou la art. 80: dacă victimele numeroase nu-și aleg reprezentant, procurorul sau instanța le poate numi un avocat din oficiu. Au 3 zile să refuze, iar actele comunicate lui se prezumă cunoscute.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 80 alin. (1), (1¹)",
+          "before": null,
+          "after": "procurorul, judecătorul de cameră preliminară sau, după caz, instanța de judecată poate desemna, prin ordonanță, respectiv prin încheiere motivată, un avocat din oficiu pentru a le reprezenta interesele.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Victima poate fi chemată și când nu e audiată",
+          "text": "La art. 111 alin. (2) lit. e), obligația victimei de a se prezenta nu mai e limitată la audieri. Se aplică ori de câte ori organul judiciar consideră necesară prezența ei.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 111 alin. (2) lit. e)",
+          "before": "e) obligația de a se prezenta la chemările organelor judiciare, atunci când este citată în vederea ascultării sale;",
+          "after": "e) obligația de a se prezenta la chemările organelor judiciare, atunci când este citată în vederea ascultării sale sau în alte cazuri în care organul judiciar consideră că prezența sa este necesară;",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Victimele și inculpații nu pot cere traducerea altor acte esențiale decât cele enumerate",
+            "major": true,
+            "article": "art. 81 alin. (1) lit. g²), art. 83 lit. f)"
+          },
+          {
+            "text": "Avocat din oficiu pentru victime numeroase: doar 3 zile să refuze, actele prezumate cunoscute",
+            "major": true,
+            "article": "art. 80 alin. (1)"
+          },
+          {
+            "text": "Victima trebuie să vină ori de câte ori organul judiciar consideră necesar",
+            "major": true,
+            "article": "art. 111 alin. (2) lit. e)"
+          },
+          {
+            "text": "Arestatul poate cere din nou revocarea măsurii doar cu temeiuri noi",
+            "major": true,
+            "article": "art. 242 alin. (3¹)"
+          },
+          {
+            "text": "Competența depinde de încadrare: violul și agresiunea sexuală asupra minorilor rămân la judecătorie",
+            "major": false,
+            "article": "art. 36 alin. (1) lit. a)"
+          },
+          {
+            "text": "Tribunalele, deja aglomerate și lente, primesc mai multe dosare",
+            "major": false,
+            "article": "art. 36 alin. (1) lit. a)"
+          },
+          {
+            "text": "Nu se spune ce se întâmplă cu declarația dacă înregistrarea lipsește",
+            "major": false,
+            "article": "art. 111 alin. (8), art. 130 alin. (4)"
+          },
+          {
+            "text": "Trimitere greșită la „alin.331¹” în loc de art. 331¹",
+            "major": false,
+            "article": "art. 344 alin. (12)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Victima și familia sunt anunțate cu 5 zile înainte de eliberare; la evadare, imediat",
+            "major": true,
+            "article": "art. 81¹"
+          },
+          {
+            "text": "Audierea minorilor, victimelor vulnerabile și martorilor vulnerabili se înregistrează obligatoriu audio-video",
+            "major": true,
+            "article": "art. 111 alin. (8), art. 130 alin. (4)"
+          },
+          {
+            "text": "Martorii și victimele pot primi protecție și după hotărârea definitivă",
+            "major": true,
+            "article": "art. 128¹"
+          },
+          {
+            "text": "Adresa victimelor vulnerabile poate rămâne confidențială față de inculpat",
+            "major": true,
+            "article": "art. 289¹, art. 328 alin. (2)"
+          },
+          {
+            "text": "Autoritățile sunt anunțate să ocrotească dependenții victimei decedate sau ai arestatului",
+            "major": true,
+            "article": "art. 229 alin. (1), art. 294²"
+          },
+          {
+            "text": "Faptele sexuale cu victime minore de la art. 218¹ și 219¹–222¹ trec la tribunal",
+            "major": false,
+            "article": "art. 36 alin. (1) lit. a)"
+          },
+          {
+            "text": "Actele făcute de o instanță superioară rămân valabile, deci procesul nu se reia",
+            "major": false,
+            "article": "art. 50 alin. (2)"
+          },
+          {
+            "text": "Dosarele se pot reuni sau despărți în camera preliminară, fără blocarea întregii cauze",
+            "major": false,
+            "article": "art. 43 alin. (4), art. 46 alin. (3)"
+          },
+          {
+            "text": "Plângerile pentru infracțiuni contra persoanei pot fi trimise prin e-mail, cu dovadă de înregistrare",
+            "major": false,
+            "article": "art. 289 alin. (5¹), (12)"
+          },
+          {
+            "text": "Camera preliminară durează cel mult 60 de zile, cu termene în zile succesive",
+            "major": false,
+            "article": "art. 343"
+          },
+          {
+            "text": "Procurorul răspunde la cererile de probe în cel mult 30 de zile",
+            "major": false,
+            "article": "art. 306 alin. (4)"
+          },
+          {
+            "text": "Victimele pot avea un traseu separat în instanță, ferite de inculpați",
+            "major": false,
+            "article": "art. 344 alin. (12), art. 361 alin. (9)"
+          }
+        ],
+        "partial": true
+      },
+      "diff": {
+        "added": 204,
+        "removed": 218,
+        "same": 0.12
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:54:52.983Z"
+    }
+  ]
+}

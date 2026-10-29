@@ -1,0 +1,63 @@
+# PARLAMENTUL ROMÂNIEI
+
+# CAMERA DEPUTAȚILOR
+
+|L E G E|
+
+privind aprobarea Ordonanței de urgență a Guvernului nr. 28/2026 pentru modificarea și completarea unor acte normative și luarea unor măsuri în domeniul educației
+
+Camera Deputaților adoptă prezentul proiect de lege.
+
+Articol unic. - Se aprobă Ordonanța de urgență a Guvernului nr. 28/2026 pentru modificarea și completarea unor acte normative și luarea unor măsuri în domeniul educației, publicată în Monitorul Oficial al României, Partea I, nr. 310 din 20 aprilie 2026, cu următoarele modificări și completări:
+
+1\. La articolul I, după punctul 2 se introduce un nou punct, pct. 2¹, cu următorul cuprins:
+
+„2¹. La articolul 139, alineatul (4) se modifică și va avea următorul cuprins:
+
+«(4) Unitățile de învățământ preuniversitar autorizate să funcționeze provizoriu sau acreditate, înființate în cadrul sau în subordinea instituțiilor de învățământ superior de stat, beneficiază de finanțarea pentru cheltuielile prevăzute la alin. (2). Finanțarea se asigură prin transferuri de la bugetul de stat, prin bugetul Ministerului Educației și Cercetării, pe baza costului standard per antepreșcolar/preșcolar/elev, și se cuprinde în contractul complementar încheiat cu instituția de învățământ superior de stat.»”
+
+## 2. Articolul II se modifică și va avea următorul cuprins:
+
+„Art. II. - Legea învățământului superior nr. 199/2023, publicată în Monitorul Oficial al României, Partea I, nr. 614 din 5 iulie 2023, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+## 1. La articolul 11, alineatul (4) se modifică și va avea următorul cuprins:
+
+«(4) Prin derogare de la prevederile art. 66 alin. (2) din Legea nr. 500/2002 privind finanțele publice, cu modificările și completările ulterioare, instituțiile de învățământ superior de stat sunt autorizate, prin prezenta lege, să redistribuie creditele bugetare din soldul la finanțarea de bază, sumele rămase neconsumate și reportate din anii precedenți pentru obiective de investiții noi, sumele rămase necheltuite din investiții finalizate, pentru obiective de investiții noi, pentru obiective de investiții în continuare, precum și alte cheltuieli de natura investițiilor sau pentru alte destinații stabilite de către consiliul de administrației al instituției de învățământ superior. Sumele rămase în sold, pentru facilități de transport pentru studenți, subvenții pentru cămine-cantine și sumele pentru bursele studenților neridicate/nerepartizate pot fi utilizate în anii următori pentru acordarea de burse pentru studenți, precum și alte cheltuieli de natura investițiilor pentru infrastructura de cămine, cantine, pentru susținerea activităților centrelor pentru consiliere și orientare în carieră.»
+
+## 2. La articolul 69 alineatul (8), litera d) se modifică și va avea următorul cuprins:
+
+«d) specialiștii care au calitatea de conducător de doctorat în cadrul unor instituții din străinătate, altele decât cele prevăzute la lit. a)-c), dobândesc calitatea de conducător de doctorat în România prin recunoașterea și emiterea atestatului de recunoaștere a abilitării de către IOSUD, în baza metodologiilor proprii în care pot fi prevăzute și standardele minimale naționale aferente.»
+
+## 3. La articolul 122, alineatul (2) se modifică și va avea următorul cuprins:
+
+«(2) Persoana care are statutul prevăzut la alin. (1), școlarizată în instituții de învățământ superior civil, pentru nevoi ale Ministerului Apărării Naționale, Ministerului Afacerilor Interne sau ale altor instituții cu atribuții în domeniul apărării, informațiilor, ordinii publice și securității naționale, este luată în evidență și într-o instituție de învățământ superior militar, de informații, de ordine publică și de securitate națională ori într-o instituție cu atribuții în domeniul apărării, ordinii publice și securității naționale, după caz, în vederea îndeplinirii serviciului militar activ și acordării drepturilor aferente, în condițiile stabilite prin ordin al conducătorului instituției.»
+
+## 4. La articolul 202, alineatul (6) se modifică și va avea următorul cuprins:
+
+«(6) Prin derogare de la prevederile Legii nr. 153/2017 privind salarizarea personalului plătit din fonduri publice, cu modificările și completările ulterioare, angajarea pentru participarea la proiecte de cercetare în domeniul educației și formării profesionale sau în proiecte naționale/europene/internaționale se poate face pe perioadă determinată, fără parcurgerea altor formalități prealabile și/sau procese de selecție, pentru personalul nominalizat în listele de personal ca membri în echipa proiectului, precum și pentru personalul instituției de învățământ superior. În cazul personalului din instituția de învățământ superior, angajarea în cadrul unui proiect se realizează în baza deciziei rectorului, prin încheierea unui contract individual de muncă, fără afectarea normei de bază a angajatului. Salariul va fi acordat în limita fondurilor disponibile, conform prevederilor din contractul de finanțare/regulilor finanțatorului.»
+
+## 5. După articolul 212 se introduce un nou articol, art. 212¹, cu următorul cuprins:
+
+«Art. 212¹ - (1) Activitățile de cercetare științifică, desfășurate de personalul didactic și de cercetare în baza contractelor de cercetare, finanțate din fonduri publice sau private, vor fi remunerate din bugetul acestor contracte, potrivit prevederilor contractuale și legislației aplicabile.
+
+(2) Remunerarea activităților prevăzute la alin. (1) este compatibilă cu îndeplinirea normei universitare și nu este condiționată de realizarea acestora în afara timpului aferent normei universitare.
+
+(3) Activitățile didactice și activitățile de cercetare desfășurate în cadrul contractelor de cercetare pot fi realizate concomitent, inclusiv în același interval de timp, atunci când natura acestora permite integrarea didactică și științifică, fără ca această suprapunere să afecteze dreptul la remunerarea activităților de cercetare din bugetul contractelor respective.
+
+(4) Remunerarea activităților desfășurate în cadrul contractelor de cercetare nu constituie dublă salarizare, întrucât aceasta corespunde unor obligații distincte asumate prin contracte de cercetare, diferite de obligațiile aferente funcției didactice finanțate din fonduri publice.
+
+(5) Modalitatea de planificare, evidență, evaluare și remunerare a activităților desfășurate în cadrul contractelor de cercetare se stabilește prin regulamentele interne ale instituțiilor de învățământ superior, cu respectarea autonomiei universitare și a prevederilor contractelor de finanțare.»
+
+## 6. La articolul 260, alineatul (18) se modifică și va avea următorul cuprins:
+
+«(18) Prevederile art. 70 alin. (2) intră în vigoare începând cu anul universitar 2030-2031. Până la această dată, senatul universitar decide numărul maxim de studenți-doctoranzi ce pot fi îndrumați simultan de un conducător de doctorat.»”
+
+## 3. La articolul III, alineatul (1¹) al articolului XXII se modifică și va avea următorul cuprins:
+
+„(1¹) Prevederile alin. (1) nu se aplică pentru ocuparea prin concurs sau examen a posturilor didactice de predare, a posturilor pentru personal didactic auxiliar și personal administrativ din învățământul preuniversitar de stat, a posturilor de asistent universitar și nici promovărilor din instituțiile de învățământ superior.”
+
+Acest proiect de lege a fost adoptat de Camera Deputaților în ședința din 13 mai 2026, cu respectarea prevederilor art. 76 alin. (1) din Constituția României, republicată.
+
+p. PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+NATALIA-ELENA INTOTERO

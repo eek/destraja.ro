@@ -1,0 +1,73 @@
+# ROMANIA
+
+# PARLAMENTUL ROMÂNIEI CAMERA DEPUTAȚILOR
+
+# LEGE
+
+pentru modificarea și completarea Ordonanței Guvernului nr. 21/1992 privind protecția consumatorilor și a Ordonanței de urgență a Guvernului nr. 111/2011 privind comunicațiile electronice, în vederea asigurării stabilității și predictibilității prețului contractual
+
+Parlamentul României adoptă prezenta lege.
+
+Art. I. - Ordonanța Guvernului nr. 21/1992 privind protecția consumatorilor, republicată în Monitorul Oficial al României, Partea I, nr. 208 din 28 martie 2007, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. După articolul 10 se introduce un nou articol, art. 10^1, cu următorul cuprins:
+
+„Art. 10^1. - (1) În contractele dintre operatorii economici și consumatori, supuse prezentei ordonanțe, în care operatorul economic solicită executarea obligației de plată în lei, prețul contractual, tariful ori, după caz, componenta fixă a prețului se stabilește și se exprimă în lei cel târziu înainte ca respectivul contract sau oferta corespunzătoare să devină obligatorie pentru consumator. Dacă intervine mai devreme, aceeași obligație trebuie îndeplinită înainte de plata unui avans, a unei taxe de rezervare sau a oricărei sume care nu este integral și necondiționat restituibilă consumatorului.
+
+(2) În cazul în care prețul total depinde de consum, de volumul ori de durata prestației, obligația prevăzută la alin. (1) se aplică tarifului unitar și componentelor fixe ale prețului. Suma totală datorată poate varia în funcție de consumul, volumul ori durata efectivă a prestației, fără ca această variație să constituie modificare a tarifului unitar.
+
+(3) În cazul în care, până la momentul prevăzut la alin. (1), prețul ori tariful a fost prezentat exclusiv în valută și nu a fost stabilită și comunicată consumatorului o valoare în lei, iar plata urmează să fie efectuată în lei, valoarea contractuală în lei se determină o singură dată, utilizând ultimul curs de schimb de referință comunicat de Banca Națională a României și disponibil public anterior acelui moment. Cursul utilizat și valoarea în lei rezultată se înscriu în contract ori în documentul prin care se constată asumarea obligației de către consumator.
+
+(4) În cazul în care prețul ori tariful este prezentat atât în lei, cât și în valută, valoarea în lei comunicată consumatorului înainte de momentul prevăzut la alin. (1) reprezintă prețul contractual ori tariful datorat. Valoarea exprimată în valută are caracter informativ și nu poate constitui, după acel moment, baza recalculării obligației de plată în lei.
+
+(5) Prețul, tariful, componenta fixă ori tariful unitar stabilit în lei potrivit alin. (1)-(4) nu poate fi recalculat, actualizat ori ajustat, direct sau indirect, exclusiv ca urmare a variației cursului de schimb al unei monede străine. Interdicția se aplică indiferent de denumirea mecanismului utilizat, inclusiv atunci când variația valutară este transferată consumatorului prin diferență de curs, curs comercial, curs propriu, curs al unei instituții de credit, medie a unor cursuri, coeficient, componentă de ajustare, taxă, comision, marjă, supliment sau prin orice alt element cu efect economic echivalent.
+
+(6) Este asimilată exprimării în valută, în sensul prezentului articol, utilizarea unei unități de cont, a unui credit comercial, a unui punct sau a unei alte valori convenționale a cărei valoare în lei este determinată direct ori indirect prin raportare la cursul unei monede străine.
+
+(7) Majorarea ulterioară a prețului, tarifului, componentei fixe ori tarifului unitar este permisă numai dacă: a) rezultă dintr-un mecanism de ajustare convenit expres la încheierea contractului, care utilizează un indice oficial, public, independent de voința operatorului economic și verificabil, iar formula de calcul, indicele și periodicitatea ajustării sunt prevăzute clar și inteligibil; b) este acceptată ulterior în mod expres de consumator, într-o modalitate care permite dovedirea consimțământului pe un suport durabil; sau c) rezultă direct din lege ori dintr-un tarif stabilit sau aprobat de o autoritate competentă, în limitele atribuțiilor prevăzute de lege. Cursul de schimb al unei monede străine nu constituie indice de ajustare în sensul lit. a) pentru obligațiile de plată executate în lei.
+
+(8) Tăcerea consumatorului, neexercitarea unui drept de denunțare sau de încetare a contractului, continuarea utilizării bunului ori serviciului sau simpla efectuare a unei plăți nu constituie, prin ele însele, acceptarea expresă a unei majorări de preț în sensul alin. (7) lit. b).
+
+(9) În cazul bunurilor, conținutului digital ori serviciilor distincte achiziționate punctual după încheierea unui contract-cadru, inclusiv al serviciilor cu valoare adăugată ori al microplăților facturate prin intermediul unui furnizor de servicii de comunicații electronice, prețul total sau tariful unitar, după caz, se stabilește și se comunică în lei înainte ca operațiunea să fie inițiată ori autorizată de consumator. Dacă prețul a fost stabilit de furnizorul bunului ori serviciului exclusiv în valută, conversia în lei se realizează o singură dată potrivit alin. (3). Suma în lei comunicată înainte de autorizare este suma datorată pentru operațiunea respectivă și nu poate fi recalculată la data facturării.
+
+(10) Dispozițiile prezentului articol nu împiedică modificarea sumei totale datorate ca urmare a bunurilor ori serviciilor suplimentare solicitate ulterior în mod expres de consumator și nici aplicarea taxelor, impozitelor sau altor sarcini stabilite direct prin lege, în măsura în care acestea sunt distinct evidențiate.
+
+(11) Dispozițiile prezentului articol nu se aplică: a) serviciilor financiare, inclusiv serviciilor bancare, de credit, leasing financiar, asigurare, pensii private, investiții și servicii de plată; b) operațiunilor al căror obiect îl constituie schimbul, cumpărarea sau vânzarea de monedă străină; c) contractelor ori componentelor de preț pentru care un act normativ special sau un act juridic obligatoriu al Uniunii Europene prevede în mod expres un mecanism de stabilire ori de ajustare prin raportare la cursul unei monede străine, numai în limitele și pentru ipotezele reglementate de acel mecanism; d) obligațiilor de plată convenite și executate efectiv în valută, în cazurile în care regimul valutar permite plata în valuta respectivă; e) prețurilor ori tarifelor stabilite sau ajustate direct prin lege ori prin acte ale autorităților competente, emise în limitele atribuțiilor prevăzute de lege. Excluderea serviciilor de plată prevăzută la lit. a) privește serviciul de plată ca atare și nu prețul bunului, conținutului digital ori serviciului achiziționat și achitat prin intermediul acelui serviciu de plată sau prin factura unui furnizor de servicii de comunicații electronice.
+
+(12) Este interzisă stipularea sau aplicarea unei clauze, practici contractuale ori modalități de ofertare sau facturare care, prin denumire, structură ori efect economic, eludează dispozițiile alin. (1)-(11). La aprecierea respectării prezentului articol se are în vedere efectul economic real asupra obligației de plată a consumatorului, iar nu denumirea utilizată de părți.”
+
+2\. La articolul 50 alineatul (1), litera c) se modifică și va avea următorul cuprins:
+
+„c) încălcarea dispozițiilor art. 5, art. 7 lit. b) prima, a 2-a și a 5-a liniuță, lit. c) a 3-a și a 4-a liniuță, art. 9, art. 10 lit. a)-f), h) și i), art. 10^1, art. 11 și 14, cu amendă contravențională de la 2.000 lei la 20.000 lei;”
+
+Art. II. - Ordonanța de urgență a Guvernului nr. 111/2011 privind comunicațiile electronice, publicată în Monitorul Oficial al României, Partea I, nr. 925 din 27 decembrie 2011, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 50 alineatul (5), după prima teză se introduce o nouă teză, cu următorul cuprins:
+
+„Dispozițiile art. 10^1 din Ordonanța Guvernului nr. 21/1992 privind protecția consumatorilor se aplică în mod corespunzător contractelor încheiate cu consumatori reglementate de prezenta secțiune.”
+
+2\. Articolul 50^11 se modifică și va avea următorul cuprins:
+
+„Art. 50^11. - (1) Pentru a asigura o informare adecvată a utilizatorilor finali cu privire la orice numere de telefon sau servicii premium ori alte servicii care fac obiectul unor condiții tarifare speciale, ANCOM poate stabili, prin decizie, obligații generale pentru furnizarea acestora, inclusiv obligația ca informațiile privind tarifele să fie furnizate imediat înaintea conectării apelului sau înaintea conectării la furnizorul serviciului.
+
+(2) În cazul consumatorilor, dacă tariful unui serviciu prevăzut la alin. (1) ori prețul unui bun, al unui conținut digital sau al unui serviciu achiziționat prin intermediul serviciilor de comunicații electronice este încasat în lei prin factura, creditul ori contul administrat de furnizorul de servicii de comunicații electronice, suma totală datorată de consumator se comunică în lei înainte de inițierea ori autorizarea operațiunii. Dacă prețul furnizorului terț este stabilit exclusiv în valută, conversia se realizează o singură dată potrivit art. 10^1 alin. (3) din Ordonanța Guvernului nr. 21/1992. Suma în lei comunicată înainte de autorizare este suma care poate fi facturată pentru operațiunea respectivă, fără o recalculare valutară ulterioară.”
+
+3\. La articolul 59^11, după alineatul (5) se introduce un nou alineat, alin. (5^1), cu următorul cuprins:
+
+„(5^1) Prin derogare de la alin. (5), în cazul utilizatorului final care are calitatea de consumator, o modificare propusă de furnizor care majorează prețul, tariful, componenta fixă, tariful unitar, taxele, comisioanele sau alte costuri suportate de consumator produce efecte numai după exprimarea acordului expres al consumatorului pe un suport durabil, cu excepția ajustărilor permise de art. 10^1 alin. (7) lit. a) și c) din Ordonanța Guvernului nr. 21/1992. Neexercitarea dreptului de denunțare prevăzut la alin. (4), lipsa unui răspuns la notificare, continuarea utilizării serviciului ori simpla achitare a facturii nu constituie acord expres pentru majorarea costurilor.”
+
+4\. La articolul 142, punctul 17^17 se modifică și va avea următorul cuprins:
+
+„17^17. nerespectarea obligațiilor prevăzute la art. 50^11 sau impuse de ANCOM în temeiul acestuia, cu privire la serviciile premium ori la alte servicii care fac obiectul unor condiții tarifare speciale;”
+
+5\. La articolul 142, punctul 24^26 se modifică și va avea următorul cuprins:
+
+„24^26. modificarea unilaterală a contractului de către furnizor cu nerespectarea prevederilor art. 59^11 alin. (2)-(5^1) și (8);”
+
+Art. III. - (1) Dispozițiile art. 10^1 din Ordonanța Guvernului nr. 21/1992, astfel cum a fost introdus prin prezenta lege, se aplică contractelor încheiate după intrarea în vigoare a prezentei legi.
+
+(2) În cazul contractelor aflate în curs la data intrării în vigoare a prezentei legi, dispozițiile art. 10^1 se aplică începând cu: a) data primei prelungiri, reînnoiri sau recontractări intervenite
+
+PREȘEDINTELE SENATULUI
+
+Inițiator, Deputat Robert Alecu

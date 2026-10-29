@@ -1,0 +1,57 @@
+Expunere de motive pentru modificarea și completarea Legii locuinței nr. 114/1996:
+
+## 1. Context și situația actuală
+
+Legea locuinței nr. 114/1996, cu modificările și completările ulterioare, reglementează categoriile de locuințe și condițiile de acces la acestea, având un accent deosebit pe locuințele sociale destinate persoanelor sau familiilor cu venituri reduse. Conform definiției actuale din lege, locuința socială se atribuie cu chirie subvenționată celor a căror situație economică nu le permite achiziționarea sau închirierea unei locuințe în condițiile pieței. Totodată, actul normativ în vigoare stabilește criterii stricte de eligibilitate pentru accesul la o locuință socială – de exemplu, sunt excluse de la repartizarea unei locuințe sociale persoanele care dețin sau au deținut în proprietate o locuință, ori au beneficiat anterior de sprijinul statului pentru realizarea unei locuințe. Aceste dispoziții au rolul de a concentra fondul de locuințe sociale către cei mai vulnerabili, însă, pe de altă parte, nu permit flexibilitate în utilizarea fondului locativ public.
+
+În aplicarea dispozițiilor actuale, autoritățile locale au întâmpinat dificultăți în stabilirea unor criterii suplimentare de prioritizare a solicitanților, întrucât legea nu preciza în mod explicit posibilitatea adoptării unor criterii locale, cu condiția respectării principiilor de transparență și echitate. De asemenea, s-au semnalat neclarități în aplicarea unitară a condițiilor de eligibilitate, în special în ceea ce privește situația persoanelor aflate în căutarea unui loc de muncă. Totodată, s-a constatat necesitatea actualizării cadrului normativ pentru a asigura o mai bună corelare între prevederile legii și obligațiile instituționale privind elaborarea normelor metodologice de aplicare.
+
+## II. Necesitatea intervenției legislative
+
+Prezenta inițiativă legislativă răspunde acestor realități și dificultăți, propunând modificarea și completarea Legii locuinței nr. 114/1996 în sensul introducerii unor noi concepte și mecanisme menite să optimizeze utilizarea fondului locativ public. Necesitatea intervenției legislative rezidă în următoarele aspecte principale:
+
+Clarificarea criteriilor de eligibilitate pentru locuințele sociale: Inițiativă legislativă urmărește, de asemenea, o mai bună definire în lege a criteriilor de atribuire a locuințelor sociale, pentru a elimina interpretările neunitare. În forma propusă, legea va preciza explicit că accesul la locuințele sociale este condiționat atât de plafonul de venit (stabilit la nivelul venitului mediu pe economie, conform art. 42 alin. (1) din legea actuală), cât și de îndeplinirea celorlalte condiții de eligibilitate (cum ar fi cele enumerate la art. 48 privind inexistența unei alte locuințe în proprietate sau a altui sprijin locativ anterior). Această completare va ghida consiliile locale în elaborarea criteriilor proprii și va asigura transparență și echitate în procesul de repartizare, subliniind totodată că orice criterii suplimentare locale trebuie să respecte principiile nediscriminării.
+
+Prin introducerea unui nou alineat (2) la articolul 42, se precizează expres că criteriile de acces la locuințele sociale trebuie să respecte nivelul de venit și condițiile de eligibilitate prevăzute în lege, iar consiliile locale pot stabili criterii suplimentare de prioritizare, cu respectarea principiilor transparenței și nediscriminării. Această completare oferă autorităților locale un cadru legal clar pentru stabilirea criteriilor proprii, adaptate realităților comunității, fără a se îndepărta de spiritul și scopul legii.
+
+Modificarea articolului 48 alin. (1) vizează introducerea unei noi condiții de eligibilitate, potrivit căreia persoanele apte de muncă trebuie să facă dovada solicitării anuale de angajare la agențiile pentru ocuparea forței de muncă sau la alte structuri publice competente. Prin această prevedere se urmărește stimularea inserției socio-profesionale a persoanelor apte de muncă și orientarea sprijinului locativ către cei care manifestă un efort real de integrare pe piața muncii.
+
+Excepțiile instituite pentru pensionari, persoane cu handicap grav sau accentuat și persoane cu boli cronice atestate medical asigură o abordare echitabilă și protectivă față de categoriile vulnerabile.
+
+prin modificarea articolului 68, se actualizează competența și termenul pentru elaborarea normelor metodologice de aplicare a legii, care urmează să fie aprobate de Guvern, prin Ministerul Dezvoltării, Lucrărilor Publice și Administrației, împreună cu Ministerul Finanțelor și ministerele de resort, în termen de 90 de zile de la intrarea în vigoare a legii. Această modificare asigură claritate procedurală și eficiență în aplicarea dispozițiilor legale.
+
+În concluzie, necesitatea intervenției legislative derivă atât din schimbările socio-economice survenite în ultimele decenii, cât și din experiența practică a aplicării Legii locuinței.
+
+## III. Impactul social, economic și juridic al propunerii
+
+Impact social: Modificările propuse vor avea un impact social pozitiv considerabil. În primul rând, persoanele defavorizate care solicită locuințe sociale vor beneficia de criterii de atribuire mai clare și mai corecte, ceea ce va spori transparența și încrederea în procesul de alocare. Clarificarea condițiilor de eligibilitate va preveni eventualele abuzuri sau favorizări nejustificate, asigurând că locuințele sociale ajung la cei care într-adevăr au nevoie și îndeplinesc condițiile legale. Introducerea obligației de înregistrare la agențiile pentru ocuparea forței de muncă va stimula participarea activă pe piața muncii și reducerea dependenței de ajutoarele sociale.
+
+Impact economic: Propunerea nu implică costuri suplimentare pentru bugetul de stat sau bugetele locale. Dimpotrivă, o utilizare mai eficientă și corectă a fondului de locuințe sociale poate genera o administrare mai sustenabilă a resurselor publice
+
+Impact juridic: Propunerea legislativă este în acord cu principiile și normele constituționale și nu contravine reglementărilor europene sau tratatelor internaționale la care România este parte. Dreptul la locuire este consfințit de instrumente internaționale în materie de drepturi economice și sociale, însă modalitatea de implementare rămâne la latitudinea statelor. Din punct de vedere al tehnicii legislative, proiectul respectă normele Legii nr. 24/2000. Astfel, am formulat modificările sub forma unui articol unic, cu precizarea punctuală a textelor ce vor fi modificate sau completate (art. 42 și art. 48 din Legea nr. 114/1996), însoțite de noul conținut normativ propus. În ansamblu, inițiativa legislativă armonizează legislația în vigoare prin completările aduse, fără a genera suprapuneri sau incoerențe cu alte acte normative. Este de așteptat ca, odată adoptate, noile dispoziții să fie integrate facil în practica administrației publice locale, mai ales că unele consilii locale deja au manifestat interes în acest sens și așteaptă instrumentele legale necesare.
+
+Propunerea de modificare și completare a Legii locuinței nr. 114/1996 răspunde necesității de a actualiza și clarifica cadrul juridic privind atribuirea locuințelor sociale. Prin aceste ajustări punctuale, legea devine mai clară, mai echitabilă și mai adaptată nevoilor actuale ale comunităților locale, contribuind la o mai bună aplicare a principiilor transparenței, responsabilității și protecției sociale.
+
+În considerarea celor expuse, se apreciază că prezenta inițiativă legislativă este oportună și necesară și se propune adoptarea sa.
+
+În numele inițiatorilor :
+
+Senator PNL de Botoșani
+
+Ovidiu JITARU /
+
+Deputat PNL Botoșani
+
+Eduard-Tatian MITITELU
+
+Co-inițiatori ai propunerii legislative pentru modificarea și completarea Legii locuinței nr. 114/1996:
+
+| Nume și Prenume Parlamentar | GRUP PARLAMENTAR / funcția deținută - senator sau deputat | Circumscripția electorală | Semnătură |
+| --- | --- | --- | --- |
+| COTEV MIATTI | SENATOR PNC | ARGEJ |  |
+| SILVIU IOLIAN CSA | SENEBOR PNC | CONSTA |  |
+| AJICULEJCU VERA. | SENTOR PHL. | DOCJ |  |
+| MANEA GOU LETH | FENATOR PNL | HJ |  |
+| MIATTI VESTEA | SENATOR PNL |  |  |
+| RUSU LUCIAM | SENATOR PNL | IS |  |
+| DOWEL FEMECPIN | PHL | 4 BO CQU |  |

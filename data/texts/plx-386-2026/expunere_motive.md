@@ -1,0 +1,41 @@
+Expunere de motive
+
+privind completarea Legii nr. 286/2009 privind Codul penal și a Legii nr. 487/2002 a sănătății mintale și a protecției persoanelor cu tulburări psihice
+
+În ultimii ani, societatea românească a fost confruntată cu situații extrem de grave în care minorii au săvârșit fapte penale deosebit de grave, inclusiv infracțiuni care au provocat pierderi ireparabile de vieți omenești. În prezent, legislația penală prevede că minorul nu răspunde penal sub vârsta de 14 ani, ceea ce, în lipsa unor mecanisme juridice adecvate, ridică probleme majore de protecție a societății în cazurile excepționale în care se constată un pericol social grav și actual.
+
+În acest context, cadrul legislativ nu oferă instanțelor și instituțiilor specializate un mecanism clar, coerent și unitar de intervenție în situațiile excepționale în care minorii sub 14 ani săvârșesc fapte deosebit de grave. Lipsa unei reglementări explicite conduce, în practică, la soluții improvizate, la pasarea responsabilității între instituții și la imposibilitatea intervenției timpurii specializate, cu riscuri majore atât pentru minor, cât și pentru societate.
+
+Proiectul de lege urmărește să ofere instanțelor un cadru legal clar și constituțional, care să permită aplicarea unor măsuri de siguranță excepționale, cu caracter preventiv și educativ, minorilor sub 14 ani care au săvârșit infracțiuni deosebit de grave, precum omor, omor calificat, viol sau acte de terorism, atunci când expertiza medico-legală psihiatrică complexă constată existența discernământului funcțional al minorului și pericolul social iminent.
+
+Măsurile prevăzute nu au caracter penal sau de pedeapsă, ci sunt orientate exclusiv către protecția societății și recuperarea minorului. Ele includ, după caz, internarea într-un centru specializat de evaluare și intervenție terapeutică, supravegherea judiciară specializată și programe de consiliere psihologică și psihiatrică, toate aplicate sub control judecătoresc periodic și revizuibile.
+
+Această intervenție legislativă este justificată de:
+
+\- necesitatea protecției interesului superior al copilului, prin măsuri terapeutice și educative adecvate;
+
+\- prevenirea unor riscuri sociale grave și protecția drepturilor fundamentale ale persoanelor din societate;
+
+\- crearea unui cadru clar de responsabilitate a instanțelor și a centrelor de sănătate mintală, cu respectarea principiului excepționalității;
+
+\- alinierea la normele constituționale privind dreptul la viață, integritate fizică și psihică și protecția copilului, precum și la principiile internaționale în materie de drepturile copilului.
+
+Prin modificările propuse, Codul penal este completat cu articolul 113¹, care definește măsurile concrete de siguranță pentru minorii sub 14 ani, iar Legea sănătății mintale este completată cu articolul 56¹, care reglementează aplicarea practică a internării terapeutice și a supravegherii speciale, în conformitate cu prevederile Codului penal. Această corelare între legislația penală și cea privind sănătatea mintală asigură o intervenție juridică coerentă, proporțională, excepțională și respectuoasă față de drepturile fundamentale ale minorului, evitând lacunele actuale ale cadrului legislativ.
+
+Prezenta inițiativă legislativă este pe deplin compatibilă cu prevederile Constituției României, republicată, și cu legislația europeană aplicabilă. În ceea ce privește Constituția, articolul 23 consacră dreptul la viață și integritate fizică, iar măsurile prevăzute de lege sunt preventiv-educative, fără a constitui pedepse, respectând astfel integritatea minorilor. Articolul 28 protejează dreptul la viață privată, iar internarea și supravegherea minorilor se realizează sub control judecătoresc strict și cu revizuire periodică. Articolul 53, referitor la restrângerea exercitării unor drepturi, este respectat prin aplicarea măsurilor în mod excepțional, proporțional și cu scop preventiv-educativ. În plus, articolele 49 și 50, care garantează drepturile copilului și protecția interesului superior al acestuia, sunt respectate prin instituirea unui cadru legal care urmărește recuperarea și protecția minorului.
+
+La nivel european, inițiativa se aliniază Convenției ONU privind drepturile copilului, asigurând protecția minorilor și respectarea interesului lor superior. De asemenea, respectă regulamentele Uniunii Europene privind protecția datelor și drepturile fundamentale, garantând confidențialitatea și protecția datelor minorilor, iar jurisprudența Curții Europene a Drepturilor Omului este respectată prin aplicarea principiului proporționalității și al excepționalității măsurilor preventive.
+
+Principiile juridice fundamentale care guvernează această reglementare includ excepționalitatea și caracterul preventiv fără natură penală, control judecătoresc periodic și revizuire, durată determinată a măsurilor și claritate legală. Totodată, interesul superior al copilului este principiu central, iar cadrul legal propus asigură claritate și predictibilitate, eliminând ambiguitățile existente în prezent în Codul penal.
+
+Inițiativa legislativă este constituțională și compatibilă cu standardele europene, asigurând protecția societății, recuperarea minorului și prevenirea stigmatizării sau tratării punitive a minorilor sub 14 ani, prin mijloace terapeutice și educative. Adoptarea prezentei legi este, așadar, imperativă și necesară pentru a asigura un răspuns instituțional responsabil, profesionist și coerent în fața unor situații excepționale, în care lipsa intervenției adecvate poate conduce la consecințe irreversibile.
+
+Costurile vor fi suportate din bugetele Ministerului Justiției și Ministerului Sănătății, în cadrul cheltuielilor deja alocate pentru sănătate mintală și sistemul de probațiune, fără a necesita suplimentarea semnificativă a bugetului de stat.
+
+Măsurile se aplică strict pentru cazuri excepționale și nu afectează mediul economic sau piața muncii. În același timp, protecția minorilor și prevenirea recidivei contribuie la economii sociale prin reducerea costurilor generate de infracționalitate și prin diminuarea efectelor negative asupra comunității.
+
+Impactul bugetar al măsurilor este limitat și proporțional cu scopul lor, iar aplicarea lor este justificată din punct de vedere social, preventiv și educativ, asigurând protecția minorilor și a societății, fără a crea presiuni financiare nejustificate.
+
+LIROLANICI POTAIOR Deputat Rato Enachi
+
+Circums biotin electorală nr. 39, Vaslui

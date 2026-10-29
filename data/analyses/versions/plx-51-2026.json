@@ -1,0 +1,252 @@
+{
+  "slug": "plx-51-2026",
+  "billId": "PL-x 51/2026",
+  "updatedAt": "2026-10-29T12:30:09.267Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L453FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "DNSC primește dreptul să impună reguli de securitate cibernetică centralelor verzi racordate la rețea",
+      "summaryTlDr": "Scopul e legitim, pentru că invertoarele și centralele verzi controlate de la distanță sunt o vulnerabilitate reală. Legea însă e un cec în alb: un singur articol lasă un ordin al directorului DNSC să stabilească orice reguli, fără criterii, termene, sancțiuni sau coordonare cu ANRE.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/50/1/se37.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "DNSC poate impune prin ordin reguli de securitate cibernetică producătorilor de energie verde",
+      "summaryTlDr": "Scopul e legitim: echipamentele solare și eoliene controlabile de la distanță, inclusiv din afara UE, sunt un risc real pentru rețea. Legea e însă un cec în alb, pentru că un ordin al directorului DNSC poate impune orice cerință, fără să se știe cui se aplică, cu ce costuri și ce rol are ANRE.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 4
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl051_cd051_26_senat.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Avize obligatorii de la DNSC în energie și gaze, cu costuri transferate în tarifele de rețea",
+      "summaryTlDr": "Deși întărește legitim securitatea cibernetică în energie, legea introduce un filtru birocratic de avizare la DNSC pentru toți producătorii și operatorii, fără praguri de mărime, și garantează decontarea acestor investiții în tarifele reglementate plătite de consumatori.",
+      "scores": {
+        "agy": 6,
+        "claude": null,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Text neschimbat, adoptat tacit de Senat: DNSC ar stabili prin ordin reguli cibernetice pentru centrale",
+      "summary": "Senatul nu a votat în termen, așa că proiectul s-a considerat adoptat exact în forma inițiatorului. Riscurile rămân aceleași: DNSC ar stabili singur, prin ordin, reguli cibernetice inclusiv pentru centralele mici, fără niciun rol pentru ANRE.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Tot conținutul regulilor lăsat unui ordin DNSC, fără criterii minime în lege",
+            "major": true,
+            "article": "art. 70¹"
+          },
+          {
+            "text": "ANRE nu are niciun rol: risc de reguli duble, contradictorii, pentru accesul la rețea",
+            "major": true,
+            "article": "art. 70¹"
+          },
+          {
+            "text": "Centralele de cel mult 1 MW incluse fără evaluarea costurilor pentru IMM-uri și prosumatori",
+            "major": true,
+            "article": "art. 70¹"
+          },
+          {
+            "text": "Destinatarii regulilor nu sunt definiți clar în lege",
+            "major": true,
+            "article": "art. 70¹"
+          },
+          {
+            "text": "Neclar dacă regulile se aplică și instalațiilor deja racordate",
+            "major": true,
+            "article": "art. 70¹"
+          },
+          {
+            "text": "Bateriile, agregatorii și centralele fosile rămân în afară, deși au aceleași vulnerabilități",
+            "major": true,
+            "article": "art. 70¹"
+          },
+          {
+            "text": "Legea nu fixează termene de conformare, perioadă de tranziție sau consultarea sectorului",
+            "major": false,
+            "article": "art. 70¹"
+          },
+          {
+            "text": "Marii producători intră deja sub OUG 155/2024; legea lovește în principal instalațiile mici",
+            "major": false,
+            "article": "art. 70¹"
+          }
+        ],
+        "good": [
+          {
+            "text": "Abordează vulnerabilitățile cibernetice ale centralelor regenerabile și de cogenerare racordate la rețea",
+            "major": false,
+            "article": "art. 70¹"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 5,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:21:55.143Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_riscant",
+      "headline": "Costurile de securitate cibernetică ale rețelelor de energie și gaze ajung în facturile consumatorilor",
+      "summary": "Inițial, DNSC stabilea doar reguli pentru accesul la rețea al regenerabilelor, inclusiv centrale mici. Acum regulile acoperă tot sectorul electric și gazele, DNSC avizează strategiile tuturor producătorilor și operatorilor, iar costurile intră în tarifele plătite de consumatori.",
+      "changes": [
+        {
+          "title": "Costurile de securitate cibernetică ajung în facturi",
+          "text": "Art. 6¹ alin. (4) și art. 102³ alin. (4) recunosc în tarifele reglementate cheltuielile operatorilor cu securitatea cibernetică, deci costul ajunge la toți consumatorii.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 6¹ alin. (4), art. 102³ alin. (4)",
+          "before": null,
+          "after": "Cheltuielile aferente investițiilor și măsurilor implementate de operatorii de distribuție și de transport al energiei electrice, pentru securitate cibernetică, efectuate cu respectarea cerințelor legale, sunt recunoscute în tarifele reglementate",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Toți producătorii au nevoie de avizul DNSC",
+          "text": "DNSC avizează și urmărește strategiile de securitate cibernetică ale tuturor producătorilor și operatorilor. Nu există praguri care să scutească micii producători și nici termen pentru aviz.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 6¹ alin. (2), art. 102³ alin. (2)",
+          "before": null,
+          "after": "DNSC avizează și urmărește implementarea strategiilor de securitate cibernetică ale producătorilor, transportatorilor și operatorilor de distribuție a energiei electrice.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Legea se extinde la gaze naturale și hidrogen",
+          "text": "Noul art. 102³ aplică regulile DNSC și sectorului gazelor și hidrogenului. Avizul investițiilor și decontarea în tarife vizează generic toți „operatorii licențiați”.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 102³",
+          "before": null,
+          "after": "DNSC stabilește reguli tehnice de securitate cibernetică în sectorul gazelor naturale și al hidrogenului prin ordin emis de directorul DNSC.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Regulile DNSC acoperă tot sectorul electric, nu doar regenerabilele",
+          "text": "Inițial, art. 70¹ viza accesul la rețea al regenerabilelor, inclusiv centrale de cel mult 1 MW. Acum art. 6¹ acoperă tot sectorul electric, fără legătură explicită cu accesul la rețea.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 6¹ alin. (1)",
+          "before": "pentru accesul prioritar la rețelele electrice și dispecerizarea prioritară a energiei electrice produse din surse regenerabile de energie și în cogenerare de înaltă eficiență în centrale cu puteri instalate mai mici sau egale cu 1 MW",
+          "after": "Directoratul Național de Securitate Cibernetică, denumit în continuare DNSC, stabilește reguli tehnice de securitate cibernetică în sectorul energiei electrice prin ordin emis de directorul DNSC.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Termen de 180 de zile pentru regulile DNSC",
+          "text": "Inițial legea nu fixa niciun termen. Acum art. II obligă DNSC să emită ordinul în 180 de zile, iar ANRE să-și adapteze metodologiile tarifare în alte 180 de zile.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. II",
+          "before": null,
+          "after": "se emite în termen de 180 de zile de la data intrării în vigoare a prezentei legi",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "ANRE primește un rol, dar nu la reguli",
+          "text": "Inițial ANRE nu avea niciun rol. Acum investițiile rețelelor trec prin avizul DNSC înainte de ANRE, care adaptează tarifele. La stabilirea regulilor ANRE tot nu e consultată.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 6¹ alin. (3)",
+          "before": null,
+          "after": "se avizează de către DNSC din punct de vedere tehnic și al conformității cu strategiile de securitate cibernetică prevăzute la alin. (2), înainte de transmiterea acestora către ANRE.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Costurile de securitate cibernetică ale operatorilor trec în tarifele plătite de toți consumatorii",
+            "major": true,
+            "article": "art. 6¹ alin. (4), art. 102³ alin. (4)"
+          },
+          {
+            "text": "DNSC avizează strategiile tuturor producătorilor și operatorilor, fără praguri, inclusiv micii producători",
+            "major": true,
+            "article": "art. 6¹ alin. (2), art. 102³ alin. (2)"
+          },
+          {
+            "text": "Conținutul regulilor e lăsat integral ordinului DNSC, fără limite, consultare sau rol ANRE",
+            "major": true,
+            "article": "art. 6¹ alin. (1), art. 102³ alin. (1)"
+          },
+          {
+            "text": "La gaze, avizul și decontarea în tarife vizează generic toți „operatorii licențiați”",
+            "major": true,
+            "article": "art. 102³ alin. (3)-(4)"
+          },
+          {
+            "text": "Nu există termen pentru emiterea avizului DNSC pe strategii și investiții",
+            "major": false,
+            "article": "art. 6¹ alin. (2)-(3), art. 102³ alin. (2)-(3)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Ordinul DNSC trebuie emis în 180 de zile, iar metodologiile ANRE în alte 180",
+            "major": false,
+            "article": "art. II"
+          },
+          {
+            "text": "Investițiile de securitate ale rețelelor sunt verificate tehnic de DNSC înainte de ANRE",
+            "major": false,
+            "article": "art. 6¹ alin. (3), art. 102³ alin. (3)"
+          },
+          {
+            "text": "Regulile DNSC nu mai sunt legate explicit de accesul la rețea",
+            "major": false,
+            "article": "art. 6¹ alin. (1)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 16,
+        "removed": 4,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:24:01.714Z"
+    }
+  ]
+}

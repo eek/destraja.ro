@@ -1,0 +1,134 @@
+{
+  "slug": "plx-620-2026",
+  "billId": "PL-x 620/2026",
+  "updatedAt": "2026-10-29T13:24:25.126Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L446FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "3 zile de concediu în plus pe an pentru părinții care își cresc singuri copiii",
+      "summaryTlDr": "Măsură socială utilă, cu cost mic pentru angajatori și fără bani noi de la buget. Slăbiciunea ține de redactare: nu spune cum se dovedește statutul de părinte singur. În plus, zilele de concediu programate nu rezolvă urgențele invocate în expunere.",
+      "scores": {
+        "agy": 3,
+        "claude": 2,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/600/20/0/se703.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Trei zile de concediu în plus pentru părinții care își cresc singuri copiii",
+      "summaryTlDr": "Lege benignă și utilă. Adaugă părinții singuri pe lista celor care primesc cel puțin 3 zile de concediu de odihnă suplimentar. Formularea e stângace și lipsește o regulă despre cum se dovedește statutul, dar textul nu are capcane ascunse.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Doar o reformulare: părinții singuri apar acum ca „familie monoparentală”, cu aceleași 3 zile în plus",
+      "summary": "Senatul a păstrat dreptul: salariații părinți singuri primesc minimum 3 zile de concediu suplimentar. S-a schimbat doar termenul: inițial „părinte monoparental”, acum „familie monoparentală”, noțiune definită în lege. Formularea rămâne imprecisă și lipsesc regulile de dovadă.",
+      "changes": [
+        {
+          "title": "Beneficiarii numiți acum „familie monoparentală”, nu „părinte monoparental”",
+          "text": "La art. 147 alin. (1), inițial „părinte monoparental”, termen nedefinit în Legea 292/2011. Acum e folosită noțiunea definită acolo, dar textul tratează greșit salariatul ca pe o familie.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. I",
+          "before": "salariații care au calitatea de părinte monoparental, astfel cum este definit la art. 22, alin (5) și alin.(6) din Legea asistenței sociale nr. 292/2011",
+          "after": "salariații care au calitatea de familie monoparentală, astfel cum este definită la art.22 alin.(5) și (6) din Legea asistenței sociale nr.292/2011",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Costul zilelor suplimentare îl suportă integral angajatorii, inclusiv instituțiile publice",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Textul numește salariatul „familie monoparentală”; o persoană nu este o familie",
+            "major": false,
+            "article": "art. I"
+          },
+          {
+            "text": "Lipsesc regulile de dovadă: angajatorii vor cere acte diferite, cu risc de litigii",
+            "major": false,
+            "article": "art. I"
+          },
+          {
+            "text": "Salariatul nu e obligat să anunțe când nu mai e părinte singur",
+            "major": false,
+            "article": "art. I"
+          },
+          {
+            "text": "Nu se estimează câți salariați beneficiază; ~160.000 sunt gospodării, nu salariați",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Concediul se programează și nu ajută la urgențe familiale neprevăzute",
+            "major": false,
+            "article": "art. I"
+          }
+        ],
+        "good": [
+          {
+            "text": "Salariații părinți singuri primesc cel puțin 3 zile lucrătoare de concediu plătit în plus",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "„Cel puțin 3 zile” permite ca contractul colectiv să acorde mai mult",
+            "major": false,
+            "article": "art. I"
+          },
+          {
+            "text": "Categoriile existente de beneficiari rămân neschimbate",
+            "major": false,
+            "article": "art. I"
+          },
+          {
+            "text": "Trimiterea la Legea 292/2011 leagă dreptul de o definiție legală existentă",
+            "major": false,
+            "article": "art. I"
+          },
+          {
+            "text": "Intră în vigoare la 1 ianuarie al anului următor publicării; angajatorii au timp",
+            "major": false,
+            "article": "art. II"
+          },
+          {
+            "text": "Firmele nu au obligații noi de raportare",
+            "major": false,
+            "article": null
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 6,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:23:40.695Z"
+    }
+  ]
+}

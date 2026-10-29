@@ -1,0 +1,121 @@
+{
+  "slug": "plx-694-2026",
+  "billId": "PL-x 694/2026",
+  "updatedAt": "2026-10-29T13:17:32.209Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L481FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 7,
+      "riskLevel": "red",
+      "plainTitle": "Firmele din același grup nu-și mai pot deduce serviciile între ele, iar dobânzile interne se plafonează",
+      "summaryTlDr": "Ținta e legitimă, pentru că mutarea profitului prin facturi intra-grup chiar există, dar unealta e prea brutală: lit. w) interzice orice deducere a serviciilor intra-grup, chiar dacă sunt reale, la preț de piață sau prestate de o firmă românească. Plafonul de dobândă e vag și ușor de ocolit, așa că proiectul e bine intenționat, dar prost croit.",
+      "scores": {
+        "agy": 8,
+        "claude": 6,
+        "codex": 7
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/600/90/4/se785.pdf",
+      "source": "cdep.ro",
+      "riskScore": 7.3,
+      "riskLevel": "red",
+      "plainTitle": "Consultanța și licențele plătite în grup devin nedeductibile, dobânzile intra-grup se plafonează",
+      "summaryTlDr": "Problema vizată e reală: mutarea profiturilor din România prin facturi interne de grup. Dar lit. w) nu separă facturile fictive de cele reale, ci interzice deducerea oricărui serviciu de management, consultanță, asistență sau proprietate intelectuală între firme din același grup, chiar real și la preț de piață, ceea ce produce dublă impunere și pentru grupurile cu capital românesc. Plafonul la dobânzi e o idee defendabilă, dar e formulat vag și intră în vigoare la 1 ianuarie 2027, aproape fără perioadă de pregătire.",
+      "scores": {
+        "agy": 8,
+        "claude": 7,
+        "codex": 7
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a păstrat textul inițiatorului: aceleași limite la dobânzi și servicii intra-grup",
+      "summary": "Senatul a adoptat proiectul fără modificări de fond. Rămân plafonul pentru dobânzile intra-grup și interzicerea deducerii serviciilor de management și consultanță intra-grup. Diferențele sunt doar de redactare, deci riscurile pentru firme rămân aceleași.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Serviciile intra-grup devin nedeductibile chiar dacă sunt reale și la preț de piață",
+            "major": true,
+            "article": "art. 25 alin. (4) lit. w)"
+          },
+          {
+            "text": "Dublă impunere internă: prestatorul român plătește impozit, beneficiarul nu poate deduce costul",
+            "major": true,
+            "article": "art. 25 alin. (4) lit. w)"
+          },
+          {
+            "text": "Sunt lovite și IMM-urile cu mai multe firme ale aceluiași proprietar",
+            "major": true,
+            "article": "art. 25 alin. (4) lit. w)"
+          },
+          {
+            "text": "„Intra-grup” nu e definit în Codul fiscal; nu se știe pe cine prinde",
+            "major": true,
+            "article": "art. 25 alin. (3) lit. o) și alin. (4) lit. w)"
+          },
+          {
+            "text": "Plafonul dobânzii nu spune sursa datelor, moneda, scadența sau tipul creditului",
+            "major": true,
+            "article": "art. 25 alin. (3) lit. o)"
+          },
+          {
+            "text": "Plafonul după statul creditorului penalizează creditele în lei date din zona euro",
+            "major": true,
+            "article": "art. 25 alin. (3) lit. o)"
+          },
+          {
+            "text": "Creditorii din state cu dobânzi mari primesc un plafon umflat",
+            "major": true,
+            "article": "art. 25 alin. (3) lit. o)"
+          },
+          {
+            "text": "Împrumuturi reale către filiale riscante pot depăși plafonul fără să fie abuzive",
+            "major": true,
+            "article": "art. 25 alin. (3) lit. o)"
+          },
+          {
+            "text": "Dobânda peste plafon se pierde definitiv, fără reportare ca la art. 40^2",
+            "major": true,
+            "article": "art. 25 alin. (3) lit. o)"
+          },
+          {
+            "text": "Nu se spune în ce ordine se aplică plafonul și limita din art. 40^2",
+            "major": false,
+            "article": "art. 25 alin. (3) lit. o)"
+          },
+          {
+            "text": "Nu e clar dacă marja de „1%” înseamnă un punct procentual",
+            "major": false,
+            "article": "art. 25 alin. (3) lit. o)"
+          },
+          {
+            "text": "Majorările de întârziere sunt puse sub același plafon cu dobânzile, deși sunt altceva",
+            "major": false,
+            "article": "art. 25 alin. (3) lit. o)"
+          }
+        ],
+        "good": [],
+        "partial": false
+      },
+      "diff": {
+        "added": 6,
+        "removed": 6,
+        "same": 0.25
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:16:47.240Z"
+    }
+  ]
+}

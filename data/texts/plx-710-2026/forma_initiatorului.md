@@ -1,0 +1,19 @@
+# Parlamentul României
+
+Camera Deputaților
+
+Senatul
+
+Lege pentru modificarea și completarea art. 46 din Legea nr. 272/2004 privind protecția și promovarea drepturilor copilului
+
+Articol unic – Articolul 46 din Legea nr. 272/2004 privind protecția și promovarea drepturilor copilului, Republicată în Monitorul Oficial al României, Partea I, nr. 159 din data de 5 martie 2014, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+## 1. La art. 46 după alin. (6) se introduce un nou alineat, alin. (7) cu următorul cuprins:
+
+„(7) În situația excepțională în care viața, sănătatea sau integritatea psihică a copilului se află în pericol, inclusiv în contextul menținerii relațiilor personale și al contactelor directe cu ambii părinți, psihologii pot furniza servicii de consiliere psihologică și/sau psihoterapie strict necesare, cu acordul unuia dintre părinți sau al reprezentantului legal, în măsura în care aceasta este în interesul superior al copilului.”
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+PREȘEDINTELE SENATULUI

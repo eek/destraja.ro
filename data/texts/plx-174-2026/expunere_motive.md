@@ -1,0 +1,120 @@
+# EXPUNERE DE MOTIVE
+
+<table>
+<tbody>
+<tr><td colspan="3">Secțiunea 1Titlul proiectului de act normativ</td></tr>
+<tr><td colspan="3">LEGEpentru modificarea Ordonanței de urgență a Guvernului nr. 5/2015 privinddeșeurile de echipamente electrice și electronice</td></tr>
+<tr><td colspan="3">Secțiunea a 2-aMotivul emiterii actului normativ</td></tr>
+<tr><td>2.1.</td><td>Sursa proiectului deact normativ</td><td>Prin hotărârea Curții de Justiție a Uniunii Europenedin 25 ianuarie 2022 în cauza C-181/20, s-a declaratnevalid art. 13 alin. (1) din Directiva 2012/19/UE aParlamentului European și a Consiliului din 4 iulie 2012privind deșeurile de echipamente electrice și electronice(DEEE), în măsura în care dispoziția respectivă priveștepanourile fotovoltaice introduse pe piață între 13 august2005 și 13 august 2012, din cauza efectului retroactivnejustificat.Curtea de Justiție a Uniunii Europene a impusComisiei Europene să pună în aplicare hotărârea fără întârzieri nejustificate. Comisia Europeană a modificatart. 12, 13 alin. (1), 14 alin. (4) și 15 alin. (2) dinDirectiva 2012/19/UE a Parlamentului European și aConsiliului din 4 iulie 2012, în conformitate cu hotărâreaCurții de Justiție a Uniunii Europene în cauza C-181/20,</td></tr>
+</tbody>
+</table>
+
+|  |  | prin Directiva (UE) 2024/884 a Parlamentului European și a Consiliului din 13 martie 2024 de modificare a Directivei 2012/19/UE privind deșeurile de echipamente electrice și electronice (DEEE), publicată în Jurnalul Oficial al Uniunii Europene, seria L din 19 martie 2024. La solicitarea Parlamentului European și a Consiliului Europei, pentru a evita în viitor situații similare celei constatate de Curtea de Justiție a Uniunii Europene și a garantării că principiul securității juridice este respectat, a fost introdus articolul 24a, prin care s-a reglementat obligația Comisiei Europeane ca până cel târziu la 31 decembrie 2026, să evalueaze necesitatea revizuirii Directivei 2012/19/UE. |
+| --- | --- | --- |
+| 2.2. | Descrierea situației actuale | Directiva 2012/19/UE a Parlamentului European și a Consiliului din 4 iulie 2012 a fost transpusă în România prin Ordonanța de urgență a Guvernului nr.5/2015 privind deșeurile de echipamente electrice și electronice, aprobată cu modificări și completări prin Legea nr. 127/2024, cu modificările și completările ulterioare.Având în vedere faptul că transpunerea completă și corectă de către toate statele membre a Directivei (UE) 2024/884 a Parlamentului European și a Consiliului din 13 martie 2024 este esențială pentru a garanta respectarea hotărârii Curții de Justiție a Uniunii Europene, la nivel național, în concordanță cu obligațiile care revin României în calitate de stat membru al Uniunii Europene, se impune modificarea Ordonanței de urgență a Guvernului nr.5/2015, aprobată cu modificări și completări prin Legea nr.127/2024, cu modificările și completările ulterioare. |
+
+| 2.3. | Schimbări preconizate | Prin prezentul proiect de act normativ se propune asigurarea transpunerii complete a Directivei (UE) 2024/884 a Parlamentului European și a Consiliului din 13 martie 2024, prin modificarea Ordonanței de urgență a Guvernului nr.5/2015, aprobată cu modificări și completări prin Legea nr. 127/2024, cu completările ulterioare, astfel:a) modificarea art. 28 alin. (1) și (2), 32 alin. (1), 33 alin. (1) - (3), 34 alin. (5) și 38 alin. (2), prin clarificarea momentului începând de la care producătorii de diferite echipamente electrice și electronice, atât pentru gospodăriile particulare, cât și pentru alți utilizatori decât gospodăriile particulare, trebuie să asigure finanțarea gestionării deșeurilor generate de produsele lor;b) modificarea art. 37, pentru actualizarea trimiterii la versiunea revizuită în anul 2022 a standardului european EN 50419, marcarea echipamentelor electrice și electronice (EEE) pentru colectarea separată a deșeurilor de echipamente electrice și electronice (DEEE). |
+| --- | --- | --- |
+| 2.4. | Alte informații | Termenul limită prevăzut de Directiva (UE) 2024/884 a Parlamentului European și a Consiliului din 13 martie 2024 pentru preluarea măsurilor prevăzute de către aceasta în legislația națională a fost stabilit pentru data de 09 octombrie 2025.Aadoptarea prezentei reglementări a intervenit ulterior termenului-limită de transpunere prevăzut la art. 2 alin. (1) din Directiva (UE) 2024/884, respectiv 9 octombrie 2025, întrucât procesul de elaborare a actului normativ a presupus o analiză complexă de corelare a dispozițiilor europene cu cadrul legislativ. național |
+
+<table>
+<tbody>
+<tr><td></td><td></td><td>existent în domeniul gestionării deșeurilor, inclusiv cu reglementările aferente extinderii răspunderii producătorului și instrumentelor economice aferente.Întârzierea adoptării s-a datorat, de asemenea, necesității asigurării unei transpuneri riguroase și unitare, în concordanță cu principiile dreptului Uniunii Europene și cu jurisprudența Curții de Justiție a Uniunii Europene, pentru a garanta coerența și aplicabilitatea practică a normelor la nivel național.Prin aceste demersuri, Ministerul Mediului, Apelor și Pădurilor a urmărit asigurarea calității, clarității și predictibilității reglementării, evitarea unor interpretări divergente în procesul de aplicare și consolidarea conformității cadrului normativ național cu acquis-ul european, fără a aduce atingere aplicării effective a dispozițiilor directivei.De asemenea, referitor la diferențele ce există în cazul transpunerii termenelor din cuprinsul Directivei nr. 2024/884, menționăm că România nu era stat membru al Uniunii Europene în anul 2005, astfel încât dispozițiile europene nu i se aplicau la acea dată. În consecință, în procesul de transpunere, momentul de referință pentru aplicarea obligațiilor producătorilor a fost adaptat la data aderării României la UE - 1 ianuarie 2007. Astfel, proiectul de lege stabilește data 31 decembrie 2006 ca echivalent juridic național al datei de 13 august 2005 din Directiva (UE) 2024/884, asigurând o transpunere coerentă și conformă cu principiul securității juridice.În ceea ce privește măsurile propuse la pct. 1 din proiectul de act normativ, respectiv modificarea art. 28</td></tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr><td></td><td></td><td>alin. (1) și (2), raportat la prevederile din Directiva (UE) 2024/884, care reglementează faptul că „Producătorul poate opta să-și îndeplinească această obligație în mod individual sau aderând la un sistem colectiv”, precizăm că această reglementare se regăsește deja în legislația națională aflată în vigoare, la art. 28 alin. (3) din Ordonanța de urgență a Guvernului nr. 5/2015, aprobată cu modificări și completări prin Legea nr.127/2024, cu modificările și completările ulterioare, care stipulează: „(3) Producătorul poate opta să îndeplinească obligația prevăzută la alin. (2) conform prevederilor art. 12 alin. (6) din Ordonanța de urgență a Guvernului nr. 92/2021, aprobată cu modificări și completări prin Legea nr. 17/2023, cu modificările și completările ulterioare.”</td></tr>
+<tr><td colspan="3">Secțiunea a 3-aImpactul socioeconomic</td></tr>
+<tr><td>3.1.</td><td>Descrierea generală a beneficiilor și costurilor estimate ca urmare a intrării în vigoare a actului normativ</td><td>Proiectul de act normativ nu se referă la acest subiect.</td></tr>
+<tr><td>3.2.</td><td>Impactul social</td><td>Proiectul de act normativ nu se referă la acest subiect.</td></tr>
+<tr><td>3.3.</td><td>Impactul asupra drepturilor și libertăților fundamentale ale omului</td><td>Proiectul de act normativ nu se referă la acest subiect.</td></tr>
+</tbody>
+</table>
+
+| 3.4. | Impactul macroeconomic | Proiectul de act normativ nu se referă la acest subiect. |
+| --- | --- | --- |
+| 3.4.1. | Impactul asupra economiei și asupra principalilor indicatori macroeconomici | Proiectul de act normativ nu se referă la acest subiect. |
+| 3.4.2. | Impactul asupra mediului concurențial și domeniul ajutoarelor de stat | Proiectul de act normativ nu se referă la acest subiect. |
+| 3.5. | Impactul asupra mediului de afaceri | Proiectul de act normativ nu se referă la acest subiect. |
+| 3.6. | Impactul asupra mediului înconjurător | Proiectul de act normativ nu se referă la acest subiect. |
+| 3.7. | Evaluarea costurilor și beneficiilor din perspectiva inovării și digitalizării | Proiectul de act normativ nu se referă la acest subiect. |
+| 3.8. | Evaluarea costurilor și beneficiilor din perspectiva dezvoltării durabile | Proiectul de act normativ nu se referă la acest subiect. |
+| 3.9. | Alte informații | Nu au fost identificate. |
+
+<table>
+<tbody>
+<tr><td colspan="7">Secțiunea a 4-aImpactul financiar asupra bugetului general consolidat atât pe termen scurt, pentru anul curent, cât și pe termen lung (pe 5 ani), inclusiv informații cu privire la cheltuieli și venituri</td></tr>
+<tr><td colspan="7">- în mii lei (RON) -</td></tr>
+<tr><td>Indicatori</td><td>Anul curent</td><td colspan="4">Următorii patru ani</td><td>Media pe cinci ani</td></tr>
+<tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr>
+<tr><td>4.1. Modificări ale veniturilor bugetare, plus/minus, din care:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>a) buget de stat, din acesta:(i) impozit pe profit(ii) impozit pe venit</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>b) bugete locale(i) impozit pe profit</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>c) bugetul asigurărilor sociale de stat:(i) contribuții de asigurări</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>d) alte tipuri de venituri(se va menționa natura acestora)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.2. Modificări ale cheltuielilor bugetare, plus/minus, din care:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>a) buget de stat, din acesta:(i) cheltuieli de personal(ii) bunuri și servicii</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>b) bugete locale:(i) cheltuieli de personal(ii) bunuri și servicii</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+| c) bugetul asigurărilor sociale de stat:(i) cheltuieli de personal(ii) bunuri și servicii |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+| d) alte tipuri de cheltuieli(se va menționa natura acestora) |  |  |  |  |  |  |
+| 4.3. Impact financiar, plus/minus,din care: |  |  |  |  |  |  |
+| a) buget de stat |  |  |  |  |  |  |
+| b) bugete locale |  |  |  |  |  |  |
+| 4.4. Propuneri pentru acoperirea creșterii cheltuielilor bugetare |  |  |  |  |  |  |
+| 4.5. Propuneri pentru a compensa reducerea veniturilor bugetare |  |  |  |  |  |  |
+| 4.6. Calcule detaliate privind fundamentarea modificărilor veniturilor și/sau cheltuielilor bugetare |  |  |  |  |  |  |
+| 4.7. Prezentarea, în cazul proiectelor de acte normative a căror adoptare atrage majorarea cheltuielilor bugetare, a următoarelor documente: |  |  |  |  |  |  |
+| a) fișa financiară prevăzută la art. 15 din Legea nr. 500/2002 privind finanțele publice, cu modificările și completările ulterioare, însoțită de ipotezele și metodologia de calcul utilizate; |  |  |  |  |  |  |
+
+<table>
+<tbody>
+<tr><td colspan="2">b) declarație conform căreia majorarea de cheltuială respectivă este compatibilă cu obiectivele și prioritățile strategice specificate în strategia fiscal-bugetară, cu legea bugetară anuală și cu plafoanele de cheltuieli prezentate în strategia fiscal-bugetară.</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="2">4.8. Alte informații</td><td colspan="6">Nu au fost identificate.</td></tr>
+<tr><td colspan="8">Secțiunea a 5-aEfectele proiectului de act normativ asupra legislației în vigoare</td></tr>
+<tr><td>5.1.</td><td>Măsuri normative necesare pentru aplicarea prevederilor proiectului de act normativ</td><td colspan="6">Proiectul de act normativ nu se referă la acest subiect.</td></tr>
+<tr><td>5.2.</td><td>Impactul asupra legislației în domeniul achizițiilor publice</td><td colspan="6">Proiectul de act normativ nu se referă la acest subiect.</td></tr>
+<tr><td>5.3.</td><td>Conformitatea proiectului de act normativ cu legislația UE (în cazul proiectelor ce transpun sau asigură aplicarea unor prevederi de drept UE).</td><td colspan="6">Prezentul act normativ transpune Directiva (UE) 2024/884 a Parlamentului European și a Consiliului din 13 martie 2024 de modificare a Directivei 2012/19/UE privind deșeurile de echipamente electrice și electronice (DEEE), publicată în Jurnalul Oficial al Uniunii Europene, seria L din 19 martie 2024.</td></tr>
+<tr><td>5.3.1.</td><td>Măsuri normative necesare transpunerii directivelor UE</td><td colspan="6">Proiectul de act normativ nu se referă la acest subiect.</td></tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr><td>5.3.2.</td><td>Măsuri normative necesare aplicării actelor legislative ale UE</td><td>Proiectul de act normativ nu se referă la acest subiect.</td></tr>
+<tr><td>5.4.</td><td>Hotărâri ale Curții de Justiție a Uniunii Europene</td><td>Prin transpunerea Directivei (UE) 2024/884 a Parlamentului European și a Consiliului din 13 martie 2024, proiectul de act normativ asigură aplicarea hotărârii Curții de Justiție a Uniunii Europene din 25 ianuarie 2022 în cauza C-181/20.</td></tr>
+<tr><td>5.5.</td><td>Alte acte normative și/sau documente internaționale din care decurg angajamente asumate</td><td>Proiectul de act normativ nu se referă la acest subiect.</td></tr>
+<tr><td>5.6.</td><td>Alte informații</td><td>Nu au fost identificate.</td></tr>
+<tr><td colspan="3">Secțiunea a 6-a Consultările efectuate în vederea elaborării proiectului de act normativ</td></tr>
+<tr><td>6.1.</td><td>Informații privind neaplicarea procedurii de participare la elaborarea actelor normative</td><td>Proiectul de act normativ nu se referă la acest subiect.</td></tr>
+<tr><td>6.2.</td><td>Informații privind procesul de consultare cu organizații neguvernamentale, institute de cercetare și alte organisme implicate</td><td>Proiectul de act normativ nu se referă la acest subiect.</td></tr>
+<tr><td>6.3.</td><td>Informații despre consultările organizate cu</td><td>Proiectul de act normativ nu se referă la acest subiect.</td></tr>
+<tr><td></td><td>autoritățile administrației publice locale</td><td></td></tr>
+<tr><td>6.4.</td><td>Informații privind puncte de vedere/opinii emise de organisme consultative constituite prin acte normative</td><td>Proiectul de act normativ nu se referă la acest subiect.</td></tr>
+<tr><td>6.5.</td><td>Informații privind avizarea de către:a) Consiliul Legislativb) Consiliul Suprem de Apărare a Țăriic) Consiliul Economic și Sociald) Consiliul Concurențeie) Curtea de Conturi</td><td>Proiectul de act normativ a fost supus evaluării Consiliului Concurenței, potrivit legii.Consiliul Concurenței a transmis punctul de vedere prin adresa nr.RG/20380/26.01.2026.Proiectul de act normativ a fost avizat de Consiliul Legislativ prin avizul nr.146/2026.Proiectul de act normativ a fost avizat de Consiliul Economic și Social prin avizul nr.1217/2026.</td></tr>
+<tr><td>6.6.</td><td>Alte informații</td><td>Nu au fost identificate.</td></tr>
+<tr><td colspan="3">Secțiunea a 7-aActivități de informare publică privind elaborarea și implementarea proiectului de act normativ</td></tr>
+<tr><td>7.1.</td><td>Informarea societății civile cu privire la elaborarea proiectului de act normativ</td><td>În procesul de elaborare a proiectului de act normativ a fost îndeplinită procedura prevăzută de Legea nr.52/2003 privind transparența decizională în administrația publică, republicată, cu modificările și completările ulterioare.</td></tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr><td></td><td></td><td>Proiectul de act normativ a fost postat pe site-ul Ministerului Mediului, Apelor și Pădurilor, la Secțiunea „Transparență” în data de 21 octombrie 2025.În acest sens, precizăm că pe parcursul consultării publice, nu s-au primit observații, propuneri și nici solicitări de dezbateri publice.</td></tr>
+<tr><td>7.2.</td><td>Informarea societății civile cu privire la eventualul impact asupra mediului în urma implementării proiectului de act normativ, precum și efectele asupra sănătății și securității cetățenilor sau diversității biologice</td><td>Proiectul de act normativ nu se referă la acest subiect.</td></tr>
+<tr><td colspan="3">Secțiunea a 8-aMăsuri de implementare</td></tr>
+<tr><td>8.1.</td><td>Măsuri de punere în aplicare a proiectului de act normativ</td><td>Proiectul de act normativ nu se referă la acest subiect.</td></tr>
+<tr><td>8.2.</td><td>Alte informații</td><td>Nu au fost identificate.</td></tr>
+</tbody>
+</table>
+
+Față de cele prezentate, a fost elaborat proiectul de Lege pentru modificarea Ordonanței de urgență a Guvernului nr. 5/2015 privind deșeurile de echipamente electrice și electronice, pe care îl supunem Parlamentului, spre adoptare.
+
+PRIM-MINISTRU
+
+ILIE-GAVRIL BOLOJAN

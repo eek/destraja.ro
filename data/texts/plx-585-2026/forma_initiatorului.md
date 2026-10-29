@@ -1,0 +1,37 @@
+SENAT
+
+CAMERA DEPUTAȚILOR
+
+LEGE
+
+# pentru completarea Legii nr. 227/2015 privind Codul fiscal și pentru modificarea art. LVIII din Ordonanța de urgență a Guvernului nr. 115/2023
+
+Parlamentul României adoptă prezenta lege
+
+Art. I – După articolul 101¹, din Legea nr. 227/2015 privind Codul fiscal, publicată în Monitorul Oficial al României, Partea I, nr. 688 din 10 septembrie 2015, cu modificările și completările ulterioare, se introduce un nou articol, art. 101², cu următorul cuprins:
+
+„Articolul 101²
+
+Acordarea dreptului contribuabilului de a dispune asupra destinației unei sume din impozitul pe venitul din pensii
+
+(1) Contribuabili pot dispune asupra destinației unei sume reprezentând 3,5% din impozitul stabilit la art. 101 alin. (2), pentru susținerea entităților nonprofit care se înființează și funcționează în condițiile legii și a unităților de cult.
+
+(2) Entitățile nonprofit care se înființează și funcționează în condițiile legii, precum și unitățile de cult beneficiază de sumele prevăzute la alin. (1) dacă la momentul plății acestora de către organul fiscal figurează în Registrul entităților/unităților de cult pentru care se acordă deduceri fiscale prevăzute la art. 25 alin. (4^1). Sumele primite din impozitul anual datorat sunt folosite în scopul desfășurării activităților nonprofit.
+
+(3) Obligația calculării și plății sumei prevăzute la alin. (1) revine organului fiscal competent pe baza cererii depuse de aceștia până la data de 25 mai inclusiv a anului următor celui de realizare a veniturilor, sub sancțiunea decăderii. Distribuirea sumei reprezentând până la 3,5% din impozitul pe venitul datorat poate fi solicitată prin cerere pentru aceiași beneficiari pentru o perioadă de cel mult 2 ani și va putea fi reînnoită după expirarea perioadei respective.
+
+(4) Contribuabili pot opta pentru depunerea cererii la entitatea nonprofit care se înființează și funcționează în condițiile legii/unitatea de cult, beneficiară a sumei. Entitatea nonprofit/Unitatea de cult are obligația de a transmite, prin mijloace electronice de transmitere la distanță, la organul fiscal competent un formular prin care centralizează cererile primite de la contribuabili, până la data de 25 mai inclusiv a anului următor celui de realizare a veniturilor, sub sancțiunea decăderii.
+
+(5) Procedura de aplicare a prevederilor prezentului articol se stabilește prin ordin al președintelui A.N.A.F."
+
+Art. II – Articolul LVIII din Ordonanța de urgență a Guvernului nr. 115/2023 privind unele măsuri fiscal-bugetare în domeniul cheltuielilor publice, pentru consolidare fiscală, combaterea evaziunii fiscale, pentru modificarea și completarea unor acte normative, precum și pentru prorogarea unor termene, publicată în Monitorul Oficial al României, Partea I, nr. 1139 din 15 decembrie 2023, cu modificările și completările ulterioare, se modifică și va avea următorul cuprins:
+
+„Articolul LVIII
+
+Impozitul datorat de persoanele fizice pe veniturile din dobânzi, din jocuri de noroc și din dividende, încasat la bugetul de stat se reține integral la același buget și nu se redistribuie."
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.
+
+Președintele Senatului
+
+Președintele Camerei Deputaților

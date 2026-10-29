@@ -1,0 +1,27 @@
+# ROMÂNIA PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENAT
+
+# PROIECT DE LEGE
+
+pentru completarea art. 25 din Legea 36/1995 a notarilor publici si a activitatii notariale, republicată, cu modificările și completările ulterioare
+
+Parlamentul României adoptă prezenta lege.
+
+## Articol unic.
+
+După alin. (14) al art. 25 din Legea 36/1995 a notarilor publici si a activitatii notariale, republicată în Monitorul Oficial al României, Partea I, nr. 237 din 19 martie 2018, se modifică și se completează cu următorul alineat:
+
+„(15) Modalitatea de examinare se stabileste de catre Consiliul Uniunii, pentru toate formele de intrare in profesie, la fiecare examen in parte, respectiv prin probă de tip sinteza sau grila, cu 30 de zile înainte de anunțarea datei concursului.”
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și art. 76 alin. (2) din Constituția României, republicată.
+
+PREȘEDINTELE SENATULUI
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+Mircea ABRUDEAN
+
+Sorin GRINDEANU

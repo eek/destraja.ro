@@ -1,0 +1,67 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENAT
+
+# LEGE privind instituirea Zilei Naționale a Siguranței Locuinței
+
+Parlamentul României adoptă prezenta lege.
+
+## Art. 1
+
+Se instituie Ziua Națională a Siguranței Locuinței, marcată anual la data de 13 octombrie.
+
+## Art. 2
+
+Ziua Națională a Siguranței Locuinței are ca scop:
+
+a) creșterea gradului de informare și conștientizare a populației cu privire la riscurile la care sunt expuse locuințele, inclusiv cutremure, inundații, alunecări de teren și fenomene meteorologice extreme;
+
+b) promovarea unor comportamente preventive și a unor soluții de protecție fizică și financiară a locuințelor și a bunurilor cetățenilor;
+
+c) dezvoltarea unor programe educaționale dedicate, în special pentru copii și tineri, care să întegreze cultura prevenției ca element de educație civică;
+
+d) implicarea autorităților publice, a mediului de afaceri și a societății civile în acțiuni anuale de prevenție și creștere a rezilienței comunitare;
+
+e) promovarea transparenței informațiilor privind riscurile naturale la nivel local și național, pentru informarea cetățenilor și sprijinirea deciziilor de protecție a locuinței.
+
+## Art. 3
+
+(1) Autoritățile publice cu atribuții în domeniul situațiilor de urgență, al supravegherii financiare, al educației, al dezvoltării și al protecției mediului, precum și organizațiile societății civile pot organiza, cu prilejul Zilei prevăzute la art. 1, activități de informare și conștientizare publică, în conformitate cu atribuțiile și resursele proprii.
+
+(2) Activitățile se pot desfășura în parteneriat public-privat, valorificând expertiza sectorului de asigurări, a organizațiilor profesionale și a comunităților locale în domeniul reducerii riscului dezastrelor și al protecției financiare a gospodăriilor.
+
+(3) Administrațiile publice locale pot organiza, pe raza unității administrativ-teritoriale, activități proprii adaptate profilului de risc local.
+
+## Art. 4
+
+Cu ocazia Zilei Naționale a Siguranței Locuinței se pot organiza, fără a se limita la:
+
+a) exerciții publice de simulare a situațiilor de urgență, inclusiv la nivelul unităților de învățământ, al locurilor de muncă și al cartierelor rezidențiale;
+
+b) campanii de informare publică privind riscurile naturale specifice diferitelor regiuni ale țării, modul de comportament în situații de urgență și măsurile de protecție a locuinței;
+
+c) conferințe, dezbateri publice și evenimente de conștientizare, cu participarea autorităților, experților și reprezentanților comunităților locale;
+
+d) activități educaționale în unități de învățământ, inclusiv exerciții practice de evacuare și materiale didactice adaptate vârstei;
+
+e) publicarea și actualizarea de informații privind riscurile naturale la nivel local, accesibile publicului larg, inclusiv în format digital;
+
+f) sesiuni de informare pentru asociații de proprietari, agenți economici și comunități vulnerabile privind riscurile naturale și soluțiile de protecție disponibile;
+
+g) acordarea de distincții sau premii pentru contribuții remarcabile la domeniul reducerii riscului dezastrelor, al educației preventive sau al protecției locuinței.
+
+## Art. 5
+
+Prezenta lege intră în vigoare la 30 de zile de la data publicării în Monitorul Oficial al României, Partea I.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin.(2) din Constituția României, republicată.
+
+PREȘEDINTELE SENATULUI
+
+Mircea ABRUDEAN
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+Sorin-Mihai GRINDEANU

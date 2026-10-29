@@ -1,0 +1,23 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENAT
+
+LEGE
+
+## pentru completarea art. 18¹ din Legea educației fizice și sportului nr. 69/2000
+
+Parlamentul României adoptă prezenta lege.
+
+Articol unic. - La articolul 18¹ din Legea educației fizice și sportului nr. 69/2000, publicată în Monitorul Oficial al României, Partea I, nr. 200 din 9 mai 2000, cu modificările și completările ulterioare, după alineatul (3) se introduce un nou alineat, alin. (3¹), cu următorul cuprins:
+
+„(3¹) Pentru fiecare sportiv legitimat, antrenor, colectiv tehnic din cadrul structurilor sportive prevăzute la alin. (2) lit. b), autoritățile administrației publice locale pot aloca sume pentru finanțarea cheltuielilor cu plata salariilor/remunerațiilor acestuia de orice altă natură, într-un cuantum de maximum 30 de salarii minime brute pe țară garantate în plată, pe an, precum și pentru plata unor prime de victorie sau realizare de obiectiv final sau intermediar stabilit într-un cuantum de maximum 0,5 salarii minime brute pe țară garantate în plată/victorie sau obiectiv, dar nu mai mult de 12 prime de victoriei/obiectiv pe an.”
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR Sorin-Mihai GRINDEANU
+
+PREȘEDINTELE SENATULUI
+
+Mircea ABRUDEAN

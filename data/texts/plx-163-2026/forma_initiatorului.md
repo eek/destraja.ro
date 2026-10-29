@@ -1,0 +1,35 @@
+# PARLAMENTUL ROMÂNIEI
+
+# LEGE
+
+# pentru completarea Legii nr. 227/2015 privind Codul fiscal
+
+Parlamentul României adoptă prezenta lege:
+
+Legea nr. 227/2015 privind Codul fiscal, publicată în Monitorul Oficial nr. 688 din 10 septembrie 2015, cu modificările și completările ulterioare, se completează și se modifică după cum urmează ::
+
+Art.I :
+
+Art.8 alin.5 lit.a se completează după cum urmează :
+
+a) persoana este autorizată și exercită în România autoritatea de a încheia contracte în numele nerezidentului, cu excepția cazurilor în care activitățile respective sunt limitate la cele prevăzute la alin. (4) lit. a) - f); Existența autorității de a încheia contracte include și situația în care persoana care acționează în România joacă rolul principal care conduce la încheierea contractelor sau la realizarea activității economice generatoare de venituri, chiar dacă semnarea formală a contractelor are loc în afara României ;
+
+Art.II : După articolul 13 se introduce un nou articol, Art. 13¹, cu următorul cuprins :
+
+Art. 13¹ :
+
+(1) Entitățile juridice nerezidente care desfășoară pe territoriul României activități de achiziționare și recuperare a creanțelor, în mod direct sau prin intermediul unui agent dependent, sunt considerate ca având sediu permanent în România.
+
+(2) Veniturile obținute din activitatea de recuperare a creanțelor realizată în România de către aceste entități sunt supuse impozitării, în conformitate cu prevederile prezentului Cod.
+
+(3) Pentru determinarea bazei de impozitare se ia în calcul suma reprezentând diferența dintre suma încasată și costul de achiziție al creanțelor debitorilor persoane fizice sau juridice aflați în România, indiferent de locul unde sunt înregistrate creanțele.
+
+ROMANIA
+
+(4) Impozitul stabilit potrivit prezentului articol se aplică fără a aduce atingere convențiilor pentru evitarea dublei impuneri la care România este parte, iar impozitul achitat în România se ia în considerare la stabilirea obligațiilor fiscale în statul de rezidență, potrivit convenției aplicabile.
+
+(5) Nerespectarea obligațiilor prevăzute în prezentul articol atrage sancțiuni contravenționale, potrivit Codului de procedură fiscală.
+
+Președinte al Camerei Deputaților,
+
+Președinte al Senatului,

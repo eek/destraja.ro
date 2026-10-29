@@ -1,0 +1,43 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENATUL
+
+## LEGE
+
+# privind unele măsuri pentru protejarea intereselor naționale în activitatea economică
+
+Parlamentul României adoptă prezenta lege.
+
+## 1. Art. 1.
+
+(1) Se interzice, până la data de 31 decembrie 2027, înstrăinarea acțiunilor deținute de stat la companiile și societățile naționale, la instituții de credit, precum și la orice altă societate la care statul are calitatea de acționar, indiferent de cota de capital social deținută. (2) Dispozițiile alin. (1) nu se aplică acțiunilor deținute de stat la companiile, societățile și instituțiile de credit care înregistrează pierderi pentru cinci ani consecutiv, sau pentru care a fost declanșată, prin hotărâre judecătorească definitivă, procedura de insolvență, precum și acțiunilor a căror valoare totală, la data de 31 decembrie a anului fiscal precedent, nu depășește 5 milioane lei pentru fiecare companie, societate sau instituție de credit în parte.
+
+## 2. Art.2.
+
+(1) Se suspendă, până la data de 31 decembrie 2027, orice operațiuni privind înstrăinarea acțiunilor deținute de stat la companiile și societățile naționale, precum și la alte societăți la care statul are calitatea de acționar, aflate în curs de realizare.
+
+(2) Dispozițiile alin. (1) nu se aplică operațiunilor postprivatizare și operațiunilor specifice privatizării, în cazul în care transferul dreptului de proprietate asupra participațiilor deținute de stat s-a realizat.
+
+## 3.Art.3.
+
+(1) În aplicarea dispozițiilor prevăzute la art. 1 și 2, se suspendă, în mod corespunzător, dispozițiile Ordonanței de urgență a Guvernului nr. 88/1997 privind privatizarea societăților comerciale, aprobată prin Legea nr. 44/1998, cu modificările și completările ulterioare, și ale Legii nr. 137/2002 privind unele măsuri pentru accelerarea privatizării, cu modificările și completările ulterioare.
+
+(2) În ipoteza prevăzută la art. 1 alin. (2), cu respectarea dispozițiilor legale incidente, acțiunile deținute de stat la companiile și societățile naționale, la instituțiile de credit, precum si la alte societăți pot fi înstrăinate, pe piețe reglementate sau sisteme alternative de tranzacționare autorizate conform legii, cu respectarea dispozițiilor prezentului articol.
+
+(3) Orice act juridic de înstrăinare încheiat cu încălcarea dispozițiilor alin. (2) este lovit de nulitate absolută."
+
+Această lege a fost adoptată de Parlamentul României, în condițiile art.77 alin. (2), cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.
+
+PREȘEDINTELE
+
+PREȘEDINTELE
+
+CAMEREI DEPUTAȚILOR
+
+SENATULUI
+
+CIPRIAN-CONSTANTIN ȘERBAN
+
+MIRCEA ABRUDEAN

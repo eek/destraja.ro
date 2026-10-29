@@ -1,0 +1,122 @@
+{
+  "slug": "plx-104-2026",
+  "billId": "PL-x 104/2026",
+  "updatedAt": "2026-10-29T12:35:03.196Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L579FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Comunele mici pot gestiona câinii fără stăpân împreună sau prin firme specializate",
+      "summaryTlDr": "Lege utilă și practic benignă: permite explicit adăposturile comune și contractarea serviciului pentru comunele fără bani. Problemele țin de redactare: condiția „lipsei de fonduri” e vagă, iar formula „de pe teritoriul național” poate intra în conflict cu piața unică.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/00/4/se108.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Primăriile mici pot gestiona câinii fără stăpân împreună sau prin firme specializate",
+      "summaryTlDr": "Lege utilă și practic benignă: spune explicit că obligația de a avea un serviciu pentru câinii fără stăpân se poate îndeplini printr-o asociație intercomunitară sau prin contractarea unui operator. Textul e însă scris neglijent: condiții vagi, greșeli de tipar și un termen de 24 de luni greu de explicat.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat tacit forma inițiatorului, fără nicio schimbare de fond",
+      "summary": "Senatul a adoptat proiectul tacit, în forma inițială. Textul e identic, cu mici diferențe de scriere. Rămân aceleași probleme: nu se spune cine constată lipsa banilor, formulările se contrazic, operatorii nu au obligații clare, iar aplicarea e amânată 24 de luni.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Lipsa fondurilor sau capacității nu are criterii; nu se spune cine o constată",
+            "major": true,
+            "article": "art. I pct. 1 și 2"
+          },
+          {
+            "text": "„Va fi îndeplinită” prin asociere pare obligatoriu, dar externalizarea „poate fi”: text contradictoriu",
+            "major": true,
+            "article": "art. I pct. 2 (art. 2 alin. (1¹))"
+          },
+          {
+            "text": "Operator „de pe teritoriul național” poate exclude firme din alte state UE",
+            "major": true,
+            "article": "art. I pct. 1 și 2"
+          },
+          {
+            "text": "Nu se spune cine răspunde și cine e sancționat dacă operatorul încalcă legea",
+            "major": true,
+            "article": "art. I pct. 1 și 2"
+          },
+          {
+            "text": "Operatorul nu e obligat să aibă adăpost autorizat sanitar-veterinar",
+            "major": true,
+            "article": "art. I pct. 1 și 2"
+          },
+          {
+            "text": "La art. 2 contează doar lipsa banilor, la art. 1 și lipsa capacității",
+            "major": false,
+            "article": "art. I pct. 2 (art. 2 alin. (1¹))"
+          },
+          {
+            "text": "Textul ar putea sugera că UAT-urile cu bani nu se pot asocia în ADI",
+            "major": false,
+            "article": "art. I pct. 1 și 2"
+          },
+          {
+            "text": "Amânarea cu 24 de luni n-are logică și poate părea păsuire de la obligații",
+            "major": false,
+            "article": "art. II"
+          },
+          {
+            "text": "Erori de redactare: lipsește cuvântul „legi” la art. II; „territoriul”, „fară”, „fâră”",
+            "major": false,
+            "article": "art. I și art. II"
+          }
+        ],
+        "good": [
+          {
+            "text": "UAT-urile fără bani sau capacitate pot îndeplini obligația asociindu-se într-o ADI",
+            "major": true,
+            "article": "art. I pct. 1 (art. 1 alin. (1²))"
+          },
+          {
+            "text": "Serviciul de gestionare a câinilor poate fi externalizat către un operator specializat",
+            "major": true,
+            "article": "art. I pct. 1 și 2"
+          },
+          {
+            "text": "Mecanismul acoperă și consiliile județene, locale și Consiliul General al Municipiului București",
+            "major": true,
+            "article": "art. I pct. 2 (art. 2 alin. (1¹))"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 7,
+        "removed": 7,
+        "same": 0.13
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:34:43.927Z"
+    }
+  ]
+}

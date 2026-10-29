@@ -1,0 +1,147 @@
+{
+  "slug": "plx-22-2026",
+  "billId": "Pl-x 22/2026",
+  "updatedAt": "2026-10-29T13:51:05.186Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/000/20/2/pl787.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Terenul de sub casele construite înainte de 1990 trece în proprietate prin ordinul prefectului",
+      "summaryTlDr": "Corectură tehnică, benignă. Scoate din lege o formulare care amesteca ordinul prefectului cu titlul de proprietate emis de comisia județeană de fond funciar. Nu creează taxe, sancțiuni sau beneficiari noi, dar lasă procedura fără termene și fără normă tranzitorie.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/cd022_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Prefectul atribuie „dreptul”, nu „titlul” de proprietate pe terenul caselor construite înainte de 1990",
+      "summaryTlDr": "O corecție de terminologie, benignă: se schimbă un singur cuvânt, ca prefectul să nu mai pară că emite titluri de proprietate, care sunt competența comisiilor de fond funciar. Legea nu creează obligații, taxe sau sancțiuni noi. Îi lipsește doar o normă tranzitorie pentru ordinele deja emise.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "mai_putin_riscant",
+      "headline": "Condițiile verificate de primărie rămân: Camera schimbă doar începutul alineatului, nu tot textul",
+      "summary": "Inițial se rescria tot alineatul, iar condițiile verificate de primărie ar fi dispărut. Acum se schimbă doar începutul: ordinul prefectului privește „dreptul de proprietate”, condițiile rămân, iar cererea merge la primăria unde e terenul.",
+      "changes": [
+        {
+          "title": "Condițiile verificate de primărie rămân în lege",
+          "text": "Inițial se înlocuia tot alin. (2³), deci dispărea și lista de condiții cumulative. Acum se modifică doar partea introductivă, iar condițiile rămân. Conținutul lor nu apare în text.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 27 alin. (2³)",
+          "before": "Alineatul (2^3) al articolului 27 din Legea fondului funciar nr. 18/1991, republicată în Monitorul Oficial al României, Partea I, nr. 1 din 5 ianuarie 1998, cu modificările și completările ulterioare, se modifică și va avea următorul cuprins:",
+          "after": "partea introductivă a alineatului (2³) se modifică și va avea următorul cuprins:",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Intravilanul nu mai apare la începutul alineatului",
+          "text": "Inițial cererea viza terenurile aferente aflate în intravilan. Acum vizează terenurile deținute, fără mențiunea intravilanului. Dacă rămâne condiție depinde de literele alineatului, care nu apar în text.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 27 alin. (2³)",
+          "before": "să le atribuie dreptul de proprietate privată asupra terenurilor aferente, aflate în intravilanul localităților",
+          "after": "atribuirea în proprietate a terenurilor deținute",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Prefectul decide pe baza propunerii primăriei",
+          "text": "Inițial ordinul se emitea pe baza documentațiilor întocmite și validate conform legii, în condițiile art. 36 alin. (6). Acum prefectul îl emite pe propunerea primăriei, care verifică condițiile.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 27 alin. (2³)",
+          "before": "Stabilirea dreptului de proprietate privată se face pe baza documentațiilor întocmite și validate conform legii, prin ordin al prefectului, emis în condițiile art. 36 alin. (6) din Legea nr. 18/1991",
+          "after": "prefectul emite ordin privind atribuirea dreptului de proprietate pe baza propunerii primăriilor, care verifică întrunirea cumulativă a următoarelor condiții:",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Clar la ce primărie se depune cererea",
+          "text": "Inițial cererea mergea la primăriile localităților, fără altă precizare. Acum se depune la primăria sau primăriile în raza cărora se află terenul.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 27 alin. (2³)",
+          "before": "pot solicita primăriilor localităților",
+          "after": "pot solicita primăriei localității sau, după caz, primăriilor localităților în raza căreia/cărora se află situat/situate terenul/terenurile",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Lipsește norma tranzitorie: ordinele deja emise pe „titlul de proprietate” rămân incerte",
+            "major": true,
+            "article": "art. unic"
+          },
+          {
+            "text": "Intravilanul nu mai apare explicit; condițiile din litere nu sunt în text",
+            "major": true,
+            "article": "art. 27 alin. (2³)"
+          },
+          {
+            "text": "Nu stabilește termene pentru primărie sau prefect în soluționarea cererilor",
+            "major": false,
+            "article": "art. 27 alin. (2³)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Ordinul prefectului privește „dreptul de proprietate”, nu „titlul de proprietate”",
+            "major": true,
+            "article": "art. 27 alin. (2³)"
+          },
+          {
+            "text": "Condițiile cumulative verificate de primărie se păstrează",
+            "major": true,
+            "article": "art. 27 alin. (2³)"
+          },
+          {
+            "text": "Pot cere și cumpărătorii pe Legea 112/1995 și dobânditorii prin acte translative",
+            "major": true,
+            "article": "art. 27 alin. (2³)"
+          },
+          {
+            "text": "Nu introduce taxe, obligații sau sancțiuni noi; impactul bugetar e practic nul",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Procedură clară: cerere la primăria unde e terenul, apoi ordin al prefectului",
+            "major": false,
+            "article": "art. 27 alin. (2³)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 5,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:43:11.212Z"
+    }
+  ]
+}

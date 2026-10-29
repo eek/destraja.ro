@@ -1,0 +1,53 @@
+Expunere de motive privind completarea Legii nr. 273/2004 privind procedura adopției
+
+Prezenta inițiativă legislativă are ca obiect completarea Legea nr. 273/2004, republicată, cu modificările și completările ulterioare, prin introducerea expertizei medico-legale psihiatrice în cadrul evaluării persoanei care solicită atestarea ca adoptator.
+
+Evaluarea prevăzută de art. 18 din Legea nr. 273/2004 nu include, în prezent, o expertiză medico-legală psihiatrică, respectiv un act specific domeniului medico-legal, cu valoare probatorie, apt să fundamenteze stabilirea capacității psihice de exercitare a responsabilităților parentale. Evaluarea psihologică realizată în prezent nu are caracter medico-legal și nu poate furniza un mijloc de probă cu valoare juridică echivalentă expertizei medico-legale.
+
+Potrivit datelor oficiale publicate de Autoritatea Națională pentru Protecția Drepturilor Copilului și Adopție, pentru anul 2024 au fost înregistrate peste 20.000 de cazuri confirmate de abuz, neglijare și exploatare a copilului. Aceste date evidențiază necesitatea consolidării mecanismelor preventive în cadrul procedurii adopției, inclusiv în situații în care deficiențele capacității parentale nu au fost identificate anterior, în condițiile în care adopția produce efecte juridice definitive și irevocabile.
+
+Reglementarea se întemeiază pe dispozițiile art. 49 din Constituția României, republicată, privind protecția copilului.
+
+Adopția reprezintă o procedură juridică supusă unor condiții legale stricte, stabilite în considerarea interesului superior al copilului. Aplicarea uniformă a acestor condiții tuturor persoanelor care solicită atestarea ca adoptator, în conformitate cu art. 16 din Constituție, asigură caracterul obiectiv și nediscriminatoriu al procedurii.
+
+Prezenta inițiativă legislativă este în concordanță cu prevederile Convenția de la Haga din 1993 privind adopta internațională, ratificată prin Legea nr. 84/1994, care impune statelor obligația de a verifica adecvarea adoptatorilor, inclusiv din perspectiva stării de sănătate.
+
+Reglementarea propusă instituie următoarele garanții:
+
+\- evaluarea vizează exclusiv impactul funcțional al stării de sănătate psihică asupra capacității de exercitare a responsabilităților parentale;
+
+\- dreptul persoanei evaluate la contraexpertiză;
+
+\- gratuitatea procedurii;
+
+\- protecția datelor cu caracter personal, în conformitate cu Regulamentul (UE) 2016/679.
+
+Costurile aferente efectuării expertizei medico-legale psihiatrice și a contraexpertizei se suportă din bugetul Ministerului Sănătății, în condițiile legii, cu respectarea prevederilor Legea nr. 500/2002. Impactul financiar estimat este limitat, având în vedere caracterul punctual al acestor expertize, și se încadrează în bugetul aprobat al instituțiilor competente.
+
+Având în vedere aceste considerente, se propune adoptarea prezentului proiect de lege.
+
+## Propunere legislativă
+
+privind completarea Legii nr. 273/2004 privind procedura adopției
+
+| Nr.crt. | Nume și Prenume | Grup parlamentar |
+| --- | --- | --- |
+| 1. | VĂRĂF MĂRIANA | Judepacut |
+| 2 | VIDRA VLAD | S.O.S. RO |
+| 3. | MATEI SERGIV-LUCIAN | POT |
+| 4 | NICOCAE DAN | POT |
+| 5 | PORUMBOIU GABAIETA | POT |
+| 6. | VACEMDIN RĂDUCEA | POT |
+| 7 | JON MURAI | SO-S. RO |
+| 8 | GROFU DAWIER | POT |
+| 9 | AUDREI CSILLAG | POT |
+| 10 | TAGET MADUIN LAUREN | Independent |
+| 11 | Conches Cobueto Ulava | POT |
+| 12 | GROZA CALIM FCORIN | POT |
+| 13 | CHIRITA RAZVAN-MIREL | POT |
+| 14 | NAGY VASILE | S.O.S. RO |
+| 15 | PETREA DORIN Siivii | Pace IHSÂI RO |
+| 16 | Fodoca LIVII FULION | PACE |
+| 17 | VICTOE PONJA |  |
+| 18 | PAUL SHEORGHE | PAEE |
+| 19 | PEIJ VORJINS | PAEG 2 RO |

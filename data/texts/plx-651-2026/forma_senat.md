@@ -1,0 +1,33 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+pentru completarea Ordonanței de Urgență nr.194/2002 privind regimul străinilor în România și pentru modificarea art. 14 din Legea nr. 69/2000 privind educația fizică și sportul
+
+## Senatul adoptă prezentul proiect de lege
+
+Art. I - Ordonanța de Urgență nr. 194/2002 privind regimul străinilor în România, publicată în Monitorul Oficial al României, Partea I, nr. 955 din 27 decembrie 2002, cu modificările și completările ulterioare, se completează după cum urmează:
+
+1\. La articolul 49 alineatul (1), după litera g) se introduce o nouă literă, lit.h) cu următorul cuprins:
+
+„h) străinii care desfășoară activități sportive în baza unui contract de activitate sportivă, cu prezentarea contractului încheiat cu o structură sportivă înregistrată în Registrul Sportiv.”
+
+2\. La articolul 69 alineatul (1), după litera i) se introduce o nouă literă, lit. j) cu următorul cuprins:
+
+„j) străinii care desfășoară activități sportive în baza unui contract de activitate sportivă, cu prezentarea contractului încheiat cu o structură sportivă înregistrată în Registrul Sportiv;”
+
+3\. La articolul 69, după alineatul (7) se adaugă un nou alineat, alin.(8) cu următorul cuprins:
+
+„(8) Dreptul de ședere temporară pentru străinii prevăzuți la alin. (1) lit. j) se prelungește pentru o perioadă egală cu perioada de valabilitate a contractului de activitate sportivă, dar nu mai mult de 2 ani.”
+
+Art.II - Articolul 14 din Legea nr. 69/2000 privind educația fizică și sportul, publicată în Monitorul Oficial al României, Partea I, nr. 200 din 9 mai 2000, cu modificările și completările ulterioare, se modifică după cum urmează:
+
+„(5) Sportivii străini pot desfășura activitate ca sportivi profesioniști la o structură sportivă din România, în baza unui drept de ședere obținut în temeiul unui contract de activitate sportivă sau a unuia care conferă și dreptul de muncă pe territoriul României.”
+
+Acest proiect de lege se consideră adoptat de Senat în forma inițială, în condițiile articolului 75 alineatul (2) teza a III-a din Constituția României, republicată.
+
+p. PREȘEDINTELE SENATULUI
+
+MIHAI COTET

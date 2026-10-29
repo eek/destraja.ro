@@ -1,0 +1,117 @@
+{
+  "slug": "plx-299-2026",
+  "billId": "PL-x 299/2026",
+  "updatedAt": "2026-10-29T13:00:53.796Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L152FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Încă un an pentru certificatul de limba română la cererile de cetățenie",
+      "summaryTlDr": "Prelungirea unui termen este benignă și justificată: evită respingerea a mii de cereri de cetățenie pentru că certificatele B1 nu au putut fi obținute la timp. Problemele țin de redactare (număr OUG neconcordant, trimiteri greșite). În plus, măsura amână lipsa de capacitate a centrelor de examinare, dar nu o rezolvă.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/200/90/9/se322.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Încă un an pentru certificatul de limba română la cererile de cetățenie",
+      "summaryTlDr": "Măsură tehnică și benefică. Data-limită pentru certificatul de limba română (nivel B1) se mută de la 15 martie 2026 la 15 martie 2027, astfel încât mii de cereri de cetățenie să nu fie respinse doar pentru că statul n-a organizat destule sesiuni de examen. Cerința de limbă rămâne la fel, dar nici cauza nu e rezolvată (capacitatea de examinare), așa că o nouă prelungire în 2027 e plauzibilă.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul doar corectează numărul ordonanței (16/2026); termenul B1 rămâne prelungit până la 15.03.2027",
+      "summary": "Acum legea aprobă corect OUG nr. 16/2026, nu 14/2026, și indică publicarea în Monitorul Oficial. Conținutul nu se schimbă: certificatul B1 poate fi depus până la 15.03.2027, cu aceleași riscuri pentru cine depune cererea târziu.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Cererea e respinsă „ca nesusținută” dacă certificatul B1 nu ajunge la termen",
+            "major": true,
+            "article": "art. XXI alin. (2) din Legea nr. 14/2025"
+          },
+          {
+            "text": "Termen fix 15.03.2027: cine depune cererea târziu are doar câteva săptămâni",
+            "major": false,
+            "article": "art. XXI alin. (1) din Legea nr. 14/2025"
+          },
+          {
+            "text": "Nicio măsură de capacitate B1, deși unele examene sunt doar cu prezență fizică",
+            "major": false,
+            "article": "art. unic din OUG nr. 16/2026"
+          },
+          {
+            "text": "Nicio cifră despre certificatele B1 eliberate; nu se știe dacă un an ajunge",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Legea nu spune explicit că derogarea se stinge după 15.03.2027",
+            "major": false,
+            "article": "art. XXI alin. (1) din Legea nr. 14/2025"
+          },
+          {
+            "text": "Risc real de o nouă prelungire prin ordonanță de urgență în martie 2027",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Cetățenii moldoveni pot folosi foaia matricolă în locul certificatului B1",
+            "major": true,
+            "article": "art. 15¹ alin. (4) lit. b)"
+          },
+          {
+            "text": "Încă un an pentru certificatul B1: termenul devine 15.03.2027",
+            "major": false,
+            "article": "art. XXI alin. (1) din Legea nr. 14/2025"
+          },
+          {
+            "text": "Cerința B1 rămâne aceeași; prelungirea nu adaugă obligații noi",
+            "major": false,
+            "article": "art. unic din OUG nr. 16/2026"
+          },
+          {
+            "text": "Legea de aprobare citează acum corect OUG nr. 16/2026 și Monitorul Oficial",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Expunerea dă cifre despre cereri, inclusiv ponderea cetățenilor din Republica Moldova",
+            "major": false,
+            "article": null
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:00:02.617Z"
+    }
+  ]
+}

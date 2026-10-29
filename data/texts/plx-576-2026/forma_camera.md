@@ -1,0 +1,17 @@
+# PARLAMENTUL ROMÂNIEI
+
+# CAMERA DEPUTAȚILOR
+
+LEGE
+
+pentru acceptarea Deciziei Consiliului (UE, Euratom) 2026/1296, adoptată la Bruxelles, la 26 mai 2026, de modificare a Actului privind alegerea membrilor Parlamentului European prin vot universal direct, anexat la Decizia 76/787/CECO, CEE, Euratom a Consiliului din 20 septembrie 1976
+
+Camera Deputaților adoptă prezentul proiect de lege.
+
+Articol unic. - Se acceptă Decizia Consiliului (UE, Euratom) 2026/1296, adoptată la Bruxelles, la 26 mai 2026, de modificare a Actului privind alegerea membrilor Parlamentului European prin vot universal direct, anexat la Decizia 76/787/CECO, CEE, Euratom a Consiliului din 20 septembrie 1976.
+
+Acest proiect de lege a fost adoptat de Camera Deputaților în ședința din 16 septembrie 2026, cu respectarea prevederilor art. 76 alin. (2) din Constituția României, republicată.
+
+p. PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+NATALIA-ELENA INTOTERO

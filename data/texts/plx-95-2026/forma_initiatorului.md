@@ -1,0 +1,31 @@
+# Parlamentul României
+
+Camera Deputaților
+
+Senat
+
+# LEGE pentru completarea art.30 din Legea nr.53/2003 Codul muncii
+
+Parlamentul României adoptă prezenta lege:
+
+Art. I – La articolul 30 din Legea nr.53/2003 - Codul muncii, publicată în Monitorul Oficial al României, Partea I, nr.72, din 5 februarie 2003, republicată, cu modificările și completările ulterioare, după alin.(4) se introduce un nou alineat, alin.(5), cu următorul cuprins:
+
+(5) Cu ocazia înscrierii la concurs sau examen, instituția sau autoritatea publică angajatoare are obligația de a verifica autenticitatea diplomelor de studiu, a echivalărilor naționale pentru studiile absolvite în străinătate și a altor înscrisuri care atestă nivelul de studii al candidatului. Autenticitatea se certifică exclusiv de către Ministerul Educației și Cercetării.
+
+Art. II – (1) În termen de 60 de zile de la publicarea prezentei legi în Monitorul Oficial al României, Partea I, Ministerul Educației și Cercetării adoptă metodologia și modalitățile tehnice privind atestarea autenticității actelor de studii.
+
+(2) În termen de 90 de zile de la publicarea prezentei legi în Monitorul Oficial al României, Partea I, Guvernul actualizează normele metodologice de aplicare a legii.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.
+
+PREȘEDINTELE
+
+PREȘEDINTELE
+
+CAMEREI DEPUTAȚILOR,
+
+SENATULUI,
+
+Sorin-Mihai GRINDEANU
+
+Mircea ABRUDEAN

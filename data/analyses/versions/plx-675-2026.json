@@ -1,0 +1,97 @@
+{
+  "slug": "plx-675-2026",
+  "billId": "PL-x 675/2026",
+  "updatedAt": "2026-10-29T13:13:57.588Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L411FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "CASS plătită voluntar se recalculează dacă devii scutit în cursul anului",
+      "summaryTlDr": "Intenția e corectă și legea e inofensivă, dar textul e mult mai îngust decât promite: acoperă doar persoanele care devin scutite (art. 154), nu și pe cele care se angajează, adică exact exemplul din Expunerea de motive. Formula „se recalculează”, fără metodă și fără restituire, riscă să rămână fără efect practic.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/600/70/5/se766.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "CASS plătit voluntar se recalculează dacă devii scutit în cursul anului",
+      "summaryTlDr": "Lege mică și utilă: cine a ales să plătească voluntar CASS și apoi devine scutit nu mai datorează suma întreagă. Textul ratează însă exact cazul invocat de inițiatori, angajarea, și nu spune cum se face recalcularea.",
+      "scores": {
+        "agy": 3,
+        "claude": 2,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat tacit textul inițiatorului, neschimbat; angajații tot nu scapă de plata dublă a CASS",
+      "summary": "Senatul a lăsat textul exact cum l-a scris inițiatorul; s-au schimbat doar formulele de adoptare. Persoanele exceptate primesc recalcularea CASS voluntare, dar cine se angajează după opțiune rămâne neacoperit, iar restituirea nu e garantată.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Cine se angajează după opțiune nu e acoperit; salariatul nu e exceptat",
+            "major": true,
+            "article": "art. unic (art. 180 alin. (5) Cod fiscal)"
+          },
+          {
+            "text": "Lipsesc încetarea de drept, compensarea sau restituirea și procedura simplificată promise",
+            "major": true,
+            "article": "art. unic (art. 180 alin. (5) Cod fiscal)"
+          },
+          {
+            "text": "Exceptarea apărută după 31 decembrie nu e acoperită de recalculare",
+            "major": true,
+            "article": "art. unic (art. 180 alin. (5) Cod fiscal)"
+          },
+          {
+            "text": "„Se recalculează” fără metodă și dată de referință; ANAF decide, fără termen",
+            "major": false,
+            "article": "art. unic (art. 180 alin. (5) Cod fiscal)"
+          },
+          {
+            "text": "Formularea „optează în anul curent” este imprecisă",
+            "major": false,
+            "article": "art. unic (art. 180 alin. (5) Cod fiscal)"
+          },
+          {
+            "text": "Impactul bugetar nu e estimat și nu are sursă de acoperire",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Contribuția voluntară nu mai rămâne datorată integral dacă persoana devine exceptată",
+            "major": true,
+            "article": "art. unic (art. 180 alin. (5) Cod fiscal)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 3,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:13:57.588Z"
+    }
+  ]
+}

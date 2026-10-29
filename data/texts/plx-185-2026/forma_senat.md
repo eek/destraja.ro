@@ -1,0 +1,681 @@
+Dosar nr.1529A/2026 G.G.-p dv
+
+CURTEA CONSTITUTIONALĂ REGISTRATURĂ JURISDICTIONALĂ NR. 4170 / 23 MAR 2026
+
+Domnului Sorin Mihai GRINDEANU, PREȘEDINTELE CAMEREI DEPUTATILOR
+
+PARLAMENTUL ROMÂNIEI CAMERA DEPUTATILOR SECRETAR GENERAL Nr. 2/2046 CP 20\_26 Luna\_03\_Zlua\_25
+
+În conformitate cu dispozițiile art.l6 alin.(2) din Legea nr.47/1992 privind organizarea și funcționarea Curții Constituționale, va comunicăm, alăturat, în copie, sesizarea formulată de senatori aparținând Grupului parlamentar al Alianței pentru Unirea Românilor referitoare la neconstituționalitatea Legii bugetului asigurărilor sociale de stat pe anul 2026 (L147/2026 ; Pl-x nr. 185/2026).
+
+Va adresăm rugămintea de a ne comunica punctul dumneavoastră de vedere până la data de 25 martie 2026 (inclusiv în format electronic la adresa de mail: ccr-pdv@ccr.ro), tinând seama de faptul ca dezbaterile Curții Constituționale vor avea loc în data de 26 martie 2026.
+
+Vă asigurăm, domnule Președinte, de întreaga noastră considerație.
+
+Prof. univ. dr. Dacian-Gosmin DRAGOȘ
+
+7/5SE/20-03-2026
+
+Dosar nr.1529A/2026
+
+CURTEA CONSTITUTIONALĂ REGISTRATURĂ JURISDICTIONALĂ NR. 4170 / 23 MAR 2026
+
+## Domnului Sorin Mihai GRINDEANU, PREȘEDINTELE CAMEREI DEPUTATILOR
+
+În conformitate cu dispozițiile art.16 alin.(2) din Legea nr.47/1992 privind organizarea și funcționarea Curții Constituționale, va comunicăm, alăturat, în copie, sesizarea formulată de senatori aparținând Grupului parlamentar al Alianței pentru Unirea Românilor referitoare la neconstituționalitatea Legii bugetului asigurărilor sociale de stat pe anul 2026 (L147/2026 ; Pl-x nr. 185/2026).
+
+Va adresăm rugămintea de a ne comunica punctul dumneavoastră de vedere până la data de 25 martie 2026 (inclusiv în format electronic la adresa de mail: ccr-pdv@ccr.ro), ținând seama de faptul ca dezbaterile Curții Constituționale vor avea loc în data de 26 martie 2026.
+
+Vă asigurăm, domnule Președinte, de întreaga noastră considerație.
+
+Prof. univ. dr. Dacian-Gosmin DRAGOȘ
+
+Dosar nr.1529A/2026
+
+CURTEA CONSTITUTIONALĂ REGISTRATURĂ JURISDICTIONALĂ NR. 4170 / 23 MAR 2026
+
+## Domnului Sorin Mihai GRINDEANU, PREȘEDINTELE CAMEREI DEPUTATILOR
+
+În conformitate cu dispozițiile art.l6 alin.(2) din Legea nr.47/1992 privind organizarea și funcționarea Curții Constituționale, va comunicăm, alăturat, în copie, sesizarea formulată de senatori aparținând Grupului parlamentar al Alianței pentru Unirea Românilor referitoare la neconstituționalitatea Legii bugetului asigurărilor sociale de stat pe anul 2026 (L147/2026 ; Pl-x nr. 185/2026).
+
+Va adresăm rugămintea de a ne comunica punctul dumneavoastră de vedere până la data de 25 martie 2026 (inclusiv în format electronic la adresa de mail: ccr-pdv@ccr.ro), tinând seama de faptul ca dezbaterile Curții Constituționale vor avea loc în data de 26 martie 2026.
+
+Vă asigurăm, domnule Președinte, de întreaga noastră considerație.
+
+Prof. univ. dr. Dacjan-Gosmin DRAGOȘ
+
+# Senat
+
+Secretar general
+
+# Doamnei Elena-Simina TĂNĂSESCU PREȘEDINTELE CURȚII CONSTITUȚIONALE
+
+În temeiul dispozițiilor art.15 alin.(4) din Legea nr.47/1992 privind organizarea și funcționarea Curții Constituționale, republicată, cu modificările și completările ulterioare, vă transmitem, alăturat, sesizarea de neconstituționalitate a Legli bugetului asigurărilor sociale de stat pe anul 2026 (L 147/2026; PL-x nr. 185/2026), formulată în condițiile art.146 lit.a) din Constituția României, republicată.
+
+Precizăm că sesizarea a fost depusă și înregistrată la Cabinetul Secretarului General al Senatului cu nr. XXXV/1304 în data de 21 martie 2026
+
+Cu deosebită considerație,
+
+SECRETAR GENERAL
+
+Mario-Ovino Po###
+
+# Parlamentul României
+
+Senat
+
+Grupul Parlamentar al Aliantei pentru Unirea Românilor
+
+Domnului Mario Ovidiu Oprea, Secretarul General al Senatului României,
+
+Stimate domnule secretar general,
+
+În temeiul art 15, alin. (1) din Legea nr. 47/1992, vă înaintăm sesizarea a mai mult de 25 de senatori referitoare la aspectele de neconstituționalitate care vizează Legea bugetului asigurărilor sociale de stat pe anul 2026 (L147/2026; PL-x nr. 185/2026).
+
+Atașăm prezentei adrese lista cu semnăturile senatorilor.
+
+Cu aleasă considerație,
+
+Laurențiu Plăeșu
+
+vicelider al grupului parlamentar
+
+al Aliantei pentru Unirea Românilor
+
+# Parlamentul României Senat Grupul Parlamentar AUR
+
+Câtre,
+
+## CURTEA CONSTITUTIONALĂ A ROMÂNIEI
+
+Stimate Domnule Presedinte,
+
+Subsemnații senatori înscriși în lista anexă la prezenta cerere, în temeiul art. 146 lit. a) din Constituția României, revizuită și republicată și ale art. 153 alin. (2) din Regulamentul Senatului, aprobat prin Hotărârea Senatului României nr. 28/2005, publicată în M. Of. nr. 948 din 25 octombrie 2005, republicat în M. Of. nr. 9 din 09 ianuarie 2025, cu modificările și completările ulterioare, precum și ale art. 15 din Legea nr. 47/1992 privind organizarea și funcționarea Curții Constituționale a României, republicată în Monitorul Of. nr. 807 din 3 decembrie 2010, cu modificările și completările ulterioare, formulăm prezenta
+
+## OBJECTIE DE NECONSTITUTIONALITATE
+
+a prevederilor Legii bugetului asigurărilor sociale de stat pe anul 2026 (PL-x nr. 185/2026-L147/2026), în forma adoptată în ședința comună a Camerei Deputaților și Senatului din 20 martie 2026.
+
+Având în vedere următoarele
+
+## CONSIDERENTE
+
+## 1. Obiectul controlului de neconstituționalitate
+
+În privința obiectului sesizării, acesta constă în Legea bugetului asigurărilor sociale de stat pe anul 2026 (PL-x nr. 185/2026-L147/2026), în continuare numită "Legea", adoptată în ședința comună a Camerei Deputaților și Senatului din data de 20 martie 2026. Legea a fost înregistrată la Camera Deputaților cu nr. 185/13.03.2026, la Senat cu nr. L147/2026 și la Guvern cu nr. E34/12.03.2026. Legea a fost inițiată de Guvernul României și a parcurs procedura legislativă în regim de urgență.
+
+Prin prezenta sesizare, solicităm Curții Constituționale să se pronunțe cu privire la motivele de neconstituționalitate extrinsecă și intrinsecă ale Legii, în integralitatea acesteia, precum și ale articolelor menționate în cuprinsul obiectiei de neconstituționalitate, prin raportare la dispozițiile Constituției României.
+
+Subliniem de la bun început că obiectiile formulate nu reprezintă o contestare abstractă a politicii de consolidare bugetară ca atare, ci vizează modalitățile prin care această politică este implementată cu încălcarea unor drepturi și principii constituționale fundamentale. Există alternative de politică bugetară care ar putea atinge obiectivele de consolidare fiscală fără a sacrifica drepturile constituționale ale pensionarilor, beneficiarilor de ajutor de șomaj și altor categorii sociale protejate de Constituție. Refuzul de a lua în considerare aceste alternative și de a indexa pensiile conform legii constituie, prin el însuși, o decizie cu valențe de neconstituționalitate.
+
+## II. Admisibilitatea sesizării de neconstituționalitate
+
+Față de prevederile art. 146 lit. a) teza întâi din Constituție, sesizarea de neconstituționalitate îndeplinește condițiile prevăzute atât sub aspectul titularilor dreptului de sesizare, întrucât a fost formulată de un număr de peste 25 de senatori, cât și sub aspectul obiectului, fiind vorba de o lege adoptată, dar nepromulgată încă.
+
+Cu privire la termenul în care poate fi sesizată instanța de contencios constituțional, potrivit art. 15 alin. (2) din Legea nr. 47/1992, acesta este de 5 zile de la data depunerii legii adoptate la secretarii generali ai celor două Camere ale Parlamentului, întrucât legea nu a fost adoptată în procedură de urgență. Totodată, în temeiul art. 146 lit. a) teza întâi din Legea fundamentală, Curtea Constituțională se pronunță asupra constituționalității legilor înainte de promulgarea acestora, care, potrivit art. 77 alin. (1) teza a doua din Constituție, se face în termen de cel mult 20 de zile de la primirea legii adoptate de Parlament, iar, potrivit art. 77 alin. (3) din Constituție, în termen de cel mult 10 zile de la primirea legii adoptate după reexaminare.
+
+Legea care face obiectul acestei sesizări a fost depusă la Secretarul General al Senatului în vederea exercitării dreptului de sesizare asupra constituționalității legii la data de 20.03.2026.
+
+În consecință, Curtea Constituțională este legal sesizată și este competentă, potrivit dispozițiilor art. 146 lit. a) din Constituție, precum și ale art. 1, art. 10, art. 15-art. 18 din Legea nr. 47/1992, să soluționeze obiectia de neconstituționalitate.
+
+## III. Criticile de neconstituționalitate
+
+## A. CRITICILE DE NECONSTITUTIONALITATE EXTRINSECĂ
+
+1\. Procedura legislativă accelerată incompatibilă cu importanta și complexitatea legii bugetare – încălcarea art. 1 alin. (3) și alin. (5), art. 2 alin. (1), art. 61 alin. (1), art. 64 alin. (1) și art. 138 din Constituția României
+
+Art. 61 alin. (1) din Constituție consacră Parlamentul ca "organ reprezentativ suprem al poporului român și unica autoritate legiuitoare a fării". Această calitate fundamentală impune nu doar competența formală de a adopta legi, ci și obligația asigurării unui proces legislativ real, substanțial, care să permită dezbaterea democratică autentică, analiza aprofundată a implicațiilor actelor normative și exercitarea responsabilă a puterii legislative. Un Parlament care adoptă legi fără a delibera efectiv nu exercită puterea legislativă în sensul constituțional al termenului, ci se rezumă la validarea formală a voinței executivului.
+
+Din documentele de urmărire a procesului legislativ al PL-x nr. 185/2026-L147/2026, rezultă cu claritate o compresie extremă a procedurii legislative, incompatibilă cu importanta și complexitatea unei legi bugetare care gestionează resurse publice de aproape 163 de miliarde de lei și care afectează drepturile a milioane de cetățeni:
+
+– Proiectul a fost depus la Camera Deputaților la data de 13.03.2026;
+
+\- Termenul pentru depunerea amendamentelor a fost fixat la 16.03.2026 (ora 13:00), adică la numai 3 zile de la depunere;
+
+\- Termenul pentru depunerea raportului a fost fixat la 18.03.2026 (ora 15:00), adică la numai 5 zile de la depunere;
+
+– Avizul Comisiei pentru muncă și protecție socială a fost primit la data de 16.03.2026;
+
+\-- Legea a fost adoptată în ședința comună din 20.03.2026, la numai 7 zile de la depunerea la Camera Deputaților.
+
+O lege bugetară de complexitatea și importanta Legii bugetului asigurărilor sociale de stat, care cuprinde cifre bugetare detaliate în multiple anexe, reguli complexe privind gestionarea fondurilor publice, derogări de la legea-cadru bugetară și care are implicații directe asupra drepturilor sociale ale milioane de beneficiari, impune, prin natura sa, un proces deliberativ autentic. Termenul de numai 3 zile pentru depunerea amendamentelor este vădit insuficient pentru ca parlamentarii să poată analiza continutul complex al legii, să consulte experti, să obțină informații de la instituțiile relevante și să formuleze amendamente pertinente și fundamentate. Practic, intervalul de 3 zile nici măcar nu permite citirea integrală și înțelegerea tuturor implicațiilor unui act normativ cu un buget de 163 miliarde de lei și cu implicații normative complexe, la care se adaugă anexele cu tabele detaliate.
+
+Art. 64 alin. (1) din Constituție garantează că organizarea și funcționarea fiecărei Camere se stabilesc prin regulament propriu, iar regulamentele parlamentare constituie expresia autonomiei parlamentare și a organizării procesului legislativ. Termenele reglementate pentru procedura de urgență, chiar și în interpretarea lor cea mai restrictivă, nu pot fi reduse la niveluri care fac imposibilă dezbaterea parlamentară autentică. Legiuiitorul constituant a prevăzut procedura de urgență pentru situații exceptionale care necesită adoptarea rapidă a unor acte normative, nu ca instrument de a eluda dezbaterea democratică pentru proiecte de mare complexitate și impact social major.
+
+Este de subliniat că urgența invocată pentru adoptarea Legii bugetului asigurărilor sociale de stat pe 2026 a fost, cel puțin parțial, o urgență auto-produsă prin întârzierea Guvernului în a depune proiectul de buget conform calendarului legal. Urgența creată prin propria inacțiune anterioară nu poate constitui o justificare constituțională validă pentru comprimarea drepturilor parlamentare la dezbatere și deliberare. A permite ca executivul să creeze urgența prin propria tardivitate, iar apoi să invoce această urgență pentru a ocoli controlul parlamentar efectiv, ar reprezenta o deturnare a instrumentelor constituționale de la scopul lor.
+
+Însuși art. 138 din Constituție atribuie o importantă constituțională specifică legilor bugetare, tratându-le într-un capitol distinct din Titlul IV (Economia și Finanțele Publice). Această importantă constituțională specială presupune că adoptarea legilor bugetare trebuie să se realizeze cu respectarea deplină a drepturilor parlamentarilor de a dczbate, de a propune amendamente și de a-și exprima votul în cunoștință de cauză. Procedura accelerată aplicată în speță, care a comprimat întregul proces legislativ în 7 zile calendaristice, contravine spiritului și literei dispozițiilor constituționale privind adoptarea legilor bugetare.
+
+Principiul dezbaterii parlamentare autcntice este o garanție fundamentală a democrației reprezentative consacrate prin art. 2 alin. (1) din Constituție: "Suveranitatea națională aparține poporului român, care o exercită prin organele sale reprezentative constituite prin alegeri libere, periodice și corecte, precum și prin referendum." Exercitarea suveranității prin organe reprezentative presupune că acestea funcționează efectiv ca reprezentanți ai poporului, deliberând în mod real și responsabil asupra legilor pe care le adoptă. Comprimarca procesului deliberativ la 7 zile pentru o lege de importanța Legii bugetului asigurărilor sociale de stat golește de continut principiul reprezentativității democratice și transformă rolul parlamentarilor de la cel de legiuiitori deliberativi la cel de simpli validatori formali ai propunerilor executive.
+
+Totodată, art. 1 alin. (5) din Constituție consacră obligația respectării Constituției, a supremației sale și a legilor. În egală măsură, art. 1 alin. (3) din Constituție declară România ca stat de drept. Standardele statului de drept democratic includ nu numai legalitatea formală, ci și calitatea procesului legislativ – respectarea unor standarde minime de deliberare, transparentă și consultare, cu atât mai mult pentru legi cu impact major asupra drepturilor fundamentale. Un stat de drept nu poate tolera ca o lege care afectează drepturile sociale ale sute de mii de cetățeni să fie adoptată prin procedură de urgență auto-generată, în 7 zile, cu 3 zile pentru amendamente, fără dezbateri publice reale.
+
+Un element suplimentar de neconstituționalitate extrinsecă derivă din faptul că avizul nefavorabil al Consiliului Economic și Social (CES), organ consultativ constituțional instituit prin art. 141 din Constituție, exprimat prin votul reprezentanților sindicatelor și ai societății civile, a fost în mod practic ignorat. Avizul CES nr. 1874/12.03.2026 semnalează disfuncționalități grave ale bugetului propus, în special în ceea ce privește înghețarea drepturilor sociale, supraestimarea absorbției fondurilor europene și impactul regresiv al majorărilor fiscale. Procesul legislativ accelerat nu a permis ca Parlamentul să analizeze serios argumentele CES și să justificatione adoptarea bugetului în pofida acestora. Rolul constituțional al CES de organ consultativ al Parlamentului, consacrat la art. 141 din Constituție, nu poate fi redus la o formalitate procedurală fără continut, prin adoptarea actului normativ în regim de urgență, în absenta analizei temeinice a argumentelor CES. Curtea Constituțională a subliniat în jurisprudenta sa că respectarea rolului consultativ al organelor specializate este o condiție de legalitate a procesului legislativ.
+
+2\. Derogările multiple de la cadrul normativ primar în materie bugetară și erodarea sistematică a ierarhiei normative – încălcarca art. 1 alin. (3) și alin. (5), art. 73 alin. (3) și art. 76 din Constituția României
+
+Legea bugetului asigurărilor sociale de stat pe anul 2026 conține un număr semnificativ de derogări exprese de la Legea nr. 500/2002 privind finanțele publice și de la Legea responsabilității fiscal-bugetare nr. 69/2010. Principalele derogări sunt:
+
+Art. 10 alin. (1) din Lege derogă în mod expres de la art. 47 alin. (9) și (10) din Legea nr. 500/2002, autorizând ordonatorul principal de credite să efectueze virări de credite de angajament și credite bugetare între programe, peste limita prevăzută de lege;
+
+Art. 11 alin. (2) din Lege derogă de la art. 47 alin. (16) din Legea nr. 500/2002, autorizând ordonatorul principal de credite să introducă titlul 56 "Proiecte cu finanțare din fonduri externe nerambursabile (FEN) post-aderare" pe baza contractelor/deciziilor/ordinelor de finanțare;
+
+\- Art. 26 alin. (1) din Lege derogă în mod expres de la art. 49 alin. (4) din Legea nr. 500/2002, înlocuind mecanismul obișnuit de deschidere a creditelor cu un sistem de limite lunare aprobate de ministrul finanțelor;
+
+Art. 18 alin. (2) din Lege face referire la art. 12 alin. (1) lit. e) și f) din Legea nr. 69/2010 în contextul reglementării virărilor de credite neutilizate, creând un cadru normativ suprapus față de cadrul legal existent.
+
+Practica multiplicării derogărilor în legile bugetare anuale față de legea-cadru financiară ridică probleme constituționale serioase sub aspectul principiului legalității, al clarității și al coerenței normative, ca dimensiuni ale statului de drept.
+
+Potrivit art. 1 alin. (5) din Constituție, respectarea legilor este obligatorie. Legea nr. 500/2002 privind finanțele publice a fost adoptată ca lege organică în domeniul finanțelor publice, în temeiul art. 73 alin. (3) lit. a) din Constituție, care prevede că prin lege organică se reglementează sistemul financiar. Derogările repetate prin legi ordinare anuale de la o lege organică-cadru creează o fragmentare a cadrului normativ și subminează predictibilitatea regulilor care guvernează gestiunea finanțelor publice.
+
+Sub aspectul ierarhiei actelor normative, o problemă fundamentală apare din faptul că Legea în discuție are caracter ordinar (astfel cum este calificată explicit în documentele de urmărire a procesului legislativ: "face parte din categoria legilor ordinare"), însă derogă de la prevederi ale Legii nr. 500/2002 care au caracter organic. Conform art. 76 din Constituție, legile organice se adoptă cu votul majorității membrilor fiecărei Camere. Derogarea de la o lege organică printr-o lege ordinară implică depășirea competenței normative a legii ordinare și afectează coerența ierarhiei actelor normative, cu impact direct asupra principiului statului de drept consacrat la art. 1 alin. (3) din Constituție. Dacă derogările din Legea bugetului asigurărilor sociale de stat pe 2026 vizează prevederi cu caracter organic din Legea nr. 500/2002, adoptarea acestor derogări cu simpla majoritate a unei legi ordinare contravine rigorilor constituționale ale art. 76 din Constituție.
+
+Aceasta practică legislativă creează un sistem normativ instabil, în care regulile de bază aplicabile gestiunii finanțelor publice sunt constant modificate și derogate prin legi temporare, ceea ce face imposibilă previzibilitatea și predictibilitatea normativă necesare funcționării unui stat de drept. Legiuitorul ordinar nu poate construi, an de an, cadre juridice speciale și derogatorii față de propriile legi organice, fără a submina principiul supremației acestora din urmă. Aceasta contravine principiului legalității, consacrat ca valoare fundamentală prin art. 1 alin. (5) din Constituție, și principiului securității juridice, ca dimensiune a statului de drept consacrat prin art. 1 alin. (3) din Constituție.
+
+Curtea Constituțională a statuat în jurisprudența sa că principiul securității juridice presupune că normele juridice trebuie să fie clare, previzibile și accesibile. Un cadru normativ bugetar în care legea-cadru (Legea nr. 500/2002) este permanent derogată prin legi speciale anuale, creând un regim exceptional permanent, nu satisface cerințele de claritate și previzibilitate ale principiului securității juridice.
+
+3\. Nerespectarea obligatiei de fundamentare a bugetului public national de baze prudente si realiste – încălcarea art. 1 alin. 3 coroborat cu art. 138 alin. (2) din Constituție si art. 36 din Legea nr. 500/2002
+
+Art. 138 alin. (2) din Constituție stabilește că "Guvernul elaborază anual proiectul bugetului de stat și pe cel al asigurărilor sociale de stat, pe care le supune, separat, aprobării Parlamentului." Această dispoziție constituțională implică nu numai o obligație formală de depunere a proiectelor, ci și o obligație de fond: elaborarea lor pe baze tehnice, economice și sociale solide, care să permită Parlamentului exercitarea controlului bugetar în deplină cunoștință de cauză.
+
+Din analiza Avizului CES nr. 1874/12.03.2026, a Opiniei Consiliului Fiscal și a documentelor conexe, rezultă că bugetul asigurărilor sociale de stat pe 2026 se întemeiază pe premise optimiste semnificative, care ridică semne serioase de întrebare cu privire la realismul și prudența fundamentării sale:
+
+Prima premisă problematică – Supraestimarea absorbției fondurilor europene:
+
+Bugetul asigurărilor pentru somaj prevede că aproape 41,7% din totalul cheltuielilor programate provin din fonduri europene, inclusiv PNRR. Aceasta reprezintă o proporție ncobișnuit de ridicată, fără precedent în execuțiile anterioare ale ANOFM, unde absorbția reală, în anii buni, s-a situat mult sub acest nivel. O estimare de absorbție la 41,7% depășește cu mult performanțele istorice ale instituțiilor implicate. Dacă absorbția reală a fondurilor europene se situează sub nivelul preconizat – ceea ce, pe baza istoricului absorbției instituționale, este o posibilitate reală și documentată – bugetul va genera presiuni de ajustare neprevăzute în cursul anului.
+
+## A doua premisă problematică – Contradicițiile macroeconomice ale bugetului:
+
+Avizul CES documentează că bugetul este construit pe parametri macroeconomici cu inconsistente interne: deficit bugetar de -6,2% din PIB, cheltuieli de personal de 8,2% din PIB și datorie publică de 62,5% din PIB – concomitent cu un sold structural de -5,4% din PIB, mult peste obiectivul pe termen mediu de -1% din PIB. Această inconsistență macroeconomică – austeritate în cheltuielile sociale, dar permisivitate în raport cu datoria publică și soldul structural – creează un buget care nu poate fi calificat drept fundamentat pe baze prudente în sensul art. 36 alin. (1) din Legea nr. 500/2002.
+
+A treia premisă problematică – Dependența excesivă de subvenția de echilibrare:
+
+Avizul CES relevă că subvenția de echilibrare de la bugetul de stat este dimensionată la 31.419.238 mii lei, iar veniturile BASS sunt diminuate cu 23.799.529 mii lei aferente Pilonului II. Această dependență ridicată de subvenția bugetului general consolidat, în contextul în care legea plafoanelor comprimă spațiul pentru cheltuieli, crează riscul subfinanțării cronice sau al întârzierilor în plata unor prestații, în special dacă execuția veniturilor fiscale dezamăgește ca urmare a efectului majorărilor de TVA și accize asupra activității economice.
+
+Adoptarea unui buget cu fundamentări optimiste excesive, în contradictie cu istoricul execuțiilor bugetare și cu prudența impusă de art. 36 din Legea nr. 500/2002, contravine obligației constituționale de elaborare a bugetului pe baze solide, prevăzută de art. 138 alin. (2) din Constituție. Parlamentul nu poate exercita efectiv rolul său de autoritate bugetară dacă proiectul supus aprobării are fundamentări ircale sau excesiv optimiste. O fundamentare bugetară irealistă afectează calitatea controlului parlamentar și, în ultimă instanță, drepturile beneficiarilor ale căror prestații ar putea fi afectate de incapacitatca bugetului de a se executa conform prevederilor sale.
+
+## B. CRITICILE DE NECONSTITUTIONALITATE INTRINSECA
+
+1\. Refuzul majorării valorii punctului de referință conform art. 84 din Legea nr. 360/2023 privind sistemul public de pensii, suspendat prin art. XXXI din Legea nr. 141/2025 si confirmat prin Legea bugetului asigurărilor sociale de stat pe 2026 – încălcarea art. 47 alin. (2), art. 16 alin. (1), art. 44, art. 15 alin. (2) si art. 1 alin. (3) din Constituția României
+
+A. Cadrul legal: mecanismul de majorare a valorii punctului de referință instituit prin Legea nr. 360/2023
+
+Legea nr. 360/2023 privind sistemul public de pensii, act normativ prin care a fost instituit noul cadru legal al pensiilor publice în România, a reformat integral arhitectura de calcul a pensiei, înlocuind conceptul de "punct de pensie" cu cel de "punct de referință" și stabilind un mecanism transparent și previzibil de majorare anuală a acestuia.
+
+Art. 83 alin. (1) din Legea nr. 360/2023 prevede că pensia se calculează prin înmultirea punctajului mediu anual realizat de asigurat cu valoarea punctului de referință. Valoarea punctului de referință este, prin urmare, variabilă esențială care determină puterea de cumpărare a pensiei: cu cât aceasta este mai mare, cu atât pensia are o valoare reală mai ridicată.
+
+Art. 84 alin. (2) din Legea nr. 360/2023 a stabilit că, la data intrării în vigoare a legii, valoarea punctului de referință este de 81 de lei. Această valoare reprezintă raportul dintre valoarea punctului de pensie la data intrării în vigoare (1.785 lei, conform art. 84 alin. (6)) și nivelul mediu al stagiiilor de cotizare prevăzute de legislația anterioară (25 ani), astfel cum definește art. 84 alin. (1) din Legea nr. 360/2023.
+
+Mecanismul de majorare anuală este reglementat de art. 84 alin. (3) din Legea nr 360/2023, cu următorul conținut:
+
+"(3) Începând cu anul următor intrării în vigoare a prezentei legi, valoarea punctului de referință se majorează anual, la începutul fiecărui an, în luna ianuarie, cu rata medie anuală a inflației, la care se adaugă 50% din creșterea reală a câștigului salarial mediu brut realizat, indicatori definitivi, cunoscuți în anul curent pentru anul calendaristic anterior, comunicați de Institutul Național de Statistică."
+
+Mecanismul de majorare prevăzut de art. 84 alin. (3) din Legea nr. 360/2023 este un mecanism de indexare anuală a pensiei la inflație plus 50% din creșterea reală a salariului mediu brut – o formulă echilibrată, care protejează puterea de cumpărare a pensionarilor și le permite să beneficieze, parțial, de creșterea economică generală. Formula de indexare reflectă o alegere de politică legislativă deliberată: pensionarii nu sunt izolați de dinamica economică generală, ci participă la aceasta în mod moderat, prin componenta de 50% din creșterea reală a câștigului salarial.
+
+Sunt relevante, de asemenea, și prevederile art. 84 alin. (4) și (5) din Legea nr. 360/2023, care instituie garanții suplimentare:
+
+"(4) În situația în care unul dintre indicatorii prevăzuți la alin. (3) are valoare negativă, la stabilirea valorii punctului de referință se utilizează indicatorul cu valoare pozitivă."
+
+"(5) în situația în care indicatorii prevăzuți la alin. (3) au valori negative se păstrează ultima valoare a punctului de referință."
+
+Aceste dispoziții demonstrează că Legea nr. 360/2023 a conceput mecanismul de majorare ca pe un instrument cu dublă funcție: progresiv în condiții economice normale (majorare cu inflație plus 50% din creșterca reală a salariului mediu brut) și "de podea" (floor) în condiții economice adverse (valoarea nu scade chiar dacă ambii indicatori sunt negativi). Mecanismul este, prin construcția sa, unul de protecție minimă garantată – o plasă de siguranță care asigură că pensionarii nu sunt afectați de scăderea indicatorilor macroeconomici, dar beneficiază de creșterea acestora.
+
+Totodată, art. 84 alin. (7) din Legea nr. 360/2023 introduce un plafon prudențial: procentul de majorare nu poate depăși procentul de creștere al veniturilor din contribuțiile de asigurări sociale la buget sau rata medie anuală a inflației din ultimii 2 ani – asigurând că majorarea valorii punctului de referință nu depășește capacitatea contributivă a sistemului. Art. 84 alin. (8) instituie un mecanism de monitorizare anuală a respectării regulilor de majorare, printr-un raport al Consiliului Fiscal publicat în luna iunie a fiecărui an. Prin urmare, mecanismul din art. 84 al Lcgii nr. 360/2023 nu este unul lipsit de prudentă fiscală, ci dimpotrivă – include multiple mecanisme de control și de limitare a costurilor bugetare.
+
+Potrivit art. 84 alin. (1) din Legea nr. 360/2023, "valoarea punctului de referință prevăzută la art. 83 alin. (1) reprezintă raportul dintre valoarea punctului de pensie la data intrării în vigoare a prezentei legi și nivelul mediu al stagiiilor de cotizare prevăzute de legislația anterioară, respectiv nivelul 25". Valoarea de 81 lei a punctului de referință este, prin urmare, un construct tehnic-actuarial care înglobează drepturile câștigate de pensionari în baza contribuțiilor plătite de-a lungul anilor. Majorarea anuală a acestei valori conform art. 84 alin. (3) nu este un gest de generozitate bugetară, ci o obligație de menținere a valorii reale a unui drept câștigat prin contribuție la sistemul public.
+
+B. Suspendarea ilegală a mecanismului de majorare pentru 2026 prin art. XXXI din Legea nr. 141/2025
+
+Mecanismul de majorare anuală a valorii punctului de referință, instituit prin art. 84 alin. (3)-(5), (7) și (8) din Legea nr. 360/2023, ar fi urmat să se aplice pentru prima dată, conform termenelor legale, în luna ianuarie 2026, adică la începutul anului următor celui în care Legea nr. 360/2023 a intrat în vigoare.
+
+Cu toate acestea, prin art. XXXI din Legea nr. 141/2025 privind unele măsuri fiscal-bugetare, legiutorul a intervenit pentru a bloca acest mecanism, prin două dispoziții cu efecte directe:
+
+"Art. XXXI – (1) În anul 2026, valoarea punctului de referință prevăzut la art. 83 alin. (1) din Legea nr. 360/2023 privind sistemul public de pensii se menține la nivelul de 81 lei."
+
+"(2) Prevederile art. 84 alin. (3)-(5), (7) și (8) din Legea nr. 360/2023 se aplică începând cu anul 2027."
+
+Prin urmare, art. XXXI din Legea nr. 141/2025 a produs un dublu efect normativ de o gravitate constituțională exceptională:
+
+Primul efect – înghețarea valorii punctului de referință la nivelul de 81 lei pentru tot anul 2026. Aceasta înseamnă că valoarea punctului de referință nu s-a majorat în ianuarie 2026 cu indicatorii macroeconomici prevăzuți de art. 84 alin. (3) din Legea nr. 360/2023 (rata medie anuală a inflației plus 50% din creșterea reală a câștigului salarial mediu brut). Pensionarii au intrat în 2026 cu exact aceeași valoare nominală a punctului de referință ca în momentul adopției Legii nr. 360/2023 – adică cu o valoare care nu reflectă doi ani de inflație acumulată.
+
+Al doilea efect – amânarea aplicării mecanismului legal de majorare la 1 ianuarie 2027. Aceasta înseamnă că prima majorare a valorii punctului de referință conform formulei legale din art. 84 alin. (3) se va produce, cel mai devreme, în ianuarie 2027, nu în ianuarie 2026 cum prevedea Legea nr. 360/2023. Prin această amânare, legiuiitorul a întârziat cu un an întreg activarea mecanismului legal de indexare, privând pensionarii de beneficiul majorării pentru un an calendaristic complet.
+
+Semnificația acestor efecte poate fi cuantificată concret. Câștigul salarial mediu brut utilizat la fundamentarea bugetului asigurărilor sociale de stat pe 2026 este de 9.192 lei (art. 19 din Lege), față de 8.709 lei în 2025, ceea ce reprezintă o creștere nominală de aproximativ 5,5%. Dacă mecanismul de indexare din art. 84 alin. (3) ar fi funcționat conform legii, valoarea punctului de referință ar fi trebuit să crească de la 81 lei cu o valoare determinată de rata inflației din 2024 plus 50% din creșterea reală a câștigului salarial mediu brut din 2024 – indicatori definitivi cunoscuți la începutul lui 2025 și comunicați de INS. Înghețarea la 81 lei înseamnă că pensionarii nu au primit majorarea la care aveau dreptul legal, calculat prin formula echilibrată din art. 84 alin. (3) din Legea nr. 360/2023.
+
+C. Confirmarea și consolidarea înghetării prin Legea bugetului asigurărilor sociale de stat pe 2026
+
+Legea bugetului asigurărilor sociale de stat pe 2026 se înscrie în continuarea logică a blocajului normativ instituit prin art. XXXI din Legea nr. 141/2025, confirmând și consolidând înghețarea valorii punctului de referință la 81 lei. Art. 19 din Lege stabilește câstigul salariai mediu brut utilizat la fundamentarea bugetului la 9.192 lei – indicator care are relevanță directă pentru calculul pensiei, dar fără ca aceasta să se reflecte în majorarea valorii punctului de referință.
+
+Mai mult, întreaga structură a creditelor bugetare aprobate prin Legea bugetului asigurărilor sociale de stat pe 2026 este construită pe premisa că valoarea punctului de referință rămâne la 81 lei, fără alocarca unor sume suplimentare pentru majorarea acestuia conform formulei legale din art. 84 alin. (3) din Legea nr. 360/2023. Astfel, bugetul pe 2026 nu doar că confirmă înghețarea dispusă prin Legea nr. 141/2025, dar o și "bugetează" -- adică o transformă dintr-o decizie normativă externă într-un element structural al bugetului asigurărilor sociale, cu efecte obligatorii pentru executarea bugetară pe tot parcursul anului 2026.
+
+Prin adoptarea bugetului construit pe premisa valorii de 81 lei a punctului de referință, Parlamentul a ratificat, implicit, suspendarea mecanismului legal de indexare. Aceasta ridică problema neconstituționalității nu doar a Legii nr. 141/2025 (care face obiectul unor sesizări separate), ci și a Legii bugetului asigurărilor sociale de stat pe 2026, care perpetuează și consolidează efectele neconstituționale ale derogării anterioare.
+
+Subliniem că, în cadrul procesului legislativ al PL-x nr. 185/2026-L147/2026, Grupul Parlamentar AUR a propus amendamente vizând majorarea valorii punctului de referință în conformitate cu formula legală din art. 84 alin. (3) din Legea nr. 360/2023. Aceste amendamente au vizat restaurarea, în limitele legii bugetare, a mecanismului de indexare suspendat prin Legea nr. 141/2025 – adică asigurarea că bugetul pe 2026 alocă fondurile necesare pentru aplicarea formulei legale de majorare a punctului de referință. Respingerea acestor amendamente de majoritate, în contextul procedurii legislative comprimate la numai 3 zile pentru depunerea amendamentelor, a consolidat neconformitatea bugetului cu cadrul legal al pensiilor.
+
+D. Natura juridică a valorii punctului de referință și a mecanismului de majorare – drept legal cu fundament constituțional
+
+Pentru a aprecia corect dimensiunea constituțională a problemei, este esențial să înțelegem natura juridică a valorii punctului de referință și a mecanismului de majorare a acesteia.
+
+Valoarea punctului de referință, în sistemul instituit de Legea nr. 360/2023, nu este un parametru arbitrar sau o opțiune de politică socială discreționară. Ea reprezintă variabila centrală de calcul a pensiei, care determină direct cuantumul bănesc al pensiei fiecărui beneficiar. Formula de calcul este: pensie = punctaj mediu anual × valoarea punctului de referință. Prin urmare, menținerea valorii punctului de referință la nivelul de 81 lei, în loc de majorarea sa conform formutei legale, înseamnă direct că fiecare pensionar primește o pensie mai mică decât i s-ar cuveni dacă legea ar fi aplicată conform prevederilor sale.
+
+Mecanismul de majorare anuală prevăzut de art. 84 alin. (3) din Legea nr. 360/2023 face parte integrantă din "arhitectura dreptului la pensie" în sistemul instituit de această lege. El nu este o beneficiere suplimentară sau un privilegiu care poate fi acordat sau retras la discreția legiuiitorului ordinar, ci un element constitutiv al dreptului la pensie, care asigură că acesta are un continut economic real și nu se degradează prin inflație. Majorarea anuală a valorii punctului de referință cu inflația este, în esență, o revalorizare anuală a dreptului câștigat – un mecanism prin care statul respectă echivalența reală dintre contribuțiile plătite și prestația primită.
+
+Această natură juridică a mecanismului de indexare din art. 84 alin. (3) al Legii nr. 360/2023 îi conferă o dimensiune constituțională specifică, prin interfațarea cu:
+
+(i) art. 47 alin. (2) din Constituție – dreptul la pensie, care nu poate fi redus la un drept pur formal, ci trebuie să aibă un continut economic real;
+
+(ii) art. 44 din Constituție – dreptul de proprietate privată, sub aspectul protecției creanței patrimoniale a pensionarului față de sistemul public de asigurări;
+
+(iii) art. 1 alin. (3) din Constituție – caracterul social al statului și obligațiile pozitive de protecție socială care decurg din acesta;
+
+(iv) art. 15 alin. (2) din Constituție – principiul neretroactivității legii și protecția așteptărilor legitime create de cadrul legal instituit.
+
+E. Violarea art. 47 alin. (2) din Constituție – dreptul la pensie cu continut economic real
+
+Art. 47 alin. (2) din Constituție prevede că "cetățenii au dreptul la pensie, la concediu de maternitate plătit, la asistență medicală în unitățile sanitare de stat, la ajutor de șomaj și la alte forme de asigurări sociale publice sau private, prevăzute de lege." Dreptul constituțional la pensie nu este un drept pur formal, al cărui conținut poate fi redus arbitrar prin mecanisme bugetare sau normative. Conținutul real al dreptului la pensie este determinat de puterea de cumpărare efectivă a pensiei, adică de raportul dintre cuantumul nominal al pensiei și nivelul prețurilor.
+
+Prin adoptarea Legii nr. 360/2023, statul român a ales, în mod deliberat, să garanteze pensionarilor un anumit nivel de protecție împotriva eroziunii inflației: mecanismul din art. 84 alin. (3) asigură că valoarea reală a pensiei nu scade, ci, dimpotrivă, participă parțial la creșterea economică generală. Aceasta nu este o concesie discreționară, ci expresia concretă a respectării dreptului constituțional la pensie cu continut economic real.
+
+Prin suspendarea mecanismului de majorare prin art. XXXI din Legea nr. 141/2025 și prin adoptarea unui buget al asigurărilor sociale construit pe premisa valorii înghețate de 81 lei a punctului de referință, statul a permis erodarea valorii reale a pensiei în 2026 – exact fenomenul pe care Legea nr. 360/2023 a conceput să îl prevină. Această erodare nu este accidentală sau un efect secundar imprevizibil: este consecința directă și previzibilă a deciziei de a suspenda mecanismul legal de indexare, adoptată în condiții în care inflația și creșterea costului vieții sunt bine documentate.
+
+Contextul macroeconomic al anului 2026 amplifică gravitatea acestei erodări. Majorarea TVA de la 9% la 11% pentru o parte din alimente, creșterea cotei standard de TVA și creșterea accizelor la carburanți cu 10% generează o creștere semnificativă a costului vieții. Avizul CES nr. 1874/12.03.2026 estimează că o gospodărie cheltuind lunar 2.500 lei pe alimente și utilități înregistrează o creștere a cheltuielilor de 100-150 lei lunar ca efect al acestor majorări fiscale -- și aceasta constituie doar un calcul parțial, pentru un coș de consum simplificat. Menținerea valorii punctului de referință la 81 lei, în timp ce costul vieții crește substanțial, produce o diminuare reală a nivelului de trai al pensionarilor, incompatibilă cu dreptul la un nivel de trai decent garantat de art. 47 alin. (1) din Constituție și cu dreptul la pensie cu continut economic real garantat de art. 47 alin. (2) din Constituție.
+
+Suplimentar, trebuie avută în vedere și dimensiunea specifică a impactului asupra pensionarilor care se pensionează în 2026. Aceștia vor intra în sistem cu o valoare a punctului de referință de 81 lei – valoarea din 2023, nemodificată doi ani. Dreptul lor la pensie, calculat pe baza acestei valori înghețate, va fi, de la început, mai mic decât ar fi fost dacă mecanismul legal ar fi funcționat conform Legii nr. 360/2023. Aceasta este o atingere a dreptului constituțional la pensie cu conținut economic real, care se produce chiar din momentul deschiderii dreptului la pensie.
+
+F. Universalitatea dreptului la majorarea valorii punctului de referință – poziția AUR și incompatibilitatea cu "ajutorul selectiv"
+
+Un aspect fundamental al criticii de neconstituționalitate formulată de Grupul Parlamentar AUR este că dreptul la majorarea anuală a valorii punctului de referință prevăzut de art. 84 alin. (3) din Legea nr. 360/2023 este un drept universal, aparținând tuturor pensionarilor din sistemul public, fără nicio distinctie în funcție de cuantumul pensiei, de vârstă, de starea de sănătate sau de orice alt criteriu.
+
+Legea nr. 360/2023 nu prevede o majorare selectivă a valorii punctului de referință, aplicabilă numai pensionarilor cu pensii mici, "vulnerabili" sau aparținând unor categorii speciale. Mecanismul din art. 84 alin. (3) se aplică valorii punctului de referință – un parametru unic, aplicat uniform în formula de calcul a tuturor pensiilor din sistemul public. Majorarea valorii punctului de referință beneficiază automat și în egală măsură toți pensionarii, indiferent de cuantumul punctajului lor individual sau al pensiei lor.
+
+Prin urmare, orice propunere alternativă care ar înlocui majorarea legală a valorii punctului de referință cu o "compensatie" sau un "ajutor social" acordat selectiv numai pensionarilor "vulnerabili" nu reprezintă o respectare a dreptului prevăzut de Legea nr. 360/2023, ci o înlocuire ncautorizată a unui drept universal cu o măsură de asistență socială selectivă. Aceasta ar crea o diferențiere nelegitime între pensionari, bazată pe criteriul cuantumului pensiei, care nu are nicio bază în Legea nr. 360/2023 și care contravine art. 16 alin. (1) din Constituție privind egalitatea cetățenilor în fața legii.
+
+Amendamentele propuse de AUR au vizat tocmai asigurarea că majorarea valorii punctului de referință se aplică tuturor pensionarilor, conform formulei legale din art. 84 alin. (3) din Legea nr. 360/2023 – nu acordarea unei forme de "ajutor" selectiv. Aceasta este singura soluție conformă cu litera și spiritul Legii nr. 360/2023 și, implicit, cu dreptul constituțional la pensie al tuturor beneficiarilor sistemului public.
+
+Principiul egalității în drepturi consacrat de art. 16 alin. (1) din Constituție interzice ca, în aplicarea unui drept universal prevăzut de lege, statul să facă distinctii neprevăzute de acea lege. Legca nr. 360/2023 nu distinge între pensionari după cuantumul pensiei în ceea ce privește dreptul la majorarea valorii punctului de referință. Orice tratament diferențiat introdus pe cale bugetară sau prin acte normative separate, care acordă majorarea numai unor categorii de pensionari, ar viola principiul egalității consacrat de art. 16 alin. (1) din Constituție.
+
+## G. Violarea art. 44 din Constituție – dimensiunea patrimonială a dreptului la pensie
+
+Curtea Constituțională a recunoscut, în jurisprudența sa, că dreptul la pensie are natură patrimonială și beneficiază de protecția art. 44 din Constituție privind dreptul de proprietate privată. Pensiile au caracter (cel puțin parțial) contributiv: beneficiarii au contribuit pe parcursul activității profesionale la sistemul public de asigurări sociale, dobândind astfel un drept de creanță față de acesta.
+
+În sistemul instituit de Legea nr. 360/2023, mecanismul de majorare anuală a valorii punctului de referință face parte integrantă din conținutul patrimonial al dreptului la pensie. Pensionarul care s-a pensionat sub regimul Legii nr. 360/2023 are o așteptare legitimă legalmente consacrată că valoarea punctului de referință – parametrul central al formulei de calcul a pensiei sale – va fi majorată anual conform art. 84 alin. (3). Această așteptare legitimă are valoare patrimonială, deoarece ea determină cuantumul bănesc al pensiei viitoarc.
+
+Privarea pensionarilor de majorarca anuală a valorii punctului de referință prevăzută de art. 84 alin. (3) din Legea nr. 360/2023, prin suspendarea mecanismului legal prin art. XXXI din Legea nr. 141/2025 și prin adoptarea unui buget construit pe premisa valorii înghețate de 81 lei, afectează conținutul patrimonial al dreptului la pensie. Aceasta echivalează cu o diminuare parțială, în valoare reală, a bunului patrimonial constituit de dreptul la pensie, ceea ce poate constitui o ingerință în dreptul de proprietate protejat de art. 44 din Constituție.
+
+Ingerința în dreptul de proprietate, pentru a fi constituțională, trebuie să îndeplinească condițiile prevăzute de art. 44 din Constituție și să fie justificată de un interes public legitimate, să fie proporțională și să nu afecteze substanța dreptului. Suspendarea totală a mecanismului de indexare pentru un an întreg, fără nicio compensare, fără criterii de proporționalitate și fără o analiză a alternativelor disponibile, nu satisface aceste condiții. Interesul general al consolidării bugetare, oricât de real ar fi, nu justifică o ingerință totală și nediscriminatorie în dreptul patrimonial la pensie al tuturor pensionarilor.
+
+Este de menționat și că art. 1 din Protocolul nr. 1 la Convenția Europeană a Drepturilor Omului, care protejează dreptul la respectarea bunurilor, a fost interpretat de Curtea Europeană a Drepturilor Omului ca acoperind și drepturile la prestații sociale cu caracter patrimonial, atunci când acestea sunt determinabile pe baza unor calcule clare și când beneficiarul a îndeplinit condițiile legale. Dreptul la pensie calculat conform formulei din Legea nr. 360/2023, incluzând majorarea anuală a valorii punctului de referință conform art. 84 alin. (3), îndeplincște aceste condiții și beneficiază de protecția art. 1 din Protocolul nr. 1, pe lângă protecția art. 44 din Constituție.
+
+H. Violarea art. 15 alin. (2) din Constituție – principiul protecției așteptărilor legitime create de Legca nr. 360/2023
+
+Art. 15 alin. (2) din Constituție consacră principiul neretroactivității legii: "Legea dispune numai pentru viitor, cu excepția legii penale sau contravenționale mai favorabile." Curtea Constituțională a derivat din acest principiu și din principiul securității juridice o exigență mai largă: principiul protecției așteptărilor legitime, care interzice modificarea abruptă și neprevizibilă a drepturilor dobândite sau a mecanismelor legale pe baza cărora cetățenii și-au planificat viața.
+
+Pensionarii care s-au pensionat sub regimul Legii nr. 360/2023 și-au luat decizia de pensionare în cunoștința cadrului legal instituit de aceasta, incluzând mecanismul de indexare anuală a valorii punctului de referință prevăzut de art. 84 alin. (3). Aceasta este o decizie de viață majoră, cu implicații financiare pe termen lung: odată ieșit din câmpul muncii, un pensionar nu mai poate "recupera" prin efort propriu o eventuală reducere a valorii reale a pensiei sale. Dreptul la indexarea anuală a pensiei, consacrat legal prin Legea nr. 360/2023, a creat astfel o așteptare legitimă care a influențat decizii irreversibile ale cetățenilor.
+
+Suspendarea mecanismului de indexare prin art. XXXI din Legea nr. 141/2025, urmată de adoptarea unui buget care confirmă această suspendare, reprezintă o modificare abruptă și neprevizibilă a cadrului legal pe baza căruia pensionarii au luat decizii irreversibile de viață. Aceasta violează principiul protecției așteptărilor legitime și, implicit, art. 15 alin. (2) din Constituție în interpretarea sa mai largă, astfel cum a fost consacrată în jurisprudența constituțională.
+
+Principiul protecției așteptărilor legitime nu interzice orice modificare legislativă care afectează drepturile existente, dar impune că astfel de modificări trebuie: (i) să fie justificate de un interes public imperativ; (ii) să fie proporționale cu scopul urmărit; (iii) să fie însoțite de măsuri compensatorii adecvate și de o perioadă de tranziție rezonabilă. Niciunul dintre aceste condiții nu este îndeplinit în cazul suspendării mecanismului de indexare din art. 84 alin. (3) al Legii nr. 360/2023 pentru 2026: nu există o justificare de interes public imperativ (nevoia de consolidare bugetară există, dar nu la nivelul de imperativitate necesar), nu există proporționalitate (există alternative de politică bugetară mai puțin restrictive) și nu există compensații adecvate sau perioadă de tranziție.
+
+Mai mult, Legea nr. 360/2023 a fost adoptată tocmai pentru a înlocui sistemul anterior cu unul mai transparent și mai predictibil, bazat pe reguli clare de indexare. Suspendarea regulilor de indexare la primul an de aplicare a acestor reguli (2026) subminează tocmai credibilitatea și predictibilitatea pe care Legea nr. 360/2023 a urmărit să le consacre. Aceasta reprezintă o contradicție internă fundamentală a politicii legislative și o subminare a principiului securității juridice.
+
+I. Violarea art. 1 alin. (3) din Constituție – caracterul social al statului și obligațiile pozitive ale acestuia
+
+Art. 1 alin. (3) din Constituție proclamă că România este stat de drept, democratic și social. Caracterul social al statului impune obligații pozitive concrete față de cetățeni, nu doar abstinența de la intervenții negative. Statul social este, prin definiție, statul care asumă responsabilitatea bunăstării cetățenilor și care asigură că mecanismele de protecție socială funcționează efectiv.
+
+Mecanismul de indexare anuală a valorii punctului de referință instituit prin art. 84 alin. (3) din Legea nr. 360/2023 este un instrument fundamental al statului social în domeniul pensiilor: el asigură că valoarea reală a pensiei nu se erodează prin inflație și că pensionarii participă parțial la creșterea economică generală. Suspendarea acestui mecanism reprezintă o abdicare temporară a statului de la una din obligațiile sale fundamentale derivate din caracterul social.
+
+Obligația constituțională a statului social nu poate fi îndeplinită prin adoptarea unor legi care instituie mecanisme de protecție socială, dacă aceleași legi sunt suspendate de îndată ce devin operaționale, pe motiv de constrângeri bugetare. Un stat care adoptă Legea nr. 360/2023 promițând indexarea anuală a pensiilor și care, la prima aplicare a mecanismului de indexare (2026), suspendă acel mecanism, nu respectă spiritul și litera caracterului social al statului. Mai mult, aceasta subminează credibilitatea întregii reforme a sistemului de pensii realizate prin Legea nr. 360/2023, deoarece cetățenii nu pot face planuri de viață pe baza unor angajamente legale care pot fi suspendate la prima aplicare.
+
+Principiul neregresivității drepturilor sociale – recunoscut în dreptul comparat și în instrumentele internaționale privind drepturile economice și sociale, ratificate de România interzice statului să reducă nivelul de protecție socială deja atins și consacrat prin lege. Suspendarea mecanismului de indexare pentru 2026, urmată de adoptarea unui buget care confirmă această suspendare, reprezintă o regresie în nivelul de protecție socială a pensionarilor, contrar principiului neregresivității și contrar obligațiilor statului social consacrate la art. 1 alin. (3) din Constituție.
+
+## J. Analiza proporționalității și absența justificării adecvate
+
+Orice restrângere a exercițiului unui drept fundamental, inclusiv a dreptului la pensie cu conținut economic real garantat de art. 47 alin. (2) din Constituție, trebuie să satisfacă condițiile de proporționalitate prevăzute de art. 53 din Constituție. Această regulă se aplică și în cazul restrângerilor produse prin mecanisme bugetare sau prin suspendarea mecanismelor legale de indexare.
+
+Analiza proportionalităii implică examinarea a trei elemente: (i) existența unui scop legitim; (ii) adecvarea mijlocului ales la scopul urmărit; (iii) necesitatea mijlocului ales, adică: absenta unor alternative mai puțin restrictive. În cazul suspendării mecanismului de indexare a valorii punctului de referință:
+
+(i) Scopul urmărit -- consolidarea bugetară și reducerea deficitului bugetar - poate fi recunoscut ca scop de interes public. Cu toate acestea, consolidarea bugetară nu se regăsește în lista limitativă din art. 53 alin. (1) din Constituție a motivelor care pot justifica restrângerea drepturilor fundamentale. Prin urmare, nici măcar identificarea unui scop de interes general nu este suficientă pentru justificarea restrângerii dreptului constituțional la pensie pe această cale.
+
+(ii) Adecvarea mijlocului ales -- suspendarea totală a mecanismului de indexare este un mijloc extrem, care sacrifică integral dreptul pensionarilor la majorarea anuală a valorii punctului de referință. Există mijloace mai adecvate și mai puțin restrictive: o indexare parțială (de exemplu, numai cu rata inflației, fără componenta de creștere salarială), o plafonare a majorării la un procent maxim, o eșalonare a majorării pe parcursul anului, sau o indexare diferențiată. Alegerea mijlocului cel mai restrictiv, fără justificarea că mijloacele mai puțin restrictive ar fi insuficiente, nu satisface cerința adecvării.
+
+(iii) Necesitatea mijlocului ales — nu s-a demonstrat că suspendarea totală a mecanismului de indexare este strict necesară pentru atingerea obiectivelor de consolidare bugetară și că nu există alternative mai puțin restrictive. Grupul Parlamentar AUR a propus amendamente vizând aplicarea integrală a formulei din art. 84 alin. (3) din Legea nr. 360/2023, demonstrând că există o alternativă legal disponibilă care respectă dreptul pensionarilor. Respingerea acestor amendamente, fără o motivare care să demonstreze de ce aplicarea formulei legale ar fi incompatibilă cu obiectivele bugetare, demonstrează că necesitatea măsurii nu a fost analizată în raport cu alternativele disponibile.
+
+Absenta justificării adecvate a proporționalității este, prin ea însăși, un motiv de neconstituționalitate. Curtea Constituțională a subliniat în jurisprudența sa că orice restrângere a exercițiului drepturilor fundamentale trebuie să fie însoțită de o argumentare pertinentă care să demonstreze necesitatea și proporționalitatea măsurii. Adoptarea Legii bugetului asigurărilor sociale de stat pe 2026 în 7 zile, cu 3 zile pentru amendamente, fără dezbateri parlamentare reale, face practic imposibilă o astfel de argumentare.
+
+## K. Consecințele neconstituționalității: efectele invalidării
+
+Dacă Curtea Constituțională constată neconstituționalitatea Legii bugetului asigurărilor sociale de stat pe 2026 (sau a prevederilor relevante ale acesteia) pe motiv de refuz al indexării valorii punctului de referință conform art. 84 din Legea nr. 360/2023, consecința constituțională firească este obligarea Parlamentului și a Guvernului să adopte un buget revizuit care să includă sumele necesare majorării valorii punctului de referință conform formulei legale.
+
+Cuantumul sumelor necesare poate fi calculat cu precizie actuarială, pe baza indicatorilor INS comunicați pentru 2025: rata medie anuală a inflației din 2024 și creșterea reală a câștigului, salarial mediu brut din 2024. Acești indicatori sunt cunoscuți și definiți la momentul adoptării bugetului, astfel că nu există nicio imposibilitate tehnică de aplicare a formulei legale.
+
+Declararea neconstituționalității bugetului pe motivul refuzului indexării ar obliga statul să aloce sumele necesare aplicării art. 84 alin. (3) din Legea nr. 360/2023 în bugetul revizuit, cu efecte retroactive de la 1 ianuarie 2026 (data la care majorarea ar fi trebuit să se producă conform legii). Aceasta ar impune plata diferențelor de pensie acumulate pentru lunile în care pensia a fost calculată pe baza valorii înghețate de 81 lei a punctului de referință, în loc de valoarea majorată conform formulei legale.
+
+Această consecință este proporțională și conformă cu principiile constituționale: statul nu poate beneficia de o neconstituționalitate proprie, menținând în favoarea sa economii bugetare obținute prin reducerea ilegală a drepturilor pensionarilor. Principiul reparației integrale a atingerilor aduse drepturilor constituționale impune restabilirea situației anterioare, incluzând plata retroactivă a diferențelor.
+
+2\. Înghetarea alocatiilor pentru copii și burselor studentesti – încălcarea art. 47, art. 48 și art. 49 din Constituția României
+
+Alături de înghețarea pensiilor, Legea bugetului asigurărilor sociale de stat pe 2026 menține la nivelul anului precedent și cuantumul alocațiilor pentru copii și al burselor studențești. Deși aceste prestații sunt finanțate parțial și din alte bugete, structura bugetului asigurărilor sociale de stat contribuie la cadrul general al austerității sociale din 2026 care afectează aceste categorii.
+
+Art. 48 alin. (1) din Constituție prevede că familia are dreptul la protecție din partea societății și a statului. Art. 49 alin. (1) din Constituție stabilește că "copiii și tinerii se bucură de un regim special de protecție și de asistență în realizarea drepturilor lor." Aceste dispoziții constituționale instituie un regim special de protecție a copilului și familiei, care impune statului obligații pozitive de sprijin, cu atât mai putcrnice cu cât situația economică a familiei este mai precară.
+
+Înghețarea nominală a alocațiilor pentru copii în contextul creșterii costului vieții subminează scopul constituțional al acestor prestații de a asigura protecția copilului. Familiile cu copii mici, care cheltuiesc o proporție mai mare din venituri pe produse alimentare și utilități, sunt afectate în mod disproportionat de majorările de TVA și accize. Menținerea alocației la aceeași valoare nominală, în timp ce costul produselor esențiale pentru copii crește, reduce efectiv nivelul de protecție socială oferit copilului.
+
+Regimul special de protecție al copilului, consacrat prin art. 49 din Constituție, impune că, chiar și în perioade de austeritate bugetară, statul trebuie să protejeze cu prioritate drepturile și interesele copilului. Principiul "cea mai înaltă protecție a copilului", recunoscut atât în dreptul constituțional, cât și în dreptul internațional ratificat de România (Convenția ONU privind drepturile copilului), presupune că resursele publice disponibile trebuie alocate prioritar pentru protecția copilului. Un buget care îngheată alocațiile pentru copii în contextul inflației nu respectă acest principiu de prioritate constituțională.
+
+Similar, bursele studențesti înghețate nominal în contextul creșterii costului vieții afectează accesul egal la educație garantat de Constituție. Art. 32 alin. (1) din Constituție garantează dreptul la învățătură, iar condițiile materiale de acces la educație sunt o componentă esențială a acestui drept. Bursa studențească are tocmai rolul de a asigura că accesul la educație nu este condiționat de situația materială a studentului. Erodarea valorii reale a bursei prin inflație reduce efectiv accesul egal la educație al studenților din medii modeste.
+
+3\. Art. 26 din Lege – Limitele lunare de credite bugetare aprobate de ministrul finantelor: delegare executivă excesivă și subordonarea bugetului parlamentar fată de controlul executiv – încălcarea art. 1 alin. (4), art. 61 alin. (1), art. 102 și art. 138 din Constituția României
+
+Dispozițiile art. 26 alin. (1) din Lege prevăd că, prin derogare de la prevederile art. 49 alin. (4) din Legea nr. 500/2002, în anul 2026, ministrul finanțelor aprobă lunar, până la finele lunii în curs pentru luna următoare, limite lunare de credite de angajament și credite bugetare, pentru bugetul asigurărilor sociale de stat și bugetul asigurărilor pentru șomaj, în cadrul cărora pot fi încheiate angajamente legale, respectiv pot fi efectuate deschideri de credite.
+
+Această prevedere instituie, în esență, un mecanism prin care ministrul finanțelor dobândește prerogativa de a decide lunar cât din bugetul aprobat de Parlament poate fi efectiv utilizat. Deși bugetul asigurărilor sociale de stat pe întregul an 2026 este aprobat prin Lege, ministrul finanțelor poate, prin intermediul limitelor lunare, să restricționeze, practic, accesul ordonatorului principal de credite la fondurile aprobate de Parlament. Aceasta reprezintă o inversare a raportului constituțional dintre puterea legislativă – care aprobă bugetul – și puterea executivă – care îl execută.
+
+Art. 1 alin. (4) din Constituție consacră principiul separației și echilibrului puterilor în stat. Art. 61 alin. (1) din Constituție stabilește că Parlamentul este unica autoritate legiuitoare, iar art. 138 din Constituție atribuie Parlamentului rolul fundamental de aprobare a bugetului. Prin urmare, odată ce Parlamentul a aprobat bugetul asigurărilor sociale de stat, executarea acestuia trebuie să se realizeze în conformitate cu autorizarea parlamentară, nu cu autorizarea lunară a ministrului finanțelor. Instituirea unui filtru executiv lunar, prin care ministrul finanțelor poate restricționa accesul la fondurile deja autorizate de Parlament, subminează autoritatea parlamentară în materie bugetară și inversează relația constituțională dintre cele două puteri.
+
+Mecanismul limitelor lunare, astfel cum este reglementat de art. 26, nu prevede criterii obiective sau limite ale discreției ministrului finanțelor în stabilirea acestor plafoane lunare. Singura restricție este că limitele trebuie stabilite "în cadrul" creditelor aprobate pe an. Aceasta înseamnă că ministrul finanțelor poate, teoretic, să stabilească în luna septembrie limite lunare care fac imposibilă plata pensiilor sau a altor prestații sociale pentru acea lună, cu justificarea că creditele anuale nu sunt epuizate. O astfel de putere discreționară nelimitată a executivului asupra executării unui buget aprobat de Parlament este incompatibilă cu principiul separației puterilor.
+
+Potrivit art. 102 alin. (1) din Constituție, Guvernul exercită conducerea generală a administrației publice. Atribuțiile executivului în materie bugetară sunt de executare a bugetului aprobat de Parlament, nu de redefinire a parametrilor operationali ai acestuia prin decizii discreționare lunare. Prerogativa ministrului finanțelor de a stabili limite lunare depășește rolul constituțional al executivului de executor al bugetului și intră în câmpul competenței exclusive a Parlamentului ca autoritate de aprobare și control al bugetului.
+
+Implicația practică cea mai gravă a acestui mecanism privește plata drepturilor sociale. Potrivit art. 26 alin. (2) din Lege, sunt exceptate de la limitele lunare dobânzile, fondurile la dispoziția Guvernului și donațiile/sponsorizările. Prin contrast, cheltuielile cu prestațiile sociale – pensii, ajutoare de șomaj, prestații de asistență socială – NU sunt exceptate, ccea ce înseamnă că plata lor poate fi restricționată de ministrul finanțelor prin stabilirea unor limite lunare restrictive.
+
+Aceasta creează un risc constituțional real: plata drepturilor sociale garantate de art. 47 din Constituție poate fi blocată sau întârziată prin decizie executivă, fără nicio justificare legată de conținutul dreptului social însuși. Asimetria dintre protejarea cheltuielilor cu dobânzile (scutitele limitele lunare) și expunerea cheltuielilor sociale (supuse limitelor lunare) demonstrează că mecanismul din art. 26 subordonează drepturile sociale obligațiilor financiare ale statului.
+
+Practica limitelor lunare de credite poate fi acceptată în situații exceptionale, cu o justificare specifică și proporțională, nu ca regulă generală aplicabilă unui buget adoptat în condiții normale. Instituirea acestei practici ca normă generală pentru tot parcursul anului 2026, cu derogare expresă de la legea-cadru, depășește limitele constituționale ale competențelor executivului în materie bugetară și contravine principiului separației și echilibrului puterilor consacrat de art. 1 alin. (4) din Constituție.
+
+4\. Art. 7, Art. 8 si Art. 9 din Lege – Interdictiile absolute de virare a creditelor bugetare: rigiditate normativă excesivă incompatibilă cu garantarea drepturilor sociale – încălcarea art. 47 si art. 53 din Constituția României
+
+Dispozițiile art. 7 din Lege interzic în mod absolut virările de credite de angajament și bugetare între subdiviziunile de cheltuieli aprobate pentru sistemul public de pensii și cele pentru sistemul de asigurare pentru accidente de muncă și boli profesionale. Art. 8 din Lege interzice în mod absolut virările de credite de angajament și bugetare între subdiviziunile de cheltuieli aprobate pentru sistemul asigurărilor pentru șomaj și cele pentru Fondul de garantare pentru plata creanțelor salariale. Art. 9 din Lege interzice ordonatorului principal de credite să efectueze virări de credite de la titlul 51 "Transferuri între unități ale administrației publice" al capitolului 68.04 "Asigurări și asistență socială" la celelalte titluri ale aceluiași capitol sau la alte capitole bugetare.
+
+Deși aceste interdicții urmăresc scopul legitim al compartimentării riguroase a finanțelor publice aferente diferitelor subsisteme de asigurări sociale, caracterul lor absolut, lipsit de orice excepție pentru situații de urgență socială sau forță majoră, produce efecte potențial neconstituționale.
+
+Riscul concret este identificabil cu precizie din analiza structurii bugetare. Bugetul asigurărilor pentru șomaj are o dependență de 41,7% din totalul cheltuielilor programate fată de fonduri europene, conform avizului CES. Dacă absorbția fondurilor europene întârzie sau nu se realizează la nivelul preconizat (o posibilitate reală, documentată de istoricul execuțiilor bugetare), bugetul asigurărilor pentru șomaj ar putea înregistra deficiențe de lichiditate. În condițiile interdicției absolute din art. 8, nu ar fi posibil transferul de resurse dinspre Fondul de garantare pentru plata creanțelor salariale – care are un excedent previzionat de 229.778 mii lei – spre sistemul asigurărilor pentru șomaj, chiar dacă beneficiarii acestuia din urmă ar fi la risc de a nu-și primi la timp drepturile legale și constituționale.
+
+Interdicțiile absolute, în lipsa oricărei valve de siguranță pentru situații exceptionale, pot intra în contradicție cu art. 47 din Constituție, care garantează dreptul cetățenilor la ajutor de șomaj și la alte forme de asigurări sociale publice. Dreptul constituțional la prestații sociale nu poate fi lăsat la discreția conjuncturilor bugetare temporare, fără mecanisme de corecție sau de suplimentare de urgență. Interdicțiile absolute din art. 7-9 din Lege, prin caracterul lor rigid și inflexibil, pot crea situații în care plata drepturilor sociale este imposibilă din resursele proprii ale subsistemului relevant, fără posibilitate legală de suplimentare din alte resurse disponibile în cadrul bugetului asigurărilor sociale de stat.
+
+Din perspectiva art. 53 din Constituție, principiul proporționalității impune că orice restricție cu potențial de a afecta exercițiul drepturilor fundamentale trebuie să fie necesară și proporțională cu situația care a determinat-o. Interdicțiile absolute de virare a creditelor, fără nicio excepție pentru situații de urgență socială sau forță majoră, creează o restrângere automată și imposibil de contrabalansat a accesului la dreptul la prestații sociale, de fiecare dată când un subsistem se confruntă cu insuficiențe de resurse. Principiul proporționalității, recunoscut ca principiu constituțional, impune că restricțiile trebuie să fie adecvate situației și să nu depășească ceea ce este necesar pentru atingerea scopului urmărit. Interdicțiile absolute depășesc această limită, deoarece există alternative proporționale – de exemplu, instituirea unor praguri maxime de virare sau a unor condiții procedurale care să asigure controlul democratic al operațiunilor de virare, în loc de interdicții absolute.
+
+5\. Art. 25 alin. (2) din Lege - Sanctiunea restituirii deschiderilor de credite bugetare: consecintă disproportionată cu impact potencial asupra plății drepturilor sociale - încălcarea art. 47 și art. 53 din Constituția României
+
+Dispozițiile art. 25 alin. (2) din Lege prevăd că, în cazul nerespectării termenului de 45 de zile pentru transmiterea detalierilor privind numărul maxim de posturi și salariul mediu de bază pe funcții, "Ministerul Finanțelor este abilitat să restituie ordonatorului principal de credite deschiderile de credite bugetare." Restituirea deschiderilor de credite bugetare are ca efect blocarea capacității ordonatorului principal de credite de a efectua plăți din bugetul asigurărilor sociale de stat, inclusiv plata pensiilor, a ajutoarelor de șomaj și a altor prestații sociale.
+
+Această sancțiune, aplicabilă automat în cazul nerespectării unui termen administrativ, indiferent de cauzele nerespectării și de gravitatea acesteia, este vădit disproportionată față de scopul urmărit. Nerespectarea unui termen de raportare administrativă privind structura de personal nu poate justifica o sancțiune cu potențial de a afecta plata la timp a drepturilor sociale ale milioane de beneficiari ai sistemului de asigurări sociale. Disproportia este flagrantă: abaterea administrativă este una procedurală, fără impact imediat asupra drepturilor beneficiarilor sistemului, în timp ce sancțiunea aplicată are impact direct și imediat asupra drepturilor constituționale ale pensionarilor și ale altor beneficiari la prestațiile sociale care li se cuvin.
+
+O sancțiune care conduce, chiar și indirect sau temporar, la neplata pensiilor și a altor prestații sociale obligatorii ridică probleme serioase din perspectiva art. 53 alin. (2) din Constituție, care impune că orice restrângere a exercițiului unui drept fundamental trebuie să fie proporțională cu situația care a determinat-o. Principiul proporționalității, ca dimensiune esențială a statului de drept și ca principiu expres consacrat în art. 53 din Constituție, impune că mecanismele de sancționare nu pot produce, nici direct, nici indirect, o diminuare a drepturilor garantate constituțional, cu excepția cazurilor în care o asemenea consecință este strict necesară, proporțională și justificată de un scop constituțional legitim. Niciunul dintre aceste condiții nu este îndeplinit în cazul art. 25 alin. (2): scopul urmărit (obținerea la timp a informațiilor despre structura de personal) nu justifică o sancțiune cu potențial de blocare a plăților sociale.
+
+Totodată, art. 25 alin. (2) nu prevede nicio procedură de proporționalizare a sancțiunii în funcție de gravitatea sau durata nerespectării termenului, nicio posibilitate de remediere înainte de aplicarea sancțiunii și niciun mecanism de contestare a deciziei de restituire a deschiderilor de credite. Absența unor garanții procedurale minimale face ca sancțiunea să funcționeze ca o punere automată în imposibilitate de plată, fără control judiciar sau administrativ prealabil, ceea ce o face incompatibilă cu principiul statului de drept consacrat la art. 1 alin. (3) din Constituție.
+
+6\. Violarea principiului statului social și a obligațiilor pozitive ale statului – art. 1 alin. (3), art. 47 și art. 135 alin. (2) lit. f) din Constituția României
+
+Art. 1 alin. (3) din Constituție declară că "România este stat de drept, democratic și social, în care demnitatea omului, drepturile și libertățile cetățenilor, libera dezvoltare a personalității umane, dreptatea și pluralismul politic reprezintă valori supreme [...] și sunt garantate." Caracterul social al statului român nu este o declarație programatică lipsită de efecte juridice, ci o normă constituțională cu aplicabilitate directă, care impune un set de obligații concrete. Statul social este, prin definitie, un stat care asumă responsabilitatea activă pentru bunăstarea cetățenilor, care corectează inegalitățile sociale și economice și care protejează categoriile vulnerabile. Aceasta implică obligații pozitive ale statului de a lua măsuri active de protecție socială, nu de a se rezuma la abstinența de la intervenții negative.
+
+Legea bugetului asigurărilor sociale de stat pe 2026 adoptă o strategie de austeritate socială fără mecanisme compensatorii adecvate, în contradicție cu obligațiile constituționale ale statului social:
+
+(i) Înghetarea pensiilor reduce puterea de cumpărare a pensionarilor, categorie cu risc crescut de sărăcie și cu capacitate limitată de a se adapta prin creșterea veniturilor proprii;
+
+(ii) Înghețarea alocațiilor pentru copii reduce suportul pentru familiile cu copii, categorie cu risc crescut de sărăcie în România;
+
+(iii) Menținerea burselor studențesti la același nivel nominal reduce suportul pentru educație în contextul creșterii costului vieții;
+
+(iv) Singura măsură compensatorie prevăzută – neimpozitarea a 300 lei/lună din salariul minim (ianuarie-iunie 2026) și a 200 lei/lună (iulie-decembrie 2026) – are un impact real infim comparativ cu creșterea costului vieții. Avizul CES estimează că această măsură nu compensează nici pe departe creșterea cheltuielilor de 100-150 lei lunar generată de majorările de TVA și accize.
+
+Avizul CES ilustrează concret că pachetul bugetar 2026 nu asigură acel "nivel de trai decent" garantat de art. 47 alin. (1) din Constituție. Prin urmare, ansamblul măsurilor bugetare din 2026 produce o deteriorare a nivelului de trai real al categoriilor vulnerabile, contrar obligației constituționale a statului social de a asigura protecția socială și îmbunătățirea calității vieții.
+
+Art. 135 alin. (2) lit. f) din Constituție prevede că statul trebuie să asigure "crearea condițiilor necesare pentru creșterea calității vieții." Această prevedere instituie o obligație constituțională expresă de progresivitate: statul nu are voie să regreseze față de standardele de trai anterioare prin mecanisme bugetare. Principiul neregresivității drepturilor sociale – recunoscut în jurisprudența constituțională comparată și în instrumentele internaționale privind drepturile economice și sociale – interzice statului să diminueze, prin mecanisme bugetare sau normative, nivelul de protecție socială deja atins. Un buget care îngheață prestațiile sociale în contextul inflației nu respectă principiul neregresivității și contravine art. 135 alin. (2) lit. f) din Constituție.
+
+7\. Violarea condițiilor constituționale pentru restrângerea exercitiului drepturilor și libertăților fundamentale – art. 53 din Constituția României
+
+Art. 53 alin. (1) din Constituție prevede că exercițiul unor drepturi sau libertăți poate fi restrâns numai prin lege și numai dacă se impune, după caz, pentru: apărarea securității naționale, a ordinii, a sănătății ori a moralei publice, a drepturilor și libertăților cetățenilor; desfășurarea instrucției penale; prevenirea consecințelor unei calamități naturale, ale unui dezastru ori ale unui sinistru deosebit de grav.
+
+Art. 53 alin. (2) din Constituție adaugă că restrângerea poate fi dispusă numai dacă este necesară într-o societate democratică, că măsura trebuie să fie proporțională cu situația care a determinat-o, să fie aplicată în mod nediscriminatoriu și fără a aduce atingere existenței dreptului sau libertății.
+
+Prin Legea bugetului asigurărilor sociale de stat pe 2026, statul restrânge în mod efectiv exercițiul dreptului la prestații sociale (pensii, ajutor de șomaj, alocații copii) garantat de art. 47 din Constituție, prin mecanismul înghețării nominale a cuantumului acestora în contextul inflației și prin refuzul indexării conform mecanismului legal obligatoriu. Această restrângere trebuie, conform art. 53 din Constituție, să îndeplinească cumulativ condițiile prevăzute. Analiza fiecărei condiții evidențiază neconstituționalitatea:
+
+Prima condiție – justificarea prin unul din motivele expres și limitativ prevăzute la art. 53 alin. (1): Înghețarea prestațiilor sociale nu poate fi justificată prin nevoia de apărare a securităii naționale, ordinii, sănătății sau moralei publice. Nu există niciun dezastru natural sau sinistru care să justification această măsură. Necesitatea consolidării bugetare, oricât de urgentă ar fi ea, nu se regăsește în lista limitativă a motivelor care pot justifica restrângerea drepturilor constituționale. Lista din art. 53 alin. (1) este una exhaustivă, nu exemplificativă, ceea ce înseamnă că restrângerea dreptului la prestații sociale pe motiv de constrângeri bugetare nu se încadrează în categoriile constituționale permise.
+
+A doua condiție – necesitatea măsurii într-o societate democratică: Nu s-a demonstrat că înghețarea totală a prestațiilor sociale este strict necesară și că nu există alternative mai puțin restrictive pentru atingerea obiectivelor bugetare. Grupul Parlamentar AUR a propus amendamente vizând o indexare integrală, demonstrând că există alternative care respectă obligațiile legale și constituționale ale statului. Respingerea acestor amendamente, fără o justificare adecvată că indexarea ar fi incompatibilă cu obiectivele de consolidare bugetară, demonstrează că nu a fost analizată necesitatea măsurii în raport cu alternativele disponibile.
+
+A treia condiție – proporționalitatea măsurii: Înghețarea totală a cuantumului pensiilor, fără nicio indexare, în contextul inflației de 5-6%, nu este proporțională cu obiectivul de consolidare bugetară. Există un spectru larg de măsuri intermediare (indexare partială, indexare diferențiată, plafonarea indexării la un anumit nivel) care ar putea contribui la consolidarea bugetară cu un impact social mai limitat. Alegerea celei mai restrictive variante – înghețarea totală – în absenta demonstrației că variantele intermediare sunt insuficiente, nu satisface cerința proporționalității.
+
+A patra condiție – nediscriminatoriu: Înghețarea afectează disproportionat pensionarii față de alte categorii de cetățeni beneficiari ai bugetului public. De exemplu, dobânzile la datoria publică sunt achitate integral, fără restricții, în timp ce pensiile sunt înghețate. Dobânzile se plătesc unor creditori financiari, în timp ce pensiile se plătesc cetățenilor care și-au câștigat dreptul prin contribuție la sistemul public. Tratamentul diferențiat al acestor două categorii de obligații publice are un caracter discriminatoriu implicit.
+
+A cincoa condiție – să nu aducă atingere existenței dreptului: Deși dreptul la pensie în sine nu este desființat formal, erodarea continuă și repetată a valorii reale a pensiei prin înghețarea nominală în contextul inflației ajunge, în timp, să golească dreptul de continut economic real. Dreptul la pensie devine teoretic dacă valoarca sa reală scade continuu sub nivelul minim necesar unui trai decent. Această erodare graduală afectează "existența dreptului" în sens substanțial, nu doar formal.
+
+Neîndeplinirea cumulativă a condițiilor prevăzute de art. 53 din Constituție determină neconstituționalitatea restrângerii exercițiului dreptului la prestații sociale, efectuată prin mecanismul bugetar al înghețării nominale a cuantumului prestațiilor în contextul inflației.
+
+8\. Violarea principiului egalității în drepturi prin tratamentul asimetric al diferitelor categorii de beneficiari ai bugetului public – art. 16 alin. (1) din Constituția României
+
+Art. 16 alin. (1) din Constituție prevede că cetățenii sunt egali în fața legii și a autorităților publice, fără privilegii și fără discriminări. Principiul egalității nu interzice orice diferențiere de tratament, ci impune ca diferențierile să se bazeze pe criterii obiective și raționale, să fie proporționale cu scopul urmărit și să nu fie discriminatorii.
+
+Din analiza ansamblului măsurilor bugetare pentru 2026, rezultă o diferențiere de tratament semnificativă și lipsită de justificare obiectivă:
+
+Prima asimetrie – Pensionari vs. creditori financiari: Dobânzile la datoria publică sunt protejate de limitele lunare (art. 26 alin. (2) lit. a) din Lege), în timp ce pensiile nu beneficiază de o asemenea protectie. Creditorii financiari ai statului (în general, instituții financiare sau investitori, adesea din sectorul privat sau internaționali) sunt tratați mai favorabil decât cetățenii pensionari, ale căror pensii pot fi afectate de limitele lunare discretionare ale ministrului finanțelor. Această ierarhizare implicită, care favorizează obligațiile financiare față de obligațiile sociale, nu are o justificare constituțională.
+
+A doua asimetrie – Pensionari vs. angajați: Căștigul salarial mediu brut utilizat la fundamentarea bugetului crește de la 8.709 lei (2025) la 9.192 lei (2026), adică cu 5,5%, în timp ce pensiile rămân la nivelul din decembrie 2025. Aceasta adâncește, printr-un mecanism bugetar explicit, decalajul dintre veniturile din muncă și veniturile din pensii, fără a exista o justificare obiectivă pentru tratamentul diferențiat al celor două categorii în raport cu inflația.
+
+A treia asimetrie – Pensionari cu pensii mici vs. pensionari cu pensii mari: Impactul relativ al înghețării nominale și al inflației este mai mare pentru pensionarii cu pensii mici, la care cheltuielile de bază (alimente, medicamente, utilități) reprezintă o proporție mai mare din venitul disponibil. Aceasta înseamnă că, deși înghețarea s-ar putea prezenta ca un tratament uniform, ea produce efecte mai severe pentru pensionarii mai vulnerabili – o discriminare de facto, chiar dacă nu de jure.
+
+A patra asimetrie – Angajații cu salarii mari vs. angajații cu salarii mici: Singura măsură compensatorie pentru angajații cu salarii mici (neimpozitarea a 300/200 lei din salariul minim) este prevăzută pe o bază temporară și în cuantum insuficient față de creșterea costului vieții. Prin contrast, angajații cu salarii mai mari, care cheltuiesc o proporție mai mică din venit pe necesități de bază, suportă un impact relativ mai mic al majorărilor fiscale. Această asimetrie, rezultată din structura măsurilor bugetare, contravine principiului justei așezări a sarcinilor fiscale-consacrat la art. 56 alin. (2) din Constituție.
+
+Niciuna dintre aceste asimetrii nu are o justificare obiectivă, rațională și proporțională. Ele sunt rezultatul unor alegeri de politică bugetară care nu au ținut seama de principiul egalității în drepturi consacrat la art. 16 alin. (1) din Constituție. Un stat de drept care proclamă egalitatea cetățenilor nu poate adopta bugete care favorizează sistematic anumite categorii în detrimentul altora, fără o justificare transparentă și verificabilă.
+
+9\. Violarea dreptului la demnitate umană prin erodarea valorii reale a pensiei sub pragul traiului decent – art. 1 alin. (3) și art. 47 alin. (1) din Constituția României
+
+Demnitatea umană, proclamată ca valoare supremă prin art. 1 alin. (3) din Constituție, are o dimensiune economică minimală: fiecare cetățean are dreptul la un nivel de trai care să îi permită să trăiască în demnitate. Aceasta implică accesul la hrană, medicamente, locuință și alte necesități de bază. Art. 47 alin. (1) din Constituție garantează că statul este obligat să ia măsuride natură să asigure cetățenilor un nivel de trai decent. Aceste prevederi au o valoare normativă directă și nu sunt simple deziderate programatice.
+
+România are una dintre cele mai mici pensii medii din Uniunea Europeană. O proporție semnificativă a pensionarilor români primesc pensii la sau aproape de pragul de sărăcie. Înghețarea nominală a pensiei la nivelul din decembrie 2025, în contextul majorărilor de TVA și accize din 2026, riscă să aducă o parte din pensionarii deja vulnerabili sub pragul minim al traiului decent. O pensie al cărei cuantum nominal nu crește, dar ale cărei cheltuieli necesare cresce cu 5-6%, nu mai asigură traiul decent garantat de art. 47 alin. (1) din Constituție.
+
+Avizul CES documentează că, dacă nu se iau în calcul compensări țintite, pot crește incidența muncii la negru și efectele asupra sărăciei sunt cumulative, manifestându-se prin creșterea numărului de persoane expuse riscului de sărăcie sau excluziune, mai ales în rândul familiilor cu copii, al lucrătorilor cu timp parțial și al salariaților din sectoare cu productivitate scăzută. Aceasta confirmă că pachetul bugetar 2026, care include și înghețarea prestațiilor sociale, poate aduce o parte din cetățeni sub pragul traiului decent, cu consecințe directe pentru dreptul garantat de art. 47 alin. (1) din Constituție.
+
+Inviolabilitatea demnității umane, consacrată ca valoare supremă în Constituție, reprezintă un standard minim absolut care nu poate fi sacrificat nici chiar în contextul unor constrângeri bugetare severe. Statul nu poate invoca dificultăți bugetare pentru a justifica coborârea nivelului de trai al pensionarilor sub minimul necesar traiului decent, deoarece demnitatea umană nu poate fi supusă calculului cost-beneficiu al politicii fiscale.
+
+10\. Violarea principiului neretroactivității legii și a protecției așteptărilor legitime – art. 15 alin. (2) din Constituția României
+
+Art. 15 alin. (2) din Constituție consacră principiul neretroactivității: "Legea dispune numai pentru viitor, cu excepția legii penale sau contravenționale mai favorabile." Deși înghețarea pensiilor produce formal efecte pentru perioada viitoare (2026), în realitate ea afectează drepturi câștigate prin contribuție anterioară la sistemul public de pensii.
+
+Principiul protecției așteptărilor legitime – recunoscut de jurisprudența Curții Constituționale ca derivând din principiul securității juridice și din art. 15 alin. (2) din Constituție – interzice modificarea abruptă și neprevizibilă a drepturilor dobândite, în absenta unor justificări corespunzătoare de interes public. Pensionarii au primit, prin legislația adoptată anterior, asigurarea legală că pensiile lor vor fi indexate periodic față de indicatorii macroeconomici relevanți (rata inflației, câștigul salarial mediu brut). Aceasta a creat o așteptare legitimă că mecanismul de indexare va funcționa conform prevederilor legale.
+
+Eliminarea practică a mecanismului de indexare pentru un an întreg, prin nealocarea fondurilor bugetare necesare, reprezintă o modificare abruptă a condițiilor stabilite prin lege, care afectează așteptările legitime ale pensionarilor. Aceasta poate contraveni principiului protecției așteptărilor legitime, cu atât mai mult cu cât pensionarii nu dispun de niciun instrument pentru ași adapta comportamentul economic la noua situație – ei nu pot "recupera" prin muncă suplimentară sau prin alte surse de venituri pierderea puterii de cumpărare a pensiei înghețate.
+
+Curtea Constituțională a subliniat că principiul protecției așteptărilor legitime presupune că cetățenii au dreptul de a se bizui pe stabilitatea cadrului legal instituit de stat, în special atunci când și-au luat decizii importante de viață (cum ar fi decizia de pensionare sau planificarea cheltuielilor) pe baza acestui cadru. Modificarea bruscă a mecanismului de indexare, fără o perioadă de tranziție adecvată și fără compensații, violează acest principiu.
+
+11\. Violarea principiului contributivității sistemului de pensii și a echivalentei contribuții-prestații – art. 47 alin. (2) din Constituția Româniej, raportat la principiile sistemului publice de pensii
+
+Sistemul public de pensii din România este construit pe principiul contributivității: pensionarii au contribuit pe parcursul vieții active la sistemul public de asigurări sociale, dobândind astfel drepturi proporționale cu contribuțiile plătite. Mecanismul de indexare prevăzut de lege are tocmai rolul de a proteja valoarea reală a dreptului dobândit prin contribuție, asigurând că el nu se erodează prin inflație.
+
+Prin înghețarea pensiilor și prin refuzul indexării, Legea bugetului asigurărilor sociale de stat pe 2026 permite erodarea valorii reale a unui drept câștigat prin contribuție la sistem. Aceasta subminează principiul contributivității și al echivalenței contribuții-prestații, care stă la baza sistemului public de pensii.
+
+Mai mult, avizul CES semnalează că aproape 98,9% din totalul cheltuielilor aferente sistemului public de pensii reprezintă asistență socială, administrarea fiind doar 1,1%. Aceasta demonstrează că sistemul public de pensii a devenit, în esență, un mecanism de asistență socială, cu o contribuție tot mai mică a elementelor contributive-asiguratorii. Această transformare structurală, accelerată de decizii bugetare care refuză indexarea conform legii, ridică probleme de coerență cu art. 47 alin. (2) din Constituție, care garantează dreptul la pensie în contextul sistemelor de asigurări sociale publice sau private, nu al asistenței sociale.
+
+Totodată, Pilonul II de pensii absoarbe 4,75% din baza de contribuție, reducând veniturile sistemului public de pensii cu 23.799.529 mii lei (conform avizului CES). Această reducere a bazci contributive a sistemului public, combinată cu refuzul indexării pensiilor deja stabilite, creează un paradox: contribuabilii plătesc integral contribuțiile obligatorii la sistemul de asigurări sociale, dar valoarea reală a prestațiilor la care vor fi îndreptății scade prin mecanisme bugetare. Aceasta violează principiul că dreptul la prestație trebuie să fie echivalent cu contribuția plătită, principiu care derivă din art. 47 alin. (2) din Constituție.
+
+12\. Impactul regresiv al pachetului bugetar 2026 asupra justei asezări a sarcinilor fiscale art. 56 alin. (2) din Constituția României
+
+Art. 56 alin. (2) din Constituție prevede că "sistemul legal de impuneri trebuie să asigure așezarea justă a sarcinilor fiscale." Principiul justei așezări a sarcinilor fiscale nu se limitează la fiscalitatea directă (impozit pe venit, contribuții sociale), ci acoperă și impactul global al politicilor bugetare și fiscale asupra diferitelor categorii de cetăteni.
+
+Pachetul de măsuri bugetare și fiscale din 2026, în ansamblul său, are un caracter profund regresiv: categoriile cu venituri mai mici suportă o proporție mai mare din costul ajustării, față de categoriile cu venituri mai mari. Aceasta se poate demonstra analitic:
+
+Majorarea TVA pentru o parte din alimente de la 9% la 11% afectează în mod disproportionat familiile cu venituri mici, care cheltuiesc o proporție mai mare din venituri pe alimente. Majorarea cotei standard de TVA afectează, de asemenea, regresiv categoriile cu venituri mai mici. Creșterea accizelor la carburanți afectează proporțional mai mult persoanele care utilizează autovehiculele proprii pentru a ajunge la muncă sau la servicii medicale, adesea categorii cu venituri medii-mici din mediul rural sau din orașele mici, fără alternative de transport public.
+
+Concomitent, menținerea contribuțiilor pentru asigurările de șomaj la niveluri care generează un excedent de 374.421 mii lei (conform art. 5 alin. (1) din Lege) înseamnă că angajații plătesc mai mult decât este necesar pentru finanțarea sistemului, fără ca această supra-contribuire să fie compensată prin prestații mai bune. Principiul justei așezări a sarcinilor fiscale impune că cetățenii nu trebuie să contribuie mai mult decât ceea ce este necesar pentru finanțarea sistemelor de asigurare obligatorie la care contribuie.
+
+Ansamblul acestor consecințe regresive ale politicii bugetare din 2026 nu satisface cerința de "justa așezare a sarcinilor fiscale" impusă de art. 56 alin. (2) din Constituție. Justa așezare presupune că fiecare cetățean contribuie în mod proporțional cu capacitatea sa contributivă și că sarcinile fiscale nu sunt distribuite în mod arbitrar sau regresiv.
+
+13\. Violarea dreptului la muncă și a drepturilor salariatilor din sectorul public – art. 41 din Constituția României
+
+Art. 41 din Constituție garantează dreptul la muncă și protecția salariaților, stipulând la alin. (2) că "salariații au dreptul la măsuri de protecție socială. Acestea privesc securitatea și sănătatea salariaților, regimul de muncă al femeilor și al tinerilor, instituirea unui salariu minim brut pe țară, repausul săptămânal, concediul de odihnă plătit, prestarea muncii în condiții deosebite sau speciale, formarea profesională, precum și alte situații specifice, stabilite prin lege."
+
+Bugetul asigurârilor sociale de stat pe 2026, care stabilește câștigul salarial mediu brut de 9.192 lei (art. 19 din Lege), se înscrie în contextul general al politicii salariale bugetare din 2026, care prevede înghetarea salariilor din administrația publică la nivelul lunii decembrie 2025. Avizul CES relevă că salariul minim brut nu este indexat față de rata inflației anticipate ca urmare a creșterii TVA, ceea ce conduce la o scădere a salariului real al angajaților cu normă întreagă la salariul minim.
+
+Avizul CES estimează că, luând în calcul majorarea TVA de la 9% la 11% pentru o parte din alimente și creșterea accizelor la carburanți cu 10%, o gospodărie cheltuind lunar 2.500 lei pe alimente și utilități înregistrează o creștere a cheltuielilor de 100-150 lei lunar. Salariatul cu normă întreagă la salariul minim brut resimte cel mai puternic acest efect, întrucât salariul minim brut nu este indexat în raport cu inflația anticipată după creșterea TVA, iar scutirea de 300/200 lei lunari nu compensează pierderea reală a puterii de cumpărare.
+
+Dreptul la un salariu minim care să asigure un nivel de trai decent, ca componentă a dreptului la muncă garantat de art. 41 din Constituție, nu poate fi respectat atunci când valoarea reală a salariului minim scade prin inflație generată de decizii de politică fiscală ale aceluiași stat care stabilește acel salariu minim. Statul nu poate, pe de o parte, să majoreze indirect costul vieții prin creșteri de TVA și accize și, pe de altă parte, să refuze adaptarea salariului minim la noile realități inflaționiste, fără a viola principiul protecției salariaților consacrat de art. 41 din Constituție.
+
+14\. Violarea dreptului la sănătate prin impactul bugetar asupra accesului la medicamente și îngrijiri medicale – art. 34 din Constituția României
+
+Art. 34 alin. (1) din Constituție garantează dreptul la ocrotirea sănătății, iar alin. (2) prevede că statul este obligat să ia măsuri pentru asigurarea igienei și a sănătății publice. Dreptul la sănătate are o dimensiune economică directă: accesul la medicamente, îngrijiri medicale și la alte servicii de sănătate depinde, în mare măsură, de puterea de cumpărare a cetățenilor.
+
+Pensionarii sunt categoria de vârstă cu cele mai ridicate nevoi medicale. Înghețarea pensiei la valoarea nominală din decembrie 2025, în contextul creșterii prețurilor la medicamente, la servicii medicale private și la alte costuri legate de îngrijirea sănătății, reduce capacitatea pensionarilor de a-și asigura accesul la îngrijirile medicale necesare. Aceasta afectează indirect dreptul la sănătate garantat de art. 34 din Constituție.
+
+Trebuie subliniat că, deși în mod formal bugetul asigurărilor de sănătate este separat de bugetul asigurărilor sociale de stat, erodarea puterii de cumpărare a pensionarilor prin înghețarea pensiei afectează capacitatea lor de a accesa medicamentele fără prescripție medicală, serviciile medicale private, investigațiile nedecontate și toate celelalte componente ale îngrijirii sănătății care nu sunt acoperite integral de sistemul public de asigurări de sănătate. Statul care impune această erodare a puterii de cumpărare a pensionarilor fără a lua măsuri compensatorii în domenului sănătății nu respectă obligația de a lua măsuri pentru asigurarea sănătății publice, conform art. 34 alin. (2) din Constituție.
+
+15\. Violarea principiului continuității și predictibilității serviciului public de asigurări sociale – art. 1 alin. (3) din Constituția României
+
+Adoptarea Legii bugetului asigurărilor sociale de stat pe 2026 cu o întârziere de aproape trei luni față de data de 1 ianuarie 2026 a creat o perioadă prelungită de funcționare pe baza bugetului provizoriu al anului 2025, conform art. 138 alin. (3) din Constituție. Această situație, deși legal permisă, afectează principiul continuității și al predictibilității serviciului public de asigurări sociale.
+
+Beneficiarii sistemului de asigurări sociale – pensionari, șomeri, accidentați de muncă – au dreptul la o administrare predictibilă și continuă a drepturilor lor. Funcționarea pe buget provizoriu timp de aproape trei luni, urmată de adoptarea în regim de urgență a unui buget comprimat, creează incertitudine cu privire la realizarea efectivă a drepturilor sociale.
+
+Principiul securității juridice și al așteptărilor legitime, ca dimensiune a statului de drept consacrat la art. 1 alin. (3) din Constituție, impune că beneficiarii sistemului de asigurări sociale să poată anticipa cu rezonabilă certitudine condițiile în care vor fi administrate drepturile lor. Un beneficiar al sistemului public de pensii sau al celui de șomaj trebuie să știe, la un moment dat, ce drepturi are și în ce condiții vor fi ele acordate. Incertitudinea bugetară prelungită și modificările abrupte ale cadrului normativ bugetar subminează această predictibilitate.
+
+Mai mult, adoptarea unui buget cu o structură care alocă 41,7% din cheltuielile pentru șomaj pe fonduri europene cu absorbție incertă (conform avizului CES) creează un risc structural de discontinuitate a serviciului public de asigurări pentru șomaj, cu efecte directe asupra beneficiarilor. Aceasta contravine principiului continuității serviciului public, derivat din principiul statului de drept și din obligația statului de a asigura funcționarea continuă a sistemelor de protecție socială garantate constituțional.
+
+16\. Violarea obligatiei constituționale de transparentă bugetară și a dreptului cetătenilor la informație – art. 31 și art. 1 alin. (3) din Constituția României
+
+Art. 31 alin. (2) din Constituție prevede că autoritățile publice sunt obligate să asigure informarea corectă a cetățenilor asupra treburilor publice și asupra problemelor de interes personal. Transparența bugetară este un element fundamental al acestei obligații. Cetățenii care beneficiază sau contribuie la sistemul de asigurări sociale au dreptul să înțeleagă cum sunt gestionate fondurile la care contribuie și cum sunt administrate drepturile lor.
+
+Adoptarea Legii bugetului asigurărilor sociale de stat pe un termen extrem de comprimat – 7 zile de la depunere până la adoptare, cu un termen de numai 3 zile pentru amendamente – a limitat efectiv accesul la informație al cetățenilor, al organizațiilor reprezentative ale acestora, al experțiilor și chiar al parlamentarilor. Un exercițiu bugetar care gestionează resurse publice de aproape 163 miliarde de lei nu poate fi adoptat în transparentă deplină în numai 7 zile.
+
+Transparenta bugetară nu este o cerință pur procedurală, ci o garanție substanțială a democrației. Procesul deliberativ deschis și transparent permite identificarea și corectarea erorilor de fundamentare, a inconsistențelor și a măsurilor cu impact negativ asupra drepturilor cetățenilor. Prin comprimarea procesului deliberativ, s-a eliminat posibilitatea ca aceste funcții corective ale transparenteți democratice să fie exercitate. Avizul nefavorabil al CES – organ constituțional cu misiunea de a asigura reprezentarea intereselor sociale în procesul legislativ – a fost practic ignorat, fără ca Parlamentul sau Guvernul să furnizeze o motivare publică adecvată pentru respingerea argumentelor CES. Aceasta demonstrează că procesul adoptat a exclus transparenta reală și dialogul social autentic.
+
+17\. Violarea obligatiei de protejare a intereselor nationale și a sustenabilității sistemului de asigurări sociale – art. 135 alin. (2) lit. b) din Constituția României
+
+Art. 135 alin. (2) lit. b) din Constituție prevede că statul trebuie să asigure protejarea intereselor naționale în activitatea economică, financiară și valutară. Interesul național în domeniul asigurărilor sociale include sustenabilitatea pe termen mediu și lung a sistemului public de pensii și de asigurări pentru șomaj.
+
+Avizul CES documentează o serie de vulnerabilități structurale ale sistemului, agravate de bugetul pe 2026: (i) dependența excesivă a sistemului de pensii de subvenția de echilibrare de la bugetul de stat (31.419.238 mii lei); (ii) reducerea bazei contributive prin contribuțiile la Pilonul II (23.799.529 mii lei transferate); (iii) supraestimarea absorbției fondurilor europene, care creează riscul de execuție deficitară a bugetului asigurărilor pentru șomaj.
+
+Aceste vulnerabilități structurale nu sunt adresate în mod serios de bugetul pe 2026, ci sunt, în parte, agravate prin deciziile bugetare adoptate. Un stat care nu asigură sustenabilitatea financiară a sistemului său de asigurări sociale nu protejează interesele naționale în domeniul financiar-economic, conform art. 135 alin. (2) lit. b) din Constituție. Interesul național impune o viziune pe termen lung, care să asigure că generațiile viitoare vor putea beneficia de un sistem de asigurări sociale funcțional, nu o austeritate pe termen scurt care amână și agravează dezechilibrele structurale.
+
+Avizul CES ilustrează paradoxul: înghețarea drepturilor sociale, în contextul majorărilor de TVA și accize, poate conduce la creșterea muncii la negru și la reducerea bazei contributive. Aceasta ar reduce veniturile sistemului de asigurări sociale pe termen mediu, contrazicând obiectivul declarat al consolidării bugetare. Un buget care urmărește consolidarea fiscală prin mecanisme care pot eroda baza contributivă pe termen mediu nu servește interesul național în domeniul financiar.
+
+18\. Violarea principiului echității inter-generaționale și a obligatiei statului față de generațiile viitoare – art. 1 alin. (3) și art. 135 din Constituția României
+
+Sistemul public de pensii funcționează pe principiul solidarității inter-generaționale: generațiile active de azi contribuie pentru pensionarii de azi, în așteptarea că generațiile viitoare le vor susține la rândul lor. Caracterul social al statului (art. 1 alin. (3) din Constituție) și obligația de asigurare a calității vieții (art. 135 din Constituție) implică și responsabilitatea față de generațiile viitoare, nu doar față de generația actuală.
+
+Bugetul asigurărilor sociale de stat pc 2026 nu abordează în mod serios reformele structurale necesare pentru asigurarea sustenabilității sistemului pe termen lung. Prin contrast, adoptă măsuri de austeritate pe termen scurt care transferă costurile ajustării bugetare din prezent în beneficii viitoare mai mici pentru contribuabilii actuali. Generațiile active de azi, care contribuie astăzi la sistemul de pensii, vor fi afectate mâine de deciziile bugetare din prezent, inclusiv de erodarea valorii reale a drepturilor lor viitoare de pensie.
+
+Totodată, acumularea datoriei publice la 62,5% din PIB (conform metodologiei UE, conform avizului CES), în contextul unui deficit de -6,2% din PIB, transferă costuri financiare semnificative pe seama generațiilor viitoare. Combinarea austerității sociale din prezent (care afectează generația actuală) cu acumularea datoriei publice (care afectează generațiile viitoare) nu asigură o distribuție echitabilă a costurilor ajustării bugetare între generații.
+
+19\. Violarea principiului securității juridice prin proliferarea autorizărilor, excepțiilor și derogărilor speciale – art, 1 alin. (3) și alin. (5) din Constituția României
+
+Legea bugetului asigurărilor sociale de stat pe 2026 conține un număr remarcabil de autorizări speciale, derogări și excepții față de regulile generale aplicabile gestiunii fondurilor publice. Din analiza Capitolului II (art. 6-18) și a art. 26 din Capitolul III, identificăm nu mai puțin de 13 articole cu conținut normativ derogatoriu sau de autorizare specială:
+
+\- Art. 6: autorizare pentru virări de credite pe tot parcursul anului;
+
+\- Art. 7: interdicție absolută de virări între subsisteme;
+
+\- Art. 8: interdicție absolută de virări între subsisteme;
+
+\- Art. 9: interdicție absolută de virări de la titlul 51;
+
+Art. 10: derogare de la art. 47 alin. (9) și (10) din Legea nr. 500/2002;
+
+\- Art. 11: autorizare pentru proiecte FEN, cu derogare de la art. 47 alin. (16) din Legea nr. 500/2002;
+
+\- Art. 12: autorizare pentru virări la titlul 56;
+
+\- Art. 13: interdicție parțială de virări de la titlul 56;
+
+\- Art. 14: obligații de comunicare;
+
+\- Art. 15: interdicție parțială de diminuare;
+
+\- Art. 16: autorizare pentru proiecte MRR;
+
+\- Art. 17: autorizare pentru repartizare pe trimestre MRR;
+
+\- Art. 18: autorizare pentru virări neutilizate între titluri 56 și 60;
+
+– Art. 26: derogare de la art. 49 alin. (4) din Legea nr. 500/2002.
+
+Proliferarea autorizărilor și derogărilor speciale, an de an, în legile bugetare, contravine principiului clarității și previzibilității normative, dimensiuni esențiale ale principiului securității juridice derivat din art. 1 alin. (3) și alin. (5) din Constituție. O lege bugetară care creează un cadru normativ special, diferit de cadrul general, prin 13 articole cu autorizări, derogări și excepții, generează o impredictibilitate normativă care afectează calitatea actului de guvernare și a controlului parlamentar.
+
+Practica acumulată de a adopta an de an legi bugetare cu multiple derogări de la legea-cadru financiară conduce la o situație paradoxală: legea-cadru (Legea nr. 500/2002) nu mai reflectă regulile efectiv aplicabile gestiunii finanțelor publice, deoarece acestea sunt modificate și derogate permanent prin legi temporare. Aceasta subminează rolul legii-cadru ca instrument normativ de referință și creează un cadru de gestiune bugetară extrem de fragmentat. Curtea Constituțională a subliniat în jurisprudența sa că principiul clarității normative presupune că cetățenii și instituțiile pot cunoaște cu exactitate drepturile și obligațiile lor, fără a fi nevoite să parcurgă o multitudine de derogări temporare și excepții pentru a înțelege cadrul legal aplicabil.
+
+20\. Violarea principiului echilibrului bugetar și a responsabilității fiscal-bugetare – art. 138 alin. (5) din Constituția României
+
+Art. 138 alin. (5) din Constituție prevede că "nicio cheltuială bugetară nu poate fi aprobată fără stabilirea sursei de finanțare." Aceasta este o normă constituțională de strictă interpretare, care impune că fiecare cheltuială bugetară aprobată trebuie să aibă o sursă de finanțare identificată și certă.
+
+Din analiza bugetului asigurărilor pentru șomaj pe 2026, rezultă că aproape 41,7% din cheltuielile totale sunt finanțate din fonduri europene (inclusiv PNRR), conform avizului CES. Aceasta înseamnă că o parte substanțială a cheltuielilor bugetare aprobate prin Lege au o sursă de finanțare incertă, condiționată de absorbția efectivă a fondurilor europenc la termenele planificate. Dacă absorbția întârzie sau nu se realizează, cheltuielile aprobate nu vor putea fi finanțate din sursa identificată.
+
+Cerința constituțională din art. 138 alin. (5) din Constituție nu se referă doar la identificarea formală a sursei de finanțare, ci la existența reală și certă a acesteia. Surse de finanțare cu grad ridicat de incertitudine, cum sunt estimările de absorbție a fondurilor europene la niveluri fără precedent în istoricul instituțional, nu satisfac cerința constituțională de asigurare a sursei de finanțare. Adoptarea unor cheltuieli bugetare fără o sursă de finanțare certă contravine principului responsabilității bugetare consacrat atât de art. 138 din Constituție, cât și de Legea nr. 69/2010.
+
+Această problemă este cu atât mai gravă cu cât, dacă absorbția fondurilor europene nu se realizează la nivelul preconizat, execuția bugetului asigurărilor pentru șomaj va înregistra un deficit față de prevederile bugetare, punând în pericol plata la timp a prestațiilor de șomaj. Aceasta demonstrează că bugetul a fost construit pe o premisă de finanțare irealistă, cu riscuri directe pentru drepturile beneficiarilor sistemului de asigurări pentru șomaj.
+
+## IV. CONCLUZII
+
+Pe cale de consecință, vă solicităm să constatați neconstituționalitatea Legii bugetului asigurărilor sociale de stat pe anul 2026 (PL-x nr. 185/2026-L147/2026), în ansamblul său, precum și a articolelor menționate în cuprinsul obiectiei de neconstituționalitate.
+
+Tabel de susținători pentru sesizarea de neconstituționalitate referitoare la Legea bugetului asigurărilor sociale de stat pe anul 2026 (L147/2026; Pl-x185/2026)
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1. | PEIU PETRISOR | AUR |  |
+| 2. | Pete George Ceban | AUR |  |
+| 3. | Cuihian Viutu | AUR |  |
+| 4 | CHERTIF COSTACHE | AUR |  |
+| 5 | IACOR C. CIPRIAN | A.U.R. |  |
+| 6. | SIPOS EUGEN - PRISTIAN | AUR |  |
+| 7 | Jffa Geumann | AUR |  |
+| 8 | Metea Miuena | AUR |  |
+| 9 | Taucenan-FERNANDES LUMIWI | AUR |  |
+| 10 | Sanda M. long | AUR |  |
+| 11 | Barean Doniwa | AUR |  |
+| 12 | ROMAN MARIUS-VALENTIN | AUR |  |
+
+Tabel de susținători pentru sesizarea de neconstituționalitate referitoare la Legea bugetului asigurărilor sociale de stat pe anul 2026 (L147/2026; Pl-x185/2026)
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 13 | DUMITRESAU CRISTINA | AUR. |  |
+| 14 | CONSINUN'NPASU ROO!CAI | AUR. |  |
+| 15 | Parasea Teoful | AUR |  |
+| 16 | Andrei D'ALAU | AUR |  |
+| 17 | VASILE MARIAXI | AUR |  |
+| 18. | Spau Duomitru | AUR |  |
+| 19. | POTE CIR VHEIUI CIR | AUR |  |
+| 20. | VCAHIV NICOLAE | AUR |  |
+| 21. | STOICA CRPIAXI -TITI | A.U.R. |  |
+| 22. | Laurio Soriu | AUR |  |
+| 23. | PLOESU FAWRACTIU | AUR |  |
+| 24 | VILIESAU VYHLUL | AUR |  |
+
+Tabel de susținători pentru sesizarea de neconstituționalitate referitoare la Legea bugetului asigurărilor sociale de stat pe anul 2026 (L147/2026; Pl-x185/2026)
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td rowspan="6">Semnătura</td></tr>
+<tr><td>25</td><td>MEGUU CORAEGUU</td><td>AUR2</td></tr>
+<tr><td>26</td><td>CHELARU MAIREJA</td><td>AUR2</td></tr>
+<tr><td>27</td><td>SILIGONU GLODII</td><td>AUR</td></tr>
+<tr><td>28</td><td>LANIELA STEFANESU</td><td>AVR</td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+## FW: Sesizare Legea bugetului asig sociale 2026
+
+From: Secretariat SG \<secretariat.sg@senat.ro> To: "grefier.sef@ccr.ro" \<grefier.sef@ccr.ro>, "registratura.jurisdictionala@ccr.ro" \<registratura.jurisdictionala@ccr.ro>
+
+Sat, 03/21/2026 03:38 PM
+
+Attachments: SG XXXV1306 la sesizarea XXXV1304.pdf (29 KB), xxxv\_1304 din 21.03.2026 sesizare neconstitutionalitate Legea bugetului asigurarilor sociale de stat 2026.pdf (2 MB)
+
+## Buna ziua
+
+Va transmitem alaturat Sesizarea de neconstitutionalitate a Legii bugetului asigurarilor sociale de stat pe anul 2026 (L 147/2026; PL-x nr. 185/2026), depusa la cabinetul Secretarului general in data de 21 martie 2026. Facem mentiunea ca sesizarea in original v-a fi comunicata Curtii Constitutionale luni, 23 martie 2026.
+
+De la: ScanSG@senat.ro \<ScanSG@senat.ro> Trimis: sâmbătă, 21 martie 2026 15:26 Către: Secretariat SG; Cristina Ionescu Subiect: SG XXXV1306 la sesizarea XXXV1304
+
+Vă rugăm să deschideți documentul atașat. A fost scanat și trimis cu un dispositiv multifuncțional Xerox.
+
+Tip fișler atașat: pdf, Pagini multiple
+
+Locație dispozitiv multifuncțional: Secretar General Nume dispozitiv: Xerox AltaLink C8145 (9F:8B:5D)
+
+Pentru informații suplimentare despre produsele și soluțiile Xerox, vizitați http://www.xerox.com

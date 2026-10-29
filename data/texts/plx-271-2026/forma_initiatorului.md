@@ -1,0 +1,25 @@
+# PARLAMENTUL ROMÂNIEI
+
+## LEGE
+
+# pentru modificarea Legii nr. 227/2015 privind Codul fiscal
+
+Parlamentul României adoptă prezenta lege:
+
+## Articol unic
+
+La articolul 291 alineatul (2) litera b) pct.3 din Legea nr. 227/2015 privind Codul fiscal, textul se modifică și va avea următorul cuprins:
+
+„3. alimentelor cu zahăr adăugat, al căror conținut total de zahăr este de minimum 5 g/100 g produs, altele decât laptele praf pentru nou-născuți, sugari și copii de vârstă mică;”
+
+## Art. 2
+
+În termen de 30 de zile de la intrarea în vigoare a prezentei legi, Guvernul va modifica și completa normele metodologice de aplicare a Titlului VII al Codului fiscal, în vederea stabilirii procedurilor detaliate de determinare a procentului de zaharuri adăugate și a oricăror alte prevederi necesare aplicării prezentei legi.
+
+## Art. 3
+
+Prezenta lege intră în vigoare la 60 de zile de la data publicării în Monitorul Oficial al României, Partea I.
+
+Președintele Camerei Deputaților,
+
+Președintele Senatului,

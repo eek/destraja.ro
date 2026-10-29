@@ -1,0 +1,177 @@
+{
+  "slug": "plx-309-2026",
+  "billId": "PL-x 309/2026",
+  "updatedAt": "2026-10-29T13:04:05.005Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L064FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Cadastrul gratuit, grăbit: mai mult timp de verificare, dar măsurătoarea bate titlul",
+      "summaryTlDr": "Lege tehnică utilă pentru deblocarea cadastrului gratuit, cu câștiguri reale pentru cetățeni: afișare de 4 luni, publicare online și ordin normativ publicat în Monitorul Oficial. Are însă două capcane. Prestatorul care a făcut măsurătorile votează asupra propriilor erori, iar la discrepanțe măsurătoarea prevalează asupra tarlalei/parcelei din titlu, fără acordul proprietarului.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/300/00/9/se339.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Cadastrul gratuit, pe repede-înainte: reguli noi pentru măsurători, afișare și reclamații",
+      "summaryTlDr": "Lege în mare parte tehnică și utilă pentru a debloca cadastrul gratuit, dar pune apărarea proprietarilor într-o fereastră scurtă de afișare și contestare. Punctul slab: firma care a făcut măsurătorile face parte din comisia care judecă reclamațiile despre propriile ei erori.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a păstrat textul inițiatorului; s-au corectat doar greșeli de redactare",
+      "summary": "Senatul a păstrat textul inițiatorului: diferențele sunt doar corecturi de redactare (ghilimele, spații, numerotări). Riscurile rămân: comisia de rectificare include firma contestată, iar cartea funciară se modifică fără acordul proprietarilor.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Comisia de rectificare include firma contestată; votul președintelui decide la egalitate",
+            "major": true,
+            "article": "art. 11 alin. (2) lit. l), art. 14 alin. (2¹)"
+          },
+          {
+            "text": "Cartea funciară se modifică după măsurători, fără acordul proprietarilor",
+            "major": true,
+            "article": "art. 11 alin. (19), art. 40 alin. (5)"
+          },
+          {
+            "text": "Tarlaua sau parcela greșită din titlu nu se mai rectifică",
+            "major": true,
+            "article": "art. 11 alin. (19), art. 40 alin. (5)"
+          },
+          {
+            "text": "Reambularea planului cadastral se face tot fără acordul proprietarilor",
+            "major": true,
+            "article": "art. 14 alin. (7⁴)"
+          },
+          {
+            "text": "Posesorul notat devine proprietar după 3 ani, prin derogare de la uzucapiune",
+            "major": true,
+            "article": "art. 13 alin. (6), (7)"
+          },
+          {
+            "text": "Imobilele cu proprietari neidentificați și surplusul de suprafață trec provizoriu la UAT",
+            "major": true,
+            "article": "art. 13 alin. (14), (15)"
+          },
+          {
+            "text": "Fără contrasemnarea primarului, documentele tehnice se prezumă corecte până la proba contrară",
+            "major": true,
+            "article": "art. 12 alin. (16)"
+          },
+          {
+            "text": "Proprietari cu acte diferite rămân neintabulați până la o hotărâre definitivă",
+            "major": true,
+            "article": "art. 14 alin. (6¹)"
+          },
+          {
+            "text": "Proiectele europene 2021-2027 se plătesc integral din veniturile ANCPI, presiune pe tarife",
+            "major": true,
+            "article": "art. 9 alin. (2)"
+          },
+          {
+            "text": "Doar 60 de zile de afișare pe sectoare, fără notificare individuală",
+            "major": false,
+            "article": "art. 11 alin. (2) lit. j)"
+          },
+          {
+            "text": "Contestația la OCPI doar în 15 zile de la comunicarea hotărârii",
+            "major": false,
+            "article": "art. 11 alin. (2) lit. m)"
+          },
+          {
+            "text": "Trimitere greșită la art. 2 alin. (9) și formulare neclară la rezerva funciară",
+            "major": false,
+            "article": "art. 12 alin. (16²), art. 13 alin. (14)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Procesul-verbal OCPI poate fi atacat la judecătorie în 15 zile",
+            "major": true,
+            "article": "art. 14 alin. (4)"
+          },
+          {
+            "text": "Corecturile în cartea funciară sunt gratuite până la prima înscriere ulterioară",
+            "major": true,
+            "article": "art. 14 alin. (7)"
+          },
+          {
+            "text": "Firma care a greșit planul cadastral e obligată să îl corecteze",
+            "major": true,
+            "article": "art. 14 alin. (7⁵), art. 13 alin. (14²)"
+          },
+          {
+            "text": "ANCPI plătește lucrările UAT: până la 130 lei + TVA/carte funciară, cu coeficienți",
+            "major": true,
+            "article": "art. 9 alin. (34⁵)"
+          },
+          {
+            "text": "Construcțiile dinainte de 2001 se înscriu și pe baza documentelor tehnice sau certificatului fiscal",
+            "major": true,
+            "article": "art. 12 alin. (16¹), (16²), art. 37 alin. (2)"
+          },
+          {
+            "text": "Posesia nu se notează pe imobile cu titlu și înscrieri ulterioare",
+            "major": true,
+            "article": "art. 13 alin. (2¹)"
+          },
+          {
+            "text": "Afișare 4 luni pentru lucrările pe UAT, cu anunț prealabil în presă și online",
+            "major": false,
+            "article": "art. 11 alin. (2) lit. j)"
+          },
+          {
+            "text": "Primăria și OCPI eliberează gratuit actele necesare, în cel mult 30 de zile",
+            "major": false,
+            "article": "art. 12 alin. (11)"
+          },
+          {
+            "text": "Contrasemnarea primarului elimină certificatele fiscale și adeverințele cerute separat",
+            "major": false,
+            "article": "art. 12 alin. (14)"
+          },
+          {
+            "text": "Extrasele de carte funciară tipărite sunt valabile, verificabile cu cod online",
+            "major": false,
+            "article": "art. 28¹ alin. (9)"
+          },
+          {
+            "text": "Actele originale depuse la OCPI se scanează și se restituie deponentului",
+            "major": false,
+            "article": "art. 28 alin. (1¹)"
+          }
+        ],
+        "partial": true
+      },
+      "diff": {
+        "added": 136,
+        "removed": 102,
+        "same": 0.35
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:04:05.005Z"
+    }
+  ]
+}

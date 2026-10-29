@@ -1,0 +1,85 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+# privind promovarea agroturismului și valorificarea patrimoniului rural prin Programul Viața la țară
+
+Senatul adoptă prezentul proiect de lege
+
+## Capitolul I Dispoziții generale
+
+Art.1.- Prin prezenta lege se înființează Programul național Viața la țară care are ca obiectiv promovarea și valorificarea patrimoniului cultural, tradițional și natural din mediul rural prin sprijinirea gospodăriilor țărănești să prezinte activități rurale din propria gospodărie.
+
+Art.2.- (1) Participarea gospodăriilor rurale în cadrul Programului național Viața la țară se realizează pe baza declarației de înregistrare depusă la primărie și a certificatului de producător de activități rurale emis de primărie.
+
+(2) Declarația de înregistrare cuprinde datele solicitantului și activitățile pe care acesta le desfășoară în mod uzual și permanent, condițiile, modul și perioada în care le poate prezenta.
+
+(3) Declarația se înscrie în Registrul local al producătorilor de activități rurale, constituit în format digital la nivelul primăriei, compatibil cu platforma informatică prevăzută la Capitolul III.
+
+(4) După înregistrarea declarației, primăria eliberează solicitantului certificatul de producător de activități rurale care atestă deținerea gospodăriei rurale și că poate prezenta activități rurale în cadrul programului.
+
+## Capitolul II Activități cuprinse în Programul Viața la țară
+
+Art.3.- (1) Se consideră activități eligibile în cadrul Programului Viața la țară:
+
+a) activități agricole și artizanale;
+
+b) obiceiuri tradiționale;
+
+c) activități de cunoaștere a ecosistemelor naturale.
+
+(2) Lista detaliată a activităților de la alin.(1) este prezentată pe Platforma națională Viața la țară.
+
+## Capitolul III Platforma națională online Viața la țară
+
+Art.4.- (1) Pentru derularea și susținerea Programului Viața la țară, Ministerul Agriculturii și Dezvoltării Rurale dezvoltă o platformă electronică națională denumită Viața la țară.
+
+(2) Operaționalizarea și administrarea platformei sunt realizate de către un operator privat, desemnat în baza unei licitații publice organizate de Ministerul Agriculturii și Dezvoltării Rurale.
+
+Art.5.- Platforma online Viața la țară asigură:
+
+a) înscrierea gospodăriilor participante și includerea acestora pe activități agricole și tradiționale, județe și regiuni geografice;
+
+b) prezentarea activităților prevăzute la art.3 alin.(1) și descrierea practicilor agricole specifice;
+
+c) vizibilitatea publică și promovarea internațională;
+
+d) disponibilitatea perioadei de vizitare și costurile prezentării activității tradiționale pentru fiecare gospodărie înscrisă în Programul Viața la țară;
+
+e) posibilitatea rezervării și plății online a serviciilor;
+
+f) încasarea de la vizitatori a contravalorii serviciilor de prezentare, la care se adaugă comisionul de intermediere al operatorului privat conform caietului de sarcini și viramentul ulterior către persoana fizică înscrisă în Programul Viața la țară;
+
+g) monitorizarea și transparența veniturilor realizate de către beneficiarii înscriși în program pentru ANAF și transmiterea situațiilor financiare către autoritățile locale din zona de competență.
+
+## Capitolul IV Regim fiscal și administrativ
+
+Art.6.- (1) Veniturile realizate în baza activităților Programului Viața la țară reprezintă venituri din activități independente pentru care venitul net anual se determină pe baza normelor de venit, conform prevederilor Legii nr.227/2015 privind Codul fiscal, cu modificările și completările ulterioare.
+
+(2) Prin derogare de la dispozițiile art.69 alin.(2) din Legea nr.227/2015, cu modificările și completările ulterioare, nivelul normelor anuale de venit, pe categorii de localități, în funcție de amplasamentul gospodăriei rurale, precum și coeficienții de corecție a acestora se stabilesc prin ordin al ministrului agriculturii și dezvoltării rurale.
+
+(3) Ministerul Agriculturii și Dezvoltării Rurale, prin structurile subordonate, transmite, anual, Agenției Naționale de Administrare Fiscală, nivelul normelor anuale de venit și coeficienții de corecție a acestora, în cursul trimestrului IV, dar nu mai târziu de data de 30 noiembrie a anului anterior celui în care urmează să se aplice.
+
+## Capitolul V Sprijin și promovare
+
+Art.7.- Statul sprijină gospodăriile participante prin:
+
+a) elaborarea de ghiduri de bune practici pentru promovarea activităților agricole;
+
+b) cursuri gratuite de instruire în domeniul prezentării practicilor agricole tradiționale și de protejare a mediului înconjurător;
+
+c) programe de finanțare pentru cursuri de conservare a ecosistemelor tradiționale și reziliență culturală și socială a zonelor rurale.
+
+Art.8.- Programul Viața la țară este integrat în campaniile naționale și internaționale de promovare agroturistică a României.
+
+## Capitolul VI Dispoziții finale
+
+Art.9.-Normele metodologice de aplicare a prezentei legi se aprobă, la inițiativa Ministerului Agriculturii și Dezvoltării Rurale, prin hotărâre a Guvernului în termen de 90 de zile de la publicarea legii în Monitorul Oficial al României, Partea I.
+
+Acest proiect de lege a fost adoptat de Senat, în ședința din 23 februarie 2026, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.
+
+## PREȘEDINTELESENATULUI
+
+## MIRCEA ABRUDEAN

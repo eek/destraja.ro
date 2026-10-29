@@ -1,0 +1,11 @@
+CAMERA DEPUTAȚILOR
+
+SENATUL
+
+LEGE
+
+# pentru aprobarea Ordonanței de urgență a Guvernului nr. 72/2025 privind unele măsuri pentru implementarea Planului Național de Redresare și Reziliență, precum și pentru completarea unor acte normative
+
+Parlamentul României adoptă prezenta lege.
+
+Articol unic. – Se aprobă Ordonanța de urgență a Guvernului nr. 72/2025 privind unele măsuri pentru implementarea Planului Național de Redresare și Reziliență, precum și pentru completarea unor acte normative.

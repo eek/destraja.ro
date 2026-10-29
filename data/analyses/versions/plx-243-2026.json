@@ -1,0 +1,102 @@
+{
+  "slug": "plx-243-2026",
+  "billId": "PL-x 243/2026",
+  "updatedAt": "2026-10-29T12:54:52.987Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L127FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Pachetul de relansare: facilități fiscale, ajutoare de stat și limite relaxate pentru fondurile de pensii",
+      "summaryTlDr": "Măsurile fiscale sunt în mare favorabile contribuabililor: TVA la încasare, bonificații pentru plata la termen, credit C-D și tratament egal pentru PEPP. Pachetul omnibus adoptat prin urgență lasă însă criteriile ajutoarelor de stat pe seama Guvernului și relaxează limitele de investiții ale Pilonului II chiar când statul vrea să «mobilizeze capitalul intern» prin BID. Riscul e moderat și vine din garanțiile care lipsesc, nu din taxe noi.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/200/40/3/se262.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Pachetul de relansare: facilități fiscale, ajutoare de stat și pensii private lăsate să investească în firme nelistate",
+      "summaryTlDr": "Partea fiscală e în mare parte favorabilă firmelor și contribuabililor corecți: TVA la încasare extins, bonificații pentru buni platnici și credit fiscal pentru cercetare. Prin același articol unic se aprobă însă și relaxarea regulilor de investiții pentru economiile din Pilonul II și noi ajutoare de stat cu criterii neclare, care cer atenție.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat ordonanța fără modificări; diferențele față de forma inițială sunt doar de formă",
+      "summary": "Senatul a aprobat ordonanța neschimbată; a adăugat doar data ei, numărul Monitorului Oficial și data ședinței. Riscurile rămân: banii din Pilonul II pot merge spre firme nelistate, iar criteriile ajutoarelor de stat sunt lăsate pe seama actelor ulterioare.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Fondurile Pilonului II pot investi mai mult în firme nelistate, alături de BID",
+            "major": true,
+            "article": "art. 1 alin. (2) lit. c)"
+          },
+          {
+            "text": "Ajutoare de stat fără criterii, plafoane sau buget vizibile în text",
+            "major": true,
+            "article": "art. 1 alin. (2) lit. a), art. 2"
+          },
+          {
+            "text": "Omnibus de urgență cu nouă categorii de măsuri, greu de urmărit și amendat",
+            "major": false,
+            "article": "art. 1 alin. (2) lit. a)–i)"
+          },
+          {
+            "text": "Costul bugetar al bonificațiilor și plafonului TVA nu apare cuantificat",
+            "major": false,
+            "article": "art. 1 alin. (2) lit. g), h)"
+          },
+          {
+            "text": "Creditul pentru cercetare poate fi recuperat prin impozitul minim global suplimentar",
+            "major": false,
+            "article": "art. 1 alin. (2) lit. d)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Plafonul pentru TVA la încasare crește, ajutând cash-flow-ul IMM-urilor",
+            "major": true,
+            "article": "art. 1 alin. (2) lit. g)"
+          },
+          {
+            "text": "Bonificații la impozitul pe profit, pe microîntreprinderi și pe venit pentru buni platnici",
+            "major": true,
+            "article": "art. 1 alin. (2) lit. h)"
+          },
+          {
+            "text": "Credit fiscal unitar pentru cercetare-dezvoltare, accesibil și grupurilor cu impozit minim global",
+            "major": true,
+            "article": "art. 1 alin. (2) lit. d)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:52:17.231Z"
+    }
+  ]
+}

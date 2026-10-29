@@ -1,0 +1,73 @@
+LEGE
+
+pentru modificarea și completarea Legii nr. 134/2010 privind Codul de procedură civilă
+
+Parlamentul României adoptă prezenta lege.
+
+Art. I
+
+Legea nr. 134/2010 privind Codul de procedură civilă, republicată în Monitorul Oficial al României, Partea I, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+## 1. Articolul 667 se modifică și va avea următorul cuprins:
+
+Art. 667 – Somația
+
+(1) Debitorul va fi somat să își îndeplinească obligația în termen de 7 zile lucrătoare de la data comunicării somației, dacă legea nu prevede un termen mai lung.
+
+(2) Somația va cuprinde, în mod obligatoriu, cuantumul creanței principale, dobânzile, penalitățile, cheltuielile de executare efectiv efectuate până la data emiterii somației, contul în care poate fi efectuată plata, modalitatea de transmitere a dovezii plății, precum și mențiunea că, în caz de neplată în termenul prevăzut la alin. (1), se va proceda la continuarea executării silite.
+
+(3) În cazul în care debitorul achită integral obligația în termenul prevăzut la alin. (1), acesta nu poate fi obligat la plata cheltuielilor aferente unor acte de executare silită dispuse sau efectuate înainte de expirarea acestui termen, cu excepția cheltuielilor necesare pentru comunicarea actelor de executare și a celor efectiv efectuate anterior comunicării somației.
+
+(4) Prin excepție de la alin. (1), în cazuri urgente și temeinic justificate, atunci când creditorul dovedește existența unui risc real de sustragere de la executare, de înstrăinare a bunurilor sau de diminuare frauduloasă a patrimoniului debitorului, instanța de executare poate încuviința, prin încheiere motivată, efectuarea unor acte de executare înainte de împlinirea termenului prevăzut la alin. (1).
+
+(5) Dispozițiile prezentului articol nu aduc atingere termenelor mai lungi prevăzute de lege pentru anumite forme de executare silită.
+
+## 2. Articolul 672 se modifică și va avea următorul cuprins:
+
+## Art. 672 – Trecerea la executarea silită
+
+(1) În afară de cazul în care legea prevede altfel, actele de executare silită nu pot fi efectuate decât după expirarea termenului arătat în somație sau, în lipsa acesteia, în cel prevăzut în încheierea prin çare s-a încuviințat executarea.
+
+(2) În cazul executării silite având ca obiect plata unei sume de bani, actele de executare silită prin care se urmăresc veniturile, conturile bancare, bunurile mobile sau imobile ale debitorului nu pot fi dispuse, comunicate terților sau efectuate înainte de expirarea termenului prevăzut la art. 667 alin. (1), cu excepția cazurilor în care legea prevede în mod expres altfel sau în care instanța de executare a încuviințat aplicarea art. 667 alin. (4).
+
+(3) Actele de executare efectuate cu încălcarea alin. (2) nu pot genera cheltuieli de executare în sarcina debitorului, dacă acesta a achitat integral obligația în termenul prevăzut la art. 667 alin. (1).
+
+3\. La articolul 669, după alineatul (2) se introduce un nou alineat, alin. (2¹), cu următorul cuprins:
+
+(2¹) În cazul în care debitorul achită integral obligația în termenul prevăzut în somație, acesta nu datorează cheltuieli de executare pentru actele de executare silită dispuse sau efectuate înainte de expirarea termenului de plată, cu încălcarea dispozițiilor art. 667 și art. 672 alin. (2).
+
+4\. Articolul 782 alineatul (1) se modifică și va avea următorul cuprins:
+
+## Art. 782 - Înființarea popririi
+
+(1) Poprirea se înființează, după expirarea termenului prevăzut la art. 667 alin. (1), fără o nouă somație, în baza încheierii de încuviințare a executării, prin adresă în care se va preciza titlul executoriu în temeiul căruia s-a înființat poprirea. Adresa de înființare a popririi se comunică terței persoane arătate la art. 780 alin. (1), împreună cu încheierea de încuviințare a executării.
+
+5\. La articolul 782, după alineatul (1) se introduce un nou alineat, alin. (1¹), cu următorul cuprins:
+
+(1¹) Prin excepție de la alin. (1), poprirea poate fi înființată înainte de expirarea termenului prevăzut la art. 667 alin. (1) numai în cazurile în care legea prevede în mod expres executarea fără somație ori atunci când instanța de executare a încuviințat, prin încheiere motivată, aplicarea art. 667 alin. (4).
+
+## Art. II
+
+(1) Prezenta lege se aplică executărilor silite pornite după data intrării sale în vigoare.
+
+(2) În cazul executărilor silite aflate în curs la data intrării în vigoare a prezentei legi, dispozițiile privind suportarea cheltuielilor de executare se aplică numai actelor de executare efectuate după această dată.
+
+Art. III
+
+Prezenta lege intră în vigoare la 30 de zile de la data publicării în Monitorul Oficial al României, Partea I.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art.75 și ale art.76 alin.(1) din Constituția României, republicată.
+
+PREȘEDINTE
+
+PREȘEDINTE
+
+CAMERA DEPUTAȚILOR
+
+SENATUL ROMÂNIEI
+
+GRINDEANU SORIN-MIHAI
+
+ABRUDEAN MIRCEA
+
+The chart displays the relationship between two variables, showing a positive correlation where the value of one variable increases as the value of the other increases. The data points are represented by dots of varying sizes and shades of gray, indicating a distribution or density of values across the range.

@@ -1,0 +1,209 @@
+{
+  "slug": "plx-608-2026",
+  "billId": "PL-x 608/2026",
+  "updatedAt": "2026-10-29T13:19:16.632Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L443FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 6.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Uniformă obligatorie în toate școlile, cu amendă pentru școală și control al poliției",
+      "summaryTlDr": "Uniforma școlară e o opțiune legitimă de politică educațională, dar textul e scris în grabă. Trimite la un ordin care nu există, își contrazice anexa (venit brut sau net) și nu garantează banii pentru gratuitate. Amendează școlile publice, prin poliție, cu bani tot publici și intră în vigoare în 3 zile, înaintea normelor de aplicare.",
+      "scores": {
+        "agy": 8,
+        "claude": 6,
+        "codex": 6
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/600/00/8/se702.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Uniformă obligatorie în toate școlile, cu gratuitate promisă, dar fără bani asigurați",
+      "summaryTlDr": "Ideea e populară, dar textul e scris în grabă. Obligă toți elevii să poarte uniformă și promite gratuitate, însă nu spune cine plătește, cât costă uniforma și cum se cere ajutorul. Fără plafon de preț și fără interdicția furnizorului unic, cheltuiala riscă să cadă tot pe părinți.",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 6
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Dispar amenzile de 5.000–10.000 lei pentru școlile care nu asigură purtarea uniformei",
+      "summary": "Senatul a scos amenzile pentru școli și controlul poliției, a reparat trimiterea la un ordin inexistent și a clarificat că venitul se ia brut. Rămân însă probleme: uniforma gratuită nu are un plătitor sigur sau un preț maxim, iar pragurile din anexă sunt mici și incoerente.",
+      "changes": [
+        {
+          "title": "Dispar amenzile pentru școli și controlul poliției",
+          "text": "Inițial, școala care nu asigura purtarea uniformei primea amendă de 5.000–10.000 lei, constatată de Poliția Română sau Locală. Acum aceste prevederi de la art. 148 nu mai există.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 148 alin. (1) lit. c) și alin. (6)",
+          "before": "c) Unitatea de învățământ care nu asigură aplicare dispozițiilor art. 106 alin. (2) litera c), constituie contravenție și se sancționează cu amendă de la 5.000 la 10.000 lei.",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Venitul se ia brut, din toate sursele",
+          "text": "Inițial, anexa cerea venitul brut, dar apoi doar salariile nete. Acum contează venitul brut din toate sursele impozabile: regula e clară, dar mai strictă decât una pe net.",
+          "effect": "neutru",
+          "major": true,
+          "article": "anexa nr. 2",
+          "before": "se iau în considerare exclusiv veniturile salariale nete impozabile ale părinților sau reprezentanților legali",
+          "after": "se iau în considerare exclusiv veniturile brute impozabile ale părinților sau reprezentanților legali",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Uniforma se alege cu acordul părinților, fără elevi",
+          "text": "Inițial, școala doar consulta consiliul elevilor și asociația de părinți. Acum consiliul reprezentativ al părinților trebuie să-și dea acordul, dar elevii nu mai sunt consultați (art. 106¹ alin. (1)).",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 106¹ alin. (1)",
+          "before": "se stabilesc de către consiliul de administrație al fiecărei unități de învățământ, cu consultarea obligatorie a consiliului școlar al elevilor și a asociației de părinți",
+          "after": "se stabilesc de către consiliul de administrație al fiecărei unități de învățământ, cu acordul consiliului reprezentativ al părinților",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Interdicția de a cere haine în plus devine clară",
+          "text": "Inițial, interdicția trimitea la un ordin care nu exista. Acum e clar că școala nu poate cere alte haine sau accesorii decât uniforma aprobată, cu excepția ecusonului.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 106¹ alin. (2)",
+          "before": "Se interzice modificarea, adăugarea sau impunerea altor elemente vestimentare sau accesorii față de cele stabilite prin ordinul prevăzut la litera a)",
+          "after": "Unitatea de învățământ nu poate impune elevilor alte elemente vestimentare sau accesorii decât cele stabilite potrivit alin.(1)",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Ajutoarele sociale pentru familie nu se mai numără",
+          "text": "Acum nu se numără la venit nici ajutoarele sociale pentru copil și familie, nici banii primiți de părinți pentru copii. Inițial erau excluse doar prestațiile și sumele date direct copiilor.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "anexa nr. 2",
+          "before": "Nu se includ la calculul venitului prevăzut la Anexă alocația de stat pentru copii, bursele școlare, prestațiile sociale destinate copiilor",
+          "after": "Nu se includ la calculul venitului prevăzut la Anexă alocația de stat pentru copii, bursele școlare, beneficii de asistență socială pentru susținerea copilului și familiei",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Normele de aplicare: ordin de ministru, publicat oficial",
+          "text": "Inițial, ministerul doar „elabora” normele. Acum ele se aprobă prin ordin al ministrului, publicat în Monitorul Oficial, în 90 de zile de la intrarea în vigoare a legii.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. II alin. (2)",
+          "before": "În termen de 90 de zile de la publicarea prezentei legi în Monitorul Oficial al României, Ministerul Educației elaborează normele metodologice de aplicare a art. 106 alineatul (2), litera c) din Legea nr. 198/2023.",
+          "after": "normele metodologice de aplicare a art.106 alin.(2) lit.c) din Legea nr.198/2023, cu modificările și completările ulterioare, se aprobă prin ordin al ministrului educației și cercetării, care se publică în Monitorul Oficial al României, Partea I.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Gratuitatea e obligatorie, dar finanțarea doar facultativă; nu există plătitor desemnat",
+            "major": true,
+            "article": "art. 106¹ alin. (3)"
+          },
+          {
+            "text": "Nu există preț maxim; furnizorul unic sau brandul exclusiv rămân permise",
+            "major": true,
+            "article": "art. 106¹"
+          },
+          {
+            "text": "Praguri mici: o familie de patru pierde gratuitatea peste circa 6.019 lei brut",
+            "major": true,
+            "article": "anexa nr. 2"
+          },
+          {
+            "text": "Anexa incoerentă: la 4,8 ISR/membru, părintele singur nu primește nimic, cuplul primește 50%",
+            "major": true,
+            "article": "anexa nr. 2"
+          },
+          {
+            "text": "Coloanele se suprapun: nu e clar ce prag are familia monoparentală cu trei copii",
+            "major": true,
+            "article": "anexa nr. 2"
+          },
+          {
+            "text": "Consiliul elevilor nu mai este consultat la stabilirea uniformei",
+            "major": true,
+            "article": "art. 106¹ alin. (1)"
+          },
+          {
+            "text": "Nu se spune cine verifică venitul și cum se cere gratuitatea",
+            "major": false,
+            "article": "art. 106¹ alin. (3)"
+          },
+          {
+            "text": "Obligația uniformei se aplică în 3 zile, normele vin abia în 90",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "good": [
+          {
+            "text": "Dreptul la uniformă gratuită sau subvenție de 50% pentru familiile cu venituri mici",
+            "major": true,
+            "article": "art. 106¹ alin. (3)"
+          },
+          {
+            "text": "Școala nu poate impune alte haine sau accesorii decât uniforma aprobată",
+            "major": true,
+            "article": "art. 106¹ alin. (2)"
+          },
+          {
+            "text": "Uniforma se stabilește doar cu acordul consiliului reprezentativ al părinților",
+            "major": true,
+            "article": "art. 106¹ alin. (1)"
+          },
+          {
+            "text": "Nu mai există amenzi pentru școli și nici control al poliției",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Venitul luat în calcul e definit unitar: brut, din toate sursele impozabile",
+            "major": true,
+            "article": "anexa nr. 2"
+          },
+          {
+            "text": "Alocația, bursele, ajutoarele sociale și indemnizațiile de handicap nu se numără la venit",
+            "major": false,
+            "article": "anexa nr. 2"
+          },
+          {
+            "text": "Normele de aplicare se aprobă prin ordin publicat în Monitorul Oficial",
+            "major": false,
+            "article": "art. II alin. (2)"
+          },
+          {
+            "text": "ISR e definit prin trimitere la Legea nr. 141/2025",
+            "major": false,
+            "article": "anexa nr. 2"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 14,
+        "removed": 18,
+        "same": 0.18
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:17:47.970Z"
+    }
+  ]
+}

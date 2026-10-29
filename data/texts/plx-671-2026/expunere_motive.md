@@ -1,0 +1,219 @@
+# Expunere de motive privind propunerea legislativă pentru completarea Legii minelor nr. 85/2003
+
+SECTIUNEA 1 Titlul proiectului actului normativ: Lege pentru completarea Legii minelor nr. 85/2003
+
+## SECTIUNEA A 2-A Motivul emiterii actului normativ
+
+## 2.1. Descrierea situatiei actuale
+
+Reglementările Uniunii Europene consacră caracterul strategic și critic al resurselor minerale care intră sub incidența Legii minelor nr. 85/2003, astfel cum rezultă din Regulamentul (UE) 2024/1252 privind asigurarea accesului la materii prime critice. Acest cadru normativ evidențiază necesitatea valorificării eficiente și neîntrerupte a resurselor naturale, recunoscând în mod expres, prin paragraful (35), existența unor conflicte generate de utilizarea terenurilor, care pot afecta accesul la resursele minerale și pot conduce la întârzieri în implementarea proiectelor.
+
+În plan național, prioritățile strategice sunt determinate de implementarea investițiilor finanțate din fonduri europene, în domenii esențiale precum infrastructura rutieră, feroviară și portuară, inclusiv prin Planul Național de Redresare și Reziliență. Aceste investiții presupun realizarea, într-un termen limitat, a unor proiecte majore de infrastructură, ceea ce impune asigurarea accesului rapid și eficient la resursele minerale necesare.
+
+Situația generată de agresiunea militară rusă din Ucraina a accentuat necesitatea accelerării lucrărilor de construcție și modernizare a infrastructurii de transport, context în care devine esențial ca dreptul statului de a dispune asupra resurselor minerale să nu fie afectat de dificultățile generate de regimul juridic al terenurilor, care pot conduce la întârzieri sau blocaje în derularea proiectelor.
+
+Potrivit art. 136 alin. (3) din Constituția României, bogățiile de interes public ale subsolului fac obiectul exclusiv al proprietății publice a statului, acesta având dreptul de a stabili condițiile de valorificare a resurselor minerale. Exercitarea acestui drept este reglementată de Legea minelor nr. 85/2003 și se realizează prin acordarea drepturilor de exploatare, în cadrul unui regim juridic specific, care presupune utilizarea terenurilor sub care este cantonată resursa.
+
+Activitățile miniere presupun, în mod necesar, utilizarea unor suprafețe de teren care pot aparține domeniului public sau privat al unităților administrativ-teritoriale, în funcție de regimul juridic aplicabil.
+
+În aceste condiții, valorificarea resurselor minerale este dependentă de asigurarea accesului efectiv la terenurile necesare desfășurării operațiunilor de exploatare.
+
+În lipsa unor mecanisme de corelare între aceste regimuri juridice, devin inerente situațiile în care exercitarea dreptului de dispoziție asupra terenurilor afectează posibilitatea valorificării resurselor minerale, conturându-se astfel un conflict normativ între prerogative aparținând unor regimuri juridice diferite.
+
+Așadar, cadrul legislativ actual nu se raportează la regimul specific al activităților miniere, care implică investiții semnificative, și nici la situațiile în care zăcământul de resurse minerale care face obiectul unui permis sau al unei licențe continuă, din punct de vedere geologic, dincolo de limitele perimetrului de exploatare acordat inițial de ANRMPSG.
+
+Inițiativa legislativă trebuie analizată și din perspectiva reconstrucției Ucrainei, având în vedere că România reprezintă un coridor logistic și economic esențial pentru derularea proiectelor de infrastructură și dezvoltare, datorită poziției sale geografice, capacităților portuare și rolului în cadrul rețelelor europene de transport.
+
+În acest context, este previzibilă o creștere a cererii de resurse minerale necesare realizării lucrărilor de construcții și infrastructură, ceea ce impune asigurarea unui acces rapid și neîntrerupt la zăcămintele existente pe teritoriul național.
+
+În aceste condiții, se impune instituirea unui cadru juridic care să permită valorificarea eficientă a bogățiilor subsolului, prin eliminarea blocajelor generate de regimul juridic al terenurilor și asigurarea accesului efectiv la suprafețele necesare exploatații, astfel încât exploatarea resurselor minerale să genereze venituri adecvate la bugetul de stat, prin redevențe care reflectă valoarea economică a acestora, contribuind la consolidarea, pe termen lung, a sustenabilității financiare a României.
+
+## 2.2. Schimbari preconizate
+
+Modificarea propusă este permisă de dispozițiile Codului administrativ, respectiv de art. 364 alin. (3) – „Prin legi speciale se pot institui alte excepții de la procedura licitației publice” și de art. 306 alin. (4) – „prin legi speciale se pot stabili concesionări cu durată mai mare de 49 de ani”.
+
+Inițiativa legislativă se corelează cu dispozițiile art. 5 alin. (3) lit. d) și alin.(8) din Ordonanța de urgență a Guvernului nr. 34/2013, astfel cum a fost modificată și completată prin Legea nr. 86/2014, conform cărora:
+
+„(3) Prin excepție de la prevederile alin. (2), scoaterea definitivă sau temporară din circuitul agricol a pajiștilor situate în extravilan se poate face cu avizul Ministerului Agriculturii și Dezvoltării Rurale, pentru: (...) d) operațiuni și lucrări legate de explorarea, dezvoltarea, exploatarea țițeiului și a altor resurse minerale naturale, desfășurate în baza acordurilor de concesiune petrolieră, operațiuni și lucrări de construcții în legătură cu acestea și operațiuni legate de extracția, depozitarea, procesarea, transportul, distribuirea și comercializarea producției de țiței și resurse minerale naturale (...) (8) Pentru scoaterea temporară din circuitul agricol a terenurilor având categoria de folosință pajiști nu se face recuperare.
+
+În acest context, inițiativa legislativă se întemeiază pe interpretarea sistematică a dispozițiilor art. 5 alin. (3) lit. d) din Ordonanța de urgență a Guvernului nr. 34/2013, normă care face trimitere la categorii de activități reglementate de Autoritatea Națională de Reglementare în Domeniul Minier, Petrolier și al Stocării Geologice a Dioxidului de Carbon, respectiv cele prevăzute de Legea minelor nr. 85/2003 și de Legea petrolului nr. 238/2004.
+
+Prin această abordare se asigură coerența regimului juridic al terenurilor agricole cu cel aplicabil activităților miniere, garantând o interpretare unitară a excepției prevăzute la art. 5 alin. (3) lit. d) și evitând limitarea nejustificată a aplicării acesteia la anumite categorii de resurse minerale.
+
+Dispozițiile alin. (3) lit. b) stabilesc că atribuirea directă a concesiunii vizează exclusiv terenurile agricole încadrate în clasele de fertilitate III–V, respectiv terenuri cu potențial agricol redus sau afectate de procese de degradare.
+
+Această soluție asigură echilibrul între valorificarea resurselor minerale și protejarea terenurilor agricole cu valoare ridicată, esențiale pentru siguranța alimentară.
+
+Obligația obținerii atestării clasei de fertilitate de către autoritatea competentă în domeniul agriculturii permite verificarea obiectivă a încadrării terenurilor în categoriile permise, prevenind utilizarea celor cu valoare agricolă ridicată.
+
+Deopotrivă, inițiativa legislativă se înscrie în direcția strategiei guvernamentale de consolidare a cadrului normativ aplicabil domeniului resurselor minerale, astfel cum a fost reflectată prin OUG nr. 77/2024, prin care s-a modificat în regim de urgență Legea minelor nr. 85/2003, în vederea valorificării resurselor minerale neenergetice și a susținerii obiectivelor economice și de tranziție energetică.
+
+Proiectul propus dezvoltă și completează aceste măsuri, având în vedere necesitatea asigurării accesului efectiv la resursele minerale și a eliminării disfuncționalităților generate de lipsa corelării între dreptul de proprietate publică al statului asupra resurselor minerale și dreptul de proprietate asupra terenurilor, aspect care nu a fost avut în vedere în mod explicit de reglementarea anterioară, deși aceasta a vizat inclusiv includerea în circuitul economic a unui număr însemnat de perimetre miniere.
+
+Cadrul legal existent (articolul 6) include, printre modalitățile de dobândire a dreptului de folosință asupra terenurilor necesare activităților miniere, și concesiunea. Totuși, în absența unor reglementări adaptate evoluțiilor geopolitice recente și caracterului strategic al resurselor minerale vizate de lege, reglementarea actuală poate crea aparența că regimul juridic al terenurilor prevalează asupra dreptului constituțional al statului asupra bogățiilor de interes public ale subsolului.
+
+Atribuirea directă a concesiunii reprezintă modalitatea de punere în aplicare a unui drept minier preexistent, dobândit în condiții concurențiale, întrucât valorificarea resurselor minerale este dependentă de asigurarea accesului efectiv la terenurile necesare desfășurării operațiunilor de exploatare.
+
+Măsura atribuirii directe a concesiunii către titularii de licențe sau de permise nu reprezintă un tratament preferențial, ci o soluție juridică diferențiată, impusă de o situație obiectiv distinctă, în deplin acord cu jurisprudența Curții Constituționale privind aplicarea art. 16 din Constituția României.
+
+Diferența de tratament rezultă din dreptul minier dobândit anterior în condiții concurențiale și este determinată de necesitatea asigurării continuității exploatații unui zăcământ care se extinde, din punct de vedere geologic, dincolo de limitele perimetrului de exploatare acordat inițial de către ANRMPSG.
+
+Procedura prevăzută la alin. (5) exclude caracterul discreționar al deciziei de aprobare, aceasta fiind fundamentată exclusiv pe documentația depusă de solicitant, care permite verificarea concretă a capacității tehnice și financiare, a modului de exploatare propus și a impactului asupra mediului. În acest fel, atribuirea directă nu se bazează pe o apreciere subiectivă, ci pe criterii obiective și verificabile.
+
+În situația în care terenurile vizate au o altă categorie de folosință, exploatarea minieră este condiționată de respectarea procedurilor legale privind schimbarea destinației, costurile aferente revenind integral solicitantului. Această cerință asigură că utilizarea terenurilor se realizează în limitele cadrului legal aplicabil.
+
+Prin alin. (7) se instituie un termen de 60 de zile pentru soluționarea inițiativelor de concesionare sau extindere a suprafețelor concesionate, în vederea asigurării celerității și predictibilității procedurii administrative.
+
+Stabilirea expresă a motivelor de respingere – respectiv existența unor drepturi reale ale terților, lipsa bonității financiare a titularului licenței ori al permisului minier, neîncadrarea terenurilor în clasele de fertilitate prevăzute la alin. (3), neconfirmarea continuității geologice a zăcământului, precum și existența unui proiect de interes public al unității administrativ-teritoriale – are rolul de a preveni deciziile arbitrare care ar contraveni atât interesului public național, cât și obiectivelor asumate de România la nivelul Uniunii Europene.
+
+În acest mod, decizia autorității deliberative se întemeiază pe criterii obiective și verificabile, prevăzute expres de lege, fiind asigurată atât exercitarea efectivă a drepturilor de exploatare, cât și protejarea intereselor legitime ale unităților administrativ-teritoriale.
+
+Soluția legislativă este fundamentată pe regimul juridic al resurselor minerale, care, potrivit art. 136 alin. (3) din Constituția României, fac obiectul exclusiv al proprietății publice a statului. În acest sens, statul are competența de a stabili condițiile necesare valorificării acestor resurse și de a asigura exercitarea efectivă a drepturilor de exploatare acordate.
+
+Reglementarea consolidează, de asemenea, rolul avizului emis de autoritatea competentă în domeniul agriculturii ca instrument esențial de protecție a terenurilor cu valoare agricolă ridicată, asigurând un echilibru între exploatarea resurselor minerale și necesitatea menținerii siguranței alimentare.
+
+Includerea unor noi terenuri în suprafața concesionată determină, după caz, actualizarea actelor de reglementare în domeniul protecției mediului, în condițiile legislației incidente, inclusiv din prisma constituirii unor garanții financiare adecvate pentru refacerea mediului, raportate la dimensiunea și natura activităților propuse.
+
+Reglementarea propusă nu aduce atingere principiului autonomiei locale consacrat de art. 120 din Constituția României, limitarea motivelor de respingere la criterii obiective prevăzute de lege reprezentând o garanție împotriva exercitării arbitrare sau discreționare a competențelor administrative în domeniul valorificării resurselor minerale care fac obiectul proprietății publice exclusive a statului, potrivit art. 136 alin. (3) din Constituție. Soluția legislativă urmărește eliminarea blocajelor generate de aprecieri de oportunitate, care pot afecta continuitatea exploatării zăcămintelor și exercitarea efectivă a drepturilor miniere, precum și realizarea investițiilor strategice, menținând totodată rolul autorităților deliberative în verificarea legalității, a îndeplinirii condițiilor tehnice prevăzute de lege și a protejării intereselor legitime ale comunităților locale.
+
+În același timp, completarea art. 45¹ consolidează autonomia locală prin asigurarea unei participări directe a unităților administrativ-teritoriale la beneficiile economice generate de valorificarea resurselor minerale. În acest sens, pentru producția minieră realizată pe terenurile concesionate în condițiile art. 6¹, se instituie o redevență minieră suplimentară de 5 %, care se constituie integral venit la bugetul local al unității administrativ-teritoriale pe teritoriul căreia se desfășoară activitatea de exploatare.
+
+## SECTIUNEA A 3-A
+
+## Impactul socio-economic al proiectului de act normativ
+
+## 3.1. Impactul macroeconomic
+
+Măsura propusă creează condițiile pentru derularea în timp util a proiectelor de investiții, contribuind la creșterea eficienței economice și la valorificarea resurselor minerale în concordanță cu obiectivele strategice naționale și europene.
+
+## 3.2. Impactul asupra mediului de afaceri
+
+Măsura reduce incertitudinea juridică și procedurală pentru titularii de licențe sau permise miniere care urmăresc continuarea activităților de exploatare, exclusiv pentru situațiile în care zăcământul se extinde, din punct de vedere geologic, dincolo de limitele perimetrului inițial.
+
+## 3.3. Impactul social
+
+Măsura propusă asigură menținerea locurilor de muncă, cu efecte pozitive asupra comunităților locale.
+
+## 3.4. Impactul asupra mediului
+
+Proiectul de act normativ nu afectează negativ mediul, întrucât desfășurarea activităților miniere rămâne supusă procedurilor de regle
+
+mentare și control în domeniul protecției mediului, în concordanță cu exigențele articolul 35 din Constituția României.
+
+## SECTIUNEA A 4-A
+
+Impactul financiar asupra bugetului general consolidat, atât pe termen scurt, pentru anul curent, cât și pe termen lung (pe 5 ani)
+
+## 4.1. Modificări ale veniturilor bugetare, plus/minus, din care:
+
+Impactul asupra veniturilor bugetare este pozitiv, aspect detaliat în cadrul Secțiunii 4.3.
+
+## 4.2. Modificări ale cheltuielilor bugetare, plus/minus, din care:
+
+Prezentul act normativ nu are impact asupra cheltuielilor bugetare.
+
+## 4.3. Impact financiar, plus/minus, din care:
+
+## a) buget de stat
+
+Adoptarea actului normativ are un impact pozitiv asupra veniturilor bugetului general consolidat, prin asigurarea continuității exploatații resurselor minerale și, implicit, a veniturilor din redevențe. Măsura permite valorificarea neîntreruptă a resurselor și evitarea perioadelor de inactivitate care ar putea conduce la diminuarea acestor venituri.
+
+## b) bugete locale
+
+Adoptarea actului normativ are un impact pozitiv asupra bugetelor locale, prin creșterea veniturilor generate de activitățile miniere, inclusiv din taxe și impozite locale aferente acestora, precum și din cota-parte din redevența minieră, potrivit art.45¹ din Legea minelor nr. 85/2003.
+
+Repartizarea redevenței miniere în proporție de 35% la bugetul județului, 45% la bugetul unității administrativ-teritoriale și 20% la bugetul de stat contribuie la consolidarea veniturilor locale și la reducerea dependenței acestora de transferurile de la bugetul de stat.
+
+În același timp prin art.45¹ alin.(3), pentru producția minieră realizată pe terenurile concesionate în condițiile art. 6¹, se instituie o redevență minieră suplimentară de 5%, care se constituie integral venit la bugetul local al unității administrativ-teritoriale. Această măsură asigură participarea directă a autorităților locale la beneficiile economice generate de exploatarea resurselor minerale și reprezintă o contrapondere la limitarea posibilității de respingere a inițiativei de concesionare pe criterii de oportunitate, menținând astfel un echilibru între autonomia locală și interesul public național.
+
+## 4.4. Propuneri pentru acoperirea creșterii cheltuielilor bugetare
+
+Prezentul act normativ nu implică creșteri ale cheltuielilor bugetare.
+
+## 4.5. Propuneri pentru a compensa reducerea veniturilor bugetare
+
+Prezentul act normativ nu determină reducerea veniturilor bugetare.
+
+## 4.6. Calcule detaliate privind fundamentarea modificarilor veniturilor si/sau
+
+## cheltuielilor bugetare
+
+Prezentul act normativ nu se refefa la acest subiect.
+
+## SECTIUNEA A 5-A
+
+## Efectele proiectului de act normativ asupra legislatiei in vigoare
+
+## 5.1. Proiecte de acte normative suplimentare
+
+Prezentul act normativ nu se referă la acest subiect.
+
+5.2. Compatibilitatea proiectului de act normativ cu legislația comunitară în materie Proiectul de act normativ este în concordanță cu principiile aplicabile în materia accesului la resurse și a utilizării acestora, inclusiv cu cele prevăzute de Regulamentul (UE) 2024/1252, privind asigurarea accesului la resursele minerale și eliminarea obstacolelor care pot întârzia sau bloca proiectele din acest domeniu.
+
+## 5.3. Decizii ale Curții Europene de Justiție și alte documente
+
+Prezentul act normativ nu se referă la acest subiect.
+
+## 5.4. Evaluarea conformității
+
+Prezentul act normativ nu se referă la acest subiect.
+
+## 5.5. Alte acte normative și/sau documente internaționale din care decurg angajamente
+
+Prezentul act normativ nu se referă la acest subiect.
+
+Față de cele prezentate, a fost elaborat proiectul de act normativ pentru completarea Legii minelor nr. 85/2003, pe care îl supunem Parlamentului spre adoptare.
+
+În numele inițiatorilor :
+
+Senator\\PNL de ARAD
+
+Senator PNL de BACAU
+
+Glad-Aurel VARGA
+
+Daniel-Cătălin FENECHIU
+
+Deputat PSD de IAȘI Petru-Bogdan ÇOJOCARU
+
+Co-inițiatori ai propunerii legislative privind propunerea legislativă pentru completarea Legii minelor nr. 85/2003:
+
+<table>
+<tbody>
+<tr><td>Nume și Prenume Parlamentar</td><td>GRUP PARLAMENTAR / funcția deținută - senator sau deputat</td><td>Circumscripția electorală</td><td rowspan="10">Semnătură</td></tr>
+<tr><td>1. Cusoveano Marien</td><td>Apgutat PNL</td><td>Constanța</td></tr>
+<tr><td>2. ROMAN FIOREU</td><td>Deputat PNL</td><td>Albe</td></tr>
+<tr><td>3. Lucian BOJE</td><td>Dep. PNL</td><td>Sabj</td></tr>
+<tr><td>4. DOCU IUE</td><td>Dep. PSD</td><td>Hd.</td></tr>
+<tr><td>5. Cyprian Pandeg</td><td>Dep. PNL</td><td>Călarasii</td></tr>
+<tr><td>6. TIPLEA Δ</td><td>UMIS-B-LL PNL</td><td>RiHor</td></tr>
+<tr><td>7. MITITELU EDGARĂ</td><td>PNL-AEPOTAT</td><td>BOTOSANI</td></tr>
+<tr><td>8. SILIVULIAN COJA</td><td>PNC SAHAPE</td><td>CSA</td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+Co-inițiatori ai propunerii legislative privind propunerea legislativă pentru completarea Legii minelor nr. 85/2003:
+
+<table>
+<tbody>
+<tr><td>Nume și PrenumeParlamentar</td><td>GRUP PARLAMENTAR/ funcția deținută - senator sau deputat</td><td>Circumscripțiaelectorală</td><td>Semnătură</td></tr>
+<tr><td>Soydav Huttic</td><td>PNL</td><td>Constlomte</td><td></td></tr>
+<tr><td>Neacru Andrara</td><td>PNL</td><td>Neamt</td><td></td></tr>
+<tr><td>MATEI ANETA</td><td>PNL</td><td>Giurely</td><td></td></tr>
+<tr><td>JITANEJCU VENTA</td><td>PNC</td><td>Huudora</td><td></td></tr>
+<tr><td>CIMPEHNOVASU</td><td>TNL</td><td>Cug</td><td></td></tr>
+<tr><td>Pruo Cotoniom</td><td>PNL</td><td>Bucuayti</td><td></td></tr>
+<tr><td>CLOBOTARU DRAZOS</td><td>PNL</td><td>Vcameea</td><td></td></tr>
+<tr><td>Cotincscu Anelio</td><td>PNL</td><td>Damboudi</td><td></td></tr>
+<tr><td>Gral Cohu</td><td colspan="2">P.N.L.</td><td>B1402</td></tr>
+<tr><td>MOISEEV ALEYANDRU</td><td>PNL</td><td>BOTOSADI</td><td></td></tr>
+<tr><td>Neagu Petru Fui</td><td>P.N.L.</td><td>Buayi</td><td></td></tr>
+<tr><td>NAĆUTÀ SORIN</td><td>PNL</td><td>Basi</td><td></td></tr>
+<tr><td>Teslohui Andrei</td><td>PNL</td><td>39-VASCUI</td><td></td></tr>
+</tbody>
+</table>

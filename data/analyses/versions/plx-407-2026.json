@@ -1,0 +1,92 @@
+{
+  "slug": "plx-407-2026",
+  "billId": "PL-x 407/2026",
+  "updatedAt": "2026-10-29T12:32:02.872Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L274FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "AAAS primește bani de la buget pentru bunurile sancționate și dreptul de a porni firme de stat",
+      "summaryTlDr": "Partea despre bunurile înghețate prin sancțiuni internaționale e necesară și tehnică. Problema e ce s-a adăugat sub aceeași urgență: o autoritate cu conturile poprite poate iniția firme de stat, aprobate prin HG și finanțate de la buget, fără criterii de piață sau de ajutor de stat vizibile în text.",
+      "scores": {
+        "agy": 6,
+        "claude": 4,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/00/7/se442.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "AAAS primește bani de la buget pentru bunurile înghețate prin sancțiuni și dreptul de a înființa firme de stat",
+      "summaryTlDr": "Partea despre bunurile înghețate prin sancțiuni internaționale e necesară și în mare tehnică. Problema e ce vine la pachet: bani de la buget fără plafon pentru firme noi de stat, criterii vagi („sector privat absent sau ineficient”) și o derogare de la Legea finanțelor publice pentru o instituție cu conturile poprite.",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat ordonanța fără modificări; s-au schimbat doar formulele de adoptare",
+      "summary": "Senatul a aprobat ordonanța exact cum a dat-o Guvernul. A adăugat doar data ei și Monitorul Oficial în care a apărut. Riscurile rămân aceleași, între ele finanțarea fără plafon de la buget și bugetul AAAS fundamentat „la nivelul estimat”.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Bugetul de stat finanțează integral bunurile sancționate și înființarea de societăți, fără plafon",
+            "major": true,
+            "article": "art. 3 alin. (1) din OUG 23/2004"
+          },
+          {
+            "text": "AAAS își face bugetul „la nivelul estimat”, fără metodă de estimare definită",
+            "major": true,
+            "article": "art. 3 alin. (3²) din OUG 23/2004"
+          },
+          {
+            "text": "Textul nu spune că sumele din contul 50.85.03 sunt ferite de creditorii AAAS",
+            "major": true,
+            "article": "art. 4 alin. (4) din OUG 23/2004"
+          },
+          {
+            "text": "AAAS poate administra bunuri ale statului într-o formulare foarte largă, extensibilă prin HG",
+            "major": true,
+            "article": "art. 5 lit. f) din OUG 23/2004"
+          }
+        ],
+        "good": [
+          {
+            "text": "Sumele din bunuri sancționate merg într-un cont special la Trezorerie, păstrând valoarea înghețată",
+            "major": true,
+            "article": "art. 4 alin. (4) din OUG 23/2004"
+          },
+          {
+            "text": "Clarifică faptul că personalul AAAS e salarizat după Legea-cadru 153/2017",
+            "major": false,
+            "article": "art. 2 alin. (3) din OUG 23/2004"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:28:07.436Z"
+    }
+  ]
+}

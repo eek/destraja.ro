@@ -1,0 +1,112 @@
+{
+  "slug": "plx-88-2026",
+  "billId": "PL-x 88/2026",
+  "updatedAt": "2026-10-29T12:33:07.711Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L546FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "Jocuri de noroc, pariuri și loto doar de la 21 de ani, nu de la 18",
+      "summaryTlDr": "Scopul e legitim, iar pragul de vârstă e formulat clar, dar textul e redactat în grabă: blochează și accesul angajaților de 18–20 de ani în săli, nu lasă timp de adaptare și nu atinge publicitatea pe care chiar expunerea de motive o invocă. Defectele se pot corecta prin amendamente; măsura în sine nu e o capcană.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/80/8/se81.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Pariuri, cazinou și Loto doar de la 21 de ani, nu de la 18",
+      "summaryTlDr": "Este o măsură de sănătate publică legitimă și ușor de aplicat, cu temei constituțional solid (art. 49). Problemele țin de redactare: interdicția de acces îi lovește, la propriu, și pe angajații de 18–20 de ani, iar lipsa unei perioade de tranziție lasă nereglementate conturile online existente.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a păstrat textul inițial: 21 de ani minim pentru orice joc de noroc, inclusiv Loto",
+      "summary": "Senatul a adoptat textul inițiatorului fără nicio schimbare de fond. Vârsta minimă de 21 de ani pentru orice joc de noroc și interdicția de acces în săli au rămas identice. Diferențele sunt doar de redactare: trimiterea la OUG și formula de adoptare.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Pragul de 21 de ani se aplică tuturor jocurilor, inclusiv Loto, lozuri și pariuri",
+            "major": true,
+            "article": "art. 7 alin. (1)"
+          },
+          {
+            "text": "Interdicția de acces în săli nu exceptează angajații de 18–20 de ani",
+            "major": true,
+            "article": "art. 7 alin. (3)"
+          },
+          {
+            "text": "Neclar ce se întâmplă cu conturile și soldurile jucătorilor de 18–20 de ani",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Vânzătorii Loto și agențiile trebuie să verifice actele și clienților de 18–20 de ani",
+            "major": true,
+            "article": "art. 7 alin. (1)"
+          },
+          {
+            "text": "Nicio perioadă de tranziție: intră în vigoare la 3 zile de la publicare",
+            "major": false,
+            "article": "articol unic"
+          },
+          {
+            "text": "Motivarea invocă marketingul spre tineri, dar legea nu schimbă regulile de publicitate",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Motivarea nu explică de ce pragul ales e 21 de ani, nu 25",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Ridică vârsta minimă pentru jocuri de noroc la 21 de ani, pentru protecția tinerilor",
+            "major": true,
+            "article": "art. 7 alin. (1)"
+          },
+          {
+            "text": "Nu creează sancțiuni sau taxe noi; se aplică regimul contravențional existent",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Operatorii verifică deja vârsta prin CNP și act, deci costul suplimentar e mic",
+            "major": false,
+            "article": null
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 5,
+        "removed": 4,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:33:07.711Z"
+    }
+  ]
+}

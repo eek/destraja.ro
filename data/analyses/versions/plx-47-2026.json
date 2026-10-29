@@ -1,0 +1,360 @@
+{
+  "slug": "plx-47-2026",
+  "billId": "PL-x 47/2026",
+  "updatedAt": "2026-10-29T13:59:04.942Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L465FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Impozit pe profit redus până la zero pentru firmele care investesc și angajează în Hunedoara, Gorj, Dolj, Galați, Prahova și Mureș",
+      "summaryTlDr": "Ținta e corectă: sunt exact județele de tranziție justă de la cărbune și industria grea. Textul ignoră însă regulile UE de ajutor de stat, fiindcă obligă firmele să cumpere servicii doar din regiune și le iartă până la 100% din impozitul pe profit, fără plafon legat de investiție. Firmele care intră în program riscă să fie obligate ulterior să returneze facilitățile cu dobândă.",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 6
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/40/7/se40.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Reduceri de impozit pentru firmele care investesc și angajează în șase județe afectate de declinul industrial",
+      "summaryTlDr": "Scopul e legitim și util: sprijin pentru județele care pierd mine, termocentrale și industrie grea. Pe forma Senatului însă, schema de ajutor de stat nu are plafon, nu este condiționată de acordul Comisiei Europene și conține o clauză de «cumpără servicii doar din regiune», așa că riscul principal este ca firmele care o folosesc să fie obligate ulterior să returneze facilitățile cu dobândă.",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 6
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl047_cd047_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 7.7,
+      "riskLevel": "red",
+      "plainTitle": "Scutiri de impozit și garanții de stat pentru investiții, extinse din 6 județe la toată țara",
+      "summaryTlDr": "Un program gândit pentru 6 județe a fost extins la toată țara fără să fie rescris. Rezultatul are scutiri de impozit fără durată și fără cost calculat, garanții de stat de până la 100% și un articol imposibil de aplicat (20% din fondurile regionale pentru fiecare județ). Intenția e bună, dar textul e riscant pentru buget, iar firmele care folosesc facilitățile ar putea fi obligate să returneze ajutorul.",
+      "scores": {
+        "agy": 9,
+        "claude": 7,
+        "codex": 7
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Adoptat tacit de Senat, fără schimbări de fond: rămân creditul fiscal fără plafon și clauza locală",
+      "summary": "Senatul nu a votat în termen, așa că proiectul a trecut tacit în forma inițiatorului. Textul diferă doar prin corecturi de formă și printr-o trimitere la Legea insolvenței schimbată, probabil din greșeală. Riscurile rămân aceleași.",
+      "changes": [
+        {
+          "title": "Altă trimitere la Legea insolvenței pentru administratori",
+          "text": "La art. IV alin. (6), condiția pentru asociați și administratori trimite acum la art. 69 din Legea nr. 85/2014, nu la art. 169. La o adoptare tacită pare o greșeală, iar condiția devine neclară.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. IV alin. (6)",
+          "before": "pentru fapte care atrag răspunderea patrimonială potrivit art. 169 din Legea nr. 85 din 2014, într-o procedură de insolvență.",
+          "after": "pentru fapte care atrag răspunderea patrimonială potrivit art.69 din Legea nr.85 din 2014, într-o procedură de insolvență.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Grila de punctaj e acum lizibilă",
+          "text": "În grila de punctaj (anexa nr. 1), punctele apar acum la fiecare criteriu, de pildă 10 puncte pentru salarii cu minimum 15% peste media județeană. Inițial cifrele erau amestecate. Fondul pare același.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "anexa nr. 1",
+          "before": "Salarizare Medie brută cu minimum 10 15 la sută peste media județeană Medie brută cu minimum 5 5 la sută peste media județeană",
+          "after": "Medie brută cu minimum 15 la sută peste media județeană | 10",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Credit până la 100% din impozit, fără plafon; poate depăși costul investiției",
+            "major": true,
+            "article": "art. VII alin. (4)"
+          },
+          {
+            "text": "Servicii externalizate doar către firme din județ sau regiune, sub sancțiunea recuperării",
+            "major": true,
+            "article": "art. VI, art. XV alin. (1)"
+          },
+          {
+            "text": "Cerința de sediu în județ poate exclude investitorii din alte județe sau din UE",
+            "major": true,
+            "article": "art. I alin. (2), art. III alin. (1)"
+          },
+          {
+            "text": "Costul pentru buget nu e estimat, fără plafon anual și fără măsuri compensatorii",
+            "major": true,
+            "article": "art. XI"
+          },
+          {
+            "text": "Primăriile pierd impozitul pe clădiri și teren 5 ani, fără nicio compensare",
+            "major": true,
+            "article": "art. XII"
+          },
+          {
+            "text": "Excepția «serviciu indisponibil în regiune» nu e definită, criteriile sunt lăsate normelor",
+            "major": false,
+            "article": "art. VI alin. (2) și (4)"
+          },
+          {
+            "text": "Trimiterea la art. 69 din Legea insolvenței pare greșită (inițial art. 169)",
+            "major": false,
+            "article": "art. IV alin. (6)"
+          },
+          {
+            "text": "Senatul nu a dezbătut proiectul, care a trecut tacit în forma inițiatorului",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Locurile de muncă și activitatea trebuie menținute 18 luni după încetarea facilităților",
+            "major": true,
+            "article": "art. III alin. (3)"
+          },
+          {
+            "text": "Interzice relocarea unei activități închise în alt județ în ultimele 12 luni",
+            "major": true,
+            "article": "art. IV alin. (5)"
+          },
+          {
+            "text": "Exclude firmele cu datorii, în insolvență sau cu administratori răspunzători de insolvențe",
+            "major": true,
+            "article": "art. IV alin. (1) și (6)"
+          },
+          {
+            "text": "Firma reinvestește local cel puțin 15% din profitul activității eligibile, 3 ani",
+            "major": true,
+            "article": "art. IV alin. (4)"
+          },
+          {
+            "text": "Creditul fiscal nu se rambursează în bani și nu se transferă între firme",
+            "major": true,
+            "article": "art. VII alin. (7)"
+          },
+          {
+            "text": "Recuperarea e proporțională cu abaterea, cu drept la punct de vedere și contestație",
+            "major": true,
+            "article": "art. XV"
+          },
+          {
+            "text": "Forța majoră dovedită scutește de recuperarea facilităților",
+            "major": false,
+            "article": "art. XV alin. (8)"
+          },
+          {
+            "text": "Evidență contabilă separată pentru activitatea eligibilă, ca facilitățile să fie verificabile",
+            "major": false,
+            "article": "art. III alin. (4)"
+          },
+          {
+            "text": "Rapoarte semestriale și raport anual de execuție publicat de minister",
+            "major": false,
+            "article": "art. XIV"
+          },
+          {
+            "text": "Beneficiarii dau prioritate șomerilor înregistrați la AJOFM, cu mediere în 10 zile",
+            "major": false,
+            "article": "art. V"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 43,
+        "removed": 44,
+        "same": 0.69
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:56:52.582Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_riscant",
+      "headline": "Programul devine național și scutește de impozit pe venit posturile noi, fără limită de timp sau sumă",
+      "summary": "Programul s-a extins la toată țara. Au dispărut creditul fiscal de până la 100% și regula furnizorilor locali, dar au apărut scutirea nelimitată de impozit pe venit, garanții de stat de 100% pentru primării și o alocare imposibilă a fondurilor regionale.",
+      "changes": [
+        {
+          "title": "Programul trece de la șase județe la toată țara",
+          "text": "Art. 1: inițial doar 6 județe și firme cu sediu, punct de lucru și activitate acolo; acum se aplică la nivel național. Dispare excluderea investitorilor din alte zone, dar costul pentru buget crește.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 1",
+          "before": "Se aprobă Programul pentru investiții și locuri de muncă în județele Hunedoara, Gorj, Dolj, Galați, Prahova și Mureș, denumit în continuare Program.",
+          "after": "Se aprobă Programul pentru investiții și locuri de muncă la nivel național, denumit în continuare Programul.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Scutire nelimitată de impozit pe venit pentru angajații noi",
+          "text": "Art. 10 nou: angajații de pe posturile nou create sunt scutiți de impozitul pe venit fără durată, plafon sau schemă de ajutor de stat; nu e clar dacă beneficiul ajunge la angajat sau la firmă.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 10",
+          "before": null,
+          "after": "Societățile din cadrul Programului beneficiază de scutirea de impozit pe venit pentru persoanele angajate în locurile de muncă nou create prin dezvoltarea capacității de producție sau prin investițiile efectuate.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dispare creditul fiscal de până la 100% din impozit",
+          "text": "Inițial, art. VII dădea credit fiscal de 60-100% din impozitul pe profit, fără legătură cu valoarea investiției. Acum art. 4 scutește doar profitul reinvestit în active, maximum 5 ani.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 4 (fost art. VII)",
+          "before": "minimum 95 de puncte - 100 la sută din impozitul pe profit aferent activității eligibile",
+          "after": "profitul reinvestit în orice activ corporal prevăzut în Catalogul privind clasificarea și duratele normale de funcționare a mijloacelor fixe",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Primăriile pot lua credite garantate integral de stat",
+          "text": "Art. 13 nou: primăriile pot lua credite cu garanție de stat de 100%, iar plafonul de îndatorare urcă la 60%, față de 30% în Legea 273/2006. Risc pentru bugetele locale și datorie pentru stat.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 13",
+          "before": null,
+          "after": "Unitățile administrativ-teritoriale pot accesa credite bancare cu garanție în nume și cont stat în proporție de 100% din valoarea creditului",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dispare obligația de a folosi doar furnizori locali",
+          "text": "Inițial, art. VI permitea externalizarea serviciilor investiției doar în același județ sau regiune, inclusiv 24 de luni după facilități. Regula, contrară pieței unice, nu mai apare.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. VI",
+          "before": "beneficiarul poate extemaliza servicii operaționale aferente investiției numai către operatori economici cu sediul social sau punct de lucru în același județ sau în aceeași regiune de dezvoltare",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Cotă imposibilă de 20% din fonduri pentru fiecare județ",
+          "text": "Art. 11 alin. (5) nou: minimum 20% din fondurile regionale pentru fiecare județ înseamnă 120-140% în regiunile cu 6-7 județe, deci obligația nu poate fi executată.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 11 alin. (5)",
+          "before": null,
+          "after": "autoritatea de management alocă, din fondurile pentru programele operaționale regionale stabilite pentru regiunile din care fac parte beneficiarii Programului, minimum câte 20% pentru fiecare județ.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Scutire de impozit pe venit fără durată, plafon sau schemă de ajutor de stat",
+            "major": true,
+            "article": "art. 10"
+          },
+          {
+            "text": "Neclar cine primește scutirea; colegi pe același post pot avea salarii nete diferite",
+            "major": true,
+            "article": "art. 10"
+          },
+          {
+            "text": "Credite pentru primării cu garanție de stat 100% și îndatorare până la 60%",
+            "major": true,
+            "article": "art. 13"
+          },
+          {
+            "text": "Cota de 20% pentru fiecare județ depășește 100% din fondurile regiunii",
+            "major": true,
+            "article": "art. 11 alin. (5)"
+          },
+          {
+            "text": "Nicio estimare de cost sau plafon anual, deși programul devine național",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Expunerea de motive descrie alt proiect decât cele 14 articole adoptate",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Scutirea de impozit pe profit e legată de profitul reinvestit în active",
+            "major": true,
+            "article": "art. 4"
+          },
+          {
+            "text": "Nu mai există obligația de a externaliza servicii doar în județ",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Investitorii cu sediul în alt județ sau stat nu mai sunt excluși",
+            "major": true,
+            "article": "art. 5"
+          },
+          {
+            "text": "Interdicție de relocare și menținerea angajaților 18 luni după facilități",
+            "major": true,
+            "article": "art. 5"
+          },
+          {
+            "text": "Obligație de plan de formare și reinvestire locală a 15% din profit",
+            "major": true,
+            "article": "art. 5"
+          },
+          {
+            "text": "Subvenția comisioanelor trece printr-o schemă de ajutor de stat",
+            "major": false,
+            "article": "art. 6 alin. (4)"
+          },
+          {
+            "text": "Cofinanțarea BID interzisă pentru creditele cu garanție de stat",
+            "major": false,
+            "article": "art. 9 alin. (3)"
+          },
+          {
+            "text": "Primăriile nu pot avea simultan mai mult de două astfel de credite",
+            "major": false,
+            "article": "art. 13 alin. (3)"
+          },
+          {
+            "text": "Ministerul Finanțelor raportează anual Parlamentului efectele Programului",
+            "major": false,
+            "article": "art. 2 alin. (2)"
+          },
+          {
+            "text": "Locurile vacante se comunică AJOFM, care monitorizează menținerea angajărilor",
+            "major": false,
+            "article": "art. 7"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 57,
+        "removed": 137,
+        "same": 0.02
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:59:04.941Z"
+    }
+  ]
+}

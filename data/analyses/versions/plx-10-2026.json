@@ -1,0 +1,125 @@
+{
+  "slug": "plx-10-2026",
+  "billId": "PL-x 10/2026",
+  "updatedAt": "2026-10-29T12:25:44.359Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L477FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Terenul de sub casa veche poate fi cerut și de cei fără cetățenie română",
+      "summaryTlDr": "Corectură tehnică utilă. Ajută proprietarii de case vechi, inclusiv pe cei plecați din țară care au pierdut cetățenia, să obțină actele pentru terenul de sub casă. Problema este formularea „orice persoană interesată”, mult mai largă decât ce promite expunerea de motive, și trebuie strânsă prin amendament.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/10/0/se778.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Proprietarii unor case pot cere terenul de sub ele indiferent de cetățenie",
+      "summaryTlDr": "Este o corecție tehnică utilă. Clarifică faptul că proprietarul construcției poate cere terenul aferent chiar dacă nu este cetățean român, ceea ce reduce practica neunitară. Formularea „orice persoană… indiferent de cetățenie” are totuși nevoie de o legătură cu limitele din art. 44 alin. (2) din Constituție.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Cererea pentru terenul casei o poate face doar proprietarul construcției, indiferent de cetățenie",
+      "summary": "Inițial, cererea pentru terenul casei putea fi făcută de orice „persoană interesată”, chiar și de terți fără drept asupra casei. Acum o poate face doar proprietarul construcției, indiferent de cetățenie, deci scade riscul ca alții să ia terenul.",
+      "changes": [
+        {
+          "title": "Doar proprietarul casei poate cere terenul",
+          "text": "La art. 48 alin. (2), cererea nu o mai poate face orice „persoană interesată”, ci doar proprietarul construcției. Terți ca creditorii sau cumpărătorii cu antecontract nu mai pot face cererea.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 48 alin. (2)",
+          "before": "cererea poate fi făcută de către orice persoană interesată",
+          "after": "cererea poate fi făcută de către orice persoană, care are drept de proprietate asupra construcției aferente terenului în cauză",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Cererea e permisă indiferent de cetățenie",
+          "text": "Art. 48 alin. (2) spune acum explicit că proprietarul poate cere terenul indiferent de cetățenie. Asta ajută emigranții, dar textul nu trimite la art. 44 alin. (2) din Constituție pentru cetățenii din afara UE.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 48 alin. (2)",
+          "before": null,
+          "after": "indiferent de cetățenia acesteia",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Pentru cetățenii din afara UE, lipsește corelarea cu art. 44 alin. (2) din Constituție",
+            "major": true,
+            "article": "art. 48 alin. (2)"
+          },
+          {
+            "text": "Nu e clar în ce termen se poate face cererea",
+            "major": false,
+            "article": "art. 48 alin. (2)"
+          },
+          {
+            "text": "Derogarea de la alin. (1) amestecă două proceduri diferite de fond funciar",
+            "major": false,
+            "article": "art. 48 alin. (2)"
+          },
+          {
+            "text": "Nu precizează dacă sunt vizate doar persoanele fizice sau și firmele",
+            "major": false,
+            "article": "art. 48 alin. (2)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Proprietarii caselor vechi pot obține titlu și intabulare, deci pot vinde sau lăsa moștenire",
+            "major": true,
+            "article": "art. 48 alin. (2)"
+          },
+          {
+            "text": "Și cei care au pierdut cetățenia română pot cere terenul casei",
+            "major": true,
+            "article": "art. 48 alin. (2)"
+          },
+          {
+            "text": "Doar proprietarul construcției poate face cererea, nu terți fără drepturi",
+            "major": true,
+            "article": "art. 48 alin. (2)"
+          },
+          {
+            "text": "Cost bugetar neglijabil: doar cereri în plus la comisiile de fond funciar",
+            "major": false,
+            "article": null
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 6,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:22:37.444Z"
+    }
+  ]
+}

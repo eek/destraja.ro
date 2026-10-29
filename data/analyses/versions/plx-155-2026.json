@@ -1,0 +1,97 @@
+{
+  "slug": "plx-155-2026",
+  "billId": "PL-x 155/2026",
+  "updatedAt": "2026-10-29T12:42:13.779Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L008FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Avizele pentru construcții: răspuns electronic în aceeași zi, fără dosare refuzate la ghișeu și cu amenzi pentru avizatorii care blochează",
+      "summaryTlDr": "E o lege de deblocare administrativă, utilă pentru oricine construiește: avizatorii trebuie să primească toate dosarele, să comunice electronic și riscă amenzi dacă blochează abuziv. Riscul real e mic. Problema e că nu se vede un criteriu pentru «respingere nejustificată», iar reluarea procedurii după 60 de zile poate aduce din nou taxe.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/50/5/se164.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Avizele pentru construcții: avizatorii nu mai pot refuza dosarele și trebuie să răspundă online",
+      "summaryTlDr": "O lege tehnică și în mare parte utilă. Primăriile, instituțiile și operatorii de utilități care emit avize trebuie să primească orice dosar, să răspundă electronic în aceeași zi și pot fi amendați dacă blochează abuziv. Punctul slab este contravenția de „respingere nejustificată”, dacă nu are criterii precise.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat OG 7/2026 fără amendamente; s-au schimbat doar formulări de tehnică legislativă",
+      "summary": "Senatul a aprobat ordonanța exact cum a emis-o Guvernul. S-au schimbat doar formulări: data și Monitorul Oficial ale ordonanței și formula de adoptare. Regulile despre avize, depunerea dosarelor și contravenții rămân aceleași.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Reînregistrarea după 60 de zile ar putea însemna plata din nou a taxelor",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Cuantumul amenzilor nu apare în textul disponibil; proporționalitatea nu poate fi verificată",
+            "major": true,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Avizatorii nu mai pot limita numărul de dosare depuse, nici pe platforme online",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Respingerea nejustificată a avizelor și blocarea depunerilor devin contravenții distincte",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Comunicare doar electronică, în ziua emiterii: termenul pentru avizul tacit devine sigur",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Refuzul primirii doar din motive strict tehnice, cu dovadă a depunerii",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Clarificat ce se întâmplă dacă documentația revizuită întârzie peste 60 de zile",
+            "major": false,
+            "article": null
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:41:12.501Z"
+    }
+  ]
+}

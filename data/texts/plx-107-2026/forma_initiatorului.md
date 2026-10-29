@@ -1,0 +1,59 @@
+Parlamentul României
+
+CAMERA DEPUTAȚILOR
+
+SENATUL
+
+## PROIECT DE LEGE
+
+privind modificarea și completarea ORDONANȚEI DE URGENȚĂ nr. 57/2007 privind regimul ariilor naturale protejate, conservarea habitatelor naturale, a florei și faunei sălbatice, cu modificările și completările
+
+Articolul I- ORDONANȚA DE URGENȚĂ nr. 57/2007 privind regimul ariilor naturale protejate, conservarea habitatelor naturale, a florei și faunei sălbatice, cu modificările și completările ulterioare, publicată în MONITORUL OFICIAL nr. 442 din 29 iunie 2007, se modifică și se completează după cum urmează:
+
+1\. La articolul 6 se introduce o nouă literă d, cu următorul conținut:
+
+d) asigurarea accesului comunității la serviciile publice de interes național sau de interes local, care răspund unor nevoi de bază ale comunității, astfel cum sunt definite în Ordonanța de Urgență a Guvernului nr. 57/2019 privind Codul administrativ, precum și în legislația specifică.
+
+2\. La articolul 8 alineatul 2 se modifică și va avea următorul cuprins:
+
+(2) Propunerile pentru instituirea regimului de arie naturală protejată se pot face din inițiativa oricărei persoane fizice sau juridice care justifică un interes public legitim și se înaintează autorității publice centrale pentru protecția mediului și pădurilor, în vederea promovării actului normativ de desemnare a acestora.
+
+3\. La articolul 19 alineatul (3) se modifică și va avea următorul conținut:
+
+(3) Consiliile consultative de administrare se organizează și funcționează după regulamentele proprii adoptate în acest sens.
+
+4\. La articolul 21 alineatul (1) se completează, după cum urmează:
+
+(1) Planurile de management și regulamentele ariilor naturale protejate care au structuri de administrare special constituite, cu excepția parcurilor naturale și parcurilor naționale, se elaborază de către administratorii acestora, prin consultarea și cu avizul obligatoriu al consiliilor consultative de administrare, se avizează de către consiliile științifice și se aprobă prin decizia președintelui Agenției Naționale pentru Mediu și Arii Protejate, în forma avizată de structura de specialitate din cadrul autorității competente pentru protecția mediului responsabilă cu parcurgerea procedurii de evaluare de mediu pentru planuri și programe.
+
+5\. La articolul 21 alineatul (2^1) se completează după cum urmează:
+
+(2^1) Planurile de management pentru parcurile naturale și parcurile naționale se elaborează de către administratorii acestora, prin consultarea și avizarea consiliilor consultative de administrare, se avizează de către consiliile științifice și se aprobă prin ordin al conducătorului autorității publice centrale pentru protecția mediului, apelor și pădurilor, în forma avizată ca urmare a parcurgerii procedurii de evaluare de mediu pentru planuri și programe
+
+6\. La articolul 27 alineatul (1) se completează, după cum urmează:
+
+(1) Scoaterea definitivă sau temporară din circuitul agricol ori silvic de terenuri de pe raza ariei naturale protejate de interes național/internațional, cu excepția celor aflate în zonele de dezvoltare durabilă, se poate face numai pentru obiective care vizează asigurarea securității naționale, asigurarea securității, sănătății oamenilor și animalelor sau pentru obiectivele destinate cercetării științifice și bunei administrări a ariei naturale protejate sau obiective care asigură accesul comunității la serviciile publice care răspund unor nevoi de bază ale acesteia, reglementate prin legi speciale.
+
+7\. La articolul 29 alineatul (5) se modifică și va avea următorul conținut:
+
+(5) Sunt permise activități necesare infrastructurii de transport public și a celei de furnizare a utilităților publice, realizate cu respectarea prevederilor legale, cu avizul administrației ariei naturale protejate, în baza hotărârii consiliului științific.
+
+8\. La articolul 32 după alineatul (2) se introduce un nou alineat (2^1) cu următorul conținut:
+
+(2^1) Prin excepție de la aplicarea alin. 2, modificarea prin extindere a suprafețelor ariilor naturale protejate constituite la data intrării în vigoare a prezentei legi se suspendă până la încheierea Programului Național de Cadastru sau până la finalizarea cadastrării ariilor naturale protejate.
+
+9\. La articolul 56^1 se introduce un nou alineat (8) cu următorul conținut: (8) Până la încheierea Programului Național de Cadastru sau până la finalizarea cadastrării ariilor protejate, modificarea limitelor ariilor protejate naturale prevăzută la alin. 7 se suspendă, cu excepția situațiilor în care suprafața suplimentară ocupă teren aflat în proprietatea publică sau privată a Statului.
+
+## Articolul II Dispoziții finale
+
+(1) În aplicarea prevederilor articolului I pct. 1 din prezenta lege, măsurile prevăzute în planurile de management ale ariilor naturale protejate elaborate potrivit articolului 21 alin. 3 din Ordonanța de Urgență a Guvernului nr. 57/2007 privind regimul ariilor naturale protejate, conservarea habitatelor naturale, a florei și faunei sălbatice, cu modificările și completările, se revizuiesc în termen de 90 zile de la data intrării în vigoare a legii.
+
+(2) Prezenta lege intră în vigoare la 3 zile de la publicare în Monitorul Oficial al României, potrivit art. 78 din Constituția României.
+
+Această lege a fost adoptată de Senat, în ședința din ...... cu respectarea prevederilor art. 75 și art. 76 alin. (2) din Constituția României republicată.
+
+Președintele Senatului Mircea Abrudean
+
+Această lege a fost adoptată de Camera Deputaților în ședința din...... cu respectarea prevederilor art. 75 și art. 76 alin. (2) din Constituția României republicată.
+
+Președintele Camerei Deputaților Sorin- Mihai Grindeanu

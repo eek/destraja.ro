@@ -1,0 +1,236 @@
+# EXPUNERE DE MOTIVE
+
+la propunerea legislativă pentru modificarea și completarea Legii nr. 95/2006 privind reforma în domeniul sănătății, în vederea instituirii verificării electronice a calității de asigurat
+
+## I. Situația actuală și necesitatea intervenției legislative
+
+Sistemul asigurărilor sociale de sănătate reprezintă principalul mecanism prin care statul asigură accesul persoanelor asigurate la pachetul de servicii medicale de bază, în condițiile prevăzute de lege. Funcționarea acestui sistem presupune verificarea calității de asigurat, atât de către casele de asigurări de sănătate, cât și de către furnizorii de servicii medicale, medicamente și dispositive medicale, tehnologii și dispositive asistive aflați în relații contractuale cu acestea.
+
+În prezent, Legea nr. 95/2006 privind reforma în domeniul sănătății recunoaște posibilitatea atestării calității de asigurat prin instrumente electronice puse la dispoziție de Casa Națională de Asigurări de Sănătate. Cu toate acestea, cadrul normativ menține în continuare, în paralel, obligația prezentării de către persoană a unor documente justificative privind calitatea de asigurat, inclusiv adeverința de asigurat, în situații în care această calitate poate fi verificată electronic de către entitățile competente.
+
+Această suprapunere între verificarea electronică și solicitarea dovezii fizice generează o sarcină administrativă redundantă pentru cetățean și menține o practică birocratică nejustificată în raport cu nivelul actual de dezvoltare a sistemelor informatice publice. Persoana ajunge, în anumite situații, să fie pusă în poziția de a proba, printr-un document fizic, o informație care poate fi verificată direct prin sistemele informatice ale statului.
+
+Problema nu privește existența calității de asigurat și nici dreptul sistemului public de sănătate de a verifica această calitate, ci modalitatea în care verificarea este realizată. În măsura în care informația poate fi verificată electronic, solicitarea unei adeverințe fizice de asigurat reprezintă o procedură excesivă, contrară principiilor de debirocratizare, interoperabilitate și utilizare eficientă a datelor deja existente în sistemele publice.
+
+Actuala reglementare pune în sarcina asiguratului obligația de a prezenta documente justificative care atestă calitatea de asigurat, deși furnizorii aflați în relații contractuale cu casele de asigurări de sănătate pot utiliza instrumente electronice de verificare. Această situație conduce la incertitudine practică, tratament administrativ neunitar și deplasări inutile pentru cetățeni.
+
+Totodată, în materia acordării serviciilor medicale, neprezentarea cardului național sau a adeverinței de asigurat poate genera consecințe disproporționate pentru persoană, inclusiv riscul ca serviciile să fie acordate contra cost, deși calitatea de asigurat poate fi confirmată electronic. Din această perspectivă, este necesară clarificarea expresă a faptului că lipsa unui document fizic nu poate prevala asupra unei verificări electronice pozitive.
+
+Intervenția legislativă este necesară pentru a transforma verificarea electronică dintr-o posibilitate recunoscută de lege într-o regulă efectivă de funcționare a sistemului asigurărilor sociale de sănătate. Într-un sistem public modern, instituțiile și furnizorii care au acces legal la instrumentele de verificare trebuie să utilizeze cu prioritate aceste instrumente, iar persoana nu trebuie să fie obligată să circule între instituții pentru a proba o informație aflată deja în evidențele publice.
+
+Prezenta propunere legislativă nu elimină obligația verificării calității de asigurat. Dimpotrivă, o consolidează, prin orientarea verificării către mijloace electronice, trasabile și auditabile. Ceea ce se elimină este obligația nejustificată a persoanei de a prezenta o adeverință fizică atunci când calitatea sa poate fi confirmată prin verificare electronică.
+
+De asemenea, propunerea legislativă consolidează valoarea juridică a verificării electronice prin instituirea posibilității generării unui document electronic rezultat în urma verificării, sigilat cu sigiliul electronic calificat al Casei Naționale de Asigurări de Sănătate și însoțit de marcă temporală electronică calificată. Acest document va permite identificarea verificării efectuate, va asigura trasabilitatea operațiunii și va putea fi utilizat ca mijloc de probă, potrivit legii.
+
+## II. Schimbările preconizate
+
+Prin prezenta propunere legislativă se urmărește modificarea și completarea Legii nr. 95/2006 privind reforma în domeniul sănătății, în vederea instituirii verificării electronice a calității de asigurat ca regulă generală.
+
+Principalele schimbări preconizate sunt următoarele:
+
+☑ consacrarea expresă a principiului verificării electronice cu prioritate a calității de asigurat;
+
+☑ stabilirea faptului că documentul rezultat în urma verificării electronice produce aceleași efecte juridice ca adeverința de asigurat;
+
+☑ instituirea posibilității ca documentul rezultat în urma verificării electronice să fie generat, descărcat și stocat în format electronic de către entitatea care a efectuat verificarea;
+
+☑ stabilirea cerinței ca documentul electronic rezultat în urma verificării să fie sigilat cu sigiliul electronic calificat al Casei Naționale de Asigurări de Sănătate și să includă marcă temporală electronică calificată, putând fi utilizat ca mijloc de probă, potrivit legii;
+
+☑ instituirea obligației furnizorilor de servicii medicale, medicamente și dispositive medicale, tehnologii și dispositive asistive aflați în relații contractuale cu casele de asigurări de sănătate de a utiliza instrumentele electronice puse la dispoziție de Casa Națională de Asigurări de Sănătate;
+
+☑ interzicerea solicitării adeverinței de asigurat sau a altor dovezi fizice privind calitatea de asigurat atunci când această calitate poate fi verificată electronic;
+
+☑ limitarea solicitării adeverinței de asigurat la situații excepționale, justificate, precum indisponibilitatea temporară a sistemelor informatice, imposibilitatea identificării persoanei sau lipsa temporară a datelor necesare în sistemele informatice relevante;
+
+√ modificarea obligației asiguratului, în sensul comunicării datelor de identificare necesare verificării electronice, în locul prezentării automate a documentelor justificative;
+
+☑ clarificarea faptului că neprezentarea cardului național sau a adeverinței de asigurat nu poate conduce la acordarea serviciilor medicale contra cost atunci când calitatea de asigurat este confirmată prin verificare electronică;
+
+☑ instituirea unor obligații privind funcționarea, trasabilitatea și auditarea instrumentelor electronice de verificare;
+
+☑ instituirea obligației Casei Naționale de Asigurări de Sănătate de a asigura generarea documentului electronic rezultat în urma verificării în condiții care permit identificarea verificării efectuate, trasabilitatea, auditarea și utilizarea acestuia ca mijloc de probă;
+
+☑ obligarea Casei Naționale de Asigurări de Sănătate de a publica anual date statistice aggregate privind utilizarea verificării electronice, numărul adeverințelor de asigurat emise și principalele motive pentru care verificarea electronică nu a fost posibilă.
+
+Propunerea legislativă nu modifică regimul juridic al calității de asigurat, nu modifică regulile privind plata contribuției de asigurări sociale de sănătate, nu instituie noi categorii de persoane asigurate și nu extinde pachetul de servicii medicale de bază. Obiectul său este strict administrativ și procedural: înlocuirea, ca regulă, a dovezii fizice a calității de asigurat cu verificarea electronică, în condiții de legalitate, securitate, trasabilitate și valoare probatorie.
+
+Propunerea legislativă nu urmărește eliminarea cardului național de asigurări sociale de sănătate și nu modifică regulile privind validarea sau decontarea serviciilor medicale, medicamentelor și dispozitivelor medicale, tehnologiilor și dispozitivelor asistive. Intervenția legislativă vizează exclusiv eliminarea obligației persoanei de a prezenta o dovadă fizică a calității de asigurat atunci când această calitate poate fi verificată electronic de către entitățile competente, în condițiile legii.
+
+## III. Impactul socio-economic
+
+Adoptarea prezentei propuneri legislative va avea un impact social pozitiv, prin reducerea sarcinilor administrative suportate de cetățeni în relația cu sistemul public de sănătate.
+
+Pentru persoanele asigurate, efectul direct constă în eliminarea obligației de a obține și prezenta adeverința de asigurat în situațiile în care calitatea de asigurat poate fi verificată electronic. Aceasta va conduce la reducerea deplasărilor inutile, a timpului pierdut și a costurilor indirecte generate de procedurile administrative redundante.
+
+Pentru furnizorii de servicii medicale, medicamente și dispozitive medicale, tehnologii și dispozitive asistive, reglementarea propusă clarifică obligația de utilizare a instrumentelor electronice puse la dispoziție de Casa Națională de Asigurări de Sănătate și reduce riscul unor practici neunitare privind solicitarea documentelor fizice.
+
+Totodată, posibilitatea generării unui document electronic probatoriu, sigilat cu sigiliul electronic calificat al Casei Naționale de Asigurări de Sănătate, oferă entității care a efectuat verificarea o dovadă electronică a operațiunii realizate, fără a transfera asupra cetățeanului obligația de a obține sau prezenta un document fizic.
+
+Pentru casele de asigurări de sănătate, măsura poate determina reducerea volumului de activitate aferent eliberării adeverințelor de asigurat și orientarea resurselor administrative către activități de verificare, corectare și actualizare a datelor din sistem.
+
+Pentru administrația publică, propunerea contribuie la consolidarea unei abordări moderne, bazate pe date, interoperabilitate și utilizarea efectivă a infrastructurii digitale existente.
+
+## IV. Impactul financiar asupra bugetului general consolidat
+
+Prezenta propunere legislativă nu instituie noi cheltuieli obligatorii semnificative pentru bugetul general consolidat.
+
+Reglementarea nu modifică nivelul contribuțiilor de asigurări sociale de sănătate, nu extinde pachetul de servicii medicale de bază, nu creează noi categorii de beneficiari și nu schimbă condițiile de fond privind dobândirea calității de asigurat.
+
+Impactul financiar direct este estimat ca fiind redus, întrucât instrumentele electronice de verificare a calității de asigurat există deja în sistemul asigurărilor sociale de sănătate. Propunerea legislativă urmărește utilizarea cu prioritate a acestor instrumente și reducerea solicitării documentelor fizice.
+
+Eventualele adaptări tehnice necesare pentru generarea documentului electronic rezultat în urma verificării, sigilarea acestuia cu sigiliu electronic calificat, marcarea temporală și asigurarea trasabilității pot fi realizate în cadrul infrastructurii informatice gestionate de Casa Națională de Asigurări de Sănătate și al proceselor de modernizare digitală aflate în curs sau planificate.
+
+Pe termen mediu, aplicarea legii poate genera economii administrative prin diminuarea numărului de adeverințe emise, reducerea timpului alocat operațiunilor manuale și standardizarea procedurilor de verificare electronică.
+
+## V. Impactul asupra legislației în vigoare
+
+Prezenta propunere legislativă modifică și completează Legea nr. 95/2006 privind reforma în domeniul sănătății, în principal în ceea ce privește regimul atestării și verificării calității de asigurat.
+
+Modificările vizează corelarea dispozițiilor referitoare la documentele justificative, obligațiile asiguratului, accesul la pachetul de servicii medicale și utilizarea cardului național de asigurări sociale de sănătate cu regula verificării electronice cu prioritate.
+
+În vederea aplicării unitare a legii, va fi necesară actualizarea actelor normative subsecvente, inclusiv a ordinelor Casei Naționale de Asigurări de Sănătate privind documentele justificative pentru dobândirea calității de asigurat, precum și, după caz, a contractului-cadru și a normelor metodologice de aplicare a acestuia.
+
+Prin aceste actualizări vor trebui stabilite, în mod limitativ și previzibil, situațiile excepționale în care adeverința de asigurat mai poate fi solicitată, procedura aplicabilă în cazul indisponibilității temporare a sistemelor informatice, obligațiile furnizorilor privind utilizarea verificării electronice, precum și elementele obligatorii ale documentului electronic rezultat în urma verificării.
+
+## VI. Impactul asupra drepturilor și libertăților fundamentale
+
+Propunerea legislativă are un impact pozitiv asupra exercitării dreptului de acces la servicii medicale în cadrul sistemului asigurărilor sociale de sănătate, prin eliminarea unei bariere administrative care poate întârzia sau îngreuna accesul efectiv la servicii.
+
+Reglementarea contribuie la protejarea drepturilor persoanelor asigurate prin clarificarea faptului câ lipsa unui document fizic nu poate fi opusă persoanei atunci când calitatea sa de asigurat este confirmată electronic.
+
+Totodată, propunerea respectă dreptul la protecția datelor cu caracter personal. Verificarea electronică a calității de asigurat se va realiza numai de către entitățile care au, potrivit legii, dreptul de a verifica această calitate și numai în scopul acordării sau gestionării serviciilor din sistemul asigurărilor sociale de sănătate.
+
+Documentul electronic rezultat în urma verificării va conține numai datele strict necesare identificării persoanei și verificării efectuate, fără a include date privind starea de sănătate. Această limitare are rolul de a asigura respectarea principiilor de proporționalitate, minimizare a datelor și limitare la scop.
+
+Accesarea datelor trebuie realizată cu respectarea cerințelor de securitate cibernetică, trasabilitate, auditare și protecție a datelor cu caracter personal. Propunerea nu instituie un acces generalizat sau necontrolat la date personale, ci reglementează utilizarea proporțională și justificată a datelor necesare verificării calității de asigurat.
+
+## VII. Consultările avute în vedere
+
+Prezenta propunere legislativă are la bază analiza cadrului normativ aplicabil în materia asigurărilor sociale de sănătate, precum și demersurile parlamentare privind valorificarea datelor existente în sistemele informatice publice și reducerea solicitării documentelor redundante în relația dintre cetățean, furnizorii de servicii medicale și instituțiile publice competente.
+
+În procesul de definitivare a inițiativei pot fi avute în vedere punctele de vedere ale Casei Naționale de Asigurări de Sănătate, Ministerului Sănătății, Autorității pentru Digitalizarea României, Autorității Naționale de Supraveghere a Prelucrării Datelor cu Caracter Personal, precum și ale reprezentanților furnizorilor de servicii medicale, medicamente și dispositive medicale, tehnologii și dispositive asistive aflați în relații contractuale cu casele de asigurări de sănătate.
+
+## VIII. Măsuri de implementare
+
+Pentru punerea în aplicare a prezentei legi, Casa Națională de Asigurări de Sănătate va trebui să actualizeze actele normative subsecvente privind stabilirea documentelor justificative pentru dobândirea calității de asigurat, astfel încât acestea să fie puse în acord cu principiul verificării electronice cu prioritate.
+
+De asemenea, vor trebui stabilite prin actele subsecvente:
+
+√ procedura de verificare electronică a calității de asigurat;
+
+☑ situațiile excepționale în care adeverința de asigurat poate fi solicitată persoanei;
+
+☑ procedura aplicabilă în caz de indisponibilitate temporară a sistemelor informatice;
+
+☑ obligațiile furnizorilor privind utilizarea instrumentelor electronice puse la dispoziție de Casa Națională de Asigurări de Sănătate;
+
+☑ elementele obligatorii ale documentului electronic rezultat în urma verificării;
+
+modalitatea de generare, descărcare, stocare și utilizare a documentului electronic rezultat în urma verificării;
+
+☑ măsurile de trasabilitate, auditare și protecție a datelor cu caracter personal;
+
+modalitatea de raportare publică anuală a datelor statistice aggregate privind utilizarea verificării electronice și emiterea adeverințelor de asigurat.
+
+Punerea în aplicare a legii nu presupune reorganizarea instituțională a Casei Naționale de Asigurări de Sănătate și nici modificarea de fond a sistemului de asigurări sociale de sănătate, ci adaptarea procedurilor administrative la utilizarea prioritară a verificării electronice și la generarea unui document electronic cu valoare probatorie.
+
+## IX. Concluzii
+
+Prezenta propunere legislativă reprezintă un demers necesar de debirocratizare a relației dintre cetățean și sistemul public de sănătate.
+
+În măsura în care calitatea de asigurat poate fi verificată electronic, solicitarea adeverinței fizice de asigurat nu mai este justificată. Statul nu trebuie să solicite persoanei un document pentru o informație pe care o poate verifica direct, în condiții de legalitate, securitate și trasabilitate.
+
+Prin instituirea verificării electronice cu prioritate, propunerea legislativă contribuie la simplificarea procedurilor administrative, la creșterea eficienței sistemului public și la respectarea timpului cetățenilor.
+
+Verificarea calității de asigurat trebuie să rămână obligatorie, dar modalitatea de verificare trebuie modernizată. Regula trebuie să fie verificarea electronică, iar adeverința fizică trebuie să rămână o excepție limitată la situații obiectiv justificate.
+
+Totodată, documentul electronic rezultat în urma verificării, sigilat cu sigiliul electronic calificat al Casei Naționale de Asigurări de Sănătate și însoțit de marcă temporală electronică calificată, asigură valoarea probatorie a verificării efectuate, fără a transforma cetățeanul în purtătorul fizic al unei dovezi pe care sistemul public o poate genera și valida electronic.
+
+În numele inițiatorilor, Senator RUS Vasile-Ciprian la propunerea legislativă pentru modificarea și completarea Legii nr. 95/2006 privind reforma în domeniul sănătății
+
+| Nr.crt. | Text în vigoaredin lege | Text propusde inițiator | Motivareamodificării |
+| --- | --- | --- | --- |
+| 1. | Art. 222 alin. (6) Documentele justificative privind dobândirea calității de asigurat se stabilesc prin ordin al președintelui CNAS. | Art. 222 alin. (6) se modifică și va avea următorul cuprins:„(6) Procedura de verificare electronică a calității de asigurat se stabilește prin ordin al președintelui CNAS.” | Modificarea creează temeiul expres pentru reglementarea prin ordin al președintelui CNAS a procedurii de verificare electronică a calității de asigurat. |
+| 2. | Art. 223 alin. (1) Documentele prin care se atestă calitatea de asigurat sunt, după caz, adeverința de asigurat eliberată prin grija casei de asigurări la care este înscris asiguratul sau documentul rezultat prin accesarea de către furnizorii aflați în relații contractuale cu casele de asigurări de sănătate a instrumentului electronic pus la dispoziție de CNAS. După implementarea dispozițiilor din cuprinsul titlului IX, aceste documente justificative se înlocuiesc cu cardul național de asigurări sociale de | La articolul 223, alineatele (1), (11) și (12) se modifică și vor avea următorul cuprins:„(1) Documentele prin care se atestă calitatea de asigurat sunt, după caz, cardul național de asigurări sociale de sănătate, înscrisul rezultat prin verificarea electronică a calității de asigurat de către furnizorii aflați în relații contractuale cu casele de asigurări de sănătate sau, în mod excepțional, adeverința de asigurat eliberată de casa de asigurări la care este înscris asiguratul în condițiile normelor metodologice privind verificarea electronică a calității de asigurat. (11) Calitatea de asigurat se atestă prin verificare electronică, prin accesarea instrumentelor | Modificarea repoziționează verificarea electronică drept modalitate principală de atestare a calității de asigurat, menținând cardul național și limitând adeverința de asigurat la situații excepționale. Totodată, se introduce înscrisul electronic rezultat din verificare, sigilat electronic |
+|  | sănătate, respectiv cu adeverința de asigurat cu o valabilitate de 3 luni, pentru persoanele care refuză în mod expres, din motive religioase sau de conștiință, primirea cardului național. Data de la care urmează a se utiliza cardul național de asigurări sociale de sănătate se stabilește prin hotărâre a Guvernului.(11) în situațiile în care calitatea de asigurat nu poate fi dovedită prin documentele prevăzute la alin. (1), inclusiv pentru persoanele care nu se regăsesc în baza de date electronică a CNAS, dovada calității de asigurat se poate face pe baza documentelor necesare dovedirii calității de asigurat, potrivit normelor metodologice pentru stabilirea documentelor justificative privind dobândirea calității de asigurat.(12) Prevederile alin. (11) se aplică și în cazul persoanelor care au început activitatea în baza raporturilor de muncă sau de serviciu, dacă acestea solicită servicii cuprinse în pachetul de bază până la data depunerii de către plătitorii de venituri din salarii și asimilate salariilor a declarației privind | informatice puse la dispoziție de CNAS către furnizorii de servicii medicale, de dispositive medicale, tehnologii și dispositive asistive, de medicamente și materiale sanitare aflați în relații contractuale cu casele de asigurări de sănătate, de către casele de asigurări de sănătate, precum și de către autoritățile și instituțiile publice care au, potrivit legii, dreptul de a verifica această calitate.(12) Rezultatul verificării electronice prevăzute la alin. (11) se materializează într-un înscris în formă electronică, generat prin instrumentele informatice ale CNAS, căruia i se aplică sigiliul electronic calificat al CNAS și marca temporală electronică calificată. Înscrisul atestă calitatea de asigurat la data și ora verificării și produce aceleași efecte juridice ca adeverința de asigurat.” | calificat de CNAS și marcat temporal calificat, cu efect juridic echivalent adeverinței de asigurat. |
+|  | obligațiile de plată a contribuțiilor sociale, impozitului pe venit și evidența nominală a persoanelor asigurate, prevăzută de Legea nr. 227/2015 privind Codul fiscal, cu modificările și completările ulterioare. |  |  |
+| 3. | — | La articolul 223, după alineatul (12) se introduc șase noi alineate, alin. (13)—(18), cu următorul cuprins:„(13) Înscrisul prevăzut la alin. (12) cuprinde data și ora verificării, identificatorul unic al verificării, rezultatul verificării, entitatea care a efectuat verificarea și datele strict necesare identificării persoanei. Înscrisul nu cuprinde date privind starea de sănătate.(14) Furnizorii de servicii medicale, de dispositive medicale, tehnologii și dispositive asistive, de medicamente și materiale sanitare aflați în relații contractuale cu casele de asigurări de sănătate au obligația de a utiliza instrumentele electronice puse la dispoziție de CNAS pentru verificarea calității de asigurat, în condițiile stabilite prin contractul-cadru și prin normele metodologice privind verificarea electronică a calității de asigurat.(15) Este interzisă solicitarea adeverinței de asigurat sau a oricărei alte dovezi fizice privind calitatea de asigurat, cu excepția cardului național de asigurări sociale de sănătate | Se completează regimul verificării electronice prin stabilirea conținutului înscrisului electronic, obligația furnizorilor de a utiliza instrumentele electronice, interdicția solicitării dovezii fizice atunci când verificarea electronică este posibilă și reglementarea situațiilor excepționale în care se pot solicita documente justificative. Se păstrează soluțiile tranzitorii pentru persoanele care nu se regăsesc temporar în baza de date electronică și pentru persoanele aflate la începutul raporturilor de |
+|  |  | utilizat în condițiile prezentei legi, în situația în care această calitate poate fi verificată electronic prin instrumentele prevăzute la alin. (1).(16)Adeverința de asigurat sau alte documente justificative privind calitatea de asigurat pot fi solicitate persoanei numai în situații excepționale, în care verificarea electronică nu este posibilă din motive tehnice, de indisponibilitate temporară a sistemelor informatice, de imposibilitate a identificării persoanei ori de lipsă temporară a datelor necesare în sistemele informatice.(17)În situațiile prevăzute la alin. (16), inclusiv pentru persoanele care nu se regăsesc temporar în baza de date electronică a CNAS, dovada calității de asigurat se poate face pe baza documentelor necesare dovedirii calității de asigurat, potrivit normelor metodologice privind verificarea electronică a calității de asigurat.(18)Prevederile alin. (17)se aplică și în cazul persoanelor care au început activitatea în baza raporturilor de muncă sau de serviciu, dacă acestea solicită servicii cuprinse în pachetul de bază până la data depunerii de către plătitorii de venituri din salarii și asimilate salariilor a declarației privind obligațiile de plată a contribuțiilor sociale, impozitului pe venit și evidența nominală a persoanelor asigurate, prevăzută de Legea nr. 227/2015 privind Codul | muncă sau de serviciu. |
+|  |  | fiscal, cu modificările și completările ulterioare.” |  |
+| 4. | Art. 231 lit. h) să prezinte furnizorilor de servicii medicale documentele justificative care atestă calitatea de asigurat, definite la art. 223 alin. (1). | Art. 231 lit. h) se modifică și va avea următorul cuprins:„h) să comunice furnizorilor de servicii medicale datele de identificare necesare verificării electronice a calității de asigurat și să prezinte documente justificative privind calitatea de asigurat numai în situațiile excepționale prevăzute la art. 223 alin. (16);” | Se schimbă obligația persoanei asigurate: de la prezentarea documentelor justificative la comunicarea datelor necesare verificării electronice. Documentele justificative se mai prezintă numai în situațiile excepționale în care verificarea electronică nu este posibilă. |
+| 5. | Art. 232 alin. (1) Persoanele care nu fac dovada calității de asigurat beneficiază de servicii medicale, în cadrul unui pachet minimal de servicii medicale, prevăzut de prezenta lege, și de alocația de hrană astfel cum a fost stabilită. Modalitatea de decontare a serviciilor medicale pentru aceste persoane se aplică și alocației de hrană. | Art. 232 alin. (1) se modifică și va avea următorul cuprins:„(1) Persoanele cărora nu li se poate atesta calitatea de asigurat beneficiază de servicii medicale, în cadrul unui pachet minimal de servicii medicale, prevăzut de prezenta lege, și de alocația de hrană astfel cum a fost stabilită. Modalitatea de decontare a serviciilor medicale pentru aceste persoane se aplică și alocației de hrană.” | Se corelează accesul la pachetul minimal cu situația în care calitatea de asigurat nu poate fi atestată. |
+| 6. | Art. 322 alin. (1) Datele necesare pentru stabilirea calității de asigurat sunt transmise în mod gratuit caselor de asigurări de sănătate de către autoritățile, instituțiile publice și alte instituții, pe bază de protocol. | Art. 322 alin. (1) se modifică și va avea următorul cuprins:„(1) Datele necesare pentru stabilirea, actualizarea și verificarea calității de asigurat sunt puse la dispoziție în mod gratuit CNAS sau, după caz, caselor de asigurări de sănătate de către autoritățile, instituțiile publice și alte instituții competente, pe bază de protocoale încheiate între CNAS și/sau casele de asigurări de sănătate și autoritățile, instituțiile publice și alte instituții, precum și prin sistemele informatice și platformele de interoperabilitate, în condițiile legii.” | Textul actual este completat pentru a include nu doar stabilirea, ci și actualizarea și verificarea calității de asigurat. Se extinde referirea la CNAS și se introduce posibilitatea punerii la dispoziție a datelor prin sisteme informatice și platforme de interoperabilitate, nu doar prin protocoale. |
+| 7. | — | La articolul 322, după alineatul (7) se introduc trei noi alineate, alin. (8)—(10), cu următorul cuprins:„(8) CNAS asigură funcționarea instrumentelor electronice necesare verificării electronice a calității de asigurat, în condiții care să permită identificarea verificării efectuate, trasabilitatea și auditarea operațiunilor efectuate.(9) Verificarea electronică a calității de asigurat se realizează exclusiv în scopurile prevăzute de lege, cu respectarea cerințelor privind protecția datelor cu caracter personal.10) CNAS publică anual, pe pagina proprie de internet, date statistice aggregate privind verificarea electronică a calității | Se completează art. 322 cu obligații privind funcționarea instrumentelor electronice, trasabilitatea, auditarea, protecția datelor cu caracter personal și raportarea publică anuală privind verificarea electronică și înscrisurile electronice generate. |
+|  |  | de asigurat, numărul înscrisurilor electronice generate pentru atestarea calității de asigurat și situațiile în care verificarea electronică nu a fost posibilă.” |  |
+| 8. | Art. 342 alin. (1) Furnizorii de servicii medicale, medicamente și dispozitive medicale aflați în relații contractuale cu casele de asigurări de sănătate, precum și titularii cardului național au obligația de a solicita și, respectiv, de a prezenta acest document, la data acordării asistenței medicale, în condițiile prevăzute de contractul-cadru și de normele metodologice de aplicare a acestui contract. | Art. 342 alin. (1) se modifică și va avea următorul cuprins:„(1) Furnizorii de servicii medicale, de dispozitive medicale, tehnologii și dispozitive asistive, de medicamente și materiale sanitare aflați în relații contractuale cu casele de asigurări de sănătate au obligația de a solicita cardul național de asigurări sociale de sănătate sau, după caz, de a verifica electronic calitatea de asigurat prin instrumentele puse la dispoziție de CNAS, la data acordării asistenței medicale, în condițiile prevăzute de contractul-cadru și de normele metodologice privind verificarea electronică a calității de asigurat.” | Se corelează obligația privind cardul național cu noua regulă a verificării electronice a calității de asigurat. Proiectul nu elimină rolul cardului național, ci permite verificarea electronică atunci când aceasta este aplicabilă potrivit legii și normelor. |
+| 9. | Art. 343 alin. (3) Persoanele asigurate prevăzute la alin. (1) au obligația prezentării cardului național sau, după caz, a adeverinței de asigurat cu o valabilitate de 3 luni, în vederea acordării serviciilor medicale de către furnizorii aflați în relații contractuale cu casele de asigurări de sănătate. Neprezentarea cardului național | Art. 343 alin. (3) se modifică și va avea următorul cuprins:„(3) Persoanele asigurate prevăzute la alin. (1) au obligația prezentării cardului național sau, după caz, a comunicării datelor de identificare necesare verificării electronice a calității de asigurat, în vederea acordării serviciilor medicale de către furnizorii aflați în relații contractuale cu casele de asigurări de sănătate. Neprezentarea cardului național sau a adeverinței de asigurat conduce la acordarea acestor | Se clarifică faptul că lipsa cardului național sau a adeverinței de asigurat nu trebuie să conducă la plata serviciilor atunci când calitatea de asigurat poate fi atestată prin verificare electronică. |
+
+Nr.
+
+crt.
+
+Text în vigoare din lege
+
+Text propus de inițiator
+
+Motivarea modificării
+
+10\.
+
+1\.
+
+sau a adeverinței de asigurat cu o valabilitate de 3 luni conduce la acordarea acestor servicii numai contra cost, cu excepția serviciilor prevăzute la art. 232.
+
+Senator RUS Vasile-Ciprian,
+
+servicii numai contra cost, cu excepția serviciilor prevăzute la art. 232, doar în situația în care calitatea de asigurat nu poate fi atestată prin verificare electronică.”
+
+Art. Il „În termen de 90 de zile de la intrarea în vigoare a prezentei legi, președintele CNAS emite ordinul privind verificarea electronică a calității de asigurat.”
+
+Art. Ii Prezenta lege intră în vigoare la 120 de zile de la data publicării în Monitorul Oficial al României, Partea |.
+
+Se instituie termenul în care președintele CNAS trebuie să emită ordinul privind verificarea electronică a calității de asigurat.
+
+Se prevede un termen de intrare în vigoare care permite adaptarea actelor subsecvente și a procedurilor administrative.
+
+## LISTA SUSTINĂTORILOR
+
+propunerii legislative pentru modificarea și completarea Legii nr. 95/2006 privind reforma în domeniul sănătății, în vederea instituirii verificării electronice a calității de asigurat
+
+| Nr.crt. | Numele și prenumele senatorului/deputatului | Grupul parlamentar |
+| --- | --- | --- |
+| 1 | PAUN CYNTHIA | USR |
+| 2. | PALANGE STEFAN | USR |
+| 3. | CIBU SEACONO ROXANDA | USR |
+| 4 | Mireescu Worcls | USR |
+| 5 | BOCHILCANU GEORGE-PATALIN | USR |
+| 6. | MINKEU CATALIN-EMIL | USR |
+| 7. | SADGUAGHE GLEOPHE | USR |
+| 8 | Prinici Huel | USR |
+| 9. | Bodee Hanus | USR |
+| 10 | JOBRA ECEHA-ADZIMA | USR |
+| 11 | ANGHEL RAZUAN-PAN | USR |
+| 12 | SIPOS SORIN GHEDRGH | USR |
+
+Prin semnătură, inițiatorul își exprimă susținerea pentru prezentul proiect de lege și solicită înregistrarea acestuța la Biroui Permanent al Senatului
+
+## LISTA SUSTINĂTORILOR
+
+propunerii legislative pentru modificarea și completarea Legii nr. 95/2006 privind reforma în domeniul sănătății, în vederea instituirii verificării electronice a calității de asigurat
+
+| Nr.crt. | Numele și prenumele senatorului/deputatului | Grupul parlamentar |
+| --- | --- | --- |
+|  | Rodeanu Bogdan | USR |
+|  | Vaidma Dunihu | USR |
+|  | Parasduirescn Qvidiu | USR |
+|  | MOISIN RADU-MARTIN | PNL |
+|  | Ravi Dobusten | PNL |
+|  | Diana Stoica | USR |
+|  | DRASOFEU GZBAR | USR |
+|  | Smomul Umgunom | USR |
+|  | STEHIAN ION | USR |
+|  | ALECSANDRU HARI'US-NICO2AE | USR |
+|  | Soma Bateud | UDNR |
+|  | Spabd òdiin | UBSUE |
+|  | VECEMEN KUNOR | VAMR |
+|  | SENDROIU VLAD-10AXI | USR |

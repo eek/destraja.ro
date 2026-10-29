@@ -1,0 +1,127 @@
+{
+  "slug": "plx-606-2026",
+  "billId": "PL-x 606/2026",
+  "updatedAt": "2026-10-29T13:17:49.332Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L397FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Noaptea Muzeelor intră în lege: în fiecare an, în al treilea weekend din mai",
+      "summaryTlDr": "Lege benignă: pune în lege Noaptea Muzeelor, care se ține oricum din 2005. Participarea e voluntară și nu există sancțiuni. Problemele sunt de redactare: data e formulată ambiguu și fără excepții, iar o asociație privată anume primește un rol prin lege.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/600/00/6/se699.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Noaptea Muzeelor intră în lege: în fiecare an, în al treilea weekend din mai",
+      "summaryTlDr": "Lege benignă și în mare parte simbolică. Pune în lege un eveniment care există deja din 2005, fără obligații pentru cetățeni sau firme. Are mici neclarități (care este „al treilea weekend”, cine plătește campania) și nu aduce bani noi pentru muzee.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Proiectul a trecut de Senat în forma inițială, fără nicio modificare de fond",
+      "summary": "Textul noului articol despre „Noaptea Muzeelor” a rămas identic. S-au schimbat doar antetul și formula de adoptare, iar proiectul se consideră adoptat de Senat în forma inițială. Riscurile și avantajele rămân aceleași.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Legea dă un rol anume unei asociații private, Rețeaua Națională a Muzeelor",
+            "major": true,
+            "article": "art. 24¹ alin. (4)"
+          },
+          {
+            "text": "Nu se spune din ce bani se face campania națională",
+            "major": true,
+            "article": "art. 24¹ alin. (4)"
+          },
+          {
+            "text": "Sprijinul financiar exclude muzeele care aplică doar tarif redus",
+            "major": true,
+            "article": "art. 24¹ alin. (5)"
+          },
+          {
+            "text": "Data e ambiguă în anii în care 1 mai cade duminică",
+            "major": false,
+            "article": "art. 24¹ alin. (1)"
+          },
+          {
+            "text": "Data fixă nu poate urma ediția europeană dacă aceasta se mută",
+            "major": false,
+            "article": "art. 24¹ alin. (1)"
+          },
+          {
+            "text": "Legea nu spune la cine se înscriu muzeele în program",
+            "major": false,
+            "article": "art. 24¹ alin. (2)"
+          },
+          {
+            "text": "„Tarif special redus” nu e definit, deci reducerea poate fi oricât de mică",
+            "major": false,
+            "article": "art. 24¹ alin. (3)"
+          },
+          {
+            "text": "Neclar dacă gratuitatea ține o noapte sau tot weekendul",
+            "major": false,
+            "article": "art. 24¹ alin. (3)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Muzeele participante oferă publicului intrare gratuită sau la tarif redus",
+            "major": true,
+            "article": "art. 24¹ alin. (3)"
+          },
+          {
+            "text": "Participarea muzeelor e voluntară și nu există sancțiuni",
+            "major": true,
+            "article": "art. 24¹ alin. (2)"
+          },
+          {
+            "text": "„Noaptea Muzeelor” devine program anual recunoscut prin lege",
+            "major": false,
+            "article": "art. 24¹ alin. (1)"
+          },
+          {
+            "text": "Ministerul Culturii trebuie să promoveze anual programul la nivel național",
+            "major": false,
+            "article": "art. 24¹ alin. (4)"
+          },
+          {
+            "text": "Muzeele cu acces gratuit pot primi sprijin financiar și logistic",
+            "major": false,
+            "article": "art. 24¹ alin. (5)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 5,
+        "removed": 7,
+        "same": 0.38
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:13:14.459Z"
+    }
+  ]
+}

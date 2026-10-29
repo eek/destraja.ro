@@ -1,0 +1,39 @@
+PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+CAMERA DEPUTAȚILOR
+
+## LEGE
+
+## pentru modificarea Legii nr. 248/2013 privind organizarea și funcționarea
+
+Consiliului Economic și Social
+
+Parlamentul României adoptă prezenta lege.
+
+Art. I. — Legea nr. 248/2013 privind organizarea și funcționarea Consiliului Economic și Social, republicată în Monitorul Oficial al României, Partea I, nr. 740 din 2 octombrie 2015, cu modificările și completările ulterioare, se completează după cum urmează:
+
+La articolul 11 alineatul (2), după litera c) se introduc două noi litere, literele c¹) și c²), cu următorul cuprins:
+
+«c¹) Unul dintre cei 15 membri prevăzuți la litera c) provine din rândurile organizațiilor neguvernamentale de tineret sau pentru tineret, în sensul art. 11 din Legea tinerilor nr. 350/2006, publicată în Monitorul Oficial al României, Partea I, nr. 648 din 27 iulie 2006, cu modificările și completările ulterioare, ales potrivit procedurii prevăzute la art. 12.
+
+c²) Unul dintre cei 15 membri prevăzuți la litera c) provine din rândurile asociațiilor sau federațiilor pensionarilor, constituite potrivit Legii nr. 502/2004 privind asociațiile pensionarilor, publicată în Monitorul Oficial al României, Partea I, nr. 1092 din 18 noiembrie 2004, cu modificările și completările ulterioare, ales potrivit procedurii prevăzute la art. 12.»
+
+Art. III. — Prevederile art. I lit. c²) se aplică începând cu prima procedură de numire a membrilor care reprezintă societatea civilă în Plenul Consiliului Economic și Social, ulterioară intrării în vigoare a prezentei legi.
+
+Art. IV. — Prezenta lege intră în vigoare la 30 de zile de la data publicării în Monitorul Oficial al României, Partea I.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.
+
+PREȘEDINTELE
+
+PREȘEDINTELE
+
+CAMEREI DEPUTAȚILOR
+
+SENATULUI
+
+SORIN-MIHAI GRINDEANU
+
+MIRCEA ABRUDEAN

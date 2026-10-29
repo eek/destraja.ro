@@ -1,0 +1,123 @@
+# EXPUNERE DE MOTIVE
+
+# Secțiunea 1
+
+# Titlul proiectului de act normativ
+
+## LEGE
+
+# privind completarea Legii nr.108/1999 pentru înființarea și organizarea Inspecției Muncii
+
+# Secțiunea a 2-a
+
+Motivul emiterii actului normativ
+
+## 2.1. Sursa proiectului de act normativ
+
+Inițiativa Ministerul Muncii, Familiei, Tineretului și Solidarității Sociale
+
+Prezentul proiect de act normativ a fost inițiat și elaborat de către Ministerul Muncii, Familiei, Tineretului și Solidarității Sociale, ca urmare a ratificării de către România a Convenției nr.190/2019 privind eliminarea violenței și a hărțuirii în lumea muncii, adoptată la cea de-a 108-a sesiune a Conferinței Internaționale a Muncii a Organizației Internaționale a Muncii, la Geneva la 21 iunie 2019, prin Legea nr.69/2024.
+
+## 2.2. Descrierea situației actuale
+
+În vederea adaptării legislației naționale la rigorile Convenției Organizației Internaționale a Muncii (OIM),se impune completarea Legii nr.108/1999 privind înființarea și organizarea Inspecției Muncii, republicată, cu modificările și completările ulterioare.
+
+Articolul 18 lit. c) din Legea nr. 108/1999 instituie o obligație gener de confidențialitate în sarcina inspectorilor de muncă, aceștia fiind ținuți identitatea persoanei care formulează sesizarea și nici existența sesizări
+
+| această regulă reprezintă o garanție importantă în majoritatea situațiilor, practicainstituțională a demonstrat că, în cazul particular al faptelor de hărțuire la locul demuncă, menținerea unei confidențialități absolute poate conduce la imposibilitateaefectuării unor verificări effective.În situațiile de hărțuire, fie sexuală, fie morală, relațiile interpersonale, contextulorganizațional, istoricul comunicării dintre părți și dinamica ierarhică reprezintăelemente indispensabile pentru constatarea existenței comportamentelor abuzive. Cutoate acestea, fără a putea identifica persoana vătămată, inspectorii de muncă nu potreconstitui o situație de fapt concretă și nu pot audia martori relevanți, nu pot examinarelațiile de subordonare, nu pot verifica posibile acte repetate sau manifestăricomportamentale având caracter sistematic. În lipsa acestor elemente, controlul devinepur formal, lipsit de eficiență și necapabil să asigure protecția efectivă a persoaneloraflate în situații vulnerabile.Prin urmare, menținerea în toate cazurile a confidențialității absolute, echivaleazăcu o limitare excesivă a competențelor de control ale Inspecției Muncii, determinând,în practică, imposibilitatea de a interveni în cazurile în care victimele dorescinvestigarea completă a faptelor, punând inspectorii în imposibilitatea obiectivă de asoluționa sesizarea.În acest sens, se propune extinderea competențelor inspectorilor de muncă în ceeace privește investigarea faptelor de violență și hărțuire în contextul asigurării sănătățiiși securității în muncă a angajaților. |
+| --- |
+| 2.3. Schimbări preconizatePentru adapatarea legislației naționale la prevederile Convenției nr.190/2019privind eliminarea violenței și a hărțuirii în lumea muncii, la inițiativa Cancelariei prim-ministrului a fost constituit un grup de lucru coordonat de Secretariatul General alGuvernului din care au făcut parte reprezentanți ai ministerelor cu atribuții în domeniu,ai organizațiilor sindicale și patronale reprezentative la nivel național, precum șireprezentanți ai organizațiilor neguvernamentale implicate în domeniul social.Prezentul proiect de lege reprezintă varianta agreată în cadrul grupului de lucru.Prezenta lege aduce o completare art.18 din Legea nr.108/1999, porivalcăreia, preinexceptie de la prevederile lit.c) ale alineatului (1), în cazul în care sunt sesizate fape de |
+
+| discriminare sau de hărțuire la locul de muncă, în scopul realizării verificărilor necesare constatării situației existente la locul de muncă al persoanei care semnalează că este victima unor asemenea fapte, și cu acordul prealabil al acesteia, inspectorii de muncă nu au obligația de a păstra confidențialitatea asupra identității persoanei care a formulat sesizarea. |
+| --- |
+| Aceste fapte presupun din partea inspectorilor investigații complexe la locul de muncă, care vizează aspectele sociale ale activității angajatului supus hărțuirii sau violenței și care nu pot fi derulate fără a face cunoscută identitatea persoanei vătămate. În aceste condiții de muncă, în scopul constatării stării de fapt, cu acordul prealabil al angajatului supus hărțuirii sau violenței, inspectorilor de muncă trebuie să li se dea posibilitatea să divulge identitatea sa. |
+| 2.4. Alte informații\*)Nu e cazul. |
+| Secțiunea a 3-aImpactul socioeconomic |
+| 3.1. Descrierea generală a beneficiilor și costurilor estimate ca urmare a intrării în vigoare a actului normativ |
+| 3.2. Impactul socialNu e cazul. |
+| 3.3. Impactul asupra drepturilor și libertăților fundamentale ale omuluiNu e cazul. |
+| 3.4. Impactul macroeconomic |
+| 3.4.1. Impactul asupra economiei și asupra principalilor indicatori macroeconomici |
+| 3.4.2. Impactul asupra mediului concurențial și domeniul ajutoarelor de statNu e cazul. |
+| 3.5. Impactul asupra mediului de afaceriNu e cazul. |
+| 3.6. Impactul asupra mediului înconjurătorNu e cazul. |
+
+<table>
+<tbody>
+<tr><td colspan="7">3.7. Evaluarea costurilor și beneficiilor din perspectiva înovării și digitalizăriiNu e cazul.</td></tr>
+<tr><td colspan="7">3.8. Evaluarea costurilor și beneficiilor din perspectiva dezvoltării durabileNu e cazul.</td></tr>
+<tr><td colspan="7">3.9. Alte informațiiNu e cazul.</td></tr>
+<tr><td colspan="7">Secțiunea a 4-aImpactul financiar asupra bugetului general consolidat atât pe termen scurt, pentru anul curent, cât și pe termen lung (pe 5 ani), inclusiv informații cu privire la cheltuieli și venituri</td></tr>
+<tr><td colspan="7">- în mii lei (RON) -</td></tr>
+<tr><td>Indicatori</td><td>Anul curent</td><td colspan="4">Următorii patru ani</td><td>Media pe cinci ani</td></tr>
+<tr><td>1.</td><td>2025</td><td>2026</td><td>2027</td><td>2028</td><td>2029</td><td></td></tr>
+<tr><td>4.1. Modificări ale veniturilor bugetare, plus/minus, din care:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>a) buget de stat, din acesta:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>(i) impozit pe profit</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>(ii) impozit pe venit</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>(iii) contribuții de asigurări</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>b) bugete locale</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>(i) impozit pe profit</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>c) bugetul asigurărilor sociale de stat</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>(i) contribuții de asigurări</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>d) alte tipuri de venituriSe va menționa natura acestora</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+| 4.2. Modificări ale cheltuielilor bugetare, plus/minus, din care: |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+| a) buget de stat, din acesta: |  |  |  |  |  |  |
+| (i) cheltuieli de personal |  |  |  |  |  |  |
+| (ii) bunuri și servicii |  |  |  |  |  |  |
+| b) bugete locale: |  |  |  |  |  |  |
+| (i) cheltuieli de personal |  |  |  |  |  |  |
+| (ii) bunuri și servicii |  |  |  |  |  |  |
+| c) bugetul asigurărilor sociale de stat: |  |  |  |  |  |  |
+| i) cheltuieli de personal |  |  |  |  |  |  |
+| ii) bunuri și servicii |  |  |  |  |  |  |
+| d) alte tipuri de cheltuieli Se va menționa natura acestora |  |  |  |  |  |  |
+| 4.3. Impact financiar, plus/minus, din care: |  |  |  |  |  |  |
+| a) buget de stat |  |  |  |  |  |  |
+| b) bugete locale |  |  |  |  |  |  |
+| c) bugetul asigurărilor sociale de stat |  |  |  |  |  |  |
+| 4.4. Propuneri pentru acoperirea creșterii cheltuielilor bugetare |  |  |  |  |  |  |
+| 4.5. Propuneri pentru a compensa reducerea veniturilor bugetare |  |  |  |  |  |  |
+| 4.6. Calcule detaliate privind fundamentarea modificărilor |  |  |  |  |  |  |
+
+<table>
+<tbody>
+<tr><td>veniturilor și/sau cheltuielilor bugetare</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="7">4.7. Prezentarea, în cazul proiectelor de acte normative a căror adoptare atrage majorarea cheltuielilor bugetare, a următoarelor documente:a) fișa financiară prevăzută la art. 15 din Legea nr. 500/2002 privind finanțele publice, cu modificările și completările ulterioare, însoțită de ipotezele și metodologia de calcul utilizată;b) declarație conform căreia majorarea de cheltuială respectivă este compatibilă cu obiectivele și prioritățile strategice specificate în strategia fiscal-bugetară, cu legea bugetară anuală și cu plafoanele de cheltuieli prezentate în strategia fiscal-bugetară.</td></tr>
+<tr><td colspan="7">4.8. Alte informații</td></tr>
+<tr><td colspan="7">Secțiunea a 5-aEfectele proiectului de act normativ asupra legislației în vigoare</td></tr>
+<tr><td colspan="7">5.1. Măsuri normative necesare pentru aplicarea prevederilor proiectului de act normativNu e cazul.</td></tr>
+<tr><td colspan="7">5.2. Impactul asupra legislației în domeniul achizițiilor publiceNu e cazul.</td></tr>
+<tr><td colspan="7">5.3. Conformitatea proiectului de act normativ cu legislația UE (în cazul proiectelor ce transpun sau asigură aplicarea unor prevederi de drept UE)5.3.1. Măsuri normative necesare transpunerii directivelor UENu e cazul.</td></tr>
+<tr><td colspan="7">5.4. Hotărâri ale Curții de Justiție a Uniunii EuropeneNu e cazul.</td></tr>
+<tr><td colspan="7">5.5. Alte acte normative și/sau documente internaționale din care decurg angajamente asumateNu e cazul.</td></tr>
+<tr><td colspan="7">5.6. Alte informațiiNu e cazul.</td></tr>
+</tbody>
+</table>
+
+| Secțiunea a 6-aConsultările efectuate în vederea elaborării proiectului de act normativ |
+| --- |
+| 6.1. Informații privind neaplicarea procedurii de participare la elaborarea actelor normativePrezentul proiect de act normativ se încadrează în prevederile art. 7 din Legea nr. 52/2003 privind transparentă decizională în administrația publică, republicată. |
+| 6.2. Informații privind procesul de consultare cu organizații neguvernamentale, institute de cercetare și alte organisme implicateNu e cazul. |
+| 6.3. Informații despre consultările organizate cu autoritățile administrației publice locale, în situația în care proiectul de act normativ are ca obiect activități ale acestor autorități, în condițiile Hotărârii Guvernului nr. 635/2022 privind procedura de consultare a structurilor asociative ale autorităților administrației publice locale la elaborarea proiectelor de acte normativ:Nu e cazul. |
+| 6.4. Informații privind puncte de vedere/opinii emise de organisme consultative constituite prin acte normativeNu e cazul. |
+| 6.5. Informații privind avizarea de către:a) Consiliul Legislativb) Consiliul Suprem de Apărare a Țării c) Consiliul Economic și Sociald) Consiliul Concurențeie) Curtea de ConturiProiectul de act normativ a fost avizat de Consiliul Legislativ prin avizul nr. 1020/2025.Proiectul de act normativ a fost avizat de Consiliul Economic și Social prin avizul nr. 5450/2025. |
+| 6.6. Alte informațiiNu e cazul. |
+
+| Secțiunea a 7-aActivități de informare publică privind elaborarea și implementarea proiectului de act normativ |
+| --- |
+| 7.1. Informarea societății civile cu privire la elaborarea proiectului de act normativ. Au fost respectate prevederile Regulamentului privind procedurile, la nivelul Guvernului, pentru elaborarea, avizarea și prezentarea proiectelor de documente de politici publice, a proiectelor de acte normative, precum și a altor documente, în vederea adoptării/aprobării, aprobat prin Hotărârea Guvernului nr. 561/2009.Proiectul de act normativ se inițiază cu respectarea procedurilor aplicabile pentru asigurarea transparenței decizionale, prevăzute de Legea nr. 52/2003 privind transparența decizională în administrația publică, republicată, cu modificările și completările ulterioare, fiind publicat pe site-ul MMFTSS, în perioada 03.02 - 14.03.2025. |
+| 7.2. Informarea societății civile cu privire la eventualul impact asupra mediului în urma implementării proiectului de act normativ, precum și efectele asupra sănătății și securității cetățenilor sau diversității biologiceNu e cazul. |
+| Secțiunea a 8-aMăsuri privind implementarea, monitorizarea și evaluarea proiectului de act normativ |
+| 8.1. Măsurile de punere în aplicare a proiectului de act normativNu e cazul. |
+| 8.2. Alte informațiiNu e cazul. |
+
+Față de cele prezentate, a fost elaborat proiectul de Lege privind completarea Legii nr.108/1999 pentru înființarea și organizarea Inspecției Muncii, pe care îl supunem Parlamentului spre adoptare.
+
+PREM-MINISTRU
+
+ILIE GAVRIL BOLOJAN

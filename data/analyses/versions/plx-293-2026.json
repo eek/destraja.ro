@@ -1,0 +1,135 @@
+{
+  "slug": "plx-293-2026",
+  "billId": "PL-x 293/2026",
+  "updatedAt": "2026-10-29T12:59:12.980Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L021FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "ONG-urile care oferă servicii sociale nu mai plătesc impozit pe banii primiți de la beneficiari",
+      "summaryTlDr": "Măsura e utilă și are impact bugetar mic: scoate de la impozit contribuțiile plătite de beneficiari către asociațiile și fundațiile acreditate ca furnizori de servicii sociale. Textul e însă redactat neglijent: nu cere ca banii să fie folosiți pentru serviciu, nu are plafon și cere norme de la o autoritate care nu le aprobă.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/200/90/3/se311.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "ONG-urile sociale nu mai plătesc impozit pe banii primiți de la beneficiari",
+      "summaryTlDr": "Lege scurtă, cu un scop social legitim și un cost bugetar probabil mic: asociațiile și fundațiile acreditate nu mai plătesc impozit pe banii primiți de la beneficiarii serviciilor sociale. Textul trebuie totuși precizat în trei puncte: plățile făcute de familie, data de la care se aplică și lipsa datelor bugetare reale.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Normele le modifică Guvernul, nu ministerul; scutirea fără plafon pentru ONG-uri rămâne la fel",
+      "summary": "Acum normele de aplicare le modifică Guvernul, prin hotărârea care cuprinde normele Codului fiscal. Inițial le emitea, greșit, Ministerul Finanțelor. Scutirea în sine e identică: fără plafon, doar pentru ONG-uri acreditate și fără dată de aplicare.",
+      "changes": [
+        {
+          "title": "Normele le modifică Guvernul, nu Ministerul Finanțelor",
+          "text": "Art. II: inițial Ministerul Finanțelor emitea normele, deși ele se aprobă prin HG nr. 1/2016. Acum le modifică Guvernul. Dispare precizarea că normele explică documentarea și declararea veniturilor.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. II",
+          "before": "Ministerul Finanțelor va elabora și publica normele metodologice de aplicare, pentru a detalia documentarea și declararea corespunzătoare a veniturilor prevăzute la art. 15 alin. (2) lit. q)",
+          "after": "Guvernul modifică în mod corespunzător Normele metodologice de aplicare a Legii nr.227/2015 privind Codul fiscal, aprobate prin Hotărârea Guvernului nr.1/2016, cu modificările și completările ulterioare.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Termenul pentru norme curge de la intrarea în vigoare",
+          "text": "Art. II: cele 30 de zile se numără acum de la intrarea în vigoare a legii, nu de la publicarea în Monitorul Oficial. Diferența practică e de câteva zile, de regulă trei.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. II",
+          "before": "În termen de 30 de zile de la data publicării în Monitorul oficial a prezentei legi",
+          "after": "În termen de 30 de zile de la data intrării în vigoare a prezentei legi",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Contribuțiile devin integral neimpozabile, fără plafon, chiar la tarife de piață",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Scutirea nu cere ca banii să fie folosiți pentru serviciul social",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Un SRL licențiat cu același tip de cămin plătește în continuare impozit",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Unitățile de cult care furnizează servicii sociale nu sunt menționate",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Sumele plătite de familie sau susținători pot rămâne impozabile la citire literală",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Nu se stabilește data de la care se aplică scutirea",
+            "major": false,
+            "article": "art. I"
+          },
+          {
+            "text": "Termenul de 30 de zile pentru norme nu are sancțiune",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "good": [
+          {
+            "text": "ONG-urile acreditate nu mai plătesc impozit pe contribuțiile beneficiarilor serviciilor sociale",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Scutirea e limitată la furnizori acreditați, fără scop patrimonial",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Normele de aplicare le modifică Guvernul, în HG nr. 1/2016",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 4,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:59:12.980Z"
+    }
+  ]
+}

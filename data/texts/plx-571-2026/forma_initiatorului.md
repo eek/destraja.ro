@@ -1,0 +1,111 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+CAMERA DEPUTAȚILOR
+
+# LEGE
+
+# pentru modificarea și completarea unor acte normative în domeniul protecției consumatorilor
+
+Parlamentul României adoptă prezenta lege.
+
+Art. I – Legea nr. 243/2024 privind protecția consumatorilor cu privire la costul total al creditării și la cesiunea de creanțe publicată în Monitorul Oficial al României, Partea I nr. 807 din 13 august 2024, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. Articolul 1 se modifică și va avea următorul cuprins:
+
+„Art. 1
+
+Prezenta lege se aplică raporturilor juridice dintre consumatori, instituțiile de credit care acordă credite potrivit Ordonanței de urgență nr. 99/2006 privind instituțiile de credit și adecvarea capitalului, cu modificările și completările ulterioare, instituțiile financiare nebancare care acordă credite potrivit Legii nr. 93/2009 privind instituțiile financiare nebancare, cu modificările și completările ulterioare, și entitățile care desfășoară activitatea de recuperare creanțe, stabilind reguli de protecție a consumatorilor contra dobânzilor excessive în scopul menținerii echilibrului contractual și al asigurării integrității pieței financiar-bancare interne.”
+
+2\. La articolul 2, litera b) se modifică și va avea următorul cuprins:
+
+„b) cesionarul de creanțe - orice entitate care efectuează un transfer al unei creanțe individuale sau al unui portofoliu de creanțe de la un creditor financiar la un terț, inclusiv o entitate care desfășoară activitatea de recuperare de creanțe sau o entitate ce are drept obiect de activitate emiterea de instrumente financiare securitizate în baza unui portofoliu de creanțe, în conformitate cu prevederile Ordonanței de urgență a
+
+Guvernului nr. 50/2010 privind contractele de credit pentru consumatori, aprobată cu modificări și completări prin Legea nr. 288/2010, cu modificările și completările ulterioare, și ale Ordonanței de urgență nr. 52/2016 privind contractele de credit oferite consumatorilor pentru bunuri imobile, precum și pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 50/2010 privind contractele de credit pentru consumatori, aprobată cu modificări și completări prin Legea nr. 134/2023, cu modificările și completările ulterioare;”
+
+3\. La articolul 2, litera e) se modifică și va avea următorul cuprins:
+
+„e) credit oferit consumatorilor pentru bunuri imobile - este creditul acordat în scopul efectuării de investiții imobiliare cu destinație locativă sau cu altă destinație decât cea locativă ori în scopul rambursării unui credit ipotecar pentru investiții imobiliare contractat anterior, precum și creditul garantat cu ipotecă asupra unor bunuri imobile ori care implică un drept legat de un bun imobil;”
+
+4\. La articolul 2, litera f) se modifică și va avea următorul cuprins:
+
+„f) credit de consum - creditul sau împrumutul acordat unei persoane fizice care nu este garantat cu ipotecă imobiliară; ”
+
+5\. La articolul 2, litera g) se modifică și va avea următorul cuprins:
+
+„g) dobânda anuală efectivă, denumită în continuare DAE - costul total al creditului pentru consumator, exprimat ca procent anual din valoarea totală a creditului, după caz, inclusiv costurile deschiderii și menținerii unui anumit cont, costurile utilizării unui mijloc de plată atât pentru tranzacții, cât și pentru trageri din acel cont, precum și alte costuri legate de operațiunile de plată care sunt incluse în costul total al creditului pentru consumator, ori de câte ori deschiderea unui cont sau menținerea acestuia este obligatorie pentru obținerea creditului sau pentru obținerea acestuia în conformitate cu termenii și condițiile oferite, egală, pe o perioadă de un an, cu valoarea actuală a tuturor angajamentelor - trageri, rambursări și costuri, viitoare sau prezente, convenite de creditor și de consumator, în conformitate cu prevederile Ordonanței de urgență a Guvernului nr. 50/2010, aprobată cu modificări și completări prin Legea nr. 288/2010, cu modificările și completările ulterioare, și ale Ordonanței de urgență nr. 52/2016, aprobată cu modificări și completări prin Legea nr. 134/2023, cu modificările și completările ulterioare;”
+
+6\. La articolul 2, litera j) se modifică și va avea următorul cuprins:
+
+„j) costul total al creditului pentru consumator - toate costurile, inclusiv dobânda, dobânda penalizatoare, comisioanele, taxele și orice alt tip de costuri pe care trebuie să le suporte împrumutatul în legătură cu contractul de credit și care sunt cunoscute de către creditor, cu excepția taxelor notariale; costurile pentru serviciile accesorii aferente contractului de credit, în special primele de asigurare, sunt incluse dacă încheierea contractului de servicii este obligatorie pentru obținerea creditului însuși sau pentru obținerea acestuia în concordanță cu clauzele și condițiile prezentate; costul evaluării bunului, excluzând costurile pentru înregistrarea transferului dreptului de proprietate asupra bunului imobil și orice costuri plătibile de către consumator pentru nerespectarea angajamentelor prevăzute în contractul de credit;”
+
+7\. Articolul 4 se modifică și va avea următorul cuprins:
+
+„Art. 4.
+
+DAE la creditele oferite consumatorilor pentru bunuri imobile nu poate depăși cu mai mult de 3 puncte procentuale dobânda la facilitatea de creditare practicată de Banca Națională a României pe piața financiar-bancară internă."
+
+8\. Articolul 5 se modifică și va avea următorul cuprins:
+
+„Art. 5.
+
+În cazul creditelor de consum, DAE nu poate depăși cu mai mult de 10 puncte procentuale dobânda la facilitatea de creditare practicată de Banca Națională a României."
+
+9\. Articolul 6 se modifică și va avea următorul cuprins:
+
+„Art. 6.
+
+(1) Prin excepție de la prevederile art. 5, în cazul creditelor de consum în valoare maximă de 15.000 lei, costul total al creditării nu poate depăși 1% pe zi și, concomitent, valoarea totală plătibilă de către consumator nu poate depăși dublul valorii totale a creditului.
+
+(2) Prin excepție de la prevederile art. 5, în cazul creditelor de consum cu valoare cuprinsă între 15.001 lei și 20.000 lei, costul total al creditării nu poate depăși 0,8% pe zi și, concomitent, valoarea totală plătibilă de către consumator nu poate depăși dublul valorii totale a creditului.
+
+(3) Prin excepție de la prevederile art. 5, în cazul creditelor de consum cu valoare cuprinsă între 20.001 lei și 25.000 lei, costul total al creditării nu poate depăși 0,6% pe zi și, concomitent, valoarea totală plătibilă de către consumator nu poate depăși dublul valorii totale a creditului.”
+
+Art. II – Orice creditor financiar are obligația de a include în publicitatea privind contractele de credit și în informațiile precontractuale următoarele avertismente, într-un format vizibil, cu caractere cu mărimea de minimum 14 p, bold, utilizând fontul Times New Roman, în funcție de tipul de credit:
+
+a) „ATENȚIE! BANII ÎMPRUMUTAȚI COSTĂ BANI!”, în cazul oricărui tip de credit;
+
+b) „ATENȚIE! CREDIT ÎN VALUTĂ! DEPRECIEREA MONEDEI NAȚIONALE POATE CREȘTE CONSIDERABIL SUMA DE RAMBURSAT!", în cazul creditelor acordate în valută;
+
+c) „ATENȚIE! DOBÂNDĂ VARIABILĂ! MAJORAREA INDICELUI DE REFERINȚĂ CREȘTE AUTOMAT SUMA DE RAMBURSAT!";
+
+d) „ATENȚIE! CREDIT RAMBURSAT ÎN RATE EGALE (ANUITĂȚI)! VEȚI PLĂTI MAI MULTĂ DOBÂNDĂ!";
+
+e) „ATENȚIE! CREDIT RAMBURSAT ÎN RATE DESCRESCĂTOARE! RATE MAI MARI LA ÎNCEPUT!”.
+
+Art. III – La art. 120 din Ordonanța de urgență nr. 99/2006 privind instituțiile de credit și adecvarea capitalului publicată în Monitorul Oficial al României, Partea I nr. 1027 din 27 decembrie 2006, cu modificările și completările ulterioare, după alineatul (1) se introduce un nou alineat, alin. (2), cu următorul cuprins:
+
+„(2) Dispozițiile prezentului articol nu se aplică în situația în care debitorul sau garantul este consumator, în sensul legislației privind protecția consumatorilor.”
+
+Art. IV – La articolul 52 din Legea nr. 93/2009 privind instituțiile financiare nebancare publicată în Monitorul Oficial al României, Partea I nr. 259 din 21 aprilie 2009, cu modificările și completările ulterioare, după alineatul (2) se introduce un nou alineat, alin. (3), cu următorul cuprins:
+
+„(3) Dispozițiile prezentului articol nu se aplică în situația în care debitorul sau garantul este consumator, în sensul legislației privind protecția consumatorilor.”
+
+Art. V – La articolul 61 din Legea nr. 58/1934 asupra cambiei și biletului la ordin publicată în Monitorul Oficial, Partea I nr. 100 din 01 mai 1934, după alineatul (1) se introduc două noi alineate, alin. (2) și (3), cu următorul cuprins:
+
+„(2) Dispozițiile prezentului articol nu se aplică în situația în care trasul, avalistul sau girantul este consumator, în sensul legislației privind protecția consumatorilor.
+
+(3) În mod corespunzător, dispozițiile prezentului articol nu se aplică nici în cazul în care emitentul biletului la ordin sau avalistul ori girantul acestuia este consumator, în sensul legislației protecției consumatorilor."
+
+Art. VI – La articolul 53 din Legea nr. 59/1934 asupra cecului publicată în Monitorul Oficial, Partea I nr. 100 din 01 mai 1934, după alineatul (1) se introduce un nou alineat, alin. (2), cu următorul cuprins:
+
+„(2) Dispozițiile prezentului articol nu se aplică în situația în care trăgatorul, girantul sau avalistul este consumator, în sensul legislației privind protecția consumatorilor.”
+
+Art. VII – Legea nr. 134/2010 privind Codul de procedură civilă, republicată în Monitorul Oficial, Partea I nr. 247 din 10 aprilie 2015, se completează după cum urmează:
+
+1\. La articolul 639, după alineatul (2) se introduce un nou alineat, alin. (3), cu următorul cuprins:
+
+„(3) Dispozițiile alineatului (1) din prezentului articol nu se aplică în situația în care debitorul sau garantul este consumator, în sensul legislației privind protecția consumatorilor.”
+
+2\. La articolul 641, după alineatul (1) se introduce un nou alineat, alin. (2), cu următorul cuprins:
+
+„(2) Dispozițiile prezentului articol nu se aplică în situația în care debitorul sau garantul este consumator, în sensul legislației privind protecția consumatorilor.”
+
+Art. VIII – La articolul 42 din Legea serviciilor comunitare de utilități publice nr. 51/2006, republicată în Monitorul Oficial al României, Partea I, nr. 121 din 5 martie 2013, cu modificările și completările ulterioare, alineatul (6') se abrogă.
+
+Art. IX – La articolul 31 din Legea serviciului de alimentare cu apă și de canalizare nr. 241/2006, republicată în Monitorul Oficial al României, Partea I, nr. 679 din 7 septembrie 2015, cu modificările și completările ulterioare, alineatul (17) se abrogă.
+
+Art. X – Prezenta lege intră în vigoare în termen de 30 de zile de la publicarea în Monitorul Oficial al României, Partea I.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.

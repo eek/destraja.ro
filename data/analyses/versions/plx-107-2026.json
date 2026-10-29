@@ -1,0 +1,112 @@
+{
+  "slug": "plx-107-2026",
+  "billId": "PL-x 107/2026",
+  "updatedAt": "2026-10-29T12:35:39.543Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L604FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 7.3,
+      "riskLevel": "red",
+      "plainTitle": "Excepții pentru utilități în ariile protejate și blocarea extinderii lor până la cadastru",
+      "summaryTlDr": "Proiectul pornește de la o problemă reală: comunități din ariile protejate care obțin greu apă, canalizare sau drumuri. O rezolvă însă cu unelte prea largi: o excepție nedefinită pentru scoaterea terenurilor din circuitul agricol și silvic și o înghețare pe termen nedeterminat a extinderii ariilor existente. Moratoriul legat de cadastru contrazice jurisprudența CJUE privind delimitarea siturilor Natura 2000 și expune România la infringement.",
+      "scores": {
+        "agy": 8,
+        "claude": 7,
+        "codex": 7
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/00/7/se134.pdf",
+      "source": "cdep.ro",
+      "riskScore": 7.7,
+      "riskLevel": "red",
+      "plainTitle": "Arii protejate: extinderile blocate până la cadastru, mai multe excepții pentru lucrări",
+      "summaryTlDr": "Problema invocată e reală: unele comunități din arii protejate nu pot primi drumuri, apă sau canalizare. Legea însă o rezolvă la pachet cu un moratoriu fără termen pe extinderea ariilor și cu un filtru pentru cine le poate propune. Asta slăbește protecția naturii și expune România la infringement pe Natura 2000.",
+      "scores": {
+        "agy": 8,
+        "claude": 7,
+        "codex": 8
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat forma inițiatorului fără schimbări de fond; extinderea ariilor protejate rămâne suspendată",
+      "summary": "Senatul a păstrat textul inițial; s-au schimbat doar redactarea și trimiterile la alte legi. Rămân suspendarea fără termen a extinderii ariilor protejate existente, excepția largă pentru scoaterea terenurilor din circuit și filtrul „interes public legitim” pentru propuneri.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Extinderea ariilor protejate existente suspendată fără termen și fără autoritate obligată să cadastreze",
+            "major": true,
+            "article": "art. I pct. 7 și 8 (art. 32 alin. 2¹, art. 56¹ alin. 8)"
+          },
+          {
+            "text": "Terenuri strict protejate pot fi scoase din circuit pentru „servicii publice de bază”",
+            "major": true,
+            "article": "art. I pct. 5 (art. 27 alin. 1)"
+          },
+          {
+            "text": "„Nevoi de bază” nedefinite: practic orice serviciu public poate fi invocat",
+            "major": true,
+            "article": "art. I pct. 1 (art. 6 lit. d)"
+          },
+          {
+            "text": "Activități de transport și utilități permise generic, fără zone și fără evaluare adecvată explicită",
+            "major": true,
+            "article": "art. I pct. 6 (art. 29 alin. 5)"
+          },
+          {
+            "text": "Cine propune o arie protejată trebuie să justifice „interes public legitim”, fără criterii clare",
+            "major": true,
+            "article": "art. I pct. 2 (art. 8 alin. 2)"
+          },
+          {
+            "text": "Cele două texte despre suspendare se contrazic: doar unul exceptează terenurile statului",
+            "major": false,
+            "article": "art. I pct. 7 și 8 (art. 32 alin. 2¹, art. 56¹ alin. 8)"
+          },
+          {
+            "text": "Suspendarea poate fi ocolită declarând o arie nouă lipită de cea veche",
+            "major": false,
+            "article": "art. I pct. 7 (art. 32 alin. 2¹)"
+          },
+          {
+            "text": "Neclar la ce se referă „reglementate prin legi speciale”; lista excepțiilor rămâne deschisă",
+            "major": false,
+            "article": "art. I pct. 5 (art. 27 alin. 1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Lucrările de transport și utilități cer avizul administrației ariei și al consiliului științific",
+            "major": false,
+            "article": "art. I pct. 6 (art. 29 alin. 5)"
+          },
+          {
+            "text": "Art. 56¹ permite în continuare extinderi pe terenuri ale statului",
+            "major": false,
+            "article": "art. I pct. 8 (art. 56¹ alin. 8)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 20,
+        "removed": 29,
+        "same": 0.05
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:35:39.543Z"
+    }
+  ]
+}

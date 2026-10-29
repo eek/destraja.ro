@@ -1,0 +1,13 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENATUL
+
+## LEGE
+
+# privind aprobarea Ordonanței de urgență a Guvernului nr. 25 /2026 pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 57/2007 privind regimul ariilor naturale protejate, conservarea habitatelor naturale, a florei și faunei sălbatice
+
+Parlamentul României adoptă prezenta lege.
+
+Articol unic. – Se aprobă Ordonanța de urgență a Guvernului nr. 25/2026 pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 57/2007 privind regimul ariilor naturale protejate, conservarea habitatelor naturale, a florei și faunei sălbatice.

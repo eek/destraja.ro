@@ -1,0 +1,85 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE privind protecția consumatorilor față de executările silite abuzive sau intempestive
+
+Senatul adoptă prezentul proiect de lege
+
+Art.l.- (1) Obiectul prezentei legi îl reprezintă protecția consumatorilor față de executările silite abuzive sau intempestive, prin eliminarea sau limitarea caracterului executoriu în sine al contractelor și actelor juridice utilizate de comercianți pentru declanșarea și derularea executării silite, precum și prin prevenirea și combaterea comportamentului abuziv sau neloial al creditorilor în procedura executării silite contra consumatorilor.
+
+(2) Protecția locuinței familiei debitorului, astfel cum aceasta este definită la art.321 din Legea nr.287/2009 privind Codul civil, republicată, cu modificările ulterioare, este un obiectiv prioritar al prezentei legi, fiind o expresie a obligației statului român de a ocroti familia.
+
+(3) Prezenta lege se aplică raporturilor juridice dintre consumatori și comercianți, incluzând, dar fără a se limita la instituțiile de credit, instituțiile financiare nebancare, societățile de leasing, furnizorii de servicii de utilitate publică și entitățile care desfășoară activitatea de recuperare creanțe.
+
+Art.2.- (1) Este abuzivă executarea silită care este demarată sau se derulează cu rea- credință, în scopuri care contravin legilor interesând ordinea publică și bunele moravuri sau în scopul de a determina consumatorul să își asume sau să efectueze plăți în favoarea creditorului, vădit disproporționate față de cuantumul inițial al creanței.
+
+(2) Este intempestivă executarea silită demarată prematur sau în contradicție cu dispozițiile art.629 alin.(1) din Legea nr.134/2010 privind Codul de procedură civilă, republicată, cu modificările și completările ulterioare, în condițiile în care există alte instrumente juridice sau faptice pentru realizarea creanței.
+
+Art.3.- (1) În sensul prezentei legi, are calitatea de consumator și codebitorul, precum și fideiusorul care nu este asociat, acționar semnificativ, administrator, director sau membru al organelor de conducere la debitorul principal persoană juridică.
+
+(2) Sunt asimilați fideiusorului și girantul și avalistul unei cambii sau al unui bilet la ordin care garantează prin semnătură pe cambie sau pe biletul la ordin o creanță care intră sub incidența prezentei legi.
+
+Art.4.- Executarea silită a bunurilor sau a veniturilor debitorului care are calitatea de consumator este subsidiară în raport de revizuirea convențională sau de adaptarea judiciară a contractului, în vederea reducerii poverii datoriei și a sustenabilității pe termen mediu și lung a eforturilor debitorului de a achita creanța, în rate sau integral.
+
+Art.5.- (1) Anterior declanșării executării silite, creditorul are obligația de a analiza situația debitorului care are calitatea de consumator și de a-i propune, cu cel puțin 30 de zile înainte de declanșarea executării silite, pe suport durabil, cel puțin o măsură rezonabilă de prevenire a executării silite, adecvată situației concrete a acestuia, cum ar fi reeșalonarea obligațiilor, amânarea la plată, reducerea temporară a ratelor, conversia monedei creditului, refinanțarea internă, suspendarea ori limitarea temporară a dobânzilor sau alte măsuri similare permise de lege.
+
+(2) Executarea silită a locuinței familiei constituie măsură excepțională și poate fi dispusă numai dacă, după analizarea măsurilor prevăzute la alin. (1), nu există o alternativă rezonabilă și mai puțin intruzivă pentru realizarea creanței.
+
+(3) Neîndeplinirea obligației prevăzute la alin. (1) antrenează prezumția de caracter intempestiv al executării silite, iar în cazul în care debitorul are în întreținere copii minori, antrenează prezumția de caracter abuziv al executării silite.
+
+(4) În cazul finalizării unei executări silite cu evacuarea debitorului din locuința familiei, acesta va avea dreptul de a nu părăsi locuința familiei timp de un an de la finalizarea procedurii de evacuare, drept pe care debitorul îl va putea exercita în vederea obținerii de către debitor a unei alte locuințe, în condiții decente pentru el și familia sa.
+
+Art.6.- (1) În raporturile juridice în care consumatorii au calitatea de debitori, dispozițiile legale care conferă contractului, facturii sau altui act juridic în care este parte caracter de titlu executoriu contra consumatorului sunt inaplicabile.
+
+(2) Dispozițiile alin.(1) au în vedere prevederile:
+
+a) art.61 și art. 100 din Legea asupra cambiei și biletului la ordin nr.58/1934, cu modificările și completările ulterioare;
+
+b) art.53 din Legea asupra cecului nr.59/1934, cu modificările și completările ulterioare;
+
+c) art.101 din Legea notarilor publici și a activității notariale nr.36/1995, republicată, cu modificările ulterioare;
+
+d) art.8 și art.81 din Ordonanța Guvernului nr.51/1997 privind operațiunile de leasing și societățile de leasing, republicată, cu modificările și completările ulterioare;
+
+e) art.42 alin.(6¹) din Legea nr.51/2006 privind utilitățile publice, republicată, cu modificările și completările ulterioare;
+
+f) art. 120 din Ordonanța de urgență a Guvernului nr.99/2006 privind instituțiile de credit și adecvarea capitalului, aprobată cu modificări și completări prin Legea nr.227/2007, cu modificările și completările ulterioare;
+
+g) art. 1798, art.2157 și art.2165 din Legea nr.287/2009, republicată, cu modificările ulterioare;
+
+h) art.638 alin.(1) pct.2-4, art.639 și 640 din Legea nr. 134/2010, republicată, cu modificările și completările ulterioare.
+
+Art.7.- (1) În procedura încuviințării executării silite a contractelor, facturilor sau a celorlalte acte juridice care au caracter executoriu în sine, prevăzută la art.666 din Legea nr. 134/2010, republicată, cu modificările și completările ulterioare, dacă debitorul ce urmează a fi supus unei executări silite are calitatea de consumator, citarea acestuia este obligatorie.
+
+(2) Consumatorul poate să ceară, iar instanța este obligată să analizeze chiar și din oficiu caracterul abuziv al clauzelor contractului, facturii sau a altui act juridic care are caracter de titlu executoriu în sine, precum și deformarea comportamentului economic, în sensul Legii nr. 193/2000 privind clauzele abuzive din contractele încheiate între profesioniști și consumatori, respectiv, al Legii nr.363/2007 privind combaterea practicilor incorecte ale comercianților în relația cu consumatoriți și armonizarea reglementărilor cu legislația europeană privind protecția consumatorilor.
+
+(3) În cazul în care s-a încuviințat executarea silită, consumatorul poate formula apel împotriva hotărârii de încuviințare a executării. Apelul este suspensiv de executare. Dispozițiile alin.(2) se aplică în mod corespunzător.
+
+(4) Dacă executarea silită are ca obiect locuința familiei, instanța verifică din oficiu proporționalitatea măsurii și caracterul său excepțional, având în vedere cel puțin cuantumul creanței restante, valoarea bunului urmărit, conduita părților, existența unor măsuri alternative mai puțin intruzive, precum și interesele minorilor care locuiesc în imobil, menționând separat în decizia emisă motivele și concluzia analizei.
+
+Art.8.- (1) În cazul în care se formulează contestație la executare, indiferent de dispozițiile art.713 din Legea nr. 134/2010, republicată, cu modificările și completările ulterioare, consumatorul poate să invoce, iar instanța este obligată să ia în discuție chiar și din oficiu, clauzele abuzive inserate în contractul sau actul juridic care are în sine caracter executoriu și pe care se întemeiază executarea silită contestată, precum și deformarea comportamentului economic, în sensul Legii nr. 193/2000 privind clauzele abuzive din contractele încheiate între profesioniști și consumatori, respectiv, al Legii nr. 363/2007 privind combaterea practicilor incorecte ale comercianților în relația cu consumatorii și armonizarea reglementărilor cu legislația europeană privind protecția consumatorilor.
+
+(2) Nulitatea titlului executoriu constând într-un contract, factură sau alt act juridic căruia legea îi conferă caracter de titlu executoriu în sine va putea fi invocată și prin acțiune separată, în condițiile legii.
+
+(3) Până la soluționarea contestației la executare sau a acțiunii separate care tinde la nulitatea titlului executoriu, instanța sesizată cu contestația sau, după caz, cu acțiunea de drept comun, va dispune cu prioritate, la cererea consumatorului, suspendarea provizorie a efectelor contractului sau ale actului juridic care are efect de titlu executoriu în sine, până la soluționarea definitivă a contestației sau a acțiunii de drept comun. Consumatorul este scutit de cauțiune. Dispozițiile art.200 din Legea nr.134/2010, republicată, cu modificările și completările ulterioare, nu sunt aplicabile.
+
+(4) Este interzisă orice evacuare din locuința familiei înainte de soluționarea cererii de suspendare formulate de consumator în condițiile prezentei legi.
+
+Art.9.- (1) În orice procedură de executare care vizează locuința familiei în care locuiesc minori, executorul judecătoresc are obligația de a sesiza de îndată serviciul public de asistență socială competent și, după caz, direcția generală de asistență socială și protecția copilului.
+
+(2) Evacuarea nu poate fi pusă în executare mai devreme de 30 de zile de la data dovezii sesizării prevăzute la alin. (1).
+
+(3) În termenul prevăzut la alin. (2), autoritățile competente analizează situația familiei și dispun ori propun măsuri de sprijin pentru prevenirea lipsei de adăpost și menținerea, pe cât posibil, a protecției minorului în cadrul familiei.
+
+(4) În toate măsurile dispuse potrivit prezentului articol, interesul superior al copilului prevalează.
+
+Art.10.- Prezenta lege este aplicabilă și procedurilor de executare silită aflate în curs de derulare, cu excepția art.3 alin.(1), care se aplică numai procedurilor de executare pornite după data intrării în vigoare a prezentei legi.
+
+Art.11.- Prezenta lege intră în vigoare în termen de 30 de zile de la publicarea în Monitorul Oficial al României, Partea I.
+
+Acest proiect de lege se consideră adoptat de Senat în forma inițială, în condițiile articolului 75 alineatul (2) teza a III-a din Constituția României, republicată.
+
+PREȘEDINTELE SENATULUI
+
+## MIRCEA ABRUDEAN

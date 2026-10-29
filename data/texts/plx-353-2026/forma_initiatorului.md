@@ -1,0 +1,153 @@
+# LEGE
+
+# pentru modificarea și completarea Legii 143/2000 privind prevenirea și combaterea traficului și consumului ilicit de droguri
+
+Parlamentul României adoptă prezenta lege:
+
+Articol unic. Legea nr. 143/2000 privind prevenirea și combaterea traficului și consumului ilicit de droguri republicată în Monitorul Oficial nr. 163 din 6 martie 2014 cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+## 1. Art. 2 se modifica si va avea următorul cuprins :
+
+(1) Cultivarea, producerea, fabricarea, experimentarea, extragerea, prepararea, transformarea, oferirea, punerea în vânzare, vânzarea, distribuirea, livrarea cu orice titlu, trimiterea, transportul, procurarea, cumpărarea, deținerea ori alte operațiuni privind circulația drogurilor de risc, a unei cantitati mai mari de 1 (unu) g, fără drept, se pedepsesc cu închisoare de la 5 la 15 ani și interzicerea exercitarii unor drepturi. (2) Dacă faptele prevăzute la alin. (1) au ca obiect droguri de mare risc, pedeapsa este închisoarea de la 10 la 20 ani și interzicerea unor drepturi.
+
+## 2. Art. 3 se modifică și va avea următorul cuprins:
+
+(1) Introducerea sau scoaterea din țară, precum și importul ori exportul de droguri de risc, fără drept, se pedepsesc cu închisoare de la 10 la 15 ani și interzicerea exercitarii unor drepturi.
+
+(2) Dacă faptele prevăzute la alin. (1) privesc droguri de mare risc, pedeapsa este închisoarea de la 15 la 20 de ani și interzicerea exercitarii unor drepturi.
+
+## 3. Art. 4 se modifică și va avea următorul cuprins:
+
+(1) Cultivarea, producerea, fabricarea, experimentarea, extragerea, prepararea, transformarea, oferirea, punerea în vânzare, vânzarea, distribuirea, livrarea cu orice titlu, trimiterea, transportul, procurarea, cumpărarea, deținerea ori alte operațiuni privind circulația drogurilor de risc, a unei cantitati de maxim 1 (unu) g, fără drept, se pedepsește cu închisoare de la 1 la 5 ani și interzicerea exercitarii unor drepturi.
+
+(2) Dacă faptele prevăzute la alin. (1) privesc droguri de mare risc, pedeapsa este închisoarea de la 2 la 7 ani și interzicerea exercitarii unor drepturi.
+
+## 4. Art. 5 se modifică și va avea următorul cuprins:
+
+Punerea la dispoziție, cu știință, cu orice titlu, a unei locuințe sau a unui local ori a oricărui alt loc amenajat, în care are acces publicul, pentru consumul ilicit de droguri ori tolerarea consumului ilicit în asemenea locuri se pedepsește cu închisoare de la 3 la 10 ani și interzicerea exercitarii unor drepturi.
+
+## 5. Art. 6 se modifică și va avea următorul cuprins:
+
+(1) Prescrierea drogurilor de mare risc, cu intenție, de către medic, fără ca aceasta să fie necesară din punct de vedere medical, se pedepsește cu închisoare de la 3 la 10 ani și interzicerea exercitarii unor drepturi.
+
+2\) Cu pedeapsa prevăzută la alin. (1) se sancționează și eliberarea cu intenție de droguri de mare risc, pe baza unei rețete medicale prescrise în condițiile prevăzute la alin. (1) sau a unei rețete medicale falsificate.
+
+(3) Obținerea de droguri de mare risc prin folosirea unei rețete medicale prescrise în condițiile prevăzute la alin. (1) sau a unei rețete medicale falsificate se pedepsește cu închisoare de la 2 la 7 ani și interzicerea exercitarii unor drepturi.
+
+6\. Art. 7 se modifică și va avea următorul cuprins: Administrarea de droguri de mare risc unei persoane, în afara condițiilor legale, se pedepsește cu închisoare de la 3 la 10 ani și interzicerea exercitarii unor drepturi.
+
+7\. Art. 8 se modifică și va avea următorul cuprins: Furnizarea, în vederea consumului, de inhalanți chimici toxici unui minor se pedepsește cu închisoare de la 3 la 10 ani și interzicerea exercitarii unor drepturi.
+
+8\. Art. 9 se modifică și va avea următorul cuprins: Finanțarea săvârșirii faptelor prevăzute la art. 2-8 se sancționează cu pedepsele prevăzute de lege pentru aceste fapte.
+
+9\. Art. 10 se modifică și va avea următorul cuprins: Îndemnul la consumul ilicit de droguri de risc și de droguri de mare risc, prin orice mijloace, se pedepsește cu închisoare de la 2 la 7 ani și interzicerea exercitarii unor drepturi.
+
+## 10. Art. 11 se completează și se modifică și va avea următorul cuprins:
+
+(1) Dacă faptele prevăzute la art. 2, art. 6-8 au avut ca urmare moartea victimei, pedeapsa este detențiune pe viață sau închisoare de la 25 la 30 de ani și interzicerea exercitării unor drepturi.
+
+(2) Dacă faptele prevăzute la art. 5 și art. 10 a avut ca urmare moartea victimei, pedeapsa este închisoare de la 15 la 25 de ani și interzicerea exercitarii unor drepturi.
+
+## 11. Art. 12 se modifica si va avea următorul cuprins:
+
+(1) Tentativa la infracțiunile prevăzute la art. 2-9 se sancționează cu pedepsele prevăzute de lege pentru aceste fapte, ale căror limite minime și maxime se reduc cu o treime.
+
+(2) Se consideră tentativă și producerea sau procurarea mijloacelor ori instrumentelor, precum și luarea de măsuri în vederea comiterii infracțiunilor prevăzute la alin. (1).
+
+## 12. Art. 13 se modifică și va avea următorul cuprins:
+
+(1) Cu privire la infracțiunile cuprinse în prezentul capitol, pe lângă situațiile prevăzute în Codul penal, constituie circumstanțe agravante următoarele situații:
+
+a) persoana care a comis infracțiunea îndeplinea o funcție ce implică exercițiul autorității publice, iar fapta a fost comisă în exercitarea acestei funcții;
+
+b) fapta a fost comisă de un cadru medical sau de o persoană care are, potrivit legii, atribuții în lupta împotriva drogurilor;
+
+c) drogurile au fost trimise sau livrate, distribuite sau oferite unui minor, unui bolnav psihic, unei persoane aflate într-un program terapeutic ori s-au efectuat alte asemenea activități interzise de lege cu privire la una dintre aceste persoane ori dacă fapta a fost comisă într-o instituție sau unitate medicală, de învățământ, militară, loc de detenție, centre de asistență socială, de reeducare sau instituție medical-educativă, locuri în care elevii, studenții și tinerii desfășoară activități educative, sportive, sociale ori în apropierea acestora;
+
+d) folosirea minorilor în săvârșirea faptelor prevăzute la art. 2-10;
+
+e) drogurile au fost amestecate cu alte substanțe care le-au mărit pericolul pentru viața și integritatea persoanelor.
+
+(2) În cazul circumstanțelor agravante prevăzute la alin. (1), la maximul special prevăzut de lege se poate adăuga un spor care nu poate depăși 5 ani.
+
+## 13. Art. 14 se modifică și va avea următorul cuprins:
+
+Persoana care a comis una dintre infracțiunile prevăzute la art. 2-10 și care, mai înainte de a fi începută urmărirea penală, denunță autorităților participarea sa la comiterea infracțiunii, contribuind astfel la identificarea și tragerea la răspundere penală a autorului sau a celorlalți participanți, se sancționează cu pedepsele prevăzute de lege pentru aceste fapte, a căror limite minime și maxime se reduc cu două treimi.
+
+## 14. Art. 15 se modifică și va avea următorul cuprins:
+
+Persoana care a comis una dintre infracțiunile prevăzute la art. 2-10, iar în timpul urmăririi penale denunță și facilitează identificarea și tragerea la răspundere penală a altor persoane care au săvârșit infracțiuni legate de droguri, se sancționează cu pedepsele prevăzute de lege pentru aceste fapte, a căror limite minime și maxime se reduc cu o treime.
+
+15\. Art. 15¹ se completează și se modifică și va avea următorul cuprins:
+
+(1) Nu se poate dispune renuntarea la aplicarea pedepsei, amânarea aplicarii pedepsei și nici suspendarea executării pedepsei sub supraveghere, în cazul infracțiunilor prevăzute la art. 2 -3 si art. 5-10.
+
+(2) Nu se poate dispune renuntarea aplicării pedepsei și nici amânarea aplicării pedepsei, în cazul infracțiunilor prevăzute la art. 4.
+
+## 16. Art. 18 se modifică și va avea următorul cuprins:
+
+În cazul în care un consumator este condamnat la pedeapsa închisorii pentru săvârșirea unei alte infracțiuni decât cele prevăzute la art. 4, instanța dispune includerea acestuia într-un program terapeutic derulat în sistemul penitenciar.
+
+## 17. Art. 19 se modifică și va avea următorul cuprins:
+
+(1) În cazul în care autorul săvârșirii infracțiunii prevăzută la art.4 este o persoana consumatoare de droguri, procurorul dispune evaluarea consumatorului în scopul includerii acestuia în circuitul integrat de asistență a persoanelor consumatoare de droguri, dacă acesta nu se află în mod voluntar inclus într-un astfel de circuit integrat de asistență.
+
+(2) Evaluarea consumatorului se realizează de către centrul de prevenire, evaluare și consiliere antidrog.
+
+(3) În funcție de concluziile raportului de evaluare întocmit de centrul de prevenire, evaluare și consiliere antidrog, în termen de 5 zile de la primirea acestuia, procurorul dispune includerea acestuia în programul integrat de asistență a persoanelor consumatoare de droguri.
+
+(4) În situația în care consumatorul, până la emiterea raportului de evaluare, face dovada înscrierii voluntare într-un circuit de asistență a persoanelor consumatoare de droguri, procurorul dispune trimiterea raportului de evaluare către centrul sau, după caz, unitatea medicală care acordă asistență consumatorului în vederea reevaluării programului individual al acestuia.
+
+## 18. Art. 20 se modifică și va avea următorul cuprins:
+
+(1) Dacă până în momentul pronunțării hotărârii inculpatul menționat la art. 19 respectă protocolul programului integrat de asistență a persoanelor consumatoare de droguri, instanța de judecată poate dispune suspendarea executării pedepsei sub supraveghere, dacă sunt îndeplinite condițiile prevăzute la art. 91 din Codul penal. (2) Nerespectarea, pe durata termenului de supraveghere, a programului integrat de asistență a persoanelor consumatoare de droguri atrage în mod corespunzător aplicarea dispozițiilor art. 96 din Codul penal.
+
+## 19. Art. 22 se modifică și va avea următorul cuprins:
+
+(1) Consumul de droguri aflate sub control național, fără prescripție medicală, este interzis pe teritoriul României.
+
+(2) Persoana care consumă ilicit droguri aflate sub control național va fi inclusă, întrun program integrat de asistență a persoanelor consumatoare de droguri.
+
+(3) Stabilirea programului psihologic și social individualizat se face de către centrul de prevenire, evaluare și consiliere antidrog, pe baza evaluării psihologice și sociale și în concordanță cu rezultatele examinării medicale solicitate unei unități medicale, conform criteriilor prevăzute în regulamentul de aplicare a prezentei legi.
+
+(4) Stabilirea programului terapeutic individualizat se face conform protocoalelor de practică, elaborate de Ministerul Sănătății, prin structurile sale specializate și Colegiul Medicilor din România.
+
+(4¹) Se înființează și se organizează centre de dezintoxicare și recuperare a dependenților de droguri ca instituții specializate pentru recuperarea socială a persoanelor dependente de droguri, prin hotărâre a Guvernului, în fiecare dintre cele 8 regiuni de dezvoltare ale României, conform anexei la Legea nr. 315/2004 privind dezvoltarea regională în România, cu modificările și completările ulterioare. Acestea au personalitate juridică și se înființează și funcționează în subordinea Ministerului Sănătății. Centrele se acreditează de către Autoritatea Națională de Management al Calității în Sănătate conform standardelor internaționale în materia recuperării persoanelor dependente de droguri
+
+(4²) Pentru construcția, înființarea și funcționarea centrelor se alocă sume de investiții și de funcționare astfel:
+
+a) 100% din bugetul de stat prin Ministerul Sanatatii;
+
+b) în proporție egală, 50% din bugetul de stat prin Ministerul Sănătății și 50% din bugetele autorităților publice locale interesate;
+
+c) fonduri din programe de finanțare europene.
+
+(5) Unitățile medicale în care se desfășoară programe terapeutice pentru consumatorii dependenți transmit centrelor de prevenire, evaluare și consiliere antidrog datele necesare în vederea menținerii continuității programului integrat de asistență a persoanelor consumatoare de droguri, pe baza unui raport medical.
+
+(6) Programul terapeutic și programul psihologic și social se desfășoară integrat, astfel încât consumatorul și consumatorul dependent să poată beneficia de o asistență medicală, psihologică și socială concomitentă și continuă, cu respectarea drepturilor omului și a drepturilor pacientului, potrivit legii.
+
+## 20. Art. 23 se modifică și va avea următorul cuprins:
+
+(1) Programele psihologice și sociale se elaborază de către Agenția Națională Antidrog în colaborare cu Ministerul Sănătății, Ministerul Muncii, Familiei, Tineretului și Protecției Sociale și Ministerul Justiției și se vor derula în centre autorizate și/sau acreditate în acest sens, cu regim deschis sau închis, publice, private sau mixte.
+
+(1¹) Programele naționale de prevenire și asistență medicală, psihologică și socială a consumatorilor de droguri și programele de interes național de prevenire și asistență medicală, psihologică și socială a consumatorilor de droguri se elaborază de către Agenția Națională Antidrog, în colaborare cu alte instituții, organizații guvernamentale și neguvernamentale, și se aprobă de către Guvern.
+
+(1²) Programele naționale de prevenire și asistență medicală, psihologică și socială a consumatorilor de droguri se implementează, se monitorizează și se evaluează de către Agenția Națională Antidrog, în calitate de coordonator național al politicilor publice în domeniu.
+
+(1³) Normele tehnice și metodologice de realizare a programelor de interes național de prevenire și asistență medicală, psihologică și socială a consumatorilor de droguri se aprobă prin ordin comun al ministrului afacerilor interne și al ministrului sănătății, care se publică în Monitorul Oficial al României, Partea I.
+
+(1⁴) Programele naționale de prevenire și asistență medicală, psihologică și socială a consumatorilor de droguri și programele de interes național de prevenire și asistență medicală, psihologică și socială a consumatorilor de droguri se finanțează de la bugetul de stat, prin bugetul aprobat Ministerului Afacerilor Interne, în limita fondurilor bugetare aprobate Agenției Naționale Antidrog.
+
+(2) Programele terapeutice se elaborează de către Ministerul Sănătății și se desfășoară în centre stabilite în acest scop, cu regim deschis sau închis, publice, private sau mixte. (3) Cheltuielile ocazionate de efectuarea evaluării consumatorului și de derularea programelor psihologice și sociale sunt suportate de la bugetul de stat, prin bugetul aprobat Ministerului Afacerilor Interne, în limita fondurilor aprobate Agenției Naționale Antidrog.
+
+(4) Cheltuielile ocazionate de aplicarea programului terapeutic individualizat pentru persoanele asigurate prin sistemul de asigurări sociale de sănătate sunt suportate de casele de asigurări de sănătate din Fondul național unic de asigurări sociale de sănătate pentru afecțiunile ce decurg din consumul de droguri și prin programele de sănătate ale Ministerului Sănătății și programele de profilaxie ale Agenției Naționale Antidrog.
+
+(5) Ministrul justiției și ministrul sănătății vor stabili, prin ordin comun, măsurile medicale și educative sau programele care vor fi aplicate consumatorilor de droguri în penitenciare.
+
+## 21. Art. 25 se modifică și va avea următorul cuprins:
+
+(1) Fapta persoanei care, luând cunoștință de comiterea unei fapte prevăzute de prezenta lege, nu înștiințează de îndată autoritățile se pedepsește cu închisoare de la un an la 3 ani.
+
+(2) Nedenunțarea săvârșită de un membru de familie nu se pedepsește.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art 76 din Constituția României, republicată.

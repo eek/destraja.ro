@@ -1,0 +1,82 @@
+## Expunere de motive
+
+Prezenta inițiativă legislativă are ca scop modificarea și completarea prevederilor Legii nr. 134/2010 privind Codul de procedură civilă, republicată, și apreciem că, în forma sa actuală, prevederile articolului analizat încalcă mai multe principii fundamentale, putând conduce cu ușurință la încălcarea:
+
+\- principiului soluționării cauzei într-un termen rezonabil,
+
+\- principiului unei judecăți echitabile,
+
+\- și principiului independenței și imparțialității instanței.
+
+De asemenea, poate fi incidentă și o încălcare a principiului organizării justiției pe baza sistemului dublului grad de jurisdicție, regulă ce presupune organizarea sistemului judiciar astfel încât o hotărâre judecătorească să poată fi supusă controlului unei instanțe superioare, în vederea înlăturării eventualelor erori de judecată săvârșite de instanța ierarhic inferioară.
+
+În forma actuală a textului legal, în situația în care un debitor, în sarcina căruia s-a instituit o obligație de a face, nu își îndeplinește acea obligație, instanța – la cererea creditorului – pronunță o încheiere definitivă, având marjă de apreciere în a decide dacă obligă sau nu debitorul la plata unor penalități zilnice până la executarea obligației. Această încheiere nu este susceptibilă de atac, ceea ce contravine principiului dublului grad de jurisdicție și poate afecta grav drepturile procesuale ale creditorului.
+
+În ceea ce privește executarea obligațiilor de a face stabilite prin titluri executorii reprezentate de hotărâri judecătorești, puse în executare silită, cadrul legislativ actual poate conduce la întârzieri semnificative în realizarea obligațiilor stabilite, în măsură să afecteze grav principiile consacrate de art. 6 din Convenția Europeană a Drepturilor Omului (CEDO) privind dreptul la un proces echitabil și în termen rezonabil. Sunt cunoscute cazuri în care executarea silită durează între 5 și 8 ani, fără ca titlul executoriu să fie adus la îndeplinire.
+
+Analizând jurisprudența, se constată că, în astfel de situații, instanțele resping cererile creditorilor de aplicare a penalităților, lăsând dosarele execuționale în nelucrare, iar creditorii fără nicio posibilitate reală de a obține sprijinul statului pentru executarea obligației. Executarea rămâne astfel la bunul plac și arbitrariul debitorului. Acesta, conștient că nu este afectat în niciun fel de executarea silită – nici măcar în privința patrimoniului – continuă să nu-și îndeplinească obligațiile legale, ignorând autoritatea titlului executoriu.
+
+Pentru a preveni și corecta astfel de situații, legislația în vigoare trebuie modificată și adaptată, astfel încât să asigure:
+
+\- un mecanism eficient și funcțional pentru creditor,
+
+\- respectarea unui termen rezonabil de executare,
+
+\- și garantarea exercitării effective a drepturilor recunoscute prin hotărâri judecătorești.
+
+În această lumină, considerăm necesară modificarea art. 906 alin. (2) din Codul de procedură civilă, în sensul:
+
+1\. limitării marjei de apreciere a judecătorului în ceea ce privește respingerea cererilor creditorilor de obligare a debitorului pasiv la plata penalităților zilnice;
+
+2\. introducerii posibilității creditorului de a reveni cu o nouă cerere într-un termen prestabilit, în cazul în care debitorul continuă să fie inactiv, iar cererea anterioară a fost respinsă;
+
+3\. reglementării unei căi de atac ordinare împotriva încheierii prin care s-a respins cererea de stabilire a penalităților;
+
+4\. judecării cu celeritate a cererii, inclusiv în cameră de consiliu, și soluționării cu prioritate a eventualei căi de atac.
+
+Totodată, trebuie menționat că actualele dispoziții legale oferă debitorului suficiente mijloace de apărare și de evitare a penalităților, astfel încât propunerile de modificare nu aduc atingere drepturilor acestuia, având în vedere că:
+
+\- creditorul poate solicita stabilirea sumei definitive a penalităților doar după 3 luni de la comunicarea hotărârii privind penalitățile zilnice (termen rezonabil pentru ca debitorul să-și îndeplinească obligația),
+
+\- judecarea cererii de stabilire a sumei definitive durează în prezent 6–9 luni, timp suficient pentru debitor să se conformeze,
+
+\- hotărârea de stabilire a sumei definitive este supusă apelului (art. 906 alin. (4) Cod procedură civilă),
+
+\- în cadrul executării silite, debitorul are la dispoziție contestația la executare, putând solicita înlăturarea sau reducerea penalităților (art. 906 alin. (5) Cod procedură civilă).
+
+Introducerea alineatului (1¹) la articolul 906 din Codul de procedură civilă, care prevede că, după respingerea cererii creditorului de aplicare a penalităților și rămânerea hotărârii definitive, acesta poate formula o nouă cerere după 3 luni, nu încalcă principiul autorității lucrului judecat, fiindcă termenul de 3 luni prevăzut constituie un termen suficient, pentru debitor, pentru îndeplinirea obligației de a face sau de a nu face.
+
+Deși judecata în fața primei instanțe se bazează pe un set de principii ce oferă garanții procesuale suficiente pentru desfășurarea corectă a procesului, este necesar ca legiuiitorul să prevadă, în cazul litigiilor întemeiate pe art. 906 alin. (2) Cod procedură civilă, o garanție suplimentară pentru legalitatea și temeinicia hotărârilor, respectiv posibilitatea exercitării unui control judiciar efectiv.
+
+În prezent, hotărârea pronunțată de instanța de fond este definitivă, fără posibilitatea exercitării unei căi de atac, atât pentru creditor, cât și pentru debitor. În alte tipuri de litigii, legiutorul nu s-a limitat la un singur grad de jurisdicție, tocmai pentru a garanta corecta înfăptuire a actului de justiție și remedierea eventualelor erori.
+
+Pronunțarea unei încheieri definitive prin care se respinge aplicarea unor penalități, în condițiile în care creditorul deține un titlu executoriu neexecutat de debitor, reprezintă o încălcare a dreptului la un proces echitabil. CEDO a sancționat în repetate rânduri România pentru durata excesivă a proceselor și a statuat că dreptul la un proces echitabil include și faza executării silite.
+
+Inițiatori,
+
+<table>
+<tbody>
+<tr><td>Nr. crt.</td><td>Deputați/Senatori</td><td>Grupul parlamentar</td><td>Semnătură</td></tr>
+<tr><td>1.</td><td>Zahoranszki Brigitta-Eva</td><td>UDMR</td><td rowspan="15"></td></tr>
+<tr><td>2.</td><td>Csoma Botond</td><td>UDMR</td></tr>
+<tr><td>3.</td><td>Molnar Andrei</td><td>UDMR</td></tr>
+<tr><td>4.</td><td>Ladânyi László-Zsolt</td><td>UDMR</td></tr>
+<tr><td>5.</td><td>HAYDO GÁBOR</td><td>UAMR</td></tr>
+<tr><td>6.</td><td>MARKD ATTILA-GÁBOR</td><td>UDMR</td></tr>
+<tr><td>7.</td><td>Könczei Csaka</td><td>UDMR</td></tr>
+<tr><td>8.</td><td>HANTOR BOGLARHA</td><td>UDMR</td></tr>
+<tr><td>9.</td><td>Beuch Scador</td><td>UDMR</td></tr>
+<tr><td>10.</td><td>VASS LEVENTE</td><td>UDMR</td></tr>
+<tr><td>11.</td><td>YIAGY SÁBOLCS</td><td>UDMR</td></tr>
+<tr><td>12.</td><td>TÀNADISTVÁN-SÁLARD</td><td>UDMR</td></tr>
+<tr><td>13.</td><td>KOVOCI MATE</td><td>UDMR</td></tr>
+<tr><td>14.</td><td>MAGYAL CÔREDO-BALMT</td><td>UDMR</td></tr>
+<tr><td>15.</td><td>NICULESCU-TAGPRLAS CRISTIAN-AUGUSTIN</td><td>PNL</td></tr>
+<tr><td>16.</td><td></td><td></td><td></td></tr>
+<tr><td>17.</td><td></td><td></td><td></td></tr>
+<tr><td>18.</td><td></td><td></td><td></td></tr>
+<tr><td>19.</td><td></td><td></td><td></td></tr>
+<tr><td>20.</td><td></td><td></td><td></td></tr>
+<tr><td>21.</td><td></td><td></td><td></td></tr>
+</tbody>
+</table>

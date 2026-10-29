@@ -1,0 +1,31 @@
+# Parlamentul României
+
+Camera Deputaților
+
+Senatul
+
+## LEGE
+
+pentru modificarea art. 616 din Legea nr. 134/2010 privind Codul de procedură civilă și completarea Ordonanței Guvernului nr. 26/2000 cu privire la asociații și fundații
+
+Parlamentul României adoptă prezenta lege:
+
+Art. I – La articolul 616 din Legea nr. 134/2010 privind Codul de procedură civilă, republicată în Monitorul Oficial al României, Partea I, nr. 247 din 10 aprilie 2015, cu modificările și completările ulterioare, alin. (1) se modifică și va avea următorul cuprins:
+
+„ (1) Arbitrajul instituționalizat este acea formă de jurisdicție arbitrală care se constituie și funcționează în mod permanent pe lângă o organizație sau instituție internă ori internațională ori ca o asociație, fundație ori federație constituită potrivit Ordonanței Guvernului nr. 26/2000 cu privire la asociații și fundații, cu modificările și completările ulterioare, pe baza unui regulament propriu aplicabil în cazul tuturor litigiilor supuse ei spre soluționare potrivit unei convenții arbitrale. Activitatea arbitrajului instituționalizat nu are caracter economic și nu urmărește obținerea de profit.
+
+Art. II – Ordonanța Guvernului nr. 26/2000 cu privire la asociații și fundații, publicată în Monitorul Oficial al României, Partea I, nr. 39 din 31 ianuarie 2000, cu modificările și completările ulterioare, se completează, după cum urmează:
+
+1\. La art. 46, alin. (1), după lit. g) se introduce o nouă literă, lit. h), cu următorul cuprins:
+
+„h) taxele arbitrale și celelalte sume încasate în condițiile legii pentru organizarea și administrarea arbitrajului instituționalizat;”
+
+2\. După art. 48¹, se introduce un nou articol, art. 48², cu următorul cuprins:
+
+„Art. 48²: Asociațiile, fundațiile și federațiile pot înființa și organiza arbitraj instituționalizat potrivit actului constitutiv sau, după caz, statutului, în condițiile prevăzute de lege.”
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și 76 alin. (2) din Constituția României, republicată.
+
+Președintele Camerei Deputaților, Sorin Mihai GRINDEANU
+
+Președintele Senatului, Mircea ABRUDEAN

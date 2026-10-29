@@ -1,0 +1,97 @@
+{
+  "slug": "plx-647-2026",
+  "billId": "PL-x 647/2026",
+  "updatedAt": "2026-10-29T13:12:21.089Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L523FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Panouri publicitare pe terenuri agricole din afara localităților",
+      "summaryTlDr": "Scopul e rezonabil: corelează Legea fondului funciar cu legea publicității. Textul dă însă mai mult decât promite expunerea. Garanțiile anunțate (scoatere doar temporară, doar suprafața de la sol, redarea terenului) lipsesc din articol, deci riscul pentru terenul agricol și pentru peisaj e moderat, fără să fie o capcană gravă.",
+      "scores": {
+        "agy": 3,
+        "claude": 4,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/600/40/7/se745.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Panouri publicitare pe terenurile agricole din afara localităților",
+      "summaryTlDr": "Lege tehnică și în mare parte rezonabilă. Scrie explicit în Legea fondului funciar ceea ce Legea 185/2013 presupune deja. Problema este că garanțiile promise în expunerea de motive (scoatere doar temporară din circuitul agricol, redarea terenului) nu au ajuns în textul votat.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a păstrat textul inițiatorului; s-au corectat doar trimiterile la Legea 185/2013 și OG 43/1997",
+      "summary": "Senatul a adoptat textul fără schimbări de fond, doar cu trimiterile la legi actualizate. Problemele rămân: un panou poate scoate definitiv teren agricol din circuit, iar garanțiile promise în expunerea de motive nu sunt scrise în lege.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Terenul agricol poate fi scos definitiv din circuit pentru un panou publicitar",
+            "major": true,
+            "article": "art. unic (art. 92 alin. (2))"
+          },
+          {
+            "text": "Lipsesc limita la suprafața ocupată și obligația de a reda terenul",
+            "major": true,
+            "article": "art. unic (art. 92 alin. (2) lit. i))"
+          },
+          {
+            "text": "Formula «definite și autorizate» e circulară; autoritățile pot refuza în continuare",
+            "major": true,
+            "article": "art. unic (art. 92 alin. (2) lit. i))"
+          },
+          {
+            "text": "Condiția OG 43/1997 poate fi aplicată și drumurilor private și infrastructurii de comunicații",
+            "major": true,
+            "article": "art. unic (art. 92 alin. (2) lit. i))"
+          }
+        ],
+        "good": [
+          {
+            "text": "Panourile publicitare autorizate pot fi amplasate legal pe teren agricol din extravilan",
+            "major": true,
+            "article": "art. unic (art. 92 alin. (2) lit. i))"
+          },
+          {
+            "text": "Terenurile agricole de clasa I și a II-a de calitate rămân protejate",
+            "major": true,
+            "article": "art. unic (art. 92 alin. (2))"
+          },
+          {
+            "text": "Panourile trebuie autorizate conform legii privind mijloacele de publicitate",
+            "major": false,
+            "article": "art. unic (art. 92 alin. (2) lit. i))"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 3,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:11:13.300Z"
+    }
+  ]
+}

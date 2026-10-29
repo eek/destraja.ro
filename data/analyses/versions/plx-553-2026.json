@@ -1,0 +1,239 @@
+{
+  "slug": "plx-553-2026",
+  "billId": "PL-x 553/2026",
+  "updatedAt": "2026-10-29T13:06:45.276Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L385FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "O singură aplicație a statului pentru toate serviciile publice, fără să ți se mai ceară acte pe care statul le are deja",
+      "summaryTlDr": "Este o lege-cadru utilă. Obligă instituțiile să nu-ți mai ceară acte pe care statul le are deja, îți arată cine ți-a accesat datele și nu te obligă să folosești aplicația. Problemele sunt de redactare: amenzile sunt constatate de Poliție, unul dintre termenii sancționați privește doar ADR, iar normele de aplicare apar după ce legea intră deja în vigoare.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/50/3/se591.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Statul într-o singură aplicație: actele se cer o singură dată, iar ghișeul rămâne o opțiune",
+      "summaryTlDr": "Lege de modernizare utilă, cu garanții reale: folosirea e voluntară, canalele clasice rămân, iar cetățeanul vede cine i-a accesat datele. Riscurile țin de execuție, nu de abuz. Aproape totul e lăsat pe seama normelor metodologice, serviciile complete nu au termen ferm, iar în textul disponibil nu apare o estimare de cost.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_riscant",
+      "headline": "Jurnalul cu cine ți-a accesat datele acoperă acum doar accesările prin infrastructura națională",
+      "summary": "Acum instituțiile trebuie să ofere canale alternative și asistență celor fără competențe digitale. În schimb, jurnalul accesărilor la date acoperă mai puțin, art. 2 numește mai puține entități, iar excepțiile și termenele sunt mai lejere.",
+      "changes": [
+        {
+          "title": "Jurnalul accesărilor la date acoperă mai puține cazuri",
+          "text": "Art. 16: inițial jurnalul cuprindea accesările făcute de autorități și instituții publice. Acum cuprinde doar pe cele prin infrastructura digitală națională, cu condiții stabilite prin norme. Apare și pe portal.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 16",
+          "before": "(1) Utilizatorii au dreptul de a accesa, prin intermediul AMU, istoricul accesărilor datelor cu caracter personal realizate de autorități și instituții publice.",
+          "after": "Utilizatorii au dreptul de a accesa, prin intermediul AMU sau al portalului web unitar al administrației publice, informații privind operațiunile de accesare a datelor lor cu caracter personal realizate prin infrastructura digitală națională",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Canale alternative și asistență pentru cei fără digital",
+          "text": "Art. 5 alin. (4) este nou. Instituțiile trebuie să ofere canale alternative și asistență celor fără mijloace digitale, fără acces la tehnologie sau fără competențe digitale, potrivit normelor metodologice.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 5 alin. (4)",
+          "before": null,
+          "after": "(4) Entitățile publice asigură, potrivit normelor metodologice de aplicare a legii, canale alternative și asistență pentru utilizatorii care nu dispun de mijloace digitale, de acces facil la tehnologie sau de competențele digitale necesare.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Legea nu mai numește entitățile administrate sau controlate",
+          "text": "Art. 2 alin. (1) nu mai include entitățile aflate în administrarea sau controlul autorităților, deși definiția din art. 3 lit. g) le păstrează. Nu mai e clar dacă legea li se aplică.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 2 alin. (1)",
+          "before": "(1) Prezenta lege se aplică autorităților și instituțiilor publice centrale și locale, precum și entităților aflate în subordinea, în administrarea, sub autoritatea, coordonarea sau controlul acestora.",
+          "after": "(1) Prezenta lege se aplică autorităților și instituțiilor publice centrale și locale, precum și entităților aflate în coordonarea, subordinea sau sub autoritatea acestora.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Mai multe excepții pentru sistemele care dublează platformele",
+          "text": "Art. 8 alin. (2): instituțiile pot folosi sisteme care dublează platformele naționale și din motive administrative. Aprobarea se dă după normele metodologice, nu după lege, fără să se spună cine aprobă.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 8 alin. (2)",
+          "before": "(2) Este interzisă dezvoltarea sau utilizarea de sisteme informatice care dublează funcționalitățile platformelor naționale transversale, cu excepția situațiilor justificate tehnic sau operațional, aprobate potrivit legii.",
+          "after": "cu excepția situațiilor justificate tehnic, operațional, sau administrativ, prin specificul serviciului public furnizat, aprobate potrivit normelor metodologice de aplicare a legii.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Termenul de 12 luni privește doar o versiune inițială",
+          "text": "Art. 17 alin. (4): în 12 luni trebuie să funcționeze doar o versiune inițială, cu serviciile prioritare alese prin normele metodologice. Amenda pentru ADR din art. 21 devine mai ușor de evitat.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. 17 alin. (4)",
+          "before": "(4) AMU și portalul web unitar al administrației publice devin operaționale în termen de maximum 12 luni de la data intrării în vigoare a prezentei legi.",
+          "after": "(4) AMU și portalul web unitar al administrației publice devin operaționale, în versiune inițială, pentru funcționalitățile și serviciile prioritare stabilite prin normele metodologice de aplicare a legii, în termen de 12 luni de la intrarea în vigoare a prezentei legi.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Conectarea sistemelor poate fi amânată pe motiv de resurse",
+          "text": "Art. 7 alin. (2): integrarea sistemelor se face acum etapizat și ține cont de capacitatea administrativă și de resursele instituțiilor. Asta le permite să întârzie.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. 7 alin. (2)",
+          "before": "(2) Integrarea și interconectarea sistemelor informatice se realizează în conformitate cu normele metodologice de aplicare a legii.",
+          "after": "(2) Integrarea și interconectarea sistemelor informatice se realizează etapizat, în conformitate cu normele metodologice de aplicare a legii, cu respectarea standardelor tehnice, a capacității administrative și a resurselor disponibile ale entităților publice.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Jurnalul acoperă doar accesările prin infrastructura națională; condițiile le stabilesc normele",
+            "major": true,
+            "article": "art. 16"
+          },
+          {
+            "text": "Contravențiile le constată Poliția, care nu are competență tehnică în domeniu",
+            "major": true,
+            "article": "art. 21 alin. (2)"
+          },
+          {
+            "text": "Amenda se aplică instituției, deci o plătesc tot banii publici",
+            "major": true,
+            "article": "art. 21 alin. (1)"
+          },
+          {
+            "text": "Excepțiile de la interdicția sistemelor dublate sunt largi; nu se spune cine aprobă",
+            "major": true,
+            "article": "art. 8 alin. (2)"
+          },
+          {
+            "text": "Art. 2 omite entitățile administrate sau controlate, deși definiția le include",
+            "major": true,
+            "article": "art. 2 alin. (1)"
+          },
+          {
+            "text": "Cetățeanul nu are o cale de contestare dacă i se cer acte existente",
+            "major": false,
+            "article": "art. 9"
+          },
+          {
+            "text": "În 12 luni e obligatorie doar o versiune inițială, cu servicii alese prin norme",
+            "major": false,
+            "article": "art. 17 alin. (4)"
+          },
+          {
+            "text": "Instituțiile pot amâna integrarea invocând capacitatea administrativă și resursele",
+            "major": false,
+            "article": "art. 7 alin. (2)"
+          },
+          {
+            "text": "Un serviciu poate rămâne parțial nedigital dacă «natura serviciului» nu permite",
+            "major": false,
+            "article": "art. 3 lit. d)"
+          },
+          {
+            "text": "Garanții esențiale depind de normele metodologice, adoptate de Guvern în 60 de zile",
+            "major": false,
+            "article": "art. 22 alin. (2)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Folosirea aplicației e voluntară; nimeni nu pierde accesul pe căile clasice",
+            "major": true,
+            "article": "art. 5 alin. (2)-(3)"
+          },
+          {
+            "text": "Instituțiile trebuie să ofere canale alternative și asistență celor fără digital",
+            "major": true,
+            "article": "art. 5 alin. (4)"
+          },
+          {
+            "text": "Portalul web e echivalent cu aplicația, deci nu ai nevoie de smartphone",
+            "major": true,
+            "article": "art. 11 alin. (2)"
+          },
+          {
+            "text": "Instituțiile nu mai pot cere acte care există deja în sistemele statului",
+            "major": true,
+            "article": "art. 9 alin. (2)-(3)"
+          },
+          {
+            "text": "Amenzi de 10.000-20.000 lei pentru acte cerute inutil și sisteme dublate",
+            "major": true,
+            "article": "art. 21 alin. (1)"
+          },
+          {
+            "text": "Jurnal cu instituția, data, categoria datelor, scopul și temeiul fiecărei accesări",
+            "major": true,
+            "article": "art. 16 alin. (2)"
+          },
+          {
+            "text": "Interdicția sistemelor care dublează platformele naționale reduce risipa de bani publici",
+            "major": true,
+            "article": "art. 8"
+          },
+          {
+            "text": "Catalogul serviciilor publice poate fi consultat fără autentificare",
+            "major": false,
+            "article": "art. 12 alin. (3)"
+          },
+          {
+            "text": "Autentificare și prin ROeID și prin portofelul european de identitate digitală",
+            "major": false,
+            "article": "art. 13"
+          },
+          {
+            "text": "Aplicația te anunță ce etape cer prezență fizică sau ridicarea actului",
+            "major": false,
+            "article": "art. 15 alin. (3)"
+          },
+          {
+            "text": "ADR publică anual un raport despre funcționarea și folosirea serviciilor digitale",
+            "major": false,
+            "article": "art. 20"
+          },
+          {
+            "text": "Audit anual și reguli de securitate cibernetică pentru întreaga infrastructură",
+            "major": false,
+            "article": "art. 19"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 63,
+        "removed": 65,
+        "same": 0.35
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:04:00.651Z"
+    }
+  ]
+}

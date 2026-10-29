@@ -1,0 +1,140 @@
+{
+  "slug": "plx-406-2026",
+  "billId": "PL-x 406/2026",
+  "updatedAt": "2026-10-29T13:09:43.885Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L273FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "Angajări permise prin memorandum la Armată, STS și în justiție; salariul minim din agricultură, aliniat la cel general",
+      "summaryTlDr": "Lege în mare parte tehnică și utilă: deblochează angajări punctuale și scoate agricultura și industria alimentară dintr-un regim separat de salariu minim. Problema reală e mecanismul: Guvernul decide prin memorandum, fără criterii publice, inclusiv dacă se pot ocupa posturile de judecători și procurori.",
+      "scores": {
+        "agy": 5,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/00/6/se441.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Deblocarea prin memorandum a angajărilor în MApN, SIE, STS și Justiție și creșterea salariului minim în agricultură la 4.325 lei",
+      "summaryTlDr": "O ordonanță-omnibus necesară pentru deblocarea concursurilor din justiție și corelarea salariului minim în agricultură, dar viciată de plasarea recrutării magistraților sub filtrul politic al unui memorandum de Guvern și de adăugarea netransparentă a SIE în Senat.",
+      "scores": {
+        "agy": 5,
+        "claude": null,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_riscant",
+      "headline": "Senatul a adăugat SIE, alături de armată, la excepția care permite angajări sezoniere",
+      "summary": "Senatul a aprobat ordonanța cu o singură modificare de fond: și Serviciul de Informații Externe poate angaja, prin memorandum, personal sezonier pe durată determinată, nu doar armata. Excepția de la înghețarea angajărilor se lărgește fără justificare, un risc mic; restul rămâne la fel.",
+      "changes": [
+        {
+          "title": "Serviciul de Informații Externe poate angaja și el sezonieri",
+          "text": "La art. XXII alin. (16), Senatul a adăugat SIE lângă MApN la excepția de la înghețarea angajărilor, pentru posturi sezoniere pe durată determinată, prin memorandum. Expunerea de motive nu justifică adăugarea.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. I – art. XXII alin. (16) din Legea 141/2025",
+          "before": null,
+          "after": "se poate aproba pentru Ministerul Apărării Naționale și Serviciul de Informații Externe organizarea de concursuri sau examene pentru ocuparea pe durată determinată a unor posturi contractuale cu caracter sezonier",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Corectat numărul ordonanței aprobate: 29, nu 23",
+          "text": "Inițial, articolul unic aproba din greșeală OUG nr. 23/2026. Acum aprobă OUG nr. 29/2026 și indică publicarea în Monitorul Oficial nr. 313 din 20 aprilie 2026.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "articol unic",
+          "before": "Se aprobă Ordonanța de urgență a Guvernului nr. 23 /2026",
+          "after": "Se aprobă Ordonanța de urgență a Guvernului nr.29 din 16 aprilie 2026",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Concursurile din justiție depind de memorandumul Guvernului, nu de exceptarea directă cerută de CSM",
+            "major": true,
+            "article": "art. I – art. XXII alin. (18)"
+          },
+          {
+            "text": "SIE a fost adăugat la angajările sezoniere fără nicio fundamentare în expunerea de motive",
+            "major": true,
+            "article": "art. I – art. XXII alin. (16)"
+          },
+          {
+            "text": "Justiția are standard mai strict, deși lipsesc 751 de judecători și 777 de procurori",
+            "major": false,
+            "article": "art. I – art. XXII alin. (18)"
+          },
+          {
+            "text": "Alin. (18) nu cere expres încadrarea angajărilor în cheltuielile de personal din buget",
+            "major": false,
+            "article": "art. I – art. XXII alin. (18)"
+          },
+          {
+            "text": "Nu se fixează durata maximă și numărul posturilor sezoniere la MApN și SIE",
+            "major": false,
+            "article": "art. I – art. XXII alin. (16)"
+          },
+          {
+            "text": "Durata angajărilor la STS nu e precizată, deși preambulul indică durată nedeterminată",
+            "major": false,
+            "article": "art. I – art. XXII alin. (17)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Se deblochează concursurile pentru judecători, procurori, grefieri și experți criminaliști",
+            "major": true,
+            "article": "art. I – art. XXII alin. (18)"
+          },
+          {
+            "text": "Din 1 iulie 2026, agricultura și alimentația aplică salariul minim general de 4.325 lei",
+            "major": true,
+            "article": "art. II"
+          },
+          {
+            "text": "STS poate angaja personal pentru întreținerea centrelor de date ale cloudului guvernamental",
+            "major": true,
+            "article": "art. I – art. XXII alin. (17)"
+          },
+          {
+            "text": "MApN poate ocupa temporar posturi sezoniere, cum sunt cele de la Complexul Litoral",
+            "major": true,
+            "article": "art. I – art. XXII alin. (16)"
+          },
+          {
+            "text": "Angajările excepționale cer memorandum, justificarea necesității și încadrare în bugetul de personal",
+            "major": false,
+            "article": "art. I – art. XXII alin. (16) și (17)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:09:43.885Z"
+    }
+  ]
+}

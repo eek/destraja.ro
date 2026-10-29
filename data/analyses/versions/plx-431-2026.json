@@ -1,0 +1,112 @@
+{
+  "slug": "plx-431-2026",
+  "billId": "PL-x 431/2026",
+  "updatedAt": "2026-10-29T13:09:43.890Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L305FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Finanțele împrumută primăriile, fără dobândă, ca să termine la timp proiectele PNRR",
+      "summaryTlDr": "Măsură tehnică și utilă: o punte de lichiditate opțională și fără dobândă, ca primăriile să-și plătească constructorii până la termenul PNRR. Capcana este scadența fixă de 15 noiembrie 2026. UAT-urilor care nu rambursează la timp li se blochează banii de la buget, chiar dacă întârzierea vine de la ministerele coordonatoare.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/30/1/se484.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Statul împrumută primăriile fără dobândă ca să termine la timp proiectele PNRR",
+      "summaryTlDr": "Măsură tehnică și, în fond, utilă: bani publici mutați temporar dintr-un buzunar al statului în altul, ca primăriile să-și plătească constructorii și România să nu piardă fonduri PNRR. Riscul real e calendarul: dacă ministerele decontează târziu, primăria e cea sancționată la 15 noiembrie.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat ordonanța fără modificări; împrumuturile PNRR pentru primării și județe rămân la fel",
+      "summary": "Senatul a aprobat ordonanța de urgență fără modificări. S-au schimbat doar formulările din legea de aprobare: data ordonanței și Monitorul Oficial. Împrumuturile cu dobândă 0 pentru primării și județe, plafoanele și sancțiunile rămân ca inițial.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Comunele și orașele nu au plafon, municipiile și județele au; logica e inversată",
+            "major": true,
+            "article": "art. unic alin. (6) lit. e)"
+          },
+          {
+            "text": "Împrumuturile ocolesc limita de îndatorare; singurul filtru rămâne avizul Comisiei de autorizare",
+            "major": true,
+            "article": "art. unic alin. (5), (6) lit. c)–d)"
+          },
+          {
+            "text": "Legea nu spune cum se împart banii dacă cererile depășesc 10 mld. lei",
+            "major": true,
+            "article": "art. unic alin. (16), (17), (19)"
+          },
+          {
+            "text": "Mecanismul, documentele și depunerea cererilor sunt lăsate unui ordin de ministru",
+            "major": false,
+            "article": "art. unic alin. (16), (17), (19)"
+          },
+          {
+            "text": "„Sesizări sau nereguli grave” e vag: nu spune cine sesizează",
+            "major": false,
+            "article": "art. unic alin. (6) lit. f)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Autoritățile locale pot lua împrumuturi cu dobândă 0, până la 10 mld. lei total",
+            "major": true,
+            "article": "art. unic alin. (1), (5), (6)"
+          },
+          {
+            "text": "Pot beneficia și instituțiile finanțate integral din bugetul local",
+            "major": true,
+            "article": "art. unic alin. (1), (5), (6)"
+          },
+          {
+            "text": "Bani doar pentru proiecte cu progres tehnic de minimum 60% și fără nereguli grave",
+            "major": true,
+            "article": "art. unic alin. (6) lit. f)"
+          },
+          {
+            "text": "La nerambursare, salariile, handicapul grav și protecția copilului nu sunt sistate",
+            "major": true,
+            "article": "art. unic alin. (11), (14)"
+          },
+          {
+            "text": "Credit-punte scurt: rambursare integrală până la 15 noiembrie 2026",
+            "major": false,
+            "article": "art. unic alin. (1), (5), (6)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:09:09.275Z"
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "slug": "plx-472-2026",
+  "billId": "PL-x 472/2026",
+  "updatedAt": "2026-10-29T12:46:53.896Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L266FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Depozitele industriale de deșeuri închise pot fi redeschise ca să se scoată din ele metale și alte materiale",
+      "summaryTlDr": "Ideea e utilă: recuperarea metalelor critice din depozitele industriale închise poate aduce bani și poate curăța situri vechi. Textul are însă goluri. Derogă de la regimul de după închidere fără să ceară garanție financiară și fără să spună cine răspunde dacă operatorul dispare, așa că riscul real este un sit abandonat a doua oară, cu nota de plată la stat.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/70/2/se516.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Depozitele închise de deșeuri industriale pot fi redeschise pentru a recupera metale critice",
+      "summaryTlDr": "Idee utilă, cu filtrele de mediu păstrate (acord de mediu, evaluare de impact, audit anual). Gaura mare: operatorul se obligă să refacă terenul pe banii lui fără să depună vreo garanție. Textul adoptat de Senat mai are două registre paralele, un aviz fără termen și greșeli de redactare care trebuie reparate la Cameră.",
+      "scores": {
+        "agy": 5,
+        "claude": 5,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Orice firmă interesată poate cere extragerea, dar răspunde de poluarea istorică scoasă la suprafață",
+      "summary": "Acum orice firmă interesată sau statul poate cere extragerea, fără acordul proprietarului. În schimb, operatorul răspunde de poluarea istorică, face audit anual și are nevoie de avizul autorității miniere, dar tot nu trebuie să depună o garanție financiară.",
+      "changes": [
+        {
+          "title": "Orice firmă interesată poate cere extragerea",
+          "text": "Inițial doar titularii sau proprietarii cereau redeschiderea. Acum pot iniția extragerea și reprezentanții statului sau orice firmă interesată, fără acordul proprietarului.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 30¹ alin. (1)",
+          "before": "pot fi redeschise, la inițiativa titularilor sau a proprietarilor acestora, exclusiv în scopul valorificării materialelor conținute",
+          "after": "pot fi supuse operațiunilor de extragere, la inițiativa titularilor acestora, a reprezentanților statului sau a operatorilor economici interesați, exclusiv în scopul valorificării materialelor conținute.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Operatorul răspunde de poluarea istorică scoasă la suprafață",
+          "text": "Operatorul răspunde acum explicit pentru efectele contaminării istorice reexpuse. Dispare însă mențiunea că obligațiile din alin. (5) continuă și după terminarea lucrărilor.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 30¹ alin. (5)",
+          "before": "operatorul economic are obligația de a respecta condițiile stabilite prin actele de reglementare emise potrivit legislației în domeniul protecției mediului, inclusiv cele privind monitorizarea factorilor de mediu",
+          "after": "este responsabil și pentru eventualele efecte asupra mediului generate prin reexpunerea contaminărilor istorice.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Avizul autorității miniere și redevențe pentru halde și iazuri",
+          "text": "Pentru halde și iazuri de decantare, acordul de mediu nu se emite fără avizul conform ANRMPSG. Dacă activitatea e minieră, se cer licențe și se plătesc redevențe.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. II alin. (7)-(8) din OUG 61/2025",
+          "before": null,
+          "after": "titularul proiectului are obligația respectării dispozițiilor legale aplicabile, inclusiv a celor referitoare la obținerea licențelor ori permiselor și la plata redevențelor miniere, potrivit legii.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Audit anual independent și protecția biodiversității",
+          "text": "Operatorul are obligații noi: audit tehnic și de mediu independent anual, raport anual, trasabilitate digitală și interdicția pierderii nete de biodiversitate.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 30¹ alin. (8)-(11)",
+          "before": null,
+          "after": "(10) Operațiunile de extragere sunt supuse anual unui audit tehnic și de mediu independent.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dispare condiția avizelor de ape și siguranță",
+          "text": "Inițial trebuia dovedit că există toate avizele, inclusiv de gospodărire a apelor și siguranță a instalațiilor. Acum condiția e reducerea deșeurilor, pe care o îndeplinește orice extragere.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. 30¹ alin. (4) lit. c)",
+          "before": "c) solicitantul face dovada deținerii tuturor avizelor, acordurilor și autorizațiilor prevăzute de legislația aplicabilă amplasamentului, inclusiv cele privind gospodărirea apelor și siguranța instalațiilor, după caz.",
+          "after": "c) operațiunile contribuie la reducerea cantității totale de deșeuri depozitate în cadrul perimetrului care face obiectul extragerii.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Fără „alte soluții tehnice” pentru deșeurile rămase",
+          "text": "Deșeurile rămase pe perimetru se gestionează conform legii și actelor de reglementare, inclusiv prin depozit autorizat; formula deschisă „alte soluții tehnice” a fost scoasă.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 30¹ alin. (6) lit. b)",
+          "before": "inclusiv prin amenajarea unui depozit conform sau prin alte soluții tehnice aprobate prin actele de reglementare de mediu.",
+          "after": "inclusiv prin amenajarea unui deposit autorizat conform prezentei ordonanțe.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Nu se cere garanție financiară; la insolvența operatorului, refacerea rămâne în sarcina statului",
+            "major": true,
+            "article": "art. 30¹ alin. (6)"
+          },
+          {
+            "text": "Orice firmă interesată sau reprezentanții statului pot iniția extragerea, fără acordul proprietarului",
+            "major": true,
+            "article": "art. 30¹ alin. (1)"
+          },
+          {
+            "text": "Nicio procedură competitivă pentru depozitele statului sau ale UAT-urilor",
+            "major": true,
+            "article": "art. 30¹ alin. (1)"
+          },
+          {
+            "text": "Nu se spune cui aparțin materialele recuperate",
+            "major": true,
+            "article": "art. 30¹ alin. (1)"
+          },
+          {
+            "text": "Nu e clar ce devin obligațiile de post-închidere ale fostului titular",
+            "major": true,
+            "article": "art. 30¹ alin. (1)"
+          },
+          {
+            "text": "Relația dintre inițiator, titular și operatorul care răspunde nu e precizată",
+            "major": true,
+            "article": "art. 30¹ alin. (1), (5)-(6)"
+          },
+          {
+            "text": "Se aplică și „altor materiale valorificabile”, nu doar materiilor prime critice",
+            "major": false,
+            "article": "art. 30¹ alin. (1)"
+          },
+          {
+            "text": "Datele istorice ajung singure pentru identificarea depozitului, fără caracterizare recentă",
+            "major": false,
+            "article": "art. 30¹ alin. (1)"
+          },
+          {
+            "text": "Condițiile de la lit. b) și c) sunt declarative; orice extragere reduce deșeurile",
+            "major": false,
+            "article": "art. 30¹ alin. (4)"
+          },
+          {
+            "text": "Nu se mai cere explicit dovada avizelor de ape și siguranță",
+            "major": false,
+            "article": "art. 30¹ alin. (4)"
+          },
+          {
+            "text": "Două registre paralele, niciunul public; pentru RNDPR nu se spune ce conține",
+            "major": false,
+            "article": "art. 30³; art. II alin. (6) din OUG 61/2025"
+          }
+        ],
+        "good": [
+          {
+            "text": "Operatorul răspunde pentru efectele contaminării istorice reexpuse prin extragere",
+            "major": true,
+            "article": "art. 30¹ alin. (5)"
+          },
+          {
+            "text": "Operatorul reface pe cheltuiala sa perimetrul de extragere și asigură monitorizarea",
+            "major": true,
+            "article": "art. 30¹ alin. (6)"
+          },
+          {
+            "text": "Audit tehnic și de mediu independent în fiecare an",
+            "major": true,
+            "article": "art. 30¹ alin. (10)"
+          },
+          {
+            "text": "Fără pierderi nete de biodiversitate; compensări dacă impactul e semnificativ",
+            "major": true,
+            "article": "art. 30¹ alin. (11)"
+          },
+          {
+            "text": "Pentru halde și iazuri: aviz ANRMPSG obligatoriu, iar activitatea minieră plătește redevențe",
+            "major": true,
+            "article": "art. II alin. (7)-(8) din OUG 61/2025"
+          },
+          {
+            "text": "Raport anual către Ministerul Economiei și trasabilitate digitală a materiilor extrase",
+            "major": false,
+            "article": "art. 30¹ alin. (8)-(9)"
+          },
+          {
+            "text": "Caracterizarea materialelor extrase doar în laboratoare acreditate SR EN ISO/IEC 17025",
+            "major": false,
+            "article": "art. 30¹ alin. (2) lit. h)"
+          },
+          {
+            "text": "Evaluarea impactului asupra mediului după Legea 292/2018 rămâne filtrul real",
+            "major": false,
+            "article": "art. 30¹ alin. (4) lit. a)"
+          },
+          {
+            "text": "Deșeurile rămase se gestionează după lege; dispare formula deschisă „alte soluții tehnice”",
+            "major": false,
+            "article": "art. 30¹ alin. (6) lit. b)"
+          },
+          {
+            "text": "Documentația arată perimetrul, destinația fiecărei fracții și procentul estimat de valorificare",
+            "major": false,
+            "article": "art. 30¹ alin. (2) lit. e)-f)"
+          },
+          {
+            "text": "Monitorizarea post-intervenție include teledetecție periodică pentru tasări și eroziune",
+            "major": false,
+            "article": "art. 30¹ alin. (7)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 49,
+        "removed": 25,
+        "same": 0.02
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:46:45.923Z"
+    }
+  ]
+}

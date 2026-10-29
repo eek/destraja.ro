@@ -1,0 +1,97 @@
+{
+  "slug": "plx-63-2026",
+  "billId": "PL-x 63/2026",
+  "updatedAt": "2026-10-29T12:30:09.270Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L615FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Statul poate opri plățile din fondurile agricole UE când auditorii găsesc probleme",
+      "summaryTlDr": "Este o măsură tehnică cerută de Bruxelles. Scopul ei este evitarea corecțiilor financiare, care se plătesc din bugetul național, deci e utilă în principiu. Riscul însă trece pe fermieri: plățile lor pot fi oprite pe baza unor constatări pe care nu le-au putut discuta, iar din textul disponibil nu reies garanții de termen sau de notificare.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/60/3/se56.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Fonduri agricole UE: plăți oprite și bani ceruți înapoi după audituri",
+      "summaryTlDr": "Lege tehnică, cerută de auditorii Comisiei Europene. Dă statului un temei clar ca să oprească plăți și să recupereze bani dați greșit din fondurile agricole europene. E utilă pentru a evita corecții plătite din buget, dar fermierii pot rămâne cu plăți blocate fără garanții procedurale explicite.",
+      "scores": {
+        "agy": 5,
+        "claude": 3,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat OUG 79/2025 fără modificări; diferențele față de forma inițială sunt doar de formă",
+      "summary": "Senatul a aprobat ordonanța exact cum a propus-o Guvernul. Acum textul precizează doar data OUG și Monitorul Oficial în care a apărut. Riscurile rămân: plăți oprite pe baza unor constatări de audit nepublice, fără un termen-limită vizibil.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Plăți oprite pe baza unor constatări de audit acceptate intern, fără participarea fermierului",
+            "major": true,
+            "article": "art. unic"
+          },
+          {
+            "text": "Nu reies durata maximă a suspendării, notificarea motivată și reluarea plății",
+            "major": true,
+            "article": "art. unic"
+          },
+          {
+            "text": "Se aplică tuturor intervențiilor PS 2023-2027 și auditurilor Curții de Conturi, nu doar IS-V-01",
+            "major": true,
+            "article": "art. unic"
+          },
+          {
+            "text": "Ordonanța e în vigoare din 19.12.2025, deci mecanismul se aplică deja",
+            "major": false,
+            "article": "art. unic"
+          }
+        ],
+        "good": [
+          {
+            "text": "Recuperarea urmează OUG 66/2011, cu constatare, titlu de creanță și drept de contestare",
+            "major": true,
+            "article": "art. unic"
+          },
+          {
+            "text": "Nu introduce taxe sau sancțiuni noi",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Temei legal explicit pentru oprirea plăților și recuperarea sumelor plătite necuvenit",
+            "major": false,
+            "article": "art. unic"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:29:34.134Z"
+    }
+  ]
+}

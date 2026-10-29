@@ -1,0 +1,19 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+CAMERA DEPUTAȚILOR
+
+# LEGE pentru completarea art. 729 din Legea nr. 134/2010 privind Codul de procedură civilă
+
+Parlamentul României adoptă prezenta lege
+
+Articol unic – La articolul 729 din Legea nr. 134/2010 privind Codul de procedură civilă, republicată în Monitorul Oficial al României, Partea I, nr. 247 din 10 aprilie 2015, cu modificările și completările ulterioare, după alineatul (2) se introduce un nou alineat, alin. (2¹), cu următorul cuprins:
+
+„(2¹) Prin derogare de la alin. (2), în cazul în care venitul lunar net al debitorului este mai mic sau egal cu 5.000 de lei, dacă sunt mai multe urmăriri asupra aceleiași sume, urmărirea nu poate depăși 30% din venitul lunar net al debitorului, indiferent de natura creanțelor, în afară de cazul în care legea prevede altfel."
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.
+
+Președintele Senatului
+
+Președintele Camerei Deputaților

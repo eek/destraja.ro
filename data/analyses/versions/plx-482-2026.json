@@ -1,0 +1,109 @@
+{
+  "slug": "plx-482-2026",
+  "billId": "PL-x 482/2026",
+  "updatedAt": "2026-10-29T13:10:45.326Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L286FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Pedepse mai mari pentru cine agresează sau amenință un notar",
+      "summaryTlDr": "Lege scurtă și în esență benignă: notarii publici primesc aceeași protecție penală sporită pe care art. 279 o dă deja judecătorilor, procurorilor și avocaților. Problemele sunt de tehnică legislativă. Condiția proprie a noului alineat se suprapune peste cele din alin. (1)-(3), iar formula finală tratează greșit legea ca ordinară.",
+      "scores": {
+        "agy": 4,
+        "claude": 2,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/80/2/se537.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Cine agresează un notar va fi pedepsit ca pentru agresarea unui judecător",
+      "summaryTlDr": "Lege scurtă, tehnică și în esență rezonabilă: amenințarea, lovirea sau vătămarea unui notar, în timpul activității sau din cauza ei, se pedepsește cu limite majorate cu jumătate, ca la magistrați. Formularea trebuie totuși clarificată, ca notarul să nu ajungă mai protejat decât judecătorul.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Adoptată acum ca lege organică; protecția notarilor prin ultraj judiciar rămâne aceeași",
+      "summary": "Textul care pedepsește mai aspru agresarea notarilor a rămas identic, deci pentru cetățeni și firme nu se schimbă nimic. Senatul l-a adoptat însă ca lege organică (art. 76 alin. (1) din Constituție), cum cer infracțiunile și pedepsele, ceea ce înlătură un risc de neconstituționalitate.",
+      "changes": [
+        {
+          "title": "Votat acum ca lege organică, cu majoritate absolută",
+          "text": "Formula de adoptare trimite acum la art. 76 alin. (1) din Constituție (lege organică), nu la alin. (2). Scade riscul de neconstituționalitate; regulile pentru cetățeni rămân aceleași.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": null,
+          "before": "Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 alin. (1) și art. 76 alin. (2) din Constituția României, republicată.",
+          "after": "Acest proiect de lege a fost adoptat de Senat, în ședința din 15 iunie 2026, cu respectarea prevederilor articolului 76 alineatul (1) din Constituția României, republicată.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Notarii primesc majorare cu jumătate, mai mult decât funcționarii protejați prin ultraj (art. 257)",
+            "major": true,
+            "article": "art. 279 alin. (5) CP"
+          },
+          {
+            "text": "Neclar ce condiții din alin. (1)-(3) se aplică, inclusiv scopul de intimidare",
+            "major": true,
+            "article": "art. 279 alin. (5) CP"
+          },
+          {
+            "text": "„Atribuții de serviciu” nu se potrivește notarului, funcție autonomă, neangajată",
+            "major": false,
+            "article": "art. 279 alin. (5) CP"
+          },
+          {
+            "text": "Expunerea de motive nu are date despre agresiuni și nu arată de ce art. 257 nu ajunge",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Protecție penală mai puternică pentru notari, după modelul existent pentru avocați",
+            "major": true,
+            "article": "art. 279 alin. (5) CP"
+          },
+          {
+            "text": "Adoptat ca lege organică, cum cer infracțiunile și pedepsele",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Fără avize, taxe sau obligații noi pentru cetățeni ori IMM-uri",
+            "major": false,
+            "article": null
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 3,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:10:31.077Z"
+    }
+  ]
+}

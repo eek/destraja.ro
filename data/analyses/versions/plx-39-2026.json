@@ -1,0 +1,102 @@
+{
+  "slug": "plx-39-2026",
+  "billId": "PL-x 39/2026",
+  "updatedAt": "2026-10-29T12:27:04.854Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L613FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Impozit pe mașină după norma de poluare și taxe locale pe 2026 votate contra cronometru",
+      "summaryTlDr": "O reparație de urgență prezentată drept „corelări tehnice”, care face mai mult: fixează impozitul auto după cilindree și norma Euro, trimite taxele locale neindexate direct la plafonul maxim și sancționează bugetele locale prin sistarea transferurilor. Termenul de 13 zile a făcut transparența decizională practic imposibilă, iar aprobarea contează acum mai ales pentru ce rămâne permanent în Codul fiscal.",
+      "scores": {
+        "agy": 7,
+        "claude": 5,
+        "codex": 6
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/30/9/se32.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Taxele locale pe 2026 votate în grabă și impozitul auto legat de norma de poluare",
+      "summaryTlDr": "Este o ordonanță „de pompieri” care a salvat calendarul taxelor locale pe 2026 după întârzierea Legii 239/2025 la CCR. Urgența a trecut, dar în Codul fiscal rămân reguli scrise doar pentru 2025–2026, nivelul maxim aplicat automat contribuabililor acolo unde consiliul nu a indexat și sancțiuni bugetale care lovesc primăriile pentru o întârziere de comunicare.",
+      "scores": {
+        "agy": 7,
+        "claude": 5,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat ordonanța fără schimbări: impozitul auto mai mare și taxele maxime rămân",
+      "summary": "Senatul a aprobat ordonanța fără modificări de fond. A corectat doar numărul greșit al ordonanței (28 în loc de 78) și a adăugat datele publicării. Rămân impozitul auto mai mare, reducerea opțională pentru hibride și nivelurile maxime ale taxelor locale.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Impozit regresiv: peste dublu la mașini mici, aproape neschimbat la cele mari",
+            "major": true,
+            "article": "art. I pct. 2 (art. 470 alin. 2 C. fiscal)"
+          },
+          {
+            "text": "Poluarea contează puțin: între cea mai poluantă coloană și hibride, doar ~14–18%",
+            "major": true,
+            "article": "art. I pct. 2 (art. 470 alin. 2 C. fiscal)"
+          },
+          {
+            "text": "Reducerea pentru hibride nu mai e garantată: cel mult 30%, la decizia consiliului",
+            "major": true,
+            "article": "art. I pct. 3 (art. 470 alin. 3 C. fiscal)"
+          },
+          {
+            "text": "Scutirile la impozitul pe teren se pierd dacă plata pe anul trecut a întârziat",
+            "major": true,
+            "article": "art. I pct. 1 (art. 464 alin. 3 C. fiscal)"
+          },
+          {
+            "text": "Dacă consiliul nu a indexat taxele în 2025, se aplică automat nivelurile maxime",
+            "major": true,
+            "article": "art. I pct. 5 (art. 491 alin. 1 C. fiscal)"
+          },
+          {
+            "text": "Text ambiguu: nu e clar dacă nivelurile maxime le aplică consiliul sau primăria",
+            "major": false,
+            "article": "art. I pct. 5 (art. 491 alin. 1 C. fiscal)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Impozitul auto ține cont și de norma de poluare, pe cinci categorii",
+            "major": true,
+            "article": "art. I pct. 2 (art. 470 alin. 2 C. fiscal)"
+          },
+          {
+            "text": "Legea de aprobare citează acum corect ordonanța nr. 78/2025 și publicarea ei",
+            "major": false,
+            "article": "art. unic"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:27:03.423Z"
+    }
+  ]
+}

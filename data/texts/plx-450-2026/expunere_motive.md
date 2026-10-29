@@ -1,0 +1,282 @@
+# EXPUNERE DE MOTIVE
+
+## I. Context și fundament
+
+Agricultura țărănească din România reprezintă, în cifre, unul dintre cele mai mari potențiale agricole ale Uniunii Europene, dar și unul dintre cele mai vulnerabile sectoare. Conform datelor Eurostat (Farm Structure Survey, 2023):
+
+\- România deține 33% din totalul exploatațiilor agricole ale UE, însă peste 90% dintre acestea sunt gospodării sub 5 hectare;
+
+\- Peste 2,9 milioane de persoane lucrează în agricultură la nivel național, însă venitul mediu pe exploatație este de peste 5 ori mai mic decât media UE;
+
+\- Mai puțin de 1% din producția fermelor mici ajunge direct la consumatori, restul fiind vândut prin piețe angro, intermediari sau procesatori.
+
+În paralel, sondajele INS și Eurobarometru arată că:
+
+\- 64% dintre românii din mediul urban declară că ar cumpăra regulat produse locale dacă ar avea acces facil și predictibil;
+
+\- 7 din 10 consumatori nu au încredere deplină în etichetele din supermarket, preferând contactul direct cu producătorul.
+
+Acest decalaj între potențial și realitate este amplificat de:
+
+\- lipsa unor lanțuri scurte de aprovizionare bine reglementate;
+
+\- birocrația fiscală disproporționată față de volumul de activitate al micilor fermieri;
+
+\- dependența de intermediari, care pot reduce venitul net al producătorului cu 30–50%;
+
+\- migrația forței de muncă din mediul rural, cauzată de lipsa stabilității financiare.
+
+România deține 14,6 milioane hectare teren agricol, dintre care peste 3,4 milioane hectare sunt exploatate de gospodării individuale și ferme mici (sub 15 hectare). Conform datelor Eurostat (2024), 91% din exploatațiile agricole din România se încadrează în categoria „ferme familiale mici”, dar acestea generează doar aproximativ 25% din valoarea producției agricole vândute, din cauza accesului limitat la piețe, prețurilor volatile și dependenței de intermediari.
+
+De asemenea, 57% din micii producători nu au acces constant la piețe urbane, iar peste 40% își vând produsele în mod ocazional, prin canale informale sau la prețuri impuse de intermediari. Acest lucru conduce la:
+
+\- instabilitate economică pentru gospodării;
+
+\- migrarea forței de muncă rurale;
+
+\- abandonul terenurilor (aprox. 400.000 ha neutilizate anual);
+
+\- pierderea biodiversității și a soiurilor tradiționale.
+
+Pe de altă parte, consumatorii urbani reclamă lipsa accesului la produse locale proaspete, sigure și trasabile, într-un context în care peste 65% din fructele și legumele din comerț provin din import (INS, 2023).
+
+## II. Modelul propus și experiența europeană
+
+Modelul de Agricultura Susținută de Comunitate este inspirat din concepte funcționale în alte state membre UE:
+
+\- Franța: „Association pour le maintien d'une agriculture paysanne” este reglementată prin Codul rural și pescăresc, articolele L.1–L.600-1, cu recunoaștere juridică și fiscală clară;
+
+\- Germania: „Solidarische Landwirtschaft” este sprijinită prin scheme de dezvoltare rurală și beneficiază de scutiri fiscale pentru activități non-comerciale directe;
+
+\- Italia: cooperativele agricole de proximitate sunt susținute prin art. 1 alin. (4) din Legea 244/2007, fiind încurajată livrarea directă pe baza abonamentelor sezoniere.
+
+În toate aceste cazuri, legiuiitorul a recunoscut explicit:
+
+\- caracterul necomercial clasic al relației, bazată pe solidaritate, nu pe specula comercială;
+
+\- necesitatea unui contract simplificat, adaptat producătorului mic;
+
+\- importanța predictibilității veniturilor pentru fermieri și a siguranței alimentare pentru consumatori.
+
+Avantajele modelului:
+
+\- Predictibilitate financiară pentru fermier (venit stabil, fără presiunea intermediarilor);
+
+\- Planificare eficientă a culturilor;
+
+\- Reducerea risipei alimentare (cantitățile sunt stabilite în avans);
+
+\- Relație directă producător-consumator, bazată pe încredere și transparență.
+
+În Franța, conform Codului rural și pescăresc, parteneriatele agricole de tip AMAP (echivalent ASC) sunt recunoscute juridic și sprijinite
+
+## III. Compatibilitate cu dreptul Uniunii Europene
+
+Propunerea legislativă se aliniază integral cadrului normativ european:
+
+1\. Regulamentul (UE) nr. 1305/2013 – recunoaște lanțurile scurte și piețele locale drept instrumente-cheie pentru coeziunea teritorială și competitivitatea durabilă;
+
+2\. Regulamentul (UE) nr. 2021/2115 – stabilește că sprijinul PAC poate include finanțarea pentru formarea de parteneriate directe producător–consumator;
+
+3\. Strategia „De la fermă la consumator” (Farm to Fork) – încurajează reducerea intermedierii, creșterea consumului de produse locale și diminuarea risipei alimentare;
+
+4\. Pactul Verde European – susține practicile agricole cu impact redus asupra mediului și cu valoare socială ridicată;
+
+5\. Jurisprudența CJUE (cauza C-171/11 Fra.bo) – permite statelor membre să reglementeze forme specifice de comerț local fără a încălca libertățile fundamentale, dacă scopul este protejarea sănătății publice, mediului și coeziunii sociale.
+
+## IV. Probleme identificate în lipsa unei reglementări
+
+Fără un cadru legislativ clar:
+
+\- Producătorii nu au siguranța livrărilor și a plăților anticipate;
+
+\- Consumatorii nu au garanția originii și a calității produselor;
+
+# ROMÂNIA
+
+\- Se pot infiltra distribuitori sau revânzători care nu produc efectiv, dar profită de lacunele legale;
+
+\- Nu există standarde minime de siguranță alimentară aplicabile în mod uniform;
+
+\- Autoritățile nu pot monitoriza fenomenul și nu pot include aceste parteneriate în strategii locale.
+
+\- Risc de sancțiuni pentru „comercializare informală” în contextul intensificării controalelor fiscale, mai ales într-un climat bugetar tensionat (deficit bugetar peste 5,9% din PIB în 2024 conform Eurostat).
+
+## V. Obiectivele propunerii
+
+Legea urmărește:
+
+1\. Definirea și recunoașterea legală a parteneriatelor comunitare pentru susținerea agriculturii țărănești;
+
+2\. Stabilirea unui contract-cadru adaptat legislației naționale și compatibil cu dreptul Uniunii Europene;
+
+3\. Asigurarea trasabilității și siguranței alimentare fără împovărarea fermelor mici cu formalități disproporționate;
+
+4\. Protecția pârților implicate împotriva abuzurilor și a rezilierilor intempestive;
+
+5\. Stimularea consumului de produse locale și reducerea dependenței de importuri;
+
+6\. Susținerea mediului rural prin menținerea locurilor de muncă și reducerea migrației.
+
+## VI. Impact
+
+## Impact agricol:
+
+\- Creșterea venitului net al micilor fermieri cu 20–35% prin eliminarea intermediarilor;
+
+\- Planificarea producției pe termen mediu, reducând abandonul culturilor.
+
+## Impact economic și social
+
+Potrivit unui studiu FAO (2022), fermierii implicați în parteneriate CSA/ASAT obțin, în medie, o creștere cu 25-40% a veniturilor nete comparativ cu vânzările pe piața angro. În același timp, consumatorii raportează economii de 10-15% față de prețurile din comerț pentru produse similare, în condițiile unei calități superioare și a trasabilității garantate.
+
+Dacă doar 1% dintre gospodăriile individuale și fermele mici din România ar intra într-un sistem ASC formalizat, estimăm:
+
+\- venit suplimentar de 150-200 milioane lei anual pentru producători;
+
+\- creșterea consumului de produse locale cu peste 20.000 tone/an;
+
+\- reducerea risipei alimentare cu aproximativ 8.000 tone/an;
+
+\- păstrarea activă a peste 5.000 locuri de muncă în mediul rural.
+
+Dacă 25–50% din gospodăriile din România (\~6,75 mil. gospodării – INS 2025) ar intra într-un sistem ASC, pe baza unui coș mediu de 90 lei pe săptămână pe durata a 40 de săptămâni pe an, ar rezulta între 6,1 și 12,2 mld. lei/an direct către producători.
+
+Prin eliminarea intermediarilor, venitul net al fermierilor crește cu \~4,6-9,1 mld. lei/an față de lanțul lung.
+
+## Impact asupra bugetului de stat
+
+Aplicarea prezentei reglementări nu generează impact bugetar negativ, întrucât nu instituie cheltuieli publice și nu creează obligații financiare în sarcina bugetului de stat, ci exclusiv mecanisme prin care veniturile realizate de producători devin declarabile și impozabile potrivit normelor de venit stabilite anual prin ordin al ANAF, publicat în Monitorul Oficial. În consecință, baza de impunere rămâne una fixă și predictibilă pentru administrația fiscală, independent de fluctuația volumului comercial, ceea ce conferă statului certitudine fiscală și stabilitate de colectare.
+
+Pe baza valorilor medii naționale regăsite în tabelele ANAF pentru activități agricole (de exemplu, pentru producția de cereale – 200 lei/ha, respectiv pentru ovine – 20 lei/cap), aplicate unui scenariu conservator al dimensiunii exploatațiilor participante (3 hectare în cazul vegetal și 50 capete în cazul mixt vegetal-zootehnic), obligația fiscală rezultată este de aproximativ 60 lei/an per producător în cazul exclusiv vegetal, respectiv de aproximativ 160 lei/an per producător în cazul mixt.
+
+Chiar raportat la un număr redus de participanți, încasările bugetare rezultate depășesc un nivel minim verificabil: la 10.000 de producători, între 0,6 milioane și
+
+1,6 milioane lei/an; la 25.000 de producători, între 1,5 milioane și 4 milioane lei/an; la 50.000 de producători, între 3 milioane și 8 milioane lei/an; iar la 100.000 de producători, între 6 milioane și 16 milioane lei/an. Aceste valori sunt obținute fără a lua în calcul alte surse fiscale suplimentare (TVA, impozit micro/CIT, contribuții sociale) care ar putea rezulta în funcție de opțiunile de înregistrare ale producătorilor și ale operatorilor de rețele.
+
+Este esențial de menționat că cifrele de mai sus reprezintă un scenariu de intrare foarte conservator, utilizat exclusiv pentru demonstrarea caracterului favorabil și predictibil al prezentei intervenții pentru bugetul de stat. În ipotezele unei adopții extinse, proporțional cu arhitectura legii și cu potențialul de scalare al parteneriatelor locale, încasările fiscale cresc corespunzător, menținând același mecanism de determinare pe baza normelor de venit aprobate anual de ANAF.
+
+## Mediu:
+
+\- Reducerea transportului și a emisiilor de CO₂ cu 10–20% față de lanțurile lungi de aprovizionare;
+
+\- Diminuarea utilizării ambalajelor de unică folosință prin livrări în ambalaje reutilizabile.
+
+## VII. Concluzie
+
+Această lege nu creează privilegii, ci stabilește un cadru de încredere reciprocă între producători și consumatori. Este o reglementare conformă cu dreptul european, fundamentată pe experiența altor state, adaptată realităților din România.
+
+Adoptarea sa va însemna:
+
+\- Venit stabil pentru fermier;
+
+\- Acces garantat la hrană locală și curată pentru consumator;
+
+\- Protecția patrimoniului agricol și culinar românesc;
+
+\- Creșterea rezilienței alimentare a comunităților.
+
+## INIȚIATOR:
+
+Deputat AUR Laura Gherasim
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege privind reglementarea parteneriatelor comunitare pentru susținerea agriculturii țărănești (ASC - Agricultura Susținută de Comunitate) și completarea Legii nr. 321/2009 privind comercializarea produselor alimentare
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1. | Simion GEORGE NICOLAE | AUR |  |
+| 2. | Apofoș EVENA | AUR |  |
+| 3. | 90șcetșu PETRE | AUR |  |
+| 4. | PARASCHIN CIPRIJN | AUR |  |
+| 5. | IOSOB COSMIN TEODOR | AUR |  |
+| 6. | Vulpoiu Dorel | AUR |  |
+| 7. | Popovki FCORIN CORNEE | AUR |  |
+| 8. | IACAR MONICN | AUR |  |
+| 9. | PAPESAU ANTONIO GABI | AUR |  |
+| 10. | COLEȘĂ IÀIE-ALIN | AUR |  |
+| 11. | PASCARIU MIHAI-COSMIN | AUR |  |
+| 12. | SERBAN GIAMINA | AUR |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege privind reglementarea parteneriatelor comunitare pentru susținerea agriculturii țărănești (ASC - Agricultura Susținută de Comunitate) și completarea Legii nr. 321/2009 privind comercializarea produselor alimentare
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td>Semnătura</td></tr>
+<tr><td>13</td><td>BORDIAN ALEXANARU</td><td>AOR</td><td rowspan="12"></td></tr>
+<tr><td>16.</td><td>Constantimeseu Dmdi2 cloudia</td><td>AUR</td></tr>
+<tr><td>15.</td><td>MITREA DUMITGINA</td><td>AUR</td></tr>
+<tr><td>16.</td><td>BAAEA NELU VALENTIN</td><td>AUR</td></tr>
+<tr><td>17.</td><td>TILEA STRD</td><td>AUR</td></tr>
+<tr><td>18.</td><td>NEGOESCU MIHAI BOGDAN</td><td>AUR</td></tr>
+<tr><td>19.</td><td>GHEORGHE IONEL</td><td>AUR</td></tr>
+<tr><td>20.</td><td>DĂSCĂLU CRISTINA EN MANUELA</td><td>AUR</td></tr>
+<tr><td>21.</td><td>CIO2NRI DANIEL-CHATLIN</td><td>AUR</td></tr>
+<tr><td>22.</td><td>Lucieu Floriu PUSCAȘU</td><td>AUR</td></tr>
+<tr><td>23.</td><td>MIMDRESCU MIC</td><td>AUR.</td></tr>
+<tr><td>24.</td><td>BARSAN TIBOW</td><td>AUR</td></tr>
+</tbody>
+</table>
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege privind reglementarea parteneriatelor comunitare pentru susținerea agriculturii țărănești (ASC - Agricultura Susținută de Comunitate) și completarea Legii nr. 321/2009 privind comercializarea produselor alimentare
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td rowspan="13">Semnătura</td></tr>
+<tr><td>25.</td><td>GURLU 3'liviuOCONIAN</td><td>AUR</td></tr>
+<tr><td>26.</td><td>Prisau loneliu</td><td>AUR</td></tr>
+<tr><td>27.</td><td>VADIH - VUBOR LIDIA</td><td>AUR</td></tr>
+<tr><td>28.</td><td>BADIU GEORQOL</td><td>AUR</td></tr>
+<tr><td>29.</td><td>Heqreu Petro-Gabri</td><td>AUR</td></tr>
+<tr><td>30.</td><td>ENACHE DIANA</td><td>AUR</td></tr>
+<tr><td>31.</td><td>OAN CRASilviu</td><td>AUR</td></tr>
+<tr><td>32.</td><td>HRISTU COSMIN</td><td>AUR</td></tr>
+<tr><td>33.</td><td>MiHAESCU MUGUR</td><td>AUR</td></tr>
+<tr><td>34.</td><td>ATETION AAXI</td><td>AUR</td></tr>
+<tr><td>35.</td><td>ENACHE MIHAIADRIKH</td><td>AUR</td></tr>
+<tr><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege privind reglementarea parteneriatelor comunitare pentru susținerea agriculturii țărănești (ASC - Agricultura Susținută de Comunitate) și completarea Legii nr. 321/2009 privind comercializarea produselor alimentare
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1. | PEIU PETRÎPOR - GABRIEÇ | AUR |  |
+| 2. | PLOEȘU LAUREAU | AUR. |  |
+| 3. | IACOB C. CIPRIAN | A.UR. |  |
+| 4. | TUECEAN-FERNANUES LUMINIȘTA | AUR |  |
+| 5. | DUMITRESCU CRISTINA - GABRIELLA | AUR |  |
+| 6. | VASILE MARIAH | AUR |  |
+| 7. | PAAROSEA JEOHE | AUR |  |
+| 8. | Pete Grage CAOI | AUR |  |
+| 9. | STEET MICUANT | AUR |  |
+| 10. | SANDU M. IONUT | AUR |  |
+| 11. | SILIGEORU BOLAN | AUR |  |
+| 12. | Andrei DÎNLAU | AUR |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege privind reglementarea parteneriatelor comunitare pentru susținerea agriculturii țărănești (ASC - Agricultura Susținută de Comunitate) și completarea Legii nr. 321/2009 privind comercializarea produselor alimentare
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 13 | Vlăcen Virgătin | AUR |  |
+| 14 | Cruktig | AUR |  |
+| 15 | STOICA CIPRIAN-TIN | A.U.R. |  |
+| 16 | VLAHU NICOLAE | AUR |  |
+| 17. | ȘİPOS EUGEH-ÇRISTIAN | AUR |  |
+| 18 | DANIGA STEFANESC | AUR |  |
+| 19 | CONSTANDINESOU RODICA | AUE |  |
+| 20. | Lavic Sorin | AUR |  |
+| 21 | ROMAN MARIVS-VALENTIN | AUR |  |
+| 22. | Bareanj Soniuo | AUR |  |
+| 23. | Spau Dumitieu | AUR |  |
+|  | — | — |  |

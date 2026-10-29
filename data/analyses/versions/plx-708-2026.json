@@ -1,0 +1,224 @@
+{
+  "slug": "plx-708-2026",
+  "billId": "PL-x 708/2026",
+  "updatedAt": "2026-10-29T13:35:40.046Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L542FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Căldura din adâncuri pentru termoficare: licențe geotermale direct pentru primării, avize mai rapide, redevențe mai mici",
+      "summaryTlDr": "Lege utilă. Deblochează energia geotermală pentru termoficare, grăbește autorizarea în spiritul regulilor UE pentru regenerabile și nu impune nimic nou pompelor de căldură ale caselor. Are însă o greșeală serioasă de redactare: noua definiție a «titularului» lasă pe dinafară firmele private. Termenele de avizare sunt greu de respectat, iar scutirile de redevență trebuie verificate ca ajutor de stat.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 7
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/700/00/8/se801.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "Căldură din subsol pentru termoficare: reguli, termene și redevențe clare pentru geotermal",
+      "summaryTlDr": "Lege utilă și susținută de aproape toate partidele: dă primăriilor acces la căldura din subsol pentru termoficare, introduce termene maxime de autorizare și redevențe reduse. Textul are însă trimiteri greșite și reformulări care pot lăsa goluri în regulile generale ale Legii minelor, iar acestea trebuie corectate în comisii.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Definiția titularului include acum și firmele private, nu doar UAT-urile și instituțiile publice",
+      "summary": "Forma adoptată de Senat repară definiția titularului, care inițial lăsa pe dinafară firmele private, și renunță la licența de exploatare dată direct UAT-urilor. Acum însă și instituțiile publice pot primi licența de explorare fără concurs, iar avizele au 60 de zile în loc de 30.",
+      "changes": [
+        {
+          "title": "Firmele private pot fi titulari de licențe miniere",
+          "text": "Inițial, art. 3 pct. 34 definea titularul doar ca instituție publică sau UAT, deși art. 13 concesiona activități și firmelor. Acum definiția include persoanele juridice și fizice, române ori străine.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 3 pct. 34",
+          "before": "titular – instituție publică sau unitate administrativ-teritorială, care poate efectua activități miniere, de explorare sau exploatare a energiei geotermale, în baza unei licențe ori a unui permis.",
+          "after": "titular - orice persoană juridică sau fizică, română ori străină, instituție publică sau unitate administrativ, care poate efectua activități miniere în baza unei licențe sau a unui permis;",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Fără licență de exploatare dată direct UAT-urilor",
+          "text": "Excepția care permitea acordarea licenței de exploatare geotermală prin negociere directă UAT-urilor (art. 18 alin. 2¹, art. 19 alin. 1¹) nu mai apare. Art. 20¹ însă trimite încă la ea.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 18 alin. (2¹), art. 19 alin. (1¹)",
+          "before": "licența de exploatare geotermală se poate acorda direct, prin negociere, unităților administrativ-teritoriale, la solicitarea acestora, destinată exclusiv serviciului public de alimentare cu energie termică.",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Licență de explorare fără concurs și pentru instituții publice",
+          "text": "Negocierea directă a licenței de explorare geotermală, rezervată inițial UAT-urilor, se extinde și la instituțiile publice. Tot nu există reguli pentru firmele care au cerut deja perimetrul.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 15 alin. (2¹)",
+          "before": "licența de explorare geotermală se poate acorda direct, prin negociere, unităților administrativ-teritoriale, la solicitarea acestora, destinată exclusiv serviciului public de alimentare cu energie termică.",
+          "after": "licența de explorare geotermală se poate acorda direct, prin negociere, instituțiilor publice și unităților administrativ-teritoriale, la solicitarea acestora, pentru proiecte destinate exclusiv serviciului public de alimentare cu energie termică.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Redevența la circuit închis, doar pe energia valorificată",
+          "text": "Baza redevenței la circuit închis era căldura extrasă din subsol; acum este energia preluată din subsol și valorificată, deci energia nefolosită nu mai intră în calcul.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 3 pct. 27¹",
+          "before": "cantitatea de căldură extrasă din subsol prin intermediul sistemului geotermal în circuit închis, exprimată în MWh",
+          "after": "cantitatea de energie geotermală preluată din subsol și valorificată, exprimată în MWh",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Avizele se emit în 60 de zile, nu 30",
+          "text": "Termenul maxim pentru avize, acorduri și autorizații la explorarea și exploatarea geotermală se dublează. Proiectele așteaptă mai mult, dar autoritățile au mai mult timp pentru verificări.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 15¹ alin. (2), art. 19¹ alin. (2)",
+          "before": "Autoritățile și instituțiile publice competente emit avizele, acordurile și autorizațiile prevăzute de legislația în vigoare în termen de maximum 30 de zile de la data depunerii documentației complete.",
+          "after": "Autoritățile și instituțiile publice competente emit avizele, acordurile și autorizațiile prevăzute de lege în termen de maximum 60 de zile de la data depunerii documentației complete.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Procedura rapidă nu mai cere reinjecția fluidului",
+          "text": "Inițial, procedura specială de la art. 19¹ era doar pentru exploatarea cu reinjecție și circuitul închis. Acum acoperă orice exploatare geotermală pentru valorificarea energiei.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 19¹ alin. (1)",
+          "before": "Pentru activitățile miniere care au ca obiect exclusiv exploatarea geotermală cu reinjecție și exploatarea geotermală în circuit închis se aplică procedura specială prevăzută de prezentul articol.",
+          "after": "Pentru activitățile de exploatare a resurselor geotermale în vederea valorificării energiei geotermale și pentru exploatarea geotermală în circuit închis se aplică procedura specială prevăzută de prezentul articol.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Redevența la circuit închis se calculează la un preț influențabil de titular",
+            "major": true,
+            "article": "art. 45 alin. (1²)"
+          },
+          {
+            "text": "Redevența trimite la pct. 3⁵, care acum definește explorarea, nu producția netă",
+            "major": true,
+            "article": "art. 45 alin. (1¹) lit. a)"
+          },
+          {
+            "text": "Explorare fără concurs: fără limită de suprafață, termen sau protecție pentru cererile firmelor",
+            "major": true,
+            "article": "art. 15 alin. (2¹)"
+          },
+          {
+            "text": "Art. 20¹ trimite la alineate din art. 18 și 19 absente din proiect",
+            "major": false,
+            "article": "art. 20¹"
+          },
+          {
+            "text": "Depășirea termenelor nu are consecințe: nici aprobare tacită, nici sancțiune",
+            "major": false,
+            "article": "art. 15¹, art. 19¹"
+          },
+          {
+            "text": "Pragul de 400 m lipsește din definițiile circuitului închis",
+            "major": false,
+            "article": "art. 3 pct. 3⁴, 3⁹"
+          },
+          {
+            "text": "Definiția titularului scrie „unitate administrativ”, nu „unitate administrativ-teritorială”",
+            "major": false,
+            "article": "art. 3 pct. 34"
+          }
+        ],
+        "good": [
+          {
+            "text": "Firmele private și persoanele fizice pot fi titulari de licențe",
+            "major": true,
+            "article": "art. 3 pct. 34"
+          },
+          {
+            "text": "Pompele de căldură ale caselor rămân în afara Legii minelor",
+            "major": true,
+            "article": "art. 2 alin. (3)"
+          },
+          {
+            "text": "Redevență mai mică pentru fluidul reinjectat (2,5% față de 5%)",
+            "major": true,
+            "article": "art. 45 alin. (1¹)"
+          },
+          {
+            "text": "Scutire de redevență 5 ani pentru UAT-uri și instituții care livrează termoficare publică",
+            "major": true,
+            "article": "art. 45 alin. (1³)"
+          },
+          {
+            "text": "Privați la circuit închis: scutire 5 ani doar cu preț 20% sub media națională",
+            "major": true,
+            "article": "art. 45 alin. (1⁴)"
+          },
+          {
+            "text": "Renunțare fără penalități dacă lipsesc contractele de termoficare; obligațiile de mediu rămân",
+            "major": true,
+            "article": "art. 21²"
+          },
+          {
+            "text": "Licențele existente și procedurile în curs rămân pe regulile vechi",
+            "major": true,
+            "article": "art. III"
+          },
+          {
+            "text": "Autoritatea răspunde în 30 de zile; respingerea trebuie motivată",
+            "major": false,
+            "article": "art. 15²"
+          },
+          {
+            "text": "Termene maxime: avize 60 de zile, concurs 6 luni, total 12 luni",
+            "major": false,
+            "article": "art. 15¹, art. 19¹"
+          },
+          {
+            "text": "Concurs redus la jumătate pentru termoficare de până la 20 MW termici",
+            "major": false,
+            "article": "art. 19¹ alin. (5)"
+          },
+          {
+            "text": "Completarea documentației se cere o singură dată, negocierea durează maximum 90 de zile",
+            "major": false,
+            "article": "art. 20¹"
+          },
+          {
+            "text": "Termenele scurte nu scutesc de regulile de mediu, ape și biodiversitate",
+            "major": false,
+            "article": "art. 15¹ alin. (6), art. 19¹ alin. (7)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 57,
+        "removed": 71,
+        "same": 0.1
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:35:40.046Z"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+pentru modificarea și completarea Legii nr.500/2002 privind finanțele publice, republicată, cu modificările și completările ulterioare
+
+Senatul adoptă prezentul proiect de lege
+
+Articolul I.- Legea nr.500/2002 privind finanțele publice, republicată în Monitorul Oficial al României, Partea I, nr.461 din 31 iulie 2018, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. După articolul 61 se introduce o nouă secțiune, Secțiunea a 5-a: „Dispoziții speciale privind proiectele finanțate din fonduri externe nerambursabile”, cuprinzând articolele 61¹-61⁵, cu următorul cuprins:
+
+## „SECȚIUNEA a 5-a:
+
+Dispoziții speciale privind proiectele finanțate din fonduri externe nerambursabile
+
+Art.61¹.- Regimul distinct al proiectelor cu finanțare externă nerambursabilă
+
+(1) Proiectele finanțate din fonduri externe nerambursabile se supun unui regim bugetar și contabil distinct, în vederea asigurării unei gestiuni financiare flexibile și eficiente a acestor fonduri. În bugetele ordonatorilor principali de credite, proiectele de acest tip se evidențiază separat, prin anexe sau subdiviziuni dedicate, conform clasificației bugetare, și se raportează distinct în execuția bugetară.
+
+(2) Ordonatorii de credite care derulează proiecte cu finanțare externă nerambursabilă au dreptul să aplice, în limita și condițiile prevăzute de prezenta lege, proceduri simplificate de angajare, lichidare, ordonanțare și plată a cheltuielilor aferente acestor proiecte, precum și măsuri derogatorii de la reglementările generale din prezenta lege, acolo unde se prevede expres. Scopul acestor derogări este de a facilita implementarea proiectelor fără a prejudicia legalitatea, regularitatea și conformitatea cheltuirii fondurilor.
+
+(3) Prin derogare de la prevederile art.47 alin.(2) din prezenta lege, creditele bugetare aprobate și alocate pentru un proiect finanțat din fonduri externe nerambursabile pot fi angajate și utilizate pe parcursul a maximum 3 ani bugetari consecutivi, în funcție de perioada de implementare a proiectului. Sumele neutilizate la finele fiecărui exercițiu bugetar se reportează și se utilizează în anul următor cu aceeași destinație, până la finalizarea proiectului, fără a fi anulate de drept la închiderea anului. Ordonatorii principali de credite au obligația de a evidenția în documentația bugetară anuală creditele aferente fiecărui proiect multianual, precum și stadiul utilizării acestora, asigurând că orice reportare corespunde angajamentelor legale ale proiectului și respectă limitele totale aprobate.
+
+(4) Creditele de angajament aferente proiectelor finanțate din fonduri externe nerambursabile se aprobă pentru întreaga durată a proiectului, în limita a 3 ani, conform alin.(3), sau mai mult dacă finanțarea externă acoperă o perioadă mai lungă și este autorizată prin acorduri internaționale ratificate, permițând ordonatorilor de credite să încheie contracte și angajamente legale multianuale în vederea realizării proiectelor. Creditele bugetare anuale aferente acestor proiecte se stabilesc pe baza creditelor de angajament și a graficului de implementare, putând fi actualizate prin legile bugetare anuale fără a depăși valoarea totală aprobată a proiectului.
+
+(5) Prevederile prezentei secțiuni se aplică cu titlu special proiectelor finanțate din fonduri externe nerambursabile, completând dispozițiile generale ale prezentei legi. În cazul unor neconcordanțe între regimul special instituit prin prezenta secțiune și regimul general al finanțelor publice, se vor aplica dispozițiile speciale pentru proiectele externe, în limitele permise de cadrul legal. Orice situații neacoperite în mod expres de prezenta secțiune vor fi supuse prevederilor generale ale Legii nr.500/2002, în măsura în care acestea sunt compatibile cu natura proiectelor cu finanțare externă nerambursabilă.
+
+Art.61².- Flexibilitatea execuției bugetare în cadrul proiectelor externe (virarea creditelor)
+
+(1) În execuția bugetară a proiectelor finanțate din fonduri externe nerambursabile, ordonatorii principali de credite pot efectua virări de credite bugetare - atât credite de angajament, cât și credite bugetare - între articolele de cheltuieli ale aceluiași capitol bugetar aferent proiectului, fără a afecta capitolul și titlul de cheltuieli, în limita a 25% din prevederile bugetare inițiale ale articolului de la care se diminuează creditele. Această virare se poate realiza fără a fi necesară aprobarea prealabilă prin lege de rectificare bugetară, constituind o derogare de la limitele generale stabilite la art.47 alin.(8) și (9) din prezenta lege pentru virările de credite.
+
+(2) Virările efectuate potrivit alin.(1) trebuie justificate prin necesitățile de implementare ale proiectului și nu pot afecta îndeplinirea obiectivelor sau indicatorilor proiectului finanțat. Ordonatorul de credite are obligația de a notifica Ministerul Finanțelor despre efectuarea virărilor permise de prezentul articol, în termen de cel mult 5 zile lucrătoare de la aprobarea acestora, și de a include detalii privind aceste modificări în rapoartele trimestriale și anuale de execuție bugetară.
+
+(3) Nu sunt permise, nici în cadrul proiectelor finanțate din fonduri externe nerambursabile, virările de credite care ar conduce la: depășirea valorii totale aprobate a finanțării proiectului, incluzând contribuția externă și cofinanțarea națională, schimbarea destinației fondurilor între proiecte diferite, finanțarea unor cheltuieli nou introduse care nu au legătură cu proiectul sau nerespectarea condițiilor impuse de finanțatorul extern. Orice modificare substanțială a structurii bugetului proiectului trebuie să fie în conformitate cu acordul de finanțare și, dacă este cazul, aprobată de autoritatea de management a fondurilor externe respective.
+
+(4) În măsura în care legile bugetare anuale sau legile de rectificare stabilesc limite mai generoase pentru virările de credite aferente proiectelor cu finanțare externă nerambursabilă sau derogări suplimentare de la art.47 din prezenta lege, ordonatorii de credite pot aplica prevederile mai favorabile din acele legi, cu respectarea condițiilor și a domeniului de aplicare stabilite de acestea.
+
+## Art.61³.- Bugetarea multianuală a proiectelor finanțate din fonduri externe nerambursabile
+
+(1) Pentru fiecare proiect finanțat din fonduri externe nerambursabile aflat în derulare sau aprobat, ordonatorul principal de credite întocmește și anexează la bugetul său o fișă de buget multianual al proiectului, cu o durată de referință de 3 ani, care cuprinde estimarea creditelor de angajament și a creditelor bugetare necesare pe întreaga perioadă de implementare. Această fișă are caracter orientativ, iar sumele prevăzute pentru anii ulteriori primului an bugetar nu constituie autorizări bugetare definitive, ci proiecții menite să asigure predictibilitatea finanțării proiectului.
+
+(2) Cu toate acestea, în scopul bunei implementări a proiectelor, creditele bugetare aprobate pentru primul an al perioadei de implementare se consideră autorizații bugetare inițiale care se pot întinde, prin reportare conform art.61¹ alin.(3), pe maximum 3 ani, fără a necesita rea-probarea fondurilor necheltuite în anii următori. In fiecare lege bugetară anuală, la secțiunea dedicată proiectelor cu finanțare externă nerambursabilă, se vor evidenția: creditele bugetare alocate pentru anul curent, creditele bugetare rămase de utilizat din anii precedenți (reportate) și creditele de angajament totale aprobate pentru proiect.
+
+(3) În cazul în care durata de implementare a unui proiect depășește 3 ani (de ex: proiecte majore de infrastructură), mecanismul bugetării multianuale se extinde pe toată durata proiectului, însă alocările financiare vor fi planificate pe cicluri de câte 3 ani, reînnoite periodic. La fiecare 3 ani sau la finalizarea proiectului, dacă intervine mai devreme, fișa de buget multianual se actualizează, iar Parlamentul României va fi informat cu privire la stadiul proiectului și necesarul de fonduri pentru perioada următoare.
+
+(4) Creditele bugetare aferente proiectelor finanțate din fonduri externe nerambursabile, neutilizate la finele unui an și reportate potrivit legii, se utilizează în anul următor cu aceeași destinație fără diminuarea acestora la momentul elaborării bugetului pe anul următor. Ministerul Finanțelor verifică includerea corespunzătoare a acestor disponibilități reportate în bugetele ordonatorilor de credite pentru anul următor, astfel încât finanțarea proiectelor să nu sufere sincope.
+
+(5) Ordonatorii principali de credite au obligația ca, la întocmirea propunerilor pentru bugetul anual, să menționeze explicit, în nota de fundamentare, impactul asupra anilor viitori al proiectelor finanțate din fonduri externe nerambursabile pe care le gestionează, evidențiind necesarul de finanțare multianual și gradul în care acesta este acoperit de fonduri externe (contribuția UE) și de cofinanțare națională. Aceste informații vor fi avute în vedere la formularea strategiei fiscal-bugetare și a proiectelor de buget pe termen mediu, astfel încât angajamentele asumate prin proiecte cu finanțare externă să fie sustenabile și corelate cu țintele de deficit bugetar.
+
+## Art.61⁴.- Fondul de Cofinanțare Automatizată
+
+(1) Se înființează Fondul de Cofinanțare Automatizată, ca poziție distinctă în bugetul de stat, gestionat de Ministerul Finanțelor. Acest fond are ca destinație asigurarea rapidă a resurselor financiare necesare:
+
+a) cofinanțării naționale aferente proiectelor finanțate din fonduri externe nerambursabile (contribuția proprie a beneficiarilor publici, acolo unde este cazul, la cheltuielile eligibile);
+
+b) finanțării cheltuielilor neeligibile aferente acestor proiecte (cheltuieli care nu sunt acoperite de finanțarea externă, dar sunt necesare pentru realizarea integrală a obiectivelor proiectului).
+
+(2) Fondul de Cofinanțare Automatizată se alimentează anual prin legea bugetului de stat, cu sume calculate pe baza necesarului agregat de cofinanțare și cheltuieli neeligibile estimat pentru anul bugetar următor, pentru toate proiectele cu finanțare externă nerambursabilă aflate în derulare sau planificate să înceapă. Sumele astfel alocate sunt puse la dispoziția ordonatorilor principali de credite de către Ministerul Finanțelor, din oficiu sau pe bază de cerere justificată, în mod prompt, de regulă, în termen de 5 zile lucrătoare de la solicitare, fără a aștepta rectificarea bugetară. Ministerul Finanțelor poate efectua repartizarea creditelor din acest fond către ordonatorii de credite în tranșe trimestriale sau semestriale, corelate cu graficul de implementare al proiectelor și cu cererile de plată anticipate.
+
+(3) Ordonatorii principali de credite care beneficiază de alocări din Fondul de Cofinanțare Automatizată au obligația de a utiliza aceste sume exclusiv pentru cofinanțarea și cheltuielile neeligibile ale proiectelor pentru care au fost alocate, în conformitate cu bugetele proiectelor și cu prevederile acordurilor/contractelor de finanțare externe. Aceste sume vor fi evidențiate separat în contabilitate și în rapoartele de execuție ale proiectelor, pentru a asigura trasabilitatea utilizării lor.
+
+(4) În situația în care, pentru un anumit proiect, sumele alocate din Fondul de Cofinanțare Automatizată depășesc necesarul efectiv, ordonatorul de credite are obligația de a restitui Ministerului Finanțelor, într-un cont indicat de acesta, diferența neutilizată, în termen de 30 de zile de la constatarea economiei. Sumele restituite reîntregesc Fondul de Cofinanțare Automatizată și pot fi redistribuite altor proiecte, după caz, sau reportate pentru exercițiul bugetar următor, cu aceeași destinație.
+
+(5) Pentru eficiența gestionării fondurilor publice, Ministerul Finanțelor este autorizat să emită norme metodologice privind funcționarea Fondului de Cofinanțare Automatizată, inclusiv criteriile de alocare a sumelor către ordonatorii de credite, procedura de solicitare și repartizare a fondurilor, mecanismele de control și raportare, precum și modul de recuperare a eventualelor sume neutilizate sau utilizate necorespunzător. Aceste norme se aprobă prin hotărâre a Guvernului, la propunerea
+
+Ministerului Finanțelor, în termen de cel mult 60 de zile de la data intrării în vigoare a prezentei legi.
+
+(6) Ministerul Finanțelor va prezenta, în cadrul raportului anual privind execuția bugetară, o secțiune dedicată operațiunilor Fondului de Cofinanțare Automatizată, incluzând sumele alocate și utilizate, defalcate pe ordonatori de credite și proiecte, precum și eventualele economii realizate. Această transparență sporită va permite Parlamentului și publicului să monitorizeze eficiența alocării resurselor pentru cofinanțarea proiectelor cu finanțare externă.
+
+Art.615.- Fluxurile de lichiditate și mecanismele de plată aferente fondurilor externe nerambursabile
+
+(1) Ministerul Finanțelor, prin Trezoreria Statului, asigură managementul proactiv al lichidităților pentru proiectele finanțate din fonduri externe nerambursabile, în scopul prevenirii întârzierilor la plată către beneficiari și al evitării întreruperii fluxurilor financiare ale proiectelor. În acest sens, se instituie următoarele mecanisme speciale de plată:
+
+a) Mecanismul avansului din Trezorerie: La solicitarea ordonatorului principal de credite sau a beneficiarului direct, în cazul în care beneficiarul este o instituție publică subordonată sau o autoritate locală, Ministerul Finanțelor poate acorda, prin Trezoreria Statului, avansuri de lichidități pentru acoperirea temporară a cheltuielilor eligibile ale proiectelor, înainte ca acestea să fie rambursate de către autoritatea finanțatoare externă. Avansul poate fi acordat pentru cheltuieli deja efectuate și validate sau pentru plăți ce urmează a fi efectuate într-un interval imediat, de regulă, cheltuieli planificate în următoarele 30 de zile, pe baza documentației justificative (contracte, situații de lucrări, facturi) și în limita sumelor aprobate pentru proiect;
+
+b) Mecanismul decontării accelerate: Sumele rambursate de către Comisia Europeană sau alți finanțatori externi, prin autoritățile de management/Ministerul Finanțelor, pentru cheltuielile eligibile efectuate în cadrul proiectelor, vor fi transferate de îndată, nu mai târziu de o zi lucrătoare de la încasarea lor în conturile Trezoreriei Statului în conturile beneficiarilor finali ai proiectelor sau ale ordonatorilor de credite responsabili. Aceste transferuri se efectuează automat, fără alte formalități din partea beneficiarilor, pentru a asigura realimentarea rapidă a fluxurilor de numerar ale acestora.
+
+(2) Avansurile de lichidități acordate potrivit alin.(1) lit.a) vor fi regularizate pe măsura primirii fondurilor externe nerambursabile aferente. Regularizarea se va realiza automat: la momentul creditării conturilor Trezoreriei cu sumele rambursate de finanțatorul extern, partea de cheltuieli pentru care s-a acordat avans se reține de către Trezorerie pentru a acoperi avansul acordat, astfel, beneficiarul primește diferența netă dintre suma rambursată și avansul deja primit. În situația în care, din diverse motive, anumite cheltuieli acoperite prin mecanismul avansului nu sunt recunoscute ca eligibile de către finanțatorul extern, recuperarea sumelor respective de la beneficiar se va face conform legislației în vigoare privind gestionarea fondurilor europene, fără a aduce atingere dreptului beneficiarului de a correcta și re-solicita rambursarea acelor cheltuieli dacă este posibil.
+
+(3) Pentru a beneficia de mecanismul avansului din Trezorerie, beneficiarii sau ordonatorii de credite trebuie să îndeplinească condițiile stabilite prin normele metodologice emise de Ministerul Finanțelor, care vor prevedea inclusiv: plafonul maxim al avansului ca procent din valoarea totală a proiectului sau din alocarea anuală, durata maximă a avansului până la rambursare, dar nu mai mult de 180 de zile, cu posibilitatea prelungirii în cazuri justificate, documentele justificative necesare și procedura de aprobare. Acordarea avansurilor se va realiza în limita disponibilităților din conturile de Trezorerie și fără a periclita echilibrul trezorerial al statului; în acest scop, Ministerul Finanțelor poate stabili un plafon global pentru avansurile aflate în circulație la un moment dat.
+
+(4) Sumele reprezentând fonduri externe nerambursabile primite într-un an bugetar curent, dar nerepartizate sau neutilizate integral de beneficiari până la finele acelui an, rămân în conturile de disponibil ale Trezoreriei Statului și se reportează în anul următor, putând fi utilizate direct pentru plăți către beneficiari fără a fi necesară reînnoirea alocației bugetare, aceste sume nu se virează la bugetul de stat la sfârșitul anului, având destinație specială. Ministerul Finanțelor va asigura evidența separată a acestor disponibilități și monitorizarea utilizării lor imediate în anul următor, în conformitate cu destinațiile stabilite.
+
+(5) Orice dobânzi sau alte beneficii financiare obținute din plasarea temporară a disponibilităților de fonduri externe nerambursabile în conturile Trezoreriei vor fi utilizate conform reglementărilor specifice fondurilor respective ,de regulă, pentru finanțarea de cheltuieli eligibile suplimentare sau, dacă nu este permis altfel, virate la bugetul de stat ca venituri. În lipsa unor reglementări specifice, aceste dobânzi se fac venit la bugetul de stat, după deducerea oricăror comisioane bancare aferente.
+
+(6) Ministerul Finanțelor este abilitat să emită instrucțiuni și norme interne pentru aplicarea corespunzătoare a prezentului articol, în colaborare cu autoritățile de management ale programelor finanțate din fonduri externe nerambursabile. Aceste instrucțiuni vor detalia procedurile operaționale între părțile implicate (Trezorerie, ordonatori de credite, beneficiari, autorități de management) și vor stabili indici de performanță pentru a asigura că scopul de accelerare a fluxurilor financiare este atins. Periodic, dar nu mai rar de o dată pe an, Ministerul Finanțelor va evalua eficacitatea mecanismelor de plată instituite și va propune îmbunătățiri, dacă este necesar, inclusiv modificări legislative.
+
+Articolul II.- În termen de 60 de zile de la data intrării în vigoare a prezentei legi, Guvernul, la propunerea Ministerului Finanțelor, va adopta actele normative subsecvente necesare pentru punerea în aplicare a noilor dispoziții, inclusiv hotărârea prevăzută la art.61⁴ alin.(5) privind normele de funcționare a Fondului de Cofinanțare Automatizată și instrucțiunile menționate la art.61⁵ alin.(6) privind fluxurile de lichidități. Până la adoptarea acestor reglementări, Ministerul Finanțelor va lua măsurile organizatorice și administrative preliminare necesare pentru operarea mecanismelor nou introduse (înființarea fondului, pregătirea procedurilor de trezorerie etc.), astfel încât, la expirarea termenului de 60 de zile, prevederile legii să poată fi aplicate integral.
+
+Articolul III.- Prevederile prezentei legi se aplică proiectelor finanțate din fonduri externe nerambursabile aflate în curs de implementare la data intrării în vigoare, precum și celor care vor fi inițiate ulterior. Ordonatorii principali de credite vor actualiza, dacă este cazul, bugetele proiectelor în derulare pentru a le alinia la noile dispoziții, fără însă a modifica indicatorii financiari aprobați prin documentațiile inițiale de finanțare decât cu acordul finanțatorului extern.
+
+Articolul IV.- Prezenta lege se publică în Monitorul Oficial al României, Partea I.
+
+Acest proiect de lege se consideră adoptat de Senat în forma inițială, în condițiile articolului 75 alineatul (2) teza a III-a din Constituția României, republicată.
+
+p. PREȘEDINTELE SENATULUI
+
+MIHAI COTET↓ ↗

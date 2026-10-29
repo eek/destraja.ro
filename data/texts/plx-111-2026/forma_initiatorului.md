@@ -1,0 +1,71 @@
+# LEGE
+
+pentru modificarea și completarea Legii nr. 53/2003 privind Codul muncii
+
+Parlamentul României adoptă prezenta lege
+
+Articol unic – Legea nr. 53/2003 privind Codul muncii, republicată în Monitorul Oficial al României, Partea I, nr. 345 din 18 mai 2011, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+## 1. Articolul 164 se modifică și va avea următorul cuprins:
+
+## „Art. 164
+
+(1) Salariul de bază minim brut pe țară garantat în plată, corespunzător programului normal de muncă, se stabilește prin hotărâre a Guvernului, după consultarea sindicatelor și a patronatelor.
+
+(2) Salariul de bază minim brut pe țară garantat în plată prevăzut la alin. (1) se majorează diferențiat pe criteriile nivelului de vechime, în 5 gradații corespunzătoare tranșelor de vechime în muncă. Tranșele de vechime în muncă în funcție de care se acordă cele 5 gradații, precum și cotele procentuale corespunzătoare acestora, calculate la salariul de baza minim brut avut la data îndeplinirii condițiilor de trecere în gradație și incluse în acesta, sunt următoarele:
+
+a) gradația 1 - de la 3 ani la 5 ani - și se determină prin majorarea salariului de bază minim brut pe țară garantat în plată prevăzut la alin. (1) cu cota procentuală de 10 %, rezultând noul salariu mimim brut;
+
+b) gradația 2 - de la 5 ani la 10 ani - și se determină prin majorarea salariului de bază minim brut avut cu cota procentuală de 7,5 %, rezultând noul salariu de bază mimim brut;
+
+c) gradația 3 - de la 10 ani la 15 ani - și se determină prin majorarea salariului de bază minim brut avut cu cota procentuală de 5 %, rezultând noul salariu de bază mimim brut;
+
+d) gradația 4 - de la 15 ani la 20 de ani - și se determină prin majorarea salariului de bază minim brut avut cu cota procentuală de 2,5%, rezultând noul salariu de bază minim brut;
+
+e) gradația 5 - peste 20 de ani - și se determină prin majorarea salariului de bază minim brut avut cu cota procentuală de 2,5%, rezultând noul salariu de bază minim brut.
+
+(3) Salariul de bază minim brut pe țară garantat în plată prevăzut la alin. (1) se majorează diferențiat pe criteriile de studii prin aplicarea unui coeficient minim de ierarhizare raportat la salariu de bază minim brut pe țară garantat în plată corespunzător nivelului de studii, respective cel stabilit pe fiecare ramură de activitate:
+
+a) un coeficient minim de ierarhizare de 1,00 pentru muncitorii necalificați;
+
+b) un coeficient minim de ierarhizare de 1,20 pentru muncitorii calificați;
+
+c) un coeficient minim de ierarhizare de 1,20 pentru personalul absolvent de Școala profesională absolvită cu diplomă de calificare;
+
+d) un coeficient minim de ierarhizare de 1,20 pentru personalul cu studii liceale;
+
+e) un coeficient minim de ierarhizare de 1,25 pentru personalul cu studii liceale absolvite cu diplomă de bacalaureat;
+
+f) un coeficient minim de ierarhizare de 1,30 pentru personalul cu studii postliceale absolvite cu diplomă de calificare;
+
+g) un coeficient minim de ierarhizare de 1,30 pentru personalul absolvent de Școala de maiștri cu diplomă de calificare;
+
+h) un coeficient minim de ierarhizare de 1,50 pentru personalul cu studii superioare de scurtă durată absolvite cu diplomă de licență;
+
+i) un coeficient minim de ierarhizare de 1,70 pentru personalul cu studii superioare de lungă durată absolvite cu diplomă de licență;
+
+j) un coeficient minim de ierarhizare de 1,80 pentru personalul cu studii superioare de lungă durată absolvite cu diplomă de licență și master în domeniul activității desfășurate;
+
+k) un coeficient minim de ierarhizare de 2,00 pentru personalul cu studii superioare de scurtă durată absolvite cu diplomă de licență și doctorat în domeniul activității desfășurate.
+
+(3¹) Prevederile alin. 3 lit. b) se aplică pentru personalul salarial cu mai mult de 2 ani vechime în specialitate/experiență.
+
+(3²) Prevederile alin. 3 lit. c) – k) se aplică personalului administrativ și de specialitate încadrat în funcții pentru care condiția de pregătire este cea prevăzută pentru fiecare categorie în parte și/sau pentru care fișa postului are o condiție de pregătire sine qua non.
+
+(4) În cazul în care programul normal de muncă este, potrivit legii, mai mic de 8 ore zilnic, salariul de bază minim brut orar se calculează prin raportarea salariului de bază minim brut calculat conform prevederilor alin. (2) și alin. (3) la numărul mediu de ore lunar potrivit programului legal de lucru aprobat.
+
+(5) Toate drepturile și obligațiile stabilite potrivit legii prin raportare la salariul de bază minim brut pe țară garantat în plată se determină utilizând nivelul salariului de bază minim brut pe țară garantat în plată prevăzut la alin. (1), (2) și (3).
+
+(6) Angajatorul nu poate negocia și stabili salarii de bază prin contractul individual de muncă sub salariul de bază minim brut orar stabilit conform prevederilor alin. (4).
+
+(7) Angajatorul este obligat să garanteze în plata un salariu brut lunar cel puțin egal cu salariul de bază minim brut calculat conform prevederilor alin. (2) și (3). Aceste dispoziții se aplică și în cazul în care salariatul este prezent la lucru, în cadrul programului, dar nu poate să își desfășoare activitatea din motive neimputabile acestuia, cu excepția grevei.
+
+(8) Salariul de bază minim brut pe țară garantat în plată este adus la cunoștința salariaților prin grija angajatorului."
+
+## 2. La articolul 260 alineatul (1), după litera u) se introduce o nouă literă, lit. v), cu următorul cuprins:
+
+„v) încălcarea de către angajator a obligației prevăzute la art. 164 alin. (2) și (3) cu amendă de la 5.000 lei la 10.000 de lei pentru fiecare persoană căreia nu i s-au aplicat majorările pe criterii de vechime și studii prevăzute la art. 164 alin. (2) și (3).”
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.
+
+Președintele Camerei Deputaților

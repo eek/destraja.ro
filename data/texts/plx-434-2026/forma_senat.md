@@ -1,0 +1,111 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+## LEGE
+
+# pentru aprobarea Programului național de înot pentru copii
+
+Senatul adoptă prezentul proiect de lege
+
+Art.1.- (1) Se aprobă Programul național de înot pentru copii, denumit în continuare Programul, ca program de interes public național, având ca scop promovarea educației acvatice, a siguranței în mediul acvatic și dezvoltarea armonioasă a copiilor prin activități sportive organizate.
+
+(2) Programul urmărește formarea competențelor de bază în înot, prevenirea accidentelor acvatice și încurajarea unui stil de viață sănătos.
+
+Art.2.- (1) Grupul țintă al Programului este format din:
+
+5 ani;
+
+a) copii înscriși în învățământul preșcolar, începând cu vârsta de
+
+b) elevi înscriși în învățământul primar (de la clasa pregătitoare până la clasa a IV-a inclusiv), care nu dețin competențe de bază de înot, evaluate conform metodologiei;
+
+c) elevi înscriși în învățământul gimnazial (de la clasa a V-a până la clasa a VIII-a inclusiv), care nu au beneficiat de program;
+
+d) elevi cu dizabilități și/sau cerințe educaționale speciale, pentru care înotul figurează ca recomandare medicală, psihologică sau educațională, emisă potrivit reglementărilor legale, pe durata întregului parcurs școlar.
+
+(2) Participarea la Program se realizează cu acordul scris al părinților sau al reprezentanților legali.
+
+(3) Participarea beneficiarilor la Program încetează la momentul dobândirii competențelor de bază de înot, evaluate conform normelor metodologice de aplicare, dar nu mai târziu de completarea intervalului de 24 de luni de participare în program.
+
+(4) Prin excepție de la prevederile alin.(3), elevii cu dizabilități și/sau cerințe educaționale speciale pot beneficia de continuarea activităților în cadrul Programului, în baza unei recomandări medicale, psihologice sau educaționale.
+
+Art.3.- Programul se bazează pe următoarele principii:
+
+a) acces egal și nediscriminare;
+
+b) siguranța participanților;
+
+c) adaptarea activităților la vârstă și la nivelul de dezvoltare al copiilor;
+
+d) cooperarea între autoritățile și instituțiile publice centrale și locale;
+
+e) respectarea standardelor de calitate și securitate în desfășurarea activităților acvaticе.
+
+Art.4.- (1) Programul are caracter educativ, preventiv și formativ și, deși nu urmărește selecția sportivă de performanță, rezultatele pot fi transmise cluburilor sportive cu care există protocoale de colaborare, pentru a sprijini dezvoltarea performanței la copiii cu talent deosebit.
+
+(2) Activitățile desfășurate în cadrul Programului nu afectează curriculumul școlar obligatoriu, dar pot fi incluse în acesta sau pot fi complementare acestuia pe baza unor metodologii specifice aprobate prin ordin al ministrului educației și cercetării.
+
+Art.5.- (1) Programul se implementează la nivel național, prin unități de învățământ, autorități ale administrației publice locale și în parteneriat cu structuri sportive autorizate cu profil specific.
+
+(2) În primii 3 ani de la adoptarea prezentei legi, Programul va funcționa ca program-pilot și se va organiza în cel puțin 5 județe ale României.
+
+## Art.6.- Organizarea activităților
+
+(1) Activitățile din cadrul Programului se desfășoară în bazine de înot autorizate, care respectă normele de siguranță, igienă și sănătate publică în vigoare.
+
+(2) Programul de desfășurare a activităților se stabilește de comun acord între unitățile de învățământ, autoritățile administrației publice locale, operatorii bazelor sportive implicate și, după caz, cluburile sportive cu care există protocoale de colaborare.
+
+## Art.7.- Personalul implicat
+
+(1) Activitățile de inițiere în înot se desfășoară sub coordonarea instructorilor sau antrenorilor de înot calificați, autorizați potrivit legii.
+
+(2) La fiecare activitate participă, în mod obligatoriu, personal de supraveghere și salvare, conform normelor legale în vigoare.
+
+(3) Cadrele didactice însoțitoare au rol de sprijin organizatoric și educativ.
+
+## Art.8.- Siguranța participanților
+
+(1) Siguranța copiilor reprezintă o prioritate în cadrul Programului.
+
+(2) Participarea copiilor este condiționată de prezentarea avizului medical privind aptitudinea pentru activități acvaticie.
+
+(3) Raportul dintre numărul de copii și personalul de specialitate se stabilește prin normele metodologice de aplicare, în funcție de vârstă, nivelul de pregătire și capacitatea autorizată a bazinelor de înot pentru asemenea activități.
+
+## Art.9.- Surse de finanțare
+
+(1) Programul se finanțează din:
+
+a) sume alocate anual de la bugetul de stat, prin bugetul Ministerului Educației și Cercetării;
+
+b) bugetele autorităților administrației publice locale;
+
+c) fonduri externe nerambursabile;
+
+d) sponsorizări și alte surse legal constituite.
+
+(2) Autoritățile administrației publice locale pot contribui la finanțarea cheltuielilor privind transportul, accesul la bazele sportive și activitățile complementare desfășurate în cadrul Programului.
+
+(3) Participarea copiilor la Program este opțională și gratuită.
+
+(4) Standardul minim de finanțare per beneficiar se stabilește anual prin hotărâre a Guvernului, în funcție de resursele bugetare disponibile.
+
+## Art.10.- Coordonarea Programului
+
+(1) Coordonarea Programului se realizează la nivel local de către operatorii bazelor sportive implicate, pe baza unor protocoale încheiate cu instituțiile de învățământ, autoritatea publică locală și cluburile sportive autorizate cu profil specific.
+
+(2) Atribuțiile instituțiilor implicate se stabilesc prin normele metodologice de aplicare.
+
+## Art.11.- Norme metodologice
+
+În termen de 60 de zile de la intrarea în vigoare a actului normativ, Ministerul Educației și Cercetării elaborează și aprobă normele metodologice de aplicare a Programului.
+
+## Art.12.- Intrarea în vigoare
+
+Prezenta lege intră în vigoare la 1 septembrie 2027, începând cu anul școlar 2027/2028.
+
+Acest proiect de lege a fost adoptat de Senat, în ședința din 26 mai 2026, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.
+
+PREȘEDINTELE SENATULUI
+
+MIRCEA ABRUDEAN

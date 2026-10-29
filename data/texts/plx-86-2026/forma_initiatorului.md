@@ -1,0 +1,17 @@
+# Parlamentul României
+
+Camera Deputaților
+
+Senat
+
+LEGE
+
+# pentru completarea art.43 din Legea nr.411/2004 privind fondurile de pensii administrate privat
+
+Parlamentul României adoptă prezenta lege:
+
+Articol unic – După alin.(4) al art.43 din Legea nr.411/2004 privind fondurile de pensii administrate privat, republicată în Monitorul Oficial al României, Partea I, nr.482 din 18 iulie 2007, cu modificările și completările ulterioare, se introduc două alineate noi, alin.(5)-(6), cu următorul cuprins:
+
+(5) În mod opțional, angajatorul poate să vireze sume suplimentare contribuției obligatorii prevăzute la alin.(4), în contul angajatului. Contribuțiile suplimentare sunt deductibile în limita a 150 de euro lunar/participant din impozitul pe profit sau din impozitul pe venitul microîntreprinderilor, potrivit legislației fiscale în vigoare.
+
+(6) Mecanismul prin care se plătesc, se deduc și se evidențiază contribuțiile suplimentare în conturile participanților se stabilește prin normele metodologice, aprobate prin hotărâre a Guvernului, în termen de 60 de zile de la intrarea în vigoare a prezentei legi.

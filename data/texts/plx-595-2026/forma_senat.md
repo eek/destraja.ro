@@ -1,0 +1,56 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+pentru modificarea Legii nr.175/2026 privind instituirea unei scheme de ajutor de stat pentru susținerea activității crescătorilor din sectorul suin, în anul 2026, în contextul crizei din Orientul Mijlociu, precum și a Legii nr. 176/2026 privind instituirea unei scheme de ajutor de stat pentru susținerea activității crescătorilor din sectorul bovin, în anul 2026, în contextual crizei din Orientul Mijlociu
+
+## Senatul adoptă prezentul proiect de lege
+
+Art.I.- Legea nr. 175/2026 privind instituirea unei scheme de ajutor de stat pentru susținerea activității crescătorilor din sectorul suin, în anul 2026, în contextul crizei din Orientul Mijlociu, publicată în Monitorul Oficial al României, Partea I, nr.701 din 24 august 2026, se modifică după cum urmează:
+
+## 1. Articolul 3 se modifică și va avea următorul cuprins:
+
+„Art.3.- Ajutorul de stat prevăzut la art.1 alin.(1) se acordă beneficiarilor, crescători de suine, constituiți conform prevederilor Ordonanței de urgență a Guvernului nr.44/2008 privind desfășurarea activităților economice de către persoanele fizice autorizate, întreprinderile individuale și întreprinderile familiale, aprobată cu modificări și completări prin Legea nr.182/2016, cu modificările și completările ulterioare, ori forma juridică a cooperativelor agricole înființate, organizate și care funcționează potrivit Legii cooperației agricole nr.566/2004. cu modificările și completările ulterioare, sau a Legii nr. 36/1991 privind societățile agricole și alte forme de asociere în agricultură, cu modificările și completările ulterioare, sau persoane juridice constituite potrivit Legii societăților nr.31/1990, republicată, cu modificările și completările ulterioare, care desfășoară activitate de îngrâșare și/sau reproducție a suinelor, în exploatații autorizate sanitar-veterinar conform legislației în vigoare, în perioada 1 martie 2026 - 31 decembrie 2026.”
+
+## 2. La articolul 5, alineatul (5) se abrogă.
+
+## 3. La articolul 7, alineatul (1) se modifică și va avea următorul cuprins:
+
+„Art.7.- (1) Perioada de depunere a cererilor de solicitare a ajutorului de stat pentru sectorul suin și a documentelor justificative prevăzute la art.6 alin.(1) este cuprinsă între data intrării în vigoare a prezentei legi și data de 15 octombrie 2026, inclusiv.”
+
+Art.II.- Legea nr.176/2026 privind instituirea unei scheme de ajutor de stat pentru susținerea activității crescătorilor din sectorul bovin, în anul 2026, în contextual crizei din Orientul Mijlociu, publicată în Monitorul Oficial al României, Partea I, nr. 700 din 24 august 2026, se modifică după cum urmează:
+
+## 1. La articolul 4 alineatul (1), literele a) și c) vor avea următorul cuprins:
+
+„a) la data de 1 martie 2026 dețin minimum 10 capete bovine sau bubaline, astfel cum sunt definite la art.2 lit.b) și c), în exploatație/exploatații cu cod ANSVSA, înregistrate în BND, cu excepția celor din unitățile administrativ-teritoriale din zona montană prevăzute în Planul strategic PAC 2023-2027, aprobat prin Decizia de punere în aplicare a Comisiei din 7 decembrie 2022 de aprobare a planului strategic PAC 2023-2027 al României în vederea unui sprijin din partea Uniunii finanțat de Fondul european de garantare agricolă și de Fondul european agricol pentru dezvoltare rurală, publicate pe site-ul www.madr.ro, „https://pndr.ro/documente/ro/PNS-2023-2027-lista-zonelor eligibile-pentru intervențiile-HNV-ANC-AEC.xlsx”, care dețin minimum 5 capete bovine sau bubaline în exploatație cu cod ANSVSA, înregistrate în BND;
+
+c) existența, la data de 5 octombrie 2026, a cel puțin 75% din efectivul de bovine sau bubaline solicitat în cerere, cu vârsta de minimum 22 de luni la această dată, cu excepția celor care s-au aflat în una dintre următoarele situații: faliment, lichidare, forță majoră sau dețin exploatații supuse restricțiilor sanitare veterinare privind mișcarea animalelor cauzate de bolile prevăzute la art.5 alin.(1) lit. a) din Regulamentul (UE) 2016/429, cu modificările ulterioare;”
+
+## 2. La articolul 4, alineatul (3) va avea următorul cuprins:
+
+„(3) Beneficiarul poate solicita ajutor de stat pentru un număr maxim de animale echivalent cu efectivul de animale deținut la 1 martie 2026.”
+
+## 3. La articolul 6 alineatul (1), litera c) va avea următorul cuprins:
+
+„c) extras din Sistemul național de identificare și înregistrare a animalelor, denumit în continuare SNIIA, din care rezultă efectivul de bovine sau bubaline deținut la data de 1 martie 2026, în exploatația / exploatațiile cu cod ANSVSA, înscrisă /înscrise în cererea de solicitare a ajutorului de stat sau în lipsa acestuia, reprezentanții centrelor județene/locale APIA, respectiv al municipiului București, interoghează SNIIA, la data depunerii cererii de solicitare a ajutorului, cu privire la efectivul de bovine sau bubaline deținut de către beneficiar la data de 1 martie 2026.”
+
+## 4. La articolul 6, alineatul (3) va avea următorul cuprins:
+
+„(3) Perioada de depunere a cererilor de solicitare a ajutorului de stat și a documentelor justificative prevăzute la alin.(1) este cuprinsă între ziua următoare intrării în vigoare a prezentei legi și 15 octombrie 2026, inclusiv.”
+
+5\. La anexa nr.1 „Cerere de solicitare a ajutorului de stat pentru susținerea activității crescătorilor din sectorul bovin, în anul 2026, în contextul crizei din Orientul Mijlociu”, la Secțiunea II.1 și la II.2 „Exploatații cu cod ANSVSA”, se elimină sintagma, „Efectiv de bovine sau bubaline deținut, conform BND anexat, la data solicitării:”
+
+6\. La anexa nr.1 „Cerere de solicitare a ajutorului de stat pentru susținerea activității crescătorilor din sectorul bovin, în anul 2026, în contextul crizei din Orientul Mijlociu”, Secțiunea IV „Lista documentelor atașate cererii de solicitare a ajutorului de stat”, nr. crt.4 va avea următorul cuprins:
+
+| Nr. crt. | Documente atașate cererii de ajutor | Da | Nu | Nu este cazul | Control vizual |
+| --- | --- | --- | --- | --- | --- |
+| ...... | ...... | ...... | ...... | ...... | ...... |
+| „4. | Extras din sistemul național de identificare și înregistrare a animalelor, din care rezultă efectivul de bovine sau bubaline deținut la data de 1 martie 2026 în exploatația/exploatațiile cu cod ANSVSA înscrisă(e) în cerere sau în lipsa acestuia, reprezentanții centrelor județene/locale APIA, respectiv al municipiului București, bifează căsuța în sensul că aceștia au interogat SNIIA, la data depunerii cererii de solicitare a ajutorului, cu privire la efectivul de bovine sau bubaline deținut de către beneficiar la data de 1 martie 2026” | ☐ | ☐ | ☐ | ☐ |
+
+Acest proiect de lege a fost adoptat de Senat în ședința din 16 septembrie 2026, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.
+
+PREȘEDINTELE SENATULUI
+
+MIRCEA ABRUDEAN

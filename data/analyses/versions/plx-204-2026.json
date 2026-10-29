@@ -1,0 +1,224 @@
+{
+  "slug": "plx-204-2026",
+  "billId": "PL-x 204/2026",
+  "updatedAt": "2026-10-29T12:49:25.797Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L032FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Toate site-urile statului trebuie să accepte logarea cu ROeID",
+      "summaryTlDr": "Ideea e bună și necesară: un singur cont pentru toate platformele statului, iar pentru cetățeni folosirea rămâne voluntară. Textul e însă scris neglijent: ADR acreditează după bunul plac operatorii privați, înrolarea biometrică nu are reguli, iar amenzile îi lovesc pe șefii instituțiilor fără ca legea să le dea bani pentru integrare.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/200/00/4/se216.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "Site-urile statului trebuie să accepte logarea cu ROeID; pentru cetățeni rămâne opțională",
+      "summaryTlDr": "Ideea e bună și necesară: legea obligă instituțiile, nu oamenii, să accepte un login unic (ROeID sau un serviciu acreditat) și portofelul digital european, iar accesul clasic rămâne garantat. Textul e însă scris neglijent și lasă protecția datelor pe seama unei simple trimiteri la GDPR. În plus, face din ADR operator, acreditor și amendator în același timp.",
+      "scores": {
+        "agy": 2,
+        "claude": 4,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Înrolarea în ROeID nu mai enumeră validarea biometrică, ci urmează standardul UE",
+      "summary": "Acum înrolarea nu mai enumeră validarea biometrică, iar platformele noi pot fi proiectate și pentru servicii private acreditate, nu doar pentru ROeID. Acreditarea durează până la 5 ani, dar criteriile, termenele și finanțarea lipsesc în continuare.",
+      "changes": [
+        {
+          "title": "Înrolarea nu mai enumeră validarea biometrică",
+          "text": "Art. 8: lista deschisă (identificare video, validare biometrică, alte mijloace) e înlocuită cu nivelul de asigurare substanțial din Reg. (UE) 2015/1502. Metodele concrete rămân în normele metodologice.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 8 alin. (1)",
+          "before": "se realizează utilizând metode precum identificarea și verificare automată a actului de identitate, identificarea video asistată, validarea biometrică și alte mijloace conforme cu standardele digitale europene",
+          "after": "se realizează prin metode de verificare a identității stabilite în funcție de nivelul de asigurare necesar al mijlocului de identificare electronică substanțial, în conformitate cu Regulamentul de punere în aplicare (UE) 2015/1502",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Acreditarea furnizorilor privați: până la 5 ani, nu anual",
+          "text": "Art. 3 alin. (2): ADR nu mai „poate”, ci acreditează serviciul conform Reg. (UE) 910/2014, pe cel mult 5 ani. Raportul de securitate dispare, iar criteriile, termenul și taxele tot nu sunt fixate în lege.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 3 alin. (2)",
+          "before": "Acreditarea se face anual prin decizie a președintelui ADR, în baza unui raport de securitate a datelor informatice și de conformare cu standardele tehnice eIDAS.",
+          "after": "Acreditarea se face prin decizie a președintelui ADR pe o perioadă de maximum 5 ani, în conformitate cu normele metodologice de aplicare a legii.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Platformele noi pot fi gândite și pentru servicii acreditate",
+          "text": "Art. 5: platformele noi nu mai trebuie proiectate nativ doar pentru ROeID, ci să permită ROeID sau un serviciu acreditat. Standardul devine însă vag, deși încălcarea lui se amendează.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 5",
+          "before": "Platformele digitale publice în curs de dezvoltare, achiziționare sau integrare cu sistemele informatice naționale sunt proiectate nativ pentru implementarea mecanismului național de identitate digitală ROeID.",
+          "after": "sunt proiectate astfel încât să permită implementarea mecanismului național de identitate digitală RoelD sau un serviciu de identificare electronică acreditat",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Integrarea devine opțională pentru apărare și ordine publică",
+          "text": "Art. 4: entitățile din apărare, ordine publică și securitate națională care au sisteme proprii integrează ROeID doar dacă o cer. Protocolul se încheie cu entitatea, nu cu DNSC și ministerele de resort.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 4",
+          "before": "integrează mecanismul național de identitate digitală ROeID în măsura în care aceasta nu aduce atingere specificului de confidentțialitate a informațiilor pe care le operează",
+          "after": "Prin excepție de la art.3 alin.(1), entitățile publice din domeniul apărării naționale, ordinii publice sau securității naționale, care dețin platforme informatice de autentificare proprii, pot integra mecanismul național de identitate digitală ROeID",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Trimitere greșită la regulamentul european despre portofele",
+          "text": "Art. 3 alin. (6): acceptarea portofelelor europene trimite acum la un regulament inexistent, nr. 910/2024 din 23 iulie 2014. Inițial trimiterea era corectă, la Reg. (UE) 2024/1183.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. 3 alin. (6)",
+          "before": "în condițiile stabilite de Regulamentul (UE) nr. 2024/1183",
+          "after": "în condițiile stabilite de Regulamentul (UE) nr.910/2024 al Parlamentului European și al Consiliului din 23 iulie 2014",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Portofelul european, în 12 luni în loc de 18",
+          "text": "ROeID trebuie adaptat la portofelul european în 12 luni de la intrarea în vigoare, nu în 18 (art. 11 alin. 3). Dispare termenul separat de 12 luni pentru integrarea de către entități (fost art. 4 alin. 1).",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 11 alin. (3)",
+          "before": "să implementeze, în termen de 18 de luni de la data intrării în vigoare a prezentei legi, cerințele tehnice și operaționale ale Portofelului European de Identitate Digitală",
+          "after": "În termen de 12 luni de la data intrării în vigoare a prezentei legi, ADR asigură dezvoltarea și adaptarea mecanismului național de identitate digitală ROeID",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Nu e clar dacă ROeID e opțional pentru funcționarii de la lit. c)-d)",
+            "major": true,
+            "article": "art. 3 alin. (4)"
+          },
+          {
+            "text": "ADR operează ROeID, acreditează concurenții și constată contravențiile",
+            "major": true,
+            "article": "art. 3 alin. (2)"
+          },
+          {
+            "text": "Criteriile, termenul de soluționare și taxele de acreditare nu sunt fixate în lege",
+            "major": true,
+            "article": "art. 3 alin. (2)"
+          },
+          {
+            "text": "Amenzi personale pentru conducători, fără nicio sursă de finanțare a implementării",
+            "major": true,
+            "article": "art. 10 alin. (1)"
+          },
+          {
+            "text": "Se amendează un standard vag: platforme proiectate să permită integrarea",
+            "major": true,
+            "article": "art. 5"
+          },
+          {
+            "text": "Încălcarea garanțiilor pentru cetățeni de la art. 3 alin. (4) și (6) nu se sancționează",
+            "major": true,
+            "article": "art. 10 alin. (1)"
+          },
+          {
+            "text": "Metodele de înrolare și garanțiile pentru date sensibile sunt lăsate normelor metodologice",
+            "major": true,
+            "article": "art. 8 alin. (2)"
+          },
+          {
+            "text": "Trimitere la un regulament UE inexistent, nr. 910/2024 din 2014",
+            "major": false,
+            "article": "art. 3 alin. (6)"
+          },
+          {
+            "text": "Aceeași obligație de integrare e impusă de două ori",
+            "major": false,
+            "article": "art. 3 alin. (1)"
+          },
+          {
+            "text": "Definiția serviciului acreditat nu pomenește acreditarea dată de ADR",
+            "major": false,
+            "article": "art. 2 lit. b)"
+          },
+          {
+            "text": "Neclar ce alte cazuri permit conturile interne, inclusiv cele cu utilizator și parolă",
+            "major": false,
+            "article": "art. 3 alin. (5)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Folosirea ROeID e voluntară; accesul prin alte mijloace legale rămâne garantat",
+            "major": true,
+            "article": "art. 3 alin. (4)"
+          },
+          {
+            "text": "Entitățile acceptă portofelele europene și mijloacele eID notificate, fără cerințe suplimentare",
+            "major": true,
+            "article": "art. 3 alin. (6)"
+          },
+          {
+            "text": "Platformele noi pot integra și servicii private acreditate, nu doar ROeID",
+            "major": true,
+            "article": "art. 5"
+          },
+          {
+            "text": "ADR trebuie să acrediteze serviciile conforme UE, pentru cel mult 5 ani",
+            "major": true,
+            "article": "art. 3 alin. (2)"
+          },
+          {
+            "text": "Înrolarea urmează nivelul de asigurare substanțial din Reg. (UE) 2015/1502",
+            "major": true,
+            "article": "art. 8 alin. (1)"
+          },
+          {
+            "text": "Registru public al entităților, cu rata de adopție a ROeID",
+            "major": false,
+            "article": "art. 9"
+          },
+          {
+            "text": "Ghid tehnic public pe roeid.ro pentru implementare",
+            "major": false,
+            "article": "art. 6 alin. (2)"
+          },
+          {
+            "text": "Intrare în vigoare la 18 luni, cu timp de pregătire",
+            "major": false,
+            "article": "art. 11 alin. (1)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 43,
+        "removed": 56,
+        "same": 0.04
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:49:25.797Z"
+    }
+  ]
+}

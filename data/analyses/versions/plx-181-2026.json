@@ -1,0 +1,137 @@
+{
+  "slug": "plx-181-2026",
+  "billId": "PL-x 181/2026",
+  "updatedAt": "2026-10-29T12:46:17.748Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L638FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Locuință socială doar cu dovadă anuală de căutare a unui loc de muncă și fără datorii la primărie",
+      "summaryTlDr": "E legitim să legi locuința socială de efortul de a te angaja, dar lit. f) e scrisă atât de neglijent încât fie îi exclude și pe salariații cu venituri mici, fie nu se aplică nimănui. Proiectul adaugă și excluderea oricui are o datorie la bugetul local, fără niciun cuvânt de justificare în expunerea de motive.",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 6
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/80/1/se190.pdf",
+      "source": "cdep.ro",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Locuințe sociale: fără datorii la primărie și cu dovadă anuală de la AJOFM",
+      "summaryTlDr": "Scopurile sunt legitime: prioritizare locală și încurajarea angajării. Textul e însă redactat prost: lit. e) scoate de pe liste familii sărace pentru orice datorie la primărie, iar condiția AJOFM e atât de confuză încât fie nu se aplică nimănui, fie îi lovește și pe cei care lucrează. Noul art. 68 fixează un termen care, citit în Legea 114/1996, a expirat din 1996.",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 7
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Fără schimbări de fond: Senatul a adoptat tacit forma inițiatorului",
+      "summary": "Textul adoptat de Senat e identic cu forma inițiatorului, fiindcă proiectul s-a considerat adoptat tacit. Riscurile rămân: orice datorie la bugetul local exclude familia, iar locuința socială cere dovada anuală a căutării unui loc de muncă.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Orice datorie la bugetul local, fără prag, exclude toată familia, inclusiv copiii",
+            "major": true,
+            "article": "art. 48 alin. (1) lit. e)"
+          },
+          {
+            "text": "Nu distinge impozite, amenzi, salubrizare, nici datorii eșalonate de cele restante",
+            "major": true,
+            "article": "art. 48 alin. (1) lit. e)"
+          },
+          {
+            "text": "Condiția lovește tocmai familiile cu venituri mici, cărora le e destinată locuința",
+            "major": true,
+            "article": "art. 48 alin. (1) lit. e)"
+          },
+          {
+            "text": "Excepția pentru cei fără obligația de a se înregistra ca șomeri e circulară",
+            "major": true,
+            "article": "art. 48 alin. (1) lit. f)"
+          },
+          {
+            "text": "Salariații, elevii, studenții, părinții în concediu și îngrijitorii nu sunt exceptați explicit",
+            "major": true,
+            "article": "art. 48 alin. (1) lit. f)"
+          },
+          {
+            "text": "Persoanele cu handicap mediu sau ușor nu sunt exceptate de la condiția de angajare",
+            "major": true,
+            "article": "art. 48 alin. (1) lit. f)"
+          },
+          {
+            "text": "Nu precizează bugetul cărei unități administrativ-teritoriale contează",
+            "major": false,
+            "article": "art. 48 alin. (1) lit. e)"
+          },
+          {
+            "text": "„Solicitarea anuală de angajare” nu e reglementată legal; dovada o stabilesc normele metodologice",
+            "major": false,
+            "article": "art. 48 alin. (1) lit. f)"
+          },
+          {
+            "text": "Condiția cere o hârtie pe an, nu activare reală pe piața muncii",
+            "major": false,
+            "article": "art. 48 alin. (1) lit. f)"
+          },
+          {
+            "text": "„Categorie de boală cronică atestată medical” nu corespunde unei clasificări legale clare",
+            "major": false,
+            "article": "art. 48 alin. (1) lit. f)"
+          },
+          {
+            "text": "„Transparență și nediscriminare” nu are control și nu oprește criterii ca vechimea domiciliului",
+            "major": false,
+            "article": "art. 42 alin. (2)"
+          },
+          {
+            "text": "Termenul pentru norme e formulat confuz: „elaborază metodologia” și „va adopta norme”",
+            "major": false,
+            "article": "art. 68"
+          }
+        ],
+        "good": [
+          {
+            "text": "Pensionarii, persoanele cu handicap grav sau accentuat și bolnavii cronici sunt exceptați",
+            "major": true,
+            "article": "art. 48 alin. (1) lit. f)"
+          },
+          {
+            "text": "Criteriile locale trebuie să respecte pragul de venit, transparența și nediscriminarea",
+            "major": false,
+            "article": "art. 42 alin. (2)"
+          },
+          {
+            "text": "Guvernul are termen de 90 de zile pentru normele de aplicare",
+            "major": false,
+            "article": "art. 68"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 10,
+        "removed": 10,
+        "same": 0.23
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:46:17.748Z"
+    }
+  ]
+}

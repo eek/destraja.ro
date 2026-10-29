@@ -1,0 +1,97 @@
+{
+  "slug": "plx-9-2026",
+  "billId": "PL-x 9/2026",
+  "updatedAt": "2026-10-29T12:25:44.357Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L582FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Accize: vinul micilor producători, tutunul de mestecat și țigările aduse din Bulgaria",
+      "summaryTlDr": "Pachetul anti-evaziune e în mare parte legitim, dar are două probleme reale. Ce înseamnă transport „ocazional”, criteriul care decide dacă plătești acciză, va stabili un ordin AVR-ANAF, nu legea. Iar depășirea limitei de 800 de țigarete devine automat comerț, deși directiva UE permite limitelor să fie doar element de probă.",
+      "scores": {
+        "agy": 5,
+        "claude": 5,
+        "codex": 6
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/00/9/se776.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Accize mai strânse: plafon la țigări înaintea scumpirilor, acciză pe vinul micilor producători, tutun de mestecat taxat și limite la drumurile dese după țigări în Bulgaria",
+      "summaryTlDr": "Ordonanța e în mare parte legitimă și tehnică. Închide portițe reale: stocarea țigărilor înaintea scumpirii, vinul micilor producători rămas fără mecanism de plată și micro-contrabanda. Punctul slab este că un ordin AVR–ANAF, nu legea, hotărăște când drumul unui om după țigări încetează să fie „ocazional” și devine taxabil.",
+      "scores": {
+        "agy": 6,
+        "claude": 4,
+        "codex": 6
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat ordonanța fără modificări; regulile despre accize rămân aceleași",
+      "summary": "Senatul a aprobat ordonanța despre accize exact cum a venit de la Guvern. S-au adăugat doar data ordonanței și Monitorul Oficial în care a apărut. Regulile pentru țigarete, vin, uz propriu și tutunul de mestecat sunt aceleași ca inițial.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Plafonul eliberărilor pre-majorare vizează doar țigaretele; tutunul de fumat și încălzit rămân neacoperite",
+            "major": true,
+            "article": "art. 340 alin. (13)-(14) CF"
+          },
+          {
+            "text": "Criteriile transportului „ocazional” pentru uz propriu sunt lăsate unui ordin AVR–ANAF",
+            "major": true,
+            "article": "art. 413 alin. (1^1) CF"
+          },
+          {
+            "text": "Peste praguri, produsele „se consideră” comerciale și se datorează acciză în România",
+            "major": true,
+            "article": "art. 413 alin. (3)-(4) CF"
+          },
+          {
+            "text": "Nicio regulă pentru operatorii cu mai puțin de 12 luni istoric sau vârfuri sezoniere",
+            "major": false,
+            "article": "art. 340 alin. (13)-(14) CF"
+          }
+        ],
+        "good": [
+          {
+            "text": "Se clarifică cine plătește acciza la vinul micilor producători și când",
+            "major": true,
+            "article": "art. 341 alin. (1) lit. g), art. 342 alin. (20)-(21) CF"
+          },
+          {
+            "text": "Plafon de 10% peste medie limitează stocarea anticipată de țigarete înainte de majorări",
+            "major": true,
+            "article": "art. 340 alin. (13)-(14) CF"
+          },
+          {
+            "text": "Tutunul de mestecat și nazal: autorizare, timbre, antrepozit și restituire la export",
+            "major": true,
+            "article": "art. 439 alin. (2) lit. g), art. 444^1, art. 448^1-448^3 CF"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:22:12.185Z"
+    }
+  ]
+}

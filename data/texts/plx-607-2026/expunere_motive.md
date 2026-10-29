@@ -1,0 +1,107 @@
+# EXPUNERE DE MOTIVE
+
+În prezent, cadrul legal aplicabil timbrelor culturale este reglementat prin Legea nr.35/1994 privind timbrul literar, cinematografic, teatral, muzical, folcloric, al artelor plastice, al arhitecturii și de divertisment, republicată, cu modificările și completările ulterioare, act normativ care reunește într-o reglementare unitară măsuri de sprijin financiar destinate susținerii creației artistice și funcționării uniunilor de creatori, consacrate inclusiv printr-o practică îndelungată la nivel european și național.
+
+Potrivit reglementării în vigoare, timbrele culturale reprezintă contribuții cu caracter parafiscal, instituite prin lege, obligatorii pentru operatorii economici și entitățile care desfășoară activități în domeniile prevăzute, sumele rezultate din aplicarea acestora constituind venituri extrabugetare ale entităților beneficiare și fiind utilizate potrivit destinațiilor stabilite de lege.
+
+În acest sens, jurisprudența Curții Constituționale a statuat că aceste contribuții nu au natura juridică a impozitelor sau taxelor fiscale și nu constituie venituri ale bugetului public național.
+
+Cadrul normativ este completat de normele metodologice aprobate prin Ordinul comun nr. 2823/2003, precum și de reglementările privind constatarea contravențiilor și aplicarea sancțiunilor, aplicabile prin structurile Ministerului Finanțelor, mecanismul fiind consolidat inclusiv prin jurisprudența Curții Constituționale.
+
+Mecanismul de aplicare a dispozițiilor legale presupune implicarea mai multor categorii de actori, respectiv operatori culturali, uniuni de creatori și structuri cu atribuții de control și verificare, fiecare având responsabilități distincte în procesul de stabilire, declarare, colectare și utilizare a sumelor rezultate din aplicarea timbrelor.
+
+Sumele colectate sunt utilizate pentru susținerea proiectelor culturale, sprijinirea creatorilor, promovarea valorilor culturale și susținerea activităților uniunilor de creatori, inclusiv în componenta de protecție socială a acestora, în corelare cu alte reglementări aplicabile în domeniu.
+
+Cadrul normativ prevede, de asemenea, mecanisme de control și sancționare, inclusiv în sarcina structurilor Ministerului Finanțelor și ale Ministerului Culturii, aplicabile în cazul nerespectării obligațiilor legale, precum și obligațiilor privind utilizarea sumelor potrivit destinației stabilite de lege.
+
+În aplicarea cadrului normativ au fost identificate unele dificultăți de ordin practic, generate de utilizarea neunitară a unor noțiuni și de lipsa unor clarificări suplimentare privind anumite aspecte ale mecanismului de colectare și distribuire a sumelor, ceea ce a condus, în anumite situații, la interpretări diferite în activitatea de aplicare și control, precum și la dificultăți în administrarea obligațiilor restante și a accesoriiilor aferente acestora.
+
+Totodată, analiza cadrului normativ evidențiază existența unor necorelări între reglementările aplicabile timbrelor culturale și alte domenii conexe, în special în ceea ce privește momentul nașterii și exigibilității obligațiilor de plată, raportat la realizarea prestațiilor culturale, precum și în raport cu reglementările de natură contabilă, civilă și fiscală aplicabile operatorilor culturali.
+
+Sunt necesare, așadar, măsuri de eficientizare a mecanismelor de finanțare din domeniul cultural, inclusiv a celor bazate pe contribuții cu caracter parafiscal, în vederea asigurării unei utilizări mai eficiente și transparente a resurselor.
+
+După o perioadă îndelungată de aplicare a cadrului normativ, s-a constatat existența unor dificultăți în ceea ce privește colectarea contribuțiilor cu caracter parafiscal, în special sub aspectul gradului de conformare voluntară, care se menține la un nivel redus în raport cu obiectivele urmărite de legiuiitor.
+
+În practică, au fost identificate situații în care obligațiile de declarare și virare a sumelor datorate nu sunt îndeplinite la termen, ceea ce determină inițierea unor proceduri de control, constatare și recuperare, cu impact asupra eficienței mecanismului de colectare și asupra duratei de recuperare a sumelor.
+
+Totodată, în contextul aplicării regimului juridic specific acestor contribuții, caracterizat prin natura lor extrabugetară, au fost semnalate dificultăți în recuperarea sumelor datorate în situațiile în care operatorii economici se află în proceduri de insolvență, aspect care limitează, în anumite cazuri, eficiența mecanismului de recuperare.
+
+De asemenea, limitările cadrului normativ actual în ceea ce privește implicarea structurilor cu atribuții în domeniul colectării creanțelor fiscale determină dificultăți în realizarea unui control efectiv asupra stabilirii și virării contribuțiilor datorate, în condițiile în care aceste contribuții nu se încadrează în categoria veniturilor bugetare administrate în mod curent de aceste autorități.
+
+În același timp, analiza cadrului normativ aplicabil evidențiază necesitatea corelării dispozițiilor privind destinația sumelor colectate cu alte mecanisme de finanțare existente în domeniul cultural, în vederea evitării unor suprapuneri și a asigurării unei utilizări eficiente a resurselor disponibile.
+
+Cadrul normativ stabilește, de asemenea, obligația utilizării sumelor colectate potrivit destinațiilor prevăzute de lege, nerespectarea acestor obligații constituind contravenție, în condițiile art. 5 alin. (2) din Legea nr. 35/1994, dacă fapta nu întrunește elementele constitutive ale unei infracțiuni, iar încasările rezultate din aplicarea timbrelor nu sunt impozabile, potrivit art. 4 din același act normativ.
+
+În cazul nevirării la termen a sumelor datorate, legea prevede aplicarea unor penalități de întârziere, iar constatarea contravențiilor și aplicarea sancțiunilor, precum și stabilirea sumelor datorate cu titlu de penalități, se realizează prin structurile de inspecție economico-financiară din cadrul Ministerului Finanțelor, în condițiile legii.
+
+De asemenea, cadrul normativ instituie atribuții de control și verificare în sarcina Ministerului Culturii și a Oficiului Român pentru Drepturile de Autor, în ceea ce privește modul de utilizare a sumelor colectate și respectarea opțiunilor titularilor de drepturi.
+
+În aplicarea acestor dispoziții au fost evidențiate unele dificultăți legate de asigurarea unui cadru suficient de clar și transparent în ceea ce privește distribuirea și utilizarea sumelor colectate, precum și de delimitarea și exercitarea atribuțiilor de control, aspecte care relevă necesitatea unor clarificări suplimentare la nivel normativ.
+
+Totodată, în contextul evoluțiilor recente din domeniul cultural, caracterizate prin diversificarea formelor de exprimare artistică și a modurilor de valorificare a operelor, inclusiv prin utilizarea extinsă a instrumentelor digitale și a sistemelor de emitere a biletelor și abonamentelor, se conturează necesitatea adaptării cadrului normativ la noile realități ale pieței culturale, inclusiv sub aspectul definirii și tratamentului juridic al acestor instrumente.
+
+În același sens, se evidențiază necesitatea instituirii unor mecanisme mai clare și mai predictibile privind circuitul sumelor colectate, în special în cazul timbrului muzical, în vederea asigurării unei corelări adecvate între obligațiile de plată și realizarea efectivă a prestațiilor culturale.
+
+Totodată, în contextul evoluțiilor instituționale recente din domeniul culturii, se conturează necesitatea unei corelări și consolidări a atribuțiilor de control și monitorizare, în vederea asigurării unei aplicări unitare și eficiente a prevederilor legale.
+
+În acest context, elementele anterior menționate evidențiază necesitatea revizuirii și clarificării cadrului normativ aplicabil, în vederea asigurării unei funcționări unitare, eficiente și previzibile a mecanismului de colectare și utilizare a sumelor rezultate din aplicarea timbrelor culturale.
+
+Prin prezenta propunere legislativă se urmărește restructurarea și actualizarea cadrului normativ aplicabil timbrelor culturale, prin reducerea numărului categoriilor de timbre reglementate și prin redefinirea sferei acestora, în acord cu evoluția formelor de exprimare artistică și cu realitățile actuale ale pieței culturale. În acest sens, se propune renunțarea la timbrul folcloric și la timbrul de divertisment, concomitent cu integrarea unor ipoteze de aplicare relevante în regimul timbrului muzical și al timbrului artelor plastice, precum și cu reformularea titlului și a noțiunilor definitorii ale legii.
+
+Proiectul instituie un cadru normativ mai clar în ceea ce privește categoriile de unități plătitoare, noțiunile de festival muzical, concert, spectacol, artist, formație, bilet, abonament, carte și operă de artă, în vederea eliminării dificultăților de interpretare și a asigurării unei aplicări unitare a dispozițiilor legale. Totodată, sunt reglementate distinct categoriile de timbre ce formează obiectul legii, cuantumul acestora și situațiile concrete în care ele se aplică, inclusiv pentru suporturile audio și video care conțin sau redau opere muzicale, pentru expoziții permanente și temporare, expoziții itinerante, vernisaje, spectacole de lumini și proiecții publice ale operelor de artă digitală.
+
+În ceea ce privește timbrul muzical, proiectul introduce un mecanism specific de colectare și distribuire a sumelor pentru autorii operelor muzicale. Sunt reglementate termenele de virare a sumelor și costurile de administrare aferente, în scopul creșterii transparenței și eficienței mecanismului de colectare și repartizare a sumelor provenite din aplicarea timbrului muzical.
+
+Totodată, sunt introduse reguli speciale privind reducerea valorii timbrului muzical pentru abonamentele de acces la festivaluri muzicale în situația în care programul artistic include, într-o anumită proporție, artiști sau formații din România și din statele membre ale Uniunii Europene, ale Spațiului Economic European sau din Republica Moldova, în vederea stimulării prezenței acestora în cadrul evenimentelor culturale organizate în România. Propunerea legislativă actualizează regimul contravențional și al penalităților, prin redefinirea faptelor care constituie contravenții, stabilirea competențelor de constatare și sancționare, precum și prin reglementarea unei penalizări de 0,01% pentru fiecare zi de întârziere în cazul nevirării sumelor datorate în termenele prevăzute de lege. Totodată, sunt consolidate atribuțiile Ministerului Finanțelor și ale Ministerului Culturii în ceea ce privește controlul operațiunilor de percepere, virare și utilizare a sumelor provenite din aplicarea timbrelor. Sunt prevăzute, de asemenea, măsuri tranzitorii referitoare la aprobarea normelor metodologice și la încheierea protocolului privind distribuirea încasărilor din timbrul muzical. Totodată, pentru sumele datorate până la intrarea în vigoare a prezentei ordonanțe de urgență, proiectul menține aplicabilitatea dispozițiilor legale în vigoare la momentul nașterii obligației și instituie un mecanism de anulare a penalităților aferente, în cazul achitării integrale a contravalorii timbrelor într-un termen de 90 de zile. Prin aceste intervenții se urmărește consolidarea unui cadru normativ flexibil și coerent, care să permită corelarea mecanismelor de finanțare cu prioritățile culturale și utilizarea eficientă a fondurilor publice. Având în vedere argumentele prezentate mai sus, înaintăm Parlamentului României, spre dezbatere și adoptare, prezenta propunere legislativă, în procedură de urgență.
+
+Procedura de urgență este absolut necesară având în vedere urgența instituirii unor mecanisme unitare, eficiente și transparente de colectare, distribuire și utilizare a sumelor provenite din aplicarea timbrelor culturale, în scopul asigurării unei finanțări predictibile și sustenabile a sectorului cultural.
+
+## INIȚIATORI
+
+<table>
+<tbody>
+<tr><td>Nr.crt.</td><td>NUME ȘI PRENUME</td><td>SEMNĂTURA</td></tr>
+<tr><td>1.</td><td>Raluca TURCAN – Deputat PNL</td><td rowspan="13"></td></tr>
+<tr><td>2.</td><td>Barna TÂNCZOS – senator UDMR</td></tr>
+<tr><td>3.</td><td>Shizbu Gijel</td></tr>
+<tr><td>4.</td><td>MO9 ARINA</td></tr>
+<tr><td>5.</td><td>PISTRU-POPA GEANINA</td></tr>
+<tr><td>6.</td><td>Pandea Cyprian</td></tr>
+<tr><td>7.</td><td>Sono Alexandru</td></tr>
+<tr><td>8.</td><td>Rosca Mincea</td></tr>
+<tr><td>9.</td><td>Gtoeot SIRBAN</td></tr>
+<tr><td>10.</td><td>Goi Caih P.N.L.</td></tr>
+<tr><td>11.</td><td>SISHIARTAÇ ROBERT</td></tr>
+<tr><td>12.</td><td>Jiann Jomi Flum</td></tr>
+<tr><td>13.</td><td>MOISEEU ALEXANDRIN</td></tr>
+<tr><td>14.</td><td>Kuv Sebohun Mihani</td><td rowspan="3"></td></tr>
+<tr><td>15.</td><td>TIPLEA ALLPIIRPEI</td></tr>
+<tr><td>16.</td><td>~</td></tr>
+<tr><td>17.</td><td></td><td></td></tr>
+<tr><td>18.</td><td></td><td></td></tr>
+<tr><td>19.</td><td></td><td></td></tr>
+<tr><td>20.</td><td></td><td></td></tr>
+<tr><td>21.</td><td></td><td></td></tr>
+<tr><td>22.</td><td></td><td></td></tr>
+<tr><td>23.</td><td></td><td></td></tr>
+<tr><td>24.</td><td></td><td></td></tr>
+<tr><td>25.</td><td></td><td></td></tr>
+<tr><td>26.</td><td></td><td></td></tr>
+<tr><td>27.</td><td></td><td></td></tr>
+<tr><td>28.</td><td></td><td></td></tr>
+<tr><td>29.</td><td></td><td></td></tr>
+<tr><td>30.</td><td></td><td></td></tr>
+<tr><td>31.</td><td></td><td></td></tr>
+<tr><td>32.</td><td></td><td></td></tr>
+</tbody>
+</table>
+
+Parlamentul României
+
+Către Biroul permanent al Senatului,
+
+Cristian-Augustin NICULESCU-ȚÂGÂRLAȘ, senator ales în Circumscripția electorală nr. 26 Maramureș, în conformitate cu prevederile art. 92 alin. (4) și ale art. 95 din Regulamentul Senatului în vigoare, vă rog să luați act de faptul că doresc să devin co-inițiator al Propunerii legislative pentru modificarea și completarea Legii nr.35/1994 privind timbrul literar, cinematografic, teatral, muzical, folcloric, al artelor plastice, al arhitecturii și de divertisment (L398/2026).
+
+Cu deosebită considerație,
+
+Senator PNL/ Cristian-Augustin NICULESCU-TÂÇÂRLAȘ

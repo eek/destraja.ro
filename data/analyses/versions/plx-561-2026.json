@@ -1,0 +1,122 @@
+{
+  "slug": "plx-561-2026",
+  "billId": "PL-x 561/2026",
+  "updatedAt": "2026-10-29T13:07:09.464Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L329FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Fără permis pentru șoferii nerezidenți care nu plătesc amenda pe loc",
+      "summaryTlDr": "Scopul e legitim, iar mecanismul există și în Italia sau Franța. Textul însă se contrazice la sumă și la durată, nu lămurește ce face Poliția de Frontieră și reține permise străine mai mult decât permite Convenția de la Viena, deci are nevoie de o rescriere serioasă în comisii.",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 7
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/60/1/se638.pdf",
+      "source": "cdep.ro",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Șoferii nerezidenți care nu plătesc amenda pe loc rămân fără permis până la 3 luni",
+      "summaryTlDr": "Problema e reală, iar o garanție pentru nerezidenți a fost acceptată în principiu de CJUE. Textul e însă scris în grabă: alineatele cer sume și durate diferite, plata se poate face doar cu cardul, reținerea la frontieră intră în tensiune cu Convenția de la Viena, iar baza de date pe care se sprijină nu există încă. Merită corectat prin amendamente, nu respins.",
+      "scores": {
+        "agy": 5,
+        "claude": 5,
+        "codex": 8
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul nu a schimbat nimic de fond: proiectul se consideră adoptat în forma inițiatorului",
+      "summary": "Senatul nu a schimbat nimic de fond: proiectul se consideră adoptat în forma inițială. Diferențele sunt doar de redactare, așa că problemele de dinainte rămân, de exemplu cele două sume diferite de plată și durata neclară a reținerii permisului.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Două sume diferite de plată pentru aceeași situație, șoferul nu știe cât datorează",
+            "major": true,
+            "article": "art. 111¹ alin. (1) lit. b) și alin. (3)"
+          },
+          {
+            "text": "Neclar cât durează reținerea: până la plata integrală sau cel mult 3 luni",
+            "major": true,
+            "article": "art. 111¹ alin. (2) și (4)"
+          },
+          {
+            "text": "Neclar dacă la frontieră permisul se reține doar pentru amenzi vechi, fără act contestabil",
+            "major": true,
+            "article": "art. 111¹ alin. (2)"
+          },
+          {
+            "text": "Reținut la ieșire, permisul rămâne în România, iar mașina blocată la graniță",
+            "major": true,
+            "article": "art. 111¹ alin. (2)"
+          },
+          {
+            "text": "Plata doar electronic, fără obligația de POS: șoferul poate rămâne fără permis",
+            "major": true,
+            "article": "art. 111¹ alin. (3)"
+          },
+          {
+            "text": "Cine vrea să conteste procesul-verbal trebuie să depună garanție pe loc",
+            "major": true,
+            "article": "art. 111¹ alin. (1) lit. b)"
+          },
+          {
+            "text": "Vizează și românii din diaspora și camionagiii străini în tranzit, nu doar turiștii",
+            "major": true,
+            "article": "art. 111¹ alin. (1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Permisul nu se reține dacă plătești pe loc jumătate din minimul amenzii",
+            "major": true,
+            "article": "art. 111¹ alin. (3)"
+          },
+          {
+            "text": "Permisul se restituie cel târziu după 3 luni de la reținere",
+            "major": true,
+            "article": "art. 111¹ alin. (4)"
+          },
+          {
+            "text": "Doar amenzile definitive, neachitate și neprescrise pot duce la reținerea permisului",
+            "major": true,
+            "article": "art. 111¹ alin. (1) lit. a)"
+          },
+          {
+            "text": "Firmele de închiriere și leasing scapă de amendă dacă identifică șoferul nerezident",
+            "major": true,
+            "article": "art. 111¹ alin. (5)"
+          },
+          {
+            "text": "Bază de date comună MAI–Finanțe în 6 luni pentru verificarea amenzilor nerezidenților",
+            "major": false,
+            "article": "art. 111¹ alin. (6)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 8,
+        "removed": 9,
+        "same": 0.38
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:07:09.464Z"
+    }
+  ]
+}

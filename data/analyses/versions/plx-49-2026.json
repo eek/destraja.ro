@@ -1,0 +1,131 @@
+{
+  "slug": "plx-49-2026",
+  "billId": "Pl-x 49/2026",
+  "updatedAt": "2026-10-29T12:30:09.265Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/000/40/9/pl44.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "Cociuba Mare intră pe lista comunelor turistice datorită Băilor Tinca, aflate în altă comună",
+      "summaryTlDr": "Lege locală, fără efecte asupra cetățenilor, dar scrisă neglijent. Înscrie în Planul național o comună pe al cărei teritoriu nu se află resursa turistică, doar pentru că deține acțiunile complexului balnear din comuna vecină. Expunerea promite un mecanism general cu aviz de specialitate, iar textul nu conține niciunul.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 4
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/cd049_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Cociuba Mare devine „localitate turistică” pentru Băile Tinca, care sunt în altă comună",
+      "summaryTlDr": "Lege locală, fără efecte pentru cetățeni sau firme: o comună din Bihor intră pe lista zonelor cu resurse turistice pentru o bază balneară din comuna vecină, pe care o controlează ca acționar majoritar. Nu are capcane, taxe sau sancțiuni, dar e o scurtătură legislativă cu premise juridice fragile și cu riscul de a șterge din greșeală alte comune din tabel.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 7
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Lista Bihorului e rescrisă integral, dar Anexa 7 omite Cărpinet și Măgești; Cociuba Mare rămâne inclusă",
+      "summary": "Acum toată lista Bihorului e scrisă explicit, nu doar rândul Cociuba Mare, așa că nu mai e neclar dacă celelalte comune rămân. În schimb, Anexa 7 lasă pe dinafară Cărpinet și Măgești, iar Cociuba Mare are aceleași bife ca inițial.",
+      "changes": [
+        {
+          "title": "Toată lista Bihorului e scrisă explicit, nu cu puncte",
+          "text": "Inițial, tabelele aveau doar rândul Cociuba Mare între „....” și puteau fi citite ca ștergere a celorlalte comune. Acum pct. 1-4 rescriu integral lista Bihorului.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. unic pct. 1-4",
+          "before": "județul Bihor se completează și va avea următorul cuprins",
+          "after": "județul Bihor se modifică și va avea următorul cuprins",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Anexa 7 rescrisă lasă pe dinafară Cărpinet și Măgești",
+          "text": "Pct. 4 rescrie Anexa 7 pentru Bihor fără Cărpinet și Măgești, deși ambele au bifă tehnică în Anexa 5. Tinca, Hidișelu de Sus și Șuncuiuș apar acolo fără nicio bifă.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. unic pct. 4",
+          "before": "4.La anexa nr. 7, județul Bihor se completează și va avea următorul cuprins:",
+          "after": "4. La Anexa nr. 7 - UNITĂȚI ADMINISTRATIV-TERITORIALE cu resurse naturale și antropice mari și foarte mari, care au probleme ale infrastructurii turistice și tehnice, județul Bihor se modifică și va avea următorul cuprins:",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Anexa 5 are acum capul de tabel corect",
+          "text": "Inițial, Anexa 5 (probleme tehnice) avea coloane numite „probleme ale infrastructurii turistice”. Acum scrie „tehnice”, iar Cociuba Mare rămâne, ca înainte, fără bifă.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. unic pct. 3",
+          "before": "Județ | UAT cu concentrare mare | Probleme ale infrastructurii turistice | UAT cu concentrare foarte mare | Probleme ale infrastructurii turistice",
+          "after": "Județ | UAT cu concentrare mare | Probleme ale infrastructurii tehnice | UAT cu concentrare foarte mare | Probleme ale infrastructurii tehnice",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Aceeași resursă, Băile Tinca, e numărată și la Tinca, și la Cociuba Mare",
+            "major": true,
+            "article": "art. unic pct. 1"
+          },
+          {
+            "text": "Prioritatea de investiții turistice trece la Cociuba Mare, nu la Tinca, unde e baza",
+            "major": true,
+            "article": "art. unic pct. 2 și 4"
+          },
+          {
+            "text": "Anexa 7 omite Cărpinet, Măgești și bifele tehnice ale Tincii, Hidișelului, Șuncuiușului",
+            "major": true,
+            "article": "art. unic pct. 4"
+          },
+          {
+            "text": "Înscriere punctuală pentru o singură comună, fără criteriu general sau aviz de specialitate",
+            "major": true,
+            "article": "art. unic"
+          },
+          {
+            "text": "Bunurile bazei aparțin societății, nu domeniului public al comunei Cociuba Mare",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Anexele 1, 3 și 5 rescriu explicit lista Bihorului, fără ambiguitatea punctelor",
+            "major": true,
+            "article": "art. unic pct. 1-3"
+          },
+          {
+            "text": "Anexa 5 are acum coloana corectă de probleme tehnice",
+            "major": false,
+            "article": "art. unic pct. 3"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 12,
+        "removed": 8,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:30:09.265Z"
+    }
+  ]
+}

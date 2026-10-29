@@ -1,0 +1,170 @@
+Lege privind aprobarea Ordonanței Guvernului pentru modificarea și completarea Legii nr. 207/2015 privind Codul de procedură fiscală
+
+## Secțiunea a 2-a Motivul emiterii proiectului de act normativ
+
+## 2.1 Sursa proiectului de act normativ
+
+Directiva (UE) 2025/872 a CONSILIULUI din 14 aprilie 2025 de modificare a Directivei 2011/16/UE privind cooperarea administrativă în domeniul fiscal.
+
+## 2.2 Descrierea situației actuale
+
+În ultimii ani, Uniunea Europeană a intensificat eforturile pentru combaterea fraudei fiscale, a evaziunii fiscale și a practicilor de evitare a obligațiilor fiscale, vizând totodată creșterea transparenței fiscale și adaptarea sistemelor de cooperare administrativă la provocările economiei digitale. Modificările anterioare aduse Directivei privind Cooperarea Administrativă (DAC) au întărit semnificativ schimbul de informații între autoritățile fiscale ale statelor membre, însă persistența unor lacune importante a fost semnalată atât de Curtea de Conturi Europeană, cât și de Parlamentul European.
+
+Directiva 2011/16/UE privind cooperarea administrativă în domeniul fiscal a fost modificată în timp printr-o serie de acte successive, de la DAC 2 la DAC 8.
+
+Directiva (UE) 2025/872 a Consiliului, adoptată la 14 aprilie 2025 (în continuare DAC9), reprezintă cea de-a noua modificare a acestui cadru normativ european și are ca scop consolidarea schimbului automat de informații între autoritățile fiscale ale statelor membre. Prin această nouă reglementare, Uniunea Europeană extinde domeniul cooperării administrative la schimbul de informații privind impozitul suplimentar aferent nivelului minim global de impozitare, stabilit prin Directiva (UE) 2022/2523.
+
+În prezent, în legislația națională din România sunt stabilite deja normele de depunere a Declarațiilor informative privind impozitul suplimentar și prezintă în linii mari categoriile de informații care trebuie raportate de grupurile de întreprinderi multinaționale și de grupurile naționale de mari dimensiuni care intră sub incidența directivei respective. Administrațiile fiscale au nevoie de aceste Declaratii informative privind impozitul suplimentar pentru a efectua o evaluare adecvată a riscurilor, pentru a aprecia corectitudinea obligației fiscale și pentru a monitoriza dacă grupurile de întreprinderi multinaționale și grupurile naționale de mari dimensiuni aplică în mod corect normele stabilite prin Directiva (UE) 2022/2523.
+
+## 2.3 Schimbări preconizate
+
+Este necesar să se modifice legislația națională, prin transpunerea DAC9, pentru a stabili noi norme privind schimbul automat de informații cu scopul de a facilita schimbul de informații referitor la Declarația informativă privind impozitul suplimentar și pentru a institui astfel cadrul pentru punerea în aplicare operațională a obligațiilor de declarare prevăzute în Directiva (UE) 2022/2523, în conformitate cu Acordul multilateral între autoritățile competente în ceea ce privește schimbul de informații GloBE și cu comentariile aferente acestuia, precum și cu declarația informativă GloBE, în măsura în care aceste noi norme sunt în concordanță cu obligațiile de declarare prevăzute în Directiva (UE) 2022/2523 și cu dreptul Uniunii.
+
+De asemenea, DAC9 asigură îmbunătățirea normelor actuale din DAC în ceea ce privește schimbul automat de informații privind conturile financiare și procedurile administrative necesare aplicării eficiente a reglementărilor în acest domeniu.
+
+DAC9 simplifică cerințele de raportare și publicare pentru companiile mari, permițând depunerea centralizată și grupată a unei declarații fiscale suplimentare pentru întregul grup în cauză (în loc de depunerea multiplă la nivel local de către fiecare entitate constitutivă a unui grup de întreprinderi). Astfel, DAC9 contribuie la eforturile UE de a raționaliza obligațiile de raportare și de a reduce sarcina administrativă asupra întreprinderilor din UE.
+
+Adoptarea DAC9 răspunde acestor provocări privind implementarea Declarației informative privind impozitul suplimentar pentru a asigura o aplicare coerentă. Astfel, declarația amintită mai sus, anexă la directivă, care conține modelul standard pentru depunerea Declarației informative privind impozitul suplimentar în temeiul Directivei (UE) 2022/2523 și în conformitate cu modelul standard elaborat de CI al OCDE/G20 privind BEPS urmează să fie implementată în legislația națională prin ordin al președintelui ANAF.
+
+Adoptarea proiectului de ordonanță va contribui la consolidarea transparenteii fiscale și la creșterea gradului de conformare voluntară a contribuabililor. Măsurile propuse sprijină aplicarea echitabilă a regulilor privind impozitul minim global, reducând posibilitățile de evitare a impozitării prin transferuri artificiale de profit între jurisdicții. Pentru mediul de afaceri, implementarea noilor reguli va asigura claritate, predictibilitate și concurență loială, iar pentru administrația fiscală, o mai bună capacitate de analiză a riscurilor și de combatere a erodării bazei de impozitare.
+
+Amânarea adoptării ar conduce la imposibilitatea implementării la timpe a modelului standard pentru depunerea Declarației privind impozitul supimentar, afectând astfel schimbul de informații între autoritățile fiscale ale statelor membre
+
+Proiectul de ordonanță are în vedere transpunerea în cadrul legislativ național a dispozițiilor DAC9, cu excepția Secțiunii IV din Anexa acesteia, prin modificarea și completarea Legii nr. 207/2015 privind Codul de procedură fiscală, cu modificările și completările ulterioare. Scopul este de a institui mecanisme clare și eficiente de cooperare administrativă, pentru asigurarea schimbului automat de informații referitoare la impozitul suplimentar datorat de entitățile constitutive ale grupurilor multinaționale și naționale de mari dimensiuni.
+
+Modificarea propusă la articolul 291 alin. (4) și art. 291^2, reglementează schimbul automat de informații și definirea clară a termenilor utilizați în acest context.
+
+Modificarea este necesară pentru a implementa în legislația națională reglementările europene referitoare la schimbul automat de informații privind conturile financiare deoarece prin ultimele modificări asupra DAC2 s-a reglementat doar raportarea noilor tipuri de conturi, nu și schimbul de informații.
+
+De asemenea, după art. 291^6 urmează a fi introdus un nou articol, articolul 291^7 care reglementează formatul și procedurile pentru depunerea Declarației informative privind impozitul suplimentar în temeiul Legii nr. 431/2023 privind asigurarea unui nivel minim global de impozitare a grupurilor de întreprinderi multinaționale și a grupurilor naționale de mari dimensiuni, cu modificările și completările ulterioare, stabilindu-se astfel implementarea unui sistem standardizat pentru depunerea Declarațiilor informative privind impozitul suplimentar, în scopul respectării reglementărilor privind impozitarea minimă globală. La articolul 291^7 alineatul (1) noțiunea de "model standard" înseamnă utilizarea declarației prevăzute la art. II din ordonanță și cuprinde punctele de date din Secțiunea IV din DAC9. Modificările sunt necesare pentru a alinia legislația națională la reglementările internaționale și europene privind impozitul minim global pentru multinaționale. Noile reglementări reprezintă asigurarea unei bune conformări fiscale a grupurilor multinaționale și schimbul de informații privind impozitul suplimentar.
+
+După articolul 291^7 se introduce un nou articol, articolul 291^8, în cuprinsul căruia se reglementează termenele de raportare, astfel, la alin. (1) faptul că primul an fiscal de raportare pentru care se comunică informații în temeiul art. 291^7 este primul an fiscal care începe de la 31 decembrie 2023.
+
+Alin. (2) face trimitere la statele membre care au optat să nu aplice IIR (income inclusion rule - Regulă de Includere a Veniturilor Calificată) și UTPR (undertaxed profit rule - Regulă a Profiturilor Subimpozitate Calificată) în temeiul art. 50 alin. (1) din Directiva (UE) 2022/2523, astfel că primul An fiscal de raportare pentru care autoritatea competentă din România trebuie să comunice informații în temeiul art. 291^7 este primul an fiscal de după încheierea perioadei unei astfel de opțiuni a respectivelor state membre. Iar, prin excepție de la alin. (2), pentru statele membre care au optat să nu aplice IIR și UTPR în temeiul articolului 50 alineațul (1) din
+
+Directiva (UE) 2022/2523 și care au optat să aplice un Impozit Suplimentar Național Calificat în temeiul articolului 11 alineatul (1) din directiva menționată anterior, primul An fiscal de raportare pentru care autoritatea competentă din România comunică informații în temeiul articolului 291^7 este primul an fiscal în care respectivele state membre aplică Impozitul Suplimentar Național Calificat.La alineatul (4) este reglementat că autoritatea competentă din România comunică informațiile în temeiul art. 291^7 cu privire la primul An fiscal de raportare la cel mult șase luni de la termenul de depunere prevăzut la art. 48 alin. (9) din Legea nr. 431/2023, cu modificările și completările ulterioare.Alineatul (5) specifică faptul că autoritatea competentă din România comunică informațiile, prevăzute la art. 291^7 pentru prima dată cel mai devreme la 1 decembrie 2026.De menționat este faptul că noul art. 291^9 vizează colaborarea în ceea ce privește corecțiile, respectarea și aplicarea normelor în legătură cu Declarațiile informative privind impozitul suplimentar. Acest articol reglementează atât ipoteza când autoritatea din România notifică altui stat nereguli legate de această declarație cât și ipoteza când autoritatea din România este notificată în acest sens de alte state membre.Astfel, în cazul în care autoritatea competentă din România are motive să creadă că informațiile comunicate în temeiul articolului 291^7 din Declarația informativă privind impozitul suplimentar depusă de o Societate-Mamă Finală sau de o Entitate Desemnată care depune declarația situată în jurisdicția altui stat membru, necesită corectarea unor erori evidente, aceasta transmite o notificare, fără întârzieri nejustificate, autorității competente a celuilalt stat membru.În cazul în care autoritatea competentă din România este notificată și este de acord că informațiile din Declarația informativă privind impozitul suplimentar necesită corecții, aceasta ia, fără întârzieri nejustificate, măsuri adecvate pentru a obține o Declarație informativă privind impozitul suplimentar corectată din partea Societății-Mamă Finale sau a Entității Desemnate care depune declarația.În plus, se reglementează cazul în care autoritatea competentă din România notifică o altă autoritate fiscală din alt stat membru că nu a primit informațiile prin intermediul schimbului automat, deși a fost notificată de entitățile constitutive din România că informațiile despre grupul de întreprinderi multinaționale vor fi depuse de societatea mamă sau de entitatea desemnată în celălalt stat membru. Este prevăzută și situația când autoritatea competentă din România este notificată de altă autoritate fiscală dintr-un stat membru că nu a primit informațiile prin intermediul schimbului după ce a fost informată de entitatea constitutivă din acel stat că informațiile despre grupul de întreprinderi multinaționale vor fi depuse de societatea mamă sau de entitatea desemnată din România. Astfel, ANAF va stabili motivul nerealizării schimbului și va informa celălalt stat, urmând să efectueze schimbul de
+
+| informații referitor la Declarația informativă privind impozitul suplimentar în maxim 90 de zile de la data notificării. |
+| --- |
+| Prin prezenta ordonanță se propune modificarea art. 301 prin completarea alin.(4) ca mecanismul instituit pentru utilizarea și valorificarea informațiilor obținute prin schimb automat, ce se va adopta prin ordin al președintelui ANAF, să cuprindă și datele obținute în baza art. 291^7. Acest mecanism vizează consolidarea capacității ANAF de analiză de risc, control și monitorizare fiscală în context național și european. |
+| De asemenea, se propune modificarea lit. d) de la art art. 305, sens în care această dispoziție legală prevede păstrarea evidențelor privind informațiile obținute prin schimb automat de informații, inclusiv pentru informațiile reglementate de art. 291^7, pentru o perioadă de minimum 5 ani și maximum 10 ani, în funcție de natura datelor transmise. |
+| Prin completarea art. 336, s-a avut în vedere circumstanțierea faptei contravenționale, stabilindu-se și cuantumul acesteia pentru a se asigura conformarea cu prevederile ordonanței. |
+| Contravenția vizează utilizarea de către Grupurile de Întreprinderi Multinaționale și de către Grupurile Naționale de Mari Dimensiuni prevăzute în Secțiunea III din Anexa nr. 7, a altui formular decât cel prevăzut la art. 291^7 alin.(1). La stabilirea sancțiunii s-a avut în vedere principiul privind asigurarea eficacității, proporționalității și efectului de descurajare impus de directivă. |
+| Prin ordonanță se introduce Anexa nr. 7, care conține normele de declarare și modelul standard pentru Declarația privind impozitul suplimentar.În acest sens, s-au avut în vedere următoarele elemente esențiale, respectiv următoarele definiții:- stat membru de punere în aplicare - înseamnă un stat membru care a pus în aplicare fie o Regulă de Includere a Veniturilor (income inclusion rule – IIR) Calificată, fie o Regulă a Profiturilor Subimpozitate (undertaxed profit rule – UTPR) Calificată, astfel cum sunt definite la art. 6 punctele 24 și 33 din Legea nr. 431/2023, cu modificările și completările ulterioare, fie ambele reguli, pentru Anul fiscal de raportare dat;- stat membru care aplică doar un Impozit Suplimentar Național Calificat (qualified domestic top-up tax – QDTT) - înseamnă un stat membru care a pus în aplicare doar un Impozit Suplimentar Național Calificat, astfel cum este definit la art. 6 punctul 23 din Legea nr. 431/2023, cu modificările și completările ulterioare, pentru Anul fiscal de raportare dat;- Declarație informativă privind impozitul suplimentar - înseamnă declarația de informații depusă de o Societate-Mamă Finală, de o Entitate Desemnată care depune declarația, de o Entitate Locală Desemnată sau de o Entitate Constitutivă, un model standard fiind prevăzut în Ordinul președintelui ANAF.- Secțiune generală - înseamnă secțiunea din Declarația informativă privind impozitul suplimentar care conține informații generale despre Grupul de Întreprinderi Multinaționale în ansamblu, inclusiv structura sa corporativă, și o |
+
+| sinteză generală a aplicării Legii nr. 431/2023, cu modificările și completările ulterioare, această secțiune corespunzând secțiunii 1 din modelul standard pentru Declarația informativă privind impozitul suplimentar;- Secțiuni jurisdicționale - înseamnă setul de secțiuni din Declarația informativă privind impozitul suplimentar care conțin informații detaliate despre aplicarea IIR calificate, a UTPR calificate și a Impozitului Suplimentar Național Calificat în fiecare jurisdicție în care își desfășoară activitatea Grupul de Întreprinderi Multinaționale, aceste secțiuni corespunzând secțiunilor 2 și 3 din modelul standard pentru Declarația informativă privind impozitul suplimentar;- An fiscal de raportare - înseamnă anul fiscal la care se referă Declarația informativă privind impozitul suplimentar.Anexa nr. 7 detaliază obligațiile de raportare, datele ce trebuie incluse în declarația informativă privind impozitul suplimentar și proceduri administrative pe care entitățile constitutive trebuie să le aplice pentru ca ANAF să poată face schimb automat de informații cu alte state membre. |
+| --- |
+| Ținând cont de aspectele menționate mai sus, transpunerea DAC9 în legislația națională este necesară pentru a stabili noi norme privind schimbul automat de informații cu scopul de a facilita schimbul de informații cu privire la Declarația privind impozitul suplimentar, precum și asigurarea depunerii la nivel centralizat a informațiilor privind impozitul suplimentar astfel încât să se reducă povara administrativă pentru administrațiile fiscale și pentru mediul de afaceri. |
+
+## Secțiunea a 3-a
+
+## Impactul socioeconomic
+
+| 3.1 Descrierea generală a beneficiilor și costurilor estimate ca urmare a intrării în vigoare a proiectului de act normativ |
+| --- |
+| 3.2 Impactul social |
+| 3.3. Impactul asupra drepturilor și libertăților fundamentale ale omului |
+| 3.4. Impactul macroeconomic |
+| 3.4.1 Impactul asupra economiei și asupra principalilor indicatori macroeconomici |
+| 3.4.2 Impactul asupra mediului concurențial si domeniul ajutoarelor de stat |
+| Proiectul de act normativ nu creează distorsiuni ale mecanismelor concurențiale existente și nu are impact asupra domeniului ajutoarelor de stat. |
+| 3.5. Impactul asupra mediului de afaceri |
+| Măsurile propuse prin acest proiect sunt favorabile mediului de afaceri deoarece au ca obiect consolidarea mijloacelor actuale prin care statele membre pot preveni și combate practicile fiscale agresive, astfel încât să se asigure un mediu economic concurențial, predictibil și favorabil investițiilor. |
+| 3.6 Impactul asupra mediului înconjurător |
+
+3.7. Evaluarea costurilor și beneficiilor din perspectiva inovării și digitalizării 3.8 Evaluarea costurilor și beneficiilor din perspectiva dezvoltării durabile 3.9. Alte informații
+
+Secțiunea a 4-a
+
+Impactul financiar asupra bugetului general consolidat atât pe termen scurt, pentru anul curent, cât și pe termen lung (pe 5 ani), inclusiv informații cu privire la cheltuieli și venituri \*\*\*
+
+<table>
+<tbody>
+<tr><td colspan="7">- În mii lei (RON)</td></tr>
+<tr><td>Indicatori</td><td>Anul curent</td><td colspan="4">Următorii 4 ani</td><td>Media pe 5 ani</td></tr>
+<tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr>
+<tr><td>4.1. Modificări ale veniturilor bugetare, plus/minus, din care:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>a) bugetul de stat, din acesta:(i) impozit pe profit (ii) impozit pe venit</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>b) bugete locale:(i) impozit pe profit</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>c) bugetul asigurărilor sociale de stat(i) contribuții de asigurări</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>d) alte tipuri de venituri(Se va menționa natura acestora.)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.2. Modificări ale cheltuielilor bugetare, plus/minus, din care:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>a) buget de stat, din acesta:(i) cheltuieli de personal (ii) bunuri și servicii</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>b) bugete locale:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr><td>(i) cheltuieli de personal(ii) bunuri și servicii</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>c) bugetul asigurărilor sociale de stat:(i) cheltuieli de personal(ii) bunuri și servicii</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>d) alte tipuri de cheltuieli(Se va menționa natura acestora.)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.3. Impact financiar,plus/minus, din care:a) buget de stat</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>b) bugete locale</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.4. Propuneri pentru acoperirea creșterii cheltuielilor bugetare</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.5. Propuneri pentru a compensa reducerea veniturilor bugetare</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.6. Calcule detaliate privind fundamentarea modificărilor veniturilor și/sau cheltuielilor bugetare</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="7">4.7. Prezentarea, în cazul proiectelor de acte normative a căror adaptare atrage majorarea cheltuielilor bugetare, a următoarelor documente:a) fișa financiară prevăzută la art. 15 din Legea nr. 500/2002 privind finanțele publice, cu modificările și completările ulterioare, însoțită de ipotezele și metodologia de calcul utilizată;b) declarație conform căreia majorarea de cheltuială respectivă este compatibilă cu obiectivele și prioritățile strategice specificate în strategia fiscal-bugetară, cu legea bugetară anuală și cu plafoanele de cheltuieli prezentate în strategia fiscal-bugetară.</td></tr>
+</tbody>
+</table>
+
+# Secțiunea a 5-a
+
+# Efectele proiectului de act normativ asupra legislației în vigoare
+
+| 5.1. Măsuri normative necesare pentru aplicarea prevederilor proiectului de act normativa) acte normative ce vor fi modificate sau abrogate ca urmare a intrării în vigoare a proiectului de act normativ.Legea nr. 207/2015 privind Codul de procedură fiscală, cu modificările și completările ulterioare |
+| --- |
+| 5.2. Impactul asupra legislației în domeniul achizițiilor publice |
+| 5.3. Conformitatea proiectului de act normativ cu legislația UE (în cazul proiectelor ce transpun sau asigură aplicarea unor prevederi de drept UE) |
+| Actul normativ asigură conformarea cu prevederile Directivei (UE) 2025/872 a Consiliului din 14 aprilie 2025 de modificare a Directivei 2011/16/UE privind cooperarea administrativă în domeniul fiscal. |
+| 5.3.1. Măsuri normative necesare transpunerii directivelor UE |
+| Ordonanța asigură transpunerea Directivei (UE) 2025/872 a Consiliului din 14 aprilie 2025 de modificare a Directivei 2011/16/UE privind cooperarea administrativă în domeniul fiscal, cu excepția Secțiunii IV din Anexa acesteia. Scopul este de a institui mecanisme clare și eficiente de cooperare administrativă, pentru asigurarea schimbului automat de informații referitoare la impozitul suplimentar datorat de entitățile constitutive ale grupurilor multinaționale și naționale de mari dimensiuni. În esență, DAC9 contribuie la eforturile UE de a raționaliza obligațiile de raportare și de a reduce sarcina asupra întreprinderilor din UE. |
+| 5.3.2. Măsuri normative necesare aplicării actelor legislative UE |
+| Ordinul Președintelui A.N.A.F. ce reglementează aprobarea modelului standard de Declarație informativă privind impozitul suplimentar din Secțiunea IV din Directiva (UE) 2025/872, care se aprobă în termen de 60 de zile de la data intrării în vigoare a ordonanței. |
+| Ordinul președintelui A.N.A.F. privind ducerea la îndeplinire a prevederilor art. 305^1 alin. (1) în ceea ce privește raportarea și comunicarea NIF. |
+| 5.4. Hotărâri ale Curții de Justiție a Uniunii Europene - |
+| 5.5. Alte acte normative și/sau documente internaționale din care decurg angajamente asumate |
+| 5.6. Alte informații |
+
+## Secțiunea a 6-a
+
+Consultările efectuate în vederea elaborării proiectului de act normativ
+
+6.1. Informații privind neaplicarea procedurii de participare la elabor actelor normative
+
+| 6.2. Informații privind procesul de consultare cu organizații neguvernamentale, institute de cercetare și alte organisme implicate |
+| --- |
+| 6.3. Informații despre consultările organize cu autoritățile administrației publice locale |
+| 6.4. Informații privind puncte de vedere/opinii emise de organisme consulative constituite prin acte normative |
+| 6.5. Informații privind avizarea de către: |
+| a) Consiliul Legislativ |
+| Proiectul prezentului act normativ a fost avizat de Consiliul Legislativ prin avizul nr. 120/2026. |
+| b) Consiliul Suprem de Apărare a Țării |
+| c) Consiliul Economic și Social - Proiectul prezentului act normativ a fost avizat de Consiliul Economic și Social prin avizul nr. 707/2026. |
+| d) Consiliul Concurenței |
+| e) Curtea de Conturi |
+| 6.6. Alte informații |
+
+## Secțiunea a 7-a
+
+## Activități de informare publică privind elaborarea și implementarea proiectului de act normativ
+
+7.1. Informarea societății civile cu privire la elaborarea proiectului de act normativ
+
+Proiectul de act normativ a fost supus dezbaterii publice prin afișare la data de 23.01.2026 pe site-ul Ministerului Finanțelor potrivit dispozițiilor art. 7 alin. (13) din Legea nr. 52/2003 privind transparența decizională în administrația publică, republicată, având în vedere că termenul de transpunere al Directivei a fost 31.12.2025 și că exista riscul declanșării procedurii de infringement. De asemenea, proiectul a fost dezbătut în cadrul Comisiei de Dialog Social la care au participat reprezentanți ai organismelor interesate, în data de 28.01.2026.
+
+7.2. Informarea societății civile cu privire la eventualul impact asupra mediului în urma implementării proiectului de act normativ, precum și efectele asupra sănătății și securității cetățenilor sau diversității biologice
+
+7.3. Alte informații
+
+## Secțiunea a 8- a
+
+Măsuri privind implementarea, monitorizarea și evaluarea proiectului de act normativ
+
+8.1. Măsuri de punere în aplicare a proiectului de act normativ 8.2. Alte informații
+
+Față de cele prezentate, a fost elaborat proiectul de Lege privind aprobarea Ordonanței Guvernului pentru modificarea și completarea Legii nr. 207/2015 privind Codul de procedură fiscală, pe care îl supunem Parlamentului spre adoptare.
+
+PRIM-MINISTRU
+
+ILIE-GAVRIL BOLOJAN

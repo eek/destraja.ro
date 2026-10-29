@@ -1,0 +1,124 @@
+# EXPUNERE DE MOTIVE
+
+Prezenta inițiativă legislativă are ca obiect clarificarea și completarea cadrului juridic aplicabil societăților agricole constituite în temeiul Legii nr. 36/1991, în vederea reglementării explicite a posibilității transformării acestora în cooperative agricole, precum și a stabilirii efectelor juridice ale unei asemenea operațiuni.
+
+Necesitatea intervenției legislative derivă din absența unor dispoziții exprese și coerente care să permită adaptarea formelor associative existente la exigențele actuale ale economiei agricole și la evoluția cadrului normativ. În forma actuală, reglementarea transformării este insuficientă, având impact direct asupra eficienței activității entităților agricole și asupra accesului la mecanisme moderne de organizare și finanțare.
+
+Soluția normativă propusă instituie un mecanism clar și complet de transformare a societăților agricole în cooperative agricole, consacrând caracterul continuu al activității și evitând recurgerea la proceduri de lichidare care ar afecta stabilitatea raporturilor juridice și economice existente. Reglementarea transmiterii universale a patrimoniului și a succesiunii de drept în privința tuturor drepturilor și obligațiilor asigură continuitatea juridică a entității rezultate și protejează atât interesele membrilor, cât și pe cele ale terților. În același timp, menținerea autorizațiilor, avizelor și subvențiilor contribuie la prevenirea blocajelor administrative și la garantarea unei tranziții funcționale între cele două forme de organizare.
+
+Inițiativa legislativă consacră, de asemenea, garanții adecvate pentru protecția drepturilor membrilor, prin stabilirea unei proceduri decizionale clare și prin recunoașterea dreptului de retragere pentru cei care nu sunt de acord cu transformarea, în condiții echitabile. Totodată, sunt prevăzute elementele esențiale care trebuie să se regăsească în hotărârea de transformare, asigurându-se astfel transparența și previzibilitatea procesului.
+
+Corelarea intervenției legislative cu dispozițiile Legii cooperației agricole nr. 566/2004 are ca finalitate integrarea coerentă a noi instituții juridice în ansamblul normativ existent, evitând paralelismele și asigurând unitatea reglementării. În acest sens, este consacrată expres posibilitatea constituirii cooperativei agricole prin transformare, precum și efectul succesiunii de drept, inclusiv din perspectivă fiscală, prin stabilirea caracterului neimpozabil al operațiunii. Această soluție este de natură să elimine barierele fiscale care ar putea descuraja reorganizarea și să creeze un cadru favorabil dezvoltării formelor asociative eficiente în agricultură.
+
+Prin conținutul său, reglementarea propusă răspunde necesității de modernizare a structurilor agricole, facilitând tranziția către modele de organizare adaptate cerințelor actuale ale pieței și politicilor publice în domeniu. Totodată, aceasta contribuie la consolidarea securității juridice, la stimularea cooperării între producători și la creșterea competitivității sectorului agricol, în condiții de claritate, coerență și previzibilitate normativă.
+
+INIȚIATOR:
+
+Senator AUR Daniela Ștefănescu \_\_\_\_
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege pentru modificarea și completarea Legii nr. 36/1991 privind societățile agricole și alte forme de asociere în agricultură și a Legii cooperației agricole nr. 566/2004
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1. | SIMION GEORGE NICOLAE | AUR |  |
+| 2. | ΠΙΕΑ ΟΤΡΟ | AUR |  |
+| 3. | Velocru floren Bogdom | AOR |  |
+| 4. | IUIURA CRISTINA -IKIM | AUR |  |
+| 5. | GURLOI HIWIU -OCTAVIAN | AUR |  |
+| 6. | Vulpoiu Dorel | ACIR |  |
+| 7. | DASCALU CRISTINA EMANUELA | AUR |  |
+| 8. | VĂRSAM CIPRIAN NICOLAE | AUR |  |
+| 9. | Badiu Geogel | AUR |  |
+| 10. | CAIU GAB MATIBS | AUR |  |
+| 11. | BAOEA ΜΕΤΟ VALENTIN | AUR |  |
+| 12. | iAGAN MONICA | AUR |  |
+| 13. | PUSCASU PETRE | AUR |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege pentru modificarea și completarea Legii nr. 36/1991 privind societățile agricole și alte forme de asociere în agricultură și a Legii cooperației agricole nr. 566/2004
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 14. |  | AUR |  |
+| 15. | GHEORGIAE CONEL | AUR |  |
+| 16. | MiHAESU MUGUR | AUR |  |
+| 17. | VANIM-TUSOR LIIJA | AUR |  |
+| 18. | Phiscu loneliu | AUR |  |
+| 19. | CIPRAN PARASCHU | AUR |  |
+| 20. | POPESU ANTONIO GABI | AUR |  |
+| 21. | ARIADNA-ECENA CIRLIGEANLI | A.U.R. |  |
+| 22. | ENACHE DIANA | AUR |  |
+| 23. | GHERASIM LAURA | AUR |  |
+| 24. | NEGOESCU MIHAI-BOGDAN | AUR |  |
+| 25. | PASCARIU MIHAI-COSMIN | AUR |  |
+| 26. | IAMASA DAN | AUR |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege pentru modificarea și completarea Legii nr. 36/1991 privind societățile agricole și alte forme de asociere în agricultură și a Legii cooperației agricole nr. 566/2004
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 24. | COLESA i'IE-AU'W | AUR |  |
+| 28. | MUSAI LUNAN | AUR |  |
+| 29. | IOUIN RAMONA | AUR |  |
+| 30. | Vulpoiu Dorel | AUR |  |
+| 31. | KOLCE EDWARD | AUR |  |
+| 32. | MICLAY SAMUEL - MIRWIC | AUR |  |
+| 33. | MITREA DUMITEINA | AUR |  |
+| 34. | PAUNESCU SILVIU - TIRUJ | AUR |  |
+| 35. | JIRO DANIEC - RAZVAN | AUR |  |
+| 36. | IOSUB COSMIN - TOODOR | AUR |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege pentru modificarea și completarea Legii nr. 36/1991 privind societățile agricole și alte forme de asociere în agricultură și a Legii cooperației agricole nr. 566/2004
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1 | Petrișor Peiv | AUR |  |
+| 2 | Ploesu Lawrenciu | AUR |  |
+| 3. | CONSTANINESCU RODICA | AUR |  |
+| 4. | Pete Groupe Cepes | AUR |  |
+| 5 | Luminita Păuceau- FERNANDES | AUR |  |
+| 6 | Jffan Geanam | AUR |  |
+| 7 | JTEEA Niuu NA | AUR |  |
+| 8 | Sijos CBISTIAN | ALIR |  |
+| 9 | Loco B. Epiou | AUR |  |
+| 10 | VASILE MARIAN | AUR |  |
+| 11 | STOICA CIPRIAN-TINI | A.V.R. |  |
+| 12 | Costache Phochi | A.V.R. |  |
+| 13. | Javrie Souin | AUR |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege pentru modificarea și completarea Legii nr. 36/1991 privind societățile agricole și alte forme de asociere în agricultură și a Legii cooperației agricole nr. 566/2004
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td rowspan="12">Semnătura</td></tr>
+<tr><td>14.</td><td>Stefouescu Daniela</td><td>AUR</td></tr>
+<tr><td>15.</td><td>Romoan ellocius - Valemthu</td><td>AUR</td></tr>
+<tr><td>16.</td><td>NUMITBESCU CRISTINA - GABRIELLA</td><td>AUR</td></tr>
+<tr><td>17.</td><td>PARCARI BORINA</td><td>AUR</td></tr>
+<tr><td>18.</td><td>Nirlau Andrei - Emil</td><td>AUR</td></tr>
+<tr><td>19.</td><td>Parasca Veofil</td><td>AUR</td></tr>
+<tr><td>20.</td><td>SANDU HIRCEA - IONUT</td><td>AUR</td></tr>
+<tr><td>21.</td><td>Silegoanu Colouin</td><td>AUR</td></tr>
+<tr><td>22.</td><td>Spau Dumitra</td><td>AUR</td></tr>
+<tr><td>23.</td><td>Vlaescu Virgiliu - George</td><td>AUR</td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+Către Biroul Permanent al Senatului,
+
+Subsemnatul, Senator Nicolae Vlahu, membru al Grupului Parlamentar AUR, senator ales în Circumscripția electorală nr. 14 Constanța, solicit să devin coinițiator la Propunerea legislativă pentru modificarea și completarea Legii nr. 36/1991 privind societățile agricole și alte forme de asociere în agricultură și a Legii cooperației agricole nr. 566/2004 (L409/2026), înregistrată la Senat pentru dezbatere.
+
+Senator Nicolae Vlahu, Grupul parlamentar AUR

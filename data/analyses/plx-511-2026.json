@@ -1,0 +1,128 @@
+{
+  "billId": "PL-x 511/2026",
+  "slug": "plx-511-2026",
+  "updatedAt": "2026-10-29T00:04:27.141Z",
+  "consensus": {
+    "riskScore": 3.3,
+    "riskLevel": "green",
+    "plainTitle": "Ordine în conturile statului: fiecare funcționar primește doar accesul de care are nevoie, iar tot ce face rămâne înregistrat",
+    "summaryTlDr": "Lege tehnică și utilă, care obligă instituțiile să țină evidența cine are acces la ce în sistemele informatice ale statului și să înregistreze orice operațiune. Problemele țin de redactare: legea nu spune cine administrează registrele, cine plătește amenda și de la ce dată se aplică sancțiunile.",
+    "initiatorClaim": "Inițiatorii USR spun că instituțiile acordă drepturi de acces local, neuniform și greu de auditat, cu conturi care au mai multe drepturi decât trebuie și revocări întârziate. Vor un model național obligatoriu: instituție → structură → post → rol digital → operațiune permisă → audit.",
+    "realityCheck": "Legea creează trei registre (RUIP, ODN, RFROD) și obligă instituțiile să întocmească matrici de autorizare, să jurnalizeze operațiunile și să facă audit anual, cu amenzi de 2.500–5.000 lei pentru neactualizare. Aproape tot conținutul concret (structura registrelor, procedurile, standardele de interoperabilitate, durata păstrării jurnalelor) este lăsat pe normele Guvernului, iar operatorul registrelor nu este numit. Etapizarea, recertificarea rolurilor critice și sancțiunile pentru acordarea nelegală a accesului, promise în Expunere, lipsesc din text. Cetățenii și firmele nu primesc obligații noi.",
+    "affectedGroups": [
+      "IT & AI",
+      "Angajați & HR",
+      "Toți cetățenii",
+      "Justiție & Drepturi Civile"
+    ],
+    "senatForm": {
+      "articleRef": "Art. 21 alin. (1), (3) și alin. (5) nou",
+      "proposalContent": "(1) Constituie contravenție neînscrierea sau neactualizarea, în 10 zile lucrătoare de la modificare, a datelor din RUIP, ODN sau a matricilor de autorizare, săvârșită de persoana desemnată potrivit art.7 ori, în lipsa ei, de conducătorul entității. (3) Constată personalul împuternicit al SGG. (5) nou: Alin.(1) se aplică după 12 luni de la intrarea în vigoare.",
+      "argumentation": "Art.21 nu spune cine răspunde (instituția sau funcționarul) și sancționează depășirea „termenelor prevăzute de prezenta lege”, deși pentru ODN și matrici legea nu fixează niciun termen. Organul constatator e vag („din cadrul guvernului”). Fără tranziție, s-ar amenda înainte să existe registrele. Norma sancționatoare trebuie să fie clară (art.1 alin.5 Constituție).",
+      "otherComments": "Art.14(3) trimite greșit la alin.(1), nu (2). Legea nu numește operatorul RUIP, ODN, RFROD și al mecanismului de autorizare; să fie numit expres. Jurnalele (art.18) conțin date personale ale funcționarilor: durata maximă de păstrare trebuie fixată în lege. Art.1 alin.(2): Parlamentul, instanțele și autoritățile autonome să aplice legea prin acte proprii."
+    }
+  },
+  "council": {
+    "agy": {
+      "model": "agy",
+      "status": "ok",
+      "durationMs": 55732,
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Organigrama digitală și controlul accesului funcționarilor în sistemele IT ale statului",
+      "verdictShort": "O lege utilă și bine intenționată care pune ordine în drepturile de acces ale angajaților la stat și impune trasabilitatea operațiunilor în sistemele publice, fără costuri pentru cetățeni sau firme. Textul adoptat de Senat conține însă câteva scăpări tehnice de redactare (amenzi fără termene-limită în lege și instituții necorelate) care trebuie corectate în comisii.",
+      "initiatorClaim": "Inițiatorii vor să elimine haosul din sistemele informatice ale instituțiilor publice, unde conturile angajaților rămân adesea active sau supra-privilegiate după schimbarea ori încetarea funcției, prin crearea unei organigrame digitale naționale și a unui sistem standardizat de autorizare și audit.",
+      "realityCheck": "Legea instituie trei registre naționale (RUIP, ODN și RFROD) și obligă instituțiile să lege fiecare cont IT de un post real din organigramă și să jurnalizeze orice acțiune cu marcă temporală. Totuși, proiectul lasă aproape toată arhitectura tehnică în seama unei viitoare Hotărâri de Guvern, nu precizează ce instituție operează tehnic registrele și sancționează contravențional depășirea unor termene care nici măcar nu sunt scrise în lege pentru două dintre instrumente.",
+      "affectedGroups": [
+        "IT & AI",
+        "Angajați & HR",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Introduce trei evidențe centrale obligatorii pentru sectorul public: Registrul Unic al Instituțiilor Publice (RUIP - Art. 5), Organigrama Digitală Națională (ODN - Art. 8) și Registrul Funcțiilor, Rolurilor și Operațiunilor Digitale (RFROD - Art. 11).",
+        "Obligă instituțiile să revoce sau să actualizeze fără întârziere drepturile de acces IT atunci când un funcționar își încetează raportul de serviciu, este suspendat sau delegat (Art. 13 și Art. 16) și să păstreze jurnale cu marcă temporală (Art. 18).",
+        "Art. 21 alin. (1) sancționează cu amendă între 2.500 și 5.000 lei neactualizarea datelor în RUIP, ODN și a matricilor de autorizare „în termenele prevăzute de prezenta lege”, deși legea stabilește un termen (10 zile lucrătoare, Art. 7) doar pentru RUIP, nu și pentru ODN sau matrici.",
+        "Arhitectura instituțională este incompletă: deși Secretariatul General al Guvernului (SGG) coordonează implementarea și primește rapoartele anuale de audit (Art. 19-20), legea nu desemnează administratorul tehnic al registrelor și ignoră rolul ADR și al ANFP."
+      ],
+      "blindSpotsCaught": "1) Eroare materială la Art. 14 alin. (3): textul face trimitere la „Mecanismul prevăzut la alin. (1)”, însă mecanismul național de autorizare este reglementat la alin. (2), alin. (1) fiind doar o definiție a autentificării. 2) Art. 21 nu clarifică dacă amenda contravențională se aplică instituției publice sau funcționarului responsabil desemnat. 3) Expunerea de motive susține la pct. 7 că legea „nu prelucrează date personale”, afirmație contrazisă chiar de Art. 14 și Art. 18, care impun autentificarea persoanelor fizice și jurnalizarea acțiunilor cu elemente de identificare a utilizatorului.",
+      "constitutionalityNote": "Sub aspectul Art. 1 alin. (5) din Constituție (calitatea și previzibilitatea legii), norma contravențională de la Art. 21 alin. (1) este vulnerabilă deoarece sancționează nerespectarea unor termene inexistente în corpul legii pentru actualizarea ODN și a matricilor de autorizare, fără a individualiza clar subiectul activ al contravenției (entitatea publică vs. persoana fizică desemnată). De asemenea, delegarea integrală a procedurilor de administrare a registrelor către norme metodologice (HG) ar trebui dublată de nominalizarea expresă în legea primară a autorității care gestionează infrastructura.",
+      "euLawNote": "Proiectul este aliniat cu cerințele Directivei (UE) 2022/2555 (NIS2) privind controlul accesului și igiena cibernetică în entitățile din administrația publică, precum și cu Regulamentul eIDAS. Fiind o reglementare aplicabilă exclusiv organizării interne a administrației publice, nu ridică bariere pe piața unică (Directiva 2018/958) și nu impune obligații furnizorilor privați de servicii ale societății informaționale (Directiva TRIS 2015/1535). Prelucrarea jurnalelor de acces ale angajaților publici rămâne supusă rigorilor GDPR (Regulamentul 2016/679), așa cum recunoaște Art. 3.",
+      "senatForm": {
+        "articleRef": "Art. 14 alin. (3) și Art. 21 alin. (1)",
+        "proposalContent": "La art. 14 alin. (3), trimiterea la „alin. (1)” se înlocuiește cu „alin. (2)”. La art. 21 alin. (1), textul se modifică astfel: „Constituie contravenție a persoanei desemnate potrivit art. 7 alin. (1) neînscrierea sau neactualizarea datelor în RUIP și ODN, ori a matricilor de autorizare, în termen de 10 zile lucrătoare de la producerea modificării.”",
+        "argumentation": "Art. 21 alin. (1) sancționează neactualizarea datelor în ODN și a matricilor de autorizare „în termenele prevăzute de prezenta lege”, însă legea prevede un termen (10 zile lucrătoare) doar pentru RUIP (art. 7), nu și pentru ODN sau matrici, și nu precizează subiectul sancțiunii. De asemenea, la art. 14 alin. (3) există o eroare materială de trimitere la alin. (1) în loc de alin. (2).",
+        "otherComments": "Se recomandă nominalizarea expresă în lege (art. 5, 8 și 11) a autorităților care administrează tehnic registrele RUIP, ODN și RFROD (ex. ADR în colaborare cu ANFP și SGG), pentru a evita suprapunerea cu evidența funcțiilor publice gestionată deja de ANFP potrivit Codului administrativ și cu Legea interoperabilității nr. 242/2022."
+      }
+    },
+    "claude": {
+      "model": "claude",
+      "status": "ok",
+      "durationMs": 206270,
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Ordine în conturile statului: fiecare funcționar primește doar accesul de care are nevoie, iar tot ce face rămâne înregistrat",
+      "verdictShort": "Lege tehnică și utilă, care obligă instituțiile să țină evidența cine are acces la ce în sistemele informatice ale statului și să înregistreze orice operațiune. Problemele țin de redactare: legea nu spune cine administrează registrele, cine plătește amenda și de la ce dată se aplică sancțiunile.",
+      "initiatorClaim": "Inițiatorii USR spun că instituțiile acordă drepturi de acces local, neuniform și greu de auditat, cu conturi care au mai multe drepturi decât trebuie și revocări întârziate. Vor un model național obligatoriu: instituție → structură → post → rol digital → operațiune permisă → audit.",
+      "realityCheck": "Legea creează trei registre (RUIP, ODN, RFROD) și obligă instituțiile să întocmească matrici de autorizare, să jurnalizeze operațiunile și să facă audit anual, cu amenzi de 2.500–5.000 lei pentru neactualizare. Aproape tot conținutul concret (structura registrelor, procedurile, standardele de interoperabilitate, durata păstrării jurnalelor) este lăsat pe normele Guvernului, iar operatorul registrelor nu este numit. Etapizarea, recertificarea rolurilor critice și sancțiunile pentru acordarea nelegală a accesului, promise în Expunere, lipsesc din text. Cetățenii și firmele nu primesc obligații noi.",
+      "affectedGroups": [
+        "IT & AI",
+        "Angajați & HR",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 21: amenda de 2.500–5.000 lei nu are un subiect precizat (instituția, responsabilul din art. 7 sau conducătorul?). Ea sancționează depășirea „termenelor prevăzute de prezenta lege”, deși singurul termen din lege este cel de 10 zile lucrătoare pentru actualizarea RUIP (art. 7). Pentru ODN și pentru matricile de autorizare nu există niciun termen.",
+        "Art. 5, 8, 11 și 14 înființează RUIP, ODN, RFROD și un „mecanism național de autorizare”, dar nu spun cine le construiește și administrează. SGG primește doar coordonarea implementării (art. 20) și platforma pentru rapoartele de audit (art. 19).",
+        "Art. 14 alin. (3) trimite la „mecanismul prevăzut la alin. (1)”, dar alin. (1) privește autentificarea. Mecanismul național de autorizare apare la alin. (2), deci trimiterea este greșită.",
+        "Expunerea afirmă că legea „nu prelucrează date personale”, dar art. 18 cere jurnalizarea fiecărei operațiuni cu elemente de identificare a persoanei, iar rolurile digitale leagă posturile din ODN de oameni concreți. Durata păstrării jurnalelor și accesul la ele sunt lăsate integral pe norme (art. 18 alin. 2).",
+        "Lipsește tranziția: normele se adoptă în 90 de zile (art. 22) și legea intră în vigoare la 180 de zile (art. 23), dar nu există termen pentru integrarea sistemelor existente (art. 17) și nici amânarea sancțiunilor până când registrele funcționează efectiv.",
+        "Art. 1 alin. (2) se aplică literal tuturor autorităților publice centrale, deci și Parlamentului, instanțelor și autorităților autonome, care ar ajunge coordonate și amendate de personal al Guvernului (art. 20–21).",
+        "Partea bună: art. 13 și 16 cer modificarea sau revocarea fără întârziere a accesului la schimbarea funcției, la delegare sau la încetarea raportului de muncă. Art. 20 alin. (2) impune un raport public anual cu incidentele semnificative de acces. Ambele lovesc direct în conturile „fantomă” și în accesările abuzive din bazele de date ale statului."
+      ],
+      "blindSpotsCaught": "Art. 7 alin. (2) combinat cu art. 21 pune răspunderea pe „responsabilul desemnat”, de regulă un funcționar de execuție, care poate fi amendat personal chiar dacă întârzierea vine de la conducere sau din lipsa platformei. Definiția „entităților publice” (art. 4 lit. e) include entitățile „sub autoritatea” ministerelor și consiliilor locale, deci posibil și regiile și societățile cu capital de stat. Art. 8 vorbește însă doar de „instituții publice”, așa că nu e clar cine intră în ODN. Termenul „fără întârziere” din art. 13 și 16 nu este măsurabil și nu e corelat cu cele 10 zile din art. 7. Textul nu se corelează nici cu Legea nr. 242/2022 (Platforma națională de interoperabilitate, administrată de ADR), nici cu regimul NIS2 (OUG nr. 155/2024, DNSC), ceea ce riscă suprapuneri de competențe între SGG, ADR și DNSC.",
+      "constitutionalityNote": "Art. 1 alin. (5), previzibilitatea: art. 21 are subiect activ nedeterminat, termene inexistente pentru ODN și matrici și un organ constatator vag („personalul împuternicit din cadrul guvernului”), la care se adaugă trimiterea greșită din art. 14 alin. (3). Delegarea către HG (art. 12 alin. 4, 13 alin. 2, 15 alin. 2, 17, 18 alin. 2) este acceptabilă pentru detalii tehnice. Elementele esențiale ale unei ingerințe în viața privată a funcționarilor (art. 26), adică durata păstrării jurnalelor și cine le poate consulta, ar trebui însă fixate în lege. Art. 1 alin. (4), separația puterilor: fără o excepție sau un regim propriu pentru Parlament (art. 64), justiție (art. 124–126, 133) și autoritățile autonome, coordonarea și sancționarea lor de către Guvern sunt discutabile. Art. 120–121, autonomia locală: obligațiile de evidență sunt compatibile, dar amendarea funcționarilor locali de către Guvern trebuie bine încadrată. Art. 138 alin. (5): inițiativa produce costuri (integrarea aplicațiilor, auditul anual) fără o fișă financiară propriu-zisă, iar Expunerea spune doar „în limitele creditelor bugetare aprobate”. Este un risc cunoscut în practica CCR. Adoptarea ca lege ordinară (art. 76 alin. 2) pare corectă, fiindcă legea nu reorganizează administrația, ci impune evidențe.",
+      "euLawNote": "Directiva 2018/958 nu se aplică, fiindcă legea nu reglementează accesul la profesii sau exercitarea lor. Nici TRIS (2015/1535) nu pare aplicabilă: textul organizează funcționarea internă a administrației și nu impune reguli pentru servicii ale societății informaționale sau specificații pentru produse puse pe piață. Merită verificat doar dacă normele metodologice vor impune standarde tehnice obligatorii pentru software comercializat în general, nu doar pentru achizițiile publice. GDPR: jurnalele (art. 18) și legarea rolurilor de persoane înseamnă prelucrarea datelor funcționarilor. Temeiul legal (art. 6 alin. 1 lit. c/e și alin. 3) trebuie să precizeze scopul și limita de stocare (art. 5 alin. 1 lit. e), care acum sunt lăsate pe HG, iar afirmația din Expunere că nu se prelucrează date personale este greșită. Pe partea pozitivă, legea ajută la conformarea cu NIS2 (Directiva 2022/2555, art. 21 alin. 2 lit. i, politici de control al accesului) și se poate corela cu eIDAS 2 (Reg. 2024/1183) prin art. 15 și cu Interoperable Europe Act (Reg. 2024/903). Pe concurență: nu se creează niciun monopol; furnizorii IT ai statului vor trebui doar să respecte interfețe comune.",
+      "senatForm": {
+        "articleRef": "Art. 21 alin. (1), (3) și alin. (5) nou",
+        "proposalContent": "(1) Constituie contravenție neînscrierea sau neactualizarea, în 10 zile lucrătoare de la modificare, a datelor din RUIP, ODN sau a matricilor de autorizare, săvârșită de persoana desemnată potrivit art.7 ori, în lipsa ei, de conducătorul entității. (3) Constată personalul împuternicit al SGG. (5) nou: Alin.(1) se aplică după 12 luni de la intrarea în vigoare.",
+        "argumentation": "Art.21 nu spune cine răspunde (instituția sau funcționarul) și sancționează depășirea „termenelor prevăzute de prezenta lege”, deși pentru ODN și matrici legea nu fixează niciun termen. Organul constatator e vag („din cadrul guvernului”). Fără tranziție, s-ar amenda înainte să existe registrele. Norma sancționatoare trebuie să fie clară (art.1 alin.5 Constituție).",
+        "otherComments": "Art.14(3) trimite greșit la alin.(1), nu (2). Legea nu numește operatorul RUIP, ODN, RFROD și al mecanismului de autorizare; să fie numit expres. Jurnalele (art.18) conțin date personale ale funcționarilor: durata maximă de păstrare trebuie fixată în lege. Art.1 alin.(2): Parlamentul, instanțele și autoritățile autonome să aplice legea prin acte proprii."
+      }
+    },
+    "codex": {
+      "model": "codex",
+      "status": "ok",
+      "durationMs": 92163,
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Reguli comune pentru accesul angajaților la sistemele digitale ale statului",
+      "verdictShort": "Proiectul urmărește un obiectiv util: acces controlat și verificabil la sistemele administrației. Riscul moderat vine din sancțiuni insuficient delimitate, termene necorelate și garanții incomplete pentru implementare și date personale.",
+      "initiatorClaim": "Inițiatorii vor să unifice evidența instituțiilor, structurilor și drepturilor digitale, reducând accesul nejustificat și fragmentarea aplicațiilor publice. Promit servicii mai eficiente, costuri mai mici și identificarea persoanei care a efectuat fiecare operațiune.",
+      "realityCheck": "Articolele instituie trei evidențe naționale, matrici obligatorii de autorizare, interoperabilitate, jurnalizare și audit anual, fără taxe sau formalități noi impuse direct cetățenilor și IMM-urilor private obișnuite. Totuși, nu desemnează expres administratorii fiecărui registru și ai mecanismului de autorizare, iar coordonarea SGG nu rezolvă singură aceste responsabilități. Etapizarea și economiile promise în expunere nu sunt concretizate printr-un calendar de implementare și o estimare financiară în textul furnizat.",
+      "affectedGroups": [
+        "IT & AI",
+        "Angajați & HR",
+        "Justiție & Drepturi Civile",
+        "IMM & Antreprenori",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Beneficiu real: art. 12–18 cer corelarea accesului cu atribuțiile, actualizarea drepturilor și jurnalizarea operațiunilor. Aceste măsuri pot reduce conturile cu privilegii excesive și accesul păstrat după încetarea raportului de muncă.",
+        "Art. 21 sancționează neînscrierea sau neactualizarea RUIP, ODN și matricilor, dar art. 7 fixează numai termenul de actualizare RUIP: 10 zile lucrătoare. Lipsesc termenele de înscriere inițială și cele pentru ODN și matrici; nici persoana amendată nu este identificată suficient de clar pentru toate situațiile.",
+        "Amenda de 2.500–5.000 lei nu este, prin cuantum, vădit disproporționată. Problema principală este delimitarea faptei și a răspunderii; OG nr. 2/2001 cere vinovăție și individualizarea proporțională a sancțiunii. [OG nr. 2/2001](https://legislatie.just.ro/Public/DetaliiDocument/202882)",
+        "Art. 23 activează legea la 180 de zile de la publicare, însă art. 22 permite aprobarea normelor în următoarele 90 de zile. Rezultă un posibil interval de până la 90 de zile cu obligații în vigoare și fără regulile tehnice necesare aplicării.",
+        "Art. 10 alin. (2) permite atribuirea rolurilor numai pentru funcții și posturi înscrise în ODN. Trebuie delimitat accesul personalului instituțiilor de accesul cetățenilor, reprezentanților firmelor și prestatorilor externi autorizați; formularea generală a art. 14 poate genera interpretări care blochează accesul legitim.",
+        "Art. 17 și 19 produc cheltuieli pentru integrarea aplicațiilor, administrarea drepturilor și auditul anual, inclusiv în instituțiile locale mici. Furnizorii IT pot suporta indirect costuri contractuale de adaptare, dar textul nu rezervă piața unui furnizor și nu instituie licențe profesionale sau monopoluri private.",
+        "Expunerea susține că proiectul nu prelucrează date personale, însă autentificarea și jurnalele identificabile presupun asemenea prelucrări. Art. 3 păstrează aplicabilitatea legislației de protecție a datelor, dar nu înlocuiește clarificarea responsabilităților și garanțiilor concrete."
+      ],
+      "blindSpotsCaught": "Art. 14 alin. (3) trimite la alin. (1), care descrie autentificarea, deși mecanismul național de autorizare apare la alin. (2): trimiterea trebuie corectată. În plus, expunerea promite sancționarea acordării nelegale a accesului, dar art. 21 sancționează numai omisiuni privind evidențele; alte forme de răspundere pot exista în legislația generală. Proiectul cere interoperabilitate, fără să impună expres o bază unică centralizată pentru toate jurnalele sau publicarea nominală a tuturor angajaților.",
+      "constitutionalityNote": "Principala vulnerabilitate privește art. 1 alin. (5): faptele sancționate, destinatarii și termenele trebuie să fie clare. Detaliile tehnice pot fi stabilite prin HG, dar aceasta nu ar trebui să suplinească elementele esențiale lipsă ale obligațiilor și răspunderii. Art. 23 alin. (12) privește legalitatea pedepselor; pentru aceste contravenții, critica trebuie fundamentată prioritar pe art. 1 alin. (5), fără calificarea automată a amenzii drept pedeapsă penală. Garanțiile pentru jurnalele identificabile interesează și art. 26. Cheltuielile impun verificarea informării Guvernului potrivit art. 111 alin. (1) și a sursei de finanțare potrivit art. 138 alin. (5); documentele furnizate nu dovedesc singure încălcarea procedurii. Adoptarea ca lege ordinară nu este automat greșită: evidența digitală a posturilor nu echivalează, prin ea însăși, cu modificarea statutului funcționarilor ori a organizării generale a administrației. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355)",
+      "euLawNote": "Directiva 2018/958 privește restricțiile asupra accesului la profesii reglementate sau exercitării lor, nu orice standard administrativ. Proiectul nu introduce cerințe de calificare ori activități profesionale rezervate, deci nu rezultă obligația testului specific acestei directive. [Directiva 2018/958, art. 1–2](https://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32018L0958). Notificarea TRIS nu devine obligatorie numai deoarece legea privește sisteme digitale: trebuie identificată o reglementare tehnică notificabilă sau o regulă care vizează specific servicii ale societății informaționale. Pentru guvernanța internă descrisă, obligația nu este demonstrată; standardele subsecvente trebuie analizate separat dacă introduc condiții obligatorii relevante pentru produse ori servicii comerciale. Textul nu reglementează specific AI. [Directiva 2015/1535, art. 1 și 5](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32015L1535). RGPD este relevant pentru identități și jurnale: trebuie precizate operatorii sau criteriile desemnării lor, scopurile, accesul și criteriile de retenție, cu minimizarea datelor și securitate adecvată. Evaluarea de impact este necesară dacă prelucrarea este susceptibilă să genereze risc ridicat, nu automat pentru orice registru. [RGPD, art. 5, 6, 25, 32 și 35](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32016R0679). Nu se identifică o discriminare explicită între furnizori; standardele viitoare trebuie să permită interoperabilitatea fără favorizarea nejustificată a unei tehnologii sau a unui operator.",
+      "senatForm": {
+        "articleRef": "Art. 21 alin. (1)",
+        "proposalContent": "Constituie contravenție neactualizarea din culpă, de către responsabilul desemnat potrivit art. 7 alin. (1), a datelor prevăzute la art. 6, în termenul prevăzut la art. 7 alin. (1), dacă RUIP este operațional și accesibil instituției. Sancțiunea se aplică după 90 de zile de la operaționalizarea RUIP, comunicată public.",
+        "argumentation": "Textul actual sancționează înscrierea și actualizarea ODN și a matricilor fără termene legale și fără identificarea clară a contravenientului. Propunerea limitează sancțiunea la obligația RUIP cu termen expres, identifică persoana răspunzătoare și evită amendarea înainte ca sistemul să poată fi folosit.",
+        "otherComments": "Propunere adresată comisiilor de raport ale Camerei Deputaților. Separat, stabiliți administratorii registrelor, termenele de înscriere inițială și actualizare ODN/matrici, garanțiile pentru date personale și finanțarea. Corectați art. 14 alin. (3): trimiterea corectă este la alin. (2). Normele trebuie aprobate înaintea aplicării obligațiilor."
+      }
+    }
+  }
+}

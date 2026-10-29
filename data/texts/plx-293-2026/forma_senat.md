@@ -1,0 +1,19 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+## LEGE
+
+pentru completarea art.15 alin.(2) din Legea nr.227/2015 privind Codul fiscal
+
+Senatul adoptă prezentul proiect de lege
+
+Art.I.- La articolul 15 alineatul (2) din Legea nr.227/2015 privind Codul fiscal, publicată în Monitorul Oficial al României, Partea I, nr.688 din 10 septembrie 2015, cu modificările și completările ulterioare, după litera p) se introduce o nouă literă, lit.q), cu următorul cuprins:
+
+„q) contribuțiile bănești achitate de beneficiarii serviciilor sociale furnizate, în condițiile legii, de către asociații, fundații sau federații acreditate ca furnizori de servicii sociale.”
+
+Art.II.- În termen de 30 de zile de la data intrării în vigoare a prezentei legi, Guvernul modifică în mod corespunzător Normele metodologice de aplicare a Legii nr.227/2015 privind Codul fiscal, aprobate prin Hotărârea Guvernului nr.1/2016, cu modificările și completările ulterioare.
+
+Acest proiect de lege a fost adoptat de Senat în ședința din 30 martie 2026, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.
+
+p. PREȘEDINTELE SENATULUI

@@ -1,0 +1,112 @@
+{
+  "slug": "plx-308-2026",
+  "billId": "PL-x 308/2026",
+  "updatedAt": "2026-10-29T13:03:31.518Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L151FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "BNR și ASF primesc puterea să sancționeze băncile, asigurătorii și firmele fintech care își neglijează securitatea IT",
+      "summaryTlDr": "Este o lege tehnică, obligatorie din dreptul UE, venită cu peste un an întârziere: numește polițiștii și stabilește amenzile pentru regulile europene DORA de reziliență digitală, care se aplică oricum din 17 ianuarie 2025. Singurul element pur național, obligația de notificare a procesatorilor de plăți (art. 4), e ușor, dar formulat prea larg.",
+      "scores": {
+        "agy": 3,
+        "claude": 2,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/300/00/8/se335.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "Controale și amenzi BNR/ASF pentru securitatea IT a băncilor, asigurătorilor, brokerilor și firmelor cripto (DORA)",
+      "summaryTlDr": "Lege tehnică și necesară: România stabilește, cu aproape 14 luni întârziere, cine controlează și cine sancționează regulile UE de reziliență digitală din sectorul financiar. Singura extindere națională, înregistrarea procesatorilor de plăți la BNR, e rezonabilă ca idee, dar definiția lor e prea largă.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat ordonanța fără modificări de fond; s-au completat doar numărul și data ei",
+      "summary": "Acum legea aprobă ordonanța la fel ca inițial. S-au adăugat doar numărul, data și Monitorul Oficial în care a apărut. Rămân obligațiile noi pentru procesatorii de plăți față de BNR și definiția lor prea largă.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Obligație națională peste DORA: procesatorii de plăți notifică BNR în 30 de zile",
+            "major": true,
+            "article": "art. 4"
+          },
+          {
+            "text": "Definiția prelucrării e deschisă și poate prinde orice firmă IT de securitate",
+            "major": true,
+            "article": "art. 3 alin. (1) pct. 5–6"
+          },
+          {
+            "text": "Obligația vizează și firme din alte state membre sau din afara UE",
+            "major": true,
+            "article": "art. 4"
+          },
+          {
+            "text": "Definiția cuprinde și persoane fizice, dar art. 4 vorbește doar de persoane juridice",
+            "major": false,
+            "article": "art. 3 alin. (1) și art. 4"
+          },
+          {
+            "text": "BNR poate cere datele oricând, fără motivare și fără termen",
+            "major": false,
+            "article": "art. 4"
+          },
+          {
+            "text": "Recomandările BNR pentru procesatori au efect juridic neclar: obligatorii sau nu",
+            "major": false,
+            "article": "art. 4 alin. (3)"
+          },
+          {
+            "text": "Competența pentru cripto trimite la o autoritate MiCA nenumită în text",
+            "major": false,
+            "article": "art. 5"
+          }
+        ],
+        "good": [
+          {
+            "text": "Lista entităților vizate preia categoriile din DORA, de la bănci la prestatori cripto",
+            "major": true,
+            "article": "art. 2 alin. (1)"
+          },
+          {
+            "text": "Păstrează excepțiile DORA pentru IMM-uri și exclude furnizorii de servicii poștale giro",
+            "major": true,
+            "article": "art. 2 alin. (3)"
+          },
+          {
+            "text": "Competența BNR e împărțită clar pe categorii, inclusiv pentru depozitarul central",
+            "major": false,
+            "article": "art. 5"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:02:52.120Z"
+    }
+  ]
+}

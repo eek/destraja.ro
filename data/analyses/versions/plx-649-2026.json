@@ -1,0 +1,151 @@
+{
+  "slug": "plx-649-2026",
+  "billId": "PL-x 649/2026",
+  "updatedAt": "2026-10-29T13:25:15.950Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L531FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Luna mai devine oficial „Luna Horticulturii”",
+      "summaryTlDr": "Lege-calendar aproape inofensivă: nu introduce taxe sau sancțiuni și nu impune obligații fermierilor sau firmelor. Are trei scăpări de tehnică legislativă, toate reparabile prin amendament: obligă TVR și Radio România să difuzeze emisiuni, dă prin lege unei asociații private statut de „autoritate de referință” și promovează produsele după origine.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/600/40/9/se747.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Luna mai devine oficial „Luna Horticulturii”",
+      "summaryTlDr": "Lege simbolică și în mare parte inofensivă: nu creează taxe, sancțiuni sau obligații pentru cetățeni ori firme, iar finanțarea este opțională. Problemele sunt de redactare: o asociație privată numită în lege „autoritate de referință”, o obligație editorială impusă TVR și Radio România și o „strategie” anuală fără termen și fără formă de adoptare.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul permite materiale în limbile minorităților; pentru cetățeni și firme nu se schimbă nimic",
+      "summary": "Acum, manifestările pot avea materiale și în limbile minorităților, iar universitățile cu programe în aceste limbi și emisiunile pentru minorități de la radioul și televiziunea publică sunt menționate explicit. Pentru cetățeni și firme nu apar costuri sau obligații noi.",
+      "changes": [
+        {
+          "title": "Materiale și programe și în limbile minorităților",
+          "text": "Art. 4 alin. (3) nou: în localitățile unde se aplică art. 195 din Codul administrativ, materialele și programele pot fi făcute și în limba minorității. Este opțional.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 4 alin. (3)",
+          "before": null,
+          "after": "prevederile art.195 din Ordonanța de urgență a Guvernului nr.57/2019 privind Codul administrativ, cu modificările și completările ulterioare, materialele și programele manifestărilor dedicate „Lunii Horticulturii” pot fi realizate și în limba minorității respective.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Obligația pentru TV și radio public extinsă la minorități",
+          "text": "Art. 5 alin. (1): radioul și televiziunea publică „vor include” emisiuni despre horticultură și în emisiunile în limbile minorităților. Formula rămâne imperativă, deci impunerea de conținut editorial se extinde.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. 5 alin. (1)",
+          "before": "vor include în programele lunii mai emisiuni de promovare a bunelor practici horticole și a cercetării românești în domeniu.",
+          "after": "vor include în programele lunii mai emisiuni de promovare a bunelor practici horticole și a cercetării românești în domeniu, inclusiv în cadrul emisiunilor în limbile minorităților naționale.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Universitățile cu programe pentru minorități, menționate explicit",
+          "text": "Art. 3 alin. (1): sunt numite explicit și universitățile cu programe horticole sau agronomice în limbile minorităților. Statutul de „referință” tot nu are efect juridic definit.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 3 alin. (1)",
+          "before": "instituțiile de învățământ superior de profil agronomic din România, împreună cu Societatea Română a Horticultorilor",
+          "after": "instituțiile de învățământ superior de profil agronomic din România, inclusiv cele care organizează programe de studii de profil horticol, precum și agronomic în limbile minorităților naționale, împreună cu Societatea Română a Horticultorilor",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "TV și radioul public obligate să difuzeze emisiuni, deși sunt autonome constituțional",
+            "major": true,
+            "article": "art. 5 alin. (1)"
+          },
+          {
+            "text": "SRH, asociație privată, privilegiată prin lege ca autoritate de referință, fără efect definit",
+            "major": false,
+            "article": "art. 3 alin. (1)"
+          },
+          {
+            "text": "Strategia anuală a ministerului nu are termen, act de aprobare, publicare sau buget",
+            "major": false,
+            "article": "art. 3 alin. (2)"
+          },
+          {
+            "text": "Legea e mai mult declarativă: activitățile pot fi organizate și fără ea",
+            "major": false,
+            "article": "art. 4 alin. (1)"
+          },
+          {
+            "text": "Greșeli de redactare: „academic” în loc de „academice”, virgulă la finalul art. 1",
+            "major": false,
+            "article": "art. 3 alin. (1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Nu impune obligații, taxe, avize sau sancțiuni cetățenilor și firmelor",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Finanțarea e opțională, în limita fondurilor aprobate, fără cheltuieli obligatorii noi",
+            "major": true,
+            "article": "art. 4 alin. (2)"
+          },
+          {
+            "text": "Manifestările sunt facultative: autoritățile și universitățile „pot organiza” evenimente",
+            "major": false,
+            "article": "art. 4 alin. (1)"
+          },
+          {
+            "text": "Materialele pot fi realizate și în limba minorității, unde Codul administrativ permite",
+            "major": false,
+            "article": "art. 4 alin. (3)"
+          },
+          {
+            "text": "ONG-urile și asociațiile de producători pot face proiecte de înverzire cu autoritățile locale",
+            "major": false,
+            "article": "art. 5 alin. (2)"
+          },
+          {
+            "text": "Scopuri clare: promovarea producției românești, a consumului de produse proaspete, a cercetării",
+            "major": false,
+            "article": "art. 2"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 6,
+        "removed": 6,
+        "same": 0.57
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:24:58.582Z"
+    }
+  ]
+}

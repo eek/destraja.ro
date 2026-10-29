@@ -1,0 +1,157 @@
+{
+  "slug": "plx-473-2026",
+  "billId": "PL-x 473/2026",
+  "updatedAt": "2026-10-29T12:46:53.897Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L300FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Anunțurile de vânzare din insolvență vor apărea obligatoriu și gratuit pe un portal online al UNPIR",
+      "summaryTlDr": "Ideea e bună și aproape fără cost: anunțurile de vânzare ale firmelor insolvente ajung și online, gratuit, indiferent de modul de vânzare. Problema e sancțiunea. Orice scăpare de publicitate face vânzarea nulă absolut, invocabil de oricine și oricând, iar asta poate speria tocmai cumpărătorii pe care legea vrea să-i atragă.",
+      "scores": {
+        "agy": 3,
+        "claude": 4,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/70/3/se519.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Bunurile firmelor în insolvență, anunțate obligatoriu și gratuit pe un site UNPIR",
+      "summaryTlDr": "Ideea e bună: anunțurile de vânzare din insolvență ajung gratuit online, pentru toate tipurile de vânzare, nu doar în ziare. Problema e că textul leagă sancțiunea nulității de o platformă pe care legea nu o definește. Nu există nici un plan B dacă site-ul pică sau nu e gata în 6 luni.",
+      "scores": {
+        "agy": 2,
+        "claude": 4,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "UNPIR trebuie să creeze platforma de anunțuri în 6 luni; nulitatea nu mai e numită „absolută”",
+      "summary": "Acum UNPIR trebuie să facă în 6 luni o platformă unică de anunțuri gratuite, iar legea se aplică abia după acest termen. Nulitatea nu mai e numită „absolută”, deci instanțele vor decide cine o poate invoca și când, iar anunțul plătit în ziar rămâne obligatoriu.",
+      "changes": [
+        {
+          "title": "UNPIR obligată să facă platforma în 6 luni",
+          "text": "Art. III obligă acum UNPIR să pună în funcțiune platforma și să asigure publicarea gratuită a anunțurilor. Inițial, portalul era doar numit, fără ca cineva să fie obligat să îl creeze.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. III",
+          "before": null,
+          "after": "În termenul prevăzut la art.II, Uniunea Națională a Practicienilor în Insolvență din România asigură operaționalizarea platformei electronice unice de publicitate a vânzărilor din procedurile de insolvență",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Nulitatea nu mai e numită „absolută”",
+          "text": "Art. I spune acum doar „sub sancțiunea nulității”. Inițial, nulitatea absolută lăsa vânzarea atacabilă oricând, de orice persoană interesată; acum instanțele decid cine o invocă și în ce termen.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. I",
+          "before": "sub sancțiunea nulității absolute",
+          "after": "sub sancțiunea nulității",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Legea se aplică abia după 6 luni",
+          "text": "Art. II amână intrarea în vigoare cu 6 luni de la publicare, adică exact termenul dat UNPIR pentru platformă. Inițial, legea intra în vigoare la 3 zile de la publicare.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. II",
+          "before": null,
+          "after": "Prezenta lege intră în vigoare la 6 luni de la data publicării în Monitorul Oficial al României, Partea I.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "O singură platformă, în loc de un portal neclar",
+          "text": "Art. I numește acum „platforma electronică unică”. Inițial, „Portalul” nu era înființat de lege, iar expunerea trimitea la două site-uri, deci nu se știa unde trebuie publicat.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. I",
+          "before": "în mod gratuit pe Portalul Electronic al Publicațiilor de Vânzare administrat de către Uniunea Națională a Practicienilor în Insolvență din România",
+          "after": "în mod gratuit, pe platforma electronică unică de publicitate a vânzărilor din procedurile de insolvență, administrată de Uniunea Națională a Practicienilor în Insolvență din România",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Felul nulității nu e precizat, deși expunerea spune „absolută”; decid instanțele",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Anunțul plătit în ziar rămâne obligatoriu; costurile nu scad cum promite expunerea",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Nu se spune ce se întâmplă dacă platforma nu e gata sau nu funcționează",
+            "major": true,
+            "article": "art. III"
+          },
+          {
+            "text": "Lipsește o regulă pentru vânzările deja anunțate la intrarea în vigoare",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "„Ziar de largă circulație” rămâne nedefinit, deși lipsa lui duce la nulitate",
+            "major": false,
+            "article": "art. I"
+          },
+          {
+            "text": "Lipsesc termenul minim până la vânzare și conținutul minim al anunțului",
+            "major": false,
+            "article": "art. I"
+          }
+        ],
+        "good": [
+          {
+            "text": "Vânzarea se face numai după anunț în ziar și gratuit pe platforma UNPIR",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "UNPIR are obligația și termenul de 6 luni să facă platforma funcțională",
+            "major": true,
+            "article": "art. III"
+          },
+          {
+            "text": "Cei interesați pot inspecta bunurile după publicarea anunțurilor de vânzare",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Legea se aplică după 6 luni, timp de pregătire pentru platformă",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 6,
+        "removed": 4,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:46:29.405Z"
+    }
+  ]
+}

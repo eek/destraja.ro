@@ -1,0 +1,19 @@
+# PARLAMENTUL ROMÂNIEI
+
+# CAMERA DEPUTAȚILOR
+
+LEGE
+
+pentru modificarea art. 248 alin. (4) din Legea învățământului preuniversitar nr. 198/2023
+
+Camera Deputaților adoptă prezentul proiect de lege.
+
+Articol unic - La articolul 248 din Legea învățământului preuniversitar nr. 198/2023, publicată în Monitorul Oficial al României, Partea I, nr. 613 din 05 iulie 2023, cu modificările și completările ulterioare, alineatul (4) se modifică și va avea următorul cuprins:
+
+„(4) Admiterea la liceu și evaluarea națională organizată la finalul clasei a VIII-a se vor desfășura în conformitate cu prevederile prezentei legi, începând cu generația de elevi înscriși în clasa a V-a în anul școlar 2026-2027.”
+
+Acest proiect de lege se consideră adoptat de Camera Deputaților în forma inițială, în condițiile art. 75 alin. (2) teza a III-a din Constituția României, republicată.
+
+p. PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+NATALIA-ELENA INTOTERO

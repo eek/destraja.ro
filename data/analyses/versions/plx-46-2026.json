@@ -1,0 +1,157 @@
+{
+  "slug": "plx-46-2026",
+  "billId": "PL-x 46/2026",
+  "updatedAt": "2026-10-29T12:29:05.833Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L462FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Reguli bugetare mai flexibile pentru proiectele pe fonduri europene și un fond central de cofinanțare",
+      "summaryTlDr": "Problema e reală și scopul e util: cofinanțarea întârziată și lipsa banilor până la rambursare chiar blochează proiectele UE. Textul e însă scris neglijent și dublează mecanisme care există deja. În plus, creează un fond numit „automatizat” care e de fapt discreționar și care plătește, fără plafon, și cheltuieli pe care UE nu le rambursează niciodată.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/40/6/se39.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Bani europeni: buget pe 3 ani, virări mai ușoare și un fond central de cofinanțare",
+      "summaryTlDr": "Scopul e util, creșterea absorbției fondurilor UE, dar textul e redactat neglijent: plafonul de 3 ani se contrazice în trei locuri, iar „Fondul de Cofinanțare Automatizată” nu are nimic automat. Legea nu lovește direct cetățenii sau firmele, însă slăbește controlul anual al Parlamentului asupra banilor publici și lasă Ministerului Finanțelor o putere largă de decizie, fără criterii în lege.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Adoptat tacit de Senat: textul inițiatorului rămâne neschimbat, cu aceleași riscuri",
+      "summary": "Senatul nu a votat proiectul. A trecut tacit, în forma inițiatorului. Diferențele sunt doar de redactare (spații, diacritice, greșeli de tipar), deci riscurile rămân aceleași, de exemplu plata cheltuielilor neeligibile fără plafon.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Fondul plătește și cheltuieli neeligibile, fără plafon; costul trece la bugetul de stat",
+            "major": true,
+            "article": "art. 61⁴ alin. (1) lit. b)"
+          },
+          {
+            "text": "Fondul „automat” împarte bani din oficiu sau la cerere, după criterii încă nestabilite",
+            "major": true,
+            "article": "art. 61⁴ alin. (2) și (5)"
+          },
+          {
+            "text": "Plafonul de 3 ani se contrazice: poate fi extins pe toată durata proiectului",
+            "major": true,
+            "article": "art. 61¹ alin. (3)–(4), art. 61³ alin. (3)"
+          },
+          {
+            "text": "Termenul de 5 zile e doar „de regulă”, deci neobligatoriu",
+            "major": false,
+            "article": "art. 61⁴ alin. (2)"
+          },
+          {
+            "text": "Sumele pe anii următori sunt „orientative”, dar contează ca autorizații pe 3 ani",
+            "major": false,
+            "article": "art. 61³ alin. (1)–(2)"
+          },
+          {
+            "text": "Normele fondului: le „emite” Ministerul, dar le aprobă Guvernul prin HG",
+            "major": false,
+            "article": "art. 61⁴ alin. (5)"
+          },
+          {
+            "text": "Legile bugetare anuale pot oricum depăși plafonul de 25% la virări",
+            "major": false,
+            "article": "art. 61² alin. (4)"
+          },
+          {
+            "text": "Plafonul avansurilor e lăsat normelor; limita de 180 de zile poate fi prelungită",
+            "major": false,
+            "article": "art. 61⁵ alin. (3)"
+          },
+          {
+            "text": "Greșeli de redactare rămase: „Art.615”, „correcta”, „In fiecare”",
+            "major": false,
+            "article": "art. 61³ alin. (2), art. 61⁵"
+          }
+        ],
+        "good": [
+          {
+            "text": "Banii necheltuiți pe proiecte nu se pierd la final de an, ci se reportează",
+            "major": true,
+            "article": "art. 61¹ alin. (3), art. 61³ alin. (4), art. 61⁵ alin. (4)"
+          },
+          {
+            "text": "Virări de până la 25% între articolele aceluiași capitol, fără rectificare bugetară",
+            "major": true,
+            "article": "art. 61² alin. (1)"
+          },
+          {
+            "text": "Virările nu pot depăși valoarea proiectului și nici muta bani între proiecte",
+            "major": true,
+            "article": "art. 61² alin. (3)"
+          },
+          {
+            "text": "Rambursările externe ajung la beneficiari în cel mult o zi lucrătoare",
+            "major": true,
+            "article": "art. 61⁵ alin. (1) lit. b)"
+          },
+          {
+            "text": "Avansuri din Trezorerie pentru instituții publice și autorități locale, până vin banii externi",
+            "major": true,
+            "article": "art. 61⁵ alin. (1) lit. a)"
+          },
+          {
+            "text": "Fiecare virare se notifică Ministerului Finanțelor în 5 zile lucrătoare",
+            "major": false,
+            "article": "art. 61² alin. (2)"
+          },
+          {
+            "text": "Banii nefolosiți din fondul de cofinanțare se restituie în 30 de zile",
+            "major": false,
+            "article": "art. 61⁴ alin. (4)"
+          },
+          {
+            "text": "Raport anual public despre fond, defalcat pe ordonatori de credite și proiecte",
+            "major": false,
+            "article": "art. 61⁴ alin. (6)"
+          },
+          {
+            "text": "Parlamentul e informat la fiecare 3 ani despre proiectele lungi",
+            "major": false,
+            "article": "art. 61³ alin. (3)"
+          },
+          {
+            "text": "Indicatorii financiari aprobați nu se schimbă fără acordul finanțatorului extern",
+            "major": false,
+            "article": "art. III"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 26,
+        "removed": 26,
+        "same": 0.66
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:29:05.833Z"
+    }
+  ]
+}

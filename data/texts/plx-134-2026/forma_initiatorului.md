@@ -1,0 +1,65 @@
+privind introducerea taxei de campare pentru pescarii amatori în Rezervația Biosferei Delta Dunării
+
+Parlamentul României adoptă prezenta lege
+
+## Articolul 1
+
+(1) Se introduce taxa de campare pentru pescarii amatori în perimetrul Rezervației Biosferei Delta Dunăril.
+
+(2) Taxa de campare reprezintă o sumă datorată de persoanele fizice care instalează corturi, rulote sau alte mijloace de adăpost temporar în zonele de campare autorizate de Administrația Rezervației Biosferei Delta Dunării (ARBDD).
+
+(3) Taxa se aplică pentru fiecare loc de campare declarat, pentru o perioadă determinată, conform tarifelor stabilite anual prin ordin al guvernatorului ARBDD, cu avizul Ministerului Mediului, Apelor și Pădurilor.
+
+## Articolul 2
+
+(1) Plata taxei de campare se realizează exclusiv prin mijloace electronice, printr-o platformă națională sau locală dedicată, administrată de ARBDD sau de o instituție publică desemnată.
+
+(2) Platforma online trebuie să permită:
+
+a) declararea amplasamentului cortului/rulotei pe o hartă digitală;
+
+b) selectarea duratei de campare;
+
+c) achitarea taxei prin card bancar sau alte metode electronice;
+
+d) emiterea unei dovezi electronice de plată și înregistrare.
+
+(3) Datele colectate se utilizează exclusiv în scopul monitorizării și protejării mediului, cu respectarea legislației privind protecția datelor cu caracter personal.
+
+## Articolul 3
+
+(1) Persoanele care achită taxa de campare au obligația de a:
+
+a) păstra curățenia în zona declarată;
+
+b) nu aduce modificări mediului natural;
+
+c) respecta liniștea și regulile de comportament în arii naturale protejate;
+
+d) îndepărta orice deșeu rezultat din activitatea de campare.
+
+(2) Nerespectarea obligațiilor prevăzute la alin.(1) atrage anularea autorizației de campare și aplicarea sancțiunilor contravenționale prevăzute de lege.
+
+## Articolul 4
+
+(1) Administrația Rezervației Biosferei Delta Dunării va delimita și publica pe site-ul propriu zonele de campare autorizate, în funcție de capacitatea de suport a mediului și graduul de protecție al habitatelor.
+
+(2) În termen de 90 de zile de la intrarea în vigoare a prezentei legi, ARBDD va elabora normele metodologice de aplicare, care vor fi aprobate prin ordin al Guvernatorului Rezervației, cu avizul Ministerului Mediului.
+
+## Articolul 5
+
+Prezenta lege intră în vigoare la 6 luni de la publicarea în Monitorul Oficial al României, Partea I.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art.75 și ale art.76 din Constituția României, republicată.
+
+PREȘEDINTE
+
+CAMERA DEPUTAȚILOR
+
+PREȘEDINTE
+
+SENATUL ROMÂNIEI
+
+GRINDEANU SORIN-MIHAI
+
+ABRUDEAN MIRCEA

@@ -1,0 +1,57 @@
+# PARLAMENTUL ROMÂNIEI
+
+|SE NAT|
+
+## LEGE
+
+## privind unele măsuri fiscal-bugetare
+
+## Senatul adoptă prezentul proiect de lege
+
+Art.I.- (1) În perioada cuprinsă între data intrării în vigoare a prezentei legi și data de 30 septembrie 2026 inclusiv, persoana fizică, în mod individual sau în comun cu altă persoană fizică/alte persoane fizice, poate achiziționa o singură locuință cu cota redusă de TVA de 9%, dacă se îndeplinesc în mod cumulativ următoarele condiții:
+
+a) locuința are o suprafață utilă de maximum 120 mp, exclusiv anexele gospodărești, și o valoare, inclusiv a terenului pe care este construită, care nu depășește suma de 600.000 lei, exclusiv taxa pe valoarea adăugată;
+
+b) locuința în momentul livrării, care nu poate depăși data de 30 septembrie 2026, să poată fi locuită ca atare, conform condițiilor legale în vigoare la data încheierii actelor juridice între vii care au ca obiect plata în avans pentru achiziționarea unei astfel de locuințe. Suprafața utilă a locuinței este cea definită prin Legea locuinței nr. 114/1996, republicată, cu modificările și completările ulterioare. Anexele gospodărești sunt cele definite prin Legea nr. 50/1991 privind autorizarea executării lucrărilor de construcții, republicată, cu modificările și completările ulterioare;
+
+c) nu a achiziționat o altă locuință cu cotă redusă de TVA începând cu 1 ianuarie 2023, conform informațiilor din "Registrul achizițiilor de locuințe cu cota redusă de TVA", prevăzut de Legea nr. 227/2015 privind Codul fiscal, cu modificările și completările ulterioare;
+
+d) a încheiat până la data de 1 august 2025 un act juridic între vii care are ca obiect plata în avans pentru achiziționarea unei astfel de locuințe.
+
+(2) Pentru a beneficia de cota redusă de 9%, pe lângă condițiile prevăzute la alin. (1), persoana fizică, în mod individual sau în comun cu altă persoană fizică/alte persoane fizice, pentru actele juridice între vii care au ca obiect plata în avans pentru achiziționarea unei locuințe, încheiate în perioada 3 iulie - 31 iulie 2025 inclusiv, la data livrării locuinței trebuie să facă dovada achitării unui avans de 20% din valoarea locuinței exclusiv TVA, achitat integral până la data de 31 iulie 2025 inclusiv.
+
+(3) În "Registrul achizițiilor de locuințe cu cota redusă de TVA" se înscriu și informațiile din actele juridice între vii care au ca obiect transferul dreptului de proprietate pentru locuințele prevăzute la alin. (1) și (2), autentificate până la data de 30 septembrie 2026 inclusiv. Notarii publici sunt obligați:
+
+a) să verifice îndeplinirea condiției referitoare la achiziția unei singure locuințe cu cota redusă de TVA, prin consultarea "Registrului achizițiilor de locuințe cu cota redusă de TVA", înainte de autentificarea actelor juridice între vii care au ca obiect transferul dreptului de proprietate sau plata în avans pentru achiziția unei astfel de locuințe și, în situația în care constată că nu este îndeplinită această condiție, să le autentifice doar dacă livrarea se efectuează cu cota standard de TVA;
+
+b) să completeze "Registrul achizițiilor de locuințe cu cota redusă de TVA" la data autentificării actelor juridice între vii care au ca obiect transferul dreptului de proprietate pentru locuințele prevăzute la alin. (1) și (2);
+
+c) să înscrie în actele juridice între vii care au ca obiect transferul dreptului de proprietate sau plata în avans pentru achiziția unei astfel de locuințe cu cota redusă de TVA de 9% mențiuni cu privire la respectarea obligațiilor prevăzute la lit. a) și, după caz, la lit. b);
+
+d) să înscrie în actele juridice între vii care au ca obiect transferul dreptului de proprietate sau plata în avans pentru locuințele prevăzute la alin. (1) și (2) cota de TVA aplicată, indiferent dacă TVA se aplică la preț sau este inclusă în preț.
+
+(4) Până la data de 1 octombrie 2026 se aplică o cotă redusă de TVA de 9% pentru livrarea de clădiri, inclusiv a terenului pe care sunt construite, către primării în vederea atribuirii de către acestea cu chirie subvenționată unor persoane sau familii a căror situație economică nu le permite accesul la o locuință în proprietate sau închirierea unei locuințe în condițiile pieței, dacă au fost încheiate până la data de 1 august 2025 acte juridice între vii care au ca obiect plata în avans pentru achiziționarea acestora.
+
+Art.II.- (1) Persoana fizică, care a achiziționat în mod individual sau în comun cu altă persoană fizică/alte persoane fizice, una sau mai multe locuințe cu cota standard de TVA în perioada cuprinsă între data de 1 august 2026 și data intrării în vigoare a prezentei legi, poate solicita restituirea sumei rezultate din diferența între cota standard de TVA și cota redusă de TVA de 9%, pentru o singură locuință achiziționată, dacă se îndeplinesc în mod cumulativ următoarele condiții:
+
+a) locuința are o suprafață utilă de maximum 120 mp, exclusiv anexele gospodărești, și o valoare, inclusiv a terenului pe care este construită, care nu depășește suma de 600.000 lei, exclusiv taxa pe valoarea adăugată;
+
+b) locuința în momentul livrării, să poată fi locuită ca atare, conform condițiilor legale în vigoare la data încheierii actelor juridice între vii care au ca obiect plata în avans pentru achiziționarea unei astfel de locuințe. Suprafața utilă a locuinței este cea definită prin Legea locuinței nr.114/1996, republicată, cu modificările și completările ulterioare. Anexele gospodărești sunt cele definite prin Legea nr. 50/1991 privind autorizarea executării lucrărilor de construcții, republicată, cu modificările și completările ulterioare;
+
+c) nu a achiziționat o altă locuință cu cotă redusă de TVA începând cu 1 ianuarie 2023, conform informațiilor din "Registrul achizițiilor de locuințe cu cota redusă de TVA", prevăzut de Legea nr. 227/2015 privind Codul fiscal, cu modificările și completările ulterioare;
+
+d) a încheiat până la data de 1 august 2025 un act juridic între vii care are ca obiect plata în avans pentru achiziționarea unei astfel de locuințe.
+
+(2) Pentru a beneficia de restituire, pe lângă condițiile prevăzute la alin.(1), persoana fizică, în mod individual sau în comun cu altă persoană fizică/alte persoane fizice, pentru actele juridice între vii care au ca obiect plata în avans pentru achiziționarea unei locuințe, încheiate în perioada 3 iulie - 31 iulie 2025 inclusiv, trebuie să facă dovada achitării unui avans de 20% din valoarea locuinței exclusiv TVA, achitat integral până la data de 31 iulie 2025 inclusiv.
+
+(3) În cazul în care au fost achiziționate în perioada cuprinsă între data de 1 august 2026 și data intrării în vigoare a prezentei legi, mai multe locuințe cu cota standard de TVA care îndeplinesc condițiile prevăzute la alin. (1) și (2), se restituie suma rezultată din diferența între cota standard de TVA și cota redusă de TVA de 9% pentru locuința al cărei fapt generator de TVA a intervenit primul.
+
+(4) Primăriile care au achiziționat cu cota standard de TVA, în perioada cuprinsă între data de 1 august 2026 și data intrării în vigoare a prezentei legi, clădiri, inclusiv terenul pe care sunt construite, în vederea atribuirii de către acestea cu chirie subvenționată unor persoane sau familii a căror situație economică nu le permite accesul la o locuință în proprietate sau închirierea unei locuințe în condițiile pieței, pot solicita restituirea sumei rezultate din diferența între cota standard de TVA și cota redusă de TVA de 9%, dacă au fost încheiate până la data de 1 august 2025 acte juridice între vii care au ca obiect plata în avans pentru achiziționarea acestora.
+
+(5) Restituirea sumelor prevăzute la alin.(1) și (4) poate fi solicitată începând cu data de 1 octombrie 2026, potrivit procedurii aprobate în termen de 30 de zile de la data intrării în vigoare a prezentei legi, prin ordin al președintelui Agenției Naționale de Administrare Fiscală, care se publică în Monitorul Oficial al României, Partea I.
+
+Acest proiect de lege a fost adoptat de Senat în ședința din 27 iulie 2026, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.
+
+PREȘEDINTELE ȘENATULUI
+
+MIRCEA ABRUDEAN

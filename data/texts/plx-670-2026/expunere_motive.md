@@ -1,0 +1,126 @@
+# EXPUNERE DE MOTIVE
+
+ANRE este autoritatea administrativă autonomă cu rol central în funcționarea piețelor de energie electrică, energie termică și gaze naturale din România. Potrivit prevederilor OUG nr. 33/2007, ANRE elaborază și aplică reglementările obligatorii la nivel național, stabilește tarifele de transport și distribuție, autorizează operatorii economici din sector și implementează deciziile Agenției de Cooperarea a Reglementatorilor în Domeniul Energiei (ACER) și ale Comisiei Europene. Toate aceste atribuții au un pronunțat caracter tehnic, presupunând cunoaștere aprofundată a sectorului energetic.
+
+Cu toate acestea, cadrul legal actual al OUG nr. 33/2007 nu impune cerințe suficient de riguroase privind formarea profesională de natură tehnică pentru membrii Comitetului de Reglementare sau ai Consiliului Consultativ al ANRE. Această lacună legislativă a permis, în practică, numirea sistematică în conducerea autorității a unor persoane cu formare exclusiv juridică, fiscală sau administrativă, fără experiență relevantă în domenii tehnice specifice energiei și fără o înțelegere profundă a implicațiilor tehnice ale acestor domenii.
+
+Din păcate, în prezent putem vorbi despre o veritabilă problemă de politizare a conducerii ANRE, aspect ce a fost documentat în mod repetat de presă ori de organizații neguvernamentale.
+
+Publicațiile recente din presă au evidențiat că România rămâne o excepție negativă față de statele europene, că numirea parlamentară directă a conducerii ANRE ridică probleme de compatibilitate cu spiritul legislației europene privind independența regulatorilor, și că, în alte state europene aceste entități funcționează ca agenții conduse de personal profesionist, nu de consiliți politizate.
+
+În ultimii ani, influența politică a contribuit la numirea în administrația ANRE a unor persoane fără experiență și legătură cu domeniul, recomandate exclusiv pe criterii politice. Efectul este evident în contextul în care numirea în funcții de administrație ale ANRE se face de către Parlament sau de către primul-ministru în cazul Consiliului consultativ al ANRE. Cu toate acestea, politizarea dusă la extrem în numirea aparatului administrativ al unei autorități cu rol în domeniul energetic, este de natură să creeze vulnerabilități periculoase pentru siguranța statului român.
+
+Prezenta propunere legislativă urmărește remedierea lacunei normative descrise, prin introducerea unor cote minime de specialiști cu studii superioare tehnice din domeniile energiei electrice, energiei termice și gazelor naturale, atât la nivelul Comitetului de Reglementare (minimum 2 din cei 4 membri neexecutivi), cât și la nivelul Consiliului Consultativ.
+
+Măsura nu urmărește excluderea juriștilor sau economiștilor, ci asigurarea unui nucleu profesional tehnic minim în organele decizionale, fără de care reglementările riscă să fie formal corecte din punct de vedere juridic, dar tehnic inadecvate, cu posibile consecințe grave asupra domeniului energetic. Cotele propuse sunt modeste față de componența totală a organelor, lăsând o marjă largă pentru numiri pe criterii juridice sau economice.
+
+Propunerea va avea impact pozitiv prin: creșterea calității reglementărilor în sectorul energetic, în beneficiul consumatorilor, reducerea riscului de decizii tehnic eronate cu consecințe de securitate energetică, consolidarea credibilității și independenței funcționale a ANRE și alinierea mai fermă la standardele europene privind independența regulatorilor naționali.
+
+În temeiul art. 111 alin. (1) din Constituția României, republicată, vă adresăm rugămintea de a solicita Guvernului să comunice punctul de vedere asupra prezentei propuneri legislative.
+
+INIȚIATOR:
+
+Deputat AUR - Iqvelja-Florenta Priescu
+
+Deputat AUR - Silviu-Octavian Gurlui
+
+Deputat AUR – Ilie-Alin Coleșa
+
+Senator AUR – Eugen-Cristian Șipoș
+
+Senator AUR - Niculina Stelea
+
+## LISTA
+
+Susținătorilor propunerii legislative – LEGE pentru completarea Ordonanței de Urgență nr. 33/2007 privind organizarea și funcționarea Autorității Naționale de Reglementare în Domeniul Energiei
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td>Semnătura</td></tr>
+<tr><td>1.</td><td>SIMION GEORGE NICOLAE</td><td>AUR</td><td rowspan="13"></td></tr>
+<tr><td>2.</td><td>TILCA DTRU</td><td>AUR</td></tr>
+<tr><td>3.</td><td>Velenceu Florin Bogdan</td><td>AUR</td></tr>
+<tr><td>4.</td><td>Butupa CRISTINA - IRMA</td><td>AUR</td></tr>
+<tr><td>5.</td><td>BUVALI JILVIU-OCTAVIAN</td><td>AUR</td></tr>
+<tr><td>6.</td><td>Vulpoiu Dbrel</td><td>AUR</td></tr>
+<tr><td>7.</td><td>DASCALV CRISTINA EMANUECA</td><td>AUR</td></tr>
+<tr><td>8.</td><td>VARSAN CIPRIAN NICOLAE</td><td>AUR</td></tr>
+<tr><td>9.</td><td>Badiu Geogel</td><td>AUR</td></tr>
+<tr><td>10.</td><td>CAEIN GHE MATIBS</td><td>AUR</td></tr>
+<tr><td>11.</td><td>BASEA NEZU VALENTIN</td><td>AUR</td></tr>
+<tr><td>12.</td><td>IAGAR HORICA</td><td>AUR</td></tr>
+<tr><td>13.</td><td>TUSEASU PETRE</td><td>AUR</td></tr>
+</tbody>
+</table>
+
+## LISTA
+
+Susținătorilor propunerii legislative – LEGE pentru completarea Ordonanței de Urgență nr. 33/2007 privind organizarea și funcționarea Autorității Naționale de Reglementare în Domeniul Energiei
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 14. | Sopur 72muo | AUR |  |
+| 15. | GHEORGHE PONEL | AUR |  |
+| 16. | miHAESCU MUUGUR | AUR |  |
+| 17. | VANIM - TUDOR LINDA | AUR |  |
+| 18. | GHERASIM LAURA | AUR |  |
+| 19. | PORESCU ANTONIO GABI | AUR |  |
+| 20. | ARIADNA-ELENA CIRLIGEANU | A.U.R. |  |
+| 21. | LIAIIA ENACHE | A UR |  |
+| 22. | NEGOESCU MICHAI-BOGDACH | AUR |  |
+| 23. | PASCARIU MIHAI-COSMIN | AUR |  |
+| 24. | TAMPASA JAN | AUR |  |
+| 25. | MIVSAF LVAION | AUR |  |
+| 26. | LOVIN RAMONA | AUR |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – LEGE pentru completarea Ordonanței de Urgență nr. 33/2007 privind organizarea și funcționarea Autorității Naționale de Reglementare în Domeniul Energiei
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 24. | Vulpoiu Dorel | AUR |  |
+| 28. | Kolar EDUARD | AUR |  |
+| 29. | MICLAF SAMUEL - VIRIL | ACIR |  |
+| 30. | MITREA DOMITRINA | AUR |  |
+| 31. | PAUNESCU BILX'U - TSTY | AUR |  |
+| 32. | BIRO DANIEL - RAZVAN | AUR |  |
+| 33. | IOSUB COSMIN - TEODOR | AUR |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – LEGE pentru completarea Ordonanței de Urgență nr. 33/2007 privind organizarea și funcționarea Autorității Naționale de Reglementare în Domeniul Energiei
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1 | PETRISOR PEIV | AVR |  |
+| 2 | PLOEȘU LAUREAUJIU | AUR |  |
+| 3. | CONSTANYINESCU RODICA | AUE |  |
+| 4. | Petre George C##O | AUR |  |
+| 5 | LUMINIYA TAUCEAN FETHIANDES | AUE |  |
+| 6 | JFEFA GEAUAN | AUR |  |
+| 7.1 | SIEZEA NIEUUNT | AUR |  |
+| 8 | SIFOS CRISTINA | X/A/R |  |
+| 9 | 'SOOB' C. EPIUON | A.U.R. |  |
+| 10 | VASILE MARIAN | AVR |  |
+| 11 | STOICA CIPRIAN -7IN | A.U.R. |  |
+| 12. | VANTA CRISTIAN | AVR |  |
+| 13. | NUMITRESCU CRISTINA GABRIELCA | AVR |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – LEGE pentru completarea Ordonanței de Urgență nr. 33/2007 privind organizarea și funcționarea Autorității Naționale de Reglementare în Domeniul Energiei
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 14. | Borccori Doriuu | AUR |  |
+| 15. | Coxache Chezily | AUR |  |
+| 16. | DRAU ANISFI - ETRIC | AUR |  |
+| 14. | Lavoue Sorin | AUR |  |
+| 18. | SPAU KUMITPU | AUR |  |
+| 19. | TARASCA TEOTIC | AUR |  |
+| 20. | ROMAN MARIUS - VACENTIV | AUR |  |
+| 21. | Saudu alivicea - Boauf | AUR |  |
+| 22. | Silegeauu Cofoum | AUR |  |
+| 23. | Steljonescei Daniela | AUR |  |
+| 24. | Virgiliu Vbeesau | AUR |  |

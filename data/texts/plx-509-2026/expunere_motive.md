@@ -1,0 +1,33 @@
+Expunere de motive
+
+Prezenta inițiativă legislativă are ca scop completarea prevederilor Ordonanței Guvernului nr. 26/2000 privind asociațiile și fundațiile cu un nou articol care să reglementeze posibilitatea fundațiilor de a constitui sucursale ca structuri teritoriale fără personalitate juridică, precum și condițiile înființării și procedura de înscriere în Registrul asociațiilor și fundațiilor și modul de funcționare al acestor sucursale.
+
+In reglementarea actuală, fundațiile nu dispun, în mod expres, de posibilitatea înființării de sucursale fără personalitate juridică, situație în care ele sunt dezavantajate față de asociațil, care pot opera astfel de structuri.
+
+Necesitatea unei prezențe operative la nivel local este esențială pentru fundațiile care desfășoară activități sociale, educaționale, culturale, de sănătate sau de dezvoltare regională; înființarea sucursalelor fără personalitate juridică reduce costurile administrative și simplifică procedurile de implementare a programelor.
+
+Necesitatea reglementării propuse provine și dintr-o obligație legală, care în prezent nu poate fi respectată de către fundații. Acestea desfășoară o activitate vastă (de exemplu implementare de proiecte europene), iar în foarte multe cazuri aceste activități se desfășoară paralel în mai multe localități, deseori altele decât localitatea în care fundația își are sediul principal. Legea 273/2006 privind finanțele publice locale cu modificările și completările ulterioare prevede că "orice persoană subiect al unui raport juridic fiscal, inclusiv operatorul economic, instituția publică sau instituția publică locală, care are organizată o entitate, cu sau fără personalitate juridică, la altă adresă decât sediul social al subiectului respectiv, cu cel puțin o persoană care realizează venituri din salarii, are obligația să solicite înregistrarea fiscală a entității respective, ca plătitoare de salarii și venituri asimilate salariilor, la organul fiscal din subordinea ANAF în a cărui rază teritorială se află adresa unde se desfășoară efectiv activitatea acelei entități". Obligația nu poate fi respectată de către fundații, întrucât ANAF respinge înregistrarea fiscală a entității ca plătitoare de salarii și venituri asimilate salariilor fără prezentarea unei hotărâri judecătorești, care să ateste înscrierea structurii teritoriale în registrul asociațiilor și fundațiilor. Instanțele de judecată resping la rândul lor solicitările de înființare a punctelor de lucru, pe motiv că prevederile O.G. nr. 26/2000 nu reglementează această posibilitate pentru fundații, ci doar pentru asociații (Asociația își poate constitui filiale sau sucursale, ca structuri teritoriale cu sau fără personalitate juridică, în condițiile art. 13 și art. 13', iar Fundația doar filiale ca structuri teritoriale cu personalitate juridică.)
+
+Scopul completării: Facilitarea extinderii activităților fundațiilor la nivel teritorial, îmbunătățirea accesului beneficiarilor la servicii și creșterea eficienței administrative prin posibilitatea detașării personalului și utilizării descentralizate a resurselor, fără înființarea unor noi persoane juridice;
+
+Asigurarea unui cadru legal clar pentru înființarea, evidența și controlul sucursalelor, prin obligativitatea înscrierii în Registrul asociațiilor și fundațiilor și aplicarea corespunzătoare a dispozițiilor privind înregistrarea.
+
+Respectarea obligațiilor fiscale prevăzute de Legea 273/2006 privind finanțele publice locale cu modificările și completările ulterioare, conform căreia orice persoană subiect al unui raport juridic fiscal, inclusiv operatorul economic, instituția publică sau instituția publică locală, care organizează o entitate, cu sau fără personalitate juridică, la altă adresă decât sediul social și care are cel puțin o persoană care realizează venituri din salarii, are obligația de a solicita înregistrarea fiscală a entității respective ca plătitoare de salarii și venituri asimilate salariilor la organul fiscal competent, în raza teritorială unde se desfășoară efectiv activitatea entității.
+
+Completarea legii este necesară având în vedere că fundațiile au deja în derulare proiecte europene și dispun de personal propriu în diferite județe unde se implementează aceste proiecte, fiind astfel nevoie de posibilitatea înființării de sucursale pentru a asigura desfășurarea activităților în mod legal și pentru a respecta prevederile prevăzute de Legea 273/2006 privind obligativitatea înregistrării fiscale a entității ca plătitoare de salarii și venituri asimilate salariilor. Prin introducerea art. 18' se permite înființarea sucursalelor ca structuri fără personalitate juridică, se stabilește că înființarea se face prin hotărârea consiliului director, se impune înscrierea în Registru înainte de începerea activității și se prevede aplicabilitatea corespunzătoare a dispozițiilor privind înregistrarea prevăzute la art. 15-17. Completarea Ordonanței Guvernului nr. 26/2000 este necesară pentru a asigura echitate în tratamentul organizațional între asociații și fundații, pentru a permite fundațiilor organizarea eficientă a activităților teritoriale, pentru a facilita detașarea personalului și implementarea proiectelor locale, precum și pentru a asigura transparență și control prin proceduri de înscriere și evidență.
+
+Inițiatori, Nr. | Deputați/Senatori | Grupul parlamentar | Semnătură crt. 1. | Miklos Zoltăn | UDMR
+
+2\. Sald ödon | usus/aust / 3. | or Botaud COME/ANDE 4. 3 IRO ROZALiA IBOLYA | UDAR 5. KANTOR BOGLARKA | VIMR 6. KOLESĂR KAROLY | VDMR 7. GA'L KAGROLY | OAMR &. | UDMR MOLNAR ANDREI 9. LÖHCZEi CABA | VD MR 10. LADANTI LA'SHO, 2IOT | VAME 11. | MARKÓ ATTILA GABOR |
+
+Tabel cu inițiatorii propunerii legislative pentru modificarea și completarea Ordonanței Guvernului 26/2000 cu privire la asociații și fundații Lutico Bogdan | PNL Tandea Ciprian' | PNL 14. | PiRCZAK Iulius Mariar | MINO 15. ECHEETASAiAN use 16. MAGG SHABOLCS | VAMR 17. MAGDAR LORALD BEET NO AR 18. ZAKARIĂS 20LTKN | VDHR 19. ZAHORANAZKI ZRIGTITA EVA UDMR 20. | CSÉP EUH ANDREA | UAHR 21. ende Saine | UDMR 22. NELENEN HONOR | UDAR 23.
+
+24\.
+
+25\.
+
+26\.
+
+27\.
+
+28\.

@@ -1,0 +1,125 @@
+{
+  "billId": "Pl-x 680/2026",
+  "slug": "plx-680-2026",
+  "updatedAt": "2026-10-28T20:53:32.890Z",
+  "consensus": {
+    "riskScore": 2.3,
+    "riskLevel": "green",
+    "plainTitle": "Aplicațiile plătite din bani publici devin cod deschis, pe care alte instituții îl pot refolosi",
+    "summaryTlDr": "Proiect bun, în spiritul „bani publici, cod public”. Codul plătit de stat devine public și refolosibil, iar dependența de un singur furnizor scade. Problemele țin de redactare: excepțiile aprobate de ADR și câteva definiții lipsă. Fondul proiectului nu e problematic.",
+    "initiatorClaim": "Inițiatorii USR spun că statul plătește de mai multe ori aplicații asemănătoare și rămâne captiv la furnizori. Spun și că nu își poate audita, întreține sau migra singur sistemele. Ei vor ca software-ul dezvoltat din fonduri publice să fie publicat și refolosit între instituții.",
+    "realityCheck": "Publicarea codului devine regula. Software-ul dezvoltat intern sau la comandă din bani publici ajunge în Depozitul Național al Codului Public (DNCP), sub licență open-source, cel târziu la recepția finală (art. 11-12). Înainte de orice achiziție de software, autoritatea trebuie să caute în Catalog o soluție existentă și s-o refolosească sau să motiveze de ce nu (art. 16). Costurile cad pe autorități și pe furnizori. Contractele primesc clauze obligatorii privind drepturile și predarea completă (art. 17), fiecare instituție numește un responsabil (art. 10), iar președintele ADR devine filtrul pentru excepții, inclusiv pentru informațiile clasificate (art. 14). Domeniul de aplicare e mai îngust decât sugerează Expunerea, pentru că textul vizează doar soluțiile folosite pentru un „serviciu public digital”, noțiune pe care proiectul nu o definește.",
+    "affectedGroups": [
+      "IT & AI",
+      "IMM & Antreprenori",
+      "Toți cetățenii"
+    ],
+    "senatForm": {
+      "articleRef": "Art. 14 alin. (2)",
+      "proposalContent": "Alin. (2) devine: „Excepția de la alin. (1) lit. a) operează de drept, fără ordin. Excepțiile de la lit. b)–d) se acordă pe cel mult 12 luni și se reînnoiesc motivat cât subzistă temeiul. Cea de la lit. e) se acordă pe cel mult 12 luni, prelungibilă o singură dată. ADR decide în 30 de zile; ordinele se publică în DNCP, fără date protejate.”",
+      "argumentation": "Actualul alin. (2) e neclar: nu reiese dacă prelungirea de 12 luni se poate repeta, iar o informație clasificată nu încetează să fie clasificată după un an doar pentru că ADR nu prelungește ordinul. Lipsa unui termen de răspuns poate bloca recepția finală (art. 11 alin. 3). Publicarea ordinelor menține transparența fără a expune elemente sensibile.",
+      "otherComments": "Utile și: definirea „software-ului comercial standard” la art. 2; precizarea că art. 14 alin. (1) lit. c) acoperă și componentele preexistente ale contractantului, nu doar ale terților; corelarea art. 1 alin. (2) cu Expunerea de motive (entitățile aflate în administrarea sau controlul autorităților). În rest, proiectul e util și merită susținut."
+    }
+  },
+  "council": {
+    "agy": {
+      "model": "agy",
+      "status": "ok",
+      "durationMs": 54797,
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Cod sursă deschis și reutilizarea gratuită a softurilor plătite din bani publici",
+      "verdictShort": "O reformă modernă și sănătoasă pe principiul „Bani publici, cod public”, care oprește achiziția repetată a acelorași softuri de către instituții diferite și elimină dependența captivă de furnizorii IT. Textul este bine structurat, cu doar câteva detalii de tehnică legislativă ce pot fi rafinate la comisii.",
+      "initiatorClaim": "Inițiatorii urmăresc eliminarea risipei bugetare generate de cumpărarea repetată a acelorași dezvoltări software de către instituții publice diferite, prevenirea captivității tehnologice față de furnizori (vendor lock-in) și creșterea transparenței și securității prin publicarea codului sursă.",
+      "realityCheck": "Legea instituie obligația ca orice aplicație dezvoltată intern sau la comandă din fonduri publice să fie livrată cu tot cu codul sursă în Depozitul Național al Codului Public (DNCP) și verificată prealabil în Catalogul național de reutilizare înainte de o nouă achiziție. Nu creează agenții noi cu posturi suplimentare, ci organizează un oficiu în limita posturilor existente la ADR, însă are mici necorelări terminologice privind actele administrative de exceptare și regimul cofinanțărilor parțiale.",
+      "affectedGroups": [
+        "IT & AI",
+        "IMM & Antreprenori",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Eliminarea dependenței de furnizori (Art. 11, Art. 12 și Art. 17): Recepția finală și plata contractelor de dezvoltare software la comandă sunt condiționate de predarea completă a codului sursă, a documentației și a drepturilor de publicare sub licență open-source, clauzele contrare fiind considerate nescrise.",
+        "Verificare obligatorie înainte de noi licitații IT (Art. 15 și Art. 16): Înainte de a demara o achiziție publică pentru dezvoltare software, orice instituție este obligată să verifice Catalogul național de reutilizare și să preia soluțiile deja existente, dacă acestea corespund tehnic.",
+        "Protecția securității și a produselor comerciale standard (Art. 1 alin. (3)-(4), Art. 11 alin. (4) și Art. 14): Licențele comerciale standard (COTS), datele personale, cheile criptografice și sistemele de apărare sau ordine publică sunt expres exceptate de la publicare."
+      ],
+      "blindSpotsCaught": "Există o necorelare internă de tehnică legislativă: la Art. 9 alin. (1) se prevede corect că președintele ADR emite „decizii” (conform HG nr. 89/2020), însă la Art. 14 alin. (1) apare termenul impropriu de „ordin al președintelui ADR”. De asemenea, la Art. 14 alin. (2), prelungirea excepțiilor de la publicare „pentru o perioadă de cel mult 12 luni” lasă impresia unei singure prelungiri posibile, deși riscurile de securitate sau drepturile de proprietate intelectuală ale terților pot persista pe toată durata de viață a sistemului.",
+      "constitutionalityNote": "Proiectul respectă exigențele constituționale privind protecția proprietății intelectuale (Art. 44 din Constituție), întrucât impune dobândirea prealabilă prin contract a drepturilor patrimoniale pentru dezvoltările la comandă (Art. 12 alin. (2)) și exceptează componentele grevate de drepturi ale terților (Art. 14 alin. (1) lit. c)). Pentru deplina conformitate cu Art. 1 alin. (5) privind claritatea legii, trebuie uniformizată denumirea actului administrativ emis de președintele ADR la Art. 14.",
+      "euLawNote": "Propunerea este pe deplin aliniată cu Regulamentul (UE) 2024/903 (Interoperable Europe Act), care încurajează partajarea și reutilizarea soluțiilor open-source în administrațiile publice europene, precum și cu Directiva 2014/24/UE privind achizițiile publice. Întrucât instituie reguli pentru achizițiile și gestiunea internă a sectorului public fără a restricționa serviciile private pe piață, nu ridică obstacole sub incidența Directivei (UE) 2018/958 sau a Directivei TRIS (UE) 2015/1535.",
+      "senatForm": {
+        "articleRef": "Art. 14 alin. (1) și alin. (2)",
+        "proposalContent": "La art. 14 alin. (1), sintagma „prin ordin al președintelui” se înlocuiește cu „prin decizie a președintelui”. La art. 14 alin. (2), teza a doua se modifică și va avea următorul cuprins: „La revizuire, ADR evaluează posibilitatea prelungirii exceptării pentru noi perioade succesive de câte cel mult 12 luni, cât timp subzistă motivele exceptării.”",
+        "argumentation": "Potrivit HG nr. 89/2020, președintele ADR emite decizii, nu ordine (precum s-a redactat corect la art. 9 alin. (1) din proiect). De asemenea, la art. 14 alin. (2), formularea actuală poate fi interpretată ca permițând o singură prelungire de 12 luni, deși motivele de securitate națională sau drepturile terților (lit. a-d) pot dura mai mult de 2 ani.",
+        "otherComments": "La art. 1 alin. (5), recomandăm clarificarea sintagmei „finanțat parțial din fonduri publice” pentru entitățile de drept privat, prin instituirea unui prag procentual minim de finanțare publică sau limitarea obligației la modulele finanțate direct din bani publici, spre a nu descuraja cofinanțarea privată."
+      }
+    },
+    "claude": {
+      "model": "claude",
+      "status": "ok",
+      "durationMs": 163322,
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Aplicațiile plătite din bani publici devin cod deschis, pe care alte instituții îl pot refolosi",
+      "verdictShort": "Proiect bun, în spiritul „bani publici, cod public”. Codul plătit de stat devine public și refolosibil, iar dependența de un singur furnizor scade. Problemele țin de redactare: excepțiile aprobate de ADR și câteva definiții lipsă. Fondul proiectului nu e problematic.",
+      "initiatorClaim": "Inițiatorii USR spun că statul plătește de mai multe ori aplicații asemănătoare și rămâne captiv la furnizori. Spun și că nu își poate audita, întreține sau migra singur sistemele. Ei vor ca software-ul dezvoltat din fonduri publice să fie publicat și refolosit între instituții.",
+      "realityCheck": "Publicarea codului devine regula. Software-ul dezvoltat intern sau la comandă din bani publici ajunge în Depozitul Național al Codului Public (DNCP), sub licență open-source, cel târziu la recepția finală (art. 11-12). Înainte de orice achiziție de software, autoritatea trebuie să caute în Catalog o soluție existentă și s-o refolosească sau să motiveze de ce nu (art. 16). Costurile cad pe autorități și pe furnizori. Contractele primesc clauze obligatorii privind drepturile și predarea completă (art. 17), fiecare instituție numește un responsabil (art. 10), iar președintele ADR devine filtrul pentru excepții, inclusiv pentru informațiile clasificate (art. 14). Domeniul de aplicare e mai îngust decât sugerează Expunerea, pentru că textul vizează doar soluțiile folosite pentru un „serviciu public digital”, noțiune pe care proiectul nu o definește.",
+      "affectedGroups": [
+        "IT & AI",
+        "IMM & Antreprenori",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 11-12: codul sursă, documentația minimă și, după caz, lista componentelor se publică în DNCP sub licență open-source, cel târziu la recepția finală. Art. 11 alin. (4) exclude explicit datele personale, secretele comerciale, cheile, parolele, certificatele și configurațiile sensibile.",
+        "Art. 16: înainte de o achiziție care include dezvoltare software, entitatea verifică întâi Catalogul național de reutilizare. Dacă găsește o soluție adecvată, e obligată s-o refolosească, cu excepția unei justificări motivate. Criteriile justificării sunt lăsate integral pe normele metodologice, deci obligația poate deveni o simplă formalitate.",
+        "Art. 14: excepțiile de la publicare, inclusiv cele pentru informații clasificate și securitate națională, se aprobă prin ordin al președintelui ADR, deși ADR nu are competențe în materie de informații clasificate. Nu există un termen de soluționare a cererii. Alin. (2) nu spune dacă prelungirea de cel mult 12 luni se poate repeta.",
+        "Art. 1 alin. (2) și art. 2 lit. c): obligațiile privesc doar soluțiile folosite pentru un „serviciu public digital”, noțiune nedefinită în proiect. Software-ul intern de back-office (HR, registratură, gestiune) poate rămâne în afara legii. Expunerea de motive descrie un domeniu mai larg, care include entitățile aflate în „administrarea sau controlul” autorităților, decât textul art. 1 alin. (2) și art. 2 lit. h).",
+        "Art. 1 alin. (3): „software-ul comercial standard” e exceptat, dar noțiunea nu e definită. Adaptările la comandă trebuie publicate. La platformele proprietare (de exemplu ERP), aceste adaptări sunt adesea inseparabile de produs, așa că multe cazuri vor ajunge la excepția de la art. 14 alin. (1) lit. c).",
+        "Art. 4 alin. (1): Oficiul se înființează în limita posturilor existente ale ADR, deci fără costuri de personal noi. În fragmentele disponibile nu apare însă nicio estimare a costului de dezvoltare și operare pentru DNCP și Catalog.",
+        "Tehnică legislativă: art. 9 folosește „decizie”, iar art. 14 „ordin” al președintelui ADR. Art. 1 alin. (2) are un acord greșit („precum și entitățile”). Art. 1 alin. (5) extinde aplicarea „în mod corespunzător” prin trimitere la OUG nr. 41/2016, ceea ce lasă destinatarii să deducă singuri ce obligații li se aplică."
+      ],
+      "blindSpotsCaught": "Proiectul nu clarifică statutul componentelor preexistente ale contractantului însuși (framework-uri, biblioteci proprii). Art. 12 alin. (3) și art. 14 alin. (1) lit. c) vorbesc doar de componentele „terților”. Dacă furnizorul nu e considerat terț, firmele care lucrează pe o platformă proprie trebuie fie să o deschidă, fie să nu mai participe la licitații. Dacă e considerat terț, excepția poate goli regula de conținut. Separat, Expunerea spune că se consideră nescrise clauzele contractuale contrare legii. Textul complet al art. 17 nu era disponibil, dar regula trebuie limitată expres la contractele încheiate după intrarea în vigoare.",
+      "constitutionalityNote": "Nu există probleme constituționale de fond: legea organizează activitatea autorităților și conținutul propriilor lor contracte. În fragmentul disponibil nu apar sancțiuni, deci art. 23 alin. (12) nu e pus în discuție. Previzibilitatea (art. 1 alin. (5)) poate fi îmbunătățită, pentru că noțiunile „serviciu public digital”, „software comercial standard” și „condiții rezonabile” nu sunt definite, iar art. 1 alin. (5) trimite „în mod corespunzător” la alt act normativ. Clauzele obligatorii și regula clauzelor nescrise trebuie aplicate doar contractelor viitoare, pentru a respecta art. 15 alin. (2) și art. 44-45. DNCP și Catalogul presupun cheltuieli bugetare, deci sunt necesare punctul de vedere al Guvernului (art. 111) și indicarea sursei de finanțare (art. 138 alin. (5)). Obligațiile impuse autorităților locale prin lege nu încalcă autonomia locală (art. 120).",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că proiectul nu reglementează accesul la o profesie. Notificarea TRIS (Directiva (UE) 2015/1535) pare neaplicabilă: legea nu stabilește reguli pentru serviciile societății informaționale oferite de operatori privați. Ea stabilește obligații ale autorităților și clauze din propriile lor contracte. O verificare prudentă e totuși utilă dacă normele metodologice vor impune formate tehnice obligatorii pentru terți. Proiectul e aliniat cu Regulamentul (UE) 2024/903 (Interoperable Europe Act), care încurajează partajarea și reutilizarea soluțiilor între organismele publice. Cerințele de licență open-source și de predare completă sunt condiții legitime de executare a contractului în sensul Directivei 2014/24/UE, dacă sunt anunțate în documentația de atribuire. Pentru concurență, efectul net e pozitiv: scade dependența de furnizorul inițial, iar alți furnizori pot prelua mentenanța.",
+      "senatForm": {
+        "articleRef": "Art. 14 alin. (2)",
+        "proposalContent": "Alin. (2) devine: „Excepția de la alin. (1) lit. a) operează de drept, fără ordin. Excepțiile de la lit. b)–d) se acordă pe cel mult 12 luni și se reînnoiesc motivat cât subzistă temeiul. Cea de la lit. e) se acordă pe cel mult 12 luni, prelungibilă o singură dată. ADR decide în 30 de zile; ordinele se publică în DNCP, fără date protejate.”",
+        "argumentation": "Actualul alin. (2) e neclar: nu reiese dacă prelungirea de 12 luni se poate repeta, iar o informație clasificată nu încetează să fie clasificată după un an doar pentru că ADR nu prelungește ordinul. Lipsa unui termen de răspuns poate bloca recepția finală (art. 11 alin. 3). Publicarea ordinelor menține transparența fără a expune elemente sensibile.",
+        "otherComments": "Utile și: definirea „software-ului comercial standard” la art. 2; precizarea că art. 14 alin. (1) lit. c) acoperă și componentele preexistente ale contractantului, nu doar ale terților; corelarea art. 1 alin. (2) cu Expunerea de motive (entitățile aflate în administrarea sau controlul autorităților). În rest, proiectul e util și merită susținut."
+      }
+    },
+    "codex": {
+      "model": "codex",
+      "status": "ok",
+      "durationMs": 110176,
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Programele făcute din bani publici, deschise pentru reutilizare",
+      "verdictShort": "Pe baza articolelor furnizate, proiectul este util și prezintă un risc redus: poate limita cumpărarea repetată a acelorași programe și dependența de furnizori. Evaluarea rămâne provizorie, deoarece extrasul este incomplet și conține o anomalie de conținut.",
+      "initiatorClaim": "Inițiatorii urmăresc reducerea dezvoltărilor software duplicate și a dependenței administrației de furnizori. Ei propun publicarea codului finanțat public, reutilizarea lui și asigurarea documentației și drepturilor necesare întreținerii.",
+      "realityCheck": "Articolele furnizate instituie obligații de publicare, licențiere deschisă, verificare a soluțiilor existente și reutilizare justificată tehnic, împreună cu un depozit și un catalog administrate de ADR. Economiile invocate nu sunt garantate: implementarea presupune costuri de găzduire, verificare, documentare, adaptare și mentenanță. Extrasul nu instituie taxe pentru cetățeni sau un monopol comercial; afirmațiile din expunere despre clauze considerate nescrise, predare și condiționarea recepției nu pot fi confirmate integral din articolele disponibile.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "IT & AI",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 11 și art. 12 impun publicarea și acordarea unor drepturi reale de utilizare, modificare și distribuire. Simpla afișare a codului fără licență adecvată nu îndeplinește mecanismul propus.",
+        "Art. 1 alin. (3) exceptează software-ul comercial standard, dar formularea privind adaptările comandate trebuie să delimiteze componentele finanțate public de produsul preexistent. Finanțarea unei modificări nu conferă automat drepturi asupra întregului produs.",
+        "Art. 1 alin. (5) extinde aplicarea și asupra anumitor contracte încheiate de persoane juridice private, prin trimiterea la OUG nr. 41/2016. Sunt vizate categoriile indicate acolo, inclusiv entități cu statut de utilitate publică ori autorizate să presteze servicii publice în regim de putere publică, nu toate IMM-urile. [OUG nr. 41/2016](https://legislatie.just.ro/Public/DetaliiDocument/179586)",
+        "Art. 15–16 prevăd reutilizarea prioritară, cu posibilitatea justificării neutilizării. Aceasta poate deschide piața serviciilor de adaptare și mentenanță, dar criteriile trebuie să includă explicit costul total și capacitatea de suport; catalogul nu autorizează atribuirea directă a unor contracte.",
+        "Art. 11 alin. (4) exclude datele personale, secretele comerciale și credențialele. Art. 13 permite publicarea parțială, astfel încât protejarea unei componente să nu blocheze automat întregul proiect.",
+        "Art. 14 permite excepții temporare, revizuite anual, însă expresiile «condiții rezonabile» și «situații temporare de remediere» necesită criterii verificabile. Exceptarea de către ADR nu poate înlătura interdicțiile legale de divulgare a informațiilor clasificate.",
+        "Art. 4 limitează Oficiul la posturile existente, dar aceasta nu înseamnă cost bugetar zero. Art. 5–10 și art. 12 generează sarcini pentru administrație și costuri contractuale pentru furnizori, inclusiv IMM-uri; extrasul nu permite cuantificarea lor.",
+        "Art. 11 alin. (3) leagă publicarea de recepția finală, reper neclar pentru dezvoltarea internă ori continuă. Din fragment nu rezultă suficient de clar termenul publicării actualizărilor ulterioare; dispozițiile lipsă trebuie verificate înainte de concluzii despre această obligație."
+      ],
+      "blindSpotsCaught": "Extrasul se întrerupe la art. 17 alin. (1), iar trimiterea la art. 26 nu permite reconstituirea articolelor lipsă, a eventualelor sancțiuni sau a regimului tranzitoriu. Pasajul în chineză, fără legătură cu reglementarea, indică o posibilă contaminare a extragerii și trebuie confruntat cu documentul oficial; nu îl atribui proiectului autentic. Indicativele și stadiul sunt preluate din informațiile furnizate, fără confirmare independentă a fișei. De asemenea, administrarea unui depozit de cod nu constituie, prin ea însăși, un monopol asupra serviciilor comerciale de dezvoltare sau suport.",
+      "constitutionalityNote": "Nu rezultă o neconstituționalitate evidentă din articolele disponibile. Art. 1 alin. (5) din Constituție impune claritate și previzibilitate: legea trebuie să fixeze criteriile esențiale ale obligațiilor și excepțiilor, lăsând normelor metodologice detaliile tehnice. Art. 23 alin. (12) privește legalitatea pedepselor; fragmentul nu conține dispoziții punitive, deci nu susține constatarea unei încălcări. Protecția proprietății intelectuale și neretroactivitatea, potrivit art. 44 și art. 15 alin. (2), cer verificarea aplicării asupra contractelor și drepturilor existente; extrasul nu dovedește o aplicare retroactivă. Costurile trebuie analizate potrivit art. 138 alin. (5), iar dacă inițiativa modifică prevederile bugetului de stat, solicitarea informării Guvernului este obligatorie potrivit art. 111 alin. (1). Nu se poate constata nerespectarea acestor cerințe fără dosarul complet. [Constituția României](https://www.senat.ro/pagini/constitutia/constitutia.htm)",
+      "euLawNote": "Directiva (UE) 2018/958 privește restricțiile asupra accesului la profesii reglementate sau exercitării lor. Extrasul nu instituie asemenea restricții, astfel că testul special din această directivă nu apare aplicabil. [Directiva 2018/958, art. 1–2](https://eur-lex.europa.eu/eli/dir/2018/958/oj/eng) Concurența rămâne protejată prin regulile achizițiilor: cerințele de licențiere și specificațiile trebuie să fie proporționale și nediscriminatorii. [Directiva 2014/24/UE, art. 18 și 42](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32014L0024) Pentru TRIS, simpla referire la software sau servicii digitale nu declanșează automat notificarea. Trebuie stabilit dacă proiectul ori normele sale introduc reglementări tehnice sau reguli care vizează explicit servicii ale societății informaționale, în sensul art. 1; dacă da, se verifică notificarea prealabilă și suspendarea adoptării potrivit art. 5–6. Fragmentul nu dovedește nici obligația concretă, nici lipsa notificării și nu conține reguli specifice AI. [Directiva 2015/1535](https://eur-lex.europa.eu/eli/dir/2015/1535/oj) Orientarea spre reutilizare este compatibilă cu Regulamentul (UE) 2024/903, care favorizează soluțiile fără licențe restrictive în condiții de echivalență și prevede interoperabilitatea depozitelor relevante cu portalul european, inclusiv acceptarea EUPL în condițiile art. 8 alin. (4). Regulamentul nu impune publicarea universală a oricărui software finanțat public. [Regulamentul 2024/903, art. 4 și 8](https://eur-lex.europa.eu/eli/reg/2024/903/oj)",
+      "senatForm": {
+        "articleRef": "Art. 16 alin. (2)",
+        "proposalContent": "(2) Entitatea publică reutilizează soluția dacă adecvarea funcțională și tehnică, securitatea, mentenanța și costul total pe ciclul de viață justifică această opțiune. Analiza și motivele nereutilizării se consemnează și se publică, fără informații protejate potrivit legii. Achizițiile de adaptare și suport respectă legislația achizițiilor publice.",
+        "argumentation": "Reutilizarea poate reduce risipa, dar nu garantează costuri totale mai mici sau suport suficient. Criteriile explicite evită impunerea unei soluții doar fiindcă figurează în catalog și împiedică interpretarea priorității ca derogare de la concurență. Art. 4 alin. (6) din Regulamentul (UE) 2024/903 include costul total între criteriile relevante.",
+        "otherComments": "Propunere cetățenească pentru comisiile Camerei Deputaților care întocmesc raportul; poate fi preluată de un deputat. Termenul indicat, 26.10.2026, este depășit la data analizei, 28.10.2026; trimiterea ulterioară nu garantează examinarea ca amendament. Solicitați verificarea formei integrale și a dispozițiilor tranzitorii."
+      }
+    }
+  }
+}

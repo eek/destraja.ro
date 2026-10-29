@@ -1,0 +1,102 @@
+{
+  "slug": "plx-202-2026",
+  "billId": "PL-x 202/2026",
+  "updatedAt": "2026-10-29T12:47:32.088Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L107FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "România își mărește participația la Banca Mării Negre: 34,6 mil. euro plătiți în 8 ani",
+      "summaryTlDr": "Lege tehnică și benignă. Aprobă o subscriere deja negociată, cu sume corecte aritmetic și cu sursa de finanțare indicată. Costul real este de circa 4,3 mil. euro pe an timp de 8 ani, plus un angajament contingent de 80,7 mil. euro pe care legea nu îl numește explicit.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/200/00/2/se213.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "România subscrie 115 milioane de euro la capitalul Băncii Mării Negre, din care plătește efectiv 34,6 milioane în 8 ani",
+      "summaryTlDr": "Lege tehnică și benignă: statul plătește partea vărsată de 30% (34,6 mil. EUR în 8 rate) ca să-și păstreze ponderea de circa 14% într-o bancă regională de dezvoltare. Riscul real nu e în text, ci în calendar: dacă legea nu intră în vigoare la timp, România poate rata termenul de 31.12.2026 din Rezoluția 220.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat textul neschimbat: 34,6 mil. euro pentru BCDMN, plătiți în 8 tranșe din 2027",
+      "summary": "Senatul a adoptat proiectul fără modificări de fond: aceleași 100.256 acțiuni, 34.588.320 euro plătiți în 8 tranșe din 2027, din bugetul Ministerului Finanțelor. Diferențele sunt doar de redactare, iar capitalul apelabil de 80,7 mil. euro rămâne nemenționat în lege.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Legea nu menționează capitalul apelabil de 80,7 mil. euro, care poate deveni plată",
+            "major": true,
+            "article": "art. 2"
+          },
+          {
+            "text": "Fără plată sau bilet la ordin până la 31.12.2026, România nu primește acțiunile noi",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Din acțiunile refuzate de Albania, România primește doar 352; câștigul de influență e mic",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Anexa are greșeli de cifre la Bulgaria și Grecia, preluate din rezoluția originală",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Sursa banilor e clară: bugetul de stat, prin Ministerul Finanțelor",
+            "major": true,
+            "article": "art. 2"
+          },
+          {
+            "text": "Plata: 8 tranșe anuale de 4.323.540 euro (circa 21–22 mil. lei), din 2027",
+            "major": true,
+            "article": "art. 2"
+          },
+          {
+            "text": "Calculele sunt corecte: 100.256 acțiuni × 1.150 euro = 115.294.400 euro",
+            "major": false,
+            "article": "art. 1"
+          },
+          {
+            "text": "România urcă la 380.256 acțiuni (14,08%), la egalitate cu Ucraina",
+            "major": false,
+            "article": "art. 1"
+          }
+        ],
+        "partial": true
+      },
+      "diff": {
+        "added": 89,
+        "removed": 3,
+        "same": 0.01
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:47:32.088Z"
+    }
+  ]
+}

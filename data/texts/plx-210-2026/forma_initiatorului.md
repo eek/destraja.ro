@@ -1,0 +1,29 @@
+# PARLAMENTUL ROMÂNIEI
+
+Camera Deputaților
+
+Senat
+
+## LEGE privind instituirea anului 2026 ca "Anul Centenar al Partidului Național Țărănesc"
+
+Parlamentul României adoptă prezenta lege.
+
+Art. 1 - (1) Se instituie anul 2026 „Anul Centenar al Partidului Național Țărănesc”.
+
+(2) Marcarea Centenarului Partidului Național Țărănesc urmărește recunoașterea contribuției istorice a acestuia la dezvoltarea democratică a României, la modernizarea satului românesc și la apărarea valorilor constituționale.
+
+Art. 2 - Autoritățile administrației publice centrale și locale, în limita alocărilor bugetare aprobate, pot organiza sau sprijini acțiuni dedicate Centenarului Partidului Național Țărănesc, precum:
+
+a) sesiuni științifice, conferințe și simpozioane istorice;
+
+b) expoziții, activități culturale și educaționale;
+
+c) publicarea de lucrări științifice și materiale documentare privind istoria Partidului Național Țărănesc.
+
+Art. 3 - (1) Evenimentele consacrate Centenarului Partidului Național Țărănesc pot fi realizate în colaborare cu instituții academice, muzee, arhive, biblioteci și organizații neguvernamentale.
+
+(2) Agenția Națională de Presă AGERPRES, Societatea Română de Radiodifuziune și Societatea Română de Televiziune, în calitate de servicii publice, pot produce, difuza sau redifuza conținut editorial care marchează Centenarul Partidului Național Țărănesc.
+
+Această lege a fost adoptată de Camera Deputaților în ședința din ..... cu respectarea prevederilor art.76 alin. (2) din Constituția României Președintele Camerei Deputaților
+
+Această lege a fost adoptată de Senat în ședința din ..... cu respectarea prevederilor art. 76 alin. (2) din Constituția României Președintele Senatului

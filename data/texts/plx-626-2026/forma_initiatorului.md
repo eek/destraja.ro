@@ -1,0 +1,25 @@
+# PARLAMENTUL ROMÂNIEI CAMERA DEPUTAȚILOR
+
+SENAT
+
+Lege privind completarea Legii nr.448/2006 privind protecția și promovarea drepturilor persoanelor cu handicap
+
+Parlamentul României adoptă prezenta lege.
+
+Art. I. – Legea nr.448/2006 privind protecția și promovarea drepturilor persoanelor cu handicap, republicată în Monitorul Oficial al României, Partea I, nr. 1 din 3 ianuarie 2008, cu modificările și completările ulterioare, se completează după cum urmează:
+
+1\. După articolul 62 se introduce un nou articol, art. 62¹, cu următorul cuprins:
+
+## „Art. 62¹
+
+(1) Autoritățile și instituțiile publice care au în administrare sau în folosință obiective dintre cele prevăzute la art. 62 alin. (1) au obligația să elaboreze și să publice anual un plan de măsuri pentru îndeplinirea obligațiilor de accesibilizare prevăzute de prezenta lege.
+
+(2) Planul prevăzut la alin. (1) cuprinde măsurile de adaptare necesare, termenele estimative de realizare, prioritizarea intervențiilor și sursele de finanțare aprobate, disponibile sau avute în vedere.
+
+(3) Planul prevăzut la alin. (1) se elaborază pe baza evaluării situației privind accesibilitatea obiectivelor și serviciilor aflate în responsabilitatea autorităților și instituțiilor prevăzute la alin. (1), precum și a sesizărilor sau propunerilor formulate de persoanele cu handicap ori de organizațiile neguvernamentale care reprezintă drepturile și interesele acestora.
+
+(4) Planul prevăzut la alin. (1), precum și raportul privind stadiul realizării măsurilor prevăzute în planul aferent anului anterior se publică anual, până la data de 31 martie, pe pagina de internet proprie, într-un format accesibil persoanelor cu handicap."
+
+Art. II. – Prin derogare de la prevederile art. 62¹ alin. (4) din Legea nr. 448/2006 privind protecția și promovarea drepturilor persoanelor cu handicap, republicată, cu modificările și completările ulterioare, primul plan de măsuri se elaborază și se publică în termen de 6 luni de la data intrării în vigoare a prezentei legi.
+
+Art. III. – Prezenta lege intră în vigoare la 30 de zile de la data publicării în Monitorul Oficial al României, Partea I.

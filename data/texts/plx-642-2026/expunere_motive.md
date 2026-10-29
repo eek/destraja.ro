@@ -1,0 +1,211 @@
+la propunerea legislativă pentru modificarea și completarea Legii nr. 227/2015 privind Codul fiscal, a Legii nr. 207/2015 privind Codul de procedură fiscală și a Legii nr. 270/2017 a prevenirii, în vederea asigurării predictibilității fiscale și protejării contribuabililor de bună-credință
+
+## 1. Motivul emiterii actului normativ
+
+Prezenta inițiativă legislativă are ca obiectiv consolidarea predictibilității fiscale reale în România și instituirea unor garanții concrete pentru contribuabilii de bună-credință, în special pentru persoanele fizice autorizate, întreprinderile individuale, întreprinderile familiale, profesiile liberale, microîntreprinderile și întreprinderile mici și mijlocii.
+
+În ultimii ani, mediul economic românesc a fost afectat de numeroase modificări fiscale successive, introduse adesea într-un interval scurt de timp, cu termene insuficiente de adaptare și cu o sarcină administrativă disproporționată pentru contribuabili mici. Deși legislația fiscală actuală consacră principiul predictibilității impunerii, realitatea practică arată că acest principiu a rămas, de multe ori, mai degrabă o formulare de principiu decât o garanție efectivă pentru contribuabil.
+
+Pentru un contribuabil mare, cu departament juridic, fiscal și contabil intern, o modificare fiscală bruscă poate fi gestionată cu dificultate, dar cu resurse. Pentru un PFA, o întreprindere individuală, un mic magazin, un atelier, o firmă de familie sau o microîntreprindere, aceeași modificare poate însemna blocaj administrativ, costuri suplimentare, contractarea urgentă de servicii contabile, timp pierdut, risc de amendă și nesiguranță în planificarea activității.
+
+Această situație creează un dezechilibru evident între stat și contribuabil. Statul stabilește obligațiile, statul modifică regulile, statul gestionează platformele digitale, statul publică sau întârzie ghidurile de aplicare, dar contribuabilul este cel sancționat atunci când, din cauza lipsei de claritate, a instabilității legislative sau a disfuncționalităților tehnice, nu reușește să se conformeze imediat.
+
+Prezenta inițiativă nu urmărește diminuarea veniturilor bugetare, eliminarea obligațiilor fiscale sau protejarea contribuabililor de rea-credință. Dimpotrivă, scopul este consolidarea conformării voluntare, creșterea încrederii în administrația fiscală și separarea contribuabilului corect, care dorește să respecte legea, de contribuabilul care se sustrage cu intenție de la plata obligațiilor fiscale.
+
+Statul are dreptul și obligația de a colecta impozite, taxe și contribuții. Dar acest drept trebuie exercitat în mod previzibil, proporțional și loial față de contribuabil. Statul nu trebuie să schimbe regulile peste noapte și apoi să sancționeze cetățeanul sau antreprenorul pentru faptul că nu a reușit să se adapteze imediat unui cadru normativ instabil, neclar sau incomplet operaționalizat.
+
+## 2. Necesitatea întâririi principiului predictibilității fiscale
+
+Codul fiscal consacră deja predictibilitatea impunerii ca principiu al fiscalității. Totuși, formularea actuală nu este suficientă pentru a împiedica modificările fiscale cu efect imediat sau aproape imediat asupra contribuabililor mici și mijlocii.
+
+În practică, au existat situații în care modificările fiscale, obligațiile declarative sau obligațiile digitale au fost introduse cu termene scurte, fără o perioadă reală de acomodare, fără ghiduri complete și fără ca sistemele informatice să fie pe deplin funcționale.
+
+Această lipsă de predictibilitate afectează direct capacitatea contribuabililor de a-și planifica activitatea economică. Un antreprenor nu poate stabili prețuri, contracte, salarii, investiții, achiziții sau angajamente comerciale dacă regimul fiscal se modifică repetat și imprevizibil. În special pentru întreprinderile mici și mijlocii, stabilitatea cadrului fiscal este o condiție minimă pentru supraviețuire economică.
+
+Prin urmare, proiectul propune ca actele normative care introduc sau majorează impozite, taxe ori contribuții, modifică baza de calcul, restrâng facilități fiscale, modifică plafoane de încadrare sau instituie obligații fiscale ori declarative suplimentare pentru contribuabilii mici și mijlocii să între în vigoare numai cu respectarea unui termen real de pregătire.
+
+Această măsură nu blochează statul în situații excepționale. Sunt păstrate excepții justificate pentru obligații europene, decizii ale Curții Constituționale, hotărâri ale instanțelor europene, măsuri favorabile contribuabililor sau situații extraordinare obiective și motivate. Însă excepția trebuie să rămână excepție, nu regulă.
+
+## 3. Necesitatea protejării contribuabilului de bună-credință
+
+Un alt obiectiv important al proiectului este introducerea expresă a conceptului de contribuabil de bună-credință în materia fiscală procedurală.
+
+În prezent, contribuabili care greșesc fără intenție, care întâmpină dificultăți generate de platformele fiscale sau care se confrontă cu interpretări contradictorii ale autorităților pot ajunge să fie tratați în același mod cu cei care urmăresc fraudarea bugetului de stat. Această abordare este inechitabilă și contraproductivă.
+
+Contribuabilul care nu a diminuat obligațiile fiscale principale, care nu a acționat cu rea-credință, care a încercat să se conformeze și care remediază nereguliile într-un termen rezonabil nu trebuie sancționat automat cu amendă. În asemenea situații, administrația fiscală trebuie să acționeze mai întâi prin îndrumare, prevenire și remediere.
+
+Proiectul propune ca, pentru prima abatere constată într-un interval de 12 luni, în cazul obligațiilor declarative, informative, procedurale sau digitale care nu au produs diminuarea obligațiilor fiscale principale, organul fiscal să aplice avertisment și să acorde un termen de remediere. Dacă neregula este remediată în termen, contribuabilul nu va fi amendat.
+
+Această soluție nu favorizează evaziunea și nu împiedică sancționarea faptelor grave. Sunt exceptate expres cazurile de rea-credință, folosirea de documente false, refuzul de a pune la dispoziția organului fiscal documentele solicitate, sustragerea de la control fiscal și faptele care constituie infracțiuni.
+
+Prin această diferențiere, legislația fiscală devine mai echilibrată: fermă cu cei care fraudează, dar corectă cu cei care greșesc fără intenție și se conformează.
+
+## 4. Digitalizarea fiscală nu trebuie transformată în sancționare automată
+
+Digitalizarea administrației fiscale este necesară și poate aduce beneficii importante: reducerea birocrației, creșterea transparenteii, combaterea evaziunii, simplificarea raportărilor și eficientizarea relației dintre contribuabil și stat.
+
+Totuși, digitalizarea nu poate fi transformată într-o povară suplimentară pentru contribuabil atunci când sistemele statului sunt neclare, incomplete, indisponibile sau nefuncționale. O platformă fiscală obligatorie trebuie să fie funcțională înainte ca statul să aplice sancțiuni pentru neutilizarea ei. Un ghid de aplicare trebuie publicat înainte de sancționare. Specificațiile tehnice trebuie să fie clare înainte ca firmele și contabilii să fie obligați să raporteze conform acestora.
+
+În practică, numeroși contribuabili și profesioniști contabili au semnalat dificultăți legate de aplicații publice nefuncționale, disfuncționalități ale platformelor de raportare, lipsa unor instrucțiuni clare, modificări repetate ale termenelor și obligații administrative introduse fără o perioadă suficientă de acomodare.
+
+Prezenta inițiativă propune instituirea unei perioade minime de conformare pentru obligațiile fiscale digitale noi. În această perioadă, autoritățile fiscale pot transmite notificări, atenționări, recomandări și îndrumări, dar nu pot aplica amenzi contribuabililor de bună-credință, cu excepția cazurilor de fraudă sau refuz expres de conformare.
+
+Totodată, proiectul prevede că nu se aplică sancțiuni pentru neîndeplinirea sau îndeplinirea cu întârziere a unei obligații fiscale digitale atunci când neconformarea a fost cauzată de indisponibilitatea platformei, erori tehnice, lipsa instrucțiunilor necesare sau interpretări administrative contradictorii.
+
+Această soluție este una de bun-simț legislativ: contribuabilul nu poate fi sancționat pentru nefuncționarea sistemului pus la dispoziție sau impus de autoritatea publică.
+
+## 5. Necesitatea unui calendar fiscal anual consolidat
+
+Un alt element important propus prin prezentul proiect îl reprezintă publicarea unui calendar fiscal anual consolidat pentru contribuabilii mici și mijlocii.
+
+În prezent, informațiile fiscale sunt adesea dispersate în acte normative, ordine, instrucțiuni, ghiduri, comunicate, formulare și platforme diferite. Pentru un contribuabil mic, această fragmentare creează dificultăți reale. Nu este suficient ca informația să existe undeva într-un act normativ; ea trebuie să fie accesibilă, clară, centralizată și ușor de utilizat.
+
+Prin proiect se instituie obligația Agenției Naționale de Administrare Fiscală de a publica anual, până la data de 31 ianuarie, un calendar fiscal consolidat care să cuprindă obligațiile declarative și de plată, termenele, formularele, categoriile de contribuabili vizate, sancțiunile aplicabile, ghidurile oficiale și modificările față de anul fiscal precedent.
+
+Această măsură nu presupune crearea unei noi instituții și nu generează o povară bugetară semnificativă. Ea reprezintă o obligație de organizare administrativă și de comunicare clară cu contribuabilii.
+
+Un calendar fiscal clar va sprijini conformarea voluntară, va reduce erorile, va diminua numărul de sancțiuni aplicate pentru neinformare și va contribui la creșterea încrederii în administrația fiscală.
+
+## 6. Necesitatea extinderii logicii prevenirii în domeniul fiscal digital
+
+Legea prevenirii a introdus deja în legislația românească ideea că, pentru anumite contravenții, prima reacție a statului trebuie să fie avertismentul și planul de remediere, nu amenda imediată. Această logică trebuie consolidată în domeniul obligațiilor fiscale digitale, unde multe nereguli pot apărea nu din reacredită, ci din complexitate tehnică, lipsă de instrucțiuni, modificări successive sau disfuncționalități ale platformelor.
+
+Prin urmare, proiectul propune completarea Legii prevenirii astfel încât, pentru obligațiile fiscale digitale ale PFA-urilor, întreprinderilor individuale, întreprinderilor familiale, profesiilor liberale, microîntreprinderilor și IMM-urilor, prevenirea și remedierea să aibă prioritate față de sancționare, atunci când faptanu a produs diminuarea obligațiilor fiscale principale și nu a fost săvârșită cu rea-credință.
+
+Această măsură va reduce tensiunea dintre contribuabili și administrația fiscală și va încuraja conformarea voluntară. Scopul statului trebuie să fie colectarea corectă a obligațiilor fiscale, nu aplicarea de amenzi pentru neclarități procedurale sau tehnice.
+
+## Schimbările preconizate
+
+Prin prezenta inițiativă legislativă se propune:
+
+1\. Întărirea principiului predictibilității fiscale, prin stabilirea unor termene clare de intrare în vigoare pentru actele normative care introduc sau majorează impozite, taxe, contribuții ori obligații declarative suplimentare pentru contribuabilii mici și mijlocii.
+
+2\. Limitarea modificărilor fiscale intempestive, prin instituirea obligației ca derogările de la termenele de predictibilitate să fie exprese, motivate și limitate la situații obiective.
+
+3\. Protejarea contribuabilului de bună-credință, prin introducerea unei reguli potrivit căreia prima abatere procedurală, declarativă, informativă sau digitală, care nu produce diminuarea obligațiilor fiscale principale, se sancționează cu avertisment și termen de remediere.
+
+4\. Interzicerea sancționării contribuabilului pentru disfuncționalitățile platformelor fiscale, erori tehnice, lipsa ghidurilor, lipsa specificațiilor tehnice sau existența unor interpretări administrative contradictorii.
+
+5\. Introducerea unei perioade minime de conformare pentru obligațiile fiscale digitale noi, astfel încât contribuabilii să aibă timp real pentru adaptare.
+
+6\. Obligația publicării incidentelor tehnice ale platformelor fiscale, pentru a asigura transparența funcționării sistemelor informatice utilizate obligatoriu de contribuabili.
+
+7\. Instituirea calendarului fiscal anual consolidat, destinat PFA-urilor, întreprinderilor individuale, întreprinderilor familiale, profesiilor liberale, microîntreprinderilor și IMM-urilor.
+
+8\. Aplicarea logicii prevenirii în domeniul fiscal digital, astfel încât remedierea să fie prioritară sancționării în cazul contribuabililor corecți.
+
+## Impactul socioeconomic
+
+Prezenta inițiativă legislativă are un impact socioeconomic pozitiv, în special asupra mediului antreprenorial mic și mijlociu.
+
+PFA-urile, întreprinderile individuale, întreprinderile familiale, profesiile liberale, microîntreprinderile și IMM-urile reprezintă o parte esențială a economiei românești. Acestea susțin locuri de muncă, oferă servicii locale, contribuie la bugetul de stat și la bugetele locale și mențin activitatea economică în comunități în care marile companii nu sunt prezente.
+
+Pentru acești contribuabili, instabilitatea fiscală nu este o problemă abstractă. Ea se traduce prin costuri contabile suplimentare, contracte revizuite, prețuri modify, investiții amânate, timp pierdut, risc de amendă și presiune administrativă.
+
+Prin creșterea predictibilității fiscale, proiectul va contribui la:
+
+\- îmbunătățirea climatului de afaceri;
+
+\- creșterea încrederii contribuabililor în stat;
+
+\- reducerea costurilor administrative;
+
+\- diminuarea sancțiunilor aplicate pentru neconformări minore;
+
+\- creșterea conformării voluntare;
+
+\- protejarea firmelor mici în fața unor modificări fiscale bruște;
+
+\- reducerea conflictelor dintre contribuabili și administrația fiscală.
+
+Prezenta lege va avea un efect pozitiv și asupra profesici contabile, care a fost afectată în mod direct de schimbările legislative frecvente și de obligațiile digitale introduse rapid. Contabilii au devenit, în practică, intermediari obligați între stat și contribuabil, fiind nevoiți să gestioneze nu doar evidența fiscală, ci și dificultățile tehnice, interpretările schimbătoare și presiunea termenelor scurte.
+
+Prin clarificarea obligațiilor statului și instituirea unor perioade rezonabile de conformare, proiectul contribuie la echilibrarea raportului dintre administrația fiscală, contribuabil și profesionistul contabil.
+
+## Impactul asupra mediului de afaceri
+
+Impactul asupra mediului de afaceri este unul pozitiv.
+
+Inițiativa nu propune scutiri fiscale, nu elimină obligații de plată și nu creează privilegii pentru anumite categorii de contribuabili. Ea instituie reguli clare de stabilitate, informare, conformare și prevenire.
+
+Mediul de afaceri are nevoie nu doar de niveluri rezonabile de impozitare, ci și de reguli stabile. O taxă cunoscută din timp poate fi inclusă în planificarea economică. O obligație declarativă clar explicată poate fi îndeplinită. O platformă funcțională poate fi utilizată. Problema apare atunci când obligațiile se modifică repetat, termenul de adaptare este scurt, iar sancțiunea intervine înainte ca sistemul să fie clar și funcțional.
+
+Prezenta lege răspunde exact acestei probleme.
+
+Pentru întreprinderile mici și mijlocii, predictibilitatea fiscală este o condiție de supraviețuire economică. Firmele mici nu dispun de departamente fiscale interne, nu pot absorbi ușor costuri administrative neprevăzute și sunt mult mai vulnerabile la amenzi, blocaje sau obligații impuse fără pregătire.
+
+Prin adoptarea prezentei inițiative, Parlamentul transmite un semnal important: România nu poate construi o economie sănătoasă prin instabilitate fiscală, birocrație excesivă și sancționarea automată a contribuabililor de bună-credință.
+
+## Impactul asupra bugetului general consolidat
+
+Prezenta inițiativă legislativă nu are ca obiect reducerea impozitelor, taxelor sau contribuțiilor datorate bugetului general consolidat.
+
+Proiectul nu instituie facilități fiscale noi, nu elimină obligații fiscale principale și nu diminuează baza de impozitare. Prin urmare, nu se anticipează un impact bugetar negativ direct asupra veniturilor statului.
+
+Dimpotrivă, prin încurajarea conformării voluntare, prin reducerea conflictelor administrative și prin clarificarea obligațiilor contribuabililor, proiectul poate avea un efect pozitiv indirect asupra colectării. Un contribuabil informat, tratat corect și sprijinit să se conformeze are șanse mai mari să își îndeplinească obligațiile decât un contribuabil sancționat pentru erori minore sau pentru disfuncționalități care nu îi sunt imputabile.
+
+Cheltuielile administrative generate de aplicarea legii sunt reduse și pot fi acoperite din bugetele existente ale instituțiilor competente. Publicarea calendarului fiscal consolidat, a incidentelor tehnice și a ghidurilor de conformare reprezintă activități care țin de organizarea și comunicarea administrativă normală a autorităților fiscale.
+
+## Impactul asupra sistemului juridic
+
+Prezenta inițiativă legislativă contribuie la clarificarea și completarea cadrului normativ existent.
+
+Modificările propuse vizează trei acte normative principale:
+
+• Legea nr. 227/2015 privind Codul fiscal;
+
+\- Legea nr. 207/2015 privind Codul de procedură fiscală;
+
+\- Legea nr. 270/2017 a prevenirii.
+
+Prin completarea Codului fiscal, se consolidează principiul predictibilității impunerii și se stabilesc garanții procedurale clare privind intrarea în vigoare a modificărilor fiscale care afectează contribuabilii mici și mijlocii.
+
+Prin completarea Codului de procedură fiscală, se introduce protecția contribuabilului de bună-credință, regimul obligațiilor fiscale digitale noi, calendarul fiscal anual consolidat și interdicția sancționării pentru neclarități administrative imputabile autorității fiscale.
+
+Prin completarea Legii prevenirii, se extinde logica avertismentului și a planului de remediere asupra obligațiilor fiscale digitale, în cazul contribuabililor care nu au acționat cu rea-credință și nu au diminuat obligațiile fiscale principale.
+
+Aceste modificări sunt coerente cu principiile legalității, proporționalității, securității juridice și bunei administrări.
+
+## Compatibilitatea cu dreptul Uniunii Europene
+
+Prezenta inițiativă legislativă este compatibilă cu dreptul Uniunii Europene.
+
+Proiectul nu instituie măsuri contrare reglementărilor europene în materie fiscală, nu afectează obligațiile României privind colectarea TVA, schimbul de informații fiscale, raportările europene sau combaterea fraudei fiscale.
+
+Dimpotrivă, inițiativa urmărește întărirea conformării fiscale prin reguli mai clare, prin predictibilitate și prin creșterea încrederii contribuabililor în administrația fiscală.
+
+Excepțiile prevăzute în proiect permit adoptarea unor măsuri fiscale cu intrare în vigoare accelerată atunci când acestea sunt necesare pentru punerea în aplicare a obligațiilor rezultate din dreptul Uniunii Europene sau din hotărâri ale Curții de Justiție a Uniunii Europene.
+
+## Consultările necesare
+
+Pentru definitivarea proiectului, este utilă consultarea următoarelor instituții și categorii profesionale:
+
+• Ministerul Finanțelor;
+
+\- Agenția Națională de Administrare Fiscală;
+
+\- Consiliul Național al Întreprinderilor Private Mici și Mijlocii;
+
+\- Corpul Experților Contabili și Contabililor Autorizați din România;
+
+\- organizații reprezentative ale PFA-urilor, profesiilor liberale, microîntreprinderilor și IMM-urilor;
+
+\- organizații civice și profesionale care au semnalat public problema instabilității fiscale și a birocrației excesive.
+
+Consultarea acestor actori este necesară pentru a asigura o reglementare echilibrată, aplicabilă și adaptată problemelor reale întâmpinate de contribuabili.
+
+## Concluzii
+
+Prezenta inițiativă legislativă pornește de la o realitate simplă: contribuabilul de bună-credință nu trebuie tratat ca un adversar al statului.
+
+România are nevoie de colectare fiscală corectă, dar această colectare nu poate fi construită pe instabilitate legislativă, obligații introduse peste noapte, platforme nefuncționale și sancțiuni aplicate automat. Un stat corect este un stat care își respectă propriile reguli, care își informează cetățenii și care nu transferă asupra contribuabilului consecințele propriei dezorganizări administrative.
+
+Predictibilitatea fiscală nu este în privilegiu pentru mediul de afaceri. Este o condiție minimă pentru funcționarea unei economii sănătoase.
+
+Prin acest proiect de lege, se propune trecerea de la fiscalitatea imprevizibilă și sancționatorie la o fiscalitate clară, responsabilă și orientată spre conformare voluntară.
+
+Statul trebuie să fie ferm cu frauda, dar corect cu contribuabilul cinstit. Aceasta este filosofia prezentei inițiative legislative.
+
+## Inițiator:
+
+Nini-Alexandru Pascalini Deputat Circumscripția nr. 4 Bacău

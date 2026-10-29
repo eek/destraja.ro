@@ -1,0 +1,220 @@
+# EXPUNERE DE MOTIVE
+
+# Secțiunea 1 Titlul proiectului de act normativ
+
+## Secțiunea a 2-a Motivul emiterii actului normativ
+
+## 2.1 Sursa proiectului de act normativ
+
+Inițiativa Ministerului Finanțelor
+
+În vederea protejării surselor bugetare ale statului prin asigurarea colectării creanțelor fiscale/bugetare în ceea ce privește situațiile vizând modificarea deținerii controlului, prin cesiune de părți sociale, în cadrul unei societăți cu răspundere limitată,
+
+În scopul prevenirii utilizării mecanismului de cesionare a părților sociale ca mijloc de evitare a achitării obligațiilor fiscale/bugetare, prin ieșirea formală dintr-o societate cu datorii a asociatului care deține controlul,
+
+Ținând cont că prin Ordonanța de urgență a Guvernului nr. 89/2025 pentru modificarea și completarea Legii nr. 227/2015 privind Codul fiscal, reglementarea unor măsuri fiscal-bugetare, precum și pentru modificarea și completarea unor acte normative, publicată în Monitorul Oficial al României, Partea I, nr. 1203 din 24 decembrie 2025, au fost instituite măsuri ce au avut ca obiectiv principal, reducerea riscului privind neplata accizelor și TVA, datorate bugetului de stat, de către operatori economici care desfășoară activitate în domeniul comercializării produselor accizabile, cu preponderență produse energetice, sunt necesare noi intervenții în scopul asigurării aplicării effective și al conferirii eficacității prevederilor astfel introduse,
+
+Având în vedere necesitatea asigurării continuității desfășurării activității economice de către noile categorii de operatori economici introduse prin Ordonanța de urgență a Guvernului nr. 89/2025, respectiv importator autorizat, exportator înregistrat și distribuitor de produse energetice, se impune adoptarea unei dispoziții tranzitorii cu privire la aceștia,
+
+Ținând cont de faptul că situația prezentată impune adoptarea de măsuri imediate pentru perfecționare astfel încât să răspundă cât mai bine contextului dat, neadoptarea acestor măsuri, cu celeritate, putând avea consecințe negative asupra încasării veniturilor din accize la bugetul de stat.
+
+## 2.2Descrierea situației actuale
+
+I. Prin Legea nr. 239/2025, cu modificările și completările ulterioare, la art. V, au fost introduse reglementări cu privire la cesiunea de părți sociale, în sensul că cesiunea părților sociale ale asociatului care deține controlul în cadrul unei societăți cu răspundere limitată este opozabilă organului fiscal doar în anumite condiții: notificarea organului fiscal; constituirea unor garanții în situația în care societatea înregistrează obligații bugetare restante; înregistrarea mențiunii la Oficiul Național al Registrului Comerțului doar după prezentarea acordului organului fiscal cu privire la constituirea de garanții pentru plata obligațiilor bugetare restante.
+
+Oficiul Național al Registrului Comerțului a transmis situația cererilor de cesionare a părților sociale, prezentând și motivele de respingere, cum ar fi lipsa certificatului de atestare fiscală prevăzut la alin. (2) al art. V din Lege ori absența acordului organului fiscal privind constituirea de garanții în situația în care societatea înregistrează obligații fiscale restante, precum și alte creanțe bugetare individualizate în titluri executorii emise potrivit legii și existente în evidența organului fiscal central în vederea recuperării acestora sau a garanției de constituit de către cesionar având în vedere prevederile art. 211 lit. a) și/sau b) din Legea nr. 207/2015 privind Codul de procedură fiscală, cu modificările și completările ulterioare.
+
+Totodată, analiza situațiilor transmise a evidențiat faptul că, în practică, există un volum ridicat de cesiuni de părți sociale la nivel național, constatându-se că limitarea doar cu privire la asociatul care deține controlul societății nu este suficient de acoperitoare pentru toate posibilele situații la care se recurge, cu implicații în ceea ce privește recuperarea de la respectivele societăți a obligațiilor fiscale înregistrate.
+
+II. Prin Ordonanța de urgență a Guvernului nr. 89/2025 pentru modificarea și completarea Legii nr. 227/2015 privind Codul fiscal, reglementarea unor măsuri fiscal-bugetare, precum și pentru modificarea și completarea unor acte normative, au fost introduse anumite măsuri, respectiv:
+
+1.S-au introdus definiții referitoare la angrosistul de produse energetice cu sau fără depozitare și la atestatul de comercializare angro de produse energetice cu sau fără depozitare.
+
+2.S-a instituit obligația de autorizare a tuturor operatorilor economici care desfășoară activități de import cu produse accizabile. De asemenea, a fost instituită obligația de înregistrare a operatorilor economici care exportă produse energetice, astfel încât organele fiscale să dețină informații cu privire la societățile care desfășoară operațiuni de export cu produse energetice și la cantitățile exportate, și, totodată, a fost limitat lanțul de tranzacționare la un singur operator economic care deține atestat angro fără depozitare, cu condiția ca produsele energetice să părăsească antrepozitul fiscal/depozitul angro autorizat/depozitul destinatarului înregistrat/importatorului autorizat, în vederea comercializării către un consumator final sau stație de distribuție carburanți, având în vedere necesitatea reducerii riscului privind neplata accizelor și TVA, datorate bugetului de stat, de către operatorii economici care desfășoară activitate în domeniul comercializării produselor energetice.
+
+3.Au fost introduse prevederi privind analizarea operatorilor economici autorizați ca și antrepozitari autorizați după anumite criterii de risc fiscal ridicat. Astfel, două dintre aceste criterii prevăd că operatorii economici care au obținut autorizații și/sau au fost înregistrați în domeniul comercializării produselor accizabile în ultimele 12 luni, cu excepția operatorilor economici care au reînnoit în ultimele 12 luni autorizațiile obținute anterior, precum și cei care în ultimele 12 luni au depus declarațiile fiscale cu o întârziere mai mare de 5 zile de la termenul legal, se încadrează la risc fiscal ridicat.
+
+4\. S-a introdus notificarea operatorilor economici la care în procesul de autorizare sau ulterior, ca urmare a unei sesizări a organelor fiscale se constată că se încadrează în cel puțin unul dintre criteriile de risc fiscal, de către Comisia pentru autorizarea operatorilor cu produse supuse accizelor armonizate în vederea respectării prevederilor art. 367 alin. (1^1) și (1^2) și ale art. 348 alin. (1^4) din Codul fiscal.
+
+5.S-a stabilit modalitatea de comunicare a deciziei prin care Comisia pentru autorizarea operatorilor de produse supuse accizelor armonizate, instituită nivelul Agenției Naționale de Administrare Fiscală, a hotărât suspendarea, revocarea sau anularea autorizației de antrepozit fiscal.
+
+6\. Au fost exceptați antrepozitarii autorizați de la obligația de autorizare ca importator autorizat.
+
+7.A fost prevăzut că în ceea ce privește condițiile pentru obținerea de către operatorii economici a atestatului de distribuție și comercializare angro băuturi alcoolice, tutun prelucrat și produse energetice - benzine, motorine, petrol lampant, gaz petrolier lichefiat, păcură și biocombustibili, acestea să fie stabilite prin ordin al președintelui Agenției Naționale de Administrare Fiscală.
+
+8.A fost introdusă obligația de înregistrare la Comisia pentru autorizarea operatorilor cu produse supuse accizelor armonizate instituită la nivelul ANAF sau la autoritatea vamală teritorială, după caz, pentru operatorii economici care doresc să distribuie și să comercializeze angro păcură, precum și pentru operatorii economici care doresc să comercializeze în sistem en detail păcură.
+
+De asemenea, pentru operatorii economici care doresc să distribuie și să comercializeze angro produse energetice - benzine, motorine, petrol lampant, gaz petrolier lichefiat, păcură și biocombustibili, a fost introdusă obligația constituirii unei garanții de 2.500.000 lei, sub forma prevăzută la art. 348 alin. (1) din Codul fiscal și deținerea în proprietate de active corporale fixe în valoare de minimum 2.500.000 lei. Totodată, pentru operatorii economici care doresc să distribuie și să comercializeze angro băuturi alcoolice și tutun prelucrat, a fost introdusă obligația constituirii unei garanție de 250.000 lei, sub forma prevăzută la art. 348 alin. (1) din Codul fiscal.
+
+9.S-a instituit obligația ca operatorii economici care dețin autorizații de antrepozite fiscale, destinatari înregistrați, expeditori înregistrați, importatori autorizați, precum și operatorii economici care dețin atestate de distribuție și comercializare angro băuturi alcoolice, tutun prelucrat și produse energetice - benzine, motorine, petrol lampant, gaz petrolier lichefiat și biocombustibili, de a solicita din nou autorizarea sau înregistrarea, după caz, începând cu data de 31 martie 2026 și cel târziu până la data de 31 mai 2026, inclusiv.
+
+Totodată, s-a prevăzut faptul că autorizațiile/atestatele operatorilor economici care au solicitat autorizarea sau înregistrarea în acest termen, să își mențină valabilitatea până la data autorizării/înregistrării sau respingerii solicitării de autorizare/înregistrare, în caz contrar, valabilitatea autorizațiilor/atestatelor, să înceteze de drept la data de 1 iunie 2026, însă nu au fost prevăzute dispoziții tranzitorii și pentru operatorii economici care conform Ordonanței de urgență a Guvernului nr. 89/2025 sunt obligați să se autorizeze/înregistreze ca importator autorizat, exportator înregistrat, distribuitor de produse energetice astfel încât aceștia să poată desfășura în continuare activități
+
+| economice până la un anumit termen considerat suficient pentru obținerea autorizației/atestatului. |
+| --- |
+| III. Titlul VIII „Accize și alte taxe speciale” din Legea nr. 227/2015 privind Codul fiscal |
+| Potrivit art. 345 alin. (3^5) din Codul fiscal, antrepozitarii autorizați începând cu data de 1 ianuarie 2024, în primele 36 de luni de valabilitate a autorizației au obligația de a plăti anticipat accizele. |
+| IV. Ordonanța de urgență a Guvernului nr. 70/2024 privind unele măsuri de implementare și utilizare a decontului precompletat RO e-TVA și valorificarea datelor și informațiilor prin implementarea unui sistem de guvernanță specific, precum și alte măsuri fiscale |
+| Prin Ordonanța de urgență a Guvernului nr. 89/2025 pentru modificarea și completarea Legii nr. 227/2015 privind Codul fiscal, reglementarea unor măsuri fiscal-bugetare, precum și pentru modificarea și completarea unor acte normative, au fost abrogate parțial prevederile art. 5 și 8 din Ordonanța de urgență a Guvernului nr. 70/2024 privind unele măsuri de implementare și utilizare a decontului precompletat RO e-TVA și valorificarea datelor și informațiilor prin implementarea unui sistem de guvernanță specific, precum și alte măsuri fiscale, referitoare la răspunsul contribuabililor la Notificarea de conformare RO e-TVA. |
+| V. Prin art. I pct. 4 din Ordonanța de urgență a Guvernului nr. 188/2022 pentru modificarea și completarea Legii nr. 207/2015 privind Codul de procedură fiscală și pentru modificarea Ordonanței de urgență a Guvernului nr. 74/2013 privind unele măsuri pentru îmbunătățirea și reorganizarea activității Agenției Naționale de Administrare Fiscală, precum și pentru modificarea și completarea unor acte normative, a fost modificată Legea nr. 207/2015 privind Codul de procedură fiscală astfel: La articolul 7, alineatul (10) se modifică și va avea următorul cuprins: "(10) Analiza de risc se efectuează periodic, caz în care organul fiscal stabilește și clasa/subclasa de risc fiscal a contribuabilului. Clasa/Subclasa de risc fiscal se comunică contribuabilului, la cererea acestuia, prin orice mijloc de comunicare care asigură dovada primirii informației, cu excepția cazului în care obiective de interes general justifică restrângerea accesului la această informație." Conform art. III alin. (1) lit. a) din OUG nr. 188/2022 prevederile art. I pct. 4 au intrat în vigoare la 1 ianuarie 2026. |
+
+## 2.3 Schimbări preconizate
+
+I. Legea nr. 239/2025, cu modificările și completările ulterioare
+
+Modificarea are în vedere întărirea disciplinei fiscale, respectiv consolidarea mecanismelor de asigurare a recupererii obligațiilor fiscale datorate de contribuabili. Astfel, se extinde sfera de aplicabilitate a prevederilor art. V, prin eliminarea referinței la deținerea controlului.
+
+De asemenea, se are în vedere și corelarea tehnică necesară în contextul dat în ceea ce privește mențiunea privind întrunirea procentului de control.
+
+II. Ținând cont de modificările și completările aduse Codului fiscal prin Ordonanța de urgență a Guvernului nr. 89/2025, este necesară efectuarea unor modificări în scopul asigurării aplicării effective și al conferirii eficacității prevederilor nou-introduse. Astfel, se propune:
+
+1\. Completarea definițiilor referitoare la angrosistul de produse energetice cu sau fără depozitare și a atestatului de comercializare angro de produse energetice cu sau fără depozitare, în sensul că produsele energetice prevăzute la art. 435 alin. (3) din Codul fiscal pot fi achiziționate și de la un destinatar certificat.
+
+2\. Reviziuirea prevederilor privind obligația de autorizare ca importatori autorizați în sensul că această obligație să revină doar operatorilor economici care importă produsele accizabile prevăzute la art. 435 alin. (3) din Codul fiscal. Corelativ, se propune și modificarea definițiilor privind importatorul autorizat și exportatorul înregistrat.
+
+3\. Având în vedere că potrivit art. V din Ordonanța de urgență a Guvernului nr. 89/2025 toți operatorii economici autorizați trebuie să obțină o nouă autorizare, se propune eliminarea criteriului de risc fiscal care vizează operatorii economici care au obținut autorizații și/sau au fost înregistrați în domeniul comercializării produselor accizabile în ultimele 12 luni, astfel încât operatorii economici care de-a lungul anilor au avut un comportament fiscal corect să nu fie încadrați în categoria operatorilor cu risc fiscal.
+
+Totodată, se propune ca încadrarea la risc fiscal să fie efectuată doar dacă se depun declarațiile de impunere cu o întârziere mai mare de 15 zile de la termenul legal, în vederea asigurării unui cadru procedural eficient. Înlocuirea sintagmei „declarațiile fiscale” cu sintagma „declarațiile de impunere” are în vedere faptul că doar declarațiile de impunere produc efecte juridice directe asupra stabilirii creanței fiscale.
+
+4\. Completarea prevederilor privind notificarea operatorilor economici în cazul cărora în procesul de autorizare sau ulterior, ca urmare a unei sesizări a organelor fiscale, se constată că se încadrează în cel puțin unul dintre criteriile de risc fiscal, în sensul că notificarea de către autoritatea vamală teritorială în vederea respectării prevederilor art. 367 alin. (1^1) și (1^2) și ale art. 348 alin. (1^4) din Codul fiscal, se face pentru antrepozitele fiscale pentru producția exclusivă de vinuri realizată de către contribuabili, alții decât contribuabilii mari și mijlocii stabiliți conform reglementărilor în vigoare, micile distilerii prevăzute la art. 353 din Codul fiscal, precum și pentru micile fabrici de bere independente prevăzute la art. 349 din Codul fiscal, având în vedere că se autorizează de către autoritatea vamală teritorială competentă.
+
+5\. Introducerea unor prevederi privind comunicarea deciziei prin care autoritatea vamală teritorială competentă pentru autorizare a hotărât suspendarea, revocarea sau anularea autorizației și în cazul autorizațiilor deținute de antrepozitele fiscale pentru producția exclusivă de vinuri realizată de către contribuabili, alții decât contribuabilii mari și mijlocii stabiliți conform reglementărilor în vigoare, micile distilerii prevăzute la art. 353 din Codul fiscal, precum și micii producători independenți de bere prevăzuți la art. 349 din Codul fiscal.
+
+6\. Completarea prevederilor privind operatorii economici care nu sunt obligați să se autorizeze ca importatori autorizați, cu expeditorii înregistrați, având în vedere faptul că pot exista importuri efectuate de către operatori economici care dețin și această calitate.
+
+7\. Modificarea alin. (3) al art. 435 din Codul fiscal, în sensul stabilirii prin ordin comun al președintelui Agenției Naționale de Administrare Fiscală și al președintelui Autorității Vamale Române a condițiilor pentru obținerea atestatului de distribuție și comercializare angro băuturi alcoolice, tutun prelucrat și produse energetice - benzine, motorine, petrol lampant, gaz petrolier lichefiat, păcură și biocombustibili, având în vedere că procedura de înregistrare a operatorilor care comercializează angro produse accizabile, presupune depunerea și verificarea dosarelor de către organele vamale territoriale, și ulterior, întocmirea referatului ce urmează a fi transmis la Comisie, iar prin ordin al președintelui Agenției Naționale de Administrare Fiscală nu se pot stabili atribuții în sarcina Autorității Vamale Române.
+
+8\. Se propune modificarea prevederilor privind obligația constituirii unei garanții de 2.500.000 lei, sub forma prevăzută la art. 348 alin. (1) din Codul fiscal și deținerea în proprietate de active corporale fixe în valoare de minimum 2.500.000 lei, în sensul că doar operatorii economici care doresc să distribuie și să comercializeze angro produse energetice - benzine, motorine, petrol lampant și biocombustibili, au această obligație, iar operatorii economici care doresc să distribuie și să comercializeze angro gaz petrolier lichefiat și păcură au obligația constituirii unei garanție de 250.000 lei, sub forma prevăzută la art. 348 alin. (1) din Codul fiscal, având în vedere că nivelul accizelor pentru gaz petrolier lichefiat și păcură este considerabil mai mic față de cel prevăzut pentru benzine, motorine, petrol lampant, precum și destinația acestor produse (încălzire) și volumul redus al cantităților tranzacționate la nivelul unui an. De asemenea, se propune introducerea unei excepții, în sensul că operatorii economici care distribuie și comercializează angro mai multe tipuri de produse energetice prevăzute la art. 435 alin. (3) din Codul fiscal trebuie să constituie o singură garanție. 9. Introducerea unei dispoziții tranzitorii pentru operatorii economici care desfășoară activități economice cu produse accizabile pentru care trebuie să se autorizeze/înregistreze ca operator economic care distribuie și comercializează angro păcură sau comercializează în sistem en detail păcură, exportator înregistrat, importator autorizat de produse accizabile prevăzute la art. 435 alin. (3) din Codul fiscal, altele decât cele supuse marcării conform art. 421 din Legea nr. 227/2015 privind Codul fiscal, cu modificările și completările ulterioare, ori ca distribuitor de produse energetice, în sensul că aceștia au obligația de a solicita autorizarea/înregistrarea începând cu data de 31 martie și cel târziu până la data de 30 aprilie 2026, inclusiv, în vederea asigurării continuității activităților economice cu produse accizabile. Totodată, lipsa unei dispoziții tranzitorii ar conduce la imposibilitatea desfășurării activităților economice cu produse accizabile cu consecințe negative în piață. III. Titlul VIII „Accize și alte taxe speciale” din Legea nr. 227/2015 privind Codul fiscal Având în vedere prevederile art. V din Ordonanța de urgență a Guvernului nr. 89/2025 pentru modificarea și completarea Legii nr. 227/2015 privind Codul fiscal, reglementarea unor măsuri fiscal-bugetare, precum și pentru modificarea și completarea unor acte normative, potrivit cărora operatorii economici care dețin autorizații de antrepozite fiscale, destinatari înregistrați, expeditori înregistrați, importatori autorizați, precum și operatorii economici care dețin atestate de distribuție și comercializare angro băuturi alcoolice, tutun prelucrat și produse energetice - benzine, motorine, petrol lampant, gaz petrolier lichefiat și biocombustibili, au obligația de a solicita din nou autorizarea sau înregistrarea, după caz, se propune modificarea prevederilor art. 345 alin. (3^5) din Codul fiscal pentru ca aceste prevederi care vizează plata anticipată a accizelor să se aplice doar în primele 36 de luni de la obținerea pentru prima dată a autorizației pentru antrepozitarii autorizați începând cu data de 1 ianuarie 2024.
+
+IV. Ordonanța de urgență a Guvernului nr. 70/2024 privind unele măsuri de implementare și utilizare a decontului precompletat RO e-TVA și valorificarea datelor și informațiilor prin implementarea unui sistem de guvernanță specific, precum și alte măsuri fiscale:
+
+Se propune abrogarea prevederilor art. 5 referitoare la transmiterea Notificării de conformare RO e-TVA, având în vedere că prin punerea la dispoziția persoanelor impozabile a decontului precompletat, notificarea persoanelor impozabile cu privire la identificarea unor diferențe devine redundantă.
+
+De asemenea, se propune abrogarea prevederilor art. 8 referitoare la selectarea persoanelor impozabile ce urmează a fi suspuse inspecției fiscale, cercetării documentară sau controlului antifraudă, întrucât aceste prevederi conduc la o dublă reglementare, selecția contribuabililor pe baza analizei de risc fiind deja prevăzută de Legea nr. 207/2015 privind Codul de procedură fiscală, cu modificările și completările ulterioare, la art. 121 și 136.
+
+Pentru corelare, se impune și abrogarea lit. h) de la art. 14 alin. (2).
+
+V. Se propune suspendarea aplicării prevederilor art. 7 alin. (10) din Legea nr. 207/2015 privind Codul de procedură fiscală, până la data de 31 decembrie 2026, interval de timp necesar pentru finalizarea proceselor de digitalizare ale MF/CNIF/ANAF care vor permite accesarea de către contribuabili a informațiilor privind clasa/subclasa de risc fiscal prin mijloace electronice.
+
+Astfel, nu va mai fi necesar să se instituie o corespondență organ fiscal-contribuabil având ca obiect comunicarea clasei/subclasei de risc fiscal, fiecare contribuabil având posibilitatea să acceseze informația în cauză în contul propriu deschis în cadrul serviciului Spațiul privat virtual, abordare ce ar corespunde mai bine contextului digitalizării relaționării dintre cele două părți și totodată, s-ar elimina încărcarea, în mod nejustificat, a administrației fiscale cu activități (gestionarea unor astfel de cereri și a răspunsurilor pe care le implică) și o alocare ineficientă a resurselor
+
+| umane și de timp. |
+| --- |
+| Întrucât nu este reglementată vreo limită referitoare la câte astfel de cereri poate formula un contribuabil (de ex. o dată pe an), pe de o parte, iar pe de altă parte, se prevede că informația respectivă se comunică prin orice mijloc de comunicare care asigură dovada primirii informației, prevederea în cauză are un efect negativ în ce privește supraîncărcarea cu activități a organului fiscal și reprezintă o creștere a birocrației. |
+| Altfel spus, s-a instituit o activitate voluminoasă de corespondență organ fiscal-contribuabil (având în vedere că, practic, fiecare contribuabil din România, persoană fizică sau juridică poate formula astfel de cereri). |
+
+2.4 Alte informații
+
+## Secțiunea a 3-a
+
+## Impactul socioeconomic
+
+| 3.1 Descrierea generală a beneficiilor și costurilor estimate ca urmare a intrării în vigoare a actului normativ |
+| --- |
+| 3.2 Impactul social – Nu este cazul. |
+| 3.3. Impactul asupra drepturilor și libertăților fundamentale ale omului - Nu este cazul. |
+| 3.4. Impactul macroeconomic – Nu este cazul. |
+| 3.4.1 Impactul asupra economiei și asupra principalilor indicatori macroeconomici - Nu este cazul. |
+| 3.4.2 Impactul asupra mediului concurențial și domeniului ajutoarelor de stat - Nu este cazul. |
+| 3.5. Impactul asupra mediului de afaceri |
+| Măsurile propuse au impact pozitiv asupra mediului de afaceri prin perfecționarea cadrului legal referitor la obligația de autorizare ca importator autorizat, fiind aduse elemente suplimentare de context, precum și prin introducerea unei dispoziții tranzitorii pentru operatorii economici care conform O.U.G. nr. 89/2025 sunt obligați să se autorizeze/înregistreze ca importator autorizat de produse accizabile prevăzute la art. 435 alin. (3) din Codul fiscal, altele decât cele supuse marcării conform art. 421 din Legea nr. 227/2015 privind Codul fiscal, cu modificările și completările ulterioare, exportator înregistrat, distribuitor de produse energetice, astfel încât aceștia să poată |
+| desfășura în continuare activități economice, întrucât în acest fel se asigură continuitatea desfășurării activității și evitarea unor impedimente în desfășurarea activității economice curente a acestora. |
+| 3.6 Impactul asupra mediului înconjurător - Nu este cazul. |
+| 3.7. Evaluarea costurilor și beneficiilor din perspectiva inovării și digitalizării - Nu este cazul. |
+| 3.8 Evaluarea costurilor și beneficiilor din perspectiva dezvoltării durabile - Nu este cazul. |
+| 3.9. Alte informații - Nu este cazul. |
+
+Secțiunea a 4-a
+
+Impactul financiar asupra bugetului general consolidat atât pe termen scurt, pentru anul curent, cât și pe termen lung (pe 5 ani), inclusiv informații cu privire la cheltuieli și venituri \*\*\*
+
+<table>
+<tbody>
+<tr><td colspan="7">- În mii lei (RON)</td></tr>
+<tr><td>Indicatori</td><td>Anul curent</td><td colspan="4">Următorii 4 ani</td><td>Media pe 5 ani</td></tr>
+<tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr>
+<tr><td>4.1. Modificări ale veniturilor bugetare, plus/minus, din care:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>a) bugetul de stat, din acesta:(i) impozit pe profit(ii) impozit pe venit</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>b) bugete locale:(i) impozit pe profit</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>c) bugetul asigurărilor sociale de stat(i) contribuții de asigurări</td><td></td><td></td><td></td><td></td><td></td><td rowspan="2"></td></tr>
+<tr><td>d) alte tipuri de venituri</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>(Se va menționa natura acestora.)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.2. Modificări ale cheltuielilor bugetare, plus/minus, din care:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>a) buget de stat, din acesta: (i) cheltuieli de personal (ii) bunuri și servicii</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>b) bugete locale: (i) cheltuieli de personal (ii) bunuri și servicii</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>c) bugetul asigurărilor sociale de stat: (i) cheltuieli de personal (ii) bunuri și servicii</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>d) alte tipuri de cheltuieli (Se va menționa natura acestora.)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.3. Impact financiar, plus/minus, din care: a) buget de stat</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>b) bugete locale</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.4. Propuneri pentru acoperirea creșterii cheltuielilor bugetare</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.5. Propuneri pentru a compensa reducerea veniturilor bugetare</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr><td>4.6. Calcule detaliate privind fundamentarea modificărilor veniturilor și/sau cheltuielilor bugetare</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="7">4.7. Prezentarea, în cazul proiectelor de acte normative a căror adaptare atrage majorarea cheltuielilor bugetare, a următoarelor documente:</td></tr>
+<tr><td colspan="7">4.8. Alte informații</td></tr>
+</tbody>
+</table>
+
+## Secțiunea a 5-a
+
+## Efectele proiectului de act normativ asupra legislației în vigoare
+
+| 5.1. Măsuri normative necesare pentru aplicarea prevederilor proiectului de act normativ |
+| --- |
+| a) acte normative ce vor fi modificate sau abrogate ca urmare a intrării în vigoare a proiectului de act normativ: |
+| Hotarârea Guvernului nr. 1/2016 pentru aprobarea Normelor metodologice de aplicarea Legii nr. 227/2015 privind Codul fiscal, cu modificările și completările ulterioare. |
+| b) acte normative ce vor fi emise ca urmare a intrării în vigoare a proiectului de act normativ: |
+| Ordin comun al președintelui Agenției Naționale de Administrare Fiscală și al președintelui Autorității Vamale Române pentru stabilirea condițiilor pentru obținerea atestatului de distribuție și comercializare angro băuturi alcoolice, tutun prelucrat și produse energetice - benzine, motorine, petrol lampant, gaz petrolier lichefiat, păcură și biocombustibili. |
+| 5.2. Impactul asupra legislației în domeniul achizițiilor publice - Nu este cazul. |
+| 5.3. Conformitatea proiectului de act normativ cu legislația UE (în cazul proiectelor ce transpun sau asigură aplicarea unor prevederi de drept UE) - Nu este cazul. |
+| 5.3.1. Măsuri normative necesare transpunerii directivelor UE |
+| 5.3.2. Măsuri normative necesare aplicării actelor legislative UE |
+| 5.4. Hotărâri ale Curții de Justiție a Uniunii Europene - Nu este cazul. |
+| 5.5. Alte acte normative și/sau documente internaționale din care decurg angajamente - Nu este cazul. |
+
+# Secțiunea a 6-a
+
+Consultările efectuate în vederea elaborării proiectului de act normativ
+
+| 6.1. Informații privind neaplicarea procedurii de participare la elaborarea actelor normative -Nu este cazul. |
+| --- |
+| 6.2. Informații privind procesul de consultare cu organizații neguvernamentale, institute de cercetare și alte organisme implicate |
+| Proiectul de act normativ a fost supus dezbaterii publice prin afișare pe site-ul Ministerului Finanțelor. |
+| 6.3. Informații despre consultările organizate cu autoritățile administrației publice locale |
+| Nu este cazul. |
+| 6.4. Informații privind puncte de vedere/opinii emise de organisme consultative constituite prin acte normative |
+| 6.5. Informații privind avizarea de către: |
+| a) Consiliul Legislativ |
+| b) Consiliul Suprem de Apărare a Țării - Nu este cazul. |
+| c) Consiliul Economic și Social |
+| d) Consiliul Concurenței - Nu este cazul. |
+| e) Curtea de Conturi - Nu este cazul. |
+| Proiectul actului normativ a fost avizat de Consiliul Legislativ prin avizul nr. 193/2026. |
+| Proiectul actului normativ a fost avizat de Consiliul Economic și Social prin avizul nr. 1629/2026. |
+| 6.6. Alte informații: - Nu este cazul. |
+
+## Secțiunea a 7-a Activități de informare publică privind elaborarea și implementarea proiectului de act normativ
+
+7.1. Informarea societății civile cu privire la elaborarea proiectului de act normativ Proiectul de act normativ a fost elaborat ținând cont de prevederile art. 7 alin. (13) din Legea nr. 52/2003 privind transparența decizională în administrația publică, republicată, având în vedere că neadoptarea acestuia în cel mai scurt timp ar conduce la blocaje operaționale a activităților economice în sectorul produselor accizabile și totodată, se asigură desfășurarea neîntreruptă a activităților economice. De asemenea, proiectul de act normativ a fost publicat pe site-ul Ministerului Finanțelor în data de 24.02.2026 și dezbătut în cadrul Comisiei de Dialog Social, constituită la nivelul Ministerului Finanțelor, la data de 25.02.2026 la care au participat reprezentanți ai organismelor interesate.
+
+7.2. Informarea societății civile cu privire la eventualul impact asupra mediului în urma implementării proiectului de act normativ, precum și efectele asupra sănătății și securității cetățenilor sau diversității biologice - Nu este cazul.
+
+7.3. Alte informații - Nu este cazul.
+
+Secțiunea a 8- a
+
+## Măsuri privind implementarea, monitorizarea și evaluarea proiectului de act normativ
+
+8.1. Măsuri de punere în aplicare a proiectului de act normativ - Nu este cazul.
+
+8.2. Alte informații - Nu este cazul.
+
+Față de cele prezentate, a fost elaborat proiectul de Lege privind aprobarea Ordonanței de urgență a Guvernului privind modificarea și completarea unor acte normative în materie fiscal-bugetară, pe care îl supunem Parlamentului spre adoptare.
+
+PRIM-MINISTRU
+
+ILIE-GAVRIL BOLOJAN

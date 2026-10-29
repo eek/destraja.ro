@@ -1,0 +1,15 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+pentru aprobarea Ordonanței de urgență a Guvernului nr.8/2026 privind instituirea unor măsuri de relansare economică, creșterea investițiilor productive și a competitivității, precum și pentru modificarea și completarea unor acte normative în domeniul fiscal-bugetar
+
+Senatul adoptă prezentul proiect de lege
+
+Articol unic.- Se aprobă Ordonanța de urgență a Guvernului nr.8 din 24 februarie 2026 privind instituirea unor măsuri de relansare economică, creșterea investițiilor productive și a competitivității, precum și pentru modificarea și completarea unor acte normative în domeniul fiscal-bugetar, publicată în Monitorul Oficial al României, Partea I, nr.147 din 25 februarie 2026.
+
+Acest proiect de lege a fost adoptat de Senat în ședința din 23 martie 2026, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.
+
+p. PREȘEDINTELE SENATULUI

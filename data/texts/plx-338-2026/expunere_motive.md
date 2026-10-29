@@ -1,0 +1,145 @@
+# EXPUNERE DE MOTIVE
+
+# Secțiunea 1 Titlul actului normativ
+
+LEGE
+
+privind aprobarea Ordonanței de urgență pentru reglementarea unor măsuri privind stabilirea dreptului de administrare a unor bunuri din domeniul public al statului, precum și pentru modificarea și completarea unor acte normative
+
+## Secțiunea a 2-a Motivul emiterii actului normativ
+
+## 2.1. Sursa proiectului de act normativ
+
+Inițiativa Ministerului Muncii, Familiei, Tineretului și Solidarității Sociale, Secretariatului General al Guvernului și Agenției Naționale pentru Sport
+
+## 2.2. Descrierea situației actuale
+
+Patrimoniul de stat reprezintă ansamblul bunurilor mobile și imobile, corporale și necorporale, aflate în proprietatea publică sau privată a statului, care sunt destinate realizării funcțiilor și obiectivelor de interes public general. Aceste bunuri constituie o resursă strategică esențială pentru dezvoltarea durabilă, pentru funcționarea instituțiilor publice și pentru asigurarea continuității serviciilor publice către cetățeni.
+
+Este esențial ca bunurile aflate în proprietatea statului să fie gestionate și utilizate conform destinației lor legale, evitându-se degradarea, pierderea, înstrăinarea nejustificată sau folosirea ineficientă. O administrare riguroasă contribuie la menținerea valorii acestora și la utilizarea lor optimă în interes public.
+
+Lipsa unor măsuri adecvate de evidență, control și protecție a patrimoniului poate genera litigii, pierderi financiare sau chiar prejudicii aduse bugetului de stat. Printr-o protecție adecvată se asigură respectarea cadrului legal privind proprietatea publică și se minimizează riscurile de natură economică și juridică.
+
+Prin urmare, o abordare integrată a taberelor școlare și a centrelor de agrement aduce beneficii pe termen lung și permite o administrare mai eficientă și rapidă a
+
+| resurselor prin valorificarea optimă a patrimoniului existent, facilitând dezvoltarea de programe sportive, dezvoltarea turismului pentru tineret și promovarea unui stil de viață sănătos în rândul tinerilor. |
+| --- |
+| Având în vedere că patrimoniul care face obiectul acestei ordonanțe vizează un număr de 1.034 de imobile distribuite la nivel național și care în prezent nu au în fapt un administrator care să le gestioneze atât din punct de vedere juridic, cât și administrativ amplifică riscul perpetuării blocajului și reprezintă o situație extraordinară prevăzută de art. 115 alin. (4) din Constituția României.Menținerea actualelor disfuncționalități în administrarea patrimoniului ar conduce la o gestionare neunitară și ineficientă a bunurilor aflate în domeniul public al statului. Lipsa unor reglementări clare privind responsabilitatea administrării ar favoriza degradarea accelerată a bazelor sportive și a centrelor pentru tineret, imposibilitatea realizării reparațiilor curente, a investițiilor și blocaje în derularea proiectelor de modernizare. În timp, această situație ar putea genera pierderi financiare semnificative pentru bugetul de stat și chiar riscul unor litigii patrimoniale. |
+| Având în vedere că procedura de transfer a bunurilor mobile și imobile nu a fost finalizată între fostul Minister al Tineretului și Sportului și fostul Minister al Familiei, Tineretului și Egalității de Șanse, potrivit Ordonanței de urgență a Guvernului nr. 121/2021 privind stabilirea unor măsuri la nivelul administrației publice centrale, precum și pentru modificarea și completarea unor acte normative, cu modificările și completările ulterioare, situația a devenit recurrentă din anul 2024, ca urmare a fuziunii prin absorbție a Ministerului Familiei, Tineretului și Egalității de Șanse cu Ministerul Muncii și Solidarității Sociale, potrivit Ordonanței de urgență a Guvernului nr. 153/2024 privind stabilirea unor măsuri la nivelul administrației publice centrale, cu modificările ulterioare. |
+| Ordonanța de urgență a Guvernului nr. 121/2021 și Ordonanța de urgență a Guvernului nr. 153/2024 au instituit predarea-preluarea activităților și a patrimoniului pe bază de protocol, ca mecanism operațional al reorganizărilor la nivelul administrației publice centrale. În practică, finalizarea integrală a protocoalelor a fost împiedicată de un cumul de factori obiectivi, cum ar fi: |
+| • reorganizări successive și schimbarea titularilor competenți/ordonatorilor principali, cu efect asupra responsabilităților de preluare și asupra continuității comisiilor tehnice; |
+| • necorelări între evidențele financiar-contabile, evidențele operative ale entităților implicate și inventarul centralizat (Nr. MF, descrieri tehnice, valori de inventar, destinații); |
+| • dispersia teritorială a bunurilor și necesitatea verificărilor documentare/tehnice; (iv) discrepanțe tehnice/administrative (divizări/comasări istorice, modificări de parametri tehnici, reevaluări) care necesită reconciliere prealabilă. |
+
+| Protocolul de predare-preluare are rol constatator și tehnic, nu constitutiv de drepturi, inventariază bunurile, stabilește situația faptică la momentul transferului. Lipsa protocolului nu însemană că se împiedică transferul dreptului de administrare, pentru că acesta s-a dispus prin cele două ordonanțe de urgență menționate mai sus. |
+| --- |
+| Menținerea acestei situații incerte, produce efecte juridice directe: blochează exercitarea coerentă a obligațiilor legale correlative administrării bunurilor proprietate publică (conservare, reparații, investiții, operațiuni de carte funciară, reevaluare) și împiedică actualizarea inventarului centralizat, actualizare realizată pe baza actelor normative aprobate. |
+| În absența unui administrator al acestui patrimoniu care sa fie desemnat în conformitate cu prevederile Hotărârii Guvernului nr. 1705/2006 pentru aprobarea inventarului centralizat al bunurilor din domeniul public al statului, se perpetuează o situație de echivoc în ceea ce privește dreptul real de administrare existând riscul deteriorării accentuate a imobilelor afectând însăși existența patrimoniului. În lipsa promovării prezentei ordonanțe de urgență nu se realizează procesul de descentralizare a direcțiilor județene de familie și tineret și a direcțiilor județene de sport prevăzut la art. LV din Legea nr. 296/2023 privind unele unele măsuri fiscal-bugetare pentru asigurarea sustenabilității financiare a României pe termen lung, |
+| De asemenea procesul de descentralizare administrativă, început în România, continuă să fie o direcție strategică în modernizarea administrației publice. Transferul de atribuții și competențe de la administrația publică centrală către administrația publică locală presupune, în mod natural, și transferul aferent al patrimoniului. |
+| Astfel, procesul de descentralizare administrativă presupune transferul de competențe, resurse umane și bunuri din domeniul public al statului către autoritățile administrației publice locale. În practică, acest proces întâmpină dificultăți în ceea ce privește transferul efectiv al bunurilor în domeniul public local. |
+| Neadoptarea în regim de urgență a actului normativ propus ar genera o serie de efecte negative majore asupra funcționării eficiente a sistemului național de sport și tineret, cu impact direct atât asupra patrimoniului public, cât și asupra personalului implicat în desfășurarea activităților specifice. |
+| Totodată, prin OUG 72/2025, s-a creat premisa desemnării Companiei Naționale de Investiții «C.N.I.» - S.A ca partener în cadrul proiectelor de infrastructură spitalicească transferate din PNRR, însă, motivat de statutul acesteia și de modalitatea de finanțare a acesteia există un risc major în asigurarea fluxurilor financiare necesare implementării în bune condiții a proiectelor. |
+| Este imperativă adoptarea de urgență a prezentei ordonanțe pentru a asigura continuitatea și sustenabilitatea proiectelor preluate PNRR în PS, prin flexibilizarea și completarea cadrului instituțional derulării proiectelor finanțate din FEN, |
+
+prevenind efecte negative majore la nivel economic și social, în beneficiul direct al pacientului
+
+În prezent, finanțarea proiectelor de investiții în infrastructura sanitară realizate în cadrul Planul Național de Redresare și Reziliență al României (PNRR), Componenta 12 – Sănătate, se realizează potrivit cadrului instituțional și financiar stabilit prin Ordonanța de urgență a Guvernului nr. 124/2021 privind gestionarea fondurilor europene aferente Mecanismului de redresare și reziliență.
+
+În acest context, Ministerul Sănătății are rolul de coordonator de reforme și/sau investiții pentru o serie de proiecte strategice care vizează modernizarea infrastructurii sanitare, dezvoltarea capacității sistemului de sănătate și creșterea accesului populației la servicii medicale de calitate.
+
+Totuși, cadrul legislativ actual prevăzut de Legea nr. 95/2006 privind reforma în domeniul sănătății nu reglementează în mod suficient mecanismul prin care contribuția națională aferentă proiectelor finanțate prin PNRR poate fi asigurată de la bugetul de stat prin bugetul Ministerului Sănătății, în special în cazul:
+
+• proiectelor derulate de unități sanitare publice aflate în subordinea Ministerului Sănătății;
+
+\- proiectelor implementate de unități administrativ-teritoriale în domeniul infrastructurii sanitare.
+
+Lipsa unor prevederi clare privind posibilitatea suportării integrale a contribuției naționale, inclusiv a taxei pe valoarea adăugată și a cotei de până la 5% din valoarea eligibilă, poate genera dificultăți în implementarea proiectelor finanțate prin PNRR.
+
+## 2.3. Schimbări preconizate
+
+Prin prezentul proiect se reglementează următoarele aspecte:
+
+Bunurile mobile și imobile care nu au fost preluate pe bază de protocol de predare-primire potrivit prevederilor art. 8 alin. (4) din Ordonanța de urgență a Guvernului nr. 121/2021 privind stabilirea unor măsuri la nivelul administrației publice centrale, precum și pentru modificarea și completarea unor acte normative, cu modificările și completările ulterioare și ale prevederilor art. 4 alin. (3) din Ordonanța de urgență a Guvernului nr. 153/2024 privind stabilirea unor măsuri la nivelul administrației publice centrale, cu modificările ulterioare, se dau în administrare Agenției Naționale pentru Sport, instituție publică, cu personalitate juridică, în subordinea Guvernului și în coordonarea prim-ministrului, în scopul desfășurării activității aferente în domeniul sportului.
+
+Bunurile mobile și imobile sunt supuse regimului juridic de drept comun în materia exercitării dreptului de proprietate publică a statului, astfel cum sunt prevăzute în inventarul centralizat al bunurilor din domeniul public al statului. Astfel, în termen de 3 ani de la data intrării în vigoare a prezentei ordonanțe de
+
+| urgență, Agenția are obligația de a întocmi și, după caz, de a actualiza documentația de cadastru și carte funciară, de a evalua bunurile imobile prevăzute în anexă și de a face modificările corespunzătoare în inventarul centralizat al bunurilor din domeniul public al statului.Tot prin prezentul proiect se reglementează modificarea Ordonanței de urgență 133/2021, prin care se urmărește asigurarea unui mecanism flexibil, unitar și coerent de gestionare și implementare a fondurilor europene prin care se finanțează proiectele de investiții importante în infrastructura de sănătate.Pentru a se evita reluarea procedurilor de licitații în cadrul proiectelor finanțate din PNRR și preluate în PS, cu riscul major de întârziere semnificativă a contractării și derulării proiectelor, se creează posibilitatea ca C.N.I. să devină unitate de implementare a liderului de parteneriat, instituție publică centrală, în situația proiectelor transferate din Planul Național de Redresare și Reziliență în Programul Sănătate.Prin prezenta ordonanță de urgență se propune modificarea și completarea art. 193 din Legea nr. 95/2006 privind reforma în domeniul sănătății, în sensul:reglementării posibilității ca sumele aferente contribuției naționale necesare implementării proiectelor finanțate prin PNRR – Componenta 12 Sănătate să fie asigurate de la bugetul de stat, din finanțarea publică națională, prin bugetul Ministerului Sănătății;includerii posibilității ca Ministerul Sănătății să suporte integral contribuția națională pentru proiectele derulate de unitățile sanitare publice din subordinea sa;reglementării cadrului prin care contribuția națională și taxa pe valoarea adăugată aferente proiectelor implementate de unitățile administrativ-teritoriale să poată fi asigurate de la bugetul de stat, în condițiile stabilite prin acorduri sau parteneriate încheiate potrivit Ordonanței de urgență a Guvernului nr. 124/2021. |
+| --- |
+| 2.4. Alte informațiiNu este cazul. |
+| Secțiunea a 3-aImpactul socio economic |
+| 3.1. Descrierea generală a beneficiilor și costurilor estimate ca urmare a intrării în vigoare a actului normativProiectul de act normativ nu se referă la acest subiect. |
+| 3.2. Impactul socialPrin prezenta ordonanță se urmărește: |
+
+<table>
+<tbody>
+<tr><td colspan="7">Pentru patrimoniul public: se creează premisele unei mai bune administrări și valorificări al taberelor școlare și al centrelor de agrement, inclusiv în vederea accesării de fonduri europene și naționale.Pentru sectorul sportiv: se clarifică regimul de proprietate al taberelor școlare și al centrelor de agrement, facilitând investițiile în infrastructura sportivă.</td></tr>
+<tr><td colspan="7">3.3. Impactul asupra drepturilor și libertăților fundamentale ale omului Proiectul de act normativ nu se referă la acest subiect.</td></tr>
+<tr><td colspan="7">3.4. Impact macroeconomic Proiectul de act normativ nu se referă la acest subiect.</td></tr>
+<tr><td colspan="7">3.4.1. Impactul asupra economiei și asupra principalilor indicatori macroeconomici Proiectul de act normativ nu se referă la acest subiect.</td></tr>
+<tr><td colspan="7">3.4.2. Impactul asupra mediului concurențial și domeniul ajutoarelor de stat Proiectul de act normativ nu se referă la acest subiect.</td></tr>
+<tr><td colspan="7">3.5. Impact asupra mediului de afaceri Proiectul de act normativ nu se referă la acest subiect.</td></tr>
+<tr><td colspan="7">3.6. Impactul asupra mediului înconjurător Proiectul de act normativ nu se referă la acest subiect.</td></tr>
+<tr><td colspan="7">3.7. Evaluarea costurilor și beneficiilor din perspectiva inovării și digitalizării Proiectul de act normativ nu se referă la acest subiect.</td></tr>
+<tr><td colspan="7">3.8. Evaluarea costurilor și beneficiilor din perspectiva dezvoltării durabile Proiectul de act normativ nu se referă la acest subiect.</td></tr>
+<tr><td colspan="7">3.9. Alte informații Nu este cazul.</td></tr>
+<tr><td colspan="7">Secțiunea a 4-a Impactul financiar asupra bugetului general consolidat, atât pe termen scurt, pentru anul curent, cât și pe termen lung (pe 5 ani) , inclusiv informații cu privire la cheltuieli și venituri</td></tr>
+<tr><td colspan="7">- în mii lei (RON) -</td></tr>
+<tr><td>Indicatori</td><td>Anul curent</td><td colspan="4">Următorii patru ani</td><td>Media pe patru ani</td></tr>
+<tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr>
+<tr><td>1. Modificări ale veniturilor bugetare, în plus/minus, din care:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>1. buget de stat, din acesta:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+| 1. impozit pe profit 2. impozit pe venit |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1. bugete locale 1. impozit pe profit |  |  |  |  |  |  |
+| 1. bugetul asigurărilor sociale de stat: 1. contribuții de asigurări |  |  |  |  |  |  |
+| d) alte tipuri de venituri (Se va menționa natura acestora.) |  |  |  |  |  |  |
+| 4.2. Modificări ale cheltuielilor bugetare, în plus, din care: |  |  |  |  |  |  |
+| 1. buget de stat, din acesta: 1. cheltuieli de personal 2. bunuri și servicii |  |  |  |  |  |  |
+| 1. bugete locale: 1. cheltuieli de personal 2. bunuri și servicii |  |  |  |  |  |  |
+| 1. bugetul asigurărilor sociale de stat: 1. cheltuieli de personal 2. bunuri și servicii |  |  |  |  |  |  |
+| d) alte tipuri de cheltuieli (Se va menționa natura acestora.) |  |  |  |  |  |  |
+| 4.3. Impact financiar, plus/minus, din care: |  |  |  |  |  |  |
+| a) buget de stat |  |  |  |  |  |  |
+| b) bugete locale |  |  |  |  |  |  |
+| 4.4. Propuneri pentru acoperirea creșterii cheltuielilor bugetare |  |  |  |  |  |  |
+| 4.5. Propuneri pentru a compensa reducerea veniturilor bugetare |  |  |  |  |  |  |
+
+<table>
+<tbody>
+<tr><td>4.6. Calcule detaliate privind fundamentarea modificărilor veniturilor și/sau cheltuielilor bugetare</td><td>Aplicarea prevederilor prezentului proiect de act normativ nu are impact financiar.</td></tr>
+<tr><td colspan="2">4.7. Prezentarea, în cazul proiectelor de acte normative a căror adoptare atrage majorarea cheltuielilor bugetare, a următoarelor documente: 1. fișa financiară prevăzută la art. 15 din Legea nr. 500/2002 privind finanțele publice, cu modificările și completările ulterioare, însoțită de ipotezele și metodologia de calcul utilizată; Nu este cazul. 2. declarație conform căreia majorarea de cheltuială respectivă este compatibilă cu obiectivele și prioritățile strategice specificate în strategia fiscal-bugetară, cu legea bugetară anuală și cu plafoanele de cheltuieli prezentate în strategia fiscal-bugetară. Nu este cazul.</td></tr>
+<tr><td colspan="2">4.8. Alte informații Nu este cazul.</td></tr>
+<tr><td colspan="2">Secțiunea a 5-a Efectele proiectului de act normativ asupra legislației în vigoare</td></tr>
+<tr><td colspan="2">5.1. Măsuri normative necesare pentru aplicarea prevederilor proiectului de act normativ: a) acte normative ce vor fi modificate ca urmare a intrării în vigoare a proiectului de act normativ: 1. Hotărârea Guvernului nr. 576/2023 privind organizarea, funcționarea și atribuțiile Agenției Naționale pentru Sport, cu modificările și completările ulterioare. 2. Hotărârea Guvernului nr. 29/2025 privind organizarea și funcționarea Ministerului Muncii, Familiei, Tineretului și Solidarității Sociale;</td></tr>
+<tr><td colspan="2">5.2. Impactul asupra legislației în domeniul achizițiilor publice a) descrierea impactului legislativ - prevederi de modificare și completare a cadrului normativ în domeniul achizițiilor publice, prevederi derogatorii; b) prezentarea normelor cu impact la nivel operațional/tehnic - sisteme electronice utilizate în desfășurarea procedurilor de achiziție publică, unități centralizate de achiziții publice, structură organizatorică internă a autorităților contractante. Proiectul de act normativ nu se referă la acest subiect.</td></tr>
+<tr><td colspan="2">5.3. Conformitatea proiectului de act normativ cu legislația UE (în cazul proiectelor ce transpun sau asigură aplicarea unor prevederi de drept-UE) 5.3.1. Măsuri normative necesare transpunerii directivelor UE 5.3.2. Măsuri normative necesare aplicării actelor legislative UE Proiectul de act normativ nu se referă la acest subiect.</td></tr>
+</tbody>
+</table>
+
+| 5.4. Hotărâri ale Curții de Justiție a Uniunii EuropeneProiectul de act normativ nu se referă la acest subiect. |
+| --- |
+| 5.5. Alte acte normative și sau documente internaționale din care decurg angajamente asumateProiectul de act normativ nu se referă la acest subiect. |
+| 5.6. Alte informațiiNu este cazul. |
+| Secțiunea a 6-aConsultările efectuate în vederea elaborării proiectului de act normativ |
+| 6.1. Informații privind neaplicarea procedurii de participare la elaborarea actelor normativePrezentul act normativ se încadrează în prevederile art. 7 alin. (13) din Legea nr. 52/2003 privind transparența decizională în administrația publică, republicată. Urgența este justificată, în principal, de următoarele aspecte: ·Agenția Națională pentru Sport (A.N.S.) dispune de expertiză în administrarea infrastructurii sportive, care poate contribui la o gestionare performantă a bazelor de agrement frecventate de tineri, care ar putea contribui la extinderea sportului de masa, a educației fizice și la revitalizarea infrastructurii sportive pentru tineret, ·Conform cadrului normativ în vigoare nu se asigură o bună administrare a patrimoniului fostului Minister al Tineretului și Sportului generând riscul afectării acestuia și creând situații de incertitudine și echivoc în ceea ce privește regimul juridic aplicabil. |
+| 6.2. Informații privind procesul de consultare cu organizațiile neguvernamentale, institute de cercetare și alte organisme implicate.Proiectul de act normativ nu se referă la acest subiect. |
+| 6.3. Informații despre consultările organizate cu autoritățile administrației publice locale.Nu este cazul. |
+| 6.4. Informații privind puncte de vedere/opinii emise de organisme consultative constituite prin acte normativeNu este cazul. |
+| 6.5. Informații privind avizarea de către:a) Consiliul Legislativb) Consiliul Suprem de Apărare a Țării c) Consiliul Economic și Sociald) Consiliul Concurențeie) Curtea de Conturi |
+| Proiectul de act normativ a fost avizat de Consiliul Legislativ prin avizul nr. 222/2026. |
+| 6.6. Alte informații Nu este cazul. |
+| Secțiunea a 7-a Activități de informare publică privind elaborarea și implementarea proiectului de act normativ |
+| 7.1. Informarea societății civile cu privire la elaborarea proiectului de act normativ Pentru proiectul de act normativ a fost îndeplinită procedura stabilită prin Legea nr.52/2003 privind transparența decizională în administrația publică, cu modificările și completările ulterioare. Prezentul proiect de act normativ a fost supus comentariilor publicului prin publicarea pe pagina de internet a Ministerului Muncii, Familiei, Tineretului și Solidarității Sociale începând cu data de 20.02.2026. Au fost întreprinse demersurile legale prevăzute de art. 7 din Regulamentul privind procedurile, la nivelul Guvernului, pentru elaborarea, avizarea și prezentarea proiectelor de documente de politici publice, a proiectelor de acte normative, precum și a altor documente, în vederea adoptării/aprobării, aprobat prin Hotărârea Guvernului nr. 561/2009. |
+| 7.2. Informarea societății civile cu privire la eventualul impact asupra mediului în urma implementării proiectului de act normativ, precum și efectele asupra sănătății și securității cetățenilor sau diversității biologice Proiectul de act normativ nu se referă la acest subiect. |
+| Secțiunea a 8-a Măsuri privind implementarea, monitorizarea și evaluarea proiectului de act normativ |
+| 8.1. Măsurile de punere în aplicare a proiectului de act normativ Nu este cazul. |
+| 8.2. Alte informații Nu este cazul. |
+
+Față de cele prezentate, a fost elaborat proiectul de Lege privind aprobarea Ordonanței de urgență pentru reglementarea unor măsuri privind stabilirea dreptului de administrare a unor bunuri din domeniul public al statului, precum și pentru modificarea și completarea unor acte normative, pe care îl supunem Parlamentului spre adoptare.
+
+PRIM-MINISTRU
+
+JILIE-GAVRIL BOLOJAN

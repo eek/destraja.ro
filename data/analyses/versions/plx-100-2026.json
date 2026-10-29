@@ -1,0 +1,107 @@
+{
+  "slug": "plx-100-2026",
+  "billId": "PL-x 100/2026",
+  "updatedAt": "2026-10-29T12:33:45.836Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L619FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Ordonanța-omnibus din sănătate: ghiduri medicale fără avizul ministerului, malpraxis, rezidențiat și angajări fără concurs",
+      "summaryTlDr": "Pachetul are măsuri bune pentru pacienți: spitalul răspunde solidar pentru malpraxis, cabinetele de familie devin de utilitate publică, rezidențiatul se simplifică. În aceeași ordonanță intră însă și angajări fără concurs, interimate fără termen la ANDIS și ghiduri medicale scoase de sub orice control public, toate justificate cu o urgență formulată generic.",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/00/0/se97.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Ordonanța-omnibus din sănătate: ghiduri medicale fără avizul ministerului, spitale răspunzătoare la malpraxis, angajări fără concurs",
+      "summaryTlDr": "Ordonanța e în mare parte utilă: spitalele răspund alături de personal față de pacienți, rezidențiatul se simplifică, iar medicina de familie primește statutul de utilitate publică anunțat în preambul. În schimb, colegiile profesionale ajung să stabilească atât standardul de practică, cât și cine îl judecă în malpraxis, iar angajările și interimatele se pot face fără concurs. Merită aprobată cu amendamente de transparență, nu în bloc.",
+      "scores": {
+        "agy": 6,
+        "claude": 4,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat tacit ordonanța în forma inițială; textul nu s-a schimbat",
+      "summary": "Senatul nu a modificat nimic: proiectul a fost adoptat tacit, în forma inițiatorului. Rămân ghidurile medicale fără avizul Ministerului Sănătății și MAI co-autor al regulilor pentru ambulanțele private; rămâne și câștigul pentru pacienți: spitalul răspunde solidar pentru malpraxis.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Ghidurile de practică, reper în malpraxis, nu mai au avizul Ministerului Sănătății",
+            "major": true,
+            "article": "art. I pct. 1 (art. 4 alin. (1) lit. g) din Legea 95/2006)"
+          },
+          {
+            "text": "MAI, care coordonează SMURD, scrie împreună cu MS regulile pentru ambulanțele private",
+            "major": true,
+            "article": "art. I pct. 2 (art. 92^1 din Legea 95/2006)"
+          },
+          {
+            "text": "Răspunderea solidară crește costurile de asigurare pentru clinicile private mici",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Ghidurile se publică fără consultare publică, dată de aplicare sau arhivă a versiunilor",
+            "major": false,
+            "article": "art. I pct. 1 (art. 4 alin. (1) lit. g) din Legea 95/2006)"
+          },
+          {
+            "text": "Condițiile de autorizare sunt lăsate unui ordin, fără termen de adoptare sau tranziție",
+            "major": false,
+            "article": "art. I pct. 2 (art. 92^1 din Legea 95/2006)"
+          },
+          {
+            "text": "Integrarea clinică fără concurs nu precizează unitatea, specialitatea sau postul",
+            "major": false,
+            "article": "art. I pct. 3 (art. 165 din Legea 95/2006)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Spitalul răspunde solidar pentru malpraxis, inclusiv pentru medicii în prestări servicii",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Cadru unitar de autorizare pentru ambulanțe publice și private, emis de DSP",
+            "major": false,
+            "article": "art. I pct. 2 (art. 92^1 din Legea 95/2006)"
+          },
+          {
+            "text": "Integrare clinică fără concurs pentru cei care au câștigat deja postul prin concurs",
+            "major": false,
+            "article": "art. I pct. 3 (art. 165 din Legea 95/2006)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:33:35.359Z"
+    }
+  ]
+}

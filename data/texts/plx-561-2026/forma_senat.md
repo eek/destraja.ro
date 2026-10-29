@@ -1,0 +1,29 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+# pentru completarea Ordonanței de urgență a Guvernului nr.195/2002 privind circulația pe drumurile publice
+
+Senatul adoptă prezentul proiect de lege
+
+Articol unic. - După articolul 111 din Ordonanța de urgență a Guvernului nr.195/2002 privind circulația pe drumurile publice, republicată în Monitorul Oficial al României, Partea I, nr.670 din 3 august 2006, cu modificările și completările ulterioare, se introduce un nou articol, art. 111¹, cu următorul cuprins:
+
+„Art.111¹.- (1) În cazul în care un conducător de autovehicul care nu are domiciliul sau reședința în România săvârșește o contravenție la regimul rutier, polițistul rutier dispune măsura tehnico-administrativă a reținerii permisului de conducere, eliberând o dovadă înlocuitoare fără drept de circulație, dacă este îndeplinită cel puțin una dintre următoarele condiții: a) conducătorul auto figurează în evidențele autorităților competente cu amenzi contravenționale rutiere definitive și neachitate, pentru care dreptul la executare silită nu este prescris, aplicate anterior pe teritoriul României; b) conducătorul auto refuză achitarea pe loc a amenzii contravenționale curente sau depunerea unei garanții echivalente sumei amenzii, în cazul în care intenționează să conteste procesul-verbal de contravenție.
+
+(2) Competența aplicării prevederilor alin.(1) lit.a) revine, în mod corespunzător, și personalului Poliției de Frontieră Române în punctele de trecere a frontierei de stat. Măsura se dispune până la achitarea integrală a debitelor.
+
+(3) Măsura reținerii permisului de conducere nu se dispune, sau, după caz, încetează imediat, dacă persoana sancționată achită pe loc contravaloarea a jumătate din minimul amenzii prevăzute de lege pentru contravenția săvârșită ori depune garanția echivalentă acesteia, precum și, dacă este cazul, contravaloarea integrală a amenzilor prevăzute la alin.(1) lit.a). Plata acestor sume se realizează exclusiv prin instrumente de plată electronică.
+
+(4) Permisul de conducere reținut în condițiile alin.(1) se restituie titularului sau reprezentantului convențional al acestuia de către poliția rutieră, în condițiile stabilite în regulament, la prezentarea dovezii achitării integrale a sumelor datorate sau la expirarea termenului de 3 luni de la data reținerii.
+
+(5) În cazul contravențiilor constatate prin mijloace tehnice certificate sau mijloace tehnice omologate și verificate metrologic, persoana juridică proprietară a vehiculului, inclusiv cea care desfășoară activități de închiriere auto sau leasing, este exonerată de plata oricărei sancțiuni dacă transmite autorităților, în termenul prevăzut de lege, datele de identificare ale utilizatorului nerezident care a condus vehiculul. Sancțiunea va fi direcționată și executată asupra utilizatorului nerezident, prin intermediul instrumentelor de cooperare internațională în vigoare.
+
+(6) În termen de 6 luni de la intrarea în vigoare a prezentei legi, Ministerul Afacerilor Interne și Ministerul Finanțelor vor operaționaliza o bază de date electronică comună, actualizată în timp real, accesibilă agenților constatatori, pentru verificarea istoricului contravențional al nerezidenților.”
+
+Acest proiect de lege se consideră adoptat de Senat în forma inițială, în condițiile articolului 75 alineatul (2) teza a III-a din Constituția României, republicată.
+
+PREȘEDINTEE SENATULUI
+
+MIRCEA'ABRUDEAN

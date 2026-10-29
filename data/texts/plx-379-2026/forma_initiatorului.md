@@ -1,0 +1,361 @@
+## PROPUNERE LEGISLATIVĂ
+
+privind măsurile de aplicare a Regulamentului (UE) 2024/1.252 al Parlamentului European și al Consiliului din 11 aprilie 2024 de instituire a unui cadru pentru asigurarea aprovizionării sigure și durabile cu materii prime critice și de modificare a Regulamentelor (UE) nr. 168/2013, (UE) 2018/858, (UE) 2018/1.724 și (UE) 2019/1.020, precum și pentru modificarea și completarea unor acte normative pentru activitatea de extracție a materiilor prime critice
+
+Parlamentul României adoptă prezenta lege.
+
+## Capitolul I Dispoziții generale
+
+## Art. 1.
+
+(1) Prezenta lege stabilește cadrul necesar implementării în România a proiectelor miniere strategic recunoscute astfel de către Comisia Europeană, în conformitate cu procedura prevăzută în art. 7 din Regulamentul (UE) 2024/1252 de instituire a unui cadru pentru asigurarea aprovizionării sigure și durabile cu materii prime critic și de modificare a Regulamentelor (UE) nr. 168/2013, (UE) 2018/858, (UE) 2018/1724 și (UE) 2019/1020, publicat în Jurnalul Oficial al Uniunii Europene (JOUE), seria L din 3 mai 2024, denumit în continuare Regulament, pentru activitatea de extracție a materiilor prime critic.
+
+(2) Proiectele miniere strategice reglementate de prezenta lege, inclusiv lucrările sau alte tipuri de proiecte naționale sau locale necesare sau utile implementării acestora, sunt de interes public și vor fi tratate cu prioritate si celeritate, inclusiv din perspectiva autorizării.
+
+## Art. 2.
+
+(1) În înțelesul prezentei legi, termenii de mai jos au următoarele semnificații:
+
+a) cerere de autorizare – cererea întocmită de titularul proiectului minier strategic adresată ghișeului unic în vederea obținerii unei confirmări pentru începerea procedurii de autorizare, astfel cum este definită de art. 2 pct. 18 din Regulament;
+
+b) ghișeul unic – autoritatea prevăzută de art. III alin. (3) din Ordonanța de Urgență nr. 61 din 13 noiembrie 2025 privind unele măsuri de punere în aplicare a Regulamentului (UE) 2024/1.252 al Parlamentului European și al Consiliului din 11 aprilie 2024 de instituire a unui cadru pentru asigurarea aprovizionării sigure și durabile cu materii prime critice și de modificare a Regulamentelor (UE) nr. 168/2013, (UE) 2018/858, (UE) 2018/1.724 și (UE) 2019/1.020 și pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 140/2022 privind licența industrială unică;
+
+c) proiect minier strategic – proiectul minier strategic recunoscut astfel de către Comisia Europeană, în conformitate cu procedura prevăzută de art. 7 din Regulament, printr-o decizie adoptată de Comisia Europeană;
+
+d) titularul proiectului minier strategic – promotorul unui proiect minier strategic recunoscut astfel de către Comisia Europeană, în conformitate cu procedura prevăzută de art. 7 din Regulament, printr-o decizie adoptată de Comisia Europeană, în cazul în care acesta implementează în mod direct proiectul minier strategic, respectiv afiliatul acestuia, în care promotorul proiectului deține, direct sau indirect controlul, în cazul în care afiliatul promotorului de proiect este titularul licenței aferente perimetrului minier al proiectului minier strategic.
+
+## Art. 3.
+
+(1) În vederea simplificării și eficientizării procesului de autorizare a proiectelor strategice, ghișeul unic centralizează și facilitează procesul de autorizare și avizare a proiectelor miniere strategice în România.
+
+(2) Autoritățile publice centrale și locale colaborează diligent cu ghișeul unic, furnizând informațiile și resursele necesare pentru finalizarea procedurilor de autorizare într-un termen rezonabil și transparent, respectând principiile eficienței, accesibilității și predictibilității.
+
+## Art. 4.
+
+(1) Titularul proiectului minier strategic va depune la ghișeul unic o cerere de autorizare.
+
+(2) În termen de 5 zile de la primire, ghișeul unic transmite cererea de autorizare tuturor autorităților și instituțiilor cu competențe în ceea ce privește implementarea proiectului minier strategic în vederea confirmării tuturor procedurilor și avizelor, acordurilor, autorizațiilor pe care titularul proiectului minier strategic trebuie să le parcurgă, respectiv să le obțină pentru dezvoltarea proiectului minier strategic.
+
+(3) Cererea de autorizare cuprinde:
+
+a) certificat constatator emis de registrul comerțului cu privire la titularul proiectului minier strategic;
+
+b) dovada acordării licenței aferente proiectului minier strategic;
+
+c) dovada recunoașterii de către Comisia Europeană a proiectului minier ca fiind proiect minier strategic.
+
+(4) În termen de 10 de zile de la primirea cererii de autorizare referitoare la un proiect minier strategic de la ghișeul unic, fiecare dintre autoritățile și instituțiile menționate la alin. (2) verifică cererea de autorizare. În cazul în care oricare dintre autoritățile și instituțiile menționate la alin. (2) constată că cererea de autorizare formulată de titularul proiectului minier strategic nu este completă, aceasta transmite către ghișeul unic în termen de 5 zile de la data constatării, dar nu mai târziu de 15 zile de la data primirii cererii de autorizare, o solicitare de completare a cererii de autorizare, indicând informațiile care lipsesc și termenul în care titularul proiectului minier strategic are obligația să le transmită. Ghișeul unic informează titularul proiectului minier strategic cu privire la solicitările de completare formulate conform prevederilor prezentului alineat în termen de 3 zile lucrătoare de la primirea informațiilor. Nerespectarea de către titularul proiectului minier a obligațiilor care îi revin în baza prezentului alineat duce la anularea cererii de autorizare.
+
+(5) După verificarea cererii de autorizare conform prevederilor alin. (4), autoritățile și instituțiile menționate la alin. (2) transmit ghișeului unic o listă cu toate procedurile și avizele, acordurile, autorizațiile pe care titularul proiectului minier strategic trebuie să le parcurgă, respectiv să le obțină pentru implementarea proiectului minier strategic.
+
+(6) Ghișeul unic emite confirmarea informațiilor prevăzute la alin. (2) în termen de 45 de zile de la data înregistrării cererii de autorizare formulată conform dispozițiilor prezentului articol.
+
+Art. 5.
+
+(1) Confirmarea prevăzută de art. 4 alin. (6) reprezintă momentul începerii procedurii de autorizare a proiectului minier strategic.
+
+(2) Procedura de autorizare nu depășește 24 de luni în cazul proiectelor strategice care implică extracția.
+
+(3) Prin excepție de la alin. (2), în ceea ce privește proiectele miniere care au fost supuse procedurii de autorizare înainte de a fi recunoscute ca proiecte miniere strategice și în ceea ce privește extinderile proiectelor strategice existente pentru care s-a acordat deja un aviz, acord sau autorizație, durata procedurii de autorizare după ce proiectul a fost recunoscut ca proiect minier strategic nu depășește 21 de luni în cazul proiectelor strategice care implică extracția.
+
+(4) În cazuri excepționale, atunci când natura, complexitatea, amplasarea sau dimensiunea proiectului minier strategic o impun, autoritățile și instituțiile menționate la art. 4 alin. (2) pot prelungi, înainte de expirarea acestora și pentru fiecare caz în parte, termenele prevăzute la alin. (2) și (3) cu maximum 3 luni.
+
+(5) În cazul în care o astfel de prelungire este adoptată, ghișeul unic informează titularul proiectului minier strategic în scris cu privire la motivele care justifică prelungirea și termenul la care preconizează că autoritățile și instituțiilor publice vor emite avizele, acordurile sau autorizațiile necesare pentru implementarea proiectului minier strategic.
+
+(6) În cuprinsul termenelor prevăzute la alin. (2) – (4), termenul de elaborare a raportului privind impactul asupra mediului, studiului de evaluare adecvată și a studiului de impact asupra corpurilor de apă, până la momentul înaintării sale autorității competente pentru protecția mediului, conform prevederilor art. 13-14 din Legea nr. 292/2018 privind evaluarea impactului anumitor proiecte publice și private asupra mediului cu modificările și completările ulterioare, denumită în continuare, Legea nr. 292/2018, nu se ia în calcul la durata procedurii de autorizare.
+
+## Art. 6.
+
+(1) În termen de cel mult 30 de zile de la data confirmării transmise titularului proiectului minier strategic conform art. 4 alin. (6), ghișeul unic întocmește, în strânsă cooperare cu acesta și cu autoritățile și instituțiile competente implicate, un calendar detaliat al procedurii de autorizare.
+
+(2) Ghișeul unic actualizează calendarul ori de câte ori apar modificări semnificative care ar putea afecta obținerea avizelor, acordurilor sau autorizațiilor pentru implementarea proiectului minier strategic.
+
+(3) Calendarul se va publica de titularul proiectului minier strategic pe pagina proprie de internet.
+
+## Capitolul II Dispoziții privind evaluarea impactului asupra mediului Art. 7.
+
+(1) Prin excepție de la prevederile art. 9 din Legea nr. 292/2018 și art. 10 alin. (6) din Anexa nr. 5 din Legea nr. 292/2018, autoritatea competentă pentru protecția mediului ia decizia potrivit prevăzută de art. 9 alin. (2) din Legea nr. 292/2018 cât mai rapid posibil și în termen de cel mult 30 zile de la data la care titularul proiectului minier strategic a transmis toate informațiile necesare potrivit art. 9 alin. (4) din Legea nr. 292/2018.
+
+(2) Pentru proiectele care necesită efectuarea evaluării impactului asupra mediului, îndrumarul emis de autoritatea competentă pentru protecția mediului, conform prevederilor art. 10 din Legea nr. 292/2018, se transmite titularului proiectului minier strategic în termen de 30 de zile de la primirea sa ghișeului unic, în vederea avizării sale.
+
+(3) Ghișeul unic se asigură că avizul menționat la alin. (2) este emis cât mai rapid posibil și în termen de cel mult 45 de zile de la data la care titularul proiectului minier strategic a transmis solicitarea de aviz. Avizul emis de ghișeul unic este consultativ.
+
+(4) Dacă autoritatea competentă pentru protecția mediului stabilește necesitatea unor eventuale completări/modificări ale raportului privind impactul asupra mediului, a studiului de evaluare adecvată, sau a studiului de evaluare a impactului asupra corpurilor de apă, autoritatea notifică titularul proiectului minier strategic, prin ghișeul unic, despre acest lucru. Completările/modificările raportului privind impactul asupra mediului se transmit în cel mult 30 de zile de la notificare.
+
+(5) Termenul pentru transmiterea modificărilor/completărilor nu se ia în calcul în cadrul duratei procedurii de autorizare prevăzute de la art. 5.
+
+(6) Ședința de dezbaterea publică prevăzută de prevederile art. 16-19 din Anexa nr. 5 din Legea nr. 292/2018 se organizează în termen de 45 de zile de la data primirii de către autoritatea competentă pentru protecția mediului a raportului privind impactul asupra mediului, a studiului de evaluare adecvată, a politicii de prevenire a accidentelor majore sau a raportului de securitate și a studiului de evaluare a impactului asupra corpurilor de apă, după caz, precum și a dovezii achitării tarifului corespunzător etapei de analiză. În cazuri excepționale, dacă natura, complexitatea, amplasarea sau anvergura proiectului propus o cer, autoritatea competentă pentru protecția mediului poate extinde termenul respectiv cu până la 40 de zile. Ghișeul unic informează titularul proiectului minier strategic cu privire la motivele care justifică o astfel de prelungire.
+
+(7) Termenele prevăzute pentru publicarea mijloacelor de informare prevăzute de art. 16 alin. (2)-(3) din Anexa nr. 5 din Legea nr. 292/2018 se reduc la jumătate.
+
+(8) Actul de reglementare de mediu prevăzut de dispozițiile art. 24 alin. (1) din Anexa nr. 5 din Legea nr. 292/2018 se emite de autoritatea competentă pentru protecția mediului în termen de cel mult 90 de zile de la primirea tuturor informațiilor necesare de la titularul proiectului minier strategic. Termenul de emitere se poate prelungi o singură dată, cu cel mult 20 de zile, atunci când natura, complexitatea, amplasarea sau dimensiunea proiectului impun acest lucru, caz în care ghișeul unic va informa titularul proiectului minier strategic în scris cu privire la motivele care justifică prelungirea sa și la termenul în care preconizează că va emite concluzia motivată.
+
+## Capitolul III Dispoziții privind procedurile de autorizare
+
+## Art. 8.
+
+(1) În orice moment în cadrul procedurii de autorizare a proiectului minier strategic, titularul proiectului minier strategic poate solicita emiterea din nou a oricărui aviz, acord sau autorizație, respectiv reparcurgerea oricărei proceduri specifice pentru obținerea acestora.
+
+(2) Oricare aviz, acord sau autorizație emis potrivit alin. (1), respectiv orice procedură specifică reparcursă vor putea fi folosite în cadrul procedurii de autorizare în locul avizelor, acordurilor sau autorizațiilor emise inițial sau procedurilor parcurse inițial, chiar dacă în legătură cu avizele, acordurile, autorizațiile sau procedurile înlocuite se reclamă vicii de legalitate în emiterea sau parcurgerea acestora.
+
+(3) În cazul anulării oricărui aviz, acord, autorizație sau oricărei proceduri potrivit art. 12 alin. (6), titularul proiectului minier strategic poate folosi documentația prealabilă aferentă documentului anulat în orice cereri făcute potrivit prezentului articol, în măsura în care aceasta nu este afectată de viciul de legalitate constatat de instanță.
+
+Capitolul IV Dispoziții procedurale în materia litigiilor referitoare la proiectele miniere strategice
+
+Art. 9. (1) Litigiile de contencios administrativ îndreptate împotriva actelor administrative emise pentru autorizarea, implementarea și derularea proiectelor miniere strategice sau cele privind încheierea contractelor de concesiune de bunuri proprietate publică cu titularii proiectelor miniere strategice se judecă conform dispozițiilor prezentei proceduri. (2) Dispozițiile prezentei proceduri se aplică și litigiilor referitoare la hotărârile pentru aprobarea declanșării procedurii de expropriere. Art. 10. (1) Litigiile prevăzute la art. 9 se vor judeca în primă instanță de Curtea de Apel București. (2) Hotărârile pronunțate de Curtea de Apel București sunt supuse numai recursului la Înalta Curte de Casație și Justiție, în termen de 15 zile de la comunicare. Art. 11. (1) Cererile de chemare în judecată se judecă de urgență și cu precădere. (2) Completul căruia i s-a repartizat cauza verifică în termen de două zile dacă cererea de chemare în judecată respectă cerințele prevăzute de lege. (3) Dacă cererea de chemare în judecată nu îndeplinește cerințele prevăzute de lege, reclamantului i se vor comunica în scris lipsurile, cu mențiunea că, în termen de cel mult două zile de la primirea comunicării, trebuie să completeze sau să modifice cererea de chemare în judecată, sub sancțiunea anulării cererii. (4) Judecătorul, de îndată ce constată că sunt îndeplinite cerințele prevăzute de lege pentru cererea de chemare în judecată, dispune prin rezoluție comunicarea acesteia către pârât, punându-i-se în vedere că are obligația de a depune întâmpinare în termen de 10 zile de la comunicare, sub sancțiunea prevăzută de lege, care va fi indicată expres. (5) Întâmpinarea se comunică de îndată reclamantului, care poate depune răspuns la întâmpinare în termen de 5 zile de la comunicare. (6) Pârâtul va lua cunoștință de răspunsul la întâmpinare de la dosarul cauzei.
+
+(7) În termen de două zile de la depunerea răspunsului la întâmpinare, judecătorul fixează prin rezoluție primul termen de judecată, care va fi de cel mult 10 zile de la data rezoluției, dispunând citarea părților.
+
+(8) Termenele de judecată acordate de instanță nu pot fi mai mari de 10 zile. Procedura de citare a părților se consideră legal îndeplinită dacă înmânarea citației se realizează cu cel puțin 24 de ore înainte de termenul de judecată.
+
+(9) Hotărârea pronunțată de instanța de fond este executorie.
+
+(10) Termenul de redactare a hotărârii este de 5 zile de la data pronunțării.
+
+(11) Recursul se judecă de urgență și cu precădere. Termenele de judecată stabilite de instanța de recurs nu vor depăși 10 zile.
+
+## Art. 12.
+
+(1) În cazul procedurilor judiciare care privesc vicii de legalitate ale oricâror avize, acorduri, autorizații sau proceduri emise sau parcurse în legătură cu un proiect minier strategic, instanța de judecată acordă, la cererea titularului proiectului strategic minier, un termen rezonabil de remediere a viciilor invocate.
+
+(2) Cererea prevăzută la alin. (1) se formulează de către titularul proiectului minier strategic cel mai târziu la primul termen de judecată.
+
+(3) În stabilirea termenului de remediere, instanța de judecată ia în considerare cererea titularului proiectului minier strategic, raportată la complexitatea aspectelor invocate.
+
+(4) Titularul proiectului minier strategic poate solicita repunerea pe rol a cauzei în cazul în care consideră că viciile reclamate au fost remediate anterior împlinirii termenului acordat potrivit alin. (3).
+
+(5) Autoritățile cu competențe privind autorizarea proiectului minier strategic au obligația să coopereze prompt și diligent pentru remedierea în termen a aspectelor invocate, iar orice documente sau comunicări emise de acestea vor putea fi folosite în cauza de judecată și instanța le va lua în considerare în ansamblul lor.
+
+(6) În cazul în care instanța constată existența viciilor invocate în cadrul procedurilor judiciare menționate la alin. (1), indică în mod concret aspectele a căror remediere nu ar atrage anularea actelor emise cu nerespectarea prevederilor legale, și dispune anularea actelor în cauză în cazul în care aspectele indicate în mod expres de instanță nu sunt fost remediate de titularul proiectului minier strategic în termen de 6 luni de la data pronunțării.
+
+(7) În situațiile prevăzute la alin. (1) sau alin. (6), titularul proiectului minier strategic poate solicita suspendarea oricărui alt aviz, acord, autorizație sau oricărei proceduri în legătură cu proiectul minier strategic pe baza certificatului de grefă eliberat în condițiile legii, termenele prevăzute de art. 5, respectiv termenele procedurilor sau actelor suspendate fiind de asemenea suspendate.
+
+## Capitolul V Dispoziții finale și tranzitorii
+
+## Art. 13.
+
+Ordonanța de Urgență a Guvernului nr. 195 din 22 decembrie 2005 privind protecția mediului, aprobată cu modificări prin Legea nr. 265/2006, cu modificările și completările următoare, se completează după cum urmează:
+
+1\. După articolul 19, se introduce un nou articol, art. 19¹, cu următorul cuprins:
+
+Actele de reglementare din domeniul protecției mediului ori deciziile de respingere a acestora pentru proiectele miniere strategice recunoscute astfel de către Comisia Europeană, în conformitate cu procedura prevăzută de art. 7 din Regulamentul (UE) 2024/1252 de instituire a unui cadru pentru asigurarea aprovizionării sigure și durabile cu materii prime critice și de modificare a Regulamentelor (UE) nr. 168/2013, (UE) 2018/858, (UE) 2018/1724 și (UE) 2019/1020 al Parlamentului European și al Consiliului printr-o decizie adoptată de Comisia Europeană, se emit de autoritatea publică centrală pentru protecția mediului.
+
+## Art. 14.
+
+Legea nr. 50/1991 privind autorizarea executării lucrărilor de construcții, republicată în Monitorul Oficial al României, Partea I, nr. 933 din 13 octombrie 2004, cu modificările și completările ulterioare, se completează după cum urmează:
+
+1\. La articolul 2 alineatul (4), după litera f) se introduce o nouă literă g), cu următorul cuprins:
+
+„g) lucrări de construire în vederea explorării și/sau exploatații proiectelor miniere strategice.”
+
+2\. La articolul 5, după alineatul (1¹⁶) se introduce un nou alineat (1¹⁷), cu următorul cuprins:
+
+„(1¹⁷) Emitenții de avize, acorduri și autorizații pentru proiectele miniere strategice analizează documentația depusă și emit acordurile sau solicitările de completare a documentației cu celeritate, astfel ca respectarea termenelor prevăzute la articolul 5 din Legea privind unele măsuri de aplicare a Regulamentului (UE) 2024/1.252 al Parlamentului European și al Consiliului din 11 aprilie 2024 de instituire a unui cadru pentru asigurarea aprovizionării sigure și durabile cu materii prime critic și de modificare a Regulamentelor (UE) nr. 168/2013, (UE) 2018/858, (UE) 2018/1.724 și (UE) 2019/1.020, precum și pentru modificarea și completarea unor acte normative pentru activitatea de extracție a materiilor prime critic.
+
+3\. La articolul 7, alineatul (1⁴) se modifică și va avea următorul cuprins:
+
+„(1⁴) Se exceptează de la prevederile alin. (1) lit. b) lucrările de construcții care privesc realizarea, dezvoltarea sau relocarea sistemelor/rețelelor naționale de transport și de distribuție a energiei electrice, a gazelor naturale și a țițeiului, gazolinei, etanului, condensatului, precum și cele care privesc proiectele miniere strategice, realizate de către titularii de licențe, autorizații și acorduri petroliere pentru care licența, acordul de concesiune sau acordul petrolier sunt documentele pe baza cărora se eliberează autorizația de construire, cu notificarea și acordarea de indemnizații, rente, despăgubiri, după caz, proprietarilor, împreună cu dovada îndeplinirii următoarelor obligații:
+
+a) în cazul în care proprietarii sunt identificați, prin încheierea, în prealabil, a unei convenții între părți, termenul de plată fiind de 30 de zile de la încheierea convenției;
+
+b) în cazul în care proprietarii nu sunt identificați, prin dovada consemnării prealabile în conturi deschise pe numele titularilor de licențe, autorizații și acorduri petroliere a sumelor de bani aferente despăgubirilor, indemnizațiilor și rentelor, după caz, pentru respectivele imobile;
+
+c) în cazul în care, deși proprietarii sunt identificați, refuză să încheie convenția, dovada consemnării prealabile la dispoziția acestora, în termen de 60 de zile de la data la care aceștia au fost notificați să se prezinte în vederea semnării convențiilor, dar nu s-au prezentat sau au refuzat încheierea convenției, a sumelor aferente despăgubirilor, indemnizațiilor și rentelor, după caz.”
+
+4\. La articolul 7, după alineatul (1⁷) se introduc trei noi alineate, cu următorul cuprins:
+
+„(1⁸) În cazul lucrărilor de construcții autorizate potrivit alin. (1⁴) literele b) și c), despăgubirile, indemnizațiile sau rentele se calculează în baza valorii de piață a imobilului, determinată potrivit grilelor notariale aplicabile zonei și categoriei de folosință a imobilelor respective.
+
+(19) Litigiile referitoare la stabilirea cuantumului despăgubirilor, indemnizațiilor sau rentelor menționate la alin. (18) se vor judeca conform dispozițiilor de drept comun aplicabile și nu suspendă procedurile privind autorizarea executării lucrărilor de construcții.
+
+(1¹⁰) În cazul lucrărilor de construcții ce se autorizează potrivit alin. (1⁴), dacă pentru eliberarea avizelor sau acordurilor solicitate prin certificatul de urbanism sau schimbarea categoriei de folosință a imobilelor care fac obiectul procedurii de autorizare sunt necesare dovada titlului asupra acestora sau acordul proprietarilor, în condițiile legii, acestea se vor emite în baza documentelor prevăzute la alin. (1⁴).”
+
+5\. La articolul 7, după alineatul (23⁵) se introduce un nou alineat (23⁶), cu următorul cuprins:
+
+„(23⁶) Prin excepție de la prevederile alineatelor (23) – (23⁵), publicitatea acordurilor, avizelor și a autorizațiilor de construire emise pentru proiectele miniere strategice, se va efectua prin listarea acestora pe pagina de internet a ghișeului unic, cu respectarea prevederilor alin. (22).”
+
+6\. La articolul 12, după alineatul (3) se introduce un nou alineat (4), cu următorul cuprins: „(4) Prin excepție de la prevederile alin. (3), cele ale art. 43² și cele ale articolelor 7 și 11 din Legea contenciosului administrativ nr. 554/2004, în litigiile ce vizează autorizațiile de construire emise pentru proiectele miniere strategice sau avizele ori acordurile prealabile pentru acestea, termenul pentru formularea plângerii prealabile, dacă aceasta mai este obligatorie, este de 30 de zile și începe să curgă de la data efectuării publicității prin ghișeul unic, reglementată conform art. 7 alin. (23⁶), iar termenul pentru introducerea cererilor de anulare, de suspendare, de intervenție accesorie sau de intervenție principală este de 60 de zile și se calculează de la data primirii răspunsului la plângerea prealabilă sau de la data expirării termenului legal de soluționare a plângerii, indiferent care dintre aceste date survine prima, iar dacă plângerea prealabilă nu mai este obligatorie, termenul curge de la data efectuării publicității prin ghișeul unic, reglementată conform art. 7 alin. (23⁶).”
+
+7\. La Anexa nr. 2, după definiția termenului „Firmă”, se introduce o nouă definiție, cu următorul cuprins:
+
+## • „Ghișeu unic
+
+Autoritatea sau autoritățile desemnate prin legea privind implementarea Regulamentul (UE) 2024/1252 de instituire a unui cadru pentru asigurarea aprovizionării sigure și durabile cu materii prime critice precum și pentru modificarea și completarea unor acte normative.”
+
+8\. La Anexa nr. 2, după definiția termenului „Parcelare”, se introduce o nouă definiție cu următorul cuprins:
+
+„Project minier strategic - projectul minier strategic recunoscut astfel de către Comisia Europeană, în conformitate cu procedura prevăzută de art. 7 din Regulamentul (UE) 2024/1252 de instituire a unui cadru pentru asigurarea aprovizionării sigure și durabile cu materii prime critice și de modificare a Regulamentelor (UE) nr. 168/2013, (UE) 2018/858, (UE) 2018/1724 și (UE) 2019/1020, printr-o decizie adoptată de Comisia Europeană.”
+
+## Art. 15.
+
+Legea minelor nr. 85/2003, publicată în Monitorul Oficial al României, Partea I, nr. 197 din 27 martie 2003, cu modificările și completările ulterioare se modifică și se completează după cum urmează:
+
+1\. La art. 3, după pct. 30, se introduce pct. 30¹, cu următorul cuprins:
+
+„30¹. proiect minier strategic – proiectul minier strategic recunoscut astfel de către Comisia Europeană, în conformitate cu procedura prevăzută de art. 7 din Regulamentul (UE) 2024/1252 de instituire a unui cadru pentru asigurarea aprovizionării sigure și durabile cu materii prime critice și de modificare a Regulamentelor (UE) nr. 168/2013, (UE) 2018/858, (UE) 2018/1724 și (UE) 2019/1020, printr-o decizie adoptată de Comisia Europeană.”
+
+2\. La art. 3, după pct. 34, se introduce pct. 34¹, cu următorul cuprins:
+
+„34¹. titularul proiectului minier strategic – promotorul unui proiect minier strategic recunoscut astfel de către Comisia Europeană, în conformitate cu procedura prevăzută de art. 7 din Regulamentul (UE) 2024/1252 de instituire a unui cadru pentru asigurarea aprovizionării sigure și durabile cu materii prime critice și de modificare a Regulamentelor (UE) nr. 168/2013, (UE) 2018/858, (UE) 2018/1724 și (UE) 2019/1020 printr-o decizie adoptată de Comisia Europeană, în cazul în care acesta implementează în mod direct proiectul minier strategic, respectiv afiliatul acestuia, în care promotorul proiectului deține, direct sau indirect controlul, în cazul în care afiliatul promotorului de proiect este titularul licenței aferente perimetrului minier al proiectului minier strategic."
+
+3\. După art. 6, se introduc cinci noi articole, art. 6¹ - art. 6⁵, cu următorul cuprins: ,,Art. 6¹
+
+(1) Titularul unui proiect minier strategic beneficiază de un drept legal de preempțiune pentru imobilele situate, în tot sau în parte, în perimetrul minier al proiectului minier strategic. În cazul în care imobilul este situat numai parțial în perimetrul minier al proiectului minier strategic, preempțiunea privește exclusiv partea din imobil situață în perimetrul minier. În acest scop, anterior înstrăinării, înstrăinătorul va proceda, după caz, la dezmembrarea imobilului, pe cheltuiala titularului proiectului minier strategic.
+
+(2) Dreptul de preempțiune prevăzut la alin. (1) se aplică indiferent de destinația imobilelor.
+
+(3) Dreptul de preempțiune prevăzut la alin. (1) se aplică pentru orice act de înstrăinare.
+
+(4) Dreptul de preempțiune reglementat de prezentul art. 6¹ prevalează față de orice alt drept legal sau convențional de preempțiune, titularul proiectului minier strategic având prioritate față de alte categorii de preemptori.
+
+,,Art. 6 ^ 2
+
+(1) În situația în care titularul proiectului minier strategic nu dobândește dreptul de proprietate ori de folosință asupra terenurilor necesare desfășurării activităților miniere aferente proiectului minier strategic prin mijloacele prevăzute la art. 6, altele decât exproprierea pentru cauză de utilitate publică, acesta poate adresa ghișeului unic o cerere de inițiere a procedurilor de expropriere.
+
+(2) Cererea de inițiere a procedurii de expropriere formulată de titularul proiectului minier strategic este însoțită de:
+
+a) dovada recunoașterii de către Comisia Europeană ca proiect minier strategic, respectiv decizia emisă de Comisia Europeană;
+
+b) raportul prevăzut la art. 6⁴ alin. (2);
+
+c) planul de amplasament sau planul parcelar al imobilelor propuse pentru procedura de expropriere, după caz.
+
+(3) Exproprierea solicitată în condițiile alin. (1) se desfășoară în conformitate cu dispozițiile Legii nr. 255/2010 privind exproprierea pentru cauză de utilitate publică, necesară realizării unor obiective de interes național, județean și local.
+
+(4) În termen de 15 de zile de la înregistrarea cererii depuse de titularul unui proiect minier strategic, ghișeul unic verifică dacă documentația anexată cererii este completă prin raportare la prevederile alin. (2) și:
+
+a) transmite propunerea de inițiere a procedurii de expropriere către Ministerul Economiei, Digitalizării, Antreprenoriatului și Turismului, care inițiază procedura de expropriere în conformitate cu dispozițiile Legii nr. 255/2010 privind exproprierea pentru cauză de utilitate publică, necesară realizării unor obiective de interes național, județean și local, în cazul în care constată îndeplinirea condițiilor; sau
+
+b) indică titularului proiectului minier strategic documentele suplimentare necesare, prin strictă raportare la prevederile alin. (2), în cazul în care constată neîndeplinirea condițiilor și transmite propunerea de inițiere a procedurii de expropriere către Ministerul Economiei, Digitalizării, Antreprenoriatului și Turismului, care inițiază procedura de expropriere în conformitate cu dispozițiile Legii nr. 255/2010, în termen de 15 zile de la depunerea de către titularul proiectului minier strategic a documentelor suplimentare solicitate astfel.
+
+## Art. 6³
+
+(1) Anterior inițierii procedurii de expropriere în condițiile art. 6², titularul proiectului minier strategic transmite prin executorul judecătoresc titularului dreptului de proprietate sau folosință asupra terenurilor necesare desfășurării activităților miniere aferente proiectului minier strategic o ofertă de dobândire a dreptului de proprietate sau de folosință asupra acestora.
+
+(2) Oferta transmisă în condițiile alin. (1) cuprinde cel puțin următoarele:
+
+a) preful propus;
+
+b) termenul de plată a prețului;
+
+c) o invitație la negocieri în fața unui notar public din circumscriptția imobilului într-un termen de cel puțin 20 de zile de la comunicare;
+
+d) mențiunea că neprezentarea la negocieri poate atrage inițierea procedurii de expropriere a imobilului.
+
+(3) Oferta transmisă în condițiile alin. (1) trebuie să fie fundamentată pe valoarea de piață a imobilului, determinată potrivit grilelor notariale aplicabile zonei și categoriei de folosință a imobilelor respective.
+
+Art. 6⁴
+
+(1) Dovada propunerii mijloacelor de dobândire a dreptului de proprietate sau de folosință asupra terenurilor necesare desfășurării activităților miniere în condițiile art. 6 și art. 6² se face de către titularul proiectului minier strategic prin încheierea notarului public prin care se constată refuzul ofertei sau absența titularului dreptului de proprietate sau folosință de la negocierea stabilită conform art. 6³ alin. (2).
+
+(2) Titularul proiectului minier strategic întocmește un raport de centralizare a demersurilor efectuate și a răspunsurilor primite, raport ce se depune la ghișeul unic, împreună cu documentele justificative prevăzute la alin. (1).
+
+Art. 6⁵
+
+(1) Prin excepție de la prevederile Părții V, Titlul I, Capitolului III Secțiunea 3 din Ordonanța de urgență a Guvernului nr. 57/2019 privind Codul administrativ, imobilele dobândite de către statul român prin expropriere în condițiile articolelor 6² și 6³ vor fi concesionate titularului proiectului minier strategic.
+
+(2) Contractul de concesiune va fi încheiat direct cu titularul proiectului minier strategic, concedent fiind statul român, reprezentat prin Ministerul Economiei, Digitalizării, Antreprenoriatului și Turismului.
+
+(3) Durata concesiunii încheiate în temeiul prezentului articol va fi egală duratei licenței aferente proiectului minier strategic. În măsura în care durata licenței aferente proiectului minier strategic, se prelungește în condițiile prezentei legi, durata dreptului de concesiune se va prelungi în mod corespunzător.
+
+(4) Pentru exercitarea dreptului de concesiune prevăzut la alineatul (1), titularul proiectului minier strategic va datora concedentului o redevență anuală, a cărei valoare se va calcula la valoarea de piață a imobilelor calculate în cursul procedurii de expropriere prevăzute de articolul 6² din prezenta lege.
+
+(5) Redevența se va compensa cu sumele avansate de titularul proiectului minier strategic pentru despăgubiri, până la stingerea integrală a acestora din urmă.
+
+(6) Orice eventuală sumă care nu a fost stinsă potrivit alin. (5) se va compensa, la valoarea nominală, la care se va adăuga dobânda legală, cu obligațiile titularului proiectului minier strategic față de statul român aferente proiectului minier strategic.
+
+(7) Contractul de concesiune prevăzut de prezentul articol se va încheia la inițiativa titularului proiectului minier strategic, în termen de 30 de zile de la finalizarea procedurilor de expropriere prevăzute de articolul 6² din prezenta lege.
+
+(8) Durata contractului de concesiune prevăzut de prezentul articol se va prelungi în conformitate cu prevederile alin. (3) la inițiativa titularului proiectului minier strategic, în termen de cel mult 30 de zile de la solicitarea acestuia, în toate cazurile, anterior expirării duratei licenței.”
+
+4\. Art. 38, lit. g) se modifică și va avea următorul cuprins:
+
+„Art. 38, lit. g) să întrerupă activitatea minieră, pe o perioadă ce depășește 60 de zile, cu acordul prealabil al autorității competente, în condițiile prevăzute de instrucțiunile emise de autoritatea competentă și de reglementare;”
+
+5\. Art. 40 se modifică și va avea următorul cuprins:
+
+## „Art. 40
+
+(1) Procedurile pentru obținerea autorizațiilor, acordurilor și/sau avizelor de mediu și de protecția muncii, necesare pentru desfășurarea activităților miniere, vor fi coordonate de fiecare autoritate, conform competențelor și reglementărilor stabilite prin legislația în vigoare.
+
+(2) Prin excepție de la prevederile art. 40, alin. (1), procedurile pentru obținerea tuturor autorizațiilor, acordurilor, avizelor necesare pentru desfășurarea activităților miniere aferente unui proiect minier strategic, inclusiv autorizația prevăzută la art. 22, vor fi coordonate prin intermediul ghișeului unic, potrivit dispozițiilor art. 4 din Legea privind unele măsuri de aplicare a Regulamentului (UE) 2024/1.252 al Parlamentului European și al Consiliului din 11 aprilie 2024 de instituire a unui cadru pentru asigurarea aprovizionării sigure și durabile cu materii prime critic și de modificare a Regulamentelor (UE) nr. 168/2013, (UE) 2018/858, (UE) 2018/1.724 și (UE) 2019/1.020, precum și pentru modificarea și completarea unor acte normative pentru activitatea de extracție a materiilor prime critic și se vor încadra în termenele reglementate de prevederile art. 5 din cuprinsul aceluiași act normativ. ”
+
+## Art. 16.
+
+Legea nr. 255/2010 privind exproprierea pentru cauză de utilitate publică, necesară realizării unor obiective de interes național, județean și local, publicată în Monitorul Oficial al României, Partea I, nr. 853 din 20 decembrie 2010, cu modificările și completările ulterioare, se modifică după cum urmează:
+
+## 1. La articolul 1, alineatul (1) se modifică după cum urmează:
+
+„(1) Prezenta lege stabilește cadrul juridic pentru luarea măsurilor necesare executării: lucrărilor de construcție, reabilitare și modernizare a drumurilor de interes național, județean și local, lucrărilor de construcție, reabilitare și extindere a infrastructurii feroviare publice, lucrărilor necesare dezvoltării rețelei de transport cu metroul și de modernizare a rețelei existente, lucrărilor de dezvoltare a infrastructurii aeroportuare, inclusiv a infrastructurilor și echipamentelor necesare pentru desfășurarea activităților nonaeronautice, precum și a infrastructurii de transport naval, lucrărilor de construcție, modernizare și extindere a obiectivelor cu caracter militar, lucrărilor de construire, modernizare, reconversie și extindere a capacităților de producție și/sau servicii pentru apărare de interes strategic pentru securitatea națională, lucrărilor de construire - construcții și infrastructură - reabilitare, modernizare, reconversie funcțională pentru construcții administrative necesare funcționării administrației publice centrale și locale, lucrărilor de construcție, reabilitare și modernizare a obiectivelor prevăzute în proiectele de investiții strategice, inclusiv cele realizate în parteneriat public-privat, lucrărilor de construire, reabilitare, modernizare, reconversie funcțională pentru proiecte de dezvoltare și regenerare urbană inițiate de autoritățile publice centrale și locale, lucrărilor din domeniul gospodăririi apelor, respectiv construcțiile hidrotehnice și lucrările anexe, acumulările de apă permanente și nepermanente, cantoanele de exploatare, digurile de apărare împotriva inundațiilor, construcțiile și instalațiile hidrometrice, instalațiile de determinare automată a calității apei, lucrările de amenajare, regularizare sau consolidare a albiilor, canalelor și derivațiilor hidrotehnice, stațiile de pompare, precum și alte construcții hidrotehnice realizate pe ape, lucrări de renaturare, reabilitare zone umede și de asigurare a conectivității laterale, lucrărilor de construcție, reabilitare, modernizare și dezvoltare a stațiunilor turistice de interes național, lucrărilor de construcție, reabilitare, modernizare, dezvoltare și ecologizare a zonei litorale a Mării Negre, lucrărilor de amenajare, dezvoltare sau reabilitare a pârtiilor de schi, cu instalațiile de transport pe cablu aferente, cu lucrările de amenajare, instalațiile și echipamentele de producere a zăpezii și gheții artificiale și de întreținere a pârtiilor, instalațiile pentru iluminatul pârtiilor de schi și alte echipamente necesare dezvoltării domeniului schiului, amenajarea, dezvoltarea sau reabilitarea pârtiilor destinate practicării celorlalte sporturi de iarnă - biatlon, bob, sanie, sărituri de la trambulină -, a patinoarelor și echiparea cu instalații și echipamente corespunzătoare, cuprinse în Programul național de dezvoltare a turismului «Schi în România», aprobat prin Legea nr. 526/2003, cu modificările și completările ulterioare, lucrărilor de interes național pentru realizarea, dezvoltarea producerii, transportului și distribuției de energie electrică, transportului și distribuției de gaze naturale, de extracție a gazelor naturale, lucrărilor de dezvoltare, modernizare și reabilitare a Sistemului național de transport al țițeiului, gazolinei, etanului, condensatului și gazelor naturale și lucrărilor miniere de interes național pentru exploatarea zăcămintelor de lignit, care se execută în baza unei licențe de exploatare, implementării unui proiect minier strategice recunoscut de Comisia Europeană în conformitate cu Regulamentul (UE) 2024/1252 de instituire a unui cadru pentru asigurarea aprovizionării sigure și durable cu materii prime critice și de modificare a Regulamentelor (UE) nr. 168/2013, (UE) 2018/858, (UE) 2018/1724 și (UE) 2019/1020, inclusiv executării oricăror lucrări în legătură cu acesta, lucrărilor pentru realizarea Sistemului național al perdelelor forestiere de protecție, precum și pentru împădurirea terenurilor degradate, lucrărilor de interes public de construcție, reabilitare și modernizare a infrastructurii de alimentare cu apă, aducțiuni, inclusiv a stațiilor de captare și tratare, a infrastructurii de apă uzată și lucrărilor de construcție, reabilitare și modernizare a stațiilor de epurare, lucrărilor de interes public național de construcție, reabilitare, modernizare și reconversie funcțională pentru construcții administrative necesare funcționării sistemului judiciar, lucrărilor de interes public național, regional, interjudețean, județean și local de construcție, reabilitare și modernizare necesare funcționării sistemului de sănătate, inclusiv pentru infrastructura aferentă acestora, lucrărilor de interes public local de construcție, reabilitare, modernizare și reconversie funcțională pentru construcții administrative, sociale, culturale, de învățământ și sport, inclusiv pentru infrastructura aferentă acestora, lucrărilor de conservare sau de amenajare a spațiilor verzi, lucrărilor de regenerare urbană, lucrărilor de protecție și de restaurare a clădirilor de patrimoniu, lucrărilor de interes public local de amenajare a teritoriului și de urbanism, de dezvoltare sau regenerare urbană, conform proiectului de strategie de dezvoltare urbană și teritorială prevăzut de Legea nr. 350/2001 privind amenajarea teritoriului și urbanismul, cu modificările și completările ulterioare, sau studiului de fezabilitate propus și aprobat prin hotărâre a consiliului local, după caz, în domeniile reglementate de prezentul articol, precum și cele prevăzute la art. 286 din Ordonanța de urgență a Guvernului nr. 57/2019 privind Codul administrativ, cu modificările și completările ulterioare, lucrărilor de închidere și ecologizare a depozitelor de deșeuri, efectuate de stat prin autoritățile publice centrale, ca urmare a stabilirii în sarcina acestuia de măsuri în baza unor hotărâri ale Curții de Justiție a Uniunii Europene, lucrărilor realizate în cadrul sistemelor de gestionare a deșeurilor efectuate de stat și unitățile administrativ-teritoriale, lucrărilor de interes național pentru administrarea, exploatarea, întreținerea și dezvoltarea rețelei naționale de supraveghere meteorologică și lucrărilor de interes național pentru administrarea, exploatarea, întreținerea și dezvoltarea telecomunicațiilor speciale, inclusiv a infrastructurii necesare funcționării acestora.
+
+2\. La articolul 2 alin. (1), după litera e), se introduce o nouă literă e¹), cu următorul cuprins:
+
+„e¹) lucrările necesare, utile sau în legătură cu proiectele miniere strategice recunoscute astfel de Comisia Europeană în conformitate cu procedura prevăzută de Regulamentul (UE) 2024/1252 de instituire a unui cadru pentru asigurarea aprovizionării sigure și durabile cu materii prime critic și de modificare a Regulamentelor (UE) nr. 168/2013, (UE) 2018/858, (UE) 2018/1724 și (UE) 2019/1020.”
+
+## 3. La articolul 2, alin. (2) se modifică și va avea următorul cuprins:
+
+„Expropriator este statul român pentru obiectivele de interes național, obiectivele care se execută în baza unei licențe aferente unui proiect minier strategice recunoscut de Comisia Europeană în conformitate cu Regulamentul (UE) 2024/1252 de instituire a unui cadru pentru asigurarea aprovizionării sigure și durabile cu materii prime critice și de modificare a Regulamentelor (UE) nr. 168/2013, (UE) 2018/858, (UE) 2018/1724 și (UE) 2019/1020, inclusiv pentru obiectivele de investiții strategice și cele realizate în parteneriat public-privat de interes național.”
+
+4\. La articolul 2 alineatul (3), după litera d¹² se introduce o nouă literă d¹³, cu următorul cuprins:
+
+„d¹³) Ministerul Economiei, Digitalizării, Antreprenoriatului și Turismului, pentru proiectele miniere strategice recunoscute de Comisia Europeană în conformitate cu procedura prevăzută de Regulamentul (UE) 2024/1252 de instituire a unui cadru pentru asigurarea aprovizionării sigure și durabile cu materii prime critic și de modificare a Regulamentelor (UE) nr. 168/2013, (UE) 2018/858, (UE) 2018/1724 și (UE) 2019/1020.”
+
+5\. La articolul 5, după alin. (1³), se introduce un nou alin. (1⁴), cu următorul cuprins:
+
+„(1⁴) Prin excepție de la prevederile alin. (1), inițierea procedurii de expropriere în vederea realizării lucrărilor privind proiectele miniere strategice recunoscute de Comisia Europeană în conformitate cu procedura prevăzută de Regulamentul (UE) 2024/1252 de instituire a unui cadru pentru asigurarea aprovizionării sigure și durabile cu materii prime critic și de modificare a Regulamentelor (UE) nr. 168/2013, (UE) 2018/858, (UE) 2018/1724 și (UE) 2019/1020 și art. 2 alin. (1) lit. e1, se realizează prin ordinul expropriatorului prevăzut la art. 2 alin. (3) lit. d¹³.”
+
+6\. După articolul 6, se introduce un nou articol 6¹, cu următorul cuprins:
+
+6 ^ 1
+
+(1) În vederea derulării procedurilor de expropriere inițiate conform art. 6² din Legea minelor nr. 85/2003, nu este necesară aprobarea indicatorilor tehnico-economici.
+
+(2) În cazul prevăzut la alin. (1), exproprierea pentru cauză de utilitate publică se face în baza documentelor prevăzute la art. 6² alin. (2) din Legea minelor nr. 85/2003, cu modificările și completările ulterioare.
+
+(3) În cazul prevăzut la alin. (1) coridorul de expropriere este restrâns la amplasamentele imobilelor propuse spre expropriere."
+
+7\. După articolul 7, introduce un nou articol 7¹, cu următorul cuprins:
+
+, Art. 7 ^ 1
+
+(1) În situația proiectelor miniere strategice recunoscute de Comisia Europeană în conformitate cu procedura prevăzută de Regulamentul (UE) 2024/1252 de instituire a unui cadru pentru asigurarea aprovizionării sigure și durabile cu materii prime critice și de modificare a Regulamentelor (UE) nr. 168/2013, (UE) 2018/858, (UE) 2018/1724 și (UE) 2019/1020, cheltuielile legate de expropriere, inclusiv plata despăgubirilor, se avansează de către titularul licenței aferente acestora, care virează fondurile necesare în contul indicat de expropriator, anterior efectuării transferului dreptului de proprietate.
+
+(2) Expropriatorul achită despăgubirile către proprietari din fondurile astfel virate, cu respectarea dispozițiilor prezentei legi.”
+
+## Art. 17.
+
+Legea nr. 331 din 20 decembrie 2024 privind Codul silvic, publicată în Monitorul Oficial al României, Partea I, nr. 7 din 9 ianuarie 2025, cu modificările și completările următoare, se completează după cum urmează:
+
+La articolul 40 alineatul (1), după litera f) se introduce o nouă literă fl), cu următorul cuprins:
+
+f¹) necesare lucrărilor pentru proiectele miniere strategice recunoscute de Comisia Europeană în conformitate cu procedura prevăzută de Regulamentul (UE) 2024/1252 de instituire a unui cadru pentru asigurarea aprovizionării sigure și durabile cu materii prime critice și de modificare a Regulamentelor (UE) nr. 168/2013, (UE) 2018/858, (UE) 2018/1724 și (UE) 2019/1020, executate pe terenurile forestiere care fac parte din coridorul de expropriere al lucrărilor miniere declarate de interes național și de utilitate publică de exploatare al acestor proiecte sau pe terenurile achiziționate de titularul proiectului minier strategic în condițiile prevăzute la art. 6 lit. a) din Legea minelor nr. 85/2003, cu modificările și completările ulterioare, care nu fac parte din coridorul de expropriere al unei lucrări miniere declarate de interes național și de utilitate publică de exploatare a acestor proiecte, dar care se regăsesc pe amplasamentul lucrării în cauză și sunt necesare realizării lucrărilor miniere. În acest caz, beneficiarul scoaterii din FFN este titularul proiectului minier strategic recunoscut astfel de către Comisia Europeană, în conformitate cu procedura prevăzută de art. 7 din Regulamentul (UE) 2024/1252 printr-o decizie adoptată de Comisia Europeană. Scoaterea definitivă a terenurilor necesare realizării lucrărilor pentru proiectele miniere strategice se aprobă prin ordinul inițiatorului procedurii de expropriere, la solicitarea titularului proiectului strategic.
+
+## Art. 18.
+
+Instrucțiunile privind condițiile de întrerupere a activității miniere pe o perioadă mai mare de 60 de zile, prevăzută la art. 38 lit. g) din Legea minelor nr. 85/2003, din 04.08.2024, aprobate prin Ordinul nr. 721/2025 din 04 august 2025 emis de Președintele Autorității Naționale de Reglementare în Domeniul Minier, Petrolier și al Stocării Geologice a Dioxidului de Carbon, publicat în Monitorul Oficial al României, Partea I, nr. 775 din 20 august 2025, se completează după cum urmează:
+
+La art. 1, după alin. (1) se introduce un nou alin. (1¹) cu următorul cuprins:
+
+(1¹) Prin excepție de la prevederile art. 1 alin. (1) și ale art. 3 alin. (1) din prezentele Instrucțiuni, titularii licențelor/permiselor de exploatare care nu desfășoară în mod efectiv activități de extracție, manipulare, transport, prelucrare și valorificare a resurselor minerale din perimetrul de exploatare, precum lucrări de deschidere și pregătire a zăcământului, extragerea substanțelor minerale utile, gestionarea deșeurilor extractive, aplicarea măsurilor de monitorizare și reducere a impactului asupra mediului, respectarea planului de închidere a minelor și de refacere a mediului, pot solicita întreruperea activității pe o perioadă ce depășește 60 de zile, fără să facă dovada îmbunătățirii planului de dezvoltare prin introducerea de tehnologii și echipamente superioare celor existente, respectiv fără să fie necesară îndeplinirea condițiilor prevăzute la art. 3 alin. (1).”
+
+## Art. 19.
+
+Excepția de nelegalitate prevăzută de art. 4 alin. (1) din Legea contenciosului administrativ nr. 554/2004 cu privire la actele administrative cu caracter individual emise în procesul de autorizare a proiectelor miniere strategice nu poate fi invocată de partea interesată care a avut posibilitatea să invoce nelegalitatea respectivului act administrativ cu caracter individual pe cale principală.
+
+## Art. 20.
+
+Prevederile prezentei legi se aplică inclusiv procedurilor de autorizare a proiectelor miniere strategice în derulare la data intrării în vigoare a prezentei legi, după cum urmează:
+
+a) acordurile, avizele și autorizațiile deja obținute își păstrează valabilitatea;
+
+b) pentru acordurile, avizele și autorizațiile solicitate, dar care încă nu au fost emise, se vor aplica prevederile prezentei legi.
+
+## Art. 21.
+
+În termen de 60 zile de la data publicării prezentei legi în Monitorul Oficial al României, Partea I, Ministerul Economiei, Digitalizării, Antreprenoriatului și Turismului va elabora normele de aplicare ale acesteia, care se aprobă prin hotărârea Guvernului.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+PREȘEDINTELE SENATULUI

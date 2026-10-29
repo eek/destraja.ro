@@ -1,0 +1,391 @@
+# PARLAMENTUL ROMÂNIEI
+
+# EXPUNERE DE MOTIVE
+
+## I. CONSIDERAȚII GENERALE
+
+Tranziția de la educație la ocupare și la o viață independentă reprezintă una dintre cele mai dificile etape pentru tinerii din România. Accesul efectiv la un loc de muncă, la educație sau la formare profesională nu depinde numai de existența oportunităților, ci și de posibilitatea tinerilor de a ajunge zilnic la locul de muncă ori de studiu și de a locui la o distanță rezonabilă față de acesta.
+
+În acest context, cheltuielile pentru locuire și transport nu constituie numai costuri curente ale gospodăriei, ci pot deveni bariere structurale în calea integrării profesionale, a mobilității teritoriale și a dobândirii autonomiei personale. Un loc de muncă disponibil într-un centru economic sau universitar nu reprezintă o oportunitate efectiv accesibilă atunci când o parte disproporționată din venitul obținut trebuie utilizată pentru chirie și transport.
+
+În anul 2025, în România locuiau aproximativ 3,11 milioane de persoane cu vârste între 15 și 29 de ani.¹ Rata de ocupare varia considerabil între grupele de vârstă, fiind de 3,3% pentru tinerii de 15–19 ani, de 33,5% pentru grupa 20–24 de ani și de 70,9% pentru grupa 25–29 de ani.² Aceste diferențe reflectă trecerea graduală de la educație la piața muncii, dar evidențiază și faptul că presiunile legate de mobilitate și locuire se intensifică în perioada în care tinerii încep să desfășoare o activitate profesională și să își formeze o gospodărie independentă.
+
+În ceea ce privește capacitatea financiară, datele administrative privind veniturile salariale arată că, în anul 2024, venitul salarial mediu brut realizat era de 6.413 lei pentru salariații cu vârste între 20 și 24 de ani și de 8.297 lei pentru cei cu vârste între 25 și 29 de ani³. În interiorul acelorași grupe de vârstă există însă diferențe semnificative între ocupații, tinerii care lucrează în domeniul serviciilor, în ocupații elementare sau în anumite activități agricole înregistrând venituri considerabil mai reduse.
+
+¹ Institutul Național de Statistică, baza de date TEMPO-Online, matricea POP105A – „Populația rezidentă la 1 ianuarie pe grupe de vârstă și vârste, sexe și medii de rezidentă, macroregiuni, regiuni de dezvoltare și județe”, date aferente anului 2025. Baza de date este disponibilă la: http://statistici.insse.ro:8077/tempo-online/, accesată la data de 18 august 2026.
+
+² Institutul Național de Statistică, baza de date TEMPO-Online, matricea AMG156A – „AMIGO – Rata de ocupare pe grupe de vârstă și sexe”, selecții: anul 2025, total sexe, grupele de vârstă 15–19 ani, 20–24 ani și 25–29 ani. Baza de date este disponibilă la: http://statistici.insse.ro:8077/tempo-online/, accesată la data de 18 august 2026.
+
+³ Institutul Național de Statistică, baza de date TEMPO-Online, matricea FOM121A – „Numărul salariaților cu program complet de lucru și venitul mediu brut realizat, pe sexe, grupe de vârstă și activități ale economiei naționale”, date aferente anului 2024. Baza de date este disponibilă la: http://statistici.insse.ro:8077/tempo-online/, accesată la data de 18 august 2026.
+
+Vulnerabilitatea economică a tinerilor rămâne ridicată. Potrivit datelor Eurostat, în anul 2025, 30,8% dintre persoanele cu vârste între 15 și 29 de ani din România se aflau în risc de sărăcie sau excluziune socială, cu 6,6 puncte procentuale peste media Uniunii Europene pentru aceeași grupă de vârstă și cu 3,4 puncte procentuale peste nivelul înregistrat pentru populația totală a României⁴.
+
+Pentru tinerii care intră pe piața muncii, vulnerabilitatea este amplificată de faptul că angajarea poate genera costuri substanțiale înainte de a produce stabilitate financiară. Achiziționarea abonamentului de transport, efectuarea navetei, relocarea într-un alt oraș, plata garanției locative și a primei luni de chirie presupun resurse de care numeroși tineri aflați la începutul carierei nu dispun.
+
+În același timp, oportunitățile de ocupare și educație sunt concentrate în centre urbane care înregistrează și cele mai ridicate costuri ale locuirii. În anul 2025, grupa 25–29 de ani avea o rată de ocupare de 79,1% în mediul urban, comparativ cu 63,1% în mediul rural.⁵ Diferența de 16 puncte procentuale reflectă concentrarea oportunităților profesionale în mediul urban, dar și presiunea exercitată asupra tinerilor care trebuie să aleagă între relocarea într-o localitate cu chirii ridicate și efectuarea unei navete zilnice.
+
+Potrivit Barometrului Național al Tinerilor 2026, 36,6% dintre persoanele interviewate locuiau cu părinții, socrii sau familia extinsă, iar 19,2% locuiau cu chirie ⁶ . Totodată, 31,2% dintre respondenți considerau costul cazării sau al chiriei drept principala dificultate cu care se confruntă studenții în România, iar 27,2% apreciau că sprijinul financiar pentru cazare sau chirie ar reprezenta cea mai utilă măsură pentru continuarea studiilor universitare ⁷ .
+
+În domeniul transportului, 5,6% dintre respondenții Barometrului au indicat transportul drept cheltuială care le afectează cel mai mult bugetul lunar.⁸ Deși această pondere nu indică o dificultate dominantă pentru întreaga populație tânără, ea confirmă existența unui segment pentru care costurile mobilității au un impact economic semnificativ.
+
+Transportul și locuirea trebuie, prin urmare, abordate printr-o intervenție coordonată. Micșorarea costurilor asociate transportului pot reduce costul participării zilnice la muncă, educație și formare profesională, în timp ce subvenționarea parțială a chiriei sprijină relocarea și locuirea independentă în apropierea oportunităților profesionale. Împreună, cele două măsuri pot reduce situațiile în care un tânăr este obligat să refuze un loc de muncă sau un program de studii din cauza costurilor indirecte asociate.
+
+⁴ Eurostat, setul de date „Persons at risk of poverty or social exclusion by age and sex” (cod: ilc\_peps01n), date aferente anului 2025. Baza de date este disponibilă la Eurostat Data Browser, accesat la 19 august 2026.
+
+⁵ Institutul Național de Statistică, baza de date TEMPO-Online, matricea AMG156B – „AMIGO – Rata de ocupare pe grupe de vârstă și medii de rezidență”. Baza de date este disponibilă la TEMPO-Online, accesată la 15 august 2026.
+
+⁶ INSCOP Research, Barometrul Național al Tinerilor 2026. Sondaj reprezentativ la nivel național pentru populația României cu vârsta de 18–35 de ani, publicată la 12 martie 2026, disponibilă pe site-ul INSCOP Research, accesată la 10 august 2026.
+
+⁷ Idem.
+
+⁸ Idem.
+
+În acest sens, prezenta inițiativă urmărește instituirea unui mecanism integrat de sprijinire a autonomiei și mobilității tinerilor, alcătuit din două componente complementare:
+
+1\. reducerea cu 50% a tarifului abonamentelor nominale pentru transportul public local, metropolitan și integrat sau reducerea cu 50% a tarifului abonamentelor feroviare nominale de navetă;
+
+2\. acordarea unei subvenții temporare pentru plata unei părți din chiria aferentă locuinței de domiciliu sau de reședință.
+
+Intervenția are ca obiectiv reducerea costurilor asociate intrării și menținerii pe piața muncii, sprijinirea continuării studiilor și a formării profesionale, facilitarea mobilității teritoriale și susținerea procesului de dobândire a independenței locative. Totodată, prin condiționarea acordării sprijinului de existența unui contract de închiriere încheiat în formă scrisă și înregistrat fiscal, intervenția urmărește încurajarea formalizării raporturilor locative, creșterea transparenței pieței închirierilor și consolidarea protecției juridice atât a chiriașilor, cât și a proprietarilor.
+
+## II. CUPRINSUL MOTIVĂRII
+
+## Motivele emiterii actului normativ
+
+## 1. Vulnerabilitatea economică ridicată a tinerilor
+
+Tinerii reprezintă una dintre categoriile expuse în mod particular riscului de sărăcie sau excluziune socială. În anul 2025, 30,8% dintre persoanele cu vârste între 15 și 29 de ani din România se aflau într-o asemenea situație, comparativ cu 24,2% la nivelul Uniunii Europene.⁹
+
+Această vulnerabilitate este determinată nu numai de nivelul veniturilor, ci și de poziția tinerilor în ciclul profesional și familial. Primele etape ale ocupării sunt caracterizate frecvent de venituri mai reduse, perioade de probă, contracte pe durată determinată, activitate cu timp parțial, economii limitate și o capacitate redusă de absorbție a cheltuielilor neprevăzute.
+
+Intrarea în activitate poate presupune costuri inițiale și recurrente ridicate: transport zilnic, abonamente pentru mai mulți operatori, garanție locativă, chirie, utilități și cheltuieli de relocare. Aceste costuri apar înainte ca tânărul să dobândească stabilitate financiară și pot diminua substanțial beneficiul economic imediat al angajării.
+
+Lipsa unui mecanism care să compenseze o parte din aceste costuri poate determina amânarea intrării pe piața muncii, refuzarea unui loc de muncă aflat într-o altă localitate, alegerea unei locuințe neadecvate ori menținerea dependenței locative față de familie.
+
+⁹ Eurostat, setul de date „Persons at risk of poverty or social exclusion by age and sex” (cod: ilc\_peps01n), date aferente anului 2025. Baza de date este disponibilă la Eurostat Data Browser, accesat la 19 august 2026.
+
+## 2. Discontinuitatea sprijinului la trecerea de la educație la ocupare
+
+Sistemul actual de facilități pentru transport este construit predominant în jurul statutului educațional. Elevii beneficiază de gratuități, iar studenții de reduceri importante pentru transportul local și feroviar, în condițiile prevăzute de lege.
+
+După finalizarea studiilor, facilitățile încetează, deși necesitatea deplasării nu dispare, ci devine zilnică odată cu intrarea în muncă. Tânărul pierde sprijinul public pentru transport în momentul în care începe să suporte simultan costurile deplasării, locuirii și formării unei gospodării independente.
+
+Decontarea transportului de către angajator nu este garantată tuturor salariaților și nu acoperă în mod uniform toate formele de transport. Măsurile ANOFM privind mobilitatea se adresează unui grup restrâns și presupun înregistrarea prealabilă ca șomer. În consecință, există un gol de protecție pentru tinerii care intră direct în muncă sau care nu îndeplinesc condițiile mecanismelor existente.
+
+Reducerea costului transportului public pentru tinerii eligibili ar asigura continuitatea sprijinului în perioada de tranziție și ar elimina o cheltuială necesară exercitării dreptului la muncă și accesului la educație.
+
+## 3. Mobilitatea teritorială asociată participării la muncă și educație
+
+Oportunitățile profesionale și educaționale nu sunt distribuite uniform pe territoriul României. Ele sunt concentrate în municipii, centre universitare și zone metropolitane, ceea ce obligă o parte a populației să efectueze naveta sau să se relocheze.
+
+Potrivit Recensământului Populației și Locuințelor 2021, aproximativ 23,7% din populația rezidentă ocupată lucra într-o altă localitate decât cea în care fusese recenzată ¹⁰ . Amploarea fenomenului arată că mobilitatea nu constituie o situație excepțională, ci o condiție obișnuită a participării la piața muncii.
+
+Pentru tineri, costul mobilității poate influența direct decizia de a accepta un loc de muncă. Problema este mai accentuată pentru persoanele din mediul rural, din localități mici, din zone periurbane sau din județe în care oportunitățile profesionale sunt reduse. Relevanța acestei diferențe territoriale devine deosebit de evidentă în etapa consolidării profesionale: în anul 2025, rata de ocupare a persoanelor cu vârste între 25 și 29 de ani era de 79,1% în mediul urban, comparativ cu 63,1% în mediul rural, rezultând o diferență de 16 puncte procentuale.¹¹
+
+¹⁰ Institutul Național de Statistică, Recensământul Populației și Locuințelor 2021 – rezultate definitive: caracteristici economice, Tabelul 5.16, „Populația rezidentă ocupată după localizarea geografică a locului de muncă”, disponibil pe platforma RPL 2021, fișierul Tabel 5.16, accesat la 13 august 2026.
+
+¹¹ Institutul Național de Statistică, baza de date TEMPO-Online, matricea AMG156B – „AMIGO – Rata de ocupare pe grupe de vârstă și medii de rezidentă”, date aferente anului 2025. Baza de date este disponibilă la TEMPO-Online, accesată la 20 august 2026.
+
+Reducerea costurilor asociate transportului public poate extinde aria geografică în care un tânăr poate căuta și accepta un loc de muncă. Subvenționarea chiriei poate sprijini, la rândul său, situațiile în care naveta nu este posibilă ori eficientă și este necesară relocarea.
+
+Cele două măsuri răspund, așadar, unor situații diferite ale aceleiași probleme: în unele cazuri este oportună susținerea navetei, iar în altele este necesară susținerea relocării.
+
+## 4. Costurile ridicate ale accesului la o locuință independentă
+
+Accesul la o locuință adecvată și accesibilă financiar reprezintă una dintre condițiile esențiale ale autonomiei tinerilor. Chiria lunară nu este singura cheltuială relevantă. Pentru un tânăr aflat în căutarea unei chirii, cheltuielile includ, în mod obișnuit, plata garanției, plata anticipată a primei luni, costurile utilităților și, uneori, cheltuieli de intermediere și mutare.
+
+Presiunea financiară este mai ridicată în marile centre urbane, în care sunt concentrate locurile de muncă, instituțiile de învățământ și oportunitățile de formare profesională. Datele platformelor imobiliare indică atât un nivel ridicat al chiriilor, cât și diferențe territoriale considerabile. Potrivit unei analize realizate de Storia, prețurile medii solicitate pentru închiriere au crescut, la nivel național, cu 4,41% în anul 2025 față de 2024. Prețul mediu solicitat pentru o garsonieră a ajuns la aproximativ 350 de euro lunar, în creștere cu aproape 8%, iar pentru un apartament cu două camere la aproximativ 512 euro lunar.¹² Creșterea mai rapidă înregistrată în cazul garsonierelor afectează în mod special tinerii care locuiesc singuri sau formează gospodării de dimensiuni reduse.
+
+În luna iunie 2026, prețul mediu solicitat pentru locuințele din cele zece orașe analizate de platformă depășea 500 de euro, ajungând la 531 de euro lunar. Nivelurile cele mai ridicate se înregistrau în București, cu o medie de 593 de euro, și în Cluj-Napoca, cu 580 de euro, urmate de Brașov și Constanța, cu câte 500 de euro lunar.¹³ Aceste valori nu reprezintă chiriile efectiv plătite de toate gospodăriile și nici nu sunt specifice exclusiv tinerilor, ci constituie prețuri medii solicitate în anunțurile publicate pe platformă. Ele oferă însă un indicator relevant asupra nivelului costurilor cu care se confruntă persoanele care caută o locuință pe piața liberă.
+
+Dificultățile de acces la locuire se reflectă și în calitatea condițiilor de locuit. Potrivit Eurostat, în anul 2024, 58,3% dintre persoanele cu vârste între 15 și 29 de ani din România locuiau în gospodării considerate supraaglomerate, aceasta fiind cea mai ridicată rată înregistrată în Uniunea Europeană pentru această grupă de vârstă.¹⁴ Proporția era cu 17,6 puncte procentuale mai mare decât cea aferentă populației totale a României. Situația era deosebit de gravă în cazul persoanelor cu vârste între 15 și 19 ani, pentru care rata supraaglomerării ajungea la 65,5%. ¹⁵
+
+¹² Storia, Analiză Storia: cum au evoluat chiriile în 2025 și la început de 2026, 6 februarie 2026, disponibilă pe site-ul Storia, accesată la 14 august 2026. Datele reprezintă prețurile medii solicitate în anunțurile publicate pe platformă.
+
+¹³ Storia, Analiză Storia: interesul pentru închirieri accelerează, 14 iulie 2026, disponibilă pe site-ul Storia, accesată la 14 august 2026. Media de 531 de euro se referă la prețurile solicitate în anunțurile din cele zece orașe analizate, nu la o medie statistică oficială pentru întreaga piață națională a închirierilor.
+
+¹⁴ Eurostat, „Young people – housing conditions”, secțiunea „Overcrowding rate”, date aferente anului 2024, pe baza setului de date EU-SILC. Bază de date disponibilă la
+
+Diferențele importante dintre piețele locale justifică stabilirea unor plafoane territoriale ale chiriei eligibile, diferențiate în funcție de localitate și de tipul locuinței. În acest mod, sprijinul poate reflecta variațiile reale ale costurilor, fără a acoperi integral chiria solicitată și fără a încuraja transferarea subvenției în creșterea prețurilor.
+
+În lipsa unei intervenții, tinerii pot fi obligați să accepte o navetă excesivă, să locuiască în condiții neadecvate, să împartă locuințe supraaglomerate sau să rămână în locuința familiei chiar și atunci când această situație limitează accesul la muncă ori educație.
+
+## 5. Oferta insuficientă de locuințe publice pentru tineri
+
+Programul ANL și fondul de locuințe sociale reprezintă instrumente necesare, dar capacitatea acestora de a acoperi cererea existentă este limitată. Accesul efectiv depinde de stocul disponibil în fiecare localitate, de ritmul construirii și recepționării unor locuințe noi, precum și de criteriile și ordinea de prioritate stabilite la nivel local. Analiza „Tineri Acasă”, realizată de Consiliul Tineretului din România, constată că evoluția programelor ANL cu impact asupra tinerilor este lentă, iar rezultatele obținute sunt insuficiente în raport cu nevoile existente pe piața locuirii.¹⁶ Potrivit datelor centralizate în raport pe baza rapoartelor de activitate ale Agenției Naționale pentru Locuințe, în anul 2021 au fost recepționate 408 locuințe în cadrul programului destinat tinerilor.¹⁷
+
+Subvenționarea chiriei pe piața privată poate produce efecte într-un termen mai scurt și poate ajunge inclusiv în localitățile în care nu există locuințe ANL disponibile sau proiecte de construcție în curs. Un asemenea mecanism ar permite utilizarea stocului locativ privat existent și adaptarea sprijinului la mobilitatea beneficiarilor. Măsura trebuie să rămână însă complementară investițiilor în locuințe publice și sociale, nu să le înlocuiască, iar cadrul de acordare trebuie să excludă dubla finanțare și cumulul nejustificat cu alte forme de sprijin locativ.
+
+## 6. Caracterul fragmentat și inegal teritorial al măsurilor existente
+
+În lipsa unui mecanism național, accesul la sprijin depinde de inițiativă și resursele autorităților locale. Programul implementat de Municipiul Sfântu Gheorghe demonstrează că subvenționarea parțială a chiriei poate fi organizată și administrată la nivel local. Programul, lansat în anul 2021, acordă tinerilor cu vârsta sub 35 de ani un sprijin de până la 100 de euro lunar, fără a depăși 40% din valoarea chiriei. Eligibilitatea este condiționată, printre altele, de existența unui contract de închiriere valabil pentru cel puțin șase luni și înregistrat la ANAF, iar plățile sunt efectuate trimestrial, pe baza documentelor depuse de beneficiar.¹⁸
+
+¹⁵ Idem.
+
+https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Young\_people - housing\_conditions, consultat la 24 august 2026.
+
+¹⁶ Maria-Teodora Balaș, Tineri Acasă. Analiză privind problematica locuirii tinerilor, Consiliul Tineretului din România, 2022, pp. 58–60.
+
+¹⁷ Idem.
+
+Datele administrative transmise de Primăria Municipiului Sfântu Gheorghe în luna septembrie 2026 oferă o imagine mai detaliată asupra funcționării effective a programului. Până la sfârșitul lunii august 2026 fuseseră depuse 142 de cereri, dintre care 109 au fost aprobate. Durata medie pentru care un beneficiar a primit sprijinul a fost de 10 luni.¹⁹
+
+Profilul beneficiarilor indică utilizarea programului în principal de către tineri aflați deja pe piața muncii: dintre cele 109 persoane beneficiare, 94 aveau statut de salariat. Din punct de vedere al vârstei, 25,7% dintre beneficiari aveau între 18 și 24 de ani, 47,7% între 25 și 29 de ani, iar 26,6% între 30 și 34 de ani.²⁰
+
+Experiența Municipiului Sfântu Gheorghe oferă astfel un exemplu concret privind fezabilitatea administrativă a unui mecanism de sprijin pentru chirie și existența unei cereri pentru un asemenea instrument. Instituirea unui cadru național ar permite stabilirea unor condiții minime unitare, concomitent cu adaptarea cuantumurilor la nivelul chiriilor și al tarifelor de transport din fiecare teritoriu.
+
+## 7. Informalitatea pieței private a chiriilor
+
+O parte a relațiilor de închiriere se desfășoară fără înregistrare fiscală sau fără existența unui contract care să reflecte relația economică reală. Această situație reduce veniturile bugetare, limitează protecția juridică a chiriașilor și proprietarilor și împiedică elaborarea unor politici publice bazate pe date complete.
+
+Amploarea exactă a fenomenului nu poate fi stabilită pe baza datelor publice disponibile. Un sondaj realizat în anul 2022 pe un eșantion de 888 de persoane indica faptul că 33,7% dintre chiriașii interviewați știau că aveau un contract înregistrat fiscal, 34,9% declarau existența unui contract nedeclarat, a unui contract de comodat care masca închirierea sau a unei înțelegeri verbale, iar 31,8% nu știau dacă proprietarul declarase contractul.²¹
+
+Condiționarea acordării subvenției de existența unui contract înregistrat la ANAF poate crea un stimulent direct pentru formalizarea pieței. Beneficiarul va avea interesul să solicite un contract legal, iar proprietarul va trebui să declare venitul pentru ca locatarul să poată accesa sprijinul.
+
+¹⁸ Primăria Municipiului Sfântu Gheorghe, „Subvenția pentru plata chiriei, majorată la 100 de euro lunar pentru tinerii din Sfântu Gheorghe”, 15 iulie 2025, disponibil la:
+
+https://sfantugheorgheinfo.ro/stiri/subvenția-pentru-plata-chiriei-majorată-la-100-de-euro-lunar-pentru-tinerii-din-sfantu-gheorghe. Accesat la 18 august 2026.
+
+¹⁹ Primăria Municipiului Sfântu Gheorghe, Adresa nr. 57146/24.09.2026, răspuns la solicitarea de informații de interes public nr. 50060/19.08.2026, transmisă Camerei Deputaților, date privind programul local de sprijin pentru plata chiriei destinat tinerilor.
+
+²⁰ Idem.
+
+²¹ Kastel Group, sondaj privind piața închirierilor din România, realizat în anul 2022 pe un eșantion de 888 de respondenți, rezultate prezentate de Revista Biz, „Studiu: Peste jumătate dintre proprietarii români nu își declară veniturile din chirii”. Disponibil la
+
+https://www.revistabiz.ro/studiu-peste-jumătate-dintre-proprietarii-romani-nu-%C8%8Bsi-declară-veniturile-din-chirii/
+
+Experiența programului implementat în Municipiul Sfântu Gheorghe oferă un indiciu concret privind potențialul unui asemenea mecanism de a contribui la formalizarea raporturilor locative. Potrivit datelor administrative transmise de autoritatea locală, dintre cele 109 contracte de închiriere aferente beneficiarilor programului, 53 erau deja înregistrate fiscal la momentul solicitării sprijinului, în timp ce 56 au fost înregistrate în vederea accesării programului. Astfel, în cazul a aproximativ 51,4% dintre beneficiari, înregistrarea fiscală a contractului a intervenit în contextul accesării măsurii de sprijin.²²
+
+Măsura poate genera, astfel, pe lângă efectul social direct, un efect fiscal și administrativ favorabil, prin creșterea gradului de declarare a contractelor și îmbunătățirea bazei de date privind nivelul efectiv al chiriilor.
+
+## 8. Necesitatea unei intervenții integrate
+
+Problemele de transport și locuire nu pot fi abordate eficient prin măsuri complet separate. Distanța față de oportunitățile profesionale influențează atât necesitatea transportului, cât și decizia de relocare. O politică limitată exclusiv la chirie ar putea exclude tinerii care nu se pot reloca și efectuează zilnic naveta. O politică limitată exclusiv la transport ar fi insuficientă pentru persoanele pentru care distanța, durata deplasării sau lipsa unei conexiuni adecvate fac naveta imposibilă.
+
+Intervenția integrată permite beneficiarului să depășească principalele bariere financiare ale autonomiei:
+
+\- costul deplasării zilnice;
+
+\- costul mutării și al locuirii independente;
+
+\- diferențele teritoriale dintre localitatea de origine și cea în care sunt concentrate oportunitățile;
+
+\- lipsa sprijinului după încetarea facilităților acordate în sistemul educațional.
+
+Prin urmare, este necesară instituirea unui cadru coerent în care reducerea costului asociat transportului public și subvenționarea chiriei să fie componente complementare ale unei politici naționale pentru autonomia și mobilitatea tinerilor.
+
+## Impactul economico-social
+
+Măsurile propuse urmăresc diminuarea a două dintre principalele categorii de cheltuieli care condiționează accesul tinerilor la muncă, educație și formare profesională: costul locuirii și costul deplasărilor. Intervenția are un caracter integrat, întrucât posibilitatea de a accepta și de a păstra un loc de muncă depinde atât de existența unei locuințe accesibile în apropierea oportunităților profesionale, cât și de existența unor mijloace de transport disponibile și suportabile financiar.
+
+²² Primăria Municipiului Sfântu Gheorghe, Adresa nr. 57146/24.09.2026, răspuns la solicitarea de informații de interes public nr. 50060/19.08.2026, transmisă Camerei Deputaților, date privind programul local de sprijin pentru plata chiriei destinat tinerilor.
+
+Subvenționarea parțială a chiriei va reduce efortul financiar suportat de tinerii care nu dețin o locuință și care locuiesc în baza unui contract de închiriere. Măsura poate sprijini părăsirea locuinței parentale, reducerea supraaglomerării, continuarea studiilor și tranziția către o viață independentă. Efectul este deosebit de relevant în cazul tinerilor aflați la începutul carierei, ale căror venituri sunt, în general, mai reduse, precum și în cazul celor care trebuie să se mute într-o altă localitate pentru a avea acces la un loc de muncă, la studii sau la formare profesională.
+
+Facilitatea acordată pentru transportul public va reduce costul participării la piața muncii și va sprijini mobilitatea persoanelor care fac naveta între localitatea de domiciliu și localitatea în care lucrează, studiază sau urmează programe de formare. Măsura este relevantă în special pentru tinerii din mediul rural, din localitățile mici și din zonele periurbane, în condițiile în care oportunitățile de muncă și educație sunt concentrate preponderent în centrele urbane.
+
+Pe termen mediu, măsurile pot contribui la creșterea ratei ocupării, la menținerea tinerilor în activitate și la reducerea diferențelor de participare la piața muncii dintre mediul urban și mediul rural.
+
+Condiționarea subvenției pentru chirie de existența unui contract de închiriere înregistrat la ANAF poate produce și un efect favorabil asupra formalizării pieței. Beneficiarul va avea interesul să solicite încheierea și declararea contractului, iar proprietarul va trebui să declare venitul din chirie pentru ca locatarul să poată beneficia de sprijin. Mecanismul poate determina creșterea gradului de fiscalizare, îmbunătățirea protecției juridice a părților și dezvoltarea unei baze de date administrative mai complete privind nivelul și distribuția teritorială a chiriilor.
+
+Facilitatea pentru transportul public poate produce, de asemenea, efecte pozitive asupra utilizării transportului colectiv, cu posibilitatea reducerii dependenței de autoturismul personal, a congestionării traficului și a externalităților de mediu.
+
+Impactul măsurilor va fi evaluat prin indicatori precum numărul beneficiarilor, rata de menținere în program, ponderea beneficiarilor care lucrează sau studiază, numărul contractelor de închiriere înregistrate, nivelul mediu al sprijinului, numărul abonamentelor de transport decontate, durata medie a acordării facilităților și evoluția participării beneficiarilor la muncă, educație sau formare profesională.
+
+## Impactul financiar
+
+Aplicarea măsurilor va determina cheltuieli suplimentare din bugetul de stat, formate din valoarea subvențiilor pentru chirie, compensarea facilităților acordate pentru transport și costurile administrative necesare verificării eligibilității, efectuării plăților și monitorizării programului.
+
+Programul poate genera efecte bugetare indirecte favorabile prin declararea unui număr mai mare de contracte și venituri din chirii, creșterea participării la muncă și majorarea veniturilor fiscale și a contribuțiilor sociale asociate ocupării.
+
+Experiența programului implementat la nivelul Municipiului Sfântu Gheorghe oferă un reper empiric și în ceea ce privește dimensiunea cheltuielilor publice asociate unei măsuri de sprijin pentru plata chiriei. Potrivit datelor administrative comunicate de autoritatea locală, în anul 2026, până la momentul raportării datelor, suma plătită beneficiarilor a ajuns la 138.546 lei. Valoarea medie lunară a sprijinului efectiv acordat unui beneficiar a fost de 306,18 lei, pentru o durată medie de 10 luni.²³
+
+Programul produce însă și un efect fiscal indirect, prin condiționarea acordării sprijinului de înregistrarea fiscală a contractului de închiriere. Dintre cele 109 contracte aferente beneficiarilor programului, 56 au fost înregistrate fiscal în vederea accesării sprijinului. Raportat la chiria medie declarată de 1.190 lei lunar, menținerea celor 56 de contracte pentru o perioadă de 12 luni ar corespunde unor venituri brute din chirii de aproximativ 799.680 lei.²⁴ La o cotă efectivă de impozitare de 8% a venitului brut din chirii, acestea ar putea genera aproximativ 63.974 lei anual numai din impozitul pe venit.
+
+Cu titlu ilustrativ, această valoare reprezintă aproximativ 46,2% din suma de 138.546 lei plătită beneficiarilor programului în anul 2026 până la momentul raportării. O parte a costului programului poate fi compensată indirect prin veniturile fiscale generate de formalizarea contractelor de închiriere.
+
+## III. SOLUȚIA LEGISLATIVĂ
+
+Propunerea legislativă instituie un program național de sprijin temporar pentru tinerii cu vârsta de până la 30 de ani care desfășoară o activitate profesională prin intermediul unui contract de muncă și se încadrează în plafonul de venit de 4000 lei net lunar. Programul este structurat în două componente: sprijin pentru plata chiriei și decontarea unei părți din cheltuielile de transport necesare deplasării la locul de muncă.
+
+Pentru componenta locativă, subvenția este diferențiată în funcție de plafonul teritorial, având o valoare minimă de 400 lei lunar și o valoare maximă de 600 lei lunar. Subvenția se acordă pentru o perioadă cumulată de maximum 36 de luni.
+
+Pot beneficia de componenta locativă tinerii care desfășoară o activitate profesională cu normă întreagă, precum și tinerii înscriși într-o instituție de învățământ acreditată care lucrează în baza unui contract individual de muncă cu timp parțial, dacă îndeplinesc celelalte condiții de eligibilitate.
+
+²³ Primăria Municipiului Sfântu Gheorghe, Adresa nr. 57146/24.09.2026, răspuns la solicitarea de informații de interes public nr. 50060/19.08.2026, transmisă Camerei Deputaților, date privind programul local de sprijin pentru plata chiriei destinat tinerilor.
+
+²⁴ Idem.
+
+Pentru componenta de transport, propunerea prevede decontarea a 50% din costul titlurilor nominale de călătorie eligibile utilizate pentru deplasarea dintre domiciliul sau reședința beneficiarului și locul de muncă sau instituția de învățământ. Decontarea se efectuează ulterior achiziționării titlului de călătorie, pe baza documentelor justificative, prin intermediul angajatorului.
+
+## A. Sprijin locativ
+
+Propunerea legislativă instituie un program destinat sprijinirii temporare a tinerilor pentru care plata chiriei reprezintă o povară financiară disproporționată în raport cu venitul net disponibil lunar al gospodăriei.
+
+Sprijinul se acordă sub forma unei subvenții lunare pentru plata unei părți din chiria aferentă locuinței în care beneficiarul își are domiciliul sau reședința. Subvenția are caracter temporar și se acordă pentru o perioadă cumulată de maximum 36 de luni.
+
+## Beneficiarii componentei locative
+
+Pot beneficia de sprijinul pentru chirie tinerii care îndeplinesc condițiile generale ale programului și se află în una dintre următoarele situații:
+
+a) desfășoară activitate în baza unui contract individual de muncă cu normă întreagă;
+
+b) sunt înscriși și urmează cursurile unei instituții de învățământ acreditate și desfășoară activitate în baza unui contract individual de muncă cu normă întreagă sau cu timp parțial;
+
+Pentru asigurarea caracterului social și a sustenabilității bugetare a programului, acordarea sprijinului este condiționată de încadrarea beneficiarului într-un plafon individual de venit de 4000 lei net.
+
+## Plafoane territoriale
+
+Se instituie trei plafoane territoriale:
+
+a) categoria teritorială I - București, Cluj-Napoca - se acordă o subvenție de 600 de lei.
+
+b) categoria teritorială a II-a – Constanța, Brașov, Sibiu, Craiova, Târgu-Mureș, Iași, Timișoara, Oradea - se acordă o subvenție de 500 de lei.
+
+c) categoria teritorială a III-a – localitățile care nu sunt prevăzute expres în categoria I sau în categoria a II-a - se acordă o subvenție de 400 de lei.
+
+B. Sprijin pentru transportul public
+
+Componenta de transport instituie o reducere de 50% pentru utilizarea transportului public local și metropolitan de către tinerii eligibili, precum și o reducere de 50% pentru abonamentele feroviare utilizate în scopul navetei la locul de muncă, la instituția de învățământ sau la furnizorul de formare profesională.
+
+## Reducerea pentru transportul public local și metropolitan
+
+Tinerii eligibili beneficiază de o reducere de 50% din tariful abonamentelor nominale pentru transportul public local sau metropolitan.
+
+Reducerea se aplică:
+
+a) abonamentelor lunare pentru transportul public local;
+
+b) abonamentelor metropolitane;
+
+c) abonamentelor integrate care permit utilizarea mai multor servicii de transport public local sau metropolitan, inclusiv a transportului de suprafață și a metroului, acolo unde există asemenea titluri de călătorie.
+
+## Reducerea pentru abonamentele feroviare de navetă
+
+Tinerii eligibili care efectuează naveta între localitatea de domiciliu sau de reședință și localitatea în care se află locul de muncă, instituția de învățământ sau furnizorul de formare profesională beneficiază de o reducere de 50% din tariful abonamentului feroviar aferent rutei respective.
+
+Reducerea se acordă pentru abonamentele nominale de navetă, la clasa a II-a, pentru ruta și perioada necesare efectuării deplasărilor.
+
+Studenții care beneficiază, pentru aceeași perioadă și aceeași rută, de gratuitate sau de o altă facilitate pentru transport suportată din fonduri publice nu pot cumula facilitatea respectivă cu decontarea prevăzută de program.
+
+## Impactul financiar
+
+Impactul financiar al propunerii legislative este determinat de trei componente distincte:
+
+a) subvenția temporară pentru plata chiriei;
+
+b) reducerea de 50% pentru abonamentele de transport public local și metropolitan;
+
+c) reducerea de 50% pentru abonamentele feroviare de navetă.
+
+Estimările prezentate în continuare nu includ cheltuielile administrative necesare verificării eligibilității, emiterii titlurilor de călătorie, efectuării decontărilor, dezvoltării sistemelor informatice și monitorizării programului.
+
+## Impactul financiar al sprijinului pentru chirie
+
+Pentru estimarea numărului potențial de beneficiari este utilizată o populație de referință formată din tinerii cu vârste între 15 și 29 de ani care au un contract individual de muncă și program complet, alături de tinerii șomeri BIM, însumând un număr de 837.451 de persoane.
+
+Potrivit Barometrului Național al Tinerilor, 19,2% dintre tinerii interviewați locuiau cu chirie. Aplicarea acestei ponderi asupra populației de referință conduce la următoarea estimarea de 160.791 de potențiali chiriași.
+
+Această valoare nu reprezintă numărul beneficiarilor programului. Nu toate persoanele care locuiesc cu chirie îndeplinesc condițiile privind venitul, ponderea chiriei în venit, înregistrarea fiscală a contractului, patrimoniul și excluderea dublei finanțări.
+
+În absența unor date individuale care să permită identificarea directă a persoanelor eligibile, sunt utilizate trei scenarii:
+
+a) scenariul restrâns – 20% dintre potențialii chiriași îndeplinesc condițiile programului;
+
+b) scenariul central – 30% dintre potențialii chiriași îndeplinesc condițiile programului;
+
+c) scenariul extins – 40% dintre potențialii chiriași îndeplinesc condițiile programului.
+
+| Scenariu | Populația de referință | Pondere estimată care locuiește cu chirie | Potențiali chiriași | Pondere eligibilă | Beneficiari estimați |
+| --- | --- | --- | --- | --- | --- |
+| Restrâns | 837.451 | 19,2% | 160.791 | 20% | 32.158 |
+| Central | 837.451 | 19,2% | 160.791 | 30% | 48.237 |
+| Extins | 837.451 | 19,2% | 160.791 | 40% | 64.316 |
+
+2\. Costul maxim pentru un beneficiar și impactul bugetar anticipat
+
+| Perioada | Subvenție lunară/beneficiar | Cost anual/beneficiar | Cost lunar pentru 32.158 beneficiari | Cost anual pentru 32.158 beneficiari |
+| --- | --- | --- | --- | --- |
+| Anul I – lunile 1–12 | 600 lei | 7.200 lei | 19.294.800 lei | 231.537.600 lei |
+| Anul al II-lea – lunile 13–24 | 600 lei | 7.200 lei | 19.294.800 lei | 231.537.600 lei |
+| Anul al III-lea – lunile 25–36 | 600 lei | 7.200 lei | 19.294.800 lei | 231.537.600 lei |
+| Total pentru 36 de luni | — | 21.600 lei | — | 694.612.800 lei |
+
+Impactul financiar al reducerii pentru transportul public local și metropolitan
+
+Conform estimării realizate pe baza tarifelor abonamentelor din zece centre urbane, costul mediu ponderat al unui abonament de transport public local este de 135,82 lei lunar.
+
+Reducerea acordată este de 50% din prețul abonamentului:
+
+135,82 lei × 50% = 67,91 lei lunar pentru fiecare beneficiar.
+
+Costul public anual pentru un beneficiar care utilizează facilitatea timp de 12 luni este de aproximativ:
+
+67,91 lei × 12 luni = aproximativ 814,91 lei anual.
+
+| Rata de participare | Beneficiari estimați | Cost public lunar | Impact bugetar anual |
+| --- | --- | --- | --- |
+| 25% | aproximativ 209.363 | 14,22 mil. lei | 170,61 mil. lei |
+| 50% | aproximativ 418.726 | 28,44 mil. lei | 341,22 mil. lei |
+| 75% | aproximativ 628.088 | 42,65 mil. lei | 511,84 mil. lei |
+| 100% | 837.451 | 56,87 mil. lei | 682,45 mil. lei |
+
+## Impactul financiar al reducerii pentru abonamentele feroviare de navetă
+
+Datele Recensământului Populației și Locuințelor 2021 indică faptul că aproximativ 1,82 milioane de persoane ocupate lucrau într-o altă localitate decât cea de reședință. Aplicarea ponderii tinerilor în populația ocupată conduce la o estimare orientativă de aproximativ 250.000 de tineri care ar putea desfășura o formă de navetă.
+
+Această valoare nu poate fi utilizată direct ca număr de beneficiari ai reducerii feroviare, deoarece include navetiștii care utilizează autoturismul, transportul rutier, transportul asigurat de angajator sau alte mijloace de deplasare. În lipsa datelor privind distribuția navetiștilor tineri după mijlocul de transport, impactul feroviar trebuie estimat prin scenarii.
+
+Pentru ilustrarea impactului este utilizat un tarif mediu ipotetic de 300 de lei pentru un abonament feroviar lunar. Reducerea de 50% suportată din fonduri publice este de 150 de lei lunar, respectiv 1.800 de lei anual pentru fiecare beneficiar.
+
+| Beneficiari ai reducerii feroviare | Cost anual estimat |
+| --- | --- |
+| 10.000 | 18 mil. lei |
+| 25.000 | 45 mil. lei |
+| 50.000 | 90 mil. lei |
+| 100.000 | 180 mil. lei |
+| 250.000 | 450 mil. lei |
+
+## IV. CONCLUZII
+
+Costurile locuirii și ale transportului pot limita accesul tinerilor la locuri de muncă, educație și formare profesională, chiar și atunci când aceste oportunități există. Pentru tinerii aflați la începutul vieții profesionale, cheltuielile necesare deplasării zilnice sau stabilirii unei locuințe în apropierea oportunităților pot reprezenta o povară disproporționată în raport cu veniturile obținute.
+
+Prezenta propunere legislativă răspunde acestor dificultăți prin instituirea unui sprijin temporar pentru plata chiriei și prin reducerea costului abonamentelor de transport public local, metropolitan și feroviar utilizate pentru navetă. Cele două componente urmăresc să sprijine atât tinerii care se relochează, cât și pe cei care continuă să locuiască în localitatea de domiciliu și se deplasează pentru a munci, a studia sau a participa la formare profesională.
+
+Acordarea sprijinului pentru chirie în baza unui contract de închiriere înregistrat fiscal poate contribui, totodată, la formalizarea raporturilor locative. Caracterul temporar al subvenției, condițiile de eligibilitate și diferențierea cuantumului în funcție de localitate urmăresc orientarea resurselor către persoanele pentru care costul locuirii reprezintă un obstacol în dobândirea autonomiei. Efectele programului și cheltuielile aferente vor trebui urmărite după implementare, pentru ca măsurile să poată fi ajustate pe baza numărului real de beneficiari și a rezultatelor obținute.
+
+Prin urmare, adoptarea propunerii legislative ar crea un instrument național de sprijin pentru tranziția tinerilor către muncă și o viață independentă, adaptat atât nevoilor de locuire, cât și celor de mobilitate.
+
+În numele inițiatorilor,
+
+Alin-Bogdan STOICA - Deputat USR
+
+Raluca TURCAN - Deputat PNL
+
+Ovidiu-Vasile CÎMPEAN - Deputat PNL
+
+Diana STOICA - Deputată USR
+
+Éva-Andrea CSÉP - Deputată UDMR
+
+## Lista susținătorilor propunerii legislative
+
+Propunere legislativă pentru pentru completarea Legii nr. 76/2002 privind sistemul asigurărilor pentru șomaj și stimularea ocupării forței de muncă
+
+| Nr. | DEPUTAT/SENATOR | GRUP PARLAMENTAR | SEMNĂTURĂ |
+| --- | --- | --- | --- |
+|  | Aùn siòica | aSR |  |
+|  | Raluce Huzau | PNL |  |
+|  | CHPPEAN OVIDU | PNL |  |
+|  | Aimitmi v aixanidom | USN |  |
+|  | Diana Stoica | USR |  |
+|  | RuxANDRA CIBU JEACONU | USR |  |
+|  | STFFAW -ILLIAN BORMCE | USR |  |
+|  | CORIHA ATAMASIC | USR |  |
+|  | PAUH CYNTHIA | USR |  |
+|  | CSEP EVA ANDREA | USHR |  |
+|  | STOICH UZPOAII | nee fi loet |  |
+|  | Mikklos ZOLTAN | UD HR |  |
+|  | ECHECT ADAIJU | USE |  |
+|  | TUSA DIANA | PSD |  |
+|  |  |  | V |

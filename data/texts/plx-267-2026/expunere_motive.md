@@ -1,0 +1,119 @@
+# EXPUNERE DE MOTIVE
+
+## 1. Contextul normativ și social
+
+Ordonanța de urgență a Guvernului nr. 195/2002 privind circulația pe drumurile publice (Codul rutier) stabilește, în forma actuală, un cadru general pentru utilizarea trotinetelor electrice:
+
+art. 6 pct. 10^1 definește trotineta electrică drept vehicul cu două sau trei roți, ghidon, viteză maximă constructivă peste 6 km/h și până la 25 km/h, echipată cu motor electric;
+
+\- art. 70 alin. (2) stabilește vârsta minimă de 14 ani pentru conducerea bicicletelor și trotinetelor electrice pe drumurile publice;
+
+\- art. 70 alin. (4) instituie obligația portului căștii de protecție pentru conducătorii de biciclete și trotinete electrice sub 16 ani;
+
+\- art. 70 alin. (5) interzice transportul pasagerilor pe trotinete electrice;
+
+\- art. 101 alin. (1) pct. 8 sancționează cu amendă de clasa a III-a (6–8 puncte-amendă) mai multe fapte comise de conducătorii de biciclete și trotinete electrice (lipsa mijloacelor de iluminare, circulația pe autostradă, trecerea pe roșu, circulația sub influența alcoolului sau a substanțelor psihoactive etc.).
+
+În paralel, la nivel național s-a constatat o creștere accelerată a accidentelor în care au fost implicate trotinete electrice. Potrivit unor date recent comunicate de Ministerul Afacerilor Interne și prezentate în presă, în perioada 30 iunie 2021 – 30 iunie 2024 au avut loc 396 de accidente rutiere grave cu trotinete electrice la nivel național, soldate cu 24 de persoane decedate și peste 370 de persoane grav rănite. Doar în București, numai în primele șase luni ale anului 2025 au fost înregistrate peste 140 de accidente rutiere cu trotinete electrice, cu două persoane decedate iar la nivel național, datele aggregate prezentate public arată pentru perioada 2022 - 2025 mii de accidente implicând trotinete electrice, cu efecte semnificative asupra siguranței rutiere.
+
+Un element deosebit de îngrijorător este implicarea minorilor în astfel de evenimente. Conform unor statistici citate în mass-media pe baza datelor Poliției Române, numai în anul 2022 au fost implicați sute de minori în accidente cu trotinete electrice, iar o parte dintre aceștia au fost chiar în poziția de vinovați.
+
+În același timp, regimul juridic actual prezintă un gol normativ: legea interzice, de facto, folosirea trotinetelor electrice de către minori sub 14 ani pe drumurile publice (prin coroborarea art. 6 pct. 10^1 și art. 70 alin. (2)); însă nu există o normă contravențională explicită care să permită tragerea la răspundere a părintelui sau a tutorelui atunci când un astfel de minor încalcă interdicția și circulă pe trotineta electrică în mod nelegal; mai mult, în situația în care minorul provoacă un accident ușor sau o simplă tamponare, păgubitul rămâne adesea fără un mecanism eficient de recuperare a prejudiciului, fiind nevoit să se adreseze instanței pe calea dreptului comun, cu costuri și durate semnificative.
+
+În plan civil, Codul civil stabilește răspunderea părinților pentru faptă propriilor copii minori (art. 1372 și urm.), însă Codul rutier nu transpune această răspundere în plan contravențional, prin identificarea expresă a părintelui ca subiect al contravenției atunci când minorul sub 14 ani folosește trotineta electrică în mod nelegal.
+
+În plus, recent, România a adoptat Legea nr. 181/2025 pentru modificarea și completarea Legii nr. 132/2017, prin care se extinde aria vehiculelor pentru care este obligatorie asigurarea de răspundere civilă auto (RCA), incluzând și bicicletele electrice și trotinetele electrice, pentru anumite categorii de vehicule ce nu necesitau până acum înmatriculare sau înregistrare. Prevederile noii legi se aplică de la 16 noiembrie 2025.
+
+Această schimbare confirmă la nivel legislativ faptul că trotinetele electrice pot produce prejudicii semnificative și justifică un tratament apropiat de cel aplicat vehiculelor în sensul clasic al RCA. Totuși, chiar și în contextul introducerii obligației RCA, problema răspunderii părintelui pentru utilizarea ilegală a trotinetei de către un minor sub 14 ani rămâne nerezolvată în OUG 195/2002.
+
+## 2. Problema concretă identificată în practică
+
+Din practica poliției rutiere, inclusiv din semnalările făcute de agenți de poliție, reiese următoarea situație: minor sub 14 ani circulă pe o trotinetă electrică pe un drum public, deși art. 70 alin. (2) impune vârsta minimă de 14 ani;
+
+Minorul fie este surprins în trafic de poliție fără să fi produs pagube („doar circulă” în mod nelegal), fie provoacă un incident rutier, de la simple tamponări și pagube minore, până la vătămări ușoare ale integrității corporale a altor persoane;
+
+## Copilul are vârstă sub 14 ani, deci nu poate răspunde contravențional;
+
+Codul rutier nu oferă polițistului un temei clar pentru a sancționa părintele, deși, în fapt, acesta este cel care a permis sau nu a împiedicat utilizarea trotinetei;
+
+Persoana păgubită rămâne cu paguba, fiind obligată să demareze o procedură civilă clasică, dovedind în instanță vinovăția minorului și răspunderea civilă a părintelui, procedură lungă și costisitoare.
+
+În practică, rezultă o discrepanță între norma de conduită existență (,,sub 14 ani nu ai voie pe trotinetă electrică") și lipsa unei sancțiuni eficiente pentru adultul responsabil; un mesaj greșit transmis în societate, potrivit căruia normele privind vârsta și utilizarea trotinetelor de către minori sunt facultative sau greu aplicabile; inseguranță juridică pentru păgubiți și un sentiment de impunitate pentru părinți.
+
+În mod evident, în cazul unor accidente grave sau cu consecințe penale, se activează prevederile Codului penal, însă o mare parte din cazurile semnalate de polițiști și de cetățeni sunt accidente minore sau tamponări, unde se rămâne în zona contravențională și civilă.
+
+## 3. Obiectivele reglementării propuse
+
+Proiectul de lege urmărește:
+
+\- responsabilizarea părinților, tutorilor sau persoanelor care exercită autoritatea părintească, prin consacrarea expresă a obligației de supraveghere a minorului sub 14 ani în raport cu utilizarea trotinetelor electrice pe drumurile publice;
+
+\- instituirea unei contravenții specifice pentru situațiile în care un minor sub 14 ani folosește trotineta electrică pe un drum public, iar părintele a permis, tolerat sau nu a împiedicat acest lucru;
+
+\- asigurarea unui mecanism juridic eficient de reparare a prejudiciului, prin legarea procesului-verbal contravențional de răspunderea civilă a părintelui, în conformitate cu dispozițiile Codului civil;
+
+\- acoperirea tuturor situațiilor:
+
+(a) minorul sub 14 ani folosește trotineta electrică, este surprins de poliție, dar nu produce pagubă = părinte sancționat contravențional;
+
+(b) minorul sub 14 ani folosește trotineta electrică și produce un accident cu pagube materiale sau vătămări nepenale = părinte sancționat contravențional + răspunde civil pentru prejudiciu.
+
+## 4. Soluția legislativă propusă
+
+Soluția aleasă este minimală, coerentă și exclusiv în cadrul OUG nr. 195/2002, fără a modifica Legea nr. 61/1991, astfel:
+
+\- Completarea art. 70 cu alin. (2^1) Se introduce un nou alineat, (2^1), prin care se reafirmă, explicit, interdicția folosirii trotinetelor electrice pe drumurile publice de către minori sub 14 ani (interdicția este implicită și acum, prin art. 70 alin. (2), dar nu corelată cu răspunderea părintelui); se instituie o obligație clară în sarcina părinților/tutorilor de a lua măsurile necesare pentru respectarea acestei interdicții și de a asigura supravegherea minorului, astfel, norma de conduită devine completă, indicând nu doar cine nu poate folosi trotineta, ci și cine are obligația de a preveni această conduită.
+
+\- Introducerea unui nou punct, 8^1, la art. 101 alin. (1). Art. 101 alin. (1) conține lista contravențiilor sancționate cu amendă din clasa a III-a; punctul 8 actual este deja dedicat trotinetelor și bicicletelor electrice (iluminare, autostradă, trecere pe roșu, alcool etc.). Prin introducerea pct. 8^1, se creează o contravenție distinctă, având ca subiect activ părintele, tutorele sau persoana care exercită autoritatea părintească, în următoarele situații:
+
+a) minorul sub 14 ani folosește trotineta electrică pe un drum public;
+
+b ) părintele a permis, a tolerat sau nu a supravegheat, permițând astfel încălcarea interdicției de la art. 70 alin. (2^1).
+
+Aceasta acoperă scenariul „fără accident”, dar și pe cel „cu accident”, în ceea ce privește sancțiunea contravențională.
+
+\- Introducerea alin. (2^1) la art. 101. Pentru a asigura conexiunea dintre contravenție și răspunderea civilă, se introduce alin. (2^1), care prevede că, în situațiile în care faptă prevăzută la pct. 8^1 a generat un accident soldat cu pagube materiale sau vătămări ale integrității ori sănătății persoanelor care nu întrunesc elementele unei infracțiuni, procesul-verbal se întocmește pe numele părintelui/tutorelui; că acesta răspunde civil pentru prejudiciile cauzate, potrivit dispozițiilor Codului civil. Prin această soluție se respectă structura clasică a contravenției rutiere: normă de conduită, normă sancționatorie, efecte civile și se creează un instrument predictibil pentru poliție și pentru păgubiți, fără a modifica regulile de fond ale răspunderii civile din Codul civil, ci doar trimițând la acestea.
+
+## 5. Corelarea cu reglementările privind asigurarea obligatorie (RCA)
+
+Legea nr. 181/2025 a extins sfera vehiculelor pentru care este obligatorie încheierea unei asigurări RCA, incluzând și anumite categorii de biciclete electrice și trotinete electrice. Prevederile acesteia se aplică de la 16 noiembrie 2025. Această reglementare urmărește protecția terților păgubiți prin mecanisme de asigurare; asumarea, de către utilizatorii de trotinete și biciclete electrice, a unui standard minim de responsabilitate financiară pentru prejudiciile cauzate. Proiectul de față este complementar acestei reglementări, nu concurrent, RCA-ul acoperă, în principal, prejudiciile produse prin accidente rutiere, în limitele și condițiile stabilite de Legea nr. 132/2017, astfel cum a fost modificată; prezenta modificare a OUG nr. 195/2002 vizează situațiile în care trotineta este folosită în mod nelegal de un minor sub 14 ani, iar utilizatorul nu are, în mod necesar, un comportament conform cu cerințele RCA (de exemplu, trotineta neasigurată, folosită ocazional de copil, pe un drum public din localitate); obligația părintelui de a supraveghea minorul și de a evita încălcarea interdicției legale rămâne valabilă și independent de existența unei polițe RCA.
+
+În plus, acolo unde există RCA, proiectul clarifică subiectul răspunderii din perspectiva Codului rutier (părintele), ceea ce facilitează reglementarea raporturilor ulterioare cu asigurătorul.
+
+## 6. Compatibilitate cu Constituția și jurisprudența Curții Constituționale
+
+## Proiectul respectă:
+
+\- principiul legalității, contravenția este definită prin lege, cu indicarea clară a subiectului activ (părinte/tutore) și a conduitei interzise (permis, tolerat, nesupravegheat minor sub 14 ani pe trotinetă electrică);
+
+\- principiul proporționalității, sancțiunea se plasează în clasa a III-a de sancțiuni, similar altor fapte comise cu trotinete electrice, și vizează situații cu risc rutier real;
+
+\- dreptul la un proces echitabil, procesul-verbal poate fi contestat în fața instanței, conform OG nr. 2/2001 privind regimul juridic al contravențiilor;
+
+\- protecția interesului superior al copilului, minorul nu este sancționat, ci adultul care avea obligația de supraveghere; legea nu introduce o răspundere penală sau contravențională pentru minorul sub 14 ani, ci întărește rolul educativ și preventiv al părinților.
+
+Nu se instituie vreo prezumție irefragabilă de vinovăție, întrucât:
+
+\- polițistul trebuie să constate în fapt folosirea trotinetei electrice de către minor sub 14 ani pe drumurile publice;
+
+\- să identifice părintele, tutorele sau persoana care exercită autoritatea părintească;
+
+\- să aprecieze în concret circumstanțele (permis, tolerat, nesupravegheat), iar părintele are dreptul să conteste procesul-verbal în fața instanței.
+
+## 7. Impactul social, economic și bugetar
+
+Impact social: crește nivelul de siguranță rutieră, prin descurajarea folosirii trotinetelor electrice de către minori sub 14 ani; transmite un mesaj clar de responsabilitate către părinți: trotineta electrică nu este o jucărie inofensivă, ci un vehicul cu regim juridic apropiat de cel al altor vehicule cu risc rutier; protejează atât minorii, cât și ceilalți participanți la trafic (pietoni, conducători auto, utilizatori de biciclete și trotinete electrice).
+
+Impact economic: reduce costurile indirecte generate de accidente (cheltuieli medicale, pagube materiale, timp pierdut etc.), inclusiv în sistemul public de sănătate; contribuie la responsabilizarea deținătorilor de trotinete electrice, în linie cu extinderea RCA obligatoriu la aceste vehicule.
+
+Impact bugetar: proiectul nu generează cheltuieli suplimentare din bugetul de stat; există un potențial impact pozitiv, prin majorarea veniturilor la bugetul de stat și bugetele locale din amenzile contravenționale aplicate; eventualele costuri administrative sunt marginale, fiind absorbite în activitatea curentă a poliției rutiere.
+
+## 8. Concluzii
+
+Prezenta inițiativă legislativă acoperă un gol evident în reglementarea actuală a circulației trotinetelor electrice, gol semnalat inclusiv de organele de poliție cu atribuții în domeniu; întărește coerența Codului rutier, prin corelarea clară a vârstei minime de 14 ani cu o răspundere contravențională și civilă explicită a părintelui; este perfect compatibilă cu noul cadru privind RCA obligatoriu pentru trotinete electrice, plasându-se în zona prevenției și a responsabilizării părinților; nu introduce costuri bugetare suplimentare și respectă exigențele de tehnică legislativă (alin. și pct. noi inserate în locuri neocupate: alin. (2^1) la art. 70, pct. 8^1 și alin. (2^1) la art. 101).
+
+Prin adoptarea acestui proiect, Parlamentul transmite că minorii sub 14 ani nu au ce căuta pe trotinete electrice în trafic, nici măcar „doar până la colțul străzii” iar părinții nu se mai pot ascunde în spatele ideii „e doar un copil, nu are ce să i se întâmple”, ci devin subiecți ai răspunderii contravenționale și civile pentru conduita rutieră a propriilor copii, în limitele prevăzute de lege.
+
+## INIȚIATOR:
+
+Pascalini Nini-Alexandru, deputat S.O.S. ROMÂNIA

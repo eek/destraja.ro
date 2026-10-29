@@ -1,0 +1,57 @@
+# Parlamentul României
+
+Camera Deputaților Senatul
+
+# LEGE Pentru modificarea și completarea Legii nr.349/2002 pentru prevenirea și combaterea efectelor consumului produselor din tutun, cu modificările și completările ulterioare
+
+Parlamentul României adoptă prezenta lege
+
+## ART. I.
+
+Legea nr.349/2002 pentru prevenirea și combaterea efectelor consumului produselor din tutun, cu modificările și completările ulterioare, se modifică și se completează, după cum urmează:
+
+1\. După art.2 lit.m) se introduce o nouă literă, respectiv art.2 lit.m¹), având următorul conținut:
+
+" art.2 lit. m¹). – spațiu public deschis se înțelege drum public, trotuar, alee pietonală, parcuri, piețe, locuri de agrement, stadioane și terenuri sportive, instituții culturale, instituții sau unități economice, locuri de joacă pentru copii, toate mijloacele de transport în comun, autogări, gări și aeroporturi, de stat și private, sau alte locuri prevăzute de lege."
+
+2\. Articolul 3 alineat (1), se modifică și va avea următorul conținut:
+
+# Parlamentul României
+
+Camera Deputaților Senatul
+
+"Art.3 alin. (1). - Se interzice fumatul în toate spațiile publice închise, spațiile închise de la locul de muncă, mijloacele de transport în comun, locurile de joacă pentru copii, cât și în spațiile publice deschise, precum terenuri de sport și locuri de joacă pentru copii.
+
+De la prezentele prevederi sunt exceptate spațiile de deținere în care sunt cazate persoanele private de libertate."
+
+3\. După art.3 alin.(1³) se introduce un nou alineat, respectiv art.3 alin. (1⁴), având următorul conținut:
+
+"art. 3 alin. (1⁴). – Persoanelor care nu au împlinit vârsta de 18 ani le este strict interzis fumatul, precum și utilizarea tuturor categoriilor de produse care conțin tutun, a țigaretelor electronice, a flacoanelor de reemplere pentru țigaretele electronice, a dispozitivelor electronice pentru încălzirea tutunului și a produselor destinate inhalării fără ardere din înlocuitori de tutun, a (pouchurilor) pliculețelor cu nicotină pentru uz oral și a produselor destinate inhalării fără ardere din înlocuitori de tutun. Interdicția se aplică atât în spațiile publice închise, cât și în spațiile publice deschise."
+
+4\. Art.10 alin.1 lit.a) se modifică și va avea următorul conținut:
+
+"art. 10 alin.1 lit.a). - Nerespectarea de către persoanele fizice a prevederilor art. 3 alin. (1), (1¹) și (6³) se sancționează cu amendă contravențională de la 100 lei la 1000 lei, sau cu avertismenț;"
+
+# Parlamentul României
+
+## Camera Deputaților Senatul
+
+5\. După art.10 alin. (1) lit. a) se introduce un nou alineat, respectiv art.10 alin. (1) lit. a¹), având următorul conținut:
+
+"art.10 alin. (1) lit. a¹). - Nerespectarea de către persoanele fizice a prevederilor art. 3 alin. (1⁴) se sancționează cu amendă contravențională de la 100 lei la 500 lei, sau cu avertisment."
+
+ART. II. Prezenta Lege se completează cu alte dispoziții normative în vigoare.
+
+ART. III. Orice dispoziții contrare prezentei Legi se abrogă la data intrării în vigoare a acesteia.
+
+ART. IV. Prezenta Lege intră în vigoare în termen de 90 de zile de la data publicării acesteia în Monitorul Oficial al României.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și 76 alin. (2) din Constituția României, republicată.
+
+Președintele Camerei Deputaților,
+
+Sorin Mihai Grindeanu
+
+Președintele Senatului,
+
+Mircea Abrudean

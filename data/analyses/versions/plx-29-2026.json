@@ -1,0 +1,112 @@
+{
+  "slug": "plx-29-2026",
+  "billId": "Pl-x 29/2026",
+  "updatedAt": "2026-10-29T13:51:06.700Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/000/20/9/pl8.pdf",
+      "source": "cdep.ro",
+      "riskScore": 7.7,
+      "riskLevel": "red",
+      "plainTitle": "Prezență obligatorie la CCR, dar încetarea mandatelor trece la politicieni",
+      "summaryTlDr": "Scopul e legitim: boicotul cvorumului și lipsa abținerii în cauze care îi privesc pe judecători sunt probleme reale. Dar pct. 7 mută la Parlament și la Președinte constatarea încetării mandatului judecătorilor CCR, inclusiv pentru «încălcări grave». Asta lovește direct inamovibilitatea garantată de art. 145 din Constituție.",
+      "scores": {
+        "agy": 8,
+        "claude": 7,
+        "codex": 8
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl029_plx_29_2026_cd.pdf",
+      "source": "cdep.ro",
+      "riskScore": 7.3,
+      "riskLevel": "red",
+      "plainTitle": "Judecătorii CCR care lipsesc de la ședințe: tăieri din salariu și demitere votată de politicieni",
+      "summaryTlDr": "Ținta e reală: boicotul ședințelor și judecătorii care decid în propria cauză. Remediul este însă periculos, pentru că Camera, Senatul și Președintele ar putea scoate din funcție judecători CCR printr-un act politic, fără majoritate specială, fără audiere și fără cale de atac. Prezența obligatorie și abținerea pot rămâne, dar revocarea politică ar trebui eliminată.",
+      "scores": {
+        "agy": 7,
+        "claude": 7,
+        "codex": 8
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Adoptat tacit de Cameră, neschimbat: Parlamentul și Președintele constată încetarea mandatului la CCR",
+      "summary": "Camera a adoptat tacit proiectul în forma inițială. S-au corectat doar antetul și numerotarea. Rămân aceleași riscuri: Parlamentul și Președintele pot constata încetarea mandatului judecătorilor CCR, iar președintele Curții le taie singur indemnizația.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Camera, Senatul sau Președintele constată încetarea mandatului judecătorului pe care l-au numit",
+            "major": true,
+            "article": "art. 67 alin. (3)"
+          },
+          {
+            "text": "Fără majoritate specială, audierea judecătorului sau cale de atac la încetarea mandatului",
+            "major": true,
+            "article": "art. 67 alin. (3)"
+          },
+          {
+            "text": "Încălcarea gravă a noilor obligații, inclusiv abținerea, e judecată de un for politic",
+            "major": true,
+            "article": "art. 64 lit. a¹), a²), g) și art. 67 alin. (1) lit. c)"
+          },
+          {
+            "text": "Președintele CCR decide singur dacă absența unui coleg e justificată",
+            "major": true,
+            "article": "art. 9 alin. (1) lit. d¹)"
+          },
+          {
+            "text": "Tăiere de 10% pe absență, cumulativă, fără plafon, procedură contradictorie sau contestație",
+            "major": true,
+            "article": "art. 9 alin. (1) lit. e¹)"
+          },
+          {
+            "text": "Absențele președintelui Curții nu sunt verificate de nimeni",
+            "major": true,
+            "article": "art. 9 alin. (1)"
+          },
+          {
+            "text": "Misiunile oficiale, concediul de odihnă sau evenimentele de familie devin absențe sancționabile",
+            "major": true,
+            "article": "art. 9 alin. (1) lit. d¹)"
+          },
+          {
+            "text": "Mandatul încetează după 90 de zile de incapacitate; concediul medical permite 183",
+            "major": true,
+            "article": "art. 67 alin. (1) lit. b)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Prezența la Plen devine obligatorie, iar absențele se justifică în scris",
+            "major": true,
+            "article": "art. 52 alin. (1); art. 64 lit. a¹), a²)"
+          },
+          {
+            "text": "Judecătorii trebuie să se abțină în scris când au conflict de interese",
+            "major": true,
+            "article": "art. 64 lit. g)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 12,
+        "removed": 9,
+        "same": 0.54
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:38:04.807Z"
+    }
+  ]
+}

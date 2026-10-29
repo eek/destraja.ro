@@ -1,0 +1,37 @@
+# Parlamentul României
+
+Camera Deputaților
+
+Senat
+
+# pentru completarea art. 12 din Ordonanța de urgență nr.77/2009 privind organizarea și exploatarea jocurilor de noroc
+
+# Parlamentul României adoptă prezenta lege:
+
+Art. I - Ordonanța de urgență nr.77/2009 privind organizarea și exploatarea jocurilor de noroc, publicată în Monitorul Oficial nr. 439 din 26 iunie 2009, cu modificările și completările ulterioare, se completează după cum urmează:
+
+1\. La articolul 1², după alineat (1) se introduc 4 alineate noi, alin. (1¹) – (1⁴), cu următorul cuprins:
+
+„(1¹) Este interzisă difuzarea de orice tip de conținut audio, video, imagini care promovează jocurile de noroc în mediul online în intervalul orar 06.00 – 24.00.
+
+(1²) Publicitatea care promovează jocurile de noroc în spațiul online, trebuie să se difuzeze cu respectarea principiilor privind protecția minorilor în spațiul online, prevăzute de Regulamentul (UE) 2022/2065 privind o piață unică pentru serviciile digitale și de modificare a Directivei 2000/31/CE (Regulamentul privind serviciile digitale).
+
+(1³) Jocurile de noroc nu pot fi incluse în materiale online adresate minorilor și nici nu este permisă incitarea acestora să participe la astfel de jocuri.
+
+(1⁴) Este interzisă difuzarea de publicitate și reclame în mediul online pentru jocuri de noroc în care sunt prezente personalități ale vieții publice, culturale, științifice, sportive sau alte persoane, care, datorită notorietății în mediul online, pot încuraja participarea la astfel de jocuri.”
+
+Art. II – În termen de 180 de zile de la intrarea în vigoare a prezentei legi, Guvernul actualizează normele metodologice de aplicare a prevederilor Ordonanței de urgență nr.77/2009 privind organizarea și exploatarea jocurilor de noroc, cu modificările și completările ulterioare.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.
+
+PREȘEDINTELE
+
+CAMEREI DEPUTAȚILOR,
+
+PREȘEDINTELE
+
+Sorin-Mihai GRINDEANU
+
+SENATULUI,
+
+Mircea ABRUDEAN

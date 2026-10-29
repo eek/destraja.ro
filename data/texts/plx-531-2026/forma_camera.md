@@ -1,0 +1,25 @@
+# PARLAMENTUL ROMÂNIEI
+
+# CAMERA DEPUTAȚILOR
+
+|LEGE|
+
+pentru ratificarea Acordului de împrumut (Primul împrumut pentru politici de dezvoltare în domeniul fiscal și creștere economică) dintre România și Banca Internațională pentru Reconstrucție și Dezvoltare, semnat la Washington, la 16 aprilie 2026
+
+Camera Deputaților adoptă prezentul proiect de lege.
+
+Art. 1. - Se ratifică Acordul de împrumut (Primul împrumut pentru politici de dezvoltare în domeniul fiscal și creștere economică) dintre România și Banca Internațională pentru Reconstrucție și Dezvoltare, semnat la Washington, la 16 aprilie 2026, în valoare de 544 milioane de euro, denumit în continuare Acord de împrumut.
+
+Art. 2. - Sumele trase din împrumutul prevăzut la art. 1 și virate în contul de valută deschis pe numele Ministerului Finanțelor la Banca Națională a României se utilizează pe măsura necesităților de finanțare a deficitului bugetului de stat și de refinanțare a datoriei publice guvernamentale, în conformitate cu prevederile Ordonanței de urgență a Guvernului nr. 64/2007 privind datoria publică, aprobată cu modificări și completări prin Legea nr. 109/2008, cu modificările și completările ulterioare.
+
+Art. 3. - Plata serviciului datoriei publice aferent împrumutului prevăzut la art. 1, respectiv rambursarea capitalului, achitarea dobânzilor, comisioanelor și a altor costuri aferente împrumutului se asigură conform legislației în vigoare privind datoria publică, prin mecanismul aferent finanțărilor rambursabile contractate de Guvernul României, prin Ministerul Finanțelor, în vederea finanțării deficitului bugetului de stat, refinanțării și rambursării anticipate a datoriei publice guvernamentale.
+
+Art. 4. - (1) Se autorizează Guvernul României ca, prin Ministerul Finanțelor, să convină cu Banca Internațională pentru Reconstrucție și Dezvoltare, amendamente la conținutul Acordului de împrumut care nu sunt de natură să majoreze obligațiile financiare asumate de România față de Banca Internațională pentru Reconstrucție și Dezvoltare.
+
+(2) Amendamentele la Acordul de împrumut convenite potrivit alin. (1) se aprobă prin hotărâre a Guvernului.
+
+Acest proiect de lege a fost adoptat de Camera Deputaților în ședința din 5 august 2026, cu respectarea prevederilor art. 76 alin. (2) din Constituția României, republicată.
+
+p. PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+NATALIA-ELENA INTOTERO

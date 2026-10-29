@@ -1,0 +1,167 @@
+{
+  "slug": "plx-544-2026",
+  "billId": "PL-x 544/2026",
+  "updatedAt": "2026-10-29T13:06:45.270Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L271FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Fonduri de investiții: autorizare mai ușoară, investitori „semiprofesionali” și ce se întâmplă cu banii când administratorul își pierde licența",
+      "summaryTlDr": "Lege în mare parte tehnică și utilă. Transpune o directivă UE și scrie în lege ce se întâmplă cu banii investitorilor când administratorul fondului își pierde licența. Două lucruri trebuie urmărite: suspendarea răscumpărărilor poate dura oricât, iar noua categorie de investitori „semiprofesionali” nu are praguri vizibile în textul analizat.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/40/4/se588.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Fonduri de investiții: autorizare mai ușoară, vânzare prin brokeri și un plan B când un administrator își pierde licența",
+      "summaryTlDr": "Lege tehnică și în mare parte utilă: transpune o directivă UE, ieftinește lansarea fondurilor și trece în lege procedura de salvare a investitorilor când o S.A.I. își pierde licența. Trebuie corectată trecerea prea rapidă la lichidare și trebuie verificate pragurile pentru „investitorii semiprofesionali”.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a păstrat forma inițiatorului; s-au corectat doar diacritice și redactarea",
+      "summary": "În diferențele analizate, Senatul nu a schimbat nimic de fond: doar diacritice, virgule, spații și antet. Rămân aceleași reguli, inclusiv lichidarea fondurilor de către A.S.F. și suspendarea răscumpărărilor fără termen maxim.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "A.S.F. poate lichida fondurile imediat dacă nicio S.A.I. nu acceptă, fără apel public",
+            "major": true,
+            "article": "art. 11¹ alin. (1) OUG 32/2012"
+          },
+          {
+            "text": "Subscrierile și răscumpărările pot fi suspendate fără o durată maximă",
+            "major": true,
+            "article": "art. 11¹ alin. (14) OUG 32/2012"
+          },
+          {
+            "text": "După 120 + 120 de zile fondurile pot fi lichidate fără consultarea investitorilor",
+            "major": true,
+            "article": "art. 11¹ alin. (9) OUG 32/2012"
+          },
+          {
+            "text": "Contestația în instanță nu suspendă executarea actelor A.S.F., prin derogare de la contencios",
+            "major": true,
+            "article": "art. 198 alin. (5) OUG 32/2012"
+          },
+          {
+            "text": "Orice încălcare a reglementărilor A.S.F. devine contravenție, fără faptă precis descrisă",
+            "major": true,
+            "article": "art. 195 lit. n¹) OUG 32/2012"
+          },
+          {
+            "text": "Amendă foarte largă, 10.000–22.098.000 lei, pentru firmele fără cifră de afaceri",
+            "major": true,
+            "article": "art. 196 alin. (3¹) OUG 32/2012"
+          },
+          {
+            "text": "Fonduri pentru profesioniști vândute și neprofesioniștilor cu 100.000 euro, doar pe declarație",
+            "major": true,
+            "article": "art. 2¹ și art. 3 pct. 30¹ Legea 74/2015"
+          }
+        ],
+        "good": [
+          {
+            "text": "A.S.F. numește un administrator provizoriu chiar prin decizia de retragere a licenței",
+            "major": true,
+            "article": "art. 11¹ alin. (1) OUG 32/2012"
+          },
+          {
+            "text": "Administratorul provizoriu restituie comisioanele dacă nu publică, informează sau raportează",
+            "major": true,
+            "article": "art. 11¹ alin. (10) OUG 32/2012"
+          },
+          {
+            "text": "Comisionul administratorului provizoriu nu poate depăși comisionul vechii S.A.I.",
+            "major": true,
+            "article": "art. 11¹ alin. (11) OUG 32/2012"
+          },
+          {
+            "text": "Depozitarul continuă să păstreze activele fondului după retragerea licenței S.A.I.",
+            "major": true,
+            "article": "art. 11¹ alin. (13) OUG 32/2012"
+          },
+          {
+            "text": "Cont global doar prin firme autorizate; titlurile protejate de creditorii distribuitorului",
+            "major": true,
+            "article": "art. 33 alin. (2¹) OUG 32/2012; art. 19 alin. (2¹) Legea 74/2015"
+          },
+          {
+            "text": "Distribuitorul prin cont global preia obligațiile fiscale și plata veniturilor către investitori",
+            "major": true,
+            "article": "art. 33 alin. (2¹) lit. c) și d) OUG 32/2012"
+          },
+          {
+            "text": "Apel public în 3 cotidiene și pe site pentru oferte de preluare",
+            "major": false,
+            "article": "art. 11¹ alin. (3) OUG 32/2012"
+          },
+          {
+            "text": "Documentele fondului se predau administratorului provizoriu în cel mult 10 zile",
+            "major": false,
+            "article": "art. 11¹ alin. (12) OUG 32/2012"
+          },
+          {
+            "text": "Lichidatorul trebuie să fie auditor financiar avizat de A.S.F.",
+            "major": false,
+            "article": "art. 11¹ alin. (9) OUG 32/2012"
+          },
+          {
+            "text": "Sancțiunile A.S.F. definitive se publică pe site, cu identitatea celor responsabili",
+            "major": false,
+            "article": "art. 196 alin. (6) OUG 32/2012"
+          },
+          {
+            "text": "S.A.I. și AFIA trebuie să refacă capitalul inițial în maximum 4 luni",
+            "major": false,
+            "article": "art. 8 alin. (2) OUG 32/2012; art. 9 alin. (2¹) Legea 74/2015"
+          },
+          {
+            "text": "Premarketingul nu poate deveni ofertă ascunsă; subscrierile ulterioare cer autorizare",
+            "major": false,
+            "article": "art. 2² Legea 74/2015"
+          },
+          {
+            "text": "Depozitarul desemnează o persoană de conformitate, notificată la A.S.F.",
+            "major": false,
+            "article": "art. 53 alin. (1¹) și alin. (2) lit. j) OUG 32/2012"
+          },
+          {
+            "text": "A.S.F. răspunde la înregistrarea AFIA în 30 de zile, prelungibil cu 30",
+            "major": false,
+            "article": "art. 2 alin. (7) Legea 74/2015"
+          }
+        ],
+        "partial": true
+      },
+      "diff": {
+        "added": 213,
+        "removed": 98,
+        "same": 0.51
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:06:45.270Z"
+    }
+  ]
+}

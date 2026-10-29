@@ -1,0 +1,114 @@
+{
+  "slug": "plx-435-2026",
+  "billId": "PL-x 435/2026",
+  "updatedAt": "2026-10-29T12:39:02.510Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L244FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Fără vape și IQOS în localuri, birouri, transport public și locuri de joacă",
+      "summaryTlDr": "Este o lege utilă de sănătate publică și merge în direcția politicii UE: vape-urile și tutunul încălzit intră sub aceeași interdicție ca țigara clasică, în aceleași spații închise. Problema e redactarea. Textul inițiatorului e agramat și citează greșit legea (340 în loc de 349), iar comisia trebuie să le corecteze.",
+      "scores": {
+        "agy": 5,
+        "claude": 3,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/30/5/se485.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "Vape-ul și tutunul încălzit, interzise în localuri, birouri și transport public",
+      "summaryTlDr": "Este o măsură legitimă de sănătate publică, aliniată la recomandarea UE din 2024: vape-ul și tutunul încălzit ajung sub aceeași interdicție ca fumatul, în aceleași locuri. Problema e redactarea: textul interzice literal «fumatul ... a flacoanelor de reumplere» și trebuie reformulat în comisii înainte de vot.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a corectat doar numărul legii; textul interdicției pentru vape rămâne neschimbat și agramat",
+      "summary": "Inițial, proiectul trimitea greșit la Legea nr. 340/2002; acum trimite corect la Legea nr. 349/2002. Regulile nu s-au schimbat: aceeași interdicție în spațiile închise, același text agramat și același gol pentru produsele fără nicotină.",
+      "changes": [
+        {
+          "title": "Numărul legii modificate a fost corectat",
+          "text": "Art. unic: inițial proiectul modifica „Legea nr. 340/2002”, o trimitere greșită. Acum trimite corect la Legea nr. 349/2002, legea anti-fumat. Conținutul interdicției e identic.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. unic",
+          "before": "Legea nr. 340/2002 pentru prevenirea și combaterea efectelor consumului produselor din tutun",
+          "after": "Articolul 3 din Legea nr.349/2002 pentru prevenirea și combaterea efectelor consumului produselor din tutun",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Text agramat: lipsește «utilizarea», deci nu e clar ce anume se interzice",
+            "major": true,
+            "article": "art. unic pct. 1 (art. 3 alin. (1))"
+          },
+          {
+            "text": "Flacoanele de reumplere nu se inhalează; o lectură forțată ar viza vânzarea lichidelor",
+            "major": true,
+            "article": "art. unic pct. 1 (art. 3 alin. (1))"
+          },
+          {
+            "text": "Țigaretele electronice fără nicotină pot scăpa de interdicție; agentul nu le deosebește pe loc",
+            "major": true,
+            "article": "art. unic pct. 1 (art. 3 alin. (1))"
+          },
+          {
+            "text": "Termenii pentru tutun încălzit nu corespund definițiilor din Legea nr. 201/2016",
+            "major": false,
+            "article": "art. unic pct. 1 (art. 3 alin. (1))"
+          },
+          {
+            "text": "Abrogarea alin. (1²) nu e explicată; nu se arată că nu dispare o interdicție",
+            "major": false,
+            "article": "art. unic pct. 2 (art. 3 alin. (1²))"
+          }
+        ],
+        "good": [
+          {
+            "text": "Interdicția din spațiile închise se extinde la țigarete electronice și tutun încălzit",
+            "major": true,
+            "article": "art. unic pct. 1 (art. 3 alin. (1))"
+          },
+          {
+            "text": "Aceleași spații ca la fumat, fără spații noi; excepția pentru detenție rămâne",
+            "major": false,
+            "article": "art. unic pct. 1 (art. 3 alin. (1))"
+          },
+          {
+            "text": "Trimitere corectă la Legea nr. 349/2002, legea anti-fumat",
+            "major": false,
+            "article": "art. unic"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 7,
+        "removed": 7,
+        "same": 0.13
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:39:02.510Z"
+    }
+  ]
+}

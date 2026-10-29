@@ -1,0 +1,167 @@
+{
+  "slug": "plx-611-2026",
+  "billId": "PL-x 611/2026",
+  "updatedAt": "2026-10-29T13:21:05.862Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L567FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Salariile restante pot fi plătite din Fondul de garantare înainte de deschiderea insolvenței",
+      "summaryTlDr": "Este o plasă de siguranță utilă: salariații pot primi banii din Fondul de garantare înainte ca instanța să deschidă insolvența, iar accesul are filtre serioase împotriva abuzurilor. Textul are însă trimiteri greșite între articole, iar expunerea de motive descrie o lege pentru CFR Marfă care nu se regăsește în articole.",
+      "scores": {
+        "agy": 7,
+        "claude": 3,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/600/10/1/se706.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Salariile restante, plătite din Fondul de garantare și când firma își pierde licența sau intră în concordat",
+      "summaryTlDr": "Proiectul e util salariaților și compatibil cu dreptul UE, dar e croit vizibil pe cazul CFR Marfă. Noul mecanism funcționează practic doar la angajatorii mari care își pierd licența, iar textul are trimiteri greșite și un blocaj procedural. Trebuie reparat în comisie, nu respins.",
+      "scores": {
+        "agy": 6,
+        "claude": 4,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a păstrat textul inițiatorului; diferențele vizibile sunt doar de redactare",
+      "summary": "Senatul a păstrat textul inițiatorului. Diferențele vizibile sunt doar de redactare: spații, diacritice și Codul muncii citat ca Legea nr. 53/2003. Problemele de fond au rămas, inclusiv trimiterea greșită la art. 19 alin. (4) și condiția licenței pierdute.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Plata înainte de insolvență acoperă doar angajatorii care și-au pierdut licența sau autorizația",
+            "major": true,
+            "article": "art. 2 alin. (2) lit. a)-b)"
+          },
+          {
+            "text": "Condiția concedierii colective exclude salariații firmelor cu cel mult 20 de angajați",
+            "major": true,
+            "article": "art. 2 alin. (2) lit. d)"
+          },
+          {
+            "text": "Angajatorul necooperant poate bloca la nesfârșit cererea salariaților, fără nicio sancțiune",
+            "major": true,
+            "article": "art. 19 alin. (6)-(7)"
+          },
+          {
+            "text": "Trimitere greșită la art. 19 alin. (4) în loc de alin. (3)",
+            "major": true,
+            "article": "art. 2 alin. (2) lit. e), art. 14 alin. (2)"
+          },
+          {
+            "text": "Compensațiile din orice lege specială sunt acoperite, dar plafoanele rămân neschimbate",
+            "major": true,
+            "article": "art. 13 alin. (1) lit. c), art. 14 alin. (1)"
+          },
+          {
+            "text": "Neclar dacă excepțiile de plafon se aplică și plăților dinaintea insolvenței",
+            "major": true,
+            "article": "art. 14 alin. (1¹)-(1²)"
+          },
+          {
+            "text": "Plafonul de 12 salarii la concordat depinde de o hotărâre discreționară a Guvernului",
+            "major": true,
+            "article": "art. 14 alin. (1²)"
+          },
+          {
+            "text": "Greșeli de redactare: «accesoriiile», «effective», «territoriale»",
+            "major": false,
+            "article": "art. 16-22"
+          }
+        ],
+        "good": [
+          {
+            "text": "Salariații pot fi plătiți din Fond înainte de deschiderea insolvenței",
+            "major": true,
+            "article": "art. 2 alin. (2)"
+          },
+          {
+            "text": "Salariații și organizațiile care îi reprezintă pot cere ei înșiși plata",
+            "major": true,
+            "article": "art. 19 alin. (3)"
+          },
+          {
+            "text": "Fondul acoperă și plățile compensatorii prevăzute de legi speciale",
+            "major": true,
+            "article": "art. 13 alin. (1) lit. c)"
+          },
+          {
+            "text": "Salariații nu restituie sumele primite cu bună-credință",
+            "major": true,
+            "article": "art. 17 alin. (4)"
+          },
+          {
+            "text": "Agențiile virează direct la buget impozitul și contribuțiile salariaților",
+            "major": true,
+            "article": "art. 13 alin. (2)"
+          },
+          {
+            "text": "Angajatorul restituie banii Fondului, cu dobândă, dacă insolvența nu se deschide",
+            "major": true,
+            "article": "art. 17 alin. (2), (5)"
+          },
+          {
+            "text": "Fondul preia drepturile salariaților și își înscrie creanța în insolvență",
+            "major": true,
+            "article": "art. 16 alin. (2)-(3)"
+          },
+          {
+            "text": "Noua regulă se aplică și dacă cererea de insolvență era deja pe rol",
+            "major": true,
+            "article": "art. III"
+          },
+          {
+            "text": "Agenția verifică din oficiu la instanță, autoritate și ITM o parte din acte",
+            "major": false,
+            "article": "art. 19 alin. (6)"
+          },
+          {
+            "text": "Respingerea se motivează, iar dispoziția poate fi contestată în contencios administrativ",
+            "major": false,
+            "article": "art. 21 alin. (3)-(4)"
+          },
+          {
+            "text": "Verificarea condițiilor nu echivalează cu declararea insolvenței firmei",
+            "major": false,
+            "article": "art. 2 alin. (3)"
+          },
+          {
+            "text": "Instanța și autoritatea emitentă trebuie să anunțe agenția despre schimbări",
+            "major": false,
+            "article": "art. 18"
+          },
+          {
+            "text": "Guvernul are 45 de zile să actualizeze normele și formularele",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 41,
+        "removed": 36,
+        "same": 0.51
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:20:09.123Z"
+    }
+  ]
+}

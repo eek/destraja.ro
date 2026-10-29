@@ -1,0 +1,45 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+CAMERA DEPUTAȚILOR
+
+# LEGE
+
+# pentru completarea Legii nr. 227/2015 privind Codul fiscal
+
+Parlamentul României adoptă prezenta lege
+
+Art. I. – La articolul 465 alineatul (7) din Legea nr. 227/2015 privind Codul Fiscal, publicată în Monitorul Oficial, Partea I, nr. 688 din 10 septembrie 2015, cu modificările și completările ulterioare, după alineatul (7¹), se introduce un nou alineat, alin. (7²), cu următorul cuprins:
+
+„(7²) Pentru terenurile din categoriile de folosință arabil, pășune, fâneață, vie sau livadă, situate în extravilan, înscrise în registrul agricol și pentru care contribuabilul datorează impozit/taxă pe teren, nivelul impozitului/taxei prevăzut la alin. (7) se reduce în funcție de încărcătura animală aferentă exploatației agricole, după cum urmează:
+
+a) pentru terenurile cu suprafața de până la 1 ha inclusiv, al căror titular deține un efectiv de minimum 0,5 UVM înscris în registrul agricol, impozitul/taxa pe teren se reduce cu 100%;
+
+b) pentru terenurile cu suprafața mai mare de 1 ha și de până la 5 ha inclusiv se aplică reducerea astfel:
+
+i) 50% reducere pentru cel puțin 0,5 UVM/ha, dar nu mai mult de 0,7 UVM/ha;
+
+ii) 75% reducere pentru cel puțin 0,7 UVM/ha, dar nu mai mare de 1 UVM/ha;
+
+iii) 100% reducere pentru cel puțin 1 UVM/ha.
+
+Încărcătura animală se determină pe baza datelor înscrise în registrul agricol la data de 31 decembrie a anului fiscal anterior celui pentru care se calculează impozitul."
+
+Art. II. - În termen de 90 de zile de la data intrării în vigoare a prezentei legi, la propunerea Ministerului Agriculturii și Dezvoltării Rurale, Guvernul va aproba, prin hotărâre, normele metodologice de aplicare a prevederilor prezentei legi, care vor stabili cel puțin:
+
+a) modalitatea de acordare a facilității;
+
+b) verificarea îndeplinirii condițiilor;
+
+c) documentele justificative;
+
+d) stabilirea coeficienților de conversie în unități vită mare pentru speciile de animale, inclusiv pentru cele neprevăzute expres de normele în vigoare.
+
+Art. III. - Prezenta lege intră în vigoare la data de 1 ianuarie a anului următor de la data publicării în Monitorul Oficial al României, Partea I.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.
+
+Președintele Senatului
+
+Președintele Camerei Deputaților

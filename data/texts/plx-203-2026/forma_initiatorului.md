@@ -1,0 +1,31 @@
+## Lege pentru completarea Ordonanței Guvernului nr.26/2000 cu privire la asociații și fundații
+
+Parlamentul României adoptă prezenta lege.
+
+Art. I - Ordonanța Guvernului nr.26/2000 cu privire la asociații și fundații, publicată în Monitorul Oficial al României, partea I, nr.39 din 31 ianuarie 2000, aprobată cu modificări și completări prin Legea nr. 246/2005, cu modificările și completările ulterioare, se completează după cum urmează:
+
+\- La articolul 7, după alineatul (4) se introduc patru noi alineate, (5), (5¹) – (5³) cu următorul cuprins:
+
+"(5) Verificarea disponibilității și rezervarea denumirilor asociațiilor, fundațiilor și federațiilor, precum și emiterea dovezii disponibilității denumirii, se realizează prin intermediul unei platforme electronice naționale, accesibilă publicului online și gratuit prin intermediul site-ului Ministerului Justiției.
+
+(5¹) Persoanele fizice sau juridice solicită verificarea disponibilității denumirii exclusiv prin autentificare și completarea unui formular electronic cu semnătură electronică calificată. Actele doveditoare, aferente procedurii se depun exclusiv în format electronic.
+
+(5²) În cadrul verificării, platforma indică existența unor riscuri de confuzie cu denumiri de persoane juridice înregistrate sau mărci în vigoare. Rezultatele verificării au caracter informativ pentru marcă, iar înregistrarea denumirii nu substituie procedurile Oficiului de Stat pentru Invenții și Mărci.
+
+(5³) Dovada disponibilității denumirii se emite exclusiv în format electronic și semnată cu semnătura electronică calificată a Ministerului Justiției. Rezervarea denumirii este valabilă 90 de zile de la data emiterii dovezii.”
+
+Art. II - Prezenta lege intră în vigoare în termen de 6 luni de la data publicării în Monitorul Oficial al României. În același termen, Ministerul Justiției va operaționaliza platforma electronică prevăzută la art. I și o va interconecta cu Registrul național al persoanelor juridice fără scop patrimonial gestionat de Ministerul Justiției și cu Oficiul de Stat pentru Invenții și Mărci (OSIM), pentru evitarea suprapunerilor de denumiri și protejarea mărcilor și drepturilor de proprietate intelectuală.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.
+
+PREȘEDINTELE
+
+CAMEREI DEPUTAȚILOR
+
+PREȘEDINTELE
+
+Sorin-Mihai GRINDEANU
+
+SENATULUI
+
+Mircea ABRUDEAN

@@ -1,0 +1,19 @@
+# Lege pentru instituirea anului 2026 "Anul episcop Mărton Áron"
+
+Parlamentul României adoptă prezenta lege.
+
+Art. 1. - Se instituie anul 2026 ca "Anul episcop Mărton Áron" pentru celebrarea vieții, operei, personalității, sacrificiului, rolului determinant în realizarea apropierii între oameni, comunități și a eforturilor depuse pentru salvarea evreilor în perioada Holocaustului, ale apărării valorilor creștine în perioada dictaturilor extremiste din secolul XX ale episcopului Mărton Áron.
+
+Art. 2. - (1) Cu prilejul sărbătoririi "Anului episcop Mărton Áron" se organizează evenimente culturale, diplomatice, artistice sau educaționale dedicate celebrării vieții, operei, personalității, sacrificiului, rolului determinant în realizarea apropierii între oameni, comunități și a eforturilor depuse pentru salvarea evreilor în perioada Holocaustului, ale apărării valorilor creștine în perioada dictaturilor extremiste din secolul XX.
+
+(2) Autoritățile administrației publice centrale și locale, precum și instituțiile publice aflate în subordinea sau coordonarea acestora, Societatea Română de Televiziune, Societatea Română de Radiodifuziune pot aloca fonduri din bugetele proprii pentru a organiza sau sprijini logistic și/sau financiar manifestările culturale, diplomatice, artistice, educaționale sau programele de promovare organizate în vederea respectării prevederilor alin. (1), în limita alocărilor bugetare aprobate.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.
+
+PREȘEDINTELE
+
+PREȘEDINTELE
+
+CAMEREI DEPUTAȚILOR
+
+SENATULUI

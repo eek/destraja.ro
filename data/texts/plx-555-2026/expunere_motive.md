@@ -1,0 +1,232 @@
+Secțiunea 1
+
+LEGE
+
+# privind unele măsuri aplicabile funcționarilor publici și personalului contractual plătit din fonduri publice
+
+## Secțiunea a 2-a Motivul emiterii actului normativ
+
+## 2.1. Sursa proiectului de act normativ
+
+Inițiativa: Ministerului Muncii, Familiei, Tineretului și Solidarității Sociale, Ministerul Dezvoltării, Lucrărilor Publice și Administrației și Agenției Naționale a Funcționarilor Publici
+
+## 2.2. Descrierea situației actuale
+
+Actualele reglementări din Codul administrativ privind cariera funcționarilor publici au evidențiat o serie de lacune și dificultăți în aplicare, ce necesită corelarea cu legislația recent adoptată, precum și cu jurisprudența Curții Constituționale și a Înaltei Curți de Casație și Justiție.
+
+În acest sens, se au în vedere următoarele:
+
+Art. 513 alin. (3) din aceeași ordonanță de urgență în forma actuală prevede că doar perioada în care funcționarul public de execuție a avut raporturile de serviciu suspendate potrivit alin. (1) lit. c) constituie vechime în gradul profesional al funcției publice de execuție pe care funcționarul public o deține. În acest context, este necesară reglementarea unor situații de suspendare de drept a raportului de serviciu care vor fi recunoscute ca vechime în grad profesional.
+
+Totodată, actualele prevederi ale art. 514 alin. (1) lit. j) din Codul administrativ nu stabilesc o limită temporală maximă suficient de clară pentru suspendarea raporturilor de serviciu în cazul desfășurării unor activități în cadrul unor organisme ale Uniunii Europene sau al altor organisme ori instituții de drept internațional public, în alte situații decât cele reglementate de art. 513 alin. (1) lit. c). În lipsa unei asemenea limitări, s-au înregistrat situații în care raporturile de serviciu au rămas suspendate pe perioade îndelungate, iar funcțiile publice respective au fost menținuțe rezervate, cu efecte negative asupra organizării instituționale, asupra continuității activității și asupra posibilității ocupării stabile a posturilor. Prin urmare, raportat la prevederile actuale ale art. 514 alin. (1) lit. j) din același act normativ, se impune, de asemenea, stabilirea unei perioade maxime pentru suspendarea raporturilor de serviciu pentru desfășurarea unei activități în cadrul unor organisme sau instituții internaționale altele decât cele de la art. 513 alin. (1) lit. c), astfel încât posturile respective să poată fi ocupate după această perioadă. Art. 517 alin (2) din Ordonanța de urgență a Guvernului nr. 57/2019, cu modificările și completările ulterioare, nu mai reflectă situația legislativă actuală, fapt pentru care este necesară corelarea acestora cu normele în vigoare. De asemenea, dispozițiile art. 517 alin. (2) din Codul administrativ necesită corelare cu noul cadru legal în materia pensiilor, în special cu prevederile Legii nr. 360/2023, care permit continuarea activității, cu acordul anual al angajatorului, până la împlinirea vârstei de 70 de ani. Menținerea unei redactări necorelate între legislația funcției publice și legislația pensiilor este de natură să genereze interpretări neunitare și dificultăți în aplicarea regulilor privind încetarea ori continuarea raporturilor de serviciu ale funcționarilor publici care îndeplinesc condițiile de pensionare. Totodată, prevederile art. 519 din același act normativ necesită completări pentru clarificarea unor situații ce pot afecta cariera funcționarilor publici în situația reorganizării autorității sau instituției publice. În prezent, pentru personalul contractual, Legea nr.53/2003 – Codul Muncii, republicată, cu modificările și completările ulterioare, reglementează detașarea ca fiind actul prin care se dispune schimbarea temporară a locului de muncă, din dispoziția angajatorului, la un alt angajator, în scopul executării unor lucrări în interesul acestuia. În mod excepțional, prin detașare se poate modifica și felul muncii, dar numai cu consimțământul scris al salariatului. Detașarea poate fi dispusă pe o perioadă de cel mult un an. În mod excepțional, perioada detașării poate fi prelungită pentru motive obiective ce impun prezența salariatului la angajatorul la care s-a dispus detașarea, cu acordul ambelor părți, din 6 în 6 luni. Pe durata detașării salariatul beneficiază de drepturile care îi sunt mai favorabile, fie de drepturile de la angajatorul care a dispus detașarea, fie de drepturile de la angajatorul la care este detașat. Angajatorul care detașează are obligația de a lua toate măsurile necesare pentru ca angajatorul la care s-a dispus detașarea să își îndeplinească integral și la timp toate obligațiile față de salariatul detașat. Potrivit art. 32 alin.(1) și (2) din Legea nr.153/2017 privind salarizarea personalului plătit din fonduri publice, cu modificările și completările ulterioare, ocuparea unui post vacant în sistemul bugetar se poate face și prin transfer, dacă se realizează de pe un post din sistemul bugetar, similar sau echivalent. Transferul poate avea loc în interesul serviciului, numai cu acordul scris al persoanei care se transferă sau la cererea persoanei, în urma aprobării cererii de transfer de către conducătorul autorității sau instituției publice la care se solicită transferul și de la care se transferă.
+
+Art. 46 alin.(1) din Legea nr. 360/2023 privind sistemul public de pensii prevede că pensia pentru limită de vârstă se cuvine persoanelor care îndeplinesc, cumulativ, la data pensionării, condițiile privind vârsta standard de pensionare și stagiul minim de cotizare prevăzute în anexa nr. 5.
+
+Persoanele asigurate în sistemul public de pensii care îndeplinesc condițiile de înscriere la pensie prevăzute la alin. (1) pot opta între acordarea pensiei pentru limită de vârstă și continuarea activității, cu acordul anual al angajatorului, până la împlinirea vârstei de 70 de ani, astfel cum prevăd dispozițiile alin. (2) al aceluiași articol.
+
+Potrivit art. XXII alin.(1) din Legea nr.141/2025 privind unele măsuri fiscal-bugetare, cu modificările și completările ulterioare, în perioada 1 ianuarie - 31 decembrie 2026 se suspendă ocuparea prin concurs sau examen a posturilor vacante din autoritățile și instituțiile publice, astfel cum sunt definite la art. 2 alin. (1) pct. 30 din Legea nr. 500/2002, cu modificările și completările ulterioare, și la art. 2 alin. (1) pct. 39 din Legea nr. 273/2006, cu modificările și completările ulterioare, indiferent de sistemul de finanțare și de subordonare, inclusiv activitățile finanțate integral din venituri proprii. Prin excepție de la aceste prevederi, ordonatorii principali de credite, în cazuri temeinic justificate, pot aproba ocuparea unui procent de maximum 15% din totalul posturilor ce se vor vacanta după data de 1 ianuarie 2026, numai în condițiile încadrării în cheltuielile de personal aprobate prin buget, la nivel de ordonator principal de credite, pe fiecare sursă de finanțare în parte.
+
+În același timp, este necesară instituirea unor reguli tranzitorii clare pentru situațiile juridice în curs la data intrării în vigoare a noii reglementări, respectiv pentru detașările deja dispuse, pentru procedurile de transfer aflate în desfășurare și pentru persoanele care, la momentul intrării în vigoare a legii, își desfășoară activitatea în organisme ale Uniunii Europene sau în alte organisme ori instituții de drept internațional public. Lipsa unor norme tranzitorii exprese ar putea conduce la aplicări neunitare, la blocaje administrative și la litigii privind regimul juridic incident.
+
+## 2.3. Schimbări preconizate
+
+La art. I din proiectul de act normativ se propune modificarea și completarea unor dispoziții ale Codului administrativ, în vederea clarificării regimului juridic al suspendării raporturilor de serviciu, al menținerii în activitate a funcționarilor publici peste vârsta standard de pensionare și al procedurilor aplicabile în situațiile de reorganizare instituțională, după cum urmează: Recunoașterea unor situații de suspendare a raportului de serviciu ca vechime în grad profesional
+
+Prin modificarea art. 513 alin. (3) din Codul administrativ se propune extinderea situațiilor în care perioada suspendării raporturilor de serviciu este considerată vechime în gradul profesional al funcției publice de execuție.
+
+În forma actuală a reglementării, numai perioada suspendării raporturilor de serviciu în cazul prevăzut la art. 513 alin. (1) lit. c) este recunoscută ca vechime în grad profesional. Această soluție legislativă a generat dificultăți în aplicare și a condus la situații în care
+
+| funcționarii publici aflați în situații juridice comparabile au fost tratați diferit sub aspectul evoluției carierei. |
+| --- |
+| Prin urmare, proiectul de lege propune ca perioadele de suspendare prevăzute la art. 513 alin. (1) lit. c), d), f), g) și i) să constituie vechime în gradul profesional al funcției publice de execuție deținute. |
+| Această modificare are ca scop: |
+| asigurarea unui tratament juridic coerent pentru situații comparabile;eliminarea unor potențiale discriminări în evoluția carierei funcționarilor publici;consolidarea principiului stabilității în exercitarea funcției publice. |
+| Stabilirea unei limite maxime pentru suspendarea raporturilor de serviciu în cazul activităților desfășurate în organisme internaționale |
+| Prin modificarea art. 514 alin. (1) lit. j) din Codul administrativ se instituie o limită maximă de 6 ani pentru suspendarea raporturilor de serviciu în situația în care funcționarul public desfășoară activități în cadrul unor organisme ale Uniunii Europene sau în alte organisme ori instituții de drept internațional public, în alte situații decât cele prevăzute la art. 513 alin. (1) lit. c). |
+| În absența unei astfel de limite temporale, s-au înregistrat situații în care funcțiile publice au rămas rezervate pe perioade îndelungate, ceea ce a afectat stabilitatea organizatorică a instituțiilor publice și a generat dificultăți în ocuparea permanentă a posturilor. |
+| Prin introducerea unei limite maxime se urmărește: |
+| menținerea echilibrului între interesul individual al funcționarului public și interesul instituțional al autorității publice;asigurarea predictibilității organizatorice la nivelul instituțiilor publice;evitarea blocării unor funcții publice pe perioade excesiv de îndelungate. |
+| Corelarea regimului menținerii în activitate cu legislația sistemului public de pensii |
+| Prin modificarea art. 517 alin. (2) din Codul administrativ se propune corelarea reglementării privind menținerea în activitate a funcționarilor publici cu prevederile Legii nr. 360/2023 privind sistemul public de pensii. |
+| Astfel, se stabilește în mod expres că funcționarul public poate fi menținut în funcția publică deținută, peste vârsta standard de pensionare, în baza unei cereri formulate cu cel puțin 30 de zile înainte de îndeplinirea cumulativă a condițiilor de pensionare și cu aprobarea conducătorului autorității sau instituției publice. |
+| Menținerea în activitate se poate realiza cu posibilitatea prelungirii anuale a raporțului de serviciu până la împlinirea vârstei de 70 de ani, în concordanță cu principiile reglementate de legislația sistemului public de pensii. |
+| Această modificare urmărește:corelarea legislației funcției publice cu evoluțiile cadrului normativ în materia pensiilor;valorificarea experienței profesionale a funcționarilor publici cu înaltă calificare;menținerea flexibilității instituțiilor publice în gestionarea resurselor umane. |
+| Introducerea unui mecanism meritocratic în situațiile de reorganizare instituțională |
+| Prin modificarea și completarea art. 519 din Codul administrativ se propune instituirea unui mecanism clar și transparent pentru gestionarea situațiilor în care reorganizarea instituțiilor publice conduce la eliberarea din funcția publică. |
+| În acest sens:autoritățile și instituțiile publice au obligația de a pune la dispoziția funcționarilor publici aflați în perioada de preaviz funcțiile publice vacante corespunzătoare;în cazul în care există mai mulți funcționari publici care îndeplinesc condițiile pentru ocuparea aceleiași funcții publice vacante, se instituie posibilitatea organizării unui examen de selecție. |
+| Totodată, se reglementează suspendarea perioadei de preaviz pe durata desfășurării examenului, de la data înscrierii până la data comunicării rezultatelor finale. |
+| Prin această soluție legislativă se urmărește:instituirea unui mecanism meritocratic și transparent;asigurarea tratamentului egal al funcționarilor publici aflați în situații juridice comparabile;creșterea predictibilității în gestionarea proceselor de reorganizare administrativă. |
+| Măsuri temporare privind mobilitatea personalului din sectorul public |
+| În contextul măsurilor fiscal-bugetare adoptate la nivel guvernamental, proiectul de lege introduce o serie de dispoziții tranzitorii menite să reglementeze temporar mobilitatea personalului din sectorul public. |
+| Astfel, se instituie suspendarea temporară a unor mecanisme de mobilitate, precum detașarea și transferul, pentru a preveni utilizarea excesivă a acestor instrumente în scopul ocolirii restricțiilor privind ocuparea posturilor vacante. |
+| În același timp, sunt prevăzute mecanisme tranzitorii pentru:încetarea detașărilor existente;ocuparea anumitor funcții vacante prin transfer în interesul se finalizarea procedurilor de transfer aflate în curs la data intrăi |
+| Aceste măsuri sunt justificate de necesitatea asigurării unei gestionări riguroase a resurselor umane în sectorul public în perioada de aplicare a restricțiilor fiscal-bugetare.Măsura are caracter limitat în timp și urmărește consolidarea disciplinei în gestionarea resurselor umane din administrația publică, fără a afecta procedurile deja începute și fără a exclude situațiile în care mobilitatea este justificată de interesul public, de exercitarea unor funcții de conducere ori de participarea funcționarilor publici la activități desfășurate în cadrul organismelor Uniunii Europene sau al altor organisme ori instituții de drept internațional public. |
+| La Art. III din proiectul de lege se reglementează măsurile tranzitorii necesare pentru aplicarea suspendării temporare a transferului și detașării funcționarilor publici. Astfel, procedurile de transfer aflate în curs la data intrării în vigoare a legii se finalizează potrivit reglementărilor aplicabile la momentul inițierii acestora, în vederea respectării principiului securității raporturilor juridice și a așteptărilor legitime ale persoanelor implicate. |
+| Totodată, se instituie obligația autorităților și instituțiilor publice de a analiza situația detașărilor aflate în derulare și de a dispune măsurile necesare pentru încetarea acestora sau, după caz, pentru ocuparea funcțiilor publice vacante prin transfer în interesul serviciului, numai în situațiile în care continuitatea serviciului public ori exercitarea atribuțiilor esențiale ale autorității sau instituției publice justifică această măsură. |
+| Reglementarea urmărește evitarea blocajelor administrative și asigurarea continuității serviciului public, concomitent cu respectarea restricțiilor temporare aplicabile mobilității personalului din sectorul public. |
+| La art. IV se instituie dispoziții tranzitorii pentru funcționarii publici care, la data intrării în vigoare a legii, desfășoară activități în cadrul unor organisme ale Uniunii Europene sau în alte organisme ori instituții de drept internațional public. |
+| Soluția legislativă urmărește corelarea situațiilor aflate în curs cu noua limită maximă de suspendare a raporturilor de serviciu, stabilită la 6 ani, și asigură un termen rezonabil pentru depunerea cererilor de suspendare, respectiv pentru clarificarea situației juridice a funcționarilor publici aflați în această ipoteză. |
+| În acest mod se asigură un echilibru între interesul funcționarului public de a participa la activități desfășurate în plan european sau internațional și interesul autorității ori instituției publice de a nu menține funcțiile publice rezervate pentru perioade nedeterminate sau excesiv de îndelungate. |
+| Prin art. V se instituie, pentru personalul contractual din autoritățile și instituțiile publice, suspendarea temporară a dispozițiilor Codului muncii referitoare la detașare, în vederea asigurării unei abordări unitare cu regimul aplicabil funcționarilor publici. |
+| Măsura este justificată de necesitatea prevenirii utilizării detașării ca instrument alternativ de ocupare a posturilor vacante în perioada aplicării restricțiilor fiscal- |
+| bugetare, precum și de necesitatea menținerii cheltuielilor de personal în limitele aprobate prin buget. |
+| Totodată, proiectul reglementează măsurile tranzitorii aplicabile detașărilor aflate în curs, inclusiv posibilitatea ocupării posturilor vacante prin transfer, atunci când continuarea activității persoanei detașate este necesară pentru asigurarea continuității activității autorității sau instituției publice beneficiare. |
+| Art. V alin. (5)-(8) – Excepții pentru personal contractual / apărare, ordine publică, securitate națională / misiuni externe |
+| Sunt prevăzute excepții de la suspendarea detașării pentru situațiile în care mobilitatea personalului contractual este determinată de obligații asumate în cadrul organismelor Uniunii Europene, al organizațiilor internaționale, al serviciului exterior sau al misiunilor desfășurate în afara teritoriului statului român. |
+| Aceste excepții sunt justificate de specificul activităților desfășurate, de obligațiile internaționale ale statului român, precum și de necesitatea asigurării continuității misiunilor din domeniul apărării, ordinii publice și securității naționale. |
+| Art. VI – Suspendarea transferului personalului contractual |
+| Art. VI reglementează suspendarea temporară a aplicării dispozițiilor referitoare la transferul personalului contractual plătit din fonduri publice, prevăzute de Legea-cadru nr. 153/2017. |
+| Măsura are caracter temporar și urmărește asigurarea coerenței regimului aplicabil personalului din sectorul public, prin corelarea restricțiilor privind ocuparea posturilor cu limitarea utilizării transferului ca modalitate indirectă de ocupare a posturilor vacante. |
+| Pentru protejarea raporturilor juridice deja inițiate, proiectul prevede că procedurile de transfer aflate în curs de desfășurare la data intrării în vigoare a legii se finalizează potrivit dispozițiilor legale aplicabile la data publicării anunțului privind organizarea transferului. |
+| Reglementarea cumulului pensiei cu veniturile salariale din fonduri publice |
+| Un element central al prezentului proiect de act normativ îl constituie reglementarea situațiilor în care persoanele care beneficiază de pensie continuă să desfășoare activități remunerate din fonduri publice. |
+| În acest sens, proiectul de lege introduce o serie de reguli menite să asigure echilibrul între dreptul persoanelor pensionate de a continua activitatea profesională și necesitatea utilizării responsabile a fondurilor publice. |
+| Reglementarea propusă are la bază criterii obiective de diferențiere, 1 • natura pensiei (pensie contributivă sau pensie de serviciu); |
+| sursa veniturilor salariale (fonduri publice sau sector privat);necesitatea instituțională a menținerii în activitate a persoanei respective. |
+| Astfel, se menține posibilitatea continuării activității până la vârsta de 70 de ani pentru persoanele pensionate care desfășoară activități în sectorul public, cu acordul anual al angajatorului. |
+| În cazul persoanelor beneficiare de pensii de serviciu sau pensii stabilite în sistemul pensiilor militare de stat, continuarea activității este condiționată de exprimarea opțiunii pentru reducerea cuantumului pensiei cu 85% pe durata desfășurării activității. |
+| Prin această soluție legislativă se urmărește evitarea situațiilor în care aceeași persoană beneficiază simultan de două venituri integrale provenite din fonduri publice, respectiv pensie de serviciu și salariu plătit din bugetul public. |
+| Totodată, reglementarea propusă nu afectează situația persoanelor pensionate care desfășoară activități în sectorul privat, întrucât în aceste cazuri veniturile salariale nu sunt suportate din bugetul public. |
+| Prin urmare, diferențierea introdusă de proiectul de lege se întemeiază pe un criteriu obiectiv și rezonabil, respectiv sursa finanțării veniturilor salariale, fiind compatibilă cu principiile constituționale ale egalității în fața legii și ale proporționalității măsurilor legislative. |
+| Art. VII – Procedura de opțiune, recalculare și reluare a pensiei |
+| Proiectul stabilește și procedura administrativă necesară aplicării opțiunii exprimate de persoanele vizate. Astfel, ordonatorii de credite, angajatorii sau autoritățile competente transmit opțiunea către casele de pensii sau casele de pensii sectoriale, iar acestea emit deciziile corespunzătoare privind noul cuantum al pensiei. |
+| La încetarea raportului de muncă sau de serviciu, dreptul de pensie se reia în cuantumul cuvenit, pe baza cererii persoanei interesate și a documentului care atestă încetarea raportului juridic în temeiul căruia aceasta a desfășurat activitatea remunerată. |
+| Această procedură asigură predictibilitatea aplicării măsurii, continuitatea evidențelor administrative și protejarea dreptului persoanei la reluarea pensiei în condițiile legii. |
+| Art. VII – Excepții |
+| Sunt exceptate de la aplicarea acestor dispoziții persoanele care exercită mandate prevăzute expres de Constituție, aleșii locali pe durata mandatului, precum și anumite |
+
+categorii de personal didactic care desfãçoară activități de formare inițială și continuă a magistraților sau activități de predare în învățământul militar și juridic superior.
+
+Aceste excepții sunt justificate de natura specială a mandatului sau a activității exercitate, de regimul constituțional ori legal distinct aplicabil acestor categorii și de necesitatea asigurării continuității unor activități de formare profesională cu caracter specializat.
+
+De asemenea, proiectul clarifică faptul că dispozițiile referitoare la cumul nu se aplică situațiilor în care, potrivit legilor speciale, emiterea deciziei de pensionare nu atrage eliberarea din funcție.
+
+## Art. VIII – Excepții prin memorandum
+
+Art. VIII instituie posibilitatea aprobării unor excepții de la măsurile temporare privind mobilitatea personalului, în cazuri temeinic justificate, prin memorandum aprobat de Guvern.
+
+Această soluție legislativă are rolul de a permite gestionarea unor situații obiective și excepționale, în care aplicarea strictă a suspendării transferurilor sau detașărilor ar putea afecta funcționarea autorităților și instituțiilor publice ori îndeplinirea unor atribuții de interes public.
+
+Aprobarea excepțiilor este condiționată de justificarea necesității și de încadrarea în cheltuielile de personal aprobate prin buget, ceea ce asigură menținerea disciplinei bugetare și evitarea extinderii necontrolate a excepțiilor.
+
+Art. VIII alin. (2) – Concursuri/examene pe durată determinată în sistemul de apărare, ordine publică și securitate națională
+
+Totodată, se reglementează posibilitatea aprobării, prin memorandum, a organizării de concursuri sau examene pentru ocuparea, pe durată determinată, a unor posturi contractuale sezoniere în cadrul instituțiilor publice din sistemul de apărare, ordine publică și securitate națională.
+
+| Soluția este justificată de specificul activităților desfășurate de aceste instituții, de caracterul temporar sau sezonier al unor nevoi de personal și de necesitatea asigurării capacității operaționale, cu respectarea limitelor bugetare aprobate. |
+| --- |
+| Art. IX – Regimul contravențional |
+| Art. IX instituie un regim contravențional pentru nerespectarea dispozițiilor referitoare la suspendarea temporară a transferurilor și detașărilor, precum și a măsurilor tranzitorii conexe. |
+| Reglementarea sancțiunilor contravenționale este necesară pentru asigurarea caracterului efectiv al măsurilor propuse și pentru prevenirea conduitei administrative prin care restricțiile stabilite de lege ar putea fi eludate. |
+| Constatarea contravențiilor și aplicarea sancțiunilor se realizează de către persoanele împuternicite prin ordin al ministrului finanțelor, având în vedere legătura directă a măsurilor propuse cu disciplina fiscal-bugetară și cu încadrarea în cheltuielile de personal aprobate. |
+| 2.4. Alte informații\*) |
+| Nu e cazul. |
+| Secțiunea a 3-a |
+| Impactul socioeconomic |
+| 3.1. Descrierea generală a beneficiilor și costurilor estimate ca urmare a intrării în vigoare a actului normativ |
+| 3.2. Impactul social |
+| Impactul social pozitiv al reglementării constă, în principal, în creșterea stabilității instituționale și a predictibilității în administrarea resurselor umane, prin orientarea ocupării funcțiilor și posturilor vacante către mecanisme mai stabile și mai transparente și prin limitarea utilizării prelungite a unor formule temporare de mobilitate. În același timp, proiectul creează premisele unei distribuiri mai echilibrate a oportunităților de ocupare a funcțiilor și posturilor din sectorul public. |
+
+Totodată, prin soluțiile propuse în materia continuării activității după pensionare, proiectul urmărește realizarea unui echilibru între interesul individual al persoanei de a-și valorifica experiența profesională și interesul general privind utilizarea responsabilă a fondurilor publice și accesul la ocuparea posturilor în sistemul public. Reglementarea nu exclude, în mod absolut, continuarea activității, ci o supune unor condiții determinate și limitate în timp.
+
+Proiectul are ca efect creșterea stabilității structurilor administrative, prin limitarea utilizării prelungite a unor forme temporare de mobilitate și prin orientarea ocupării funcțiilor/posturilor către mecanisme care favorizează stabilitatea raporturilor de muncă și de serviciu. Această soluție este de natură să contribuie la o organizare mai coerentă a activității autorităților și instituțiilor publice, la întărirea răspunderii manageriale în privința încadrării personalului.
+
+Reglementările prevăzute în proiectul de lege au un impactul social pozitiv în sensul:
+
+• consolidarii disciplinei de personal în sectorul public;
+
+\- facilitarii unei planificări mai realiste a ocupării funcțiilor/posturilor vacante;
+
+\- corelarării continuării activității după pensionare cu interesul public și cu capacitatea bugetară;
+
+\- crearea premiselor unei distribuiri mai echilibrate a oportunităților de ocupare în sistemul public.
+
+## 3.3. Impactul asupra drepturilor și libertăților fundamentale ale omului
+
+Nu e cazul.
+
+## 3.4. Impactul macroeconomic
+
+3.4.1. Impactul asupra economiei și asupra principalilor indicatori macroeconomici Nu e cazul.
+
+3.4.2. Impactul asupra mediului concurențial și domeniul ajutoarelor de stat
+
+Nu e cazul.
+
+## 3.5. Impactul asupra mediului de afaceri
+
+Nu e cazul.
+
+3.6. Impactul asupra mediului înconjurător
+
+<table>
+<tbody>
+<tr><td colspan="7">Nu e cazul.</td></tr>
+<tr><td colspan="7">3.7. Evaluarea costurilor și beneficiilor din perspectiva inovării și digitalizăriiNu e cazul.</td></tr>
+<tr><td colspan="7">3.8. Evaluarea costurilor și beneficiilor din perspectiva dezvoltării durabileNu e cazul.</td></tr>
+<tr><td colspan="7">3.9. Alte informațiiNu e cazul.</td></tr>
+<tr><td colspan="7">Secțiunea a 4-aImpactul financiar asupra bugetului general consolidat atât pe termen scurt, pentru anul curent, cât și pe termen lung (pe 5 ani), inclusiv informații cu privire la cheltuieli și venituri</td></tr>
+<tr><td colspan="7">- în mii lei (RON) -</td></tr>
+<tr><td>Indicatori</td><td>Anul curent</td><td colspan="4">Următorii patru ani</td><td>Media pe cinci ani</td></tr>
+<tr><td>1.</td><td>2026</td><td>2027</td><td>2028</td><td>2029</td><td>2030</td><td></td></tr>
+<tr><td>4.1. Modificări ale veniturilor bugetare, plus/minus, din care:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>a) buget de stat, din acesta:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>(i) impozit pe profit</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>(ii) impozit pe venit</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>(iii) contribuții de asigurări</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>b) bugete locale</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>(i) impozit pe profit</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>c) bugetul asigurărilor sociale de stat</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>(i) contribuții de asigurări</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>d) alte tipuri de venituriSe va menționa natura acestora</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.2. Modificări ale cheltuielilor bugetare, plus/minus, din care:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>a) buget de stat, din acesta:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>(i) cheltuieli de personal</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>(ii) bunuri și servicii</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>b) bugete locale:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>(i) cheltuieli de personal</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>(ii) bunuri și servicii</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>c) bugetul asigurărilor sociale de stat:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>i) cheltuieli de personal</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>ii) bunuri și servicii</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>d) alte tipuri de cheltuieliSe va menționa natura acestora</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.3. Impact financiar, plus/minus, din care:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>a) buget de stat</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>b) bugete locale</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>c) bugetul asigurărilor sociale de stat</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.4. Propuneri pentru acoperirea creșterii cheltuielilor bugetare</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.5. Propuneri pentru a compensa reducerea veniturilor bugetare</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.6. Calcule detaliate privind fundamentarea modificărilor veniturilor și/sau cheltuielilor bugetare</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="7">4.7. Prezentarea, în cazul proiectelor de acte normative a căror adoptare atrage majorarea cheltuielilor bugetare.</td></tr>
+<tr><td colspan="7">4.8. Alte informații</td></tr>
+<tr><td colspan="7">Secțiunea a 5-aEfectele proiectului de act normativ asupra legislației în vigoare</td></tr>
+<tr><td colspan="7">5.1. Măsuri normative necesare pentru aplicarea prevederilor proiectului de act normativNu e cazul.</td></tr>
+<tr><td colspan="7">5.2. Impactul asupra legislației în domeniul achizițiilor publiceNu e cazul.</td></tr>
+<tr><td colspan="7">5.3. Conformitatea proiectului de act normativ cu legislația UE (în cazul proiectelor ce transpun sau asigură aplicarea unor prevederi de drept UE)5.3.1. Măsuri normative necesare transpunerii directivelor UENu e cazul.</td></tr>
+<tr><td colspan="7">5.4. Hotărâri ale Curții de Justiție a Uniunii EuropeneNu e cazul.</td></tr>
+<tr><td colspan="7">5.5. Alte acte normative și/sau documente internaționale din care decurg angajamente asumateNu e cazul.</td></tr>
+</tbody>
+</table>
+
+5.6. Alte informații Nu e cazul.
+
+| Secțiunea a 6-aConsultările efectuate în vederea elaborării proiectului de act normativ |
+| --- |
+| 6.1. Informații privind neaplicarea procedurii de participare la elaborarea actelor normativePrezentul proiect de act normativ se încadrează în prevederile art. 7 alin. (13) din Legea nr. 52/2003 privind transparența decizională în administrația publică, republicată. |
+| 6.2. Informații privind procesul de consultare cu organizații neguvernamentale, institute de cercetare și alte organisme implicateNu e cazul. |
+| 6.3. Informații despre consultările organizate cu autoritățile administrației publice locale, în situația în care proiectul de act normativ are ca obiect activități ale acestor autorități, în condițiile Hotărârii Guvernului nr. 635/2022 privind procedura de consultare a structurilor asociative ale autorităților administrației publice locale la elaborarea proiectelor de acte normativ:Proiectul de act normativ a fost transmis spre consultare structurilor asociative ale autorităților administrației publice locale, solicitându-se punct de vedere de la Asociația Comunelor din România, Asociația Municipiilor din România, Asociația Orașelor din România, respectiv de la Uniunea Națională a Consiliilor Județene din România prin adresa nr. 55/MCV/21.01.2026. |
+| 6.4. Informații privind puncte de vedere/opinii emise de organisme consultative constituite prin acte normativeNu e cazul. |
+| 6.5. Informații privind avizarea de către:a) Consiliul Legislativb) Consiliul Suprem de Apărare a Țăriic) Consiliul Economic și Sociald) Consiliul Concurențeie) Curtea de ConturiProiectul de act normativ a fost avizat de Consiliului Legislativ prin avizul nr.422/2026.Consiliul Economic și Social a comunicat punctele de vedere prin adresa nr.3026/2026. |
+| 6.6. Alte informațiiNu e cazul. |
+| Secțiunea a 7-aActivități de informare publică privind elaborarea și implementarea proiectului de act normativ |
+| 7.1. Informarea societății civile cu privire la elaborarea proiectului de act normativPentru proiectul de act normativ a fost îndeplinită procedura stabilită prin Legea nr.52/2003 privind transparența decizională în administrația publică, cu modificările și completările ulterioare. Prezentul proiect de act normativ a fost supus comentariilor publicului prin publicarea pe pagina de internet a Ministerului Muncii, Familiei, Tineretului și Solidarității Sociale în data de 21.11.2025.Propunerile și observațiile asupra proiectului au putut fi transmise în perioada 21 – 25.11.2025.Au fost întreprinse demersurile legale prevăzute de art.7 din Regulamentul privind procedurile, la nivelul Guvernului, pentru elaborarea, avizarea și prezentarea proiectelor de documente de politici publice, a proiectelor de acte normative, precum și a altor documente, în vederea adoptării/aprobării, aprobat prin Hotărârea Guvernului nr. 561/2009. |
+| 7.2. Informarea societății civile cu privire la eventualul impact asupra mediului în urma implementării proiectului de act normativ, precum și efectele asupra sănătății și securității cetățenilor sau diversității biologice |
+| Secțiunea a 8-aMăsuri privind implementarea, monitorizarea și evaluarea proiectului de act normativ |
+| 8.1. Măsurile de punere în aplicare a proiectului de act normativNu e cazul. |
+| 8.2. Alte informațiiNu e cazul. |
+
+Față de cele prezentate, a fost elaborat proiectul de Lege privind unele măsuri aplicabile funcționarilor publici și personalului contractual plătit din fonduri publice, pe care îl supunem Parlamentului spre adoptare, cu procedura de urgență prevăzută de art. 76 alin. (3) din Constituția României, republicată.
+
+PRIM-MINISTRU
+
+ILHEGAVKIL BOLOJAN

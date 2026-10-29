@@ -1,0 +1,158 @@
+{
+  "slug": "plx-257-2026",
+  "billId": "PL-x 257/2026",
+  "updatedAt": "2026-10-29T12:57:22.435Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L076FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Fără vânătoare la mai puțin de 200–500 m de case și de drumuri",
+      "summaryTlDr": "Ideea e de bun-simț, dar textul e scris în grabă. Protecția caselor e legitimă, însă legea face infracțiune cu închisoare din orice depășire a distanței, nu spune de unde se măsoară distanța și întinde un culoar de 500 m în jurul fiecărui drum public.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/200/50/7/se270.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Fără focuri de armă la mai puțin de 100 m de case",
+      "summaryTlDr": "Măsura e de bun-simț: protejează oamenii care locuiesc la marginea localităților, iar amenzile sunt moderate. Senatul a diluat însă propunerea (100 m în loc de 200/500 m, fără drumuri publice) și a scris două litere care se contrazic.",
+      "scores": {
+        "agy": 5,
+        "claude": 3,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Tragerea prea aproape de case devine contravenție, nu braconaj; distanța scade la 100 m",
+      "summary": "Senatul a transformat fapta din infracțiune în contravenție, cu amendă de 2.000–5.000 lei. A redus distanța la 100 m de case pentru orice armă și a scos drumurile publice. Dar a adăugat o regulă despre direcția tragerii care contrazice interdicția și nu are sancțiune.",
+      "changes": [
+        {
+          "title": "Fapta devine contravenție, nu mai e braconaj",
+          "text": "Inițial, fapta era braconaj (art. 42), cu închisoare de la 6 luni la 3 ani sau amendă. Acum e contravenție, cu amendă de 2.000–5.000 lei (art. 48 alin. (1) lit. d)).",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 42 alin. (1) lit. ș) și art. 48 alin. (1) lit. d)",
+          "before": "2. La articolul 42 alineatul (1), după litera s) se introduce o nouă literă, lit. ș), cu următorul cuprins:",
+          "after": "art.39 lit.c), m), p), v), ac), af), ag) și ak), cu amendă de la 2.000 lei,la 5.000 lei;",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Distanța scade la 100 m pentru orice armă",
+          "text": "Inițial erau 200 m pentru alice și 500 m pentru glonț. Acum sunt 100 m pentru orice armă. Vânătorii au mai puține restricții, dar zona de protecție din jurul caselor e mai mică.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 39 alin. (1) lit. ak)",
+          "before": "200 m, în cazul armei cu alice, respectiv 500 m în cazul armei cu glonț sau cartuș cu proiectil unic",
+          "after": "la o distanță mai mică de 100 m față de terenurile intravilane ocupate cu construcții sau curți",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Drumurile publice ies din interdicție",
+          "text": "Inițial, distanța se aplica și față de drumurile publice. Acum se aplică doar față de casele și curțile din intravilan. Dispar benzile excesive de lângă drumuri, dar și orice distanță față de ele.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 39 alin. (1) lit. ak)",
+          "before": "față de drumurile deschise circulației publice",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Regulă nouă, confuză, despre direcția tragerii",
+          "text": "Noua lit. al) permite focul în zona de cel mult 100 m, dar doar în direcția opusă caselor, deși lit. ak) îl interzice acolo. Regula nu are sancțiune proprie la art. 48.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 39 alin. (1) lit. al)",
+          "before": null,
+          "after": "al) în zonele situate la cel mult 100 m de terenurile intravilane ocupate cu construcții sau curți, executarea focului cu arme de vânătoare este permisă exclusiv în -direcția opusă zonelor intravilane menționate la lit.ak).",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Se interzice doar tragerea, nu toată vânătoarea",
+          "text": "Inițial era interzisă „vânătoarea”, deci și căutarea sau hăituirea. Acum e interzisă doar executarea focului în partidele de vânătoare, un termen pe care legea nu îl definește.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 39 alin. (1) lit. ak)",
+          "before": "ak) vânătoarea la o distanță mai mică de 200 m",
+          "after": "ak) executarea focului cu arma de vânătoare în cadrul partidelor de vânătoare",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Lit. al) permite focul în zona de 100 m unde lit. ak) îl interzice",
+            "major": true,
+            "article": "art. 39 alin. (1) lit. al)"
+          },
+          {
+            "text": "Regula de direcție a tragerii nu are nicio sancțiune",
+            "major": true,
+            "article": "art. 48 alin. (1) lit. d)"
+          },
+          {
+            "text": "Nicio distanță minimă față de drumurile publice",
+            "major": true,
+            "article": "art. 39 alin. (1) lit. ak)"
+          },
+          {
+            "text": "Legea nu definește „partida de vânătoare”, de care depinde interdicția",
+            "major": false,
+            "article": "art. 39 alin. (1) lit. ak)"
+          },
+          {
+            "text": "O permisiune a fost introdusă într-o listă de interdicții",
+            "major": false,
+            "article": "art. 39 alin. (1) lit. al)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Depășirea distanței se pedepsește cu amendă de 2.000–5.000 lei, nu cu închisoare",
+            "major": true,
+            "article": "art. 48 alin. (1) lit. d)"
+          },
+          {
+            "text": "Se interzice tragerea, nu căutarea sau urmărirea vânatului",
+            "major": true,
+            "article": "art. 39 alin. (1) lit. ak)"
+          },
+          {
+            "text": "Distanță unică de 100 m față de case, oricare ar fi arma",
+            "major": true,
+            "article": "art. 39 alin. (1) lit. ak)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 6,
+        "removed": 7,
+        "same": 0.14
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:57:22.435Z"
+    }
+  ]
+}

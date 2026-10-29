@@ -1,0 +1,122 @@
+{
+  "slug": "plx-310-2026",
+  "billId": "PL-x 310/2026",
+  "updatedAt": "2026-10-29T13:04:05.006Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L117FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5.5,
+      "riskLevel": "yellow",
+      "plainTitle": "Despăgubiri la prețul pieței și reconstrucția locuințelor distruse de dezastre pe banii statului",
+      "summaryTlDr": "O inițiativă cu intenție socială lăudabilă (protejarea păgubiților din explozii sau calamități), dar redactată atât de defectuos încât instituie involuntar dubla despăgubire (și banii la prețul pieței în 90 de zile, și reconstrucția imobilului în 1 an), blochează primăriile cu termene tehnic imposibile și subminează sistemul asigurărilor obligatorii de locuințe (PAD).",
+      "scores": {
+        "agy": 6,
+        "claude": null,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/300/10/0/se340.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Despăgubiri la prețul pieței și case reconstruite de primărie după dezastre",
+      "summaryTlDr": "Intenția e bună, dar textul e scris în grabă. Promite în același timp bani la prețul pieței, reconstrucție gratuită în maximum un an și cazare, fără să estimeze costul și fără o sursă clară de bani. Victimelor le-ar folosi, însă în forma aceasta legea riscă să pice la CCR sau să rămână literă moartă.",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 6
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat tacit proiectul în forma inițiatorului; textul art. 18 a rămas neschimbat",
+      "summary": "Senatul nu a schimbat nimic: proiectul se consideră adoptat tacit, în forma inițiatorului. Diferențele sunt doar de redactare și diacritice, deci riscurile rămân: plată dublă posibilă, termene nerealiste, nicio regulă despre cine evaluează pagubele.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Despăgubirea în bani și reconstrucția se pot cumula: aceeași pagubă, plătită dublu",
+            "major": true,
+            "article": "art. 18 alin. (1) și (3)"
+          },
+          {
+            "text": "Nu spune cine evaluează paguba, la ce dată și ce intră în ea",
+            "major": true,
+            "article": "art. 18 alin. (1)"
+          },
+          {
+            "text": "Nu scade banii din asigurări și ignoră lipsa asigurării obligatorii PAD",
+            "major": true,
+            "article": "art. 18 alin. (1)"
+          },
+          {
+            "text": "Termenul de 90 de zile curge de la incident, nu de la depunerea cererii",
+            "major": false,
+            "article": "art. 18 alin. (2)"
+          },
+          {
+            "text": "Reconstrucția în un an, la „starea inițială”, ignoră autorizarea, achizițiile și normele seismice",
+            "major": false,
+            "article": "art. 18 alin. (3)"
+          },
+          {
+            "text": "Obligația e pusă pe „primărie”, care nu are personalitate juridică, nu pe UAT",
+            "major": false,
+            "article": "art. 18 alin. (3) și (4)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Dreptul la ajutoare de urgență și despăgubiri la valoarea de piață, la zi",
+            "major": true,
+            "article": "art. 18 alin. (1)"
+          },
+          {
+            "text": "Primăria trebuie să refacă imobilul, inclusiv racordarea la utilități",
+            "major": true,
+            "article": "art. 18 alin. (3)"
+          },
+          {
+            "text": "Păgubiții rămân proprietari sau chiriași, ca înainte de dezastru",
+            "major": true,
+            "article": "art. 18 alin. (3)"
+          },
+          {
+            "text": "Primăria plătește cazarea celor afectați până la terminarea lucrărilor",
+            "major": true,
+            "article": "art. 18 alin. (3)"
+          },
+          {
+            "text": "Guvernul plătește din fondul de urgență dacă primăria nu are bani",
+            "major": true,
+            "article": "art. 18 alin. (4)"
+          },
+          {
+            "text": "Statul poate recupera banii de la cei găsiți vinovați de tragedie",
+            "major": false,
+            "article": "art. 18 alin. (4)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 5,
+        "removed": 7,
+        "same": 0.44
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:03:52.265Z"
+    }
+  ]
+}

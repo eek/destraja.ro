@@ -1,0 +1,92 @@
+{
+  "slug": "plx-617-2026",
+  "billId": "PL-x 617/2026",
+  "updatedAt": "2026-10-29T13:22:14.919Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L352FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Acciză redusă la motorină și pentru trenurile de marfă, ca la camioane",
+      "summaryTlDr": "Ideea e bună și permisă de dreptul UE: trenurile de marfă ar primi același tratament fiscal ca TIR-urile cu care concurează. Textul are însă un singur rând. Nu spune clar ce e un „tren destinat exclusiv mărfurilor”, nu are nicio cifră de cost și nu dă nicio regulă de aplicare.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/600/10/7/se696.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Acciză mai mică la motorina pentru trenurile de marfă",
+      "summaryTlDr": "Măsură utilă, cu temei explicit în dreptul UE: pune trenul de marfă pe picior de egalitate fiscală cu camionul. Problemele sunt de redactare. Criteriul „trenuri destinate exclusiv” e vag, pierderea la buget nu e cifrată, iar fără norme adaptate facilitatea poate rămâne pe hârtie.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul nu a schimbat nimic: proiectul se consideră adoptat în forma inițiatorului",
+      "summary": "Textul de acum e identic cu cel inițial. Transportul feroviar de mărfuri ar primi acciza redusă la motorină, ca autocamioanele. Proiectul se consideră adoptat de Senat în forma inițială, așa că rămân problemele: criteriul vag, nicio cifră a costului și nicio normă de aplicare.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Criteriul „trenuri destinate exclusiv” e vag: locomotive mixte, manevră, trenuri de lucru neclarificate",
+            "major": true,
+            "article": "art. 342 alin. (9) lit. c)"
+          },
+          {
+            "text": "Nu spune dacă transportul feroviar în cont propriu primește acciza redusă",
+            "major": true,
+            "article": "art. 342 alin. (9) lit. c)"
+          },
+          {
+            "text": "Nicio cifră a pierderii la buget și nicio fișă financiară (art. 15, Legea 500/2002)",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Fără dată de aplicare și termen pentru normele de restituire, gândite pentru camioane",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Transportul feroviar de mărfuri primește acciza redusă la motorină, ca transportul rutier",
+            "major": true,
+            "article": "art. 342 alin. (9) lit. c)"
+          },
+          {
+            "text": "Nu creează un nivel nou: preia acciza redusă aplicată deja camioanelor și autocarelor",
+            "major": false,
+            "article": "art. 342 alin. (9)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 3,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:20:07.829Z"
+    }
+  ]
+}

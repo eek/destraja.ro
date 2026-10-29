@@ -1,0 +1,25 @@
+# EXPUNERE DE MOTIVE
+
+Proiectul de Lege privind instituirea contribuției de 3% asupra veniturilor din publicitatea digitală realizate în România de către companii nerezidente
+
+Economia digitală reprezintă una dintre cele mai dinamice componente ale pieței românești, generând anual venituri semnificative pentru companii globale care furnizează publicitate digitală. În prezent, însă, o parte majoră a acestor venituri nu este supusă unei impuneri proporționale pe territoriul României, deoarece prestatorii nu sunt rezidenți fiscali și nu au o prezență economică suficientă pentru a intra sub incidența legislației naționale privind impozitul pe profit.
+
+Această situație generează o diferență de tratament fiscal între companiile românești, care sunt obligate să plătească impozite și taxe locale, și platformele globale, care pot obține venituri substanțiale din publicitate fără o contribuție adecvată la bugetul public. În lipsa unei măsuri corective, acest dezechilibru are efecte negative asupra concurenței loiale și reduce semnificativ potențialul de colectare fiscală.
+
+State europene precum Franța, Italia și Spania au adoptat contribuții similare de 3% pe veniturile din publicitate digitală, validate la nivelul Uniunii Europene ca măsuri tranzitorii, în concordanță cu practicile internaționale în materie de impozitare a economiei digitale. Prin prezenta inițiativă legislativă, România se aliniază aceluiași model, fără a introduce sarcini fiscale suplimentare pentru cetățeni sau pentru companiile românești.
+
+Contribuția de 3% se aplică exclusiv companiilor nerezidente cu cifră de afaceri globală de peste 750 milioane euro, prag definit în cadrul negocierilor internaționale privind impozitarea economiei digitale și utilizat pe scară largă în statele care au implementat măsuri similare. Impactul bugetar estimat este cuprins între 350 și 500 milioane lei anual, sume care reprezintă o sursă suplimentară importantă pentru bugetul de stat, fără impact negativ asupra consumatorilor.
+
+Pentru a asigura compatibilitatea internațională, prezenta contribuție are caracter tranzitoriu și va fi reevaluată la momentul implementării Pilonului Unu al OCDE, în conformitate cu angajamentele asumate de România în cadrul negocierilor privind
+
+Pentru a asigura compatibilitatea internațională, prezenta contribuție are caracter tranzitoriu și va fi reevaluată la momentul implementării Pilonului Unu al OCDE, în conformitate cu angajamentele asumate de România în cadrul negocierilor privind reforma fiscală globală. Această prevedere elimină orice risc de suprapunere, dublă impunere sau conflict cu viitoarele reglementări internaționale.
+
+Mecanismul propus include obligații clare de raportare, sancțiuni eficiente și posibilitatea cooperării administrative între ANAF și autoritățile fiscale din statele membre ale Uniunii Europene, în baza Directivei 2011/16/UE. În plus, introducerea obligației ANAF de a publica anual un raport privind sumele colectate și gradul de conformare asigură transparență și monitorizarea eficientă a aplicării legii.
+
+Prezenta măsură nu afectează resursele proprii ale Uniunii Europene și nu interferează cu veniturile reglementate prin Regulamentul UE 2020/2093.
+
+În concluzie, proiectul de lege răspunde unei necesități economice reale, este compatibil cu legislația europeană și cu angajamentele OCDE, nu introduce sarcini asupra populației și aduce un plus de echitate fiscală într-un sector în care România este în prezent dezavantajată. Adoptarea sa va contribui la consolidarea veniturilor bugetare și la crearea unui cadru fiscal modern, aliniat standardelor internaționale.
+
+Inițiator:
+
+Lucian-Nicolae ANDRUȘCĂ Deputat afiliat PSD

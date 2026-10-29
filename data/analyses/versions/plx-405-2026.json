@@ -1,0 +1,107 @@
+{
+  "slug": "plx-405-2026",
+  "billId": "PL-x 405/2026",
+  "updatedAt": "2026-10-29T12:32:02.870Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L252FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Derogare pentru SPP de la interdicția achiziției de autoturisme în anul 2026",
+      "summaryTlDr": "Act normativ cu impact strict instituțional și neutru pentru cetățeni sau mediul privat, care permite Serviciului de Protecție și Pază să cumpere autoturisme până la finalul anului 2026 din bugetul deja aprobat. Deși utilă operațional, măsura ilustrează practica derogărilor punctuale prin OUG de la regulile de austeritate bugetară.",
+      "scores": {
+        "agy": 3,
+        "claude": null,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/00/5/se440.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "SPP poate cumpăra mașini noi în 2026, deși restul instituțiilor statului nu au voie",
+      "summaryTlDr": "E o excepție tehnică și temporară. SPP poate cumpăra autoturisme până la 31.12.2026, din bugetul deja aprobat, iar textul nu creează taxe, sancțiuni sau monopoluri. Problema reală e alta: Parlamentul aprobă un cec în alb, fără număr de mașini, plafon de valoare sau raportare, cu o urgență argumentată slab.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Nicio schimbare de fond: Senatul a adoptat tacit ordonanța care permite SPP să cumpere mașini în 2026",
+      "summary": "Senatul a adoptat tacit legea în forma inițială. S-au corectat doar numărul ordonanței și s-au adăugat datele de publicare. SPP poate cumpăra autoturisme până la 31.12.2026, fără limită de număr sau de valoare.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Fără număr maxim de mașini sau valoare-limită pentru achizițiile SPP",
+            "major": true,
+            "article": "art. unic din OUG 27/2026"
+          },
+          {
+            "text": "Derogarea acoperă orice autoturism, inclusiv mașini de serviciu pentru conducere, nu doar operative",
+            "major": true,
+            "article": "art. unic din OUG 27/2026"
+          },
+          {
+            "text": "Plafonul bugetar poate crește prin orice rectificare a Legii bugetului 43/2026",
+            "major": true,
+            "article": "art. unic din OUG 27/2026"
+          },
+          {
+            "text": "Nicio obligație de raportare publică a mașinilor cumpărate prin derogare",
+            "major": false,
+            "article": "art. unic din OUG 27/2026"
+          },
+          {
+            "text": "Niciun standard de emisii, deși măsura e justificată prin înlocuirea mașinilor Euro 4",
+            "major": false,
+            "article": "art. unic din OUG 27/2026"
+          },
+          {
+            "text": "Nota de fundamentare bifează „nu se referă” la mediu și buget, contrar propriei justificări",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Achizițiile sunt limitate la fondurile deja aprobate pentru SPP prin bugetul pe 2026",
+            "major": true,
+            "article": "art. unic din OUG 27/2026"
+          },
+          {
+            "text": "Excepția se aplică nominal doar SPP, nu altor instituții publice",
+            "major": true,
+            "article": "art. unic din OUG 27/2026"
+          },
+          {
+            "text": "Derogarea e temporară: interdicția revine automat după 31 decembrie 2026",
+            "major": false,
+            "article": "art. unic din OUG 27/2026"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:32:02.870Z"
+    }
+  ]
+}

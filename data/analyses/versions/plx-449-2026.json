@@ -1,0 +1,218 @@
+{
+  "slug": "plx-449-2026",
+  "billId": "PL-x 449/2026",
+  "updatedAt": "2026-10-29T12:46:53.876Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L267FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Câinele nu mai poate sta legat mai mult de 2 ore pe zi: apă și adăpost obligatorii",
+      "summaryTlDr": "Scopul e bun și problema e reală, dar textul e scris în grabă. Are termeni vagi, nu prevede nicio excepție pentru câinii de stână sau de pază, iar noul art. 25^2, așa cum e formulat, poate introduce regula «întâi remediere, apoi amendă» pentru toate animalele, nu doar pentru câini. Merită adoptat doar după corecturi serioase în comisii.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/40/9/se493.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Câinii nu mai pot sta legați mai mult de două ore pe zi",
+      "summaryTlDr": "Intenția e bună și necesară: câinele ținut toată viața în lanț scurt devine ilegal. Textul e însă scris în grabă. Regula celor două ore, lanțul metalic obligatoriu și confiscarea automată la a doua abatere vor lovi gospodăriile rurale și vor fi greu de aplicat corect.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_riscant",
+      "headline": "Câini legați greșit: amendă de 300–3.000 lei, iar la a doua abatere se confiscă animalele",
+      "summary": "Acum, regulile de legare a câinilor au amendă clară, 300–3.000 lei, iar a doua abatere aduce confiscarea obligatorie a animalelor. În schimb, nu mai e interzisă legarea noaptea și a puilor sub 6 luni. Per total, riscul de sancțiuni crește.",
+      "changes": [
+        {
+          "title": "Confiscarea animalelor devine obligatorie la a doua abatere",
+          "text": "Art. 27 nou: a doua faptă de la art. 5 alin. (4), de pildă legarea peste 2 ore, aduce confiscarea obligatorie a animalelor. Inițial confiscarea era doar posibilă (art. 25² alin. (3)).",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 27",
+          "before": null,
+          "after": "În cazul săvârșirii de două ori a faptelor prevăzute la art.5 alin.(4) și art.25 alin.(1) lit.a) și b) de către proprietarul animalelor, pe lângă sancțiunile aplicate, se aplică și măsura confiscării animalelor.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Amenzi explicite de 300–3.000 lei pentru legarea câinilor",
+          "text": "Art. 26 alin. (1) lit. e) nou: încălcarea regulilor de legare și abuzurile față de câini se amendează cu 300–3.000 lei. Inițial nu exista o amendă anume; alin. (2) fixează 3.000–12.000 lei pentru lit. a)–d).",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 26 alin. (1) lit. e) și alin. (3)",
+          "before": null,
+          "after": "Contravențiile prevăzute la alin. (1), lit. e) se sancționează cu amendă de la 300 de lei la 3.000 de lei.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Nu mai e interzisă legarea noaptea și a puilor",
+          "text": "Art. 5 alin. (3) lit. c): dispar interdicțiile de noapte și pentru puii sub 6 luni; rămâne doar vremea care poate provoca stres termic, arsuri sau degerături. Mai puține obligații, dar puii pierd protecția.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 5 alin. (3) lit. c)",
+          "before": "Este interzisă legarea câinilor pe timp de noapte, în condiții de temperaturi extreme (caniculă/ger), în cazul puilor cu vârsta mai mică de 6 luni.",
+          "after": "este interzisă legarea câinilor în condiții meteorologice adverse ce pot provoca stres termic, arsuri solare sau degerături",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Lanțul metalic e permis, cu vârtejuri la capete",
+          "text": "Art. 5 alin. (3) lit. b): inițial doar zgardă sau ham; acum e permis și lanțul din zale metalice, ancorat fix sau pe cablu culisant, cu vârtejuri. Formularea amestecă prinderea cu legătura.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 5 alin. (3) lit. b)",
+          "before": "să fie realizat cu zgardă sau ham adecvat, să aibă o lungime minimă de 3 metri",
+          "after": "să fie realizat cu zgardă, ham sau lanț confecționat din zale metalice, cu lungimea minimă de 3 m; lanțul va fi ancorat la punct fix sau va culisa pe un cablu metallic și va fi prevăzut la extremități cu dispozitive de tip „vârtej”",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Remedierea în 24 de ore privește doar art. 5",
+          "text": "Art. 25² alin. (1): inițial, remedierea obligatorie privea toată legea și «autoritățile competente»; acum doar condițiile de la art. 5, iar măsurile le dispune polițistul competent teritorial.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 25² alin. (1)",
+          "before": "La prima constatare a nerespectării condițiilor minime de întreținere și protecție prevăzute de prezenta lege, autoritățile competente dispun măsuri de remediere, cu termen de conformare de maximum 24 de ore.",
+          "after": "La prima constatare a nerespectării condițiilor minime de întreținere și protecție prevăzute la art. 5, polițistul care are competența teritorială dispune măsuri de remediere, cu termen de conformare de maximum 24 de ore.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Peste 2 ore legat din 24 e abuz, fără excepție pentru câini de pază",
+            "major": true,
+            "article": "art. 5 alin. (4) lit. a)"
+          },
+          {
+            "text": "Confiscarea tuturor animalelor e obligatorie la a doua faptă, deși art. 25² spune «poate»",
+            "major": true,
+            "article": "art. 27"
+          },
+          {
+            "text": "Noțiuni nedefinite: «situații justificate», «condiții meteorologice adverse», «limitează sever»; decide agentul",
+            "major": true,
+            "article": "art. 5 alin. (3) și (4)"
+          },
+          {
+            "text": "Neclar dacă lesa de plimbare sau legarea scurtă la magazin intră sub reguli",
+            "major": true,
+            "article": "art. 5 alin. (3)"
+          },
+          {
+            "text": "Neclar dacă cele 2 ore se cumulează sau sunt continue și cum se dovedesc",
+            "major": false,
+            "article": "art. 5 alin. (4) lit. a)"
+          },
+          {
+            "text": "Cere «mișcarea liberă» la legare, amestecă zgarda cu lanțul și scrie «metallic»",
+            "major": false,
+            "article": "art. 5 alin. (3) lit. b)"
+          },
+          {
+            "text": "«Apă potabilă» permanent: iarna apa îngheață, apa de fântână nu e certificată",
+            "major": false,
+            "article": "art. 5 alin. (4) lit. c)"
+          },
+          {
+            "text": "Nu reglementează țarcul sau împrejmuirea; câinii pot ajunge în cuști mici",
+            "major": false,
+            "article": "art. 5"
+          },
+          {
+            "text": "Remediere în 24 de ore: prea scurt pentru un țarc; fără act sau contestare",
+            "major": false,
+            "article": "art. 25² alin. (1)"
+          },
+          {
+            "text": "Neclar dacă remedierea acoperă și abuzurile de la art. 5 alin. (4)",
+            "major": false,
+            "article": "art. 25² alin. (1)"
+          },
+          {
+            "text": "Doar polițistul dispune remedieri; poliția locală și medicii veterinari nu sunt menționați",
+            "major": false,
+            "article": "art. 25² alin. (1)"
+          },
+          {
+            "text": "Nu prevede ridicarea imediată a animalului aflat în pericol",
+            "major": false,
+            "article": "art. 25²"
+          }
+        ],
+        "good": [
+          {
+            "text": "Abuzurile față de câini sunt enumerate: legare permanentă, fără apă, fără adăpost",
+            "major": true,
+            "article": "art. 5 alin. (4)"
+          },
+          {
+            "text": "La prima abatere, întâi remediere în 24 de ore, ca avertisment",
+            "major": true,
+            "article": "art. 25² alin. (1)"
+          },
+          {
+            "text": "Amenda pentru regulile de legare e stabilită clar: 300–3.000 lei",
+            "major": true,
+            "article": "art. 26 alin. (3)"
+          },
+          {
+            "text": "Lanțul trebuie să aibă minimum 3 m și vârtejuri la capete",
+            "major": false,
+            "article": "art. 5 alin. (3) lit. b)"
+          },
+          {
+            "text": "Interzisă legarea pe vreme care poate provoca stres termic, arsuri sau degerături",
+            "major": false,
+            "article": "art. 5 alin. (3) lit. c)"
+          },
+          {
+            "text": "Remedierea se limitează la art. 5, iar polițistul competent e numit",
+            "major": false,
+            "article": "art. 25² alin. (1)"
+          },
+          {
+            "text": "Art. 6 include explicit abuzurile de la art. 5 alin. (4) în «rău tratament»",
+            "major": false,
+            "article": "art. 6 alin. (1)"
+          },
+          {
+            "text": "Intră în vigoare după 12 luni, timp de adaptare pentru proprietari",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 26,
+        "removed": 19,
+        "same": 0.1
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:46:53.876Z"
+    }
+  ]
+}

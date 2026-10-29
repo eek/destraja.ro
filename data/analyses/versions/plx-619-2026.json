@@ -1,0 +1,160 @@
+{
+  "slug": "plx-619-2026",
+  "billId": "PL-x 619/2026",
+  "updatedAt": "2026-10-29T13:24:24.900Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L409FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Societățile agricole pot deveni cooperative fără să fie lichidate",
+      "summaryTlDr": "Este o lege utilă: o societate agricolă care vrea să devină cooperativă nu mai trebuie să treacă prin lichidare și reînființare. Lasă însă nedefinite tocmai garanțiile pentru membrii care nu sunt de acord și pentru creditori, iar scutirea fiscală este formulată vag și plasată în afara Codului fiscal.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/600/10/9/se701.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Societățile agricole din 1991 pot deveni cooperative fără să fie lichidate",
+      "summaryTlDr": "Este o lege tehnică și utilă. O societate agricolă poate deveni cooperativă păstrându-și patrimoniul și contractele, fără lichidare. Textul e însă foarte sumar și lasă neclare trei lucruri: banii celor care se retrag, protecția creditorilor și întinderea scutirii fiscale.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a lăsat neschimbate regulile de trecere în cooperativă, cu tot cu lipsurile lor",
+      "summary": "Senatul a păstrat regulile de trecere în cooperativă exact ca inițial, cu aceleași lipsuri: retragere fără termen, creditori neprotejați, scutire fiscală vagă. A reformulat doar art. 4¹, precizând în ce forme de societate se pot transforma.",
+      "changes": [
+        {
+          "title": "Se spune clar în ce firme se pot transforma",
+          "text": "Art. 4¹ alin. (1): inițial cerea respectarea Legii 31/1990; acum spune doar că societatea agricolă se poate transforma într-una dintre formele de societate reglementate de această lege.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 4¹ alin. (1)",
+          "before": "cu respectarea dispozițiilor Legii societăților nr. 31/1990",
+          "after": "în una dintre formele societare prevăzute și reglementate de Legea nr. 31/1990",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Transformarea se face după regulile acestei legi",
+          "text": "Art. 4¹ alin. (1): inițial transformarea se făcea „în condițiile legii”; acum „în condițiile prezentei legi”. Proiectul detaliază însă doar trecerea în cooperativă.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 4¹ alin. (1)",
+          "before": "Societățile agricole se pot transforma, în condițiile legii",
+          "after": "Societățile agricole se pot reorganiza prin transformare, în condițiile prezentei legi",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Retragerea: fără termen, evaluare, termen de plată sau anunțarea membrilor absenți",
+            "major": true,
+            "article": "art. 77⁴"
+          },
+          {
+            "text": "Legea nu spune ce se întâmplă cu terenul adus de membri în folosință",
+            "major": true,
+            "article": "art. 77⁴"
+          },
+          {
+            "text": "Conversia aporturilor e lăsată adunării generale, fără criterii și evaluare independentă",
+            "major": true,
+            "article": "art. 77³ lit. e)"
+          },
+          {
+            "text": "Creditori neprotejați: fără publicare, fără opoziție, iar plățile către cei retrași scad patrimoniul",
+            "major": true,
+            "article": "art. 77¹–77⁶"
+          },
+          {
+            "text": "Scutire fiscală generică, în afara Codului fiscal, fără impozitele vizate",
+            "major": true,
+            "article": "art. II, art. 10² alin. (2)"
+          },
+          {
+            "text": "Lipsesc reguli de convocare, cvorum și informare a membrilor înainte de vot",
+            "major": false,
+            "article": "art. 77²"
+          },
+          {
+            "text": "Pragul de două treimi din toți membrii poate bloca societățile cu membri inactivi",
+            "major": false,
+            "article": "art. 77²"
+          },
+          {
+            "text": "Normele de înregistrare se stabilesc prin hotărâre de Guvern, fără termen",
+            "major": false,
+            "article": "art. 77⁶"
+          }
+        ],
+        "good": [
+          {
+            "text": "Transformare fără lichidare, deci fără costurile și blocajele unei lichidări",
+            "major": true,
+            "article": "art. 77¹ alin. (2)"
+          },
+          {
+            "text": "Contractele de arendă, creditele și datoriile continuă la cooperativa nou rezultată",
+            "major": true,
+            "article": "art. 77⁵ alin. (1)"
+          },
+          {
+            "text": "Autorizațiile, avizele și subvențiile se păstrează după transformare",
+            "major": true,
+            "article": "art. 77⁵ alin. (2)"
+          },
+          {
+            "text": "Decizia cere două treimi din toți membrii, nu doar din cei prezenți",
+            "major": true,
+            "article": "art. 77²"
+          },
+          {
+            "text": "Membrii care nu sunt de acord se pot retrage și primesc contravaloarea părților",
+            "major": true,
+            "article": "art. 77⁴"
+          },
+          {
+            "text": "Hotărârea trebuie să cuprindă patrimoniul, conversia aporturilor și drepturile membrilor",
+            "major": false,
+            "article": "art. 77³"
+          },
+          {
+            "text": "Se precizează în ce forme de societate se pot transforma societățile agricole",
+            "major": false,
+            "article": "art. 4¹ alin. (1)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 18,
+        "removed": 16,
+        "same": 0.4
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:24:24.900Z"
+    }
+  ]
+}

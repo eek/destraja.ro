@@ -1,0 +1,135 @@
+{
+  "slug": "plx-706-2026",
+  "billId": "PL-x 706/2026",
+  "updatedAt": "2026-10-29T13:19:24.029Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L511FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Cască obligatorie, la orice vârstă, pentru cei care merg cu trotineta electrică",
+      "summaryTlDr": "Este o măsură de siguranță simplă și rezonabilă, fără taxe, avize sau monopoluri ascunse. Problemele țin de redactare: „omologată” și „fixată corespunzător” sunt vagi, iar lipsa unui termen de intrare în vigoare îi prinde nepregătiți pe utilizatori și pe operatorii de închiriere.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/700/00/6/se799.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Cască obligatorie la orice vârstă pe trotineta și pe bicicleta electrică",
+      "summaryTlDr": "Scopul e legitim, iar costul e mic pentru stat și pentru cetățeni. Totuși, textul votat de Senat e mai larg și mai vag decât spune Expunerea: include tacit bicicletele electrice și cere o cască «omologată» fără să precizeze după ce standard. E o lege benignă, care merită corectată la redactare înainte de votul final.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_riscant",
+      "headline": "Senatul extinde casca obligatorie la toți conducătorii de biciclete electrice, la orice vârstă",
+      "summary": "Inițial, casca obligatorie la orice vârstă privea doar trotinetele electrice. Acum se aplică și bicicletelor electrice, pe orice drum public, inclusiv pe piste. Noțiunea nu e definită, iar extinderea nu e justificată în expunerea de motive.",
+      "changes": [
+        {
+          "title": "Casca devine obligatorie și pe bicicleta electrică",
+          "text": "Art. 70 alin. (4): casca obligatorie la orice vârstă se extinde de la trotinete și la biciclete electrice. Termenul nu e definit, iar extinderea nu e justificată în expunerea de motive.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. unic (art. 70 alin. (4) din OUG 195/2002)",
+          "before": "Pentru conducătorii de trotinete electrice, purtarea căștii de protecție, omologată și fixată corespunzător, este obligatorie indiferent de vârstă, atunci când se deplasează pe drumurile publice.",
+          "after": "Pentru conducătorii de trotinete electrice și biciclete electrice, purtarea căștii de protecție, omologată și fixată corespunzător, este obligatorie indiferent de vârstă, atunci când se deplasează pe drumurile publice.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Biciclete electrice: cască și pe piste, nu doar carosabil",
+          "text": "Inițial, bicicletele asistate electric intrau în regula generală: cască doar sub 16 ani, pe partea carosabilă. Acum, pentru cele electrice, obligația se aplică pe toate drumurile publice, inclusiv pe piste.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. unic (art. 70 alin. (4) din OUG 195/2002)",
+          "before": "Casca de protecție este obligatorie pentru conducătorii de biciclete cu vârsta sub 16 ani, atunci când se deplasează pe partea carosabilă.",
+          "after": "biciclete electrice, purtarea căștii de protecție, omologată și fixată corespunzător, este obligatorie indiferent de vârstă, atunci când se deplasează pe drumurile publice.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "«Bicicletă electrică» nedefinită: nu e clar dacă include bicicletele cu pedalare asistată",
+            "major": true,
+            "article": "art. 70 alin. (4) din OUG 195/2002"
+          },
+          {
+            "text": "Extinderea la biciclete electrice nu e fundamentată în expunerea de motive",
+            "major": true,
+            "article": "art. 70 alin. (4) din OUG 195/2002"
+          },
+          {
+            "text": "«Omologată» nedefinită: poate fi citită ca obligație de cască de motocicletă",
+            "major": true,
+            "article": "art. 70 alin. (4) din OUG 195/2002"
+          },
+          {
+            "text": "Casca e cerută și pe piste, nu doar în traficul cu mașini",
+            "major": true,
+            "article": "art. 70 alin. (4) din OUG 195/2002"
+          },
+          {
+            "text": "Nu e clar dacă și cu ce amendă se sancționează lipsa căștii",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "«Fixată corespunzător» lasă agentului o apreciere subiectivă",
+            "major": false,
+            "article": "art. 70 alin. (4) din OUG 195/2002"
+          },
+          {
+            "text": "Intră în vigoare la 3 zile, fără timp de adaptare pentru public și operatori",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Casca poate reduce rănile grave ale conducătorilor de trotinete și biciclete electrice",
+            "major": true,
+            "article": "art. 70 alin. (4) din OUG 195/2002"
+          },
+          {
+            "text": "Regula pentru bicicletele obișnuite rămâne neschimbată: cască doar sub 16 ani, pe carosabil",
+            "major": false,
+            "article": "art. 70 alin. (4) din OUG 195/2002"
+          },
+          {
+            "text": "Text scurt, modifică un singur alineat din codul rutier",
+            "major": false,
+            "article": "art. unic"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 3,
+        "same": 0.25
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:18:58.904Z"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "slug": "plx-507-2026",
+  "billId": "PL-x 507/2026",
+  "updatedAt": "2026-10-29T12:53:49.857Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L317FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "Oprire obligatorie lângă microbuzul care urcă sau coboară copii",
+      "summaryTlDr": "Măsură utilă și bine intenționată pentru siguranța copiilor, fără câștigători ascunși sau taxe. Textul are însă scăpări de redactare: nu spune unde oprești din sens opus, nici când ai voie să pleci, iar «semnalele specifice» nu sunt definite. Aceste scăpări trebuie reparate înainte ca nerespectarea regulii să fie sancționată cu suspendarea permisului.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/00/7/se563.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Șoferii vor fi obligați să oprească în spatele microbuzelor școlare care urcă sau coboară copii",
+      "summaryTlDr": "Lege utilă de siguranță rutieră: înlocuiește simpla încetinire cu oprirea obligatorie lângă vehiculele care transportă copii, după modelul nord-american al autobuzului școlar. Riscul e mic, dar textul lasă Guvernului detaliile esențiale (distanța, semnalele, ce vehicule intră), iar aplicarea depinde de o HG fără un termen-limită care să aibă consecințe.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Sensul opus nu mai oprește când microbuzul e în alveolă, dar distanța de 5 m iese din lege",
+      "summary": "Acum, cine vine din sens opus știe unde să oprească și nu mai oprește când microbuzul e în alveolă sau refugiu. În schimb, distanța de cel puțin 5 m dispare din lege, detaliile opririi le stabilește regulamentul, iar sancțiunea acoperă orice încălcare.",
+      "changes": [
+        {
+          "title": "Sensul opus nu oprește dacă microbuzul e în alveolă",
+          "text": "Art. 53¹ alin. (2): cine vine din sens opus nu mai trebuie să oprească dacă vehiculul de copii stă într-o alveolă, un refugiu sau în afara carosabilului.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 53¹ alin. (2)",
+          "before": "exclusiv pe drumurile publice prevăzute cu o singură bandă de circulație pe sens, care nu sunt despărțite printr-un element fizic continuu.",
+          "after": "Obligația nu se aplică în cazul în care autovehiculul este oprit într-o alveolă, într-un refugiu special amenajat sau în alt spațiu situat în afara părții carosabile.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Distanța minimă de 5 metri dispare din lege",
+          "text": "Art. 53¹ alin. (1): în loc de „cel puțin 5 metri în spate”, oprirea se face înainte de a ajunge în dreptul vehiculului, fără a intra în zona copiilor. Restul îl stabilește regulamentul.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 53¹ alin. (1)",
+          "before": "este obligat să oprească la o distanță de cel puțin 5 metri în spatele autovehiculului destinat transportului exclusiv al copiilor",
+          "after": "Oprirea se face în spatele autovehiculului, înainte de a ajunge în dreptul acestuia, astfel încât să nu se pătrundă în zona de îmbarcare sau debarcare a copiilor, în condițiile stabilite prin regulament.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Sancțiunea acoperă orice încălcare a obligației de oprire",
+          "text": "Art. 101 alin. (3) lit. i) nu mai leagă amenda și suspendarea de trecerea pe lângă vehicul. Vizează orice nerespectare a obligației din art. 53¹, deci și a locului opririi.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 101 alin. (3) lit. i)",
+          "before": "nerespectarea obligației de oprire prevăzute la art. 53¹ la trecerea pe lângă un autovehicul destinat transportului exclusiv al copiilor oprit pentru urcare sau coborâre având în funcțiune semnalele luminoase de avertizare specifice.",
+          "after": "nerespectarea obligației de oprire prevăzute la art.53¹",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Regula acoperă orice vehicul marcat pentru transportul copiilor",
+          "text": "Art. 53¹ alin. (4), nou: sunt vizate vehiculele școlare din Legea 162/2024 și orice alt vehicul de transport organizat al copiilor, dacă are inscripționarea și semnalizarea din regulament.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 53¹ alin. (4)",
+          "before": null,
+          "after": "precum și orice alt autovehicul utilizat pentru transportul organizat al copiilor, identificat prin inscripționare și semnalizare specifică, în condițiile stabilite prin regulament.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Sensul opus află unde trebuie să oprească",
+          "text": "Art. 53¹ alin. (2): inițial nu se spunea unde oprește cine vine din față. Acum oprirea se face înainte de a ajunge în dreptul vehiculului de copii.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 53¹ alin. (2)",
+          "before": "Obligația de oprire prevăzută la alin. (1) se aplică și conducătorilor de vehicule care circulă din sens opus",
+          "after": "În cazurile în care obligația este aplicabilă, oprirea se face înainte de a ajunge în dreptul autovehiculului destinat transportului exclusiv al copiilor.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Termenul pentru regulament curge de la intrarea în vigoare",
+          "text": "Art. II: cele 60 de zile în care Guvernul trebuie să modifice regulamentul se numără de la intrarea în vigoare a legii, nu de la publicare.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. II",
+          "before": "În termen de 60 de zile de la publicarea în Monitorul Oficial al României, Partea I, a legii",
+          "after": "În termen de 60 de zile de la data intrării în vigoare a prezentei legi",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Toate benzile din același sens opresc, chiar dacă microbuzul e în afara carosabilului",
+            "major": true,
+            "article": "art. 53¹ alin. (1)"
+          },
+          {
+            "text": "Distanța de oprire nu e în lege, ci în regulamentul Guvernului",
+            "major": true,
+            "article": "art. 53¹ alin. (1)"
+          },
+          {
+            "text": "Dacă vehiculul rămâne pe loc cu semnalele stinse, ceilalți nu pot pleca legal",
+            "major": true,
+            "article": "art. 53¹ alin. (3)"
+          },
+          {
+            "text": "Bicicliștii și cei pe trotinetă au obligația, dar fără sancțiune explicită",
+            "major": true,
+            "article": "art. 101 alin. (3) lit. i)"
+          },
+          {
+            "text": "Marcajele și semnalele care obligă la oprire le stabilește Guvernul prin regulament",
+            "major": false,
+            "article": "art. 53¹ alin. (4)"
+          },
+          {
+            "text": "Dacă Guvernul întârzie hotărârea, regula de oprire nu intră în vigoare",
+            "major": false,
+            "article": "art. III alin. (2)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Oprire obligatorie în spatele vehiculului de copii la urcare sau coborâre",
+            "major": true,
+            "article": "art. 53¹ alin. (1)"
+          },
+          {
+            "text": "Sensul opus oprește doar pe drumuri cu o bandă pe sens, nu la alveole",
+            "major": true,
+            "article": "art. 53¹ alin. (2)"
+          },
+          {
+            "text": "Regula acoperă și alte vehicule marcate pentru transportul organizat al copiilor",
+            "major": true,
+            "article": "art. 53¹ alin. (4)"
+          },
+          {
+            "text": "Amendă clasa a III-a și 30 de zile suspendare, ca la prioritatea pietonilor",
+            "major": true,
+            "article": "art. 101 alin. (3) lit. i)"
+          },
+          {
+            "text": "Cine vine din față oprește înainte de a ajunge în dreptul vehiculului",
+            "major": false,
+            "article": "art. 53¹ alin. (2)"
+          },
+          {
+            "text": "Obligația și sancțiunea se aplică abia la 90 de zile după hotărârea Guvernului",
+            "major": false,
+            "article": "art. III alin. (2)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 18,
+        "removed": 7,
+        "same": 0.05
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:53:49.857Z"
+    }
+  ]
+}

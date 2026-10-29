@@ -1,0 +1,17 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+privind aprobarea Ordonanței de urgență a Guvernului nr.84/2025 pentru modificarea și completarea Legii nr.95/2006 privind reforma în domeniul sănătății, precum și pentru modificarea și completarea unor acte normative
+
+Senatul adoptă prezentul proiect de lege
+
+Articol unic.- Se aprobă Ordonanța de urgență a Guvernului nr.84 din 18 decembrie 2025 pentru modificarea și completarea Legii nr.95/2006 privind reforma în domeniul sănătății, precum și pentru modificarea și completarea unor acte normative, publicată în Monitorul Oficial al României, Partea I, nr.1182 din 19 decembrie 2025.
+
+Acest proiect de lege se consideră adoptat de Senat în forma inițială, în condițiile articolului 115 alineatul (5) teza a III-a din Constituția României, republicată.
+
+PREȘEDINTĂLE SENATULUI
+
+MIRCE'A ABRUDEAN

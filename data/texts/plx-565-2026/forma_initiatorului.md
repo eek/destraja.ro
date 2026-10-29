@@ -1,0 +1,79 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+CAMERA DEPUTAȚILOR
+
+pentru modificarea și completarea unor acte normative în scopul introducerii unor limite în ce privește numărul și durata mandatelor conducățorilor unor entități publice
+
+Parlamentul României adoptă prezenta lege
+
+Art. I. – După articolul 23 din Legea nr. 14/1992 privind organizarea și funcționarea Serviciului Român de Informații, publicată în Monitorul Oficial al României, Partea I, nr. 33 din 3 martie 1992, cu modificările și completările ulterioare, se introduce un nou articol, art. 23¹, cu următorul cuprins:
+
+„Art. 23¹. — (1) Directorul Serviciului Român de Informații este numit pentru un mandat de 5 ani.
+
+(2) O persoană poate exercita cel mult două mandate în funcția de director al Serviciului Român de Informații."
+
+Art. II. – După articolul 7 din Legea nr. 191/1998 privind organizarea și funcționarea Serviciului de Protecție și Pază, publicată în Monitorul Oficial al României, Partea I, nr. 402 din 22 octombrie 1998, cu modificările și completările ulterioare, se introduce un nou articol, art. 7¹, cu următorul cuprins:
+
+„Art. 7¹. — (1) Directorul Serviciului de Protecție și Pază este numit pentru un mandat de 5 ani.
+
+(2) O persoană poate exercita cel mult două mandate în funcția de director al Serviciului de Protecție și Pază."
+
+Art. III. - După articolul 6 din Legea nr. 1/1998 privind organizarea și funcționarea Serviciului de Informații Externe, publicată în Monitorul Oficial al României, Partea I, nr. 511 din 18 octombrie 2000, cu modificările și completările ulterioare, se introduce un nou articol, art. 6¹, cu următorul cuprins:
+
+„Art. 6¹. — (1) Directorul Serviciului de Informații Externe este numit pentru un mandat de 5 ani.
+
+(2) O persoană poate exercita cel mult două mandate în funcția de director al Serviciului de Informații Externe."
+
+Art. IV. - După articolul 8 din Ordonanța de Urgență nr. 76/2016 privind înființarea, organizarea și funcționarea Direcției Generale de Protecție Internă a Ministerului Afacerilor Interne, publicată în Monitorul Oficial al României, Partea I, nr. 891 din 8 noiembrie 2016, cu modificările și completările ulterioare, se introduce un nou articol, art. 8¹, cu următorul cuprins:
+
+„Art. 8¹. — (1) Directorul general al Direcției Generale de Protecție Internă este numit pentru un mandat de 5 ani.
+
+(2) O persoană poate exercita cel mult două mandate în funcția de director al Direcției Generale de Protecție Internă."
+
+Art. V. - După articolul 15 din Legea nr. 346/2006 privind organizarea și funcționarea Ministerului Apărării Naționale, republicată în Monitorul Oficial al României, Partea I, nr. 867 din 2 noiembrie 2017, cu modificările și completările ulterioare, se introduce un nou articol, art. 15¹, cu următorul cuprins:
+
+„Art. 15¹. — (1) Directorul general al Direcției generale de informații a apărării este numit pentru un mandat de 5 ani.
+
+(2) O persoană poate exercita cel mult două mandate în funcția de director al Direcției generale de informații a apărării."
+
+Art. VI. - După articolul 8 din Legea nr. 92/1996 privind organizarea și funcționarea Serviciului de Telecomunicații Speciale, publicată în Monitorul Oficial al României, Partea I, nr. 169 din 30 iulie 1996, cu modificările și completările ulterioare, se introduce un nou articol, art. 8¹, cu următorul cuprins:
+
+„Art. 8¹. — (1) Directorul Serviciului de Telecomunicații Speciale este numit pentru un mandat de 5 ani.
+
+(2) O persoană poate exercita cel mult două mandate în funcția de director al Serviciului de Telecomunicații Speciale."
+
+Art. VII. – Art. 33 alin. (4) din Legea nr. 312/2004 privind Statutul Băncii Naționale a României, publicată în Monitorul Oficial al României, Partea I, nr. 582 din 30 iunie 2004, cu modificările și completările ulterioare, se modifică după cum urmează:
+
+„Art. 33. — (4) Numirile se fac pe o perioadă de 4 ani, cu posibilitatea reînnoirii mandatului. Prin excepție de la această regulă, mandatul Guvernatorului Băncii Naționale a României poate fi reînnoit o singură dată”
+
+Art. VIII. – Art. 22 alin. (1) din Ordonanța de Guvern nr. 137/2000 privind prevenirea și sancționarea tuturor formelor de discriminare, republicată în Monitorul Oficial al României, Partea I, nr. 166 din 7 martie 2014, cu modificările și completările ulterioare, se modifică și va avea următorul cuprins:
+
+„Art. 22 - (1) Consiliul este condus de un președinte cu rang de secretar de stat, ales de membrii Colegiului director din rândul acestora, pentru un mandat de 5 ani și poate fi reînnoit o singură dată. Președintele este ordonator principal de credite. Președintele este ajutat în activitatea sa de un vicepreședinte, ales de Colegiul director dintre membrii acestuia, pentru un mandat de 2 ani și jumătate.”
+
+Art. IX. - Art. 17 alin. (3) din Ordonanța de Guvern nr. 24/2008 privind accesul la propriul dosar și deconspirarea Securității, publicată în Monitorul Oficial al
+
+României, Partea I, nr. 182 din 10 martie 2008, cu modificările și completările ulterioare, se modifică și va avea următorul cuprins:
+
+„Art. 17 - (3) Pe baza raportului comun, întocmit de comisiile juridice ale Camerei Deputaților și Senatului în ședință comună, membrii Colegiului sunt numiți pentru un mandat de 4 ani, cu respectarea procedurilor de numire prevăzute de prezenta ordonanță de urgență. Mandatul președintelui Colegiului Consiliului Național pentru Studierea Arhivelor Securității poate fi reînnoit o singură dată.”
+
+Art. X. - La Art. 3 din Ordonanța de Guvern nr. 153/2002 privind organizarea și funcționarea Oficiului Registrului Național al Informațiilor Secrete de Stat, publicată în Monitorul Oficial al României, Partea I, nr. 826 din 15 noiembrie 2002, cu modificările și completările ulterioare, după alin. (6) se introduce un nou alineat, alin. (7), cu următorul cuprins:
+
+„Art. 3 – (7) Directorul general al ORNISS este numit pentru un mandat de 4 ani. O persoană poate exercita cel mult două mandate în funcția de director general al ORNISS.”
+
+Art. XI. - Art. 14 alin. (1) din Legea audiovizualului nr. 504/2002, publicată în Monitorul Oficial al României, Partea I, nr. 534 din 22 iulie 2002, cu modificările și completările-ulterioare, se modifică și va avea următorul cuprins: ----
+
+„Art. 14 – (1) Consiliul este condus de un președinte, asimilat funcției de ministru, numit prin votul Parlamentului, dintre membrii Consiliului, la propunerea acestora. Mandatul este de 6 ani și poate fi reînnoit o singură dată”
+
+Art. XII. – În aplicare prevederilor prezentei legi, mandatul exercitat partțial este considerat un mandat întreg. Prevederile prezentului articol se aplică și mandatelor aflate în derulare.
+
+Art. XIII. – Durata mandatelor prevăzute la art. I – VI și X începe să se calculeze de la data intrării în vigoare a prezentei legi.
+
+Art. XIV. - Prezenta lege intră în vigoare în termen de 30 de zile de la publicarea în Monitorul Oficial al României, Partea I.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.
+
+Președintele Senatului
+
+Președintele Camerei Deputaților

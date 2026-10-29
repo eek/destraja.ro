@@ -1,0 +1,124 @@
+# EXPUNERE DE MOTIVE
+
+Actul medical de internare nevoluntară este discutabil din punctul de vedere al drepturilor omului, el fiind în majoritatea cazurilor un procedeu medical necesar pentru posibilitatea de instituire a unei terapii adecvate cazului respectiv.
+
+Orice internare care se petrece fără consimțământul persoanei este însoțită de emoții negative din partea tuturor actorilor implicați în acțiune, deci poate produce consecințe stresante atât pentru starea pacientului și pentru familie, cât și pentru personalul medical.
+
+Internarea nevoluntară este analizată pe baza modelului medical și a modelului juridic.
+
+Din punctul de vedere al modelului medical, ea este considerată o procedură de tratament, astfel că autoritățile (judecătorul sau, în unele țări, primarul) au doar o funcție de control și de validare a propunerii venite din partea medicilor.
+
+Modelul juridic se axează pe faptul că dreptul de restricționare a libertății individuale îi revine doar autorității judecătorești, reducându-se astfel rolul psihiatrilor.
+
+În ultimele două decenii, Uniunea Europeană și statele sale membre au elaborat împreună o abordare comună pentru a viza implicațiile în materie de securitate și sănătate ale traficului de droguri și ale consumului de droguri.
+
+Abordarea UE se bazează pe:
+
+\- dovezi privind ceea ce funcționează și ce nu funcționează în ceea ce privește politicile și măsurile
+
+\- echilibrul dintre reducerea ofertei de droguri și reducerea cererii de droguri - multidisciplinaritate, având în vedere caracterul transversal al fenomenului drogurilor
+
+\- inovare și previziune, având în vedere complexitatea situației și a pieței drogurilor
+
+\- respectarea drepturilor omului, egalitatea de gen și echitatea în materie de sănătate
+
+\- participarea și implicarea societății civile
+
+Această abordare a fost consacrată în Strategia UE în materie de droguri 2013-2020 și reafirmată în Strategia UE în materie de droguri 2021-2025, aprobată de Consiliu în decembrie 2020.
+
+Studiile desfășurate au scos în evidență o serie de asemănări, dar dincolo de acestea, există o multitudine de aspecte care diferențiază legislațiile țărilor europene.
+
+Asemănările se întâlnesc în modelul medical, regăsindu-se o viziune unitară privitoare la criteriile de diagnostic și algoritmii tratamentului de urgență al pacientului dependent.
+
+Diferențele vizează:
+
+1\. prezența unui expert medical în procedura de internare nevoluntară;
+
+2\. prezența validării din partea instanței judecătorești a internării nevoluntare;
+
+3\. criteriile de limitare în timp a duratei internării nevoluntare diferă;
+
+4\. obligativitatea prezenței unui reprezentant legal al drepturilor și intereselor pacientului;
+
+5\. motivele pentru care se aprobă internarea nevoluntară la care se adaugă gradul înalt de periculozitate al comportamentului pentru sine sau pentru alții al pacientului.
+
+Criteriul periculozității a adus cele mai multe critici din partea apărătorilor drepturilor omului, astfel că unele țări au înlocuit recent periculozitatea pentru societate a pacientului cu un alt criteriu – și anume, nevoia de tratament (the need for treatment).
+
+Principalele motive pentru internările nevoluntare rămân gradul înalt de periculozitate pentru alte persoane și pentru sine.
+
+Respectarea obținerii consimțământul pacientului în funcție de starea mintală a pacientului, de normele spirituale sau etice este un factor decisiv în inițierea oricărei forme de terapie.
+
+În acest mod consimțământul informat reprezintă un mijloc de apărare, de autonomie, în această situație pacientul își poate exprima dreptul de fi consultat de un alt profesionist din domeniul sănătății și de a prim ice ma bună terapie.
+
+Există momente în care aceste aspecte capătă o turnură diferită, iar pacientul refuză să își exprime consimțământul în ceea ce privește consultul, diagnosticul, tratamentul sau chiar internarea (supraveghere și monitorizare) în spital sau centru de tratament. Efectele la nivel individual ale consumului de droguri, sunt legate de dependența fizică și psihică, precum și de supradoza în consum.
+
+Dependența fizică este dată de reacția organismului uman la consumul de droguri. Astfel, substanțele chimice din drog se integrează în organism, chiar dacă ele sunt toxice, iar atunci când corpul uman simte nevoia de aceste substanțe și nu le primește la timp, corpul intră în alertă violentă, exprimată prin stare generală alterată, grețuri, vomă, diaree, transpirație, tahicardie, dureri, spasme, tremurături, etc.
+
+Dependența psihică se manifestă prin nevoia irezistibilă a persoanelor consumatoare de droguri, de a folosi drogul pentru a influența, a schimba sau a controla dispoziția sufletească, sentimentele sau chiar conștiința de sine. Supradoza reprezintă un consum în exces de droguri, care afectează în mod periculos starea de sănătate fizică și mentală, putând conduce la comă sau deces. În condițiile supradozei, drogurile acționează asupra creierului, controlând astfel celelalte părți ale corpului și funcțiile lor
+
+Astfel, spre exemplu, în cazul consumului de droguri sever în care pacientul reprezintă un pericol pentru sine sau pentru societate, având un marcat caracter de imprevizibilitate, cu potențial de autoagresivitate și de heteroagresivitate fizică sau verbală, pacientul nu prezintă conștiința bolii, deficienței sale.
+
+Internarea nevoluntară poate fi percepută ca o formă ce încalcă drepturile pacientului, însă în cazul în care persoana reprezintă un pericol pentru sine sau pentru alții poate fi internată prin procedura de internare nevoluntară.
+
+În aceste situații, familia, medicul de familie, medicul curant psihiatru, organele abilitate (reprezentanți ai administrației publice locale, poliție, jandarmerie, pompieri, procuror, instanță de judecată civilă), în cazul în care consideră oportună necesitatea internării printr-o cerere scrisă, datată (data, ora) și semnată, care conține date de identificare ale persoanei care întocmește cererea, calitatea acestei persoanei, datele de identificare ale pacientului, expunerea detaliată a argumentelor ce au dus la necesitatea acestui act.
+
+Considerăm că în acest delicat echilibru între drepturile fundamentale, printre care se numără evident libertatea individului, care este cea afectată în cazul internării nevoluntare, și nevoia pacientului de a fi tratat corespunzător stării sale, în raport cu gradul de pericol pe care manifestarea patologică o determină, există o justificare a instituției juridice. Este însă extrem de necesară o profundă analiză a modului de aplicare, o revizuire teoretică și aplicată, pe baza modelelor de bune practici din alte sisteme de sănătate.
+
+România are nevoie de o schimbare radicală a abordării consumului de droguri, inspirată de modelele statelor în care aceste politici și-au dovedit eficiența și anume sprijinirea consumatorilor pentru a accesa îngrijire bazată pe tratamente de reabilitare, servicii de reducere a efectelor nocive și alte servicii medicale și sociale.
+
+Intervenția medicală în cazul pacientului consumator a eșuat, pentru că ea nu abordează persoana din perspectivă psiho-socio-medicală, ci se concentrează strict pe simptomatologie (intoxicație, sevraj, manifestări psihice/psihotice), fără a include un plan care să ajute real pe termen mediu și lung în ceea ce privește recăderile și riscurile asociate consumului.
+
+Programele existente de urmărire a evoluției pacientului consumator există de cele mai multe ori doar la nivel teoretic, de foarte mulți ani, 80% din bugetul Agenției Naționale Antidrog se duce pe plata salariilor, deși Agenția funcționează de aproape 20 de ani, consumul de droguri tot crește. În anul 2022, din bugetul de 32 de milioane de lei anual, 26 de milioane s-au cheltuit cu plata salariilor personalului, iar sub 20% din bani s-au alocat pentru implementarea de programe.
+
+În România, în momentul de față serviciile adresate consumatorilor de droguri, atât în ceea ce privește activitatea de reducere a riscurilor asociate consumului de droguri, cât și serviciile specializate sunt disponibile la nivel teoretic atât pentru persoanele consumatoare din marile orașe ale țării, cât și pentru persoanele consumatoare aflate în sistemul penitenciar.
+
+Este esențială sprijinirea persoanelor consumatoare să acceseze servicii specializate și, astfel, să fie redus numărul deceselor, respectiv al spitalizărilor.
+
+În cursul anului 2025, de când am început documentarea pentru această inițiativă, am discutat pe rand cu persoane aflate în această situație, cu aparținători, parinți, rude, prieteni, dar am facut un efort susținut și în ceea ce privește deschiderea unui dialog cu instituțiile responsabile.
+
+De ce am insistat în acest demers?! Pentru ca îmi doresc cea mai bună soluție pentru a rezolza aceasta lipsă de acțiune, pentru că am vrut să înțeleg cum gândesc cei responsabili, cum văd ei soluțiile, dacă le văd, dacă există disponibilitate pentru rezolvare sau cel puțin ameliorare. Toate întrebările pe care le-am considerat a fi necesare pentru a-mi contura o idee în ceea ce privește modificarea legislativă se pot vedea pe pagina Camerei Deputaților, ele au fost transmise sub formă de întrebări sau interpelări, către conducerea Agenției Naționale Antidrog, ministrului de Interne, tot acolo pot fi consultate și răspunsurile.
+
+De asemenea, o serie de publicații locale sau naționale și/sau televiziuni au alocat un spațiu consistent dezbaterii soluției pe care am văzut-o anul ttrecut, părerea, în majoritatea situațiilor, a fost una pozitivă, în sensul că există o speranță, fie ea și de rezolvare parțială, și anume a persoanelor dependente pe care de cele mai multe ori și statul și anturajul le abandonează, ajungând să se afunde și mai mult.
+
+Am folosit din această corespondență, din opiniile celor care au fost întrebați, sugestia privind sediul materiei, și anume, corelat cu dispozițiile Legii sănătății mintale și a protecției persoanelor cu tulburări psihice nr. 487/2002 introducerea unor dispoziții care fac referire exclusiv la cazurile dependenților pentru care în mod repetat s-a încercat reabilitatea.
+
+Motiv pentru care inițiez o nouă propunere, ținând cont și de modificarea adusă Legii sănătății mintale și a protecției persoanelor cu tulburări psihice nr. 487/2002 prin Ordonanța de urgență 147/2024 privind înființarea, organizarea și funcționarea Agenției Naționale pentru Politici și Coordonare în Domeniul Drogurilor și al Adicțiilor, a centrelor de sănătate mintală și pentru prevenirea adicțiilor, precum și pentru modificarea unor acte normative, aprobată cu modificări la sfârșitul lunii decembrie prin Legea nr. 236/2025 pentru aprobarea Ordonantei de urgentă a Guvernului nr. 147/2024 privind înființarea, organizarea si functionarea Agentiei Nationale pentru Politici si Coordonare în Domeniul Drogurilor și al Adicțiilor, a centrelor de sănătate mintală si pentru prevenirea adictiilor, precum si pentru modificarea unor acte normative.
+
+Kofi Annan laureat Nobel pentru pace și fost Secretar General al Națiunilor Unite, afirma: „drogurile au distrus multe vieți, dar politicile antidrog greșite ale guvernelor au distrus mult mai multe”, de aceea este momentul ca România să abandoneze paradigma falimentară a modelului justiției penale și să adere la filozofia sănătății publice.
+
+Deputat,
+
+Eugen NEAȚĂ
+
+## TABEL INIȚIATORI
+
+<table>
+<tbody>
+<tr><td>Nr. crt.</td><td>Nume și prenume</td><td>Formațiune politică</td><td>Semnătură</td></tr>
+<tr><td>1.</td><td>POPA OVIDU</td><td>PSD</td><td rowspan="24"></td></tr>
+<tr><td>2.</td><td>HAGIU AUGUSTIN</td><td>PSA</td></tr>
+<tr><td>3.</td><td>BEJINARIU BURETN</td><td>PSO</td></tr>
+<tr><td>4.</td><td>MINA MARIAN</td><td>PSD</td></tr>
+<tr><td>5.</td><td>MANTA CLAUDIN</td><td>PSD</td></tr>
+<tr><td>6.</td><td>BUDAI MARIUS CONSTANTIN</td><td>PSD</td></tr>
+<tr><td>7.</td><td>AMET VARGOL</td><td>MINO</td></tr>
+<tr><td>8.</td><td>CHILOF CUNA NOELA</td><td>PSA</td></tr>
+<tr><td>9.</td><td>MTHUFI BOYDAU</td><td>PSD</td></tr>
+<tr><td>10.</td><td>BOYDAU SIUCO</td><td>PSD</td></tr>
+<tr><td>11.</td><td>MARGARIT MARIUS</td><td>PSA</td></tr>
+<tr><td>12.</td><td>SANDU DIORICA</td><td>PSD</td></tr>
+<tr><td>13.</td><td>RINDER ANA DYNEANDA</td><td>PSD</td></tr>
+<tr><td>14.</td><td>TOMOESCU ION ACIIX</td><td>PSD</td></tr>
+<tr><td>15.</td><td>TOMA CUÊ</td><td>PSD</td></tr>
+<tr><td>16.</td><td>PRECRU P VOUCHER</td><td>PSU</td></tr>
+<tr><td>17.</td><td>AAOMNICAI NIRELA</td><td>PSA</td></tr>
+<tr><td>18.</td><td>LIPA GLITABETA</td><td>PSB</td></tr>
+<tr><td>19.</td><td>JUNGU RENCO LONIC</td><td>PSB</td></tr>
+<tr><td>20.</td><td>GOVER NIECEA</td><td>PSO</td></tr>
+<tr><td>21.</td><td>CIVIHT IONEC</td><td>PSD</td></tr>
+<tr><td>22.</td><td>LAFUȘA IV REMUS</td><td>PSD</td></tr>
+<tr><td>23.</td><td>CONSTRANINECU TÀXON</td><td>PSD</td></tr>
+<tr><td>24.</td><td>ION SANMOILA</td><td>PSD</td></tr>
+<tr><td>25.</td><td></td><td></td><td></td></tr>
+</tbody>
+</table>

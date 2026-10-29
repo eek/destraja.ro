@@ -1,0 +1,27 @@
+# PARLAMENTUL ROMÂNIEI
+
+# SENAT
+
+LEGE
+
+## pentru modificarea Ordonanței Guvernului nr.80/2001 privind stabilirea unor normative de cheltuieli pentru autoritățile administrației publice și instituțiile publice
+
+## Senatul adoptă prezentul proiect de lege
+
+Articol unic.- (1) Prin derogare de la prevederile art.5 alin.(3) din Ordonanța Guvernului nr.80/2001 privind stabilirea unor normative de cheltuieli pentru autoritățile administrației publice și instituțiile publice, aprobată cu modificări prin Legea nr.247/2002, cu modificările și completările ulterioare, Agenția Națională pentru Administrarea Domeniilor Statului, Pescuit și Acvacultura, denumită în continuare ANADSPA, are în dotare un număr total de 115 autovehicule, repartizat astfel:
+
+a) 78 pentru desfășurarea activităților specific;
+
+b) 9 autospeciale;
+
+c) 28 autoutilitare.
+
+(2) Limita maximă litri/lună pentru autovehiculele din dotarea ANADSPA se va stabili prin ordin al ministrului agriculturii și dezvoltării rurale.
+
+(3) ANADSPA mai utilizează pentru accesul în zonele de luciu de apă și un număr de 12 bărci pescărești din fibră de sticlă (motor și peridoc), 9 șalupe fluviale de control și 6 șalupe maritime de control, 10 bărci gonflabile cu cocă rigidă și motor, cu o limită maximă litri/lună/barcă/șalupă ce se stabilește în limitele prevederilor bugetare. ANADSPA mai utilizează un număr de 3 ambarcațiuni transport- aprovizionare, precum și 4 autoutilitare frigorifice. Pentru acestea nu se stabilește și nu se alocă consum lunar de carburanți.
+
+Acest proiect de lege a fost adoptat de Senat în ședința din 24 august 2026, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.
+
+PREȘEDINTEĂE SENATULUI
+
+MIRCEA ABRUDEAN

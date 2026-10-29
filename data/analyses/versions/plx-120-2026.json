@@ -1,0 +1,112 @@
+{
+  "slug": "plx-120-2026",
+  "billId": "PL-x 120/2026",
+  "updatedAt": "2026-10-29T12:40:35.731Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L570FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Revin fermele de blană: se anulează interdicția din 2027 pentru nurci și șinșile",
+      "summaryTlDr": "Textul e clar și constituțional, dar anulează complet o politică deja adoptată, fără date verificabile și fără nicio măsură de biosecuritate în loc. Proiectul e încă la comisii, iar interdicția intră în vigoare peste două luni, așa că produce chiar imprevizibilitatea pe care inițiatorii spun că vor s-o elimine.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/20/0/se105.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Fermele de blană de nurcă și șinșilă nu mai sunt interzise din 2027",
+      "summaryTlDr": "Este o lege de un singur articol, clară juridic, care anulează interdicția fermelor de nurcă și șinșilă înainte ca aceasta să se aplice. Nu are capcane ascunse, dar inversează o politică publică adoptată anterior, a trecut tacit prin Senat și se sprijină doar pe afirmații neverificate din Expunerea de motive.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat tacit textul neschimbat: interdicția fermelor de nurci și șinșile tot se abrogă",
+      "summary": "Textul a rămas identic: articolul unic abrogă în continuare interdicția din 2027 privind șinșilele și nurcile, fără condiții sau tranziție. Senatul l-a adoptat tacit, fără dezbatere, iar Camera Deputaților decide final.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Abrogă interdicția din 2027 pentru creșterea și uciderea comercială a șinșilelor și nurcilor",
+            "major": true,
+            "article": "art. unic"
+          },
+          {
+            "text": "Nicio condiție nouă pentru ferme: fără plafon, biosecuritate sau prevenirea evadărilor",
+            "major": true,
+            "article": "art. unic"
+          },
+          {
+            "text": "Nu are normă tranzitorie dacă legea intră în vigoare după 1 ianuarie 2027",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Adoptat tacit de Senat, fără dezbatere și fără vot",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Motivarea nu are date verificabile: ferme, efective, locuri de muncă sau studiu de impact",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Certificarea Welfur, schemă a industriei, e prezentată drept recunoaștere europeană",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Suspendările temporare din pandemie sunt numite «reevaluări științifice»",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Omite statele europene care au interzis activitatea: Austria, Belgia, Olanda, Cehia, Slovacia, Croația",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Ignoră riscul nurcilor evadate pentru nurca europeană din Deltă și focarele SARS-CoV-2",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Fermele de șinșile și nurci pot funcționa în continuare după 1 ianuarie 2027",
+            "major": true,
+            "article": "art. unic"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 3,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:38:01.720Z"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+ROMANIA
+
+LEGE privind modificarea și completarea Legii nr. 227/2015 privind Codul fiscal
+
+EXPUNERE DE MOTIVE
+
+1\. Necesitatea reglementării
+
+În ultimii ani, la nivelul administrației publice locale s-a înregistrat o diversificare și, în unele cazuri, o multiplicare a taxelor locale instituite prin hotărâri ale consiliilor locale, în temeiul
+
+Autonomia locală, consacrată de art. 120 și art. 121 din Constituția României, reprezintă un principiu esențial al organizării administrative. Ea include autonomia financiară și dreptul autorităților locale de a stabili taxe și impozite în limitele legii.
+
+Totuși, această competență nu este una discreționară. Exercitarea ei trebuie realizată în strictă concordanță cu art. 56 alin. (2) din Constituție, care consacră principiul justei așezări a sarcinilor fiscale. Acest principiu presupune proporționalitate, echitate și corelare între sarcina impusă contribuabilului și serviciul sau beneficiul public care justifică respectiva taxă.
+
+În practică, au existat situații în care anumite taxe locale au fost instituite fără o fundamentare economică detaliată, fără o prezentare publică a costurilor reale și fără o descriere clară a serviciului prestat. În unele cazuri, cuantumul taxei nu a fost corelat transparent cu cheltuielile efective ale autorității publice.
+
+Aceasță realitate produce efecte juridice și economice concrete.
+
+În primul rând, se afectează predictibilitatea fiscală la nivel local. Contribuabilul trebuie să cunoască nu doar cuantumul obligației fiscale, ci și temeiul economic al acesteia. Lipsa fundamentării explicite creează incertitudine și dificultăți în planificarea financiară, în special pentru mediul de afaceri.
+
+În al doilea rând, se generează litigii în contencios administrativ. Hotărârile de consiliu local prin care se instituie taxe insuficient fundamentate sunt frecvent contestate, ceea ce conduce
+
+În al treilea rând, apare percepția unei sarcini fiscale disproporționate. Atunci când contribuabilul nu are acces la justificarea economică a taxei, încrederea în autoritatea publică scade. Relația dintre administrație și comunitate se tensionează, iar legitimitatea deciziei fiscale este pusă sub semnul întrebării.
+
+ROMANIA In prezent, Codul fiscal reglementează categoriile de taxe locale și limitele maxime ale acestora, însă nu consacră expres obligația corelării cuantumului taxei cu costul rezonabil al serviciului prestat și nici obligația publicării unei fundamentări economice detaliate. Această lacună normativă nu înseamnă că autoritățile locale acționează în afara legii, ci că standardul de transparență și justificare economică nu este formulat explicit în Codul fiscal. În absența unei prevederi clare, aplicarea principiului proporționalității rămâne implicită și susceptibilă de interpretări neunitare. Lipsa unei obligații exprese de fundamentare și de publicare a acesteia reduce transparența procesului decizional și poate conduce la dezechilibre între interesul colectivității de a finanța serviciile publice și dreptul contribuabilului la o sarcină fiscală proporțională și justificată.
+
+În acest context, intervenția legislativă devine necesară pentru a consolida cadrul juridic existent, pentru a întări aplicarea principiului constituțional al justei așezări a sarcinilor fiscale și pentru a asigura un echilibru clar între autonomia locală și protecția contribuabilului.
+
+2\. Schimbările preconizate
+
+Prezenta inițiativă legislativă intervine punctual asupra Legii nr. 227/2015 privind Codul fiscal, în scopul consolidării cadrului normativ aplicabil taxelor locale, fără a modifica arhitectura fiscală existentă și fără a afecta competențele autorităților administrației publice locale.
+
+Reglementarea introduce trei elemente esențiale, cu rol de clarificare și întărire a standardului constituțional în materie fiscală.
+
+1\. Consacrarea expresă a principiului proporționalității și al justificării economice Prin introducerea art. 454', legea consacră în mod explicit, la nivelul Codului fiscal, obligația respectării principiului proporționalității și al justei așezări a sarcinilor fiscale, prevăzut la art. 56 alin. (2) din Constituția României.
+
+Taxele locale vor trebui stabilite în corelație directă cu un serviciu public sau cu o activitate administrativă determinabilă, prestată în beneficiul contribuabililor. Cuantumul taxei nu va putea depăși costul rezonabil al serviciului prestat.
+
+Această intervenție legislativă nu creează un principiu nou, ci îl explicitează și îl operationalizează la nivel infraconstituțional. Se oferă astfel un reper clar atât pentru autoritățile locale, cât și pentru contribuabili și instanțele de judecată. 2. Instituirea obligației de fundamentare economică și socială
+
+Prin introducerea art. 491', se instituie obligația elaborării unei note de fundamentare pentru instituirea sau majorarea unei taxe locale.
+
+ROMANIA Această notă va include justificarea necesității taxei, descrierea serviciului sau activității administrative, estimarea costurilor, impactul bugetar și impactul socio-economic. Publicarea notei de fundamentare cu minimum 30 de zile înainte de adoptarea hotărârii consolidează transparența decizională și permite exercitarea efectivă a dreptului la informare și participare, în condițiile Legii nr. 52/2003.
+
+Măsura nu generează sarcini administrative excesive. Ea formalizează o analiză care, în mod firesc, ar trebui să stea la baza oricărei decizii fiscale responsabile.
+
+3\. Clarificarea răspunderii administrative
+
+Prin introducerea art. 493', se clarifică faptul că nerespectarea obligației de fundamentare constituie abatere administrativă, cu aplicarea regimului de răspundere prevăzut de legislația existentă privind statutul aleșilor locali și al funcționarilor publici.
+
+Legea nu instituie un regim sancționator paralel și nu creează norme punitive autonome. Ea face trimitere la cadrul juridic deja în vigoare, respectând principiul legalității sancțiunii și evitând suprapunerea normativă.
+
+Prezenta reglementare nu restrânge autonomia locală consacrată constituțional. Nu interzice instituirea taxelor locale și nu limitează competența consiliilor locale în limitele prevăzute de Codul fiscal.
+
+Autoritățile locale își păstrează libertatea de a decide asupra politicii fiscale locale, însă această libertate este exercitată în mod transparent, proporțional și justificat economic.
+
+Legea introduce un standard clar de responsabilitate și transparență, care consolidează legitimitatea deciziilor fiscale la nivel local, reduce riscul litigiilor și întărește încrederea contribuabililor în administrația publică.
+
+3\. Impactul socio-economic
+
+Adoptarea prezentei legi produce efecte directe asupra mediului economic, asupra administrației publice locale și asupra relației dintre contribuabil și autoritatea fiscală locală. În primul rând, prin corelarea expresă a taxei locale cu costul rezonabil al serviciului prestat, se consolidează stabilitatea fiscală la nivel local. Contribuabilul va cunoaște nu doar cuantumul obligației, ci și justificarea economică a acesteia. Această claritate reduce riscul perceperii unor taxe disproporționate și întărește încrederea în administrația locală. În al doilea rând, se reduce potențialul conflictual. In practică, o parte semnificativă a litigiilor în contencios administrativ vizează legalitatea hotărârilor consiliilor locale privind taxele. Introducerea unei obligații explicite de fundamentare economică diminuează riscul adoptării unor acte insuficient motivate și, implicit, reduce presiunea asupra instanțelor și costurile administrative generate de litigii.
+
+ROMANIA În al treilea rând, crește predictibilitatea pentru mediul de afaceri. Investitorii și operatorii economici au nevoie de un cadru fiscal stabil și transparent pentru a putea planifica activitatea pe termen mediu și lung. Publicarea prealabilă a notei de fundamentare permite anticiparea impactului fiscal și formularea de observații înainte de adoptarea hotărârii. Măsura contribuie, totodată, la consolidarea disciplinei bugetare la nivel local. Autoritățile administrației publice locale vor fundamenta mai riguros nivelul taxelor, în raport cu costurile reale ale serviciilor prestate. Această corelare limitează riscul supraevaluării veniturilor proprii și stimulează o planificare bugetară realistă. Obligația publicării notei de fundamentare cu cel puțin 30 de zile înainte de adoptare întărește aplicarea efectivă a Legii nr. 52/2003 privind transparența decizională în administrația publică. Contribuabilii, organizațiile profesionale și societatea civilă pot analiza impactul măsurii și pot formula observații argumentate. Procesul decizional devine mai deschis și mai responsabil. Impactul bugetar asupra bugetului de stat este nul. Legea nu introduce cheltuieli suplimentare și nu afectează veniturile bugetare centrale. Reglementarea vizează exclusiv cadrul de fundamentare a taxelor locale, fără a modifica sistemul de impozite și taxe naționale. La nivel local, efectul este unul de eficientizare și responsabilizare. Măsura nu reduce veniturile autorităților locale, ci impune corelarea lor cu o analiză economică adecvată. În acest mod, se asigură echilibrul între necesitatea finanțării serviciilor publice locale și protecția contribuabilului împotriva unor sarcini fiscale nejustificate. Prin urmare, impactul socio-economic al prezentei inițiative este pozitiv, contribuind la stabilitate fiscală, transparență decizională și consolidarea relației de încredere dintre administrația publică locală și comunitate.
+
+4\. Impactul asupra sistemului juridic Prezenta inițiativă legislativă este pe deplin conformă cadrului constituțional și legal în vigoare și nu afectează echilibrul instituțional existent între autoritățile administrației publice locale, instanțele judecătorești și contribuabili. Reglementarea se fundamentează în mod direct pe art. 56 alin. (2) din Constituția României, care consacră principiul justei așezări a sarcinilor fiscale. Prin introducerea expresă a principiului proporționalității și al justificării economice a taxelor locale, legea nu creează un standard nou, ci transpune la nivel infraconstituțional o exigență deja existentă în ordinea juridică. În același timp, inițiativa respectă art. 120 și art. 121 din Constituție privind autonomia locală. Legea nu restrânge competențele consiliilor locale și nu limitează dreptul acestora de a stabili taxe în limitele Codului fiscal. Autoritățile locale își păstrează competența fiscală, însă aceasta este exercitată în condiții de transparență și proporționalitate, în concordanță cu principiile statului de drept. Jurisprudența Curții Constituționale a statuat constant că măsurile fiscale trebuie să respecte principiul proporționalității și să fie justificate în raport cu scopul urmărit. Prin introducerea obligației de fundamentare economică, prezenta lege oferă un cadru clar pentru aplicarea acestui principiu și reduce riscul unor interpretări neunitare. Legea nu instituie nulități automate și nu afectează competența instanțelor de contencios administrativ. Controlul legalității hotărârilor consiliilor locale rămâne supus procedurii judiciare prevăzute de Legea nr. 554/2004 a contenciosului administrativ. Se respectă astfel principiul separației puterilor și competența exclusivă a instanțelor de a constata eventuale vicii de legalitate.
+
+ROMANIA Reglementarea nu crecază paralelisme legislative și nu dublează dispoziții existente. Trimiterea la legislația în vigoare în materia răspunderii administrative evită instituirea unui regim sancționator distinct și respectă principiul legalității sancțiunii. Din perspectiva tehnicii legislative, inițiativa respectă cerințele Legii nr. 24/2000 privind normele de tehnică legislativă. Dispozițiile sunt clare, previzibile, delimitate și integrate coerent în structura Codului fiscal, fără a modifica arhitectura fiscală existentă și fără a genera conflicte normative. În consecință, impactul asupra sistemului juridic este unul de consolidare și clarificare, nu de restructurare. Legea întărește aplicarea principiilor constituționale în materia fiscală și contribuie la stabilitatea și coerența cadrului normativ aplicabil taxelor locale.
+
+CONCLUZII Prezenta inițiativă legislativă consolidează aplicarea efectivă a principiului constituțional al justei așezări a sarcinilor fiscale și introduce un standard clar de responsabilitate economică în materia taxelor locale. Intr-un stat de drept, exercitarea competenței fiscale trebuie să fie proporțională, justificată și transparentă. Autonomia locală reprezintă un pilon al administrației publice, însă aceasta nu poate funcționa în afara exigențelor constituționale privind echitatea fiscală și protecția contribuabilului. Legea nu limitează autonomia locală, ci o întărește prin clarificarea cadrului de exercitare. Nu elimină taxe și nu restrânge competențe. Ea introduce obligația de fundamentare și corelare a cuantumului taxei cu costul rezonabil al serviciului prestat. Prin această condiționare se consolidează legitimitatea deciziei fiscale și se reduce riscul arbitrariului. Reglementarea contribuie la stabilitate juridică, la reducerea conflictelor în contencios administrativ și la creșterea predictibilității fiscale pentru contribuabili și mediul economic. Adoptarea acestei legi reprezintă un pas concret în direcția responsabilizării administrației fiscale locale și a întăririi încrederii dintre autoritatea publică și comunitate. Parlamentul are obligația de a asigura coerența cadrului normativ și de a proteja echilibrul dintre interesul colectivității și drepturile contribuabilului. În considerarea celor expuse, supunem spre dezbatere și adoptare prezenta propunere legislativă, ca măsură necesară pentru consolidarea transparenței, proporționalității și responsabilității în fiscalitatea locală.
+
+Inițiator: Deputat Gabriela PORUMBOIU PARTIDUL OAMENILOR TINERI
+
+ventio
+
+ROMANIA
+
+TABEL SEMNĂTURI pentru sustinerea LEGII pentru modificarea și completarea Legii nr. 227/2015 privind Codul fiscal Nr. | Nume | Partid | Semnătură
+
+PORUMBONS GABRI'ELA 2. | POT NICOLAE DANI ALBU AUMITRITA | xpafiliet 4. RADUCEA VALENTA | POT 5. MATEiSERZiU ZUCiAN | 6. | GRoFU Darie) | TOT 7. | CHIRITA RAZNAN - MiREL | 70T CIMPAN CRiSTIAN |
+
+NDEPEZIDELY duatudet
+
+12\.
+
+13\.
+
+14\.
+
+15\.
+
+Inițiator: Deputat Gabriely PORUMBOIU
+
+PARTIDUL OAMENILOR TINERI
+
+ROMANIA
+
+TABEL SEMNĂTURI pentru sustinerea LEGII pentru modificarea și completarea Legii nr. 227/2015 privind Codul fiscal Nr. | Nume | Partid | Semnătură
+
+1\. ANDREi CSiLLAG | INDEPENDENT 2. CĂLIN GROZA | INDEPENISENT 3. ALBU DUMITRiTA | /HDEPEx/ DExit 4. PLOPEANU RODICA iNDEPENDENT-5. Paclisan herghe Petru | Independent
+
+8\.
+
+9\.
+
+10\.
+
+11\.
+
+12\.
+
+13\.
+
+14\.
+
+15\.
+
+Inițiator: Deputat Gabriela PORUMBOIU
+
+PARTIDUL OAMENILOR TINERI

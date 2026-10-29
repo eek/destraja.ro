@@ -1,0 +1,357 @@
+{
+  "slug": "plx-118-2026",
+  "billId": "PL-x 118/2026",
+  "updatedAt": "2026-10-29T12:40:35.726Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L568FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Prime din profit pentru angajați, fără contribuții la pensie și sănătate",
+      "summaryTlDr": "Ideea e bună, dar construcția e șubredă. Legea deschide un canal de plată cu impozit de 10% și fără CAS, CASS și CAM, nu pune plafon pe angajat și nu estimează costul pentru bugetul de pensii. În practică exclude microîntreprinderile și IMM-urile neauditate, iar greșelile de redactare trebuie corectate înainte de vot.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/10/8/se103.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Bonus din profitul firmei pentru angajați, fără contribuții la pensie și sănătate",
+      "summaryTlDr": "Ideea, ca angajații să primească o parte din profit, e bună, dar textul are găuri. Scutirea de CAS, CASS și CAM nu are plafon pe angajat și nu obligă firma să includă toți salariații, așa că poate deveni un bonus fiscal pentru manageri și rudele patronilor, plătit din bugetul de pensii și din cel de sănătate.",
+      "scores": {
+        "agy": 4,
+        "claude": 5,
+        "codex": 5
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl118_cdplx_118-26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Primă din profitul firmei pentru angajați, cu 10% impozit și fără CAS/CASS",
+      "summaryTlDr": "Pentru salariați e un stimulent real, dar textul are greșeli de trimitere și o portiță fiscală. Angajatul care deține o singură acțiune e exclus, în timp ce rudele patronului pot scoate profitul cu 10% impozit și fără contribuții, în locul dividendelor.",
+      "scores": {
+        "agy": 5,
+        "claude": 5,
+        "codex": 6
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat tacit proiectul în forma inițiatorului, fără nicio schimbare de fond",
+      "summary": "Senatul nu a votat modificări: proiectul s-a considerat adoptat tacit, în forma inițială. Diferențele sunt doar de redactare (antet, diacritice, formula finală), așa că scutirea de contribuții și riscurile ei rămân aceleași.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Sumele scapă de CAS, CASS și CAM; pierd bugetul de pensii și FNUASS",
+            "major": true,
+            "article": "art. I pct. 5–9 (art. 139, 142, 155, 157, 220⁴)"
+          },
+          {
+            "text": "Fără CAS, sumele nu aduc stagiu de cotizare și nici puncte de pensie",
+            "major": true,
+            "article": "art. 142 lit. z³)"
+          },
+          {
+            "text": "Părți din salariu sau prime pot fi mutate în participare, fără contribuții",
+            "major": true,
+            "article": "art. 25¹"
+          },
+          {
+            "text": "Fără plafon pe angajat și fără obligația de a include toți salariații",
+            "major": true,
+            "article": "art. 25¹ alin. (4)"
+          },
+          {
+            "text": "Criteriile le stabilește conducerea, fără sindicat; sumele pot ajunge la câțiva directori",
+            "major": true,
+            "article": "art. 25¹ alin. (5)"
+          },
+          {
+            "text": "Rudele asociaților, angajate cu CIM, nu sunt excluse; profitul poate ocoli dividendele",
+            "major": true,
+            "article": "art. 25¹ alin. (3) lit. c)"
+          },
+          {
+            "text": "O singură acțiune deținută în ultimii 5 ani exclude angajatul",
+            "major": true,
+            "article": "art. 25¹ alin. (3) lit. c)"
+          },
+          {
+            "text": "Cerința de 12 luni consecutive poate exclude angajații întorși din concedii",
+            "major": true,
+            "article": "art. 25¹ alin. (3) lit. c)"
+          },
+          {
+            "text": "Cere situații financiare auditate; IMM-urile fără audit ar plăti audit special",
+            "major": true,
+            "article": "art. 25¹ alin. (2)"
+          },
+          {
+            "text": "Microîntreprinderile sunt excluse; facilitatea e doar pentru plătitorii de impozit pe profit",
+            "major": true,
+            "article": "art. 25¹ alin. (1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Angajații primesc mai mult net: doar impozit de 10%, fără contribuții",
+            "major": true,
+            "article": "art. 114 alin. (2) lit. n)"
+          },
+          {
+            "text": "Plafon total de 15% din profitul brut al anului precedent",
+            "major": true,
+            "article": "art. 25¹ alin. (4)"
+          },
+          {
+            "text": "Doar firmele cu profit și fără datorii fiscale scadente pot acorda participarea",
+            "major": true,
+            "article": "art. 25¹ alin. (3) lit. a) și b)"
+          },
+          {
+            "text": "Asociații, acționarii și administratorii nu pot primi participarea la profit",
+            "major": true,
+            "article": "art. 25¹ alin. (3) lit. c)"
+          },
+          {
+            "text": "Sumele acordate peste limite sunt tratate ca salarii, cu tot regimul fiscal",
+            "major": true,
+            "article": "art. 25¹ alin. (8)"
+          },
+          {
+            "text": "Evidență distinctă și documente justificative obligatorii pentru sumele acordate",
+            "major": false,
+            "article": "art. 25¹ alin. (7)"
+          },
+          {
+            "text": "Normele trebuie să arate cum se justifică criteriile obiective și cum se controlează",
+            "major": false,
+            "article": "art. II alin. (2)"
+          },
+          {
+            "text": "Se aplică doar profiturilor din exerciții încheiate după intrarea în vigoare",
+            "major": false,
+            "article": "art. II alin. (1)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 18,
+        "removed": 20,
+        "same": 0.49
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:37:18.984Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_putin_riscant",
+      "headline": "Acum fiecare angajat poate primi cel mult salariul net pe 12 luni, iar salariul de bază trebuie păstrat",
+      "summary": "Camera a pus un plafon pe angajat, a legat facilitatea de păstrarea salariului de bază, a cerut 24 de luni vechime și a exclus firmele de stat. Riscul de abuz scade, dar banii rămân fără CAS și CASS: bugetele pierd, iar angajatul nu strânge puncte de pensie pe ei.",
+      "changes": [
+        {
+          "title": "Plafon per angajat: salariul net din ultimele 12 luni",
+          "text": "Art. 25² alin. (10)-(11): fiecare angajat poate primi cel mult veniturile salariale nete încasate de la același angajator în ultimele 12 luni. Inițial exista doar plafonul total de 15% din profit.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 25² alin. (10)",
+          "before": null,
+          "after": "Cuantumul venitului din participarea la profit acordat unui angajat beneficiar nu poate depăși, pe an financiar, totalul veniturilor salariale nete încasate de acesta de la același angajator în ultimele 12 luni anterioare lunii în care se efectuează plata.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Salariul de bază trebuie păstrat tot anul",
+          "text": "Art. 25² alin. (9) condiționează facilitatea de păstrarea salariului de bază brut al fiecărui beneficiar pe tot anul. Inițial, firma putea înlocui o parte din salariu cu participare fără contribuții.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 25² alin. (9)",
+          "before": null,
+          "after": "este condiționată de menținerea, pentru fiecare angajat beneficiar, a salariului de bază brut lunar prevăzut în contractul individual de muncă aflat în plată la data acordării, pe durata întregului an financiar care face obiectul realizării profitului brut",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Vechime cerută: 24 de luni în loc de 12",
+          "text": "Art. 25² alin. (3) lit. c): primesc doar angajații cu minimum 24 de luni vechime neîntreruptă, nu 12. Se numără și perioadele de dinainte de un transfer, o fuziune sau o divizare.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 25² alin. (3) lit. c)",
+          "before": "angajatul beneficiar a lucrat efectiv în cadrul contribuabilului cel puțin 12 luni consecutive la data acordării venitului",
+          "after": "angajatul beneficiar a avut un raport de muncă cu același angajator și o vechime neîntreruptă de minimum 24 de luni, calculată la data efectuării plății",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Participarea poate fi plătită și în cursul anului",
+          "text": "Art. II alin. (2): participarea poate fi plătită în timpul anului, pe baza situațiilor financiare interimare. Dacă la final depășește plafonul, diferența se recuperează sau se reîncadrează fiscal.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. II alin. (2)",
+          "before": null,
+          "after": "Veniturile prevăzute la alin. (1) pot fi acordate și în cursul exercițiului financiar, în baza situațiilor financiare interimare",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Companiile și regiile de stat nu pot folosi facilitatea",
+          "text": "Art. III exclude companiile cu capital majoritar de stat și regiile autonome. Bugetul pierde mai puțin, dar angajații acestor firme nu au acces la facilitate.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. III",
+          "before": null,
+          "after": "Companiile cu capital majoritar de stat, precum și regiile autonome, agențiile și autoritățile statului nu vor folosi facilitatea prevăzută la art. 25²",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dispare termenul de 60 de zile pentru norme",
+          "text": "Inițial, Ministerul Finanțelor avea 60 de zile să stabilească prin norme criteriile, documentele și controlul. Acum legea trimite la norme, dar nu spune cine le face și până când.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. II alin. (2)",
+          "before": "În termen de 60 de zile de la intrarea în vigoare a prezentei legi, Ministerul Finanțelor va elabora norme metodologice pentru aplicarea dispozițiilor privind participarea angajaților la profit",
+          "after": "diferența se recuperează sau se reîncadrează fiscal, după caz, potrivit normelor metodologice.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Sumele nu plătesc CAS, CASS și CAM; bugetele de pensii și sănătate pierd",
+            "major": true,
+            "article": "art. 139, 142, 155, 157, 220⁴"
+          },
+          {
+            "text": "Angajatul nu acumulează stagiu de cotizare și puncte de pensie pe acești bani",
+            "major": true,
+            "article": "art. 142 lit. y¹)"
+          },
+          {
+            "text": "Conducerea decide repartizarea, fără sindicat și fără obligația de a include toți angajații",
+            "major": true,
+            "article": "art. 25² alin. (5)"
+          },
+          {
+            "text": "Rudele asociaților angajate cu CIM nu sunt excluse; profitul poate ieși cu 10%",
+            "major": true,
+            "article": "art. 25² alin. (3) lit. c)"
+          },
+          {
+            "text": "Un angajat cu o singură acțiune pierde dreptul timp de 5 ani",
+            "major": true,
+            "article": "art. 25² alin. (3) lit. c)"
+          },
+          {
+            "text": "Plățile din cursul anului pot fi recuperate dacă depășesc plafonul anual",
+            "major": true,
+            "article": "art. II alin. (2)"
+          },
+          {
+            "text": "Plafonul legat de salariu le permite celor mai bine plătiți sume mai mari",
+            "major": false,
+            "article": "art. 25² alin. (10)"
+          },
+          {
+            "text": "Deductibilitatea prezentată ca noutate există deja pentru salarii; câștigul real e scutirea",
+            "major": false,
+            "article": "art. 25² alin. (6)"
+          },
+          {
+            "text": "Normele metodologice invocate nu au termen și nici instituție responsabilă",
+            "major": false,
+            "article": "art. II alin. (2)"
+          },
+          {
+            "text": "Alin. (12) trimite greșit la alin. (11); plafonul e la alin. (10)",
+            "major": false,
+            "article": "art. 25² alin. (12)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Fiecare angajat poate primi cel mult salariul net din ultimele 12 luni",
+            "major": true,
+            "article": "art. 25² alin. (10)"
+          },
+          {
+            "text": "Salariul de bază trebuie păstrat, nu poate fi înlocuit cu participare",
+            "major": true,
+            "article": "art. 25² alin. (9)"
+          },
+          {
+            "text": "Totalul pentru toți angajații e limitat la 15% din profitul anului precedent",
+            "major": true,
+            "article": "art. 25² alin. (4)"
+          },
+          {
+            "text": "Angajatul primește mai mult net: 9.000 lei din 10.000, față de circa 5.850",
+            "major": true,
+            "article": "art. 114 alin. (2) lit. m³), art. 115"
+          },
+          {
+            "text": "Acționarii, asociații și administratorii sunt excluși, chiar dacă sunt salariați",
+            "major": true,
+            "article": "art. 25² alin. (3) lit. c), alin. (9)"
+          },
+          {
+            "text": "Sumele acordate peste limite se impozitează ca salarii",
+            "major": true,
+            "article": "art. 25² alin. (8)"
+          },
+          {
+            "text": "Facilitatea cere profit din situații auditate și obligații fiscale la zi",
+            "major": true,
+            "article": "art. 25² alin. (2)-(3)"
+          },
+          {
+            "text": "Vechimea de la angajatorul anterior contează la transfer, fuziune sau divizare",
+            "major": true,
+            "article": "art. 25² alin. (3) lit. c)"
+          },
+          {
+            "text": "Firmele și regiile de stat nu pot folosi facilitatea, deci bugetul pierde mai puțin",
+            "major": true,
+            "article": "art. III"
+          },
+          {
+            "text": "Firma trebuie să țină evidență separată și documente justificative",
+            "major": false,
+            "article": "art. 25² alin. (7)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 36,
+        "removed": 27,
+        "same": 0.18
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:40:35.726Z"
+    }
+  ]
+}

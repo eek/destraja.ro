@@ -1,0 +1,97 @@
+{
+  "slug": "plx-552-2026",
+  "billId": "PL-x 552/2026",
+  "updatedAt": "2026-10-29T13:06:45.275Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L374FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "ONG-urile și unitățile de cult pot plăti legal zilieri, chiar fără cod CAEN",
+      "summaryTlDr": "Lege tehnică și utilă: ONG-urile și unitățile de cult primesc o bază clară ca să plătească legal munca ocazională, în loc să o plătească la negru. Riscul e mic, dar noul alin. (3) e scris neglijent și trebuie corectat în comisie.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/50/2/se590.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "ONG-urile, parohiile și alte unități de cult pot plăti legal zilieri",
+      "summaryTlDr": "Lege tehnică și utilă: asociațiile, fundațiile și unitățile de cult pot plăti legal muncă ocazională, în loc să o plătească la negru. Problema reală este redactarea noului art. 13 alin. (3), care inversează rolurile și s-ar putea să nu acopere tocmai entitățile vizate.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a păstrat textul inițiatorului; s-au corectat doar trimiterile la art. 1 alin. (1)",
+      "summary": "Forma adoptată de Senat păstrează fondul formei inițiatorului: aceeași listă de beneficiari și același acces la zilieri pentru cei fără cod CAEN. S-au corectat doar trimiterile și formulele de adoptare; defectele de redactare și problema codului CAEN rămân.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Codul CAEN din afara domeniilor permise exclude multe asociații și parohii",
+            "major": true,
+            "article": "art. 13 alin. (3)"
+          },
+          {
+            "text": "Textul spune că beneficiarii prestează activitățile, deși le prestează zilierul",
+            "major": false,
+            "article": "art. 13 alin. (3)"
+          },
+          {
+            "text": "Acord ambiguu: „prevăzute” se poate lega de activități sau de beneficiari",
+            "major": false,
+            "article": "art. 13 alin. (3)"
+          },
+          {
+            "text": "UAT-urile sunt incluse între beneficiari fără justificare în expunerea de motive",
+            "major": false,
+            "article": "art. 1 alin. (1) lit. b)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Entitățile fără cod CAEN pot folosi zilieri pentru activitățile deja permise",
+            "major": true,
+            "article": "art. 13 alin. (3)"
+          },
+          {
+            "text": "Asociațiile, fundațiile și unitățile de cult sunt numite expres, oprind interpretări neunitare",
+            "major": false,
+            "article": "art. 1 alin. (1) lit. b)"
+          },
+          {
+            "text": "Fără domenii noi; durata, remunerația minimă și drepturile zilierului rămân neschimbate",
+            "major": false,
+            "article": null
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 6,
+        "removed": 10,
+        "same": 0.14
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:55:35.124Z"
+    }
+  ]
+}

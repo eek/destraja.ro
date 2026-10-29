@@ -1,0 +1,114 @@
+{
+  "slug": "plx-125-2026",
+  "billId": "PL-x 125/2026",
+  "updatedAt": "2026-10-29T12:40:35.737Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L634FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "Agenția de salvare pe mare (ARSVOM) poate încasa bani din servicii plătite, iar statul îi taie din subvenție",
+      "summaryTlDr": "Ideea e rezonabilă: o flotă de stat folosită și pentru servicii plătite, ca să nu mai depindă doar de buget. Textul e însă scris în grabă. Nu spune că salvarea vieților rămâne gratuită și prioritară, nu cere prețuri de piață și taie subvenția «treptat», fără nicio formulă. Riscul real este concurența neloială cu firmele private din porturi, nu buzunarul cetățeanului.",
+      "scores": {
+        "agy": 3,
+        "claude": 4,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/20/5/se114.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Agenția de salvare pe mare (ARSVOM) poate încasa bani din servicii, iar statul îi reduce bugetul pe măsură ce câștigă",
+      "summaryTlDr": "Este o lege tehnică și în mare parte rezonabilă: permite agenției de salvare pe mare să încaseze bani din remorcaj, scafandrerie sau depoluare. Riscul real este clauza care reduce treptat bugetul fără niciun prag minim care să protejeze misiunea de salvare a vieții.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Senatul precizează că serviciile contra cost ale ARSVOM nu pot afecta misiunile publice de salvare",
+      "summary": "Acum legea spune că activitățile plătite ale ARSVOM nu pot afecta misiunile ei publice, dar nu stabilește ce are prioritate. Restul a rămas la fel, inclusiv salvarea pe bază contractuală și reducerea subvenției fără nicio formulă.",
+      "changes": [
+        {
+          "title": "Serviciile plătite nu trebuie să afecteze misiunile publice",
+          "text": "La art. 2¹ s-a adăugat că serviciile contra cost se fac „fără a aduce atingere” atribuțiilor de la art. 2. Garanția e generală: nu spune ce are prioritate și nici cum se retrage o navă la o urgență.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 2¹",
+          "before": "În completarea atribuțiilor prevăzute la art. 2, ARSVOM poate desfășura, pe bază contractuală, următoarele activități:",
+          "after": "În completarea atribuțiilor prevăzute la art.2, ARSVOM poate desfășura, pe bază contractuală, următoarele activități, fără a aduce atingere îndeplinirii atribuțiilor prevăzute la art.2:",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Salvarea persoanelor apare pe bază contractuală, fără garanția că rămâne gratuită",
+            "major": true,
+            "article": "art. 2¹ lit. a)"
+          },
+          {
+            "text": "Subvenția de la buget scade odată cu veniturile proprii, fără formulă, prag sau termen",
+            "major": true,
+            "article": "art. 3 alin. (1)"
+          },
+          {
+            "text": "Fără tarife la cost complet și contabilitate separată, riscă concurență neloială firmelor",
+            "major": true,
+            "article": "art. 2¹ lit. b), d), e), h), i)"
+          },
+          {
+            "text": "Nicio regulă de prioritate sau de retragere a navelor din contracte la urgențe",
+            "major": true,
+            "article": "art. 2¹"
+          },
+          {
+            "text": "Legea nu spune pe ce se cheltuie veniturile proprii ale agenției",
+            "major": false,
+            "article": "art. 3 alin. (1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Activitățile plătite nu pot afecta atribuțiile publice ale agenției",
+            "major": false,
+            "article": "art. 2¹"
+          },
+          {
+            "text": "Obligațiile de salvare pe mare și combatere a poluării rămân în lege",
+            "major": false,
+            "article": "art. 2 lit. a)-c)"
+          },
+          {
+            "text": "Porturile și firmele pot contracta agenția pentru depoluare, incendii sau spargerea gheții",
+            "major": false,
+            "article": "art. 2¹ lit. c), h), i)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 12,
+        "removed": 11,
+        "same": 0.43
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:38:50.896Z"
+    }
+  ]
+}

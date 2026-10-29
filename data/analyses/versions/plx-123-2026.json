@@ -1,0 +1,176 @@
+{
+  "slug": "plx-123-2026",
+  "billId": "PL-x 123/2026",
+  "updatedAt": "2026-10-29T12:40:35.736Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L599FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Specialiști cu experiență și maximum 8 ani în comisiile care dau certificatele de handicap",
+      "summaryTlDr": "Lege utilă, bine intenționată și cu impact bugetar neglijabil: profesionalizează și rotește comisiile care acordă gradul de handicap. Redactarea e însă grăbită: revocare fără motive prevăzute de lege, un prag tranzitoriu incoerent și risc de blocare a comisiilor. Toate se pot repara în comisiile Camerei.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/20/3/se112.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Comisiile care dau certificatul de handicap: membri cu experiență și cel mult două mandate",
+      "summaryTlDr": "Este o lege utilă, cu o direcție bună: cere ca psihologul, asistentul social și juristul din comisie să aibă experiență în dizabilitate și rotește membrii după 8 ani. Forma votată de Senat are însă două slăbiciuni: renunță la pragul de 3 ani promis de inițiatori și lasă o portiță, prelungirile fără limită, care poate anula limita de mandate.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_riscant",
+      "headline": "Comisiile de handicap: Senatul a scos pragul de 3 ani de experiență și permite mandate prelungite nelimitat",
+      "summary": "Inițial, psihologul, asistentul social și juristul din comisiile de handicap trebuiau să aibă minimum 3 ani de experiență în ultimii 5. Acum nu mai e cerută o durată minimă, iar mandatele se pot prelungi oricât dacă nu se găsesc alți specialiști, deci limita de două mandate poate fi ocolită.",
+      "changes": [
+        {
+          "title": "Dispare pragul de 3 ani de experiență pentru specialiști",
+          "text": "Art. 85 alin. (4) lit. d)-f): inițial psihologul, asistentul social și juristul trebuiau să aibă minimum 3 ani de experiență în ultimii 5 ani. Acum se cere doar „experiență profesională”, fără durată minimă.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. I pct. 1, alin. (4) lit. d)-f)",
+          "before": "d) un psiholog cu experiență relevantă în domeniul asistenței persoanelor cu dizabilități de minimum 3 ani, acumulată în ultimii 5 ani;",
+          "after": "d) un psiholog cu experiență profesională în domeniul protecției și promovării drepturilor persoanelor cu dizabilități;",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Mandatele pot fi prelungite oricât, dacă lipsesc candidați",
+          "text": "Alin. (5³) nou: mandatul se poate prelungi „pentru perioade cu aceeași durată” când nu se găsesc alți specialiști, fără limită de prelungiri și fără anunț public care să dovedească lipsa candidaților.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. I pct. 2, alin. (5³)",
+          "before": null,
+          "after": "Prin excepție de la prevederile alin.(5²), mandatul membrilor comisiilor de evaluare se poate prelungi pentru perioade cu aceeași durată în situația în care nu pot fi identificate alte persoane/specialiști care îndeplinesc condițiile",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Experiența se poate dovedi și prin cursuri sau conferințe",
+          "text": "Alin. (5¹) nou: experiența se dovedește cu documente din oricare dintre trei categorii (formare, activitate în instituții, cercetare, conferințe sau proiecte), fără să fie stabilit cine le verifică.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. I pct. 2, alin. (5¹)",
+          "before": null,
+          "after": "(5¹) Experiența profesională în domeniul protecției și promovării drepturilor persoanelor cu dizabilități poate fi dovedită prin documente care atestă una dintre următoarele cerințe:",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Nu mai există o durată minimă de experiență pentru psiholog, asistent social, jurist",
+            "major": true,
+            "article": "art. I pct. 1, alin. (4) lit. d)-f)"
+          },
+          {
+            "text": "Mandatele se pot prelungi nelimitat, fără anunț public care să arate lipsa candidaților",
+            "major": true,
+            "article": "art. I pct. 2, alin. (5³)"
+          },
+          {
+            "text": "Directorul DGASPC poate cere revocarea unui membru fără motive prevăzute în lege",
+            "major": true,
+            "article": "art. I pct. 2, alin. (5⁵) lit. b)"
+          },
+          {
+            "text": "Art. II înlocuiește doar membrii cu peste 10 ani, deși limita e 8 ani",
+            "major": true,
+            "article": "art. II"
+          },
+          {
+            "text": "Nu e clar dacă anii lucrați înainte de lege contează ca mandate",
+            "major": true,
+            "article": "art. II"
+          },
+          {
+            "text": "Experiența se dovedește cu orice document din trei categorii, fără verificare stabilită",
+            "major": false,
+            "article": "art. I pct. 2, alin. (5¹)"
+          },
+          {
+            "text": "Se numără mandatele întrerupte prin demitere sau suspendare, care nu sunt reglementate",
+            "major": false,
+            "article": "art. I pct. 2, alin. (5⁴)"
+          },
+          {
+            "text": "Limita e de două mandate în total, nu consecutive: fără revenire după pauză",
+            "major": false,
+            "article": "art. I pct. 2, alin. (5²)"
+          },
+          {
+            "text": "Nu e clar dacă membrii vizați rămân în funcție până la numirea înlocuitorilor",
+            "major": false,
+            "article": "art. II"
+          },
+          {
+            "text": "Nu e clar dacă un membru numit pe loc vacant primește mandat întreg",
+            "major": false,
+            "article": "art. I pct. 2, alin. (5²)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Mandat de 4 ani și maximum două mandate pentru toți membrii comisiilor",
+            "major": true,
+            "article": "art. I pct. 2, alin. (5²)"
+          },
+          {
+            "text": "Membrii cu peste 10 ani în comisie sunt înlocuiți în 120 de zile",
+            "major": true,
+            "article": "art. II"
+          },
+          {
+            "text": "Mandatele întrerupte prin demisie se numără, deci limita nu se ocolește prin demisie",
+            "major": false,
+            "article": "art. I pct. 2, alin. (5⁴)"
+          },
+          {
+            "text": "Condamnarea definitivă sau interdicția de a profesa încheie mandatul",
+            "major": false,
+            "article": "art. I pct. 2, alin. (5⁵) lit. c)"
+          },
+          {
+            "text": "Comisiile pot funcționa și în județele cu puțini specialiști eligibili",
+            "major": false,
+            "article": "art. I pct. 2, alin. (5³)"
+          },
+          {
+            "text": "Noii membri sunt numiți cu avizul Autorității Naționale pentru Persoanele cu Dizabilități",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 15,
+        "removed": 11,
+        "same": 0.17
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:39:51.668Z"
+    }
+  ]
+}

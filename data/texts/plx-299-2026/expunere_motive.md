@@ -1,0 +1,95 @@
+# EXPUNERE DE MOTIVE
+
+<table>
+<tbody>
+<tr><td colspan="2">Secțiunea 1Titlul proiectului de act normativLEGE pentru aprobarea Ordonanței de urgență a Guverului privind modificarea art. XXI alin. (1) din Legea nr. 14/2025 pentru modificarea și completarea Legii cetățeniei române nr. 21/1991, precum și pentru modificarea și completarea altor acte normative</td></tr>
+<tr><td colspan="2">Secțiunea a 2-aMotivul emiterii actului normativ</td></tr>
+<tr><td colspan="2">2.1 Sursa proiectului de act normativInițiativa Ministerului Justiției</td></tr>
+<tr><td>2.2. Descrierea situațieiactuale</td><td>Prin dispozițiile art. 151 alin. (4) din Legea cetățeniei române nr. 21/1991, astfel cum au fost modificate prin Legea nr. 14/2025, s-a prevăzut faptul că acordarea cetățeniei române în temeiul art. 10 și 11 din Legea nr. 21/1991 este condiționată de cunoașterea de către solicitant a limbii române, situațiile în care solicitantul nu trebuie să facă dovada cunoașterii limbii române, în modalitățile prevăzute de lege, fiind reglementate expres și limitativ de lege.Cunoașterea limbii române consolidează sentimentul de apartenență al noilor cetățeni la națiunea română, precum și coeziunea socială și solidaritatea cetățenilor.Astfel, în conformitate cu dispozițiile art. 13 din Constituție, „În România, limba oficială este limba română”, iar cunoașterea limbii statului a cărui cetățenie o solicită este unul din principalii indicatori de integrare a solicitantului de cetățenie.Potrivit art. 151 alin. (4) lit. a) și b) din Legea nr. 21/1991, astfel cum a fost modificată și completată de Legea nr. 14/2025:„(4) Acordarea cetățeniei române în temeiul art. 10 și 11 este condiționată de cunoașterea de către solicitant a limbii române. Dovada cunoașterii limbii române se face de către solicitant prin:a) certificat de competență lingvistică eliberat de instituțiile de învățământ superior din România acreditate pentru programul de studii «An pregătitor de limba română», de Institutul Limbii Române, de Institutul Cultural Român sau de institutele culturale românești din străinătate, care atestă cunoașterea limbii române la un nivel nu mai mic decât nivelul B1 al Cadrului european comun de referință pentru limbi - CECRL;</td></tr>
+</tbody>
+</table>
+
+b) copia legalizată a foii matricole emise de unități de învățământ de nivel liceal sau de instituții de învățământ superior din statul de cetățenie sau de reședință, în care se atestă studiul pentru minimum 3 ani în limba română."
+
+Prin dispozițiile art. XXI alin. (1) din Legea nr. 14/2025 s-a prevăzut faptul că, „Prin derogare de la dispozițiile art. 13 alin. (1) și (3) din Legea cetățeniei române nr. 21/1991, republicată, cu modificările și completările ulterioare, inclusiv cu cele aduse prin prezenta lege, persoanele care, după intrarea în vigoare a prezentei legi, formulează cereri de acordare sau de redobândire a cetățeniei române, potrivit art. 10 și 11 din lege, vor putea depune certificatul de competență lingvistică prevăzut la art. 15¹ alin. (4) din Legea nr. 21/1991, republicată, cu modificările și completările ulterioare, astfel cum a fost modificat și completat prin prezenta lege, în termen de un an de la data intrării în vigoare a prezentei legi.”, respectiv până la data de 15 martie 2026.
+
+Termenul anterior menționat reprezintă un beneficiu acordat solicitantului, deoarece, în lipsa derogării instituite prin art. XXI din Legea nr. 14/2025, acesta ar fi trebui să depună certificatul de competență lingvistică odată cu cererea de acordare a cetățeniei române, termenul respectiv urmărind să faciliteze celor interesați posibilitatea depunerii de îndată a cererii de redobândire a cetățeniei române, urmând ca ulterior să depună certificatul de competență lingvistică, în termenul stabilit de lege.
+
+Potrivit dispozițiilor alin. (2) al art. XXI din Legea nr. 14/2025, „(2) Nedepunerea certificatului de competență lingvistică în termenul prevăzut la alin. (1) conduce la respingerea cererii ca nesusținută, prin ordin al președintelui Autorității Naționale pentru Cetățenie, la propunerea Comisiei pentru cetățenie.”
+
+Instituțiile și entitățile juridice însărcinate cu aplicarea prevederilor art. 14¹ alin. (4) lit. a) din Legea nr. 21/1991 au o capacitate de examinare a cunoștințelor de limba română ale persoanelor care solicită eliberarea unor astfel de certificate inerent limitată, iar parte din acestea desfășoară exclusiv sesiuni de examinare cu prezența fizică a candidaților, iar nu și în format online.
+
+Pe de altă parte, de la data intrării în vigoare a Legii nr. 14/2025, numărul certificatelor nivel B1 eliberat de instituțiile menționate la art. 15¹ alin. (4) lit. a) din Legea nr. 21/1991, în urma sesiunilor de examinare desfășurate, este unul relativ
+
+<table>
+<tbody>
+<tr><td></td><td>redus, în vreme ce numărul total al cererilor de redobândire a cetățeniei înregistrate, chiar dacă a scăzut față de perioada anterioară intrării în vigoare a Legii nr. 14/2025, a continuat să fie unul destul de ridicat.Astfel, în perioada 15.03.2025 – 31.12.2025 au fost înregistrate 12.188 cereri de redobândire a cetățeniei române întemeiate pe dispozițiile art. 11 din Legea nr. 21/1991 și 5.067 cereri de redobândire a cetățeniei române întemeiate pe dispozițiile art. 10 din lege.De asemenea, în perioada 01.01.2026 – 26.02.2026 au fost înregistrate 1.386 cereri de redobândire a cetățeniei române întemeiate pe dispozițiile art. 11 din Legea nr. 21/1991, precum și 282 de cereri de redobândire a cetățeniei române întemeiate pe dispozițiile art. 10 din lege.Deși o parte dintre persoanele care solicită redobândirea cetățeniei române pot beneficia de prevederile art. 151 alin. (4) lit. b) din Legea nr. 21/1991, astfel cum a fost modificată și completată de Legea nr. 14/2025, prin prezentarea copiei legalizate a foii matricole emise de unități de învățământ de nivel liceal sau de instituții de învățământ superior din statul de cetățenie sau de reședință, în care se atestă studiul pentru minimum 3 ani în limba română – astfel, din numărul total al cererilor înregistrate în intervalul de timp menționat, cereri întemeiate pe dispozițiile art. 11 din Legea nr. 21/1991, un număr de 5.598 cereri, reprezentând un procent de 41% din totalul acestora, au fost depuse de solicitanți care sunt cetățeni ai Republicii Moldova, stat în care limba oficială este limba română -, obligațiile impuse solicitanților trebuie să fie correlate, în mod rezonabil, cu capacitatea administrativă a instituțiilor abilitate a emite certificatele de competență lingvistică cerute de lege.În concluzie, sunt necesare măsuri proactive pentru aplicarea în mod echitabil a dispozițiilor legale antereferite, adoptate prin Legea nr. 14/2025.</td></tr>
+<tr><td>2.3. Schimbări preconizate</td><td>În considerarea tuturor celor arătate mai sus, se impune prelungirea cu încă un an a termenului pentru depunerea certificatului de competență lingvistică, aceasta reprezentând o măsură necesară și justificată, de natură a preveni consecințe juridice majore pentru persoanele care au solicitat, ulterior intrării în vigoare a Legii nr. 14/2025, redobândirea cetățeniei române.Termenul astfel prelungit nu prejudiciază incidența termenului pentru soluționarea cererilor de redobândire a</td></tr>
+<tr><td></td><td colspan="6">cetățeniei române, stabilit prin dispozițiile Legii nr. 21/1991, astfel cum au fost modificate și completate prin Legea nr. 14/2025.</td></tr>
+<tr><td>3. Alte informații</td><td colspan="6">Nu au fost identificate.</td></tr>
+<tr><td colspan="7">Secțiunea a 3-a - Impactul socioeconomic</td></tr>
+<tr><td colspan="7">3.1. Descrierea generală a beneficiilor și costurilor estimate ca urmare a intrării în vigoare a actului normativProiectul de act normativ nu se referă la acest subiect</td></tr>
+<tr><td colspan="7">3.2. Impactul socialProiectul de act normativ nu se referă la acest subiect3.3. Impactul asupra drepturilor și libertăților fundamentale ale omuluiProiectul de act normativ nu se referă la acest subiect3.4. Impactul macroeconomicProiectul nu se referă la acest subiect3.4.1. Impactul asupra economiei și asupra principalilor indicatori macroeconomici3.4.2. Impactul asupra mediului concurențial și domeniului ajutoarelor de stat3.5. Impactul asupra mediului afaceriProiectul nu se referă la acest subiect3.6. Impactul asupra mediului înconjurătorProiectul nu se referă la acest subiect3.7. Evaluarea costurilor și beneficiilor din perspectiva inovării și digitalizăriiProiectul nu se referă la acest subiect3.8. Evaluarea costurilor și beneficiilor din perspectiva dezvoltării durabileProiectul nu se referă la acest subiect3.9. Alte informațiiNu au fost identificate</td></tr>
+<tr><td colspan="7">Secțiunea a 4-a - Impactul financiar asupra bugetului general consolidat, atât pe termen scurt, pentru anul curent, cât și pe termen lung (5 ani), inclusiv informații cu privire la cheltuieli și venituri</td></tr>
+<tr><td colspan="7">- mii lei -</td></tr>
+<tr><td>Indicatori</td><td>Anul curent</td><td colspan="4">Următorii 4 ani</td><td>Media pe 5 ani</td></tr>
+<tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr>
+<tr><td>4.1. Modificări ale veniturilor bugetare, plus/minus, din care:</td><td colspan="6"></td></tr>
+<tr><td>a) buget de stat, din acesta:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>(i) impozit pe profit</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>(ii) impozit pe venit</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>b) bugete locale:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>(i) impozit pe profit</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>c) bugetul asigurărilor sociale</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+| de stat: |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+| (i) contribuții de asigurări |  |  |  |  |  |  |
+| 4.2. Modificări ale cheltuielilor bugetare, plus, din care: |  |  |  |  |  |  |
+| a) buget de stat, din acesta: |  |  |  |  |  |  |
+| (i) cheltuieli de personal |  |  |  |  |  |  |
+| (ii) bunuri și servicii |  |  |  |  |  |  |
+| b) bugete locale |  |  |  |  |  |  |
+| (i) cheltuieli de personal |  |  |  |  |  |  |
+| (ii) bunuri și servicii |  |  |  |  |  |  |
+| c) bugetul asigurărilor sociale de stat: |  |  |  |  |  |  |
+| (i) cheltuieli de personal |  |  |  |  |  |  |
+| (ii) bunuri și servicii |  |  |  |  |  |  |
+| d) alte tipuri de cheltuieli |  |  |  |  |  |  |
+| 4.3. Impact financiar, plus din care: |  |  |  |  |  |  |
+| a) buget de stat |  |  |  |  |  |  |
+| b) bugetele locale |  |  |  |  |  |  |
+| 4.4. Propuneri pentru acoperirea creșterii cheltuielilor bugetare |  |  |  |  |  |  |
+| 4.5. Propuneri pentru a compensa reducerea veniturilor bugetare |  |  |  |  |  |  |
+| 4.6. Calcule detaliate privind fundamentarea modificărilor veniturilor și/sau cheltuielilor bugetare4.7. Prezentarea, în cazul proiectelor de acte normative a căror adoptare atrage majorarea cheltuielilor bugetare, a următoarelor documente:a) fișa financiară prevăzută la art. 15 din Legea nr. 500/2002 privind finanțele publice, cu modificările și completările ulterioare, însoțită de |  |  |  |  |  |  |
+
+<table>
+<tbody>
+<tr><td>ipotezele și metodologia de calcul utilizată; b) declarație conform căreia majorarea de cheltuială respectivă este compatibilă cu obiectivele și prioritățile strategice specificate în strategia fiscal-bugetară, cu legea bugetară anuală și cu plafoanele de cheltuieli prezentate în strategia fiscal-bugetară.</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.8. Alte informații</td><td colspan="6">Proiectul nu are impact financiar</td></tr>
+<tr><td colspan="7">Secțiunea a 5-a - Efectele proiectului de act normativ asupra legislației în vigoare</td></tr>
+<tr><td>5.1. Măsuri normative necesare pentru aplicarea prevederilor proiectului de act normativ</td><td colspan="6">Proiectul nu se referă la acest subiect</td></tr>
+<tr><td>5.2. Impactul asupra legislației în domeniul achizițiilor publice</td><td colspan="6">Proiectul nu se referă la acest subiect</td></tr>
+<tr><td>5.3. Conformitatea proiectului de act normativ cu legislația UE (în cazul proiectelor ce transpun sau asigură aplicarea unor prevederi de drept UE)</td><td colspan="6">Proiectul nu se referă la acest subiect</td></tr>
+<tr><td>5.3.1. Măsuri normative necesare transpunerii directivelor UE</td><td colspan="6">Proiectul nu se referă la acest subiect</td></tr>
+<tr><td>5.3.2. Măsuri normative necesare aplicării actelor legislative UE 5.4. Hotărâri ale Curții de Justiție a Uniunii Europene</td><td colspan="6">Proiectul nu se referă la acest subiect</td></tr>
+<tr><td>5.5 Alte acte normative și/sau documente internaționale din care decurg angajamente asumate</td><td colspan="6">Proiectul nu se referă la acest subiect</td></tr>
+<tr><td>5.6. Alte informații</td><td colspan="6">Nu au fost identificate</td></tr>
+<tr><td colspan="7">Secțiunea a 6-a - Consultările efectuate în vederea elaborării proiectului de act normativ</td></tr>
+<tr><td colspan="2">6.1. Informații privind neaplicarea procedurii de participare la elaborarea actelor normative6.2. Informații privind procesul de consultare cu organizații neguvernamentale, institute de cercetare și alte organisme implicateProiectul nu se referă la acest subiect6.3. Informații despre consultările organizate cu autoritățile administrației publice localeProiectul nu se referă la acest subiect6.4. Informații privind puncte de vedere/opinii emise de organisme consultative constituite prin acte normative6.5. Informații privind avizarea de către:a) Consiliul Legislativb) Consiliul Suprem de Apărare a Țăriic) Consiliul Economic și Sociald) Consiliul Concurențeie) Curtea de Conturi.Proiectul a fost avizat de Consiliul Legislativ prin avizul nr. 217/2026.6.6. Alte informațiiNu au fost identificate</td></tr>
+<tr><td colspan="2">Secțiunea a 7-a - Activități de informare publică privind elaborarea și implementarea proiectului de act normativ</td></tr>
+<tr><td>7.1. Informarea societății civile cu privire la necesitatea elaborării actului normativ</td><td>Proiectul a fost publicat pe site-ul Ministerului Justiției</td></tr>
+<tr><td>7.2. Informarea societății civile cu privire la eventualul impact asupra mediului în urma implementării proiectului de act normativ, precum și efectele asupra sănătății și securității cetățenilor sau diversității biologice</td><td>Proiectul nu se referă la acest subiect</td></tr>
+<tr><td colspan="2">Secțiunea a 8-a - Măsuri de implementare</td></tr>
+<tr><td>8.1. Măsurile de punere în aplicare a proiectului de act normativ</td><td></td></tr>
+<tr><td>8.2. Alte informații</td><td>Nu au fost identificate</td></tr>
+</tbody>
+</table>
+
+Față de cele prezentate, a fost elaborat proiectul de Lege pentru aprobarea Ordonanței de urgență a Guvernului privind modificarea art. XXI alin. (1) din Legea nr. 14/2025 pentru modificarea și completarea Legii cetățeniei române nr. 21/1991, precum și pentru modificarea și completarea altor acte normative, pe care îl supunem Parlamentului spre adoptare.
+
+PRIVMMINISTRU
+
+ILN GAVRIK BOLOJAN

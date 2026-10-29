@@ -1,0 +1,121 @@
+{
+  "slug": "plx-8-2026",
+  "billId": "PL-x 8/2026",
+  "updatedAt": "2026-10-29T12:25:44.355Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L581FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Statul poate scoate un partener (ex. Lukoil) dintr-un contract petrolier, iar ceilalți continuă fără licitație",
+      "summaryTlDr": "Scopul e legitim și urgent: ieșirea Lukoil, sancționat de SUA, din perimetrul Trident fără ca proiectul să se oprească. Textul este însă scris mult mai larg decât problema: Guvernul poate exclude un titular pe criteriul vag al „securității naționale”, fără reguli de despăgubire, iar art. 30 alin. (2¹) permite atribuirea directă, fără licitație, și în afara oricărui context de sancțiuni.",
+      "scores": {
+        "agy": 5,
+        "claude": 5,
+        "codex": 6
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/00/8/se775.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Statul poate scoate un partener sancționat (cazul Lukoil) dintr-un acord petrolier fără să oprească tot proiectul",
+      "summaryTlDr": "Este un răspuns legitim și urgent la sancțiunile americane împotriva Lukoil: proiectele petroliere cu mai mulți parteneri pot continua, în loc să fie reziliate. OUG lasă însă și o portiță permanentă: concesiuni pe resurse ale statului atribuite direct, fără concurs, ori de câte ori un partener refuză condițiile propuse de ANRMPSG.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 6
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat ordonanța fără modificări; riscurile din Legea petrolului rămân",
+      "summary": "Senatul a aprobat ordonanța neschimbată; s-au adăugat doar data și numărul Monitorului Oficial. Rămân aceleași riscuri: Guvernul poate scoate un titular din acord pe motive de securitate, fără despăgubire clară, și poate da perimetrul direct, fără licitație.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Guvernul poate exclude un titular prin HG, pe motive de securitate nedetaliate",
+            "major": true,
+            "article": "art. 3¹ alin. (2)-(3)"
+          },
+          {
+            "text": "Titularul exclus nu e audiat și nu are regim de despăgubire",
+            "major": true,
+            "article": "art. 3¹ alin. (2)-(3)"
+          },
+          {
+            "text": "Control judiciar restrâns: actele de securitate națională se atacă doar pentru exces de putere",
+            "major": true,
+            "article": "art. 3¹ alin. (2)-(3)"
+          },
+          {
+            "text": "Tăcerea sau refuzul în 30 de zile duce la încetarea concesiunii",
+            "major": true,
+            "article": "art. 3¹ alin. (4)"
+          },
+          {
+            "text": "Neclar dacă refuzul unui titular stinge toată concesiunea sau doar participarea lui",
+            "major": true,
+            "article": "art. 3¹ alin. (4)"
+          },
+          {
+            "text": "Nu se spune cum se redistribuie cota exclusului și dacă se plătește",
+            "major": true,
+            "article": "art. 3¹ alin. (5)"
+          },
+          {
+            "text": "Preluarea gratuită de un titular de stat riscă ajutor de stat și expropriere indirectă",
+            "major": true,
+            "article": "art. 3¹ alin. (5)"
+          },
+          {
+            "text": "Neclar cine preia obligațiile de mediu și de abandonare ale exclusului",
+            "major": true,
+            "article": "art. 3¹ alin. (5)"
+          },
+          {
+            "text": "Atribuire directă a unui nou acord, fără concurs public de ofertă",
+            "major": true,
+            "article": "art. 30 alin. (2¹)"
+          },
+          {
+            "text": "Declanșator: simplul refuz al termenilor fixați unilateral de ANRMPSG, fără criterii în lege",
+            "major": true,
+            "article": "art. 30 alin. (2¹)"
+          },
+          {
+            "text": "Regula e permanentă și se aplică oricărui acord în explorare, nu doar sancțiunilor",
+            "major": true,
+            "article": "art. 30 alin. (2¹)"
+          },
+          {
+            "text": "Notificarea nu trebuie să conțină condițiile actului adițional propus",
+            "major": false,
+            "article": "art. 3¹ alin. (4)"
+          }
+        ],
+        "good": [],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:21:28.910Z"
+    }
+  ]
+}

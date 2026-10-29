@@ -1,0 +1,458 @@
+{
+  "slug": "plx-42-2026",
+  "billId": "PL-x 42/2026",
+  "updatedAt": "2026-10-29T13:57:28.780Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L509FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Statul trebuie să numere, să analizeze și să prevină uciderile de femei",
+      "summaryTlDr": "O lege utilă, susținută de aproape toate partidele: face din femicid o categorie pe care statul trebuie să o măsoare, să o analizeze și să o prevină. Problemele sunt tehnice și țin de circuitul datelor spre ORAPO, garanțiile GDPR și finanțare. Nu am găsit capcane în textul analizat.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/40/2/se21.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Legea anti-femicid: statistici oficiale despre femeile ucise și evaluarea riscului pentru victime",
+      "summaryTlDr": "Lege utilă și în mare parte tehnică. Obligă statul să numere și să analizeze uciderile de femei și să evalueze riscul în dosarele de violență, iar în textul analizat nu apar sancțiuni noi pentru cetățeni. Problemele țin de redactare și de protecția datelor, nu de fond.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 4
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl042_cd042_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Femei ucise: date oficiale, rapoarte anuale și evaluarea riscului",
+      "summaryTlDr": "Lege utilă: obligă poliția, parchetele, Ministerul Justiției și medicina legală să numere și să publice anual cazurile de femei ucise, astfel încât prevenirea să pornească de la date. Partea vizibilă nu creează infracțiuni noi. Are însă greșeli de tehnică legislativă și nu dă garanții pentru prelucrarea datelor despre condamnări.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Femicidul e definit acum prin infracțiuni violente concrete, nu prin practici vătămătoare vagi",
+      "summary": "Acum femicidul înseamnă uciderea unei femei sau moartea ei după loviri ori alte infracțiuni violente, iar rapoartele acoperă și violența din afara familiei. Senatul a introdus însă o trimitere greșită în definiția tentativei.",
+      "changes": [
+        {
+          "title": "Femicidul, legat acum de infracțiuni violente concrete",
+          "text": "Inițial, femicid era și moartea după „practici care cauzează vătămări femeilor”. Acum, art. 1 alin. (3) lit. a) leagă decesul de loviri cauzatoare de moarte sau de alte infracțiuni violente.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 1 alin. (3) lit. a)",
+          "before": "„femicidul” înseamnă uciderea cu intenție a unei femei sau moartea unei femei ca urmare a unor practici care cauzează vătămări femeilor",
+          "after": "femicidul este aciderea cu intenție a unei femei, precum și moartea unei femei, survenită ca urmare a lovirilor sau vătămârilor cauzatoare de moarte ori a altor infracțiuni săvârșite cu violență",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Tentativa de femicid trimite acum la un alineat greșit",
+          "text": "Inițial, tentativa trimitea corect la femicidul intim și non-intim. Acum art. 1 alin. (4) trimite la alin. (2), care are doar principii. Art. 2 alin. (3) trimite tot la alin. (2).",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. 1 alin. (4)",
+          "before": "hotărârea de a acționa astfel cum prevede alin. (2) lit. a) și b)",
+          "after": "hotărârea de a acționa potrivit dispozițiilor alin.(2) lit.b) și c)",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Rapoartele acoperă și violența asupra femeilor din afara familiei",
+          "text": "Art. 2 alin. (4) cere date și despre decesele femeilor după infracțiuni din orice context, nu doar din familie. Raportul îl fac acum Ministerul Public și MJ, cu sprijinul MAI. Similar la alin. (6).",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 2 alin. (4) și (6)",
+          "before": "alte infracțiuni urmate de moartea victimei săvârșite în cadrul violenței domestice, inclusiv tentativele la acestea",
+          "after": "alte infracțiuni urmate de moartea victimei săvârșite în cadrul violenței domestice sau asupra unei femei în orice alt context, inclusiv tentativele la acestea",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Fetele sub 18 ani, incluse explicit în definiții",
+          "text": "Inițial, fetele apăreau doar în unele definiții. Acum art. 1 alin. (6) prevede că „femei” include și fetele sub 18 ani, deci și în definiția generală.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 1 alin. (6)",
+          "before": null,
+          "after": "Termenul „femei” include și fetele sub 18 ani.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Femicidul non-intim trimite la traficul din Codul penal",
+          "text": "Art. 1 alin. (3) lit. c) pct. (iv) nu mai vorbește generic de trafic de ființe umane, ci trimite la infracțiunile din Codul penal. Se precizează și că autorul nu e membru de familie.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 1 alin. (3) lit. c)",
+          "before": "într-un context de exploatare sexuală, de trafic de ființe umane sau de trecere ilegală a frontierei sau în orice situație de trafic de migranți",
+          "after": "de trafic și exploatare a persoanelor vulnerabile astfel cum sunt prevăzute infracțiunile în Partea specială - Titlul I - Capitolul VII „Traficul și exploatarea persoanelor vulnerabile” din Legea nr.286/2009 privind Codul penal",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Definiția femicidului e foarte largă: bună pentru statistică, nu pentru încadrarea penală",
+            "major": true,
+            "article": "art. 1 alin. (3) lit. a)"
+          },
+          {
+            "text": "ORAPO prelucrează date despre condamnări fără garanții sau termene de păstrare stabilite",
+            "major": true,
+            "article": "art. 3 alin. (3)"
+          },
+          {
+            "text": "Majorările din art. 195¹ și art. 199 se pot cumula pentru soți",
+            "major": true,
+            "article": "art. II pct. 6 și 7"
+          },
+          {
+            "text": "Femicidul intim cuprinde orice ucidere în familie, cu listă deschisă de motive",
+            "major": false,
+            "article": "art. 1 alin. (3) lit. b)"
+          },
+          {
+            "text": "Sinuciderea după violență e femicid, dar nu se spune cine stabilește legătura",
+            "major": false,
+            "article": "art. 1 alin. (3) lit. d)"
+          },
+          {
+            "text": "Analiza post omor nu acoperă sinuciderile femeilor după violență",
+            "major": false,
+            "article": "art. 3 alin. (3)"
+          },
+          {
+            "text": "Trimiteri greșite la art. 1 alin. (2), care cuprinde doar principii",
+            "major": false,
+            "article": "art. 1 alin. (4); art. 2 alin. (3)"
+          },
+          {
+            "text": "„Instanța de executare” nedefinită; lipsesc termenul, forma transmiterii, personalul și bugetul",
+            "major": false,
+            "article": "art. 2 alin. (10)"
+          },
+          {
+            "text": "Data fixă 1 octombrie 2026 pentru colectarea datelor poate fi deja depășită",
+            "major": false,
+            "article": "art. IV alin. (1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Omor calificat pentru uciderea partenerului, din motive discriminatorii sau după despărțire",
+            "major": true,
+            "article": "art. II pct. 2"
+          },
+          {
+            "text": "Pedepse majorate pentru fapte asupra partenerului, fostului partener sau în fața unui minor",
+            "major": true,
+            "article": "art. II pct. 3, 6 și 8"
+          },
+          {
+            "text": "Lovirea unui membru de familie se urmărește obligatoriu din oficiu",
+            "major": true,
+            "article": "art. II pct. 7"
+          },
+          {
+            "text": "Închisoare de la 1 la 5 ani pentru violare de domiciliu cu ordin de protecție",
+            "major": true,
+            "article": "art. II pct. 11"
+          },
+          {
+            "text": "Instanța penală constată nedemnitatea la moștenire a celui condamnat pentru ucidere",
+            "major": true,
+            "article": "art. III pct. 2"
+          },
+          {
+            "text": "Anchetatorii anunță de îndată autoritățile când victima lasă copii sau dependenți",
+            "major": false,
+            "article": "art. III pct. 1"
+          },
+          {
+            "text": "Date compatibile între poliție și justiție, dosar urmărit de la sesizare la hotărâre",
+            "major": false,
+            "article": "art. 2 alin. (3)"
+          },
+          {
+            "text": "Rapoarte anuale anonimizate, publicate până la 31 martie",
+            "major": false,
+            "article": "art. 2 alin. (9)"
+          },
+          {
+            "text": "Rapoartele includ și decesele femeilor după infracțiuni din afara familiei",
+            "major": false,
+            "article": "art. 2 alin. (4) și (6)"
+          },
+          {
+            "text": "Registru la instanțe privind executarea ordinelor de protecție",
+            "major": false,
+            "article": "art. 2 alin. (10)"
+          },
+          {
+            "text": "Raport anual ORAPO cu recomandări pentru prevenirea femicidelor",
+            "major": false,
+            "article": "art. 3"
+          },
+          {
+            "text": "Evaluarea riscului devine obligatorie în cauzele penale de violență împotriva femeilor",
+            "major": false,
+            "article": "art. 4"
+          },
+          {
+            "text": "Fetele sub 18 ani sunt incluse explicit în definiții",
+            "major": false,
+            "article": "art. 1 alin. (6)"
+          },
+          {
+            "text": "Traficul din definiția femicidului non-intim trimite la Codul penal",
+            "major": false,
+            "article": "art. 1 alin. (3) lit. c)"
+          },
+          {
+            "text": "Teme despre prevenirea violenței împotriva femeilor în programa școlară și formarea profesorilor",
+            "major": false,
+            "article": "art. 5"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 76,
+        "removed": 67,
+        "same": 0.13
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:54:45.352Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_putin_riscant",
+      "headline": "Datele despre victime și agresori se culeg doar din dosare penale și din cele cu ordin de protecție",
+      "summary": "Acum datele despre victime și agresori nu se mai culeg din orice proces civil, ci doar din dosarele penale și din cele cu ordin de protecție. Legea cere explicit respectarea legalității penale și corectează o trimitere greșită, dar extinde femicidul la fapte la care tentativa nu se poate aplica.",
+      "changes": [
+        {
+          "title": "Date personale culese din mai puține procese civile",
+          "text": "Art. 2 alin. (3): datele despre victimă, agresor și copii nu se mai culeg din orice cauză civilă. Se culeg doar din cauzele penale și din cele civile privind ordinul de protecție.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 2 alin. (3)",
+          "before": "Datele primare culese în fiecare cauză civilă sau penală cuprind cel puțin vârsta și sexul victimei și agresorului",
+          "after": "Datele primare culese în fiecare cauză penală, precum și în cauzele civile având ca obiect ordinul de protecție, cuprind cel puțin vârsta și sexul victimei și agresorului",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Legea trebuie aplicată cu respectarea legalității penale",
+          "text": "Art. 1 alin. (7) este nou: aplicarea legii trebuie să respecte legalitatea incriminării, proporționalitatea și previzibilitatea legii penale.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 1 alin. (7)",
+          "before": null,
+          "after": "Aplicarea dispozițiilor prezentei legi se realizează cu respectarea principiilor legalității incriminării, proporționalității și previzibilității legii penale.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Femicidul include și infracțiunile intenționate urmate de moarte",
+          "text": "Art. 1 alin. (3) lit. b) și c) cuprind acum și infracțiunile intenționate urmate de moartea femeii. Definiția tentativei de la alin. (4) nu se poate însă aplica la ele.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. 1 alin. (3) lit. b)–c)",
+          "before": "femicidul intim esteuciderea cu intenție a unei femei comisă de un membru de familie",
+          "after": "femicidul intim este uciderea cu intenție a unei femei sau săvârșirea unei infracțiuni intenționate urmate de moartea femeii, comisă de un membru de familie",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Trimiterea greșită din definiția tentativei a fost corectată",
+          "text": "Art. 1 alin. (4) trimitea inițial la alin. (2), care nu are litere. Acum trimite corect la definițiile din alin. (3) lit. b) și c).",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 1 alin. (4)",
+          "before": "hotărârea de a acționa potrivit dispozițiilor alin.(2) lit.b) și c) s-a realizat prin acte de punere în executare",
+          "after": "hotărârea de a acționa potrivit dispozițiilor alin. (3) lit. b) și c) s-a realizat prin acte de punere în executare",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Criteriul de control asupra femeii devine mai obiectiv",
+          "text": "Art. 1 alin. (3) lit. c) pct. 1 nu mai cere dovada unei convingeri a agresorului, ci ca acesta să exercite sau să pretindă control. Lit. b) pierde formula deschisă „din orice alte motive”.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 1 alin. (3) lit. b)–c)",
+          "before": "motivată de convingerea că agresorul/agresoarea poate exercita control și dominație asupra femeii",
+          "after": "făptuitorul exercită sau pretinde că este îndreptățit să exercite control sau dominație asupra femeii",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Fiecare instituție are acum raportul ei anual",
+          "text": "Art. 2 alin. (4) împarte rapoartele între MAI, Parchetul General și Ministerul Justiției. Raportarea încălcărilor ordinelor de protecție trece la Justiție și Parchet, la alin. (7).",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 2 alin. (4) și (7)",
+          "before": "Ministerul Public și Ministerul Justiției, cu sprijinul Ministerului Afacerilor Interne, dau publicității, anual, un raport",
+          "after": "Ministerul Afacerilor Interne și Parchetul de pe lângă Înalta Curte de Casație și Justiție dau publicității, anual, un raport",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Raportul medico-legal nu are termen de publicare și nici obligație de anonimizare",
+            "major": true,
+            "article": "art. 2 alin. (9)–(10)"
+          },
+          {
+            "text": "Aceeași ucidere a unei femei poate fi numărată diferit, de pildă într-un jaf",
+            "major": false,
+            "article": "art. 1 alin. (3)"
+          },
+          {
+            "text": "Tentativa nu se poate aplica faptelor în care moartea femeii nu era urmărită",
+            "major": false,
+            "article": "art. 1 alin. (4)"
+          },
+          {
+            "text": "Registrul ordinelor de protecție trimite greșit la alin. (7), care privește rapoarte",
+            "major": false,
+            "article": "art. 2 alin. (11)"
+          },
+          {
+            "text": "„Instanța de executare” nedefinită; lipsesc termenul și forma transmiterii informațiilor",
+            "major": false,
+            "article": "art. 2 alin. (11)"
+          },
+          {
+            "text": "Datele medico-legale, cele mai detaliate, nu se numără printre sursele ORAPO",
+            "major": false,
+            "article": "art. 3 alin. (1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Date personale culese doar din dosare penale și din cele cu ordin de protecție",
+            "major": true,
+            "article": "art. 2 alin. (3)"
+          },
+          {
+            "text": "Omor calificat pentru control în cuplu, motive de ură sau părăsirea relației",
+            "major": true,
+            "article": "art. 6 pct. 2"
+          },
+          {
+            "text": "Determinarea la sinucidere a partenerei controlate se pedepsește mai aspru",
+            "major": true,
+            "article": "art. 6 pct. 3"
+          },
+          {
+            "text": "Pedepse mai mari pentru violența de control în cuplu ori în prezența unui minor",
+            "major": true,
+            "article": "art. 6 pct. 6"
+          },
+          {
+            "text": "Lovirile asupra unui membru de familie se urmăresc din oficiu",
+            "major": true,
+            "article": "art. 6 pct. 7"
+          },
+          {
+            "text": "Copiii și dependenții victimei decedate sunt semnalați de îndată pentru ocrotire",
+            "major": true,
+            "article": "art. 7 pct. 1"
+          },
+          {
+            "text": "Sentința de condamnare constată nedemnitatea făptuitorului de a moșteni victima",
+            "major": true,
+            "article": "art. 7 pct. 2"
+          },
+          {
+            "text": "Aplicarea legii trebuie să respecte legalitatea și previzibilitatea legii penale",
+            "major": false,
+            "article": "art. 1 alin. (7)"
+          },
+          {
+            "text": "Trimiterea din definiția tentativei de femicid a fost corectată",
+            "major": false,
+            "article": "art. 1 alin. (4)"
+          },
+          {
+            "text": "Criteriul de control asupra femeii se judecă după fapte, nu după convingeri",
+            "major": false,
+            "article": "art. 1 alin. (3) lit. c)"
+          },
+          {
+            "text": "Metodologie comună poliție–parchet–justiție în 90 de zile, urmărește dosarul până la hotărâre",
+            "major": false,
+            "article": "art. 2 alin. (3), art. 8 alin. (2)"
+          },
+          {
+            "text": "Rapoarte anuale anonimizate, publicate online până la 31 martie",
+            "major": false,
+            "article": "art. 2 alin. (10)"
+          },
+          {
+            "text": "Raport anual separat despre încălcarea ordinelor de protecție",
+            "major": false,
+            "article": "art. 2 alin. (7)"
+          },
+          {
+            "text": "Instanțele țin un registru al executării ordinelor de protecție",
+            "major": false,
+            "article": "art. 2 alin. (11)"
+          },
+          {
+            "text": "ORAPO publică anual un raport anonimizat cu recomandări de prevenire",
+            "major": false,
+            "article": "art. 3"
+          },
+          {
+            "text": "Organele judiciare folosesc instrumente de evaluare a riscului de femicid",
+            "major": false,
+            "article": "art. 4"
+          },
+          {
+            "text": "Școala include teme despre egalitatea de gen și violența împotriva femeilor",
+            "major": false,
+            "article": "art. 5"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 71,
+        "removed": 71,
+        "same": 0.18
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:57:28.780Z"
+    }
+  ]
+}

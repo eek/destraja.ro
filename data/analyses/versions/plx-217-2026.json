@@ -1,0 +1,183 @@
+{
+  "slug": "plx-217-2026",
+  "billId": "PL-x 217/2026",
+  "updatedAt": "2026-10-29T12:51:38.967Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L655FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Plângerile pentru mirosuri urâte trec la autoritățile de mediu",
+      "summaryTlDr": "Lege tehnică și în general utilă: trimite plângerile de miros la instituțiile care chiar pot obliga un poluator să se conformeze sau îi pot reexamina autorizația. Lipsurile sunt de execuție: nu spune care instituție anume se ocupă, în cât timp răspunde și după ce procedură.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/200/10/7/se237.pdf",
+      "source": "cdep.ro",
+      "riskScore": 6.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Plângerile pentru mirosuri trec la Mediu, dar mirosul contează doar peste praguri",
+      "summaryTlDr": "Legea clarifică cine se ocupă de plângerile pentru miros: autoritatea de mediu. Forma Senatului face însă opusul a ce promite expunerea. Mirosul contează juridic doar peste „valori-limită” pe care legea nu le definește, iar autorizația poluatorului poate fi reexaminată „doar dacă” sunt îndeplinite condiții stricte. Câștigă claritatea instituțională, dar vecinii unei surse de miros primesc mai puțină protecție efectivă.",
+      "scores": {
+        "agy": 7,
+        "claude": 6,
+        "codex": 6
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_riscant",
+      "headline": "Mirosul contează legal doar peste valori-limită, iar autorizațiile operatorilor se revizuiesc mult mai greu",
+      "summary": "Acum, mirosul contează doar dacă depășește valori-limită pe care legea nu cere să fie stabilite, iar sănătatea și calitatea vieții ies din definiție. Autorizațiile se revizuiesc doar în condiții stricte: mai riscant pentru vecinii surselor de miros, mai sigur pentru firme.",
+      "changes": [
+        {
+          "title": "Mirosul contează doar peste valori-limită",
+          "text": "La art. 2 pct. 23¹, disconfortul olfactiv există acum doar când se depășesc valori-limită. Inițial conta și percepția subiectivă; legea nu obligă însă nicio autoritate să stabilească aceste limite.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 2 pct. 23¹",
+          "before": "care se percepe subiectiv pe diferite scale de mirosuri sau se cuantifică obiectiv conform standardelor naționale, europene și internaționale în vigoare.",
+          "after": "atunci când sunt depășite nivelurile sau valorile-limită stabilite conform standardelor naționale, europene și internaționale în vigoare.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Autorizațiile operatorilor se revizuiesc mult mai greu",
+          "text": "Inițial, legătura cu sănătatea ducea la notificare pentru reexaminarea autorizațiilor. Acum, art. 64⁶ alin. (4) o face doar posibilă și numai la depășirea limitelor sau cu expertiză științifică.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 64⁶ alin. (3)–(4)",
+          "before": "autoritatea publică centrală pentru sănătate notifică autoritatea publică centrală pentru protecția mediului, responsabilă cu emiterea actelor de reglementare în domeniul protecției mediului, pentru reexaminarea și actualizarea respectivelor acte.",
+          "after": "Stabilirea legăturii de cauzalitate se face exclusiv pe baza studiilor, evaluărilor și dovezilor științifice măsurabile. Reexaminarea sau actualizarea actelor de reglementare poate fi dispusă doar dacă:",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Sănătatea și calitatea vieții ies din definiția mirosului",
+          "text": "La art. 2 pct. 23¹ dispar efectele asupra sănătății fizice și mentale, calității vieții și impactul social-economic, deși expunerea de motive le promite. Rămâne doar prezența în aer a substanțelor cu miros.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 2 pct. 23¹",
+          "before": "efectul generat de o activitate care poate avea impact asupra stării de sănătate a populației (fizice și mentale), asupra mediului, calității vieții, impactului social și economic",
+          "after": "efectul generat de prezența în aer a unor substanțe cu miros, determinat și evaluat prin metode de măsurare standardizate",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Trebuie dovedită legătură directă cu operatorul investigat",
+          "text": "La art. 64⁶ alin. (3), cauzalitatea trebuie să fie „directă” și cu „operatorul investigat”, greu de dovedit pentru greață, dureri de cap sau insomnie.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 64⁶ alin. (3)",
+          "before": "existența unei legături de cauzalitate între discomfortul olfactiv și starea de sănătate a populației",
+          "after": "existența unei legături de cauzalitate directă între disconfortul olfactiv generat de operatorul investigat și starea de sănătate a populației",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Măsurile pentru miros nu înlocuiesc protecția lucrătorilor",
+          "text": "Noile alin. (5)–(6) ale art. 64⁶ precizează că obligațiile de securitate în muncă rămân și că autoritatea de mediu poate cere sprijinul instituțiilor de profil.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 64⁶ alin. (5)–(6)",
+          "before": null,
+          "after": "măsurile dispuse pentru protecția populației și a mediului nu substituie obligațiile privind evaluarea riscurilor profesionale și supravegherea sănătății lucrătorilor",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Mirosul contează doar peste valori-limită pe care nimeni nu e obligat să le adopte",
+            "major": true,
+            "article": "art. 2 pct. 23¹"
+          },
+          {
+            "text": "Definiția ignoră sănătatea, calitatea vieții și percepția locuitorilor",
+            "major": true,
+            "article": "art. 2 pct. 23¹"
+          },
+          {
+            "text": "Revizuirea autorizației e doar posibilă, chiar cu legătură cauzală dovedită",
+            "major": true,
+            "article": "art. 64⁶ alin. (4)"
+          },
+          {
+            "text": "Legătura cauzală trebuie să fie directă, cu operatorul investigat, greu de dovedit",
+            "major": true,
+            "article": "art. 64⁶ alin. (3)"
+          },
+          {
+            "text": "Evaluarea impactului asupra sănătății rămâne opțională, la cererea autorității de mediu",
+            "major": true,
+            "article": "art. 64⁶ alin. (2)"
+          },
+          {
+            "text": "Nu spune cine investighează plângerea: agenția de mediu sau Garda de Mediu",
+            "major": false,
+            "article": "art. 64⁶ alin. (1)"
+          },
+          {
+            "text": "Nu definește soluționarea, nu dă termen și nu obligă la informarea petentului",
+            "major": false,
+            "article": "art. 64⁶ alin. (1)"
+          },
+          {
+            "text": "Nu prevede sancțiuni noi pentru operatorii care produc mirosuri",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Expunerea de motive promite o definiție mai largă decât textul adoptat",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Autoritatea de mediu trebuie să investigheze și să soluționeze plângerile de miros",
+            "major": true,
+            "article": "art. 64⁶ alin. (1)"
+          },
+          {
+            "text": "Mirosul se măsoară cu metode standardizate, previzibil pentru operatori",
+            "major": false,
+            "article": "art. 2 pct. 23¹"
+          },
+          {
+            "text": "Sănătatea publică anunță autoritatea de mediu când mirosul afectează sănătatea",
+            "major": false,
+            "article": "art. 64⁶ alin. (3)"
+          },
+          {
+            "text": "Protecția lucrătorilor expuși rămâne separată și poate implica instituțiile de securitate în muncă",
+            "major": false,
+            "article": "art. 64⁶ alin. (5)–(6)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 14,
+        "removed": 11,
+        "same": 0.07
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:51:38.967Z"
+    }
+  ]
+}

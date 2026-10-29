@@ -1,0 +1,159 @@
+# EXPUNERE DE MOTIVE
+
+# la propunerea legislativă privind codul sursă deschis și reutilizarea soluțiilor și componentelor digitale în sectorul public
+
+## 1. Necesitatea reglementării
+
+Digitalizarea administrației publice presupune dezvoltarea, administrarea și utilizarea unor soluții informatice finanțate, integral sau parțial, din fonduri publice. În lipsa unui cadru normativ unitar privind codul sursă aferent acestor soluții, administrația publică se confruntă cu riscuri recurrente: duplicarea dezvoltărilor software, imposibilitatea reutilizării unor componente deja finanțate, dependența tehnologică față de furnizori, dificultăți de mentenanță, migrare, audit tehnic și integrare cu alte sisteme informatice.
+
+Reglementările existente acoperă parțial domenii conexe, precum achizițiile publice, interoperabilitatea, securitatea cibernetică, protecția datelor sau simplificarea administrativă. Totuși, acestea nu instituie un regim juridic coerent privind publicarea codului sursă, reutilizarea soluțiilor digitale dezvoltate din fonduri publice, predarea completă a elementelor tehnice necesare operării și prevenirea dependenței de furnizori.
+
+Prezenta propunere legislativă urmărește acoperirea acestei lacune, prin instituirea unui cadru normativ aplicabil software-ului dezvoltat intern ori la comandă, finanțat integral sau parțial din fonduri publice, precum și componentelor digitale reutilizabile aferente acestuia.
+
+Propunerea nu instituie obligația publicării codului sursă pentru software-ul comercial standard licențiat de entitățile publice, în măsura în care acesta nu include dezvoltări, adaptări ori modificări realizate la comandă și finanțate integral sau parțial din fonduri publice.
+
+De asemenea, publicarea codului sursă nu presupune publicarea datelor cu caracter personal, a datelor operaționale protejate, a secretelor comerciale, a cheilor de acces, parolelor, certificatelor, cheilor criptografice, tokenurilor, configurațiilor informatice sensibile ori a altor informații a căror divulgare este interzisă sau restricționată potrivit legii.
+
+## 2. Obiectul reglementării
+
+Propunerea legislativă instituie cadrul juridic privind publicarea codului sursă și reutilizarea soluțiilor și componentelor digitale în sectorul public. Aceasta se aplică autorităților și instituțiilor publice centrale și locale, precum și entităților aflate în coordonarea, subordinea, sub autoritatea, administrarea sau controlul acestora, care dezvoltă intern, administrează ori operează soluții digitale pentru furnizarea unui serviciu public digital.
+
+Reglementarea se aplică, în mod corespunzător, și contractelor care includ dezvoltarea software-ului la comandă, finanțat integral sau parțial din fonduri publice, încheiate de persoanele juridice de drept privat prevăzute la art. 1 alin. (1) din Ordonanța de urgență a Guvernului nr. 41/2016, aprobată cu modificări prin Legea nr. 179/2017, cu modificările și completările ulterioare.
+
+Propunerea se fundamentează pe următoarele principii: publicarea codului sursă ca regulă, reutilizarea cu prioritate, interoperabilitatea prin standarde deschise, securitatea și protecția datelor, prevenirea dependenței tehnologice față de furnizori, precum și trasabilitatea și responsabilitatea instituțională.
+
+## 3. Soluțiile legislative propuse
+
+Propunerea legislativă prevede organizarea, în cadrul Autorității pentru Digitalizarea României, a Oficiului pentru Cod Public și Reutilizare Software, ca structură fără personalitate juridică, în limita numărului maxim de posturi aprobat pentru Autoritatea pentru Digitalizarea României.
+
+Autoritatea pentru Digitalizarea României, prin Oficiu, administrează Depozitul Național al Codului Public și Catalogul național de reutilizare, elaborază și propune normele metodologice de aplicare a legii, monitorizează aplicarea acesteia, sprijină entitățile publice și participă la elaborarea standardelor privind publicarea, reutilizarea, interoperabilitatea, securitatea, maturitatea, mentenanța și raportarea.
+
+Se instituie Depozitul Național al Codului Public, ca platformă informatică oficială destinată publicării, trasabilității și colaborării privind codul public. Evidența oficială a publicării codului public este evidența actualizată din acest depozit. Publicarea se poate realiza prin găzduire în depozit sau prin oglindire către alte platforme, fără afectarea caracterului oficial al evidenței. Se instituie, de asemenea, Catalogul național de reutilizare, care include, pentru fiecare soluție sau componentă digitală, descrierea, domeniul de utilizare, condițiile de reutilizare, nivelul de maturitate, responsabilul instituțional, statutul de mentenanță, perioada estimată de suport, documentația și trimiterea la Depozitul Național al Codului Public.
+
+Propunerea reglementează lista componentelor comune reutilizabile, aplicabile transversal în administrație, care se aprobă și se actualizează prin decizie a președintelui Autorității pentru Digitalizarea României, la propunerea Oficiului. Fiecare entitate publică are obligația de a desemna un responsabil pentru cod public și reutilizare software. Entitățile publice din administrația publică locală pot desemna un responsabil comun, fără transferarea responsabilității privind îndeplinirea obligațiilor prevăzute de lege.
+
+Codul sursă aferent soluțiilor digitale dezvoltate intern ori la comandă din fonduri publice se publică în Depozitul Național al Codului Public, cel târziu la data recepției finale a soluției digitale. Publicarea include codul sursă, documentația minimă necesară reutilizării și, după caz, lista componentelor software și evidența licențelor aferente.
+
+Codul public se publică sub licențe open-source care permit utilizarea, studierea, modificarea, distribuirea și reutilizarea codului sursă. Entitățile publice au obligația de a asigura, prin documentațiile de atribuire și prin clauzele contractuale, dobândirea ori utilizarea drepturilor necesare pentru publicarea codului sursă.
+
+În cazul în care publicarea integrală a codului sursă nu este posibilă, entitatea publică publică acele componente, interfețe, documentații și metadate care pot fi divulgate fără afectarea interesului protejat și care permit, în măsura posibilului, reutilizarea soluției digitale.
+
+Excepțiile de la publicarea integrală se aprobă prin ordin al președintelui Autorității pentru Digitalizarea României, în cazurile expres prevăzute de lege, respectiv pentru informații clasificate sau protejate prin lege, componente care ar expune elemente operaționale critice de securitate, componente asupra cărora terții dețin drepturi de proprietate intelectuală incompatibile cu publicarea, riscuri dovedite pentru securitatea națională, ordinea publică ori securitatea cibernetică, precum și situații temporare de remediere pentru conformare. Excepțiile se acordă pe durată determinată și se revizuiesc anual.
+
+Entitățile publice au obligația de a reutiliza, cu prioritate, soluții digitale sau componente reutilizabile existente, în măsura în care acestea corespund necesităților funcționale, tehnice și de securitate. Înainte de inițierea unei proceduri de achiziție publică ce include dezvoltare software ori dezvoltare de componente software, entitatea publică are obligația de a verifica existența unei soluții reutilizabile în Catalogul național de reutilizare.
+
+Contractele care includ dezvoltare software sau dezvoltare de componente software finanțată integral sau parțial din fonduri publice trebuie să cuprindă clauze privind drepturile de proprietate intelectuală și licențele necesare, publicarea codului sursă, predarea completă, portabilitatea datelor, migrarea, auditarea, securitatea, interoperabilitatea, transferul operațional și continuitatea operațională, inclusiv pentru sistemele critice. Clauzele contractuale care limitează ori împiedică exercitarea drepturilor și obligațiilor prevăzute de lege sunt considerate nescrise, în măsura în care contravin acesteia.
+
+Pentru soluțiile digitale dezvoltate la comandă din fonduri publice, furnizorul are obligația de a preda entității publice codul sursă, documentația tehnică și operațională, elementele necesare construirii, compilării, configurării și implementării soluției, pachetele sau artefactele de livrare, mecanismele și procedurile de portabilitate și migrare, lista componentelor software, evidența licențelor și rapoartele de testare, verificare tehnică și calitate. Recepția finală este condiționată de îndeplinirea obligațiilor prevăzute de lege.
+
+Propunerea reglementează, totodată, cerințe privind interoperabilitatea prin standarde deschise și interfețe informatice documentate, precum și obligația definirii și publicării unui model sau dicționar de date pentru soluțiile digitale care gestionează date cu utilizare interinstituțională, fără includerea datelor cu caracter personal.
+
+Contribuțiile externe la codul public se realizează prin mecanismele Depozitului Național al Codului Public, potrivit procedurilor stabilite prin normele metodologice. Evaluarea, aprobarea și integrarea contribuțiilor externe se realizează cu respectarea regulilor privind transparența, evitarea conflictului de interese și legislația specială aplicabilă.
+
+Soluțiile digitale publice trebuie să respecte cerințele minime de securitate stabilite prin normele metodologice, incluzând, după caz, lista componentelor software, analiza dependențelor software, scanarea vulnerabilităților, testarea de securitate și măsuri de auditabilitate.
+
+Aplicarea legii este urmărită prin raportul anual publicat de Autoritatea pentru Digitalizarea României, prin Oficiu, raport care include indicatori privind soluțiile și componentele publicate, gradul de reutilizare, excepțiile active, respectarea obligațiilor de predare, costurile evitate ori economiile estimate, gestionarea vulnerabilităților și starea componentelor comune reutilizabile.
+
+## 4. Corelarea cu legislația existentă
+
+Prezenta propunere legislativă completează cadrul normativ existent privind digitalizarea administrației publice, achizițiile publice, interoperabilitatea, securitatea cibernetică, protecția datelor și reutilizarea informațiilor din sectorul public.
+
+În mod special, propunerea completează obligația prevăzută la art. 12 alin. (1) din Ordonanța de urgență a Guvernului nr. 41/2016, potrivit căreia caietele de sarcini și contractele de achiziție publică ce vizează dezvoltări de programe informatice la solicitarea instituției sau autorității publice trebuie să prevadă transferul drepturilor patrimoniale de autor către autoritatea contractantă.
+
+Prezenta propunere nu modifică și nu limitează această obligație, ci instituie cerințe suplimentare privind publicarea codului sursă, predarea completă, portabilitatea, auditabilitatea, interoperabilitatea, reutilizarea și prevenirea dependenței tehnologice față de furnizori.
+
+Reglementarea nu aduce atingere regimului juridic aplicabil sistemelor informatice din domeniul apărării naționale, ordinii publice și securității naționale, informațiilor clasificate, cerințelor speciale de securitate cibernetică, protecției datelor cu caracter personal și drepturilor de proprietate intelectuală ale terților.
+
+## 5. Normele metodologice și aplicarea legii
+
+În termen de 90 de zile de la data intrării în vigoare a legii, Guvernul aprobă, prin hotărâre, normele metodologice de aplicare.
+
+Normele metodologice vor stabili, în principal, regulile de operare, securitate, acces, arhivare, continuitate operațională și audit ale Depozitului Național al Codului Public, condițiile de funcționare ale Catalogului național de reutilizare, licențele open-source acceptate, regulile de compatibilitate între licențe, formatul evidenței licențelor, cerințele privind lista componentelor software, procedurile privind publicarea parțială, excepțiile, verificarea contribuțiilor externe, portabilitatea, migrarea, interoperabilitatea, securitatea, raportarea vulnerabilităților, criteriile privind sistemele digitale critice, nivelul de maturitate și statutul de mentenanță.
+
+Obligațiile de publicare și predare prevăzute de lege se aplică procedurilor de achiziție publică și proiectelor de dezvoltare software inițiate după data intrării în vigoare a legii. Legea intră în vigoare la 30 de zile de la data publicării în Monitorul Oficial al României, Partea I.
+
+## 6. Impactul estimat
+
+Adoptarea propunerii legislative este de natură să reducă duplicarea investițiilor publice în dezvoltări software similare, să faciliteze reutilizarea soluțiilor și componentelor digitale, să limiteze dependența tehnologică față de furnizori și să crească trasabilitatea, auditabilitatea și securitatea soluțiilor digitale finanțate din fonduri publice.
+
+Prin instituirea Depozitului Național al Codului Public și a Catalogului național de reutilizare, administrația publică dobândește instrumente oficiale pentru publicarea, evidența, reutilizarea și monitorizarea soluțiilor digitale dezvoltate din fonduri publice.
+
+Propunerea nu înființează o nouă autoritate publică cu personalitate juridică. Oficiul pentru Cod Public și Reutilizare Software se organizează în cadrul Autorității pentru Digitalizarea României, ca structură fără personalitate juridică, în limita numărului maxim de posturi aprobat pentru aceasta.
+
+Pentru mediul economic, propunerea nu exclude utilizarea software-ului comercial standard și nu elimină piața de dezvoltare software. Reglementarea urmărește stabilirea unor reguli clare privind drepturile, predarea, mentenanța, portabilitatea, interoperabilitatea și reutilizarea soluțiilor dezvoltate din fonduri publice.
+
+## 7. Alinierea la direcția Uniunii Europene
+
+Prezenta propunere legislativă se înscrie în direcția europeană privind consolidarea capacității administrațiilor publice de a dezvolta, utiliza și reutiliza soluții digitale deschise, interoperabile, auditabile și sustenabile.
+
+La nivelul Uniunii Europene, reutilizarea soluțiilor software, interoperabilitatea sistemelor informatice, utilizarea standardelor deschise, reducerea dependențelor tehnologice și securitatea lanțului de aprovizionare software constituie componente relevante ale politicilor publice privind transformarea digitală a administrației.
+
+În acest context, propunerea legislativă transpune la nivel național o opțiune de politică publică potrivit căreia software-ul dezvoltat intern ori la comandă, finanțat integral sau parțial din fonduri publice, trebuie să poată fi publicat, reutilizat, auditat, întreținut și transferat, cu respectarea excepțiilor necesare pentru protecția informațiilor clasificate, a securității naționale, a ordinii publice, a securității cibernetice, a datelor protejate și a drepturilor de proprietate intelectuală ale terților.
+
+Prin instituirea Depozitului Național al Codului Public, a Catalogului național de reutilizare și a Oficiului pentru Cod Public și Reutilizare Software, propunerea creează instrumentele instituționale și tehnice necesare pentru aplicarea efectivă a principiilor de reutilizare, interoperabilitate, trasabilitate și prevenire a dependenței tehnologice față de furnizori.
+
+Reglementarea contribuie la alinierea administrației publice din România la bunele practici europene privind guvernanța software-ului finanțat din fonduri publice, fără a afecta utilizarea software-ului comercial standard și fără a aduce atingere reglementărilor speciale privind achizițiile publice, protecția datelor, securitatea cibernetică, informațiile clasificate și drepturile de proprietate intelectuală.
+
+## 8. Concluzii
+
+Propunerea legislativă instituie un cadru normativ coerent și executoriu care transformă software-ul dezvoltat intern sau la comandă, finanțat integral sau parțial din fonduri publice, într-un bun public digital: cod public, reutilizabil, auditabil, interoperabil, securizat și mentenabil, cu excepții strict motivate, transparente, proporționale și revizuibile.
+
+Prin instituirea Depozitului Național al Codului Public, a Catalogului național de reutilizare, în cadrul ADR, a Oficiului pentru Cod Public și Reutilizare Software, reglementarea dobândește capacitate reală de implementare, monitorizare și evaluare.
+
+Prin adoptarea prezentei legi, România se aliniază direcției europene de consolidare a ecosistemelor digitale deschise, reutilizabile și sustenabile, transformând software-ul dezvoltat intern sau la comandă, finanțat integral sau parțial din fonduri publice, într-un instrument de eficiență administrativă, transparență, securitate și suveranitate tehnologică.
+
+În considerarea celor prezentate, se impune adoptarea Propunerii legislative privind codul sursă deschis și reutilizarea soluțiilor și componentelor digitale în sectorul public.
+
+În numele inițiatorilor, Senator RUS Vasile-Ciprian
+
+## LISTA SUSȚINĂTORILOR
+
+# propunerii legislative privind codul sursă deschis și reutilizarea soluțiilor și componentelor digitale în sectorul public
+
+| Nr. crt. | Numele și prenumele senatorului/deputatului | Grupul parlamentar | Semnătura de susținere |
+| --- | --- | --- | --- |
+| 1 | PAUN CYMTHIA | USR |  |
+| 2 | PALADIS STATA | USR |  |
+| 3 | CIBU SEACONU RUXANDRA | USR |  |
+| 4 | SPATAPU SIMON | USR |  |
+| 5 | BOCHILEANU GEORGE CATALIN | USR |  |
+| 6. | MINARU CATALIN-EMIL | USR |  |
+| 7. | Stepuadre Gleophe | USR |  |
+| 8. | Bodea Manus | USR |  |
+| 9 | Opukary Farol | USR |  |
+| 10 | ANGHEL RÉZUAN PMU | USR |  |
+| 11 | NEGOI EVEN REMUS | USR |  |
+| 12 | S.POS SORIH CAFORDHE | USR |  |
+
+## LISTA SUSTINĂTORILOR
+
+## propunerii legislative privind codul sursă deschis și reutilizarea resurselor digitale în sectorul public
+
+| Nr. crt. | Numele și prenumele senatorului/deputatului | Grupul parlamentar | Semnătura de susținere |
+| --- | --- | --- | --- |
+| 1 | GIVRGIV ADRIAN | USR |  |
+| 2 | CRISTIAN BRIAN | USR |  |
+| 3 | Rodeanu Bogdan | USR |  |
+| 4 | STEFAW-ICLIAW 101MC7 | USR |  |
+| 5 | PLUJAR ANDREI | USR |  |
+| 6 | HANGAN POLLYANNA | USR |  |
+| 7 | ACEESANDRU HARIUS-NICOLAE | USR |  |
+| 8 | Gmonul Vignom | USR |  |
+| 9 | RIGMAN CIPRIAN | USR |  |
+| 10 | MURARIU OANA | USR |  |
+| 11 | Diana Stiia | USR |  |
+| 12 | BERESW MONICA | USR |  |
+| 13 | CHEOO6HIU ANDREI | USR |  |
+| 14 | COLIBAN ALLEN | USR |  |
+| 15 | CORJHA ATATHASIU | USD |  |
+
+## LISTA SUSTINĂTORILOR
+
+# propunerii legislative privind codul sursă deschis și reutilizarea soluțiilor și componentelor digitale în sectorul public
+
+| Nr.crt. | Numele și prenumele senatorului/deputatului | Grupul parlamentar | Semnătura de susținere |
+| --- | --- | --- | --- |
+|  | Rodeanu Bogdan | USR |  |
+|  | Vadura Duubu | USR |  |
+|  | Paraschiresa Ovchin | USR |  |
+|  | Simmul Omgumom | USR |  |

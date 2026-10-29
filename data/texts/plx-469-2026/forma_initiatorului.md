@@ -1,0 +1,19 @@
+# PARLAMENTUL ROMÂNIEI
+
+## SENATUL
+
+CAMERA DEPUTAȚILOR
+
+LEGE
+
+pentru modificarea art. Il din Legea nr. 254/2022 pentru modificarea și completarea Legii fondului funciar nr. 18/1991 și a altor acte normative
+
+Parlamentul României adoptă prezenta lege :
+
+Articol unic: La articolul II din Legea nr. 254/2022 pentru modificarea și completarea Legii fondului funciar nr. 18/1991 și a altor acte normative, publicată în Monitorul Oficial al României, Partea I, nr. 736 din 21 iulie 2022, sintagma „31 decembrie 2026” se înlocuiește cu sintagma „31 decembrie 2030”
+
+Această propunere legislativă a fost adoptată de Senat în ședința din data de...... Președintele Senatului Abrudean Mircea
+
+Această propunere legislativă a fost adoptată de Camera Deputaților în ședința din data de.....
+
+Președintele Camerei Deputaților Grindeanu Sorin Mihai

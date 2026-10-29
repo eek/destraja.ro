@@ -1,0 +1,102 @@
+{
+  "slug": "plx-307-2026",
+  "billId": "PL-x 307/2026",
+  "updatedAt": "2026-10-29T13:03:31.512Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L150FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Vânzarea părților dintr-un SRL cu datorii devine condiționată pentru orice asociat; regulile pentru comercianții de carburanți se corectează",
+      "summaryTlDr": "OUG-ul repară corect câteva excese ale OUG 89/2025 la accize: import autorizat doar pentru produsele de la art. 435 alin. (3), fără penalizarea firmelor nou-autorizate și cu un prag de întârziere de 15 zile în loc de 5. În schimb, extinde la orice asociat de SRL condiționarea cesiunii de părți sociale când firma are datorii și păstrează barierele de câte 2,5 milioane lei, care favorizează marii jucători din carburanți.",
+      "scores": {
+        "agy": 7,
+        "claude": 5,
+        "codex": 6
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/300/00/7/se334.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Vânzarea părților dintr-un SRL trece prin filtrul ANAF; regulile pentru comerțul cu carburanți se mai relaxează",
+      "summaryTlDr": "Ordonanța este în mare parte corectivă: îndulcește câteva excese ale OUG 89/2025 din comerțul cu produse accizabile. În schimb, extinde filtrul fiscal la vânzarea părților sociale de la asociatul care deține controlul la orice asociat de SRL, chiar minoritar, și păstrează bariere mari de intrare pe piața angro de carburanți.",
+      "scores": {
+        "agy": 5,
+        "claude": 5,
+        "codex": 6
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat ordonanța fiscal-bugetară fără modificări; regulile au rămas aceleași",
+      "summary": "Senatul a aprobat OUG 13/2026 așa cum a propus-o inițiatorul, fără amendamente. Diferențele dintre texte sunt doar de redactare: formula de adoptare și datele de publicare. Regulile pentru asociați și pentru firmele din domeniul accizelor rămân aceleași.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Condițiile de opozabilitate a cesiunii se aplică oricărui asociat, nu doar celui cu control",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Distribuitorul de produse energetice trebuie să fie afiliat unui antrepozitar autorizat",
+            "major": true,
+            "article": "art. II pct. 3"
+          },
+          {
+            "text": "Angrosistul fără depozitare poate vinde doar consumatorilor finali și stațiilor de carburanți",
+            "major": true,
+            "article": "art. II pct. 1"
+          }
+        ],
+        "good": [
+          {
+            "text": "Se abrogă criteriul de risc fiscal ridicat pentru operatorii autorizați recent",
+            "major": true,
+            "article": "art. II pct. 7"
+          },
+          {
+            "text": "Autorizarea ca importator devine obligatorie doar pentru anumite produse energetice",
+            "major": true,
+            "article": "art. II pct. 4, 12, 13"
+          },
+          {
+            "text": "Antrepozitarii autorizați și expeditorii înregistrați scapă de autorizare și de garanție",
+            "major": true,
+            "article": "art. II pct. 4, 12, 13"
+          },
+          {
+            "text": "ONRC cere direct de la ANAF certificatul de atestare fiscală la cesiune",
+            "major": false,
+            "article": "art. I"
+          },
+          {
+            "text": "Pragul de întârziere la declarații crește de la 5 la 15 zile",
+            "major": false,
+            "article": "art. II pct. 8"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:02:04.452Z"
+    }
+  ]
+}

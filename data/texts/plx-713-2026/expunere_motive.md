@@ -1,0 +1,153 @@
+## EXPUNERE DE MOTIVE
+
+la Propunerea legislativă pentru modificarea și completarea Legii nr.241/2005 pentru prevenirea și combaterea evaziunii fiscale
+
+## 1. Obiectul reglementării
+
+Prezenta propunere legislativă are ca obiect modificarea și completarea Legii nr. 241/2005 pentru prevenirea și combaterea evaziunii fiscale, cu modificările și completările ulterioare, în scopul consolidării cadrului juridic aplicabil formelor grave, organize, disimulate și sofisticate de fraudă fiscală.
+
+Intervenția legislativă nu instituie o incriminare generală nouă și nu urmărește sancționarea conduitei fiscale de simplă neconformare administrativă, a erorilor contabile izolate, a întârzierilor la plată sau a unor deficiențe formale lipsite de scop fraudulos. Reglementarea propusă vizează exclusiv ipotezele în care faptele prevăzute de Legea nr.241/2005 sunt săvârșite prin mecanisme frauduloase organize, prin persoane interpuse, prin circuite comerciale artificiale, prin operațiuni transfrontaliere lipsite de justificare economică reală ori prin mijloace informatice sau digitale folosite pentru disimularea trasabilității fiscale.
+
+Scopul propunerii este acela de a permite organelor judiciare și instanțelor să distingă mai clar între:
+
+a) contribuabilul care se conformează ulterior și acoperă rapid un prejudiciu rezultat dintr-o conduită izolată;
+
+b) persoana fizică sau juridică ce utilizează un mecanism fraudulos pentru sustragerea de la obligațiile fiscale;
+
+c) operatorul economic folosit ca vehicul al fraudei fiscale;
+
+d) participantul la fraudă care folosește persoane interpuse sau circuite artificiale pentru ascunderea beneficiarului economic real;
+
+e) persoana juridică condamnată pentru fapte fiscale grave, care poate continua să participe la proceduri de achiziții publice fără o analiză judiciară efectivă a pedepselor complementare aplicabile.
+
+## 2. Necesitatea intervenției legislative
+
+Evaziunea fiscală gravă afectează direct bugetul general consolidat, finanțarea serviciilor publice, concurența loială și încrederea contribuabilului onest în autoritatea statului.
+
+În forma sa contemporană, frauda fiscală nu mai presupune doar omisiunea evidențierii unor venituri sau neplata unor obligații fiscale. În numeroase cauze, faptele sunt săvârșite prin structuri comerciale aparente, societăți fără activitate economică reală, persoane interpuse, operațiuni fictive, documente fiscale ori contabile nereale, circuite transfrontaliere artificiale și mijloace informatice destinate ascunderii circuitului real al bunurilor, serviciilor, veniturilor sau fondurilor.
+
+Legea nr.241/2005 conține deja încriminări esențiale, inclusiv în materia operațiunilor fictive, documentelor fiscale sau contabile nereale, sistemului RO e-Factura, aparatelor de marcat electronice fiscale, schemelor frauduloase privind TVA și prejudiciilor semnificative aduse bugetului public. Cu toate acestea, practica demonstrează necesitatea unei completări punctuale a cadrului legal, pentru a asigura o reacție penală diferențiată față de formele organizate, repetate și disimulate ale fraudei fiscale.
+
+Recuperarea prejudiciului trebuie încurajată în continuare. Totuși, în cauzele de fraudă fiscală organizată, plata ulterioară a prejudiciului nu trebuie să transforme răspunderea penală într-un simplu cost economic calculat. Atunci când fapta este săvârșită printr-o arhitectură frauduloasă, prin persoane interpuse, prin circuite artificiale sau în cadrul unui grup infracțional organizat, interesul public reclamă atât recuperarea prejudiciului, cât și o sancțiune penală efectivă, proporțională și disuasivă.
+
+## 3. Corelarea cu legislația în vigoare
+
+Propunerea legislativă este concepută cu respectarea arhitecturii actuale a Legii nr. 241/2005, astfel cum aceasta a fost modificată prin acte normative recente, inclusiv prin Legea nr.126/2024.
+
+Intervenția propusă nu suprapune noile definiții peste incriminările deja existente, ci introduce criterii legale de identificare a formelor organizate și disimulate ale fraudei fiscale, cu rol de circumstanțiere specială și de orientare a individualizării judiciare.
+
+Noile definiții sunt formulate restrictiv, prin raportare la scopul fraudulos, la caracterul intenționat al conduitei și la elemente obiective verificabile. Sunt excluse expres erorile materiale, deficiențele administrative izolate, neconformările tehnice remediate prompt și conduita lipsită de scop fraudulos.
+
+De asemenea, modificările aduse art.10 sunt correlate cu regimul actual al cauzelor de reducere a pedepsei și de nepedepsire, precum și cu exigența stabilirii prejudiciului prin expertiză de specialitate, cu respectarea dreptului la apărare și a garanțiilor procesuale ale suspectului sau inculpatului.
+
+## 4. Soluțiile legislative propuse
+
+Propunerea legislativă introduce la art.2 din Legea nr.241/2005 trei definiții noi: mecanism fraudulos organizat, persoană interpusă și disimulare digitală a trasabilității fiscale. Aceste definiții au rolul de a clarifica formele moderne de disimulare fiscală, fără a extinde răspunderea penală asupra conduitei licite ori asupra erorilor administrative lipsite de intenție frauduloasă.
+
+Se introduce art.9^4, care reglementează circumstanțe agravante speciale pentru infrațiunile prevăzute la art.8 alin. (1), art.9 alin.(1) și art.9^3, atunci când acestea sunt săvârșite prin mecanisme frauduloase organizate, persoane interpuse, circuite comerciale artificiale, operațiuni transfrontaliere artificiale sau disimulare digitală a trasabilității fiscale.
+
+Textul include garanții explicite împotriva dublei valorificări a aceleiași împrejurări. Astfel, agravarea nu se aplică atunci când elementul respectiv constituie deja element constitutiv al infracțiunii reținute sau a fost valorificat printr-o altă dispoziție legală de agravare.
+
+Articolul 10 este modificat punctual, fără desființarea mecanismelor de recuperare a prejudiciului. În cauzele obișnuite, beneficiile legale se mențin.
+
+În schimb, în cauzele de fraudă fiscală organizată sau comisă în cadrul unui grup infraçional organizat, cauzele de nepedepsire și reducerile obligatorii sunt înlocuite cu o posibilitate judiciară, motivată, de reducere limitată a pedepsei, condiționată de acoperirea integrală a prejudiciului și de respectarea garanțiilor privind expertiza de specialitate.
+
+Articolul 11 este reformulat pentru a face efectivă obligația luării măsurilor asigurătorii, cu respectarea Codului de procedură penală, a proporționalității, a dreptului de proprietate și a drepturilor procesuale ale persoanelor vizate.
+
+Se introduce art.12^1, prin care instanța este obligată să se pronunțe motivat asupra pedepselor complementare aplicabile persoanei juridice condamnate, inclusiv asupra interzicerii participării la procedurile de achiziții publice, în condițiile Codului penal.
+
+Articolul 13 este modificat pentru comunicarea hotărârilor definitive către instituțiile competente, în vederea asigurării efectelor legale ale condamnării și ale pedepselor complementare dispuse.
+
+Se introduce art.14^1 privind cooperarea interinstituțională între autoritățile cu atribuții fiscale, judiciare, vamale, de prevenire și combatere a spălării banilor, registrul comerțului și domeniul achizițiilor publice.
+
+Cooperarea este limitată expres de competențele legale ale fiecărei instituții și nu poate adăuga la lege, nu poate extinde incriminările și nu poate restrânge drepturile procesuale ale persoanelor cercetate.
+
+## 5. Compatibilitatea constituțională
+
+Propunerea legislativă respectă art.1 alin.(5) din Constituția României, republicată, sub aspectul exigențelor de claritate, precizie, previzibilitate și calitate a legii.
+
+Textele propuse respectă principiul legalității incriminării și sancțiunii, principiul proporționalității, principiul individualizării judiciare a pedepsei, prezumția de nevinovăție, dreptul la apărare, dreptul la un proces echitabil și principiul aplicării legii penale mai favorabile.
+
+Reglementarea nu instituie răspundere obiectivă și nu sancționează simpla neplată a unor obligații fiscale. Răspunderea penală rămâne condiționată de existența elementelor constitutive ale infracțiunii, inclusiv de scopul fraudulos prevăzut de lege. Măsurile asigurătorii se dispun numai în condițiile Codului de procedură penală, cu respectarea controlului judiciar și a proporționalității între valoarea prejudiciului estimat, scopul măsurii și întinderea indisponibilizării.
+
+Pedeapsa complementară aplicabilă persoanei juridice este dispusă de instanță prin hotărâre motivată, în condițiile Codului penal, ceea ce asigură controlul judiciar efectiv și evitarea caracterului automat, arbitrar ori disproporționat al sancțiunii.
+
+## 6. Compatibilitatea cu dreptul Uniunii Europene
+
+Prezenta propunere legislativă este compatibilă cu orientarea dreptului Uniunii Europene privind protejarea intereselor financiare ale Uniunii și combaterea fraudelor grave prin mijloace de drept penal.
+
+Soluțiile propuse respectă exigența ca sancțiunile aplicabile fraudelor fiscale grave să fie effective, proporționale și disuasive, în special în cauzele care implică TVA, documente nereale, circuite comerciale artificiale, operațiuni transfrontaliere și prejudicii semnificative aduse bugetului public.
+
+Propunerea legislativă nu afectează competențele Parchetului European, ale autorităților judiciare române ori ale instituțiilor cu atribuții fiscale și administrative, ci creează instrumente interne mai clare pentru identificarea, urmărirea și sancționarea fraudelor fiscale grave.
+
+## 7. Impactul social și economic
+
+Adoptarea prezentei propuneri legislative va avea un impact pozitiv asupra disciplinei fiscale, concurenței loiale și protejării contribuabililor onești.
+
+Prin descurajarea mecanismelor frauduloase organizate, proiectul contribuie la:
+
+a) protejarea bugetului general consolidat;
+
+b) creșterea gradului de recuperare a prejudiciilor fiscale;
+
+c) reducerea avantajului concurențial nelegal obținut de operatorii economici care fraudează;
+
+d) consolidarea încrederii publice în capacitatea statului de a combate criminalitatea economico-financiară;
+
+e) responsabilizarea persoanelor juridice implicate în fraude fiscale;
+
+f) protejarea procedurilor de achiziții publice de operatorii economici condamnați pentru fapte fiscale grave
+
+Propunerea legislativă nu instituie obligații administrative noi pentru contribuabilii conformi și nu afectează activitatea economică licită.
+
+## 8. Impactul bugetar
+
+Aplicarea prezentei propuneri legislative nu presupune înființarea unor instituții noi și nu modifică structura instituțională existență.
+
+Măsurile propuse se realizează, în principal, prin atribuții, proceduri și competențe deja existente ale autorităților fiscale, judiciare, vamale și administrative.
+
+Eventualele cheltuieli administrative determinate de actualizarea procedurilor operaționale de cooperare se suportă din bugetele aprobate ale instituțiilor competente, în condițiile legii.
+
+Pe termen mediu și lung, proiectul poate produce un impact bugetar pozitiv, prin creșterea gradului de recuperare a prejudiciilor, reducerea fraudei fiscale organizate și descurajarea utilizării societăților fictive ori a persoanelor interpuse în scopuri fiscale ilicite.
+
+## 9. Avize și puncte de vedere necesare
+
+Pentru asigurarea coerenței instituționale și a calității actului normativ, se impune solicitarea avizelor și punctelor de vedere ale instituțiilor competente, potrivit procedurilor parlamentare aplicabile, în special:
+
+a) Consiliul Legislativ;
+
+b) Consiliul Economic și Social;
+
+c) Guvernul României;
+
+d) Ministerul Justiției;
+
+e) Ministerul Finanțelor;
+
+f) Agenția Națională de Administrare Fiscală;
+
+g) Ministerul Public;
+
+h) Consiliul Superior al Magistraturii;
+
+i) Autoritatea Vamală Română;
+
+j) Oficiul Național de Prevenire și Combatere a Spălării Banilor;
+
+k) Oficiul Național al Registrului Comerțului;
+
+I) Autoritatea Națională pentru Achiziții Publice;
+
+m) Autoritatea Națională de Supraveghere a Prelucrării Datelor cu Caracter Personal, în măsura în care dispozițiile privind comunicarea hotărârilor definitive și cooperarea interinstituțională implică prelucrări de date cu caracter personal.
+
+## 10. Concluzie
+
+Față de cele prezentate, adoptarea prezentei propuneri legislative este necesară și oportună, întrucât întărește capacitatea statului de a combate evaziunea fiscală gravă, protejează bugetul public, susține mediul economic legal, consolidează recuperarea prejudiciilor și instituie o reacție penală proporțională față de formele organizate, disimulate și sofisticate de fraudă fiscală.
+
+INIȚIATOR: MACOVEI ILIE SIMONA-ELENA - deputat,
+
+## Tabel cu semnături la Propunerea legislativă pentru modificarea și completarea Legii nr.241/2005 pentru prevenirea și combaterea evaziunii fiscale
+
+| Nr.crt | Deputați/Senatori | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1 | B AG AND MORE CCLA | S.O.S.A |  |

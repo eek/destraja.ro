@@ -1,0 +1,150 @@
+{
+  "slug": "plx-320-2026",
+  "billId": "PL-x 320/2026",
+  "updatedAt": "2026-10-29T13:06:36.918Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L188FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "plainTitle": "«Primul venit» la fermă: protecție extinsă și pentru fabrici de furaje și unități de îngrășăminte",
+      "summaryTlDr": "Principiul de bază e legitim și util: o fermă existentă nu trebuie alungată de casele construite ulterior lângă ea. Problema e că textul întinde acest scut peste fabrici de furaje și unități de îngrășăminte, dă Ministerului Agriculturii drept de aviz asupra normelor sanitare și folosește formulări vagi.",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/300/20/0/se343.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Protecția fermelor față de casele construite prea aproape, extinsă la fabrici de carne, furaje și îngrășăminte",
+      "summaryTlDr": "Fișa oficială vorbește doar despre fonduri PAC, dar efectul real al proiectului e altul: lărgește cercul celor care pot cere în instanță demolarea caselor construite în zona lor de protecție, incluzând fabrici de carne și furaje, unități de îngrășăminte și „alte instalații similare”. Scopul de a proteja fermele vechi de vecinii veniți ulterior e legitim. Textul însă e vag și nu rezolvă problema invocată de inițiatori, plângerile abuzive.",
+      "scores": {
+        "agy": 7,
+        "claude": 5,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a lăsat neschimbate prevederile riscante; doar art. 6 trimite acum la Legea 37/2015 și Planul PAC",
+      "summary": "Senatul a păstrat neschimbate prevederile riscante ale inițiatorului: fermierii pot cere în instanță demolarea caselor din zona de protecție, normele sanitare cer avizul Agriculturii, iar lista unităților protejate e deschisă. Se schimbă doar trimiterile de la art. 6.",
+      "changes": [
+        {
+          "title": "Fermele cu acces la fonduri, definite după altă lege",
+          "text": "La art. 6, inițial puteau accesa fonduri și fermele organizate după OUG nr. 108/2001; acum, cele organizate și dimensionate după Legea nr. 37/2015 privind clasificarea fermelor.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 6",
+          "before": "Guvernului nr. 108/2001 privind exploatațiile agricole, aprobată cu modificări și completări prin Legea nr. 166/2002, cu modificările și completările ulterioare",
+          "after": "în conformitate cu Legea nr.37/2015 privind clasificarea fermelor și exploatațiilor agricole, cu modificările ulterioare",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Programul de finanțare apare sub alt nume",
+          "text": "La art. 6, fondurile pentru modernizarea fermelor se accesează acum prin „Planul Strategic PAC 2023-2027”, nu prin „Programul Național Strategic 2023-2027”, cum scria inițial.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 6",
+          "before": "pot accesa fonduri structurale în vederea modernizării și restructurării fermelor agricole prin Programul Național Strategic 2023-2027.",
+          "after": "pot accesa fonduri structurale în vederea modernizării și restructurării fermelor agricole prin Planul Strategic PAC 2023-2027.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Fermele și unitățile nou protejate pot cere demolarea caselor, chiar autorizate, fără despăgubiri prevăzute",
+            "major": true,
+            "article": "art. 5"
+          },
+          {
+            "text": "Agricultura avizează normele sanitare ale Sănătății; nu se spune dacă avizul e obligatoriu",
+            "major": true,
+            "article": "art. 3 alin. (2)"
+          },
+          {
+            "text": "Fabrici și depozite de îngrășăminte devin protejate, fără diferență de mărime sau risc",
+            "major": true,
+            "article": "art. 2 lit. n)"
+          },
+          {
+            "text": "Fabrici de carne, nutrețuri și „alte instalații similare” devin protejate: listă deschisă",
+            "major": true,
+            "article": "art. 2 lit. j)"
+          },
+          {
+            "text": "„Condiții stricte de autorizare și control de mediu” nu trimite la reguli concrete",
+            "major": false,
+            "article": "art. 2 lit. n)"
+          },
+          {
+            "text": "Nu e clar cum se leagă demolarea de anularea autorizației de construire",
+            "major": false,
+            "article": "art. 5"
+          },
+          {
+            "text": "„Scopul exclusiv” al acțiunii în demolare nu are criterii; nu e clar dacă e condiție",
+            "major": false,
+            "article": "art. 5"
+          },
+          {
+            "text": "„Distanțele minime de protecție” nu sunt delimitate de „zonele de protecție sanitară”",
+            "major": false,
+            "article": "art. 3 alin. (2)"
+          },
+          {
+            "text": "Nu se precizează prin ce act se emit normele sanitare",
+            "major": false,
+            "article": "art. 3 alin. (2)"
+          },
+          {
+            "text": "„Incubațiile” e un termen greșit; probabil s-a vrut „incubatoarele”",
+            "major": false,
+            "article": "art. 2 lit. j)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Protecția și dreptul de a cere demolări sunt doar pentru fermele care funcționează legal",
+            "major": true,
+            "article": "art. 1 și art. 5"
+          },
+          {
+            "text": "Distanțele sanitare rămân stabilite prin normele Ministerului Sănătății",
+            "major": false,
+            "article": "art. 3 alin. (2)"
+          },
+          {
+            "text": "Fermele legale pot accesa fonduri de modernizare prin Planul Strategic PAC 2023-2027",
+            "major": false,
+            "article": "art. 6"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 14,
+        "removed": 33,
+        "same": 0.07
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:06:36.918Z"
+    }
+  ]
+}

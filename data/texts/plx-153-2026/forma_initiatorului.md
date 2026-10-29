@@ -1,0 +1,29 @@
+# Parlamentul României
+
+Camera Deputaților
+
+Senat
+
+Lege pentru modificarea și completarea “Legii nr. 95/2006 (republicată) privind reforma în domeniul sănătății”
+
+Parlamentul României adoptă prezenta lege:
+
+Articol I – După litera (f) a aliniatului (6) a articolului 30¹ din Legea nr. 95/2006 privind reforma în domeniul sănătății, se introduce o nouă literă, (g) având cu următorul cuprins:
+
+(g) Telerecuperarea
+
+Art. II – După articolul 30¹¹ se introduce un nou articol, 30¹² având următorul cuprins:
+
+30¹² - Telerecuperarea reprezintă furnizarea la distanță a serviciilor de medicină fizică și de reabilitare, utilizând mijloace digitale pentru a permite realizarea de consult, evaluarea funcțională, intervenția terapeutică de specialitate, educarea pacientului și monitorizarea evoluției acestuia. Serviciile sunt furnizate la indicația medicului specialist în medicină fizică și de recuperare respectiv a medicului specialist în medicină fizică și balneologie , monitorizarea și implementarea planului individual de recuperare fiind realizat în colaborare cu fizioterapeuți, dieteticieni, psihologi, logopezi și specialiști în terapie ocupațională.
+
+(1) 证明: H₂ 是一个完全的物理性质，即 H₂ 是一个完全的物理性质，即 H₂ 是一个完全的物理性质。
+
+Art. III - În termen de 30 de zile de la data intrării în vigoare a prezentei legi, Ministerul Sănătății elaborează normele metodologice de punere în aplicare a acesteia, care vor fi aprobate prin hotărâre a Guvernului.
+
+Președintele
+
+Camerei Deputaților
+
+Președintele
+
+Senatului

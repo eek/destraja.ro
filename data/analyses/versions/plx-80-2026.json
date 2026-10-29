@@ -1,0 +1,112 @@
+{
+  "slug": "plx-80-2026",
+  "billId": "PL-x 80/2026",
+  "updatedAt": "2026-10-29T12:31:00.814Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L641FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Proiectele rurale cu bani UE neterminate până la finalul lui 2025 pot fi plătite din noul program PAC",
+      "summaryTlDr": "Lege tehnică de salvare a fondurilor europene. Permite ca proiectele PNDR 2014-2020 neterminate să fie plătite din Planul Strategic PAC 2023-2027, ca să nu se piardă circa 750 milioane lei. Problema nu e abuzul, ci incertitudinea pentru beneficiari: preluarea depinde de aprobarea Comisiei Europene și de banii rămași.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/80/0/se76.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Proiectele agricole PNDR neterminate până la 31.12.2025 trec în noul plan PAC, ca să nu se piardă bani UE",
+      "summaryTlDr": "Lege tehnică și utilă. Permite terminarea proiectelor rurale începute pe PNDR 2014-2020 cu bani din Planul Strategic PAC 2023-2027, așa cum prevede art. 155 din Reg. (UE) 2021/2115, și evită pierderea a circa 750 mil. lei FEADR. Are două puncte slabe: beneficiarii suportă riscul în cazul în care Comisia respinge tranziția, iar banii nu sunt noi, deci concurează cu apelurile noi.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Fără schimbări de fond: Senatul a aprobat ordonanța așa cum a venit de la Guvern",
+      "summary": "Senatul a aprobat ordonanța fără modificări. Diferențele sunt doar de formă: formula de adoptare, data ordonanței și numărul Monitorului Oficial. Riscurile rămân aceleași: preluarea proiectelor vechi nu e garantată, iar beneficiarii suportă riscul unui refuz al Comisiei.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Preluarea proiectelor e opțională («pot fi preluate»), fără drept garantat pentru beneficiari",
+            "major": true,
+            "article": "art. 22 alin. (6) din OUG 49/2015"
+          },
+          {
+            "text": "Nicio ordine de prioritate dacă banii nu ajung pentru toate contractele eligibile",
+            "major": true,
+            "article": "art. 22 alin. (6) din OUG 49/2015"
+          },
+          {
+            "text": "Criteriile de selecție nu apar în textul analizat; risc de tratament inegal",
+            "major": true,
+            "article": "art. 22 alin. (7)-(9) din OUG 49/2015"
+          },
+          {
+            "text": "Cheltuielile făcute înainte de transmiterea modificării către Comisie nu au acoperire garantată",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Actele adiționale sub condiție rezolutorie: dacă Comisia refuză, riscul cade pe beneficiari",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Declarat fără impact financiar, deși poate reduce banii pentru intervențiile noi din plan",
+            "major": true,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Proiectele nefinalizate din 2014-2020 pot fi terminate cu bani din PS 2023-2027",
+            "major": true,
+            "article": "art. 22 alin. (6) din OUG 49/2015"
+          },
+          {
+            "text": "Pot continua și angajamentele în derulare din măsurile 8, 10, 11 și 15",
+            "major": true,
+            "article": "art. 22 alin. (6) din OUG 49/2015"
+          },
+          {
+            "text": "Listă închisă de submăsuri, inclusiv schemele de ajutor de stat și de minimis",
+            "major": false,
+            "article": "art. 22 alin. (6) din OUG 49/2015"
+          },
+          {
+            "text": "Finanțarea trebuie să respecte PS 2023-2027 și Regulamentul (UE) 2021/2115",
+            "major": false,
+            "article": "art. 22 alin. (7) lit. a) din OUG 49/2015"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:31:00.814Z"
+    }
+  ]
+}

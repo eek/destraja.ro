@@ -1,0 +1,27 @@
+# Parlamentul României
+
+Camera Deputaților
+
+Senatul
+
+# LEGE
+
+pentru completarea Legii nr. 202/1998 privind organizarea Monitorului Oficial al României
+
+Parlamentul României adoptă prezenta lege:
+
+Art. I – După articolul 12 din Legea nr. 202/1998 privind organizarea Monitorului Oficial al României, republicată în Monitorul Oficial al României, Partea I, nr. 511 din 3 iulie 2017, cu modificările și completările ulterioare, se introduce un nou articol, art.12¹, cu următorul cuprins:
+
+„Art. 12¹
+
+(1) Actele care se publică în Monitorul Oficial al României, Partea a IV-a și Partea a VII-a, care conțin date cu caracter personal, se anonimizează de către Regia Autonomă „Monitorul Oficial” înainte de publicare.
+
+(2) Dintre datele cu caracter personal menționate la alineatul (1), se exceptează de la anonimizare numele și prenumele persoanei fizice, precum și calitatea acesteia."
+
+Art. II – În termen de 30 de zile de la data intrării în vigoare a prezentei legi, secretarul general al Camerei Deputaților va modifica Ordinul nr. 367/2022 privind procedurile publicării, republicării și rectificării, precum și ale publicării în numere speciale a actelor în Monitorul Oficial al României, publicat în Monitorul Oficial al României, Partea I, nr. 235 din 9 martie 2022, cu modificările și completările ulterioare, pentru a-l pune în acord cu dispozițiile prezentei legi.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și art. 76 alin. (2) din Constituția României, republicată.
+
+Președintele Camerei Deputaților, Sorin Mihai GRINDEANU
+
+Președintele Senatului, Mircea ABRUDEAN

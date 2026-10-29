@@ -1,0 +1,205 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+## LEGE
+
+# privind Aplicația mobilă unică și dreptul la servicii publice digitale complete, organizeate după nevoile utilizatorilor
+
+Senatul adoptă prezentul proiect de lege
+
+Art.1.- (1) Prezenta lege stabilește cadrul juridic pentru furnizarea serviciilor publice digitale complete, organizate după nevoile utilizatorilor, prin intermediul infrastructurii digitale naționale și al platformelor informatice naționale transversale.
+
+(2) Serviciile publice digitale se furnizează în condiții de interoperabilitate, securitate și accesibilitate potrivit prezentei legi.
+
+(3) În scopul prezentei legi, se instituie Aplicația mobilă unică, denumită în continuare AMU, ca punct unitar de acces digital la serviciile publice digitale furnizate de entitățile publice. Accesul utilizatorilor la serviciile publice digitale se realizează prin AMU și prin portalul web unitar al administrației publice, care constituie interfețe digitale de acces la infrastructura digitală națională.
+
+Art.2.- (1) Prezenta lege se aplică autorităților și instituțiilor publice centrale și locale, precum și entităților aflate în coordonarea, subordinea sau sub autoritatea acestora.
+
+(2) Entitățile publice au obligația de a asigura furnizarea serviciilor publice digitale în conformitate cu dispozițiile prezentei legi și ale normelor metodologice de aplicare a acesteia.
+
+(3) Finanțarea dezvoltării, implementării, operării și întreținerii infrastructurii digitale naționale, a platformelor naționale transversale, a AMU și a portalului web unitar al administrației publice se asigură de la bugetul de stat și din fonduri externe nerambursabile, inclusiv fonduri europene.
+
+(4) Autoritatea pentru Digitalizarea României, denumită în continuare ADR, este autoritatea desemnată pentru dezvoltarea și administrarea AMU și a portalului web unitar al administrației publice, precum și pentru coordonarea funcționalităților comune necesare accesului unitar la serviciile publice digitale.
+
+Art.3.- În sensul prezentei legi, termenii și expresiile de mai jos au următoarele semnificații:
+
+a) AMU - aplicația mobilă oficială a statului român, care asigură accesul unitar, prin intermediul dispozitivelor mobile, la servicii publice digitale și la funcționalități digitale transversale;
+
+b) portalul web unitar al administrației publice - platforma digitală națională care asigură accesul la serviciile publice digitale furnizate de entitățile publice, fiind interconectată cu AMU și cu platformele informatice naționale transversale;
+
+c) utilizator - persoană fizică sau persoană juridică care accesează serviciile publice digitale;
+
+d) serviciu public digital complet - serviciu public ale cărui etape esențiale, precum identificarea sau autentificarea utilizatorului, depunerea cererii și a documentelor necesare, comunicarea administrativă, efectuarea eventualelor plăți și furnizarea rezultatului, se realizează prin mijloace digitale, în măsura în care natura serviciului permite;
+
+e) eveniment de viață sau situație administrativă recurrentă - situație relevantă pentru persoanele fizice ori juridice, care determină necesitatea accesării unuia sau mai multor servicii publice correlate, precum nașterea unui copil, schimbarea domiciliului, începerea unei activități economice, modificarea datelor unei persoane juridice sau îndeplinirea unor obligații administrative recurrente precum și alte situații similare;
+
+f) platforme informatice naționale transversale - componente ale infrastructurii digitale naționale utilizate în comun de entitățile publice pentru furnizarea serviciilor publice digitale;
+
+g) entități publice - autoritățile și instituțiile publice centrale și locale, precum și entitățile aflate în subordinea, în administrarea, sub autoritatea, coordonarea sau controlul acestora.
+
+Art.4.- Furnizarea serviciilor publice digitale se realizează cu respectarea următoarelor principii:
+
+a) orientare către utilizator și simplificare administrativă;
+
+b) «doar o singură dată», astfel cum este descris în Regulamentul (UE) 2018/1724 al Parlamentului European și al Consiliului din 2 octombrie 2018 privind înființarea unui portal digital unic (gateway) pentru a oferi acces la informații, la proceduri și la servicii de asistență și de soluționare a problemelor și de modificare a Regulamentului (UE) nr.1.024/2012;
+
+c) interoperabilitate și standardizare;
+
+d) securitate și protecția datelor prin design;
+
+e) transparență, trasabilitate și măsurarea performanței serviciilor publice digitale;
+
+f) reutilizarea soluțiilor digitale și evitarea duplicării sistemelor informatice.
+
+Art.5.- (1) Orice utilizator are dreptul de a accesa și utiliza servicii publice digitale complete, în condițiile prezentei legi.
+
+(2) Utilizatorii accesează și utilizează serviciile publice digitale în mod voluntar.
+
+(3) Nicio persoană nu poate fi lipsită de accesul, prin alte mijloace prevăzute de lege, la serviciile publice la care are dreptul.
+
+(4) Entitățile publice asigură, potrivit normelor metodologice de aplicare a legii, canale alternative și asistență pentru utilizatorii care nu dispun de mijloace digitale, de acces facil la tehnologie sau de competențele digitale necesare.
+
+Art.6.- (1) Infrastructura digitală națională include platformele informaticenationale transversale utilizate de entitățile publice pentru furnizarea serviciilor publice digitale.
+
+(2) Platformele informatice naționale transversale asigură funcționalitățile comune necesare furnizării unitare a serviciilor publice digitale, precum:
+
+a) identitate digitală și autentificare unică;
+
+b) interoperabilitate pentru schimbul de date;
+
+c) plăți către sectorul public;
+
+d) notificări și comunicare digitală;
+
+e) programări;
+
+f) emitere și verificare a documentelor digitale.
+
+Art.7.- (1) Infrastructura digitală națională se dezvoltă progresiv pentru asigurarea integrării platformelor și sistemelor informatice existente care furnizează servicii publice digitale.
+
+(2) Integrarea și interconectarea sistemelor informatice se realizează etapizat, în conformitate cu normele metodologice de aplicare a legii, cu respectarea standardelor tehnice, a capacității administrative și a resurselor disponibile ale entităților publice.
+
+Art.8.- (1) Entitățile publice sunt obligate să utilizeze platformele naționale transversale în furnizarea serviciilor publice digitale.
+
+(2) Este interzisă dezvoltarea sau utilizarea de sisteme informatice care dublează funcționalitățile platformelor informatice naționale transversale, cu excepția situațiilor justificate tehnic, operațional, sau administrativ, prin specificul serviciului public furnizat, aprobate potrivit normelor metodologice de aplicare a legii.
+
+Art.9.- (1) Furnizarea serviciilor publice digitale se realizează pe baza datelor existente în platformele naționale transversale și în sistemele informatice ale autorităților și instituțiilor publice.
+
+(2) Entitățile publice au obligația de a reutiliza datele disponibile în infrastructura digitală națională, fără a solicita utilizatorilor prezentarea de documente sau informații care se regăsesc deja în sistemele prevăzute la alin.(1).
+
+(3) Solicitarea de documente sau informații de la utilizatori este permisă în mod excepțional numai în situația în care acestea nu sunt disponibile în infrastructura digitală națională sau nu pot fi obținute prin interoperabilitate tehnică.
+
+Art.10.- AMU constituie interfața digitală de acces la serviciile publice digitale, prin intermediul infrastructurii digitale naționale și al platformelor informatice naționale transversale.
+
+Art.11.- (1) În vederea asigurării accesului la serviciile publice digitale, ADR pune la dispoziția utilizatorilor un portal web unitar al administrației publice, interoperabil cu AMU.
+
+(2) AMU și portalul web unitar al administrației publice reprezintă interfețe echivalente de acces la serviciile publice digitale și la informațiile aferente acestora, funcționând ca puncte alternative de acces la infrastructura digitală națională.
+
+Art.12.- (1) În scopul asigurării furnizării unitare a serviciilor publice digitale, se utilizează Catalogul Național al Serviciilor Publice din România, denumit în continuare CNSP, instituit potrivit Legii nr.198/2025 privind organizarea, funcționarea și administrarea Catalogului Național al Serviciilor Publice, ca instrument unic de evidență a serviciilor publice furnizate de autoritățile și instituțiile publice.
+
+(2) CNSP constituie referința oficială pentru disponibilitatea și conținutul serviciilor publice digitale accesibile prin AMU.
+
+(3) CNSP este pus la dispoziția utilizatorilor prin AMU și prin portalul web unitar al administrației publice, fără a fi necesară autentificarea.
+
+Art.13.- Accesul utilizatorilor la AMU se realizează prin mijloacele de identificare electronică prevăzute de lege, inclusiv prin aplicația de identitate digitală ROeID și prin Portofelul european pentru identitatea digitală, în condițiile legislației naționale și europene aplicabile.
+
+Art.14.- (1) AMU este organizată modular și cuprinde cel puțin următoarele componente funcționale:
+
+a) interfața de acces la serviciile publice digitale;
+
+b) componenta de organizare a serviciilor în funcție de evenimente de viață sau de situații administrative recurrente;
+
+c) componenta de interacțiune cu instituțiile publice;
+
+d) spațiul personal al utilizatorului, destinat consultării istoricului interacțiunilor administrative, notificărilor, comunicărilor și înscrisurilor digitale aferente serviciilor publice accesate.
+
+(2) Componentele prevăzute la alin.(1) funcționează integrat, în vederea asigurării accesului unitar la serviciile publice digitale și a coerenței interacțiunii utilizatorului cu sistemele informatice.
+
+Art.15.- (1) AMU asigură accesul la funcționalitățile infrastructurii digitale naționale utilizate pentru furnizarea serviciilor publice digitale.
+
+(2) Funcționalitățile accesibile prin AMU includ cel puțin:
+
+a) autentificarea unică pe baza identității digitale;
+
+b) accesarea serviciilor publice digitale;
+
+c) efectuarea plăților către entitățile publice prin platformele naționale transversale;
+
+d) programări pentru servicii publice;
+
+e) notificări și comunicări oficiale privind serviciile publice și termenele administrative aferente;
+
+administrative;
+
+f) urmărirea stadiului serviciilor și istoricul interacțiunilor
+
+g) accesul la înscrisuri digitale emise de entitățile publice, precum și furnizarea copiilor de pe acestea.
+
+(3) În cazul în care, potrivit legii sau naturii serviciului public, procedura administrativă nu poate fi finalizată exclusiv prin mijloace digitale, utilizatorul este informat prin AMU cu privire la etapele care necesită prezența fizică a acestuia, efectuarea unor operațiuni materiale ori ridicarea înscrisului, după caz.
+
+Art.16.- (1) Utilizatorii au dreptul de a accesa, prin intermediul AMU sau al portalului web unitar al administrației publice, informații privind operațiunile de accesare a datelor lor cu caracter personal realizate prin infrastructura digitală națională, cu respectarea legislației privind protecția datelor cu caracter personal și securitatea cibernetică.
+
+(2) Informațiile includ cel puțin:
+
+a) instituția care a accesat datele;
+
+b) data și ora accesării;
+
+c) categoria datelor accesate;
+
+d) scopul accesării;
+
+e) temeiul legal al accesării.
+
+(3) Informațiile prevăzute la alin.(2) sunt puse la dispoziția utilizatorului printr-un jurnal electronic de acces aferent operațiunilor realizate prin infrastructura digitală națională, în condițiile stabilite prin normele metodologice de aplicare a legii.
+
+Art.17.- (1) AMU este interoperabilă cu platformele naționale transversale ale infrastructurii digitale naționale.
+
+(2) Schimbul de date necesar funcționării AMU se realizează prin platformele informatice naționale transversale prevăzute de prezenta lege, în condițiile standardelor stabilite prin normele metodologice de aplicare a legii.
+
+(3) Furnizarea serviciilor publice digitale complete se realizează etapizat, potrivit calendarului stabilit prin normele metodologice de aplicare a legii.
+
+(4) AMU și portalul web unitar al administrației publice devin operaționale, în versiune inițială, pentru funcționalitățile și serviciile prioritare stabilite prin normele metodologice de aplicare a legii, în termen de 12 luni de la intrarea în vigoare a prezentei legi.
+
+Art.18.- (1) ADR asigură dezvoltarea, administrarea și operarea AMU și a portalului web unitar al administrației publice, precum și coordonarea integrării serviciilor publice digitale cu platformele informatice naționale transversale.
+
+(2) ADR coordonează implementarea și integrarea serviciilor publice digitale cu AMU, portalul web unitar și platformele informatice naționale transversale, în condițiile prezentei legi și ale normelor metodologice de aplicare a legii.
+
+(3) În exercitarea atribuțiilor sale, ADR asigură interoperabilitatea componentelor infrastructurii digitale naționale și funcționarea integrată a serviciilor publice digitale.
+
+Art.19.- (1) Dispozițiile Ordonanței de urgență a Guvernului nr.155/2024 privind instituirea unui cadru pentru securitatea cibernetică a rețelelor și sistemelor informatice din spațiul cibernetic național civil, aprobată cu modificări și completări prin Legea nr.124/2025, cu modificările și completările ulterioare, se aplică în mod corespunzător infrastructurii digitale naționale prevăzute de prezenta lege, inclusiv AMU și portalului web unitar al administrației publice.
+
+(2) ADR efectuează anual un audit privind conformitatea, interoperabilitatea și funcționarea componentelor infrastructurii digitale naționale și dispune măsuri de remediere pentru asigurarea continuității și integrității serviciilor publice digitale.
+
+(3) Directoratul Național de Securitate Cibernetică exercită atribuțiile de autoritate competentă în domeniul securității cibernetice, potrivit legii. Serviciul de Telecomunicații Speciale asigură, în condițiile legii și în baza protocoalelor cu ADR și DNSC, servicii tehnice, infrastructură, monitorizare sau testare tehnică pentru sistemele aferente infrastructurii digitale naționale.
+
+(4) Entitățile publice au obligația de a implementa măsurile dispuse de autoritățile competente, potrivit legii, în termenele stabilite prin rapoartele sau actele emise de acestea.
+
+Art.20.- (1) ADR întocmește anual, până la data de 15 martie a fiecărui an, pentru anul calendaristic anterior, un raport privind funcționarea AMU, a portalului web unitar și a platformelor informatice naționale transversale prevăzute de prezenta lege.
+
+(2) Raportul prevăzut la alin.(1) se transmite Guvernului și se publică pe pagina de internet a ADR, incluzând, cel puțin, informații privind:
+
+a) disponibilitatea, continuitatea și performanța componentelor platformelor informatice prevăzute de prezenta lege;
+
+b) nivelul de interoperabilitate al sistemelor informatice ale autorităților și instituțiilor publice;
+
+c) utilizarea platformelor naționale transversale;
+
+d) nivelul de utilizare a serviciilor publice digitale.
+
+Art.21.- (1) Constituie contravenție și se sancționează cu amendă de la 10.000 lei la 20.000 lei nerespectarea de către entitățile publice a prevederilor art.8 și art.9 alin.(2), precum și nerespectarea de către ADR a obligației prevăzute la art.17 alin.(4).
+
+(2) Constatarea contravențiilor și aplicarea sancțiunilor prevăzute la alin.(1) se realizează de către ofițerii și agenții de poliție din cadrul Poliției Române.
+
+(3) Contravențiilor prevăzute la alin.(1) le sunt aplicabile dispozițiile Ordonanței Guvernului nr.2/2001 privind regimul juridic al contravențiilor, aprobată cu modificări și completări prin Legea nr.180/2002, cu modificările și completările ulterioare.
+
+Art.22.- (1) Prezenta lege intră în vigoare la 180 de zile de la data publicării în Monitorul Oficial al României, Partea I.
+
+(2) În termen de 60 de zile de la data intrării în vigoare a prezentei legi, Guvernul adoptă, prin hotărâre, normele metodologice de aplicare a acesteia.
+
+Acest proiect de lege a fost adoptat de Senat, în ședința din 29 iunie 2026, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.
+
+## p. PREȘEDINTELE SENATULUI
+
+## MIHAI COTEȚ,

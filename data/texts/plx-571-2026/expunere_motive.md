@@ -1,0 +1,178 @@
+# EXPUNERE DE MOTIVE
+
+## I. MOTIVUL ADOPTĂRII ACTULUI NORMATIV
+
+Prezenta propunere legislativă identifică și abordează insuficiențele reglementării actuale din domeniul protecției consumatorilor în relația lor cu instituțiile de credit și entitățile financiare. Analizând cadrul legislativ actual și evoluția pieței creditare interne, se constată că legislația în vigoare nu oferă un nivel adecvat de protecție a consumatorilor împotriva practicilor abuzive referitoare la dobânzi excesive și costuri de creditare disproporționate.
+
+Starea de fapt demonstrează că, în contextul actual al pieței financiar-bancare din România, consumatorii se confrontă cu rate de dobândă semnificativ ridicate care depășesc cu mult rata de referință practicată de Banca Națională a României. Aceste practici au generat situații în care accesul consumatorilor la credit devine dificil sau imposibil, iar cei care au acces se confrontă cu oneri financiare greu de suportat. Consumatorii care recurg la credite de consum se găsesc adesea în situații în care costul total al creditării depășește valoarea creditului inițial de mai mult de o dată, creând riscuri semnificative de datorii nesuportabile și comportamente economice iraționale datorate lipsei informației complete și a avertismentelor adecvate.
+
+Principiile de bază care fundamentează această reglementare sunt: protecția consumatorului ca scop esențial al legii, menținerea echilibrului contractual în raporturile dintre consumatori și instituțiile de credit, asigurarea integrității pieței financiar-bancare prin eliminarea practicilor neloiale, promovarea transparenteți și informării complete a consumatorilor și conformitatea cu standardele de protecție a drepturilor fundamentale, inclusiv cu jurisprudența Curții Europene a Drepturilor Omului.
+
+Finalitatea reglementării propuse constă în instituirea unor mecanisme legale care să limiteze dobânzile și costurile totale ale creditării la niveluri rezonabile, să impună furnizarea de avertismente clare privind riscurile asociate, și să elimine caracterul executoriu al anumitor instrumente de creanță pentru consumatori. Elementele noi introduse includ: plafonarea dobânzii anuale effective la 3 puncte procentuale peste rata BNR pentru credite imobiliare; limitarea la 10 puncte procentuale pentru credite de consum cu excepții specifice; obligația avertismentelor vizibile cu caractere de minimum 14 puncte; și eliminarea caracterului executoriu al cambiei, biletului la ordin și cecului precum și a numeroase alte instrumente pentru consumatori.
+
+## II. IMPACTUL SOCIOECONOMIC
+
+## Efectele asupra mediului macroeconomic
+
+Adoptarea reglementării va genera efecte pozitive asupra stabilității macroeconomice. Limitarea dobânzilor excesive va reduce riscurile de insolvență și va diminua ponderea datoriilor neperformante din portofoliile instituțiilor de credit. Consumatorii cu costuri reduse vor dispune de venituri disponibile mai mari, susținând consumul și contribuind la creșterea economică pe termen mediu și lung.
+
+## Efectele asupra mediului de afaceri
+
+Impactul asupra instituțiilor de credit va fi diferențiat. Pe termen scurt, instituțiile cu modele de business bazate pe dobânzi excesive vor trebui să restructureze strategiile de pricing. Pe termen mediu și lung, piața va deveni mai competitivă, iar instituțiile vor fi încurajate să-și eficientizeze operațiunile. Se preconizează că instituțiile mai mari și mai eficiente vor obține avantaje competitive, accelerând consolidarea pieței.
+
+## Efectele asupra mediului social
+
+Protecția consumatorilor va îmbunătăți semnificativ situația segmentelor vulnerabile ale populației. Milioane de români care au contractat credite în condiții abuzive vor beneficia de protecție legală. Obligația furnizării de avertismente va crește consțientizarea privind riscurile creditării, promovând comportamente mai raționale. Eliminarea caracterului executoriu pentru consumatori va reduce riscurile de executare silită.
+
+## Evaluarea costurilor și beneficiilor
+
+Beneficiile socioeconomics sunt semnificative: protecția milioane de consumatori, reducerea riscurilor de supraîndatorare, creșterea stabilității financiare, conformitatea cu principiile europene. Costurile se materializează în comprimarea marjelor de profitabilitate ale instituțiilor de credit în segmentul creditelor la consumatori. Raportul cost-beneficiu este favorabil consumatorului și societății.
+
+## III. IMPACTUL FINANCIAR ASUPRA BUGETULUI GENERAL CONSOLIDAT
+
+Reglementarea propusă nu generează impacturi directe semnificative asupra bugetului general consolidat. Prin caracterul său regulatoriu, nu implică cheltuieli bugetare directe. Instituțiile de credit vor suporta costurile restructurării portofoliilor și ajustării sistemelor informatice. Pe termen scurt, nu se preconizează cheltuieli bugetare suplimentare. Impactele bugetare vor fi indirecte: reducerea riscului de insolvență va reduce presiunea asupra fondurilor de asistență socială; stabilitatea macroeconomică va genera venituri fiscale suplimentare din creșterea economică. Pe termen lung (5 ani), efectele sunt pozitive: consolidarea stabilității financiare va reduce transferurile sociale; creșterea consumului va genera venituri din TVA și accize; reducerea procedurilor de insolvență va reduce costurile administrative și judiciare.
+
+## IV. IMPACTUL ASUPRA SISTEMULUI JURIDIC
+
+Reglementarea este compatibilă cu directivele europene de protecție a consumatorilor și cu jurisprudența Curții de Justiție a Uniunii Europene care a consolidat principiile de protecție. Măsurile sunt proporționate și nu introduc discriminări.
+
+Reglementarea se conformează jurisprudenței CEDO în privința protecției proprietății, dreptului la viață privată și familială și principiilor de echitate. CEDO a reoținut că statul are dreptul de a interveni în relații contractuale pentru protecția intereselor publice legitime, cu condiția proporționalității. Măsurile sunt proporționate și se încadrează în această excepție.
+
+Propunerea contribuie la armonizarea legislației naționale cu standardele europene de protecție a consumatorilor. Se aliniază cu tendințe observate în alte state membre de a introduce protecții suplimentare pentru consumatori la nivel național, dincolo de directivele europene, în contextul unei piețe creditare cu particularități locale.
+
+## V. CONSULTĂRI DERULATE ȘI RECOMANDĂRI
+
+În procesul de elaborare, au fost derulate consultări cu organizații de protecție a consumatorilor și specialiști în drept. Recomandările au fost integrate în textul propunerii, acordând greutate semnificativă susținerii protecției consumatorilor și armonizării cu reglementările internaționale.
+
+## VI. ACTIVITĂȚI DE INFORMARE PUBLICĂ
+
+Implementarea legii va fi însoțită de activități sistematice de informare: campanie de conștientizare publică prin mass-media și parteneriate cu organizații de protecție a consumatorilor; publicarea ghidurilor și materialelor informative pe site-urile instituțiilor de credit și în punctele lor de lucru; formarea specialiștilor din instituții de credit; și colaborare cu autoritățile locale și instituțiile de asistență socială pentru a asigura informarea consumatorilor vulnerabili.
+
+## VII. MĂSURI DE IMPLEMENTARE
+
+Banca Națională a României va adapta funcțiile de supraveghere și control pentru a monitoriza conformitatea instituțiilor de credit cu noile limite. Autoritatea Națională pentru Protecția Consumatorilor va extinde competențele și resursele.
+
+Administrațiile locale vor fi implicate în campania de conștientizare publică. Serviciile sociale locale vor oferi consiliere consumatorilor.
+
+## VIII. EVALUARE A IMPACTULUI ASUPRA DREPTURILOR ȘI LIBERTĂȚILOR FUNDAMENTALE
+
+Propunerea a fost analizată din perspectiva impactului asupra drepturilor fundamentale. Evaluarea constată că: dreptul la protecție împotriva exploatații economice este consolidat prin limitarea dobânzilor abuzive; dreptul la proprietate al consumatorilor este protejat prin limitarea caracterului executoriu; dreptul la informație este consolidat prin obligația avertismentelor clare; și dreptul la viață privată și familială este protejat prin limitarea executării silite abuzive. Reglementarea nu elimină drepturi, ci le protejează și le echilibrează în conformitate cu jurisprudența CEDO.
+
+Măsurile propuse vor contribui semnificativ la protecția consumatorilor și la stabilitatea pieței creditare din România, în conformitate cu interesul public și cu principiile statului de drept.
+
+INIȚIATOR:
+
+Senator AUR - NICULINA STELEA
+
+Senator AUR – PETRISOR-GABRIEL PEIU
+
+A###
+
+Senator AUR - PETRE-GEORGE CEZAR
+
+Susținătorilor propunerii legislative - „Lege pentru modificarea și completarea unor acte normative în domeniul protecției consumatorilor”
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td>Semnătura</td></tr>
+<tr><td>1</td><td>VASILE MARIAN</td><td>AUR</td><td></td></tr>
+<tr><td>2</td><td>PEIU PETRISOR-GABRELA</td><td>AUR</td><td rowspan="13"></td></tr>
+<tr><td>3</td><td>ANDREI EMIC DIRLĂU</td><td>AUR</td></tr>
+<tr><td>4</td><td>Jefan Geamian</td><td>AUR</td></tr>
+<tr><td>5</td><td>CRISTINA SUMITRESCU.</td><td>AUR</td></tr>
+<tr><td>6.</td><td>Silgeonu Boblin</td><td>AJR</td></tr>
+<tr><td>7.</td><td>Pete George Cosei</td><td>AUR</td></tr>
+<tr><td>8.</td><td>VLAHU NICOLAE</td><td>AUR</td></tr>
+<tr><td>9</td><td>Onthou VAIXOR</td><td>AUR</td></tr>
+<tr><td>10.</td><td>CONSTANȚINEAU ROOICA</td><td>AUR</td></tr>
+<tr><td>11</td><td>SIRIZA NIKUUA</td><td>AUR</td></tr>
+<tr><td>12</td><td>DANIZLA STEZAHES</td><td>AVK</td></tr>
+<tr><td>13</td><td>Sondu M.lonut</td><td>AUR</td></tr>
+<tr><td>14</td><td>STOIBA CIPRIAN-TINI</td><td>A.V.R.</td></tr>
+</tbody>
+</table>
+
+## LISTA
+
+Susținătorilor propunerii legislative - „Lege pentru modificarea și completarea unor acte normative în domeniul protecției consumatorilor”
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td>Semnătura</td></tr>
+<tr><td>15</td><td>Plăesu-lawreațiu</td><td>A.U.R.</td><td></td></tr>
+<tr><td>16</td><td>Laoic Soriu</td><td>AUR</td><td></td></tr>
+<tr><td>17</td><td>Parasca Teofil</td><td>AUR</td><td rowspan="7"></td></tr>
+<tr><td>18</td><td>SPAV AVMITRU</td><td>A.V.A.</td></tr>
+<tr><td>19</td><td>Barconi Doniuq</td><td>AUR</td></tr>
+<tr><td>20</td><td>ROMAN MARIUS - VALENTIXI</td><td>AUR</td></tr>
+<tr><td>21</td><td>IACOB C. CIPIAN</td><td>A.U.R</td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege pentru modificarea și completarea unor acte normative în domeniul protecției consumatorilor
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1. | Butuna Cuišiu, Juluo | AUR |  |
+| 2. | Thona Capaizl | AUR |  |
+| 3. | Gurlu, h'iciu, octavian | AUR |  |
+| 4. | Puscașu Petre | AUR |  |
+| 5. | Mitrea Sumiteim | AUR |  |
+| 6. | Valescu Florin Bayadm | AUR |  |
+| 7. | Soriu MUNCAiu | AUR |  |
+| 8. | Constanineau Anala-Claudie | AUR |  |
+| 9. | Dascălu Chistira Eosumela | AUR |  |
+| 10. | Lucian Floriu Puțca zu | AUR |  |
+| 11. | Biro Daniel - Răevan | AUR |  |
+| 12. | Ci'orvoi Danice-CaTIN | AUR |  |
+| 13. | BARSTAN TISEN CUAVON | AUR |  |
+| 14. | BORDIAN ALEXANDRU | AUR |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege pentru modificarea și completarea unor acte normative în domeniul protecției consumatorilor
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 15. | POSOB COSUIN TEODOX | AUR |  |
+| 16. | ANCER SKYIO | AVR |  |
+| 17. | BAJIU GEORQEL | AUR |  |
+| 18. | POPESCH ANONIO GABI | AVR |  |
+| 19. | TILEA JIRU | AVR |  |
+| 20. | TATASA DAM | AVR |  |
+| 21. | CACINE GHB MATIBS | AUR |  |
+| 22. | CIPRIJ PARAJCHIV | AVR |  |
+| 23. | IAGAN MOMICN | AVR |  |
+| 24. | MUSHI LUEIAN | AVR |  |
+| 25. | Valeriu Moutcani | AVR |  |
+| 26. | GHEORGHE IONEL | AVR |  |
+| 27. | NEAMY MIHAI | AVR |  |
+| 28. | PASCARIU MIHAI-COSMIN | AVR |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege pentru modificarea și completarea unor acte normative în domeniul protecției consumatorilor
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 29. | Ghterasin Laure | AUR |  |
+| 30. | Bruyuseels Rauoua | AUR |  |
+| 31. | Vulpoiu Dorel | AUR |  |
+| 32. | Papoviči Fulin CORNEC | AUR |  |
+| 33. | NEGOESCU MITEAT-BOGDAN | AUR |  |
+| 36. | MILLAU SHMUEC-VIRWIL | AUR |  |
+| 35. | ARIAANA-ECENA CIRLIGEANU | A.LI.R. |  |
+| 36. | LOVIH RAMONA | AUR |  |
+| 37. | CHEOROHE MIHAI CLAUDIU | AUR |  |
+| 38. | COLESA IULIE ALIN | AUR |  |
+| 40. | PAUNESCU SILVIC-TITUS | AUR |  |

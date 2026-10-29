@@ -1,0 +1,140 @@
+{
+  "slug": "plx-197-2026",
+  "billId": "PL-x 197/2026",
+  "updatedAt": "2026-10-29T12:47:02.116Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L044FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Etichetarea produselor cosmetice prin cod QR în loc de stickere în limba română",
+      "summaryTlDr": "O inițiativă cu intenție bună de debirocratizare pentru importatorii și distribuitorii de cosmetice, dar redactată cu erori tehnice evidente și în conflict direct cu Regulamentul (CE) nr. 1223/2009. Mutarea precauțiilor de siguranță exclusiv pe un cod QR creează riscuri juridice pentru comercianți și riscuri de sănătate pentru consumatorii fără acces imediat la internet.",
+      "scores": {
+        "agy": 4,
+        "claude": null,
+        "codex": 6
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/90/7/se217.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Etichetarea digitală prin cod QR pentru produsele cosmetice: intenție bună de debirocratizare, dar text vulnerabil juridic",
+      "summaryTlDr": "Proiectul vizează reducerea costurilor cu etichetele fizice lipite manual pe cosmeticele importate, permițând afișarea precauțiilor, funcției produsului și ingredientelor prin cod QR. Din păcate, redactarea conține erori tehnice flagrante (trimitere la o literă inexistentă din Regulamentul UE), se află în tensiune cu aplicabilitatea directă a Regulamentului (CE) nr. 1223/2009 și permite ștergerea paginii web înainte de expirarea produsului.",
+      "scores": {
+        "agy": 5,
+        "claude": null,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Fond neschimbat la Senat: rămân litera (h) inexistentă și pagina web ținută doar 12 luni",
+      "summary": "Senatul a păstrat regulile inițiale despre codul QR pe cosmetice. A precizat doar că trimiterile sunt la regulamentul european și că versiunile suplimentare de pe site sunt în limbi de circulație internațională. Problemele de fond au rămas.",
+      "changes": [
+        {
+          "title": "Limbile suplimentare de pe site, restrânse",
+          "text": "La art. 20¹ alin. (1) lit. b), versiunile opționale în alte limbi de pe pagina produsului trebuie să fie acum în limbi de circulație internațională. Româna rămâne obligatorie integral.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 20¹ alin. (1) lit. b)",
+          "before": "pagina web pune la dispoziția consumatorului în mod integral informațiile în limba română, putând conține suplimentar și versiuni în alte limbi",
+          "after": "pagina de internet pune la dispoziția consumatorului în mod integral informațiile în limba română, putând conține suplimentar și versiuni în alte limbi de circulație internațională",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Trimiterile la regulamentul european, scrise explicit",
+          "text": "La art. 20¹ alin. (1) lit. b), c) și d) e numit acum explicit Regulamentul (CE) nr. 1223/2009. A rămas însă trimiterea la litera (h), care nu există în art. 19 alin. (1).",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 20¹ alin. (1) lit. c)",
+          "before": "elementele prevăzute la art. 19 alin. (1) lit. (a), (b), (c), (e) și (h) rămân obligatoriu înscrise fizic pe recipient sau pe ambalaj",
+          "after": "elementele prevăzute la art.19 alin.(1) lit.(a), (b), (c), (e) și (h) din Regulamentul (CE) nr.1223/2009 al Parlamentului European și al Consiliului din 30 noiembrie 2009 rămân obligatoriu înscrise fizic pe recipient sau pe ambalaj",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Sugerează că precauțiile, funcția și ingredientele nu mai trebuie tipărite pe ambalaj, contrar UE",
+            "major": true,
+            "article": "art. 20¹ alin. (1) lit. c)"
+          },
+          {
+            "text": "Neclar dacă codul QR completează sau înlocuiește eticheta; firmele riscă amenzi ANPC",
+            "major": true,
+            "article": "art. 20¹ alin. (1)"
+          },
+          {
+            "text": "Avertismentele de siguranță pot ajunge doar în spatele codului QR, greu accesibile fără smartphone",
+            "major": true,
+            "article": "art. 20¹ alin. (1)"
+          },
+          {
+            "text": "Trimite la litera (h) a art. 19 din Regulamentul 1223/2009, care nu există",
+            "major": false,
+            "article": "art. 20¹ alin. (1) lit. c)"
+          },
+          {
+            "text": "Pagina web trebuie păstrată doar 12 luni, sub valabilitatea uzuală a cosmeticelor",
+            "major": false,
+            "article": "art. 20¹ alin. (2)"
+          },
+          {
+            "text": "Codul QR nefuncțional: consumatorul e trimis la site-ul general ori relații cu clienții",
+            "major": false,
+            "article": "art. 20¹ alin. (1) lit. d)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Codul QR nu scade protecția consumatorului și nu scutește firma de obligații",
+            "major": true,
+            "article": "art. 20¹ alin. (1) lit. d)"
+          },
+          {
+            "text": "O parte din mențiunile de etichetare rămân obligatoriu tipărite pe ambalaj",
+            "major": true,
+            "article": "art. 20¹ alin. (1) lit. c)"
+          },
+          {
+            "text": "Informațiile de pe pagina produsului trebuie să fie integral în limba română",
+            "major": false,
+            "article": "art. 20¹ alin. (1) lit. b)"
+          },
+          {
+            "text": "Codul QR trebuie să fie lizibil, durabil și să ducă direct la pagina produsului",
+            "major": false,
+            "article": "art. 20¹ alin. (1) lit. a)"
+          },
+          {
+            "text": "Pagina produsului rămâne online cât timp produsul se vinde",
+            "major": false,
+            "article": "art. 20¹ alin. (2)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 8,
+        "removed": 9,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:47:02.116Z"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "slug": "plx-622-2026",
+  "billId": "PL-x 622/2026",
+  "updatedAt": "2026-10-29T13:25:15.945Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L430FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Impozit mai mic pe terenul agricol pentru micii fermieri care țin animale",
+      "summaryTlDr": "Ideea e bine intenționată, dar miza e mică: chiar expunerea de motive vorbește de zeci de lei pe hectar. Textul e scris neglijent. Treptele de reducere se suprapun, nu e clar dacă plafonul de 5 ha privește parcela sau ferma, iar numărul de animale nu arată dacă terenul e lucrat. Comunele pierd venituri fără compensare și fără o estimare a impactului.",
+      "scores": {
+        "agy": 3,
+        "claude": 4,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/600/20/2/se721.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "Impozit pe teren redus sau zero pentru micii proprietari care țin animale",
+      "summaryTlDr": "O scutire bine intenționată pentru gospodăriile mici, dar scrisă neglijent. Plafonul de 5 ha pe exploatație există doar în Expunere, nu și în lege, iar pragurile se suprapun. Beneficiul real e de câteva zeci de lei pe an, prea puțin ca să convingă pe cineva să cumpere o vacă.",
+      "scores": {
+        "agy": 3,
+        "claude": 4,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul n-a schimbat nimic de fond: rămân pragurile suprapuse și reducerea pe fiecare parcelă",
+      "summary": "Senatul a păstrat textul inițiatorului. S-au corectat doar trimiterea la art. 465 și formula de adoptare. Reducerea impozitului pe teren după numărul de animale rămâne aceeași, cu aceleași probleme: praguri suprapuse, calcul pe fiecare parcelă și un salt brusc peste 1 ha.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Fără plafon pe exploatație: fiecare parcelă mică poate primi separat reducerea de 100%",
+            "major": true,
+            "article": "art. I, alin. (7²)"
+          },
+          {
+            "text": "Praguri suprapuse: 0,7 și 1 UVM/ha intră în două trepte de reducere",
+            "major": true,
+            "article": "art. I, alin. (7²) lit. b)"
+          },
+          {
+            "text": "Salt brusc peste 1 ha: aceeași încărcătură aduce 100% sau doar 50%",
+            "major": true,
+            "article": "art. I, alin. (7²) lit. a)-b)"
+          },
+          {
+            "text": "Nu spune dacă UVM/ha se raportează la parcelă sau la tot terenul",
+            "major": true,
+            "article": "art. I, alin. (7²) lit. b)"
+          },
+          {
+            "text": "Nu verifică folosirea terenului; vii, livezi și arabil fără animale nu primesc nimic",
+            "major": true,
+            "article": "art. I, alin. (7²)"
+          },
+          {
+            "text": "Prag mic: patru oi sau un vițel scutesc complet până la 1 ha",
+            "major": true,
+            "article": "art. I, alin. (7²) lit. a)"
+          },
+          {
+            "text": "Neclar ale cui animale contează la terenul arendat: proprietar sau arendaș",
+            "major": true,
+            "article": "art. I, alin. (7²) lit. a)"
+          },
+          {
+            "text": "Guvernul stabilește prin HG coeficienți UVM, inclusiv pentru specii neprevăzute expres",
+            "major": true,
+            "article": "art. II lit. d)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Impozit pe teren redus până la 100% pentru micii crescători de animale",
+            "major": true,
+            "article": "art. I, alin. (7²)"
+          },
+          {
+            "text": "Încărcătura animală se ia din registrul agricol, la 31 decembrie anul anterior",
+            "major": false,
+            "article": "art. I, alin. (7²)"
+          },
+          {
+            "text": "Guvernul trebuie să stabilească în 90 de zile verificarea și documentele",
+            "major": false,
+            "article": "art. II"
+          },
+          {
+            "text": "Intră în vigoare la 1 ianuarie, nu în mijlocul anului fiscal",
+            "major": false,
+            "article": "art. III"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 6,
+        "removed": 6,
+        "same": 0.54
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:25:15.945Z"
+    }
+  ]
+}

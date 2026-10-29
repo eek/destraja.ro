@@ -1,0 +1,132 @@
+{
+  "slug": "plx-290-2026",
+  "billId": "PL-x 290/2026",
+  "updatedAt": "2026-10-29T12:59:08.829Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L135FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Reguli UE noi pentru bursă: mai multă transparență, mai puține rapoarte inutile, excepții la interdicția opțiunilor binare",
+      "summaryTlDr": "Este o transpunere tehnică, întârziată, a două directive UE care modifică MiFID II, fără efect direct asupra buzunarului cetățeanului obișnuit. Singurul punct care cere atenție este scoaterea unor opțiuni binare de sub interdicția de vânzare către investitorii de retail, deși relaxarea copiază excepțiile ESMA.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/200/90/0/se308.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Bursa și brokerii trec pe noile reguli UE: mai puține rapoarte, date centralizate, opțiuni binare cu excepții stricte",
+      "summaryTlDr": "Lege tehnică de transpunere, obligatorie și deja întârziată. Scoate din lege ce s-a mutat în regulamentul UE (MiFIR) și reduce raportări inutile. Riscul e mic: câteva erori de redactare și o definiție (operator independent) care pare tradusă incomplet.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a păstrat textul inițiatorului; schimbările sunt doar de redactare",
+      "summary": "În diferențele disponibile, Senatul nu a schimbat nimic de fond: doar scrierea trimiterilor, punctuația și câteva greșeli de tipar. Rămân excepțiile de la interdicția opțiunilor binare și scutirea firmelor nefinanciare de autorizare.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Interdicția opțiunilor binare are excepții; la lit. b) clientul poate pierde tot",
+            "major": true,
+            "article": "art. 104 alin. (1¹)"
+          },
+          {
+            "text": "Clientul află locul executării doar la instrumentele cu obligație de tranzacționare",
+            "major": true,
+            "article": "art. 92 alin. (1)"
+          },
+          {
+            "text": "Anulările și modificările de tranzacții nu au criterii publice obligatorii",
+            "major": false,
+            "article": "art. 138 alin. (6), art. 140 alin. (1¹)"
+          },
+          {
+            "text": "Greșeli de redactare rămase: „va următorul cuprins”, „plivind”, text inversat la art. 243²",
+            "major": false,
+            "article": "art. I pct. 2, art. 161 alin. (5), art. 243²"
+          }
+        ],
+        "good": [
+          {
+            "text": "Firmele nefinanciare care se acoperă la risc pot fi membre ale pieței fără autorizație",
+            "major": true,
+            "article": "art. 6 alin. (1) lit. d) pct. 2"
+          },
+          {
+            "text": "Piața reglementată trebuie să aibă cel puțin 3 membri activi și date de calitate",
+            "major": true,
+            "article": "art. 137 alin. (1) lit. f¹)-f²)"
+          },
+          {
+            "text": "Dispare raportul privind calitatea execuției, suspendat din 2021; mai puține costuri pentru intermediari",
+            "major": true,
+            "article": "art. 94 alin. (1)"
+          },
+          {
+            "text": "Controlul pozițiilor se aplică și derivatelor pe certificate de emisii",
+            "major": true,
+            "article": "art. 159 alin. (1)"
+          },
+          {
+            "text": "Sancțiuni actualizate pentru încălcarea noilor obligații din Regulamentul MiFIR",
+            "major": true,
+            "article": "art. 261 alin. (1) lit. b)"
+          },
+          {
+            "text": "Excepțiile cer prospect aprobat, minimum 90 de zile și fără pariu contra clientului",
+            "major": false,
+            "article": "art. 104 alin. (1¹) lit. b)"
+          },
+          {
+            "text": "Operatorul pieței publică criteriile de oprire; A.S.F. intervine dacă el nu acționează",
+            "major": false,
+            "article": "art. 140 alin. (1¹)-(1²)"
+          },
+          {
+            "text": "Rapoartele săptămânale privind pozițiile pe derivate pe mărfuri merg la A.S.F. și ESMA",
+            "major": false,
+            "article": "art. 161 alin. (2²)"
+          },
+          {
+            "text": "Din 2030, informațiile de piață ajung centralizat în punctul unic european ESAP",
+            "major": false,
+            "article": "art. 243¹-243⁴"
+          },
+          {
+            "text": "A.S.F. păstrează pe site informațiile publicate cel puțin 5 ani",
+            "major": false,
+            "article": "art. 253 alin. (7¹)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 66,
+        "removed": 65,
+        "same": 0.41
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:59:08.829Z"
+    }
+  ]
+}

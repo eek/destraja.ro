@@ -1,0 +1,102 @@
+{
+  "slug": "plx-19-2026",
+  "billId": "PL-x 19/2026",
+  "updatedAt": "2026-10-29T12:25:44.365Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L516FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "Magazinele primesc mai mult timp să repare sau să înlocuiască produsele defecte",
+      "summaryTlDr": "Un singur cuvânt schimbat, „calendaristice” devine „lucrătoare”, prelungește cu circa 40% termenul maxim în care vânzătorul trebuie să repare sau să înlocuiască un produs neconform. Nu este o capcană și nu încalcă dreptul UE, dar reduce o protecție pe care consumatorii o folosesc des, deși expunerea de motive o prezintă ca pe o îmbunătățire.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/10/9/se783.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Reparația în garanție: 15 zile lucrătoare în loc de 15 zile calendaristice",
+      "summaryTlDr": "Modificarea este tehnică, legală și are efect modest, dar slăbește puțin protecția consumatorului: termenul maxim pentru reparație sau înlocuire crește de la 15 la circa 21 de zile calendaristice. Expunerea de motive o prezintă greșit drept o măsură pentru consumatori, deși ea îi avantajează pe vânzători.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a păstrat textul inițiatorului: 15 zile lucrătoare pentru reparare sau înlocuire",
+      "summary": "Senatul a adoptat aceeași prevedere ca inițiatorul: termenul maxim de reparare sau înlocuire devine 15 zile lucrătoare în loc de 15 calendaristice. S-au corectat doar titlul și trimiterea la Legea 205/2023, fără efect pentru cetățeni sau firme.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Termenul maxim crește de la 15 la circa 21 de zile calendaristice",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "În preajma sărbătorilor de iarnă, consumatorul poate aștepta până la circa 28 de zile",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Prelungirea se aplică și înlocuirii, deși argumentele privesc mai ales reparația",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "„Zile lucrătoare” nedefinit: neclar dacă sâmbăta se numără, posibile dispute cu ANPC",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Argumentul imposibilității obiective e parțial acoperit deja de Codul civil, art. 2553",
+            "major": false,
+            "article": "art. unic"
+          }
+        ],
+        "good": [
+          {
+            "text": "15 zile rămân plafon; termenul se stabilește de comun acord, în scris",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Service-urile mici dependente de piese importate riscă mai rar amenzi ANPC",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Nu creează taxe, licențe, monopoluri, birocrație nouă și nu are impact bugetar",
+            "major": false,
+            "article": "art. unic"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 3,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:24:34.384Z"
+    }
+  ]
+}

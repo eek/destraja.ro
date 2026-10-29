@@ -1,0 +1,122 @@
+# EXPUNERE DE MOTIVE
+
+Prezenta inițiativă legislativă are ca obiect extinderea sistemului biletelor de valoare reglementat de Legea nr.165/2018 prin introducerea unei noi categorii - tichetele de combustibil, destinate sprijinirii mobilității forței de muncă și modificarea Legii nr.227/2015 - Codului fiscal, pentru corelarea legislației.
+
+## 1. Context și necesitate
+
+Creșterea constantă a costurilor cu transportul individual, determinată de volatilitatea prețurilor la carburanți, afectează în mod direct veniturile reale ale salariaților.
+
+Impactul este mai accentuat în:
+
+\- zonele periurbane și rurale;
+
+\- regiunile cu infrastructură de transport public insuficient dezvoltată;
+
+\- sectoarele economice unde deplasarea este inerentă activității.
+
+## 2. Obiectivele reglementării
+
+Măsura propusă urmărește:
+
+\- susținerea mobilității angajaților și creșterea accesului la piața muncii;
+
+\- reducerea presiunii asupra veniturilor salariale;
+
+\- crearea unui instrument fiscal eficient și predictibil pentru angajatori;
+
+\- utilizarea infrastructurii existente a biletelor de valoare, evitând paralelismele legislative (în acord cu Legea nr.24/2000).
+
+## 3. Impact socio-economic
+
+Introducerea tichetelor de combustibil:
+
+\- stimulează participarea pe piața muncii;
+
+\- susține sectoarele dependente de mobilitate;
+
+\- contribuie indirect la creșterea colectării fiscale prin formalizarea beneficiilor acordate angajaților.
+
+## 4. Analiză comparativă la nivelul Uniunii Europene
+
+## Franța:
+
+\- Există „prime transport” și facilități pentru decontarea carburantului.
+
+\- Angajatorii pot acorda sume neimpozabile în anumite limite pentru deplasarea la locul de muncă.
+
+\- Accent pe mobilitate sustenabilă, dar și sprijin pentru combustibil.
+
+## Belgia:
+
+\- Sistem larg utilizat de carduri de combustibil pentru angajați.
+
+\- Beneficiile sunt tratate fiscal ca avantaje în natură, dar există regimuri favorabile.
+
+## Germania:
+
+\- Angajatorii pot acorda beneficii neimpozabile (Sachbezug) până la un plafon lunar (\~50 euro).
+
+\- Există și deduceri pentru navetă („Pendlerpauschale”).
+
+\- Introduse „buoni carburante” (tichete de combustibil) cu plafon neimpozabil anual.
+
+\- Măsură aplicată inclusiv ca răspuns la crizele energetice.
+
+## Concluzie comparativă
+
+Majoritatea statelor membre:
+
+\- nu utilizează neapărat denumirea de „tichet”, dar au instrumente echivalente;
+
+\- oferă facilități fiscale pentru combustibil sau mobilitate;
+
+\- utilizează fie carduri, fie deduceri fiscale.
+
+Propunerea României este aliniată practicilor europene, dar are avantajul:
+
+\- integrării într-un sistem deja funcțional (tichetele de valoare);
+
+\- unei administrări simple și transparente.
+
+## INIȚIATOR:
+
+VIDRA.VIAD-ANDREI
+
+| Nr.crt | Deputați/Senatori | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1 | VIORA VLAD-ANDREI | S.O.S. RO |  |
+| 2. | MUCOVG'ILIE SIMONA ELENA | S.O.S. RO |  |
+| 3. | PASCACINI RIMI AURWANDAN | S.O.S. RO |  |
+| 4. | OIMPIANU ANDREEA PETRONECA | S.O.S. RO |  |
+| 5 | GOLDESCU DONEL | √.0.√. Ro |  |
+| 6 | IO NESCU TUDOR | S.O.S. RO |  |
+| 7 | TIY MIHAI-ADRIAH | S.O.S. RO |  |
+| 8 | NAS ANA MARCELA | S.O.S. RO |  |
+| 9 | OLTENASU SORIN | S.O.S. RO |  |
+| 10 | VEĐINAS VEĞSINIT | SOS RO |  |
+| 11. | PORUMBOIU GABRIELA | POT |  |
+| 12 | FAGET MADUH LAURETHI | Indegndorl |  |
+| 13. | TOMER ELENA-LAURA | S.O.S. RO |  |
+| 14. | GROPU BAWEI | POT |  |
+| 15 | Raiso Eucchi' | Negfiliof |  |
+| 16 | MUSAF LUCIAO | AUR |  |
+| 17 | Velascu Elevin Bogdian | AOR |  |
+| 18 | ELACHE MIHAI XONAN | AOR |  |
+| 19 | SARBAI GIMINA | AUR |  |
+| 20 | PASCARIU MIHAI-COSMIN | AUR |  |
+| 21 | JACAN MONICA | AUR |  |
+| 22 | Vulpoiu Dorel | AUR |  |
+| 23 | CIPRIAN PARASCHIV | AUR |  |
+| 24 | MIMDRESCU. MIC | AUR |  |
+| 25 | PUȘEASU PETRE | AUR |  |
+| 26 | KOLR2 SOUARD | AUR |  |
+| 27 | CONSTIMUSEU ANOVA-Clouatio | AUR |  |
+| 28 | CARAGA'Í FCRIN | S.O.S RO |  |
+| 29. | LAÑARÓI IOAN | S.O.S.RO |  |
+| 30 | STOICA CIPRIAN -TIN | A.V.R. |  |
+| 31 | CIMPAAN CRISMAN | PSA |  |
+| 32 | CHIRI'Í RAZVAKI-MIREC | POT |  |
+| 33 | VÂYÔ MAUAG | Hudepadeț |  |
+| 34 | MATEI SERS IV. LUCIAN | POT |  |
+| 35 | NICOLAS JAN | POF |  |
+| 36 | RÀSUCEA VACENTIN | POT |  |

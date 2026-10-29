@@ -1,0 +1,205 @@
+{
+  "slug": "plx-5-2026",
+  "billId": "PL-x 5/2026",
+  "updatedAt": "2026-10-29T13:45:01.255Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/000/00/5/pl6.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "România ratifică regula OCDE: impozit minim de 9% pe plățile între firme afiliate din state cu impozite mici",
+      "summaryTlDr": "Lege tehnică și, în esență, benefică. Îi dă României dreptul de a impozita suplimentar plățile multinaționalelor către firme afiliate din state cu impozite sub 9%, fără să atingă cetățenii sau firmele mici. Problema reală: fără modificarea Codului fiscal, acest drept rămâne pe hârtie.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl005_cd005_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "România ratifică regula OCDE care permite taxarea suplimentară a plăților intra-grup către firme taxate sub 9%",
+      "summaryTlDr": "Lege tehnică și, pe fond, benefică. România obține un instrument prin care poate recupera impozit pe dobânzi, redevențe și anumite servicii plătite către firme conexe taxate sub 9% în străinătate. Riscul pentru cetățeni și IMM-uri e minim; slăbiciunile țin de transparență (lista acordurilor nu apare în text) și de implementarea internă.",
+      "scores": {
+        "agy": 3,
+        "claude": 2,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L155FS.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "România poate taxa suplimentar plățile intra-grup către state cu impozit sub 9%",
+      "summaryTlDr": "Este o lege tehnică de ratificare, fără capcane pentru cetățeni sau IMM-uri. Îi dă României dreptul să taxeze suplimentar, până la nivelul de 9%, anumite plăți între firme din același grup care pleacă spre parteneri cu impozitare redusă. Problemele țin de transparență și de aplicare, nu de fond.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a adoptat textul inițiatorului fără modificări de fond; diferă doar antetul și ghilimelele",
+      "summary": "Camera Deputaților a adoptat proiectul exact în forma inițiatorului. Diferențele sunt doar de redactare: antetul, formula de adoptare, semnătura și ghilimelele. Ratificarea și cele cinci notificări ale României au rămas aceleași.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Lista tratatelor fiscale acoperite nu apare în lege, deci firmele nu o pot verifica",
+            "major": true,
+            "article": "art. 2 alin. (1)"
+          },
+          {
+            "text": "Plățile intra-grup către beneficiari afiliați taxați sub 9% pot primi impozit suplimentar",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Impozitul notificat ca fiind calculat altfel decât pe venitul net nu este numit",
+            "major": false,
+            "article": "art. 2 alin. (2)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Ratificarea nu introduce direct taxe, amenzi sau obligații pentru cetățeni",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Regula vizează doar plăți între persoane afiliate, peste 1 mil. EUR pe an",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Persoanele fizice și fondurile de pensii recunoscute sunt excluse din regulă",
+            "major": true,
+            "article": "art. 2 alin. (3)"
+          },
+          {
+            "text": "Notificarea impozitului pe cifra de afaceri ferește firmele românești de impozit străin",
+            "major": true,
+            "article": "art. 2 alin. (2)"
+          },
+          {
+            "text": "Clauza de întrerupere din Anexa V este inclusă în tratatele vizate",
+            "major": false,
+            "article": "art. 2 alin. (4)"
+          },
+          {
+            "text": "Efectele încep la 30 de zile după ultima notificare, cu timp pentru norme",
+            "major": false,
+            "article": "art. 2 alin. (5)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 8,
+        "removed": 6,
+        "same": 0.33
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:36:09.747Z"
+    },
+    {
+      "from": "camera",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a păstrat neschimbat fondul textului adoptat de Cameră; diferențele sunt doar de redactare",
+      "summary": "Forma adoptată de Senat are același conținut ca forma adoptată de Cameră. Se schimbă doar antetul, semnătura, data adoptării și spațierea unor trimiteri. Riscurile și protecțiile rămân aceleași, iar legea tot nu arată ce tratate și ce impozit a notificat România.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Legea nu cuprinde lista tratatelor fiscale acoperite; contribuabilul nu știe cine e afectat",
+            "major": true,
+            "article": "art. 2 alin. (1)"
+          },
+          {
+            "text": "Grupurile multinaționale pot datora impozit suplimentar pe plăți intra-grup taxate sub 9%",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Impozitul calculat altfel decât pe venitul net, notificat de România, nu e numit",
+            "major": false,
+            "article": "art. 2 alin. (2)"
+          },
+          {
+            "text": "Nu sunt listați partenerii pentru definiția „fondului de pensii recunoscut”",
+            "major": false,
+            "article": "art. 2 alin. (3)"
+          },
+          {
+            "text": "Data aplicării depinde de notificări ulterioare, greu de urmărit din lege",
+            "major": false,
+            "article": "art. 2 alin. (5)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Nu introduce direct taxe, amenzi sau obligații pentru cetățeni",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Se aplică doar plăților între persoane conectate, peste pragul de 1 milion EUR anual",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Impozitul suplimentar e limitat la diferența până la cota de 9%",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Notificarea impozitului pe altă bază poate evita tratarea firmelor românești ca taxate sub 9%",
+            "major": true,
+            "article": "art. 2 alin. (2)"
+          },
+          {
+            "text": "Fondurile de pensii recunoscute sunt excluse din regula de impozitare",
+            "major": true,
+            "article": "art. 2 alin. (3)"
+          },
+          {
+            "text": "Tratatele nu se rescriu; acordurile nelistate de parteneri rămân neschimbate",
+            "major": false,
+            "article": "art. 1"
+          },
+          {
+            "text": "Include clauza de întrerupere din Anexa V, o opțiune de limitare",
+            "major": false,
+            "article": "art. 2 alin. (4)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 6,
+        "removed": 7,
+        "same": 0.45
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:36:49.774Z"
+    }
+  ]
+}

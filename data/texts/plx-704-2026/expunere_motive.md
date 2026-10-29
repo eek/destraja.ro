@@ -1,0 +1,146 @@
+# EXPUNERE DE MOTIVE
+
+LEGE
+
+pentru modificarea articolului 3 din Legea nr. 354/2022 privind protecția sistemelor informatice ale autorităților și instituțiilor publice în contextul invaziei declanșate de Federația Rusă împotriva Ucrainei
+
+## Secțiunea 1. Titlul proiectului de act normativ
+
+Lege pentru modificarea articolului 3 din Legea nr. 354/2022 privind protecția sistemelor informatice ale autorităților și instituțiilor publice în contextul invaziei declanșate de Federația Rusă împotriva Ucrainei.
+
+## Secțiunea a 2-a. Motivul emiterii actului normativ
+
+## 2.1. Descrierea situației actuale
+
+Legea nr. 354/2022 a interzis autorităților și instituțiilor publice achiziționarea, instalarea și utilizarea produselor și serviciilor software de tip antivirus și a celorlalte produse de securitate prevăzute la art. 2, provenind, direct sau indirect, din Federația Rusă ori de la entități aflate sub control rusesc. Potrivit art. 3, interdicția se aplică până la data de 31 decembrie 2026.
+
+Federația Rusă conduce, de la 24 februarie 2022, un război de agresiune împotriva Ucrainei, cu încălcarea gravă a Cartei Organizației Națiunilor Unite, a suveranității și a integrității teritoriale a unui stat vecin. Adunarea Generală a ONU a condamnat agresiunea și a cerut retragerea necondiționată a trupelor ruse, prin Rezoluția ES-11/1 din 2 martie 2022, adoptată cu 141 de voturi pentru.¹
+
+Parlamentul European a recunoscut Federația Rusă drept stat sponsor al terorismului și stat care folosește mijloace teroriste.² Curtea Penală Internațională a emis, la 17 martie 2023, mandat de arestare pe numele președintelui Federației Ruse, pentru deportarea ilegală de copii ucraineni.³ Federația Rusă este principala amenințare la adresa securității naționale a României, a Uniunii Europene și a Alianței Nord-Atlantice. Ea încalcă sistematic dreptul internațional și trebuie sancționată prin toate mijloacele legale și izolată economic, politic, diplomatic și tehnologic de comunitatea statelor democratice.
+
+Agresiunea rusă se desfășoară constant și în spațiul cibernetic, unde autoritățile statelor membre ale Uniunii Europene și ale NATO, infrastructurile lor critice și sectoarele de apărare sunt ținte permanente. Exemplele documentate public arată amploarea, persistența și gravitatea acestor operațiuni.
+
+¹ Adunarea Generală a Organizației Națiunilor Unite, Rezoluția ES-11/1 din 2 martie 2022, adoptată cu 141 de voturi pentru, 5 împotrivă și 35 de abțineri. Disponibilă la: https://docs.un.org/en/A/RES/ES-11/1
+
+²Parlamentul European, Rezoluția din 23 noiembrie 2022 privind recunoașterea Federației Ruse drept stat sponsor al terorismului, adoptată cu 494 de voturi pentru. Disponibilă la: https://www.europarl.europa.eu/doceo/document/TA-9-2022-0405\_EN.html
+
+³ Curtea Penală Internațională, mandate de arestare emise la 17 martie 2023 în situația din Ucraina. Disponibil la: https://www.icc-cpi.int/news/situation-ukraine-icc-judges-issue-arrest-warrants-against-vladimir-vladimirovich-putin-and
+
+La 24 februarie 2022, cu o oră înainte de invazie, un atac cibernetic cu programul distructiv AcidRain a lovit rețeaua de comunicații prin satelit KA-SAT, operată de Viasat. Atacul a afectat zeci de mii de utilizatori din Ucraina și din Europa și a întrerupt monitorizarea la distanță a circa 5.800 de turbine eoliene Enercon din Germania. Uniunea Europeană, Statele Unite și Regatul Unit au atribuit oficial atacul Federației Ruse.⁴
+
+În octombrie 2022, gruparea Sandworm, atribuită Direcției Principale de Informații a Statului Major al forțelor armate ruse (GRU), a desfășurat atacuri cu programul de tip ransomware „Prestige” împotriva companiilor din sectorul transporturilor și logisticii din Polonia și Ucraina, urmărind blocarea fluxului de aprovizionare către Ucraina.⁵
+
+În mai 2024, Uniunea Europeană, NATO și statele afectate au condamnat campania grupării APT28, controlată de GRU, îndreptată împotriva Germaniei, inclusiv a partidului cancelarului federal, și a Cehiei, precum și împotriva unor instituții guvernamentale și operatori de infrastructură critică din Lituania, Polonia, Slovacia și Suedia.⁶
+
+România este țintă directă. În perioada 29 aprilie - 1 mai 2022, gruparea pro-rusă Killnet a desfășurat atacuri de tip DDoS care au scos din funcțiune site-urile Ministerului Apărării Naționale, Poliției de Frontieră, Guvernului României și ale companiei CFR, precum și ale unor aeroporturi și ale companiei TAROM, ca represalii pentru sprijinul acordat Ucrainei.⁷
+
+În toamna anului 2024, infrastructura electorală a României a fost ținta a peste 85.000 de atacuri cibernetice în perioada premergătoare alegerilor prezidențiale. Atacurile, evaluate de autorități drept operațiunea unui actor statal cu legături cu Federația Rusă, au vizat sistemele Autorității Electorale Permanente, iar date de acces au fost publicate pe platforme rusești. Documentele Consiliului Suprem de Apărare a Țării au fost declasificate, iar Curtea Constituțională a anulat procesul electoral prezidențial la 6 decembrie 2024.⁸
+
+## 2.2. Schimbări preconizate
+
+Prezenta propunere legislativă modifică articolul 3 din Legea nr. 354/2022, prelungind termenul de aplicare a interdicției de la 31 decembrie 2026 la 31 decembrie 2035.
+
+⁴Consiliul Uniunii Europene, declarația Înaltului Reprezentant din 10 mai 2022 privind operațiunile cibernetice ruse împotriva Ucrainei, inclusiv atacul asupra rețelei KA-SAT. Disponibilă la: https://www.consilium.europa.eu/en/press/press-releases/2022/05/10/russian-cyber-operations-against-ukraine-declaration-by-the-high-representative-on-behalf-of-the-european-union/
+
+⁵ Microsoft Security, „New Prestige ransomware impacts organizations in Ukraine and Poland”, 14 octombrie 2022. Disponibil la: https://www.microsoft.com/en-us/security/blog/2022/10/14/new-prestige-ransomware-impacts-organizations-in-ukraine-and-poland/
+
+⁶ Condamnarea campaniei grupării APT28 (GRU) împotriva Germaniei și Cehiei de către Uniunea Europeană, NATO și statele afectate, mai 2024. A se vedea: https://www.aljazeera.com/news/2024/5/3/germany-accuses-russia-of-intolerable-cyberattack-warns-of-consequences
+
+7Atacuri de tip DDoS revendicate de gruparea pro-rusă Killnet împotriva instituțiilor publice din România, 29 aprilie - 1 mai 2022. A se vedea: https://www.romania-insider.com/romania-cyberattack-russia-killnet-2022
+
+⁸Atacuri cibernetice asupra infrastructurii electorale a României în 2024 și anularea procesului electoral prezidențial de către Curtea Constituțională la 6 decembrie 2024. A se vedea: https://www.rferl.org/a/romania-russia-election-interference-tiktok/33227010.html
+
+Prelungirea este necesară și proporțională. Cauzele care au justificat adoptarea legii nu numai că persistă, ci s-au agravat. La împlinirea termenului actual, interdicția ar înceta, iar autoritățile și instituțiile publice ar putea reintroduce în sistemele lor informatice produse și servicii controlate de un stat agresor, contrar scopului prevăzut la art. 1 alin. (5). Termenul de 31 decembrie 2035 asigură un orizont de protecție stabil, pe durata previzibilă a amenințării.
+
+## 2.3. Alte informații
+
+Întrucât termenul prevăzut la art. 3 expiră la 31 decembrie 2026, adoptarea propunerii are caracter urgent, pentru a se asigura continuitatea protecției înainte de ieșirea din vigoare a interdicției.
+
+## Secțiunea a 3-a. Impactul socioeconomic al proiectului de act normativ
+
+Impactul macroeconomic: menținerea interdicției reduce riscul de compromitere a sistemelor informatice ale statului și de întrerupere a serviciilor publice esențiale.
+
+Impactul asupra mediului de afaceri: propunerea nu produce efecte asupra mediului de afaceri, întrucât se adresează exclusiv autorităților și instituțiilor publice.
+
+Impactul social: propunerea protejează datele cetățenilor gestionate de autoritățile și instituțiile publice.
+
+Impactul asupra mediului înconjurător: propunerea nu are impact asupra mediului.
+
+## Secțiunea a 4-a. Impactul financiar asupra bugetului general consolidat
+
+Propunerea nu generează cheltuieli suplimentare față de bugetul general consolidat, nici pe termen scurt, pentru anul curent, nici pe termen lung, pe următorii 5 ani. Propunerea menține un regim juridic deja aplicat de autoritățile și instituțiile publice, fără a institui obligații noi de cheltuială.
+
+## Secțiunea a 5-a. Efectele proiectului de act normativ asupra legislației în vigoare
+
+Propunerea modifică un singur articol, art. 3, din Legea nr. 354/2022 și nu produce efecte asupra altor acte normative.
+
+Menținerea măsurii este compatibilă cu dreptul Uniunii Europene. Ea se întemeiază pe protejarea intereselor esențiale de securitate ale statului, în sensul art. 4 alin. (2) din Tratatul privind Uniunea Europeană și al art. 36 și 346 din Tratatul privind funcționarea Uniunii Europene, în coordonare cu măsurile restrictive ale Uniunii adoptate prin Regulamentul (UE) nr. 833/2014.
+
+Propunerea se supune avizului Consiliului Legislativ.
+
+Secțiunea a 6-a. Consultările efectuate în vederea elaborării proiectului de act normativ Nu este cazul.
+
+Secțiunea a 7-a. Activități de informare publică privind elaborarea și implementarea proiectului de act normativ
+
+Propunerea legislativă urmează procedura de dezbatere și adoptare din Parlamentul României, care asigură informarea publică.
+
+Secțiunea a 8-a. Măsuri privind implementarea, monitorizarea și evaluarea proiectului de act normativ
+
+Propunerea nu necesită structuri noi de implementare. Aplicarea și monitorizarea se realizează prin mecanismele existente, prevăzute de Legea nr. 354/2022, de către Ministerul Economiei, Digitalizării, Antreprenoriatului și Turismului și Directoratul Național de Securitate Cibernetică.
+
+În numele inițiatorilor,
+
+Sebastian-Ioan Burduja Deputat PNL
+
+## Tabel susținători
+
+LEGE
+
+pentru modificarea articolului 3 din Legea nr. 354/2022 privind protecția sistemelor informatice ale autorităților și instituțiilor publice în contextul invaziei declanșate de Federația Rusă împotriva Ucrainei
+
+<table>
+<tbody>
+<tr><td>Nr.crt.</td><td>Nume și prenume</td><td>Grup parlamentar</td><td rowspan="22">Semnătura</td></tr>
+<tr><td>1</td><td>Cipmian Zohne</td><td>PNL</td></tr>
+<tr><td>2</td><td>CioBauo Adrian</td><td>PNL</td></tr>
+<tr><td>3</td><td>Opqua Oetoniom</td><td>PNL</td></tr>
+<tr><td>4</td><td>Crusovegan Marian</td><td>PNL</td></tr>
+<tr><td>5</td><td>CIMPEAN OVIARU</td><td>PNL</td></tr>
+<tr><td>6</td><td>Gom Cahiz</td><td>P.N.L.</td></tr>
+<tr><td>7</td><td>Cotnescu Avriahou</td><td>PNL</td></tr>
+<tr><td>8</td><td>CADAR RAZVAN</td><td>PNL</td></tr>
+<tr><td>9</td><td>PISTRU PDA SEANINA</td><td>PNL</td></tr>
+<tr><td>10</td><td>Polu Ylwin Manole</td><td>PSD</td></tr>
+<tr><td>11</td><td>BEDJINARIV EUGEN</td><td>PSD</td></tr>
+<tr><td>12</td><td>PRUNA CEISTINA</td><td>USR</td></tr>
+<tr><td>13</td><td>Radu Mihgin</td><td>USR</td></tr>
+<tr><td>14</td><td>GABRIEL AKIORONACHE</td><td>PNL</td></tr>
+<tr><td>15</td><td>Vela Ion Marcel</td><td>PNL</td></tr>
+<tr><td>16</td><td>ZIGOPOL DRAGOS</td><td>MIRPORITIM</td></tr>
+<tr><td>17</td><td>COLESA L'EAHIN</td><td>AUR</td></tr>
+<tr><td>18</td><td>MIRCEA FECHET</td><td>PNL</td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+09.10.2026
+
+## Către, BIROUL PERMANENT AL SENATULUI
+
+Subsemnata, Doina-Elena Federovici, senator ales în Circumscripția electorală nr. 07, Botoșani, solicit să aprobați dobândirea calității de coinițiator al următoarelor propuneri legislative:
+
+\- Propunere legislativă privind modificarea articolului IX alin.(5) din Ordonanța de urgență a Guvernului nr.44/2022 privind stabilirea unor măsuri în cadrul sistemului de sănătate, precum și pentru interpretarea, modificarea și completarea unor acte normative (L550/2026);
+
+\- Propunere legislativă pentru modificarea și completarea articolului (30 indice 1) din Ordonanța de Urgență nr.158/2005 privind concediile și indemnizațiile de asigurări sociale de sănătate (L520/2026);
+
+\- Propunere legislativă pentru modificarea articolului 3 din Legea nr.354/2022 privind protecția sistemelor informatice ale autorităților și instituțiilor publice în contextul invaziei declanșate de Federația Rusă împotriva Ucrainei (L572/2026);
+
+\- Propunere legislativă pentru modificarea alineatului (14) al articolului 19 din Legea nr.226/2023 privind aplicarea unor tarife rutiere pe rețeaua de drumuri naționale din România, precum și pentru instituirea unor măsuri privind plata și aplicarea unor sancțiuni prevăzute de Legea nr.226/2023 (L579/2026);
+
+\- Propunere legislativă pentru modificarea și completarea Ordonanței de urgență a Guvernului nr.60/2019 privind reglementarea unor măsuri pentru stingerea unor obligații fiscale și bugetare, precum și unele măsuri referitoare la obligațiile de plată aferente împrumuturilor din venituri din privatizare și împrumuturilor contractate de statul român de la instituții de credit și subîmprumutate operatorilor economici (b542/2026);
+
+Vă mulțumesc.
+
+Senator Doina-Elena FEDEROVICI, Secretar al Senatului

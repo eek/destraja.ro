@@ -1,0 +1,78 @@
+## EXPUNERE DE MOTIVE
+
+În perioada 6 martie 1945 – 22 decembrie 1989, regimul comunist din România a adoptat măsuri represive împotriva cultelor religioase, dispunând preluarea abuzivă a unor bunuri imobile aflate în proprietatea acestora. Aceste confiscări s-au realizat fie fără titlu, fie în baza unor acte normative adoptate în contradicție cu principiile statului de drept și ale respectării dreptului de proprietate. În prezent, procesul de restituire a acestor imobile se confruntă cu interpretări divergente ale termenului „fost proprietar”, ceea ce generează blocaje administrative și tergiversări în soluționarea cererilor de retrocedare.
+
+România democratică și-a asumat răspunderea de a corecta nedreptățile regimului comunist, inclusiv prin restituirea imobilelor confiscate de la diverse categorii de proprietari sau, dacă acest lucru nu mai este posibil, prin acordarea unor despăgubiri juste.
+
+Desigur proprietățile trebuie restituite foștilor proprietari, inclusiv cultelor religioase. În lipsa unor precizări clare privind interpretarea termenului de “fost proprietar”, atât în practica Comisiei Speciale de Restituire, cât și în practica judiciară, au apărut diverse interpretări. Însă atât intenția legiuiitorului, cât și logica firească a procesului măsurilor reparatorii au fost și au rămas și azi că fostul proprietar este persoana față de care a fost dispusă măsura preluării abuzive în perioada de referință a legilor reparatorii. În acest sens, este limpede că, în aplicarea măsurilor reparatorii, nu au deloc relevanță nici istoricul dreptului de proprietate, nici evidențele imobiliare, atât de diferite pe territoriul României de-a lungul istoriei.
+
+Singurul aspect relevant este situația juridică de la momentul preluării abuzive, mai precis persoana menționată în actele normative, în actele administrative sau în alte acte de autoritate prin care s-a dispus, în concret, măsura preluării abuzive.
+
+Prezenta inițiativă legislativă are ca scop clarificarea acestui aspect, si anume definirea exactă a termenului de “fost proprietar”, în sensul intenției reale a legiuitorului, respectiv, precizarea că prin “fost proprietar” se înțelege persoana menționată concret în actele de preluare abuzivă și față de care urmează să fie aplicată măsura reparatorie.
+
+În același timp, prezenta inițiativă legislativă stabilește în mod clar că actele de preluare abuzivă constituie probe directe și cu deplină putere doveditoare ale dreptului de proprietate, subliniind astfel relevanța momentului confiscării.
+
+Totodată, se impune ca pentru stabilirea întinderii dreptului de proprietate să fie instituită o prezumție legală, prin raportare la recunoașterea întinderii dreptului în actul normativ, actul de autoritate sau orice alte înscrisuri ale autorităților publice prin care a fost prevăzută, dispusă ori după caz pusă în aplicare, chiar și în parte măsura preluării abuzive. În ipoteza în care au fost emise mai multe acte sau înscrisuri, se va lua în considerare cea mai mare întindere a dreptului de proprietate, iar pentru dovedirea întinderii dreptului de proprietate este adminsibilă orice mijloc de probă.
+
+În vederea aplicării noilor prevederi, se impune stabilirea unui termen scurt, dar rezonabil, pentru a se putea depune cereri de restituire sau, după caz, pentru redepunerea cererilor respinse datorită interpretărilor anterioare prezentei legi. Neaplicarea definițiilor și clarificărilor introduse prin această lege față de aceste situații ar reprezenta o formă de discriminare, evidențiată și de jurisprundența CEDO în materie.
+
+În sensul celor prezentate mai sus am elaborat prezenta propunere legislativă, pe care o supunem spre adoptare Parlamentului.
+
+Inițiator,
+
+Markó Attila deputat UDMR
+
+Propunere legislativă pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 94/2000 privind retrocedarea unor bunuri imobile care au aparținut cultelor religioase din România, republicată, cu modificările și completările ulterioare.
+
+Inițiatori,
+
+| Nr.crt. | Deputați/Senatori | Grupul parlamentar | Semnătură |
+| --- | --- | --- | --- |
+| 1. | Marko Attila | UDMR |  |
+| 2. | MOLNAR ANDREI | UDHR |  |
+| 3. | G'lk KAROCY | UDHR |  |
+| 4. | HHJSU GKBOR | UDMR |  |
+| 5. | ZAHORANSTKIBIÇA | UDNE |  |
+| 6. | SZABÓ ÖDÖN | UDHR |  |
+| 7. | MPAȘMR LORAND-PAR | UPMR |  |
+| 8. | Jouce Bakand | UAMR |  |
+| 9. | CSEP EUA ANDREA | UAMR |  |
+| 10. | KAGY SFABOLES | UDMR |  |
+| 11. | MILUL ZELFIY | UDHR |  |
+| 12. | KOLCSA'KALOÇY | UDMR |  |
+| 13. | LADAHVÍ LÁHBO-2ROU | USMR |  |
+| 14. | Bendle Samdor | UDMR |  |
+| 15. | Kahtor Boglárka | UDMR |  |
+| 16. | KÖUCTEI BABA | UDMR |  |
+| 17. | Bíró Ropólia-Žbolya | UDHR |  |
+| 18. | VASS LEVENTE | UOR |  |
+| 19. | SERÉS BEVES | UAMR |  |
+| 20. | GANTÍ OVIDH VICTOR | MUNYJH |  |
+| 21. | GHERA GIURECI-SLOSADAN | THN |  |
+
+Propunere legislativă pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 94/2000 privind retrocedarea unor bunuri imobile care au aparținut cultelor religioase din România, republicată, cu modificările și completările ulterioare.
+
+| 22. | STANOU IONEL | MINORITATI |
+| --- | --- | --- |
+| 23. | CDIONGI OSGHEAL | MILLO |
+| 24. | ZISOPOL DRAGOS | MINORITATI |
+| 25. | BOUDA STEPAN | MINO MITATI |
+| 26. | Merke Adrian | MIN |
+| 27. | KONDOP XGOTA | UJLMR |
+| 28. | KOVACS MATE | UPMR |
+| 29. | TASNAJI ISTRAU-SEJAORA | VDHR |
+| 30. | TUDOS LORAVNIO | VOMR |
+| 31. | ANTAL VODANT | VDHE/RUDSZ |
+| 32. | VELEMEN HUNOR | VAMR |
+| 33. | SILVIU VEXLER | MIN. |
+| 34. | FEDOR SILVIU | MINORIFATT |
+| 35. | PETRETCHI HIROSLA-V | MINI |
+| 36. | PIRCZAK IULIUS MROAN | MINO |
+| 37. | STOICA BOSDAV-ALIN | MINO |
+| 38. |  |  |
+| 39. |  |  |
+| 40. |  |  |
+| 41. |  |  |
+| 42. |  |  |
+| 43. |  |  |
+| 44. |  |  |

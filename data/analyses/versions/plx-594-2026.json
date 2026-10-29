@@ -1,0 +1,214 @@
+{
+  "slug": "plx-594-2026",
+  "billId": "PL-x 594/2026",
+  "updatedAt": "2026-10-29T13:17:49.325Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L396FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Talonul de pensie cu cod QR devine singura dovadă pentru călătoriile gratuite",
+      "summaryTlDr": "Ideea e bună: pensionarul își dovedește dreptul cu un document pe care îl are deja, iar controlorul îl verifică electronic. Textul e însă scris în grabă: are două alineate (2), face din codul QR singura dovadă fără nicio alternativă, impune un termen de 1 ianuarie 2027 greu de ținut și, la veterani, permite folosirea gratuităților de oricine are procură, ceea ce contrazice chiar scopul antifraudă.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/90/4/se679.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Talonul de pensie cu cod QR devine dovada pentru transportul gratuit sau redus al pensionarilor, iar veteranii primesc card cu QR",
+      "summaryTlDr": "Ideea e utilă, are inițiatori din aproape toate grupurile și nu aduce taxe sau monopoluri. Forma votată de Senat are însă erori de tehnică legislativă care pot bloca aplicarea de la 1 ianuarie 2027: trimite la un articol pe care tot ea îl abrogă și cere pensionarului să arate controlorului întregul talon, cu sumele încasate.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Codul QR nu mai e singura dovadă pentru pensionari; veteranii pot merge gratuit și cu autobuzul",
+      "summary": "Acum documentul de plată a pensiei, întreg, dovedește dreptul, nu doar codul, iar veteranii pot călători gratuit și cu autobuzul sau pe apă. Dar pensionarii altor sisteme proprii nu mai au un document numit, iar cardul veteranilor trimite la un articol abrogat.",
+      "changes": [
+        {
+          "title": "Codul nu mai e singura dovadă a dreptului",
+          "text": "Art. I (art. 1¹ alin. 3): inițial codul era „mijlocul unic de validare”; acum documentul întreg dovedește dreptul, deci un cod șters sau lipsa cititorului nu mai blochează călătoria.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. I (art. 1¹ alin. 3 din Legea 147/2000)",
+          "before": "Elementul de identificare automată prevăzut la alin. (2) constituie mijlocul unic de validare a dreptului la facilitățile de transport.",
+          "after": "Documentele prevăzute la alin. (1), în integralitatea lor, constituie mijlocul de dovadă a dreptului la facilitățile de transport.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Veteranii pot călători gratuit și cu autobuzul sau vaporul",
+          "text": "Art. II pct. 1 (art. 16 lit. a): călătoriile gratuite anuale ale veteranilor și văduvelor de război se pot face la alegere cu transport auto, tren sau pe căile fluviale, nu doar cu trenul.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. II pct. 1 (art. 16 lit. a din Legea 44/1994)",
+          "before": "câte 12 călătorii gratuite, dus-întors, sau 24 de călătorii simple, în cursul unui an calendaristic, la clasa I pe calea ferată, la tren de orice rang",
+          "after": "câte 12 călătorii gratuite, dus-întors, sau 24 de călătorii simple, în cursul unui an calendaristic, pe mijloacele de transport auto, pe calea ferată sau pe căile fluviale, la alegere",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Pensionarii altor sisteme proprii nu mai au document numit",
+          "text": "Art. I (art. 1¹ alin. 1): inițial temei era și talonul din „celelalte sisteme proprii”; acum sunt numite doar documentul din sistemul public și talonul pensiilor militare de stat.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. I (art. 1¹ alin. 1 din Legea 147/2000)",
+          "before": "Facilitățile de transport acordate persoanelor prevăzute la articolul 1 se acordă în baza talonului de pensie emis de sistemul public de pensii, precum și celelalte sisteme proprii de asigurări sociale.",
+          "after": "prevăzut la art.96 alin.(6) din Legea nr. 360/2023 privind sistemul public de pensii, emis de casa teritorială de pensii competență, respectiv în baza talonului de plată a drepturilor, prevăzut la art.67 alin.(3) din Legea nr. 223/2015 privind pensiile militare de stat",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Veteranii au nevoie de cardul de transport cu CNP",
+          "text": "Art. II pct. 2 (art. 16¹): nu mai ajung legitimația de veteran sau alte documente; e nevoie de cardul din art. VII al OG 8/2011, cu nume și CNP, articol abrogat chiar la 1 ianuarie 2027.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. II pct. 2 (art. 16¹ din Legea 44/1994)",
+          "before": "se acordă în baza legitimației de veteran de război sau, după caz, a altor documente justificative emise potrivit legii, prevăzute cu elemente de securizare și/sau cod QR.",
+          "after": "se acordă în baza legitimației de transport tip card, prevăzută la art. VII din Ordonanța Guvernului nr.8/2011",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dispare al doilea alineat (2), cel contradictoriu",
+          "text": "Art. I (art. 1¹ alin. 2): cele două alineate (2) devin unul singur, care cere cod QR sau cod de bare și îl face mijlocul de validare electronică a dreptului.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. I (art. 1¹ alin. 2 din Legea 147/2000)",
+          "before": "Codul QR prevăzut la alin. (1) constituie element de validare a dreptului la facilități și permite verificarea electronică a acestuia de către operatorii de transport de călători.",
+          "after": "cod QR - Quick Response sau cod de bare ce permite verificarea electronică a dreptului la facilități de transport de către operatorii de transport de călători și constituie mijlocul de validare electronică a acestui drept.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Abrogarea vechilor reguli pentru card, amânată la 2027",
+          "text": "Art. III pct. 3: art. VII și VIII din OG 8/2011 nu se mai abrogă la intrarea în vigoare a legii, ci la 1 ianuarie 2027, aceeași zi în care intră în vigoare art. I și II.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. III pct. 3",
+          "before": "Articolele VII și VIII se abrogă.",
+          "after": "Articolele VII și VIII se abrogă la data de 1 ianuarie 2027, după împlinirea obligațiilor pe care le prevăd.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Cardul veteranilor e definit prin art. VII din OG 8/2011, abrogat la aceeași dată",
+            "major": true,
+            "article": "art. II pct. 2, art. III pct. 3, art. IV alin. (1)"
+          },
+          {
+            "text": "Pensionarii din alte sisteme proprii decât cel militar nu au document prevăzut",
+            "major": true,
+            "article": "art. I (art. 1¹ alin. 1)"
+          },
+          {
+            "text": "Documentul prezentat întreg arată controlorului cuantumul pensiei și reținerile",
+            "major": true,
+            "article": "art. I (art. 1¹ alin. 3)"
+          },
+          {
+            "text": "Cardul poate fi folosit prin procură notarială fără titular, contrar scopului antifraudă",
+            "major": true,
+            "article": "art. II pct. 1 (art. 16 lit. a)"
+          },
+          {
+            "text": "Nu se cere actul de identitate, deci documentul nu e legat de călător",
+            "major": false,
+            "article": "art. I (art. 1¹ alin. 3)"
+          },
+          {
+            "text": "Legea nu spune ce conține codul QR; datele în clar le poate citi oricine",
+            "major": false,
+            "article": "art. I (art. 1¹ alin. 2), art. II pct. 2"
+          },
+          {
+            "text": "Datele, accesul și securitatea se stabilesc prin protocoale nepublicate, fără termen de păstrare",
+            "major": false,
+            "article": "art. IV alin. (3)"
+          },
+          {
+            "text": "Nu se spune cum validează operatorii codul și cine ține evidența călătoriilor",
+            "major": false,
+            "article": "art. IV"
+          },
+          {
+            "text": "Autoritatea Navală Română lipsește din protocoale, deși veteranii pot călători pe ape",
+            "major": false,
+            "article": "art. IV alin. (1)"
+          },
+          {
+            "text": "Obligația codului poate începe înaintea normelor de aplicare ale Guvernului",
+            "major": false,
+            "article": "art. V, art. VI"
+          }
+        ],
+        "good": [
+          {
+            "text": "Documentul întreg dovedește dreptul; codul nu mai e singura cale",
+            "major": true,
+            "article": "art. I (art. 1¹ alin. 3)"
+          },
+          {
+            "text": "Veteranii aleg între transport auto, tren și căi fluviale pentru călătoriile gratuite",
+            "major": true,
+            "article": "art. II pct. 1 (art. 16 lit. a)"
+          },
+          {
+            "text": "Folosirea abuzivă a cardului duce la pierderea dreptului până la expirare",
+            "major": true,
+            "article": "art. III pct. 2 (art. VI din OG 8/2011)"
+          },
+          {
+            "text": "Documentele de pensie primesc cod QR sau de bare pentru verificare electronică",
+            "major": false,
+            "article": "art. I (art. 1¹ alin. 2)"
+          },
+          {
+            "text": "Documentele de pensie sunt numite exact, după legile actuale ale pensiilor",
+            "major": false,
+            "article": "art. I (art. 1¹ alin. 1)"
+          },
+          {
+            "text": "ARF și ARR văd în timp real valabilitatea și călătoriile rămase",
+            "major": false,
+            "article": "art. IV alin. (1)"
+          },
+          {
+            "text": "Datele se transmit doar pentru acordarea și decontarea facilităților, conform GDPR",
+            "major": false,
+            "article": "art. IV alin. (2)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 26,
+        "removed": 25,
+        "same": 0.28
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:15:40.049Z"
+    }
+  ]
+}

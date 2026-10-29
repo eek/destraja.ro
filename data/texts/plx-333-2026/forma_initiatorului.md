@@ -1,0 +1,53 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENATUL
+
+## LEGE
+
+# pentru modificarea și completarea Legii nr. 282/2005 privind organizarea activității de transfuzie sanguină, donarea de sânge și componente sanguine de origine umană, precum și asigurarea calității și securității sanitare, în vederea utilizării lor terapeutice
+
+În temeiul art. 1 alin. (3) și (5) și art. 69 din Constituția României, Parlamentul României adoptă prezenta lege:
+
+## Articolul unic:
+
+Legea nr. 282/2005 privind organizarea activității de transfuzie sanguină, donarea de sânge și componente sanguine de origine umană, precum și asigurarea calității și securității sanitare, în vederea utilizării lor terapeutice, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. După articolul 7 se introduce un nou articol, articolul 7¹, cu următorul cuprins:
+
+„Art. 7¹
+
+(1) Beneficiul material acordat donatorilor de sânge, potrivit legii, se acordă prin una dintre următoarele modalități:
+
+a) încărcarea unui card valoric reutilizabil, emis o singură dată pentru fiecare donator;
+
+b) virarea sumei corespunzătoare direct în contul bancar personal al donatorului, la solicitarea acestuia.
+
+(2) Emiterea unui nou card valoric este permisă exclusiv în situația în care donatorul nu deține un card activ sau solicită în mod expres înlocuirea acestuia.
+
+(3) Modalitatea de acordare a beneficiului material se stabilește cu respectarea principiilor eficienței economice, utilizării judicioase a fondurilor publice și simplificării procedurilor administrative.
+
+(4) Procedura de aplicare a prevederilor alin. (1)-(3) se stabilește prin norme metodologice aprobate prin ordin al ministrului sănătății, în termen de 60 de zile de la data intrării în vigoare a prezentei legi."
+
+## Dispoziție finală
+
+Prezenta lege intră în vigoare la 30 de zile de la data publicării în Monitorul Oficial al României, Partea I.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 alin. (1) și ale art. 76 alin. (2) din Constituția României, republicată.
+
+Președintele Camerei Deputaților,
+
+Președintele Senatului,
+
+Sorin Mihai GRINDEANU
+
+Mircea ABRUDEAN
+
+Inițiator:
+
+Deputat Neafiliat
+
+PÎCLISAN Gheorghe-Petru
+
+Csillag Andrei

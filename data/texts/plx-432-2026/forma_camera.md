@@ -1,0 +1,373 @@
+# PARLAMENTUL ROMÂNIEI
+
+# CAMERA DEPUTAȚILOR
+
+|LEGE|
+
+privind instituirea unei scheme de ajutor de stat pentru susținerea activității crescătorilor din sectorul suin în contextul evoluției pestei porcine africane
+
+Camera Deputaților adoptă prezentul proiect de lege.
+
+Art. 1. - (1) Prezenta lege instituie o schemă de ajutor de stat pentru susținerea activității crescătorilor din sectorul suin care desfășoară activitate de reproducție și/sau creștere și/sau îngrășare a suinelor, în cadrul exploatațiilor autorizate sanitar-veterinar conform legislației în vigoare, în vederea compensării costurilor măsurilor de biosecuritate aplicate în contextul evoluției pestei porcine africane aferente perioadei 31 august 2023 – 31 august 2026, denumită în continuare Schemă.
+
+(2) Schema prevăzută la alin. (1) respectă prevederile secțiunii 1.2.1.3. „Ajutoare pentru costurile aferente prevenirii, controlului și eradicării bolilor animalelor, organismelor dăunătoare plantelor și infestării cu specii alogene invazive și ajutoare destinate reparării pagubelor provocate de boli ale animalelor, de organisme dăunătoare plantelor și de specii alogene”, pct. 370 lit. (a), potrivit Comunicării
+
+Comisiei privind ajutoarele de stat în sectoarele agricol și forestier și în zonele rurale (2022/C485/01), publicată în Jurnalul Oficial al Uniunii Europene, C 485 din 21 decembrie 2022, denumite în continuare Orientările UE.
+
+(3) Schema se cumulează cu orice alte scheme de sprijin finanțate de la bugetul de stat.
+
+(4) Schema se notifică Comisiei Europene în temeiul prevederilor art. 108 alin. (3) din Tratatul privind funcționarea Uniunii Europene.
+
+(5) Schema se aplică pe întreg territoriul României, după autorizarea de către Comisia Europeană a ajutorului de stat.
+
+(6) Centrele județene ale Agenției de Plăți și Intervenție pentru Agricultură, respectiv al municipiului București, denumite în continuare centre județene APIA, sunt responsabile cu implementarea prezentei Scheme.
+
+(7) Sumele acordate cu titlu de ajutor de stat, în condițiile prezentei legi, nu sunt supuse executării silite prin poprire în cazul în care împotriva beneficiarilor acestora a fost pornită procedura de executare silită.
+
+Art. 2. - În sensul prezentei legi, termenii și expresiile de mai jos au următoarele semnificații:
+
+a) baza națională de date, denumită în continuare BND - bază de date electronică în care sunt înregistrate animale terestre deținute, astfel cum se prevede la art. 109 alin. (1) din Regulamentul (UE) 2016/429 al Parlamentului European și al Consiliului din 9 martie 2016 privind bolile transmisibile ale animalelor și de modificare și de abrogare a anumitor acte din domeniul sănătății animalelor („Legea privind sănătatea animală”), cu modificările ulterioare, cu excepția ecvideelor, potrivit art.1 pct. 5 din Norma sanitar-veterinară pentru implementarea procesului de identificare și înregistrare a bovinelor, ovinelor, caprinelor, porcinelor, camelidelor, cervideelor și renilor, aprobată prin Ordinul președintelui Autorității Naționale Sanitare Veterinare și pentru Siguranța Alimentelor nr. 208/2022, cu modificările și completările ulterioare;
+
+b) crescător din sectorul suin – entitate constituită conform prevederilor Ordonanței de urgență a Guvernului nr. 44/2008 privind desfășurarea activităților economice de către persoanele fizice autorizate, întreprinderile individuale și întreprinderile familiale, aprobată cu modificări și completări prin Legea nr. 182/2016, cu modificările și completările ulterioare, ori forma juridică a cooperativelor agricole înființate, organizate și care funcționează potrivit Legii cooperației agricole nr. 566/2004, cu modificările și completările ulterioare sau a Legii nr. 36/1991 privind societățile agricole și alte forme de asociere în agricultură, cu modificările și completările ulterioare, precum și a Legii societăților nr. 31/1990, republicată, cu modificările și completările ulterioare, care desfășoară activitate de reproducție și/sau creștere și/sau îngrășare a suinelor, în cadrul exploatațiilor autorizate sanitar-veterinar conform legislației în vigoare;
+
+c) exploatația în sectorul zootehnic - orice amenajare, orice construcție sau, în cazul creșterii în aer liber, orice mediu în care animalele sunt deținute, crescute ori manipulate de o manieră permanentă sau temporară, cu excepția cabinetelor ori clinicilor veterinare, cu cod ANSVSA, potrivit art. 1 pct. 18 din Norma sanitar-veterinară, aprobată prin Ordinul președintelui Autorității Naționale Sanitare Veterinare și pentru Siguranța Alimentelor nr. 208/2022, cu modificările și completările ulterioare;
+
+d) întreprindere - orice entitate care desfășoară o activitate economică, indiferent de forma sa juridică, potrivit dispozițiilor art. 1 din anexa nr. I la Regulamentul (UE) 2022/2472 al Comisiei din 14 decembrie 2022 de declarare a anumitor categorii de ajutoare în sectoarele agricol și forestier în zonele rurale ca fiind compatibile cu piața internă, în aplicarea articolelor 107 și 108 din Tratatul privind funcționarea Uniunii Europene, cu modificările ulterioare;
+
+e) schemă de ajutor - orice act pe baza căruia, fără să mai fie nevoie de măsuri de punere în aplicare suplimentare, pot fi acordate ajutoare individuale întreprinderilor, precum și ajutoare care nu sunt legate de un proiect specific uneia sau mai multor întreprinderi.
+
+Art. 3. - Ajutorul de stat prevăzut la art. 1 alin. (1) se acordă crescătorilor din sectorul suin, astfel cum sunt definiți la art. 2 lit. b), care au desfășurat activitate de reproducție și/sau creștere și/sau îngrășare a suinelor în perioada 31 august 2023 – 31 august 2026, în exploatații autorizate sanitar-veterinar conform legislației în vigoare.
+
+Art. 4. - (1) Ajutorul de stat prevăzut la art. 1 alin. (1) se acordă beneficiarilor crescători din sectorul suin care au desfășurat activitate de reproducție și/sau creștere și/sau îngrășare a suinelor și care îndeplinesc următoarele criterii de eligibilitate:
+
+a) să dețină exploatație/exploatații autorizată(e) sanitar-veterinar la data depunerii cererii de solicitare a ajutorului de stat;
+
+b) să fi desfășurat activitate de reproducție și/sau creștere și/sau îngrășare a suinelor în perioada 31 august 2023 - 31 august 2026 în exploatații autorizate sanitar-veterinar conform legislației în vigoare;
+
+c) să fie înregistrați în registrul unic de identificare, denumit în continuare RUI, și să dețină cod unic de înregistrare atribuit de către Agenția de Plăți și Intervenție pentru Agricultură, denumită în continuare APIA;
+
+d) să nu se afle în lichidare sau faliment la data depunerii cererii de solicitare a ajutorului de stat, conform evidențelor Oficiului Național al Registrului Comerțului.
+
+(2) Ajutorul de stat prevăzut la art. 1 alin. (1) se acordă beneficiarilor prevăzuți la art. 2 lit. b), crescători din sectorul suin, care au desfășurat activitate de reproducție și/sau creștere și/sau îngrășare a suinelor, în exploatații autorizate sanitar-veterinar, pentru costurile implementării măsurilor de biosecuritate pentru prevenirea și controlul pestei porcine africane, respectiv costurile cu dezinfectanții, echipamentele de protecție, sterilizarea furajului, sterilizarea materialelor higroscopice, privind întărirea măsurilor de biosecuritate, efectuate în perioada 31 august 2023 - 31 august 2026, justificate prin acte contabile. Valoarea maximă a costurilor care se stabilește pe cap de animal pentru porc gras și/sau, animale de reproducție respectiv, scroafe și scofițe, se calculează de către Institutul de Cercetare pentru Economia Agriculturii și Dezvoltare Rurală și se stabilește prin normele metodologice de aplicare a prezentei legi. În cazul furajelor, costurile pentru biosecuritate sunt reprezentate de costurile pentru sterilizarea acestora prin peletizare, expandare sau extrudare.
+
+(3) În cazul în care beneficiarul schemei de ajutor de stat nu este proprietarul animalelor, cu acordul acestuia sunt eligibile la plată și costurile prevăzute la alin. (2), efectuate de către proprietarul animalelor, aferente activității de reproducție și/sau creștere și/sau îngrășare a porcinelor desfășurată în cadrul exploatației/exploatațiilor beneficiarului.
+
+(4) Efectivele eligibile sunt reprezentate:
+
+a) în cazul porcilor la îngrășat, de efectivele livrate în perioada 31 august 2023 - 31 august 2026;
+
+b) în cazul animalelor de reproducție, de suma efectivelor medii anuale din perioadele 31 august 2023 - 31 august 2024, 1 septembrie 2024 - 31 august 2025, 1 septembrie 2025 - 31 august 2026. Modul de calcul al efectivului mediu se stabilește prin normele metodologice de aplicare a prezentei legi.
+
+(5) Cuantumul ajutorului de stat este de până la 100% din costurile eligibile, în limita valorii maxime prevăzute la alin. (2) și se acordă pe cap de animal pentru porc gras și/sau, animale de reproducție, respectiv scroafe și scrofițe.
+
+(6) Valoarea totală ce poate fi acordată pentru întreprinderea care își desfășoară activitatea în domeniul producției primare de produse agricole nu depășește echivalentul în lei a 3.000 mii euro.
+
+(7) Valoarea totală maximă a schemei de ajutor de stat pentru crescătorii din sectorul suin care au desfășurat activitate de reproducție și/sau creștere și/sau îngrășare a suinelor, în exploatații autorizate sanitar-veterinar, este de 304.620 mii lei, echivalentul sumei de 60.000 mii euro, și se asigură de la bugetul de stat, în limita prevederilor bugetare aprobate Ministerului Agriculturii și Dezvoltării Rurale pe anul 2026, în cadrul capitolului 83.01 „Agricultură, silvicultură, piscicultură și vânătoare”, titlul 40 „Subvenții”, articolul 40.15 „Sprijinirea producătorilor agricoli”.
+
+(8) Cursul de schimb valutar euro/lei pentru calcularea valorii totale maxime/cuantumului este cel comunicat de Banca Națională a României la data de 1 august 2025, respectiv de 5,0770 lei/euro.
+
+(9) În situația în care sumele depășesc prevederile bugetare aprobate cu această destinație, respectiv plafonul prevăzut la alin. (7), valoarea ajutorului de stat se reduce proporțional pentru toți beneficiarii.
+
+Art. 5. - (1) Beneficiarii, crescători din sectorul suin care au desfășurat activitate de reproducție și/sau creștere și/sau îngrășare a suinelor, în exploatații autorizate sanitar-veterinar, care îndeplinesc criteriile de eligibilitate prevăzute la art. 4 alin. (1), depun sau transmit la centrele județene APIA, pe raza cărora au sediul social, o cerere de solicitare a ajutorului de stat, potrivit modelului prevăzut în anexa nr. 1 însoțită, după caz, de:
+
+a) copia certificatului de înregistrare la Oficiul Național al Registrului Comerțului a beneficiarului, împuternicire și o copie a B.I./C.I. al/a reprezentantului legal/împuternicitului;
+
+b) copii ale documentelor contabile înregistrate în perioada 31 august 2023 – 31 august 2026, care dovedesc achiziția de materii și materiale necesare aplicării măsurilor de biosecuritate, respectiv dezinfectanții, echipamentele de protecție, cantitățile de furaj sterilizat utilizate;
+
+c) documentul privind coordonatele bancare/trezorerie;
+
+d) copia autorizației sanitar-veterinare aferente exploatației pentru care solicită ajutor de stat;
+
+e) copii ale documentelor care atestă proprietatea asupra animalelor sau, în cazul în care beneficiarul schemei de ajutor de stat nu este proprietarul animalelor, acordul proprietarului animalelor în vederea solicitării ajutorului de stat, împreună cu documentele care dovedesc proprietatea animalelor;
+
+f) facturile electronice emise potrivit prevederilor Ordonanței de urgență a Guvernului nr. 120/2021 privind administrarea, funcționarea și implementarea sistemului național privind factura electronică RO e-Factura și factura electronică în România, precum și pentru completarea Ordonanței Guvernului nr. 78/2000 privind omologarea, eliberarea cărții de identitate a vehiculului și certificarea autenticității vehiculelor rutiere în vederea introducerii pe piață, punerii la dispoziție pe piață, înmatriculării sau înregistrării în România, precum și supravegherea pieței pentru acestea, aprobată cu modificări și completări prin Legea nr. 139/2022, cu modificările și completările ulterioare, și extrase din spațiul privat virtual, potrivit prevederilor Ordinului președintelui Agenției Naționale de Administrare Fiscală nr. 1.090/2022 privind aprobarea Procedurii de comunicare prin mijloace electronice de transmitere la distanță între organul fiscal central și persoanele fizice, persoanele juridice și alte entități fără personalitate juridică, pentru livrările de porc gras din perioada 31 august 2023 - 31 august 2026;
+
+g) pentru animalele de reproducție, extras din Sistemul Național de Identificare și Înregistrare a Animalelor, denumit în continuare SNIIA, mișcarea animalelor de reproducție și calculul efectivului mediu pentru perioadele 31 august 2023 - 31 august 2024, 1 septembrie 2024 - 31 august 2025, 1 septembrie 2025 - 31 august 2026.
+
+(2) Cererile de solicitare a ajutorului de stat și documentele justificative prevăzute la alin. (1) pot fi transmise la centrele județene ale
+
+APIA și prin fax, poștă sau în format scanat prin e-mail, cu condiția asumării prin semnătură olografă sau electronică de către reprezentantul legal al beneficiarului pe fiecare pagină a documentului transmis.
+
+(3) În situația în care beneficiarii dețin mai multe exploatații de suine situate pe raza mai multor unități administrativ-teritoriale din județe diferite, aceștia depun o singură cerere la centrul județean al APIA pe raza căruia își au sediul social sau pe raza teritorială a județului unde este exploatația cu capacitatea de producție cea mai mare.
+
+Art. 6. - (1) Termenul de depunere a cererilor de solicitare a ajutorului de stat și a documentelor justificative, precum și data până la care se efectuează plata ajutorului de stat se stabilesc prin normele metodologice.
+
+(2) Documentele depuse sau transmise în copie de către beneficiar poartă sintagma „conform cu originalul”, se datează și se însușesc prin semnătură de către beneficiar.
+
+Art. 7. - (1) După expirarea termenului de depunere a cererilor de solicitare a ajutorului de stat, centrele județene ale APIA verifică, aprobă sumele și transmit la APIA situațiile centralizatoare cu beneficiarii și sumele aprobate, potrivit modelului prevăzut în anexa nr. 2.
+
+(2) APIA întocmește și transmite Ministerului Agriculturii și Dezvoltării Rurale centralizatoarele cu beneficiarii și sumele aprobate, potrivit modelului prevăzut în anexa nr. 3.
+
+Art. 8. - În baza centralizatoarelor cu beneficiarii și sumele aprobate, transmise de APIA, Ministerul Agriculturii și Dezvoltării Rurale transmite Ministerului Finanțelor cererea de deschidere a creditelor bugetare, însoțită de situația centralizatoare a ajutorului de stat, potrivit modelului prevăzut în anexa nr. 4.
+
+Art. 9. - (1) După aprobarea de către Ministerul Finanțelor a deschiderii creditelor bugetare, Ministerul Agriculturii și Dezvoltării Rurale deschide și repartizează credite bugetare la APIA, care la rândul său repartizează credite bugetare centrelor județene APIA, cu sumele aprobate.
+
+(2) Centrele județene APIA virează sumele aprobate în conturile beneficiarilor.
+
+Art. 10. - (1) Documentele depuse în vederea solicitării ajutorului de stat acordat potrivit prezentei legi se păstrează la centrele județene ale APIA, pentru o perioadă de 10 ani fiscali de la data la care a fost acordat ajutorul.
+
+(2) Documentele care atestă ajutorul cuvenit se păstrează de către beneficiarii ajutorului de stat pentru o perioadă de 10 ani fiscali de la data încasării sumei cuvenite.
+
+(3) Textul prezentei scheme și informațiile aferente fiecărui beneficiar al cărui sprijin financiar depășește valoarea de 10.000 euro se publică pe pagina de internet a APIA la adresa www.apia.org.ro.
+
+Art. 11. - Beneficiarii au obligația să comunice orice modificare privind datele din cerere la centrul județean al APIA la care a depus cererea de solicitare, în termen de 5 zile lucrătoare de la respectiva modificare, dar nu mai târziu de data aprobării plății.
+
+Art. 12. - (1) În cazul nerespectării de către beneficiari a criteriilor de eligibilitate prevăzute la art. 4 alin. (1), aceștia sunt obligați la restituirea contravalorii ajutorului de stat, la care se adaugă dobânzi și penalități de întârziere calculate de la data încasării acestuia până la data recuperării integrale, potrivit prevederilor Legii nr. 500/2002 privind finanțele publice, cu modificările și completările ulterioare, și ale Legii nr. 207/2015 privind Codul de procedură fiscală, cu modificările și completările ulterioare.
+
+(2) Sumele reprezentând ajutor de stat necuvenit, potrivit prevederilor alin. (1), reprezintă creanțe bugetare, pentru recuperarea acestora aplicându-se în mod corespunzător dispozițiile Legii nr. 207/2015, cu modificările și completările ulterioare, și ale Legii nr. 500/2002, cu modificările și completările ulterioare. Procesele-verbale de constatare a neregulilor și de stabilire a creanțelor bugetare întocmite de către centrele județene ale APIA, prin care se individualizează sumele de recuperat exprimate în moneda națională, constituie titluri de creanță și cuprind elementele actului administrativ-fiscal prevăzut de Legea nr. 207/2015, cu modificările și completările ulterioare.
+
+(3) Titlul de creanță întocmit de către centrele județene ale APIA constituie titlu executoriu la data împlinirii termenului de plată prevăzut în cuprinsul acestuia, stabilit în conformitate cu prevederile Legii nr. 207/2015, cu modificările și completările ulterioare.
+
+(4) Înainte de a se adresa instanței de contencios administrativ competente, persoana care se consideră vătămată într-un drept al său sau într-un interes legitim printr-un act administrativ individual care i se adresează trebuie să solicitate autorității publice emitente, în termen de 30 de zile de la data comunicării actului, revocarea, în tot sau în parte, în condițiile și termenele prevăzute de Legea contenciosului administrativ nr. 554/2004, cu modificările și completările ulterioare.
+
+(5) Creanțele bugetare principale și accesorii se sting prin plată voluntară, compensare din drepturile la plată viitoare stabilite de către APIA reprezentând ajutor de stat finanțat de la bugetul de stat sau prin modalitățile prevăzute de Legea nr. 207/2015, cu modificările și completările ulterioare, de către organele fiscale competente subordonate Agenției Naționale de Administrare Fiscală.
+
+(6) Titlurile executorii, împreună cu dovada comunicării acestora către debitor se transmit în maximum 90 de zile de la data expirării termenului de plată către organele fiscale competente subordonate Agenției Naționale de Administrare Fiscală, în vederea recuperării creanțelor bugetare conform dispozițiilor Legii nr. 207/2015, cu modificările și completările ulterioare.
+
+(7) Cuantumul creanțelor bugetare accesorii, reprezentate de dobânzi și penalități de întârziere, se calculează de către centrele județene ale APIA, care au emis procesul-verbal de constatare a neregulilor și de stabilire a creanțelor bugetare.
+
+(8) Creanțele bugetare accesorii, reprezentate de dobânzi și penalități de întârziere, se individualizează prin procese-verbale de constatare a accesorilor, care reprezintă titluri de creanță, prevederile alin. (2)-(5) aplicându-se în mod corespunzător.
+
+(9) În procedura insolvenței, înscrierea creanței bugetare la masa credală a debitorului se efectuează de către centrele județene ale APIA.
+
+(10) Creanțele bugetare principale și accesorii se recuperează în conturile indicate în titlurile de creanță.
+
+(11) Sumele recuperate de către organele fiscale competente subordonate Agenției Naționale de Administrare Fiscală se virează de către organul fiscal, în conformitate cu prevederile art. 257 alin. (6) din Legea nr. 207/2015, cu modificările și completările ulterioare, în conturile indicate în titlul executoriu întocmit de către centrele județene ale APIA.
+
+Art. 13. - (1) Începând cu data primirii deciziei Comisiei Europene privind acordarea ajutorului de stat se stabilește eligibilitatea beneficiarului și se constituie obligația de plată a acestui ajutor de stat.
+
+(2) În situația în care decizia Comisiei Europene de acordare a ajutorului de stat conține prevederi noi sau diferite față de Schema notificată, prevederile Schemei se completează și/sau se modifică în mod corespunzător.
+
+Art. 14. - În termen de 45 de zile de la data intrării în vigoare a prezentei legi, Ministerul Agriculturii și Dezvoltării Rurale elaborază normele metodologice de aplicare a acesteia, care se aprobă prin ordin al ministrului agriculturii și dezvoltării rurale și se publică în Monitorul Oficial al României, Partea I.
+
+Art. 15. - Anexele nr. 1-4 fac parte integrantă din prezenta lege.
+
+Acest proiect de lege a fost adoptat de Camera Deputaților în ședința din 14 octombrie 2026, cu respectarea prevederilor art. 76 alin. (2) din Constituția României, republicată.
+
+p. PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+NATALIA-ELENA INTOTERO
+
+| Centrul Județean APIA............ |
+| --- |
+| Nr. și dată cerere |
+| Numele, prenumele și semnătura funcționarului APIA care primește cererea1 |
+| Nr. unic de identificare solicitant ID (RUI) RO............ |
+
+CERERE DE SOLICITARE A AJUTORULUI DE STAT pentru susținerea activității de reproducție și/sau creștere și/sau îngrășare a suinelor în exploatații autorizate sanitar-veterinar
+
+## I. Date de identificare solicitant
+
+PJ/PFA/ÎI/ÎF/AF
+
+Societăți agricole constituite în baza Legii nr. 36/1991 privind societățile agricole și alte forme de asociere în agricultură, cu modificările și completările ulterioare:
+
+<table>
+<tbody>
+<tr><td colspan="13">01.Denumire PJ/PFA/ÎI/ÎF/AF/SOCIETATE AGRICOLĂ</td></tr>
+<tr><td colspan="3">02.Cod unic identificare (CUI)/Cod fiscal (CF)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>03.Nume administrator/reprezentant</td><td colspan="12">04.Prenume administrator/reprezentant</td></tr>
+<tr><td>05.CNP administrator/reprezentant</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>06.Cod țară și nr. act identitate (pentru altă cetățenie)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>07.Tip de organizare</td><td></td><td></td><td colspan="4">08.Cod CAEN</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+SEDIUL SOCIAL PJ/PFA/ÎI/ÎF/AF/SOCIETATE AGRICOLĂ:
+
+<table>
+<tbody>
+<tr><td colspan="3">09.Județ/Sector</td><td colspan="3">10.Localitate</td></tr>
+<tr><td>11.Sat/Strada</td><td>12.Nr.</td><td>13.Cod poștal</td><td>14.Bl.</td><td>15.Sc.</td><td>16.Ap.</td></tr>
+<tr><td>17.Telefon mobil</td><td colspan="3">18. Telefon/Fax</td><td colspan="2">19.E-mail</td></tr>
+</tbody>
+</table>
+
+## COORDONATE BANCARE:
+
+<table>
+<tbody>
+<tr><td colspan="4">20. Banca/Trezoreria</td><td colspan="8">21.Sucursala sau agenția băncii/trezoreriei</td></tr>
+<tr><td>22. Nr.cont IBAN</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+¹ Se va bifa căsuța corespunzătoare metodei de depunere. Funcționarul care primește cererea de solicitare a ajutorului de stat va semna numai în cazul depunerii „personal”.
+
+## ÎMPUTERNICIT (pentru cazurile în care este semnată prin împuternicit)
+
+<table>
+<tbody>
+<tr><td colspan="6">23. Nume</td><td colspan="5">24.Prenume</td></tr>
+<tr><td>25.CNP</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="11">26.Nr și data împuternicirii/procurii notariale</td></tr>
+</tbody>
+</table>
+
+## DATE GENERALE
+
+<table>
+<tbody>
+<tr><td>27. Nr. Exploatații cu cod ANSVSA autorizatesanitar-veterinar deținute</td><td></td></tr>
+</tbody>
+</table>
+
+## II. Exploatații cu cod ANSVSA autorizate sanitar-veterinar deținute
+
+1\.
+
+<table>
+<tbody>
+<tr><td>28.Cod ANSVSA</td><td>RO</td><td colspan="5"></td></tr>
+<tr><td>29.Tip activitate</td><td colspan="2">Reproducție☐</td><td>Creștere și îngrășare☐</td><td colspan="3">Creștere și reproducție☐</td></tr>
+<tr><td>30. Categorie suine</td><td colspan="3">Porci la îngrășat☐</td><td colspan="3">Animale de reproducție femele (scrofițe montate și scroafe) ☐</td></tr>
+<tr><td colspan="7">31.Nr.autorizație sanitar-veterinară</td></tr>
+<tr><td colspan="4">32.Data eliberării</td><td colspan="3"></td></tr>
+<tr><td colspan="4">33. Județ</td><td colspan="3">34. Localitate</td></tr>
+<tr><td colspan="4">35. Strada, nr.</td><td colspan="3"></td></tr>
+<tr><td colspan="3">36.Numărul de animale, porc gras, livrate în perioada 31 august 2023 - 31 august 2026;</td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="3">37.Efectiv mediu animale de reproducție (scroafe și scrofițe), în perioada 31 august 2023 - 31 august 2024;</td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="3">38.Efectiv mediu animale de reproducție (scroafe și scrofițe), în perioada 1</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>septembrie 2024 - 31 august 2025;</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>39.Efectiv mediu animale de reproducție (scroafe și scrofițe), în perioada 1 septembrie 2025 - 31 august 2026.</td><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+Câmpurile „□” se completează prin bifare
+
+2\.
+
+<table>
+<tbody>
+<tr><td>28.Cod ANSVSA</td><td>RO</td><td colspan="5"></td></tr>
+<tr><td>29.Tip activitate</td><td colspan="2">Reproducție☐</td><td>Creștere și îngrășare☐</td><td colspan="3">Creștere și reproducție☐</td></tr>
+<tr><td>30. Categorie suine</td><td colspan="3">Porci la îngrășat☐</td><td colspan="3">Animale de reproducție femele (scrofițe montate și scroafe) ☐</td></tr>
+<tr><td colspan="7">31.Nr.autorizație sanitar-veterinară</td></tr>
+<tr><td colspan="4">32.Data eliberării</td><td colspan="3"></td></tr>
+<tr><td colspan="4">33. Județ</td><td colspan="3">34. Localitate</td></tr>
+<tr><td colspan="4">35. Strada, nr.</td><td colspan="3"></td></tr>
+<tr><td colspan="3">36.Numărul de animale, porc gras, livrate în perioada 31 august 2023 - 31 august 2026;</td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="3">37.Efectiv mediu animale de reproducție (scroafe și scrofițe), în perioada 31 august 2023 - 31 august 2024;</td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="3">38.Efectiv mediu animale de reproducție (scroafe și scrofițe), în perioada 1 septembrie 2024 - 31 august 2025;</td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="3">39.Efectiv mediu animale de reproducție (scroafe și scrofițe), în perioada 1 septembrie 2025 - 31 august 2026.</td><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+Solicit ajutor de stat în vederea compensării costurilor măsurilor de biosecuritate pentru un număr de ...... capete porc gras și un număr de ..... animale de reproducție (scroafe și scrofițe), și în valoare totală de .......... lei, după cum urmează:
+
+## CENTRALIZATOR EFFECTIVE ELIGIBILE ȘI SUME SOLICITATE
+
+<table>
+<tbody>
+<tr><td rowspan="2">Nr.crt.</td><td rowspan="2">Exploatațiacu codANSVSA</td><td colspan="4">Porci la îngrășat</td><td colspan="4">Animale de reproducție(scrofițe montate și scroafe)</td><td colspan="2">Valoare totalăajutor de stat</td></tr>
+<tr><td colspan="2"></td><td colspan="2">Ajutor de stat</td><td colspan="2"></td><td colspan="2">Ajutor de stat</td><td colspan="2"></td></tr>
+<tr><td></td><td></td><td>Nr.capetelivrate</td><td>CuantumEuro/cap</td><td>Euro</td><td>Lei</td><td>Efectivmediutotal</td><td>CuantumEuro/cap</td><td>Euro</td><td>Lei</td><td>Euro</td><td>lei</td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+Cursul utilizat este cel stabilit la rata de schimb de 5,0770 lei pentru 1 euro comunicat de Banca Națională a României la data de 1 august 2025.
+
+## III. Declarații
+
+Subsemnatul, ...., legitimat cu BI/CI nr. ....../seria ....eliberat de ....la data de ....și CNP ....titular/administrator/reprezentant legal al (denumirea persoanei juridice/persoanei fizice autorizate/întreprinderii individuale/întreprinderii familiale/asociației familiale/societății agricole ...., declar că:
+
+1\. Am fost informat asupra condițiilor de solicitare și acordare a ajutorului de stat și mă oblig:
+
+a) să respect condițiile de acordare prevăzute la art. 4 alin. (1) din Legea nr. ....../....privind instituirea unei scheme de ajutor de stat pentru susținerea activității crescătorilor din sectorul suin în contextul evoluției pestei porcine africane;
+
+b) să depun o singură cerere de solicitare a ajutorului de stat la centrul județean al Agenției de Plăți și Intervenție pentru Agricultură, pentru toate exploatațiile de creștere a suinelor cu coduri ANSVSA deținute, pe raza căruia am sediul social sau am domiciliul, după caz, indiferent de unitățile administrativ-teritoriale pe raza cărora sunt situate și înregistrate acestea;
+
+c) să aduc la cunoștință că:
+
+\- nu figurez în evidențele Oficiului Național al Registrului Comerțului, respectiv pe pagina de internet a acestuia ca fiind în una din următoarele situații: lichidare/faliment sau în cazul persoanei fizice nu a fost emisă o decizie definitivă a instanțelor judecătorești de constatare a falimentului;
+
+Pentru stabilirea eligibilității cererii de solicitare a ajutorului de stat Agenția de Plăți și Intervenție pentru Agricultură poate solicita beneficiarului documente justificative suplimentare în orice moment;
+
+Structurile abilitate au dreptul de a verifica informațiile din dosarul cererii de plată, precum și documentele aflate în legătură cu aceasta.
+
+## 2. Drept care mă angajez să respect următoarele:
+
+a) să notific în scris Centrului județean al Agenției de Plăți și Intervenție pentru Agricultură, în termen de 5 zile lucrătoare (cu respectarea termenelor limită) orice modificări privitoare la informațiile declarate în cerere, anexând documentele justificative pentru aceste modificări;
+
+b) să prezint documente suplimentare solicitate de Agenția de Plăți și Intervenție pentru Agricultură, în legătură cu cererea de solicitare a ajutorului de stat, în termenele stabilite de aceasta;
+
+c) mă oblig să respect prevederile Legii nr. ....../......;
+
+d) sunt de acord ca datele din cerere și documentele anexate să fie introduse în baza de date a Agenției de Plăți și Intervenție pentru Agricultură, procesate și verificate în vederea calculării plății transmise autorităților responsabile în vederea elaborării de studii statistice și de evaluări economice și făcute publice cu respectarea prevederilor Legii nr. 102/2005 privind înființarea, organizarea și funcționarea Autorității Naționale de Supraveghere a Prelucrării Datelor cu Caracter Personal, republicată;
+
+e) cunoscând că falsul în declarații se pedepsește conform Legii nr. 286/2009 privind Codul penal, cu modificările și completările ulterioare, datele înscrise în Formularul de cerere de plată și în documentele anexate sunt reale, corecte, complete și perfect valabile.
+
+<table>
+<tbody>
+<tr><td>Semnăturatitularului/administratorului/reprezentantuluilegal/împuternicitului (dacă este cazul)</td><td></td><td>Data:....../......</td></tr>
+</tbody>
+</table>
+
+IV. Lista documentelor atașate cererii de solicitare a ajutorului de stat
+
+| Nr.crt. | Documente atașate cererii de ajutor | Da | Nu | Nu e cazul | Control vizual Funcționar APIA |
+| --- | --- | --- | --- | --- | --- |
+| 1. | Copia certificatului de înregistrare la Oficiul Național al Registrului Comerțului a beneficiarului; | ☐ | ☐ | ☐ | ☐ |
+| 2. | Copii ale documentelor contabile înregistrate în perioada 31 august 2023 – 31 august 2026, care dovedesc achiziția de materii și materiale necesare aplicării măsurilor de biosecuritate, respectiv dezinfectanții, echipamentele de protecție, cantitățile de furaj sterilizat utilizate; | ☐ | ☐ | ☐ | ☐ |
+| 3. | Copie bulletin/carte de identitate a titularului/administratorului /reprezentantului legal/împuternicitului/împuternicire, după caz; | ☐ | ☐ | ☐ | ☐ |
+| 4. | Copie/copii autorizație/ii sanitar-veterinară/e (pentru fiecare exploatație cu cod ANSVSA), după caz; | ☐ | ☐ | ☐ | ☐ |
+| 5. | Copii ale documentelor care atestă proprietatea asupra animalelor, sau în cazul în care beneficiarul schemei de ajutor de stat, nu este proprietarul animalelor, acordul proprietarului animalelor în vederea solicitării ajutorului de stat, împreună cu documentele care dovedesc proprietatea animalelor; | ☐ | ☐ | ☐ | ☐ |
+| 6. | Document coordonate bancare/trezorerie; | ☐ | ☐ | ☐ | ☐ |
+| 7. | Facturile electronice emise potrivit prevederilor din Ordonanța de urgență a Guvernului nr. 120/2021, aprobată cu modificări și completări prin Legea nr. 139/2022, cu modificările și completările ulterioare, și extrase din spațiul privat virtual, potrivit prevederilor Ordinului președintelui Agenției Naționale de Administrare Fiscală nr. 1.090/2022 privind aprobarea Procedurii de comunicare prin mijloace electronice de transmitere la distanță între organul fiscal central și persoanele fizice, persoanele juridice și alte entități fără personalitate juridică, pentru livrările de porc gras din perioada 31 august 2023 – 31 august 2026; | ☐ | ☐ | ☐ | ☐ |
+| 8. | Pentru animalele de reproducție, extras din SNIIA, mișcarea animalelor de reproducție și calculul efectivului mediu pentru perioadele 31 august 2023 - 31 august 2024, 1 septembrie 2024 - 31 august 2025, 1 septembrie 2025 - 31 august 2026. | ☐ | ☐ | ☐ | ☐ |
+
+Semnătură beneficiar .... Data ....
+
+Data ....
+
+Anexa nr. 2
+
+APIA Centrul Județean...............oociiii ciclic iii Operator date cu caracter personal: 9596 Bun de plată ETOREETETEUTTEETA euro ESTUUTETUUIUUUUEEUIUIEETUN lei
+
+Situația centralizatoare cu beneficiarii și sumele aprobate în cadrul schemei de ajutor de stat pentru susținerea activității de reproducție și/sau creștere și/sau îngrășare a suinelor în exploatații autorizate sanitar-veterinar
+
+Nr. Denumire Nr. și ID CUI Cod Categoria Număr Cuantum Efectiv Cuantum Valoare Valoare Valoare ajutor de Valoare dată exploatație capete livrate euro/cap mediu euro/cap | ajutor de stat maximă stat ajutor de crt. beneficiar cerere Fermier porc gras cumulat calculat euro per stat beneficiar -euro--euro- -lei-0 i 2 3 4 5 6 7 8 9 10 11=7\*8+9\*10 12 13=11 (sau 12)\* 14=13%...... Porc gras x x x Animale de x x x reproducție (scrofițe montate și scroafe)
+
+Total beneficiar x x 3.000 mii euro Porc gras x x x Animale de reproducție x X x
+
+(scrofițe montate și scroafe)
+
+Total general x x x
+
+Certificat din punctul de vedere al realității, regularității și legalității datelor (numele, prenumele și semnătura) Verificat Întocmit
+
+APIA
+
+Operator date cu caracter personal: 9596
+
+Anexa nr. 3
+
+Centralizatorul cu beneficiarii și sumele aprobate în cadrul schemei de ajutor de stat pentru susținerea activității de reproducție și/sau creștere și/sau îngrășare a suinelor în exploatații autorizate sanitar-veterinar
+
+Nr. Județul Nr. de Număr Efectiv Ajutor de Ajutor de ori beneficiari capete mediu total stat stat : livrate porc | animale de . , -lei- -curo-gras reproducție Total
+
+Certificat din punctul de vedere al reahtățu, regularității și legalității datelor (nume, prenume, semnătură)
+
+Director general,
+
+Situația centralizatoare a ajutoarelor de stat pentru susținerea activității de reproducție și/sau creștere și/sau îngrășare a suinelor în exploatații autorizate sanitar-veterinar
+
+Ministerul Agriculturii și Dezvoltării Rurale Se aprobă Ordonator principal de credite................
+
+| Nr.crt. | Județul | Suma solicitată (lei) |
+| --- | --- | --- |
+| 0 | 1 | 2 |
+| 1. |  |  |
+| 2. |  |  |
+| 3. |  |  |
+| ...... |  |  |
+| TOTAL\*): |  |  |
+
+\*) Se adună pe fiecare județ totalurile din anexa nr. 3 la Legea nr. ....../...... privind instituirea unei scheme de ajutor de stat pentru susținerea activității de reproducție și/sau creștere și/sau îngrășare a suinelor în exploatații autorizate sanitar-veterinar
+
+Direcția generală buget-finanțe și fonduri europene Director general, ................... (semnătura și ștampila)

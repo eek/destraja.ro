@@ -1,0 +1,23 @@
+# PROIECT DE LEGE pentru completarea Legii nr. 95/2006 privind reforma în domeniul sănătății
+
+Parlamentul României adoptă prezenta lege.
+
+## Articol unic
+
+La articolul 230 din Legea nr. 95/2006 privind reforma în domeniul sănătății, republicată în Monitorul Oficial al României, Partea I, nr. 372 din 28 aprilie 2006, cu modificările și completările ulterioare, se completează după cum urmează:
+
+1.La alineatul (2), după litera p) se introduce o nouă literă, lit. q), cu următorul cuprins:
+
+„q) să beneficieze de informare transparentă privind programarea la serviciile medicale, inclusiv asupra termenului estimat de așteptare, precum și de confirmarea programării.”
+
+2\. După alineatul (2⁶) se introduc două aliniate noi, alin. (2⁷) și alin. (2⁸), cu următorul cuprins:
+
+(27) Furnizorii de servicii medicale publici și privați aflați în relație contractuală cu casele de asigurări de sănătate au obligația de a asigura evidența programărilor pentru consultații și investigații medicale, printr-un registru de programări, în format electronic sau fizic, care să cuprindă cel puțin data solicitării programării și data programării effective.
+
+(2⁸) Acordarea prioritară a programărilor se poate realiza exclusiv pe baza criteriilor medicale obiective sau în cazurile de urgență stabilite potrivit legii."
+
+Prezenta lege intră în vigoare la 30 de zile de la data publicării în Monitorul Oficial al României, Partea I.
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+PREȘEDINTELE SENATULUI

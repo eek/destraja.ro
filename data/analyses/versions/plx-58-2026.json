@@ -1,0 +1,335 @@
+{
+  "slug": "plx-58-2026",
+  "billId": "PL-x 58/2026",
+  "updatedAt": "2026-10-29T14:01:10.182Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/000/50/8/pl47.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Scut împotriva proceselor intentate ca să-i reducă la tăcere pe jurnaliști, activiști și cetățeni",
+      "summaryTlDr": "Lege bună și necesară. Transpune Directiva anti-SLAPP și o extinde, corect, și la procesele pur românești, așa că cine e dat în judecată pentru că a vorbit public primește unelte reale de apărare. Punctele slabe sunt tehnice: cauțiunea se poate cere fără criterii, iar amenda are praguri fixe, aceleași pentru un om obișnuit și pentru o corporație.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl058_cd058_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Scut legal pentru jurnaliști, activiști și cetățeni împotriva proceselor de intimidare (SLAPP)",
+      "summaryTlDr": "Lege utilă și în mare parte fidelă Directivei anti-SLAPP, extinsă corect și la procesele pur interne, unde apar aproape toate cazurile din România. Are câteva probleme de execuție: pârâtul nu poate ataca refuzul respingerii rapide, iar amenda de până la 100.000 lei nu are criterii de calcul. Nu conține însă capcane ascunse.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L276FS.PDF",
+      "source": "senat.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Scut legal pentru jurnaliști, ONG-uri și activiști împotriva proceselor de intimidare (anti-SLAPP)",
+      "summaryTlDr": "Lege bună și necesară: transpune corect directiva anti-SLAPP și o extinde și la procesele pur românești. Punctul slab este cauțiunea din art.7, pe care instanța o poate impune fără niciun criteriu, așa că poate bloca și procese legitime.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a adoptat tacit proiectul în forma inițiatorului; textul nu s-a schimbat pe fond",
+      "summary": "Camera Deputaților nu a modificat proiectul: l-a adoptat tacit, în forma inițiatorului. Diferențele sunt doar de redactare (două definiții despărțite corect, diacritice, greșeli de tipar), deci protecțiile și riscurile au rămas aceleași.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Cauțiunea cerută reclamantului nu are criterii de calcul și nici plafon",
+            "major": true,
+            "article": "art. 7 alin. (1)"
+          },
+          {
+            "text": "Amendă fixă 10.000–100.000 lei: grea pentru particulari, mică pentru corporații, merge la stat",
+            "major": true,
+            "article": "art. 12"
+          },
+          {
+            "text": "Nu protejează în procesul penal, nici la acțiunea civilă din procesul penal",
+            "major": true,
+            "article": "art. 1 alin. (3)"
+          },
+          {
+            "text": "Respingerea cererii de respingere rapidă e definitivă; pârâtul nu are cale de atac",
+            "major": false,
+            "article": "art. 9 alin. (5)"
+          },
+          {
+            "text": "Despăgubirile pot fi cerute doar până la începerea dezbaterilor pe fond",
+            "major": false,
+            "article": "art. 11 alin. (1)"
+          },
+          {
+            "text": "Nu spune explicit că despăgubirea cere constatarea caracterului abuziv al procedurii",
+            "major": false,
+            "article": "art. 11"
+          },
+          {
+            "text": "Încheierea privind cauțiunea se atacă doar în 5 zile; „termen scurt” de citare nedefinit",
+            "major": false,
+            "article": "art. 7 alin. (2)"
+          },
+          {
+            "text": "CSM raportează datele către Comisia Europeană doar „dacă sunt disponibile”",
+            "major": false,
+            "article": "art. 19 alin. (1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Se aplică și proceselor pur interne, nu doar celor transfrontaliere",
+            "major": true,
+            "article": "art. 1 alin. (4)–(5)"
+          },
+          {
+            "text": "La respingerea rapidă, reclamantul trebuie să dovedească că cererea nu e vădit neîntemeiată",
+            "major": true,
+            "article": "art. 9 alin. (2)"
+          },
+          {
+            "text": "Pârâtul poate cere reclamantului cauțiune pentru cheltuieli și despăgubiri",
+            "major": true,
+            "article": "art. 7"
+          },
+          {
+            "text": "Cererea de despăgubiri a pârâtului e scutită de taxa de timbru",
+            "major": true,
+            "article": "art. 11 alin. (2)"
+          },
+          {
+            "text": "Reclamantul abuziv plătește, la cerere, cheltuielile de judecată ale pârâtului",
+            "major": true,
+            "article": "art. 13"
+          },
+          {
+            "text": "Instanța poate obliga reclamantul abuziv să publice hotărârea pe cheltuiala sa",
+            "major": true,
+            "article": "art. 10 alin. (1)"
+          },
+          {
+            "text": "Hotărârile abuzive din țări terțe contra celor din UE nu vor fi recunoscute",
+            "major": true,
+            "article": "art. 14"
+          },
+          {
+            "text": "Despăgubiri în România pentru procese abuzive intentate în țări terțe",
+            "major": true,
+            "article": "art. 15"
+          },
+          {
+            "text": "Definiție largă: presă, artă, știință, întruniri, asociere și activitățile de sprijin",
+            "major": true,
+            "article": "art. 2 pct. 1–2"
+          },
+          {
+            "text": "Organizațiile și sindicatele pot sprijini pârâtul sau depune înscrisuri",
+            "major": false,
+            "article": "art. 6"
+          },
+          {
+            "text": "Cauțiunea și respingerea rapidă se judecă de urgență",
+            "major": false,
+            "article": "art. 4, art. 9 alin. (3)"
+          },
+          {
+            "text": "Renunțarea la judecată nu îl scapă pe reclamant de cererea de despăgubiri",
+            "major": false,
+            "article": "art. 5"
+          },
+          {
+            "text": "Indicii concrete de abuz: valoare excesivă, procese multiple, intimidare, tergiversare",
+            "major": false,
+            "article": "art. 2 pct. 3"
+          },
+          {
+            "text": "Hotărârile se publică pe portal.just.ro și rejust.ro",
+            "major": false,
+            "article": "art. 18"
+          },
+          {
+            "text": "Avocatul Poporului informează victimele și publică anual un raport special",
+            "major": false,
+            "article": "art. 16"
+          },
+          {
+            "text": "Ajutorul public judiciar se acordă și în aceste procese",
+            "major": false,
+            "article": "art. 17"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 10,
+        "removed": 7,
+        "same": 0.85
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:59:52.413Z"
+    },
+    {
+      "from": "camera",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a păstrat textul Camerei; s-au corectat doar greșeli de scriere și formatarea",
+      "summary": "Forma adoptată de Senat are același conținut ca forma adoptată de Cameră: aceeași cauțiune, aceeași respingere rapidă, aceeași amendă de 10.000–100.000 lei. Diferențele sunt corecturi de scriere, numerotare și titlul complet al unui regulament UE, deci riscurile rămân aceleași.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Cauțiunea poate fi cerută fără indicii de abuz, fără plafon sau criterii de calcul",
+            "major": true,
+            "article": "art. 7 alin. (1)"
+          },
+          {
+            "text": "Amendă de 10.000–100.000 lei, cu același minim pentru persoane și corporații",
+            "major": true,
+            "article": "art. 12"
+          },
+          {
+            "text": "Nu spune explicit că despăgubirea cere constatarea caracterului abuziv al procedurii",
+            "major": true,
+            "article": "art. 11 alin. (1)"
+          },
+          {
+            "text": "Despăgubirile pot fi cerute doar până la începerea dezbaterilor asupra fondului",
+            "major": false,
+            "article": "art. 11 alin. (1)"
+          },
+          {
+            "text": "Pârâtul nu poate ataca respingerea cererii sale de respingere rapidă",
+            "major": false,
+            "article": "art. 9 alin. (5)"
+          },
+          {
+            "text": "Citarea pentru cauțiune se face «în termen scurt», fără un număr de zile",
+            "major": false,
+            "article": "art. 7 alin. (2)"
+          },
+          {
+            "text": "Greșeli de scriere rămase: «territoriul», «expresile», «pârăți»",
+            "major": false,
+            "article": "art. 1 alin. (5), art. 2, art. 19 alin. (1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Protecția se aplică și proceselor din țară, nu doar celor transfrontaliere",
+            "major": true,
+            "article": "art. 1 alin. (4)"
+          },
+          {
+            "text": "Acoperă și cererile reconvenționale și măsurile provizorii sau asiguratorii",
+            "major": true,
+            "article": "art. 1 alin. (2)"
+          },
+          {
+            "text": "Definiții largi ale mobilizării publice și indicii concrete pentru procesele abuzive",
+            "major": true,
+            "article": "art. 2"
+          },
+          {
+            "text": "Pârâtul poate cere o cauțiune pentru cheltuieli și eventuale despăgubiri",
+            "major": true,
+            "article": "art. 7 alin. (1)"
+          },
+          {
+            "text": "Pârâtul poate cere respingerea rapidă, judecată de urgență, a procesului vădit neîntemeiat",
+            "major": true,
+            "article": "art. 8–9"
+          },
+          {
+            "text": "Reclamantul trebuie să dovedească că acțiunea lui nu e vădit neîntemeiată",
+            "major": true,
+            "article": "art. 9 alin. (2)"
+          },
+          {
+            "text": "Retragerea sau modificarea acțiunii nu scapă reclamantul de sancțiuni și despăgubiri",
+            "major": true,
+            "article": "art. 5"
+          },
+          {
+            "text": "Reclamantul abuziv poate fi obligat să publice hotărârea pe cheltuiala sa",
+            "major": true,
+            "article": "art. 10 alin. (1)"
+          },
+          {
+            "text": "Cererea de despăgubiri e scutită de taxa judiciară de timbru",
+            "major": true,
+            "article": "art. 11 alin. (2)"
+          },
+          {
+            "text": "Reclamantul abuziv e obligat, la cerere, la cheltuielile de judecată ale pârâtului",
+            "major": true,
+            "article": "art. 13"
+          },
+          {
+            "text": "Hotărârile abuzive din țări terțe nu sunt recunoscute și nici executate",
+            "major": true,
+            "article": "art. 14"
+          },
+          {
+            "text": "Despăgubiri în România pentru procese abuzive deschise în țări din afara UE",
+            "major": true,
+            "article": "art. 15"
+          },
+          {
+            "text": "Organizațiile pot sprijini apărarea pârâtului, cu acordul lui, și depune înscrisuri",
+            "major": false,
+            "article": "art. 6"
+          },
+          {
+            "text": "Avocatul Poporului oferă informații despre sprijin, garanții și remedii",
+            "major": false,
+            "article": "art. 16"
+          },
+          {
+            "text": "Ajutorul public judiciar rămâne disponibil, după regulile generale existente",
+            "major": false,
+            "article": "art. 17"
+          },
+          {
+            "text": "Hotărârile se publică, iar CSM raportează anual date despre aceste procese",
+            "major": false,
+            "article": "art. 18–19"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 34,
+        "removed": 34,
+        "same": 0.5
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T14:01:10.182Z"
+    }
+  ]
+}

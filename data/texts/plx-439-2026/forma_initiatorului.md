@@ -1,0 +1,41 @@
+# LEGE pentru modificarea Legii nr. 227/2015 privind Codul fiscal
+
+Parlamentul României adoptă prezenta lege:
+
+Articol unic. - Legea nr. 227/2015 privind Codul fiscal, publicată în Monitorul Oficial al României, Partea I nr. 668 din 10 septembrie 2015, cu modificările și completările ulterioare, se modifică după cum urmează:
+
+1\. La articolul 310, alineatul (6) se modifică și va avea următorul cuprins:
+
+(6) Persoana impozabilă care aplică regimul special de scutire și a cărei cifră de afaceri, prevăzută la alin. (2), depășește plafonul de scutire prevăzut la alin. (1) trebuie să solicite înregistrarea în scopuri de TVA, conform art. 316, în termen de cel mult 3 zile lucrătoare de la data depășirii plafonului. Regimul normal de taxare se aplică începând cu ziua următoare comunicării codului de înregistrare în scopuri de TVA. Persoana impozabilă poate aplica regimul normal de taxare și pentru operațiunile anterioare tranzacției care a condus la depășirea plafonului de scutire, realizate în data în care plafonul de scutire este depășit.
+
+## 2. La articolul 310, alineatul (6¹) litera a) se modifică și va avea următorul cuprins:
+
+a) înregistrează în scopuri de TVA, din oficiu, persoana impozabilă, stabilind ca dată a înregistrării data expirării termenului prevăzut la alin. (6), sau, în cazul în care aceasta este deja înregistrată, modifică data înregistrării în scopuri de TVA, astfel încât aceasta să fie data expirării termenului prevăzut la alin. (6).
+
+3\. La articolul 310, alineatul (6²) litera a) se modifică și va avea următorul cuprins:
+
+a) solicită înregistrarea în scopuri de TVA stabilind ca dată a înregistrării data expirării termenului prevăzut la alin. (6) sau, în cazul în care aceasta este deja înregistrată, solicită modificarea datei înregistrării în scopuri de TVA, astfel încât data înregistrării în scopuri de TVA să fie data expirării termenului prevăzut la alin. (6).
+
+4\. La articolul 316, alineatul (1) litera b) se modifică și va avea următorul cuprins:
+
+b) dacă în cursul unui an calendaristic depășește plafonul de scutire prevăzut la art. 310 alin. (1), în termen de cel mult 3 zile lucrătoare de la data depășirii plafonului.
+
+5\. La articolul 316, alineatul (1¹ ) litera b) și litera f) se modifică și vor avea următorul cuprins:
+
+b) data de la care se aplică regimul normal de taxare, respectiv ziua următoare comunicării codului de înregistrare în scopuri de TVA, în cazurile prevăzute la alin. (1) lit. b), precum și în cazurile prevăzute la art. 310 alin. (6) și alin. (6²) lit. a);
+
+f) data de la care se aplică regimul normal de taxare, respectiv ziua următoare comunicării codului de înregistrare în scopuri de TVA, în cazul înregistrării din oficiu de către organele fiscale competente, conform alin. (10), dacă persoana impozabilă nu a solicitat înregistrarea conform alin. (1) lit. b);
+
+6\. La articolul 330, alineatul 3¹ se modifică și va avea următorul cuprins:
+
+(3¹) Persoanele impozabile prevăzute la art. 310 alin. (6²) pot emite facturi de corecție conform alin. (1) lit. b) către beneficiari, după data înregistrării în scopuri de TVA conform art. 316 sau, după caz, după modificarea datei de la care se aplică regimul normal de taxare, pentru operațiunile efectuate în perioada în care aveau obligația să aplice regimul normal de taxare, inclusiv pentru operațiunile realizate în data depășirii plafonului de scutire, potrivit art. 310 alin. (6). Beneficiarii au drept de deducere a taxei înscrise în aceste facturi în limitele și în condițiile prevăzute la art. 297-302.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor articolului 75 și ale articolului 76 alineatul (1) din Constituția României, republicată.
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+SORIN MIHAI GRINDEANU
+
+PREȘEDINTELE SENATULUI
+
+MIRCEA ABRUDEAN

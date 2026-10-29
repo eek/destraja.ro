@@ -1,0 +1,131 @@
+# EXPUNERE DE MOTIVE
+
+la proiectul de lege pentru modificarea și completarea Ordonanței Guvernului nr. 2/2001 privind regimul juridic al contravențiilor
+
+Prezenta inițiativă legislativă legislativă are ca obiect modificarea art. 16 din Ordonanța Guvernului nr. 2/2001, eliminării mențiunii privind domiciliului din cuprinsul procesului-verbal de constatare și sancționare a contravenției.
+
+## I. Necesitatea intervenției normative. Corelarea legislației în vigoare
+
+Necesitatea intervenției normative derivă din evoluțiile recente ale cadrului legislativ în materia evidenței persoanelor și a actelor de identitate, respectiv modificările aduse Ordonanța de urgență a Guvernului nr. 97/2005 privind evidența, domiciliul, reședința și actele de identitate ale cetățenilor români, prin care a fost reglementată și implementată cartea electronică de identitate.
+
+Potrivit art. 17 alin. (5^2) din actul normativ menționat, începând cu data realizării condițiilor tehnice, datele cu caracter personal înscrise în format tipărit pe cartea electronică de identitate sunt limitate la cele prevăzute la alin. (2) lit. a)-g), respectiv fără includerea adresei de domiciliu. Aceasta este stocată exclusiv în format electronic. Prin urmare, domiciliul titularului nu mai este vizibil pe suportul fizic al documentului, așa cum se întâmpla în cazul cărții de identitate simple. Domiciliul titularului este înscris exclusiv în format electronic, accesibil prin mijloace tehnice specifice și numai de către autoritățile competente.
+
+Această modificare legislativă marchează o schimbare de paradigmă în ceea ce privește funcția documentului de identitate, mutând accentul de pe suportul fizic vizibil pe componenta electronică securizată. În mod corelativ, obligațiile instituite anterior prin alte acte normative, care presupuneau posibilitatea verificării imediate și directe a domiciliului prin simpla examinare a cărții de identitate, necesită o reevaluare pentru a asigura coerența sistemului juridic.
+
+În același timp, art. 16 alin. (1) din Ordonanța Guvernului nr. 2/2001 prevede în continuare obligația agentului constatator de a menționa în procesul-verbal de contravenție, în mod obligatoriu, numele, prenumele, domiciliul și codul numeric personal ale contravenientului. Norma a fost concepută într-un context legislativ în care domiciliul era înscris în mod vizibil pe actul de identitate și putea fi verificat nemijlocit de către agentul constatator.
+
+Menținerea acestei obligații în forma actuală, generează o lipsă de corelare legislativă și o dificultate practică majoră în aplicarea legii.
+
+## II. Practica judiciară neunitară și însecuritatea juridică
+
+Deși art. 17 din Ordonanța Guvernului nr. 2/2001 enumeră limitativ cazurile de nulitate absolută ale procesului-verbal de contravenție, lipsa domiciliului nu se regăsește printre acestea. Cu toate acestea, în jurisprudență s-a consacrat teza potrivit căreia omisiunea unor mențiuni prevăzute la art. 16, altele decât cele enumerate la art. 17, poate atrage nulitatea relativă, în măsura în care se dovedește existența unei vătămări.
+
+În practică, instanțele de judecată nu au dezvoltat o abordare unitară în ceea ce privește lipsa sau indicarea eronată a domiciliului contravenientului. Există soluții în care excepția nulității relative este admisă cu ușurință, apreciindu-se că lipsa domiciliului afectează legalitatea procesului-verbal, precum și soluții în care instanțele consideră că identificarea persoanei este suficient asigurată prin menționarea numelui, prenumelui și codului numeric personal, astfel încât nu există o vătămare concretă.
+
+Această practică neunitară afectează grav previzibilitatea și securitatea raporturilor juridice, generând un tratament diferențiat al unor situații identice, exclusiv în funcție de instanța învestită cu soluționarea plângerii contravenționale, chestiune care încalcă dreptul la apărare în sens constituțional și prin raportare la tratatele internaționale la care România este parte (Convenția pentru apărarea Drepturilor Omului și a Libertăților fundamentale ori Carta drepturilor fundamentale a Uniunii Europene).
+
+Ori, exigențele constituționale privind calitatea legii impun ca norma juridică să fie clară, previzibilă și coerentă. Prin intervenția legislativă propusă se urmărește tocmai eliminarea acestei surse de incertitudine și asigurarea unei aplicări unitare a dispozițiilor în materie contravențională.
+
+## III. Dificultăți practice în activitatea agenților constatatori
+
+În contextul noii realități normative generate de introducerea cărții electronice de identitate, obligația de a menționa domiciliul în procesul-verbal de contravenție devine, pentru titularii acestui tip de document, dificil sau chiar imposibil de îndeplinit în mod rezonabil. Reglementarea actuală nu ține seama de realitățile instituționale și tehnice generate de implementarea cărții electronice de identitate.
+
+Potrivit legislației în vigoare, competența de legitimare și verificare a identității prin accesarea bazelor de date oficiale aparține unor structuri precum Poliția Română, în temeiul Legii nr. 218/2002, Jandarmeria Română, în baza Legii nr. 550/2004, Poliția de Frontieră Română, potrivit Ordonanței de urgență nr. 104/2001, precum și poliția locală, conform Legii nr. 155/2010, ori serviciile din aparatele de specialitate a primarilor din cadrul municipiilor, orașelor sau comunelor.
+
+În schimb, în numeroase domenii în care constatarea contravențiilor este realizată de agenți constatatori din afara acestor structuri, precum protecția mediului, transport public, disciplina în construcții, activități comerciale, domeniul silvic, protecția consumatorilor și altele, atribuțiile de constatare și sancționare a contravențiilor revin unor agenți constatatori care nu au acces direct la bazele de date privind evidența persoanelor și nici competența legală de a efectua verificări informatice în timp real.
+
+În aceste condiții, pentru a putea menționa domiciliul unei persoane care deține carte electronică de identitate, agentul constatator ar avea, în mod teoretic, trei opțiuni: să solicite sprijinul unei structuri de poliție pentru verificarea domiciliului; să fie dotat cu un dispozitiv tehnic de citire a cărții electronice de identitate, conectat la sistemele informatice relevante; sau să preia declarația persoanei cu privire la domiciliu, fără posibilitatea verificării imediate a veridicității acesteia.
+
+Prima variantă ar conduce la o încărcare excesivă și nejustificată a activității structurilor de ordine publică, transformând constatarea contravențiilor într-o procedură birocratică disproporționată. O asemenea soluție ar fi disproporționată și ineficientă din perspectiva bunei administrări și a principiului celerității procedurilor contravenționale.
+
+A doua variantă presupune costuri considerabile și o logistică dificil de implementat la nivel național, pentru dotarea tuturor agenților constatatori la nivel național cu echipamente tehnice adecvate, baterii externe, conexiuni securizate și acces la baze de date, ceea ce, din perspectivă logistică și bugetară, este dificil de realizat. A treia variantă nu oferă garanții suplimentare față de situația actuală și nu justifică menținerea unei obligații legale a cărei neîndeplinire poate genera anularea actului.
+
+Prin urmare, menținerea obligației de a menționa domiciliul în cuprinsul procesului-verbal de cintravenție, nu mai corespunde realităților administrative și tehnologice, cu atât mai mult cu cât incepând cu anul 2031 cărtile de identitate electronice vor deveni obligatorii conform prevederilor regulamentelor europene.
+
+## IV. Identificarea persoanei și protecția dreptului la apărare
+
+Identificarea contravenientului este pe deplin asigurată prin menționarea numelui, prenumelui și a codului numeric personal, acesta din urmă constituind un element unic de identificare în sistemul juridic român. Domiciliul nu are rolul de a individualiza persoana în sine, ci de a facilita comunicarea actelor și eventual executarea sancțiunii.
+
+Autoritățile competente pot determina domiciliul prin accesarea bazelor de date oficiale, în etapa comunicării sau executării sancțiunii, fără ca lipsa acestei mențiuni în procesul-verbal să afecteze în mod real dreptul la apărare al contravenientului.
+
+În aceste condiții, sancționarea cu nulitate relativă a procesului-verbal exclusiv pentru lipsa domiciliului, în cazul în care persoana este pe deplin identificată prin celelalte elemente, apare ca o consecință excesiv formalistă, necorelată cu scopul normei și disproporționată în raport cu interesul public privind aplicarea sancțiunilor contravenționale.
+
+## V. Concluzii
+
+Intervenția legislativă propusă urmărește, așadar, corelarea dispozițiilor din Ordonanța Guvernului nr. 2/2001 cu cele din Ordonanța de urgență a Guvernului nr. 97/2005, în vederea asigurării coerenței și unității sistemului normativ. Totodată, soluția legislativă propusă contribuie la reducerea riscului anulării proceselor-verbale pentru motive pur formale, în absența unei vătămări reale, și la consolidarea eficienței activității de constatare și sancționare a contravențiilor.
+
+Modificarea nu aduce atingere dreptului la apărare al contravenientului și nici garanțiilor procedurale prevăzute de lege. Comunicarea procesului-verbal se realizează potrivit regulilor procedurale existente, iar autoritățile competente pot determina domiciliul persoanei prin intermediul sistemelor informatice oficiale, atunci când acest element este necesar pentru executarea sancțiunii sau pentru comunicarea actelor.
+
+În concluzie, prezenta inițiativă legislativă răspunde unei necesități reale de adaptare a cadrului normativ la noile condiții generate de introducerea cărții electronice de identitate, urmărește asigurarea coerenței legislative, eliminarea practicii judiciare neunitare și eficientizarea activității administrative, în concordanță cu principiile proporționalității, securității juridice și bunei administrări.
+
+Față de cele expuse, se propune adoptarea proiectului de lege în forma prezentată.
+
+Semnatari:
+
+Ana-Cynthia-Ioana Păun
+
+Senator USR
+
+Sorin-Gheorghe Șipoș
+
+Senator USR
+
+Vlad-Ioan Șendroiu.
+
+Deputat USR
+
+# Parlamentul României Senat
+
+## LISTĂ SEMNĂTURI SUSȚINĂTORI
+
+## Lege pentru modificarea și completarea Ordonanței Guvernului nr. 2/2001 privind regimul juridic al contravențiilor
+
+<table>
+<tbody>
+<tr><td>NR.</td><td>PARLAMENTAR</td><td>SEMNĂTURĂ</td><td>PARTID</td></tr>
+<tr><td></td><td>Smonud Arghomu</td><td></td><td>USR</td></tr>
+<tr><td></td><td>BDESCU MONICA -ELENA</td><td></td><td>USR</td></tr>
+<tr><td></td><td>POLYANNA HANGAN</td><td></td><td>USR</td></tr>
+<tr><td></td><td>ALECSANAR</td><td></td><td>USR</td></tr>
+<tr><td></td><td>MARILUS - NICOLAS</td><td></td><td>USR</td></tr>
+<tr><td></td><td>PLUJAR ANDREI</td><td></td><td>USR</td></tr>
+<tr><td></td><td>Rodeanu Bogden</td><td></td><td>USR</td></tr>
+<tr><td></td><td>DRAGOESCU CEZAR</td><td></td><td>USR</td></tr>
+<tr><td></td><td>BULAI IULIAM</td><td></td><td>USR</td></tr>
+<tr><td></td><td>TANASAS STEFAIX</td><td></td><td>USR</td></tr>
+<tr><td></td><td>B2AGA ΔAXIIEZ</td><td rowspan="13"></td><td>USR</td></tr>
+<tr><td></td><td>NORUSSI GOORGE</td><td>USR</td></tr>
+<tr><td></td><td>VATBUVA AUMITRU</td><td>USR</td></tr>
+<tr><td></td><td>BOTET MIHAI-CATALIN</td><td>USR</td></tr>
+<tr><td></td><td>COLIBAN ALLEN</td><td>dSR</td></tr>
+<tr><td></td><td>Parasduivescu Ovidin</td><td>USR</td></tr>
+<tr><td></td><td>FHEORGHIU ANDREI</td><td>USR</td></tr>
+<tr><td></td><td>MURARIU OANA</td><td>USR.</td></tr>
+<tr><td></td><td>MIMITMI ACE FANION</td><td>USn</td></tr>
+<tr><td></td><td>AUN SIOIOA</td><td>USR</td></tr>
+<tr><td></td><td>GIURGIV APRIAN</td><td>USR</td></tr>
+<tr><td></td><td>Radu Mihgiv</td><td>USR</td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+# Parlamentul României Senal
+
+## LISTĂ SEMNĂTURI SUSȚINĂTORI
+
+## Lege pentru modificarea și completarea Ordonanței Guvernului nr. 2/2001 privind regimul juridic al contravențiilor
+
+| NR. | PARLAMENTAR | SEMNĂTURĂ | PARTID |
+| --- | --- | --- | --- |
+| 1 | NEGOI EVGEN REMVS |  | USR |
+| 2 | RIS VASICE - CIPRIAN |  | USR |
+| 3 | Omuudig Kaul |  | USR |
+| 4 | ANGHEL RAZAW-PAUC |  | USR |
+| 5. | Rodea Manus |  | USN |
+| 6 | SEBASTIAN CERNIE |  | USR |
+| 7. | CIBU DEACONU RUXANDRA |  | USR |
+| 8 | BOCHILEANV GEORGI-CATALIN |  | USR |
+| 9. | MINARU CATĂCIN - EMIL |  | USR |

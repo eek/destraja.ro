@@ -1,0 +1,37 @@
+## LEGE
+
+pentru completarea Ordonanței nr. 43/1997 privind regimul drumurilor și pentru modificarea și completarea Legii nr. 289/2002 privind perdelele forestiere de protecție
+
+Parlamentul României adoptă prezenta lege
+
+Art. I - Ordonanța nr. 43/1997 privind regimul drumurilor, republicată în Monitorul Oficial al României, Partea I, nr. 237 din 29 iunie 1998, cu modificările și completările ulterioare, se completează după cum urmează:
+
+1\. După articolul 38 se introduce un nou articol, art. 38¹, cu următorul cuprins: „Art. 38¹
+
+(1) Pe sectoarele de drumuri publice prevăzute la art. 6, alin. (1), administratorul drumului este obligat să amplaseze în zonele de siguranță situate de o parte și de cealaltă a amprizei drumului mijloace tehnice care permit stabilirea temperaturii părții carosabile și afișarea acesteia pe panouri, prin care participanții la trafic sunt avertizați cu privire la condițiile optime sau nefavorabile care pot afecta siguranța acestora.
+
+(2) Prin mijloace tehnice se înțelege orice echipament, ansamblu de echipamente, inclusiv elemente componente ale sistemelor de transport inteligente care permite colectarea automată a datelor privind temperatura părții carosabile și afișarea acesteia pe panourile amplasate în zonele de siguranță situate de o parte și de cealaltă a amprizei drumului."
+
+2\. La articolul 46, după alineatul (14) se introduce un nou articol, alin. (15), cu următorul cuprins:
+
+„(15) Dispozițiile prezentului articol nu se aplică pentru realizarea sau amplasarea mijloacelor tehnice prevăzute la art. 38¹."
+
+Art. II – Legea nr. 289/2002 privind perdelele forestiere de protecție, republicată în Monitorul Oficial al României, Partea I, nr. 143 din 26 februarie 2014, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+„c) pentru protecția căilor de comunicație și de transport, în special împotriva încălzirii excessive a părții carosabile a drumurilor publice și înzăpezirii acestora;”
+
+2\. La articolul 6, după alineatul (3) se introduc două noi alineate, alin. (3¹) și (3²), cu următorul cuprins:
+
+„(3¹) Pe porțiunile afectate frecvent de temperaturi ridicate, se înființează perdelele forestiere pentru protecția căilor de comunicație și de transport, amplasate pe terenuri agricole situate în extravilanul localităților, de-a lungul autostrăzilor, drumurilor expres, naționale, naționale europene, județene și comunale, stabilite prin ordin al ministrului transporturilor și infrastructurii.
+
+(3²) În cazul în care de-a lungul drumurilor publice menționate la alin. (3) există perdele forestiere de protecție, acestea îndeplinesc și funcția de protecție reglementată la alin. (3¹)."
+
+Art. III – Ordonanța nr. 43/1997 privind regimul drumurilor, republicată în Monitorul Oficial al României, Partea I, nr. 237 din 29 iunie 1998, cu modificările și completările ulterioare, și cu completările aduse prin prezenta lege, va fi republicată, dându-se textelor o nouă numerotare.
+
+Art. IV – Legea nr. 289/2002 privind perdelele forestiere de protecție, republicată în Monitorul Oficial al României, Partea I, nr. 143 din 26 februarie 2014, cu modificările și completările ulterioare, și cu modificările și completările aduse prin prezenta lege, va fi republicată, dându-se textelor o nouă numerotare.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.
+
+Președintele Senatului
+
+Președintele Camerei Deputaților

@@ -1,0 +1,793 @@
+# LEGE privind consolidarea unor acte normative în domeniul integrității
+
+Parlamentul României adoptă prezenta lege.
+
+ART.I. - Legea nr. 144/2007 privind înființarea, organizarea și funcționarea Agenției Naționale de Integritate, republicată în Monitorul Oficial al României, Partea I, nr. 535 din 3 august 2009, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. Articolul 13 se modifică și va avea următorul cuprins:
+
+„Art. 13. – (1) Agenția Națională de Integritate, denumită în continuare Agenția, este autoritate administrativă autonomă, cu personalitate juridică, ce funcționează la nivel național, ca structură unică, cu sediul în municipiul București.
+
+(2) Obiectivele principale ale Agenției vizează promovarea integrității și prevenirea corupției instituționale, prin exercitarea competențelor legale în materia evaluării averilor, incompatibilităților și conflictelor de interese, prevenirea conflictelor de interese în procedurile de achiziții publice prin mecanisme de verificare ex-ante, gestionarea raportărilor privind încălcări ale legii și protecția avertizorilor în interes public, precum și asigurare a unui climat de imparțialitate și transparență în relația dintre autoritățile și instituțiile publice și persoanele juridice de drept privat potrivit restricțiilor pre- și postangajare.
+
+(3) În vederea îndeplinirii obiectivelor prevăzute la alin. (2), Agenția desfășoară activități de prevenire, control, evaluare și sancționare.
+
+(4) Personalul Agenției este format din președintele Agenției, vicepreședintele Agenției, secretar general, inspectori de integritate, funcționari publici și personal contractual. Președintele Agenției este demnitar cu rang de secretar de stat, vicepreședintele Agenției este demnitar cu rang de subsecretar de stat, iar funcția de inspector de integritate este funcție publică cu statut special.
+
+(5) Agenția are un secretar general, înalt funcționar public, numit in funcție în conformitate cu prevederile art. 394 alin. (2) din OUG 57/2019 privind Codul administrativ, cu modificările si completările ulterioare, care îndeplinește următoarele atribuții:
+
+a) coordonează buna funcționare a compartimentelor și activităților cu caracter funcțional din cadrul Agenției, asigură legătura cu celelalte autorități și organe ale administrației publice, precum și legătura operativă dintre președinte și conducătorii tuturor compartimentelor din Agenție;
+
+b) îndeplinește, calitatea de ordonator principal de credite și de reprezentant legal, pe perioada vacanței funcției de președintele sau vicepreședinte al Agenției, sau în situația în care aceștia se află în împosibilitatea exercitării atribuțiilor;
+
+c) monitorizează elaborarea raportărilor periodice prevăzute de reglementările în vigoare în sarcina Agenției și dispune măsuri pentru realizarea lor conform normelor specifice;
+
+d) monitorizează implementarea politicilor de personal și respectarea principiilor privind managementul resurselor umane în cadrul instituției;
+
+e) îndeplinește alte atribuții încredințate de președintele Agenției."
+
+## 2. La articolul 18, după alineatul (3) se introduce und nou alineat, alin. (3¹), cu următorul cuprins:
+
+„(3¹) Activitatea inspectorilor de integritate cu studii juridice constituie vechime în specialitate juridică și este asimilată vechimii în muncă juridică desfășurată de consilierul juridic, potrivit prevederilor art. 7 din Legea nr. 514/2003 privind organizarea și exercitarea profesiei de consilier juridic, cu modificările și completările ulterioare.”
+
+## 3. La articolul 20, alineatul (2) se modifică și va avea următorul cuprins:
+
+„(2) Candidaturile însoțite de actele doveditoare se depun, în termen de 30 de zile de la publicarea anunțului, la secretariatul Consiliului Național de Integritate.”
+
+## 4. După articolul 35¹, se introduce un nou articol, art. 35², cu următorul cuprins:
+
+„Art. 35². – Persoanei care exercita funcția de membru al Consiliului ii este interzis sa desfășoare, direct sau prin persoane interpuse, activități care sunt în legătură directă sau indirectă cu atribuțiile exercitate în calitate de membru al Consiliului.”
+
+## 5. La articolul 37, alineatul (3) se modifică și va avea următorul cuprins:
+
+„(3) Mandatul de membru încetează, înainte de termen, prin revocare de către Senat, pentru neîndeplinirea atribuțiilor legale, nerespectarea interdicției prevăzute la art. 35², constatarea în mod definitiv a unei stări de incompatibilitate, conflict de interese sau diferențe semnificative mai mari de 10.000 de euro, prin demisie ori în caz de deces. Reprezintă neîndeplinirea atribuțiilor legale și cazul în care un membru al Consiliului absentează nemotivat la 3 ședințe consecutive sau la oricare 6 ședințe ale Consiliului în cursul unui an.”
+
+6\. La articolul 40, după alineatul (4) se introduce un nou alineat, alin. (4¹), cu următorul cuprins:
+
+„(4¹) La ședințele Consiliului participă președintele, iar în lipsa acestuia un reprezentant din cadrul Agenției, fără drept de vot în vederea susținerii punctului de vedere al Agenției, potrivit ordinii de zi a ședinței comunicate în prealabil Agenției.”
+
+7\. Articolul 59 se abrogă.
+
+8\. Articolul 61 se modifică și va avea următorul cuprins:
+
+„Art. 61. - Amenzile aplicate de inspectorii de integritate din cadrul Agenției se constituie venit la bugetul de stat.”
+
+9\. Anexa la Lege se abrogă.
+
+ART. II. - Legea nr. 176/2010 privind integritatea în exercitarea funcțiilor și demnităților publice, pentru modificarea și completarea Legii nr. 144/2007 privind înființarea, organizarea și funcționarea Agenției Naționale de Integritate, precum și pentru modificarea și completarea altor acte normative, publicată în Monitorul Oficial al României, Partea I, nr. 621 din 2 septembrie 2010, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 1, alineatul (1) se modifică si va avea următorul cuprins:
+
+„Art.1. - (1) Dispozițiile prezentei legi se aplică următoarelor categorii de persoane, care au obligația declarării averii și a intereselor:
+
+1\. Președintele României, deputații, senatorii, consilierii locali, consilierii județeni, președinte al consiliului județean sau primar;
+
+2\. primul-ministru, membrii Guvernului prevăzuți la art. 18 din O.U.G. nr. 57/2019 privind Codul administrativ, cu modificările și completările ulterioare, șeful Cancelariei Prim-Ministrului, secretarul general și secretarii generali adjuncți ai Guvernului, secretarii de stat, subsecretarii de stat, precum și asimilații acestora din cadrul Guvernului, ministerelor și altor organe centrale de specialitate subordonate Guvernului sau ministerelor, consilierii de stat din cadrul Cancelariei Prim-Ministrului;
+
+3\. consilierii prezidențiali, consilierii onorifici ;
+
+4\. membrii Consiliului Superior al Magistraturii;
+
+5\. judecătorii, procurorii, magistrații asistenți, asimilații acestora, precum și asistenții judiciari;
+
+6\. personalul auxiliar de specialitate din cadrul instanțelor judecătorești și parchetelor;
+
+7\. judecătorii Curții Constituționale;
+
+8\. membrii Curții de Conturi, personalul cu funcții de conducere și de control, auditorii publici externi și asimilații acestora;
+
+9\. președintele Consiliului Legislativ și președinții de secție;
+
+10\. personalul instituțiilor publice, inclusiv personalul angajat cu contract individual de muncă, implicat în realizarea procesului de privatizare, precum și personalul instituțiilor și autorităților publice, inclusiv personalul angajat cu contract individual de muncă, care administrează sau implementează programe ori proiecte finanțate din fonduri externe sau din fonduri bugetare.
+
+11\. persoanele care derulează activități de evaluare, selecție, contractare, verificare, monitorizare sau control al proiectelor cu finanțare nerambursabile din cadrul Agențiilor de Dezvoltare Regională;
+
+12\. experții cooptați și experții în afara organigramei plătiți din fonduri externe;
+
+13\. Avocatul Poporului și adjuncții săi;
+
+14\. președintele și vicepreședintele Autorității Naționale de Supraveghere a Prelucrării Datelor cu Caracter Personal;
+
+15\. membrii Consiliului Concurenței;
+
+16\. membrii Colegiului Consiliului National pentru Studierea Arhivelor Securității;
+
+17\. președintele, prim-vicepreședintele, vicepreședinții și membrii Consiliului Autorității de Supraveghere Financiară, precum și personalul implicat în activitățile specifice ale Autorității;
+
+18\. președintele, vicepreședinții și membrii Comitetului de reglementare și ai Consiliului Consultativ al Autorității Naționale de Reglementare în Domeniul Energie, precum și personalul implicat în activitățile specifice ale Comitetului;
+
+19\. președintele și vicepreședinții Autorității Naționale pentru Administrare și Reglementare în Comunicații, precum și personalul implicat în activitățile specifice ale Autorității;
+
+20\. președintele și vicepreședinții Autorității Naționale de Reglementare în Domeniul Minier, Petrolier și al Stocării Geologice a Dioxidului de Carbon, precum și personalul implicat în activitățile specifice ale Autorității;
+
+21\. președintele, vicepreședintele și membrii consiliului de supraveghere al Agenției Naționale de Dezvoltare a Infrastructurii în Sănătate;
+
+22\. președintele și vicepreședinții Agenției pentru Monitorizarea și Evaluarea Performanțelor Întreprinderilor Publice;
+
+23\. membrii Consiliului Economic și Social;
+
+24\. membrii Consiliului National pentru Combaterea Discriminării;
+
+25\. membrii Consiliului National al Audiovizualului;
+
+26\. membrii consiliilor de administrație și ai comitetelor directoare ale Societății Române de Radiodifuziune și ale Societății Române de Televiziune;
+
+27\. președintele și vicepreședintele Agenției Naționale de Integritate, precum și membrii Consiliului National de Integritate;
+
+28\. directorul general și membrii consiliului director al Agenției Naționale de Presă AGERPRES;
+
+29\. directorul Serviciului Român de Informații, prim-adjunctul și adjuncții săi;
+
+30\. directorul Serviciului de Informații Externe, prim-adjunctul și adjuncții săi;
+
+31\. personalul diplomatic și consular;
+
+32\. directorul Serviciului de Protecție și Pază, prim-adjunctul și adjuncții săi;
+
+33\. directorul Serviciului de Telecomunicații Speciale, prim-adjunctul și adjuncții săi;
+
+34\. persoanele cu funcții de conducere și de control, precum și funcționarii publici, inclusiv cei cu statut special, care își desfășoară activitatea în cadrul tuturor autorităților publice centrale ori locale sau, după caz, în cadrul tuturor instituțiilor publice;
+
+35\. persoanele cu funcții de conducere și de control din cadrul unităților sistemului de învățământ de stat și unităților de stat din sistemul de sănătate publică;
+
+36\. personalul încadrat în cadrul cabinetelor prevăzute la art. 546 din O.U.G. nr. 57/2019 privind Codul administrativ, cu modificările și completările ulterioare. ;
+
+37\. membrii consiliilor de administrație, ai consiliilor de conducere sau ai consiliilor de supraveghere, precum și persoanele care dețin funcții de conducere în cadrul regiilor autonome de interes național sau local, companiilor și societăților naționale sau, după caz, societăților reglementate de Legea nr. 31/1990, republicată, cu modificările și completările ulterioare, la care statul sau o autoritate a administrației publice locale este acționar majoritar sau semnificativ, direct sau indirect, inclusiv în filiale sau alte dezmembrăminte și unități ale entităților enumerate anterior, precum și în societățile reglementate de Legea nr. 31/1990, republicată, cu modificările și completările ulterioare, la care una dintre entitățile enumerate anterior este acționar majoritar sau semnificativ;
+
+38\. guvernatorul, prim-viceguvernatorul, viceguvernatorii, membrii consiliului de administrație, angajații cu funcții de conducere ai Băncii Naționale a României, precum și personalul din conducerea băncilor la care statul este acționar majoritar sau semnificativ;
+
+39\. candidații pentru funcțiile de Președinte al României, deputat, senator, consilier județean, consilier local, președinte al consiliului județean sau primar, precum și candidații din partea României la Parlamentul European;
+
+40\. prefecții și subprefecții;
+
+41\. înalții funcționari publici;
+
+42\. administratorii publici din cadrul unităților/subdiviziunilor administrativ teritoriale;
+
+43\. conducătorii instituțiilor publice, autorităților sau a altor persoane juridice de drept public;
+
+44\. președinții, vicepreședinții, secretarii generali, directorii economici și/sau trezorierii federațiilor sportive naționale, ai Comitetului Olimpic și Sportiv Român și ai Comitetului Național Paralimpic;
+
+45\. președinții, vicepreședinții, secretarii și trezorierii federațiilor și confederațiilor sindicale;
+
+46\. membrii din România în Parlamentul European și membrii în Comisia Europeană din partea României."
+
+## 2. Articolul 2 se modifică și va avea următorul cuprins:
+
+„Art.2. – (1) Declarațiile de avere și declarațiile de interese se completează potrivit anexelor nr. 1 și 2 și se semnează cu semnătură electronică calificată sau semnătură avansată încorporată în cartea electronica de identitate, de către persoanele de la art. 1 alin. (1), cu excepția celor de la pct. 39, și se transmit Agenției exclusiv prin intermediul platformei online de declarare a averii și a intereselor, denumită în continuare e-DAI, gestionată de Agenție.
+
+(2) Persoanele prevăzute la art. 1 alin. (1) punctul 39 depun declarațiile de avere și de interese semnate cu semnătură electronică după caz, calificată sau semnătură avansată, încorporată în cartea electronica de identitate, sau cu semnătură olografă și se transmit Agenției exclusiv prin intermediul e-DAI.
+
+(3) Persoanele prevăzute la art.1 alin. (1) pct. 39 sunt obligate să se înroleze și să depună declarațiile de avere și declarațiile de interese într-o secțiune distinctă a platformei e-DAI.
+
+(4) Obligația de depunere a declarațiilor de avere si de interese nu atrage publicitatea acestora.
+
+(5) Declarațiile de avere și de interese ale persoanelor prevăzute la art.1 alin. (1) se păstrează în evidența Agenției, cu asigurarea confidențialității acestora, fără a fi făcute publice, pe o perioadă de 7 ani de la data transmitterii acestora prin intermediul e-DAI.”
+
+3\. La articolul 2¹, după alineatul (4), se introduc cinci noi alineate, alin. (5) – (9), cu următorul cuprins:
+
+„(5) Comunicarea tuturor înscrisurilor între inspectorii de integritate și persoanele obligate la depunerea declarațiilor prevăzute de prezenta lege se realizează, în principal, prin intermediul platformei electronice e-DAI sau prin poștă în condițiile alin. (6), cu scrisoare recomandată cu confirmare de primire, cu excepția persoanelor prevăzute la art. I alin. (1) pct. 39 și art. 7² alin. (1).
+
+(6) În orice moment, persoanele obligate la depunerea declarațiilor prevăzute prevăzute de prezenta lege pot opta cu privire la modalitatea de comunicare cu inspectorii de integritate prin poștă, cu scrisoare recomandată cu confirmare de primire.
+
+(7) Încărcarea documentului se consideră efectuată la data notificării electronice pe adresa electronică sau pe numărul de telefon înregistrate ale persoanei notificate.
+
+(8) Procedura de comunicare se consideră îndeplinită în termen de 15 zile de la data încărcării documentului în platforma e-DAI.
+
+(9) În cazul persoanelor prevăzute la art. 1 alin. (1) pct. 39, la art. 7² alin. (1), precum și în cazul persoanelor pentru care nu mai există obligația depunerii declarațiilor prevăzute de prezenta lege, comunicarea se face prin poștă, cu scrisoare recomandată, cu confirmare de primire."
+
+4\. La articolul 3, alineatul (2) se modifică și va avea următorul cuprins:
+
+„(2) Declarațiile de avere se întocmesc pe propria răspundere și cuprind drepturile și obligațiile declarantului și ale copiilor minori aflați în întreținere, potrivit anexei nr. 1.”
+
+5\. La articolul 3, alineatele (4) – (7) se abrogă.
+
+6\. Articolul 4 se modifică și va avea următorul cuprins:
+
+„Art. 4 – (1) Declarațiile de avere și declarațiile de interese se completează și se depun în termen de 30 de zile de la data numirii sau a alegerii în funcție ori de la data începerii activității.
+
+(2) Persoanele prevăzute la art. 1 alin. (1), pct. 1-38 și pct. 40-46, au obligația să actualizeze declarațiile de avere și declarațiile de interese anual, cel mai târziu la data de 15 iunie, cu excepția persoanelor care au depus declarația de avere și de interese, potrivit prevederilor alin. (1), anterior datei de 15 iunie.
+
+(3) Declarațiile de avere se întocmesc după cum urmează: pentru anul fiscal anterior încheiat la 31 decembrie, în cazul veniturilor, respectiv situația la data declarării pentru celelalte capitole din declarație, potrivit anexei nr. 1.
+
+(4) În situația în care, în cursul aceluiași an calendaristic, ulterior completării și depunerii declarației de avere și a declarației de interese, persoanele prevăzute la art. I alin. (1) sunt numite sau alese într-o nouă funcție publică ori într-o nouă funcție de demnitate publică, acestea au obligația de a depune o nouă declarație de avere și o nouă declarație de interese, în termen de 30 de zile de la data numirii, alegerii sau începerii activității, numai în cazul în care au intervenit modificări privind situația lor patrimonială sau a intereselor acestora conform art. 18 alin. (2) – (3), față de cele anterior declarate.
+
+(5) La încetarea funcției, mandatului sau raportului de muncă/serviciu, persoanele prevăzute la art. I alin. (1) au obligația de a depune declarația de avere și declarația de interese; în termen de 30 de zile, numai dacă nu au depus declarațiile în anul calendaristic în curs sau dacă au intervenit modificări privind situația lor patrimonială sau a intereselor acestora, conform art. 18 alin. (2) – (3).
+
+(6) Persoanele care ocupă sau dețin funcțiile și calitățile prevăzute la art. 1 alin. (1) nu au obligația de a depune declarația de avere și declarația de interese pe durata suspendării din aceste funcții sau calități.
+
+(7) La încetarea suspendării, persoanele prevăzute la art. 1 alin. (1) au obligația de a depune declarația de avere și declarația de interese, în termen de 30 de zile, numai dacă nu au depus declarațiile în anul calendaristic în curs sau dacă au intervenit modificări privind situația lor patrimonială sau a intereselor acestora, în sensul prevederilor art. art. 18 alin. (2) – (3).
+
+(8) Dispozițiile prevăzute la alin. (4) – (7) nu se aplică persoanelor prevăzute la art. I alin. (1) pct. 39."
+
+## 7. După articolul 4, se introduce un nou articol, art. 4¹, cu următorul cuprins:
+
+„Art. 4¹. - (1) Persoanele prevăzute la art. 1 alin. (1), cu excepția celor de la pct. 39, au obligația de a completa și, după caz, actualiza în platforma e-DAI, funcțiile și, după caz, calitățile deținute, precum și data de începere și de încetare a acestora, în termen de 30 de zile de la data numirii, alegerii sau începerii activității, respectiv de la data încetării funcției, mandatului sau raportului de muncă sau de serviciu.
+
+(2) Declarațiile-de avere și interese sunt valabile pentru toate funcțiile, demnitățile sau calitățile publice deținute de persoana respectivă în cursul anului calendaristic aferent completării acestora, dacă nu au intervenit modificări privind situația lor patrimonială sau a intereselor acestora, conform art. 18 alin. (2) – (3).
+
+(3) În cazul în care intervin modificări privind situația lor patrimonială sau a intereselor acestora, conform art. 18 alin. (2) – (3), neactualizarea atrage sancțiunea prevăzută la art. 29 alin. (1).”
+
+## 8. Articolul 5 se modifică și va avea următorul cuprins:
+
+"Art.5. – (1) în cadrul entităților în care persoanele au obligația de a depune declarații de avere și declarații de interese, în conformitate cu prevederile legale, se desemnează persoane responsabile care asigură implementarea prevederilor legale privind declarațiile de avere și declarațiile de interese.
+
+(2) În exercitarea atribuțiilor prevăzute de prezenta lege, persoanele desemnate cu rol de persoana responsabila sunt subordonate direct conducătorului entității respective, care răspunde pentru desfășurarea în bune condiții a activității acestora.
+
+(3) Persoanele care sunt obligate să depună declarații de avere și declarații de interese le depun la entitatea la care își desfășoară activitatea.
+
+(4) Prin excepție de la prevederile alin. (3), membrii din România în Parlamentul european și membrii în Comisia europeană din partea României depun declarațiile de avere și interese la Autoritatea Electorală Permanentă.”
+
+## 9. Articolul 6 se modifică și va avea următorul cuprins:
+
+„Art. 6. - (1) Persoanele responsabile cu implementarea prevederilor referitoare la declarațiile de avere și declarațiile de interese au obligația să se înregistreze în această calitate pe platforma e-DAI și au următoarele atribuții:
+
+a) primesc și verifică îndeplinirea condițiilor de formă ale declarațiile de avere și declarațiile de interese prin intermediul e-DAI cu respectarea legislației privind protecția persoanelor fizice în ceea ce privește prelucrarea datelor cu caracter personal;
+
+b) îndeplinesc formalitățile de înregistrare în e-DAI a persoanelor prevăzute la art. 1 alin. (1), cu excepția celor de la pct. 39;
+
+c) în vederea îndeplinirii atribuțiilor de evaluare, în conformitate cu prevederile art. 2¹ alin. (2) trimit Agenției, prin e-DAI, declarațiile de avere și declarațiile de interese și comunică funcțiile și/sau calitățile și data de începere sau încetare, în termen de cel mult 10 zile de la primirea acestora;
+
+d) generează prin intermediul e-DAI, după expirarea termenului de depunere, o listă cu persoanele care nu au depus declarațiile de avere și declarațiile de interese sau nu au completat informațiile privind funcțiile și, după caz, calitățile precum și data de începere și de încetare a acestora, și informează de îndată aceste persoane, solicitându-le să depună un punct de vedere în termen de 10 zile lucrătoare;
+
+e) acordă consultanță referitor la conținutul și aplicarea prevederilor legale privind completarea și depunerea declarațiilor de avere și a declarațiilor de interese, precum și privind completarea informațiilor privind funcțiile și, după caz, calitățile deținute, data de începere și de încetare a acestora, persoanelor care au obligația depunerii și, după caz, completării acestora;
+
+f) nominalizează, prin intermediul platformei e-DAI, persoanele care nu au depus în termen sau care au depus cu întârziere declarațiile de avere și declarațiile de interese, potrivit prevederilor art. 4 alin. (2), până la data de 1 august a aceluiași an și atașează, pentru fiecare dintre acestea, punctele de vedere primite.
+
+g) nominalizează, prin intermediul platformei e-DAI, persoanele care nu au depus în termen sau au depus cu întârziere declarațiile de avere și declarațiile de interese, potrivit prevederilor art. 4 alin. (1), (4), (5) și (7) în termen de 10 zile lucrătoare de la expirarea termenului alocat pentru transmiterea punctului de vedere potrivit lit. d.
+
+h) nominalizează, prin intermediul platformei e-DAI, persoanele care nu au declarat funcțiile și/sau calitățile deținute, precum și data de începere și de încetare a acestora, după caz, potrivit prevederilor art. 4¹ în termen de 10 zile lucrătoare de la expirarea termenului alocat pentru declararea acestora."
+
+## 10. Articolul 7 se modifică și va avea următorul cuprins:
+
+„Art. 7. – (1) Persoanele prevăzute la art.1 alin.(1) au posibilitatea de a iniția rectificarea declarației de avere și, după caz, a declarației de interese, în termen de 40 de zile de la depunerea inițială. Declarația de avere și de interese rectificate pot fi însoțite de documente justificative.
+
+(2) Persoanele prevăzute la art.1 alin. (1), cu excepția celor de la pct. 39, au posibilitatea de a iniția rectificarea funcțiilor, calităților și, după caz, a datei de începere și de încetare a acestora, completate sau, după caz, actualizate în conformitate cu prevederile art. 4¹, în termen de 40 de zile de la transmiterea inițială. Rectificarea informațiilor poate fi însoțită de documente justificative.
+
+(3) Declarația de avere și de interese rectificate, precum și rectificarea funcților, calităților și/sau a datei de început ori de încetare, însoțite de documentele justificative, se transmit, de îndată, Agenției prin intermediul platformei e-DAI.
+
+(4) Până la expirarea termenelor prevăzute la alin. (1) și (2), Agenția nu poate declanșa procedurile de evaluare prevăzute de prezenta lege.”
+
+## 11. La articolul 12, alineatele (1) și (2) se modifică și vor avea următorul cuprins:
+
+„(1) Activitatea de evaluare prevăzută la art. 8 alin. (1) se desfășoară din oficiu sau la sesizarea oricărei persoane fizice sau juridice, cu respectarea prevederilor art. 7 din Ordonanța Guvernului nr. 27/2002 privind reglementarea activității de soluționare a petițiilor, aprobată cu modificări și completări prin Legea nr. 233/2002.
+
+(2) Sesizarea din oficiu se face într-una din următoarele modalități:
+
+a) pe baza unui raport de sesizare, întocmit de președintele sau vicepreședintele Agenției;
+
+b) pe baza unei note întocmite de inspectorul de integritate, aprobată de conducerea inspectorilor de integritate; în cazul în care aceasta respinge propunerea de sesizare din oficiu, refuzul motivat se transmite președintelui Agenției, pentru a dispune fie începerea verificărilor, fie menținerea propunerii.”
+
+12\. La articolul 12, după alineatul (3), se introduc trei noi alineate, alin. (3¹) - (3³), cu următorul cuprins:
+
+„(3¹) Sesizarea care nu este semnată olograf sau electronic, nu are atașată dovada calității de reprezentant, ori nu conține datele de identificare ale autorului se clasează..
+
+(3²) Sesizarea care nu conține fapte concrete privind situația sesizată se claseză daca inspectorul de integritate a solicitat completarea acesteia iar în termen de 15 zile de la comunicarea solicitării nu a fost îndeplinită obligația de completare.
+
+(3³)În situațiile prevăzute la alin. (3¹), dacă se apreciază că există elemente de încălcare a legislației privind regimul declarării averii, al conflictelor de interese, respectiv al incompatibilităților, inspectorul de integritate poate propune, conform alin. (2), sesizarea din oficiu a Agenției.”
+
+13\. La articolul 12, alineatul (6) se abrogă.
+
+## 14. Articolul 13 se modifică și va avea următorul cuprins:
+
+„Art. 13. – (I) După repartizarea aleatorie a lucrării, inspectorul de integritate procedează la activitatea de evaluare a declarațiilor de avere, a datelor, a informațiilor și a modificărilor patrimoniale existente, în sensul prezentei legi, după cum urmează:
+
+a) până la informarea persoanei care face obiectul evaluării, verifică incidența prescripției dacă nu presupune derularea de proceduri administrative în conformitate cu art. 15, analizează declarațiile de avere ale acesteia, datele de identificare conform art. 59 din Codul civil, precum și funcția persoanei vizate de sesizare, raportat la prevederile art. 1 alin. (1), cu excepția celor prevăzute la pct. 39;
+
+b) după informarea persoanei, în cadrul verificărilor, desfășoară proceduri administrative în conformitate cu prevederile art. 15. Persoana evaluată are dreptul pe tot parcursul procedurii de evaluare de a depune puncte de vedere.
+
+c) după derularea procedurilor administrative, prevăzute la lit. b), invită persoana care face obiectul evaluării pentru prezentarea unui punct de vedere, procedând conform prevederilor art. 14;
+
+d) anterior finalizării procedurii de evaluare, inspectorul de integritate procedează conform prevederilor art.17.
+
+(2) Raportul de evaluare întocmit de inspectorul de integritate, fâră ca persoana să fie informată și invitată potrivit dispozițiilor art. 14, este lovit de nulitate absolută.
+
+(3) Informările și raportul de evaluare se comunică în condițiile prevăzute la art. 2¹ alin. (5) – (9).
+
+(4) În situația în care, pe perioada derulării procedurii de evaluare, inspectorul identifică elemente de încălcare a legislației privind fapte sau împrejurări noi, stări suplimentare ale aceluiași obiect, raportat la aceea care a declanșat activitatea de evaluare, acesta extinde activitatea și va întocmi raportul de evaluare cu respectarea prevederilor art. 14.
+
+(5) În situația în care, pe perioada derulării procedurii de evaluare, inspectorul identifică elemente de încălcare a legislației privind un obiect distinct față de cel pentru care derulează evaluarea, acesta procedează conform prevederilor art. 12 alin. (2) lit. b). În acest caz inspectorul dispune conexarea noii lucrări la cea în curs, utilizând inclusiv informațiile deja obținute, iar ulterior va întocmi, cu respectarea prevederilor alin (2), raportul de evaluare.
+
+(6) Dispozițiile alin. (1) –' (3) se aplică, în mod corespunzător, și procedurii de verificare a respectării restricțiilor pre -- și postangajare în instituțiile și autoritățile publice."
+
+15\. La articolul 14, alineatul (3) se modifică și va avea următorul cuprins:
+
+„(3) Informarea și invitarea se fac prin intermediul platformei e-DAI în condițiile art. 2¹ alin. (5)-(9).”
+
+## 16. Articolul 18 se modifică și va avea următorul cuprins:
+
+„Art. 18. – (1) Prin diferențe semnificative, în sensul prezentei legi, se înțelege diferența mai mare de 10.000 de euro sau echivalentul în lei al acestei sume între modificările intervenite în avere pe durata exercitării demnităților și funcțiilor publice și veniturile realizate în aceeași perioadă.
+
+(2) Prin modificare în situația patrimonială, în sensul prezentei legi, se înțelege modificarea elementelor de activ și/sau de pasiv, cu o valoare mai mare de 10.000 de euro sau echivalentul în lei al acestei sume, față de cele declarate în declarația de avere anterior depusă în e-DAI.
+
+(3) Prin modificarea intereselor persoanelor prevăzute la art. 1 alin. (1), cu excepția celor de la pct. 39, în sensul prezentei legi, se înțelege orice modificare care survine cu privire la datele cuprinse în declarația de interese prevăzută la art. 3 alin. (3).”
+
+17\. La articolul 23, după alineatul (1), se introduce un nou alineat, alin. (1¹), cu următorul cuprins:
+
+„(1¹) În cazul actelor administrative adoptate de organe colegiale, nulitatea absolută prevăzută la alin. (1) intervine numai dacă, în lipsa votului persoanei aflate în conflict de interese, actul nu ar fi întrunit majoritatea cerută de lege pentru adoptare.”
+
+18\. La articolul 23, după alineatul (2), se introduce un nou alineat, alin. (2¹), cu următorul cuprins:
+
+„(2¹) Acțiunea în constatare menționată la alin. (2) poate fi introdusă numai cu notificarea prealabilă a beneficiarului menționat în raportul Agenției aferent actului vizat.”
+
+19\. La articolul 25, alineatul (2) se modifică și va avea următorul cuprins:
+
+„(2) Persoana eliberată sau destituită din funcție potrivit prevederilor alin. (1) sau față de care s-a constatat existența conflictului de interese ori starea de incompatibilitate este decăzută din dreptul de a mai exercita o funcție sau o demnitate publică ce face obiectul prevederilor prezentei legi, cu excepția celor electorale, pe o perioadă de până la 3 ani de la data eliberării, destituirii din funcția ori demnitatea publică respectivă sau a încetării de drept a mandatului.”
+
+20\. La articolul 25, după alineatul (2), se introduc șase alineate noi, alin. (2¹) - (2⁶), cu următorul cuprins:
+
+„(2¹) Dacă persoana a ocupat o funcție eligibilă, nu mai poate ocupa o funcție eligibilă ce face obiectul prevederilor prezentei legi pe o perioadă de până la 3 ani de la încetarea mandatului.
+
+(2²) În cazul în care persoana nu mai ocupă o funcție sau o demnitate publică la data constatării stării de incompatibilitate ori a conflictului de interese, interdicția de până la 3 ani operează potrivit legii, de la data rămânerii definitive a raportului de evaluare, respectiv a rămânerii definitive a hotărârii judecătorești de confirmare a existenței unui conflict de interese sau a unei stări de incompatibilitate.
+
+(2³) În cazul în care persoana nu mai ocupă funcția sau demnitatea publică pentru care s-a constatat, prin raportul de evaluare definitiv, starea de incompatibilitate ori conflictul de interese, interdicția se aplică și în situația în care persoana ocupă, la momentul rămânerii definitive a raportului, o alta funcție sau demnitate ce face obiectul prevederilor prezentei legi.
+
+(2⁴) Inspectorul de integritate dispune prin raport individualizarea interdicției de până la 3 ani și aplicarea acesteia în mod proporțional, după cum urmează:
+
+a) diminuarea cu 10% dacă nu există o sancțiune rămasă definitivă pentru nedepunerea declarațiilor de avere și a declarațiilor de interese în termenele prevăzute de prezenta lege în ultimii 3 ani;
+
+b) diminuarea cu 20% dacă nu există un raport de evaluare în condițiile prezentei legi rămas definitiv în ultimii 3 ani;
+
+c) diminuarea cu 20% dacă perioada pentru care s-a aflat în incompatibilitate este mai mică de 6 luni;
+
+d) diminuarea cu 20% dacă impactul financiar rezultat urmare a conflictului de interese este mai mic de 2 salarii minime brute pe economie.
+
+(2⁵) Diminuarea cumulată prevăzută la alin. (2⁴) nu poate fi mai mare de 50%.
+
+(2⁶) Prin excepție de la alin. (2⁴) și (2⁵), în cazul conflictelor de interese, inspectorul de integritate poate dispune motivat, în mod excepțional, neaplicarea interdicției prevăzute la alin. (2) dacă sunt îndeplinite condițiile prevăzute la alin. (2⁴) lit. a) și b) și impactul financiar rezultat ca urmare a conflictului de interese este mai mic de un salariu minim brut pe economie."
+
+21\. La articolul 26, după alineatul (3) se introduce un nou alineat, alin. (4), cu următorul cuprins:
+
+„(4) Conducătorii instituțiilor prevăzute la alin. (1) au obligația să comunice Agenției în termen de 30 de zile de la comunicarea raportului de evaluare rămas definitiv, măsurile dispuse în vederea punerii în aplicare a sancțiunilor disciplinare sau administrative, după caz.”
+
+22\. Articolul 27 se modifică și va avea următorul cuprins:
+
+„Art. 27. - Nerespectarea obligației de a răspunde solicitărilor Agenției, prevăzute de prezenta lege, constituie contravenție și se sancționează cu amendă de la 3.000 lei la 30.000 lei.”
+
+23\. Articolul 29 se modifică și va avea următorul cuprins:
+
+„Art. 29. – (1) Nedepunerea declarațiilor de avere și a declarațiilor de interese, respectiv nedeclararea funcțiilor și, după caz, calităților deținute, în termenele prevăzute de prezenta lege, constituie contravenție și se sancționează cu amendă de la 2.000 lei la 10.000 lei. Agenția poate declanșa din oficiu procedura de evaluare.
+
+(2) Nerespectarea obligațiilor prevăzute la art. 6 de către persoanele responsabile cu implementarea prevederilor prezentei legi constituie contravenție și se sancționează cu amendă de la 500 lei la 2.000 lei.
+
+(3) Nedeclararea datelor și informațiilor în declarațiile întocmite potrivit anexelor nr. 1 și 2 constituie contravenție și se sancționează cu amendă de la 2.000 lei la 10.000 lei. Agenția poate declanșa din oficiu procedura de evaluare.
+
+(4) Neaplicarea sancțiunii disciplinare sau neconstatarea încetării funcției publice, de către persoanele care au atributul numirii sau, după caz, al sancționării, atunci când actul de constatare a rămas definitiv, constituie contravenție și se sancționează cu amendă de la 5.000 lei la 10.000 lei, dacă fapta nu constituie infracțiune.
+
+(5) Nerespectarea perioadei de interdicție de până la 3 ani în conformitate cu prevederile art. 25 constituie contravenție și se sancționează cu amendă de la 5.000 lei la 50.000 lei.
+
+(6) În situația prevăzută la alin. (4) toate actele juridice sau administrative încheiate direct de către persoana căreia i se aplică interdicția sau prin persoane interpuse, cu încălcarea dispozițiilor legale privind perioada de interdicție de până la 3 ani, sunt lovite de nulitate absolută, prevederile art. 23 aplicându-se în mod corespunzător.
+
+(7) Fapte prevăzute la alin. (1) – (5) constituie contravenții, dacă nu au fost săvârșite în astfel de condiții încât să fie considerate, potrivit legii penale, infracțiuni și se sancționează conform acestora.”
+
+## 24. Articolul 30 se modifică și va avea următorul cuprins:
+
+„Art. 30. – (1) Constatarea și sancționarea contravențiilor prevăzute de prezenta lege se fac de către persoanele împuternicite din cadrul Agenției, conform prevederilor din Ordonanța Guvernului nr. 2/2001 privind regimul juridic al contravențiilor, aprobată cu modificări și completări prin Legea nr. 180/2002, cu modificările și completările ulterioare.
+
+(2) Prin derogare de la dispozițiile art. 8 alin. (4) din Ordonanța Guvernului nr. 2/2001, cu modificările și completările ulterioare, amenzile aplicate persoanelor fizice se fac venit integral la bugetul de stat."
+
+ART. III. - Legea nr. 161/2003 privind unele măsuri pentru asigurarea transparente în exercitarea demnităților publice, a funcțiilor publice și în mediul de afaceri, prevenirea și sancționarea corupției, publicată în Monitorul Oficial al României, Partea I, nr. 279 din 21 aprilie 2003, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 76, după alineatul (1) se introduce un nou alineat, alin. (1¹) cu următorul cuprins:
+
+„(1¹) Dispozițiile art. 228 alin. (1) lit. b) –f) din Ordonanța de urgență a Guvernului nr. 57/2019 privind Codul administrativ, cu modificările și completările ulterioare, se aplică în mod corespunzător.”
+
+2\. Articolul 77 se modifică și va avea următorul cuprins:
+
+"Art. 77. - Conflictele de interese pentru președinții și vicepreședinții consiliilor județene sau consilierii locali și județeni sunt prevăzute la art. 228 din Ordonanța de urgență nr. 57/2019 privind Codul administrativ, cu modificările și completările ulterioare."
+
+3\. La articolul 79, alineatul (1), litera a) se modifică și va avea următorul cuprins:
+
+„a) rezolvă cereri, ia decizii sau participă la luarea deciziilor cu privire la persoane fizice și juridice cu care are relații cu caracter patrimonial;”
+
+4\. La articolul 82, alineatul (1), literele a) și d) se modifică și vor avea următorul cuprins:
+
+„a) funcția de președinte, vicepreședinte, director general, director, administrator, membru al consiliului de administrație, membru al consiliului de supraveghere, membru al directoratului sau cenzor la societățile reglementate de Legea societăților nr. 31/1990, republicată, cu modificările și completările ulterioare, inclusiv băncile sau alte instituții de credit, societățile de asigurare, sau după caz, reasigurare și cele financiare și la instituțiile publice;
+
+d) funcția de manager, director, membru al consiliului de supraveghere, membru al directoratului sau membru al consiliilor de administrație ale regiilor autonome, companiilor și societăților naționale;"
+
+5\. La articolul 84, alineatul (1), literele c) și f) se modifică și vor avea următorul cuprins:
+
+„c) funcția de președinte, vicepreședinte, director general, director, administrator, membru al consiliului de administrație, membru al consiliului de supraveghere, membru al directoratului sau cenzor la societățile reglementate de Legea societăților nr. 31/1990, republicată, cu modificările și completările ulterioare, inclusiv băncile sau alte instituții de credit, societățile de asigurare sau, după caz, reasigurare și cele financiare, precum și la instituțiile publice.
+
+f) funcția de manager, director, membru al consiliului de supraveghere, membru al directoratului sau membru al consiliilor de administrație ale regiilor autonome, companiilor și societăților naționale;”
+
+## 6. La articolul 84, alineatele (3) și (4) se modifică și vor avea următorul cuprins:
+
+„(3) În mod excepțional, Guvernul poate aproba participarea persoanelor prevăzute la alin. (1) și (2) ca reprezentanți ai statului în adunarea generală a acționarilor ori ca membri în consiliul de administrație, în consiliul de supraveghere sau al directoratului regiilor autonome, companiilor sau societăților naționale, instituțiilor publice ori al societăților reglementate de Legea nr. 31/1990, republicată, cu modificările și completările ulterioare, inclusiv băncile sau alte instituții de credit, societățile de asigurare sau, după caz, reasigurare și cele financiare, de interes strategic sau în cazul în care un interes public impune aceasta.
+
+(4) Membrii Guvernului, secretarii de stat, subsecretarii de stat și persoanele care îndeplinesc funcții asimilate acestora pot exercita funcții sau activități în domeniul didactic, al cercetării științifice și al creației literar-artistice. Dispozițiile art. 462 din Codul administrativ, cu modificările și completările ulterioare, se aplică în mod corespunzător.”
+
+7\. La articolul 85, alineatul (1), literele e) și h) se modifică și vor avea următorul cuprins:
+
+„e) funcția de președinte, vicepreședinte, director general, director, administrator, membru al consiliului de administrație, al consiliului de supraveghere ori al directoratului sau cenzor la societățile reglementate de Legea societăților nr. 31/1990, republicată, cu modificările și completările ulterioare, inclusiv băncile sau alte instituții de credit, societățile de asigurare sau, după caz, reasigurare și cele financiare, precum și la instituțiile publice;
+
+h) funcția de manager, director, membru al consiliului de supraveghere, membru al directoratului sau membru al consiliilor de administrație ale regiilor autonome, companiilor și societăților naționale;
+
+## 8. La articolul 85, alineatul (2) se modifică și va avea următorul cuprins:
+
+(2) Prefecții și subprefecții pot exercita funcții sau activități în domeniul didactic, al cercetării științifice și al creației literar-artistice. Dispozițiile art. 462 din Codul administrativ, cu modificările și completările ulterioare, se aplică, în mod corespunzător.”
+
+## 9. Articolul 86 se modifică și va avea următorul cuprins:
+
+„Art. 86. -- (1) Persoana care exercită una dintre funcțiile publice de autoritate prevăzute la art. 84 și 85 poate renunța la funcția care atrage starea de incompatibilitate în termen de 15 zile de la data depunerii jurământului sau, după caz, la data numirii în funcție.
+
+(2) În cazul în care, în timpul exercitării funcției publice de autoritate prevăzute la art. 84 și art. 85, apare unul dintre cazurile de incompatibilitate prevăzute de lege, persoanele vizate au obligația ca în termen de 30 de zile de la apariția stării de incompatibilitate să ia măsuri pentru a înceta starea de incompatibilitate.
+
+(3) Daca persoanele care ocupă funcțiile publice de autoritate prevăzute la art. 84 si 85 nu acționează pentru încetarea incompatibilității în termenul prevăzut la alin. (1) și (2), sancțiunea aplicabila acestora este încetarea mandatului sau, după caz, eliberarea din funcție.
+
+(4) Constatarea stării de incompatibilitate se face în condițiile Legii nr. 176/2010 privind integritatea în exercitarea funcțiilor și demnităților publice, pentru modificarea și completarca Legii nr. 144/2007 privind înființarea, organizarea și funcționarea Agenției Naționale de Integritate, precum și pentru modificarea și completarea altor acte normative, cu modificările și completările ulterioare.”
+
+10\. La articolul 87, alineatul (1), litera d) se modifică și va avea următorul cuprins:
+
+„d) funcția de președinte, vicepreședinte, director general, director, manager, administrator, membru al consiliului de administrație, al consiliului de supraveghere sau al directoratului ori cenzor sau orice funcție de conducere ori de execuție la societățile reglementate de Legea societăților nr. 31/1990, republicată, cu modificările și completările ulterioare, inclusiv băncile sau alte instituții de credit, societățile de asigurare sau, după caz, reasigurare și cele financiare, la regiile autonome de interes național, la companiile și societățile naționale, precum și la instituțiile publice, cu excepția reprezentanților în adunarea generală a acționarilor la societățile reglementate de Legea nr. 31/1990, republicată, cu modificările și completările ulterioare, a membrilor în consiliile de administrație ale unităților și instituțiilor de învățământ de stat sau confesionale și ale spitalelor publice din rețeaua autorităților administrației publice locale sau a altor reprezentanți ai instituțiilor publice din subordinea unităților administrativ-teritoriale sau la care unitatea administrativ-teritorială pe care o conduce deține participație;”
+
+## 11. La articolul 88, alineatul (1), litera c) se modifică și va avea următorul cuprins:
+
+„c) calitatea de funcționar public sau angajat cu contract individual de muncă în aparatul de specialitate al primarului ori în cadrul cancelariei prefectului, în cazul consilierului local, sau în aparatul de specialitate al consiliului județean ori în cadrul cancelariei prefectului din județul respectiv, în cazul consilierului județean.”
+
+## 12. La articolul 88, alineatul (1), după litera h) se introduc trei noi litere, lit. i), j) și k), având următorul cuprins:
+
+„i) calitatea de consilier personal al primarului, în cazul consilierului local, respectiv calitatea de consilier personal al președintelui sau vicepreședintelui consiliului județean, în cazul consilierului județean;
+
+j) funcția de administrator public al unității administrativ-teritoriale.
+
+k) calitatea de angajat cu contract individual de muncă în cadrul asociației de dezvoltare intercomunitară sau agenției pentru dezvoltare regională al cărei membru este unitatea administrativ-teritorială în care alesul local își exercită mandatul.”
+
+## 13. La articolul 88, după alineatul (1¹), se introduce un nou alineat, alin. (1²), cu următorul cuprins:
+
+„(1²) Nu se află în situație de incompatibilitate, în sensul prevederilor alin. (1) lit. c), consilierul local care are încheiat un contract în condițiile prevăzute la art. 39 din Legea nr. 448/2006 privind protecția și promovarea drepturilor persoanelor cu handicap, republicată, cu modificările și completările ulterioare, în calitate de asistent personal al persoanei cu handicap grav.”
+
+## 14. La articolul 91, alineatele (3) – (4) se modifică și vor avea următorul cuprins:
+
+„(3) Alesul local poate renunța la funcția deținută înainte de a fi numit sau ales în funcția care atrage starea de incompatibilitate sau în cel mult 30 zile de la numirea sau alegerea în această funcție. Alesul local care devine incompatibil prin aplicarea prevederilor prezentei secțiuni este obligat să renunțe la una dintre funcțiile incompatibile în cel mult 30 de zile de la intrarea în vigoare a prezentei legi.
+
+(4) În situația în care raportul de evaluare privind incompatibilitatea a rămas definitiv, mandatul alesului local încetează de drept înainte de termen. Constatarea încetării de drept a mandatului de ales local, se face de către prefect prin ordin, conform prevederilor Codului administrativ.”
+
+15\. La articolul 91, alineatele (5) și (6) se abrogă.
+
+16\. La articolul 92, alineatele (4) - (6) se abrogă.
+
+17\. Articolul 93, se modifică și va avea următorul cuprins:
+
+„(1) Prevederile art. 90 se aplică și persoanelor încadrate în aparatul de specialitate al primarului sau al consiliului județean ori la regiile autonome aflate sub autoritatea consiliilor locale sau județene sau la societățile înființate de consiliile locale sau consiliile județene respective.
+
+(2) Dispozițiile art. 90 alin. (2) se aplică și primarului, viceprimarului, președintelui și vicepreședintelui consiliului județean.
+
+(3) Încălcarea de către persoanele prevăzute la alin. (1) a dispozițiilor art. 90 atrage încetarea de drept a raporturilor de muncă sau de serviciu.
+
+(4) Constatarea încetării raporturilor de muncă sau de serviciu se face prin ordin sau dispoziție a conducătorilor autorităților publice sau ai agenților economici prevăzuți la alin. (1).”
+
+18\. După articolul 93 se introduce un nou articol, art. 93¹, cu următorul cuprins:
+
+„Art. 93¹. - Administratorului public i se aplică dispozițiile art. 76 și regimul incompatibilităților prevăzut în prezentul titlu pentru primari și viceprimari.”
+
+19\. La articolul 94, alineatul (2) se modifică și va avea următorul cuprins:
+
+„(2) Funcționarii publici nu pot exercita alte funcții și nu pot desfășura alte activități, remunerate sau neremunerate, după cum urmează:
+
+a) în cadrul autorităților sau instituțiilor publice;
+
+b) în cadrul cabinetului demnitarului, cu excepția cazului în care funcționarul public este suspendat din funcția publică, în condițiile legii, pe durata numirii sale;
+
+c) în cadrul regiilor autonome, societăților reglementate de Legea nr. 31/1990, republicată, cu modificările și completările ulterioare, ori în alte unități cu scop lucrativ din sectorul public;
+
+d) în calitate de membru al unui grup de interes economic;
+
+e) în cadrul organizațiilor internaționale, cu excepția situației în care funcționarul public exercită un mandat de reprezentare, pe baza desemnării de către o autoritate sau instituție publică, în condițiile expres prevăzute de actele normative în vigoare.”
+
+20\. La articolul 94, după alineatul (2³), se introduce un nou alineat, alin. (2⁴), cu următorul cuprins:
+
+„(2⁴) Prevederile alin. (2) lit. a), c), d) și e) se aplică și în situația în care raportul de serviciu al funcționarului public este suspendat conform legii.”
+
+21\. La articolul 95, alineatul (3) se modifică și va avea următorul cuprins:
+
+„(3) Persoanele care se află în una dintre situațiile prevăzute la alin. (1) sau (2) vor opta, în termen de 30 de zile, pentru încetarea raporturilor ierarhice directe sau renunțarea la calitatea de demnitar.”
+
+22\. La articolul 95, alineatul (5) se modifică și va avea următorul cuprins:
+
+„(5) Constatarea situațiilor prevăzute la alin. (1) și (2) și neîndeplinirea obligației prevăzute la alin. (3) se face în condițiile Legii nr. 176/2010 privind integritatea în exercitarea funcțiilor și demnităților publice, pentru modificarea și completarea Legii nr. 144/2007 privind înființarea, organizarea și funcționarea Agenției Naționale de Integritate, precum și pentru modificarea și completarea altor acte normative, cu modificările și completările ulterioare.”
+
+23\. La articolul 95, alineatul (6) se abrogă.
+
+24\. La articolul 98, alineatul (2) se modifică și va avea următorul cuprins:
+
+„(2) Funcționarilor publici le este interzis să fie membri ai organelor de conducere, administrare și control ale unui partid politic, atât la nivel național, cât și la nivel local.”
+
+25\. La articolul 98, după alineatul (3), se introduce un nou alineat, alin. (4), cu următorul cuprins:
+
+„(4) Funcționarii publici pot face parte din birourile electorale.”
+
+26\. La articolul 99, alineatul (1), literele a) și i) se abrogă.
+
+27\. La articolul 99, alineatul (1), literele e) și m) se modifică și vor avea următorul cuprins:
+
+„e) membrii Consiliului Autorității de Supraveghere Financiară;
+
+m) directorul general și membrii consiliului director al Agenției Naționale de Presă AGERPRES li se aplică dispozițiile art. 72 și regimul incompatibilităților prevăzut în prezentul titlu pentru miniștri și, respectiv, secretari de stat, precum și incompatibilitățile prevăzute în legi speciale.”
+
+28\. La articolul 99, alineatele (2) - (4) se modifică și vor avea următorul cuprins:
+
+„(2) Persoanele prevăzute la alin. (1) pot exercita funcții sau activități în domeniul didactic, al cercetării științifice și al creației literar-artistice. Dispozițiile art. 462 din Codul administrativ, cu modificările și completările ulterioare, se aplică în mod corespunzător.
+
+(3) Dispozițiile art.73 se aplică în mod corespunzător și persoanelor prevăzute la alin. (1).
+
+(4) Persoanele care ocupă demnitățile publice și funcțiile publice de autoritate prevăzute la alin. (1), dacă se află într-un caz de incompatibilitate, vor opta în termen de 30 de zile între aceste funcții și cele care sunt incompatibile cu acestea, demisionând din una dintre aceste funcții.”
+
+29\. La articolul 99, alineatul (5) se abrogă.
+
+30\. La articolul 99, alineatul (6) se modifică și va avea următorul cuprins:
+
+„(6) După expirarea termenului prevăzut la alin. (4), dacă starea de incompatibilitate continuă să existe, persoana care ocupă funcția sau demnitatea publică este considerată demisionată din această funcție. Demisia se aduce la cunoștința Camerei Deputaților și, respectiv, Senatului. Hotărârea Camerei prin care se constată demisia se publică în Monitorul Oficial al României, Partea I.”
+
+31\. După articolul 99, se introduce un nou articol, art. 99¹, cu următorul cuprins:
+
+„Art. 99¹. - Membrii Curții de Conturi sunt supuși incompatibilităților prevăzute de lege pentru judecători.”
+
+ART. IV. - Legea nr. 184/2016 privind instituirea unui mecanism de prevenire a conflictului de interese în procedura de atribuire a contractelor de achiziție publică, publicată în Monitorul Oficial al României, Partea I, nr. 831 din 20 octombrie 2016, se modifică și se completează după cum urmează:
+
+1\. La articolul 4, alineatul (1) se modifică și va avea următorul cuprins:
+
+„(1) Mecanismul de verificare ex ante se exercită de către A.N.I., prin Sistemul prevenție și activitatea specifică a inspectorilor de integritate.
+
+2\. La articolul 4, după alineatul (3) se introduce un nou alineat, alineatul (4), cu următorul cuprins:
+
+(4) În lipsa formularului de integritate sau în cazul completării neconforme a acestuia, A.N.I. utilizează Sistemul prevenție în vederea identificării posibilelor situații de conflicte de interese.”
+
+3\. La articolul 5, alineatele (1) - (3) se modifică și vor avea următorul cuprins:
+
+„(1) Formularul de integritate întocmit în cadrul mecanismului de prevenire a conflictului de interese face parte din documentația de atribuire a contractelor de achiziție publică și cuprinde următoarele informații:
+
+a) date privind procedura de achiziție, factorii decizionali, comisia de evaluare, consultanții și experții cooptați;
+
+b) date despre ofertanți/candidați, calitatea și datele de identificare ale operatorilor economici;
+
+c) date privind avertismentele de integritate emise și măsurile de înlăturare a potențialului conflict de interese, dispuse ca urmare a unui avertisment de integritate.
+
+(2) Autoritățile contractante/Entitățile au obligația de a asigura completarea, actualizarea și transmiterea formularului de integritate, de la publicarea în SEAP a documentației de atribuire, pe tot parcursul derulării procedurii și până la publicarea anunțului de atribuire a contractelor de achiziție publică. Formularul de integritate este accesibil, în format electronic, autorităților contractante/entităților și se completează în SEAP.
+
+(3) Formularul de integritate se întocmește potrivit modelului stabilit prin ordin comun al ministrului Economiei, Digitalizării, Antreprenoriatului și Turismului și al președintelui A.N.I., care se publică în Monitorul Oficial al României, Partea I, și conține date și informații referitoare la procedura de atribuire inițiată în SEAP, care vor fi actualizate, după caz, pe parcursul derulării procedurii de atribuire.”
+
+## 4. La articolul 6, alineatele (1) și (2) se modifică și vor avea următorul cuprins:
+
+„Art. 6.- (1) În cazul în care, la momentul completării formularului de integritate, comisia de evaluare nu a fost desemnată sau dacă, după completarea acestuia, au intervenit modificări cu privire la datele transmise, persoana responsabilă prevăzută la art. 5 alin. (4) are obligația efectuării modificărilor corespunzătoare și transmiterii acestora în Sistemul prevenție, în termen de maximum 2 zile de la desemnarea comisiei de evaluare sau de la intervenirea acestor modificări, dar nu mai târziu de momentul deschiderii ofertelor.
+
+(2) În termen de 5 zile de la deschiderea ofertelor în cadrul procedurii de achiziție publică, persoana responsabilă prevăzută la art. 5 alin. (4) procedează la completarea secțiunii a II-a a formularului de integritate și transmiterea acestuia în Sistemul prevenție.”
+
+## 5. La articolul 7, alineatul (2) se modifică și va avea următorul cuprins:
+
+„(2) În sensul alin. (1), în vederea identificării potențialelor conflicte de interese și a validării notificărilor emise de sistem, inspectorii de integritate din cadrul A.N.I. efectuează analiza datelor și informațiilor din Sistemul prevenție, monitorizând sistemul, prin raportare la toate reglementările specifice aplicabile fiecărei proceduri de atribuire și la persoanele comunicate în formular.”
+
+## 6. Articolul 9 se modifică și va avea următorul cuprins:
+
+„Art. 9. - Neluarea de măsuri ca urmare a primirii unui avertisment de integritate sau necompletarea formularului de integritate în condițiile prezentei legi declanșează din oficiu procedura de evaluare a conflictului de interese, după finalizarea procedurii de atribuire, exclusiv cu privire la persoanele față de care sunt incidente prevederile Legii nr. 176/2010, cu modificările ulterioare.”
+
+## 7. După articolul 9 se introduce un nou articol, art. 9¹, cu următorul cuprins:
+
+„Art.9¹. – (1) Nerespectarea prevederilor art. 5 alin. (2) de către persoanele responsabile, în condițiile prevăzute la art. 6 alin. (1) și alin. (2), constituie contravenție și se sancționează cu amendă de la 500 lei la 2.000 lei.
+
+(2) Neîndeplinirea obligațiilor de către conducătorul entității, potrivit art. 5 alin. (4), constituie contravenție și se sancționează cu amendă de la 2.000 lei la 10.000 lei.
+
+(3) Constatarea și aplicarea sancțiunilor se fac de către persoane împuternicite din cadrul Agenției Naționale de Integritate, conform prevederilor Ordonanței Guvernului nr. 2/2001 privind regimul juridic al contravențiilor, cu modificările și completările ulterioare.”
+
+## 8. Articolul 12 se modifică și va avea următorul cuprins:
+
+„Art. 12. - Activitățile din cadrul mecanismului de prevenire a conflictului de interese, desfășurate în procedura de atribuire a contractelor de achiziție publică, se desfășoară cu respectarea dispozițiilor privind protecția persoanelor cu privire la prelucrarea datelor cu caracter personal și libera circulație a acestor date.”
+
+9\. La articolul 14, după alineatul (4) se introduce un nou alineat, alin. (5), cu următorul cuprins:
+
+„(5) În vederea extinderii mecanismelor de prevenire a conflictelor de interese în procesele interne ale autorităților și instituțiilor publice, A.N.I. poate încheia protocoale de cooperare cu acestea, în scopul identificării posibilelor situații de conflict de interese.”
+
+## 10. Anexa se abrogă.
+
+ART. V. – La articolul 228 din Ordonanța de urgență a Guvernului nr. 57/2019 privind Codul administrativ, publicată în Monitorul Oficial al României, Partea I, nr. 555 din 5 iulie 2019, cu modificările și completările ulterioare, după alineatul (1), se introduc trei noi alineate, alin. (1¹) – (1³), cu următorul cuprins:
+
+„(1¹) Nu se află în situație de conflict de interese alesul local care propune, în cazul primarului, respectiv votează, în cazul consilierului local, bugetul, rectificări bugetare sau studii de fezabilitate pentru lucrări edilitare în cadrul unității administrativ-teritoriale, cu excepția situației în care sunt alocate fonduri către entități reglementate de Legea societăților nr. 31/1990, cu modificările și completările ulterioare, de O.U.G. nr. 44/2008 privind desfășurarea activităților economice de către persoanele fizice autorizate, întreprinderile individuale și întreprinderile familiale, cu modificările și completările ulterioare, Legea educației fizice și sportului nr. 69/2000, cu modificările și completările ulterioare, precum și de Ordonanța nr. 26/2000 cu privire la asociații și fundații, cu modificările și completările ulterioare, și care ar putea produce un folos material pentru alesul local, soțul, soția ori rudele sau afini până la gradul al II-lea inclusiv.
+
+(1²) Nu se află în situație de conflict de interese, alesul local care emite sau participă la emiterea sau adoptarea unui act administrativ în exercitarea competențelor legale în lipsa oricărei marje de apreciere, prin care se produce un folos pentru soțul, soția sau rudele ori afinii până la gradul al II-lea inclusiv ale acestuia, într-un cuantum determinat legal, a cărui întindere nu poate fi influențată prin manifestarea sa de voință.
+
+(1³) Nu se află în situație de conflict de interese alesul local care emite sau participă la emiterea sau adoptarea unui act administrativ cu caracter normativ.”
+
+ART.VI -- Persoanele care devin incompatibile prin aplicarea prevederilor prezentei legi sunt obligate să demisioneze din una dintre funcțiile sau calitățile incompatibile în cel mult 90 de zile de la intrarea în vigoare a prezentei legi.
+
+ART. VII - Procedurile de verificare potrivit prevederilor Legii nr. 184/2016 privind instituirea unui mecanism de prevenire a conflictului de interese în procedura de atribuire a contractelor de achiziție publică, a procesului de achiziție publică din fondurile europene, respectiv de atribuire a contractelor de achiziție publică, a contractelor de concesiune de lucrări publice și a contractelor de concesiune de servicii aflate în derulare se vor finaliza având în vedere prevederile aplicabile la data demarării procedurii de achiziție publică.
+
+ART. VIII – Ordinul comun al ministrului Economiei, Digitalizării, Antreprenoriatului și Turismului și al Președintelui Agenției Naționale de Integritate prevăzut la art. 5 alin. (3) din Legea nr. 184/2016 privind instituirea unui mecanism de prevenire a conflictului de interese în procedura de atribuire a contractelor de achiziție publică, se emite în termen de 30 de zile de la data intrării în vigoare a prezentei legi, dar nu mai târziu de 31 august 2026, și se va actualiza ori de câte ori este necesar.
+
+ART. IX - Pe o perioadă de 36 de luni de la data intrării în vigoare a prezentei legi, în situația neocupării posturilor vacante prin concurs, precum și în situația suspendării, în condițiile legii, a ocupării prin concurs sau examen a posturilor vacante din autoritățile publice și instituțiile publice, numirea inspectorilor de integritate se face prin transfer, conform prevederilor art. 506 din O.U.G. nr. 57/209 privind Codul. administrativ, cu modificările și completările ulterioare, cu respectarea prevederilor art. 18 alin. (2) din Legea nr. 144/2007 privind înființarea, organizarea și funcționarea Agenției Naționale de Integritate, precum și pentru modificarea și completarea altor acte normative, publicată în Monitorul Oficial al României, Partea I, nr. 621 din 2 septembrie 2010, cu modificările și completările ulterioare.
+
+ART. X - Dispozițiile prezentei legi se aplică incidentelor de integritate săvârșite ulterior intrării în vigoare prezentei legi
+
+ART. XI - Anexele nr. 1 și 2 la Legea nr. 176/2010 privind integritatea în exercitarea funcțiilor și demnităților publice, pentru modificarea și completarea Legii nr. 144/2007 privind înființarea, organizarea și funcționarea Agenției Naționale de Integritate, precum și pentru modificarea și completarea altor acte normative, publicată în Monitorul Oficial al României, Partea I, nr. 621 din 2 septembrie 2010, cu modificările și completările ulterioare se modifică și se înlocuiesc cu Anexele nr. 1 și 2 care fac parte integrantă din prezenta lege.
+
+ART. XII - Legea nr. 144/2007 privind înființarea, organizarea și funcționarea Agenției Naționale de Integritate, republicată în Monitorul Oficial al României, Partea I, nr. 535 din 3 august 2009, cu modificările și completările ulterioare, va fi republicată în Monitorul Oficial al României, Partea I, dându-se textelor o nouă numerotare.
+
+ART. XIII - Legea nr. 176/2010 privind integritatea în exercitarea funcțiilor și demnităților publice, pentru modificarea și completarea Legii nr. 144/2007 privind înființarea, organizarea și funcționarea Agenției Naționale de Integritate, precum și pentru modificarea și completarea altor acte normative, publicată în Monitorul Oficial al României, Partea I, nr. 621 din 2 septembrie 2010, cu modificările și completările ulterioare, va fi republicată în Monitorul Oficial al României, Partea I, dându-se textelor o nouă numerotare.
+
+Această lege a fost adoptată de Parlamentul României cu respectarea prevederilor art. 75 și art 76 alin. (1) din Constituția României, republicată.
+
+Președintele Senatului
+
+Mircea ABRUDEAN
+
+Președintele Camerei Deputaților
+
+Sorin-Mihai GRINDEANU
+
+# Declarație de avere
+
+## Capitolul I - Date de identificare
+
+Nume și prenume: CNP: Domiciliu:
+
+Notă: Declarația de avere se întocmește pe propria răspundere și cuprinde drepturile și obligațiile declarantului și ale copiilor minori aflați în întreținere, sub sancțiunea prevăzută de art. 326 privind falsul în declarații, din Legea nr. 286/2009 privind Codul penal.
+
+## Capitolul II - Active
+
+## A. Bunuri imobile
+
+<table>
+<tbody>
+<tr><td>Tip teren sau Tip clădire</td><td>Categorie</td><td>Adresă</td><td>Suprafață</td><td>Cota-parte</td><td>An dobândire</td><td>Mod dobândire</td><td>Preț dobândire +monedă</td><td>Observații</td><td>Titular</td></tr>
+</tbody>
+</table>
+
+Pentru selecția „Tip teren” se va selecta una dintre următoarele opțiuni: (1) intravilan; (2) extravilan; (3) luciu de apă.
+
+Pentru selecția „Tip clădire”, la Tip 2 se va selecta una dintre următoarele opțiuni: (1) apartament; (2) casă de locuit; (3) spațiu de producție/industrial; (4) birouri și spații comerciale; (5) loc de parcare.
+
+Pentru rubrica “Mod de dobândire” se va selecta una dintre următoarele opțiuni, conform legislației în vigoare: (1) cumpărare; (2) construire; (3) donație; (4) moștenire; (5) schimb; (6) hotărâre judecătorească; (7) alte moduri prevăzute de lege - situație în care se va completa manual de către declarant.
+
+Pentru rubrica “Titular” se va menționa, în cazul bunurilor proprii, numele proprietarului (titularul/copilul minor), iar în cazul bunurilor în coproprietate, cota-parte și numele coproprietarilor.
+
+## B. Bunuri mobile
+
+B.1. Mijloace de deplasare supuse înmatriculării și utilaje agricole/industriale
+
+<table>
+<tbody>
+<tr><td>Tip mijloace de deplasare</td><td>Marcă</td><td>Model</td><td>An fabricație</td><td>An dobândire</td><td>Mod dobândire</td><td>Preț dobândire + monedă</td><td>Observații</td><td>Titular</td></tr>
+</tbody>
+</table>
+
+Pentru rubrica “Tip mijloace de deplasare” se va selecta una dintre următoarele opțiuni: (1) autoturism; (2) autoutilitară; (3) camion - rulotă - remorcă; (4) motocicletă, scuter, ATV; (5) ambarcațiune (6) utilaj agricol/industrial (7) altele - situație în care se va completa manual de către declarant.
+
+Pentru rubrica "Mod de dobândire" se va selecta una dintre următoarele opțiuni, conform legislației în vigoare: (1) cumpărare; (2) donație; (3) moștenire; (4) schimb; (5) hotărâre judecătorească; (6) alte moduri prevăzute de lege - situație în care se va completa manual de către declarant.
+
+B.2. Bunuri de valoare semnificativă, altele decât cele prevăzute la punctul B.1 (valoare cumulată > 5.000 €)
+
+<table>
+<tbody>
+<tr><td>Tip bunuri de valoare semnificativă</td><td>Descriere sumară</td><td>An dobândire</td><td>Mod dobândire</td><td>Preț dobândire/estimată + monedă</td><td>Observații</td><td>Titular</td></tr>
+</tbody>
+</table>
+
+Pentru rubrica “Tip bunuri de valoare semnificativă” se va selecta una dintre următoarele opțiuni: (1) metale prețioase; (2) bijuterii; (3) obiecte de artă și de cult; (4) colecții de artă și numismatică; (5) obiecte care fac parte din patrimoniul cultural național sau universal; (6) altele - situație în care se va completa manual de către declarant.
+
+Pentru rubrica “Mod de dobândire” se va selecta una dintre următoarele opțiuni, conform legislației în vigoare: (1) cumpărare; (2) donație; (3) moștenire; (4) schimb; (5) hotărâre judecătorească; (6) alte moduri prevăzute de lege - situație în care se va completa manual de către declarant.
+
+## C. Active financiare
+
+C.1. Conturi, depozite, investiții financiare (valoare cumulată > 5.000 €)
+
+<table>
+<tbody>
+<tr><td>Tip conturi, depozite, investiții financiare</td><td>Instituția care administrează</td><td>Valoare la zi + monedă</td><td>Observații</td><td>Titular</td></tr>
+</tbody>
+</table>
+
+Pentru rubrica “Tip conturi, depozite, investiții financiare” se va selecta una dintre următoarele opțiuni: (1) cont curent; (2) depozite bancare; (3) economii; (4) titluri de stat, certificate, obligațiuni, fonduri mutuale; (5) fonduri de investiții sau echivalente; (6) fonduri private de pensii; (7) altele · situație în care se va completa manual de către declarant.
+
+C.2. Numerar și active digitale (valoare cumulată > 5.000 €)
+
+<table>
+<tbody>
+<tr><td>Tip numerar și active digitale</td><td>Platforma (excepție cash)</td><td>Nr. Unități (excepție cash)</td><td>Valoare la zi + monedă</td><td>Observații</td><td>Titular</td></tr>
+</tbody>
+</table>
+
+Pentru rubrica “Tip numerar și active digitale” se va selecta una dintre următoarele opțiuni: (1) cash; (2) monede digitale sau virtuale/cryptomonede; (3) tokenuri de securitate (Security Tokens); (4) Stablecoin-uri; (5) Tokenuri utilitare (Utility Tokens); (6) NFT-uri (Non-Fungile Tokens); (7) Tokenuri de guvernanță (Governance Tokens); (8) Monede digitale ale bâncilor centrale (CBDC); (9) Tokenuri reprezentând active sintetice; (10) altele - situație în care se va completa manual de către declarant.
+
+C.3. Împrumuturi acordate (valoare individuală > 5.000 €)
+
+<table>
+<tbody>
+<tr><td>Tip</td><td>Entitatea /beneficiar</td><td>Dată acordare、</td><td>Valoareacordată +monedă</td><td>Valoare la zi +monedă</td><td>Datăscadentă</td><td>Observații</td><td>Titular</td></tr>
+</tbody>
+</table>
+
+## D. Participații, acțiuni sau părți sociale în societăți, alte interese economice
+
+<table>
+<tbody>
+<tr><td>Tip</td><td>Entitate</td><td>Tară înregistrare</td><td>Cui</td><td>Cotă (%)</td><td>Mod dobândire</td><td>Valoare + monedă</td><td>Observații</td><td>Titular</td></tr>
+</tbody>
+</table>
+
+Pentru rubrica "Tip" se va selecta una dintre următoarele opțiuni: (1) participații; (2) acțiuni sau părți sociale în societăți; (3) alte interese economice- situație în care se va completa manual de către declarant.
+
+E. Venituri proprii\*, precum și cadouri, servicii sau avantaje primite gratuit sau subvenționate față de valoarea de piață din partea unor persoane, organizații, societăți, regii autonome, companii/societăți naționale sau instituții publice românești sau străine, inclusiv burse, credite, garanții, decontări de cheltuieli, altele decât cele ale angajatorului, a căror valoare individuală depășește 500 de euro
+
+\* Veniturile declarantului și ale minorilor aflați în întreținere, realizate în ultimul an fiscal încheiat.
+
+<table>
+<tbody>
+<tr><td>Sursa</td><td>Tip venituri proprii</td><td>Valoarea anuală netă + monedă</td><td>Observații</td><td>Titular</td></tr>
+</tbody>
+</table>
+
+Pentru rubrica “Tip venituri proprii” se va selecta una dintre următoarele opțiuni: (1) salariu; (2) venituri din cedarea folosinței bunurilor; (3) dividende; (5) activități independente; (6) investiții; (7) pensii; (9) burse; (9) activități agricole; (10) premii/jocuri de noroc; (11) donații; (12) cadouri; (13) bunuri înstrăinate; (14) drepturi de autor; (15 ) servicii sau avantaje primite gratuit sau subvenționate față de valoarea de piață din partea unor persoane, organizații, societăți, regii autonome, companii/societăți naționale sau instituții publice românești sau străine, inclusiv burse, credite, garanții, decontări de cheltuieli, altele decât cele ale angajatorului (16) despăgubiri ca urmare a încetării contractului de muncă sau mandatului; (17) venituri ca urmare a unei hotărâri judecătorești; (18) moștenire; (19) venituri din vânzarea/lichidarea unui activ; (20) îndemnizații de maternitate/paternitate/șomaj/handicap; (21) venituri din consilii de administrație (22) alte surse - situație în care se va completa manual de către declarant.
+
+## Capitolul III - Passive
+
+A. Credite, împrumuturi, datorii financiare
+
+<table>
+<tbody>
+<tr><td>Tip credite,împrumuturi,datoriifinanciare</td><td>Creditor</td><td>Valoarea inițială + monedă</td><td>Sold curent +monedă</td><td>Data scadentă</td><td>Observații</td></tr>
+</tbody>
+</table>
+
+Pentru rubrica "Tip credite, împrumuturi, datorii financiare" se va selecta una dintre următoarele opțiuni: (1) credite; (2) carduri de credit; (3) împrumuturi de la persoane fizice/juridice; (5) obligații și angajamente de plată; (6) leasing-uri; (7) datorii către IFN-uri; (8) alte surse - situație în care se va completa manual de către declarant.
+
+B. Garantii emise în beneficiul unui terț, ipoteci, obligații asumate (valoare cumulată > 5.000 €)
+
+<table>
+<tbody>
+<tr><td>Tip</td><td>Creditor</td><td>Valoarea inițială + monedă</td><td>Data scadentă</td><td>Observații</td></tr>
+</tbody>
+</table>
+
+Pentru rubrica "Tip" se va selecta una dintre următoarele opțiuni: (1) garanții emise în beneficiul unui terț; (2) ipoteci; (3) alte obligații asumate - situație în care se va completa manual de către declarant.
+
+C. Donații acordate (valoare individuală > 5.000 €)
+
+<table>
+<tbody>
+<tr><td>Tip</td><td>Donatar</td><td>Valoarea</td><td>Data</td><td>Observații</td></tr>
+</tbody>
+</table>
+
+Pentru rubrica "Tip" se va completa manual de către declarant tipul donației acordate.
+
+# DECLARAȚIE DE INTERESE
+
+Capitolul I - Date de identificare
+
+Notă: Declarația de interese se întocmește pe propria răspundere și cuprinde drepturile și obligațiile declarantului sub sancțiunea prevăzută de art. 326 privind falsul în declarații, din Legea nr. 286/2009 privind Codul penal.
+
+Capitolul II - Funcții și calități deținute
+
+A. Funcții și calități în entități publice și private din țară și străinătate
+
+\*deținute în an calendaristic anterior până la data depunerii
+
+Notă: sunt exceptate funcțiile și calitățile prevăzute la art. 1 alin. (1) din Legea nr. 176/2010 privind integritatea în exercitarea funcțiilor și demnităților publice, pentru modificarea și completarea Legii nr. 144/2007 privind înființarea, organizarea și funcționarea Agenției Naționale de Integritate, precum și pentru modificarea și completarea altor acte normative, cu modificările și completările ulterioare.
+
+<table>
+<tbody>
+<tr><td>Funcția / calitatea deținută</td><td>Entitate / organism / comitet / structură</td><td>CUI</td><td>Țară</td><td>Dată de început și modalitatea de numire</td><td>Dată de sfârșit (dacă este cazul)</td><td>Observații</td></tr>
+</tbody>
+</table>
+
+Pentru rubrica "Funcția/calitatea deținută" se completează manual de către declarant cu următoarele informații: (1) funcțiile și calitățile deținute în cadrul organismelor, comitetelor, sau structurilor decizionale, consultative ori de coordonare la nivel internațional; (2) funcțiile și calitățile în cadrul asociațiilor, asociațiilor profesionale, asociațiilor sindicale, patronatelor, fundațiilor și organizațiilor non-guvernamentale din țară și străinătate; (3) calitățile de asociat sau acționar la societăți, companii/societăți naționale, instituții de credit, grupuri de interes economic; (4) calitățile de membru în organele de conducere, administrare și control ale societăților, ale regiilor autonome, ale companiilor/societăților naționale, ale instituțiilor de credit, ale grupurilor de interes economic, ale asociațiilor sau fundațiilor ori ale altor organizații neguvernamentale; (5) alte funcții sau calități în entități publice și private înființate conform legii, din țară și din străinătate.
+
+B. Funcții și calități retribuite sau neretribuite în partide politice sau alte forme de organizare care participă la alegerile locale și/sau naționale.
+
+\*deținute în an calendaristic anterior până la data depunerii
+
+<table>
+<tbody>
+<tr><td>Funcția / Calitatea deținută</td><td>Partid politic</td><td>Dată de început</td><td>Dată de sfârșit (dacă este cazul)</td><td>Observații</td></tr>
+</tbody>
+</table>
+
+Capitolul III - Contracte finanțate integral sau parțial de la bugetul de stat, local și din fonduri externe, inclusiv contractele finanțate de societăți cu capital de stat sau unde statul este acționar:
+
+\*Contracte semnate sau aflate în derulare în anul anterior depunerii declarației, inclusiv cele ale copiilor minori aflați în întreținere
+
+| Denumire entitate la care deponent ul deține interese | CUI | Entitate finanțată integral sau parțial de la bugetul de stat, local și din fonduri externe/societate cu capital de stat sau unde statul este acționar | CUI | Tip contract | Data început | Dată finalizare | Valoare | Observații | Titular |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|  |  |  |  |  | ↑ |  |  |  |  |
+
+Pentru câmpul „Tip contract” se va selecta una dintre următoarele opțiuni: (1) Prestări servicii; (2) Furnizare; (3) Asistență/consultanță juridică; (4) altele - situație în care se va completa manual de către declarant.

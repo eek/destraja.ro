@@ -1,0 +1,189 @@
+{
+  "slug": "plx-27-2026",
+  "billId": "Pl-x 27/2026",
+  "updatedAt": "2026-10-29T13:51:06.694Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/000/20/7/pl794.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Consiliere psihologică gratuită pentru părinții copiilor cu sindrom Down sau autism",
+      "summaryTlDr": "Măsura socială e bună și a devenit deja lege, dar e scrisă vag. Dreptul există pe hârtie, însă cine îl primește, câte ședințe și din ce bani se decontează rămân pe seama contractului-cadru, fără niciun termen.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl027_cd027_26_(2).pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Consiliere psihologică gratuită pentru părinții copiilor cu autism sau sindrom Down",
+      "summaryTlDr": "Este o măsură socială utilă și nu ascunde capcane pentru cetățeni sau firme. Textul e însă vag: spune doar că părinții «pot beneficia», fără număr de ședințe, furnizori sau condiții, iar serviciul apare în trei locuri diferite ale legii. Riscul real nu e abuzul, ci ca dreptul să rămână pe hârtie sau să depindă de bugetul plafonat al unui program.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 2
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "mai_putin_riscant",
+      "headline": "Consilierea trece în programul național curativ, dar se aplică abia după bugetul pe 2027",
+      "summary": "Inițial, textul cerea centre „autorizate CNAS” și omitea tutorii din programele naționale. Acum ambele sunt corectate, iar normele au termen. Dar serviciul trece în programul curativ, cu fonduri limitate, iar legea se aplică abia după bugetul pe 2027.",
+      "changes": [
+        {
+          "title": "Consilierea trece în programul național curativ",
+          "text": "La art. 48 alin. (2), consilierea nu mai e la promovarea sănătății mintale (lit. a), ci în programele curative (lit. b), cu fonduri limitate. Asta intră în tensiune cu decontarea integrală de la art. 230.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 48 alin. (2) lit. b)",
+          "before": "ix) măsuri pentru promovarea sănătății mintale, precum și servicii de consiliere psihologică",
+          "after": "b) programe naționale de sănătate curative care au drept scop asigurarea tratamentului specific în cazul bolilor cu impact major asupra sănătății publice",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dispare lista de furnizori cu „autorizate CNAS”",
+          "text": "Alin. (6) de la art. 230 a fost scos. Nu mai apare formula greșită „autorizate CNAS” și nici lista care putea exclude unii psihologi. Legea nu mai spune însă unde se acordă serviciul.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 230 alin. (6)",
+          "before": "(6) Serviciile prevăzute la alin. (5) pot fi oferite în ambulatoriu, cabinete de psihologie clinică, centre de sănătate mentală și centre comunitare autorizate CNAS.",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Tutorii legali, incluși și în programele naționale",
+          "text": "La art. 48, consilierea din programele naționale se acordă acum și tutorilor legali, nu doar părinților, la fel ca la art. 230.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 48 alin. (2) lit. b)",
+          "before": "acordate părinților copiilor cu sindrom Down",
+          "after": "acordate părinților ori tutorilor legali ai copiilor cu sindrom Down",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Legea se aplică abia după bugetul pe 2027",
+          "text": "Art. II alin. (1): legea intră în vigoare la 30 de zile după Legea bugetului pe 2027. Costul poate fi planificat, dar până atunci legea nu produce niciun efect.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. II alin. (1)",
+          "before": null,
+          "after": "(1) Prevederile prezentei legi intră în vigoare în termen de 30 de zile de la data intrării în vigoare a Legii bugetului de stat pe anul 2027.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Guvernul are 90 de zile pentru norme",
+          "text": "Art. II alin. (2) obligă Guvernul să actualizeze normele în 90 de zile de la intrarea în vigoare. Inițial nu exista niciun termen de implementare.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. II alin. (2)",
+          "before": null,
+          "after": "(2) În termen de 90 de zile de la intrarea în vigoare a prezentei legi, Guvernul României actualizează normele metodologice de aplicare ale legii.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Doar „unități de specialitate”, noțiune nedefinită",
+          "text": "În programul curativ, serviciul se acordă acum „în unități de specialitate”, nu „în unități sanitare și comunitare”. Noțiunea nu e definită și poate lăsa pe dinafară centrele comunitare.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. 48 alin. (2) lit. b)",
+          "before": "în unități sanitare și comunitare",
+          "after": "în unități de specialitate",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Dreptul e doar permisiv: fără ședințe, durată, furnizori sau condiția de asigurat",
+            "major": true,
+            "article": "art. 230 alin. (5)"
+          },
+          {
+            "text": "Programul curativ are fonduri limitate, în tensiune cu decontarea integrală promisă",
+            "major": true,
+            "article": "art. 48 alin. (2) lit. b)"
+          },
+          {
+            "text": "Dubla bază legală permite Ministerului Sănătății și CNAS să-și paseze responsabilitatea",
+            "major": true,
+            "article": "art. 48 alin. (2) lit. b) și art. 230 alin. (5)"
+          },
+          {
+            "text": "Inserția rupe legătura enumerării cu persoanele diagnosticate cu autism",
+            "major": false,
+            "article": "art. 48 alin. (2) lit. b)"
+          },
+          {
+            "text": "„Unități de specialitate” nu e definit și poate restrânge furnizorii",
+            "major": false,
+            "article": "art. 48 alin. (2) lit. b)"
+          },
+          {
+            "text": "Până după bugetul pe 2027, legea promulgată nu produce niciun efect",
+            "major": false,
+            "article": "art. II alin. (1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Părinții și tutorii pot primi consiliere psihologică decontată integral",
+            "major": true,
+            "article": "art. 230 alin. (5)"
+          },
+          {
+            "text": "Tutorii legali sunt incluși și în programul național, nu doar părinții",
+            "major": true,
+            "article": "art. 48 alin. (2) lit. b)"
+          },
+          {
+            "text": "Nu mai există lista de furnizori cu formula greșită „autorizate CNAS”",
+            "major": true,
+            "article": "art. 230"
+          },
+          {
+            "text": "Consilierea pentru acești părinți e recunoscută explicit în lege",
+            "major": false,
+            "article": "art. 6 lit. h) pct. 11"
+          },
+          {
+            "text": "Legarea de bugetul pe 2027 lasă timp pentru planificarea costului",
+            "major": false,
+            "article": "art. II alin. (1)"
+          },
+          {
+            "text": "Guvernul are termen de 90 de zile pentru actualizarea normelor",
+            "major": false,
+            "article": "art. II alin. (2)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 11,
+        "removed": 5,
+        "same": 0.08
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:37:57.926Z"
+    }
+  ]
+}

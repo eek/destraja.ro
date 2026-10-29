@@ -1,0 +1,138 @@
+# EXPUNERE DE MOTIVE
+
+Prezenta propunere legislativă are ca scop modificarea articolului 77 alineatul (2) din Legea nr. 448/2006 privind protecția și promovarea drepturilor persoanelor cu handicap, astfel încât această dispoziție să fie pusă de acord cu realitățile sociale și juridice actuale, dar mai ales cu noile prevederi din Legea nr. 360/2023 privind sistemul public de pensii, intrată în vigoare la 1 septembrie 2024.
+
+În forma sa actuală, articolul menționat prevede că doar persoanele încadrate în gradul III de invaliditate sunt considerate, în sensul Legii nr. 448/2006, persoane cu handicap, și doar în contextul încadrării în muncă. Această formulare limitativă a fost construită pe baza concepției din vechea Lege nr. 263/2010 privind sistemul unitar de pensii publice, lege între timp abrogată și potrivit căreia doar persoanele cu invaliditate de gradul III își păstrează o anumită capacitate de muncă, în timp ce gradele I și II implicau pierderea totală a acesteia.
+
+Între timp însă, cadrul legal s-a schimbat, astfel că noua lege nr. 360/2023 a adus o abordare mult mai realistă și umană a situației persoanelor încadrate în grad de invaliditate. Aceasta a eliminat ideea rigidă conform căreia gradul I sau II de invaliditate presupune automat incapacitatea totală de muncă și a introdus posibilitatea ca, pentru orice grad de invaliditate, capacitatea de muncă să fie considerată păstrată pentru anumite activități profesionale, în funcție de starea de sănătate, de aptitudinile și de recomandările medicale ale fiecărei persoane.
+
+Prin urmare, potrivit noii legislații, și persoanele încadrate în gradul I sau II de invaliditate pot desfășura activități profesionale, în condițiile în care acest lucru este atestat prin documente legale. Cu toate acestea, Legea nr. 448/2006, care reglementează drepturile și obligațiile persoanelor cu handicap, nu a fost actualizată corespunzător. În consecință, aceste persoane rămân în afara cadrului de recunoaștere stabilit de lege, fiind tratate diferit față de persoanele încadrate în gradul III, deși pot și doresc să muncească.
+
+Această necorelare legislativă produce efecte nedrepte. Ea limitează accesul la locuri de muncă pentru un număr semnificativ de persoane, creează confuzie pentru angajatori și generează interpretări administrative contradictorii. În plus, menține o formă de discriminare indirectă între persoane aflate în situații medicale similare, doar pe baza gradului de invaliditate stabilit în acte. Prin modificarea propusă, se urmărește corectarea acestei inechități și adaptarea Legii nr. 448/2006 la noua realitate juridică și socială. Noua formulare propusă recunoaște și persoanele încadrate în grad de invaliditate I și II ca fiind asimilate persoanelor cu handicap, dar numai în contextul încadrării în muncă, și doar dacă desfășoară activități profesionale potrivit pregătirii, aptitudinilor și capacității lor de muncă, atestate prin documente legale. Această modificare are un efect de normalitate, ea nu creează privilegii, ci oferă o șansă reală de integrare profesională persoanelor care pot și vor să muncească. În același timp, clarifică situația angajatorilor, care vor ști cu precizie cine poate fi inclus în procentul de minimum 4% persoane cu handicap prevăzut de art. 78 alin. (2) din lege. Beneficiile acestei modificări sunt multiple. Pentru persoanele cu dizabilități, înseamnă recunoașterea oficială a dreptului la muncă și eliminarea unei bariere juridice care le-a exclus, pe nedrept, din categoria persoanelor protejate, pentru angajatori, înseamnă claritate și predictibilitate, evitându-se interpretările divergente ale instituțiilor de control, iar pentru stat înseamnă mai mulți oameni activi, independenți financiar, care contribuie la buget și care își valorifică potențialul prin muncă. Importanța acestei modificări este și una morală, nu doar tehnică. Ea transmite un mesaj puternic: acela că dizabilitatea sau invaliditatea nu anulează demnitatea și dreptul de a munci. Într-o societate modernă, protecția persoanelor vulnerabile nu se mai bazează doar pe ajutoare sociale, ci mai ales pe crearea de oportunități reale pentru autonomie, participare și incluziune. Adoptarea acestei propuneri nu implică niciun Impact bugetar negativ. Nu se introduc beneficii materiale noi și nu se generează cheltuieli suplimentare pentru stat. Din contră, pe termen mediu, măsura are efecte economice pozitive, prin creșterea veniturilor la buget și reducerea presiunii asupra sistemului de asistență socială. În concluzie, modificarea art. 77 alin. (2) din Legea nr. 448/2006 este o măsură firească, necesară și justă. Ea aduce legislația românească în acord cu principiile moderne ale protecției sociale și ale dreptului la muncă pentru toate persoanele cu dizabilități.
+
+Precizăm că prin adresa de înaintare s-a solicitat Guvernului, în temeiul art. 111 alin. (1) din Constituția României, republicată, să comunice punctul de vedere asupra acestei propuneri legislative și informații privind implicațiile bugetare generate de aceasta - fișă financiară.
+
+INIȚIATORI:
+
+Senator AUR Niculina Stelea \_\_\_\_
+
+Senator AUR Petrișor Gabriel Peiu \_\_\_\_
+
+Senator AUR Mircea Ionuț Sandu \_\_\_\_
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege pentru modificarea art. 77 alin. (2) din Legea nr. 448/2006 privind protecția și promovarea drepturilor persoanelor cu handicap, republicată
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1. | COLESA i41E-ALIN | AUR |  |
+| 2. | BOBOF EENA | AUR |  |
+| 3. | TILET DTRI | AUR |  |
+| 4. | BASER NELU VALENTI | AUR |  |
+| 5. | BORDIAN ALEXANDRU | AUR |  |
+| 6. | POPESCU ANTONIO | AUR |  |
+| 7. | NIUSAR LUCIAN | AUR |  |
+| 8. | NIHARESCU MUGUR | AUR |  |
+| 9. | CONSTANISECU ANDR2 | AUR |  |
+| 10. | iAGAR MORLICH | AUR |  |
+| 11. | SERDAN GIANNIN | AUR |  |
+| 12. | BASCALV CRISDHA EMA NUELA | AUR |  |
+| 13. | HRISTU COSMIN | AUR |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege pentru modificarea art. 77 alin. (2) din Legea nr. 448/2006 privind protecția și promovarea drepturilor persoanelor cu handicap, republicată
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td>Semnătura</td></tr>
+<tr><td>14.</td><td>FLOREA GADASIL</td><td>AUR</td><td rowspan="13"></td></tr>
+<tr><td>15.</td><td>Velcoscu flerin Bogdan</td><td>AUR</td></tr>
+<tr><td>16.</td><td>PUSCAȘU PETRE</td><td>AUR</td></tr>
+<tr><td>17.</td><td>CACIN GHE MATIBS</td><td>AUR</td></tr>
+<tr><td>18.</td><td>BUTURA CRISTINA - IPIK</td><td>AUR</td></tr>
+<tr><td>19.</td><td>MITREA BUMITRINA</td><td>AUR</td></tr>
+<tr><td>20.</td><td>CIOZNAI AARIIEL-OATACLIN</td><td>AUR</td></tr>
+<tr><td>21.</td><td>Vulpoiu Dorel</td><td>AUR</td></tr>
+<tr><td>22.</td><td>Naloniu Munteaniu</td><td>AQR</td></tr>
+<tr><td>23.</td><td>PASCARIU MIHAI-COSMIN</td><td>AUR</td></tr>
+<tr><td>24.</td><td>TATPASA DAY</td><td>AUR</td></tr>
+<tr><td>25.</td><td>GHTERASIM LITURAT</td><td>AUR</td></tr>
+<tr><td>26.</td><td>SVALUI JIKYIU-OCTANIAN</td><td>AUR</td></tr>
+</tbody>
+</table>
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege pentru modificarea art. 77 alin. (2) din Legea nr. 448/2006 privind protecția și promovarea drepturilor persoanelor cu handicap, republicată
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 27. | Popovici Phavu Conne1 | AUR |  |
+| 28. | Glohu Vezomict | Aur |  |
+| 29. | Corrid Arago | AUR |  |
+| 30. | GHEORGHE MIHAI CLAUAIU | AUR |  |
+| 31. | COSNIN COVENDEA | AUR |  |
+| 32. | VANH-TULOR LDA | AUR |  |
+| 33. | IOSUB COSMIN TEODOK | AUR |  |
+| 34. | RosaLor J LOU | AUR |  |
+| 35. | GHEORGHE IONEL | AUR |  |
+| 36. | Prieseu lonelia | AUR |  |
+| 37. | MIMDRBSEU MOE | AUR |  |
+| 38. | Lucian Floriu Tușceșu | AUR |  |
+| 39. | PARASENIV CIPAGAV ON | AUR |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege pentru modificarea art. 77 alin. (2) din Legea nr. 448/2006 privind protecția și promovarea drepturilor persoanelor cu handicap, republicată
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| h0. | SIMION GEORGE.HICOLAE | AUR |  |
+| h1. | OANCERSiCVIU | AVR |  |
+| h2. | EMACHE DIANA | AVR |  |
+| h3. | LOVIN RAMONA | AUR |  |
+| h4. | NEGOESCU MIHPAI-BOGDKN | AUR |  |
+| h5. | MICLEASAMCEL-VIRGIC | AUR |  |
+| h6. | PAUNESCU SILVIU-TITUS | AVR |  |
+| h7. | BIRD SAMPIC-RABUAN | AVR. |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege pentru modificarea art. 77 alin. (2) din Legea nr. 448/2006 privind protecția și promovarea drepturilor persoanelor cu handicap, republicată
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1 | PEIV PETRISOR-GABRIEL AUR |  |  |
+| 2. | Silgeonu Gdolini | AUR |  |
+| 3. | Poresea Teope | AUR |  |
+| 4. | Jefou Geauan | AUR |  |
+| 5 | SIPOS CRISTIAN | ACIR |  |
+| 6 | ACOB O. CIPRIAM | AUR |  |
+| 7 | STREZ M/UUHA | AUR |  |
+| 8 | STOICA CIPRIAN-777 | A.V.R. |  |
+| 9. | Bureoni Donino | AUR |  |
+| 10 | VLATHU LIIEOLAE | AUR |  |
+| 11 | Andrei Dialau | AVA |  |
+| 12 | PACOENH-FERNANDES LUMINJIN | AUE |  |
+| 13. | PLOSPEU KOUZATIU | AUR |  |
+
+## LISTA
+
+## Susținătorilor propunerii legislative – Lege pentru modificarea art. 77 alin. (2) din Legea nr. 448/2006 privind protecția și promovarea drepturilor persoanelor cu handicap, republicată
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 19. | Duomităseu Cristine-Gabriella | AUR |  |
+| 15 | Vlăsau Vcayba | AUR |  |
+| 16 | Pete Gage C##e | AUR |  |
+| 17 | SANDU M. JONUT | AUR |  |
+| 18 | SPAU DUMITRU | AUR |  |
+| 19 | VASILE MARIAN | AUR |  |
+| 20 | Lavice Soou | AUR |  |
+| 21. | Rouuau Illoceius Vlaludiu | AUR |  |
+| 22. | Stefănescu Daniela | AUR |  |
+| 23. | CHERTIF COSTACHE | AUR |  |
+| 24. | Coustaintiaceu Rodice | AUR |  |
+|  |  |  | / |

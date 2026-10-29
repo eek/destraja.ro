@@ -1,0 +1,107 @@
+{
+  "slug": "plx-119-2026",
+  "billId": "PL-x 119/2026",
+  "updatedAt": "2026-10-29T12:40:35.730Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L569FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Microfirme: plafonul de 250.000 € rămâne până în 2028, iar la part-time contribuțiile devin proporționale",
+      "summaryTlDr": "Măsurile sunt favorabile firmelor și salariaților part-time, dar sunt scrise neglijent. Plafonul de 250.000 € e ridicat doar în regulile de ieșire, nu și în condiția de eligibilitate, iar abrogarea CAS-ului minim la part-time se aplică întregii economii, nu doar studenților și pensionarilor. Pierderea de venituri bugetare nu e cuantificată, deși România e în procedura de deficit excesiv.",
+      "scores": {
+        "agy": 3,
+        "claude": 5,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/10/9/se104.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Microfirmele păstrează pragul de 250.000 € până în 2028, pot avea ca unic angajat un student sau pensionar part-time, iar contribuția minimă la part-time dispare pentru toți",
+      "summaryTlDr": "Microfirmele primesc o relaxare fiscală reală. Proiectul conține însă o măsură mult mai largă decât spune expunerea: abrogă contribuția minimă pentru toate contractele part-time din economie, fără estimare de cost, fără intrare în vigoare și fără regim tranzitoriu pentru un 2026 aproape încheiat.",
+      "scores": {
+        "agy": 5,
+        "claude": 5,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul l-a adoptat tacit, fără nicio modificare de fond față de forma inițiatorului",
+      "summary": "Proiectul se consideră adoptat de Senat în forma inițială, prin depășirea termenului constituțional. Textul e același, deci rămân aceleași probleme, mai ales scăderea contribuțiilor la toate contractele part-time din economie.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Contribuțiile sociale scad la toate contractele part-time din economie, pensii mai mici",
+            "major": true,
+            "article": "art. I pct. 6 și 8 (art. 146 alin. 5⁶-5⁹ și 8¹)"
+          },
+          {
+            "text": "Plafonul de ieșire (250.000 €) nu e corelat cu cel de intrare",
+            "major": true,
+            "article": "art. I pct. 4-5 (art. 52 alin. 1 și 5¹)"
+          },
+          {
+            "text": "Nu spune dacă «minim 4 ore» înseamnă pe zi sau pe săptămână",
+            "major": true,
+            "article": "art. I pct. 3 (art. 51 alin. 4 lit. a¹)"
+          },
+          {
+            "text": "Exclude pensionarii anticipați, de invaliditate și din sistemele speciale",
+            "major": true,
+            "article": "art. I pct. 3 (art. 51 alin. 4 lit. a¹)"
+          },
+          {
+            "text": "Exclude studenții înscriși la universități din alte state UE",
+            "major": true,
+            "article": "art. I pct. 3 (art. 51 alin. 4 lit. a¹)"
+          },
+          {
+            "text": "Forma «seral» nu mai corespunde realității, iar învățământul la distanță lipsește",
+            "major": false,
+            "article": "art. I pct. 3 (art. 51 alin. 4 lit. a¹)"
+          },
+          {
+            "text": "Cele 90 de zile privesc doar firmele noi, nu și cele care pierd salariatul",
+            "major": false,
+            "article": "art. I pct. 2 (art. 48 alin. 3)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Un student sau pensionar angajat part-time poate îndeplini condiția de salariat",
+            "major": true,
+            "article": "art. I pct. 3 (art. 51 alin. 4 lit. a¹)"
+          },
+          {
+            "text": "Firmele noi au 90 de zile, nu 30, să angajeze primul salariat",
+            "major": false,
+            "article": "art. I pct. 2 (art. 48 alin. 3)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 9,
+        "removed": 11,
+        "same": 0.55
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:37:27.077Z"
+    }
+  ]
+}

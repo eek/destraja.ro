@@ -1,0 +1,125 @@
+# EXPUNERE DE MOTIVE
+
+## I. Premise. Necesitatea reglementării
+
+România se află într-un moment istoric în care apărarea intereselor sale naționale nu mai poate fi tratată ca un subiect marginal sau secundar în raport cu tendințele birocratice, ideologice sau administrative care tind să limiteze exprimarea liberă a cetățenilor.
+
+În ultimele decenii, sub presiunea unor curente legislative și administrative excesiv de restrictive, spațiul libertății de exprimare, al libertății de conștiință și al libertății de asociere a fost adesea supus unor interpretări care au generat teamă, autocenzură și incertitudine juridică. Într-un stat democratic matur, cetățeanul nu trebuie să fie pus în situația de a se teme că exprimarea atașamentului față de valorile, istoria, cultura și interesele naționale poate deveni obiectul unor interpretări arbitrare.
+
+Tara noastră traversează o perioadă complexă, marcată de transformări geopolitice, economice și culturale accelerate, în care statele europene își reafirmă tot mai ferm dreptul legitim de a-și proteja identitatea, valorile și interesele naționale.
+
+În acest context, este esențial ca statul român să ofere cetățenilor săi garanții juridice clare că exercitarea drepturilor fundamentale — libertatea de conștiință, libertatea de exprimare, libertatea de asociere și libertatea de informare — poate fi realizată fără teamă de interpretări arbitrare, atunci când aceste drepturi sunt exercitate în scopul promovării intereselor legitime ale României.
+
+## II. Obiectivele principale
+
+În ultimii ani, în spațiul public au apărut dezbateri privind modul în care anumite acte normative sunt interpretate și aplicate în raport cu libertățile fundamentale. Într-o societate democratică, asemenea preocupări trebuie analizate transparent, prin mecanisme parlamentare și constituționale, pentru a asigura echilibrul între:
+
+\- combaterea extremismului și a discursului de ură;
+
+\- protecția demnității umane și a demnității identitare;
+
+\- garantarea libertăților fundamentale;
+
+\- protejarea intereselor naționale legitime ale statului roman și ale cetățeanului român. Inițiativa legislativă are ca obiectiv:
+
+1\. interesul vital al naționalismului românesc, în sensul constitutional, prevăzut de art.1 din Constituție, de a îndepărta obstacolele din calea apărării identității naționale;
+
+2\. afirmarea caracterului legitim al exprimării opiniilor privind interesul național, în limitele Constituției;
+
+3\. prevenirea interpretărilor excesiv restrictive ale libertăților fundamentale;
+
+4\. creșterea previzibilității normelor juridice aplicabile domeniului libertății de exprimare și asociere;
+
+5\. instituirea unor mecanisme de control constituțional și parlamentar asupra legislației care afectează aceste libertăți.
+
+Prezenta propunere legislativă nu urmărește sub nicio formă relativizarea obligațiilor României privind combaterea antiromânismului, rasismului, antisemitismului, xenofobiei sau a altor forme de extremism. Scopul său este exclusiv acela de a asigura claritate legislativă, previzibilitate juridică și proporționalitate în restrângerea drepturilor fundamentale.
+
+De asemenea, inițiativa propune instituirea unui mecanism parlamentar de evaluare a compatibilității legislației relevante cu dispozițiile constituționale privind libertățile fundamentale, ca expresie a rolului Parlamentului de garant al suveranității naționale și al statului de drept.
+
+Această inițiativă legislativă pornește de la un principiu simplu: loialitatea față de statul român, promovarea interesului național și exprimarea identității naționale nu pot fi suspectate, implicit sau explicit, ca fiind incompatibile cu democrația. Dimpotrivă, acestea reprezintă elemente firești ale unei societăți libere, pluraliste și suverane.
+
+Într-un climat internațional în care statele își reafirmă legitimitatea de a-și apăra interesele economice, culturale și de securitate, România nu poate rămâne într-o zonă de ambiguitate juridică sau de vulnerabilitate legislativă. Statul român are obligația constituțională de a-și proteja cetățenii, identitatea și valorile fundamentale, iar Parlamentul are datoria de a asigura un cadru legislativ clar, previzibil și echilibrat.
+
+Prezenta inițiativă legislativă nu urmărește slăbirea mecanismelor de combatere a extremismului, a rasismului sau a discursului de ură. Acestea rămân obiective esențiale ale statului român. Însă combaterea extremismului nu trebuie confundată cu limitarea exprimării legitime a opiniilor privind interesul național, istoria națională, identitatea culturală sau opțiunile politice suveraniste în sens democratic.
+
+## III. Impactul socio-economic
+
+În lipsa unor garanții legislative explicite, există riscul ca formulări juridice insuficient de clare să permită interpretări excesive sau neuniforme, ceea ce afectează încrederea cetățenilor în instituțiile statului și în statul de drept. Legea trebuie să fie clară, previzibilă și aplicată uniform, nu utilizată selectiv sau interpretată extensiv în detrimentul libertăților fundamentale.
+
+Parlamentul României, ca organ reprezentativ suprem al poporului român, are obligația de a examina permanent dacă legislația adoptată servește interesul public și respectă pe deplin Constituția. De aceea, prezenta lege propune instituirea unui mecanism parlamentar transparent de evaluare a compatibilității legislației relevante cu drepturile și libertățile fundamentale.
+
+Această lege reprezintă un demers de reafirmare a echilibrului dintre libertate și responsabilitate, dintre protecția demnității umane și dreptul legitim al cetățenilor de a-și apăra interesele naționale prin mijloace democratice.
+
+În contextul transformărilor geopolitice, economice și sociale, devine necesară clarificarea raportului dintre:
+
+\- libertatea de exprimare, conștiință, asociere și informare;
+
+\- protejarea valorilor democratice și constituționale;
+
+\- apărarea intereselor legitime ale statului român și ale cetățenilor săi.
+
+## IV. Impactul bugetar
+
+Nu produce impact bugetar
+
+## V. Concluzii
+
+România trebuie să fie un stat în care cetățenii pot vorbi liber despre viitorul națiunii lor, despre prioritățile strategice ale statului și despre modul în care își văd apărate interesele colective - fără teamă, fără ambiguitate juridică și fără presiuni ideologice.
+
+Față de cele prezentate, considerăm necesară adoptarea prezentei legi
+
+INIȚIATOR:
+
+DUMITRU MANEA - senator de Iași
+
+Tabel cu semnături la Propunerea legislativă privind legitimitatea apărării intereselor naționale ale României
+
+| Nr.crt | Deputați/Senatori | Grupul parlamentar |
+| --- | --- | --- |
+| 1. | MAREA DUIHITU | S.O.S. RO |
+| 2. | MACOVI LIE SIMONA ELENA | S.O.S. RO |
+| 3. | PASCALINI MINI ACUARAN | S.O.S. RO |
+| 4. | GONDEICU IOMEZ | √.0V. RO |
+| 5. | IONESCU TUDOR | S.O.S. RO |
+| 6. | NAGY VASICE | S.O.S. RO |
+| 7. | TIV MIHAI ADRIAN | S.O.S. RO |
+| 8. | IVIDRA VLAD-ANDREI | S.O.S. RO |
+| 9. | PAUL GHEORGHE | PAEE |
+| 10. | GHITA ROBERT ADRIEL | HEAFFILIAT |
+| 11. | PICTEA PAUL - CIPAINE | HEAFFILIAT |
+| 12. | VELA GUERGUE | POT |
+| 13. | ROBE LIUIO - SORIN | NEAFFILIAT |
+| 14. | LAVIC SERIN | AVR |
+| 15. | ALDEA VALENTINA - NARGANA | NEAFFILIAT |
+| 16. | BENY CRISDIAN | PACE |
+| 17. | TOMDER ELENA - LAURA | S.O.S. RO |
+| 18. | OLIENASU SORIN | S.O.S. RO |
+| 19. | CARAGAI' FLORIN | S.O.S. RO |
+| 20. | LAZAROI IOAN | S.O.S. RO |
+| 21. | CUDUC GIPRIAN | NEAFFILIAT |
+
+Tabel cu semnături la Propunerea legislativă privind legitimitatea apărării intereselor naționale ale României
+
+| Nr.crt | Deputați/Senatori | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 22 | BAS.BNA MAKAZA | SOS.AO |  |
+| 23 | CIMPIANLI ANDREEA-PETRONELIA | S.O.S RO |  |
+| 24 | lon Nicolop rólive | S.O.S.RD |  |
+| 25 | Verguio Veolinos | SOS Ro |  |
+| 26 | ANAMARIA GAVILA | POT |  |
+| 27 | Jehuia Chewy | POT |  |
+| 28 | CERVA KHINA COSAIVA | PACE-IR |  |
+| 29 | VÀPAI MARIANA | Independenț |  |
+| 30 | PICO PENAIO ROMICA | INDEPENDENT |  |
+| 31 | TAGET MADALIN LAURENTJO | INDEPENDENT |  |
+| 32 | GROZEL CAÍN FIORIN | INDEPENDENT |  |
+| 33 | CUSNIR RODICA | PACE-INTAÎ ROMAÎ |  |
+| 34 | ONEA DLGA | PACE |  |
+| 35 | Andrei DÎLÂU | AUR |  |
+| 36 | baceari Sonice | AUR |  |
+| 37 | PAOCEON-FERNANDES LUMINITA | AUR |  |
+| 38 | Vlècesu Virgiliu | AUR |  |
+| 39 | Constantineau Dandr2 | AUR |  |
+| 40 | OATAH AHUAVA | Miz Chut |  |
+| 41 | Robert Alecu | Neofliat |  |
+| 42 | Crishon VAÂNTU | AUR |  |

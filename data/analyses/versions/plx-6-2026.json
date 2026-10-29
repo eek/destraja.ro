@@ -1,0 +1,205 @@
+{
+  "slug": "plx-6-2026",
+  "billId": "PL-x 6/2026",
+  "updatedAt": "2026-10-29T13:46:56.678Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/000/00/6/pl7.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Procese civile între state UE: părțile aflate în străinătate pot participa prin video",
+      "summaryTlDr": "Lege tehnică și utilă. Pune în aplicare, cu circa un an întârziere, un regulament UE deja obligatoriu și permite părților aflate în alt stat UE să participe la procese civile prin videoconferință. Nu introduce taxe, sancțiuni sau obligații noi; slăbiciunea ei este că nu spune ce se întâmplă când cade conexiunea și nu garantează discuția confidențială dintre parte și avocat.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl006_cd006_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Proces civil prin video pentru părțile aflate în alt stat UE",
+      "summaryTlDr": "Lege tehnică și utilă. Aliniază România la regulamentul UE privind justiția digitală și permite părților aflate în alt stat UE să participe prin video la procesul civil din România. Riscurile țin doar de redactare: lipsesc reguli pentru cererea de participare și pentru căderea conexiunii.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L220FS.PDF",
+      "source": "senat.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Părțile aflate în alt stat UE pot participa online la procesele civile din România",
+      "summaryTlDr": "Lege tehnică și utilă. Aplică un regulament UE care se aplică de la 1 mai 2025 și scutește de drumuri și cheltuieli părțile aflate în alt stat membru. Riscul real ține de ce lipsește din text: cine cere videoconferința, dacă partea poate veni totuși în sală și ce se întâmplă când legătura cade.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a adoptat textul inițiatorului fără nicio schimbare de fond",
+      "summary": "Acum textul e același ca inițial: instanța poate decide ca o parte aflată în alt stat UE să participe la proces prin video. Diferențele sunt doar de redactare: formula de adoptare, punctuația și două greșeli de diacritice.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Video la proces rămâne decizia instanței („pot hotărî”), nu un drept al părții",
+            "major": true,
+            "article": "art. I¹³ art. 1"
+          },
+          {
+            "text": "Doar pentru părți din alt stat UE; cele din România sau Moldova, excluse",
+            "major": true,
+            "article": "art. I¹³ art. 1"
+          },
+          {
+            "text": "Nu se garantează un canal confidențial între parte și avocat în ședință",
+            "major": true,
+            "article": "art. I¹³ art. 4"
+          },
+          {
+            "text": "Legea nu spune că partea poate cere video și că refuzul se motivează",
+            "major": false,
+            "article": "art. I¹³ art. 2"
+          },
+          {
+            "text": "Înștiințarea prin telefon sau e-mail se face doar „când este cazul”",
+            "major": false,
+            "article": "art. I¹³ art. 3"
+          },
+          {
+            "text": "Fără buget alocat; aplicarea depinde de dotarea fiecărei instanțe",
+            "major": false,
+            "article": "art. I¹³ art. 2"
+          }
+        ],
+        "good": [
+          {
+            "text": "Părțile aflate în alt stat UE pot participa prin video, fără deplasare",
+            "major": true,
+            "article": "art. I¹³ art. 1"
+          },
+          {
+            "text": "Conexiunea trebuie să verifice identitatea și să fie sigură și confidențială",
+            "major": false,
+            "article": "art. I¹³ art. 1"
+          },
+          {
+            "text": "Instanța ține cont de tehnologie, opinia părților și potrivirea cu cauza",
+            "major": false,
+            "article": "art. I¹³ art. 2"
+          },
+          {
+            "text": "Citația arată ora orientativă a strigării și modul de conectare",
+            "major": false,
+            "article": "art. I¹³ art. 3"
+          },
+          {
+            "text": "Avocatul, traducătorul sau interpretul se pot conecta din alt loc decât partea",
+            "major": false,
+            "article": "art. I¹³ art. 4"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 7,
+        "removed": 6,
+        "same": 0.22
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:46:27.426Z"
+    },
+    {
+      "from": "camera",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a păstrat textul Camerei fără schimbări de fond, doar cu corecturi de redactare",
+      "summary": "Forma adoptată de Senat preia aproape identic regulile Camerei despre participarea prin video la procesele civile transfrontaliere din UE. Diferențele sunt doar de redactare și diacritice, deci riscurile și garanțiile rămân aceleași.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Participarea video depinde de instanță, nu este un drept al părții",
+            "major": true,
+            "article": "art. I¹³, art. 1"
+          },
+          {
+            "text": "Instanța poate impune video peste obiecția părții; prezența fizică nu e garantată expres",
+            "major": true,
+            "article": "art. I¹³, art. 2"
+          },
+          {
+            "text": "Lipsește un canal confidențial între parte și avocat în timpul ședinței",
+            "major": true,
+            "article": "art. I¹³, art. 4"
+          },
+          {
+            "text": "Aplicarea depinde de tehnologia pe care o are fiecare instanță",
+            "major": false,
+            "article": "art. I¹³, art. 2"
+          }
+        ],
+        "good": [
+          {
+            "text": "Părțile aflate în alt stat UE pot participa online la procese civile",
+            "major": true,
+            "article": "art. I¹³, art. 1"
+          },
+          {
+            "text": "Transmisiunea trebuie să verifice identitatea și să garanteze securitatea și confidențialitatea",
+            "major": false,
+            "article": "art. I¹³, art. 1"
+          },
+          {
+            "text": "Instanța ține cont de tehnologie, opinia părților și caracterul adecvat",
+            "major": false,
+            "article": "art. I¹³, art. 2"
+          },
+          {
+            "text": "Citația arată intervalul orar orientativ și modul de acces și autentificare",
+            "major": false,
+            "article": "art. I¹³, art. 3"
+          },
+          {
+            "text": "Înștiințare suplimentară prin telefon sau e-mail, cu confirmare de primire",
+            "major": false,
+            "article": "art. I¹³, art. 3"
+          },
+          {
+            "text": "Avocatul, traducătorul sau interpretul se pot conecta din alt loc",
+            "major": false,
+            "article": "art. I¹³, art. 4"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 7,
+        "removed": 8,
+        "same": 0.13
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:46:56.678Z"
+    }
+  ]
+}

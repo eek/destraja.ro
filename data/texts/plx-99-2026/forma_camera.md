@@ -1,0 +1,15 @@
+# PARLAMENTUL ROMÂNIEI CAMERA DEPUTAȚILOR
+
+LEGE
+
+pentru ratificarea Acordului de parteneriat dintre Uniunea Europeană și statele membre ale acesteia, pe de o parte, și membrii Organizației statelor din Africa, zona Caraibilor și Pacific, pe de altă parte, semnat la Apia, Samoa, la 15 noiembrie 2023
+
+Camera Deputaților adoptă prezentul proiect de lege.
+
+Articol unic. - Se ratifică Acordul de parteneriat dintre Uniunea Europeană și statele membre ale acesteia, pe de o parte, și membrii Organizației statelor din Africa, zona Caraibilor și Pacific, pe de altă parte, semnat la Apia, Samoa, la 15 noiembrie 2023.
+
+Acest proiect de lege se consideră adoptat de Camera Deputaților în forma inițială, în condițiile art. 75 alin. (2) teza a III-a din Constituția României, republicată.
+
+p. PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+NATALIA-ELENA INTOTERO

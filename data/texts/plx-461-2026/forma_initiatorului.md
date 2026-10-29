@@ -1,0 +1,23 @@
+## LEGE
+
+pentru desființarea Institutului Român pentru Drepturile Omului și pentru abrogarea Legii nr. 9/1991 privind înființarea Institutului Român pentru Drepturile Omului
+
+Art. 1. Institutul Român pentru Drepturile Omului, înființat prin Legea nr. 9/1991 privind înființarea Institutului Român pentru Drepturile Omului, cu modificările și completările ulterioare, se desființează.
+
+Art. 2. Începând cu data intrării în vigoare a prezentei legi, activitatea Institutului Român pentru Drepturile Omului încetează.
+
+Art. 3. În termen de 45 de zile de la data intrării în vigoare a prezentei legi, în condițiile legii, încetează toate contractele de muncă ale angajaților Institutului Român pentru Drepturile Omului.
+
+Art. 4. În termen de 30 de zile de la data intrării în vigoare a prezentei legi, patrimoniul Institutului Român pentru Drepturile Omului se transferă în patrimoniul Camerei Deputaților.
+
+Art. 5. Obligațiile privind raportările financiare pentru Institutul Român pentru Drepturile Omului se preiau de către Camera Deputaților.
+
+Art. 6. Arhiva Institutului Român pentru Drepturile Omuluise preia de către Camera Deputaților în termen de 30 de zile de la data intrării în vigoare a prezentei legi.
+
+Art. 7. La data intrării în vigoare a prezentei legi, Legea nr. 9/1991 privind înființarea Institutului Român pentru Drepturile Omului, publicată în Monitorul Oficial al României, Partea I, nr. 24 din 30 ianuarie 1991, cu modificările și completările ulterioare, se abrogă.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor articolului 75 și ale articolului 76 alineatul (2) din Constituția României, republicată.
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR SORIN MIHAI GRINDEANU
+
+PREȘEDINTELE SENATULUI MIRCEA ABRUDEAN

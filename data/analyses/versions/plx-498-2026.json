@@ -1,0 +1,153 @@
+{
+  "slug": "plx-498-2026",
+  "billId": "PL-x 498/2026",
+  "updatedAt": "2026-10-29T13:12:21.087Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L319FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Mierea din amestec: eticheta trebuie să spună din ce țări vine și în ce procent",
+      "summaryTlDr": "Lege tehnică și utilă, care preia aproape cuvânt cu cuvânt noile reguli UE pentru mierea din amestec: cumpărătorul află din ce țări provine mierea și în ce proporție. Riscul e mic. Problemele țin de redactare (toleranța de 5%), de lipsa unei perioade de tranziție și de o nepotrivire între textul inițiatorului și fișa Camerei.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/90/8/se564.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Pe borcanul de miere trebuie să scrie clar din ce țară provine mierea",
+      "summaryTlDr": "Lege utilă și în mare parte impusă de UE: transpune, cu întârziere, regula ca pe eticheta mierii să apară vizibil țara sau țările de recoltare. Problema e de redactare: două alineate se contrazic asupra autorității care emite normele, iar detaliile esențiale sunt lăsate unui ordin fără termen.",
+      "scores": {
+        "agy": 3,
+        "claude": 2,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_riscant",
+      "headline": "Procentele pe țări la amestecurile de miere ies din lege și vor fi stabilite prin ordin de ministru",
+      "summary": "Inițial, legea spunea exact cum se etichetează amestecurile de miere: fiecare țară în ordine, cu procent. Acum regulile sunt lăsate unui ordin de ministru, fără termen, iar două alineate se contrazic despre cine îl emite.",
+      "changes": [
+        {
+          "title": "Procentele pe țări la amestecuri ies din lege",
+          "text": "La art. 17¹ alin. (2), regula cu țările în ordine descrescătoare și procentul fiecăreia, cu toleranța de 5%, e înlocuită de trimiterea la un ordin al ministrului agriculturii.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 17¹ alin. (2)",
+          "before": "În cazul amestecurilor de miere provenite din mai multe țări, indicarea acestora se realizează prin menționarea fiecărei țări de origine în ordinea descrescătoare a ponderii în amestec, însoțită de procentul corespunzător fiecărei origini.",
+          "after": "Modalitatea de indicare a țărilor de origine, inclusiv în cazul amestecurilor de miere provenite din mai multe țări, se stabilește prin normele aprobate prin ordin al ministrului agriculturii și dezvoltării rurale.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Două alineate se contrazic: cine emite regulile",
+          "text": "Noul art. 17¹ alin. (3) cere ordin comun al ministrului agriculturii, al ministrului sănătății și al șefului ANPC, deși alin. (2) cere doar ordinul ministrului agriculturii. Niciunul nu dă termen.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. 17¹ alin. (3)",
+          "before": null,
+          "after": "Normele prevăzute la alin.(2) se aprobă prin ordin al ministrului agriculturii și dezvoltării rurale, al ministrului sănătății și al președintelui Autorității Naționale pentru Protecția Consumatorilor.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Promisiune de sprijin pentru apicultori, fără bani noi",
+          "text": "Art. 3 alin. (1) spune acum că apicultorii „vor beneficia” de sprijin financiar, dar doar prin măsurile din programele existente. Nu se creează fonduri noi.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 3 alin. (1)",
+          "before": null,
+          "after": "Apicultorii, individual sau organizați în forme associative, vor beneficia de sprijin financiar pentru înființarea, dezvoltarea și modernizarea stupinelor prin accesarea măsurilor prevăzute în programele naționale sau europene destinate acestui sector.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Ambalajele mici pierd simplificarea cu codul de țară",
+          "text": "Inițial, la ambalajele de cel mult 30 g țările puteau fi indicate prin codul ISO de două litere (de exemplu RO). Acum legea nu mai prevede asta; rămâne la ordin.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. 17¹ alin. (5)",
+          "before": "În cazul ambalajelor care conțin o cantitate netă de miere de cel mult 30 grame, indicarea țărilor de origine se poate realiza prin utilizarea unui cod standardizat format din două litere, stabilit potrivit standardului internațional ISO 3166-1, cod alfa-2",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Excepția pentru amestecuri din peste patru țări dispare",
+          "text": "Inițial, la amestecurile din peste patru țări procentul se trecea doar pentru primele patru, dacă depășeau împreună 50%. Acum excepția nu mai e în lege.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 17¹ alin. (3)-(4)",
+          "before": "în cazul amestecurilor de miere provenite din mai mult de patru țări de origine, poate fi indicat pe etichetă doar procentul pentru primele patru țări de origine, cu condiția ca acestea să reprezinte împreună peste 50% din cantitatea totală a amestecului.",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Cerințele Directivei (UE) 2024/1438 pentru amestecuri nu sunt în lege, ci lăsate ordinului",
+            "major": true,
+            "article": "art. 17¹ alin. (2)"
+          },
+          {
+            "text": "Alin. (2) și (3) se contrazic: ordin al ministrului sau ordin comun",
+            "major": false,
+            "article": "art. 17¹ alin. (2)-(3)"
+          },
+          {
+            "text": "Niciun termen pentru emiterea normelor de etichetare",
+            "major": false,
+            "article": "art. 17¹ alin. (2)-(3)"
+          },
+          {
+            "text": "„Vor beneficia” de sprijin sugerează un drept, dar nu există fonduri noi",
+            "major": false,
+            "article": "art. 3 alin. (1)"
+          },
+          {
+            "text": "Lipsește o normă tranzitorie pentru stocurile de miere deja etichetate",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Țara de origine e obligatorie în câmpul vizual principal, pentru orice miere",
+            "major": true,
+            "article": "art. 17¹ alin. (1)"
+          },
+          {
+            "text": "Nu introduce sancțiuni noi pentru apicultori sau comercianți",
+            "major": false,
+            "article": null
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 9,
+        "removed": 9,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:12:21.087Z"
+    }
+  ]
+}

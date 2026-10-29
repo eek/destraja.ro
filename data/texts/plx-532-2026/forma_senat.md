@@ -1,0 +1,547 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+## privind aprobarea Strategiei naționale și a Planului național de acțiune pentru conservarea biodiversității 2026 - 2030
+
+Senatul adoptă prezentul proiect de lege
+
+Art.1.- (1) Se aprobă Strategia națională pentru conservarea biodiversității 2026-2030, prevăzută în anexa nr.I.
+
+Implementarea Strategiei naționale se realizează cu respectarea principiilor proporționalității, securității juridice, dezvoltării durabile, dreptului de proprietate și libertății economice.
+
+(2) Strategia națională și Planul național de acțiune au caracter programatic și nu pot constitui temei direct pentru instituirea de obligații, interdicții sau restrângeri ale exercițiului unor drepturi fără adoptarea unor măsuri legislative distincte.
+
+(3) Măsurile prevăzute în Planul național de acțiune care afectează activități economice sau dreptul de proprietate se aplică numai după realizarea unei analize de impact economic și social și organizarea consultării publice.
+
+(4) Aplicarea Strategiei naționale nu poate conduce la suspendarea sau blocarea proiectelor de interes strategic național ori european în domeniul energiei, transporturilor, agriculturii și infrastructurii decât în baza unei evaluări individuale și motivate, realizate potrivit legii.
+
+(5) Ministerul Mediului, Apelor și Pădurilor prezintă anual Parlamentului un raport privind implementarea Strategiei naționale, gradul de realizare a indicatorilor, sursele de finanțare utilizate și impactul economic și social al măsurilor adoptate.
+
+(6) Toate proiectele finanțate pentru implementarea Strategiei naționale se publică într-un registru electronic care cuprinde beneficiarii, valoarea finanțării, indicatorii și stadiul implementării.
+
+(7) Strategia națională se evaluează la fiecare 2 ani, iar Guvernul prezintă Parlamentului propuneri de actualizare atunci când indicatorii de implementare ori evoluția contextului european impun revizuirea acesteia.
+
+Art.2.- Implementarea Strategiei naționale nu poate determina instituirea unor restricții suplimentare asupra proprietății private, utilizării terenurilor sau desfășurării activităților economice legale fără existența unei baze legale exprese, respectarea principiului proporționalității și acordarea, după caz, a măsurilor compensatorii prevăzute de lege.
+
+Art.3.- Autoritățile publice competente au obligația solicitării unui aviz consultativ, prin hotărâre de consiliu comunal/orășenesc/municipal/județean, după caz, cu caracter normativ, anterior adoptării măsurilor prevăzute în Planul național de acțiune care produc efecte asupra comunităților locale/județene. Consiliul are obligația de a se pronunța prin hotărâre în maximum 60 de zile de la data solicitării transmise de autoritatea publică competentă. Neadoptarea hotărârii de consiliu în termenul stabilit echivalează cu un aviz favorabil.
+
+Art.4.- Se aprobă Planul național de acțiune pentru conservarea biodiversității 2026-2030, prevăzut în anexa nr.II.
+
+Art.5.- Măsurile prevăzute în anexe nu pot institui în sarcina persoanelor fizice și juridice obligații, restricții sau sarcini financiare care depășesc cerințele rezultate din actele obligatorii ale Uniunii Europene în materie. Măsurile care depășesc aceste cerințe se pot institui numai prin lege, cu întocmirea analizei de impact potrivit art.30 și 31 din Legea nr.24/2000 privind normele de tehnică legislativă pentru elaborarea actelor normative, republicată, cu modificările și completările ulterioare, cuprinzând evaluarea efectelor asupra sectorului energetic, al transporturilor și al construcțiilor.
+
+Art.6.- Anexele I și II fac parte integrantă din prezenta lege.
+
+Acest proiect de lege a fost adoptat de Senat, în ședința din 6 august 2026, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.
+
+## p. PREȘEDINTELE SENATULUI
+
+MIHAI COTET
+
+Strategia națională pentru conservarea biodiversității 2026 - 2030
+
+## CUPRINS
+
+Lista abrevierilor și acronimelor 4
+
+Capitolul 1 - Introducere 7
+
+Capitolul 2 - Cadrul instituțional internațional, european și regional 8
+
+2.1. Cadrul instituțional internațional 8
+
+2.2. Cadrul instituțional european 10
+
+2.3. Cadrul instituțional regional 12
+
+Capitolul 3 - Cadrul instituțional național 13
+
+3.1. Strategii, planuri și programe naționale și regionale relevante 15
+
+Capitolul 4 - Obligații de raportare 28
+
+4.1. Obligații de raportare la nivel internațional 28
+
+4.1.1. Convenția privind Diversitatea Biologică (CBD) 29
+
+4.1.2. Alte convenții internaționale 29
+
+4.2. Obligații de raportare la nivel european 30
+
+4.2.1. Directivele Habitate și Păsări 30
+
+4.2.2. Alte instrumente europene 31
+
+4.3. Raportarea la nivel național 32
+
+Capitolul 5 - Analiza situației naționale privind biodiversitatea 33
+
+5.1. Starea actuală a biodiversității 33
+
+5.2. Ariile naturale protejate și managementul acestora 42
+
+5.3. Presiunile și amenințările la adresa biodiversității 47
+
+5.4. Situația actuală a finanțării conservării biodiversității 53
+
+Capitolul 6 – Strategia națională pentru conservarea biodiversității 57
+
+6.1. Viziune generală 57
+
+6.2. Direcții de acțiune și obiective generale în contextul cadrului global pentru biodiversitate 2050 59
+
+Direcția de acțiune A: Integritatea, conectivitatea și reziliența ecosistemelor sunt menținute, consolidate sau restaurate; extincția speciilor amenințate provocată de om este stopată; până în 2050 riscul și rata de extinție se reduc de zece ori; diversitatea genetică este menținută. 63
+
+Obiectivul general A1. ASIGURAREA COERENȚEI ȘI A MANAGEMENTULUI EFICIENT AL REȚELEI NAȚIONALE DE ARII NATURALE PROTEJATE 63
+
+Obiectivul general A2. ASIGURAREA UNEI STĂRI FAVORABILE DE CONSERVARE PENTRU SPECIILE ȘI HABITATELE PROTEJATE 68
+
+Obiectivul general A3. ÎMBUNĂTĂȚIREA STĂRII DE CONSERVARE A SPECIILOR ȘI ECOSISTEMELOR/HABITATELOR, INCLUSIV PRIN RESTAURAREA ECOLOGICĂ A ACESTORA 72
+
+## 3
+
+Obiectivul general A4. CONSERVAREA EX-SITU 75 Direcția de acțiune B: Biodiversitatea este utilizată și gestionată durabil, iar contribuțiile naturii pentru societatea umană sunt evaluate, menținute și îmbunătățite. 77 Obiectivul general B1. UTILIZAREA DURABILĂ A COMPONENTELOR DIVERSITĂȚII BIOLOGICE 78 B1.1. Amenajarea teritoriului și urbanism 78 B1.2. Managementul pădurilor 80 B1.3. Exploatarea speciilor sălbatice cu valoare economică 84 B1.4. Agricultura 85 B1.5. Turismul 91 B1.6. Transport, energie și exploatarea resurselor neregenerabile 92 Obiectivul general B2. CONTROLUL SPECIILOR INVAZIVE 95
+
+B1.6. Transport, energie și exploatarea resurselor neregenerabile 92 Obiectivul general B2. CONTROLUL SPECIILOR INVAZIVE 95 Obiectivul general B3. SUSȚINEREA ȘI PROMOVAREA CUNOȘTINȚELOR, INOVAȚIILOR ȘI PRACTICILOR TRADIȚIONALE 99 Direcția de acțiune C: Beneficiile din utilizarea resurselor genetice sunt împărțite în mod echitabil și durabil, inclusiv cele rezultate din informațiile genetice digitale (DSI). 101 Obiectivul general C1. ACCESUL LA RESURSE GENETICE ȘI ÎMPĂRȚIREA ECHITABILĂ A BENEFICIILOR CE DECURG DIN UTILIZAREA ACESTORA (ABS) 102 Direcția de acțiune D: Disponibilitatea mijloacelor de implementare (finanțare, tehnologie, consolidarea capacităților) și reducerea deficiențelor 104 Obiectivul general D1. DEZVOLTAREA CADRULUI LEGISLATIV ȘI INSTITUȚIONAL GENERAL ȘI ASIGURAREA RESURSELOR FINANCIARE 105 Obiectivul general D2. DEZVOLTAREA CERCETĂRII ȘTIINȚIFICE ȘI PROMOVAREA TRANSFERULUI DE TEHNOLOGIE 107 Obiectivul general D3. COMUNICAREA, EDUCAREA ȘI CONȘTIENTIZAREA PUBLICULUI 110
+
+Capitolul 7 – Planul național de acțiune, monitorizare și evaluare pentru conservarea biodiversității 121 7.1. Indicatorii de monitorizare 122
+
+7.1.1. Indicatorii Cadrului Global pentru Biodiversitate Kunming–Montreal 122 7.1.2. Indicatorii naționali de performanță 139 7.2. Proceduri de monitorizare și evaluare 139
+
+7.4. Implicații asupra cadrului juridic 144 Capitolul 8 – Finanțare și resurse 151
+
+## Lista abrevierilor și acronimelor
+
+| ABS | Access and Benefit-Sharing - Accesul la resurse genetice și împărțirea echitabilă a beneficiilor care decurg din utilizarea acestora |
+| --- | --- |
+| ACCOBAMS | Agreement on the Conservation of Cetaceans of the Black Sea, Mediterranean Sea and Contiguous Atlantic Area - Acordul privind conservarea cetaceelor din Marea Neagră, Marea Mediterană și zona atlantică adiacentă |
+| AEWA | Agreement on the Conservation of African-Eurasian Migratory Waterbirds - Acordul privind conservarea păsărilor de apă migratoare afro-eurasiatice |
+| AFM | Administrația Fondului pentru Mediu |
+| ANANP | Agenția Națională pentru Arii Naturale Protejate, actuala ANMAP |
+| ANAR | Administrația Națională „Apele Române” |
+| ANIF | Agenția Națională de Îmbunătățiri Funciare |
+| ANMAP | Agenția Națională pentru Mediu și Arii Protejate |
+| ANSVSA | Autoritatea Națională Sanitară Veterinară și pentru Siguranța Alimentelor |
+| ARBDD | Administrația Rezervației Biosferei Delta Dunării |
+| ATV | All-Terrain Vehicle - vehicul pentru toate tipurile de teren Agreement under the United Nations Convention on the Law of the Sea on the Conservation and Sustainable Use of Marine Biological |
+| BBNJ | Diversity of Areas beyond National Jurisdiction - Acordul privind conservarea și utilizarea durabilă a biodiversității marine din zonele situate dincolo de jurisdicția națională |
+| CBD | Convention on Biological Diversity - Convenția privind diversitatea biologică |
+| CEPA | Communication, Education and Public Awareness - Comunicare, educație și conștientizare publică |
+| CHM | Clearing-House Mechanism - Mecanismul de informare și schimb de informații |
+| CITES | Convention on International Trade in Endangered Species of Wild Fauna and Flora - Convenția privind comerțul internațional cu specii ale faunei și florei sălbatice pe cale de dispariție |
+| CMN | Comisia pentru Ocrotirea Monumentelor Naturii |
+| CMS | Convention on the Conservation of Migratory Species of Wild Animals - Convenția privind conservarea speciilor migratoare de animale sălbatice |
+| CNA | Autoritatea Națională Competență |
+| CNCSIS | Consiliul Național al Cercetării Științifice din Învățământul Superior |
+| DAISIE | Delivering Alien Invasive Species Inventories for Europe - Elaborarea inventarelor speciilor alogene invazive pentru Europa |
+| DSI | Digital Sequence Information - Informații digitale privind secvențele genetice |
+| EA | Evaluare adecvată |
+| EBSA | Ecologically or Biologically Significant Marine Areas - Zone marine semnificative din punct de vedere ecologic sau biologic |
+| EEA | European Environment Agency - Agenția Europeană de Mediu |
+| ELA/EIM | Environmental Impact Assessment - Evaluarea impactului asupra mediului |
+| ETAP | Environmental Technologies Action Plan - Planul de acțiune pentru tehnologiile de mediu |
+| FEADR | Fondul European Agricol pentru Dezvoltare Rurală |
+| FEGA | Fondul European de Garantare Agricolă |
+| FM | Fondul pentru Mediu |
+| FSC | Forest Stewardship Council - Consiliul pentru Gestionarea Responsabilă a Pădurilor |
+| GAEC | Good Agricultural and Environmental Conditions - Bune condiții agricole și de mediu |
+| GBF/KM-GBF | Kunming-Montreal Global Biodiversity Framework - Cadrul global pentru biodiversitate Kunming-MontrealGlobal Database on Protected Area Management Effectiveness - |
+| GD-PAME | Baza de date globală privind eficiența managementului ariilor protejate |
+| GIS | Geographic Information System - Sistem informațional geografic |
+| GISP | Global Invasive Species Programme - Programul global privind speciile alogene invasive |
+| GNM | Garda Națională de Mediu |
+| HG | Hotărâre a Guvernului |
+| IAS | Invasive Alien Species - Specii alogene invazive |
+| IFN | Inventarul Forestier Național |
+| INFR | Procedură de constatare a neîndeplinirii obligațiilor - procedură de infringement |
+| INSPIRE | Infrastructure for Spatial Information in Europe - Infrastructura pentru informații spațiale în Europa |
+| INTERREG | Programele de cooperare teritorială europeană ale Uniunii Europene |
+| IPBES | Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services - Platforma interguvernamentală privind biodiversitatea și serviciile ecosistemice |
+| IUCN | International Union for Conservation of Nature - Uniunea Internațională pentru Conservarea Naturii |
+| LIFE | Programul Uniunii Europene pentru mediu și politici climatice |
+| LPI | Living Planet Index - Indicele Planeta Vie; indice al tendinței abundenței populațiilor speciilor de vertebrate |
+| MAB-ICC | Man and the Biosphere International Co-ordinating Council - Consiliul Internațional de Coordonare al Programului „Omul și Biosfera” |
+| MAB-UNESCO | Programul UNESCO „Omul și Biosfera” |
+| MADR | Ministerul Agriculturii și Dezvoltării Rurale |
+| MAT | Mutually Agreed Terms – Condiții convenite de comun acord |
+| MBLS | Marine Black Sea – Regiunea marină a Mării Negre |
+| MC | Ministerul Culturii |
+| MDLPA | Ministerul Dezvoltării, Lucrărilor Publice și Administrației |
+| ME | Ministerul Energiei |
+| MEC | Ministerul Educației și Cercetării |
+| MEDAT | Ministerul Economiei, Digitalizării, Antreprenoriatului și Turismului |
+| METT | Management Effectiveness Tracking Tool – Instrument pentru evaluarea și urmărirea eficienței managementului ariilor protejate |
+| MF | Ministerul Finanțelor |
+| MIPE | Ministerul Investițiilor și Proiectelor Europene |
+| MMAP | Ministerul Mediului, Apelor și Pădurilor |
+| MSC | Marine Stewardship Council – Consiliul pentru Gestionarea Durabilă a Resurselor Marine |
+| NatDA | Nationally Designated Areas – Arii desemnate la nivel național |
+| NFP | National Focal Point – Punct național de contact |
+| OECM | Other Effective Area-Based Conservation Measures – Alte măsuri eficace de conservare bazate pe zone |
+| ONG | Organizație neguvernamentală |
+| OUG | Ordonanță de urgență a Guvernului |
+| PAC | Politica agricolă comună |
+| PAF | Prioritised Action Framework – Cadru de acțiune prioritară |
+| PAME | Protected Area Management Effectiveness – Eficiența managementului ariilor protejate |
+| PCP | Politica comună în domeniul pescuitului |
+| PDD | Programul Dezvoltare Durabilă |
+| PIC | Prior Informed Consent – Consimțământ prealabil în cunoștință de cauză |
+| PM | Plan de management |
+| PNAC | Plan național de acțiune pentru conservare |
+| PNCDI | Planul Național de Cercetare-Dezvoltare și Inovare |
+| PNDR | Programul Național de Dezvoltare Rurală |
+
+## Capitolul 1 - Introducere
+
+Biodiversitatea reprezintă fundamentul funcționării ecosistemelor și, implicit, al bunăstării umane - furnizând servicii esențiale precum apă potabilă, alimente, aer curat, materiale biologice și reziliență în fața schimbărilor climatice. Din acest motiv, protejarea și valorificarea durabilă a diversității biologice nu sunt doar obiective de mediu, ci constituie un pilon central al dezvoltării durabile a României.
+
+În prezent, biodiversitatea se află sub presiune la nivel global și național, ca urmare a pierderilor accelerate ale habitatelor, fragmentării ecosistemelor, introducerii speciilor invazive, poluării și schimbărilor climatice. Această „criză a biodiversității” impune actualizarea instrumentelor de guvernanță existente pentru a reflecta atât noile cunoștințe științifice, cât și angajamentele internaționale asumate de România.
+
+Actuala Strategie Națională de Conservare a Biodiversității înlocuiește și dezvoltă în continuare cadrele strategice anterioare (inclusiv Planul Național de Acțiune pentru Biodiversitate), păstrând continuitatea angajamentelor de protecție a naturii, dar și consolidând orientările către rezultate măsurabile și integrate pe termen mediu și lung.
+
+Această actualizare este motivată de adoptarea Cadrului Global pentru Biodiversitate Kunming-Montreal (GBF) sub egida Convenției privind Diversitatea Biologică (CBD) - un acord internațional major care stabilește o viziune până în 2050 și un set de obiective operaționale până în 2030 pentru a opri și inversa pierderea biodiversității la nivel mondial.
+
+Obiectivele generale ale strategiei se aliniază direct cu viziunea pentru 2050 - „a trăi în armonie cu natura” - și cu misiunea pentru 2030 stipulate în Cadrul Kunming-Montreal, care subliniază necesitatea conservării, restaurării și utilizării durabile a componentei biologice, precum și împărțirea echitabilă a beneficiilor rezultate din utilizarea resurselor genetice.
+
+Strategia vizează transpunerea obiectivelor și țintelor globale în tinte naționale măsurabile, adaptate contextului socio-economic și ecologic al României, precum și integrarea biodiversității în politicile sectoriale, inclusiv în cele legate de evoluția biotehnologiilor. Consolidarea cadrului de biosecuritate și asigurarea unei gestionării responsabile a biotehnologiilor constituie un obiectiv strategic, necesar pentru menținerea integrității ecosistemelor, prevenirea riscurilor biologice emergente și protejarea capitalului natural al României.
+
+În acest context, România își reafirmă angajamentele internaționale: fiind parte semnatară a Convenției privind Diversitatea Biologică încă din 1992 și obligându-se să elaboreze și să pună în aplicare Planuri Naționale de Strategii și Acțiuni (SNPACB – Strategia Națională și Planul Național de Acțiune pentru Conservarea Biodiversității), conform prevederilor art. 6 CBD privind necesitatea integrării biodiversității în politicile și planurile sectoriale naționale.
+
+Actualizarea strategiei survine într-un moment deosebit de important, nu doar ca răspuns la nevoia de a îndeplini angajamentele internaționale, dar și ca oportunitate de a integra perspective și bune practici din experiența europeană și globală, asigurând o abordare comprehensivă și adaptată contextului socio-economic din România.
+
+Procesul de actualizare care a stat la baza acestei strategii s-a desfășurat prin constituirea unei echipe multidisciplinare - alcătuită din reprezentanți ai administrației publice centrale (ministere și instituții relevante), organizațiilor neguvernamentale de mediu, instituțiilor de cercetare și experților în domeniul biodiversității - pentru a asigura o viziune integrată și responsabilă în dezvoltarea politicilor de biodiversitate.
+
+Un element esențial al acestei abordări îl constituie analiza implementării SNPACB existent, evaluarea progresului către obiectivele Aichi anterior adoptate și alinierea acestora la cerințele și țintele intersectoriale ale noului Cadrul Kunming-Montreal (KM-GBF). Această analiză a identificat succese, lacune de implementare și domenii prioritare de intervenție pentru perioada 2026-2030.
+
+Strategia a fost elaborată printr-un proces de consultare interinstituțională, implicând autorități publice centrale și instituții cu atribuții directe în domeniul biodiversității.
+
+## Capitolul 2 - Cadrul instituțional internațional, european și regional
+
+Conservarea biodiversității este un domeniu de politică publică profund ancorat într-un cadru de guvernanță structurat multiple niveluri, în care angajamentele internaționale, politicile europene și inițiativele regionale se completează și se condiționează reciproc. Strategia Națională pentru Conservarea Biodiversității (SNPACB) a României este elaborată în concordanță cu acest cadru instituțional, având ca obiectiv asigurarea alinierii cu obligațiile asumate de România la nivel internațional și european, precum și valorificarea mecanismelor de cooperare regională relevante.
+
+## 2.1. Cadrul instituțional internațional
+
+Conservarea biodiversității este guvernată la nivel global printr-un ansamblu de convenții internaționale, acorduri multilaterale de mediu și programe interguvernamentale care stabilesc obiective comune, mecanisme de cooperare și obligații pentru statele părți. În acest context, România participă la arhitectura internațională de guvernanță a biodiversității în calitate de stat parte la principalele convenții internaționale relevante și, ca stat membru al Uniunii Europene, contribuie la implementarea angajamentelor globale prin intermediul cadrului european de politici și legislație.
+
+Principalul instrument juridic internațional în domeniul biodiversității este Convenția privind Diversitatea Biologică (CBD), adoptată în 1992. Convenția stabilește obiectivele globale privind conservarea biodiversității, utilizarea durabilă a componentelor acesteia și împărțirea echitabilă a beneficiilor rezultate din utilizarea resurselor genetice.
+
+În conformitate cu art. 6 al Convenției, statele părți au obligația de a elabora și actualiza strategii și planuri naționale pentru biodiversitate și de a integra obiectivele de conservare și utilizare durabilă a biodiversității în politicile sectoriale relevante.
+
+În acest context, Strategia Națională pentru Conservarea Biodiversității reprezintă instrumentul principal prin care România transpune la nivel național angajamentele asumate în cadrul Convenției privind Diversitatea Biologică și contribuie là implementarea obiectivelor globale.
+
+Implementarea Convenției este în prezent orientată de Cadrul Global pentru Biodiversitate Kunming-Montreal, adoptat în 2022 în cadrul Conferinței Părților la CBD. Acest cadru stabilește patru obiective globale și douăzeci și trei de ținte pentru orizontul 2030, precum și o viziune pe termen lung până în 2050 privind realizarea unei relații armonioase între societate și natură. Statele părți sunt chemate să își actualizeze strategiile naționale pentru biodiversitate astfel încât acestea să reflecte obiectivele și țintele cadrului global și să dezvolte sisteme adecvate de monitorizare și raportare a progresului.
+
+Pe lângă Convenția privind Diversitatea Biologică, România este parte la o serie de convenții internaționale care vizează componente specifice ale biodiversității și care completează cadrul global de guvernanță în acest domeniu. Aceste instrumente contribuie la consolidarea protecției biodiversității prin obligații tematice privind conservarea anumitor ecosisteme, specii sau procese ecologice.
+
+Convenția Ramsar privind zonele umede de importanță internațională stabilește obligații privind conservarea și utilizarea rațională a zonelor umede, inclusiv desemnarea și gestionarea siturilor Ramsar și menținerea caracterului ecologic al acestora. Convenția privind conservarea speciilor migratoare de animale sălbatice (CMS) promovează cooperarea internațională pentru protecția speciilor migratoare și a habitatelor acestora. Convenția privind comerțul internațional cu specii de faună și floră sălbatice pe cale de dispariție (CITES) reglementează comerțul internațional cu specii sălbatice, cu scopul de a preveni exploatarea nesustenabilă și de a combate traficul ilegal de specii.
+
+De asemenea, România participă la instrumente internaționale relevante pentru conservarea siturilor naturale cu valoare excepțională și pentru managementul integrat al unor teritorii cu importanță ecologică ridicată. Convenția Patrimoniului Mondial UNESCO stabilește obligații privind conservarea siturilor naturale de valoare universală excepțională, iar Programul UNESCO „Omul și Biosfera” (MAB) oferă cadrul pentru recunoașterea și gestionarea rezervațiilor biosferei. Rețeaua geoparcurilor UNESCO contribuie, de asemenea, la integrarea conservării patrimoniului natural cu dezvoltarea locală și educația pentru dezvoltare durabilă.
+
+Cadrul internațional este completat de protocoalele adoptate în cadrul Convenției privind Diversitatea Biologică, respectiv Protocolul de la Cartagena privind biosecuritatea, Protocolul Nagoya privind accesul la resurse genetice și împărțirea beneficiilor și Protocolul Nagoya-Kuala Lumpur privind răspunderea și compensarea. Aceste instrumente introduc obligații privind gestionarea riscurilor asociate organismelor modificate genetic, reglementarea accesului la resurse genetice și asigurarea împărțirii corecte și echitabile a beneficiilor rezultate din utilizarea acestora.
+
+În completarea acestui cadru, România a ratificat prin Legea nr. 315/2024 Acordul privind conservarea și utilizarea durabilă a biodiversității marine din zonele situate din afara jurisdicției naționale (BBNJ), adoptat în cadrul Convenției Națiunilor Unite asupra dreptului mării. Participarea României la acest acord reflectă implicarea sa în consolidarea cadrului internațional de guvernanță a biodiversității marine și necesitatea corelării politicilor naționale și europene cu evoluțiile instituționale în acest domeniu.
+
+Fundamentarea științifică a politicilor internaționale privind biodiversitatea este susținută de Platforma Interguvernamentală pentru Biodiversitate și Servicii Ecosistemice (IPBES), care furnizează evaluări științifice globale și regionale privind starea biodiversității, tendințele și factorii determinanți ai pierderii acesteia. Evaluările IPBES constituie un reper important pentru elaborarea politicilor publice și pentru dezvoltarea strategiilor naționale în domeniul biodiversității.
+
+Participarea României la aceste convenții și programe internaționale implică o serie de obligații privind planificarea strategică, implementarea măsurilor de conservare, monitorizarea stării biodiversității și raportarea periodică a progresului. În cadrul Convenției privind Diversitatea Biologică, statele părți transmit rapoarte naționale periodice privind implementarea convenției și progresul în atingerea obiectivelor globale. Convențiile tematice implică, de asemenea, mecanisme specifice de raportare privind implementarea măsurilor de conservare, gestionarea siturilor sau aplicarea mecanismelor de control.
+
+## 2.2. Cadrul instituțional european
+
+În calitate de stat membru al Uniunii Europene, România implementează obligațiile internaționale în domeniul biodiversității în cadrul instituțional și legislativ european, care transpune și detaliază angajamentele globale prin politici, strategii și instrumente juridice aplicabile la nivelul statelor membre. Cadrul european reprezintă, astfel, un nivel intermediar esențial între angajamentele internaționale și acțiunea națională în domeniul conservării biodiversității.
+
+Strategia UE privind biodiversitatea pentru 2030 reprezintă cadrul strategic principal al UE pentru stoparea și inversarea pierderii biodiversității, fiind parte·integrantă a Pactului Verde European și contribuind direct la implementarea angajamentelor asumate de UE în cadrul Convenției privind Diversitatea Biologică și al Cadrului Global pentru Biodiversitate Kunming–Montreal.
+
+Strategia stabilește o viziune pe termen lung până în 2050, în care biodiversitatea Europei este restaurată, protejată și utilizată în mod durabil, susținând reziliența ecosistemelor, bunăstarea umană și dezvoltarea economică.
+
+Pentru orizontul 2030, strategia definește un set de obiective și ținte concrete menite să asigure o schimbare structurală în modul de abordare a conservării biodiversității. Un obiectiv central îl constituie extinderea și consolidarea rețelei de arii protejate, prin asigurarea protecției a cel puțin 30% din suprafața terestră și maritimă a UE, inclusiv prin desemnarea unor zone cu protecție strictă pentru ecosistemele și speciile cele mai valoroase și vulnerabile.
+
+În cadrul acestui obiectiv, strategia stabilește ca o componentă esențială a rețelei de arii protejate să fie reprezentată de zone cu protecție strictă corespunzătoare cel puțin 10% din suprafața terestră și maritimă a UE, orientate prioritar către ecosistemele și habitatele cu cea mai ridicată valoare pentru biodiversitate, pentru stocarea carbonului și pentru consolidarea rezilienței la schimbările climatice.
+
+Strategia subliniază totodată importanța nu doar a extinderii suprafețelor protejate, ci și a managementului eficient al ariilor protejate, a consolidării conectivității ecologice și a integrării acestora într-o rețea coerentă la nivel european.
+
+Un alt pilon major al strategiei îl reprezintă restaurarea ecosistemelor degradate, ca răspuns la pierderea accelerată a biodiversității și la degradarea serviciilor ecosistemice. Restaurarea este abordată ca un instrument esențial pentru adaptarea la schimbările climatice, reducerea riscurilor naturale și creșterea rezilienței socio-economice. În acest context, UE a adoptat Regulamentul (UE) 2024/1991 privind restaurarea naturii, care stabilește obligații pentru statele membre privind elaborarea planurilor naționale de restaurare, implementarea măsurilor de restaurare și monitorizarea progresului în refacerea ecosistemelor.
+
+Strategia urmărește, de asemenea, reducerea presiunilor directe asupra biodiversității prin integrarea obiectivelor de conservare în politicile sectoriale relevante, inclusiv în domeniile agriculturii, pescuitului, infrastructurii, energiei și planificării teritoriale. În acest sens, strategia promovează utilizarea soluțiilor bazate pe natură, integrarea biodiversității în politicile publice și alinierea investițiilor și fluxurilor financiare cu obiectivele de conservare a biodiversității.
+
+Politica Agricolă Comună (PAC) integrează obiective de mediu și biodiversitate prin mecanisme precum condiționalitățile, eco-schemele și măsurile de dezvoltare rurală, influențând practicile agricole și utilizarea terenurilor. Strategia „De la fermă la consumator” (Farm to Fork) contribuie la reducerea presiunilor asupra biodiversității prin promovarea unor sisteme alimentare durabile și prin încurajarea practicilor agricole prietenoase cu mediul.
+
+În mod similar, Politica Comună în domeniul Pescuitului (PCP) urmărește exploatarea durabilă a resurselor biologice acvatice și protecția ecosistemelor marine, contribuind la menținerea stării ecologice a habitatelor acvatice și la utilizarea sustenabilă a resurselor marine.
+
+Pactul Verde European oferă cadrul strategic general pentru tranziția UE către un model de dezvoltare durabilă, neutru din punct de vedere climatic și eficient în utilizarea resurselor. În acest context, biodiversitatea este recunoscută ca un element esențial al rezilienței economice și sociale și ca o componentă transversală a tranziției ecologice, fiind strâns corelată cu politicile privind schimbările climatice, economia circulară și utilizarea durabilă a resurselor naturale.
+
+De asemenea, Strategia UE pentru adaptarea la schimbările climatice evidențiază rolul ecosistemelor funcționale și al soluțiilor bazate pe natură în creșterea rezilienței teritoriale și în reducerea vulnerabilităților asociate fenomenelor climatice extreme.
+
+Implementarea acestor politici este susținută de cadrul legislativ al UE în domeniul conservării biodiversității. Directiva Habitate (92/43/CEE) și Directiva Păsări (2009/147/CE) reprezintă pilonii centrali ai legislației europene în acest domeniu, stabilind obligațiile statelor membre privind conservarea habitatelor naturale și a speciilor de interes comunitar. În temeiul acestor directive a fost instituită rețeaua Natura 2000, o rețea ecologică coerentă de arii naturale protejate care constituie principalul instrument european pentru conservarea biodiversității.
+
+În completare, Regulamentul (UE) 1143/2014 privind speciile alogene invazive introduce obligații pentru prevenirea și gestionarea introducerii și răspândirii speciilor invazive, contribuind la protejarea biodiversității, a sănătății umane și a economiei.
+
+În ansamblu, politicile și instrumentele legislative ale UE oferă cadrul strategic și juridic pentru implementarea obiectivelor de conservare a biodiversității la nivelul statelor membre. În acest context, Strategia Națională pentru Conservarea Biodiversității este concepută astfel încât să asigure coerența cu obiectivele și instrumentele UE și să contribuie la implementarea acestora la nivel național.
+
+## 2.3. Cadrul instituțional regional
+
+Pe lângă cadrul instituțional internațional și european, conservarea biodiversității este susținută de mecanisme de cooperare regională care vizează gestionarea integrată a ecosistemelor și a proceselor ecologice ce depășesc granițele administrative. Având în vedere caracterul interconectat al biodiversității și al serviciilor ecosistemice, cooperarea transfrontalieră reprezintă un element esențial pentru asigurarea coerenței măsurilor de conservare și pentru abordarea presiunilor cumulative asupra mediului.
+
+Convenția Carpatică reprezintă principalul cadru de cooperare regională pentru protecția și dezvoltarea durabilă a Carpaților. Convenția promovează o abordare integrată a conservării biodiversității montane, a peisajelor naturale și a ecosistemelor forestiere și alpine, în corelare cu dezvoltarea socio-economică a regiunii. Prin protocoalele sale tematice, Convenția Carpatică sprijină cooperarea între statele părți în domenii precum conservarea biodiversității, gestionarea durabilă a pădurilor, adaptarea la schimbările climatice, planificarea spațială și turismul durabil. Implementarea obiectivelor Convenției contribuie la asigurarea coerenței măsurilor de conservare în regiunea carpatică și la consolidarea conectivității ecologice la nivel transnațional.
+
+Strategia Uniunii Europene pentru Regiunea Dunării (SUERD) constituie un cadru macro-regional de cooperare care vizează abordarea integrată a provocărilor comune din bazinul Dunării, inclusiv în domeniul protecției mediului și al biodiversității. SUERD promovează coordonarea politicilor sectoriale, schimbul de bune practici și implementarea de acțiuni comune pentru protecția ecosistemelor acvatice și terestre asociate fluviului Dunărea și afluenților săi. În cadrul strategiei, biodiversitatea este abordată în strânsă legătură cu gestionarea durabilă a apelor, reducerea poluării, adaptarea la schimbările climatice și prevenirea riscurilor naturale, având un rol esențial în menținerea funcțiilor ecologice ale bazinului hidrografic.
+
+De asemenea, România participă la acorduri bilaterale și multilaterale, precum și la programe de cooperare finanțate de Uniunea Europeană, care sprijină planificarea și implementarea de acțiuni comune în domeniul biodiversității. Programele INTERREG în care România a fost implicată au sprijinit cooperarea transfrontalieră între autorități și instituții în regiuni de frontieră pentru abordarea provocărilor comune, inclusiv în domeniul protecției mediului și conservării biodiversității. De asemenea, programul LIFE sprijină implementarea proiectelor demonstrative și a măsurilor pilot în domeniul conservării biodiversității și al restaurării ecosistemelor, contribuind la testarea și replicarea soluțiilor eficiente la nivel regional.
+
+Cadrul instituțional regional completează și consolidează cadrul internațional și european, oferind mecanisme operaționale de cooperare pentru abordarea integrată a conservării biodiversității la nivel transfrontalier.
+
+## Capitolul 3 - Cadrul instituțional național
+
+La nivel național, coordonarea politicilor privind conservarea biodiversității revine Ministerului Mediului, Apelor și Pădurilor (MMAP), în calitate de autoritate publică centrală responsabilă de elaborarea și coordonarea politicilor, strategiilor și cadrului normativ în domeniul protecției naturii, precum și de reprezentarea României în cadrul mecanismelor europene și internaționale relevante. MMAP are rolul de a asigura coerența între obiectivele naționale privind biodiversitatea și obligațiile asumate de România la nivelul UE, al Convenției privind Diversitatea Biologică și al altor instrumente internaționale relevante.
+
+Implementarea politicilor și măsurilor de conservare este realizată cu sprijinul Agenției Naționale pentru Mediu și Arii Naturale Protejate (ANMAP), instituție aflată în subordinea MMAP, cu rol în administrarea și coordonarea rețelei naționale de arii naturale protejate, inclusiv a siturilor Natura 2000, precum și în aplicarea măsurilor de conservare și a cadrului tehnic aferent. În cazul unor teritorii sau categorii specifice de arii protejate, atribuțiile de administrare sunt exercitate și prin structuri distincte, precum Administrația Rezervației Biosferei Delta Dunării (ARBDD) și Regia Națională a Pădurilor – Romsilva, aceasta din urmă administrând o parte importantă a parcurilor naționale și naturale din România.
+
+Dimensiunea de control și conformare este asigurată de Garda Națională de Mediu (GNM), în ceea ce privește respectarea legislației de mediu, inclusiv a regimului ariilor naturale protejate și a normelor de conservare a biodiversității, precum și de Garda Forestieră, care are un rol relevant în monitorizarea respectării regimului silvic și în controlul activităților cu impact asupra fondului forestier, în contextul în care o parte semnificativă a ariilor naturale protejate este suprapusă peste fondul forestier național.
+
+Administrația Națională „Apele Române” (ANAR) asigură cadrul operațional pentru managementul resurselor de apă, cu relevanță directă pentru conservarea ecosistemelor acvatice și a zonelor umede. Prin acțivitățile sale de planificare, monitorizare și implementare a măsurilor din planurile de management ale bazinelor hidrografice, precum și prin investițiile realizate prin programele operaționale dedicate managementului apelor și reducerii riscurilor naturale, ANAR contribuie la menținerea și restaurarea funcțiilor ecologice ale ecosistemelor acvatice.
+
+De asemenea, Administrația Fondului pentru Mediu (AFM) reprezintă principalul instrument financiar național pentru finanțarea proiectelor de mediu, inclusiv a inițiativelor privind restaurarea ecosistemelor, managementul speciilor invazive, conservarea biodiversității și dezvoltarea infrastructurilor verzi. Prin programele sale de finanțare, AFM contribuie la mobilizarea resurselor financiare interne și completează mecanismele de finanțare europene dedicate protecției mediului și biodiversității.
+
+Guvernanța biodiversității este susținută și de structuri științifice și consultative. În acest context, Academia Română, prin Comisia pentru Ocrotirea Monumentelor Naturii, are un rol științific relevant în fundamentarea unor decizii privind patrimoniul natural, iar în cadrul ariilor naturale protejate funcționează consilii științifice și structuri consultative care contribuie la fundamentarea managementului și la dialogul cu actorii interesați, precum și la procesul consultativ coordonat de MMAP în vederea desemnării de noi situri Natura 2000, respectiv a zonelor prioritare pentru biodiversitate (pentru obiectivul 5 % protecție strictă). În structurile consultative se vor regăși și reprezentanții autorităților locale, care vor putea prezenta punctele de vedere ale comunităților afectate, ca parte esențială a procesului consultativ coordonat de MMAP.
+
+În domeniul protecției patrimoniului speologic funcționează Comisia Patrimoniului Speologic, structură cu rol în evaluarea și avizarea activităților care pot afecta patrimoniul speologic.
+
+Caracterul transversal al biodiversității presupune cooperarea între MMAP și alte autorități publice centrale cu atribuții sectoriale relevante, inclusiv Ministerul Agriculturii și Dezvoltării Rurale, Ministerul Dezvoltării, Lucrărilor Publice și Administrației, Ministerul Transporturilor și Infrastructurii, Ministerul Energiei, Ministerul Educației și Cercetării, Ministerul Economiei, Digitalizării,
+
+Antreprenoriatului și Turismului, Ministerul Apărării Naționale. Integrarea obiectivelor de biodiversitate în politicile sectoriale relevante și coordonarea între aceste instituții reprezintă o condiție esențială pentru implementarea eficientă a strategiei. La nivelul Ministerului Apărării Naționale asigurarea securității naționale este prioritară în raport cu orice alte obiective.
+
+Cadrul legislativ național privind conservarea biodiversității este fundamentat pe legislația generală privind protecția mediului și pe actele normative specifice privind conservarea naturii, ariile naturale protejate și utilizarea resurselor naturale. La nivel constituțional, protecția mediului este consacrată prin Constituția României, care garantează dreptul la un mediu sănătos și echilibrat ecologic. În plan infraconstituțional, actele normative centrale sunt OUG nr. 195/2005 privind protecția mediului și OUG nr. 57/2007 privind regimul ariilor naturale protejate, conservarea habitatelor naturale, a florei și faunei sălbatice, care reprezintă baza juridică principală pentru protecția biodiversității în România.
+
+Acest cadru este completat de legislația sectorială relevantă, inclusiv Legea nr. 5/2000 privind aprobarea Planului de amenajare a teritoriului național, cu relevanță pentru delimitarea și integrarea elementelor de patrimoniu natural în planificarea teritorială, Codul Silvic (Legea nr. 331/2024), esențial în contextul suprapunerii dintre fondul forestier și ariile naturale protejate, Legea apelor nr. 107/1996, cu relevanță pentru ecosistemele acvatice și zonele umede, și Legea nr. 407/2006 a vânătorii și a protecției fondului cinegetic, în măsura în care reglementează activități cu impact asupra speciilor și habitatelor. De asemenea, un rol important îl are legislația privind procedurile de evaluare a impactului asupra mediului, evaluarea strategică de mediu și evaluarea adecvată pentru siturile Natura 2000, prin care obiectivele de conservare a biodiversității sunt integrate în procesele de planificare și autorizare.
+
+În ansamblu, cadrul instituțional național al biodiversității este caracterizat printr-o structură de guvernanță, în care autoritatea centrală de mediu, instituțiile de implementare și control, structurile de administrare a ariilor naturale protejate, organismele științifice și instituțiile sectoriale relevante trebuie să acționeze coordonat. Eficiența acestui cadru depinde nu doar de claritatea rolurilor instituționale și de adecvarea bazei normative, ci și de capacitatea de cooperare interinstituțională, de integrare a obiectivelor de biodiversitate în politicile sectoriale și de asigurare a unei implementări coerente la nivel național și local. În acest sens, reprezentanții UAT-urilor, ca membri ai structurilor consultative, vor putea formula puncte de vedere în interiorul procesului consultativ de desemnare de noi situri Natura 2000, respectiv a zonelor prioritare pentru biodiversitate (pentru obiectivul 5% protecție strictă).
+
+## 3.1. Strategii, planuri și programe naționale și regionale relevante
+
+Conservarea biodiversității reprezintă o componentă esențială a politicilor de mediu, cu implicații directe asupra funcționării ecosistemelor, securității alimentare, sustenabilității economice și calității vieții. În acest context, elaborarea și implementarea Strategiei Naționale pentru Conservarea Biodiversității necesită o abordare integrată, corelată cu ansamblul politicilor și strategiilor sectoriale care influențează utilizarea resurselor naturale și gestionarea teritoriului.
+
+La nivel național, interacțiunea dintre strategii este esențială pentru evitarea unor efecte negative cumulative, generate, de exemplu, de presiunile asociate dezvoltării economice asupra capitalului natural. Documente strategice din domenii precum dezvoltarea durabilă, apărarea națională, agricultura, silvicultura, industria, exploatarea resurselor minerale, energia sau infrastructura pot avea influențe semnificative, directe sau indirecte, asupra biodiversităii.
+
+La nivel local, integrarea obiectivelor de conservare în politicile și instrumentele de planificare devine cu atât mai importantă cu cât deciziile privind utilizarea terenurilor, dezvoltarea urbană și gestionarea resurselor naturale sunt adoptate la această scară și produc efecte territoriale imediate. În acest sens, corelarea planurilor de dezvoltare locală cu obiectivele de biodiversitate contribuie la reducerea riscurilor de fragmentare a habitatelor și de pierdere a speciilor.
+
+Înțelegerea interdependențelor dintre aceste strategii permite fundamentarea unei abordări coerente, bazate pe integrarea politicilor sectoriale și pe utilizarea durabilă a capitalului natural, în vederea asigurării unui echilibru între obiectivele de dezvoltare și cele de conservare.
+
+În vederea fundamentării acestei analize, au fost identificate strategiile, planurile și programele naționale și regionale relevante. Tabelul de mai jos sintetizează aceste documente, evidențiind perioada de implementare și domeniul de aplicabilitate al fiecăruia.
+
+Selecția a inclus documente strategice active în anul 2025 sau cu aplicabilitate ulterior acestui an, care pot influența, direct sau indirect, conservarea biodiversității. Analiza are în vedere atât strategiile cu impact explicit asupra biodiversității, cât și pe cele sectoriale, care, prin obiectivele și măsurile propuse, pot genera presiuni sau sinergii la nivelul capitalului natural.
+
+Tabelul 1 – Lista de strategii, planuri și programe naționale și regionale relevante
+
+| Denumirea strategiei/planului/programului | Perioada | Domeniul | Relevanța pentru conservarea biodiversității |
+| --- | --- | --- | --- |
+| Planul Național de Acțiune pentru abordarea căilor de introducere prioritare a speciilor alogene invazive | 2021-2030 | Specii invazive | Foarte ridicată, cu contribuție directă – instrument-cheie pentru prevenirea și reducerea presiunilor generate |
+|  |  |  | de speciile alogene invazive asupra habitatelor și speciilor native. |
+| Strategia Națională pentru Păduri 2030 | 2021-2030 | Silvicultură | Foarte ridicată, cu contribuție directă – relevantă pentru conservarea, refacerea și gestionarea durabilă a ecosistemelor forestiere și pentru menținerea biodiversității asociate acestora. |
+| Planul Național de Management al Apelor | 2022-2027 | Managementul apelor | Ridicată, cu contribuție indirectă semnificativă – important pentru menținerea stării bune a corpurilor de apă și pentru protecția ecosistemelor acvatice și umede. |
+| Planul național de management actualizat aferent porțiunii din bazinul hidrografic internațional al fluviului Dunărea care este cuprinsă în teritoriul României | 2022-2027 | Managementul apelor | Ridicată, cu contribuție indirectă semnificativă – important pentru menținerea conectivității ecologice și a stării ecosistemelor acvatice, ripariene și umede din bazinul Dunării. |
+| Planurile de Management al Riscului la Inundații - Ciclul II, aferente celor 11 administrații bazinale de apă și fluviului Dunărea de pe teritoriul României | 2022-2027 | Managementul inundațiilor | Moderată, cu contribuție indirectă - include măsuri favorabile retenției naturale a apei și reconectării luncilor; implementarea intervențiilor trebuie corelată cu cerințele de protecție a ecosistemelor. |
+| Strategia națională privind gospodărirea integrată a zonei costiere și a Planului de management integrat al zonei costiere | 2025-2040 | Mediu costier | Foarte ridicată, cu contribuție directă - are relevanță majoră pentru conservarea ecosistemelor costiere și marine, a habitatelor specifice și a serviciilor ecosistemice asociate. |
+| Programul pentru Acvacultură și Pescuit (PAP) | 2021-2027 | Acvacultură și pescuit | Ridicată, cu contribuție directă - necesită aplicarea strictă a condiționalităților de mediu. |
+| Strategia Națională privind Adaptarea la Schimbările Climatice (SNASC) 2024-2030, cu perspectiva anului 2050 | 2024-2030 | Schimbări climatice | Ridicată, cu contribuție directă și indirectă - promovează adaptarea ecosistemică și soluțiile bazate pe natură, cu beneficii pentru biodiversitate |
+|  |  |  | și servicii ecosistemice. |
+| Planul Național Integrat în domeniul Energiei și Schimbărilor Climatice (PNEC) | 2021-2030 | Schimbări climatice, energie | Moderată, cu contribuție indirectă - contribuie prin decarbonizare și reducerea presiunilor climatice; relevanța pentru biodiversitate depinde de integrarea cerințelor de mediu în proiectele sectoriale. |
+| Strategia Națională de Management al Riscului la Inundații pe termen mediu și lung | 2023-2025 | Managementul inundațiilor | Moderată, cu contribuție indirectă - include soluții bazate pe natură și măsuri favorabile conectivității ecologice; implementarea infrastructurii trebuie corelată cu cerințele de mediu. |
+| Planul Național Strategic PAC (PNS PAC) | 2023-2027 | Agricultură | Ridicată, cu contribuție directă și indirectă - include eco-scheme și măsuri agro-mediu-climă favorabile biodiversității; efectele depind de implementarea riguroasă a condiționalităților de mediu. |
+| Programul Național de Reabilitare a Infrastructurii Principale de Irigații din România | 2023-2027 | Agricultură | Ridicată, cu contribuție directă și indirectă – gestiunea integrată a apei prin dezvoltarea infrastructurii principale de irigații-desecare-drenaj are un impact favorabil direct asupra refacerii accelerate a biodiversității; utilizarea eficientă a apei poate menține o activitate productivă economic, genera venituri suplimentare în sectorul agricol, diminua costuri energetice, precum și menținerea și dezvoltarea calității vieții populației din mediul rural și a populării acelor zone, respectând în același timp aplicarea strictă a cerințelor de mediu. |
+| Planul național de redresare și reziliență | 2020-2026 | Managementul apei; Păduri și protecția biodiversității; Managementul deșeurilor; | Ridicată, cu contribuție directă și indirectă – include componente relevante pentru apă, păduri și protecția biodiversității, cu potențial de susținere |
+|  |  | Transformarea digitală | a investițiilor verzi și a refacerii ecosistemelor. |
+| Programul Operațional Dezvoltare Durabilă (PODD) | 2021-2027 | Protecția mediului | Ridicată, cu contribuție directă și indirectă - susține investiții relevante pentru biodiversitate, apă, economie circulară și reducerea poluării. |
+| Strategia Națională de Gestionare a Deșeurilor | 2025-2030 | Managementul deșeurilor | Ridicată, cu contribuție indirectă semnificativă - importantă pentru reducerea poluării și a presiunilor asupra ecosistemelor terestre și acvatic. |
+| Strategia Națională pentru Dezvoltarea Ecoturismului | 2023-2029 | Ecoturism | Ridicată, cu contribuție directă - favorizează conservarea naturii prin valorificarea durabilă a arilor protejate și prin promovarea unui management adaptat capacității de suport. |
+| Planul Național de Cercetare-Dezvoltare și Inovare (PNCDI IV) | 2022-2027 | Cercetare | Ridicată, cu contribuție indirectă semnificativă - susține cercetarea aplicată în domenii relevante pentru biodiversitate, |
+|  |  |  | ecosisteme, resurse naturale și schimbări climatice. |
+| Strategia Națională privind Educația pentru Mediu și Schimbări Climatice 2023-2030 | 2023-2030 | Educație | Ridicată, cu contribuție directă - sprijină conservarea biodiversității prin educație, conștientizare și schimbarea comportamentelor. |
+| Strategia Națională pentru Dezvoltarea Durabilă a României 2030 (SNDDR 2030) | 2020-2030 | Dezvoltare durabilă | Moderată, cu contribuție indirectă - susține integrarea biodiversității în cadrul dezvoltării durabile; efectele depind de implementarea sectorială și de monitorizare. |
+| Planul Național de Acțiune pentru implementarea SNDDR 2030 | 2020-2030 | Dezvoltare durabilă | Moderată, cu contribuție indirectă - creează un cadru favorabil pentru integrarea biodiversității în politicile sectoriale, în special prin guvernanță, educație și monitorizare. |
+| Strategia Națională de Dezvoltare Teritorială | 2020-2030 | Amenajarea teritoriului | Moderată, cu contribuție indirectă - poate' susține integrarea capitalului natural și a coridoarelor |
+|  |  |  | ecologice în planificarea teritorială. |
+| Politica Urbană a României - Strategia Națională de Dezvoltare Urbană Integrată pentru Orașe Reziliente, Verzi, Incluzive și Competitive | 2022-2035 | Amenajarea teritoriului | Ridicată, cu contribuție directă și indirectă - relevantă pentru biodiversitatea urbană și periurbană prin infrastructură verde-albastră și soluții bazate pe natură. |
+| Programul Operațional Regional (POR) - planuri pentru fiecare regiune | 2021-2027 | Dezvoltare regională | Ridicată, cu contribuție directă și indirectă - relevant pentru infrastructură verde-albastră, soluții bazate pe natură și biodiversitatea urbană și periurbană. |
+| Planul de Dezvoltare și Investiții în Sectorul Apă și Canalizare | 2024-2030 | Apă potabilă și canalizare | Moderată, cu contribuție indirectă - reduce presiunile de poluare asupra apelor, dar implementarea infrastructurii trebuie corelată cu protecția ecosistemelor sensibile. |
+| Strategia Energetică a României 2025-2035, cu perspectiva anului 2050 | 2025-2030 | Energie | Moderată, cu contribuție indirectă - contribuie prin |
+|  |  |  | tranziția energetică și reducerea emisiilor; sunt necesare condiționalități de mediu pentru evitarea presiunilor asupra habitatelor. |
+| Planul de acțiune pentru dezvoltarea energiei eoliene offshore | 2024-2040 | Energie eoliană | Moderată, cu contribuție indirectă - susține tranziția energetică, cu relevanță pentru biodiversitate dependentă de selectarea amplasamentelor și de aplicarea măsurilor de protecție a mediului marin. |
+| Planul de Dezvoltare a Sistemului Național de Transport Gaze Naturale (PDSNT) | 2024-2033 | Gaze naturale | Redusă, cu relevanță indirectă - include referiri generale la limitarea impactului asupra mediului; implementarea trebuie corelată riguros cu cerințele de protecție a habitatelor. |
+| Master Planul General de Transport al României | 2021-2030 | Infrastructura de transport | Limitată, cu relevanță indirectă - include măsuri de evitare și reducere a impactului, însă este necesară integrarea |
+|  |  |  | consecventă a condiționalităților de mediu și a conectivității ecologice. |
+| Programul Investițional pentru Dezvoltarea Infrastructurii de Transport | 2021-2030 | Infrastructura de transport | Limitată, cu relevanță indirectă - poate include măsuri compensatorii și de reducere a impactului, însă relevanța pentru biodiversitate depinde de aplicarea strictă a cerințelor de mediu. |
+| Strategia Națională privind Sistemele de Transport Inteligente (STI) | 2022-2030 | Infrastructura de transport | Redusă spre moderată, cu contribuție indirectă - poate reduce unele presiuni de mediu prin optimizarea mobilității, cu relevanță limitată pentru biodiversitate. |
+| Planul Național pentru Siguranța Aviației (PNSA) 2025-2027 | 2025-2027 | Transport aerian | Redusă, cu relevanță indirectă - document cu interacțiune limitată cu biodiversitatea; eventualele implicații depind de proiectele de infrastructură asociate. |
+| Strategia Națională pentru Dezvoltarea Turismului | 2025-2035 | Turism | Moderată, cu contribuție indirectă - poate susține turismul sustenabil și valorificarea responsabilă a patrimoniului natural, cu necesitatea gestionării presiunilor în zonele sensibile. |
+| Strategia Industrială a României 2024-2030 | 2024-2030 | Industrie | Redusă, cu relevanță indirectă - contribuția derivă în principal din economia circulară și tehnologiile curate; implementarea proiectelor trebuie corelată cu cerințele de protecție a mediului. |
+| Strategia Industriei Miniere | 2010-2035 | Industrie minieră | Moderată, cu contribuție directă - activitățile miniere generează presiuni directe asupra habitatelor și terenurilor, iar implementarea strategiei implică obligații de refacerea mediului și integrarea cerințelor de conservare a |
+|  |  |  | biodiversității în zonele afectate |
+| Strategia Națională pentru Resurse Minerale Neenergetice, aprobată prin HG 1464/2024 | 2025-2035 | Resurse minerale | Moderată, cu contribuție directă — activitățile reglementate au impact direct asupra utilizării terenurilor și a ecosistemelor; implementarea necesită integrarea strictă a cerințelor de conservare a biodiversității, inclusiv prin evaluări de mediu și măsuri de refacere ecologică. |
+| Strategia Națională de Sănătate | 2023-2030 | Sănătate | Redusă, cu contribuție indirectă — relevantă mai ales prin legătura dintre sănătatea umană, calitatea mediului și abordarea One Health, care evidențiază interdependența dintre sănătatea oamenilor, animalelor și ecosistemelor. |
+| Strategia Națională privind Drepturile Persoanelor cu Dizabilități „O Românie echitabilă” | 2022-2027 | Social | Redusă, cu relevanță indirectă — poate susține, în mod complementar, integrarea infrastructurilor |
+|  |  |  | verzi și a principiilor dezvoltării durabile în proiectele de accesibilitate. |
+| Planul Strategic Instituțional al MAI | 2025-2028 | Administrație publică | Redusă, cu contribuție indirectă - poate susține protecția patrimoniului natural și prevenirea infracțiunilor de mediu, în funcție de implementare. |
+| Strategia Națională de Apărare | 2025-2030 | Apărare națională | Redusă, cu contribuție indirectă - document cu interacțiune limitată cu biodiversitatea, fără a avea obiective directe în domeniu |
+
+## Capitolul 4 - Obligații de raportare
+
+România, în calitatea sa de stat membru al Uniunii Europene și parte la principalele convenții internaționale dedicate protecției mediului, are responsabilitatea de a îndeplini un set amplu de obligații de raportare în domeniul biodiversității. Acest sistem de raportare reprezintă un instrument esențial pentru evaluarea stării biodiversității la nivel național, pentru monitorizarea presiunilor și tendințelor care afectează ecosistemele și pentru urmărirea progresului în implementarea angajamentelor asumate. Prin aceste raportări periodice, România contribuie la mecanismele regionale și globale de monitorizare a biodiversității, asigurând transparență, responsabilitate și coerență în gestionarea capitalului natural. Totodată, îndeplinirea acestor obligații permite integrarea României în evaluările europene și internaționale privind starea naturii, sprijinind astfel elaborarea de politici bazate pe date și consolidând poziția țării ca actor activ în efortul global de conservare și stopare a declinului biodiversității.
+
+## 4.1. Obligații de raportare la nivel internațional
+
+## 4.1.1. Convenția privind Diversitatea Biologică (CBD)
+
+Ca parte la Convenția privind Diversitatea Biologică din 1994, România are obligația de a raporta periodic progresele înregistrate în implementarea Strategiei Naționale pentru Biodiversitate și a Planului de Acțiune, precum și contribuția sa la punerea în aplicare a Cadrului global pentru biodiversitate Kunming–Montreal. Totodată, România are obligații distincte de raportare și în temeiul Protocolului de la Cartagena privind biosecuritatea, referitoare la implementarea măsurilor privind organismele vii modificate. Calendarul raportării este stabilit prin deciziile adoptate în cadrul Convenției și al protocoalelor sale, nefiind redus la un interval fix unic; în cadrul actual, pentru CBD au fost stabilite termenele de transmitere a raportului național 7 până la 28 februarie 2026 și a raportului național 8 până la 30 iunie 2029. Raportările includ realizarea Rapoartelor Naționale, transmiterea contribuției naționale pentru biodiversitate și furnizarea de informații tematice privind starea speciilor și habitatelor, amenințări, măsuri de conservare, resurse genetice și mecanisme de acces și repartizare a beneficiilor.
+
+Indicatorii naționali trebuie actualizați și raportați în paralel cu ciclurile de raportare ale Cadrul Global pentru Biodiversitate Kunming-Montreal, care vor urma un calendar armonizat la nivel global.
+
+Coordonarea procesului de raportare este realizată de punctul focal național CBD, desemnat în cadrul Ministerului Mediului, Apelor și Pădurilor, responsabil de comunicarea cu Secretariatul, agregarea informațiilor de la autorități și gestionarea Clearing House Mechanism.
+
+## 4.1.2. Alte convenții internaționale
+
+În paralel cu CBD, România are obligații de raportare în cadrul altor convenții specifice domeniului biodiversității. În cadrul Convenției Ramsar, statul trebuie să transmită periodic informații privind starea siturilor desemnate, eventualele modificări ale caracteristicilor ecologice și măsurile de management implementate, prin actualizarea periodică a fișelor standardizate (RIS). Actualizarea RIS se face o dată la șase ani.
+
+În ceea ce privește Convenția privind conservarea speciilor migratoare de animale sălbatice (CMS/Convenția de la Bonn), România contribuie la evaluări internaționale prin transmiterea datelor referitoare la speciile migratoare și la implementarea acordurilor asociate, precum ACCOBAMS, AEWA, EUROBATS, a Memorandumului de Întelegere pentru conservarea păsărilor de pradă. Raportările CMS se transmit la fiecare trei ani, iar raportările pentru acordurile subsidiare la trei sau patru ani, în funcție de prevederi.
+
+În cadrul Programului UNESCO „Omul și Biosfera”, raportarea formală privind rezervațiile biosferei se realizează la fiecare 10 ani, prin periodic review. În plus, statele pot transmite și informări sau rapoarte mai scurte privind implementarea activităților și programelor la nivelul rezervațiilor biosferei și al comitetelor naționale, acestea putând fi prezentate în cadrul reuniunilor MAB-ICC.
+
+În cadrul CITES, România are obligația de a furniza anual informații privind comerțul cu specii listate în Anexe, precum și un raport bienal privind implementarea legislației și aplicarea măsurilor de control, confiscări și cazuri de nerespectare a regimului de comerț internațional.
+
+Un instrument internațional recent, relevant pentru guvernanța globală a biodiversității, este Acordul privind conservarea și utilizarea durabilă a biodiversității marine dincolo de jurisdicția națională (BBNJ), cunoscut și sub denumirea de „Tratatul pentru Marea Liberă”. Adoptat în 2023 sub egida Organizației Națiunilor Unite și intrat în vigoare la 17 ianuarie 2026, acest acord reprezintă primul cadru juridic global dedicat protecției biodiversității în zonele marine situate în afara jurisdicțiilor naționale. Acordul stabilește mecanisme pentru conservarea și utilizarea durabilă a biodiversității marine în marea liberă, incluzând prevederi privind instituirea ariilor marine protejate în zonele internaționale, evaluarea impactului asupra mediului pentru activitățile desfășurate în aceste zone, accesul la resursele genetice marine și împărțirea echitabilă a beneficiilor rezultate din utilizarea acestora, precum și consolidarea cooperării științifice și a transferului de tehnologii marine. Implementarea acordului va implica dezvoltarea unor mecanisme de raportare și cooperare internațională, statele fiind încurajate să contribuie la colectarea și schimbul de date științifice, la monitorizarea stării ecosistemelor marine și la participarea în procesele decizionale privind instituirea și gestionarea măsurilor de conservare la nivel global.
+
+## 4.2. Obligații de raportare la nivel european
+
+## 4.2.1. Directivele Habitate și Păsări
+
+La nivelul Uniunii Europene, principalele obligații de raportare derivă din Directivele Habitate și Păsări, care impun statelor membre transmiterea, la fiecare șase ani, a rapoartelor privind starea de conservare a habitatelor și speciilor de interes comunitar (Art. 17), respectiv a stării populațiilor de păsări sălbatice (Art. 12). În plus, statele membre au obligația de a raporta derogările acordate de la regimul de protecție al speciilor, anual în cazul Directivei Păsări (Art. 9) și o dată la doi ani în cazul Directivei Habitate (Art. 16). Aceste raportări se bazează pe monitorizarea sistematică la nivel național și contribuie la evaluările europene ale stării biodiversității.
+
+Actualizarea datelor pentru rețeaua Natura 2000 este un proces continuu, care include revizuirea formularelor standard de date (SDF), a informațiilor privind habitatele, speciile, presiunile, amenințările și măsurile de management, precum și, după caz, a limitelor siturilor. Potrivit noii Decizii privind Formularul Standard de Date, aceste informații trebuie actualizate periodic, pe baza celor mai bune date disponibile, fiind recomandată o actualizare cel puțin o dată la 6 ani.
+
+Toate aceste procese sunt realizate în coordonare cu Agenția Europeană de Mediu, prin intermediul rețelei Reportnet3, ceea ce permite integrarea datelor naționale în sistemele europene de monitorizare.
+
+## 4.2.2. Alte instrumente europene
+
+În temeiul Regulamentului (UE) 1143/2014, România raportează Comisiei, la fiecare 6 ani, informații actualizate privind distribuția speciilor alogene invazive de interes pentru Uniune, sistemele de supraveghere și control și planurile de acțiune privind căile prioritare. Separat, detectarea timpurie a unor astfel de specii se notifică fără întârziere, iar măsurile de eradicare timpurie se notifică în termen de 3 luni de la notificarea detectării.
+
+În ceea ce privește ariile protejate, protecția strictă și restaurarea naturii, obligațiile relevante pentru România nu derivă doar din orientările Strategiei UE pentru biodiversitate 2030, ci, în mod direct și obligatoriu, din Regulamentul (UE) 2024/1991 privind restaurarea naturii. Acest regulament impune statelor membre elaborarea, transmiterea, revizuirea și implementarea planurilor naționale de restaurare, precum și instituirea unor mecanisme de monitorizare și furnizare periodică a datelor necesare urmăririi progresului în atingerea țintelor de restaurare.
+
+Potrivit regulamentului, România trebuie să transmită proiectul planului național de restaurare până la 1 septembrie 2026. Ulterior, planul național trebuie finalizat, publicat și transmis Comisiei în termen de 6 luni de la primirea observațiilor Comisiei. Planul național trebuie revizuit și, dacă este cazul, completat cu măsuri suplimentare până la 30 iunie 2032, apoi până la 30 iunie 2042 și ulterior cel puțin o dată la 10 ani.
+
+Regulamentul stabilește și cerințe explicite privind monitorizarea. Pentru anumite categorii de date și indicatori, monitorizarea trebuie realizată cel puțin o dată la 6 ani; pentru alți indicatori, precum cei privind păsările agricole, păsările forestiere și polenizatorii, monitorizarea este anuală, iar pentru unele elemente specifice aceasta este trienală. Totodată, regulamentul prevede că datele rezultate din monitorizare trebuie făcute publice și integrate în sisteme electronice și GIS, compatibile cu cerințele INSPIRE și cu fluxurile europene de raportare.
+
+Pe baza datelor furnizate de statele membre, Agenția Europeană de Mediu elaborază o imagine tehnică a progresului până la 31 decembrie 2028 și apoi la fiecare 3 ani, precum și un raport tehnic la nivelul Uniunii până la 30 iunie 2032 și ulterior la fiecare 6 ani. Comisia Europeană raportează, la rândul său, Parlamentului European și Consiliului privind implementarea regulamentului începând cu 19 august 2029 și apoi la fiecare 6 ani.
+
+Separat de aceste obligații, raportarea privind ariile protejate naționale continuă și prin fluxurile EEA dedicate, inclusiv inventarul Nationally designated areas (NatDA, fostul CDDA), gestionat în Reportnet 3. Pentru 2026, apelul de date NatDA a fost lansat în ianuarie 2026, ceea ce confirmă caracterul recurrent al acestui flux de raportare, distinct de obligațiile din Regulamentul privind restaurarea naturii
+
+În baza art. 8 din Directiva Habitate, art. 8 alineatul (1): „O dată cu propunerile de situri care ar putea fi desemnate ca arii speciale de conservare adăpostind tipuri de habitate naturale prioritare și/sau specii prioritare, statele membre trimit, după caz, Comisiei, estimări privind cofînanțarea comunitară pe care o consideră necesară pentru a-și putea îndeplini obligațiile care decurg din art. 6 alin. (1).”, statele membre trebuie să comunice în Cadrele de Acțiune Prioritară (PAF) măsurile suplimentare și nevoile de finanțare.
+
+Ca instrument de raportare și armonizare a datelor spațiale, Directiva INSPIRE susține colectarea, structurarea și schimbul informațiilor privind biodiversitatea prin utilizarea a patru teme relevante: Protected Sites (situri protejate), Bio-geographical Regions (regiuni biogeografice), Habitats and Biotopes (habitate și biotopuri) și Species Distribution (distribuția speciilor). Aceste teme permit compatibilizarea datelor naționale cu cerințele europene de raportare, în special pentru raportările periodice privind habitatele, speciile și ariile protejate. Deși INSPIRE nu prevede un termen unic de raportare pentru toate aceste seturi de date, acestea trebuie menținute actualizate și corelate cu ciclurile de raportare sectorială, în principal cele de 6 ani aferente Directivei Habitate și Directivei Păsări.
+
+## 4.3. Raportarea la nivel național
+
+La nivel național, România nu dispune încă de un sistem integrat și unitar de monitorizare a biodiversității care să susțină, în mod coerent și continuu, toate obligațiile de raportare către Uniunea Europeană. În prezent, datele relevante pentru biodiversitate sunt colectate și gestionate prin mecanisme instituționale și proiecte distincte, ceea ce conduce la o structură fragmentată a fluxurilor de informații și la un nivel redus de uniformitate în actualizarea, comparabilitatea și utilizarea acestora. Existența unor instrumente și baze de date dedicate anumitor componente ale sistemului, inclusiv pentru rețeaua Natura 2000, nu echivalează încă în mod automat cu funcționarea unui sistem național complet de monitorizare periodică.
+
+În acest context, ANMAP are un rol important în administrarea și centralizarea unor categorii relevante de informații privind ariile naturale protejate și în susținerea proceselor de raportare asociate rețelei Natura 2000, inclusiv în raport cu formularele standard ale siturilor. Totodată, datele necesare raportărilor privind starea de conservare a habitatelor și speciilor, respectiv raportările realizate în temeiul art. 17 din Directiva Habitate și art. 12 din Directiva Păsări, presupun contribuții din surse multiple și actualizări realizate în funcție de cerințele ciclurilor de raportare. Pentru art. 17, raportarea către Comisia Europeană are loc la fiecare 6 ani, iar pentru art. 12 s-a consolidat același interval de raportare.
+
+Interoperabilitatea dintre bazele de date gestionate de diferite instituții rămâne însă limitată, iar accesul, structura și ritmul de actualizare a informațiilor nu sunt încă pe deplin armonizate la nivel național. Din această perspectivă, este necesară prioritizarea actualizării sistemelor informatice utilizate pentru gestionarea datelor de biodiversitate, în special cele aferente siturilor Natura 2000, astfel încât să permită evidențierea momentului actualizării datelor, păstrarea istoricului modificărilor și, după caz, generarea de extrase sau rapoarte periodice privind datele nou introduse ori revizuite. O astfel de funcționalitate ar îmbunătăți trasabilitatea și consistența raportării, fără a presupune, în mod automat, existența deja operațională a unui sistem național complet de monitorizare periodică.
+
+În perspectivă, pentru consolidarea capacității de raportare și fundamentare a deciziilor în domeniul biodiversității, este necesară dezvoltarea progresivă a unui cadru național coerent de colectare, administrare, actualizare și utilizare a datelor. Acesta ar trebui să urmărească standardizarea indicatorilor și a metodologiilor, clarificarea responsabilităților instituționale, creșterea interoperabilității și stabilirea unei periodicități clare pentru actualizarea seturilor de date relevante la nivel național.
+
+## Capitolul 5 - Analiza situației naționale privind biodiversitatea
+
+Prezentul capitol oferă o analiză integrată și actualizată a situației biodiversității din România, reprezentând fundamentul analitic al Strategiei Naționale pentru Conservarea Biodiversității și cadrul de referință pentru definirea obiectivelor, măsurilor și acțiunilor strategice propuse. Analiza urmărește să evidențieze atât starea actuală a biodiversității, cât și principalele tendințe, presiuni, lacune și constrângeri care influențează capacitatea României de a-și îndeplini angajamentele asumate la nivel european și internațional.
+
+## 5.1. Starea actuală a biodiversității
+
+Evaluarea stării biodiversității în România se bazează în principal pe datele rezultate din raportările realizate în cadrul Directivei Păsări (art. 12) și Directivei Habitate (art. 17), care reprezintă principalele instrumente europene de monitorizare a speciilor și habitatelor de interes comunitar. Aceste raportări permit evaluarea periodică a stării de conservare a speciilor și habitatelor, precum și a tendințelor populaționale și a eficienței măsurilor de conservare.
+
+Analiza prezentată utilizează datele disponibile pentru ultimele cicluri complete de raportare (2008–2012, 2013–2018 și 2019–2024), care reprezintă ultimele seturi de date finalizate și validate la nivel european disponibile la momentul elaborării analizei. Suplimentar, au fost folosite actualizările realizate pentru unele specii în procesul de elaborare a Listei Roșii naționale a speciilor de păsări din România, aprobată prin Ordinul ministrului mediului, apelor și pădurilor nr. 2.015/2022 privind aprobarea Listei roșii naționale a speciilor de păsări din România, folosind criteriile IUCN, în cadrul Proiectului „Completarea nivelului de cunoaștere a biodiversității prin implementarea sistemului de monitorizare a stării de conservare a speciilor de păsări de interes comunitar din România și raportarea în baza art. 12 al Directivei Păsări 2009/147/CE”, finanțat prin Programul operațional Infrastructura mare 2014—2020. Trebuie însă menționat că evaluarea realizată în cadrul directivelor europene nu acoperă în mod exhaustiv toate componentele biodiversității, fiind concentrată în principal asupra speciilor și habitatelor de interes comunitar. Numeroase grupuri taxonomice relevante, inclusiv multe grupuri de insecte sau alte organisme cu rol ecologic important - de exemplu polenizatori, nu sunt evaluate sistematic în acest cadru de raportare.
+
+Situația la nivelul avifaunei
+
+În cazul speciilor de păsări, evaluările realizate la nivel național indică faptul că o parte importantă dintre populații prezintă o situație relativ stabilă sau favorabilă. Aproximativ 46% dintre evaluări indică o stare favorabilă a populațiilor, în timp ce pentru aproximativ un sfert dintre cazuri informațiile disponibile nu permit stabilirea unei stări clare de conservare.
+
+Analiza tendințelor populaționale evidențiază faptul că pentru o parte dintre specii există indicii de creștere sau stabilizare a populațiilor, în timp ce pentru altele sunt semnalate tendințe de declin. De asemenea, un procent semnificativ dintre evaluări indică tendințe necunoscute, reflectând limitările datelor disponibile sau necesitatea unor serii de monitorizare mai consistente.
+
+În general, evoluțiile pozitive sunt asociate în special cu specii adaptabile sau cu specii care beneficiază de măsuri de conservare specifice, în timp ce declinurile populaționale sunt frecvent legate de schimbări în utilizarea terenurilor, degradarea habitatelor sau alte presiuni antropice.
+
+Figura 1 - Starea populațiilor speciilor de păsări la nivel național
+
+Favorabilită Necunoscută Inadecală Necorespunzălcare
+
+\* Notă. Numărul total de evaluări este de 250 (anumite specii având evaluare la mai multe fenologii)
+
+La nivel național se observă că în cazul majorității evaluărilor (115, respectiv 46%) starea de conservare este una bună. În cazul speciilor de păsări se păstrează însă un procent de 25% la care nu se cunoaște momentan starea de conservare.
+
+Figura 2 - Tendințele pe termen scurt (12 ani) ale populațiilor speciilor de păsări cuibăritoare la nivel național
+
+Figura 3 - Tendințele pe termen lung ale populațiilor speciilor de păsări cuibăritoare la nivel național
+
+\- În creștere - Stabile - Fluctuante - Nesigure - Necunoscute - În scădere
+
+\* Notă. Numărul total de evaluări este de 250
+
+Statele membre trebuie să raporteze tendințele populațiilor de păsări atât la fenologia de reproducere (breeding), cât și la cea de iernare (wintering), atât pe termen scurt - ultimele raportări, cât și pe termen lung (începând din anul 1980, acolo unde datele sunt disponibile, respectiv maximul perioadei disponibile acolo unde nu există date din 1980).
+
+Din datele existente se observă că:
+
+\- Pe termen scurt, un procent de 20% dintre specii arată o creștere, comparativ cu 8% identificate ca având o creștere populațională la raportarea anterioară (2015)
+
+\- Pe termen scurt, numărul speciilor la care tendința este necunoscută, s-a redus la 32% comparativ cu 68% la raportarea anterioară (2015)
+
+\- Pe termen scurt, numărul speciilor la care apare declin populațional a crescut la 12% față de 5% la raportarea anterioară (2015)
+
+\- Pe termen lung, un procent de 14% din specii au o tendință crescătoare, comparativ cu 9% la raportarea anterioară (2015)
+
+\- Pe termen lung, constatăm un procent relativ similar al speciilor la care nu cunoaștem tendința populațională la ultima raportare (78%) față de raportarea precedentă (80%)
+
+\- Pe termen lung, procentul de specii cu populații aflate în declin a scăzut la 4% comparativ cu 6% la raportarea anterioară (2015)
+
+Situația altor specii decât păsările
+
+Anexele nr. II, IV și V la Directiva habitate listează 1 523 de specii de interes european. La nivel național, în cadrul ultimei raportări disponibile pentru analize (2019-2024) folosită pentru prezentul raport, au fost listate un număr de 623 de specii, pentru care au fost redactate și furnizate rapoarte. Dintre acestea, cele mai numeroase grupe taxonomice sunt mamiferele (145) și artropodele (157).
+
+Din datele furnizate prin procesul de raportare se poate constata următoarele:
+
+\- Pentru speciile raportate, numărul celor cu stare de conservare favorabilă este aproximativ egal cu numărul celor la care starea de conservare este nefavorabilă (fie Inadecvată, fie Necorespunzătoare)
+
+\- Pentru majoritatea speciilor raportate, avem o stare de conservare favorabilă (227, respectiv 39%)
+
+\- Tot pentru aproximativ 56% din specii avem o stare de conservare nefavorabilă, fie inadecvată (31%) fie necorespunzătoare (25%)
+
+\- Grupul de specii care au cei mai mulți taxoni cu stare de conservare nefavorabilă, fie inadecvată, fie necorespunzătoare sunt peștii, urmați de artropode și plantele non-vasculare
+
+\- La polul opus, sunt mamiferele unde 71.7% din speciile de mamifere analizate au stare de conservare favorabilă, urmate de moluște cu 58%. In cazul moluștelor trebuie remarcat că acest grup are și cel mai mare număr de specii cu stare de conservare necunoscută.
+
+Figura 4 - Starea de conservare speciilor la nivel național
+
+Figura 5 - Starea de conservare pentru fiecare grup de specii la nivel național
+
+Favorabil Necunoscut Inadecvat Necorespunzător
+
+La nivelul habitatelor naturale, situația este diversă și reflectă atât specificul diferitelor tipuri de ecosisteme, cât și particularitățile regiunilor biogeografice în care acestea sunt distribuite. În cadrul raportării realizate conform art. 17 al Directivei Habitate pentru perioada 2019–2025, au fost elaborate în total 175 de evaluări ale stării de conservare, corespunzătoare unui număr de 87 de tipuri de habitate de interes comunitar. Pentru unele habitate, evaluările au fost realizate distinct pentru mai multe regiuni biogeografice, ceea ce explică numărul mai mare de rapoarte comparativ cu numărul tipurilor de habitate. Din totalul celor 175 de evaluări, 37 vizează habitate de pajiști, 48 habitate forestiere, 30 habitate acvatic, 16 habitate costiere, 7 habitate de dune, 12 habitate de turbării, 9 habitate de tufărișuri și 16 habitate de stâncărie.
+
+Figura 7 - Starea de conservare pentru fiecare grup de habitate la nivel national
+
+\* Notă. Numărul total de evaluări este de 175
+
+Analiza datelor sintetizate în figurile de mai sus evidențiază principalele tendințe privind
+
+## Favorabil Necunoscut Inadecvat Necorespunzător
+
+starea de conservare a habitatelor de interes comunitar la nivel național. În ansamblu, rezultatele indică următoarele:
+
+\- Marea majoritate a habitatelor raportate au stare de conservare favorabilă (67%)
+
+\- Un procent de doar 31% au stare de conservare nefavorabilă, fie Inadecvată (27%), fie Necorespunzătoare (4%)
+
+\- Dintre categoriile de habitate, cele de mlaștini au cele mai mari probleme; aici, majoritatea (peste 83%) au statut inadecvat sau necorespunzător
+
+\- Situația cea mai bună o întâlnim la habitatele de pajiști, cu peste 91% aflate în stare favorabilă de conservare. Totuși in acest caz probabil calitatea precară a datelor, afectează evaluarea stării de conservare deoarece prin analiza calității habitatelor prin indicatori, în cazul de față păsările, rezultă că speciile cele mai amenințate cu dispariția la nivel național sunt speciile de terenuri deschise (respectiv pajiștile).
+
+Tendințele stării de conservare a habitatelor
+
+În cazul habitatelor naturale, analiza tendințelor stării de conservare este disponibilă pentru un număr relativ redus de tipuri de habitate aflate într-o stare de conservare
+
+*Documentul are 252 de pagini; am citit primele 40.*

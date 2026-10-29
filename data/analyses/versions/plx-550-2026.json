@@ -1,0 +1,112 @@
+{
+  "slug": "plx-550-2026",
+  "billId": "PL-x 550/2026",
+  "updatedAt": "2026-10-29T13:06:45.273Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L467FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Agenția Domeniilor Statului schimbă 4 autoturisme pe 4 autoutilitare pentru munca pe teren",
+      "summaryTlDr": "Lege tehnică și practic inofensivă: modifică parcul auto al unei agenții de stat, fără efecte asupra cetățenilor sau firmelor. Problema este că textul face mai mult decât spune expunerea: rescrie tot parcul ANADSPA, inclusiv bărcile, și lasă plafonul de carburant pe seama unui ordin de ministru.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/50/0/se628.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Agenția pentru terenurile statului și pescuit primește 4 autoutilitare în locul a 4 autoturisme",
+      "summaryTlDr": "Lege tehnică, de organizare internă. Stabilește prin lege parcul auto și ambarcațiunile ANADSPA și nu are efecte asupra cetățenilor sau firmelor. Problemele sunt de redactare: titlul anunță o modificare care nu există, plafonul de carburant e lăsat pe ordin de ministru, iar o frază e ambiguă. În plus, justificarea PNRR riscă să fi expirat înainte de votul final.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a păstrat textul inițiatorului; s-au corectat doar formulări și trimiteri",
+      "summary": "Senatul a schimbat doar redactarea: trimiterea la OG nr. 80/2001, folosirea abrevierii ANADSPA și formula de adoptare. Parcul de 115 autovehicule, ambarcațiunile și regulile pentru carburant au rămas cum erau inițial.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Limita de carburant pentru cele 115 autovehicule se stabilește prin ordin, fără plafon legal",
+            "major": true,
+            "article": "art. unic alin. (2)"
+          },
+          {
+            "text": "Carburantul pentru bărci și șalupe e limitat doar vag, „în limitele prevederilor bugetare”",
+            "major": false,
+            "article": "art. unic alin. (3)"
+          },
+          {
+            "text": "Ultima frază din alin. (3) poate fi citită ca anulând carburantul tuturor ambarcațiunilor",
+            "major": false,
+            "article": "art. unic alin. (3)"
+          },
+          {
+            "text": "Nu e clar dacă cele 4 autoutilitare frigorifice intră în cele 115 autovehicule",
+            "major": false,
+            "article": "art. unic alin. (3)"
+          },
+          {
+            "text": "Expunerea justifică doar 4 autoutilitare și nu arată parcul anterior, deși textul fixează 115",
+            "major": false,
+            "article": "art. unic alin. (1)"
+          },
+          {
+            "text": "Legea nu obligă expres la publicarea ordinului privind limita de carburant",
+            "major": false,
+            "article": "art. unic alin. (2)"
+          },
+          {
+            "text": "Greșeală rămasă în text: „activităților specific” în loc de „specifice”",
+            "major": false,
+            "article": "art. unic alin. (1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Nu creează taxe, sancțiuni sau obligații noi pentru cetățeni și firme",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Toate vehiculele din parc sunt operaționale, nu pentru conducere sau protocol",
+            "major": false,
+            "article": "art. unic alin. (1)"
+          },
+          {
+            "text": "Repartizarea pe categorii se adună corect: 78 + 9 + 28 = 115",
+            "major": false,
+            "article": "art. unic alin. (1)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 7,
+        "removed": 6,
+        "same": 0.3
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:54:57.500Z"
+    }
+  ]
+}

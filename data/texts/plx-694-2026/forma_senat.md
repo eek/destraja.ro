@@ -1,0 +1,27 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+pentru completarea art.25 din Legea nr. 227/2015 privind Codul fiscal
+
+Senatul adoptă prezentul proiect de lege
+
+Art.I.- Articolul 25 din Legea nr.227/2015 privind Codul fiscal, publicată în Monitorul Oficial al României, Partea I, nr.688 din 10 septembrie 2015, cu modificările și completările ulterioare, se completează după cum urmează:
+
+1\. La alineatul (3), după litera n) se introduce o nouă literă, lit.o), cu următorul cuprins:
+
+„o) cheltuielile privind dobânzile și alte costuri echivalente dobânzii din punct de vedere economic, precum și majorările de întârziere aferente creditelor contractate intra-grup, în limita dobânzii medii plus o marjă fixă de cel mult 1% practicate pentru credite acordate pe piața financiară din statul de rezidență al creditorului.”
+
+2\. La alineatul (4), după litera v) se introduce o nouă literă, lit.w), cu următorul cuprins:
+
+„w) cheltuielile privind serviciile de management, consultanță, asistență sau transferul drepturilor de proprietate intelectuală ce sunt obiect al unor contracte intra-grup.”
+
+Art.II.- Prevederile prezentei legi intră în vigoare la data de 1 ianuarie 2027.
+
+Acest proiect de lege a fost adoptat de Senat în ședința din 21 octombrie 2026, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.
+
+PREȘEDINTELE SENATULUI
+
+MIRCEA'ABRUDEAN

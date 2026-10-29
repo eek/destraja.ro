@@ -1,0 +1,97 @@
+{
+  "slug": "plx-246-2026",
+  "billId": "PL-x 246/2026",
+  "updatedAt": "2026-10-29T12:54:52.994Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L653FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Auditorii interni din universitățile de stat, salarizați ca personal didactic auxiliar",
+      "summaryTlDr": "Lege mică, de salarizare, fără capcane pentru cetățeni sau firme: auditorul intern din universitățile de stat ar fi încadrat în aceeași categorie ca cel din școli. Problemele țin de redactare: nu spune pe ce poziție din grilă e încadrat, iar afirmația că nu costă nimic nu e demonstrată.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/200/40/6/se268.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Auditorii interni din universitățile de stat trec la personal didactic auxiliar, ca în școli",
+      "summaryTlDr": "Lege mică și de nișă, care corectează o diferență de statut între auditorii interni din școli și cei din universități. Intenția e rezonabilă, dar textul e incomplet: nu spune cum se salarizează concret funcția, iar „fără impact bugetar” este doar afirmat, nu demonstrat.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a păstrat neschimbat textul: auditorul intern din universități devine didactic auxiliar",
+      "summary": "Senatul a adoptat aceeași prevedere ca inițiatorul: auditorul intern din universitățile de stat trece la personal didactic auxiliar. S-au schimbat doar titlul și locul exact din anexă, deci riscurile rămân aceleași.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Nu precizează grila, nivelul de studii sau regulile de reîncadrare ale auditorului",
+            "major": true,
+            "article": "art. unic (art. 1¹ din anexa nr. I)"
+          },
+          {
+            "text": "Lipsește clauza de menținere a salariului în plată; reîncadrarea poate reduce venitul",
+            "major": true,
+            "article": "art. unic (art. 1¹ din anexa nr. I)"
+          },
+          {
+            "text": "Neclar dacă se aplică și șefilor compartimentelor de audit public intern",
+            "major": true,
+            "article": "art. unic (art. 1¹ din anexa nr. I)"
+          },
+          {
+            "text": "Lipsește fișa financiară, deși eventualele creșteri salariale se plătesc din bani publici",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Statutul se schimbă doar în legea salarizării, fără corelare cu Legea nr. 199/2023",
+            "major": true,
+            "article": "art. unic (art. 1¹ din anexa nr. I)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Aplicare limitată: doar auditorul intern din universitățile de stat, nu alte funcții",
+            "major": true,
+            "article": "art. unic (art. 1¹ din anexa nr. I)"
+          },
+          {
+            "text": "Locul exact în anexă e precizat: capitolul I litera B",
+            "major": false,
+            "article": "art. unic"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 7,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:53:58.707Z"
+    }
+  ]
+}

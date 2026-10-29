@@ -1,0 +1,170 @@
+{
+  "slug": "plx-109-2026",
+  "billId": "PL-x 109/2026",
+  "updatedAt": "2026-10-29T14:09:28.537Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L637FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 1.3,
+      "riskLevel": "green",
+      "plainTitle": "2026 devine oficial Anul Traian Vuia",
+      "summaryTlDr": "Lege simbolică și inofensivă: declară 2026 Anul Traian Vuia și doar permite instituțiilor să organizeze evenimente din bugetele pe care le au deja. Singura scăpare e o formulă istorică prea categorică în art. 1.",
+      "scores": {
+        "agy": 1,
+        "claude": 1,
+        "codex": 2
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/00/9/se138.pdf",
+      "source": "cdep.ro",
+      "riskScore": 1.3,
+      "riskLevel": "green",
+      "plainTitle": "2026 devine oficial Anul Traian Vuia",
+      "summaryTlDr": "Lege simbolică și inofensivă: nu obligă pe nimeni la nimic, nu creează taxe și nu impune cheltuieli noi. Minusurile sunt minore: a fost finalizată după aniversarea din 18 martie 2026 și preia în textul de lege o afirmație istorică disputată internațional.",
+      "scores": {
+        "agy": 1,
+        "claude": 1,
+        "codex": 2
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl109_cd109_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 1.3,
+      "riskLevel": "green",
+      "plainTitle": "2026 devine oficial Anul Traian Vuia, la 120 de ani de la primul său zbor",
+      "summaryTlDr": "Lege simbolică și inofensivă: nu impune nimic nimănui, nu creează taxe și nu cere bani noi de la buget. Singura ironie e calendarul: deși a avut procedură de urgență, a fost votată definitiv pe 10 iunie 2026, la aproape trei luni după aniversarea din 18 martie.",
+      "scores": {
+        "agy": 1,
+        "claude": 1,
+        "codex": 2
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat textul inițiatorului fără schimbări de fond; diferă doar antetul și formula finală",
+      "summary": "Forma adoptată de Senat preia cuvânt cu cuvânt cele două articole inițiale; s-au schimbat doar antetul și formula de adoptare. Legea rămâne declarativă: instituțiile pot, fără să fie obligate, organiza evenimente, plătite din bugetele deja aprobate.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Legea consfințește o afirmație istorică disputată: «primul zbor din istoria omenirii»",
+            "major": false,
+            "article": "art. 1"
+          },
+          {
+            "text": "Nicio instituție nu e obligată; rezultatul depinde doar de inițiativa fiecăreia",
+            "major": false,
+            "article": "art. 2 alin. (1)"
+          },
+          {
+            "text": "Lipsesc un coordonator, un program, o raportare și ziua de 18 martie",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Nu creează obligații, drepturi sau sancțiuni pentru cetățeni ori firme",
+            "major": true,
+            "article": "art. 1, art. 2"
+          },
+          {
+            "text": "Finanțare doar din bugetele proprii aprobate; fără cheltuieli, taxe sau fonduri noi",
+            "major": true,
+            "article": "art. 2 alin. (2)"
+          },
+          {
+            "text": "Precizarea «prin mijloace proprii» îngustează corect afirmația despre primul zbor",
+            "major": false,
+            "article": "art. 1"
+          },
+          {
+            "text": "Instituțiile pot sprijini evenimente culturale, educaționale și științifice despre Traian Vuia",
+            "major": false,
+            "article": "art. 2 alin. (1)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 5,
+        "removed": 7,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T14:02:19.939Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a păstrat textul Senatului neschimbat; doar titlul legii a fost scurtat",
+      "summary": "Camera a adoptat aceleași două articole ca Senatul. S-a scurtat doar titlul și s-au corectat detalii de redactare. Legea rămâne declarativă: nu impune obligații sau taxe, iar instituțiile pot cheltui doar din bugetele deja aprobate.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Adoptată pe 10 iunie, după aniversarea din 18 martie: acoperă doar jumătate de an",
+            "major": false,
+            "article": "art. 1"
+          },
+          {
+            "text": "Nicio instituție obligată și niciun coordonator: efectul depinde de inițiative separate",
+            "major": false,
+            "article": "art. 2"
+          },
+          {
+            "text": "Nu cere publicarea sumelor cheltuite pentru manifestări",
+            "major": false,
+            "article": "art. 2 alin. (2)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Nu creează drepturi, obligații, sancțiuni sau taxe pentru cetățeni și firme",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Fără cheltuieli noi: doar din bugetele proprii, în limita alocărilor aprobate",
+            "major": true,
+            "article": "art. 2 alin. (2)"
+          },
+          {
+            "text": "Permite evenimente culturale, educaționale și științifice despre Traian Vuia",
+            "major": false,
+            "article": "art. 2 alin. (1)"
+          },
+          {
+            "text": "Contractele cu organizatori privați rămân supuse Legii 98/2016 a achizițiilor publice",
+            "major": false,
+            "article": null
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 6,
+        "removed": 5,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T14:02:57.246Z"
+    }
+  ]
+}

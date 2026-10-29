@@ -1,0 +1,21 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+# privind aprobarea Ordonanței Guvernului nr.4/2026 pentru modificarea și completarea Legii nr.182/2000 privind protejarea patrimoniului cultural național mobil
+
+Senatul adoptă prezentul proiect de lege
+
+Articol unic.- Se aprobă Ordonanța Guvernului nr.4 din 30 ianuarie 2026 pentru modificarea și completarea Legii nr. 182/2000 privind protejarea patrimoniului cultural național mobil, adoptată în temeiul art.1 pct.X.2 din Legea nr.244/2025 privind abilitarea Guvernului de a emite ordonanțe, și publicată în Monitorul Oficial al României, Partea I, nr.75 din 30 ianuarie 2026, cu următoarea modificare:
+
+\- La articolul I punctul 1, alineatul (4) al articolului 23 va avea următorul cuprins:
+
+„(4) Prin excepție de la prevederile alin.(1) lit.e), sunt permise utilizarea și punerea în valoare, în cadrul unor proiecte culturale, a bunurilor culturale mobile clasate constând în instrumente muzicale și bunuri de importanță tehnică prevăzute la art.3 alin.(2) pct.5, pe baza unui contract civil cu clauze specifice, încheiat între proprietar, titularul dreptului de administrare sau titularul altor drepturi reale asupra acestor bunuri, pe de o parte, și utilizatorul bunurilor sau organizatorul evenimentului, pe de altă parte.”
+
+Acest proiect de lege a fost adoptat de Senat în ședința din 25 februarie 2026, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.
+
+PREȘEDINTE İE SENATULUI
+
+MIRCEA\_ABRUDEAN

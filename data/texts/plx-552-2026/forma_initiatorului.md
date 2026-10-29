@@ -1,0 +1,21 @@
+# Lege
+
+pentru modificarea și completarea Legii 52/2011 privind exercitarea unor activități cu caracter ocazional desfășurate de zilieri.
+
+Parlamentul României adoptă prezenta lege.
+
+Articol unic. - Legea nr. 52/2011 privind exercitarea unor activități cu caracter ocazional desfășurate de zilieri, republicată în Monitorul Oficial al României, Partea I, nr. 947 din 22 decembrie 2015, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+## 1. La articolul 1 litera b) se modifică și va avea următorul cuprins:
+
+b) beneficiar de lucrări, denumit în continuare beneficiar – unitățile administrativ-teritoriale, persoanele juridice, inclusiv asociațiile și fundațiile, precum și unitățile de cult și instituțiile aparținând cultelor religioase recunoscute potrivit legii, persoanele fizice autorizate, întreprinderile individuale și întreprinderile familiale, pentru care zilierul desfășoară activități necalificate cu caracter ocazional;
+
+2\. La articolul 13, după alineatul (2) se introduce un nou alineat, alin. (3) cu următorul cuprins:
+
+(3) Activitățile prevăzute la alin. (1) pot fi prestate inclusiv de către beneficiarii care nu au cod CAEN prevăzute la art. 1 lit. b).
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+PREȘEDINTELE SENATULUI

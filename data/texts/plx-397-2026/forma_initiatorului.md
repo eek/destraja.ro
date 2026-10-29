@@ -1,0 +1,47 @@
+# PARLAMENTUL ROMÂNIEI CAMERA DEPUTAȚILOR
+
+# PROJECT
+
+Camera Deputaților
+
+Senat
+
+# LEGE
+
+# pentru stimularea prelucrării superioare a gazului natural în România
+
+Parlamentul României adoptă prezenta lege.
+
+Art. I. – Legea nr. 227/2015 privind Codul fiscal, publicată în Monitorul Oficial al României, Partea I, nr. 688 din 10 septembrie 2015, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. După alineatul (1¹) al articolului 22, se introduce un nou alineat, alin. (1²), cu următorul cuprins:
+
+„(2²) Profitul investit în industria chimică bazată pe gaze naturale este scutit de impozit pe o perioadă de 5 ani de la prima investiție.”
+
+2\. La alineatul (2) al art. 456, după litera și) se introduce o nouă literă, lit. t), cu următorul cuprins:
+
+„t) clădirile utilizate în industria chimică bazată pe gaze naturale, pe o perioadă de cel mult 5 ani, cu respectarea legislației în materia ajutorului de stat.”
+
+3\. La alineatul (2) al art. 464, după litera m) se introduce o nouă literă, lit. n), cu următorul cuprins:
+
+„r) terenurile aferente clădirilor utilizate în industria chimică bazată pe gaze naturale, o perioadă de cel mult 5 ani, cu respectarea legislației în materia ajutorului de stat.”
+
+4\. La articolul 28, după alineatul (8^3) se introduce un nou alineat, alin. (8^4), cu următorul cuprins:
+
+„(8^4) Prin excepție de la prevederile alin. (5) și (8), pentru investițiile noi în industria chimică bazată pe gaze naturale se poate aplica o metodă de amortizare superaccelerată potrivit căreia amortizarea se calculează după cum urmează:
+
+a) pentru primul an de utilizare, amortizarea nu poate depăși 65% din valoarea fiscală de la data investiției;
+
+b) pentru următorii ani de utilizare, amortizarea se calculează prin raportarea valorii rămase de amortizare a activului la durata normală de utilizare rămasă a acestuia.”
+
+Art. II. – La articolul 92 alineatul (6) din Legea fondului funciar nr.18/1991, republicată în Monitorul Oficial al României, Partea I, nr. 1 din 5 ianuarie 1998, cu modificările și completările ulterioare, după litera c) se introduce o nouă literă, lit.d), cu următorul cuprins:
+
+d) amplasarea obiectivelor aferente investițiilor în domeniul industriei chimice bazată pe gaze naturale;
+
+Art.III. – În sensul prezentei legi, prin investiții în industria chimică bazată pe gaze naturale se înțelege investițiile în producția de substanțe chimice de bază, aparținând petrochimiei și chimiei de sinteză, având ca materie primă gazul natural, folosite la scară mare în industrie, inclusiv în producția de medicamente, îngrășăminte pentru agricultură, plastice, solvenți și materiale avansate de către contribuabilii care desfășoară activități în domeniul industriei chimice.
+
+Art. IV. – În termen de 60 de zile de la publicarea prezentei legi, Guvernul va elabora și aproba prin hotărâre normele metodologice pentru aplicarea prevederilor acesteia.
+
+Art. V. – Prezenta lege intră în vigoare la data de 1 ianuarie a anului următor publicării în Monitorul Oficial al României, Partea I.
+
+Președintele Senatului

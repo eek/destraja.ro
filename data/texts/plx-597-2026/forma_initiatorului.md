@@ -1,0 +1,23 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENATUL
+
+# Lege pentru modificarea și completarea Ordonanței Guvernului nr. 2/2001 privind regimul juridic al contravențiilor
+
+## Parlamentul României adoptă prezenta lege
+
+Articol unic. Articolul 16 din Ordonanța Guvernului nr. 2/2001 privind regimul juridic al contravențiilor, publicată în Monitorul Oficial al României, Partea I, nr. 410 din 25 iulie 2001, cu modificările și completările ulterioare, se modifică după cum urmează
+
+## Alineatul (1) va avea următorul cuprins:
+
+„ (1) Procesul-verbal de constatare a contravenției va cuprinde în mod obligatoriu: data și locul unde este încheiat; numele, prenumele, calitatea și instituția din care face parte agentul constatator; numele, prenumele și codul numeric personal ale contravenientului, descrierea faptei contravenționale cu indicarea datei, orei și locului în care a fost săvârșită, precum și arătarea împrejurărilor care pot servi la aprecierea gravității faptei și la evaluarea eventualelor pagube pricinuite; indicarea actului normativ prin care se stabilește și se sancționează contravenția; indicarea societății de asigurări, în situația în care fapta a avut ca urmare producerea unui accident de circulație; posibilitatea achitării, în termen de 15 zile de la data înmânării sau comunicării procesului-verbal, a jumătate din minimul amenzii prevăzute de actul normativ; termenul de exercitare a căii de atac și instanța la care se depune plângerea.”
+
+## Alineatul (5) va avea următorul cuprins:
+
+„(5) În cazul în care contravenientul este minor procesul-verbal va cuprinde și numele și prenumele părinților sau ale altor reprezentanți ori ocrotitori legali ai acestuia.”
+
+Această lege a fost adoptată de Camera Deputaților și de Senat, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.
+
+Președintele Senatului, Mircea Abrudean

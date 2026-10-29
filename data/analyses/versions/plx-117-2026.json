@@ -1,0 +1,127 @@
+{
+  "slug": "plx-117-2026",
+  "billId": "PL-x 117/2026",
+  "updatedAt": "2026-10-29T12:37:13.705Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L563FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Fără impozit pe salariu pentru părinții cu cel puțin doi copii",
+      "summaryTlDr": "Ajutorul pentru familii e real, dar textul e scris în grabă. Articolele se contrazic, data de intrare în vigoare e deja trecută, iar costul de 7-8 miliarde lei pe an nu are nicio sursă de acoperire. În forma actuală, legea riscă să cadă la CCR sau să nu poată fi aplicată.",
+      "scores": {
+        "agy": 5,
+        "claude": 5,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/10/7/se102.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Fără impozit pe salariu pentru părinții cu cel puțin doi copii",
+      "summaryTlDr": "Ideea e generoasă pentru familii, dar textul e scris în grabă. Definiția copilului contrazice condiția de bază, plafonul e neclar, data intrării în vigoare a trecut deja, iar costul de 7-8 miliarde lei pe an nu are nicio sursă de acoperire. În forma actuală, legea riscă să fie inaplicabilă sau declarată neconstituțională.",
+      "scores": {
+        "agy": 5,
+        "claude": 5,
+        "codex": 6
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat tacit forma inițiatorului, fără nicio modificare de fond",
+      "summary": "Senatul nu a schimbat nimic de fond: proiectul a fost adoptat tacit, în forma inițiatorului. Rămân toate problemele: definiția copilului care exclude copiii mici, plafonul neclar, intrarea în vigoare retroactivă și costul de 7-8 miliarde lei fără sursă de finanțare.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Definiția copilului cere studii superioare: exclude copiii mici și liceenii majori",
+            "major": true,
+            "article": "art. 60¹ alin. (1) lit. a) și alin. (3)"
+          },
+          {
+            "text": "Neclar dacă depășirea plafonului de 150.000 lei anulează toată scutirea sau doar surplusul",
+            "major": true,
+            "article": "art. 60¹ alin. (1) lit. b) și alin. (2)"
+          },
+          {
+            "text": "Cumularea plafonului între soți e neclară când lucrează la angajatori diferiți",
+            "major": true,
+            "article": "art. 60¹ alin. (2)"
+          },
+          {
+            "text": "Intrare în vigoare la 1 ianuarie 2026, dată trecută: efect retroactiv, recalculări de impozite",
+            "major": true,
+            "article": "art. unic pct. II"
+          },
+          {
+            "text": "Cost estimat 7-8 miliarde lei anual, fără fișă financiară sau sursă de finanțare",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Primăriile și consiliile județene pierd venituri din cotele defalcate din impozitul pe venit",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Plafon anual, dar impozitul se reține lunar: risc de recalculări la angajator",
+            "major": false,
+            "article": "art. 60¹ alin. (2)"
+          },
+          {
+            "text": "Termenul de 60 de zile pentru ordinul MF curge diferit în două locuri",
+            "major": false,
+            "article": "art. 60¹ alin. (6) și art. unic pct. II"
+          }
+        ],
+        "good": [
+          {
+            "text": "Scutire de impozit pe salariu pentru părinți cu cel puțin doi copii",
+            "major": true,
+            "article": "art. 60¹ alin. (1)"
+          },
+          {
+            "text": "Se aplică și părinților singuri și persoanelor cu responsabilitate parentală",
+            "major": true,
+            "article": "art. 60¹ alin. (7)"
+          },
+          {
+            "text": "Acoperă și părinții adoptatori, tutorii și persoanele cu copii în plasament familial",
+            "major": true,
+            "article": "art. 60¹ alin. (3)"
+          },
+          {
+            "text": "Documente justificative clare și puține, depuse direct la angajator",
+            "major": false,
+            "article": "art. 60¹ alin. (5)"
+          },
+          {
+            "text": "Momentul începerii și încetării scutirii e stabilit clar",
+            "major": false,
+            "article": "art. 60¹ alin. (4)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 10,
+        "removed": 12,
+        "same": 0.55
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:37:13.705Z"
+    }
+  ]
+}

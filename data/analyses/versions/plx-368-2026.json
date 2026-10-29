@@ -1,0 +1,142 @@
+{
+  "slug": "plx-368-2026",
+  "billId": "PL-x 368/2026",
+  "updatedAt": "2026-10-29T12:27:15.193Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L206FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "Un registru național, fără nume, al cazurilor de endometrioză",
+      "summaryTlDr": "Registrul e util și necesar, iar protecția datelor e bine gândită în mare parte. Are însă două găuri: orice furnizor medical poate deschide fișele individuale, iar art. 1¹ îi permite ministrului să creeze prin ordin registre pentru orice altă boală. Finanțarea promisă din PNRR e deja depășită de calendar.",
+      "scores": {
+        "agy": 3,
+        "claude": 4,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/300/60/8/se403.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Înființarea Registrului Național de Endometrioză pentru monitorizarea anonimizată a cazurilor medicale",
+      "summaryTlDr": "O lege utilă și echilibrată de sănătate publică, care protejează confidențialitatea pacientelor și îi scutește pe medici de amenzi individuale, dar care conține mici desincronizări tehnice între intrarea în vigoare a obligației de raportare și lansarea aplicației IT.",
+      "scores": {
+        "agy": 2,
+        "claude": null,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat textul practic neschimbat: doar renumerotări și corecturi de formă",
+      "summary": "Senatul a păstrat fondul: cine raportează, cine vede datele și răspunderea sunt la fel. S-au schimbat doar numerotarea, titlurile și citarea GDPR, iar trimiterea declarativă la art. 34 din Constituție a dispărut. Problemele inițiale rămân.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Orice furnizor medical vede fișele individuale, fără jurnal al accesărilor și fără acordul persoanei",
+            "major": true,
+            "article": "art. 8 alin. (1)"
+          },
+          {
+            "text": "Ordinul ministrului poate crea registre pentru orice boală; neclar dacă obligă la raportare",
+            "major": true,
+            "article": "art. 2 alin. (1)"
+          },
+          {
+            "text": "Medicii nu sunt sancționabili distinct, dar răspunderea disciplinară îi poate viza totuși",
+            "major": true,
+            "article": "art. 5 alin. (3), art. 15"
+          },
+          {
+            "text": "Nu există amenzi; raportarea poate fi impusă practic doar prin contractul cu CNAS",
+            "major": true,
+            "article": "art. 15"
+          },
+          {
+            "text": "INSP operează registrul dar vede doar date agregate, deci nu poate corecta datele",
+            "major": false,
+            "article": "art. 1 alin. (2), art. 8 alin. (2)"
+          },
+          {
+            "text": "Raportarea electronică devine obligatorie înainte ca aplicația registrului să existe",
+            "major": false,
+            "article": "art. 6, art. 13, art. 17"
+          },
+          {
+            "text": "Cercetarea e scop declarat, dar legea nu prevede cum primesc cercetătorii acces",
+            "major": false,
+            "article": "art. 3 lit. d)"
+          },
+          {
+            "text": "Nu se spune prin ce act se aprobă normele și de când curge termenul",
+            "major": false,
+            "article": "art. 16"
+          }
+        ],
+        "good": [
+          {
+            "text": "Obligația de raportare revine spitalelor și clinicilor, nu medicilor individual",
+            "major": true,
+            "article": "art. 5 alin. (1) și (3)"
+          },
+          {
+            "text": "Nu se colectează nume, CNP, adresă exactă sau date de contact",
+            "major": true,
+            "article": "art. 7 alin. (2)"
+          },
+          {
+            "text": "Datele pot fi folosite doar în scop medical, statistic și de sănătate publică",
+            "major": true,
+            "article": "art. 9 alin. (2)"
+          },
+          {
+            "text": "Ministerul, INSP și CNAS au acces doar la date agregate și anonimizate",
+            "major": true,
+            "article": "art. 8 alin. (2)"
+          },
+          {
+            "text": "Pacientul își poate vedea propriile date prin Dosarul Electronic de Sănătate",
+            "major": true,
+            "article": "art. 8 alin. (3)"
+          },
+          {
+            "text": "Rapoartele publice folosesc doar date anonimizate ireversibil",
+            "major": false,
+            "article": "art. 10 alin. (2)"
+          },
+          {
+            "text": "Registrul trebuie să fie interoperabil cu platforma CNAS și Dosarul Electronic de Sănătate",
+            "major": false,
+            "article": "art. 1 alin. (3), art. 13 alin. (2)"
+          },
+          {
+            "text": "Baza de date și aplicația rămân proprietate publică a statului",
+            "major": false,
+            "article": "art. 14"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 27,
+        "removed": 31,
+        "same": 0.44
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:21:40.696Z"
+    }
+  ]
+}

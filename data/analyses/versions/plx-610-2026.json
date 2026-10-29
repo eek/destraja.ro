@@ -1,0 +1,109 @@
+{
+  "slug": "plx-610-2026",
+  "billId": "PL-x 610/2026",
+  "updatedAt": "2026-10-29T13:21:05.857Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L535FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 1.5,
+      "riskLevel": "green",
+      "plainTitle": "Recunoașterea simplificată în România a titlului de medic specialist obținut în Marea Britanie",
+      "summaryTlDr": "O lege debirocratizantă, necesară și benefică, ce elimină o anomalie post-Brexit și facilitează întoarcerea în țară a medicilor români specializați în Regatul Unit.",
+      "scores": {
+        "agy": 1,
+        "claude": null,
+        "codex": 2
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/600/10/0/se705.pdf",
+      "source": "cdep.ro",
+      "riskScore": 1.7,
+      "riskLevel": "green",
+      "plainTitle": "Medicii specialiști formați în Marea Britanie își vor putea echivala mai ușor titlul în România",
+      "summaryTlDr": "Lege tehnică și utilă: specialiștii formați în Regatul Unit intră pe aceeași rută de echivalare ca cei din SUA, Canada sau Israel, iar condițiile de echivalare rămân aceleași. Are doar scăpări de redactare și nu spune ce se întâmplă cu cererile până la actualizarea ordinului ministrului.",
+      "scores": {
+        "agy": 1,
+        "claude": 2,
+        "codex": 2
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Regatul Unit rămâne pe listă; Senatul numește doar ordinul pe care ministerul trebuie să-l modifice",
+      "summary": "Ca și inițial, titlurile de medic specialist din Regatul Unit se echivalează în aceleași condiții ca cele din SUA sau Canada. Singura schimbare de fond: ministerul trebuie să modifice în 30 de zile chiar Ordinul 969/2013, nu „normele metodologice” în general.",
+      "changes": [
+        {
+          "title": "Ministerul are acum de modificat un ordin anume",
+          "text": "Art. II: inițial ministerul trebuia să modifice și să completeze, după caz, normele și actele subsecvente. Acum trebuie să modifice Ordinul 969/2013, tot în 30 de zile.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. II",
+          "before": "În termen de 30 de zile de la data intrării în vigoare a prezentei legi, Ministerul Sănătății modifică și completează, după caz, normele metodologice și actele administrative subsecvente necesare aplicării Ordonanței de urgență a Guvernului nr. 80/2012.",
+          "after": "Ministerul Sănătății modifică în mod corespunzător Criteriile și metodologia de echivalare a titlurilor oficiale de medic specialist eliberate de Australia, Canada, Israel, Noua Zeelandă și Statele Unite ale Americii, aprobate prin Ordinul ministrului sănătății nr.969/2013.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Nu se precizează ce document britanic contează ca titlu oficial de calificare",
+            "major": true,
+            "article": "art. I pct. 2"
+          },
+          {
+            "text": "Acoperă doar titlul de specialist; diploma de medic din UK se recunoaște separat",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Termenul de 30 de zile pentru minister nu are nicio sancțiune",
+            "major": false,
+            "article": "art. II"
+          },
+          {
+            "text": "Nu se spune ce se întâmplă cu cererile depuse până la noua metodologie",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "good": [
+          {
+            "text": "Titlurile de medic specialist din Regatul Unit intră în echivalare, ca cele din SUA",
+            "major": true,
+            "article": "art. I pct. 1 și 2"
+          },
+          {
+            "text": "Condițiile cumulative de echivalare rămân; nu există recunoaștere automată",
+            "major": true,
+            "article": "art. I pct. 2"
+          },
+          {
+            "text": "Ministerul are 30 de zile să modifice Ordinul 969/2013",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 7,
+        "removed": 6,
+        "same": 0.13
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:21:05.857Z"
+    }
+  ]
+}

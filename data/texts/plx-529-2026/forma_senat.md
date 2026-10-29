@@ -1,0 +1,35 @@
+# PARLAMENTUL ROMÂNIEI
+
+# SENAT
+
+## LEGE
+
+## pentru completarea Ordonanței de urgență a Guvernului nr.57/2019 privind Codul administrativ
+
+Senatul adoptă prezentul proiect de lege
+
+Articol unic.- După articolul 364¹ din Ordonanța de urgență a Guvernului nr.57/2019 privind Codul administrativ, publicată în Monitorul Oficial al României, Partea I, nr. 555 din 5 iulie 2019, cu modificările și completările ulterioare, se introduce un nou articol, articolul 364², cu următorul cuprins:
+
+„Art.364².- Tranzacțiile
+
+(1) Tranzacțiile încheiate de către stat se aprobă prin:
+
+a) hotărâre a Guvernului, pentru tranzacțiile care au ca obiect drepturi și obligații asupra unor bunuri imobile proprietate privată a statului;
+
+b) hotărâre a Guvernului, pentru tranzacțiile a căror valoare este mai mare de 500.000 lei;
+
+c) ordin al ministrului sau al conducătorului organului ori instituției administrației publice centrale competente, după obiectul sau scopul tranzacției, pentru tranzacțiile a căror valoare este mai mică sau egală cu 500.000 lei.
+
+(2) Oportunitatea și necesitatea negocierii și încheierii unei tranzacții care îndeplinește condițiile prevăzute la alin.(1) lit.a) și b), instituțiile publice care îndeplinesc formalitățile pentru negocierea și încheierea tranzacțiilor în numele statului, precum și mandatul acestora se aprobă, în prealabil, de către Guvern, prin memorandum, la propunerea ministerului de resort, autorității tutelare sau organului de specialitate al administrației publice centrale care exercită un drept real asupra imobilului sau justifică un interes, după caz.
+
+(3) Tranzacțiile încheiate potrivit alin.(1) lit.a) și b) și cu respectarea alin. (2) intră în vigoare la data intrării în vigoare a hotărârilor Guvernului prin care sunt aprobate.
+
+(4) În toate cazurile, inițiatorul proiectului de hotărâre prevăzut la alin.(1) lit. a) și b) determină valoarea tranzacției pe baza valorii concesiilor, a renunțărilor la drepturi, a bunurilor imobile ori a drepturilor care urmează să fie transferate. Valoarea bunurilor imobile este valoarea de piață determinată de către un evaluator, contractat în condițiile legii, sau este determinată potrivit unor dispoziții legale speciale, după caz. Plata serviciilor corespunzătoare evaluatorului se asigură din bugetul statului, prin bugetul ministerului de resort, al autorității tutelare sau al organului de specialitate al administrației publice centrale, după caz.
+
+(5) În toate cazurile, în instrumentul de prezentare și motivare al actelor administrative individuale prevăzute la alin.(1) se regăsește, în mod obligatoriu, justificarea temeinică a încheierii tranzacției cu respectarea interesului public național."
+
+Acest proiect de lege a fost adoptat de Senat în ședința din 30 iulie 2026, cu respectarea prevederilor articolului 76 alineatul (1) din Constituția României, republicată.
+
+PREȘEDINTELE SENATULUI
+
+MIR/CEA/ABRUDEAN

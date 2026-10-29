@@ -1,0 +1,184 @@
+{
+  "slug": "plx-696-2026",
+  "billId": "PL-x 696/2026",
+  "updatedAt": "2026-10-29T13:19:24.020Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L538FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Instituțiile nu mai cer firmelor certificat constatator: iau singure datele din Registrul Comerțului",
+      "summaryTlDr": "Lege utilă, care aplică principiul „o singură dată” pentru datele din registrul comerțului. Riscul nu e abuzul, ci ineficiența: excepția „când legea prevede” și lipsa oricărei sancțiuni pot lăsa practica neschimbată.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/600/90/6/se788.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Instituțiile primesc acces gratuit la registrul comerțului, iar copia de buletin nu mai e cerută când identitatea se poate verifica electronic",
+      "summaryTlDr": "Legea e utilă și fără riscuri, dar face mult mai puțin decât promite. Le dă instituțiilor acces gratuit la datele ONRC, însă nu le interzice să le mai ceară firmelor certificate constatatoare, așa că efectul anti-birocrație depinde de un amendament la Cameră.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_riscant",
+      "headline": "Senatul a scos interdicția ca instituțiile să mai ceară firmelor certificate constatatoare",
+      "summary": "Inițial, instituțiile erau obligate să ia datele direct din registrul comerțului și nu mai puteau cere firmelor certificate constatatoare. Acum doar ONRC trebuie să le ofere acces gratuit, iar instituțiile pot cere în continuare acte; au fost adăugate garanții pentru date.",
+      "changes": [
+        {
+          "title": "Instituțiile pot cere în continuare certificate constatatoare",
+          "text": "Inițial, art. 11¹ alin. (2) interzicea cererea de certificate, extrase sau copii ale actului constitutiv când datele pot fi verificate în registru. Acum interdicția, excepțiile și consemnarea motivului dispar.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 11¹ alin. (2)-(4)",
+          "before": "Autoritățile și instituțiile publice prevăzute la alin. (1) nu solicită profesioniștilor sau altor persoane certificate constatatoare, extrase ori copii certificate ale documentelor aflate în dosarul profesionistului la registrul comerțului, inclusiv ale actului constitutiv",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Obligația trece de la instituții la ONRC",
+          "text": "Inițial, instituțiile care verifică date despre firme erau obligate să le ia direct din registru. Acum art. 11¹ alin. (1) obligă doar ONRC să le ofere acces electronic gratuit; folosirea lui rămâne opțională.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 11¹ alin. (1)",
+          "before": "Autoritățile și instituțiile publice care, potrivit legii, verifică date sau informații privind profesioniștii supuși obligației de înregistrare în registrul comerțului, au obligația de a le obține direct din registrul comerțului",
+          "after": "ONRC asigură, cu titlu gratuit, autorităților și instituțiilor publice acces electronic la datele, informațiile și documentele din registrul comerțului necesare îndeplinirii atribuțiilor lor legale",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Reguli mai clare pentru protecția datelor accesate",
+          "text": "Art. 11¹ alin. (2)-(3) adaugă acces diferențiat după atribuții, doar la datele strict necesare, cu autentificare și jurnalizare, și precizează că accesul tehnic nu e temei distinct pentru prelucrare.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 11¹ alin. (2)-(3)",
+          "before": "Accesul la acestea se realizează numai în măsura necesară îndeplinirii atribuțiilor legale ale autorității sau instituției publice solicitante, cu respectarea dispozițiilor legale privind protecția datelor cu caracter personal.",
+          "after": "Accesul tehnic la date, informații și documente nu constituie, prin el însuși, un temei juridic distinct pentru prelucrarea datelor.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "ONRC publică documentația tehnică și asigură o rezervă",
+          "text": "Acum ONRC dă acces gratuit prin Platforma națională de interoperabilitate, publică specificațiile tehnice și asigură un mecanism alternativ când serviciile cad (art. 11¹ alin. (1), (4)-(5)).",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 11¹ alin. (1), (4)-(5)",
+          "before": "ONRC asigură mecanismele tehnice necesare accesului autorităților și instituțiilor publice la datele și informațiile din registrul comerțului",
+          "after": "ONRC publică documentația tehnică necesară integrării, inclusiv specificațiile interfețelor, formatele de date, condițiile de autentificare și autorizare și nivelurile de serviciu aplicabile.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Legea intră în vigoare după 30 de zile",
+          "text": "Termenul de intrare în vigoare scade de la 180 la 30 de zile (art. II): scutirea de copia actului de identitate se aplică mai repede, dar ONRC are mai puțin timp de pregătire.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. II",
+          "before": "Prezenta lege intră în vigoare la 180 de zile de la data publicării în Monitorul Oficial al României, Partea I.",
+          "after": "Prezenta lege intră în vigoare la 30 zile de la data publicării în Monitorul Oficial al României, Partea I.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Raportul anual ONRC are termen: 31 martie",
+          "text": "Art. 11² fixează acum termenul raportului anual: 31 martie, pentru anul anterior. Conținutul rămâne nedefinit, iar instituțiile nu sunt obligate să raporteze.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 11²",
+          "before": "ONRC publică anual, pe pagina proprie de internet, un raport",
+          "after": "ONRC publică anual, până la data de 31 martie, pentru anul calendaristic anterior, pe pagina proprie de internet, un raport",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Instituțiile nu sunt obligate să folosească accesul și pot cere certificate constatatoare",
+            "major": true,
+            "article": "art. 11¹"
+          },
+          {
+            "text": "Scutirea de copia actului de identitate vizează doar reprezentantul legal, nu orice solicitant",
+            "major": true,
+            "article": "art. 11 alin. (2)"
+          },
+          {
+            "text": "Nu se spune cine stabilește și cum află solicitantul dacă verificarea electronică e posibilă",
+            "major": false,
+            "article": "art. 11 alin. (2)"
+          },
+          {
+            "text": "Raportul anual descrie un comportament voluntar și nu are conținut minim",
+            "major": false,
+            "article": "art. 11²"
+          },
+          {
+            "text": "Greșeală de redactare: «actul de identitatea»",
+            "major": false,
+            "article": "art. 11 alin. (2)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Scutire de copia actului de identitate când identificarea se face electronic prin RNEP",
+            "major": true,
+            "article": "art. 11 alin. (2)"
+          },
+          {
+            "text": "ONRC oferă instituțiilor acces electronic gratuit, prin Platforma națională de interoperabilitate",
+            "major": false,
+            "article": "art. 11¹ alin. (1)"
+          },
+          {
+            "text": "Acces diferențiat, doar la date strict necesare, cu autentificare și jurnalizare",
+            "major": false,
+            "article": "art. 11¹ alin. (2)"
+          },
+          {
+            "text": "Accesul tehnic nu e temei juridic distinct pentru prelucrarea datelor, conform GDPR",
+            "major": false,
+            "article": "art. 11¹ alin. (3)"
+          },
+          {
+            "text": "Documentație tehnică publică și mecanism alternativ când serviciile sunt indisponibile",
+            "major": false,
+            "article": "art. 11¹ alin. (4)-(5)"
+          },
+          {
+            "text": "Raport anual ONRC cu termen fix: 31 martie",
+            "major": false,
+            "article": "art. 11²"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 15,
+        "removed": 18,
+        "same": 0.17
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:19:24.020Z"
+    }
+  ]
+}

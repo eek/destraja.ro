@@ -1,0 +1,117 @@
+{
+  "slug": "plx-121-2026",
+  "billId": "PL-x 121/2026",
+  "updatedAt": "2026-10-29T12:40:35.733Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L580FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Ochelari și abonamente medicale deductibile pentru PFA-uri, ca la salariați",
+      "summaryTlDr": "Măsura fiscală e mică și binevoitoare, cu impact bugetar modest (aproximativ 9 mil. lei/an, după estimarea inițiatorilor). Textul e însă scris neglijent: Art. II extinde „decontarea” ochelarilor la independenți fără să spună cine plătește, iar data intrării în vigoare nu mai poate respecta regula de 6 luni din Codul fiscal.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/20/1/se109.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "PFA-urile își pot scădea din impozit ochelarii și abonamentele medicale",
+      "summaryTlDr": "Intenția e corectă și costul e mic: independenții impuși în sistem real își pot deduce ochelarii (max. 500 lei/an) și asigurarea sau abonamentul medical (max. 400 euro/an). Art. II e însă scris neglijent: promite o „decontare” a ochelarilor fără să spună cine plătește, din ce buget și după ce procedură.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat proiectul în forma inițială, fără nicio schimbare de fond",
+      "summary": "Textul adoptat de Senat e identic ca fond cu cel inițial; proiectul s-a considerat adoptat tacit. Rămân aceleași probleme: deducerea e doar în sistem real, beneficiarii sunt vagi, iar decontarea ochelarilor pentru independenți nu are plătitor.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Deducerea se aplică doar în sistem real; independenții la normă de venit rămân excluși",
+            "major": true,
+            "article": "art. I (art. 68 alin. (4³) Cod fiscal)"
+          },
+          {
+            "text": "„Forme juridice echivalente” nedefinite: neclar dacă intră profesiile liberale sau întreprinderile familiale",
+            "major": true,
+            "article": "art. I (art. 68 alin. (4⁴) Cod fiscal)"
+          },
+          {
+            "text": "Decontarea ochelarilor pentru independenți nu spune cine plătește, din ce fond și cum",
+            "major": true,
+            "article": "art. II (art. V alin. (2¹) OUG 53/2024)"
+          },
+          {
+            "text": "Aceiași ochelari ar putea fi și deduși fiscal, și decontați",
+            "major": true,
+            "article": "art. I și art. II"
+          },
+          {
+            "text": "Deducerea pentru ochelari nu cere prescripție medicală; lentilele de contact rămân neclare",
+            "major": false,
+            "article": "art. I (art. 68 alin. (4³) Cod fiscal)"
+          },
+          {
+            "text": "Deducerea de 400 euro pare să dubleze art. 68 alin. (5), de verificat",
+            "major": false,
+            "article": "art. I (art. 68 alin. (4⁵) Cod fiscal)"
+          },
+          {
+            "text": "Beneficiarii sunt numiți ca forme de organizare, deși contribuabilul e persoana fizică",
+            "major": false,
+            "article": "art. I (art. 68 alin. (4⁴) Cod fiscal)"
+          },
+          {
+            "text": "Câștig mic: la ochelari, circa 50 lei pe an din impozit",
+            "major": false,
+            "article": "art. I (art. 68 alin. (4⁵) Cod fiscal)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Independenții în sistem real pot deduce până la 500 lei/an pentru ochelari",
+            "major": true,
+            "article": "art. I (art. 68 alin. (4³), (4⁵) Cod fiscal)"
+          },
+          {
+            "text": "Pot deduce până la 400 euro/an pentru asigurări de sănătate și abonamente medicale",
+            "major": true,
+            "article": "art. I (art. 68 alin. (4³), (4⁵) Cod fiscal)"
+          },
+          {
+            "text": "Intră în vigoare la 1 ianuarie 2027, la început de an fiscal",
+            "major": false,
+            "article": "art. III"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 7,
+        "removed": 10,
+        "same": 0.22
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:38:11.100Z"
+    }
+  ]
+}

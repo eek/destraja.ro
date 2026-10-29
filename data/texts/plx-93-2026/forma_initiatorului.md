@@ -1,0 +1,57 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+CAMERA DEPUTAȚILOR
+
+# LEGE privind facilitarea accesului la apă al populației
+
+Parlamentul României adoptă prezenta lege
+
+## Art. 1
+
+(1) Tariful perceput consumatorului final de către operatorul regional sau local pentru 1 metru cub de apă potabilă, produsă, transportată și distribuită prin rețeaua publică de alimentare cu apă, nu poate depăși 0,2% din salariul minim net pe economie.
+
+(2) În tariful prevăzut la alin. (1) vor fi incluse și cheltuielile legate de canalizare, epurare, mentenanță sau alte costuri conexe, fără a fi evidențiate separat în factura emisă consumatorului final.
+
+(3) În cazul în care tariful practicat de operatorul regional sau local depășește plafonul prevăzut la alin. (1), autoritățile publice locale și centrale vor lua măsuri de compensare financiară pentru diferență, din bugetele proprii sau din fonduri naționale, în vederea respectării acestui plafon.
+
+(4) Plafonarea tarifului se aplică exclusiv apei potabile produse, transportate și distribuite către consumatorii casnici, nu și către operatori economici, organizații non-profit, culte religioase, autorități sau instituții publice ori altele asemenea.
+
+(5) Nerespectarea acestor prevederi atrage sancțiuni contravenționale cuprinse între 20.000 lei și 50.000 lei, aplicate operatorului regional sau local de către Autoritatea Națională de Reglementare pentru Serviciile Comunitare de Utilități Publice.
+
+Art. 2 – Ordonanța Guvernului nr. 7/2023 privind calitatea apei destinate consumului uman, publicată în Monitorul Oficial al României, Partea I, nr. 63 din 25 ianuarie 2023, aprobată cu modificări prin Legea nr. 96/2024, se completează după cum urmează:
+
+1\. La articolul 16 alineatul (4), după litera d) se introduce o nouă literă, lit. e), cu următorul cuprins:
+
+„e) până la data de 30 iunie 2026, montarea unor cișmele stradale conectate la rețeaua publică de aprovizionare cu apă și furnizarea gratuită a apei potabile în următoarele locuri: piețe agroalimentare și zone comerciale pietonale, parcuri publice, locuri de joacă, grădini publice, curțile unităților de învățământ publice, gări, autogări și stații de transport în comun, aeroporturi și terminale de transport public, baze sportive si terenuri de sport aflate sub regim de proprietate publică sau privată a statului."
+
+## 2. La articolul 21, după alineatul (2) se introduc trei noi alineate, alin. (3)-(5), cu următorul cuprins:
+
+„(3) Nerespectarea art. 16 alin. 4 lit. d) și e) de către unitățile administrativ-teritoriale vor fi sancționate cu amendă de la 25.000 lei la 50.000 lei.
+
+(4) Toate restaurantele și cantinele sunt obligate să pună la dispoziția fiecărui client, la cerere, apă potabilă gratuit, servită într-un recipient reutilizabil, sub sancțiunea unei amenzi de la 1.000 lei la 2.000 lei.
+
+(5) Constatarea contravențiilor și aplicarea sancțiunilor se va realiza astfel:
+
+a) în cazul prevăzut la alin. (3), de către personalul de specialitate împuternicit de către conducerea Ministerului Sănătății, autoritate centrală în domeniul sănătății publice;
+
+b) în cazul prevăzut la alin. (4), de către inspectorii din cadrul Autorității Naționale pentru Protecția Consumatorului (ANPC)."
+
+Art. 3 – Legea apelor nr. 107/1996, publicată în Monitorul Oficial al României, Partea I, nr. 244 din 8 octombrie 1996, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+## 1. La articolul 9 alineatul (2) se modifică și va avea următorul cuprins:
+
+„(2) Apele de suprafață sau subterane pot fi folosite liber, cu respectarea normelor sanitare și de protecție a calității apelor, pentru băut, adăpat, udat, spălat, îmbăiat și alte trebuințe gospodărești, dacă pentru aceasta nu se folosesc instalații sau dacă debitul prelevat nu depășește 0,2 litri/secundă, exclusiv pentru satisfacerea necesităților gospodăriilor proprii, precum și exclusiv de către persoanele fizice pentru o exploatație agricolă de până la 5 hectare, dacă debitul prelevat nu depășește 0,5 litri/secundă."
+
+2\. La articolul 9, după alineatul (2) se introduc trei noi alineate, alin. (2¹)- (2³), cu următorul cuprins:
+
+„(2¹) Pentru debite mai mari sau suprafețe mai extinse decât cele prevăzute la alin. (2), prețul apei este plafonat la nivelul de 0,1% din salariul minim net pe economie per mia de metri cubi de apă.
+
+(2²) Concesionarea exclusivă a apelor de suprafață către operatori economici este interzisă la nivelul unităților administrativ-teritoriale unde există suprafețe agricole exploatate.
+
+(2³) Este interzisă acumularea, revânzarea sau deturnarea apei în alte scopuri, inclusiv comerciale, sub sancțiunea pierderii dreptului de utilizare gratuită și aplicării unei amenzi de la 50.000 lei la 100.000 lei."
+
+Art. 4 – Legea apelor nr. 107/1996, publicată în Monitorul Oficial al României, Partea I, nr. 244 din 8 octombrie 1996, cu modificările și completările ulterioare, precum și cu cele aduse prin prezenta lege, se va republica în Monitorul Oficial al României, Partea I, dându-se textelor o nouă numerotare.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.

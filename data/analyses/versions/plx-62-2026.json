@@ -1,0 +1,97 @@
+{
+  "slug": "plx-62-2026",
+  "billId": "PL-x 62/2026",
+  "updatedAt": "2026-10-29T12:30:09.269Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L614FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Statul plătește TVA-ul de 1,1 milioane lei pentru programul anti-tuberculoză finanțat de Fondul Global",
+      "summaryTlDr": "Lege tehnică și utilă: statul acoperă din buget TVA-ul pe care banii donați de Fondul Global nu îl acoperă, pentru un program anti-TB deja încheiat. Problemele sunt minore: plata e legată strict de bugetul pe 2025, iar diferențele de curs valutar nu au plafon.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/60/2/se55.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Statul plătește TVA-ul restant de 1,1 milioane lei din programul anti-tuberculoză finanțat de Fondul Global",
+      "summaryTlDr": "Lege tehnică și utilă: statul își îndeplinește obligația de a suporta TVA-ul unui grant extern de peste 10 milioane de euro pentru tuberculoză. Problemele sunt mărunte: urgența e justificată retoric, perioada se poate suprapune cu OUG nr. 37/2022, iar redactarea e neglijentă.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat ordonanța neschimbată; s-au adăugat doar data și Monitorul Oficial",
+      "summary": "Senatul a aprobat ordonanța despre TVA-ul programului de tuberculoză fără să-i schimbe conținutul; a adăugat doar data și numărul Monitorului Oficial. Riscurile rămân: diferențele de curs valutar se plătesc fără plafon și nu există o regulă contra dublei decontări.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Diferențe de curs valutar plătite din buget fără plafon și fără regulă de calcul",
+            "major": true,
+            "article": "art. 2 alin. (2)"
+          },
+          {
+            "text": "Nicio regulă contra dublei decontări, deși perioada se suprapune cu OUG 37/2022",
+            "major": true,
+            "article": "art. 1 alin. (2)"
+          },
+          {
+            "text": "ARAS nu apare ca solicitant; nu e clar dacă TVA-ul ei se decontează",
+            "major": true,
+            "article": "art. 2 alin. (1)"
+          },
+          {
+            "text": "Sumele se plătesc din bugetul 2025; soarta celor nedecontate până la închidere e neclară",
+            "major": false,
+            "article": "art. 1 alin. (2)"
+          },
+          {
+            "text": "Articolul unic are o greșeală de redactare: „Se aprobă aprobarea”",
+            "major": false,
+            "article": "art. unic"
+          }
+        ],
+        "good": [
+          {
+            "text": "Suma totală e fixă în lei, defalcată pe ani și corectă aritmetic",
+            "major": true,
+            "article": "art. 1 alin. (1)–(2)"
+          },
+          {
+            "text": "Plata se face doar pe documente justificative, către o listă închisă de solicitanți",
+            "major": true,
+            "article": "art. 2 alin. (1)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:29:13.413Z"
+    }
+  ]
+}

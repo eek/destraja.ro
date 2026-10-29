@@ -1,0 +1,158 @@
+{
+  "slug": "plx-581-2026",
+  "billId": "PL-x 581/2026",
+  "updatedAt": "2026-10-29T13:13:55.152Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L391FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Pensionarii ar putea contesta decizia de pensie oricând, nu doar în 45 de zile",
+      "summaryTlDr": "Pe fond, legea e favorabilă pensionarilor: scoate termenul de 45 de zile, după care decizia de pensie nu mai poate fi atacată. Problema e redactarea. Două fraze lasă deschise întrebări mari despre accesul în instanță, plata restanțelor și costuri, așa că legea merită reparată în comisie, nu respinsă.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/80/1/se663.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Contestarea deciziei de pensie: o cale gratuită la Casa de Pensii, dar o singură șansă",
+      "summaryTlDr": "Forma votată de Senat nu face ce promite expunerea de motive: termenul de 45 de zile și caracterul definitiv al deciziilor necontestate rămân. Pensionarul câștigă o contestație gratuită la casa de pensii, cu termenul de instanță suspendat, dar pierde prin regula vagă „o singură contestație per dosar”.",
+      "scores": {
+        "agy": 6,
+        "claude": 4,
+        "codex": 6
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_riscant",
+      "headline": "Senatul păstrează termenul de 45 de zile: decizia de pensie necontestată la timp devine definitivă",
+      "summary": "Inițial, o decizie de pensie putea fi contestată oricând; acum rămâne termenul de 45 de zile, după care devine definitivă. Contestația la casa de pensii suspendă termenul de instanță, dar e permisă una singură, cu toate obiecțiile odată.",
+      "changes": [
+        {
+          "title": "Decizia necontestată în 45 de zile devine iar definitivă",
+          "text": "Inițial, decizia putea fi atacată oricând, fără termen. Acum, art. 127 alin. (2) și (4) păstrează termenul de 45 de zile, iar deciziile necontestate devin definitive, contrar expunerii de motive.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 127 alin. (2) și (4)",
+          "before": "Deciziile emise de casele territoriale de pensii pot fi contestate fie la casa teritorială de pensii emitentă, fie direct la instanța judecătorească competentă.",
+          "after": "Deciziile necontestate în termenele prevăzute de prezentul articol devin definitive.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "O singură contestație la casa de pensii per dosar",
+          "text": "Art. 127 alin. (5) nou permite o singură contestație administrativă per dosar. Nu e clar dacă limita privește fiecare decizie (recalculări, revizuiri) sau toată durata pensiei.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 127 alin. (5)",
+          "before": null,
+          "after": "se poate formula o singură contestație administrativă prealabilă per dosar de pensie cu privire la aceleași elemente de fapt și de drept deja existente în evidențele instituției sau deținute de solicitant la data emiterii deciziei contestate.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Toate obiecțiile trebuie puse într-o singură contestație",
+          "text": "Art. 127 alin. (5) teza a II-a obligă titularul să adune toate obiecțiile, stagiile și adeverințele. Cine omite un stagiu pierde calea administrativă, dacă nu intră în excepțiile strânse de la alin. (6).",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 127 alin. (5)",
+          "before": null,
+          "after": "Titularul are obligația de a cumula toate obiecțiile, stagiile de cotizare disputate și adeverințele disponibile în cuprinsul acestei unice contestații administrativ-jurisdicționale.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Termenul de instanță se suspendă cât durează contestația",
+          "text": "Art. 127 alin. (3) nou suspendă de drept termenul de 45 de zile pentru instanță pe durata contestației la casă. O eroare se poate corecta fără proces, fără ca termenul să fie pierdut.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 127 alin. (3)",
+          "before": null,
+          "after": "Termenul de 45 de zile prevăzut de lege pentru introducerea acțiunii la instanța judecătorească competentă se suspendă de drept pe durata parcurgerii procedurii administrative prealabile",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dacă casa nu răspunde, se poate merge în instanță",
+          "text": "Inițial, textul nu spunea ce se întâmplă dacă casa nu răspunde. Acum, art. 127 alin. (4) permite acțiunea în instanță în 45 de zile de la expirarea termenului de răspuns sau de la comunicarea lui.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 127 alin. (4)",
+          "before": "În cazul contestației formulate pe cale administrativă, casa teritorială de pensii are obligația de a o soluționa și de a comunica răspunsul motivat în termen de 45 de zile de la înregistrare.",
+          "after": "În cazul necomunicării răspunsului de către casa teritorială de pensii în termenul legal prevăzut la alin.(2), sau în cazul unui răspuns nesatisfăcător, titularul drepturilor se poate adresa direct instanței judecătorești competente",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Deciziile necontestate în 45 de zile devin definitive, contrar expunerii de motive",
+            "major": true,
+            "article": "art. 127 alin. (2) și (4)"
+          },
+          {
+            "text": "Neclar dacă limita de o contestație privește fiecare decizie sau tot dosarul",
+            "major": true,
+            "article": "art. 127 alin. (5)"
+          },
+          {
+            "text": "Cine omite un stagiu pierde calea administrativă; excepțiile sunt strânse",
+            "major": true,
+            "article": "art. 127 alin. (5)-(6)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Dreptul de pensie este imprescriptibil și nu poate fi cedat",
+            "major": true,
+            "article": "art. 127 alin. (1)"
+          },
+          {
+            "text": "Contestație gratuită la casa de pensii, cu răspuns motivat în 45 de zile",
+            "major": false,
+            "article": "art. 127 alin. (2)"
+          },
+          {
+            "text": "Termenul pentru instanță se suspendă cât durează contestația la casă",
+            "major": false,
+            "article": "art. 127 alin. (3)"
+          },
+          {
+            "text": "Dacă casa nu răspunde sau răspunde nesatisfăcător, se poate merge în instanță",
+            "major": false,
+            "article": "art. 127 alin. (4)"
+          },
+          {
+            "text": "Contestația se redeschide pentru erori ale casei sau acte noi obiective",
+            "major": false,
+            "article": "art. 127 alin. (6)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 13,
+        "removed": 4,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:11:39.636Z"
+    }
+  ]
+}

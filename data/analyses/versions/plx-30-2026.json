@@ -1,0 +1,107 @@
+{
+  "slug": "plx-30-2026",
+  "billId": "Pl-x 30/2026",
+  "updatedAt": "2026-10-29T13:51:06.702Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/000/30/0/pl28.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Militarii și polițiștii nu mai returnează salariul primit la cursuri; cadrele SRI „apt limitat” nu mai sunt trecute în rezervă din acest motiv",
+      "summaryTlDr": "Lege benignă și favorabilă personalului din MAI, SRI, SPP și Poliție. Problemele sunt de redactare: excluderea salariilor de la restituire nu e scrisă expres, iar titlul indică alt alineat decât cel modificat.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl030_cd030_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Militarii și polițiștii nu mai returnează salariul din timpul cursurilor; cadrele SRI „apt limitat” nu mai sunt trecute în rezervă pe acest motiv",
+      "summaryTlDr": "Lege benignă și favorabilă personalului: renunță la restituirea soldei sau a salariului încasat pe durata cursurilor și protejează cadrele SRI cu restricții medicale. Problemele țin de redactare: excluderea salariului rezultă doar din eliminarea unei sintagme, nu există normă tranzitorie, iar SPP rămâne în afara excepției pentru „apt limitat”.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 2
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a votat textul inițiatorului neschimbat; doar titlul indică acum corect art. 70 alin. (5)",
+      "summary": "Camera a votat textul inițiatorului fără schimbări de fond; doar titlul indică acum corect art. 70 alin. (5) din Statutul polițistului. Regulile despre restituirea cheltuielilor de școlarizare și despre cadrele SRI „apt limitat” rămân aceleași.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Legea nu exclude expres solda; ordinele interne o pot include în continuare la restituire",
+            "major": true,
+            "article": "art. I pct. 1, art. II"
+          },
+          {
+            "text": "Nu se spune ce se întâmplă cu cadrul SRI dacă nu există post",
+            "major": true,
+            "article": "art. I pct. 2"
+          },
+          {
+            "text": "Cadrele „apt limitat” din SPP și MApN pot fi trecute în continuare în rezervă",
+            "major": true,
+            "article": "art. I pct. 2"
+          },
+          {
+            "text": "Lipsește din lege procedura SRI de căutare a unui post compatibil",
+            "major": false,
+            "article": "art. I pct. 2"
+          }
+        ],
+        "good": [
+          {
+            "text": "Dispare mențiunea expresă a drepturilor salariale din sumele de restituit",
+            "major": true,
+            "article": "art. I pct. 1, art. II"
+          },
+          {
+            "text": "Restituirea rămâne proporțională cu perioada rămasă de executat din angajament",
+            "major": true,
+            "article": "art. I pct. 1, art. II"
+          },
+          {
+            "text": "Efectul ajunge și la cadrele SRI și SPP, prin trimiterea legală existentă",
+            "major": true,
+            "article": "art. I pct. 1"
+          },
+          {
+            "text": "Cadrele SRI „apt limitat” nu mai pot fi trecute în rezervă pe acest motiv",
+            "major": true,
+            "article": "art. I pct. 2"
+          },
+          {
+            "text": "Titlul indică acum corect art. 70 alin. (5) din Statutul polițistului",
+            "major": false,
+            "article": null
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 6,
+        "removed": 6,
+        "same": 0.33
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:50:50.233Z"
+    }
+  ]
+}

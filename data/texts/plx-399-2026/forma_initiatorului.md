@@ -1,0 +1,19 @@
+ROMANIA Parlamentul României Camera Deputaților
+
+# LEGE privind modificarea și completarea art. 165 din Legea 8/1996 privind dreptul de autor și drepturile conexe
+
+Articol unic –După alin (8) al art. 165 din Legea nr. 8/1996 privind dreptul de autor și drepturile conexe, republicată în Monitorul Oficial al României, Partea I, nr. 489 din data de 14 iunie 2018, se introduce un nou alineat, alin (8)¹, care va avea următorul cuprins:
+
+„Art. 165
+
+Alin (8)¹ – Metodologiile negotiate sau stabilite conform prevederilor prezentei legi nu sunt opozabile entităților care desfășoară activități caritabile, sociale și nici asociațiilor și fundațiilor de utilitate publică”
+
+Această lege a fost adoptată de Parlamentul României cu respectarea prevederilor art. 75 și ale art. 76 din Constituția României, republicată.
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+PREȘEDINTELE SENATULUI
+
+Sorin-Mihai GRINDEANU
+
+Mircea ABRUDEAN

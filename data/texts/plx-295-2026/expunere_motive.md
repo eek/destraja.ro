@@ -1,0 +1,110 @@
+# EXPUNERE DE MOTIVE
+
+Proiect de modificare și completare a art. 13 din OUG nr. 27/2006 privind salarizarea și alte drepturi ale judecătorilor, procurorilor și altor categorii de personal din sistemul justiției
+
+## Necesitatea modificării
+
+Prezentul proiect are ca obiect corectarea unor neconcordanțe și clarificarea reglementărilor privind diurna, transportul și cazarea judecătorilor, procurorilor, personalului asimilat acestora și magistraților-asistenți care sunt detașați sau delegați în altă localitate decât cea în care își desfășoară activitatea permanentă.
+
+În forma actuală a art. 13 alin. (1) OUG nr. 27/2006, diurna se calculează ca procent din indemnizația brută de încadrare. Această modalitate determină, în practică, valori mult mai mari decât diurna aplicabilă altor categorii de personal din sectorul public, nefiind corelată cu costurile effective generate de deplasarea în interes de serviciu.
+
+Discriminarea față de alte categorii profesionale nu poate fi justificată de profesie. Hrana are același preț pentru toți, iar necesitățile de hrană sunt asemănătoare, cu excepția celor care, prin natura activității, depun efort fizic intens sau sunt expuși noxelor, fapt care nu poate fi reclamat de magistrați.
+
+Mai mult, există situații în care magistrații beneficiază de diurnă chiar dacă delegarea sau detașarea are loc în aceeași localitate în care au locul de muncă permanent, ceea ce generează interpretări neunitare și litigii privind acordarea drepturilor.
+
+## Context juridic
+
+## Cadru constituțional și legal
+
+• Art. 124 și 132 din Constituția României garantează independența judecătorilor și procurorilor, precum și stabilitatea și protecția acestora, inclusiv prin drepturi salariale și alte drepturi accesorii.
+
+• Legea nr. 303/2022 privind statutul judecătorilor și procurorilor, art. 34 și urm., reglementează delegarea și detașarea magistraților și garanțiile aferente, inclusiv drepturile de natură financiară.
+
+## Jurisprudență relevantă
+
+• Decizia nr. 3/2022 a Înaltei Curți de Casație și Justiție a stabilit că, pentru cuantificarea diurnei, se va avea în vedere timpul efectiv lucrat și nu totalitatea zilelor calendaristice.
+
+• Decizia nr. 80/2025 a Înaltei Curți de Casație și Justiție stabilește că dreptul la diurnă este recunoscut în cazul detașării sau delegării angajatului cu domiciliul într-o altă localitate decât cea în care se află locul de muncă unde a fost detașat sau delegat, chiar dacă detașarea sau delegarea operează de la un loc de muncă permanent situat în aceeași localitate cu locul de muncă unde are loc detașarea sau delegarea.
+
+Aceste decizii relevă necesitatea modificării textului legal pentru eliminarea interpretărilor neunitare și prevenirea litigiilor precum și pentru a nu mai permite interpretări ca aceea care a generat soluția ICCJ din Decizia 80/2025 menționată mai sus.
+
+## Obiectivele proiectului de modificare
+
+1\. Uniformizarea cuantumului diurnei cu nivelul aplicabil tuturor categoriilor de personal din instituțiile publice, astfel încât diurna să reflecte exclusiv cheltuielile reale generate de deplasare (hrană, cazare, transport).
+
+2\. Clarificarea condițiilor de acordare a diurnei și a altor drepturi: interdicția de acordare a diurnei și a decontării transportului sau cazării în cazul delegării/detașării: a) în localitatea de domiciliu; b) într-o localitate în care ele sau membrii familiei dețin locuință în proprietate; c) într-o localitate situată la o distanță mai mică de 20 km față de domiciliu, indiferent dacă dețin sau nu locuință în acea localitate.
+
+3\. Prevenirea interpretărilor neunitare și a litigiilor, prin stabilirea clară a criteriilor pentru acordarea drepturilor aferente delegării și detașării.
+
+Soluția legislativă propusă
+
+\- Modificarea art. 13 alin. (1) pentru a prevedea:
+
+\- diurna și indemnizația de delegare/detașare la nivelul aplicabil tuturor salariaților din sectorul public;
+
+\- decontarea cheltuielilor de cazare și transport în limite rezonabile, correlate cu necesitățile reale generate de deplasare.
+
+\- Introducerea unui nou alineat (1¹) care stabilește că nu beneficiază de drepturile prevăzute la alin. (1) persoanele care sunt detașate sau delegate:
+
+o în localitatea de domiciliu,
+
+o într-o localitate în care ele sau membrii familiei dețin locuință în proprietate,
+
+o într-o localitate situată la o distanță mai mică de 20 km față de domiciliu, indiferent dacă dețin sau nu locuință în acea localitate,
+
+prevenind astfel interpretările eronate și acordarea nejustificată a drepturilor.
+
+Impactul modificărilor
+
+Modificările propuse asigură:
+
+\- Echitate și proporționalitate între toate categoriile de personal din sistemul public;
+
+\- Claritate și predictibilitate în acordarea diurnei, transportului și cazării;
+
+\- Respectarea drepturilor fundamentale ale magistraților, fără afectarea independenței sau a garanțiilor statutare;
+
+\- Reducerea riscului de litigii generate de aplicarea neunitară a dispozițiilor actuale.
+
+Prin aceste măsuri, diurna, transportul și cazarea își recapătă rolul firesc: compensarea costurilor reale ale deplasărilor în interes de serviciu.
+
+Deputați
+
+Stoica Alin Bogdan
+
+Murariu Oana
+
+Dimitriu Alexandru-Paul
+
+Ion Stelian-Cristian
+
+## Lista susținătorilor propunerii legislative
+
+Propunere legislativă pentru modificarea și completarea art. 13 din OUG nr. 27 /2006 privind privind salarizarea și alte drepturi ale judecătorilor, procurorilor și altor categorii de personal din sistemul justiției.
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>DEPUTAT/SENATOR</td><td>GRUP PARLAMENTAR</td><td>SEMNĂTURĂ</td></tr>
+<tr><td>1</td><td>ECHERT ADRIAN</td><td>USR</td><td rowspan="13"></td></tr>
+<tr><td>2</td><td>PAUN CYNTHIN</td><td>USR</td></tr>
+<tr><td>3</td><td>Paraschivesa Ovidin</td><td>USR</td></tr>
+<tr><td>4</td><td>Coltan Allen</td><td>USR</td></tr>
+<tr><td>5.</td><td>RIGMAN CIPRIAN</td><td>USR</td></tr>
+<tr><td>6.</td><td>Bulecra Felux</td><td>USR</td></tr>
+<tr><td>7</td><td>Norvssi Georgc</td><td>USR</td></tr>
+<tr><td>8</td><td>J PAGoescu CezaK</td><td>USR</td></tr>
+<tr><td>9.</td><td>Diana Stoica</td><td>USR</td></tr>
+<tr><td>10.</td><td>GIMA GEORAS</td><td>USR</td></tr>
+<tr><td>11</td><td>BULAI IULIAN</td><td>USR</td></tr>
+<tr><td>12</td><td>CRISTIAN BRIAN</td><td>USR</td></tr>
+<tr><td>13</td><td>DAFAO AMBEHEKWEU</td><td>USR</td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>

@@ -1,0 +1,550 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+## pentru modificarea și completarea Ordonanței de urgență a Guvernului nr.57/2019 privind Codul administrativ
+
+Senatul adoptă prezentul proiect de lege
+
+Art.I.- Ordonanța de urgență a Guvernului nr.57/2019 privind Codul administrativ, publicată în Monitorul Oficial al României, Partea I, nr.555 din 5 iulie 2019, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 152, după alineatul (8) se introduce un nou alineat, alin.(9), care va avea următorul cuprins:
+
+„(9) Durata mandatului viceprimarului constituie vechime în muncă și în specialitatea studiilor absolvite.”
+
+2\. La articolul 244 alineatul (8), după litera c) se introduce o nouă literă, lit.c¹), cu următorul cuprins:
+
+„,c¹) în situația unei stări de incompatibilitate constată în condițiile prevăzute de Legea nr.176/2010, cu modificările și completările ulterioare, ca urmare a unui raport de evaluare definitiv sau a unei hotărâri judecătorești definitive;”
+
+3\. La articolul 383, după alineatul (3) se introduce un nou alineat, alin.(4), cu următorul cuprins:
+
+„(4) Atribuțiile și responsabilitățile funcției publice generale se asociază domeniilor funcționale și nivelurilor atribuțiilor, prin aplicarea etapelor procedurii de elaborare și avizare a cadrelor de competențe specifice prevăzute la art.22 din anexa nr.8.”
+
+## 4. La articolul 392, alineatul (1) se modifică și va avea următorul cuprins:
+
+„(1) Sunt funcționari publici de execuție din clasa I persoanele numite în următoarele funcții publice generale: consilier, consilier juridic, auditor, inspector, consilier achiziții publice, precum și în funcțiile publice specifice asimilate acestora.”
+
+5\. La articolul 393 alineatul (2), litera d) se modifică și va avea următorul cuprins:
+
+„d) superior, ca nivel maxim pentru funcția publică de execuție, clasele II și III;”
+
+6\. La articolul 393 alineatul (2), după litera d) se introduc trei noi litere, lit.e) - g), cu următorul cuprins:
+
+„e) superior - nivel 2;
+
+f) superior - nivel 3;
+
+g) superior - nivel 4, ca nivel maxim pentru funcția publică de execuție clasa I."
+
+7\. La articolul 393, după alineatul (2) se introduc șapte noi alineate, alin.(3) - (9), cu următorul cuprins:
+
+„(3) Gradul profesional prevăzut la alin. (2) lit. d) este echivalent al gradului profesional superior nivel 1 pentru funcțiile publice de execuție din clasa I.
+
+(4) Gradele profesionale prevăzute la alin. (2) lit. e) - g) se stabilesc numai pentru funcțiile publice de execuție din clasa I.
+
+(5) Funcțiile publice de execuție din clasa I, având unul dintre nivelurile stabilite pentru gradul profesional superior, prevăzute la alin. (2) lit. e)-g), se pot ocupa prin concurs/examen de promovare în grad profesional și se înființează prin transformarea funcțiilor publice de execuție deținute, ca urmare a promovării concursurilor sau examenelor de promovare în grad profesional organizate în acest sens.
+
+(6) Funcțiile publice de execuție din clasa I având unul din nivelurile stabilite pentru gradul profesional superior, prevăzute la alin. (2) lit. e)-g), devenite vacante, se transformă în funcții publice de execuție de grad profesional debutant, asistent, principal sau superior, prevăzute la alin. (2) lit. a)-d), în vederea ocupării, după transformare, printr-una dintre modalitățile de ocupare prevăzute la art. 466 alin.(2).
+
+(7) Numărul total cumulat al funcțiilor publice de execuție din clasa I având unul din nivelurile stabilite pentru gradul profesional superior, prevăzute la alin. (2) lit.e) - g), ce se pot înființa la nivel de ordonator de credite este de maximum 20% din numărul total al posturilor aprobate la nivelul ordonatorului de credite, în condițiile legii.
+
+(8) Numărul total al funcțiilor publice de execuție din clasa 1 și nivelul aferent gradului profesional superior prevăzut la alin. (2) lit. g) care se pot înființa prin transformarea posturilor este de maximum 8% din numărul total al posturilor aprobate la nivelul ordonatorului de credite, în condițiile legii.
+
+(9) Conducătorii autorităților și instituțiilor publice aprobă organizarea concursurilor sau examenelor de promovare și transformarea funcțiilor publice de execuție prevăzute la alin. (2) lit. d) - f) în funcțiile publice de execuție din clasa I având unul din nivelurile stabilite pentru gradul profesional superior, prevăzute la alin. (2) lit. e)-g), în limitele prevăzute la alin.(7) și (8).”
+
+8\. La articolul 401, după alineatul (4) se introduce un nou alineat, alin.(5), cu următorul cuprins:
+
+„(5) Agenția Naționala a Funcționarilor Publici îndeplinește următoarele atribuții în domeniul gestiunii personalului contractual din cadrul autorităților și instituțiile administrației publice:
+
+a) elaborează și propune politici publice privind personalul contractual, pe care le promovează prin Ministerul Dezvoltării, Lucrărilor Publice și Administrației;
+
+b) elaborează și avizează proiecte de acte normative privind personalul contractual, pe care le supune spre aprobare Guvernului prin Ministerul Dezvoltării, Lucrărilor Publice și Administrației;
+
+c) avizează cadrele de competență pentru personalul contractual pentru care aceste cadre se aplică sau se dezvoltă în condițiile prevăzute la art. 539;
+
+d) elaborează studii, analize și prognoze privind structura și dinamica personalului contractual;
+
+e) monitorizează respectarea aplicării reglementărilor privind personalul contractual din cadrul autorităților și instituțiilor administrației publice;
+
+f) fundamentează, elaborează, implementează și gestionează programe și proiecte pentru dezvoltarea managementului personalului contractual.”
+
+9\. La articolul 411¹, partea introductivă a alineatului (1) se modifică și va avea următorul cuprins:
+
+„(1) Sistemul electronic național de evidență a ocupării în sectorul public cuprinde date și informații despre categoriile de personal plătit din fonduri publice prevăzute la lit. a) și c)-f), respectiv date statistice despre categoriile de personal prevăzute la lit. b) și g), după cum urmează:”
+
+10\. La articolul 478, după alineatul (2) se introduce un nou alineat, alin.(2¹), cu următorul cuprins:
+
+„(2¹) În cadrul concursului sau examenului de promovare în grad profesional, se verifică cunoștințele de specialitate și competențele specifice necesare ocupării funcției publice de execuție de grad profesional imediat superior.”
+
+11\. La articolul 478, după alineatul (4) se introduc două noi alineate, alin.(5) și (6), cu următorul cuprins:
+
+„(5) Examenele sau concursurile de promovare pentru funcțiile publice de execuție din clasa I, gradul profesional superior prevăzut la art. 393 alin. (2) lit. e) - g), includ și probe suplimentare pentru testarea competențelor generale necesare exclusiv pentru aceste grade profesionale, prevăzute la art. 17 din anexa nr. 8. Pentru verificarea competențelor specifice identificate la nivelul autorităților și instituțiilor publice, conform art. 4 alin. (2) din anexa nr. 8 se aplică în mod corespunzător prevederile art.21 din aceeași anexă.
+
+(6) Examenele sau concursurile de promovare pentru funcțiile publice de execuție din clasa I, gradul profesional superior prevăzute la art. 393 alin. (2) lit. e)-g), se organizează în limita numărului de posturi care se pot transforma potrivit art. 393 alin. (7) și (8)"
+
+12\. La articolul 479, după alineatul (1) se introduc cinci noi alineate, alin.(1¹) -(1⁵), cu următorul cuprins:
+
+„(1¹) Pentru a participa la concursurile sau examenele de promovare în nivelurile gradului profesional superior prevăzute la art.393 alin.(2) lit.e) - g), funcționarii publici de execuție trebuie să demonstreze deținerea a cel puțin unei competențe generale stabilite pentru acestea la art. 17 din anexa nr. 8, la nivel maxim. Deținerea acestei competențe se consemnează în evaluarea anuală a performanței profesionale individuale prin notarea sa cu nota/calificativul 5 din maximum 5, conform grilei de notare din anexa nr. 6¹.
+
+(1²) Pentru a participa la concursurile sau examenele de promovare în nivelul gradului profesional superior prevăzut la art. 393 alin. (2) lit. e) funcționarii publici de execuție trebuie să aibă o vechime de minimum un an în autoritatea sau instituția publică în cadrul căreia doresc să promoveze, pentru a permite realizarea evaluării a cel puțin unei competențe generale stabilite pentru aceasta la art. 17 din anexa nr. 8 pentru care să fie notat la nivel maxim conform alin. (1¹).
+
+(1³) La stabilirea obiectivelor de performanță care sunt avute în vedere la evaluarea performanțelor profesionale individuale ale funcționarilor publici de execuție având unul din nivelurile gradului profesional superior prevăzute la art. 393 alin. (2) lit.d) - f), persoana care are responsabilitatea de a realiza evaluarea performanțelor profesionale individuale adaugă una dintre competențele generale stabilite pentru nivelurile gradului profesional superior prevăzute de art. 393 alin. (2) lit.e) - g), în conformitate cu prevederile art. 17 din anexa nr. 8 și indicatorii comportamentali corespunzători, după consultarea cu funcționarul public de execuție evaluat. La evaluarea anuală a performanțelor profesionale individuale pentru anul următor, manifestarea acestei competențe generale se evaluează. Persoana care are responsabilitatea de a realiza evaluarea performanțelor profesionale individuale notează competența generală conform procedurii prevăzute în anexa nr. 6¹.
+
+(1⁴) Nota de la evaluarea competenței generale selectate dintre cele generale stabilite pentru nivelurile gradului profesional superior prevăzute la art. 393 alin. (2) lit. e) - g) nu se ia în calcul la calificativul final în evaluarea anuală a performanțelor profesionale individuale bazate pe competențe.
+
+(1⁵) Nota de la evaluarea competenței generale selectate dintre cele generale stabilite pentru gradele profesionale prevăzute la art. 393 alin. (2) lit. e) - g) se ia în calcul pentru îndeplinirea condiției de participare la concursul de promovare în gradele profesionale prevăzute la art. 393 alin. (2) lit. e)-g), conform alin. (1¹).”
+
+13\. La articolul 479, după alineatul (2) se introduce un nou alineat, alin. (3), cu următorul cuprins:
+
+„(3) Funcțiile publice de execuție din clasa I, grad profesional superior, având nivelurile prevăzute de art. 393 alin. (2) lit. e) - g), se pot ocupa numai ca urmare a participării la un concurs/examen de promovare din gradul profesional superior deținut în gradul profesional superior următor, dacă funcționarul public a acumulat minimum 3 ani vechime în respectivul grad profesional superior deținut, cu respectarea prevederilor art. 479 alin. (1²).”
+
+14\. La articolul 480, după alineatul (3) se introduce un nou alineat, alin.(3¹), cu următorul cuprins:
+
+„(3¹) În cadrul examenului de promovare în clasă, se verifică cunoștințele de specialitate și competențele specifice necesare ocupării funcției publice de execuție dintr-o clasă superioară celei în care se află funcția publică deținută de funcționarul public.”
+
+15\. La articolul 487 alineatul (1), litera a) se modifică și va avea următorul cuprins:
+
+„a) condițiile de muncă necesare desfășurării activității, precum și constituirea și folosirea fondurilor destinate îmbunătățirii condițiilor la locul de muncă;”
+
+16\. La articolul 505, după alineatul (10) se introduc două noi alineate, alin.(11) și (12), cu următorul cuprins:
+
+„(11) În vederea realizării detașării, autoritățile și instituțiile publice în cadrul cărora se va realiza detașarea verifică îndeplinirea de către funcționarul public a competențelor specifice prevăzute în fișa postului aferentă funcției publice în care urmează să fie detașat, conform prevederilor art. 21 alin. (1) - (7) din anexa nr. 8.
+
+(12) Prin excepție de la prevederile alin.(11), pentru funcțiile publice prevăzute la art. 383 alin. (2), în cazul în care detașarea se realizează pe o funcție publică din cadrul aceluiași domeniu funcțional, nu este obligatorie verificarea îndeplinirii competențelor specifice asociate acelui domeniu funcțional prevăzut în fișa postului de pe care are loc detașarea.”
+
+17\. La articolul 506, după alineatul (8¹) se introduce un nou alineat, alin.(8²), cu următorul cuprins:
+
+„(8²) Prin excepție de la prevederile alin.(5), pentru funcțiile publice prevăzute la art. 383 alin. (2), în situația în care transferul se realizează pe o funcție publică din cadrul acelorași domenii funcționale, nu este obligatorie verificarea îndeplinirii competențelor specifice asociate acelui domeniu funcțional dintre cele prevăzute la art.28 din anexa nr. 8 menționat în fișa postului de pe care are loc transferul.”
+
+## 18. Articolul 539 se modifică și va avea următorul cuprins: „ARTICOLUL 539
+
+## Clasificarea funcțiilor ce pot fi ocupate de personalul contractual
+
+(1) După nivelul funcției, personalul contractual poate ocupa următoarele categorii de funcții:
+
+a) funcții de conducere;
+
+b) funcții de execuție.
+
+(2) După natura activităților desfășurate, personalul contractual poate fi:
+
+a) personal contractual de specialitate din administrația publică centrală și locală care desfășoară activități ce presupun îndeplinirea unor atribuții și responsabilități complexe pentru care se cer calificări obținute prin studii universitare de licență absolvite cu diplomă de licență sau echivalentă ori studii superioare de scurtă durată, absolvite cu diplomă, în perioada anterioară aplicării celor 3 cicluri tip Bologna, cum ar fi administratorul public, conducătorii serviciilor publice deconcentrate prevăzuți la art. 280 alin. (2) care nu sunt funcționari publici, personalul care asigură mentenanța echipamentelor și rețelelor informatice, personalul de conducere al compartimentelor administrative, personalul medical și cel de specialitate psihologică al autorităților publice, proiectanții și alții asemenea;
+
+b) personal contractual încadrat la nivelul autorităților administrative autonome sau la nivelul autorităților publice prevăzute în anexa nr. 13, în condițiile legii;
+
+c) personal contractual detașat în rețeaua misiunilor diplomatice ale României, încadrat la nivelul autorităților și instituțiilor administrației publice centrale, altele decât ministerul cu atribuții în domeniul afacerilor externe;
+
+d) personal contractual încadrat la cabinetul demnitarilor, aleșilor locali sau la cancelaria prefectului;
+
+e) personal contractual suport care desfășoară activități de secretariat, protocol, gospodărire, întreținere-reparații și de deservire, pază și altele asemenea, ce deține studii liceale, respectiv studii medii liceale, finalizate cu diplomă de bacalaureat, pentru care nu se aplică prevederile prezentului cod;
+
+f) personal contractual cu regim special reglementat de legislația specifică aplicabilă, încadrat la nivelul ministerelor cu atribuții în domeniul afacerilor interne și apărării, precum și în cadrul altor autorități și instituții publice prevăzute în anexa nr. 13.
+
+(3) Personalul contractual prevăzut la alin. (2) lit. a) - c), e) și f) poate fi încadrat pe durată determinată sau nedeterminată, iar personalul contractual prevăzut la alin. (2) lit. d) poate fi încadrat pe durată determinată.
+
+(4) Personalului contractual prevăzut la alin. (2) lit. a) i se aplică cadrele de competență generale și specifice în condițiile prevăzute la alin.(6) - (8), iar personalului contractual prevăzut la alin. (2) lit.b) - f) nu i se aplică normele privind cadrele de competență, ci competențele generale și specifice stabilite prin act administrativ al conducătorului autorității sau instituției publice în care sunt încadrați.
+
+(5) Cadrele de competență generale pentru personalul contractual prevăzut la alin.(2) lit. a) sunt cele prevăzute la art. 17 din anexa nr. 8.
+
+(6) În vederea stabilirii cadrelor de competență specifice pentru personalul contractual prevăzut la alin.(2) lit.a), autoritățile și instituțiile publice parcurg procedura de elaborare a cadrelor de competență specifice conform art. 22 din anexa nr. 8.
+
+(7) Conducătorul autorității sau instituției publice stabilește prin act administrativ, cu informarea Agenției Naționale a Funcționarilor Publici, care dintre cadrele de competențe generale prevăzute la alin.(5) sunt aplicabile la nivelul autorității și instituției publice pe care o conduce și, respectiv care sunt cadrele de competență specifice identificate potrivit alin. (6) aplicabile la nivelul autorității sau instituției publice pe care o conduce.
+
+(8) Personalului contractual din cadrul autorităților administrative autonome și autorităților publice prevăzute în anexa nr. 13 îi sunt aplicabile prevederile privind drepturi, îndatoriri și incompatibilități specifice, cadrul legal special al raporturilor de muncă, cadre de competență și aspecte privind managementul carierei stabilite prin reglementările specifice privind organizarea și funcționarea autorităților publice în care sunt încadrați, în concordanță cu prevederile prezentului titlu.
+
+(9) Personalului contractual prevăzut la alin. (2) lit. e) și f) i se aplică prevederile art. 557, art. 558 alin. (1) - (4), art. 559 și art. 560 din prezentul titlu."
+
+## 19. Articolul 541 se modifică și va avea următorul cuprins: „ARTICOLUL 541 Rolul și atribuțiile personalului contractual
+
+(1) Rolul personalului contractual prevăzut la art. 539 alin. (2) lit. a) - c) este de realizare a activităților direct rezultate din exercitarea atribuțiilor autorităților și instituțiilor publice și care nu includ desfășurarea de acțiuni ce implică exercitarea de prerogative de putere publică, în condițiile prevăzute la art. 370 alin. (2) și (4).
+
+(2) Rolul personalului contractual prevăzut la art. 539 alin. (2) lit. d) este de a-l sprijini pe demnitarul sau alesul local la cabinetul căruia este încadrat, respectiv pe prefectul în a cărui cancelarie este încadrat, în realizarea activităților direct rezultate din exercitarea atribuțiilor care îi sunt stabilite prin Constituția României sau prin alte acte normative.
+
+(3) Rolul personalului contractual prevăzut la art. 539 alin. (2) lit. e) este de realizare a activităților direct rezultate din exercitarea atribuțiilor autorităților și instituțiilor publice, care nu implică exercitarea de prerogative de putere publică și nici îndeplinirea unor atribuții sau responsabilități complexe.
+
+(4) Rolul personalului contractual prevăzut la art. 539 alin. (2) lit. f) este cel definit prin legislația specifică de organizare și funcționare a ministerelor cu atribuții în domeniul afacerilor interne și apărării, precum și a altor autorități și instituții publice prevăzute în anexa nr. 13.
+
+(5) Scopul și atribuțiile fiecărui tip de funcții ocupate de personalul contractual se stabilesc în raport cu categoria din care face parte după cum urmează:
+
+a) pentru funcțiile exercitate în executarea unui contract individual de muncă, prin fișa postului;
+
+b) pentru funcțiile exercitate în executarea unui contract de management, prin clauzele contractului de management.”
+
+20\. La articolul 543, după litera d) se introduce o nouă literă, lit.e), cu următorul cuprins:
+
+„e) obligația de a respecta regimul juridic al incompatibilităților și conflictelor de interese.”
+
+21\. După articolul 549 se introduce un nou articol, art.549¹, cu următorul cuprins:
+
+## „ARTICOLUL 549¹ Îndatoririle personalului contractual
+
+(1) Personalul contractual are următoarele îndatoriri:
+
+a) respectarea Constituției României și a legilor;
+
+b) respectarea obligațiilor în exercitarea dreptului la libera exprimare;
+
+c) asigurarea unui serviciu public de calitate;
+
+d) loialitatea față de autoritățile și instituțiile publice;
+
+e) îndeplinirea atribuțiilor;
+
+f) respectarea limitelor privind delegarea de atribuții;
+
+g) păstrarea secretului de stat, secretului de serviciu și tea;
+
+## confidențialitatea;
+
+h) interdicția privind acceptarea darurilor sau a altor avantaje;
+
+i) utilizarea responsabilă a resurselor publice;
+
+j) respectarea interdicțiilor privind folosirea propriei imagini;
+
+k) respectarea limitelor privitoare la participarea la achiziții, concesionări sau închirieri;
+
+1\) respectarea regimului juridic al conflictului de interese și al incompatibilităților;
+
+m) respectarea limitelor privind activitatea publică;
+
+n) respectarea regulilor de conduită în relațiile cu cetățenii;
+
+o) respectarea normelor de conduită în cadrul relațiilor internaționale;
+
+p) obiectivitate și responsabilitate în luarea deciziilor;
+
+q) obligația de a respecta măsurile de securitate și sănătate în muncă;
+
+aplicabile.
+
+r) alte obligații prevăzute de lege sau de acordurile colective de muncă
+
+(2) Prevederile art. 430, art.432 - 434, art.437 - 441, art.443, 444, art.446 - 449 se aplică în mod corespunzător în ceea ce privește întinderea și conținutul îndatoririlor prevăzute la alin.(1) lit.a) - k) și m) - p).”
+
+## 22. Articolul 550 se modifică și va avea următorul cuprins:
+
+## „ARTICOLUL 550
+
+## Regimul incompatibilităților și conflictelor de interese în cazul personalului contractual
+
+(1) Personalul contractual care se regăsește în una din situațiile prevăzute de art.1 alin.(1) din Legea nr.176/2010, cu modificările și completările ulterioare are obligația de a depune declarații de avere și de interese în condițiile prevăzute la art. 1 din același act normativ.
+
+(2) Personalul contractual este în conflict de interese dacă se află în una dintre următoarele situații prevăzute la art. 79 alin. (1) din Legea nr.161/2003, cu modificările și completările ulterioare.
+
+(3) În cazul existenței unui conflict de interese, personalul contractual este obligat să se abțină de la rezolvarea cererii, luarea deciziei sau participarea la luarea unei decizii și să-l informeze de îndată pe șeful ierarhic căruia îi este subordonat direct. Acesta este obligat să ia măsurile care se impun pentru exercitarea cu imparțialitate a atribuțiilor personalului contractual, în termen de cel mult 3 zile de la data luării la cunoștință.
+
+(4) În cazurile prevăzute la alin. (2), conducătorul autorității sau instituției publice, la propunerea șefului ierarhic căruia îi este subordonat direct personalul contractual în cauză, va desemna o altă persoană, care are aceeași pregătire și nivel de experiență.
+
+(5) Încălcarea dispozițiilor alin. (3) reprezintă abatere disciplinară și se sancționează în condițiile prevăzute la art. 553².
+
+(6) Prevederile art.94 - 97 din Legea nr.161/2003, cu modificările și completările ulterioare, referitoare la incompatibilitățile funcționarilor publici sunt aplicabile în mod corespunzător și personalului contractual.
+
+(7) Prin legi speciale, pot fi prevăzute și alte categorii de incompatibilități pentru personalul contractual.
+
+(8) Constatarea și sancționarea stării de incompatibilitate și a conflictului de interese pentru personalul contractual se face în condițiile Legii nr. 176/2010, cu modificările și completările ulterioare.
+
+(9) Prin activități în domeniul didactic pe care personalul contractual le poate desfășura în condițiile legislației privind unele măsuri pentru asigurarea transparenței în exercitarea demnităților publice și a funcțiilor publice se înțeleg activitățile prevăzute la art. 462 alin. (2).”
+
+## 23. Articolul 553 se modifică și va avea următorul cuprins: „ARTICOLUL 553
+
+## Tipurile de răspundere a personalului contractual
+
+(1) Încălcarea de către personalul contractual cu vinovăție a îndatoririlor de serviciu atrage răspunderea administrativă, civilă sau penală, după caz.
+
+(2) Semnarea, contrasemnarea sau avizarea de către personalul contractual a documentelor de fundamentare a actelor administrative, cu încălcarea prevederilor legale, atrage răspunderea acestuia în condițiile legii.
+
+(3) Personalul contractual are dreptul de a refuza semnarea, respectiv contrasemnarea ori avizarea documentelor prevăzute la alin. (2), dacă le consideră ilegale, cu respectarea prevederilor art. 437 alin. (3).
+
+(4) Refuzul personalului contractual de a semna, respectiv de a contrasemna ori aviza documentele prevăzute la alin. (2), se face în scris și motivat în termen de 5 zile lucrătoare de la data primirii documentelor, cu excepția situațiilor în care prin acte normative cu caracter special sunt prevăzute alte termene, și se înregistrează într-un registru special destinat acestui scop.
+
+(5) Personalul contractual care refuză să semneze, respectiv să contrasemneze ori să avizeze sau care prezintă obiecții cu privire la legalitatea documentelor prevăzute la alin. (2), fără a indica temeiuri juridice, în scris, cu respectarea termenului prevăzut la alin. (4), răspunde în condițiile legii.”
+
+24\. După articolul 553 se introduc trei noi articole, art. 553¹ - 553³, cu următorul cuprins:
+
+## „ARTICOLUL 553¹
+
+## Răspunderea personalului contractual în solidar cu autoritatea sau instituția publică
+
+(1) Orice persoană care se consideră vătămată într-un drept al său sau într-un interes legitim se poate adresa instanței judecătorești, în condițiile legii, împotriva autorității sau instituției publice care a emis actul sau care a refuzat să rezolve cererea referitoare la un drept subiectiv sau la un interes legitim.
+
+(2) În cazul în care acțiunea se admite, plata daunelor se asigură din bugetul autorității sau instituției publice prevăzute la alin.(1). Dacă instanța judecătorească constată vinovăția unui salariat cu statut de personal contractual, persoana respectivă va fi obligată la plata daunelor, solidar cu autoritatea sau instituția publică.
+
+(3) Răspunderea juridică a personalului contractual nu se poate angaja dacă acesta a respectat prevederile legale și procedurile administrative aplicabile autorității sau instituției publice în care își desfășoară activitatea.
+
+## ARTICOLUL 553²
+
+## Răspunderea administrativ-disciplinară a personalului contractual
+
+(1) Încălcarea cu vinovăție de către personalul contractual a îndatoririlor corespunzătoare postului pe care îl ocupă și a normelor de conduită profesională și civică prevăzute de lege constituie abatere disciplinară și atrage răspunderea administrativ-disciplinară a acestuia.
+
+(2) Constituie abateri disciplinare următoarele fapte:
+
+a) întârzierea sistematică în efectuarea lucrărilor;
+
+b) neglijența repetată în rezolvarea lucrărilor;
+
+c) absența nemotivată de la serviciu;
+
+d) nerespectarea programului de lucru;
+
+e) intervențiile sau stăruințele pentru soluționarea unor cereri în afara cadrului legal;
+
+f) nerespectarea secretului profesional sau a confidențialității lucrărilor cu acest caracter;
+
+g) manifestări care aduc atingere prestigiului autorității sau instituției publice în care personalul contractual își desfășoară activitatea;
+
+h) desfășurarea în timpul programului de lucru a unor activități cu caracter politic;
+
+i) refuzul nemotivat de a îndeplini atribuțiile de serviciu;
+
+j) refuzul nemotivat de a se supune controlului de medicina muncii și expertizelor medicale ca urmare a recomandărilor formulate de medicul de medicina muncii, conform prevederilor legale;
+
+k) încălcarea prevederilor referitoare la îndatoriri și interdicții stabilite prin lege pentru personalul contractual, altele decât cele referitoare la conflicte de interese și incompatibilități;
+
+1\) încălcarea prevederilor referitoare la incompatibilități, prevăzute prin Legea nr. 161/2003, cu modificările și completările ulterioare, și prin legi speciale, dacă personalul contractual nu acționează pentru încetarea acestora într-un termen de 15 zile calendaristice de la data intervenirii cazului de incompatibilitate;
+
+m) încălcarea prevederilor referitoare la conflicte de interese;
+
+n) alte fapte prevăzute ca abateri disciplinare în actele normative din domeniul administrativ sau aplicabile acestuia.
+
+(3) Sancțiunile disciplinare aplicabile personalului contractual sunt cele prevăzute la art. 248 din Legea nr. 53/2003, republicată, cu modificările și completările ulterioare.
+
+(4) Procedura disciplinară aplicabilă funcționarilor publici și dispozițiile privind organizarea și funcționarea comisiilor de disciplină reglementate în anexa nr. 7 și în alte acte normative specifice se aplică în mod corespunzător și personalului contractual, la nivelul fiecărei autorități și instituții publice.
+
+(5) În cadrul autorităților și instituțiilor publice în care există posturi aferente personalului contractual, din comisia de disciplină face parte și un reprezentant al organizației sindicale reprezentative sau afiliate la o federație reprezentativă la nivelul sectorului de negociere colectivă ori, după caz, un reprezentant desemnat prin votul majorității personalului pentru care este organizată comisia de disciplină, în cazul în care sindicatul nu este reprezentativ sau personalul nu este organizat în sindicat. Dispozițiile art. 492 alin. (5) - (11), art. 493, art. 494 alin. (1) - (3) și (8¹), art.494¹ - 497 se aplică în mod corespunzător.
+
+## ARTICOLUL 553³
+
+## Alte dispoziții privind răspunderea personalului contractual
+
+Dispozițiile art.498 - 501 se aplică în mod corespunzător în privința răspunderii contravenționale și civile a personalului contractual și, respectiv, în legătură cu măsurile suplimentare asociate angajării răspunderii penale a personalului contractual.”
+
+25\. La partea a VI-a, titlul III, titlul capitolului IV se modifică și va avea următorul cuprins:
+
+## „Capitolul IV
+
+Încadrarea, promovarea și evaluarea performanțelor individuale ale personalului contractual”
+
+26\. După articolul 554 se introduce un nou articol, art.554¹, cu următorul cuprins:
+
+## „ARTICOLUL 554¹
+
+Încadrarea, promovarea și evaluarea performanțelor personalului contractual de specialitate
+
+(1) Personalul contractual de specialitate ocupă posturile prin concurs organizat cu respectarea normelor privind organizarea și desfășurarea concursului pentru ocuparea funcțiilor publice prevăzute la art. 385 alin. (3) din prezentul cod, cu excepția celor care beneficiază de statute speciale în condițiile legii, prevăzute în anexa nr. 12.
+
+(2) Promovarea personalului contractual de specialitate în grade sau, după caz, trepte profesionale, se face ca urmare a promovării unui examen/concurs, prin transformarea postului din statul de funcții în care acesta este încadrat într-unul de nivel imediat superior. Promovarea în grade sau, după caz, trepte profesionale imediat superioare se face din 3 în 3 ani, în funcție de performanțele profesionale individuale, apreciate cu calificativul bine, cel puțin de două ori în ultimii 3 ani în care acesta s-a aflat în activitate, de către o comisie desemnată prin act administrativ al persoanei care are competența legală de încadrare a personalului contractual, din care fac parte și reprezentanții organizațiilor sindicale reprezentative la nivel de autoritate sau instituție publică sau, după caz, reprezentanții personalului contractual încadrat, dacă în statute sau în legi speciale nu se prevede altfel.
+
+(3) Promovarea personalului contractual de specialitate într-o funcție pentru care este prevăzut un nivel de studii superior se face, prin examen, ca urmare a obținerii, în timpul ocupării funcției, a unei diplome de nivel superior eliberate de o instituție de învățământ superior acreditată.
+
+(4) Promovarea într-o funcție de conducere vacantă din categoria personalului contractual se face prin concurs.
+
+(5) Activitatea profesională se apreciază anual, ca urmare a evaluării performanțelor profesionale individuale, de către conducătorul autorității sau instituției publice angajatoare, la propunerea șefului ierarhic, prin acordare de calificative: foarte bine, bine, satisfăcător și nesatisfăcător. Criteriile de performanță generale avute în vedere la promovare sunt cele prevăzute la art. 8 alin. (2) din Legea-cadru nr. 153/2017, cu modificările și completările ulterioare. Conducătorul autorității sau instituției publice angajatoare poate stabili și alte criterii de evaluare în funcție de specificul domeniului de activitate.
+
+(6) Cadrele de competență generale și specifice stabilite în condițiile art.539 alin.(6) - (8) se aplică și în legătură cu încadrarea, promovarea și evaluarea performanțelor profesionale individuale ale personalului contractual de specialitate prevăzut la art. 539 alin. (2) lit. a).
+
+(7) Prevederile alin. (2) - (5) nu se aplică personalului contractual prevăzut la art. 539 alin. (2) lit. d) - e).”
+
+## 27. La articolul 560, alineatul (2) se modifică și va avea următorul cuprins:
+
+„(2) Raportul anual cu privire la respectarea normelor de conduită de către personalul contractual se publică și se transmite Agenției Naționale a Funcționarilor Publici.”
+
+28\. La articolul 597 alineatul (1), după litera k) se introduc două noi litere, lit.l) și m), cu următorul cuprins:
+
+„,l) pentru ocuparea funcțiilor publice prevăzute la art.385 alin. (3), prevederile art. 478 alin. (2¹), art. 480 alin. (3¹), art. 505 alin. (11) și art.506 alin.(8²) intră în vigoare la data de 1 ianuarie 2027;
+
+m) prevederile anexei nr. 12 intră în vigoare la data de 1 ianuarie 2029."
+
+## 29. Articolul 598 se modifică și va avea următorul cuprins:
+
+„Anexele nr. 1 - 13 fac parte integrantă din prezentul cod.”
+
+30\. La anexa nr. 5 punctul I „Funcții publice generale”, litera C. „Funcții publice de execuție”, punctul 1 se modifică și va avea următorul cuprins:
+
+„1. consilier, consilier juridic, auditor, inspector, consilier achiziții publice;”
+
+31\. La anexa nr. 5¹ numărul curent 19, partea introductivă a rândului 6 se modifică și va avea următorul cuprins:
+
+„Consilier, cu funcțiile publice de execuție de clasa I, grad profesional asistent”
+
+32\. La anexa nr. 6¹ articolul 19, alineatul (2) se modifică și va avea următorul cuprins:
+
+„(2) Obiectivele prevăzute la alin. (1) se stabilesc în conformitate cu atribuțiile din fișa postului și corespund obiectivelor compartimentului în care își desfășoară activitatea funcționarul public. Pentru funcționarii publici de execuție având unul din nivelurile gradului profesional superior prevăzute la art. 393 alin. (2) lit. d)-f) din prezentul cod, la stabilirea obiectivelor se au în vedere prevederile art. 479 alin. (1³) din prezentul cod.”
+
+33\. La anexa nr. 6¹ articolul 21, alineatul (8) se modifică și va avea următorul cuprins:
+
+„(8) Nota acordată pentru manifestarea competențelor se calculează ca medie aritmetică a notelor acordate pentru fiecare competență. Pentru funcționarii publici de execuție având unul din nivelurile gradului profesional superior prevăzute la art. 393 alin. (2) lit. d) - f) din prezentul cod, la acordarea notei acordată pentru manifestarea competențelor se au în vedere prevederile art. 479 alin. (1⁴) din prezentul cod.”
+
+34\. La anexa nr. 6¹ articolul 26, alineatul (9) se modifică și va avea următorul cuprins:
+
+„(9) Prevederile prezentului articol pot fi aplicate în cadrul procedurii de evaluare a performanțelor profesionale ale funcționarilor publici de execuție și de conducere care ocupă funcțiile publice prevăzute la art. 385 alin. (3) din prezentul cod pentru activitatea desfășurată în perioada 1 ianuarie-31 decembrie 2026. În această situație, nota finală reprezintă media aritmetică între nota obținută la verificare, nota obținută pentru atingerea obiectivelor individuale și nota obținută la evaluarea criteriilor de performanță.”
+
+35\. La anexa nr. 8 articolul 3, după litera l) se introduce o nouă literă, lit.l¹), cu următorul cuprins:
+
+„l¹) domeniul funcțional - tipul de activitate îndeplinită în scopul exercitării prerogativelor de putere publică care are la bază atribuții și responsabilități similare sau înrudite, identificate transversal în instituțiile și autoritățile publice, indiferent de domeniul de politici sectoriale. Domeniile funcționale diferențiază funcțiile publice generale în cadrul Familiei ocupaționale de funcții bugetare „Administrație,” definită în Legea-cadru nr. 153/2017, cu modificările și completările ulterioare.”
+
+36\. La anexa nr. 8 articolul 11, alineatul (1) se modifică și va avea următorul cuprins:
+
+„(1) Competențele specifice necesare ocupării unei funcții publice se identifică în condițiile prevăzute la art. 25 - 30 din prezenta anexă, pe baza condițiilor pentru ocuparea funcției publice, prin raportare la scopul principal al postului, complexitatea atribuțiilor specifice pe care funcționarul public le are de îndeplinit, precum și la structura funcțională în care se regăsește respectiva funcție publică, fiind necesare pentru exercitarea atribuțiilor postului prevăzute în fișa postului.”
+
+37\. La anexa nr. 8 articolul 11, după alineatul (2) se introduce un nou alineat, alin.(2¹), cu următorul cuprins:
+
+„(2¹) Competențele specifice prevăzute la alin.(2) lit.d) sunt folosite obligatoriu pentru ocuparea unei funcții publice.”
+
+## 38. La anexa nr. 8, articolul 17 se modifică și va avea următorul cuprins:
+
+„Art.17.- Cadrul de competențe generale, nivelurile de complexitate aferente, descriptorii și indicatorii comportamentali aferenți competențelor generale sunt stabiliți după cum urmează:
+
+a) cadrul de competențe generale și nivelurile de complexitate aferente, conform pct.I;
+
+b) descriptorii și indicatorii comportamentali aferenți competențelor generale, conform pct. II.”
+
+## I. Cadrul de competențe generale și nivelurile de complexitate aferente
+
+<table>
+<tbody>
+<tr><td>Categorie de competențe generale</td><td>Competențe generale pentru funcțiile publice prevăzute la art. 393 alin. (2) lit. a)-d) din OUG nr.57/2019, cu modificările și completările ulterioare și nivelul de complexitate aferent</td><td>Competențe generale pentru funcțiile publice prevăzute la art. 393 alin. (2) lit. e)-g) din OUG nr.57/2019, cu modificările și completările ulterioare și nivelul de complexitate aferent</td><td>Competențe generale pentru funcțiile publice prevăzute la art. 390 alin. (1) lit. g) din OUG nr.57/2019, cu modificările și completările ulterioare și nivelul de complexitate aferent</td><td>Competențe generale pentru funcțiile publice prevăzute la art. 390 alin. (1) lit. a) - f) din OUG nr.57/2019, cu modificările și completările ulterioare și nivelul de complexitate aferent</td><td>Competențe generale pentru funcțiile publice prevăzute la art. 389 din OUG nr. 57/2019, cu modificările și completările ulterioare și nivelul de complexitate aferent</td></tr>
+<tr><td rowspan="3">Eficiență personală</td><td>(nivel operațional) Rezolvarea de probleme și luarea deciziilor*)</td><td>(nivel extins) Rezolvarea de probleme și luarea deciziilor + Proactivitate și gândire conceptuală</td><td>(nivel extins) Rezolvarea de probleme și luarea deciziilor + Proactivitate și gândire conceptuală</td><td>(nivel extins) Rezolvarea de probleme și luarea deciziilor + Proactivitate și gândire conceptuală</td><td>(nivel strategic) Rezolvarea de probleme și luarea deciziilor + Proactivitate și gândire conceptuală + Gândire strategică</td></tr>
+<tr><td>(nivel operațional) Inițiativă*)</td><td>(nivel extins) Inițiativă + Asumarea răspunderii</td><td>(nivel extins) Inițiativă + Asumarea răspunderii</td><td>(nivel extins) Inițiativă + Asumarea răspunderii</td><td>(nivel extins) Inițiativă + Asumarea răspunderii</td></tr>
+<tr><td>(nivel operațional) Planificare și organizare*)</td><td>(nivel operațional) Planificare și organizare</td><td>(nivel extins) Planificare și organizare + Planificarea activității echipei</td><td>(nivel extins) Planificare și organizare + Planificarea activității echipei</td><td>(nivel strategic) Planificare și organizare + Planificarea activității echipei</td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td>+Planificare și organizare strategică</td></tr>
+<tr><td rowspan="2">Eficiențăinterpersonală</td><td>(nivel operațional)Comunicare*)</td><td>(nivel extins)Comunicare</td><td>(nivel extins)Comunicare+Networking (construirea relațiilor) și influențare</td><td>(nivel extins)Comunicare+Networking (construirea relațiilor) și influențare</td><td>(nivel strategic)Comunicare+Networking (construirea relațiilor) și influențare+Comunicare strategică</td></tr>
+<tr><td>(nivel operațional)Lucru în echipă*)</td><td>(nivel operațional)Lucru în echipă+Îndrumare a colegilor de echipă</td><td>(nivel operațional)Lucru în echipă</td><td>(nivel extins)Lucru în echipă+Medierea conflictelor</td><td>(nivel extins)Lucru în echipă+Medierea conflictelor</td></tr>
+<tr><td rowspan="2">Responsabilitatesocială</td><td>(nivel operațional)Orientare cătrecetățean*)</td><td>(nivel operațional)Orientare către cetățean+Responsabilitate civică</td><td>(nivel operațional)Orientare către cetățean</td><td>(nivel extins)Orientare către cetățean+Adaptare la contextul politic</td><td>(nivel strategic)Orientare către cetățean+Adaptare la contextul politic+Responsabilitate civică</td></tr>
+<tr><td>(nivel operațional)Integritate*)</td><td>(nivel operațional)Integritate</td><td>(nivel operațional)Integritate</td><td>(nivel extins)Integritate+Managementulvulnerabilității</td><td>(nivel extins)Integritate+Managementulvulnerabilității</td></tr>
+<tr><td>Competențemanageriale</td><td></td><td>(nivel operațional)Managementul calității</td><td>(nivel operațional)Managementul performanței</td><td>(nivel extins)Managementul performanței+</td><td>(nivel extins)Managementul performanței+</td></tr>
+<tr><td rowspan="2"></td><td></td><td></td><td></td><td>Managementul resurselor și a proceselor</td><td>Managementul resurselor și a proceselor</td></tr>
+<tr><td></td><td></td><td>(nivel operațional)Dezvoltarea echipei</td><td>(nivel operațional)Dezvoltarea echipei</td><td>(nivel operațional)Dezvoltarea echipei</td></tr>
+<tr><td rowspan="2">Leadership</td><td rowspan="2"></td><td rowspan="2"></td><td rowspan="2"></td><td>(nivel operațional)Generarea angajamentului</td><td>(nivel operațional)Generarea angajamentului</td></tr>
+<tr><td>(nivel operațional)Promovarea inovației și inițierea schimbării</td><td>(nivel extins)Promovarea inovației și inițierea schimbării+Agilitate strategică</td></tr>
+</tbody>
+</table>
+
+\*) Pentru funcțiile publice de execuție de grad profesional debutant și asistent, nivelul competențelor este „elementar”
+
+## II. Descriptorii și indicatorii comportamentali aferenți competențelor generale
+
+## a. Categoriia de competențe generale eficiență- eficiență personală
+
+<table>
+<tbody>
+<tr><td>Competență generală</td><td>Subcompetență</td><td>Nivelul de complexitate al competenței generale</td><td>Categoria de funcții publice căreia i se aplică</td><td>Descriptor</td><td>Indicatori comportamentali</td></tr>
+<tr><td>Rezolvarea de-probleme și luarea deciziilor</td><td></td><td>Elementar</td><td>Funcții publice de execuție, grad profesional debutant și asistent</td><td>Competență generală de a utilizăraționamente logice și metode riguroase pentru a rezolva diverse probleme</td><td>Identifică diferite surse relevante de informații pentru a îndeplini sarcinile curente;Identifică și utilizează metode și instrumente adecvate pentru prelucrarea datelor și informațiilor colectate;Identifică aspectele-cheie care trebuie analizate pentru a-și fundamenta decizia;</td></tr>
+<tr><td rowspan="3"></td><td rowspan="2"></td><td></td><td></td><td>pentru a obține soluții eficace, de a lua deciziilor la timp, uneori fără a avea toate informațiile necesare și sub presiunea unor termene strânse sau de</td><td>Analizează și interpretează informațiile provenite din diferite surse;Identifică problemele, cauzele aferente și factorii care au contribuit la generarea acestora;Analizează date și informații din surse relevante;Corelează date și informații pentru formularea unor concluzii și recomandări.</td></tr>
+<tr><td>Operațional</td><td>Funcții publice de execuție, grad profesional principal și superior</td><td>a lua decizii pe baza unei combinații de analiză, experiență și judecăți valide</td><td>Identifică soluții adecvate pentru a rezolva problemele;Utilizează instrumente adecvate pentru a valorifica informații relevante și actuale atunci când ia decizii;Manifestă autonomie în rezolvarea problemelor;Își poate susține propriile decizii și își asumă responsabilitatea pentru ele;Formulează argumente și le susține atunci când este confrontat cu păreri opuse sau când sunt solicitate clarificări.</td></tr>
+<tr><td>Proactivitate și gândire conceptuală</td><td>Extins</td><td>Funcții publice de execuție, grad profesional superior nivelurile 2-4 Funcția publică de conducere de șef măsurile serviciu și funcții publice specifice asimilate acesteia Funcții publice de conducere de: Director general/director general adjunct,</td><td>Subcompetența de a anticipa implicațiile și consecințele unor situații, de a lucra cu ipoteze, de a lua</td><td>Abordează o sarcină sau o problemă complexă defalcând-o pe componente și tratând fiecare parte în mod detaliat;Ia decizii rapid, atunci când este necesar, pe baza unor informații incomplete;Identifică deciziile ce necesită adoptare urgentă și acționează în consecință;Generează opțiuni viabile pentru problemele sau opportunitățile identificate;Identifică implicațiile „pe termen lung” ale fiecărei opțiuni, precondiții sau constrângeri, după caz, înainte de alege o opțiune;Anticipează posibilele probleme sau riscuri și elaborază planuri pentru situațiile neprevăzute;</td></tr>
+<tr><td rowspan="2"></td><td></td><td>Director/director adjunct, Director executiv/ director executiv adjunct și funcții publice specifice asimilate acestora</td><td></td><td>Estimează costurile, beneficiile, riscurile și șansele de reușită în procesul decizional; Prioritizează sarcinile care trebuie îndeplinite; Utilizează metode și instrumente adecvate pentru analize multicriteriale sau calitative necesare fundamentării decizionale.</td></tr>
+<tr><td>Gândire strategică</td><td>Strategic Funcții publice din categoria înalților funcționari publici</td><td>Subcompetența de a dezvolta o viziune și strategii pe termen lung, ținând seama de opportunități, evoluții tehnologice, tendințe sociale, precum și de a asigura legătura între și grupuri de persoane în fața unor situațiile neprevăzute; previzionează în ce mod vor reacționa anumite persoane și planifică în consecință; Corelează adecvat capacitatea administrativ-instituțională cu nevoile de dezvoltare; Conduce echipa pentru a aborda și a contura direcția viitoare de dezvoltare instituțională; Definește problemele critic și identifică alternativee de gestionare, pe baza riscurilor și a impactului estimat; Facilitează, face recomandări și coordonează implementarea unor măsuri corective și/sau de prevenire pentru probleme complexe care afectează întreaga instituție; Anticipează consecințele sau implicațiile pe termen lung ale diferitelor decizii.</td><td>Se informează despre diverse domenii asociate activității sale; Propune direcții noi de acțiune pe baza riscurilor calculate, scenariilor și alternativelor; Anticipează posibilele situații de criză care pot apărea și elaborează planuri pentru situațiile neprevăzute; Previzionează în ce mod vor reacționa anumite persoane și grupuri de persoane în fața unor situații și informații și planifică în consecință; Corelează adecvat capacitatea administrativ-instituțională cu nevoile de dezvoltare; Conduce echipa pentru a aborda și a contura direcția viitoare de dezvoltare instituțională; Definește problemele critic și identifică alternativee de gestionare, pe baza riscurilor și a impactului estimat; Facilitează, face recomandări și coordonează implementarea unor măsuri corective și/sau de prevenire pentru probleme complexe care afectează întreaga instituție; Anticipează consecințele sau implicațiile pe termen lung ale diferitelor decizii.</td></tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr><td rowspan="3">Inițiativă</td><td rowspan="2"></td><td>Elementar</td><td>Funcții publice de execuție, grad profesional debutant și asistent</td><td rowspan="2">Competența generală de a identifica ce anume trebuie făcut și efectuarea acelui lucru înainte de a se solicită în mod expres sau își adaptează abordarea atunci când se confruntă cu cerințe chiar înainte ca situația noi; să necesite acest lucru în mod esențial; evaluarea și inițierea de acțiuni în mod independent.</td><td>Acționează din proprie inițiativă; Manifestă consecvență și determinare în finalizarea sarcinilor; Inițiază acțiuni pentru creșterea performanței și a expertizei profesionale; în mod expres sau își adaptează abordarea atunci când se confruntă cu cerințe chiar înainte ca situația noi; Propune măsuri pe baza concluzilor extrase din date și informații relevante.</td></tr>
+<tr><td>Operațional</td><td>Funcții publice de execuție, grad profesional principal și superior</td><td>Învață din eșecurile anterioare, reușește să le vadă ca oportunități de învățare; Propune metode noi de lucru, inclusiv utilizarea de tehnologii și proceduri în vederea creșterii eficienței; Preia inițiativa în testarea și, după caz aplicarea de noi programe dezvoltate pentru a face față schimbării; Inițiază implicarea în noi activități sau proiecte pentru a și dezvolta aptitudinile; Solicită îndrumare pe cale ierarhică numai când este necesar și lucrează bine independent.</td></tr>
+<tr><td>Asumarea răspunderii</td><td>Extins</td><td>Funcții publice de execuție, grad profesional superior nivelurile 2-4</td><td>Subcompetența de a-și asumă responsabilitatea pentru rezolvarea unor probleme iminente, pentru inițiative personale, de a face propuneri și de a își își asumă responsabilitatea pentru dezvoltarea personală concentra atenția și îndeplinirea obiectivelor; asupra oportunităților de îmbunătățire a calității rezultatelor cât</td><td>Încurajează inițiativa prin feedback pozitiv furnizat colegilor Oferă exemplu inițiind permanent noi activități și măsuri; Valorizează oportunitățile pe care i le oferă situațiile noi pentru atingerea obiectivelor instituționale; Acționează în mod susținut, cu motivație și tenacitate pentru realizarea obiectivelor; Oferă îndrumare, la cerere, pentru colegi privind modul în care aceștia pot să recunoască și să acționeze corespunzător în cazul unor probleme și oportunități.</td></tr>
+<tr><td></td><td></td><td></td><td></td><td>și pentru dezvoltarea personală</td><td></td></tr>
+<tr><td></td><td>Asumarea răspunderii</td><td>Extins</td><td>Funcția publică de conducere de șefasumaserviciu și funcții publice specifice asimilate acesteia Funcții publice de conducere de:Director general/director general adjunct, Director/director adjunct, Director executiv/director executiv adjunct și funcții publice specifice asimilate acestora Funcții publice din categoria înalților funcționari publici personală și cea a echipei.</td><td>Subcompetența de a-și asumă responsabilitatea pentru rezolvarea unor probleme iminente, pentru inițiative personale, de a face propuneri, de a menține atenția echipei asupra oportunităților de îmbunătățire a calității rezultatelor cât și pentru dezvoltarea personală și cea a echipei</td><td>Încurajează inițiativa prin feedback pozitiv și delegare;Oferă exemplu inițiind permanent noi activități și măsuri;Valorizează oportunitățile pe care i le oferă situațiile noi pentru atingerea obiectivelor instituționale;Acționează în mod susținut, cu motivație și tenacitate pentru realizarea obiectivelor;Își asumă responsabilitatea pentru dezvoltarea personală și îndeplinirea obiectivelor;Oferă îndrumare și asigură o direcție pentru ceilalți privind modul în care aceștia pot să recunoască și să acționeze corespunzător în cazul unor probleme și oportunități;Încurajează personalul din subordine să acționeze independent și cu responsabilitate;Ia inițiativa în privința creșterii eficienței echipei.</td></tr>
+<tr><td>Planificare și-organizare</td><td></td><td>Elementar</td><td>Funcții publice de execuție, grad profesional debutant și asistent</td><td>Competența generală de a defini și a pune înrealist pentru activități;Definește criterii de prioritizare și acționează în planuri concrete în consecință;scopul atingerii obiectivelor, utilizând obiectivele;</td><td></td></tr>
+<tr><td rowspan="3"></td><td rowspan="2"></td><td></td><td></td><td rowspan="2">resursele în mod eficient și eficace.</td><td>Identifică resursele necesare pentru a-și realiza sarcinile zilnice;Planifică și organizează activitatea ținând seama de proceduri și politici;Are o abordare metodică și consecventă față de muncă;Își face timp să învețe politicile, regulile, reglementările și procedurile standard de lucru care sunt relevante.</td></tr>
+<tr><td>Operațional</td><td>Funcții publice de execuție, grad profesional principal și superior</td><td>Stabilește obiective operaționale definite clar pentru activitatea proprie, plecând de la obiectivele de performanță trasate de superiorul ierarhic;Definește planuri de măsuri clare pentru a-și transpune obiectivele în practică;Adaptează planurile atunci când apar sarcini sau solicitări noi;Acționează în mod sistematic și metodic;Își monitorizează progresele înregistrate față de termene și alte criterii;Gestionează mai multe sarcini în același timp pentru a-și îndeplini obiectivul.</td></tr>
+<tr><td></td><td>Operațional</td><td>Funcții publice de execuție, grad profesional superior nivelurile 2-4</td><td>Competența generală de a defini și a pune în aplicare măsuri și planuri concrete în scopul atingerii obiectivelor, utilizând resursele în mod nei eficient și eficace Subcompetența de a gestiona riscuri</td><td>Stabilește obiective operaționale definite clar pentru activitatea proprie, plecând de la obiectivele de performanță trasate de superiorul ierarhic;Definește planuri de măsuri clare pentru a-și transpune obiectivele în practică;Adaptează planurile atunci când apar sarcini sau solicitări ini;Acționează în mod sistematic și metodic;Își monitorizează progresele înregistrate față de termene și alte criterii;Gestionează mai multe sarcini în același timp pentru a-și îndeplini obiectivele;</td></tr>
+</tbody>
+</table>
+
+|  |  |  |  | Propune strategii și planuri de dezvoltare la nivelul compartimentului din care face parte, luând în considerare dezvoltarea instituției și interesul cetățenilor;Implementează măsuri de prevenire sau de reducere la minimum a riscurilor;Planifică activitățile proprii pe baza indicatorilor principali de performanță;Gestionează riscurile asociate procesului de schimbare, prin planificare corespunzătoare pentru situații neprevăzute a activității proprii, bazându-se pe experiențele anterioare de schimbare și dezvoltând lecțiile învățate din acestea;Prezintă superiorilor ierarhici, precum și colegilor, obiectivele utilizând instrumente de prezentare adecvate; Identifică mai multe tipuri de riscuri posibile: asociate cu factori interni și externi, asociate cu strategia în sine, sau riscuri care ar putea afecta implementarea proiectelor. |
+| --- | --- | --- | --- | --- |
+| Planificarea activității echipei | Extins | Funcția publică de conducere de șef serviciu și funcțiinu numai activitatea publice specifice asimilate acesteia Funcții publice de conducere de:Director general/director general adjunct, Director/director adjunct, Director executiv/director executiv | Subcompetența de a planifica și a organiza personală, ci și activitatea membrilor echipei, de a distribui eficient resursele și sarcinile de muncă între membrii echipei/personalului coordonat/din subordine. | Stabilește obiective clare pentru sine și pentru persoanele pe care le coordonează.Definește planuri de acțiune clare pentru a transpune obiectivele echipei în practică.Distribuie corespunzător sarcinile de muncă între membrii echipei.Identifică și organizează resursele necesare pentru îndeplinirea sarcinilor;Organizează eficient timpul propriu și pe cel al membrilor echipei/personalului coordonat/din subordine;Monitorizează progresele înregistrate de membrii echipei/personalului coordonat/din subordine față de termene și alte criterii; |
+
+<table>
+<tbody>
+<tr><td rowspan="2"></td><td></td><td>adjunct și funcții publice specifice asimilate acestora</td><td></td><td>Adaptează activitatea echipei/personalului coordonat/din subordine în funcție de noile cerințe;Ia măsuri active pentru a evita sau a limita abaterile de la activitatea planificată;Intervine și remediază situațiile care afectează nivelurile de productivitate;Monitorizează, gestionează și desfășoară mai multe activități simultan;Transpune obiectivele în planuri de acțiune pentru a le putea implementa și monitoriza;Dezvoltă și utilizează sisteme de organizare a activității și de monitorizare a progreselor înregistrate.</td></tr>
+<tr><td>Planificare și organizare strategică</td><td>Strategic</td><td>Funcții publice din categoria înalților funcționari publici</td><td>Subcompetența de a operaționaliza și implementa măsurile și politicile strategice, crescând complexitatea de la nivelul echipei/personalului coordonat/din subordine și al organizațieiElaborează și structurează o imagine clară asupra perspectivelor de dezvoltare ale instituției publice și explică în ce mod deciziile actuale creează calea pentru transpunerea acestei viziuni;Transpune viziunea, programele și proiectele instituției în strategii coerente;Elaborează strategii luând în considerare dezvoltarea instituției și interesul cetățenilor;Evaluează capabilitățile viitoare ale instituției publice de a crea oportunități și de a gestiona riscuri;Implementează măsuri de prevenire sau de reducere la minimum a riscurilor;Organizează activitatea instituției publice pentru a alinia procesele interne ale acesteia cu obiectivele strategice;Planifică activitățile pe baza indicatorilor principali de performanță, măsoară progresul acestora și acționează pentru a le implementa;Gestionează riscurile asociate procesului de schimbare, prin planificare corespunzătoare pentru situații</td></tr>
+</tbody>
+</table>
+
+eprevăzute, bazându-se pe experiențele anterioare de himbare și dezvoltând lecțiile învățate din acestea; Prezintă obiectivele utilizând instrumente de prezentare decvate; » Identifică mai multe tipuri de riscuri posibile: asociate u factori interni și externi, asociate cu strategia în sine, au riscuri care ar putea afecta implementarea proiectelor.
+
+b. Categoria de competențe generale eficiență interpersonală
+
+Competență |Subcompetență [Nivelul deCategoria deDescriptor Indicatori comportamentali generală complexitate allfuncții publice competenței [căreia i se aplică generale Comunicare |- Elementar Funcții publice deCompetența generală dep» Exprimă cu claritate opinii și informații; execuție, grada asculta atent, transmite Explică cu claritate logica unui argument; profesional în mod clar și eficiente Este capabil să asculte atent și activ; debutant și asistenticoncepte și informații» Acordă o atenție corespunzătoare îngrijorărilor exprimate atât verbal, cât și în scris,de alții; prin structurarea Scrie clar, succint și corect, verificând corectitudinea informațiilor pentru algramaticală și ortografică din lucrările sale; îndeplini nevoile și Are capacitate de sinteză, prezentând pe scurt principalele, realiza înțelegerea lajidei ale unei discuții; nivelul publicului căruiale Își informează periodic superiorul ierarhic cu privire 1 i se adresează, rogresele înregistrate și la problemele intervenite. Extins Funcții publice de Prezintă concepte complexe și abstracte într-un mod simplu execuție, grad i inteligibil; profesional Identifică și adoptă cel mai potrivit stil interpersonal pentrul principal șI| iferite tipuri de public și în diverse contexte;
+
+<table>
+<tbody>
+<tr><td rowspan="3"></td><td></td><td>superior și superior de nivelurile 2-4</td><td></td><td>Prezintă opinii într-un mod convingător, expresiv, care captează atenția publicului;Evită utilizarea jargonului profesional în interacțiunile sale;Verifică dacă mesajele au fost auzite și înțelese atunci când vorbește cu alte persoaneEste deschis colaborării cu angajații de la toate nivelurile;</td></tr>
+<tr><td>Networking (construirea relațiilor) și influențare</td><td>Extins</td><td>Funcția publică de conducere de șef serviciu și funcții publice specifice asimilate acesteia Funcții publice de conducere de:Director general/director general adjunct,Director/director adjunct,Director executiv/director executiv adjunct și funcții publice specifice asimilate acestora</td><td>Participă activ la conversații;Susține dialogul deschis;Stabilește relații de cooperare, înțelegeri sau discuții obținând acorduri ferme de la ambele părți;Structurează punctele esențiale ale unui argument în timpul unei conversații;Separă ceea ce este important de ceea ce este redundant în prezentarea unei opinii;Ajunge rapid la subiectul discuției;Abordează constructiv obiecțiile altora, indicând argumente cu calm;Creează o atmosferă bună, făcând angajații să se simtă confortabil;Utilizează eficient materialele pregătite și elementele utilizate pentru ilustrare vizuală;Este deschis colaborării cu angajații de la toate nivelurile;Îndepărtează barierele identificate în colaborarea interdepartamentală și stimulează această colaborare.</td></tr>
+<tr><td>Comunicare strategică</td><td>Strategic</td><td>Funcții publice din categoria înalților funcționari publici</td><td>Organizează întâlniri cu personalul și ascultă punctul de vedere al angajaților cu privire la politicile și procedurile instituționale;Este accesibil pentru cetățeni și entități interesate;Explică și clarifică politicile instituționale părților care sunt afectate de acestea;</td></tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr><td></td><td></td><td></td><td></td><td>consolida imaginea publică a instituției și obiectivele pe termen lung ale acesteia.</td><td>Comunică personalului informații privind schimbările care au impact asupra activității din cadrul instituției publice;Dezvoltă parteneriate și relații interinstituționale pentru a stabili obiective comune, a alinia responsabilitatea și resursele și a efectua schimbări pozitive;Prezintă într-un mod structurat informații complexe;Internalizează și susține punctul de vedere oficial al instituției publice;Conduce prin puterea exemplului, ilustrând acest lucru în contexte profesionale favorabile și credibile;Comunică direct, manifestă comportament asertiv și imparțialitate în relație cu colegii și subordonații;Promovează un mediu de lucru care susține valori dezirabile.</td></tr>
+<tr><td rowspan="2">Lucru în-echipă</td><td rowspan="2"></td><td>Elementar</td><td>Funcții publice de execuție, grad profesional debutant și asistent</td><td rowspan="2">Competența generală de a colabora cu alți membri ai unor grupuri formale sau informale în îndeplinirea unei misiuni și a unei viziuni comune, a unor valori și a unor obiective comune; plasarea nevoilor și priorităților echipei în acord cu obiectivele instituționale</td><td>Contribuie la instalarea unei atmosfere pozitive și plăcute în echipă, printr-o atitudine personală constructivă și prin comunicare;Discută despre neînțelegeri cu tact și sensibilitate;Solicită sprijin atunci când este nevoie, îi implică pe alții din timp sau atunci când există riscul de finalizare a sarcinilor alocate cu întârziere;Își exprimă aprecierea pentru ideile și contribuțiile colegilor;Își împărtășește cunoștințele și experiența cu colegii.</td></tr>
+<tr><td>Operațional</td><td>Funcții publice de execuție, grad profesional principal și superior Funcția publică de conducere de șef</td><td>Inițiază discuții cu colegii săi și încurajează colaborarea la nivelul echipei;Acceptă și oferă sprijin atunci când un membru al echipei este demotivat/rezervat/neintegrat;Identifică un numitor comun al problemelor și acționează pentru rezolvarea acestora;</td></tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr><td rowspan="3"></td><td></td><td>serviciu și funcții publice specifice asimilate acesteia</td><td></td><td>Furnizează informațiile pe care trebuie să le cunoască echipa pentru a-și îndeplini sarcinile și ia decizii fundamentate și la timp;Utilizează instrumente necesare pentru buna colaborare cu echipa proprie sau cu alte echipe;Oferă și solicită feedback specific pentru o îmbunătățire permanentă a performanțelor.</td></tr>
+<tr><td>Operațional</td><td>Funcții publice de execuție, gradîndrumare a colegilor profesional superior nivelurile 2-4</td><td>Subcompetența de</td><td>Inițiază discuții cu colegii săi și încurajează colaborarea la nivelul echipei;Acceptă și oferă sprijin atunci când un membru al echipei este demotivat/rezervat/neintegrat;Identifică un numitor comun al problemelor și acționează pentru rezolvarea acestora;Furnizează informațiile pe care trebuie să le cunoască echipa pentru a-și îndeplini sarcinile și ia decizii fundamentate și la timp;Utilizează instrumente necesare pentru buna colaborare cu echipa proprie sau cu alte echipe;Oferă și solicită feedback specific pentru o îmbunătățire permanentă a performanțelor.Oferă sprijin constant colegilor de echipă;Propune proactiv soluții și mobilizează membrii echipei pentru implementarea acelor acțiuni și decizii dispuse de conducerea instituției publice și superiorii ierarhici.</td></tr>
+<tr><td>Medierea conflictelor</td><td>Extins</td><td>Funcții publice de conducere de:Director general/director general adjunct,Director/director adjunct,</td><td>Subcompetența de a gestiona conflictele într- o manieră constructivă și de a reduce probabilitatea intensificării conflictelor între membrii echipei. Se ocupă de problemele care perturbă funcționarea și armonia echipei;Solicită opinia celorlalți la un moment incipient al procesului decizional;Încurajează echipele să colaboreze cu o serie de parteneri și părți implicate și ascultă feedback-ul acestora;Oferă sprijin adaptat nevoilor colaboratorilor;</td></tr>
+<tr><td></td><td></td><td>Director executiv/director executivadjunct și funcții publice specificeasimilate acestoraFuncții publice din categoria înalțilorfuncționari publici</td><td>Asigură îndrumarea colegilor în desfășurarea activității precum și în situațiile dificile intervenite;Îi implică pe alții în procesele decizionale care îi privesc;Valorifică punctele forte ale colegilor și recunoaște contribuțiile și realizările altora;Încurajează un climat de lucru colaborativ prin măsuri adecvate;Respinge în mod direct și reacționează cu promptitudine față de limbajul sau de comportamentele neadevate, inclusiv bullying, hărțuire sau discriminare;Urmărește obținerea unor rezultate constructive în cadrul discuțiilor, formulează diverse premise/presupuneri spre a fi discutate, însă rămâne dispus să ajungă la o înțelegere atunci când acest lucru este benefic pentru progres/deblocarea unei situații.</td></tr>
+</tbody>
+</table>
+
+## c. Categorie de competențe generale responsabilitate socială
+
+<table>
+<tbody>
+<tr><td>Competență generală</td><td>Subcompetență</td><td>Nivelul de complexitate al competenței generale</td><td>Categoria de funcții publice căreia i se aplică</td><td>Descriptor</td><td>Indicatori comportamentali</td></tr>
+<tr><td>Orientare către cetățean</td><td>-</td><td>Elementar</td><td>Funcții publice de execuție, grad profesional debutant și asistent</td><td>Capacitatea de a acționa în interesul cetățenilor, utilizând în mod eficient resursele instituției, precum și de a demonstra responsabilitate civică și</td><td>• Lucrează eficient cu cetățenii sau cu alte persoane cu care intră în contact; • Prioritizează sarcinile cu impact ridicat asupra nevoilor cetățenilor; • Își monitorizează propria activitate ținând cont de interesul legitim public; • Tratează reclamațiile cetățenilor cu seriozitate, caută soluții rapide și proactive pentru a le rezolva;</td></tr>
+<tr><td rowspan="3"></td><td rowspan="2"></td><td></td><td></td><td rowspan="2">dedicare pentru funcția publică</td><td>Își verifică activitatea pentru a elimina erorile care ar putea avea un impact asupra gradului de mulțumire al cetățenilor.</td></tr>
+<tr><td>Operațional</td><td>Funcții publice de execuție, grad profesional principal, superior și grad profesional superior nivelurile 2-4 Funcția publică de conducere de șef serviciu și funcții publice specifice asimilate acesteia</td><td>Acționează pentru a anticipa și a identifica nevoile cetățenilor;Protejează interesele cetățenilor atunci când inițiază noi măsuri și activități;Identifică nevoile cetățenilor care se pot rezolva direct sau indirect prin propriile sale acțiuni sau comportamente;Caută în mod proactiv să vină în întâmpinarea așteptărilor și cerințelor cetățenilor;Stabilește și dă curs unor standarde ridicate de calitate în munca sa;Ține cont de nevoile, problemele și valorile cetățenilor atunci când ia decizii.</td></tr>
+<tr><td>Adaptare la contextul politic</td><td>Extins</td><td>Funcții publice de conducere de:Director general/director general adjunct,Director/director adjunct,Director executiv/director executiv adjunct și funcții publice specifice asimilate acestora</td><td>Subcompetența de a demonstra încredere, de a relaționa cu persoane indiferent de nivelului ierarhic al acestora, atât în cadrul instituției publice cât și în afara acesteia, prin adaptarea la realitatea politică având în vedere integritatea și interesele cetățenilor.</td><td>Ia inițiativa pentru a adapta sau a ajusta proceduri, politici, reglementări care au impact asupra interesului cetățenilor;Identifică momentul în care anumite probleme trebuie redirectionate către alte autorități și semnalează acest fapt funcționarilor potriviți;Oferă îndrumare cu privire la relațiile dintre funcții, rolurile și responsabilitățile funcției publice și ale sectorului public;Dezvoltă și menține relații interinstituționale profesionale;Își utilizează cunoștințele dobândite în materia culturii instituționale în procesul decizional și înțelege profund impactul și implicațiile deciziilor sale;Înțelege în mod profund punctele sensibile existente la nivel instituțional și al politicilor și acționează în consecință;Înțelege mediul politic, prioritățile de management, rolurile și responsabilitățile angajaților, precum și factorii externi care au impact asupra instituției;</td></tr>
+<tr><td rowspan="2"></td><td></td><td></td><td></td><td></td><td>Adaptează abordările personale pentru a exercita o influență optimă, ținând cont de atitudinile angajaților față de putere și politică;Acționează cu preocupare pentru interesul cetățeanului și anticipează posibile consecințe pe termen lung ale acțiunilor departamentului pe care îl coordonează.</td></tr>
+<tr><td>Responsabilitate civică</td><td>Strategic</td><td>Funcții publice din categoria înalților funcționari publici</td><td>Subcompetența de a avea în vedere interesul public, asigurându-se că acțiunile instituției publice răspund nevoilor publice; alinierea obiectivelor și practicilor organizaționale cu interesele publice.</td><td>Elaborează și dezvoltă programe pentru a aborda cerințele esențiale ale comunității;Analizează în mod regulat politicile și procedurile instituției publice pentru a se asigura că acestea corespund nevoilor publice;Se asigură că toți participanții la procesul decizional înțeleg pe deplin rezultatele necesare în vederea atingerii interesului public și articulează impactul pe care calitatea serviciului, securitatea și comunicarea îl au asupra instituției publice;Cultivă relații cu părțile implicate din comunitate pentru a valida utilitatea acțiunilor și serviciilor propuse;Propune noi politici și susține modernizarea celor vechi prin includerea mai multor perspective asupra unei probleme și utilizează tehnici de prognozare pentru a testa diferite scenarii;Elaborează proiecte de politici flexibile, care au capacitatea să absoarbă și să asigure pregătirea și recuperarea pentru evenimentele neprevăzute din viitor;Acționează ținând seama de impactul și consecințele pe termen lung asupra intereselor cetățenilor.</td></tr>
+<tr><td>Integritate</td><td>-</td><td>Elementar</td><td>Funcții publice de execuție, grad profesional debutant și asistent</td><td>Competența de a acționa într-un mod cinstit, echitabil și etic față de alții; abilitatea de a</td><td>Prezintă adevărul în toate interacțiunile sale și ia atitudine pentru a proteja adevărul;Își admite greșelile și își asumă responsabilitatea pentru propriile greșeli;Recunoaște când nu poate să rezolve lucrurile;</td></tr>
+<tr><td rowspan="3"></td><td rowspan="2"></td><td></td><td></td><td rowspan="2">dovedi consecvență între declarații și fapte</td><td>• Nu promite mai mult decât poate să facă, nu este de acord cu lucruri nesigure sau care nu pot fi îndeplinite;• Păstrează și respectă confidențialitatea;• Nu se concentrează pe câștiguri personale;• Oferă informații obținute din surse de încredere, nu răspândește zvonuri sau informații false.</td></tr>
+<tr><td>Operațional</td><td>Funcții publice de execuție, grad profesional principal, superior și superior nivelurile 2-4 Funcția publică de conducere de șef serviciu și funcții publice specifice asimilate acesteia</td><td>• Acționează în conformitate cu standarde morale și etice ridicate indiferent de circumstanțe;• Își declară propriile intenții în mod clar atunci când interacționează cu alte persoane și respectă înțelegerile făcute;• Inspiră încredere, tratând toate persoanele în mod echitabil și consecvent;Nu tolerează solicitarea unor favoruri, presiunea politică sau promisiunile de câștig• Recunoaște orice neconformare cu standardele morale și etice.</td></tr>
+<tr><td>Managementul vulnerabilităților</td><td>Extins</td><td>Funcții publice de conducere de: Director general/director general adjunct, Director/director adjunct, Director executiv/director executiv adjunct și funcții publice specifice asimilate acestora</td><td>Subcompetența de a gestiona și a reduce sursele de vulnerabilitate din cadrul instituției publice, de a crea un mediu de lucru bazat pe finalte standarde etice și cultură care cultivă protejarea acestor standarde</td><td>• Discută potențialele probleme etice cu angajații și reacționează în mod corespunzător;• Cercetează problemele și aplică măsuri corective, după caz;• Se ocupă de problemele legate de comportamentul angajaților în mod confidențial și respectuos;• Promovează și susține în mod activ măsurile etice, prin exemplu personal, în cadrul unității și în relația cu cetățenii;• Ia măsuri proactive pentru a împiedica expunerea instituției publice la riscuri de integritate sau care afectează imaginea instituției publice;• Ia măsuri prompt și eficient pentru a gestiona comportamentele neprofesioniste sau neetice;• Nu tolerează solicitarea unor favoruri, presiunea politică sau promisiunile de câștig;</td></tr>
+</tbody>
+</table>
+
+Funcții publice din + Inspiră încredere, recunoscându-și propriile preșeli și categoria înalților [asumându-și responsabilitatea pentru propriile acțiuni. funcționari publici
+
+d. Categorie de competențe generale abilități- abilități manageriale
+
+Competență Subcompetență |Nivelul deCategoria deDescriptor Indicatori comportamentali generală complexitate [funcții publice al competențeicăreia i se aplică generale Managementul Operațional [Funcții publice deCompetența generală deFormulează și propune indicatori de calitate pentru calității execuție, grada asigura calitateaactivitatea sa și a colegilor profesional lucrărilor și a serviciilonPropune acțiuni și planuri corespunzătoare pentru superior nivelurilepublice igurarea unui nivel adecvat de calitate pentru activitățile 2-4 esfășurate în cadrul compartimentului funcțional în carei și desfășoară activitatea efinește rezultate specifice anticipate în raport cu igurarea nivelului adecvat de calitate pentru activitatea ompartimentului funcțional în care își desfășoară ctivitatea Managementul performanței conducere de șefa susține angajații sărealiste și termene de realizare, la nivelul structurii;
+
+serviciu și funcțiiobțină rezultate într-un Stabilește acțiuni și planuri corespunzătoare pentru publice specificemod consecvent cufrealizarea obiectivelor structurii;
+
+Armonizează obiectivele individuale și obiectivele chipei/structurii cu prioritățile instituției publice; Definește rezultate specifice anticipate pentru fiecare ctivitate din punct de vedere al obiectivelor și ndicatorilor de performanță;
+
+asimilate acesteia obiectivele instituție publice.
+
+Aceasta includ definirea explicită obiectivelor structurii, rezultatelor preconizate
+
+Operațional [Funcția publică deCompetența generală Stabilește obiective specifice și măsurabile care sunt
+
+<table>
+<tbody>
+<tr><td rowspan="2"></td><td></td><td></td><td></td><td>responsabilizarea și motivarea personalului să obțină rezultate, monitorizarea și individuală pentru a permite perfecționarea individuală; Oferă de îndată feedback de performanță specific, atât pozitiv, cât și pentru implementarea unor ajustări; Creează condiții care permit echipei/personalului coordonat/din subordine să aibă cea mai bună performanță profesională posibilă; Evaluează obiectiv performanța individuală și performanța echipei; Acționează cu fermitate și promptitudine pentru a corecta problemele de performanță profesională; Solicită angajaților/ personalului coordonat/din subordine să-și asume răspunderea pentru propria lor activitate; Recunoaște și apreciază angajații/ personalul coordonat/din subordine pentru realizările și performanța profesională individuală.</td><td>• Informează periodic echipa/personalul coordonat/din subordine cu privire la performanța profesională dorită; Oferă feedback privind performanța profesională individuală pentru a permite perfecționarea individuală; Oferă de îndată feedback de performanță specific, atât pozitiv, cât și pentru implementarea unor ajustări; Creează condiții care permit echipei/personalului coordonat/din subordine să aibă cea mai bună performanță profesională posibilă; Evaluează obiectiv performanța individuală și performanța echipei; Acționează cu fermitate și promptitudine pentru a corecta problemele de performanță profesională; Solicită angajaților/ personalului coordonat/din subordine să-și asume răspunderea pentru propria lor activitate; Recunoaște și apreciază angajații/ personalul coordonat/din subordine pentru realizările și performanța profesională individuală.</td></tr>
+<tr><td>Managementul resurselor și al proceselor</td><td>Extins</td><td>Funcții publice de conducere de: Director general/director general adjunct, Director/director adjunct, Director executiv/director executiv adjunct și funcții publice specifice asimilate acestora</td><td>Subcompetența de a gestiona eficient toate resursele disponibile ale instituției publice pentru a realiza obiectivele stabilite.</td><td>• Formulează propuneri privind obiectivele instituției publice; Definește rezultatele anticipate la nivel instituțional, corespunzătoare obiectivelor instituției publice și principalelor programe sau proiecte, precizând și rezultate specifice și indicatori de performanță; Armonizează obiectivele echipei cu prioritățile instituției publice și formulează propuneri pentru corelarea cu prioritățile programului de guvernare și ale strategilor în vigoare și cu prioritățile sociale;</td></tr>
+<tr><td></td><td></td><td></td><td>Funcții publice din categoria înalților funcționari publici</td><td></td><td>· Informează periodic personalul cu privire la modul în care performanța lor influențează rezultatele instituției publice și societatea;· Susține structurile pe care le conduce sau, după caz, și alte structuri în eforturile acestora de a-și realiza obiectivele;· Evaluatează performanța în mod obiectiv la toate nivelurile instituționale pentru care are atribuții;· Formulează puncte de vedere și propuneri privind problemele de performanță instituțională pe care le identifică, în vederea soluționării acestora;· Asigură conducerea în managementul eficient al resurselor instituției;· Creează un mediu de lucru care cultivă procese și sisteme eficiente și eficace, inclusiv prin reproiectarea acestora, a structurii și/sau a operațiunilor, pentru a îndeplini mai bine obiectivele pe termen lung;· Utilizează oportunitățile de finanțare apărute pentru a echilibra resursele autorității/instituției publice;· Știe cum și când să influențeze elaborarea unor politici pentru a utiliza resursele limitate pentru atingerea obiectivelor și realizarea rezultatelor.· Își impune să fie răspunzător pentru realizarea obiectivelor și solicită acest lucru și altora.</td></tr>
+<tr><td>Dezvoltarea echipei</td><td>-</td><td>Operațional</td><td>Funcția publică de conducere de șefa dezvolta un mediu de serviciu și funcțiilucru colaborativ și publice specifice asimilate acesteia</td><td>Competența generală de productiv, de a îmbunătăți competențele echipei pentru a obține</td><td>· Creează condițiile pentru a permite echipei pe care o coordonează să aibă cea mai bună performanță posibilă;· Oferă un bun exemplu, aplicând personal comportamentul dorit;· Exprimă atitudini și așteptări pozitive față de/de la echipă și membrii echipei/personalul coordonat/din subirdine;</td></tr>
+<tr><td></td><td></td><td></td><td>Director general/director general adjunct, Director/director adjunct, Director executiv/director executiv adjunct și funcții publice specifice asimilate acestora Funcții publice din categoria înalților funcționari publici</td><td>performanță pe termen lung.</td><td>Solicită idei și opinii pentru a ajuta la luarea deciziilor și elaborarea de planuri specifice; Susține gândirea independentă pentru a rezolva problemele; Definește succesul ca realizare a întregii echipe; Oferă personalului coordonat/din subordinate feedback util cu privire la comportamente; Alocă membrilor echipei pe care o coordonează sarcini care îi vor ajuta să-și dezvolte abilitățile; Are întâlniri periodice cu angajații/personalul coordonat/din subordinate pentru a le analiza progresul în ceea ce privește dezvoltarea profesională și personală; Sprijină colegii în identificarea obiectivelor esențiale și pentru a-și utiliza talentele în vederea realizării obiectivelor; Recunoaște potențialul și punctele forte ale altor persoane și ia măsuri pentru a le dezvolta; Oferă membrilor structurii pe care o coordonează opportunitatea de a manifesta noi competențe; Încurajează comunicarea deschisă și soluționarea problemelor între membrii structurii pe care o coordonează; Facilitează transferul de cunoștințe la locul de muncă, în condițiile legii.</td></tr>
+</tbody>
+</table>
+
+e. Categorie de competențe generale leadership
+
+| Competență generală | Subcompetență | Nivelul de complexitate al competenței generale | Categoria de funcții publice căreia i se aplică | Descriptor | Indicatori comportamentali |
+| --- | --- | --- | --- | --- | --- |
+| Generarea angajamentului | - | Operațional | Funcții publice de conducere de:Director general/director general adjunct,Director/director adjunct,Director executiv/director executiv adjunct și funcții publice specifice asimilate acestora Funcții publice din categoria înalților funcționari publici | Competență generală de a conduce instituția publică către realizarea obiectivelor prin crearea unui mediu de lucru în care angajațiipe membrii structurii pe care o coordonează sunt motivați să atingă inivele superioare de performanță. | Explică logica măsurilor și acțiunilor prin prezentarea perspectiveelor strategice, ajutând personalul pe care îl coordonează/din subordine să îmbine în mod armonios ceea ce este important pentru ei cu activitatea desfășurată;Proiectează fluxurile de lucru, permițându- i personalului pe care îl coordonează/din subordine să înregistreze o performanță la cel mai bun nivel de autonomie și competență pe care îl au;Creează un mediu în care personalul pe care îl coordonează/din subordine poate să se dezvolte, să-și dezvolte aptitudinile și să-și realizeze obiectivele profesionale;Motivează personalul pe care îl coordonează/din subordine pentru îndeplinirea obiectivelor comune, creând atmosferă destinsă la nivelul echipei;Laudă și recompensează performanța ridicată, inițiativa și respectarea principiilor etice în circumstanțe dificile;Prezintă personalului pe care îl coordonează/din subordine modul în care munca acestuia contribuie la succesul instituției publice sau la atingerea interesului public;Demonstrează o dedicare puternică față de succesul instituției publice și îi inspiră pe alții să se dedice obiectivelor; |
+
+*Documentul are 97 de pagini; am citit primele 40.*

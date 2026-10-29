@@ -1,0 +1,201 @@
+# LEGE
+
+# privind modificarea și completarea Legii nr. 266/2008 farmaciei
+
+## Parlamentul României adoptă prezenta lege.
+
+Art. I. - Legea nr. 266/2008 farmaciei, republicată în Monitorul Oficial al României, Partea I, nr. 85 din 2 februarie 2015, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+## 1.Articolul 7 se modifică și va avea următorul cuprins :
+
+„Art. 7 - Farmaciile comunitare sunt conduse de un farmacist-șef care își exercită profesia pentru o normă întreagă cu durata timpului de lucru de 8 ore. Poate fi farmacist-șef, farmacistul care deține certificat de membru al Colegiului Farmaciștilor din România, emis în condițiile legii, însoțit de certificatul profesional curent.”
+
+## 2. Articolul 10 se modifică și va avea următorul cuprins:
+
+„(1) Autorizația de funcționare prevăzută la art. 8 alin. (1) se acordă pe denumirea persoanei juridice, cu înscrierea datelor de identificare ale societății și numele farmacistului-șef de farmacie de către Ministerul Sănătății. Autorizarea activităților opționale de receptură/laborator și vânzare online se înscrie prin mențiune.
+
+(2) Pentru obținerea autorizației de funcționare prevăzute la art. 8 alin. (1), solicitantul are obligația să se înregistreze pe platforma informatică dezvoltată de Ministerul Sănătății, în colaborare cu Serviciul de Telecomunicații Speciale, în cadrul proiectului finanțat prin Planul Național de Redresare și Reziliență, denumită în continuare platforma.
+
+(3) Înregistrarea pe platformă se realizează de către reprezentantul legal al societății sau împuternicitul acestuia, prin accesarea link-ului dedicat, publicat pe site-ul Ministerului Sănătății, în format electronic.
+
+(4) În cadrul platformei, accesul reprezentantului legal sau împuternicitului acestuia la datele societății, este condiționat de validarea prealabilă a identității și calității de reprezentant legal sau împuternicit al societății, care se realizează prin următoarele etape cumulative:
+
+a) persoana solicitantă completează datele de identificare personală și încarcă în platformă o declarație pe proprie răspundere, al cărei conținut și format se stabilesc prin norme, prin care își asumă identitatea declarată și calitatea de reprezentant legal sau împuternicit al societății pentru care solicită accesul;
+
+b) declarația prevăzută la lit. a) se semnează cu semnătura electronică, în condițiile stabilite prin norme;
+
+c) Ministerul Sănătății verifică datele declarate prin interogarea automată, prin interoperabilitate, a sistemelor informatice ale Direcției Generale pentru Evidența Persoanelor sau, după caz, ale Inspectoratului General pentru Imigrări, ale Ministerului Afacerilor Interne și ale Oficiului Național al Registrului Comerțului;
+
+d) Ministerul Sănătății aprobă sau respinge motivat accesul, în termenul și condițiile stabilite prin norme.
+
+(5) Datele oricărei persoane fizice înregistrate în platformă, indiferent de calitate (reprezentant legal, împuternicit, farmacist-șef, personal de specialitate) și de momentul înregistrării, se verifică prin interogarea sistemelor informatice ale Direcției Generale pentru Evidența Persoanelor sau, după caz, ale Inspectoratului General pentru Imigrări, în condițiile stabilite prin norme.
+
+(6) După validarea și înregistrarea reprezentantului legal sau a împuternicitului acestuia, în vederea obținerii autorizației de funcționare prevăzute la art. 8 alin. (1), solicitantul completează formularul electronic disponibil în platformă, în condițiile reglementate prin norme.
+
+(7) Formularul electronic prevăzut la alin. (6) cuprinde:
+
+a) date și informații preluate automat de platformă, prin interoperabilitate, din sistemele informatice ale instituțiilor publice, potrivit alin. (8);
+
+b) documente încărcate de solicitant, potrivit alin. (9).
+
+(8) Condițiile prevăzute la art. 6 și art. 7 se verifică prin interogarea sistemelor puse la dispoziție de Oficiul Național al Registrului Comerțului, de Inspecția Muncii, Ministerul Afacerilor Interne și de Colegiul Farmaciștilor din România, și preluarea automată a informațiilor în formularul electronic, fără a fi necesară depunerea de către solicitant a documentelor justificative aferente. Acestea includ:
+
+a) datele personale (numele, prenumele, CNP, data nașterii) ale reprezentantului legal sau ale împuternicitului acestuia;
+
+b) adresa sediului social și/sau a punctului de lucru pentru care se solicită autorizarea, după caz;
+
+c) codurile CAEN aferente activităților autorizate la adresa punctului de lucru pentru care se solicită autorizarea, respectiv a sediului social cu activitate, după caz;
+
+d) starea de funcțiune activă a punctului de lucru pentru care se solicită autorizarea, respectiv a sediului social cu activitate, după caz;
+
+e) tipul contractului și norma de muncă a farmacistului șef;
+
+f) datele extrase din certificatul de membru al Colegiului Farmaciștilor din România al farmacistului-șef și al certificatului profesional curent.
+
+(9) În cadrul formularului prevăzut la alin. (6), solicitantul are obligația de a încărca în platformă, următoarele documente:
+
+a) fișele de atribuții ale farmaciștilor, avizate de Colegiul Farmaciștilor din România:
+
+b) schița spațiului în care sunt evidențiate suprafețele încăperilor, întocmită și asumată prin semnătură de către o persoană autorizată potrivit legii și certificată de reprezentantul legal al solicitantului, care răspunde pentru conformitatea documentației cu situația reală a spațiului;
+
+c) dovada încadrării în prevederile art. 12 alin. (1), în cazul solicitării de înființare a farmaciei în mediul urban;
+
+d) dovada exercitării profesiei în formă liberală, exclusiv pentru situația în care farmacistul-șef nu deține contract individual de muncă și informațiile nu pot fi preluate automat prin interogarea datelor de la Inspectția Muncii;
+
+e) dovada achitării taxei prevăzute la art. 42.
+
+(10) După completarea și validarea formularului prevăzut la alin. (6), solicitantul descarcă din platformă cererea de autorizare generată automat, o semnează cu semnătura electronică, în condițiile stabilite prin norme, și o reîncarcă în platformă. Cererea este semnată de reprezentantul legal/împuternicit și de farmacistul-șef și constituie documentul prin care solicitantul își asumă conformitatea datelor declarate.
+
+(11) În termen de maximum 30 de zile calendaristice de la data validării formularului prevăzut la alin. (6) de către Ministerul Sănătății, personalul împuternicit din cadrul direcțiilor de sănătate publică județene, respectiv a Municipiului București, dispune efectuarea inspecției, efectuează inspecția în vederea autorizării și întocmește, prin intermediul platformei, raportul de inspecție de verificare a conformității spațiului unității farmaceutice și emite decizia de conformitate sau de neconformitate pentru spațiul unității farmaceutice, în condițiile stabilite prin norme.
+
+(12) În situația în care formularul prevăzut la alin. (6) nu poate fi validat ca urmare a existenței unor informații sau documente neconforme ori incomplete privind societatea, personalul de specialitate sau orice alte elemente necesare potrivit prezentei legi, Ministerul Sănătății solicită completarea acestora, prin intermediul platformei. Solicitantul are obligația de a se conforma în termen de maximum 15 zile lucrătoare de la data comunicării solicitării. În cazul în care, după împlinirea acestui termen, documentația rămâne neconformă sau incompletă, dosarul se clasează.
+
+(13) Pe tot parcursul procesului de înregistrare, validare și completare a formularului electronic, ori de câte ori reprezentantul legal sau împuternicitul acestuia, după caz, identifică erori, omisiuni sau neconcordanțe în datele afișate în platformă, are obligația să sesizeze Ministerul Sănătății, prin intermediul platformei, în termen de maximum 5 zile lucrătoare de la data constatării neconcordanței. Procedura de soluționare a sesizărilor se soluționează în condițiile reglementate prin norme.
+
+(14) Decizia de conformitate sau neconformitate a spațiului unității farmaceutice se aprobă de către directorul executiv al direcțiilor de sănătate publică județene, respectiv a Municipiului București, pe baza raportului de inspecție întocmit de către personalul împuternicit din cadrul direcțiilor de sănătate publică județene, respectiv a municipiului București. Decizia de conformitate, însoțită de raportul de inspecție, se transmite Ministerului Sănătății, prin intermediul platformei, în termen de maximum 15 zile calendaristice de la data emiterii, în vederea eliberării autorizației de funcționare, în condițiile stabilite prin norme.
+
+(15) În cazul unei decizii de neconformitate a spațiului, însoțită de un raport de inspecție nefavorabil, inspecția se reprogramează de către direcțiile de sănătate publică județene, respectiv a municipiului București, o singură dată, în termen de maximum 30 de zile calendaristice de la data comunicării de către solicitant a remedierii deficiențelor. Autorizația de funcționare se eliberează numai în urma remedierii tuturor deficiențelor constatate, iar în cazul neremedierii acestora în termen de 30 de zile calendaristice de la comunicarea deciziei de neconformitate, personalul de specialitate din cadrul direcțiilor de sănătate publică județene, respectiv a municipiului București va emite o decizie de clasare.
+
+(16) În cazul în care la inspecția reprogramată se emite un raport de inspecție nefavorabil și o decizie de neconformitate, în termen de 15 zile calendaristice de la comunicarea acestora, solicitantul poate depune contestație la Ministerul Sănătății.
+
+(17) În termen de 5 zile calendaristice de la depunerea contestației, Ministerul Sănătății solicită direcțiilor de sănătate publică județene, respectiv a municipiului București, prin intermediul poștei electronice, întreaga documentație care a stat la baza eliberării deciziei de neconformitate a spațiului unității farmaceutice. În termen de maximum 45 de zile calendaristice de la primirea și înregistrarea documentației solicitate, Ministerul Sănătății soluționează contestația, prin verificarea documentației. În situația în care, în urma analizării documentației, Ministerul Sănătății consideră necesar, dispune efectuarea inspecției la fața locului prin personalul de specialitate, de regulă, farmacist, împuternicit, din cadrul Ministerului Sănătății. Inspecția se finalizează cu raport de inspecție. În ambele situații contestația se soluționează fie favorabil, prin eliberarea autorizației de funcționare, fie nefavorabil, prin clasarea dosarului.
+
+(18) Raportul de inspecție și decizia de soluționare a contestației vor fi comunicate atât solicitantului, cât și direcțiilor de sănătate publică județene, respectiv a municipiului București, în termen de maximum 10 zile calendaristice de la soluționare.
+
+(19) Autorizația de funcționare prevăzută la art. 8 alin. (1) se eliberează de către Ministerul Sănătății în termen de maximum 30 de zile calendaristice de la primirea deciziei de conformitate a spațiului unității farmaceutice și a raportului de inspecție, în condițiile stabilite prin norme.
+
+(20) În cazul schimbării persoanei juridice pe numele căreia a fost eliberată autorizația de funcționare prevăzută la alin. (1), Ministerul Sănătății emite o nouă autorizație de funcționare, cu păstrarea și menționarea numărului atribuit inițial, în termen de maximum 30 de zile lucrătoare de la validarea formularului prevăzut la alin. (6).
+
+(21) Orice altă modificare ulterioară a condițiilor care au stat la baza eliberării autorizației de funcționare a farmaciei comunitare se notifică Ministerului Sănătății în termen de 5 zile calendaristice de la data modificării. Modificările care implică spațiul farmaciei comunitare necesită emiterea unei noi decizii de conformitate, în condițiile stabilite prin norme.
+
+(22) Inspecțiile în vederea emiterii autorizațiilor de funcționare, mutarea punctului de lucru cu destinație de unitate farmaceutică, înființarea oficinelor comunitare rurale/sezoniere, precum și cele de reorganizare a spațiului unităților farmaceutice se efectuează de către personalul de specialitate împuternicit din cadrul direcțiilor de sănătate publică județene, respectiv a municipiului București, de regulă farmacist.”
+
+3\. La articolul 22 se introduc trei noi litere, f), g) și h), care vor avea următorul cuprins:
+
+„f) în cazul radierii persoanei juridice titulare a autorizației de funcționare;
+
+g) în cazul radierii punctului de lucru la adresa căruia este autorizată unitatea farmaceutică;
+
+h) în cazul constatării, de către personalul de specialitate împuternicit, prin inspecție la fața locului, a desființării unității farmaceutice care funcționează la adresa înscrisă în autorizația de funcționare.”
+
+## 4. La articolul 23, alineatele (2) și (3), se modifică și vor avea următorul cuprins:
+
+„(2) Drogheria este condusă de un farmacist-șef sau de un asistent medical de farmacie șef, care își exercită profesia pentru o normă întreagă cu durata timpului de lucru de 8 ore.
+
+(3) Poate fi farmacist-șef sau asistent medical de farmacie șef, în condițiile alin. (2), farmacistul care deține certificat de membru al Colegiului Farmaciștilor din România, emis în condițiile legii, însoțit de certificatul profesional curent, sau asistentul medical de farmacie cu drept de liberă practică, membru al Ordinului Asistenților Medicali Generaliști, Moașelor și Asistenților Medicali din România.”
+
+## 5.Articolul 24 se modifică și va avea următorul cuprins:
+
+„(1) Autorizația de funcționare a drogheriei se emite de Ministerul Sănătății pe denumirea persoanei juridice și numele farmacistului-șef sau al asistentului medical de farmacie șef;
+
+(2) Pentru obținerea autorizației de funcționare prevăzute la art. 24 alin. (1), se urmează procedura de înregistrare pe platforma prevăzută la art.10, alin (2) și (3);
+
+(3) Accesul la datele societății si validarea identității reprezentantului legal sau împuternicitului acestuia se realizează conform prevederilor prevăzute la art. 10 alin. (4), în condițiile reglementate prin norme.
+
+(4) Condițiile prevăzute la art. 23, se verifică prin interogarea sistemelor puse la dispoziție de Oficiul Național al Registrului Comerțului, de Inspecția Muncii și de Colegiul Farmaciștilor din România, Ordinului Asistenților Medicali Generaliști, Moașelor și Asistenților Medicali din România și preluarea automată a informațiilor în formularul electronic, fără a fi necesară depunerea de către solicitant a documentelor justificative aferente. Acestea includ:
+
+a) date personale (numele, prenumele, CNP, data nașterii) ale reprezentantului legal sau ale împuternicitului acestuia;
+
+b) adresa sediului social și a punctului de lucru pentru care se solicită autorizarea;
+
+c) codurile CAEN aferente activităților autorizate la adresa punctului de lucru pentru care se solicită autorizarea, respectiv a sediului social cu activitate, după caz;
+
+d) starea de funcțiune activă a punctului de lucru pentru care se solicită autorizarea, respectiv a sediului social cu activitate, după caz;
+
+e) tipul contractului și norma de muncă a farmacistului șef / asistentului medical de farmacie șef;
+
+f) datele extrase din certificatul de membru al Colegiului Farmaciștilor din România și din certificatul profesional curent pentru farmacistului-șef, sau din avizul anual pentru autorizarea exercitării profesiei în regim salarial și a certificatului de membru a Ordinului Asistenților Medicali Generaliști, Moașelor și Asistenților Medicali din România pentru asistentul medical de farmacie șef.
+
+(5) În cadrul formularului electronic, solicitantul are obligația de a încărca în platformă, în format electronic, următoarele documente:
+
+a) schița spațiului în care sunt evidențiate suprafețele încăperilor, întocmită și asumată prin semnătură de către o persoană autorizată potrivit legii și certificată de reprezentantul legal al solicitantului, care răspunde pentru conformitatea documentației cu situația reală a spațiului;
+
+b) dovada exercitării profesiei în formă liberală, exclusiv pentru situația în care farmacistul-șef nu deține contract individual de muncă și informațiile nu pot fi preluate automat prin interogarea datelor de la Inspectția Muncii;
+
+c) dovada achitării taxei prevăzute la art. 42.
+
+(6) În situația în care formularul electronic nu poate fi validat ca urmare a existenței unor informații sau documente neconforme ori incomplete privind societatea, personalul de specialitate sau orice alte elemente necesare potrivit prezentei legi, Ministerul Sănătății solicită completarea acestora, prin intermediul platformei. Solicitantul are obligația de a se conforma în termen de maximum 15 zile lucrătoare de la data comunicării solicitării. În cazul în care, după împlinirea acestui termen, documentația rămâne neconformă sau incompletă, dosarul se clasează.
+
+(7) Prevederile referitoare la procedura de inspecție, contestație și eliberare autorizație de funcționare a drogheriilor se aplică, în mod corespunzător, conform art. 10 alin. (11) - (18).
+
+(8) Autorizația de funcționare prevăzută la art.: 24 alin. (1) se eliberează de către Ministerul Sănătății în termen de maximum 30 de zile calendaristice de la primirea deciziei de conformitate a spațiului unității farmaceutice și a raportului de inspecție, în condițiile stabilite prin norme.
+
+(9) În cazul schimbării persoanei juridice pe numele căreia a fost eliberată autorizația de funcționare prevăzută la alin. (1), Ministerul Sănătății emite o nouă autorizație de funcționare, cu păstrarea și menționarea numărului atribuit inițial, în termen de maximum 30 de zile lucrătoare de la validarea formularului electronic.
+
+(10) Orice altă modificare ulterioară a condițiilor care au stat la baza eliberării autorizației de funcționare a drogheriei se notifică Ministerului Sănătății în termen' de 5 zile calendaristice de la data modificării.
+
+(11) Activitatea drogheriei se desfășoară în conformitate cu Regulile de bună practică farmaceutică, elaborate de Ministerul Sănătății și aprobate prin ordin al ministrului sănătății.
+
+(12) În termen de 30 de zile de la emiterea autorizației de funcționare, farmacistul-șef, respectiv asistentul medical de farmacie-șef al drogheriei nou-autorizate este obligat să solicite Colegiului Farmaciștilor din România, respectiv colegiilor territoriale efectuarea inspecției în vederea obținerii certificatului de Reguli de bună practică farmaceutică.”
+
+## 6. După articolul 31, se introduce un nou articol, articolul 31^1, care va avea următorul cuprins:
+
+„Art. 31^1 - (1) În cadrul activității de supraveghere și control, Ministerul Sănătății, direcțiile de sănătate publică județene, respectiv a municipiului București și Agenția Națională a Medicamentului și a Dispozitivelor Medicale din România, verifică menținerea condițiilor care au stat la baza eliberării autorizației de funcționare a unităților farmaceutice, precum și îndeplinirea obligațiilor prevăzute de prezenta lege.
+
+(2) Verificările prevăzute la alin. (1) se realizează prin controale la fața locului și/sau prin interogarea, prin interoperabilitate, a datelor actualizate din sistemele informatice ale instituțiilor și autorităților publice, preluate în platforma informatică prevăzută la art. 10 alin. (2), în condițiile legii.
+
+(3) Constatarea contravențiilor și aplicarea sancțiunilor prevăzute la cap. V se pot efectua, în condițiile legii și pe baza datelor și informațiilor rezultate din interoperabilitate, de către personalul de specialitate împuternicit competent potrivit art. 39. Înainte de aplicarea sancțiunilor pe baza exclusivă a datelor rezultate din interoperabilitate, deținătorul autorizației de funcționare este notificat prin platformă de către Ministerul Sănătății și are dreptul de a contesta datele în termen de 10 zile lucrătoare de la notoficare. Procedura de contestare a datelor se stabilește prin norme.
+
+(4) Ministerul Sănătății verifică periodic, prin interoperabilitate, actualizările intervenite în sistemele informatice ale Oficiului Național al Registrului Comerțului, ale Direcției Generale pentru Evidența Persoanelor sau, după caz, ale Inspectoratului General pentru Imigrări, ale Inspecției Muncii, ale Colegiului Farmaciștilor din România și ale Ordinului Asistenților Medicali Generaliști, Moașelor și Asistenților Medicali din România, cu privire la datele care au stat la baza emiterii autorizațiilor de funcționare. Frecvența și procedura verificărilor periodice se stabilesc prin norme.
+
+(5) În cazul în care, în urma verificărilor prevăzute la alin. (4), se constată neconcordanțe sau incompatibilități în raport cu condițiile care au stat la baza emiterii autorizației de funcționare, Ministerul Sănătății notifică, prin intermediul platformei, deținătorul autorizației, care are obligația de a remedia situația sau de a transmite documentele justificative corespunzătoare în termen de maximum 30 de zile calendaristice. În lipsa remedierii situației sau a transmitterii documentelor în acest termen, Ministerul Sănătății dispune suspendarea autorizației de funcționare până la data remedierii. Procedura de notificare, de remediere și de anulare a suspendării se stabilește prin norme.”
+
+## 7. La Articolul 39, alineatul (1) se modifică și va avea următorul cuprins:
+
+„ (1) Constatarea faptelor ce constituie contravenții și aplicarea sancțiunilor se realizează de către personalul de specialitate împuternicit din cadrul Ministerului Sănătății, respectiv din cadrul direcțiilor de sănătate publică județene și a municipiului București și Agenției Naționale a Medicamentului și a Dispozitivelor Medicale din România.”
+
+## Art. II. Dispoziții tranzitorii
+
+(1) Persoanele juridice și după caz, unitățile sanitare care dețin, la data intrării în vigoare a prezentei legi, autorizații de funcționare pentru unități farmaceutice, au obligația ca în termen de 30 de zile lucrătoare de la această dată, să se înroleze și să finalizeze înrolarea în platforma prevăzută la art. 1 0 alin. (2), precum și să valideze datele și informațiile referitoare la unitățile farmaceutice deținute, preluate automat și încărcate de Ministerul Sănătății din evidențele proprii.
+
+(2) În termen de maximum 5 zile lucrătoare de la data intrării în vigoare a prezentei legi, Ministerul Sănătății încarcă în platformă, pentru fiecare unitate farmaceutică autorizată, următoarele date din evidentele proprii: numărul și data autorizației de funcționare; tipul unității farmaceutice; datele de identificare ale persoanei juridice titulare; adresa punctului de lucru autorizat; datele de identificare ale farmacistului-șef; statutul autorizației.
+
+(3) Ministerul Sănătății publică pe site-ul propriu, într-o secțiune dedicată procedura prevăzută la alin. (2), precum și data de la care începe să curgă termenul prevăzut la același alineat.
+
+(4) După finalizarea procedurii de validare a identității prevăzute la art. 10 alin. (4), se efectuează următoarele operațiuni:
+
+a) asocierea fiecărei autorizații de funcționare cu punctul de lucru corespondent din evidența Oficiului Național al Registrului Comerțului, prin selectarea punctului de lucru activ al societății disponibil în platformă prin interoperabilitate cu ONRC;
+
+b) verificarea și, după caz, corectarea datelor farmacistului-șef, preluate prin interoperabilitate din sistemele Colegiului Farmaciștilor din România și ale Inspecției Muncii;
+
+c) semnalarea prin platformă a oricăror omisiuni, erori sau neconcordanțe constatate în datele preîncărcate, în termen de maximum 5 zile lucrătoare de la constatarea acestora;
+
+d) confirmarea finală a datelor validate prin semnarea electronică a unui document de asumare, al cărui conținut se stabilește prin norme.
+
+(5) În cazul în care o autorizație de funcționare nu poate fi asociată cu niciun punct de lucru activ din evidența ONRC la adresa autorizată, reprezentantul legal are obligația de a semnala această situație în platformă în termenul prevăzut la alin. (4) lit. c). Ministerul Sănătății analizează situațiile semnalate și, în condițiile stabilite prin norme, după caz, solicită clarificări, dispune suspendarea sau inițiază procedura de anulare a autorizației de funcționare, conform art. 22.
+
+(6) În cazul neîndeplinirii obligației prevăzute la alin. (1), unitatea farmaceutică nu este preluată în evidențele electronice ale Ministerului Sănătății și nu este publicată pe site-ul Ministerului Sănătății, în lista unităților farmaceutice autorizate, iar societățile deținătoare de autorizații de funcționare nu pot încheia sau prelungi contracte cu casele de asigurări de sănătate privind furnizarea de servicii farmaceutice, iar contractele aflate în derulare se suspendă de drept până la îndeplinirea obligației prevăzute la alin. (1).”
+
+Art. III. Cererile de autorizare/modificare ulterioară a condițiilor care au stat la baza autorizării, înregistrate la Ministerul Sănătății, la data intrării în vigoare a prezentei legi, se soluționează, conform dispozițiilor legale în vigoare la data depunerii solicitării.
+
+Art. IV. În termen de 60 de zile de la data intrării în vigoare a prezentei legi, ordinul ministrului sănătății nr. 444/2019 pentru aprobarea Normelor privind înființarea, organizarea și funcționarea unităților farmaceutice, se modifică și se completează în concordanță cu modificările aduse prin prezenta lege.
+
+Art. V. Prevederile prezentei legi intră în vigoare la 3 zile de la data publicării în Monitorul Oficial al României, Partea I.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+PREȘEDINTELE
+
+SENATULUI

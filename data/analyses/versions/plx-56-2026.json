@@ -1,0 +1,127 @@
+{
+  "slug": "plx-56-2026",
+  "billId": "Pl-x 56/2026",
+  "updatedAt": "2026-10-29T13:59:06.477Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/000/50/6/pl42.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Statul poate finanța ONG-urile pe până la 4 ani, nu doar pe câte un an",
+      "summaryTlDr": "Lege utilă, cerută de mult de societatea civilă: autoritățile pot semna finanțări pe până la 4 ani în loc să reia concursul în fiecare an. Riscurile țin de redactare și de lipsa unui plafon și a unor criterii care să împiedice blocarea banilor cu aceiași beneficiari.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl056_cd_plx_56_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "ONG-urile pot primi bani publici pe până la 4 ani, nu doar pe câte un an",
+      "summaryTlDr": "Lege utilă și tehnică: ONG-urile nu mai trebuie să o ia de la zero în fiecare ianuarie, iar banii rămân condiționați anual de rapoarte și de buget. Problema e ce lipsește: niciun plafon nu împiedică o autoritate să blocheze 4 ani tot bugetul unui program la aceiași beneficiari, după o singură selecție.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a adoptat proiectul fără schimbări de fond, doar cu corecturi de redactare",
+      "summary": "Camera a păstrat conținutul formei inițiatorului: finanțare multianuală de până la 4 ani, cu o singură selecție publică. S-au corectat doar redactarea, ghilimelele și formula de adoptare, așa că riscurile semnalate inițial rămân aceleași.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "O singură selecție publică pentru până la 4 ani reduce accesul organizațiilor noi",
+            "major": true,
+            "article": "art. 13¹ alin. (3)"
+          },
+          {
+            "text": "Legea nu limitează ce parte din fondurile programului se angajează multianual",
+            "major": true,
+            "article": "art. 13¹"
+          },
+          {
+            "text": "Edițiile anuale ale proiectelor de același tip, definite vag, scapă de concursul anual",
+            "major": true,
+            "article": "art. 2 lit. k) pct. (ii)"
+          },
+          {
+            "text": "Aprobarea rapoartelor nu are criterii, termen de răspuns sau obligație de motivare",
+            "major": true,
+            "article": "art. 13¹ alin. (5)"
+          },
+          {
+            "text": "Lipsa creditelor bugetare poate opri finanțarea fără preaviz; riscul rămâne la beneficiar",
+            "major": true,
+            "article": "art. 13¹ alin. (5)"
+          },
+          {
+            "text": "Declarația pe propria răspundere se dă o dată, fără obligație de actualizare",
+            "major": false,
+            "article": "art. 12 alin. (4)"
+          },
+          {
+            "text": "Cheltuielile pot fi contractate oricând în acord, estompând separarea anilor bugetari",
+            "major": false,
+            "article": "art. 13"
+          }
+        ],
+        "good": [
+          {
+            "text": "Finanțare multianuală de până la 4 ani, cu suma totală aprobată de la început",
+            "major": true,
+            "article": "art. 13¹ alin. (2) și (4)"
+          },
+          {
+            "text": "Plăți în tranșe și în avans posibile și în acordurile multianuale",
+            "major": true,
+            "article": "art. 37 alin. (1)"
+          },
+          {
+            "text": "Banii se alocă anual, în limita creditelor de angajament, conform Legilor 500/2002 și 273/2006",
+            "major": false,
+            "article": "art. 13¹ alin. (4) și (6)"
+          },
+          {
+            "text": "Selecția rămâne publică, după procedura prevăzută deja de lege",
+            "major": false,
+            "article": "art. 13¹ alin. (3)"
+          },
+          {
+            "text": "Rapoarte anuale de progres și financiare obligatorii, până la 31 ianuarie",
+            "major": false,
+            "article": "art. 13¹ alin. (5)"
+          },
+          {
+            "text": "Noile reguli se aplică doar procedurilor inițiate după intrarea în vigoare",
+            "major": false,
+            "article": "art. II alin. (2)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 13,
+        "removed": 12,
+        "same": 0.46
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:48:48.577Z"
+    }
+  ]
+}

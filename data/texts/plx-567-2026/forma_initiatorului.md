@@ -1,0 +1,79 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENATUL
+
+## LEGE
+
+pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 155/2001 privind aprobarea programului de gestionare a câinilor fără stăpân :
+
+Parlamentul României adoptă prezenta lege.
+
+## Articol unic
+
+Ordonanța de urgență a Guvernului nr. 155/2001 privind aprobarea programului de gestionare a câinilor fără stăpân, publicată în Monitorul Oficial al României, Partea I, nr. 794 din 13 decembrie 2001, cu modificările și completările ulterioare, se completează după cum urmează:
+
+1\. Articolul 11 se modifică și va avea următorul cuprins:
+
+## „Art. 11
+
+(1) Acțiunile de capturare, adăpostire, deparazitare, vaccinare, sterilizare, revendicare/adopție se realizează cu respectarea normelor și măsurilor sanitar-veterinare referitoare la protecția animalelor, iar la acestea vor participa și reprezentanți ai asociațiilor și fundațiilor pentru protecția animalelor.
+
+(2) Se instituie Mecanismul de monitorizare independentă a adăposturilor pentru câinii fără stăpân, publice sau private, prin acordarea dreptului organizațiilor neguvernamentale acreditate în domeniul protecției animalelor de a organiza vizite inopinate de monitorizare. Organizațiile neguvernamentale participante în Mecanismul de monitorizare independentă a adăposturilor pentru câinii fără stăpân, publice sau private, vor fi acreditate de Autoritatea
+
+Națională Sanitară Veterinară și pentru Siguranța Alimentelor, în baza criteriilor stabilite prin ordin, dacă acestea solicită acest lucru, în termen de 30 de zile de la înregistrarea cererii.
+
+(3) Reprezentații asociațiilor și fundațiilor pentru protecția animalelor vor participa la acțiunile prevăzute la alin. (1), atât în cadrul adăposturilor publice din cadrul serviciilor specializate pentru gestionarea câinilor fără stăpân, cât și în cadrul adăposturilor private care sunt în parteneriat cu consiliile locale.
+
+(4) Accesul reprezentanților prevăzuți la alin. (1) și (2) nu poate fi îngrădit sau condiționat, cu excepția situațiilor justificate de respectarea normelor de biosecuritate sau de protecție sanitar-veterinară. În acest caz, refuzul se va comunica în scris organizațiilor neguvernamentale și va fi trimis în copie și la Autoritatea Națională Sanitară Veterinară și pentru Siguranța Alimentelor.”
+
+2\. După articolul 13⁶ se introduce un nou articol, articolul 13⁷, cu următorul cuprins:
+
+„Art. 13⁷ – (1) În cadrul activităților de capturare, adăpostire, deparazitare, vaccinare, sterilizare, revendicare/adopție sau orice altă activitate care implică câinii fără stăpân, personalul operatorilor serviciilor pentru gestionare a animalelor are obligația de a purta și utiliza, pe întreaga durată a intervenției, dispositive individuale de înregistrare audio-video de tip bodycam.
+
+(2) Dispozitivele prevăzute la alin. (1) trebuie să asigure înregistrarea continuă, neîntreruptă și fidelă a imaginilor aferente procedurilor de capturare, manipulare, tranchilizare, încărcare și transport al animalelor.
+
+(3) Înregistrările audio-video realizate potrivit alin. (1) și (2) se păstrează în condiții de securitate pentru o perioadă minimă de 120 de zile și pot fi puse la dispoziția autorităților competente, la solicitarea acestora, în vederea verificării respectării legislației privind protecția animalelor.
+
+(4) Neutilizarea dispositivelor prevăzute la alin. (1) constituie contravenție și se sancționează potrivit art. 14."
+
+3\. După articolul 13⁷ se introduce un nou articol, articolul 13⁸, cu următorul cuprins:
+
+„Art. 13⁸ – (1) Adăposturile pentru câinii fără stăpân, publice sau private, au obligația de a fi dotate cu sisteme de supraveghere video funcționale, care să asigure monitorizarea continuă a următoarelor spații:
+
+a) căile de acces în adăpost;
+
+b) spațiile de cazare a animalelor;
+
+c) zonele de manipulare, tratament și transport intern al animalelor;
+
+d) sălile destinate intervențiilor medicale.
+
+(2) Sistemele de supraveghere video prevăzute la alin. (1) trebuie să funcționeze permanent, să transmită în direct pe site propriu, să stocheze și să permită identificarea clară a procedurilor desfășurate, cu respectarea legislației privind protecția datelor cu caracter personal.
+
+(3) Înregistrările video se păstrează pentru o perioadă minimă de 120 de zile și sunt puse la dispoziția autorităților competente și a reprezentanților prevăzuți la art. 11, în condițiile legii.”
+
+4\. La articolul 14 alineatul (1), după litera b) se introduce o nouă literă, litera b¹), cu următorul cuprins:
+
+„b¹) nerespectarea dispozițiilor prevăzute la art. 13⁷ și art. 13⁸, cu amendă de la 50.000 lei la 100.000 lei;”
+
+5\. La articolul 14, litera d) a alineatului (1) se modifică și va avea următorul cuprins:
+
+„d) împiedicarea, restricționarea sau condiționarea nejustificată a participării reprezentanților organizațiilor neguvernamentale pentru protecția animalelor la activitățile prevăzute la art. 11, cu amendă de la 50.000 lei la 100.000 lei.”
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.
+
+PREȘEDINTELE
+
+PREȘEDINTELE
+
+CAMEREI DEPUTAȚILOR
+
+SENATULUI
+
+SORIN-MIHAI GRINDEANU
+
+MIRCEA ABRUDEAN
+
+București, Nr.

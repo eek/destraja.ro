@@ -1,0 +1,229 @@
+{
+  "slug": "plx-511-2026",
+  "billId": "PL-x 511/2026",
+  "updatedAt": "2026-10-29T12:53:49.866Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L353FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Cine are voie să facă ce în calculatoarele statului: registre unice pentru instituții, organigrame și drepturile de acces ale funcționarilor",
+      "summaryTlDr": "Ideea e bună și necesară: accesul pe bază de roluri, privilegiul minim și jurnalizarea operațiunilor sunt standard de securitate, iar administrația română chiar suferă de conturi neactualizate și drepturi acordate haotic. Textul este însă un schelet redactat în grabă, cu articole lipsă, trimiteri greșite, un acronim inexistent și amenzi pentru termene pe care legea nu le stabilește; riscul direct pentru cetățeni e mic, cel pentru aplicabilitatea legii e mare.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/10/1/se571.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Ordine în conturile statului: fiecare funcționar primește doar accesul de care are nevoie, iar tot ce face rămâne înregistrat",
+      "summaryTlDr": "Lege tehnică și utilă, care obligă instituțiile să țină evidența cine are acces la ce în sistemele informatice ale statului și să înregistreze orice operațiune. Problemele țin de redactare: legea nu spune cine administrează registrele, cine plătește amenda și de la ce dată se aplică sancțiunile.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Accesul la aplicațiile publice nu mai trece „exclusiv” prin rolurile din organigrama digitală",
+      "summary": "Inițial, accesul la orice aplicație publică trecea „exclusiv” prin roluri legate de posturi din organigramă. Acum trebuie doar să respecte cerințele mecanismului, deci scade riscul ca cetățenii și firmele să rămână fără acces. Amenzile cresc la 2.500–5.000 lei, fără să spună cine le plătește.",
+      "changes": [
+        {
+          "title": "Accesul nu mai trece „exclusiv” prin roluri digitale",
+          "text": "Art. 14 alin. (2) nu mai cere ca accesul la aplicațiile publice să se acorde „exclusiv” prin mecanismul pe roluri, ci doar cu respectarea cerințelor lui. Cetățenii și firmele riscă mai puțin să rămână fără acces.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 14 alin. (2)",
+          "before": "Accesul la resursele digitale și operațiunile digitale administrative în aplicațiile, platformele sau sistemele informatice publice se acordă exclusiv prin mecanismul național de autorizare, întemeiat pe roluri digitale, în baza autentificării prealabile a persoanei.",
+          "after": "Accesul la resursele digitale și efectuarea operațiunilor digitale administrative în aplicațiile, platformele sau sistemele informatice publice se acordă cu respectarea cerințelor stabilite prin mecanismul național de autorizare, întemeiat pe roluri digitale.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Amenzi mai mari, fără să spună cine plătește",
+          "text": "Art. 21: amenda crește de la 1.000–2.000 la 2.500–5.000 lei, dar nu mai spune că o plătește responsabilul desemnat. Vizează acum și neînscrierea datelor. Pentru ODN și matrici tot nu există termene.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 21",
+          "before": "Constituie contravenție și se sancționează cu amendă de la 1.000 lei la 2.000 lei, fapta responsabilului desemnat conform legii, neactualizarea datelor în RUIP, ODN, RFROD, în termenele prevăzute de prezenta lege.",
+          "after": "Contravenția prevăzută la alin.(1) se sancționează cu amendă de la 2.500 lei la 5.000 lei.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Fiecare instituție își face propriile matrici de acces",
+          "text": "Art. 12: RFROD nu mai stabilește rolurile pentru fiecare post, ci devine un standard național de cerințe minime. Fiecare entitate publică e obligată să întocmească și să actualizeze matrici de autorizare.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 12",
+          "before": "RFROD stabilește, pentru fiecare funcție sau post:",
+          "after": "Entitățile publice au obligația de a întocmi și actualiza, pentru aplicațiile, platformele și sistemele informatice proprii, matrici de autorizare care stabilesc, în concret, corespondența dintre funcțiile și posturile înscrise în ODN",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Entitățile controlate de autorități ies din definiție",
+          "text": "Art. 4 lit. e): definiția entităților publice nu mai cuprinde entitățile aflate în administrarea sau controlul autorităților. Acum se potrivește cu art. 1 alin. (2).",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 4 lit. e)",
+          "before": "entități publice - autoritățile și instituțiile publice centrale și locale, precum și entitățile aflate în subordinea, în administrarea, sub autoritatea, coordonarea sau controlul acestora.",
+          "after": "entități publice - autoritățile și instituțiile publice centrale și locale, precum și entitățile aflate în subordonarea, coordonarea sau sub autoritatea acestora.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Răspunderea pentru datele din RUIP, formulată clar",
+          "text": "Art. 7 nu mai trimite la el însuși: responsabilul desemnat răspunde de înscrierea și actualizarea datelor din RUIP. Termenul de 10 zile lucrătoare nu se aplică datelor actualizate automat.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 7",
+          "before": "Răspunderea pentru îndeplinirea obligației prevăzute la alin. (2) revine responsabilului desemnat potrivit alin. (1), în condițiile legii.",
+          "after": "Răspunderea pentru înscrierea și actualizarea datelor înscrise în RUIP revine responsabilului desemnat potrivit alin.(1), în condițiile legii.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Reguli speciale pentru personalul cu statut special",
+          "text": "Art. 9 alin. (2), prevedere nouă: pentru funcțiile cu statut special și personalul cu regim juridic special, legea se aplică cu respectarea reglementărilor speciale și prin interoperabilitate.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 9 alin. (2)",
+          "before": null,
+          "after": "Pentru funcțiile publice cu statut special și pentru categoriile de personal supuse unor regimuri juridice speciale, aplicarea prezentei legi se realizează cu respectarea reglementărilor speciale",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Amenda de 2.500–5.000 lei nu spune cine o plătește: instituția, responsabilul sau conducătorul",
+            "major": true,
+            "article": "art. 21"
+          },
+          {
+            "text": "Amenda vizează termene inexistente: doar RUIP are termen, ODN și matricile nu",
+            "major": true,
+            "article": "art. 21"
+          },
+          {
+            "text": "Nu spune cine construiește și administrează RUIP, ODN, RFROD și mecanismul de autorizare",
+            "major": true,
+            "article": "art. 5, 8, 11, 14"
+          },
+          {
+            "text": "Expunerea neagă prelucrarea datelor personale, deși jurnalele și rolurile identifică oameni concreți",
+            "major": true,
+            "article": "art. 18"
+          },
+          {
+            "text": "Durata păstrării jurnalelor și accesul la ele sunt lăsate integral pe norme",
+            "major": false,
+            "article": "art. 18 alin. (2)"
+          },
+          {
+            "text": "Trimitere greșită la alin. (1), care privește autentificarea, nu mecanismul de autorizare",
+            "major": false,
+            "article": "art. 14 alin. (3)"
+          },
+          {
+            "text": "Rolurile se dau numai posturilor din ODN; accesul utilizatorilor externi rămâne nereglementat",
+            "major": false,
+            "article": "art. 10 alin. (2), art. 14"
+          },
+          {
+            "text": "Nu menționează ADR și Legea 242/2022 privind interoperabilitatea; risc de suprapunere de competențe",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Amenzile le constată „personalul împuternicit din cadrul guvernului”, fără instituție precisă",
+            "major": false,
+            "article": "art. 21 alin. (3)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Accesul la aplicațiile publice nu mai e permis exclusiv prin rolurile digitale",
+            "major": true,
+            "article": "art. 14 alin. (2)"
+          },
+          {
+            "text": "Fiecare entitate întocmește matrici de autorizare concrete pentru aplicațiile proprii",
+            "major": true,
+            "article": "art. 12 alin. (2)"
+          },
+          {
+            "text": "Responsabilul desemnat răspunde clar de înscrierea și actualizarea datelor din RUIP",
+            "major": false,
+            "article": "art. 7"
+          },
+          {
+            "text": "Datele RUIP se actualizează în 10 zile lucrătoare, cu excepția celor automate",
+            "major": false,
+            "article": "art. 7 alin. (1)"
+          },
+          {
+            "text": "Drepturile de acces se actualizează fără întârziere la schimbarea funcției sau delegării",
+            "major": false,
+            "article": "art. 13, art. 16"
+          },
+          {
+            "text": "Deciziile de autorizare și operațiunile se jurnalizează cu marcă temporală",
+            "major": false,
+            "article": "art. 18 alin. (1)"
+          },
+          {
+            "text": "Audit intern anual al rolurilor și autorizării, cu raport pe platforma SGG",
+            "major": false,
+            "article": "art. 19"
+          },
+          {
+            "text": "SGG publică anual un raport agregat despre implementare și incidente de acces",
+            "major": false,
+            "article": "art. 20 alin. (2)"
+          },
+          {
+            "text": "Respectă regimul informațiilor clasificate, securitatea cibernetică și protecția datelor personale",
+            "major": false,
+            "article": "art. 3"
+          },
+          {
+            "text": "Personalul cu statut special e tratat după regulile speciale, prin interoperabilitate",
+            "major": false,
+            "article": "art. 9 alin. (2)"
+          },
+          {
+            "text": "Autentificarea se integrează cu sistemele naționale de identitate digitală",
+            "major": false,
+            "article": "art. 15 alin. (1)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 50,
+        "removed": 47,
+        "same": 0.17
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:53:44.246Z"
+    }
+  ]
+}

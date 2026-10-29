@@ -1,0 +1,107 @@
+{
+  "slug": "plx-578-2026",
+  "billId": "PL-x 578/2026",
+  "updatedAt": "2026-10-29T13:13:55.150Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L355FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Cluburile sportive ale ministerelor și universităților, sub același plafon de plăți ca cele ale primăriilor",
+      "summaryTlDr": "Lege tehnică și, în fond, rezonabilă: aceleași limite pentru banii publici plătiți de toate cluburile sportive ale statului, nu doar de cele ale primăriilor. Are greșeli de redactare și nu prevede nicio perioadă de tranziție, dar nu ascunde taxe, monopoluri sau sancțiuni.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/70/8/se662.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Același plafon de plată din bani publici și pentru cluburile sportive ale ministerelor și universităților",
+      "summaryTlDr": "Lege tehnică și, în esență, pozitivă. Închide o portiță prin care cluburile sportive de stat ale ministerelor și universităților puteau plăti din bani publici peste plafonul impus deja cluburilor primăriilor și consiliilor județene. Problemele sunt de redactare: o enumerare ambiguă și lipsa unui termen de tranziție pentru contractele în curs.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Nicio schimbare de fond: plafonul tot se extinde la cluburile ministerelor și universităților",
+      "summary": "Senatul a păstrat fondul: limitele din art. XXVIII alin. (2)-(3) se extind la cluburile sportive ale ministerelor și universităților de stat. S-a corectat doar denumirea Legii 69/2000; rămân ambiguitatea lui „respectiv” și lipsa regulilor tranzitorii.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "„Respectiv” poate face enumerarea limitativă, contrazicând „toate”; nu e clar cine intră",
+            "major": true,
+            "article": "art. unic, art. XXVIII alin. (4)"
+          },
+          {
+            "text": "Nicio dispoziție tranzitorie pentru contractele în derulare, în plin ciclu olimpic LA 2028",
+            "major": true,
+            "article": "art. unic"
+          },
+          {
+            "text": "Lipsește „în mod corespunzător”; regulile pentru cluburi locale pot necesita adaptări",
+            "major": false,
+            "article": "art. unic, art. XXVIII alin. (4)"
+          },
+          {
+            "text": "Expunerea de motive nu dă cifre: cluburi, contracte vizate și economia bugetară",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Bara din „cluburile/structurile” e improprie unui text normativ",
+            "major": false,
+            "article": "art. unic, art. XXVIII alin. (4)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Limitele din alin. (2)-(3) se extind la cluburile ministerelor și universităților de stat",
+            "major": true,
+            "article": "art. unic, art. XXVIII alin. (4)"
+          },
+          {
+            "text": "Măsura limitează cheltuieli publice; impact bugetar neutru sau ușor pozitiv",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Fără taxe, raportări sau sancțiuni noi pentru cetățeni și IMM-uri; cluburile private neatinse",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Trimiterea la Legea educației fizice și sportului nr. 69/2000 este acum corectă",
+            "major": false,
+            "article": "art. unic, art. XXVIII alin. (4)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 5,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:08:36.394Z"
+    }
+  ]
+}

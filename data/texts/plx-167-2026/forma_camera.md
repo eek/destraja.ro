@@ -1,0 +1,17 @@
+# PARLAMENTUL ROMÂNIEI CAMERA DEPUTAȚILOR
+
+LEGE
+
+pentru completarea Ordonanței de urgență a Guvernului nr. 57/2019 privind Codul administrativ
+
+Camera Deputaților adoptă prezentul proiect de lege.
+
+La articolul 95 din Ordonanța de urgență a Guvernului nr. 57/2019 privind Codul administrativ, publicată în Monitorul Oficial al României, Partea I, nr. 555 din 5 iulie 2019, cu modificările și completările ulterioare, după alineatul (4), se introduce un nou alineat, alin. (5), cu următorul cuprins:
+
+„(5) Prin derogare de la prevederile art. 5 din Legea 3/2000 privind organizarea și desfășurarea referendumului, cu modificările și completările ulterioare, referendumul prevăzut la alin. (4) este valabil dacă la acesta participă cel puțin 20% din numărul persoanelor înscrise în listele electorale permanente.”
+
+Acest proiect de lege se consideră adoptat de Camera Deputaților în forma inițială, în condițiile art. 75 alin. (2) teza a III-a din Constituția României, republicată.
+
+p. PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+NATALIA – ELENA INTOTERO

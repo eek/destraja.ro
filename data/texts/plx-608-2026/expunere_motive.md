@@ -1,0 +1,125 @@
+# EXPUNERE DE MOTIVE
+
+## I. Situația actuală
+
+În prezent, mediul școlar preuniversitar din România se confruntă cu o accentuare a diferențelor socio-economice dintre elevi, vizibile pregnant în vestimentația adoptată în unitățile de învățământ. Această situație alimentează fenomene de excludere socială, presiune psihologică și bullying bazat pe statutul financiar al familiei, distrăgând atenția elevilor de la procesul educațional propriu-zis și afectând climatul de disciplină și decență.
+
+Actualmente, Legea învățământului preuniversitar nr. 198/2023 lasă purtarea uniformelor exclusiv la latitudinea unităților de învățământ, fără a impune o linie națională de echitate socială și securitate. În plus, normele actuale privind paza și protecția în școli nu beneficiază de un instrument vizual rapid de identificare a propriilor elevi, aspect ce îngreunează monitorizarea siguranței în perimetrul școlar și accesul persoanelor străine.
+
+O analiză comparativă la nivel european arată o reorientare către standardizarea vestimentară în scopul echității. Un exemplu major este cel al Franței, care a implementat un amplu program-pilot pentru introducerea „ținutei unice” (la tenue unique), cu scopul declarat de generalizare. De asemenea, modelul din Marea Britanie (School Uniform Policy) obligă prin lege fiecare școală să aibă o politică vestimentară, reglementând strict accesibilitatea prețurilor prin interzicerea brandurilor exclusive, asigurând astfel protecția familiilor cu venituri reduse.
+
+În România, textul actual al Legii nr. 198/2023 nu prevede un mecanism unitar de asigurare a egalității de șanse din această perspectivă și nici surse de finanțare menite să garanteze posibilitatea de subvenționare în contextul unei asemenea măsuri.
+
+## II. Modificările aduse legislației
+
+Modificările pe care le propunem presupun introducerea obligativității purtării unei ținute școlare unice în învățământul preuniversitar de stat, descentralizarea alegerii modelului către comunitatea școlară locală, interzicerea monopolului comercial asupra furnizării acestor piese și posibilitatea subvenționării kitul-ului de bază.
+
+## II. Motivare
+
+Inițiativa legislativă propusă aduce cu sine multiple beneficii pentru comunitatea școlară, fără să creeze discriminări sau presiuni financiare asupra familiilor:
+
+\- Combaterea discriminării și reducerea fenomenului de bullying: Prin introducerea unei ținute unice, se atenuează vizibilitatea diferențelor de statut material dintre familiile elevilor. Dispar barierele artificiale și criteriile de judecată bazate pe haine de firmă sau trenduri scumpe, generând un mediu bazat pe meritocrație și respect reciproc.
+
+\- Creșterea siguranței în unitățile de învățământ: O ținută unică permite personalului de pază și cadrelor didactice să identifice vizual, instantaneu, elevii aparținători ai acelei școli. Acest lucru reduce riscul pătrunderii persoanelor străine sau neautorizate în perimetrul școlar, facilitând un management mult mai strict al siguranței copiilor.
+
+\- Întărirea sentimentului de apartenență și concentrearea pe educație: Standardizarea vestimentară sporește mândria de a reprezenta o anumită comunitate școlară și creează un sentiment de unitate colectivă. În plus, simplificarea opțiunilor vestimentare zilnice reorientează focusul elevilor dinspre aspectul estetic exterior către activitatea de învățare, disciplină și dezvoltare personală.
+
+În numele inițiatorilor,
+
+Daniel-Cătălin'ZAMFIR
+
+Alexandra PREȘURĂ
+
+Senator PSD '
+
+Senator\\PSD\\
+
+Bogdan TRIF
+
+Laurențiu Adriân NECULAESCU
+
+Deputat PSD
+
+Debutat PSD
+
+## TABEL INIȚIATORI
+
+## Propunerea legislativă pentru modificarea și completarea Legii învățământului preuniversitar nr. 198/2023
+
+| Nr.Crt. | Nume și prenume | Apartenențapolitică |
+| --- | --- | --- |
+| 1. | Rujan lon Cuihine | PSA |
+| 2. | TONEL CARO | PSA |
+| 3. | ULASIN 30RIN | PSA |
+| 4. | FLOROLU 90NEE | PSD |
+| 5. | MICHAI DANI EEA | PSD |
+| 6. | CAS CAVAL DAN | PSB |
+| 7. | PABURAPU RIDUCU - ADRIAN | PSD |
+| 8. | GRAUR CATAI H | PSD |
+| 9. | TANASESCU ALINA ELENA | PSD |
+| 10. | BUZATU DANYA CONSTANTINA | PSA |
+| 11. | STANESCU PAUL | PSA |
+| 12. | PRESURA ACEXANDRA | PSD |
+| 13. | DOGARU EUGEN | PSD |
+| 14. | BICA' AND RA | PSD |
+| 15. | HUMGLNICU MARCUS | PSD |
+| 16. | STRE'NU-CER2OEC ADRIAH | PSD |
+| 17. | PAI'4 OUIASY | PSD |
+| 18. | STA H. IOA H. | PSD |
+| 19. | Coletem RUS | PSD |
+
+<table>
+<tbody>
+<tr><td>20.</td><td colspan="2">TEPEUS LAMRSZIJU CANDINCE PSD</td></tr>
+<tr><td>21.</td><td>MARGINGAN LUCIAN</td><td>PSD</td></tr>
+<tr><td>22.</td><td>NICULA MIRCEA CRISTIAN</td><td>PSD</td></tr>
+<tr><td>23.</td><td>FENEROVICI JOINA - ELENA</td><td>PSD</td></tr>
+<tr><td>24.</td><td>MORAN ANBE</td><td>PSD</td></tr>
+<tr><td>25.</td><td>CARAH CIOI RO BGRF</td><td>PSD</td></tr>
+<tr><td>26.</td><td></td><td></td></tr>
+<tr><td>27.</td><td></td><td></td></tr>
+<tr><td>28.</td><td></td><td></td></tr>
+<tr><td>29.</td><td></td><td></td></tr>
+<tr><td>30.</td><td></td><td></td></tr>
+<tr><td>31.</td><td></td><td></td></tr>
+<tr><td>32.</td><td></td><td></td></tr>
+<tr><td>33.</td><td></td><td></td></tr>
+<tr><td>34.</td><td></td><td></td></tr>
+<tr><td>35.</td><td></td><td></td></tr>
+<tr><td>36.</td><td></td><td></td></tr>
+<tr><td>37.</td><td></td><td></td></tr>
+<tr><td>38.</td><td></td><td></td></tr>
+<tr><td>39.</td><td></td><td></td></tr>
+<tr><td>40.</td><td></td><td></td></tr>
+<tr><td>41.</td><td></td><td></td></tr>
+<tr><td>42.</td><td></td><td></td></tr>
+<tr><td>43.</td><td></td><td></td></tr>
+<tr><td>44.</td><td></td><td></td></tr>
+</tbody>
+</table>
+
+Senatul României Grupul parlamentar Alianța pentru Unirea Românilor
+
+Către Biroul Permanent al Senatului,
+
+Subsemnata, Senator Olga Onea, membră a Grupului Parlamentar Alianța pentru Unirea Românilor (AUR), parlamentar ales în Circumscripția electorală nr.18 Galați, solicit să devin co-inițiator la Propunerea legislativă pentru modificarea și completarea Legii învățământului preuniversitar nr.198/2023 (L443/2026).
+
+Senator Olga Onea, Grupul parlamentar AUR
+
+Către,
+
+## BIROUL PERMANENT AL SENATULUI
+
+Subsemnații, Marius-Alexandru DUNCA, Liviu-Lucian MAZILU, Sorin MOISE, Carmen ORBAN, senatori PSD, vă rugăm să aprobați să devenim coinițiatori ai Propunerii legislative pentru modificarea și completarea Legii învățământului preuniversitar înaintată Biroului Permanent spre dezbatere și adoptare și înregistrată cu numărul L443/2026.
+
+09.09.2026
+
+Senator PSD, Marius-Alexandru DUNCA
+
+Senator PSD, Sorin MOISE
+
+Senator PSD, Liviu-Lucian MAZILU
+
+Senator PSD, Ștefan-Radu OPREA
+
+Senator PSD, Carmen ORBAN

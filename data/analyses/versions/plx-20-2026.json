@@ -1,0 +1,102 @@
+{
+  "slug": "plx-20-2026",
+  "billId": "PL-x 20/2026",
+  "updatedAt": "2026-10-29T12:25:44.366Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L558FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 1.7,
+      "riskLevel": "green",
+      "plainTitle": "DNSC poate plăti cotizația la două rețele internaționale de securitate cibernetică",
+      "summaryTlDr": "Lege tehnică și ieftină (în jur de 20.000 lei/an), care mută pe DNSC, fostul CERT-RO, temeiul de plată a două cotizații utile. Singura chichiță reală e Art. 2: Guvernul poate „actualiza” prin HG, fără plafon și fără criterii, cotizațiile la orice organism neguvernamental la care DNSC este parte.",
+      "scores": {
+        "agy": 1,
+        "claude": 2,
+        "codex": 2
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/20/0/se784.pdf",
+      "source": "cdep.ro",
+      "riskScore": 1.7,
+      "riskLevel": "green",
+      "plainTitle": "Statul plătește în continuare taxele de membru ale DNSC la două rețele internaționale de securitate cibernetică",
+      "summaryTlDr": "Lege tehnică, ieftină și utilă. Menține echipa națională de răspuns la incidente cibernetice în cele două rețele de încredere din care face deja parte, pentru aproximativ 20.000 lei pe an. Singura scăpare reală este art. 2: Guvernul poate actualiza prin hotărâre, fără criterii și fără plafon, cotizațiile la orice organism neguvernamental din care face parte DNSC.",
+      "scores": {
+        "agy": 1,
+        "claude": 2,
+        "codex": 2
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul nu a schimbat fondul: Guvernul poate modifica prin HG orice cotizație a DNSC",
+      "summary": "Forma adoptată de Senat e identică în fond cu cea inițială: s-au schimbat doar numerotarea alineatelor și formula de adoptare. Rămân plafoanele clare pentru FIRST și TI. Rămâne și dreptul Guvernului de a modifica prin HG, fără limită, cotizațiile DNSC la orice organism.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Guvernul poate modifica prin HG orice cotizație DNSC, fără plafon, criterii sau raportare",
+            "major": true,
+            "article": "art. 2"
+          },
+          {
+            "text": "TVA-ul se adaugă peste plafonul TI, deci totalul depinde de cota altui stat",
+            "major": false,
+            "article": "art. 1 alin. (2)"
+          },
+          {
+            "text": "Nu se precizează ce curs de schimb se folosește, de exemplu cel BNR",
+            "major": false,
+            "article": "art. 1 alin. (3)"
+          },
+          {
+            "text": "Legea nr. 146/2014 nu e abrogată: două legi pentru aceleași cotizații",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Numele FIRST e scris greșit „Foram” în loc de „Forum”",
+            "major": false,
+            "article": "art. 1 alin. (1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Plafoane clare: 2.800 USD/an pentru FIRST și 1.200 EUR/an pentru TI",
+            "major": true,
+            "article": "art. 1 alin. (1)-(2)"
+          },
+          {
+            "text": "Sursa banilor este numită: bugetul de stat, prin bugetul SGG",
+            "major": false,
+            "article": "art. 1 alin. (4)"
+          },
+          {
+            "text": "Cheltuiala nu e nouă: cotizațiile se plăteau deja în baza Legii 146/2014",
+            "major": false,
+            "article": null
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 6,
+        "removed": 7,
+        "same": 0.14
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:24:50.010Z"
+    }
+  ]
+}

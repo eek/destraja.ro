@@ -1,0 +1,17 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+pentru modificarea Legii nr. 205/2004 privind protecția animalelor
+
+Senatul adoptă prezentul proiect de lege
+
+Articol unic.- La articolul 22 din Legea nr. 205/2004 privind protecția animalelor, republicată în Monitorul Oficial al României, Partea I, nr. 320 din 30 aprilie 2014, cu modificările și completările ulterioare, alineatul (2) se abrogă.
+
+Acest proiect de lege se consideră adoptat de Senat în forma inițială, în condițiile articolului 75 alineatul (2) teza a III-a din Constituția României, republicată.
+
+PREȘEDINTELE SENATULUI
+
+MIRCEA ABRUDEAN

@@ -1,0 +1,51 @@
+# GUVERNUL ROMÂNIEI
+
+# ORDONANȚĂ DE URGENȚĂ pentru aprobarea unor măsuri în vederea asigurării îndeplinirii misiunilor specifice ce revin Serviciului de Protecție și Pază
+
+Având în vedere mediul de securitate actual, caracterizat prin accentuarea impredictibilității în sistemul mondial de relații internaționale, care prezintă evoluții complexe, caracterizate de aducerea în prim-plan a vectorului militar și accentuarea naturii hibride a acțiunilor agresive între statele cu interese în regiunea Mării Negre, precum și declanșarea conflictului armat din Orientul Mijlociu,
+
+luând în considerare că activitățile desfășurate de Serviciul de Protecție și Pază în domeniul securității naționale au ca priorități instituționale creșterea gradului de siguranță și protecție pentru demnitarii aflați în competență,
+
+ținând cont de faptul că îndeplinirea obiectivelor strategice instituționale ale Serviciului de Protecție și Pază presupune în mod obligatoriu perfecționarea suportului logistic și, implicit, a sistemului de planificare, programare și bugetare pentru a asigura atât îndeplinirea în bune condiții a misiunilor specifice, cât și o gestionare eficientă a resurselor avute la dispoziție,
+
+dat fiind faptul că situația actuală a înzestrării cu autoturisme a Serviciului de Protecție și Pază este grevată de o serie de neajunsuri generate de deficitele înregistrate la mai multe categorii de autoturisme, precum și de faptul că mijloacele de mobilitate terestră aflate în dotare sunt supuse permanent unei intense uzuri fizice și morale, măsurile practicate privind realizarea înzestrării asigurând parțial necesarul de mijloace al unităților, iar deficitele înregistrate perpetuându-se de la un an la altul,
+
+având în vedere importanța dispunerii de măsuri imediate care să contribuie la îndeplinirea priorităților instituționale, ținând seama atât de deficitul de mijloace de mobilitate terestră înregistrat la nivelul Serviciului de protecție și Pază, cât și de interdicția impusă autorităților și instituțiilor publice, indiferent de modul de finanțare și subordonare, de achiziționare a autoturismelor,
+
+ținând seama că situația generată de conflictul armat la granița de nord a României poate conduce la o creștere a situației infracționale cu amenințări la viața și integritatea demnitarilor din competență,
+
+întrucât prin raportare la conflictul ruso-ucrainian neadoptarea prin ordonanță de urgență a Guvernului a acestor măsuri imediate este de natură să genereze riscuri și amenințări la adresa securității naționale,
+
+luând în considerare faptul că menținerea situației actuale reprezintă o vulnerabilitate pentru Serviciul de Protecție și Pază lipsit de resursele materiale necesare îndeplinirii competențelor și atribuțiilor în domeniul prevenirii și combaterii riscurilor la adresa securității naționale,
+
+având în vedere necesitatea înlocuirii de urgență a parcului auto al Serviciului de Protecție și Pază, dată fiind vechimea ridicată a vehiculelor și nivelul tehnologic depășit al flotei rămase în exploatare, unele autovehicule având normă de poluare Euro 4 sau inferioară ceea ce generează costuri ridicate de operare, consumuri mari de combustibil și un nivel neadecvat al emisiilor pentru standardele actuale de mediu și eficiență energetică,
+
+având în atenție faptul că lipsa adoptării în regim de urgență a măsurilor prevăzute de prezentul act normativ poate avea efecte negative vizibile asupra performanțelor în îndeplinirea misiunilor și a condițiilor minime de securitate a personalului, prin raportare la durata procedurilor de achiziție, termelor de livrare, recepția și plata aferentă, se impune adoptarea cu celeritate a acestor măsuri legislative necesare pentru consolidarea capacității instituționale, utilizarea unui alt instrument legislativ putând conduce la imposibilitatea adoptării, în timp util și cu celeritate, a măsurilor necesare pentru asigurarea cadrului normativ, de nivel primar,
+
+în considerarea faptului că aceste elemente vizează un interes public și constituie o situație extraordinară, a cărei reglementare nu poate fi amânată,
+
+În temeiul art. 115 alin. (4) din Constituția României, republicată,
+
+# Guvernul României adoptă prezenta ordonanță de urgență.
+
+Articol unic. - Prin derogare de la prevederile art. III alin. (1) lit. a) din Ordonanța de urgență a Guvernului nr. 34/2023 privind unele măsuri fiscal-bugetare, prorogarea unor termene, precum și pentru modificarea și completarea unor acte normative, cu modificările și completările ulterioare, respectiv de la dispozițiile art. XXVIII din Legea nr. 141/2025 privind unele măsuri fiscal-bugetare, cu modificările și completările ulterioare, de la data intrării în vigoare a prezentei ordonanțe de urgență și până la data de 31 decembrie 2026, în vederea asigurării îndeplinirii misiunilor specifice, Serviciul de Protecție și Pază poate achiziționa autoturisme, astfel cum sunt acestea definite la art. 3 pct. 2 din Ordonanța Guvernului nr. 27/2011 privind transporturile rutiere, cu modificările și completările ulterioare, în limita fondurilor bugetare aprobate prin Legea bugetului de stat pe anul 2026 nr. 43/2026.
+
+PRIM-MINISTRU ROMÂN.
+
+ILIE-GAVRIE BOLOJAN
+
+Contrasemnează:
+
+Viceprim-miistru Mariàn Neacsu
+
+Secretarul general al Ćuvernului Ștefan-Radă'Oprea
+
+Directorul Serviciului de Protecție și Pază Pahonțu Lucian-Silvan
+
+Victor Soida Peala
+
+Ministral finantelor Alexandru Nazare
+
+\\log \\frac12 = \\frac\\sqrt22\\left( \\log \\frac12 + \\log \\frac12\\right) .
+
+Florik 2AHARIA

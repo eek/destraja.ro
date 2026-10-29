@@ -1,0 +1,97 @@
+{
+  "slug": "plx-78-2026",
+  "billId": "PL-x 78/2026",
+  "updatedAt": "2026-10-29T12:30:47.359Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L617FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Mai mult timp pentru consolidarea școlilor și spitalelor, bani pentru blocurile distruse de explozii și riscul seismic trecut în cartea funciară",
+      "summaryTlDr": "Lege în mare parte utilă și tehnică: salvează de la expirare programele de consolidare a școlilor și spitalelor și permite statului să ajute victimele exploziilor și incendiilor. Capcana este termenul-ghilotină de 31.12.2026, care poate scoate din program tocmai clădirile expertizate ultimele.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/70/8/se74.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "Programele de consolidare a școlilor și spitalelor cu risc seismic, prelungite până în 2028; o parte din Palatul Parlamentului trece la Ministerul Dezvoltării",
+      "summaryTlDr": "Legea e în esență utilă: împiedică expirarea programelor de consolidare a școlilor și spitalelor și extinde sprijinul statului la clădirile afectate de explozii și accidente tehnice. Prelungirea depinde însă de bani care lipsesc. Termenul din 31.12.2026, după care proiectele fără contract sunt eliminate automat, poate scoate din liste tocmai proiectele întârziate din vina statului.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Fără schimbări de fond: Senatul a aprobat OUG 82/2025 exact ca inițial",
+      "summary": "Senatul a aprobat ordonanța fără modificări. S-au adăugat doar data ordonanței și trimiterea la Monitorul Oficial. Riscurile rămân: obiectivele fără contract la 31.12.2026 se elimină, iar prelungirile depind de buget.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Obiectivele fără contract la 31.12.2026 se elimină automat, fără excepție pentru întârzierile ministerului",
+            "major": true,
+            "article": "art. I pct. 2, art. III pct. 2"
+          },
+          {
+            "text": "Prelungirea contractelor depinde de bugetul anual; finanțarea nu e garantată nici după semnare",
+            "major": true,
+            "article": "art. I pct. 3, art. III pct. 3"
+          },
+          {
+            "text": "336 de obiective (circa 3,5 mld. lei) n-au contract din lipsă de bani",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Doar 77,8 mil. lei decontați din 1,04 mld.; firmele și primăriile riscă întârzieri",
+            "major": true,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "„Școli sigure și sănătoase” și „Mihail Cantacuzino” continuă până în 2028, nu 2025",
+            "major": false,
+            "article": "art. I pct. 1, art. III pct. 1"
+          },
+          {
+            "text": "Contractele pot fi prelungite cu până la 2 ani, cel mult până la 31.12.2028",
+            "major": false,
+            "article": "art. I pct. 3, art. III pct. 3"
+          },
+          {
+            "text": "Programul de expertizare a școlilor și spitalelor este prelungit până în 2027",
+            "major": false,
+            "article": "art. III pct. 4"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:30:25.498Z"
+    }
+  ]
+}

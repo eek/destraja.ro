@@ -1,0 +1,129 @@
+Enroli paririent al Scirilal Bp 241. 22.04.2026
+
+# EXPUNERE DE MOTIVE
+
+356\. 2.06.2026.
+
+## EXPUNERE DE MOTIVE
+
+la proiectul de lege privind declararea zilei de 7 aprilie „Ziua Mircea Lucescu”, ca sărbătoare națională
+
+## 1. Context și problemă de politică publică
+
+Prezenta inițiativă legislativă are ca obiect declararea zilei de 7 aprilie drept „Ziua Mircea Lucescu”, ca sărbătoare națională, în semn de recunoaștere publică și memorie instituțională față de una dintre cele mai mari personalități ale sportului românesc. Prin această reglementare, statul român afirmă, la nivel normativ, respectul datorat unei personalități care a reprezentat România cu autoritate, competență și prestigiu în competiția sportivă internă și internațională.
+
+Mircea Lucescu a avut o contribuție excepțională la dezvoltarea fotbalului românesc și la creșterea vizibilității României în plan european și mondial. Ca jucător, a fost căpitan al echipei naționale a României la Campionatul Mondial din 1970. Ca antrenor, a rămas în istoria sportului național drept selecționerul care a condus România la primul Campionat European, EURO 1984, și ca unul dintre tehnicienii români cu cel mai mare impact internațional, prin performanțele obținute în campionatele puternice ale Europei și prin trofeele europene câștigate.
+
+## 2. Obiectivul propunerii
+
+Alegerea datei de 7 aprilie are un temei simbolic și juridic solid. Aceasta este data trecerii sale în eternitate și oferă, în fiecare an, un reper de reculegere, reflecție și recunoaștere publică. Opțiunea pentru această dată evită, în același timp, suprapunerea cu alte sărbători naționale deja reglementate. Ziua de 29 iulie, data nașterii lui Mircea Lucescu, este deja consacrată prin lege ca Ziua Imnului Național al României, astfel încât stabilirea unei noi sărbători publice la aceeași dată ar fi inoportună din perspectiva clarității legislative și a coerenței calendarului public.
+
+Instituirea „Zilei Mircea Lucescu” are și o importantă funcție educativă și civică. Ea creează cadrul necesar pentru organizarea, de către autorități, instituții de învățământ, federații sportive, cluburi și organizații civice, a unor acțiuni dedicate meritului, disciplinei, performanței, excelenței în antrenorat și loialității față de culorile naționale. O asemenea zi poate deveni un prilej anual de dialog între generații, de promovare a sportului în rândul tinerilor și de reafirmare a valorilor care stau la baza marii performanțe.
+
+## 3. Caracterul voluntar și garanțiile pentru drepturi fundamentale
+
+Proiectul nu instituie o zi nelucrătoare și nu generează obligații bugetare suplimentare cu caracter permanent. Manifestările dedicate acestei zile se pot organiza în limita bugetelor aprobate, în condițiile legii, precum și din sponsorizări, donații și alte surse legal constituite. Soluția legislativă este una echilibrată, proporțională și ușor de pus în aplicare.
+
+## 4. Concluzie
+
+Totodată, inițiativa se înscrie într-o practică legislativă deja existentă, prin care Parlamentul României a consacrat, prin lege, zile naționale sau sărbători naționale dedicate unor valori, profesii sau personalități emblematice pentru identitatea și prestigiul României. În același spirit de recunoaștere publică și de asumare instituțională a modelelor autentice, considerăm necesară adoptarea prezentei propuneri legislative.
+
+Inițiator
+
+Deputat: Codruța-Maria Corcheș
+
+Deputat Tocet chEi n
+
+Grupul parlamentar: PФМ
+
+Data: 10/04/2026
+
+## TABEL SEMNĂTURI
+
+## pentru susținerea
+
+Proiectului de Lege privind declararea zilei de 7 aprilie „Ziua Mircea Lucescu”, ca sărbătoare națională
+
+| NR. | NUME | Grup parlamentar | SEMNĂTURA |
+| --- | --- | --- | --- |
+| 1 | Carches Cobruto-Mao | AFT |  |
+| 2 | Bacijan Sheorghe Petru |  |  |
+| 3. | Teledori Andrei-Jonek | PNC |  |
+| 4. | Tomceau Alin | PSD |  |
+| 5. | Nveagu Peton Emil | P.S.D. |  |
+| 6 | ISAe MARIUS | PSD |  |
+| 7 | CHIRIJA VIRGIL-ALIN | P.S.A. |  |
+| 8 | NEAIA EUGEN | P.S.D. |  |
+| 9 | BOUAI MARIUS CONSTANTIN | PSS |  |
+| 10 | BOUBA STEFAN | MIN |  |
+| 11 | DAS ARPA MOROSE | S.O.S. 20 |  |
+| 12. | MACOVE'JIE SIMONA ELENA | S.O.S. 20 |  |
+| 13 | CIOBNEI DANICE-CATIACIN | AIR |  |
+| 14 | MICIPA SAMUEL | CUR |  |
+| 15 | GROZA CACIN FIORIN | POT |  |
+| 16 | CRISJAXI BRIAN | VSR |  |
+| 17. | ALESANA MRY KIAQIUS NICOLE | VSR |  |
+| 18. | Kroncsis Sebastiion | POT |  |
+
+## TABEL SEMNĂTURI
+
+## pentru susținerea
+
+Proiectului de Lege privind declararea zilei de 7 aprilie „Ziua Mircea Lucescu”, ca sărbătoare națională
+
+<table>
+<tbody>
+<tr><td>NR.</td><td>NUME</td><td>Grup parlamentar</td><td>SEMNĂTURA</td></tr>
+<tr><td>19</td><td>SIMU AURORA TASICA</td><td>independent</td><td rowspan="14"></td></tr>
+<tr><td>20</td><td>PORUMBOIU GABRIELA</td><td>POT</td></tr>
+<tr><td>21</td><td>NICOCAE BAN</td><td>POT</td></tr>
+<tr><td>22</td><td>ALBV ANMITRITN</td><td>Indeprodut</td></tr>
+<tr><td>23.</td><td>MATEI SERGIU-LUCIAN</td><td>POT</td></tr>
+<tr><td>24</td><td>GROFU DARIOJ</td><td>TOT</td></tr>
+<tr><td>25</td><td>CHIRITĂ RAZVAN MIEZ</td><td>POT</td></tr>
+<tr><td>26</td><td>RADUCEA VALEYNY</td><td>POT</td></tr>
+<tr><td>27</td><td>Raisa Eucchi</td><td>Neefilio</td></tr>
+<tr><td>28</td><td>PAUL GHEORSAE</td><td>PACE</td></tr>
+<tr><td>29</td><td>PETREA DOUM SILVIU</td><td>PACE</td></tr>
+<tr><td>30</td><td>Todoca Letic Julian</td><td>PfCE</td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+Către,
+
+# BIROUL PERMANENT AL SENATULUI În atenția domnului senator Mircea ABRUDEAN, Președintele Senatului
+
+Subsemnații, senatorii neafiliați Aldea Valentina Mariana, Ghiță Robert Daniel, Robe Liviu Sorin și Pintea Paul Ciprian, vă rugăm să aprobați dobândirea calității de co-inițiatori ai următoarei propuneri legislative:
+
+\- Propunere legislativă pentru declararea zilei de 7 aprilie „Ziua Mircea Lucescu”, ca sărbătoare națională (B241/2026).
+
+Vă mulțumim.
+
+Senator neafiliat,
+
+Senator neafiliat,
+
+ALDEA Valentina Mariana
+
+ROBE Liviu Sorin
+
+Senator neafiliat,
+
+GHIȚĂ Robert Daniel
+
+Senator neafiliat,
+
+PINTEA Paul Ciprian
+
+27.05.2026

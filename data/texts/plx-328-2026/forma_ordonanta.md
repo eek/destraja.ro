@@ -1,0 +1,317 @@
+# GUVERNUL ROMÂNIEI ORDONANȚĂ DE URGENȚĂ privind măsurile aplicabile clienților casnici din piața de gaze naturale în periodoada 1 aprilie 2026 - 31 martie 2027
+
+Întrucât schema de plafonare și compensare a prețurilor la gazele naturale instituită prin Ordonanța de urgență a Guvernului nr. 27/2022 privind măsurile aplicabile clienților finali din piața de energie electrică și gaze naturale în perioada 1 aprilie 2022-31 martie 2023, precum și pentru modificarea și completarea unor acte normative din domeniul energiei, aprobată cu modificări și completări prin Legea nr. 206/2022, cu modificările și completările ulterioare, respectiv Ordonanța de urgență a Guvernului nr. 6/2025 privind măsurile aplicabile clienților finali din piața de energie electrică în perioada 1 aprilie 2025 - 30 iunie 2025, respectiv măsurile aplicabile clienților finali din piața de gaze naturale în perioada 1 aprilie 2025 - 31 martie 2026, precum și pentru modificarea și completarea unor acte normative din domeniul energiei, cu modificările și completările ulterioare, își încetează aplicabilitatea la data de 31 martie 2026,
+
+având în vedere contextul actual care este caracterizat de suprapunerea unor factori cu impact major asupra pieței energetice, respectiv intensificarea fenomenelor meteo-climatice extreme, instabilitatea geopolitică regională, escaladarea conflictelor armate în proximitatea granițelor României, extinderea tensiunilor din Orientul Mijlociu și amplificarea riscurilor hibride asupra infrastructurilor critice și a sectoarelor esențiale ale economiei naționale,
+
+luând în considerare că factorii externi determinați de determinat presiuni semnificative asupra pieței internaționale a prețurile manifestă, în prezent, o tendință de creștere, deoarece prețurile finale la gaze naturale publicate de principalii furnizori pentru clienții casnici se situează peste nivelul plafonat prin Ordonanța de urgență a Guvernului nr. 6/2025 până la 31 martie 2026, generând riscuri privind menținerea accesibilității energiei pentru populație,
+
+deoarece sezonul rece 2025–2026 a amplificat presiunile exercitate asupra prețurilor la gaze naturale de factorii externi, iar temperaturile înregistrate au fost semnificativ mai scăzute comparativ cu anii precedenți, determinând o creștere substanțială a consumului de gaze naturale pentru încălzire și pentru producerea energiei electrice, pe fondul unei cereri sporite,
+
+având în vedere necesitatea asigurării constituirii în condiții de predictibilitate și sustenabilitate a stocurilor minime de gaze naturale aferente sezonului rece 2026 –2027, în scopul garantării securității aprovizionării și prevenirii unor situații de risc sistemic la nivelul sistemului energetic național, în contextul în care nivelul depozitelor naționale de gaze a fost gestionat corespunzător, temperaturile scăzute la nivel european au condus la o diminuare accelerată a stocurilor din statele membre,
+
+luând în considerare faptul că sectorul producerii energiei termice pentru populație are un rol esențial în asigurarea continuității serviciului public de alimentare cu energie termică, iar variațiile abrupte ale costului gazelor naturale pot afecta stabilitatea financiară a operatorilor producători de energie termică și implicit furnizarea acestui serviciu de interes public,
+
+ținând cont de obligația statului de a proteja interesele economice ale clienților casnici, în special ale celor vulnerabili, de a asigura coeziunea socială și de a preveni apariția unor șocuri tarifare cu potențial impact asupra stabilității sociale și economice și de a asigura continuarea furnizării gazelor naturale în condiții de stabilitate cât și de impactul asupra bugetelor gospodăriilor și de riscul producerii unor dezechilibre majore în piață în lipsa unei intervenții rapide,
+
+în considerarea faptului că aceste elemente constituie situații extraordinare a căror reglementare nu poate fi amânată, care afectează interesul general public, cu implicații asupra securității energetice, economice și sociale a României, întrucât absenta unor măsuri imediate ar putea genera efecte economice și sociale negative de amploare, inclusiv dificultăți în constituirea stocurilor necesare sezonului rece și cresteri abrupte ale costurilor suportate de populație și care necesită intervenția imediată a Guvernului prin măsuri normative urgente,
+
+În temeiul art. 115 alin. (4) din Constituția României, republicată,
+
+Guvernul României adoptă prezenta ordonanță de urgență.
+
+Art. 1. – (1) Prin derogare de la prevederile art. 180 alin. (1) din Legea energiei electrice și a gazelor naturale nr. 123/2012, cu modificările și completările ulterioare, pentru consumul realizat în perioada 1 aprilie 2026 - 31 martie 2027, prețul final facturat de către furnizorii de gaze naturale clienților casnici, precum și producătorilor de energie termică, numai pentru cantitatea de gaze naturale utilizată la producerea de energie termică în centralele de cogenerare și în centralele termice destinată consumului populației, se stabilește de către fiecare furnizor ca sumă a următoarelor componente, după cum urmează:
+
+a) componenta de achiziție stabilită în condițiile prevăzute la art. 2;
+
+b) componenta de furnizare stabilită în condițiile prevăzute la art. 3;
+
+c) componentele reprezentate de tarifele reglementate/stabilite conform reglementărilor Autorității Naționale de Reglementare în Domeniul Energiei, în vigoare pe perioada de aplicare a prevederilor prezentei ordonanțe de urgență, pentru serviciile prestate de către operatorii sistemelor de distribuție și transport al gazelor naturale, cu excepția celor incluse în componenta de achiziție, și/sau tarifele pentru accesul terților la conductele de alimentare din amonte stabilite de către operatorul conductei de alimentare din amonte și/sau tarifele pentru prestarea serviciului de distribuție dintr-un sistem de distribuție închis stabilit de către operatorul economic care desfășoară această activitate;
+
+d) componentele reprezentate de TVA și accize.
+
+(2) Pentru clienții prevăzuți la alin. (1), cu excepția celor preluați în regim de ultimă instanță, prețul final facturat de către fiecare furnizor de gaze naturale este valoarea cea mai mică dintre:
+
+a) prețul contractual;
+
+b) prețul final calculat conform prevederilor alin. (1).
+
+(3) Prețul final facturat de către furnizorii de ultimă instanță clienților casnici, denumiți în continuare CC, precum și producătorilor de numai pentru cantitatea de gaze naturale utilizată la producerea de energie termică în centralele de cogenerare și în centralele termice destinată consumului populației, preluați de către aceștia în regim de ultimă instanță se stabilește de către fiecare furnizor de ultimă instanță în conformitate cu alin. (1).
+
+## Art. 2.-(1) Componenta de achiziție include:
+
+a) costul mediu ponderat, denumit în continuare CMP reprezentând contravaloarea gazelor naturale achiziționate de către furnizor de pe piața angro de gaze naturale, inclusiv din import, și, dacă este cazul, costul gazelor extrase din depozitele de înmagazinare, și/sau valoarea de transfer între activitatea de producție și activitatea de furnizare în cazul producătorilor care furnizează gaze naturale clienților finali;
+
+b) contravaloarea dezechilibrului realizat, dar nu mai mult de 10% din CMP.
+
+(2) CMP se calculează de către fiecare furnizor pentru fiecare lună din perioada de aplicare a prevederilor prezentei ordonanțe de urgență, pentru asigurarea cantităților necesare acoperirii consumului clienților prevăzuți la art. 1 alin. (1) astfel:
+
+CMPi = \\frac Qpri \\times Pr + Qpci \\times PcQ i
+
+unde:
+
+i - categoria de client final - CC sau producători de energie termică, numai pentru cantitatea de gaze naturale utilizată la producerea de energie termică în centralele de cogenerare și în centralele termice destinată consumului populației);
+
+Qpri - cantitatea de gaze naturale achiziționată și/sau extrasă din depozitele de înmagazinare la Pr, pentru categoria de client final “i”;
+
+Pr - prețul gazelor naturale conform prevederilor art. 6 la care se adaugă costul serviciilor de rezervare de capacitate de intrare în Sistemul Național de Transport și costul de înmagazinare, care conține costul de transport aferent gazelor naturale înmagazinate în depozitele subterane și costul aferent prestării serviciilor de înmagazinare;
+
+Opci - cantitatea de gaze naturale achiziționată și/sau extrasă din depozitele de înmagazinare la preț concurențial și furnizată pentru categoria de client final “i”, în situația în care cantitățile de gaze naturale achiziționate la Pr nu sunt suficiente la nivel zilnic și/sau lunar;
+
+Pc – prețul concurențial din toate contractele la termen și din piața la vedere - SPOT, la care se adaugă costul serviciilor de rezervare de capacitate de intrare în Sistemul Național de Transport și costul de înmagazinare, care conține costul de transport aferent gazelor naturale înmagazinate în depozitele subterane și costul aferent prestării serviciilor de înmagazinare, cu excepția celor achiziționate la Pr, și/sau, prețul de transfer între activitatea de producție și activitatea de furnizare în cazul producătorilor care furnizează gaze naturale clienților finali.
+
+Qi - cantitatea de gaze naturale furnizată pentru categoria de client final “i”.
+
+(3) Componenta de achiziție pentru luna de facturare n+1 poate conține și o componentă de ajustare calculată pentru luna n+1 ca diferență între componenta de achiziție calculată și inclusă în prețul final facturat pentru luna n-1 și valoarea acesteia realizată în luna n-1.
+
+Art. 3. - Componenta de furnizare a gazelor naturale este de maximum 15 lei/MWh.
+
+Art. 4. - (1) Pentru calculul aferent fiecărui spațiu locativ din condominiu, consumul de gaze naturale se determină prin împărțirea consumului total anual al asociației de proprietari/locatari la numărul de spații locative care fac parte din respectivul condominiu.
+
+(2) În cazul cartierelor de tip rezidențial pentru care furnizorii au încheiate contracte de furnizare cu primăriile, respectiv dezvoltatorii imobiliari/asociațiile de proprietari ale dezvoltărilor imobiliare, iar locurile de consum ale CC sunt facturate la comun printr-o singură factură, pentru determinarea consumului aferent respectivelor contracte și împărțirea la nivelul beneficiarilor CC sunt aplicabile dispozițiile alin. (1).
+
+Art. 5. – (1) Prin derogare de la prevederile art. 143 alin. (2) din Legea nr. 123/2012, cu modificările și completările ulterioare, în perioada 1 aprilie 2026 - 31 octombrie 2026, furnizorii de gaze naturale/producătorii de energie termică în centralele de cogenerare și în centralele termice în calitate de clienți direcți ai producătorilor de gaze naturale, denumiți în continuare PET client direct, constituie în depozitele de înmagazinare subterană a gazelor naturale un stoc minim de gaze naturale pentru asigurarea continuității și siguranței în alimentarea clienților lor finali/asigurarea consumului propriu și suportabilității prețului de către aceștia; stocul minim va reprezenta minimum 90% din capacitatea de înmagazinare a depozitelor subterane la nivel național, conform anexei care face parte integrantă din prezenta ordonanță de urgență.
+
+(2) Stocul minim al PET client direct constituit în depozitele de înmagazinare subterană este destinat producerii de energie termică pentru încalzirea populației.
+
+(3) Furnizorii de gaze naturale/PET client direct își constituie stocul minim de gaze naturale prin:
+
+a) înmagazinarea gazelor naturale în nume propriu, prin încheierea de contracte de înmagazinare subterană a gazelor naturale cu unul dintre titularii licenței de operare a sistemelor de înmagazinare subterană a gazelor naturale; și/sau
+
+b) cantități de gaze naturale existente în stoc din ciclurile anterioare de înmagazinare; și/sau
+
+c) încheierea, până la data de 31 octombrie 2026, de contracte de vânzare-cumpărare ce au ca obiect cantități de gaze naturale provenite din depozitele de înmagazinare subterană a gazelor naturale, înmagazinate de un alt furnizor de gaze naturale; și/sau
+
+d) încheierea de contracte de mandat cu un alt furnizor, în vederea înmagazinării gazelor naturale.
+
+Art. 6. - (1) În perioada 1 aprilie 2026 - 31 martie 2027, producătorii de gaze naturale care desfășoară atât activități de extracție onshore și/sau offshore, indiferent de data începerii acestei activități, cât și activități de vânzare a gazelor naturale au obligația să livreze, cu prețul de 110 lei/MWh, cantitățile necesare de gaze naturale rezultate din activitatea de producție internă către furnizori și PET client direct, pentru a asigura, în următoarea ordine de prioritate:
+
+a) în perioada 1 aprilie 2026 - 31 octombrie 2026, necesarul de gaze naturale destinat furnizorilor pentru constituirea stocului minim necesar consumului CC în perioada 1 noiembrie 2026 - 31 martie 2027, stabilit conform anexei;
+
+b) în perioada 1 aprilie 2026 - 31 octombrie 2026, necesarul destinat furnizorilor pentru constituirea stocului minim necesar consumului producătorilor de energie termică, numai pentru cantitatea de gaze naturale utilizată la producerea de energie termică în centralele de cogenerare și în centralele termice destinată consumului populației, denumiți în continuare PET și consumului PET client direct, în perioada 1 noiembrie 2026 - 31 martie 2027, stabilit conform anexei;
+
+c) în perioada 1 aprilie 2026 - 31 martie 2027, necesarul de gaze destinat furnizorilor pentru consumul curent al CC, stabilit conform anexei;
+
+d) în perioada 1 noiembrie 2026 - 31 martie 2027, necesarul de gaze pentru consumul curent al PET și PET client direct, stabilite conform anexei.
+
+(2) Prețul gazelor naturale prevăzut la alin. (1) aferent perioadei 1 aprilie 2026 - 31 martie 2027 va putea fi modificat prin hotărâre a Guvernului, inițiată în conformitate cu dispozițiile art. 180 din Legea nr. 123/2012, cu modificările și completările ulterioare, în funcție de evoluțiile înregistrate pe piețele interne și internaționale de gaze naturale și de evoluția geopolitică.
+
+(3) La încheierea contractelor aferente perioadei 1 aprilie 2026-31 martie 2027, părțile vor include clauze care să permită aplicarea prevederilor alin. (2).
+
+(4) În categoria CC, prevăzuți la alin. (1), sunt cuprinși și CC din condominii și cartiere de tip rezidențial.
+
+(5) Prezenta ordonanță de urgență nu modifică și nu afectează regimul juridic, fiscal și economic stabilit prin acordurile petroliere conform prevederilor Legii petrolului nr. 238/2004, cu modificările și completările ulterioare, redevența și celelalte obligații financiare se determină potrivit regimului juridic specific aplicabil acestora.
+
+(6) Pentru cantitățile de gaze naturale care intră sub incidența prevederilor alin. (1), președintele Autorității Naționale de Reglementare în Domeniul Minier, Petrolier și al Stocării Geologice a Dioxidului de Carbon va emite, în 15 zile de la data intrării în vigoare a prezentei ordonanțe de urgență, luând în considerare prețul de vânzare al gazelor naturale de 110 lei/MWh conform alin. (1), un ordin pentru stabilirea și plata redeventei petroliere datorată de către producătorii de gaze naturale care aplică prevederile prezentei ordonanțe de urgență.
+
+(7) În funcție de evoluțiile ulterioare de pe piața gazelor naturale, Autoritatea
+
+Națională de Reglementare în Domeniul Energiei va actualiza modul de calcul al cantităților de gaze naturale destinate consumului CC și PET pentru perioada 1 aprilie 2026 - 31 martie 2027, astfel cum este stabilit în anexă.
+
+Art. 7. - Cantitățile de gaze naturale prevăzute la art. 6 sunt exceptate de la aplicarea prevederilor Ordonanței Guvernului nr. 7/2013 privind instituirea impozitului asupra veniturilor suplimentare obținute ca urmare a dereglementării prețurilor din sectorul gazelor naturale, aprobată cu modificări prin Legea nr. 73/2018, cu modificările și completările ulterioare, și de la prevederile art. 20 din Legea nr. 256/2018 privind unele măsuri necesare pentru implementarea operațiunilor petroliere de către titularii de acorduri petroliere referitoare la perimetre petroliere offshore și onshore de adâncime, republicată, cu modificările și completările și completările ulterioare.
+
+Art. 8. – (1) Nerespectarea de către furnizorii de gaze naturale și producătorii de gaze naturale a obligațiilor prevăzute la art. 1-6 și la pct.10 din anexă constituie contravenție și se sancționează cu amendă contravențională cuprinsă între 1% și 5% din cifra de afaceri anuală din anul financiar anterior sancționării.
+
+(2) Contravențiile prevăzute în prezenta ordonanță de urgență săvârșite de către furnizorii de gaze naturale în raport cu clienții PET precum și nerespectarea obligațiilor prevăzute la art. 6 se constată și se sancționează de către reprezentanții împuterniciți ai Autorității Naționale de Reglementare în domeniul Energiei. Aplicarea sancțiunilor contravenționale prevăzute în prezenta ordonanță de urgență raportate la cifra de afaceri se realizează în condițiile dispozițiilor art. 198 alin. (2) și (3) din Legea nr. 123/2012, cu modificările și completările ulterioare.
+
+(3) Prin cifra de afaceri anuală se înțelege cifra de afaceri a persoanei juridice contraveniente realizată din activitatea licențiată, în anul financiar anterior sancționării faptei. În cazul în care, în anul financiar anterior sancționării, întreprinderea nu a înregistrat cifră de afaceri sau aceasta nu poate fi determinată, va fi luată în considerare cea aferentă anului financiar în care contravenientul a înregistrat cifră de afaceri, an imediat anterior anului de referință pentru calcularea cifrei de afaceri în vederea aplicării sancțiunii. În ipoteza în care nici în anul anterior anului de referință pentru calcularea cifrei de afaceri în vederea aplicării sancțiunii contravenientul nu a realizat cifră de afaceri, va fi luată în calcul ultima cifră de afaceri înregistrată. (4) Nerespectarea obligațiilor prevăzute la pct. 5,7-9 și 16 din anexă constituie contravenție și se sancționează cu amendă contravențională cuprinsă între 100.000 și 1.000.000 lei. (5) Constatarea contravențiilor săvârșite de către furnizorii/operatorii de distribuție de gaze naturale în raport cu CC și aplicarea sancțiunilor prevăzute în prezenta ordonanță de urgență se realizează de către persoanele împuternicite din cadrul Autorității Naționale pentru Protecția Consumatorilor. (6) Contravențiile săvârșite de către operatorul de transport și sistem gaze naturale prevăzute în prezenta ordonanță de urgență se constată și se sancționează de către reprezentanții împuterniciți ai Autorității Naționale de Reglementare în domeniul Energiei. (7) În cazul în care contravenientul este persoană juridică nou-înființată și/sau care nu a înregistrat cifră de afaceri în anul anterior sancționării, pentru nerespectarea obligațiilor prevăzute la alin. (1) se aplică sancțiunea amenzii contravenționale cuprinsă 1.000.000 de lei la 10.000.000 de lei. (8) Contravențiilor prevăzute la alin. (1) și (4) le sunt aplicabile prevederile Ordonanței Guvernului nr. 2/2001 privind regimul juridic al contravențiilor, aprobată cu modificări și completări prin Legea nr. 180/2002, cu modificările și completările ulterioare, cu excepția dispozițiilor art. 8 alin. (2) lit. a), ale art. 28 alin. (1), precum și ale art. 29 din respectiva ordonanță. (9) Aplicarea sancțiunii amenzii contravenționale se prescrie în termen de 2 ani de la data săvârșirii faptei. Art. 9. – Furnizorii de gaze naturale notifică clienții prevăzuți la art. 1, odată cu prima factură transmisă după intrarea în vigoare a prezentei ordonanțe de urgență, cu privire la modificările care decurg din aplicarea prevederilor acesteia.
+
+Art. 10. - Prevederile art. 8 intră în vigoare la data
+
+2026\.
+
+PRIM-MINISTRU
+
+ILIE-GAVRIL BOLOJAN
+
+Contrasemnează:
+
+Viceprim-minjstru Marian Neacșu
+
+Ministrul energiei Bogdan-Gruia Ivan
+
+Secretarul general al Guvernului Ștefan-Rădă Oprea
+
+Ministrul muncii, familiei, tineretului și solidarității sociale Petre-Élorin Manole
+
+Ministrul fihanelor Alexandru Hazare
+
+## MODUL DE CALCUL
+
+al cantităților de gaze naturale destinate consumului CC și PET/PET client direct și a modului de calcul a obligației de constituire a stocului minim
+
+1\. Pentru stabilirea cantităților de gaze naturale necesare asigurării consumurilor prevăzute la art. 6, producătorii de gaze naturale, furnizorii, PET client direct și operatorii de înmagazinare transmit operatorului de transport și sistem, denumit în continuare, OTS, în termen de cinci zile de la intrarea în vigoare a prezentei ordonanțe de urgență, următoarele informații:
+
+a) producătorii de gaze naturale transmit următoarele informații:
+
+(i) cantitatea de gaze naturale estimată a fi produsă în perioada 1 aprilie 2026-31 martie 2027, defalcată pe fiecare lună, exprimată în MWh;
+
+(ii) cantitatea de gaze naturale destinată consumului tehnologic specific operațiunilor petroliere desfășurate de către titularii de acorduri petroliere, estimată pentru perioada 1 aprilie 2026-31 martie 2027, defalcată pe fiecare lună, în condițiile reglementărilor emise de ANRE în acest scop, exprimată în MWh;
+
+(iii) cantitatea de gaze naturale destinată consumului propriu, estimată pentru perioada 1 aprilie 2026-31 martie 2027, defalcată pe fiecare lună, exprimată în MWh;
+
+(iv) cantitatea de gaze naturale reinjectată în zăcământ în scop tehnologic în perioada 1 aprilie 2026-31 martie 2027, defalcată pe fiecare lună, pentru care nu se datorează redevența petrolieră, în condițiile reglementărilor emise de ANRE în acest scop, exprimată în MWh;(v) cantitatea de gaze naturale din producția internă curentă contractată anterior intrării în vigoare a prezentei ordonanțe de urgență, cu livrare în perioada 1 aprilie 2026-31 martie 2027, defalcată pe fiecare lună, exprimată în MWh;
+
+\- (vi) cantitatea estimată a fi produsă și livrată către clienții finali/sistemele de distribuție racordate la conductele de alimentare din amonte, în cazul în care aceasta constituie sursă unică de alimentare, exprimată în MWh;
+
+b) furnizorii de gaze naturale transmit următoarele informații:
+
+(i) cantitatea de gaze naturale estimată a fi furnizată în perioada 1 aprilie 2026-31 martie 2027, defalcată pe fiecare lună și categorie de client final: casnic CC, noncasnic
+
+NC, producător de energie termică PET (încălzire pentru populație PETCC sau gaze naturale cu altă destinație PETNC), exprimată în MWh;
+
+(ii) cantitatea de gaze naturale estimată a fi deținută în depozitele de înmagazinare din ciclurile anterioare de înmagazinare la data de 31 martie 2026, defalcată pe fiecare categorie de client final, CC, NC, PETCC și PETNC, exprimată în MWh;
+
+(iii) cantitatea estimată a fi livrată către clienții finali racordați la conductele de alimentare din amonte sau clienți finali racordați la sisteme de distribuție cu alimentare din conductele de alimentare din amonte, exprimată în MWh;
+
+c) PET client direct transmit următoarele informații:
+
+(i) cantitatea de gaze naturale estimată a fi consumată în perioada 1 noiembrie 2026-31 martie 2027 la producerea de energie termică în centralele de cogenerare și în centralele termice, destinată consumului populației PETCC, defalcat pe fiecare lună, exprimată în MWh;
+
+(ii) cantitatea de gaze naturale estimată a fi deținută în depozitele de înmagazinare din ciclurile anterioare de înmagazinare la data de 31 martie 2026, defalcată în funcție de destinație PETCC și PETNC, exprimată în MWh;
+
+(iii) cantitatea de gaze naturale destinată producerii de energie termică pe care solicită să o înmagazineze în depozitele subterane de înmagazinare pentru încălzirea populației PETCC, exprimată în MWh.;
+
+d) operatorii de înmagazinare transmit următoarele informații:
+
+(i) capacitatea de înmagazinare a depozitelor din care este alcătuit sistemul de înmagazinare operat, exprimată în MWh;
+
+(ii)capacitatea disponibilă oferită pentru ciclul de înmagazinare 2026/2027, exprimată în MWh;
+
+(iii) cantitățile de gaze naturale existente în depozitele de înmagazinare, defalcate pe utilizatorii sistemului de înmagazinare, exprimate în MWh;
+
+(iv) cantitățile de gaze naturale estimate a fi în depozitele de înmagazinare la data de 31 martie 2026, exprimate în MWh, în funcție de programele de înmagazinare încheiate cu utilizatorii sistemului de înmagazinare.
+
+2\. În cazul participanților noi la piața de gaze naturale, datele prevăzute la pct. 1 se transmit la OTS de la data obținerii licenței de furnizare, de la data procesului-verbal de punere în funcțiune a instalației de utilizare în cazul clienților finali, respectiv de la data începerii activității de producție.
+
+3\. Producătorii de gaze naturale, furnizorii și PET client direct, sunt direct răspunzători de corectitudinea informațiilor transmise conform prevederilor pct. 1.
+
+4\. Cantitățile de gaze naturale din producția internă curentă rămase disponibile fiecărui producător în perioada 1 aprilie 2026-31 martie 2027, se stabilesc ca diferența dintre cantitățile de gaze naturale estimate a fi produse de fiecare producător, cu excepția cantităților de gaze naturale destinate consumurilor tehnologice specifice operațiunilor petroliere, a consumului propriu și a cantităților de gaze naturale reinjectate în zăcăminte, în scop tehnologic, exceptate de la plata redevenței, în perioada respectivă, și cantitățile de gaze naturale din producția internă curentă contractată pentru vânzare de către fiecare producător, anterior intrării în vigoare a prezentei ordonanțe de urgență, cu livrare în perioada respectivă.
+
+5\. În termen de cinci zile lucrătoare de la data primirii informațiilor complete prevăzute la pct. 2, operatorul de transport și sistem desfășoară următoarele activități: a) calculează stocul minim ce urmează a fi înmagazinat în depozitele de înmagazinare subterană reprezentând 90 % din capacitatea de înmagazinare a SÎ la nivel național;
+
+b) calculează stocul pe care titularii licențelor de furnizare a gazelor naturale au obligația de a-l constitui în depozitele de înmagazinare subterană, reprezentând 90 % din capacitatea de înmagazinare a Sî din care se scad cantitățile de gaze naturale deținute de OTS în vederea operării și echilibrării SNT, precum și cantitățile de gaze naturale destinate producerii de energie termică pe care PET client direct solicită să o înmagazineze:
+
+\\sum Q \_ F u r \_ i ^ D e p = 0, 9 \* S \\hat I - Q \_ O T S ^ D e p - \\sum Q \_ P E T \_ j ^ D e p C C - \\sum Q \_ P E T \_ j ^ D e p N C,
+
+în care:
+
+\\sum Q\_Fur\_iDep cantitatea totală de gaze naturale destinată stocului minim al furnizorilor;
+
+Sî-capacitatea sistemului de înmagazinare la nivel național;
+
+Q\_OTSDep - cantitățile de gaze naturale estimate de OTS a fi deținute în depozitele de înmagazinare în vederea operării și echilibrării SNT;
+
+\\sum Q\_PET\_jDepCC - cantitatea totală de gaze naturale destinată încălzirii populației pe care PET client direct solicită să o înmagazineze în depozitele subterane de înmagazinare în perioada 1 aprilie 2026-31 octombrie 2026;
+
+\\sum Q\_PET\_jDepNC - cantitatea totală de gaze naturale cu altă destinație estimată de PET client direct a fi deținută în depozitele de înmagazinare, la data de 31 martie 2026;
+
+c) cantitatea totală de gaze naturale destinată stocului minim al furnizorilor \\sum Q\_FuriDep, determinată conform prevederilor lit. b) este defalcată pe fiecare titular al licenței de furnizare în funcție de ponderea pe care o are cantitatea de gaze naturale estimată a fi furnizată de către furnizorul respectiv în perioada 1 aprilie 2026- 31 martie 2027 în totalul cantității estimate a fi furnizată la nivel național, în aceeași perioadă.
+
+d) stocul minim al fiecărui furnizor i se defalcă pro-rata cu consumul estimat al fiecărei categorii de client final: casnic, noncasnic, producător de energie termică - încălzire pentru populație sau gaze naturale cu altă destinație în perioada 1 noiembrie 2026-31 martie 2027 din totalul cantității estimate a fi furnizate de furnizorul i în aceeași perioadă;
+
+Q \_ F u r \_ i ^ D e p = Q \_ F u r \_ i ^ D e p C C + Q \_ F u r \_ i ^ D e p N C + Q \_ F u r \_ i ^ D e p P E T C C + Q \_ F u r \_ i ^ D e p P E T N C
+
+în care:
+
+Q\_Fur\_iDep - cantitatea de gaze naturale reprezentând stocul minim al furnizorului i;
+
+Q\_FuriDepCC - cantitatea de gaze naturale al furnizorului i, destinată stocului minim al CC; Q\_FuriDepNC - cantitatea de gaze naturale al furnizorului i, destinată stocului minim al NC; Q\_FuriDepPETCC - cantitatea de gaze naturale al furnizorului i, destinată stocului minim al PETCC;
+
+Q\_FuriDepPETNC - cantitatea de gaze naturale al furnizorului i, destinată stocului minim al PETNC;
+
+e) determină și transmite producătorilor, furnizorilor, PET client direct și Autorității Naționale de Reglementare în Domeniul Energiei cantitățile totale de gaze naturale pentru care fiecare producător k are obligația să încheie contracte de vânzare-cumpărare cu furnizorii/PET client direct, pentru gazele naturale destinate înmagazinării în vederea constituirii stocului minim și a necesarului de consum CC și pentru încălzirea populației, în următoarea ordine de prioritate:
+
+i. Cantități de gaze naturale destinate înmagazinării în vederea constituirii stocului minim pentru furnizorii CC și PET client direct (numai componenta pentru încălzirea populației) în perioada 1 aprilie 2026-31 octombrie 2026
+
+Q \_ F u r \_ i / P E T \_ j ^ P r o d K d e p = (\\sum Q \_ F u r \_ i ^ D e p C C + \\sum Q \_ F u r \_ i ^ D e p P E T C C + \\sum Q \_ P E T \_ j ^ D e p C C - \\left. \\sum Q \_ F u r \_ i / P E T \_ j ^ D e p o E x i s C C\\right) \* \\frac P r o d \_ k\\sum\_ k = 1 ^ n P r o d \_ k,
+
+în care:
+
+Q\_Fur\_i/PET\_jProdKdep - cantitatea de gaze naturale aferentă perioadei 1 aprilie 2026-31 octombrie 2026, pe care producătorul k este obligat să o vândă furnizorilor/PET client direct în vederea constituirii stocului minim;
+
+Q\_Fur\_i/PET\_jDepoExisCC - cantitatea de gaze naturale pe care furnizorul i și PET client direct j o estimează a fi deținută în depozite pentru CC și PETCC, la data de 31 martie 2026;
+
+Prod\_k - cantitatea de gaze naturale estimată a fi produsă de producătorul k, cu excepția: cantităților de gaze naturale destinate consumurilor tehnologice specifice operațiunilor petroliere, a consumului propriu și a cantităților de gaze naturale reinjectate în zăcăminte, în scop tehnologic, exceptate de la plata redevenței, în perioada 1 aprilie 2026-31 martie 2027;
+
+\\sum\_k=1n Prod\_k – cantitatea totală de gaze naturale estimată a fi produsă de producătorii de gaze naturale în perioada 1 aprilie 2026-31 martie 2027, cu excepția: cantităților de gaze naturale destinate consumurilor tehnologice specifice operațiunilor petroliere, a consumului propriu precum și a cantităților de gaze naturale reinjectate în zăcăminte, în scop tehnologic, exceptate de la plata redevenței, în perioada 1 aprilie 2026-31 martie 2027.
+
+ii. Cantități de gaze naturale destinate consumului curent al CC în perioada 1 aprilie 2026-31 martie 2027, în măsura în care sunt disponibile cantități de gaze naturale la producători cu livrare în perioada respectivă:
+
+Q \_ F u r \_ i ^ P r o d K C C I = \\sum Q \_ F u r \_ i ^ C C \* \\frac P r o d \_ k\\sum\_ k = 1 ^ n P r o d \_ k,
+
+în care:
+
+Q\_FuriProdKCCI - cantitatea de gaze naturale aferentă perioadei 1 aprilie 2026-31 octombrie 2026 pe care producătorul k este obligat să o vândă furnizorilor în vederea asigurării consumului CC;
+
+Q\_FuriCC - cantitatea de gaze naturale estimată a fi furnizată CC de furnizorul i în perioada 1 aprilie 2026 - 31 octombrie 2026;
+
+Q \_ F u r \_ i ^ P r o d K C C I I = \\sum (Q \_ F u r \_ i ^ C C I I - Q \_ F u r \_ i ^ S t o c C C) \* \\frac P r o d \_ k\\sum\_ k = 1 ^ n P r o d \_ k
+
+În care:
+
+Q\_FuriProdKCCII - cantitatea de gaze naturale aferentă perioadei 1 noiembrie 2026-31 martie 2027, pe care producătorul k este obligat să o vândă furnizorilor în vederea asigurării consumului CC
+
+Q\_FuriStocCC - cantitățile de gaze naturale existente în depozitele de înmagazinare destinate CC.
+
+Q\_FuriCC II - cantitatea de gaze naturale estimată a fi furnizată CC de furnizorul i în perioada 1 noiembrie 2026 - 31 martie 2027.
+
+iii. cantitățile de gaze naturale destinate producerii energiei termice în centralele de cogenerare și în centralele termice, destinată consumului populației în perioada 1 noiembrie 2026 - 31 martie 2027, în măsura în care sunt disponibile cantități de gaze naturale la producători cu livrare în perioada respectivă
+
+Q \_ F u r i / P E T \_ j ^ P r o d K P E T C C = \\sum (Q \_ F u r i / P E T \_ j ^ P E T C C - Q \_ F u r i / P E T \_ j ^ S t o c P E T C C) \* \\frac P r o d \_ k\\sum\_ k = 1 ^ n P r o d \_ k,
+
+în care
+
+Q\_Furi/PET\_jProdKPETCC - cantitatea de gaze naturale aferentă perioadei 1 noiembrie 2026 - 31 martie 2027, pe care producătorul k este obligat să o vândă PETCC client direct/furnizorilor PETCC;
+
+Q\_Furi/PET\_jPETCC - cantitatea de gaze naturale estimată de către PET client direct j/furnizor i pentru a fi consumată în perioada 1 noiembrie 2026 - 31 martie 2027 la producerea de energie termică în centralele de cogenerare și în centralele termice, destinată consumului populației;
+
+Q\_Furi/PET\_jStocPETCC – cantitatea de gaze naturale existentă în depozitele de înmagazinare aferentă PET client direct j/furnizor i pentru producția de energie termică pentru populație.
+
+f) determină și transmite furnizorilor și Autorității Naționale de Reglementare în Domeniul Energiei cantitățile de gaze naturale destinate înmagazinării în vederea constituirii stocului minim pentru categoriile de clienți NC și și PETNC, stabilite conform pct. 5 lit. c) și d).
+
+6\. În cazul în care clienții CC și PETCC ai unui furnizor se transferă către un alt furnizor, cantitățile de gaze naturale aferente acestora și, implicit, contractele cu producătorii pentru aceste cantități se transferă către respectivul furnizor. Costul unitar al gazelor naturale este cel prevăzut la art. 6 la care se adaugă tarifele reglementate.
+
+7\. Furnizorii și PET client direct implicați în transfer transmit la operatorul de transport o solicitare însoțită de următoarele informații:
+
+a) perioada pentru care intervine modificarea livrărilor de gaze naturale/consumului estimat de gaze naturale;
+
+b) fundamentarea majorării/reducerii livrărilor de gaze naturale/consumului estimat de gaze naturale.
+
+8\. În termen de 5 zile lucrătoare de la data primirii documentelor precizate la pct. 7, operatorul de transport și sistem recalculează cantitățile aferente. Aceasta se comunică părților implicate care, în termen de maximum 5 zile de la data comunicării, au obligația de a încheia un contract/act adițional, după caz, pentru transferarea cantităților de gaze naturale.
+
+9\. În situația modificării portofoliilor de clienți finali ca urmare a exercitării de către aceștia a dreptului de schimbare a furnizorului de gaze naturale/trecerii la furnizarea în regim de ultimă instanță, cantitățile de gaze naturale înmagazinate în baza prezentei ordonanțe de urgență, cât și capacitățile rezervate aferente se transferă între furnizori în condițiile prevăzute la pct. 6.
+
+Noul furnizor are obligația de a solicita vechiului furnizor transferul cantităților de gaze naturale înmagazinate și al capacității rezervate aferente. Capacitatea rezervată și neutilizată, aferentă clienților finali care și-au schimbat furnizorul, se transferă obligatoriu noului furnizor.
+
+Volumele de gaze naturale aferente consumului CC și PETCC care fac obiectul transferului sunt egale cu volumele transmise/considerate de furnizorul inițial pentru clienții care fac obiectul transferului, calculate proporțional cu ponderea pe care o are consumul estimat al fiecărei categorii în totalul consumului estimat transmis de către furnizor.
+
+În situația transferului între furnizori, respectiv între PET client direct (componenta PETCC) și furnizor, a cantităților alocate în baza prezentei ordonanțe de urgență, la determinarea acestor cantități se utilizează media zilnică aferentă intervalului, înmulțită cu numărul de zile din fiecare lună.
+
+Livrarea cantităților de gaze naturale prevăzute la pct. 1 se realizează în baza contractelor încheiate între producător și furnizorii CC și ai PET/PET client direct. Cumpărătorul are obligația de a constitui în favoarea producătorului o garanție financiară de plată pentru acoperirea riscului de neachitare a facturilor emise de producător sau de a plăti în avans contravaloarea gazelor naturale livrate, cu cel puțin două zile lucrătoare înainte de data începerii livrărilor.
+
+10\. La sfârșitul perioadei de livrare, furnizorul/PET client direct completează o declarație pe propria răspundere referitoare la destinația gazelor naturale achiziționate în baza prezentei ordonanțe de urgență. Cumpărătorul are obligația de a respecta destinația gazelor naturale cumpărate.
+
+11\. În situația transferului între furnizori, respectiv între PET client direct (componenta PETCC) și furnizor a cantităților alocate în baza prezentei ordonanțe de urgență, la determinarea acestor cantități se utilizează media zilnică aferentă intervalului, înmulțită cu numărul de zile din fiecare lună.
+
+12\. În situația în care cantitatea totală de gaze naturale determinată în conformitate cu formulele prevăzute la pct. 5 diferă de totalul producției disponibile a producătorilor pentru perioada respectivă, obligația de vânzare a fiecărui producător se ajustează proporțional cu ponderea disponibilului fiecărui producător în disponibilul total pentru perioada respectivă. Alocarea cantităților destinate fiecărui furnizor/PET client direct se determină aplicând cantităților calculate pentru aceștia ponderea obligației ajustate în totalul cantităților calculate pentru fiecare producător. Defalcarea cantităților destinate înmagazinării pentru CC și PET se realizează proporțional cu ponderea consumului CC și PETCC în necesarul de consum.
+
+13\. Pentru simplificarea procesului de contractare, OTS atribuie cantitățile de gaze naturale din producția internă pe care producătorii de gaze naturale au obligația de a le vinde furnizorilor CC și ai PETCC/PET client direct (componenta PETCC), conform următoarelor principii:
+
+a) primii furnizori cu cota de piață cea mai mare vor achiziționa toate cantitățile pe care producătorii cu cota de piață cea mai mică au obligația să le vândă, după caz, conform alocării OTS;
+
+b) diferența necesarului de consum al CC și al PETCC, după caz, al primilor furnizori cu cota de piață cea mai mare rămasă neacoperită va fi achiziționată proporțional cu cota de piață deținută de primii producători cu cota de piață cea mai mare;
+
+c) furnizorii cu cota de piață cea mai mică/PET client direct vor achiziționa cantitățile de gaze naturale necesare consumului CC și PETCC, după caz, de la producătorii cu cota de piață cea mai mare, conform alocării OTS.
+
+14\. Prin derogare de la prevederile Regulamentului de programare și funcționare a depozitelor de înmagazinare subterană a gazelor naturale, aprobat prin Ordinul președintelui Autorității Naționale de Reglementare în Domeniul Energiei nr. 141/2021, pentru etapa de injecție 1 aprilie 2026-31 octombrie 2026 solicitanții pot depune cererile de acces la sistemul de înmagazinare în termen de maximum 5 zile lucrătoare de la primirea datelor prevăzute la pct. 5. Accesul la capacitatea de înmagazinare se asigură cu prioritate titularilor licențelor de furnizare a gazelor naturale și PET client direct, în limita cantităților reprezentând stocul minim, calculate în conformitate cu prevederile prezentei ordonanțe de urgență.
+
+15\. Ulterior împlinirii termenului de 5 zile lucrătoare prevăzut la pct. 14, capacitatea de înmagazinare disponibilă se alocă pe baza principiului „primul venit - primul servit”, inclusiv solicitanților care nu au obligația constituirii stocului minim de gaze în depozitele de înmagazinare subterană.
+
+16\. Fiecare furnizor/PET client direct raportează către ANRE gradul de îndeplinire a obligației de constituire a stocului minim la fiecare din termenele prevăzute în cadrul trajectoriei de constituire a stocului minim, stabilit în conformitate cu prevederile art. 6a alin. (7) din Regulamentul (UE) 2017/1.938 al Parlamentului European și al Consiliului din 25 octombrie 2017 privind măsurile de garantare a siguranței furnizării de gaze și de abrogare a Regulamentului (UE) nr. 994/2010.
+
+Obiectivele intermediare pentru lunile mai, iulie și septembrie 2026 sunt prevăzute în tabelul următor:
+
+| Obiectivul intermediar la 1 mai | Obiectivul intermediar la 1 iulie | Obiectivul intermediar la 1 septembrie | Obiectivul de constituire de stocuri la 1 noiembrie |
+| --- | --- | --- | --- |
+| 29% | 59% | 84% | 90% |

@@ -1,0 +1,136 @@
+{
+  "billId": "PL-x 204/2026",
+  "slug": "plx-204-2026",
+  "version": "initiator",
+  "updatedAt": "2026-10-29T11:42:59.500Z",
+  "consensus": {
+    "riskScore": 4.3,
+    "riskLevel": "yellow",
+    "plainTitle": "Toate site-urile statului trebuie să accepte logarea cu ROeID",
+    "summaryTlDr": "Ideea e bună și necesară: un singur cont pentru toate platformele statului, iar pentru cetățeni folosirea rămâne voluntară. Textul e însă scris neglijent: ADR acreditează după bunul plac operatorii privați, înrolarea biometrică nu are reguli, iar amenzile îi lovesc pe șefii instituțiilor fără ca legea să le dea bani pentru integrare.",
+    "initiatorClaim": "Inițiatorii (PSD, PNL, USR, AUR) spun că platformele statului folosesc multe conturi și sisteme de autentificare nearmonizate, cu costuri redundante și vulnerabilități. Mai spun că ROeID e folosit puțin pentru că nu e obligatoriu. Vor un login unic, standardizat și aliniat la Portofelul European de Identitate Digitală.",
+    "realityCheck": "Legea obligă toate entitățile publice să integreze ROeID sau un serviciu acreditat de ADR în 24 de luni de la publicare (12 luni vacatio legis plus 12 luni termen, art. 11 și art. 4). Asta include ministere, primării și entitățile aflate sub controlul lor. Dacă nu reușesc, conducătorii primesc amendă de 5.000–10.000 lei (art. 10). Pentru beneficiari folosirea e voluntară (art. 3 alin. 4), dar expunerea de motive anunță «eliminarea sistemelor paralele», iar legea nu garantează păstrarea conturilor online existente, deci alternativa reală poate deveni ghișeul. Funcționarii de la art. 3 alin. (3) lit. c)-d) nu sunt acoperiți de voluntariat și ar putea fi obligați să se înroleze, inclusiv prin metodele biometrice din art. 8.",
+    "affectedGroups": [
+      "Toți cetățenii",
+      "IMM & Antreprenori",
+      "IT & AI",
+      "Angajați & HR"
+    ],
+    "senatForm": {
+      "articleRef": "Art. 3 alin. (4) și art. 10 alin. (1)",
+      "proposalContent": "Alin. (4) va avea cuprinsul: «Utilizarea ROeID sau a serviciului acreditat de către beneficiari este voluntară. Cei care nu le folosesc păstrează accesul la ghișeu, prin poștă și prin conturile online existente, fără taxe, termene sau condiții mai grele.» La art. 10 alin. (1), «art. 3 alin. (1)-(3)» devine «art. 3 alin. (1), (3), (4) și (6)».",
+      "argumentation": "Expunerea de motive anunță «eliminarea sistemelor paralele de autentificare», iar art. 3 alin. (5) permite mecanisme interne doar «în alte cazuri». Fără această precizare, cine nu are telefon compatibil sau refuză înrolarea biometrică (art. 8) poate rămâne doar cu ghișeul. Art. 10 amendează întârzierea integrării, nu și refuzul alternativelor sau al portofelelor UE.",
+      "otherComments": "Art. 3 alin. (2): criteriile, termenul și calea de contestare a acreditării trebuie scrise în lege; ADR operează ROeID și acreditează concurenții. Art. 8: listă închisă de metode și fără păstrarea datelor biometrice după înrolare. Funcționarii (art. 3 alin. (3) lit. c-d) primesc mijloace de la angajator. Normele (art. 11 alin. (2)) să apară înainte de intrarea în vigoare."
+    }
+  },
+  "council": {
+    "agy": {
+      "model": "agy",
+      "status": "ok",
+      "durationMs": 56948,
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Autentificare unică prin ROeID în toate platformele digitale ale statului",
+      "verdictShort": "O inițiativă necesară care obligă instituțiile publice să accepte autentificarea unică (Single Sign-On) prin ROeID și păstrează utilizarea voluntară pentru cetățeni, dar care suferă de erori de tehnică legislativă. Textul introduce validarea biometrică fără garanții de ștergere a datelor, lasă acreditarea furnizorilor privați la discreția ADR și amână aplicarea efectivă cu 2 ani.",
+      "initiatorClaim": "Inițiatorii vor să elimine haosul zecilor de conturi și parole diferite cerute de instituțiile publice, obligând toată administrația să integreze sistemul național ROeID sau un serviciu acreditat eIDAS și să se alinieze la Portofelul European de Identitate Digitală.",
+      "realityCheck": "Legea sancționează conducătorii instituțiilor publice (nu cetățenii) dacă nu implementează autentificarea unică, însă amână intrarea în vigoare cu 12 luni plus încă 12 luni pentru implementare (24 de luni în total). În plus, obligă la înrolarea persoanelor juridice și a funcționarilor printr-un sistem definit doar pentru cetățeni (prin buletin și biometrie) și creează un regim discreționar de acreditare anuală a serviciilor alternative de către președintele ADR.",
+      "affectedGroups": [
+        "Toți cetățenii",
+        "IMM & Antreprenori",
+        "IT & AI",
+        "Angajați & HR",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Art. 3 alin. (4) protejează corect cetățenii: utilizarea ROeID este voluntară pentru beneficiari, iar persoanele care nu folosesc identificarea electronică își păstrează accesul la serviciile publice prin celelalte mijloace legale.",
+        "Art. 8 reglementează înrolarea prin „validarea biometrică” și identificare video fără a institui nicio garanție privind ștergerea imediată a datelor biometrice după verificare sau interdicția stocării lor centralizate.",
+        "Art. 3 alin. (2) și Art. 5 afectează concurența: președintele ADR „poate acredita” anual servicii alternative fără criterii clare în lege, iar Art. 5 obligă ca platformele publice noi să fie proiectate nativ exclusiv pentru ROeID, omițând serviciile acreditate.",
+        "Incoerență tehnică între Art. 2 lit. a), Art. 3 alin. (3) lit. b) și Art. 8: legea obligă utilizarea ROeID pentru „persoanele juridice”, deși definește ROeID strict ca sistem de identificare a cetățenilor, iar înrolarea se face pe bază de act de identitate și biometrie.",
+        "Termene contradictorii și excesive: legea intră în vigoare la 12 luni de la publicare (Art. 11 alin. 1), acordă încă 12 luni pentru implementare (Art. 4 alin. 1) și 18 luni pentru alinierea la Portofelul European (Art. 6 alin. 2), împingând termenele efective la 24-30 de luni."
+      ],
+      "blindSpotsCaught": "Art. 10 alin. (1) creează o contradicție sancționatorie: amendează conducătorii entităților publice atât pentru nerespectarea Art. 3 alin. (1) (aplicabil la 12 luni de la publicare), cât și a Art. 4 alin. (1) (care le oferă încă 12 luni răgaz după intrarea în vigoare). De asemenea, Art. 7 lit. c) dă în atribuția unui comitet din cadrul ADR „testarea și validarea conturilor utilizatorilor”, o atribuție operațională imposibil de exercitat de un comitet pentru milioane de conturi.",
+      "constitutionalityNote": "Sub aspectul Art. 1 alin. (5) din Constituție (calitatea și previzibilitatea legii), trimiterea standardelor tehnice și a procedurii de acreditare exclusiv în legislația secundară (Art. 6 alin. 1), dublată de contradicția termenelor de sancționare din Art. 10 alin. (1), generează insecuritate juridică. Totodată, prelucrarea datelor biometrice (Art. 8) fără garanții în legea organică/ordinară privind stocarea și ștergerea lor ridică probleme față de Art. 26 din Constituție (viața intimă, familială și privată).",
+      "euLawNote": "Proiectul vizează alinierea la Regulamentul (UE) 2024/1183 (eIDAS 2.0), însă termenul cumulat de 30 de luni de la publicare (12 luni intrare în vigoare + 18 luni la Art. 6 alin. 2) depășește calendarul european de operaționalizare a Portofelului Digital (sfârșitul anului 2026). De asemenea, impunerea unor condiții naționale de acreditare anuală a furnizorilor de identificare electronică (Art. 3 alin. 2) intră sub incidența Directivei (UE) 2015/1535 (procedura de notificare TRIS) și trebuie armonizată cu regimul schemelor notificate conform eIDAS.",
+      "senatForm": {
+        "articleRef": "Art. 3 alin. (2), Art. 5 și Art. 8",
+        "proposalContent": "La art. 3 alin. (2), sintagma „poate acredita” se înlocuiește cu „acreditează în mod nediscriminatoriu”. La art. 5, după „ROeID” se adaugă „sau a serviciilor acreditate”. La art. 8 se adaugă alin. (2): „Datele biometrice colectate la înrolare se șterg imediat după validarea identității, stocarea lor în baze de date centralizate fiind interzisă.”",
+        "argumentation": "Art. 3 alin. (2) lasă acreditarea la discreția președintelui ADR („poate acredita”), iar art. 5 exclude serviciile acreditate de la proiectarea nativă, creând un monopol de facto. Totodată, art. 8 prevede „validarea biometrică” fără garanții GDPR (art. 9) privind ștergerea imediată a șabloanelor biometrice după verificarea identității.",
+        "otherComments": "Se impune corelarea art. 3 alin. (3) lit. b) (persoane juridice) cu art. 2 lit. a) și art. 8, întrucât firmele nu se pot înrola prin carte de identitate sau biometrie. De asemenea, termenul de intrare în vigoare de 12 luni (art. 11) cumulat cu 12 luni pentru implementare (art. 4) amână nejustificat timp de 2 ani standardizarea autentificării."
+      }
+    },
+    "claude": {
+      "model": "claude",
+      "status": "ok",
+      "durationMs": 199677,
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Toate site-urile statului trebuie să accepte logarea cu ROeID",
+      "verdictShort": "Ideea e bună și necesară: un singur cont pentru toate platformele statului, iar pentru cetățeni folosirea rămâne voluntară. Textul e însă scris neglijent: ADR acreditează după bunul plac operatorii privați, înrolarea biometrică nu are reguli, iar amenzile îi lovesc pe șefii instituțiilor fără ca legea să le dea bani pentru integrare.",
+      "initiatorClaim": "Inițiatorii (PSD, PNL, USR, AUR) spun că platformele statului folosesc multe conturi și sisteme de autentificare nearmonizate, cu costuri redundante și vulnerabilități. Mai spun că ROeID e folosit puțin pentru că nu e obligatoriu. Vor un login unic, standardizat și aliniat la Portofelul European de Identitate Digitală.",
+      "realityCheck": "Legea obligă toate entitățile publice să integreze ROeID sau un serviciu acreditat de ADR în 24 de luni de la publicare (12 luni vacatio legis plus 12 luni termen, art. 11 și art. 4). Asta include ministere, primării și entitățile aflate sub controlul lor. Dacă nu reușesc, conducătorii primesc amendă de 5.000–10.000 lei (art. 10). Pentru beneficiari folosirea e voluntară (art. 3 alin. 4), dar expunerea de motive anunță «eliminarea sistemelor paralele», iar legea nu garantează păstrarea conturilor online existente, deci alternativa reală poate deveni ghișeul. Funcționarii de la art. 3 alin. (3) lit. c)-d) nu sunt acoperiți de voluntariat și ar putea fi obligați să se înroleze, inclusiv prin metodele biometrice din art. 8.",
+      "affectedGroups": [
+        "Toți cetățenii",
+        "IT & AI",
+        "Angajați & HR",
+        "Justiție & Drepturi Civile",
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate"
+      ],
+      "keyFindings": [
+        "Art. 3 alin. (2): ADR acreditează anual serviciile private de identificare, prin decizia președintelui, pe baza unui «raport de securitate». Legea nu stabilește criterii, termen de soluționare, tarif sau cale de contestare. ADR este și operatorul ROeID, deci își acreditează propriii concurenți. În plus, art. 5 cere ca platformele noi să fie proiectate nativ doar pentru ROeID, nu și pentru serviciile acreditate.",
+        "Art. 10 alin. (1): amenda de 5.000–10.000 lei se aplică personal conducătorului, nu instituției, deși integrarea depinde de buget. Legea nu prevede nicio sursă de finanțare pentru ministere, peste 3.000 de UAT-uri și entitățile subordonate. Trimiterea la art. 3 alin. (2) e o eroare, pentru că acel alineat descrie competența ADR. Încălcarea art. 3 alin. (4) și (6), care îi protejează pe cetățeni, nu este sancționată deloc.",
+        "Art. 8: înrolarea se face prin «metode precum» verificarea automată a actului, identificarea video asistată și validarea biometrică, plus «alte mijloace». Lista e deschisă. Legea nu spune cine stochează datele biometrice, cât timp și în ce scop. Simpla trimitere la GDPR din art. 6 alin. (3) nu înlocuiește garanțiile cerute de art. 9 GDPR pentru date biometrice.",
+        "Art. 3 alin. (5) permite mecanisme interne de autentificare doar «în alte cazuri» decât cele de la alin. (1)-(3), care acoperă însă toate platformele și toate categoriile de utilizatori. Nu reiese dacă actualele conturi cu utilizator și parolă pot rămâne în paralel cu ROeID.",
+        "Calendar: legea intră în vigoare la 12 luni de la publicare (art. 11 alin. 1). Normele care conțin standardele tehnice (art. 6 alin. 1) vin abia la 60 de zile după intrarea în vigoare (art. 11 alin. 2). Termenul de integrare expiră la 12 luni de la intrarea în vigoare (art. 4). Anul de vacatio legis nu poate fi folosit pentru pregătire, iar instituțiile primesc standardele cu circa 10 luni înainte de sancțiuni.",
+        "Art. 6 alin. (2) dă ROeID 18 luni de la intrarea în vigoare, adică circa 30 de luni de la publicare, pentru cerințele Portofelului European. Regulamentul (UE) 2024/1183 obligă însă statele să ofere portofelul în 24 de luni de la actele de punere în aplicare din decembrie 2024, adică în jurul lui decembrie 2026.",
+        "Art. 2 lit. a) definește ROeID ca serviciu pentru «cetățeni», iar art. 3 alin. (3) lit. a) vorbește de toate «persoanele fizice». Străinii cu drept de ședere, mai ales cei din afara UE, nu au o cale clară de identificare. Partea bună: art. 3 alin. (4) păstrează accesul pe alte căi, iar art. 3 alin. (6) obligă acceptarea portofelelor UE fără cerințe suplimentare."
+      ],
+      "blindSpotsCaught": "Titlul de la Cameră («privind implementarea unui mecanism național de identitate digitală») diferă de cel din textul inițiatorilor («privind utilizarea obligatorie a mecanismului național de identitate digitală ROeID»). E un semn că Senatul a modificat textul. Analiza de față e făcută pe forma inițiatorului, așa că amendamentul trebuie verificat pe forma adoptată de Senat. Separat: voluntariatul din art. 3 alin. (4) acoperă doar «beneficiarii serviciilor», nu și funcționarii de la art. 3 alin. (3) lit. c)-d). Aceștia ar putea fi obligați să se înroleze, eventual cu telefonul personal și cu date biometrice, iar legea nu spune cine le asigură mijloacele de autentificare.",
+      "constitutionalityNote": "Scopul e legitim și legea nu restrânge direct drepturi: folosirea e voluntară pentru cetățeni, iar art. 3 alin. (4) protejează accesul la servicii. Problemele țin de claritate (art. 1 alin. 5). Art. 3 alin. (5) e contradictoriu, iar acreditarea din art. 3 alin. (2) nu are criterii. Art. 10 sancționează obligația vagă de proiectare «nativă» din art. 5, ceea ce intră în tensiune cu art. 23 alin. (12). Pentru datele biometrice (art. 26), CCR a cerut în deciziile 1258/2009, 440/2014 și 17/2015 reguli clare și garanții stabilite prin lege. Obligațiile impuse tuturor entităților publice nu au sursă de finanțare, ceea ce ridică problema art. 138 alin. (5). Definiția largă a «entității publice» cuprinde și autorități din afara Executivului, iar sancționarea conducătorilor lor de către ADR, organ al Guvernului, e greu de împăcat cu separația puterilor (art. 1 alin. 4) și cu autonomia locală (art. 120).",
+      "euLawNote": "Regulamentul (UE) 2024/1183 este direct aplicabil. Termenul național mai lung din art. 6 alin. (2) nu amână obligațiile României, doar creează confuzie. Art. 3 alin. (6) respectă recunoașterea reciprocă a mijloacelor eID notificate. «Acreditarea» națională din art. 3 alin. (2) nu e un instrument eIDAS: regulamentul lucrează cu notificarea schemelor eID și cu evaluarea conformității prestatorilor calificați la 24 de luni. O autorizare anuală fără criterii publice poate intra sub Directiva 2006/123, care la art. 9-11 cere criterii clare și, ca regulă, durată nelimitată. Fiind o regulă privind serviciile societății informaționale, ar trebui probabil notificată prin TRIS (Directiva 2015/1535) înainte de adoptare; altfel nu poate fi opusă particularilor (CJUE, C-194/94 CIA Security). Directiva 2018/958 nu se aplică, pentru că nu e vizată o profesie reglementată. Pentru biometrie, art. 9 GDPR cere temei legal cu garanții, iar art. 36 alin. (4) GDPR cere consultarea ANSPDCP la elaborarea legii.",
+      "senatForm": {
+        "articleRef": "Art. 3 alin. (4) și art. 10 alin. (1)",
+        "proposalContent": "Alin. (4) va avea cuprinsul: «Utilizarea ROeID sau a serviciului acreditat de către beneficiari este voluntară. Cei care nu le folosesc păstrează accesul la ghișeu, prin poștă și prin conturile online existente, fără taxe, termene sau condiții mai grele.» La art. 10 alin. (1), «art. 3 alin. (1)-(3)» devine «art. 3 alin. (1), (3), (4) și (6)».",
+        "argumentation": "Expunerea de motive anunță «eliminarea sistemelor paralele de autentificare», iar art. 3 alin. (5) permite mecanisme interne doar «în alte cazuri». Fără această precizare, cine nu are telefon compatibil sau refuză înrolarea biometrică (art. 8) poate rămâne doar cu ghișeul. Art. 10 amendează întârzierea integrării, nu și refuzul alternativelor sau al portofelelor UE.",
+        "otherComments": "Art. 3 alin. (2): criteriile, termenul și calea de contestare a acreditării trebuie scrise în lege; ADR operează ROeID și acreditează concurenții. Art. 8: listă închisă de metode și fără păstrarea datelor biometrice după înrolare. Funcționarii (art. 3 alin. (3) lit. c-d) primesc mijloace de la angajator. Normele (art. 11 alin. (2)) să apară înainte de intrarea în vigoare."
+      }
+    },
+    "codex": {
+      "model": "codex",
+      "status": "ok",
+      "durationMs": 116161,
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Un singur cont pentru serviciile publice, cu garanții încă incomplete",
+      "verdictShort": "Proiectul poate simplifica accesul la administrație și păstrează expres caracterul voluntar pentru beneficiari. Necesită însă corecții privind biometria, acreditarea alternativelor și precizia sancțiunilor.",
+      "initiatorClaim": "Inițiatorii urmăresc reducerea conturilor separate, a costurilor IT și a fragmentării autentificării în administrație. Prezintă integrarea ROeID sau a serviciilor acreditate drept o cale către interoperabilitate și identitatea digitală europeană.",
+      "realityCheck": "Art. 3 obligă instituțiile să integreze ROeID sau un serviciu acreditat, dar alin. (4) permite beneficiarilor să refuze identificarea electronică și să acceseze serviciile prin alte mijloace legale. Textul nu instituie taxe pentru cetățeni, nu amendează utilizatorii și nu garantează singur schimbul de date între instituții. Alternativele sunt admise formal, însă proiectarea exclusiv pentru ROeID din art. 5, acreditarea anuală insuficient definită și înrolarea biometrică insuficient delimitată pot produce dependență tehnică și ingerințe în viața privată.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "IT & AI",
+        "Angajați & HR",
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 3 alin. (4) este o garanție reală: utilizarea este voluntară pentru beneficiari. Totuși, formularea «alte mijloace legale» nu precizează condiții echivalente de acces, costuri și termene; trebuie prevenită dezavantajarea celor care refuză identitatea digitală.",
+        "Nu există un monopol juridic explicit: art. 3 permite servicii acreditate. Totuși, art. 5 cere proiectarea nativă pentru ROeID, iar registrul din art. 9 urmărește numai ROeID; aceste texte trebuie armonizate cu acceptarea alternativelor.",
+        "Art. 3 alin. (2) nu stabilește suficient criteriile, procedura, termenele, costurile și efectele expirării acreditării anuale. ADR ar administra ROeID și ar acredita alternativele, ceea ce justifică garanții de imparțialitate, transparență și continuitate a serviciilor.",
+        "Art. 8 permite validarea biometrică fără să precizeze în acest proiect temeiul special, necesitatea, durata păstrării sau alternativa nebiometrică. Pentru biometria folosită la identificarea unică trebuie îndeplinite atât art. 6, cât și o excepție din art. 9 GDPR; simpla trimitere generală la GDPR nu rezolvă aceste cerințe.",
+        "Art. 10 prevede amenzi de 5.000–10.000 lei pentru conducătorii entităților publice. Cuantumul nu este vădit disproporționat în sine, dar trimiterea globală la art. 3 alin. (1)–(3) include și competența discreționară de acreditare a ADR, fără delimitarea clară a faptei imputabile fiecărui conducător.",
+        "Calendarul este mai lung decât sugerează termenul de 12 luni: art. 11 amână intrarea în vigoare cu 12 luni, iar art. 4 acordă încă 12 luni pentru integrare. Adaptarea ROeID la cerințele portofelului european din art. 6 alin. (2) ajunge la 30 de luni de la publicare; termenele europene aplicabile nu sunt prelungite prin această lege.",
+        "Integrarea, securizarea și acreditarea generează costuri pentru instituții și furnizori. Expunerea de motive afirmă economii, dar materialul furnizat nu cuantifică investițiile, finanțarea, costurile recurente sau sarcina reînnoirii anuale; nu rezultă o obligație generală de achiziție pentru IMM-urile care folosesc serviciile publice.",
+        "Art. 3 alin. (3) include persoanele juridice și reprezentanții lor, fără reguli suficiente pentru verificarea și revocarea mandatului. Autentificarea unei persoane fizice nu dovedește automat dreptul său de reprezentare și nu echivalează automat cu semnarea electronică a unui document."
+      ],
+      "blindSpotsCaught": "Directiva 2018/958 nu impune un test general pentru orice restricție concurențială: privește reglementarea accesului la profesii reglementate și a exercitării lor, obiect care nu rezultă aici. Nici TRIS nu se aplică automat unei legi deoarece privește digitalizarea. În plus, art. 10 nu sancționează expres încălcarea accesului alternativ din art. 3 alin. (4) sau a recunoașterii europene din alin. (6), deși sancționează obligațiile de integrare.",
+      "constitutionalityNote": "Scopul standardizării autentificării este legitim, iar obligarea instituțiilor la integrare nu este, prin ea însăși, neconstituțională. Vulnerabilitățile principale țin de art. 1 alin. (5): acreditare insuficient determinată, necorelarea alternativelor cu art. 5 și descrierea imprecisă a contravențiilor. Art. 23 alin. (12) privește pedepsele penale; pentru aceste amenzi contravenționale, analiza previzibilității trebuie întemeiată în principal pe art. 1 alin. (5). Biometria pentru identificare unică impune garanții raportate la art. 26 și, dacă există restrângeri ale drepturilor, la art. 53; elementele esențiale nu trebuie lăsate integral normelor metodologice. Art. 16 este relevant pentru accesul persoanelor fără dispozitive, competențe digitale sau posibilitatea folosirii biometriei. Dacă implementarea modifică cheltuielile bugetare, trebuie verificată respectarea art. 111 alin. (1) și art. 138 alin. (5); documentele furnizate nu permit constatarea unei încălcări procedurale.",
+      "euLawNote": "Referința corectă de ansamblu este Regulamentul (UE) nr. 910/2014, astfel cum a fost modificat prin Regulamentul (UE) 2024/1183. Acreditarea națională nu înlocuiește notificarea, recunoașterea și certificarea prevăzute de cadrul eIDAS și nu poate deveni o condiție suplimentară pentru mijloacele europene care beneficiază de recunoaștere obligatorie. Caracterul voluntar și interdicția dezavantajării neutilizatorilor portofelului european trebuie respectate efectiv. Directiva 2018/958 nu apare aplicabilă direct, deoarece proiectul nu reglementează accesul la o profesie reglementată. Aplicabilitatea Directivei 2015/1535 trebuie examinată pentru cerințele care ar constitui reguli privind serviciile societății informaționale; autentificarea administrației publice nu intră automat în această categorie. Dacă sunt îndeplinite condițiile directivei și nu operează o excepție, notificarea TRIS și perioada de așteptare trebuie respectate înainte de adoptare. Restricțiile asupra furnizorilor economici trebuie să fie obiective, nediscriminatorii și proporționale. Pentru biometria de identificare unică sunt relevante art. 5, 6, 9, 25 și 32 GDPR, precum și evaluarea de impact conform art. 35 atunci când prelucrarea prezintă risc ridicat.",
+      "senatForm": {
+        "articleRef": "Art. 8",
+        "proposalContent": "Art. 8. Înrolarea oferă o metodă fără date biometrice, accesibilă în condiții echivalente. Biometria pentru identificare unică se folosește numai cu consimțământ explicit, liber exprimat și revocabil, în condițiile art. 6 și 9 din Regulamentul (UE) 2016/679. Probele biometrice se șterg după verificare și nu se reutilizează în alte scopuri.",
+        "argumentation": "Textul actual permite validarea biometrică fără garanții specifice. Alternativa echivalentă susține libertatea consimțământului, iar limitarea scopului și ștergerea probelor reduc riscul prelucrării excesive. Sunt protejate viața privată și accesul efectiv la servicii publice.",
+        "otherComments": "Analiza privește forma și datele furnizate; sursele oficiale nu au putut fi verificate independent. Termenul indicat, 30.03.2026, este depășit la data analizei, 29.10.2026. O propunere trimisă acum poate fi preluată de un deputat potrivit procedurii aplicabile, fără garanția acceptării ca amendament în termen."
+      }
+    }
+  }
+}

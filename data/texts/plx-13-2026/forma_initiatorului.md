@@ -1,0 +1,27 @@
+# PROJECT PARLAMENTUL ROMANEI
+
+CAMERA DEPUTATILOR
+
+SENATUL
+
+## LEGE
+
+pentru modificarea art. 55, alin. (3) din Legea nr. 360/2023 privind sistemul public de pensii cu modificările și completările ulterioare
+
+Articol unic - art. 55, alin. (3) din Legea nr. 360/2023 privind sistemul public de pensii cu modificările și completările ulterioare, publicată în Monitorul Oficial al României, Partea l, nr. 1089, din 04 decembrie 2023, cu modificările și completările ulterioare, se modifică după cum urmează:
+
+La art. 55, alineatul (3) se modifică și va avea următorul cuprins:
+
+Art. 55. - (3) Activitățile desfășurate la locurile de muncă prevăzute la art. 28 alin. (1) lit. d) și f) -l) se consideră în condiții speciale de muncă numai dacă acestea se desfășoară în aceste condiții, pe durata programului normal de lucru, stabilit prin acte normative specifice domeniului respectiv de activitate.”
+
+Aceasta propunere legislativa a fost adoptata de Senat in sedinta din data de ............
+
+## PRESEDINTELE SENATULUI
+
+## Mircea ABRUDEAN
+
+Aceasta propunere legislativa a fost adoptata de Camera Deputatilor in sedinta din data de ............
+
+## PRESEDINTELE CAMEREI DEPUTATILOR
+
+## Sorin-Mihai GRINDEANU

@@ -1,0 +1,219 @@
+{
+  "slug": "plx-427-2026",
+  "billId": "PL-x 427/2026",
+  "updatedAt": "2026-10-29T12:36:33.852Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L289FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Reguli noi și autorizare obligatorie pentru cine aduce muncitori străini în România",
+      "summaryTlDr": "Scopul e legitim și susținut de date: agențiile-fantomă și vizele de muncă folosite ca trambulină spre alte state există. Problema e forma: Guvernul a construit prin ordonanță de urgență un regim de licențiere cu putere discreționară largă, care va costa IMM-urile și poate lovi lucrătorii pentru faptele intermediarilor. Merită aprobată, dar cu amendamente.",
+      "scores": {
+        "agy": 5,
+        "claude": 5,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/20/7/se466.pdf",
+      "source": "cdep.ro",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Reguli noi pentru angajarea muncitorilor străini și pentru agențiile care îi aduc în România",
+      "summaryTlDr": "Scopul este legitim și bine documentat: doar 39% dintre străinii cu viză de muncă din 2025 aveau drept de ședere la final de an. Forma Senatului adaugă însă câteva capcane: discriminarea lucrătorilor din UE prin criteriul „50% cetățeni români”, un prag de 500.000 euro inaccesibil IMM-urilor și condiții de garanție contrare Directivei serviciilor.",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 7
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_riscant",
+      "headline": "Senatul lasă doar firmele mari, cu jumătate din angajați români, să depășească plafonul de străini",
+      "summary": "Senatul permite depășirea plafonului de străini doar firmelor cu 500.000 euro și cu jumătate din angajați români, ceea ce discriminează cetățenii UE. Orice amendă de securitate a muncii blochează autorizarea 24 de luni, mai mult decât o condamnare penală.",
+      "changes": [
+        {
+          "title": "Excepția de la plafon cere jumătate angajați români",
+          "text": "Art. 6 alin. (8) lit. b), nou: plafonul de străini poate fi depășit doar dacă cel puțin 50% din salariații cu normă întreagă sunt români; un angajat din alt stat UE contează împotrivă (discriminare).",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 6 alin. (8) lit. b)",
+          "before": null,
+          "after": "cel puțin 50% dintre angajații cu care are încheiate contracte individuale de muncă cu normă întreagă înregistrate în REGES-ON LINE la momentul depunerii ofertei ferme de locuri de muncă sunt cetățeni români.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Orice amendă de protecția muncii blochează autorizarea 24 luni",
+          "text": "Art. 12 alin. (1) lit. f) și g): o singură amendă pentru securitatea muncii blochează autorizarea 24 de luni, iar o condamnare definitivă, chiar pentru angajarea victimelor traficului, doar 12 luni.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 12 alin. (1) lit. f) și g)",
+          "before": null,
+          "after": "în ultimele 24 de luni, anterioare datei formulării cererii de autorizare, să nu fi fost sancționat cu amendă pentru încălcări ale normelor privind sănătatea și securitatea în muncă",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Firmele mari pot depăși plafonul de străini",
+          "text": "Art. 6 alin. (8) lit. a) și alin. (9), noi: plafonul poate fi depășit cu minimum 500.000 euro „certe, lichide, exigibile”, oricâți străini s-ar angaja; IMM-urile rămân practic la plafon.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 6 alin. (8) lit. a) și alin. (9)",
+          "before": null,
+          "after": "demonstrează viabilitate financiară prin încărcarea în platforma electronică a dovezii deținerii unei linii de credit, a scrisorii de bonitate bancară sau a unei disponibilități de fonduri neangajate în valoare de minimum 500.000 euro",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Agenția e scutită de costul întoarcerii în două cazuri",
+          "text": "Art. 39 alin. (1) lit. j) pct. (iii): agenția nu plătește întoarcerea străinului dacă acesta a refuzat nejustificat două oferte în 90 de zile sau dacă i-a expirat contractul pe durată determinată.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 39 alin. (1) lit. j) pct. (iii)",
+          "before": null,
+          "after": "contractul individual de muncă al străinului a încetat de drept ca urmare a expirării duratei determinate",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Respingerea cererii poate fi atacată în instanță",
+          "text": "Art. 45 pct. 25: respingerea cererii unice se comunică în scris, cu condițiile neîndeplinite, și poate fi atacată în contencios în 30 de zile; contestația nu suspendă respingerea.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 45 pct. 25",
+          "before": null,
+          "after": "Decizia poate fi contestată la instanța de contencios administrativ competentă, în condițiile Legii nr.554/2004, cu modificările și completările ulterioare, în termen de 30 de zile de la comunicare.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Amenzi pentru agenții, pe fiecare străin plasat",
+          "text": "Art. 42 alin. (3): amenzile pentru agenții se aplică pentru fiecare lucrător străin plasat, iar noile lit. c) și d) prevăd amenzi de 5.000-10.000 lei.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 42 alin. (3)",
+          "before": null,
+          "after": "c) de la 5.000 lei la 10.000 lei, pentru fiecare lucrător străin plasat:",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Excepția de la plafon cere 50% salariați români; cetățenii UE contează împotrivă",
+            "major": true,
+            "article": "art. 6 alin. (8) lit. b)"
+          },
+          {
+            "text": "Prag fix de 500.000 euro: IMM-urile rămân blocate la plafonul de străini",
+            "major": true,
+            "article": "art. 6 alin. (8) lit. a)"
+          },
+          {
+            "text": "Cerința „certă, lichidă, exigibilă” face greu de folosit linia de credit și scrisoarea bancară",
+            "major": true,
+            "article": "art. 6 alin. (9)"
+          },
+          {
+            "text": "Orice amendă de securitate a muncii blochează 24 luni, condamnarea penală doar 12",
+            "major": true,
+            "article": "art. 12 alin. (1) lit. f) și g)"
+          },
+          {
+            "text": "Agenția nu plătește întoarcerea străinului la expirarea contractului pe durată determinată",
+            "major": true,
+            "article": "art. 39 alin. (1) lit. j) pct. (iii)"
+          },
+          {
+            "text": "Autorizare obligatorie nouă pentru agențiile de plasare, barieră de intrare pe piață",
+            "major": true,
+            "article": "art. 24-27"
+          },
+          {
+            "text": "Angajatorii de străini au nevoie de autorizare, pe lângă avizul de muncă",
+            "major": true,
+            "article": "art. 12-15"
+          },
+          {
+            "text": "Legea nu rezolvă blocajul principal: așteptarea de 9-12 luni pentru vize",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Contestația în instanță nu suspendă respingerea cererii unice",
+            "major": false,
+            "article": "art. 45 pct. 25"
+          },
+          {
+            "text": "Motivarea folosește cifra de 39%, care poate supraestima migrația secundară",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Respingerea cererii unice se comunică motivat și poate fi atacată în instanță",
+            "major": true,
+            "article": "art. 45 pct. 25"
+          },
+          {
+            "text": "Angajatorul care exploatează străini e blocat pe perioadă nedeterminată",
+            "major": true,
+            "article": "art. 19 alin. (1) lit. d)"
+          },
+          {
+            "text": "Amenzile pentru agenții cresc cu numărul de străini plasați",
+            "major": true,
+            "article": "art. 42 alin. (3)"
+          },
+          {
+            "text": "Garanția poate fi depusă și prin scrisoare de garanție bancară",
+            "major": true,
+            "article": "art. 15 alin. (2) și art. 27 alin. (2)"
+          },
+          {
+            "text": "Agenția suportă, ca regulă, costul întoarcerii străinului în țara de origine",
+            "major": true,
+            "article": "art. 39 alin. (1) lit. j) pct. (iii)"
+          },
+          {
+            "text": "Lista ocupațiilor deficitare se actualizează semestrial, cu avizul CES",
+            "major": false,
+            "article": "art. 1 alin. (4)"
+          },
+          {
+            "text": "Unele categorii de străini păstrează regulile vechi la vize depuse până la 7 august",
+            "major": false,
+            "article": "art. 49 alin. (4¹)"
+          },
+          {
+            "text": "Agențiile au 60 de zile să refacă garanția, altfel riscă suspendarea",
+            "major": false,
+            "article": "art. 26 alin. (9)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 58,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:36:33.852Z"
+    }
+  ]
+}

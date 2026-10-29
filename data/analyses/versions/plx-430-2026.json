@@ -1,0 +1,122 @@
+{
+  "slug": "plx-430-2026",
+  "billId": "PL-x 430/2026",
+  "updatedAt": "2026-10-29T13:09:43.889Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L304FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Statul împrumută primăriile ca să termine proiectele europene blocate",
+      "summaryTlDr": "Măsura e o plasă de siguranță utilă pentru primăriile mici care riscă să returneze bani europeni, iar dobânda e apropiată de cea de piață, deci nu e un cadou. Problemele țin de guvernanță: comunele și orașele nu au nicio limită, criteriile de împărțire a celor 2 mld. lei sunt lăsate unui ordin de ministru, iar textul se contrazice în privința municipiilor reședință de județ.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/30/0/se483.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "Împrumuturi de până la 2 miliarde lei de la Trezorerie pentru primăriile cu proiecte europene blocate",
+      "summaryTlDr": "Scopul e util: salvează proiecte europene rămase neterminate și reduce riscul ca primăriile să returneze bani UE. Textul e însă scris în grabă. Contrazice fișa și expunerea de motive, nu pune plafon pentru comune și orașe și lasă împărțirea celor 2 miliarde pe seama unui ordin al ministrului.",
+      "scores": {
+        "agy": 3,
+        "claude": 4,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat OUG 35/2026 fără modificări; problemele inițiale rămân aceleași",
+      "summary": "Senatul a aprobat ordonanța exact cum a dat-o Guvernul; s-au schimbat doar formulări tehnice ale legii de aprobare. Rămân comunele fără plafon, îndatorarea peste limita legală și oprirea banilor locali la neplată.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Comunele și orașele nu au plafon maxim de împrumut, spre deosebire de municipii",
+            "major": true,
+            "article": "art. 1 alin. (2) lit. e)"
+          },
+          {
+            "text": "Textul include municipiile reședință de județ, deși fișa și expunerea spun că sunt excluse",
+            "major": true,
+            "article": "art. 1 alin. (2) lit. e)"
+          },
+          {
+            "text": "UAT-urile se pot îndatora peste limita legală și peste plafoanele din Legea 42/2026",
+            "major": true,
+            "article": "art. 1 alin. (1) și alin. (2) lit. c)-d)"
+          },
+          {
+            "text": "Neplata ratelor oprește cote din impozitul pe venit; alte servicii locale pot rămâne nefinanțate",
+            "major": true,
+            "article": "art. 1 alin. (10)"
+          },
+          {
+            "text": "Nu se știe cum se împart cele 2 miliarde lei dacă cererile depășesc suma",
+            "major": true,
+            "article": "art. 1 alin. (16)"
+          },
+          {
+            "text": "Rate trimestriale egale din trimestrul următor, fără perioadă de grație",
+            "major": false,
+            "article": "art. 1 alin. (6)"
+          },
+          {
+            "text": "Mecanismul de acordare și documentele cerute sunt stabilite prin ordin al ministrului finanțelor",
+            "major": false,
+            "article": "art. 1 alin. (16)"
+          },
+          {
+            "text": "Nu există obligația de a publica lista împrumuturilor aprobate",
+            "major": false,
+            "article": "art. 1 alin. (16)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Salariile, drepturile persoanelor cu handicap și protecția copilului rămân finanțate la neplată",
+            "major": true,
+            "article": "art. 1 alin. (10)"
+          },
+          {
+            "text": "Municipiile, reședințele de județ, sectoarele și județele au plafoane maxime de 20-35 mil. lei",
+            "major": true,
+            "article": "art. 1 alin. (2) lit. e)"
+          },
+          {
+            "text": "Suma totală a împrumuturilor din Trezorerie este limitată la 2 miliarde lei",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Împrumuturile ajută UAT-urile să folosească mai repede fondurile europene nerambursabile",
+            "major": true,
+            "article": null
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:08:23.760Z"
+    }
+  ]
+}

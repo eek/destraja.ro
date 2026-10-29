@@ -1,0 +1,19 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+## privind completarea art.3 din Legea nr.349/2002 pentru prevenirea și combaterea efectelor consumului produselor din tutun
+
+Senatul adoptă prezentul proiect de lege
+
+Articol unic.- La articolul 3 din Legea nr.349/2002 pentru prevenirea și combaterea efectelor consumului produselor din tutun, publicată în Monitorul Oficial al României, Partea I, nr.435 din 21 iunie 2002, cu modificările și completările ulterioare, după alineatul (1³) se introduce un nou alineat, alin.(1⁴), cu următorul cuprins:
+
+„(1⁴) Persoanelor care nu au împlinit vârsta de 18 ani le este strict interzis fumatul, precum și utilizarea tuturor categoriilor de produse care conțin tutun, a țigaretelor electronice, a flacoanelor de reumplere pentru țigaretele electronice, a dispozitivelor electronice pentru încălzirea tutunului și a produselor destinate inhalării fără ardere din înlocuitori de tutun, precum și a pliculețelor cu nicotină pentru uz oral (pouch-uri).”
+
+Acest proiect de lege a fost adoptat de Senat în ședința din 30 martie 2026, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.
+
+p. PREȘEDINTELE SENATULUI
+
+MIHAI COTEȚ,

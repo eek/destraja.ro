@@ -1,0 +1,35 @@
+# PROPUNERE LEGISLATIVĂ
+
+privind completarea Legii nr. 260/2008 privind asigurarea obligatorie a locuințelor Parlamentul României adoptă prezenta lege:
+
+## Articolul I
+
+1\. La Legea nr. 260/2008 (PAD), după articolul 2 se introduce un nou articol, art. 2¹, cu următorul cuprins:
+
+Art. 2¹ – (1) Prin prezenta lege, riscul de explozie accidentală este inclus în categoria riscurilor acoperite prin asigurarea obligatorie a locuințelor.
+
+(2) În sensul prezentei legi, explozia accidentală reprezintă eliberarea violentă de energie produsă de aprinderea sau acumularea necontrolată de gaze combustibile, inclusiv gaze naturale, GPL, butelii sau alte amestecuri inflamabile, indiferent de sursa, instalația sau mecanismul care a generat acumularea.
+
+(3) Despăgubirile aferente poliței PAD se acordă ca prim risc, iar diferența rămasă neacoperită poate fi acoperită din polițele facultative ale asiguratului.
+
+(4) Prima aferentă includerii riscului de explozie accidentală se stabilește în baza studiilor actuariale realizate de PAID și avizate de Autoritatea de Supraveghere Financiară (ASF).
+
+## Articolul II
+
+În termen de 90 de zile de la intrarea în vigoare a prezentei legi, ASF actualizează normele și reglementările secundare necesare aplicării prezentei legi.
+
+## Articolul III
+
+Prezenta lege intră în vigoare la 30 de zile de la data publicării în Monitorul Oficial al României, Partea I.
+
+Acest proiect a fost adoptat de Parlament, în ședința din .....2025, cu respectarea prevederilor articolului 74 alin. (1) și articolul 75 alin (1) din Constituția României, republicată.
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+PREȘEDINTE SENAT
+
+Csillag Andrei – Deputat în Parlamentul Româniet
+
+Inițiatori:
+
+Dumitrita ALBU - Deputat în Parlamentul României

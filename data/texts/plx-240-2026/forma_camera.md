@@ -1,0 +1,15 @@
+# PARLAMENTUL ROMÂNIEI CAMERA DEPUTAȚILOR
+
+LEGE
+
+pentru ratificarea Memorandumului de Înțelegere privind cooperarea militară între Guvernul României, reprezentat de Ministerul Apărării Naționale, și Guvernul Republicii Arabe Egipt, reprezentat de Ministerul Apărării, semnat la Cairo, la 2 noiembrie 2025
+
+Camera Deputaților adoptă prezentul proiect de lege.
+
+Articol unic. – Se ratifică Memorandumul de Înțelegere privind cooperarea militară între Guvernul României, reprezentat de Ministerul Apărării Naționale, și Guvernul Republicii Arabe Egipt, reprezentat de Ministerul Apărării, semnat la Cairo, la 2 noiembrie 2025.
+
+Acest proiect de lege se consideră adoptat de Camera Deputaților în forma inițială, în condițiile art. 75 alin. (2) teza a III-a din Constituția României, republicată.
+
+p. PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+NATALIA – ELENA INTOTERO

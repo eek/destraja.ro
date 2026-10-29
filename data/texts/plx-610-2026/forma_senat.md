@@ -1,0 +1,27 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+## LEGE
+
+pentru modificarea Ordonanței de urgență a Guvernului nr. 80/2012 privind echivalarea titlurilor de medic specialist eliberate de Australia, Canada, Israel, Noua Zeelandă și Statele Unite ale Americii
+
+Senatul adoptă prezentul proiect de lege
+
+Art.I.- Ordonanța de urgență a Guvernului nr. 80/2012 privind echivalarea titlurilor de medic specialist eliberate de Australia, Canada, Israel, Noua Zeelandă și Statele Unite ale Americii, publicată în Monitorul Oficial al României, Partea I, nr.827 din 10 decembrie 2012, aprobată prin Legea nr.163/2013, se modifică după cum urmează:
+
+## 1. Titlul va avea următorul cuprins:
+
+„Ordonanța de urgență privind echivalarea titlurilor de medic specialist eliberate de Australia, Canada, Israel, Noua Zeelandă, Statele Unite ale Americii și Regatul Unit al Marii Britanii și Irlandei de Nord”
+
+2\. La articolul unic alineatul (1), partea introductivă va avea următorul cuprins:
+
+„(1) Titlurile oficiale de calificare ca medic specialist eliberate de Australia, Canada, Israel, Noua Zeelandă, Statele Unite ale Americii și Regatul Unit al Marii Britanii și Irlandei de Nord, în una dintre specialitățile medicale clinice și paraclinice prevăzute de Nomenclatorul specialităților medicale, medico-dentare și farmaceutice pentru rețeaua de asistență medicală, aprobat prin Ordinul ministrului sănătății publice nr.1.509/2008, cu modificările și completările ulterioare, se echivalează cu certificătul de medic specialist eliberat de Ministerul Sănătății pentru specialitatea respectivă, cu condiția îndeplinirii, în mod cumulativ, a următoarelor condiții:”
+
+Art.II.- În termen de 30 de zile de la data intrării în vigoare a prezentei legi, Ministerul Sănătății modifică în mod corespunzător Criteriile și metodologia de echivalare a titlurilor oficiale de medic specialist eliberate de Australia, Canada, Israel, Noua Zeelandă și Statele Unite ale Americii, aprobate prin Ordinul ministrului sănătății nr.969/2013.
+
+Acest proiect de lege a fost adoptat de Senat în ședința din 21 septembrie 2026, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.
+
+## PREȘEDINTELE SENATULUI
+
+## MIRCEA (ABRUDEAN

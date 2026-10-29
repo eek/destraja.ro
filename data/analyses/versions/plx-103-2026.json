@@ -1,0 +1,102 @@
+{
+  "slug": "plx-103-2026",
+  "billId": "PL-x 103/2026",
+  "updatedAt": "2026-10-29T12:35:03.195Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L578FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Jandarmi la Urgențe, dacă spitalul îi cere și îi plătește",
+      "summaryTlDr": "Intenția e bună, dar efectul juridic e slab. Legea nu trimite jandarmi în UPU, ci doar permite spitalelor să îi ceară și să îi plătească, după reguli pe care le va scrie Guvernul, fără niciun termen. Riscul e mic, însă textul are o contradicție internă și lasă totul pe seama unei hotărâri de Guvern.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/00/3/se107.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Jandarmi la Urgențe, la cererea spitalului și pe banii lui",
+      "summaryTlDr": "Lege bine intenționată și practic inofensivă: nu trimite automat jandarmi în UPU, ci doar permite spitalelor să-i ceară și să-i plătească. Slăbiciunea ei este că lasă totul pe seama unei hotărâri de Guvern și nu spune cât costă, din ce buget se plătește și ce se întâmplă dacă Jandarmeria nu are oameni.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat tacit proiectul în forma inițială, fără nicio modificare de fond",
+      "summary": "Textul adoptat de Senat este identic cu cel inițial, fiind adoptat tacit. Rămân problemele: paza cu jandarmi la urgențe este opțională și plătită de spital, iar alin. (1) pare să o facă obligatorie.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Contradicție: alin. (1) face paza obligatorie, alin. (3¹) o face opțională pentru urgențe",
+            "major": true,
+            "article": "art. unic pct. 1-2 (art. 6 alin. (1) și (3¹))"
+          },
+          {
+            "text": "Paza UPU/CPU e plătită de spital, fără sursă de finanțare prevăzută",
+            "major": true,
+            "article": "art. unic pct. 2 (art. 6 alin. (3¹))"
+          },
+          {
+            "text": "Domeniul „sănătate” adăugat generic; obiectivele concrete vor fi stabilite ulterior prin HG",
+            "major": true,
+            "article": "art. unic pct. 1 (art. 6 alin. (1))"
+          },
+          {
+            "text": "CPU din spitale fără statut de spital de urgență pot rămâne neacoperite",
+            "major": true,
+            "article": "art. unic pct. 2 (art. 6 alin. (3¹))"
+          },
+          {
+            "text": "Tarifele și procedura lăsate integral pe seama unei HG, fără termen de adoptare",
+            "major": false,
+            "article": "art. unic pct. 2 (art. 6 alin. (3¹))"
+          },
+          {
+            "text": "UPU/CPU nu au personalitate juridică; nu e clar cine face cererea",
+            "major": false,
+            "article": "art. unic pct. 2 (art. 6 alin. (3¹))"
+          },
+          {
+            "text": "Nicio estimare a costurilor pentru spitale și a numărului de jandarmi necesari",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Spitalele pot cere pază cu jandarmi pentru unitățile de primiri urgențe",
+            "major": true,
+            "article": "art. unic pct. 2 (art. 6 alin. (3¹))"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 6,
+        "removed": 5,
+        "same": 0.14
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:34:00.680Z"
+    }
+  ]
+}

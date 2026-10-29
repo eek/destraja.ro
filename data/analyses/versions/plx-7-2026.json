@@ -1,0 +1,122 @@
+{
+  "slug": "plx-7-2026",
+  "billId": "PL-x 7/2026",
+  "updatedAt": "2026-10-29T12:25:44.354Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L550FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Guvernul poate numi un supraveghetor în firmele lovite de sancțiunile altor țări",
+      "summaryTlDr": "Scopul e legitim: să țină în funcțiune operatori importanți, mai ales din energie, afectați indirect de sancțiuni pe care România nu e obligată să le aplice. Prețul e o putere largă și vagă dată Guvernului. Acesta poate impune, chiar fără acordul firmei, un supraveghetor plătit de ea, fără termen-limită și pentru sancțiunile oricărui stat, nu doar ale aliaților.",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 6
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/00/7/se774.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Guvernul poate numi un supraveghetor la firmele lovite indirect de sancțiunile altor state, nu ale UE",
+      "summaryTlDr": "Scopul e legitim: să țină în funcțiune firme-cheie din energie, cu locurile lor de muncă, lovite indirect de sancțiuni străine pe care România nu e obligată să le aplice. Instrumentul e însă prea larg și vag. Prin hotărâre de Guvern se poate impune din oficiu un supraveghetor cu acces total și drept de aviz pe tranzacții, plătit de firmă și fără termen-limită. Merită aprobat doar cu modificări.",
+      "scores": {
+        "agy": 5,
+        "claude": 5,
+        "codex": 6
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat ordonanța fără modificări de fond; s-a corectat doar numărul ei",
+      "summary": "Senatul a aprobat ordonanța fără modificări de fond. A corectat doar numărul ei (66, nu 68). Riscurile rămân: firmele pot fi puse sub supraveghere fără acord, o plătesc din banii lor, iar regulile pentru avizarea tranzacțiilor sunt neclare.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Supravegherea poate fi impusă din oficiu, fără acordul firmei și fără ascultarea ei",
+            "major": true,
+            "article": "art. 8⁵ alin. (1)"
+          },
+          {
+            "text": "Se aplică sancțiunile oricăror alte state, fără limitare la UE sau NATO",
+            "major": true,
+            "article": "art. 8⁵ alin. (1)–(2)"
+          },
+          {
+            "text": "Lista străină de persoane interzise devine obligatorie prin hotărâre de guvern, nu prin lege",
+            "major": true,
+            "article": "art. 8⁵ alin. (1) lit. e)"
+          },
+          {
+            "text": "Criteriile de impact economic semnificativ nu au praguri măsurabile",
+            "major": true,
+            "article": "art. 8⁵ alin. (1)–(2)"
+          },
+          {
+            "text": "Poate viza orice persoană juridică, inclusiv un SRL",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Firma plătește supraveghetorul cu minimum 10.000 lei brut; perioada și nivelul sunt neclare",
+            "major": true,
+            "article": "art. 8⁶ alin. (1) lit. d)"
+          },
+          {
+            "text": "Lipsesc condițiile de calificare, incompatibilitățile și răspunderea supraveghetorului",
+            "major": true,
+            "article": "art. 8⁶"
+          },
+          {
+            "text": "Nu e clar dacă se avizează toate tranzacțiile sau doar plățile externe",
+            "major": true,
+            "article": "art. 8⁶ alin. (2) lit. a), alin. (3) lit. d)"
+          },
+          {
+            "text": "Nu se spune dacă avizul e obligatoriu, termenul lui și efectul refuzului",
+            "major": false,
+            "article": "art. 8⁶ alin. (2)–(3)"
+          },
+          {
+            "text": "Firma are doar 24 de ore să răspundă la constatări",
+            "major": false,
+            "article": "art. 8⁶ alin. (2) lit. c), alin. (3) lit. e)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Supravegherea se instituie doar prin hotărâre de guvern, cu avizul CSAT",
+            "major": false,
+            "article": "art. 8⁵ alin. (1)"
+          },
+          {
+            "text": "Când firma cere supravegherea, i se cere acordul expres",
+            "major": false,
+            "article": "art. 8⁵ alin. (3) lit. b)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:21:43.114Z"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+# PARLAMENTUL ROMÂNIEI
+
+# CAMERA DEPUTAȚILOR
+
+SENATUL
+
+# LEGE pentru completarea unor acte normative în vederea coordonării integrate a datelor și intervențiilor destinate copiilor și elevilor cu cerințe educaționale speciale și/sau cu dizabilități
+
+## Parlamentul României adoptă prezenta lege:
+
+Articolul I – Legea învățământului preuniversitar nr. 198/2023, publicată în Monitorul Oficial al României, Partea I, nr. 613 din 5 iulie 2023, cu modificările și completările ulterioare, se completează după cum urmează:
+
+1\. La articolul 133, după alineatul (10) se introduce un nou alineat, alin. (11), cu următorul cuprins:
+
+„(11) În cadrul Sistemului integrat de management al școlarității funcționează un modul informatic dedicat evidenței, monitorizării și coordonării intervențiilor destinate beneficiarilor primari cu cerințe educaționale speciale și/sau cu dizabilități.”
+
+Articolul II – Legea nr. 448/2006 privind protecția și promovarea drepturilor persoanelor cu handicap, republicată în Monitorul Oficial al României, Partea I, nr. 1 din 3 ianuarie 2008, cu modificările și completările ulterioare, se completează după cum urmează:
+
+1\. La articolul 5, după punctul 26¹ se introduc două noi puncte, pct. 26² și 26³, cu următorul cuprins:
+
+„26². profil integrat al persoanei cu dizabilități -- ansamblul de date cu caracter personal, inclusiv date privind sănătatea și dizabilitatea, care asigură trasabilitatea intervențiilor și a evaluărilor medicale, psihopedagogice, educaționale și sociale ale persoanei cu dizabilități, incluzând istoricul planurilor educaționale personalizate, al deciziilor de orientare școlară și al recomandărilor medicale, prelucrate în condițiile legislației privind protecția datelor cu caracter personal.
+
+26³. ghișeu unic digital – interfață electronică securizată prin intermediul căreia persoana cu dizabilități sau reprezentantul legal al acesteia are acces direct la profilul său integrat și la serviciile destinate acesteia.”
+
+## 2. După articolul 90⁶ se introduc două noi articole, art. 90⁷ și art. 90⁸, cu următorul cuprins:
+
+„Art. 90⁷. – Datele privind diagnosticul medical, evaluarea și încadrarea în grad de handicap ale beneficiarilor primari, colectate în Sistemul național de management privind dizabilitatea, sunt puse la dispoziția Ministerului Educației exclusiv prin asigurarea interoperabilității cu Sistemul integrat de management al școlarității.
+
+Art. 90⁸. – (1) Prin intermediul ghișeului unic digital, persoana cu dizabilități sau reprezentantul legal al acesteia are dreptul să consulte și să partajeze propriile decizii de încadrare, rapoartele de evaluare și planurile de intervenție.
+
+(2) Orice accesare a datelor cu caracter personal din profilul integrat este înregistrată automat într-un jurnal electronic de audit al accesărilor, cu garanții de integritate și de imposibilitate de alterare. Jurnalul se păstrează pe o perioadă de minimum 5 ani și este accesibil persoanei vizate sau reprezentantului legal al acesteia."
+
+Articolul III – Legea nr. 242/2022 privind schimbul de date între sisteme informatice și crearea Platformei naționale de interoperabilitate, publicată în Monitorul Oficial al României, Partea I, nr. 752 din 27 iulie 2022, se completează după cum urmează:
+
+## 1. La articolul 11, după alineatul (6) se introduce un nou alineat, alin. (7), cu următorul cuprins:
+
+„(7) Autoritățile publice implicate în evaluarea, diagnosticarea și furnizarea serviciilor pentru beneficiarii primari cu cerințe educaționale speciale și/sau cu dizabilități au obligația de a asigura interoperabilitatea sistemelor informatice proprii cu Sistemul integrat de management al școlarității."
+
+## Articolul IV – Dispoziții tranzitorii și de implementare
+
+„(1) Ministerul Educației, Ministerul Sănătății, Autoritatea Națională pentru Protecția Drepturilor Persoanelor cu Dizabilități și Autoritatea pentru Digitalizarea României adoptă, în termen de 180 de zile de la intrarea în vigoare a prezentei legi, un protocol comun de schimb de date care stabilește formatele, standardele tehnice, măsurile de securitate și procedurile de auditare a accesului la modulul prevăzut la art. 133 alin. (11) din Legea nr. 198/2023.
+
+(2) Modulul prevăzut la art. 133 alin. (11) din Legea nr. 198/2023 devine operațional în termen de 12 luni de la intrarea în vigoare a prezentei legi.
+
+(3) Autoritățile publice prevăzute la art. 11 alin. (7) din Legea nr. 242/2022 asigură interoperabilitatea sistemelor informatice proprii cu Sistemul integrat de management al școlarității în același termen prevăzut la alin. (2) al prezentului articol.
+
+(4) În termen de 180 de zile de la intrarea în vigoare a prezentei legi, Ministerul Educației, Ministerul Sănătății, Ministerul Muncii și Solidarității Sociale și Autoritatea Națională pentru Protecția Drepturilor Persoanelor cu Dizabilități adoptă, prin ordin comun, normele metodologice de aplicare a prezentei legi, care reglementează cel puțin: categoriile de date incluse în modulul prevăzut la art. 133 alin. (11) din Legea nr. 198/2023, fluxurile și protocoalele de schimb de date, măsurile tehnice și organizatorice de securitate, drepturile persoanelor vizate și procedura de exercitare a acestora.
+
+(5) Normele metodologice prevăzute la alin. (4) se elaborază cu avizul Autorității Naționale de Supraveghere a Prelucrării Datelor cu Caracter Personal.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 alin. (1) și ale art. 76 alin. (2) din Constituția României, republicată.
+
+Președintele Camerei Deputaților,
+
+Președintele Senatului,
+
+Sorin-Mihai GRINDEANU
+
+Mircea ABRUDEAN

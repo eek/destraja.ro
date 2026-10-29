@@ -1,0 +1,23 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENATUL
+
+LEGE pentru completarea art. 62 alin. (1) din Legea nr. 227/2015 privind Codul fiscal
+
+Parlamentul României adoptă prezenta lege.
+
+Articol unic – La articolul 62, alineatul (1) din Legea nr. 227/2015 privind Codul fiscal, publicată în Monitorul Oficial al României, Partea I, nr. 688 din 10 septembrie 2015, cu modificările și completările ulterioare, după litera w, se introduce o nouă literă, litera w¹, cu următorul cuprins:
+
+„w¹)premiile în bani și/sau în natură acordate participanților la competiții sportive, manifestări culturale sau concursuri cu caracter educațional, inclusiv cele finanțate din sponsorizări, taxe de participare ori alte surse similare, altele decât cele supuse regimului de impunere prevăzut la art. 110, în cuantum de până la o șesime din salariul de bază minim brut pe țară garantat în plată, în vigoare la data acordării premiului, pentru fiecare premiu acordat.”
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 alin. (1) și ale art. 76 alin. (2) din Constituția României, republicată.
+
+Președintele Camerei Deputaților,
+
+Președintele Senatului,
+
+Sorin-Mihai GRINDEANU
+
+Mircea ABRUDEAN

@@ -1,0 +1,142 @@
+{
+  "slug": "plx-381-2026",
+  "billId": "PL-x 381/2026",
+  "updatedAt": "2026-10-29T12:30:04.658Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L158FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "Consiliile locale și județene își aprobă singure stemele, fără hotărâre de Guvern",
+      "summaryTlDr": "Este o lege utilă de descentralizare. Stema unei comune, a unui oraș sau a unui județ ar fi aprobată de consiliul local sau județean, nu de Guvern, cu un aviz doar consultativ al heraldiștilor Academiei Române. Problemele sunt tehnice și se pot repara: amenda din art. 8 nu spune clar ce anume se sancționează, iar «abilitarea» graficienilor heraldiști nu are criterii stabilite în lege.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/300/80/1/se408.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Consiliile locale și județene își aprobă singure stemele, fără hotărâre de Guvern",
+      "summaryTlDr": "Lege de simplificare utilă și, în esență, benignă. Scoate Guvernul și comisiile prefecturilor dintr-un circuit care, potrivit inițiatorilor, a lăsat peste jumătate din localități fără stemă aprobată. Are însă scăpări de redactare care se pot repara și o amendă formulată atât de larg încât poate prinde orice folosire a stemei pe care legea nu o enumeră.",
+      "scores": {
+        "agy": 5,
+        "claude": 3,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat tacit proiectul în forma inițială; textul de fond nu s-a schimbat",
+      "summary": "Proiectul a fost considerat adoptat de Senat în forma inițială, prin depășirea termenului. Diferențele sunt doar de redactare, deci riscurile rămân, mai ales amenda vagă de 1.000–2.000 lei din art. 8.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Amendă de 1.000–2.000 lei pentru folosirea stemei «în alte situații» decât cele prevăzute",
+            "major": true,
+            "article": "art. 8 alin. (1)"
+          },
+          {
+            "text": "Legea nu spune cine are voie să folosească stema; presa sau cluburile riscă amenda",
+            "major": true,
+            "article": "art. 6 alin. (2)"
+          },
+          {
+            "text": "Amenda se aplică imediat, fără perioadă de grație pentru stemele neaprobate oficial",
+            "major": true,
+            "article": "art. 8 alin. (1)"
+          },
+          {
+            "text": "Graficienii sunt abilitați fără criterii, procedură sau contestare, de aceeași comisie care avizează",
+            "major": true,
+            "article": "art. 2 alin. (2)–(3)"
+          },
+          {
+            "text": "Nu e clar dacă «reproducerea și folosirea» trebuie să existe ambele pentru amendă",
+            "major": false,
+            "article": "art. 8 alin. (1)"
+          },
+          {
+            "text": "Tăcerea biroului zonal 65 de zile înseamnă aviz fără obiecții; verificarea poate fi ocolită",
+            "major": false,
+            "article": "art. 4 alin. (5)"
+          },
+          {
+            "text": "Nu există registru național în care să se verifice unicitatea stemelor",
+            "major": false,
+            "article": "art. 4 alin. (2)"
+          },
+          {
+            "text": "Macheta originală trebuie făcută obligatoriu manual",
+            "major": false,
+            "article": "art. 2 alin. (2)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Consiliile locale și județene aprobă singure stemele, fără hotărâre de Guvern",
+            "major": true,
+            "article": "art. 12"
+          },
+          {
+            "text": "Proiectele de stemă trec prin consultare publică, conform Legii 52/2003",
+            "major": false,
+            "article": "art. 3 alin. (2)"
+          },
+          {
+            "text": "Termene fixe pentru aviz: 60 de zile, respectiv 65 pentru transmitere",
+            "major": false,
+            "article": "art. 4 alin. (3)–(4)"
+          },
+          {
+            "text": "Biroul zonal trebuie să indice neconcordanțele și să facă propuneri concrete",
+            "major": false,
+            "article": "art. 4 alin. (3)"
+          },
+          {
+            "text": "Stemele aprobate deja rămân valabile, fără reaprobare",
+            "major": false,
+            "article": "art. 9"
+          },
+          {
+            "text": "Dispar comisiile județene de la prefecturi și HG 25/2003; procedură mai simplă",
+            "major": false,
+            "article": "art. 10 alin. (2)"
+          },
+          {
+            "text": "Proiectele aflate deja în lucru au reguli de tranziție și termene clare",
+            "major": false,
+            "article": "art. 10"
+          },
+          {
+            "text": "Lista graficienilor abilitați e publică pe site-ul Comisiei Naționale",
+            "major": false,
+            "article": "art. 2 alin. (3)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 24,
+        "removed": 25,
+        "same": 0.7
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:25:14.438Z"
+    }
+  ]
+}

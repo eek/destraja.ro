@@ -1,0 +1,193 @@
+{
+  "slug": "plx-12-2026",
+  "billId": "PL-x 12/2026",
+  "updatedAt": "2026-10-29T13:46:56.681Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L502FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 1.7,
+      "riskLevel": "green",
+      "plainTitle": "Actele de stare civilă din străinătate pot fi transcrise prin avocat, fără drum la notar sau la consulat",
+      "summaryTlDr": "Lege tehnică și utilă, mai ales pentru diaspora: avocatul devine o cale în plus de a depune cererile de stare civilă, pe baza unei simple împuterniciri avocațiale. Riscurile sunt mici și țin de aplicare. Principala întrebare este dacă avocatul poate și ridica certificatul, nu doar depune cererea.",
+      "scores": {
+        "agy": 1,
+        "claude": 2,
+        "codex": 2
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/10/2/se781.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Românii din străinătate pot trimite un avocat să le transcrie actele de stare civilă",
+      "summaryTlDr": "Lege tehnică și utilă: cererile de transcriere și celelalte cereri de stare civilă enumerate pot fi depuse și de un avocat, cu împuternicire avocațială, fără procură la notar sau la consulat. Singurul punct de verificat este redactarea, pentru că legea rescrie integral art. 59¹.",
+      "scores": {
+        "agy": 1,
+        "claude": 3,
+        "codex": 2
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl012_cd012_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 1.7,
+      "riskLevel": "green",
+      "plainTitle": "Avocatul tău poate depune cererile de stare civilă, fără procură la notar",
+      "summaryTlDr": "Lege tehnică și utilă. Cine trăiește în străinătate poate trimite un avocat la ghișeul de stare civilă, pe bază de împuternicire avocațială, fără procură notarială sau consulară. Singura atenție ține de redactare: articolul este rescris integral, deci trebuie confirmat că vechile căi de depunere rămân valabile.",
+      "scores": {
+        "agy": 1,
+        "claude": 2,
+        "codex": 2
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_riscant",
+      "headline": "Senatul restrânge lista: nu toate cererile din art. 41 mai pot fi depuse prin avocat",
+      "summary": "Ca și inițial, unele cereri de stare civilă pot fi depuse prin avocat. Senatul a restrâns însă opțiunea la art. 41: acum sunt acoperite doar alin. (1)-(6) și (11)-(16), nu tot articolul. Cererile din celelalte alineate nu mai pot fi depuse prin avocat.",
+      "changes": [
+        {
+          "title": "Mai puține cereri din art. 41 depuse prin avocat",
+          "text": "Art. 59¹: inițial, toate cererile de la art. 41 puteau fi depuse prin avocat. Acum pot fi depuse doar cele de la alin. (1)-(6) și (11)-(16). Orice cerere din alin. (7)-(10) rămâne fără această opțiune.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 59¹",
+          "before": "Cererile prevăzute la art. 41, art. 41³ alin. (1), art. 41¹⁷ alin. (2)",
+          "after": "Cererile prevăzute la art.41 alin.(1)-(6) și (11)-(16), art.41³ alin.(1), art.41¹⁷ alin.(2)",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Senatul a votat-o ca lege ordinară, nu organică",
+          "text": "Inițial, formula finală trimitea la art. 76 alin. (1) din Constituție, adică lege organică. Senatul a adoptat-o după art. 76 alin. (2), ca lege ordinară, cu votul majorității celor prezenți.",
+          "effect": "neutru",
+          "major": false,
+          "article": null,
+          "before": "cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României",
+          "after": "cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Lista e închisă: alte cereri, inclusiv art. 41 alin. (7)-(10), rămân fără avocat",
+            "major": true,
+            "article": "art. 59¹"
+          },
+          {
+            "text": "Ridicarea certificatului și pașii următori prin avocat nu sunt acoperiți expres",
+            "major": false,
+            "article": "art. 59¹"
+          },
+          {
+            "text": "Expunerea de motive vorbește doar de transcriere, dar lista acoperă mult mai mult",
+            "major": false,
+            "article": "art. 59¹"
+          }
+        ],
+        "good": [
+          {
+            "text": "Cererile listate pot fi depuse prin avocat, fără procură autentică la consulat",
+            "major": true,
+            "article": "art. 59¹"
+          },
+          {
+            "text": "Avocatul atestă identitatea clientului și răspunde disciplinar, conform Legii nr. 51/1995",
+            "major": false,
+            "article": "art. 59¹"
+          },
+          {
+            "text": "Cerințele pentru documente străine rămân: apostilă sau supralegalizare și traducere",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Opțională: nu aduce taxe, obligații sau sancțiuni noi și nu costă bani publici",
+            "major": false,
+            "article": null
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 7,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:33:52.081Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Fără schimbări de fond: cererile de stare civilă pot fi depuse și prin avocat, ca inițial",
+      "summary": "Forma adoptată de cameră reia cuvânt cu cuvânt textul adoptat de senat. Diferă doar spațierea, data adoptării și semnătura. Cererile de stare civilă enumerate pot fi depuse și prin avocat, cu împuternicire avocațială, fără costuri sau obligații noi.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Lista de cereri e mai largă decât spune expunerea de motive",
+            "major": false,
+            "article": "art. 59¹"
+          },
+          {
+            "text": "Art. 59¹ e înlocuit integral, nu completat; noul text menționează doar avocatul",
+            "major": false,
+            "article": "art. 59¹"
+          }
+        ],
+        "good": [
+          {
+            "text": "Cererile enumerate pot fi depuse prin avocat, cu împuternicire avocațială, fără procură autentică",
+            "major": true,
+            "article": "art. 59¹"
+          },
+          {
+            "text": "Opțiune în plus: fără obligații, taxe, sancțiuni sau costuri pentru buget",
+            "major": false,
+            "article": "art. 59¹"
+          },
+          {
+            "text": "Împuternicirea poate fi dată de titular, reprezentanți legali sau persoane îndreptățite",
+            "major": false,
+            "article": "art. 59¹"
+          },
+          {
+            "text": "Aliniază legea stării civile cu Legea nr. 51/1995 privind profesia de avocat",
+            "major": false,
+            "article": "art. 59¹"
+          },
+          {
+            "text": "Poate reduce cozile la consulate pentru procuri",
+            "major": false,
+            "article": "art. 59¹"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 3,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:34:18.555Z"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENAT
+
+# PROIECT DE LEGE privind suspendarea temporară, pentru anii 2026 și 2027, a subvențiilor acordate partidelor politice de la bugetul de stat
+
+Parlamentul României adoptă prezenta lege:
+
+Articol unic
+
+Prin derogare de la prevederile art. 18 din Legea nr. 334/2006 privind finanțarea activității partidelor politice și a campaniilor electorale, publicată în Monitorul Oficial al României, Partea I, nr. 446 din 17 iulie 2006, cu modificările și completările ulterioare, pentru exercițiile bugetare aferente anilor 2026 și 2027 nu se alocă și nu se utilizează fonduri de la bugetul de stat pentru finanțarea partidelor politice.
+
+Măsura are caracter excepțional și temporar, fiind justificată de necesitatea consolidării fiscale, protejării cheltuielilor sociale și redirecționării resurselor bugetare către domenii prioritare de interes public, precum sănătatea, educația și protecția socială.
+
+Articolul 2
+
+Prezenta lege intră în vigoare la data de 1 ianuarie 2026 și se aplică până la data de 31 decembrie 2027.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+PREȘEDINTELE SENATULUI

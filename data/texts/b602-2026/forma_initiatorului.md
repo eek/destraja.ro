@@ -1,0 +1,159 @@
+# LEGE
+
+privind înființarea, organizarea și funcționarea Școlii Naționale de Diplomație
+
+Parlamentul României adoptă prezenta lege.
+
+## Art. 1 — Înființarea, statutul și misiunea
+
+(1) Se înființează Școala Națională de Diplomație, denumită în continuare SND, instituție publică cu personalitate juridică aflată în subordinea Ministerului Educației și Cercetării, ca autoritate națională de referință pentru formarea profesională continuă în domeniul diplomăției și al relațiilor internaționale.
+
+(2) SND este succesoarea de drept a Institutului Diplomatic Român, denumit în continuare IDR, preluând drepturile și obligațiile acestuia în condițiile legii și în măsura în care acestea sunt compatibile cu obiectul de activitate al SND.
+
+(3) SND are sediul în municipiul București, Bulevardul Primăverii nr. 17, sector 1. Folosința imobilului va fi asigurată cu titlu gratuit de către Regia Autonomă "Administrația Patrimoniului Protocolului de Stat".
+
+(4) SND are misiunea de a desfășura activități de formare profesională, cercetare și, în condițiile Legii învățământului superior nr. 199/2023, cu modificările și completările ulterioare, activități de învățământ superior în domeniul diplomației, relațiilor internaționale, studiilor strategice, afacerilor europene și al altor domenii conexe.
+
+## Art. 2 — Regimul activităților de învățământ superior
+
+(1) În vederea desfășurării activităților de învățământ superior, SND are atribuția și obligația de a iniția, susține și finaliza demersurile necesare autorizării de funcționare provizorie și acreditării, în condițiile legii.
+
+ROMANIA,
+
+(2) Organizarea și desfășurarea programelor de studii de către SND se realizează cu respectarea condițiilor legale aplicabile fiecărui tip de program și a cerințelor privind asigurarea calității în învățământul superior.
+
+(3) Activitatea de învățământ superior a SND se circumscrie doar organizării programelor de studii universitare aferente ciclurilor II și III, precum și a programelor de studii postuniversitare, în condițiile legii, fiind exclusă organizarea programelor de studii universitare de licență.
+
+## Art. 3 — Beneficiarii și activitățile SND
+
+(1) SND asigură pregătirea, formarea, specializarea și perfecționarea profesională în domeniul diplomației și al relațiilor internaționale pentru personalul Ministerului Afacerilor Externe, membrii Corpului diplomatic și consular al României, persoane din cadrul altor autorități și instituții publice, persoane din mediul privat, precum și diplomați străini, în condițiile legii și ale acordurilor aplicabile.
+
+(2) Pregătirea și perfecționarea profesională a personalului aparținând altor autorități sau instituții publice cu atribuții în domeniul relațiilor internaționale se pot realiza pe baza unor protocoale încheiate cu instituțiile respective.
+
+(3) În condițiile legislației în vigoare și după îndeplinirea cerințelor de autorizare și acreditare aplicabile, SND poate organiza:
+
+a) programe de studii universitare de masterat;
+
+b) programe de studii universitare de doctorat, numai în condițiile legale aplicabile organizării studiilor doctorale;
+
+c) programe de studii postuniversitare;
+
+d) programe de formare profesională continuă, perfecționare și specializare;
+
+e) cursuri, seminare, programe executive și alte activități de pregătire profesională în domeniile sale de specializare.
+
+(4) Absolvirea programelor organize de SND nu conferă, prin ea însăși, dreptul de ocupare a unei funcții în Ministerul Afacerilor Externe sau de dobândire a calității de membru al Corpului diplomatic și consular al României. Accesul la aceste funcții și calități se realizează potrivit legislației în vigoare.
+
+(5) SND urmărește pregătirea unor specialiști capabili să desfășoare activități în domeniul diplomației, al relațiilor internaționale și al afacerilor externe, fără a substitui procedurile legale de recrutare și selecție aplicabile instituțiilor angajatoare.
+
+## Art. 4 — Patrimoniul și personalul
+
+ROMANIA
+
+(1) Patrimoniul SND se constituie, la înființare, prin preluarea patrimoniului IDR, cu respectarea regimului juridic al bunurilor, a drepturilor și obligațiilor patrimoniale și a legislației aplicabile.
+
+(2) Situația personalului IDR se soluționează potrivit legislației aplicabile raporturilor de muncă sau de serviciu. Ocuparea posturilor în cadrul SND se realizează în condițiile legii, pe baza structurii de personal aprobate și a necesităților instituției.
+
+(3) Bunurile mobile și imobile aflate în proprietatea sau administrarea IDR se transmit SND în condițiile legii și potrivit regimului juridic aplicabil fiecărui bun.
+
+## Art. 5 — Finanțarea
+
+(1) SND se finanțează din:
+
+a) alocații de la bugetul de stat;
+
+b) venituri proprii obținute din taxe de studii, cursuri, programe de formare și alte activități specifice, în condițiile legii;
+
+c) fonduri nerambursabile și finanțări din programe naționale, europene sau internaționale;
+
+d) donații, sponsorizări și alte surse legal constituite.
+
+(2) Veniturile proprii și celelalte resurse financiare ale SND se utilizează pentru realizarea obiectului său de activitate, cu respectarea legislației finanțelor publice și a reglementărilor aplicabile instituțiilor publice.
+
+(3) SND întocmește și execută bugetul propriu potrivit legislației în vigoare.
+
+(4) Atribuțiile de ordonator de credite se exercită de persoana desemnată potrivit legii și actelor de organizare aplicabile. După constituirea legală a structurilor de conducere și ocuparea funcției de rector, atribuțiile acestuia se exercită în condițiile legislației în vigoare.
+
+## Art. 6 — Organizarea academică și cercetarea
+
+(1) SND își organizează activitatea de formare profesională, activitatea didactică și activitatea de cercetare prin structuri academice și administrative constituite potrivit legislației în vigoare.
+
+(2) Structurile organizatorice ale SND, inclusiv facultățile, departamentele și structurile de cercetare, se înființează și funcționează în condițiile legii.
+
+ROMANIA
+
+(3) Planurile de învățământ și conținutul programelor de studii se elaborază și se aprobă de structurile competente ale SND, cu respectarea autonomiei universitare și a legislației în vigoare.
+
+(4) Activitatea de cercetare a SND are caracter fundamental și aplicat, după caz, și urmărește dezvoltarea expertizei naționale în domeniul politicii externe, al diplomăției, al relațiilor internaționale și al studiilor strategice.
+
+(5) SND poate publica studii, rapoarte, analize și alte lucrări științifice, cu respectarea legislației privind informațiile clasificate, protecția datelor și drepturile de proprietate intelectuală.
+
+## Art. 7 — Personalul didactic și cooperarea instituțională
+
+(1) SND poate implica, în condițiile legii, cadre didactice din alte instituții de învățământ superior și specialiști din domeniul relațiilor internaționale, în calitate de cadre didactice asociate sau invitați.
+
+(2) SND poate încheia acorduri și protocoale de colaborare cu instituții de învățământ superior, institute de cercetare, academii diplomatice, organizații internaționale și alte instituții publice sau private, din țară și din străinătate.
+
+(3) SND poate invita profesori, cercetători și experți români sau străini pentru desfășurarea de activități didactice, programe executive, conferințe, seminare și proiecte de cercetare, în condițiile legii.
+
+(4) În activitățile didactice și de cercetare pot fi implicați, în condițiile legii, diplomați în activitate sau pensionați, experți ai organizațiilor internaționale, specialiști din instituțiile Uniunii Europene și NATO, reprezentanți ai altor organizații internaționale, precum și specialiști din mediul economic și din societatea civilă.
+
+(5) Colaborarea SND cu Ministerul Afacerilor Externe și cu alte autorități publice se realizează cu respectarea competențelor legale ale fiecărei instituții.
+
+## Art. 8 — Admiterea și cifra de școlarizare
+
+(1) Admiterea la programele organizate de SND se realizează prin concurs, cu respectarea legislației în vigoare și a metodologiei aplicabile fiecărui tip de program.
+
+(2) Pentru programele de studii universitare de masterat pot candida persoanele care dețin diplomă de licență sau echivalentă, în condițiile legii. Pentru celelalte programe se aplică cerințele legale specifice.
+
+(3) Cifra de școlarizare și numărul de locuri finanțate de la bugetul de stat se stabilesc potrivit legislației în vigoare, de către autoritățile competente, pe baza fundamentărilor și propunerilor prevăzute de lege.
+
+(4) Ministerul Afacerilor Externe comunică periodic Ministerului Educației și Cercetării necesarul estimat de formare profesională în domeniul diplomatic și consular, inclusiv numărul estimativ de persoane a căror pregătire este necesară și domeniile de specializare prioritare.
+
+(5) Comunicarea prevăzută la alin. (4) are rol consultativ și contribuie la fundamentarea ofertei educaționale și a cifrei de școlarizare, fără a conferi Ministerului Afacerilor Externe competența de a selecta candidații la admiterea în cadrul SND.
+
+(6) Necesitatea de formare comunicată de Ministerul Afacerilor Externe nu instituie, prin ea însăși, locuri rezervate unor persoane desemnate de minister și nu echivalează cu stabilirea unor posturi disponibile în cadrul acestuia.
+
+(7) Criteriile de admitere, probele de concurs, calendarul și procedurile de selecție se stabilesc potrivit legislației aplicabile și metodologiei aprobate de structurile competente ale SND.
+
+(8) Admiterea la SND și absolvirea programelor sale nu înlocuiesc procedurile legale de recrutare și selecție pentru ocuparea funcțiilor din cadrul Ministerului Afacerilor Externe sau pentru accesul în Corpul diplomatic și consular al României.
+
+## Art. 9 — Măsuri de organizare și punere în funcțiune
+
+(1) În vederea punerii în funcțiune a SND, Ministerul Educației și Cercetării adoptă, în limitele competențelor sale legale, măsurile administrative necesare organizării inițiale a instituției.
+
+(2) Măsurile prevăzute la alin. (1) pot viza calendarul operațional, constituirea structurilor administrative inițiale, elaborarea documentelor de organizare, pregătirea procedurilor de autorizare și acreditare și alte aspecte necesare începerii activității.
+
+(3) Constituirea structurilor de conducere și ocuparea funcțiilor de conducere se realizează potrivit legislației aplicabile instituțiilor de învățământ superior și celorlalte reglementări incidente, după caz.
+
+(4) Actele administrative emise în aplicarea prezentului articol nu pot deroga de la lege și nu pot înlocui procedurile legale de autorizare, acreditare, ocupare a posturilor, transfer al patrimoniului sau soluționare a raporturilor de muncă și de serviciu.
+
+## Art. 10 — Începerea activității
+
+(1) SND începe activitățile administrative și pregătitoare de la data intrării în vigoare a prezentei legi, în măsura în care sunt îndeplinite condițiile legale necesare.
+
+(2) Activitățile de formare profesională continuă, perfecționare și specializare pot fi organizate înaintea începerii programelor de studii universitare, cu respectarea regimului juridic aplicabil fiecărui tip de program.
+
+(3) Programele de studii universitare se organizează și se desfășoară numai după îndeplinirea condițiilor legale de autorizare, acreditare și evaluare aplicabile.
+
+(4) Punerea în funcțiune a SND se realizează etapizat, în funcție de îndeplinirea condițiilor legale, administrative, organizatorice și financiare necesare desfășurării activității.
+
+## Art. 11 — Dispoziții tranzitorii
+
+(1) La data intrării în vigoare a prezentei legi se abrogă Hotărârea Guvernului nr. 880/2005 privind organizarea și funcționarea Institutului Diplomatic Român, cu modificările și completările ulterioare.
+
+(2) Finalizarea cursurilor și programelor de formare profesională aflate în desfășurare la data intrării în vigoare a prezentei legi se asigură de către SND.
+
+(3) În termen de 90 de zile de la data intrării în vigoare a prezentei legi, patrimoniul IDR va fi preluat de SND pe bază de protocol de predare-preluare conform legislației în vigoare.
+
+(4) Prezenta lege nu modifică regimul juridic general privind organizarea și acreditarea instituțiilor de învățământ superior și nici condițiile legale de acces în Corpul diplomatic și consular al României.
+
+## Art. 12 — Intrarea în vigoare
+
+Prezenta lege intră în vigoare la 30 de zile de la data publicării în Monitorul Oficial al României, Partea I.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.
+
+Președintele Senatului
+
+Președintele Camerei Deputaților

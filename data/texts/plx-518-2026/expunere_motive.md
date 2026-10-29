@@ -1,0 +1,69 @@
+# EXPUNERE DE MOTIVE
+
+la propunerea legislativă pentru modificarea și completarea Legii nr.77/2016 privind darea în plată a unor bunuri imobile în vederea stingerii obligațiilor asumate prin credite
+
+Legea nr.77/2016 privind darea în plată a unor bunuri imobile în vederea stingerii obligațiilor asumate prin credite, astfel cum aceasta a fost modificată și completată prin Legea 52/2020, reprezintă soluția aleasă de legiutorul român pentru transpunerea în dreptul intern a normelor privitoare la împrumuturile în monedă străină cuprinse la Articolul 23 din Directiva 2014/17/UE a Parlamentului European și a Consiliului din 4 februarie 2014 privind contractele de credit oferite consumatorilor pentru bunuri imobile rezidențiale și de modificare a Directivelor 2008/48/CE și 2013/36/UE și a Regulamentului (UE) nr. 1093/2010.
+
+Spre deosebire de alte state membre, prin dispozițiile Legii nr. 77/2016 România a optat pentru reglementarea un caz de impreviziune legală, în raport de care consumatorii care au contractat credite într-o monedă străină pot solicita fie restabilirea echilibrului contractual, fie stingerea datoriei rezultate din creditul ipotecar prin darea în plată a imobilului ipotecat.
+
+În concret, articolul 4 din Legea nr.77/2016 stabilește:
+
+La alineatul 1 - condițiile cumulative care trebuie îndeplinite pentru a opera stingerea prin dare în plată a creanței izvorâte dintr-un contract de credit și a accesorilor sale;
+
+La alineatele 1¹ - 1³ - criteriile în raport de care este instituită o prezumție absolută de impreviziune contractuală, în favoarea consumatorului;
+
+La rândul său, alineatului 4 al articolului 4, prevede că "echilibrarea și continuarea contractului de credit sunt prioritare". În raport de această prevedere legală, Curtea Constituțională a României a subliniat, la rândul său, că "întreaga procedură reglementată de Legea nr. 77/2016 include ideea de adaptare a contractului, astfel că fiecare fază a acestei proceduri implică aplicarea cu prioritate a soluției de adaptare a contractului în raport cu cea de încetare a acestuia" (punctul 47, ultima teză, din Decizia CCR nr. 432 din 21 septembrie 2021).
+
+În același sens sunt și prevederile art. 46 din OUG nr. 52/2016, conform cărora: „în situația în care un consumator se află în dificultate de plată, creditorul și consumatorul trebuie să conlucreze pentru a stabili motivele apariției dificultăților și pentru a se lua măsuri adecvate de către creditor."
+
+În ciuda caracterului declarat "prioritar" pentru restabilirea echilibrului contractual, legislația internă nu acordă, însă, suficientă atenție ipotezei restabilirii echilibrului contractual ca urmare a aplicării prezumției absolute de impreviziune conform criteriilor reglementate la art. 4 alin. 1¹ - 1³ din Lege.
+
+Or, în foarte multe situații, consumatorii grav afectați de riscul valutar din contractele de credit ipotecar nu urmăresc stingerea creanței prin dare în plată, întrucât o astfel de soluție poate presupune pierderea locuinței familiale și ruina consumatorului.
+
+Această problematică a făcut în trecut obiectul analizei Curții de Justiție a Uniunii Europene, care a subliniat că în dreptul Uniunii, dreptul la locuință este un drept fundamental garantat de articolul 7 din Carta Europeană a Drepturilor Omului, drept care trebuie luat în considerare de statele membre la momentul adoptării reglementărilor privind contractele de credit și protecția consumatorului (a se vedea Hotărârea Curții din 10 septembrie 2014, pronunțată în Cauza C-34/13, Monika Kusionovă împotriva SMART Capital a.s.).
+
+În dreptul național, posibilitatea consumatorilor de a solicita restabilirea echilibrului contractual ca efect al impreviziunii este recunoscută atât de Legea nr. 77/2016, cât și de prevederile art. 1271 Cod civil, scopul fiind întocmai acela de a permite continuarea contractului de credit și păstrarea, de către consumator, a imobilului ipotecat.
+
+Optându-se pentru soluția adaptării contractului se ajunge la evitarea încetării contractului de credit prin darea în plată a bunului imobil ipotecat, ceea ce reprezintă o aplicare fidelă a art.4 alin.(4) teza întâi din lege. Prin urmare, dacă art.4 alin.(4) teza întâi din lege este o reglementare de principiu care privește relația dintre debitor și creditor, atrăgându-le atenția asupra necesității menținerii utilității sociale a contractului de credit, teza a doua aduce în discuție obligația instanței judecătorești de a aplica – în mod prioritar – soluția adaptării contractului.
+
+În virtutea acestor reglementări interne, pe rolul instanțelor de judecată se regăsesc numeroase cauze în care consumatorii au solicitat instanței să constate intervenirea impreviziunii în condițiile prevăzute de Legea nr. 77/2016, precum și a aplicarea unor măsuri de restabilire a echilibrului între părțile contractului de credit, conform prevederilor art. 1.271 alin. 2 Cod civil, cu continuarea contractului de credit și păstrarea imobilului în proprietatea consumatorului.
+
+Dacă în ceea ce privește constatarea intervenirii impreviziunii prin raportare la criteriile stabilite de Legea nr. 77/2016, soluțiile instanțelor de judecată sunt în principal consecvente, în ceea ce privește modul concret de restabilire a echilibrului contractual, în vederea continuării contractului de credit în condiții juste pentru consumator instanțele adoptă soluții diferite, determinate de lipsa unei reglementări clare și unitare cu privire la acest aspect.
+
+Astfel, în unele cazuri instanțele au considerat că echilibrul contractual în raport de ipoteza reglementată la art. 4 alin. 1¹ - 1³ din Lege este atins prin stabilirea unui curs de schimb calculat prin raportare la cursul valutar de la data contractării creditului, majorat cu procentul de 52,6% prevăzut la art. 4 alin. 1¹ lit. a din Lege. Considerăm că această soluție se raportează în mod eronat la procentul de 52,6%, care este prevăzut în Legea 77/2016 exclusiv ca un criteriu obiectiv în raport de care se poate stabili existența cazului de impreviziune, iar nu ca un procent de corecție care trebuie aplicat pentru restabilirea echilibrului contractual.
+
+În alte situații, instanțele au considerat că, odată constatată impreviziunea, împrumutătorul și consumatorul trebuie să împartă în mod egal riscul contractului, întrucât - așa cum se stabilește prin prevederile art. 1.271 alin. 2 lit. a Cod civil - instanța poate să dispună adaptarea contractului în sensul de a "distribui în mod echitabil între părți pierderile și beneficiile ce rezultă din schimbarea împrejurărilor". Considerăm că această din urmă soluție este preferabilă, dat fiind faptul că, pe de-o parte, ea se întemeiază pe reglementarea expresă din Codul civil, iar pe de altă parte, răspunde în mod real ideii de echilibru contractual.
+
+Pe de altă parte, legislația aplicabilă reechilibrării contractelor de credit este lacunară în ceea ce privește:
+
+\- momentul de la care noul curs valutar va fi utilizat pentru determinarea ratelor datorate de către consumator;
+
+\- efectele pe care formularea unei cereri de restabilire a echilibrului contractual le va avea asupra derulării raporturilor contractuale dintre părți, până la soluționarea definitivă a unei acțiuni în instanță.
+
+Nu în ultimul rând, în practică s-a constatat și faptul că împrumutătorii implementează în mod diferit reechilibrarea contractuală, fiind uneori remarcate situații injuste și chiar vădit prejudiciabile pentru consumator, în care acesta este înscris în Biroul de credit sau în alte baze de date negative cu privire la debitorii riscanți sau rău-platnici, în ciuda faptului că implementarea noii situații contractuale ar fi trebuit să se traducă în restituirea unor sume de bani din partea creditorului, sau în alocarea diferită a sumelor achitate de consumator pentru stingerea ratelor calculate conform noilor reguli contractuale.
+
+În raport de considerentele de mai sus, prezentul proiect de lege își propune să elimine lacunele identificate și să reglementeze procedura de urmat și modul de restabilire a echilibrului contractual în acele situații în care consumatorul solicită nu stingerea prin dare în plată a creanței izvorâte din contractul de credit, ci restabilirea echilibrului contractual, considerat a fi obiectiv prioritar al Legii nr. 77/2016.
+
+Modificarea Legii nr. 77/2016 își propune să aducă claritate și previzibilitate în legislația specifică adresată protecției consumatorilor, precum și să degreveze sau să ușureze sarcina instanțelor de judecată chemate să soluționeze nu doar problematica restabilirii echilibrului contractual, ci și diferite incidente care pot apărea pe tot parcursul procesului de reechilibrare a contractului de credit.
+
+INIȚIATOR:
+
+TIU MIHAI-ADRIAN – deputat de Olt
+
+Tabel cu semnături la Propunerea legislativă pentru modificarea și completarea Legii nr.77/2016 privind darea în plată a unor bunuri imobile în vederea stingerii obligațiilor asumate prin credite
+
+| Nr.crt | Deputați/Senatori | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1 | TIV Mihai-Adrian | S.OS. RO |  |
+| 2 | OLITENASU SORIN | S.OS. RO |  |
+| 3 | CARAGAIA FLORIN | S.O.S. RO |  |
+| 4 | LAZAROI IOAN | S.O.S. RO |  |
+| 5 | TOMDER ELENA -LAMUR | S.O.S. RO |  |
+| 6 | MANEA DUMITRU | S.O.S. RO |  |
+| 7 | BAS BMY MARCE | S.O.S. RO |  |
+| 8 | Couches Coodujo Marie | 70T |  |
+| 9 | Ion Niolope L'IVIL | S.O.S. RO |  |
+| 10 | CIMPIANU ANDREEA-PETRONECA | S.O.S. RO |  |
+| 11 | IONESCU TUDOR | S.O.S. RO |  |
+| 12. | MACOVGE'IIIE SIMONA ELENA | S.O.S. RO |  |
+| 13. | PASCACINI NIHEI Atioxam | S.O.S. RO |  |

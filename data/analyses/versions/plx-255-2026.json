@@ -1,0 +1,132 @@
+{
+  "slug": "plx-255-2026",
+  "billId": "PL-x 255/2026",
+  "updatedAt": "2026-10-29T12:56:23.952Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L094FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Apă gratuită la dozator în instituții, școli, spitale și gări",
+      "summaryTlDr": "Scopul e bun și chiar util: cei care stau la cozi în spitale, la ghișee sau în gări ar avea apă gratuită. Textul impune însă pahare de unică folosință și contracte obligatorii cu firme „autorizate” de nimeni, fără bani, fără termen și fără control. Riscă astfel să creeze o piață captivă pentru water-coolere și să crească tocmai plasticul pe care spune că îl reduce.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/200/50/5/se267.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Apă gratuită la dozator în instituții, școli, spitale publice, gări, metrou și aeroporturi",
+      "summaryTlDr": "Ideea e bună și utilă: apă de băut gratuită acolo unde stai la coadă sau în tranzit. Textul e însă scris stângaci. Impune pahare de unică folosință și contracte cu firme de dozatoare chiar și acolo unde există apă de la rețea, nu dă termen de conformare și nu prevede bani pentru instituțiile obligate.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat tacit textul inițiatorului, fără nicio modificare de fond",
+      "summary": "Senatul nu a votat proiectul, care s-a considerat adoptat tacit în forma inițiatorului. Textul e identic ca fond: rămân dozatoarele obligatorii, paharele de unică folosință și contractul cu o firmă autorizată, cu aceleași probleme.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Clinicile private sunt scutite, dar școlile și grădinițele private sunt obligate",
+            "major": true,
+            "article": "art. 16 alin. (2¹)"
+          },
+          {
+            "text": "Transportatorii propriu-ziși nu sunt vizați, doar administratorii de stații, gări și aeroporturi",
+            "major": true,
+            "article": "art. 16 alin. (2¹)"
+          },
+          {
+            "text": "Operatorii privați de autogări, adesea firme mici, primesc obligații și costuri noi",
+            "major": true,
+            "article": "art. 16 alin. (2¹)"
+          },
+          {
+            "text": "Niciun prag: sunt obligate și instituțiile fără program cu publicul",
+            "major": true,
+            "article": "art. 16 alin. (2¹)"
+          },
+          {
+            "text": "Doar dozatoarele sunt acceptate explicit; cișmelele racordate la rețea nu sunt menționate",
+            "major": true,
+            "article": "art. 16 alin. (2²)"
+          },
+          {
+            "text": "Pahare de unică folosință obligatorii la orice dozator, contrar Directivei (UE) 2019/904",
+            "major": true,
+            "article": "art. 16 alin. (2³) lit. a)"
+          },
+          {
+            "text": "Contract obligatoriu cu firmă autorizată, chiar la dozatoare racordate; igienizare proprie exclusă",
+            "major": true,
+            "article": "art. 16 alin. (2³) lit. b)"
+          },
+          {
+            "text": "Neclar dacă haltele CFR nesupravegheate intră la „gări feroviare”",
+            "major": false,
+            "article": "art. 16 alin. (2¹)"
+          },
+          {
+            "text": "Niciun număr minim de dozatoare și niciun termen de conformare",
+            "major": false,
+            "article": "art. 16 alin. (2²)"
+          },
+          {
+            "text": "„Reciclabile” permite pahare de plastic, contrar obiectivului declarat de reducere a deșeurilor",
+            "major": false,
+            "article": "art. 16 alin. (2³) lit. a)"
+          },
+          {
+            "text": "Legea nu spune cine autorizează firmele de profil și pe ce temei",
+            "major": false,
+            "article": "art. 16 alin. (2³) lit. b)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Acces gratuit la apă potabilă în instituții publice, școli, spitale, gări și aeroporturi",
+            "major": true,
+            "article": "art. 16 alin. (2¹)"
+          },
+          {
+            "text": "Mentenanța și igienizarea periodică a dozatoarelor devin obligatorii",
+            "major": false,
+            "article": "art. 16 alin. (2³) lit. b)"
+          },
+          {
+            "text": "Buletin de analiză la fiecare lot de apă îmbuteliată, consultabil de oricine",
+            "major": false,
+            "article": "art. 16 alin. (2⁴)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 5,
+        "same": 0.33
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:55:58.044Z"
+    }
+  ]
+}

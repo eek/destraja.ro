@@ -1,0 +1,208 @@
+{
+  "slug": "plx-488-2026",
+  "billId": "PL-x 488/2026",
+  "updatedAt": "2026-10-29T12:50:36.983Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L270FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 8,
+      "riskLevel": "red",
+      "plainTitle": "Depozitele de gaze intră în regimul gazoductelor, iar lucrările nu mai pot fi oprite în instanță",
+      "summaryTlDr": "Scopul e legitim: depozitele de gaze lipseau din legea care grăbește marile gazoducte, iar includerea lor e firească. Dar proiectul adaugă un regim aproape imun la instanțe: interzice suspendarea lucrărilor, obligă reemiterea în 5 zile a autorizației căzute «din oricare cauze», inclusiv după anulare judecătorească, și lasă Ministerul Energiei să decidă soarta construcțiilor.",
+      "scores": {
+        "agy": 8,
+        "claude": 8,
+        "codex": 8
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/80/8/se551.pdf",
+      "source": "cdep.ro",
+      "riskScore": 6.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Conducte și depozite de gaze pe repede-înainte: avize fără termen, păduri gratuite și acces în zonele de biodiversitate",
+      "summaryTlDr": "Scopul e legitim: depozitele de gaze contează pentru iarnă, iar includerea înmagazinării în Legea 185/2016 are logică. Problema e pachetul de derogări din forma Senatului: avize valabile până la recepție, păduri publice ocupate gratuit pe toată durata existenței, acces în zonele prioritare pentru biodiversitate și o indemnizație pentru proprietari formulată restrictiv, toate acordate prin HG fără criterii.",
+      "scores": {
+        "agy": 6,
+        "claude": 6,
+        "codex": 7
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Senatul a scos interdicția de a suspenda lucrările în instanță și reemiterea rapidă a autorizației căzute",
+      "summary": "Senatul a scos interdicția de a suspenda lucrările în instanță, obligația de a reemite în 5 zile o autorizație căzută și decizia Ministerului Energiei asupra construcțiilor. În schimb, scutirea de tarif acoperă acum și scoaterea definitivă a terenurilor agricole.",
+      "changes": [
+        {
+          "title": "Instanța poate din nou suspenda lucrările",
+          "text": "Art. 21 alin. (10), care interzicea orice suspendare a lucrărilor în instanță, a fost scos. Proprietarii și cei care apără mediul pot cere din nou suspendarea.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 21 alin. (10)",
+          "before": "nu se poate dispune suspendarea lucrărilor pentru proiectele ce fac obiectul prezentei legi",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Nu mai e obligatorie reemiterea autorizației în 5 zile",
+          "text": "Art. 22 alin. (6¹), care obliga autoritatea să elibereze în 5 zile lucrătoare o nouă autorizație după suspendare sau încetarea efectelor, a fost scos. O hotărâre judecătorească nu mai poate fi ocolită astfel.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 22 alin. (6¹)",
+          "before": "autoritatea competentă are obligația de a elibera, la solicitarea beneficiarului, pentru rațiuni ce țin de securitatea națională, în termen de maximum 5 zile lucrătoare de la data înregistrării cererii motivate, o nouă autorizație de construire",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Ministerul Energiei nu mai decide menținerea sau demolarea construcțiilor",
+          "text": "Art. 22¹, prin care Ministerul Energiei decidea menținerea sau desființarea construcțiilor pe baza documentației depuse chiar de inițiator, a fost scos.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 22¹",
+          "before": "Decizia menținerii sau a desființării construcțiilor realizate se ia de către Ministerul Energiei în baza unei documentații depuse de către inițiatorul proiectului",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Fără tarif și la scoaterea definitivă a terenurilor agricole",
+          "text": "Art. 4 alin. (6): scutirea de plata tarifului la Fondul de ameliorare a fondului funciar se aplica doar la scoaterea temporară; acum acoperă și scoaterea definitivă a terenurilor agricole.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 4 alin. (6)",
+          "before": "Scoaterea temporară a terenurilor din circuitul agricol se realizează prin efectul prezentei legi, fără plata tarifului la Fondul de ameliorare a fondului funciar",
+          "after": "Scoaterea temporară/definitivă a terenurilor din circuitul agricol se realizează prin efectul prezentei legi, fără plata tarifului la Fondul de ameliorare a fondului funciar",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Scoaterea definitivă a pădurilor, limitată la instalațiile de suprafață",
+          "text": "Art. 3 alin. (2¹): inițial, pădurile statului și ale UAT din tot culoarul de lucru ieșeau definitiv și gratuit din fondul forestier; acum doar perimetrele instalațiilor de suprafață, fără mențiunea de gratuitate.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 3 alin. (2¹)",
+          "before": "din culoarul de lucru pentru realizarea lucrărilor specifice proiectelor de importanță națională în domeniul gazelor naturale se face cu titlu gratuit atât pe toată durata de realizare a lucrărilor",
+          "after": "aferente perimetrelor instalațiilor de suprafață specifice proiectelor de importanță națională în domeniul gazelor naturale se scot definitiv din fondul forestier național în temeiul art.40 alin.(1) lit.a) și alin.(2) din Legea nr.331/2024",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Guvernul declară prin HG proiectele de importanță națională, fără criterii sau consultare publică",
+            "major": true,
+            "article": "art. 1 alin. (3)"
+          },
+          {
+            "text": "Regimul derogatoriu se extinde la depozitele de înmagazinare, inclusiv ale operatorilor privați",
+            "major": true,
+            "article": "art. 1 alin. (2)"
+          },
+          {
+            "text": "„Lucrările” includ operarea și exploatarea, deci derogările acoperă toată viața instalațiilor",
+            "major": true,
+            "article": "art. 2 alin. (1) lit. k)"
+          },
+          {
+            "text": "Proiectele sunt permise în zonele prioritare pentru biodiversitate, în și în afara ariilor protejate",
+            "major": true,
+            "article": "art. 23 alin. (1¹)"
+          },
+          {
+            "text": "Proiectele sunt considerate prin lege de siguranță și securitate națională pentru ariile protejate",
+            "major": true,
+            "article": "art. 2 alin. (1) lit. m)"
+          },
+          {
+            "text": "Pădurile statului și ale UAT sunt ocupate gratuit pe toată durata existenței instalațiilor",
+            "major": true,
+            "article": "art. 3 alin. (1)"
+          },
+          {
+            "text": "Pădurile de sub instalații ies definitiv din fondul forestier; compensațiile silvice rămân neclare",
+            "major": true,
+            "article": "art. 3 alin. (2¹)"
+          },
+          {
+            "text": "Terenurile agricole din extravilan ies din circuitul agricol prin lege, fără avizul organelor agricole",
+            "major": true,
+            "article": "art. 4 alin. (1)"
+          },
+          {
+            "text": "Scoaterea temporară și definitivă a terenurilor agricole, fără tarif la Fondul de ameliorare",
+            "major": true,
+            "article": "art. 4 alin. (6)"
+          },
+          {
+            "text": "Avizele și autorizațiile rămân valabile până la recepție, indiferent de data emiterii",
+            "major": false,
+            "article": "art. 22 alin. (6)"
+          },
+          {
+            "text": "Autorizație nouă pe aceeași documentație, fără certificat de urbanism și avize noi",
+            "major": false,
+            "article": "art. 22 alin. (8)"
+          },
+          {
+            "text": "Noile reguli se aplică și procedurilor de avizare sau aprobare aflate în curs",
+            "major": false,
+            "article": "Art. II"
+          },
+          {
+            "text": "Acordul proprietarului de pădure privată e doar înscris sub semnătură privată, prin derogare",
+            "major": false,
+            "article": "art. 3 alin. (4)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Proprietarii afectați, inclusiv de operare și exploatare, au dreptul la indemnizații și despăgubiri",
+            "major": true,
+            "article": "art. 2 alin. (1) lit. l)"
+          },
+          {
+            "text": "Indemnizațiile pentru limitarea folosinței se stabilesc prin rapoarte ale evaluatorilor autorizați",
+            "major": true,
+            "article": "art. 8 alin. (2)"
+          },
+          {
+            "text": "Inițiatorul plătește chiria și pierderea de creștere pentru pădurile private ocupate",
+            "major": true,
+            "article": "art. 3 alin. (3)"
+          },
+          {
+            "text": "Avizul se reconfirmă dacă se schimbă regimul de protecție al zonei",
+            "major": false,
+            "article": "art. 22 alin. (8)"
+          },
+          {
+            "text": "Predarea terenului forestier se face în prezența Gărzii Forestiere",
+            "major": false,
+            "article": "art. 3 alin. (13)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 27,
+        "removed": 32,
+        "same": 0.29
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:50:36.982Z"
+    }
+  ]
+}

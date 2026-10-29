@@ -1,0 +1,266 @@
+{
+  "slug": "plx-33-2026",
+  "billId": "PL-x 33/2026",
+  "updatedAt": "2026-10-29T13:53:40.946Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L586FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Cum sunt salvate proiectele tăiate din PNRR: mutate pe alte fonduri europene și pe bugetul de stat",
+      "summaryTlDr": "Lege tehnică, cu scop legitim: evită blocarea unor drumuri, linii de metrou, spitale și lucrări de mediu deja contractate, după revizuirea PNRR. Riscul real nu e direct pentru cetățean, ci de transparență: miniștrii aleg, prin ordine și memorandumuri nepublicate, ce proiecte primesc banii economisiți.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/30/3/se17.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "Cum continuă, din alți bani, proiectele scoase din PNRR",
+      "summaryTlDr": "Lege tehnică și în mare parte utilă. Aprobă fără modificări ordonanța care mută pe alte surse de finanțare proiectele tăiate la revizuirea PNRR, ca să nu rămână șantiere și spitale neterminate. Punctele slabe sunt denunțarea unilaterală a unor contracte de finanțare și listele de rezervă aprobate printr-un simplu ordin de ministru.",
+      "scores": {
+        "agy": 5,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl033_cd033_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Bani pentru proiectele scoase din PNRR și mutarea creșelor „Sfânta Ana” pe împrumutul PNRR",
+      "summaryTlDr": "Este o lege tehnică de salvare a proiectelor rămase fără finanțare după revizuirea PNRR și e utilă în principiu. Parlamentul a adăugat însă două excepții care slăbesc controlul asupra banilor: sumele suplimentare se pot cheltui înainte ca devizele să fie aprobate, iar creșele se pot muta între PNRR și bugetul de stat fără să spună cine decide și după ce criterii.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat ordonanța PNRR fără modificări; diferențele sunt doar de formă",
+      "summary": "Forma adoptată de Senat aprobă OUG 72/2025 la fel ca forma inițiatorului, fără amendamente. S-au schimbat doar antetul, formula de adoptare și trimiterea la Monitorul Oficial, deci riscurile și beneficiile rămân aceleași.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Contracte de finanțare denunțabile unilateral; neclar cine plătește furnizorii după denunțare",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Realocare din Programul Educație și Ocupare pentru spitale, nemenționată în titlul legii",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Listele de rezervă, aprobate prin ordin de ministru, fără obligația publicării punctajelor",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Ordonanța aprobată fără amendamente, problemele ei nu au fost corectate în Parlament",
+            "major": false,
+            "article": "art. unic"
+          }
+        ],
+        "good": [
+          {
+            "text": "Finanțarea UE pierdută poate fi compensată din economiile altor investiții PNRR",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Cele nouă contracte de spitale continuă prin Programul Sănătate 2021-2027",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Proiectele suspendate prin OUG 41/2025 pot intra în listele de rezervă",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Plățile făcute până la denunțarea contractului nu se mai recuperează",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Compensarea cere avizul MIPE și al Finanțelor și respectarea limitelor țintelor",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Criteriile listelor de rezervă sunt în ordonanță, iar listele vin în 60 de zile",
+            "major": false,
+            "article": null
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:52:08.673Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_riscant",
+      "headline": "Coordonatorii PNRR pot depăși finanțarea națională fără documentații tehnico-economice aprobate înainte",
+      "summary": "Inițial, Senatul aproba ordonanța fără modificări. Acum, Camera permite cheltuieli peste procentul de finanțare națională din PNRR, cu documentații aprobate abia la recepție și avizate de același coordonator, și mută creșe între PNRR și bugetul de stat fără criterii clare.",
+      "changes": [
+        {
+          "title": "Cheltuieli peste procentul național, fără documentații aprobate",
+          "text": "Art. III alin. (1)–(2): coordonatorii pot depăși procentul de finanțare națională pentru ajustări de preț și „activități necesare”, o formulă vagă, fără aprobarea prealabilă a documentațiilor tehnico-economice.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. III alin. (1)–(2)",
+          "before": null,
+          "after": "cu sumele necesare pentru ajustarea/majorarea prețurilor contractelor de achiziție publică, precum și cu sumele aferente unor activități necesare implementării proiectelor, se face fără a fi necesară aprobarea/reaprobarea documentațiilor tehnico-economice",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Creșele „Sfânta Ana” pot trece în împrumutul PNRR",
+          "text": "Art. II alin. (1): creșele „Sfânta Ana” pot fi preluate în împrumutul PNRR indiferent de stadiul lucrărilor. Ajută la finalizare, dar cele abia începute greu se termină până la 31 august 2026.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. II alin. (1)",
+          "before": null,
+          "after": "indiferent de stadiul fizic de execuție, pot fi preluate în Planul național de redresare și reziliență al României – componenta de împrumut, în vederea finalizării.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Creșe înlocuite în PNRR fără criterii sau autoritate",
+          "text": "Art. II alin. (3)–(4): creșele PNRR care nu pot fi terminate la timp se înlocuiesc, iar cele scoase trec pe bugetul de stat. Textul nu spune cine decide, după ce criterii și în ce termen.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. II alin. (3)–(4)",
+          "before": null,
+          "after": "creșele preluate potrivit alin. (1) se introduc în Planul național de redresare și reziliență al României în locul celor pentru care beneficiarii nu pot asigura finalizarea în termenul asumat pentru atingerea țintelor și jaloanelor.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Creșe sub 50% exceptate de la OUG 87/2025",
+          "text": "Art. II alin. (2): creșele „Sfânta Ana” cu execuție sub 50% sunt exceptate de la art. IV alin. (2) din OUG 87/2025. Textul nu arată ce prevede acea regulă, deci efectul nu reiese de aici.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. II alin. (2)",
+          "before": null,
+          "after": "al căror stadiu fizic de execuție este mai mic de 50%, sunt exceptate de la aplicarea prevederilor art. IV alin. (2) din Ordonanța de urgență a Guvernului nr. 87/2025",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Documentațiile se aprobă abia la recepție",
+          "text": "Art. III alin. (3): prin derogare de la legile finanțelor publice, documentațiile se aprobă oricând până la recepție, cu avizul coordonatorului care a obținut depășirea: practic autocontrol.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. III alin. (3)",
+          "before": null,
+          "after": "se face de către ordonatorii principali de credite cel târziu până la efectuarea recepției la terminarea lucrărilor, cu avizul coordonatorului de reformă și/sau investiții.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Depășirea finanțării naționale pentru „activități necesare”, formulă vagă, fără documentații aprobate",
+            "major": true,
+            "article": "art. III alin. (1)"
+          },
+          {
+            "text": "Înlocuirea creșelor în PNRR fără autoritate, criterii, procedură sau termen stabilite",
+            "major": true,
+            "article": "art. II alin. (3)–(4)"
+          },
+          {
+            "text": "Creșe preluate indiferent de stadiu, greu de terminat până la 31 august 2026",
+            "major": true,
+            "article": "art. II alin. (1)"
+          },
+          {
+            "text": "Contracte de finanțare denunțabile unilateral; neclar cine acoperă obligațiile rămase față de furnizori",
+            "major": true,
+            "article": "art. I (OUG 72/2025)"
+          },
+          {
+            "text": "Documentațiile se aprobă până la recepție, cu avizul aceluiași coordonator: autocontrol",
+            "major": false,
+            "article": "art. III alin. (3)"
+          },
+          {
+            "text": "Liste de rezervă aprobate prin ordin de ministru, cu control public redus",
+            "major": false,
+            "article": "art. I (OUG 72/2025)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Finanțarea UE pierdută poate fi compensată din economii PNRR, cu aviz MIPE și MF",
+            "major": true,
+            "article": "art. I (OUG 72/2025)"
+          },
+          {
+            "text": "Proiectele suspendate prin OUG 41/2025 pot intra în liste de rezervă",
+            "major": true,
+            "article": "art. I (OUG 72/2025)"
+          },
+          {
+            "text": "Plățile făcute înainte de denunțarea contractelor nu se mai recuperează",
+            "major": true,
+            "article": "art. I (OUG 72/2025)"
+          },
+          {
+            "text": "Creșele începute pot primi bani din împrumutul PNRR pentru finalizare",
+            "major": true,
+            "article": "art. II alin. (1)"
+          },
+          {
+            "text": "Creșele scoase din PNRR continuă cu finanțare de la bugetul de stat",
+            "major": true,
+            "article": "art. II alin. (4)"
+          },
+          {
+            "text": "Bani în buget pentru ajustarea prețurilor contractelor de achiziție publică",
+            "major": true,
+            "article": "art. III alin. (1)–(2)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 11,
+        "removed": 3,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:53:40.946Z"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "slug": "plx-288-2026",
+  "billId": "PL-x 288/2026",
+  "updatedAt": "2026-10-29T12:57:53.294Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L137FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Autostrada Sibiu–Pitești are voie să treacă prin Parcul Național Cozia și prin rezervația Pădurea Călinești–Brezoi",
+      "summaryTlDr": "Este o derogare țintită pentru un proiect strategic aproape terminat, motivată de riscul pierderii a 17 mld. lei, și nu scoate lucrările de sub evaluarea de mediu. Problema e redactarea: permisiunea de a scoate terenuri din circuitul silvic și agricol nu e limitată la cele două arii protejate și nici la o suprafață, deși Guvernul promite tocmai o derogare punctuală.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/200/80/8/se309.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Voie specială pentru autostrada Sibiu–Pitești să construiască și să defrișeze în Parcul Național Cozia",
+      "summaryTlDr": "Scopul e legitim, iar procedura de evaluare a impactului asupra mediului rămâne obligatorie. Problema e finalul art. 1 alin. (1), scris atât de larg încât poate fi citit ca permisiune generală de a scoate din circuit terenuri din orice arie protejată națională. Merită aprobată doar cu derogarea limitată la cele două arii, la acest obiectiv și la suprafețe precise.",
+      "scores": {
+        "agy": 4,
+        "claude": 5,
+        "codex": 6
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat ordonanța nemodificată; derogarea pentru ariile protejate rămâne la fel de largă",
+      "summary": "Senatul a aprobat ordonanța fără modificări de fond: acum sunt menționate doar data ordonanței și Monitorul Oficial în care a apărut. Riscurile rămân aceleași, inclusiv derogarea largă pentru ariile protejate de interes național, fără limită de suprafață.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Textul permite scoaterea terenurilor din arii protejate de interes național nenumite, nu doar Cozia",
+            "major": true,
+            "article": "art. 1 alin. (1) din OUG nr. 10/2026"
+          },
+          {
+            "text": "Nicio limită de suprafață, coordonate sau durată; cele 13 ha apar doar în expunere",
+            "major": true,
+            "article": "art. 1 alin. (1) din OUG nr. 10/2026"
+          },
+          {
+            "text": "Derogarea nu e limitată la lucrările noi de stabilizare a versanților care o justifică",
+            "major": true,
+            "article": "art. 1 alin. (1) din OUG nr. 10/2026"
+          },
+          {
+            "text": "Derogarea pentru rezervații vizează probabil RONPA0815, al cărei impact nu este descris",
+            "major": false,
+            "article": "art. 1 alin. (1) din OUG nr. 10/2026"
+          }
+        ],
+        "good": [
+          {
+            "text": "Evaluarea de mediu după Legea 292/2018 și actele de reglementare rămân obligatorii",
+            "major": true,
+            "article": "art. 1 alin. (2) și art. 2 din OUG nr. 10/2026"
+          },
+          {
+            "text": "Codul silvic rămâne aplicabil, cu compensări și taxe pentru scoaterea din fondul forestier",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Evită pierderea a 17 mld. lei și despăgubiri către antreprenori",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Cetățenii și IMM-urile nu primesc obligații noi",
+            "major": false,
+            "article": null
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:57:53.294Z"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+## Expunere de motive
+
+Lege pentru desființarea Institutului de Studii Avansate pentru Cultura și Civilizația Levantului și pentru abrogarea Legii nr. 117/2017 privind înființarea Institutului de Studii Avansate pentru Cultura și Civilizația Levantului
+
+Institutul Levantului este o structură cu pretenții academice globale, dar fără fundament științific și fără rezultate, funcționând în realitate ca o sinecură instituțională finanțată din bani publici. Deși legea prevede posibilitatea obținerii de venituri proprii din studii, proiecte, consultanță sau publicații, în practică institutul nu generează venituri semnificative și funcționează aproape exclusiv pe baza subvențiilor de la bugetul de stat.
+
+## Situația premisă:
+
+Institutul de Studii Avansate pentru Cultura și Civilizația Levantului a fost înființat prin Legea nr. 117/2017 privind înființarea Institutului de Studii Avansate pentru Cultura și Civilizația Levantului publicată în Monitorul Oficial al României, Partea I, nr. 404 din 30 mai 2017, fiind finanțat de la bugetul de stat prin bugetul Senatului României. Conducerea este asigurată de un Consiliu științific format din maximum 36 de membri, dintre care 25 erau activi în anul 2023.
+
+Potrivit art. 7 din legea de înființare, sursele de venit propriu pot proveni din:
+
+• proiecte de studii și cercetări, finanțate sau cofinanțate, inclusiv din fonduri europene;
+
+• editarea și vânzarea de cărți, publicații, lucrări și studii de specialitate;
+
+\- studii, proiecte, prestări de servicii și consultanță;
+
+\- exploatarea bunurilor aflate în proprietate sau administrare;
+
+\- sponsorizări și donații, în condițiile legii.
+
+Activitățile institutului sunt axate pe cercetarea civilizațiilor din zona Levantului, o regiune geografică din Orientul Mijlociu, la sud de Munții Taurus, care cuprinde teritorii din mai multe state actuale, printre care Irak, Siria, Liban, Israel, Iordania și altele.
+
+## Problema identificată:
+
+Institutul pornește de la o premisă grandioasă: cercetarea civilizației Levantului. În realitate, Levantul este un concept geografic și cultural vag, fără delimitare precisă și fără a constitui obiect de cercetare instituționalizat nicăieri în lume. Comunitatea de cercetători specializați este extrem de restrânsă, inclusiv la nivel internațional.
+
+Cu toate acestea, institutul pretinde o misiune planetară, fără a putea indica rezultate concrete: studii relevante, publicații de impact sau proiecte de cercetare recunoscute. Analiza bugetelor arată clar că cercetarea este, în fapt, inexistentă. Numărul cercetătorilor activi în domeniul studiilor levantine la nivel național este extrem de redus, ceea ce ridică semne serioase de întrebare cu privire la relevanța și sustenabilitatea institutului. ISACCL funcționează, în esență, ca o structură administrativă, fără să aducă o contribuție reală la patrimoniul științific național.
+
+Analiza bugetelor în perioada 2021–2025 relevă că cheltuielile s-au concentrat aproape exclusiv pe salarii și bunuri administrative:
+
+\- Buget 2021: 2,728 milioane lei, din care 2,683 milioane lei subvenție de la bugetul de stat;
+
+• Buget 2022: 3,38 milioane lei, din care aproape 2,9 milioane lei de la bugetul de stat;
+
+\- Buget 2023: 3,8 milioane lei, din care 3,6 milioane lei de la bugetul de stat (2,7 milioane salarii, 1 milion bunuri și servicii);
+
+\- Buget 2025: 3,36 milioane lei, din care 2,7 milioane lei salarii, 0,5 milioane lei bunuri și servicii, zero lei pentru publicații.
+
+## Soluția propusă:
+
+Soluția propusă constă în desființarea Institutului de Studii Avansate pentru Cultura și Civilizația Levantului, cu efecte imediate asupra activității și structurii de personal, printr-un termen rezonabil de 45 de zile pentru încheierea contractelor de muncă. Patrimoniul institutului urmează a fi redistribuit prin hotărâre de Guvern, arhiva va fi preluată de Senatul României, iar obligațiile de raportare financiară vor reveni tot Senatului. Abrogarea Legii nr. 117/2017 asigură eliminarea temeiului juridic al instituției.
+
+Parlamentul României are competența necesară să adopte prezenta lege în temeiul art. 74 alin. (4) din Constituția României, republicată.
+
+## Impactul preconizat:
+
+Impactul financiar constă în economii anuale la bugetul de stat de aproximativ 3,4 milioane lei, reprezentând subvențiile actuale acordate ISACCL, fără ca această reducere să afecteze activități de cercetare cu rezultate demonstrabile.
+
+Impactul juridic privește abrogarea Legii nr. 117/2017 privind înființarea Institutului de Studii Avansate pentru Cultura și Civilizația Levantului, publicată în Monitorul Oficial al României, Partea I, nr. 404 din 30 mai 2017, cu modificările ulterioare.
+
+Impactul social vizează eliminarea unei structuri publice ineficiente, ale cărei activități nu produc beneficii cuantificabile pentru societatea românească.
+
+Cristian Ghinea
+
+Senator USR
+
+## Tabel semnături
+
+Lege pentru desființarea Institutului de Studii Avansate pentru Cultura și Civilizația Levantului și pentru abrogarea Legii nr. 117/2017 privind înființarea Institutului de Studii Avansate pentru Cultura și Civilizația Levantului
+
+| Nume și prenume | Semnătură | Grup parlamentar |
+| --- | --- | --- |
+| SENDROU VLAD-10AN |  | USR |
+| CHEORGHIV ANDREI FLODIN |  | USD |
+| ALIN STOICA |  | ASR |
+| HANGAN POLLYANNA |  | USR |
+| Bodea Marius |  | USR |
+| Buleocei Teux |  | USR |
+| RIYA ATATHASIU |  | USR |
+| SOBRA ADEUHA |  | USR |
+| PALARES RESTAM |  | USR |
+| BLAGA DANIEL |  | USR |
+| CIBU DEACONU BU XAU DRA |  | USR |
+| CRISINA PRAWA |  | USR |
+| PLUAR ANDREI |  | USR |
+| SIPOS SORAH |  | USD |
+
+## Tabel semnături
+
+Lege pentru desființarea Institutului de Studii Avansate pentru Cultura și Civilizația Levantului și pentru abrogarea Legii nr. 117/2017 privind înființarea Institutului de Studii Avansate pentru Cultura și Civilizația Levantului
+
+| Nume și prenume | Semnătură | Grup parlamentar |
+| --- | --- | --- |
+| SPATAČU SIMON |  | USR |
+| SERKSIJAN ARIJNIC |  | USR |
+| GIV RGIU ADRIAN |  | USR |
+| BOTEZ MIHAI, CĂTĂLIN |  | USR |
+| Rodeanu Bojda |  | USR |
+| Morussi George |  | USR |
+| Drueč Ćatăliu |  | USR |
+| JORNUZ IULIAG |  | USR |
+| RIGMAN CIPRIAN |  | USR |
+| VĂLUVA DUNITHU |  | USR |
+| BOCHILEANU GĂLIN |  | USR |
+| IONUT MOSTEANU |  | USR |
+| SIENJAN ION |  | USR |
+
+## Tabel semnături
+
+Lege pentru desființarea Institutului de Studii Avansate pentru Cultura și Civilizația Levantului și pentru abrogarea Legii nr. 117/2017 privind înființarea Institutului de Studii Avansate pentru Cultura și Civilizația Levantului
+
+<table>
+<tbody>
+<tr><td>Nume și prenume</td><td>Semnătură</td><td>Grup parlamentar</td></tr>
+<tr><td>PAUH CYNTHIA</td><td rowspan="5"></td><td>USR</td></tr>
+<tr><td>ANGIEL PAZVAN</td><td>USR</td></tr>
+<tr><td>RUS VASICE-CIPRIAN</td><td>USR</td></tr>
+<tr><td>Opriute Hauzei</td><td>USR</td></tr>
+<tr><td>CRISTIAN BRIAN</td><td>USR</td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+## Tabel semnături
+
+Lege pentru desființarea Institutului de Studii Avansate pentru Cultura și Civilizația Levantului și pentru abrogarea Legii nr. 117/2017 privind înființarea Institutului de Studii Avansate pentru Cultura și Civilizația Levantului
+
+| Nume și prenume | Semnătură | Grup parlamentar |
+| --- | --- | --- |
+| COLIBAN ALLEN |  | USR |
+| NASOJ CLAUDU |  | USR |
+| TAIASHI STEFAN |  | USR |
+| DRAGOESCU GEAR |  | USR |
+| NEGOI EVEN RENUS |  | USR |
+| RIGMAN CIPRIAM |  | USR |
+| ECHERE ALAIDN |  | USR |
+| Dimirmiu ALECONPM |  | VSN |

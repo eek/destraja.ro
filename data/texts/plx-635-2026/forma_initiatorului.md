@@ -1,0 +1,23 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENAT
+
+## LEGE
+
+pentru abrogarea Legii nr. 214/2024 privind utilizarea semnăturii electronice, a mărcii temporale și prestarea serviciilor de încredere bazate pe acestea
+
+## Parlamentul României adoptă prezenta Lege
+
+Articol unic – Legea nr. 214/2024 privind utilizarea semnăturii electronice, a mărcii temporale și prestarea serviciilor de încredere bazate pe acestea, publicată în Monitorul Oficial al României, Partea I, nr. 647 din data de 8 iulie 2024, se abrogă.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+Sorin-Mihai GRINDEANU
+
+PREȘEDINTELE SENATULUI
+
+Mircea ABRUDEAN

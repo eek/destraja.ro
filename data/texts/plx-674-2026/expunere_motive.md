@@ -1,0 +1,759 @@
+# EXPUNERE DE MOTIVE
+
+fondurile de pensii administrate privat
+
+Prezenta inițiativă legislativă de modificare si completare a Legii nr. 411/2004 are ca premisă realitatea strategică și economică actuală, în care securitatea națională și reziliența economică sunt profund interdependente.
+
+Strategia Națională de Apărare a Țării pentru perioada 2025–2030 consacră explicit rolul economiei naționale în arhitectura de securitate, subliniind că economia este chemată să creeze resurse pentru programele de înzestrare și să contribuie direct la producția de echipament și tehnologie militară, inclusiv prin dezvoltarea capabilităților cu dublă utilizare (dual-use).
+
+Strategia indică, totodată, obiective și direcții de acțiune care vizează revitalizarea industriei naționale de apărare și utilizarea unor instrumente economice și financiare moderne, inclusiv consolidarea pieței de capital și stimularea investițiilor private, pentru a degreva presiunea asupra bugetului de stat și a susține proiectele de interes strategic.
+
+În acest cadru, mobilizarea capitalului privat pe termen lung devine o componentă legitimă și necesară a efortului național de dezvoltare a capacităților industriale de apărare, în special în segmente cu relevanță dual-use (aerospațial, comunicații, securitate cibernetică, mentenanță, infrastructuri critice).
+
+Această orientare este consonantă și cu instrumentele europene de consolidare a pregătirii și a industriei de apărare, inclusiv prin programe precum SAFE, menționat expres în Strategia Națională de Apărare a Țării pentru perioada 2025–2030.
+
+Strategia națională privind dezvoltarea pieței de capital din România pentru perioada 2023–2026 urmărește, între altele, creșterea rolului investitorilor instituționali și facilitarea finanțării pe termen lung prin mecanisme de piață, precum și revizuirea cadrului de reglementare acolo unde este necesar, pentru creșterea atractivității și a diversificării pieței.
+
+Strategia recunoaște rolul fondurilor de pensii ca investitori instituționali majori și relevă că dezvoltarea insuficientă a pieței de capital îngreunează diversificarea portofoliilor acestora și optimizarea raportului risc-randament în interesul participanților.
+
+În același timp, cadrul general al pieței de capital, stabilește infrastructura juridică pentru tranzacționarea pe piețe reglementate, transparența și mecanismele de protecție specifice investițiilor în instrumente financiare.
+
+Fondurile de pensii investesc, prin natura mandatului lor, preponderent în instrumente tranzacționate pe piețe reglementate, sub reguli prudențiale (diversificare, lichiditate, calitate și securitate), iar această logică este deplin compatibilă cu utilizarea pieței de capital ca instrument de finanțare a economiei reale și, în mod particular, a sectoarelor strategice.
+
+Prin urmare, lărgirea expresă a cadrului permisiv pentru investiții în emitenți listați care activează în domeniul apărării/securității nu reprezintă o abatere de la regimul de protecție al participanților, ci o adaptare proporțională a universului investițional la prioritățile strategice naționale și la rolul pieței de capital în finanțarea pe termen lung.
+
+Prezenta propunere legislativă introduce, în esență, o permisiune explicită și delimitată pentru investițiile fondurilor de pensii în valori mobiliare emise de societăți care desfășoară activități în domeniul apărării, securității și industriei de armament convențional, inclusiv activități cu dublă utilizare (dual-use), cu respectarea regulilor prudențiale și a limitelor de diversificare prevăzute de legislația națională.
+
+În același timp, propunerea legislativă păstrează și întărește zona de interdicție, printr-o excludere expresă a societăților implicate în dezvoltarea, producerea, întreținerea, utilizarea, distribuția sau comercializarea de arme interzise prin tratate și convenții internaționale la care România este parte (mine antipersonal, muniții cu dispersie, arme chimice și biologice), precum și alte categorii de arme controversate, în linie cu practicile internaționale și cu cadrul european de transparentă privind finanțarea durabilă.
+
+Această soluție este aliniată cu clarificările recente ale Comisiei Europene, care subliniază că regulile europene în materia finanțării durabile și a obligațiilor de transparență nu impun limitări asupra finanțării sectorului apărării ca atare, iar tratamentul suplimentar vizează în mod particular armele controversate.
+
+Prin urmare, propunerea legislativă propune o delimitare echilibrată între
+
+(i) apărarea convențională/dual-use, tratată ca eligibilă în condiții prudente, și
+
+(ii) armele interzise/controversate, tratate ca ineligible.
+
+Cităm, astfel, un extras relevant, dintr-un document al Comisiei Europene și anume Comunicarea Comisiei privind aplicarea cadrului de finanțare durabilă și a Directivei privind diligența necesară în materie de sustenabilitate a întreprinderilor în sectorul apărării (C/2025/4950), publicat în Jurnalul Oficial al Uniunii Europene pe data de 30 decembrie 2025, ce clarifică faptul că sectorul de apărare european este considerat eligibil pentru finanțare, îndeplinind criteriile de sustenabilitate ca orice alt sector și anume:
+
+„Comisia notează că cadrul finanțării durabile este pe deplin coerent cu eforturile UE de a facilita accesul industriei europene de apărare la finanțare și investiții suficiente. Acesta nu impune nicio limitare finanțării sectorului de apărare. Normele UE privind raportarea sustenabilității și preferințele în materie de investiții se aplică orizontal tuturor industriilor și nu vizează în mod specific niciun sector. Cartea Albă comună pentru pregătirea europeană în domeniul apărării 2030 (Joint White Paper for European Defence Readiness 2030) precizează, de asemenea, că SFDR (Sustainable Finance Disclosure Regulation) nu împiedică finanțarea sectorului apărării. Industria de apărare este tratată la fel ca orice alt sector și doar armele controversate (a se vedea secțiunea 3.2.1.2) sunt considerate a fi supuse unor cerințe suplimentare de raportare.”
+
+În practică, regulile secundare pot genera blocaje disproporționate atunci când instituie interdicții sectoriale generale bazate exclusiv pe obiectul de activitate, fără a distinge între apărare convențională, activități dual-use și activități excluse de tratate.
+
+În acest sens, propunerea legislativă completează cadrul primar astfel încât normele Autorității de Supraveghere Financiară (ASF) să nu poată institui interdicții sectoriale generale care restrâng investițiile în instrumentele permise expres de lege, cu excepția interdicțiilor exprese prevăzute în lege.
+
+Complementar, pentru punerea în aplicare a noilor dispoziții, se instituie obligația Autorității de Supraveghere Financiară (ASF) de a modifica și completa reglementările secundare în termen de 90 de zile.
+
+Această soluție urmărește asigurarea de claritate normativă, predictibilitate și respectarea ierarhiei actelor normative, evitând situațiile în care o interdicție dintr-o norma administrativă ar anula, în fapt, opțiunile investiționale permise de lege în condiții prudențiale.
+
+Pentru o aplicare coerentă și verificabilă, este necesară o delimitare tehnică a activităților relevante din industria de apărare. În acest scop, segregarea și utilizarea codurilor CAEN poate reprezenta un instrument administrativ de identificare și clasificare a activităților (de exemplu, producție strict militară, activități dual-use, activități conexe precum mentenanța, aerospațialul, securitatea cibernetică).
+
+O astfel de abordare reduce ambiguitatea termenilor generici (precum „armament”), permite diferențierea între segmentele eligibile și cele excluse și evită blocarea automată a investițiilor în companii listate cu activitate mixtă civil-militară, unde componenta dual-use este inerentă.
+
+În același timp, CAEN nu trebuie tratat ca unic criteriu: companiile pot avea obiecte de activitate multiple, iar realitatea industrială contemporană presupune lanțuri de aprovizionare în care contribuția la capabilități de apărare se regăsește în tehnologii generale.
+
+De aceea, segregarea CAEN trebuie însoțită de criterii de materialitate și de transparenta la nivel de emitent, în concordanta cu cerințele prudențiale și de guvernanță.
+
+Adoptarea prezentei propuneri legislative este de natură să producă un dublu efect benefic: pe de o parte, permite diversificarea prudentă a portofoliilor fondurilor de pensii și accesul la oportunități investiționale în sectoare strategice, în interesul participanților, cu menținerea excluderilor ferme pentru arme interzise/controversate; pe de altă parte, sprijină obiectivele Strategiei Naționale pentru industria de apărare 2024–2030, valorificând piața de capital și capitalul instituțional autohton ca instrument de finanțare pe termen lung.
+
+În concluzie, prezenta propunere legislativă urmărește modernizarea și clarificarea cadrului legal, alinierea la orientările strategice naționale și europene, precum și asigurarea unei aplicări proporționale și predictibile a regulilor prudențiale, inclusiv prin delimitări tehnice bazate pe CAEN, pentru a permite fondurilor de pensii să investească în companii listate din România care activează în domeniul militar sau conex, în condiții de transparență, prudență și conformitate.
+
+Lista susținatorilor propunerii legislative privind completarea Legii nr. 411/2004 privind fondurile de pensii administrate privat, republicată, cu modificările și completările ulterioare
+
+| NR.CRT. | NUME SI PRENUME | GRUPPARLAMENTAR | SEMNĂTURA |
+| --- | --- | --- | --- |
+| 1 | STANCV IONEL | MINO |  |
+| 2 | Jugu Romeo | PSD |  |
+| 3 | CHIRICĂVirgic-ALiM | P.S.D |  |
+| 4 | ISAC MARIUS | PSD |  |
+| 5 | MORAR LUCIAN | PSD |  |
+| 6 | Savdu Jodonceo | PSD |  |
+| 7 | Tillvar Angel | P.S.D. |  |
+| 8 | ΔEINCEANY VUAO FLORENDY |  |  |
+| 9 | LIPA ELISIBETA | PSD |  |
+
+Lista susținatorilor propunerii legislative privind completarea Legii nr. 411/2004 privind fondurile de pensii administrate privat, republicată, cu modificările și completările ulterioare
+
+| NR.CRT. | NUME SI PRENUME | GRUPPARLAMENTAR | SEMNĂTURA |
+| --- | --- | --- | --- |
+| 10 | PNOHNICAI MIRELA | PSD |  |
+| 11 | RINDER ARASNARTAND | PSD |  |
+| 12 | QUCAFOG LOU | PSD |  |
+| 13 | JAMOILAION | PSD |  |
+| 14 | PORAORIN | PSD |  |
+| 15 | MUSPOCEWEATYWEEUTY | PSD |  |
+| 16 | HAGN AUGOSONFIOAN | PSD |  |
+| 17 | VUSCANVOICO | PSD |  |
+| 18 | CASIC HADJAN | PSD |  |
+
+Lista susținatorilor propunerii legislative privind completarea Legii nr. 411/2004 privind fondurile de pensii administrate privat, republicată, cu modificările și completările ulterioare
+
+| NR.CRT. | NUME SI PRENUME | GRUPPARLAMENTAR | SEMNĂTURA |
+| --- | --- | --- | --- |
+| 19 | Braf Adrian | PSA |  |
+| 20 | Ghigiu Alexandau | Mihai PSA |  |
+| 21 | Popa Maricd | PSA |  |
+| 22 | MiHALCEA IOAN | PSD |  |
+| 23 | Manda Claudin | PSD |  |
+| 24 | ENE CORINA | PSA |  |
+| 25 | MiRCEA GOROR | PSD |  |
+| 26 | Ogocaru BOODAN | PSD |  |
+| 27 | Cholo Gino Rivela | PSD |  |
+| 28 | GI LNT IONEL | PSD |  |
+
+Lista susținatorilor propunerii legislative privind completarea Legii nr. 411/2004 privind fondurile de pensii administrate privat, republicată, cu modificările și completările ulterioare
+
+| NR.CRT. | NUME SI PRENUME | GRUPPARLAMENTAR | SEMNĂTURA |
+| --- | --- | --- | --- |
+| 30 | DOLINEASCHIANDREI | PSD |  |
+| 31 | FORTUNANIREGA | PSD |  |
+| 32 | CONSTANTIEGGERGIU | PSD |  |
+| 33 | LAPUSANREMUS | PSD |  |
+| 34 | TRIF BOGDAN | PSD |  |
+| 35 | TINTA SPRYAN | PSD |  |
+| 36 | POUA IUE | PSD |  |
+| 37 | BEGINNIEU EUGEN | PSD |  |
+| 38 | MIWA MABIAW | PSD |  |
+
+Lista susținatorilor propunerii legislative privind completarea Legii nr. 411/2004 privind fondurile de pensii administrate privat, republicată, cu modificările și completările ulterioare
+
+| NR.CRT. | NUME SI PRENUME | GRUPPARLAMENTAR | SEMNĂTURA |
+| --- | --- | --- | --- |
+| 39 | Cureau fomuta | PSD |  |
+| 40 | MASSAR RODICA | PSD |  |
+| 41 | GEORGESCU GHE.DANIEL | PSD |  |
+| 42 | CIORTEXRAZUMXUUAN | P.S.O. |  |
+| 43 | TOMDE BOGAN | PSA |  |
+| 44 | GIVRICESEUGEMEVA | PSA |  |
+| 45 | NECULAESCULAURENTIU | PSA |  |
+| 46 | SIOENICAIRINPA | PSA |  |
+| 47 | ADORAANZLUCUJN-61281202 | PSA |  |
+
+Lista susținatorilor propunerii legislative privind completarea Legii nr. 411/2004 privind fondurile de pensii administrate privat, republicată, cu modificările și completările ulterioare
+
+| NR.CRT. | NUME SI PRENUME | GRUPPARLAMENTAR |
+| --- | --- | --- |
+| 48 | EHACHE DIANA | AUR |
+| 49 | Vangu Maoum | Budepudl |
+| 50 | Raiso Eweohi | Neofoliot |
+| 51 | Cotaenj DNNy | NarVol |
+| 52 | Tikea JTRy | AUR |
+| 53 | Grohu Venomla | AUR |
+| 54 | BASEA NED VALENIJIM | AUR |
+| 55 | Boxeter Tideice | AUR |
+| 56 | BARSAN TIBEPIO Cutonu | AUR |
+
+Lista susținatorilor propunerii legislative privind completarea Legii nr. 411/2004 privind fondurile de pensii administrate privat, republicată, cu modificările și completările ulterioare
+
+| NR.CRT. | NUME SI PRENUME | GRUPPARLAMENTAR | SEMNĂTURA |
+| --- | --- | --- | --- |
+| 57 | Bepa G. Aduian | PSA |  |
+| 58 | BUDACĂ UKSILE | PSD |  |
+| 59 | Shidou Gigel | PNLC |  |
+| 60 | MOS ARINA | PNL |  |
+| 61 | NAREUTI SORIN | PNL |  |
+| 62 | BORG MADACH | PSD |  |
+| 63 | GHEORGHE IONEZ | AUR |  |
+| 64 | MITREA DUMITRINA | AUR |  |
+|  | MUSAP LEEIN | AUR |  |
+
+Lista susținatorilor propunerii legislative privind completarea Legii nr. 411/2004 privind fondurile de pensii administrate privat, republicată, cu modificările și completările ulterioare
+
+| NR.CRT. | NUME SI PRENUME | GRUPPARLAMENTAR | SEMNĂTURAI |
+| --- | --- | --- | --- |
+| 65 | CIPRIANPARASAHIN | AUR |  |
+| 66 | LOVIN RAMONA | AUR |  |
+| 67 | CALIN GHEMATIES | AUR |  |
+| 68 | CIO2XIEIAXI,DCO,FLIN | AUR |  |
+| 69 | GHEORGHEMIHAICLUODIO | AUR |  |
+| 70 | VulpoiuDorel | AUR |  |
+| 71 | ARIADNA-ECENAÇIRLIGEANCI | A.U.R. |  |
+| 72 | BORDIANALEXANDRU | AOR |  |
+| 73 | VASIM-TUDORLIDIA | AUR |  |
+
+Lista susținatorilor propunerii legislative privind completarea Legii nr. 411/2004 privind fondurile de pensii administrate privat, republicată, cu modificările și completările ulterioare
+
+| NR.CRT. | NUME SI PRENUME | GRUPPARLAMENTAR | SEMNĂTURA |
+| --- | --- | --- | --- |
+| 74 | IKVLCSAR - TERRA702DEF - GYONCY | VAMR |  |
+| 75 | HUMELNICMARIUS | PSD |  |
+| 76 | FLOROIO10NEL | PSD |  |
+| 77 | CATANDCLAVOIV DANIZ | PSD |  |
+| 78 | NICOLA MIRCEACRISTIAN | PSD |  |
+| 79 | PAJURAZURAJUCU - ADRIAN | PSD |  |
+| 80 | RUJANION - CRISTINEZ | PSD |  |
+| 81 | VLASIN SORIN. | PSD |  |
+| 82 | CARP IONEL | PSD |  |
+
+## Lista susținatorilor propunerii legislative privind completarea Legii nr. 411/2004 privind fondurile de pensii administrate privat, republicată, cu modificările și completările ulterioare
+
+| NR.CRT. | NUME SI PRENUME | GRUPPARLAMENTAR | SEMNĂTURA |
+| --- | --- | --- | --- |
+| 83 | Cotirlet Paul -CAUDIU | P.S.D. |  |
+| 84 | Buck Saudor | UDUR |  |
+| 85 | Jonyhir Guovom | MIN |  |
+| 86 | Onsorean Marian | PNL |  |
+| 87 | Pandera Cyprian | PNL |  |
+| 88 | Vijacrei Csasa | UDMR |  |
+| 89 | ALECSANDRUMARVUS-IXICOLAE | USR |  |
+| 90 | PLOSAR ANDREI | USR |  |
+| 91 | NASUI CLAUNIO | OSR |  |
+
+Lista susținatorilor propunerii legislative privind completarea Legii nr. 411/2004 privind fondurile de pensii administrate privat, republicată, cu modificările și completările ulterioare
+
+| NR.CRT. | NUME SI PRENUME | GRUPPARLAMENTAR | SEMNĂTURA |
+| --- | --- | --- | --- |
+| 92 | BULAI IULIAN | USRCEP |  |
+| 93 | MAGY STABOLCS | V&MR |  |
+| 94 | MOLNAK ANDROGI | UDMR |  |
+| 95 | MACMAR LORAND-BALINI | UDMR |  |
+| 96 | BLAGADANIEC | USR |  |
+| 97 | LAFARTEODOR | USR |  |
+| 98 | GAL KAROLY | UDMR |  |
+| 99 | MARK' ATTILABABOR | UDME |  |
+| 100 | LAMANI LAHOLZOLIV | UBMR |  |
+
+Lista susținatorilor propunerii legislative privind completarea Legii nr. 411/2004 privind fondurile de pensii administrate privat, republicată, cu modificările și completările ulterioare
+
+| NR.CRT. | NUME SI PRENUME | GRUPPARLAMENTAR | SEMNĂTURA |
+| --- | --- | --- | --- |
+| 101 | SPOKÉCATGRIWA | PS8 |  |
+| 102 | Andrei Cosmin | - |  |
+| 103 | DOGARIU EUGEN | PS8A |  |
+| 104 | OXIGLU PAUY | ASSA |  |
+| 105 | PRESURA ALEXANDRA | PSD |  |
+| 106 | TANĂSESCUALINA ECENA | PSD |  |
+| 107 | BUZATU OANA | PSD |  |
+| 108 | CofoTeau TILUS | PSX |  |
+| 109 | CARANLILOI ROBERT | PSD |  |
+
+Lista susținatorilor propunerii legislative privind completarea Legii nr. 411/2004 privind fondurile de pensii administrate privat, republicată, cu modificările și completările ulterioare
+
+| NR.CRT. | NUME SI PRENUME | GRUPPARLAMENTAR | SEMNĂTURA |
+| --- | --- | --- | --- |
+| 110 | STREIMU-CERCEC ADDA | PSD |  |
+| 111 | ANNEA HAEIOS | PSD |  |
+| 112 | POLLYANNAHANGON | USR |  |
+| 113 | KILEESJOLHU | OÀHR2 |  |
+| 114 | CRISTIANBRIAN | USRCDep |  |
+| 115 | IIEAGI RITM.Emn | PSD |  |
+| 116 | SIRMAE SHUVE | PSD |  |
+| 117 | SITEN,JOEN. | PSA |  |
+| 118 | WEBERMITTAT | PSA |  |
+
+Lista susținatorilor propunerii legislative privind completarea Legii nr. 411/2004 privind fondurile de pensii administrate privat, republicată, cu modificările și completările ulterioare
+
+| NR.CRT. | NUME SI PRENUME | GRUPPARLAMENTAR | SEMNĂTURA |
+| --- | --- | --- | --- |
+| 119 | Fijr luhai | PSJ |  |
+| 120 | Scarat George | PNL |  |
+| 121 | PRUNĂ OERSTINA - MASPAHIA | JSR |  |
+| 122 | Pehu FirmMunole | PSD |  |
+| 123 | HASSV GABOR | USHR |  |
+
+Lista susținatorilor propunerii legislative privind completarea Legii nr. 411/2004 privind fondurile de pensii administrate privat, republicată, cu modificările și completările ulterioare
+
+<table>
+<tbody>
+<tr><td>NR.CRT.</td><td>NUME SI PRENUME</td><td>GRUPPARLAMENTAR</td><td>SEMNĂTURA</td></tr>
+<tr><td>124</td><td>COSNINYONZEGUEBA</td><td>KOR</td><td rowspan="9"></td></tr>
+<tr><td>125</td><td>MİHUTİ13060AN</td><td>PSA</td></tr>
+<tr><td>126</td><td>HOCBAH GEORGEMA</td><td>PSP</td></tr>
+<tr><td>127</td><td>BUCUEARIANA</td><td>PSD</td></tr>
+<tr><td>128</td><td>Merba AdrianMİHROSKY</td><td>Hlinord</td></tr>
+<tr><td>129</td><td>BREAK IUCUSMARIAN</td><td>MINO</td></tr>
+<tr><td>130</td><td>AMETVAROL</td><td>MINCO</td></tr>
+<tr><td>131</td><td>ZISOPOLDRAGOSGABRIEL</td><td>MİHORIITATI</td></tr>
+<tr><td>132</td><td>GHIÇABUHIRIJA</td><td>PSD</td></tr>
+</tbody>
+</table>
+
+## BIROUL PERMANENT AL SENATULUI
+
+Subsemnata, Daniela MIHAI, senator PSD, ales în circumscripția electorală nr. 12, Călărași, doresc să devin coinițiator al următoarelor propuneri legislative:
+
+1\. L531/2026, Propunere legislativă privind declararea lunii mai ca "Luna Horticulturii" în România
+
+2\. L517/2026, Propunere legislativă pentru modificarea și completarea "Legii nr.209/2019 privind serviciile de plată și pentru modificarea unor acte normative"
+
+3\. L405/2026, Propunere legislativă privind completarea Legii nr.411/2004 privind fondurile de pensii administrate privat.
+
+4\. L445/2025, Propunere legislativă privind transparența salarială și consolidarea aplicării principiului egalității de remunerare între femei și bărbați pentru o muncă egală sau o muncă de valoare egală, precum și pentru modificarea și completarea unor acte normative.
+
+16.09.2026
+
+Cu stimă,
+
+Daniela MIHAI
+
+Senator PSD
+
+# PARLAMENTUL ROMÂNIEI SENAT
+
+## Către: Biroul permanent al Senatului
+
+## Solicitare
+
+Subsemnata Nicoleta Pauliuc, prin prezenta vă rog să aprobați să devin coinițiator al propunerii legislative:
+
+L405/2026 - Propunere legislativă privind completarea Legii nr.411/2004 privind fondurile de pensii administrate privat.
+
+Atașez copie de pe site-ul Senatului care evidențiază stadiul inițiativei pe parcursul legislativ.
+
+Nicoleta PAULIUC - senator PNL
+
+10.06.2026
+
+## Către, BIROUL PERMANENT AL SENATULUI
+
+Subsemnata, Doina-Elena Federovici, senator ales în Circumscripția electorală nr. 07, Botoșani, solicit să aprobați dobândirea calității de coinițiator al următoarelor propuneri legislative:
+
+\- Propunere legislativă pentru completarea art.279 din Legea nr.286/2009 privind Codul Penal (L286/2026);
+
+\- Propunere legislativă pentru modificarea și completarea Ordonanței de urgență a Guvernului nr.41/2016 privind stabilirea unor măsuri de simplificare la nivelul administrației publice centrale și pentru modificarea și completarea unor acte normative, precum și completarea art.11 din Ordonanța de urgență a Guvernului nr.97/2005 privind evidența, domiciliul, reședința și actele de identitate ale cetățenilor români (L331/2026);
+
+\- Propunere legislativă privind completarea Legii nr.411/2004 privind fondurile de pensii administrate privat (b300/2026);
+
+\- Propunere legislativă pentru modificarea și completarea Legii 52/2011 privind exercitarea unor activități cu caracter ocazional desfășurate de zilieri (L374/2026);
+
+\- Propunere legislativă pentru completarea Legii drepturilor pacientului nr.46/2003 (L358/2026)
+
+Vă mulțumesc.
+
+# Parlamentul României Camera Deputaților
+
+# Grupul Parlamentar al Alianței pentru Unirea Românilor
+
+Către:
+
+Biroul Permanent al Senatului
+
+Stimate Domnule Președinte,
+
+Subsemnatul Alexandru BORDIAN- deputat circumscripția electorală nr. 18 Galați, prin prezenta declar că îmi retrag semnătura de pe următoarea propunere legislativă
+
+## L405/2026
+
+Propunere legislativă privind completarea Legii nr.411/2004 privind fondurile de pensii administrate privat
+
+Cu respect,
+
+Alexandru Bordian Deputat AUR, circumscripția nr.18 Galați
+
+# ROMÂNIA Parlamentul României Camera Deputaților
+
+# Grupul Parlamentar al Alianței pentru Unirea Românilor
+
+Către:
+
+Biroul Permanent al Senatului
+
+Stimate Domnule Președinte,
+
+Subsemnatul Călin Gheorghe MATIEȘ- deputat circumscripția electorală nr. 1 Alba, prin prezenta declar că îmi retrag semnătura de pe următoarea propunere legislativă
+
+## L405/2026
+
+Propunere legislativă privind completarea Legii nr.411/2004 privind fondurile de pensii administrate privat
+
+Cu respect,
+
+Călin Gheorahe-MATIES Deputat AU#, circumscripția nr./1 Alba
+
+# ROMÂNIA Parlamentul României Camera Deputaților
+
+# Grupul Parlamentar al Alianței pentru Unirea Românilor
+
+## Către:
+
+Biroul Permanent al Senatului
+
+Stimate Domnule Președinte,
+
+Subsemnatul Dumitru TILEA- deputat circumscripția electorală nr. 36 Teleorman, , prin prezenta declar că îmi retrag semnătura de pe următoarea propunere legislativă
+
+## L405/2026
+
+Propunere legislativă privind completarea Legii nr.411/2004 privind fondurile de pensii administrate privat
+
+Cu respect,
+
+Dumitru Tilea Deputat AUR, circumscripția nr.36 Teleorman
+
+# ROMÂNIA Parlamentul României Camera Deputaților
+
+# Grupul Parlamentar al Alianței pentru Unirea Românilor
+
+Către:
+
+Biroul Permanent al Senatului
+
+Stimate Domnule Președinte,
+
+Subsemnatul Ionel GHEORGHE- deputat circumscripția electorală nr. 17 Dolj, , prin prezenta declar că îmi retrag semnătura de pe următoarea propunere legislativă
+
+## L405/2026
+
+Propunere legislativă privind completarea Legii nr.411/2004 privind fondurile de pensii administrate privat
+
+Cu respect,
+
+Ionel Gheorghe Deputat AUR, circumscripția nr.17 Dolj
+
+# ROMÂNIA Parlamentul României Camera Deputaților
+
+# Grupul Parlamentar al Alianței pentru Unirea Românilor
+
+Către:
+
+Biroul Permanent al Senatului
+
+Stimate Domnule Președinte,
+
+Subsemnatul Mihai Claudiu GHEORGHE- deputat circumscripția electorală nr. 12 Călărași, prin prezenta declar că îmi retrag semnătura de pe următoarea propunere legislativă
+
+## L405/2026
+
+Propunere legislativă privind completarea Legii nr.411/2004 privind fondurile de pensii administrate privat
+
+Cu respect,
+
+Mihai Claudiu Gheorghe Deputat AUR, circumscripția nr.12 Călărași
+
+# ROMÂNIA Parlamentul României Camera Deputaților
+
+# Grupul Parlamentar al Alianței pentru Unirea Românilor
+
+Către:
+
+Biroul Permanent al Senatului
+
+Stimate Domnule Președinte,
+
+Subsemnatul Dorel VULPOIU- deputat circumscripția electorală nr. 18 Galați, prin prezenta declar că îmi retrag semnătura de pe următoarea propunere legislativă
+
+## L405/2026
+
+Propunere legislativă privind completarea Legii nr.411/2004 privind fondurile de pensii administrate privat
+
+Cu respect,
+
+Dorel Vulpoiu Deputat AUR, circumscripția nr.18 Galați
+
+# ROMÂNIA Parlamentul României Camera Deputaților
+
+# Grupul Parlamentar al Alianței pentru Unirea Românilor
+
+## Către:
+
+Biroul Permanent al Senatului
+
+Stimate Domnule Președinte,
+
+Subsemnata Lidia VADIM TUDOR- deputat circumscripția electorală nr. 42 București, prin prezenta declar că îmi retrag semnătura de pe următoarea propunere legislativă
+
+## L405/2026
+
+Propunere legislativă privind completarea Legii nr.411/2004 privind fondurile de pensii administrate privat
+
+Cu respect,
+
+Lidia VADIM TUDOR Deputat AUR, circumscripția nr. 42 București
+
+# ROMÂNIA Parlamentul României Camera Deputaților
+
+# Grupul Parlamentar al Alianței pentru Unirea Românilor
+
+Către:
+
+Biroul Permanent al Senatului
+
+Stimate Domnule Președinte,
+
+Subsemnatul Nelu Valentin BADEA- deputat circumscripția electorală nr. 36 Teleorman, prin prezenta declar că îmi retrag semnătura de pe următoarea propunere legislativă
+
+L405/2026
+
+Propunere legislativă privind completarea Legii nr.411/2004 privind fondurile de pensii administrate privat
+
+Cu respect,
+
+Nelu Valentin BADEA Deputat AUR, circumscripția nr.36 Teleorman
+
+# Parlamentul României Camera Deputaților
+
+# Grupul Parlamentar al Alianței pentru Unirea Românilor
+
+Către:
+
+Biroul Permanent al Senatului
+
+Stimate Domnule Președinte,
+
+Subsemnat Ramona LOVIN- deputat circumscripția electorală nr. 43, prin prezenta declar că îmi retrag semnătura de pe următoarea propunere legislativă
+
+## L405/2026
+
+Propunere legislativă privind completarea Legii nr.411/2004 privind fondurile de pensii administrate privat
+
+Cu respect,
+
+Ramona Lovin Deputat AUR, circumscripția nr.43
+
+# ROMÂNIA Parlamentul României Camera Deputaților
+
+# Grupul Parlamentar al Alianței pentru Unirea Românilor
+
+## Către:
+
+Biroul Permanent al Senatului
+
+Stimate Domnule Președinte,
+
+SubsemnataLVeronica GROSU- deputat circumscripția electorală nr. 35 Suceava, prin prezenta declar că îmi retrag semnătura de pe următoarea propunere legislativă
+
+## L405/2026
+
+Propunere legislativă privind completarea Legii nr.411/2004 privind fondurile de pensii administrate privat
+
+Cu respect,
+
+Veronica Grosu Deputat AUR, circumscripția nr.35 Suceava
+
+# Parlamentul României Camera Deputaților
+
+# Grupul Parlamentar al Alianței pentru Unirea Românilor
+
+Către:
+
+Biroul Permanent al Senatului
+
+Stimate Domnule Președinte,
+
+Subsemnatul Tiberiu Claudiu BARSTAN- deputat circumscripția electorală nr. 22 Hunedoara , prin prezenta declar că îmi retrag semnătura de pe următoarea propunere legislativă
+
+## L405/2026
+
+Propunere legislativă privind completarea Legii nr.411/2004 privind fondurile de pensii administrate privat
+
+Cu respect,
+
+Tiberiu Claudiu Barstan Deputat AUR, circumscripția nr.22 Hunedoara
+
+# ROMÂNIA Parlamentul României Camera Deputaților
+
+# Grupul Parlamentar al Alianței pentru Unirea Românilor
+
+Către:
+
+Biroul Permanent al Senatului
+
+Stimate Domnule Președinte,
+
+Subsemnata Diana ENACHE- deputat circumscripția electorală nr. 4 Bacău , prin prezenta declar că îmi retrag semnătura de pe următoarea propunere legislativă
+
+## L405/2026
+
+Propunere legislativă privind completarea Legii nr.411/2004 privind fondurile de pensii administrate privat
+
+Cu respect,
+
+Diana Enache Deputat AUR, circunscriptia nr.4 Bacău
+
+# Parlamentul României Camera Deputaților
+
+# Grupul Parlamentar al Alianței pentru Unirea Românilor
+
+Către:
+
+Biroul Permanent al Senatului
+
+Stimate Domnule Președinte,
+
+Subsemnata Ariadna Elena CÎRLIGEANU- deputat circumscripția electorală nr. 7 Botoșani, prin prezenta declar că îmi retrag semnătura de pe următoarea propunere legislativă
+
+## L405/2026
+
+Propunere legislativă privind completarea Legii nr.411/2004 privind fondurile de pensii administrate privat
+
+Cu respect,
+
+Ariadna Elena Cîrligeanu Deputat AUR, circumscripția nr.7 Botoșani
+
+# ROMÂNIA Parlamentul României Camera Deputaților
+
+# Grupul Parlamentar al Alianței pentru Unirea Românilor
+
+Către:
+
+Biroul Permanent al Senatului
+
+Stimate Domnule Președinte,
+
+Subsemnatul Tiberiu Nicolae BOȘUTAR- deputat circumscripția electorală nr. 6 Bistrița -Năsăud, prin prezenta declar că îmi retrag semnătura de pe următoarea propunere legislativă
+
+## L405/2026
+
+Propunere legislativă privind completarea Legii nr.411/2004 privind fondurile de pensii administrate privat
+
+Cu respect,
+
+Tiberiu Nicolae Boșutar Deputat AUR, circumscripția nr.6 Bistrița-Năsăud
+
+# ROMANIA Parlamentul României Camera Deputaților
+
+# Grupul Parlamentar al Alianței pentru Unirea Românilor
+
+Către:
+
+Biroul Permanent al Senatului
+
+Stimate Domnule Președinte,
+
+Subsemnatul Cosmin Ioan Corendea- deputat circumscripția electorală nr. 19 Giurgiu, prin prezenta declar că îmi retrag semnătura de pe următoarea propunere legislativă
+
+## L405/2026
+
+Propunere legislativă privind completarea Legii nr.411/2004 privind fondurile de pensii administrate privat
+
+Cu respect,
+
+Cosmin Ioan Corendea Deputat AUR, circumscripția nr.19 Giurgiu
+
+# Parlamentul României Camera Deputaților
+
+Grupul Parlamentar al Alianței pentru Unirea Românilor
+
+Către:
+
+Biroul Permanent al Senatului
+
+Stimate Domnule Președinte,
+
+# Subsemnata Dumitrina MITREA- deputat circumscripția electorală nr. 29 Neamț , prin prezenta declar că îmi retrag semnătura de pe următoarea propunere legislativă
+
+L405/2026
+
+Propunere legislativă privind completarea Legii nr.411/2004 privind fondurile de pensii administrate privat
+
+Cu respect,
+
+Dumitrina Mitrea Deputat AUR, circumscripția nr.29 Neamț
+
+Dumitrina Mitrea
+
+Digitally signed by Dumitrina Mitrea Date: 2026.07.14 09:36:43 +03'00'
+
+# Parlamentul României Camera Deputaților
+
+Grupul Parlamentar al Alianței pentru Unirea Românilor
+
+Către:
+
+Biroul Permanent al Senatului
+
+Stimate Domnule Președinte,
+
+Subsemnatul Daniel Cătălin CIORNEI- deputat circumscripția electorală nr. 26 Maramureș, prin prezenta declar că îmi retrag semnătura de pe următoarea propunere legislativă
+
+## L405/2026
+
+Propunere legislativă privind completarea Legii nr.411/2004 privind fondurile de pensii administrate privat
+
+Cu respect,
+
+Daniel Cătăln CIORNEI Deputat AUR, circumscripția nr.26 Maramureș
+
+# Parlamentul României Camera Deputaților
+
+Grupul Parlamentar al Alianței pentru Unirea Românilor
+
+Către:
+
+Biroul Permanent al Senatului
+
+Stimate Domnule Președinte,
+
+Subsemnatul Ciprian Constantin PARASCHIV- deputat circumscripția electorală nr. 24 Iași, prin prezenta declar că îmi retrag semnătura de pe următoarea propunere legislativă
+
+## L405/2026
+
+Propunere legislativă privind completarea Legii nr.411/2004 privind fondurile de pensii administrate privat
+
+Cu respect,
+
+Ciprian Constantin PARASCHIV Deputat AUR, circumscripția nr.24 Iași
+
+# Parlamentul României Camera Deputaților
+
+Grupul Parlamentar al Alianței pentru Unirea Românilor
+
+Către:
+
+Biroul Permanent al Senatului
+
+Stimate Domnule Președinte,
+
+Subsemnatul Doru Lucian MUȘAT- deputat circumscripția electorală nr. 33 Sălaj, prin prezenta declar că îmi retrag semnătura de pe următoarea propunere legislativă
+
+## L405/2026
+
+Propunere legislativă privind completarea Legii nr.411/2004 privind fondurile de pensii administrate privat
+
+Cu respect,
+
+Doru Lucian MUȘAT Deputat AUR, circumscripția nr.33 Sălaj
+
+CĂTRE,
+
+BIROUL PERMANENT AL SENATULUI
+
+Subsemnatul Coarnă Dumitru deputat ales în circumscriptția electorală nr. 42 București, vă rog să înregistrați retragerea semnăturii mele de pe Propunerea legislativă privind completarea Legii nr. 411/2004 privind fondurile de pensii administrate privat- L 405/2026.
+
+Cu stimă,
+
+Deputat
+
+Coarnă Dumitru
+
+Răspuns tuturor | √ Ⓘ Ștergere Nedorit | √ ...
+
+## FW: Retragere semnătură L 405/2026 deputat Coarnă Dumitru
+
+infopub Azi, 13:01 BP; Secretariat SG
+
+Răspundeți tuturor | √
+
+Inbox
+
+Retragere semnătură Co... 184 KO
+
+ATT00001.txt 286 byti
+
+∀ Afișați-le pe toate (2 atașări (184 KO)) Descărcați tot
+
+\-----Original Message----- From: Dumitru Coarna \<dumitru.coarna@cdep.ro> Sent: miercuri, 15 iulie 2026 12:37 To: infopub \<infopub@senat.ro>; sgg@senat.ro Subject: Retragere semnătură L 405/2026 deputat Coarnă Dumitru
+
+Va rog să confirmați primirea.
+
+Cu stimă,
+
+Deputat Coarnă Dumitru
+
+10.06.2026
+
+## Către, BIROUL PERMANENT AL SENATULUI
+
+Subsemnata, Doina-Elena Federovici, senator ales în Circumscripția electorală nr. 07, Botoșani, solicit să aprobați dobândirea calității de coinițiator al următoarelor propuneri legislative:
+
+\- Propunere legislativă pentru completarea art.279 din Legea nr.286/2009 privind Codul Penal (L286/2026);
+
+\- Propunere legislativă pentru modificarea și completarea Ordonanței de urgență a Guvernului nr.41/2016 privind stabilirea unor măsuri de simplificare la nivelul administrației publice centrale și pentru modificarea și completarea unor acte normative, precum și completarea art.11 din Ordonanța de urgență a Guvernului nr.97/2005 privind evidența, domiciliul, reședința și actele de identitate ale cetățenilor români (L331/2026);
+
+\- Propunere legislativă privind completarea Legii nr.411/2004 privind fondurile de pensii administrate privat (b300/2026);
+
+\- Propunere legislativă pentru modificarea și completarea Legii 52/2011 privind exercitarea unor activități cu caracter ocazional desfășurate de zilieri (L374/2026);
+
+\- Propunere legislativă pentru completarea Legii drepturilor pacientului nr.46/2003 (L358/2026)
+
+Vă mulțumesc.

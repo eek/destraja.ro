@@ -1,0 +1,332 @@
+{
+  "slug": "plx-105-2026",
+  "billId": "PL-x 105/2026",
+  "updatedAt": "2026-10-29T14:09:28.533Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L561FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Interzicerea obligării șoferilor de camion să încarce și să descarce marfa",
+      "summaryTlDr": "Intenția de a proteja șoferii de tir de munca de hamal în depozite este legitimă și inspirată din modelul spaniol, dar textul legii este redactat neglijent. Lipsa unui prag de tonaj (ex. peste 7,5 tone), omisiunile din lista de excepții și amenzile de până la 30.000 lei aplicate „după caz” creează blocaje pentru distribuția mică și riscuri de abuz la control.",
+      "scores": {
+        "agy": 5,
+        "claude": null,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/00/5/se101.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Șoferii de camion nu mai pot fi obligați să încarce sau să descarce marfa",
+      "summaryTlDr": "Scopul e bun și cerut de șoferi, dar textul e scris în grabă. Excepțiile acoperă doar descărcarea, lista lor e deschisă, iar amenda minimă de 10.000 lei se aplică unei fapte nedescrise, oricui «după caz». Riscul cade mai puțin pe șoferi și mai mult pe firmele mici, care nu pot ști sigur ce e permis.",
+      "scores": {
+        "agy": 5,
+        "claude": 5,
+        "codex": 5
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl105_cd105_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Șoferii de camioane mari nu mai pot fi forțați să încarce sau să descarce marfa",
+      "summaryTlDr": "Legea e utilă pentru șoferii de camion, dar art. 3 alin. (2) o slăbește: dacă șoferul semnează un acord scris, fapta nu mai este contravenție. Redactarea are contradicții și termeni nedefiniți, iar firmele riscă amenzi de până la 20.000 lei.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat tacit forma inițiatorului, fără nicio schimbare de fond; problemele rămân",
+      "summary": "Proiectul a fost considerat adoptat tacit de Senat, în forma inițiatorului. Textul e același: s-au corectat doar câteva diacritice și semne de punctuație, deci riscurile pentru șoferi și firme rămân neschimbate.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Excepția acoperă doar descărcarea; încărcarea la cisterne, betoniere sau animale vii rămâne interzisă",
+            "major": true,
+            "article": "art. 3"
+          },
+          {
+            "text": "Excepții nelimitate și criteriu vag („natura transportului”), fără să spună cine decide",
+            "major": true,
+            "article": "art. 3"
+          },
+          {
+            "text": "Fără prag de tonaj: prinde și dubițele, curieratul, distribuția urbană și HoReCa",
+            "major": true,
+            "article": "art. 2, art. 3"
+          },
+          {
+            "text": "Fapta nu e descrisă: se sancționează generic „încălcarea prevederilor prezentei legi”",
+            "major": true,
+            "article": "art. 5"
+          },
+          {
+            "text": "Nu spune cine plătește amenda: operator, beneficiar, furnizor sau intermediar „după caz”",
+            "major": true,
+            "article": "art. 5"
+          },
+          {
+            "text": "Amendă unică de 10.000–30.000 lei, fără gradare pentru microîntreprinderi",
+            "major": true,
+            "article": "art. 5"
+          },
+          {
+            "text": "Neclar dacă simpla solicitare e contravenție și dacă amenda e per transport sau șofer",
+            "major": true,
+            "article": "art. 5"
+          },
+          {
+            "text": "Protejează doar șoferii angajați; PFA, II și transportul în cont propriu rămân descoperite",
+            "major": true,
+            "article": "art. 2 alin. (1)"
+          },
+          {
+            "text": "ITM controlează beneficiari, furnizori și intermediari, deși relațiile lor sunt comerciale, nu de muncă",
+            "major": false,
+            "article": "art. 6"
+          },
+          {
+            "text": "Terminologie inconsecventă: „conducători auto angajați” la art. 2, „șoferi” la art. 4",
+            "major": false,
+            "article": "art. 4"
+          }
+        ],
+        "good": [
+          {
+            "text": "Șoferii angajați nu pot fi obligați să descarce sau să încarce marfa",
+            "major": true,
+            "article": "art. 2 alin. (1)"
+          },
+          {
+            "text": "Descărcarea și încărcarea revin explicit beneficiarului, furnizorului sau intermediarului",
+            "major": true,
+            "article": "art. 2 alin. (2)"
+          },
+          {
+            "text": "Clauzele care obligă șoferii la descărcare sau încărcare sunt nule de drept",
+            "major": true,
+            "article": "art. 4"
+          },
+          {
+            "text": "Excepții pentru transporturi specializate: vrac, combustibili, betoniere, animale vii",
+            "major": true,
+            "article": "art. 3"
+          },
+          {
+            "text": "Inspectorii pot verifica documente și la locurile de încărcare sau descărcare",
+            "major": false,
+            "article": "art. 6 alin. (2)"
+          },
+          {
+            "text": "Norme de aplicare în 90 de zile și intrare în vigoare după 30 de zile",
+            "major": false,
+            "article": "art. 7, art. 8"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 12,
+        "removed": 11,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T14:06:54.516Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_riscant",
+      "headline": "Interdicția poate fi ocolită: nu mai e contravenție dacă șoferul semnează un acord scris",
+      "summary": "Protecția șoferilor slăbește: un acord scris semnat de ei scoate fapta din contravenție, iar transportatorul e amendat doar pentru clauze cu clientul. Legea vizează doar camioanele de peste 12,5 t, cu amenzi mai mici și mai clare.",
+      "changes": [
+        {
+          "title": "Un acord scris al șoferului anulează interdicția",
+          "text": "Nou la art. 3 alin. (2): dacă șoferul semnează un acord scris, încărcarea sau descărcarea nu mai e contravenție, la orice transport. Un formular semnat la rampă poate goli legea de conținut.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 3 alin. (2)",
+          "before": null,
+          "after": "nu constituie contravenție situația în care conducătorul auto își exprimă consimțământul expres, în formă scrisă, pentru efectuarea operațiunilor de încărcare sau descărcare",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Angajatorul nu mai e vizat direct de interdicție",
+          "text": "Inițial, interdicția acoperea și contractul de muncă și ordinele angajatorului. Acum art. 2 alin. (1) vizează doar beneficiarul, furnizorul și intermediarii; transportatorul răspunde doar pentru clauze cu clientul.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 2 alin. (1)",
+          "before": "prin contract individual de muncă, contract de transport, dispoziție internă a angajatorului sau solicitare din partea beneficiarului transportului",
+          "after": "nu pot fi constrânși de către beneficiarul transportului, furnizorul mărfurilor, intermediari sau reprezentanți ai acestora",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Legea se aplică doar camioanelor de peste 12,5 tone",
+          "text": "Acum art. 1 și 2 acoperă doar transportul contra cost cu vehicule peste 12,5 t, dar orice șofer, nu doar angajații. Dubițele și curieratul ies din lege; pragul e peste cel spaniol de 7,5 t.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 1, art. 2 alin. (1)",
+          "before": "Conducătorii auto angajați ai operatorilor de transport rutier nu pot fi obligați",
+          "after": "Conducătorii auto ai vehiculelor de transport rutier contra cost de mărfuri cu vehicule ce au o masă maximă autorizată mai mare de 12,5 tone, nu pot fi constrânși",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Amenzi mai mici și legate de fapte precise",
+          "text": "Inițial, 10.000–30.000 lei pentru orice încălcare a legii. Acum art. 4 prevede 5.000–20.000 lei pentru beneficiar și 10.000–20.000 lei pentru transportator, pe fapte anume, tot fără gradare după mărime.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 4",
+          "before": "Încălcarea prevederilor prezentei legi constituie contravenție și se sancționează cu amendă de la 10.000 lei la 30.000 lei",
+          "after": "Încălcarea prevederilor art. 2, alin. (1) constituie contravenție și se sancționează cu amendă de la 5.000 lei la 20.000 lei aplicată beneficiarului transportului, furnizorului mărfurilor sau intermediarilor, după caz.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Excepția la descărcare cere clauză în contractul de muncă",
+          "text": "Art. 2 alin. (2) păstrează excepția doar pentru descărcare, acum «exclusiv» la transporturi specializate și dacă e prevăzută în contractul de muncă. Lista de exemple a dispărut, termenul rămâne nedefinit.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 2 alin. (2)",
+          "before": "conducătorii auto pot efectua operațiuni de descărcare a mărfurilor în cazul transporturilor specializate, atunci când natura transportului impune în mod obiectiv acest lucru",
+          "after": "pot efectua operațiuni de descărcare a mărfurilor, exclusiv în cazul transporturilor specializate, atunci când natura transportului impune acest lucru, iar contractele de muncă sau actele adiționale la acestea încheiate cu propriul angajator, prevăd această posibilitate",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "ISCTR poate controla, alături de Inspecția Muncii",
+          "text": "Art. 5 adaugă personalul ISCTR la control, nu doar inspectorii de muncă. Normele de aplicare vin în 60 de zile în loc de 90, elaborate și cu Ministerul Transporturilor.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 5",
+          "before": "se realizează de către personalul împuternicit al Inspecției Muncii, prin inspectoratele territoriale de muncă.",
+          "after": "se realizează de către personalul împuternicit al Inspecției Muncii, prin inspectoratele teritoriale de muncă și de către personalul ISCTR.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Un acord scris semnat de șofer scoate orice încărcare sau descărcare din contravenție",
+            "major": true,
+            "article": "art. 3 alin. (2)"
+          },
+          {
+            "text": "Transportatorul care își obligă direct șoferul e amendat doar dacă are clauză cu clientul",
+            "major": true,
+            "article": "art. 2 alin. (1), art. 4 alin. (2)"
+          },
+          {
+            "text": "Excepția acoperă doar descărcarea, nu și încărcarea la cisterne sau autobetoniere",
+            "major": true,
+            "article": "art. 2 alin. (2)"
+          },
+          {
+            "text": "«Transporturile specializate» nu sunt definite și nu există o listă de excepții",
+            "major": true,
+            "article": "art. 2 alin. (2)"
+          },
+          {
+            "text": "Amenzi fără gradare după mărimea firmei; transportatorul mic are minim dublu față de client",
+            "major": true,
+            "article": "art. 4"
+          },
+          {
+            "text": "Șoferii camioanelor sub 12,5 t și din cont propriu rămân neprotejați",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Legea nu mai spune cine trebuie să încarce și să descarce marfa",
+            "major": false,
+            "article": "art. 2"
+          },
+          {
+            "text": "Nu se precizează dacă amenda se aplică per transport sau per șofer",
+            "major": false,
+            "article": "art. 4"
+          }
+        ],
+        "good": [
+          {
+            "text": "Prag clar de 12,5 t: dubițele, curieratul și distribuția urbană nu mai intră",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Protejează toți șoferii acestor camioane, nu doar angajații",
+            "major": true,
+            "article": "art. 2 alin. (1)"
+          },
+          {
+            "text": "Interdicția acoperă și suporturile și ambalajele, nu doar marfa",
+            "major": true,
+            "article": "art. 2 alin. (1)"
+          },
+          {
+            "text": "Excepția pentru descărcare cere și clauză în contractul de muncă al șoferului",
+            "major": true,
+            "article": "art. 2 alin. (2)"
+          },
+          {
+            "text": "Clauzele cu clientul care obligă șoferul la încărcare sunt nule de drept",
+            "major": true,
+            "article": "art. 3 alin. (1)"
+          },
+          {
+            "text": "Faptele sancționate sunt descrise, cu amenzi separate pentru client și transportator",
+            "major": true,
+            "article": "art. 4"
+          },
+          {
+            "text": "Amenzi mai mici; jumătate din minim se poate plăti în 15 zile",
+            "major": true,
+            "article": "art. 4"
+          },
+          {
+            "text": "ISCTR poate controla pe teren, alături de Inspecția Muncii",
+            "major": false,
+            "article": "art. 5"
+          },
+          {
+            "text": "Normele de aplicare în 60 de zile, împreună cu Ministerul Transporturilor",
+            "major": false,
+            "article": "art. 6"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 14,
+        "removed": 12,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T14:09:28.533Z"
+    }
+  ]
+}

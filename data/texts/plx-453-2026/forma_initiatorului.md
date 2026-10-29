@@ -1,0 +1,49 @@
+# LEGE
+
+pentru modificarea Legii nr. 115/2015 pentru alegerea autorităților administrației publice locale, pentru modificarea Legii administrației publice locale nr. 215/2001, precum și pentru modificarea și completarea Legii nr. 393/2004 privind Statutul aleșilor locali
+
+Parlamentul României adoptă prezenta lege
+
+Art. I. – Legea nr. 115/2015 pentru alegerea autorităților administrației publice locale, pentru modificarea Legii administrației publice locale nr. 215/2001, precum și pentru modificarea și completarea Legii nr. 393/2004 privind Statutul aleșilor locali, publicată în Monitorul Oficial al României, Partea I, nr. 349 din 20 mai 2015, cu modificările și completările ulterioare, se modifică după cum urmează:
+
+## 1. Articolul 101 se modifică și va avea următorul cuprins:
+
+## „Art. 101
+
+(1) Pentru funcția de primar, centralizarea voturilor se face de biroul electoral de circumscripție.
+
+(2) Este declarat ales primar candidatul care a întrunit majoritatea voturilor valabil exprimate.
+
+(3) Dacă niciunul dintre candidați nu a obținut majoritatea voturilor valabil exprimate, fapt care se consemnează în procesul-verbal încheiat de biroul electoral de circumscripție, se organizează al doilea tur de scrutin, la două săptămâni de la primul tur, la care vor participa doar primii doi candidați în ordinea numărului de voturi obținute.
+
+(4) Un al doilea tur de scrutin se organizează și în caz de balotaj între mai mulți candidați la funcția de primar, la care participă toți candidații aflați în această situație.
+
+(5) După organizarea celui de-al doilea tur de scrutin, este declarat ales primar candidatul care a obținut cel mai mare număr de voturi.
+
+(6) În caz de balotaj în cel de-al doilea tur, se va organiza un nou tur de scrutin, în termen de două săptămâni de la cel de-al doilea tur."
+
+## 2. Articolul 101¹ se modifică și va avea următorul cuprins:
+
+## „Art. 101¹
+
+(1) Pentru funcția de președinte al consiliului județean, centralizarea voturilor se face de biroul electoral de circumscripție județeană.
+
+(2) Este declarat ales președinte al consiliului județean candidatul care a întrunit majoritatea voturilor valabil exprimate.
+
+(3) Dacă niciunul dintre candidați nu a întrunit majoritatea voturilor valabil exprimate, fapt care se consemnează în procesul-verbal încheiat de biroul electoral de circumscripție, se organizează al doilea tur de scrutin, în termen de două săptămâni de la primul tur, la care vor participa doar primii doi candidați în ordinea numărului de voturi obținute.
+
+(4) Un al doîlea tur de scrutin se organizează și în caz de balotaj între mai mulți candidați la funcția de președinte al consiliului județean, la care participă toți candidații aflați în această situație.
+
+(5) După organizarea celui de-al doilea tur de scrutin, este declarat ales președinte al consiliului județean candidatul care a obținut cel mai mare număr de voturi.
+
+(6) În caz de balotaj în cel de-al doilea tur, se va organiza un nou tur de scrutin, în termen de două săptămâni de la cel de-al doilea tur."
+
+## 3. Articolul 102 se modifică și va avea următorul cuprins:
+
+## „Art. 102
+
+În cazul în care intervine situația de balotaj între cei 2 candidați la funcția de primar sau de președinte al consiliului județean, între care s-a desfășurat cel de-al doilea tur de scrutin, iar unul dintre aceștia decedează sau se află în imposibilitatea de a mai participa la cel de-al doilea tur de scrutin, nu vor mai avea loc alegeri, biroul electoral de circumscripție declarându-l primar sau, după caz, președinte al consiliului județean, pe celălalt candidat."
+
+Art. II. - Prezenta lege intră în vigoare în termen de 30 de zile de la publicarea în Monitorul Oficial al României, Partea I.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.

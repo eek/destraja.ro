@@ -1,0 +1,13 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENATUL
+
+## LEGE
+
+pentru aprobarea Ordonanței de urgență a Guvernului nr. 81 /2025 privind asigurarea de la bugetul de stat, prin bugetul Ministerului Sănătății, a sumelor necesare acoperirii plății TVA aferente bunurilor și serviciilor achiziționate în cadrul Programului ROU-T-MOH „Abordarea provocărilor sistemului de sănătate privind controlul tuberculozei în România” finanțat de Fondul Global de Luptă împotriva HIV/SIDA, Tuberculozei și Malariei, derulat în perioada 1 aprilie 2022 – 30 iunie 2024
+
+Parlamentul României adoptă prezenta lege.
+
+Articol unic. – Se aprobă Ordonanța de urgență a Guvernului nr. 81 /2025 privind asigurarea de la bugetul de stat, prin bugetul Ministerului Sănătății, a sumelor necesare acoperirii plății TVA aferente bunurilor și serviciilor achiziționate în cadrul Programului ROU-T-MOH „Abordarea provocărilor sistemului de sănătate privind controlul tuberculozei în România” finanțat de Fondul Global de Luptă împotriva HIV/SIDA, Tuberculozei și Malariei, derulat în perioada 1 aprilie 2022 130 junie 2024.

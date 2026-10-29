@@ -1,0 +1,127 @@
+{
+  "slug": "plx-562-2026",
+  "billId": "PL-x 562/2026",
+  "updatedAt": "2026-10-29T13:08:38.554Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L341FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Cine îți vinde în euro trebuie să-ți factureze în lei, la cursul BNR",
+      "summaryTlDr": "Lege utilă și simplă: cine îți vinde în euro trebuie să-ți factureze în lei, la cursul BNR, fără adaos ascuns. Are însă două găuri care o pot goli de efect: facturile de «diferențe de curs» și excepția «cu acordul expres». În plus, aplicarea automată pe contractele vechi o expune la CCR.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/60/2/se640.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Facturi în lei la cursul BNR, fără comision, când prețul e în euro",
+      "summaryTlDr": "Lege utilă și fără capcane pentru cetățeni: cine îți vinde în euro trebuie să te factureze în lei la cursul BNR, fără „cursul casei” și fără comision. Textul are însă o portiță (prețul în lei indexat la euro), nu prevede amenzi și aplică regula de drept contractelor în curs, punct vulnerabil la CCR.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat tacit textul inițiatorului, fără nicio schimbare de fond",
+      "summary": "Textul de acum este același ca inițial. Senatul nu l-a modificat: proiectul s-a considerat adoptat tacit, după expirarea termenului din art. 75 din Constituție. Diferențele sunt doar de redactare, așa că rămân și regula facturării în lei la cursul BNR, și golurile ei.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Plata în lei nu stinge expres datoria în euro; pot urma facturi de diferențe",
+            "major": true,
+            "article": "art. 18¹"
+          },
+          {
+            "text": "Prețul în lei indexat la euro după cursul propriu poate scăpa de interdicție",
+            "major": true,
+            "article": "art. 18¹ alin. (1)"
+          },
+          {
+            "text": "Acordul pentru plata în valută nu trebuie dat separat; o bifă în contract ajunge",
+            "major": true,
+            "article": "art. 18¹ alin. (5)"
+          },
+          {
+            "text": "La plata în valută, consumatorul suportă oricum marja de schimb a propriei bănci",
+            "major": true,
+            "article": "art. 18¹ alin. (5)"
+          },
+          {
+            "text": "Aplicarea de drept la contractele în derulare după 90 de zile riscă neconstituționalitatea",
+            "major": true,
+            "article": "art. 70 alin. (4)"
+          },
+          {
+            "text": "Art. 70 spune „comercianți” și „prezenta lege” și ar trebui să fie art. II",
+            "major": false,
+            "article": "art. 70"
+          },
+          {
+            "text": "Greșeală de redactare: „date emiterii” în loc de „datei emiterii”",
+            "major": false,
+            "article": "art. 18¹ alin. (2)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Factura către consumator se emite în lei, la cursul BNR al zilei lucrătoare precedente",
+            "major": true,
+            "article": "art. 18¹ alin. (1)-(2)"
+          },
+          {
+            "text": "Interzice marjele, adaosurile și comisioanele aplicate peste cursul BNR",
+            "major": true,
+            "article": "art. 18¹ alin. (3)"
+          },
+          {
+            "text": "Contractele în derulare se modifică prin act adițional, fără costuri pentru consumator",
+            "major": true,
+            "article": "art. 70 alin. (3)"
+          },
+          {
+            "text": "Consumatorul trebuie informat clar, înainte de contract, despre modul de facturare",
+            "major": false,
+            "article": "art. 18¹ alin. (4)"
+          },
+          {
+            "text": "Excepția pentru plata în valută e limitată la cazurile permise de lege",
+            "major": false,
+            "article": "art. 18¹ alin. (5)"
+          },
+          {
+            "text": "Contractele aflate în derulare își păstrează valabilitatea",
+            "major": false,
+            "article": "art. 70 alin. (1)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 11,
+        "removed": 12,
+        "same": 0.21
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:08:38.554Z"
+    }
+  ]
+}

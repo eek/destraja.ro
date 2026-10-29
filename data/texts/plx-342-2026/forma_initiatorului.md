@@ -1,0 +1,81 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+CAMERA DEPUTAȚILOR
+
+## LEGE
+
+pentru modificarea Ordonanței de Urgență a Guvernului nr. 12/1998 privind transporturile pe căile ferate
+
+Parlamentul României adoptă prezenta lege:
+
+Art. I – Ordonanța de urgență a Guvernului nr. 12/1998 privind transportul pe căile ferate române și reorganizarea Societății Naționale a Căilor Ferate Române, publicată în Monitorul Oficial al României, Partea I, nr. 29 din 26 ianuarie 1998, aprobată cu modificări și completări prin Legea nr. 89/1999, cu modificările și completările ulterioare, se completează după articolul 11² cu un nou articol, articolul 11³, cu următorul cuprins:
+
+## Art. 11³ — Procedura de inițiere și realizare la solicitarea autorităților administrației publice locale a instalațiilor de siguranță la trecerile la nivel
+
+(1) Unitățile administrativ-teritoriale, asocierile de unități administrativ-teritoriale, zonele metropolitane și alte structuri associative de drept public, prin hotărâre a autorității deliberative competente, pot solicita Ministerului Transporturilor și Infrastructurii și administratorului infrastructurii feroviare publice montarea, modernizarea sau suplimentarea instalațiilor de siguranță la trecerile la nivel cu calea ferată situate pe territoriul lor, inclusiv bariere automate, semibariere automate, instalații de semnalizare luminoasă și acustică și alte sisteme tehnice destinate creșterii siguranței circulației feroviare și rutiere.
+
+(2) Solicitarea se transmite în scris administratorului infrastructurii feroviare publice și Ministerului Transporturilor și Infrastructurii și va fi însoțită, după caz, de următoarele documente: copia hotărârii autorității deliberative, identificarea exactă a trecerii la nivel, descrierea situației existente, justificarea necesității, propunerea de soluție tehnică preliminară, estimarea preliminară a costurilor și declarația privind intenția de a asigura integral sau parțial finanțarea investiției.
+
+(3) Administratorul infrastructurii feroviare publice analizează documentația completă transmisă conform alin. (2) și emite un aviz tehnic motivat, în termen de 60 de zile de la primirea documentației complete;
+
+(4) Avizul tehnic prevăzut la alin. (3) se emite exclusiv pe baza unei evaluări de risc obiective și a criteriilor tehnice, care vor include, în mod obligatoriu:
+
+a) intensitatea traficului feroviar și viteza de proiect;
+
+b) intensitatea traficului rutier și prezența utilizatorilor vulnerabilil;
+
+c) istoricul incidentelor/accidentelor la trecerea la nivel în cauză;
+
+d) vizibilitatea la trecere și condițiile geomorfologice;
+
+e) frecvența manevrelor și opririlor trenurilor;
+
+f) posibilitatea tehnică de integrare a instalației propuse în sistemele existente fără afectarea siguranței feroviare;
+
+g) orice alte criterii prevăzute în reglementările tehnice aplicabile și metodologia publicată de administratorul infrastructurii feroviare.
+
+(5) Avizul tehnic nefavorabil poate fi emis numai pentru motive obiective și temeinic justificate privind siguranța publică, siguranța feroviară sau incompatibilitatea tehnică a soluției propuse. Orice aviz nefavorabil va conține în mod obligatoriu:
+
+a) descrierea concretă a impedimentelor tehnice sau a riscurilor identificate;
+
+b) referințe la reglementările tehnice și normele aplicabile pe baza cărora s-a ajuns la concluzie;
+
+c) documentele, calculele sau studiile care au stat la baza concluziilor;
+
+d) dacă este cazul, măsurile tehnice ce trebuie realizate pentru a elimina impedimentele și termenul estimat în care situația poate fi reanalizată.
+
+(6) În situația în care avizul tehnic este favorabil și solicitantul asigură integral sau parțial finanțarea investiției, administratorul infrastructurii feroviare publice va proceda la a:
+
+a) include obiectivul în programul de investiții al administratorului, cu prioritate rezonabilă, în termen de maximum 60 de zile de la data emiterii avizului favorabil;
+
+b) demara procedurile legale necesare pentru proiectare, achiziție și execuție, precum și lansarea procedurii de achiziție publică, în termen de maximum 45 de zile de la data includerii în program;
+
+c) comunica în scris solicitantului calendarul estimat al etapelor până la recepția lucrărilor, inclusiv estimarea duratei execuției.
+
+(7) În situația în care solicitantul nu asigură finanțarea investiției, administratorul infrastructurii feroviare publice va putea face demersuri de includere a obiectivului în programele sale de investiții, în funcție de criteriile de prioritizare tehnico-economică, și va comunica solicitantului, în termen de 60 de zile de la emiterea avizului favorabil, estimarea momentului sau a perioadei în care proiectul poate fi finanțat și executat. Dacă obiectivul nu poate fi inclus imediat, administratorul va fundamenta ordinea de prioritate cu referire la criteriile de risc prevăzute la alin. (4).
+
+(8) Orice aviz tehnic nefavorabil sau orice decizie de neîncludere în programul de investiții va fi comunicată în scris solicitantului și va putea fi atacată pe calea contenciosului administrativ, conform legii. Comunicarea trebuie să conțină toate elementele prevăzute la alin. (5).
+
+(9) Administratorul infrastructurii feroviare publice are obligația de a publica, pe pagina sa oficială de internet, în termen de 60 de zile de la intrarea în vigoare a prezentei legi, metodologia și criteriile utilizate pentru analiza solicitărilor prevăzute la alin. (1), precum și modelele de documente necesare pentru depunerea cererilor. Metodologia va fi elaborată în conformitate cu normele tehnice aplicabile și standardele naționale/internaționale relevante.
+
+(10) Atât unitatea administrativ-territorială solicitantă, cât și administratorul infrastructurii feroviare publice vor publica, pe paginile lor oficiale de internet, în termen de 10 zile de la primirea respectivelor documente, informații privind existența cererii. Ulterior, părțile vor actualiza lunar informațiile despre stadiul analizei, avizul emis și, în caz de aprobare, etapele de implementare până la recepția finală.
+
+(11) Instalațiile de siguranță realizate în temeiul prezentei dispoziții devin parte componentă a infrastructurii feroviare publice și se predau administratorului infrastructurii feroviare pentru exploatare, întreținere și reparare, în condițiile legii. În cazul în care predarea implică costuri suplimentare de exploatare care nu au fost anticipate, părțile vor reglementa aceste aspecte printr-un acord de colaborare ce va stabili: responsabilitățile nominale, tranziția operațională și modalitățile de compensare pentru perioade determinate, fără a modifica regimul juridic al proprietății publice.
+
+(12) Ministerul Transporturilor și Infrastructurii monitorizează aplicarea prezentului articol și poate solicita, în termen de 30 de zile explicații scrise administratorului infrastructurii feroviare publice în cazul în care termenele prevăzute la alin. (3), (6) sau (7) nu sunt respectate. Ministerul raportează anual Parlamentului privind implementarea dispozițiilor prezentei legi, inclusiv situația solicitărilor și motivele refuzurilor sau amânărilor.
+
+(13) Prezentele dispoziții se aplică cu respectarea legislației în domeniul finanțelor publice, achizițiilor publice, siguranței feroviare, regimului drumurilor și a celorlalte reglementări incidente. În toate cazurile, dreptul de decizie tehnică și de execuție rămâne în sarcina administratorului infrastructurii feroviare publice, fără a fi derogat regimul proprietății publice.
+
+(14) În sensul aplicării prezentei legi, „aviz tehnic” reprezintă actul administrativ emis de administratorul infrastructurii feroviare publice care conține analiza tehnică și decizia motivată privind fezabilitatea și condițiile implementării instalației de siguranță solicitate, întocmită pe baza criteriilor obiective prevăzute la alin. (4) și a metodologiei publicate în temeiul alin. (9).
+
+Art. II — Prezenta lege intră în vigoare la 60 de zile de la data publicării în Monitorul Oficial al României, Partea I.
+
+PREȘEDINTELE
+
+SENATULUI
+
+PREȘEDINTELE
+
+CAMEREI DEPUTAȚILOR

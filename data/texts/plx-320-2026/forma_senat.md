@@ -1,0 +1,41 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+## LEGE
+
+## pentru modificarea și completarea Legii nr.204/2008 privind protejarea exploatațiilor agricole
+
+Senatul adoptă prezentul proiect de lege
+
+Articol unic.- Legea nr.204/2008 privind protejarea exploatațiilor agricole, publicată în Monitorul Oficial al României, Partea I, nr.734 din 30 octombrie 2008, se modifică și se completează după cum urmează:
+
+## 1. Articolul 1 se modifică și va avea următorul cuprins:
+
+„Art.1.- Prezenta lege stabilește păstrarea amplasamentelor exploatațiilor agricole care au fost înființate în baza actelor normative aflate în vigoare la data respectivă și funcționează cu respectarea prevederilor legale.”
+
+## 2. La articolul 2, litera j) se modifică și va avea următorul cuprins:
+
+„j) abatoarele și bazele de recepție a animalelor, fabricile de procesare carne și nutrețuri combinate, precum și incubațiile sau alte instalații similare;”
+
+3\. La articolul 2, după litera m) se introduce o nouă literă, lit.n), cu următorul cuprins:
+
+„n) unitățile de producție sau distribuție de fertilizanți agricoli, cu condiții stricte de autorizare și control de mediu.”
+
+## 4. La articolul 3, alineatul (2) se modifică și va avea următorul cuprins:
+
+„(2) Zonele de protecție sanitară și distanțele minime de protecție sunt definite și stabilite prin norme de igienă și recomandări privind mediul de viață al populației emise de Ministerul Sănătății cu avizul Ministerului Agriculturii și Dezvoltării Rurale.”
+
+## 5. Articolul 5 se modifică și va avea următorul cuprins:
+
+„Art.5.- Deținătorii de exploatații agricole care au fost înființate și funcționează cu respectarea prevederilor legale și în perimetrul cărora s-au construit locuințe sau alte obiective socioeconomice cu nerespectarea zonelor de protecție sanitară pot iniția proceduri judiciare în vederea demolării acelor construcții neautorizate sau a celor autorizate fără respectarea prevederilor legale în vigoare, cu scopul exclusiv de a preveni și limita disconfortul și riscurile sanitare.”
+
+## 6. Articolul 6 se modifică și va avea următorul cuprins:
+
+„Art.6.- Deținătorii exploatațiilor agricole comerciale sau familiale amplasate în intravilanul localităților sau în afara acestora, care au fost înființate și funcționează legal, cât și ai celor organizate și dimensionate în conformitate cu Legea nr.37/2015 privind clasificarea fermelor și exploatațiilor agricole, cu modificările ulterioare, pot accesa fonduri structurale în vederea modernizării și restructurării fermelor agricole prin Planul Strategic PAC 2023-2027.”
+
+Acest proiect de lege a fost adoptat de Senat, în ședința din 7 aprilie 2026, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.
+
+PREȘEDINTEJÆ SENATULUI
+
+## MIRCEA'ABRUDEAN

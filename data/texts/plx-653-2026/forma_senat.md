@@ -1,0 +1,21 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+pentru modificarea art.18 alin.(1) și (4¹) din Legea nr.115/2015 pentru alegerea autorităților administrației publice locale, pentru modificarea Legii administrației publice locale nr. 215/2001, precum și pentru modificarea și completarea Legii nr. 393/2004 privind Statutul aleșilor locali
+
+## Senatul adoptă prezentul proiect de lege
+
+Articol unic.- La articolul 18 din Legea nr.115/2015 pentru alegerea autorităților administrației publice locale, pentru modificarea Legii administrației publice locale nr.215/2001, precum și pentru modificarea și completarea Legii nr. 393/2004 privind Statutul aleșilor locali, publicată în Monitorul Oficial al României, Partea I, nr. 349 din 20 mai 2015, cu modificările și completările ulterioare, alineatele (1) și (4¹) se modifică și vor avea următorul cuprins:
+
+„(1) Până cel mai târziu cu 45 de zile înaintea datei scrutinului, cetățenii cu drept de vot care și-au stabilit reședința de mai mult de un an înaintea datei scrutinului în circumscripția electorală în care au loc alegeri pot solicita primarului, pe baza actului de identitate, înscrierea în Registrul electoral cu adresa de reședință pentru scrutinul respectiv.
+
+(4¹) Cetățenii care și-au stabilit reședința în circumscripția electorală de mai puțin de un an înaintea datei scrutinului își vor putea exercita dreptul de vot doar în comuna, orașul, municipiul sau subdiviziunea administrativ-teritorială a municipiului în care își au domiciliul.”
+
+Acest proiect de lege a fost adoptat de Senat în ședința din 30 septembrie 2026, cu respectarea prevederilor articolului 76 alineatul (1) din Constituția României, republicată.
+
+p. PREȘEDINTELE SENATULUI
+
+MIHAI COTEȚ,

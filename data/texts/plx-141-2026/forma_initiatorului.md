@@ -1,0 +1,41 @@
+ROMANIA PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENATUL
+
+# LEGE pentru modificarea și completarea Legii nr. 286/2009 privind Codul penal, cu modificările și completările ulterioare
+
+Parlamentul României adoptă prezenta lege.
+
+Art. I – Legea nr. 286/2009 privind Codul penal. publicată în Monitorul Oficial al României, Partea I, nr. 510 din 24 iulie 2009, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 108, după litera a) se introduce o nouă literă, lit. a¹), cu următorul cuprins: „ a¹) tratamentul medical hormonal de suprimare a funcțiilor sexuale; ”
+
+2\. După articolul 109 se introduce un nou articol, art. 109¹, cu următorul cuprins: „ Art. 109¹ - Tratamentul medical hormonal de suprimare a funcțiilor sexuale
+
+(1) În cazul infracțiunilor prevăzute la art. 218¹ și art. 219¹, instanța poate dispune aplicarea măsurii de siguranță prevăzută art. 108 lit a¹).
+
+(2) Aplicarea acestei măsuri poate fi dispusă doar în baza consimțământului scris al făptuitorului, expres și liber exprimat, în fața instanței și a unei expertize medico-legale și numai după informarea completă a acestuia asupra efectelor tratamentului, cu avizul unei comisii medicale specializate desemnată prin ordin al ministrului sănătății.
+
+(3) Pe durata aplicării măsurii, persoana beneficiază de asistență medicală specializată permanentă și de consiliere psihologică.
+
+(4) Măsura se dispune pe toată durata executării pedepsei și poate fi prelungită ulterior, sub supravegherea serviciului de probațiune.
+
+(5) Prelungirea sau încetarea măsurii se dispune de către instanță, la cererea persoanei sau a comisiei medicale specializate care efectuează supravegherea, în baza unei expertize medico – legale.”
+
+3\. La articolul 111, după alineatul (1), se introduce un nou alineat, alin. (1¹), cu următorul cuprins:
+
+„(1¹) În cazul infracțiunilor prevăzute la art. 218¹ și art. 219¹ instanța dispune interdicția exercitării oricărei profesii, meserii sau activități care implică contactul direct și indirect cu minori.”
+
+Art. II – Prezenta lege intră în vigoare la 90 de zile de la publicarea în Monitorul Oficial al României, Partea I.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.
+
+PEȘEDINTELE
+
+CAMEREI DEPUTAȚILOR
+
+PREȘEDINTELE
+
+SENATULUI

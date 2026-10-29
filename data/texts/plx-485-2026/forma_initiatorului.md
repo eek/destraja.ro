@@ -1,0 +1,43 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENAT
+
+## LEGE
+
+# pentru modificarea Legii nr. 340/2009 privind formularea de către România a unei declarații în baza prevederilor art. 35 paragraful (2) din Tratatul privind Uniunea Europeană
+
+Parlamentul României adoptă prezenta lege:
+
+Art. I. – Legea nr. 340/2009 privind formularea de către România a unei declarații în baza prevederilor art. 35 paragraful (2) din Tratatul privind Uniunea Europeană, publicată în Monitorul Oficial al României, Partea I, nr. 786 din 18 noiembrie 2009, se modifică după cum urmează:
+
+1.Titlul legii se modifică și va avea următorul cuprins:
+
+„Lege privind cererile de pronunțare a unor hotărâri preliminare adresate Curții de Justiție a Uniunii Europene în materie penală”.
+
+2\. Articolul 1 se abrogă.
+
+3\. Articolul 2 se modifică și va avea următorul cuprins:
+
+„Art. 2 - (1) Instanța de judecată, din oficiu sau la cerere, poate solicita Curții de Justiție a Uniunii Europene să se pronunțe cu titlu preliminar asupra unei întrebări ridicate într-o cauză penală și care se referă la
+
+a) - interpretarea tratatelor;
+
+b) - validitatea și interpretarea actelor adoptate de instituțiile, organele, oficiile sau agențiile Uniunii Europene, în cazul în care apreciază că o decizie în această privință este necesară pentru pronunțarea unei hotărâri în cauză.
+
+(2) Dacă cererea este formulată în fața unei instanțe a cărei hotărâre nu mai poate fi atacată prin intermediul căilor ordinare de atac, solicitarea Curții de Justiție a Uniunii Europene de a se pronunța cu titlu preliminar este obligatorie, dacă aceasta este necesară pentru pronunțarea unei hotărâri în cauză.
+
+(3) În cazurile prevăzute la alin. (1), judecata poate fi suspendată, iar în cazurile prevăzute la alin. (2), suspendarea judecății este obligatorie.
+
+(4) Încheierea prin care instanța se pronunță asupra suspendării judecății poate fi atacată cu contestație.
+
+(5) În măsura în care prezenta lege nu dispune altfel, dispozițiile acesteia se completează în mod corespunzător cu prevederile Legii nr. 135/2010 privind Codul de procedură penală, cu modificările și completările ulterioare.
+
+(6) Judecarea cauzei suspendate se reia din oficiu, după comunicarea hotărârii de către Curtea de Justiție a Uniunii Europene.
+
+(7) În cazul în care cauza nu a fost suspendată, instanța poate continua judecata pe alte aspecte decât cele semnalate Curții de Justiție a Uniunii Europene. Instanța nu poate încheia dezbaterile înainte de pronunțarea Curții de Justiție a Uniunii Europene.
+
+(8) În cauza în care s-a solicitat Curții de Justiție a Uniunii Europene să se pronunțe cu titlu preliminar, hotărârea acesteia în ceea ce privește interpretarea tratatelor sau validitatea și interpretarea actelor adoptate de instituțiile, organele, oficiile sau agențiile Uniunii Europene este obligatorie.”
+
+Art. II. – Legea nr. 340/2009 privind formularea de către România a unei de în baza prevederilor art. 35 paragraful (2) din Tratatul privind Uniunea Eur publicată în Monitorul Oficial al României, Partea I, nr. 786 din 18 noiembrie 2009, cu modificările aduse prin prezenta lege, va fi republicată în Monitorul Oficial al României, Partea I, dându-se textelor o nouă numerotare.

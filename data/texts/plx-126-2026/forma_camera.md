@@ -1,0 +1,23 @@
+# PARLAMENTUL ROMÂNIEI CAMERA DEPUTAȚILOR
+
+LEGE
+
+## privind instituirea anului 2027 ca Anul Ilie Năstase
+
+Camera Deputaților adoptă prezentul proiect de lege.
+
+Art. 1. - (1) Se instituie anul 2027 ca Anul Ilie Năstase.
+
+(2) Se desemnează Comitetul Olimpic și Sportiv Român ca instituție coordonatoare a întregii activități derulate pe perioada anului 2027 în baza alin. (1), care va elabora un calendar cu activități sportive și educative care va fi transmis autorităților naționale și misiunilor diplomatice și reprezentanțelor României care funcționează pe teritoriul altor state.
+
+(3) Cu prilejul marcării Anului Ilie Năstase, legendă a sportului național și mondial, autoritățile administrației publice centrale și locale, instituțiile sportive din țară, precum și organizațiile cetățenilor aparținând minorităților naționale pot organiza acțiuni și evenimente cu caracter sportiv, educativ și artistic.
+
+Art. 2. - (1) Cu prilejul marcării Anului Ilie Năstase, Parlamentul, Administrația Prezidențială, Guvernul, autoritățile administrației publice locale, precum și instituțiile publice aflate în subordinea sau în coordonarea acestora pot aloca fonduri din bugetele proprii sau din alte surse atrase potrivit legii, pentru a organiza sau sprijini logistic și/sau financiar manifestările sportive, culturale, artistice, educaționale sau programele de promovare organizate în vederea respectării prevederilor art. 1, în limita bugetelor aprobate.
+
+(2) În vederea marcării Anului Ilie Năstase, Societatea Română de Radiodifuziune și Societatea Română de Televiziune, în calitate de servicii publice, pot produce, difuza sau redifuza conținut editorial care promovează acțiunile și activitățile realizate cu ocazia manifestărilor dedicate Anului Ilie Năstase.
+
+Acest proiect de lege a fost adoptat de Camera Deputaților în ședința din 1 aprilie 2026, cu respectarea prevederilor art. 76 alin. (2) din Constituția României, republicată.
+
+p. PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+NATALIA-ELENA INTOTERO

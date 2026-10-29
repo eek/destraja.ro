@@ -1,0 +1,183 @@
+## I. MOTIVUL EMITERII ACTULUI NORMATIV
+
+## Cerințele care reclamă intervenția normativă
+
+România se confrontă cu o problemă socială gravă în domeniul protecției veniturilor debitorilor cu venituri reduse în cadrul procedurilor de executare silită, problemă care afectează în mod direct dreptul la un trai decent al unei categorii semnificative a populației. Cadrul legislativ actual, reprezentat de art. 729 din Legea nr. 134/2010 privind Codul de procedură civilă, instituie limite ale urmăririi veniturilor bănești care, deși concepute ca instrumente de protecție socială, se dovedesc insuficiente în raport cu realitățile economice contemporane ale societății românești, în special pentru persoanele cu venituri lunare nete de cel mult 5.000 de lei.
+
+Conform datelor publicate de Institutul Național de Statistică, câștigul salarial mediu net pe economie la nivelul lunii decembrie 2025 a fost de 5.914 lei, ceea ce indică faptul că o proporție importantă a populației salariate din România încasează venituri lunare nete sub pragul de 5.000 de lei. Simultan, valoarea coșului minim de consum pentru un trai decent pentru o persoană adultă singură este de 4.322 de lei pe lună, pentru o familie de doi adulți fără copii este de 7.002 lei pe lună, iar pentru o familie de doi adulți și doi copii este de 11.370 de lei pe lună. Aceste date statistice demonstrează în mod obiectiv că un venit lunar net de 5.000 de lei sau mai mic reprezintă un nivel de subzistență sau ușor peste pragul minim necesar unui trai decent pentru o persoană singură, devenind insuficient în cazul în care persoana respectivă are în întreținere membri ai familiei.
+
+În actuala configurație legislativă, art. 729 alin. (2) din Codul de procedură civilă prevede că, în situația în care există mai multe urmăriri asupra aceleiași sume, urmărirea nu poate depăși jumătate din venitul lunar net al debitorului, indiferent de natura creanțelor. Aplicarea acestei limite de 50% asupra unui venit de 5.000 de lei sau mai mic conduce la o situație în care debitorului îi rămâne cel mult 2.500 de lei pentru acoperirea tuturor necesităților de bază. O astfel de situație este incompatibilă cu principiile constituționale privind garantarea unui nivel de trai decent și protecția demnității umane.
+
+Raționamentul economic care fundamentează prezenta propunere legislativă pornește de la constatarea că mai puțin de 70% din suma de 5.000 de lei net, adică 3.500 de lei, este insuficientă pentru asigurarea traiului decent al oricărei persoane, indiferent de structura familială a acesteia. Prin urmare, aplicarea cotei actuale de 50% în cazul urmăririlor multiple pentru debitorii cu venituri de cel mult 5.000 de lei net reprezintă o măsură disproporționată care pune în pericol însăși subzistența persoanei urmărite și a familiei acesteia, generând riscuri sociale majore precum sărăcia extremă, deteriorarea stării de sănătate, pierderea locuinței și marginalizarea socială. Reducerea cotei maxime de urmărire la 30% din venitul lunar net pentru această categorie de debitori asigură un echilibru rezonabil între dreptul creditorului de a-și recupera creanța și dreptul debitorului de a-și menține un nivel minim de trai decent, debitorului rămânându-i cel puțin 3.500 de lei din venitul de 5.000 de lei, sumă care se situează mai aproape de pragul coșului minim de consum pentru o persoană singură.
+
+## Insuficiențele și neconcordanțele reglementărilor în vigoare
+
+Reglementarea actuală a art. 729 din Codul de procedură civilă prezintă o lacună semnificativă prin faptul că nu diferențiază limita maximă de urmărire în funcție de nivelul efectiv al venitului debitorului. Deși alineatul (3) al aceluiași articol introduce o protecție suplimentară pentru veniturile mai mici decât salariul minim net pe economie, nu există nicio protecție intermediară pentru debitorii ale căror venituri, deși depășesc salariul minim net, sunt totuși insuficiente pentru a permite o reținere de 50% fără a afecta grav capacitatea acestora de a-și acoperi nevoile fundamentale de existență.
+
+Această omisiune legislativă creează o discontinuitate în sistemul de protecție socială a debitorului, în sensul că trecerea de la regimul protectiv prevăzut de alin. (3) la regimul general prevăzut de alin. (2) se produce brusc, fără a ține cont de faptul că o reținere de jumătate din venitul lunar net are un impact cu totul diferit asupra debitorului care câștigă 4.500 de lei față de cel care câștigă 10.000 de lei. Prin introducerea unui prag intermediar de protecție pentru veniturile de cel mult 5.000 de lei net, propunerea legislativă corectează această discontinuitate și asigură o graduare mai echitabilă a sarcinii executării silite în funcție de capacitatea economică reală a debitorului.
+
+## Principiile de bază și finalitatea reglementărilor propuse
+
+Prezenta propunere legislativă se fundamentează pe principii constituționale și convenționale de primă importanță. Principiul protecției demnității umane, consacrat de art. 1 alin. (3) din Constituția României, impune ca procedurile de executare silită să nu conducă la anihilarea economică a debitorului și a familiei sale, ci să mențină un echilibru între interesele creditorului și necesitatea asigurării unui trai minim decent pentru debitor. Principiul proporționalității, derivat din art. 53 din Constituția României și din jurisprudența Curții Europene a Drepturilor Omului, obligă legiutorul ca orice restrângere a drepturilor fundamentale, inclusiv prin mecanismele executării silite, să fie proporțională cu scopul urmărit și să nu afecteze substanța dreptului la un nivel de trai adecvat.
+
+Jurisprudența Curții Europene a Drepturilor Omului în interpretarea art. 8 din Convenția Europeană a Drepturilor Omului, referitor la dreptul la respectarea vieții private și de familie, și a art. 1 din Protocolul Adițional nr. 1, referitor la protecția proprietății, a statuat în mod constant că statele membre au obligația pozitivă de a asigura un echilibru just între drepturile creditorului și necesitatea protejării unui minim de resurse care să permită debitorului un trai decent.
+
+Finalitatea reglementării propuse constă în instituirea unui mecanism suplimentar de protecție socială a debitorilor cu venituri reduse, care să completeze sistemul existent de limite ale urmăririi veniturilor bănești prevăzut de art. 729, fără a afecta în mod substanțial drepturile creditorilor, cărora li se menține posibilitatea de recuperare a creanțelor, într-un ritm adaptat la capacitatea economică reală a debitorului. Elementul de noutate al reglementării propuse rezidă în introducerea unui prag intermediar de protecție, situata între regimul general al alin. (2) și cel special al alin. (3), care ține cont de realitățile economice actuale și de costul real al vieții în România.
+
+## Fundamentarea științifică și documentară
+
+Elaborarea prezentei propuneri legislative s-a bazat pe analiza datelor statistice oficiale furnizate de Institutul Național de Statistică privind câștigul salarial mediu net pe economie și pe studiul privind coșul minim de consum pentru un trai decent. Aceste date demonstrează în mod obiectiv și verificabil că un debitor cu un venit lunar net de cel mult 5.000 de lei căruia i se rețin 50% din venituri rămâne cu o sumă insuficientă pentru acoperirea nevoilor elementare de existență conform standardelor contemporane ale unui stat social, democratic și de drept.
+
+Propunerea se înscrie în tendința legislativă europeană de protecție sporită a debitorilor vulnerabili în cadrul procedurilor de executare silită ce consacră principiul creditării responsabile și al protecției debitorului împotriva supraîndatorării. De asemenea, Recomandarea Comisiei Europene din 12 martie 2014 privind o nouă abordare a falimentului și insolvabilității subliniază necesitatea ca procedurile de executare silită să mențină un nivel minim de venituri care să permită debitorului un trai decent.
+
+## II. IMPACTUL SOCIOECONOMIC
+
+## Efectele asupra mediului macroeconomic
+
+Implementarea prezentei propuneri legislative va genera efecte pozitive asupra coeziunii sociale prin reducerea riscului de sărăcire extremă a persoanelor cu venituri reduse aflate în proceduri de executare silită. Menținerea unei cote mai mari din venitul debitorului în circuitul economic, prin limitarea reținerii la 30% pentru veniturile de cel mult 5.000 de lei, va contribui la susținerea consumului de bază și la prevenirea fenomenului de excluziune socială. Aceste efecte pozitive se vor resimți în primul rând în reducerea presiunii asupra sistemului de asistență socială, întrucât debitorii care beneficiază de o protecție adecvată a veniturilor minime vor avea o capacitate mai mare de autosuportare.
+
+## Impactul social
+
+Noua reglementare va adresa o problemă socială acută cu care se confrontă un număr semnificativ de cetățeni români. Persoanele cu venituri reduse care sunt supuse simultan mai multor proceduri de executare silită se regăsesc în prezent într-o situație de vulnerabilitate extremă, riscând să fie lipsite de resursele minime necesare traiului zilnic. Reducerea cotei maxime de urmărire la 30% pentru această categorie va contribui la prevenirea spiralei de sărăcie, la menținerea demnității persoanelor afectate și la evitarea dependenței de sistemul de asistență socială. Măsura va avea un efect pozitiv și asupra familiilor debitorilor, în special asupra copiilor minori, ale căror nevoi fundamentale sunt direct afectate de diminuarea drastică a veniturilor familiei.
+
+## Impactul asupra mediului de afaceri
+
+Din perspectiva creditorilor, reducerea cotei de urmărire de la 50% la 30% pentru debitorii cu venituri de cel mult 5.000 de lei net va determina o prelungire a perioadei de recuperare a creanțelor, fără însă a afecta dreptul acestora de a-și recupera integral sumele datorate. Această prelungire este justificată de necesitatea protejării unui interes social superior, respectiv asigurarea unui trai decent pentru debitor, și se înscrie în spiritul principiului proporționalității. Totodată, menținerea unui nivel mai ridicat de venituri disponibile pentru debitori va contribui la o recuperare mai predictibilă a creanțelor, reducând riscul de insolvabilitate totală a debitorilor care, în lipsa resurselor minime, pot fi împinși spre economia informală sau abandonarea totală a activităților generatoare de venituri.
+
+## III. IMPACTUL FINANCIAR ASUPRA BUGETULUI GENERAL CONSOLIDAT
+
+Prezenta propunere legislativă nu generează cheltuieli suplimentare de la bugetul de stat și nu afectează veniturile bugetului general consolidat. Impactul financiar se manifestă exclusiv în relațiile dintre creditori și debitori persoane private, prin modificarea ritmului de recuperare a creanțelor, fără a implica alocări bugetare sau pierderi de venituri fiscale.
+
+Indirect, măsura poate genera economii la bugetul de stat prin reducerea numărului de persoane care apelează la sistemul de asistență socială ca urmare a pierderii resurselor minime de existență în cadrul procedurilor de executare silită.
+
+## IV. IMPACTUL ASUPRA SISTEMULUI JURIDIC
+
+Propunerea legislativă completează art. 729 din Legea nr. 134/2010 privind Codul de procedură civilă prin introducerea unui nou alineat (2¹), fără a modifica sau abroga nicio altă dispoziție legală în vigoare. Noua reglementare se integrează armonios în structura existentă a art. 729, care deja prevede mai multe niveluri de protecție a veniturilor debitorului în funcție de natura creanței și de cuantumul venitului.
+
+Propunerea este compatibilă cu reglementările comunitare în materie, inclusiv Carta Drepturilor Fundamentale a Uniunii Europene, în particular art. 1 privind demnitatea umană și art. 34 privind securitatea socială și asistența socială. Reglementarea propusă nu necesită măsuri viitoare de armonizare și nu contravine niciunei dispoziții a dreptului Uniunii Europene.
+
+Din perspectiva jurisprudenței Curții de Justiție a Uniunii Europene, propunerea se înscrie în principiile protecției consumatorului vulnerabil și ale proporționalității măsurilor de executare silită, principii reafirmate în mod constant în practica instanței europene. De asemenea, propunerea respectă pe deplin standardele impuse de jurisprudența Curții Europene a Drepturilor Omului privind echilibrul între dreptul de proprietate al creditorului și dreptul debitorului la respectarea vieții private și de familie.
+
+## V. IMPACTUL ASUPRA DREPTURILOR ȘI LIBERTĂȚILOR FUNDAMENTALE ALE OMULUI
+
+Propunerea legislativă consolidează protecția drepturilor fundamentale ale debitorilor cu venituri reduse, în conformitate cu art. 47 din Constituția României privind nivelul de trai, art. 1 alin. (3) privind demnitatea umană și art. 26 privind viața intimă, familială și privată. Prin limitarea reținerii din veniturile debitorilor cu venituri de cel mult 5.000 de lei la maximum 30%, propunerea asigură respectarea nucleului esențial al dreptului la un trai decent, fără a afecta în mod disproporționat dreptul de proprietate al creditorului, consacrat de art. 44 din Constituție și de art. 1 din Protocolul Adițional nr. 1 la Convenția Europeană a Drepturilor Omului.
+
+Restrângerea dreptului creditorului de a urmări veniturile debitorului într-un procent mai mare este justificată de necesitatea protejării unui interes social legitim, respectiv asigurarea unui minim de existență decentă, și respectă condițiile impuse de art. 53 din Constituția României: este prevăzută prin lege, este necesară într-o societate democratică, este proporțională cu situația care a determinat-o și nu aduce atingere existenței dreptului.
+
+## VI. CONSULTĂRI ȘI INFORMARE PUBLICĂ
+
+Elaborarea prezentei propuneri legislative a avut la bază consultarea studiilor și datelor statistice publicate de Institutul Național de Statistică și fundații cu reputație, precum și analiza jurisprudenței Curții Constituționale a României, a Curții Europene a Drepturilor Omului și a Curții de Justiție a Uniunii Europene în materia protecției debitorilor și a limitelor executării silite. Au fost consultate, de asemenea, reglementările din alte state membre ale Uniunii Europene privind limitele urmăririi veniturilor în cadrul procedurii de executare silită.
+
+## VII. MĂSURI DE IMPLEMENTARE
+
+Prezenta propunere legislativă nu necesită modificări instituționale sau funcționale la nivelul administrației publice centrale sau locale. Aplicarea noii dispoziții revine în sarcina executorilor judecătorești, care vor fi obligați să verifice nivelul venitului lunar net al debitorului și să aplice limita de 30% în cazul debitorilor cu venituri de cel mult 5.000 de lei, atunci când sunt mai multe urmăriri asupra aceleiași sume. Implementarea se va realiza în cadrul procedural deja existent, fără costuri administrative suplimentare.
+
+## INIȚIATOR:
+
+Deputat AUR Doru-Lucian Musat
+
+## LISTA
+
+Susținătorilor propunerii legislative – LEGE pentru completarea art. 729 din Legea nr. 134/2010 privind Codul de procedură civilă
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td rowspan="15">Semnătura</td></tr>
+<tr><td>1.</td><td>SIMION GEORGE NICOCAE</td><td>AUR</td></tr>
+<tr><td>2.</td><td>Vulpoiu Dorel</td><td>AUR</td></tr>
+<tr><td>3.</td><td>VADIN - TUDOR LIDIA</td><td>AUR</td></tr>
+<tr><td>6.</td><td>PARASCHU CIAREAN ETIU</td><td>AUR</td></tr>
+<tr><td>5.</td><td>PUȘCASU PETRE</td><td>AUR</td></tr>
+<tr><td>6.</td><td>OANCER SIC VIV</td><td>AVD</td></tr>
+<tr><td>7.</td><td>MUSAT DORU - LUCIN</td><td>AUR</td></tr>
+<tr><td>8.</td><td>TILET DTRU</td><td>AUR</td></tr>
+<tr><td>9.</td><td>GROU UCHONIT</td><td>AUN</td></tr>
+<tr><td>10.</td><td>CHEORGHE IONEL</td><td>AUR</td></tr>
+<tr><td>11.</td><td>MIMDRESCU MIC</td><td>AUR</td></tr>
+<tr><td>12.</td><td>CONSTANUSEE ANDRA</td><td>AUR</td></tr>
+<tr><td>13.</td><td>AOPBOF EVENT</td><td>AVC</td></tr>
+<tr><td>14.</td><td>GURU BHIVU - OCINIAN</td><td>AUR</td></tr>
+</tbody>
+</table>
+
+## LISTA
+
+Susținătorilor propunerii legislative -- LEGE pentru completarea art. 729 din Legea nr. 134/2010 privind Codul de procedură civilă
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 15. | TARASA DAH | AUR |  |
+| 16. | RAMONA LOVIN | AUR |  |
+| 17. | IAGAR MONICA | AUR |  |
+| 18. | Lalescu Floran Bogdan | AUR |  |
+| 19. | Priesu lonelia | AUR |  |
+| 20. | HristIV COSMIN | AUR |  |
+| 21. | IOSUB COSMIN TEODOR | AUR |  |
+| 22. | Bosul2 T.J 24 | AUR |  |
+| 23. | MITREA DUMITRINA | AUR |  |
+| 24. | ARIANNA-ELENĂ CIRLIGEANU | A.U.R. |  |
+| 25. | DASCALU CRISINA | AUR |  |
+| 26. | COLESA LILIE ALIN | AUR |  |
+| 27. | BIRO DANIEL RAZVAN | AUR |  |
+| 28. | PASCARIU MIHAI-COSMIN | AUR |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – LEGE pentru completarea art. 729 din Legea nr. 134/2010 privind Codul de procedură civilă
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td rowspan="5">Semnătura</td></tr>
+<tr><td>29.</td><td>CIORNEI DANIEL</td><td>AUR</td></tr>
+<tr><td>30.</td><td>Kauona Joaua Bouqasesls</td><td>AUR</td></tr>
+<tr><td>31.</td><td>Christina Jima Budura</td><td>AUR</td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+## LISTA
+
+Susținătorilor propunerii legislative – LEGE pentru completarea art. 729 din Legea nr. 134/2010 privind Codul de procedură civilă
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td rowspan="15">Semnătura</td></tr>
+<tr><td>1.</td><td>PEIU RETRIȘOR - GABRIEL</td><td>AUR</td></tr>
+<tr><td>2.</td><td>VASILE MARIAN</td><td>AUR</td></tr>
+<tr><td>3.</td><td>Pete Gedge Gol</td><td>AUR</td></tr>
+<tr><td>4.</td><td>ROMAN MARIUS - VALENTIN</td><td>AUR</td></tr>
+<tr><td>5.</td><td>Vlasescu Vurgiu Ge</td><td>AUR</td></tr>
+<tr><td>6.</td><td>HACOB C. OPRIAN</td><td>A.U.R</td></tr>
+<tr><td>7.</td><td>Sondu M. lonut</td><td>AUR</td></tr>
+<tr><td>8.</td><td>J Ha Geandin</td><td>AUR</td></tr>
+<tr><td>9.</td><td>Cristian VAINR</td><td>AUR</td></tr>
+<tr><td>10.</td><td>PAUCEAN - FERNANDES LUOMINITA</td><td>AUR</td></tr>
+<tr><td>11.</td><td>CONSTANINESCU RADIAT</td><td>AUE</td></tr>
+<tr><td>12.</td><td>Pooresee Teofi</td><td>AUR</td></tr>
+<tr><td>13.</td><td>SIPOS CRISTIAN</td><td>AUR</td></tr>
+<tr><td>14.</td><td>Silgesiu Cedai</td><td>AUR</td></tr>
+</tbody>
+</table>
+
+## LISTA
+
+Susținătorilor propunerii legislative – LEGE pentru completarea art. 729 din Legea nr. 134/2010 privind Codul de procedură civilă
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 15 | STOICA CIPRIAN \~TIN | A.U.R. |  |
+| 16 | DUMITRESCU CRISTINA | A.U.R. |  |
+| 17 | BANIEKA STEFAME SCU | A.U.R |  |
+| 18 | SAPU DUMITRU | A.U.R. |  |
+| 19 | VLAHU NICOLAE | A.U.R. |  |
+| 20 | Costoche cheetij | A.U.R. |  |
+| 21 | JIRLOU ANDREI | A.U.R. |  |

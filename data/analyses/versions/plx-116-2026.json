@@ -1,0 +1,106 @@
+{
+  "slug": "plx-116-2026",
+  "billId": "PL-x 116/2026",
+  "updatedAt": "2026-10-29T12:36:31.036Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L556FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 6.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Cultele își pot recupera mai ușor clădirile confiscate de comuniști",
+      "summaryTlDr": "Scopul e legitim: repararea confiscărilor comuniste. Redactarea însă înclină balanța, pentru că actul de confiscare devine dovadă de proprietate, iar la suprafață câștigă automat cifra cea mai mare. Nu e o lege toxică, dar are nevoie de „până la proba contrară” și de reguli clare pentru dosarele deja judecate.",
+      "scores": {
+        "agy": 8,
+        "claude": 5,
+        "codex": 6
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/10/6/se100.pdf",
+      "source": "cdep.ro",
+      "riskScore": 6.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Retrocedări către culte: actul comunist de confiscare devine dovada proprietății",
+      "summaryTlDr": "Scopul e legitim: repararea confiscărilor comuniste împotriva cultelor. Problema e că proiectul face din actele de confiscare o probă aproape absolută, prezumă automat cea mai mare suprafață și redeschide cereri respinse fără să protejeze hotărârile definitive. Merită corectat, nu respins.",
+      "scores": {
+        "agy": 8,
+        "claude": 5,
+        "codex": 6
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat tacit proiectul în forma inițiatorului, fără nicio schimbare de fond",
+      "summary": "Textul nu s-a schimbat: proiectul s-a considerat adoptat tacit de Senat, în forma inițiatorului. Rămân aceleași riscuri: actele de preluare devin probă aproape incontestabilă pentru culte, iar la suprafețe diferite se ia automat cea mai mare.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Actul de preluare devine probă deplină; deținătorul actual poate rămâne fără apărare pe fond",
+            "major": true,
+            "article": "art. I pct. 2 (art. 4 alin. 4)"
+          },
+          {
+            "text": "Cultele primesc un regim de probă mai puternic decât ceilalți foști proprietari, nejustificat",
+            "major": true,
+            "article": "art. I pct. 2 (art. 4 alin. 4)"
+          },
+          {
+            "text": "La acte contradictorii se prezumă automat suprafața cea mai mare",
+            "major": true,
+            "article": "art. I pct. 3 (art. 4 alin. 4¹)"
+          },
+          {
+            "text": "Cultul poate dovedi o suprafață mai mare; proba contrară pentru deținător nu e prevăzută",
+            "major": true,
+            "article": "art. I pct. 3 (art. 4 alin. 4¹)"
+          },
+          {
+            "text": "Fostul proprietar e definit prin două criterii alternative, fără regulă când indică culte diferite",
+            "major": true,
+            "article": "art. I pct. 1 (art. 1 alin. 1²)"
+          },
+          {
+            "text": "Redepunerea cererilor nu are reguli pentru dosare pe rol sau respinse definitiv",
+            "major": true,
+            "article": "art. II"
+          },
+          {
+            "text": "Formularea definiției e confuză: „aflat” se poate raporta la cult, nu la imobil",
+            "major": false,
+            "article": "art. I pct. 1 (art. 1 alin. 1²)"
+          },
+          {
+            "text": "Nu se precizează autoritatea la care se depun cererile",
+            "major": false,
+            "article": "art. II"
+          },
+          {
+            "text": "Trimiterea la „prezenta lege”, nu la OUG 94/2000, e imprecisă",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "good": [],
+        "partial": false
+      },
+      "diff": {
+        "added": 11,
+        "removed": 11,
+        "same": 0.15
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:36:22.355Z"
+    }
+  ]
+}

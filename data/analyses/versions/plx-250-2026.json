@@ -1,0 +1,122 @@
+{
+  "slug": "plx-250-2026",
+  "billId": "PL-x 250/2026",
+  "updatedAt": "2026-10-29T12:56:23.951Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L098FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "Locuințe ANL și pentru tinerii care lucrează în altă localitate, iar primăriile pot cumpăra blocurile ANL",
+      "summaryTlDr": "Ideea e bună și are susținere largă. Tinerii navetiști ar putea închiria o locuință ANL acolo unde au domiciliul, iar primăriile ar putea cumpăra blocurile. Textul e însă redactat neglijent: dă oricărei „persoane” un „drept la obținerea” unei locuințe și permite vânzarea blocurilor către primării fără o procedură clară. Riscul vine din redactare, nu din intenție.",
+      "scores": {
+        "agy": 3,
+        "claude": 4,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/200/50/0/se274.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Locuințe ANL și pentru tinerii care fac naveta; primăriile pot cumpăra blocurile ANL",
+      "summaryTlDr": "Ideea e utilă și nu impune costuri cetățenilor: tinerii din localitățile mici ar putea primi o locuință ANL acasă chiar dacă lucrează în altă parte, iar primăriile pot prelua blocurile. Textul Senatului e însă redactat neglijent și, citit literal, spune mai mult decât susțin inițiatorii, așa că trebuie corectat la Cameră.",
+      "scores": {
+        "agy": 5,
+        "claude": 3,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a păstrat textul inițiatorului; s-au corectat doar redactarea și o greșeală de scriere",
+      "summary": "Senatul a adoptat proiectul practic identic cu forma inițiatorului: s-au schimbat doar titlul, formule tehnice și o greșeală de scriere. Rămân aceleași riscuri: un «drept» la locuință ANL formulat prea larg și vânzarea blocurilor către primării fără reguli clare de preț și plată.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Excepția vizează tot alin. (1) și (1¹), putând elimina și pragul de vârstă",
+            "major": true,
+            "article": "art. 8 alin. (1⁴)"
+          },
+          {
+            "text": "Spune «persoanele», nu «tinerii», și promite un drept imposibil de garantat",
+            "major": true,
+            "article": "art. 8 alin. (1⁴)"
+          },
+          {
+            "text": "Criteriul domiciliu/reședință/loc de muncă e ambiguu: nu e clar «și» sau «sau»",
+            "major": true,
+            "article": "art. 8 alin. (1⁴)"
+          },
+          {
+            "text": "Reședința (viza de flotant) se obține ușor și poate umfla listele de solicitanți",
+            "major": true,
+            "article": "art. 8 alin. (1⁴)"
+          },
+          {
+            "text": "Formula prețului e defectă: nu reiese ce se scade pentru apartamentele deja vândute",
+            "major": true,
+            "article": "art. 10¹ alin. (2)"
+          },
+          {
+            "text": "Nu spune cine încasează prețul blocului și la ce folosesc banii",
+            "major": true,
+            "article": "art. 10¹ alin. (2)"
+          },
+          {
+            "text": "Condiția vizată e în Normele HG 962/2001, nu în lege; totul depinde de Norme",
+            "major": false,
+            "article": "art. 8 alin. (1⁴)"
+          },
+          {
+            "text": "Nu spune cine vinde blocul, cine aprobă și dacă statul poate refuza",
+            "major": false,
+            "article": "art. 10¹ alin. (1)"
+          },
+          {
+            "text": "Neclar regimul de proprietate al blocului și efectul trimiterii la art. 11",
+            "major": false,
+            "article": "art. 10¹ alin. (1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Chiriașii din blocurile preluate de primării își păstrează dreptul de a cumpăra locuința",
+            "major": true,
+            "article": "art. 10¹ alin. (3)"
+          },
+          {
+            "text": "Primăriile care cumpără blocul trebuie să-i păstreze destinația de locuințe de închiriat",
+            "major": true,
+            "article": "art. 10¹ alin. (1)"
+          },
+          {
+            "text": "Normele și procedurile locale trebuie actualizate în 30 de zile",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 12,
+        "removed": 17,
+        "same": 0.2
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:56:17.619Z"
+    }
+  ]
+}

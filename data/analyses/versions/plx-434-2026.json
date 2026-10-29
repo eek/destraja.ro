@@ -1,0 +1,204 @@
+{
+  "slug": "plx-434-2026",
+  "billId": "PL-x 434/2026",
+  "updatedAt": "2026-10-29T12:38:13.925Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L249FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Lecții de înot plătite de stat pentru preșcolari și elevii din clasele mici",
+      "summaryTlDr": "Scopul e clar util: copiii să învețe să înoate. Riscul pentru cetățeni e mic. Textul e însă redactat în grabă: promite gratuitate și, în același alineat, permite o cofinanțare, lasă coordonarea pe mâna operatorilor de bazine și nu spune cine alege județele-pilot.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/30/4/se477.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.5,
+      "riskLevel": "green",
+      "plainTitle": "Cursuri gratuite și opționale de înot pentru preșcolari și elevi, din anul școlar 2027-2028",
+      "summaryTlDr": "O inițiativă benefică pentru siguranța și sănătatea copiilor, restructurată pragmatic de Senat într-un program-pilot pe 3 ani, fără obligații sau poveri fiscale pentru cetățeni. Textul conține însă câteva desincronizări de termene și omisiuni procedurale ușor de corectat la Camera Deputaților.",
+      "scores": {
+        "agy": 2,
+        "claude": null,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Dispare cofinanțarea de până la 50% pe copil, iar programul se extinde până la clasa a VIII-a",
+      "summary": "Acum participarea e opțională și gratuită, fără cofinanțare, și se extinde, cu condiții, până la clasa a VIII-a și la elevii cu dizabilități sau CES. Dispare însă minimul garantat de 600 lei/copil/an, iar rezultatele copiilor pot ajunge tot la cluburi.",
+      "changes": [
+        {
+          "title": "Dispare cofinanțarea de până la 50% per copil",
+          "text": "Inițial, art. 9 alin. (2) permitea o cofinanțare de până la 50% pentru elevii de clasele a V-a–a VI-a, putând cădea pe părinți. Acum participarea e doar «opțională și gratuită».",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 9 alin. (3)",
+          "before": "Pentru copii care sunt incluși în program conform alin (1) lit. b) se poate sorocita o cofinanțare ce nu poate depăși 50% din valoarea sumei alocate de autoritatea publică per copil.",
+          "after": "(3) Participarea copiilor la Program este opțională și gratuită.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Program extins de la pregătitoare la clasa a VIII-a",
+          "text": "Inițial: pregătitoare–a II-a și, doar în situații justificate, a V-a–a VI-a. Acum: tot primarul, pentru cei care nu știu să înoate, și tot gimnaziul, pentru cei care n-au participat.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 2 alin. (1)",
+          "before": "c) elevi din clasele a V-a-a VI-a, în situațiile justificate de condițiile locale de implementare.",
+          "after": "c) elevi înscriși în învățământul gimnazial (de la clasa a V-a până la clasa a VIII-a inclusiv), care nu au beneficiat de program;",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Nu mai e garantat un minim de 600 lei/copil",
+          "text": "Inițial, legea garanta minimum 600 lei/copil/an. Acum minimul îl fixează anual Guvernul, «în funcție de resursele bugetare disponibile»: mai puțină presiune pe buget, dar nicio sumă garantată.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 9 alin. (4)",
+          "before": "(3) Finanțarea minimă alocată, conform alin. (1), este de 600 RON/copil/an.",
+          "after": "(4) Standardul minim de finanțare per beneficiar se stabilește anual prin hotărâre a Guvernului, în funcție de resursele bugetare disponibile.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Elevii cu dizabilități sau CES, incluși pe toată școala",
+          "text": "Acum, elevii cu dizabilități sau cerințe educaționale speciale cu recomandare pentru înot intră în program și pot continua pe tot parcursul școlar, fără limita de 24 de luni.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 2 alin. (1) lit. d), alin. (4)",
+          "before": null,
+          "after": "d) elevi cu dizabilități și/sau cerințe educaționale speciale, pentru care înotul figurează ca recomandare medicală, psihologică sau educațională, emisă potrivit reglementărilor legale, pe durata întregului parcurs școlar.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Participarea se oprește după cel mult 24 de luni",
+          "text": "Acum un copil iese din program când dobândește competențele de bază de înot sau după cel mult 24 de luni; inițial nu exista o asemenea limită.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 2 alin. (3)",
+          "before": null,
+          "after": "(3) Participarea beneficiarilor la Program încetează la momentul dobândirii competențelor de bază de înot, evaluate conform normelor metodologice de aplicare, dar nu mai târziu de completarea intervalului de 24 de luni de participare în program.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Sursele de bani nu mai sunt împărțite pe grupe",
+          "text": "Inițial, clasele a V-a–a VI-a se finanțau doar din bani locali, fonduri și sponsorizări. Acum bugetul de stat, prin minister, apare ca sursă pentru tot Programul; autoritățile locale pot plăti transportul.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 9 alin. (1)–(2)",
+          "before": "b) pentru grupurile țintă de la art. 2 alin (1) lit. c) din bugetele autorităților administrației publice locale, fonduri nerambursabile, sponsorizări și alte surse legal constituite.",
+          "after": "a) sume alocate anual de la bugetul de stat, prin bugetul Ministerului Educației și Cercetării;",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Rezultatele copiilor pot fi trimise cluburilor sportive fără acord separat al părinților",
+            "major": true,
+            "article": "art. 4 alin. (1)"
+          },
+          {
+            "text": "Suma minimă per copil nu e fixată prin lege, depinde anual de buget",
+            "major": true,
+            "article": "art. 9 alin. (4)"
+          },
+          {
+            "text": "Nu există criterii pentru alegerea celor cel puțin 5 județe-pilot",
+            "major": true,
+            "article": "art. 5 alin. (2)"
+          },
+          {
+            "text": "Pilotul de 3 ani curge de la adoptare, deși legea se aplică din 2027",
+            "major": false,
+            "article": "art. 5 alin. (2)"
+          },
+          {
+            "text": "Lipsește o evaluare a pilotului înainte de extinderea la nivel național",
+            "major": false,
+            "article": "art. 5"
+          },
+          {
+            "text": "Normele de aplicare pot apărea abia după începerea anului școlar 2027/2028",
+            "major": false,
+            "article": "art. 11"
+          },
+          {
+            "text": "Coordonarea locală revine operatorilor bazinelor, nu școlilor sau autorităților publice",
+            "major": false,
+            "article": "art. 10 alin. (1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Participarea e opțională, gratuită și cere acordul scris al părinților",
+            "major": true,
+            "article": "art. 2 alin. (2), art. 9 alin. (3)"
+          },
+          {
+            "text": "Pot participa preșcolarii de 5 ani și elevii din primar și gimnaziu",
+            "major": true,
+            "article": "art. 2 alin. (1)"
+          },
+          {
+            "text": "Elevii cu dizabilități sau CES pot participa pe tot parcursul școlar",
+            "major": true,
+            "article": "art. 2 alin. (1) lit. d), alin. (4)"
+          },
+          {
+            "text": "Bugetul de stat finanțează Programul, prin Ministerul Educației și Cercetării",
+            "major": true,
+            "article": "art. 9 alin. (1) lit. a)"
+          },
+          {
+            "text": "Autoritățile locale pot plăti transportul și accesul copiilor la bazine",
+            "major": false,
+            "article": "art. 9 alin. (2)"
+          },
+          {
+            "text": "Doar bazine autorizate, instructori calificați și personal de salvare la fiecare activitate",
+            "major": false,
+            "article": "art. 6 alin. (1), art. 7"
+          },
+          {
+            "text": "Aviz medical obligatoriu și număr de copii per instructor stabilit pe vârstă",
+            "major": false,
+            "article": "art. 8"
+          },
+          {
+            "text": "Activitățile nu afectează curriculumul școlar obligatoriu",
+            "major": false,
+            "article": "art. 4 alin. (2)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 30,
+        "removed": 27,
+        "same": 0.27
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:38:13.925Z"
+    }
+  ]
+}

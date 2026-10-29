@@ -1,0 +1,25 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENAT
+
+## LEGE
+
+pentru stabilirea unor măsuri de aplicare a dispozițiilor art. Il alin. (1) din Legea nr. 186/2017 pentru modificarea și completarea Legii fondului funciar nr. 18/1991
+
+Parlamentul României adoptă prezenta lege.
+
+Articol unic - (1) Pentru terenurile agricole situate în extravilanul unităților administrativ - teritoriale, pe care sunt amplasate construcții de orice fel edificate înainte de intrarea în vigoare a prezentei legi, fără aprobarea de scoatere din circuitul agricol a acestor terenuri sau fără avizul privind clasa de calitate necesar introducerii în intravilan a terenurilor agricole prin studiile urbanistice PUZ și PUG, se poate solicita aprobarea scoaterii din circuitul agricol sau emiterea avizului cu achitarea prin multiplicarea de cinci ori a tarifului, prevăzut în anexa nr. 1 la Legea fondului funciar nr. 18/1991, republicată în Monitorul Oficial al României, Partea I, nr. 1 din 5 ianuarie 1998.
+
+(2) Dispozițiile alin.(1) se aplică pe o perioadă de 5 ani de la data intrării în vigoare a prezentei legi
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată
+
+PREȘEDINTELE
+
+PREȘEDINTELE
+
+CAMEREI DEPUTAȚILOR
+
+SENATULUI

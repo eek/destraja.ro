@@ -1,0 +1,189 @@
+# EXPUNERE DE MOTIVE
+
+## I. MOTIVUL ADOPTĂRII ACTULUI NORMATIV
+
+Reglementarea juridică propusă intervine în scopul de a elimina o lacună semnificativă din legislația românească în materia protecției consumatorilor în procedurile de executare silită. În ciuda existenței unui cadru legislativ relativ cuprinzător în domeniul protecției consumatorilor și al procedurilor civile, legislația în vigoare nu reglementează în mod explicit și coeziv situația consumatorilor care se confruntă cu executări silite abuzive sau intempestive inițiate de către creditori.
+
+Cerința de reglementare imediată se fundamentează pe constatarea insuficiențelor grave ale legislației actuale. Sistemul juridic românesc permite, în prezent, inițierea și derularea executării silite contra consumatorilor fără a se verifica în prealabil aspecte esențiale, cum ar fi proporționalitatea măsurii, caracterul excepțional al evacuării din locuință și existența unor alternative mai puțin intruzive. Această situație a generat cazuri numeroase în care executările silite au fost utilizate în mod abuziv sau prematur, în special în raport cu locuințele familiale ale consumatorilor, cu efecte devastatoare asupra persoanelor fizice și familiilor acestora.
+
+Insuficiențele legislației în vigoare se manifestă, în principal, prin absența unor obligații explicite impuse creditorilor de a analiza situația debitorului consumator și de a-i propune măsuri alternative la executarea silită, cum ar fi reeșalonarea obligațiilor sau refinanțarea. De asemenea, nu există o protecție specifică a locuinței familiei împotriva executării silite, iar instanțele nu sunt obligate să verifice din oficiu caracterul expețional și proporțional al acestei măsuri extreme. Legislația actuală nu tratează în mod distinct executările silite inițiate cu rea-credință sau în scopuri contrare ordinii publice și bunelor moravuri.
+
+Principiile de bază ale prezentei legi se întemeiază pe recunoașterea statului de drept democratic și social al României, așa cum este consacrat în Constituție. Obligația statului român de a ocroti familia constituie o expresie directă a impunerii unei responsabilități sociale către stat cu privire la protecția mediului familial și a locuinței, care sunt drepturi fundamentale. Legea se bazează, de asemenea, pe principiul proporționalității măsurilor de executare și pe obligația de a aplica soluții mai puțin intruzive și daunătoare pentru realizarea creanțelor, cu respectul demn pentru demnitatea persoanei umane.
+
+Finalitatea propusă constă în instituirea unui cadru normativ care să echilibreze, pe de o parte, dreptul creditorului de a-și realiza creanța și, pe de altă parte, protecția cuvenită consumatorului, în special a casei sale de locuit și a stabilității sale personale și familiare. Legea urmărește să prevină și să combată comportamentul abuziv al creditorilor în procedura executării silite și să impună o analiză riguroasă a proporționalității măsurilor de executare, cu accent particular pe protecția locuinței familiei, care constituie un bun esențial pentru existența fiecărei familii.
+
+Elementele noi introduse prin prezenta lege constau, în principal, în: instituirea unei obligații exprese pentru creditori de a analiza situația debitorului consumator și de a-i propune măsuri alternative la executarea silită; clarificarea și extinderea conceptului de executare abuzivă și intempestivă; stabilirea protecției specifice a locuinței familiei, inclusiv un termen de un an în care debitorul rămas fără locuință are dreptul să rămână în imobil pe timpul cât se asigură cu altă locuință; obligația instanțelor de a analiza din oficiu clauzele abuzive și comportamentul economic al creditorului în procedurile de încuviințare a executării; introducerea caracterului suspensiv al apelului împotriva hotărârii de încuviințare a executării pentru consumatori; obligația executorilor judecătorești de a sesiza serviciile de asistență socială în cazul evacuărilor care afectează minori și stabilirea unei perioade de treizeci de zile înainte de punerea în executare a evacuării.
+
+Concluziile studiilor și cercetărilor efectuate demonstrează că, în numeroase cazuri, executarea silită a fost utilizată ca instrument de presiune pentru a forța consumatorii să accepte condiții economice inechitabile. Rapoartele reliefează că procedurile actuale de executare silită nu oferă suficiente garantii de protecție consumatorului și nu obligă instanțele să analizeze aspectele esențiale ale disproporționalității și abuzului.
+
+Prezenta lege implementează, de asemenea, obiective și principii consacrate în doctrina și jurisprudența internațională privind protecția consumatorilor și drepturile fundamentale, inclusiv dreptul la locuință și la viață familială, recunoscute în Carta Drepturilor Fundamentale a Uniunii Europene și în Convenția Europeană a Drepturilor Omului. Implementarea acestor principii se aliniază cu tendințele actuale de consolidare a protecției consumatorului la nivel european și cu jurisprudența Curții Europene a Drepturilor Omului, care a reafirmat importanța dreptului la locuință și la viață privată în cadrul familiei.
+
+## II. IMPACTUL SOCIOECONOMIC
+
+Analiza impactului socioeconomic al prezentei legi evidențiază efecte pozitive semnificative asupra mediului social și asupra binelui general al cetățenilor, alături de impacturi modeste asupra mediului de afaceri.
+
+Din perspectiva impactului social, legea contribuie la reducerea vulnerabilității categoriilor expuse riscului de pierdere a locuinței familiale, în special familiile cu venituri reduse și persoanele în dificultate economică care au contractat credite pe termen lung. Protecția proporțională a executării silite și obligația de a propune măsuri alternative conduc la diminuarea fenomenului de excludere socială cauzat de evacuări forțate din locuință. Datele din alte state europene care au implementat protecții similare demonstrează că aceste măsuri reduc semnificativ rata cazurilor extreme de sărăcie și excluziune socială asociate pierderii locuinței.
+
+Efectele asupra stabilității economice a familiilor și a societății în general sunt de asemenea considerabile. Asigurarea unei locuințe stabile pentru familii permite o alocare mai eficientă a resurselor către educație, sănătate și alte necesități de bază, cu efecte pozitive asupra dezvoltării copiilor și a productivității economice generale. Reducerea cazurilor de pierdere a locuinței minimizează, de asemenea, presiunea asupra sistemelor de asistență socială și a serviciilor de urgență, eliberând resurse publice pentru alte domenii critice.
+
+Impactul asupra mediului de afaceri, în special asupra instituțiilor de credit și furnizorilor de servicii financiare, este moderat și pozitiv pe termen lung. Obligația de a propune măsuri alternative la executarea silită și de a analiza mai atent situația debitorului consumator încurajează o gestionare mai responsabilă a portofoliilor de credite și promovează o cultură de management de risc mai sofisticată. Experiența din alte țări europene arată că instituțiile de credit care adoptă abordări proactive în gestionarea dificultăților de plată ale debitorilor obțin rate mai bune de recuperare a creanțelor. În consecință, deși inițial legea poate impune costuri administrative suplimentare creditorilor, pe termen mediu și lung, aceasta contribuie la o calitate superioară a portofoliilor de credite și la o mai bună sustenabilitate economică.
+
+## III. IMPACTUL FINANCIAR ASUPRA BUGETULUI GENERAL CONSOLIDAT
+
+Analiza impactului financiar asupra bugetului general consolidat relevă costuri minime și beneficii semnificative pe termen lung.
+
+Costuri pe termen scurt: Implementarea legii va impune cheltuieli administrative pentru instanțe și executori judecătorești în vederea efectuării analizelor suplimentare și a verificărilor de proporționalitate prevăzute. Nicio cheltuială suplimentară majoră nu este anticipată pentru anul curent al implementării.
+
+Beneficii pe termen scurt și mediu: Reducerea numărului de cazuri extreme de evacuare din locuință va conduce la diminuarea presiunii asupra serviciilor de asistență socială și a instituțiilor de plasament temporar pentru persoane fără adăpost. Datele din alte state europene sugerează că implementarea unor protecții similare poate reduce cazurile grave de excluziune socială, economisind resurse publice considerabile.
+
+Beneficii pe o perioadă de cinci ani: Se estimează că beneficiile nete vor fi pozitive, cu o economie netă pentru bugetul public, rezultate din reducerea necesității resurselor publice dedicate asigurării altor forme de asistență de urgență.
+
+## IV. IMPACTUL ASUPRA SISTEMULUI JURIDIC
+
+Prezenta lege produce implicații semnificative asupra legislației în vigoare și asupra coeziunii sistemului juridic național și european.
+
+Legislația propusă este integral compatibilă cu directivele europene în materia protecției consumatorului.
+
+Jurisprudența Curții de Justiție a Uniunii Europene a reafirmat, în mai multe hotărâri, principiul proporționalității și necesitatea unei analize riguroase a măsurilor extreme care afectează drepturile fundamentale, inclusiv dreptul la locuință. Jurisprudența Curții Europene a Drepturilor Omului furnizează un cadru clar pentru necesitatea unei protecții speciale a locuinței familiale și a stabilității familiare. Prezenta lege se aliniază perfect cu jurisprudența Curții Europene a Drepturilor Omului prin introducerea mecanismelor de verificare a proporționalității și excepționalității executării silite a locuinței familiale.
+
+Modificările aduse legislației în vigoare sunt limitate și precise, fiind menite să clarifice și să limiteze aplicabilitatea unor dispoziții în raporturile consumator-creditor.
+
+## V. CONSULTĂRILE DERULATE
+
+Elaborarea prezentei propuneri legislative a fost rezultatul unui proces consultativ amplu și incluziv, care a implicat mai multe categorii de specialiști și organizații interesate.
+
+Specialiștii în drept au recomandat introducerea unor mecanisme de control mai strict al abuzurilor în procedurile de executare silită. Organizațiile de protecție a drepturilor consumatorului au subliniat necesitatea unei protecții sporite a locuinței familiale.
+
+## VI. ACTIVITĂȚILE DE INFORMARE PUBLICĂ
+
+Promovarea și implementarea prezentei legi vor fi susținute de o strategie cuprinzătoare de informare și comunicare publică.
+
+Activitățile de informare vor include publicarea unor materiale informative destinate consumatorilor și publicului larg, realizarea unor campanii de comunicare în mass-media și pe platformele digitale și implicarea organizațiilor de protecție a drepturilor consumatorilor în difuzarea informațiilor și în oferirea de consultanță.
+
+## VII. MĂSURILE DE IMPLEMENTARE
+
+Implementarea prezentei legi va necesita o serie de măsuri instituționale și funcționale la nivelul administrației publice centrale și locale.
+
+Serviciile publice de asistență socială vor trebui să analizeze situațiile familiale identificate în cazurile de executare a locuinței și să propună măsuri de sprijin adecvate, să asigure continuitatea suportului pentru familiile în dificultate și să se coordoneze cu instanțele judecătorești și cu executori judecătorești pentru asigurarea unor proceduri care respectă interesul superior al copilului.
+
+Resursa umană și tehnică necesară pentru implementare este disponibilă în cadrul instituțiilor existente, deoarece legea nu necesită crearea unor noi structuri instituționale. Bugetul necesar pentru implementare este minim și se va încadra în resursele deja alocate acestor instituții. Termenul de treizeci de zile de la publicarea în Monitorul Oficial al României este rezonabil pentru pregătirea instituțiilor și pentru comunicarea obligațiilor noi către stakeholderii relevanți.
+
+INIȚIATORI:
+
+Deputat AUR George-Nicolae Simion
+
+Deputat AUR Mihai-Adrian Enaché
+
+Deputat AUR Dan Tanasă,
+
+Deputat AUR Florin-Cornel Popovici
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege privind protecția consumatorilor față de executările silite abuzive sau intempestive
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1. | Butuna Cuishica-Jiune | AUR |  |
+| 2. | Frolea GABRISL | AUR |  |
+| 3. | GuoLui HIVIV - OCTAVIN | AUR |  |
+| 4. | PUSCAȘU PETRE | AUR |  |
+| 5. | MITREA DUMITEINA | AUR |  |
+| 6. | EVEACHE MIRAI | AUR |  |
+| 7. | Valeescu Florin Bagdan | AUR |  |
+| 8. | SoriU MUNCAIU | AUR |  |
+| 9. | Constantinoseu Amola-Clouatie | AUR |  |
+| 10. | Dascălu Cristian Eramanuela | AUR |  |
+| 11. | Lucian Floriu PUSCAȘU | AUR |  |
+| 12. | Biro DANIEL - RAZUAN | AUR |  |
+| 13. | Ciornoi AANI2 - CITALIN | AUR |  |
+| 14. | DARSON TIMON CUAVOU | AUR |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege privind protecția consumatorilor față de executările silite abuzive sau intempestive
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 15. | BORDIAN ALEXANDRU | AOR |  |
+| 16. | iOSC3 COSMIN TEODOR | AUR |  |
+| 19. | OANCED SILVIU | AVR |  |
+| 18. | SADIU GOORQOL | AUR |  |
+| 19. | TOPESCH ANTONIO GAOI | AUR |  |
+| 20. | TILET JTRD | AUR |  |
+| 21. | CALIN GHB.MATTIES | AUR |  |
+| 22. | CIPRIAU PARKCHN | AVR |  |
+| 23. | MUSAI LUEIN | AUR |  |
+| 24. | GHEORGHE IONEL | AUR |  |
+| 25. | MEMIV MIHAI | AUR |  |
+| 26. | GHERASIRI LAURA | AUR |  |
+| 27. | PASCARIU MIMAI-COSMIN | AUR |  |
+| 28. | Bruyaseel/s Ramoua | AVR |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege privind protecția consumatorilor față de executările silite abuzive sau intempestive
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td rowspan="10">Semnătura</td></tr>
+<tr><td>29.</td><td>Vulpoiu Doel</td><td>AUR</td></tr>
+<tr><td>30.</td><td>NEGOESEU MIHAI-BOGDAN</td><td>AUR</td></tr>
+<tr><td>31.</td><td>MICLII'CI SII MUII-L-VIRKI L</td><td>ALIN</td></tr>
+<tr><td>32.</td><td>ARIAONA-ECENA CIRLIGEAXILI</td><td>ALI.R.</td></tr>
+<tr><td>33.</td><td>LOVIN RAMONA</td><td>AUR</td></tr>
+<tr><td>34.</td><td>GHEORGEHI MIHAI CLAUNIU</td><td>AUR</td></tr>
+<tr><td>35.</td><td>COLESA I'UE-ALIN</td><td>AUR</td></tr>
+<tr><td></td><td>PAUNESCU SILXIU-TITU</td><td>AUR</td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+Susținătorilor propunerii legislative - „Lege privind protecția consumatorilor față de executările silite abuzive sau intempestive”
+
+| Nr. | Numele și prenumele | Grupul parlamentar |
+| --- | --- | --- |
+| 1 | PETRISOR PEIV | AUR |
+| 2 | VASILE MARIAN | AVR |
+| 3 | ANDREIEMIL DIRLA | AUR |
+| 4 | Sfefan Geoniam | AUR |
+| 5 | ORINTNA SUMITEGCU | AUR |
+| 6. | SIHGRONU BOLNI | AUR |
+| 7. | Pete George CEBEL | AUR |
+| 8. | VLAHU NICOCAE | AUR |
+| 9 | CVIDRIN VÂXRO | AUR |
+| 10 | CONSTANIMESCU ROSICA | AUE |
+| 11 | STEEZA MICUUMA | AUR |
+| 12. | SANEVA STEFANES | AVR |
+| 13 | Vbeau Voplun | AUR |
+| 14. | Sondu M. Ionut | AVR |
+
+## LISTA
+
+Susținătorilor propunerii legislative - „Lege privind protecția consumatorilor față de executările silite abuzive sau intempestive”
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td>Semnătura</td></tr>
+<tr><td>15</td><td>STOICA CIPRIAN - 779</td><td>A.V.R.</td><td rowspan="9"></td></tr>
+<tr><td>16</td><td>Ploesu lawreutiu</td><td>AUR</td></tr>
+<tr><td>17</td><td>Tarosca Jeeofe</td><td>AOR</td></tr>
+<tr><td>18</td><td>SPAU AUMITRU</td><td>A.V.R.</td></tr>
+<tr><td>19</td><td>Lavoic Sociu</td><td>AUR</td></tr>
+<tr><td>20</td><td>POMAN MARIUS - VACENTH</td><td>AUR</td></tr>
+<tr><td>21</td><td>Baroon Soniuo</td><td>AER</td></tr>
+<tr><td>22.</td><td>'ACDB C. CIPRIAN</td><td>A.V.R.</td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>

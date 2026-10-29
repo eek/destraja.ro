@@ -1,0 +1,31 @@
+## LEGE
+
+# pentru modificarea și completarea Legii locuinței nr. 114/1996
+
+Parlamentul României adoptă prezenta lege :
+
+Articol unic. – Legea locuinței nr. 114/1996, republicată în Monitorul Oficial al României, Partea I nr. 393 din 31 decembrie 1997, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1.La articolul 42, după alineatul (1) se introduce un nou alineat, alin. (2), cu următorul cuprins:
+
+„Art.42 – (2) Criteriile de acces la locuințele sociale se stabilesc cu respectarea nivelului de venit prevăzut la alin. (1) și a condițiilor de eligibilitate prevăzute la art. 48. Consiliile locale pot stabili criterii suplimentare de prioritizare a solicitanților de locuințe sociale, cu asigurarea transparenței și nediscriminării.”
+
+3\. Alineatul (1) al articolului 48 se modifică și se completează după cum urmează:
+
+"Art.48 - (1) Nu pot beneficia de locuințe sociale, potrivit prezentei legi, persoanele sau familiile care: a) dețin în proprietate o locuință;
+
+b) au înstrăinat o locuință după data de 1 ianuarie 1990;
+
+c) au beneficiat de sprijinul statului în credite și execuție pentru realizarea unei locuințe; d) dețin, în calitate de chiriaș, o altă locuință din fondul locativ de stat;
+
+e) înregistrează datorii la bugetul local la data analizării cererii.
+
+f) nu fac dovada solicitării anuale de angajare la agenția pentru ocuparea forței de muncă ori la altă structură publică competentă privind ocuparea forței de muncă, cu excepția persoanelor care, potrivit legii, nu au obligația de a se înregistra ca șomeri sau persoane aflate în căutarea unui loc de muncă (pensionari, persoane cu handicap grav sau accentuat, persoane încadrate într-o categorie de boală cronică atestată medical).”
+
+"Art.68 - Pentru aducerea la îndeplinire a dispozițiilor prezentei legi, Guvernul României, prin Ministerul Dezvoltării, Lucrărilor Publice și Administrației, împreună cu Ministerul Finanțelor și ministerele de resort, elaborază metodologia de aplicare a prezentelor prevederi, în termen de 90 de zile de la intrarea în vigoare a prezentei legiva adopta norme metodologice de aplicare."
+
+Această propunere legislativă a fost adoptată de Senat în ședința din data de...... Președintele Senatului Mircea Abrudean
+
+Această propunere legislativă a fost adoptată de Camera Deputaților în ședința din data de.....
+
+Președintele Camerei Deputaților Sorin Grindeanu

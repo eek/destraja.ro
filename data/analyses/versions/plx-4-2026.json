@@ -1,0 +1,338 @@
+{
+  "slug": "plx-4-2026",
+  "billId": "Pl-x 4/2026",
+  "updatedAt": "2026-10-29T12:25:44.352Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L324FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 7.3,
+      "riskLevel": "red",
+      "plainTitle": "Centrale noi pe cărbune, permise din nou cu avizul CSAT",
+      "summaryTlDr": "Interdicția centralelor noi pe cărbune rămâne doar pe hârtie: opt excepții largi, unele trimițând circular una la alta, permit aproape orice proiect avizat de CSAT, iar centralele aprobate scapă de calendarul de ieșire din cărbune. Partea despre cărbunele pentru industrie e rezonabilă, dar restul e prost scris, se lovește de regulile UE și poate costa bani din PNRR.",
+      "scores": {
+        "agy": 8,
+        "claude": 7,
+        "codex": 7
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/00/4/se4_4august.pdf",
+      "source": "cdep.ro",
+      "riskScore": 7,
+      "riskLevel": "red",
+      "plainTitle": "Centrale noi pe cărbune „din motive de securitate” și închideri amânate până apar înlocuitori",
+      "summaryTlDr": "Sub umbrela securității naționale, legea deschide drumul unor centrale noi pe cărbune, prin excepții largi și prost scrise, scutite de termenul din 2032. Totodată, condiționează închiderea celor vechi de înlocuitori deja funcționali. Grija pentru termoficare e legitimă, dar textul e imprevizibil și pune în joc un jalon PNRR.",
+      "scores": {
+        "agy": 7,
+        "claude": 7,
+        "codex": 7
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl004_cd004_26_(4).pdf",
+      "source": "cdep.ro",
+      "riskScore": 7,
+      "riskLevel": "red",
+      "plainTitle": "Centrale noi pe cărbune permise prin excepții „de securitate”, iar cele vechi se închid doar după ce sunt înlocuite",
+      "summaryTlDr": "Sub umbrela securității energetice, legea păstrează formal interdicția de centrale noi pe cărbune, dar o golește prin excepții largi, circulare și prost scrise. Centralele aprobate prin excepție scapă complet de regimul de decarbonizare, singurul filtru fiind un aviz CSAT netransparent. Închiderea celor vechi devine condiționată, iar asta pune în pericol angajamente cu fonduri UE.",
+      "scores": {
+        "agy": 7,
+        "claude": 7,
+        "codex": 7
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_riscant",
+      "headline": "Centralele pe cărbune existente se pot închide doar după ce intră în funcțiune surse care le înlocuiesc",
+      "summary": "Excepțiile pentru centrale noi pe cărbune au rămas neschimbate. Nou: centralele existente se închid doar după ce surse noi le preiau curentul și căldura. Asta protejează încălzirea, dar poate amâna ieșirea din cărbune și se poate ciocni de termenul din 2032.",
+      "changes": [
+        {
+          "title": "Centralele pe cărbune se închid doar după înlocuire",
+          "text": "Inițial, proiectul nu atingea centralele existente. Acum, art. 1 și art. 4 permit închiderea lor numai după punerea în funcțiune a unor capacități noi; dacă acestea întârzie, închiderea se amână.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 1 alin. (1) lit. b), art. 4 alin. (1)",
+          "before": null,
+          "after": "Capacitățile energetice pe bază de huilă și lignit rămase disponibile la data de 31 decembrie 2021 se scot din exploatare potrivit prevederilor prezentei ordonanțe de urgență, numai după construirea și punerea în funcțiune de noi capacități energetice similare prevăzute la alin.(9)",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Încălzirea centralizată și aburul industrial, garantate la închidere",
+          "text": "Nou la art. 4 alin. (1²): o centrală pe cărbune se poate retrage doar dacă sursele care o înlocuiesc asigură căldura pentru încălzirea centralizată și aburul pentru consumatorii industriali.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 4 alin. (1²) lit. c)-d)",
+          "before": null,
+          "after": "pentru capacitățile care produc energie termică în cogenerare, sursele alternative asigură puterea termică necesară continuității serviciului public de alimentare cu energie termică în sistem centralizat",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Termenul de ieșire din cărbune, în conflict cu condițiile",
+          "text": "Art. 4 alin. (1²) spune că nu atinge data-limită din art. 3 alin. (1). Art. 1 și art. 4 alin. (1) cer însă închiderea „numai după” înlocuire. Nu e clar ce primează dacă sursele noi nu sunt gata la timp.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. 4 alin. (1²)",
+          "before": null,
+          "after": "Prevederile prezentului alineat nu aduc atingere datei-limită prevăzute la art.3 alin.(1).",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Înlocuirea trebuie dovedită cu acte înainte de închidere",
+          "text": "Nou la art. 4 alin. (1²): înainte ca o centrală pe cărbune să fie retrasă, îndeplinirea condițiilor trebuie dovedită prin documentele de punere în funcțiune și avizele emise potrivit legii.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 4 alin. (1²)",
+          "before": null,
+          "after": "Îndeplinirea condițiilor prevăzute la lit.a)-d), inclusiv funcționarea racordurilor și a infrastructurii asociate, se dovedește anterior retragerii prin documentele de punere în funcțiune și avizele emise potrivit legii.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Excepția pentru centrale noi pe cărbune e atât de largă încât golește interdicția",
+            "major": true,
+            "article": "art. 2 alin. (3) lit. c)"
+          },
+          {
+            "text": "Investițiile în stocare, electromobilitate sau interconexiuni justifică centrale noi pe cărbune",
+            "major": true,
+            "article": "art. 2 alin. (3) lit. h)"
+          },
+          {
+            "text": "Centralele aprobate pe excepție scapă de restul ordonanței, inclusiv de termenul de închidere",
+            "major": true,
+            "article": "art. 2 alin. (7)"
+          },
+          {
+            "text": "Avizul CSAT decide fără criterii publice, fără publicare și fără cale de contestare",
+            "major": true,
+            "article": "art. 2 alin. (5)-(6)"
+          },
+          {
+            "text": "Închiderea centralelor existente se poate amâna cât timp lipsesc sursele de înlocuire",
+            "major": true,
+            "article": "art. 4 alin. (1)"
+          },
+          {
+            "text": "Trimiteri circulare la lit. f)-h): nu se poate stabili când se aplică excepția",
+            "major": false,
+            "article": "art. 2 alin. (3) lit. f)-h)"
+          },
+          {
+            "text": "„Stocarea energiei pe bază de huilă și lignit” nu are sens tehnic",
+            "major": false,
+            "article": "art. 2 alin. (3) lit. g)"
+          },
+          {
+            "text": "Lit. a) justifică centrale noi prin rezerve de combustibil, care nu le cer",
+            "major": false,
+            "article": "art. 2 alin. (3) lit. a)"
+          },
+          {
+            "text": "Nu se spune ce se întâmplă dacă CSAT nu răspunde în 30 de zile",
+            "major": false,
+            "article": "art. 2 alin. (6)"
+          },
+          {
+            "text": "Același aviz amestecă prospectarea minieră cu punerea în funcțiune a centralelor",
+            "major": false,
+            "article": "art. 2 alin. (5)"
+          },
+          {
+            "text": "Condițiile de închidere se pot ciocni de data-limită din art. 3 alin. (1)",
+            "major": false,
+            "article": "art. 4 alin. (1²)"
+          },
+          {
+            "text": "Neclar ce înseamnă „capacități similare” și cum se leagă de sursele cu emisii reduse",
+            "major": false,
+            "article": "art. 4 alin. (1)"
+          },
+          {
+            "text": "Nu se spune cine verifică dovezile înainte de închiderea unei centrale",
+            "major": false,
+            "article": "art. 4 alin. (1²)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Interdicția generală de centrale noi pe cărbune rămâne în lege",
+            "major": true,
+            "article": "art. 2 alin. (1)"
+          },
+          {
+            "text": "Cărbunele poate fi exploatat în scop neenergetic, pentru industrie și construcții",
+            "major": true,
+            "article": "art. 2 alin. (2)"
+          },
+          {
+            "text": "Centralele noi trebuie să respecte BAT; scutirea nu atinge legislația de mediu",
+            "major": true,
+            "article": "art. 2 alin. (4)"
+          },
+          {
+            "text": "Încălzirea centralizată trebuie asigurată înainte de închiderea unei centrale pe cărbune",
+            "major": true,
+            "article": "art. 4 alin. (1²) lit. c)"
+          },
+          {
+            "text": "Aburul pentru consumatorii industriali trebuie asigurat înainte de închidere",
+            "major": true,
+            "article": "art. 4 alin. (1²) lit. d)"
+          },
+          {
+            "text": "Centralele retrase trebuie înlocuite cu surse cu emisii reduse, fără a slăbi rețeaua",
+            "major": false,
+            "article": "art. 4 alin. (1²) lit. a)-b)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 31,
+        "removed": 18,
+        "same": 0.03
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:23:32.462Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_riscant",
+      "headline": "Închiderea centralelor pe cărbune cere acum capacități „similare”, nu orice sursă alternativă",
+      "summary": "Excepțiile pentru centrale noi pe cărbune și avizul CSAT au rămas neschimbate. Acum, centralele vechi pot fi închise doar după punerea în funcțiune a unor capacități „similare”, nu a oricăror surse alternative cu emisii reduse, termen vag care poate amâna închiderea.",
+      "changes": [
+        {
+          "title": "Condițiile de închidere, restrânse la capacități energetice similare",
+          "text": "Art. 4 alin. (1²) lit. a)-d): înlocuirea puterii electrice și termice trebuie asigurată acum de „capacități energetice similare”, nu de „surse alternative”. Termenul e vag și poate amâna retragerea cărbunelui.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 4 alin. (1²)",
+          "before": "b) sursele alternative prevăzute la lit.a) asigură, individual sau cumulat, înlocuirea puterii electrice disponibile a capacităților retrase",
+          "after": "b) capacitățile energetice similare prevăzute la lit. a) asigură, individual sau cumulat, înlocuirea puterii electrice disponibile a capacităților retrase",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Principiul închiderii: doar capacități „similare”, nu surse alternative",
+          "text": "Art. 1 alin. (1) lit. b): inițial, centralele pe cărbune puteau fi retrase după intrarea în funcțiune a unor „capacități ori surse alternative” cu emisii reduse; acum doar după „capacități energetice similare”.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. 1 alin. (1) lit. b)",
+          "before": "numai după instalarea, racordarea și punerea în funcțiune comercială a uneia sau mai multor capacități ori surse alternative de producere a energiei cu emisii reduse de carbon",
+          "after": "numai după instalarea, racordarea și punerea în funcțiune comercială a uneia sau mai multor capacități energetice similare de producere a energiei cu emisii reduse de carbon",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Lit. h) permite centrale noi pe cărbune invocând investiții în stocare sau interconexiuni",
+            "major": true,
+            "article": "art. 2 alin. (3) lit. h)"
+          },
+          {
+            "text": "Lit. c) și e) trimit la orice amenințare sau urgență, invocabile practic oricând",
+            "major": true,
+            "article": "art. 2 alin. (3) lit. c), e)"
+          },
+          {
+            "text": "Centralele aprobate pe excepție scapă nelimitat de termenul ieșirii din cărbune",
+            "major": true,
+            "article": "art. 2 alin. (7)"
+          },
+          {
+            "text": "Avizul CSAT nu are criterii, publicitate, efect la depășirea termenului sau cale de atac",
+            "major": true,
+            "article": "art. 2 alin. (5)-(6)"
+          },
+          {
+            "text": "Închiderea cere „capacități energetice similare”, termen vag care poate amâna retragerea cărbunelui",
+            "major": true,
+            "article": "art. 1 alin. (1) lit. b), art. 4 alin. (1²)"
+          },
+          {
+            "text": "Lit. f) și g) se trimit circular, iar lit. g) nu are sens tehnic",
+            "major": false,
+            "article": "art. 2 alin. (3) lit. f)-g)"
+          },
+          {
+            "text": "Același aviz amestecă prospectarea minieră cu punerea în funcțiune a centralelor",
+            "major": false,
+            "article": "art. 2 alin. (5)"
+          },
+          {
+            "text": "Neclar ce prevalează dacă condițiile de închidere nu sunt îndeplinite până la termen",
+            "major": false,
+            "article": "art. 4 alin. (1²)-(1³)"
+          },
+          {
+            "text": "Alin. (2) conține o eroare de redactare: „deserves industriiei”",
+            "major": false,
+            "article": "art. 2 alin. (2)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Se păstrează interdicția generală a centralelor noi pe cărbune",
+            "major": true,
+            "article": "art. 2 alin. (1)"
+          },
+          {
+            "text": "Centralele noi pe excepție trebuie să aplice cele mai bune tehnici disponibile (BAT)",
+            "major": true,
+            "article": "art. 2 alin. (4)"
+          },
+          {
+            "text": "Închiderea cere dovezi că sistemul, termoficarea și consumatorii industriali rămân alimentați",
+            "major": true,
+            "article": "art. 4 alin. (1²) lit. b)-d)"
+          },
+          {
+            "text": "Termenul de ieșire din cărbune rămâne explicit neatins pentru centralele existente",
+            "major": true,
+            "article": "art. 4 alin. (1³)"
+          },
+          {
+            "text": "Scutirea centralelor noi privește doar ordonanța, nu și legislația de mediu",
+            "major": false,
+            "article": "art. 2 alin. (7)"
+          },
+          {
+            "text": "Avizul CSAT trebuie emis în 30 de zile, cu analiză detaliată a încadrării",
+            "major": false,
+            "article": "art. 2 alin. (6)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 27,
+        "removed": 26,
+        "same": 0.18
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:25:44.352Z"
+    }
+  ]
+}

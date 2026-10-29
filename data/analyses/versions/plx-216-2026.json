@@ -1,0 +1,135 @@
+{
+  "slug": "plx-216-2026",
+  "billId": "PL-x 216/2026",
+  "updatedAt": "2026-10-29T12:50:27.727Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L654FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Producția și depozitarea îngrășămintelor intră pe lista infrastructurilor critice",
+      "summaryTlDr": "Lege tehnică și benignă: adaugă un rând în lista sectoarelor de infrastructură critică, pentru ca fabricile și depozitele mari de îngrășăminte să poată primi planuri de protecție. Nu aduce însă nimic din ce promite expunerea de motive: nici ajutor de stat, nici gaze mai ieftine, nici repornirea producției.",
+      "scores": {
+        "agy": 3,
+        "claude": 2,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/200/10/6/se236.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Fabricile și depozitele de îngrășăminte pot deveni „infrastructură critică”",
+      "summaryTlDr": "Lege scurtă, tehnică și în esență benignă: adaugă îngrășămintele chimice pe lista sectoarelor de infrastructură critică, fără costuri directe pentru cetățeni. Nu aduce însă ajutor de stat, gaz mai ieftin sau sprijin pentru fermieri, deși expunerea de motive lasă impresia asta.",
+      "scores": {
+        "agy": 4,
+        "claude": 2,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul doar precizează că Guvernul modifică HG 35/2019; pentru firme, textul rămâne același",
+      "summary": "Senatul a păstrat același subsector 9.3 și aceleași termene. A precizat doar că Guvernul trebuie să modifice HG 35/2019, privind autoritățile responsabile. Pentru cetățeni și firme, riscurile rămân aceleași.",
+      "changes": [
+        {
+          "title": "Se precizează hotărârea pe care o modifică Guvernul",
+          "text": "Art. II alin. (1) numește acum HG 35/2019 pentru desemnarea autorităților publice responsabile. Practic, Guvernul trebuie să stabilească cine se ocupă de noul subsector 9.3.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. II alin. (1)",
+          "before": null,
+          "after": "respectiv Hotărârea Guvernului nr.35/2019 pentru desemnarea autorităților publice responsabile în domeniul protecției infrastructurilor critice naționale și europene",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Guvernul modifică hotărârea existentă, nu adoptă alta",
+          "text": "Inițial, art. II alin. (1) cerea Guvernului să „adopte” hotărârea prevăzută de ordonanță, deși ea există deja. Acum trebuie s-o modifice, tot în 60 de zile.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. II alin. (1)",
+          "before": "Guvernul adoptă hotărârea prevăzută la art. 62 alin. (1)",
+          "after": "Guvernul modifică hotărârea prevăzută la art.6² alin.(1)",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "„Îngrășăminte chimice” nu e definit și nu urmează terminologia Regulamentului (UE) 2019/1009",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Transportul și depozitarea ar putea cuprinde transportatori și depozite agricole, chiar IMM-uri",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Legea nu fixează criterii sau praguri; totul depinde de hotărâri ulterioare",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Transportul se suprapune parțial cu sectorul Transporturi deja existent în anexă",
+            "major": false,
+            "article": "art. I"
+          },
+          {
+            "text": "Termenul de 60 de zile n-are sancțiune; între timp subsectorul n-are autoritate",
+            "major": false,
+            "article": "art. II alin. (1)"
+          },
+          {
+            "text": "Hotărârea Guvernului poate veni abia la circa 150 de zile de la publicare",
+            "major": false,
+            "article": "art. II"
+          },
+          {
+            "text": "Ajutorul de stat și sprijinul pentru fermieri promise în expunere lipsesc din text",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Producția de îngrășăminte poate fi protejată ca infrastructură critică",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Hotărârea de modificat e numită: HG 35/2019 privind autoritățile responsabile",
+            "major": false,
+            "article": "art. II alin. (1)"
+          },
+          {
+            "text": "Obligațiile apar doar după desemnarea individuală a fiecărei infrastructuri",
+            "major": false,
+            "article": "art. I"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 5,
+        "removed": 7,
+        "same": 0.17
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:49:53.264Z"
+    }
+  ]
+}

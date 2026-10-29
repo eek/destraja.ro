@@ -1,0 +1,13 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENATUL
+
+LEGE
+
+# privind aprobarea Ordonanței de urgență a Guvernului nr. 15/2026 pentru reglementarea unor măsuri privind stabilirea dreptului de administrare a unor bunuri din domeniul public al statului, precum și pentru modificarea și completarea unor acte normative
+
+Parlamentul României adoptă prezenta lege.
+
+Articol unic. – Se aprobă Ordonanța de urgență a Guvernului nr. 15/2026 pentru reglementarea unor măsuri privind stabilirea dreptului de administrare a unor bunuri din domeniul public al statului, precum și pentru modificarea și completarea unor acte normative.

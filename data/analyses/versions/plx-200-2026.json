@@ -1,0 +1,97 @@
+{
+  "slug": "plx-200-2026",
+  "billId": "PL-x 200/2026",
+  "updatedAt": "2026-10-29T12:47:02.120Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L004FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Corecții proporționale, nu recuperare totală, pentru greșelile din proiectele PNRR",
+      "summaryTlDr": "Lege tehnică și, în ansamblu, favorabilă beneficiarilor PNRR: renunță la regula „la orice abatere se ia înapoi tot” și introduce corecții proporționale, ca la fondurile de coeziune. Punctul slab este suma de 5.000–15.000 lei pentru beneficiarii privați, care nu ține cont de valoarea contractului.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/200/00/0/se211.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Greșelile mici din proiectele PNRR nu mai costă toată finanțarea",
+      "summaryTlDr": "Lege tehnică și, în esență, favorabilă beneficiarilor: pentru încălcări minore ale regulilor de achiziție, recuperarea integrală a banilor e înlocuită cu corecții proporționale. Rămân două semne de întrebare: suma fixă de 5.000–15.000 lei poate lovi greu contractele mici, iar extrasul nu arată ce se întâmplă cu debitele integrale deja stabilite.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat ordonanța fără modificări; corecțiile proporționale pentru fondurile PNRR rămân",
+      "summary": "Senatul a aprobat ordonanța exact cum a propus-o Guvernul. Au fost adăugate doar data ordonanței și Monitorul Oficial în care a fost publicată. Regulile privind corecțiile pentru abaterile la fondurile PNRR rămân neschimbate.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Corecție fixă de 5.000–15.000 lei pentru privați, nelegată de valoarea achiziției",
+            "major": true,
+            "article": "art. unic (OG nr. 3/2026)"
+          },
+          {
+            "text": "Raportarea în AFIS-IMS prelucrează date personale ale beneficiarilor, cu obligația respectării GDPR",
+            "major": false,
+            "article": "art. unic (OG nr. 3/2026)"
+          },
+          {
+            "text": "Regulile concrete sunt doar în ordonanță, aplicabilă înainte de aprobarea Parlamentului",
+            "major": false,
+            "article": "art. unic"
+          }
+        ],
+        "good": [
+          {
+            "text": "Corecții proporționale cu gravitatea abaterii, în locul recuperării integrale a finanțării",
+            "major": true,
+            "article": "art. unic (OG nr. 3/2026)"
+          },
+          {
+            "text": "Regimul PNRR este aliniat la cel din OUG nr. 66/2011",
+            "major": false,
+            "article": "art. unic (OG nr. 3/2026)"
+          },
+          {
+            "text": "Răspunde semnalărilor DLAF și recomandării Curții de Conturi Europene",
+            "major": false,
+            "article": "art. unic (OG nr. 3/2026)"
+          },
+          {
+            "text": "Frauda, corupția și conflictul de interese se raportează obligatoriu către OLAF",
+            "major": false,
+            "article": "art. unic (OG nr. 3/2026)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:46:42.715Z"
+    }
+  ]
+}

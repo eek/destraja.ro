@@ -1,0 +1,137 @@
+## EXPUNERE DE MOTIVE
+
+Prezenta inițiativă legislativă urmărește consolidarea independenței Ministerului Public și alinierea cadrului legislativ național la standardele europene formulate de Comisia de la Veneția, Grupul de State împotriva Corupției (GRECO) și Comisia Europeană.
+
+În opinia urgentă CDL-AD(2022)045 privind legile justiției din România, Comisia de la Veneția a evidențiat importanța limitării ingerinței factorului politic în organizarea și funcționarea Ministerului Public, precum și necesitatea clarificării mecanismelor interne de responsabilitate ierarhică.
+
+Reglementarea actuală implică. ministrul justiției și Președintele României în procedura de numire (și revocare) a mai multor funcții de conducere din cadrul parchetelor, inclusiv funcții subordonate procurorului general sau procurorilor-șefi ai direcțiilor specializate. Această soluție legislativă a extins influența factorului politic asupra organizării interne a Ministerului Public.
+
+Standardele europene formulate de Comisia de la Veneția, GRECO și Comisia Europeană subliniază necesitatea limitării influenței executivului în numirea procurorilor de rang înalt și instituirea unor garanții adecvate pentru independența Ministerului Public. În acest context, prezenta inițiativă legislativă propune limitarea acestei proceduri exclusiv la funcțiile de procuror general al Parchetului de pe lângă înalta Curte de Casație și Justiție, procuror-șef al Direcției Naționale Anticorupție și procuror-șef al Direcției de Investigare a Infrațiunilor de Criminalitate Organizată și Terorism.
+
+În mod simetric, propunem aceeași soluție legislativă și pentru procedura de revocare a procurorilor de rang înalt, urmând a fi păstrată procedura de revocare din inițiativa ministrului justiției doar în cazul celor trei funcții, numite politic: procuror general al Parchetului de pe lângă înalta Curte de Casație și Justiție, procuror-șef al Direcției Naționale Anticorupție și procuror-șef al Direcției de Investigare a Infracțiunilor de Criminalitate Organizată și Terorism.
+
+Totodată, proiectul clarifică aplicarea principiului controlului ierarhic prevăzut de art. 132 alin. (1) din Constituția României, stabilind că infirmarea măsurilor și soluțiilor procurorilor se realizează exclusiv de către procurorul ierarhic superior.
+
+Prin Recomandarea nr. 3 din Avizul nr. 1105/2022, Comisia de la Veneția a arătat că procurorul general al PÎCCJ nu ar trebui să poată ocoli ierarhia procurorilor atunci când constată că au fost dispuse măsuri nelegale sau neîntemeiate. În astfel de cazuri, constatarea ar trebui transmisă procurorului ierarhic superior celui ce a dispus măsura. Argumentul este valabil și pentru procurorii șefi DNA și DIICOT, având în vedere mai ales procedura de numire politică a acestora.
+
+”În acord.cu cele expuse de Comisia de la Veneția, Grupul de lucru apreciază că, pentru menținerea echilibrului și pentru a evita concentrarea unei puteri exorbitante la nivelul unei singure persoane, ar trebui să fie limitat controlul exercitat de procurorul general al PÎCCJ doar în privința măsurilor dispuse de procurorii față de care are rolul de procuror ierarhic superior, cu respectarea ierarhiei Ministerului Public.”
+
+Comisia de la Veneția a subliniat anterior (referitor la art. 121 din Proiectul de Constituție al Ucrainei privind organizarea procuraturii) că exercitarea controlului ierarhic trebuie realizată astfel încât fiecare nivel superior să controleze exclusiv nivelul imediat inferior, fără posibilitatea de a interveni direct asupra nivelurilor inferioare din structura ierarhică. Potrivit Comisiei de la Veneția, o asemenea organizare ar asigura protecția sistemului procuraturii împotriva intervențiilor directe sau a influențelor de natură politică.
+
+Legat de acest subiect, "în acord cu opinia exprimată de Comisia de la Veneția, Grupul de lucru consideră că este oportună modificarea prevederilor actuale, în sensul limitării posibilității invalidării măsurilor dispuse într-o cauză direct de către procurorul general al PÎCCJ. În acest sens, ar putea fi avută în vedere eliminarea sintagmei „ori de către procurorul general al Parchetului de pe lângă înalta Curte de Casație și Justiție” din cuprinsul art. 68 alin. (3) din Legea nr. 304/2022".
+
+Pentru identitate de rațiune, propunem aceeași soluție și în cazul procurorilor șefi DNA și DIICOT.
+
+Pentru consolidarea independenței funcțiilor de conducere din cadrul Ministerului Public, proiectul prevede majorarea duratei mandatului procurorilor de rang înalt de la 3 ani la 5 ani și eliminarea posibilității reînvestirii.
+
+În Avizul nr. 1105/2022 Comisia de la Veneția a recomandat creșterea duratei mandatului (fără posibilitatea reînnoirii) pentru procurorii de rang înalt (i.e., procurorul șef DNA, procurorul șef DIICOT, procurorul general al Parchetului de pe lângă Înalta Curte de Casație și Justiție și adjuncții lor, precum și pentru procurorii-șefi de secție ai Parchetului de pe lângă Înalta Curte de Casație și Justiție, DNA și DIICOT). Întrucât prezenta propunere vizează menținerea actualei procedure de desemnare doar pentru procurorul șef DNA, procurorul șef DIICOT și procurorul general al Parchetului de pe lângă Înalta Curte de Casație și
+
+Justiție am propus cresterea duratei mandatelor concomitant cu eliminarea posibilității reînvestirii doar pentru aceste trei funcții râmase în aria numirilor cu carater politic.
+
+Argumentul principal pentru aceste modificări a fost acela că, în cazul numirilor politice, cu posibilitatea reînestirii, procurorul numit într-o astfel de procedură ar putea fi tentat să își adapteze acțiunile în funcție de preferințele factorului politic care va decide cu privire la reînvestire și astfel să fie alterată activitatea acestui procuror. De asemenea, s-a apreciat că un mandat de 3 este prea scurt pentru a putea pune în aplicare în mod efficient un proiect managerial, și că un mandat unic de 5 ani ar fi o variantă mai potrivită.
+
+Totodată, într-un raport întocmit în anul 2010, Comisia de la Veneția a menționat că „este important ca procurorul general să nu fie eligibil pentru reînvestire, cel puțin nu de către puterea legislativă sau executivă. Există un potențial risc ca procurorul care urmărește reînvestirea de către un factor politic să se comporte de așa manieră încât să fie favorizat de respectivul corp politic sau cel puțin să lase impresia că se comportă astfel ”
+
+Această propunere este în acord și cu concluzia grupului de lucru constituit din inițiativa Ministerului Justiției pentru analizarea recomandărilor Comisiei de la Veneția cuprinse în avizul din 2022: "Grupul de lucru consideră că este oportună implementarea Recomandării nr. 2 din Avizul Comisiei de la Veneția, varianta propusă fiind în sensul modificării duratei mandatului procurorilor de rang înalt de la 3 ani la 5 ani, cumulativ cu interdicția de reînnoire a acestuia."
+
+În numele inițiatorilor,
+
+Stelian-Cristian/ION
+
+/ DeputatUSR X
+
+Oana MURARIU
+
+Dumitru VĂDUVA
+
+Deputat USR
+
+Deputată USR,
+
+Elena-Simona SPĂTARU
+
+Alexandru-Paul DIMITRIU
+
+Sênatoare USR
+
+Deputat USR=
+
+Vasile-Ciprian RUS
+
+Senator USR
+
+## Lista susținătorilor
+
+pentru modificarea și completarea Legii nr. 303/2022 privind statutul judecătorilor și procurorilor și a Legii nr. 304/2022 privind organizarea judiciară
+
+| NR. | DEPUTAT/SENATOR | SEMNĂTURĂ | PARTID |
+| --- | --- | --- | --- |
+| 1 | ECHEETASRIAN |  | USR |
+| 2 | BERESU MONICA-CEENA |  | USR |
+| 3 | BLASA DANIEL |  | USR |
+| 4 | HANGAN POLLYANNA |  | USR |
+| 5 | Parasluvesu Ovidin |  | USR |
+| 6 | Miha Radn |  | USR |
+| 7 | PLUAR ANDREI |  | USR |
+| 8 | Dana Stopa |  | USR |
+| 9 | GINT GOROES |  | USR |
+| 10 | ALEOSANIRU MARTUS NICOLAE |  | USD |
+| 11 | ORINA ATANASIV |  | USD |
+
+## Lista susținătorilor
+
+pentru pentru modificarea și completarea Legii nr. 303/2022 privind statutul judecătorilor și procurorilor și a Legii nr. 304/2022 privind organizarea judiciară
+
+<table>
+<tbody>
+<tr><td>NR.</td><td>DEPUTAT/SENATOR</td><td>SEMNĂTURĂ</td><td>PARTID</td></tr>
+<tr><td>12</td><td>SENDROIU VLAD-1 04N</td><td rowspan="6"></td><td>USR</td></tr>
+<tr><td>13</td><td>DRĂGOESCU CEZAR</td><td>USR</td></tr>
+<tr><td>14</td><td>Rodeanu Bogdan</td><td>USR</td></tr>
+<tr><td>15.</td><td>ATHIN STOIAF</td><td>OSR</td></tr>
+<tr><td>16</td><td>ANDREI GHEORGHIV</td><td>USR</td></tr>
+<tr><td>17</td><td>Smonul Umgunomu</td><td>USR</td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+## Lista susținătorilor
+
+Lege pentru modificarea și completarea Legii nr. 303/2022 privind statutul judecătorilor și procurorilor și a Legii nr. 304/2022 privind organizarea judiciară
+
+<table>
+<tbody>
+<tr><td>NR.</td><td>DEPUTAT/SENATOR</td><td>SEMNĂTURĂ</td><td>PARTID</td></tr>
+<tr><td></td><td>MINBRA CATAČIN-EMIL</td><td rowspan="14"></td><td>VSR</td></tr>
+<tr><td></td><td>SEISTIAN CEZALIE</td><td>USR</td></tr>
+<tr><td></td><td>Rodo Manus</td><td>USR</td></tr>
+<tr><td></td><td>SILOS SORIN</td><td>USR</td></tr>
+<tr><td></td><td>PAUN CYNTHIA</td><td>USR</td></tr>
+<tr><td></td><td>CIBU JEA CONV RUXANDRA</td><td>USR</td></tr>
+<tr><td></td><td>NASHDALEGHE</td><td>USR</td></tr>
+<tr><td></td><td>JOBER ECEHA JADELHEF</td><td>USR</td></tr>
+<tr><td></td><td>BECHLLCANV GEORGE-CATALIN</td><td>USR</td></tr>
+<tr><td></td><td>Norchis Minceleu</td><td>USR</td></tr>
+<tr><td></td><td>CRISTIAN GRINISH</td><td>USR</td></tr>
+<tr><td></td><td>NEGAI EVGICW RĂMUS</td><td>USR</td></tr>
+<tr><td></td><td>ANGHEL RAZUAN-PAUL</td><td>UFR</td></tr>
+<tr><td></td><td>AUREL OPQINOICE</td><td>USR</td></tr>
+<tr><td></td><td></td><td>V17</td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>

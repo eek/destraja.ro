@@ -1,0 +1,152 @@
+{
+  "slug": "plx-596-2026",
+  "billId": "PL-x 596/2026",
+  "updatedAt": "2026-10-29T13:17:49.329Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L566FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Bursă de stat și pentru elevii din liceele tehnologice duale",
+      "summaryTlDr": "Lege benignă și utilă: acoperă golul creat prin mutarea școlii profesionale în liceul tehnologic, care a lăsat fără bursa tehnologică de stat elevii de clasa a IX-a din dual. Problemele țin de execuție: textul vine după începerea anului școlar, nu are fișă financiară și trimite la «norme» printr-o procedură diferită de cea din lege.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/90/6/se682.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Bursa tehnologică și pentru elevii de la liceul tehnologic și dual, plătită și în vacanțe",
+      "summaryTlDr": "Lege utilă, care repară o problemă reală creată de reforma liceului tehnologic: bobocii din sistemul dual rămâneau fără bursa tehnologică. Problemele sunt de redactare și de cost nedeclarat, nu de fond, și nu pun nicio obligație nouă pe cetățeni sau pe firme.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Senatul extinde bursa tehnologică la tot liceul tehnologic și acordă burse și în vacanțe, fără cost estimat",
+      "summary": "Acum bursa tehnologică pare să cuprindă tot liceul tehnologic, nu doar dualul, iar toate bursele se acordă și în vacanțe. E mai bine pentru elevi, dar costul nu a fost calculat, iar la școlile particulare o condiție a dispărut fără explicație.",
+      "changes": [
+        {
+          "title": "Bursa tehnologică pentru tot liceul tehnologic, nu doar dual",
+          "text": "Inițial bursa era adăugată doar pentru liceul dual. Acum art. 108¹ alin. (2) lit. c) include și «liceal tehnologic», adică probabil încă 72.726 de locuri în clasa a IX-a, fără cost estimat.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. I pct. 1 (art. 108¹ alin. (2) lit. c))",
+          "before": "d) bursa tehnologică, pentru elevii care frecventează învățământul liceal tehnologic în sistem dual.",
+          "after": "c) bursa tehnologică, pentru elevii care frecventează învățământul profesional, liceal tehnologic și învățământul liceal tehnologic în sistem dual.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Bursele se plătesc și în vacanțe",
+          "text": "Art. I pct. 3 adaugă alin. (15) în art. 108¹: bursele se acordă și în vacanțele școlare. Textul pare să privească toate bursele, iar Expunerea de motive nu pomenește vacanțele și nu dă un cost.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. I pct. 3 (art. 108¹ alin. (15))",
+          "before": null,
+          "after": "(15) Bursele se acordă și pe perioada vacanțelor școlare.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Școli particulare și confesionale: bursă fără condiția specializărilor",
+          "text": "La alin. (3) lit. b), pentru școlile particulare și confesionale, nu mai apare condiția încadrării în specializările din metodologia-cadru. Mai mulți elevi pot primi bursa, dar eliminarea nu e motivată.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. I pct. 2 (art. 108¹ alin. (3) lit. b))",
+          "before": "c) burse tehnologice, pentru elevii care frecventează învățământul liceal tehnologic în sistem dual, dacă se încadrează în specializările și condițiile stabilite prin metodologia-cadru.",
+          "after": "b) burse tehnologice, pentru elevii care frecventează învățământul profesional, liceal tehnologic și învățământul liceal tehnologic în sistem dual.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "HG 732/2025 se modifică direct, fără norme separate",
+          "text": "Inițial art. II cerea norme metodologice noi prin HG la propunerea MEC, deși art. 108¹ cere metodologia-cadru la propunerea CNFIP. Acum se modifică direct HG nr. 732/2025, în 30 de zile.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. II",
+          "before": "În termen de 30 de zile de la data intrării în vigoare a prezentei legi se aprobă normele metodologice de aplicare a prezentei legi, prin hotărâre a Guvernului, la propunerea Ministerului Educației și Cercetării.",
+          "after": "În termen de 30 de zile de la data intrării în vigoare a prezentei legi, se modifică în mod corespunzător Metodologia-cadru de acordare a burselor și cuantumul acestora, aprobată prin Hotărârea Guvernului nr.732/2025.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Costul extinderii la peste 85.000 de locuri în clasa a IX-a nu e estimat",
+            "major": true,
+            "article": "art. I pct. 1"
+          },
+          {
+            "text": "Plata burselor în vacanțe, aparent pentru toate tipurile, nu are cost estimat",
+            "major": true,
+            "article": "art. I pct. 3"
+          },
+          {
+            "text": "La școlile particulare și confesionale, condiția specializărilor din metodologie dispare nemotivat",
+            "major": true,
+            "article": "art. I pct. 2"
+          },
+          {
+            "text": "Bursa curge practic doar după modificarea HG, nu de la începutul anului școlar",
+            "major": false,
+            "article": "art. II și art. III"
+          }
+        ],
+        "good": [
+          {
+            "text": "Bursa tehnologică ajunge și la elevii din liceul tehnologic și din dual",
+            "major": true,
+            "article": "art. I pct. 1 și 2"
+          },
+          {
+            "text": "Elevii primesc bursele și în vacanțele școlare",
+            "major": true,
+            "article": "art. I pct. 3"
+          },
+          {
+            "text": "Art. II cere expres modificarea HG 732/2025, fără o procedură paralelă",
+            "major": false,
+            "article": "art. II"
+          },
+          {
+            "text": "Intră în vigoare la 3 zile, util fiindcă anul școlar a început",
+            "major": false,
+            "article": "art. III"
+          },
+          {
+            "text": "Nu introduce taxe, sancțiuni sau obligații pentru firme",
+            "major": false,
+            "article": null
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 10,
+        "removed": 8,
+        "same": 0.09
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:14:29.014Z"
+    }
+  ]
+}

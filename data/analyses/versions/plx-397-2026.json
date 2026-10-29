@@ -1,0 +1,171 @@
+{
+  "slug": "plx-397-2026",
+  "billId": "PL-x 397/2026",
+  "updatedAt": "2026-10-29T12:30:04.662Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L176FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Scutiri de taxe pentru fabricile care transformă gazul românesc în îngrășăminte, plastic și chimicale",
+      "summaryTlDr": "Ideea de politică industrială e legitimă și are susținere din toate partidele mari, dar textul pare scris în grabă. Scutirea de impozit pe profit nu are plafon, termen-limită sau obligația de a păstra investiția, iar clauza de ajutor de stat lipsește tocmai la măsurile cele mai costisitoare. Cetățenii nu sunt loviți direct, dar costul bugetar nu e estimat și firmele riscă să returneze ajutorul.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/300/90/7/se432.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Scutiri de impozite pentru fabricile chimice care folosesc gaz natural",
+      "summaryTlDr": "Obiectivul economic e legitim și are susținerea tuturor partidelor, dar textul e scris în grabă. Scutirea de impozit pe profit nu are plafon, nu definește investiția și nu are condiția de ajutor de stat pe care o promite chiar Expunerea de motive. Cetățenii nu sunt loviți direct, dar costul pentru buget nu e cuantificat, iar firmele riscă să fie obligate să returneze ajutorul.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a corectat doar numerotarea; scutirile fiscale pentru industria chimică au rămas la fel",
+      "summary": "Față de forma inițiatorului, Senatul a corectat doar numerotarea alineatelor și literelor și o trimitere la Legea fondului funciar. Scutirea de impozit pe profit, amortizarea de 65% în primul an și scutirile locale au rămas identice, cu aceleași probleme.",
+      "changes": [
+        {
+          "title": "Scutirea de impozit pe profit, numerotată corect",
+          "text": "Art. I pct. 1: alineatul nou din art. 22 Cod fiscal apare acum ca (1²), cum anunță textul, nu ca (2²). Conținutul scutirii a rămas identic.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. I pct. 1 (art. 22 alin. (1²) Cod fiscal)",
+          "before": "(2²) Profitul investit în industria chimică bazată pe gaze naturale este scutit de impozit pe o perioadă de 5 ani de la prima investiție.",
+          "after": "(1²) Profitul investit în industria chimică bazată pe gaze naturale este scutit de impozit pe o perioadă de 5 ani de la prima investiție.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Literele noi la impozitele locale, corectate",
+          "text": "Art. I pct. 3–4: scutirea de impozit pe teren este acum lit. n), cum se anunță, nu r), iar trimiterea „și)” a devenit „ș)”. Scutirile locale nu s-au schimbat.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. I pct. 3–4 (art. 456 și art. 464 Cod fiscal)",
+          "before": "r) terenurile aferente clădirilor utilizate în industria chimică bazată pe gaze naturale",
+          "after": "n) terenurile aferente clădirilor utilizate în industria chimică bazată pe gaze naturale",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Altă trimitere în Legea fondului funciar",
+          "text": "Art. II: excepția pentru amplasarea obiectivelor chimice se introduce acum la art. 92¹ alin. (2) din Legea nr. 18/1991, nu la art. 92 alin. (6). Textul literei d) e același.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. II",
+          "before": "La articolul 92 alineatul (6) din Legea fondului funciar nr.18/1991",
+          "after": "La articolul 92¹ alineatul (2) din Legea fondului funciar nr.18/1991",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Scutirea pe profit nu are plafon, termen-limită sau obligația de a păstra activele",
+            "major": true,
+            "article": "art. I pct. 1 (art. 22 alin. (1²) Cod fiscal)"
+          },
+          {
+            "text": "Nu spune în ce active trebuie investit profitul scutit",
+            "major": true,
+            "article": "art. I pct. 1 (art. 22 alin. (1²) Cod fiscal)"
+          },
+          {
+            "text": "Neclar dacă e scutit tot profitul sau doar suma investită",
+            "major": true,
+            "article": "art. I pct. 1 (art. 22 alin. (1²) Cod fiscal)"
+          },
+          {
+            "text": "Poate fi scutit și profitul din alte activități, ca extracția gazelor, investit în chimie",
+            "major": true,
+            "article": "art. I pct. 1 (art. 22 alin. (1²) Cod fiscal)"
+          },
+          {
+            "text": "„Prima investiție” nu e definită, deci nu e clar de când curg cei 5 ani",
+            "major": true,
+            "article": "art. I pct. 1 (art. 22 alin. (1²) Cod fiscal)"
+          },
+          {
+            "text": "Amortizarea de 65% în primul an s-ar putea aplica și clădirilor",
+            "major": true,
+            "article": "art. I pct. 2 (art. 28 alin. (8⁴) Cod fiscal)"
+          },
+          {
+            "text": "Lipsește condiția ajutorului de stat la scutirea pe profit, amortizare și art. II",
+            "major": true,
+            "article": "art. I pct. 1–2, art. II"
+          },
+          {
+            "text": "Scutirile locale, decise de consilii, reduc veniturile localităților cu combinate",
+            "major": true,
+            "article": "art. I pct. 3–4 (art. 456 și art. 464 Cod fiscal)"
+          },
+          {
+            "text": "„Investiții noi” și „data investiției” sunt nedefinite și nepotrivite cu restul art. 28",
+            "major": false,
+            "article": "art. I pct. 2 (art. 28 alin. (8⁴) Cod fiscal)"
+          },
+          {
+            "text": "Perioada de cel mult 5 ani a scutirilor locale nu are punct de plecare",
+            "major": false,
+            "article": "art. I pct. 3–4 (art. 456 și art. 464 Cod fiscal)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Art. III definește investițiile vizate: chimie de bază din gaz, de firme din domeniu",
+            "major": true,
+            "article": "art. III"
+          },
+          {
+            "text": "Numerotarea alineatelor și literelor noi se potrivește acum cu textul introdus",
+            "major": false,
+            "article": "art. I pct. 1, 3–4"
+          },
+          {
+            "text": "Scutirile locale au limită de 5 ani și respectă regulile ajutorului de stat",
+            "major": false,
+            "article": "art. I pct. 3–4 (art. 456 și art. 464 Cod fiscal)"
+          },
+          {
+            "text": "Guvernul trebuie să adopte normele de aplicare în 60 de zile",
+            "major": false,
+            "article": "art. IV"
+          },
+          {
+            "text": "Legea intră în vigoare la 1 ianuarie a anului următor publicării",
+            "major": false,
+            "article": "art. V"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 15,
+        "removed": 16,
+        "same": 0.12
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:27:37.907Z"
+    }
+  ]
+}

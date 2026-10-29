@@ -1,0 +1,71 @@
+# EXPUNERE DE MOTIVE
+
+În România, apicultura reprezintă una dintre ramurile agriculturii cu cele mai vechi tradiții.
+
+În medie, în România se produc 20.000 tone de miere anual, cantitate care clasează țara noastră pe locul 3 în Europa, după Spania și Germania, iar efectivele au ajuns la aproximativ 1,47 milioane de familii de albine. Aproape 40.000 apicultori sunt înregistrați la nivel național și peste 60% dintre ei sunt membri ai Asociației Crescătorilor de Albine cu un efectiv de 900.000 de familii de albine.
+
+Din producția de miere la nivel mondial, Uniunea Europeană acoperă aproximativ 13%. Anul 2025 s-a dovedit unul extrem de dificil pentru apicultura românească cu pierderi masive atât la producția de miere cât și la efectivele de albine. Producția de miere în 2025 a fost de 30% dintr-un an normal, ceea ce înseamnă o scădere cu 70%.
+
+De asemenea, problema a fost amplificată de importurile masive de miere ieftină care a pus presiune pe apicultori.
+
+România, ca prim producător de miere din Uniunea Europeană, se confruntă cu o serie de dificultăți privind comercializarea în UE și din această cauză este necesară modificarea legislației privind etichetarea mierii în conformitate cu prevederile Directivei 1438/14 mai 2024, care modifică Directiva 2001/110/CE din 20 decembrie 2001 privind mierea.
+
+Prin modificarea Directivei sus-menționate, Comisia Europeană a revizuit legislația privind etichetarea mierii pentru a informa corect consumatorii și a contribui astfel la combaterea practicilor înșelătoare, care determină pierderi financiare importante apicultorilor.
+
+Prin actul normativ anexat propunem modificarea art. 17¹ din Legea apiculturii nr. 383/2013, în sensul transpunerii Directivei 1438/2024 în legislația națională în domeniu.
+
+Față de cele prezentate, am inițiat propunerea legislativă pe care o propunem spre dezbatere și adoptare Parlamentului României, în procedură de urgență.
+
+## LEGE
+
+pentru modificarea art. 17¹ din Legea apiculturii nr. 383/2013
+
+## INIȚIATORI
+
+| Nr.crt. | Numele și prenumele | Grupulparlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1 | Ciunt Ionel | PSD |  |
+| 2 | Geamănu Aurora-Adela | PSD |  |
+| 3 | Govor Mircea-Vasile | PSD |  |
+| 4 | Lăpușan Remus-Gabriel | PSD |  |
+| 5 |  |  |  |
+
+18.06.2026
+
+## Către, BIROUL PERMANENT AL SENATULUI
+
+Subsemnata, Doina-Elena Federovici, senator ales în Circumscripția electorală nr. 07, Botoșani, solicit să aprobați dobândirea calității de coinițiator al următoarelor propuneri legislative:
+
+\- Propunere legislativă privind anularea unor obligații fiscale stabilite ca urmare a anulării înregistrării în scopuri de TVA (L315/2026);
+
+\- Propunere legislativă pentru completarea Ordonanței de urgență a Guvernului nr.195/2002 privind circulația pe drumurile publice (L317/2026);
+
+\- Propunere legislativă pentru modificarea art.(17 indice 1) din Legea apiculturii nr.383/2013 (L319/2026);
+
+\- Propunere legislativă privind instituirea unei scheme de ajutor de stat pentru susținerea activității crescătorilor din sectorul bovin, în anul 2026, în contextul crizei din Orientul Mijlociu (b390/2026);
+
+\- Propunere legislativă pentru modificarea art.(17 indice 1) din Legea Propunere legislativă privind instituirea unei scheme de ajutor de stat pentru susținerea activității crescătorilor din sectorul suin, în anul 2026, în contextul crizei din Orientul Mijlociu (b387/2026);
+
+\- Propunere legislativă privind notificarea electronică a expirării termenului de valabilitate a actelor administrative individuale (b400/2026);
+
+\- Propunere legislativă modificarea alin.(1) al art.147 din Legea nr.53/2003 - Codul muncii (b395/2026);
+
+\- Propunere legislativă pentru modificarea și completarea Legii nr.122/2023 privind exploatațiile de creștere a porcinelor și combaterea pestei porcine africane în România (b388/2026);
+
+\- Propunere legislativă pentru stabilirea unor măsuri de aplicare a dispozițiilor art.II alin.(1) din Legea nr.186/2017 pentru modificarea și completarea Legii fondului funciar nr.18/1991 (b389/2026)
+
+Vă mulțumesc.
+
+Senator Doina-Elena FEDEROVICI, Secretar al Senatului
+
+## BIROUL PERMANENT AL SENATULUI
+
+Subsemnata, Daniela MIHAI, senator PSD, ales în circumscripția electorală nr. 12, Călărași, doresc să devin coinițiator al Propunerii legislative pentru modificarea art.(17 indice 1) din Legea apiculturii nr.383/2013, înregistrată la Senat cu nr. L 319/2026.
+
+Cu stimă,
+
+19.05.2026
+
+Daniela MIHAI
+
+Senator\_PSD

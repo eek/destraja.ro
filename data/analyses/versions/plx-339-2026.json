@@ -1,0 +1,132 @@
+{
+  "slug": "plx-339-2026",
+  "billId": "PL-x 339/2026",
+  "updatedAt": "2026-10-29T13:07:10.323Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L195FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Criza carburanților: adaos plafonat, export doar cu aviz, mai puțin bioetanol și reguli noi pentru gazul populației",
+      "summaryTlDr": "Intervenție temporară de urgență, cu un scop legitim (oprirea speculei și motorină pe piața internă). Textul are însă formule vagi: un plafon de adaos greu de verificat, export condiționat de un acord ministerial pentru care nu se văd criterii și o criză care se poate prelungi fără limită, aparent chiar prin hotărâre de Guvern. Partea de gaze e în mare tehnică și utilă.",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 7
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/300/30/9/se369.pdf",
+      "source": "cdep.ro",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Criza carburanților: adaos plafonat la benzină și motorină, exporturi doar cu aprobare și reguli noi la gazele pentru casnici",
+      "summaryTlDr": "Intervenția de criză are o justificare reală și protejează consumatorul, dar e scrisă în grabă. Poate fi prelungită fără limită totală printr-un act al Guvernului, condiționează exporturile de un acord fără criterii vizibile și lasă goluri în calculul plafonului.",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 7
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat ordonanța fără modificări; plafonul pe adaosul la carburanți rămâne la fel",
+      "summary": "Senatul a aprobat ordonanța despre criza pe piața carburanților fără nicio modificare. Diferențele față de forma inițiatorului sunt doar de redactare, iar plafonul de adaos rămâne neschimbat, cu aceleași probleme.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Plafonul ignoră creșterea în 2026 a salariilor, energiei și logisticii",
+            "major": true,
+            "article": "art. 3 alin. (3)–(4)"
+          },
+          {
+            "text": "Operatorii cu adaos mic în 2025 sunt dezavantajați față de cei cu adaos mare",
+            "major": true,
+            "article": "art. 3 alin. (1)–(4)"
+          },
+          {
+            "text": "Neclar dacă plafonul de adaos se prelungește odată cu criza",
+            "major": true,
+            "article": "art. 2 alin. (2), art. 3"
+          },
+          {
+            "text": "Criza poate fi prelungită succesiv cu câte 3 luni, fără durată maximă",
+            "major": true,
+            "article": "art. 2 alin. (2)"
+          },
+          {
+            "text": "Lipsește regula pentru operatorii intrați pe piață în 2026",
+            "major": true,
+            "article": "art. 3 alin. (1)–(2)"
+          },
+          {
+            "text": "Neclar cum se încadrează benzinăriile independente în segmentul de rafinare și vânzare",
+            "major": true,
+            "article": "art. 3"
+          },
+          {
+            "text": "Prelungirea e posibilă și prin hotărâre de Guvern, fără indicatori măsurabili",
+            "major": false,
+            "article": "art. 2 alin. (2)"
+          },
+          {
+            "text": "Nu se spune cine dispune încetarea anticipată a crizei și prin ce act",
+            "major": false,
+            "article": "art. 2 alin. (3)"
+          },
+          {
+            "text": "Unitatea de calcul „litri, tone” nu precizează care se aplică",
+            "major": false,
+            "article": "art. 3 alin. (3)–(4)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Exporturile și livrările intracomunitare sunt exceptate de la plafonul de adaos",
+            "major": true,
+            "article": "art. 3"
+          },
+          {
+            "text": "Plafonul limitează adaosul, nu prețul, deci costul de achiziție rămâne acoperit",
+            "major": true,
+            "article": "art. 3 alin. (3)–(4)"
+          },
+          {
+            "text": "Firmele înființate în 2025 au reper propriu pentru calculul plafonului",
+            "major": true,
+            "article": "art. 3 alin. (2)"
+          },
+          {
+            "text": "Plafonul de adaos are perioadă fixă: 1 aprilie–30 iunie 2026",
+            "major": false,
+            "article": "art. 3"
+          },
+          {
+            "text": "Situația de criză poate înceta anticipat",
+            "major": false,
+            "article": "art. 2 alin. (3)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:07:10.010Z"
+    }
+  ]
+}

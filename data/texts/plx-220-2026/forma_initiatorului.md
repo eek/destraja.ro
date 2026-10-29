@@ -1,0 +1,37 @@
+# Parlamentul României
+
+# Camera Deputaților
+
+Senat
+
+# LEGE
+
+# privind modificarea și completarea Legii nr. 153/2017 privind salarizarea personalului plătit din fonduri publice
+
+Parlamentul României adoptă prezenta lege.
+
+## Art. I
+
+Legea-cadru nr. 153/2017 privind salarizarea personalului plătit din fonduri publice, publicată în Monitorul Oficial al României, Partea I, nr. 492 din 28 iunie 2017, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+La Anexa nr. II, capitolul II, după alin. (1) al art. 3^1 se introduce un nou alineat, alin. (1^1), cu următorul cuprins:
+
+„(1^1) Beneficiază de indemnizațiile prevăzute la alin. (1) lit. f) și g) și personalul de specialitate medico-sanitar și auxiliar sanitar căre își desfășoară activitatea în:
+
+a) sistemul public de asistență socială / servicii sociale cu sau fără cazare, indiferent de subordonare;
+
+b) administrația publică locală, în funcții de asistenți medicali comunitari;
+
+c) cabinete și dispensare medicale școlare."
+
+## Art. II
+
+În termen de 30 de zile de la intrarea în vigoare a prezentei legi, Ministerul Sănătății și Ministerul Muncii și Solidarității Sociale vor adapta corespunzător normele metodologice privind aplicarea art. 3^1 din Anexa II.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin.(1) din Constituția României, republicată.
+
+## PREȘEDINTELE CAMEREI DEPUTAJILOR,
+
+PREȘEDINTELE SENATULUI,
+
+București, Nr. ..... .

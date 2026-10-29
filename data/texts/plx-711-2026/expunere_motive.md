@@ -1,0 +1,77 @@
+## EXPUNERE DE MOTIVE
+
+Prezenta propunere legislativă își propune să corecteze deficientțele legislației actuale în ceea ce privește publicarea actelor în Monitorul Oficial al României, Partea a IV-a și Partea a VII-a, instituind în sarcina Regiei Autonome „Monitorul Oficial" obligația de a anonimiza datele cu caracter personal ale persoanelor fizice anterior publicării, cu excepția numelui, prenumelui și a calității în care acestea acționează pentru operatorul economic sau societatea cooperativă.
+
+Deși art. 16 alin. (1) din Legea nr. 265/2022 prevede că actele se publică în Monitorul Oficial al României cu respectarea legislației privind protecția datelor cu caracter personal, în practică acestea sunt publicate cu date precum codul numeric personal și adresa de domiciliu, întrucât legislația în vigoare nu stabilește în sarcina niciunei entități obligația concretă de a lua măsurile tehnice și organizatorice necesare în acest sens.
+
+Absența unei reglementări clare în această materie produce efecte directe și prejudiciabile asupra persoanelor fizice ale căror date apar în cuprinsul actelor publicate. Accesul nelimitat la informații precum codul numeric personal și adresa de domiciliu creează premisele unor utilizări ilicite, inclusiv frauda de identitate, persoanele vizate neavând niciun mijloc efectiv de a preveni, controla sau limita circulația acestora, ceea ce contravine în mod flagrant obiectivului fundamental al legislației privind protecția datelor cu caracter personal.
+
+Din perspectiva dreptului Uniunii Europene, protecția datelor cu caracter personal și dreptul la respectarea vieții private, consacrate de articolele 7 și 8 din Carta drepturilor fundamentale a Uniunii Europene, nu sunt drepturi absolute, însă orice limitare a acestora trebuie să fie prevăzută de lege, justificată de un obiectiv legitim de interes general și proporțională cu scopul urmărit¹. Curtea de Justiție a Uniunii Europene a statuat în mod constant că simpla invocare a principiului transparenteii nu este de natură să justification, prin ea însăși, o ingerință în aceste drepturi fundamentale, iar faptul că publicarea este prevăzută de lege și servește unui interes legitim nu dispensează de obligația verificării dacă datele divulgate sunt strict necesare atingerii scopului urmărit².
+
+În acest context, chiar dacă publicarea în Monitorul Oficial servește unui interes legitim de transparență și informare a publicului, aceasta nu poate justifica divulgarea fără nicio restricție de acces a codului numeric personal și a adresei de domiciliu, date care prin natura lor impun un nivel sporit de protecție. Prin expunerea lor nelimitată, persoanele vizate pierd practic orice control asupra circulației acestor informații, care pot fi preluate, stocate sau utilizate în scopuri străine celui pentru care au fost inițial publicate, cu consecința directă a diminuării capacității lor de a-și proteja drepturile.
+
+Prezenta propunere legislativă răspunde tocmai acestei necesități, instituind un echilibru între principiul transparenteți și dreptul la protecția datelor cu caracter personal, garantat de articolul 8 din Carta drepturilor fundamentale a Uniunii Europene. În acest scop, se instituie în sarcina Regiei Autonome „Monitorul Oficial" obligația de a anonimiza, anterior publicării, datele de identificare ale persoanelor fizice, cu excepția numelui, prenumelui și a calității acestora, limitând astfel accesul nelimitat la informații sensibile și reducând în mod concret riscul utilizării lor ilicite, inclusiv al fraudei de identitate, în deplină conformitate cu exigențele Regulamentului (UE) 2016/679.
+
+¹ Curtea de Justiție a Uniunii Europene, Hotărârea din 9 noiembrie 2010, cauzele conexate C-92/09 și C-93/09, Volker und Markus Schecke GbR și Hartmut Eifert împotriva Land Hessen, pct. 50
+
+² Curtea de Justiție a Uniunii Europene, Hotărârea din 22 noiembrie 2022, cauzele conexate C-37/20 și C-601/20, WM și Sovim SA împotriva Luxembourg Business Registers, pct. 62.
+
+Inițiatori:
+
+Oana MURARIU - deputat USR
+
+Stelian-Cristian ION - deputat-USR
+
+Alexandru-Paul DIMITRIU - deputat USR
+
+Dumitru VĂDUVA - deputat USR
+
+Elena-Simona SPATARU - senator USR
+
+Vasile-Ciprian RUS - senator USR
+
+dclin'siony-dy.usr'
+
+Propunere legislativă pentru completarea Legii nr. 202/1998 privind organizarea Monitorului Oficial al României
+
+| Nr. crt. | Deputat/Senator | Grup Parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1 | RIGHAN CIPRIAN | OSR |  |
+| 2 | GHEORGHIU ANDREI | USR |  |
+| 3 | SENOROU VLAG-10AXI | USR |  |
+| 4 | S###mon## Chg###mm | USR |  |
+| 5 | ALEESAANDRU, MARIOS-NICOLAE | USR |  |
+| 6 | PIUJAN ANDREI | USR |  |
+| 7 | BLASA DANIEC | USR |  |
+| 8 | CIBU AEACONU ICUXANDRA | USR |  |
+| 9 | CRISTIAN BRIAN | USR |  |
+|  | GIVRGIV ADRIAN | USR |  |
+| 11 | COLIBAN ALLEN | USR |  |
+| 12 | Parascluvresu Qvidin | USR |  |
+
+Propunere legislativă pentru completarea Legii nr. 202/1998 privind organizarea Monitorului Oficial al României
+
+<table>
+<tbody>
+<tr><td>Nr. crt.</td><td>Deputat/Senator</td><td>Grup Parlamentar</td><td rowspan="5">Semnătura</td></tr>
+<tr><td>1</td><td>RUS VASILE-CIPRIAN</td><td>USR</td></tr>
+<tr><td>2</td><td>ANGHEL RAZVAN-PAUL</td><td>USR</td></tr>
+<tr><td>3</td><td>NEGOL EUGEN REMUS</td><td>USR</td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>

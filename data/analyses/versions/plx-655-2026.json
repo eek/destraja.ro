@@ -1,0 +1,107 @@
+{
+  "slug": "plx-655-2026",
+  "billId": "PL-x 655/2026",
+  "updatedAt": "2026-10-29T13:31:58.798Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L495FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Poliția poate amenda vânzătorii de lucrări de licență fără să aștepte cererea universității",
+      "summaryTlDr": "Corecție utilă și simplă: elimină o condiție care bloca poliția până când o universitate făcea o cerere motivată. Efectul de luat în seamă: amenzile foarte mari care există deja vor fi aplicate mult mai des, inclusiv studenților care cumpără lucrări și celor care fac «formare» fără autorizare ARACIS.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/600/50/5/se742.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Oricine poate reclama la poliție vânzarea de lucrări de licență",
+      "summaryTlDr": "Corecție procedurală utilă: elimină condiția care lăsa poliția să intervină numai după cererea motivată a universității. Nu creează fapte noi și nu mărește amenzile, dar le face mai ușor de aplicat, inclusiv pe cele, deja foarte mari, pentru cumpărători.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a păstrat textul inițial: poliția poate amenda din oficiu sau la sesizarea oricui",
+      "summary": "Senatul a votat textul fără schimbări de fond. Ca inițial, poliția poate amenda din oficiu sau la sesizarea oricui, fără cererea universității: de la 100.000 lei pentru cumpărarea unei lucrări și de la 50.000 lei pentru cursuri neautorizate.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Un student care cumpără un referat riscă minimum 100.000 lei, fără treaptă mai mică",
+            "major": true,
+            "article": "art. 259 alin. (3) și (5)"
+          },
+          {
+            "text": "Orice coleg sau terț poate denunța un student; universitatea nu mai filtrează cazurile",
+            "major": true,
+            "article": "art. 259 alin. (6)"
+          },
+          {
+            "text": "Formularea largă „activități de formare” poate prinde furnizori privați de cursuri, amendați din oficiu",
+            "major": true,
+            "article": "art. 259 alin. (4) și (5) lit. b)"
+          },
+          {
+            "text": "„La solicitarea oricărei persoane” e imprecis: sesizarea ar trebui doar să declanșeze verificarea",
+            "major": false,
+            "article": "art. 259 alin. (6)"
+          },
+          {
+            "text": "Expunerea de motive nu discută extinderea asupra cursurilor și programelor neautorizate",
+            "major": false,
+            "article": "art. 259 alin. (4)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Poliția poate amenda din oficiu, ca în regimul general al contravențiilor (OG 2/2001)",
+            "major": true,
+            "article": "art. 259 alin. (6)"
+          },
+          {
+            "text": "Cursurile și programele de studii neautorizate de ARACIS pot fi sancționate fără cererea universității",
+            "major": true,
+            "article": "art. 259 alin. (4)"
+          },
+          {
+            "text": "Nu creează contravenții noi și nu mărește amenzile",
+            "major": true,
+            "article": "art. 259 alin. (5)"
+          },
+          {
+            "text": "Dispare un motiv de anulare în instanță a proceselor-verbale încheiate fără cererea universității",
+            "major": false,
+            "article": "art. 259 alin. (6)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 3,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:25:44.162Z"
+    }
+  ]
+}

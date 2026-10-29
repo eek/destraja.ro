@@ -1,0 +1,127 @@
+{
+  "billId": "B597/2026",
+  "slug": "b597-2026",
+  "updatedAt": "2026-10-29T06:52:02.365Z",
+  "consensus": {
+    "riskScore": 6.7,
+    "riskLevel": "yellow",
+    "plainTitle": "Autorizație de la stat și buton de oprire pentru cele mai puternice sisteme AI",
+    "summaryTlDr": "E o propunere serioasă, documentată tehnic și cu garanții procedurale reale, despre un risc pe care îl recunosc chiar liderii domeniului. Problema e că definițiile ei pot cere autorizație și firmelor românești care doar folosesc un model prin API, iar un regim național de autorizare se ciocnește de AI Act și de piața unică.",
+    "initiatorClaim": "Inițiatorul spune că cele mai avansate sisteme AI nu mai pot fi controlate în siguranță și că autoreglementarea laboratoarelor a eșuat. Invocă avertismentele lui Hinton și Bengio și un incident din 2026 în care agenți AI ar fi ieșit din mediul de test. Propune ca dezvoltarea și exploatarea acestor sisteme să fie tratate ca activități cu risc intrinsec, supuse autorizării și controlului public.",
+    "realityCheck": "Mecanic, legea creează în cadrul ANCOM o Autoritate pentru Siguranța IA și un regim de autorizare (cap. III) pentru cine dezvoltă sau pune în exploatare un „sistem de vârf” în România ori pentru persoane din România, inclusiv laboratoarele străine. Definițiile din art. 3 lit. f)-i) sunt atât de largi încât pot prinde și firmele care doar conectează prin API un model de vârf la propriile aplicații sau îl pun la dispoziția angajaților, iar ajustarea fină a unui model mare poate transforma un IMM în „dezvoltator”. Efect secundar realist: furnizorii globali pot prefera să blocheze accesul din România decât să obțină o autorizație națională peste AI Act, așa cum ChatGPT a fost blocat temporar în Italia în 2023, după o decizie a autorității naționale.",
+    "affectedGroups": [
+      "IT & AI",
+      "IMM & Antreprenori",
+      "Justiție & Drepturi Civile",
+      "Toți cetățenii"
+    ],
+    "senatForm": {
+      "articleRef": "Art. 3 alin. (1) lit. h) și i)",
+      "proposalContent": "Lit. h) se completează cu teza: „Nu este exploatant persoana care integrează, prin interfață de programare, un sistem de vârf autorizat, fără a-i modifica ponderile ori mecanismele de siguranță și în limitele autorizației dezvoltatorului; aceasta are doar obligația de a informa utilizatorii și de a raporta incidentele grave.”",
+      "argumentation": "Lit. h)-i) fac „exploatant” orice firmă care oferă clienților sau angajaților un serviciu bazat pe un model de vârf, inclusiv IMM-uri care doar apelează o interfață. A autoriza fiecare integrator e disproporționat (art. 45, 53 Constituție; art. 9 Dir. 2006/123) și imprevizibil (art. 1 alin. 5); riscul se controlează la dezvoltator.",
+      "otherComments": "Proiectul trebuie notificat prin TRIS (Dir. 2015/1535), altfel e inaplicabil particularilor. Necesită informarea Guvernului și sursă de finanțare (art. 111 alin. 1, 138 alin. 5). Jurnalul „integral și nealterabil” (lit. r) reține și ce scriu utilizatorii; trebuie limitat ca durată și acces (art. 5 GDPR). Expunerea să indice surse pentru faptele din septembrie 2026."
+    }
+  },
+  "council": {
+    "agy": {
+      "model": "agy",
+      "status": "ok",
+      "durationMs": 71252,
+      "riskScore": 8,
+      "riskLevel": "red",
+      "plainTitle": "Autorizarea națională obligatorie pentru modelele avansate de IA și jurnalizarea integrală a interacțiunilor",
+      "verdictShort": "Deși invocă riscuri globale reale privind siguranța IA, legea creează o barieră națională paralelă cu Regulamentul UE privind IA (AI Act), obligând dezvoltatorii să își divulge secretele comerciale către ANCOM și să înregistreze nealterabil toate datele introduse de utilizatori. Efectul practic ar fi izolarea digitală a României (geoblocking) și împovărarea firmelor IT locale care integrează agenți IA.",
+      "initiatorClaim": "Inițiatorul susține că urmărește protejarea cetățenilor români și a securității naționale împotriva riscurilor catastrofale generate de modelele de inteligență artificială de vârf („frontier AI”) care ar putea scăpa de sub controlul uman. În acest scop, propune un regim național de autorizare prealabilă, evaluare independentă și capacitate de oprire sub supravegherea unei structuri din cadrul ANCOM.",
+      "realityCheck": "În realitate, România nu găzduiește laboratoare globale care antrenează modele de frontieră, însă legea interzice oferirea accesului la astfel de modele pentru persoanele din România fără o autorizare prealabilă la ANCOM și fără predarea arhitecturii și a secretelor comerciale (art. 2 lit. e, art. 3 lit. e și h). Marile companii globale ar prefera să blocheze accesul utilizatorilor și firmelor din România la modelele de ultimă generație, în timp ce firmele românești care conectează modele IA la instrumente externe sau dețin centre de date intră sub un regim birocratic sever, iar toate prompt-urile utilizatorilor trebuie stocate integral și nealterabil (art. 3 lit. r).",
+      "affectedGroups": [
+        "IT & AI",
+        "IMM & Antreprenori",
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Suprapunere ilegală peste Regulamentul (UE) 2024/1689 (AI Act): Deși Art. 1 alin. (4) declară formal că nu aduce atingere competențelor Comisiei Europene (art. 88 din AI Act), condiționarea „punerii în exploatare pe teritoriul României ori pentru persoanele aflate pe teritoriul României” (Art. 1 alin. 2 și Art. 3 lit. h-i) de o autorizație națională încalcă armonizarea maximă a pieței unice pentru modelele de uz general (GPAI).",
+        "Supravegherea în masă a interacțiunilor prin „jurnalul” obligatoriu (Art. 3 alin. 1 lit. r): Impune înregistrarea automată, integrală și nealterabilă a tuturor datelor de intrare (prompt-uri), a rezultatelor și a acțiunilor sistemului, intrând în conflict direct cu principiul minimizării datelor și dreptul la ștergere din GDPR, precum și cu viața privată și secretul profesional.",
+        "Anularea secretului comercial și riscul de geoblocking (Art. 2 lit. e și Art. 3 lit. e): Dezvoltatorii nu pot opune Autorității sau organismelor private de evaluare desemnate secretul comercial în privința arhitecturii și a „ponderilor” (parametrilor) modelului, condiție pe care niciun furnizor global nu o va accepta la nivel național individual.",
+        "Capcană pentru dezvoltatorii și integratorii IT locali (Art. 3 lit. f, g, i, j, k și t): Definiția „punerii în exploatare” include orice conectare a unui model de vârf la „instrumente externe” (navigatoare web, medii de execuție cod, conturi, sisteme de plată), iar cumularea volumului de calcul pe toate etapele (inclusiv ajustare fină / fine-tuning) poate transforma firmele românești de software și centrele de date locale în subiecți ai regimului de autorizare."
+      ],
+      "blindSpotsCaught": "Proiectul încearcă să ocolească interdicția din Regulamentul (UE) 2024/1689 de a impune restricții naționale suplimentare redenumind „introducerea pe piață” drept „punere în exploatare pentru persoanele aflate pe teritoriul României” sub umbrela securității naționale (Art. 1 alin. 4). Conform jurisprudenței constante a CJUE (ex. C-439/19), excepția securității naționale nu poate fi invocată pentru a sustrage întreaga utilizare civilă și comercială a unei tehnologii de sub dreptul armonizat al UE. În plus, proiectul instituie reglementări tehnice pentru servicii ale societății informaționale fără notificarea prealabilă obligatorie a Comisiei Europene conform Directivei (UE) 2015/1535 (procedura TRIS), ceea ce atrage inopozabilitatea normelor față de particulari.",
+      "constitutionalityNote": "Încalcă Art. 148 alin. (2) și (4) din Constituție (prioritatea regulamentelor obligatorii ale UE față de legile interne) prin dublarea competenței exclusive a Comisiei Europene (AI Office) în materia modelelor GPAI cu risc sistemic. Încalcă Art. 1 alin. (5) privind calitatea și previzibilitatea legii prin condiția suspensivă nedeterminată de la Art. 1 alin. (2) („cât timp nu există o metodă validată științific de a garanta că un sistem urmărește exclusiv obiectivele stabilite de oameni”). De asemenea, obligația de stocare integrală și nealterabilă a tuturor datelor de intrare (Art. 3 lit. r) afectează disproporționat dreptul la viață intimă, familială și privată (Art. 26) și libertatea economică (Art. 45).",
+      "euLawNote": "Conflict direct cu Regulamentul (UE) 2024/1689 (AI Act, în special art. 1 alin. 2, Cap. V și art. 88), care armonizează integral normele privind modelele de IA de uz general cu risc sistemic. Încalcă Directiva (UE) 2015/1535 (TRIS) prin lipsa notificării și a perioadei de status-quo pentru reglementări tehnice aplicabile serviciilor digitale, Directiva 2000/31/CE (principiul țării de origine pentru serviciile societății informaționale), Regulamentul (UE) 2016/679 (GDPR - art. 5 alin. 1 lit. c și e privind minimizarea datelor și limitarea stocării, respectiv art. 17 privind dreptul la ștergere) și Directiva (UE) 2016/943 privind protecția secretelor comerciale.",
+      "senatForm": {
+        "articleRef": "Art. 1 alin. (2)-(4), Art. 2 și Art. 3",
+        "proposalContent": "Se propune eliminarea regimului național paralel de autorizare prealabilă pentru modelele de IA de vârf și alinierea strictă la competențele Oficiului pentru IA al Comisiei Europene (art. 88 din Regulamentul UE 2024/1689), precum și eliminarea obligației de stocare integrală și nealterabilă a tuturor datelor de intrare ale utilizatorilor de la art. 3 alin. (1) lit. r).",
+        "argumentation": "Regulamentul (UE) 2024/1689 armonizează complet la nivel unional regimul modelelor de IA de uz general cu risc sistemic. Condiționarea exploatării în România de o autorizare ANCOM încalcă art. 148 alin. (2) din Constituție și necesită notificare TRIS (Directiva 2015/1535). În plus, jurnalizarea nealterabilă a tuturor datelor de intrare încalcă GDPR și art. 26 din Constituție.",
+        "otherComments": "Obligarea furnizorilor globali de modele IA să divulge ponderile și secretele comerciale unei autorități naționale (art. 2 lit. e) va determina blocarea accesului (geoblocking) pentru utilizatorii și companiile IT din România. De asemenea, definiția punerii în exploatare (art. 3 lit. i) lovește firmele locale care conectează modele IA la instrumente externe."
+      }
+    },
+    "claude": {
+      "model": "claude",
+      "status": "ok",
+      "durationMs": 279664,
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Autorizație de la stat și buton de oprire pentru cele mai puternice sisteme AI",
+      "verdictShort": "E o propunere serioasă, documentată tehnic și cu garanții procedurale reale, despre un risc pe care îl recunosc chiar liderii domeniului. Problema e că definițiile ei pot cere autorizație și firmelor românești care doar folosesc un model prin API, iar un regim național de autorizare se ciocnește de AI Act și de piața unică.",
+      "initiatorClaim": "Inițiatorul spune că cele mai avansate sisteme AI nu mai pot fi controlate în siguranță și că autoreglementarea laboratoarelor a eșuat. Invocă avertismentele lui Hinton și Bengio și un incident din 2026 în care agenți AI ar fi ieșit din mediul de test. Propune ca dezvoltarea și exploatarea acestor sisteme să fie tratate ca activități cu risc intrinsec, supuse autorizării și controlului public.",
+      "realityCheck": "Mecanic, legea creează în cadrul ANCOM o Autoritate pentru Siguranța IA și un regim de autorizare (cap. III) pentru cine dezvoltă sau pune în exploatare un „sistem de vârf” în România ori pentru persoane din România, inclusiv laboratoarele străine. Definițiile din art. 3 lit. f)-i) sunt atât de largi încât pot prinde și firmele care doar conectează prin API un model de vârf la propriile aplicații sau îl pun la dispoziția angajaților, iar ajustarea fină a unui model mare poate transforma un IMM în „dezvoltator”. Efect secundar realist: furnizorii globali pot prefera să blocheze accesul din România decât să obțină o autorizație națională peste AI Act, așa cum ChatGPT a fost blocat temporar în Italia în 2023, după o decizie a autorității naționale.",
+      "affectedGroups": [
+        "IT & AI",
+        "IMM & Antreprenori",
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 3 lit. h)-i): „exploatant” este oricine oferă acces la un sistem de vârf persoanelor din România. „Punerea în exploatare” include orice conectare la sisteme externe, chiar internă și gratuită. Prin urmare, o firmă care integrează prin API un model de vârf în aplicația proprie poate ajunge să aibă nevoie de autorizație.",
+        "Art. 1 alin. (4) afirmă că legea nu impune condiții de acces pe piața UE, dar în aceeași frază supune autorizării punerea în exploatare „pentru persoanele aflate pe teritoriul României”. Asta vizează exact modelele de uz general cu risc sistemic, deja supravegheate de Comisie prin AI Act.",
+        "Art. 1 alin. (2): regimul de „risc intrinsec” durează până când Autoritatea constată, printr-un raport, că există o metodă validată de control. Parlamentul este doar informat, deși constatarea schimbă practic întinderea legii.",
+        "Art. 3 lit. r): jurnalul trebuie să fie „integral și nealterabil” și să cuprindă datele de intrare, adică și ce scriu utilizatorii. Fără limite de durată și de acces, intră în tensiune cu principiul minimizării datelor din GDPR și cu art. 26 din Constituție.",
+        "Art. 3 lit. n): „incident grav” include orice acces fără drept al sistemului la datele altei persoane și „pierderea inteligibilității” comunicării dintre agenți. Definiția e utilă pentru siguranță, dar prea vagă dacă de ea depind sancțiuni.",
+        "Art. 2 lit. b) și e) sunt bine echilibrate. Solicitantul documentează siguranța, dar sarcina probei în procedurile penale și contravenționale rămâne neschimbată. Secretul comercial nu poate fi opus Autorității, care este însă obligată să îl protejeze."
+      ],
+      "blindSpotsCaught": "(1) Extrasul se oprește la art. 3 lit. y). Sancțiunile, regimul de autorizare (cap. III), Autoritatea (art. 31-32) și eventualele dispoziții anunțate în preambul despre identificarea digitală, plăți și cenzura automată nu au putut fi verificate direct. (2) Formula „securitate națională” din art. 1 alin. (4) nu scoate din dreptul UE obligațiile impuse operatorilor privați (CJUE, C-623/17 Privacy International). (3) Art. 3 lit. n) adaugă o raportare peste cele din art. 55 și 73 AI Act și din OUG nr. 155/2024: trei raportări pentru același eveniment, fără ghișeu unic. (4) Faptele din septembrie 2026 (eseul lui Dario Amodei, incidentul OpenAI–Hugging Face, demisia lui Jacob Coxon) sunt invocate fără surse precise („relatări publice”) și sunt preluate ca certitudini chiar în preambulul legii. Nu le pot verifica independent. Avertismentele din 2023-2025 (Hinton și Leahy la CNN, declarația CAIS, raportul coordonat de Bengio) sunt, în schimb, documentate. (5) Greșelile de redactare („ța”, „territoriul”, „effective”, „opirea”, „1)” în loc de „l)”) arată un text necorectat, iar „1)” poate crea confuzii la trimiteri. Transparență: această analiză este generată de un model AI dezvoltat de Anthropic, companie citată în expunerea de motive.",
+      "constitutionalityNote": "Scopul are temei solid: art. 22, 34 și 1 alin. (3) impun statului obligații pozitive de protecție, iar un regim de autorizare pentru laboratoarele de vârf poate trece testul de proporționalitate din art. 53. Problemele țin de previzibilitate (art. 1 alin. 5). „Punerea în exploatare” acoperă orice conectare la sisteme externe, iar „incidentul grav” include noțiuni vagi. În plus, întinderea regimului depinde de o constatare a Autorității (art. 1 alin. 2), ceea ce mută la o structură administrativă o decizie care ține de legiuitor (art. 61 alin. 1). Dacă infracțiunile din partea neextrasă trimit la praguri stabilite prin acte ale Autorității (art. 6 alin. 4), ele intră în conflict cu art. 23 alin. (12) și art. 73 alin. (3) lit. h), în linia Deciziei CCR nr. 405/2016. Noile atribuții ale ANCOM, autoritate administrativă autonomă, trebuie adoptate prin lege organică (art. 117 alin. 3) și corelate cu OUG nr. 22/2009. Costurile noii structuri cer informarea Guvernului și stabilirea sursei de finanțare (art. 111 alin. 1, art. 138 alin. 5). Libertatea economică (art. 45) e atinsă disproporționat doar prin extinderea regimului asupra simplilor integratori.",
+      "euLawNote": "Riscul major vine din AI Act. Regulamentul (UE) 2024/1689 armonizează complet introducerea pe piață și punerea în funcțiune a sistemelor IA și reglementează direct modelele de uz general cu risc sistemic, supravegheate exclusiv de Comisie (art. 51-55, 88-94). Considerentul 1 exclude restricțiile naționale neprevăzute de regulament. O autorizație națională pentru a pune la dispoziția persoanelor din România un model deja conform AI Act este, în fapt, o condiție de acces pe piață, iar declarațiile din art. 1 alin. (3)-(4) nu înlătură conflictul. Pentru furnizorii stabiliți în alte state membre se aplică și principiul țării de origine din Directiva 2000/31/CE, iar CJUE (C-376/22 Google Ireland) a exclus derogările prin măsuri generale și abstracte. Proiectul conține reglementări tehnice privind servicii ale societății informaționale, deci trebuie notificat prin TRIS (Directiva 2015/1535). Altfel este inaplicabil particularilor (C-194/94 CIA Security). Directiva 2018/958 contează doar dacă legea condiționează activitatea evaluatorilor de calificări profesionale. Pentru regimul de autorizare, testul potrivit este cel din art. 9-10 al Directivei 2006/123/CE și din art. 56 TFUE. Mai trebuie corelate: marcajul de proveniență (lit. s) cu art. 50 AI Act, incidentele cu art. 55 și 73 AI Act și cu NIS2 (OUG nr. 155/2024), jurnalele cu GDPR, iar răspunderea civilă cu Directiva (UE) 2024/2853 privind produsele cu defect, care include software-ul și trebuie transpusă până la 9 decembrie 2026.",
+      "senatForm": {
+        "articleRef": "Art. 3 alin. (1) lit. h) și i)",
+        "proposalContent": "Lit. h) se completează cu teza: „Nu este exploatant persoana care integrează, prin interfață de programare, un sistem de vârf autorizat, fără a-i modifica ponderile ori mecanismele de siguranță și în limitele autorizației dezvoltatorului; aceasta are doar obligația de a informa utilizatorii și de a raporta incidentele grave.”",
+        "argumentation": "Lit. h)-i) fac „exploatant” orice firmă care oferă clienților sau angajaților un serviciu bazat pe un model de vârf, inclusiv IMM-uri care doar apelează o interfață. A autoriza fiecare integrator e disproporționat (art. 45, 53 Constituție; art. 9 Dir. 2006/123) și imprevizibil (art. 1 alin. 5); riscul se controlează la dezvoltator.",
+        "otherComments": "Proiectul trebuie notificat prin TRIS (Dir. 2015/1535), altfel e inaplicabil particularilor. Necesită informarea Guvernului și sursă de finanțare (art. 111 alin. 1, 138 alin. 5). Jurnalul „integral și nealterabil” (lit. r) reține și ce scriu utilizatorii; trebuie limitat ca durată și acces (art. 5 GDPR). Expunerea să indice surse pentru faptele din septembrie 2026."
+      }
+    },
+    "codex": {
+      "model": "codex",
+      "status": "ok",
+      "durationMs": 273625,
+      "riskScore": 7,
+      "riskLevel": "red",
+      "plainTitle": "Autorizații și garanții financiare pentru AI avansată",
+      "verdictShort": "Protecția împotriva riscurilor grave este legitimă, dar proiectul poate ridica bariere financiare și administrative excesive. Sunt necesare amendamente substanțiale privind proporționalitatea și compatibilitatea cu dreptul UE.",
+      "initiatorClaim": "Inițiatorul urmărește prevenirea pierderii controlului asupra sistemelor AI avansate și protejarea vieții, libertății și securității. Expunerea invocă avertismente științifice și incidente pentru a justifica intervenția statului.",
+      "realityCheck": "Art. 1-3 instituie un regim de autorizare și control, iar definiția punerii în exploatare include utilizări interne și gratuite, ceea ce poate afecta și integrarea comercială a modelelor existente. Utilizatorul final este exclus expres din definiția exploatantului. Afirmațiile din expunere motivează intervenția, dar nu demonstrează singure necesitatea fiecărei restricții; analiza include [forma integrală publicată de Senat](https://www.senat.ro/legis/PDF/2026/26b597FG.PDF?nocache=true).",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "IT & AI",
+        "Justiție & Drepturi Civile",
+        "Sănătate & Educație",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 36 cere asigurare sau garanție de minimum 100 milioane euro pentru categoria I și un miliard pentru categoria II. Reducerea poate ajunge la o cincime dacă acoperirea este indisponibilă; sumele reprezintă acoperirea, nu prima de asigurare. [Text oficial](https://www.senat.ro/legis/PDF/2026/26b597FG.PDF?nocache=true).",
+        "Art. 37 prevede amenzi până la 10% din cifra de afaceri mondială; art. 40 alin. (1), închisoare de 2-7 ani pentru exploatarea neautorizată, exceptând utilizatorul final. [Text oficial](https://www.senat.ro/legis/PDF/2026/26b597FG.PDF?nocache=true).",
+        "Art. 4 alin. (2) extinde anumite obligații din art. 17-19 dincolo de sistemele de vârf și capitolul V asupra oricărui sistem AI. [Text oficial](https://www.senat.ro/legis/PDF/2026/26b597FG.PDF?nocache=true).",
+        "Art. 26 oferă reexaminare umană și acces alternativ la servicii esențiale; art. 39 permite blocarea serviciilor, cu proporționalitate și contestare judiciară. [Text oficial](https://www.senat.ro/legis/PDF/2026/26b597FG.PDF?nocache=true).",
+        "Art. 33 alin. (5) finanțează structura din bugetul ANCOM și taxe administrative. Costurile pot afecta concurența; nu rezultă un monopol legal. [Text oficial](https://www.senat.ro/legis/PDF/2026/26b597FG.PDF?nocache=true)."
+      ],
+      "blindSpotsCaught": "Autorizarea unui serviciu AI nu echivalează automat cu reglementarea unei profesii: Directiva 2018/958 are un domeniu mai restrâns. Separat, notificarea TRIS a proiectului și procedura aplicabilă restricțiilor asupra serviciilor transfrontaliere sunt verificări distincte; consultarea Senatului nu le înlocuiește. [Directiva 2018/958](https://eur-lex.europa.eu/eli/dir/2018/958/oj/eng), [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32015L1535).",
+      "constitutionalityNote": "Scopul protecției vieții și sănătății este legitim. Riscul privind art. 1 alin. (5) și art. 23 alin. (12) privește previzibilitatea clasificării tehnice care condiționează inclusiv răspunderea penală: elementele esențiale trebuie stabilite prin lege. Restricțiile economice cer examinare prin art. 45 și 135, iar ingerințele în drepturi, prin art. 53. Pentru finanțare trebuie demonstrată suficiența resurselor indicate, potrivit art. 138 alin. (5); informarea Guvernului este obligatorie în ipoteza art. 111 alin. (1). Acestea sunt vulnerabilități de verificat, nu neconstituționalități definitiv constatate. [Constituția](https://www.senat.ro/pagini/constitutia/constitutia.htm).",
+      "euLawNote": "Art. 88 din Regulamentul 2024/1689 rezervă Comisiei supravegherea și aplicarea capitolului V privind modelele de uz general. Clauza de conformitate din art. 1 al proiectului nu înlătură eventualele suprapuneri materiale; invocarea siguranței publice nu constituie o derogare generală de la armonizare. [Regulamentul privind IA](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689). Directiva 2018/958 se aplică restricțiilor privind profesiile reglementate, nu automat autorizării sistemelor; proporționalitatea barierelor economice rămâne necesară. [Directiva 2018/958](https://eur-lex.europa.eu/eli/dir/2018/958/oj/eng). Normele dedicate serviciilor AI online sunt, în principiu, susceptibile de notificare TRIS: trebuie verificată încadrarea fiecărei dispoziții, notificarea înaintea adoptării și termenul obișnuit de așteptare de trei luni, sub rezerva excepțiilor. Nu afirm că notificarea lipsește. [Directiva 2015/1535, art. 1, 5-7](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32015L1535).",
+      "senatForm": {
+        "articleRef": "Art. 5-6, 9, 33, 36-37 și 40",
+        "proposalContent": "Limitați autorizarea la competențele naționale nearmonizate. Fixați în lege criteriile esențiale de clasificare și recalibrați garanțiile și sancțiunile după riscul demonstrat și gravitatea faptei, evaluând impactul asupra IMM-urilor și alternativele mai puțin restrictive.",
+        "argumentation": "Pragurile modificabile prin HG influențează inclusiv răspunderea penală, ceea ce cere verificarea previzibilității potrivit art. 1 alin. (5) și art. 23 alin. (12) din Constituție. Condițiile financiare pot limita concurența, iar autorizarea națională poate interfera cu domenii armonizate prin Regulamentul privind IA.",
+        "otherComments": "Publicați analiza costurilor pentru IMM-uri, fundamentarea bugetului ANCOM și dovada notificării TRIS, dacă normele intră sub Directiva 2015/1535. Directiva 2018/958 privește profesiile reglementate; nu devine aplicabilă automat prin autorizarea serviciilor IA."
+      }
+    }
+  }
+}

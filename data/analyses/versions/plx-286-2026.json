@@ -1,0 +1,112 @@
+{
+  "slug": "plx-286-2026",
+  "billId": "PL-x 286/2026",
+  "updatedAt": "2026-10-29T12:57:22.445Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L126FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Ordonanța de austeritate pentru primării: mai puține posturi, taxe locale strânse mai dur, descentralizare mai rapidă",
+      "summaryTlDr": "O ordonanță-omnibus de austeritate pentru administrația locală, adoptată în regim de urgență. Unele simplificări sunt utile, dar textul amestecă tăieri de posturi, colectare forțată și reguli de patrimoniu, iar fragmentele vizibile au formulări defectuoase. Riscul vine din numărul mare de măsuri cu efect direct asupra angajaților și contribuabililor, trecute fără dezbatere, nu dintr-o capcană anume.",
+      "scores": {
+        "agy": 6,
+        "claude": 6,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/200/80/6/se306.pdf",
+      "source": "cdep.ro",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Primăriile strâng cureaua: mai puține posturi, colectare mai dură, descentralizare pe repede-înainte",
+      "summaryTlDr": "Ordonanță-omnibus de austeritate pentru primării, trecută tacit de Senat. Partea vizibilă e în mare tehnică: descentralizarea se simplifică, dar costurile trebuie în continuare identificate. Redactarea e neglijentă, iar măsurile care îi ating direct pe oameni (posturi, salarii, condiționarea unor operațiuni de plata datoriilor) apar doar în preambul și nu pot fi verificate în extras.",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 7
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat tacit, fără nicio modificare: OUG 7/2026 se aprobă ca în forma inițiatorului",
+      "summary": "Senatul nu a votat, așa că proiectul s-a considerat adoptat tacit, în forma inițiatorului. Ordonanța se aprobă fără modificări. S-au adăugat doar data ordonanței și Monitorul Oficial în care a fost publicată, deci riscurile rămân aceleași.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Nicio obligație expresă de menținere a posturilor preluate, deși Expunerea o promite",
+            "major": true,
+            "article": "art. I pct. 5 (art. 79¹ Cod adm.)"
+          },
+          {
+            "text": "După 31 decembrie a anului următor, posturile preluate intră brusc în plafon",
+            "major": true,
+            "article": "art. I pct. 5 (art. 79¹ Cod adm.)"
+          },
+          {
+            "text": "Asociațiile și fundațiile de utilitate publică intră în definiție, cu efect neexplicat",
+            "major": true,
+            "article": "art. I pct. 1 (art. 5 lit. aa) Cod adm.)"
+          },
+          {
+            "text": "Senatul nu a votat; adoptat tacit, iar dezbaterea reală rămâne doar la Cameră",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Descentralizarea se face fără strategii, analize de impact și faze-pilot",
+            "major": false,
+            "article": "art. I pct. 4 (art. 78 alin. (1) Cod adm.)"
+          },
+          {
+            "text": "Se abrogă art. 77 alin. (5)–(6), fără a se vedea ce prevedeau",
+            "major": false,
+            "article": "art. I pct. 3 (art. 77 Cod adm.)"
+          },
+          {
+            "text": "Art. 79¹ are un singur alineat, numerotat inutil cu (1)",
+            "major": false,
+            "article": "art. I pct. 5 (art. 79¹ Cod adm.)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Rămâne obligația de a calcula costurile integrale și sursele de finanțare",
+            "major": true,
+            "article": "art. I pct. 4 (art. 78 alin. (1) lit. a) Cod adm.)"
+          },
+          {
+            "text": "Posturile preluate prin descentralizare nu intră temporar în plafonul de personal",
+            "major": true,
+            "article": "art. I pct. 5 (art. 79¹ Cod adm.)"
+          },
+          {
+            "text": "Transferul de competențe se face prin lege, cu structurile asociative ale autorităților locale",
+            "major": false,
+            "article": "art. I pct. 2 (art. 77 Cod adm.)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:57:08.734Z"
+    }
+  ]
+}

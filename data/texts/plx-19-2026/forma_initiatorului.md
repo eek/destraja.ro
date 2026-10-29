@@ -1,0 +1,29 @@
+Parlamentul României
+
+Camera Deputaților
+
+Senatul
+
+LEGE
+
+# pentru completarea art.12 alin.(1) din Ordonanța de urgență a Guvernului nr.140/2021 privind anumite aspecte referitoare la contractele de vânzare de bunuri
+
+Parlamentul României adoptă prezenta lege
+
+Articol unic. – La articolul 12 alineatul (1) din Ordonanța de urgență a Guvernului nr.140/2021 privind anumite aspecte referitoare la contractele de vânzare de bunuri, publicată în Monitorul Oficial al României, Partea I, nr.1245 din 30 decembrie 2021, litera b) se modifică și va avea următorul cuprins:
+
+„b) într-un termen rezonabil care nu poate depăși 15 zile lucrătoare din momentul în care vânzătorul a fost informat de către consumator cu privire la neconformitate și care este stabilit de comun acord, în scris, între vânzător și consumator, luându-se în considerare natura și complexitatea bunurilor, natura și gravitatea neconformității și efortul necesar pentru finalizarea reparației sau înlocuirii;”
+
+Aceasta lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și art. 76 alin. (2) din Constituția României, republicată.
+
+PREȘEDINTELE
+
+PREȘEDINTELE
+
+CAMEREI DEPUTAȚILOR
+
+SENATULUI
+
+SORIN MIHAI GRINDEANU
+
+MIRCEA ABRUDEAN

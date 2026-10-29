@@ -1,0 +1,157 @@
+{
+  "slug": "plx-568-2026",
+  "billId": "PL-x 568/2026",
+  "updatedAt": "2026-10-29T13:13:55.149Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L369FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Procesele pentru dosarele de cetățenie blocate la ANC se pot judeca și în afara Bucureștiului",
+      "summaryTlDr": "Măsură procedurală utilă. Cine așteaptă de ani de zile un răspuns de la ANC ar putea da autoritatea în judecată la tribunalul din județul său, nu doar la București. Textul e însă scris neglijent și tratează simptomul (aglomerarea instanțelor din București), nu cauza (întârzierile ANC).",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/60/8/se648.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Procesele cu ANC pentru cetățenie se pot judeca și în afara Bucureștiului",
+      "summaryTlDr": "Lege tehnică și în general utilă: mută procesele cu Autoritatea Națională pentru Cetățenie din București la tribunalele din țară, fără să schimbe condițiile de obținere a cetățeniei. Are însă o greșeală de redactare la art. 32 alin. (7) și câteva neclarități care trebuie reparate la Cameră.",
+      "scores": {
+        "agy": 5,
+        "claude": 3,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Respingerea cererii de cetățenie se poate contesta acum explicit și la tribunalul de acasă",
+      "summary": "Acum regula tribunalului de acasă sau al unui birou ANC se aplică explicit și ordinelor de respingere, ceea ce ajută solicitanții. În schimb, ordinul de la art. 32 trimite la o curte de apel imposibil de stabilit, iar instanța din București nu mai apare.",
+      "changes": [
+        {
+          "title": "Respingerea cererii se contestă și la tribunalul local",
+          "text": "Art. 19 alin. (4) și art. 31 alin. (6): ordinele de respingere (acordare, redobândire, renunțare) se atacă la tribunalul de domiciliu, reședință sau al unui birou ANC; inițial era neclar dacă intră.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 19 alin. (4), art. 31 alin. (6)",
+          "before": null,
+          "after": "Ordinul de respingere a cererii de acordare sau redobândire a cetățeniei române poate fi atacat, în termen de 15 zile de la data comunicării, la secția de contencios administrativ și fiscal a tribunalului în a cărui circumscripție reclamantul are domiciliul sau reședința",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Ordinul din art. 32: curtea de apel e neclară",
+          "text": "Art. 32 alin. (7): ordinul se atacă direct la curtea de apel „în a cărei circumscripție se află tribunalul sesizat”, dar aici nu e sesizat niciun tribunal, deci criteriul nu se poate aplica.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. 32 alin. (7)",
+          "before": null,
+          "after": "Ordinul poate fi atacat, în termen de 15 zile de la data comunicării, la secția de contencios administrativ și fiscal a curții de apel în a cărei circumscripție se află tribunalul sesizat.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Regula acoperă acum și actele emise, nu doar refuzurile",
+          "text": "Art. 37¹: formularea contradictorie despre refuzul unor acte deja emise dispare; acum sunt incluse explicit și litigiile privind actele emise. Lipsește însă rezerva pentru regulile speciale din art. 19, 31, 32.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 37¹",
+          "before": "Litigiile privind refuzul nejustificat al emiterii actelor administrative, emise sau adoptate în aplicarea dispozițiilor prezentei legi",
+          "after": "Litigiile privind refuzul nejustificat al emiterii actelor administrative, precum și litigiile privind actele emise sau adoptate în aplicarea dispozițiilor prezentei legi",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Instanța din București nu mai e păstrată explicit",
+          "text": "Inițial instanțele locale se adăugau celor existente („sunt și de competența”); acum art. 37¹ e rescris, iar sediul ANC din București nu mai apare. Neclar pentru diaspora care a depus la consulat.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. 37¹",
+          "before": "sunt și de competența secției de contencios administrativ și fiscal a tribunalului",
+          "after": "sunt de competența secției de contencios administrativ și fiscal a tribunalului",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Curtea de apel pentru ordinul de la art. 32 nu poate fi stabilită",
+            "major": false,
+            "article": "art. 32 alin. (7)"
+          },
+          {
+            "text": "Nu se precizează care birou ANC contează, deci se poate alege orice tribunal",
+            "major": false,
+            "article": "art. 19 alin. (4), art. 31 alin. (6), art. 37¹"
+          },
+          {
+            "text": "Sediul ANC din București lipsește; situația diasporei care a depus la consulat e neclară",
+            "major": false,
+            "article": "art. 37¹"
+          },
+          {
+            "text": "Art. 37¹ se suprapune cu regulile speciale din art. 19, 31 și 32",
+            "major": false,
+            "article": "art. 37¹"
+          },
+          {
+            "text": "Fără normă tranzitorie: procesele deja începute rămân la instanțele din București",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Ordinul de respingere se atacă la tribunalul de domiciliu, reședință sau birou ANC",
+            "major": false,
+            "article": "art. 19 alin. (4), art. 31 alin. (6)"
+          },
+          {
+            "text": "Recursul se judecă tot local, la curtea de apel a tribunalului ales",
+            "major": false,
+            "article": "art. 19 alin. (4), art. 31 alin. (6), art. 37¹"
+          },
+          {
+            "text": "Termenul de 15 zile și cele două grade de jurisdicție rămân",
+            "major": false,
+            "article": "art. 19 alin. (4), art. 31 alin. (6)"
+          },
+          {
+            "text": "Și nesoluționarea cererilor în termen se poate ataca la tribunalul local",
+            "major": false,
+            "article": "art. 37¹"
+          },
+          {
+            "text": "Actele emise în aplicarea legii sunt incluse explicit, nu doar refuzurile",
+            "major": false,
+            "article": "art. 37¹"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 15,
+        "removed": 4,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:11:06.415Z"
+    }
+  ]
+}

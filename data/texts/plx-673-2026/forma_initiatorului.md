@@ -1,0 +1,25 @@
+Lege privind modificarea articolului IX alin.(5) din Ordonanța de urgență a Guvernului nr. 44/2022 privind stabilirea unor măsuri în cadrul sistemului de sănătate, precum și pentru interpretarea, modificarea și completarea unor acte normative
+
+Parlamentul României adoptă prezenta lege.
+
+## Articolul I
+
+La articolul IX alin.(5) din Ordonanța de urgență a Guvernului nr. 44/2022 privind stabilirea unor măsuri în cadrul sistemului de sănătate, precum și pentru interpretarea, modificarea și completarea unor acte normative, publicată în Monitorul Oficial al României, Partea I, 373 din 14 aprilie 2022, aprobată cu modificări și completări prin Legea nr. 378/2023, cu modificările și completările ulterioare, se modifică și va avea următorul cuprins:
+
+„(5) În cadrul monitorizării prevăzute la alin. (4), pentru persoanele asigurate diagnosticate cu boli cardiovasculare, boli cerebrovasculare, boli neurologice sau afecțiuni rare, se decontează toate investigațiile de înaltă performanță sau de medicină nucleară necesare monitorizării, dintre cele prevăzute în pachetul de servicii medicale de bază, conform indicației medicului specialist. Pentru persoanele asigurate diagnosticate cu diabet zaharat sau boală cronică renală, se decontează, în cadrul monitorizării prevăzute la alin. (4), o singură investigație de înaltă performanță sau de medicină nucleară într-un an calendaristic, dintre cele prevăzute în pachetul de servicii medicale de bază. Aceste persoane pot beneficia, pentru afecțiunea de bază sau pentru alte afecțiuni intercurente, de investigații de înaltă performanță sau de medicină nucleară, în condițiile prevăzute în același pachet de servicii.”
+
+## Articolul II
+
+Pentru perioada cuprinsă între 01 ianuarie 2026 și data intrării în vigoare a prezentei legi, art. IX alin. (5) din Ordonanța de urgență a Guvernului nr. 44/2022 privind stabilirea unor măsuri în cadrul sistemului de sănătate, precum și pentru interpretarea, modificarea și completarea unor acte normative, publicată în Monitorul Oficial al României, Partea I, 373 din 14 aprilie 2022, aprobată cu modificări și completări prin Legea nr. 378/2023, cu modificările și completările ulterioare, se va interpreta în sensul că se decontează toate investigațiile de înaltă performanță sau de medicină nucleară necesare monitorizării prevăzute la alin.
+
+## (4), dintre cele prevăzute în pachetul de servicii medicale de bază, conform indicației medicului specialist.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.
+
+PREȘEDINTELE
+
+CAMEREI DEPUTATILOR
+
+PREȘEDINTELE
+
+SENATULUI

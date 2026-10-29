@@ -1,0 +1,233 @@
+{
+  "slug": "plx-654-2026",
+  "billId": "PL-x 654/2026",
+  "updatedAt": "2026-10-29T13:31:58.790Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L412FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 6.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Iazurile-paravan pentru balastiere: termen de 2 ani, garanții de mediu și amenzi mult mai mari",
+      "summaryTlDr": "Problema e reală și documentată, iar termenul de 2 ani, garanțiile de mediu anuale și blocarea firmelor-clonă sunt măsuri utile. Dar plasa e aruncată prea larg: amenzi minime de 150.000 lei pentru firme și confiscarea obligatorie a utilajelor pentru aproape orice contravenție din Legea apelor. Mai e un articol tranzitoriu care, citit literal, stinge toate avizele de gospodărire a apelor emise înainte de lege.",
+      "scores": {
+        "agy": 6,
+        "claude": 6,
+        "codex": 8
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/600/50/4/se741.pdf",
+      "source": "cdep.ro",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Gata cu „iazurile” care ascund balastiere: termene, amenzi uriașe și confiscări",
+      "summaryTlDr": "Ținta e corectă și urgentă: balastierele deghizate în iazuri piscicole. Textul e însă scris cu mâna grea: amenzi de zeci de mii de lei pentru persoane fizice pe baza unor „acte de proveniență” nedefinite, confiscări executate înainte de judecată și o normă tranzitorie care, citită literal, stinge toate avizele de ape existente. Merită susținută, dar doar cu amendamente serioase.",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 7
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Confiscarea utilajelor se limitează la câteva fapte, nu la orice abatere din Legea apelor",
+      "summary": "Acum confiscarea vehiculelor și utilajelor privește doar câteva fapte, iar interdicția de 5 ani e mai îngustă, deci riscul scade puțin. Rămân amenzile de la 150.000 lei pentru firme și executarea înainte ca instanța să judece.",
+      "changes": [
+        {
+          "title": "Confiscarea utilajelor, doar pentru anumite fapte",
+          "text": "Inițial, orice încălcare a art. 87 aducea confiscarea bunurilor, inclusiv a vehiculelor și utilajelor. Acum confiscarea se aplică doar pentru pct. 1), 2), 4)-6), 9), 15), 22), 36), 61) și 67).",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 91 alin. (3)",
+          "before": "În cazul nerespectării dispozițiilor art. 87 se aplică, de către Garda Națională de Mediu și Administrația Națională «Apele Române», sancțiunea contravențională complementară de confiscare a bunurilor, inclusiv vehicule, utilaje și instalații",
+          "after": "(3) În cazul nerespectării dispozițiilor art.87 punctele 1), 2), 4) - 6), 9), 15), 22), 36), 61) și 67) se aplică, de către Garda Națională de Mediu și Administrația Națională «Apele Române», sancțiunea contravențională complementară de confiscare a bunurilor",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Interdicția de 5 ani, doar după o sancțiune",
+          "text": "Interdicția de 5 ani pentru avize noi de agregate se aplică acum doar dacă autorizațiile anterioare au fost suspendate sau retrase ca urmare a unei sancțiuni, nu pentru orice suspendare.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 48¹ alin. (7)",
+          "before": "Interdicția prevăzută la alin. (6) se aplică și în cazul în care titularul unei autorizații de gospodărire a apelor a deținut anterior autorizații care au fost suspendate sau retrase, în condițiile legii.",
+          "after": "Interdicția prevăzută la alin.(6) se aplică și în cazul în care titularul unei autorizații de gospodărire a apelor a deținut anterior autorizații care au fost suspendate sau retrase, ca urmare a unei sancțiuni aplicate.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Mai puține infracțiuni cu confiscarea utilajelor",
+          "text": "La infracțiuni, confiscarea vehiculelor și utilajelor nu mai privește în bloc art. 92–96, ci doar art. 92, 93, 95 și 95¹; art. 94 și 96 ies din listă.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 95²",
+          "before": "În cazul nerespectării dispozițiilor art. 92–96 se aplică pedeapsa complementară constând în confiscarea bunurilor, inclusiv vehicule, utilaje și instalații sau orice alte mijloace folosite la săvârșirea infracțiunilor.",
+          "after": "În cazul nerespectării dispozițiilor art.92, 93, art.95 și 95¹ se confiscă vehiculele, utilajele și instalațiile sau orice alte mijloace folosite la săvârșirea infracțiunilor.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Până la 2 ani de prelungire, cu decădere",
+          "text": "Prelungirea unică urcă de la 1 la 2 ani, deci până la 4 ani în total: mai mult timp pentru titulari, dar lucrările pot rămâne neterminate mai mult. Cererea depusă cu mai puțin de 30 de zile înainte aduce decăderea.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 48¹ alin. (2)",
+          "before": "pentru o perioadă de maximum 1 an. Titularul avizului are dreptul de a solicita prelungirea duratei avizului, în condițiile legii, cu cel puțin 30 (treizeci) de zile înainte de data expirării duratei inițiale a acestuia.",
+          "after": "pentru o perioadă de maximum 2 ani. Titularul avizului are dreptul de a solicita prelungirea duratei avizului, cu cel puțin 30 de zile înainte de data expirării duratei inițiale a acestuia, sub sancțiunea decăderii din dreptul de a mai cere prelungirea avizului.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Sancțiunea pentru iazuri devine obligatorie",
+          "text": "Autoritatea nu mai «poate» aplica sancțiunile din art. 87, ci le «dispune», dacă fapta nu e infracțiune; dispare mențiunea separată despre sesizarea organelor de urmărire penală.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 48¹ alin. (4)",
+          "before": "În cazul neîndeplinirii obligațiilor prevăzute la alin. (3), autoritatea competentă poate dispune:",
+          "after": "În cazul neîndeplinirii obligațiilor prevăzute la alin.(3), autoritatea competentă dispune aplicarea sancțiunilor contravenționale prevăzute la art.87, dacă nu sunt săvârșite în astfel de condiții încât, potrivit legii penale, să fie considerate infracțiuni.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Orice firmă riscă minimum 150.000 lei, pentru aproape toate contravențiile din Legea apelor",
+            "major": true,
+            "article": "art. 88 alin. (1)"
+          },
+          {
+            "text": "Plaje de amendă foarte înguste pentru persoane fizice, puțin loc de individualizare",
+            "major": true,
+            "article": "art. 88 alin. (1)"
+          },
+          {
+            "text": "Plângerea în instanță nu suspendă executarea niciunei sancțiuni, inclusiv a confiscării",
+            "major": true,
+            "article": "art. 87¹"
+          },
+          {
+            "text": "O sancțiune încă necontrolată de instanță declanșează interdicția de 5 ani",
+            "major": true,
+            "article": "art. 48¹ alin. (6)"
+          },
+          {
+            "text": "Avizele vechi încetează de drept după un an, inclusiv pentru irigații sau hidrocentrale",
+            "major": true,
+            "article": "art. II alin. (2)"
+          },
+          {
+            "text": "„Acte de proveniență” nedefinite; peste 20 m³ de agregate, oriunde: minimum 25.000 lei",
+            "major": true,
+            "article": "art. 87 pct. 5¹"
+          },
+          {
+            "text": "Neclar dacă regula privește și agregatele cumpărate legal de la o carieră",
+            "major": false,
+            "article": "art. 87 pct. 5¹ și anexa 1 pct. 4"
+          },
+          {
+            "text": "Încetarea după un an contrazice termenul de până la 4 ani dat avizelor recente",
+            "major": false,
+            "article": "art. II"
+          },
+          {
+            "text": "Termenul nu se suspendă pentru întârzieri din alte autorizații, litigii sau forță majoră",
+            "major": false,
+            "article": "art. 48¹ alin. (1)–(2)"
+          },
+          {
+            "text": "Prelungirea de 2 ani, fără criterii, depășește „cel mult un an” din motivare",
+            "major": false,
+            "article": "art. 48¹ alin. (2)"
+          },
+          {
+            "text": "Textul amestecă termenul lucrărilor cu „durata avizului”",
+            "major": false,
+            "article": "art. 48¹ alin. (2)"
+          },
+          {
+            "text": "Neclar dacă confiscarea pentru pct. 4)–6) cuprinde și stocarea de agregate (pct. 5¹)",
+            "major": false,
+            "article": "art. 91 alin. (3)"
+          },
+          {
+            "text": "Anularea licenței miniere așteaptă dovada refacerii mediului adusă chiar de titular",
+            "major": false,
+            "article": "art. 34² alin. (2) Legea minelor"
+          }
+        ],
+        "good": [
+          {
+            "text": "Termen ferm pentru iazuri: finalizare, punere în funcțiune și refacerea terenului",
+            "major": true,
+            "article": "art. 48¹ alin. (1)–(3)"
+          },
+          {
+            "text": "Interzise iazurile și lacurile de agrement în ariile naturale protejate",
+            "major": true,
+            "article": "art. 48¹ alin. (5)"
+          },
+          {
+            "text": "Interdicția de 5 ani prinde și firmele afiliate sau cu același beneficiar real",
+            "major": true,
+            "article": "art. 48¹ alin. (6)"
+          },
+          {
+            "text": "Confiscarea la contravenții se aplică doar pentru fapte enumerate, nu oricărei abateri",
+            "major": true,
+            "article": "art. 91 alin. (3)"
+          },
+          {
+            "text": "Interdicția pentru autorizații retrase cere ca retragerea să vină dintr-o sancțiune",
+            "major": true,
+            "article": "art. 48¹ alin. (7)"
+          },
+          {
+            "text": "Garanție anuală pentru refacerea mediului, indexată cu inflația, executată dacă titularul nu reface",
+            "major": true,
+            "article": "art. 20¹ și art. 31¹ Legea minelor"
+          },
+          {
+            "text": "În Legea minelor, interdicția de 5 ani curge abia după hotărârea definitivă",
+            "major": false,
+            "article": "art. 58¹ alin. (3) Legea minelor"
+          },
+          {
+            "text": "Controalele Apelor Române se înregistrează, cu păstrare 6 luni și reguli GDPR",
+            "major": false,
+            "article": "art. 90¹"
+          },
+          {
+            "text": "Carierele trebuie să înregistreze video zonele de exploatare și accesele",
+            "major": false,
+            "article": "art. 39 alin. (1) lit. w) Legea minelor"
+          },
+          {
+            "text": "Prelungirea licenței de exploatare cere act de mediu valabil",
+            "major": false,
+            "article": "art. 20 alin. (2) lit. c) Legea minelor"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 110,
+        "removed": 88,
+        "same": 0.22
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:31:58.790Z"
+    }
+  ]
+}

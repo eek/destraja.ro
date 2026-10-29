@@ -1,0 +1,65 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENAT
+
+LEGE
+
+# pentru modificarea și completarea Legii nr. 212/2022 privind unele măsuri pentru reducerea riscului seismic al clădirilor și a Legii nr.260/2008 privind asigurarea obligatorie a locuințelor împotriva cutremurelor, alunecărilor de teren și inundațiilor
+
+Parlamentul României adoptă prezenta Lege
+
+Art. I. – Legea nr. 212/2022 privind unele măsuri pentru reducerea riscului seismic al clădirilor, publicată în Monitorul Oficial al României, Partea I, nr. 708 din 14 iulie 2022, cu modificările ulterioare, se modifică și se completează după cum urmează:
+
+1\. După articolul 3¹ se introduc două noi articole, art. 3² și 3³, cu următorul cuprins:
+
+"Art. 3² – Responsabilitatea proprietarilor
+
+(1) Responsabilitatea privind expertizarea tehnică, proiectarea și executarea lucrărilor de consolidare structurală a clădirilor aparține proprietarilor imobilelor.
+
+(2) Proprietarii clădirilor au obligația de a lua toate măsurile necesare pentru menținerea acestora în stare tehnică corespunzătoare și pentru reducerea riscului seismic.
+
+(3) Autoritățile administrației publice locale exercită exclusiv atribuții de informare, coordonare administrativă și monitorizare a aplicării prevederilor prezentei legi.
+
+(4) Autoritățile administrației publice locale nu pot fi obligate la finanțarea sau executarea lucrărilor de consolidare pentru clădirile aflate în proprietate privată.
+
+(5) Intervențiile asupra clădirilor aflate în proprietate privată se realizează exclusiv de către proprietari, în condițiile legii.
+
+Art. 3³ - Autoritățile administrației publice locale nu răspund juridic pentru neexecutarea lucrărilor de consolidare a clădirilor aflate în proprietate privată în situația în care proprietarii nu își îndeplinesc obligațiile stabilite prin prezenta lege.”
+
+2\. La articolul 6, după alineatul (2) se introduce un nou alineat, alin. (3), cu următorul cuprins:
+
+„(3) Proprietarii clădirilor încadrate în clase de risc seismic au obligația de a iniția procedura de expertizare tehnică și, după caz, de proiectare și executare a lucrărilor de consolidare structurală în termen de 24 de luni de la data încadrării imobilului într-o clasă de risc seismic, în condițiile legii.”
+
+3\. La art. 26, după alineatul (6) se introduce un nou alineat, alin. (7), cu următorul cuprins:
+
+„(7) Constituie contravenție neîndeplinirea de către proprietarii clădirilor încadrate în clase de risc seismic a obligațiilor prevăzute la art. 6 alin. (3) și se sancționează cu amendă de la 5.000 lei la 20.000 lei.”
+
+Articolul II - Legea nr. 260/2008 privind asigurarea obligatorie a locuințelor împotriva cutremurelor, alunecărilor de teren și inundațiilor, republicată în Monitorul Oficial al României, Partea I, nr. 175 din 9 martie 2016, se modifică și se completează după cum urmează:
+
+1\. La articolul 29, alineatul (3) se modifică și va avea următorul cuprins:
+
+„(3) Constatarea contravențiilor prevăzute la alin. (1) și aplicarea sancțiunilor se realizează de către personalul împuternicit din cadrul Poliției Române, precum și de către personalul desemnat din cadrul Inspectoratului pentru Situații de Urgență, potrivit competențelor stabilite prin lege.”
+
+## 2. La articolul 29, după alineatul (3) se introduc trei noi alineate, alin. (3¹)- (3³), cu următorul cuprins:
+
+„(3¹) În vederea verificării respectării obligației de încheiere a poliței de asigurare obligatorie a locuințelor, Pool-ul de Asigurare Împotriva Dezastrelor Naturale (PAID) pune la dispoziția Ministerului Afacerilor Interne, prin mijloace electronice, informații privind existența polițelor de asigurare obligatorie.”
+
+„(3²) Accesul la informațiile prevăzute la alin. (3¹) se realizează prin intermediul unor sisteme informatice securizate, în condițiile stabilite prin protocol încheiat între Ministerul Afacerilor Interne, Autoritatea de Supraveghere Financiară și Pool-ul de Asigurare Împotriva Dezastrelor Naturale (PAID).”
+
+„(3³) Procedura de acces și utilizare a datelor prevăzute la alin. (3¹) și (3²) se stabilește prin ordin comun al ministrului afacerilor interne și al președintelui Autorității de Supraveghere Financiară.”
+
+Această lege a fost adoptată de Parlamentul României cu respectarea prevederilor art. 75 si ale art. 76 alin. (1) din Constituția României, republicata.
+
+PREȘEDINTELE
+
+CAMEREI DEPUTAȚILOR
+
+PREȘEDINTELE
+
+SENATULUI
+
+Sorin-Mihai GRINDEANU
+
+Mircea ABRUDEAN

@@ -1,0 +1,120 @@
+{
+  "slug": "plx-171-2026",
+  "billId": "PL-x 171/2026",
+  "updatedAt": "2026-10-29T12:45:23.650Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L011FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Ministerul Agriculturii comasează agenții și laboratoare: 73 de bugete separate și 216 posturi de șef mai puțin",
+      "summaryTlDr": "Este o reorganizare administrativă de economisire. Nu aduce taxe, obligații sau sancțiuni noi pentru fermieri, așa că riscul pe fond e mic. Problema reală e redactarea: în forma inițiatorului, articolul unic aprobă alt act (OUG nr. 32/2025) decât cel din titlu, iar câteva trimiteri la anexe sunt incomplete.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/70/1/se187.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Ministerul Agriculturii comasează agenții și taie 216 posturi de conducere",
+      "summaryTlDr": "Este o reorganizare administrativă în mare parte tehnică, cu câștig bugetar și fără taxe sau sancțiuni noi pentru cetățeni. Riscul real este tranziția: certificări, laboratoare și controale cerute de dreptul UE trec la alte instituții fără un regim tranzitoriu clar, printr-o OUG pe care Senatul nici nu a dezbătut-o.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Legea aprobă acum ordonanța corectă, OUG 92/2025, nu OUG 32/2025, trecută inițial din greșeală",
+      "summary": "Inițial, legea aproba din greșeală altă ordonanță (OUG 32/2025). Acum aprobă corect OUG 92/2025 privind reorganizarea instituțiilor din agricultură. Senatul a adoptat-o tacit, fără dezbatere, așa că problemele din ordonanță au rămas, de exemplu preluarea personalului.",
+      "changes": [
+        {
+          "title": "Legea aprobă acum ordonanța corectă, OUG nr. 92/2025",
+          "text": "La articolul unic, inițial se aproba din greșeală OUG nr. 32/2025 pentru completarea OUG nr. 49/2015. Acum se aprobă OUG nr. 92/2025, cu data publicării în Monitorul Oficial.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. unic",
+          "before": "Se aprobă Ordonanța de urgență a Guvernului nr. 32/2025 pentru completarea Ordonanței de urgență a Guvernului nr. 49/2015",
+          "after": "Se aprobă Ordonanța de urgență a Guvernului nr.92 din 30 decembrie 2025 pentru modificarea și completarea Ordonanței de urgență a Guvernului nr.85/2024",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Senatul a adoptat proiectul tacit, fără dezbatere",
+          "text": "Proiectul a trecut de Senat tacit, după expirarea termenului (art. 115 alin. 5 din Constituție), în forma inițială. Fără amendamente, problemele de fond din ordonanță au rămas neschimbate.",
+          "effect": "neutru",
+          "major": false,
+          "article": null,
+          "before": null,
+          "after": "Acest proiect de lege se consideră adoptat de Senat în forma inițială, în condițiile articolului 115 alineatul (5) teza a III-a din Constituția României, republicată.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Personalul e preluat „integral”, dar doar în limita posturilor aprobate: contradicție nelămurită",
+            "major": true,
+            "article": "art. 4 alin. (1)–(2)"
+          },
+          {
+            "text": "Șefii ale căror funcții se desființează trec pe posturi de execuție",
+            "major": true,
+            "article": "art. 4 alin. (2)"
+          },
+          {
+            "text": "Plafonul de 8% pentru funcțiile de conducere exclude APIA, AFIR și altă agenție; efect neclar",
+            "major": false,
+            "article": "art. 11 alin. (4)"
+          },
+          {
+            "text": "ISTIS, institut de testare a soiurilor, preia și laboratorul pentru vin",
+            "major": false,
+            "article": "art. 5^1–5^5"
+          }
+        ],
+        "good": [
+          {
+            "text": "Legea aprobă acum corect OUG nr. 92/2025, nu o altă ordonanță",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Patrimoniul instituțiilor desființate se transferă pe bază de protocol de predare-preluare",
+            "major": false,
+            "article": "art. 5^1–5^5"
+          },
+          {
+            "text": "Excedentele din anii precedenți ale oficiilor pedologice trec la direcțiile agricole județene",
+            "major": false,
+            "article": "art. 7–8"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:42:38.715Z"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "slug": "plx-328-2026",
+  "billId": "PL-x 328/2026",
+  "updatedAt": "2026-10-29T13:06:36.919Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L149FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Gazele pentru populație până în martie 2027: preț calculat de fiecare furnizor, cu gaz românesc impus la 110 lei/MWh",
+      "summaryTlDr": "Măsura ajută gospodăriile, dar factura devine mai greu de verificat. Prețul final nu mai e un număr clar, ci rezultatul unei formule calculate de fiecare furnizor, pe care clientul nu o poate verifica. Costul protecției e mutat de la buget pe producătorii de gaz, prin prețul impus de 110 lei/MWh.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/300/20/8/se358.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Gaze pentru populație până în martie 2027: preț calculat după formulă și gaz românesc la 110 lei/MWh",
+      "summaryTlDr": "Măsura temporară este în general utilă pentru gospodării și pentru termoficare, pentru că producătorii interni sunt obligați să livreze gaz la 110 lei/MWh. În schimb, plafonul fix dispare: factura devine o formulă calculată lunar de fiecare furnizor, cu dezechilibre și ajustări pe care clientul nu le poate verifica.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat tacit ordonanța pe gaze fără modificări; protecțiile și riscurile rămân aceleași",
+      "summary": "Senatul a adoptat tacit proiectul în forma inițială, deci ordonanța e aprobată fără modificări. Rămân gazul la 110 lei/MWh pentru casnici și plafonul marjei, dar și costurile fără limită pentru gazul cumpărat la preț de piață.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Gazul cumpărat la preț concurențial intră integral în factură, fără plafon de preț",
+            "major": true,
+            "article": "art. 2 alin. (2)"
+          },
+          {
+            "text": "Costul dezechilibrelor furnizorului, până la 10% din costul mediu, trece în factură",
+            "major": true,
+            "article": "art. 2 alin. (1) lit. b)"
+          },
+          {
+            "text": "Ajustarea lunară estimat–realizat e facultativă, aplicată de furnizor când îi convine",
+            "major": true,
+            "article": "art. 2 alin. (3)"
+          },
+          {
+            "text": "Clienții preluați în regim de ultimă instanță plătesc direct prețul din formulă",
+            "major": true,
+            "article": "art. 1 alin. (2)–(3)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Clientul plătește prețul mai mic dintre cel din contract și cel calculat",
+            "major": true,
+            "article": "art. 1 alin. (2)"
+          },
+          {
+            "text": "Producătorii, indiferent de data începerii extracției, livrează la 110 lei/MWh pentru casnici și termocentrale",
+            "major": true,
+            "article": "art. 6 alin. (1)"
+          },
+          {
+            "text": "Marja de furnizare e plafonată la 15 lei/MWh",
+            "major": true,
+            "article": "art. 3"
+          },
+          {
+            "text": "Același regim de preț se aplică gazului folosit pentru încălzirea populației",
+            "major": true,
+            "article": "art. 1"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:05:54.324Z"
+    }
+  ]
+}

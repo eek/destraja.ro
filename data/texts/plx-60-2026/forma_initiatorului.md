@@ -1,0 +1,47 @@
+# LEGE
+
+# pentru modificarea și completarea Legii învățământului preuniversitar nr. 198/2023
+
+Parlamentul României adoptă prezenta lege:
+
+Articolul I. Legea învățământului preuniversitar nr. 198/2023, publicată în Monitorul Oficial al României, Partea I, nr. 613 din 5 iulie 2023, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+## 1. După articolul 87 se introduce un nou articol, articolul 87^1, cu următorul cuprins:
+
+„În planurile-cadru de învățământ pentru învățământul gimnazial și liceal se include disciplina Educație media și digitală ca disciplină obligatorie în trunchiul comun, structurată progresiv pe niveluri de învățământ, fundamentată pe competența de alfabetizare media, gândire critică, analiză a conținutului media, utilizare responsabilă și sigură a tehnologiilor digitale, protecția datelor personale, etică digitală, precum și dezvoltarea capacității elevilor de a crea, evalua și gestiona conținut digital în scop informativ, educațional și civic.”
+
+## 2. La articolul 88, alineatul (10) se modifică și va avea următorul cuprins:
+
+„Planurile-cadru de învățământ și programele școlare pentru disciplinele de studiu și modulele de pregătire obligatorii din învățământul preuniversitar au în vedere, în mod obligatoriu, includerea următoarelor teme: educație pentru mediu și schimbări climatice, educație pentru sănătate, noțiuni pentru acordarea primului ajutor, educație financiară, educație juridică, educație antreprenorială, educație tehnologică, educație rutieră, educație civică, istorie și civilizație locală, educație interculturală, educație pentru cetățenie democratică, egalitate de șanse, etică, gândire critică, oratorie și dezvoltare personală, educație pentru cetățenie europeană, securitate cibernetică, educație pentru alimentație sănătoasă, educație media și digitală”.
+
+3\. După articolul 88 se introduce un nou articol, articolul 88^1, cu următorul cuprins:
+
+„Art. 88^1 – Educația media și digitală
+
+(1) Educația media și digitală cuprinde ansamblul cunoștințelor, competențelor și atitudinilor necesare înțelegerii mecanismelor de funcționare a mediului digital și media, analizei critice a conținutului, interpretării mesajelor media în context social, economic și tehnologic, precum și utilizării responsabile, etice și securizate a instrumentelor digitale, care urmărește pregătirea elevilor pentru participare informată și activă la viața publică, dezvoltarea raționamentului critic, a capacității de a identifica dezinformarea și manipularea, precum și formarea competențelor de creare și evaluare a conținutului digital.
+
+(2) În învățământul gimnazial, disciplina are ca obiectiv formarea competențelor de analiză critică elementară a mesajelor media, recunoașterea structurilor narative și vizuale utilizate în comunicarea publică, identificarea informațiilor eronate sau distorsionate, înțelegerea algoritmilor de vizibilitate în mediul digital, precum și însușirea regulilor de siguranță online, protecția datelor personale și gestionarea identității digitale.
+
+(3) În învățământul liceal, disciplina urmărește dezvoltarea unor competențe avansate de interpretare și evaluare a mesajelor media, aplicarea instrumentelor de analiză critică în contexte sociale și civice, investigarea fenomenelor de comunicare digitală cu impact public, evaluarea etică a conținutului digital și a comportamentelor din mediul virtual, înțelegerea riscurilor cibernetice și a responsabilităților civice în mediul digital, precum și realizarea de proiecte digitale integrate.
+
+(4) Curriculumul detaliat pentru disciplina Educație media și digitală se elaborază de instituțiile și organismele abilitate ale Ministerului Educației și se aprobă prin ordin al ministrului educației în termen de cel mult 6 luni de la data intrării în vigoare a prezentei legi, în concordanță cu standardele europene privind competențele digitale.
+
+(5) Cadrele didactice care predau Educație media și digitală beneficiază de programe de formare inițială și continuă, organizate și acreditate conform metodologiilor aprobate de Ministerul Educației, având ca obiect dezvoltarea competențelor de predare, evaluare și integrare pedagogică a conținuturilor media și digitale.
+
+(6) Evaluarea competențelor dobândite în cadrul disciplinei se realizează, cu preponderență, prin utilizarea portofoliului educațional digital al elevului, prin proiecte aplicate și alte instrumente de evaluare autentică, compatibile cu standardele naționale de evaluare.”
+
+4\. La articolul 233, după alineatul (6) se introduce un nou alineat, alineatul (7), cu următorul cuprins:
+
+„(7) În termen de cel mult 6 luni de la intrarea în vigoare a prezentei legi, Ministerul Educației asigură, prin alocări distincte în bugetul anual, fondurile necesare pentru elaborarea programelor școlare, pentru formarea cadrelor didactice, pentru achiziția de resurse digitale și pentru dotarea unităților de învățământ cu infrastructura tehnologică indispensabilă predării și evaluării disciplinei Educație media și digitală.”
+
+Articolul II. Prezenta lege se aplică începând cu anul școlar 2027 – 2028.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.
+
+Președintele Senatului,
+
+Președintele Camerei Deputaților,
+
+Mircea ABRUDEAN
+
+Sorin Mihai GRINDEANU

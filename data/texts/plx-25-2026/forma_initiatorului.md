@@ -1,0 +1,43 @@
+# ROMANIA
+
+# PARLAMENTUL ROMÂNIEI
+
+# CAMERA DEPUTAȚILOR
+
+# PROIECT DE LEGE
+
+pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 77/2009 privind organizarea și exploatarea jocurilor de noroc, în vederea introducerii obligației de autoexcludere din jocurile de noroc pentru persoanele care dețin funcții de demnitate publică
+
+Parlamentul României adoptă prezenta lege.
+
+## ARTICOLUL I
+
+Ordonanța de urgență a Guvernului nr. 77/2009 privind organizarea și exploatarea jocurilor de noroc, publicată în Monitorul Oficial al României, Partea I, nr. 439 din 29 iunie 2009, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 15, după alineatul (7) se introduce un nou alineat, alin. (7¹), cu următorul cuprins:
+
+„(7¹) Persoanele care dețin funcții de demnitate publică, potrivit Codului administrativ, precum și cele care exercită funcții de conducere sau de autoritate în cadrul instituțiilor și autorităților publice au obligația de a solicita înscrierea în Registrul Național al Persoanelor Autoexclude, gestionat de Oficiul Național pentru Jocuri de Noroc, în termen de 15 zile de la validarea mandatului sau de la numirea în funcție.
+
+Dovada înscrierii se depune la instituția sau autoritatea competentă care gestionează evidența funcțiilor respective."
+
+2\. După articolul 27 se introduce un nou articol, art. 27¹, cu următorul cuprins:
+
+„Art. 27¹ – (1) Nerespectarea obligației prevăzute la art. 15 alin. (7¹) constituie abatere disciplinară gravă și se sancționează potrivit reglementărilor aplicabile fiecărei categorii de persoane vizate.
+
+(2) Oficiul Național pentru Jocuri de Noroc transmite semestrial Agenției Naționale de Integritate situația actualizată a persoanelor înscrise în Registrul Național al Persoanelor Autoexclude, potrivit prezentei ordonanțe.
+
+(3) Agenția Națională de Integritate are obligația de a verifica, în cadrul activităților sale specifice, respectarea obligației de autoexcludere prevăzute de prezentul act normativ."
+
+## ARTICOLUL II
+
+Guvernul României va modifica, în termen de 30 de zile de la intrarea în vigoare a prezentei legi, normele metodologice de aplicare a Ordonanței de urgență a Guvernului nr. 77/2009, în vederea stabilirii procedurii administrative de înscriere, verificare și monitorizare a persoanelor prevăzute la art. 15 alin. (7¹).
+
+## ARTICOLUL III
+
+Prezenta lege intră în vigoare la 30 de zile de la publicarea în Monitorul Oficial al României, Partea I.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.
+
+Această hotărâre a fost adoptată de Camera Deputaților în ședința din 2025, cu respectarea prevederilor art. 76 alin (1) din Constituția României, republicată.
+
+Președintele Camerei Deputaților Sorin GRINDEANU

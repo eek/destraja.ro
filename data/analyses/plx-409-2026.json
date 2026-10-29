@@ -1,0 +1,124 @@
+{
+  "billId": "PL-x 409/2026",
+  "slug": "plx-409-2026",
+  "version": "senat",
+  "updatedAt": "2026-10-29T01:28:58.701Z",
+  "consensus": {
+    "riskScore": 5,
+    "riskLevel": "yellow",
+    "plainTitle": "Centru de apărare cibernetică pentru sectorul energetic, în Ministerul Energiei",
+    "summaryTlDr": "Ideea e necesară și vine târziu: energia are nevoie de o echipă sectorială de răspuns la atacuri cibernetice, iar termenul european din 13.12.2024 a fost depășit. Textul e însă scris neglijent: o trimitere la o literă care nu există, un minister-acționar făcut supraveghetor fără separare de funcții și derogări salariale anunțate fără cifre.",
+    "initiatorClaim": "Inițiatorii invocă atacurile ransomware asupra DEER și Rompetrol, războiul hibrid al Rusiei și marile proiecte (Neptun Deep, Cernavodă 3-4, SMR, Tarnița-Lăpuștești). Pe baza lor cer un centru sectorial care să monitorizeze permanent, să răspundă rapid la incidente și să facă investigații forensic în energie.",
+    "realityCheck": "Art. 1 creează în Ministerul Energiei o direcție generală fără personalitate juridică, condusă de un CISO, cu rol de centru operațional de securitate și de CSIRT sectorial. Tot art. 1 mută la minister, prin derogare de la art. 37 alin.(5) din OUG 155/2024, rolul de autoritate competentă pentru codul european de securitate cibernetică a fluxurilor transfrontaliere de energie electrică. Efectul secundar este că ministerul, acționar la mari producători de stat, va supraveghea și concurenții privați ai acestora, iar supravegherea cibernetică a sectorului se împarte între DNSC și minister. Preambulul e scris în stil de ordonanță de urgență („situație extraordinară”, „nu suferă amânare”), dar nu are efect juridic și contrastează cu procedura obișnuită, fără urgență.",
+    "affectedGroups": [
+      "IT & AI",
+      "IMM & Antreprenori",
+      "Angajați & HR",
+      "Toți cetățenii"
+    ],
+    "senatForm": {
+      "articleRef": "Art. 1 alin. (4)",
+      "proposalContent": "Se completează alin.(4) cu teza: „Ministerul Energiei asigură separarea funcțională a CRISCE de structurile care exercită drepturile statului ca acționar la operatorii din energie. Datele obținute de CRISCE se folosesc exclusiv în scopuri de securitate cibernetică, iar supravegherea se aplică nediscriminatoriu operatorilor de stat și privați.”",
+      "argumentation": "Ministerul Energiei este acționar la mari companii de stat (ex. Hidroelectrica) și devine prin alin.(4) autoritate competentă pentru Regulamentul (UE) 2024/1366, aplicabil și operatorilor privați. Fără separare, același minister își supraveghează propriile firme și concurenții lor și primește date sensibile despre vulnerabilitățile tuturor.",
+      "otherComments": "Alin.(5) trimite la „alin.(2) lit.b)”, care nu există; corect: alin.(3) lit.b). La alin.(4), „autoritate competență” trebuie corectat în „competentă”. Pentru noua direcție generală și derogările salariale anunțate în preambul sunt necesare fișa financiară și punctul de vedere al Guvernului (art. 111 alin.(1) și art. 138 alin.(5) din Constituție)."
+    }
+  },
+  "council": {
+    "agy": {
+      "model": "agy",
+      "status": "ok",
+      "durationMs": 61261,
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Înființarea centrului de securitate cibernetică în energie (CRISCE) în subordinea directă a ministrului energiei, cu derogări de la cadrul general",
+      "verdictShort": "Scopul protejării infrastructurii energetice și al aplicării Regulamentului (UE) 2024/1366 este legitim și necesar, însă proiectul suferă de carențe serioase de tehnică legislativă și design instituțional. Legea creează o direcție fără personalitate juridică în subordinea politică directă a ministrului energiei, căreia îi transferă prin derogare atribuții de autoritate competentă și pentru care preambulul anunță derogări de la legea salarizării bugetare.",
+      "initiatorClaim": "Inițiatorii urmăresc protejarea Sistemului Electroenergetic Național și a marilor proiecte de investiții împotriva atacurilor cibernetice (precum cele din contextul războiului din Ucraina sau incidentele DEER și Rompetrol) și îndeplinirea obligației UE de a desemna autoritatea responsabilă pentru Regulamentul delegat (UE) 2024/1366.",
+      "realityCheck": "În practică, Art. 1 înființează CRISCE ca direcție generală fără personalitate juridică în directa subordine a ministrului energiei, dar îi conferă, prin derogare de la art. 37 alin. (5) din OUG nr. 155/2024, rolul de autoritate competentă pe fluxurile transfrontaliere de energie, vizând inclusiv operatorii privați și beneficiarii Fondului pentru Modernizare. În plus, textul a fost preluat mecanic dintr-un proiect de OUG, păstrând un preambul cu erori materiale, trimiteri greșite la alineate inexistente și justificarea unor derogări salariale și de statut pentru personalul centrului.",
+      "affectedGroups": [
+        "IT & AI",
+        "IMM & Antreprenori",
+        "Angajați & HR"
+      ],
+      "keyFindings": [
+        "Derogare de la arhitectura NIS2 (Art. 1 alin. 4): Prin derogare de la art. 37 alin. (5) din OUG nr. 155/2024, Ministerul Energiei (prin CRISCE, structură fără personalitate juridică subordonată direct ministrului) devine autoritate competentă pentru Regulamentul delegat (UE) 2024/1366, deși ministerul este simultan acționar majoritar la marii operatori energetici controlați.",
+        "Eroare de trimitere în textul adoptat de Senat (Art. 1 alin. 5): Textul obligă CRISCE să obțină autorizarea prealabilă a DNSC pentru exercitarea funcției prevăzute la „alin. (2) lit. b)”, însă alin. (2) nu are litere; funcția de CSIRT sectorial se află în realitate la alin. (3) lit. b) (notă: textul extras din fișa parlamentară se întrerupe la finalul art. 1 alin. 5).",
+        "Preambul de OUG și derogări salariale: Legea conține un preambul de 20 de paragrafe specific ordonanțelor de urgență („situație extraordinară”, „măsuri urgente și care nu suferă amânare”), care anunță derogări de la salarizarea personalului plătit din fonduri publice și de la statutul personalului contractual, fiind totodată viciat de erori de redactare/OCR („creșterii rezidenței României”, „Tamila-Lăpuștești”, „Iemut”, „îi simt atribuite”)."
+      ],
+      "blindSpotsCaught": "Textul proiectului de lege parlamentară este o conversie grăbită a unui proiect de Ordonanță de Urgență a Guvernului: păstrează preambulul obligatoriu doar pentru OUG-uri (art. 115 alin. 4 Constituție și art. 43 alin. 3 din Legea nr. 24/2000), conține erori brute de scanare/redactare în forma trecută de Senat și creează o dublă subordonare funcțională — CRISCE este autoritate competentă prin derogare de la OUG nr. 155/2024 (Art. 1 alin. 4), dar depinde de autorizarea prealabilă a DNSC pentru a funcționa ca CSIRT (Art. 1 alin. 5).",
+      "constitutionalityNote": "Sub aspectul art. 1 alin. (5) din Constituție (principiul legalității, clarității și previzibilității normei), trimiterea eronată din art. 1 alin. (5) la un text inexistent („alin. (2) lit. b)”), erorile materiale din preambul și utilizarea tehnicii preambulului de OUG într-o lege ordinară încalcă exigențele Legii nr. 24/2000 privind normele de tehnică legislativă.",
+      "euLawNote": "Proiectul vizează punerea în aplicare a Regulamentului delegat (UE) 2024/1366 (codul de rețea privind securitatea cibernetică a fluxurilor transfrontaliere de energie electrică) și se intersectează cu Directiva (UE) 2022/2555 (NIS2, transpusă prin OUG nr. 155/2024). Nu instituie restricții privind profesiile reglementate sub incidența Directivei (UE) 2018/958 și nu necesită notificare TRIS conform Directivei (UE) 2015/1535, dar concentrarea rolului de autoritate competentă la nivelul ministerului care deține companiile de stat din energie ridică probleme de independență funcțională față de operatorii privați din piața unică de energie.",
+      "senatForm": {
+        "articleRef": "Art. 1 alin. (5) și Preambulul legii",
+        "proposalContent": "La art. 1 alin. (5), trimiterea la „alin. (2) lit. b)” se înlocuiește cu „alin. (3) lit. b)”. De asemenea, se elimină preambulul specific ordonanțelor de urgență sau se corectează erorile materiale („rezidenței” în loc de „rezilienței”, „Tamila-Lăpuștești” în loc de „Tarnița-Lăpuștești”, „Iemut” în loc de „Iernut”).",
+        "argumentation": "Art. 1 alin. (2) nu conține litere; funcția de CSIRT sectorial supusă autorizării DNSC este prevăzută la art. 1 alin. (3) lit. b). Menținerea trimiterii greșite blochează aplicarea normei și încalcă art. 1 alin. (5) din Constituție. Totodată, preambulul copiază formule de OUG (art. 115 alin. 4 Constituție) și conține numeroase greșeli de redactare.",
+        "otherComments": "Se recomandă reevaluarea art. 1 alin. (4), prin care o direcție fără personalitate juridică din subordinea directă a ministrului energiei devine, prin derogare de la art. 37 alin. (5) din OUG 155/2024, autoritate competentă pe Regulamentul (UE) 2024/1366, deși ministerul este și acționar majoritar la operatorii energetici vizați."
+      }
+    },
+    "claude": {
+      "model": "claude",
+      "status": "ok",
+      "durationMs": 159295,
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Centru de apărare cibernetică pentru sectorul energetic, în Ministerul Energiei",
+      "verdictShort": "Ideea e necesară și vine târziu: energia are nevoie de o echipă sectorială de răspuns la atacuri cibernetice, iar termenul european din 13.12.2024 a fost depășit. Textul e însă scris neglijent: o trimitere la o literă care nu există, un minister-acționar făcut supraveghetor fără separare de funcții și derogări salariale anunțate fără cifre.",
+      "initiatorClaim": "Inițiatorii invocă atacurile ransomware asupra DEER și Rompetrol, războiul hibrid al Rusiei și marile proiecte (Neptun Deep, Cernavodă 3-4, SMR, Tarnița-Lăpuștești). Pe baza lor cer un centru sectorial care să monitorizeze permanent, să răspundă rapid la incidente și să facă investigații forensic în energie.",
+      "realityCheck": "Art. 1 creează în Ministerul Energiei o direcție generală fără personalitate juridică, condusă de un CISO, cu rol de centru operațional de securitate și de CSIRT sectorial. Tot art. 1 mută la minister, prin derogare de la art. 37 alin.(5) din OUG 155/2024, rolul de autoritate competentă pentru codul european de securitate cibernetică a fluxurilor transfrontaliere de energie electrică. Efectul secundar este că ministerul, acționar la mari producători de stat, va supraveghea și concurenții privați ai acestora, iar supravegherea cibernetică a sectorului se împarte între DNSC și minister. Preambulul e scris în stil de ordonanță de urgență („situație extraordinară”, „nu suferă amânare”), dar nu are efect juridic și contrastează cu procedura obișnuită, fără urgență.",
+      "affectedGroups": [
+        "IT & AI",
+        "Angajați & HR",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 1 alin.(1)-(3): CRISCE este o direcție generală în subordinea directă a ministrului, fără personalitate juridică, cu două funcții: centru operațional de securitate (Legea 58/2023, art. 2 lit. f) și CSIRT sectorial (OUG 104/2021 și OUG 155/2024). Astfel se acoperă un gol real în sectorul energetic.",
+        "Art. 1 alin.(4): prin derogare de la art. 37 alin.(5) din OUG 155/2024, Ministerul Energiei devine autoritate competentă pentru Regulamentul delegat (UE) 2024/1366. Competența se transferă imediat, de la intrarea în vigoare, deși structura abia se înființează. Lipsesc un regim tranzitoriu și separarea de funcțiile ministerului de acționar la companii de stat.",
+        "Art. 1 alin.(5): funcția de CSIRT e condiționată de autorizarea prealabilă a DNSC, ceea ce este o garanție utilă. Trimiterea se face însă la „alin.(2) lit.b)”, care nu există: alin.(2) nu are litere, iar funcția CSIRT e la alin.(3) lit.b).",
+        "Preambulul anunță derogări de la regimul comun al salarizării din fonduri publice și de la statutul personalului contractual (de aici și sesizarea Comisiei pentru muncă). Extrasul se oprește la art. 1 alin.(5), deci aceste derogări și modificările altor acte normative nu au putut fi verificate.",
+        "Nu se văd obligații, taxe sau sancțiuni noi pentru cetățeni ori IMM-uri. Impactul este în principal bugetar: o nouă direcție generală cu salarii peste grila comună, fără o sursă de finanțare vizibilă în text."
+      ],
+      "blindSpotsCaught": "Art. 1 alin.(5), singura prevedere care subordonează CRISCE controlului DNSC, trimite la un text inexistent („alin.(2) lit.b)”). Intenția se poate deduce, dar norma e defectuoasă tocmai acolo unde trebuie să fie clară. La alin.(4) apare „autoritate competență” în loc de „competentă”. Preambulul conține și alte erori („creșterii rezidenței” în loc de reziliență, „îi simt atribuite”, „territoriul”) și un limbaj politic („patriotism energetic”, trimitere la programul de guvernare PSD-PNL-USR-UDMR), nepotrivit într-un act normativ. Pare preluat dintr-un proiect de ordonanță de urgență.",
+      "constitutionalityNote": "Scopul este legitim: securitatea cibernetică face parte din securitatea națională (Decizia CCR nr. 70/2023, invocată în preambul), iar organizarea ministerelor prin lege e permisă de art. 117 alin.(1). Riscurile țin de altceva. (1) Art. 1 alin.(5) din Constituție: trimiterea eronată de la art. 1 alin.(5) din lege și formularea confuză a alin.(2) slăbesc claritatea și previzibilitatea normei, iar CCR a reținut că lipsa de corelare a trimiterilor poate încălca această cerință. (2) Art. 111 alin.(1) teza a doua și art. 138 alin.(5): o inițiativă parlamentară care creează o direcție generală și derogări salariale implică cheltuieli bugetare. De aceea, informarea Guvernului și indicarea sursei de finanțare sunt obligatorii și trebuie verificate în dosar. CCR a constatat în alte cazuri neconstituționalitatea extrinsecă pentru lipsa lor. (3) Art. 16: derogările salariale pot fi justificate obiectiv prin piața muncii din securitatea cibernetică, dar nu pot fi evaluate fără textul lor.",
+      "euLawNote": "Legea merge în direcția dreptului UE. Directiva NIS2 (UE) 2022/2555, transpusă prin OUG 155/2024, permite la art. 10 mai multe CSIRT-uri, inclusiv sectoriale, dacă îndeplinesc cerințele de la art. 11; de aici rolul autorizării DNSC. Regulamentul delegat (UE) 2024/1366 cere desemnarea unei autorități guvernamentale sau de reglementare, iar termenul din 13.12.2024 este depășit, deci legea ar acoperi o restanță. Regulamentul acceptă un minister ca autoritate competentă. Pentru că se aplică și operatorilor privați, neutralitatea față de companiile la care ministerul e acționar ține de buna guvernanță și de tratamentul egal pe piața internă a energiei. Directiva 2018/958 nu se aplică, fiindcă articolele vizibile nu reglementează accesul la o profesie. TRIS 2015/1535 nu pare incidentă, fiindcă textul e organizatoric și nu impune cerințe tehnice pentru produse sau servicii ale societății informaționale. Dacă articolele neextrase impun standarde tehnice operatorilor, trebuie verificată obligația de notificare.",
+      "senatForm": {
+        "articleRef": "Art. 1 alin. (4)",
+        "proposalContent": "Se completează alin.(4) cu teza: „Ministerul Energiei asigură separarea funcțională a CRISCE de structurile care exercită drepturile statului ca acționar la operatorii din energie. Datele obținute de CRISCE se folosesc exclusiv în scopuri de securitate cibernetică, iar supravegherea se aplică nediscriminatoriu operatorilor de stat și privați.”",
+        "argumentation": "Ministerul Energiei este acționar la mari companii de stat (ex. Hidroelectrica) și devine prin alin.(4) autoritate competentă pentru Regulamentul (UE) 2024/1366, aplicabil și operatorilor privați. Fără separare, același minister își supraveghează propriile firme și concurenții lor și primește date sensibile despre vulnerabilitățile tuturor.",
+        "otherComments": "Alin.(5) trimite la „alin.(2) lit.b)”, care nu există; corect: alin.(3) lit.b). La alin.(4), „autoritate competență” trebuie corectat în „competentă”. Pentru noua direcție generală și derogările salariale anunțate în preambul sunt necesare fișa financiară și punctul de vedere al Guvernului (art. 111 alin.(1) și art. 138 alin.(5) din Constituție)."
+      }
+    },
+    "codex": {
+      "model": "codex",
+      "status": "ok",
+      "durationMs": 132143,
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Un centru de apărare cibernetică pentru energie, cu reguli care trebuie corectate",
+      "verdictShort": "Protejarea infrastructurii energetice este utilă. Forma integrală adoptată de Senat conține însă riscuri privind concurența, costurile suportate de consumatori și libertatea angajaților de a pleca.",
+      "initiatorClaim": "Preambulul invocă atacurile cibernetice și necesitatea unui răspuns sectorial coordonat. Expunerea de motive nu este reprodusă în materialul furnizat; afirmațiile introductive nu dovedesc singure necesitatea fiecărei derogări.",
+      "realityCheck": "Art. 1 înființează CRISCE în Ministerul Energiei, cu funcții operaționale și de autoritate competentă. Extrasul furnizat este întrerupt; analiza include și [forma oficială integrală adoptată de Senat](https://www.senat.ro/legis/PDF/2026/26L214FS.PDF), care prevede servicii comerciale, gratuități selective și reguli speciale pentru personal. Înființarea centrului nu garantează automat reducerea incidentelor.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "IT & AI",
+        "Angajați & HR",
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 1 alin. (5) trimite greșit la alin. (2) lit. b), inexistentă; trimiterea corectă este la alin. (3) lit. b). Autorizarea prealabilă DNSC este o garanție utilă.",
+        "Art. 3 alin. (5) stabilește o despăgubire de 12 câștiguri salariale medii brute pentru denunțarea angajamentului, fără corelare expresă cu prejudiciul. [Text oficial, pag. 7–8](https://www.senat.ro/legis/PDF/2026/26L214FS.PDF).",
+        "Art. 8 alin. (3) permite recuperarea costurilor de audit prin tarife de rețea: consumatorii pot suporta indirect cheltuieli, fără o majorare cuantificată. [Text oficial, pag. 23–24](https://www.senat.ro/legis/PDF/2026/26L214FS.PDF).",
+        "Art. 8 alin. (5) acordă gratuități unor categorii de beneficiari; art. 9 alin. (7) nominalizează Rasirom ca integrator. Consiliul Concurenței semnalează riscuri de avantaj selectiv și recomandă selecție competitivă. [Aviz oficial](https://www.senat.ro/legis/PDF/2026/26L214CC.pdf).",
+        "Art. 6 alin. (2) și art. 9 indică finanțarea din dobânzile Fondului pentru modernizare și servicii. Există surse desemnate, dar sustenabilitatea necesită estimări. [Text oficial](https://www.senat.ro/legis/PDF/2026/26L214FS.PDF)."
+      ],
+      "blindSpotsCaught": "Regulamentul european nu impune înființarea acestei structuri anume: art. 4 permite desemnarea unei autorități guvernamentale sau de reglementare și prevede o autoritate de rezervă până la desemnare. Prin urmare, lipsa CRISCE nu dovedește singură absența oricărei autorități competente. [Regulamentul 2024/1366](https://eur-lex.europa.eu/eli/reg_del/2024/1366/oj/eng). În plus, Senatul consemnează adoptarea tacită, prin expirarea termenului constituțional, nu aprobarea expresă în plen. [Fișa Senatului](https://www.senat.ro/legis/lista.aspx?an_cls=2026&nr_cls=L214).",
+      "constitutionalityNote": "Trimiterea eronată din art. 1 alin. (5) afectează claritatea cerută de art. 1 alin. (5) din Constituție și trebuie corectată. Art. 23 alin. (12) privește pedepsele penale; despăgubirea contractuală nu devine pedeapsă penală prin cuantumul ei. Pentru aceasta sunt relevante libertatea muncii, proporționalitatea și previzibilitatea obligației, inclusiv raportarea la dreptul de demisie din art. 81 al Codului muncii. Verificarea bugetară presupune respectarea art. 111 alin. (1) și art. 138 alin. (5); lipsa informațiilor din extras nu dovedește încălcarea procedurii. [Constituția](https://www.senat.ro/pagini/constitutia/constitutia.htm), [Codul muncii](https://legislatie.just.ro/Public/DetaliiDocumentAfis/302270).",
+      "euLawNote": "Directiva 2018/958 privește restricțiile asupra profesiilor reglementate; înființarea unui CSIRT și condițiile de angajare nu declanșează automat testul său. [Art. 2](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32018L0958). Nici utilizarea instrumentelor digitale sau AI nu impune automat notificarea TRIS: trebuie identificată o reglementare tehnică ori o regulă care vizează explicit serviciile societății informaționale, cu verificarea excepțiilor aplicabile. Nu rezultă suficient pentru a constata o încălcare TRIS. [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32015L1535). Problema concurențială concretă este posibila subvenționare încrucișată a serviciilor comerciale și acordarea unor avantaje selective; acestea necesită analiza ajutorului de stat, fără a presupune automat incompatibilitatea. [Consiliul Concurenței](https://www.senat.ro/legis/PDF/2026/26L214CC.pdf).",
+      "senatForm": {
+        "articleRef": "Art. 3 alin. (5)",
+        "proposalContent": "Alineatul (5) se elimină.",
+        "argumentation": "Despăgubirea fixă de 12 câștiguri salariale medii brute nu este legată de un prejudiciu dovedit ori de costuri de formare și poate descuraja demisia. Eliminarea protejează libertatea muncii, fără a înlătura răspunderea patrimonială și recuperarea cheltuielilor de formare în condițiile Codului muncii.",
+        "otherComments": "Propunere cetățenească pentru comisiile Camerei Deputaților. Se recomandă și corectarea trimiterii din art. 1 alin. (5) la alin. (3) lit. b), selecția competitivă a integratorului și separarea contabilă a serviciilor comerciale de atribuțiile publice."
+      }
+    }
+  }
+}

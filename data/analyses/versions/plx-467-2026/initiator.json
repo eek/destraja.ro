@@ -1,0 +1,125 @@
+{
+  "billId": "PL-x 467/2026",
+  "slug": "plx-467-2026",
+  "version": "initiator",
+  "updatedAt": "2026-10-28T21:59:34.209Z",
+  "consensus": {
+    "riskScore": 4.3,
+    "riskLevel": "yellow",
+    "plainTitle": "Anchetatorii pot cere datele tale online direct de la furnizorii din UE (și invers)",
+    "summaryTlDr": "Lege tehnică și necesară. Pune în practică un regulament UE deja aplicabil și păstrează judecătorul pentru datele de trafic și conținut. Garanțiile pentru omul vizat sunt însă subțiri: contestația se face în 3 zile, nu oprește nimic și nu spune ce se întâmplă cu datele dacă o câștigi.",
+    "initiatorClaim": "Guvernul spune că probele electronice dispar repede, iar cooperarea judiciară clasică e prea lentă (85% din anchetele din UE ar avea nevoie de astfel de date). Legea ar desemna autoritățile române care emit și execută noile ordine europene de păstrare și divulgare, cu „garanții puternice” pentru drepturile persoanelor.",
+    "realityCheck": "Legea nu creează puteri noi de anchetă. Echivalează ordinele din Regulament cu acte din Codul de procedură penală: ordonanța procurorului pentru păstrare și date de abonat, încheierea judecătorului pentru trafic și conținut. Stabilește și parchetele și instanțele care verifică ordinele venite din alte state. Chichițele sunt în detalii: o procedură de urgență fără judecător pusă confuz în art. 4, o contestație de 3 zile, nesuspensivă și fără efecte precizate (art. 7), și un refuz doar facultativ când un ordin străin lovește secretul profesional sau libertatea presei (art. 6 alin. 3).",
+    "affectedGroups": [
+      "Justiție & Drepturi Civile",
+      "IT & AI",
+      "IMM & Antreprenori",
+      "Toți cetățenii"
+    ],
+    "senatForm": {
+      "articleRef": "Art. 7 alin. (2), (3) și (5)",
+      "proposalContent": "Termenul de contestație devine 10 zile de la informare. Judecătorul verifică legalitatea, necesitatea și proporționalitatea ordinului. La admitere, ordinul se retrage, iar datele obținute se șterg și nu pot fi folosite ca probe. Contestația împotriva unei încheieri a JDL se judecă de JDL de la instanța ierarhic superioară.",
+      "argumentation": "Cu 3 zile, contestație nesuspensivă și fără efecte stabilite, calea de atac riscă să fie iluzorie, mai ales pentru terți fără avocat. Art. 18 din Regulamentul (UE) 2023/1543 cere un remediu efectiv, inclusiv asupra necesității și proporționalității; CCR (Decizia 244/2017) a cerut cale de atac reală pentru persoanele supravegheate (art. 21, 26, 28, 53 Constituție).",
+      "otherComments": "Art. 4 alin. (1) lit. a): pentru datele de conținut trimiterea doar la art. 152 CPP (trafic și localizare) e neclară; precizați condițiile aplicabile. Art. 4 alin. (2)-(6): definiți „restricționarea utilizării datelor”. Art. 6 alin. (3): refuzul să fie obligatoriu când sunt afectate secretul profesional al avocatului sau sursele jurnaliștilor."
+    }
+  },
+  "council": {
+    "agy": {
+      "model": "agy",
+      "status": "ok",
+      "durationMs": 74342,
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Acces rapid transfrontalier la probe digitale (e-Evidence) în dosarele penale, dar cu erori de redactare în procedură",
+      "verdictShort": "Legea este necesară pentru aplicarea Regulamentului (UE) 2023/1543 privind obținerea rapidă a probelor electronice în anchetele penale, dar conține erori tehnice de trimitere la Codul de procedură penală și termene de contestare excesiv de scurte care trebuie corectate în Parlament.",
+      "initiatorClaim": "Guvernul urmărește desemnarea autorităților judiciare române și stabilirea procedurii interne prin care procurorii și judecătorii pot emite și executa direct ordine europene de păstrare și divulgare a datelor electronice de la furnizorii de servicii digitale din UE.",
+      "realityCheck": "Deși arhitectura generală transpune corect mecanismul european e-Evidence (aplicabil din 18 august 2026), textul conține erori de tehnică legislativă: Art. 4 alin. (1) trimite exclusiv la Art. 152 CPP pentru datele de conținut (deși Art. 152 CPP interzice expres accesul la conținutul comunicațiilor), iar Art. 4 alin. (2) face o trimitere greșită la Art. 2 și 3 în loc de Art. 4 alin. (1) pentru procedura de urgență. În plus, cetățenii ale căror date sunt divulgate au la dispoziție doar 3 zile pentru a depune contestație.",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile",
+        "IT & AI",
+        "IMM & Antreprenori"
+      ],
+      "keyFindings": [
+        "Eroare de trimitere în Art. 4 alin. (2): textul permite procurorului să emită în urgență fără autorizarea judecătorului ordinele de la „art. 2, respectiv art. 3” (care oricum sunt emise direct de procuror în urmărirea penală), în loc să vizeze datele de trafic și de conținut de la Art. 4 alin. (1), așa cum prevede Art. 4 alin. (5) din Regulamentul (UE) 2023/1543.",
+        "Neconcordanță cu Codul de procedură penală la Art. 4 alin. (1) lit. a): pentru obținerea datelor referitoare la conținut se face trimitere doar la Art. 152 CPP, articol care vizează exclusiv metadatele de trafic/localizare și exclude expres conținutul comunicațiilor (care în dreptul intern cade sub incidența Art. 138-140 sau Art. 168 CPP).",
+        "Garanții procesuale restrânse la Art. 7 alin. (2) și (3): termenul de contestație pentru persoana vizată este de doar 3 zile de la informare, iar în faza de urmărire penală contestația împotriva unui ordin încuviințat de judecătorul de drepturi și libertăți ajunge să fie soluționată tot la nivelul instanței de fond, nu la instanța ierarhic superioară."
+      ],
+      "blindSpotsCaught": "În Art. 6 alin. (1) și (2), competența autorităților române de executare pentru ordinele venite din alte state UE este definită generic „material, teritorial și după calitatea persoanei potrivit legii române”, fără a se preciza că, atunci când fapta și suspectul sunt în străinătate, competența teritorială se determină după sediul desemnat sau reprezentantul legal din România al furnizorului de servicii IT/telecom.",
+      "constitutionalityNote": "Neprecizarea temeiului intern corect pentru datele de conținut la Art. 4 alin. (1) lit. a) și eroarea de trimitere din Art. 4 alin. (2) afectează cerințele de claritate și previzibilitate a legii procesual penale (Art. 1 alin. 5 raportat la Art. 28 și Art. 53 din Constituție privind secretul corespondenței și restrângerea exercițiului unor drepturi).",
+      "euLawNote": "Proiectul pune în aplicare Regulamentul (UE) 2023/1543 (pachetul e-Evidence), cu aplicare directă din 18 august 2026. Nu instituie restricții profesionale noi sub incidența Directivei (UE) 2018/958 și nu necesită notificare TRIS (Directiva 2015/1535) întrucât execută o obligație strictă de drept UE, însă termenul de 3 zile din Art. 7 riscă să fie considerat insuficient față de principiul efectivității căii de atac (Art. 18 din Regulament și Art. 47 din Carta Drepturilor Fundamentale a UE).",
+      "senatForm": {
+        "articleRef": "Art. 4 alin. (1) lit. a), alin. (2) și Art. 7",
+        "proposalContent": "La art. 4 alin. (1) lit. a) se completează temeiul cu art. 140 și 168 CPP (date de conținut). La art. 4 alin. (2), trimiterea la „art. 2, respectiv art. 3” se înlocuiește cu „alin. (1)”. La art. 7 alin. (2) și (5), termenul de contestație se mărește la 10 zile, iar la alin. (3) încheierile JDL se contestă la instanța ierarhic superioară.",
+        "argumentation": "Art. 152 CPP exclude expres conținutul comunicațiilor, deci invocarea sa exclusivă la art. 4(1) lit. a) e insuficientă. Art. 4(2) conține o eroare de trimitere: urgența fără autorizarea prealabilă a judecătorului vizează datele de trafic/conținut din art. 4(1), nu art. 2-3. Iar termenul de 3 zile (art. 7) este prea scurt pentru un recurs efectiv.",
+        "otherComments": "La art. 6 alin. (1)-(2) ar trebui precizat expres că, atunci când cauza penală străină nu are altă legătură teritorială cu România, competența teritorială a parchetului sau a instanței de executare se stabilește în funcție de sediul desemnat ori domiciliul reprezentantului legal din România al furnizorului de servicii digitale vizat."
+      }
+    },
+    "claude": {
+      "model": "claude",
+      "status": "ok",
+      "durationMs": 239263,
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Anchetatorii pot cere datele tale online direct de la furnizorii din UE (și invers)",
+      "verdictShort": "Lege tehnică și necesară. Pune în practică un regulament UE deja aplicabil și păstrează judecătorul pentru datele de trafic și conținut. Garanțiile pentru omul vizat sunt însă subțiri: contestația se face în 3 zile, nu oprește nimic și nu spune ce se întâmplă cu datele dacă o câștigi.",
+      "initiatorClaim": "Guvernul spune că probele electronice dispar repede, iar cooperarea judiciară clasică e prea lentă (85% din anchetele din UE ar avea nevoie de astfel de date). Legea ar desemna autoritățile române care emit și execută noile ordine europene de păstrare și divulgare, cu „garanții puternice” pentru drepturile persoanelor.",
+      "realityCheck": "Legea nu creează puteri noi de anchetă. Echivalează ordinele din Regulament cu acte din Codul de procedură penală: ordonanța procurorului pentru păstrare și date de abonat, încheierea judecătorului pentru trafic și conținut. Stabilește și parchetele și instanțele care verifică ordinele venite din alte state. Chichițele sunt în detalii: o procedură de urgență fără judecător pusă confuz în art. 4, o contestație de 3 zile, nesuspensivă și fără efecte precizate (art. 7), și un refuz doar facultativ când un ordin străin lovește secretul profesional sau libertatea presei (art. 6 alin. 3).",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile",
+        "IT & AI",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 4 alin. (1) lit. a): datele de conținut (e-mailuri, fișiere stocate în cloud) se obțin „în condițiile art. 152 CPP”, un articol scris pentru date de trafic și localizare. Nu e clar ce prag intern se aplică conținutului, deși art. 5 alin. (2) din Regulament cere ca ordinul să poată fi emis în aceleași condiții într-un caz intern similar.",
+        "Art. 4 alin. (2)-(6): procurorul poate emite în urgență ordinele de la art. 2-3 „fără autorizarea judecătorului, atunci când aceasta este necesară”. Numai că păstrarea (art. 154 CPP) și datele de abonat (art. 170 alin. 2 lit. b CPP) nu cer oricum judecător. Mecanismul de confirmare (sesizare în 48 de ore, decizie în 24 de ore) are astfel o sferă neclară, iar „restricționarea utilizării datelor” la infirmare nu e definită.",
+        "Art. 7 alin. (2)-(5): persoana vizată poate face contestație în 3 zile de la informare. Contestația nu suspendă executarea și se soluționează definitiv în 5 zile. Legea nu spune ce verifică judecătorul (legalitate, necesitate, proporționalitate) și nici ce se întâmplă cu datele dacă contestația e admisă.",
+        "Art. 7 alin. (3) vs. alin. (4): în faza de judecată, contestația merge la instanța ierarhic superioară. În urmărirea penală, însă, o încheiere a JDL (art. 4 alin. 1 lit. a) e verificată tot de un JDL al aceleiași instanțe, fără o regulă expresă de incompatibilitate.",
+        "Art. 6 alin. (3): când România execută un ordin străin, parchetul sau instanța „se poate opune” dacă găsește un motiv de refuz (imunități, secret profesional, libertatea presei, ne bis in idem). Refuzul rămâne facultativ, inclusiv pentru avocați și jurnaliști, iar persoana vizată nu e ascultată.",
+        "Art. 5 alin. (2): pentru trafic și conținut, ordinul este încheierea JDL, dar certificatul trimis furnizorului îl emite procurorul. Rămâne neclar cine e „autoritatea emitentă” pentru retragere, consultări sau depunerea contestației (art. 7 alin. 2).",
+        "Punct bun: art. 2 alin. (3), art. 3 alin. (2) și art. 4 alin. (7) permit și părților sau subiecților procesuali principali să ceară emiterea ordinelor. Apărarea poate deci folosi instrumentul pentru probe în favoarea sa."
+      ],
+      "blindSpotsCaught": "Regulamentul se aplică direct din 18 august 2026, iar legea figurează încă în stadiul de raport. Până la adoptare, competențele și procedurile românești rămân neclare exact când furnizorii primesc deja ordine. În fragmentul disponibil (art. 1-8) nu apar sancțiunile pentru furnizorii care nu se conformează (art. 15 din Regulament: până la 2% din cifra de afaceri globală). Nu apare nici transpunerea Directivei (UE) 2023/1544 privind reprezentanții legali (termen: 18 februarie 2026). Ambele trebuie verificate în restul textului sau în alt act. Greșelile de redactare („să invoice”, „consultârilor” la art. 5 alin. 6) arată o redactare grăbită.",
+      "constitutionalityNote": "În principiu, legea e compatibilă cu art. 26 și 28 din Constituție: accesul la trafic și conținut rămâne condiționat de încheierea unui judecător, iar păstrarea și datele de abonat urmează regimul intern existent. Riscurile țin de art. 1 alin. (5) (previzibilitate): procedura de urgență din art. 4 alin. (2)-(6) și trimiterea la art. 152 CPP pentru conținut nu spun clar cine poate face ce. Pe art. 21 și 53, CCR a cerut prin Decizia nr. 244/2017 o cale de atac efectivă pentru persoanele supuse supravegherii. O contestație de 3 zile, nesuspensivă, fără obiect și efecte definite, poate fi considerată iluzorie. Dacă restul textului stabilește sancțiuni pentru furnizori, acestea trebuie definite precis (art. 23 alin. 12).",
+      "euLawNote": "Legea pune în aplicare un regulament direct aplicabil; nu transpune o directivă. Statul desemnează autorități și proceduri, dar nu poate restrânge sau extinde regulamentul. Directiva 2018/958 nu e incidentă, pentru că legea nu reglementează accesul la profesii. Nici TRIS 2015/1535 nu e incidentă: legea nu impune reguli tehnice noi serviciilor digitale, iar măsurile de conformare cu un act UE obligatoriu sunt exceptate de la notificare (art. 7). Riscurile reale sunt două. Art. 18 din Regulament și art. 47 din Cartă cer o cale de atac efectivă, inclusiv asupra necesității și proporționalității. Art. 9 cere ca certificatul să fie semnat de autoritatea emitentă sau de validare, pe când art. 5 alin. (2) îl dă procurorului pentru o încheiere a judecătorului, ceea ce poate genera obiecții. Furnizorii români, inclusiv IMM-urile de hosting și cloud, vor primi ordine din alte state cu termen de 10 zile (8 ore în urgență), dar aceste obligații vin din Regulament, nu din această lege.",
+      "senatForm": {
+        "articleRef": "Art. 7 alin. (2), (3) și (5)",
+        "proposalContent": "Termenul de contestație devine 10 zile de la informare. Judecătorul verifică legalitatea, necesitatea și proporționalitatea ordinului. La admitere, ordinul se retrage, iar datele obținute se șterg și nu pot fi folosite ca probe. Contestația împotriva unei încheieri a JDL se judecă de JDL de la instanța ierarhic superioară.",
+        "argumentation": "Cu 3 zile, contestație nesuspensivă și fără efecte stabilite, calea de atac riscă să fie iluzorie, mai ales pentru terți fără avocat. Art. 18 din Regulamentul (UE) 2023/1543 cere un remediu efectiv, inclusiv asupra necesității și proporționalității; CCR (Decizia 244/2017) a cerut cale de atac reală pentru persoanele supravegheate (art. 21, 26, 28, 53 Constituție).",
+        "otherComments": "Art. 4 alin. (1) lit. a): pentru datele de conținut trimiterea doar la art. 152 CPP (trafic și localizare) e neclară; precizați condițiile aplicabile. Art. 4 alin. (2)-(6): definiți „restricționarea utilizării datelor”. Art. 6 alin. (3): refuzul să fie obligatoriu când sunt afectate secretul profesional al avocatului sau sursele jurnaliștilor."
+      }
+    },
+    "codex": {
+      "model": "codex",
+      "status": "ok",
+      "durationMs": 143213,
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Acces mai rapid la probe digitale din UE, cu amenzi problematice pentru firmele mici",
+      "verdictShort": "Proiectul este util pentru anchetele penale, dar necesită corecții privind sancțiunile și garanțiile procedurale. Textul integral conține o amendă minimă care intră în contradicție cu propriul plafon pentru furnizorii mici.",
+      "initiatorClaim": "Guvernul urmărește obținerea rapidă a probelor electronice transfrontaliere, înainte ca acestea să dispară. Propune desemnarea autorităților competente și proceduri de cooperare directă, însoțite de garanții pentru persoanele vizate.",
+      "realityCheck": "Art. 2–6 organizează emiterea și executarea ordinelor europene, diferențiind identificarea utilizatorului de accesul la trafic și conținut; mecanismul european privește date stocate, nu instituie prin el însuși interceptare în timp real. Verificarea formei integrale a inițiatorului și a formei adoptate de Senat confirmă la art. 8 alin. (8), absent din extrasul furnizat, minimul de 100.000 lei și plafonul de 2% din cifra de afaceri mondială. Evaluarea privește aceste texte, fără a presupune că eventualele amendamente ulterioare ale Camerei le păstrează. [Forma adoptată de Senat](https://www.senat.ro/legis/PDF/2026/26L272FS.PDF)",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "IT & AI",
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 8 alin. (8): pentru o cifră de afaceri anuală sub 5.000.000 lei, plafonul de 2% este inferior minimului de 100.000 lei. Intervalul sancționator devine contradictoriu; nici situația furnizorilor noi ori fără cifră de afaceri nu este rezolvată clar. Această ultimă lacună este semnalată și de Consiliul Legislativ. [Avizul Consiliului Legislativ](https://www.senat.ro/legis/PDF/2026/26L272LG.PDF)",
+        "Art. 7: contestația în 3 zile de la informare, fără suspendare automată, oferă acces la judecător, dar timpul pentru pregătirea apărării este foarte scurt. Trebuie asigurate informarea efectivă, accesul suficient la motivele ordinului și posibilitatea contestării necesității și proporționalității; lipsa suspendării nu dovedește singură neconstituționalitatea.",
+        "Art. 4 alin. (1) lit. a): trimiterea comună pentru trafic și conținut la art. 152 CPP necesită clarificare, deoarece acesta reglementează obținerea datelor de trafic și localizare. Simpla trimitere nu explică suficient procedura aplicabilă conținutului stocat. [Codul de procedură penală, art. 152](https://legislatie.just.ro/Public/DetaliiDocument/265008)",
+        "Expunerea de motive declară lipsa impactului bugetar și asupra IMM-urilor, deși art. 5 pune traducerile în sarcina autorităților, iar executarea ordinelor presupune personal și operațiuni tehnice. Costurile pot fi absorbite din resurse existente, dar documentul nu demonstrează acest lucru printr-o estimare; nu rezultă taxe noi pentru cetățeni. [Expunerea de motive, secțiunile 3–4](https://www.senat.ro/legis/PDF/2026/26L272EM.PDF)",
+        "Nu apar monopoluri sau condiții de acces într-o profesie. Totuși, costurile de conformare și minimul sancționator pot dezavantaja furnizorii mici față de platformele mari; acest efect concurențial trebuie evaluat distinct de utilitatea cooperării judiciare."
+      ],
+      "blindSpotsCaught": "Art. 4 alin. (2) trimite exclusiv la ordinele din art. 2 și 3: derogarea de urgență nu autorizează procurorul să divulge conținut fără judecător. În plus, termenul european de 48 de ore privește solicitarea validării ulterioare, nu finalizarea ei; succesiunea națională 48+24 de ore nu dovedește această încălcare. [Regulamentul, art. 4 alin. (5)](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32023R1543)",
+      "constitutionalityNote": "Problemele concrete țin de art. 1 alin. (5): intervalul amenzii trebuie să fie coerent, iar procedura accesului la conținut previzibilă. Accesul la date trebuie verificat prin art. 26, 28 și 53, iar contestația prin art. 21 și 24. Art. 23 alin. (12) nu justifică automat o critică privind incriminarea: textul analizat nu introduce o infracțiune, iar amenda este calificată drept judiciară. Sunt riscuri care cer remediere, nu o constatare definitivă de neconstituționalitate. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355)",
+      "euLawNote": "Regulamentul este direct aplicabil din 18 august 2026; art. 15 cere sancțiuni proporționale și nu impune minimul de 100.000 lei, iar art. 18 garantează remedii efective. [Regulamentul 2023/1543](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023R1543) Directiva 2018/958 privește restricțiile asupra profesiilor reglementate și nu este incidentă aici. [Directiva 2018/958](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32018L0958) TRIS nu devine obligatoriu doar fiindcă sunt implicate servicii digitale: art. 7 alin. (1) lit. a) exceptează măsurile care execută obligații europene; eventualele cerințe tehnice naționale suplimentare trebuie examinate separat. Nu rezultă o încălcare demonstrată a notificării. [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32015L1535)",
+      "senatForm": {
+        "articleRef": "Art. 8 alin. (8)",
+        "proposalContent": "(8) În condițiile art. 16 alin. (10) din Regulament, se aplică amendă judiciară de până la 2% din cifra de afaceri anuală mondială din exercițiul financiar precedent, individualizată potrivit art. 15 alin. (1). Pentru furnizorii fără cifră de afaceri în acel exercițiu, amenda este de la 100 la 10.000 lei. Art. 284 din Codul de procedură penală se aplică în mod corespunzător.",
+        "argumentation": "Minimul de 100.000 lei depășește plafonul de 2% pentru furnizorii cu cifra de afaceri sub 5.000.000 lei. Regulamentul cere sancțiuni proporționale, fără acest minim. Propunerea permite individualizarea și reglementează furnizorii noi ori fără venituri; intervalul fix propus trebuie fundamentat prin evaluarea impactului.",
+        "otherComments": "Propunere pentru Comisia juridică a Camerei Deputaților, de preluat de un deputat. Se solicită și clarificarea accesului la conținut prin trimiterea la art. 152 CPP, a informării persoanei și a competenței când emitentul este ÎCCJ. Termenul european de 48 de ore privește solicitarea validării, nu pronunțarea."
+      }
+    }
+  }
+}

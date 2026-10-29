@@ -1,0 +1,117 @@
+{
+  "slug": "plx-40-2026",
+  "billId": "PL-x 40/2026",
+  "updatedAt": "2026-10-29T12:27:25.677Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L642FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Fonduri UE: erorile se scot din conturi fără hotărâre de Guvern, iar beneficiarii pot plăti și erori estimate statistic",
+      "summaryTlDr": "Scopul e legitim și tehnic: România trebuie să evite blocarea plăților de la Bruxelles. Art. 21¹ permite însă ca un beneficiar să plătească și o «eroare extrapolată», adică o estimare statistică fără definiție proprie, fără metodă de calcul și fără o cale clară de contestare. În plus, legea de aprobare, în forma inițiatorului, aprobă din greșeală «OUG nr. 82/2025» în loc de 86/2025.",
+      "scores": {
+        "agy": 5,
+        "claude": 5,
+        "codex": 6
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/40/0/se33.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Erorile din proiectele cu bani UE: statul acoperă golul, iar beneficiarii pot plăti și sume estimate",
+      "summaryTlDr": "Partea contabilă (art. 19) repară o problemă de calendar și e justificată. Problema e art. 21^1: după ce o singură eroare este confirmată, beneficiarul poate fi obligat să plătească și o sumă extrapolată statistic, pentru cheltuieli pe care nimeni nu le-a verificat una câte una.",
+      "scores": {
+        "agy": 5,
+        "claude": 5,
+        "codex": 6
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat ordonanța fără modificări de fond; s-a corectat doar numărul ei",
+      "summary": "Senatul a aprobat ordonanța fără modificări de fond, corectând doar numărul greșit (82 în loc de 86) din articolul unic. Riscurile rămân: datorii majorate cu o eroare extrapolată neverificată și erori plătite din bugetul de stat.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Eroarea extrapolată intră automat în datorie, fără verificare separată și contestare distinctă",
+            "major": true,
+            "article": "art. 21^1"
+          },
+          {
+            "text": "Nu spune pe ce cheltuieli, cine și pe ce eșantion calculează eroarea extrapolată",
+            "major": true,
+            "article": "art. 21^1"
+          },
+          {
+            "text": "Excepția de la art. 18 și 21 nu spune ce garanții procedurale pierde beneficiarul",
+            "major": true,
+            "article": "art. 21^1"
+          },
+          {
+            "text": "Excepția nu e limitată la 2021–2027; exceptate sunt doar programele de cooperare teritorială",
+            "major": true,
+            "article": "art. 21^1"
+          },
+          {
+            "text": "La erori sistemice, și beneficiarii care au respectat ghidul autorității pot primi creanțe",
+            "major": true,
+            "article": "art. 19 alin. (21^3)"
+          },
+          {
+            "text": "Sumele excluse rămân cheltuială definitivă a bugetului de stat, plătită de contribuabili",
+            "major": true,
+            "article": "art. 19 alin. (21^4)"
+          },
+          {
+            "text": "Nu mai există HG publicată; sumele excluse din conturi nu trebuie făcute publice",
+            "major": false,
+            "article": "art. 19 alin. (21^1)-(21^4)"
+          },
+          {
+            "text": "Sumele „excluse definitiv” se pot ajusta ulterior; „definitiv” nu e chiar definitiv",
+            "major": false,
+            "article": "art. 19 alin. (21^5)"
+          },
+          {
+            "text": "Neclar ce se întâmplă cu sumele recuperate ulterior de la beneficiari",
+            "major": false,
+            "article": "art. 19 alin. (21^4)-(21^5)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Excludere rapidă din conturi, fără HG, pentru eroare reziduală de cel mult 2%",
+            "major": false,
+            "article": "art. 19 alin. (21^1)-(21^2)"
+          },
+          {
+            "text": "La erori sistemice, cazurile similare se reverifică, iar creanțele se emit individual pe beneficiar",
+            "major": false,
+            "article": "art. 19 alin. (21^3)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:27:25.677Z"
+    }
+  ]
+}

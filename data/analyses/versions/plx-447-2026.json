@@ -1,0 +1,166 @@
+{
+  "slug": "plx-447-2026",
+  "billId": "PL-x 447/2026",
+  "updatedAt": "2026-10-29T12:41:56.089Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L245FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Companiile care exploatează un zăcământ de gaze îl pot transforma în depozit de gaze fără licitație",
+      "summaryTlDr": "Scopul e legitim: România are puțină capacitate de stocare a gazelor. Mecanismul este însă o atribuire directă, fără concurență, a dreptului de a folosi un zăcământ public ca depozit, iar legea nu fixează durata, redevența și nici cine plătește abandonul. «Transparența» promisă se reduce la o notificare în Monitorul Oficial, la care nimeni nu poate răspunde cu o ofertă concurentă.",
+      "scores": {
+        "agy": 5,
+        "claude": 6,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/40/7/se490.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Zăcămintele de gaze epuizate devin depozite fără licitație, direct la firma care le exploatează acum",
+      "summaryTlDr": "Scopul e legitim: România are nevoie urgentă de capacitate de stocare, iar zăcămintele mature sunt calea firească. Problema este că legea dă unei firme deja prezente o resursă publică rară, fără competiție, și nu o obligă să construiască efectiv depozitul. Lipsesc termenele, garanțiile și regulile pentru gazul rămas în zăcământ, așa că legea poate fi folosită pentru a amâna abandonul perimetrului.",
+      "scores": {
+        "agy": 5,
+        "claude": 5,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a lăsat neschimbată conversia fără licitație a acordurilor de extracție în depozite de gaze",
+      "summary": "Senatul a păstrat fondul: titularul unui acord de extracție își poate transforma perimetrul în depozit de gaze fără licitație, doar cu o notificare informativă. S-a corectat trimiterea la normele de aplicare, iar legea a fost votată ca organică.",
+      "changes": [
+        {
+          "title": "Corectată trimiterea la normele de aplicare",
+          "text": "La art. II, normele de aplicare pe care Guvernul trebuie să le modifice în 90 de zile sunt acum indicate corect: HG nr. 2075/2004, nu HG nr. 238/2004.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. II",
+          "before": "aprobate prin Hotărârea Guvernului nr. 238/2004, cu modificările și completările ulterioare",
+          "after": "aprobate prin Hotărârea Guvernului nr.2075/2004, cu modificările ulterioare",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Senatul a votat-o ca lege organică",
+          "text": "Formula de adoptare trimite acum la art. 76 alin. (1) din Constituție, adică la votul majorității membrilor, cerut pentru legile organice, în locul art. 76 alin. (2).",
+          "effect": "neutru",
+          "major": false,
+          "article": null,
+          "before": "cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată",
+          "after": "cu respectarea prevederilor articolului 76 alineatul (1) din Constituția României, republicată",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Titlul complet al directivei europene invocate",
+          "text": "La art. 31¹ alin. (4) apare titlul întreg al Directivei 94/22/CE. Din el reiese că directiva privește prospectarea, explorarea și extracția hidrocarburilor, nu înmagazinarea.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 31¹ alin. (4)",
+          "before": "Directiva 94/22/CE a Parlamentului European și a Consiliului din 30 mai 1994, autoritatea competentă",
+          "after": "Directiva 94/22/CE a Parlamentului European și a Consiliului din 30 mai 1994 privind condițiile de acordare și folosire a autorizațiilor de prospectare, explorare și extracție a hidrocarburilor",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Perimetrul public trece direct la titularul actual, fără licitație și fără concurenți",
+            "major": true,
+            "article": "art. 31¹ alin. (1)"
+          },
+          {
+            "text": "ANRM «poate aproba» discreționar, fără criterii clare de refuz",
+            "major": true,
+            "article": "art. 31¹ alin. (1)"
+          },
+          {
+            "text": "Notificarea de 30 de zile e doar informativă; terții nu pot obiecta sau oferta",
+            "major": true,
+            "article": "art. 31¹ alin. (4)"
+          },
+          {
+            "text": "Nicio regulă despre redevență, durata acordului, garanții de mediu sau gazul rămas",
+            "major": true,
+            "article": "art. 31¹"
+          },
+          {
+            "text": "Fără termen de punere în funcțiune și fără încetare dacă depozitul nu se face",
+            "major": true,
+            "article": "art. 31¹ alin. (2)"
+          },
+          {
+            "text": "Fezabilitatea e avizată de aceeași autoritate care decide, fără expertiză independentă",
+            "major": false,
+            "article": "art. 31¹ alin. (2) lit. a)"
+          },
+          {
+            "text": "Condiția privind întreruperea de peste 12 luni e vagă și greu de verificat",
+            "major": false,
+            "article": "art. 31¹ alin. (2) lit. d)"
+          },
+          {
+            "text": "Directiva invocată acoperă extracția, nu înmagazinarea; temeiul european e slab",
+            "major": false,
+            "article": "art. 31¹ alin. (4)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Titularul trebuie să dovedească fezabilitatea și capacitatea tehnică și financiară",
+            "major": true,
+            "article": "art. 31¹ alin. (2) lit. a), b)"
+          },
+          {
+            "text": "Titularul cu restanțe la buget, redevență sau contract nu poate obține conversia",
+            "major": true,
+            "article": "art. 31¹ alin. (2) lit. c)"
+          },
+          {
+            "text": "Intenția și decizia de conversie se publică în Monitorul Oficial și pe site",
+            "major": false,
+            "article": "art. 31¹ alin. (4)"
+          },
+          {
+            "text": "Autoritatea trebuie să decidă în 60 de zile de la dosarul complet",
+            "major": false,
+            "article": "art. 31¹ alin. (3)"
+          },
+          {
+            "text": "Acordul convertit intră în vigoare doar după aprobarea prin hotărâre de Guvern",
+            "major": false,
+            "article": "art. 31¹ alin. (5)"
+          },
+          {
+            "text": "Guvernul trebuie să stabilească în 90 de zile procedura și condițiile de siguranță",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 7,
+        "removed": 10,
+        "same": 0.5
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:40:53.411Z"
+    }
+  ]
+}

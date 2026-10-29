@@ -1,0 +1,151 @@
+{
+  "slug": "plx-709-2026",
+  "billId": "PL-x 709/2026",
+  "updatedAt": "2026-10-29T13:35:40.064Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L571FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Parcuri științifice: pot avea mai multe universități partenere, iar administratorul are mână mai liberă",
+      "summaryTlDr": "Lege tehnică și în mare utilă: confirmă că un parc științific poate avea mai multe universități sau institute partenere și relaxează rolul administratorului. Problemele sunt de redactare (majoritatea la desemnarea administratorului, termenul de 12 luni), nu de fond.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/700/00/9/se802.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Parcurile științifice pot avea mai multe universități partenere, iar administratorii pot face mai mult decât să gestioneze clădiri",
+      "summaryTlDr": "Lege tehnică și în general utilă: deschide parcurile științifice către mai mulți parteneri academici și scoate administratorul din rolul de simplu gestionar de spații. Problemele sunt de redactare (o trimitere greșită la „OG 14/2022” și o regulă de vot neclară) plus o schimbare de fond prezentată drept simplă corelare.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Activitățile în plus ale administratorului parcului pot fi doar secundare, nu principale",
+      "summary": "Acum se precizează că administratorul parcului poate face alte activități doar ca activități secundare. Dispare termenul de 12 luni pentru actualizare și apare o notificare în 30 de zile. Rămân problemele mari: majoritatea de vot nedefinită și parcuri autorizate fără nicio universitate.",
+      "changes": [
+        {
+          "title": "Activitățile în plus ale administratorului devin doar secundare",
+          "text": "La art. 1 alin. (5), activitățile în plus ale administratorului, necesare obiectivelor parcului, pot fi acum înregistrate ca activități secundare. Activitatea principală rămâne administrarea parcului.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 1 alin. (5)",
+          "before": "precum și orice activitate necesară atingerii obiectivelor prevăzute la art. 2 din prezenta ordonanță",
+          "after": "precum și orice alte activități necesare atingerii obiectivelor prevăzute la art.2, putând fi înregistrate ca activități secundare",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dispare termenul de 12 luni pentru actualizarea activității",
+          "text": "La art. II alin. (1), administratorii existenți care vor activități secundare au acum obligația de a-și actualiza obiectul de activitate. Termenul de 12 luni prevăzut inițial dispare.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. II alin. (1)",
+          "before": "procedează la actualizarea obiectului de activitate înscris în Registrul Comerțului, în termen de 12 luni de la data intrării în vigoare a prezentei legi",
+          "after": "au obligația de a-și actualiza obiectul de activitate înscris în Registrul Comerțului",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Actualizarea trebuie notificată autorității în 30 de zile",
+          "text": "Art. II alin. (2) adaugă obligația de a notifica actualizarea obiectului de activitate «autorității competente» în 30 de zile. Textul nu spune care este această autoritate.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. II alin. (2)",
+          "before": null,
+          "after": "Actualizarea obiectului de activitate se notifică autorității competente în termen de 30 de zile de la înregistrarea acesteia.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Un parc poate fi autorizat fără nicio universitate, doar cu o unitate de cercetare",
+            "major": true,
+            "article": "art. 6 alin. (2) lit. b)"
+          },
+          {
+            "text": "Nu se spune dacă majoritatea pentru administrator e pe cap sau pe cote",
+            "major": true,
+            "article": "art. 1 alin. (5)"
+          },
+          {
+            "text": "Înlocuirea sau revocarea ulterioară a administratorului nu e reglementată",
+            "major": false,
+            "article": "art. 1 alin. (5)"
+          },
+          {
+            "text": "Nicio autoritate nu verifică dacă activitățile secundare sunt «necesare» obiectivelor parcului",
+            "major": false,
+            "article": "art. 1 alin. (5)"
+          },
+          {
+            "text": "Nu se spune care e «autoritatea competentă» ce primește notificarea",
+            "major": false,
+            "article": "art. II alin. (2)"
+          },
+          {
+            "text": "Trimitere greșită la «Ordonanța Guvernului nr.14/2022» în loc de 14/2002",
+            "major": false,
+            "article": "art. II alin. (1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Administratorul poate face și activități secundare, nu doar administrarea parcului",
+            "major": true,
+            "article": "art. 1 alin. (5)"
+          },
+          {
+            "text": "Asocierea poate include una sau mai multe universități sau unități de cercetare",
+            "major": false,
+            "article": "art. 1 alin. (4)"
+          },
+          {
+            "text": "Schimbarea obiectului de activitate nu afectează autorizația și nu cere reautorizare",
+            "major": false,
+            "article": "art. II alin. (2)"
+          },
+          {
+            "text": "Autoritatea este anunțată de actualizarea obiectului de activitate în 30 de zile",
+            "major": false,
+            "article": "art. II alin. (2)"
+          },
+          {
+            "text": "Terminologie actualizată: societăți reglementate de Legea 31/1990, nu «societăți comerciale»",
+            "major": false,
+            "article": "art. 1 alin. (4)-(5)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 12,
+        "removed": 12,
+        "same": 0.08
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:29:51.431Z"
+    }
+  ]
+}

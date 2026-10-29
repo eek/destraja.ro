@@ -1,0 +1,92 @@
+{
+  "slug": "plx-329-2026",
+  "billId": "PL-x 329/2026",
+  "updatedAt": "2026-10-29T13:06:45.109Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L178FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Control mai larg pe investițiile străine, avize de mediu mai rapide și ISU cu putere de închidere",
+      "summaryTlDr": "Pachet mixt, cu intenții în mare parte bune: termene de mediu mai scurte și un ISU care poate închide clădirile periculoase. Problema e ambalajul: o ordonanță-omnibus cu urgență motivată generic, plus extinderea controlului CEISD la vânzările de active, care poate prinde și tranzacții banale dacă domeniile și pragurile nu sunt fixate strict.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/300/20/9/se359.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Control mai larg pe investițiile străine, avize de mediu mai rapide și ISU mai dur cu clădirile periculoase",
+      "summaryTlDr": "E o ordonanță „omnibus” care leagă trei regimuri diferite. Măsurile ISU și scurtarea termenelor de mediu sunt rezonabile, dar extinderea controlului CEISD la cumpărarea de active poate prinde în plasă și tranzacții banale. Problemele reale sunt definiția acestor active și urgența discutabilă a unei OUG care se aplică deja din martie 2026.",
+      "scores": {
+        "agy": 5,
+        "claude": 5,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat tacit ordonanța, fără modificări: regulile rămân aceleași",
+      "summary": "Senatul a adoptat tacit legea de aprobare, în forma inițială. Acum apar doar data ordonanței și Monitorul Oficial în care a fost publicată. Regulile despre controlul investițiilor (CEISD), termenele de mediu și securitatea la incendiu rămân neschimbate.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Controlul CEISD se extinde la cumpărarea de active; amploarea depinde de definiții și praguri",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Controlul ISU corelat cu «prioritatea finalizării» investițiilor pe fonduri europene; efect neclar",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "ISU poate opri funcționarea la încălcări grave: cămine, stații GPL, metrou, depozite",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Proiectanții și executanții răspund pentru calitate la cerința «securitate la incendiu»",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Termene de mediu scurtate, încadrarea în 60 de zile; exceptate proiectele transfrontaliere",
+            "major": false,
+            "article": "art. 9-10 din anexa 5 la Legea 292/2018"
+          },
+          {
+            "text": "Autorizarea unor servicii comerciale e corelată cu condițiile de securitate la incendiu",
+            "major": false,
+            "article": null
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:06:45.109Z"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENATUL
+
+LEGE
+
+pentru aprobarea Ordonanței de urgență a Guvernului nr. 13 /2026 privind modificarea și completarea unor acte normative în materie fiscal-bugetară
+
+Parlamentul României adoptă prezenta lege:
+
+Articol unic. – Se aprobă Ordonanța de urgență a Guvernului nr. 13 /2026 privind modificarea și completarea unor acte normative în materie fiscal-bugetară.

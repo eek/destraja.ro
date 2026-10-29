@@ -1,0 +1,39 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+## LEGE
+
+privind modificarea completarea art.13 din Ordonanța de urgență a Guvernului nr.77/2009 privind organizarea și exploatarea jocurilor de noroc
+
+Senatul adoptă prezentul proiect de lege
+
+Art.I.- Ordonanța de urgență a Guvernului nr.77/2009 privind organizarea și exploatarea jocurilor de noroc, publicată în Monitorul Oficial al României, Partea I, nr.439 din data de 26 iunie 2009, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+## 1. Alin.(3) al art.13 se modifică și va avea următorul cuprins: „Art.13
+
+(3) Un procent de 97,8% din taxele percepute pentru obținerea licenței de organizare a jocurilor de noroc și a autorizației de exploatare a jocurilor de noroc, taxa de acces prevăzută la alin.(4), precum și din celelalte taxe prevăzute în prezenta ordonanță de urgență se constituie venit la bugetul de stat, iar prin derogare de la dispozițiile alin.(2) al art.30 din Legea responsabilității fiscal-bugetare nr.69/2010, republicată, cu modificările și completările ulterioare, un procent de 1% din aceste taxe se constituie ca venit al Comitetului Olimpic și Sportiv Român, 0,2% ca venit al Comitetului Național Paralimpic și 1% se direcționează ca venit la bugetul Oficiului Național pentru Jocuri de Noroc, într-un fond special destinat finanțării programelor de prevenire, tratament și reintegrare socială pentru persoanele afectate de dependența de jocuri de noroc.”
+
+2\. După alin.(3³) al art.13 se introduc două noi alineate, alin.(3⁴) și (3⁵), cu următorul cuprins:
+
+„Art.13
+
+(3⁴) Fondul special destinat finanțării programelor de prevenire, tratament și reintegrare socială pentru persoanele afectate de dependența de jocuri de noroc este gestionat de Oficiul Național pentru Jocuri de Noroc, pe baza unui plan anual aprobat prin hotărâre de Guvern.
+
+(3^{5}) Fondul special prevăzut la alin.(3^{4}) este utilizat pentru:
+
+a) dezvoltarea și funcționarea centrelor publice sau private acreditate pentru consilierea și tratamentul dependenței de jocuri de noroc;
+
+b) campanii naționale de informare și consțientizare;
+
+c) programe de formare pentru specialiști în adicții comportamentale;
+
+d) proiecte derulate de organizații non-guvernamentale acreditate, prin mecanisme de finanțare nerambursabilă.”
+
+Art.II.- În termen de 90 de zile de la intrarea în vigoare a prezentei legi, se aprobă, prin hotărâre de Guvern, normele metodologice privind modul de gestionare și alocare a fondului prevăzut la alin.(3⁴).
+
+Acest proiect de lege se consideră adoptat de Senat în forma inițială, în condițiile articolului 75 alineatul (2) teza a III-a din Constituția României, republicată.
+
+## p. PREȘEDINTELE SENATULUI
+
+## MIHAI COTET

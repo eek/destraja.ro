@@ -1,0 +1,89 @@
+EXPUNERE DE MOTIVE la propunerea legislativă pentru completarea Ordonanței Guvernului nr. 21/1992 privind protecția consumatorilor
+
+## I. DESCRIEREA SITUAȚIEI ACTUALE
+
+Protecția consumatorilor reprezintă un principiu fundamental al economiei de piață și este reglementată în legislația națională prin Ordonanța Guvernului nr. 21/1992 privind protecția consumatorilor, act normativ care stabilește drepturile consumatorilor și obligațiile profesioniștilor în relațiile contractuale. Deși cadrul legislativ existent reglementează obligația comercianților de a furniza informații corecte și complete cu privire la prețul produselor și serviciilor oferite, legislația nu conține în prezent o reglementare explicită referitoare la modalitatea de facturare a contractelor încheiate cu consumatorii atunci când prețul este exprimat în euro sau în alte monede străine.
+
+În lipsa unor reguli clare privind mecanismul de conversie valutară aplicabil în aceste situații, practica comercială a evidențiat existența unor modele contractuale prin care profesioniștii stabilesc prețurile în euro, însă facturează consumatorilor în lei utilizând cursuri de schimb diferite de cursul oficial publicat de Banca Națională a României sau aplicând diverse marje, comisioane ori mecanisme interne de conversie valutară. Aceste practici sunt întâlnite în special în domenii precum leasingul financiar pentru autoturisme sau echipamente, anumite contracte de servicii financiare, abonamente sau alte servicii contractate pe termen lung, în care prețul contractual este exprimat în valută, dar obligația de plată se realizează în moneda națională. În astfel de situații, consumatorii ajung să suporte diferențe de curs sau costuri suplimentare generate de mecanismele de conversie utilizate de profesioniști, costuri care nu sunt întotdeauna prezentate într-un mod suficient de clar și inteligibil la momentul încheierii contractului.
+
+Problemele legate de transparența relațiilor comerciale și de respectarea drepturilor consumatorilor sunt reflectate și în activitatea de control desfășurată de Autoritatea Națională pentru Protecția Consumatorilor, instituția competență în aplicarea legislației privind protecția consumatorilor. Potrivit datelor oficiale comunicate de această instituție, acțiunile de control desfășurate la nivel național evidențiază în mod constant existența unor nereguli în relația dintre profesioniști și consumatori. Astfel, în luna ianuarie 2026, în urma a peste 6.600 de acțiuni de control realizate la nivel național, comisarii ANPC au aplicat peste 5.000 de sancțiuni contravenționale, valoarea totală a amenzilor depășind 26 milioane lei, pentru încălcări ale legislației în domeniul protecției consumatorilor. În alte acțiuni de control desfășurate anterior, autoritatea a verificat peste 6.700 de profesioniști și a aplicat sancțiuni contravenționale în valoare de peste 32 milioane lei, rezultatele acestor controale confirmând existența unor practici comerciale care pot afecta interesele economice ale consumatorilor și care necesită consolidarea cadrului legislativ aplicabil.
+
+În contextul dezvoltării pieței serviciilor financiare, al extinderii contractelor de leasing și al utilizării frecvente a mecanismelor de indexare a prețurilor în valută, lipsa unor reguli clare privind facturarea și conversia valutară în raporturile cu consumatorii poate genera dezechilibre contractuale și poate afecta predictibilitatea obligațiilor financiare asumate de consumatori. În aceste condiții, se impune clarificarea cadrului legislativ prin introducerea unor norme care să asigure transparența și corectitudinea mecanismului de facturare aplicabil contractelor exprimate în valută.
+
+## II. SCOPUL URMĂRIT PRIN PREZENTUL PROIECT DE LEGE. SCHIMBĂRI PRECONIZATE
+
+Prezentul proiect de lege urmărește consolidarea protecției consumatorilor prin instituirea unor reguli clare și transparente privind modalitatea de facturare a contractelor încheiate între profesioniști și consumatori atunci când prețul este exprimat în euro sau în alte monede străine. Reglementarea propusă are ca obiectiv eliminarea posibilității aplicării unor costuri suplimentare generate de mecanisme de conversie valutară stabilite unilateral de profesioniști și asigurarea unui standard unitar de conversie a prețurilor exprimate în valută.
+
+Prin introducerea noilor dispoziții se stabilește obligația profesioniștilor de a emite facturile către consumatori în moneda națională, respectiv în lei, utilizând exclusiv cursul oficial de schimb valutar comunicat de Banca Națională a României pentru ziua lucrătoare precedentă datei emiterii facturii. Totodată, proiectul prevede în mod expres interdicția aplicării de marje, adaosuri, comisioane sau alte costuri suplimentare asupra cursului de schimb utilizat pentru conversia valorii facturate.
+
+În același timp, proiectul de act normativ instituie obligația profesioniștilor de a informa consumatorii în mod clar și inteligibil, anterior încheierii contractului, cu privire la modalitatea de facturare și la mecanismul de conversie valutară aplicabil. Prin aceste măsuri se urmărește asigurarea unei transparențe reale în relația contractuală și crearea unui cadru predictibil pentru consumatori în ceea ce privește costurile aferente bunurilor și serviciilor contractate.
+
+Pentru contractele aflate deja în derulare la data intrării în vigoare a noilor dispoziții, proiectul instituie o perioadă de adaptare în care profesioniștii au obligația de a alinia contractele existente la noile prevederi prin încheierea unor acte adiționale comunicate consumatorilor, fără costuri suplimentare pentru aceștia. În acest mod se asigură o tranziție echilibrată către noul regim juridic, fără a afecta stabilitatea raporturilor contractuale existente.
+
+Totodată, proiectul reglementează, cu titlu de excepție, posibilitatea emiterii facturilor și efectuării plăților în euro sau în altă monedă străină, în cazurile în care, potrivit dispozițiilor legale aplicabile, obligațiile bănești pot fi exprimate și executate în valută, cu acordul expres al consumatorului.
+
+Reglementarea propusă este compatibilă cu principiile dreptului european în materia protecției consumatorilor, care impun asigurarea unei informări corecte și complete a consumatorilor și prevenirea practicilor comerciale care pot afecta interesele economice ale acestora. Prin clarificarea mecanismului de facturare aplicabil contractelor exprimate în valută, proiectul de lege contribuie la creșterea predictibilității raporturilor contractuale și la consolidarea protecției consumatorilor în cadrul pieței serviciilor și bunurilor destinate acestora.
+
+## III. IMPACTUL FINANCIAR-BUGETAR
+
+Adoptarea prezentului proiect de act normativ nu implică alocarea unor resurse financiare suplimentare de la bugetul de stat și nu determină crearea unor noi structuri administrative sau instituții publice. Măsurile propuse vizează exclusiv stabilirea unor reguli de transparență în relațiile contractuale dintre profesioniști și consumatori și pot fi aplicate în cadrul mecanismelor instituționale deja existente.
+
+Controlul respectării acestor prevederi va fi realizat în cadrul atribuțiilor deja exercitate de Autoritatea Națională pentru Protecția Consumatorilor, instituție care are competența de a verifica respectarea legislației în domeniul protecției consumatorilor și de a aplica sancțiunile prevăzute de lege în cazul constatării unor abateri. Prin urmare, impactul financiar asupra bugetului general consolidat este neutru.
+
+## IV. EFECTELE PROIECTULUI DE ACT NORMATIV ASUPRA LEGISLAȚIEI ÎN VIGOARE
+
+Urmare a intrării în vigoare a proiectului de act normativ, următorul act normativ va fi modificat:
+
+\- Ordonanța Guveraului nr. 21/1992 privind protecția consumatorilor
+
+Față de cele expuse, solicităm dezbaterea și adoptarea prezentei propuneri legislative.
+
+Inițiator:
+
+Cezar-Mihail Drăgoescu|
+
+## Lista inițiatorilor
+
+la propunerea legislativă pentru completarea Ordonanței Guvernului nr. 21/1992 privind protecția consumatorilor
+
+<table>
+<tbody>
+<tr><td>NR.</td><td>DEPUTAT/SENATOR</td><td>SEMNĂTURĂ</td><td>PARTID</td></tr>
+<tr><td>1.</td><td>SENDROIU VLAD-10AN</td><td rowspan="16"></td><td>USR</td></tr>
+<tr><td>2.</td><td>DimiTm'U ALEYANDM</td><td>USR</td></tr>
+<tr><td>3.</td><td>AHY STOIA</td><td>USR</td></tr>
+<tr><td>4.</td><td>CRISTIAN BRIAN</td><td>USR</td></tr>
+<tr><td>5.</td><td>GIURGIO ADRIAN</td><td>USR</td></tr>
+<tr><td>6.</td><td>GHEORGHIV ANDREI</td><td>USR</td></tr>
+<tr><td>7.</td><td>BLASA MANIEL</td><td>USR</td></tr>
+<tr><td>8.</td><td>Buleorca Felix</td><td>USR</td></tr>
+<tr><td>9.</td><td>Morussi George</td><td>USR</td></tr>
+<tr><td>10.</td><td>Parasduvesch Oedin</td><td>USR</td></tr>
+<tr><td>11.</td><td>ALECSANIRU MARTUS-NICOLAE</td><td>USR</td></tr>
+<tr><td>12.</td><td>PLUSAR ANDREI</td><td>USR</td></tr>
+<tr><td>13.</td><td>STEHIAN ON</td><td>USR</td></tr>
+<tr><td>14.</td><td>COLIBAN ALLEN</td><td>USR</td></tr>
+<tr><td>15.</td><td>Radn Mihgin</td><td>USR</td></tr>
+<tr><td>16.</td><td>POCCYANNA HANGAM</td><td>USR</td></tr>
+<tr><td>17.</td><td>TANASSTEFAN</td><td>USR</td></tr>
+<tr><td>18.</td><td>CORINA ATAMASIC</td><td>USR</td></tr>
+<tr><td>19.</td><td>GIMA GOORGE</td><td>USR</td></tr>
+<tr><td>20.</td><td>VATAVA DUMITHU</td><td>USR</td></tr>
+<tr><td>21.</td><td>LQNCF IJKJAG</td><td>USR</td></tr>
+<tr><td>22.</td><td>Smonul Cngunem</td><td>USA</td></tr>
+<tr><td>23.</td><td>RIGHAN CIPRIAN</td><td>USR</td></tr>
+<tr><td>24.</td><td></td><td></td></tr>
+<tr><td>25.</td><td></td><td></td></tr>
+<tr><td>26.</td><td></td><td></td></tr>
+<tr><td>27.</td><td></td><td></td></tr>
+<tr><td>28.</td><td></td><td></td></tr>
+<tr><td>29.</td><td></td><td></td></tr>
+<tr><td>30.</td><td></td><td></td></tr>
+<tr><td>31.</td><td></td><td></td></tr>
+<tr><td>32.</td><td></td><td></td></tr>
+<tr><td>33.</td><td></td><td></td></tr>
+<tr><td>34.</td><td></td><td></td></tr>
+<tr><td>35.</td><td></td><td></td></tr>
+<tr><td>36.</td><td></td><td></td></tr>
+</tbody>
+</table>

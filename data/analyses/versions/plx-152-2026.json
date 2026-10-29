@@ -1,0 +1,203 @@
+{
+  "slug": "plx-152-2026",
+  "billId": "PL-x 152/2026",
+  "updatedAt": "2026-10-29T12:42:13.775Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L074FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Medicii din radiologia intervențională pot deveni medicul curant al pacientului",
+      "summaryTlDr": "Inițiativa e utilă și nu ascunde capcane: scutește pacienții de un drum la alt medic doar pentru o trimitere. Textul e însă scris în grabă, cu categorii nedefinite, „neurologie” în loc de „neuroradiologie” intervențională și o fișă financiară goală, așa că merită corectat în comisie.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/50/2/se169.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Legea spune cine e „medicul curant”, inclusiv medicul care îți face o intervenție",
+      "summaryTlDr": "Lege tehnică și în esență inofensivă: introduce în Legea 95/2006 definiția medicului curant și a medicului curant intervenționist. Problema nu e un pericol ascuns, ci că textul nu face concret ce promite expunerea de motive: nu dă nimănui drept de prescriere și lasă efectul practic pe seama unor norme ale Ministerului Sănătății.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_riscant",
+      "headline": "Senatul dă statut de medic curant intervenționist oricărui medic cu competență atestată",
+      "summary": "Inițial, doar medicii de radiologie și neurologie intervențională deveneau medici curanți. Acum statutul de medic curant intervenționist se extinde la orice medic cu competență atestată, fără să se spună cine o atestă, iar lista de atribuții dispare.",
+      "changes": [
+        {
+          "title": "Statutul intervenționist se extinde la orice medic atestat",
+          "text": "Inițial erau numiți doar medicii de radiologie și neurologie intervențională. Acum, art. 381 alin. (2³) cuprinde orice medic cu competență atestată în proceduri invazive, fără să spună cine o atestă.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 381 alin. (2³)",
+          "before": "Medicii de radiologie intervențională și cei de neurologie intervențională sunt medici curanți.",
+          "after": "Medicul curant intervenționist este medicul specialist sau primar, cu competență atestată în proceduri intervenționale diagnostice și/sau terapeutice, care preia responsabilitatea directă pentru efectuarea unei intervenții medicale invazive sau minim invazive asupra unui pacient",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Intervenționistul răspunde pentru indicație, execuție și monitorizare",
+          "text": "Alin. (2³) spune explicit că intervenționistul răspunde pentru indicația, executarea și monitorizarea procedurii, dar nu arată cum se împarte răspunderea cu medicul curant al cazului.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 381 alin. (2³)",
+          "before": null,
+          "after": "asumându-și răspunderea profesională pentru indicația, executarea și monitorizarea procedurii",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dispare obligația scrisă de a informa pacientul",
+          "text": "Inițial, legea enumera atribuțiile medicului curant, inclusiv informarea pacientului și semnarea documentelor medicale. Acum lista lipsește; definiția păstrează doar evaluarea, diagnosticul și tratamentul.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 133¹ alin. (2)",
+          "before": "informează pacientul despre starea sa de sănătate și despre evoluția tratamentului, întocmește și semnează documentele medicale",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Medicul curant devine cel „desemnat sau ales”",
+          "text": "Inițial, medic curant era cel care are pacientul în îngrijire directă. Acum este medicul „desemnat sau ales” cu responsabilitatea principală, fără să se spună cine îl desemnează sau alege.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 381 alin. (2¹)",
+          "before": "În sensul prezentei legi, medicul curant este medicul care are în îngrijire directă un pacient",
+          "after": "Medicul curant este medicul desemnat sau ales care are responsabilitatea principală pentru evaluarea, diagnosticarea, indicarea și coordonarea tratamentului unui pacient",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Reguli separate pentru spital, ambulatoriu și cazuri interdisciplinare",
+          "text": "Alin. (2²) arată cine e medicul curant în spital, ambulatoriu și cazuri interdisciplinare, dar „de regulă” lasă excepții nedefinite, iar în ambulatoriu pot fi doi medici curanți.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 381 alin. (2²)",
+          "before": null,
+          "after": "în spital: medicul curant este, de regulă, medicul specialist sau primar desemnat prin foia de observație ca responsabil al cazului",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Lipsesc atribuțiile concrete: informarea pacientului, prescriere, trimitere, semnarea documentelor",
+            "major": true,
+            "article": "art. 381 alin. (2¹)-(2⁴)"
+          },
+          {
+            "text": "Nu se spune cine desemnează sau alege medicul curant",
+            "major": true,
+            "article": "art. 381 alin. (2¹)"
+          },
+          {
+            "text": "Orice medic cu competență atestată în proceduri invazive devine intervenționist, peste scopul declarat",
+            "major": true,
+            "article": "art. 381 alin. (2³)"
+          },
+          {
+            "text": "Legea nu spune cine atestă competența în proceduri intervenționale",
+            "major": true,
+            "article": "art. 381 alin. (2³)"
+          },
+          {
+            "text": "Neclar cum se împarte răspunderea pentru indicație cu medicul curant al cazului",
+            "major": true,
+            "article": "art. 381 alin. (2³)-(2⁴)"
+          },
+          {
+            "text": "Formula „de regulă” din spital lasă loc unor excepții nedefinite",
+            "major": false,
+            "article": "art. 381 alin. (2²) lit. a)"
+          },
+          {
+            "text": "În ambulatoriu pot exista doi medici curanți, cu criteriu de departajare vag",
+            "major": false,
+            "article": "art. 381 alin. (2²) lit. b)"
+          },
+          {
+            "text": "Noțiunea, folosită și la concediile medicale, devine mai puțin previzibilă",
+            "major": false,
+            "article": "art. 381 alin. (2¹)-(2²)"
+          },
+          {
+            "text": "Normele doar de Ministerul Sănătății, fără CNAS și fără act de aprobare precizat",
+            "major": false,
+            "article": "art. II"
+          },
+          {
+            "text": "Alin. (2¹)-(2²), cele mai ambigue, rămân fără norme de aplicare",
+            "major": false,
+            "article": "art. II"
+          },
+          {
+            "text": "Depășirea termenului de 60 de zile pentru norme nu are nicio consecință",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "good": [
+          {
+            "text": "Răspunderea intervenționistului pentru indicație, execuție și monitorizare este scrisă explicit",
+            "major": true,
+            "article": "art. 381 alin. (2³)"
+          },
+          {
+            "text": "Nu mai numește specialități, deci dispare confuzia neurologie/neuroradiologie intervențională",
+            "major": false,
+            "article": "art. 381 alin. (2³)"
+          },
+          {
+            "text": "În spital, medicul curant se stabilește prin foaia de observație",
+            "major": false,
+            "article": "art. 381 alin. (2²) lit. a)"
+          },
+          {
+            "text": "În cazuri interdisciplinare, medicul curant rămâne coordonatorul, chiar cu consultanți implicați",
+            "major": false,
+            "article": "art. 381 alin. (2²) lit. c)"
+          },
+          {
+            "text": "Intervenționistul poate fi și medicul curant al cazului, dacă îl coordonează integral",
+            "major": false,
+            "article": "art. 381 alin. (2⁴)"
+          },
+          {
+            "text": "Termen de 60 de zile pentru normele privind medicul intervenționist",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 7,
+        "removed": 8,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:42:13.775Z"
+    }
+  ]
+}

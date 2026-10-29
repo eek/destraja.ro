@@ -1,0 +1,112 @@
+{
+  "slug": "plx-203-2026",
+  "billId": "PL-x 203/2026",
+  "updatedAt": "2026-10-29T12:47:37.049Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L622FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "Rezervarea numelui pentru asociații și fundații se mută online",
+      "summaryTlDr": "Este o digitalizare utilă și de mult așteptată, care aduce ONG-urile la nivelul firmelor. Problema e cuvântul „exclusiv”: legea cere semnătură electronică calificată și nu are plan B dacă platforma întârzie, așa că exact oamenii pe care spune că îi ajută pot rămâne pe dinafară.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/200/00/3/se215.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "Rezervarea numelui unui ONG se mută online, la Ministerul Justiției",
+      "summaryTlDr": "Lege utilă și benignă: digitalizează un pas mărunt, dar birocratic, din înființarea unei asociații sau fundații. Problema este cuvântul „exclusiv”: fără o cale pe hârtie și cu semnătură calificată obligatorie, chiar oamenii pe care inițiatorii spun că vor să-i ajute pot rămâne pe dinafară, mai ales dacă platforma întârzie.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat textul inițiatorului fără schimbări de fond, doar cu alineatele renumerotate",
+      "summary": "Senatul a păstrat neschimbat fondul. Verificarea denumirii se face tot doar online, cu semnătură electronică calificată, iar platforma are tot 6 luni, fără soluție de rezervă. S-au schimbat doar numerotarea alineatelor și formulele finale.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Doar online, cu semnătură electronică calificată, de regulă plătită; ghișeul și poșta dispar",
+            "major": true,
+            "article": "art. I, alin. (6)"
+          },
+          {
+            "text": "Nicio soluție de rezervă dacă platforma întârzie; înființarea de asociații se poate bloca",
+            "major": true,
+            "article": "art. II"
+          },
+          {
+            "text": "Nu e clar dacă semnalarea riscului de confuzie duce la refuz sau cine decide",
+            "major": false,
+            "article": "art. I, alin. (7)"
+          },
+          {
+            "text": "Platforma nu e legată de registrul firmelor (ONRC) și de mărcile UE (EUIPO)",
+            "major": false,
+            "article": "art. II"
+          },
+          {
+            "text": "Neclar dacă simpla căutare a unui nume rămâne liberă și dovada gratuită",
+            "major": false,
+            "article": "art. I, alin. (5)-(6)"
+          },
+          {
+            "text": "Redactare neglijentă: „acte doveditoare” nedefinite, „înregistrare” în loc de rezervare, „ziile”",
+            "major": false,
+            "article": "art. I, alin. (6)-(8)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Verificarea și rezervarea denumirii online, pe o platformă națională cu acces public gratuit",
+            "major": false,
+            "article": "art. I, alin. (5)"
+          },
+          {
+            "text": "Rezervarea e valabilă 90 de zile, cu dovadă electronică semnată de minister",
+            "major": false,
+            "article": "art. I, alin. (8)"
+          },
+          {
+            "text": "Interconectare cu registrul ONG și cu OSIM, ca să se evite denumirile suprapuse",
+            "major": false,
+            "article": "art. II"
+          },
+          {
+            "text": "Se precizează că verificarea nu înlocuiește procedurile OSIM pentru mărci",
+            "major": false,
+            "article": "art. I, alin. (7)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 11,
+        "removed": 8,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:47:37.049Z"
+    }
+  ]
+}

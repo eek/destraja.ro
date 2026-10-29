@@ -1,0 +1,177 @@
+# EXPUNERE DE MOTIVE
+
+## I. Necesitatea reglementării
+
+Transformările profunde ale mediului internațional din ultimii ani au modificat substanțial modul în care statele își promovează și își protejează interesele naționale. Competiția geopolitică, accelerarea proceselor de integrare regională, evoluția tehnologiilor digitale, apariția unor noi amenințări la adresa securității internaționale, precum și creșterea importanței diplomației economice, climatice, digitale și științifice impun existența unui corp diplomatic cu un nivel ridicat de pregătire profesională, capabil să răspundă unor provocări din ce în ce mai complexe.
+
+În acest context, diplomația nu mai reprezintă exclusiv activitatea de reprezentare a statului în relațiile internaționale, ci constituie un instrument strategic de promovare a intereselor economice, comerciale, culturale, de securitate și de dezvoltare ale României. Consolidarea capacității instituționale a statului în domeniul politicii externe presupune investiții continue în formarea profesională, cercetarea aplicată și dezvoltarea competențelor necesare exercitării funcției diplomatice.
+
+România dispune de un corp diplomatic profesionist și de instituții academice care oferă programe de studii în domeniul relațiilor internaționale, însă în prezent nu există o instituție de învățământ superior dedicată exclusiv pregătirii integrate a diplomaților, funcționarilor publici cu atribuții în domeniul relațiilor externe și specialiștilor în diplomație, care să îmbine formarea academică, pregătirea practică și cercetarea aplicată într-un cadru instituțional unic.
+
+Actualul Institut Diplomatic Român îndeplinește un rol important în perfecționarea profesională a personalului Ministerului Afacerilor Externe și în organizarea unor programe de formare continuă. Cu toate acestea, cadrul juridic actual limitează posibilitatea dezvoltării unor programe universitare complete, a unor activități sistematice de cercetare academică și a unei cooperări instituționale extinse cu universități și institute similare din străinătate. Prin urmare, se impune modernizarea cadrului instituțional astfel încât România să dispună de o structură capabilă să răspundă exigențelor actuale ale diplomației contemporane.
+
+Înființarea Școlii Naționale de Diplomație urmărește crearea unei instituții de excelență care să integreze formarea universitară, formarea profesională continuă și cercetarea în domeniul relațiilor internaționale, al diplomăției și al politicii externe. Noua instituție va contribui la consolidarea resursei umane specializate a statului român și la dezvoltarea unei culturi instituționale bazate pe profesionalism, merit, competență și integritate.
+
+Necesitatea acestei reglementări rezultă și din obligația statului de a adapta permanent mecanismele de pregătire profesională la evoluțiile mediului internațional și la standardele practicate de statele cu tradiție diplomatică consolidată. În contextul apartenenței României la Uniunea Europeană și NATO, precum și al participării active în organizațiile internaționale, pregătirea diplomaților trebuie să fie susținută de o instituție capabilă să ofere programe academice și profesionale la standarde internaționale și să dezvolte expertiză în domenii emergente ale relațiilor internaționale.
+
+Astfel, prezenta inițiativă legislativă urmărește consolidarea capacității instituționale a statului român în domeniul diplomației, fără a modifica principiile fundamentale care guvernează accesul în Corpul diplomatic și consular sau autonomia sistemului național de învățământ superior, ci prin crearea unui cadru instituțional modern, adaptat nevoilor actuale și viitoare ale politicii externe a României.
+
+Proiectul urmărește instituirea cadrului necesar desfășurării activităților de formare de către noua entitate, precum și parcurgerii procedurilor de autorizare de funcționare provizorie și de acreditare, în vederea dobândirii statutului de instituție de învățământ superior. Parcurgerea acestor etape va asigura evaluarea îndeplinirii standardelor și cerințelor legale privind calitatea învățământului superior, constituind totodată o garanție a angajamentului noii entități de a dezvolta un cadru educațional universitar conform exigențelor aplicabile în domeniu.
+
+## II. Contextul național și internațional
+
+Politica externă a României se desfășoară într-un mediu internațional caracterizat de un grad ridicat de complexitate și volatilitate. Evoluțiile geopolitice din vecinătatea estică a Europei, intensificarea competiției strategice dintre marile puteri, transformările economiei globale, accelerarea proceselor de digitalizare și dezvoltarea noilor tehnologii au modificat substanțial rolul diplomăției și competențele necesare personalului implicat în gestionarea relațiilor internaționale.
+
+În prezent, diplomația modernă depășește cadrul tradițional al reprezentării politice și presupune expertiză multidisciplinară în domenii precum dreptul internațional, economia internațională, securitatea și apărarea, energia, schimbările climatice, migrația, diplomația digitală, inteligența artificială, diplomația economică, relațiile comerciale, protecția investițiilor, comunicarea strategică și gestionarea situațiilor de criză.
+
+În calitate de stat membru al Uniunii Europene și al Organizației Tratatului Atlanticului de Nord, România participă permanent la procese complexe de negociere și decizie, atât în cadrul instituțiilor europene și euroatlantice, cât și în cadrul Organizației Națiunilor Unite, Organizației pentru Securitate și Cooperare în Europa, Consiliului Europei, Organizației Mondiale a Comerțului și al altor organizații internaționale. Participarea eficientă la aceste procese presupune existența unor specialiști cu o pregătire academică și profesională adaptată exigențelor diplomației contemporane.
+
+În același timp, dezvoltarea relațiilor economice externe și intensificarea competiției globale pentru investiții, tehnologie și acces la piețe impun consolidarea dimensiunii economice a politicii externe. Diplomația economică reprezintă astăzi una dintre principalele componente ale acțiunii externe a statelor, iar pregătirea personalului implicat în promovarea intereselor economice ale României trebuie să răspundă acestor noi realități.
+
+Totodată, diplomația contemporană presupune dezvoltarea unor competențe specifice în domeniul comunicării publice, al combaterii dezinformării, al rezilienței instituționale și al cooperării internaționale în gestionarea provocărilor transfrontaliere, inclusiv în domeniul sănătății, securității cibernetice, protecției infrastructurilor critice și al schimbărilor climatice.
+
+În acest context, numeroase state au dezvoltat instituții specializate pentru pregătirea diplomaților și a experților în relații internaționale, integrând formarea academică, pregătirea profesională și cercetarea aplicată într-un cadru instituțional unitar. Aceste instituții contribuie atât la pregătirea propriului corp diplomatic, cât și la consolidarea relațiilor externe prin programe dedicate diplomaților și funcționarilor publici din state partenere.
+
+Experiența internațională demonstrează că investiția în formarea diplomatică reprezintă o investiție în capacitatea statului de a-și promova interesele naționale și de a răspunde eficient provocărilor mediului internațional. Instituții specializate de acest tip funcționează în numeroase state europene și extraeuropene, fiind recunoscute drept centre de excelență pentru pregătirea diplomaților și pentru dezvoltarea cercetării în domeniul politicii externe și al relațiilor internaționale.
+
+România dispune de universități și institute de cercetare cu tradiție în domeniul relațiilor internaționale, însă acestea au misiuni academice generale și nu sunt organizate ca instituții dedicate formării integrate a diplomaților și funcționarilor implicați în activitatea externă a statului. În același timp, Institutul Diplomatic Român desfășoară activități de formare profesională continuă, însă cadrul său legal și instituțional nu permite dezvoltarea unei oferte academice complete și a unei activități extinse de cercetare universitară.
+
+Prezenta inițiativă legislativă urmărește valorificarea experienței existente și dezvoltarea unui cadru instituțional modern, capabil să integreze formarea universitară, pregătirea profesională continuă și cercetarea aplicată, contribuind la consolidarea resursei umane specializate a statului român și la creșterea vizibilității internaționale a României în domeniul diplomăției și relațiilor internaționale.
+
+## III. Analiză comparativă internațională
+
+Dezvoltarea unor instituții specializate pentru pregătirea diplomaților reprezintă o practică consacrată în numeroase state, indiferent de dimensiunea acestora sau de modelul lor administrativ. În majoritatea cazurilor, aceste instituții îndeplinesc o funcție strategică, asigurând atât formarea inițială și continuă a personalului diplomatic, cât și dezvoltarea expertizei necesare fundamentării politicii externe și reprezentării intereselor statului în plan internațional.
+
+Experiența comparată evidențiază faptul că statele cu o diplomătie performantă investesc constant în pregătirea profesională a resursei umane și în dezvoltarea unor centre de excelență capabile să integreze activitatea academică, formarea practică și cercetarea aplicată. Deși organizarea instituțională diferă de la un stat la altul, obiectivul comun îl reprezintă profesionalizarea corpului diplomatic și adaptarea continuă la transformările mediului internațional.
+
+În statele membre ale Uniunii Europene funcționează instituții dedicate formării diplomaților, organize fie în subordinea ministerelor afacerilor externe, fie în cooperare cu instituții de învățământ superior. Acestea organizează programe de formare inițială și continuă, cursuri de specializare, programe executive și activități de cercetare în domeniul politicii externe, diplomației și relațiilor internaționale. În afara spațiului european, numeroase state au dezvoltat instituții similare, integrate în sistemele naționale de formare a diplomaților și a funcționarilor publici implicați în relațiile externe. Aceste instituții contribuie nu numai la pregătirea personalului propriu, ci și la consolidarea cooperării internaționale prin organizarea de programe destinate diplomaților și funționarilor publici din state partenere, devenind instrumente importante ale diplomației publice și ale cooperării internaționale.
+
+Analiza comparativă relevă câteva caracteristici comune acestor instituții:
+
+\- orientarea către excelență profesională și academică;
+
+\- integrarea pregătirii teoretice cu formarea practică;
+
+\- cooperarea permanentă cu ministerele afacerilor externe și educației și cu instituțiile publice relevante;
+
+\- dezvoltarea cercetării aplicate în domeniul politicii externe și al relațiilor internaționale;
+
+\- cooperarea internațională cu instituții similare și organizații internaționale;
+
+\- adaptarea continuă a programelor de pregătire la evoluțiile geopolitice, economice și tehnologice.
+
+Experiența internațională demonstrează că existența unei instituții specializate dedicate formării diplomatice contribuie la creșterea calității reprezentării externe a statului, la profesionalizarea administrației publice și la consolidarea expertizei naționale în domeniul afacerilor externe.
+
+Prezenta inițiativă legislativă nu urmărește preluarea integrală a unui model instituțional existent într-un alt stat, ci adaptarea celor mai bune practici internaționale la cadrul constituțional și administrativ al României, cu respectarea principiilor autonomiei universitare, ale legalității și ale eficienței administrative.
+
+Școala Națională de Diplomație este concepută ca o instituție care valorifică experiența Institutului Diplomatic Român și răspunde nevoilor actuale ale statului român în domeniul formării diplomaților, al cercetării și al cooperării academice internaționale. În acest sens, inițiativa urmărește alinierea României la tendințele existente în statele care au dezvoltat sisteme moderne de pregătire diplomatică, fără a afecta particularitățile organizării instituționale naționale..
+
+## INIȚIATOR:
+
+Deputat AUR - Cosmin-Ioan Corendea
+
+## LISTA
+
+Susținătorilor propunerii legislative – „Lege privind înființarea, organizarea și funcționarea Școlii Naționale de Diplomație”
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1. | SIMION GEORGE NICOLAE | AUR |  |
+| 2. | BUTURA CRISINA-IRIMA | AUR |  |
+| 3. | Vulpoiu Dorel | AUR |  |
+| 4. | MIMPAESEU-MIC. | AUR |  |
+| 5. | BAAZEA VALENTINI | AUR |  |
+| 6. | SORIN MWNCAUY | AUR |  |
+| 7. | BADIU GEORGOL | AUR |  |
+| 8. | PUSCATSU PETRE | AUR |  |
+| 9. | POPESCU ANTONIO GABI | AUR |  |
+| 10. | CAUIN GHE MATIBS | AUR |  |
+| 11. | JOBOȘ ELENA | AUR |  |
+| 12. | VARSAN CIPRIAD NICOLAE | AUR |  |
+| 13. | RAUONA VOANA BRYUNVELS | AUR |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – „Lege privind înființarea, organizarea și funcționarea Școlii Naționale de Diplomație”
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 14. | Bouda Sone | AER |  |
+| 15. | GHEORGHE IONEL | AUR |  |
+| 16. | AVRÂMESCU STEFÂNIȚÂ - ALIN | AUR |  |
+| 17. | FABIAN - CRISTIAN RAGU | AUR |  |
+| 18. | BARSTAN TIBE PEU CUAO,IV | AUR |  |
+| 19. | NEGOESCU MIHAI-BOGDAN | AUR |  |
+| 20. | BORNIAN ALEXANDRU | AUR |  |
+| 21. | HRISTU COSMIN | AVR |  |
+| 22. | MUSAT LUOIOV | AUR |  |
+| 23. | MITREA JUMITEINA | AUR |  |
+| 24. | MICLUI SHMUEL - HIRRIC | AUR |  |
+| 25. | MUHAESEU MEGUR | AUR |  |
+| 26. | DASCAY CRISTINA EMANJELA | AUR |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – „Lege privind înființarea, organizarea și funcționarea Școlii Naționale de Diplomație”
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td>Semnătura</td></tr>
+<tr><td>27.</td><td>Constamoseu vindu2</td><td>AUR</td><td rowspan="6"></td></tr>
+<tr><td>28.</td><td>Luciau Floriu Pus casu</td><td>AUR</td></tr>
+<tr><td>29</td><td>Gurlui filviu-oceavian</td><td>AUR</td></tr>
+<tr><td>30</td><td>Popoviici Torim-Bornec</td><td>AUR</td></tr>
+<tr><td>31</td><td>Paumescu Silviu-Titus</td><td>AUR</td></tr>
+<tr><td>32</td><td>iosub cosmix-teodor</td><td>AUR</td></tr>
+<tr><td></td><td></td><td></td><td>V U</td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+## LISTA
+
+Susținătorilor propunerii legislative – „Lege privind înființarea, organizarea și funcționarea Școlii Naționale de Diplomație”
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+|  | Neegy Petre-Emariz | P.V.J. |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – „Lege privind înființarea, organizarea și funcționarea Școlii Naționale de Diplomație”
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1 | PETRISOR PEIU | AUR |  |
+| 2 | Vlóxcu Vorpdu | AUR |  |
+| 3 | LUMINITA PAUCEAN FERNANDES | AUR |  |
+| 4 | Nicheulta AIZEA | AUR |  |
+| 5 | STOICA AIPIRAN-ΠΙΝ | A.U.R. |  |
+| 6 | Jocol C. Cipuu | A.V.R |  |
+| 7 | Sondu M.lonut | AUR |  |
+| 8 | ROMAN MARIUS-VALENTIN | AUR |  |
+| 9 | DANIELA STEFANES CU | AUR |  |
+| 10 | PLAESU LAURENTIU | AUR |  |
+| 11 | Ripos Cr. Dian | AIII |  |
+| 12 | Andrei Zialane | AUR |  |
+| 13 | PAUL BHEORBHE | AUR |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – „Lege privind înființarea, organizarea și funcționarea Școlii Naționale de Diplomație”
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 14. | CRIN'4JUMITREICU. | AUR |  |
+| 15 | Barcon Iojinq | AVR |  |
+| 16 | Givhae VAHPU | AUR |  |
+| 17 | Parasea Teeohle | AVR |  |
+| 18 | SRAU DUNITPU | A.U.R. |  |
+| 19. | CONSTANDINESCU ROOLA | AUR |  |
+| 20 | VASICE MARIAXI | AVR |  |
+| 21 | faouie Soaiu | AVR |  |

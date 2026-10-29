@@ -1,0 +1,122 @@
+{
+  "slug": "plx-557-2026",
+  "billId": "PL-x 557/2026",
+  "updatedAt": "2026-10-29T13:06:52.140Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L335FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Statul plătește sigur 90% pentru asistenții persoanelor cu handicap, iar salariul lor scapă de impozit",
+      "summaryTlDr": "Este o lege bine intenționată. Primăriile ar ști câți bani primesc pentru asistenții personali, iar asistenții ar avea un salariu net puțin mai mare. Problemele țin de execuție: legea nu spune de unde vin banii, păstrează o dată deja trecută și are un articol despre clădiri fără criterii, așa că riscă să cadă la CCR sau să rămână pe hârtie.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/50/7/se639.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Statul plătește fix 90% pentru asistenții persoanelor cu handicap, iar salariul lor nu mai e impozitat",
+      "summaryTlDr": "Lege socială benefică: transformă plafonul „cel mult 90%” într-o garanție fixă pentru primării și mărește salariul net al asistenților personali. Defectele țin de redactare și finanțare: o dată deja trecută la art.51 alin.(12), un cost bugetar fără sursă indicată și un Art.IV vag despre locuințele protejate.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat tacit proiectul în forma inițiatorului, fără nicio schimbare de fond",
+      "summary": "Textul adoptat de Senat e identic ca fond cu forma inițiatorului: proiectul a trecut tacit, prin depășirea termenului. Rămân cota fixă de 90% de la stat și scutirea de impozit a asistenților personali, dar și cei 10% lăsați primăriilor și data deja trecută de 1 ianuarie 2026.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Statul acoperă doar 90%; restul de 10% rămâne pe bugetele primăriilor",
+            "major": true,
+            "article": "art. I pct. 1-2"
+          },
+          {
+            "text": "Ministerul stabilește necesarul, deci banii pot rămâne sub costul real",
+            "major": true,
+            "article": "art. I pct. 2 (art. 51 alin. (10) și (12))"
+          },
+          {
+            "text": "Scutirea de impozit scade veniturile primăriilor, care primesc majoritatea impozitului pe salarii",
+            "major": true,
+            "article": "art. II"
+          },
+          {
+            "text": "CAS și CASS rămân datorate, așa că sporul net e de câteva procente",
+            "major": false,
+            "article": "art. II"
+          },
+          {
+            "text": "Data de 1 ianuarie 2026, deja trecută, e neclară: retroactivă sau fără efect",
+            "major": false,
+            "article": "art. I pct. 2 (art. 51 alin. (12))"
+          },
+          {
+            "text": "Intră în vigoare la 30 de zile, deși Codul fiscal cere 6 luni",
+            "major": false,
+            "article": "art. III"
+          },
+          {
+            "text": "Renovarea imobilelor transferate rămâne pe primării, fără sumă alocată",
+            "major": false,
+            "article": "art. IV alin. (2)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Cota statului devine fixă, 90%, în loc de „cel mult 90%”",
+            "major": true,
+            "article": "art. I pct. 1-2"
+          },
+          {
+            "text": "Asistenții personali nu mai plătesc impozit pe venit pe salariu",
+            "major": true,
+            "article": "art. II"
+          },
+          {
+            "text": "La asistenții personali, suma se calculează după beneficiarii comunicați de primării",
+            "major": false,
+            "article": "art. I pct. 1 (art. 40 alin. (1))"
+          },
+          {
+            "text": "Guvernul transferă la cerere imobile pentru locuințe protejate ale adulților cu handicap",
+            "major": false,
+            "article": "art. IV alin. (1)"
+          },
+          {
+            "text": "Normele de aplicare a Legii 448/2006 trebuie actualizate în 60 de zile",
+            "major": false,
+            "article": "art. V"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 10,
+        "removed": 13,
+        "same": 0.29
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:00:24.664Z"
+    }
+  ]
+}

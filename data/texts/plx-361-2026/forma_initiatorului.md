@@ -1,0 +1,31 @@
+# PARLAMENTUL ROMÂNIEI
+
+## CAMERA DEPUTAȚILOR
+
+SENAT
+
+LEGE
+
+pentru modificarea și completarea Legii nr. 287/2009 privind Codul civil
+
+Parlamentul României adoptă prezenta lege:
+
+Art. I. – Legea nr. 287/2009 privind Codul civil, republicată în Monitorul Oficial al României, Partea I, nr. 505 din 15 iulie 2011, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 2517, după alineatul (1) se introduce un nou alineat, alin. (2), cu următorul cuprins:
+
+(2) Dreptul la acțiune privind recuperarea creanțelor reprezentând pensie de întreținere datorată minorului, pe durata existenței obligației de întreținere, este imprescriptibil.
+
+2\. La articolul 2523, după alineatul (1) se introduce un nou alineat, alin. (2), cu următorul cuprins:
+
+(2) În cazul creanțelor prevăzute la art. 2517 alin. (2), prescripția nu începe să curgă pe durata existenței obligației de întreținere datorate minorului.
+
+Art. II. – Intrarea în vigoare
+
+Prezenta lege intră în vigoare la 30 de zile de la data publicării în Monitorul Oficial al României, Partea I.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+PREȘEDINTELE SENATULUI

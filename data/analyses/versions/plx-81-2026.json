@@ -1,0 +1,136 @@
+{
+  "slug": "plx-81-2026",
+  "billId": "PL-x 81/2026",
+  "updatedAt": "2026-10-29T12:32:21.579Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L609FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Victimele hărțuirii la muncă pot cere inspectorilor să le dezvăluie numele, ca plângerea să poată fi verificată",
+      "summaryTlDr": "Este o lege mică, utilă și favorabilă angajaților: dacă victima e de acord, inspectorul poate spune cine a reclamat, iar controlul pentru hărțuire nu mai rămâne doar pe hârtie. Textul are însă trei goluri. Lasă pe dinafară violența și discriminarea, deși Expunerea de motive le invocă. Nu spune cum se dă acordul. Nu spune cui i se poate dezvălui identitatea.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/80/1/se72.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Hărțuire la serviciu: inspectorul ITM poate spune angajatorului că a venit în urma unei plângeri, dacă victima e de acord",
+      "summaryTlDr": "Modificarea e mică și utilă: victima hărțuirii poate alege un control deschis, făcut explicit în urma plângerii, în locul unuia mascat drept control „de rutină”, iar identitatea ei rămâne protejată. Problemele țin de redactare: condiția acordului stă în locul greșit în frază, iar forma Senatului face mult mai puțin decât promite Expunerea de motive.",
+      "scores": {
+        "agy": 3,
+        "claude": 2,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Identitatea celui care sesizează hărțuirea rămâne secretă; angajatorul poate afla doar că există o sesizare",
+      "summary": "Inițial, cu acordul victimei, inspectorii puteau dezvălui cine a reclamat hărțuirea; acum pot spune angajatorului doar că verifică o sesizare, iar identitatea rămâne protejată. Expunerea victimei scade, dar fraza nouă e ambiguă privind acordul.",
+      "changes": [
+        {
+          "title": "Identitatea celui care reclamă nu mai poate fi dezvăluită",
+          "text": "Art. 18 alin. (2): inițial, cu acordul persoanei, inspectorii puteau dezvălui cine a făcut sesizarea de hărțuire; acum trebuie să-i protejeze identitatea.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. unic (art. 18 alin. (2) din Legea nr. 108/1999)",
+          "before": "inspectorii de muncă nu au obligația de a păstra confidențialitatea asupra identității persoanei care a formulat sesizarea",
+          "after": "respectând obligația de a proteja identitatea persoanei care a formulat sesizarea",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Angajatorul poate afla că verificarea vine dintr-o sesizare",
+          "text": "Art. 18 alin. (2): acum inspectorii pot spune angajatorului că verifică în urma unei sesizări. Inițial excepția viza doar identitatea, deși lit. c) protejează și existența sesizării.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. unic (art. 18 alin. (2) din Legea nr. 108/1999)",
+          "before": null,
+          "after": "inspectorii de muncă pot comunica angajatorului că efectuează controlul ca urmare a unei sesizări",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Fraza nouă lasă neclar la ce se dă acordul",
+          "text": "Art. 18 alin. (2): acordul prealabil vine acum imediat după obligația de a proteja identitatea, deci se poate citi că el condiționează protecția, nu comunicarea către angajator.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. unic (art. 18 alin. (2) din Legea nr. 108/1999)",
+          "before": "nu au obligația de a păstra confidențialitatea asupra identității persoanei care a formulat sesizarea, în cazul existenței acordului prealabil al acesteia",
+          "after": "respectând obligația de a proteja identitatea persoanei care a formulat sesizarea, în cazul existenței acordului prealabil al acesteia",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Excepția acoperă doar hărțuirea; discriminarea și violența rămân sub confidențialitate totală",
+            "major": true,
+            "article": "art. 18 alin. (2)"
+          },
+          {
+            "text": "Nu e clar al cui e acordul când sesizează un coleg, sindicat sau ONG",
+            "major": true,
+            "article": "art. 18 alin. (2)"
+          },
+          {
+            "text": "Fraza e ambiguă: acordul pare să condiționeze protecția identității, nu comunicarea",
+            "major": false,
+            "article": "art. 18 alin. (2)"
+          },
+          {
+            "text": "Acordul nu are formă cerută și nu se știe dacă poate fi retras",
+            "major": false,
+            "article": "art. 18 alin. (2)"
+          },
+          {
+            "text": "Textul nu permite dezvăluirea identității, cum descria expunerea de motive",
+            "major": false,
+            "article": "art. 18 alin. (2)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Identitatea celui care sesizează hărțuirea rămâne protejată față de angajator",
+            "major": true,
+            "article": "art. 18 alin. (2)"
+          },
+          {
+            "text": "Angajatorul e anunțat de sesizare doar cu acordul prealabil al persoanei",
+            "major": true,
+            "article": "art. 18 alin. (2)"
+          },
+          {
+            "text": "Excepția acoperă acum și existența sesizării, coerent cu alin. (1) lit. c)",
+            "major": false,
+            "article": "art. 18 alin. (2)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 3,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:32:21.579Z"
+    }
+  ]
+}

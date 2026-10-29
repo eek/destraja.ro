@@ -1,0 +1,27 @@
+# PARLAMENTUL ROMÂNIEI
+
+# CAMERA DEPUTAȚILOR
+
+LEGE
+
+privind aprobarea Ordonanței de urgență a Guvernului nr. 74/2025 pentru prorogarea unor termene privind stabilirea unor măsuri pentru asigurarea facilităților la transport pentru anumite categorii de persoane, precum și pentru stabilirea unor măsuri în domeniul rutier
+
+Camera Deputaților adoptă prezentul proiect de lege.
+
+Art. I. - Se aprobă Ordonanța de urgență a Guvernului nr. 74 din 11 decembrie 2025 pentru prorogarea unor termene privind stabilirea unor măsuri pentru asigurarea facilităților la transport pentru anumite categorii de persoane, publicată în Monitorul Oficial al României, Partea I, nr. 1152 din 11 decembrie 2025.
+
+Art. II. - Legea nr. 226/2023 privind aplicarea unor tarife rutiere pe rețeaua de drumuri naționale din România, publicată în Monitorul Oficial al României, Partea I, nr. 659 din data de 18 iulie 2023, cu modificările și completările ulterioare, se modifică după cum urmează:
+
+## 1. La articolul 24, alineatul (2) se modifică și va avea următorul cuprins:
+
+„(2) Începând cu data de 1 octombrie 2026, rovinietele emise în baza prevederilor Ordonanței Guvernului nr. 15/2002, aprobată cu modificări și completări prin Legea nr. 424/2002, cu modificările și completările ulterioare, își încetează valabilitatea, cu excepția celor emise pentru vehiculele prevăzute la art. 4 alin. (1) care își mențin valabilitatea până la data expirării.”
+
+Art. III. - (1) Termenele prevăzute la art. 4 alin. (1), art. 11 alin. (1), art. 12 alin. (1), art. 24 alin. (1) și (3) și art. 29 alin. (1) și (2) din Legea nr. 226/2023 privind aplicarea unor tarife rutiere pe rețeaua de drumuri naționale din România, publicată în Monitorul Oficial al României, Partea I, nr. 659 din data de 18 iulie 2023, cu modificările și completările ulterioare, se prorogă până la data de 1 octombrie 2026.
+
+(2) Prevederile art. 11 alin. (2) din Legea nr. 226/2023 privind aplicarea unor tarife rutiere pe rețeaua de drumuri naționale din România, publicată în Monitorul Oficial al României, Partea I, nr. 659 din data de 18 iulie 2023, cu modificările și completările ulterioare, se aplică începând cu data de 15 ianuarie 2027.”
+
+Acest proiect de lege a fost adoptat de Camera Deputaților în ședința din 10 iunie 2026, cu respectarea prevederilor art. 76 alin. (2) din Constituția României, republicată.
+
+p. PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+NATALIA-ELENA INTOTERO

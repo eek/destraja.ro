@@ -1,0 +1,97 @@
+{
+  "slug": "plx-374-2026",
+  "billId": "PL-x 374/2026",
+  "updatedAt": "2026-10-29T13:07:48.225Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L251FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Noul sistem UE de date despre ferme, cu scutiri fiscale și tăieri la AFM la pachet",
+      "summaryTlDr": "Nucleul e o adaptare tehnică, necesară și în mare benignă, la regulile UE privind datele despre ferme. Problema e ambalajul: o ordonanță-omnibus care pune sub un titlu agricol scutiri fiscale, drepturi ale personalului silvic și restrângeri la programele AFM.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/300/70/4/se424.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Fosta RICA devine rețea de date despre durabilitatea fermelor, iar în aceeași ordonanță intră și scutiri fiscale, drepturi ale silvicultorilor și programe AFM suspendate",
+      "summaryTlDr": "Partea agricolă este o adaptare tehnică, utilă și impusă de UE, cu câteva greșeli de redactare. Problema reală este „trenulețul”: sub un titlu despre date agricole intră Codul fiscal, drepturile salariale ale silvicultorilor și suspendarea unor programe AFM, toate prin ordonanță de urgență.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat ordonanța fără modificări; conținutul a rămas același",
+      "summary": "Senatul a aprobat ordonanța exact cum a venit de la Guvern. În legea de aprobare s-au adăugat doar data ordonanței și Monitorul Oficial în care a fost publicată. Riscurile și beneficiile au rămas aceleași ca inițial.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Ministrul stabilește prin ordin datele culese, fără consultare și aviz de protecție a datelor",
+            "major": true,
+            "article": "art. I, art. 2 alin. (5)"
+          },
+          {
+            "text": "Pragul în euro pentru fermele vizate nu e precizat sau legat de actul UE",
+            "major": true,
+            "article": "art. I, art. 3 lit. b)"
+          },
+          {
+            "text": "Trimitere greșită la art. 1 alin. (3), care nu există",
+            "major": false,
+            "article": "art. I, art. 2 alin. (3)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Scutiri de taxe locale pentru ONG-uri sociale și minorități, repuse în termen pentru 2026",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Publicul primește doar date agregate și anonimizate despre ferme",
+            "major": true,
+            "article": "art. I, art. 2 alin. (3)"
+          },
+          {
+            "text": "Fermierii pot primi consiliere și comparații cu alte ferme",
+            "major": false,
+            "article": "art. I, art. 2 alin. (4)"
+          },
+          {
+            "text": "Rețeaua se face prin reorganizarea RICA, fără instituție nouă, cu bani europeni",
+            "major": false,
+            "article": "art. I, art. 1"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:07:48.225Z"
+    }
+  ]
+}

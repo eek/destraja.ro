@@ -1,0 +1,21 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+L E G E
+
+pentru modificarea art.147 alin.(1) din Legea nr.53/2003 - Codul muncii
+
+Senatul adoptă prezentul proiect de lege
+
+Art.I.- La articolul 147 din Legea nr.53/2003 - Codul muncii, republicată în Monitorul Oficial al României, Partea I, nr.345 din 18 mai 2011, cu modificările și completările ulterioare, alineatul (1) se modifică și va avea următorul cuprins:
+
+„(1) Salariații care lucrează în condiții grele, periculoase sau vătămătoare, nevăzătorii, alte persoane cu handicap, tinerii în vârstă de până la 18 ani, precum și salariații care au calitatea de familie monoparentală, astfel cum este definită la art.22 alin.(5) și (6) din Legea asistenței sociale nr.292/2011, cu modificările și completările ulterioare, beneficiază de un concediu de odihnă suplimentar de cel puțin 3 zile lucrătoare.”
+
+Art.II.- Prevederile prezentei legi intră în vigoare la data de 1 ianuarie a anului următor publicării în Monitorul Oficial al României, Partea I.
+
+Acest proiect de lege a fost adoptat de Senat în ședința din 21 septembrie 2026, cu respectarea prevederilor articolului 76 alineatul (1) din Constituția României, republicată.
+
+PREȘEDINTELE SENATULUI
+
+## MIRCEA ABRUDEAN

@@ -1,0 +1,157 @@
+{
+  "slug": "plx-580-2026",
+  "billId": "PL-x 580/2026",
+  "updatedAt": "2026-10-29T13:13:55.151Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L371FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Registrul agricol al primăriilor trece doar online, într-o platformă unică ANCPI, cu amenzi mai mari",
+      "summaryTlDr": "Ideea e bună: un singur registru agricol digital, conectat cu cadastrul, APIA, ANSVSA și INS, în locul aplicațiilor locale incompatibile. Textul are însă defecte reale: o contravenție care nu e definită nicăieri, un regim tranzitoriu contradictoriu și accesul la datele gospodăriilor stabilit prin hotărâre de Guvern, nu prin lege.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/80/0/se661.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Registrul agricol trece pe o singură platformă națională, cu amenzi mai mari",
+      "summaryTlDr": "Este o digitalizare utilă, așteptată de mult: un singur registru agricol electronic, administrat de ANCPI, în locul sutelor de aplicații locale incompatibile. Textul a trecut însă tacit de Senat. Mărește amenzile pentru gospodării, dă ANCPI dreptul să sancționeze fapte pe care nu le definește și are un calendar care se contrazice.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat tacit proiectul, fără modificări: amenzile și lacunele rămân",
+      "summary": "Proiectul s-a considerat adoptat tacit de Senat, în forma inițiatorului. Diferențele sunt doar greșeli de tipar și formatare, deci riscurile rămân: amenzi de la 500 lei pentru gospodării, amenzi personale pentru funcționari și fapte sancționabile nedefinite.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "ANCPI poate sancționa „neutilizarea” RAN, deși fapta nu e definită și nu are amendă",
+            "major": true,
+            "article": "art. 20 alin. (3) lit. c)"
+          },
+          {
+            "text": "Gospodăriile riscă 500–2.000 lei amendă doar pentru declararea întârziată a datelor",
+            "major": true,
+            "article": "art. 20 alin. (1) lit. c)"
+          },
+          {
+            "text": "Legea nu cere avertisment la prima abatere, nici excepții pentru gospodării mici sau vârstnici",
+            "major": true,
+            "article": "art. 20 alin. (1)"
+          },
+          {
+            "text": "Firmele riscă 2.000–10.000 lei amendă pentru aceleași fapte, inclusiv declararea întârziată",
+            "major": true,
+            "article": "art. 20 alin. (1)"
+          },
+          {
+            "text": "Funcționarii și secretarul primăriei, amendați personal cu 2.000–10.000 lei, inclusiv pentru „neurmărirea” colegilor",
+            "major": true,
+            "article": "art. 20 alin. (2)"
+          },
+          {
+            "text": "Nicio scutire de amendă când întârzierea vine din căderea platformei centrale",
+            "major": true,
+            "article": "art. 20 alin. (2)"
+          },
+          {
+            "text": "Amenda funcționarilor se poate suprapune cu răspunderea disciplinară din Codul administrativ",
+            "major": true,
+            "article": "art. 20 alin. (2)"
+          },
+          {
+            "text": "Cine vede în timp real datele gospodăriilor și în ce scop decide Guvernul",
+            "major": true,
+            "article": "art. 16 alin. (3)"
+          },
+          {
+            "text": "Date personale interconectate obligatoriu și cu sistemele Ministerului Finanțelor",
+            "major": true,
+            "article": "art. 1 alin. (1³)"
+          },
+          {
+            "text": "Primăriilor li se interzic aplicațiile locale proprii; dreptul de a le contracta se abrogă",
+            "major": true,
+            "article": "art. 1 alin. (7); art. 6 alin. (3)"
+          },
+          {
+            "text": "Termenul fix 1 ianuarie 2028 contrazice regula „până la operaționalizarea completă” a RAN",
+            "major": false,
+            "article": "art. 1 alin. (7); art. II alin. (1), (4)"
+          },
+          {
+            "text": "Expunerea de motive anunță alt termen: 1 ianuarie 2027",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Neclar dacă registrul pe hârtie mai trebuie ținut în paralel",
+            "major": false,
+            "article": "art. 1 alin. (6)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Registru agricol electronic unic, aceleași date pentru toate primăriile și instituțiile",
+            "major": false,
+            "article": "art. 1 alin. (1¹), (5)"
+          },
+          {
+            "text": "Primăriile nu mai trimit situații centralizate; instituțiile accesează direct și securizat datele",
+            "major": false,
+            "article": "art. 16 alin. (2)"
+          },
+          {
+            "text": "Până la funcționarea completă a RAN, hârtia și aplicațiile locale rămân legale",
+            "major": false,
+            "article": "art. II alin. (1), (2)"
+          },
+          {
+            "text": "Registrele vechi pe hârtie și din aplicații locale se păstrează ca arhivă",
+            "major": false,
+            "article": "art. II alin. (4)"
+          },
+          {
+            "text": "Neconcordanțele găsite de statistică trebuie corectate de primării în termen stabilit",
+            "major": false,
+            "article": "art. 17"
+          },
+          {
+            "text": "Guvernul trebuie să actualizeze normele tehnice în cel mult 6 luni",
+            "major": false,
+            "article": "art. II alin. (3)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 15,
+        "removed": 14,
+        "same": 0.7
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:11:15.336Z"
+    }
+  ]
+}

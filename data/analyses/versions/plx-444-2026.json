@@ -1,0 +1,114 @@
+{
+  "slug": "plx-444-2026",
+  "billId": "PL-x 444/2026",
+  "updatedAt": "2026-10-29T12:41:56.088Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L306FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Paza firmelor și instituțiilor: mai puține avize de la poliție, jandarmii reorganizați pe pază de proximitate",
+      "summaryTlDr": "Simplificarea e în mare parte utilă: paza neînarmată nu mai are nevoie de avizul poliției, ajunge trimiterea electronică a planului. Însă textul se contrazice asupra cui întocmește planul de pază, îl lasă pe seama firmei care vinde paza, iar urgența OUG e motivată cu formule-tip.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/40/4/se489.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Paza fără arme nu mai cere avizul poliției: planul de pază se trimite doar online",
+      "summaryTlDr": "Pentru firmele cu pază neînarmată, birocrația scade cu adevărat: avizul prealabil al poliției devine o simplă transmitere electronică. Problemele sunt de formă și de garanții: o ordonanță de urgență justificată prin „cererea asociațiilor” și prin programul de guvernare, plus o putere formulată vag a poliției de a retrage avizul conducătorilor și al personalului tehnic din firmele de pază.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_riscant",
+      "headline": "Poliția poate retrage avizul șefilor și tehnicienilor din pază, fără motivare sau cale de atac",
+      "summary": "Senatul a aprobat ordonanța cu o singură modificare: poliția poate retrage avizul conducătorilor și personalului tehnic al firmelor de pază dacă nu mai îndeplinesc condițiile legii, fără ca textul să ceară motivare, audiere sau cale de atac. Restul rămâne ca inițial.",
+      "changes": [
+        {
+          "title": "Poliția poate retrage avizul șefilor și tehnicienilor din pază",
+          "text": "Senatul a rescris art. 53 lit. i): poliția poate retrage avizul conducătorilor și personalului tehnic al firmelor de pază dacă nu mai îndeplinesc condițiile legii. Nu se prevăd motivare, audiere sau cale de atac.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 53 lit. i)",
+          "before": null,
+          "after": "i) avizează conducătorii și personalul tehnic al societăților specializate sau retrage acest aviz când nu mai sunt îndeplinite condițiile prevăzute de lege;",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Retragerea avizului de către poliție: fără motivare, audiere, termene sau cale de atac",
+            "major": true,
+            "article": "art. 53 lit. i)"
+          },
+          {
+            "text": "Fără aviz prealabil, paza neînarmată funcționează până la 15 zile fără plan la poliție",
+            "major": true,
+            "article": "art. 5 alin. (2)-(3)"
+          },
+          {
+            "text": "Neclar cine întocmește și răspunde de planul de pază: firma, unitatea sau ambele",
+            "major": true,
+            "article": "art. 5 alin. (1), (7); art. 3 alin. (2)"
+          },
+          {
+            "text": "Firma plătită pentru pază scrie planul care stabilește posturile și personalul",
+            "major": true,
+            "article": "art. 5 alin. (6)"
+          },
+          {
+            "text": "Poliția nu are termen sau pârghii să corecteze planurile primite electronic",
+            "major": false,
+            "article": "art. 5 alin. (3)"
+          },
+          {
+            "text": "Urgența OUG invocă obiective de politică publică, fără date despre o situație extraordinară",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Avizul poliției rămâne obligatoriu doar la paza înarmată; firmele mici scapă de birocrație",
+            "major": true,
+            "article": "art. 5 alin. (2)-(3)"
+          },
+          {
+            "text": "Planul și analiza de risc se trimit electronic, în 15 zile calendaristice",
+            "major": false,
+            "article": "art. 5 alin. (3)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:40:56.155Z"
+    }
+  ]
+}

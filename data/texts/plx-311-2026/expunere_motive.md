@@ -1,0 +1,73 @@
+# Expunere de motive
+
+Prezenta propunere legislativă are ca obiect transferul unei suprafețe de teren de 53,2382 ha situată în municipiul Oradea, Calea Aradului nr. 5 și a trei construcții din aceeași locație, proprietatea publică a statului și din administrarea Academiei de Științe Agricole și Silvice „Gheorghe Ionescu-Șișești” – Stațiunea de Cercetare-Dezvoltare Agricolă Oradea, în proprietatea publică a municipiului Oradea, județul Bihor.
+
+Scopul acestei măsuri îl reprezintă finalizarea procedurii de reorganizare a Stațiunii de Cercetare-Dezvoltare Agricolă Oradea (denumită în continuare SCDA - Oradea), situată în municipiul Oradea, Calea Aradului nr. 5, județul Bihor, prin desființare și instituirea cadrului legal necesar pentru transferul patrimoniului public al statului, aflat în administrarea SCDA -Oradea, către UAT Municipiul Oradea, în vederea dezvoltării, prin intermediul Agenției de Dezvoltare Locală Oradea (ADLO), a unui nou parc industrial.
+
+Potrivit anexei nr. 4 și art. 28 alin. (8) din Legea nr. 45/2009, reorganizarea SCDA - Oradea urma să fie realizată prin preluarea acesteia de către Universitatea din Oradea, în baza unei Hotărâri de Guvern, inițiată de Ministerul Educației, Cercetării și Inovării, în termen de 60 de zile de la data intrării în vigoare a legii.
+
+În luna decembrie 2012 au fot inițiate demersuri în vederea preluării SCDA - Oradea de către Universitatea din Oradea, însă procedura nu a fost finalizată, nefiind realizat transferul patrimoniului, nici restructurarea instituției.
+
+În consecință:
+
+\- patrimoniul prevăzut la poziția 3 din anexa nr. 4 a Legii nr. 45/2009 a rămas în domeniul public al statului și în administrarea Ministerului Agriculturii și Dezvoltării Rurale;
+
+\- datoriile SCDA - Oradea au continuat să crească, de la 1.189.177 lei în anul 2012 la 2.099.998 lei în prezent;
+
+\- clădirile aflate în proprietatea și administrarea SCDA - Oradea s-au degradat;
+
+\- terenurile agricole, inclusiv cele neproductive, au fost întreținute necorespunzător, afectând imaginea zonei de acces în municipiu, inclusiv din perspectiva investitorilor și a pasagerilor care sosesc pe Aeroportul Internațional Oradea.
+
+Modificările propuse urmăresc adoptarea unor măsuri cu efect imediat care să permită încetarea pierderilor bugetare prin desființarea SCDA - Oradea și transferul patrimoniului către UAT - Municipiul Oradea, o entitate care, prin structura ADLO, a demonstrat capacitatea de a atrage investiții, care să genereze noi locuri de muncă și, implicit, să aducă venituri semnificative la bugetul local și cel de stat.
+
+În prezent, Agenția de Dezvoltare Locală Oradea S.A. (ADLO) administrează trei parcuri industriale funcționale, cu o suprafață totală de peste 240 ha, în care activează 128 de investitori, peste 98% din suprafețele disponibile fiind ocupate. Aproximativ 11.000 de locuri de muncă sunt generate în aceste parcuri industriale, iar în anul 2024 Municipiul Oradea a încasat venituri directe în valoare de 51.998.327 lei de la rezidenții acestora.
+
+Avantajele reglementării propuse vizează atât eficientizarea procedurii administrative, cât și facilitarea luării măsurilor ce se impun pentru: reducerea personalului și a pierderilor generate de funcționarea SCDA - Oradea, respectiv degrevarea bugetului de stat de cheltuielile generate de precaritatea evidențelor patrimoniale - neconcordanțe cu prevederile Legii nr. 7/1996 a cadastrului.
+
+Reglementarea propusă permite eficientizarea procesului administrativ și preîntâmpinarea unor cheltuieli bugetare nejustificate, legate atât de funcționarea SCDA-Oradea, cât și de neconcordanțele în evidențele patrimoniale raportate la prevederile Legii nr. 7/1996 a cadastrului.
+
+Totodată, se evidențiază imposibilitatea ca Agenția Domeniilor Statului (ADS) să preia patrimoniul SCDA - Oradea, întrucât legea specială aplicabilă ADS (Legea nr. 268/2001) nu conferă atribuții de administrare pentru bunuri imobile, altele decât terenurile agricole. În plus, reorganizarea SCDA - Oradea ca societate comercială nu poate conduce la obținerea unei activități profitabile care să facă posibilă privatizarea acesteia.
+
+Având în vedere necesitatea adaptării cadrului legal la condițiile actuale, interesul public pentru dezvoltarea locală și utilizarea eficientă a patrimoniului public, adoptarea modificărilor și completărilor propuse este justificată, oportună și necesară.
+
+Initiatori:
+
+BOTA Gheorghe-loan Senator PNL /
+
+SSEKE Attila-Zoltan
+
+Senator UOMR
+
+MOHAN Aurel-George
+
+Senator PSD
+
+MOȘ Patricia-Simina-Arina
+
+Deputat PNL
+
+BIRÓ Rozália-Ibolya
+
+Deputat UDMR
+
+ENE Gabriela-Corina
+
+GAL Călin-Grațian
+
+DeputahPSD
+
+Deputat PNL
+
+NEAMȚU George-Mihail, Deputat AUR
+
+SZANOTödön
+
+Deputaf/UDMR
+
+TIPLEA Dumit'u Devital PNL.
+
+CÎMPAN Cristian-Emanuel Deputat POT
+
+VIDRA Vlad-Andrei Deputat SOS
+
+Adrian-Miroslav/MERKA Deputat MINORITAȚILE NATIONALE

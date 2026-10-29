@@ -1,0 +1,395 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+## pentru modificarea și completarea Legii nr. 135/2010 privind Codul de procedură penălă
+
+Senatul adoptă prezentul proiect de lege
+
+Art.I.- Legea nr.135/2010 privind Codul de procedură penală, publicată în Monitorul Oficial al României, Partea I, nr. 486 din 15 iulie 2010, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 36, alineatul (1) litera a) se modifică și va avea următorul cuprins:
+
+„a) infracțiunile prevăzute de Codul penal la art.188 - 191, art.209 - 211, art.218¹, art.219¹ - 222¹, art. 254, art.256¹, art.263, art.282, art.289 - 294, art. 303, 304, art.306, 307, art.309, art.345, 346, art.354 și art.361 - 367;”
+
+2\. La articolul 43, după alineatul (3) se introduce un nou alineat, alin.(4), cu următorul cuprins:
+
+„(4) Prevederile alin.(1)-(3) se aplică și în procedura camerei preliminare. Reunirea nu se poate dispune în contestația formulată împotriva încheierilor prevăzute la art.346.”
+
+3\. La articolul 46, după alineatul (2) se introduce un nou alineat, alin.(3), cu următorul cuprins:
+
+„(3) Prevederile alin.(1) și (2) se aplică în mod corespunzător în procedura de cameră preliminară. Disjungerea cauzei se dispune și atunci când numai pentru unele dintre infracțiuni sau numai pentru unii inculpați se impune restituirea cauzei la parchet. În cazurile prevăzute la art.43 alin.(1), judecătorul de cameră preliminară dispune, dacă este cazul, restituirea întregii cauze la parchet.”
+
+## 4. La articolul 50, alineatul (2) se modifică și va avea următorul cuprins:
+
+„(2) Dacă declinarea a fost determinată de competența materială sau după calitatea persoanei, instanța căreia i s-a trimis cauza poate menține, motivat, probele administrate, actele îndeplinite și măsurile dispuse de instanța care și-a declinat competența. Dacă probele administrate, actele îndeplinite și măsurile au fost dispuse, înainte de declinarea competenței, de o instanță superioară celei competente, acestea se mențin.”
+
+## 5. La articolul 80, alineatul (1) se modifică și va avea următorul cuprins:
+
+„Art.80.- (1) În situația în care în cauză există un număr mare de persoane vătămate care nu au interese contrarii, acestea pot desemna o persoană care să le reprezinte interesele în cadrul procesului penal. În cazul în care persoanele vătămate nu și-au desemnat un reprezentant comun, pentru buna desfășurare a procesului penal, procurorul, judecătorul de cameră preliminară sau, după caz, instanța de judecată poate desemna, prin ordonanță, respectiv prin încheiere motivată, un avocat din oficiu pentru a le reprezenta interesele. Încheierea sau ordonanța va fi comunicată persoanelor vătămate, care trebuie să încunoștințeze, în termen de 3 zile de la primirea comunicării, procurorul, judecătorul de cameră preliminară sau, după caz, instanța în cazul în care refuză să fie reprezentați prin avocatul desemnat din oficiu. Toate actele de procedură comunicate reprezentantului sau de care reprezentantul a luat cunoștință sunt prezumate a fi cunoscute de către persoanele reprezentate.”
+
+6\. La articolul 80, după alineatul (1) se introduce un nou alineat, alin.(1¹), cu următorul cuprins:
+
+„(1¹) În situația în care mai multe persoane vătămate care nu au interese contrarii sunt reprezentate prin avocat, comunicarea rechizitoriului se realizează la acest avocat.”
+
+7\. La articolul 81 alineatul (1), literele a¹), e) și g²) se modifică și vor avea următorul cuprins:
+
+„a¹) dreptul de a fi informată cu celeritate despre împrejurarea că persoana aflată în arest, urmărită penal sau condamnată pentru infracțiunea săvârșită asupra sa este eliberată sau a evadat din detenție, precum și cu privire la orice măsuri relevante adoptate pentru protecția sa în caz de eliberare sau evadare a autorului infracțiunii, inclusiv atunci când față de acesta s-a luat măsura de siguranță a internării medicale sau internarea medicală provizorie;
+
+e) dreptul de a consulta dosarul, în condițiile legii, precum și dreptul de a i se comunica o copie a rechizitoriului;
+
+g²) dreptul de a i se comunica, atunci când nu înțelege limba română, traducerea într-o limbă pe care o înțelege, a oricărei soluții de netrimitere în judecată, a rechizitoriului și a oricărei hotărâri judecătorești care soluționează fondul cauzei. Organul judiciar nu are obligația de a traduce acele părți din actele de procedură care nu se referă la fapta săvârșită asupra persoanei vătămate;”
+
+8\. La articolul 81 alineatul (1), după litera h) se introduce o nouă literă, lit.h¹), cu următorul cuprins:
+
+„h¹) dreptul la asistență juridică gratuită, la avans din compensația financiară și la compensație financiară recunoscut anumitor categorii de victime potrivit legii speciale;”
+
+9\. După articolul 81 se introduce un nou articol, art.81¹, cu următorul cuprins:
+
+„Informarea victimei despre punerea în libertate în orice fel sau evadarea făptuitorului
+
+Art.81¹.-(1) Procurorul, judecătorul de cameră preliminară sau instanța de judecată pe rolul căreia se află cauza, respectiv judecătorul delegat cu executarea de la instanța de executare, informează victima infracțiunii și membrii de familie ai acesteia, care ar putea fi în pericol, despre împrejurarea că persoana aflată în arest preventiv, în arest la domiciliu sau în executarea unei pedepse ori măsuri educative privative de libertate, respectiv care este internată medical, va fi eliberată. Dacă data eliberării este cunoscută, informarea victimei infracțiunii și a membrilor de familie ai acesteia se realizează cu cel puțin 5 zile înainte de momentul eliberării inculpatului, condamnatului sau făptuitorului¹ internat medical, iar în celelalte cazuri informarea se realizează de îndată.
+
+(2) În cazul evadării din locul în care inculpatul sau condamnatul execută măsura preventivă privativă de libertate, pedeapsa închisorii ori a detențiunii pe viață sau execută o măsură educativă, administrația locului de deținere sau în care se execută măsura educativă, precum și unitatea de poliție care controlează executarea arestului la domiciliu înștiințează imediat organul judiciar prevăzut la alin.(1), precum și organul de poliție cel mai apropiat de locuința victimei, care, de îndată, informează victima infracțiunii și membrii de familie ai acesteia care ar putea fi în pericol.
+
+(3) În situațiile prevăzute la alin.(1) și (2) organul judiciar competent, dacă este cazul, ia oricare dintre măsurile de protecție prevăzute la art.126 sau 127 pentru victima infracțiunii și membrii de familie ai acesteia.
+
+(4) Dispozițiile alin.(1) - (3) se aplică în mod corespunzător în cazul părăsirii unității sanitare de specialitate de către persoana față de care s-a dispus internarea medicală provizorie, internarea nevoluntară sau măsura de siguranță a internării medicale.”
+
+## 10. La articolul 83, litera f) se modifică și va avea următorul cuprins:
+
+„f) dreptul de a beneficia în mod gratuit de un interpret atunci când nu înțelege, nu se exprimă bine sau nu poate comunica în limba română, precum și de traducerea motivelor de privare de libertate a acestuia, în scris sau oral în cauzele urgente, a rechizitoriului și a oricărei hotărâri judecătorești care soluționează fondul cauzei, cu excepția acelor părți care nu sunt relevante pentru acuzația formulată împotriva sa;”
+
+## 11. Articolul 107 se modifică și va avea următorul cuprins:
+
+„Întrebările privind persoana suspectului sau a inculpatului
+
+Art.107.- (1) La începutul primei audieri, organul judiciar adresează întrebări suspectului sau inculpatului cu privire la nume, prenume, poreclă, data și locul nașterii, codul numeric personal, numele și prenumele părinților, cetățenia, starea civilă, situația militară, studiile, profesia ori ocupația, locul de muncă, numărul de telefon, domiciliul și adresa unde locuiește efectiv, adresa poștală sau electronică la care dorește să îi fie comunicate actele de procedură, precum și orice alte date de contact la care acestea pot fi trimise prin mijloace ce asigură transmiterea textului, antecedentele penale sau dacă împotriva sa se desfășoară un alt proces penal, dacă solicită un interpret în cazul în care nu vorbește sau nu înțelege limba română ori nu se poate exprima, precum și cu privire la orice alte date pentru stabilirea situației sale personale.
+
+¹ CPP mai folosește noțiunea de făptuitor
+
+(2) Întrebările prevăzute la alin.(1) se repetă la audierile ulterioare doar atunci când organul judiciar consideră necesar, cu excepția informațiilor privind locul și modul citării, care se actualizează la fiecare audiere."
+
+12\. La articolul 111 alineatul (2), literele c) - e) se modifică și vor avea următorul cuprins:
+
+„c) dreptul de a propune administrarea de probe, dreptul de a adresa întrebări suspectului, inculpatului, martorilor și experților, dreptul de a consulta dosarul, dreptul de a ridica excepții și de a pune concluzii, în condițiile prevăzute de lege, precum și dreptul de a formula orice alte cereri ce țin de soluționarea laturii penale a cauzei;
+
+d) dreptul de a fi încunoștințată cu privire Ia desfășurarea procedurii, dreptul de a formula plângere prealabilă, dreptul de a se constitui parte civilă, precum și dreptul de a i se comunica o copie a oricărei soluții de netrimitere în judecată, a rechizitoriului și a oricărei hotărâri judecătorești care soluționează fondul cauzei;
+
+e) obligația de a se prezenta la chemările organelor judiciare, atunci când este citată în vederea ascultării sale sau în alte cazuri în care organul judiciar consideră că prezența sa este necesară;”
+
+13\. La articolul 111, după alineatul (2) se introduc două noi alineate, alin.(2¹) și (2²), cu următorul cuprins:
+
+„(2¹) Dacă persoana vătămată nu înțelege, nu se exprimă bine sau nu poate comunica în limba română, acesteia i se aduc la cunoștință drepturile prevăzute la art.81 alin.(1) lit.g¹) și g²).
+
+(2²) Victimelor prevăzute la art.113 alin.(2) li se aduc la cunoștință, după caz, drepturile la asistență juridică gratuită, la avans din compensația financiară și la compensație financiară, precum și alte drepturi prevăzute pentru anumite categorii de victime în legi speciale.”
+
+14\. La articolul 111, alineatele (5) și (8) se modifică și vor avea următorul cuprins:
+
+„(5) Persoanei vătămate i se aduce la cunoștință cu ocazia primei audieri de către organul de urmărire penală și de către instanța de judecată faptul că, în cazul în care inculpatul va fi privat de libertate, va fi condamnat la o pedeapsă privativă de libertate, respectiv atunci când față de acesta s-a luat măsura de siguranță a internării medicale sau internarea medicală provizorie, poate să fie informată cu privire la punerea în libertate în orice mod sau evadarea acestuia, inclusiv din unitatea în care executa măsura internării medicale.
+
+(8) Dacă persoana vătămată este minor înregistrarea audierii acesteia prin mijloace tehnice audio-video este obligatorie în toate cazurile. Audierea persoanelor vătămate prevăzute la alin.(7) se înregistrează prin mijloace tehnice audio-video, iar atunci când înregistrarea video nu este posibilă, înregistrarea se realizează în toate cazurile prin mijloace tehnice audio.”
+
+## 15. La articolul 128, alineatul (7) se modifică și va avea următorul cuprins:
+
+„(7) Încheierea prin care se dispune măsura de protecție se păstrează în condiții de confidențialitate. Dacă protecția martorului este necesară și după rămânerea definitivă a hotărârii, sunt aplicabile, după caz, dispozițiile art. 127 sau ale legii speciale.”
+
+16\. După articolul 128 se introduce un articol nou, art.128¹, cu următorul cuprins:
+
+„Măsurile de protecție dispuse după rămânerea definitivă a hotărârii
+
+Art.128¹.- (1) În cazul în care, după rămânerea definitivă a hotărârii, există o suspiciune rezonabilă că viața, integritatea corporală, libertatea, bunurile sau activitatea profesională a unui martor, a persoanei vătămate sau a părții civile ori a unui membru de familie al acestora ar putea fi puse în pericol ca urmare a datelor pe care le-au furnizat organelor judiciare sau a declarațiilor lor, instanța de executare dispune una sau mai multe dintre măsurile de protecție prevăzute la art.126 sau 127 ori, după caz, dintre cele prevăzute de legea specială privind protecția martorilor.
+
+(2) Măsurile de protecție pot fi dispuse față de martorul, persoana vătămată, partea civilă și membrii de familie ai acestora în condițiile prevăzute la alin.(1) indiferent dacă aceștia au beneficiat de măsuri de protecție în cursul procesului.
+
+(3) Pentru luarea măsurilor de protecție judecătorul delegat cu executarea poate fi sesizat de oricare dintre persoanele prevăzute la alin. (1), de organele de urmărire penală, de serviciul de probațiune sau de administrația locului de deținere care au informații despre potențialul pericol.
+
+(4) Judecătorul delegat cu executarea din cadrul instanței de executare poate dispune ca procurorul să efectueze de urgență verificări cu privire Ia temeinicia cererii de protecție și soluționează cauza în camera de consiliu, fără participarea persoanei care a formulat cererea. Prevederile art.128 alin.(4) -(8) se aplică în mod corespunzător.
+
+(5) Prevederile alin.(1) - (3) se aplică în mod corespunzător și în situația în care, după finalizarea urmăririi penale printr-o soluție de netrimitere în judecată, există o suspiciune rezonabilă că viața, integritatea corporală, libertatea, bunurile sau activitatea profesională a unui martor, a persoanei vătămate sau a părții civile ori a unui membru de familie al acestora ar putea fi puse în pericol ca urmare a datelor pe care le-au furnizat organelor judiciare sau a declarațiilor lor. Procurorul ia măsurile de protecție din oficiu sau la cererea ori sesizarea persoanelor sau instituțiilor prevăzute la alin.(1) sau (3). Prevederile art.126 alin.(1), (4), (5) și (8) se aplică în mod corespunzător.”
+
+17\. La articolul 130 alineatul (1), după litera b) se introduce o nouă literă, lit.c), cu următorul cuprins:
+
+„c) martorului care a fost victima unei infracțiuni prevăzute la art. 113 alin. (2), dar care nu participă în procesul penal în calitate de persoană vătămată.
+
+18\. La articolul 130, după alineatul (3) se introduce un nou alineat, alin.(4), cu următorul cuprins:
+
+„(4) Înregistrarea audierii martorului vulnerabil prin mijloace tehnice audio-video este obligatorie. Atunci când înregistrarea video nu este posibilă, înregistrarea se realizează prin mijloace tehnice audio.”
+
+## 19. La articolul 168, alineatul (9) se modifică și va avea următorul cuprins:
+
+„(9) În vederea executării percheziției dispuse, pentru asigurarea integrității datelor informatice stocate pe obiectele ridicate, procurorul dispune efectuarea de copii. Data la care urmează să se efectueze desigilarea și efectuarea copiilor se comunică persoanei fizice sau reprezentantului persoanei juridice de la care a fost ridicat sistemul informatic sau suportul de stocare, care are dreptul să participe la desigilare și la efectuarea copiilor. Suspectul sau inculpatul are dreptul să participe la desigilarea sistemului informatic sau a suportului de stocare care îi aparține și la efectuarea copiilor, iar când acesta este reținut ori arestat, va fi adus în acest scop, cu excepția cazului în care refuză, în scris, să participe. Lipsa persoanelor legal citate nu împiedică desfășurarea procedurii.”
+
+## 20. La articolul 229, alineatul (1) se modifică și va avea următorul cuprins:
+
+„Art.229.- (1) Când măsura arestării preventive a fost luată față de un inculpat în a cărui ocrotire se află un minor, o persoană căreia i s-a instituit tutela sau curatela, tutela specială sau consilierea judiciară ori o persoană care, datorită vârstei, bolii sau altei cauze, are nevoie de ajutor, autoritatea competentă este încunoștințată, de îndată, în vederea luării măsurilor legale de ocrotire pentru persoana respectivă.”
+
+21\. La articolul 242, după alineatul (3) se introduce un nou alineat, alin.(3¹), cu următorul cuprins:
+
+„(3¹) În cazul în care cererea privind revocarea sau înlocuirea măsurii preventive a fost respinsă, în situațiile prevăzute la alin.(1) - (3), o nouă cerere de revocare sau înlocuire a măsurii preventive în intervalul de timp rămas până la expirarea duratei măsurii preventive în curs poate fi formulată doar dacă există temeiuri noi, care nu au fost avute în vedere la soluționarea cererii anterioare.”
+
+22\. La articolul 257, alineatele (2) și (5) se modifică și vor avea următorul cuprins:
+
+„(2) Comunicarea citațiilor și a tuturor actelor de procedură se va face, din oficiu, prin agenții procedurali ai organelor judiciare sau prin orice alt salariat al acestora, prin intermediul organelor de poliție sau al jandarmeriei, al poliției locale ori prin serviciul poștal sau de curierat.
+
+(5) Citarea se poate realiza și prin intermediul poștei electronice sau prin orice alt sistem de mesagerie electronică, la adresa electronică indicată în acest scop de persoana citată.”
+
+23\. La articolul 257, după alineatul (6) se introduce un nou alineat, alin.(6¹), cu următorul cuprins:
+
+„(6¹) Dacă citarea nu s-a putut realiza conform alin.(1), (2), (5) și (6), aceasta poate fi îndeplinită prin orice mijloace electronice care asigură transmiterea textului către destinatar, dar fără a fi accesibil publicului, indicate sau recunoscute de aceasta ca aparținându-i. Prevederile art.260 alin.(7) se aplică în mod corespunzător.”
+
+24\. La articolul 257, după alineatul (8) se introduce un nou alineat, alin.(9), cu următorul cuprins:
+
+„(9) Dacă adresele la care se efectuează citarea nu sunt cunoscute de către inculpat și trebuie să rămână confidențiale față de acesta, dovezile de îndeplinire a procedurii de citare și de comunicare a actelor de procedură pentru victimele prevăzute la art.113 alin.(2) se păstrează potrivit dispozițiilor art.289¹ alin.(4). Despre modalitatea de îndeplinire a procedurii de citare se întocmește un proces-verbal, care se depune la dosarul cauzei.”
+
+25\. La articolul 258, după alineatul (2) se introduce un nou alineat, alin.(2¹), cu următorul cuprins:
+
+(2¹) Citația transmisă unei victime prezumată vulnerabilă potrivit dispozițiilor art.113 alin.(2), trebuie să cuprindă mențiunea că citarea se face în vederea audierii acesteia sau că organul judiciar consideră că prezența sa este necesară. Pentru alte termene la care sunt stabilite ședințe de judecată, în citație se menționează că prezența persoanei vătămate sau a părții civile nu este obligatorie.”
+
+## 26. La articolul 259, alineatul (13) se modifică și va avea următorul cuprins:
+
+„(13) Citarea prin intermediul poștei electronice sau al unui sistem de mesagerie electronică se face la adresa electronică ori la coordonatele care au fost indicate în acest scop organului judiciar de către persoana citată sau de către reprezentantul ei. În cazul prevăzut la art.257 alin.(6¹) citarea se face la adresa electronică indicată sau recunoscută de persoana citată ca aparținându-i.”
+
+## 27. La articolul 260, alineatul (3) se modifică și va avea următorul cuprins:
+
+„(3) În cazul în care scrisoarea recomandată prin care se citează un suspect sau inculpat care locuiește în străinătate nu poate fi înmânată, precum și în cazul în care statul destinatarului nu permite citarea prin poștă, înștiințarea prevăzută la art.259 alin.(5) se va afișa la sediul parchetului sau al instanței, după caz.”
+
+28\. La articolul 260, după alineatul (5) se introduc două noi alineate, alin.(5¹) și (5²), cu următorul cuprins:
+
+„(5¹) Citarea și comunicarea actelor de procedură se realizează, cu prioritate, prin intermediul instituțiilor publice care au atribuții privind facilitarea participării victimelor la urmărirea penală și judecată ori prin intermediul organelor de poliție sau al jandarmeriei în următoarele cazuri:
+
+a) când față de persoana citată sunt luate măsurile de protecție prevăzute la art.126 sau 127;
+
+b) când, pentru siguranța persoanei citate sau a membrilor de familie ai acesteia, organul judiciar apreciază că informațiile privind reședința persoanei citate sau locația în care se află aceasta nu pot fi făcute cunoscute;
+
+c) când persoana citată se află într-o locuință protejată, într-un centru rezidențial sau într-un adăpost pentru victime.
+
+(5²) În situațiile prevăzute la alin.(5¹) procesul-verbal întocmit de funcționarul care a luat legătura cu persoana citată, fără informațiile referitoare la adresa sau zona în care se află aceasta, se depune la dosarul cauzei.”
+
+29\. La articolul 261, alineatele (3) și (5) se modifică și vor avea următorul cuprins:
+
+„(3) Persoana care primește citația semnează dovada de primire, iar agentul, certificând identitatea și semnătura, încheie proces-verbal. Dacă aceasta refuză sau nu poate semna dovada de primire, agentul afișează înștiințarea pe ușa locuinței, încheind proces-verbal.
+
+(5) În cazul când persoana citată locuiește într-un imobil cu mai multe apartamente sau într-un hotel, dacă în citație nu s-a indicat apartamentul ori camera în care locuiește, agentul este obligat să facă investigații pentru a afla aceasta. Dacă investigațiile au rămas fără rezultat, agentul afișează înștiințarea pe ușa principală a clădirii, încheind proces-verbal și făcând mențiune despre împrejurările care au făcut imposibilă înmânarea citației.”
+
+30\. La articolul 282 alineatul (4), litera a) se modifică și va avea următorul cuprins:
+
+„a) până la termenul stabilit potrivit dispozițiilor art.344 alin.(4) pentru soluționarea cererilor și excepțiilor, dacă încălcarea a intervenit în cursul urmăririi penale;”
+
+31\. La articolul 282 alineatul (4), după litera a) se introduce o nouă literă, lit.a¹), cu următorul cuprins:
+
+„a¹) până la închiderea procedurii de cameră preliminară, dacă încălcarea a intervenit în această procedură;”
+
+32\. La articolul 286 alineatul (2), litera e) se modifică și va avea următorul cuprins:
+
+„e) date referitoare la măsurile asigurătorii, măsurile de siguranță cu caracter medical, măsurile preventive și măsurile de protecție luate în cursul urmăririi penale, cu excepția situației în care menționarea măsurilor de protecție ar putea conduce la punerea în pericol a persoanei vătămate sau martorului.”
+
+## 33. La articolul 289, alineatul (2) se modifică și va avea următorul cuprins:
+
+„(2) Plângerea trebuie să cuprindă: numele, prenumele, codul numeric personal, calitatea și domiciliul petiționarului, numărul de telefon, adresa de poștă electronică și alte date de contact ale persoanei fizice ori, pentru persoane juridice, denumirea, sediul, codul unic de înregistrare, codul de identificare fiscală, numărul de înmatriculare în registrul comerțului sau de înscriere în registrul persoanelor juridice și contul bancar, indicarea reprezentantului legal ori convențional, numărul de telefon, de fax, adresa de poștă electronică și alte date de contact, descrierea faptei care formează obiectul plângerii, precum și indicarea făptuitorului și a mijloacelor de probă, dacă sunt cunoscute.”
+
+34\. La articolul 289, după alineatul (5) se introduce un nou alineat, alin.(5¹) cu următorul cuprins:
+
+„(5¹) În cazul în care fapta care formează obiectul plângerii este o infracțiune prevăzută de art.188 - 223, art.374 și art.378 - 380 din Codul penal, plângerea poate fi trimisă organului de urmărire penală prin poștă electronică sau mesagerie electronică, fără îndeplinirea condiției prevăzute la alin.(5). Persoana care formulează plângerea atașează copia actului de identitate, iar în cazul în care nu are acces la acesta, orice dovadă privind identitatea sa, putând atașa și mijloace de probă compatibile cu transmiterea în formă electronică.”
+
+35\. La articolul 289, după alineatul (11) se introduce un nou alineat, alin.(12), cu următorul cuprins:
+
+„(12) Persoana care depune plângerea primește, de îndată, în scris, dovada înregistrării acesteia, inclusiv în cazul prevăzut la alin.(6). Dacă plângerea este trimisă în oricare dintre modalitățile prevăzute la alin.(5) sau (5¹), organul de urmărire penală care a primit-o comunică, în aceeași modalitate, dovada înregistrării către persoana care a formulat plângerea.”
+
+36\. După articolul 289, se introduce un nou articol, art.289¹, cu următorul cuprins:
+
+„Obligațiile organului de urmărire penală în procedura plângerii
+
+Art.289¹.- (1) Victimele prevăzute la art.113 alin.(2) pot solicita, prin plângerea formulată, păstrarea confidențialității domiciliului lor și a celorlalte date personale, indicându-le într-un înscris separat, depus împreună cu plângerea, în care sunt arătate și motivele acestei solicitări.
+
+(2) În cazul prevăzut la alin.(1) organul de urmărire penală care a înregistrat plângerea audiază, de îndată, persoana care a formulat plângerea. Declarația, plângerea și înscrisul separat depus sunt înaintate, de îndată, procurorului.
+
+(3) Dacă motivele invocate de persoana care a formulat plângerea sunt întemeiate, procurorul dispune ca adresa la care locuiește această persoană, adresa la care dorește să i se comunice actele de procedură, numărul de telefon, adresa de e-mail și orice alte date de contact să fie consemnate separat, într-un proces verbal, inclusiv la momentul audierii acesteia. Procurorul poate lua oricare dintre măsurile de protecție în condițiile art.126.
+
+(4) Înscrisul separat prevăzut la alin.(1) și procesul-verbal prevăzut la alin.(3) se păstrează în condiții de confidențialitate și se trimit instanței în cazul sesizării acesteia, unde se păstrează în aceleași condiții."
+
+37\. După articolul 294¹ se introduce un articol nou, art.294², cu următorul cuprins:
+
+„Luarea măsurilor de ocrotire în caz de deces al unei victime ca urmare a unei fapte prevăzute de legea penală
+
+Art.294².- (1) Când sesizarea are ca obiect o infracțiune urmare căreia victima a decedat, organul de urmărire penală verifică dacă în ocrotirea acesteia se află un minor, o persoană căreia i s-a instituit tutela sau curatela, tutela specială sau consilierea judiciară ori o persoană care, datorită vârstei, bolii sau altei cauze, au nevoie de ajutor și înștiințează autoritatea competentă, de îndată, în vederea luării măsurilor legale de ocrotire pentru persoanele respective.
+
+(2) În cazul victimei neidentificate prevederile alin.(1) se aplică de îndată ce se stabilește identitatea acesteia.
+
+(3) Dispozițiile alin. (1) se aplică și în alte cazuri în care, din pricina stării de sănătate fizică sau psihică a victimei, aceasta nu își poate îndeplini obligațiile față de persoanele aflate în ocrotirea sau în îngrijirea acesteia.
+
+(4) Modul de îndeplinire a obligației de înștiințare a autorității competente, prevăzute la alin.(1) - (3), se consemnează într-un proces-verbal, care se păstrează în condiții de confidențialitate."
+
+38\. La articolul 306, alineatul (4) se modifică și va avea următorul cuprins: „(4) Organul de urmărire penală se pronunță, în termen de cel mult 30 de zile de la primirea acestora, prin ordonanță motivată, în condițiile prevăzute la art. 100 alin. (3) și (4), asupra cererilor de administrare a probelor, în limita competenței sale.”
+
+39\. La articolul 306, după alineatul (4) se introduce un nou alineat, alin.(4¹), cu următorul cuprins:
+
+„(4¹) Dacă soluționarea cererii în termenul prevăzut la alin. (4) ar aduce atingere bunei desfășurări a procesului ori drepturilor și intereselor părților, organul de urmărire penală poate amâna motivat soluționarea cererii pentru o perioadă de maximum 60 de zile, comunicând acest fapt părții sau subiectului procesual, în termenul de 30 de zile de la formularea acesteia.”
+
+40\. La articolul 328, alineatul (2) se modifică și va avea următorul cuprins: „(2) În rechizitoriu se arată numele și prenumele persoanelor care trebuie citate în instanță, cu indicarea calității lor în proces, și locul unde urmează a fi citate. Când față de persoana ce urmează a fi citată a fost luată în cursul urmăririi penale o măsură de protecție prevăzută la art. 126, când aceasta se află într-o locuință protejată, într-un centru rezidențial sau într-un adăpost pentru victime, precum și atunci când procurorul, din oficiu ori la solicitarea persoanei, apreciază că pentru siguranța acesteia sau a membrilor săi de familie informațiile privind reședința ori locația în care se află persoana nu pot fi făcute cunoscute, locul citării nu se menționează în rechizitoriu, iar informațiile necesare citării acelei persoane sunt înaintate instanței separat, în condiții de confidențialitate.”
+
+41\. La articolul 329, alineatele (2) - (4) se modifică și vor avea următorul cuprins:
+
+„(2) Rechizitoriul însoțit de dosarul cauzei și de un număr necesar de copii certificate ale rechizitoriului, pentru a fi comunicate persoanei vătămate, inculpatului și celorlalte părți, se trimit instanței competente să judece cauza în fond. Procurorul trimite instanței și o copie electronică certificată a rechizitoriului.
+
+(3) În situația în care inculpatul, persoana vătămată, partea civilă sau partea responsabilă civilmente nu cunosc limba română, se vor lua măsuri pentru traducerea autorizată a rechizitoriului, care va fi atașată actelor menționate la alin.(2). Când nu există traducători autorizați, traducerea rechizitoriului se face de o persoană care poate comunica cu inculpatul, persoana vătămată sau partea civilă respectivă.
+
+(4) Inculpatul, persoana vătămată, partea civilă sau partea responsabilă civilmente, cetățean român aparținând unei minorități naționale, poate solicita să îi fie comunicată o traducere a rechizitoriului în limba maternă.”
+
+42\. După articolul 331 se introduce un nou articol, art.331¹, cu următorul cuprins:
+
+„Dispozițiile privitoare la măsurile de protecție
+
+Art.331¹.- Dacă apreciază că față de persoana vătămată, partea civilă sau partea responsabilă civilmente, persoane fizice, precum și față de martor este necesară luarea unei măsuri de protecție prevăzute la art. 127, procurorul, prin rechizitoriu, propune luarea acelei măsuri. În cazul în care mențiunea privind luarea măsurii de protecție poate pune în pericol persoanele protejate, propunerea este înaintată separat judecătorului de cameră preliminară, iar dosarul format, soluția pronunțată și modalitatea executării ei sunt confidențiale, inclusiv față de celelalte părți și apărătorii lor. Dispozițiile art. 128 se aplică în mod corespunzător.”
+
+43\. Articolul 343 se modifică și va avea următorul cuprins:
+
+Art.343.- (1) Durata procedurii în camera preliminară este de cel mult 60 de zile de la data înregistrării cauzei la instanță.
+
+(2) Pentru respectarea dispozițiilor alin. (1) judecătorul de cameră preliminară are îndatorirea să ia din timp toate măsurile necesare pentru asigurarea apărării obligatorii, dacă este cazul, și pentru ca la termenul fixat procedura de citare să fie legal îndeplinită, iar soluționarea cererilor și excepțiilor să nu sufere amânare.
+
+(3) În cazul în care, deși procedura de citare este legal îndeplinită, soluționarea cererilor și excepțiilor nu se poate realiza la termenul stabilit potrivit dispozițiilor art.344 alin.(4), judecătorul de cameră preliminară acordă termen în continuare, fără citarea părților și a persoanei vătămate. Cu excepția termenului prevăzut la art.345 alin.(3), termenele sunt stabilite în zile successive. Pentru motive întemeiate, termenele în continuare în camera preliminară pot fi stabilite în zile nesuccessive, între care nu poate fi un interval mai mare de 7 zile.
+
+(4) Citațiile pentru termenul stabilit potrivit dispozițiilor art.344 alin.(4) conțin mențiunea referitoare la acordarea termenelor în continuare și atenționarea că pentru termenele stabilite ulterior nu se vor emite alte citații, părțile și subiecții procesuali având obligația de a urmări parcursul dosarului.
+
+(5) Termenele de judecată în camera preliminară pot fi stabilite după un interval mai mare de 7 zile numai dacă probele încuviințate sau măsurile dispuse, prin natura lor, împiedică stabilirea unui termen mai scurt.
+
+(6) Pentru termenele stabilite conform alin. (5) se citează părțile și persoana vătămată care nu au termen în cunoștință și care nu au cerut judecata în lipsă. Prevederile art.353 se aplică în mod corespunzător.
+
+(7) În cazul în care procedura de citare este legal îndeplinită la termenul stabilit potrivit dispozițiilor alin.(5), dar, din motive obiective, cauza nu poate fi soluționată la acest termen, judecătorul stabilește termene în continuare. Prevederile alin.(3) - (6) se aplică în mod corespunzător."
+
+## 44. La articolul 344, alineatul (2) se modifică și va avea următorul cuprins:
+
+„(2) Copia certificată a rechizitoriului și, după caz, traducerea autorizată a acestuia se comunică părților și persoanei vătămate, la adresa unde locuiesc sau la adresa poștală ori electronică la care au solicitat comunicarea actelor de procedură. Prevederile art.260 alin.(5¹) și (5²) se aplică în mod corespunzător. În cazul în care inculpatul este arestat, rechizitoriul i se comunică la locul de deținere. Inculpatului, celorlalte părți și persoanei vătămate li se aduc la cunoștință obiectul procedurii în cameră preliminară, dreptul de a-și angaja un apărător și termenul în care, de la data comunicării, pot formula în scris cereri și excepții cu privire la legalitatea sesizării instanței, legalitatea administrării probelor și a efectuării actelor de către organele de urmărire penală. Termenul este stabilit de către judecătorul de cameră preliminară, în funcție de complexitatea și particularitățile cauzei, dar nu poate fi mai scurt de 20 de zile.”
+
+## 45. La articolul 344, alineatul (3) se modifică și va avea următorul cuprins:
+
+„(3) În cazurile prevăzute la art.90 și art.93 alin.(4), judecătorul de cameră preliminară ia măsuri pentru desemnarea unui apărător din oficiu și stabilește, în funcție de complexitatea și particularitățile cauzei, termenul în care acesta poate formula în scris cereri și excepții cu privire la legalitatea sesizării instanței, legalitatea administrării probelor și a efectuării actelor de către organele de urmărire penală, care nu poate fi mai scurt de 20 de zile.”
+
+## 46. La articolul 344, după alineatul (3) se introduc două noi alineate, alin.(3¹) și (3²), cu următorul cuprins:
+
+„(3¹) Cu excepția situațiilor în care, în mod obiectiv, acest lucru nu este posibil, în cazurile prevăzute la art.93 alin.(4), precum și în orice alte cazuri în care persoanei vătămate sau părții civile li s-a desemnat un apărător din oficiu în cursul urmăririi penale, judecătorul de cameră preliminară ia măsuri pentru desemnarea aceluiași apărător din oficiu și stabilește termenul prevăzut la alin.(3).
+
+(3²) Prevederile alin.(3¹) se aplică în mod corespunzător în cazurile prevăzute la art.90, precum și în orice alte cazuri în care inculpatului i s-a desemnat un apărător din oficiu în cursul urmăririi penale.”
+
+47\. La articolul 344, după alineatul (4) se introduc opt noi alineate, alin.(5) - (12), cu următorul cuprins:
+
+„(5) După termenul stabilit potrivit dispozițiilor alin.(4) pentru soluționarea cererilor și excepțiilor formulate, nu pot fi ridicate din oficiu ori formulate de părți sau persoana vătămată alte cereri sau excepții cu privire la legalitatea sesizării instanței, verificarea legalității administrării probelor și a efectuării actelor de către organele de urmărire penală, cu excepția cazurilor de nulitate absolută.
+
+(6) Părțile și persoana vătămată indică, la momentul formulării cererilor și excepțiilor, și probele în dovedirea acestora.
+
+(7) În cazul în care, pentru soluționarea cererilor și excepțiilor formulate, părțile sau persoana vătămată solicită probe noi, dacă mijloacele de probă sunt în posesia părții care le solicită, aceasta le depune la dosar la termenul la care sunt încuviințate.
+
+(8) Pentru prezentarea înscrisurilor care în mod obiectiv nu au putut fi depuse în condițiile prevăzute la alin.(7), judecătorul de cameră preliminară nu poate acorda decât un singur termen², care nu poate depăși 7 zile.
+
+(9) În cazul în care nu se află în posesia înscrisurilor sau a altor mijloace de probă solicitate, persoana vătămată sau partea care solicită administrarea probei, indică prin cerere și persoana fizică sau juridică în posesia căreia se află acestea, precum și datele de contact ale deținătorului.
+
+(10) Dispozițiile art.383 alin.(3) se aplică în mod corespunzător.
+
+(11) Pentru soluționarea cu celeritate a cauzei, judecătorul de cameră preliminară verifică îndeplinirea dispozițiilor privind citarea și, după caz, procedează la completarea ori refacerea acestora, astfel încât, la termenul stabilit potrivit dispozițiilor alin.(4), să poată fi supuse dezbaterii cererile și excepțiile formulate, precum și excepțiile ridicate din oficiu.
+
+(12) În situațiile prevăzute la alin.331¹, precum și atunci când se apreciază necesar, judecătorul de cameră preliminară, prin rezoluție, de urgență, fără citarea părților și fără participarea procurorului, stabilește un circuit separat în incinta instanței, diferit de cel accesibil publicului sau inculpaților, pentru persoana vătămată, partea, martorul sau alt subiect procesual către sala de judecată sau către incintele concepute sau adaptate în scopul audierii acesteia."
+
+² Art. 377 - Cercetarea judecătorească în cazul recunoașterii învinuirii
+
+(2) Înscrisurile pot fi prezentate la termenul la care instanța se pronunță asuprea cererii prevăzute la art. 375 alin.(1) sau la un termen ulterior, acordat în acest scop. Pentru prezentarea de înscrisuri instanța nu poate acorda decât un singur termen.
+
+48\. După articolul 346 se introduce un nou articol, art.346¹, cu următorul cuprins:
+
+„Autoritatea de lucru judecat a soluțiilor judecătorului de cameră preliminară
+
+Art.346¹.- (1) Încheierile definitive ale judecătorului de cameră preliminară prin care au fost respinse cererile și excepțiile privind legalitatea administrării probelor sau a efectuării actelor de urmărire penală, precum și cele prin care au fost excluse probe administrate în cursul urmăririi penale ori s-a constatat nelegalitatea unor acte de urmărire penală au autoritate de lucru judecat, inclusiv în cazul unei noi trimiteri în judecată după restituirea cauzei la parchet, precum și în cauzele disjunse.
+
+(2) Autoritatea de lucru judecat prevăzută la alin.(1) poate fi invocată în orice stare a procesului."
+
+49\. La articolul 353, alineatele (1) și (2) se modifică și vor avea următorul cuprins:
+
+„Art.353.- (1) Judecata poate avea loc numai dacă persoana vătămată și părțile sunt legal citate și procedura este îndeplinită. Înculpatul, partea civilă, partea responsabilă civilmente, persoana vătămată, și, după caz, reprezentanții legali ai acestora se citează din oficiu de către instanță. Instanța poate dispune citarea altor subiecți procesuali atunci când prezența acestora este necesară pentru soluționarea cauzei. Înfățișarea persoanei vătămate sau a părții în instanță, în persoană sau prin reprezentant ori avocat ales sau avocat din oficiu, dacă acesta din urmă a luat legătura cu persoana reprezentată, acoperă orice nelegalitate survenită în procedura de citare.
+
+(2) Partea sau alt subiect procesual principal prezent personal, prin reprezentant sau prin apărător ales la un termen, precum și acela căruia, personal, prin reprezentant sau apărător ales ori prin funcționarul sau persoana însărcinată cu primirea corespondenței, i s-a înmânat în mod legal citația pentru un termen de judecată nu mai sunt citați pentru termenele ulterioare, chiar dacă ar lipsi la vreunul dintre aceste termene, cu excepția situațiilor în care prezența acestora este obligatorie. Militarii și deținuții sunt citați din oficiu la fiecare termen, cu excepția situației în care au solicitat ca judecata să se desfășoare în lipsă.”
+
+50\. La articolul 361, după alineatul (8) se introduce un nou alineat, alin.(9), cu următorul cuprins:
+
+„(9) În situațiile prevăzute la art.331¹, precum și atunci când se apreciază necesar, președintele completului dispune, din oficiu, prin rezoluție, de urgență, în cameră de consiliu, fără citarea părților și fără participarea procurorului, un circuit separat în incinta instanței, diferit de cel accesibil publicului sau inculpaților, pentru persoana vătămată, partea, martorul sau alt subiect procesual, către sala de judecată sau către incintele concepute sau adaptate în scopul audierii acesteia.
+
+51\. După articolul 399 se introduce un nou articol, art.399¹, cu următorul cuprins:
+
+„Dispozițiile cu privire Art.399¹ - (1) Instanța de judecată are obligația ca, prin la măsurile de protecție hotărâre, să se pronunțe asupra menținerii ori încetării măsurilor de protecție dispuse pe parcursul procesului penal potrivit dispozițiilor art.126 și 127.
+
+(2) În cazul în care mențiunea privind măsura de protecție pune în pericol persoana protejată, instanța dispune asupra acesteia prin încheiere separată, anterior pronunțării hotărârii prevăzute de art.396. Dispozițiile art.128 alin.(4) - (8) se aplică în mod corespunzător.
+
+52\. La articolul 404 alineatul (4), după litera d) se introduce o nouă literă, lit.d¹), cu următorul cuprins:
+
+„d¹) măsurile de protecție;”
+
+53\. La articolul 488¹, alineatele (1) și (2) se modifică și vor avea următorul cuprins:
+
+„Art.488¹.-(1) Dacă activitatea de urmărire penală, de cameră preliminară sau de judecată nu se îndeplinește într-o durată rezonabilă, se poate face contestație, solicitându-se accelerarea procedurii.
+
+(2) Contestația poate fi introdusă de către suspect, inculpat, persoana vătămată, partea civilă și partea responsabilă civilmente. În cursul judecății și în camera preliminară, contestația poate fi introdusă și de către procuror.”
+
+54\. La articolul 488¹ alineatul (3), literele b) și c) se modifică și vor avea următorul cuprins:
+
+„b) după cel puțin 6 luni de la trimiterea în judecată, pentru cauzele aflate în procedura de camera preliminară sau după cel puțin un an de la începerea judecății în primă instanță;
+
+c) după cel puțin 3 luni de la sesizarea cu contestația împotriva încheierii de cameră preliminară sau după cel puțin 6 luni de la sesizarea instanței cu o cale de atac, pentru cauzele aflate în căile de atac ordinare sau extraordinare.”
+
+55\. La articolul 488² alineatul (1), litera b) se modifică și va avea următorul cuprins:
+
+„b) în cauzele penale aflate în camera preliminară, în cursul judecății sau în căile de atac, ordinare ori extraordinare, după caz, judecătorului de cameră preliminară de la instanța ierarhic superioară ori instanței ierarhic superioare celei pe rolul căreia se află cauza.”
+
+56\. La articolul 488⁴ alineatul (1), partea introductivă și literele a) și b) se modifică și vor avea următorul cuprins:
+
+„Art.488⁴.-(1) Judecătorul de drepturi și libertăți, judecătorul de cameră preliminară sau instanța, în vederea soluționării contestației, dispune următoarele măsuri:
+
+a) informarea procurorului, respectiv a judecătorului de cameră preliminară sau a instanței pe rolul căreia se află cauza, cu privire la contestația formulată, cu mențiunea posibilității de a formula un punct de vedere cu privire la aceasta;
+
+b) transmiterea în cel mult 5 zile a dosarului sau a unei copii certificate a dosarului cauzei de către procuror, judecătorul de cameră preliminară, respectiv de către instanța pe rolul căreia se află cauza;"
+
+57\. La articolul 488⁴, alineatul (4) se modifică și va avea următorul cuprins: „(4) Judecătorul de drepturi și libertăți, judecătorul de cameră preliminară sau instanța soluționează contestația în cel mult 20 zile de la înregistrarea acesteia.”
+
+58\. La articolul 488⁵, alineatul (1) se modifică și va avea următorul cuprins: „Art.488⁵.- (1) Judecătorul de drepturi și libertăți, judecătorul de cameră preliminară sau instanța, soluționând contestația, verifică durata procedurilor pe baza lucrărilor și a materialului din dosarul cauzei și a punctelor de vedere prezentate și se pronunță prin încheiere.”
+
+59\. La articolul 488⁵ alineatul (2), partea introductivă se modifică și va avea următorul cuprins:
+
+„(2) Judecătorul de drepturi și libertăți, judecătorul de cameră preliminară sau instanța, în aprecierea caracterului rezonabil al duratei procedurii judiciare, va lua în considerare următoarele elemente:”
+
+60\. La articolul 488⁵, după alineatul (2) se introduce un nou alineat, alin.(3), cu următorul cuprins:
+
+„(3) Judecătorul de drepturi și libertăți, judecătorul de cameră preliminară sau instanța, în aprecierea caracterului rezonabil al duratei procedurii judiciare, ia în considerare și următoarele elemente privind activitatea organului judiciar:
+
+a) dacă legea stabilește un termen de finalizare a unei proceduri, de pronunțare ori de motivare a unei hotărâri, însă acest termen s-a împlinit fără rezultat;
+
+b) dacă organul judiciar a stabilit un termen în care un participant la proces trebuia să îndeplinească un act de procedură, iar acest termen s-a împlinit, însă organul judiciar nu a luat, față de cel care nu și-a îndeplinit obligația, măsurile prevăzute de lege;
+
+c) dacă o persoană ori o autoritate care nu are calitatea de parte sau persoană vătămată a fost obligată să comunice organului judiciar, într-un anumit termen, un înscris sau date ori alte informații rezultate din evidențele ei și care erau necesare soluționării procesului, iar acest termen s-a împlinit, însă organul judiciar nu a luat, față de cel care nu și-a îndeplinit obligația, măsurile prevăzute de lege.”
+
+61\. La articolul 488⁶, alineatele (1), (2), (3) și (7) se modifică și vor avea următorul cuprins:
+
+„Art.488⁶.- (1) Când apreciază contestația ca fiind întemeiată, judecătorul de drepturi și libertăți, judecătorul de cameră preliminară sau instanța admite contestația și stabilește termenul în care procurorul să rezolve cauza potrivit art.327, respectiv judecătorul de cameră preliminară sau instanța de judecată să soluționeze cauza, precum și termenul în care o nouă contestație nu poate fi formulată.
+
+(2) În toate cazurile, judecătorul de drepturi și libertăți, judecătorul de cameră preliminară sau instanța care soluționează contestația nu va putea da îndrumări și nici nu va putea oferi dezlegări asupra unor probleme de fapt sau de drept care să anticipeze modul de soluționare a procesului ori care să aducă atingere libertății judecătorului cauzei de a hotărî, conform legii, cu privire la soluția ce trebuie dată procesului, ori, după caz, libertății procurorului de a pronunța soluția pe care o consideră legală și temeinică.
+
+(3) Dacă s-a constatat depășirea duratei rezonabile, o nouă contestație în aceeași cauză se va soluționa cu luarea în considerare exclusiv a motivelor ivite ulterior contestației anterioare. În noua contestație judecătorul de drepturi și libertăți, judecătorul de cameră preliminară sau instanța verifică și stabilește cauzele care au determinat nerespectarea termenului stabilit conform alin.(1), în care procurorul trebuia să rezolve cauza potrivit art.327, respectiv judecătorul de cameră preliminară sau instanța de judecată să soluționeze cauza.
+
+(7) Încheierea prin care judecătorul de drepturi și libertăți, judecătorul de cameră preliminară sau instanța soluționează contestația nu este supusă niciunei căi de atac.”
+
+62\. La articolul 488⁶, după alineatul (8) se introduc două noi alineate, alin.(9) și (10), cu următorul cuprins:
+
+„(9) Cauzele în care a fost admisă o contestație privind durata procesului penal se soluționează de urgență și cu precădere, în condițiile art.355.
+
+(10) Prin excepție de la dispozițiile art.275 alin.(2), în cazurile în care contestația privind durata procesului este respinsă, deși au fost depășite duratele prevăzute de art.488¹ alin.(3), cheltuielile judiciare rămân în sarcina statului.”
+
+Art.II.- (1) Cauzele aflate în cursul urmăririi penale la data intrării în vigoare a prezentei legi rămân în competența organelor de urmărire penală legal sesizate.
+
+(2) Sesizarea instanței în cauzele prevăzute la alin.(1) se va face potrivit normelor de competență din prezenta lege.
+
+(3) Cauzele aflate în camera preliminară sau în curs de judecată la intrarea în vigoare a prezentei legi rămân în competența aceleiași instanțe, dacă aceasta era competentă la data sesizării.
+
+Acest proiect de lege a fost adoptat de Senat în ședința din 16 martie 2026, cu respectarea prevederilor articolului 76 alineatul (1) din Constituția României, republicată.
+
+PREȘEDINTELE SENATULUI
+
+MIRCEA ABR/ UDEAN

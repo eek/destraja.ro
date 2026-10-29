@@ -1,0 +1,87 @@
+{
+  "slug": "plx-173-2026",
+  "billId": "PL-x 173/2026",
+  "updatedAt": "2026-10-29T12:45:23.651Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L002FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Impozitul minim global: o singură declarație pentru grupurile mari și schimb automat de date între fiscurile din UE",
+      "summaryTlDr": "Lege tehnică de transpunere a directivei DAC9. Efectul real este mai degrabă o simplificare pentru marile grupuri multinaționale. Nu atinge cetățenii obișnuiți și nici IMM-urile; singurul punct slab este că modelul efectiv al declarației e lăsat pe seama unui ordin ANAF.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/70/3/se192.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Impozitul minim global pe multinaționale: o singură declarație pe grup și schimb automat de date între fiscurile UE",
+      "summaryTlDr": "Lege tehnică, de transpunere obligatorie a DAC9. Nu creează taxe noi și nu atinge IMM-urile sau cetățenii, ci doar grupurile cu venituri consolidate de peste 750 de milioane de euro, cărora chiar le reduce birocrația. Riscurile sunt minore și procedurale.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat ordonanța fără modificări; s-au completat doar numărul și data ordonanței",
+      "summary": "Senatul a aprobat Ordonanța nr. 1/2026 exact cum a propus-o Guvernul. Acum legea doar precizează numărul, data și Monitorul Oficial. Regulile despre declarația privind impozitul suplimentar al grupurilor mari rămân aceleași.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Nu se spune cum este informată și ascultată firma semnalată de alt stat",
+            "major": true,
+            "article": "art. 291^9"
+          }
+        ],
+        "good": [
+          {
+            "text": "Grupurile pot depune centralizat declarația privind impozitul suplimentar, nu în fiecare stat",
+            "major": true,
+            "article": "art. 291^7"
+          },
+          {
+            "text": "Primele date despre impozitul suplimentar nu se transmit mai devreme de 1.12.2026",
+            "major": false,
+            "article": "art. 291^8"
+          },
+          {
+            "text": "Erorile din declarații se corectează prin cooperare între state, fără amenzi noi",
+            "major": false,
+            "article": "art. 291^9"
+          },
+          {
+            "text": "Se completează schimbul de informații despre noile tipuri de conturi financiare (DAC2)",
+            "major": false,
+            "article": "art. 291 alin. (4) și art. 291^2"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:42:41.586Z"
+    }
+  ]
+}

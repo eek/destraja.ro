@@ -1,0 +1,158 @@
+{
+  "slug": "plx-445-2026",
+  "billId": "PL-x 445/2026",
+  "updatedAt": "2026-10-29T13:10:43.925Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L265FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Limită de 5 km/h pentru bărci pe canalele și lacurile locuite din Deltă",
+      "summaryTlDr": "Măsura protejează utilul malurile, pontoanele și liniștea locuitorilor, iar sancțiunea e moderată, fără confiscarea bărcii. Problema reală e alta: textul nu spune exact unde începe și unde se termină zona de 5 km/h și nu scutește bărcile de salvare și control.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/40/5/se492.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Limită de 5 km/h pentru bărci în satele din Deltă și lângă pontoane",
+      "summaryTlDr": "Este o măsură de mediu rezonabilă, cu amenzi moderate și fără confiscarea bărcii. Problema e redactarea: „zona” de 5 km/h nu are limite clare, iar interdicția valurilor promisă în expunerea de motive nu apare în text.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_riscant",
+      "headline": "Limita de 5 km/h ajunge lângă punctele de acostare, iar fapta sancționată e formulată vag",
+      "summary": "Acum limita de 5 km/h se aplică în intravilan și lângă punctele de acostare, cu amendă de 250–1.000 lei. Intravilanul e mai clar decât „zonele mărginite de construcții”, dar zona de acostare nu are margini, iar textul poate sancționa orice abatere de navigație.",
+      "changes": [
+        {
+          "title": "Fapta sancționată, formulată mai vag decât inițial",
+          "text": "La art. 12 pct. 6¹, inițial se sancționa direct viteza peste 5 km/h. Acum „nerespectarea regulilor de navigație” poate fi citită ca orice abatere de navigație în acele zone.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 12 pct. 6¹",
+          "before": "cu o viteza mai mare de 5 km/h",
+          "after": "Nerespectarea regulilor de navigație și circulație cu o limită maximă de viteză de 5 km/h",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Limita de 5 km/h și lângă punctele de acostare",
+          "text": "Acum limita se aplică și în zona punctelor de acostare/staționare, inclusiv pentru pontoane-dormitor, dar legea nu spune câți metri are zona și nici cum se marchează pe apă.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 12 pct. 6¹",
+          "before": null,
+          "after": "în zona punctelor permise pentru acostarea/staționarea navelor și ambarcațiunilor și în zona punctelor permise pentru acostarea/staționarea pontoanelor-dormitor",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "În localități contează intravilanul, nu casele de pe mal",
+          "text": "Inițial limita viza zonele „mărginite de construcții”, fără să spună dacă ajunge o casă sau ce mal. Acum se aplică în intravilan, noțiune clară, și nu mai e limitată la canale și lacuri interioare.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 12 pct. 6¹",
+          "before": "pe canalele și lacurile interioare din perimetrul Rezervației Biosferei „Delta Dunării”, cu excepția brațelor Dunării, în zonele mărginite de construcții cu destinație de locuință, pensiuni sau unități hoteliere",
+          "after": "pe territoriul Rezervației Biosferei «Delta Dunării», cu excepția brațelor Dunării, în zonele intravilane ale localităților",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Amendă stabilită explicit pentru depășirea vitezei",
+          "text": "Noul art. 13² fixează amenda: 250–700 lei pentru persoane fizice și 500–1.000 lei pentru firme. Inițial se aplica amenda generală din art. 13 alin. (1), nemodificată de proiect.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 13²",
+          "before": null,
+          "after": "Art.13².- Contravențiile prevăzute la art.12 pct.6¹ se sancționează cu amendă de la 250 lei la 700 lei pentru persoane fizice și de la 500 lei la 1.000 lei pentru persoane juridice.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Guvernul, numit explicit responsabil de actualizarea regulilor",
+          "text": "La art. II, inițial regulile din HG 538/2015 „se actualizează”, fără să se spună de cine. Acum Guvernul trebuie să le modifice, în același termen de 30 de zile.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. II",
+          "before": "se actualizează în conformitate cu prevederile prevăzute de prezenta lege",
+          "after": "Guvernul modifică în mod corespunzător Regulile privind accesul și circulația navelor și ambarcațiunilor",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Formularea poate sancționa orice abatere de navigație, nu doar depășirea vitezei",
+            "major": true,
+            "article": "art. 12 pct. 6¹"
+          },
+          {
+            "text": "Întinderea «zonei» punctelor de acostare nu e definită și nici marcată pe apă",
+            "major": true,
+            "article": "art. 12 pct. 6¹"
+          },
+          {
+            "text": "Nicio excepție pentru ISU, Poliția de Frontieră, ARBDD sau transport medical urgent",
+            "major": true,
+            "article": "art. 12 pct. 6¹"
+          },
+          {
+            "text": "Interdicția valurilor distructive, anunțată în expunerea de motive, lipsește din text",
+            "major": true,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Ambarcațiunea nu se confiscă pentru depășirea vitezei, spre deosebire de celelalte contravenții",
+            "major": true,
+            "article": "art. 13 alin. (2)"
+          },
+          {
+            "text": "Amendă de 250–700 lei, 500–1.000 lei pentru firme; 125 lei plătită în 15 zile",
+            "major": true,
+            "article": "art. 13²"
+          },
+          {
+            "text": "În localități, limita se aplică în intravilan, o noțiune juridică clar delimitată",
+            "major": true,
+            "article": "art. 12 pct. 6¹"
+          },
+          {
+            "text": "Guvernul trebuie să actualizeze regulile din HG 538/2015 în 30 de zile",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 13,
+        "removed": 6,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:10:43.925Z"
+    }
+  ]
+}

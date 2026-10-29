@@ -1,0 +1,121 @@
+PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR SENAT
+
+LEGE pentru modificarea și completarea Legii nr. 98/2016 privind achizițiile publice
+
+Parlamentul României adoptă prezenta lege. CAPITOLUL 1 — MODIFICĂRI ȘI COMPLETĂRI
+
+Articolul 1
+
+Legea nr. 982016 privind achizițiile publice, publicată în Monitorul Oficial al României, Partea 1, nr. 390 din 23 mai 2016, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+Laarticolul 3, după litera ff) se introduc următoarele litere, cu următorul cuprins: ge). „bunuri sau servicii complet standardizate” — bunuri sau servicii pentru care există specificații tehnice, funcționale sau de calitate clar reglementate prin norme, standarde, fișe tehnice ori reglementări legale în vigoare, care nu permit variații semnificative de la un furnizor la altul și care pot fi comparate strict pe bază de preț; hhh). „factori de evaluare relevanți pentru calitate, performanță, durabilitate, eficiență energetică sau alte aspecte specifice” — componentele calitative care includ caracteristici tehnice superioare cerinței minime, garanția extinsă, durabilitatea, eficiența energetică, suportul post-execuție și altele;
+
+iii). „servicii complexe sau furnizare de echipamente critice” — servicii sau echipamente care presupun grad ridicat de specializare, risc operațional major și impact semnificativ asupra funcționării continue a instituțiilor publice;
+
+iii). „criterii de evaluare nefinanciare” — elemente de evaluare care nu privesc valoarea financiară, ci caracteristici tehnice, organizatorice sau de performanță;
+
+kkk). „preț anormal de scăzut” — orice ofertă a cărei valoare totală este cu cel puțin 20% sub media ofertelor admisibile sau care nu justifică sustenabilitatea economică; II. „performanță tehnică ” — nivelul de eficiență și calitate prin care un produs, serviciu sau lucrare îndeplinește cerințele funcționale ale autorității contractante;
+
+mmm). „fișă de evaluare a performanței contractuale” — document întocmit la finalizarea unui contract, care reflectă comportamentul operatorului economic;
+
+nn). „evaluare negativă” — fișă care atestă nerespectarea termenelor, livrări neconforme sau penalități contractuale semnificative;
+
+000). „operator economic recidivist” — ofertant care a primit două sau mai multe evaluări negative în ultimii 3 ani;
+
+ppp). „Registru Național al Performanței Contractuale (RNPC)” – bază de date electronică gestionată de ANAP pentru arhivarea și publicarea fișelor de evaluare;
+
+qqq). „lucrări defectuoase” – lucrări care prezintă abateri calitative/cantitative față de documentația tehnică și standardele legale;
+
+rrr). „recepție formală” – semnarea procesului-verbal de recepție fără verificare efectivă;
+
+sss). „recepție defectuoasă” – recepția unor bunuri, servicii sau lucrări care nu corespund specificațiilor contractuale sau documentației de atribuire, constatată prin verificare tehnică obiectivă
+
+ttt). „viciu vizibil” – neconformitate identificabilă la recepție, prin inspecție fizică;
+
+uuu). „contestație abuzivă” – contestație formulată cu rea-credință, lipsită de temei clar și formulată cu scop de tergiversare;
+
+vvv). „filtru de admisibilitate” – analiză sumară a CNSC privind validitatea procedurală și temeinicia minimă a contestației;
+
+xxx). „proces-verbal tehnic” – document oficial întocmit de personal de specialitate cu atribuții tehnice sau de control calitate, desemnat de autoritatea contractantă, care constată faptic și obiectiv, prin verificare efectivă, conformitatea sau neconformitatea bunurilor, serviciilor sau lucrărilor recepționate față de cerințele prevăzute în documentația de atribuire și în contractul de achiziție.
+
+yyy). „probe documentate” – înscrisuri oficiale, certificate, rapoarte tehnice, decizii executorii, hotărâri definitive sau orice alt document verificabil, emis de o autoritate publică, un beneficiar de contract, un expert sau o instanță, prin care operatorul economic demonstrează remedierea deficiențelor contractuale sau corectarea comportamentului profesional anterior.
+
+## Articolul 2
+
+Articolul 187 se modifică și va avea următorul cuprins:
+
+(1) Autoritatea contractantă are obligația de a aplica, în atribuirea contractului, criteriul cel mai bun raport calitate-preț sau calitate-cost.
+
+(2) Aplicarea criteriului prețul cel mai scăzut este permisă doar în mod excepțional, pentru bunuri sau servicii complet standardizate.
+
+(3) Factorii calitativi, care pot include performanță tehnică, durabilitate, eficiență energetică, trebuie să aibă o pondere cumulată de minimum 40%.
+
+(4) Alegerea criteriului se justifică și se publică în SEAP.
+
+(5) Ofertantul cu preț anormal de scăzut este exclus, dacă nu justifică sustenabilitatea economică.
+
+## Articolul 3
+
+După articolul 187 se introduce un nou articol, 187¹:
+
+Art. 187¹ – Pentru lucrări, servicii complexe și echipamente critice, se aplică exclusiv criteriul cel mai bun raport calitate-preț. Documentația trebuie să includă minim două criterii nefinanciare. Lipsa justificării poate atrage, după caz, anularea procedurii în condițiile legii și ale jurisprudenței CNSC sau a instanței competente.
+
+## Articolul 4
+
+După articolul 188 se introduce articolul 188¹:
+
+Art. 188¹ – (1) Autoritățile contractante vor evalua performanța contractuală prin fișe obligatorii, arhivate în RNPC.
+
+(2) Operatorii economici care înregistrează două evaluări negative în decurs de 3 ani sunt excluși de la procedurile de atribuire, cu excepția cazului în care demonstrează, prin probe documentate, că deficiențele anterioare au fost remediate integral și comportamentul contractual a fost corectat.
+
+(3) Fișele de evaluare a performanței contractuale se comunică operatorului economic prin mijloace electronice, cu confirmare de primire, și pot fi contestate în termen de 10 zile lucrătoare de la data comunicării, printr-o plângere administrativă adresată autorității contractante care a întocmit fișa. În lipsa unei contestații formulate în termen, fișa devine definitivă de drept și produce toate efectele juridice prevăzute de prezenta lege.
+
+(4) Contestația se soluționează în termen de 10 zile lucrătoare de la înregistrare, de către o comisie desemnată de conducătorul autorității contractante, formată din persoane care nu au participat la întocmirea fișei contestate.
+
+(5) Comisia întocmește un referat de soluționare, pe baza căruia se emite o decizie motivată, care se comunică contestatarului prin mijloace electronice, cu confirmare de primire, în termen de 2 zile lucrătoare de la emitere. Dacă fișa de evaluare este menținută, aceasta devine definitivă și se înscrie în Registrul Național al Performanței Contractuale. Dacă fișa este modificată sau anulată, se înscrie în registru forma revizuită, cu mențiunea „revizuită în urma contestației”.
+
+(6) Decizia este supusă controlului instanței de contencios administrativ, conform Legii nr. 554/2004.
+
+(7) Termenele prevăzute la prezentul articol sunt termene de decădere, se exprimă în zile lucrătoare și se calculează fără a include ziua în care are loc notificarea. Dacă ultima zi a termenului este nelucrătoare, termenul se prelungește până în prima zi lucrătoare următoare.
+
+## Articolul 5
+
+După articolul 238 se introduce articolul 238¹:
+
+Art. 238¹ – (1) Funcționarii care recepționează lucrări defectuoase sau care efectuează o recepție formală, fără verificare efectivă, inclusiv în cazul în care viciile vizibile puteau fi identificate cu ocazia recepției, răspund disciplinar, civil sau penal.
+
+(2) Recepția formală, astfel cum este definită la art. 3 lit. rrr), precum și recepția defectuoasă, astfel cum este definită la art. 3 lit. sss), constituie abateri grave.
+
+(3) Recepția formală sau defectuoasă se constată prin proces-verbal tehnic. Autoritatea contractantă are obligația ca, în termen de maximum 5 zile de la semnarea acestui proces-verbal, să sesizeze compartimentul de control intern și compartimentul juridic, în vederea declanșării măsurilor administrative și, după caz, patrimoniale.
+
+## Articolul 6
+
+După articolul 231 se introduce articolul 231':
+
+Art. 231' – CNSC poate aplica un filtru de admisibilitate operatorilor economici recidiviști. Contestațiile abuzive pot fi respinse prin decizie motivată, supusă controlului judiciar. Procedura va fi reglementată prin completarea corespunzătoare a Legii nr. 101/2016.
+
+## CAPITOLUL II – DISPOZIȚII TRANZITORII ȘI FINALE
+
+## Articolul 7
+
+(1) ANAP are obligația de a crea RNPC în 6 luni de la intrarea în vigoare. Acesta va fi interoperabil cu SEAP. Ghidul de utilizare și normele de funcționare vor fi publicate în 90 de zile.
+
+(2) Guvernul va adopta normele metodologice în 90 de zile de la publicare. Platforma SEAP și HG 395/2016 vor fi armonizate în termen de 120 de zile.
+
+(3) ANAP, în colaborare cu Ministerul Finanțelor și, după caz, cu CNSC, va elabora și supune aprobării Guvernului, în termen de 90 de zile de la publicarea prezentei legi, normele metodologice de aplicare a dispozițiilor privind fișa de evaluare a performanței contractuale, Registrul Național al Performanței Contractuale, precum și procedura de contestație administrativă prevăzută la art. 188¹.
+
+(4) Normele vor stabili, în mod detaliat, structura fișei, modul de transmitere și notificare, formatul de publicare, precum și termenele și pașii de soluționare a contestațiilor.
+
+## Articolul 8
+
+(1) Prezenta lege intră în vigoare la 30 de zile de la data publicării în Monitorul Oficial al României, Partea I, cu excepția art. 188¹ și art. 231¹, care se aplică începând cu data de 30 iunie 2026.
+
+(2) Intrarea în vigoare întârziată a prevederilor art. 188¹ și art. 231¹ este justificată de necesitatea creării, testării și operaționalizării Registrului Național al Performanței Contractuale, precum și de stabilirea procedurilor administrative și a mecanismelor tehnice aferente.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea art. 75 și art. 76 alin. (1) din Constituția României.
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+PREȘEDINTELE SENATULUI

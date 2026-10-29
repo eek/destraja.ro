@@ -1,0 +1,241 @@
+# EXPUNERE DE MOTIVE
+
+## Secțiunea 1 Titlul proiectului de act normativ
+
+Lege pentru aprobarea Ordonanței de urgență a Guvernului privind reducerea temporară a nivelului accizei aplicabil motorinei și instituirea contribuției de solidaritate asupra veniturilor din comercializarea țițeiului și a produselor energetice obținute din prelucrarea țițeiului extras de pe teritoriul României, precum și pentru modificarea și completarea Ordonanței de urgență nr. 19/2026 privind declararea situației de criză pe piața țițeiului și/sau a produselor petroliere, respectiv benzină și motorină, și pentru instituirea unor măsuri de protejare a economiei și populației pe durata situației de criză, precum și pentru modificarea Ordonanței de urgență a Guvernului nr. 12/2026 privind măsurile aplicabile clienților casnici din piața de gaze naturale în perioada 1 aprilie 2026-31 martie 2027
+
+## Secțiunea a 2-a
+
+## Motivul emiterii proiectului de act normativ
+
+## 2.1 Sursa proiectului de act normativ- Ministerul Finanțelor
+
+Având în vedere evoluțiile recente de pe piața internațională a petrolului și produselor petroliere, precum și efectul direct al acestora asupra prețurilor finale practicate pe piața internă a carburanților, cu impact imediat asupra costurilor de transport, distribuție și aprovizionare în economie,
+
+ținând seama de faptul că majorarea accentuată a prețurilor la carburanți se reflectă în lanț în nivelul costurilor suportate de populație și operatorii economici, cu efecte asupra puterii de cumpărare, asupra competitivității economice și asupra stabilității unor sectoare esențiale,
+
+întrucât menținerea unui nivel ridicat al prețurilor la carburanți, în lipsa unor măsuri adecvate și rapide de răspuns, poate genera perturbări economice și sociale, precum și riscuri privind continuitatea unor activități economice și de servicii de interes general dependente de consumul de carburanți,
+
+având în vedere necesitatea protejării consumatorilor și a economiei nationale împotriva efectelor unor creșteri abrupte de preț, printr-o intervenție temporară, proporțională și
+
+| calibrată în raport cu evoluțiile din piață, se impune: • reducerea temporară a accizei pentru motorina standard; • o redistribuire a veniturilor excepționale obținute de operatorii economici din vânzarea țițeiului/ produselor energetice obținute din prelucrarea țițeiului extras de pe teritoriul României, prin instituirea unei contribuții de solidaritate. |
+| --- |
+| Contribuția de solidaritate este un mijloc adecvat de abordare a veniturilor excedentare în cazul unor circumstanțe neprevăzute. Respectivele venituri nu corespund niciunui profit regulat pe care societățile din domeniul vizat l-ar fi putut obține în condiții normale, în cazul în care evenimentele imprevizibile de pe piețele combustibililor nu ar fi avut loc. |
+| Prin urmare, instituirea unei contribuții de solidaritate constituie o măsură care permite, în spiritul solidarității, generarea de venituri suplimentare pentru ca autoritățile naționale să ofere condiții de concurență echitabile în piață. |
+| Statul trebuie să fie în măsură să sprijine consumatorii, într-un mod direcționat, prin intermediul veniturilor excedentare și prin intermediul încasărilor obținute din contribuția de solidaritate. |
+| Astfel, prin măsura propusă statul realizează un act de justiție socială prin redistribuirea unor venituri suplimentare, speculative, obținute ca urmare a unei situații excepționale de criză, către persoanele care au fost afectate în primul rând de efectele crizei, prin măsuri de compensare a creșterii prețurilor carburanților. Mai mult decât atât, în lipsa acestei măsuri, s-ar produce dezechilibre concurențiale majore în piața de carburanți, tocmai în considerarea faptului că operatorii care extrag țiței din România, la un cost redus, beneficiază de un avantaj competitiv major față de cei care importă țiței la prețuri situate la nivelul cotațiilor internaționale. |
+| 2.2 Descrierea situației actuale |
+| 2.2.1 Accize |
+| Pe fondul evoluțiilor de pe piețele internaționale ale petrolului și produselor petroliere, prețurile carburanților au crescut accelerat și volatil, cu efecte imediate și semnificative asupra economiei naționale și asupra nivelului costurilor suportate de populație și mediul de afaceri. Amploarea și rapiditatea transmiterii acestor evoluții în prețul final la pompă, cu impact direct asupra transportului, logisticii, distribuției mărfurilor, mobilității forței de muncă și, în general, asupra costurilor de funcționare ale economiei, impun adoptarea unor măsuri cu caracter extraordinar. |
+| În considerarea ponderii carburanților în structura costurilor economice și a rolului |
+
+acestora în funcționarea normală a lanțurilor de aprovizionare, menținerea unui nivel ridicat al prețurilor pentru o perioadă îndelungată este de natură să amplifice presiunile inflaționiste, să reducă puterea de cumpărare și să afecteze competitivitatea unor activități economice esențiale.
+
+În prezent, nivelul accizelor aplicabil motorinei este stabilit prin Legea nr. 227/2015 privind Codul fiscal, cu modificările și completările ulterioare și este de 2804,29 lei/1000 litri, respectiv de 3318,74 lei/tonă.
+
+## 2.2.2 Contribuția de solidaritate
+
+În prezent, operatorii economici care activează în sectorul de exploatare a resurselor naturale, inclusiv țiței, aplică prevederile Ordonanței Guvernului nr. 6/2013 privind instituirea unor măsuri speciale pentru impozitarea exploataării resurselor naturale, altele decât gazele naturale.
+
+Potrivit prevederilor Ordonanței Guvernului nr. 6/2013 se aplică un impozit de 0,5% asupra veniturilor obținute din exploatarea resurselor naturale, după cum urmează:
+
+a) operatorii economici care exploatează resursele naturale și le valorifică ca atare sau în urma unui proces de prelucrare/pregătire/sortare fără a fi folosite de aceștia pentru obținerea altor tipuri de produse datorează impozit pentru veniturile obținute din valorificarea acestora;
+
+b) operatorii economici care folosesc resursele naturale exploatace ca materii prime pentru obținerea altor produse (de exemplu, produse energetice) și al căror preț este cotat la bursă datorează impozit pentru partea din venitul rezultat din valorificarea produselor finite, corespunzătoare valorii materiilor prime.
+
+Piața petrolului este o piață liberă, țițeiul și produsele petroliere fiind produse tranzacționate public pe o piață globală. Piața petrolieră din România este o piață care funcționează pe baza principiilor liberei concurențe, fiecare participant având libertatea de a-și dezvolta propria strategie. Pe piața produselor petroliere există un climat competitiv - prețurile combustibililor sunt stabilite în mod liber, pe baza raportului dintre cerere și ofertă pe piața internă, respectiv pe piața internațională.
+
+Situația din Orientul Mijlociu a generat o criză a produselor petroliere - recentele atacuri americane și amenințarea Iranului de blocare a strâmtorii Ormuz:
+
+o Strâmtoarea Ormuz este situată în Golf, între Oman și Iran, și este considerată cel mai important punct de tranzit al petrolului din lume. Prin Strâmtoarea Ormuz trece zilnic cca. 20-30% din comerțul mondial cu petrol.
+
+o Se estimează că aprox. 70% din volumul de petrol tranzitat prin această strâmtoare ajunge în Asia (China, Japonia, India, Pakistan).
+
+| ○ Oprirea completă a traficului prin strâmtoare are consecințe grave pentru comerțul global și afectează inclusiv Europa, care importă țiței, produse petroliere și gaz natural lichefiat din zonă (Arabia Saudită, Kuweit, Irak, Qatar, Emiratele Arabe Unite). |
+| --- |
+| Această acțiune duce la: ○ creșterea prețurilor resurselor energetice și nu numai, din cauza efectelor în lanț; ○ reducerea ofertei, care va conduce, implicit, la prețuri mai mari pentru petrol; ○ creșterea costurilor de transport și al asigurărilor. |
+| Evenimentele din Orientul Mijlociu, au avut repercusiuni majore asupra pieței petroliere globale, în special în ceea ce privește cotațiile țițeiului, cotația Brent a depășit 100 USD/baril, ajungând în zilele de 9 și 19 martie 2026 la aproape 120 USD/baril – comparativ cu valori de cca. 65 USD/baril la începutul lunii februarie 2026). |
+| De reamintit este faptul că invazia Ucrainei de către Rusia în februarie 2022 și evoluția ulterioară a evenimentelor au perturbat profund producția și comerțul cu anumite mărfuri, inclusiv țiței, gaze naturale și cereale. Prețurile energiei erau în creștere încă din primăvara lui 2021, sub influența redresării puternice a cererii post pandemie, dar această tendință a fost mult accentuată de sancțiunile impuse Rusiei de către SUA și Europa de Vest. Creșterea costurilor la combustibili și alimente a dus la creșterea generalizată a prețurilor la nivel global, în timp ce țările dezvoltate s-au confrontat cu un nivel al inflației întâlnit ultima dată la începutul anilor 1980. |
+| Prețurile petrolului au crescut puternic în primele două luni ale anului 2022, dar ulterior au scăzut în a doua jumătate a anului, pe măsură ce temerile privind încetinirea creșterii economice au început să crească. |
+| Prețul mediu al petrolului Brent a crescut în 2022 cu 43% față de anul 2021, până la 101 USD/baril, însă prețul de la final de an a fost cu doar 6% mai ridicat decât cel de la finalul anului precedent. |
+| Cererea globală totală de petrol a crescut cu aproximativ 0,8 mil. barili/zi în 2025, ajungând la 103,9 mil. barili/zi, deși creșterea a decelerat considerabil pe fondul incertitudinii economice și al continuării tranziției energetice. |
+| Oferta globală de petrol a crescut la aproximativ 106,2 mil. barili/zi, creând un surplus mare care a exercitat presiune asupra prețurilor pe tot parcursul anului. O combinație între creșterea obiectivelor de producție din partea OPEC+ și o producție record reziliență din partea țărilor non-OPEC a dus la o creștere substanțială a ofertei de petrol, în special în a doua jumătate a anului 2025. |
+
+Ca o consecință a acestei creșteri a ofertei de petrol, stocurile globale de petrol au crescut substanțial, cu aproximativ 7% sau 0,5 mil. barili/zi.
+
+Prețurile petrolului Brent au fost în medie în jurul valorii de 69 USD/baril în 2025, scăzând față de nivelurile din 2024, deoarece creșterea ofertei a depășit cererea în scădere.Țițeiul Brent a început anul la un nivel de aproape 80 USD/baril, dar a avut o tendință descendentă pe tot parcursul anului.
+
+În România, resursele totale de energie au crescut cu 3,7%, deși compoziția s-a modificat semnificativ. Piața petrolieră din România se bazează pe o producție internă de țiței de aprox. 2,8 milioane de tone și pe un import de cca. 9 milioane de tone. Consumul mediu anual de combustibili din România se situează la un nivel de cca. 9 mil. tone/an, din care ponderea cea mai mare este deținută de consumul de motorină, cu o valoare medie anuală de cca. 5,9 mil. tone/an (benzina - cca. 2 mil. tone/an).
+
+## 2.2.3 Măsuri de protejare a economiei și populației
+
+In vederea asigurării unui plus de coerenta a masurilor cuprinse în Ordonanța de urgență nr. 19/2026 pri-vind declararea situației de criză pe piața țițeiului și/sau a produselor petroliere, respectiv benzină și motori-nă, și pentru instituirea unor măsuri de protejare a economiei și populației pe durata situației de criză, pre-cum și pentru modificarea Ordonanței de urgență a Guvernului nr. 12/2026 privind măsurile aplicabile cli-enților casnici din piața de gaze naturale în perioada 1 aprilie 2026-31 martie 2027, se propune completarea art. 3 prin instituirea unei masuri de limitare în timp a majorarii preturilor, în sensul că, în perioada de criză, operatorii economici care comercializează benzină și motorină cu amănuntul către consumatorii finali pot majora prețurile de vânzare cel mult o singură dată într-o zi calendaristică, până la ora 12:00. Prețurile de vânzare pot fi reduse oricând, de oricâte ori este necesar.
+
+Corespunzător acestei norme urmeaza a se reglementa masuri sanctionatorii.
+
+## 2.3 Schimbări preconizate
+
+2.3.1 Accize Având în vedere necesitatea adoptării, fără întârziere, a anumitor măsuri care să permită atenuarea efectelor creșterilor de preț asupra consumatorilor și operatorilor economici, se impune reducerea temporară a nivelului accizei la motorina standard, începând cu data de 7 aprilie 2026, pe durata situației de criză pe piața țițeiului și/sau a produselor petroliere, declarată potrivit Ordonanței de urgență a Guvernului nr. 19/2026, cu 0,3 lei pe litru.
+
+Amânarea intervenției normative ar conduce la perpetuarea unui impact negativ imediat
+
+| asupra costurilor de trai și asupra costurilor de operare din economie, cu riscul amplificării presiunilor inflaționiste și al afectării unor activități economice esențiale. În lipsa unei intervenții imediate, există riscul ca majorările de preț să se consolidateze în economie, cu efecte negative asupra populației, asupra lanțurilor de aprovizionare și asupra sectoarelor economice cu consum intensiv de carburant. |
+| --- |
+| 2.3.2 Contribuția de solidaritate Pe perioada declarării situației de criză pe piața țițeiului și/sau a produselor petroliere, potrivit Ordonanței de urgență a Guvernului nr. 19/2026 privind declararea situației de criză pe piața țițeiului și/sau a produselor petroliere, se instituie contribuția de solidaritate care se datorează de următorii operatori economici: • operatorii economici, titulari de acorduri petroliere, care extrag țiței din zăcăminte situate pe territoriul României și obțin venituri din comercializarea neprelucrată a acestuia; • operatorii economici, titulari de acorduri petroliere, care extrag țiței din zăcăminte situate pe territoriul României, și care, direct sau prin persoanele afiliate acestora, prelucrează acest țiței și obțin venituri din comercializarea produselor energetice. |
+| Contribuția de solidaritate se datorează exclusiv pentru lunile în care prețul mediu lunar al țițeiului de referință Brent (ICE Brent Crude Futures, front-month contract) depășește nivelul de 70 USD/baril, calculat ca medie aritmetică a cotațiilor zilnice de închidere din luna de referință. Prin prezentul act normativ se instituie o contribuție de solidaritate aplicabilă exclusiv veniturilor obținute din prelucrarea țițeiului de proveniență domestică la un preț Brent ce depășește 70 USD/baril. Pragul de 70 USD/baril reprezintă nivelul de la care veniturile operatorilor care prelucrează țiței din producția națională depășesc semnificativ costurile de producție și marjele normale de rafinare, generând un surplus care poate fi calificat drept venit excepțional. Alegerea acestui prag se bazează pe următoarele elemente obiective: (a) Costul de producție al țițeiului din surse românești. Costul complet de producție (lifting cost plus costuri de amortizare, transport, reabilitare ecologică și redevente) se |
+
+<table>
+<tbody>
+<tr><td colspan="2">situază, conform datelor sectoriale, în intervalul 25–40 USD/baril pentru zăcămintele terestre și 35–55 USD/baril pentru cele offshore. La un preț Brent de 70 USD/baril, chiar și cel mai costisitor segment al producției rămâne profitabil, cu o marjă de 15–35 USD/baril.(b) Marjele de rafinare. Marjele tipice de rafinare (crack spread) pentru rafinăriile din Europa Centrală și de Est se situează în intervalul 5–15 USD/baril în condiții normale de piață. La un preț Brent de 70 USD/baril, marja combinată producție plus rafinare permite recuperarea integrală a costurilor și obținerea unui profit rezonabil, fără aplicarea contribuției.(c) Media istorică și pragul de normalitate. Prețul mediu al țițeiului Brent în perioada 2015–2024 a fost de aproximativ 65 USD/baril. Pragul de 70 USD/baril se situează ușor deasupra acestei medii pe termen lung, semnalând că activarea contribuției intervine doar când piața depășește nivelul considerat normal, nu când operează în parametri obișnuiți.(d) Structura diferențiată a cotelor. Mecanismul fiscal este construit astfel încât pragul de 70 USD/baril nu generează în sine obligații fiscale effective — cotele de impozitare pornesc de la 70 USD/baril și cresc gradual.Prin urmare, pragul de 70 USD/baril este nivel care asigură o marjă amplă de profitabilitate (50+ USD/baril peste costurile de producție terestre).Contribuția de solidaritate este așezată pe o grilă de cote cuprinse între 1,5% (Brent peste 70 USD/baril) și un maxim de 9,9%, asigurând proporționalitatea sarcinii fiscale cu nivelul câștigului excepțional. Contribuția crește gradual pe măsura distanțării de prag, atingând cote semnificative doar la niveluri de preț substanțial superioare.Pentru contribuabilii care extrag țiței care este comercializat neprelucrat, contribuția de solidaritate se calculează prin aplicarea unui procent de 60% din veniturile din comercializarea acestui țiței. Veniturile se determină prin înmulțirea cantității lunare de țiței exprimată în barili, vândută din producția proprie, cu diferența dintre prețul de vânzare/baril și valoarea reprezentând echivalentul în lei a cotației de 70 USD/baril.În cazul contribuabililor care comercializează produse energetice obținute din prelucrarea țițeiului, pentru calculul contribuției se propun următoarele cote și intervalele de preț mediu lunar al țițeiului Brent:</td></tr>
+<tr><td>Interval preț mediu lunar al țițeiului Brent (USD/baril)</td><td>Cota contribuției de solidaritate</td></tr>
+</tbody>
+</table>
+
+70,01-80,00 1,5%
+
+80,01-90,00 2,9% 90,01 — 100,00 | 4,2% 100,01 — 105,00 o 4,9% 105,01 - 110,00 , 5,5% 110,01 — 120,00. " 6,7% 120,01 — 130,00 | 7,8% 130,01 — 140,00 e 8,9% peste 140,00 | 9,9%
+
+Veniturile supuse contribuției de solidaritate se determină după următoarea formulă: VS=R x VL, unde: VS = veniturile supuse contribuției de solidaritate în luna de referință;
+
+R = raportul dintre cantitatea de țiței din producția națională prelucrată și cantitatea totală de țiței procesată în anul 2025, determinat pe baza evidențelor contabile și operaționale ale operatorului economic;
+
+VL = totalul veniturilor lunare obținute din comercializarea produselor energetice rezultate din prelucrarea țițeiului.
+
+Produsele energetice sunt: benzină, motorină, kerosen, păcură, GPL, astfel cum sunt definite potrivit legislației fiscale în materie de accize.
+
+Sumele achitate cu titlu de contribuție de solidaritate, reprezintă cheltuieli deductibile la determinarea rezultatului fiscal, în sensul Legii nr. 227/2015 privind Codul fiscal, cu modificările și completările ulterioare.
+
+Veniturile care sunt luate în calculul contribuției de solidaritate se exclud din calculul impozitului prevăzut de Ordonanța Guvernului nr. 6/2013.
+
+Contribuția de solidaritate se calculează, se declară și se plătește lunar, până la-data de 25
+
+LATUTR N ——
+
+inclusiv a lunii următoare celei pentru care se datorează.
+
+| Operatorii economici vor avea obligația organizării unor evidențe contabile, fiscale și operaționale distincte din care să rezulte, după caz:a) cantitatea de țiței din producția națională comercializată/prelucrată;b) cantitatea totală de țiței prelucrată;c) produsele energetice rezultate și destinația acestora;d) veniturile obținute din comercializarea produselor energetice, defalcate pe categorii de produseContribuția de solidaritate este venit la bugetul de stat și se administrează de către Agenția Națională de Administrare Fiscală, potrivit Legii nr. 207/2015 privind Codul de procedură fiscală, cu modificările și completările ulterioare. |
+| --- |
+| Contribuția de solidaritate nu constituie o intervenție în mecanismul de formare a prețurilor și nu reglementează prețurile produselor energetice. Măsura vizează exclusiv redistribuirea parțială a veniturilor excepționale obținute de operatorii care prelucrează/comercializează țiței din producția națională/produse energetice, în contextul specific al unei crize declarate. Intervenția se justifică prin concursul a trei elemente obiective: (i) existența unei surse de venituri excepționale — diferența dintre costul materiei prime din producția proprie și prețurile internaționale la care sunt comercializate produsele energetice; (ii) caracterul temporar și conjunctural al acestor venituri, care nu reflectă eficiența sau performanța operatorului, ci exclusiv evoluția externă a cotațiilor internaționale; (iii) impactul social și economic al crizei, care necesită resurse bugetare suplimentare pentru finanțarea măsurilor de protecție. |
+| Principiul echității fiscale, consacrat de art. 56 alin. (2) din Constituția României — „Sistemul legal de impuneri trebuie să asigure așezarea justă a sarcinilor fiscale” — fundamentează dreptul legiutorului de a institui contribuții diferențiate în funcție de capacitatea contributivă a operatorilor economici. Curtea Constituțională a statuat în mod constant că legiutorul dispune de o largă marjă de apreciere în stabilirea politicii fiscale, cu condiția respectării principiului proporționalității și a nediscriminării. |
+| Contribuția se aplică exclusiv unei categorii restrânse de operatori care beneficiază de un avantaj structural — accesul la țiței din producția națională la cost de producție — și doar în perioadele în care acest avantaj generează venituri excepționale, datorită unui context de criză. Prin urmare, diferențierea de tratament fiscal este obiectivă, rațională și proporțională cu situația distinctă a acestor operatori. |
+
+## 2.3.3 Măsuri de protejare a economiei și populației
+
+Se stabileste obligația operatorilor economici care comercializează benzină și motorină cu amănuntul către consumatorii finali de a majora prețurile de vânzare cel mult o singură dată într-o zi calendaristică.
+
+Constituie contravenție nerespectarea de către operatorii economici care comercializează benzină și motorină cu amănuntul către consumatorii finali a obligația prvind majorarea zilnica a preturilor de vanzare si se stabileste regimul sanctionator al acesteia si institutia competentă să aplice sanctiunile contraventionale.
+
+## 2.4 Alte informații
+
+## Contribuția de solidaritate
+
+Compatibilitatea cu clauzele de stabilitate din acordurile petroliere
+
+Clauzele de stabilitate fiscală incluse în acordurile petroliere au ca scop protejarea investitorului împotriva modificărilor legislative care ar afecta echilibrul economic al proiectului, în special rentabilitatea normală a activității de explorare și producție.
+
+Contribuția de solidaritate nu poate fi considerată o încălcare a acestor clauze din următoarele motive:
+
+(a) Pragul de activare asigură profitabilitatea normală. Contribuția se datorează doar atunci când prețul Brent depășește 70 USD/baril, nivel care, astfel cum s-a demonstrat, garantează profitabilitatea integrală a activităților de producție și rafinare.
+
+(b) Contribuția vizează veniturile excepționale, nu pe cele normale. Clauzele de stabilitate protejează echilibrul economic anticipat la semnarea acordului — adică profitabilitatea rezonabilă a proiectului. Veniturile excepționale generate de o criză neprevăzută de pe piața internațională nu fac obiectul protecției conferite de aceste clauze, întrucât ele nu au fost luate în calcul la momentul fundamentării investiției.
+
+(c) Caracterul temporar. Măsura se aplică exclusiv pe durata situației de criză declarate prin OUG nr. 19/2026 și nu modifică permanent cadrul fiscal aplicabil activităților de explorare și producție. Încetarea crizei atrage automat încetarea obligației fiscale.
+
+(d) Precedentul european. Regulamentul (UE) 2022/1854 a instituit la nivel european mecanisme de captare a veniturilor excepționale din sectorul energetic, fără ca acestea să fi fost considerate incompatibile cu protecția investițiilor sau cu clauzele de stabilitate din
+
+| acordurile existente. Curtea de Justiție a Uniunii Europene și practica statelor membre confirmă legitimitatea unor astfel de măsuri în situații excepționale. |
+| --- |
+| (e) Principiul rebus sic stantibus. Dreptul internațional al investițiilor recunoaște că modificarea fundamentală a circumstanțelor — precum o criză energetică majoră — permite statului-gazdă să adopte măsuri proporționale de interes public, fără ca acestea să constituie expropriere indirectă sau încălcarea așteptărilor legitime ale investitorului, cu condiția respectării principiului proporționalității și a nediscriminării. |
+
+Secțiunea a 3-a
+
+## Impactul socioeconomic
+
+| 3.1 Descrierea generală a beneficiilor și costurilor estimate ca urmare a intrării în vigoare a proiectului de act normativ |
+| --- |
+| 3.2 Impactul social Se estimează protejarea puterii de cumpărare a populației, limitarea efectelor indirecte asupra prețurilor bunurilor și serviciilor și reducerea presiunii asupra populației. |
+| 3.3. Impactul asupra drepturilor și libertăților fundamentale ale omului Nu este cazul. |
+| 3.4. Impactul macroeconomic |
+| 3.4.1 Impactul asupra economiei și asupra principalilor indicatori macroeconomici Măsura contribuie la atenuarea presiunilor inflaționiste generate de creșterea prețurilor la carburanți și la stabilizarea costurilor în sectoarele dependente de transport. |
+| 3.4.2 Impactul asupra mediului concurențial si domeniului ajutoarelor de stat Nu este cazul. |
+| 3.5. Impactul asupra mediului de afaceri Măsura de reducere a nivelului accizei are un impact favorabil asupra operatorilor economici. |
+| 3.6 Impactul asupra mediului înconjurător Nu este cazul. |
+| 3.7. Evaluarea costurilor și beneficiilor din perspectiva inovării și digitalizării Nu este cazul. |
+| 3.8 Evaluarea costurilor și beneficiilor din perspectiva dezvoltării durabile Nu este cazul. |
+| 3.9. Alte informații Nu este cazul. |
+
+Secțiunea a 4-a
+
+Impactul financiar asupra bugetului general consolidat atât pe termen scurt, pentru anul curent, cât și pe termen lung (pe 5 ani), inclusiv informații cu privire la cheltuieli și venituri
+
+<table>
+<tbody>
+<tr><td colspan="7">- În mii lei (RON)</td></tr>
+<tr><td>Indicatori</td><td>Anul curent</td><td colspan="4">Următorii 4 ani</td><td>Media pe 5 ani</td></tr>
+<tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr>
+<tr><td>4.1. Modificări ale veniturilor bugetare, plus/minus, din care:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>a) bugetul de stat, din acesta: (i) impozit pe profit (ii) impozit pe venit</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>b) bugete locale: (i) impozit pe profit</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>c) bugetul asigurărilor sociale de stat (i) contribuții de asigurări</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>d) alte tipuri de venituri (contribuția de solidaritate)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.2. Modificări ale cheltuielilor bugetare, plus/minus, din care:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>a) buget de stat, din acesta: (i) cheltuieli de personal (ii) bunuri și servicii</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>b) bugete locale:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+| (i) cheltuieli de personal (ii) bunuri și servicii |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+| c) bugetul asigurărilor sociale de stat: (i) cheltuieli de personal (ii) bunuri și servicii |  |  |  |  |  |  |
+| d) alte tipuri de cheltuieli (Se va menționa natura acestora.) |  |  |  |  |  |  |
+| 4.3. Impact financiar, plus/minus, din care: a) buget de stat |  |  |  |  |  |  |
+| b) bugete locale |  |  |  |  |  |  |
+| 4.4. Propuneri pentru acoperirea creșterii cheltuielilor bugetare |  |  |  |  |  |  |
+| 4.5. Propuneri pentru a compensa reducerea veniturilor bugetare |  |  |  |  |  |  |
+| 4.6. Calcule detaliate privind fundamentarea modificărilor veniturilor și/sau cheltuielilor bugetare |  |  |  |  |  |  |
+
+| 4.7. Prezentarea, în cazul proiectelor de acte normative a căror adaptare atrage majorarea cheltuielilor bugetare, a următoarelor documente: Nu este cazul. |
+| --- |
+| 4.8. Alte informații Aplicarea reducerii temporare cu 0.3 lei /litru a nivelului accizei aplicabil motorinei standard generează un impact negativ asupra veniturilor. Impactul bugetar negativ asupra încasărilor din accize este estimat la 0,61 miliarde lei. Introducerea contribuției de solidaritate, instituită pe perioada situației de criză, generează un impact bugetar pozitiv asupra veniturilor, estimat între 0,07 și 0,65 miliarde lei, în funcție de cota de taxare aplicată și prețul mediu lunar al țițeiului Brent (USD/baril). |
+| Secțiunea a 5-a Efectele proiectului de act normativ asupra legislației în vigoare |
+| 5.1. Măsuri normative necesare pentru aplicarea prevederilor proiectului de act normativ Nu este cazul. 5.2. Impactul asupra legislației în domeniul achizițiilor publice Nu este cazul. 5.3. Conformitatea proiectului de act normativ cu legislația UE (în cazul proiectelor ce transpun sau asigură aplicarea unor prevederi de drept UE) 5.3.1. Măsuri normative necesare transpunerii directivelor UE Nu este cazul. 5.3.2. Măsuri normative necesare aplicării actelor legislative UE Nu este cazul. 5.4. Hotărâri ale Curții de Justiție a Uniunii Europene Nu este cazul. 5.5. Alte acte normative și/sau documente internaționale din care decurg angajamente asumate Nu este cazul. 5.6. Alte informații. Nu este cazul. |
+| Secțiunea a 6-a Consultările efectuate în vederea elaborării proiectului de act normativ |
+| 6.1. Informații privind neaplicarea procedurii de participare la elaborarea actelor normative Nu este cazul. 6.2. Informații privind procesul de consultare cu organizații neguvernamentale, institute de cercetare și alte organisme implicate Au fost organizate întâlniri la nivel governamental cu reprezentanții sectorului petrolier. 6.3. Informații despre consultările organizate cu autoritățile administrației publice |
+
+## locale
+
+Nu este cazul.
+
+6.4. Informații privind puncte de vedere/opinii emise de organisme consulative constituite prin acte normative Nu este cazul.
+
+6.5. Informații privind avizarea de către:
+
+a) Consiliul Legislativ – proiectul prezentului act normativ a fost avizat de Consiliul Legislativ prin avizul nr. 324/2026.
+
+b) Consiliul Suprem de Apărare a Țării – nu este cazul.
+
+c) Consiliul Economic și Social – a emis adresa nr. 2479/2026.
+
+d) Consiliul Concurenței – a emis adresa nr. 5251/2026.
+
+e) Curtea de Conturi - nu este cazul.
+
+6.6. Alte informații Nu este cazul.
+
+| Secțiunea a 7-aActivități de informare publică privind elaborarea și implementarea proiectului de act normativ |
+| --- |
+| 7.1. Informarea societății civile cu privire la elaborarea proiectului de act normativProiectul de act normativ a fost supus dezbaterii publice prin afișare pe site-ul Ministerului Finanțelor în data de 02.04.2026 potrivit dispozițiilor art. 7 alin. (13) din Legea nr. 52/2003 privind transparența decizională în administrația publică, republicată și a fost dezbătut în cadrul Comisiei de Dialog Social din data de 03.04.2026, la care au participat reprezentanți ai organismelor interesate.Menționăm faptul că, neadoptarea acestuia în cel mai scurt timp ar produce perturbări în activitatea operatorilor economici implicați în activitățile vizate de modificările propuse.7.2. Informarea societății civile cu privire la eventualul impact asupra mediului în urma implementării proiectului de act normativ, precum și efectele asupra sănătății și securității cetățenilor sau diversității biologiceNu este cazul. |
+
+## Secțiunea a 8- a
+
+Măsuri privind implementarea, monitorizarea și evaluarea proiectului de act normativ
+
+8.1. Măsuri de punere în aplicare a proiectului de act normativ Nu este cazul.
+
+8.2. Alte informații Nu este cazul.
+
+Față de cele prezentate, a fost elaborat proiectul de Lege pentru aprobarea Ordonanței de urgență a Guvernului privind reducerea temporară a nivelului accizei aplicabil motorinei și instituirea contribuției de solidaritate asupra veniturilor din comercializarea țițeiului și a produselor energetice obținute din prelucrarea țițeiului extras de pe teritoriul României, precum și pentru modificarea și completarea Ordonanței de urgență nr. 19/2026 privind declararea situației de criză pe piața țițeiului și/sau a produselor petroliere, respectiv benzină și motorină, și pentru instituirea unor măsuri de protejare a economiei și populației pe durata situației de criză, precum și pentru modificarea Ordonanței de urgență a Guvernului nr. 12/2026 privind măsurile aplicabile clienților casnici din piața de gaze naturale în perioada 1 aprilie 2026-31 martie 2027, pe care îl supunem Parlamentului spre adoptare.
+
+PRIM-MINISTRU
+
+ILIE-GAVRIL BOLOJAN

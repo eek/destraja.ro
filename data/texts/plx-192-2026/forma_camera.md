@@ -1,0 +1,55 @@
+# PARLAMENTUL ROMÂNIEI
+
+# CAMERA DEPUTAȚILOR
+
+LEGE
+
+pentru modificarea și completarea Legii nr. 303/2022 privind statutul judecătorilor și procurorilor și a Legii nr. 305/2022 privind Consiliul Superior al Magistraturii
+
+Camera Deputaților adoptă prezentul proiect de lege.
+
+Art. I. – Legea nr. 303/2022 privind statutul judecătorilor și procurorilor, publicată în Monitorul Oficial al României, Partea I, nr. 1102 din 16 noiembrie 2022, cu modificările și completările ulterioare, se modifică și se completează, după cum urmează:
+
+1\. La articolul 180, alineatul (1) se modifică și va avea următorul cuprins:
+
+„(1) Durata delegării este de cel mult 6 luni și nu poate fi prelungită.”
+
+2\. La articolul 181, alineatul (2) se modifică și va avea următorul cuprins:
+
+„(2) Judecătorii și procurorii pot fi detașați și pe posturi vacante la Inspecția Judiciară, Institutul Național al Magistraturii, Școala
+
+Națională de Grefieri, Ministerul Justiției sau la unitățile subordonate acestuia, în condițiile prezentului capitol.”
+
+## 3. La articolul 181, după alineatul (2) se introduce un nou alineat, alin. (2¹), cu următorul cuprins:
+
+„(2¹) Nu pot fi detașați în condițiile alin. (2) judecătorii care sunt membri ai unui complet de judecată învestit cu soluționarea unor cauze penale.”
+
+## 4. La articolul 184, alineatul (1) se modifică și va avea următorul cuprins:
+
+„(1) Solicitările de detașare la Inspecția Judiciară, Institutul Național al Magistraturii, Școala Națională de Grefieri, Ministerul Justiției sau la unitățile subordonate acestuia se formulează de instituția interesată și se înaintează Consiliului Superior al Magistraturii, pentru judecători, respectiv Parchetului de pe lângă Înalta Curte de Casație și Justiție, pentru procurori, cu cel puțin 30 de zile înainte de data la care se solicită detașarea. Solicitările de detașare se aprobă de Secția pentru judecători a Consiliului Superior al Magistraturii, respectiv de procurorul general al Parchetului de pe lângă Înalta Curte de Casație și Justiție, și cuprind motivele, perioada pentru care se solicită detașarea, funcția și atribuțiile postului pe care se solicită detașarea.”
+
+## 5. La articolul 185, după alineatul (1) se introduce un nou alineat, alin. (1¹), cu următorul cuprins:
+
+„(1¹) Prin derogare de la alin. (1), durata detașării dispuse potrivit art. 181 alin. (2) nu poate depăși 3 ani și nu poate fi prelungită.”
+
+Art. II. – Legea nr. 305/2022 privind Consiliul Superior al Magistraturii, publicată în Monitorul Oficial al României, Partea I, nr. 1105 din 16 noiembrie 2022, se modifică și se completează, după cum urmează:
+
+## 1. La articolul 62, alineatele (2) și (3) se modifică și vor avea următorul cuprins:
+
+„(2) Secretarul general este numit și revocat de Plenul Consiliului Superior al Magistraturii, dintre persoanele care au studii superioare juridice și vechime de cel puțin 8 ani în specialitatea studiilor, prin concurs sau examen.
+
+(3) Secretarul general al Consiliului Superior al Magistraturii poate fi ajutat de un secretar general adjunct. Secretarul general adjunct este numit și revocat de Plenul Consiliului Superior al Magistraturii, dintre persoanele care au studii superioare juridice și vechime de cel puțin 8 ani în specialitatea studiilor, prin concurs sau examen.”
+
+## 2. La articolul 64, alineatul (2) se modifică și va avea următorul cuprins:
+
+„(2) Personalul de conducere din aparatul propriu al Consiliului Superior al Magistraturii este numit de Plen, iar cel de execuție, de secretarul general, prin concurs sau examen.”
+
+## 3. La articolul 64, alineatul (3) se abrogă.
+
+Art. III. – Detașările și delegările judecătorilor și procurorilor aflate în curs Ia data intrării în vigoare a prezentei legi, care nu respectă dispozițiile prevăzute de prezenta lege, încetează de drept în termen de 180 de zile de la data intrării în vigoare a prezentei legi.
+
+Acest proiect de lege se consideră adoptat de Camera Deputaților în forma inițială, în condițiile art. 75 alin. (2) teza a III-a din Constituția României, republicată.
+
+p. PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+NATALIA – ELENA INTOTERO

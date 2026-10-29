@@ -1,0 +1,25 @@
+# PARLAMENTUL ROMÂNIEI CAMERA DEPUTAȚILOR
+
+## LEGE
+
+pentru modificarea și completarea Legii vânătorii și a protecției fondului cinegetic nr. 407/2006
+
+Camera Deputaților adoptă prezentul proiect de lege.
+
+Art. I. – Legea vânătorii și a protecției fondului cinegetic nr. 407/2006, publicată în Monitorul Oficial al României, Partea I, nr. 944 din 22 noiembrie 2006, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 9, după alineatul (1¹) se introduce un nou alineat, alin. (1²), cu următorul cuprins:
+
+„(1²) Gestionarul fondului cinegetic are obligația ca, în termen de cel mult 30 de zile de la data încheierii contractului de gestionare, prevăzut la alin. (1), precum și de la data fiecărui act adițional la acesta, să notifice unitățile administrativ-teritoriale pe raza cărora este situat fondul cinegetic. Notificarea se transmite prin scrisoare recomandată cu aviz de primire, prin poștă electronică sau prin depunere directă la registratura unității administrativ-teritoriale.”
+
+## 2. La articolul 48 alineatul (1), litera b) se modifică și va avea următorul cuprins:
+
+„b) încălcarea dispozițiilor prevăzute la art. 9 alin. (1²), art. 23 alin. (l) lit. c), d), j), k), l), q) și w), precum și la art. 39 alin. (1) lit. h), k), n) și r), cu amendă de la 500 lei la 1.500 lei;”
+
+Art. II. – Prezenta lege intră în vigoare la 30 de zile de la data publicării în Monitorul Oficial al României, Partea I.
+
+Acest proiect de lege a fost adoptat de Camera Deputaților în ședința din 16 septembrie 2026, cu respectarea prevederilor art. 76 alin. (2) din Constituția României, republicată.
+
+p. PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+NATALIA-ELENA INTOTERO

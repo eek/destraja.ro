@@ -1,0 +1,173 @@
+## Expunere de motive
+
+Lege pentru desființarea Institutului Român pentru Drepturile Omului și pentru abrogarea Legii nr. 9/1991 privind înființarea Institutului Român pentru Drepturile Omului
+
+IRDO este o instituție care există formal, dar nu funcționează substanțial. Este o structură administrativă inertă, finanțată constant din bani publici, fără impact real în domeniul drepturilor omului. Întregul buget este consumat pentru menținerea aparatului instituțional, fără a putea fi identificate activități sau rezultate concrete.
+
+## Situația premisă:
+
+Institutul Român pentru Drepturile Omului funcționează în baza Legii nr. 9/1991 privind înființarea Institutului Român pentru Drepturile Omului, publicată în Monitorul Oficial al României, Partea I, nr. 24 din 30 ianuarie 1991, lege care nu a suferit nicio modificare sau completare de la adoptare până în prezent. Nu pentru că instituția ar fi funcționat exemplar, ci pentru că, în fapt, IRDO a fost uitat de legiuiitor și de autorități.
+
+Scopul declarat al IRDO este unul generos: asigurarea unei mai bune cunoașteri a problematicii drepturilor omului de către instituții publice, ONG-uri și cetățeni, precum și informarea opiniei publice internaționale cu privire la respectarea drepturilor omului în România. În realitate, acest scop a rămas pur declarativ.
+
+Cadrul normativ relevant include:
+
+\- Legea nr. 9/1991 privind înființarea Institutului Român pentru Drepturile Omului, publicată în Monitorul Oficial al României, Partea I, nr. 24 din 30 ianuarie 1991;
+
+\- Principiile de la Paris privind statutul instituțiilor naționale de drepturile omului, adoptate de Adunarea Generală a Organizației Națiunilor Unite prin Rezoluția nr. 48/134 din 20 decembrie 1993;
+
+\- Dispozițiile art. 9 și art. 10 din Legea nr. 9/1991, care prevăd finanțarea de la bugetul Parlamentului și obligația de a prezenta un raport parlamentar după doi ani de funcționare.
+
+Cheltuielile IRDO sunt acoperite din bugetul Parlamentului, conform art. 9 din Legea nr. 9/1991. Conform bugetelor aprobate, IRDO a primit aproximativ 3 milioane de lei în 2023, 2,8 milioane de lei în 2024 și 1,5 milioane de lei în 2025.
+
+## Problema identificată:
+
+Institutul este condus de un consiliu director format din 7 membri, un director și un director adjunct, pentru un aparat de aproximativ 22 de angajați, dintre care 7 sunt personal administrativ. Structura de conducere este supradimensionată raportat la activitatea desfășurată. În peste 30 de ani de existență, IRDO a avut doar doi directori, fără limită de mandat, fără criterii de performanță și fără obligații reale de transparență. Conducerea nu este obligată să depună declarații de avere sau de interese.
+
+Deși, conform legii, IRDO se află sub control parlamentar, acest control nu există în fapt. Articolul 10 din Legea nr. 9/1991 prevede prezentarea unui raport după doi ani de funcționare, cu evaluarea utilizatorilor serviciilor institutului. Această obligație nu a devenit niciodată un mecanism real de responsabilizare.
+
+Situația este confirmată inclusiv la nivel internațional. Potrivit evaluărilor Subcomitetului ONU pentru acreditarea instituțiilor naționale pentru drepturile omului, citate de APADOR-CH, IRDO este singura instituție din România acreditată conform Principiilor de la Paris, dar a primit calificativul C, cel mai slab posibil. ONU critică explicit:
+
+\- modul nettransparent de numire a membrilor;
+
+\- lipsa pluralismului;
+
+\- absența duratei mandatelor prevăzute în lege.
+
+În plan intern, presa a descris IRDO ca pe un institut-fantomă. Un fost angajat a declarat public că și-a dat demisia pentru că se plictisea la serviciu, iar nimic nu s-a schimbat ulterior. Activitatea zilnică este descrisă ca fiind lipsită de conținut, fără presiune, fără obiective și fără rezultate.
+
+Finanțarea institutului se face exclusiv din bugetul Parlamentului, conform art. 9 din lege. Bugetele au fost:
+
+\- aproximativ 3 milioane lei în 2023;
+
+\- 2,8 milioane lei în 2024;
+
+\- 1,5 milioane lei în 2025, din care aproximativ 1 milion lei pentru salarii, restul pentru cheltuieli curente.
+
+## Soluția propusă:
+
+Soluția propusă constă în desființarea Institutului Român pentru Drepturile Omului prin abrogarea Legii nr. 9/1991 privind înființarea Institutului Român pentru Drepturile Omului.
+
+Proiectul de lege prevede încetarea activității IRDO la data intrării în vigoare a legii, încetarea contractelor de muncă ale angajaților în termen de 45 de zile, transferul patrimoniului către Camera Deputaților și preluarea obligațiilor de raportare financiară și a arhivei de către Camera Deputaților.
+
+## Impactul preconizat:
+
+Inițiativa are un impact bugetar pozitiv, constând în economisirea sumei de aproximativ 1,5 milioane de lei anual, reprezentând bugetul IRDO alocat integral pentru salarii și cheltuieli curente, fără a fi evidențiat vreun rezultat în raport cu misiunea declarată a instituției.
+
+Impactul juridic privește abrogarea Legii nr. 9/1991 privind înființarea Institutului Român pentru Drepturile Omului și clarificarea regimului juridic al patrimoniului și arhivei instituției desființate, care se transferă în patrimoniul Camerei Deputaților.
+
+Impactul social vizează eliminarea unei instituții ineficiente, care nu îndeplinește standardele internaționale aplicabile instituțiilor naționale de drepturile omului și nu justifică, prin activitatea sa, resursele publice alocate.
+
+Cristian Ghinea
+
+Senator USR
+
+## Tabel semnături
+
+Lege pentru desființarea Institutului Român pentru Drepturile Omului și pentru abrogarea Legii nr. 9/1991 privind înființarea Institutului Român pentru Drepturile Omului
+
+| Nume și prenume | Semnătură | Grup parlamentar |
+| --- | --- | --- |
+| SENDROIV VLAD-TOAN |  | USR |
+| GHEORGHIVANDREI FLORIN |  | USR |
+| HANGANPOLLYANNA |  | USR |
+| Boda Manis |  | USR |
+| Auin Sroieq |  | USR |
+| ORINAATAHASIN |  | USD |
+| BALARESCAM |  | USR |
+| BLAGADANIEL |  | USR |
+| CIBU DEACONURUXANARA |  | USR |
+| CESTINA-PRUNA |  | USR |
+| PLUSAN ANDREI |  | USR |
+| SIDOS SDRIN |  | USR |
+| JOBRA ADEUIPL |  | USR |
+| ShejavulcheCheughe |  | USR |
+
+## Tabel semnături
+
+Lege pentru desființarea Institutului Român pentru Drepturile Omului și pentru abrogarea Legii nr. 9/1991 privind înființarea Institutului Român pentru Drepturile Omului
+
+| Nume și prenume | Semnătură | Grup parlamentar |
+| --- | --- | --- |
+| PALEN CYNTHIA |  | USR |
+| ANGHEL RIZVAN |  | USR |
+| RIS VASILE-CIPRIAN |  | USR |
+| Oprudiu Hurel |  | USR |
+| CRISTIAX BRIAN |  | USR |
+
+## Tabel semnături
+
+Lege pentru desființarea Institutului Român pentru Drepturile Omului și pentru abrogarea Legii nr. 9/1991 privind înființarea Institutului Român pentru Drepturile Omului
+
+| Nume și prenume | Semnătură | Grup parlamentar |
+| --- | --- | --- |
+| SPATAU SIOMA |  | USR |
+| SOSITAM AEDNIC |  | USR2 |
+| GIURGIV ADRIAN |  | USR |
+| BOTEZ MIHAI-CATALIN |  | VJR |
+| Rodeanu Boglan |  | USP |
+| MORUSSI GEORG |  | USP2 |
+| DRULA CATALIN |  | USR |
+| RIGHAM CIPRIAM |  | USR2 |
+| LOMMATIION |  | VSR |
+| VANUUT SUMITU |  | USR |
+| BOCHILEANU CATALIN |  | USR |
+| IONUT MOSTEANU |  | USR2 |
+| STELIAN ION |  | USR |
+
+## Tabel semnături
+
+Lege pentru desființarea Institutului Român pentru Drepturile Omului și pentru abrogarea Legii nr. 9/1991 privind înființarea Institutului Român pentru Drepturile Omului
+
+<table>
+<tbody>
+<tr><td>Nume și prenume</td><td>Semnătură</td><td>Grup parlamentar</td></tr>
+<tr><td>COLIBAN ALLÉIN</td><td rowspan="5"></td><td>USR</td></tr>
+<tr><td>NASGJ CLAUBTU</td><td>USR</td></tr>
+<tr><td>TANASN STEFNI</td><td>USR</td></tr>
+<tr><td>DRAGOET CU CEZAR</td><td>USR</td></tr>
+<tr><td>NEGSI EVEUEN RCTMUS</td><td>USR</td></tr>
+<tr><td>RIGMAN DPRIAM</td><td>&lt;</td><td>USR</td></tr>
+<tr><td>ECHEET ARLITAN</td><td></td><td>USE</td></tr>
+<tr><td>Dimitriv Alexyaniorai</td><td></td><td>usa</td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+# PARLAMENTUL ROMÂNIEI
+
+Către: Biroul Permanent al Senatului
+
+Subiect: Solicitare co-semnare inițiativă legislativă
+
+19 Martie 2026
+
+Stimate doamne, stimați domni,
+
+Subsemnatul Emanuel-Dumitru Ungureanu, deputat USR Circumscripția 35-Suceava, vă solicit să aprobați cererea de a deveni inițiator al următoarelor propuneri legislative:
+
+\- BP142/11.03.2026 - Propunere legislativă pentru completarea art.2 din Legea nr.361/2022 privind protecția avertizorilor în interes public;
+
+\- BP141/11.03.2026 - Propunere legislativă pentru modificarea art.155 din Legea nr.286/2009 privind Codul Penal;
+
+\- BP162/13.03.2026 - Propunere legislativă pentru desființarea Academiei Oamenilor de Știință din România și pentru abrogarea Legii 31/2007 privind reorganizarea și funcționarea Academiei Oamenilor de Știință din România;
+
+\- BP163/13.03.2026 - Propunere legislativă pentru desființarea Academiei de Științe Medicale și pentru abrogarea Legii nr.264/2004 privind organizarea și funcționarea Academiei de Științe Medicale;
+
+\- BP164/13.03.2026 - Propunere legislativă pentru desființarea Academiei de Științe Tehnice din România și pentru abrogarea Legii nr.230/2008 privind înființarea și funcționarea Academiei de Științe Tehnice din România;
+
+\- BP160/13.03.2026 - Propunere legislativă pentru desființarea Institutului de Studii Avansate pentru Cultura și Civilizația Levantului și pentru abrogarea Legii nr.117/2017 privind înființarea Institutului de Studii Avansate pentru Cultura și Civilizația Levantului;
+
+\- BP161/13.03.2026 - Propunere legislativă pentru desființarea Institutului Român pentru Drepturile Omului și pentru abrogarea Legii nr.9/1991 privind înființarea Institutului Român pentru Drepturile Omului;
+
+\- BP165/13.03.2026 - Propunere legislativă pentru desființarea Institutului Revoluției Române din Decembrie 1989 și pentru abrogarea Legii 556/2004 privind înființarea Institutului Revoluției Române din Decembrie 1989.
+
+Vă mulțumesc,
+
+Emanuel-Dumitru Ungureanu

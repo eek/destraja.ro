@@ -1,0 +1,21 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+pentru modificarea art. 30¹ alin. (1) și (2) din Ordonanța de urgență a Guvernului nr. 158/2005 privind concediile și indemnizațiile de asigurări sociale de sănătate
+
+Senatul adoptă prezentul proiect de lege
+
+Articol unic.- La articolul 30¹ din Ordonanța de urgență a Guvernului nr. 158/2005 privind concediile și indemnizațiile de asigurări sociale de sănătate, publicată în Monitorul Oficial al României, Partea I, nr. 1074 din 29 noiembrie 2005, aprobată cu modificări și completări prin Legea nr. 399/2006, cu modificările și completările ulterioare, alineatele (1) și (2) se modifică și vor avea următorul cuprins:
+
+„Art.30¹.- (1) Beneficiază de concediu și indemnizație pentru îngrijirea pacientului cu afecțiuni oncologice în vârstă de peste 18 ani asiguratul care, cu acordul pacientului, la recomandarea medicului curant de specialitate, îl însoțește pe acesta la investigații, la intervenții chirurgicale și tratamente prescrise de medicul curant de specialitate.
+
+(2) Pacientul cu afecțiuni oncologice își poate exprima acordul prevăzut la alin. (1) numai pentru o singură persoană pentru fiecare zi de investigație, intervenție chirurgicală, respectiv tratament, prescrise de medicul curant de specialitate."
+
+Acest proiect de lege a fost adoptat de Senat, în ședința din 12 octombrie 2026, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.
+
+## p. PREȘEDINTELE SENATULUI
+
+MIHAI COTEȚ,

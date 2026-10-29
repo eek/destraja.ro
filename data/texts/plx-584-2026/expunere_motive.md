@@ -1,0 +1,262 @@
+# EXPUNERE DE MOTIVE
+
+## I. CONSIDERAȚII GENERALE
+
+Anul 2027 marchează un moment de referință pentru parcursul european al României: împlinirea a 20 de ani de la aderarea țării noastre la Uniunea Europeană.
+
+Celebrăm 20 de ani de la aderarea României la Uniunea Europeană, momentul care a consfințit ancorarea irreversibilă a României în spațiul politic, economic și democratic european.
+
+Această aniversare nu trebuie să fie doar un moment festiv, ci și un prilej de bilanț și orientare strategică. După două decenii de apartenență la Uniunea Europeană, România are datoria de a evalua onest progresele realizate și de a-și defini obiectivele pentru următorul deceniu european.
+
+Avem astfel ocazia de a reflecta asupra modului în care identitatea europeană a României s-a transformat dintr-un proiect administrativ, gestionat de elite, într-un crez asumat de către cetățeni. Apartenența la Uniunea Europeană nu mai este doar o opțiune de politică externă, ci cadrul fundamental al modernizării României, al dezvoltării comunităților locale, al consolidării statului de drept și al creșterii șanselor pentru cetățeni.
+
+Prin instituirea anului 2027 ca „Anul României Europene”, sub deviza „20 de ani Acasă în Europa”, precum și a perioadei 2027–2037 ca „Deceniul Consolidării Europene”, prezenta inițiativă propune atât marcarea unei aniversări istorice, cât și asumarea unei direcții strategice pentru următorii zece ani.
+
+ROMANIA
+
+Obiectivul politic și instituțional al acestui deceniu trebuie să fie clar: o Românie mai convergentă economic și social cu media Uniunii Europene, mai integrată în nucleul decizional european, pregătită pentru aderarea la zona euro și mai influentă în arhitectura politică, economică și de securitate a Uniunii.
+
+## II. MOTIVAREA
+
+Aderarea la Uniunea Europeană, la 1 ianuarie 2007, nu a fost doar un succes diplomatic, ci motorul principal al modernizării României. În ultimii 20 de ani, beneficiile au depășit sfera economică, modelând societatea în profunzime.
+
+România europeană este astăzi rezultatul a două procese complementare: transformarea internă generată de apartenența la Uniunea Europeană și maturizarea democratică a societății românești. Fondurile europene, libertatea de circulație, accesul la piața unică, programele educaționale europene, consolidarea instituțională și participarea la procesul decizional european au schimbat profund țara. În același timp, cetățenii, societatea civilă, autoritățile locale, mediul academic și mediul economic au contribuit la consolidarea parcursului european al României.
+
+1\. Economia — două decenii în Uniunea Europeană: de la tranziție la convergență În cei 20 de ani de apartenență la Uniunea Europeană, România a parcurs un drum de recuperare a decalajelor economice unic în regiune. Dacă la momentul aderării în 2007, PIB-ul per capita al României, la paritatea puterii de cumpărare, era de aproximativ 44% din media UE, datele Eurostat arată că în 2025 am atins pragul de 78–80%. Evoluția indicatorului se reflectă în puterea de cumpărare reală a cetățenilor, România depășind în acest interval state care au aderat înaintea sa sau care aveau economii mult mai solide în anii ’90.
+
+ROMANIA
+
+Această evoluție confirmă faptul că apartenența la Uniunea Europeană a fost cea mai importantă ancoră de dezvoltare economică a României din ultimele decenii. Totodată, ea arată că următorul pas este posibil și necesar: atingerea, până în anul 2037, a mediei Uniunii Europene la produsul intern brut pe locuitor, exprimat la paritatea puterii de cumpărare.
+
+În anul 2007, România era o țară a speranțelor, dar cu o infrastructură critică precară și o industrie în căutarea identității. Astăzi, suntem un hub tehnologic regional, cu o clasă de mijloc în formare și cu orașe care concurează la nivel de atractivitate cu orașe din Occident. Convergența nu a fost doar economică, ci și de mentalitate: românii au adoptat standardele europene de consum, de protecție a mediului și de drepturi ale muncii, refuzând să se mai raporteze la modelele de dezvoltare autarhice.
+
+Deceniul 2027–2037 trebuie să transforme convergența într-un obiectiv național asumat. România nu trebuie să rămână la periferia economică a Uniunii Europene, ci trebuie să își propună intrarea în grupul statelor membre cu o economie competitivă, instituții funcționale, infrastructură modernă și servicii publice la standarde europene.
+
+Această ambiție presupune investiții accelerate în infrastructură, educație, sănătate, cercetare, inovare, digitalizare, energie și administrație publică. Presupune, de asemenea, utilizarea eficientă a fondurilor europene și valorificarea oportunităților oferite de cadrul financiar multianual al Uniunii Europene pentru perioada 2028–2034.
+
+2\. Bilanțul financiar: beneficiar net al solidarității europene
+
+Conform datelor oficiale centralizate de Ministerul Finanțelor, de la 1 ianuarie 2007 și până la 31 decembrie 2025, fluxurile financiare dintre România și bugetul
+
+UE arată avantajul uriaș al aderării – practic, pentru fiecare euro cu care am contribuit la bugetul Uniunii, România a primit înapoi 3 euro:
+
+Total sume primite, fonduri nerambursabile: cca. 108,3 miliarde EUR.
+
+Total contribuții plătite de România: cca. 35,9 miliarde EUR.
+
+Soldul net pozitiv: România a primit cu 72,4 miliarde EUR mai mult decât a plătit.
+
+Aceste cifre arată dimensiunea concretă a solidarității europene și impactul direct al apartenenței la Uniunea Europeană asupra dezvoltării României. Drumuri, spitale, școli, rețele de apă și canalizare, transport public, proiecte de regenerare urbană, investiții în mediul privat, digitalizare și infrastructură energetică au fost posibile prin fonduri europene.
+
+Un capitol aparte în această istorie financiară îl reprezintă Planul Național de Redresare și Reziliență. Acesta a marcat o schimbare de paradigmă: fondurile au fost condiționate strict de reforme structurale. PNRR a devenit instrumentul prin care digitalizarea administrației, reforma pensiilor, inclusiv cea a pensiilor de serviciu, și decarbonizarea energiei au încetat să fie simple promisiuni politice, devenind obligații contractuale față de partenerii europeni, în beneficiul direct al cetățeanului.
+
+Pentru perioada următoare, România trebuie să treacă de la logica simplă a absorbției la logica impactului. Nu este suficient să atragem fonduri europene, Trebuie să le folosim pentru reducerea reală a decalajelor, pentru creșterea productivității, pentru infrastructură strategică și pentru creșterea calității vieții.
+
+Cadrul financiar multianual 2028–2034 va fi decisiv pentru direcția de dezvoltare a României. În negocierile europene, România trebuie să susțină menținerea politicii de coeziune ca instrument central de reducere a decalajelor, dar și o
+
+ROMANIA distribuție echitabilă a noilor instrumente europene dedicate competitivității, industriei, apărării, tranziției verzi și digitalizării.
+
+3\. Integrarea în Spațiul Schengen și obiectivul aderării la zona euro: de la drepturi depline la integrare în nucleul european
+
+Apartenența la Spațiul Schengen reprezintă, dincolo de beneficiile economice evidente, o validare a statutului de cetățean european cu drepturi depline. După ani de eforturi diplomatice și tehnice, eliminarea controalelor la frontierele aeriene și maritime în 2024, urmată de integrarea deplină, a pus capăt unei perioade în care românii se simțeau cetățeni de rang secund.
+
+Este expresia libertății fundamentale de mișcare, care facilitează schimburile culturale, comerciale și umane. Această integrare demonstrează că România este un pilon de securitate la granița externă a Uniunii, capabilă să gestioneze tehnologii complexe și să ofere siguranță întregii comunități europene. În 2027, la 20 de ani de la aderare, privim Schengen nu ca pe un privilegiu, ci ca pe o stare de normalitate.
+
+Următorul obiectiv major de integrare europeană trebuie să fie aderarea României la zona euro. Acest obiectiv nu trebuie tratat exclusiv ca o chestiune tehnică sau monetară, ci ca o decizie strategică privind locul României în Uniunea Europeană.
+
+Aderarea la Uniunea Monetară înseamnă stabilitate economică, credibilitate financiară, costuri mai reduse de finanțare, predictibilitate pentru investiții și integrare mai profundă în piața unică. Dar, înseamnă și o ancorare mai puternică în nucleul decizional european. Cu cât România este mai integrată instituțional, economic și monetar în centrul Uniunii Europene, cu atât este mare capacitatea țării noastre de a influența deciziile europene.
+
+ROMANIA
+
+Într-un context geopolitical marcat de războiul de agresiune al Rusiei împotriva Ucrainei, de presiuni hibride, de competiție strategică globală și de riscul fragmentării europene, integrarea României în nucleul Uniunii Europene are și o dimensiune de securitate. Aderarea la zona euro trebuie privită ca parte a consolidării irreversible a apartenenței României la spațiul european.
+
+Deceniul Consolidării Europene trebuie să creeze cadrul politic și instituțional pentru atingerea acestui obiectiv cât mai rapid posibil, prin măsuri de convergență reală și nominală, disciplină fiscală, creșterea productivității, stabilitate macroeconomică și reforme structurale.
+
+4\. Programul Erasmus+ și educația europeană: capitalul uman al României europene
+
+În acești 20 de ani, sute de mii de studenți, profesori și tineri români au beneficiat de mobilități europene, învățând nu doar materii academice, ci și modul în care funcționează societățile deschise. Programul Erasmus+ este programul de mobilitate academică cel mai popular în rândul studenților români, reprezentând 77% din totalul mobilităților de studiu și 61% din totalul internshipurilor/stagiilor de practică ale studenților, așa cum arată Institutul de Științe ale Educației.
+
+Generația Erasmus este cea care a adus acasă o viziune multiculturală asupra lumii. Acești tineri au format nucleul dur al rezilienței civice. Experiența lor în alte state membre le-a oferit termenul de comparație necesar pentru a înțelege ce lipsește în România și, mai important, curajul de a cere schimbarea.
+
+Erasmus nu reprezintă doar un program educațional, ci un laborator de cetățenie activă care a creat o rețea de români conectați la valorile europene. Dacă 2007 a consfînțit intrarea statului în UE, Erasmus înseamnă intrarea UE în casele și în
+
+ROMANIA conștiința a sute de mii de familii de români și transformarea profundă a capitalului uman al României.
+
+În același timp, educația europeană nu trebuie să rămână limitată la programele de mobilitate. În anul 2027, instituțiile de învățământ, universitățile, autoritățile publice și organizațiile societății civile trebuie să contribuie la creșterea nivelului de informare privind drepturile cetățenilor europeni, funcționarea instituțiilor Uniunii Europene, oportunitățile oferite de programele europene și responsabilitățile care decurg din statutul de cetățean european.
+
+„Anul României Europene” trebuie să fie și un an al educației europene. Tinerii care au crescut după aderarea la Uniunea Europeană trebuie să înțeleagă că libertatea de circulație, fondurile europene, Erasmus, protecția drepturilor fundamentale și participarea României la deciziile europene nu sunt realități abstracte, ci elemente concrete ale vieții lor de zi cu zi.
+
+## 5. Cetățenie activă, stat de drept și reziliență democratică
+
+Mobilizarea civică din anul 2017 a reprezentat unul dintre momentele importante ale istoriei democratice recente a României, prin care o parte semnificativă a societății a reafirmat atașamentul față de statul de drept, integritate publică și valori democratice europene.
+
+Această mobilizare a arătat că parcursul european al României nu este susținut doar de instituții, tratate sau decizii guvernamentale, ci și de cetățeni, societate civilă, presă liberă, organizații profesionale, mediul academic și comunități locale. Democrația europeană presupune participare, vigilență și responsabilitate civică.
+
+În urma reacției civice fără precedent, actul normativ care a declanșat aceste mobilizări a fost abrogat fără a intra în vigoare, prin OUG 14/2017, confirmând capacitatea societății de a corecta imediat decizii politice percepute ca fiind
+
+ROMANIA contrare interesului public. Ulterior, prin consultarea directă a cetățenilor în cadrul unui referendum național, majoritatea covârșitoare a votanților s-a pronunțat pentru interzicerea amnistiei și grațierii pentru fapte de corupție, precum și pentru interzicerea adoptării de către Guvern a ordonanțelor de urgență în domeniul infracțiunilor, pedepselor și al organizării judiciare.
+
+Rolul cetățenilor activi rămâne esențial pentru consolidarea statului de drept și pentru protejarea direcției europene a României. De aceea, „Anul României Europene” trebuie să recunoască nu doar contribuția instituțiilor și a fondurilor europene la modernizarea țării, ci și contribuția societății românești la apărarea valorilor democratice europene.
+
+În următorul deceniu, această dimensiune devine cu atât mai importantă cu cât democrațiile europene sunt confruntate cu dezinformare, manipulare, atacuri hibride, polarizare și încercări de subminare a încrederii publice în instituții. Consolidarea rezilienței democratice trebuie să fie o prioritate a Deceniului Consolidării Europene.
+
+## 6. România în Uniunea Europeană 2027–2037: de la beneficiar la stat membru influent
+
+La 20 de ani de la aderare, România trebuie să își asume un rol mai activ în Uniunea Europeană. Statutul de beneficiar net al fondurilor europene rămâne important, dar nu este suficient pentru următorul deceniu. România trebuie să fie un stat membru care formulează priorități, construiește alianțe, influențează decizii și apără interesele cetățenilor săi în toate marile dosare europene.
+
+Perioada 2027–2037 va fi marcată de decizii majore pentru viitorul Uniunii Europene: negocierile și implementarea Cadrului Financiar Multianual 2028–2034, extinderea Uniunii Europene, reconstrucția Ucrainei, consolidarea apărării
+
+ROMANIA europene, tranziția verde, transformarea digitală, politica industrială, securitatea energetică, competitivitatea economică și reforma instituțională a Uniunii.
+
+În toate aceste dosare, România trebuie să aibă o poziție clară. Politica de coeziune trebuie apărată că instrument central al convergenței. Noile fonduri europene pentru competitivitate, inovare, apărare și industrie trebuie să fie distribuite echitabil și să nu accentueze decalajele dintre centru și periferie. Infrastructura de transport, inclusiv conexiunile feroviare rapide și de mare vitează, trebuie să devină o prioritate europeană pentru conectarea reală a României la piața unică.
+
+Totodată, România trebuie să își consolideze rolul strategic la frontiera estică a Uniunii Europene și în regiunea Mării Negre. Sprijinirea parcursului european al Republicii Moldova, Ucrainei și statelor din Balcanii de Vest este nu doar un obiectiv de politică externă, ci și o investiție în securitatea, stabilitatea și prosperitatea României. Extinderea Uniunii Europene trebuie privită ca o necesitate strategică pentru continent, iar România are vocația de a fi una dintre vocile importante în acest proces.
+
+Deceniul Consolidării Europene trebuie să fie, așadar, deceniul în care România trece de la statutul de stat membru aflat în recuperarea decalajelor la statutul de stat membru deplin convergent, influent și conectat la nucleul european.
+
+## III. SOLUȚIA LEGISLATIVĂ
+
+Instituirea unor ani dedicați promovării implicării civice și a valorilor democratice reprezintă o practică consacrată la nivel internațional și european, inclusiv în cadrul Organizației Națiunilor Unite și al Uniunii Europene, care au promovat inițiative similare, precum Anul European al Cetățenilor în anul 2013.
+
+ROMANIA
+
+Pe plan național, s-au instituit ani aniversari sau de promovare a unor valori, prin propuneri legislative similare. Acestea cuprind o serie de dispoziții care permit autorităților publice locale și centrale, precum și instituțiilor aflate în subordinea sau coordonarea acestora, să organizeze programe și manifestări dedicate evenimentului, în limita alocărilor bugetare aprobate cu acest scop.
+
+Prezenta inițiativă legislativă păstrează această practică, dar o completează cu o dimensiune strategică. Prin instituirea anului 2027 ca „Anul României Europene”, legea creează cadrul pentru marcarea oficială a împlinirii a 20 de ani de la aderarea României la Uniunea Europeană. Prin instituirea perioadei 2027–2037 ca „Deceniul Consolidării Europene”, legea propune un cadru de orientare strategică pentru următorii zece ani.
+
+Soluția legislativă are două componente principale. Prima componentă vizează organizarea, în anul 2027, a unor activități publice, educative, culturale, civice, științifice și instituționale dedicate parcursului european al României. Aceste activități se vor desfășura sub deviza „20 de ani Acasă în Europa” și vor urmări informarea cetățenilor, promovarea valorilor europene și evidențierea impactului apartenenței la Uniunea Europeană asupra dezvoltării țării.
+
+A doua componentă vizează instituirea Deceniului Consolidării Europene 2027–2037, prin care Guvernul va prezenta anual Parlamentului un raport privind stadiul convergenței economice și sociale cu media Uniunii Europene, calendarul și măsurile adoptate în vederea aderării la zona euro, contribuția României la procesul de extindere a Uniunii Europene și prioritățile naționale în politicile europene pentru anul în curs.
+
+Prin această abordare, legea nu se limitează la un moment aniversar, ci introduce un mecanism minimal de urmărire publică și parlamentară a obiectivelor strategice europene ale României.
+
+## IV. IMPACTUL BUGETAR
+
+Activitățile prevăzute de prezenta lege se vor realiza în condițiile legii, prin bugetele instituțiilor responsabile și în limita creditelor bugetare aprobate.
+
+Instituirea „Anului României Europene” și a „Deceniului Consolidării Europene” nu presupune crearea unor noi structuri administrative permanente. Programul Național „Anul României Europene 2027” va fi coordonat de instituțiile competente, prin utilizarea cadrului administrativ existent și prin cooperare cu autoritățile administrației publice locale, instituțiile de învățământ, mediul academic, societatea civilă, mediul economic și partenerii instituționali europeni.
+
+Eventualele cheltuieli aferente organizării activităților dedicate anului 2027 vor fi aprobate în condițiile legii, cu respectarea disciplinei bugetare și a limitelor stabilite prin bugetele instituțiilor responsabile.
+
+Anul 2027 marchează împlinirea a 20 de ani de la aderarea României la Uniunea Europeană și oferă un prilej simbolic adecvat pentru reflectarea asupra progreselor realizate, precum și asupra rolului cetățenilor în consolidarea acestor evoluții.
+
+Prin instituirea anului 2027 ca „Anul României Europene” se urmărește promovarea implicării civice, creșterea gradului de conștientizare a rolului cetățeanului în societate și încurajarea organizării de activități educative și culturale dedicate acestor valori europene.
+
+Prin instituirea perioadei 2027–2037 ca „Deceniul Consolidării Europene”, prezenta inițiativă urmărește transformarea aniversării de 20 de ani de apartenență la Uniunea Europeană într-un punct de plecare pentru un nou proiect național: atingerea mediei Uniunii Europene la PIB/locuitor exprimat la paritatea puterii de
+
+ROMANIA cumpărare, aderarea României la zona euro, consolidarea rolului României în
+
+nucleul decizional curopean și creșterea capacității țării noastre de a influența politicile Uniunii.
+
+România europeană nu trebuie să fie doar o realitate aniversată, ci o ambiție dusă mai departe. După 20 de ani de apartenență la Uniunea Europeană, următorul deceniu trebuie să fie deceniul convergenței, al integrării mai profunde și al
+
+influenței românești în Europa.
+
+Având în vedere argumentele prezentate mai sus, înaintăm Parlamentului
+
+României, spre dezbatere și adoptare, prezenta propunere legislativă.
+
+## INIȚIATORI
+
+| Nr.crt. | NUME ȘI PRENUME | GRUPPARLAMENTAR |
+| --- | --- | --- |
+| 1. | CİMPEANOVİ AÜV | PNL |
+| 2. |  | PNL L |
+| 3. | ANDRONACHEGABRIGL | PNL |
+| 4. | LUCIANBODE | PNL |
+| 5. | Cătin Gol | P.N.L. |
+| 6. | HÚNA GORGHIE | PNL |
+| 7. |  | PNL |
+| 8. | Crusoveano Maran | PNL |
+| 9. | Cichalou Brogas | PNL |
+| 10. | Gour Otoniom | PNL |
+| 11. |  | PNL |
+| 12. | Telson Andrei | PNL |
+| 13. | NAeutta SORIN | PNL |
+| 14. | Rusu Sebastian | PNL |
+| 15. | Sebastian-Ian Budujik | PNL |
+| 16. | Pandea Gprian | PNL |
+| 17. | MATE ANETA | PNL |
+| 18. | NEARSO ANDREEA-FIRUTA | PNL |
+| 19. | HITITELU EDUARA-TATIAN | PNL |
+| 20. | Raluce Tucau | PNL |
+| 21. | Neagu Rtn Emaniz | P.N.L. |
+| 22. | SIGHARTAL ROGRET | PNL |
+| 23. | ROMAN FDRIN | PNL |
+| 24. | MANESCU VERM | PNL |
+| 25. | MARIA GABRIELA HORGA | PNL |
+| 26. | Marcel Velq | PNL |
+| 27. | Miver Fedut | PNL |
+
+<table>
+<tbody>
+<tr><td>28.</td><td>MURMU ALEXANDU</td><td>PNL</td><td rowspan="5"></td></tr>
+<tr><td>29.</td><td>GEORGE FORDAN</td><td>PNL</td></tr>
+<tr><td>30.</td><td>ABFUDEAN MIRCEA</td><td>PNL</td></tr>
+<tr><td>31.</td><td>QOTET, MITTAT</td><td>PNL</td></tr>
+<tr><td>32.</td><td></td><td></td></tr>
+<tr><td>33.</td><td></td><td></td><td></td></tr>
+<tr><td>34.</td><td></td><td></td><td></td></tr>
+<tr><td>35.</td><td></td><td></td><td></td></tr>
+<tr><td>36.</td><td></td><td></td><td></td></tr>
+<tr><td>37.</td><td></td><td></td><td></td></tr>
+<tr><td>38.</td><td></td><td></td><td></td></tr>
+<tr><td>39.</td><td></td><td></td><td></td></tr>
+<tr><td>40.</td><td></td><td></td><td></td></tr>
+<tr><td>41.</td><td></td><td></td><td></td></tr>
+<tr><td>42.</td><td></td><td></td><td></td></tr>
+<tr><td>43.</td><td></td><td></td><td></td></tr>
+<tr><td>Nr.crt.</td><td>NUME ȘI PRENUME</td><td>GRUPPARLAMENTAR</td><td>SEMNĂTURA</td></tr>
+<tr><td>1.</td><td>Stoica Alin Bogdan</td><td>USR</td><td></td></tr>
+<tr><td>2.</td><td>Cîmpean Ovidiu-Vasile</td><td>PNL</td><td></td></tr>
+<tr><td>3.</td><td>BtPESW MONICA</td><td>USR</td><td></td></tr>
+<tr><td>4.</td><td>CiBU DEACONU RUXANJCA</td><td>USR</td><td></td></tr>
+<tr><td>5.</td><td>DimiTmiU ALEKANIOU</td><td>USR</td><td></td></tr>
+<tr><td>6.</td><td>MURARIU OANA</td><td>USR</td><td></td></tr>
+<tr><td>7.</td><td>ALECSANDRU HARIUS-IXICOLAE</td><td>USR</td><td></td></tr>
+<tr><td>8.</td><td>RIGMAN CIPRIAN</td><td>USR</td><td></td></tr>
+<tr><td>9.</td><td>GHEORGHIU ANDREI FLORIN</td><td>USR</td><td></td></tr>
+<tr><td>10.</td><td>MINBQU CATAÇIN-EMIL</td><td>USR</td><td></td></tr>
+<tr><td>11.</td><td>BLASA DANIEZ</td><td>USR</td><td></td></tr>
+<tr><td>12.</td><td>BOCHILCANU GEORGE-CATALIN</td><td>USR</td><td></td></tr>
+<tr><td>13.</td><td>S###UAOPE GLEOGHE</td><td>USR</td><td></td></tr>
+<tr><td>14.</td><td>DRAGOEPCU CE ZAR</td><td>USR</td><td></td></tr>
+</tbody>
+</table>
+
+| 15. | SEBASIAN CONIC | USR |
+| --- | --- | --- |
+| 16. | TEODOR LAZAR | USR |
+| 17. | BOTEE MIHAI-CATALIM | USR |
+| 18. | Rodeanu Bogda | USR |
+| 19. | BULAI MLIAN | USR |
+| 20. | Diana Shira | USR |
+| 21. | Gymomul Virgunom | USR |
+| 22. | COPJIA AIAMASIO | USR |
+| 23. | CRISTIAN BRIAN | USR |
+| 24. | GIMA GEORGE | UCR |
+| 25. | SENDROIU VLAD-104N | USR |
+| 26. | RUS VASILE-CIPRIAN | USR |
+| 27. | TALANIS SCOPA | USD |
+| 28. |  |  |
+| 29. |  |  |
+| 30. |  |  |
+| 31. |  |  |
+
+# PARLAMENTUL ROMÂNIEI
+
+## SENATUL
+
+## Către Biroul Permanent al Senatului
+
+Lucian Petrica RUSU, senator ales in circumscriptia nr. 24 Iasi, prin prezenta va rog sa aprobati solicitarea mea de a deveni coinitiator al initiativei L407/2026 Propunere legislativă pentru instituirea anului 2027 ca "Anul României Europene" și a perioadei 2027-2037 ca "Deceniul Consolidării Europene".
+
+Va multumesc!
+
+Senator,
+
+Lucian Petrica RUSU
+
+Data
+
+08.09.2026

@@ -1,0 +1,279 @@
+{
+  "slug": "plx-384-2026",
+  "billId": "PL-x 384/2026",
+  "updatedAt": "2026-10-29T12:30:04.660Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L187FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Fermierii pot da voluntar 0,5 €/ha asociațiilor agricole, reținut automat din subvenție",
+      "summaryTlDr": "Ideea e legitimă și ieftină pentru fermieri (0,5 €/ha, opțional), dar textul e scris neglijent. O frază poate fi citită ca obligație de debit direct pentru toți, banii pot ajunge doar la asociațiile din federațiile deja recunoscute, iar trimiterile la legi abrogate și startul în 2026, an deja trecut, o fac greu de aplicat.",
+      "scores": {
+        "agy": 6,
+        "claude": 4,
+        "codex": 6
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/300/80/4/se425.pdf",
+      "source": "cdep.ro",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Fermierii pot da 0,5 euro/ha asociațiilor agricole, direct din contul de subvenție",
+      "summaryTlDr": "Ideea unei cotizații voluntare pentru asociațiile fermierilor e legitimă și ieftină pentru plătitori, dar textul adoptat de Senat e haotic. Criteriile de reprezentativitate se contrazic, iar debitul direct legat de contul de subvenție e formulat ca obligație pentru toți fermierii. Filtrele de acces favorizează câteva federații mari, deja instalate.",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 7
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_riscant",
+      "headline": "Senatul a adăugat criterii contradictorii pentru organizațiile care primesc banii fermierilor",
+      "summary": "Acum nu mai e fixat anul 2026 și pot plăti doar fermierii cu minimum 10 ha. Au apărut însă criterii de reprezentativitate care se contrazic și a dispărut conversia animalelor în hectare. Acordul de debit impus tuturor a rămas.",
+      "changes": [
+        {
+          "title": "Reguli noi și contradictorii pentru organizațiile care primesc banii",
+          "text": "Art. 4 alin. (4) cere cumulativ 200 de membri cu vechime de 10 ani și conferințe 5 ani; alin. (7) cere alternativ 3% din sector; alin. (8) cere 5 angajați, deși alin. (5) spune că salariații nu sunt determinanți.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 4 alin. (2)-(9)",
+          "before": null,
+          "after": "Organizația trebuie să aibă personalitate juridică, activitate de minimum 5 ani, membri activi și structură funcțională cu minimum 5 angajați permanenți cu contracte de muncă pe termen nedeterminat.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Pragul minim urcă de la 5 la 10 hectare",
+          "text": "Art. 3 alin. (2): pot plăti doar fermierii activi cu cel puțin 10 ha sau echivalent UVM, față de 5 ha inițial. Cei cu 5-10 ha nu mai pot opta să plătească.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 3 alin. (2)",
+          "before": "care depun anual cerere unică de plată pentru suprafață agricolă mai mare sau egal cu 5 ha și/sau un număr de animale declarate echivalent UVM la 5 ha.",
+          "after": "care depun anual cerere unică de plată pentru o suprafață agricolă mai mare sau egală cu 10 ha și/sau un număr de animale declarate echivalent UVM la 10 ha.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Nu mai e clar cât plătesc crescătorii de animale",
+          "text": "Inițial art. 3 alin. (3)-(4) trimiteau la ratele UVM din Regulamentul (UE) 669/2016 și la anexa nr. 1. Acum lipsesc, deși art. 4 alin. (1) cere 0,5 euro/ha „sau echivalent UVM”.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 3 alin. (3)-(4)",
+          "before": "Conversia animalelor declarate în echivalent UVM este prevăzută în anexa nr.1 la prezenta lege.",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Și mai neclar cine încasează banii fermierilor",
+          "text": "Inițial titlul și art. 1 vorbeau de asociațiile membre. Acum art. 1 include și organizațiile, iar art. 3 alin. (3) le dă banii exclusiv lor, deși art. 4 alin. (13) și art. 6 vorbesc tot de asociații.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 1 alin. (1), art. 3 alin. (3)",
+          "before": "pentru finanțarea Asociațiilor Profesionale membre în Organizații Profesionale/Interprofesionale reprezentative din sectorul agroalimentar.",
+          "after": "Cotizația profesională agricolă poate fi alocată exclusiv organizațiilor profesionale și/sau interprofesionale recunoscute ca reprezentative conform prevederilor prezentei legi.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dispare termenul imposibil din 2026",
+          "text": "Art. 3 alin. (1) nu mai cere aplicarea din campania 2026, care nu putea fi respectată. Legea nu spune însă din ce campanie se aplică.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 3 alin. (1)",
+          "before": "Se instituie începând cu anul de cerere unică de plată 2026 o cotizație profesională agricolă voluntară plătită de fermieri",
+          "after": "Se instituie o cotizație profesională agricolă voluntară plătită de fermieri.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Ministerul certifică reprezentativitatea pentru cinci ani",
+          "text": "Art. 1 alin. (2) și art. 5 alin. (2)-(3): MADR validează reprezentativitatea printr-o comisie de specialitate, pe 5 ani, cu raport anual până la 31 martie. Componența comisiei nu e stabilită.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 5 alin. (2)-(3)",
+          "before": null,
+          "after": "Certificarea este valabilă 5 ani, cu obligativitatea transmiterii către Ministerul Agriculturii și Dezvoltării Rurale anual a unui raport de activitate, pentru anul trecut, până la data de 31 martie a anului curent.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Acordul de debit e impus tuturor fermierilor cu cerere unică, deși cotizația e voluntară",
+            "major": true,
+            "article": "art. 4 alin. (10)"
+          },
+          {
+            "text": "Banca mută automat banii a doua zi, fără termene, costuri sau răspundere stabilite",
+            "major": true,
+            "article": "art. 4 alin. (11)-(12)"
+          },
+          {
+            "text": "Cuantum fix de 0,5 euro/ha, deși expunerea de motive promite sumă la alegere",
+            "major": true,
+            "article": "art. 4 alin. (1)"
+          },
+          {
+            "text": "Conversia animalelor în echivalent hectar nu e definită",
+            "major": true,
+            "article": "art. 4 alin. (1)"
+          },
+          {
+            "text": "Neclar dacă cine are teren și animale plătește pe ambele",
+            "major": true,
+            "article": "art. 4 alin. (1)"
+          },
+          {
+            "text": "Neclar cine poate opta: art. 3 cere minimum 10 ha, art. 4 vizează toți",
+            "major": true,
+            "article": "art. 3 alin. (2), art. 4 alin. (6)"
+          },
+          {
+            "text": "Fermierii sub 10 ha nu pot contribui nici măcar voluntar",
+            "major": true,
+            "article": "art. 3 alin. (2)"
+          },
+          {
+            "text": "Reprezentativitatea e definită de patru ori, contradictoriu: cumulativ, alternativ, cu 5 angajați obligatorii",
+            "major": true,
+            "article": "art. 4 alin. (4)-(9)"
+          },
+          {
+            "text": "Neclar cine încasează: art. 3 spune organizațiile, art. 4 și 6 asociațiile membre",
+            "major": true,
+            "article": "art. 3 alin. (3), art. 4 alin. (12)-(13)"
+          },
+          {
+            "text": "Criterii vagi pentru sectoarele fără reprezentativ: organizație „de notorietate”, „etalon”",
+            "major": true,
+            "article": "art. 4 alin. (13) lit. c)"
+          },
+          {
+            "text": "Art. 4 trimite la fermierii „prevăzuți la art. 1”, dar art. 1 nu-i indică",
+            "major": false,
+            "article": "art. 4 alin. (1)"
+          },
+          {
+            "text": "Fermierul activ e definit prin OUG 11/2021, care privea schemele din 2021-2022",
+            "major": false,
+            "article": "art. 3 alin. (2)"
+          },
+          {
+            "text": "Nu se spune cum se împarte suma între mai mulți beneficiari nominalizați",
+            "major": false,
+            "article": "art. 4 alin. (6)"
+          },
+          {
+            "text": "Nu se spune din ce tranșă de subvenție se reține cotizația",
+            "major": false,
+            "article": "art. 4 alin. (11)"
+          },
+          {
+            "text": "Legea nu spune din ce campanie de cerere unică se aplică",
+            "major": false,
+            "article": "art. 3 alin. (1)"
+          },
+          {
+            "text": "Comisia MADR de certificare nu are componență sau procedură stabilită în lege",
+            "major": false,
+            "article": "art. 5 alin. (2)"
+          },
+          {
+            "text": "Condițiile de la lit. a)-c) „pot fi mutual exclusive”, formulare ambiguă",
+            "major": false,
+            "article": "art. 4 alin. (15)"
+          },
+          {
+            "text": "Art. 7 trimite la documentația „prevăzută la art.3”, care nu prevede documente",
+            "major": false,
+            "article": "art. 7 alin. (4)"
+          },
+          {
+            "text": "Adresa de email a MADR e scrisă greșit: politici.aqricole@madr.ro",
+            "major": false,
+            "article": "art. 5 alin. (1), art. 7 alin. (4)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Fermierul optează la cererea unică și alege asociația care primește banii",
+            "major": true,
+            "article": "art. 4 alin. (6)"
+          },
+          {
+            "text": "Cost individual mic: 0,5 euro/ha, adică 50 euro pe an la 100 ha",
+            "major": true,
+            "article": "art. 4 alin. (1)"
+          },
+          {
+            "text": "Banii pot fi folosiți doar în scopurile enumerate expres de lege",
+            "major": true,
+            "article": "art. 7 alin. (1)"
+          },
+          {
+            "text": "Amendă de 5.000-10.000 lei pentru folosirea banilor în alte scopuri",
+            "major": true,
+            "article": "art. 7 alin. (6)"
+          },
+          {
+            "text": "Raport anual de utilizare obligatoriu; fără el, asociația iese din listă",
+            "major": true,
+            "article": "art. 7 alin. (2)-(3)"
+          },
+          {
+            "text": "Beneficiarii depun anual statut, lista membrilor, cazier și atestare fiscală",
+            "major": false,
+            "article": "art. 4 alin. (13)"
+          },
+          {
+            "text": "Lista asociațiilor eligibile e publicată de MADR până la 1 martie",
+            "major": false,
+            "article": "art. 6 alin. (1)"
+          },
+          {
+            "text": "Respingerea poate fi contestată în 10 zile, cu soluție motivată în 5 zile",
+            "major": false,
+            "article": "art. 5 alin. (4)-(5)"
+          },
+          {
+            "text": "Reprezentativitatea e certificată de MADR și reverificată la cinci ani",
+            "major": false,
+            "article": "art. 5 alin. (2)-(3)"
+          },
+          {
+            "text": "Pot fi recunoscute mai multe organizații reprezentative, inclusiv pe sector",
+            "major": false,
+            "article": "art. 6 alin. (2)-(3)"
+          },
+          {
+            "text": "Cei care transmit rapoartele răspund civil și penal pentru corectitudinea datelor",
+            "major": false,
+            "article": "art. 7 alin. (4)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 62,
+        "removed": 44,
+        "same": 0.25
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:29:29.990Z"
+    }
+  ]
+}

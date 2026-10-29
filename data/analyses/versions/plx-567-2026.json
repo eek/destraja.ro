@@ -1,0 +1,142 @@
+{
+  "slug": "plx-567-2026",
+  "billId": "PL-x 567/2026",
+  "updatedAt": "2026-10-29T13:13:55.148Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L333FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Bodycam pentru echipele de capturare, camere live în adăposturi și controale inopinate ale ONG-urilor",
+      "summaryTlDr": "Scopul e legitim și util: mai multă transparență în adăposturile de câini. Textul are însă trei probleme serioase: transmisie live publică a oamenilor din adăpost, amenzi la plafonul maxim legal pentru orice abatere și nicio perioadă de tranziție. Merită susținut, dar numai cu amendamente serioase.",
+      "scores": {
+        "agy": 5,
+        "claude": 5,
+        "codex": 6
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/60/7/se646.pdf",
+      "source": "cdep.ro",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Bodycam pentru echipele care prind câini fără stăpân, camere live în adăposturi și controale-surpriză ale ONG-urilor",
+      "summaryTlDr": "Scopul e legitim: mai multă transparență într-un domeniu cu suspiciuni repetate de abuz. Textul însă a fost adoptat tacit de Senat și impune transmisie live din adăposturi, amenzi fixe de 50.000–100.000 lei fără să spună cine le plătește și nicio perioadă de conformare, așa că trebuie reparat serios în comisiile Camerei.",
+      "scores": {
+        "agy": 6,
+        "claude": 6,
+        "codex": 6
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat tacit proiectul în forma inițială; textul nu s-a schimbat în fond",
+      "summary": "Senatul a adoptat proiectul tacit, după depășirea termenului, în forma inițială. Diferențele sunt doar de redactare, așa că rămân transmisia live din adăposturi, bodycam-ul cu sunet și amenzile de 50.000–100.000 lei.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Adăposturile transmit live pe internet imagini cu angajați, voluntari și adoptatori",
+            "major": true,
+            "article": "art. 13⁸ alin. (2)"
+          },
+          {
+            "text": "Amendă de 50.000–100.000 lei, la plafonul legal, pentru orice abatere, oricât de mică",
+            "major": true,
+            "article": "art. 14 alin. (1) lit. b¹)"
+          },
+          {
+            "text": "Adăposturile mici ale ONG-urilor suportă costuri de streaming și riscă amenzi care le închid",
+            "major": true,
+            "article": "art. 13⁸ alin. (1)"
+          },
+          {
+            "text": "Nu se precizează dacă amenda o plătește angajatul cu camera sau operatorul",
+            "major": true,
+            "article": "art. 13⁷ alin. (4)"
+          },
+          {
+            "text": "Bodycam-ul înregistrează continuu, cu sunet, inclusiv cetățenii veniți la adopție sau revendicare",
+            "major": true,
+            "article": "art. 13⁷ alin. (1)"
+          },
+          {
+            "text": "Înregistrările: minimum 120 de zile, fără limită maximă sau reguli de acces și ștergere",
+            "major": true,
+            "article": "art. 13⁷ alin. (3)"
+          },
+          {
+            "text": "Monitorizarea vizează toate adăposturile private, participarea doar pe cele în parteneriat",
+            "major": true,
+            "article": "art. 11 alin. (2)–(3)"
+          },
+          {
+            "text": "Înregistrările bodycam doar „pot fi puse” la dispoziția autorităților, nu obligatoriu",
+            "major": false,
+            "article": "art. 13⁷ alin. (3)"
+          },
+          {
+            "text": "Criteriile de acreditare a ONG-urilor vin printr-un ordin ANSVSA fără termen",
+            "major": false,
+            "article": "art. 11 alin. (2)"
+          },
+          {
+            "text": "Termenul de 30 de zile nu spune cine îl are și ce urmează",
+            "major": false,
+            "article": "art. 11 alin. (2)"
+          },
+          {
+            "text": "Lipsesc reguli pentru vizite, rapoarte, retragerea acreditării și urmarea constatărilor",
+            "major": false,
+            "article": "art. 11 alin. (2)"
+          }
+        ],
+        "good": [
+          {
+            "text": "ONG-urile acreditate pot face vizite inopinate în adăposturile publice și private",
+            "major": true,
+            "article": "art. 11 alin. (2)"
+          },
+          {
+            "text": "Refuzul accesului ONG-urilor e permis doar pe motive sanitare și se comunică în scris",
+            "major": true,
+            "article": "art. 11 alin. (4)"
+          },
+          {
+            "text": "Capturarea, manipularea și transportul câinilor se filmează, pentru verificarea tratamentului animalelor",
+            "major": true,
+            "article": "art. 13⁷"
+          },
+          {
+            "text": "Adăposturile au camere în spațiile-cheie; înregistrările ajung la autorități și ONG-uri",
+            "major": true,
+            "article": "art. 13⁸ alin. (1), (3)"
+          },
+          {
+            "text": "Blocarea nejustificată a ONG-urilor în adăposturi se sancționează cu amendă",
+            "major": true,
+            "article": "art. 14 alin. (1) lit. d)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 16,
+        "removed": 20,
+        "same": 0.36
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:09:13.982Z"
+    }
+  ]
+}

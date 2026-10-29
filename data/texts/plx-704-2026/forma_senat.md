@@ -1,0 +1,19 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+pentru modificarea art.3 din Legea nr.354/2022 privind protecția sistemelor informatice ale autorităților și instituțiilor publice în contextul invaziei declanșate de Federația Rusă împotriva Ucrainei
+
+Senatul adoptă prezentul proiect de lege
+
+Articol unic.- Articolul 3 din Legea nr.354/2022 privind protecția sistemelor informatice ale autorităților și instituțiilor publice în contextul invaziei declanșate de Federația Rusă împotriva Ucrainei, publicată în Monitorul Oficial al României, Partea I, nr.1200 din 14 decembrie 2022, se modifică și va avea următorul cuprins:
+
+„Art.3.- Interdicția prevăzută la art.2 se aplică până la data de 31 decembrie 2035.”
+
+Acest proiect de lege a fost adoptat de Senat în ședința din 26 octombrie 2026, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.
+
+PREȘEDINTELE SENATULUI
+
+MIRCEA ABRUDEAN

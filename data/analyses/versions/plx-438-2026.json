@@ -1,0 +1,112 @@
+{
+  "slug": "plx-438-2026",
+  "billId": "PL-x 438/2026",
+  "updatedAt": "2026-10-29T12:41:56.085Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L222FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 7.3,
+      "riskLevel": "red",
+      "plainTitle": "Internare forțată pentru persoanele dependente de droguri sau de alte adicții",
+      "summaryTlDr": "Scopul e legitim: oamenii dependenți pe care sistemul îi abandonează. Textul însă are un singur articol, scris imperativ, care cere internarea forțată fără să spună cine decide, cât durează și cine controlează decizia. Litera c) face din simpla vârstă minoră un temei de privare de libertate, așa că legea se poate repara în comisie, dar nu trebuie votată în forma aceasta.",
+      "scores": {
+        "agy": 8,
+        "claude": 6,
+        "codex": 8
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/30/8/se473.pdf",
+      "source": "cdep.ro",
+      "riskScore": 7.7,
+      "riskLevel": "red",
+      "plainTitle": "Internare fără acord pentru persoanele dependente de droguri sau de alte adicții",
+      "summaryTlDr": "Problema e reală, dar textul e o singură frază care impune internarea forțată fără să spună cine decide, cât durează și cine verifică. Litera c) permite internarea minorilor și a persoanelor „puse sub interdicție” fără pericol și fără tulburare gravă, doar pe baza statutului lor, deși interdicția judecătorească nu mai există în lege.",
+      "scores": {
+        "agy": 8,
+        "claude": 7,
+        "codex": 8
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat tacit textul inițiatorului, fără nicio schimbare de fond la internarea nevoluntară",
+      "summary": "Senatul nu a votat propriu-zis textul: proiectul se consideră adoptat tacit, în forma inițială. Internarea nevoluntară a persoanelor cu dependențe rămâne obligatorie, inclusiv doar pentru că sunt minore. Nu se spune nici acum cine decide, cât durează și cum se contestă.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Internarea e obligatorie („se instituie”), nu lăsată la aprecierea medicului sau instanței",
+            "major": true,
+            "article": "art. 22²"
+          },
+          {
+            "text": "Nu spune cine decide, cât durează, cum se contestă, nici dacă instanța controlează",
+            "major": true,
+            "article": "art. 22²"
+          },
+          {
+            "text": "Lit. c) permite internarea forțată doar pentru că persoana e minoră, fără pericol",
+            "major": true,
+            "article": "art. 22² lit. c)"
+          },
+          {
+            "text": "Trimite la punerea sub interdicție, instituție declarată neconstituțională și înlocuită în 2022",
+            "major": true,
+            "article": "art. 22² lit. c)"
+          },
+          {
+            "text": "Nu e delimitat ce înseamnă „alte comportamente addictive”: jocuri de noroc, jocuri video?",
+            "major": true,
+            "article": "art. 22²"
+          },
+          {
+            "text": "Nu spune câte refuzuri contează, pe ce perioadă și cine constată degradarea",
+            "major": false,
+            "article": "art. 22²"
+          },
+          {
+            "text": "Lit. a) și b) dublează criteriile de internare nevoluntară deja existente în lege",
+            "major": false,
+            "article": "art. 22² lit. a) și b)"
+          },
+          {
+            "text": "Greșeală de tipar în lege: „addictive” în loc de „adictive”",
+            "major": false,
+            "article": "art. 22²"
+          }
+        ],
+        "good": [
+          {
+            "text": "Lit. a) și b) cer pericol iminent sau tulburare psihică gravă",
+            "major": false,
+            "article": "art. 22² lit. a) și b)"
+          },
+          {
+            "text": "Cere în prealabil refuz repetat al internării și degradarea continuă a stării",
+            "major": false,
+            "article": "art. 22²"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 4,
+        "same": 0.33
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:38:34.481Z"
+    }
+  ]
+}

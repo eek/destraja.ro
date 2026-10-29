@@ -1,0 +1,107 @@
+{
+  "slug": "plx-205-2026",
+  "billId": "PL-x 205/2026",
+  "updatedAt": "2026-10-29T12:49:25.798Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L090FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Bani publici din bugetul sportului și pentru asociațiile de jurnaliști sportivi",
+      "summaryTlDr": "Formarea tinerilor jurnaliști sportivi e un scop legitim. Textul deschide însă bugetele sportului către presă fără o definiție, fără selecție competitivă și fără garanții de independență editorială. Riscul e moderat: finanțare discreționară și o presă dependentă de autoritățile și federațiile despre care scrie.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/200/00/5/se218.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Bani publici pentru asociațiile de jurnaliști sportivi",
+      "summaryTlDr": "Modificarea e scurtă și nu impune taxe, obligații sau sancțiuni. Deschide însă bugetul de stat și bugetele locale pentru „asociații de presă sportivă”, o noțiune nedefinită, fără criterii de selecție și fără garanții de independență editorială. Riscul real nu este bugetar: presa sportivă ar putea ajunge plătită de autoritățile despre care ar trebui să scrie critic.",
+      "scores": {
+        "agy": 6,
+        "claude": 4,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat textul inițiatorului neschimbat; diferă doar formula de adoptare",
+      "summary": "Senatul a păstrat cuvânt cu cuvânt articolul propus inițial; s-au schimbat doar formula de adoptare și spațierea trimiterilor. Rămân aceleași riscuri: asociații de presă sportivă nedefinite și bani publici pentru „promovare”, fără criterii de selecție.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "„Asociație de presă sportivă” nu e definită; încadrarea depinde doar de statut",
+            "major": true,
+            "article": "art. 69 alin. (1)"
+          },
+          {
+            "text": "„Promovarea sportului”, cheltuială nouă și vagă pentru toți beneficiarii, poate acoperi campanii de imagine",
+            "major": true,
+            "article": "art. 69 alin. (1)"
+          },
+          {
+            "text": "Nu interzice plata, prin contracte directe, a campaniilor media pentru autoritatea finanțatoare",
+            "major": true,
+            "article": "art. 69 alin. (1)"
+          },
+          {
+            "text": "Lipsesc selecția competitivă, criteriile publice și plafonul sumelor",
+            "major": false,
+            "article": "art. 69 alin. (1)"
+          },
+          {
+            "text": "Normele HG 1447/2007 sunt pentru structuri sportive, nu pentru activități de presă",
+            "major": false,
+            "article": "art. 69 alin. (1)"
+          },
+          {
+            "text": "Textul nu cere caracter național, deși expunerea de motive îl menționează",
+            "major": false,
+            "article": "art. 69 alin. (1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Pot primi bani doar asociațiile recunoscute de utilitate publică",
+            "major": true,
+            "article": "art. 69 alin. (1)"
+          },
+          {
+            "text": "Finanțarea e facultativă („pot beneficia”), deci nu creează obligație de plată",
+            "major": false,
+            "article": "art. 69 alin. (1)"
+          },
+          {
+            "text": "Sumele se dau doar pe bază de contracte cu administrația",
+            "major": false,
+            "article": "art. 69 alin. (1)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 4,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:48:04.203Z"
+    }
+  ]
+}

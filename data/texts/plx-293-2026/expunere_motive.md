@@ -1,0 +1,89 @@
+# Expunere de motive
+
+Legea pentru completarea Legii nr. 227/2015 privind Codul fiscal.
+
+Modificarea propusă este fundamentată pe necesitatea armonizării legislației fiscale cu cea a asistenței sociale. Legile nr. 292/2011 și nr. 197/2012 consacră legal contribuțiile beneficiarilor ca parte integrantă a sistemului de finanțare a serviciilor sociale. Neprelurea acestor prevederi în Codul fiscal a creat un vid legislativ, contrar intenției legiutorului social, care a prezumat că asemenea contribuții vor susține serviciile, nu bugetul de stat. Introducerea lit. q) la art. 15 alin. (2) din Codul fiscal elimină această incoerență și asigură efectul util al legislației speciale: contribuțiile vor ajunge neștirbite la furnizorii serviciilor sociale, contribuind la sustenabilitatea lor. De asemenea, propunerea se încadrează în obiectivele politicilor fiscale de încurajare a activităților non-profit de interes public (conform Directivei europene privind statul de drept și al jurisprudenței CJUE ce interzice discriminarea în tratamentul fiscal al entităților non-profit transfrontaliere – ex. cauza Stauffer, care stipulează că avantajele fiscale pentru activități de utilitate publică trebuie recunoscute fără discriminare) ec.europa.euec.europa.eu. Prin clarificarea făcută, România se aliniază acestor principii, recunoscând statutul special al furnizorilor neguvernamentali de servicii sociale.
+
+Propunerea are un profund rol social, întrucât sprijină indirect persoanele vulnerabile care beneficiază de servicii sociale. Fără povara fiscală actuală, asociațiile și fundațiile vor putea folosi 100% din contribuțiile colectate pentru a-și îmbunătăți serviciile – de pildă, vor putea oferi mese mai bune, personal calificat suplimentar, terapii și activități de reintegrare, condiții de cazare decente etc. – fără să aloce o parte către impozite. Astfel, beneficiarii (dependenți aflați în recuperare, persoane cu dizabilități, vârstnici dependenți de îngrijire, copii din centre de zi etc.) vor primi servicii de calitate mai bună, iar unii furnizori ar putea chiar reduce cuantumul contribuțiilor cerute beneficiarilor, fâcând serviciile accesibile unei plaje mai largi de persoane. Eliminarea impozitului pe aceste venituri contribuie la sustenabilitatea financiară a ONG-urilor sociale, reducând riscul ca acestea să-și înceteze activitatea din lipsă de fonduri. În ansamblu, măsura întărește parteneriatul public-privat în asistența socială: statul renunță la un venit bugetar minor, dar în schimb vede complementată oferta de servicii sociale de către ONG-uri, în beneficiul comunităților.
+
+Impactul asupra bugetului de stat este nesemnificativ spre mic pozitiv (în sensul scutirii). În prezent, numărul ONG-urilor care prestează servicii sociale contra unei contribuții a beneficiarilor este limitat (majoritatea serviciilor sociale sunt fie publice, fie gratuite pentru beneficiari sau acoperite din alte surse). Chiar și în cazurile existente, multe organizații se încadrează deja în plafonul de 15.000 euro neimpozabili, deci oricum nu generau impozit pe profit plătibil. Prin urmare, pierderile de venit bugetar ca urmare a exceptării totale sunt minimale. Estimativ, dacă în toată țara contribuțiile beneficiarilor către ONG-uri ar totaliza 10 milioane lei anual (scenariu optimist), iar jumătate din acestea depășeau pragurile actuale de scutire, la o cotă de 16% impozit pe profit, venitul teoretic la buget ar fi cca. 0,8 milioane lei – sumă infimă raportat la bugetul general și oricum niciodată colectată integral din cauza dificultăților de impunere. Această sacrificare bugetară minoră este însă compensată de beneficii greu cuantificabile financiar: serviciile sociale de calitate reduc pe termen lung alte costuri publice (spitale, poliție, penitenciare – de exemplu, reintegrarea unui fost dependent scade cheltuieli de sănătate și justiție). În plus, măsura poate stimula mai multe ONG-uri să se acrediteze ca furnizori de servicii sociale știind că nu vor fi împovărate fiscal, ceea ce extinde rețeaua de servicii în comunitate fără cheltuieli directe din buget.
+
+Posibile riscuri și măsuri de prevenire: O potențială îngrijorare ar fi abuzul sau sustragerea unor venituri comerciale sub aparența contribuțiilor de servicii sociale. Totuși, riscul este minim, deoarece legea condiționează scutirea de acreditarea ca furnizor de servicii sociale conform legii 197/2012. Procesul de acreditare și licențiere impune standarde stricte și monitorizare continuă din partea autorităților (Agenția Națională pentru Plăți și Inspecție Socială), ceea ce face improbabil ca entități fictive să obțină acest statut doar pentru avantaj fiscal. De asemenea, în practică, contribuțiile beneficiarilor sunt de obicei plafonate prin hotărâri ale autorităților locale sau prin standarde de cost (ex.: consiliile județene aprobă anual cuantumul contribuției în funcție de venituri, pentru centrele rezidențiale pe care le finanțează parțial). Aceste mecanisme administrative vor continua să funcționeze și după scutire, deci nu există pericolul ca ONG-urile să majoreze necontrolat contribuțiile doar pentru a acumula venituri neimpozabile – ele trebuie să rămână în logica socială și să respecte standardele de calitate și accesibilitate. În plus, transparența financiară a ONG-urilor (raportările anuale către Ministerul Finanțelor și registrele publice ale serviciilor sociale) va permite în continuare supravegherea modului de utilizare a fondurilor, inclusiv a contribuțiilor de la beneficiari.
+
+Modificarea propusă este ușor de implementat tehnic. Sistemele de raportare contabilă și fiscală pentru ONG-uri deja prevăd evidențierea veniturilor neimpozabile și a cheltuielilor aferente (formularul 101 are rânduri dedicate). Introducerea unei noi linii distincte (lit. q) nu schimbă fundamental modul de declarare, ci doar reclasifică anumite sume din “venit impozabil” în “venit neimpozabil”. Autoritățile fiscale pot actualiza cu ușurință instrucțiunile pentru declarația 101 și ghidurile contribuabililor, pentru a reflecta noua categorie. Este de așteptat chiar o simplificare în sarcina administrativă a ANAF, întrucât nu va mai trebui să verifice în detaliu încadrările și calculul plafonului de 15.000 euro pentru aceste contribuții – ele vor fi scutite integral ex lege.
+
+Beneficiarii direcți – asociațiile și fundațiile acreditate ca furnizori de servicii sociale – vor trebui doar să își adapteze politicile contabile interne pentru a marca separat aceste venituri (lucru pe care oricum îl fac), dar de acum fâră a se mai constitui provizioane pentru eventuale impozite. Beneficiarii indirecți – persoanele asistate – nu trebuie să facă nimic diferit, însă vor resimți în timp îmbunătățiri ale serviciilor. Ministerul Finanțelor, împreună cu Ministerul Muncii, pot iniția o campanie de informare a sectorului neguvernamental privind noua facilitate, încurajând astfel accesarea acesteia și conformarea voluntară.
+
+Concluzie: Prin această propunere legislativă, România ar face un pas important în sprijinul sectorului neguvernamental social, eliminând o povere fiscală nejustificată și permițând ca fiecare leu plătit de beneficiarii unor servicii esențiale să se întoarcă în folosul lor. Măsura este justă din punct de vedere moral (întrucât protejează pe cei vulnerabili), justificată juridic (aliniază legislația fiscală cu cea socială și cu practicile UE) și neglijabilă ca impact bugetar. Se propune, așadar, adoptarea acestei modificări a Codului fiscal, însoțită de actualizarea regulamentelor fiscale subsecvente, astfel încât contribuțiile beneficiarilor serviciilor sociale furnizate de asociații și fundații să fie tratate ca venituri neimpozabile de la data intrării în vigoare a legii. Acest demers va consolida capacitatea organizațiilor de a oferi servicii de calitate și va evidenția angajamentul statului față de parteneriatul cu societatea civilă în sprijinul celor aflați în nevoie.
+
+Inițiatori:
+
+Ruxandra Cibu Deaconu - Senator USR
+
+Oana Murariu - Deputat USR
+
+## Lista susținătorilor
+
+Project de lege
+
+pentru completarea Legii nr. 227/2015 privind Codul fiscal
+
+<table>
+<tbody>
+<tr><td>NR.</td><td>DEPUTAT/SENATOR</td><td>SEMNĂTURĂ</td><td>PARTID</td></tr>
+<tr><td>1.</td><td>RUS VASILE-CIPRIAN</td><td rowspan="14"></td><td>USR</td></tr>
+<tr><td>2.</td><td>PAUN CYNTHIA</td><td>USR</td></tr>
+<tr><td>3.</td><td>SEBASTIAN CEIGNIC</td><td>USR</td></tr>
+<tr><td>4.</td><td>MINARU CÂTÂLIN -EMIL</td><td>USR</td></tr>
+<tr><td>5.</td><td>SPATAIRO SIMONA</td><td>USR</td></tr>
+<tr><td>6.</td><td>NEGOI EVGEN PAMUS</td><td>USR</td></tr>
+<tr><td>7.</td><td>SABUANIR CLICIPLY</td><td>USR</td></tr>
+<tr><td>8.</td><td>ANGHEL RAZCAN -RAVIL</td><td>USR</td></tr>
+<tr><td>9.</td><td>CRISTIAN GRINIBA</td><td>USR</td></tr>
+<tr><td>10.</td><td>TUROS LORAND</td><td>VRNR</td></tr>
+<tr><td>11.</td><td>VASS LEVENTE</td><td>VOMR</td></tr>
+<tr><td>12.</td><td>OSEP EVA ANDREA</td><td>UHRR</td></tr>
+<tr><td>13.</td><td>Sogdon Hutucō</td><td>PNL</td></tr>
+<tr><td>14.</td><td>STRIGHW-CERCEL ADRIAH</td><td>PSD</td></tr>
+<tr><td>15.</td><td></td><td></td><td></td></tr>
+<tr><td>16.</td><td></td><td></td><td></td></tr>
+<tr><td>17.</td><td></td><td></td><td></td></tr>
+<tr><td>18.</td><td></td><td></td><td></td></tr>
+<tr><td>19.</td><td></td><td></td><td></td></tr>
+<tr><td>20.</td><td></td><td></td><td></td></tr>
+<tr><td>21.</td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+## Lista susținătorilor
+
+Proiect de lege
+
+pentru completarea Legii nr. 227/2015 privind Codul fiscal
+
+<table>
+<tbody>
+<tr><td>NR.</td><td>DEPUTAT/SENATOR</td><td>SEMNĂTURĂ</td><td>PARTID</td></tr>
+<tr><td>1.</td><td>Gromne Umguncon</td><td rowspan="12"></td><td>USR</td></tr>
+<tr><td>2.</td><td>Vadua Dmuhu</td><td>USR</td></tr>
+<tr><td>3.</td><td>JENOROU VLAD -104N</td><td>USR</td></tr>
+<tr><td>4.</td><td>GHEORGHU ANDREI</td><td>USR</td></tr>
+<tr><td>5.</td><td>TAHASA STEFAN</td><td>USR</td></tr>
+<tr><td>6.</td><td>UADEJUK DAHIHRU</td><td>USR</td></tr>
+<tr><td>7.</td><td>BOCHILEANU GEORGE CATALIN</td><td>USR</td></tr>
+<tr><td>8.</td><td>Morvssi Georgc</td><td>USR</td></tr>
+<tr><td>9.</td><td>Bulcoara FeliR</td><td>USR</td></tr>
+<tr><td>10.</td><td>CRISTIAN BRIAN</td><td>USR</td></tr>
+<tr><td>11.</td><td>GIMA GOORGE</td><td>USR</td></tr>
+<tr><td>12.</td><td>BLAGA DANIEC</td><td>USR</td></tr>
+<tr><td>13.</td><td></td><td></td><td></td></tr>
+<tr><td>14.</td><td></td><td></td><td></td></tr>
+<tr><td>15.</td><td></td><td></td><td></td></tr>
+<tr><td>16.</td><td></td><td></td><td></td></tr>
+<tr><td>17.</td><td></td><td></td><td></td></tr>
+<tr><td>18.</td><td></td><td></td><td></td></tr>
+<tr><td>19.</td><td></td><td></td><td></td></tr>
+<tr><td>20.</td><td></td><td></td><td></td></tr>
+<tr><td>21.</td><td></td><td></td><td></td></tr>
+</tbody>
+</table>

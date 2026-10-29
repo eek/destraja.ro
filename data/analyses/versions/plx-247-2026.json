@@ -1,0 +1,126 @@
+{
+  "slug": "plx-247-2026",
+  "billId": "PL-x 247/2026",
+  "updatedAt": "2026-10-29T12:55:02.792Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L079FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Funcționarii publici pot fi rezerviști voluntari fără să devină incompatibili",
+      "summaryTlDr": "Lege tehnică și utilă. Închide o interpretare ANI care îi expunea pe funcționarii publici înrolați ca rezerviști voluntari la pierderea funcției și la o interdicție de 3 ani. Singura problemă e formularea din forma inițiatorului, care trebuie legată clar de suspendarea raportului de serviciu și de conflictul de interese.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/200/40/7/se271.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Funcționarii publici pot fi și rezerviști voluntari în armată fără să devină incompatibili",
+      "summaryTlDr": "Este o corecție utilă și de bun-simț. Proiectul înlătură o incompatibilitate constatată de ANI, care descuraja funcționarii să intre în rezerva armatei. Singurul punct slab este finalul textului, condiționat vag de lipsa unui „conflict de interese”.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Funcționarii rezerviști voluntari rămân compatibili doar dacă nu apare un conflict de interese",
+      "summary": "Acum, funcționarul public rezervist voluntar e scutit de incompatibilitate doar dacă nu are un conflict de interese, iar raportul de serviciu se suspendă pe durata instruirii și mobilizării. În schimb, scutirea acoperă mai multe reguli de incompatibilitate decât inițial.",
+      "changes": [
+        {
+          "title": "Excepția cere acum lipsa conflictului de interese",
+          "text": "Art. 94 alin. (2⁴) condiționează acum excepția de lipsa conflictului de interese. Inițial nu exista această limită. Textul nu spune însă ce situații vizează și după ce criteriu se apreciază.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 94 alin. (2⁴) din Legea 161/2003",
+          "before": null,
+          "after": "în măsura în care această calitate nu generează un conflict de interese",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Scutire de mai multe reguli de incompatibilitate",
+          "text": "Inițial, noua lit. d) la art. 94 alin. (2¹) scutea doar de alin. (2) lit. a) și c). Acum, alin. (2⁴) scutește integral de alin. (1) și (2): mai sigur pentru rezerviști, dar o scutire mai largă.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 94 alin. (2⁴) din Legea 161/2003",
+          "before": "La articolul 94 alineatul (2¹) din Legea nr. 161/2003",
+          "after": "Nu se află în situație de incompatibilitate, în sensul prevederilor alin.(1) și (2), funcționarul public care deține calitatea de rezervist voluntar",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Fără exercitarea funcției în timpul concentrării sau mobilizării",
+          "text": "Inițial, textul putea fi citit ca permițând exercitarea funcției publice în paralel cu concentrarea sau mobilizarea. Acum cere suspendarea raportului de serviciu, ca art. 26 din Legea 270/2015.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 94 alin. (2⁴) din Legea 161/2003",
+          "before": "indiferent dacă raportul de serviciu este sau nu suspendat pe durata îndeplinirii obligațiilor militare",
+          "after": "cu respectarea dispozițiilor privind suspendarea raportului de serviciu pe durata instruirii inițiale și a concentrării/mobilizării",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Conflictul de interese e vag; nu exclude expres funcționarii de audit sau control",
+            "major": true,
+            "article": "art. 94 alin. (2⁴) din Legea 161/2003"
+          },
+          {
+            "text": "Se aplică și rezerviștilor din MAI și servicii de informații, nu doar MApN",
+            "major": true,
+            "article": "art. 94 alin. (2⁴) din Legea 161/2003; art. 41 din Legea 270/2015"
+          }
+        ],
+        "good": [
+          {
+            "text": "Funcționarii rezerviști voluntari nu mai riscă eliberarea din funcție și interdicția de 3 ani",
+            "major": true,
+            "article": "art. 94 alin. (2⁴) din Legea 161/2003"
+          },
+          {
+            "text": "Scutirea de alin. (1) blochează argumentul că funcția militară e altă funcție publică",
+            "major": true,
+            "article": "art. 94 alin. (2⁴) din Legea 161/2003"
+          },
+          {
+            "text": "Excepție condiționată de lipsa conflictului de interese",
+            "major": true,
+            "article": "art. 94 alin. (2⁴) din Legea 161/2003"
+          },
+          {
+            "text": "Raportul de serviciu se suspendă la instruire și mobilizare: fără dublă plată",
+            "major": false,
+            "article": "art. 94 alin. (2⁴) din Legea 161/2003"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 3,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:55:02.792Z"
+    }
+  ]
+}

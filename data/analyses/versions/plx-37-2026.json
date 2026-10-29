@@ -1,0 +1,107 @@
+{
+  "slug": "plx-37-2026",
+  "billId": "PL-x 37/2026",
+  "updatedAt": "2026-10-29T12:26:32.604Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L589FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Ministerul IMM-urilor trebuie să avizeze actele Guvernului care afectează firmele",
+      "summaryTlDr": "Lege tehnică și utilă. Obligă Guvernul să ceară părerea ministerului care se ocupă de IMM-uri înainte să adopte acte care afectează firmele. Nu taxează și nu sancționează pe nimeni. Textul e însă vag: nu are termen, nu are sancțiune și nu definește «impactul», așa că riscă să rămână o formalitate.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/30/7/se30.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Guvernul trebuie să ceară părerea Ministerului Economiei înainte de a adopta reguli care afectează firmele",
+      "summaryTlDr": "Lege tehnică și utilă, dar fără putere reală: obligă inițiatorul doar să ceară un aviz de la ministerul IMM-urilor, fără termen, fără sancțiune și fără ca avizul să fie obligatoriu. Nu conține taxe, monopoluri sau sancțiuni; riscul principal e să rămână o simplă formalitate.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat ordonanța despre avizul pentru IMM fără nicio modificare de fond",
+      "summary": "Senatul a aprobat ordonanța neschimbată. Acum legea citează doar data ordonanței și Monitorul Oficial în care a apărut. Avizul pentru IMM rămâne consultativ, fără termen și fără sancțiune, la fel ca inițial.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Guvernul doar cere avizul; poate adopta actul și cu aviz negativ",
+            "major": true,
+            "article": "art. 9 alin. (4²) din Legea 346/2004"
+          },
+          {
+            "text": "Nicio consecință juridică dacă inițiatorul omite să ceară avizul",
+            "major": true,
+            "article": "art. 9 alin. (4²) din Legea 346/2004"
+          },
+          {
+            "text": "Ordinele miniștrilor și ale ANAF, propunerile parlamentarilor și actele locale rămân neacoperite",
+            "major": true,
+            "article": "art. 9 alin. (4²) din Legea 346/2004"
+          },
+          {
+            "text": "Nu există termen în care autoritatea pentru IMM să emită avizul",
+            "major": false,
+            "article": "art. 9 alin. (4²) din Legea 346/2004"
+          },
+          {
+            "text": "«Impact asupra mediului de afaceri» e vag; lipsesc criteriile din Metodologia Testului IMM",
+            "major": false,
+            "article": "art. 9 alin. (4²) din Legea 346/2004"
+          },
+          {
+            "text": "Nu spune dacă avizul verifică efectuarea Testului IMM, problema reală din Expunerea de motive",
+            "major": false,
+            "article": "art. 9 alin. (4²) din Legea 346/2004"
+          },
+          {
+            "text": "Neclar dacă avizul e distinct de avizul GEIEAN din metodologia Testului IMM",
+            "major": false,
+            "article": "art. 9 alin. (4²) din Legea 346/2004"
+          }
+        ],
+        "good": [
+          {
+            "text": "Inițiatorii actelor Guvernului trebuie să ceară avizul autorității pentru IMM înainte de adoptare",
+            "major": true,
+            "article": "art. 9 alin. (4²) din Legea 346/2004"
+          },
+          {
+            "text": "Fără costuri, taxe sau sancțiuni noi pentru cetățeni și firme",
+            "major": false,
+            "article": "art. 9 alin. (4²) din Legea 346/2004"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:26:32.604Z"
+    }
+  ]
+}

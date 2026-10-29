@@ -1,0 +1,130 @@
+## EXPUNERE DE MOTIVE
+
+Legea nr. 212/2022 a fost adoptată cu scopul legitim și necesar de a institui un cadru normativ pentru reducerea riscului seismic al clădirilor din România, în contextul vulnerabilității ridicate a fondului construit și al necesității protejării vieții și integrității persoanelor.
+
+Cu toate acestea, analiza modului în care legea distribuie atribuțiile între proprietarii imobilelor și autoritățile administrației publice locale relevă existența unor disfuncționalități structurale care afectează eficiența aplicării legii și generează o transferare nejustificată a responsabilității juridice asupra autorităților locale, în detrimentul titularilor dreptului de proprietate.
+
+Potrivit art. 44 din Constituția României, dreptul de proprietate privată este garantat și ocrotit în mod egal de lege. Acest drept conferă titularului plenitudinea prerogativelor juridice asupra bunului, respectiv posesia, folosința și dispoziția.
+
+În doctrina dreptului civil s-a statuat constant că proprietatea implică nu doar drepturi, ci și obligații inerente conservării bunului și prevenirii producerii de prejudicii către terți. Astfel, proprietarul are obligația de a întreține bunul în stare corespunzătoare și de a preveni situațiile de pericol generate de starea acestuia.
+
+Or, consolidarea structurală a unui imobil reprezintă o operațiune tehnică direct legată de exercitarea dreptului de proprietate, fiind o intervenție asupra bunului aflat în patrimoniul proprietarului. Transferarea acestei obligații către autoritatea publică locală reprezintă o derogare nejustificată de la regimul juridic al proprietății.
+
+Autoritățile administrației publice locale nu pot interveni asupra bunurilor aflate în proprietate privată decât în condițiile expres prevăzute de lege și cu respectarea principiilor constituționale privind inviolabilitatea proprietății private, proporționalitatea ingerinței statului, existența unei despăgubiri juste în cazul restrângerii dreptului de proprietate.
+
+Orice intervenție asupra structurii unui imobil implică executarea de lucrări asupra bunului afectarea dreptului de folosință, eventuale relocări temporare ale proprietarilor, asumarea răspunderii pentru lucrările executate.
+
+În absența acordului proprietarului sau a unei proceduri de expropriere, autoritatea publică locală nu poate interveni direct asupra bunului, fără a încălca garanțiile constituționale ale proprietății.
+
+În forma actuală, legea creează obligații în sarcina autorităților locale care implică expertizarea tehnică a clădirilor, proiectarea lucrărilor, finanțarea consolidării, gestionarea procesului tehnologic. Aceste obligații presupun alocări bugetare considerabile, însă legea nu instituie un mecanism sustenabil de finanțare, ceea ce determină imposibilitatea reală de implementare.
+
+Conform principiului autonomiei locale, consacrat de Constituție și de Carta europeană a autonomiei locale, statul nu poate transfera atribuții autorităților locale fără asigurarea resurselor financiare corespunzătoare.
+
+Prin urmare, actualul cadru legislativ generează o discrepanță între obligațiile impuse și capacitatea reală de executare, afectând eficiența politicilor publice în domeniul reducerii riscului seismic.
+
+Actuala reglementare creează în practică o conduită pasivă a proprietarilor, fundamentată pe percepția că responsabilitatea consolidării clădirilor aparține autorităților locale.
+
+Această situație contravine principiului fundamental al dreptului civil potrivit căruia riscurile și obligațiile aferente bunului revin titularului dreptului de proprietate.
+
+În lipsa unei responsabilizări directe a proprietarilor, mecanismele legislative devin inefficiente, iar procesul de reducere a riscului seismic rămâne blocat.
+
+Pentru a asigura eficiența reală a politicilor publice în domeniul reducerii riscului seismic, este necesară reașezarea responsabilităților juridice în acord cu regimul juridic al proprietății. Autoritățile locale trebuie să îndeplinească exclusiv roluri administrative și de monitorizare.
+
+Experiența practică a autorităților administrației publice locale demonstrează limitele reale ale mecanismelor de stimulare sau constrângere aplicabile proprietarilor de clădiri vulnerabile seismic.
+
+În acest sens, numeroase unități administrativ-teritoriale, au adoptat în ultimii ani măsuri menite să încurajeze sau să determine proprietarii să realizeze lucrări de reabilitare sau consolidare a imobilelor, precum acordarea unor facilități fiscale pentru lucrările de reabilitare a clădirilor sau majorarea impozitului pe clădiri neîngrijite ori degradate, inclusiv până la nivelul maxim permis de legislația fiscală, respectiv majorarea cu până la 500% a impozitului pe proprietate.
+
+Cu toate acestea, rezultatele acestor măsuri au fost limitate, iar în multe situații acestea nu au determinat realizarea efectivă a lucrărilor de reabilitare sau consolidare de către proprietari. Această realitate administrativă evidențiază faptul că instrumentele aflate la dispoziția autorităților locale au o eficiență redusă în lipsa unei responsabilizări directe și clare a proprietarilor.
+
+În aceste condiții, transferarea în sarcina autorităților administrației publice locale a unor obligații privind consolidarea clădirilor aflate în proprietate privată nu reprezintă o soluție realistă și nici eficientă din perspectiva politicilor publice, întrucât experiența administrativă demonstrează că responsabilizarea proprietarilor rămâne elementul esențial pentru realizarea efectivă a lucrărilor necesare reducerii riscului seismic.
+
+Această realitate evidențiază faptul că instrumentele fiscale aflate la dispoziția autorităților administrației publice locale au devenit, în practică, simple mecanisme de natură bugetară, fără un impact real asupra realizării lucrărilor de consolidare sau reabilitare a clădirilor aflate în proprietate privată.
+
+În aceste condiții, transferarea responsabilității privind realizarea lucrărilor de consolidare către autoritățile administrației publice locale nu reprezintă o soluție eficientă și nici realistă, întrucât experiența administrativă demonstrează că autoritatea locală nu poate substitui voința și responsabilitatea proprietarilor asupra bunurilor aflate în patrimoniul acestora.
+
+Prin urmare, pentru a asigura eficiența cadrului legislativ în materia reducerii riscului seismic, este necesară consacrarea explicită a responsabilității proprietarilor de a realiza lucrările de expertizare, proiectare și consolidare a clădirilor, în considerarea dreptului de proprietate asupra imobilelor respective.
+
+Prezenta propunere legislativă urmărește clarificarea responsabilităților juridice în materia reducerii riscului seismic al clădirilor, prin stabilirea expresă a faptului că obligațiile privind expertizarea tehnică, proiectarea și executarea lucrărilor de consolidare aparțin proprietarilor imobilelor.
+
+Introducerea unui regim contravențional asigură caracterul efectiv al obligațiilor stabilite în sarcina proprietarilor și contribuie la responsabilizarea acestora în procesul de reducere a riscului seismic.
+
+Legea nr. 260/2008 a instituit mecanismul asigurării obligatorii a locuințelor împotriva dezastrelor naturale, cu scopul de a crea un instrument de protecție financiară pentru proprietari și de a limita impactul bugetar al producerii unor evenimente catastrofale.
+
+Reglementarea stabilește obligația proprietarilor de a încheia polița de asigurare obligatorie, precum și regimul contravențional aplicabil în cazul neîndeplinirii acestei obligații.
+
+În forma actuală a legii, art. 29 alin. (3) prevede că: constatarea contravențiilor și aplicarea sancțiunilor se realizează de către primari și de către persoanele împuternicite de aceștia.
+
+Experiența administrativă acumulată în perioada de aplicare a legii a demonstrat însă că această soluție legislativă este dificil de aplicat și generează disfuncționalități semnificative în raport cu competențele și resursele autorităților administrației publice locale.
+
+În același timp, în perioada recentă, cadrul normativ și politicile publice au urmărit raționalizarea aparatului administrativ, inclusiv prin diminuarea efectivelor din zona serviciilor publice locale, cu impact direct asupra capacității operaționale a structurilor de control la nivel local, în special asupra poliției locale, ale cărei resurse sunt oricum orientate prioritar către ordine publică, circulație, discipline în construcții, mediu, comerț, evidența persoanelor și alte atribuții expres prevăzute de lege. În acest context, menținerea art. 29 alin. (3) produce o contradicție evidentă între obligația impusă și mijloacele reale de executare.
+
+Potrivit Constituției României, administrația publică locală se întemeiază pe principiul autonomiei locale, care presupune exercitarea atribuțiilor de către autoritățile locale în limitele competențelor stabilite de lege și în raport cu resursele administrative disponibile.
+
+Un principiu fundamental al dreptului public este acela că atribuțiile autorităților publice sunt de strictă interpretare, ele fiind stabilite prin lege în funcție de competență, specializare și resurse. A impune autorității publice locale sarcina de a verifica, la scară generală, existența unei polițe PAD pentru locuințe reprezintă, în practică, instituirea unei obligații administrative disproporționate și necorelate cu instrumentele și finalitatea legală a administrației locale.
+
+Mai mult, norma actuală creează o așteptare neconformă cu realitatea administrativă: primarul este o autoritate executivă locală cu atribuții de conducere, coordonare și reprezentare, nu un „agent constatator” în accepțiunea practică a dreptului contravențional. A transforma primarul într-un vector direct de sancționare pentru o obligație generală, de masă, conduce la o deturnare de rol instituțional, la împovărarea nejustificată a conducerii administrative și, inevitabil, la neaplicarea normei sau la aplicarea ei aleatorie, cu efecte asupra previzibilității și egalității în fața legii.
+
+Or, statul nu poate construi un regim contravențional bazat pe o ficțiune administrativă: că o autoritate locală, cu resurse limitate și atribuții multiple, poate realiza verificări continue, exhaustive, asupra întregului fond locativ, pentru a constata lipsa unei asigurări. În lipsa unei arhitecturi funcționale (acces la registre, interoperabilitate de date, proceduri, personal dedicat), obligația devine în fapt imposibil de executat sau executabilă doar formal, sporadic. Din această perspectivă, menținerea alin. (3) riscă să producă fie inactivitate, fie conflict de competență, fie litigii generate de modalități neunitare de control.
+
+Controlul privind respectarea obligațiilor cu impact asupra siguranței locuințelor și asupra gestionării riscurilor asociate (inclusiv cele ce pot fi correlate cu prevenirea unor evenimente grave) presupune, în mod natural, intervenția unor instituții cu vocație de control și capacitate operativă, precum Poliția Română, ca autoritate de menținere a ordinii publice și aplicare a legii, cu structuri de constatare și sancționare consacrate, Inspectoratul pentru Situații de Urgență, în măsura în care politica publică urmărește corelarea obligației de asigurare cu riscul și siguranța la nivelul locuinței și cu intervenția în situații de urgență.
+
+Prin comparație, primarul și aparatul de specialitate nu dispun, în mod structural, de un mandat principal de „poliție contravențională generală” și nici de instrumentele tipice de verificare în teren, selecție a țintelor de control, documentare, gestiune probatorie și urmărire a executării sancțiunii.
+
+În plus, regimul PAD are natură preponderent asigurativă și financiară, iar conformarea se obține mai eficient prin mecanisme de verificare integrate și specializate, nu printr-o sarcină dispersată și localizată la nivelul fiecărei UAT, cu standarde inevitabil diferite.
+
+Autoritățile administrației publice locale au atribuții de organizare și gestionare a intereselor comunității locale, însă nu pot fi transformate în structuri de control general pentru verificarea unor obligații legale cu caracter național, care depășesc sfera competențelor administrative locale.
+
+Prin atribuirea către primari a competenței de constatare a contravenției privind lipsa poliței de asigurare obligatorie, legea creează o extindere artificială a rolului administrației locale, transformând autoritatea executivă locală într-un agent constatator pentru verificarea unei obligații legale ce vizează întreg fondul locativ.
+
+O asemenea soluție legislativă nu se circumscrie competențelor naturale ale autorităților locale și conduce la o deturnare a rolului instituțional al primarului.
+
+Aplicarea efectivă a regimului contravențional prevăzut de lege ar presupune verificarea sistematică a existenței polițelor de asigurare pentru toate locuințele existente pe raza unei unități administrativ-teritoriale.
+
+În practică, administrațiile publice locale nu dispun de baze de date integrate privind polițele de asigurare, mecanisme administrative de verificare sistematică a situației juridice a locuințelor, structuri operative dedicate pentru exercitarea unor activități de control de asemenea amploare.
+
+În plus, evoluțiile legislative recente au condus la reducerea efectivelor poliției locale și ale altor structuri operative ale administrațiilor publice locale, ceea ce face și mai dificilă exercitarea unor atribuții suplimentare de control.
+
+În aceste condiții, atribuția prevăzută de art. 29 alin. (3) se transformă într-o obligație administrativă imposibil sau extrem de dificil de executat în mod real, ceea ce contravine principiului potrivit căruia legea trebuie să stabilească obligații administrative care pot fi realizate efectiv.
+
+Menținerea unei astfel de obligații creează, în practică, o normă declarativă, lipsită de eficiență juridică și administrativă.
+
+Constatarea contravențiilor și aplicarea sancțiunilor trebuie realizate de instituții care dispun de competențe generale de control și de structuri operative capabile să aplice regimul contravențional în mod eficient.
+
+Din această perspectivă, atribuțiile de constatare și sancționare a contravențiilor prevăzute de lege pot fi exercitate în mod adecvat de către Poliția Română, prin structurile sale territoriale, precum și de către personalul desemnat din cadrul Inspectoratul General pentru Situații de Urgență.
+
+Aceste instituții dispun de instrumentele administrative și operative necesare pentru constatarea și sancționarea contravențiilor, precum și de structuri territoriale care pot asigura aplicarea uniformă a legii la nivel național.
+
+Pentru eliminarea disfuncționalităților identificate, se propune modificarea art. 29 alin. (3) din lege, în sensul stabilirii ca agenți constatatori ai contravenției privind lipsa poliței PAD personalul împuternicit din cadrul Poliției Române și al Inspectoratului General pentru Situații de Urgență.
+
+Această soluție legislativă urmărește corelarea obligațiilor stabilite de lege cu competențele instituțiilor statului, eliminarea unei atribuții improprii din sarcina autorităților administrației publice locale creșterea eficienței aplicării regimului contravențional.
+
+Având în vedere argumentele expuse, propunem adoptarea prezentei propuneri legislative.
+
+Inițiator: CÂcu Afriu - beputa
+
+Lista susținătorilor "Propunerii legislative pentru modificarea și completarea Legii nr. 212/2022 privind unele măsuri pentru reducerea riscului seismic al clădirilor și a Legii nr.260/2008 privind asigurarea obligatorie a locuințelor împotriva cutremurelor, alunecărilor de teren și inundațiilor"
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>DEPUTAT/SENATOR</td><td>GRUP PARLAMENTAR</td><td>SEMNĂTURĂ</td></tr>
+<tr><td>1</td><td>Shadeušet wedan</td><td rowspan="2">PSA</td><td rowspan="16"></td></tr>
+<tr><td>2</td><td>Ciñit 10 NEL</td></tr>
+<tr><td>3</td><td>Junggu Rome Daniel</td><td>PSA</td></tr>
+<tr><td>4.</td><td>Mateache Dana</td><td>PSA</td></tr>
+<tr><td>5.</td><td>Sanda Vorita</td><td>PSD</td></tr>
+<tr><td>6</td><td>Sagu V. Dmitc</td><td>PSD</td></tr>
+<tr><td>7</td><td>Vulga psa Jan</td><td>PSA</td></tr>
+<tr><td>8</td><td>Zuttero abdaliq Yleun</td><td>PSA</td></tr>
+<tr><td>9</td><td>TOUA UE</td><td>PSA</td></tr>
+<tr><td>10</td><td>LAUGAN KEMUS</td><td>PSD</td></tr>
+<tr><td>11</td><td>Govor Hieca</td><td>PSA</td></tr>
+<tr><td>12</td><td>Ghiqiu Alexandru Mihai</td><td>PSA</td></tr>
+<tr><td>13</td><td>CJMPAN CH'SITAN</td><td>PSA</td></tr>
+<tr><td>14</td><td>RINDER ANA SMARANDA</td><td>PSD</td></tr>
+<tr><td>15.</td><td>Circou Joinita</td><td>PSD</td></tr>
+<tr><td>16</td><td>SIOENIEN A iiniu</td><td>PSU</td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>

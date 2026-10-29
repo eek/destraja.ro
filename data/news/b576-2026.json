@@ -1,9 +1,9 @@
 {
   "slug": "b576-2026",
   "billId": "B576/2026",
-  "checkedAt": "2026-10-28T08:51:07.150Z",
+  "checkedAt": "2026-10-29T12:37:47.816Z",
   "models": {
-    "agy": "error: răspuns gol după 603s (probabil timp depășit)",
+    "agy": "error: răspuns gol după 604s (probabil timp depășit)",
     "claude": "ok",
     "codex": "ok"
   },
@@ -62,7 +62,7 @@
         "claude",
         "codex"
       ],
-      "quote": "Noua inițiativă clarifică și regimul juridic aplicabil procedurilor începute anterior intrării în vigoare a Codului urbanismului.",
+      "quote": "inițiat acum chiar de către fostul ministru al Dezvoltării, senatorul Cseke Attila",
       "match": "quote",
       "firstSeenAt": "2026-10-27",
       "decision": {
@@ -107,7 +107,7 @@
         "claude",
         "codex"
       ],
-      "quote": "Noile prevederi sunt, deocamdată, în stadiul de propunere legislativă.",
+      "quote": "Un proiect de lege inițiat de parlamentarul UDMR Cseke Attila propune simplificarea unor proceduri administrative",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -154,7 +154,7 @@
         "claude",
         "codex"
       ],
-      "quote": "Un proiect legislativ inițiat de senatorul UDMR Cseke Attila, fost ministru al Dezvoltării, urmărește clarificarea unor prevederi care au generat dificultăți de interpretare pentru autoritățile locale și pentru cei care doresc să construiască.",
+      "quote": "Proiectul propune enumerarea explicită a categoriilor de titulari care pot solicita autorizarea lucrărilor.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -232,50 +232,6 @@
       }
     },
     {
-      "url": "https://arenaconstruct.ro/codul-urbanismului-modificari-privind-terenurile-fara-pug-si-puz",
-      "title": "Codul Urbanismului: Modificari privind terenurile fara PUG si PUZ – ARENA Constructiilor – stiri din constructii, investitii, preturi, locuinte, infrastructura",
-      "outlet": "ARENA Constructiilor – stiri din constructii, investitii, preturi, locuinte, infrastructura",
-      "domain": "arenaconstruct.ro",
-      "publishedAt": "2026-10-20",
-      "foundBy": [
-        "agy",
-        "claude"
-      ],
-      "quote": "Una dintre cele mai importante modificări ale Codului Urbanismului, prevăzută în proiectul de lege înaintat de senatorul Cseke Attila, vizează localitățile ale căror planuri urbanistice generale (PUG) au fost anulate definitiv de instanțele judecătorești sau care nu mai au documentații de urbanism valabile (fișier atasat la finalul știrii).",
-      "match": "quote",
-      "decision": {
-        "v": 2,
-        "checkedAt": "2026-10-27",
-        "text": "trafilatura",
-        "models": {
-          "clef": {
-            "stance": "neutral",
-            "stanceP": 0.911,
-            "source": "trade_press",
-            "sourceP": 0.692,
-            "about": 0.926,
-            "release": 0.176
-          },
-          "d1": {
-            "stance": "neutral",
-            "stanceP": 0.889,
-            "source": "trade_press",
-            "sourceP": 0.901,
-            "about": 0.777,
-            "release": 0.148
-          },
-          "luna": {
-            "stance": "neutral",
-            "stanceP": 0.98,
-            "source": "trade_press",
-            "sourceP": 0.99,
-            "about": 0.99,
-            "release": 0.02
-          }
-        }
-      }
-    },
-    {
       "url": "https://arenaconstruct.ro/codul-urbanismului-un-nou-proiect-de-lege-modifica-regulile-pentru-autorizatiile-de-construire-si-calculul-pot",
       "title": "Codul Urbanismului: Un nou proiect de lege modifica regulile pentru autorizatiile de construire si calculul POT – ARENA Constructiilor – stiri din constructii, investitii, preturi, locuinte, infrastructura",
       "outlet": "ARENA Constructiilor – stiri din constructii, investitii, preturi, locuinte, infrastructura",
@@ -315,6 +271,50 @@
             "sourceP": 0.98,
             "about": 0.99,
             "release": 0.01
+          }
+        }
+      }
+    },
+    {
+      "url": "https://arenaconstruct.ro/codul-urbanismului-modificari-privind-terenurile-fara-pug-si-puz",
+      "title": "Codul Urbanismului: Modificari privind terenurile fara PUG si PUZ – ARENA Constructiilor – stiri din constructii, investitii, preturi, locuinte, infrastructura",
+      "outlet": "ARENA Constructiilor – stiri din constructii, investitii, preturi, locuinte, infrastructura",
+      "domain": "arenaconstruct.ro",
+      "publishedAt": "2026-10-20",
+      "foundBy": [
+        "agy",
+        "claude"
+      ],
+      "quote": "proiectul de lege înaintat de senatorul Cseke Attila",
+      "match": "quote",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-27",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.911,
+            "source": "trade_press",
+            "sourceP": 0.692,
+            "about": 0.926,
+            "release": 0.176
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.889,
+            "source": "trade_press",
+            "sourceP": 0.901,
+            "about": 0.777,
+            "release": 0.148
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.98,
+            "source": "trade_press",
+            "sourceP": 0.99,
+            "about": 0.99,
+            "release": 0.02
           }
         }
       }

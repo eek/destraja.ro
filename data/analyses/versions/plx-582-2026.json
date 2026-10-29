@@ -1,0 +1,229 @@
+{
+  "slug": "plx-582-2026",
+  "billId": "PL-x 582/2026",
+  "updatedAt": "2026-10-29T13:17:49.319Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L496FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Eliminarea adeverinței de asigurat pe hârtie atunci când verificarea se poate face online",
+      "summaryTlDr": "O lege de debirocratizare utilă, care interzice furnizorilor medicali să mai ceară adeverințe fizice de asigurat când statutul pacientului poate fi verificat electronic. Textul conține însă erori de numerotare a alineatelor care trebuie corectate în comisie.",
+      "scores": {
+        "agy": 2,
+        "claude": null,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/80/2/se664.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Fără drumuri după adeverința de asigurat: medicul verifică online",
+      "summaryTlDr": "Lege utilă de debirocratizare: dacă statul poate vedea electronic că ești asigurat, nimeni nu-ți mai poate cere hârtie. Are scăpări de redactare, iar când platforma CNAS cade, pacientul poate ajunge tot să plătească.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Cartea electronică de identitate poate fi folosită în locul cardului de sănătate până la finalul lui 2027",
+      "summary": "Acum, până la finalul lui 2027, cartea electronică de identitate poate ține locul cardului de sănătate, iar furnizorii trebuie să verifice electronic asigurarea. În schimb, interdicția privește doar adeverința, nu orice hârtie, și are o excepție pentru cei care refuză cardul.",
+      "changes": [
+        {
+          "title": "Cartea electronică de identitate, alternativă la card",
+          "text": "Nou la art. 338: până la 31 decembrie 2027, cartea electronică de identitate poate fi folosită alternativ cu cardul de sănătate pentru autentificare, dovada asigurării și validarea serviciilor.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 338 alin. (6)-(7)",
+          "before": null,
+          "after": "până la data de 31 decembrie 2027, pentru scopurile prevăzute la art.337 alin. (2), cardul național de asigurări sociale de sănătate și cartea electronică de identitate pot fi utilizate în mod alternativ ca instrumente de autentificare",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Interdicția privește doar adeverința, nu orice hârtie",
+          "text": "La art. 223 alin. (1⁵), interdicția nu mai acoperă orice altă dovadă fizică, ci doar adeverința. Alte documente rămân limitate la situațiile excepționale din alin. (1⁶).",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 223 alin. (1⁵)",
+          "before": "Este interzisă solicitarea adeverinței de asigurat sau a oricărei alte dovezi fizice privind calitatea de asigurat",
+          "after": "Este interzisă solicitarea adeverinței de asigurat în situația în care calitatea de asigurat poate fi verificată electronic potrivit alin.(1¹)",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Furnizorii trebuie să verifice electronic, nu să ceară cardul",
+          "text": "Art. 342 alin. (1) nu mai obligă furnizorii să ceară cardul, ci să verifice electronic asigurarea. Rămân însă neatinse regulile de validare și decontare a serviciilor.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 342 alin. (1)",
+          "before": "obligația de a solicita cardul național de asigurări sociale de sănătate sau, după caz, de a verifica electronic calitatea de asigurat prin instrumentele puse la dispoziție de CNAS",
+          "after": "obligația de a verifica electronic calitatea de asigurat prin Platforma informatică din asigurările de sănătate ori prin instrumentele electronice puse la dispoziție de CNAS",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Celor care refuză cardul li se poate cere adeverință",
+          "text": "Tot la art. 223 alin. (1⁵) apare o excepție: adeverința poate fi cerută celor care refuză cardul din motive religioase sau de conștiință, deși ar putea fi verificați electronic.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 223 alin. (1⁵)",
+          "before": "cu excepția cardului național de asigurări sociale de sănătate utilizat în condițiile prezentei legi",
+          "after": "cu excepția adeverinței de asigurat emise pentru persoanele care refuză în mod expres, din motive religioase sau de conștiință, primirea cardului național de asigurări sociale de sănătate",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dispare termenul de 120 de zile până la aplicare",
+          "text": "Inițial, legea intra în vigoare la 120 de zile de la publicare. Acum acest termen lipsește, deci furnizorii și CNAS nu mai au o perioadă de pregătire.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. III",
+          "before": "Art. III – Prezenta lege intră în vigoare la 120 de zile de la data publicării în Monitorul Oficial al României, Partea I.",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Documentele cerute excepțional, doar cele din normele metodologice",
+          "text": "La art. 223 alin. (1⁶), în situații excepționale se pot cere doar adeverința sau documentele prevăzute în normele metodologice, nu „alte documente justificative” oarecare.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 223 alin. (1⁶)",
+          "before": "Adeverința de asigurat sau alte documente justificative privind calitatea de asigurat pot fi solicitate persoanei numai în situații excepționale",
+          "after": "Adeverința de asigurat sau documentele necesare dovedirii calității de asigurat, prevăzute în normele metodologice, pot fi solicitate persoanei numai în situații excepționale",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Fiecare verificare generează automat un înscris sigilat, cu cost tehnic necuantificat",
+            "major": true,
+            "article": "art. 223 alin. (1²)-(1³), art. 322 alin. (8)"
+          },
+          {
+            "text": "Cine doar își comunică datele poate plăti integral dacă platforma CNAS e căzută",
+            "major": true,
+            "article": "art. 343 alin. (3)"
+          },
+          {
+            "text": "Interdicția vizează doar adeverința; alte dovezi fizice nu sunt interzise explicit",
+            "major": true,
+            "article": "art. 223 alin. (1⁵)"
+          },
+          {
+            "text": "Celor care refuză cardul din convingeri li se poate cere în continuare adeverință",
+            "major": true,
+            "article": "art. 223 alin. (1⁵)"
+          },
+          {
+            "text": "Excepția pentru validare și decontare lasă neclar dacă cardul mai poate fi cerut",
+            "major": false,
+            "article": "art. 342 alin. (1)"
+          },
+          {
+            "text": "Fără perioadă de tranziție: ordinul CNAS de procedură vine abia în 90 de zile",
+            "major": false,
+            "article": "art. II"
+          },
+          {
+            "text": "Varianta cu cartea electronică de identitate e permisă doar până la 31 decembrie 2027",
+            "major": false,
+            "article": "art. 338 alin. (6)"
+          },
+          {
+            "text": "Redactare neîngrijită: „date statistice aggregate verificarea”",
+            "major": false,
+            "article": "art. 322 alin. (10)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Adeverința nu mai poate fi cerută când verificarea electronică e posibilă",
+            "major": true,
+            "article": "art. 223 alin. (1⁵)-(1⁶)"
+          },
+          {
+            "text": "Asiguratul doar își comunică datele; acte prezintă numai în situații excepționale",
+            "major": true,
+            "article": "art. 231 lit. h)"
+          },
+          {
+            "text": "Furnizorii în contract cu casele sunt obligați să verifice electronic asigurarea",
+            "major": true,
+            "article": "art. 223 alin. (1⁴), art. 342 alin. (1)"
+          },
+          {
+            "text": "Cartea electronică de identitate poate ține locul cardului de sănătate",
+            "major": true,
+            "article": "art. 338 alin. (6)"
+          },
+          {
+            "text": "Noii angajați își pot dovedi asigurarea cu documente până la depunerea declarației",
+            "major": true,
+            "article": "art. 223 alin. (1⁸)"
+          },
+          {
+            "text": "Cine nu își poate dovedi asigurarea primește totuși pachetul minimal de servicii",
+            "major": true,
+            "article": "art. 232 alin. (1)"
+          },
+          {
+            "text": "Înscrisul electronic sigilat are aceleași efecte juridice ca adeverința",
+            "major": false,
+            "article": "art. 223 alin. (1²)"
+          },
+          {
+            "text": "Înscrisul de verificare nu conține date despre starea de sănătate",
+            "major": false,
+            "article": "art. 223 alin. (1³)"
+          },
+          {
+            "text": "Documentele cerute excepțional sunt doar cele prevăzute în normele metodologice",
+            "major": false,
+            "article": "art. 223 alin. (1⁶)"
+          },
+          {
+            "text": "Verificările sunt trasabile, auditabile și folosite exclusiv în scopurile legii",
+            "major": false,
+            "article": "art. 322 alin. (8)-(9)"
+          },
+          {
+            "text": "CNAS publică anual statistici, inclusiv cazurile în care verificarea n-a funcționat",
+            "major": false,
+            "article": "art. 322 alin. (10)"
+          },
+          {
+            "text": "Instituțiile dau gratuit CNAS datele necesare verificării asigurării",
+            "major": false,
+            "article": "art. 322 alin. (1)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 25,
+        "removed": 26,
+        "same": 0.26
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:17:49.319Z"
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+# Expunere de motive
+
+## PROPUNERE LEGISLATIVĂ
+
+privind măsurile de aplicare a Regulamentului (UE) 2024/1.252 al Parlamentului European și al Consiliului din 11 aprilie 2024 de instituire a unui cadru pentru asigurarea aprovizionării sigure și durabile cu materii prime critice și de modificare a Regulamentelor (UE) nr. 168/2013, (UE) 2018/858, (UE) 2018/1.724 și (UE) 2019/1.020, precum și pentru modificarea și completarea unor acte normative pentru activitatea de extracție a materiilor prime critice
+
+## I. Motivele emiterii actului normativ
+
+În contextul provocărilor economice actuale, Uniunea Europeană a adoptat Regulamentul (UE) 2024/1252 al Parlamentului European și al Consiliului din 11 aprilie 2024 de instituire a unui cadru pentru asigurarea aprovizionării sigure și durabile cu materii prime critice și de modificare a Regulamentelor (UE) nr. 168/2013, (UE) 2018/858, (UE) 2018/1724 și (UE) 2019/1020 („Regulamentul”), ca parte a Planului Industrial al Pactului Verde, indispensabile pentru tranziția verde și digitală, pentru securitatea energetică, pentru dezvoltarea tehnologiilor avansate și pentru reziliența lanțurilor valorice industriale.
+
+Accesul la materii prime critice, precum metale rare, litiu, cobalt, nichel, grafit natural, cupru și alte resurse, este esențial pentru producția de baterii, echipamente pentru energie regenerabilă, vehicule electrice, microcipuri și tehnologii de apărare. În același timp, dependența Uniunii Europene de furnizori externi implică riscuri economice și geopolitice semnificative. Potrivit Regulamentului, este anticipat ca cererea pentru materii prime critice să crească exponențial în deceniile următoare, luând în considerare necesitatea folosirii lor în dubla tranziție verde și digitală, dar și utilizarea lor pentru aplicații în domeniul apărării și al spațiului aerian.
+
+Având în vedere că Regulamentul subliniază importanța esențială a materiilor prime critice pentru competitivitatea și reziliența economiei Uniunii Europene, precum și pentru buna funcționare a pieței interne, România a inițiat demersuri concrete în vederea alinierii politicilor naționale la obiectivele stabilite la nivel european.
+
+În acest sens, au fost adoptate primele măsuri strategice menite să fie integrate în planurile de acțiune sectoriale și interinstituționale pentru următorii ani, având ca scop consolidarea capacității naționale de a contribui activ la atingerea țintelor stabilite de Uniunea Europeană:
+
+Potrivit Hotărârii de Guvern nr. 1.464 din 21 noiembrie 2024 privind aprobarea Strategiei naționale pentru resurse minerale neenergetice 2025-2035, s-a constatat faptul că România dispune de resurse minerale semnificative comparativ cu alte țări din regiune, iar atragerea de capital privat și promovarea de proiecte de investiții în domeniul miniere nu au atins nivelul oportunităților existente și astfel a devenit importatoare de materii prime.
+
+Potrivit Hotărârii de Guvern nr. 1.470 din 21 noiembrie 2024 privind aprobarea Strategiei industriale a României 2024-2030, interesul pentru materiile prime criticie a crescut semnificativ în contextul tranziției către o economie sustenabilă, dat fiind rolul esențial al acestora în producția de energie verde și în procesele de decarbonizare industrială. Se constată faptul că România deține rezerve relevante de materii prime criticie, însă valorificarea lor eficientă presupune adoptarea mai multor tipuri de măsuri, precum: dezvoltarea unor lanțuri integrate de exploatare, procesare și producție, inclusiv în domeniul bateriilor, turbinelor eoliene și panourilor fotovoltaice, prin atragerea de investiți în modernizarea și redeschiderea minelor, precum și în extinderea capacităților locale de rafinare și prelucrare.
+
+Raportat la Regulament și strategiile de mai sus, România își propune să adopte inițiative legislative de elaborare, de modificare și/sau completare a unor acte normative (atât de nivel superior, precum: legi, ordonanțe ale guvernului, cât și de nivel inferior, e.g., hotărâri ale guvernului, precum și ordine și instrucțiuni ale autorităților naționale și ale ministerelor).
+
+Strategia națională pentru resurse minerale neenergetice 2025-2035 menționează necesitatea, inclusiv, luării de măsuri de simplificare legislativă în domeniul resurselor minerale neenergetice și măsuri de debirocratizare, precum cele de simplificare a procedurilor de dobândire a folosinței și accesului la terenurile pe care se efectuează activități miniere.
+
+În acest context, având în vedere caracterul urgent și interesul public pentru asigurarea securității aprovizionării cu materii prime strategice și pentru protejarea funcționării pieței interne, este necesar să se adopte dispoziții referitoare la implementarea proiectelor recunoscute ca fiind strategice de către Comisia Europeană.
+
+## Schimbări preconizate
+
+Prezentul act normativ urmărește să instituie diverse măsuri indispensabile pentru implementarea completă și eficientă a Regulamentului și asigurarea unei aprovizionări sigure și durabile cu materii prime critice.
+
+Crearea cadrului instituțional necesar punerii în aplicare a Regulamentului. În vederea implementării adecvate a Regulamentului apare ca necesară crearea unui cadru instituțional apt să asigure coordonarea eficientă a măsurilor naționale cu obiectivele trasate la nivelul Uniunii Europene în privința proiectelor strategice, recunoscute ca atare în conformitate cu prevederile Regulamentului. Acest cadru va permite delimitarea clară a atribuțiilor între autoritățile și instituțiile publice centrale, consolidarea capacităților administrative și instituționale, precum și crearea unor mecanisme de cooperare interinstituțională și interministerială. Totodată, este necesară asigurarea unui flux informațional coerent și promt între instituțiile responsabile, mediul de afaceri și Comisia Europeană, pentru a garanta transparența și eficacitatea procesului decizional.
+
+Stabilirea unor proceduri simplificate și a termenelor-limită pentru obținerea autorizațiilor aferente proiectelor strategice. Un element central al actului normativ îl constituie instituirea unor proceduri clare, simplificate și previzibile pentru aprobarea și implementarea proiectelor miniere strategice. În prezent, procesul de autorizare în domeniul resurselor minerale se caracterizează prin complexitate, fragmentare și durată extinsă, aspecte care descurajează investițiile și întârzie implementarea proiectelor. În acest context, este necesară instituirea unor termene-limită ferme, rezonabile și correlate cu cele stabilite de Regulament, aspect care asigură predictibilitatea procesului de autorizare, cu respectarea legislației aplicabile, inclusiv legislația de mediu. Sunt incluse modificări ce țin de simplificarea și accelerarea procedurilor în domeniul protecției mediului, urbanismului și construcțiilor și în domeniul minier, pentru a se putea debloca potențialul acestor sectoare. Se urmărește, în special, reducerea sarcinilor administrative, accelerarea dezvoltării proiectelor strategice miniere și consolidarea principiului securității juridice în vederea susținerii politicii de reindustrializare a României. Astfel, se susține dezvoltarea economiei României, pentru a se asigura accesul la o aprovizionare sigură și durabilă cu materii prime critice.
+
+Detalierea atribuțiilor ghișeului unic. Având în vedere obligația prevăzută de Regulament în sarcina statelor membre de a desemna una (sau mai multe) autorități drept ghișeu unic, care va fi responsabil de facilitarea și coordonarea procesului de acordare a autorizațiilor pentru proiectele privind materiile prime critice și de furnizarea de informații și documente necesare, la nivel național a fost adoptată Ordonanța de urgență a Guvernului nr. 61/2025 privind unele măsuri de punere în aplicare a Regulamentului (UE) 2024/1.252 al Parlamentului European și al Consiliului din 11 aprilie 2024 de instituire a unui cadru pentru asigurarea aprovizionării sigure și durabile cu materii prime critic și de modificare a Regulamentelor (UE) nr. 168/2013, (UE) 2018/858, (UE) 2018/1.724 și (UE) 2019/1.020 și pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 140/2022 privind licența industrială unică, prin care au fost desemnate autoritățile care vor îndeplini rolul de ghișeu unic. În acest context, prezentul act normativ are în vedere detalierea atribuțiilor ghișeului unic din perspectiva obligațiilor ce revin acestuia în temeiul Regulamentului.
+
+Simplificarea procedurilor de dobândire a folosinței și accesului la terenurile pe care se efectuează activități miniere. Asigurarea accesului la imobilele din perimetrele de exploatare aferente proiectelor miniere strategice este o condiție indispensabilă pentru punerea efectivă în aplicare a Regulamentului și pentru evitarea situațiilor în care proiecte recunoscute ca strategice devin inaplicabile în practică. În prezent, multiplicarea regimurilor juridice aplicabile terenurilor și fragmentarea drepturilor de proprietate generează întârzieri semnificative și incertitudine juridică pentru promotorii de proiecte.
+
+În acest sens, se impune reglementarea unor mecanisme clare și rapide pentru dobândirea drepturilor de folosință și acces în perimetrele de explorare și exploatare a proiectelor miniere strategice cu respectarea strictă a dreptului de proprietate și a interesului public. Asigurarea accesului la perimetrele afectate proiectelor miniere strategice se poate realiza prin mecanisme juridice deja disponibile în cadrul legislativ actual – anume, prin concesionare sau prin expropriere, cu despăgubire adecvată.
+
+Utilitatea publică a procedurilor de expropriere rezidă în rolul esențial al acestora în atingerea obiectivelor de interes general privind autonomia strategică, reziliența economică și funcționarea lanțurilor industriale esențiale, deziderate urmărite și la nivel unional prin adoptarea Regulamentului. De asemenea, utilitatea publică a unor astfel de proceduri de expropriere rezultă inclusiv din obligațiile asumate de statul român în implementarea Regulamentului. Modificările legislative propuse nu se abat de la principiile esențiale în materie de expropriere, fiind în continuare obligatorie acordarea unei despăgubirii juste și prealabile persoanelor vizate de aceste proceduri.
+
+În lipsa unor mecanisme de accelerare, fragmentarea mare a proprietăților din România, și exercitarea potențial speculativă a unor proceduri judiciare poate conduce, în practică, la amânarea senificativă și chiar blocarea pe termen nedefinit a unor proiecte de interes public major, ceea ce ar contraveni obligațiilor asumate la nivel european. Sunt stabilite norme de jurisdicție dedicate, tocmai pentru ca orice potențial litigiu în domeniul proiectelor strategice să fie soluționat în timp util. Având în vedere obligațiile asumate de statul român în calitate de stat membru al Uniunii Europene, se impune adaptarea cadrului procedural intern astfel încât procedurile judiciare legate de proiectele miniere strategice să fie soluționate într-un termen compatibil cu obiectivele și termenele stabilite de Regulament.
+
+Durata excesivă a multor proceduri judiciare în materia contenciosului administrativ și a litigiilor conexe poate lipsi de efect măsurile instituite la nivel european pentru asigurarea aprovizionării sigure și durabile cu materii prime critice, chiar și în situația în care toate condițiile de fond pentru autorizarea proiectului sunt îndeplinite.
+
+Regimul procedural special instituit pentru litigiile privind proiectele strategice nu elimină etape procesuale esențiale, ci urmărește reducerea duratei globale a procesului prin eliminarea amânărilor nejustificate și prin stabilirea unor termene predictibile.
+
+Accelerarea procedurilor judiciare reprezintă o modalitate de organizare activității instanțelor române ce este admisă în dreptul național, inclusiv din considerentele necesității protejării interesului public (cum este cazul procedurii de judecată a litigiilor în materia achizițiilor publice). Astfel, interesul public al implementării proiectelor miniere strategice justifică urgentarea procedurilor judiciare, fără a aduce atingere dreptului fundamental de acces la justiție și de obține o hotărâre judecătorească asupra pretențiilor formulate.
+
+În conformitate cu Regulamentul, se instituie accesul la unele proceduri simple, centralizate, de soluționare a litigiilor, precum și asigurarea unui caracter urgent al acestora. Se menține, în același timp, condiția de respectare a drepturilor la apărare ale persoanelor interesate, printr-un just echilibru cu interesele titularilor proiectelor miniere strategice și ale Statului Român, astfel încât procedurile accelerate să nu conducă la diminuarea garanțiilor de participare publică, de acces la informație și de contestare pe cale administrativă sau jurisdicțională. Echilibrul urmărit constă, așadar, în asigurarea unui cadru previzibil și rapid pentru investitori, concomitent cu garantarea posibilității reale a persoanelor afectate de a-și exprima punctul de vedere și de a-și apăra drepturile și interesele legitime.
+
+## II. Impactful socioeconomic
+
+Este de avut în vedere faptul că resursele subsolului sunt proprietatea Statului Român, iar interesele naționale sunt exprimate inclusiv prin documentele de politică a resurselor minerale. În acest sens, proiectul ajută ca România să se repoziționează pe harta resurselor minerale și contribuie la asigurarea rezilienței în situațiile de criză. Prin natura și diversitatea resurselor minerale, România poate deveni un pol de interes în sistemul industrial european.
+
+Măsurile propuse vor contribui direct la consolidarea competitivității economice a României, prin valorificarea resurselor minerale critice și reducerea dependenței de importuri. Pe lângă efectele economice directe, actul normativ are un impact social pozitiv, întrucât prin dezvoltarea de proiecte miniere strategice și prin crearea lanțurilor valorice integrate (exploatare, procesare, producție) se vor genera locuri de muncă stabile, inclusiv în industriile conexe, precum transportul, construcțiile, energia sau serviciile tehnologice. În plus, consolidarea capacităților de exploatare și prelucrare la nivel național va stimula transferul de cunoștințe și dezvoltarea competențelor tehnice, susținând formarea unei forțe de muncă calificate și adaptate cerințelor economiei.
+
+## III. Impactul financiar asupra bugetului general consolidat
+
+În prima etapă de implementare, se preconizează costuri bugetare moderate, associate în principal cu crearea cadrului instituțional necesar aplicării Regulamentului, respectiv operaționalizarea ghișeului unic, consolidarea capacităților administrative ale autorităților competente și digitalizarea proceselor de autorizare.
+
+Prin această lege se elimină potențialele conflicte de competență între autorități și se asigură realizarea eficientă a obligațiilor asumate, autoritățile competente urmând să dispună de resurse financiare adecvate în bugetul de stat, fără riscul calificării cheltuielilor drept nejustificate.
+
+Pe termen mediu și lung (5 ani), se anticipează o creștere semnificativă a veniturilor bugetare, rezultată din impulsionarea investițiilor în sectorul minier și industrial și atragerea de capital privat semnificativ. Veniturile suplimentare vor proveni din redevențe miniere, taxe de concesiune, impozite pe profit și contribuții sociale generate de noile locuri de muncă create în sectoarele direct și indirect implicate, și de consumul generat de creșterea numărului de salariați. În plus, valorificarea materiilor prime critice va reduce presiunea asupra balanței comerciale și va contribui la stabilitatea macroeconomică, prin diminuarea dependenței de importuri și prin creșterea exporturilor de produse cu valoare adăugată ridicată.
+
+## IV. Impactul asupra sistemului juridic
+
+În ansamblu, impactul constă în modernizarea și raționalizarea normelor aplicabile domeniului resurselor minerale critice, consolidarea principiului legalității și a securității juridice, precum și în eficientizarea mecanismelor de guvernanță și control administrativ. Actul normativ propus reprezintă, astfel, o etapă importantă în procesul de reformă juridică asociată dezvoltării României, contribuind la crearea unui cadru normativ modern, coerent și convergent cu standardele europene.
+
+## V. Consultările derulate în vederea elaborării proiectului de act normativ
+
+În procesul de elaborare a proiectului de act normativ sunt și vor fi derulate consultări cu autoritățile și instituțiile publice relevante, precum și cu reprezentanți ai mediului economic, academic și ai societății civile, în vederea asigurării unui cadru legislativ coerent, aplicabil și adaptat realităților sectorului materiilor prime critice.
+
+## VI. Activitățile de informare publică
+
+Se vor folosi mijloace moderne de comunicare, precum comunicate de presă, materiale informative, pentru a asigura o diseminare rapidă și accesibilă a informațiilor.
+
+## VII. Măsurile de implementare
+
+La nivel local, administrațiile publice vor fi implicate în implementarea cadrului normativ prin crearea de puncte territoriale de contact și sprijin tehnic, care vor colabora cu ghișeul unic și vor asigura aplicarea uniformă a procedurilor simplificate privind accesul la terenuri, eliberarea autorizațiilor de construire și urbanism, precum și gestionarea aspectelor legate de consultarea publică și participarea comunităților afectate.
+
+În numele inițiatorilor,
+
+Natalia-Elena Intotero - Deputat PSD Hunedoara
+
+Ilie Toma
+
+\- Deputat PSD Hunedoara
+
+Adrian Câciu - Deputat PSD Dolj
+
+## TABEL INITIATORI
+
+| NR.CRT. | NUMELE ȘI PRENUMELE | GRUPULPARLAMENTAR | SEMNĂTURA |
+| --- | --- | --- | --- |
+| 1. | Neagu Petre Emanac | P.S.D. |  |
+| 2. | Jomouscu Jan Aliu | P.S.D |  |
+| 3. | Jumou Romeo Daniel | PSD |  |
+| 4. | Budosellanius Constantine | PSD |  |
+| 5. | Foju dihai | PSD |  |
+| 6. | Bejinariu EUGEN | PSD |  |
+| 7. | MIIIA MARIAI | PSD |  |
+| 8. | FORTUNA MIRGIA | PSD |  |
+| 9. | Ghiqiu Alexandou Mihai | PSD |  |
+| 10. | THUTA STBPAN | PSD |  |
+| 11. | Buqiu V. Imvitz | PSD |  |
+| 12. | Gliga durnikata | PSD |  |
+| 13. | Chilof Cima Morelka | PSD |  |
+| 14. | Sandy Zionica | PSD |  |
+| 15. | BUDACĂ VASILE | PSD |  |
+| 16. | BOHAIIN LUCIAN | PSA |  |
+| 17. | PAPA AARAH | PSD |  |
+| 18. | Neculaescu Louweu | PSD |  |
+| 19. | Holbon Georek | PSA |  |
+| 20. | PUNAVA COSTEL | PSD |  |
+| 21. | Buoue ARIANA | PSD |  |
+| 22. | MABIN AUGUSTIN FZAN | PSD |  |
+| 23. | ION SAMOILA | PSD |  |
+
+| 24. | ADONNICHI NIRELA | PSD |
+| --- | --- | --- |
+| 25. | LIPA & LKABETA | PSA |
+| 26. | MiHUTI BOGAN | PSA |
+| 27. | CATTRET PAUL - CAVDIU | PSD |
+| 28. | ISAC MARIUS | PSD |
+| 29. | MATCHESCO MIPELA | PSD |
+| 30. | CONSTANTINEOLI FERFA | PSD |
+| 31. | ENE CORINA | PSD |
+| 32. | DOOS MAKAUH | PSD |
+| 33. | DRINCEANU VILCOF FLOREZNEJH | PSD |
+| 34. | STOENIEA IRGINA | PSD |
+| 35. | Searmaouu AUROUA Addo | PSD |
+| 36. | MUNA - OGUW MUNM | PSD |
+| 37. | COFOCARO BOGAN | PSD |
+| 38. | RAFIA ALÉ VANARU | PSD |
+| 39. | MIHALCSTA LOAH | PSD |
+| 40. | VUSCAN VOICO | PSD |
+| 41. | DAX Aduzm | PSD |
+| 42. | MORAR LUCIAH | PSD |
+| 43. | PANUCANU SEBASTIAN | PSD |
+| 44. | MIHALCAR SIKHA | PSD |
+| 45. | JITANESCU VENTUA | PNL |
+| 46. | MOS ARINA' | PNL |
+| 47. | PISTRU-POPA BEANINA | PNL |
+| 48. | CAZAR RAZVAN | PNL |
+| 74. | SARIN MUNCACHU | AVR |
+| 75. | ARIMORI DHY | AVR |
+| 76. | PROPEANUE ROBLES | IND |
+| 77. | CONSTANTMASEU ANDRA | AVR |
+| 78. | FAGEET MADACIN LAURENTIV | INDEPENDENT |
+| 79. | MUSAT LUEIAN | AVR |
+| 80. | COLIPIA JUWMTU | NQ SIOI |
+| 81. | CIUBUC CIPRIAN | NEIGHLIWI |
+| 82. | SIMION GEORGE | AVR |
+| 83. | MINDBOC CATTALIH | PSY |
+| 84. | CIUTHT LOHEL | PSD |
+| 85. | TOPP MARCEL | PSA |
+| 86. | WEBER MITTAI | PSD |
+| 87. | CIORTEA RAZUAN | PSD |
+| 88. | BASGANNA STEFEN AEEY | PSJ |
+| 89. | TAMATA DAHY | AVR |
+| 90. | MITABSCU MUGUR | AVR |
+| 91. | GURLUIHIVIU - OCDAVION | AVR2 |
+| 92. | POLOVKI FHRIN-CORMEC | AVR |
+| 93. | BRODUN VASCUA | PSA |
+| 94. | PONTA VICTAR | PSD |
+| 95. | VUSCAN VOICO | PSD |
+| 96. | Dara Aduz | PSD |
+| 97. | NOLINEASCHI ANAR | PSD |
+| 98. | THE BOEGDAW SUEDOSE | AOL |
+| 49. | TJUEA - AAFITOU | PNL |
+| 50. | MITTELU EAOHARD - TATIAN | PNL |
+| 51. | CIOBOTARU DQAGOS | PNL |
+| 52. | Pandea Cyprian | PNL |
+| 53. | Crusovean Hariian | PNL |
+| 54. | Jogdon Gluteco | PNL |
+| 55. | CIMPEAN OUVINU | PNL |
+| 56. | SIGHARTAU ROBERT | PNL |
+| 57. | ROUDA STEFAN | PACH |
+| 58. | CDISNIA OGLEAU | MIN |
+| 59. | BANI OVIGU VICTOR | MIN |
+| 60. | ZISOPOL DRAGOS | MINORIAND |
+| 61. | PETRETENI NICOLAE | MIN |
+| 62. | NACOV GHEARGHE | MIN |
+| 63. | LONGHER GHERKDZEN | MIN |
+| 64. | CHIRILV VIRGIL - ALIN | P.SD |
+| 65. | TUST DIANA | PSD |
+| 66. | COLESA VILIE-ALIN | AUR |
+| 67. | CIARKOI DAMIER -CETA'LIN | AUR |
+| 68. | PARASCHIV CIDEINU CIN | AUR |
+| 69. | MEAMV GEORK MUMI | AVR |
+| 70. | VASIH -TUDOR LIDIA | AUR |
+| 71. | BORDIAN ALEXATORO | AOR |
+| 72. | Valpoiu Dorel | AOR |
+| 73. | BARSITAN TIBENW | AVR |
+| 99. | SANDOR | UDHR |
+| 100. | LABAH' KABTO, 2028 | URMR |
+| 101. | KOCESAR KAROLY | UDMR |
+| 102. | GHL KAROLY | UDMR |
+| 103. | MARKO ATTILA GABOE | UGMR |
+| 104. | ZAKARIAS SOLTAN | UDMR |
+| 105. | PEWNA CRISTINA | USR |
+| 106. | NASOI CLAUJO | USA |
+| 107. | TIU MIHAI | SOS RO |
+| 108. | MAZILU LIVIC | PSJ |
+| 109. | Reimculo C.Auohom | PSD |
+| 110. | FEDEROVIQ DOINA-ECENA | PSA |
+| 111. | NICULA MIRCEA CIASTIAN | PSD |
+| 112. | Jedecus CAURSANYU CESSTIMSR | PSD |
+| 113. | STROE FELIX | PSD |
+| 114. | ALEESANARU MARCUS NICOLAE | USR |
+| 115. | DOGDAH 'UAAH'QJPA | PSD |

@@ -1,0 +1,23 @@
+# Expunere de motive
+
+Prezenta inițiativă legislativă are ca obiect completarea art. 94 din Legea nr. 295/2004 privind regimul armelor și munițiilor, articol care prevede obligația de efectuare a inspecției tehnice periodice (ITP) pentru armele deținute de persoane fizice sau juridice. Această măsură s-a dovedit ineficientă, birocratică și lipsită de fundament practic, neexistând incidente documentate care să justifice introducerea acestei proceduri.
+
+Directiva (UE) 2021/555 a Parlamentului European și a Consiliului din 24 martie 2021 privind controlul achiziționării și deținerii de arme nici măcar nu prevede o astfel de obligație. Statele membre nu au introdus în legislațiile lor naționale proceduri echivalente de inspecție tehnică periodică pentru armele de foc civile. Prin urmare, reglementarea din legea românească excede cadrul european, încălcând principiul proporționalității și pe cel al subsidiarității consacrate de art. 5 alin. (3)-(4) din Tratatul privind Uniunea Europeană.
+
+Jurisprudența Curții de Justiție a Uniunii Europene (CJUE), în cauzele C-528/10 și C-482/17, a subliniat că statele membre nu pot impune obligații administrative care depășesc obiectivele stabilite prin directivele europene, întrucât acestea pot crea bariere nejustificate în exercitarea drepturilor și libertăților individuale. În plus, Curtea Europeană a Drepturilor Omului, în cauza \*Gillan și Quinton vs. Regatul Unit\* (2010), a reținut că orice măsură de control administrativ trebuie să fie necesară și proporțională scopului urmărit.
+
+În lipsa unor date statistice care să indice defecte tehnice ale armelor deținute legal, instituirea obligativității ITP-ului nu aduce valoare adăugată siguranței publice, ci doar generează costuri suplimentare exagerate pentru cetățeni și o încărcare administrativă inutilă pentru Ministerul Afacerilor Interne, dar și o adevărată sinecură pentru cei câțiva armurieri acreditați. Deasemenea, subliniem faptul că propunerea inițială de norme metodologice pentru aplicarea ITP-ului prevedea doar o verificare vizuală superficială, fără demontare, ceea ce contrazice însăși importanța și finalitatea măsurii.
+
+În practică, odată cu prelungirea permisului de port-armă, anume după cinci ani, deținătorii prezintă armele polițiștilor din serviciile și birourile specializate din cadrul IGPR. Însă, pentru prelungirea permisului în cauză, actuala lege impune efectuarea ITP-ului, care necesită deplasări de sute de km și cheltuieli nejustificat de mari, pentru că numărul armurierilor autorizați să facă ITP-ul este foarte redus, se pare că sunt doar patru, aceștia având sediul în București și Ilfov. Așadar,
+
+ROMANIA
+
+considerăm că se impune efectuarea acestei inspecții tehnice periodice doar atunci când cadrele de la serviciile specializate ale Poliției Române consideră necesar, în raport de constatările directe pe care aceste cadre le fac. Completarea art. 94 este justificată așadar atât din perspectivă juridică, cât și practică. Eliminarea obligativității efectuării inspecției tehnice periodice a armelor va reduce birocrația, va aduce legislația națională în concordanță cu Directiva (UE) 2021/555 și va respecta principiile fundamentale ale dreptului european: proporționalitate, subsidiaritate și securitate juridică.
+
+De reținut ce se prevede în Legea 295/2004: "În vederea prelungirii valabilității permisului de armă, titularul este obligat să se prezinte (...) cu armele înscrise în permis, precum și cu documentele stabilite în normele metodologice". Pe de altă parte, Normele metodologice (HG 11/2018) precizează : "Organul de poliție competent refuză prelungirea valabilității permisului de armă dacă (...) solicitantul nu efectuează inspecția tehnică a armelor, la solicitarea expresă a organului de poliție competent."
+
+Așadar, nici măcar prin Normele metodologice nu se instituie obligativitatea ITPului, cum prevede textul Legii, ceea ce constituie încă un argument pentru corelarea celor două norme juridice de rang diferit și pentru completarea Legii în sensul inițiativei mele, anume de lăsare la latitudinea organului de poliție a solicitării respectivului ITP.
+
+Inițiator :
+
+Deputat AUR Georgel Badiu

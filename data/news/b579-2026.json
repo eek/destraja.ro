@@ -1,9 +1,9 @@
 {
   "slug": "b579-2026",
   "billId": "B579/2026",
-  "checkedAt": "2026-10-28T08:54:25.902Z",
+  "checkedAt": "2026-10-29T12:38:27.121Z",
   "models": {
-    "agy": "error: răspuns gol după 603s (probabil timp depășit)",
+    "agy": "ok",
     "claude": "ok",
     "codex": "ok"
   },
@@ -63,7 +63,7 @@
         "claude",
         "codex"
       ],
-      "quote": "Un proiect de lege înregistrat la Senat propune eliminarea acestor costuri",
+      "quote": "Inițiativa urmărește facilitarea accesului la locuințe și sprijinirea dezvoltării comunităților locale.",
       "match": "quote",
       "firstSeenAt": "2026-10-27",
       "decision": {
@@ -109,7 +109,7 @@
         "codex",
         "claude"
       ],
-      "quote": "A fost înregistrat la Senat un proiect de lege privind sprijinirea cetățenilor în vederea construirii primei locuințe",
+      "quote": "Iniţiativa legislativă vine în sprijinul celor care îşi construiesc o locuinţă, aducând o facilitate privind racordarea acesteia la utilităţi.",
       "match": "quote",
       "firstSeenAt": "2026-10-27",
       "decision": {
@@ -288,7 +288,7 @@
         "claude",
         "codex"
       ],
-      "quote": "Un proiect de lege în acest sens, înregistrat la Senat, prevede ca autoritățile locale să asigure gratuit",
+      "quote": "Măsurile prevăzute în propunerea legislativă nu se aplică în prezent.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -324,6 +324,50 @@
     }
   ],
   "pending": [
+    {
+      "url": "https://mediaflux.ro/racordare-gratuita-la-utilitati-ce-conditii-trebuie-sa-indeplineasca-romanii-ca-sa-beneficieze",
+      "title": "Racordare gratuită la utilităţi. Ce condiții trebuie să îndeplinească românii ca să beneficieze",
+      "outlet": "MediaFLUX.ro",
+      "domain": "mediaflux.ro",
+      "publishedAt": "2026-10-28",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Un proiect de lege depus la Senat propune racordare gratuită la utilități pentru toţi cei care își construiesc prima casă.",
+      "match": "quote",
+      "firstSeenAt": "2026-10-29",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-29",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.888,
+            "source": "national_news",
+            "sourceP": 0.363,
+            "about": 0.966,
+            "release": 0.109
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.893,
+            "source": "trade_press",
+            "sourceP": 0.378,
+            "about": 0.905,
+            "release": 0.182
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.9,
+            "source": "aggregator",
+            "sourceP": 0.77,
+            "about": 0.99,
+            "release": 0.02
+          }
+        }
+      }
+    },
     {
       "url": "https://stirileimobiliare.ro/prima-casa-ar-putea-avea-racordare-gratuita",
       "title": "Proiectul de racordare gratuită pentru prima casă",
@@ -378,7 +422,7 @@
         "agy",
         "claude"
       ],
-      "quote": "Un proiect legislativ înregistrat la Senat pe 20 octombrie 2026 propune ca primăriile să suporte costurile conectării",
+      "quote": "Propunerea legislativă a fost înregistrată la Senat pe 20 octombrie 2026.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -466,7 +510,7 @@
         "agy",
         "claude"
       ],
-      "quote": "Inițiativa legislativă a fost semnată de deputați membri PSD și neafiliați.",
+      "quote": "Cetățenii care își construiesc prima locuință ar putea beneficia de racordare gratuită la utilitățile esențiale, în termen de maximum 90 de zile de la eliberarea autorizației de construire, potrivit unei noi propuneri legislative depuse la Senat spre dezbatere.",
       "match": "quote",
       "decision": {
         "v": 2,

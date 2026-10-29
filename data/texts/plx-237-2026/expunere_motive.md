@@ -1,0 +1,186 @@
+EXPUNERE DE MOTIVE
+
+Fenomenul deșertificării se manifestă în România prin secete frecvente, episoade de aridizare regională și degradarea treptată a solurilor agricole. Zonele cele mai expuse sunt Câmpia Română, sudul Olteniei, Bărăganul, sudul Moldovei și Dobrogea. În aceste regiuni se observă scăderea rezervei de apă în sol, creșterea salinizării și compactării, pierderea materiei organice și amplificarea eroziunii eoliene și hidrice. Efectele se traduc în pierderi de producție agricolă, presiune pe resursele de apă, costuri suplimentare pentru fermieri și autorități, reducerea veniturilor gospodăriilor rurale și vulnerabilitate socială sporită.
+
+Cadrul normativ existent tratează componente sectoriale. OUG nr. 195/2005 reglementează protecția mediului. Legea apelor nr. 107/1996 reglementează resursa de apă. Legea nr. 138/2004 reglementează îmbunătățirile funciare. Legea nr. 289/2002 acoperă perdelele forestiere. Legea nr. 350/2001 și legislația de urbanism vizează planificarea teritorială. Aceste acte nu oferă însă un cadru transversal dedicat degradării solului și deșertificării. Lipsesc un mecanism integrat de coordonare interinstituțională, o planificare unitară pe niveluri administrativ-teritoriale, indicatori naționali comuni, un sistem național de monitorizare a solului și o bază de date publică unificată. Programele și finanțările funcționează, dar adesea fără prioritizare pe criterii de risc la deșertificare și fără legături ferme între agricultură, apă, silvicultură și urbanism.
+
+Contextul european impune standarde mai ridicate. Strategia Uniunii Europene pentru Sol 2030 stabilește ținta soluri sănătoase până în 2050. Politica Agricolă Comună 2023–2027 condiționează plățile de bune practici pentru sol și mediu. Directivele privind apă și natură cer coerență între utilizarea terenurilor, protecția resurselor de apă și conservarea habitatelor. România este parte la Convenția Națiunilor Unite pentru Combaterea Deșertificării, cu obligații de raportare și planificare. Este necesară o lege-cadru națională care să lege aceste cerințe într-un sistem coerent, fără a dubla legislația sectorială și fără a crea instituții noi.
+
+Proiectul de lege propus oferă un răspuns unitar. Legea are caracter permanent și transversal. Definește clar obiectul reglementării, principiile, domeniul de aplicare, relația cu actele sectoriale și terminologia. Stabilește o arhitectură de politici publice cu documente strategice și planuri territoriale obligatorii. Introduce ținte numerice măsurabile, mecanisme de monitorizare, raportare anuală către Parlament și un regim contravențional proporțional cu posibilitatea unui plan de remediere. Utilizează structurile instituționale existente. Folosește surse de finanțare deja disponibile. Evită suprapuneri și birocratizare suplimentară.
+
+Intervenția legislativă răspunde unei nevoi reale identificate pe teren. În ultimii ani, suprafețe semnificative de culturi din sud și est au înregistrat pierderi repetate din cauza secetei pedologice. Infrastructura principală de irigații reabilitată permite alimentarea a peste un million de hectare, însă diferența dintre potențial, contractare și utilizare efectivă rămâne notabilă. Perdelele forestiere de protecție au ritm de execuție sub potențial, iar în mediul urban suprafețele impermeabile cresc. Fără măsuri coordinate, degradarea solului se accentuează, costurile publice și private cresc, iar vulnerabilitatea socio-economică în mediul rural se adâncește.
+
+Legea propune obiective naționale clare. Reducerea cu minimum 20 la sută a suprafețelor afectate de procese de degradare până în 2035, raportat la 2020. Împădurirea și reîmpădurirea a cel puțin 10.000 de hectare anual. Modernizarea prin tehnologii eficiente a cel puțin un milion de hectare până în 2030. Reducerea utilizării pesticidelor și fertilizanților chimici cu 30 la sută până în 2030. Dezvoltarea de coridoare ecologice în zone vulnerabile. Integrarea acestor obiective în strategiile sectoriale și în planurile județene și locale conferă forță executorie, asigură prioritizarea bugetară și crește responsabilitatea autorităților.
+
+Mecanismul de guvernanță se bazează pe cooperare, nu pe noi structuri. Coordonarea revine Ministerului Mediului, Apelor și Pădurilor, în parteneriat cu Ministerul Agriculturii și Dezvoltării Rurale, Administrația Națională Apele Române, Administrația Națională a Îmbunătățirilor Funciare, Ministerul Dezvoltării, Ministerul Educației, Administrația Națională de Meteorologie și Institutul Național de Cercetare-Dezvoltare pentru Pedologie, Agrochimie și Protecția Mediului. Cooperarea se formalizează prin mecanisme administrative fără personalitate juridică și fără impact bugetar suplimentar. Raportarea anuală către Parlament are efect de control democratic și de corecție rapidă a politicilor.
+
+Sistemul național de monitorizare a solurilor și vegetației este elementul tehnic central. El valorifică rețelele de măsurare existente, seturile de date pedologice și climatice, precum și observarea satelitară. Baza Națională de Date Sol-Verde asigură trasabilitatea intervențiilor, urmărirea indicatorilor de performanță și transparență pentru public. Standardizarea indicatorilor permite comparabilitate în timp și aliniere cu cerințele europene. Accesul public la date, cu respectarea legislației privind protecția datelor, crește responsabilizarea actorilor și calitatea deciziilor.
+
+Domeniile de intervenție sunt definite în mod pragmatic. În agricultură, legea cere rotația culturilor în zone vulnerabile, tehnologii de conservare a solului, refacerea terenurilor degradate pe baza unor metodologii aprobate și implicarea proprietarilor. În silvicultură, legea consolidează programele de împădurire și perdele forestiere, cu condiția refacerii vegetației în zonele vulnerabile după tăieri. Pentru apă și irigații, se cere colaborare strânsă între ANAR și ANIF, prioritizare a investițiilor după riscul de deșertificare și eficiența utilizării apei, precum și compatibilitate obligatoria între perdelele forestiere și infrastructurile de irigații. În mediul urban, documentațiile de urbanism includ măsuri de reducere a suprafețelor impermeabile și un minim de infrastructură verde în noile dezvoltări, cel puțin 20 la sută din suprafață.
+
+Finanțarea este construită pe surse deja existente, cu instrumente clare. Bugetele ministerelor de resort și ale autorităților locale, Fondul pentru mediu, Politica Agricolă Comună, Politica de Coeziune, Programul LIFE și alte programe europene. Proiectul instituie un subprogram distinct în cadrul Fondului pentru mediu, dedicat combaterii deșertificării. Ghidurile de finanțare se aprobă prin ordin al ministrului mediului, cu consultare publică și criterii de prioritizare pe baze științifice. Schemele de sprijin pentru fermieri respectă regulile privind ajutorul de stat și se corelează cu Planul Național Strategic. Se interzice dubla finanțare pentru aceeași cheltuială eligibilă. Planificarea multianuală pe cinci ani, actualizată anual, orientează efortul bugetar, asigură coerență și vizibilitate pentru beneficiari.
+
+Regimul contravențional are rol corectiv, nu punitiv. Sunt sancționate fapte cu impact direct asupra solului și vegetației, inclusiv defrișări neautorizate în zone vulnerabile, nerespectarea obligațiilor de refacere a vegetației, nerespectarea rotației culturilor, supraîncărcarea pășunilor peste capacitatea de suport, lucrări fără avize în proximitatea infrastructurilor de irigații, neîndeplinirea obligațiilor de planificare și raportare. Legea introduce posibilitatea unui plan de remediere o singură dată, cu suspendarea amenzii pentru cel mult 90 de zile. Dacă remedierea se finalizează, amenda se anulează. Dacă nu, sancțiunea se aplică integral, cu majorare. Acest mecanism stimulează conformarea rapidă și reduce litigiile.
+
+Impactul economic estimat este pozitiv pe termen mediu. Prevenirea degradării solului reduce pierderile de producție în anii secetoși, scade costurile cu refacerea terenurilor, stabilizează veniturile fermierilor și menține ocuparea în mediul rural. Modernizarea irigațiilor și orientarea investițiilor după risc cresc eficiența utilizării apei și reziliența fermelor. Împăduririle și perdelele forestiere reduc eroziunea, protejează culturile, scad costurile de întreținere a drumurilor agricole și limitează efectele fenomenelor meteo extreme. În urban, infrastructura verde reduce insulele de căldură și presiunea pe rețeaua de canalizare.
+
+Impactul social este favorabil. Comunitățile din zonele vulnerabile beneficiază de planuri locale obligatorii, programe de formare, acces la finanțare și măsuri de refacere a terenurilor. Dimensiunea educațională este inclusă prin integrarea conținuturilor despre protecția solului în curricula școlară și în programele de formare continuă. Transparența datelor și raportarea anuală sporesc încrederea publică și participarea comunităților.
+
+Impactul asupra mediului este substanțial. Indicatorii de performanță vizează reducerea suprafețelor degradate, extinderea suprafețelor împădurite, creșterea suprafețelor irigate eficient, scăderea consumului de pesticide și fertilizanți și consolidarea coridoarelor ecologice. Standardizarea indicatorilor asigură urmărirea progresului și permite ajustări de politici la fiecare cinci ani.
+
+Proiectul respectă cerințele Legii nr. 24/2000 privind tehnica legislativă. Textele sunt normative, clare și precise. Definițiile sunt limitative. Trimiterile la actele sectoriale sunt explicite. Nu se modifică indirect alte acte normative. Nu se creează instituții noi. Se stabilește un ciclu complet de politică publică, de la strategie și planuri până la monitorizare, raportare și sancțiuni. Normele metodologice se aprobă prin hotărâre a Guvernului în șase luni. Termenele de punere în aplicare sunt realiste și corelate între ele.
+
+Au fost analizate alternative de reglementare. Varianta menținerii cadrului actual ar perpetua lipsa coordonării și ar crește costurile viitoare. Varianta creării unei noi autorități ar genera întârzieri și costuri bugetare suplimentare fără garanții de eficiență. Varianta de modificări punctuale în fiecare lege sectorială ar produce asimetrii și ar complica aplicarea. Varianta propusă, lege-cadru transversală, utilizează instituțiile existente, creează un limbaj comun și procese comune, reduce riscul de suprapuneri și oferă instrumente de prioritizare și măsurare.
+
+Procesul de consultare publică va implica autorități centrale și locale, organizații ale fermierilor și ale utilizatorilor de apă pentru irigații, institute de cercetare, universități, societatea civilă și mediul privat. Observațiile tehnice vor fi integrate în ghidurile de finanțare, în metodologiile de monitorizare și în planurile locale. Transparența, participarea și accesul la date vor sta la baza implementării.
+
+Calendarul de implementare este etapizat. Strategia Națională se aprobă în 12 luni. Planurile județene și locale se adoptă în 9 luni de la strategie. Sistemul de monitorizare devine operațional în 6 luni. Baza de date Sol-Verde se operationalizează în 12 luni. Ghidul tehnic de compatibilitate perdele forestiere-irigații se aprobă în 6 luni. Indicatorii se aprobă în 9 luni și se revizuiesc la 5 ani. Raportarea anuală are termen fix, 31 martie.
+
+Proiectul nu afectează dreptul de proprietate. Măsurile de refacere și accesul pentru întreținerea infrastructurilor publice se realizează cu respectarea legii și a despăgubirilor acolo unde este cazul. Nu există impact negativ asupra concurenței sau asupra ajutoarelor de stat, întrucât schemele se aprobă conform dreptului Uniunii Europene și se notifică sau se încadrează în regulamentele aplicabile.
+
+Adoptarea legii-cadru este oportună și necesară. România are nevoie de o reglementare care să unifice eforturile instituțiilor, să orienteze investițiile după riscul real de deșertificare, să protejeze resursele de sol și apă și să crească reziliența economică și socială. Legea propusă oferă instrumentele administrative, financiare și tehnice pentru a atinge aceste obiective, în deplină concordanță cu angajamentele europene și internaționale și cu așteptările comunităților afectate.
+
+INIȚIATOR:
+
+Deputat AUR Gabriel-Florinel Florea
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege privind prevenirea și combaterea deșertificării și degradării solului
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1 | ROMAN MARIUS-VALENTIN | AUR |  |
+| 2 | Pooraoca Teophile | AUR |  |
+| 3 | CONSTANTINESCU RODICA | AUR |  |
+| 4 | PEIU PETRISOR | AUR |  |
+| 5 | Pete George Cobar | AUR |  |
+| 6 | Jffar Geavian | AUR |  |
+| 7 | CHELARU MIRGA | AUR |  |
+| 8 | CHERTA COSTACHE | AUR |  |
+| 9 | Silugesmu Gholin | AUR |  |
+| 10 | VLATHU KICOLAE | AUR |  |
+| 11 | Jocob B. Bipriom | A.U.R. |  |
+| 12 | SIPOS CRISTIAN | ALIR |  |
+| 13 | HUOCEAN-TERNAXDES LUMIWIIT | AUR |  |
+| 14 | Barcooni BoriuuQ | AUR |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege privind prevenirea și combaterea deșertificării și degradării solului
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td>Semnătura</td></tr>
+<tr><td>15</td><td>Stoica CIPRIAN-711</td><td>A.U.R.</td><td rowspan="10"></td></tr>
+<tr><td>16</td><td>Andrei Girlau</td><td>AVR</td></tr>
+<tr><td>17</td><td>CRIJIXIA DUMITEESCU</td><td>AVR.</td></tr>
+<tr><td>18</td><td>Abesu haurautiu</td><td>AER</td></tr>
+<tr><td>19</td><td>BANIERA STEFANESC</td><td>AVR</td></tr>
+<tr><td>20</td><td>Lavrie Sozim</td><td>AVR</td></tr>
+<tr><td>21.</td><td>VASILE MARIAN</td><td>AVR</td></tr>
+<tr><td>22.</td><td>SAXDV IOXUJ</td><td>AVR</td></tr>
+<tr><td>23.</td><td>Spau Dumitcu</td><td>AVR</td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege privind prevenirea și combaterea deșertificării și degradării solului
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1. | Simion GEORCE NICOCAE | AUR |  |
+| 2. | BANEA NEZU VAZENTIN | AUR |  |
+| 3. | MUSAT CUAION | AUR |  |
+| 4. | LOVIN RATHOKA | AUR |  |
+| 5. | PORESCU ANTONIO | AUR |  |
+| 6. | Constantinuseu Amadra | AUR |  |
+| 7. | SORIN MUNCAELI | AUR |  |
+| 8. | BURCU' RIVI'U - OCTAVIAN | AUR |  |
+| 9. | B0805 EENA | AUR |  |
+| 10. | TAMASA DAN | AUR |  |
+| 11. | GHERA8'M LTHURA | AUR |  |
+| 12. | Badiu Geogel | AUR |  |
+| 13. | Priscw lonelia | AUR |  |
+| 14. | NEGOESEU MIRATI-BOGDAN | AUR |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege privind prevenirea și combaterea deșertificării și degradării solului
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td>Semnătura</td></tr>
+<tr><td>15.</td><td>DANCEASilviu</td><td>AUR</td><td rowspan="14"></td></tr>
+<tr><td>16.</td><td>Velescu Florin Boyalom</td><td>AUR</td></tr>
+<tr><td>17.</td><td>Betuna Cuisfua-Jima</td><td>AUR</td></tr>
+<tr><td>18.</td><td>MICLAYSEMUEL-VIRHIL</td><td>AUR</td></tr>
+<tr><td>19.</td><td>AVRANIESCU STEFANITA-ALIN</td><td>AUR</td></tr>
+<tr><td>20.</td><td>Vulpoiu Dorel</td><td>AUR</td></tr>
+<tr><td>21.</td><td>PUSEASU PETRE</td><td>AUR</td></tr>
+<tr><td>22.</td><td>GNO lu VEDOMIO</td><td>AUR</td></tr>
+<tr><td>23.</td><td>SERBAT GIAMINA</td><td>AUR</td></tr>
+<tr><td>24.</td><td>Popovici Flawa Cunei</td><td>AUR</td></tr>
+<tr><td>25.</td><td>BIRO DANIEL-RAZVAN</td><td>AUR</td></tr>
+<tr><td>26.</td><td>VASIH-TUSOR LIDIA</td><td>AUR</td></tr>
+<tr><td>27.</td><td>PARASCAIU QINQIAN CYN</td><td>AUR</td></tr>
+<tr><td>28.</td><td>ANDREI GUSA</td><td>AUR</td></tr>
+</tbody>
+</table>
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege privind prevenirea și combaterea deșertificării și degradării solului
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 29. | Kolee EDUARD | AUR |  |
+| 30. | ENACHE DIANA | AUR |  |
+| 31. | PASCARIU MIHAI-COSMIN | AUR |  |
+| 32. | BZADOR DEJERCE | AUR |  |
+| 33. | ENACHE MIHAI ADRIAU | AUR |  |
+| 34. | PAUNESCU SICIU-TIVU | AUR |  |
+| 35. | MITREA BUMITRINA | AUR |  |
+| 36. | DASCOU CRISTINA EMANNELA | AUR |  |
+| 37. | BRUVNSEELS RAIMONA | AUR |  |
+| 38. | RADU FABIAN - GRISSIN | AUR |  |
+| 39. | IOSUB COSMIN ISODOR | AUR |  |
+
+Susținătorilor propunerii legislative – Lege privind prevenirea și combaterea deșertificării și degradării solului
+
+LISTA
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td>Semnătura</td></tr>
+</tbody>
+</table>
+
+Susținătorilor propunerii legislative – Lege privind prevenirea și combaterea deșertificării și degradării solului
+
+LISTA
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td>Semnătura</td></tr>
+</tbody>
+</table>
+
+Susținătorilor propunerii legislative – Lege privind prevenirea și combaterea deșertificării și degradării solului
+
+LISTA
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td>Semnătura</td></tr>
+</tbody>
+</table>
+
+*Documentul are 13 pagini; am citit primele 12.*

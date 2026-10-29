@@ -1,0 +1,55 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+pentru modificarea și completarea Ordonanței de urgență a Guvernului nr.40/2015 privind gestionarea financiară a fondurilor europene pentru perioada de programare 2014-2020, cu modificările și completările ulterioare
+
+Senatul adoptă prezentul proiect de lege
+
+Articolul I.- Ordonanța de urgență a Guvernului nr.40/2015 privind gestionarea financiară a fondurilor europene pentru perioada de programare 2014-2020, aprobată cu modificări și completări prin Legea nr.105/2016, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. În tot cuprinsul ordonanței de urgență, sintagma „pentru perioada de programare 2014-2020” se înlocuiește cu sintagma „pentru perioadele de programare 2014-2020, cu modificările și completările ulterioare, extinsă și pentru perioada 2021-2027”, asigurându-se aplicabilitatea prevederilor actului normativ și pentru exercițiul financiar european curent.
+
+2\. La articolul 14, după alineatul (2) se introduce un nou alineat, alineatul (3), cu următorul cuprins:
+
+„Art.14.- (3) În vederea accelerării implementării proiectelor și a concentrării gestiunii financiare pe performanțe, decontarea cheltuielilor eligibile efectuate în cadrul proiectelor finanțate din fonduri europene se poate realiza și pe bază de rezultat. În condițiile stabilite prin normele metodologice de aplicare a prezentei ordonanțe de urgență și cu respectarea reglementărilor europene incidente, autoritatea de management poate aproba rambursarea cheltuielilor către beneficiar în baza indicatorilor realizați și validați ai proiectului, fără obligația prezentării exclusiv a documentelor justificative tradiționale pentru fiecare cheltuială. Indicatorii de rezultat, jaloanele sau țintele intermediare ale proiectului și metodologia de validare a acestora se stabilesc prin contractul/decizia/ordinul de finanțare și constituie temei pentru plata pe rezultat, autoritatea de management urmând a verifica îndeplinirea lor în locul documentelor contabile individuale. Cheltuielile aferente mecanismelor de cost simplificat ori forfetar, bazate pe realizarea parțială sau integrală a unor rezultate, se consideră eligibile la rambursare în condițiile îndeplinirii acestor rezultate, fără alte justificări suplimentare.”
+
+## 3. La articolul 15, alineatul (1) se modifică și va avea următorul cuprins:
+
+„(1) Pentru proiectele finanțate din Fondul european de dezvoltare regională, Fondul de coeziune, Fondul social european și Fondul de ajutor european destinat persoanelor celor mai defavorizate se acordă prefinanțare beneficiarilor/liderilor de parteneriat/partenerilor - alții decât cei prevăzuți la art.6 alin.(1)-(4) și (6) - în tranșe de maximum 30% din valoarea eligibilă a proiectului, fără a depăși valoarea totală eligibilă a contractului de finanțare, beneficiarilor/liderilor de parteneriat/partenerilor alții decât cei prevăzuți la art.6 alin.(1)-(4) și (6).”
+
+## 4. La articolul 15, după alineatul (3) se introduce un nou alineat, alineatul (3¹), cu următorul cuprins:
+
+„Art.15.- (3¹) Tranșele successive de prefinanțare, ulterioare primei tranșe acordate conform alin.(1), se virează beneficiarului numai în funcție de progresul verificat al proiectului, corespunzător etapelor și indicatorilor stabiliți prin contractul de finanțare. Autoritatea de management are obligația de a evalua atingerea jaloanelor sau indicatorilor intermediari asumați de beneficiar - precum realizarea unui anumit stadiu fizic sau valoric al proiectului - și poate aproba acordarea următoarei tranșe de prefinanțare doar dacă aceste jaloane/indicatori sunt îndepliniți în condițiile convenite. În cazul neatingerii indicatorilor de progres stipulați, autoritatea de management poate amâna sau reduce tranșa de prefinanțare următoare, după caz, până la realizarea condițiilor de etapă, fără a aduce atingere obligației beneficiarului de a finaliza proiectul în termenii și condițiile contractuale.”
+
+## 5. La articolul 15, alineatul (4) se modifică și va avea următorul cuprins:
+
+„(4) Beneficiarul/Liderul de parteneriat care a primit prefinanțare are obligația utilizării și justificării a minimum 50% din valoarea acesteia, în termen de maximum 180 de zile calendaristice de la data la care autoritatea de management a virat tranșa de prefinanțare în contul beneficiarului, fără a depăși durata de implementare prevăzută în contractul de finanțare. Nerespectarea termenului de 180 de zile atrage suspendarea acordării următoarelor tranșe de prefinanțare și/sau obligativitatea rambursării sumelor neutilizate, în condițiile stabilite la alin.(5)-(8).”
+
+## 6. Alineatul (6) al articolului 21 se modifică după cum urmează:
+
+„Art.21.- (6) În cazul ultimei cereri de rambursare depuse de beneficiar/liderul de parteneriat în cadrul proiectului, termenul prevăzut la alin.(3) poate fi prelungit cu durata necesară efectuării tuturor verificărilor procedurale specifice autorizării plății finale, fără a depăși 180 de ziile.”
+
+## 7. La articolul 22, după alineatul (1) se introduc două noi alineate, alineatele (1¹) și (1²), cu următorul cuprins:
+
+„Art.22.- (1¹) Autoritățile de management și, după caz, organismele intermediare au obligația de a verifica cererile de plată și cererile de rambursare depuse de beneficiari și de a autoriza cheltuielile eligibile aferente în termen de maximum 30 de zile calendaristice de la data înregistrării cererii la autoritatea competentă. Dacă în acest termen autoritatea de management nu a comunicat beneficiarului nici o solicitare de clarificări sau completări și nu a emis o decizie de respingere motivată a cererii, se aplică procedura aprobării tacite: cererea de plată/rambursare se consideră aprobată de drept la expirarea termenului de 30 de zile calendaristice, iar autoritatea de management are obligația să dispună de îndată plata sumelor solicitate și verificate conform contractului de finanțare.
+
+(1²) Neîndeplinirea obligației de verificare și plată în termenul prevăzut la alin.(1¹) atrage, în sarcina autorității de management responsabile, plata de penalități de întârziere către beneficiar. Penalitățile se calculează pentru fiecare zi de întârziere, începând cu ziua imediat următoare expirării termenului legal de 30 de zile, până la data efectuării plății integrale a sumei aprobate tacit, la nivelul ratei dobânzii legale penalizatoare stabilite conform legislației fiscale pentru obligațiile bugetare restante. Sumele reprezentând penalități de întârziere se suportă din bugetul propriu al autorității de management și nu constituie cheltuieli eligibile din fonduri europene. Achitarea penalităților nu o exonerează pe deplin pe autoritatea de management de celelalte răspunderi administrative, disciplinare sau, după caz, patrimoniale, în condițiile legii.”
+
+## 8. La Capitolul IX - Dispoziții finale, după articolul 37 se introduce un nou articol, articolul 37¹, cu următorul cuprins:
+
+„Art.37¹.-(1) Sumele primite de beneficiari cu titlu de prefinanțare (avans) în cadrul proiectelor finanțate din fonduri externe nerambursabile nu constituie venit impozabil al beneficiarului pe durata implementării proiectului. Aceste sume au regimul unor subvenții destinate acoperirii cheltuielilor eligibile viitoare și se înregistrează în contabilitatea beneficiarului în conturi de venituri în avans, urmând a fi regularizate pe măsura efectuării cheltuielilor.
+
+(2) Prefinanțările nejustificate prin cheltuieli eligibile până la finalizarea proiectului, dacă nu sunt recuperate de autoritatea de management conform prevederilor legale, devenind astfel sume definitive la dispoziția beneficiarului, se includ în veniturile impozabile ale beneficiarului la momentul închiderii proiectului. Tratamentul fiscal al acestor sume se stabilește potrivit Codului fiscal și reglementărilor aplicabile în anul fiscal în care proiectul este finalizat.”
+
+Articolul II.- În termen de cel mult 60 de zile de la data intrării în vigoare a prezentei legi, Guvernul, la propunerea Ministerului Investițiilor și Proiectelor Europene, va modifica și completa în mod corespunzător Normele metodologice de aplicare a O.U.G. nr.40/2015, aprobate prin Hotărârea Guvernului nr.93/2016, pentru a le alinia prevederilor prezentei legi. De asemenea, autoritățile de management vor actualiza, după caz, ghidurile solicitantului și contractele de finanțare în derulare, în termen de 90 de zile de la intrarea în vigoare a legii, pentru a integra facilitățile și obligațiile introduse mai sus, fără a afecta drepturile deja dobândite de beneficiari.
+
+Articolul III.- Prezenta lege se publică în Monitorul Oficial al României, Partea I.
+
+Acest proiect de lege se consideră adoptat de Senat în forma inițială, în condițiile articolului 75 alineatul (2) teza a III-a din Constituția României, republicată.
+
+MIHAI COTEȚ
+
+p. PREȘEDINTELE SENATULUI

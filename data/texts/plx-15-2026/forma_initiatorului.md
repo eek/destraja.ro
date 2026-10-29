@@ -1,0 +1,43 @@
+## LEGE
+
+pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 108/2022 privind decarbonizarea sectorului energetic
+
+## Parlamentul României adoptă prezenta lege
+
+Articol unic. – Ordonanța de urgență a Guvernului nr. 108/2022 privind decarbonizarea sectorului energetic publicată în Monitorul Oficial, Partea I, nr. 659 din 1 iulie 2022, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+## 1. La articolul 3, alineatul (3) se modifică și va avea următorul cuprins:
+
+„(3) Capacitatea totală instalată de energie electrică pe bază de lignit și huilă care va fi scoasă din exploatare treptat până cel târziu în anul 2032 este de 4.920 MW.”
+
+## 2. La articolul 4, alineatul (1), litera b) se modifică și va avea următorul cuprins:
+
+„b) până la sfârșitul anului 2031, alte 1.425 MW de capacități de producere a energiei electrice pe bază de lignit;”
+
+## 3. La articolul 4, alineatul (3) se modifică și va avea următorul cuprins:
+
+„(3) Prin excepție de la prevederile alin. (1) lit. a), cel târziu până la data de 1 iunie 2023, 660 MW capacități de producere a energiei electrice pe bază de lignit pot fi trecuți în conservare până cel târziu la sfârșitul anului 2031. Acestea pot fi scoase din conservare și activate prin ordin al ministrului energiei, numai la solicitarea operatorului de transport și de sistem în condițiile prevăzute la alin. (4).”
+
+## 4. La articolul 4, alineatul (9), litera a) se modifică și va avea următorul cuprins:
+
+„a) 2 grupuri pe gaze naturale «ready for hydrogen» de tip CCGT, cu o capacitate totală de 1.325 MW:
+
+\- Ișalnița: 850 MW - cu punere în funcțiune în 2031;
+
+\- Turceni 475 MW - cu punere în funcțiune în 2031;"
+
+## 5. La articolul 6, alineatul (1) se modifică și se completează și va avea următorul cuprins:
+
+„(1) Carierele de lignit și exploatările miniere de huilă se închid și se ecologizează nu mai devreme de 31 decembrie 2030, după cum urmează:
+
+a) carierele Complexului Energetic Oltenia - conform Planului de restructurare, aprobat prin Decizia C(2022) 553 final din 26 ianuarie 2022, corelat cu necesarul de lignit pentru capacitate energetice prevăzute la art. 4 alin. (1) care vor asigura funcționarea sigură și stabilă a Sistemului electroenergetic național și în concordanță cu lucrările de punere în siguranță cu extracție de lignit prevăzute în Planul de închidere a activității (PIA) pentru fiecare carieră, până la 1 ianuarie 2031;
+
+b) carierele Alunu și Berbești (CET Govora) - închidere și ecologizare până la 31 decembrie 2032;
+
+c) exploatările miniere ale Complexului Energetic Hunedoara:
+
+(i) Lupeni și Lonea - lucrări de punere în siguranță, închidere și ecologizare până la 31 decembrie 2032;
+
+(ii) Livezeni și Vulcan - lucrări de punere în siguranță, închidere și ecologizare până la 31 decembrie 2032."
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.

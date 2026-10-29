@@ -1,0 +1,19 @@
+# L E G E pentru modificarea art. 64 din Legea nr. 94/1992 privind organizarea și funcționarea Curții de Conturi
+
+Parlamentul României adoptă prezenta lege:
+
+Articol unic – La articolul 64 din Legea nr. 94/1992 privind organizarea și funcționarea Curții de Conturi, republicată în Monitorul Oficial al României, Partea I, nr. 238 din 3 aprilie 2014, cu modificările și completările ulterioare, alineatul (1) se modifică și va avea următorul cuprins:
+
+„(1) Nerecuperarea prejudiciilor ca urmare a:
+
+a) nedispunerii de către conducerea entității a măsurilor transmise de Curtea de Conturi;
+
+b) neurmăririi de conducerea entității a măsurilor transmise de Curtea de Conturi,
+
+constituie infracțiune și se pedepsește cu închisoare de la 1 la 5 ani și interzicerea dreptului de a ocupa o funcție de conducere în cadrul unei persoane juridice de drept public".
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.
+
+Președintele Camerei Deputaților, Sorin Mihai GRINDEANU
+
+Președintele Senatului, Mircea ABRUDEAN

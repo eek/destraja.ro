@@ -1,0 +1,43 @@
+# PROJECT DE LEGE pentru modificarea și completarea art. 470 din Legea nr. 227/2015 privind Codul fiscal
+
+## Preambul
+
+Având în vedere necesitatea alinierii legislației fiscale din România la standardele europene de mediu și transport, precum și obligațiile care decurg din aplicarea Regulamentului (UE) 2024/1257 privind introducerea standardului Euro 7,
+
+Luând în considerare faptul că parcul auto național este îmbătrânit, cu un număr semnificativ de vehicule cu norme de poluare inferioare Euro 5, ceea ce generează un impact negativ major asupra calității aerului și asupra sănătății populației,
+
+Ținând seama de necesitatea sprijinirii tranziției spre un transport mai curat și mai sigur, inclusiv prin politici fiscale care să stimuleze achiziția de vehicule Euro 7, electrice și hibride plug-in,
+
+Având în vedere importanța susținerii tinerilor sub 35 de ani, categorie socio-economică vulnerabilă în accesul la mobilitate modernă, prin măsuri fiscale care să favorizeze casarea vehiculelor poluante și achiziția unor autoturisme mai puțin poluante,
+
+În considerarea obiectivelor de mediu, economice și sociale asumate de România prin Pactul Verde European și prin strategiile naționale de reducere a emisiilor,
+
+Parlamentul României adoptă prezenta lege.
+
+## Art. I
+
+Legea nr. 227/2015 privind Codul fiscal, publicată în Monitorul Oficial al României, Parte a I, nr. 688 din 10 septembrie 2015, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 470, după alineatul (3) se introduc două noi alineate, alineatele (31) și (32), cu următorul cuprins:
+
+„(31) Pentru autoturisme cu normă de poluare Euro 6d-TEMP sau Euro 7, achiziționate după data intrării în vigoare a prezentei legi, impozitul pe mijlocul de transport se reduce cu minimum 25%, aplicabil pe o perioadă de 3 ani de la data primei înmatriculări în România.
+
+(32) Persoanele fizice cu vârsta de până la 35 de ani, care casează un autoturism cu normă de poluare Euro 5 sau inferioară, printr-un program național de stimulare a înnoirii parcului auto și achiziționează un autoturism Euro 7 sau cu propulsie electrică ori hibrid plug-in, beneficiază de scutirea integrală a impozitului pe mijlocul de transport pentru 2 ani consecutivi de la data înmatriculării.”
+
+## Art. II – Dispoziții finale
+
+(1) Prezenta lege intră în vigoare la data de 1 ianuarie 2026.
+
+(2) Prevederile prezentei legi se aplică impozitelor pe mijloacele de transport datorate începând cu anul fiscal 2026.
+
+(3) Ministerul Finanțelor, în termen de 60 de zile de la publicarea prezentei legi în Monitorul Oficial al României, Partea I, elaborează și transmite unităților administrativ-teritoriale norme metodologice pentru aplicarea dispozițiilor art. I.
+
+(4) Unitățile administrativ-teritoriale, prin direcțiile de specialitate, au obligația de a adapta evidențele fiscale și aplicațiile electronice utilizate pentru stabilirea, declararea și colectarea impozitelor pe mijloacele de transport, astfel încât prevederile prezentei legi să fie aplicabile efectiv începând cu anul fiscal 2026.
+
+(5) Prevederile alin. (32) din art. 470 al Legii nr. 227/2015 privind Codul fiscal se aplică în corelare cu programele naționale de stimulare a înnoirii parcului auto, derulate prin Administrația Fondului pentru Mediu.
+
+(6) În măsura în care se constată diminuări semnificative ale veniturilor bugetelor locale ca urmare a aplicării prezentei legi, Guvernul poate adopta măsuri compensatorii prin ajustarea cotelor defalcate din impozitul pe venit.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea art. 75 și art. 76 alin. (1) din Constituția României.
+
+PREȘEDINTELE SENATULUI

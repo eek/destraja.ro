@@ -1,0 +1,107 @@
+{
+  "slug": "plx-86-2026",
+  "billId": "PL-x 86/2026",
+  "updatedAt": "2026-10-29T12:32:55.268Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L480FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "Patronul poate pune până la 150 €/lună în plus în Pilonul II al angajatului, cu reducere de impozit",
+      "summaryTlDr": "Idee utilă și pur opțională: încurajează economisirea pentru pensie fără să oblige pe nimeni la nimic. Textul e însă scris în grabă: nu spune dacă statul scade suma direct din impozit sau doar din profitul impozabil, nici cum e taxată la angajat, iar «impactul bugetar pozitiv» promis nu e susținut de nicio cifră.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/80/6/se78.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Firmele pot pune bani în plus în Pilonul II al angajaților, cu reducere de impozit",
+      "summaryTlDr": "Ideea e bună, dar textul e scris în grabă. Contribuțiile opționale ale angajatorului la Pilonul II sunt utile, însă formula „deductibile din impozitul pe profit” poate însemna că statul plătește integral contribuția, iar costul nu l-a calculat nimeni. Merită susținut doar cu partea fiscală clarificată.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul l-a adoptat tacit, în forma inițială: textul și problemele lui au rămas aceleași",
+      "summary": "Senatul nu a votat textul. Proiectul a fost adoptat tacit, în forma inițiatorului, cu mici diferențe de redactare. Rămân toate problemele: nu e clar dacă statul suportă circa 16% sau 100% din contribuții, iar angajații ar putea plăti impozit pe acești bani.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Neclar dacă suma se scade din profit (16%) sau direct din impozit (100%)",
+            "major": true,
+            "article": "art. 43 alin. (5)"
+          },
+          {
+            "text": "Microîntreprinderi: nu spune ce se întâmplă când deducerea depășește impozitul datorat",
+            "major": true,
+            "article": "art. 43 alin. (5)"
+          },
+          {
+            "text": "Trimite la Codul fiscal, care nu prevede această deducere pentru Pilonul II",
+            "major": true,
+            "article": "art. 43 alin. (5)"
+          },
+          {
+            "text": "Nu scutește angajatul de impozit și contribuții pe aceste sume",
+            "major": true,
+            "article": "art. 43 alin. (5)"
+          },
+          {
+            "text": "Plafon de 150 euro lunar, de 4,5 ori peste Pilonul III, nejustificat",
+            "major": true,
+            "article": "art. 43 alin. (5)"
+          },
+          {
+            "text": "Modul de deducere e lăsat unei hotărâri de Guvern, deși ține de lege",
+            "major": true,
+            "article": "art. 43 alin. (6)"
+          },
+          {
+            "text": "Nu precizează cursul de schimb pentru plafonul în euro",
+            "major": false,
+            "article": "art. 43 alin. (5)"
+          },
+          {
+            "text": "Fără hotărârea de Guvern în 60 de zile, legea nu se poate aplica",
+            "major": false,
+            "article": "art. 43 alin. (6)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Angajatorul poate pune voluntar bani în plus în pensia privată a angajatului",
+            "major": true,
+            "article": "art. 43 alin. (5)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 4,
+        "same": 0.2
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:32:22.158Z"
+    }
+  ]
+}

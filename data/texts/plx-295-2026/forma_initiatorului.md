@@ -1,0 +1,33 @@
+CAMERA DEPUTAȚILOR
+
+Lege pentru modificarea și completarea art. 13 din OUG nr. 27 /2006 privind privind salarizarea și alte drepturi ale judecătorilor, procurorilor și altor categorii de personal din sistemul justiției
+
+Parlamentul României adoptă prezenta lege.
+
+Art. I - Articolul 13 din OUG nr. 27 /2006 privind privind salarizarea și alte drepturi ale judecătorilor, procurorilor și altor categorii de personal din sistemul justiției, publicată în Monitorul Oficial al României, Partea I, nr. 314 din 7 aprilie 2006, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. Alineatul (1) se modifică și va avea următorul cuprins:
+
+“(1) Judecătorii, procurorii, personalul asimilat acestora și magistrații-asistenți, care sunt detașați sau delegați în altă localitate decât cea în care au locul de muncă permanent, beneficiază pe toată durata delegării sau detașării, de următoarele drepturi:
+
+a) Diurnă sau indemnizație de delegare sau detașare în cuantumul stabilit pentru personalul autorităților și instituțiilor publice pe perioada delegării sau detașării în altă localitate, precum și în cazul deplasării în interes de serviciu.
+
+b) decontarea cheltuielilor de cazare la structuri turistice de categoria până la 3 stele inclusiv. În situația în care nu beneficiază de cazare în aceste condiții, au dreptul la o sumă egală cu 0,5% din indemnizația de încadrare brută lunară pentru fiecare noapte, pe toată durata delegării sau detașării în altă localitate;
+
+c) decontarea, în limita a 4 călătorii dus-întors, pe lună, a transportului aerian, naval, auto sau pe calea ferată clasa I, inclusiv vagon de dormit clasa I, ori, după caz, a 7,5 litri carburant la suta de kilometri, în situația în care deplasarea se face cu autoturismul. Decontarea transportului nu se acordă în cazul în care deplasarea se face cu autoturismul ce aparține instituției."
+
+2\. După alineatul (1), se introduce un nou alineat, alin. (1¹), cu următorul cuprins
+
+“(1¹) Nu beneficiază de drepturile prevăzute la alin. (1) judecătorii, procurorii, personalul asimilat acestora și magistrații-asistenți care sunt delegați sau detașați:
+
+a) în localitatea de domiciliu;
+
+b) într-o localitate în care ei ori soțul/soția sau copiii aflați în întreținerea lor dețin o locuință în proprietate;
+
+c) într-o localitate situată la o distanță mai mică de 20 km față de domiciliu, indiferent dacă dețin sau nu locuință în acea localitate..”
+
+Această lege a fost adoptată de Parlamentul României cu respectarea prevederilor art. 75 și ale art. 76 alin (1) din Constituția României, republicată.
+
+PREȘEDINTELE CAMEREI DEPUTAȚILOR Sorin-Mihai GRINDEANU
+
+PREȘEDINTELE SENATULUI Mircea ABRUDEAN

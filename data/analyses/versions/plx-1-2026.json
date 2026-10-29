@@ -1,0 +1,102 @@
+{
+  "slug": "plx-1-2026",
+  "billId": "PL-x 1/2026",
+  "updatedAt": "2026-10-29T13:35:40.073Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/000/00/1/pl797.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Încă un an cu școala de magistrați de 2 ani și cu promovările pe loc blocate",
+      "summaryTlDr": "E o lege tehnică, cerută chiar de CSM, care mai amână cu un an trei termene din legile justiției din 2022. Nu atinge direct cetățenii sau firmele. Problemele sunt de tehnică legislativă: a doua prelungire anuală făcută prin OUG în ultimul moment, un plafon permanent de 20% pus într-un act numit „măsuri temporare” și o dată incompletă la Art. III.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl001_cd001_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Viitorii judecători și procurori admiși în 2026 se pregătesc tot 2 ani, iar două reforme din 2022 se amână cu încă un an",
+      "summaryTlDr": "Este o lege tehnică de prorogare, fără costuri sau obligații pentru cetățeni ori firme, care ține pe linia de plutire un sistem judiciar cu mii de posturi vacante. Problema ține de metodă: este a doua ordonanță de urgență consecutivă emisă la final de decembrie pentru aceeași „urgență”, iar plafonul de 20% pentru promovarea pe loc nu are, în forma din OUG, niciun termen final.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a aprobat OUG 93/2025 fără modificări; problemele din forma inițiatorului rămân",
+      "summary": "Camera Deputaților a aprobat ordonanța exact cum a venit de la Guvern; s-au schimbat doar formulele de adoptare. Rămân amânarea formării de 3 ani la INM, plafonul de 20% fără termen la promovarea pe loc și vechimea ca auditor la concursuri până în 2027.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Formarea de 3 ani la INM se amână din nou, fără calendar de tranziție",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Promovarea pe loc suspendată până la 31.12.2026, apoi plafon de 20% fără termen final",
+            "major": true,
+            "article": "art. II pct. 1 (art. 284 alin. 5 din Legea 303/2022)"
+          },
+          {
+            "text": "Perioada de auditor contează în vechime, inclusiv la DNA/DIICOT, până la 1.01.2027",
+            "major": true,
+            "article": "art. II pct. 2 și art. III"
+          },
+          {
+            "text": "Nu se precizează la ce dată se calculează posturile vacante pentru plafonul de 20%",
+            "major": false,
+            "article": "art. II pct. 1 (art. 284 alin. 5 din Legea 303/2022)"
+          },
+          {
+            "text": "Data pentru procurori apare incompletă în text: „la data de anuarie 2027”",
+            "major": false,
+            "article": "art. III (art. 168 alin. 2 din Legea 304/2022)"
+          },
+          {
+            "text": "Fișa Camerei promite ajustarea personalului, dar textul nu modifică schemele de personal",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Stagii de practică minime garantate: 3 luni în anul I, 6 în anul II",
+            "major": false,
+            "article": "art. I"
+          },
+          {
+            "text": "Repartizarea auditorilor după media a trei note, cu departajare după criterii obiective",
+            "major": false,
+            "article": "art. I alin. (1)-(5)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:29:32.594Z"
+    }
+  ]
+}

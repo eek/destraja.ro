@@ -1,0 +1,102 @@
+{
+  "slug": "plx-415-2026",
+  "billId": "PL-x 415/2026",
+  "updatedAt": "2026-10-29T12:35:40.301Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L248FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Facturile în euro la telefon și internet, convertite la cursul BNR fără adaos",
+      "summaryTlDr": "Lege utilă și ieftin de aplicat: scoate marja ascunsă din cursul de schimb (1–2%, după inițiatori) pe care operatorii o pun peste abonamentele în euro. Problemele sunt de redactare: formula cursului diferă de la un articol la altul, iar art. 84¹ prinde mai multe contracte decât cele cu abonații.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/10/5/se448.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.5,
+      "riskLevel": "green",
+      "plainTitle": "Facturile la telefon și internet în euro vor fi calculate obligatoriu la cursul BNR, fără adaosul băncilor comerciale",
+      "summaryTlDr": "O lege utilă și favorabilă consumatorilor și firmelor, care elimină comisionul mascat de 1-2% rezultat din folosirea cursului de vânzare al băncilor comerciale la facturarea abonamentelor telecom în euro. Are însă câteva scăpări de tehnică legislativă privind contractele deja în derulare și termenul de implementare IT, care trebuie corectate în comisii.",
+      "scores": {
+        "agy": 2,
+        "claude": null,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat textul inițiatorului fără schimbări de fond: facturi în lei la cursul BNR, fără marje",
+      "summary": "Senatul a păstrat neschimbat fondul: facturi în lei la cursul BNR, fără marje, informarea clienților înainte de contract și sancțiunile ANCOM. Au fost corectate doar greșeli de redactare, așa că problemele inițiale rămân, inclusiv lipsa unei reguli clare pentru abonamentele vechi.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Nu plafonează prețurile în euro: operatorii pot scumpi abonamentul, riscul valutar rămâne",
+            "major": true,
+            "article": "art. 84¹"
+          },
+          {
+            "text": "Fără dispoziții tranzitorii; operatorii pot pretinde că se aplică doar contractelor noi",
+            "major": true,
+            "article": "art. 84¹"
+          },
+          {
+            "text": "Art. 84¹ cuprinde orice contract, inclusiv între operatori sau cu clienți străini",
+            "major": true,
+            "article": "art. 84¹"
+          },
+          {
+            "text": "Contravenția de la pct. 46² diferă de art. 84¹ și omite „fără marje”",
+            "major": true,
+            "article": "art. 142 pct. 46²"
+          },
+          {
+            "text": "Ora 13:00 a cursului BNR e fixată în lege, deși ține de practica BNR",
+            "major": false,
+            "article": "art. 84¹"
+          }
+        ],
+        "good": [
+          {
+            "text": "Facturi în lei la cursul oficial BNR, fără marje, adaosuri sau comisioane",
+            "major": true,
+            "article": "art. 84¹"
+          },
+          {
+            "text": "Clienții trebuie informați înainte de contract despre facturarea în lei la cursul BNR",
+            "major": true,
+            "article": "art. 50³ alin. (7)"
+          },
+          {
+            "text": "Încălcarea obligației e contravenție, constatată și sancționată de ANCOM",
+            "major": true,
+            "article": "art. 142 pct. 46², art. 144 alin. (1)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 10,
+        "removed": 11,
+        "same": 0.09
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:33:48.205Z"
+    }
+  ]
+}

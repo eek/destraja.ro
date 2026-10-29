@@ -1,0 +1,194 @@
+{
+  "slug": "plx-646-2026",
+  "billId": "PL 646/2026",
+  "updatedAt": "2026-10-29T13:25:15.948Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L517FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Bancomatele vor trebui să te lase să alegi orice sumă, indiferent de banca ta",
+      "summaryTlDr": "Lege mică, utilă și ieftin de aplicat: obligă orice ATM să ofere opțiunea „altă sumă” și clienților altor bănci. Riscul e scăzut, iar problemele țin de redactare: o excepție vagă pentru „limite tehnice” și cardurile emise în străinătate, lăsate în afara protecției.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/600/40/6/se744.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Suma exactă la orice bancomat, indiferent de banca ta",
+      "summaryTlDr": "Lege utilă și benignă: obligă bancomatele să te lase să tastezi suma dorită, nu doar să alegi din butoane, și când folosești cardul altei bănci. Are însă scăpări de redactare care pot lăsa în afara protecției exact operatorii independenți de ATM și cardurile emise în străinătate.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Suma aleasă la ATM acoperă clar și cardurile băncilor din UE care activează în România",
+      "summary": "Acum legea spune clar că sunt protejate și cardurile băncilor din UE care activează în România, iar operatorii de ATM pot invoca limite tehnice doar dacă sunt obiective și nediscriminatorii. Cardurile băncilor străine fără activitate aici rămân neacoperite.",
+      "changes": [
+        {
+          "title": "Acoperite clar și cardurile băncilor UE active în România",
+          "text": "Art. 221¹ alin. (2): inițial erau acoperite doar cardurile prestatorilor „autorizați” în România; acum sunt incluse explicit și băncile din UE care activează aici prin pașaport european.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 221¹ alin. (2)",
+          "before": "Posibilitatea prevăzută la alin. (1) se asigură tuturor utilizatorilor cardurilor emise de prestatori de servicii de plată autorizați să desfășoare activitate pe teritoriul României, indiferent de emitentul cardului utilizat.",
+          "after": "cardurilor emise de prestatori de servicii de plată care desfășoară activitate pe territoriul României, fie în temeiul autorizării acordate de Banca Națională a României, fie în temeiul dreptului de stabilire sau al libertății de a presta servicii potrivit art. 2 și art. 56",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Refuzurile pe motive tehnice trebuie să fie nediscriminatorii",
+          "text": "Art. 221¹ alin. (4): limitele tehnice invocate trebuie acum să fie obiective, nediscriminatorii, proporționale și aplicate identic în situații comparabile; refuzul pentru cardurile altor bănci devine mai greu.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 221¹ alin. (4)",
+          "before": "Dispozițiile prezentului articol se aplică în limitele disponibilului existent în automatul bancar, ale structurii bancnotelor disponibile și ale limitelor tehnice și de securitate aplicabile operațiunii.",
+          "after": "aceste din urmă limite trebuie să fie obiective, nediscriminatorii, proporționale și aplicate în mod identic utilizatorilor aflați în situații comparabile.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Regula vizează și ATM-urile operatorilor independenți",
+          "text": "Art. 221¹ alin. (1) spune acum că regula se aplică și ATM-urilor operate de furnizori independenți, dar amenda din art. 230 îi vizează doar pe prestatorii de la art. 2, deci sancțiunea pentru aceștia e incertă.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 221¹ alin. (1)",
+          "before": "Prestatorii de servicii de plată care operează automate bancare de retragere numerar au obligația de a pune la dispoziția utilizatorilor posibilitatea introducerii unei sume personalizate pentru retragerea de numerar.",
+          "after": "indiferent dacă terminalul este operat direct de prestatorul emitent al cardului sau de un furnizor de servicii de retragere de numerar prin ATM în sensul art.4 alin.(1) lit.p).",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Indiferent de schema cardului sau moneda retragerii",
+          "text": "Art. 221¹ alin. (2) precizează acum că regula nu depinde de schema cardului sau de monedă; comisioanele, conversia valutară și limitele din contract nu sunt afectate.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 221¹ alin. (2)",
+          "before": "indiferent de emitentul cardului utilizat.",
+          "after": "indiferent de emitentul cardului, de schema de card utilizată sau de moneda contului ori a retragerii, fără a aduce atingere comisioanelor, operațiunilor de conversie valutară și limitelor contractuale aplicabile potrivit contractului-cadru.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Lista faptelor amendate se schimbă doar formal",
+          "text": "Art. 230 trimite acum la art. 221¹ alin. (1) și (2), nu la alin. (1)-(3). Alin. (3) doar lămurește alin. (1), așa că practic aceleași fapte sunt amendate.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 230",
+          "before": "art.221¹ alin. (1) - (3) în situația în care sunt afectate sau pot fi afectate interesele consumatorilor",
+          "after": "art.221¹ alin.(1) și (2) în situația în care sunt afectate sau pot fi afectate interesele consumatorilor",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Legea se aplică după 120 de zile",
+          "text": "Inițial, prestatorii aveau 90 de zile de la intrarea în vigoare să se conformeze; acum legea intră în vigoare la 120 de zile de la publicare.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. II",
+          "before": "Prestatorii de servicii de plată care operează automate bancare de retragere numerar au obligația de a se conforma dispozițiilor prezentei legi în termen de 90 de zile de la data intrării în vigoare a acesteia",
+          "after": "Prezenta lege intră în vigoare în termen de 120 de zile de la data publicării în Monitorul Oficial al României, Partea I.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Cardurile băncilor străine fără activitate în România (turiști, diaspora) rămân neacoperite",
+            "major": true,
+            "article": "art. 221¹ alin. (2)"
+          },
+          {
+            "text": "Operatorii independenți de ATM pot scăpa de amendă, care vizează doar art. 2",
+            "major": true,
+            "article": "art. 221¹ alin. (1), art. 230"
+          },
+          {
+            "text": "„Limite tehnice” nedefinite și „situații comparabile” pot justifica refuzul pentru cardurile altor bănci",
+            "major": true,
+            "article": "art. 221¹ alin. (4)"
+          },
+          {
+            "text": "Amenda se aplică doar când sunt afectați consumatorii, nu firmele sau PFA-urile",
+            "major": true,
+            "article": "art. 230"
+          }
+        ],
+        "good": [
+          {
+            "text": "Orice ATM trebuie să permită suma aleasă; butoanele rapide nu pot fi singura opțiune",
+            "major": true,
+            "article": "art. 221¹ alin. (1) și (3)"
+          },
+          {
+            "text": "Sunt acoperite clar și cardurile băncilor din UE active în România prin pașaport",
+            "major": true,
+            "article": "art. 221¹ alin. (2)"
+          },
+          {
+            "text": "Limitele tehnice trebuie să fie obiective, nediscriminatorii, proporționale și aplicate identic",
+            "major": true,
+            "article": "art. 221¹ alin. (4)"
+          },
+          {
+            "text": "Obligația menționează explicit și ATM-urile operate de furnizori independenți",
+            "major": true,
+            "article": "art. 221¹ alin. (1)"
+          },
+          {
+            "text": "Încălcarea se sancționează cu amendă de 50.000-100.000 lei",
+            "major": true,
+            "article": "art. 230"
+          },
+          {
+            "text": "Regula se aplică indiferent de schema de card sau moneda retragerii",
+            "major": false,
+            "article": "art. 221¹ alin. (2)"
+          },
+          {
+            "text": "Excepțiile pentru numerarul disponibil și cupiuri sunt obiective și rezonabile",
+            "major": false,
+            "article": "art. 221¹ alin. (4)"
+          },
+          {
+            "text": "Regula se aplică printr-o simplă actualizare de software a ATM-urilor",
+            "major": false,
+            "article": "art. 221¹ alin. (1)"
+          },
+          {
+            "text": "Operatorii au 120 de zile până la intrarea în vigoare pentru adaptare",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 10,
+        "removed": 8,
+        "same": 0.09
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:25:15.662Z"
+    }
+  ]
+}

@@ -1,13 +1,145 @@
 {
   "slug": "b549-2026",
   "billId": "B549/2026",
-  "checkedAt": "2026-10-28T08:21:45.203Z",
+  "checkedAt": "2026-10-29T12:06:56.996Z",
   "models": {
-    "agy": "error: răspuns gol după 603s (probabil timp depășit)",
+    "agy": "ok",
     "claude": "ok",
     "codex": "ok"
   },
   "articles": [
+    {
+      "url": "https://www.capital.ro/cum-se-acorda-pensia-provizorie-cine-are-dreptul-la-ea-si-in-ce-conditii-ar-putea-primi-banii-inainte-de-finalizarea-dosarului.html",
+      "title": "Cum se acordă pensia provizorie, cine are dreptul la ea și în ce condiții ar putea primi banii înainte de finalizarea dosarului",
+      "outlet": "Capital",
+      "domain": "capital.ro",
+      "publishedAt": "2026-10-29",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Pentru a reduce timpul de așteptare, o inițiativă legislativă propune modificarea Legii nr. 360/2023 privind sistemul public de pensii.",
+      "match": "quote",
+      "firstSeenAt": "2026-10-29",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-29",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.868,
+            "source": "national_news",
+            "sourceP": 0.733,
+            "about": 0.958,
+            "release": 0.092
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.768,
+            "source": "trade_press",
+            "sourceP": 0.53,
+            "about": 0.679,
+            "release": 0.182
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.97,
+            "source": "national_news",
+            "sourceP": 0.88,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
+      "url": "https://newsweek.ro/pensie/dosarele-de-pensie-ar-putea-fi-solutionate-in-cel-mult-45-de-zile-care-pensionari-sunt-vizati",
+      "title": "Dosarele de pensie ar putea fi soluționate în cel mult 45 de zile. Care pensionari sunt vizați? • Newsweek România",
+      "outlet": "Newsweek România",
+      "domain": "newsweek.ro",
+      "publishedAt": "2026-10-29",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Proiectul B549/2026 propune modificarea și completarea Legii nr. 360/2023 privind sistemul public de pensii.",
+      "match": "quote",
+      "firstSeenAt": "2026-10-29",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-29",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.9,
+            "source": "national_news",
+            "sourceP": 0.88,
+            "about": 0.961,
+            "release": 0.044
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.753,
+            "source": "national_news",
+            "sourceP": 0.658,
+            "about": 0.622,
+            "release": 0.148
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.98,
+            "source": "national_news",
+            "sourceP": 0.98,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.bzi.ro/schimbari-pentru-romanii-care-au-muncit-in-strainatate-pensiile-ar-putea-fi-platite-mai-repede-fara-toate-documentele-5631724",
+      "title": "Schimbări pentru românii care au muncit în străinătate. Pensiile ar putea fi plătite mai repede, fără toate documentele",
+      "outlet": "BZI",
+      "domain": "bzi.ro",
+      "publishedAt": "2026-10-28",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Proiectul propune modificarea Legii nr. 360/2023 privind sistemul public de pensii",
+      "match": "quote",
+      "firstSeenAt": "2026-10-29",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-29",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.857,
+            "source": "national_news",
+            "sourceP": 0.607,
+            "about": 0.958,
+            "release": 0.099
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.881,
+            "source": "aggregator",
+            "sourceP": 0.409,
+            "about": 0.867,
+            "release": 0.095
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.98,
+            "source": "local_news",
+            "sourceP": 0.83,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
     {
       "url": "https://www.gandul.ro/social/cum-ar-putea-beneficia-romanii-care-au-lucrat-in-strainatate-de-pensii-provizorii-care-sunt-conditiile-21047329",
       "title": "Cum ar putea beneficia românii care au lucrat în străinătate de pensii provizorii. Care sunt condițiile",
@@ -53,6 +185,50 @@
       }
     },
     {
+      "url": "https://jurnalul.ro/stiri/observator/pensii-provizorii-romanii-strainatate-conditii-bani-1047946.html",
+      "title": "Pensii provizorii pentru românii care au muncit în străinătate. Cum ar putea primi banii fără să mai aștepte răspunsul altor state",
+      "outlet": "Jurnalul",
+      "domain": "jurnalul.ro",
+      "publishedAt": "2026-10-28",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "O propunere legislativă aflată la Senat ar obliga casele de pensii să emită o decizie provizorie",
+      "match": "quote",
+      "firstSeenAt": "2026-10-29",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-29",
+        "text": "pagina",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.763,
+            "source": "national_news",
+            "sourceP": 0.798,
+            "about": 0.965,
+            "release": 0.049
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.575,
+            "source": "national_news",
+            "sourceP": 0.487,
+            "about": 0.893,
+            "release": 0.076
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.91,
+            "source": "national_news",
+            "sourceP": 0.95,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
       "url": "https://www.mediafax.ro/social/pensii-provizorii-pentru-romanii-care-au-lucrat-in-strainatate-in-ce-conditii-ar-putea-fi-acordate-23832795",
       "title": "Pensii provizorii pentru românii care au lucrat în străinătate. În ce condiții ar putea fi acordate",
       "outlet": "Mediafax",
@@ -61,7 +237,7 @@
       "foundBy": [
         "claude"
       ],
-      "quote": "Propunerea legislativă se află în consultare publică la Senat, iar persoanele interesate pot transmite opinii și sugestii până pe 6 noiembrie 2026.",
+      "quote": "Consiliul Economic și Social (CES) a avizat favorabil inițiativa legislativă, însă a formulat două observații.",
       "match": "quote",
       "firstSeenAt": "2026-10-28",
       "decision": {
@@ -363,6 +539,50 @@
   ],
   "pending": [
     {
+      "url": "https://oficiuldestiri.ro/pensie-provizorie-pentru-romanii-care-au-lucrat-in-strainatate-dosarele-care-ar-putea-fi-platite-inainte-de-decizia-finala",
+      "title": "Pensie provizorie pentru românii care au lucrat în străinătate: Dosarele care ar putea fi plătite înainte de decizia finală",
+      "outlet": "Oficiul de Știri | Stiri de ultima ora interne si externe, breaking news, stiri online, stirile zilei",
+      "domain": "oficiuldestiri.ro",
+      "publishedAt": "2026-10-29",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Propunerea legislativă B549/2026 urmărește modificarea Legii nr. 360/2023 privind sistemul public de pensii, astfel încât persoanele care au lucrat în România și în alte state să nu mai fie obligate să aștepte toate documentele externe atunci când dreptul lor poate fi deja stabilit.",
+      "match": "quote",
+      "firstSeenAt": "2026-10-29",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-29",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.843,
+            "source": "national_news",
+            "sourceP": 0.679,
+            "about": 0.956,
+            "release": 0.102
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.914,
+            "source": "national_news",
+            "sourceP": 0.42,
+            "about": 0.679,
+            "release": 0.133
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.96,
+            "source": "national_news",
+            "sourceP": 0.58,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
       "url": "https://financiarul.ro/finante-personale/proiect-de-pensie-provizorie-pentru-munca-in-strainatate",
       "title": "Ai lucrat în străinătate și aștepți acte pentru pensie? Un proiect ar obliga casa să înceapă plata dacă dosarul permite",
       "outlet": "Financiarul",
@@ -400,6 +620,138 @@
             "stanceP": 0.98,
             "source": "trade_press",
             "sourceP": 0.84,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
+      "url": "https://flashromania.ro/pensie-provizorie-stagii-strainatate-propunere-senat-b549-2026",
+      "title": "Pensie provizorie pentru românii cu stagii în străinătate. Ce prevede propunerea depusă la Senat",
+      "outlet": "Flashromania",
+      "domain": "flashromania.ro",
+      "publishedAt": "2026-10-28",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "O pensie provizorie pentru românii care au lucrat și în străinătate este propusă printr-o inițiativă înregistrată la Senat cu numărul B549/2026, care modifică Legea nr. 360/2023 privind sistemul public de pensii.",
+      "match": "quote",
+      "firstSeenAt": "2026-10-29",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-29",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.889,
+            "source": "national_news",
+            "sourceP": 0.728,
+            "about": 0.969,
+            "release": 0.057
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.892,
+            "source": "trade_press",
+            "sourceP": 0.455,
+            "about": 0.835,
+            "release": 0.119
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.98,
+            "source": "national_news",
+            "sourceP": 0.72,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
+      "url": "https://reporterdealba.ro/2026/10/28/romanii-care-au-muncit-in-strainatate-ar-putea-primi-pensii-provizorii-ce-prevede-noul-proiect",
+      "title": "Românii care au muncit în străinătate ar putea primi pensii provizorii. Ce prevede noul proiect | Reporter de Alba",
+      "outlet": "Reporter de Alba",
+      "domain": "reporterdealba.ro",
+      "publishedAt": "2026-10-28",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "O propunere legislativă aflată în consultare publică la Senat prevede ca persoanele îndreptățite să poată încasa pensia calculată pe baza documentelor disponibile, potrivit Mediafax.",
+      "match": "quote",
+      "firstSeenAt": "2026-10-29",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-29",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.825,
+            "source": "local_news",
+            "sourceP": 0.77,
+            "about": 0.965,
+            "release": 0.04
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.761,
+            "source": "national_news",
+            "sourceP": 0.379,
+            "about": 0.881,
+            "release": 0.076
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.97,
+            "source": "local_news",
+            "sourceP": 0.95,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
+      "url": "https://ziarulromanesc.de/pensii-romani-strainatate-plata-provizorie-proiect-lege-2026",
+      "title": "Pensii pentru românii care au muncit în străinătate. Se pregătește o schimbare importantă - Ziarul Românesc",
+      "outlet": "Ziarul Românesc",
+      "domain": "ziarulromanesc.de",
+      "publishedAt": "2026-10-28",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Proiectul legislativ B549/2026 propune modificarea Legii nr. 360/2023 privind sistemul public de pensii.",
+      "match": "quote",
+      "firstSeenAt": "2026-10-29",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-29",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.807,
+            "source": "national_news",
+            "sourceP": 0.572,
+            "about": 0.96,
+            "release": 0.048
+          },
+          "d1": {
+            "stance": "mixed",
+            "stanceP": 0.696,
+            "source": "national_news",
+            "sourceP": 0.525,
+            "about": 0.777,
+            "release": 0.076
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.91,
+            "source": "national_news",
+            "sourceP": 0.76,
             "about": 0.99,
             "release": 0.01
           }

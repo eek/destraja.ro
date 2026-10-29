@@ -1,0 +1,133 @@
+# Parlamentul României Camera Deputaților GRUPUL PARLAMENTAR S.O.S. ROMÂNIA
+
+## Senatul
+
+Camera Deputaților
+
+## LEGE
+
+privind reglementarea temporară a importurilor de cereale provenite din state terțe, în perioadele de recoltare, pe territoriul României
+
+## CAPITOLUL I. Dispoziții generale
+
+Art. 1 - (1) Prezenta lege instituie un mecanism temporar de reglementare a importurilor de cereale provenite din state terțe, în perioadele de recoltare pe territoriul României, în vederea:
+
+a) protejării producătorilor agricoli interni împotriva distorsiunilor grave ale pieței;
+
+b) asigurării funcționării echitabile a pieței interne a cerealelor;
+
+c) garantării securității alimentare și a stabilității aprovizionării populației cu produse agroalimentare de bază.
+
+(2) Măsurile prevăzute de prezenta lege se aplică cu respectarea obligațiilor ce revin României în calitate de stat membru al Uniunii Europene, inclusiv a normelor privind libera circulație a mărfurilor, ajutoarele de stat și acordurile comerciale internaționale la care Uniunea Europeană este parte.
+
+Art. 2 - În sensul prezentei legi, termenii și expresiile de mai jos au următoarele semnificații:
+
+a) „cereale” - grâu, porumb, orz, ovăz, secară, triticale, precum și alte produse similare stabilite de Ministerului Agriculturii și Dezvoltării Rurale;
+
+b) „state terțe” - state care nu sunt membre ale Uniunii Europene și care nu fac parte din Spațiul Economic European, inclusiv cele vizate de Acordul UE-Mercosur ;
+
+# Parlamentul României Camera Deputaților GRUPUL PARLAMENTAR S.O.S. ROMÂNIA
+
+c) „perioadă de recoltare” - intervalul de timp stabilit anual prin hotărâre a Guvernului, diferențiat, dacă este cazul, pe specii de cereale și zone de producție;
+
+d) „operator economic” - orice persoană fizică autorizată, întreprindere individuală, întreprindere familială sau persoană juridică ce desfășoară activități de producție, comerț, depozitare, procesare sau intermediere cu cereale;
+
+e) „acord de punere în liberă circulație și utilizare” - actul administrativ emis în condițiile prezentei legi, care autorizează importul și utilizarea pe territoriul României a cerealelor provenite din state terțe, în perioada de recoltare.
+
+## CAPITOLUL II Drepturi, obligații, proceduri
+
+Art. 3 - (1) Pe durata perioadei de recoltare, importul pe territoriul României al cerealelor provenite din state terțe se poate realiza numai în baza unui acord de punere în liberă circulație și utilizare, emis în condițiile prezentei legi.
+
+(2)În lipsa acordului prevăzut la alin. (1), introducerea pe territoriul României a cerealelor provenite din state terțe este interzisă pe durata perioadei de recoltare, indiferent de regimul vamal sau de destinația ulterioară a mărfurilor, cu excepția tranzitului în condițiile art. 5 alin. (2).
+
+(3) Regimul instituit prin prezenta lege se aplică fără a aduce atingere dispozițiilor speciale, privind:
+
+## a) ajutoarele umanitare;
+
+b) constituirea și reînnoirea stocurilor de intervenție sau de siguranță, potrivit legislației Uniunii Europene și legislației naționale incidente.
+
+Art. 4 - (1) Pe durata perioadei de recoltare, este interzisă depozitarea, comercializarea, procesarea sau orice altă formă de utilizare pe territoriul României a cerealelor provenite din state terțe, introduse fără acordul prevăzut la art. 3 alin. (1).
+
+(2) Operatorii economici au obligația de a putea demonstra, la solicitarea autorităților competente, originea cerealelor și data introducerii acestora pe teritoriul României, prin documente justificative.
+
+# Parlamentul României Camera Deputaților GRUPUL PARLAMENTAR S.O.S. ROMÂNIA
+
+Art. 5 - (1) Prin derogare de la prevederile art. 3 alin. (2) și art. 4, sunt permise, fără acord, următoarele categorii de importuri:
+
+a) ajutoarele umanitare, în baza documentelor emise de autoritățile sau organizațiile internaționale competente;
+
+b) cantitățile destinate îndeplinirii unor obligații internaționale asumate de statul român, în temeiul tratatelor sau acordurilor internaționale în vigoare.
+
+(2) Tranzitul cerealelor provenite din state terțe, aflate sub un regim vamal suspensiv, este permis pe territoriul României pe durata perioadei de recoltare, cu condiția:
+
+a) sigilării mijloacelor de transport de către autoritatea vamală;
+
+b) monitorizării traseului, fără posibilitatea descărcării, depozitării sau comercializării pe teritoriul României.
+
+(2) Condițiile tehnice de sigilare, monitorizare și control al tranzitului se stabilesc de Ministerului Agriculturii și Dezvoltării Rurale, prin ordin al ministrului.
+
+Art. 6 - (1) Acordul prevăzut la art. 3 alin. (1) se emite, la cererea operatorilor economici, de către Ministerul Agriculturii și Dezvoltării Rurale, cu avizul Ministerului Economiei și a Autorității Vamale Române.
+
+(2) Criteriile, procedura de emitere, suspendare și retragere a acordului, precum și categoriile de operatori economici eligibili se stabilesc de Ministerul Agriculturii și Dezvoltării Rurale, cu respectarea normelor Uniunii Europene.
+
+## CAPITOLUL III Sancțiuni
+
+Art. 7 - (1) Încălcarea prevederilor prezentei legi constituie contravenție și se sancționează după cum urmează:
+
+a) cu amendă de la 100.000 lei la 1.000.000 lei, pentru introducerea pe territoriul României de cereale provenite din state terțe, în perioada de recoltare, fără acordul prevăzut la art. 3 alin. (1);
+
+# Parlamentul României Camera Deputaților GRUPUL PARLAMENTAR S.O.S. ROMÂNIA
+
+b) cu amendă de la 50.000 lei la 500.000 lei, pentru depozitarea, comercializarea, procesarea sau utilizarea cerealelor introduse cu încălcarea prezentei legi;
+
+c) cu amendă de la 50.000 lei la 300.000 lei, pentru nerespectarea condițiilor de tranzit cuprinse în ordinal prevăzut la art. 5 alin. (2).
+
+(2)Sancțiunile contravenționale prevăzute la alin. (1) se aplică persoanelor juridice.
+
+În cazul în care contravenientule este persoană fizică, limitele minime și maxime ale amenzilor se reduc la jumătate.
+
+(3) Pe lângă sancțiunile principale prevăzute la alin. (2), se pot dispune următoarele sancțiuni complementare:
+
+a) confiscarea integrală a mărfii introduse sau utilizate cu încălcarea prezentei legi;
+
+b) suspendarea activității operatorului economic în domeniul comerțului cu cereale pe o perioadă de la 1 la 12 luni, în cazul săvârșirii repetate a contravențiilor.
+
+(4)Constatarea contravențiilor și aplicarea sancțiunilor se fac de către personalul împuternicit al Autorității Vamale Române, Autorității Naționale Sanitar Veterinare și pentru Siguranța Alimentelor și al altor autorități cu atribuții de control, potrivit legii.
+
+(5)Dispozițiile prezentei legi privind contravențiile se completează cu prevederile O.G. nr.2/2001 privind regimul juridic al contravențiilor, republicată, cu modificările și completările ulterioare.
+
+Art. 8 -(1) Măsurile prevăzute de prezenta lege se aplică anual, pe o perioadă de maximum 120 de zile, corespunzătoare perioadelor de recoltare stabilite prin hotărâre a Guvernului, în funcție de evoluția pieței și de necesitatea protejării producătorilor agricoli interni.
+
+(2) Guvernul, la propunerea Ministerului Agriculturii și Dezvoltării Rurale, prezintă anual o informare Parlamentului privind impactul măsurilor instituite prin prezenta lege asupra pieței cerealelor și asupra producătorilor agricoli.
+
+Art. 9 - (1) În măsura în care măsurile instituite prin prezenta lege constituie ajutor de stat în sensul Tratatului privind funcționarea Uniunii Europene, acestea se aplică numai după
+
+# Parlamentul României Camera Deputaților GRUPUL PARLAMENTAR S.O.S. ROMÂNIA
+
+notificarea și autorizarea prealabilă de către Comisia Europeană, în condițiile legislației Uniunii Europene și ale legislației naționale în domeniul ajutorului de stat.
+
+(2) În cazul în care Comisia Europeană solicită modificări ale regimului instituit prin prezenta lege, acestea se operează prin act normativ de același nivel, cu respectarea procedurilor constituționale și legale aplicabile.
+
+## CAPITOLUL IV. Dispoziții finale și transzitorii
+
+Art. 10 - Prezenta lege intră în vigoare la 45 zile de la data publicării în Monitorul Oficial al României, Partea I.
+
+Art. 11.În termen de 3 luni de la intrare în vigoare a prezentei legi, Ministerul Agriculturii și Dezvoltării Rurale emite modelul de acord prevăzut la art. 5 lin. (2) din prezenta lege.
+
+Potrivit art. 75 alin. (1), prima Cameră sesizată este Senatul.
+
+Legea are caracter de lege ordinară, potrivit art. 73 alin. (3) din Constituție.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art.75 alin. (1) și ale art.76 alin.(2) din Constituția României, republicată.
+
+PREȘEDINTELE
+
+PREȘEDINTELE
+
+SENATULUI
+
+CAMEREI DEPUTATILOR
+
+SORIN-MIHAI GRINDEANU
+
+MIRCEA ABRUDEAN

@@ -1,0 +1,126 @@
+{
+  "billId": "PL-x 128/2026",
+  "slug": "plx-128-2026",
+  "version": "initiator",
+  "updatedAt": "2026-10-29T14:10:22.472Z",
+  "consensus": {
+    "riskScore": 3.3,
+    "riskLevel": "green",
+    "plainTitle": "Statul își face inventarul: toate site-urile, aplicațiile, licențele și calculatoarele instituțiilor într-un singur registru",
+    "summaryTlDr": "Este o lege utilă de igienă digitală. Statul află, în sfârșit, ce site-uri, aplicații și licențe deține, iar cetățenii pot verifica dacă un site este oficial. Problema principală este art. 7 alin. (3): orice resursă neînregistrată în 6 luni nu mai poate fi folosită, deși platforma se construiește treptat.",
+    "initiatorClaim": "Inițiatorii USR spun că resursele IT ale statului sunt fragmentate, fără evidență și fără proprietar clar. Asta ar produce riscuri cibernetice și investiții dublate. Ei propun un registru național unic, aliniat la NIS2, cu un responsabil desemnat în fiecare instituție și cu transparență față de cetățeni.",
+    "realityCheck": "Legea creează PNIDP, administrată de ADR pe infrastructura STS, cu 7 registre: domenii, e-mailuri, site-uri, aplicații, licențe, hardware și proiecte. Toate instituțiile civile, centrale și locale, trebuie să își înscrie resursele în 6 luni. Efectele concrete sunt dure: resursele neînscrise nu mai pot fi folosite (art. 7 alin. 3), iar proiectele neînscrise nu pot fi finanțate (art. 7 alin. 4). Multe detalii esențiale sunt lăsate normelor metodologice: accesul la datele sensibile, calendarul registrelor, modelul codului unic. Afirmația „fără impact bugetar” se sprijină pe PNRR și pe alte fonduri europene nespecificate.",
+    "affectedGroups": [
+      "IT & AI",
+      "Toți cetățenii",
+      "IMM & Antreprenori",
+      "Sănătate & Educație"
+    ],
+    "senatForm": {
+      "articleRef": "Art. 7 alin. (3)",
+      "proposalContent": "(3) La expirarea termenului de la alin. (1), ADR somează entitățile publice care nu au înregistrat resursele să le înregistreze în 30 de zile. Termenul de la alin. (1) curge numai de la data la care registrul specializat corespunzător este operațional. Neînregistrarea nu poate conduce la întreruperea serviciilor publice furnizate cetățenilor.",
+      "argumentation": "Art. 7 alin. (3) interzice automat folosirea oricărei resurse neînregistrate, inclusiv site-ul primăriei sau sistemul unui spital, deși art. 6 alin. (1) spune că registrele se construiesc treptat. Cetățenii ar plăti pentru întârzierea instituției. Somația și termenul legat de registrul operațional păstrează presiunea fără a bloca servicii.",
+      "otherComments": "Legea e deja promulgată (Lege 119/2026), deci propunerea cere o lege de modificare. Tot atunci: art. 10 alin. (1) lit. c) cere contactul responsabilului, dar alin. (3) interzice date personale; art. 3 lit. e) lasă în afara obligației proiectele plătite din bugete locale sau venituri proprii. Analiza se bazează pe forma inițiatorului."
+    }
+  },
+  "council": {
+    "agy": {
+      "model": "agy",
+      "status": "ok",
+      "durationMs": 54153,
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Inventarul național al site-urilor, licențelor și echipamentelor IT ale statului (Platforma PNIDP)",
+      "verdictShort": "O lege utilă și necesară care obligă instituțiile publice să își declare toate site-urile, domeniile, licențele și proiectele IT într-un registru național unic, reducând risipa de bani publici și haosul digital. Singurul risc este de ordin tehnic: termenele foarte scurte pot bloca temporar achizițiile sau sistemele IT ale instituțiilor dacă platforma ADR nu este gata la timp.",
+      "initiatorClaim": "Inițiatorii vor să elimine haosul din infrastructura IT a statului, dublarea achizițiilor de software și riscurile cibernetice prin crearea Platformei Naționale a Infrastructurii Digitale Publice (PNIDP), un inventar unic administrat de ADR cu sprijinul STS și DNSC.",
+      "realityCheck": "Legea instituie șapte registre specializate (domenii web, adrese de e-mail oficiale, site-uri, aplicații, licențe, hardware și proiecte IT) și interzice finanțarea proiectelor digitale neînregistrate, precum și plata unor licențe noi atunci când există licențe neutilizate în alte instituții. Totuși, textul conține o necorelare între implementarea treptată a platformei (Art. 6) și interdicția automată de a mai folosi resursele IT neînregistrate după 6 luni de la intrarea în vigoare a legii (Art. 7).",
+      "affectedGroups": [
+        "IT & AI",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Toate entitățile publice centrale și locale sunt obligate să își desemneze un responsabil digital și să își înregistreze site-urile, aplicațiile, licențele și echipamentele hardware în PNIDP în termen de 6 luni (Art. 7 alin. 1 și Art. 9 alin. 2).",
+        "Se interzice finanțarea, achiziționarea sau modernizarea oricărui proiect digital public dacă nu este înregistrat în prealabil în PNIDP (Art. 7 alin. 4), iar licențele software neutilizate vor fi redistribuite cu avizul conform al ADR (Art. 12 alin. 3).",
+        "Fiecare site și document electronic oficial va primi un „cod unic persistent” de certificare a provenienței (Art. 7 alin. 5-6), ajutând cetățenii să deosebească portalurile oficiale ale statului de site-uri clonă sau de phishing.",
+        "Necorelare tehnică la Art. 7 alin. (3): după 6 luni de la intrarea în vigoare a legii, resursele neînregistrate „nu mai pot fi utilizate”, deși Art. 4 alin. (4) acordă 90 de zile doar pentru ordinul comun ADR-STS-DNSC, iar Art. 6 alin. (1) prevede că registrele se dezvoltă treptat."
+      ],
+      "blindSpotsCaught": "Art. 3 lit. e) definește „proiectul digital public” doar ca inițiativă finanțată din „fonduri ale bugetului de stat, sau fonduri europene”, omițând complet bugetele locale și bugetele proprii ale instituțiilor, deși legea se aplică expres și autorităților publice locale (Art. 1 alin. 5). De asemenea, redistribuirea licențelor software între entități publice cu personalitate juridică distinctă (ex. între o primărie și un minister) la Art. 12 alin. (3) nu reglementează regimul juridic și contabil al transferului patrimonial.",
+      "constitutionalityNote": "Sub aspectul calității legii (Art. 1 alin. 5 din Constituție), există o contradicție internă între Art. 6 alin. (1) – care prevede dezvoltarea treptată a registrelor PNIDP potrivit unui calendar din normele metodologice – și Art. 7 alin. (1) și (3), care instituie o decădere din dreptul de utilizare a resurselor IT la 6 luni de la intrarea în vigoare a legii, indiferent dacă ADR și STS au operaționalizat sau nu registrele. De asemenea, redistribuirea bunurilor (licențelor) achiziționate din bugetele locale ale UAT-urilor fără acordul autorităților deliberative locale poate atinge principiul autonomiei locale (Art. 120-121 din Constituție).",
+      "euLawNote": "Măsura este convergentă cu obiectivele Directivei (UE) 2022/2555 (NIS2) privind gestiunea activelor informatice și securitatea cibernetică în sectorul public, precum și cu Regulamentul (UE) 2024/903 (Interoperable Europe Act). Nu instituie bariere pe piața unică și nu necesită notificare TRIS conform Directivei (UE) 2015/1535, întrucât vizează exclusiv guvernanța internă a infrastructurii digitale a sectorului public.",
+      "senatForm": {
+        "articleRef": "Art. 7 alin. (1) și alin. (3)",
+        "proposalContent": "La art. 7, alin. (1) și (3) se modifică și vor avea următorul cuprins: „(1) Entitățile publice înregistrează în PNIDP resursele digitale publice în termen de 6 luni de la data operaționalizării fiecărui registru specializat prin ordin ADR. (3) La expirarea termenului de la alin. (1), resursele neînregistrate din culpa entității nu mai pot fi utilizate.”",
+        "argumentation": "Art. 6 alin. (1) prevede că registrele PNIDP se dezvoltă treptat, însă art. 7 alin. (1) și (3) interzic utilizarea resurselor digitale neînregistrate după 6 luni de la intrarea în vigoare a legii. Dacă platforma nu este complet funcțională în 6 luni, instituțiile ar fi obligate legal să își oprească sistemele IT și site-urile proprii.",
+        "otherComments": "La art. 3 lit. e), definiția „proiectului digital public” menționează doar finanțarea din bugetul de stat sau fonduri europene, omițând bugetele locale, deși legea se aplică și autorităților publice locale conform art. 1 alin. (5). Se recomandă completarea definiției cu sintagma „bugetele locale sau alte fonduri publice”."
+      }
+    },
+    "claude": {
+      "model": "claude",
+      "status": "ok",
+      "durationMs": 135756,
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Statul își face inventarul: toate site-urile, aplicațiile, licențele și calculatoarele instituțiilor într-un singur registru",
+      "verdictShort": "Este o lege utilă de igienă digitală. Statul află, în sfârșit, ce site-uri, aplicații și licențe deține, iar cetățenii pot verifica dacă un site este oficial. Problema principală este art. 7 alin. (3): orice resursă neînregistrată în 6 luni nu mai poate fi folosită, deși platforma se construiește treptat.",
+      "initiatorClaim": "Inițiatorii USR spun că resursele IT ale statului sunt fragmentate, fără evidență și fără proprietar clar. Asta ar produce riscuri cibernetice și investiții dublate. Ei propun un registru național unic, aliniat la NIS2, cu un responsabil desemnat în fiecare instituție și cu transparență față de cetățeni.",
+      "realityCheck": "Legea creează PNIDP, administrată de ADR pe infrastructura STS, cu 7 registre: domenii, e-mailuri, site-uri, aplicații, licențe, hardware și proiecte. Toate instituțiile civile, centrale și locale, trebuie să își înscrie resursele în 6 luni. Efectele concrete sunt dure: resursele neînscrise nu mai pot fi folosite (art. 7 alin. 3), iar proiectele neînscrise nu pot fi finanțate (art. 7 alin. 4). Multe detalii esențiale sunt lăsate normelor metodologice: accesul la datele sensibile, calendarul registrelor, modelul codului unic. Afirmația „fără impact bugetar” se sprijină pe PNRR și pe alte fonduri europene nespecificate.",
+      "affectedGroups": [
+        "IT & AI",
+        "Toți cetățenii",
+        "IMM & Antreprenori",
+        "Sănătate & Educație"
+      ],
+      "keyFindings": [
+        "Art. 7 alin. (3): după 6 luni, resursele neînregistrate „nu mai pot fi utilizate”. Nu există excepție pentru servicii esențiale. Spitalele, școlile și primăriile nu sunt excluse prin art. 1 alin. (6), așa că o întârziere birocratică a instituției poate deveni o întrerupere de serviciu pentru cetățean.",
+        "Art. 6 alin. (1) și art. 7 alin. (1) se contrazic. Registrele se dezvoltă gradual, după un calendar stabilit prin norme. Totuși, termenul de 6 luni curge de la intrarea în vigoare a legii, indiferent dacă registrul respectiv funcționează.",
+        "Art. 10 alin. (1) lit. c) cere datele de contact ale responsabilului digital, iar art. 9 alin. (2) lit. b) creează un registru al e-mailurilor oficiale. Adresele de tip nume.prenume@instituție.ro sunt însă date personale conform GDPR, pe care art. 10 alin. (3) le interzice în registre. Textul cere și interzice același lucru.",
+        "Art. 10 alin. (1) lit. d) adună în același loc configurații, versiuni și certificări de securitate, adică o hartă a punctelor slabe ale statului. Regimul de acces la datele interne și sensibile este lăsat în întregime normelor metodologice (art. 8 alin. 3), nu legii.",
+        "Art. 7 alin. (5)-(6): codul unic persistent afișat pe interfețe și în înscrisurile electronice ajută împotriva phishingului doar dacă cetățeanul îl verifică în PNIDP. Fiind un simplu cod vizibil, poate fi copiat pe un site fals. Nu este o semnătură sau un sigiliu electronic.",
+        "Art. 12 alin. (3): redistribuirea licențelor neutilizate între instituții aduce o economie reală. Este însă condiționată de contract, iar multe licențe comerciale sunt netransferabile, deci efectul practic poate fi limitat."
+      ],
+      "blindSpotsCaught": "Art. 3 lit. e) definește proiectul digital public doar ca proiect finanțat de la bugetul de stat sau din fonduri europene. Proiectele plătite din bugete locale, din FNUASS sau din venituri proprii nu intră în definiție, deci scapă de interdicția de finanțare din art. 7 alin. (4). Tocmai la nivel local fragmentarea este cea mai mare. Art. 3 lit. a) include echipamentele hardware, dar art. 3 lit. h) definește resursele digitale publice ca „date informatice”, așa că registrul de hardware are o bază de definiție șubredă. STS operează infrastructura PNIDP, dar ca parte a sistemului de apărare și securitate națională este exclus din aplicarea legii (art. 1 alin. 6). Expunerea de motive anunță „sancțiuni pecuniare”, dar extrasul se oprește la art. 12, deci proporționalitatea lor nu a putut fi verificată. PNRR, invocat ca sursă de finanțare, avea termenul pentru jaloane la 31 august 2026.",
+      "constitutionalityNote": "Riscul este scăzut spre moderat și poate fi corectat. Contradicțiile interne (art. 6 cu art. 7, art. 10 alin. 1 lit. c cu alin. 3, art. 3 lit. a cu lit. h) slăbesc claritatea și previzibilitatea cerute de art. 1 alin. (5). Obligațiile uniforme impuse autorităților locale sunt compatibile în principiu cu autonomia locală (art. 120-121). Totuși, legea le impune costuri de conformare, iar expunerea afirmă că nu există impact bugetar, fără o sursă de finanțare identificată, ceea ce ridică o problemă pe art. 138 alin. (5). Legea fiind deja adoptată, aceste aspecte mai pot fi ridicate doar pe calea excepției de neconstituționalitate sau rezolvate printr-o lege de modificare. Publicarea datelor despre resursele publice susține dreptul la informație (art. 31).",
+      "euLawNote": "Directiva 2018/958 nu se aplică, fiindcă legea nu reglementează o profesie. Nici TRIS (2015/1535) nu pare să ceară notificare: legea guvernează resursele interne ale administrației, nu reguli pentru servicii ale societății informaționale oferite de privați. Anexa 1 („standard tehnic minim”) trebuie însă verificată, dacă impune specificații furnizorilor; în achiziții, Directiva 2014/24 (art. 42) interzice trimiterea la mărci, iar preferința pentru standarde deschise este compatibilă. Reutilizarea software-ului plătit din bani publici este aliniată cu Regulamentul (UE) 2024/903 (Interoperable Europe Act). Accesibilitatea trebuie corelată cu Directiva 2016/2102 (OUG 112/2018). Registrul e-mailurilor și contactele responsabililor intră sub GDPR. NIS2 nu cere un astfel de registru, deci expunerea exagerează legătura. Codul de proveniență nu înlocuiește sigiliul electronic calificat din eIDAS.",
+      "senatForm": {
+        "articleRef": "Art. 7 alin. (3)",
+        "proposalContent": "(3) La expirarea termenului de la alin. (1), ADR somează entitățile publice care nu au înregistrat resursele să le înregistreze în 30 de zile. Termenul de la alin. (1) curge numai de la data la care registrul specializat corespunzător este operațional. Neînregistrarea nu poate conduce la întreruperea serviciilor publice furnizate cetățenilor.",
+        "argumentation": "Art. 7 alin. (3) interzice automat folosirea oricărei resurse neînregistrate, inclusiv site-ul primăriei sau sistemul unui spital, deși art. 6 alin. (1) spune că registrele se construiesc treptat. Cetățenii ar plăti pentru întârzierea instituției. Somația și termenul legat de registrul operațional păstrează presiunea fără a bloca servicii.",
+        "otherComments": "Legea e deja promulgată (Lege 119/2026), deci propunerea cere o lege de modificare. Tot atunci: art. 10 alin. (1) lit. c) cere contactul responsabilului, dar alin. (3) interzice date personale; art. 3 lit. e) lasă în afara obligației proiectele plătite din bugete locale sau venituri proprii. Analiza se bazează pe forma inițiatorului."
+      }
+    },
+    "codex": {
+      "model": "codex",
+      "status": "ok",
+      "durationMs": 92010,
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Inventarul digital al statului, cu risc de blocare a serviciilor",
+      "verdictShort": "Extrasul descrie o reformă utilă pentru inventarierea și reutilizarea resurselor IT publice, dar interdicția automată de folosire a resurselor neînregistrate poate perturba serviciile publice. Evaluarea privește forma inițiatorului furnizată, nu forma promulgată, care nu a putut fi verificată.",
+      "initiatorClaim": "Inițiatorii urmăresc reducerea risipei, clarificarea drepturilor asupra resurselor IT și creșterea securității și transparenței administrației. Ei susțin că platforma poate fi realizată cu infrastructura și finanțările existente, fără costuri suplimentare de personal.",
+      "realityCheck": "Textul instituie o evidență centralizată administrată de ADR, cu obligații de inventariere, actualizare și identificare a resurselor digitale publice. Art. 7 interzice utilizarea resurselor neînregistrate după șase luni și finanțarea, achiziționarea sau modernizarea proiectelor neînregistrate, deși dezvoltarea registrelor este graduală. Extrasul nu instituie taxe pentru cetățeni sau IMM-uri; sancțiunile pecuniare invocate în motivare nu pot fi evaluate deoarece dispozițiile respective nu sunt furnizate.",
+      "affectedGroups": [
+        "IT & AI",
+        "IMM & Antreprenori",
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 6 prevede implementarea graduală a registrelor, însă art. 7 alin. (1) și (3) fixează înregistrarea și interdicția utilizării prin raportare la intrarea în vigoare a legii. Extrasul nu condiționează termenul de funcționarea efectivă a platformei și nu oferă o procedură de remediere înaintea interdicției.",
+        "Art. 7 alin. (4) poate preveni investițiile IT duplicate, dar trebuie corelat cu etapele proiectelor și achizițiilor. Definiția proiectului digital public din art. 3 lit. e) menționează bugetul de stat și fondurile europene, fără să includă expres finanțarea exclusiv din bugete locale.",
+        "Art. 8 separă informațiile publice de cele interne și sensibile, ceea ce este util pentru securitate. Totuși, art. 10 alin. (1) lit. d) impune inventarierea configurațiilor și versiunilor; protejarea acestui inventar centralizat necesită reguli clare de acces și trasabilitate.",
+        "Art. 10 alin. (3) interzice înscrierea datelor personale, în timp ce alin. (1) lit. c) cere datele de contact ale responsabilului digital. Cerințele pot fi conciliate prin contacte funcționale, dar textul trebuie să precizeze soluția; o adresă profesională nominală poate constitui dată personală.",
+        "Afirmația din expunerea de motive privind lipsa impactului bugetar nu rezultă din absența posturilor noi. Dezvoltarea platformei, integrarea, inventarierea, securizarea și mentenanța consumă bani și timp administrativ; extrasul nu permite cuantificarea lor.",
+        "Codul persistent prevăzut la art. 7 alin. (5) și (6) poate facilita verificarea provenienței, însă simpla afișare a unui identificator nu garantează autenticitatea înscrisului electronic și nu echivalează cu o semnătură sau un sigiliu electronic."
+      ],
+      "blindSpotsCaught": "Stadiul comunicat este deja Lege 119/2026, iar termenul indicat pentru amendamente a expirat. Dacă aceste informații sunt corecte, propunerea cetățeanului poate fundamenta o inițiativă de modificare a legii, dar nu mai poate fi preluată ca amendament în procedura parlamentară încheiată. Extrasul se întrerupe la art. 12 alin. (3), fără anexele și dispozițiile ulterioare, astfel încât nu poate susține concluzii despre întregul regim sancționator sau despre forma finală.",
+      "constitutionalityNote": "Problema principală privește art. 1 alin. (5) din Constituție: termenul independent de operaționalizare, noțiunea nedefinită de caz urgent și efectele automate ale neînregistrării ridică probleme de claritate și previzibilitate. Art. 23 alin. (12) privește legalitatea pedepselor și nu transformă orice obligație administrativă într-o problemă penală; extrasul nu conține incriminări. Pentru cheltuielile efectiv generate sunt relevante art. 111 alin. (1) și art. 138 alin. (5), însă o neconstituționalitate bugetară nu poate fi stabilită fără documentele financiare și istoricul procedurii. Delegarea normelor de acces trebuie să păstreze în lege garanțiile esențiale pentru protecția datelor.",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea restricțiilor privind accesul la profesii reglementate și exercitarea lor; desemnarea unui responsabil digital dintre angajații existenți nu atrage, prin ea însăși, aplicarea directivei. Notificarea TRIS potrivit Directivei (UE) 2015/1535 nu este obligatorie pentru orice lege despre digitalizare: trebuie verificat dacă dispozițiile și anexele integrale introduc reglementări tehnice notificabile, inclusiv reguli specifice serviciilor societății informaționale. Extrasul nu reglementează distinct AI și nu demonstrează o obligație de notificare încălcată. RGPD rămâne aplicabil eventualelor date personale, indiferent de denumirea lor ca metadate. Administrarea registrului de către ADR nu instituie, în sine, un monopol asupra furnizării soluțiilor IT; impactul concurențial depinde de standardele complete și de condițiile achizițiilor.",
+      "senatForm": {
+        "articleRef": "Art. 7 alin. (1) și (3)",
+        "proposalContent": "(1) Entitățile publice înregistrează resursele digitale în 6 luni de la operaționalizarea registrelor aplicabile, anunțată public de ADR. (3) Neînregistrarea nu interzice automat utilizarea resurselor. ADR notifică entitatea și acordă cel puțin 60 de zile pentru remediere, cu asigurarea continuității serviciilor publice.",
+        "argumentation": "Art. 6 permite dezvoltarea graduală a registrelor, dar termenul actual curge de la intrarea în vigoare a legii. Instituțiile pot ajunge în imposibilitatea de a se conforma. Corelarea termenului cu operaționalizarea și notificarea prealabilă sporesc previzibilitatea și reduc riscul întreruperii serviciilor publice.",
+        "otherComments": "Potrivit stadiului comunicat, proiectul a devenit Legea nr. 119/2026, iar termenul de amendamente a expirat. Propunerea poate susține o inițiativă de modificare a legii. Sursele oficiale nu au putut fi consultate; formularea trebuie confruntată cu textul promulgat, deoarece analiza privește extrasul incomplet al inițiatorului."
+      }
+    }
+  }
+}

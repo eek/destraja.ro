@@ -1,0 +1,87 @@
+## LEGE
+
+# pentru modificarea și completarea Legii nr. 185/2016 privind unele măsuri necesare pentru implementarea proiectelor de importanță națională în domeniul gazelor naturale
+
+Parlamentul României adoptă prezenta lege.
+
+Art. I. - Legea 185/2016 privind unele măsuri necesare pentru implementarea proiectelor de importanță națională în domeniul gazelor naturale, publicată în Monitorul Oficial al României, Partea I, nr. 848 din 25 octombrie 2016, se modifică și se completează după cum urmează:
+
+1\. La articolul 1 se introduc două noi alineate, alineatele (2) și (3), cu următorul cuprins:
+
+„(2) Prevederile prezentei legi se aplică în mod corespunzător și proiectelor de importanță națională în domeniul gazelor naturale aferente activității de înmagazinare, astfel cum este definită de art. 100 pct. 56 din Legea energiei electrice și a gazelor naturale nr. 123/2012, cu modificările și completările ulterioare.
+
+(3) Proiectele de importanță natională în domeniul gazelor naturale, cu excepția proiectelor de interes comun, se declară astfel prin hotărâre a Guvernului, la inițiativa autorității competente.”
+
+2\. La articolul 2, literele d), h), k), l) și m) ale alineatului (1) se modifică și vor avea următorul cuprins:
+
+„d) conducta - conducta de alimentare din amonte, conducta de transport gaze naturale amplasată pe territoriul României, care face obiectul proiectului de importanță natională, inclusiv instalațiile de suprafață și toate facilitățile aferente formate din alimentări cu energie electrică cu montaj aerian și/sau subteran, drumuri de acces, clădiri, alimentări cu apă, canalizări si fibră optică, precum și conductele care fac parte din instalațiile tehnologice de suprafață aferente depozitelor de înmagazinare subterană a gazelor naturale, inclusiv instalațiile tehnologice și sondele de înmagazinare aparținând sistemului de înmagazinare;
+
+h) instalațiile de suprafață - stațiile de măsurare gaze naturale, stațiile de reglare-măsurare gaze naturale, stațiile de comprimare gaze naturale, stațiile de robinete de secționare, nodurile tehnologice, instalațiile tehnologice de suprafață aferente înmagazinării subterane a gazelor naturale, liniile electrice aeriene, posturile de transformare pentru alimentare cu energie electrică, stațiile de protecție catodică, prizele anodice, bornele și prizele de potențial amplasate pe traseul unei conducte de transport gaze naturale, răsuflătorile de la tuburile de protecție, precum și altele asemenea, pentru a căror construire și utilizare este necesară folosirea terenului aferent pe care sunt construite, pe toată durata existenței și funcționării acestora;
+
+k) lucrările - lucrările de construire, realizare, dezvoltare, modernizare, reabilitare, retehnologizare, operare, exploatare, de intervenție în caz de avarie, revizie sau reparație și de întreținere aferente conductei/conductelor de alimentare din amonte sau de transport gaze naturale, instalațiilor tehnologice de suprafață aferente înmagazinării subterane a gazelor naturale și facilităților aferente depozitelor de înmagazinare a gazelor naturale, inclusiv instalațiile tehnologice și sondele de înmagazinare care face/fac obiectul proiectelor de importanță națională în domeniul gazelor naturale;
+
+1\) persoanele îndreptățite - proprietarii imobilelor afectate de construirea, dezvoltarea, modernizarea, reabilitarea, retehnologizarea, operarea, exploatarea, intervențiile în caz de avarie, reviziile, reparațiile și întreținerea conductei/conductelor, instalațiilor tehnologice de suprafață specifice înmagazinării subterane a gazelor naturale și sondelor de înmagazinare aparținând sistemului de înmagazinare care face/fac obiectul proiectelor de importanță națională în domeniul gazelor naturale, îndreptățiți să primească indemnizații și/sau despăgubiri conform prezentei legi;
+
+m) proiectele de importanță națională în domeniul gazelor naturale - proiectele în domeniul gazelor naturale declarate ca fiind de importanță națională, prin hotărâre a Guvernului, precum și proiectele de interes comun în domeniul gazelor naturale, stabilite prin regulamente europene; prin prezenta lege, acestea sunt considerate ca fiind de utilitate publică, de interes național, precum și de siguranță și securitate națională în sensul prevederilor Ordonanței de urgență a Guvernului nr. 57/2007 privind regimul ariilor naturale protejate, conservarea habitatelor naturale, a florei și faunei sălbatice, aprobată cu modificări și completări prin Legea nr. 49/2011, cu modificările și completările ulterioare;”
+
+## 3. La articolul 3, alineatul (1) se modifică și va avea următorul cuprins:
+
+„Art. 3. - (1) Ocuparea temporară a terenurilor forestiere proprietate publică a statului și a unităților administrativ- teritoriale pentru realizarea lucrărilor specifice proiectelor de importanță națională se face cu titlu gratuit pe toată durata de existență a conductelor, instalațiilor tehnologice de suprafață aferente înmagazinării subterane a gazelor naturale și sondelor de înmagazinare aparținând sistemului de înmagazinare, aferente proiectelor de importanță națională în domeniul gazelor naturale, prin derogare de la prevederile art. 46 alin. (1) lit. b) din Legea nr. 331/2024 - Codul silvic, cu modificările și completările ulterioare.”
+
+## 4. La articolul 3, după alineatul (2) introduce un nou alineat, alineatul (2¹), cu următorul cuprins:
+
+„(2¹) Prin derogare de la prevederile art. 45 alin. (1) lit. b) din Legea nr. 331/2024, cu modificările și completările ulterioare, scoaterea definitivă din fondul forestier național a terenurilor forestiere proprietate publică a statului și proprietate publică/privată a unităților administrativ-teritoriale din culoarul de lucru pentru realizarea lucrărilor specifice proiectelor de importanță națională în domeniul gazelor naturale se face cu titlu gratuit atât pe toată durata de realizare a lucrărilor, cât și pe toată durata de existență a obiectivelor care fac obiectul proiectelor de importanță națională, conform prezentei legi.”
+
+## 5. La articolul 3, alineatele (3) și (4) se modifică și vor avea următorul cuprins:
+
+„(3) La realizarea lucrărilor aferente proiectelor de importanță națională în domeniul gazelor naturale, chiria și contravaloarea pierderii de creștere determinate de exploatarea masei lemnoase înainte de vârsta exploatabilității tehnice, datorate pentru ocuparea temporară a terenurilor forestiere aflate în proprietate privată, se stabilesc potrivit art. 18 alin. (5) și se consemnează sau se achită cu titlu de indemnizație de către inițiatorul proiectului, în condițiile prezentei legi.
+
+(4) Acordul proprietarului pentru terenurile forestiere proprietate privată, prevăzut la art. 44 alin. (5) din Legea nr. 331/2024, cu modificările ulterioare și completările ulterioare, se încheie de către proprietar sub forma înscrisului sub semnătură privată pentru ocuparea temporară a terenurilor forestiere din fondul forestier național și se depune în copie certificată pentru conformitate cu originalul de inițiatorul proiectului la instituția competentă să emită aprobarea de ocupare temporară.”
+
+## 6. La articolul 3, după alineatul (12) se introduce un nou alineat, alineatul (13), cu următorul cuprins:
+
+„(13) Prin derogare de la art. 46 alin. (6) din Legea nr. 331/2024, cu modificările și completările ulterioare, în vederea realizării proiectelor de importanță națională în domeniul gazelor naturale, predarea-primirea terenului pentru care s-a aprobat ocuparea temporară din fondul forestier național se face în prezența reprezentantului Gărzii Forestiere competente teritorial, la solicitarea inițiatorului proiectului, în termen de maximum 2 ani de la data aprobării.”
+
+## 7. La articolul 4, alineatele (1) și (6) se modifică și vor avea următorul cuprins:
+
+„Art. 4. - (1) Prin derogare de la art. 94 - 96 din Legea nr. 18/1991, republicată, cu modificările și completările ulterioare, scoaterea temporară/definitivă a terenurilor agricole situate în extravilan, afectate de lucrările definite la art. 2 alin. (1) lit. k), se realizează prin efectul prezentei legi, pe baza hotărârii Guvernului prin care se aprobă lista terenurilor agricole situate în extravilan care fac obiectul proiectelor de importanță națională în domeniul gazelor naturale, fără a fi condiționată de obținerea avizului/aprobarea organelor agricole cu atribuții în domeniu.
+
+(6) Scoaterea temporară a terenurilor din circuitul agricol se realizează prin efectul prezentei legi, fără plata tarifului la Fondul de ameliorare a fondului funciar, prin derogare de la prevederile art. 92 alin. (5) din Legea nr. 18/1991, republicată, cu modificările și completările ulterioare.”
+
+## 8. La articolul 8, litera a) a alineatului (1) și alineatul (2) se modifică și vor avea următorul cuprins:
+
+a) indemnizațiile pentru proprietarii de imobile în schimbul limitărilor aduse dreptului de folosință pe durata efectuării lucrărilor necesare proiectelor de importanță națională în domeniul gazelor naturale;
+
+(2) Indemnizațiile datorate în schimbul limitării folosinței imobilelor pe durata efectuării lucrărilor se stabilesc pe baza rapoartelor de evaluare întocmite de evaluatori autorizați.”
+
+9\. La articolul 21, după alineatul (9) se introduce un nou alineat, alineatul (10), cu următorul cuprins:
+
+„(10) Prin derogare de la prevederile art.14 și 15 din Legea contenciosului administrativ nr. 554/2004, cu modificările și completările ulterioare, și ale art. 997 din Legea nr. 134/2010 privind Codul de procedură civilă, republicată, cu modificările și completările ulterioare, nu se poate dispune suspendarea lucrărilor pentru proiectele ce fac obiectul prezentei legi.”
+
+10\. La articolul 22, literele b), e) și f) ale alineatului (4) se modifică și vor avea următorul cuprins:
+
+„b) autorizarea executării lucrărilor de construcții aferente proiectelor de importanță națională în domeniul gazelor naturale se face de către autoritatea competentă, cu respectarea prevederilor prezentei legi;
+
+e) perioada de valabilitate a autorizațiilor de construire emise pentru proiectele de importanță națională în domeniul gazelor naturale este de 36 de luni de la data emiterii;
+
+f) începerea lucrărilor în perioada de valabilitate a autorizației determină extinderea valabilității autorizațiilor de construire pe toată durata de execuție a lucrărilor prevăzute prin autorizație;”
+
+## 11. La articolul 22, alineatul (6) se modifică și va avea următorul cuprins:
+
+„(6) Certificatele de urbanism, avizele, acordurile, permisele sau autorizațiile, inclusiv autorizațiile de construire și oricare alte operațiuni administrative emise pentru aceste lucrări după intrarea în vigoare a prezentei legi, sunt valabile până la finalizarea executării lucrărilor pentru care au fost eliberate, respectiv până la eliberarea procesului-verbal de recepție finală a lucrărilor la efectuarea recepției la terminarea lucrărilor, indiferent de data emiterii, respectiv de data prelungirii autorizației de construire.”
+
+12\. La articolul 22, după alineatul (6), se introduce un nou alineat, alineatul (6¹), cu următorul cuprins:
+
+„(6¹) În situația în care autorizația de construire este suspendată sau își încetează efectele din oricare cauze, înainte de finalizarea tuturor lucrărilor proiectului, autoritatea competentă are obligația de a elibera, la solicitarea beneficiarului, pentru rațiuni ce țin de securitatea națională, în termen de maximum 5 zile lucrătoare de la data înregistrării cererii motivate, o nouă autorizație de construire, prevederile alin. (6) aplicându-se în mod corespunzător.”
+
+13\. La articolul 22, după alineatul (7) se introduce un nou alineat, alineatul (8), cu următorul cuprins:
+
+„(8) În situația neînceperii lucrărilor în termenul de valabilitate a autorizației de construire sau a schimbării de temă și dacă nu au fost aprobate reglementări urbanistice diferite față de cele în temeiul cărora a fost emisă autorizația inițială, se poate emite o nouă autorizație de construire în baza aceleiași documentații pentru autorizarea executării lucrărilor de construire/desființare, fără a fi necesar un nou certificat de urbanism și fără obținerea unor noi avize/acorduri, în măsura în care această nouă autorizație de construire este solicitată într-un interval de timp egal cu termenul de valabilitate al autorizației de construire inițiale. În cazul schimbării regimului de protecție al imobilului sau al zonei în care se află acesta, de la data emiterii autorizației și până la noua solicitare de autorizație este necesară reconfirmarea avizului emis de către autoritatea emitentă responsabilă.”
+
+## 14. După articolul 22 se introduce un nou articol, articolul 22¹, cu următorul cuprins:
+
+„Art. 22¹. - (1) Decizia menținerii sau a desființării construcțiilor realizate se ia de către Ministerul Energiei în baza unei documentații depuse de către inițiatorul proiectului care atestă conformitatea lucrărilor executate cu proiectul tehnic de execuție și cu respectarea condițiilor din acordul de mediu sau punctul de vedere al autorității competente emis cu respectarea legislației privind protecția mediului.
+
+(2) Prevederile art. 1 alin. (2) și ale art. 2 lit. m) privind declararea unor proiecte în domeniul gazelor naturale ca fiind de importanță națională prin hotărâre a Guvernului se aplică în mod corespunzător, anterior emiterii deciziei prevăzute la alin. (1).
+
+(3) Autorizațiile de desființare prevăzute la alin. (1) se emit cu respectarea prevederilor art. 22 alin. (2).”

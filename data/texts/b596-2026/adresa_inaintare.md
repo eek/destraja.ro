@@ -1,0 +1,13 @@
+Biroul permanent al Senatului Bp..../28.10.2026.
+
+## Către Biroul Permanent al Senatului
+
+În temeiul art.92 din Regulamentul Senatului, republicat, cu modificările și completările ulterioare, și al art.74 din Constituția României, republicată, vă înaintăm spre dezbatere și adoptare propunerea legislativă pentru modificarea Legii nr. 165/2018 privind acordarea biletelor de valoare.
+
+În temeiul art.115 alin.(1) din Regulamentul Senatului, vă solicităm adoptarea în procedură de urgență.
+
+Inițiatori:
+
+Solomon Adhian, deputat, PSD.
+
+Budoi ellarius Constautkin, deputat PSD

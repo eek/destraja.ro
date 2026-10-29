@@ -1,0 +1,132 @@
+{
+  "billId": "PL-x 157/2026",
+  "slug": "plx-157-2026",
+  "version": "initiator",
+  "updatedAt": "2026-10-29T11:38:50.472Z",
+  "consensus": {
+    "riskScore": 4.3,
+    "riskLevel": "yellow",
+    "plainTitle": "Primăriile și instituțiile renunță la Gmail: e-mail oficial obligatoriu, verificabil într-un registru public",
+    "summaryTlDr": "Ideea e bună și necesară, pentru că primăriile care lucrează pe Gmail sunt o problemă reală de securitate. Textul e însă scris în grabă: trimite la o sancțiune care nu există, are o formulare care poate bloca e-mailurile către Gmail-ul cetățenilor și creează o arhivă centrală a corespondenței fără reguli de acces în lege.",
+    "initiatorClaim": "Inițiatorii spun că peste 67% dintre unitățile administrativ-teritoriale folosesc Gmail, Yahoo sau Outlook pentru corespondența oficială, cu riscuri de scurgeri de date, interceptare și phishing. Vor un e-mail de stat unic și sigur, plus un registru public în care oricine poate verifica dacă un expeditor e chiar o instituție.",
+    "realityCheck": "Legea obligă toate instituțiile civile să folosească doar adrese pe gov.ro sau pe domenii proprii .ro, înregistrate într-un registru public al ADR și găzduite implicit în Cloudul Privat Guvernamental operat de STS. Adresele comerciale sunt interzise, iar șefii și angajații care le folosesc pot fi amendați. Cetățenii și firmele nu primesc obligații noi, dar art. 7 alin. (2) poate fi citit ca interdicție ca instituțiile să le scrie pe propriile adrese Gmail. Ca efecte secundare, legea creează o arhivă centrală a întregii corespondențe oficiale fără reguli de acces fixate în lege, lasă să se piardă mesajele sosite pe vechile adrese după termen și trimite la sancțiuni care nu există (art. 8 alin. 3).",
+    "affectedGroups": [
+      "Toți cetățenii",
+      "IT & AI",
+      "Angajați & HR",
+      "Justiție & Drepturi Civile"
+    ],
+    "senatForm": {
+      "articleRef": "Art. 7 alin. (2) și (3)",
+      "proposalContent": "(2) Entitățile publice nu folosesc adrese comerciale proprii. Persoanele fizice și juridice pot comunica de pe orice adresă și primesc răspuns la aceasta. (3) Timp de 12 luni de la intrarea în vigoare, mesajele primite pe vechile adrese comerciale sunt redirecționate automat la adresa oficială, apoi adresele se închid cu notificare de eroare către expeditor.",
+      "argumentation": "Textul actual permite citirea că instituțiile nu pot trimite documente pe Gmail/Yahoo-ul cetățenilor, deși așa comunică mulți oameni. Iar după 12 luni, petițiile trimise pe vechile adrese se pierd fără ca expeditorul să afle. Redirecționarea și închiderea cu eroare protejează dreptul de petiție (art. 51 Constituție) și termenele legale.",
+      "otherComments": "Art. 8 alin. (3) trimite la sancțiuni din art. 9 pentru domenii radiate, dar art. 9 nu prevede o asemenea faptă; trebuie corelat. Arhivarea centrală (art. 4 lit. c) are nevoie, în lege, de operator responsabil, termen de păstrare și reguli de acces. RNAEO ar trebui să publice domeniile și adresele funcționale, nu toate adresele nominale ale angajaților."
+    }
+  },
+  "council": {
+    "agy": {
+      "model": "agy",
+      "status": "ok",
+      "durationMs": 75087,
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Adio primării pe Yahoo și Gmail: e-mail oficial obligatoriu pentru toate instituțiile statului, dar cu câteva capcane de redactare",
+      "verdictShort": "O reformă necesară care interzice instituțiilor publice să mai folosească adrese gratuite de tip Yahoo sau Gmail și creează un registru public anti-phishing. Totuși, redactarea imprecisă riscă să blocheze serviciile private de găzduire pe domenii .ro și poate fi folosită ca pretext de funcționari pentru a nu mai răspunde cetățenilor pe adresele lor personale de e-mail.",
+      "initiatorClaim": "Inițiatorii vor să elimine practica prin care peste 67% dintre primării și numeroase instituții publice folosesc adrese comerciale nesecurizate (Gmail, Yahoo, Outlook) pentru corespondența oficială, înființând un Serviciu Național de Comunicare Electronică (SNCE) și un registru public al adreselor oficiale (RNAEO).",
+      "realityCheck": "Pe fond, legea rezolvă o vulnerabilitate reală de securitate cibernetică și oferă sprijin financiar comunelor sub 10.000 de locuitori pentru migrare. Însă definiția „adresei comerciale” (Art. 2 lit. d) este atât de largă încât interzice și soluțiile profesionale de e-mail plătite (hosting privat sau cloud) dacă nu rulează pe serverele proprii ale instituției ori în cloudul STS/ADR, iar Art. 7 alin. (2) este formulat ambiguu și poate afecta comunicarea cu cetățenii.",
+      "affectedGroups": [
+        "Toți cetățenii",
+        "IT & AI",
+        "Angajați & HR",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Ambiguitate periculoasă în relația cu cetățenii (Art. 7 alin. 2): Textul interzice entităților publice „să solicite sau să furnizeze cetățenilor documente sau informații prin intermediul adreselor de poștă electronică comercială”, fără a preciza că interdicția vizează exclusiv adresa instituției; un funcționar zelos ar putea refuza trimiterea răspunsurilor la petiții către adresa personală de Gmail/Yahoo a cetățeanului.",
+        "Monopol de facto asupra găzduirii e-mailurilor instituționale (Art. 2 lit. d și Art. 8): Este definită drept „comercială” (și deci interzisă) orice adresă furnizată „gratuit sau contra cost” de furnizori IT, alta decât cea din SNCE sau administrată pe „infrastructura proprie” a entității publice — excluzând furnizorii privați de hosting/cloud chiar și atunci când instituția, școala, spitalul sau compania de stat folosește propriul domeniu .ro.",
+        "Protecția cetățeanului de bună-credință este omisă exact unde conta mai mult (Art. 7 vs. Art. 8 alin. 3): Deși Expunerea de Motive promite că folosirea ilegală a unei adrese comerciale de către un funcționar nu anulează actul față de cetățeanul de bună-credință, în textul legii această garanție apare doar la Art. 8 alin. (3) (pentru domenii radiate după audit), lipsind din Art. 7."
+      ],
+      "blindSpotsCaught": "Art. 7 alin. (3) prevede că, după 12 luni, mesajele primite pe vechile adrese comerciale „nu vor mai fi operaționalizate” (adică petițiile cetățenilor trimise pe o adresă veche rămasă pe un afiș sau site neactualizat vor fi pur și simplu ignorate, derogând tacit de la OG nr. 27/2002 privind petițiile). În plus, există o necorelare între Art. 10 alin. (1) și Art. 7 alin. (3): legea intră în vigoare la 12 luni de la publicare, iar obligația de auto-reply curge încă 12 luni după intrarea în vigoare, în timp ce la Art. 6 alin. (4) s-a strecurat eroarea materială „a notiînca” în loc de „a notifica”.",
+      "constitutionalityNote": "Sub aspectul Art. 1 alin. (5) din Constituție (calitatea și previzibilitatea legii), Art. 4 lit. c) impune „arhivarea automată și trasabilitatea completă a comunicărilor electronice oficiale” într-o platformă centralizată operată tehnic de STS pentru toate autoritățile centrale, locale și entitățile subordonate, fără a stabili în legea primară termenele de stocare, condițiile de acces și garanțiile împotriva accesului neautorizat la conținutul corespondenței (Art. 28 și Art. 53 din Constituție). De asemenea, sintagma „autorități publice centrale” din Art. 1 alin. (4), fără excluderea expresă a autorității judecătorești și a Parlamentului, poate ridica probleme privind separația puterilor în stat (Art. 1 alin. 4).",
+      "euLawNote": "Deși obiectivul este aliniat cu Directiva (UE) 2022/2555 (NIS2) și cu GDPR, excluderea de plano a furnizorilor privați de servicii cloud/e-mail certificabili (Art. 2 lit. d) ridică probleme din perspectiva liberei prestări a serviciilor pe piața internă (Art. 56 TFUE) și a neutralității tehnologice. Totodată, instituirea unor cerințe tehnice obligatorii pentru serviciile societății informaționale impune evaluarea obligației de notificare conform Directivei (UE) 2015/1535 (TRIS).",
+      "senatForm": {
+        "articleRef": "Art. 2 lit. d), Art. 7 alin. (2)-(3) și Art. 9",
+        "proposalContent": "1. La art. 2 lit. d), se exclud din definiția adresei comerciale serviciile contractate pe domenii instituționale proprii (.ro/.gov.ro) ce respectă cerințele de securitate. 2. La art. 7 alin. (2), se clarifică faptul că interdicția vizează doar adresa expeditorului public, nu și adresa privată a cetățeanului. 3. Valabilitatea actelor față de terții de bună-credință se extinde și la art. 7.",
+        "argumentation": "Actuala formulare a art. 2 lit. d) interzice și găzduirea plătită (cloud/hosting privat) chiar pe domeniu oficial .ro dacă nu e pe serverele fizice proprii. În plus, art. 7 alin. (2) este ambiguu și poate fi invocat abuziv de funcționari pentru a refuza trimiterea de răspunsuri către adresele personale (Gmail/Yahoo) ale cetățenilor, iar protecția terțului de bună-credință lipsește din art. 7.",
+        "otherComments": "La art. 4 lit. c), arhivarea automată a tuturor comunicărilor oficiale în SNCE necesită stabilirea prin lege a duratei de stocare și a garanțiilor de acces, conform jurisprudenței CCR și GDPR. De asemenea, la art. 6 alin. (4) trebuie corectată eroarea materială („notiînca” -> „notifica”), iar normele (art. 10) trebuie corelate cu Legea nr. 24/2000."
+      }
+    },
+    "claude": {
+      "model": "claude",
+      "status": "ok",
+      "durationMs": 165493,
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Primăriile și instituțiile renunță la Gmail: e-mail oficial obligatoriu, verificabil într-un registru public",
+      "verdictShort": "Ideea e bună și necesară, pentru că primăriile care lucrează pe Gmail sunt o problemă reală de securitate. Textul e însă scris în grabă: trimite la o sancțiune care nu există, are o formulare care poate bloca e-mailurile către Gmail-ul cetățenilor și creează o arhivă centrală a corespondenței fără reguli de acces în lege.",
+      "initiatorClaim": "Inițiatorii spun că peste 67% dintre unitățile administrativ-teritoriale folosesc Gmail, Yahoo sau Outlook pentru corespondența oficială, cu riscuri de scurgeri de date, interceptare și phishing. Vor un e-mail de stat unic și sigur, plus un registru public în care oricine poate verifica dacă un expeditor e chiar o instituție.",
+      "realityCheck": "Legea obligă toate instituțiile civile să folosească doar adrese pe gov.ro sau pe domenii proprii .ro, înregistrate într-un registru public al ADR și găzduite implicit în Cloudul Privat Guvernamental operat de STS. Adresele comerciale sunt interzise, iar șefii și angajații care le folosesc pot fi amendați. Cetățenii și firmele nu primesc obligații noi, dar art. 7 alin. (2) poate fi citit ca interdicție ca instituțiile să le scrie pe propriile adrese Gmail. Ca efecte secundare, legea creează o arhivă centrală a întregii corespondențe oficiale fără reguli de acces fixate în lege, lasă să se piardă mesajele sosite pe vechile adrese după termen și trimite la sancțiuni care nu există (art. 8 alin. 3).",
+      "affectedGroups": [
+        "IT & AI",
+        "Justiție & Drepturi Civile",
+        "Angajați & HR",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 7 alin. (2), citit împreună cu art. 2 lit. d), interzice să se „solicite sau furnizeze” documente prin adrese comerciale, dar nu spune ale cui sunt adresele. Literal, poate fi citit ca interdicție de a trimite acte pe Gmail-ul sau Yahoo-ul cetățeanului, deși art. 1 alin. (1) promite tocmai comunicarea cu persoanele fizice.",
+        "Art. 8 alin. (3) spune că folosirea domeniilor radiate atrage sancțiunile din art. 9. Art. 9 sancționează însă doar neînregistrarea în RNAEO, lipsa mesajului automat și folosirea adreselor comerciale. Fapta nu e definită ca contravenție, deci trimiterea rămâne fără efect.",
+        "Art. 7 alin. (3) prevede că, după 12 luni, mesajele primite pe vechile adrese comerciale „nu vor mai fi operaționalizate”. O petiție sau o contestație trimisă din obișnuință pe vechiul Gmail al primăriei se poate pierde fără ca expeditorul să afle.",
+        "Art. 4 lit. c) și art. 3 alin. (3) cer arhivarea automată și „trasabilitatea completă” a tuturor comunicărilor oficiale, inclusiv a celor cu cetățenii, operate de STS. Legea nu desemnează operatorul de date și nu stabilește termenul de păstrare sau regulile de acces; totul e lăsat normelor de aplicare din art. 10 alin. (2).",
+        "Art. 9 prevede amenzi de 5.000–10.000 lei pentru conducători și 1.000–3.000 lei pentru angajați, aplicate de ADR. Conducătorul răspunde pentru neînregistrarea în RNAEO chiar dacă întârzierea vine de la ADR sau STS. Angajatul poate fi amendat pentru Gmail chiar dacă instituția nu i-a dat o adresă oficială.",
+        "Art. 2 lit. d) nu clarifică dacă Microsoft 365 sau Google Workspace pe domeniul propriu al instituției (ex. primaria-x.ro) înseamnă adresă „comercială”. Dacă da, instituțiile care au trecut deja pe domeniu propriu trebuie să migreze din nou sau să obțină avizul conform al ADR (art. 8).",
+        "Art. 5 alin. (3) cere ca toate comunicările oficiale să treacă „în sistem integrat prin SNCE”, în timp ce art. 8 alin. (1) permite găzduirea într-un sistem independent. Textul nu spune care regulă prevalează.",
+        "Legea intră în vigoare la 12 luni de la publicare (art. 10 alin. 1), iar mesajul automat pe vechile adrese durează încă 12 luni (art. 7 alin. 3). Tranziția reală e deci de circa doi ani, nu de 12 luni cum o prezintă expunerea de motive."
+      ],
+      "blindSpotsCaught": "Expunerea de motive promite „finanțare integrală” pentru UAT-urile sub 10.000 de locuitori. Art. 1 alin. (7) spune însă doar „sprijinul tehnic și financiar necesar”, din fondurile ADR „și/sau” de la bugetul de stat, fără sumă și fără termen. Pragul acoperă marea majoritate a comunelor, deci costul real poate fi mare. Registrul public (art. 6 alin. 2–3) va lista toate adresele active, inclusiv cele nominale ale angajaților, adică exact o listă de ținte pentru phishing, deși scopul declarat e combaterea lui. Problema de fond pentru cetățeni, dovada că o notificare a fost trimisă și primită, rămâne nerezolvată: SNCE nu e reglementat ca serviciu calificat de trimitere electronică recomandată, iar legea nu spune ce efect juridic are un mesaj trimis prin el.",
+      "constitutionalityNote": "Scopul e legitim, iar legea nu impune obligații cetățenilor sau firmelor. Problemele țin în primul rând de art. 1 alin. (5), adică de claritatea și previzibilitatea legii. Art. 7 alin. (2) e ambiguu, art. 5 alin. (3) se bate cap în cap cu art. 8, iar art. 8 alin. (3) sancționează o faptă pe care art. 9 nu o definește, ceea ce încalcă legalitatea contravenției. Arhivarea automată a corespondenței (art. 4 lit. c) atinge art. 26 și 28, privind viața privată și secretul corespondenței cetățenilor. După jurisprudența CCR privind reținerea datelor (deciziile 1258/2009 și 440/2014), garanțiile de acces și păstrare trebuie puse în lege, nu lăsate pe seama hotărârii de Guvern. Pierderea fără notificare a mesajelor trimise pe vechile adrese (art. 7 alin. 3) afectează dreptul de petiție (art. 51). Avizul conform al ADR pentru autoritățile locale limitează autonomia locală (art. 120), dar limitarea e justificabilă prin securitate dacă criteriile sunt obiective. Art. 1 alin. (7) creează cheltuieli bugetare, așa că trebuie verificat dacă există fișa financiară și punctul de vedere al Guvernului (art. 111 alin. 1 și art. 138 alin. 5).",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, fiindcă legea nu reglementează accesul la o profesie. Notificarea TRIS (2015/1535) pare neobligatorie: regulile privesc felul în care autoritățile își organizează propria corespondență, nu condițiile în care furnizorii de e-mail își oferă serviciile. Dacă normele metodologice vor impune cerințe tehnice furnizorilor, chestiunea trebuie reevaluată. Operarea de către STS e atribuită prin lege unei instituții publice, deci ține de organizarea internă a statului, nu de achiziții publice. Firmele locale care găzduiesc azi e-mailul primăriilor pierd totuși o parte din piață, așa că criteriile avizului conform al ADR (art. 8) trebuie să fie publice și nediscriminatorii. Pe GDPR, legea nu desemnează operatorul arhivei centrale, nu fixează termene de păstrare (art. 5 alin. 1 lit. e) și publică toate adresele active, ceea ce contravine minimizării datelor. Pe eIDAS, un e-mail de pe gov.ro nu beneficiază de prezumția legală de expediere și primire a serviciilor calificate de trimitere recomandată. Legea e compatibilă cu NIS2 și o sprijină.",
+      "senatForm": {
+        "articleRef": "Art. 7 alin. (2) și (3)",
+        "proposalContent": "(2) Entitățile publice nu folosesc adrese comerciale proprii. Persoanele fizice și juridice pot comunica de pe orice adresă și primesc răspuns la aceasta. (3) Timp de 12 luni de la intrarea în vigoare, mesajele primite pe vechile adrese comerciale sunt redirecționate automat la adresa oficială, apoi adresele se închid cu notificare de eroare către expeditor.",
+        "argumentation": "Textul actual permite citirea că instituțiile nu pot trimite documente pe Gmail/Yahoo-ul cetățenilor, deși așa comunică mulți oameni. Iar după 12 luni, petițiile trimise pe vechile adrese se pierd fără ca expeditorul să afle. Redirecționarea și închiderea cu eroare protejează dreptul de petiție (art. 51 Constituție) și termenele legale.",
+        "otherComments": "Art. 8 alin. (3) trimite la sancțiuni din art. 9 pentru domenii radiate, dar art. 9 nu prevede o asemenea faptă; trebuie corelat. Arhivarea centrală (art. 4 lit. c) are nevoie, în lege, de operator responsabil, termen de păstrare și reguli de acces. RNAEO ar trebui să publice domeniile și adresele funcționale, nu toate adresele nominale ale angajaților."
+      }
+    },
+    "codex": {
+      "model": "codex",
+      "status": "ok",
+      "durationMs": 119013,
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "E-mail oficial pentru instituții, cu reguli neclare pentru cetățeni",
+      "verdictShort": "Proiectul urmărește un obiectiv util: securizarea corespondenței instituțiilor. Totuși, formulările despre adresele comerciale, cererile cetățenilor și sancțiuni trebuie corectate pentru a evita blocaje și aplicări arbitrare.",
+      "initiatorClaim": "Inițiatorii urmăresc înlocuirea adreselor comerciale folosite de instituții cu o infrastructură publică securizată și un registru verificabil. Procentul de 67% și afirmațiile despre modelele străine provin din expunerea de motive și nu sunt demonstrate prin textul normativ furnizat.",
+      "realityCheck": "Proiectul impune instituțiilor adrese înregistrate și găzduire publică sau infrastructură independentă avizată și auditată, fără să oblige explicit cetățenii să obțină conturi SNCE. Art. 7 alin. (2) nu precizează însă cui aparține adresa comercială, ceea ce poate afecta inclusiv comunicarea cu cetățenii care folosesc Gmail sau servicii similare. Apar costuri publice de migrare, administrare și audit, fără taxe directe pentru cetățeni sau IMM-uri prevăzute în text.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "IT & AI",
+        "Angajați & HR",
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 7 alin. (2), raportat la definiția largă din art. 2 lit. d), permite interpretarea că instituțiile nu pot trimite documente nici către adresele comerciale ale cetățenilor. Interdicția trebuie limitată expres la adresele folosite de instituții.",
+        "Art. 7 alin. (3) prevede că mesajele primite pe vechile adrese nu mai sunt operaționalizate după tranziție. Lipsesc reguli de redirecționare, informare și protejare a cererilor pentru care curg termene legale.",
+        "Art. 10 alin. (1) amână intrarea în vigoare cu 12 luni de la publicare, iar art. 7 alin. (3) adaugă încă 12 luni de răspuns automat. Aceasta nu este o autorizare clară de a continua expedierea oficială de pe adrese comerciale în a doua perioadă.",
+        "Art. 8 alin. (3) trimite la sancțiunile art. 9 pentru utilizarea domeniilor radiate, dar art. 9 nu descrie distinct această faptă. Folosirea unui domeniu propriu radiat nu devine automat folosire de adresă comercială; sancțiunile nu pot fi extinse prin analogie.",
+        "Art. 4 lit. c) prevede arhivare automată și trasabilitate completă, iar art. 6 un registru public cu istoricul modificărilor. Lipsesc delimitarea datelor publicate, regulile de acces la corespondență și termenele de păstrare; publicarea adreselor nominale poate implica date personale.",
+        "Art. 8 permite infrastructură independentă avizată: proiectul nu instituie un monopol absolut de găzduire. Totuși, criteriile esențiale pentru avizare și radiere, termenele și remedierea deficiențelor ar trebui precizate, deoarece condiționează accesul furnizorilor și continuitatea serviciilor.",
+        "Art. 1 alin. (7) oferă sprijin UAT-urilor sub 10.000 de locuitori, dar art. 10 alin. (3) enumeră doar surse generale de finanțare. Textul furnizat nu cuantifică implementarea, funcționarea, auditurile sau costurile instituțiilor care nu beneficiază de acest sprijin.",
+        "Înregistrarea unei adrese în RNAEO permite verificarea apartenenței sale declarate, dar nu dovedește singură autenticitatea fiecărui mesaj și nu transformă e-mailul într-un serviciu calificat de distribuție electronică înregistrată."
+      ],
+      "blindSpotsCaught": "Expunerea de motive prezintă protejarea valabilității actelor transmise ca beneficiu general, însă art. 8 alin. (3) o prevede expres numai pentru domeniile radiate și destinatarul de bună-credință. De asemenea, termenul pentru amendamente indicat, 19.03.2026, este depășit la data analizei, 29.10.2026; o propunere cetățenească nu devine automat amendament parlamentar.",
+      "constitutionalityNote": "Evaluarea privește textul furnizat; verificarea online a stadiului și a legislației actualizate nu a fost disponibilă. Art. 1 alin. (5) din Constituție este relevant pentru ambiguitatea interdicțiilor și necorelarea sancțiunilor. Art. 23 alin. (12) privește direct pedepsele penale; pentru aceste contravenții, critica principală privește legalitatea și previzibilitatea normei sancționatorii. Refuzul automat de procesare poate afecta dreptul de petiționare, art. 51, în funcție de cerere și de canalele disponibile. Centralizarea și arhivarea trebuie însoțite de garanții pentru viața privată și secretul corespondenței, art. 26 și 28. Pentru cheltuielile publice trebuie verificate documentele bugetare și respectarea art. 111 alin. (1) și art. 138 alin. (5); enumerarea surselor nu demonstrează singură fundamentarea financiară. Nu rezultă o neconstituționalitate automată a întregului proiect.",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea reglementării profesiilor, nu orice restricție concurențială; textul nu introduce o profesie reglementată. Avizarea infrastructurilor și excluderea unor furnizori necesită totuși justificări obiective și proporționale, inclusiv în raport cu achizițiile publice. Directiva (UE) 2015/1535 nu devine aplicabilă doar fiindcă proiectul privește servicii digitale: trebuie stabilit dacă introduce reglementări tehnice notificabile, inclusiv norme privind serviciile societății informaționale. Nu se poate deduce din documentele furnizate nici obligația certă de notificare, nici încălcarea ei. GDPR impune delimitarea scopurilor, minimizarea datelor, retenție și securitate, iar necesitatea unei evaluări de impact trebuie analizată. eIDAS nu echivalează adresa oficială cu dovada calificată a expedierii și primirii. Prezentarea eIDAS2 drept viitor este depășită: Regulamentul (UE) 2024/1183 fusese deja adoptat.",
+      "senatForm": {
+        "articleRef": "Art. 7 alin. (2) și (3)",
+        "proposalContent": "(2) Interdicția privește numai adresele folosite de entitățile publice. Persoanele fizice și juridice pot utiliza orice adresă de e-mail, cu respectarea cerințelor legale aplicabile. (3) Adresele vechi transmit automat noua adresă timp de 12 luni. Cererile primite pe adresele vechi active se înregistrează și se soluționează potrivit legii.",
+        "argumentation": "Textul actual nu distinge adresa instituției de cea a cetățeanului și permite blocarea corespondenței trimise de pe servicii comerciale. Amendamentul păstrează obligația instituțiilor de a utiliza adrese oficiale și protejează dreptul de petiționare, fără a obliga cetățenii sau firmele să obțină alte conturi.",
+        "otherComments": "Propunere cetățenească destinată comisiilor raportoare ale Camerei Deputaților, pentru eventuala preluare de către un deputat. Termenul indicat, 19.03.2026, este depășit; posibilitatea preluării trebuie verificată în raport cu stadiul procedural actual. Sunt necesare și corelarea art. 8 cu art. 9 și garanții pentru datele personale."
+      }
+    }
+  }
+}

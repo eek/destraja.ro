@@ -1,0 +1,132 @@
+{
+  "slug": "plx-556-2026",
+  "billId": "PL-x 556/2026",
+  "updatedAt": "2026-10-29T13:06:52.139Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L299FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "Casele de pensii separate (culte, avocați), tratate la fel ca sistemul public",
+      "summaryTlDr": "Repară discriminări reale față de pensionarii caselor de pensii din afara sistemului public. În schimb, adaugă cheltuieli la buget fără nicio cifră, pune sarcini pe CNPP și pe Poșta Română fără compensare și dă o scutire fiscală cu o trimitere greșită. Ideea e legitimă, dar textul trebuie reparat în comisii.",
+      "scores": {
+        "agy": 3,
+        "claude": 4,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/50/6/se636.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Pensionarii din sistemele de pensii separate (culte, avocați) primesc aceleași ajutoare de la stat",
+      "summaryTlDr": "Intenția e corectă: proiectul repară discriminări reale suferite de pensionarii caselor de pensii ale cultelor. Textul e însă scris în grabă. Nu are niciun cost estimat, folosește formule vagi („toate drepturile sociale”) și conține o trimitere fiscală care poate transforma o clarificare într-o scutire totală de impozit.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat tacit forma inițiatorului; textul a rămas neschimbat ca fond",
+      "summary": "Senatul nu a votat proiectul la timp, așa că acesta s-a considerat adoptat tacit în forma inițiatorului. Acum textul diferă doar prin diacritice și punctuație, deci riscurile și beneficiile au rămas aceleași.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "«Toate drepturile sociale» nu sunt definite: nu se știe care și din ce buget",
+            "major": true,
+            "article": "art. 4¹ alin. (2)"
+          },
+          {
+            "text": "Costul indemnizației și ajutoarelor extinse nu e estimat; lipsește fișa financiară",
+            "major": true,
+            "article": "art. 4¹ alin. (2)"
+          },
+          {
+            "text": "Nu se spune ce casă plătește pensionarea mai devreme cu stagii cumulate",
+            "major": true,
+            "article": "art. 51 alin. (3)"
+          },
+          {
+            "text": "Poștei Române i se impun prin lege tarifele sistemului public, fără compensație",
+            "major": true,
+            "article": "art. 97 alin. (3¹)"
+          },
+          {
+            "text": "CNPP trebuie să asigure infrastructura la casele neintegrate, fără sursă de finanțare",
+            "major": true,
+            "article": "art. 152¹"
+          },
+          {
+            "text": "Casele teritoriale nu au datele pensionarilor neintegrați; legea nu spune cum le primesc",
+            "major": false,
+            "article": "art. 4¹ alin. (2)"
+          },
+          {
+            "text": "Formula «orice altă aplicație implementată în cauză» este vagă",
+            "major": false,
+            "article": "art. 152¹"
+          },
+          {
+            "text": "Trimiterea la art.156 și 157 pentru aplicarea art.100 alin.(2) este confuză",
+            "major": false,
+            "article": "art. 100 alin. (4)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Pensionarii caselor neintegrate primesc indemnizația socială și ajutoarele ocazionale ca ceilalți",
+            "major": true,
+            "article": "art. 4¹ alin. (2)"
+          },
+          {
+            "text": "Femeile cu stagii în ambele sisteme le pot cumula pentru pensionare mai devreme",
+            "major": true,
+            "article": "art. 51 alin. (3)"
+          },
+          {
+            "text": "Casele neintegrate pot cere băncilor restituirea pensiilor plătite după deces, în 30 de zile",
+            "major": true,
+            "article": "art. 156 alin. (8)"
+          },
+          {
+            "text": "Contribuțiile asiguraților neintegrați se plătesc obligatoriu în fondul casei lor de pensii",
+            "major": true,
+            "article": "art. 137¹ Cod fiscal"
+          },
+          {
+            "text": "Casele neintegrate se conectează la EESSI pentru dosarele de pensii internaționale",
+            "major": false,
+            "article": "art. 152¹"
+          },
+          {
+            "text": "Casele neintegrate pot obține extrase de stare civilă de la instituțiile deținătoare",
+            "major": false,
+            "article": "art. 100 alin. (4)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 7,
+        "removed": 7,
+        "same": 0.72
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:06:52.139Z"
+    }
+  ]
+}

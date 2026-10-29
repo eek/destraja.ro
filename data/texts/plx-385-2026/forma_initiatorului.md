@@ -1,0 +1,25 @@
+CAMERA DEPUTAȚILOR
+
+SENAT
+
+# LEGE pentru modificarea Legii nr. 36/1991 privind societățile agricole și alte forme de asociere în agricultură
+
+Parlamentul României adoptă prezenta lege:
+
+Articol unic. La art.4¹ din Legea nr.36/1991 privind societățile agricole și alte forme de asociere în agricultură, publicată în Monitorul Oficial al României, Partea I nr. 97 din 22 decembrie 2004, se modifică și se completează după cum urmează:
+
+Art. 4¹
+
+(1) Societățile agricole se pot transforma, în condițiile legii, în societăți cu respectarea dispozițiilor Legii societăților nr. 31/1990, republicată, cu modificările și completările ulterioare sau în cooperative agricole cu respectarea Legii Cooperației Agricole nr. 566/2004, cu modificările și completările ulterioare.
+
+(1) Societățile agricole se pot reorganiza prin transformare, în condițiile prezentei legi, în una dintre formele societare prevăzute și reglementate de Legea societăților nr. 31/1990, republicată, cu modificările și completările ulterioare.
+
+Acest proiect de lege a fost adoptat de Parlamentul României, cu respectarea prevederilor art. 76 alin (2) din Constituția României republicată.
+
+Sorin-Mihai GRINDEANU
+
+Președintele Camerei Deputaților
+
+Președintele Senatului
+
+Mircea ABRUDEAN

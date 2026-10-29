@@ -1,0 +1,149 @@
+## Expunere de motive
+
+Lege pentru desființarea Academiei Oamenilor de Știință din România și pentru abrogarea Legii 31/2007 privind reorganizarea și funcționarea Academiei Oamenilor de Știință din România.
+
+AOSR funcționează ca o pseudo-academie, un mecanism de recompensare politică și socială, finanțat generos din bugetul de stat, fără contribuții reale la știință. Academia Oamenilor de Știință din România își are originea într-un ONG, Asociația Oamenilor de Știință din România, al cărui nume a fost schimbat în 1996. În 2007, prin Legea nr. 31, această asociație a fost transformată în academie, fără ca această schimbare de statut să fie însoțită de criterii academice comparabile cu cele ale Academiei Române.
+
+## Situatia premisă:
+
+Academia Oamenilor de Știință din România a luat ființă în 1996 ca asociație (ONG), transformată ulterior în academie prin Legea nr. 31/2007 privind reorganizarea și funcționarea Academiei Oamenilor de Știință din România, publicată în Monitorul Oficial al României, Partea I, nr. 35 din 18 ianuarie 2007. Prin aceeași lege, AOSR a dobândit statut de instituție publică finanțată de la bugetul de stat. Membrii titulari și corespondenți sunt aleși pe viață și beneficiază de indemnizații lunare, iar moștenitorii lor primesc, de asemenea, sume neimpozabile. AOSR are în subordine filiale territoriale și un institut de cercetare, Institutul de Cercetări Avansate Interdisciplinare Constantin Angelescu (ICAI).
+
+AOSR numără în rândul membrilor săi 199 de persoane, distribuite astfel:
+
+• 107 membri titulari (indemnizație lunară: 1.675 lei);
+
+• 77 membri corespondenți (indemnizație lunară: 1.173 lei);
+
+• 15 membri de onoare (indemnizație lunară: 837 lei).
+
+Membrii prezidiului și ai consiliului onorific beneficiază de o majorare de 20% a indemnizației. AOSR mai dispune inclusiv de autoturisme achiziționate din fonduri publice, în condițiile în care activitatea de cercetare este aproape inexistentă.
+
+## Problema identificată:
+
+Academia are 199 de membri aflați pe statele de plată, aleși pe viață, precum și 67 de angajați care deserves această structură. Membrii includ numeroși foști politicieni, demnitari, persoane condamnate penal sau asociate cu structuri represive ale fostului regim comunist, ceea ce compromite orice pretenție de excelență academică.
+
+Analiza bugetelor și activităților AOSR relevă o serie de probleme grave care pun sub semnul întrebării justificarea finanțării publice:
+
+\- Bugetul anual alocat a crescut constant, ajungând la 11,85 milioane lei în 2025, fără ca activitatea de cercetare să cunoască o evoluție corespunzătoare;
+
+\- În 2022, din 9,95 milioane lei alocați, sub 10% (cca. 7,8%) au fost destinați activității effective de cercetare, restul cheltuielilor vizând personal și administrație;
+
+\- Alți 5,64 milioane lei au reprezentat indemnizații pentru cei 199 de membri aflați pe statele de plată, iar 2,6 milioane lei au acoperit salarii și vouchere de vacanță pentru 67 de posturi;
+
+\- ICAI nu produce rezultate concrete de cercetare care să justifice susținerea din fonduri publice.
+
+Din perspectiva guvernanței instituționale, se constată că printre membrii AOSR se numără persoane condamnate definitiv penal sau cu un profil public incompatibil cu exigențele unui organism academic finanțat de stat, fapt care afectează credibilitatea și legitimitatea instituției.
+
+## Soluția propusă:
+
+Soluția propusă constă în desființarea Academiei Oamenilor de Știință din România și a Institutului de Cercetări Avansate Interdisciplinare Constantin Angelescu, cu încetarea imediată a plății indemnizațiilor pentru toți membrii și a contractelor de muncă ale angajaților, în termen de 45 de zile. Patrimoniul AOSR, cu excepția bunurilor aduse prin contribuția membrilor asociației originare, va fi redistribuit prin hotărâre de Guvern; arhiva va fi preluată de Academia Română; raportările financiare vor reveni în sarcina Ministerului Finanțelor.
+
+## Impactul preconizat:
+
+Impactul financiar constă în economii anuale la bugetul de stat de aproximativ 12 milioane lei, reprezentând cheltuielile curente ale AOSR, resurse care pot fi redirecționate către programe de cercetare cu impact demonstrabil.
+
+Impactul juridic privește abrogarea Legii nr. 31/2007 privind reorganizarea și funcționarea Academiei Oamenilor de Știință din România, publicată în Monitorul Oficial al României, Partea I, nr. 35 din 18 ianuarie 2007, cu modificările ulterioare.
+
+Impactul social vizează eliminarea unei structuri inefficiente și utilizarea eficientă a resurselor publice în beneficiul activităților de cercetare cu rezultate cuantificabile și relevante pentru societatea românească.
+
+Cristian Ghinea
+
+Senator USR
+
+## Tabel semnături
+
+Lege pentru desființarea Academiei Oamenilor de Știință din România și pentru abrogarea Legii 31/2007 privind reorganizarea și funcționarea Academiei Oamenilor de Știință din România.
+
+| Nume și prenume | Semnătură | Grup parlamentar |
+| --- | --- | --- |
+| SPAFARU SIMAY |  | USR |
+| SEBASTIN AIZNIC |  | USR2 |
+| GIURGIV ADRIAN |  | USR |
+| BOTEZ MIHAI CATALIN |  | USR |
+| Rodeanu Bogla |  | USR |
+| MORVSSI GORY |  | USR2 |
+| DRULA CATALIN |  | USR |
+| RIGMAN CIPRIAM |  | USR2 |
+| LONACI IULIAN |  | USR2 |
+| VAJUJA DONITRU |  | USR |
+| BOCHILEANU CATALIN |  | USR |
+| IONUT MOGTEANV |  | USR |
+| STELIAN ION |  | USR2 |
+
+Tabel semnături
+
+Lege pentru desființarea Academiei Oamenilor de Știință din România și pentru abrogarea Legii 31/2007 privind reorganizarea și funcționarea Academiei Oamenilor de Știință din România.
+
+| Nume și prenume | Semnătură | Grup parlamentar |
+| --- | --- | --- |
+| PÂUH CYNTHIA |  | USR |
+| ANGEL RAZIAN |  | USR |
+| RUS VASILE-CIPRIAN |  | USR |
+| Opulatiu Kua |  | USR. |
+| CRISTIAN BRIAN |  | USR |
+
+## Tabel semnături
+
+Lege pentru desființarea Academiei Oamenilor de Știință din România și pentru abrogarea Legii 31/2007 privind reorganizarea și funcționarea Academiei Oamenilor de Știință din România.
+
+| Nume și prenume | Semnătură | Grup parlamentar |
+| --- | --- | --- |
+| COLISAN ALLEN |  | USR |
+| NASUI CUCHI |  | USR |
+| TANASA STEFAN |  | USR |
+| DPAGOESCU CE8AR |  | USR |
+| NEFGOI EVGEN RANY |  | USR |
+| ECHERT ADRIAN |  | USR |
+| Aimitriv ALATONON |  | VSN |
+
+Lege pentru desființarea Academiei Oamenilor de Știință din România și pentru abrogarea Legii 31/2007 privind reorganizarea și funcționarea Academiei Oamenilor de Știință din România.
+
+| Nume și prenume | Semnătură | Grup parlamentar |
+| --- | --- | --- |
+| SENDROIC VLADHOAN |  | USR |
+| CHEORGHIVANGREI FLORN |  | USR |
+| HANGANPOLLYANNA |  | USR |
+| GIMA GEORGE |  | CR |
+| Bodeo Manus |  | USR |
+| Bulcoce-Feux |  | USR |
+| PALATUESTEFAN |  | USR |
+| CORINAATAHASIU |  | USR |
+| CIBU SEKCONUPUXANADA |  | USR |
+| BLADADARIEZ |  | USR |
+| CELONA-PRUNA |  | USR |
+| PLUSAR ANDREI |  | USR |
+| SIPOS SOLIM |  | USR |
+| DOBRA AREZINA |  | USR |
+| DABRAGHECHROPE |  | USR |
+
+# PARLAMENTUL ROMÂNIEI
+
+Către: Biroul Permanent al Senatului
+
+Subiect: Solicitare co-semnare inițiativă legislativă
+
+19 Martie 2026
+
+Stimate doamne, stimați domni,
+
+Subsemnatul Emanuel-Dumitru Ungureanu, deputat USR Circumscripția 35-Suceava, vă solicit să aprobați cererea de a deveni inițiator al următoarelor propuneri legislative:
+
+\- BP142/11.03.2026 - Propunere legislativă pentru completarea art.2 din Legea nr.361/2022 privind protecția avertizorilor în interes public;
+
+\- BP141/11.03.2026 - Propunere legislativă pentru modificarea art.155 din Legea nr.286/2009 privind Codul Penal;
+
+\- BP162/13.03.2026 - Propunere legislativă pentru desființarea Academiei Oamenilor de Știință din România și pentru abrogarea Legii 31/2007 privind reorganizarea și funcționarea Academiei Oamenilor de Știință din România;
+
+\- BP163/13.03.2026 - Propunere legislativă pentru desființarea Academiei de Științe Medicale și pentru abrogarea Legii nr.264/2004 privind organizarea și funcționarea Academiei de Științe Medicale;
+
+\- BP164/13.03.2026 - Propunere legislativă pentru desființarea Academiei de Științe Tehnice din România și pentru abrogarea Legii nr.230/2008 privind înființarea și funcționarea Academiei de Științe Tehnice din România;
+
+\- BP160/13.03.2026 - Propunere legislativă pentru desființarea Institutului de Studii Avansate pentru Cultura și Civilizația Levantului și pentru abrogarea Legii nr.117/2017 privind înființarea Institutului de Studii Avansate pentru Cultura și Civilizația Levantului;
+
+\- BP161/13.03.2026 - Propunere legislativă pentru desființarea Institutului Român pentru Drepturile Omului și pentru abrogarea Legii nr.9/1991 privind înființarea Institutului Român pentru Drepturile Omului;
+
+\- BP165/13.03.2026 - Propunere legislativă pentru desființarea Institutului Revoluției Române din Decembrie 1989 și pentru abrogarea Legii 556/2004 privind înființarea Institutului Revoluției Române din Decembrie 1989.
+
+Vă mulțumesc,
+
+Emanuel-Dumitru Ungureanu

@@ -1,0 +1,40 @@
+# Expunere de motive
+
+Lege pentru modificarea și completarea Legii nr.204/2008 privind protejarea exploatațiilor agricole
+
+La acest moment există foarte multe cazuri în care fermierilor li se solicită reducerea sau încetarea activității din cauza nerespectării principiului "primul venit". În cele mai multe cazuri se emit Autorizații de Construcții ale imobilelor cu destinație de locuință fără a se ține cont de faptul că acestea se construiesc în zonele de protecție a fermelor existente. Există și cazuri în care autoritățile locale nu țin cont de construcțiile cu destinație de fermă de creștere animale existente la granița județului vecin.
+
+Pe lângă nenumăratele plângeri depuse la Agențiile Județene pentru Protecția Mediului, care în cele mai multe cazuri se finalizează cu măsuri în sarcina operatorului imposibil de respectat de către acesta din urmă, există un număr de peste 721 de procese aflate pe rol ca urmare a neclarităților și incorectitudinii dispozițiilor legale în vigoare.
+
+În contextul în care abatoarele sunt protejate în prezenta lege, este necesar întinderea acestor prevederi la fabricile și instalațiile conexe industriei.
+
+În teren se constată o practică de depunere abuzivă de reclamații cu privire la "disconfortul olfactiv" creat de fermele de creștere animale, organele de control fiind obligate să se deplaseze și să verifice fiecare reclamație, chiar dacă caracterul abuziv al acesteia este evident pentru toate părțile implicate. În practica Gărzii de Mediu neexistând noțiunea de "procesoman", respectiv, de persoană care a înregistrat un număr impresionant de plângeri chiar dacă condițiile de exploatare nu s-au modificat în ultima perioadă și chiar dacă nu există aparatură în dotarea autorităților care să constate depășirea valorilor admise.
+
+Se impune în aceste condiții o colaboare și o intervenție a MADR în ceea ce înseamnă condițiile care trebuiesc respectate de către fermierii din sectorul zootehnic.
+
+Modificare Legii și asigurarea continuității activităților comerciale în derulare, fără șicanări nejustificate, se impune inclusiv din considerente financiare. Fiecare abuz al persoanelor fizice deranjate de mirosul degajat în mod normal de orice fermă de creștere animale, prin controalele nejustificate generate, face ca fermierul să înregistreze cheltuieli cu reprezentarea și apărarea amplasamentului care cresc în mod inevitabil și prețul produsului.
+
+Inițiator,
+
+George SCARLAT'
+
+Deputat PNL GALATI
+
+Tabelul cu susținătorii Proiectului de Lege pentru modificarea și completarea Legii nr.204/2008 privind protejarea exploatațiilor agricole
+
+| Nr.crt. | Nume și Prenume | Grup parlamentar | Semnătură |
+| --- | --- | --- | --- |
+| 1 | CARLAT GEORGE | PNL |  |
+| 2 | Pandea Cyrian | PNL |  |
+| 3. | ANDREI ACEXAVADV | PNL |  |
+| 4 | NOISIN RAJU-MAJN | ONL |  |
+| 5 | CIJHT LOHEL | PSD |  |
+| 6 | CIOBANU ADRIAN | PNL |  |
+| 7 | KÖNCAEİ CSABA | UDHR |  |
+| 8 | CIOBOTARU DORAGOS | PNL |  |
+| 9. | TIPLEA AUJIN O'BU | PNL |  |
+| 10 | CEZNIC SIJAKIJAN | USIZ |  |
+| 11 | PUNO CEA PETA | PEK |  |
+| 12 | PASUJESU JATE | PNL |  |
+| 13 | MIIHAT DANICEA | PSA |  |
+|  |  |  | / |

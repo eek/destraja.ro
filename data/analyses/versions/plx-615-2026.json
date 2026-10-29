@@ -1,0 +1,142 @@
+{
+  "slug": "plx-615-2026",
+  "billId": "PL-x 615/2026",
+  "updatedAt": "2026-10-29T13:21:05.865Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L393FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Amenzi pentru umilirea publică a persoanelor cu handicap și reacție obligatorie în 24 de ore",
+      "summaryTlDr": "Scopul e legitim și util: persoanele cu handicap umilite online sau în centre primesc o protecție explicită. Textul are însă obligații vagi sancționate cu amenzi mari, excepții diferite pentru aceeași faptă în cele două legi și amenzi aplicabile înainte să existe normele, toate reparabile prin amendamente.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/600/10/5/se698.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Amenzi pentru umilirea publică a persoanelor cu handicap și reacție obligatorie în 24 de ore",
+      "summaryTlDr": "Scopul e legitim și util: legea sancționează filmările și postările făcute ca să umilească persoane cu handicap și obligă centrele să țină evidența abuzurilor. Textul a fost însă adoptat tacit de Senat și are probleme: obligații vagi pentru orice angajator, amenzi mari și două regimuri de excepții diferite pentru aceeași faptă.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Adoptat tacit de Senat în forma inițiatorului: doar corecturi de redactare, fondul a rămas neschimbat",
+      "summary": "Senatul a depășit termenul de vot, așa că proiectul s-a considerat adoptat în forma inițiatorului. Diferențele sunt doar de redactare (diacritice, spații, antet), deci obligațiile și amenzile au rămas aceleași.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "„Situația de risc” nedefinită, deși reacția e obligatorie în 24 de ore",
+            "major": true,
+            "article": "art. 25¹ alin. (4) din Legea 448/2006"
+          },
+          {
+            "text": "Amenda de 10.000–30.000 lei acoperă și lista de măsuri doar facultative",
+            "major": true,
+            "article": "art. 100 alin. (1) lit. i) din Legea 448/2006"
+          },
+          {
+            "text": "Obligă la măsuri disciplinare, deși Codul muncii cere întâi cercetare prealabilă",
+            "major": true,
+            "article": "art. 25¹ alin. (6) din Legea 448/2006"
+          },
+          {
+            "text": "Obligația lovește orice angajator cu salariat cu handicap, inclusiv microîntreprinderi",
+            "major": true,
+            "article": "art. 25¹ alin. (4) din Legea 448/2006"
+          },
+          {
+            "text": "Obligația nu e limitată la fapte din activitatea entității, inclusiv umiliri online",
+            "major": true,
+            "article": "art. 25¹ alin. (4) din Legea 448/2006"
+          },
+          {
+            "text": "Amenzi 5.000–100.000 lei pentru orice persoană, minim de cinci ori peste cel general",
+            "major": true,
+            "article": "art. 26 alin. (1³) din OG 137/2000"
+          },
+          {
+            "text": "Două regimuri de excepții pentru aceeași postare; legea discriminării nu are test de proporționalitate",
+            "major": true,
+            "article": "art. 25³ din Legea 448/2006 și art. 26 alin. (1³) din OG 137/2000"
+          },
+          {
+            "text": "Definiția hărțuirii dublează, cu altă formulare, pe cea din OG 137/2000",
+            "major": false,
+            "article": "art. 5 pct. 32 din Legea 448/2006"
+          }
+        ],
+        "good": [
+          {
+            "text": "Interzice explicit hărțuirea și umilirea publică a persoanelor cu handicap",
+            "major": true,
+            "article": "art. 25¹ alin. (1)-(2) din Legea 448/2006"
+          },
+          {
+            "text": "Umilirea publică cere intenție; distribuirile din neatenție sau pentru denunț nu intră",
+            "major": true,
+            "article": "art. 25¹ alin. (3) din Legea 448/2006 și art. 26 alin. (1³) din OG 137/2000"
+          },
+          {
+            "text": "Excepții pentru presă, educație, artă și sesizarea infracțiunilor, cu test de proporționalitate",
+            "major": true,
+            "article": "art. 25³ din Legea 448/2006"
+          },
+          {
+            "text": "Centrele țin evidența incidentelor și o raportează trimestrial autorității pentru dizabilități",
+            "major": true,
+            "article": "art. 25² alin. (1) și (3) din Legea 448/2006"
+          },
+          {
+            "text": "Măsurile de sprijin sunt concrete: reprezentant legal, psiholog, servicii specializate, sesizare",
+            "major": false,
+            "article": "art. 25¹ alin. (5) din Legea 448/2006"
+          },
+          {
+            "text": "Datele din evidență sunt confidențiale și limitate la strictul necesar",
+            "major": false,
+            "article": "art. 25² alin. (4)-(5) din Legea 448/2006"
+          },
+          {
+            "text": "Controlul și amenzile sunt date clar în sarcina inspectorilor sociali",
+            "major": false,
+            "article": "art. 100 alin. (2²) din Legea 448/2006"
+          },
+          {
+            "text": "Norme metodologice obligatorii în 90 de zile, aprobate prin hotărâre de Guvern",
+            "major": false,
+            "article": "art. III alin. (1)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 14,
+        "removed": 12,
+        "same": 0.69
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:19:12.974Z"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "billId": "PL-x 32/2026",
+  "slug": "plx-32-2026",
+  "version": "initiator",
+  "updatedAt": "2026-10-29T06:49:07.985Z",
+  "consensus": {
+    "riskScore": 4,
+    "riskLevel": "yellow",
+    "plainTitle": "Platformele de cripto vor raporta la ANAF tranzacțiile clienților (DAC8)",
+    "summaryTlDr": "Este o transpunere obligatorie și în mare parte tehnică a Directivei DAC8. Nu introduce taxe noi, dar ANAF va vedea tranzacțiile cu criptoactive ale românilor și le va transmite altor state. Riscul real ține de redactare: unele texte sunt copiate din directivă, cu termene expirate și formulări adresate „statelor membre”.",
+    "initiatorClaim": "Guvernul spune că transpune la termen Directiva (UE) 2023/2226 (DAC8) și standardele OCDE (CARF și SCR revizuit). Scopul declarat este evitarea procedurii de infringement și a penalităților UE, combaterea evaziunii pe criptoactive și susținerea aderării la OCDE.",
+    "realityCheck": "Mecanic, OUG extinde schimbul automat de informații fiscale. Furnizorii de servicii de criptoactive vor raporta la ANAF datele clienților și tranzacțiile, iar ANAF le va transmite statelor de rezidență. Se adaugă categorii noi de venituri (dividende plătite în afara conturilor de custodie, asigurări de viață) și deciziile fiscale anticipate privind domiciliul fiscal al persoanelor fizice. Pentru categoriile din art. 291 alin. (1) se schimbă doar informațiile deja «disponibile» în dosarele fiscale, deci nu se cere o colectare nouă. Legea nu creează un impozit nou, fiindcă impozitarea câștigurilor din cripto există deja în Codul fiscal. În schimb, crește mult capacitatea ANAF de a verifica declarațiile, iar costurile de conformare cad pe furnizori și, indirect, pe clienți.",
+    "affectedGroups": [
+      "IT & AI",
+      "Contabili & Fiscalitate",
+      "IMM & Antreprenori",
+      "Justiție & Drepturi Civile"
+    ],
+    "senatForm": {
+      "articleRef": "Art. I pct. 5 – art. 291 alin. (2)",
+      "proposalContent": "La art. 291 alin. (2), sintagma „statele membre informează Comisia Europeană” se înlocuiește cu „autoritatea competentă din România informează Comisia Europeană”, iar textul se completează cu enumerarea categoriilor de la alin. (1) pentru care România face efectiv schimb automat și a perioadelor impozabile vizate. Se elimină termenul expirat din 2024.",
+      "argumentation": "Textul preia mot-à-mot formula din Directivă („statele membre”), deși norma internă poate obliga doar autoritatea română, și păstrează un termen expirat (1 ianuarie 2024). Contribuabilul nu poate afla din lege ce venituri ale sale sunt raportate altor state. Art. 1 alin. (5) din Constituție cere o obligație clar atribuită.",
+      "otherComments": "Se impune și corectarea erorii materiale din art. 291 alin. (1) („normeleri”). Recomandăm să se verifice că regimul de protecție a datelor din Cod se aplică expres și furnizorilor de servicii de criptoactive (termen maxim de păstrare, informarea clienților), conform art. 25 din Directiva 2011/16/UE și GDPR."
+    }
+  },
+  "council": {
+    "agy": {
+      "model": "agy",
+      "status": "ok",
+      "durationMs": 44611,
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Raportarea automată către ANAF a tranzacțiilor cu criptomonede și a conturilor externe (transpunerea DAC8 și OCDE CARF)",
+      "verdictShort": "Legea transpune obligatoriu Directiva europeană DAC8 și standardele OCDE privind schimbul automat de informații fiscale pentru criptoactive și dividende. Deși alinierea europeană este necesară, adoptarea prin OUG pe ultima sută de metri transferă o povară tehnică și birocratică majoră asupra platformelor cripto și intermediarilor, înainte ca ANAF să aibă infrastructura IT pregătită.",
+      "initiatorClaim": "Guvernul susține că legea este indispensabilă pentru a evita procedura de infringement din partea Comisiei Europene (termenul DAC8 fiind 31 decembrie 2025) și pentru a sprijini aderarea României la OCDE prin combaterea evaziunii fiscale din zona activelor digitale.",
+      "realityCheck": "Actul normativ pune capăt anonimatului fiscal în tranzacțiile cu criptoactive efectuate prin furnizori autorizați, obligându-i să raporteze la ANAF inclusiv adresele de registru distribuit (wallet-uri) și rulajele clienților. Totodată, extinde schimbul automat de informații între statele UE la dividendele plătite în afara conturilor de custodie și la deciziile fiscale privind rezidența persoanelor cu averi mari, însă lasă detaliile tehnice de raportare pe seama unor ordine ANAF ulterioare.",
+      "affectedGroups": [
+        "IT & AI",
+        "Contabili & Fiscalitate",
+        "IMM & Antreprenori"
+      ],
+      "keyFindings": [
+        "Art. I pct. 1 și 2 (modificarea art. 71 alin. 4 și art. 286 lit. i din Codul de procedură fiscală): Extinde schimbul automat de informații fiscale, prin introducerea trimiterilor la art. 291^6 și Anexa nr. 6, atât către statele membre UE (DAC8), cât și către state terțe semnatare ale standardului OCDE CARF.",
+        "Art. I pct. 4 (introducerea art. 286 lit. bb - ee): Introduce în legislația fiscală conceptul de «adresă a registrului distribuit» (corelat cu Regulamentul MiCA 2023/1114) și definește «clientul» în raport cu intermediarii ținuți de privilegiul profesional legal în raportările transfrontaliere (DAC6/DAC8).",
+        "Art. I pct. 3 și 5 (modificarea art. 286 lit. n și art. 291): Include în schimbul automat obligatoriu veniturile din dividende vărsate prin alte conturi decât cele de custodie, produsele de asigurări de viață neacoperite anterior și deciziile fiscale anticipate privind domiciliul fiscal al persoanelor fizice."
+      ],
+      "blindSpotsCaught": "În preambul și în Expunerea de Motive, Guvernul recunoaște explicit că ANAF nu are încă infrastructura IT modernizată și nici formularele de colectare gata, dar impune aplicarea obligațiilor de diligență și colectare a datelor de la 1 ianuarie 2026. În plus, definiția «clientului» de la art. 286 lit. ee) vizează direct sfera secretului profesional (avocați/consultanți fiscali), zonă sensibilă după decizia CJUE în cauza C-694/20.",
+      "constitutionalityNote": "Adoptarea prin Ordonanță de Urgență la finalul termenului de transpunere (31 decembrie 2025), deși Directiva (UE) 2023/2226 fusese publicată încă din octombrie 2023, forțează limitele art. 115 alin. (4) din Constituție (urgență creată prin pasivitatea executivului, justificată prin Decizia CCR nr. 60/2020). Din perspectiva art. 1 alin. (5) privind previzibilitatea legii, obligațiile de conformare depind de norme tehnice secundare ale ANAF nepublicate la momentul intrării în vigoare.",
+      "euLawNote": "Transpunere obligatorie a Directivei (UE) 2023/2226 (DAC8) și corelare cu Regulamentul (UE) 2023/1114 (MiCA). Fiind o măsură fiscală de transpunere directă a unui act unional de armonizare, nu necesită notificare TRIS pe Directiva (UE) 2015/1535, dar aplicarea sancțiunilor și a normelor privind privilegiul profesional trebuie să respecte principiul proporționalității și Carta Drepturilor Fundamentale a UE (art. 7 și 8).",
+      "senatForm": {
+        "articleRef": "Articol unic (Art. I din OUG nr. 71/2025)",
+        "proposalContent": "La Art. I din OUG nr. 71/2025, se introduce un nou punct privind completarea dispozițiilor tranzitorii: Sancțiunile contravenționale aferente raportărilor conform art. 291^6 și Anexei nr. 6 nu se aplică în primele 6 luni de la operaționalizarea efectivă de către ANAF a sistemului informatic și publicarea formatelor electronice de raportare.",
+        "argumentation": "Deși transpunerea DAC8 și CARF este obligatorie, OUG recunoaște în preambul că ANAF încă trebuie să-și modernizeze infrastructura IT și să elaboreze formularele de colectare. Furnizorii de servicii de criptoactive nu pot fi sancționați pentru întârzieri sau erori de conformare cauzate de întârzierea specificațiilor tehnice ale autorității fiscale.",
+        "otherComments": "Solicităm Comisiei pentru buget, finanțe și bănci să ceară ANAF un calendar ferm de publicare a schemelor XML pentru raportarea DAC8/CARF și garantarea protecției secretului profesional conform jurisprudenței CJUE (cauza C-694/20) în aplicarea art. 286 lit. ee) privind intermediarii."
+      }
+    },
+    "claude": {
+      "model": "claude",
+      "status": "ok",
+      "durationMs": 131206,
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Platformele de cripto vor raporta la ANAF tranzacțiile clienților (DAC8)",
+      "verdictShort": "Este o transpunere obligatorie și în mare parte tehnică a Directivei DAC8. Nu introduce taxe noi, dar ANAF va vedea tranzacțiile cu criptoactive ale românilor și le va transmite altor state. Riscul real ține de redactare: unele texte sunt copiate din directivă, cu termene expirate și formulări adresate „statelor membre”.",
+      "initiatorClaim": "Guvernul spune că transpune la termen Directiva (UE) 2023/2226 (DAC8) și standardele OCDE (CARF și SCR revizuit). Scopul declarat este evitarea procedurii de infringement și a penalităților UE, combaterea evaziunii pe criptoactive și susținerea aderării la OCDE.",
+      "realityCheck": "Mecanic, OUG extinde schimbul automat de informații fiscale. Furnizorii de servicii de criptoactive vor raporta la ANAF datele clienților și tranzacțiile, iar ANAF le va transmite statelor de rezidență. Se adaugă categorii noi de venituri (dividende plătite în afara conturilor de custodie, asigurări de viață) și deciziile fiscale anticipate privind domiciliul fiscal al persoanelor fizice. Pentru categoriile din art. 291 alin. (1) se schimbă doar informațiile deja «disponibile» în dosarele fiscale, deci nu se cere o colectare nouă. Legea nu creează un impozit nou, fiindcă impozitarea câștigurilor din cripto există deja în Codul fiscal. În schimb, crește mult capacitatea ANAF de a verifica declarațiile, iar costurile de conformare cad pe furnizori și, indirect, pe clienți.",
+      "affectedGroups": [
+        "Contabili & Fiscalitate",
+        "IT & AI",
+        "IMM & Antreprenori",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Art. I pct. 5 (art. 291 alin. 1): schimbul automat cu statele UE se extinde la «venituri din dividende vărsate prin intermediul unor conturi altele decât cele de custodie» (lit. g). Sunt exceptate dividendele scutite de impozit pe profit potrivit art. 24 din Legea nr. 227/2015. Lit. c) folosește noua definiție restrânsă a asigurărilor de viață (art. 286 lit. cc).",
+        "Art. I pct. 3 (art. 286 lit. n pct. 4): deciziile fiscale anticipate care stabilesc dacă o persoană fizică are domiciliul fiscal în statul emitent intră în schimbul de informații. Ținta sunt persoanele cu avere mare care își negociază rezidența fiscală.",
+        "Art. I pct. 4 (art. 286 lit. ee): noua definiție a «clientului» pentru art. 291^4 (modalitățile transfrontaliere, DAC6) pregătește regula din DAC8. Potrivit acesteia, intermediarul ținut de secretul profesional își notifică doar propriul client, ca urmare a hotărârii CJUE C-694/20 (Orde van Vlaamse Balies). Este o corecție pozitivă pentru avocați.",
+        "Art. I pct. 4 (art. 286 lit. dd): termenul «adresă a registrului distribuit» trimite la MiCA (Regulamentul (UE) 2023/1114). Asta indică faptul că raportarea poate include adresele de portofel către care se fac transferuri.",
+        "Art. I pct. 1 și 2 (art. 71 alin. 4, art. 286 lit. i): termenele de transmitere ale noului art. 291^6 (criptoactive) se aplică și schimbului cu state terțe, iar anexa nr. 6 intră în sistemul de definiții al Codului.",
+        "Fragmentul extras este trunchiat: regimul sancțiunilor pentru furnizorii de criptoactive și conținutul anexei nr. 6 nu apar în text. Proporționalitatea amenzilor nu poate fi evaluată aici și trebuie verificată în forma integrală a OUG."
+      ],
+      "blindSpotsCaught": "Art. 291 alin. (2), în forma modificată, păstrează un termen deja expirat («înainte de 1 ianuarie 2024»). În plus, trece brusc de la «autoritatea competentă din România» la «statele membre informează Comisia Europeană», o preluare mot-à-mot din directivă care nu are destinatar în dreptul intern. Preambulul OUG definește cadrul OCDE drept «CARI», apoi îl numește «CARF». Art. 291 alin. (1) conține eroarea materială «normeleri». Toate sunt defecte de redactare, nu de fond, dar pot fi corectate doar prin legea de aprobare.",
+      "constitutionalityNote": "Recurgerea la OUG (art. 115 alin. 4) este justificată în preambul prin iminența infringementului, ipoteză acceptată constant de CCR (Deciziile nr. 1599/2010 și 60/2020). Termenul de transpunere chiar expira la 31.12.2025. Art. 115 alin. (6) interzice OUG care «afectează» drepturi fundamentale, iar colectarea sistematică de date financiare atinge art. 26 (viața intimă). Totuși, CCR interpretează «afectarea» ca suprimare sau atingere a substanței dreptului (de ex. Decizia nr. 1189/2008). Raportarea fiscală standardizată, cu scop legitim, se încadrează într-o restrângere proporțională (art. 53). Legea nu instituie impozite noi, deci art. 139 nu este incident. Problemele de previzibilitate (art. 1 alin. 5) țin de redactarea art. 291 alin. (2) și pot fi corectate în Parlament.",
+      "euLawNote": "Actul transpune DAC8 în termen. Toți furnizorii autorizați MiCA din UE au aceleași obligații, deci nu apare o distorsiune de concurență sau o barieră pe piața unică. Directiva 2018/958 nu este incidentă, fiindcă nu se reglementează accesul la o profesie. TRIS (2015/1535) nu impune notificare: obligațiile de raportare fiscală nu sunt reguli tehnice privind serviciile, iar art. 7 alin. (1) lit. a) exceptează oricum măsurile de transpunere a actelor UE obligatorii. Punctul sensibil este protecția datelor. Transferurile către state terțe prin CARF trebuie să respecte capitolul V din GDPR și principiul minimizării, în spiritul jurisprudenței CJUE privind colectarea sistematică de date (de ex. C-817/19).",
+      "senatForm": {
+        "articleRef": "Art. I pct. 5 – art. 291 alin. (2)",
+        "proposalContent": "La art. 291 alin. (2), sintagma „statele membre informează Comisia Europeană” se înlocuiește cu „autoritatea competentă din România informează Comisia Europeană”, iar textul se completează cu enumerarea categoriilor de la alin. (1) pentru care România face efectiv schimb automat și a perioadelor impozabile vizate. Se elimină termenul expirat din 2024.",
+        "argumentation": "Textul preia mot-à-mot formula din Directivă („statele membre”), deși norma internă poate obliga doar autoritatea română, și păstrează un termen expirat (1 ianuarie 2024). Contribuabilul nu poate afla din lege ce venituri ale sale sunt raportate altor state. Art. 1 alin. (5) din Constituție cere o obligație clar atribuită.",
+        "otherComments": "Se impune și corectarea erorii materiale din art. 291 alin. (1) („normeleri”). Recomandăm să se verifice că regimul de protecție a datelor din Cod se aplică expres și furnizorilor de servicii de criptoactive (termen maxim de păstrare, informarea clienților), conform art. 25 din Directiva 2011/16/UE și GDPR."
+      }
+    },
+    "codex": {
+      "model": "codex",
+      "status": "ok",
+      "durationMs": 192671,
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Platformele cripto raportează la ANAF, cu amenzi mari pentru abateri",
+      "verdictShort": "Raportarea fiscală este utilă și răspunde unei obligații europene reale. Riscul mediu provine din regimul sancționator ales în România, în special din amenzile mari pentru raportări defectuoase și eliminarea plafonului general al amenzilor cumulate.",
+      "initiatorClaim": "Guvernul urmărește combaterea evaziunii prin transpunerea DAC8 și implementarea standardelor OCDE privind schimbul de informații fiscale. Invocă respectarea termenelor europene, identificarea veniturilor din criptoactive și îmbunătățirea cooperării administrative.",
+      "realityCheck": "Articolul unic aprobă o ordonanță deja publicată și aplicabilă; proiectul nu introduce prin el însuși un impozit nou pe criptoactive. Obligațiile de raportare și verificare fiscală revin în principal furnizorilor, iar clienții trebuie să furnizeze informațiile necesare. Costurile de conformare pot apăsa proporțional mai mult asupra operatorilor mici, fără ca textul să instituie un monopol.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "IT & AI",
+        "Contabili & Fiscalitate",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Art. 336 alin. (1) lit. kk) și alin. (2) lit. u) prevăd amenzi de 50.000–150.000 lei inclusiv pentru raportări întârziate, incorecte sau incomplete. Intervalul coincide cu cel pentru neraportare; diferențierea gravității merită îmbunătățită.",
+        "Art. 339 alin. (4), introdus prin art. I pct. 32, înlătură plafonul general al cumulului amenzilor constatate prin același proces-verbal. Derogarea privește și alte raportări fiscale, nu exclusiv criptoactivele. Nu rezultă însă că fiecare câmp greșit constituie automat o contravenție distinctă. Sursa: [OUG 71/2025, text integral](https://static.anaf.ro/static/10/Anaf/legislatie/OUG_71_2025.pdf).",
+        "Art. 291^6 alin. (6) impune refuzarea tranzacțiilor de schimb dacă utilizatorul nu furnizează informațiile cerute, după două atenționări și minimum 60 de zile de la solicitarea inițială; nu dispune confiscarea activelor.",
+        "Impactul birocratic include colectarea datelor, verificări, raportare și adaptări informatice. ANAF suportă costuri administrative și IT; materialele furnizate nu permit cuantificarea verificabilă a costurilor sau a încasărilor suplimentare.",
+        "Raportarea tranzacțiilor nu echivalează cu stabilirea profitului impozabil: valorile tranzacționate trebuie interpretate potrivit regulilor fiscale aplicabile, inclusiv celor privind costurile de achiziție."
+      ],
+      "blindSpotsCaught": "DAC8 cere sancțiuni proporționale, dar nu impune cuantumurile românești sau eliminarea plafonului cumulului. În plus, afirmația motivării despre declanșarea automată a acțiunii în infringement este imprecisă: există etape prealabile și decizii ale Comisiei; sancțiunile pecuniare presupun intervenția CJUE. Surse: [DAC8](https://eur-lex.europa.eu/eli/dir/2023/2226), [procedura de infringement](https://www.eca.europa.eu/lists/ecadocuments/lr_eu_law/lr_eu_law_en.pdf).",
+      "constitutionalityNote": "Nu rezultă o neconstituționalitate evidentă a obiectivului raportării. Art. 1 alin. (5) impune însă delimitarea previzibilă a faptelor sancționate, inclusiv a unității contravenției; art. 23 alin. (12) privește legalitatea pedepselor penale și nu transformă aceste amenzi în pedepse penale. Colectarea datelor trebuie evaluată și prin art. 26, iar povara sancțiunilor prin protecția proprietății și libertății economice. Pentru art. 115 alin. (4), termenul european apropiat susține urgența, dar nu dispensează Guvernul de demonstrarea situației extraordinare. Citarea jurisprudenței nu validează automat ordonanța. Reper: [Decizia CCR 60/2020, par. 59–60](https://legislatie.just.ro/Public/DetaliiDocument/225466).",
+      "euLawNote": "Transpunerea DAC8 este obligatorie, însă proporționalitatea sancțiunilor rămâne verificabilă potrivit art. 25a din Directiva 2011/16/UE, astfel cum a fost modificată. Directiva 2018/958 privește accesul la profesii reglementate și exercitarea acestora: obligațiile fiscale analizate nu declanșează, prin ele însele, acest test special. Costurile fixe pot totuși dezavantaja concurențial firmele mici. TRIS nu devine obligatoriu doar deoarece sunt implicate servicii digitale: art. 7 alin. (1) lit. a) din Directiva 2015/1535 exceptează transpunerea cerințelor europene obligatorii, iar art. 1 alin. (4) exclude anumite materii financiare armonizate. Eventualele cerințe tehnice naționale suplimentare trebuie analizate separat; nu există suficiente elemente pentru a afirma o încălcare TRIS. Surse: [Directiva 2018/958, art. 2](https://eur-lex.europa.eu/legal-content/en/ALL/?uri=CELEX%3A32018L0958), [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=celex%3A32015L1535).",
+      "senatForm": {
+        "articleRef": "OUG 71/2025, art. I pct. 32 – art. 339(4)",
+        "proposalContent": "La articolul I punctul 32, alineatul (4) propus pentru articolul 339 din Legea nr. 207/2015 se elimină.",
+        "argumentation": "DAC8 cere sancțiuni efective, proporționale și disuasive, fără să impună eliminarea plafonului amenzilor cumulate. Aplicarea art. 10 alin. (2) din OG nr. 2/2001 limitează cumulul excesiv, protejând operatorii mici, fără a înlătura răspunderea pentru fiecare contravenție.",
+        "otherComments": "Propunere pentru Comisia pentru buget, finanțe și bănci a Camerei Deputaților, preluabilă de un deputat. Termenul indicat, 18.02.2026, este depășit. Separat, se recomandă diferențierea sancțiunilor pentru erori materiale remediate de cele pentru neraportare și clarificarea unității faptelor sancționate."
+      }
+    }
+  }
+}

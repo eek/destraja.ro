@@ -1,0 +1,117 @@
+{
+  "slug": "plx-36-2026",
+  "billId": "PL-x 36/2026",
+  "updatedAt": "2026-10-29T12:26:02.887Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L583FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Ultimatum pentru conducerile provizorii din firmele statului, plus o excepție pentru industria de armament",
+      "summaryTlDr": "Art. I repară temporar și cu întârziere o problemă creată chiar de autoritățile tutelare: mai prelungește o dată interimatele și amenință cu amenzi pe cei care au întârziat selecțiile. Efectul care rămâne după aprobare vine din Art. II, o excepție permanentă și vagă pentru industria de armament, introdusă fără nicio motivare de urgență în preambulul ordonanței.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/30/6/se29.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Încă un răgaz pentru firmele de stat conduse de interimari, plus o excepție nouă pentru industria de armament",
+      "summaryTlDr": "Ordonanță de avarie: le mai dă câteva luni firmelor de stat conduse de interimari și dublează amenzile pentru șefii care întârzie selecția conducerii. Singura măsură permanentă este o excepție pentru industria de armament, pe care preambulul nu o motivează deloc și pe care textul nu o limitează.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat ordonanța fără modificări; derogările și amenzile dublate au rămas la fel",
+      "summary": "Senatul a aprobat ordonanța de urgență fără amendamente. S-au schimbat doar formulări de tehnică legislativă. Rămân provizoratul prelungit până la 31.03.2026, amenzile dublate pentru șefii autorităților și consilii și excepția permanentă pentru securitate națională.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Administratorii provizorii pot fi numiți până la 31.03.2026, peste plafonul legal de 12 luni",
+            "major": true,
+            "article": "art. I alin. (4)"
+          },
+          {
+            "text": "„Neîndeplinire culpabilă” nu e definită; cei sancționați pot da vina pe alții",
+            "major": true,
+            "article": "art. I alin. (3), (6), (7)"
+          },
+          {
+            "text": "Amenda pentru consiliu, organ colegial: nu e clar cine răspunde și plătește",
+            "major": true,
+            "article": "art. I alin. (6)"
+          },
+          {
+            "text": "Prescripția de 6 luni poate bloca amenzile pentru întârzierile deja produse",
+            "major": true,
+            "article": "art. I alin. (2)"
+          },
+          {
+            "text": "Desemnarea directorilor provizorii e obligație sancționată, deși expunerea spune „să poată desemna”",
+            "major": true,
+            "article": "art. I alin. (5)"
+          },
+          {
+            "text": "Excepție permanentă pentru securitate națională, fără criteriu și fără autoritate care să certifice",
+            "major": true,
+            "article": "art. II"
+          },
+          {
+            "text": "Lipsește limita promisă: fără efect asupra concurenței pentru produsele nemilitare (art. 346 TFUE)",
+            "major": true,
+            "article": "art. II"
+          },
+          {
+            "text": "Nu spune ce se întâmplă dacă selecția nu se încheie nici la 31.03.2026",
+            "major": false,
+            "article": "art. I alin. (4)"
+          },
+          {
+            "text": "Fișa Camerei indică 30 mai, textul spune 31.05.2026",
+            "major": false,
+            "article": "art. I alin. (5)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Amenzi dublate pentru conducătorii autorităților tutelare și consilii, nu pentru cetățeni",
+            "major": true,
+            "article": "art. I alin. (3), (6)"
+          },
+          {
+            "text": "AMEPIP trebuie să verifice în 30 de zile întârzierile deja produse",
+            "major": false,
+            "article": "art. I alin. (2)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:26:02.887Z"
+    }
+  ]
+}

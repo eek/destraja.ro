@@ -1,0 +1,117 @@
+{
+  "slug": "plx-287-2026",
+  "billId": "PL-x 287/2026",
+  "updatedAt": "2026-10-29T12:57:28.715Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L136FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Ordonanța-ghiveci: biometan în rețeaua de gaze, impozite locale mai mici și burse înghețate",
+      "summaryTlDr": "Cadrul pentru biometan și reducerile de impozite locale sunt utile, dar ordonanța modifică cel puțin șase acte fără legătură între ele și strecoară înghețarea burselor studențești. Preambulul motivează urgența doar pentru biometan și pensiile de serviciu, așa că celelalte măsuri sunt vulnerabile constituțional.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/200/80/7/se307.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Ordonanța-„trenuleț”: reguli pentru biometan, burse studențești înghețate și reduceri de taxe locale",
+      "summaryTlDr": "Cadrul pentru biometan și reducerile de taxe locale sunt utile. Ordonanța e însă un „trenuleț” care ascunde înghețarea burselor studențești pe 2026 și o modificare a legii pensiilor de serviciu, fără să motiveze urgența pentru ele, iar Senatul a aprobat-o tacit, fără dezbatere.",
+      "scores": {
+        "agy": 5,
+        "claude": 5,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Adoptat tacit de Senat, fără modificări: ordonanța pe biometan și taxe locale rămâne neschimbată",
+      "summary": "Senatul a adoptat tacit proiectul în forma inițială. Ordonanța e aprobată fără modificări, doar cu numărul și datele de publicare completate. Problemele privind biometanul rămân: accesul condiționat la rețea, costul racordării și obligațiile pentru fermele mici.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Accesul biometanului la rețea depinde de «posibil tehnic», fără criterii, termene sau motivarea refuzului",
+            "major": true,
+            "article": "art. I pct. 1 (art. 98 alin. 2 din Legea nr. 123/2012)"
+          },
+          {
+            "text": "Producătorul plătește integral racordarea; barieră pentru fermele și IMM-urile agricole mici",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Oricine produce sau stochează biogaz devine operator; posibile obligații ANRE pentru ferme mici",
+            "major": true,
+            "article": "art. I pct. 2 (art. 100 pct. 67 din Legea nr. 123/2012)"
+          },
+          {
+            "text": "Neclar cine deține și operează instalația de injecție plătită de producător",
+            "major": true,
+            "article": "art. I pct. 2 (art. 100 pct. 32¹ și 59 din Legea nr. 123/2012)"
+          },
+          {
+            "text": "Neclar ce se întâmplă cu taxele locale pe 2026 deja plătite",
+            "major": true,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Biometanul și alte gaze primesc, în principiu, acces nediscriminatoriu la rețelele de gaze",
+            "major": true,
+            "article": "art. I pct. 1 (art. 98 alin. 2 din Legea nr. 123/2012)"
+          },
+          {
+            "text": "Racordarea nu e plătită din tarife, deci consumatorii nu suportă costul",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Valoarea impozabilă scade cu 15% la clădiri de 50–100 ani, 25% peste 100",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Reduceri de taxe locale pentru persoanele cu dizabilități și reprezentanții lor legali",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Consiliile locale pot reduce în 2026 cotele adiționale, dar nu sub standard",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Legea definește explicit biogazul și biometanul",
+            "major": false,
+            "article": "art. I pct. 2 (art. 100 pct. 11 și 12 din Legea nr. 123/2012)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:57:28.715Z"
+    }
+  ]
+}

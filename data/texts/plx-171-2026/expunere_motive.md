@@ -1,0 +1,240 @@
+# EXPUNERE DE MOTIVE
+
+## Secțiunea 1
+
+Titlul proiectului de act normativ
+
+LEGE pentru aprobarea Ordonanței de urgență a Guvernului privind modificarea și completarea Ordonanței de urgență a Guvernului nr. 85/2024 privind unele măsuri pentru reorganizarea Ministerului Agriculturii și Dezvoltării Rurale și a unor instituții aflate în subordinea acestuia, precum și pentru modificarea Ordonanței Guvernului nr. 12/2024 privind instituirea unei scheme de ajutor de stat pentru susținerea activității crescătorilor din sectoarele suin și avicol, în perioada 1 august 2022-31 august 2023, în contextul crizei provocate de agresiunea Rusiei împotriva Ucrainei, cu modificările și completările ulterioare, precum și pentru modificarea unor acte normative din domeniul agriculturii
+
+## Secțiunea a 2-a
+
+## Motivul emiterii actului normativ
+
+## 2.1 Sursa proiectului de act normativ
+
+Prezenta ordonanță de urgență este o inițiativă a Ministerului Agriculturii și Dezvoltării Rurale (MADR), în scopul reorganizării administrației publice din domeniul agricol, în vederea debirocratizării și simplificării procedurilor administrative, în folosul cetățenilor, îndeosebi al fermierilor, precum și pentru reducerea cheltuielilor bugetare în vederea consolidării sustenabilității financiare a României prin limitarea cheltuielilor unităților subordonate MADR.
+
+## 2.2 Descrierea situației actuale
+
+Ministerul Agriculturii și Dezvoltării Rurale este autoritatea publică centrală responsabilă cu aplicarea strategiei și programului de guvernare, cu rol în elaborarea și implementarea strategiilor naționale sectoriale în domeniile agriculturii și producției alimentare, dezvoltării rurale, îmbunătățirilor funciare, precum și în domeniile conexe: cercetare științifică de specialitate, conservarea și managementul durabil al solurilor și al resurselor genetice vegetale și animale.
+
+Obiectivele MADR sunt următoarele:
+
+a) asigurarea securității alimentare naționale prin creșterea și diversificarea producției agricole, pentru a garanta populației alimente suficiente, sigure și nutritive;
+
+b) creșterea competitivității produselor agroalimentare și pescărești românești pe piață europeană și globală în vederea echilibrării balanței comerciale agroalimentare, inclusiv prin acțiuni specifice de informare, organizare, participare, coordonare a operatorilor economici pentru facilitarea accesului pe piețele externe;
+
+c) absorbția fondurilor comunitare destinate finanțării domeniilor specifice;
+
+d) susținerea financiară și fiscală a agriculturii prin programe multianuale;
+
+e) eficientizarea structurilor de piață agricole și agroalimentare; 2014 – 2020/PS PAC 2023-2027 și pentru POPAM 2014 – 2020/PAP 2021 - 2027 gestionează
+
+f) stimularea înființării de depozite pentru colectarea, sortarea și valorificarea produselor agricole;
+
+g) accelerarea procesului de dezvoltare rurală, inclusiv a serviciilor din spațiul rural;
+
+h) modernizarea și extinderea infrastructurii de îmbunătățiri funciare, adaptarea agriculturii la schimbările climatice;
+
+j) susținerea cercetării agricole, a informării, consultanței, extensiei și a formării profesionale în agricultură;
+
+k) reforma structurilor administrative cu atribuții în domeniul agriculturii, cu respectarea prevederilor legale în vigoare;
+
+1\) dezvoltarea și protecția zonei montane.
+
+MADR este autoritatea competentă pentru organizarea, implementarea și funcționarea Rețelei de informații contabile agricole - RICA.
+
+MADR, prin cele două Agenții de plăți (Agenția de Plăți și Intervenție pentru Agricultură și Agentia pentru Finantarea Investitiilor Rurale), prin autoritățile de management pentru PNDR
+
+ajutorul altor instituții subordonate MADR, care în funcție de specificul activității desfășoră activități suport pentru gestionarea fondurilor europene.
+
+MADR, în calitate de autoritate publică centrală, are în subordine instituții publice subordonate organizate la nivel central, județean sau regional, astfel:
+
+\- Agenția Națională pentru Zootehnie "Prof. Dr. G. K. Constantinescu" – organizată la nivel central, județean și regional
+
+\- Agenția Națională a Zonei Montane – organizată la nivel central și in județele cu zonă montană
+
+\- Agenția de Plăți și Intervenție pentru Agricultură- organizată la nivel central și județean
+
+\- Agenția Națională pentru Pescuit și Acvacultură -organizată la nivel central și regional
+
+\- Autoritatea pentru Administrarea Sistemului National Antigrindina si de Crestere a Precipitațiilor- organizată la nivel central și județean
+
+\- Agenția Domeniilor Statului- organizată la nivel central și județean
+
+\- Agentia pentru Finantarea Investitiilor Rurale - organizat la nivel central, regional și județean
+
+\- Institutul de Stat pentru Testarea și Înregistrarea Soiurilor – organizat la nivel central și regional
+
+\- Laboratorul Central pentru Calitatea Semințelor și a Materialului Săditor- organizat la nivel central
+
+\- Laboratorul Central pentru Controlul Calității și Igienei Vinului - organizat la nivelul a trei județe
+
+\- Agenția Națională de Îmbunătățiri Funciare-organizată la nivel central și județean
+
+\- Autoritatea Națională Fitosanitară- organizată la nivel central și județean
+
+\- Banca de Resurse Genetice Vegetale - pentru Legumicultură, Floricultură, Plante Aromatice și
+
+Medicinale Buzău - organizat la nivelul județului Buzău
+
+\- Stațiunea de Cercetări Sericicole Băneasa București- organizată la nivel centă
+
+\- Oficiul Național al Viei și Produselor Vitivinicole - organizat la nivel central
+
+\- 42 de Direcții pentru Agricultură Județene și a municipiului București-deconcentrate,
+
+| -30 de Inspectorate territoriale pentru calitatea semințelor și a materialului săditor - servicii publice deconcentrate |
+| --- |
+| -37 de Oficii de studii pedologice și agrochimice județene. |
+| Numărul total de ordonatori de credite la nivelul MADR este de 166. |
+| În ceea ce privește Stățiunea de Cercetări Sericicole Băneasa București, aceasta funcționează ca instituție publică cu personalitate juridică, finanțată din venituri proprii și subvenții acordate de la bugetul de stat, în subordinea Ministerului Agriculturii și Dezvoltării Rurale și în coordonarea științifică a Academiei de Științe Agricole și Silvice «Gheorghe Ionescu-Șișești», conform prevederilor art.54 alin. (13) din Legea nr. 45 din 20 martie 2009 privind organizarea și funcționarea Academiei de Științe Agricole și Silvice "Gheorghe Ionescu-Șișești" și a sistemului de cercetare-dezvoltare din domeniile agriculturii, silviculturii și industriei alimentare, cu modificările și completările ulterioare. |
+| Potrivit prevederilor art. 391 din Ordonanța de urgență a Guvernului nr. 57/2019 privind Codul administrativ, cu modificările și completările ulterioare numărului total de funcții publice de conducere în cadrul fiecărei autorități sau instituții publice este de maximum 8% din numărul total al posturilor aprobate la nivel de ordonator principal de credite. |
+| Potrivit art.11 din Ordonanța de urgență a Guvernului nr.85/2024 privind unele măsuri pentru reorganizarea Ministerului Agriculturii și Dezvoltării Rurale și a unor instituții aflate în subordinea acestuia, precum și pentru modificarea Ordonanței Guvernului nr. 12/2024 privind instituirea unei scheme de ajutor de stat pentru susținerea activității crescătorilor din sectoarele suin și avicol, în perioada 1 august 2022-31 august 2023, în contextul crizei provocate de agresiunea Rusiei împotriva Ucrainei, cu modificările ulterioare, prevederile cap. III, cu excepția prevederilor art. XXIV, XXVI și XXVII din cadrul cap. III al Legii nr. 296/2023, cu modificările și completările ulterioare, nu se aplică Agenției de Plăți și Intervenție pentru Agricultură și structurilor subordonate, Agenției pentru Finanțarea Investițiilor Rurale, Agenției Naționale de Îmbunătățiri Funciare și Direcției pentru coordonarea agențiilor de plăți din cadrul aparatului central al Ministerului Agriculturii și Dezvoltării Rurale. |
+| Demararea unui proces de reorganizare la nivelul MADR și al instituțiilor subordonate este necesară având în vedere și faptul că multe din instituțiile subordonate nu au personal suficient pentru a-și organiza compartimentele funcționale obligatorii potrivit prevederilor legale în vigoare(audit, financiar-contabilitate, juridic) fapt ce le îngreunează foarte mult activitatea. |
+| Totodată, ținând seama de faptul că ponderea populației angrenată în agricultură reprezintă un procent semnificativ din totalul populației active, iar Ministerul Agriculturii și Dezvoltării Rurale are un rol esențial pentru dezvoltarea unitară a politicilor agricole naționale, dar și pentru crearea cadrului administrativ național pentru acordarea în deplină concordanță cu normele europene a fondurilor europene destinate agriculturii, este nevoie de măsuri care să vină în sprijinul fermierilor, prin debirocratizarea și simplificarea procedurilor administrative, prin înglobarea într-un singur loc a unor structuri administrative cu rol de reglementare în domeniul agriculturii, acțiuni menite să conducă la o informare mai eficientă a beneficiarilor actului administrativ. |
+| Sunt necesare măsuri care au ca obiectiv general administrarea eficientă a veniturilor publice dar și utilizarea eficientă a resurselor publice. |
+
+Situația extraordinară care necesită intervenția legislativă și a cărei reglementare nu poate fi amânată este determinată în principal de necesitatea luării unor măsuri urgente care să asigure crearea cadrului legal necesar funcționării unor instituții publice subordonate MADR, în acord cu prevederile impuse de Legea nr. 296/2023. Neadoptarea prezentei ordonanțe de urgență va conduce la întârzieri și blocaje în procesul de luare a deciziilor, cu consecințe deosebit de grave asupra interesului public, domeniul de activitate al acestor instituții publice subordonate MADR fiind indispensabil activității desfășurate în domeniul agricol.
+
+Deoarece problemele menționate mai sus vizează interesul public și strategic al României pentru asigurarea sustenabilității finanțelor publice, gestionarea fondurilor europene și constituie o situație extraordinară a cărei reglementare nu poate fi amânată, se impune adoptarea de măsuri imediate pe calea ordonanței de urgență.
+
+## 2.3 Schimbări preconizate
+
+Proiectul de ordonanță de urgență reglementează unele măsuri administrative și are drept scop reducerea cheltuielilor bugetare în vederea consolidării sustenabilității financiare a României prin limitarea cheltuielilor unităților subordonate MADR și creșterea veniturilor astfel încât finanțarea categoriilor de servicii publice destinate cetățenilor să se poată susține din fonduri publice.
+
+Pentru atingerea scopului este necesar să fie instituite o serie de măsuri, astfel încât să se asigure respectarea angajamentelor asumate de România în ceea ce privește încadrarea în ținta de deficit bugetar, fiind necesară atât diminuarea unor cheltuieli de funcționare ale Ministerului Agriculturii și Dezvoltării Rurale și instituțiilor subordonate acestuia, precum și organizarea mai bună a structurilor subordonate în vederea creșterii gradului de absorției a fondurilor europene și naționale alocate dezvoltării rurale, agriculturii și sectorului pescăresc.
+
+Prin prezentul proiect se propune desființarea unui număr de 73 de ordonatori de credite, prin: 1. reorganizarea aparatului propriu al MADR prin preluarea:
+
+\- activității privind inspectia de stat în zootehnie, activitatea de ameliorare și reproducție desfășurată la nivel central, precum și activitatea specifică de laborator din cadrul Agenției Naționale pentru Zootehnie “ Prof.Dr.G.K. Constantinescu”;
+
+\-activității Centrului National de Formare Profesională în Zootehnie din cadrul Agenției Naționale pentru Zootehnie “Prof.Dr.G.K. Constantinescu”
+
+\-activităților suport respectiv, audit, juridic, resurse umane, administrativ, financiar-contabilitate, relații publice, comunicare se preiau în structurile care desfășoară activități echivalente din cadrul MADR.
+
+\- activității Direcției pentru Agricultură a Municipiului București cu excepția activității privind implementarea politicilor, strategiilor în agricultură și industrie alimentară, consultanță agricolă, inspecții tehnice, verificare și control în domeniul agriculturii și industriei alimentare, verificare și control în domeniul îmbunătățirii funciare și fond funciar care se preia de catre Directia pentru Agricultură Județeană Ilfov.
+
+2\. Desființarea Agenției Naționale pentru Zootehnie “ Prof.Dr.G.K. Constantinescu“- ca urmare a divizării totale, astfel:
+
+\- activitatea privind inspecția de stat în zootehnie, activitatea de ameliorare și reproducție desfășurată la nivel central, precum și activitatea specifică de laborator se preia în cadrul MADR;- activitatea de control și monitorizare din cadrul Oficiilor județene de zootehnie și centrelor regionale de zootehnie se preia de către direcțiile pentru agricultură județene din județele respective;- activitățile suport, respectiv audit, juridic, resurse umane, administrativ, financiar-contabilitate, relații publice, comunicare se preia în structurile care desfășoară activități echivalente din cadrul MADR.3. Desființarea Agenției Naționale a Zonei Montane, ca urmare a divizării totale. Activitatea se preia de către direcțiile pentru agricultură județene din județele în care Agenția are organize structuri fără personalitate juridică, structura centrală a Agenției ( cu sediul în Suceava) va fi preluată de Direcția pentru agricultură județeană Suceava.4. Desființarea Inspectoratelor Teritoriale pentru Calitatea Semințelor și Materialului Săditor, ca urmare a fuziunii prin absorbție, iar activitatea se preia de către Institutul de Stat pentru Testarea și Înregistrarea Soiurilor, si vor funcționa ca structuri regionale (8) fără personalitate juridică în subordinea institutului.5. Institutului de Stat pentru Testarea și Înregistrarea Soiurilor se reorganizează și preia la nivel central activitatea Laboratorului Central pentru Calitatea Semințelor și a Materialului Săditor, iar la nivel regional se vor înființa structuri fără personalitate juridică care vor prelua activitatea inspectoratelor teritoriale pentru calitatea semințelor și a materialului săditor, activitatea Centrelor de testare a soiurilor din cadrul Institutului de Stat pentru Testarea și Înregistrarea Soiurilor precum și activitatea Laboratorului Central pentru Controlul Calității și Igienei Vinului din județele în care își desfășoară în prezent activitatea acest Laborator.6. Desființarea Laboratorului Central pentru Controlul Calității și Igienei Vinului ca urmare a fuziunii prin absorbție. Activitatea se preia de către de către Institutul de Stat pentru Testarea și Înregistrarea Soiurilor.7. Desființarea Agenției Naționale pentru Pescuit și Acvacultură ca urmare a fuziunii prin absorbție, iar activitatea se preia de către Agenția Domeniilor Statului.8. Desființarea ca urmare a fuziunii prin absorbție a oficiilor de studii pedologice și agrochimice, iar activitatea se preia în cadrul Direcțiilor pentru agricultură județene.9. Reorganizarea Direcțiilor pentru Agricultură Județene prin preluarea:- activității oficiilor de studii pedologice și agrochimice;- activității de control și monitorizare din cadrul Oficiilor județene de zootehnie și centrelor regionale de zootehnie;- activității Agentiei Naționale a Zonei Montane din județele în Agenția are sediul central, respectiv are organizate structuri fără personalitate juridică.10. Desființarea Direcției pentru Agricultură a Municipiului București ca urmare a fuziunii prin absorbție, activitatea se preia în cadrul Ministerului Agriculturii și Dezvoltării Rurale cu excepția activității privind implementarea politicilor, strategiilor în agricultură și industrie alimentară, consultanță agricolă, inspecții tehnice, verificare și control în domeniul agriculturii și industriei alimentare, verificare și control în domeniul îmbunătățiri funciare și fond funciar activității care se preiau de către Direcția pentru Agricultură Județeană Ilfov.
+
+În cadrul MADR se înființează o structură nouă, la nivel de direcție, prin:- preluarea personalului și activităților Direcției pentru Agricultură a Municipiului București cu excepția activității privind implementarea politicilor, strategiilor în agricultură și industrie alimentară, consultanță agricolă, inspecții tehnice, verificare și control în domeniul agriculturii și industriei alimentare, verificare și control în domeniul îmbunătățiri funciare și fond funciar,- preluarea activităților și personalului din cadrul ministerului care desfășoară activități de statistică.Personalul din cadrul Direcției pentru Agricultură a Municipiului București se preia în cadrul structurii nou-înființate din cadrul Ministerului Agriculturii și Dezvoltării Rurale pe funcții publice de stat, respectiv, director și funcții publice de execuție, cu respectarea condițiilor specifice de ocupare și a vechimii.Instituțiile care preiau activitatea structurilor care se desființează, preiau patrimoniul și personalul aferent activității. Personalul se preia cu respectarea naturii juridice a posturilor pe care acesta este încadrat la data intrării în vigoare a prezentei ordonanțe de urgență, precum și cu respectarea prevederilor legale aplicabile fiecărei categorii de personal.11. Laboratorului Central pentru Calitatea Semințelor și Materialului Săditor se desființează ca urmare a fuziunii prin absorbție, iar activitatea se preia de către Institutul de Stat pentru Testarea și Înregistrarea Soiurilor.12. Reorganizarea Agenției Domeniilor Statului care preia activitatea Agenției Naționale pentru Pescuit și Acvacultură.Prin aplicarea prevederilor prezentului proiect se desființează 5 instituții aflate la nivel central și 68 de instituții aflate la nivel teritorial.13. De asemenea, prin prezentul proiect se propune reglementarea relațiilor ierarhice administrative între Ministerul Agriculturii și Dezvoltării Rurale, Academia de Științe Agricole și Silvice «Gheorghe Ionescu-Șișești» si Stațiunea de Cercetări Sericicole Băneasa București, urmare recomandărilor cuprinse în raportul de audit al Curții de Conturi și anume inițierea de urgență a demersurilor privind modificarea cadrului legal, în sensul trecerii Stațiunii de Cercetări Sericicole Băneasa București din subordinea Ministerului Agriculturii și Dezvoltării Rurale și din coordonarea științifică a Academiei de Științe Agricole și Silvice «Gheorghe Ionescu-Șișești», în subordinea Academiei de Științe Agricole și Silvice «Gheorghe Ionescu-Șișești».14.Agenția de Plăti și Intervenție pentru Agricultură și structurile subordonate, Agenția pentru Finanțarea Investițiilor Rurale și Agenția Națională de Îmbunătățiri Funciare au fost exceptate de la aplicarea prevederilor cap. III, cu excepția prevederilor art. XXIV, XXVI și XXVII al Legii nr. 296/2023, cu modificările și completările ulterioare, în vederea respectării criteriilor de acreditare, fapt ce le permite să își păstreze structurile organizatorice, precum și numărul de funcții de conducere corespunzător.Prin prezentul proiect se propune ca stabilirea numărului de funcții de conducere la nivelul MADR, ordonator principal de credite, să se facă prin aplicarea procentului de maximum 8% din numărul total de posturi aprobate la nivel de ordonator principal de credite, țară a lua în calcul numărul de posturi aprobate Agenției de Plăti și Intervenție pentru Agricultură și structurilor subordonate, Agenției pentru Finanțarea Investițiilor Rurale, Agenției Naționale de Îmbunătățiri Funciare.
+
+| Numărul total de posturi aprobate la nivelul MADR(ordonator principal) este de 14265. Numărul de posturi aprobate Agenției de Plăți și Intervenție pentru Agricultură și structurilor subordonate, Agenției pentru Finanțarea Investițiilor Rurale, Agenției Naționale de Îmbunătățiri Funciare este de 9851. Prin prezentul proiect se propune ca aplicarea procentului de maxim 8 % (funcții de conducere) să se facă la un număr de 4414 posturi (14265-9851), rezultând un număr maxim de funcții de conducere care pot fi înființate de 353.15. Totodată se impune abrogarea Legii nr. 133/2019 pentru înființarea Agenției pentru Calitatea și Marketingul Produselor Agroalimentare, publicată în Monitorul Oficial al României, Partea I, nr. 576 din 15 iulie 2019, cu modificările ulterioare, începând cu data de 1 ianuarie 2026, având în vedere resursele bugetare limitate ale MADR.În cadrul procesului de reorganizare al MADR cât și al instituțiilor subordonate implicate în acest proces, preluarea personalului se va face pe posturi înființate în acest scop, potrivit noilor structuri organizatorice, cu respectarea prevederilor Ordonanței de urgență a Guvernului nr.57/2019 privind Codul administrativ, cu modificările și completările ulterioare, precum și a normelor privind respectarea dreptului la carieră în funcția publică, a dispozițiilor legale și regimului juridic aplicabil fiecărei categorii de personal.2.4 Alte informațiiNu au fost identificate. |
+| --- |
+| Secțiunea a 3-aImpactul socioeconomic \*\*) |
+| 3.1 Descrierea generală a beneficiilor și costurilor estimate ca urmare a intrării în vigoare a actului normativ3.2 Impactul socialPrin intrarea în vigoare a proiectului de act normativ, se facilitează accesul cetățenilor la serviciile publice.3.3. Impactul asupra drepturilor și libertăților fundamentale ale omuluiPrin reorganizarea propusă în proiect, se asigură posturi pentru toate persoanele angajate/încadrate în structurile supuse reorganizării, la data intrării în vigoare a ordonanței de urgență,3.4. Impactul macroeconomicPrezentul act normativ nu se referă la acest subiect.3.4.1 Impactul asupra economiei și asupra principalilor indicatori macroeconomici Prezentul act normativ nu se referă la acest subiect.3.4.2 Impactul asupra mediului concurentțial si domeniului ajutoarelor de stat Prezentul act normativ nu se referă la acest subiect.3.5. Impactul asupra mediului de afaceriPrezentul act normativ nu se referă la acest subiect.3.6 Impactul asupra mediului înconjurătorPrezentul act normativ nu se referă la acest subiect.3.7. Evaluarea costurilor și beneficiilor din perspectiva inovării și digitalizării Prezentul act normativ nu se referă la acest subiect.3.8 Evaluarea costurilor și beneficiilor din perspectiva dezvoltării durabile |
+
+Prezentul act normativ nu se referă la acest subiect.3.9. Alte informațiiNu au fost identificate.
+
+Secțiunea a 4-a
+
+Impactul financiar asupra bugetului general consolidat atât pe termen scurt, pentru anul curent, cât și pe termen lung (pe 5 ani), inclusiv informații cu privire la cheltuieli și venituri \*\*\*)
+
+\- Propunerile din proiectul de act normativ nu generează impact financiar.
+
+<table>
+<tbody>
+<tr><td colspan="7">- În mii lei (RON)</td></tr>
+<tr><td>Indicatori</td><td>Anul curent</td><td colspan="4">Următorii 4 ani</td><td>Media pe 5 ani</td></tr>
+<tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr>
+<tr><td>4.1. Modificări ale veniturilor bugetare, plus/minus, din care:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>a) bugetul de stat, din acesta:(i) impozit pe profit(ii) impozit pe venit</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>b) bugete locale:(i) impozit pe profit</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td rowspan="2">c) bugetul asigurărilor sociale de stat(i) contribuții de asigurări</td><td rowspan="2"></td><td>-19</td><td>-19</td><td>-19</td><td>-19</td><td>-19</td></tr>
+<tr><td>-19</td><td>-19</td><td>-19</td><td>-19</td><td>-19</td></tr>
+<tr><td>d) alte tipuri de venituri(Se va menționa natura acestora.)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.2. Modificări ale cheltuielilor bugetare, plus/minus, din care:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td rowspan="2">a) buget de stat, din acesta:(i) cheltuieli de personal(ii) bunuri și servicii</td><td rowspan="2"></td><td>-8.156</td><td>-8.156</td><td>-8.156</td><td>-8.156</td><td>-8.156</td></tr>
+<tr><td>-8.156</td><td>-8.156</td><td>-8.156</td><td>-8.156</td><td>-8.156</td></tr>
+<tr><td>b) bugete locale:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr><td>(i) cheltuieli de personal(ii) bunuri și servicii</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>c) bugetul asigurărilor sociale de stat:(i) cheltuieli de personal(ii) bunuri și servicii</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>d) alte tipuri de cheltuieli(Se va menționa natura acestora.)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.3. Impact financiar, plus/minus, din care:a) buget de stat</td><td></td><td>-8.156</td><td>-8.156</td><td>-8.156</td><td>-8.156</td><td>-8.156</td></tr>
+<tr><td>b) bugete locale</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.4. Propuneri pentru acoperirea creșterii cheltuielilor bugetare</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.5. Propuneri pentru a compensa reducerea veniturilor bugetare</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.6. Calcule detaliate privind fundamentarea modificărilor veniturilor și/sau cheltuielilor bugetare</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="7">4.7. Prezentarea, în cazul proiectelor de acte normative a căror adaptare atrage majorarea cheltuielilor bugetare, a următoarelor documente:a) fișa financiară prevăzută la art. 15 din Legea nr. 500/2002 privind finanțele publice, cu modificările și completările ulterioare, însoțită de ipotezele și metodologia de calcul utilizată –b) declarație conform căreia majorarea de cheltuială respectivă este compatibilă cu obiectivele și prioritățile strategice specificate în strategia fiscal-bugetară, cu legea bugetară anuală și cu plafoanele de cheltuieli prezentate în strategia fiscal-bugetară -.Prezentul act normativ nu se referă la acest subiect.</td></tr>
+<tr><td colspan="7">4.8. Alte informații: Măsurile propuse prin prezentul proiect de OUG generează un impact financiar negativ asupra cheltuielilor bugetului aprobat M.A.D.R. și asupra bugetului de stat, economiile înregistrate fiind datorate desființării unui numar mare de funcții de conducere, impactul financiar negativ fiind de 9.000 mii lei la nivelul unui an bugetar.De asemenea prin desființarea Agenției Nationale a Zonei Montane și a Agenției nationale pentru zootehnie un număr de 204 funcții publice centrale se transformă în funcții publice teritoriale</td></tr>
+</tbody>
+</table>
+
+prin preluarea personalului și activităților de către Da județene, impactul acestor măsuri fiind unul negativ, cheltuielile de personal fiind reduse cu suma de 8.202 mii lei la nivelul unui an bugetar.
+
+Prin măsurile de reorganizare propuse în proiectul de act normativ în privința Inspectoratelor territoriale pentru calitatea semințelor și materialului săditor un numar de 225 funcții publice territoriale devin funcții publice de stat, impactul financiar generat de această măsură fiind de 9.046 mii lei.
+
+## Secțiunea a 5-a
+
+Efectele proiectului de act normativ asupra legislației în vigoare
+
+5.1. Măsuri normative necesare pentru aplicarea prevederilor proiectului de act normativ Hotărâri ale Guvernului
+
+5.2. Impactul asupra legislației în domeniul achizițiilor publice
+
+Prezentul act normativ nu se referă la acest subiect.
+
+5.3. Conformitatea proiectului de act normativ cu legislația UE (în cazul proiectelor ce transpun sau asigură aplicarea unor prevederi de drept UE)
+
+5.3.1. Măsuri normative necesare transpunerii directivelor UE Prezentul act normativ nu se referă la acest subiect.
+
+5.3.2. Măsuri normative necesare aplicării actelor legislative UE
+
+Prezentul act normativ nu se referă la acest subiect.
+
+5.4. Hotărâri ale Curții de Justiție a Uniunii Europene
+
+Prezentul act normativ nu se referă la acest subiect.
+
+5.5. Alte acte normative și/sau documente internaționale din care decurg angajamente asumate Prezentul act normativ nu se referă la acest subiect.
+
+5.6. Alte informații
+
+## Secțiunea a 6-a
+
+## Consultările efectuate în vederea elaborării proiectului de act normativ
+
+| 6.1. Informații privind neaplicarea procedurii de participare la elaborarea actelor normativePrezentul act normativ nu se referă la acest subiect. |
+| --- |
+| 6.2. Informații privind procesul de consultare cu organizații neguvernamentale, institute de cercetare și alte organisme implicatePrezentul act normativ nu se referă la acest subiect. |
+| 6.3. Informații despre consultările organizate cu autoritățile administrației publice localePrezentul act normativ nu se referă la acest subiect. |
+| 6.4. Informații privind puncte de vedere/opinii emise de organisme consultative constituite prin acte normativePrezentul act normativ nu se referă la acest subiect. |
+| 6.5. Informații privind avizarea de către: |
+
+| a) Consiliul Legislativ: Prezentul proiect de act normativ a fost avizat de Consiliul Legislativ prin avizul nr. 1105/2025. |
+| --- |
+| b) Consiliul Suprem de Apărare a Țării |
+| c) Consiliul Economic și Social- Prezentul proiect de act normativ a fost avizat de Consiliul Economic și Social prin avizul nr. 8024/2025. |
+| d) Consiliul Concurenței |
+| e) Curtea de Conturi |
+| 6.6. Alte informații |
+
+## Secțiunea a 7-a
+
+Activități de informare publică privind elaborarea și implementarea proiectului de act normativ
+
+| 7.1. Informarea societății civile cu privire la elaborarea proiectului de act normativPrezentul proiect de act normativ a fost publicat în dezbatere publică pe pagina de internet a Ministerului Agriculturii și Dezvoltării Rurale www.madr.ro la data de 2 decembrie 2025. |
+| --- |
+| 7.2. Informarea societății civile cu privire la eventualul impact asupra mediului în urma implementării proiectului de act normativ, precum și efectele asupra sănătății și securității cetățenilor sau diversității biologicePrezentul act normativ nu se referă la acest subiect. |
+| 7.3. Alte informațiiNu au fost identificate. |
+
+Secțiunea a 8- a
+
+Măsuri privind implementarea, monitorizarea și evaluarea proiectului de act normativ
+
+| 8.1. Măsuri de punere în aplicare a proiectului de act normativPrezentul act normativ nu se referă la acest subiect. |
+| --- |
+| 8.2. Alte informațiiNu au fost identificate. |
+
+Față de cele prezentate, a fost elaborat proiectul de Lege pentru aprobarea Ordonanței de urgență a Guvernului privind modificarea și completarea Ordonanței de urgență a Guvernului nr. 85/2024 privind unele măsuri pentru reorganizarea Ministerului Agriculturii și Dezvoltării Rurale și a unor instituții aflate în subordinea acestuia, precum și pentru modificarea Ordonanței Guvernului nr. 12/2024 privind instituirea unei scheme de ajutor de stat pentru susținerea activității crescătorilor din sectoarele suin și avicol, în perioada 1 august 2022-31 august 2023, în contextul crizei provocate de agresiunea Rusiei împotriva Ucrainei, cu modificările și completările ulterioare, precum și pentru modificarea unor acte normative din domeniul agriculturii, pe care îl supunem Parlamentului spre adoptare.
+
+PRIM-MINISTRU
+
+ILIE-GAXRIL BOLOJAN

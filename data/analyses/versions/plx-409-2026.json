@@ -1,0 +1,192 @@
+{
+  "slug": "plx-409-2026",
+  "billId": "PL-x 409/2026",
+  "updatedAt": "2026-10-29T12:35:40.286Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L214FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Echipă anti-hackeri pentru sistemul energetic, înființată în Ministerul Energiei",
+      "summaryTlDr": "Este o structură necesară, dar scrisă în grabă. Centrul cibernetic pentru energie umple un gol real, însă textul are trimiteri greșite, mută o competență europeană la un minister care e și acționar la companiile din sector și anunță salarii derogatorii fără ca acum să se vadă costul.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/00/9/se445.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Centru de apărare cibernetică pentru sectorul energetic, în Ministerul Energiei",
+      "summaryTlDr": "Ideea e necesară și vine târziu: energia are nevoie de o echipă sectorială de răspuns la atacuri cibernetice, iar termenul european din 13.12.2024 a fost depășit. Textul e însă scris neglijent: o trimitere la o literă care nu există, un minister-acționar făcut supraveghetor fără separare de funcții și derogări salariale anunțate fără cifre.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 6
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a lăsat proiectul neschimbat în fond, în partea comparată; doar diferențe de formă",
+      "summary": "În partea comparată, Senatul a schimbat doar forma: antetul, formula de adoptare, punctuația și câteva greșeli de scriere din preambul. Art. 1 a rămas la fel, cu aceleași probleme. Restul comparației nu era disponibil.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Competența cerută de UE trece imediat la minister, fără personal și fără tranziție",
+            "major": true,
+            "article": "art. 1 alin. (4)"
+          },
+          {
+            "text": "Ministerul supraveghează securitatea companiilor de stat pe care le și deține",
+            "major": true,
+            "article": "art. 1 alin. (4), art. 5 alin. (3)"
+          },
+          {
+            "text": "Contracte pe durată determinată de 3 ani, prelungibile fără limită, prin derogare",
+            "major": true,
+            "article": "art. 2 alin. (1)"
+          },
+          {
+            "text": "Angajații care renunță la angajament plătesc 12 salarii medii brute la buget",
+            "major": true,
+            "article": "art. 3 alin. (5)"
+          },
+          {
+            "text": "Concediere posibilă după fiecare evaluare anuală, cu criterii fixate prin ordin",
+            "major": true,
+            "article": "art. 4 alin. (1)"
+          },
+          {
+            "text": "Note până la 4,50 din 5 retrogradează angajatul; sub 2,50 urmează concedierea",
+            "major": true,
+            "article": "art. 4 alin. (10)-(11)"
+          },
+          {
+            "text": "Acces continuu la datele și rețelele OT/ICS ale firmelor, fără limite clare",
+            "major": true,
+            "article": "art. 5 alin. (1) lit. e)-f)"
+          },
+          {
+            "text": "Operațiuni cibernetice „proactive” vagi, extinse și la persoane fizice din sector",
+            "major": true,
+            "article": "art. 5 alin. (4) lit. m)"
+          },
+          {
+            "text": "Derogări de la salarizarea publică anunțate; articolele nu apar în textul disponibil",
+            "major": true,
+            "article": "preambul"
+          },
+          {
+            "text": "Condiția autorizării DNSC trimite la alin. (2) lit. b), care nu există",
+            "major": false,
+            "article": "art. 1 alin. (5)"
+          },
+          {
+            "text": "Detectarea APT direct sub coordonarea SRI, fără reguli de control precizate",
+            "major": false,
+            "article": "art. 5 alin. (4) lit. l)"
+          },
+          {
+            "text": "Recrutare după procedură internă stabilită prin ordin de ministru, nu prin lege",
+            "major": false,
+            "article": "art. 3 alin. (1)"
+          },
+          {
+            "text": "CRISCE nu are personalitate juridică, dar primește dreptul la despăgubiri",
+            "major": false,
+            "article": "art. 1 alin. (1), art. 3 alin. (5)"
+          },
+          {
+            "text": "Funcțiile cu studii medii de la lit. c) sunt numite greșit „de coordonare”",
+            "major": false,
+            "article": "art. 2 alin. (4)"
+          },
+          {
+            "text": "„Mai mică de 2,50 inclusiv CISO” e neclar: se aplică și directorului?",
+            "major": false,
+            "article": "art. 4 alin. (11)"
+          },
+          {
+            "text": "Greșeli de redactare: „autoritate competență”, „CIRSCE”, funcții enumerate de două ori",
+            "major": false,
+            "article": "art. 1 alin. (4), art. 2 alin. (2), art. 4"
+          },
+          {
+            "text": "Preambulul invocă programul de guvernare al partidelor, nepotrivit într-o lege",
+            "major": false,
+            "article": "preambul"
+          }
+        ],
+        "good": [
+          {
+            "text": "Creează un centru sectorial de răspuns la atacuri cibernetice în energie",
+            "major": true,
+            "article": "art. 1 alin. (1)-(3)"
+          },
+          {
+            "text": "Desemnează autoritatea cerută de regulamentul UE privind securitatea fluxurilor de energie",
+            "major": true,
+            "article": "art. 1 alin. (4), art. 5 alin. (3)"
+          },
+          {
+            "text": "Funcția CSIRT depinde de autorizarea prealabilă a DNSC",
+            "major": false,
+            "article": "art. 1 alin. (5)"
+          },
+          {
+            "text": "Cooperare sub coordonarea DNSC și compatibilitate cu CSIRT-ul național",
+            "major": false,
+            "article": "art. 5 alin. (1) lit. c), alin. (2) lit. a)"
+          },
+          {
+            "text": "Monitorizarea nu trebuie să compromită funcționarea rețelelor industriale OT/ICS",
+            "major": false,
+            "article": "art. 5 alin. (1) lit. g)"
+          },
+          {
+            "text": "Obligație de protecție a datelor confidențiale ale beneficiarilor serviciilor",
+            "major": false,
+            "article": "art. 5 alin. (4) lit. g)"
+          },
+          {
+            "text": "Test de reziliență cel puțin o dată la 4 ani, cu reguli comune cu DNSC",
+            "major": false,
+            "article": "art. 5 alin. (1) lit. d)"
+          },
+          {
+            "text": "Răspuns la incidente asigurat permanent, 24/7",
+            "major": false,
+            "article": "art. 5 alin. (2) lit. q)"
+          },
+          {
+            "text": "Criteriile de evaluare a personalului cer aviz prealabil de la autoritățile de securitate",
+            "major": false,
+            "article": "art. 4 alin. (3)"
+          }
+        ],
+        "partial": true
+      },
+      "diff": {
+        "added": 103,
+        "removed": 106,
+        "same": 0.5
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:35:40.286Z"
+    }
+  ]
+}

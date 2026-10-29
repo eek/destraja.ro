@@ -1,0 +1,137 @@
+{
+  "slug": "plx-196-2026",
+  "billId": "PL-x 196/2026",
+  "updatedAt": "2026-10-29T12:46:23.316Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L122FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Statul plătește până la 12 luni de salarii restante, dar doar la firmele alese de Guvern",
+      "summaryTlDr": "Salariații primesc o protecție reală, dar împărțită inegal. Guvernul alege prin HG, pe criterii foarte largi, firmele ai căror angajați primesc un an de salarii din Fondul alimentat de toți angajatorii. Lipsesc transparența selecției, costul estimat și orice analiză privind ajutorul de stat.",
+      "scores": {
+        "agy": 7,
+        "claude": 5,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/90/6/se214.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Mai mulți bani din fondul pentru salarii restante, dar doar pentru angajații firmelor „strategice” alese de Guvern",
+      "summaryTlDr": "Măsura e utilă pentru salariații unor firme mari aflate în dificultate, care pot primi până la 12 salarii medii restante în loc de 5. Problema este că Guvernul decide singur, prin HG și pe criterii foarte largi, care firme intră pe listă, iar plățile din fond riscă să devină ajutor de stat selectiv.",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat ordonanța fără modificări: plafonul de 12 salarii pentru firme strategice rămâne",
+      "summary": "Senatul a aprobat ordonanța fără modificări. Acum sunt completate doar numărul ei și datele de publicare. Rămân plafonul de 12 salarii pentru firmele strategice și criteriile largi prin care ministerele aleg aceste firme.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "„Poate depăși” nu spune cine decide plafonul de 12 salarii și după ce reguli",
+            "major": true,
+            "article": "art. 14 alin. (1¹), art. 15 alin. (2)"
+          },
+          {
+            "text": "Plafonul pentru firmele nestrategice rămâne 5 salarii, de 2,4 ori mai mic",
+            "major": true,
+            "article": "art. 14 alin. (1¹), art. 15 alin. (2)"
+          },
+          {
+            "text": "Operator strategic în concordat: neclar dacă plafonul e 12 sau 6 salarii",
+            "major": true,
+            "article": "art. 14 alin. (1¹)–(1²)"
+          },
+          {
+            "text": "Fondul public poate plăti salariile unor firme în concordat care încă funcționează",
+            "major": true,
+            "article": "art. 14 alin. (1²), art. 15 alin. (3)"
+          },
+          {
+            "text": "Ajunge un criteriu din patru; lit. d) poate acoperi aproape orice angajator mare",
+            "major": true,
+            "article": "art. 14 alin. (1³)"
+          },
+          {
+            "text": "Fiecare minister își stabilește singur criteriile pentru operatorii strategici",
+            "major": true,
+            "article": "art. 14 alin. (1³)–(1⁵)"
+          },
+          {
+            "text": "Legea nu cere ca desemnarea să preceadă deschiderea insolvenței sau concordatului",
+            "major": true,
+            "article": "art. 14 alin. (1³)–(1⁵)"
+          },
+          {
+            "text": "D112 rămâne la angajatorul insolvent, virarea la agenție; pot apărea goluri în stagiu",
+            "major": true,
+            "article": "art. 13 alin. (2)–(3)"
+          },
+          {
+            "text": "Alin. (1²) pare să vizeze toți angajatorii în concordat, restrânge abia la final",
+            "major": false,
+            "article": "art. 14 alin. (1²)"
+          },
+          {
+            "text": "Lista prin HG fără motivare, consultare, cost estimat, termen sau revizuire periodică",
+            "major": false,
+            "article": "art. 14 alin. (1³)–(1⁵)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Salariații operatorilor strategici în insolvență pot primi până la 12 salarii, pe 12 luni",
+            "major": true,
+            "article": "art. 14 alin. (1¹), art. 15 alin. (2)"
+          },
+          {
+            "text": "În concordat preventiv, salariații operatorilor strategici pot primi până la 6 salarii",
+            "major": true,
+            "article": "art. 14 alin. (1²), art. 15 alin. (3)"
+          },
+          {
+            "text": "Agențiile virează impozitul și contribuțiile salariaților, ca plătitor la sursă",
+            "major": true,
+            "article": "art. 13 alin. (2)"
+          },
+          {
+            "text": "Fondul suportă exclusiv creanțele; sarcinile proprii rămân la angajator",
+            "major": false,
+            "article": "art. 13 alin. (2)–(3)"
+          },
+          {
+            "text": "Lista operatorilor strategici se aprobă prin HG, cu avizul Ministerului Muncii",
+            "major": false,
+            "article": "art. 14 alin. (1³)–(1⁵)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:46:23.316Z"
+    }
+  ]
+}

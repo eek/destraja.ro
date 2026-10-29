@@ -1,13 +1,57 @@
 {
   "slug": "b590-2026",
   "billId": "B590/2026",
-  "checkedAt": "2026-10-28T09:07:57.787Z",
+  "checkedAt": "2026-10-29T13:01:55.528Z",
   "models": {
-    "agy": "ok",
+    "agy": "error: răspuns gol după 604s (probabil timp depășit)",
     "claude": "ok",
     "codex": "ok"
   },
   "articles": [
+    {
+      "url": "https://jurnalul.ro/stiri/politica/nicoleta-pauliuc-propune-mandate-cinci-ani-sefi-servicii-secrete-1048013.html",
+      "title": "Senatoarea Nicoleta Pauliuc propune mandate de cinci ani pentru șefii serviciilor secrete, care să se suprapună cu cele ale președintelui României",
+      "outlet": "Jurnalul",
+      "domain": "jurnalul.ro",
+      "publishedAt": "2026-10-29",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Așa cum am arătat mai sus, niciun alt parlamentar PNL nu s-a asociat Nicoletei Pauliuc în acest demers legislativ.",
+      "match": "quote",
+      "firstSeenAt": "2026-10-29",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-29",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.76,
+            "source": "national_news",
+            "sourceP": 0.811,
+            "about": 0.959,
+            "release": 0.072
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.485,
+            "source": "national_news",
+            "sourceP": 0.539,
+            "about": 0.777,
+            "release": 0.202
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.91,
+            "source": "national_news",
+            "sourceP": 0.96,
+            "about": 0.99,
+            "release": 0.02
+          }
+        }
+      }
+    },
     {
       "url": "https://www.cotidianul.ro/nicoleta-pauliuc-a-depus-un-proiect-pentru-limitarea-mandatelor-sefilor-de-servicii-in-trecut-a-fost-acuzata-ca-a-blocat-un-proiect-asemanator",
       "title": "Nicoleta Pauliuc a depus un proiect pentru limitarea mandatelor șefilor de servicii. În trecut a fost acuzată că a blocat un proiect asemănător",
@@ -19,7 +63,7 @@
         "claude",
         "codex"
       ],
-      "quote": "Nicoleta Pauliuc, senatoare PNL, a depus marți un proiect în Senat prin care propune ca SRI, SIE, SPP, STS, DGPI și DGIA să poată avea doar maximum două mandate a câte cinci ani.",
+      "quote": "Senatoarea PNL propune două mandate a câte cinci ani.",
       "match": "quote",
       "firstSeenAt": "2026-10-28",
       "decision": {
@@ -57,6 +101,50 @@
   ],
   "pending": [
     {
+      "url": "https://oficiuldestiri.ro/sefii-sri-sie-spp-si-sts-ar-putea-avea-mandate-limitate-la-cinci-ani-cu-o-singura-reinnoire-noi-reguli-si-pentru-demitere",
+      "title": "Șefii SRI, SIE, SPP și STS ar putea avea mandate limitate la cinci ani, cu o singură reînnoire. Noi reguli și pentru demitere | Oficiul de Știri",
+      "outlet": "Oficiul de Știri | Stiri de ultima ora interne si externe, breaking news, stiri online, stirile zilei",
+      "domain": "oficiuldestiri.ro",
+      "publishedAt": "2026-10-28",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "În prezent, proiectul se află în procedură parlamentară, iar prevederile propuse nu produc efecte juridice.",
+      "match": "quote",
+      "firstSeenAt": "2026-10-29",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-29",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.743,
+            "source": "national_news",
+            "sourceP": 0.679,
+            "about": 0.967,
+            "release": 0.081
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.858,
+            "source": "national_news",
+            "sourceP": 0.583,
+            "about": 0.755,
+            "release": 0.165
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.97,
+            "source": "national_news",
+            "sourceP": 0.72,
+            "about": 0.99,
+            "release": 0.03
+          }
+        }
+      }
+    },
+    {
       "url": "https://financialintelligence.ro/nicoleta-pauliuc-propune-limitarea-mandatelor-sefilor-sri-sie-spp-sts-dgpi-si-dgia-la-cinci-ani-cu-posibilitatea-unei-singure-reinnoiri",
       "title": "Nicoleta Pauliuc propune limitarea mandatelor șefilor SRI, SIE, SPP, STS, DGPI și DGIA la cinci ani, cu posibilitatea unei singure reînnoiri - Financial Intelligence",
       "outlet": "Financial Intelligence",
@@ -66,7 +154,7 @@
         "agy",
         "claude"
       ],
-      "quote": "Propunerea legislativă B590/2026 a fost depusă la Senat pe 27 octombrie 2026 și urmează să parcurgă procedura parlamentară.",
+      "quote": "Nicoleta Pauliuc a precizat că propunerea privind mandatele de cinci ani nu reprezintă exclusiv inițiativa sa.",
       "match": "quote",
       "firstSeenAt": "2026-10-28",
       "decision": {

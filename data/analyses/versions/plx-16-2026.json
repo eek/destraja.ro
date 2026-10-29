@@ -1,0 +1,365 @@
+{
+  "slug": "plx-16-2026",
+  "billId": "PL-x 16/2026",
+  "updatedAt": "2026-10-29T13:51:03.654Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L485FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Ordinul de protecție: victimele sunt anunțate înainte de expirare, agresorii recidiviști pot primi ordine de până la 2 ani, iar consilierea agresorului devine obligatorie",
+      "summaryTlDr": "Lege utilă, care închide goluri reale din protecția victimelor: informare activă, reînnoirea ordinului, alegerea instanței și comunicarea rapidă. Problemele sunt de redactare și de bani, nu de fond: texte copiate în două legi, formulări greșite și obligații noi pentru autoritățile locale și pentru buget fără o sursă de finanțare.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/10/6/se780.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Ordinul de protecție: victima e anunțată înainte de expirare, agresorii recidiviști pot primi până la 24 de luni",
+      "summaryTlDr": "Este o lege utilă, care închide goluri reale în protecția victimelor: poți depune cererea și la instanța locului faptei, agresorii cu ordine repetate pot primi ordine mai lungi, iar victima este informată înainte de expirarea ordinului. Problemele sunt de redactare și de corelare: controlul consilierii și amenda apar doar în Legea 26/2024, nu și în legea violenței domestice.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 4
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl016_cd016_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Ordinul de protecție: terapie obligatorie pentru agresori și până la 2 ani pentru cei cu un ordin anterior",
+      "summaryTlDr": "Lege utilă pentru victime: își pot alege instanța, primăria e obligată să le contacteze, iar un agresor cu un ordin anterior poate primi un ordin nou de până la 24 de luni. Redactarea e însă inegală: controlul terapiei și amenda au intrat doar în legea pentru victimele din afara familiei, iar nicăieri nu se spune cine plătește ședințele.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_riscant",
+      "headline": "Senatul scoate asistența juridică gratuită a victimei și pune amendă pentru consilierea ratată",
+      "summary": "Senatul a scos asistența juridică gratuită pentru victimă și agresor și dreptul furnizorilor sociali de a cere un nou ordin. Acum agresorul face consiliere cel puțin lunar, raportează la poliție și riscă amendă de 5.000–10.000 lei, deși nu se spune cine plătește ședințele.",
+      "changes": [
+        {
+          "title": "Dispare asistența juridică gratuită pentru victimă și agresor",
+          "text": "Inițial, Legea 26/2024 primea un art. 9 alin. (2¹)-(2²): asistență juridică obligatorie și gratuită pentru victimă și pentru agresor. Acum prevederea a fost scoasă.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 9 alin. (2¹)-(2²) din Legea 26/2024",
+          "before": "(2¹) Asistența juridică a victimei este obligatorie și gratuită. (2²) Asistența juridică a agresorului este obligatorie și gratuită.",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Amendă de 5.000–10.000 lei pentru consiliere ratată",
+          "text": "Nou art. 18 alin. (4) din Legea 26/2024: nerespectarea consilierii sau a altor măsuri de la art. 12 alin. (3) și (3¹) aduce amendă de 5.000–10.000 lei, deși nu se spune cine asigură și plătește ședințele.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 18 alin. (4) din Legea 26/2024",
+          "before": null,
+          "after": "(4) Încălcarea de către persoana împotriva căreia a fost emis un ordin de protecție a uneia dintre măsurile prevăzute la art.12 alin.(3) și (3¹) și dispuse prin ordinul de protecție constituie contravenție și se sancționează cu amendă de la 5.000 lei la 10.000 lei.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Consiliere cel puțin lunară, raportată la poliție",
+          "text": "Nou în Legea 26/2024: consilierea sau psihoterapia ține pe toată durata ordinului, cel puțin o ședință pe lună, iar agresorul trebuie să informeze lunar poliția despre fiecare ședință.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 12 alin. (3¹) și alin. (4) lit. d) din Legea 26/2024",
+          "before": null,
+          "after": "(3¹) Măsura privind obligarea agresorului să urmeze, pe întreaga durată a ordinului de protecție, consiliere psihologică și/sau psihoterapie, se dispune cu o frecvență stabilită potrivit împrejurărilor, dar nu mai puțin de o ședință pe lună.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Furnizorii sociali nu mai pot cere un nou ordin",
+          "text": "Art. 24 alin. (2) din Legea 26/2024: inițial, și furnizorii acreditați de servicii sociale puteau cere, cu acordul victimei, un nou ordin. Acum, în numele victimei, mai pot cere doar procurorul și autoritatea locală.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 24 alin. (2) din Legea 26/2024",
+          "before": "c) reprezentantul oricăruia dintre furnizorii de servicii sociale în domeniul prevenirii și combaterii violenței domestice, acreditați conform legii, cu acordul victimei.",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Consilierea nu mai e alternativă la internare",
+          "text": "La art. 12 alin. (3) din Legea 26/2024, consilierea și/sau psihoterapia se cumulează acum cu eventuala internare, în loc să fie o alternativă la ea. În Legea 217/2003 formula veche rămâne.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 12 alin. (3) din Legea 26/2024",
+          "before": "instanța dispune și obligarea agresorului să urmeze consiliere psihologică, psihoterapie sau, după caz, poate recomanda internarea voluntară sau poate solicita internarea nevoluntară",
+          "after": "instanța dispune și obligarea agresorului să urmeze consiliere psihologică și/sau psihoterapie și poate recomanda internarea voluntară sau, după caz, poate solicita internarea nevoluntară",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Ordinul ajunge la autoritatea pentru victimele infracțiunilor",
+          "text": "La art. 23 alin. (1) și art. 24 alin. (2) lit. b) din Legea 26/2024, autoritatea locală vizată e acum cea pentru protecția victimelor infracțiunilor, nu a victimelor violenței domestice.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 23 alin. (1) și art. 24 alin. (2) lit. b) din Legea 26/2024",
+          "before": "precum și reprezentantului autorității sau structurii competente, la nivelul unității administrativ-teritoriale, cu atribuții în materia protecției victimelor violenței domestice.",
+          "after": "precum și reprezentantului autorității sau structurii competente, la nivelul unității administrativ-teritoriale, cu atribuții în materia protecției victimelor infracțiunilor.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Consilierea agresorului e automată la orice ordin; judecătorul nu o poate adapta cazului",
+            "major": true,
+            "article": "art. 38 alin. (4) din Legea 217/2003; art. 12 alin. (3) din Legea 26/2024"
+          },
+          {
+            "text": "Nu se spune cine furnizează și cine plătește consilierea sau psihoterapia agresorului",
+            "major": true,
+            "article": "art. 38 alin. (4) din Legea 217/2003; art. 12 alin. (3) din Legea 26/2024"
+          },
+          {
+            "text": "Amenda de 5.000–10.000 lei acoperă și măsuri voluntare sau dispuse cu acordul agresorului",
+            "major": true,
+            "article": "art. 18 alin. (4) din Legea 26/2024"
+          },
+          {
+            "text": "Frecvența lunară, raportarea la poliție și amenda lipsesc din Legea 217/2003",
+            "major": true,
+            "article": "art. 38 alin. (4) din Legea 217/2003"
+          },
+          {
+            "text": "Instanța „solicită” internarea nevoluntară, deși Legea 487/2002 pornește de la medicul psihiatru",
+            "major": false,
+            "article": "art. 38 alin. (4) din Legea 217/2003; art. 12 alin. (3) din Legea 26/2024"
+          },
+          {
+            "text": "Textul vorbește de „prelungirea” ordinului, deși legea prevede doar un nou ordin",
+            "major": false,
+            "article": "art. 7 alin. (2¹)-(2²) din Legea 217/2003"
+          },
+          {
+            "text": "Nu se spune ce autoritate locală contactează victima și din ce UAT",
+            "major": false,
+            "article": "art. 7 alin. (2¹)-(2²) din Legea 217/2003"
+          },
+          {
+            "text": "Plafonul de 24 de luni nu acoperă ordinele anterioare aflate încă în vigoare",
+            "major": false,
+            "article": "art. 39 alin. (3) din Legea 217/2003; art. 13 alin. (3) din Legea 26/2024"
+          },
+          {
+            "text": "Neclar dacă un ordin dat după cealaltă lege contează pentru plafonul de 24 luni",
+            "major": false,
+            "article": "art. 39 alin. (3) din Legea 217/2003; art. 13 alin. (3) din Legea 26/2024"
+          },
+          {
+            "text": "Articolul 14 din Legea 26/2024 este numerotat greșit „Art.4”",
+            "major": false,
+            "article": "art. 14 alin. (1) din Legea 26/2024"
+          },
+          {
+            "text": "Greșeală de redactare: „instanța dispune luare” în loc de „luarea”",
+            "major": false,
+            "article": "art. 12 alin. (4) din Legea 26/2024"
+          }
+        ],
+        "good": [
+          {
+            "text": "Autoritatea locală contactează victima la 3 zile, la expirare și cu 14 zile înainte",
+            "major": true,
+            "article": "art. 7 alin. (2¹)-(2²) din Legea 217/2003"
+          },
+          {
+            "text": "Până la 24 de luni pentru agresori cu ordin anterior, indiferent de victimă",
+            "major": true,
+            "article": "art. 39 alin. (3)-(4) din Legea 217/2003; art. 13 alin. (3)-(4) din Legea 26/202"
+          },
+          {
+            "text": "Consiliere cel puțin lunară, pe toată durata ordinului, verificată prin raportare la poliție",
+            "major": true,
+            "article": "art. 12 alin. (3¹) și alin. (4) lit. d) din Legea 26/2024"
+          },
+          {
+            "text": "Cererea se poate depune la instanța victimei sau la cea a locului faptei",
+            "major": false,
+            "article": "art. 40 alin. (1) din Legea 217/2003; art. 14 alin. (1) din Legea 26/2024"
+          },
+          {
+            "text": "Ordinul ajunge la autoritatea locală în cel mult 5 ore de la pronunțare",
+            "major": false,
+            "article": "art. 46 alin. (1) din Legea 217/2003; art. 23 alin. (1) din Legea 26/2024"
+          },
+          {
+            "text": "La expirare, procurorul sau autoritatea locală pot cere un nou ordin pentru victimă",
+            "major": false,
+            "article": "art. 24 alin. (2) din Legea 26/2024"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 29,
+        "removed": 38,
+        "same": 0.26
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:49:08.746Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_putin_riscant",
+      "headline": "Agresorii care consumă alcool pot fi trimiși, cu acordul lor, la tratament sau dezalcoolizare",
+      "summary": "Acum instanța poate trimite la tratament, cu acordul lor, și agresorii care consumă alcool, nu doar droguri, prin mai multe tipuri de programe. Rămân problemele mari: consiliere obligatorie fără finanțare clară și sancțiuni doar în Legea 26/2024.",
+      "changes": [
+        {
+          "title": "Agresorii care consumă alcool pot fi trimiși la tratament",
+          "text": "Inițial, doar consumatorii de substanțe psihoactive puteau fi integrați într-un program. Acum sunt incluși și cei care consumă alcool, tot cu acordul lor, în ambele legi.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 38 alin. (4) L. 217/2003; art. 12 alin. (3) L. 26/2024",
+          "before": "În cazul în care agresorul este consumator de substanțe psihoactive, instanța poate dispune, cu acordul acestuia",
+          "after": "În cazul în care agresorul este consumator de alcool și/sau substanțe psihoactive, instanța poate dispune, cu acordul acestuia",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Mai multe tipuri de programe: tratament, dezintoxicare, dezalcoolizare",
+          "text": "Inițial, singura opțiune era un program de asistență pentru consumatorii de droguri. Acum poate fi și consiliere, tratament, dezintoxicare sau dezalcoolizare, tot cu acordul agresorului.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 38 alin. (4) L. 217/2003; art. 12 alin. (3) L. 26/2024",
+          "before": "integrarea acestuia într-un program de asistență a persoanelor consumatoare de droguri, conform art.22 din Legea nr.143/2000",
+          "after": "integrarea agresorului într-un program de consiliere, tratament, dezintoxicare, dezalcoolizare sau asistență de specialitate, potrivit legii. În cazul consumului de substanțe psihoactive se aplică, în mod corespunzător, dispozițiile art. 22 din Legea nr. 143/2000",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Consilierea psihologică devine obligatorie la orice ordin, fără evaluarea fiecărui caz",
+            "major": true,
+            "article": "art. 38 alin. (4) L. 217/2003; art. 12 alin. (3) L. 26/2024"
+          },
+          {
+            "text": "Nu se spune cine plătește și cine asigură consilierea și programele",
+            "major": true,
+            "article": "art. 38 alin. (4) L. 217/2003; art. 12 alin. (3) L. 26/2024"
+          },
+          {
+            "text": "Ședința lunară, raportarea la poliție și amenda există doar în Legea 26/2024",
+            "major": true,
+            "article": "art. 12 alin. (3¹), (4) lit. d), art. 18 alin. (4) L. 26/2024"
+          },
+          {
+            "text": "Comunele mici primesc sarcina de a contacta victimele fără personal și resurse",
+            "major": true,
+            "article": "art. 7 alin. (2¹)-(2²) L. 217/2003"
+          },
+          {
+            "text": "În Legea 217/2003, consilierea poate fi citită ca opțiune, nu ca obligație",
+            "major": false,
+            "article": "art. 38 alin. (4) L. 217/2003"
+          },
+          {
+            "text": "Textul vorbește de „prelungirea” ordinului, dar legea prevede doar cererea unui ordin nou",
+            "major": false,
+            "article": "art. 7 alin. (2¹)-(2²) L. 217/2003"
+          },
+          {
+            "text": "Contactul la expirare vine prea târziu, iar omisiunea primăriei nu are consecințe",
+            "major": false,
+            "article": "art. 7 alin. (2¹) L. 217/2003"
+          },
+          {
+            "text": "Nu se precizează ce primărie răspunde: a domiciliului sau a reședinței victimei",
+            "major": false,
+            "article": "art. 7 alin. (2¹)-(2²) L. 217/2003"
+          },
+          {
+            "text": "Neclar dacă un ordin emis după o lege contează pentru plafonul din cealaltă",
+            "major": false,
+            "article": "art. 39 alin. (3) L. 217/2003; art. 13 alin. (3) L. 26/2024"
+          },
+          {
+            "text": "Expunerea de motive numește agresorul „deja sancționat”, deși ordinul nu e condamnare",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Greșeală de redactare: „printrun” în loc de „printr-un”",
+            "major": false,
+            "article": "art. 39 alin. (3) L. 217/2003"
+          }
+        ],
+        "good": [
+          {
+            "text": "Cererea se poate depune la instanța victimei sau la cea a locului faptei",
+            "major": true,
+            "article": "art. 40 alin. (1) L. 217/2003; art. 14 alin. (1) L. 26/2024"
+          },
+          {
+            "text": "Primăria contactează victima după emiterea ordinului și cu 14 zile înainte de expirare",
+            "major": true,
+            "article": "art. 7 alin. (2¹)-(2²) L. 217/2003"
+          },
+          {
+            "text": "Agresorii cu ordin expirat în ultimii 5 ani pot primi până la 24 luni",
+            "major": true,
+            "article": "art. 39 alin. (3)-(4) L. 217/2003; art. 13 alin. (3)-(4) L. 26/2024"
+          },
+          {
+            "text": "Agresorii care consumă alcool sau droguri pot urma tratament, cu acordul lor",
+            "major": true,
+            "article": "art. 38 alin. (4) L. 217/2003; art. 12 alin. (3) L. 26/2024"
+          },
+          {
+            "text": "Ședința lunară și raportarea la poliție fac consilierea verificabilă în Legea 26/2024",
+            "major": true,
+            "article": "art. 12 alin. (3¹), (4) lit. d) L. 26/2024"
+          },
+          {
+            "text": "Procurorul sau autoritatea locală pot cere un ordin nou în numele victimei",
+            "major": true,
+            "article": "art. 24 alin. (2) L. 26/2024"
+          },
+          {
+            "text": "Hotărârea ajunge la poliție și autoritatea locală în cel mult 5 ore",
+            "major": false,
+            "article": "art. 46 alin. (1) L. 217/2003; art. 23 alin. (1) L. 26/2024"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 27,
+        "removed": 24,
+        "same": 0.36
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:51:03.654Z"
+    }
+  ]
+}

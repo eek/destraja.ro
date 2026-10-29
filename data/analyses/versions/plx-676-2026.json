@@ -1,0 +1,244 @@
+{
+  "slug": "plx-676-2026",
+  "billId": "PL-x 676/2026",
+  "updatedAt": "2026-10-29T13:16:21.506Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L536FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "O căsuță poștală digitală unică pentru toate scrisorile de la stat",
+      "summaryTlDr": "Idee utilă și construită, neobișnuit, în favoarea cetățeanului. Căsuța digitală nu face să curgă termene decât dacă o alegi expres, iar comunicarea pe hârtie rămâne obligatorie. Riscurile sunt de redactare: o sancțiune de nulitate ambiguă, multe reguli lăsate pe seama normelor metodologice și un registru central pe CNP al tuturor comunicărilor, din care nu e clar dacă poți ieși.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/600/70/6/se768.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "O „cutie poștală” digitală oficială pentru fiecare cetățean, cu notificări de la stat",
+      "summaryTlDr": "Lege utilă și, în mare, echilibrată. Comunicarea electronică produce efecte juridice doar dacă titularul optează pentru asta, iar nimeni nu poate fi exclus de la servicii publice pentru că nu folosește platforma. Problemele țin de detaliile lăsate normelor metodologice, de finanțarea neclară și de o excepție vagă la suspendarea contului.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_riscant",
+      "headline": "Cine alege comunicarea online nu mai primește și pe hârtie; actul necitit contează ca primit după 15 zile",
+      "summary": "Acum, cine optează pentru comunicarea online a unor acte nu le mai primește și pe hârtie, iar actul necitit contează ca primit după 15 zile de la încărcare. Au dispărut însă nulitatea ambiguă și obligația cetățeanului de a-și ține datele de contact la zi.",
+      "changes": [
+        {
+          "title": "Cine alege online nu mai primește și pe hârtie",
+          "text": "Art. 18 alin. (1): inițial, comunicarea pe hârtie rămânea obligatorie față de toți. Acum, pentru categoriile alese de titular, comunicarea electronică produce singură efecte juridice.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 18 alin. (1)",
+          "before": "Această obligație nu înlătură comunicarea prin mijloacele prevăzute de legile speciale, care rămâne obligatorie față de toți titularii.",
+          "after": "Pentru categoriile de comunicări pentru care titularul a optat potrivit art. 20, comunicarea prin spațiul electronic de comunicare produce efectele juridice prevăzute de lege, fără utilizarea suplimentară a unui alt mijloc de comunicare",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Actul necitit contează ca primit după 15 zile",
+          "text": "Art. 20 alin. (3): acum actul se consideră comunicat la prima accesare sau, dacă nu e deschis, după 15 zile de la încărcare. Dispare regula că termenele curg de la data cea mai favorabilă titularului.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 20 alin. (3)",
+          "before": "În cazul prevăzut la alin. (4), atunci când aceeași comunicare se realizează atât prin mijloacele prevăzute de legile speciale, cât și prin spațiu, termenele curg de la data cea mai favorabilă titularului.",
+          "after": "Dacă documentul nu este accesat, comunicarea se consideră efectuată la împlinirea a 15 zile calendaristice de la data și ora punerii la dispoziție a conținutului integral în spațiul electronic de comunicare.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Datele de contact nu mai sunt o obligație",
+          "text": "Art. 10: inițial, titularul era obligat să furnizeze și să țină la zi datele de contact. Acum doar poate să le introducă și să le modifice oricând, cu efect pentru viitor.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 10",
+          "before": "Titularul spațiului electronic de comunicare are obligația de a furniza și menține actualizate datele de contact necesare transmiterii notificărilor, în măsura în care acestea sunt utilizate.",
+          "after": "Titularul poate introduce și actualiza în orice moment datele de contact asociate contului, precum și opțiunile privind canalele de notificare și categoriile de comunicări pentru care a optat potrivit art. 20.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dispare nulitatea ambiguă a comunicării",
+          "text": "Art. 18 alin. (2): inițial, lipsa conținutului integral atrăgea o „nulitate a comunicării” neclară. Acum se precizează că doar comunicarea electronică nu produce efecte.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 18 alin. (2)",
+          "before": "Autoritatea publică are obligația de a pune la dispoziție în spațiul electronic de comunicare comunicarea oficială în integralitatea conținutului acesteia, sub sancțiunea nulității comunicării.",
+          "after": "În lipsa conținutului integral, comunicarea prin acest canal nu produce efectele juridice prevăzute la alin.(1).",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Jurnalul platformei devine mijloc de probă",
+          "text": "Art. 20 alin. (6): s-a scos regula că încărcarea nu dovedește primirea sau luarea la cunoștință. Acum jurnalul, inclusiv accesările, e probă, dar titularul poate dovedi contrariul.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. 20 alin. (6)",
+          "before": "Punerea la dispoziție nu constituie dovada faptului că titularul a primit comunicarea sau a luat cunoștință de aceasta.",
+          "after": "Jurnalul sistemului constituie mijloc de probă cu privire la punerea la dispoziție, accesarea, transmiterea notificării și celelalte operațiuni tehnice înregistrate, fără a împiedica titularul să facă dovada contrară în condițiile legii.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Poți folosi spațiul prin reprezentant",
+          "text": "Art. 5 alin. (4) nou: accesul și drepturile se pot exercita și prin reprezentant legal sau convențional, iar sistemul arată cine a acționat și pe ce perioadă.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 5 alin. (4)",
+          "before": null,
+          "after": "Accesul la spațiul electronic de comunicare și exercitarea drepturilor aferente acestuia pot fi realizate și prin reprezentant legal sau convențional, în limitele și pe durata puterilor de reprezentare conferite potrivit legii ori actului de reprezentare.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Pentru cine optează, actul necitit contează ca primit după 15 zile",
+            "major": true,
+            "article": "art. 20 alin. (3)"
+          },
+          {
+            "text": "Cine optează nu mai primește actele și pe hârtie, ca rezervă",
+            "major": true,
+            "article": "art. 18 alin. (1)"
+          },
+          {
+            "text": "Spațiul există automat și comunicările se înregistrează pentru oricine, fără consimțământ",
+            "major": true,
+            "article": "art. 5 alin. (2), art. 6, art. 13 lit. g)"
+          },
+          {
+            "text": "Nu spune ce se întâmplă dacă notificarea nu ajunge la titular",
+            "major": false,
+            "article": "art. 20 alin. (4)"
+          },
+          {
+            "text": "Jurnalul accesărilor poate fi invocat ca probă că ai citit actul",
+            "major": false,
+            "article": "art. 20 alin. (6)"
+          },
+          {
+            "text": "Nu e clar dacă încetarea oprește înregistrarea; durata păstrării istoricului e lăsată normelor",
+            "major": false,
+            "article": "art. 11"
+          },
+          {
+            "text": "Excepțiile de la suspendare rămân deschise: „situațiile prevăzute de lege”",
+            "major": false,
+            "article": "art. 11 alin. (3)"
+          },
+          {
+            "text": "Multe reguli importante sunt lăsate normelor metodologice adoptate de Guvern",
+            "major": false,
+            "article": "art. 29"
+          }
+        ],
+        "good": [
+          {
+            "text": "Nimeni nu poate fi exclus de la servicii publice dacă nu folosește spațiul",
+            "major": true,
+            "article": "art. 7 alin. (4)"
+          },
+          {
+            "text": "Fără opțiunea expresă, încărcarea actului nu produce efecte și nu curg termene",
+            "major": true,
+            "article": "art. 20 alin. (1)"
+          },
+          {
+            "text": "Opțiunea se face pe categorii și se poate revoca oricând pentru viitor",
+            "major": true,
+            "article": "art. 20 alin. (2), art. 10"
+          },
+          {
+            "text": "Alte instituții accesează comunicările doar cu acord expres sau lege expresă",
+            "major": true,
+            "article": "art. 9"
+          },
+          {
+            "text": "Amenzi pentru instituțiile care încalcă regulile de notificare sau jurnalizare",
+            "major": true,
+            "article": "art. 27, art. 28"
+          },
+          {
+            "text": "Orice acces la conținut este jurnalizat și vizibil titularului",
+            "major": false,
+            "article": "art. 9 alin. (3), art. 23 alin. (8)"
+          },
+          {
+            "text": "Conținutul e criptat, iar administratorul platformei nu are acces general la el",
+            "major": false,
+            "article": "art. 23 alin. (4)-(6)"
+          },
+          {
+            "text": "Notificările externe nu conțin documentul, doar datele strict necesare",
+            "major": false,
+            "article": "art. 15 alin. (2)"
+          },
+          {
+            "text": "Comunicarea fără conținut integral nu produce efecte juridice",
+            "major": false,
+            "article": "art. 18 alin. (2)"
+          },
+          {
+            "text": "Titularul poate face dovada contrară față de jurnalul sistemului",
+            "major": false,
+            "article": "art. 20 alin. (6)"
+          },
+          {
+            "text": "Notificările dinainte de prima autentificare folosesc doar date de contact autorizate",
+            "major": false,
+            "article": "art. 6 alin. (1)"
+          },
+          {
+            "text": "Accesul prin reprezentant, cu identitatea și perioada evidențiate distinct",
+            "major": false,
+            "article": "art. 5 alin. (4)"
+          },
+          {
+            "text": "Istoricul rămâne accesibil titularului și după suspendare sau încetare",
+            "major": false,
+            "article": "art. 11 alin. (4)"
+          },
+          {
+            "text": "Audit independent anual, cu raport către DNSC și autoritatea de protecția datelor",
+            "major": false,
+            "article": "art. 24"
+          },
+          {
+            "text": "Raport public anual și norme publicate într-un format reutilizabil",
+            "major": false,
+            "article": "art. 30"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 79,
+        "removed": 76,
+        "same": 0.47
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:16:21.506Z"
+    }
+  ]
+}

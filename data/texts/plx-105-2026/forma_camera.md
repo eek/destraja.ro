@@ -1,0 +1,37 @@
+# PARLAMENTUL ROMÂNIEI
+
+# CAMERA DEPUTAȚILOR
+
+|LEGE|
+
+pentru reglementarea obligațiilor privind desfășurarea operațiunilor de încărcare și descărcare a mărfurilor, suporturilor sau ambalajelor
+
+Camera Deputaților adoptă prezentul proiect de lege.
+
+Art. 1. - Prezenta lege are ca obiect reglementarea obligațiilor privind desfășurarea activităților de încărcare și descărcare a mărfurilor, suporturilor sau ambalajelor deplasate în transportul rutier contra cost de mărfuri cu vehicule ce au o masă maximă autorizată mai mare de 12,5 tone, precum și stabilirea responsabilităților ce revin transportatorilor, furnizorilor, beneficiarilor și intermediarilor transporturilor rutiere cu privire la aceste activități.
+
+Art. 2. - (1) Conducătorii auto ai vehiculelor de transport rutier contra cost de mărfuri cu vehicule ce au o masă maximă autorizată mai mare de 12,5 tone, nu pot fi constrânși de către beneficiarul transportului, furnizorul mărfurilor, intermediari sau reprezentanți ai acestora să efectueze operațiuni de descărcare sau încarcare a mărfurilor, suporturilor sau ambalajelor.
+
+(2) Prin excepție de la alin. (1), conducătorii auto ai vehiculelor de transport rutier contra cost de mărfuri cu vehicule ce au o masă maximă autorizată mai mare de 12,5 tone pot efectua operațiuni de descărcare a mărfurilor, exclusiv în cazul transporturilor specializate, atunci când natura transportului impune acest lucru, iar contractele de muncă sau actele adiționale la acestea încheiate cu propriul angajator, prevăd această posibilitate.
+
+Art. 3. - (1) Clauzele contractuale asumate de transportator în relația cu beneficiarul transportului, furnizorul mărfurilor, intermediarii sau reprezentanți acestora, prin care conducătorii auto angajați ai acestuia ar avea obligația să descarce sau să încarce mărfuri, suporturi sau ambalaje, în afara situațiilor prevăzute la art. 2 alin. (2) sunt nule de drept.
+
+(2) Prin excepție de la prevederile alin. (1), nu constituie contravenție situația în care conducătorul auto își exprimă consimțământul expres, în formă scrisă, pentru efectuarea operațiunilor de încărcare sau descărcare, cu respectarea prevederilor Legii nr. 319/2006 privind securitatea și sănătatea în muncă, cu modificările și completările ulterioare.
+
+Art. 4. - (1) Încălcarea prevederilor art. 2, alin. (1) constituie contravenție și se sancționează cu amendă de la 5.000 lei la 20.000 lei aplicată beneficiarului transportului, furnizorului mărfurilor sau intermediarilor, după caz.
+
+(2) Încălcarea prevederilor art. 3, alin. (1) constituie contravenție și se sancționează cu amendă de la 10.000 lei la 20.000 lei aplicată transportatorului.
+
+Art. 5. - (1) Constatarea contravențiilor și aplicarea sancțiunilor prevăzute la art. 4 se realizează de către personalul împuternicit al Inspecției Muncii, prin inspectoratele teritoriale de muncă și de către personalul ISCTR.
+
+(2) În exercitarea atribuțiilor prevăzute la alin. (1), inspectorii de muncă și personalul ISCTR pot solicita documente justificative privind efectuarea transporturilor și pot efectua verificări la sediul social al operatorilor de transport, precum și la locurile de încărcare sau descărcare a mărfurilor respectiv la funizori, beneficiari sau intermediari.
+
+Art. 6. - În termen de 60 de zile de la publicarea legii în Monitorul Oficial al României, Partea I, Ministerul muncii, familiei, tineretului și solidarității sociale și Ministerul Transporturilor și Infrastructurii elaborază normele metodologice de aplicare ale legii.
+
+Art. 7. - Prezenta lege intră în vigoare la 30 de zile de la data publicării în Monitorul Oficial al României, Partea I.
+
+Acest proiect de lege a fost adoptat de Camera Deputaților în ședința din 27 mai 2026, cu respectarea prevederilor art. 76 alin. (2) din Constituția României, republicată.
+
+p. PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+NATALIA-ELENA INTOTERO

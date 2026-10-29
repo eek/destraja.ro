@@ -1,0 +1,91 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENATUL ROMÂNIEI
+
+# LEGE
+
+# privind legitimitatea apărării intereselor naționale ale României
+
+## CAPITOLUL I
+
+## Dispoziții generale
+
+## Art. 1 - Obiectul legii
+
+Prezenta lege stabilește cadrul juridic privind exercitarea drepturilor și libertăților fundamentale în scopul promovării și apărării intereselor naționale ale României, cu respectarea Constituției României și a tratatelor internaționale la care România este parte.
+
+## Art. 2 - Definiții
+
+În sensul prezentei legi, prin interese naționale se înțelege ansamblul valorilor, obiectivelor și priorităților care asigură suveranitatea, unitatea, integritatea teritorială, identitatea constituțională, securitatea și dezvoltarea statului român.
+
+## CAPITOLUL II
+
+## Exercitarea libertăților fundamentale
+
+Art. 3 (1) Exprimarea opiniilor, ideilor și informațiilor privind interesele naționale constituie o formă legitimă de exercitare a libertății de exprimare.
+
+(2) Folosirea libertății de conștiință, exprimare, informare, asociere – întru apărarea intereselor identității românești este recunoscută ca fundamental legitimă și nu poate fi restricționată pe nici o cale.
+
+(3) Exercitarea acestui drept se realizează cu respectarea ordinii constituționale, a drepturilor și libertăților celorlalți cetățeni și a legislației în vigoare.
+
+Art. 4 - Se abrogă Legea nr.107/2006, O.U.G. nr.31/2002, Legea nr.217/ 2015, Legea nr.157/2018 și Legea nr.241/2025, care încalcă flagrant Constituția, după cum urmează: – în plan individual, încalcă flagrant art.1.3, 20, 23.1, 29, 30, 31, 40, 53 din Constituție și le anulează legitimitatea, căci neagă libertăți naturale, fără de care acordul constituțional nu mai poate fi prezumat;
+
+\- în plan colectiv, încalcă art.2, 3.4, 54.1, 55.1 din Constituție, stînjenind apărarea intereselor naționale, provocînd blocarea anticorpilor identitari, deci corodînd suveranitatea României;
+
+\- în plan istoric, reprezintă o trădare a strădaniilor înaintașilor noștri, care au întărit țara, față de orice tip de acțiuni păgubitoare, prin aceste legi încălcându-se astfel art.33.2/3 din Constituție; - în planul echității, reprezintă o favorizare selectivă pe criterii etnice, încălcînd principiile de nediscriminare între cetățenii de orice etnie, asumate constituțional (art.4, 6.2, 16.1 din Constituție);
+
+\- în plan justițiar, prin formulări imprecise, oferă aparatului administrativ și juridic posibilități de interpretare arbitrară/ imprevizibilă/ abuzivă/ tendențioasă;
+
+\- în plan logic, reprezintă o circularitate absurdă, căci protejarea exclusivă a intereselor unei alte etnii, denotă prin aceste legi un exces de influență/putere a acesteia, exces a cărui denunțare poate fi incriminată pe baza lor.
+
+## CAPITOLUL III
+
+## Evaluarea cadrului legislativ
+
+## Art. 5
+
+(1) Parlamentul României instituie un mecanism de evaluare periodică a legislației care reglementează limitele exercitării libertăților fundamentale.
+
+(2) Evaluarea va urmări:
+
+a) conformitatea cu Constituția României;
+
+b) respectarea principiului proporționalității;
+
+c) claritatea și previzibilitatea normelor juridice.
+
+Art. 6
+
+(1) În termen de 12 luni de la intrarea în vigoare a prezentei legi, comisiile juridice ale Parlamentului vor prezenta un raport privind compatibilitatea cadrului legislativ existent cu principiile prevăzute de prezenta lege.
+
+(2) Pe baza raportului pot fi inițiate proiecte de modificare sau abrogare a legislației analizate, în condițiile Constituției.
+
+## CAPITOLUL IV
+
+## Garanții constituționale
+
+Art. 7 - Restrângerea exercițiului drepturilor și libertăților fundamentale poate fi realizată numai în condițiile art. 53 din Constituția României.
+
+Art. 8 - Autoritățile publice au obligația de a asigura interpretarea și aplicarea legislației în sensul respectării drepturilor și libertăților fundamentale.
+
+## CAPITOLUL V
+
+## Dispoziții finale
+
+Art. 9 - Prezenta lege intră în vigoare la 30 de zile de la publicarea în Monitorul Oficial al României, Partea I.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 din Constituția României, republicată.
+
+PREȘEDINTE
+
+CAMERA DEPUTAȚILOR
+
+PREȘEDINTE
+
+SENATUL ROMÂNIEI
+
+GRINDEANU SORIN-MIHAI
+
+ABRUDEAN MIRCEA

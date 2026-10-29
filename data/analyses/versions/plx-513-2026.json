@@ -1,0 +1,158 @@
+{
+  "slug": "plx-513-2026",
+  "billId": "PL-x 513/2026",
+  "updatedAt": "2026-10-29T12:53:49.868Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L383FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Buletin fără certificate de naștere sau căsătorie: evidența persoanelor verifică singură datele în sistem",
+      "summaryTlDr": "Lege scurtă și utilă, care aplică la ghișeul de buletine principiul „statul nu-ți cere ce are deja”. Singura problemă reală este că interdicția e absolută și nu prevede ce se întâmplă când actul lipsește din sistemul informatic.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/10/3/se574.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Buletinul fără certificat de naștere: ghișeul verifică singur datele în sistem",
+      "summaryTlDr": "Lege mică și utilă: evidența persoanelor ar fi obligată să verifice singură în sistem datele de stare civilă, în loc să-ți ceară certificatele pe care statul le-a emis deja. Riscul nu vine din abuz. Vine din excepția prea largă de la art. 20¹ alin. (3), «nu pot fi verificate», care poate lăsa practica ghișeelor neschimbată.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Interdicția de a cere certificate are acum excepții largi, dar cererile cu acte lipsă nu se mai blochează",
+      "summary": "Inițial, serviciile nu puteau cere deloc certificate de stare civilă, ceea ce putea bloca dosarele cu date lipsă. Acum le pot cere dacă datele nu se pot verifica, cu motivul indicat, o excepție largă, iar lipsa lor nu mai duce la buletin provizoriu când datele sunt în sistem.",
+      "changes": [
+        {
+          "title": "Interdicția de a cere certificate nu mai e absolută",
+          "text": "Art. 20¹ alin. (2): inițial certificatele nu puteau fi cerute deloc. Acum interdicția se aplică doar dacă datele pot fi verificate din oficiu în sistemele informatice.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 20¹ alin. (2)",
+          "before": "Se interzice serviciilor publice comunitare de evidență a persoanelor să solicite persoanei, în procedurile prevăzute la alin. (1), prezentarea sau depunerea certificatelor de stare civilă ori a copiilor după acestea.",
+          "after": "nu pot solicita persoanei prezentarea ori depunerea certificatelor de stare civilă sau a copiilor acestora, dacă datele necesare soluționării cererii pot fi verificate din oficiu prin sistemele informatice prevăzute de lege.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Documente cerute când datele lipsesc, cu motivul indicat",
+          "text": "Art. 20¹ alin. (3) nou: dacă datele lipsesc, sunt incomplete, neconcordante sau nu pot fi verificate, serviciul poate cere documentele strict necesare, cu motivul. Poate acoperi și pane tehnice.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 20¹ alin. (3)",
+          "before": null,
+          "after": "În cazul în care datele necesare nu sunt disponibile, sunt incomplete, prezintă neconcordanțe ori nu pot fi verificate prin sistemele informatice prevăzute de lege, serviciile publice comunitare de evidență a persoanelor pot solicita documentele justificative strict necesare",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Fără buletin provizoriu doar pentru lipsa certificatelor",
+          "text": "Art. 20 alin. (4) nou: lipsa certificatelor de stare civilă nu mai poate duce la eliberarea unei cărți de identitate provizorii, dacă datele se pot verifica din oficiu.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 20 alin. (4)",
+          "before": null,
+          "after": "Neprezentarea certificatelor de stare civilă nu constituie motiv pentru eliberarea cărții de identitate provizorii, dacă datele respective pot fi verificate din oficiu, în condițiile legii.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Se actualizează și normele pentru buletine",
+          "text": "Art. II: în 90 de zile Guvernul modifică și normele OUG 97/2005 (HG 295/2021), unde sunt listele de acte cerute la buletin, nu doar normele de stare civilă (HG 255/2024).",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. II",
+          "before": "Guvernul va actualiza, prin hotărâre, normele metodologice de aplicare unitară a dispozițiilor în materie de stare civilă, aprobate prin Hotărârea Guvernului nr. 255/2024",
+          "after": "aprobate prin Hotărârea Guvernului nr.295/2021, cu modificările și completările ulterioare, precum și Normele metodologice de aplicare unitară a dispozițiilor în materie de stare civilă",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Se verifică doar datele strict necesare cererii",
+          "text": "Art. 20¹ alin. (1): verificarea din oficiu se limitează la datele de stare civilă strict necesare și se face prin sistemele informatice prevăzute de lege, nu prin sistemul numit din Legea 119/1996.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 20¹ alin. (1)",
+          "before": "serviciile publice comunitare de evidență a persoanelor verifică din oficiu datele cuprinse în actele de stare civilă",
+          "after": "verifică din oficiu, prin sistemele informatice prevăzute de lege, datele de stare civilă strict necesare soluționării cererii",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Excepția e largă: include și probleme tehnice ale sistemului, nu doar ale dosarului",
+            "major": true,
+            "article": "art. 20¹ alin. (3)"
+          },
+          {
+            "text": "Hotărârile de divorț și actele de schimbare a numelui pot fi cerute în continuare",
+            "major": true,
+            "article": "art. 20¹ alin. (2)"
+          },
+          {
+            "text": "Motivul trebuie doar indicat; legea nu cere motivare scrisă",
+            "major": false,
+            "article": "art. 20¹ alin. (3)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Datele de stare civilă se verifică din oficiu la buletin, act nou și provizoriu",
+            "major": true,
+            "article": "art. 20¹ alin. (1)"
+          },
+          {
+            "text": "Certificatele nu pot fi cerute când datele se pot verifica în sistem",
+            "major": true,
+            "article": "art. 20¹ alin. (2)"
+          },
+          {
+            "text": "Lipsa certificatelor nu mai duce la carte de identitate provizorie",
+            "major": true,
+            "article": "art. 20 alin. (4)"
+          },
+          {
+            "text": "Când datele lipsesc, se cer doar documentele strict necesare, cu motivul indicat",
+            "major": false,
+            "article": "art. 20¹ alin. (3)"
+          },
+          {
+            "text": "Guvernul are 90 de zile să adapteze normele pentru buletine și stare civilă",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 9,
+        "removed": 7,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:50:31.110Z"
+    }
+  ]
+}

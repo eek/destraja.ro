@@ -1,0 +1,29 @@
+# PARLAMENTUL ROMÂNIEI
+
+# CAMERA DEPUTAȚILOR
+
+Lege privind declararea zilei de 7 aprilie „Ziua Mircea Lucescu”, ca sărbătoare națională
+
+Parlamentul României adoptă prezenta lege.
+
+Art. 1 – Se declară ziua de 7 aprilie „Ziua Mircea Lucescu”, ca sărbătoare națională.
+
+Art. 2 – Cu prilejul „Zilei Mircea Lucescu”, autoritățile administrației publice centrale și locale, instituțiile publice de cultură și sport, unitățile de învățământ, federațiile sportive naționale, cluburile sportive și organizațiile neguvernamentale pot organiza și/sau sprijini logistic și material manifestări sportive, culturale, educative și comemorative dedicate personalității, moștenirii sportive și contribuției lui Mircea Lucescu la afirmarea României în sportul românesc european și mondial.
+
+Art. 3 – Societatea Română de Radiodifuziune și Societatea Română de Televiziune, în calitate de servicii publice, pot include în programele lor emisiuni ori aspecte de la manifestările dedicate acestei zile.
+
+Art. 4 – Fondurile necesare organizării și desfășurării manifestărilor prevăzute la art. 2 pot fi asigurate din bugetele autorităților și instituțiilor publice organizatoare, în limita creditelor bugetare aprobate, precum și din sponsorizări, donații ori alte surse legal constituite.
+
+Art. 5 – Intrare în vigoare
+
+Prezenta lege intră în vigoare la 30 de zile de la publicarea în Monitorul Oficial al României, Partea I.
+
+Inițiator
+
+Deputat: Codruța-Maria Corcheș
+
+Grupul parlamentar: P@16
+
+Data: 10/04/2026
+
+Touca flie dopebut

@@ -1,0 +1,15 @@
+# PARLAMENTUL ROMÂNIEI CAMERA DEPUTAȚILOR
+
+## | L E G E |
+
+pentru eliminarea pensiilor speciale ale primarilor, viceprimarilor, președinților și vicepreședinților ai consiliilor județene
+
+Camera Deputaților adoptă prezentul proiect de lege.
+
+Articol unic. – Articolul 210 din Ordonanța de Urgență a Guvernului nr. 57/2019 privind Codul administrativ, publicată în Monitorul Oficial al României, Partea I, nr. 555 din 5 iulie 2019, cu modificările și completările ulterioare, se abrogă.
+
+Acest proiect de lege se consideră adoptat de Camera Deputaților în forma inițială, în condițiile art. 75 alin. (2) teza a III-a din Constituția României, republicată.
+
+p. PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+NATALIA-ELENA INTOTERO

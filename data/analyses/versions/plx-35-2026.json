@@ -1,0 +1,213 @@
+{
+  "slug": "plx-35-2026",
+  "billId": "PL-x 35/2026",
+  "updatedAt": "2026-10-29T13:54:49.833Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L588FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Proiectele UE 2014-2020 neterminate pot fi salvate în loc de reziliate, iar cardurile pentru tichete sociale merg mai departe",
+      "summaryTlDr": "Lege tehnică și în mare parte utilă: ajută la salvarea banilor europeni pentru proiecte începute în 2014-2020 și prelungește folosirea cardurilor pentru tichetele sociale. Problema reală e una: autoritatea de management alege fără criterii scrise ce proiecte salvează și pe care le reziliază, cu restituirea banilor.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/30/5/se19.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Proiectele europene 2014-2020 neterminate pot fi salvate, iar tichetele sociale se prelungesc",
+      "summaryTlDr": "Lege tehnică și în mare parte utilă. Proiectele europene neterminate la 31 decembrie 2025 pot fi salvate în loc să fie reziliate, iar tichetele sociale pentru persoanele vulnerabile continuă. Problema reală: autoritatea de management alege singură, fără criterii scrise, ce proiect e salvat și ce beneficiar returnează banii.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl035_plx_35_2cd6stema.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "O nouă șansă pentru proiectele UE 2014-2020 rămase neterminate, plus o derogare bugetară pentru apărare",
+      "summaryTlDr": "Ordonanța e în mare parte utilă. Proiectele UE neterminate la 31 decembrie 2025 pot fi trecute la categoria nefuncționale, în loc să li se rezilieze automat contractul cu returnarea banilor. Problema e în legea de aprobare: Art. II, fără legătură cu fondurile UE, lasă Ministerul Finanțelor să mute credite de apărare între ministere, cu raportare doar internă.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat ordonanța fără modificări; regulile pentru proiectele 2014-2020 neterminate rămân",
+      "summary": "Senatul a aprobat ordonanța fără modificări, deci prevederile sunt aceleași ca inițial. Proiectele 2014-2020 neterminate la 31.12.2025 pot fi salvate prin reîncadrare sau reziliate, după cum decide autoritatea de management, fără criterii în lege.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Reîncadrarea proiectelor neterminate ca nefuncționale e la discreția autorității, fără niciun criteriu",
+            "major": true,
+            "article": "art. I pct. 4 (art. 17 alin. (3^1) din OUG 36/2023)"
+          },
+          {
+            "text": "Aceeași întârziere poate aduce altor beneficiari rezilierea contractului și restituirea banilor",
+            "major": true,
+            "article": "art. I pct. 5 (art. 17 alin. (4) din OUG 36/2023)"
+          },
+          {
+            "text": "Listele de proiecte pot fi reaprobate după încadrarea beneficiarilor, fără publicare obligatorie",
+            "major": false,
+            "article": "art. I pct. 8 (art. 46 din OUG 36/2023)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Proiectele neterminate la 31.12.2025 pot evita rezilierea, cu modificarea contractului de finanțare",
+            "major": true,
+            "article": "art. I pct. 4 (art. 17 alin. (3^1) din OUG 36/2023)"
+          },
+          {
+            "text": "Regula pentru nereguli se extinde la șase programe naționale, nu doar la cele regionale",
+            "major": true,
+            "article": "art. I pct. 1-2 (art. 10^1 alin. (2)-(3) din OUG 36/2023)"
+          },
+          {
+            "text": "Neregulile din etapa a II-a se tratează unitar și se corectează în etapa I",
+            "major": false,
+            "article": "art. I pct. 1-2 (art. 10^1 alin. (2)-(3) din OUG 36/2023)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:51:37.156Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_riscant",
+      "headline": "Camera a adăugat un articol care lasă Finanțele să mute fonduri pentru achizițiile de apărare",
+      "summary": "Ordonanța e aprobată la fel ca la Senat, dar Camera a adăugat o regulă separată: în 2026, Ministerul Finanțelor poate muta credite între instituții și titluri pentru achiziții de apărare. Totalul nu crește, dar mutările nu mai trec prin Parlament, iar textul nu cere publicarea lor.",
+      "changes": [
+        {
+          "title": "Finanțele pot muta credite pentru achizițiile de apărare",
+          "text": "Art. II alin. (1), nou: în 2026, Finanțele pot muta credite de angajament între instituții și titluri, pentru achiziții de apărare și securitate, fără alt vot al Parlamentului, dar în limita totalului.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. II alin. (1)",
+          "before": null,
+          "after": "redistribuiri de credite de angajament între ordonatorii principali de credite, la solicitarea acestora, între titlurile de cheltuieli din care se finanțează contractele de achiziții publice de produse din domeniile apărării și securității",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Instituțiile își modifică anexele bugetare și anunță Finanțele",
+          "text": "Art. II alin. (2), nou: instituțiile introduc singure mutările în anexele la bugete și le comunică Ministerului Finanțelor în 10 zile. Textul nu cere publicarea lor.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. II alin. (2)",
+          "before": null,
+          "after": "Se autorizează ordonatorii principali de credite să introducă modificările determinate de aplicarea prevederilor prezentului articol în anexele la bugetele acestora și să le comunice Ministerului Finanțelor în termen de 10 zile de la efectuarea acestora.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Autoritatea poate reîncadra proiectele ca nefuncționale fără criterii, termen sau cale de contestare",
+            "major": true,
+            "article": "art. 17 alin. (3^1) OUG 36/2023"
+          },
+          {
+            "text": "Proiectele nereîncadrate pierd contractul și returnează banii, deși întârzierea e aceeași",
+            "major": true,
+            "article": "art. 17 alin. (4) OUG 36/2023"
+          },
+          {
+            "text": "Beneficiarii pot primi corecții financiare pe cheltuieli din etapa I, vechi de ani",
+            "major": true,
+            "article": "art. 10^1 alin. (2)-(3) OUG 36/2023"
+          },
+          {
+            "text": "Listele de proiecte se pot schimba după ce beneficiarii au fost deja încadrați",
+            "major": true,
+            "article": "art. 46 alin. (2) OUG 36/2023"
+          },
+          {
+            "text": "Finanțele mută credite pentru achiziții de apărare fără alt vot al Parlamentului",
+            "major": true,
+            "article": "art. II alin. (1)"
+          },
+          {
+            "text": "Beneficiarii au avut doar 19 zile între publicare și termenul de 31.12.2025",
+            "major": false,
+            "article": "art. 17 alin. (3^1)-(4) OUG 36/2023"
+          },
+          {
+            "text": "Textul nu cere publicarea listelor de proiecte modificate de comitetele de monitorizare",
+            "major": false,
+            "article": "art. 46 alin. (2) OUG 36/2023"
+          },
+          {
+            "text": "Mutările de credite se raportează doar Finanțelor, nu Parlamentului sau publicului",
+            "major": false,
+            "article": "art. II alin. (2)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Proiectele neterminate pot evita rezilierea prin reîncadrare ca nefuncționale",
+            "major": true,
+            "article": "art. 17 alin. (3^1) OUG 36/2023"
+          },
+          {
+            "text": "Neregulile din etapa a II-a se tratează unitar, după OUG 66/2011, în șase programe",
+            "major": false,
+            "article": "art. 10^1 alin. (2)-(3) OUG 36/2023"
+          },
+          {
+            "text": "Comitetele de monitorizare pot corecta listele de proiecte anexate raportului final",
+            "major": false,
+            "article": "art. 46 alin. (2) OUG 36/2023"
+          },
+          {
+            "text": "Mutările de credite pentru apărare rămân în totalul aprobat din bugetul de stat",
+            "major": false,
+            "article": "art. II alin. (1)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 6,
+        "removed": 3,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:53:34.215Z"
+    }
+  ]
+}

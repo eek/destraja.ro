@@ -1,0 +1,116 @@
+{
+  "slug": "plx-38-2026",
+  "billId": "PL-x 38/2026",
+  "updatedAt": "2026-10-29T12:27:04.839Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L612FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Bani de la buget pentru aeroporturile statului fără buget aprobat și împrumuturi mai mari pentru termoficare (2025)",
+      "summaryTlDr": "E o ordonanță tehnică de final de an, ale cărei efecte s-au consumat deja. Ține în funcțiune aeroporturile statului și le dă primăriilor mai mult acces la împrumuturi pentru căldură. Problema reală e transparența: fișa financiară e goală, o categorie de împrumuturi scapă de plafon, iar creditele neutilizate pot ajunge în Fondul de rezervă al Guvernului.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/30/8/se31.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "Bani de la stat pentru aeroporturile fără buget aprobat și împrumuturi pentru termoficare",
+      "summaryTlDr": "Este o ordonanță tehnică de final de an, ale cărei termene au expirat deja, și nu lovește direct cetățenii. Totuși, invocă NATO pentru a permite finanțarea fără plafon a tuturor aeroporturilor de stat care au încălcat disciplina financiară. În plus, lasă orașele să se îndatoreze pentru pierderile de la termoficare, iar Guvernul declară impact bugetar zero.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat OUG 77/2025 fără modificări; unele împrumuturi ale primăriilor rămân fără plafon",
+      "summary": "Senatul a aprobat ordonanța fără nicio modificare de fond: s-au adăugat doar data ordonanței și Monitorul Oficial. Rămân aceleași riscuri: bani pentru aeroporturile statului fără limite, datorii pentru pierderile termoficării și împrumuturi scoase de sub plafon.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Aeroporturile statului primesc derogare fără sumă maximă, destinație sau legătură cu activitatea militară",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Aeroporturile scapă de sancțiunea pentru bugete neaprobate, fără obligația de a le aproba ulterior",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Plafonul împrumuturilor din venituri din privatizare crește cu 250 mil. lei, la 1,75 mld.",
+            "major": true,
+            "article": "art. II pct. 1"
+          },
+          {
+            "text": "Primăriile se pot împrumuta 400 mil. lei pentru facturi restante și pierderi la termoficare",
+            "major": true,
+            "article": "art. II pct. 1 lit. f)"
+          },
+          {
+            "text": "Împrumuturile pentru termoficare nu cer nicio eficientizare a operatorului",
+            "major": true,
+            "article": "art. II pct. 1 lit. f)"
+          },
+          {
+            "text": "Grație de 12 luni la principal mută rambursarea pe bugetele următoare",
+            "major": true,
+            "article": "art. II pct. 2"
+          },
+          {
+            "text": "Plafon de 150 mil. lei pe UAT, care vizează doar câteva orașe mari",
+            "major": true,
+            "article": "art. II pct. 2"
+          },
+          {
+            "text": "O categorie de împrumuturi iese de sub orice plafon, deci expunerea nu are limită",
+            "major": true,
+            "article": "art. II pct. 2 lit. g)"
+          },
+          {
+            "text": "Creditele anulate ajung în Fondul de rezervă, împărțit prin HG fără vot parlamentar",
+            "major": true,
+            "article": "art. III–IV"
+          },
+          {
+            "text": "Ordonatorii pot muta credite între capitole la cheltuieli de personal",
+            "major": false,
+            "article": "art. III–IV"
+          },
+          {
+            "text": "Fișa financiară neagă impactul bugetar, deși împrumuturile pot crește deficitul public",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:27:04.839Z"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "slug": "plx-468-2026",
+  "billId": "PL-x 468/2026",
+  "updatedAt": "2026-10-29T12:46:53.889Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L268FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Impozit local redus sau zero pentru vehiculele care mută stupii în pastoral",
+      "summaryTlDr": "Măsură mică și rezonabilă pentru un sector lovit de mortalități și de importuri ieftine: vehiculele folosite doar la mutatul stupilor pot fi scutite de impozitul local, ca utilajele agricole. Riscul e tehnic, nu politic: dacă definiția rămâne vagă, scutirea e fie greu de obținut, fie ușor de folosit și pentru camioane obișnuite.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/60/8/se517.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Primăriile vor putea scuti de impozit vehiculele care mută stupii în pastoral",
+      "summaryTlDr": "Lege benignă și utilă pentru apicultori, dar timidă: nu scutește automat pe nimeni, ci doar le permite consiliilor locale să acorde scutirea sau reducerea. Punctele slabe sunt condiția «omologate în acest sens de RAR» și faptul că textul nu cere ca proprietarul să fie apicultor.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Scutirea pentru vehiculele cu stupi trece în Codul fiscal, dar o decide fiecare consiliu local",
+      "summary": "Inițial, scutirea stătea în Legea apiculturii și trimitea la condiții care nu existau. Acum e în Codul fiscal și poate fi aplicată, posibil și altor vehicule decât autovehiculele, dar doar dacă primăria o aprobă prin hotărâre de consiliu local.",
+      "changes": [
+        {
+          "title": "Scutirea trece din Legea apiculturii în Codul fiscal",
+          "text": "Inițial, art. 17³ nou din Legea apiculturii acorda scutirea «în condițiile legii», condiții stabilite nicăieri. Acum devine lit. f) la art. 469 alin. (2) din Codul fiscal și poate fi aplicată.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 469 alin. (2) lit. f) din Codul fiscal",
+          "before": "LEGE pentru completarea Legea apiculturii nr. 383/2013",
+          "after": "pentru completarea art.469 alin.(2) din Legea nr. 227/2015 privind Codul fiscal",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Scutirea nu mai e automată, decide consiliul local",
+          "text": "Inițial, vehiculele «beneficiază de scutire». Acum art. 469 alin. (2) doar permite consiliului local să scutească sau să reducă impozitul, deci suma diferă de la o localitate la alta.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 469 alin. (2) din Codul fiscal",
+          "before": "(2) Autovehiculele prevăzute la alin.(1) beneficiază de scutire de la plata impozitului pe mijloacele de transport, în condițiile legii.",
+          "after": "La articolul 469 alineatul (2) din Legea nr. 227/2015 privind Codul fiscal",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Pot intra și alte vehicule, nu doar autovehiculele",
+          "text": "Inițial erau vizate doar «autovehiculele». Acum lit. f) vorbește de «mijloacele de transport specializate», formulare care poate cuprinde și remorcile sau pavilioanele apicole pe remorcă.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 469 alin. (2) lit. f) din Codul fiscal",
+          "before": "(1) Autovehiculele utilizate exclusiv pentru transportul stupilor în pastoral",
+          "after": "mijloacele de transport specializate pentru transportul stupilor în pastoral",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Omologarea pentru stupi o face Registrul Auto Român",
+          "text": "Inițial se cerea doar ca vehiculele să fie «omologate și înregistrate ca atare». Acum lit. f) precizează că omologarea în acest scop e cea făcută de Registrul Auto Român.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 469 alin. (2) lit. f) din Codul fiscal",
+          "before": "omologate și înregistrate ca atare",
+          "after": "astfel cum sunt omologate în acest sens de Registrul Auto Român",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dispare declararea vehiculelor ca mijloace agricol-apicole",
+          "text": "Art. 17³ alin. (1) le declara «mijloace de transport utilizate în activitatea agricolă-apicolă». Acum lit. f) doar le enumeră printre vehiculele pentru care se poate acorda facilitatea.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 17³ alin. (1) din Legea nr. 383/2013",
+          "before": "constituie mijloace de transport utilizate în activitatea agricolă-apicolă",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Scutirea e opțională; apicultori din localități diferite pot plăti impozite diferite",
+            "major": true,
+            "article": "art. 469 alin. (2) lit. f) din Codul fiscal"
+          },
+          {
+            "text": "Categoria de omologare RAR cerută poate lipsi din cartea de identitate a vehiculului",
+            "major": true,
+            "article": "art. 469 alin. (2) lit. f) din Codul fiscal"
+          },
+          {
+            "text": "La vehiculele mici, omologarea poate costa mai mult decât impozitul economisit",
+            "major": true,
+            "article": "art. 469 alin. (2) lit. f) din Codul fiscal"
+          },
+          {
+            "text": "Nu se spune cum se dovedește folosirea exclusivă pentru transportul stupilor",
+            "major": false,
+            "article": "art. 469 alin. (2) lit. f) din Codul fiscal"
+          },
+          {
+            "text": "Numerotare neconcordantă: Camera vorbește de lit. e), Senatul introduce lit. f)",
+            "major": false,
+            "article": "art. 469 alin. (2) din Codul fiscal"
+          }
+        ],
+        "good": [
+          {
+            "text": "Facilitatea stă acum în Codul fiscal, locul potrivit pentru scutiri de impozit",
+            "major": true,
+            "article": "art. 469 alin. (2) lit. f) din Codul fiscal"
+          },
+          {
+            "text": "Sunt vizate mijloacele de transport specializate, nu doar autovehiculele",
+            "major": true,
+            "article": "art. 469 alin. (2) lit. f) din Codul fiscal"
+          },
+          {
+            "text": "Registrul Auto Român e numit clar ca autoritate care omologhează vehiculele",
+            "major": false,
+            "article": "art. 469 alin. (2) lit. f) din Codul fiscal"
+          },
+          {
+            "text": "Nu creează obligații, taxe sau sancțiuni noi pentru cetățeni ori firme",
+            "major": false,
+            "article": "articol unic"
+          },
+          {
+            "text": "Impact bugetar mic, doar pe bugetele locale care aleg să acorde facilitatea",
+            "major": false,
+            "article": "articol unic"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 6,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:43:50.745Z"
+    }
+  ]
+}

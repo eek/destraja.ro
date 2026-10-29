@@ -1,0 +1,69 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+## LEGE
+
+pentru modificarea și completarea Legii nr.227/2015 privind Codul fiscal
+
+Senatul adoptă prezentul proiect de lege
+
+## Art.I.
+
+Legea nr.227/2015 privind Codul fiscal, publicată în Monitorul Oficial al României, Partea I, nr.688 din 10 septembrie 2015, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 25 alineatul (3) litera b), după punctul 1 se introduce un nou punct, punctul 1¹, cu următorul cuprins:
+
+„1¹. ajutoarele pentru creșterea natalității, acordate în vederea susținerii costurilor cu medicamentele și procedurile medicale recomandate pentru salariatul, administratorul și/sau directorul, persoană singură sau membru al unui cuplu infertil, cu recomandare din partea unui medic specialist de a urma proceduri medicale de specialitate care să aibă ca rezultat creșterea natalității.”
+
+2\. La articolul 25 alineatul (3), după litera b), se introduce o nouă literă, litera b¹), cu următorul cuprins:
+
+„b¹) cheltuielile sociale, în limita unei cote de până la 7%, aplicată asupra valorii cheltuielilor cu salariile personalului, potrivit Codului muncii, suportate de angajatorii favorabili mediului familial certificați, cu respectarea următoarelor condiții:
+
+1\. în înțelesul prezentului titlu, angajatorii favorabili mediului familial sunt contribuabilii care asigură și implementează pentru angajați, administratori și/sau directori programe și măsuri active privind echilibrul între viața profesională și cea personală, sprijin pentru părinți, sănătatea și bunăstarea, implicarea în comunitate, formarea și dezvoltarea, conform instrucțiunilor aplicabile;
+
+2\. certificarea angajatorilor favorabili mediului familial se face de către Ministerul Muncii, Familiei, Tineretului și Solidarității Sociale conform criteriilor și procedurii prevăzute în instrucțiunile emise în acest sens;
+
+3\. cheltuielile sociale sunt cele prevăzute la lit.b) pct.1-4."
+
+3\. La articolul 76, alineatul (4), litera a) se modifică și va avea următorul cuprins:
+
+„a) ajutoarele de înmormântare, ajutoarele pentru bolile grave și incurabile, ajutoarele pentru dispositive medicale, ajutoarele pentru naștere/adopție, ajutoarele pentru creșterea natalității, ajutoarele pentru pierderi produse în gospodăriile proprii ca urmare a calamităților naturale, veniturile reprezentând cadouri în bani și/sau în natură, inclusiv tichete cadou, oferite salariaților, precum și cele oferite pentru copiii minori ai acestora, contravaloarea transportului la și de la locul de muncă al salariatului, acordate de angajator pentru salariații proprii sau alte persoane, astfel cum este prevăzut în contractul de muncă sau în regulamentul intern.
+
+Nu sunt impozabile nici veniturile de natura celor prevăzute mai sus, realizate de persoane fizice, dacă aceste venituri sunt primite în baza unor legi speciale și/sau finanțate din buget, cu excepția indemnizațiilor de vacanță acordate potrivit legii.
+
+În cazul cadourilor în bani și/sau în natură, inclusiv tichetele cadou, oferite de angajatori, veniturile sunt neimpozabile, în măsura în care valoarea acestora pentru fiecare persoană în parte, cu fiecare ocazie din cele de mai jos, nu depășește 300 lei:
+
+(i) cadouri oferite angajaților, precum și cele oferite pentru copiii minori ai acestora, cu ocazia Paștelui, Crăciunului și a sărbătorilor similare ale altor culte religioase;
+
+(ii) cadouri oferite angajatelor cu ocazia zilei de 8 martie;
+
+(iii) cadouri oferite angajaților în beneficiul copiilor minori ai acestora cu ocazia zilei de 1 iunie.”
+
+## 4. La articolul 142 litera b) se modifică și va avea următorul cuprins:
+
+„b) ajutoarele de înmormântare, ajutoarele pentru bolile grave și incurabile, ajutoarele pentru dispositive medicale, ajutoarele pentru naștere/adopție, ajutoarele pentru creșterea natalității, ajutoarele pentru pierderi produse în gospodăriile proprii ca urmare a calamităților naturale, veniturile reprezentând cadouri în bani și/sau în natură, inclusiv tichete cadou, oferite salariaților, precum și cele oferite pentru copiii minori ai acestora, contravaloarea transportului la și de la locul de muncă al salariatului, astfel cum este prevăzut în contractul de muncă sau în regulamentul intern.
+
+Nu se cuprind în baza de calcul al contribuției nici veniturile de natura celor prevăzute mai sus, realizate de persoane fizice, dacă aceste venituri sunt primite în baza unor legi speciale și/sau finanțate din buget, cu excepția indemnizațiilor de vacanță acordate potrivit legii.
+
+În cazul cadourilor în bani și/sau în natură, inclusiv tichetele cadou, oferite de angajatori, veniturile nu sunt cuprinse în baza de calcul al contribuției în măsura în care valoarea acestora pentru fiecare persoană în parte, cu fiecare ocazie dintre cele de mai jos, nu depășește 300 lei:
+
+(i) cadouri oferite angajaților, precum și cele oferite pentru copiii minori ai acestora, cu ocazia Paștelui, Crăciunului și a sărbătorilor similare ale altor culte religioase;
+
+(ii) cadouri oferite angajatelor cu ocazia zilei de 8 martie;
+
+(iii) cadouri oferite angajaților în beneficiul copiilor minori ai acestora cu ocazia zilei de 1 iunie."
+
+## Art.II.
+
+În termen de 30 zile de la intrarea în vigoare a prezentei legi se vor publica, prin ordin al ministrului Muncii, Familiei, Tineretului și Solidarității Sociale, instrucțiunile de aplicare prevăzute la Art.I pct.3.
+
+## Art.III.
+
+Prevederile prezentei legi intră în vigoare la data de 1 ianuarie 2027.
+
+Acest proiect de lege se consideră adoptat de Senat în forma inițială, în condițiile articolului 75 alineatul (2) teza a III-a din Constituția României, republicată.
+
+PREȘEDINTELE SENATULUI
+
+MIRCEA'ABRUDEAN

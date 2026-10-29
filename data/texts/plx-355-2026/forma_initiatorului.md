@@ -1,0 +1,37 @@
+Parlamentul României
+
+CAMERA DEPUTAȚILOR
+
+SENATUL
+
+## PROIECT DE LEGE
+
+privind modificarea și completarea ORDONANȚEI DE URGENȚĂ nr. 13/2013 privind serviciile poștale
+
+Articolul I- ORDONANȚA DE URGENȚĂ nr. 13 din 6 martie 2013 privind serviciile poștale, publicată în MONITORUL OFICIAL nr. 139 din 15 martie 2013, se modifică și se completează după cum urmează:
+
+"1. La articolul 2 după pct. 16^6 se introduce pct. 16^7 cu următorul conținut:
+
+16^7- publicații cu caracter jurnalistic- publicații periodice care au ca scop de a oferi publicului larg publicații de presă, astfel cum sunt definite la articolul 2 punctul 4 din Directiva (UE) 2019/790, cu caracter informativ sau educativ, tipărite la inițiativa, pe răspunderea editorială și sub supravegherea unei persoane fizice sau juridice a cărei activitate profesională constă în furnizarea unui serviciu mass-media, care are responsabilitate editorială pentru alegerea conținutului serviciului mass-media și care stabilește modul de organizare a acestuia;
+
+## 2. La articolul 8 alin. 3 se introduce lit. f^2) cu următorul conținut:
+
+f^2) serviciu de distribuire a publicațiilor cu caracter jurnalistic la domiciliul beneficiarilor, indiferent de numărul de abonamente care fac obiectul acestui serviciu;
+
+## 3. La articolul 16 alin. 2 se introduce lit. d) cu următorul conținut:
+
+d) stabilirea tarifelor pentru serviciu de distribuție publicații cu conținut jurnalistic care să permită destinatarilor serviciilor mass-media primirea informațiilor de interes public
+
+## Articolul II Dispoziții finale
+
+(1) În termen de 30 zile de la intrarea în vigoare a legii, autoritatea de reglementare va adopta procedurile privind stabilirea tarifelor pentru serviciu de distribuție a publicațiilor cu caracter jurnalistic.
+
+(2) Prezenta lege intră în vigoare la 3 zile de la publicare în Monitorul Oficial al României, potrivit art. 78 din Constituția României.
+
+Această lege a fost adoptată de Senat, în ședința din ...... cu respectarea prevederilor art. 75 și art. 76 alin. (2) din Constituția României republicată.
+
+Această lege a fost adoptată de Camera Deputaților în ședința din...... cu respectarea prevederilor art. 75 și art. 76 alin. (2) din Constituția României republicată.
+
+Președintele Senatului Mircea Abrudean
+
+Președintele Camerei Deputaților Sorin- Mihai Grindeanu

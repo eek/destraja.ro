@@ -1,0 +1,117 @@
+{
+  "slug": "plx-87-2026",
+  "billId": "PL-x 87/2026",
+  "updatedAt": "2026-10-29T14:01:11.771Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L545FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Reclamele online la jocuri de noroc, interzise între 6 dimineața și miezul nopții",
+      "summaryTlDr": "Scopul este legitim, iar două măsuri sunt rezonabile: fără jocuri de noroc în conținutul pentru copii și fără vedete în reclame. Interdicția «06–24» e însă formulată atât de larg încât e aproape totală, neclară și greu de aplicat online. Lipsesc definițiile, destinatarul obligației și notificarea TRIS.",
+      "scores": {
+        "agy": 4,
+        "claude": 5,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/80/7/se80.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Reclamele online la jocuri de noroc, permise doar între miezul nopții și ora 6, fără vedete și fără copii ca țintă",
+      "summaryTlDr": "Scopul este legitim, dar textul e slab redactat. Interdicția de „orice tip de conținut” între 06.00 și 24.00 e atât de largă încât, citită literal, ar prinde și site-urile operatorilor licențiați sau rezumatele meciurilor. În același timp, nu spune cine răspunde și nu adaugă o sancțiune proprie. Protecție reală pentru copii aduc doar alin. (1³) și (1⁴); fereastra orară are puțin sens pe internet, unde o postare rămâne vizibilă oricând.",
+      "scores": {
+        "agy": 4,
+        "claude": 5,
+        "codex": 6
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat proiectul fără schimbări de fond: interdicția online 06.00–24.00 rămâne",
+      "summary": "Senatul a păstrat neschimbate toate cele patru reguli noi pentru publicitatea online la jocurile de noroc; a corectat doar titlul și trimiterile la ordonanță și la regulamentul UE. Problemele semnalate inițial, ca interdicția 06.00–24.00 formulată foarte larg, rămân.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Interdicția prinde orice conținut care „promovează”: știri sportive, streameri, chiar site-ul operatorului licențiat",
+            "major": true,
+            "article": "art. I, alin. (1¹)"
+          },
+          {
+            "text": "Termenii „promovează”, „difuzare” și „mediul online” nu sunt definiți în lege",
+            "major": true,
+            "article": "art. I, alin. (1¹)"
+          },
+          {
+            "text": "Restricția acoperă 18 ore din 24, practic o interdicție aproape totală",
+            "major": true,
+            "article": "art. I, alin. (1¹)"
+          },
+          {
+            "text": "Online nu există moment al difuzării: neclar ce se întâmplă cu postările nocturne",
+            "major": true,
+            "article": "art. I, alin. (1¹)"
+          },
+          {
+            "text": "Nu e clar regimul conținutului deja publicat sau publicat din străinătate",
+            "major": true,
+            "article": "art. I, alin. (1¹)"
+          },
+          {
+            "text": "Reclamele doar text, notificările push și mesajele promoționale pot scăpa interdicției",
+            "major": true,
+            "article": "art. I, alin. (1¹)"
+          },
+          {
+            "text": "Interdicția vedetelor nu are prag de notorietate: intră orice creator cu public",
+            "major": true,
+            "article": "art. I, alin. (1⁴)"
+          },
+          {
+            "text": "Trimiterea la DSA e declarativă și poate crea confuzie de competențe ONJN–ANCOM",
+            "major": false,
+            "article": "art. I, alin. (1²)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Interzicerea vedetelor în reclamele online urmează precedente din Spania și Regatul Unit",
+            "major": true,
+            "article": "art. I, alin. (1⁴)"
+          },
+          {
+            "text": "Interzice jocurile de noroc în materialele online pentru minori și incitarea minorilor",
+            "major": true,
+            "article": "art. I, alin. (1³)"
+          },
+          {
+            "text": "Guvernul trebuie să actualizeze normele metodologice în 180 de zile",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 7,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:58:48.093Z"
+    }
+  ]
+}

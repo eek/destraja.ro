@@ -1,0 +1,51 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENATUL
+
+CAMERA DEPUTAȚILOR
+
+LEGE
+
+Pentru completarea Ordonanței de Urgență nr. 57/2019 privind Codul administrativ
+
+# Parlamentul României adoptă prezenta lege:
+
+Ordonanța de Urgență nr. 57/2019 privind Codul administrativ, publicată în Monitorul Oficial al României, Partea I nr. 555 din 5 iulie 2019, cu modificările și completările ulterioare, se completează după cum urmează:
+
+Art. I – După articolul 582, se adaugă un nou articol, art. 582¹, cu următorul cuprins:
+
+Art. 582¹ – Notificarea expirării actelor administrative
+
+(1) Autoritățile administrației publice și instituțiile publice, precum și organismele prestatoare de servicii publice și companiile și entitățile private cărora le-au fost delegate competențele pentru livrarea serviciului public care emit acte administrative sau alte acte juridice având termen de valabilitate au obligația de a notifica beneficiarii/titularii acestora cu cel puțin 30 de zile înainte de data expirării.
+
+(2) Notificarea se transmite prin mijloace electronice, inclusiv prin e-mail, SMS sau prin alte modalități care asigură dovada comunicării.
+
+(3) Lipsa notificării nu produce efecte asupra valabilității actului administrativ și nu suspendă aplicarea sancțiunilor prevăzute de lege pentru exercitarea unei activități fără documente valabile.
+
+(4) Nerespectarea obligației prevăzute la alin. (1) constituie contravenție și se sancționează cu amendă de la 1.000 lei la 2.500 lei, aplicată persoanei responsabile, potrivit procedurii stabilite prin Hotărâre a Guvernului.
+
+(5) Constatarea contravenției și aplicarea sancțiunii se fac de către persoane împuternicite de structurile cu atribuții de control.
+
+## Art. II
+
+În termen de 90 de zile de la intrarea în vigoare a prezentei legi, Guvernul va adopta normele metodologice de aplicare.
+
+## Art. III
+
+(1) Prezenta lege intră în vigoare la data de 1 ianuarie 2027.
+
+(2) Dispozițiile prezentei legi se aplică actelor administrative prevăzute la art. I, emise după data intrării sale în vigoare.
+
+(3) Actele administrative aflate în curs de emitere la data intrării în vigoare a prezentei legi rămân supuse dispozițiilor legale în vigoare la data inițierii procedurii de emitere.
+
+(4) Prelucrarea datelor cu caracter personal în aplicarea prezentei legi se realizează cu respectarea prevederilor Regulamentului (UE) 2016/679 al Parlamentului European și al Consiliului din 27 aprilie 2016 privind protecția persoanelor fizice în ceea ce privește prelucrarea datelor cu caracter personal și privind libera circulație a acestor date și de abrogare a Directivei 95/46/CE (Regulamentul general privind protecția datelor) și ale Legii nr. 190/2018 privind masuri de punere în aplicare a Regulamentului (UE) 2016/679 al Parlamentului European și al Consiliului din 27 aprilie 2016 privind protecția persoanelor fizice în ceea ce privește prelucrarea datelor cu caracter personal și privind libera circulație a acestor date de abrogare a Directivei 95/46/CE (Regulamentul general privind protecția datelor), cu modificările ulterioare.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.
+
+Președintele Camerei Deputaților,
+
+Președintele Senatului,
+
+Sorin Grindeanu
+
+Mircea Abrudean

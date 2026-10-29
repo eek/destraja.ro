@@ -1,0 +1,19 @@
+# PARLAMENTUL ROMÂNIEI CAMERA DEPUTAȚILOR
+
+# PROIECT DE LEGE pentru modificarea și completarea Legii nr. 360/2023 privind sistemul public de pensii
+
+Parlamentul României adoptă prezenta lege.
+
+Art. I – Legea nr. 360/2023 privind sistemul public de pensii, publicată în Monitorul Oficial al României, Partea I, nr. 1089 din 4 decembrie 2023, se modifică și se completează după cum urmează:
+
+1\. La articolul 15, după alineatul (3) se introduce un nou alineat, alin. (4), cu următorul cuprins:
+
+„(4) Stagiul de cotizare în condiții normale de muncă prevăzut la alin. (1)-(3) are caracter contributiv și se valorifică la stabilirea punctajului anual, precum și la acordarea punctelor de stabilitate, potrivit dispozițiilor prezentei legi.”
+
+2\. La articolul 144, după alineatul (7) se introduce un nou alineat, alin. (8), cu următorul cuprins:
+
+„(8) Dispozițiile art. 15 alin. (1)-(4), precum și cele privind acordarea punctelor de stabilitate și a punctelor suplimentare se aplică, în mod corespunzător, în cadrul procedurii de recalculare prevăzute de prezentul articol, inclusiv pensiilor stabilite anterior intrării în vigoare a prezentei legi.”
+
+Art. II – Aplicarea dispozițiilor prezentei legi se realizează în cadrul procedurii de recalculare prevăzute de Legea nr. 360/2023.
+
+Art. III – Prezenta lege intră în vigoare la data publicării în Monitorul Oficial al României, Partea I.

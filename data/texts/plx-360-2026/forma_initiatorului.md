@@ -1,0 +1,17 @@
+# PARLAMENTUL ROMÂNIEI CAMERA DEPUTAȚILOR
+
+# PROIECT DE LEGE pentru abrogarea Legii nr. 241/2025
+
+Parlamentul României adoptă prezenta lege.
+
+## Articolul 1
+
+Se abrogă Legea nr. 241/2025 pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 31/2002 privind interzicerea organizațiilor, simbolurilor și faptelor cu caracter fascist, legionar, rasist sau xenofob și a promovării cultului persoanelor vinovate de săvârșirea unor infracțiuni de genocid contra umanității și de crime de război.
+
+## Articolul 2
+
+Ordonanța de urgență a Guvernului nr. 31/2002 privind interzicerea organizațiilor, simbolurilor și faptelor cu caracter fascist, legionar, rasist sau xenofob și a promovării cultului persoanelor vinovate de săvârșirea unor infracțiuni de genocid contra umanității și de crime de război, publicată în Monitorul Oficial al României, Partea I, nr. 214 din 28 martie 2002, aprobată cu modificări și completări prin Legea nr. 107/2006, cu modificările și completările ulterioare, se aplică în forma în vigoare anterior intrării în vigoare a Legii nr. 241/2025, ca efect al abrogării prevăzute la art. 1.
+
+## Articolul 3
+
+Prezenta lege intră în vigoare la data publicării în Monitorul Oficial al României, Partea I.

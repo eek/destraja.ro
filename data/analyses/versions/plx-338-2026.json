@@ -1,0 +1,122 @@
+{
+  "slug": "plx-338-2026",
+  "billId": "PL-x 338/2026",
+  "updatedAt": "2026-10-29T13:07:10.318Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L179FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "1.034 de bunuri ale fostului Minister al Sportului trec la Agenția pentru Sport; C.N.I. poate prelua spitale mutate din PNRR, cu 4% din plăți",
+      "summaryTlDr": "Ordonanța este în mare parte tehnică și utilă: dă un administrator unor bunuri publice rămase de ani buni fără stăpân și evită reluarea licitațiilor la spitale. Problemele reale sunt trei: cota fixă de 4% pentru C.N.I., plătită din bani naționali, anexa care nu apare în textul analizat și urgența invocată pentru o situație care durează din 2021.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/300/30/8/se368.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Bazele și taberele statului rămase fără administrator trec la Agenția pentru Sport, iar CNI preia spitale mutate din PNRR, cu o cotă de 4%",
+      "summaryTlDr": "Ordonanța e în fond o măsură utilă de ordine administrativă, dar are două puncte opace. Mută taberele și centrele de tineret la agenția de sport fără să le garanteze destinația și dă CNI o cotă fixă de 4% la spitalele mutate din PNRR, pe care preambulul nu o justifică.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat tacit OUG 15/2026 în forma inițială; conținutul nu s-a schimbat",
+      "summary": "Senatul nu a modificat nimic: proiectul s-a considerat adoptat tacit, în forma inițiatorului, iar diferențele sunt doar de redactare. Rămân transferul celor 1.034 de imobile la ANS fără destinație garantată și cota fixă de 4% pentru CNI la spitale.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "CNI ia cotă fixă de 4% din situațiile de plată, prin derogare",
+            "major": true,
+            "article": "art. II pct. 1"
+          },
+          {
+            "text": "CNI poate fi unitate de implementare fără să fie partener, cu cheltuieli eligibile",
+            "major": true,
+            "article": "art. II pct. 1"
+          },
+          {
+            "text": "Textul nu garantează destinația de tabere școlare și centre de agrement pentru tineret",
+            "major": true,
+            "article": "art. I alin. (1)"
+          },
+          {
+            "text": "Nu apare finanțarea pentru întreținerea și cadastrul celor 1.034 de imobile",
+            "major": true,
+            "article": "art. I alin. (4)"
+          },
+          {
+            "text": "Termenul de 3 ani nu are etape, raportare publică sau sancțiuni",
+            "major": false,
+            "article": "art. I alin. (4)"
+          },
+          {
+            "text": "Bunurile mobile nu au termen de inventariere, iar soarta lor rămâne neclară",
+            "major": false,
+            "article": "art. I alin. (4)"
+          },
+          {
+            "text": "Anexa se bazează pe un inventar recunoscut ca având necorelări",
+            "major": false,
+            "article": "art. I alin. (2)"
+          },
+          {
+            "text": "Efectul abrogării art. 34 alin. (1¹) din OUG 133/2021 nu poate fi verificat",
+            "major": false,
+            "article": "art. II pct. 2"
+          },
+          {
+            "text": "Senatul nu a votat în termen; proiectul s-a considerat adoptat tacit",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Bunurile rămase nepredate după reorganizări primesc un administrator clar: ANS",
+            "major": true,
+            "article": "art. I alin. (1)"
+          },
+          {
+            "text": "Bunurile rămân în proprietatea publică a statului; se schimbă doar administratorul",
+            "major": false,
+            "article": "art. I alin. (3)"
+          },
+          {
+            "text": "ANS trebuie să facă cadastrul, cartea funciară și evaluarea imobilelor în 3 ani",
+            "major": false,
+            "article": "art. I alin. (4)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:07:10.318Z"
+    }
+  ]
+}

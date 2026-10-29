@@ -1,0 +1,114 @@
+{
+  "slug": "plx-469-2026",
+  "billId": "PL-x 469/2026",
+  "updatedAt": "2026-10-29T12:46:53.891Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L296FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Parcurile de energie verde pe teren agricol: regula temporară se prelungește",
+      "summaryTlDr": "Lege tehnică și în general utilă. Mută doar data de expirare a unui regim care există deja din 2022 pentru proiectele de energie regenerabilă pe teren agricol din extravilan. Problemele reale sunt de calendar, pentru că regimul expiră pe 31 decembrie 2026, și de dată, pentru că nu e limpede dacă termenul nou e 2028 sau 2030. Fondul legii nu ridică probleme.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 2
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/60/9/se518.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Parcuri de energie verde pe teren agricol: încă doi ani, până la finalul lui 2028",
+      "summaryTlDr": "Lege tehnică și utilă. Mută cu doi ani termenul până la care se pot amplasa proiecte de energie regenerabilă pe anumite terenuri agricole din extravilan și nu schimbă nimic altceva. Riscul real ține de calendar: dacă legea nu e promulgată și publicată până la 31 decembrie 2026, regimul expiră și apare un gol legal pe care o lege adoptată ulterior nu îl mai poate acoperi curat.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Regimul temporar pentru scoaterea terenurilor din circuitul agricol: până în 2028, nu 2030",
+      "summary": "Inițial, regimul din art. II al Legii nr. 254/2022 se prelungea până la 31 decembrie 2030; acum, doar până la 31 decembrie 2028. Pierderea de teren agricol poate înceta mai devreme, dar firmele au doi ani mai puțin, iar data nu mai urmează motivarea legată de 2030.",
+      "changes": [
+        {
+          "title": "Prelungirea regimului scade de la 2030 la 2028",
+          "text": "Articolul unic prelungește regimul din art. II al Legii nr. 254/2022 doar până la 31 decembrie 2028, față de 31 decembrie 2030 inițial. Expunerea de motive argumentează însă pentru 2030.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. unic",
+          "before": "sintagma „31 decembrie 2026” se înlocuiește cu sintagma „31 decembrie 2030”",
+          "after": "sintagma „31 decembrie 2026” se înlocuiește cu sintagma „31 decembrie 2028”.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Data votată, 2028, nu se potrivește cu motivarea, care cere 2030",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Risc ca legea să intre în vigoare după 31 decembrie 2026, când regimul expiră",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Nicio normă tranzitorie pentru cererile în lucru la expirarea termenului",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Teren agricol continuă să iasă din producție până în 2028",
+            "major": false,
+            "article": "art. unic"
+          }
+        ],
+        "good": [
+          {
+            "text": "Nu creează obligații, taxe sau sancțiuni noi pentru cetățeni ori firme",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Fără cost bugetar direct",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Modificare punctuală: se schimbă doar data, condițiile de fond rămân aceleași",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Prelungire limitată la doi ani, ceea ce limitează terenul scos din agricultură",
+            "major": false,
+            "article": "art. unic"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 5,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:42:22.784Z"
+    }
+  ]
+}

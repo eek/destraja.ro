@@ -1,9 +1,9 @@
 {
   "slug": "b545-2026",
   "billId": "B545/2026",
-  "checkedAt": "2026-10-28T08:16:28.656Z",
+  "checkedAt": "2026-10-29T12:01:05.050Z",
   "models": {
-    "agy": "error: răspuns gol după 605s (probabil timp depășit)",
+    "agy": "ok",
     "claude": "ok",
     "codex": "ok"
   },
@@ -16,9 +16,10 @@
       "publishedAt": "2026-10-28",
       "foundBy": [
         "claude",
-        "codex"
+        "codex",
+        "agy"
       ],
-      "quote": "Propunerea legislativă a primit un aviz negativ din partea Consiliului Economic și Social.",
+      "quote": "Scutirea propusă nu s-ar aplica automat tuturor persoanelor care dețin stupi sau desfășoară activități de apicultură.",
       "match": "quote",
       "firstSeenAt": "2026-10-28",
       "decision": {
@@ -54,6 +55,138 @@
       }
     },
     {
+      "url": "https://www.b1tv.ro/auto/schimbari-privind-plata-rovinietei-cine-ar-putea-fi-scutit-de-ea-1744749.html",
+      "title": "Schimbări privind plata rovinietei. Cine ar putea fi scutit de ea",
+      "outlet": "B1 TV",
+      "domain": "b1tv.ro",
+      "publishedAt": "2026-10-28",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Un proiect legislativ susținut de 31 de parlamentari prevede eliminarea acestei taxe pentru vehiculele special amenajate pentru transportul stupilor.",
+      "match": "quote",
+      "firstSeenAt": "2026-10-29",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-29",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.59,
+            "source": "national_news",
+            "sourceP": 0.764,
+            "about": 0.967,
+            "release": 0.023
+          },
+          "d1": {
+            "stance": "mixed",
+            "stanceP": 0.484,
+            "source": "national_news",
+            "sourceP": 0.428,
+            "about": 0.777,
+            "release": 0.119
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.89,
+            "source": "national_news",
+            "sourceP": 0.83,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.bihon.ro/stirile-judetului-bihor/economic/o-categorie-de-vehicule-ar-putea-scapa-de-plata-rovinietei-ce-prevede-proiectul-de-lege-depus-la-senat-5445735",
+      "title": "O categorie de vehicule ar putea scăpa de plata rovinietei. Ce prevede proiectul de lege depus la Senat - BIHON",
+      "outlet": "Bihon",
+      "domain": "bihon.ro",
+      "publishedAt": "2026-10-28",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Potrivit propunerii legislative, facilitatea ar urma să fie acordată vehiculelor specializate pentru transportul stupilor, omologate de Registrul Auto Român (RAR) și utilizate exclusiv pentru stupăritul pastoral.",
+      "match": "quote",
+      "firstSeenAt": "2026-10-29",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-29",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.555,
+            "source": "national_news",
+            "sourceP": 0.477,
+            "about": 0.961,
+            "release": 0.029
+          },
+          "d1": {
+            "stance": "critical",
+            "stanceP": 0.478,
+            "source": "trade_press",
+            "sourceP": 0.426,
+            "about": 0.798,
+            "release": 0.107
+          },
+          "luna": {
+            "stance": "mixed",
+            "stanceP": 0.83,
+            "source": "local_news",
+            "sourceP": 0.99,
+            "about": 0.99,
+            "release": 0.99
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.capital.ro/scutire-de-rovinieta-pentru-o-noua-categorie-de-vehicule-proiectul-de-lege-a-fost-depus-in-parlament.html",
+      "title": "Scutire de rovinietă pentru o nouă categorie de vehicule. Proiectul de lege a fost depus în Parlament",
+      "outlet": "Capital",
+      "domain": "capital.ro",
+      "publishedAt": "2026-10-28",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Proiectul a fost depus la Senat și trebuie să parcurgă procedura legislativă înainte ca noile prevederi să poată fi aplicate.",
+      "match": "quote",
+      "firstSeenAt": "2026-10-29",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-29",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.919,
+            "source": "national_news",
+            "sourceP": 0.762,
+            "about": 0.968,
+            "release": 0.092
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.87,
+            "source": "national_news",
+            "sourceP": 0.55,
+            "about": 0.867,
+            "release": 0.202
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.96,
+            "source": "national_news",
+            "sourceP": 0.97,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
       "url": "https://www.mediafax.ro/economic/plata-rovinietei-ar-putea-fi-eliminata-pentru-o-categorie-de-vehicule-ce-schimbari-sunt-propuse-23832771",
       "title": "Plata rovinietei ar putea fi eliminată pentru o categorie de vehicule. Ce schimbări sunt propuse",
       "outlet": "Mediafax",
@@ -63,7 +196,7 @@
         "claude",
         "codex"
       ],
-      "quote": "Inițiatorii au propus completarea Ordonanței Guvernului nr. 15/2002, care reglementa plata rovinietei.",
+      "quote": "Parlamentarii propun ca vehiculele folosite exclusiv pentru această activitate să nu mai plătească rovinieta.",
       "match": "quote",
       "firstSeenAt": "2026-10-28",
       "decision": {
@@ -108,7 +241,7 @@
         "claude",
         "codex"
       ],
-      "quote": "Consiliul Economic și Social (CES) a avizat negativ propunerea.",
+      "quote": "Inițiatorii au propus completarea Ordonanței Guvernului nr. 15/2002, care reglementa plata rovinietei.",
       "match": "quote",
       "firstSeenAt": "2026-10-28",
       "decision": {
@@ -142,9 +275,142 @@
           }
         }
       }
+    },
+    {
+      "url": "https://ziarulunirea.ro/o-categorie-de-vehicule-ar-putea-scapa-de-plata-rovinietei-schimbarile-propuse-1017057",
+      "title": "O categorie de vehicule ar putea scăpa de plata rovinietei. Schimbările propuse",
+      "outlet": "Ziarul Unirea",
+      "domain": "ziarulunirea.ro",
+      "publishedAt": "2026-10-28",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Un proiect de lege depus în Parlament prevede eliminarea acestei taxe pentru apicultorii care practică stupăritul pastoral și își deplasează stupii în diferite zone, în funcție de perioadele de înflorire.",
+      "match": "quote",
+      "firstSeenAt": "2026-10-29",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-29",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.91,
+            "source": "national_news",
+            "sourceP": 0.444,
+            "about": 0.961,
+            "release": 0.072
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.872,
+            "source": "national_news",
+            "sourceP": 0.47,
+            "about": 0.755,
+            "release": 0.165
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.98,
+            "source": "local_news",
+            "sourceP": 0.9,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
     }
   ],
   "pending": [
+    {
+      "url": "https://www.agrimedia.ro/stiri/scutirea-de-rovinieta-pentru-vehiculele-cu-stupi-a-primit-aviz-negativ-de-la-consiliul-economic-si-social",
+      "title": "Scutirea de rovinietă pentru vehiculele cu stupi a primit aviz negativ de la Consiliul Economic și Social",
+      "outlet": "Revista AGRIMEDIA",
+      "domain": "agrimedia.ro",
+      "publishedAt": "2026-10-28",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Propunerea legislativă B545/2026, înregistrată la Senat pe 5 octombrie 2026, adaugă o literă nouă la lista vehiculelor exceptate de la tariful de utilizare a drumurilor naționale.",
+      "match": "quote",
+      "firstSeenAt": "2026-10-29",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-29",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.62,
+            "source": "trade_press",
+            "sourceP": 0.499,
+            "about": 0.958,
+            "release": 0.019
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.453,
+            "source": "trade_press",
+            "sourceP": 0.511,
+            "about": 0.593,
+            "release": 0.095
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.89,
+            "source": "trade_press",
+            "sourceP": 0.98,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
+      "url": "https://agrointel.ro/361724/apicultorii-ar-putea-scapa-de-plata-rovinietei-proiect-de-lege-depus-in-parlament",
+      "title": "Apicultorii ar putea scăpa de plata rovinietei. Proiect de lege depus în Parlament",
+      "outlet": "agrointel.ro",
+      "domain": "agrointel.ro",
+      "publishedAt": "2026-10-28",
+      "foundBy": [
+        "agy",
+        "claude"
+      ],
+      "quote": "Inițiativa este semnată de 31 de parlamentari din UDMR, PSD, PNL și USR.",
+      "match": "quote",
+      "firstSeenAt": "2026-10-29",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-29",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.883,
+            "source": "trade_press",
+            "sourceP": 0.57,
+            "about": 0.971,
+            "release": 0.098
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.782,
+            "source": "trade_press",
+            "sourceP": 0.442,
+            "about": 0.835,
+            "release": 0.182
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.96,
+            "source": "trade_press",
+            "sourceP": 0.91,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
     {
       "url": "https://oficiuldestiri.ro/cine-ar-putea-scapa-de-plata-rovinietei-in-romania-o-categorie-de-soferi-ar-economisi-bani-prin-modificarea-og-nr-15-2002-ce-vehicule-sunt-vizate",
       "title": "Cine ar putea scăpa de plata rovinietei în România. O categorie de șoferi ar economisi bani prin modificarea OG nr. 15/2002. Ce vehicule sunt vizate",

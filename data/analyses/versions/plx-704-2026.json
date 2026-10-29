@@ -1,0 +1,92 @@
+{
+  "slug": "plx-704-2026",
+  "billId": "PL-x 704/2026",
+  "updatedAt": "2026-10-29T13:19:24.026Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L572FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Instituțiile statului nu vor putea folosi antivirusuri rusești până în 2035",
+      "summaryTlDr": "Lege tehnică și utilă. Prelungește cu 9 ani o interdicție de securitate aplicată deja din 2022, fără costuri noi pentru cetățeni sau firme. Riscul real e calendarul: dacă legea nu e publicată înainte de 31 decembrie 2026, interdicția expiră și apare un gol.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/700/00/4/se803.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Instituțiile statului nu vor putea folosi antivirusuri și alte programe de securitate rusești până în 2035",
+      "summaryTlDr": "Lege tehnică și utilă: mută un singur termen, de la 31.12.2026 la 31.12.2035, pentru o interdicție care se aplică deja din 2022. Conținutul nu ridică probleme. Riscul real ține de calendar: dacă legea nu intră în vigoare înainte de 31 decembrie 2026, interdicția încetează.",
+      "scores": {
+        "agy": 1,
+        "claude": 2,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a păstrat textul inițiatorului: interdicția se prelungește până la 31 decembrie 2035",
+      "summary": "Senatul a adoptat proiectul fără modificări de fond. Interdicția din Legea nr. 354/2022 privind produsele de securitate de origine rusă în instituțiile publice se prelungește, ca inițial, până la 31.12.2035. Diferențele sunt doar de redactare.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Fără procedură de urgență; o întârziere ar lăsa interdicția fără efect după 31.12.2026",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Prelungire pe 9 ani fără raportare, reevaluare sau încetare anticipată",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Expunerea neagă efectul asupra revânzătorilor excluși din achiziții publice încă 9 ani",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Interdicția rămâne până în 2035 și evită reintroducerea produselor rusești în 2027",
+            "major": true,
+            "article": "art. unic"
+          },
+          {
+            "text": "Fără costuri bugetare noi; instituțiile lucrează deja fără aceste produse",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Nu adaugă produse, sancțiuni sau obligații noi față de 2022",
+            "major": false,
+            "article": "art. 2"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 4,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:18:05.708Z"
+    }
+  ]
+}

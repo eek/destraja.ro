@@ -1,0 +1,19 @@
+# EXPUNERE DE MOTIVE
+
+Prezenta inițiativă legislativă are ca scop completarea Legii educației fizice și sportului nr. 69/2000, astfel încât statul român să treacă de la simple enunțuri generale despre sprijinirea sportului de performanță la un cadru juridic coerent și aplicabil privind tranziția sportivilor după încheierea carierei. Deși legea definește și recunoaște sportivul de performanță și consacră rolul social important al sportului, ea nu conține în prezent un mecanism clar de reorientare profesională și integrare post-carieră, iar acest vid normativ afectează atât sportivii, cât și instituțiile publice care ar putea valorifica, în mod meritocratic, resursa umană formată prin sportul de performanță.
+
+Cariera sportivă este, prin natura ei, limitată în timp și se poate încheia la vârste relativ tinere, fără a exista o vârstă legală unică sau o procedură formală și uniformă de încheiere a activității. În lipsa unui cadru legal dedicat, tranziția către o profesie stabilă depinde astăzi de soluții individuale sau de decizii administrative punctuale, diferite de la o structură la alta, fără criterii unitare și fără garanții de transparență. În practică, acest lucru generează o stare de incertitudine pentru sportivi și are ca efect o veritabilă risipă de potențial profesional.
+
+Mai mult de atât, în practică pot apărea controverse publice legate de modul în care anumiți sportivi ajung să fie încadrați în diverse structuri ale statului, inclusiv cu acuzații sau suspiciuni privind lipsa unei activități effective. Lipsa unei baze legale unitare vulnerabilizează atât sportivii, cât și instituțiile, și afectează încrederea publică în caracterul meritocratic al accesului la funcții publice.
+
+Modificarea prevederilor legale actuale reprezintă o măsură necesară din punct de vedere al politicii publice și al tehnicii legislative în scopul de a înlătura problemele identificate și prezentate mai sus. Introducerea în această lege a unui nou articol ce reglementează integrarea și reorientarea profesională post-carieră permite așezarea inițiativei într-o logică de interes general – protecție și tranziție profesională – și nu într-o logică de excepție punctuală favorizantă, ceea ce reduce riscul de contestare pe temeiul principiului egalității și al accesului nediscriminatoriu la funcții și demnități publice.
+
+În același timp, demersul răspunde unei nevoi reale de a valorifica social competențele formate prin sportul de performanță -- disciplină, reziliență, capacitate de lucru sub presiune, orientare către rezultat - și de a oferi sportivilor retrași o tranziție profesională coerentă, predictibilă și compatibilă cu interesele publice. În lipsa unor instrumente legale, statul rămâne fie în zona unei protecții sociale limitate pentru categorii restrânse, fie în zona unor soluții administrative disparate. Prin această inițiativă legislativă se urmărește tocmai acoperirea acestui gol: instituirea unei politici publice clare pentru reorientarea profesională a sportivilor de performanță, cu reguli verificabile și cu efecte pozitive atât asupra sportivilor, cât și asupra instituțiilor și asupra încrederii publice în corectitudinea procedurilor de integrare profesională post-carieră.
+
+Luând în considerare argumentele prezentate, vă solicităm respectuos sprijinul în vederea adoptării prezentei propuneri legislative.
+
+În temeiul art. 111 alin. (1) din Constituția României, republicată, vă adresăm rugămintea de a solicita Guvernului să comunice punctul de vedere asupra prezentei propuneri legislative.
+
+INITIATOR:
+
+Deputat AUR Daniel-Cătălin Ciornei

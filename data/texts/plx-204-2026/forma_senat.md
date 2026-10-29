@@ -1,0 +1,91 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+## LEGE
+
+# privind implementarea unui mecanism național de identitate digitală și standardizarea autentificării electronice în administrația publică
+
+Senatul adoptă prezentul proiect de lege
+
+Art.1.- Prezenta lege stabilește cadrul normativ privind implementarea unui mecanism național de identitate digitală în platformele digitale ale autorităților și instituțiilor publice și pentru standardizarea la nivel național a mecanismelor de autentificare electronică, în scopul alinierii sistemului național de identitate digitală la prevederile Regulamentului (UE) nr.910/2014 al Parlamentului European și al Consiliului din 23 iulie 2014 privind identificarea electronică și serviciile de încredere pentru tranzacțiile electronice pe piața internă și de abrogare a Directivei 1999/93/CE.
+
+Art.2.- În sensul prezentei legi, expresiile de mai jos au următoarele semnificații:
+
+a) mecanismul național de identitate digitală ROeID - sistem informatic național, administrat de Autoritatea pentru Digitalizarea României, care furnizează servicii de identificare și autentificare electronică în vederea accesului la platformele digitale publice, pentru persoanele prevăzute la art.3 alin.(3);
+
+b) serviciu de identificare electronică acreditat - serviciu de identificare și autentificare electronică care respectă prevederile Regulamentului (UE) nr.910/2014 al Parlamentului European și al Consiliului din 23 iulie 2014;
+
+c) Single Sign-On (SSO) - mecanism de autentificare electronică prin care un utilizator se autentifică o singură dată, utilizând aceleași credențiale, pentru a accesă mai multe aplicații informatice și/sau servicii electronice, fără autentificare separată pentru fiecare dintre acestea;
+
+d) platformă digitală publică - sistem informatic furnizat ori administrat de o autoritate sau instituție publică, prin intermediul căruia se furnizează servicii electronice publice și care implică identificarea sau autentificarea persoanelor prevăzute la art.3 alin.(3) pentru accesarea serviciilor respective;
+
+e) entitate publică - autoritățile și instituțiile publice centrale și locale, precum și entitățile aflate în subordonarea, coordonarea sau sub autoritatea acestora.
+
+Art.3.- (1) Entitățile publice sunt obligate să implementeze în platformele digitale publice mecanismul național de identitate digitală ROeID sau un serviciu de identificare electronică acreditat în vederea autentificării și identificării persoanelor prevăzute la alin.(3).
+
+(2) Autoritatea pentru Digitalizarea României, denumită în continuare ADR, acreditează un serviciu de identificare electronică dacă acesta respectă prevederile Regulamentului (UE) nr.910/2014 al Parlamentului European și al Consiliului din 23 iulie 2014. Acreditarea se face prin decizie a președintelui ADR pe o perioadă de maximum 5 ani, în conformitate cu normele metodologice de aplicare a legii.
+
+(3) Entitățile publice au obligația să integreze în platformele digitale publice mecanismul național de identitate digitală ROeID sau, după caz, un serviciu de identificare electronică acreditat, ca mecanism unitar de autentificare electronică, în vederea accesării serviciilor electronice publice de către următoarele categorii de persoane:
+
+a) persoanele fizice;
+
+b) persoanele juridice și reprezentanții acestora;
+
+c) funcționarii publici și personalul contractual al entității publice cu atribuții în ceea ce privește accesul la platformele digitale publice care utilizează un mecanism de autentificare de tip single sign-on, prin care sunt furnizate servicii electronice publice;
+
+d) funcționarii publici ori personalul contractual al entității publice cu atribuții în soluționarea petițiilor adresate de către persoanele fizice sau persoanele juridice entității publice competente.
+
+(4) Utilizarea de către beneficiarii serviciilor electronice publice a mecanismului național de identitate digitală ROeID sau a serviciului de identificare electronică acreditat este voluntară. Persoanele care aleg să nu utilizeze autentificarea și identificarea electronică în condițiile prevăzute de prezenta lege nu pot fi lipsite de accesul la serviciile publice la care au dreptul prin alte mijloace prevăzute de lege.
+
+(5) În alte cazuri decât cele prevăzute la alin.(1)-(3), entitatea publică poate utiliza un mecanism intern de autentificare și/sau identificare electronică diferit de mecanismul național de identitate digitală ROeID sau de serviciul de identificare electronică acreditat.
+
+(6) Entitățile publice acceptă, în condițiile stabilite de Regulamentul (UE) nr.910/2024 al Parlamentului European și al Consiliului din 23 iulie 2014, mijloacele de identificare electronică emise în cadrul unui sistem de identificare electronică notificat, precum și portofelele europene pentru identitatea digitală furnizate sau recunoscute în temeiul acestuia, fără a supune utilizatorii unor cerințe suplimentare, altele decât cele prevăzute de regulament sau actele adoptate în aplicarea acestuia.
+
+Art.4.- Prin excepție de la art.3 alin.(1), entitățile publice din domeniul apărării naționale, ordinii publice sau securității naționale, care dețin platforme informatice de autentificare proprii, pot integra mecanismul național de identitate digitală ROeID sau un serviciu de identificare electronică acreditat, în măsura în care aceasta nu aduce atingere regimului informațiilor clasificate pe care le vehiculează. Conditile de integrare sunt stabilite prin protocol încheiat între ADR și entitatea publică din domeniul apărării naționale, ordinii publice sau securității naționale, care solicită integrarea, în baza avizului prealabil al Consiliului Suprem de Apărare a Tării.
+
+Art.5.- Platformele digitale publice în curs de dezvoltare sau achiziție, precum și cele în curs de integrare cu sistemele informatice naționale sunt proiectate astfel încât să permită implementarea mecanismului național de identitate digitală RoelD sau un serviciu de identificare electronică acreditat. Dispozițiile prezentului articol se aplică platformelor digitale publice pentru care, la data intrării în vigoare a prezentei legi, nu a fost inițiată procedura de achiziție publică sau, după caz, nu a fost încheiat un contract având ca obiect dezvoltarea, achiziționarea ori integrarea acestora.
+
+Art.6.- (1) Prelucrarea datelor cu caracter personal în cadrul mecanismului național de identitate digitală ROeID se realizează cu respectarea Regulamentului (UE) 2016/679 al Parlamentului European și al Consiliului din 27 aprilie 2016 privind protecția persoanelor fizice în ceea ce privește prelucrarea datelor cu caracter personal și privind libera circulație a acestor date și de abrogare a Directivei 95/46/CE (Regulamentul general privind protecția datelor).
+
+(2) ADR publică pe site-ul propriu și pe portalul informatic național https://roeid.ro/ un ghid care cuprinde documentația tehnică, modul de utilizare și alte date informatice pentru a facilita implementarea mecanismului național de identitate digitală ROeID.
+
+Art.7.- ADR are următoarele atribuții principale, în ceea ce privește integrarea mecanismului național de identitate digitală ROeID:
+
+a) asigură suportul tehnic centralizat pentru entitățile publice;
+
+b) sprijină implementarea standardizată a mecanismului național de identitate digitală ROeID în cadrul platformelor digitale publice;
+
+c) validează autenticitatea conturilor persoanelor prevăzute la art.3 alin.(3);
+
+d) monitorizează funcționalitatea mecanismului național de identitate digitală ROeID.
+
+Art.8.- (1) Înrolarea în mecanismul național de identitate digitală ROeID a persoanelor prevăzute la art.3 alin.(3), se realizează prin metode de verificare a identității stabilite în funcție de nivelul de asigurare necesar al mijlocului de identificare electronică substanțial, în conformitate cu Regulamentul de punere în aplicare (UE) 2015/1502 al Comisiei din 8 septembrie 2015 de stabilire a unor specificații și proceduri tehnice minime pentru nivelurile de asigurare a încrederii ale mijloacelor de identificare electronică în temeiul art.8 alin.(3) din Regulamentul (UE) nr.910/2014 al Parlamentului European și al Consiliului din 23 iulie 2014 privind identificarea electronică și serviciile de încredere pentru tranzacțiile electronice pe piața internă.
+
+(2) Metodele și procedurile de înrolare, precum și standardele tehnice aplicabile se stabilesc prin normele metodologice de aplicare a legii, cu respectarea legislației privind protecția datelor cu caracter personal.
+
+Art.9.- ADR ține un registru actualizat, disponibil pe site-ul propriu, care cuprinde următoarele informații:
+
+a) lista entităților publice care au implementat mecanismul național de identitate digitală ROeID;
+
+b) lista entităților publice aflate în curs de implementare a mecanismului național de identitate digitală ROeID, cu raportarea ratei de adopție în funcție de numărul serviciilor și al platformelor integrate;
+
+c) lista entităților publice care nu au început implementarea mecanismului național de identitate digitală ROeID;
+
+d) mențiuni privind progresul tehnic și statusul operațional al mecanismului național de identitate digitală ROeID stabilite prin normele metodologice de aplicare a legii.
+
+Art.10.- (1) Constituie contravenție și se sancționează cu amendă de la 5.000 lei la 10.000 lei, nerespectarea de către conducătorii entităților publice a dispozițiilor art.3 alin.(1) și art.5.
+
+(2) Constatarea contravențiilor și aplicarea sancțiunilor prevăzute la alin.(1) se fac de către personalul împuternicit din cadrul Autorității pentru Digitalizarea României.
+
+(3) Contravențiilor prevăzute de prezenta lege le sunt aplicabile dispozițiile Ordonanței Guvernului nr.2/2001 privind regimul juridic al contravențiilor, aprobată cu modificări și completări prin Legea nr.180/2002, cu modificările și completările ulterioare.
+
+Art.11.- (1) Prezenta lege intră în vigoare la 18 luni de la data publicării în Monitorul Oficial al României, Partea I.
+
+(2) În termen de 60 de zile de la data intrării în vigoare a prezentei legi, Guvernul va adopta, prin hotărâre, normele metodologice de aplicare a acesteia.
+
+(3) În termen de 12 luni de la data intrării în vigoare a prezentei legi, ADR asigură dezvoltarea și adaptarea mecanismului național de identitate digitală ROeID astfel încât acesta să îndeplinească cerințele tehnice și operaționale aplicabile portofelului european pentru identitatea digitală, potrivit prevederilor Regulamentului (UE) nr.910/2014 al Parlamentului European și al Consiliului din 23 iulie 2014 privind identificarea electronică și serviciile de încredere pentru tranzacțiile electronice pe piața internă și de abrogare a Directivei 1999/93/CE și ale actelor adoptate în aplicarea acestuia.
+
+Acest proiect de lege a fost adoptat de Senat, în ședința din 11 martie 2026, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.
+
+## p. PREȘEDINTELE SENATULUI

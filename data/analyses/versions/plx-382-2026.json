@@ -1,0 +1,117 @@
+{
+  "slug": "plx-382-2026",
+  "billId": "PL-x 382/2026",
+  "updatedAt": "2026-10-29T12:30:04.659Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L166FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "O zi pe an dedicată primarilor și consilierilor locali, pe 9 februarie",
+      "summaryTlDr": "Lege simbolică, fără taxe, sancțiuni sau zi liberă: nu obligă la cheltuieli și nu atinge firmele sau cetățenii. Are însă scăpări de redactare. Obligă sindicatele să ia măsuri pentru serbări, permite premii fără reguli clare și sponsorizări fără nicio limită.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/300/80/2/se409.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "9 februarie devine ziua primarilor și a consilierilor locali",
+      "summaryTlDr": "Este o lege simbolică, fără zi liberă și fără cheltuieli obligatorii, deci riscul e mic. Are însă scăpări de redactare: obligă sindicatele să sărbătorească aleșii și permite premii fără criterii, plătibile din bani publici, chiar pentru cei care votează bugetele.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat tacit proiectul în forma inițiatorului, fără modificări de fond",
+      "summary": "Proiectul a trecut tacit de Senat, cu textul inițial neschimbat. Rămân aceleași probleme: sindicatele obligate să sărbătorească aleșii, premii fără criterii și sponsorizări fără reguli de conflict de interese.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Sindicatele, independente de stat, sunt obligate să ia măsuri pentru sărbătorirea aleșilor",
+            "major": true,
+            "article": "art. 3 alin. (1)"
+          },
+          {
+            "text": "Premiile și distincțiile nu au emitent, criterii sau sursă de finanțare",
+            "major": true,
+            "article": "art. 2"
+          },
+          {
+            "text": "Consiliul local ar putea vota premii în bani propriilor membri, din bugetul local",
+            "major": true,
+            "article": "art. 2"
+          },
+          {
+            "text": "Firme cu contracte sau litigii cu primăria pot finanța sărbătorirea, fără publicare",
+            "major": true,
+            "article": "art. 3 alin. (3)"
+          },
+          {
+            "text": "Formula obligatorie din art. 3 contrazice marcarea facultativă a zilei din art. 1",
+            "major": false,
+            "article": "art. 3 alin. (1)"
+          },
+          {
+            "text": "Nicio trimitere la regimul decorațiilor naționale, conferite de Președinte",
+            "major": false,
+            "article": "art. 2"
+          },
+          {
+            "text": "Neclar cine, cum și până când înscrie ziua în statutele comunelor și orașelor",
+            "major": false,
+            "article": "art. 1 alin. (4)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Ziua nu este liberă, deci nu costă nimic angajatorii",
+            "major": false,
+            "article": "art. 1"
+          },
+          {
+            "text": "Data de 9 februarie marchează corect primele alegeri locale libere, din 1992",
+            "major": false,
+            "article": "art. 1 alin. (2)"
+          },
+          {
+            "text": "Autoritățile pot marca ziua, dar nu sunt obligate",
+            "major": false,
+            "article": "art. 1 alin. (3)"
+          },
+          {
+            "text": "Banii publici pentru evenimente rămân în limita bugetelor deja aprobate",
+            "major": false,
+            "article": "art. 3 alin. (2)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 6,
+        "removed": 7,
+        "same": 0.45
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:24:04.363Z"
+    }
+  ]
+}

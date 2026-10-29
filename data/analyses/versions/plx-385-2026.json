@@ -1,0 +1,145 @@
+{
+  "slug": "plx-385-2026",
+  "billId": "PL-x 385/2026",
+  "updatedAt": "2026-10-29T12:30:04.661Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L189FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Societățile agricole vor putea deveni cooperative agricole",
+      "summaryTlDr": "Lege scurtă și benignă: adaugă o opțiune, nu impune nimic nimănui. Problema este că nu spune cum se face concret transformarea și ce se întâmplă cu asociații care nu vor să intre în cooperativă.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/300/80/5/se426.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Societățile agricole vor putea deveni cooperative agricole",
+      "summaryTlDr": "Lege scurtă, tehnică și benignă: adaugă o opțiune în plus pentru societățile agricole, fără taxe, obligații sau sancțiuni noi. Slăbiciunea ei este că nu spune cum se face concret transformarea și ce se întâmplă cu asociații care nu o vor.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Transformarea în cooperativă agricolă trimite acum la Legea 36/1991, nu vag „la lege”",
+      "summary": "Inițial, societățile agricole se puteau transforma în cooperative „în condițiile legii”, fără să se spună care lege. Acum textul trimite la Legea 36/1991. E mai clar, dar această lege nu are reguli pentru cooperative. Fondul rămâne același: o opțiune voluntară.",
+      "changes": [
+        {
+          "title": "Se precizează ce lege guvernează transformarea",
+          "text": "La art. 4¹ alin. (1), trimiterea vagă „în condițiile legii” devine „în condițiile prezentei legi”, adică Legea 36/1991. E mai clar, deși regulile acestei legi nu sunt gândite pentru cooperative.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 4¹ alin. (1)",
+          "before": "Societățile agricole se pot transforma, în condițiile legii, în societăți",
+          "after": "Societățile agricole se pot transforma, în condițiile prezentei legi, în societăți",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Se modifică doar alineatul (1), restul rămâne",
+          "text": "Inițial se anunța că art. 4¹ „se modifică și se completează”. Acum e clar că se schimbă doar alin. (1), iar celelalte alineate ale articolului rămân neschimbate.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 4¹",
+          "before": "se modifică și se completează după cum urmează",
+          "after": "alineatul (1) se modifică și va avea următorul cuprins",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Nu se stabilește ce majoritate de vot decide transformarea în cooperativă",
+            "major": true,
+            "article": "art. 4¹ alin. (1)"
+          },
+          {
+            "text": "Asociații care se opun transformării nu au reguli de retragere",
+            "major": true,
+            "article": "art. 4¹ alin. (1)"
+          },
+          {
+            "text": "Nu se spune cum se evaluează părțile sociale la transformare",
+            "major": true,
+            "article": "art. 4¹ alin. (1)"
+          },
+          {
+            "text": "Terenul adus în folosință nu are un regim clar după transformare",
+            "major": true,
+            "article": "art. 4¹ alin. (1)"
+          },
+          {
+            "text": "Lipsesc reguli pentru contractele de arendă și angajamentele APIA aflate în derulare",
+            "major": true,
+            "article": "art. 4¹ alin. (1)"
+          },
+          {
+            "text": "Celelalte alineate ale art. 4¹ sunt gândite doar pentru transformarea în societăți",
+            "major": false,
+            "article": "art. 4¹"
+          },
+          {
+            "text": "Nu se spune cine verifică dacă societatea respectă regulile cooperativei",
+            "major": false,
+            "article": "art. 4¹ alin. (1)"
+          },
+          {
+            "text": "Fără studiu de impact și fără cifre despre câte societăți ar fi interesate",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Societățile agricole pot alege să se transforme în cooperative agricole",
+            "major": true,
+            "article": "art. 4¹ alin. (1)"
+          },
+          {
+            "text": "Transformarea e strict opțională: nicio societate nu e obligată",
+            "major": false,
+            "article": "art. 4¹ alin. (1)"
+          },
+          {
+            "text": "Nu introduce taxe, sancțiuni sau cheltuieli bugetare noi",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Trimiterea la Legea 36/1991 e mai precisă decât formula vagă inițială",
+            "major": false,
+            "article": "art. 4¹ alin. (1)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 7,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:24:01.829Z"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "slug": "plx-674-2026",
+  "billId": "PL-x 674/2026",
+  "updatedAt": "2026-10-29T13:13:50.437Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L405FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Fondurile de pensii de la Pilonul II pot investi în industria de apărare, dar nu în arme interzise",
+      "summaryTlDr": "Lege în esență benignă: nu obligă pe nimeni să investească în armament, doar confirmă o permisiune și interzice prin lege armele controversate. Problemele țin de redactare: o interdicție cu listă deschisă, trimiteri interne greșite și o limitare a ASF care se aplică tuturor sectoarelor, nu doar apărării.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/600/70/4/se764.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Banii de la Pilonul II vor putea merge explicit în industria de apărare, dar nu în arme interzise",
+      "summaryTlDr": "Ideea e legitimă și se aliniază poziției Comisiei Europene: apărarea convențională nu e un sector toxic pentru investitori. Textul e însă redactat neglijent. Interdicția pentru armele controversate e vagă și se contrazice, iar art. 28 alin. (1¹) leagă mâinile ASF pentru toate sectoarele, nu doar pentru apărare. Senatul nici nu l-a dezbătut, fiind adoptat tacit, așa că reparațiile cad în sarcina Camerei.",
+      "scores": {
+        "agy": 3,
+        "claude": 4,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat tacit proiectul în forma inițiatorului; textul de fond a rămas identic",
+      "summary": "Senatul nu s-a pronunțat la timp, iar proiectul s-a considerat adoptat tacit, fără nicio modificare de fond. Problemele rămân: lista deschisă de „arme controversate”, lipsa unui prag pentru „implicare” și interdicția ca ASF să excludă sectoare întregi.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Lista armelor interzise e deschisă și trimite la documente internaționale nenumite",
+            "major": true,
+            "article": "art. 25 alin. (1) lit. d³)"
+          },
+          {
+            "text": "Niciun prag pentru „implicare”: și o contribuție marginală face firma neinvestibilă",
+            "major": true,
+            "article": "art. 25 alin. (1) lit. d³)"
+          },
+          {
+            "text": "ASF nu poate exclude niciun sector întreg, inclusiv tutun, cărbune sau jocuri de noroc",
+            "major": true,
+            "article": "art. 28 alin. (1¹)"
+          },
+          {
+            "text": "Textul presupune că România e parte la tratatul privind munițiile cu dispersie; nu e",
+            "major": false,
+            "article": "art. 25 alin. (1) lit. d³)"
+          },
+          {
+            "text": "Interzicerea „utilizării” de arme nu are sens pentru o societate emitentă",
+            "major": false,
+            "article": "art. 25 alin. (1) lit. d³)"
+          },
+          {
+            "text": "Excepția trimite greșit la art. 28; interdicția armelor e la art. 25",
+            "major": false,
+            "article": "art. 28 alin. (1¹)"
+          },
+          {
+            "text": "ASF are 90 de zile pentru norme, dar nu poate folosi obiectul de activitate",
+            "major": false,
+            "article": "art. III"
+          },
+          {
+            "text": "Codurile CAEN și criteriile promise în expunerea de motive lipsesc din text",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Litera nouă pentru apărare e mai ales semnal politic; lit. d) permitea deja",
+            "major": false,
+            "article": "art. 25 alin. (1) lit. d²)"
+          },
+          {
+            "text": "Art. III, termen pentru ASF, e introdus confuz „după Art.II”, sub un articol unic",
+            "major": false,
+            "article": "art. III"
+          }
+        ],
+        "good": [
+          {
+            "text": "Legea interzice investiții în mine antipersonal, muniții cu dispersie, arme chimice și biologice",
+            "major": true,
+            "article": "art. 25 alin. (1) lit. d³)"
+          },
+          {
+            "text": "Investițiile în apărare rămân opționale și supuse limitelor prudențiale de diversificare",
+            "major": false,
+            "article": "art. 25 alin. (1) lit. d²)"
+          },
+          {
+            "text": "ASF pare să poată impune în continuare limite de concentrare pe sectoare",
+            "major": false,
+            "article": "art. 28 alin. (1¹)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 9,
+        "removed": 102,
+        "same": 0.25
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:13:29.414Z"
+    }
+  ]
+}

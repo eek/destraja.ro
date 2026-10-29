@@ -1,7 +1,7 @@
 {
   "slug": "b544-2026",
   "billId": "B544/2026",
-  "checkedAt": "2026-10-28T08:06:22.161Z",
+  "checkedAt": "2026-10-29T12:01:37.750Z",
   "models": {
     "agy": "ok",
     "claude": "ok",
@@ -150,7 +150,7 @@
         "agy",
         "codex"
       ],
-      "quote": "Proiectul de lege a fost depus la Parlament de către Cristian Ghinea (USR) și senatoarea independentă Victoria Stoiciu.",
+      "quote": "Proiectul de lege B544/2026, depus la Senat pe 5 octombrie, își propune să schimbe radical modul în care statul îi sancționează pe consumatorii de droguri.",
       "match": "quote",
       "firstSeenAt": "2026-10-27",
       "decision": {
@@ -272,6 +272,50 @@
       }
     },
     {
+      "url": "https://www.cotidianul.ro/daniel-fenechiu-si-a-retras-semnatura-de-pe-proiectul-privind-dezincriminarea-detinerii-de-droguri-pentru-consum-propriu",
+      "title": "Daniel Fenechiu și-a retras semnătura de pe proiectul privind dezincriminarea deținerii de droguri pentru consum propriu",
+      "outlet": "Cotidianul",
+      "domain": "cotidianul.ro",
+      "publishedAt": "2026-10-12",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Prin urmare, am ales să îmi retrag semnătura de pe această inițiativă legislativă.",
+      "match": "quote",
+      "firstSeenAt": "2026-10-29",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-29",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "mixed",
+            "stanceP": 0.416,
+            "source": "national_news",
+            "sourceP": 0.792,
+            "about": 0.941,
+            "release": 0.469
+          },
+          "d1": {
+            "stance": "critical",
+            "stanceP": 0.653,
+            "source": "national_news",
+            "sourceP": 0.816,
+            "about": 0.651,
+            "release": 0.5
+          },
+          "luna": {
+            "stance": "mixed",
+            "stanceP": 0.83,
+            "source": "national_news",
+            "sourceP": 0.96,
+            "about": 0.99,
+            "release": 0.03
+          }
+        }
+      }
+    },
+    {
       "url": "https://www.aktual24.ro/parchetul-general-se-opune-proiectului-care-transforma-detinerea-de-droguri-pentru-consum-propriu-in-contraventie-initiativa-apartine-unor-parlamentari-pnl-usr-si-unei-senatoare-neafiliate",
       "title": "Parchetul General se opune proiectului care transformă deținerea de droguri pentru consum propriu în contravenție. Inițiativa aparține unor parlamentari PNL, USR și unei senatoare neafiliate - Aktual24",
       "outlet": "Aktual24",
@@ -321,9 +365,10 @@
       "domain": "spotmedia.ro",
       "publishedAt": "2026-10-09",
       "foundBy": [
-        "agy"
+        "agy",
+        "claude"
       ],
-      "quote": "Procurorul general Cristina Chiriac a transmis vineri un punct de vedere nefavorabil inițiativei legislative depuse la Senat de Victoria Stoiciu (neafiliată), Cristian Ghinea (USR) și Daniel Fenechiu (PNL).",
+      "quote": "Poziția Parchetului General este una consultativă și nu înseamnă respingerea proiectului.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -664,6 +709,50 @@
       }
     },
     {
+      "url": "https://www.cotidianul.ro/alina-gorghiu-se-opune-proiectului-de-lege-mai-bland-cu-detinerea-de-droguri-pentru-consum-propriu",
+      "title": "Alina Gorghiu se opune proiectului de lege mai blând cu deținerea de droguri pentru consum propriu",
+      "outlet": "Cotidianul",
+      "domain": "cotidianul.ro",
+      "publishedAt": "2026-10-07",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Proiectul legislativ B544/2026 a fost înregistrat la Senat pe 5 octombrie.",
+      "match": "quote",
+      "firstSeenAt": "2026-10-29",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-29",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "critical",
+            "stanceP": 0.702,
+            "source": "national_news",
+            "sourceP": 0.493,
+            "about": 0.94,
+            "release": 0.792
+          },
+          "d1": {
+            "stance": "critical",
+            "stanceP": 0.853,
+            "source": "national_news",
+            "sourceP": 0.762,
+            "about": 0.755,
+            "release": 0.294
+          },
+          "luna": {
+            "stance": "critical",
+            "stanceP": 0.98,
+            "source": "national_news",
+            "sourceP": 0.96,
+            "about": 0.99,
+            "release": 0.04
+          }
+        }
+      }
+    },
+    {
       "url": "https://www.digi24.ro/stiri/actualitate/politica/proiect-de-lege-pentru-dezincriminarea-posesiei-de-droguri-pentru-consumul-propriu-parlamentari-psd-aur-si-pnl-critica-initiativa-3982253",
       "title": "Proiect de lege pentru dezincriminarea posesiei de droguri pentru consum propriu. Parlamentari PSD, AUR și PNL critică inițiativa",
       "outlet": "Digi24",
@@ -674,7 +763,7 @@
         "codex",
         "agy"
       ],
-      "quote": "Trei parlamentari, adică Victoria Stoiciu (ex-PSD, acum neafiliată), Daniel Fenechiu (liderul senatorilor PNL) și Cristian Ghinea (USR) au depus în Senat un proiect de Lege care vizează dezincriminarea posesiei de droguri în vederea consumului propriu.",
+      "quote": "Un proiect de lege care prevede dezincriminarea posesiei de droguri în vederea consumului propriu, depus recent în Parlament, a stârnit deja reacții dure din partea aleșilor.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -763,7 +852,7 @@
         "claude",
         "codex"
       ],
-      "quote": "Senatoarea Victoria Stoiciu a depus, la Senat, un proiect de lege care scoate din sfera penală deținerea de droguri",
+      "quote": "Senatoarea Victoria Stoiciu a depus, la Senat, un proiect de lege care scoate din sfera penală deținerea de droguri pentru consum propriu și o transformă în contravenție, sancționată cu amendă.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -935,9 +1024,10 @@
       "domain": "spotmedia.ro",
       "publishedAt": "2026-10-07",
       "foundBy": [
-        "agy"
+        "agy",
+        "claude"
       ],
-      "quote": "Am depus un proiect de lege care dezincriminează deţinerea de droguri pentru consum propriu.",
+      "quote": "Inițiatorii au solicitat ca proiectul să fie dezbătut în procedură de urgență.",
       "match": "quote",
       "firstSeenAt": "2026-10-28",
       "decision": {

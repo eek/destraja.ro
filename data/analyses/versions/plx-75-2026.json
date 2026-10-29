@@ -1,0 +1,172 @@
+{
+  "slug": "plx-75-2026",
+  "billId": "Pl-x 75/2026",
+  "updatedAt": "2026-10-29T14:01:11.769Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/000/70/5/pl69.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Polițiștii și militarii: avocat plătit de stat, psiholog anual și ajutor la plecarea din sistem",
+      "summaryTlDr": "Intenția e bună, dar efectul e mic: legea promite avocat, psiholog, concediu de refacere și reconversie pentru personalul MAI și MApN, apoi anulează aceste promisiuni spunând că nu creează drepturi individuale și că totul depinde de bugetul disponibil. Riscul pentru cetățeni e redus, iar problemele reale sunt redactarea neglijentă și lipsa unei reguli de restituire a banilor dați pentru apărarea celor condamnați ulterior.",
+      "scores": {
+        "agy": 5,
+        "claude": 3,
+        "codex": 4
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl075_cd075_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Avocat și psiholog din partea statului pentru polițiști, militari și angajații MAI și MApN",
+      "summaryTlDr": "Intenție bună, execuție declarativă: legea promite avocat plătit de stat, psiholog anual și concediu de refacere, dar art. 2 alin. (3), art. 8 și art. 10 retrag aproape tot ce dau, condiționând totul de buget și de norme interne. Nu lovește cetățenii sau firmele, dar e contradictorie și costă mai mult decât recunoaște.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera Deputaților a adoptat tacit forma inițiatorului, fără nicio schimbare de fond",
+      "summary": "Textul adoptat de Camera Deputaților e identic pe fond cu cel al inițiatorului: s-au schimbat doar antetul, formula de adoptare și câteva greșeli de scriere. Rămân toate problemele, cum ar fi drepturi promise, dar negate în aceeași lege, și foștii angajați lăsați în afara ei.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Promite asistență, evaluare și concediu, dar spune că nu creează drepturi individuale",
+            "major": true,
+            "article": "art. 2 alin. (3), art. 8 alin. (2)"
+          },
+          {
+            "text": "Reconversia e pentru cei care pleacă, dar legea acoperă doar personalul în activitate",
+            "major": true,
+            "article": "art. 2 alin. (1), art. 9"
+          },
+          {
+            "text": "Include și personalul civil, deși titlul vizează doar personalul cu statut special",
+            "major": true,
+            "article": "art. 2 alin. (1)"
+          },
+          {
+            "text": "Nu se știe cine aprobă asistența juridică, din ce buget și cu ce plafon",
+            "major": true,
+            "article": "art. 4"
+          },
+          {
+            "text": "Banii pentru avocat nu se restituie dacă angajatul e găsit vinovat",
+            "major": true,
+            "article": "art. 4 alin. (3)"
+          },
+          {
+            "text": "Abaterea disciplinară gravă nu e definită; infracțiunile intenționate nu sunt excluse expres",
+            "major": true,
+            "article": "art. 4 alin. (3)"
+          },
+          {
+            "text": "Evaluare psihologică anuală pentru tot personalul, inclusiv civili, fără estimare de cost",
+            "major": true,
+            "article": "art. 6 alin. (1)"
+          },
+          {
+            "text": "Interdicția de „restrângere a drepturilor” poate bloca retragerea armei unei persoane în risc",
+            "major": true,
+            "article": "art. 6 alin. (3)"
+          },
+          {
+            "text": "Concediul psihologic nu are durată, plată sau limite; totul e lăsat normelor ministerelor",
+            "major": true,
+            "article": "art. 7"
+          },
+          {
+            "text": "Măsurile depind doar de creditele bugetare anuale, deci pot rămâne nefinanțate",
+            "major": true,
+            "article": "art. 8 alin. (3), art. 10"
+          },
+          {
+            "text": "Nu e clar dacă „cercetat” înseamnă doar penal sau și disciplinar",
+            "major": false,
+            "article": "art. 4 alin. (1)"
+          },
+          {
+            "text": "Greșeli de scriere în text: „subjective” și „elaborază”",
+            "major": false,
+            "article": "art. 8 alin. (2), art. 12"
+          }
+        ],
+        "good": [
+          {
+            "text": "Statul suportă avocat, expertize și cheltuieli de judecată pentru fapte din serviciu",
+            "major": true,
+            "article": "art. 4 alin. (1)-(2)"
+          },
+          {
+            "text": "Asistența juridică se refuză dacă reaua-credință e constatată definitiv",
+            "major": true,
+            "article": "art. 4 alin. (3)"
+          },
+          {
+            "text": "Evaluare psihologică preventivă anuală și consiliere psihologică gratuită",
+            "major": true,
+            "article": "art. 6 alin. (1)-(2)"
+          },
+          {
+            "text": "Evaluarea psihologică nu poate fi folosită pentru sancționare",
+            "major": true,
+            "article": "art. 6 alin. (3)"
+          },
+          {
+            "text": "Concediu de refacere psihologică la recomandare medicală, separat de concediul de odihnă",
+            "major": true,
+            "article": "art. 7 alin. (1)"
+          },
+          {
+            "text": "Acces la reconversie profesională pentru cei care pleacă, inclusiv din fonduri europene",
+            "major": true,
+            "article": "art. 9"
+          },
+          {
+            "text": "Asistența juridică nu împiedică răspunderea penală, civilă sau disciplinară",
+            "major": false,
+            "article": "art. 5"
+          },
+          {
+            "text": "Raport anual către Parlament, fără date cu caracter personal",
+            "major": false,
+            "article": "art. 11"
+          },
+          {
+            "text": "Normele de aplicare trebuie elaborate în 90 de zile",
+            "major": false,
+            "article": "art. 12"
+          },
+          {
+            "text": "Legea intră în vigoare la 6 luni după publicare, timp de pregătire",
+            "major": false,
+            "article": "art. 13"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 11,
+        "removed": 11,
+        "same": 0.66
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:58:47.623Z"
+    }
+  ]
+}

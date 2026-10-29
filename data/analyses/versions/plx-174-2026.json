@@ -1,0 +1,107 @@
+{
+  "slug": "plx-174-2026",
+  "billId": "PL-x 174/2026",
+  "updatedAt": "2026-10-29T12:45:23.653Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L120FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Reciclarea electronicelor vechi: de când plătesc producătorii, ajustat după o decizie a Curții UE",
+      "summaryTlDr": "Este o lege tehnică de transpunere, obligatorie și întârziată. Ea corectează un efect retroactiv pe care Curtea UE l-a declarat nevalid pentru panourile fotovoltaice. Riscul e mic, iar problemele reale sunt de redactare: art. 37 alin. (2), citit literal, restrânge marcarea datei doar la panouri, iar ziua de 1 ianuarie 2007 cade în două regimuri de finanțare.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/70/4/se195.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Cine plătește reciclarea electronicelor și a panourilor solare vechi",
+      "summaryTlDr": "Lege tehnică de transpunere, impusă de o hotărâre a CJUE, care scoate o obligație retroactivă de pe umerii producătorilor de panouri solare. Este utilă și necesară, dar scrisă neglijent: o zi încadrată în două regimuri, un cuvânt care inversează sensul («resortate») și o zonă neacoperită privind cine plătește pentru echipamentele vechi.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat forma inițiatorului fără modificări de fond; rămâne golul de finanțare la panourile vechi",
+      "summary": "Forma adoptată de Senat preia textul inițiatorului. S-au corectat doar o greșeală de scriere și formatarea. Rămân aceleași probleme: legea nu spune cine plătește reciclarea panourilor solare puse pe piață înainte de 13 august 2012.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Niciun finanțator pentru deșeurile din panouri fotovoltaice introduse înainte de 13.08.2012",
+            "major": true,
+            "article": "art. 32 alin. (1), art. 33 alin. (2)-(3)"
+          },
+          {
+            "text": "Niciun finanțator pentru deșeurile din EEE open scope introduse între 2007 și 14.08.2018",
+            "major": true,
+            "article": "art. 28 alin. (1) lit. c), art. 33 alin. (1) lit. c)"
+          },
+          {
+            "text": "Citit literal, marcajul cu data ar fi obligatoriu doar pentru panourile fotovoltaice",
+            "major": true,
+            "article": "art. 37 alin. (2)"
+          },
+          {
+            "text": "„Deșeuri municipale resortate” în loc de „nesortate” răstoarnă sensul normei",
+            "major": false,
+            "article": "art. 34 alin. (5)"
+          },
+          {
+            "text": "Ziua de 1 ianuarie 2007 intră și la deșeuri istorice, și la produse noi",
+            "major": false,
+            "article": "art. 32 alin. (1), art. 28 alin. (1), art. 33 alin. (1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Fără răspundere retroactivă: panouri de la 13.08.2012, open scope de la 15.08.2018",
+            "major": true,
+            "article": "art. 28 alin. (1), art. 33 alin. (1)"
+          },
+          {
+            "text": "Fiecare producător plătește pentru deșeurile provenite din propriile produse",
+            "major": true,
+            "article": "art. 28 alin. (2)"
+          },
+          {
+            "text": "Marcaj obligatoriu cu simbolul DEEE și data, după standardul EN 50419:2022",
+            "major": false,
+            "article": "art. 34 alin. (5), art. 37 alin. (1)"
+          },
+          {
+            "text": "Producătorii se înscriu în registrul național și comunică numărul rețelelor comerciale",
+            "major": false,
+            "article": "art. 38 alin. (2)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 18,
+        "removed": 17,
+        "same": 0.33
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:43:25.977Z"
+    }
+  ]
+}

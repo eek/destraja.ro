@@ -1,0 +1,89 @@
+## Expunere de motive
+
+Prezenta inițiativă legislativă are ca obiect clarificarea unor aspecte de interpretare și aplicare a Legii nr. 52/2011 privind exercitarea unor activități cu caracter ocazional desfășurate de zilieri, în special în ceea ce privește categoria beneficiarilor care pot utiliza zilieri.
+
+În aplicarea dispozițiilor legii s-au constatat dificultăți de interpretare unitară cu privire la includerea asociațiilor, fundațiilor, a unităților de cult, precum și a instituțiilor aparținând cultelor religioase recunoscute potrivit legii în categoria beneficiarilor reglementați de actul normativ. Aceste neclarități au condus la practici administrative neunitare la nivelul instituțiilor competente în aplicarea dispozițiilor legale privind munca cu caracter ocazional.
+
+În acest context, se impune modificarea și completarea actului normativ pentru explicitarea expresă a acestor entități în cuprinsul legii, în categoria beneficiarilor care pot utiliza zilieri, în vederea asigurării unei aplicări unitare și previzibile a dispozițiilor legale.
+
+Prezenta modificare urmărește corelarea normelor privind beneficiarii cu realitățile activităților cu caracter ocazional desfășurate în sectorul non-profit, a unităților de cult și în cadrul cultelor religioase recunoscute potrivit legii, în condițiile în care aceste entități utilizează în practică muncă necalificată cu caracter temporar pentru activități punctuale, dar care nu beneficiază de cod CAEN.
+
+În contextual actual, se impune extinderea sferei beneficiarilor și asupra entităților fără cod CAEN, pentru a asigura un cadru legal coerent și nediscriminatoriu în utilizarea muncii zilierilor. Această măsură contribuie la reducerea muncii informale prin consolidarea cadrului legal aplicabil muncii ocazionale și la reducerea riscului de utilizare a muncii nedeclarate, prin clarificarea expresă a sferei subiecților de drept care pot avea calitatea de beneficiar.
+
+Pentru considerentele expuse, supunem spre aprobare Parlamentului prezenta propunere legislativă pentru modificarea și completarea Legii nr. 52/2011 privind exercitarea unor activități cu caracter ocazional desfășurate de zilieri.
+
+## Inițiatori,
+
+| Nr.crt. | Deputați/Senatori | Grupul parlamentar | Semnătură |
+| --- | --- | --- | --- |
+| 1. | Vass Levente | UDMR |  |
+| 2. | Csép Éva-Andrea | UDMR |  |
+| 3. | Kondor Agota | UDMR |  |
+| 4. | KECEHEN HUNOR | UMR |  |
+
+Tabel cu inițiatorii propunerii legislative modificarea și completarea Legii nr. 52/2011 privind exercitarea unor activități cu caracter ocazional desfășurate de zilieri.
+
+| 5. | Goua Botoud | COMP |
+| --- | --- | --- |
+| 6. | Sereis Denes | UDMR |
+| 7. | MAGYAR WORAND-BR212T | UDMR |
+| 8. | Hagy SHABOCS | UDMR |
+| 9. | Nikudh Zofou | UDMR |
+| 10. | Folouou Addiou | PSD |
+| 11. | RINDER AND SMARTANSA | PSD |
+| 12. | NEATA EUGEN | PSD |
+| 13. | BUDAI MARIUS CONSTANTIN | PSD |
+| 14. | HANTOR BOGLARHA | UDMR |
+| 15. | ZAHOBANGLIZIGITA | UDMR |
+| 16. | MOLNAR ANDREI | UDMR |
+| 17. | Kijucpei Csaba | UDMR |
+| 18. | Junde Saudor | UDMR |
+| 19. | Gil Kairaly | UDMR |
+| 20. | TASNAID: ISTVDN-202ARD | UDMR/RHDSZ |
+| 21. | Csasar Karaly Zolt | UDMR/RHDSZ |
+| 22. | Kooda Mofe | UDMR/RUDS |
+| 23. | NovaK LEVENTE | UDMR/RMASA7 |
+| 24. | Virete Hesaidh | UDMR |
+| 25. | Feyr Hilo Ödμ | UDMR |
+| 26. | TUROS CÓDÁNO | VDMR/R7DSZ |
+
+| NR | SENATOR/DEPUTAT | PARTID | SEMNĂTURĂ |
+| --- | --- | --- | --- |
+| 27. | HUMEZNICU MARIUS | PSD |  |
+| 28. | KVLCSAR - PERTA 70'35E7 | V617R |  |
+| 29. | BIRÓ ROZÁLIA - IBOLYA | VHR |  |
+| 30. | MARK'S ATTUA GABOR | UONE |  |
+| 31. | STABD ÖJBOIN | WUE |  |
+| 32. | Raluce Tuweau | THF |  |
+| 33. | Gabriel Audinache | PHL |  |
+| 34. | MOS ARINA | PHL |  |
+| 35. | Diana Stolca | USR |  |
+| 36. | Jovupos Borma | U8HR |  |
+| 37. |  |  |  |
+| 38. |  |  |  |
+| 39. |  |  |  |
+| 40. |  |  |  |
+| 41. |  |  |  |
+| 42. |  |  |  |
+| 43. |  |  |  |
+| 44. |  |  |  |
+| 45. |  |  |  |
+| 46. |  |  |  |
+
+10.06.2026
+
+## Către, BIROUL PERMANENT AL SENATULUI
+
+Subsemnata, Doina-Elena Federovici, senator ales în Circumscripția electorală nr. 07, Botoșani, solicit să aprobați dobândirea calității de coinițiator al următoarelor propuneri legislative:
+
+\- Propunere legislativă pentru completarea art.279 din Legea nr.286/2009 privind Codul Penal (L286/2026);
+
+\- Propunere legislativă pentru modificarea și completarea Ordonanței de urgență a Guvernului nr.41/2016 privind stabilirea unor măsuri de simplificare la nivelul administrației publice centrale și pentru modificarea și completarea unor acte normative, precum și completarea art.11 din Ordonanța de urgență a Guvernului nr.97/2005 privind evidența, domiciliul, reședința și actele de identitate ale cetățenilor români (L331/2026);
+
+\- Propunere legislativă privind completarea Legii nr.411/2004 privind fondurile de pensii administrate privat (b300/2026);
+
+\- Propunere legislativă pentru modificarea și completarea Legii 52/2011 privind exercitarea unor activități cu caracter ocazional desfășurate de zilieri (L374/2026);
+
+\- Propunere legislativă pentru completarea Legii drepturilor pacientului nr.46/2003 (L358/2026)
+
+Vă mulțumesc.

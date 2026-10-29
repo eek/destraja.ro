@@ -1,0 +1,118 @@
+# EXPUNERE DE MOTIVE
+
+| Secțiunea 1Titlul proiectului de act normativLege pentru aprobarea Ordonanței de urgență a Guvernului privind trecerea Agenției Naționale pentru Egalitatea de Șanse între Femei și Bărbați din subordinea Guvernului și din coordonarea prim-ministrului, prin Cancelaria Prim-Ministrului, în subordinea Ministerului Muncii, Familiei, Tineretului și Solidarității Sociale |
+| --- |
+| Secțiunea a 2-aMotivul emiterii proiectului de act normativ |
+| 2.1. Sursa proiectului de act normativInitiativa Ministerului Muncii, Familiei, Tineretului și Solidarității Sociale. |
+| 2.2. Descrierea situației actualeAgenția Națională pentru Egalitatea de Șanse între Femei și Bărbați (ANES) a fost înființată potrivit art. 23 alin. (1) din Legea nr. 202/2002 privind egalitatea de șanse și de tratament între femei și bărbați cu modificările și completările ulterioare, ca organ de specialitate al administrației publice centrale, cu personalitate juridică, care promovează principiul egalității de șanse și de tratament între femei și bărbați în vederea eliminării tuturor formelor de discriminare bazate pe criteriul de sex, în toate politicile și programele naționale.De asemenea potrivit art. 8 alin. (5) din Legea nr. 217/2003 pentru prevenirea și combaterea violenței domestice cu modificările și completările ulterioare, ANES este organ de specialitate al administrației publice centrale, cu personalitate juridică, care exercită funcțiile de strategie, reglementare, reprezentare și autoritate de stat în |
+
+domeniul violenței domestice, cu atribuții în elaborarea, coordonarea, aplicarea strategiilor și politicilor Guvernului în domeniul violenței domestice.
+
+ANES are rolul de organism național coordinator pentru implementarea Convenției pentru eliminarea tuturor formelor de discriminare împotriva femeilor (CEDAW) și pentru implementarea Convenției Consiliului Europei privind prevenirea și combaterea violenței împotriva femeilor și a violenței domestice (Convenția de la Istanbul).
+
+Prin Ordonanța de urgență a Guvernului nr. 153/2024 privind stabilirea unor măsuri la nivelul administrației publice centrale s-a aprobat trecerea Agenției Naționale pentru Egalitatea de Șanse între Femei și Bărbați din subordinea Ministerului Familiei, Tineretului și Egalității de Șanse în subordinea Guvernului și în coordonarea prim-ministrului, prin Cancelaria Prim-Ministrului, urmând să fie finanțată de la bugetul de stat, prin bugetul Secretariatului General al Guvernului.
+
+Prin Legea nr. 30/2016 România a ratificat Convenția Consiliului Europei privind prevenirea și combaterea violenței împotriva femeilor și a violenței domestice – denumită pe scurt Convenția de la Istanbul – care impune statelor părți măsuri concrete de prevenire și de protecție, fiind cel mai complex instrument de cooperare juridică internațională în ceea privește prevenirea violenței și combaterea violenței domestice și a violenței împotriva femeilor, protejarea victimelor, urmărirea penală a autorilor și adoptarea unei game largi de măsuri pentru a stopa acest flagel. Având în vedere faptul că în țara noastră Convenția a intrat în vigoare la data de 1 septembrie 2016, în prezent, după adoptarea, în anul 2022 a primului raport de monitorizare al Grupului de experți privind acțiunea împotriva violenței împotriva femeilor și a violenței domestice (GREVIO) se impune urgentarea demersurilor privind transpunerea recomandărilor formulate în cadrul acestuia, cu termen în 4 decembrie 2025: https://anes.gov.ro/wp-content/uploads/2023/11/Recomandari-GREVIO-Romania.pdf).
+
+Totodată este necesară implementarea mai multor recomandări OECD deosebit de importante, cu termen în primele luni ale anului 2026.
+
+Prevederile Convenției stipulează crearea unor mecanisme care să garanteze o protecție adecvată victimelor, precum și un grad cât mai mare de conștientizare a efectelor acestui fenomen în vederea prevenirii și a descurajării violenței domestice. Convenția de la Istanbul aduce o serie de completări necesare în ceea ce privește definirea fenomenului violenței domestice, a calității de victimă, a unor fapte de violență, incriminarea unor practici culturale ce afectează negativ viața femeilor – practici tradiționale precum mutilarea genitală, căsătoria forțată sau acte de violență precum hărțuirea, avortul forțat sau sterilizarea forțată.
+
+În acest sens, transpunerea prevederilor Convenției în legislația internă va contribui la îmbunătățirea vieții tuturor victimelor violenței domestice și a femeilor victime ale violenței de gen.
+
+În prezent, amploarea și gravitatea fenomenului violenței domestice în România lansează semnale îngrijorătoare, mergând până la decesul victimelor (46 femei ucise până în luna septembrie 2025), astfel încât acestea reclamă, în mod imperios, măsuri remediale active, care, pe de o parte să limiteze fenomenul prin măsuri de prevenire și de gestionare a recidivei faptelor de violență din perspectiva agresorilor, iar, pe de altă parte să vină în sprijinul supraviețuitorilor acestor violențe. Totodată, incidentele tragice cu privire la fapte de violență domestică soldate cu decesul victimelor, înregistrate în ultimii ani și adeseori larg mediatizate (ex. crima din Complexul Metropolis,uciderea prin cruzime și tortură a tinerei din Arad) au devenit repere negative pentru acest domeniu, în care, trebuie fără întârziere să se realizeze schimbări reale și majore în plan legislativ și, mai ales, în mentalitatea și modul de lucru al tuturor profesioniștilor cu atribuții în domeniu. Femeile ucise de către actuali sau foști parteneri, sunt omoruri deosebit de grave, prin gradul ridicat de pericol social generat de folosirea de arme letale, arme albe sau incendiere.
+
+În acest sens, este necesară crearea premiselor necesare pentru adoptarea cu celeritate a unor reglementări legale( proiectul de Lege privind modificarea și completarea Legii nr. 217/2003) prin care să se instituie măsuri complexe, specifice și adaptate nevoilor victimelor violenței domestice (ex: pachet de sprijin personalizat pentru victime, crearea asistentului de sprijin pentru victime, categorie de specialiști
+
+| care să acționeze, la nivel de rețea națională, în situațiile de primă intervenție, furnizând acompaniere, sprijin și orientare victimelor aflate în pericol iminent, finanțarea unor programe de interes național). Totodată, este necesară întărirea capacității de intervenție a Liniei Telefonice Naționale HELPLINE – 0800 500 333 destinate victimelor violenței domestice, discriminării pe criteriul de sex și traficului de persoane, de la nivelul ANES, prin extinderea numărului de consilieri, precum și dezvoltarea și consolidarea serviciilor sociale din domeniul de competență al ANES, prin alocarea de resurse financiare de la bugetul de stat, prin intermediul MMFTSS. |
+| --- |
+| Astfel, este imperios necesară reconfigurarea și abordarea unitară a cadrului instituțional privind egalitatea de șanse între femei și bărbați și prevenirea și combaterea violenței domestice și a violenței împotriva femeilor, prin trecerea ANES, organ de specialitate al administrației publice centrale, cu personalitate juridică și atribuții specifice, din subordinea Guvernului și din coordonarea primministrului, prin Cancelaria Prim-Ministrului, în subordinea Ministerului Muncii, Familiei, Tineretului și Solidarității Sociale. |
+| Totodată, elementul transversal de referință al egalității de șanse între femei și bărbați este evidențiat în toate documentele importante de la nivel național, european și internațional, reprezentând o condiție sine qua non, punctul de convergență și fundamentul prezentei propuneri, privind trecerea Agenției Naționale pentru Egalitatea de Șanse între Femei și Bărbați în subordinea Ministerului Muncii, Familiei, Tineretului și Solidarității Sociale. |
+| Această viziune este oportună din perspectiva abordării integrate a politicilor publice privind problematica egalității de șanse între femei și bărbați, prevenirii și combaterii violenței domestice și violenței împotriva femeilor, incluziunii sociale și prevenirii marginalizării categoriilor vulnerabile, ocupării forței de muncă, protecție drepturilor persoanelor cu dizabilități și a drepturilor copilului, funcționarea și licențierea serviciilor sociale destinate victimelor violenței domestice și agresorilor. |
+
+| În același context, în ultima perioadă societatea civilă deosebit de activă a solicitat, prin diferite mijloace, autorităților naționale urgentarea consolidării legislației în domeniul prevenirii și combaterii violenței domestice prin introducerea unor măsuri eficiente, nu doar pentru protecția victimelor, ci și pentru agresori.Actul normativ propus în prezent răspunde acestor solicitări și este de natură să genereze o mai bună intervenție, consolidarea cu celeritate a cadrului legal național și aplicarea efectivă și eficientă a legii, creând totodată premisa respectării angajamentelor naționale și europene prin abordarea centrată pe dezvoltarea de politici specifice în domeniul egalității de șanse și de tratament între femei și bărbați și cel al prevenirii și combaterii violenței domestice și a violenței împotriva femeilor.O altă direcție strategică importantă de urmat prin adoptarea actului normativ este generată de necesitatea asigurării respectării drepturilor fundamentale ale femeilor în Uniunea Europeană prin transpunerea Directivei (UE) nr. 1385/2024 a Parlamentului European și Consiliului Europei privind combaterea violenței împotriva femeilor și a violenței domestice, care urmărește să asigure respectarea drepturilor fundamentale privind egalitatea de tratament și nediscriminarea între femei și bărbați.Prezentul proiect de act normativ vizează reconfigurarea cadrului instituțional prin trecerea unui organ de specialitate al administrației publice centrale, cu personalitate juridică, Agenția Națională pentru Egalitatea de Șanse între Femei și Bărbați, din subordinea Guvernului și din coordonarea prim-ministrului, prin Cancelaria Prim-Ministrului în subordinea Ministerului Muncii, Familiei, Tineretului și Solidarității Sociale, care să asigure gestionarea domeniilor sus-menționate. |
+| --- |
+| 2.3. Schimbări preconizateI. Proiectul de act normativ vizează, trecerea Agenției Naționale pentru Egalitatea de Șanse între Femei și Bărbați din subordinea Guvernului și din coordonarea prim-ministrului, prin Cancelaria Prim-Ministrului în subordinea Ministerului Muncii, Familiei, Tineretului și Solidarității Sociale. În aceșt sens; |
+
+| schimbările preconizate au în vedere întărirea cadrului legislativ și instituțional în domeniul egalității de șanse între femei și bărbați și prevenirii și combaterii violenței domestice, prin: |
+| --- |
+| - crearea premiselor necesare pentru adoptarea cu celeritate a proiectului de lege privind modificarea și completarea Legii nr. 217/2003 pentru prevenirea și combaterea violenței domestice cu modificările și completările ulterioare, care instituie măsuri complexe, specifice și adaptate nevoilor victimelor violenței domestice ( ex: pachet de sprijin personalizat pentru victime, crearea unei noi ocupații - asistent de sprijin pentru victime, care să acționeze, la nivel de rețea națională, în situațiile de primă intervenție, furnizând accompaniere, sprijin și oientare victimelor aflate în pericol iminent, finanțarea unor programe de interes național), |
+| - întărirea capacității de intervenție a Liniei Telefonice Naționale HELPLINE – 0800 500 333 destinate victimelor violenței domestice, discriminării pe criteriul de sex și traficului de persoane, de la nivelul ANES, prin extinderea numărului de consilieri, |
+| - dezvoltarea și consolidarea serviciilor sociale din domeniul de competență al ANES, prin alocarea de resurse financiare de la bugetul de stat pentru: |
+| a) finanțarea programelor de interes national( PIN), elaborate de Ministerul Muncii, Familiei Tineretului și Solidarității Sociale, aprobate prin hotărâre a Guvernului, la propunerea ANES; |
+| b) finanțarea programelor de subvenționare a furnizorilor privați de servicii sociale, derulate de Ministerul Muncii, Familiei, Tineretului și Solidarității Sociale; |
+| c) finanțarea înființării unor structuri/programe de asistență specializată integrată - pilot, în condițiile legii; |
+| e) cofinanțarea serviciilor sociale, în baza protocoalelor, contractelor și convențiilor de parteneriat, încheiate conform legii; |
+| f) contractarea, în condițiile legii, a serviciilor specializate pentru victimele violenței domestice, de la furnizori privați. |
+
+| 2.4. Alte informațiiNu este cazul. |
+| --- |
+| Secțiunea a 3-aImpactul socio economic |
+| 3.1. Descrierea generală a beneficiilor și costurilor estimate ca urmare a intrării în vigoare a actului normativProiectul de act normativ nu se referă la acest subiect. |
+| 3.2. Impactul socialÎn ceea ce privește măsurile de reglementare privind reconfigurarea cadrului instituțional acestea vor asigura eficientizarea mecanismelor, măsurilor de sprijin și serviciilor sociale și specializate în domeniile: egalității de șanse și de tratament între femei și bărbați, prevenirii și combaterii violenței domestice și violenței împotriva femeilorÎn acest mod se va asigura o reglementare eficientă având ca prioritate esențială, nu doar abordarea centrată pe nevoile victimelor violenței domestice și violenței împotriva femeilor, ci și aplicarea și respectarea principiului egalității de șanse și de tratament între femei și bărbați, prevăzut de convențiile specifice și de directivele europene.Totodată, reglementările propuse vor avea un impact social profund prin dezvoltarea serviciilor sociale destinate victimelor violenței domestice și violenței împotriva femeilor/supraviețuitorilor acestor fapte, prin asigurarea urgentă a cofinanțării naționale pentru accesarea rapidă a finanțărilor nerambursabile existente în prezent în cadrul Programului Incluziune și Demnitate Socială, Prioritatea 8, Acțiunea 8.2. Servicii integrate pentru alte categorii de grupuri vulnerabile.De asemenea, unificarea și sistematizarea legislației specifice va asigura integrarea principiului egalității de șanse între femei și bărbați în toate politicile publice și intervențiile specifice viitoare, în conformitate cu prevederile convențiilor internaționale, directivelor Uniunii Europene și recomandărilor OECD, cu efecte |
+
+| benefice, nu doar pentru femei, ci pentru întreaga societate, ca factor catalizator pentru progresul social și asigurarea unui climat de incluziune și democrație socială.Astfel, reglementările propuse vor contribui la depășirea actualelor provocări ale sociețății legate de menținerea unei stări permanente de pericol și incertitudine pentru multe dintre victime și de accentuarea inegalităților dintre femei și bărbați și la susținerea de servicii integrate și adaptarea acestora la profilul victimelor și la dinamica nevoilor acestora. |
+| --- |
+| 3.3. Impactul asupra drepturilor și libertăților fundamentale ale omuluiProiectul de act normativ nu se referă la acest subiect. |
+| 3.4. Impact macroeconomicProiectul de act normativ nu se referă la acest subiect. |
+| 3.4.1. Impactul asupra economiei și asupra principalilor indicatori macroeconomiciProiectul de act normativ nu se referă la acest subiect. |
+| 3.4.2. Impactul asupra mediului concurențial și domeniul ajutoarelor de statProiectul de act normativ nu se referă la acest subiect. |
+| 3.5. Impact asupra mediului de afaceriProiectul de act normativ nu se referă la acest subiect. |
+| 3.6. Impactul asupra mediului înconjurătorProiectul de act normativ nu se referă la acest subiect. |
+| 3.7. Evaluarea costurilor și beneficiilor din perspectiva inovării și digitalizăriiProiectul de act normativ nu se referă la acest subiect. |
+| 3.8. Evaluarea costurilor și beneficiilor din perspectiva dezvoltării durableProiectul de act normativ nu se referă la acest subiect. |
+| 3.9. Alte informațiiNu este cazul. |
+
+<table>
+<tbody>
+<tr><td colspan="7">Secțiunea a 4-aImpactul financiar asupra bugetului general consolidat,atât pe termen scurt, pentru anul curent, cât și pe termen lung (pe 5 ani),inclusiv informații cu privire la cheltuieli și venituri</td></tr>
+<tr><td colspan="7">- în mii lei (RON) -</td></tr>
+<tr><td>Indicatori</td><td>Anul curent</td><td colspan="4">Următorii patru ani</td><td>Media pepatru ani</td></tr>
+<tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr>
+<tr><td>1. Modificări ale veniturilor bugetare, în plus/minus, din care:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>1. buget de stat, din acesta:1. impozit pe profit2. impozit pe venit</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>1. bugete locale1. impozit pe profit</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>1. bugetul asigurărilor sociale de stat:1. contribuții de asigurări</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>d) alte tipuri de venituri(Se va menționa natura acestora.)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.2. Modificări ale cheltuielilor bugetare, în plus, din care:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>1. buget de stat, din acesta:1. cheltuieli de personal2. bunuri și servicii</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>1. bugete locale:1. cheltuieli de personal</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr><td>2. bunuri și servicii</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>1. bugetul asigurărilor sociale de stat:1. cheltuieli de personal2. bunuri și servicii</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>d) alte tipuri de cheltuieli (Se va menționa natura acestora.)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.3. Impact financiar, plus/minus, din care:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>a) buget de stat</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>b) bugete locale</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.4. Propuneri pentru acoperirea creșterii cheltuielilor bugetare</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.5. Propuneri pentru a compensa reducerea veniturilor bugetare</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.6. Calcule detaliate privind fundamentarea modificărilor veniturilor și/sau cheltuielilor bugetare</td><td colspan="6">Aplicarea prevederilor prezentului proiect de act normativ nu au impact financiar.</td></tr>
+<tr><td colspan="7">4.7. Prezentarea, în cazul proiectelor de acte normative a căror adoptare atrage majorarea cheltuielilor bugetare, a următoarelor documente:1. fișa financiară prevăzută la art. 15 din Legea nr. 500/2002 privind finanțele publice, cu modificările și completările ulterioare, însoțită de ipotezele și metodologia de calcul utilizată;Nu este cazul.</td></tr>
+</tbody>
+</table>
+
+| 2. declarație conform căreia majorarea de cheltuială respectivă este compatibilă cu obiectivele și prioritățile strategice specificate în strategia fiscal-bugetară, cu legea bugetară anuală și cu plafoanele de cheltuieli prezentate în strategia fiscal-bugetară. Nu este cazul. |
+| --- |
+| 4.8. Alte informațiiNu este cazul. |
+| Secțiunea a 5-aEfectele proiectului de act normativ asupra legislației în vigoare |
+| 5.1. Măsuri normative necesare pentru aplicarea prevederilor proiectului de act normativ:a) acte normative ce vor fi modificate/abrogate ca urmare a intrării în vigoare a proiectului de act normativ:1. Hotărârea Guvernului nr. 29/2025 privind organizarea și funcționarea Ministerului Muncii, Familiei, Tineretului și Solidarității Sociale2. Hotărârea Guvernului nr. 177/2016 privind organizarea și funcționarea Agenției Naționale pentru Egalitatea de Șanse între Femei și Bărbați, publicată în Monitorul Oficial al României, Partea I, nr. 227 din 28 martie 2016, cu modificările și completările ulterioare.3. |
+| 5.2. Impactul asupra legislației în domeniul achizițiilor publicea) descrierea impactului legislativ - prevederi de modificare și completare a cadrului normativ în domeniul achizițiilor publice, prevederi derogatorii;b) prezentarea normelor cu impact la nivel operațional/tehnic - sisteme electronice utilizate în desfășurarea procedurilor de achiziție publică, unități centralizate de achiziții publice, structură organizatorică internă a autorităților contractante.Proiectul de act normativ nu se referă la acest subiect. |
+| 5.3. Conformitatea proiectului de act normativ cu legislația UE (în cazul proiectelor ce transpun sau asigură aplicarea unor prevederi de drept-UE)5.3.1. Măsuri normative necesare transpunerii directivelor UE |
+
+| 5.3.2. Măsuri normative necesare aplicării actelor legislative UEProiectul de act normativ nu se referă la acest subiect. |
+| --- |
+| 5.4. Hotărâri ale Curții de Justiție a Uniunii EuropeneProiectul de act normativ nu se referă la acest subiect. |
+| 5.5. Alte acte normative și sau documente internaționale din care decurg angajamente asumateProiectul de act normativ nu se referă la acest subiect. |
+| 5.6. Alte informațiiNu este cazul. |
+| Secțiunea a 6-aConsultările efectuate în vederea elaborării proiectului de act normativ |
+| 6.1. Informații privind neaplicarea procedurii de participare la elaborarea actelor normativePrezentul proiect de act normativ se încadrează în prevederile art. 7 alin. (13) din Legea nr. 52/2003 privind transparentă decizională în administrația publică, republicată. |
+| 6.2. Informații privind procesul de consultare cu organizațiile neguvernamentale, institute de cercetare și alte organisme implicate.Proiectul de act normativ nu se referă la acest subiect. |
+| 6.3. Informații despre consultările organizate cu autoritățile administrației publice locale.Nu este cazul. |
+| 6.4. Informații privind puncte de vedere/opinii emise de organisme consultative constituite prin acte normativeProiectul nu se referă la acest subiect. |
+| 6.5. Informații privind avizarea de către:a) Consiliul Legislativb) Consiliul Suprem de Apărare a Țării c) Consiliul Economic și Social |
+
+*Documentul are 14 pagini; am citit primele 12.*

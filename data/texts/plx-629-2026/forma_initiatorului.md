@@ -1,0 +1,61 @@
+# LEGE pentru completarea Legii nr. 360/2023 privind sistemul public de pensii Parlamentul României adoptă prezenta lege.
+
+## Art. I
+
+Legea nr. 360/2023 privind sistemul public de pensii, publicată în Monitorul Oficial al României, Partea I, nr. 1089 din 4 decembrie 2023, cu modificările și completările ulterioare, se completează după cum urmează:
+
+1\. La articolul 27, după alineatul (4) se introduc patru noi alineate, alin. (4¹)-(4⁴), cu următorul cuprins:
+
+(4¹) Beneficiază de încadrarea în locuri de muncă în condiții deosebite, până la data de 1 ianuarie 2035, și persoanele care desfășoară activitate de conducător auto profesionist în transportul rutier de mărfuri sau de persoane, în calitate de lucrători mobili, pentru vehicule ori ansambluri de vehicule care intră sub incidența Regulamentului (CE) nr. 561/2006 al Parlamentului European și al Consiliului, cu modificările ulterioare, sau, după caz, a Acordului european privind activitatea echipajelor vehiculelor care efectuează transporturi rutiere internaționale — AETR, dacă activitatea este exercitată efectiv, în mod permanent sau preponderent, ca atribuție principală a postului.
+
+(4²) În sensul alin. (4¹), prin conducător auto profesionist se înțelege persoana care desfășoară, în baza unui contract individual de muncă sau a unui raport juridic asimilat acestuia potrivit legii, activitate de conducere auto în transport rutier de mărfuri sau de persoane, național ori internațional, deținând permisul de conducere, atestatele, certificatele, autorizațiile ori calificările profesionale prevăzute de legislația în vigoare pentru categoria de transport efectuată.
+
+(4³) Încadrarea prevăzută la alin. (4¹) se acordă numai pentru perioadele în care activitatea de conducător auto profesionist a fost desfășurată efectiv, iar pentru locul de muncă respectiv se datorează contribuția de asigurări sociale corespunzătoare condițiilor deosebite de muncă, potrivit Codului fiscal.
+
+(4⁴) Nu beneficiază de încadrarea prevăzută la alin. (4¹) persoanele care desfășoară activitate de conducere auto ocazională, auxiliară sau accesorie altor atribuții principale, persoanele care conduc vehicule exceptate de la aplicarea Regulamentului (CE) nr. 561/2006 sau a AETR, precum și personalul administrativ, logistic ori de coordonare care nu desfășoară efectiv activitate de conducător auto profesionist în condițiile prezentei legi.
+
+2\. După articolul 27 se introduce un nou articol, art. 27¹, cu următorul cuprins:
+
+Art. 27¹ - (1) Stagiul de cotizare realizat în activitatea prevăzută la art. 27 alin. (4¹) se valorifică drept stagiu de cotizare realizat în condiții deosebite de muncă, în condițiile prezentei legi.
+
+(2) Beneficiile prevăzute de prezenta lege pentru stagiile realizate în condiții deosebite de muncă se acordă proporțional cu perioada efectiv lucrată ca șofer profesionist în condițiile art. 27 alin. (41).
+
+(3) Dovada stagiului realizat în condițiile art. 27 alin. (41) se face prin documente emise potrivit legii, inclusiv prin contractul individual de muncă, extrasul din registrul general de evidență a salariaților, fișa postului, adeverința eliberată de angajator, documentele privind plata contribuțiilor de asigurări sociale aferente condițiilor deosebite, documentele de calificare profesională, evidențele privind timpul de muncă, documentele tahografice, foile de parcurs, documentele de transport și orice alte înscrisuri prevăzute prin normele metodologice.
+
+(4) Perioadele în care persoana a deținut permis de conducere, atestat profesional, certificat de competență profesională sau alte documente similare, fără a desfășura efectiv activitate de conducător auto profesionist în condițiile art. 27 alin. (4¹), nu constituie stagiu de cotizare realizat în condiții deosebite de muncă.
+
+(5) Angajatorii care au locuri de muncă încadrate potrivit art. 27 alin. (41) au obligația de a evidenția distinct, în documentele de muncă și în declarațiile fiscale, perioadele lucrate de salariați în condiții deosebite de muncă, cu respectarea legislației privind contribuțiile de asigurări sociale.
+
+(6) Procedura de dovedire, evidențiere și valorificare a stagiiilor realizate potrivit art. 27 alin. (41), precum și modelul adeverinței eliberate de angajator se stabilesc prin normele metodologice de aplicare a prezentei legi."
+
+## Art. II
+
+În termen de 90 de zile de la data publicării prezentei legi în Monitorul Oficial al României, Partea I, Guvernul, la propunerea Ministerului Muncii, Familiei, Tineretului și Solidarității Sociale, a Ministerului Transporturilor și Infrastructurii, a Casei Naționale de Pensii Publice, a Inspecției Muncii și a Autorității Rutiere Române, va modifica și completa normele metodologice de aplicare a Legii nr. 360/2023 privind sistemul public de pensii, în vederea aplicării prezentei legi.
+
+## Art. III
+
+(1) Prezenta lege se aplică stagiilor de cotizare realizate după data intrării sale în vigoare.
+
+(2) În termen de 12 luni de la data intrării în vigoare a prezentei legi, Guvernul va prezenta Parlamentului un raport privind posibilitatea valorificării, ca stagii realizate în condiții deosebite de muncă, a perioadelor anterioare intrării în vigoare-a prezentei legi în care persoanele au desfășurat efectiv activitate de conducător auto profesionist în transportul rutier de mărfuri sau de persoane.
+
+(3) Raportul prevăzut la alin. (2) va cuprinde cel puțin analiza evidențelor existente la nivelul angajatorilor, al caselor territoriale de pensii, al autorităților cu atribuții în domeniul transporturilor rutiere, al Inspecției Muncii și al organelor fiscale, precum și impactul bugetar estimat al eventualei valorificări a acestor perioade.
+
+(4) Pe baza raportului prevăzut la alin. (2), Guvernul poate iniția un proiect de act normativ privind condițiile, limitele și procedura de valorificare a perioadelor anterioare intrării în vigoare a prezentei legi.
+
+## Art. IV
+
+Prezenta lege intră în vigoare la 90 de zile de la data publicării în Monitorul Oficial al României, Partea I.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art.75 și ale art.76 alin.(1) din Constituția României, republicată.
+
+PREȘEDINTE
+
+CAMERA DEPUTAȚILOR
+
+GRINDEANU SORIN-MIHAI
+
+PREȘEDINTE
+
+SENATUL ROMÂNIEI
+
+ABRUDEAN MIRCEA

@@ -1,0 +1,19 @@
+## EXPUNERE DE MOTIVE
+
+Agenția Domeniilor Statului are în derulare contractul de finanțară 253040/14.06.2024 aferent Planului Național de Redresare și Reziliență \<\< PNRR>> Componenta 16 "RePowerEu", Reforma 1 "Crearea unui cadru juridic pentru utilizarea terenurilor aflate în proprietatea statului ca zone de accelerare pentru investițiile în sursele regenerabile de energie".
+
+În conformitate cu Hotărârea Guvernului nr. 207/2024 pentru modificarea anexei la Hotărârea Guvernului nr. 1.235/2022 privind aprobarea distribuției bugetului aferent reformelor și investițiilor finanțate prin Planul național de redresare și reziliență al României pentru fiecare coordonator de reformă și/sau investiții, valoarea totală alocată este de 3.011.752 euro, asistență financiară nerambursabilă.
+
+În vederea îndeplinirii Jalonului nr. 508 "Consolidarea capacitaților Agenției Domeniilor Statului \<\<ADS>>" se impune necesitatea achiziționării unui număr de 4 autoutilitare, pentru activități specifice, care să permită desfășurarea procesului de inventariere a terenurilor, destinate zonelor de accelerare RES, în condiții optime.
+
+Obiectivul Componentei 16 "RePoweEu", finanțată de către Comisia Europenă în cadrul pachetului NextGenerationEU, este de a crește reziliența și independența energetică a României prin creșterea ponderii producției de energie electrică din surse regenerabile (în principal solar și eolian) atât la persoanele fizice, cât și la operatori economici, decarbonizarea sectorului rezidențial prin creșterea eficienței energetice a clădirilor, dezvoltarea și digitalizarea capacităților de transport, precum și, calificarea resurselor umane în raport cu cerințele specifice sectorului de energie regenerabilă.
+
+Având în vedere faptul că unele dintre terenurile aflate în administrarea Agenției Domeniilor Statului sunt situate la înălțimi geografice mari, în locuri greu de ajuns, de traversat portțiuni mlăștinoase, pentru a ajunge să se efectueze măsurătorile necesare și să se inventarieze calitatea solului terenurilor aflate în administrarea sa, dotarea Agenției Domeniilor Statului trebuie să îndeplinească condiții optime pentru monitorizare. În acest context, în cadrul jalonului 508, se vor achiziționa drone performante ce pot realiza măsurători în zone greu accesibile, precum și autovehicule de transport pentru echipele din teren responsabile cu realizarea măsurătorilor și identificarea terenurilor degradate.
+
+Prin prezentul act normativ se stabilește modificarea normativului de masini prin înlocuirea a patru autoturisme cu 4 autoutilitare și diminuarea corespunzătoare a numărului de autoturisme pentru activități specifice, numărul total alocat ADS ramânând nemodificat.
+
+Inițiator: Tânczos Barna - Senator UDMR
+
+| NR | SENATOR/DEPUTAT | GRUPPARLAMENTAR | SEMNĂTURĂ |
+| --- | --- | --- | --- |
+| 1 | TÂNCZOS BARNA | UDMR |  |

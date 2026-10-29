@@ -1,0 +1,110 @@
+# Proiect de Lege pentru modificarea și completarea Legii nr. 189/1999 privind exercitarea inițiativei legislative de către cetățeni
+
+## EXPUNERE DE MOTIVE
+
+## I. Contextul legislativ actual
+
+Legea nr. 189/1999 reglementează procedura prin care cetățenii își pot exercita dreptul constituțional de inițiativă legislativă, prevăzut la art. 74 din Constituția României. Actul normativ a fost adoptat într-un context tehnologic și juridic diferit de cel actual, anterior aderării României la Uniunea Europeană și înainte de adoptarea cadrului european privind protecția datelor și identitatea digitală.
+
+## II. Problemele identificate
+
+În forma actuală, Legea nr. 189/1999 prezintă o serie de vulnerabilități:
+
+\- lipsa unor dispoziții exprese privind protecția datelor cu caracter personal, în condițiile în care se colectează date sensibile precum CNP, domiciliu și serie de act de identitate;
+
+\- imposibilitatea utilizării semnăturii electronice, deși aceasta este recunoscută legal la nivel național și european;
+
+\- procedura fragmentată de verificare a susținerilor, realizată prin autorități locale, fără existența unei validări unitare și neutre.
+
+## III. Necesitatea și oportunitatea reglementării
+
+Modificarea și completarea Legii nr. 189/1999 este necesară pentru a asigura exercitarea efectivă și sigură a unui drept constituțional fundamental. Introducerea unor reguli clare privind protecția datelor, precum și utilizarea semnăturii electronice calificate contribuie la creșterea încrederii cetățenilor și la reducerea riscurilor administrative și juridice.
+
+## IV. Soluțiile propuse
+
+## Proiectul de lege propune:
+
+1\. instituirea unui cadru explicit de protecție a datelor cu caracter personal, în conformitate cu Regulamentul (UE) 2016/679 (GDPR);
+
+2\. posibilitatea utilizării semnăturii electronice calificate, ca alternativă la semnătura olografă, în procedura de susținere a inițiativei legislative;
+
+3\. atribuirea competenței de validare a susținerilor exprimate electronic Autorității Electorale Permanente, autoritate care deține evidența cetățenilor cu drept de vot.
+
+V. Impactul socio-economic și bugetar
+
+Proiectul de lege nu modifică pragurile constituționale privind inițiativa legislativă cetățenească și nu generează costuri bugetare semnificative. Implementarea soluțiilor propuse se poate realiza prin utilizarea infrastructurilor existente ale autorităților publice implicate.
+
+VI. Concluzii
+
+Prezenta inițiativă legislativă are caracter tehnic și procedural și urmărește modernizarea unui mecanism constituțional esențial pentru participarea civică. Adoptarea proiectului contribuie la alinierea legislației naționale la standardele europene și la facilitarea implicării cetățenilor în procesul legislativ.
+
+Inițiator:
+
+Deputat Coarnă Dumitru
+
+## NOTĂ DE OPORTUNITATE
+
+Modernizarea exercitării inițiativei legislative cetățenești
+
+## Situația actuală
+
+Legea nr. 189/1999 reglementează exercitarea inițiativei legislative de către cetățeni într-un cadru procedural conceput înainte de aderarea României la Uniunea Europeană. În forma actuală, legea:
+
+\- nu conține dispoziții privind protecția datelor cu caracter personal, deși presupune colectarea masivă de date sensibile;
+
+\- nu permite utilizarea semnăturii electronice, deși aceasta este recunoscută legal la nivel național și european;
+
+\- fragmentează procedura de validare a susținerilor între autorități locale, fără o autoritate neutră centrală.
+
+## Problema
+
+Procedura actuală îngreunează exercitarea unui drept constituțional, creează vulnerabilități privind protecția datelor cu caracter personal și descurajează participarea civică.
+
+## Soluția propusă
+
+Proiectul de lege propune:
+
+1\. introducerea unui cadru clar de protecție a datelor cu caracter personal, în conformitate cu Regulamentul (UE) 2016/679 (GDPR);
+
+2\. posibilitatea utilizării semnăturii electronice calificate, ca alternativă la semnătura olografă;
+
+3\. atribuirea competenței de validare a susținerilor electronice Autorității Electorale Permanente.
+
+## Impact
+
+Inițiativa legislativă:
+
+\- nu modifică pragurile constituționale privind inițiativa cetățenească;
+
+\- nu elimină procedurile existente, ci le completează;
+
+\- nu generează costuri bugetare semnificative;
+
+\- contribuie la alinierea legislației naționale la standardele europene.
+
+## Concluzie
+
+Inițiativa are caracter tehnic și procedural, nu ideologic, și urmărește modernizarea unui mecanism constituțional fundamental, în beneficiul cetățenilor și al instituțiilor statului.
+
+## Tabel semnături- PROIECT DE LEGE pentru modificarea și completarea Legii nr. 189/1999 privind exercitarea inițiativei legislative de către cetățeni
+
+<table>
+<tbody>
+<tr><td>Nr.crt.</td><td>NUME ȘI PRENUME</td><td>GRUPPARLAMENTAR</td><td rowspan="4">SEMNĂTURA</td></tr>
+<tr><td>1.</td><td>COARNĂ DUMITRU</td><td>NEAFILIAȚI</td></tr>
+<tr><td>2.</td><td></td><td></td></tr>
+<tr><td>3.</td><td></td><td></td></tr>
+<tr><td>4.</td><td></td><td></td><td></td></tr>
+<tr><td>5.</td><td></td><td></td><td></td></tr>
+<tr><td>6.</td><td></td><td></td><td></td></tr>
+<tr><td>7.</td><td></td><td></td><td></td></tr>
+<tr><td>8.</td><td></td><td></td><td></td></tr>
+<tr><td>9.</td><td></td><td></td><td></td></tr>
+<tr><td>10.</td><td></td><td></td><td></td></tr>
+<tr><td>11.</td><td></td><td></td><td></td></tr>
+<tr><td>12.</td><td></td><td></td><td></td></tr>
+<tr><td>13.</td><td></td><td></td><td></td></tr>
+<tr><td>14.</td><td></td><td></td><td></td></tr>
+<tr><td>15.</td><td></td><td></td><td></td></tr>
+</tbody>
+</table>

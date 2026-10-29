@@ -1,0 +1,101 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+## LEGE
+
+pentru modificarea și completarea Legii nr.53/2003 - Codul muncii
+
+## Senatul adoptă prezentul proiect de lege
+
+Art.I.- Legea nr.53/2003 - Codul muncii, republicată în Monitorul Oficial al României, Partea I, nr.345 din 18 mai 2011, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+## 1. La articolul 5, alineatul (2) se modifică și va avea următorul cuprins:
+
+„(2) Orice discriminare directă sau indirectă față de un salariat, discriminare prin asociere sau faptă de victimizare, bazată pe criteriul de rasă, cetățenie, etnie, culoare, limbă, religie, origine socială, trăsături genetice, gen, sex, orientare sexuală, vârstă, handicap, boală cronică necontagioasă, infectare cu HIV, opțiune politică, situație sau responsabilitate familială, apartenență ori activitate sindicală, apartenență la o categorie defavorizată, este interzisă.”
+
+2\. La articolul 5, alineatul (5) se abrogă.
+
+3\. La articolul 5, după alineatul (5) se introduc patru noi alineate, alin.(5¹)- (5⁴), cu următorul cuprins:
+
+„(5¹) Violența și hărțuirea în domeniul raporturilor de muncă sunt interzise, indiferent dacă au sau nu legătură cu un criteriu de discriminare, și se referă la comportamente și practici inacceptabile sau amenințări cu comportamente și practici inacceptabile, indiferent dacă au loc în mod izolat sau repetat, care lezează demnitatea unei persoane sau duc la crearea unui mediu intimidant, ostil, degradant, umilitor sau ofensator sau au scopul de a genera, generează sau pot genera un prejudiciu fizic, psihologic, sexual sau economic.
+
+(5²) Violența și hărțuirea în domeniul raporturilor de muncă sau care apar pe parcursul muncii, în legătură cu sau care rezultă din muncă pot avea loc, inclusiv, dar fără a se limita la:
+
+a) la locul de muncă, inclusiv în spații publice și private atunci când acestea constituie un loc de muncă;
+
+b) în locurile în care salariatul este plătit, se odihnește, mănâncă sau folosește grupurile sanitare, instalațiile pentru spălare și vestiare;
+
+c) în timpul deplasărilor în interes de serviciu, precum și în timpul instruirii, formării, evenimentelor ori activităților sociale desfășurate în legătură cu munca;
+
+d) prin intermediul comunicărilor legate de muncă, inclusiv cele efectuate prin tehnologia informației și comunicațiilor;
+
+e) în spațiile de cazare puse la dispoziție de angajator;
+
+f) pe durata efectuării deplasării către și dinspre locul de muncă.
+
+(5³) Violența și hărțuirea în domeniul raporturilor de muncă sunt interzise în toate situațiile în care astfel de fapte sunt exercitate asupra unui salariat de către un alt salariat, de un membru al organelor de conducere sau de control ale angajatorului, indiferent de existența unei relații ierarhice sau de colaborare, precum și de către alte persoane terțe cu care salariatul intră în contact în desfășurarea activităților sale care au legătură cu munca.
+
+(5⁴) Dispozițiile alin.(5¹) - (5³) se aplică fără a aduce atingere regimului juridic al hărțuirii ca formă de discriminare.”
+
+## 4. La articolul 40 alineatul (2), după litera j) se introduce o nouă literă, lit.k), cu următorul cuprins:
+
+„k) oferirea de informații, instruire și formare a salariaților și altor participanți prevăzuți la art.5 lit.c) din Legea securității și sănătății în muncă nr. 319/2006, cu modificările și completările ulterioare, în formate accesibile și adecvate, cu privire la pericolele și riscurile identificate de producere a violenței și hărțuirii și cu privire la măsurile de prevenție și protecție asociate, inclusiv cu privire la drepturile și responsabilitățile salariaților și altor participanți la procesul de muncă prevăzuți la art.5 lit.c) din Legea nr.319/2006, cu modificările și completările ulterioare, prin raportare la legislația incidentă în domeniu.”
+
+5\. După articolul 40 se introduce un nou articol, art.40¹, cu următorul cuprins:
+
+„Art.40¹.- (1) Angajatorul are obligația să dispună toate măsurile necesare în vederea asigurării protecției victimelor violenței și hărțuirii și persoanelor care reclamă fapte de hărțuire sau violență, prevăzute la art.5 alin.(5¹) - (5³) împotriva oricăror abuzuri sau presiuni exercitate împotriva lor.
+
+(2) Angajatorul are obligația de a proteja dreptul la viață privată al persoanelor implicate și confidențialitatea derulării procedurilor privind prevenirea, sesizarea, investigarea și soluționarea cazurilor de violență și hărțuire în domeniul raporturilor de muncă.
+
+(3) În situația în care există un pericol iminent și grav pentru viața, sănătatea sau siguranța salariaților din cauza violenței și hărțuirii, angajatorul, acolo unde este posibil, poate modifica temporar locul sau felul muncii cu acordul salariatului, corespunzător pregătirii profesionale a salariatului, cu respectarea condițiilor generale și specifice de ocupare a postului, care să-i asigure securitatea și sănătatea la locul de muncă.
+
+(4) În cazul victimei hărțuirii și violenței în domeniul raporturilor de muncă, modificarea locului sau felului muncii conform alin.(3) se poate realiza în baza cererii salariatului.
+
+(5) În cazul în care există un pericol iminent și grav pentru viața, sănătatea sau siguranța salariaților din cauza violenței și hărțuirii, acolo unde nu este posibilă modificarea locului sau felului muncii, conform alin.(3), inclusiv în situația în care nu este posibilă prestarea muncii în regim de telemuncă, angajatorul acordă zile libere plătite pentru salariații victime ale violenței și hărțuirii. Conditțiile de acordare a acestora și numărul de zile libere avute în vedere sunt stabilite în regulamentul intern sau negotiate în contractul colectiv de muncă.”
+
+6\. La articolul 175, alineatul (1) se modifică și va avea următorul cuprins: „Art.175.- (1) Angajatorul are obligația să asigure securitatea și sănătatea lucrătorilor în toate aspectele legate de muncă, inclusiv prin identificarea, evaluarea și prevenirea riscurilor de violență și hărțuire în domeniul raporturilor de muncă, precum și prin adoptarea măsurilor necesare pentru combaterea acestora.”
+
+7\. La articoluri 177, anineatur (1) se modifica și va avea urinatorul cupris. „Art.177.- (1) În cadrul propriilor responsabilități, angajatorul ia măsurile necesare pentru protejarea securității și sănătății salariaților, pentru prevenirea riscurilor profesionale, a riscurilor fizice, sexuale și psihosociale asociate violenței și hărțuirii în legătură cu munca, inclusiv a violenței de gen și hărțuirii sexuale, prin acțiuni de informare și pregătire, precum și prin punerea în aplicare a organizării securității și sănătății în muncă și mijloacelor necesare acesteia.”
+
+8\. La articolul 177, după alineatul (1) se introduce un nou alineat, alin.(1¹), cu următorul cuprins:
+
+„(1¹) Angajatorii au obligația de a desemna cel puțin un angajat căruia să-i repartizeze, prin fișa postului, și atribuții în domeniul prevenirii și combaterii violenței și hărțuirii în domeniul raporturilor de muncă.”
+
+9\. La articolul 177 alineatul (2), partea introductivă și literele a) - c) și g) se modifică și vor avea următorul cuprins:
+
+„(2) La adoptarea și punerea în aplicare a măsurilor prevăzute la alin.(1) și (1¹), se respectă următoarele principii generale de prevenire:
+
+a) evitarea riscurilor, inclusiv a riscurilor psihosociale associate violenței și hărțuirii în legătură cu munca, a violenței de gen și a hărțuirii sexuale;
+
+b) evaluarea riscurilor care nu pot fi evitate, inclusiv a riscurilor psihosociale asociate violenței și hărțuirii în legătură cu munca, a violenței de gen și a hărțuirii sexuale;
+
+c) combaterea riscurilor la sursă, inclusiv a riscurilor psihosociale associate violenței și hărțuirii în legătură cu munca, a violenței de gen și a hărțuirii sexuale;
+
+g) planificarea prevenirii, inclusiv a riscurilor identificate de producere a violenței și hărțuirii, inclusiv a violenței de gen și a hărțuirii sexuale, precum și cu privire la măsurile de prevenție și protecție asociate;"
+
+10\. După articolul 237 se introduc două noi articole, art.237¹ și 237², cu următorul cuprins:
+
+„Art.237¹.- Monitorizarea și controlul respectării legislației referitoare la violența și hărțuirea în domeniul raporturilor de muncă stabilite prin prezentul cod sau legi speciale se realizează de Inspecția Muncii.
+
+Art.237².- (1) La nivelul instituțiilor și autorităților publice din cadrul sistemului național de apărare, ordine publică și securitate națională, monitorizarea și controlul respectării legislației referitoare la violența și hărțuirea în domeniul raporturilor de muncă sau de serviciu, reglementate prin prezentul cod sau prin legi speciale, se realizează de organe proprii de specialitate.
+
+(2) Pentru aplicarea prevederilor alin.(1), conducătorii instituțiilor și autorităților publice din cadrul sistemului național de apărare, ordine publică și securitate națională emit acte normative specifice referitoare la organizarea, funcționarea, atribuțiile și desfășurarea activităților de monitorizare și control privind violența și hărțuirea în domeniul raporturilor de muncă sau de serviciu.”
+
+## 11. La articolul 242, litera b) se modifică și va avea următorul cuprins:
+
+„b) reguli privind respectarea principiului nediscriminării, al înlăturării oricărei forme de încălcare a demnității și reguli privind prevenirea și combaterea violenței și hărțuirii în raportul de muncă;”
+
+12\. La articolul 260 alineatul (1), după litera u) se introduc două noi litere, lit.v) și w), cu următorul cuprins:
+
+„v) nerespectarea dispozițiilor prevăzute la art.40¹ alin.(1), cu amendă de la 30.000 lei la 50.000 lei.
+
+w) neacordarea de către angajator a zilelor libere prevăzute la art.40¹ alin.(5) în condițiile prevăzute în regulamentul intern sau în contractul colectiv de muncă aplicabil, cu amendă de la 30.000 lei la 50.000 lei."
+
+Art.II.- Prezenta lege intră în vigoare la 60 de zile de la data publicării în Monitorul Oficial al României, Partea I.
+
+Acest proiect de lege a fost adoptat de Senat în ședința din 16 februarie 2026, cu respectarea prevederilor articolului 76 alineatul (1) din Constituția României, republicată.
+
+PREȘEDINTELE SENATULUI
+
+MIRCEA ABRUDEAN

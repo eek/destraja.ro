@@ -1,0 +1,116 @@
+# EXPUNERE DE MOTIVE
+
+Legea nr. 360/2023 privind sistemul public de pensii stabilește cadrul legal aplicabil asiguraților din sistemul public, definind condițiile de acordare a prestațiilor de asigurări sociale în funcție de intervenția riscului asigurat și de realizarea unui stagiu de cotizare contributiv. Pe lângă sistemul public de pensii, există și alte sisteme de pensii, ca exemplu cel definit la art. 3 lit. p) sisteme proprii de asigurări sociale neintegrate sistemului public de pensii - sistemele de pensii ale căror organizare și funcționare sunt reglementate de alte acte normative.
+
+Constituția României la art. 47 alin. (1) prevede: ” (1) Statul este obligat să ia măsuri de dezvoltare economică și de protecție socială, de natură să asigure cetățenilor un nivel de trai decent. Cetățenii au dreptul la măsuri de asistență socială, potrivit legii.”
+
+Ipoteza care generează dificultăți o reprezintă situația asiguraților care, în decursul carierei, au contribuit la ambele tipuri de sisteme (public și neintegrat), în mod obligatoriu, în funcție de raporturile de muncă avute. Cu toate acestea, actuala reglementare conduce la nepermiterea cumulului efectiv al stagiiilor realizate:
+
+Deși art. 162 alin. (1) din Legea 360/2023 prevede că stagiile realizate în sistemele neintegrate „se recunosc reciproc (...) în vederea deschiderii drepturilor de pensie”, în practică:
+
+\- reducerea vârstei de pensionare (pentru condiții speciale, maternitate, dizabilitate etc.) se aplică doar pentru anii lucrați în sistemul public (art. 48 alin. 2);
+
+\- pentru pensia anticipată nu se iau în calcul cumulul stagiiilor din sisteme diferite;
+
+\- punctele de stabilitate nu se calculează pe baza contribuțiilor în sistemul neintegrate acestuia, fiind calculate doar contribuțiile din sistemul public de pensii.
+
+Raportat la cele de mai sus consider că există un tratament diferențiat între categorii de persoane comparabile, ipoteza care generează dificultăți în cazul asiguraților care au contribuit la ambele sisteme (public și neintegrat) în funcție de raporturile de muncă avute. Cu toate acestea, actuala reglementare conduce la nepermiterea cumulului efectiv al stagiilor realizate doar pentru deschiderea dreptului de pensie, astfel încât stagiul de cotizare valorificat este doar cel din sistemul public de pensii.
+
+Legiutitorul definește la art. 3 lit. r) stagiul de cotizare contributiv ca fiind "perioada de timp pentru care s-a datorat contribuții de asigurări sociale la sistemul public de pensii, precum și cea pentru care asigurații cu contract de asigurare socială au datorat și plătit contribuții de asigurări sociale la sistemul public de pensii". În aceste condiții, drepturile recunoscute asiguraților sunt asigurate în funcție de stagiul de cotizare contributiv, asigurații care, în baza principiului libertății muncii, au desfășurat activitate, fiind asigurați în sisteme diferite, pierd o serie de beneficii care ar trebui să fie recunoscute.
+
+Analizând beneficiile rezultate din prestarea muncii la locuri de muncă cu condiții deosebite și/sau speciale, se observă că asiguratul care a trecut prin mai multe sisteme de asigurare în viața sa profesională și a activat în fiecare dintre aceste sisteme la locuri de muncă cu condiții deosebite și/sau speciale, nu poate beneficia de reducerea vârstei de pensionare, astfel, conform art. 48 alin. (2) din Legea nr. 360/2022, persoanele care au realizat stagii de cotizare, atât în sistemul public de pensii, cât și în sisteme neintegrate acestuia, beneficiază de reducerea vârstelor standard de pensionare, în condițiile prevăzute la alin. (1) lit. a) și b), numai pentru stagiile de cotizare realizate în sistemul public de pensii.
+
+Cu titlu exemplificativ, dacă o persoană care a fost asigurată a Casei de Pensii a Bisericii Romano-Catolice, a contribuit 25 de ani, din care 15 ani a lucrat în condiții deosebite, ulterior a devenit asigurat al Casei Naționale de Pensii Publice, aceasta pierde beneficiul reducerii vârstei standard de pensionare cu 5 ani. Dacă persoana ar fi prestat activitatea în prima parte a vieții sale din câmpul muncii numai în cadrul sistemului public s-ar fi bucurat de reducerea vârstei standard de pensionare cu 5 ani.
+
+Este inadmisibil ca Norma de aplicare a legii să conțină erori sau neconcordanțe ca de exemplu: HG nr. 181/2024 privind Norma din 2024 de aplicare a Legii nr. 360/2023 privind sistemul public de pensii) „Art. 129 (1) Stagiile de cotizare, respectiv vechimea în muncă sau vechimea în serviciu efectiv realizată în sisteme neintegrate sistemului public de pensii, se au în vedere la deschiderea dreptului la pensie pentru limită de vârstă la împlinirea vârstei standard de pensionare prevăzute în anexa nr. 5 la lege și la deschiderea dreptului de pensie de invaliditate.”
+
+## iar
+
+Legea nr. 360/2023 "Art. 162 (1) Între sistemul public de pensii și sistemele proprii de asigurări sociale neintegrate acestuia se recunosc reciproc stagile de cotizare, respectiv vechimea în muncă sau vechimea în serviciu efectiv realizată, în vederea deschiderii drepturilor de pensie. În aceste situații, pensia din sistemul public de pensii se stabilește numai pentru perioadele de stagiu de cotizare realizate în acest sistem."
+
+Din articolele menționate mai sus, se poate concluziona că, sunt restrânse efectele recunoașterii doar la pensia pentru limită de vârstă și pensia de invaliditate, fără însă a include pensia anticipată, pensia cu reducere de vârstă pentru condiții speciale sau alte beneficii pentru persoanele din sistemele proprii de asigurări sociale neintegrate acestuia.
+
+Cu privire la alte beneficii reținem faptul că se acordă reducerea vârstei de pensionare:
+
+\- femeilor care au crescut/ingrijit mai mulți copii;
+
+\- persoanelor cu handicap;
+
+\- persoanelor beneficiare de drepturile reglementate de Decretul lege 118/1990 privind acordarea unor drepturi persoanelor persecutate din motive politice de dictatura instaurată cu începere de la 6 martie 1945, precum și celor deportate în străinătate ori constituite în prizonieri.
+
+Potrivit Legii nr. 360/2023 toate categoriile de persoane ar trebui să beneficieze de cumularea perioadelor contributive la nașterea dreptului de pensie, însă dispozițiile art. 129 alin. (1) din HG 181/2024, restrânge posibilitatea cumulării intervine doar pentru nașterea dreptului la pensie pentru limită vârstă, dacă sunt îndeplinite condițiile de vârstă standard la pensionare, fără a fi avute în vedere și excepțiile reglementate de lege.
+
+În cazul în care din sistemele neintegrate perioadele de contributivitate nu pot fi valorificate integral, riscul nu poate reveni cetățeanului asigurat, cu atât mai mult cu cât acesta nu a avut libertatea de a alege sistemul de asigurare, ci a fost obligat în contextul juridic sau profesional.
+
+Prezenta propunere legislativă este menită să rezolve inechitățile existente între persoanele care au realizat stagii de cotizare, atât în sistemul public de pensii, cât și în sisteme neintegrate acestuia, motiv pentru care este necesară modificarea Legii nr. 360/2023 privind sistemul public de pensii în ceea privește luarea în considerare a perioadei contributive indiferent de sistemul în care s-a plătit contribuția.
+
+Față de cele prezentate, supunem spre adoptare această propunere legislativă.
+
+Inițiatori,
+
+| Nr.crt. | Deputați/Senatori | Grupul parlamentar | Semhătură |
+| --- | --- | --- | --- |
+| 1. | Szabó Ödön | UDMR |  |
+| 2. | Cena Botard | UDMR |  |
+| 3. | Bude Samdar | UDMR |  |
+| 4. | Mak-ymr LORAHD -OA2m | UDMR |  |
+| 5. | VASS LEVENTE | UDMR |  |
+| 6. | NHEJ SHAYOC CS | UDMR |  |
+| 7. | MOLNAR ANDREI | UDMR |  |
+| 8. | AATODAN+STE-SDIGITTA | UDMR |  |
+| 9. | Gal Kavaly | UDMR |  |
+| 10. | HAGO GABOR | UDMR |  |
+| 11. | KÖNCEZI CSABA | UDMR |  |
+| 12. | 2AKARJAS 2QLTAN | UDMR |  |
+| 13. | MARK' ARTILA GABOR | UDMR |  |
+| 14. | Dimitniu AKEXHADM | UDMR |  |
+
+Tabel cu inițiatorii propunerii legislative pentru modificarea și completarea Legii nr.360/2023 privind sistemul public de pensii, cu modificările și completările ulterioare
+
+| 15. | CRISTIAN BRIAN | USR |
+| --- | --- | --- |
+| 16. | ATAMASIU CORIYA | USR |
+| 17. | DOG DAN PONEL | PNL |
+| 18. | Pandea Gprian | PNL |
+| 19. | TIRLEA DURITELI | PINL |
+| 20. | GHERAGHUREGI-SLOREDAH | HM. |
+| 21. | ZISOPOL DRACO.S | MIRPORTATH |
+| 22. | PETRETENI MICOLAE | MIN |
+| 23. | Jungu Rames Domie | PSD |
+| 24. | CHIRILU VIRGIL-ALIN | P.S.A. |
+| 25. | Ghigiu Alexandhu Mihai | PSA |
+| 26. | MITHALCEA SILVIA | PSD |
+| 27. | MIRCEA GOVOR | PSD |
+| 28. | DRINCEANU VICTES FLORENAJY | PSD |
+| 29. | BUCUR HIANA | PSD |
+| 30. | HAGIU AUGUSTIN FARAH | PSD |
+| 31. | TIRICHESECU MIRELA | PSD |
+| 32. | GEORGESCO GHE. DANIEL | PSD |
+| 33. | HEGLEN ZELFAU | UKHR |
+| 34. | BIRÓ ROZALIA-IBOLYA | UDHR |
+| 35. | TUDOS LORLAND | UDIR |
+
+Tabel cu inițiatorii propunerii legislative pentru modificarea și completarea Legii nr.360/2023 privind sistemul public de pensii, cu modificările și completările ulterioare
+
+| 36. | Koovda Mofe | UDM |  |
+| --- | --- | --- | --- |
+| 37. |  |  |  |
+| 38. |  |  |  |
+| 39. |  |  |  |
+| 40. |  |  |  |
+| 41. |  |  |  |
+| 42. |  |  |  |
+| 43. |  |  |  |
+| 44. |  |  |  |
+| 45. |  |  |  |
+| 46. |  |  |  |
+| 47. |  |  |  |
+| 48. |  |  |  |
+| 49. |  |  |  |
+| 50. |  |  |  |
+| 51. |  |  |  |
+| 52. |  |  |  |
+| 53. |  |  |  |
+| 54. |  |  |  |
+| 55. |  |  |  |
+| 56. |  |  |  |

@@ -1,0 +1,122 @@
+{
+  "slug": "plx-560-2026",
+  "billId": "PL-x 560/2026",
+  "updatedAt": "2026-10-29T13:06:52.144Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L316FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Amendă și puncte de penalizare pentru cine blochează locurile de încărcare a mașinilor electrice",
+      "summaryTlDr": "Este o măsură utilă și moderată, care umple un gol real: azi nu există temei național pentru a amenda pe cineva care ocupă o stație de încărcare. Formularea are însă o capcană: îl sancționează și pe șoferul de mașină electrică din clipa în care încărcarea s-a oprit, fără niciun minut de grație.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/60/0/se637.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Amendă pentru cei care parchează pe locurile de încărcare a mașinilor electrice",
+      "summaryTlDr": "Lege utilă, cu țintă îngustă și legitimă: o regulă națională clară împotriva ocupării locurilor de încărcare. Formularea „în proces de încărcare” și cele 3 puncte de penalizare trebuie însă corectate, altfel sunt amendați chiar posesorii de mașini electrice care stau corect la priză.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Proiectul a trecut de Senat în forma inițiatorului, fără nicio schimbare de fond",
+      "summary": "Proiectul s-a considerat adoptat de Senat în forma inițială, fără modificări de fond. Rămân amenda de clasa a II-a și cele 3 puncte de penalizare pentru staționarea pe locurile de încărcare, cu aceleași lacune.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Fapta aduce și 3 puncte de penalizare, deși nu blochează circulația",
+            "major": true,
+            "article": "art. 108 alin. (1) lit. b) pct. 12"
+          },
+          {
+            "text": "Nicio perioadă de grație: mașina rămasă conectată după încărcare poate fi amendată",
+            "major": true,
+            "article": "art. 100 alin. (1) pct. 15"
+          },
+          {
+            "text": "Nicio protecție când stația întrerupe încărcarea din cauza unui defect",
+            "major": true,
+            "article": "art. 100 alin. (1) pct. 15"
+          },
+          {
+            "text": "Excepțiile diferă: amenda scutește hibridele plug-in, punctele de penalizare doar electricele",
+            "major": true,
+            "article": "art. 100 și art. 108"
+          },
+          {
+            "text": "Fără limită de timp la încărcare, deci rotația la încărcătoare nu e asigurată",
+            "major": false,
+            "article": "art. 100 alin. (1) pct. 15"
+          },
+          {
+            "text": "Agentul nu poate verifica ușor pe loc dacă încărcarea e „efectivă”",
+            "major": false,
+            "article": "art. 6 pct. 17¹"
+          },
+          {
+            "text": "„Semnalizat corespunzător” și „stație autorizată” nu sunt definite",
+            "major": false,
+            "article": "art. 6 pct. 17¹"
+          },
+          {
+            "text": "Guvernul modifică Regulamentul în 30 de zile, fără conținut stabilit; legea nu așteaptă",
+            "major": false,
+            "article": "art. II"
+          },
+          {
+            "text": "Două definiții într-un punct; a doua e redundantă și trimite greșit",
+            "major": false,
+            "article": "art. 6 pct. 37¹"
+          }
+        ],
+        "good": [
+          {
+            "text": "Ocuparea locurilor de încărcare de către alte vehicule devine contravenție de clasa a II-a",
+            "major": true,
+            "article": "art. 100 alin. (1) pct. 15"
+          },
+          {
+            "text": "Vehiculele electrice și hibrid plug-in aflate la încărcare sunt exceptate de la amendă",
+            "major": true,
+            "article": "art. 100 alin. (1) pct. 15"
+          },
+          {
+            "text": "Definiția vehiculului electric e preluată din AFIR și acoperă hibridele plug-in",
+            "major": false,
+            "article": "art. 6 pct. 37¹"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 15,
+        "removed": 15,
+        "same": 0.06
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:04:07.591Z"
+    }
+  ]
+}

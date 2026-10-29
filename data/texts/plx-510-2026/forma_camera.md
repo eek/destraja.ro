@@ -1,0 +1,39 @@
+# PARLAMENTUL ROMÂNIEI
+
+# CAMERA DEPUTAȚILOR
+
+LEGE
+
+## privind anularea unor obligații fiscale
+
+## Camera Deputaților adoptă prezentul proiect de lege.
+
+Articol unic. - (1) Se anulează diferențele de obligații fiscale principale reprezentând taxa pe valoarea adăugată și/sau obligațiile fiscale accesorii aferente, stabilite de organul fiscal prin decizie de impunere emisă și comunicată contribuabilului în aplicarea art. 11 alin. (6) sau alin. (8), după caz, ca urmare a anulării înregistrării în scopuri de TVA conform art. 316 alin. (11) lit. a), d) și e) din Legea nr. 227/2015 privind Codul fiscal, cu modificările și completările ulterioare, pentru perioadele fiscale cuprinse între 1 ianuarie 2019 și data intrării în vigoare a prezentei legi.
+
+(2) Prevederile alin. (1) se aplică în mod corespunzător și în cazul în care anularea înregistrării în scopuri TVA s-a realizat în aplicarea art. 153 alin. (9) lit. a), b), d) și e) din Legea nr. 571/2003 privind Codul fiscal, în forma în vigoare la data anulării înregistrării în scopuri de TVA.
+
+(3) Se anulează diferențele de taxă pe valoarea adăugată, precum și obligațiile fiscale accesorii aferente acestora, stabilite de organul fiscal prin decizie de impunere emisă și comunicată cooperativelor agricole constituite în baza Legii cooperației agricole nr. 566/2004, cu modificările și completările ulterioare, reprezentând taxa pe valoarea adăugată aferentă achizițiilor de utilaje agricole, pentru care acestea și-au exercitat dreptul de deducere, pentru perioadele fiscale cuprinse între 9 ianuarie 2024 și data intrării în vigoare a prezentei legi.
+
+(4) Diferențele de obligații fiscale principale și/sau obligațiile fiscale accesorii prevăzute la alin. (1) și (2), stabilite de organul fiscal prin decizie de impunere emisă și comunicată contribuabilului, aferente perioadelor fiscale cuprinse între 1 ianuarie 2019 și data intrării în vigoare a prezentei legi, stinse prin orice modalitate prevăzută la art. 22 din Legea nr. 207/2015 privind Codul de procedură fiscală, cu modificările și completările ulterioare, se restituie contribuabililor. Restituirea se face la cererea contribuabililor.
+
+(5) Diferențele de obligații fiscale principale și/sau obligațiile fiscale accesorii prevăzute la alin. (3), stabilite de organul fiscal prin decizie de impunere emisă și comunicată contribuabilului, aferente perioadelor fiscale cuprinse între 9 ianuarie 2024 și data intrării în vigoare a prezentei legi, stinse prin orice modalitate prevăzută la art. 22 din Legea nr. 207/2015, cu modificările și completările ulterioare, se restituie contribuabililor. Restituirea se face la cererea contribuabililor.
+
+(6) Termenul de prescripție a dreptului de a cere restituirea pentru sumele prevăzute la alin. (4) și (5) începe să curgă de la data intrării în vigoare a prezentei legi.
+
+(7) Prezenta lege nu se aplică obligațiilor fiscale aferente operațiunilor pentru care contribuabilul a înscris distinct taxa pe valoarea adăugată în facturi sau în documente echivalente ori a colectat, integral sau parțial, taxa pe valoare adăugată, de la beneficiari, fapt constatat de organul fiscal.
+
+(8) Organul fiscal nu emite decizie de impunere pentru obligațiile fiscale și accesorii de natura celor prevăzute la alin. (1) și (2) pentru perioadele fiscale cuprinse între 1 ianuarie 2019 și data intrării în vigoare a prezentei legi.
+
+(9) Organul fiscal nu emite decizie de impunere pentru obligațiile fiscale și accesorii de natura celor prevăzute la alin. (3) pentru perioadele fiscale cuprinse între 9 ianuarie 2024 și data intrării în vigoare a prezentei legi.
+
+(10) Anularea obligațiilor fiscale prevăzute la alin. (1) - (3) se efectuează din oficiu de către organul fiscal competent, prin emiterea unei decizii de anulare a obligațiilor fiscale, care se comunică contribuabilului.
+
+(11) În cazul în care, anterior intrării în vigoare a prezentei legi, organul fiscal competent a emis, dar nu a comunicat decizia de impunere prin care a stabilit obligații de natura celor prevăzute la alin. (1) - (3), acesta nu mai comunică decizia de impunere, iar obligațiile fiscale se scad din evidența analitică pe plătitor, pe bază de borderou de scădere.
+
+(12) Procedura de aplicare se aprobă prin ordin al președintelui Agenției Naționale de Administrare Fiscală, care se emite în termen de 30 de zile de la data intrării în vigoare a prezentei legi.
+
+Acest proiect de lege a fost adoptat de Camera Deputaților în ședința din 31 iulie 2026, cu respectarea prevederilor art. 76 alin. (2) din Constituția României, republicată.
+
+p. PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+NATALIA-ELENA INTOTERO

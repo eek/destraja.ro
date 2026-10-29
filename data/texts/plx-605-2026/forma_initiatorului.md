@@ -1,0 +1,51 @@
+# PARLAMENTUL ROMÂNIEI CAMERA DEPUTAȚILOR SENATUL
+
+# LEGE
+
+# pentru completarea Legii învățământului preuniversitar nr. 198/2023
+
+## Parlamentul României adoptă prezenta lege.
+
+Art. I. - Legea învățământului preuniversitar nr. 198/2023, publicată în Monitorul Oficial al României, Partea I, nr. 613 din 5 iulie 2023, cu modificările și completările ulterioare, se completează după cum urmează:
+
+După articolul 82 se introduc trei noi articole, articolele 82¹, 82² și 82³, cu următorul cuprins:
+
+„Art. 82¹. Screeningul vederii la copiii preșcolari
+
+(1) Toți copiii înscriși în învățământul preșcolar beneficiază, în mod gratuit, de screeningul vederii, în scopul depistării precoce a ambliopiei, a viciilor de refracție și a strabismului.
+
+(2) Screeningul vederii se efectuează de cel puțin două ori pe parcursul învățământului preșcolar, la vârstele stabilite prin normele metodologice prevăzute la art. 82³ alin. (1), astfel încât depistarea să se realizeze în interiorul intervalului de vârstă în care tratamentul ambliopiei este eficient. Cel puțin una dintre testări se efectuează în anul școlar în care copilul împlinește vârsta de 5 ani. Pentru copilul înscris în învățământul preșcolar pentru o perioadă care nu permite efectuarea a două testări, screeningul se efectuează cel puțin o dată, în primul an de înscriere.
+
+(3) Screeningul vederii se organizează la sediul unității de învățământ în care copilul este înscris.
+
+(4) Pentru unitățile de învățământ care nu dispun de cabinet de medicină școlară, direcția de sănătate publică județeană, respectiv a municipiului București, asigură efectuarea screeningului prin echipe mobile proprii ori, pe bază de contract sau de protocol încheiat în condițiile normelor metodologice, prin medicul de familie sau prin alți furnizori de servicii medicale, care se deplasează la unitatea de învățământ. Lipsa cabinetului de medicină școlară nu înlătură dreptul prevăzut la alin. (1). Direcția de sănătate publică stabilește, până la începutul fiecărui an școlar, unitățile de învățământ din județ pentru care screeningul se asigură potrivit prezentului alineat și modalitatea concretă de efectuare, informând inspectoratul școlar județean.
+
+(5) Metoda de screening se adaptează vârstei copilului și se stabilește prin normele metodologice. Screeningul vederii nu înlocuiește consultul oftalmologic de specialitate.
+
+(6) Screeningul vederii se efectuează cu informarea prealabilă a părintelui sau a reprezentantului legal.
+
+(7) Prelucrarea datelor cu caracter personal în aplicarea prezentului articol și a art. 82² se face în scopul depistării precoce a tulburărilor de vedere la copil și al urmăririi cazului, temeiul prelucrării fiind îndeplinirea unei obligații legale și motivul de interes public în domeniul sănătății publice. Operatori sunt unitatea sanitară sau furnizorul care efectuează screeningul și, pentru raportare, direcția de sănătate publică. Se prelucrează exclusiv datele de identificare ale copilului, unitatea de învățământ, data testării, rezultatul screeningului, trimiterea la consult și efectuarea acestuia. Datele se păstrează în condițiile aplicabile documentelor medicale ale copilului. Raportarea prevăzută la art. 82³ alin. (3) se face exclusiv în formă agregată, fără date care să permită identificarea copilului.
+
+## Art. 82². Traseul copilului depistat și informarea părinților
+
+(1) Rezultatul screeningului vederii se comunică în scris părintelui sau reprezentantului legal, pe suport durabil, împreună cu informații privind semnificația rezultatului și pașii care urmează.
+
+(2) În cazul în care rezultatul screeningului indică o posibilă tulburare de vedere, copilul este îndrumat către consult oftalmologic de specialitate, în termenul stabilit prin normele metodologice, care nu poate fi mai mare de 60 de zile de la data comunicării rezultatului.
+
+(3) Rezultatul screeningului și, după caz, efectuarea consultului de specialitate se consemnează în documentele medicale ale copilului, în condițiile legii.
+
+(4) Neprezentarea copilului la consultul oftalmologic de specialitate se consemnează în documentele medicale ale copilului, potrivit alin. (3), exclusiv în scopul reluării informării părintelui sau reprezentantului legal și al raportării aggregate prevăzute la art. 82³ alin. (3). Neprezentarea nu atrage nicio sancțiune și nicio consecință defavorabilă pentru copil sau pentru familie și nu poate fi folosită ca temei pentru vreo măsură administrativă.
+
+## Art. 82³. Norme metodologice, finanțare și raportare
+
+(1) În termen de 90 de zile de la data intrării în vigoare a prezentului alineat, Ministerul Sănătății și Ministerul Educației aprobă, prin ordin comun, normele metodologice de aplicare a art. 82¹ și 82², care stabilesc vârstele de screening, metodele utilizate, termenele traseului de trimitere către consultul de specialitate, modelul de informare a părinților și modul de raportare.
+
+(2) Finanțarea screeningului vederii se asigură din bugetul Ministerului Sănătății și din bugetele autorităților administrației publice locale care organizează cabinetele de medicină școlară. Sumele necesare se prevăd distinct, cu această destinație, în bugetele anuale ale ordonatorilor principali de credite, pe baza estimărilor comunicate de direcțiile de sănătate publică. Screeningul vederii este gratuit pentru copil și pentru familie.
+
+(3) Ministerul Sănătății și Ministerul Educației fac public, până la data de 31 decembrie a fiecărui an, un raport privind aplicarea prezentelor dispoziții în anul școlar încheiat, care cuprinde gradul de acoperire a screeningului vederii, defalcat pe mediul urban și pe mediul rural și pe județe, numărul copiilor testați, numărul copiilor îndrumați către consult oftalmologic de specialitate, numărul copiilor care au efectuat acest consult, numărul unităților de învățământ preșcolar care dispun de cabinet de medicină școlară și numărul celor în care screeningul a fost asigurat potrivit art. 82¹ alin. (4).”
+
+Art. II. - (1) Prezenta lege intră în vigoare la 12 luni de la data publicării în Monitorul Oficial al României, Partea I.
+
+(2) Prin excepție de la prevederile alin. (1), articolul 82³ alin. (1) din Legea învățământului preuniversitar nr. 198/2023, astfel cum a fost completată prin prezenta lege, intră în vigoare la 3 zile de la data publicării prezentei legi în Monitorul Oficial al României, Partea I.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.

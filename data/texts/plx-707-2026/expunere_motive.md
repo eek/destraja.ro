@@ -1,0 +1,145 @@
+# EXPUNERE DE MOTIVE
+
+la propunerea legislativă pentru completarea Ordonanței de urgență a Guvernului nr. 60/2009 privind unele măsuri în vederea implementării programului „Noua casă”
+
+## Secțiunea 1. Titlul proiectului de act normativ
+
+Lege pentru completarea Ordonanței de urgență a Guvernului nr. 60/2009 privind unele măsuri în vederea implementării programului „Noua casă”, cu modificările și completările ulterioare.
+
+## Secțiunea a 2-a. Motivul emiterii actului normativ
+
+## 2.1. Descrierea situației actuale
+
+Programul „Noua casă”, continuatorul programului „Prima casă” și reglementat prin Ordonanța de urgență a Guvernului nr. 60/2009, aprobată cu modificări și completări prin Legea nr. 368/2009, cu modificările și completările ulterioare, este pilonul central al politicii statului în domeniul locuirii. Mecanismul său esențial este combinarea garanției de stat cu un avans minim redus, tocmai pentru că avansul reprezintă, pentru o mare parte a populației, principala barieră în calea achiziției unei locuințe. Pe piața standard, avansul solicitat poate ajunge până la 25% din prețul locuinței, nivel inaccesibil pentru tinerii fără economii acumulate. Programul continuă și în anul 2026, cu un plafon de garantare de 500 milioane lei, aprobat de Guvern.
+
+În prezent, articolul 1' din ordonanța de urgență stabilește două praguri de avans. Litera a) prevede un avans de minimum 5% pentru finanțările de până la 70.000 EUR, echivalent lei. Litera b) prevede un avans de minimum 15% pentru finanțările cuprinse între 70.001 EUR și 140.000 EUR, echivalent lei. Diferența dintre cele două paliere este substanțială și devine decisivă în contextul actual al pieței.
+
+Trimestrul al IV-lea 2025 și trimestrul I 2026 au fost marcate de o tensiune accentuată pe piața imobiliară. Oferta de locuințe s-a redus cu aproximativ 18%, prețurile au crescut cu peste 15%, iar presiunile fiscale s-au amplificat prin majorarea TVA, creșterea impozitelor pe proprietate și taxarea suplimentară a chiriilor. La acestea se adaugă înăsprirea condițiilor de finanțare.
+
+În acest cadru, pragul de avans de 15% pentru finanțările mai mari nu mai reprezintă o situație de excepție, ci una tipică. Potrivit analizei Imobiliare.ro Finance pentru trimestrul al III-lea 2025, valoarea medie a creditului ipotecar depășește, în toate marile centre urbane, echivalentul a 70.000 EUR. Creditul mediu a fost de 462.179 lei în Cluj-Napoca, 435.405 lei în Iași, 432.395 lei în București, 422.621 lei în Constanța, 383.245 lei în Timișoara și 378.125 lei în Brașov. La un curs de referință de circa 5,25 lei pentru un euro, pragul de 70.000 EUR corespunde unei valori de aproximativ 367.500 lei, sub nivelul mediu al creditului din fiecare dintre aceste orașe. Concret, cumpărătorul obișnuit din marile orașe se încadrează deja în palierul de finanțare căruia i se aplică avansul de 15%, nu în cel cu avans de 5%.
+
+Cei mai expuși acestei bariere sunt tinerii aflați la începutul carierei profesionale. Veniturile salariale au crescut, cu aproximativ 10% în București și 11% la nivel național în decembrie 2024 față de anul anterior, ceea ce le asigură o capacitate stabilă de rambursare a creditului. Problema lor nu este rata lunară, ci suma necesară cu titlu de avans inițial, pe care nu apucă să o acumuleze. Pentru o locuință de 140.000 EUR, avansul de 15% înseamnă aproximativ 21.000 EUR, în timp ce un avans de 5% ar însemna aproximativ 7.000 EUR. Diferența de circa 14.000 EUR este, pentru un tânăr fără economii consistente, granița dintre a accesă și a nu accesă o locuință proprie.
+
+## 2.2. Schimbări preconizate
+
+Prezentul act normativ propune completarea articolului 1¹ cu o nouă literă, lit. c), prin care beneficiarii care nu au împlinit vârsta de 35 de ani la data încheierii promisiunii bilaterale de vânzare pot opta, prin derogare de la litera b), pentru un avans de minimum 5% din prețul de achiziție și în cazul în care valoarea finanțării este cuprinsă între 70.001 EUR și 140.000 EUR, echivalent lei.
+
+Întrucât litera a) prevede deja un avans de minimum 5% pentru finanțările de până la 70.000 EUR, aplicabil tuturor beneficiarilor, derogarea vizează exclusiv litera b). Efectul concret al noii litere c) este extinderea pragului de 5% și asupra palierului de finanțare cuprins între 70.001 EUR și 140.000 EUR, unde în prezent se aplică un avans de minimum 15%. Astfel, tinerii sub 35 de ani beneficiază de un avans de minimum 5% pe întregul interval de finanțare al Programului. Celelalte condiții, garanții și obligații rămân neschimbate, măsura fiind una țintită, nu o modificare a arhitecturii Programului.
+
+Măsura are și o componentă de stimulare a pieței. Într-un context de ofertă restrânsă și cerere blocată de avansul ridicat, deblocarea cererii solvabile a tinerilor susține tranzacțiile, sectorul construcțiilor și activitatea de creditare pe acest segment, contribuind la atenuarea dezechilibrelor descrise mai sus.
+
+## 2.3. Alte informații
+
+Măsura se înscrie în obiectivele de sprijinire a accesului tinerilor sub 35 de ani la o locuință proprie și este corelată cu continuarea Programului „Noua casă” în anul 2026.
+
+## Secțiunea a 3-a. Impactul socioeconomic
+
+## 3.1. Descrierea generală a beneficiilor și costurilor estimate
+
+Măsura reduce bariera de acces la o locuință proprie pentru segmentul tinerilor, prin diminuarea sumei necesare cu titlu de avans inițial, fără a antrena costuri directe pentru bugetul de stat. Beneficiul social și economic este obținut prin redistribuirea efortului inițial al beneficiarului, iar nu prin cheltuieli publice suplimentare.
+
+## 3.2. Impactual social
+
+Proiectul sprijină accesul tinerilor la o locuință în condiții echitabile, contribuie la formarea de noi familii și la reducerea presiunii pe piața chiriilor, segment afectat la rândul său de taxare suplimentară. Măsura are un caracter de incluziv, vizând tocmai categoria cu venituri stabile, dar fără capital acumulat.
+
+## 3.3. Impactul asupra drepturilor și libertăților fundamentale
+
+Diferențierea în funcție de vârstă, prin acordarea unui avans redus beneficiarilor sub 35 de ani, are la bază un criteriu obiectiv și rezonabil, respectiv lipsa economicilor acumulate la începutul vieții profesionale, și urmărește un scop legitim, facilitarea accesului la locuință al unei categorii sociale.
+
+## 3.4. Impactul macroeconomic și asupra mediului de afaceri
+
+Proiectul nu are impact macroeconomic negativ. Prin susținerea cererii solvabile într-un interval în care oferta s-a contractat cu aproximativ 18%, măsura are un efect contraciclic moderat, sprijinind sectorul construcțiilor și sectoarele adiacente acestuia, precum și activitatea de creditare pe segmentul retail. Nu sunt incidente prevederile privind ajutorul de stat, măsura adresându-se persoanelor fizice beneficiare, iar nu operatorilor economici.
+
+## Secțiunea a 4-a. Impactul financiar asupra bugetului general consolidat
+
+Măsura nu modifică plafonul anual de garantare al Programului și nu determină majorarea cheltuielilor bugetare. Avansul este suportat integral de către beneficiar, iar procentul maxim de garantare a statului și valoarea maximă a finanțării rămân nemodificate. Expunerea totală a statului rămâne limitată de plafonul anual de garantare aprobat, de 500 milioane lei pentru anul 2026, care nu este afectat de prezenta măsură.
+
+## Secțiunea a 5-a. Efectele asupra legislației în vigoare
+
+Proiectul completează articolul 1¹ din Ordonanța de urgență a Guvernului nr. 60/2009, cu modificările și completările ulterioare, prin introducerea unei noi litere, lit. c). Nu sunt necesare abrogări. Ca urmare a intrării în vigoare a prezentei legi, normele de implementare a programului „Noua casă”, aprobate prin Hotărârea Guvernului nr. 717/2009, vor fi actualizate în mod corespunzător de către Guvern, prin Ministerul Finanțelor, pentru punerea lor în acord cu noua reglementare.
+
+Față de cele prezentate, supunem spre adoptare prezenta propunere legislativă.
+
+În numele inițiatorilor:
+
+Deputat PSD Alexandru-Mjhai Gkigiu
+
+| Nr.crt. | Numele și prenumele | Grupulparlamentar |
+| --- | --- | --- |
+| 1 | Ghiqiu Alezomobu Miha | PSA |
+| 2 | Angel Tiivar | 8.S.D |
+| 3 | Govoe Xikcea | PSD |
+| 4 | Ciunt Iohel | PSD |
+| 5 | Bodou Gooed | PSD |
+| 6 | Lugu Rouro | PSA |
+| 7 | Toryesou iox Alix | PSD |
+| 8 | iSae MARIUS | DSD |
+| 9 | ADONNICAI NREGU | PSD |
+| 10 | LIPA EUGABETA | PSD |
+| 11 | JAMOIL ion | PSD |
+| 12 | ROGOTE ALEXANDRU | PSD |
+| 13 | MITTALCEA REMUS | PSA |
+| 14 | Yeanoumu Adela | PSD |
+| 15 | MARINESO PADU | PSD |
+| 16 | STOENICA IRINA | PSA |
+| 17 | DEINCEANU VUND FLORENJIN | PSD |
+| 18 | CONSTANTIVEAU SERQI | PSD |
+| 19 | LAPUSA N REMUS | PSD |
+| 20 | RIGMAN CIPRIAN | USR |
+| 21 | MI'HUTI I306AN - FLORIAN | PSD |
+| 22 | ENE CORINA | PSD |
+| 23 | TINTA STBAN | PSD |
+| 24 | MIHALCEA SICHA | PSA |
+| 25 | TOMA NUT | PSD |
+| 26 | Buucu ARHNA | TSD |
+| 27 | STABO OBON | UHMR |
+
+| Nr. crt. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 28 | CRISTINA-EMANUELADASOW | AVR |  |
+| 29 | GURUO, DUKU, OCPAVIAN | AVR |  |
+| 30 | MITITELU EDUARA | PNL |  |
+| 37 | ZISOPOL DRAGOS | MIHORITATI |  |
+| 38 | PETRETCHI MIROSLAJ | MIN |  |
+| 39 | CRISTNIC OSHEAU | M14 |  |
+| 40 | CIMPEMN OVJAJU | PNL |  |
+
+## BIROUL PERMANENT AL SENATULUI
+
+Subsemnata, Daniela MIHAI, senator PSD, ales în circumscripția electorală nr. 12, Călărași, doresc să devin coinițiator al următoarelor propuneri legislative:
+
+1\. L447/2026, Propunere legislativă pentru compensarea financiară a consumatorilor de credit prejudiciați ca umare a unor practici anticoncurențiale.
+
+2\. L498/2026, Propunere legislativă pentru aprobarea schemei "Ajutor de minimis pentru aplicarea Programului de susținere a producției de lapte ecologic certificat".
+
+3\. L449/2026, Propunere legislativă pentru modificarea și completarea Ordonanței de urgență a Guvernului nr.57/2019 privind Codul administrative.
+
+4\. L529/2026, Propunere legislativă pentru completarea Ordonanței de urgență a Guvernului nr.60/2009 privind unele măsuri în vederea implementării programului «Noua casă».
+
+09.09.2026
+
+Cu stimă,
+
+Daniela MIHAI
+
+Senator\\PSD
+
+17.09.2026
+
+## Către, BIROUL PERMANENT AL SENATULUI
+
+Subsemnata, Doina-Elena Federovici, senator ales în Circumscripția electorală nr. 07, Botoșani, solicit să aprobați dobândirea calității de coinițiator al următoarelor propuneri legislative:
+
+\- Propunere legislativă pentru aprobarea schemei "Ajutor de minimis pentru aplicarea Programului de susținere a producției de lapte ecologic certificat" (L498/2026);
+
+\- Propunere legislativă pentru completarea Ordonanței de urgență a Guvernului nr.60/2009 privind unele măsuri în vederea implementării programului «Noua casă» (L529/2026);
+
+\- Propunere legislativă pentru modificarea și completarea Legii nr.200/2006 privind constituirea și utilizarea Fondului de garantare pentru plata creanțelor salariale (L567/2026);
+
+\- Propunere legislativă pentru modificarea Ordonanței de urgență a Guvernului nr.80/2012 privind echivalarea titlurilor de medic specialist eliberate de Australia, Canada, Israel, Noua Zeelandă și Statele Unite ale Americii (L535/2026);
+
+\- Propunere legislativă pentru completarea ordonanței de urgență nr.195/2002 privind circulația pe drumurile publice (L366/2026);
+
+Vă mulțumesc.
+
+Senator Doina-Elena FEDEROVICI, Secretariat Senatului

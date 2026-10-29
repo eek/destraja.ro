@@ -1,0 +1,125 @@
+{
+  "slug": "plx-17-2026",
+  "billId": "PL-x 17/2026",
+  "updatedAt": "2026-10-29T12:25:44.363Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L507FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 6.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Ciorile de semănătură și graurii, vânați tot anul și fără limită",
+      "summaryTlDr": "Pagubele produse de ciori și grauri în culturi sunt reale, dar soluția aleasă e greșită. Vânătoarea tot anul și fără limită, inclusiv când păsările cuibăresc, contrazice direct art. 7 alin. (4) din Directiva Păsări și expune România la infringement. „Autorizația specială” nu are emitent, condiții sau plafon, deci nu este derogarea legală invocată în expunerea de motive.",
+      "scores": {
+        "agy": 7,
+        "claude": 6,
+        "codex": 7
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/10/7/se782.pdf",
+      "source": "cdep.ro",
+      "riskScore": 6.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Vânătoare tot anul, fără limită, la ciori de semănătură și grauri",
+      "summaryTlDr": "Pagubele din culturi sunt reale, dar legea permite vânătoarea tot anul, inclusiv în perioada de cuibărit și fără limită zilnică, ceea ce intră în conflict direct cu Directiva Păsări. Autorizația specială, prezentată ca garanție de control, are o singură frază: nu spune cine o emite, în ce condiții se dă și nu cere nicio raportare.",
+      "scores": {
+        "agy": 6,
+        "claude": 6,
+        "codex": 7
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Se modifică doar rândurile pentru cioara de semănătură și graur; vânătoarea lor tot anul rămâne",
+      "summary": "Inițial, textul rescria toată Anexa nr. 1 și risca să șteargă perioadele de vânătoare ale celorlalte specii; acum modifică doar pct. 5 și 16. Restul e neschimbat: cioara de semănătură și graurul pot fi vânați tot anul, fără limită zilnică, cu autorizație dată obligatoriu la cerere.",
+      "changes": [
+        {
+          "title": "Se schimbă doar cioara și graurul, nu toată anexa",
+          "text": "Inițial, toată Anexa nr. 1 era înlocuită cu două rânduri, ceea ce ar fi șters perioadele de vânătoare ale celorlalte specii. Acum se modifică doar pct. 5 și 16 din Secțiunea B.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. unic pct. 2 (Anexa nr. 1)",
+          "before": "Anexa nr. 1 se modifică și va avea următorul cuprins:",
+          "after": "La Anexa nr.1 - Secțiunea B „Păsări” punctele 5 și 16 se modifică și vor avea următorul cuprins:",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Textul e acum cel adoptat de Senat",
+          "text": "Formula finală nu mai e a unei legi adoptate de Parlament, ci a unui proiect adoptat de Senat la 22 decembrie 2025. Nu schimbă fondul.",
+          "effect": "neutru",
+          "major": false,
+          "article": null,
+          "before": "Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.",
+          "after": "Acest proiect de lege a fost adoptat de Senat, în ședința din 22 decembrie 2025, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Vânătoare tot anul, inclusiv la cuibărit, contrar art. 7 alin. (4) din Directiva 2009/147/CE",
+            "major": true,
+            "article": "Anexa nr. 1, Secț. B, pct. 5 și 16"
+          },
+          {
+            "text": "Dispare limita zilnică de exemplare; nu mai există niciun plafon de recoltare",
+            "major": true,
+            "article": "Anexa nr. 1, Secț. B, pct. 5 și 16"
+          },
+          {
+            "text": "Autorizația se eliberează obligatoriu la cerere, fără să fie nevoie de pagube constatate",
+            "major": true,
+            "article": "art. 31 alin. (2¹)"
+          },
+          {
+            "text": "Nu stabilește emitentul, beneficiarii, taxa, zona sau numărul de exemplare autorizate",
+            "major": true,
+            "article": "art. 31 alin. (2¹)"
+          },
+          {
+            "text": "Rolul autorizației speciale e neclar; pe 6–12 luni, slăbește controlul vânătorii",
+            "major": true,
+            "article": "art. 31 alin. (2¹)"
+          },
+          {
+            "text": "Autorizația nu e limitată la fermierii cu culturi afectate; profită vânătorii și gestionarii",
+            "major": true,
+            "article": "art. 31 alin. (2¹)"
+          },
+          {
+            "text": "Nu spune după ce criteriu autorizația ține 6 sau 12 luni",
+            "major": false,
+            "article": "art. 31 alin. (2¹)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Se modifică doar pct. 5 și 16; perioadele celorlalte specii rămân neatinse",
+            "major": true,
+            "article": "art. unic pct. 2 (Anexa nr. 1)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 7,
+        "removed": 9,
+        "same": 0.3
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:23:57.583Z"
+    }
+  ]
+}

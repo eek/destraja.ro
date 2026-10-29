@@ -1,0 +1,31 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+CAMERA DEPUTAȚILOR
+
+LEGE
+
+privind modificarea și completarea Legii nr. 340/2002 pentru prevenirea și combaterea efectelor consumului produselor din tutun
+
+Parlamentul României adoptă prezenta lege:
+
+Articol unic – Legea nr. 340/2002 pentru prevenirea și combaterea efectelor consumului produselor din tutun, publicată în Monitorul Oficial al României, Partea 1, nr. 435 din 21 iunie 2002, cu modificările și completările ulterioare, se modifică și se completează, după cum urmează:
+
+1\. La art.3 alin.(1) se modifică și se completează și va avea următorul cuprins:
+
+"(1) Se interzice fumatul, a țigaretelor electronice, a flacoanelor de reumplere pentru țigaretele electronice, a dispozitivelor electronice pentru încălzirea tutunului și a produselor destinate inhalării fără ardere din înlocuitori de tutun, în toate spațiile publice închise, spațiile închise de la locul de muncă, mijloacele de transport în comun, locurile de joacă pentru copii. De la prezentele prevederi fac excepție spațiile de deținere în care sunt cazate persoanele private de libertate."
+
+2\. Alin. (1²) de la art. 3 se abrogă.
+
+Această lege a fost adoptată de Parlamentul României cu respectarea prevederilor art:. 75 și ale art. 76 alin. (2) din Constituția României, republicată.
+
+PREȘEDINTELE SENATUI.UI,
+
+PREȘEDINTELE CAMEREI
+
+DEPUTAȚILOR
+
+Mircea ABRUDEAN
+
+Sorin GRINDEANU

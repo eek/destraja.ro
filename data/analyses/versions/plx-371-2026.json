@@ -1,0 +1,112 @@
+{
+  "slug": "plx-371-2026",
+  "billId": "PL-x 371/2026",
+  "updatedAt": "2026-10-29T12:27:15.195Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L213FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Telefoane la liceu: interdicția devine mai greu de votat, iar telefoanele luate de la elevi trebuie păstrate după reguli clare",
+      "summaryTlDr": "Jumătate utilă, jumătate frână. Regulile pentru telefoanele luate de la elevi sunt binevenite: proces-verbal, păstrare sigură și restituire la termen. În schimb, cvorumul de 75% și majoritatea de 2/3 le fac liceelor mai greu să interzică telefoanele, deși inițiatorii spun că nu asta urmăresc.",
+      "scores": {
+        "agy": 3,
+        "claude": 4,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/300/70/1/se402.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Telefoanele la liceu: interdicție mai greu de votat, reguli clare pentru telefoanele strânse",
+      "summaryTlDr": "Proiectul are o parte utilă și una care frânează. Regulile minime pentru preluarea și păstrarea telefoanelor protejează bunurile elevilor. Cvorumul de 75% și majoritatea de 2/3 fac însă mai greu de adoptat interdicția în licee, deși inițiatorii spun că nu vor să o slăbească.",
+      "scores": {
+        "agy": 3,
+        "claude": 4,
+        "codex": 2
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a păstrat textul inițiatorului: cvorum 75% și 2/3 pentru interzicerea telefoanelor în licee",
+      "summary": "Senatul a adoptat textul inițiatorului fără schimbări de fond. Rămân aceleași reguli de vot pentru interzicerea telefoanelor în licee și aceleași proceduri obligatorii de preluare și păstrare. Diferențele sunt doar de redactare, în titlu și în formula de adoptare.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Interdicția în licee cere cvorum de 75% și 2/3; câțiva absenți o pot bloca",
+            "major": true,
+            "article": "art. 106 alin. (5)"
+          },
+          {
+            "text": "Pragul calificat se cere doar la adoptare; ridicarea interdicției rămâne în condiții obișnuite",
+            "major": true,
+            "article": "art. 106 alin. (5)"
+          },
+          {
+            "text": "Practic toate școlile trebuie să-și completeze regulamentul, fără finanțare pentru depozitare",
+            "major": true,
+            "article": "art. 106 alin. (7¹)"
+          },
+          {
+            "text": "Nicio procedură-cadru a ministerului; fiecare școală își scrie singură regulile",
+            "major": false,
+            "article": "art. 106 alin. (7¹)"
+          },
+          {
+            "text": "Doar 30 de zile până la intrarea în vigoare, fără dispoziții tranzitorii",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "good": [
+          {
+            "text": "Proceduri scrise obligatorii de preluare: cine, când, unde, cu etichetare sau sigilare",
+            "major": true,
+            "article": "art. 106 alin. (7¹) lit. a)"
+          },
+          {
+            "text": "Depozitare securizată, cu spațiu dedicat, reguli de acces și persoane responsabile",
+            "major": true,
+            "article": "art. 106 alin. (7¹) lit. c)"
+          },
+          {
+            "text": "Procedură pentru pierdere, deteriorare, acces neautorizat și soluționarea sesizărilor",
+            "major": true,
+            "article": "art. 106 alin. (7¹) lit. e)"
+          },
+          {
+            "text": "Registru de predare-primire și confirmarea predării către elev",
+            "major": false,
+            "article": "art. 106 alin. (7¹) lit. b)"
+          },
+          {
+            "text": "Termene de restituire, inclusiv către părinți și în situații excepționale",
+            "major": false,
+            "article": "art. 106 alin. (7¹) lit. d)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 11,
+        "removed": 6,
+        "same": 0.21
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:21:15.920Z"
+    }
+  ]
+}

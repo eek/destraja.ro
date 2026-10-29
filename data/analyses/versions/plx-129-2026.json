@@ -1,0 +1,104 @@
+{
+  "slug": "plx-129-2026",
+  "billId": "PL-x 129/2026",
+  "updatedAt": "2026-10-29T12:40:35.738Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L027FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 1.7,
+      "riskLevel": "green",
+      "plainTitle": "29 decembrie devine zi de comemorare a victimelor Mișcării Legionare",
+      "summaryTlDr": "Lege simbolică și benignă. Instituie o zi de comemorare fără obligații, taxe sau sancțiuni, iar tot ce prevede este facultativ («pot»). Singura problemă practică: data cade în vacanța de iarnă, așa că partea educativă din școli riscă să rămână pe hârtie.",
+      "scores": {
+        "agy": 1,
+        "claude": 2,
+        "codex": 2
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/20/9/se140.pdf",
+      "source": "cdep.ro",
+      "riskScore": 1.7,
+      "riskLevel": "green",
+      "plainTitle": "29 decembrie devine zi națională de comemorare a victimelor Mișcării Legionare",
+      "summaryTlDr": "Lege simbolică și benignă: creează o zi de comemorare care nu este zi liberă, nu are sancțiuni și nu impune nicio obligație, pentru că totul e formulat cu „pot”. Problemele sunt doar de redactare și de calendar: 29 decembrie cade în vacanța de iarnă, deci partea educativă riscă să rămână pe hârtie.",
+      "scores": {
+        "agy": 1,
+        "claude": 2,
+        "codex": 2
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Fără schimbări de fond: se actualizează doar numele ministerului care recomandă activități școlare",
+      "summary": "Forma adoptată de Senat reia aproape cuvânt cu cuvânt forma inițiatorului: activitățile rămân facultative, fără obligații, iar ziua nu e liberă. Se schimbă doar numele ministerului, acum „Ministerul Educației și Cercetării”, plus detalii de redactare.",
+      "changes": [
+        {
+          "title": "Se schimbă numele ministerului care recomandă activități școlare",
+          "text": "La art. 3 alin. (1), ministerul care poate recomanda școlilor activități tematice se numește acum „Ministerul Educației și Cercetării”, nu „Ministerul Educației”. Rolul lui rămâne același.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 3 alin. (1)",
+          "before": "Ministerul Educației poate recomanda unităților de învățământ",
+          "after": "Ministerul Educației și Cercetării poate recomanda unităților de învățământ",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "29 decembrie cade în vacanță; legea nu spune când se țin activitățile școlare",
+            "major": false,
+            "article": "art. 3 alin. (1)"
+          },
+          {
+            "text": "Drapelul în bernă „conform legii”: nu se spune ce normă și cine decide",
+            "major": false,
+            "article": "art. 2 alin. (2)"
+          },
+          {
+            "text": "Greșeală de redactare: „activități organize” în loc de „organizate”",
+            "major": false,
+            "article": "art. 4"
+          }
+        ],
+        "good": [
+          {
+            "text": "Ziua nu este liberă, deci nu costă nimic angajatorii și IMM-urile",
+            "major": true,
+            "article": "art. 5"
+          },
+          {
+            "text": "Autoritățile și școlile pot organiza activități, dar nu sunt obligate și nu riscă sancțiuni",
+            "major": true,
+            "article": "art. 2, 3 și 6"
+          },
+          {
+            "text": "Televiziunea, radioul public și AGERPRES nu sunt obligate să difuzeze, independența editorială rămâne",
+            "major": false,
+            "article": "art. 4"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 9,
+        "removed": 10,
+        "same": 0.18
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:39:34.365Z"
+    }
+  ]
+}

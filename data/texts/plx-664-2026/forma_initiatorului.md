@@ -1,0 +1,29 @@
+Camera Deputaților
+
+Senat
+
+# LEGE pentru modificarea Legii 96/2024 pentru aprobarea Ordonanței Guvernului nr. 7/2023 privind calitatea apei destinate consumului uman
+
+Parlamentul României adoptă prezenta lege:
+
+Articol unic - Legea 96/2024 pentru aprobarea Ordonanței Guvernului nr. 7/2023 privind calitatea apei destinate consumului uman, Publicat în Monitorul Oficial cu numărul 351 din data de 15 aprilie 2024, se modifică și se completează după cum urmează:
+
+\- La articolul 16 alineatul (4), litera d) se modifică și va avea următorul cuprins: „d) furnizarea gratuită a apei potabile prin rețeaua de distribuție, pentru consumatorii din restaurante, cantine și servicii de catering, cu respectarea următoarelor obligații:
+
+1\. apa potabilă se pune la dispoziția consumatorilor din oficiu, fără a fi necesară solicitarea expresă a acestora, imediat după așezarea la masă sau la momentul servirii;
+
+2\. apa potabilă se servește pe masă, în recipiente curate, în cantitate suficientă, și se reîncarcă la cerere, fără costuri suplimentare;
+
+3\. disponibilitatea gratuită a apei potabile se aduce la cunoștința publicului prin afișare vizibilă la intrarea în unitate, prin înscrierea pe lista de meniu, precum și prin orice alt mijloc adecvat de informare a consumatorilor;
+
+4\. nerespectarea obligațiilor prevăzute la pct. 1–3 constituie contravenție și se sancționează potrivit legii."
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.
+
+PREȘEDINTELE
+
+PREȘEDINTELE
+
+CAMEREI DEPUTAȚILOR,
+
+SENATULUI,

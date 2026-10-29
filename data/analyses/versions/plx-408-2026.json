@@ -1,0 +1,122 @@
+{
+  "slug": "plx-408-2026",
+  "billId": "PL-x 408/2026",
+  "updatedAt": "2026-10-29T12:32:02.874Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L275FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Datoriile la stat ale unor firme „strategice” aflate în insolvență trec la AAAS, la alegerea Guvernului",
+      "summaryTlDr": "OUG-ul se prezintă drept „măsură administrativă”, dar dă Guvernului puterea de a scoate de la ANAF, firmă cu firmă, datoriile la stat ale unor companii private declarate strategice. Le mută la AAAS, unde pot fi negociate, cesionate sau transformate în acțiuni. Scopul declarat, salvarea unor capacități strategice, poate fi legitim, dar lipsa criteriilor, a plafoanelor și a oricărei verificări procedurale privind ajutorul de stat face din mecanism un cec în alb.",
+      "scores": {
+        "agy": 7,
+        "claude": 6,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/00/8/se443.pdf",
+      "source": "cdep.ro",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Guvernul poate muta la AAAS datoriile către stat ale firmelor „strategice” în insolvență, inclusiv ale celor private",
+      "summaryTlDr": "Sub eticheta de „măsură administrativă”, OUG îi permite Guvernului să aleagă prin simplă hotărâre firmele de stat sau private „strategice” aflate în insolvență ale căror datorii către stat trec la AAAS. Legea nu stabilește criterii, plafon sau o analiză de ajutor de stat. Nu creează taxe noi pentru cetățeni, dar deschide un instrument discreționar de salvare cu bani publici.",
+      "scores": {
+        "agy": 7,
+        "claude": 6,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat ordonanța fără modificări; problemele din forma inițiatorului rămân",
+      "summary": "Senatul a aprobat ordonanța exact cum a venit de la Guvern; s-au schimbat doar detalii de redactare. Rămân problemele: Guvernul poate muta prin HG la AAAS datoriile unor firme, inclusiv private declarate strategice, fără criterii sau plafon.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Firme private pot beneficia dacă sunt declarate „strategice”, termen nedefinit, chiar prin HG",
+            "major": true,
+            "article": "art. 1-2"
+          },
+          {
+            "text": "Pot fi preluate și datorii către alte instituții centrale și bănci de stat",
+            "major": true,
+            "article": "art. 1-2"
+          },
+          {
+            "text": "Preluarea se decide prin HG fără criterii de eligibilitate, plafon valoric sau termen",
+            "major": true,
+            "article": "art. 5"
+          },
+          {
+            "text": "Nicio evaluare obligatorie a ajutorului de stat și niciun aviz al Consiliului Concurenței",
+            "major": true,
+            "article": "art. 5"
+          },
+          {
+            "text": "Datoriile „se sting” la preluare, formulare pe care debitorii o pot invoca în instanță",
+            "major": true,
+            "article": "art. 3 alin. (2), art. 8"
+          },
+          {
+            "text": "Comasarea creanțelor la AAAS îi dă mai multă putere de vot în insolvențe",
+            "major": true,
+            "article": "art. 4 alin. (1), art. 6"
+          },
+          {
+            "text": "AAAS își reține cheltuielile de recuperare din sumele încasate, fără niciun plafon",
+            "major": true,
+            "article": "art. 9"
+          },
+          {
+            "text": "Nu e clar ce primesc băncile de stat din sumele recuperate",
+            "major": true,
+            "article": "art. 9"
+          },
+          {
+            "text": "Decizia de preluare nu trebuie motivată public",
+            "major": false,
+            "article": "art. 5"
+          },
+          {
+            "text": "Avizul BNR e cerut doar „după caz”, fără să se spună când",
+            "major": false,
+            "article": "art. 5"
+          }
+        ],
+        "good": [
+          {
+            "text": "Datoriile preluate își păstrează regimul juridic, iar AAAS preia drepturile creditorului inițial",
+            "major": false,
+            "article": "art. 4 alin. (1)"
+          },
+          {
+            "text": "AAAS trebuie să vireze restul sumelor recuperate în 30 de zile",
+            "major": false,
+            "article": "art. 9"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:30:25.913Z"
+    }
+  ]
+}

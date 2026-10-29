@@ -1,0 +1,23 @@
+Expunere de motive privind completarea Legii nr. 286/2009 privind Codul penal
+
+Prezenta inițiativă legislativă are ca obiect completarea art. 99 din Codul penal, în sensul instituirii unui prag temporal distinct pentru acordarea liberării condiționate în cazul persoanelor condamnate la pedeapsa detențiunii pe viață pentru săvârșirea infracțiunii de omor calificat prevăzute la art. 189 Cod penal.
+
+În reglementarea actuală, liberarea condiționată în cazul detențiunii pe viață poate fi dispusă după executarea efectivă a 20 de ani de detențiune, dacă sunt îndeplinite și celelalte condiții prevăzute de lege. Deși această soluție normativă reflectă o concepție generală asupra regimului executării pedepsei, gravitatea excepțională a infracțiunii de omor calificat impune o evaluare diferențiată din perspectiva politicii penale.
+
+Omorul calificat reprezintă forma cea mai gravă de atingere adusă dreptului la viață, valoare supremă consacrată de art. 22 din Constituția României și protejată de instrumentele juridice internaționale la care statul român este parte. Elementele circumstanțiale agravante prevăzute de art. 189 Cod penal conferă acestei infracțiuni un grad sporit de pericol social, justificând aplicarea celei mai severe pedepse prevăzute de legea penală, detențiunea pe viață.
+
+Modificarea propusă nu elimină instituția liberării condiționate și nu transformă pedeapsa detențiunii pe viață într-o sancțiune absolută sau ireductibilă. Aceasta stabilește doar un prag temporal mai ridicat, respectiv executarea efectivă a cel puțin 30 de ani de detențiune, înainte de momentul la care instanța poate analiza îndeplinirea condițiilor legale pentru acordarea liberării condiționate. Evaluarea conduitei persoanei condamnate și aprecierea îndeplinirii condițiilor legale rămân în competența instanței de judecată.
+
+Reglementarea propusă nu aduce atingere principiului individualizării pedepsei, întrucât individualizarea se realizează la momentul aplicării pedepsei, iar condițiile de executare sunt stabilite prin lege de către legiutor, în limitele marjei sale de apreciere.
+
+Din perspectiva constituțională, reglementarea propusă respectă principiul egalității în drepturi consacrat de art. 16 din Constituție. Principiul egalității nu presupune uniformitate de tratament juridic, ci aplicarea unui regim egal pentru situații egale. Omorul calificat se diferențiază în mod obiectiv de alte infracțiuni prin natura sa, prin elementele circumstanțiale agravante și prin valoarea socială fundamentală lezată, ceea ce justifică instituirea unui regim distinct în materia vocației la liberare condiționată. Diferențierea regimului juridic este justificată de natura și gravitatea excepțională a acestei infracțiuni, care aduce atingere valorii supreme a dreptului la viață, în condiții circumstanțiale agravante expres prevăzute de lege, diferența de tratament fiind obiectivă, rezonabilă și proporțională cu scopul legitim urmărit de legiuiitor, respectiv protecția sporită a dreptului la viață.
+
+De asemenea, reglementarea nu aduce atingere principiului legalității pedepsei, prevăzut de art. 23 alin. (12) din Constituție, întrucât nu modifică limitele de pedeapsă și nu instituie o sancțiune nouă, ci intervine asupra condițiilor de executare a pedepsei aplicate de instanță. Liberarea condiționată nu constituie un drept fundamental al persoanei condamnate, ci o vocație legală supusă condițiilor stabilite de legiutor.
+
+În conformitate cu art. 15 alin. (2) din Constituție privind neretroactivitatea legii, proiectul prevede aplicarea noii reglementări numai faptelor săvârșite după intrarea în vigoare a legii, evitând astfel orice aplicare retroactivă a unei dispoziții mai severe.
+
+Proiectul este elaborat cu respectarea exigențelor de claritate, previzibilitate și sistematizare prevăzute de Legea nr. 24/2000. Norma este formulată explicit, prin introducerea unui alineat distinct care stabilește derogarea de la regula generală, asigurând integrarea coerentă în structura art. 99 Cod penal.
+
+Prin această intervenție legislativă se urmărește consolidarea funcției de prevenție generală și specială a pedepsei, reafirmarea protecției sporite acordate dreptului la viață și întărirea încrederii publice în fermitatea reacției statului față de cele mai grave forme de violență letală.
+
+Față de considerentele expuse, adoptarea prezentei legi se impune ca o măsură necesară pentru adaptarea politicii penale la realitățile sociale actuale, pentru consolidarea funcției de protecție socială a pedepsei și pentru asigurarea unei protecții sporite a valorilor fundamentale ale societății.

@@ -1,0 +1,99 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENAT
+
+## LEGE
+
+' Parliamentul României adoptă prezenta
+
+## LEGE
+
+# privind recunoașterea performanței de excelență în educație și instituirea unor forme de sprijin pentru olimpicii internaționali și cadrele didactice care i-au pregătit
+
+Parlamentul României adoptă prezenta lege:
+
+## Art. 1 Scopul legii
+
+Prezenta lege are ca scop recunoașterea și stimularea performanței educaționale de nivel internațional, prin instituirea unor măsuri de sprijin material pentru elevii și studenții care au obținut rezultate de excelență la olimpiadele școlare internaționale, precum și pentru cadrele didactice care au contribuit în mod direct și esențial la formarea acestora.
+
+## Art. 2 Definiții
+
+În sensul prezentei legi:
+
+a) prin olimpici internaționali se înțelege elevii sau studenții care au obținut medalii de aur, argint sau bronz ori mențiuni speciale la olimpiadele școlare internaționale recunoscute de Ministerul Educației;
+
+b) prin cadre didactice coordonatoare se înțelege profesorii care au pregătit în mod direct olimpicii internaționali, conform evidențelor oficiale ale Ministerului Educației.
+
+## Art. 3 Beneficiari și condiții
+
+(1) Beneficiază de măsurile prevăzute de prezenta lege olimpicii internaționali care îndeplinesc cumulativ următoarele condiții:
+
+a) dețin cetățenia română;
+
+b) au domiciliul stabil în România la data solicitării și pe întreaga durată a acordării beneficiilor;
+
+c) nu au fost condamnați definitiv pentru infracțiuni săvârșite cu intenție,
+
+e) beneficiarul nu deține și nu derulează un contract individual de muncă încheiat cu un angajator din afara României.
+
+(2) Cadrele didactice coordonatoare beneficiază de măsurile prevăzute de prezenta lege dacă își desfășoară activitatea în cadrul sistemului național de învățământ și au domiciliul în România.
+
+## Art. 4 Formele de sprijin pentru olimpicii internaționali
+
+(1) Olimpici internaționali pot opta, în condițiile prezentei legi, pentru una dintre următoarele forme de sprijin:
+
+a) acordarea unei rente de merit cu durată determinată;
+
+b) acordarea unor facilități fiscale.
+
+(2) Opțiunea este exprimată în scris și este irevocabilă pe durata aplicării formei de sprijin alese.
+
+## Art. 5 Renta de merit pentru olimpicii internaționali
+
+(1) Renta de merit se acordă pe o perioadă de maximum 10 ani consecutivi, începând cu anul următor obținerii rezultatului sau, după caz, de la data împlinirii vârstei de 18 ani.
+
+(2) Cuantumul rentei de merit se stabilește după cum urmează:
+
+a) medalie de aur – până la 50% din salariul mediu brut pe economie;
+
+b) medalie de argint – până la 35% din salariul mediu brut pe economie;
+
+c) medalie de bronz sau mențiune specială – până la 20% din salariul mediu brut pe economie.
+
+(3) Dreptul la rentă se suspendă de drept pe durata pierderii domiciliului în România.
+
+## Art. 6 Facilități fiscale pentru olimpicii internaționali
+
+(1) Olimpici internaționali care optează pentru facilități fiscale pot beneficia, pe o perioadă de maximum 10 ani, de:
+
+a) acordarea scutirii integrale de impozit pentru clădirile și terenurile aflate în proprietate personală, aferente unei singure locuințe, precum și pentru un singur autoturism aflat în proprietatea contribuabilului,
+
+## Art. 7 Sprijin pentru cadrele didactice coordonatoare
+
+(1) Cadrelor didactice care au pregătit olimpici internaționali li se aplică, în mod corespunzător, drepturile recunoscute olimpicilor potrivit art. 5 alin. (2) și (3).
+
+## Art. 8 Autoritatea competentă
+
+Ministerul Educației, în colaborare cu Ministerul Finanțelor, elaborează normele metodologice de aplicare a prezentei legi în termen de 60 de zile de la publicare.
+
+## Art. 9 Finanțare
+
+Sumele necesare aplicării prezentei legi se asigură de la bugetul de stat, prin bugetul Ministerului Educației, fără afectarea finanțării de bază a unităților de învățământ.
+
+## Art. 10 Dispoziții finale
+
+Prezenta lege intră în vigoare la 30 de zile de la data publicării în Monitorul Oficial al României, Partea I.
+
+PREȘEDINTELE
+
+PREȘEDINTELE
+
+CAMEREI DEPUTAȚILOR
+
+SORIN GRINDEANU
+
+SENATULUI
+
+MIRCEA ABRUDEAN

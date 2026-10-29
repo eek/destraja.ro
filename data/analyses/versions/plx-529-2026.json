@@ -1,0 +1,144 @@
+{
+  "slug": "plx-529-2026",
+  "billId": "PL-x 529/2026",
+  "updatedAt": "2026-10-29T12:53:49.870Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L458FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Cine aprobă înțelegerile amiabile ale statului: Guvernul peste 500.000 lei, ministrul sub prag",
+      "summaryTlDr": "Idee bună, scriere grăbită. Legea umple un gol real și obligă Guvernul să aprobe tranzacțiile mari, dar lasă un prag ușor de ocolit, o regulă de evaluare care nu acoperă toate cazurile și nicio obligație de publicare. Nu e periculoasă pentru cetățeni, dar păzește prost patrimoniul statului.",
+      "scores": {
+        "agy": 6,
+        "claude": 4,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/20/9/se529.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Cine aprobă înțelegerile la amiabil prin care statul închide procese și dispute de avere",
+      "summaryTlDr": "Lege tehnică și în mare utilă. Stabilește cine aprobă tranzacțiile statului și cere memorandum, evaluare și justificare pentru cele mari. Punctul slab sunt tranzacțiile de până la 500.000 lei: textul nu spune cum se calculează valoarea lor, nu interzice împărțirea și nu cere publicarea.",
+      "scores": {
+        "agy": 5,
+        "claude": 3,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a lăsat regulile neschimbate; a corectat doar un termen despre cine calculează valoarea",
+      "summary": "Tranzacțiile statului se aprobă la fel ca inițial: prin hotărâre de Guvern pentru imobile și peste 500.000 lei, prin ordin de ministru în rest. Acum textul spune corect că valoarea o calculează inițiatorul hotărârii de Guvern, nu al unei „propuneri legislative”; riscurile rămân.",
+      "changes": [
+        {
+          "title": "Clar cine calculează valoarea tranzacțiilor aprobate de Guvern",
+          "text": "La art. 364² alin. (4), obligația de a calcula valoarea tranzacției revine acum inițiatorului proiectului de hotărâre de Guvern, nu „inițiatorului propunerii legislative”, termen nepotrivit pentru o hotărâre.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 364² alin. (4)",
+          "before": "În toate cazurile, inițiatorul propunerii legislative prevăzute la alin. (1) lit. a) și b) determină valoarea tranzacției",
+          "after": "În toate cazurile, inițiatorul proiectului de hotărâre prevăzut la alin.(1) lit. a) și b) determină valoarea tranzacției",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Nicio interdicție de a împărți o tranzacție mare în mai multe sub prag",
+            "major": true,
+            "article": "art. 364² alin. (1)"
+          },
+          {
+            "text": "Deși scrie «în toate cazurile», regula de evaluare nu acoperă tranzacțiile aprobate prin ordin",
+            "major": true,
+            "article": "art. 364² alin. (4)"
+          },
+          {
+            "text": "Pragul de 500.000 lei e fix în lei și nu se actualizează cu inflația",
+            "major": false,
+            "article": "art. 364² alin. (1)"
+          },
+          {
+            "text": "Imobilele statului sub 500.000 lei intră și la HG, și la ordin de ministru",
+            "major": false,
+            "article": "art. 364² alin. (1)"
+          },
+          {
+            "text": "Nu e clar ce valoare contează: ce dă statul, ce primește sau diferența",
+            "major": false,
+            "article": "art. 364² alin. (4)"
+          },
+          {
+            "text": "Nicio metodă de evaluare pentru creanțe sau alte drepturi decât imobilele",
+            "major": false,
+            "article": "art. 364² alin. (4)"
+          },
+          {
+            "text": "Memorandumul, raportul de evaluare și textul tranzacției nu trebuie publicate",
+            "major": false,
+            "article": "art. 364² alin. (2)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Tranzacțiile cu imobilele private ale statului se aprobă prin hotărâre de Guvern",
+            "major": true,
+            "article": "art. 364² alin. (1)"
+          },
+          {
+            "text": "Tranzacțiile de peste 500.000 lei cer hotărâre de Guvern, nu doar ordin de ministru",
+            "major": true,
+            "article": "art. 364² alin. (1)"
+          },
+          {
+            "text": "Imobilele se evaluează la valoarea de piață, de un evaluator plătit de stat",
+            "major": true,
+            "article": "art. 364² alin. (4)"
+          },
+          {
+            "text": "Guvernul aprobă dinainte, prin memorandum, oportunitatea, negociatorii și mandatul lor",
+            "major": false,
+            "article": "art. 364² alin. (2)"
+          },
+          {
+            "text": "Tranzacțiile aprobate prin hotărâre de Guvern intră în vigoare doar odată cu aceasta",
+            "major": false,
+            "article": "art. 364² alin. (3)"
+          },
+          {
+            "text": "Fiecare act de aprobare trebuie să justifice tranzacția prin interesul public național",
+            "major": false,
+            "article": "art. 364² alin. (5)"
+          },
+          {
+            "text": "Textul spune corect că valoarea o calculează inițiatorul hotărârii de Guvern",
+            "major": false,
+            "article": "art. 364² alin. (4)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 7,
+        "removed": 8,
+        "same": 0.42
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:52:05.298Z"
+    }
+  ]
+}

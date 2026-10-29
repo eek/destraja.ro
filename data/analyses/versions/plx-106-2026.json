@@ -1,0 +1,117 @@
+{
+  "slug": "plx-106-2026",
+  "billId": "PL-x 106/2026",
+  "updatedAt": "2026-10-29T12:35:03.198Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L598FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Primăriile ar putea plăti salariile sportivilor din cluburile private",
+      "summaryTlDr": "O lege de un singur alineat care permite bugetelor locale să plătească salariile din cluburile sportive private. Plafonul este doar pe persoană, nu pe club, pe UAT sau pe buget. Scopul e legitim, dar textul nu are procedură, transparență sau filtru de ajutor de stat, așa că bugetul local poate ajunge sponsorul de salarii al echipei preferate a primăriei.",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/00/6/se111.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Primăriile ar putea plăti salariile și primele sportivilor din cluburile private",
+      "summaryTlDr": "Sprijinul pentru sportul local e legitim, dar textul permite plata salariilor din cluburile private cu bani publici fără plafon pe club, fără procedură transparentă și fără protecție privind ajutorul de stat. Riscul real este dublu: bani locali cheltuiți discreționar, apoi recuperați de la cluburi, cu dobândă, dacă intervine Comisia Europeană.",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a păstrat textul neschimbat: autoritățile locale pot da până la ~145.000 lei/an de persoană",
+      "summary": "Senatul a adoptat textul inițiatorului fără nicio schimbare de fond. Diferă doar formula de adoptare și semnăturile. Rămân aceleași riscuri: ~145.000 lei/an de persoană din bani locali, fără plafon pe club, fără selecție competitivă și fără transparență.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Până la ~36 salarii minime/an de persoană, peste 145.000 lei, din bugete locale",
+            "major": true,
+            "article": "art. unic, alin. (3¹)"
+          },
+          {
+            "text": "Niciun plafon pe club, pe număr de persoane sau ca procent din buget",
+            "major": true,
+            "article": "art. unic, alin. (3¹)"
+          },
+          {
+            "text": "Fără selecție competitivă sau criterii; „pot” lasă banii la discreția politică locală",
+            "major": true,
+            "article": "art. unic, alin. (3¹)"
+          },
+          {
+            "text": "Nu cere legătura clubului cu comunitatea, contract cu obiective sau lipsa datoriilor la buget",
+            "major": true,
+            "article": "art. unic, alin. (3¹)"
+          },
+          {
+            "text": "„Colectiv tehnic”: neclar dacă plafonul e pentru tot colectivul sau fiecare membru",
+            "major": true,
+            "article": "art. unic, alin. (3¹)"
+          },
+          {
+            "text": "Nicio obligație de a publica contractele, sumele și beneficiarii",
+            "major": false,
+            "article": "art. unic, alin. (3¹)"
+          },
+          {
+            "text": "„De orice altă natură” poate acoperi contracte civile, drepturi de imagine, intermediari",
+            "major": false,
+            "article": "art. unic, alin. (3¹)"
+          },
+          {
+            "text": "Nu spune cine stabilește obiectivul „final sau intermediar” pentru prime",
+            "major": false,
+            "article": "art. unic, alin. (3¹)"
+          },
+          {
+            "text": "„Pe an”: neclar dacă e an calendaristic sau sezon competițional",
+            "major": false,
+            "article": "art. unic, alin. (3¹)"
+          },
+          {
+            "text": "Greșeală de redactare în text: „prime de victoriei”",
+            "major": false,
+            "article": "art. unic, alin. (3¹)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Primele sunt limitate: maximum 12 pe an, câte 0,5 salarii minime",
+            "major": false,
+            "article": "art. unic, alin. (3¹)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 4,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:34:45.799Z"
+    }
+  ]
+}

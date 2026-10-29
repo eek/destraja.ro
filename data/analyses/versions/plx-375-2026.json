@@ -1,0 +1,162 @@
+{
+  "slug": "plx-375-2026",
+  "billId": "PL-x 375/2026",
+  "updatedAt": "2026-10-29T12:27:15.198Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L184FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Rentă lunară sau scutiri de impozit pentru olimpicii internaționali și profesorii lor",
+      "summaryTlDr": "Ideea e bună și nu impune nimic nimănui, dar textul e neterminat: lipsesc litere și paragrafe, sumele sunt doar plafoane, renta profesorilor nu are termen, iar cine lucrează din România pentru o firmă străină pierde sprijinul. Fără fișă financiară, legea riscă să fie respinsă sau declarată neconstituțională.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/300/70/5/se410.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Rentă pe 10 ani sau scutiri de impozit pentru medaliații la olimpiade internaționale și profesorii lor",
+      "summaryTlDr": "Intenția e lăudabilă și legea nu face rău nimănui direct, dar textul e scris în grabă. Sumele sunt doar „până la”, nu se spune dacă se plătesc lunar sau anual, nu există reguli de cumul, renta profesorilor nu are durată, iar lit. d) taie renta exact olimpicului rămas în țară care lucrează remote pentru o firmă străină. Fără fișă financiară, riscă să fie respinsă la CCR sau să rămână neaplicabilă.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a corectat doar forma: renta, condițiile și scutirile de impozit au rămas aceleași",
+      "summary": "Senatul a corectat numerotarea, punctuația și numele ministerului, fără schimbări de fond. Problemele rămân: renta e doar un plafon fără minim, renta profesorilor nu are durată, iar scutirea de impozite locale nu e compensată primăriilor.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Renta are doar plafon („până la”), fără minim; suma o decid normele ministerului",
+            "major": true,
+            "article": "art. 5 alin. (2)"
+          },
+          {
+            "text": "Nu se spune dacă renta e lunară sau anuală, nici indicatorul salarial folosit",
+            "major": true,
+            "article": "art. 5 alin. (2)"
+          },
+          {
+            "text": "Lista olimpiadelor recunoscute nu apare în lege; ministerul decide cine intră",
+            "major": true,
+            "article": "art. 2 lit. a)"
+          },
+          {
+            "text": "Olimpicul angajat remote la firmă străină pierde beneficiul; cel cu PFA sau SRL nu",
+            "major": true,
+            "article": "art. 3 alin. (1) lit. d)"
+          },
+          {
+            "text": "Pentru mai multe medalii, legea nu spune dacă rentele se cumulează sau nu",
+            "major": true,
+            "article": "art. 5"
+          },
+          {
+            "text": "Nu se spune dacă contează medaliile obținute înainte de intrarea în vigoare a legii",
+            "major": true,
+            "article": "art. 5 alin. (1)"
+          },
+          {
+            "text": "Renta profesorilor nu are durată și nici dată de început",
+            "major": true,
+            "article": "art. 7"
+          },
+          {
+            "text": "Neclar: câte rente primește un profesor și cum se împarte între mai mulți profesori",
+            "major": true,
+            "article": "art. 7"
+          },
+          {
+            "text": "Scutirea de impozite locale lovește bugetele primăriilor, fără nicio compensare de la stat",
+            "major": true,
+            "article": "art. 6, art. 9"
+          },
+          {
+            "text": "Începutul rentei e ambiguu: anul de după medalie sau împlinirea a 18 ani",
+            "major": false,
+            "article": "art. 5 alin. (1)"
+          },
+          {
+            "text": "Nu se spune ce urmează dacă olimpicul se angajează pe parcurs la firmă străină",
+            "major": false,
+            "article": "art. 3 alin. (1) lit. d), art. 5 alin. (3)"
+          },
+          {
+            "text": "Scutirea, pusă în afara Codului fiscal, intră în vigoare contrar art. 4 din cod",
+            "major": false,
+            "article": "art. 6, art. 10"
+          },
+          {
+            "text": "Nu e clar cum ajung studenții la „olimpiade școlare” internaționale",
+            "major": false,
+            "article": "art. 2 lit. a)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Olimpicii internaționali pot primi rentă de merit până la 10 ani sau scutiri fiscale",
+            "major": true,
+            "article": "art. 4, art. 5, art. 6"
+          },
+          {
+            "text": "Și profesorii care i-au pregătit pe olimpici primesc sprijin",
+            "major": true,
+            "article": "art. 7"
+          },
+          {
+            "text": "Plafoanele cresc cu valoarea medaliei: 20%, 35%, 50% din salariul mediu brut",
+            "major": true,
+            "article": "art. 5 alin. (2)"
+          },
+          {
+            "text": "Condiții simple de acces: cetățenie, domiciliu în România, fără condamnări pentru fapte intenționate",
+            "major": true,
+            "article": "art. 3 alin. (1)"
+          },
+          {
+            "text": "Beneficiarul alege în scris între rentă și scutirea de impozite",
+            "major": false,
+            "article": "art. 4"
+          },
+          {
+            "text": "Renta se plătește de la bugetul de stat, fără a tăia din finanțarea școlilor",
+            "major": false,
+            "article": "art. 9"
+          },
+          {
+            "text": "Ministerul are termen de 60 de zile pentru normele de aplicare",
+            "major": false,
+            "article": "art. 8"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 18,
+        "removed": 18,
+        "same": 0.31
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:26:24.847Z"
+    }
+  ]
+}

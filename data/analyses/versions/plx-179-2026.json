@@ -1,0 +1,92 @@
+{
+  "slug": "plx-179-2026",
+  "billId": "PL-x 179/2026",
+  "updatedAt": "2026-10-29T12:45:23.657Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L001FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 1.7,
+      "riskLevel": "green",
+      "plainTitle": "Fondul care îți garantează depozitul bancar poate executa rapid garanțiile primite de la bănci",
+      "summaryTlDr": "Lege tehnică de o singură literă, fără taxe, sancțiuni sau obligații pentru cetățeni ori firme: pune Fondul de garantare a depozitelor bancare pe lista entităților protejate de OG 9/2004. Este utilă pentru stabilitatea financiară, iar scăpările găsite sunt doar redacționale și de documentare.",
+      "scores": {
+        "agy": 1,
+        "claude": 2,
+        "codex": 2
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/70/9/se191.pdf",
+      "source": "cdep.ro",
+      "riskScore": 1.7,
+      "riskLevel": "green",
+      "plainTitle": "Fondul care îți garantează depozitele poate folosi rapid garanțiile primite de la bănci",
+      "summaryTlDr": "Lege tehnică, utilă și fără costuri pentru cetățeni: închide o lacună existentă din 2015, prin care FGDB nu beneficia de regimul special al garanțiilor financiare. Am doar observații de redactare, nimic de fond.",
+      "scores": {
+        "agy": 1,
+        "claude": 2,
+        "codex": 2
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat același text; s-au adăugat doar trimiteri de formă la Legile 311 și 312/2015",
+      "summary": "Senatul a adăugat doar trimiterea „cu modificările și completările ulterioare” la Legile 311/2015 și 312/2015, o chestiune de formă. Fondul e același: FGDB poate încheia contracte de garanție financiară protejate, fără obligații noi pentru cetățeni sau firme.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Împrumuturile de la alte scheme din UE ori alte instituții pot rămâne neprotejate",
+            "major": false,
+            "article": "art. unic"
+          }
+        ],
+        "good": [
+          {
+            "text": "Garanțiile date de bănci către FGDB rămân executabile rapid, chiar în insolvența băncii",
+            "major": true,
+            "article": "art. unic"
+          },
+          {
+            "text": "FGDB se poate împrumuta mai ieftin și rapid ca să plătească deponenții în criză",
+            "major": true,
+            "article": "art. unic"
+          },
+          {
+            "text": "Nu creează taxe, obligații, autorizări sau sancțiuni pentru cetățeni ori IMM-uri",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Corespunde Ghidului EBA/GL/2015/09 privind garantarea angajamentelor de plată ale băncilor",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Impactul bugetar declarat este nul, ceea ce e plauzibil",
+            "major": false,
+            "article": null
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 3,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:44:46.318Z"
+    }
+  ]
+}

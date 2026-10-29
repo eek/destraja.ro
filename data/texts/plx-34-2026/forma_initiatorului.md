@@ -1,0 +1,13 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENATUL
+
+## LEGE
+
+# privind aprobarea Ordonanței de urgență a Guvernului nr. 74/2025 pentru prorogarea unor termene privind stabilirea unor măsuri pentru asigurarea facilităților la transport pentru anumite categorii de persoane
+
+Parlamentul României adoptă prezenta lege.
+
+Articol unic. – Se aprobă Ordonanța de urgență a Guvernului nr. 74/2025 pentru prorogarea unor termene privind stabilirea unor măsuri pentru asigurarea facilităților la transport pentru anumite categorii de persoane .

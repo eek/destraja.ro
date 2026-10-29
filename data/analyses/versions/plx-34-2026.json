@@ -1,0 +1,204 @@
+{
+  "slug": "plx-34-2026",
+  "billId": "PL-x 34/2026",
+  "updatedAt": "2026-10-29T13:54:49.831Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L588FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Pensionarii și veteranii folosesc tichetele de călătorie pe hârtie tot anul 2026",
+      "summaryTlDr": "Lege benignă și necesară: fără ea, pensionarii, veteranii și văduvele de război ar fi pierdut de la 1 ianuarie 2026 gratuitățile și reducerile la transport. Problema reală e alta: statul amână din 2011 un card de transport care nu a funcționat niciodată, iar noul termen expiră peste două luni.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/30/4/se18.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Pensionarii și veteranii de război își păstrează tichetele de călătorie pe hârtie în 2026",
+      "summaryTlDr": "Lege tehnică și benefică. Amână cu încă un an trecerea la un card de transport care nu există, ca pensionarii și veteranii să nu rămână fără gratuități și reduceri din 1 ianuarie 2026. Problema reală e alta: la 15 ani după OG 8/2011, statul tot nu are soluția promisă.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl034_cd034_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "Biletele de tren gratuite sau reduse pentru pensionari și veterani mai țin un an, iar în lege s-au strecurat și amânări la taxarea rutieră",
+      "summaryTlDr": "Partea despre pensionari este utilă și inofensivă: menține tichetele și taloanele de călătorie în 2026. Camera decizională a lipit însă de ea, fără nicio motivare, amânări în Legea tarifelor rutiere și încetarea rovinietelor clasice. Acesta este un călăreț legislativ vulnerabil la CCR pe bicameralism.",
+      "scores": {
+        "agy": 3,
+        "claude": 5,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Nicio schimbare de fond: Senatul aprobă ordonanța fără modificări, ca în forma inițiatorului",
+      "summary": "Acum legea de aprobare precizează doar data ordonanței și numărul Monitorului Oficial; conținutul e același ca inițial. Tichetele și taloanele de transport rămân valabile până la 31 decembrie 2026, iar costul lor tot nu e cuantificat.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Expunerea spune că impactul bugetar nu se aplică; costul gratuităților nu e cuantificat",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Sistemul pe card nu funcționează; ordonanța doar amână termenul, fără alternativă",
+            "major": false,
+            "article": "art. I din OUG 74/2025"
+          }
+        ],
+        "good": [
+          {
+            "text": "Tichetele gratuite și taloanele cu reducere de 50% rămân valabile până la 31.12.2026",
+            "major": true,
+            "article": "art. I din OUG 74/2025"
+          },
+          {
+            "text": "Termenele se leagă fără gol: 31 decembrie 2026, apoi 1 ianuarie 2027",
+            "major": false,
+            "article": "art. II din OUG 74/2025"
+          },
+          {
+            "text": "Ordonanța e aprobată fără modificări, fără taxe, sancțiuni sau obligații noi",
+            "major": false,
+            "article": "art. unic"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:52:57.683Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_riscant",
+      "headline": "Camera a adăugat măsuri rutiere: rovinietele din OG 15/2002 își pierd valabilitatea la 1.10.2026",
+      "summary": "Inițial legea doar aproba prelungirea gratuităților la transport. Acum include și reguli rutiere, fără legătură și fără motivare: rovinietele din OG 15/2002 își pierd valabilitatea de la 1.10.2026, fără regulă pentru perioada deja plătită, iar mai multe termene din Legea 226/2023 se amână.",
+      "changes": [
+        {
+          "title": "Rovinietele din OG 15/2002 își pierd valabilitatea",
+          "text": "Art. II: de la 1.10.2026 rovinietele emise după OG 15/2002 nu mai sunt valabile, cu excepția celor pentru vehiculele de la art. 4 alin. (1). Nu se spune ce se întâmplă cu perioada deja plătită.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. II",
+          "before": null,
+          "after": "Începând cu data de 1 octombrie 2026, rovinietele emise în baza prevederilor Ordonanței Guvernului nr. 15/2002, aprobată cu modificări și completări prin Legea nr. 424/2002, cu modificările și completările ulterioare, își încetează valabilitatea",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Șapte termene din legea tarifelor rutiere, amânate",
+          "text": "Art. III alin. (1) amână până la 1.10.2026 termenele din șapte alineate ale Legii 226/2023, fără să le reproducă. Cititorul trebuie să combine trei acte ca să afle regula aplicabilă.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. III alin. (1)",
+          "before": null,
+          "after": "Termenele prevăzute la art. 4 alin. (1), art. 11 alin. (1), art. 12 alin. (1), art. 24 alin. (1) și (3) și art. 29 alin. (1) și (2) din Legea nr. 226/2023",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "O prevedere rutieră se aplică abia din 2027",
+          "text": "Art. III alin. (2) amână separat aplicarea art. 11 alin. (2) din Legea 226/2023 până la 15.01.2027, fără nicio explicație.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. III alin. (2)",
+          "before": null,
+          "after": "Prevederile art. 11 alin. (2) din Legea nr. 226/2023",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Rovinietele din OG 15/2002 își pierd valabilitatea la 1.10.2026, fără regulă pentru perioada plătită",
+            "major": true,
+            "article": "art. II"
+          },
+          {
+            "text": "Măsuri rutiere fără legătură cu ordonanța, adăugate în legea de aprobare",
+            "major": false,
+            "article": "art. II-III"
+          },
+          {
+            "text": "Expunerea de motive nu spune nimic despre prevederile rutiere",
+            "major": false,
+            "article": "art. II-III"
+          },
+          {
+            "text": "Șapte termene amânate în bloc, nereproduse; trebuie combinate trei acte",
+            "major": false,
+            "article": "art. III alin. (1)"
+          },
+          {
+            "text": "Art. 11 alin. (2) amânat separat la 15.01.2027, fără explicație",
+            "major": false,
+            "article": "art. III alin. (2)"
+          },
+          {
+            "text": "Impactul bugetar al gratuităților nu e cuantificat în expunerea de motive",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Tichetele gratuite și taloanele cu reducere de 50% rămân în uz până la 31.12.2026",
+            "major": true,
+            "article": "art. I (art. I din OUG 74/2025)"
+          },
+          {
+            "text": "Vehiculele de la art. 4 alin. (1) își păstrează rovinietele până la expirare",
+            "major": true,
+            "article": "art. II"
+          },
+          {
+            "text": "Termenul din OG 4/2013 trece la 1.01.2027, fără gol față de gratuități",
+            "major": false,
+            "article": "art. I (art. II din OUG 74/2025)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 8,
+        "removed": 3,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:54:49.831Z"
+    }
+  ]
+}

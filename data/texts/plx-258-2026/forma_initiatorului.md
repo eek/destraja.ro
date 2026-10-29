@@ -1,0 +1,23 @@
+# Parlamentul României
+
+Camera Deputaților
+
+Senatul
+
+Lege
+
+pentru modificarea și completarea Legii nr. 134/2010 privind Codul de procedură civilă - Republicată
+
+Parlamentul României adoptă prezenta lege.
+
+Articol unic. – Legea nr. 134/2010 privind Codul de procedură civilă, republicată în Monitorul Oficial al României, Partea I, nr. 247 din data de 10 aprilie 2015, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 938, după alineatul (3) se introduce un nou alineat, alin. (3¹), cu următorul cuprins:
+
+(3¹) Cheltuielile ocazionate de efectuarea evaluării medicale și a raportului de evaluare psihologică nu vor fi impuse în sarcina persoanei ocrotite/examinate sau familiei acesteia.
+
+2\. La articolul 940 alineatul (3) se modifică și va avea următorul cuprins:
+
+(3) La termenul de judecată, instanța este obligată să îl asculte, în camera de consiliu, pe cel a cărui punere sub ocrotire este cerută; punându-i și întrebări pentru a constata necesitatea și oportunitatea instituirii unei măsuri de ocrotire, precum și opinia sa cu privire la regimul de ocrotire și la persoana ocrotitorului. Dacă este în interesul celui a cărui punere sub ocrotire este cerută, acesta va fi ascultat la locuința sa, acolo unde este îngrijit, în alt loc sau prin mijloace tehnice online apreciat de instanță ca fiind potrivit.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.

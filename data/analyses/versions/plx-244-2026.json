@@ -1,0 +1,202 @@
+{
+  "slug": "plx-244-2026",
+  "billId": "PL-x 244/2026",
+  "updatedAt": "2026-10-29T12:54:52.990Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L608FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Primăriile cu datorii își pot îngheța executările și renegocia datoriile în instanță",
+      "summaryTlDr": "Ideea unei renegocieri sub controlul instanței pentru primăriile sufocate de datorii este legitimă. Textul le permite însă să înghețe executările și să-și reducă datoriile pe seama furnizorilor și a propriilor salariați, are definiții vagi și erori de redactare. Fără protecții clare pentru salarii și pentru creanțele IMM-urilor, legea riscă să devină o ștergere de datorii plătită de creditori.",
+      "scores": {
+        "agy": 7,
+        "claude": 6,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/200/40/4/se263.pdf",
+      "source": "cdep.ro",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Primăriile cu datorii pot cere instanței oprirea executărilor și reducerea datoriilor",
+      "summaryTlDr": "Un colac de salvare pentru primăriile strânse de decontările întârziate de la centru este legitim. Textul însă copiază insolvența firmelor fără praguri de acces și are erori de trimitere. În plus, riscă să le mute pe umerii furnizorilor și salariaților, prin reduceri de creanțe, costul întârzierilor statului.",
+      "scores": {
+        "agy": 7,
+        "claude": 6,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a păstrat fondul textului inițiatorului; s-au schimbat doar numerotarea și punctuația",
+      "summary": "În textul comparat, Senatul a schimbat doar numerotarea, punctuația și grafia. Fondul rămâne: o definiție vagă a dificultății permite oprirea executărilor silite, iar datoriile pot fi plătite doar parțial prin planul votat de creditori.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "„Dificultatea financiară” e vagă, fără praguri; aproape orice UAT poate opri executările",
+            "major": true,
+            "article": "art. 4 alin. (1) lit. n)"
+          },
+          {
+            "text": "Planul votat de creditori poate șterge o parte din datorii, fără acordul fiecăruia",
+            "major": true,
+            "article": "art. 3 pct. 1, art. 4 alin. (1) lit. r)"
+          },
+          {
+            "text": "Salariații sunt creditori; salariile restante pot fi plătite doar parțial prin plan",
+            "major": true,
+            "article": "art. 4 alin. (1) lit. k)"
+          },
+          {
+            "text": "Toate executările silite se suspendă de drept, iar suspendarea nu poate fi ridicată",
+            "major": true,
+            "article": "art. 25 alin. (1)-(2)"
+          },
+          {
+            "text": "Dobânzile și penalitățile datorate creditorilor nu curg până la omologarea planului",
+            "major": true,
+            "article": "art. 25 alin. (7)"
+          },
+          {
+            "text": "Furnizorii nu pot rezilia contractele pentru datorii vechi până la omologare",
+            "major": true,
+            "article": "art. 26 alin. (1)"
+          },
+          {
+            "text": "Clauzele contractuale legate de starea de dificultate a UAT sunt considerate nescrise",
+            "major": true,
+            "article": "art. 9 alin. (1)"
+          },
+          {
+            "text": "Primarul poate cere concordatul singur, chiar dacă consiliul local refuză",
+            "major": true,
+            "article": "art. 10 alin. (2)"
+          },
+          {
+            "text": "Art. 12 permite ridicarea suspendării, dar art. 25 o interzice",
+            "major": false,
+            "article": "art. 12 alin. (1) lit. f), art. 25 alin. (2)"
+          },
+          {
+            "text": "UAT își alege administratorul care îi atestă starea de dificultate",
+            "major": false,
+            "article": "art. 17 alin. (2), art. 18 alin. (3)"
+          },
+          {
+            "text": "Titlu greșit al OUG 46/2013 și trimitere la lit. n) în loc de m)",
+            "major": false,
+            "article": "art. 4 alin. (2)"
+          },
+          {
+            "text": "Textul își spune „ordonanță de urgență” sau „titlu”, deși e lege",
+            "major": false,
+            "article": "art. 4 alin. (1) lit. k), art. 7 alin. (4), art. 9 alin. (1), art. 11 alin. (2)"
+          },
+          {
+            "text": "Trimiteri interne greșite: „prezentul alineat”, „art.1” în loc de art. 19",
+            "major": false,
+            "article": "art. 6 alin. (8), art. 20 alin. (1)"
+          },
+          {
+            "text": "Denumiri diferite pentru același administrator: „judiciar concordatar” și „concordatar”",
+            "major": false,
+            "article": "art. 4 alin. (1) lit. a) și i)"
+          },
+          {
+            "text": "Fraza despre apelul contra prelungirii termenului de 90 zile e trunchiată",
+            "major": false,
+            "article": "art. 25 alin. (5)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Executarea silită pentru salarii nu se suspendă automat",
+            "major": true,
+            "article": "art. 25 alin. (3)"
+          },
+          {
+            "text": "Salariații primesc prin plan cel puțin cât ar obține prin executare silită",
+            "major": true,
+            "article": "art. 23 alin. (2)"
+          },
+          {
+            "text": "Plan de maximum 36+12 luni; minimum 10% plătit în primul an",
+            "major": true,
+            "article": "art. 23 alin. (5)"
+          },
+          {
+            "text": "Apel contra omologării pentru creanțe fictive, cu restituirea plăților nedatorate",
+            "major": true,
+            "article": "art. 7 alin. (2)"
+          },
+          {
+            "text": "UAT care a eșuat un concordat în ultimii 3 ani nu poate repeta",
+            "major": true,
+            "article": "art. 8 alin. (1)"
+          },
+          {
+            "text": "Fără plan depus în 90 de zile (prelungibil cu 45), creditorii pot executa",
+            "major": false,
+            "article": "art. 25 alin. (4)-(5)"
+          },
+          {
+            "text": "Dificultatea trebuie dovedită prin raport cu indicatori financiari și cauze",
+            "major": false,
+            "article": "art. 8 alin. (2)"
+          },
+          {
+            "text": "Registru public al concordatelor, publicat pe site-ul Ministerului Finanțelor",
+            "major": false,
+            "article": "art. 11 alin. (1)"
+          },
+          {
+            "text": "Încheierea de deschidere se publică pe site-ul UAT și al administratorului",
+            "major": false,
+            "article": "art. 18 alin. (4)"
+          },
+          {
+            "text": "Orice persoană interesată poate contesta tabelul preliminar de creanțe în 7 zile",
+            "major": false,
+            "article": "art. 21 alin. (4)"
+          },
+          {
+            "text": "Creditorii cu cel puțin 30% din creanțe pot cere convocarea ședinței",
+            "major": false,
+            "article": "art. 15 alin. (1)"
+          },
+          {
+            "text": "Judecătorul verifică trimestrial procedura pe baza rapoartelor administratorului",
+            "major": false,
+            "article": "art. 12 alin. (2)"
+          },
+          {
+            "text": "Planul trebuie să prevadă măsuri pentru continuarea serviciilor publice locale",
+            "major": false,
+            "article": "art. 23 alin. (1) lit. l)"
+          }
+        ],
+        "partial": true
+      },
+      "diff": {
+        "added": 161,
+        "removed": 153,
+        "same": 0.49
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:53:54.226Z"
+    }
+  ]
+}

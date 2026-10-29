@@ -1,0 +1,137 @@
+{
+  "slug": "plx-102-2026",
+  "billId": "PL-x 102/2026",
+  "updatedAt": "2026-10-29T12:35:03.192Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L576FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 6.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Prețul la gunoi și apă: mai multă putere pentru ANRSC și asociațiile de localități, mai puțină pentru consiliile locale",
+      "summaryTlDr": "Proiectul are ținte reale: tarife blocate în consilii, organizații ale producătorilor care nu finanțează colectarea separată și pierderi mari de apă. Textul e însă scris neglijent și are o problemă constituțională clară: A.N.R.S.C. primește puterea de a aproba și de a modifica, la cererea operatorilor, taxa de salubrizare, o taxă locală pe care Constituția o rezervă consiliilor.",
+      "scores": {
+        "agy": 7,
+        "claude": 6,
+        "codex": 6
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/00/2/se106.pdf",
+      "source": "cdep.ro",
+      "riskScore": 6.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Tarifele la gunoi și apă: ANRSC și asociațiile de primării decid mai mult, consiliile locale mai puțin",
+      "summaryTlDr": "Unele părți sunt utile: procedura de aprobare a tarifelor devine clară, primarul nu mai poate bloca cererea operatorului, iar instalațiile de tratare mecanobiologică intră în lege. Problema este că ANRSC primește dreptul de a aproba și ajusta taxa de salubrizare la cererea operatorilor, deși Constituția lasă taxele locale consiliilor alese. Textul are și trimiteri greșite și o sancțiune automată pentru organizațiile de reciclare.",
+      "scores": {
+        "agy": 7,
+        "claude": 6,
+        "codex": 7
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat tacit proiectul în forma inițiatorului; textul nu s-a schimbat pe fond",
+      "summary": "Senatul nu a modificat proiectul: acesta s-a considerat adoptat tacit în forma inițială, iar diferențele sunt doar de redactare. Rămân aceleași probleme, de pildă A.N.R.S.C. poate crește taxa de salubrizare fără votul consiliului local.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "A.N.R.S.C. ajustează taxa de salubrizare la cererea operatorilor, fără votul consiliului local",
+            "major": true,
+            "article": "art. II pct. 7 și pct. 10 (art. 11 alin. 4 lit. c¹, art. 35 alin. 8 din Legea 10"
+          },
+          {
+            "text": "Colectorii plătesc depozitele și stațiile doar la tarife aprobate de consilii sau ADI",
+            "major": true,
+            "article": "art. II pct. 8 (art. 20 din Legea 101/2006)"
+          },
+          {
+            "text": "Ajustările prețului la apă le aprobă A.N.R.S.C., nu consiliul local sau ADI",
+            "major": true,
+            "article": "art. III pct. 10, 11, 13 și 23 (art. 35 alin. 4, 5¹, 8¹, art. 36⁷ alin. 2 din Le"
+          },
+          {
+            "text": "În ADI, tarifele se aprobă cu majoritatea celor prezenți și obligă și opozanții",
+            "major": true,
+            "article": "art. II pct. 3 și pct. 15 (art. 6 alin. 3, art. 45 alin. 7 din Legea 101/2006)"
+          },
+          {
+            "text": "Primarul inițiază obligatoriu hotărârea de tarif în 5 zile, fără drept de respingere",
+            "major": false,
+            "article": "art. II pct. 15 (art. 45 alin. 2-3 din Legea 101/2006)"
+          },
+          {
+            "text": "Depozitele și stațiile județului pot fi delegate numai prin ADI din care face parte",
+            "major": false,
+            "article": "art. II pct. 4 (art. 7 alin. 4 din Legea 101/2006)"
+          },
+          {
+            "text": "Art. 45 alin. (5) trimite la un alin. (9) care nu există",
+            "major": false,
+            "article": "art. II pct. 15 (art. 45 alin. 5 din Legea 101/2006)"
+          },
+          {
+            "text": "Termenul de 60 de zile nu acoperă ADI și nu are consecință la depășire",
+            "major": false,
+            "article": "art. II pct. 15 (art. 45 alin. 6 din Legea 101/2006)"
+          },
+          {
+            "text": "Art. 10 alin. (5) se contrazice și trimite la o literă abrogată",
+            "major": false,
+            "article": "art. I pct. 3 (art. 10 alin. 5 din Legea 51/2006)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Fond de solidaritate obligatoriu când apa și canalizarea trec de 3% din venitul mediu",
+            "major": true,
+            "article": "art. III pct. 5 (art. 12¹ alin. 9 din Legea 241/2006)"
+          },
+          {
+            "text": "Taxa pentru reciclabile scade cu sumele încasate de la organizațiile producătorilor",
+            "major": true,
+            "article": "art. II pct. 13 (art. 41 alin. 4 din Legea 101/2006)"
+          },
+          {
+            "text": "Organizațiile de răspundere extinsă care nu contractează își pierd licența în 30 de zile",
+            "major": true,
+            "article": "art. II pct. 12 (art. 40 alin. 3¹ din Legea 101/2006)"
+          },
+          {
+            "text": "A.N.R.S.C. amână ajustările anuale de tarif dacă operatorul ratează repetat obiectivele",
+            "major": true,
+            "article": "art. III pct. 24 (art. 36⁷ alin. 2¹ din Legea 241/2006)"
+          },
+          {
+            "text": "Operatorii mari de apă trebuie să prezinte plan de reducere a pierderilor la 20%",
+            "major": true,
+            "article": "art. III pct. 19 (art. 36³ alin. 5 din Legea 241/2006)"
+          },
+          {
+            "text": "Utilizatorii și asociațiile lor trebuie informați și consultați despre strategiile serviciului",
+            "major": false,
+            "article": "art. III pct. 7 (art. 14 lit. f din Legea 241/2006)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 96,
+        "removed": 123,
+        "same": 0.22
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:35:03.192Z"
+    }
+  ]
+}

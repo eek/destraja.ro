@@ -1,0 +1,19 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+privind aprobarea Ordonanței de urgență a Guvernului nr.38/2026 pentru modificarea și completarea unor acte normative
+
+Senatul adoptă prezentul proiect de lege
+
+Articol unic.- Se aprobă Ordonanța de urgență a Guvernului nr.38 din 4 mai 2026 pentru modificarea și completarea unor acte normative, publicată în Monitorul Oficial al României, Partea I, nr. 393 din 8 mai 2026, cu următoarea modificare:
+
+\- Articolele III - XIV se abrogă.
+
+Acest proiect de lege a fost adoptat de Senat în ședința din 26 mai 2026, cu respectarea prevederilor articolului 76 alineatul (1) din Constituția României, republicată.
+
+PREȘEDINTELE ȘENATULUI
+
+MIRCEA'ABRUDEAN

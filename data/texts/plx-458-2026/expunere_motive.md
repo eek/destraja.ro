@@ -1,0 +1,128 @@
+# EXPUNERE DE MOTIVE
+
+pentru completarea art. 2 din Legea nr. 361/2022 privind protecția avertizorilor în interes public
+
+## Situatia premisă:
+
+În prezent, Legea 361/2022 privind protecția avertizorilor în interes public nu menționează expres categoria magistraților ca făcând parte din categoriile de persoane asupra cărora se aplică astăzi prevederile acestei legi (sediul materiei fiind art. 2 din legea amintită).
+
+(1) Prezenta lege se aplică persoanelor care efectuează raportări și care au obținut informațiile referitoare la încălcări ale legii, într-un context profesional. În categoria acestor persoane intră, cel puțin, următoarele:
+
+a) lucrătorii;
+
+b) persoanele care desfãçoară o activitate independentă, în înțelesul art. 49 din Tratatul privind funcționarea Uniunii Europene;
+
+c) acționarii și persoanele care fac parte din organul de administrare, de conducere sau de supraveghere al unei întreprinderi, inclusiv membrii neexecutivi ai consiliului de administrație, precum și voluntarii și stagiarii remunerați sau neremunerați;
+
+d) orice persoană care lucrează sub supravegherea și conducerea persoanei fizice sau juridice cu care s-a încheiat contractul, a subcontractanților și a furnizorilor acesteia.
+
+În ultimii ani a existat o dezbatere în societate cu privire la includerea sau, dimpotrivă, excluderea magistraților de la protecția oferită avertizorilor în interes public în baza legii 361/2022. Înalta Curte de Casație și Justiție, prin decizia nr. 182/2024¹, statuează că magistrații nu ar intra sub incidența Legii 361/2022 pentru că aceasta nu îi prevede în mod expres.
+
+Așadar, lipsa unei mențiuni exprese în legislația primară poate descuraja persoanele care își exercită funcția în cadrul instanțelor de judecată și parchetelor, deci și magistrații, să raporteze nereguli grave, presiuni ierarhice nelegale sau fapte de corupție din interiorul sistemului judiciar, de teamă că acțiunile lor ar putea fi catalogate drept abateri disciplinare sau încălcări ale obligației de rezervă, fără a beneficia de remediile prevăzute pentru avertizori.
+
+¹ Decizia ICCJ se regăsește la următoarea adresă: https://www.scj.ro/1093/Detalii-
+
+jurisprudenta?customQuery%5B0%5D.Key=id&customQuery%5B0%5D.Value=228363#highlight=
+
+## Soluția propusă:
+
+Prezenta propunere legislativă vizează completarea art. 2 alin. (1) din Legea nr. 361/2022, prin includerea explicită a persoanele care își exercită funcția în cadrul instanțelor de judecată și parchetelor în rândul persoanelor care pot avea calitatea de avertizor în interes public.
+
+Modificarea urmărește:
+
+\- Clarificarea statutului juridic: Eliminarea oricărei interpretări care ar exclude judecătorii și procurorii din sfera de aplicare a protecției europene.
+
+\- Consolidarea integrității judiciare: Oferirea unui mecanism sigur prin care magistrații să poată semnala încălcări ale legii fără riscul unor represalii profesionale mascate (transferuri, sancțiuni disciplinare abuzive sau evaluări subjective).
+
+\- Armonizarea cu standardele europene: Alinierea deplină cu recomandările GRECO și cu rapoartele Comisiei Europene privind statul de drept, care subliniază necesitatea protejării „avertizorilor de integritate” în toate sectoarele publice.
+
+Simona SPĂTARU
+
+Senator USR
+
+Oana MURARIU
+
+Deputat USR
+
+CIPRIAN RUS
+
+Senator USR
+
+STELIAN IÓN
+
+ALEXANDRU DIMITRIU
+
+DUMITRU VĂDUVA
+
+/Deputat\\USR
+
+Deputat-USR
+
+Deputat USR
+
+Tabel semnături
+
+Lege pentru pentru completarea art. 2 din Legea nr. 361/2022 privind protecția avertizorilor în interes public
+
+| Nume și prenume | Commătului | Grup parlamentar |
+| --- | --- | --- |
+| ECHEET ADRIAN |  | USR |
+| STEFAN -IUCION IOWNC7 |  | USR |
+| BC-DESEU MONICA |  | USR |
+| Paraschirescu Quodiu |  | USR |
+| BLAGA JAXIIEC |  | USR |
+| HANGAN TOLLYANNA |  | USR |
+| Milain Radu |  | USR |
+| Diana Stoice |  | USR |
+| GMAT GESARGE |  | USR |
+| PLUAR ADOREI |  | USR |
+| ALEPSANDAR/ARIUS-ALICOLAE |  | USR |
+| ATAMASIU CORINA |  | USR |
+| SENIDRGIC VLAD-10AN |  | USR |
+| DAGOESCU CEPAN |  | USR |
+| Rodeaniu Bogolan |  | USR |
+| ALIN STOICE |  | USR |
+
+Lege pentru pentru completarea art. 2 din Legea nr. 361/2022 privind protecția avertizorilor în interes public
+
+DULe OPEpIU
+
+Nume și prenume Semnătură Grup parlamentar MTNMU CĂrAI/ n -ENL Voe SEZASTIN CEDO US & fos Zob VS2 Fu ct Tant UR LL =
+
+ARIS e 7 NS e lac? 121 USA BocHILEANU GEROT VSR corel Mueruk USE CRISTA CstinEp U SR NEQGO, SI TVA Ie
+
+UT
+
+USE
+
+# PARLAMENTUL ROMÂNIEI
+
+Către: Biroul Permanent al Senatului
+
+Subiect: Solicitare co-semnare inițiativă legislativă
+
+19 Martie 2026
+
+Stimate doamne, stimați domni,
+
+Subsemnatul Emanuel-Dumitru Ungureanu, deputat USR Circumscripția 35-Suceava, vă solicit să aprobați cererea de a deveni inițiator al următoarelor propuneri legislative:
+
+\- BP142/11.03.2026 - Propunere legislativă pentru completarea art.2 din Legea nr.361/2022 privind protecția avertizorilor în interes public;
+
+\- BP141/11.03.2026 - Propunere legislativă pentru modificarea art.155 din Legea nr.286/2009 privind Codul Penal;
+
+\- BP162/13.03.2026 - Propunere legislativă pentru desființarea Academiei Oamenilor de Știință din România și pentru abrogarea Legii 31/2007 privind reorganizarea și funcționarea Academiei Oamenilor de Știință din România;
+
+\- BP163/13.03.2026 - Propunere legislativă pentru desființarea Academiei de Științe Medicale și pentru abrogarea Legii nr.264/2004 privind organizarea și funcționarea Academiei de Științe Medicale;
+
+\- BP164/13.03.2026 - Propunere legislativă pentru desființarea Academiei de Științe Tehnice din România și pentru abrogarea Legii nr.230/2008 privind înființarea și funcționarea Academiei de Științe Tehnice din România;
+
+\- BP160/13.03.2026 - Propunere legislativă pentru desființarea Institutului de Studii Avansate pentru Cultura și Civilizația Levantului și pentru abrogarea Legii nr.117/2017 privind înființarea Institutului de Studii Avansate pentru Cultura și Civilizația Levantului;
+
+\- BP161/13.03.2026 - Propunere legislativă pentru desființarea Institutului Român pentru Drepturile Omului și pentru abrogarea Legii nr.9/1991 privind înființarea Institutului Român pentru Drepturile Omului;
+
+\- BP165/13.03.2026 - Propunere legislativă pentru desființarea Institutului Revoluției Române din Decembrie 1989 și pentru abrogarea Legii 556/2004 privind înființarea Institutului Revoluției Române din Decembrie 1989.
+
+Vă mulțumesc,
+
+Emanuel-Dumitru Ungureanu

@@ -1,0 +1,17 @@
+# PARLAMENTUL ROMÂNIEI CAMERA DEPUTAȚILOR
+
+## LEGE
+
+pentru completarea Ordonanței Guvernului nr. 22/2002 privind executarea obligațiilor de plată ale instituțiilor publice, stabilite prin titluri executorii
+
+Camera Deputaților adoptă prezentul proiect de lege.
+
+Articol unic. – După articolul 2 din Ordonanța Guvernului nr. 22/2002 privind executarea obligațiilor de plată ale instituțiilor publice, stabilite prin titluri executorii, publicată în Monitorul Oficial al României, Partea I, nr. 81 din 1 februarie 2002, aprobată cu completări prin Legea nr. 288/2002, cu modificările și completările ulterioare, se introduce un nou articol, art. 2¹, cu următorul cuprins:
+
+„Art. 2¹. – Prevederile art. 2 se aplică în mod corespunzător și sumelor aflate în conturile instituțiilor și autorităților publice deschise la instituțiile de credit, inclusiv în ceea ce privește măsurile de executare silită prin poprire.”
+
+Acest proiect de lege a fost adoptat de Camera Deputaților în ședința din 7 octombrie 2026, cu respectarea prevederilor art. 76 alin. (2) din Constituția României, republicată.
+
+p. PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+NATALIA – ELENA INTOTERO

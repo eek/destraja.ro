@@ -1,0 +1,23 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENAT
+
+Lege pentru completarea Legii nr. 272/2004 privind protecția și promovarea drepturilor copilului
+
+Parlamentul României adoptă prezenta lege.
+
+Art. I. – La Legea nr. 272/2004 privind protecția și promovarea drepturilor copilului, republicată în Monitorul Oficial al României, Partea I, nr. 159 din 5 martie 2014, cu modificările și completările ulterioare, după articolul 34 se introduce un nou articol, art. 34¹, cu următorul cuprins:
+
+## Art. 34¹
+
+(1) În exercitarea dreptului prevăzut la art. 34 alin. (1), furnizorii publici și privați de servicii sociale destinate copilului au obligația de a institui mecanisme accesibile, confidențiale și adaptate vârstei, gradului de maturitate și nevoilor copilului pentru primirea, înregistrarea, analizarea și soluționarea plângerilor formulate de copii. În situațiile prevăzute de lege, plângerile se transmit autorităților competente.
+
+(2) Copilul este informat, într-un limbaj adecvat vârstei și gradului său de maturitate, la admiterea în serviciul social și ori de câte ori este necesar, cu privire la existența mecanismelor prevăzute la alin. (1), la modalitatea de utilizare a acestora și la dreptul de a sesiza direct autoritățile competente.
+
+(3) Este interzisă orice formă de intimidare, presiune, sancționare, tratament nefavorabil sau represalii împotriva copilului care formulează o plângere ori împotriva persoanei care îl sprijină în formularea acesteia.
+
+(4) Procedura de primire, înregistrare, analizare și soluționare a plângerilor formulate de copii, precum și condițiile de transmitere a acestora către autoritățile competente, se stabilesc prin normele metodologice de aplicare a Legii nr. 272/2004.
+
+Art. II. – În termen de 30 de zile de la data intrării în vigoare a prezentei legi, Guvernul aprobă modifică și completarea Normelor metodologice de aplicare a Legii nr. 272/2004 privind protecția și promovarea drepturilor copilului, aprobate prin Hotărârea Guvernului nr. 691/2015.

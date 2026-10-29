@@ -1,0 +1,15 @@
+# PARLAMENTUL ROMÂNIEI CAMERA DEPUTAȚILOR
+
+LEGE
+
+## pentru declararea municipiului Târgoviște ca Oraș Voievodal
+
+Camera Deputaților adoptă prezentul proiect de lege.
+
+Articol unic. - În semn de recunoaștere a rolului său istoric de fostă reședință domnească și capitală a Țării Românești și de important centru politic, administrativ și cultural din spațiul românesc în perioada medievală, se declară municipiul Târgoviște ca Oraș Voievodal.
+
+Acest proiect de lege a fost adoptat de Camera Deputaților în ședința din 16 septembrie 2026, cu respectarea prevederilor art. 76 alin. (2) din Constituția României, republicată.
+
+p. PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+NATALIA-ELENA INTOTERO

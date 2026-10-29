@@ -1,0 +1,11 @@
+CAMERA DEPUTAȚILOR
+
+SENATUL
+
+## LEGE
+
+# pentru aprobarea Ordonanței de urgență a Guvernului nr. 26/2026 privind înființarea Rețelei de date privind durabilitatea agricolă, precum și modificarea unor acte normative
+
+Parlamentul României adoptă prezenta lege.
+
+Articol unic. – Se aprobă Ordonanța de urgență a Guvernului nr.26/2026 privind înființarea Rețelei de date privind durabilitatea agricolă, precum și modificarea unor acte normative.

@@ -1,0 +1,649 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENATUL
+
+## LEGE
+
+pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 32/2012 privind organismele de plasament colectiv în valori mobiliare și societățile de administrare a investițiilor, precum și pentru modificarea și completarea Legii nr. 297/2004 privind piața de capital, a Legii nr. 74/2015 privind administratorii de fonduri de investiții alternative, precum și a Legii nr. 243/2019 privind reglementarea fondurilor de investiții alternative și pentru modificarea și completarea unor acte normative
+
+Parlamentul României adoptă prezenta lege.
+
+## CAPITOLUL I
+
+Modificarea și completarea Ordonanței de urgență a Guvernului nr. 32/2012 privind organismele de plasament colectiv în valori mobiliare și societățile de administrare a investițiilor, precum și pentru modificarea și completarea Legii nr. 297/2004 privind piața de capital
+
+Art. I. - Ordonanța de urgență a Guvernului nr. 32/2012 privind organismele de plasament colectiv în valori mobiliare și societățile de administrare a investițiilor, precum și pentru modificarea și completarea Legii nr. 297/2004 privind piața de capital, publicată în
+
+Monitorul Oficial al României, Partea I, nr. 435 din 30 iunie 2012, aprobată cu modificări și completări prin Legea nr. 10/2015, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+## 1. La articolul 3 alineatul (1), punctele 1 și 6 se modifică și vor avea următorul cuprins:
+
+„1. capital inițial - fondurile proprii prevăzute la art. 26 alin. (1) lit. (a) - (e) din Regulamentul (UE) nr. 575/2013 al Parlamentului European și al Consiliului din 26 iunie 2013 privind cerințele prudențiale pentru instituțiile de credit și societățile de investiții și de modificare a Regulamentului (UE) nr. 648/2012, denumit în continuare Regulamentul (UE) nr. 575/2013;
+
+## ......
+
+6\. fonduri proprii - fonduri astfel definite la art. 4 alin. (1) pct. 118 din Regulamentul (UE) nr. 575/2013, respectiv suma fondurilor proprii de nivel 1 și a fondurilor proprii de nivel 2;”
+
+## 2. La articolul 3 alineatul (1), după punctul 30 se introduce un nou punct, pct. 31, cu următorul cuprins:
+
+„31. contraparte centrală sau CPC - o CPC astfel cum este definită la art. 2 pct. 1 din Regulamentul (UE) nr. 648/2012 al Parlamentului European și al Consiliului din 4 iulie 2012 privind instrumentele financiare derivate extrabursiere, contrapărțile centrale și registrele centrale de tranzacții, cu modificările și completările ulterioare.”
+
+## 3. La articolul 4, alineatul (5) se modifică și va avea următorul cuprins:
+
+„(5) Prevederile titlului IX «Auditul financiar» din Legea nr. 126/2018 privind piețele de instrumente financiare, cu modificările și completările ulterioare, denumită în continuare Legea nr. 126/2018, se aplică în mod corespunzător de către S.A.I. și O.P.C.V.M.”
+
+## 4. La articolul 8, alineatul (2) se modifică și va avea următorul cuprins:
+
+„(2) S.A.I. are obligația de a deține permanent nivelul capitalului inițial; în cazul în care acesta scade sub nivelul prevăzut la alin. (1), S.A.I. are obligatia de a completa capitalul initial, în cel mai scurt timp, dar nu mai târziu de 4 luni de la apariția situației de nerespectare a nivelului capitalului inițial.”
+
+## 5. La articolul 9 alineatul (1), litera g) se modifică și va avea următorul cuprins:
+
+„g) are încheiat un contract cu un auditor financiar, autorizat de către Autoritatea pentru Supravegherea Publică a Activității de Audit Statutar, denumită în continuare A.S.P.A.A.S., să efectueze audit financiar și avizat, dacă este cazul, de A.S.F., conform reglementărilor A.S.F. privind auditul statutar; în înțelesul prezentei ordonanțe de urgență, noțiunea de „auditor financiar” se referă, după caz, la persoane fizice sau juridice autorizate de către A.S.P.A.A.S. să efectueze audit financiar, astfel cum este definit la art. 2 pct. 5 din Legea nr. 162/2017 privind auditul statutar al situațiilor financiare anuale și al situațiilor financiare anuale consolidate și de modificare a unor acte normative, cu modificările și completările ulterioare, denumită în continuare Legea nr. 162/2017;”
+
+## 6. După articolul 11 se introduce un nou articol, art. 11¹, cu următorul cuprins:
+
+„Art. 11¹. - (1) În cazul retragerii autorizației unei S.A.I. prin decizie de sancționare conform prevederilor art. 196 alin. (5) pct. 2, A.S.F. numește prin aceeași decizie și cu luarea în considerare a criteriilor prevăzute la alin. (5) o altă S.A.I., cu acordul prealabil al acesteia, în calitate de administrator provizoriu al O.P.C.V.M. În situația în care nicio S.A.I. identificată de A.S.F. nu își exprimă acordul pentru preluarea calității de administrator provizoriu, A.S.F. este în drept să dispună lichidarea fondurilor aflate în administrarea S.A.I. sancționate și să numească un lichidator care îndeplinește condițiile prevăzute la alin. (9).
+
+(2) Administratorul provizoriu va efectua numai acte de administrare pentru conservarea patrimoniului entităților administrate și protejarea intereșelor invesțitorilor, precum și transferul administrării către o S.A.I. și publicarea acestei situații, cu depunerea tuturor diligențelor necesare în acest sens.
+
+(3) În termen de 30 de zile de la numirea sa de către A.S.F., administratorul provizoriu publică, în cel puțin 3 cotidiene naționale și pe site-ul propriu, lista entităților preluate în administrare temporară și face cunoscută, pe această cale, disponibilitatea sa de a primi oferte de preluare a respectivelor entități, în vederea administrării acestora de către alte S.A.I..
+
+(4) Administratorul provizoriu este obligat să pună la dispoziția S.A.I. ofertante toate informațiile necesare pentru ca acestea să ia o hotărâre în cunoștință de cauză.
+
+(5) În analiza ofertelor primite, administratorul provizoriu trebuie să ia în calcul următoarele criterii:
+
+a) nivelul capitalului inițial al S.A.I. ofertante;
+
+b) gradul în care rețeaua de distribuție pe care o poate asigura noua S.A.I. acoperă rețeaua de distribuție inițială;
+
+c) comisionul de administrare propus;
+
+d) experiența și performanțele obținute în activitatea de administrare;
+
+e) volumul activelor administrate de S.A.I. ofertante la momentul analizei;
+
+f) sancțiunile aplicate de A.S.F, dacă este cazul.
+
+(6) Administratorul provizoriu are obligația ca, în termen de maximum 120 de zile de la desemnarea sa, să identifice și să propună A.S.F. numirea unei alte S.A.I.
+
+(7) Pe perioada desfășurării activității sale, administratorul provizoriu întocmește și publică rapoartele aferente activității entităților preluate în administrare temporară, în termenele și conform cerințelor prevăzute de prezenta ordonanță de urgență și de reglementările emise de A.S.F. în aplicarea acesteia.
+
+(8) În cazul în care administratorul provizoriu depășește termenul specificat la alin. (6), A.S.F. poate prelungi mandatul acestuia, o singură dată pentru o perioadă de 120 de zile, sau poate hotărî schimbarea acestuia.
+
+(9) În cazul în care nici ulterior expirării termenului prevăzut la alin. (8) nu a fost îndeplinită obligația prevăzută la alin. (6), A.S.F. este în drept să dispună lichidarea entităților aflate în administrare temporară, menținând administratorul provizoriu până la numirea unui lichidator ce:
+
+a) deține și calitatea de auditor financiar avizat de A.S.F. conform reglementărilor emise de A.S.F.;
+
+b) îndeplinește demersurile necesare în vederea retragerii de la tranzacționare a entităților administrate, dacă este cazul.
+
+(10) În cazul nerespectării dispozițiilor alin. (3) - (5) și (7), administratorul provizoriu restituie entităților preluate în administrare temporară comisioanele încasate.
+
+(11) Comisionul administratorului provizoriu nu va fi mai mare decât comisionul de administrare perceput de S.A.I. căreia i-a fost retrasă autorizația de funcționare și este plătit din activul entităților administrate provizoriu.
+
+(12) La data comunicării deciziei de sancționare cu retragerea autorizației, S.A.I. sancționată:
+
+a) încetează orice activități de administrare a entităților aflate în administrarea sa și a portofoliilor individuale;
+
+b) începe transferul atribuțiilor și operațiunilor specifice activității de administrare către administratorul provizoriu desemnat de A.S.F. prin decizia de sancționare, inclusiv transferul registrelor și evidențelor, al corespondenței, materialelor publicitare, contractelor și al oricăror altor documente relevante, în original, ale entităților administrate. Transferul trebuie să se încheie în cel mult 10 zile de la data comunicării deciziei de sancționare.
+
+(13) Retragerea autorizației S.A.I. prin decizie de sancționare nu produce efecte asupra derulării contractelor de depositare a entităților administrate. Depozitarul trebuie să își îndeplinească în continuare atribuțiile până la încheierea unui contract de depositare cu noua S.A.I. sau, după caz, până la predarea activelor către un nou depositar.
+
+(14) Odată cu retragerea autorizației S.A.I., A.S.F. poate dispune suspendarea procesului de subscriere și răscumpărare a unităților de fond ale entităților administrate în conformitate cu prevederile art.104 alin. (2).”
+
+## 7. La articolul 25, alineatele (1) și (5) se modifică și vor avea următorul cuprins:
+
+„(1) În situația în care oricare din persoanele relevante este implicată în activități care ar putea conduce la un conflict de interese sau are acces la informații privilegiate, având înțelesul prevăzut la art. 131 alin. (1), (2) și (4) din Legea nr. 24/2017 privind emitenții de instrumente financiare și operațiuni de piață, republicată, cu modificările și completările ulterioare, denumită în continuare Legea nr. 24/2017, sau la alte informații confidențiale referitoare la O.P.C.V.M. sau la tranzacții cu, sau pentru O.P.C.V.M., prin intermediul unei activități desfășurate de acea persoană în numele S.A.I., S.A.I. trebuie să stabilească, să implementeze și să mențină proceduri adecvate, menite să prevină următoarele situații:
+
+a) efectuarea unei tranzacții personale, care îndeplinește cel puțin unul din următoarele criterii:
+
+(i) acelei persoane îi este interzis să efectueze astfel de tranzacții potrivit prevederilor Legii nr. 24/2017 și ale reglementărilor emise de A.S.F. în aplicarea acesteia referitoare la abuzul pe piață;
+
+(ii) implică folosirea abuzivă sau dezvăluirea improprie a acelei informații confidențiale;
+
+(iii) intră în conflict sau ar putea intra în conflict cu o obligație a S.A.I.
+
+conform prevederilor prezentei ordonanțe de urgență sau prevederilor Legii nr. 24/2017;
+
+b) consilierea sau determinarea, într-un alt mod decât în cursul desfășurării activității corespunzătoare de angajat sau de furnizor de servicii în baza unui contract, oricărei altei persoane să efectueze o tranzacție cu instrumente financiare, care, dacă ar fi o tranzacție personală a persoanei relevante ar intra sub incidența prevederilor art. 37 alin. (2) lit. a) sau b) din Regulamentul delegat (UE) 2017/565 al Comisiei din 25 aprilie 2016 de completare a Directivei 2014/65/UE a Parlamentului European și a Consiliului în ceea ce privește cerințele organizatorice și condițiile de funcționare aplicabile firmelor de investiții și termenii definiți în sensul directivei menționate, denumit în continuare Regulamentul delegat (UE) 2017/565 sau ar constitui în alt mod un abuz al informațiilor referitoare la ordinele în curs de executare;
+
+c) fâră a aduce atingere prevederilor art. 135 din Legea nr. 24/2017, dezvăluirea altfel decât în cursul normal al statutului său de angajat sau de prestator de servicii în baza unui contract a oricărei informații sau opinii oricărei alte persoane în situația în care persoana relevantă cunoaște sau în mod rezonabil trebuia să cunoască faptul că urmare a acelei dezvăluiri acea persoană va proceda sau ar putea proceda la una din următoarele situații:
+
+(i) să participe la o tranzacție cu instrumente financiare care, dacă ar fi o tranzacție personală a unei persoane relevante, ar intra sub incidența prevederilor art. 37 alin. (2) lit. a) sau b) din Regulamentul delegat (UE) 2017/565, sau ar constitui în alt mod un abuz al informațiilor referitoare la ordinele în curs de executare;
+
+(ii) să consilieze sau să determine o altă persoană să participe la o asemenea tranzacție.
+
+(5) În aplicarea prevederilor prezentului articol, tranzacția personală are înțelesul prevăzut la art. 28 din Regulamentul delegat (UE) 2017/565.”
+
+8\. La articolul 33, după alineatul (2) se introduc trei noi alineate, alin. (2¹) - (2³), cu următorul cuprins:
+
+„(2¹) În cazul în care delegarea prevăzută la alin. (1) privește activitatea de distribuție prevăzută la art. 6 lit. c) prin utilizarea contului global, aceasta trebuie să aibă loc cu respectarea prevederilor prezentei ordonanțe de urgentă, a reglementărilor A.S.F. emise în aplicarea acesteia, precum și cu respectarea următoarelor condiții:
+
+a) entitatea căreia i se deleagă această activitate este autorizată în România sau în alt stat membru să desfășoare serviciile și activitățile de investiții prevăzute la secțiunea A pct. 1 și 2 din anexa nr. 1 la Legea nr. 126/2018 și serviciul de investiții auxiliar prevăzut la secțiunea B pct.1 din aceeași anexă;
+
+b) titlurile de participare astfel distribuite nu vor fi considerate ca aparținând patrimoniului entității menționate la lit. a) și nu pot face obiectul niciunei pretenții din partea creditorilor săi, inclusiv în cazul falimentului sau al lichidării sale administrative;
+
+c) desfășurarea activității de distribuție a veniturilor prevăzută la art. 6 lit. b) pct. 6 se face în conformitate cu alin. (1), conform instrucțiunii S.A.I., prin intermediul entității menționate la lit. a), aceasta din urmă având responsabilitatea îndeplinirii obligațiilor potrivit legislației fiscale și procedural fiscale în materie, pentru veniturile obținute de investitori ca urmare a deținerii titlurilor de participare, precum și responsabilitatea efectuării plăților către deținătorii titlurilor de participare aflați în evidențele acesteia;
+
+d) entitatea prevăzută la lit. a) are responsabilitatea îndeplinirii obligațiilor potrivit legislației fiscale și procedural fiscale în materie, pentru câștigurile obținute din transferul titlurilor de participare deținute de investitori;
+
+e) obligațiile S.A.I. privind aplicarea măsurilor de cunoaștere a clientelei prevăzute la art. 11 alin. (1) lit. a) - c) din Legea nr. 129/2019 pentru prevenirea și combaterea spălării banilor și finanțării terorismului, precum și pentru modificarea și completarea unor acte normative, cu modificările și completările ulterioare, în raport cu investitorii cărora le sunt distribuite titlurile de participare prin intermediul contului global, sunt îndeplinite de către entitatea menționată la lit. a), care este terță parte în sensul art. 18 alin. (1) și (2) din același act normativ.
+
+(2²) În vederea îndeplinirii obligațiilor stabilite conform prevederilor prezentei ordonanțe de urgență, S.A.I. poate solicita entității prevăzute la alin. (2¹) lit. a) informații privind investitori cărora le sunt distribuite titlurile de participare prin intermediul contului global.
+
+(2³) A.S.F. poate solicita S.A.I. sau entității prevăzute la alin. (2¹) lit. a) informații cu privire la investitorii cărora le sunt distribuite titlurile de participare prin intermediul contului global.”
+
+## 9. La articolul 53 alineatul (1), litera c) se modifică și va avea următorul cuprins:
+
+„c) de o altă persoană juridică, avizată de A.S.F. să efectueze activități de depozitare a activelor O.P.C.V.M. în conformitate cu reglementările emise de A.S.F. în aplicarea prezentei ordonanțe de urgență și care face obiectul unor cerințe privind adecvarea capitalului, care nu sunt inferioare cerințelor calculate, în funcție de abordarea selectată, în conformitate cu art. 315 sau cu art. 317 din Regulamentul (UE) nr. 575/2013 și care deține fonduri proprii cel puțin egale cu valoarea capitalului inițial prevăzut la art. 12 din Legea nr. 236/2022 privind supravegherea prudențială a societăților de servicii de investiții financiare, precum și pentru modificarea și completarea unor acte normative, cu modificările și completările ulterioare.”
+
+## 10. La articolul 53, după alineatul (1) se introduce un nou alineat, alin. (1¹), cu următorul cuprins:
+
+„(1¹) Persoana juridică prevăzută la alin. (1) lit. b) desemnează o persoană din cadrul funcției de conformitate responsabilă cu verificarea activității de depozitare și o notifică A.S.F. în termen de 15 zile de la desemnare.”
+
+11\. La articolul 53 alineatul (2), după litera i) se introduce o nouă literă, lit. j), cu următorul cuprins:
+
+„j) desemnează o persoană cu atribuții de conformitate responsabilă cu verificarea activității de depozitare și o notifică la A.S.F.”
+
+## 12. La articolul 82 alineatul (1), literele a) și b) se modifică și vor avea următorul cuprins:
+
+„a) valori mobiliare și instrumente ale pieței monetare înscrise sau tranzacționate pe o piață reglementată, astfel cum este definită la art. 3 alin. (1) pct. 60 din Legea nr. 126/2018, din România sau dintr-un stat membru;
+
+b) valori mobiliare și instrumente ale pieței monetare admise la cota oficială a unei burse dintr-o țară terță sau negotiate pe o altă piață reglementată dintr-o țară terță, care operează în mod regulat și este recunoscută și deschisă publicului, cu condiția ca alegerea bursei sau a pieței reglementate să fie aprobată de A.S.F. și să fie prevăzută în regulile fondului sau în actul constitutiv al societății de investiții, aprobate de A.S.F.;”
+
+## 13. La articolul 85, alineatul (2) partea introductivă și alineatul (3) se modifică și vor avea următorul cuprins:
+
+„(2) Expunerea la riscul de contraparte al unui O.P.C.V.M. într-o tranzacție cu instrumente financiare derivate care nu este compensată central printr-o CPC autorizată în conformitate cu art. 14 din Regulamentul (UE) nr. 648/2012 sau recunoscută în conformitate cu art. 25 din regulamentul menționat, nu poate depăși fie:
+
+(3) Limita de 5% prevăzută la alin. (1) poate fi depășită până la maximum 10% cu condiția ca valoarea totală a valorilor mobiliare și a instrumentelor pieței monetare deținute de un O.P.C.V.M. în fiecare din emitenții în care deține peste 5% din activele sale să nu depășească, în niciun caz, 40% din valoarea activelor respectivului O.P.C.V.M. Respectiva limită nu se aplică depozitelor și tranzacțiilor cu instrumente financiare derivate efectuate cu instituții financiare care fac obiectul unei supravegheri prudențiale.”
+
+## 14. La articolul 85 alineatul (4), litera c) se modifică și va avea următorul cuprins:
+
+„c) expunerile rezultate din tranzacții desfășurate cu entitatea respectivă și având ca obiect instrumente financiare derivate care nu sunt compensate central printr-o CPC autorizată în conformitate cu art. 14 din Regulamentul (UE) nr. 648/2012 sau recunoscută în conformitate cu art. 25 din regulamentul menționat.”
+
+## 15. Articolul 94 se modifică și va avea următorul cuprins:
+
+„Art. 94. - Datele contabile din cadrul raportului anual trebuie să fie auditate de către un auditor financiar, potrivit Legii nr. 162/2017. Raportul auditorului financiar și, după caz, rezervele exprimate de acesta sunt prezentate integral în fiecare raport anual.”
+
+16\. La articolul 113, alineatul (1) partea introductivă și alineatul (2) se modifică și vor avea următorul cuprins:
+
+„(1) În situația prevăzută la art. 109 alin. (1), A.S.F. încredințează unui depozitar sau unui auditor independent, autorizat potrivit Legii nr. 162/2017, sarcina de a valida următoarele:
+
+(2) Auditorii financiari ai O.P.C.V.M.-ului absorbit sau auditorul financiar al O.P.C.V.M.-ului absorbant, autorizați potrivit Legii nr. 162/2017, sunt considerați auditori independenți în sensul alin. (1).”
+
+17\. La articolul 125 alineatul (1), litera a) se modifică și va avea următorul cuprins:
+
+„a) alte active lichide potrivit art. 82 alin. (1) lit. e) și art. 83 alin. (2);”
+
+18\. La articolul 148, alineatul (2) se modifică și va avea următorul cuprins:
+
+„(2) În cazul în care S.A.I. își propune doar să distribuie în alt stat membru titlurile de participare ale O.P.C.V.M.-ului pe care îl administrează, autorizat de A.S.F., fără a intenționa să înființeze o sucursală în statul membru, să desfășoare orice alte activități sau să furnizeze orice alte servicii, sunt aplicabile numai cerințele prevăzute în subsecțiunea a 2-a "Dispoziții speciale aplicabile O.P.C.V.M.-urilor autorizate de A.S.F. care își distribuie titlurile de participare în alt stat membru".
+
+## 19. La articolul 158, alineatul (5) litera c) și alineatul (6) se modifică și vor avea următorul cuprins:
+
+„c) facilitarea prelucrării informațiilor și a accesului la procedurile și modalitățile prevăzute la art. 35 referitoare la exercitarea de către investitori a drepturilor pe care le dobândesc în urma investițiilor lor în O.P.C.V.M. în statul membru unde sunt distribuite titlurile de participare ale respectivului O.P.C.V.M.;
+
+(6) Procedura de notificare trebuie să respecte prevederile Regulamentului de punere în aplicare (UE) 2024/910 al Comisiei din 15 decembrie 2023 de stabilire a unor standarde tehnice de punere în aplicare pentru aplicarea Directivei 2009/65/CE a Parlamentului European și a Consiliului referitoare la forma și conținutul informațiilor care trebuie notificate cu privire la activitățile transfrontaliere ale organismelor de plasament colectiv în valori mobiliare (O.P.C.V.M.) și ale societăților de administrare a O.P.C.V.M.-urilor, precum și referitoare la schimbul de informații între autoritățile competente cu privire la scrisorile de notificare a activităților transfrontaliere și de modificare a Regulamentului (UE) nr. 584/2010 al Comisiei, denumit în continuare Regulamentul (UE) nr. 2024/910.”
+
+## 20. La articolul 174, alineatul (3) se modifică și va avea următorul cuprins:
+
+„(3) Procedura de notificare trebuie să respecte prevederile Regulamentului (UE) nr. 2024/910.”
+
+21\. La articolul 195, după litera n) se introduc trei noi litere, lit. n¹) - n³), cu următorul cuprins:
+
+„n¹) nerespectarea reglementărilor emise de A.S.F. în aplicarea prezentei ordonanțe de urgență;
+
+n²) nerespectarea reglementărilor și măsurilor emise de A.S.F. în domeniul prevenirii și combaterii spălării banilor și finanțării actelor de terorism prin intermediul pieței de capital;
+
+n³) nerespectarea reglementărilor și măsurilor emise de A.S.F. în domeniul sancțiunilor internaționale și nepunerea în aplicare a sancțiunilor internaționale pe piața de capital;”
+
+## 22. La articolul 195, litera o) se modifică și va avea următorul cuprins:
+
+„o) utilizarea neautorizată a sintagmelor „societate de administrare a investițiilor”, „societate de investiții”, ”fond deschis de investiții”, asociate cu oricare din instrumentele financiare definite la art. 3 alin. (1) pct. 34 din Legea nr. 126/2018 sau a oricărei combinații între acestea.”
+
+23\. La articolul 196 alineatul (1), partea introductivă a literei a) se modifică și va avea următorul cuprins:
+
+„, a) în cazul contravențiilor prevăzute la art. 195 lit. a) - m), n¹) - n³) și p) - r) și art. 195¹: (...)"
+
+## 24. La articolul 196, alineatul (2) se modifică și va avea următorul cuprins:
+
+„(2) Prin excepție de la prevederile alin. (1) și (3¹), în cazul săvârșirii contravențiilor prevăzute la art. 195, A.S.F. poate majora cuantumul amenzilor până la de două ori valoarea beneficiului rezultat din încălcarea prezentei ordonanțe de urgență, în cazul în care beneficiul depășește suma de 22.098.000 de lei.”
+
+25\. La articolul 196 după alineatul (3), se introduce un nou alineat, alin. (3¹) cu următorul cuprins:
+
+„(3¹) În cazul persoanei juridice care nu a înregistrat cifră de afaceri în anul anterior sancționării, precum și în cazul persoanei juridice a cărei cifră de afaceri nu este accesibilă A.S.F., aceasta este sancționată cu amendă de la 10.000 de lei la 22.098.000 de lei.”
+
+## 26. La articolul 196, alineatele (6), (6¹) și (6⁴) se modifică și vor avea următorul cuprins:
+
+„(6) A.S.F. face publică fără întârziere pe site-ul propriu orice măsură sau sancțiune impusă pentru nerespectarea prevederilor prezentei ordonanțe de urgență și ale reglementărilor adoptate în aplicarea acesteia, împotriva căreia nu mai există căi de atac și după ce persoana căreia i s-a impus sancțiunea sau măsura a fost informată cu privire la decizia respectivă. Publicarea cuprinde cel puțin informații privind tipul și natura încălcării, precum și identitatea persoanelor responsabile. Această obligație nu se aplică în cazul deciziei A.S.F. de derulare a unui control privind respectivele încălcări.
+
+(6¹) În funcție de natura și gravitatea faptei, în cazul săvârșirii contravențiilor prevăzute la art. 195 și 195¹, A.S.F. poate aplica măsurile administrative prevăzute la alin. (6), precum:
+
+1\. o declarație publică în care se indică persoana responsabilă de încălcare și natura încălcării prevederilor legale;
+
+2\. o decizie prin care se solicită persoanei responsabile de încălcare să pună capăt respectivului comportament și să se abțină de la repetarea acestuia;
+
+3\. un plan de măsuri în scopul remedierii situațiilor de nerespectare a dispozițiilor legale constatate și/sau prevenirii apariției/materializării unor riscuri în activitate;
+
+4\. alte măsuri de atenționare și/sau cu scopul prevenirii sau remedierii situațiilor de nerespectare a dispozițiilor legale, conform reglementărilor A.S.F.
+
+(6⁴) Prin derogare de la prevederile art. 10 alin. (2) din O.G. nr. 2/2001, în cazul constatării săvârșirii a două sau mai multe contravenții, se aplică amenda prevăzută pentru contravenția cea mai gravă, majorată cu până la 50%, după caz, cu respectarea prevederilor art. 199 alin. (1).”
+
+## 27. La articolul 196 după alineatul (6⁴), se introduce un nou alineat, alin. (6⁵), cu următorul cuprins:
+
+„(6⁵) În cazul constatării unor deficiențe, care, prin natura și gravitatea lor, nu reprezintă fapte contravenționale, precum și în cazul identificării unor riscuri, A.S.F. poate adopta măsura administrativă a impunerii unui plan de măsuri în scopul remedierii deficiențelor constatate și/sau prevenirii apariției/materializării unor riscuri în activitate. Prevederile alin. (6) și (7) se aplică în mod corespunzător.”
+
+## 28. La articolul 198, după alineatul (4) se introduce un nou alineat, alin. (5), cu următorul cuprins:
+
+„(5) Prin derogare de la prevederile art. 14 și 15 din Legea contenciosului administrativ nr. 554/2004, cu modificările și completările ulterioare, contestația adresată Curții de Apel București, Secția contencios administrativ și fiscal nu suspendă, pe timpul soluționării acesteia, executarea actelor administrative adoptate de A.S.F.”
+
+## 29. La articolul 202¹, după alineatul (2) se introduc două noi alineate, alin. (3) și (4), cu următorul cuprins:
+
+„(3) În cuprinsul prezentei ordonanțe de urgență, trimiterile la Legea nr. 677/2001 pentru protecția persoanelor cu privire la prelucrarea datelor cu caracter personal și libera circulație a acestor date, cu modificările și completările ulterioare, se consideră trimiteri la Regulamentul nr. 679/2016 privind protecția persoanelor fizice în ceea ce privește prelucrarea datelor cu caracter personal și privind libera circulație a acestor date și de abrogare a Directivei 95/46/CE și la Legea nr. 190/2018 privind măsuri de punere în aplicare a Regulamentului (UE) 2016/679 al Parlamentului European și al Consiliului din 27 aprilie
+
+2016 privind protecția persoanelor fizice în ceea ce privește prelucrarea datelor cu caracter personal și privind libera circulație a acestor date și de abrogare a Directivei 95/46/CE.
+
+(4) În cuprinsul prezentei ordonanțe de urgență, abrevierea C.N.V.M. se înlocuiește cu abrevierea A.S.F.”
+
+30\. La mențiunea privind transpunerea normelor europene, după punctul 15 se introduce un nou punct, pct. 16, cu următorul cuprins:
+
+„16. dispozițiile art. 1 din Directiva (UE) 2024/2994 a Parlamentului European și a Consiliului din 27 noiembrie 2024 de modificare a Directivelor 2009/65/CE, 2013/36/UE și (UE) 2019/2034 în ceea ce privește tratamentul riscului de concentrare rezultat din expuneri față de contrapărți centrale și al riscului de contraparte pentru tranzacțiile cu instrumente financiare derivate compensate la nivel central, publicată în Jurnalul Oficial al Uniunii Europene (JOUE), seria L, din 4 decembrie 2024.”
+
+## CAPITOLUL II
+
+## Modificarea și completarea Legii nr. 74/2015 privind administratorii de fonduri de investiții alternative
+
+Art. II. – Legea nr. 74/2015 privind administratorii de fonduri de investiții alternative, publicată în Monitorul Oficial al României, Partea I, nr. 274 din 23 aprilie 2015, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 1, alineatul (4) se abrogă.
+
+2\. La articolul 2 alineatul (2), partea introductivă se modifică și va avea următorul cuprins:
+
+„(2) Alin. (3) – (11), precum și art. 2¹ și 2² sunt singurele prevederi care se aplică în cazul AFIA prevăzuți la lit. a) și b), cu luarea în considerare a prevederilor art. 50-57, după caz.”
+
+## 3. La articolul 2, după alineatul (5) se introduc șase noi alineate, alin. (6) - (11), cu următorul cuprins:
+
+„(6) Înregistrarea AFIA la A.S.F. în conformitate cu prevederile alin. (3) lit. a) se face în baza unei cereri depuse de solicitant.
+
+(7) În termen de 30 de zile de la data depunerii documentației complete, A.S.F. informează solicitantul în scris, cu privire la înregistrarea sau refuzul înregistrării în calitate de AFIA. Acest termen se poate prelungi cu maximum 30 de zile, în cazul în care A.S.F. consideră necesar, în circumstanțele specifice cazului și după ce a notificat solicitantul cu privire la prelungirea termenului.
+
+(8) A.S.F. emite un atestat în vederea înregistrării AFIA.
+
+(9) AFIA menționați la alin. (2) și înregistrați la A.S.F. pot administra FIA destinate investitorilor profesionali stabilite în alte state membre și/sau state terțe care nu sunt înscrise în lista Uniunii Europene a jurisdicțiilor necooperante, cu îndeplinirea cumulativă a următoarele condiții:
+
+a) legislația din aceste state membre/ state terțe să permită acest lucru;
+
+b) numai după notificarea A.S.F. în acest sens și
+
+c) în cazul statului terț, autoritatea competentă din statul de origine al FIA să fie parte semnatară a AIFMD - MoUs semnat de autoritățile din Uniunea Europeană (ESMA34-32-418) și publicat de ESMA.
+
+(10) AFIA menționați la alin. (2) și înregistrați la A.S.F. pot distribui către investitori domiciliați în alte state membre și/sau state terțe care nu sunt înscrise în lista Uniunii Europene a jurisdicțiilor necooperante, titlurile de participare ale FIA destinate investorilor profesionali pe care le administrează, stabilite în România, cu respectarea cerințelor aplicabile distribuirii de titluri de participare din respectivele state membre/state terțe și numai după notificarea A.S.F. în acest sens.
+
+(11) A.S.F. emite reglementări în aplicarea prevederilor alin. (6) - (10).”
+
+## 4. După articolul 2 se introduc două noi articole, art. 2¹ și 2², cu următorul cuprins:
+
+„Art. 2¹. - AFIA autorizați/înregistrați potrivit prevederilor prezentei legi pot distribui titlurile de participare ale FIA destinate investitorilor profesionali din România pe care le administrează și către investitorii semiprofesionali, astfel cum sunt definiți la art. 3 pct. 30¹.
+
+Art. 2². – (1) AFIA autorizați/înregistrați potrivit prevederilor prezentei legi pot desfășura activități de premarketing în România, cu excepția cazului în care informațiile prezentate potențialilor investitori profesionali sau semiprofesionali:
+
+a) sunt suficiente pentru a permite investitorilor să își asume angajamentul de a subscrie titluri de participare ale unui anumit FIA;
+
+b) echivalează cu formulare de subscriere sau cu documente similare, aflate fie în stadiu de proiect, fie în forma finală; sau
+
+c) echivalează cu documentele constitutive, cu un prospect sau cu alte documente de ofertă în formă finală ale unui FIA ce nu a fost încă înființat.
+
+(2) În cazul în care se furnizează un proiect de prospect sau alte documente de ofertă, acestea nu pot să conțină informații suficiente care să le permită investitorilor să ia o decizie de investiție și menționează în mod clar că:
+
+a) documentele nu constituie o ofertă sau o invitație de a subscrie titluri de participare ale FIA; și
+
+b) informațiile prezentate în cadrul acestora nu ar trebui să fie considerate drept sigure, deoarece sunt incomplete și pot face obiectul unor modificări.
+
+(3) AFIA nu trebuie să notifice A.S.F. conținutul ori destinatarii premarketingului sau să îndeplinească alte condiții ori cerințe decât cele prevăzute de prezentul articol, înainte de a începe activitatea de premarketing.
+
+(4) AFIA se asigură că investitorii nu subscriu titluri de participare ale unui FIA în perioada de premarketing și că investitorii contactați în cadrul acțiunilor de premarketing pot subscrie titluri de participare ale respectivului FIA numai ca urmare a activității de distribuție propriu-zisă.
+
+(5) Orice subscriere efectuată de către investitori, în termen de 18 luni de la data la care AFIA a început activitatea de premarketing, în titlurile de participare ale unui FIA care face subiectul informațiilor furnizate în contextul desfășurării activității de premarketing sau ale unui FIA stabilit ca urmare a desfășurării activității de premarketing, se consideră a fi activitate de distribuție și necesită autorizarea/ înregistrarea prealabilă de către A.S.F. în calitate de FIA.”
+
+## 5. La articolul 3, punctul 20 se modifică și va avea următorul cuprins:
+
+„20. FIA din România - acele organisme de plasament colectiv, diferite de O.P.C.V.M., înființate în România care atrag capital de la cel puțin 2 (doi) investitori, în vederea investirii acestuia în conformitate cu o politică de investiții definită în interesul respectivilor investitori și care îndeplinesc condițiile prevăzute la art. 1 alin. (3);”
+
+## 6. La articolul 3, după punctul 30 se introduce un nou punct, pct. 30¹, cu următorul cuprins:
+
+„30¹. investor semiprofesional – investor a cărui investiție minimă individuală întrun FIA destinat investorilor profesionali este reprezentată de contravaloarea în lei a sumei de 100.000 euro sau echivalentul acestei sume în altă valută, calculată la cursul de referință comunicat de Banca Națională a României de la data subscrierii și care declară într-un document scris, distinct de documentele constitutive ale fondului, că a luat la cunoștință riscurile asociate angajamentului sau investiției preconizate, pe baza documentelor prezentate de AFIA.”
+
+## 7. La articolul 3, punctele 32 și 45 se modifică și vor avea următorul cuprins:
+
+„32. participație calificată - o participație, directă sau indirectă, într-un AFIA, care reprezintă cel puțin 10% din capitalul social ori din drepturile de vot, în conformitate cu prevederile art. 71 alin. (1) - (3) și art. 72 din Legea nr. 24/2017, în condițiile de cumulare prevăzute la art. 74 alin. (4) și (5) din aceeași lege, sau care permite exercitarea unei influențe semnificative asupra administrării AFIA în care este deținută participația respectivă;
+
+45\. titluri de participare ale FIA – acțiuni, unități de fond sau alte titluri emise de FIA în funcție de forma juridică de constituire a acestuia din urmă.”
+
+## 8. La articolul 3, după punctul 46 se introduce un nou punct, pct. 46¹, cu următorul cuprins:
+
+„46¹. legături strânse - situația în care cel puțin două persoane fizice sau juridice sunt legate prin:
+
+a) participație, care înseamnă deținerea, în mod direct sau prin intermediul controlului, a cel puțin 20% din capitalul social sau drepturile de vot ale unei societăți;
+
+b) control, care înseamnă relația dintre o societate-mamă și o filială, astfel cum este prevăzută la art. 22 alin. (1) și (2) din Directiva 2013/34/UE sau o relație similară între orice persoană fizică sau juridică și o societate; în acest sens o filială a unei filiale va fi considerată o filială a societății-mamă a filialelor respective;
+
+c) o legătură permanentă a amândurora sau a tuturor de una și aceeași persoană printr-o relație de control.”
+
+9\. La articolul 7 alineatul (2), litera h) se modifică și va avea următorul cuprins::
+
+„h) regulile fiecărui FIA pe care AFIA intenționează să îl administreze;”
+
+10\. La articolul 7 alineatul (2), după litera h) se introduce o nouă literă, lit. h¹) cu următorul cuprins:
+
+„h¹) actul constitutiv al fiecărui FIA pe care AFIA intenționează să îl administreze;”
+
+11\. La articolul 7 alineatul (2), după litera j) se introduce o nouă literă, lit. k) cu următorul cuprins:
+
+„k) declarația pe proprie răspundere a reprezentantului/reprezentanților legal(i) al/ai AFIA prin care acesta/aceștia certifică faptul că actul constitutiv a fost elaborat cu respectarea prevederilor Legii societăților nr. 31/1990, republicată, cu modificările și completările ulterioare, și cu legislația aplicabilă în domeniul pieței de capital.”
+
+12\. La articolul 7, după alineatul (2) se introduce un nou alineat, alin. (2¹), cu următorul cuprins:
+
+„(2¹) A.S.F. va realiza analiza documentului prevăzut la alin. (2) lit. h¹) din perspectiva conformității cu legislația aplicabilă în domeniul pieței de capital.”
+
+## 13. La articolul 8, alineatul (6) se modifică și va avea următorul cuprins:
+
+„(6) A.S.F. informează solicitantul în scris, în termen de 3 luni de la data depunerii unei cereri complete, dacă i s-a acordat sau nu autorizația. Acest termen se poate prelungi cu maximum 3 luni, în cazul în care A.S.F. consideră necesar, având în vedere circumstanțele specifice cazului și după ce au notificat AFIA cu privire la aceasta. Se consideră că o cerere este completă dacă AFIA a prezentat cel puțin informațiile menționate la art. 7 alin. (2) lit. a) -d), f) și g). AFIA pot începe administrarea FIA în România prin utilizarea strategiilor de investiții descrise în cererea de autorizare în conformitate cu art. 7 alin. (2) lit. f) din momentul acordării autorizației, dar nu mai devreme de 30 de zile de la transmiterea eventualelor informații lipsă în conformitate cu art. 7 alin. (2) lit. e) și h) - k).”
+
+## 14. La articolul 9, după alineatul (2) se introduce un nou alineat, alin. (2¹), cu următorul cuprins:
+
+„(2¹) AFIA are obligația de a deține permanent nivelul capitalului inițial; în cazul în care acesta scade sub nivelul prevăzut la alin. (1) și (2), AFIA are obligația de a completa capitalul inițial, în cel mai scurt timp, dar nu mai târziu de 4 luni de la apariția situației de nerespectare a nivelului capitalului inițial.”
+
+## 15. La articolul 10, după alineatul (5) se introduce un nou alineat, alin. (5¹), cu următorul cuprins:
+
+„(5¹) Modificările ulterioare ale actului constitutiv al FIA, prevăzut la art. 7 alin. (2) lit. h¹), sunt notificate la A.S.F. cu cel puțin 14 zile anterior intrării în vigoare a respectivelor modificări, cu excepția celor care se regăsesc și în regulile FIA menționate la art. 7 alin. (2) lit. h), care se transmit A.S.F. la data transmiterii spre autorizare a regulilor FIA și intră în vigoare la data intrării în vigoare a modificării regulilor FIA în conformitate cu prevederile alin. (3).”
+
+## 16. La articolul 19, după alineatul (2) se introduc trei noi alineate, alin. (2¹) - (2³), cu următorul cuprins:
+
+„(2¹) În cazul în care delegarea prevăzută la alin. (1) privește activitatea de distribuire prevăzută la art. 5 alin. (3) lit. b) prin utilizarea contului global, aceasta trebuie să aibă loc cu respectarea prevederilor prezentei legi, a reglementărilor A.S.F. emise în aplicarea acesteia, precum și cu respectarea următoarelor condiții:
+
+a) entitatea căreia i se delegă această activitate este autorizată în România sau în alt stat membru să desfășoare serviciile și activitățile de investiții prevăzute la secțiunea A pct. 1 și 2 din anexa nr. 1 la Legea nr. 126/2018 și serviciul de investiții auxiliar prevăzut la secțiunea B pct. 1 din aceeași anexă;
+
+b) titlurile de participare astfel distribuite nu vor fi considerate ca aparținând patrimoniului entității menționate la lit. a) și nu pot face obiectul niciunei pretenții din partea creditorilor săi, inclusiv în cazul falimentului sau al lichidării sale administrative;
+
+c) desfășurarea activității de distribuție a veniturilor prevăzută la art. 5 alin. (3) lit. a) pct. vi) se face în conformitate cu alin. (1), conform instrucțiunii AFIA, prin intermediul entității menționate la lit. a), aceasta din urmă având responsabilitatea îndeplinirii obligațiilor potrivit legislației fiscale și procedural fiscale în materie, pentru veniturile obținute de investitori ca urmare a deținerii titlurilor de participare, precum și responsabilitatea efectuării plăților către deținătorii titlurilor de participare aflați în evidențele sale;
+
+d) entitatea prevăzută la lit. a) are responsabilitatea îndeplinirii obligațiilor potrivit legislației fiscale și procedural fiscale în materie, pentru câștigurile obținute din transferul titlurilor de participare deținute de investitori;
+
+e) obligațiile AFIA privind aplicarea măsurilor de cunoaștere a clientelei prevăzute la art. 11 alin. (1) lit. a) - c) din Legea nr. 129/2019 pentru prevenirea și combaterea spălării banilor și finanțării terorismului, precum și pentru modificarea și completarea unor acte normative, cu modificările și completările ulterioare, în raport cu investitorii cărora le sunt distribuite titlurile de participare prin intermediul contului global, sunt îndeplinite de către entitatea menționată la lit. a), care este terță parte în sensul art. 18 alin. (1) și (2) din același act normativ.
+
+(2²) În vederea îndeplinirii obligațiilor stabilite conform prevederilor prezentei legi, AFIA poate solicita entității prevăzute la alin. (2¹) lit. a) informații privind investorii cărora le sunt distribuite titlurile de participare prin intermediul contului global.
+
+(2³) A.S.F. poate solicita AFIA sau entității prevăzute la alin. (2¹) lit. a) informații cu privire la investitorii cărora le sunt distribuite titlurile de participare prin intermediul contului global.”
+
+17\. La articolul 20, după alineatul (3) se introduce un nou alineat, alin. (3¹), cu următorul cuprins:
+
+„(3¹) Depozitarul prevăzut la alin. (3) lit. a) are următoarele obligații:
+
+a) ia măsuri pentru a asigura continuitatea și buna desfășurare a activităților funcțiilor sale de depozitar prin utilizarea de sisteme, resurse și proceduri adecvate;
+
+b) desemnează o persoană din cadrul funcției de conformitate responsabilă cu verificarea activității de depozitare și o notifică la A.S.F. în termen de 15 zile de la desemnare.”
+
+## 18. La articolul 25, alineatul (6) se modifică și va avea următorul cuprins:
+
+„(6) Procentajul drepturilor de vot se calculează pe baza numărului total al acțiunilor care conferă drepturi de vot, chiar dacă exercitarea acestora este suspendată. Cu respectarea prevederilor art. 3 pct. 17, în sensul art. 28 alin. (1) - (3) și al art. 30, cu privire la emitenți, controlul se determină în conformitate cu art. 39 alin. (1) din Legea nr. 24/2017 și cu reglementările emise în aplicarea acestuia.”
+
+## 19. La articolul 47¹, litera c) se modifică și va avea următorul cuprins:
+
+„c) facilitarea prelucrării informațiilor referitoare la exercitarea de către investitori a drepturilor pe care le dobândesc ca urmare a investițiilor lor în FIA în statul membru unde sunt distribuite titlurile de participare ale respectivului FIA;”
+
+## 20. La articolul 51 alineatul (2), după litera n) se introduc patru noi litere, lit. o)-r), cu următorul cuprins:
+
+„o) nerespectarea reglementărilor emise de A.S.F. în aplicarea prezentei legi;
+
+p) nerespectarea reglementărilor și măsurilor emise de A.S.F. în domeniul prevenirii și combaterii spălării banilor și finanțării actelor de terorism prin intermediul pieței de capital;
+
+q) nerespectarea reglementărilor și măsurilor emise de A.S.F. în domeniul sancțiunilor internaționale și nepunerea în aplicare a sancțiunilor internaționale pe piața de capital;
+
+r) nerespectarea prevederilor procedurilor interne/reglementărilor interne ale AFIA, întocmite în conformitate cu legislația din domeniul pieței de capital.”
+
+## 21. La articolul 51³, alineatul (2) se modifică și va avea următorul cuprins:
+
+„(2) Constituie contravenții încălcarea prevederilor art. 5 alin. (3), art. 16-29, 30-37, 63 -74, 82, 100, 101, 106, 110, 112 și anexei IV din Regulamentul (UE) nr. 231/2013, săvârșite de către AFIA, FIA autoadministrate, depozitarii FIA și/sau de către membrii consiliului de administrație ori ai consiliului de supraveghere ai AFIA ori FIA autoadministrat, directorii sau membrii directoratului AFIA ori FIA autoadministrat și reprezentanții compartimentului de control intern ai unui AFIA ori FIA autoadministrat, precum și de către persoanele fizice care exercită funcții de conducere ori exercită cu titlu profesional activități reglementate de prezenta lege.”
+
+## 22. La articolul 52, alineatele (1), (3), (4) și (6) se modifică și vor avea următorul cuprins:
+
+„(1) Prin derogare de la prevederile art. 8 alin. (2) din Ordonanța Guvernului nr. 2/2001 privind regimul juridic al contravențiilor, aprobată cu modificări și completări prin Legea nr. 180/2002, cu modificările și completările ulterioare, săvârșirea contravențiilor prevăzute la art. 51, art. 51¹ alin. (2) și (4), art. 51² și art. 51³ se sancționează după cum urmează:
+
+a) cu avertisment sau amendă de la 1.000 lei la 22.098.000 lei sau cu până la de două ori valoarea beneficiului rezultat din încălcare, în cazul în care beneficiul poate fi determinat, chiar dacă acesta depășește limita maximă a amenzii, pentru persoanele fizice;
+
+b) cu avertisment sau amendă de la 0,1% până la 5% din cifra de afaceri netă realizată în anul financiar anterior sancționării, în funcție de gravitatea faptei săvârșite sau cu până la de două ori valoarea beneficiului rezultat din încălcare, în cazul în care beneficiul poate fi determinat, chiar dacă acesta depășește limita maximă a amenzii, pentru persoanele juridice înregistrate la A.S.F.;
+
+c) cu avertisment sau amendă de la 0,1% până la 8% din cifra de afaceri netă realizată în anul financiar anterior sancționării, în funcție de gravitatea faptei săvârșite sau cu până la de două ori valoarea beneficiului rezultat din încălcare, în cazul în care beneficiul poate fi determinat, chiar dacă acesta depășește limita maximă a amenzii, pentru persoanele
+
+(3) Prin derogare de la prevederile art. 8 alin. (2) din Ordonanța Guvernului nr. 2/2001, aprobată cu modificări și completări prin Legea nr. 180/2002, cu modificările și completările ulterioare, în cazul persoanei juridice care nu a înregistrat cifră de afaceri în anul anterior sancționării, precum și în cazul persoanei juridice a cărei cifră de afaceri nu este accesibilă A.S.F., aceasta este sancționată cu amendă de la 10.000 lei la 1.000.000 lei.
+
+(4) În cazul contravențiilor prevăzute de art. 51, odată cu sancțiunea contravențională principală, A.S.F. poate aplica și următoarele sancțiuni complementare:
+
+a) suspendarea autorizației/ atestatului;
+
+b) retragerea autorizației/ atestatului;
+
+c) interzicerea pentru o perioadă cuprinsă între 90 de zile și 5 ani a dreptului de a ocupa o funcție, de a desfășura o activitate sau de a presta un serviciu pentru care se impune autorizarea în condițiile prezentei legi.
+
+(6) În funcție de natura și gravitatea faptei, în cazul săvârșirii contravențiilor prevăzute la art. 51, 51¹, 51² sau art. 51³, A.S.F. poate aplica măsuri administrative, precum:
+
+a) o declarație publică în care se indică persoana responsabilă de încălcare și natura încălcării prevederilor legale;
+
+b) o decizie prin care se solicită persoanei responsabile de încălcare să pună capăt respectivului comportament și să se abțină de la repetarea acestuia;
+
+c) un plan de măsuri în scopul remedierii situațiilor de nerespectare a dispozițiilor legale constatate și/sau prevenirii apariției/materializării unor riscuri în activitate;
+
+d) alte măsuri de atenționare și/sau cu scopul prevenirii sau remedierii situațiilor de nerespectare a dispozițiilor legale, conform reglementărilor A.S.F.”
+
+## 23. La articolul 52, după alineatul (6) se introduce un nou alineat, alin. (6¹), cu următorul cuprins:
+
+„(6¹) În cazul constatării unor deficiențe care, prin natura și gravitatea lor, nu reprezintă fapte contravenționale, precum și în cazul identificării unor riscuri, A.S.F. poate adopta măsura administrativă a impunerii unui plan de măsuri în scopul remedierii deficiențelor constatate și/sau prevenirii apariției/materializării unor riscuri în activitate. Prevederile alin. (5) se aplică în mod corespunzător.”
+
+## 24. La articolul 52, alineatul (9) se modifică și va avea următorul cuprins:
+
+„(9) Prin derogare de la prevederile art. 10 alin. (2) din Ordonanța Guvernului nr. 2/2001, aprobată cu modificări și completări prin Legea nr. 180/2002, cu modificările și completările ulterioare, în cazul constatării săvârșirii a două sau mai multe contravenții, se aplică amenda prevăzută pentru contravenția cea mai gravă, majorată cu până la 50%, după caz, cu respectarea prevederilor art.55.”
+
+## 25. Articolul 52 ¹ se modifică și va avea următorul cuprins:
+
+„Art. 52¹. - (1) În cazul retragerii autorizației unui AFIA prin decizie de sancționare conform prevederilor art. 52 alin. (4) lit. b), A.S.F. numește, prin aceeași decizie și cu luarea în considerare a criteriilor prevăzute la alin. (5), un alt AFIA, cu acordul prealabil al acestuia, în calitate de administrator provizoriu al FIA. În situația în care niciun AFIA identificat de A.S.F. nu își exprimă acordul pentru preluarea calității de administrator provizoriu, A.S.F. este în drept să dispună lichidarea fondurilor aflate în administrarea AFIA sancționate și să numească un lichidator care îndeplinește condițiile prevăzute la alin. (10).
+
+(2) Administratorul provizoriu efectuează numai acte de administrare pentru conservarea patrimoniului entităților administrate și protejarea intereselor investitorilor, precum și transferul obligatoriu al administrării către un AFIA și publicarea acestei situații, cu depunerea tuturor diligențelor necesare în acest sens.
+
+(3) În termen de 30 de zile de la numirea sa de către A.S.F., administratorul provizoriu publică, în cel puțin 3 cotidiene naționale și pe site-ul propriu, lista entităților preluate în administrare temporară și face cunoscută, pe această cale, disponibilitatea sa de a primi oferte de preluare a respectivelor entități, în vederea administrării acestora de către alte AFIA.
+
+(4) Administratorul provizoriu este obligat să pună la dispoziția AFIA ofertanți toate informațiile necesare pentru ca aceștia să ia o hotărâre în cunoștință de cauză.
+
+(5) În analiza ofertelor primite, administratorul provizoriu trebuie să ia în calcul următoarele criterii:
+
+a) nivelul capitalului inițial al AFIA ofertanți;
+
+b) gradul în care rețeaua de distribuție pe care îl poate asigura noul AFIA acoperă rețeaua de distribuție inițială;
+
+c) comisionul de administrare propus;
+
+d) experiența și performanțele obținute în activitatea de administrare;
+
+e) volumul activelor administrate la momentul analizei;
+
+f) sancțiunile aplicate de A.S.F., dacă este cazul.
+
+(6) Administratorul provizoriu are obligația ca, în termen de maximum 120 de zile de la desemnarea sa, să identifice și să propună A.S.F. numirea unui alt AFIA.
+
+(7) Pe perioada desfășurării activității sale, administratorul provizoriu întocmește și publică rapoartele aferente activității entităților preluate în administrare temporară, în termenul și conform cerințelor prevăzute de prezenta lege, de Regulamentul (UE) nr. 231/2013, de Legea nr. 24/2017 și reglementările emise de A.S.F. în aplicarea acestora, după caz.
+
+(8) În cazul în care administratorul provizoriu depășește termenul specificat la alin. (6), A.S.F. poate prelungi prin decizie mandatul acestuia, o singură dată pentru o perioadă de 120 de zile, sau poate hotărî schimbarea acestuia.
+
+(9) Comisionul de administrare perceput de administratorul provizoriu nu poate fi mai mare decât comisionul de administrare perceput de AFIA căruia i-a fost retrasă autorizația în conformitate cu alin. (1) și este plătit din activul entităților administrate provizoriu.
+
+(10) În cazul în care nici ulterior expirării termenului prevăzut la alin. (8) nu a fost îndeplinită obligația prevăzută la alin. (6), A.S.F. este în drept să dispună lichidarea entităților aflate în administrare temporară, menținând administratorul provizoriu până la numirea unui lichidator ce:
+
+a) deține și calitatea de auditor financiar avizat de A.S.F. conform reglementărilor emise de A.S.F.;
+
+b) îndeplinește demersurile necesare în vederea retragerii de la tranzacționare a entităților administrate, dacă este cazul.
+
+(11) În cazul nerespectării dispozițiilor alin. (3)-(5) și (7), administratorul provizoriu restituie entităților preluate în administrare temporară comisioanele încasate.
+
+(12) Odată cu retragerea autorizației AFIA ca sancțiune, A.S.F. poate dispune suspendarea procesului de subscriere și răscumpărare a unităților de fond ale entităților administrate, în conformitate cu prevederile art. 5 alin. (4) din Legea nr. 243/2019, cu modificările și completările ulterioare.
+
+(13) La data comunicării deciziei de sancționare cu retragerea autorizației, AFIA sancționat:
+
+a) încetează orice activități de administrare a entităților aflate în administrarea sa și a portofoliilor individuale;
+
+b) începe transferul atribuțiilor și operațiunilor specifice activității de administrare către administratorul provizoriu desemnat de A.S.F. prin decizia de sancționare, inclusiv transferul registrelor și evidențelor, al corespondenței, materialelor publicitare, contractelor și al oricăror altor documente relevante, în original, ale organismelor administrate. Transferul trebuie să se încheie în cel mult 10 zile de la data comunicării deciziei de sancționare.
+
+(14) Retragerea autorizației AFIA prin decizie de sancționare nu produce efecte asupra derulării contractelor de depositare a entităților administrate. Depozitarul trebuie să își îndeplinească în continuare atribuțiile până la încheierea unui contract de depositare cu noul AFIA sau, după caz, până la predarea activelor către un nou depositar.”
+
+## 26. Articolul 53 se modifică și va avea următorul cuprins:
+
+„Art. 53. - Desfășurarea fără autorizație sau fără înregistrare a oricăror activități sau operațiuni pentru care prezenta lege cere autorizarea sau înregistrarea constituie infracțiune și se pedepsește potrivit art. 348 din Legea nr. 286/2009 privind Codul penal, cu modificările și completările ulterioare.”
+
+## 27. La articolul 54, alineatul (1) se modifică și va avea următorul cuprins:
+
+„(1) Săvârșirea contravențiilor prevăzute la art. 51 se constată de către A.S.F. prin intermediul personalului specializat împuternicit să exercite atribuții privind supravegherea, investigarea și controlul respectării dispozițiilor legale și ale reglementărilor aplicabile pieței de capital.”
+
+## 28. La articolul 57, după alineatul (2) se introduce un nou alineat, alin. (2¹), cu următorul cuprins:
+
+„(2¹) Prin derogare de la prevederile art. 14 și 15 din Legea contenciosului administrativ nr. 554/2004, cu modificările și completările ulterioare, contestația adresată Curții de Apel București, Secția contencios administrativ și fiscal nu suspendă, pe timpul soluționării acesteia, executarea actelor administrative adoptate de A.S.F.”
+
+## CAPITOLUL III
+
+## Modificarea și completarea Legii nr. 243/2019 privind reglementarea fondurilor de investiții alternative și pentru modificarea și completarea unor acte normative
+
+Art. III. – Legea nr. 243/2019 privind reglementarea fondurilor de investiții alternative și pentru modificarea și completarea unor acte normative, publicată în Monitorul Oficial al României, Partea I, nr. 1035 din 24 decembrie 2019, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+## 1. La articolul 1, alineatele (2) și (3) se modifică și vor avea următorul cuprins:
+
+„(2) Fondurile de investiții alternative menționate la alin. (1), denumite în continuare F.I.A., sunt acele entități înființate în România fie în conformitate cu prevederile Legii nr. 287/2009 privind Codul civil, republicată, cu modificările și completările ulterioare, denumită în continuare Codul civil, aplicabile societăților simple fără personalitate juridică, fie în conformitate cu prevederile Legii societăților nr. 31/1990, republicată, cu modificările și completările ulterioare, denumită în continuare Legea nr. 31/1990, definite la art. 3 pct. 20 din Legea nr. 74/2015 privind administratorii de fonduri de investiții alternative, cu modificările și completările ulterioare, denumită în continuare Legea nr. 74/2015.
+
+(3) Fondurile de investiții alternative atrag capital de la investitori, în vederea investirii acestuia în conformitate cu documentele de constituire și cadrul legal aplicabil, în interesul exclusiv al acestora.”
+
+## 2. La articolul 2, după litera e) se introduce o nouă literă, lit. e¹), cu următorul cuprins:
+
+„e¹) bursă dintr-un stat terț – echivalent al unui loc de tranzacționare definit la lit. p).”
+
+## 3. La articolul 2, litera h) se modifică și va avea următorul cuprins:
+
+„h) F.I.A. destinate investitorilor profesionali - F.I.A. care atrag resurse financiare exclusiv de la investitorii profesionali, investorii semiprofesionali sau de la investitorii de retail care solicită încadrarea în categoria investitorilor profesionali;”
+
+## 4. La articolul 2, după litera m) se introduce o nouă literă, lit. m¹), cu următorul cuprins:
+
+„m¹) investor semiprofesional – un investor, astfel cum este definit la art. 3 pct. 30¹ din Legea nr. 74/2015;”
+
+## 5. La articolul 2, litera o) se modifică și va avea următorul cuprins:
+
+„o) investiție imobiliară în cazul F.I.A destinate investitorilor de retail - investiție în active imobiliare, în acțiuni ale societăților cu profil imobiliar ce nu sunt admise la tranzacționare în cadrul unui loc de tranzacționare sau nu sunt tranzacționate în cadrul unei burse dintr-un stat terț, respectiv părți sociale ale societăților cu profil imobiliar ale căror situații financiare sunt auditate cel puțin cu frecvență anuală, care își evaluează activele cel puțin anual și de fiecare dată când se înregistrează tranzacții cu active din portofoliul său investițional, precum și împrumuturile acordate unei S.A./S.R.L. cu profil imobiliar, în condițiile prevăzute la art. 40 alin. (9);”
+
+## 6. La articolul 2, după litera o), se introduce o nouă literă, lit. o¹), cu următorul cuprins:
+
+„o¹) investiție imobiliară în cazul F.I.A destinate investitorilor profesionali - investiție în active imobiliare, în acțiuni ale societăților cu profil imobiliar ce nu sunt admise la tranzacționare în cadrul unui loc de tranzacționare sau nu sunt tranzacționate în cadrul unei burse dintr-un stat terț, respectiv părți sociale ale societăților cu profil imobiliar care își valuează activele cel puțin anual și de fiecare dată când se înregistrează tranzacții cu active din portofoliul său investițional, precum și împrumuturile acordate unei S.A./S.R.L. cu profil imobiliar, în condițiile prevăzute la art. 40 alin. (9);”
+
+## 7. La Titlul I Capitolul II, titlul se modifică și va avea următorul cuprins:
+
+„Autorizarea/ înregistrarea și funcționarea fondurilor de investiții alternative”
+
+## 8. La articolul 4, alineatele (1), (6), (9) și (12) se modifică și vor avea următorul cuprins:
+
+„(1) Un F.I.A. este autorizat după ce, în prealabil, A.S.F. a autorizat/înregistrat A.F.I.A. sau și-a exprimat acordul cu privire la cererea unei A.F.I.A. dintr-un stat membru de a administra activele respectivului F.I.A., a autorizat regulile fondului și alegerea depozitarului.
+
+(6) În cazul respingerii unei cereri, A.S.F. emite o decizie motivată, care poate fi contestată în termen de maximum 30 de zile de la data comunicării ei către petent în conformitate cu prevederile art. 74 alin. (20).
+
+(9) Autorizarea, conversia titlurilor de participare, transformarea unui F.I.A. în O.P.C.V.M., transformarea unui F.I.A. într-o altă categorie de F.I.A., fuziunea, divizarea și retragerea autorizației de funcționare a unui F.I.A. sunt supuse aprobării A.S.F.
+
+(12) Prin derogare de la prevederile art. 2 alin. (2) din Legea nr. 74/2015, activele unui F.I.A. destinat investorilor de retail sunt administrate de un A.F.I.A. autorizat de către A.S.F. sau de o altă autoritate competentă dintr-un stat membru sau dintr-un stat terț sau de către un A.F.I.A. înregistrat care deține și o autorizație de S.A.I.”
+
+## 9. După articolul 4 se introduce un articol nou, art. 4¹, cu următorul cuprins:
+
+„Art. 4¹. – (1) Prin excepție de la prevederile art. 4, F.I.A. destinate investitorilor profesionali reglementate la Titlul I Capitolul IV, sunt înregistrate la A.S.F., după ce, în prealabil, A.S.F. a autorizat/înregistrat A.F.I.A. sau și-a exprimat acordul cu privire la cererea unui A.F.I.A. dintr-un stat membru de a administra activele respectivului F.I.A.
+
+(2) F.I.A. prevăzute la alin. (1) le sunt aplicabile prevederile art. 4 alin. (3).
+
+(3) A.S.F. hotărăște cu privire la înregistrarea F.I.A. prevăzute la alin. (1), prin emiterea unui atestat, precum și cu privire la retragerea înregistrării, în termen de maximum 30 de zile de la înregistrarea cererii și a documentelor complete prevăzute de reglementările A.S.F., depuse de A.F.I.A. extern/ F.I.A. autoadministrat.
+
+(4) Orice solicitare a A.S.F. de informații suplimentare sau de modificare a documentelor prezentate inițial întrerupe termenul prevăzut la alin. (3), care reîncepe să curgă de la data depunerii respectivelor informații suplimentare sau a modificării efectuate la solicitarea A.S.F., depunere care nu poate fi făcută mai târziu de 30 de zile de la data solicitării A.S.F., sub sancțiunea respingerii cererii inițiale.
+
+(5) În cazul respingerii unei cereri de înregistrare, A.S.F. emite o decizie motivată, care poate fi contestată în termen de maximum 30 de zile de la data comunicării ei către petent în conformitate cu prevederile art.74 alin. (20).
+
+(6) În situația în care constată că respectivul F.I.A. nu mai întrunește condițiile legale de funcționare, A.S.F. va aplica A.F.I.A./ F.I.A. autoadministrat, în funcție de gravitatea faptei, sancțiunile și/sau măsurile administrative prevăzute la art. 74.
+
+(7) A.S.F. poate retrage atestatul unui F.I.A. prevăzut la alin. (1) la solicitarea A.F.I.A. care administrează activele respectivului F.I.A./ F.I.A. autoadministrat, în conformitate cu prevederile stabilite la alin. (3) și (4).
+
+(8) Transformarea F.I.A. prevăzute la alin. (1) într-o altă categorie de F.I.A. destinate investitorilor profesionali se face în baza unei cereri însoțită de documentele modificate în mod corespunzător ca urmare a modificării politicii investiționale și cu respectarea regimului legal aferent noii categorii. Ulterior analizării documentelor depuse, A.S.F. hotărăște cu privire la înregistrarea/ respingerea înregistrării F.I.A. în noua categorie de F.I.A. destinate investitorilor profesionali, în termenele și condițiile prevăzute la alin. (3) - (5).
+
+(9) Transformarea F.I.A. prevăzute la alin. (1) într-o categorie de F.I.A. destinate investorilor de retail este supusă autorizării A.S.F.”
+
+## 10. La articolul 5, alineatele (1) și (4) se modifică și vor avea următorul cuprins:
+
+„(1) În situații excepționale și numai pentru protejarea interesului deținătorilor de titluri de participare, F.I.A. autoadministrat sau A.F.I.A. care acționează în numele unui F.I.A. poate limita sau poate suspenda temporar emisiunea și/sau răscumpărarea titlurilor de participare, cu respectarea prevederilor regulilor F.I.A. Regulile fondului prevăd o prezentare a situațiilor excepționale ce pot determina suspendarea temporară a emisiunii și/sau răscumpărării titlurilor de participare, precum și o mențiune cu privire la faptul că suspendarea temporară a emisiunii și/sau răscumpărării titlurilor de participare poate interveni și în alte situații excepționale care pot apărea pe perioada de funcționare a F.I.A. și care nu au putut fi în mod rezonabil anticipate la data constituirii F.I.A., la care se adaugă și o listă a regulilor de evaluare și politicilor de investiții utilizate în administrarea F.I.A.
+
+(4) Pentru protecția interesului public și al investitorilor, A.S.F. poate decide temporar suspendarea sau limitarea emisiunii și/sau răscumpărării titlurilor de participare ale unui F.I.A. autorizat/ înregistrat de aceasta. A.S.F. poate emite reglementări cu privire la situațiile și condițiile în care decide temporar suspendarea sau limitarea emisiunii și/sau răscumpărării titlurilor de participare ale unui F.I.A. autorizat/ înregistrat de aceasta.”
+
+## 11. La Titlul I Capitolul II Secțiunea a 2-a, titlul se modifică și va avea următorul cuprins:
+
+„Autorizarea/ înregistrarea și funcționarea F.I.A. de tip contractual”
+
+## 12. La articolul 6, după alineatul (2) se introduc două noi alineate, alin. (2¹) și (2²), cu următorul cuprins:
+
+„(2¹) Deținătorii de unități de fond beneficiază de drepturi și obligații doar în limita valorii activelor deținute de F.I.A.C., precum și proportional cu deținerile de unități de fond. Creditorii F.I.A.C. nu pot urmări deținătorii de unități de fond ai F.I.A.C. cu depășirea limitei valorice și proporția din activele F.I.A.C. deținute de fiecare investor în parte.
+
+(2²) F.I.A.C. nu răspunde față de creditorii deținătorilor de unități de fond, creditorii acestora având dreptul să urmărească exclusiv unitățile de fond ale investitorilor debitori.”
+
+## 13. La articolul 6, alineatul (4) se modifică și va avea următorul cuprins:
+
+„(4) Oferirea unităților de fond ale unui F.I.A.C. se poate face numai după autorizarea/ înregistrarea acestuia de către A.S.F. și înscrierea în Registrul public al A.S.F., cu respectarea prevederilor prezentei legi, ale reglementărilor A.S.F. emise în aplicarea ei și în condițiile menționate în documentul de ofertă și regulile fondului.”
+
+## 14. La articolul 7, alineatele (2) și (3) se modifică și vor avea următorul cuprins:
+
+„(2) Documentul de ofertă al F.I.A.C., precum și modificările ulterioare ale acestuia se notifică A.S.F., în conformitate cu prevederile prezentei legi și ale reglementărilor A.S.F. În cazul F.I.A.C. ce nu este admis la tranzacționare, documentul de ofertă are formatul de prezentare și conținutul minim stabilite de reglementările emise de A.S.F., iar în cazul F.I.A.C. admis la tranzacționare prospectul are formatul de prezentare și conținutul minim stabilite de Regulamentul delegat (UE) 2019/980 al Comisiei din 14 martie 2019 de completare a Regulamentului (UE) 2017/1.129 al Parlamentului European și al Consiliului în ceea ce privește formatul, conținutul, verificarea și aprobarea prospectului care trebuie publicat în cazul unei oferte publice de valori mobiliare sau al admiterii de valori mobiliare la tranzacționare pe o piață reglementată și de abrogare a Regulamentului (CE) nr. 809/2004 al Comisiei, denumit în continuare Regulamentul (UE) nr. 2019/980, după caz.”
+
+(3) Regulile fondului, precum și modificările semnificative ulterioare ale acestora, stabilite prin reglementările A.S.F., se aprobă de către A.S.F., în conformitate cu prevederile prezentei legi și ale reglementărilor A.S.F.”
+
+15\. După articolul 7 se introduce un nou articol, art. 7¹, cu următorul cuprins: „Art. 7¹. - (1) În vederea înregistrării unui F.I.A.C. în conformitate cu prevederile art. 4¹, A.F.I.A. depune la A.S.F. o cerere, însoțită de documentele stabilite prin reglementările emise de A.S.F.
+
+(2) Regulile F.I.A.C., precum și modificările semnificative ulterioare ale acestora se notifică A.S.F., în conformitate cu prevederile prezentei legi și ale reglementărilor A.S.F.”
+
+16\. La articolul 8, alineatul (1) partea introductivă și litera b) se modifică și vor avea următorul cuprins:
+
+„(1) Documentul de ofertă al F.I.A.C. sau, după caz, regulile fondului, stabilesc cel puțin următoarele:
+
+b) în cazul F.I.A.C. de tip deschis, datele exacte sau perioadele de timp la care se pot răscumpăra din activ unitățile de fond la inițiativa oricărui investitor anterior începerii fazei de lichidare a F.I.A.C., în mod direct sau indirect, în conformitate cu procedurile și frecvența de răscumpărare stabilite în regulile F.I.A.C. În cazul unui F.I.A.C. de tip deschis investitorii își pot răscumpăra din activ unitățile de fond cel puțin anual;”
+
+## 17. La articolul 8, alineatele (2) și (3) se modifică și vor avea următorul cuprins:
+
+„(2) Regulile fondului sau, după caz, documentul de ofertă al F.I.A.C. de tip închis pot prevedea și derularea unor oferte ulterioare de unități de fond.
+
+(3) Regulile fondului sau, după caz, documentul de ofertă al F.I.A.C. pot prevedea posibilitatea distribuirii către investitori, la anumite date sau pe parcursul unei perioade calendaristice, a câștigului acumulat într-o anumită perioadă stabilită în documentele F.I.A.C.”
+
+## 18. La articolul 8 alineatul (4), litera b) se modifică și va avea următorul cuprins::
+
+„b) autorizarea/ înregistrarea F.I.A.C. nu implică în niciun fel aprobarea sau evaluarea de către A.S.F. a calității plasamentului în respectivele unități de fond;”
+
+## 19. Articolul 9 se modifică și va avea următorul cuprins:
+
+„Art. 9. - (1) Emisiunea și răscumpărarea unităților de fond se fac în conformitate cu documentul de ofertă notificat A.S.F. și cu regulile F.I.A.C. autorizate de A.S.F. în cazul F.I.A. destinate investitorilor de retail sau cu regulile notificate A.S.F. în cazul F.I.A. destinate investitorilor profesionali.
+
+(2) Modificările ulterioare ale documentului de ofertă al F.I.A.C. destinat investorilor de retail, care nu se regăsesc și în regulile F.I.A.C. și nu sunt considerate modificări semnificative stabilite prin reglementările A.S.F., se notifică A.S.F. în termen de maximum 10 zile de la efectuarea acestora, însoțite de o notă de fundamentare.
+
+(3) În termen de cel mult 14 de zile de la data primirii documentului de ofertă actualizat prevăzut la alin. (2), A.S.F. va putea comunica A.F.I.A. observații pe marginea formei și conținutului respectivului document, după caz. În situații excepționale, A.S.F. poate prelungi termenul de 14 de zile până la maximum 45 de zile, în cazul în care observațiile sale cu privire la documentul de ofertă sunt semnificative și comunică A.F.I.A. prelungirea termenului.
+
+(4) Documentul de ofertă actualizat al unui F.I.A.C. destinat investitorilor de retail intră în vigoare la data informării investitorilor conform alin. (5), care se face ulterior expirării termenului prevăzut la alin. (3).
+
+(5) Documentul de ofertă actualizat al unui F.I.A.C. destinat investitorilor de retail se publică pe site-ul web al A.F.I.A. care administrează respectivul F.I.A.C., împreună cu o notă de informare a investitorilor cu privire la detalierea modificărilor aduse acestuia.
+
+(6) Modificările ulterioare ale documentului de ofertă al unui F.I.A.C. destinat investorilor de retail, care se regăsesc și în regulile F.I.A.C. și sunt considerate modificari semnificative stabilite prin reglementările A.S.F., vor fi transmise A.S.F. la data transmitterii spre autorizare a regulilor F.I.A.C. destinat investorilor de retail și intră în vigoare la data intrării în vigoare a acestora.
+
+(7) Documentul de ofertă actualizat al unui F.I.A.C. destinat investorilor profesionali este adus la cunoștința investitorilor prin intermediul canalelor de comunicare stabilite prin contractul de societate, în termen de maximum 10 zile de la efectuarea acestora și intră în vigoare la data comunicării, cu excepția modificărilor care se regășesc și în regulile F.I.A.C. destinate investorilor profesionali care sunt notificate A.S.F. și sunt considerate modificări semnificative stabilite prin reglementările A.S.F., acestea urmând a intra în vigoare la data intrării în vigoare a regulilor F.I.A.C.”
+
+## 20. Articolul 11 se modifică și va avea următorul cuprins:
+
+„Art.11. - (1) A.F.I.A. supune autorizării A.S.F. modificările semnificative intervenite în regulile F.I.A.C. destinate investitorilor de retail, stabilite prin reglementările A.S.F., înainte de intrarea în vigoare a acestora, cu prezentarea unei fundamentări.
+
+(2) În vederea informării investitorilor cu privire la modificările semnificative intervenite la regulile F.I.A.C. menționate la alin. (1), A.F.I.A. publică pe site-ul propriu sau prin intermediul canalelor de comunicare stabilite prin contractul de societate o notă de informare cu privire la acestea în termen de maximum două zile lucrătoare de la data autorizării. Modificările intră în vigoare la data informării investitorilor.
+
+(3) A.F.I.A. notifică A.S.F. și informează investitorii respectivului fond, prin publicare pe site-ul propriu, cu privire la alte modificări decât cele prevăzute la alin. (1), intervenite în regulile F.I.A.C. destinate investitorilor de retail înainte de intrarea în vigoare a acestora. În acest caz, prevederile art. 9 alin. (2) - (6) se aplică în mod corespunzător.
+
+(4) În situația în care investitorii nu sunt de acord cu modificările semnificative intervenite la regulile F.I.A.C. efectuate la inițiativa A.F.I.A., A.F.I.A. are obligația de a onora cererile de răscumpărare integrală ale investitorilor depuse într-un interval de maximum 15 zile de la data informării în condițiile prevăzute în documentele fondului anterior intrării în vigoare a acestor modificări.
+
+(5) A.F.I.A. are obligația de a transmite la A.S.F., în termen de două zile lucrătoare de la informarea investitorilor, dovada publicării sau comunicării notei de informare.
+
+*Documentul are 63 de pagini; am citit primele 40.*

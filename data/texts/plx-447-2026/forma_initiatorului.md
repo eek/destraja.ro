@@ -1,0 +1,41 @@
+# LEGE
+
+# pentru completarea Legii petrolului nr. 238/2004
+
+Parlamentul României adoptă prezenta lege.
+
+Art. I. – Legea petrolului nr. 238/2004, publicată în Monitorul Oficial al României, Partea I, nr. 535 din 15 iunie 2004, cu modificările și completările ulterioare, se completează după cum urmează:
+
+După articolul 31 se introduce un nou articol, articolul 31¹, cu următorul cuprins:
+
+„Art. 31¹
+
+(1) Prin derogare de la prevederile art. 30 alin. (2), la cererea titularului unui acord petrolier de exploatare aflat în derulare, autoritatea competentă și de reglementare poate aproba conversia directă a acordului petrolier respectiv într-un acord petrolier de înmagazinare subterană a gazelor naturale, fără parcurgerea unei noi proceduri de apel public de ofertă. Conversia se realizează pe baza documentației tehnico-economice depuse de titularul acordului petrolier aflat în derulare și cu aprobarea prealabilă a autorității competente și de reglementare.
+
+(2) Conversia prevăzută la alin. (1) se realizează prin decizie a autorității competente și de reglementare și poate fi aprobată numai dacă sunt îndeplinite cumulativ următoarele condiții:
+
+a) titularul acordului petrolier a demonstrat fezabilitatea utilizării zăcământului sau a structurii geologice ce face obiectul acordului petrolier de exploatare pentru înmagazinarea subterană a gazelor naturale, prin studii și documentații tehnico-economice avizate de autoritatea competentă și de reglementare;
+
+b) titularul deține capacitatea tehnică și financiară necesară realizării în condiții de siguranță a operațiunilor de înmagazinare subterană a gazelor naturale;
+
+c) titularul și-a îndeplinit integral obligațiile asumate prin acordul petrolier de exploatare în vigoare până la data deciziei de aprobare eliberate de autoritatea competentă și de reglementare, neînregistrând restanțe la obligațiile bugetare, la plata redevenței ori la celelalte obligații contractuale și legale;
+
+d) conversia asigură continuitatea operațiunilor petroliere în perimetrul respectiv, evitând întreruperea utilizării pentru o perioadă mai mare de 12 luni, care ar putea afecta viabilitatea tehnică și economică a zăcământului.
+
+(3) Autoritatea competentă și de reglementare analizează documentația tehnico-economică și decide asupra conversiei acordului în termen de 60 de zile de la depunerea dosarului complet.
+
+(4) În vederea respectării principiilor de transparență și nediscriminare prevăzute de Directiva 94/22/CE a Parlamentului European și a Consiliului din 30 mai 1994, autoritatea competentă și de reglementare publică o notificare privind intenția de conversie a acordului petrolier cu cel puțin 30 de zile înainte de aprobarea acesteia, precum și decizia de aprobare a conversiei în termen de 15 zile de la data adoptării acesteia. Notificarea intenției și decizia de aprobare a conversiei acordului petrolier modificat se publică în Monitorul Oficial al României, Partea a IV-a, și pe pagina de internet a autorității competente și de reglementare.
+
+(5) Acordul petrolier modificat ca efect al conversiei prevăzute la alin. (1) se aprobă prin hotărâre a Guvernului, la propunerea autorității competente și de reglementare, și intră în vigoare de la data aprobării".
+
+Art. II. – În termen de 90 de zile de la intrarea în vigoare a prezentei legi, procedura detaliată de realizare a conversiei acordurilor petroliere, documentațiile tehnico-economice necesare, precum și alte condiții tehnice și de siguranță se reglementează de către Guvern prin modificarea corespunzătoare a Normelor metodologice pentru aplicarea Legii petrolului nr. 238/2004, aprobate prin Hotărârea Guvernului nr. 238/2004, cu modificările și completările ulterioare.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.
+
+Președintele Camerei Deputaților
+
+Președintele Senatului
+
+Sorin Mihai GRINDEANU
+
+Mircea ABRUDEAN

@@ -1,0 +1,107 @@
+{
+  "slug": "plx-245-2026",
+  "billId": "PL-x 245/2026",
+  "updatedAt": "2026-10-29T12:54:52.993Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L062FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Neplata pensiei de întreținere va fi urmărită penal și fără plângerea victimei",
+      "summaryTlDr": "Modificarea e scurtă și în mare parte utilă. Statul poate porni dosarul de abandon de familie fără plângerea victimei, iar debitorul scapă tot numai dacă plătește. Problemele sunt de tehnică legislativă: renumerotarea alineatelor și lipsa unei norme tranzitorii.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/200/40/5/se265.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Abandonul de familie și neplata pensiei de întreținere se vor ancheta din oficiu, fără plângerea victimei",
+      "summaryTlDr": "Modificarea este scurtă, țintită și în mare parte benefică. Dispare termenul de 3 luni pentru plângere, care îi lăsa nepedepsiți pe cei care nu plătesc pensia de întreținere. Rămân de reparat trei detalii: victimele adulte pierd orice control asupra procesului, lipsește o regulă de tranziție, iar alineatele sunt renumerotate greșit.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat tacit proiectul în forma inițială; abandonul de familie devine urmărit din oficiu",
+      "summary": "Pe fond nu s-a schimbat nimic. Senatul a adoptat tacit forma inițiatorului și a corectat doar «din din» din titlu. Abandonul de familie ar fi urmărit din oficiu, fără plângere prealabilă, chiar și când victima e adultă.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Obligațiile între adulți (foști soți, părinți vârstnici) devin urmăribile din oficiu, fără voia victimei",
+            "major": true,
+            "article": "art. 378 alin. (3) CP"
+          },
+          {
+            "text": "Victima nu mai poate retrage plângerea; medierea penală nu mai stinge cauza",
+            "major": true,
+            "article": "art. 378 alin. (3) CP"
+          },
+          {
+            "text": "Expunerea nu arată de ce art. 157 alin. (4) CP nu ajungea pentru minori",
+            "major": false,
+            "article": "art. unic pct. 1"
+          },
+          {
+            "text": "Renumerotarea alin. (4) și (5) rupe trimiterile din jurisprudență și doctrină",
+            "major": false,
+            "article": "art. unic pct. 2"
+          },
+          {
+            "text": "Greșeală de redactare: «Monitorul Oficial ai României» în articolul unic",
+            "major": false,
+            "article": "art. unic"
+          }
+        ],
+        "good": [
+          {
+            "text": "Fără plângere prealabilă: oricine poate sesiza neplata întreținerii, fără termen de 3 luni",
+            "major": true,
+            "article": "art. 378 alin. (3) CP"
+          },
+          {
+            "text": "Plata datoriei înainte de finalul urmăririi penale înlătură în continuare pedeapsa",
+            "major": true,
+            "article": "art. 378 alin. (4) CP"
+          },
+          {
+            "text": "Plata până la hotărârea definitivă aduce amânarea sau suspendarea pedepsei",
+            "major": true,
+            "article": "art. 378 alin. (5) CP"
+          },
+          {
+            "text": "Titlul legii nu mai conține repetiția «din din»",
+            "major": false,
+            "article": null
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 4,
+        "same": 0.57
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:53:29.680Z"
+    }
+  ]
+}

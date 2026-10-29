@@ -1,0 +1,97 @@
+# PARLAMENTUL ROMÂNIEI
+
+# CAMERA DEPUTAȚILOR
+
+SENAT
+
+# Lege privind cerințele de informare prin etichetare pentru apa de izvor și apa de masă îmbuteliată
+
+Parlamentul României adoptă prezenta lege. Art. 1
+
+(1) Prezenta lege stabilește cerințe suplimentare de informare a consumatorilor privind originea și tratamentele aplicate apei de izvor și apei de masă îmbuteliate, comercializate pe territoriul României.
+
+(2) Cerințele prevăzute de prezenta lege urmăresc asigurarea unui nivel ridicat de protecție a consumatorilor și prevenirea practicilor susceptibile să inducă în eroare cu privire la originea apei.
+
+## Art. 2
+
+(1) Prezenta lege se aplică apei de izvor și apei de masă introduse pe piață ca produse alimentare preambalate.
+
+(2) Prezenta lege se aplică produselor comercializate pe territoriul României, indiferent de statul membru sau de țara terță de proveniență.
+
+(3) Prezenta lege stabilește cerințe naționale suplimentare privind informarea consumatorilor referitoare la originea apei și la tratamentele aplicate acesteia, în vederea protecției consumatorilor și a prevenirii practicilor susceptibile să inducă în eroare, în condițiile art. 39 din Regulamentul (UE) nr. 1169/2011.
+
+(4) Prezenta lege nu aduce atingere regimului juridic aplicabil apelor minerale naturale, stabilit prin legislația Uniunii Europene și prin legislația națională.
+
+## Art. 3
+
+(1) Termenii și expresiile utilizate în prezenta lege au semnificațiile prevăzute de Regulamentul (UE) nr. 1169/2011, Regulamentul (CE) nr. 178/2002 și de legislația națională aplicabilă apei destinate consumului uman.
+
+(2) În sensul prezentei legi:
+
+a) apă de izvor – produs alimentar comercializat sub această denumire;
+
+b) apă de masă – produs alimentar comercializat sub această denumire;
+
+c) operator economic – operatorul din sectorul alimentar responsabil pentru informațiile referitoare la produs, potrivit Regulamentului (UE) nr. 1169/2011.
+
+## Art. 4
+
+(1) Denumirea categoriei produsului „apă de izvor” sau „apă de masă” se înscrie pe fața principală a ambalajului.
+
+(2) Denumirea categoriei produsului se afișează în același câmp vizual cu denumirea comercială, cu respectarea cerințelor de lizibilitate prevăzute de Regulamentul (UE) nr. 1169/2011.
+
+(3) Prezentarea, etichetarea și publicitatea produselor reglementate de prezenta lege nu trebuie să inducă în eroare consumatorii cu privire la categoria produsului.
+
+## Art. 5
+
+(1) Eticheta produsului cuprinde obligatoriu denumirea localității și a județului în care este situată sursa de captare utilizată pentru fabricarea produsului.
+
+(2) Informația prevăzută la alin. (1) trebuie să fie conformă cu documentele deținute de operatorul economic.
+
+(3) Operatorul economic este obligat să poată demonstra exactitatea informației prevăzute la alin. (1) prin documentele și evidențele deținute.
+
+## Art. 6
+
+(1) În cazul în care asupra apei au fost aplicate tratamente care, potrivit legislației aplicabile, trebuie declarate consumatorilor, acestea se menționează pe etichetă.
+
+(2) În cazul în care asupra apei nu au fost aplicate tratamente dintre cele prevăzute la alin. (1), operatorul economic poate utiliza o mențiune corespunzătoare, clară și neechivocă privind lipsa tratamentelor aplicate.
+
+## Art. 7
+
+Controlul respectării prevederilor și constatarea contravențiilor prezentei legi se realizează de către personalul împuternicit al Autorității Naționale pentru Protecția Consumatorilor, potrivit competențelor stabilite de lege.
+
+## Art. 8
+
+Constituie contravenții următoarele fapte:
+
+a) nerespectarea obligațiilor prevăzute la art. 4 alin. (1) și (2);
+
+b) omisiunea sau indicarea neconformă a informațiilor prevăzute la art. 5;
+
+c) nerespectarea obligației prevăzute la art. 6 alin. (1).
+
+## Art. 9
+
+(1) Contravențiile prevăzute la art. 8 se sancționează după cum urmează:
+
+a) pentru faptă prevăzută la art. 8 lit. a), amendă de la 5.000 lei la 15.000 lei;
+
+b) pentru faptă prevăzută la art. 8 lit. b), amendă de la 10.000 lei la 25.000 lei;
+
+c) pentru faptă prevăzută la art. 8 lit. c), amendă de la 5.000 lei la 15.000 lei.
+
+(2) La individualizarea sancțiunii se au în vedere gravitatea faptei, durata acesteia, numărul produselor afectate și eventualul prejudiciu cauzat consumatorilor.
+
+(3) Constatarea contravențiilor și aplicarea sancțiunilor se realizează de către personalul împuternicit al Autorității Naționale pentru Protecția Consumatorilor.
+
+(4) Dispozițiile Ordonanței Guvernului nr. 2/2001 privind regimul juridic al contravențiilor, aprobată cu modificări și completări prin Legea nr. 180/2002, cu modificările și completările ulterioare, se aplică în mod corespunzător, în măsura în care prezenta lege nu dispune altfel.
+
+## Art. 10
+
+(1) Dispozițiile art. 4 - 6 se aplică după expirarea unui termen de 12 luni de la data intrării în vigoare a prezentei legi.
+
+(2) Produsele introduse pe piață anterior datei prevăzute la alin. (1) pot fi comercializate până la epuizarea stocurilor, dar nu mai târziu de 18 luni de la data intrării în vigoare a prezentei legi.
+
+## Art. 11
+
+Prezenta lege intră în vigoare la 30 de zile de la data publicării în Monitorul Oficial al României, Partea I.

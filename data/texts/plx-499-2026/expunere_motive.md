@@ -1,0 +1,97 @@
+EXPUNERE DE MOTIVE la proiectul de lege pentru modificarea și completarea Legii nr. 46/2003 privind drepturile pacientului
+
+I. MOTIVUL ELABORĂRII Legea nr. 46/2003 privind drepturile pacientului constituie cadrul normativ fundamental al relației dintre pacient și sistemul de sănătate din România. Cu toate acestea, dispozițiile în vigoare ale art. 26-28, care reglementează dreptul la intimitate, nu conțin nicio prevedere specifică referitoare la condițiile în care se desfășoară travaliul și nașterea - momente de o vulnerabilitate fizică și psihică excepțională pentru femeia gravidă. Absența unui cadru normativ explicit generează, în practică, o situație paradoxală: unități sanitare cu profil matern pot impune, prin regulamente interne, restricții absolute privind prezența însoțitorului și pot desfășura travaliul în saloane comune, fără separare auditivă sau vizuală adecvată, fără ca aceste practici să fie supuse unui test de proporționalitate față de drepturile fundamentale ale pacientei. Prezentul proiect de lege urmărește eliminarea acestui vid legislativ prin introducerea unor garanții explicite, proportionate și compatibile cu organizarea activității medicale, în concordanță cu standardele europene și cu recomandările Organizației Mondiale a Sănătății.
+
+II. SITUAȚIA ACTUALĂ ȘI DEFICIENȚELE REGLEMENTĂRII EXISTENTE
+
+I.1. Practici neunitare în unitățile sanitare În absența unei reglementări exprese, practica la nivelul unităților sanitare din România este profund neunitară. Trei categorii de disfuncționalități sunt identificate în mod recurent: • Desfășurarea travaliului în saloane comune. In numeroase maternități, parturientele traversează faza activă a travaliului în saloane cu mai multe paturi, fără paravane sau separatoare acustice. Strigătele, durerile și reacțiile emoționale sunt audibile și vizibile pentru celelalte paciente, afectând în mod direct dreptul la viață intimă consacrat de art. 26 din Constituția României. • Excluderea generalizată a însoțitorului. Regulamentele interne ale unor unități sanitare interzic, ca regulă generală și fără diferențieri individuale, prezența
+
+oricărui însoțitor în sala de nașteri sau în camera de travaliu, indiferent de starea medicală a pacientei sau de existența unor riscuri clinice concrete. • Absența evaluării individuale și a proporționalității. Restricțiile sunt aplicate uniform, fără o analiză a situației concrete a fiecărei paciente, fără posibilitatea de a le contesta și fără o fundamentare medicală documentată.
+
+II.2. Riscuri pentru unitățile sanitare Dincolo de impactul asupra pacientelor, absența reglementării expune unitățile sanitare la un risc crescut de litigii civile și de sesizări la Colegiul Medicilor sau la Consiliul Național al Drepturilor Pacienților. Standardul constituțional și convențional aplicabil este suficient de clar pentru ca instanțele naționale - sau Curtea Europeană a Drepturilor Omului - să constate existența unor obligații pozitive ale statului în materie de reglementare a actului medical din perspectiva dreptului la viață privată.
+
+III. CADRUL EUROPEAN ȘI INTERNAȚIONAL DE REFERINȚĂ
+
+III.1. Jurisprudența Curții Europene a Drepturilor Omului Curtea Europeană a Drepturilor Omului a statuat în mod clar că nașterea intră în sfera protejată de art. 8 din Convenția Europeană a Drepturilor Omului, care garantează dreptul la respectarea vieții private și de familie. Două cauze de referință sunt relevante în mod direct: • Ternovszky c. Ungariei (Cererea nr. 67545/09, 14 decembrie 2010). Curtea a statuat că «împrejurările în care o femeie dă naștere fac parte în mod incontestabil din viața sa privată» și că art. 8 din Convenție protejează dreptul de a alege condițiile nașterii. Această decizie a determinat Ungaria să modifice legislația națională pentru a asigura accesul la moașe independente și la nașterea la domiciliu. • Konovalova c. Rusiei (Cererea nr. 33011/08, 9 octombrie 2014). Curtea a constatat că prezența studenților la medicină în sala de nașteri, fără consimțământul explicit al pacientei, constituie o încălcare a art. 8 din Convenție, chiar și atunci când pacienta fusese informată printr-un formular generic. Curtea a
+
+subliniat că nicio reglementare legală suficient de precisă nu legitima această interferență cu viața privată a reclamantei. Din aceste cauze decurge obligația pozitivă a statelor membre de a dispune de un cadru normativ și instituțional adecvat, suficient de precis și de previzibil, care să protejeze demnitatea și intimitatea pacientei în cursul actului obstetrical.
+
+III.2. Modele legislative naționale europene Dreptul la însoțitor în sala de nașteri este recunoscut și reglementat în numeroase state membre ale Uniunii Europene: • Regatul Unit. Organizația Birthrights, fundată pe jurisprudența CEDO, a consolidat principiul că art. 8 din Convenție include dreptul de a alege însoțitorul pe parcursul nașterii. Ghidurile Institutului Național pentru Excelență în Sănătate și Ingrijire (NICE) recomandă în mod explicit prezența continuă a persoanei alese de pacientă, iar spitalele NHS sunt obligate să respecte această preferință în absența unor contraindicații medicale documentate. • Franța. Conform art. L.1110-8 din Codul sănătății publice, pacienta are dreptul de a alege liber practicianul, unitatea sanitară și condițiile de îngrijire. Federația Hospitalieră de France precizează că, în maternități, o singură persoană aleasă de pacientă poate asista la naștere, cu acordul moașei, sub rezerva neperturbării activității personalului. Dreptul la însoțitor este astfel consacrat normativ, nu lăsat la discreția exclusivă a unității sanitare. • Germania. Legea privind drepturile pacienților (Patientenrechtegesetz) din 2013 instituie un cadru detaliat al drepturilor pacienților în relația cu unitatea sanitară, incluzând dreptul la autodeterminare în privința condițiilor de îngrijire. Maternitățile certificate «familienfreundlich» (prietenoase familiei) acordă partenerului dreptul de a fi prezent pe tot parcursul travaliului și al nașterii. • Spania. Strategia națională de sănătate perinatală (Estrategia de Atención al Parto Normal) recomandă prezența însoțitorului ales de pacientă pe toată durata travaliului și nașterii, iar comunități autonome precum Catalunia și Madrid au transpus aceste recomandări în protocoale obligatorii pentru unitățile sanitare publice și private acreditate.
+
+• Portugalia. Legea nr. 15/2014 privind drepturile și responsabilitățile utilizatorilor serviciilor de sănătate consacră în mod explicit dreptul pacientelor de a fi însoțite de o persoană aleasă de ele pe parcursul internării, cu excepțiile strict necesare din punct de vedere medical.
+
+III.3. Recomandările Organizației Mondiale a Sănătății Organizația Mondială a Sănătății a emis, în 2018, Ghidul privind îngrijirea intrapartum pentru o experiență pozitivă a nașterii (WHO Recommendations: Intrapartum Care for a Positive Childbirth Experience), care formulează trei recomandări cu statut de «Recomandat», direct relevante pentru prezenta inițiativă legislativă: • Ingrijire respectuoasă în maternitate: «Ingrijirea organizată și acordată tuturor femeilor într-un mod care le menține demnitatea, intimitatea și confidențialitatea, care asigură absența vătămării și a relelor tratamente și care permite alegerea informată și suportul continuu pe parcursul travaliului și nașterii - este recomandată.» • Insoțitorul ales de pacientă: «Un însoțitor ales de pacientă este recomandat pentru toate femeile pe parcursul întregului travaliu și al nașterii.» • OMS definește experiența pozitivă a nașterii ca incluzând «suportul practic și emoțional continuu din partea unui însoțitor» și subliniază că un mediu de suport constituie un element esențial, nu opțional, al calității îngrijirii obstetricale.
+
+IV. ARGUMENTE MEDICALE ȘI ECONOMICE
+
+IV.1. Evidențe clinice privind impactul prezenței însoțitorului Beneficiile clinice ale prezenței unui însoțitor pe parcursul travaliului și nașterii sunt susținute de un corpus substanțial de cercetare, incluzând mai multe revizuiri sistematice Cochrane, cumulând date din zeci de studii clinice randomizate și peste 15.000 de participante. Revizuirea sistematică Cochrane privind suportul continuu pe parcursul nașterii (Bohren et al., 2017, actualizată 2023) - cel mai înalt nivel de evidență medicală disponibil - demonstrează că femeile care au beneficiat de prezența continuă a unui însoțitor au înregistrat: • o rată mai mare de nașteri spontane pe cale vaginală (RR mediu 1,08; IC 95%: 1,04-1,12);
+
+• o rată mai mică a operațiilor cezariene (RR mediu 0,75; IC 95%: 0,64-0,88); • o durată mai scurtă a travaliului (cu aproximativ 41 de minute în medie); • o utilizare mai redusă a analgeziei farmacologice și a oxitocinei de augmentare; • un scor Apgar la 5 minute mai favorabil al nou-născutului; • o rată mai mică de evaluări negative ale experienței nașterii și, posibil, o incidență redusă a depresiei postpartum. Nu au fost identificate efecte nocive asociate prezenței însoțitorului. Datele sugerează că beneficiile sunt cu atât mai pronunțate în contextele în care prezența însoțitorului nu este permisă ca regulă generală, ceea ce este tocmai situația curentă din România.
+
+IV.2. Impactul asupra sănătății nou-născutului și a sănătății mintale materne Dincolo de parametrii obstetricali, literatura de specialitate documentează beneficii suplimentare ale unui mediu de suport pe parcursul nașterii: • inițierea mai timpurie și mai frecventă a alăptării exclusive; • contactul piele-la-piele mai precoce și mai îndelungat, cu efect pozitiv asupra legăturii afective mamă-copil; • reducerea fricii față de naștere (tocofobia), cu impact favorabil asupra aderării la Îngrijiri prenatale în sarcinile ulterioare; • reducerea riscului de complicații psihologice postnatale, inclusiv a anxietății și a depresiei postpartum. Aceste efecte sunt relevante și din perspectiva interesului superior al copilului, consacrat de Convenția ONU cu privire la drepturile copilului, ratificată de România prin Legea nr. 18/1990.
+
+IV.3. Perspectiva cost-eficiență Măsurile propuse au un caracter cost-eficient: nu presupun investiții structurale sau dotări suplimentare, ci exclusiv adaptarea protocoalelor organizatorice ale unităților sanitare.
+
+IV.4. Consecințele experiențelor negative la naștere asupra comportamentului sanitar Experiențele negative asociate nașterii - inclusiv lipsa de suport emoțional, lipsa de intimitate și sentimentul pierderii controlului - au efecte documentate asupra comportamentului sanitar ulterior al femeilor: reducerea încrederii în sistemul medical, evitarea monitorizării obstetricale în sarcinile următoare, scăderea aderenței la consultațiile de specialitate. În cazuri
+
+extreme, acestea pot conduce la recurgerea la practici neconforme sau la nașteri nesupravegheate medical, cu impact direct asupra indicatorilor de mortalitate maternă și neonatală.
+
+V. CADRUL CONSTITUȚIONAL, CONVENȚIONAL ȘI LEGISLATIV
+
+V.1. Temeiuri constituționale Prezenta inițiativă legislațivă se întemeiază pe următoarele dispoziții ale Constituției României, republicată: Art. 22 - garantează dreptul la viață, integritate fizică și psihică. Condițiile inadecvate de desfășurare a travaliului (expunere la zgomot, la durerea altora, la priviri ale altor paciente sau ale personalului neimplicat în îngrijire) pot afecta integritatea psihică a parturientei. Art. 26 — consacră dreptul la viața intimă, familială și privată. Nașterea, ca eveniment de o intimitate extremă, intră în mod neîndoielnic în conținutul acestui drept, iar garantarea sa în spațiul medical impune obligații pozitive de reglementare în sarcina statului. Art. 34 — protejează dreptul la ocrotirea sănătății, care include sănătatea mintală. Suportul emoțional continuu pe parcursul nașterii are consecințe directe, documentate clinic, asupra sănătății mintale a mamei și a nou-născutului. Art. 49 — consacră protecția specială a copilului și obligația statului de a asigura interesul superior al acestuia, care justifică suplimentar promovarea unui mediu protector și suportiv în jurul nașterii. V.2. Compatibilitatea cu dreptul Uniunii Europene Propunerea este compatibilă cu art. 35 din Carta drepturilor fundamentale a Uniunii Europene, care garantează dreptul la asistență medicală în condiții stabilite de legislațiile și practicile naționale, și cu principiul subsidiarității - reglementarea condițiilor de organizare a serviciilor medicale rămânând în competența statelor membre. V.3. Compatibilitatea cu legislația națională în vigoare Modificările propuse completează dispozițiile existente ale Legii nr. 46/2003, fără a deroga de la acestea. Ele sunt, de asemenea, compatibile cu: • Legea nr. 95/2006 privind reforma în domeniul sănătății, care consacră dreptul pacientului la îngrijire de calitate și la respectarea demnității sale;
+
+• Ordinul ministrului sănătății nr. 1.384/2010 privind aprobarea modelului-cadru al contractului de management al spitalului, care include indicatori de calitate a îngrijirii; • Normele de acreditare a unităților sanitare, emise de Autoritatea Națională de Management al Calității în Sănătate (ANMCS), care evaluează respectarea drepturilor pacienților.
+
+VI. DESCRIEREA SOLUȚIILOR LEGISLATIVE PROPUSE Proiectul de lege introduce în Legea nr. 46/2003 un articol nou, cu următorul conținut esențial: VI.1. Dreptul la însoțitor Pacienta aflată în travaliu sau în naștere are dreptul de a fi însoțită, pe toată durata acestora, de o persoană aleasă de ea. Limitarea acestui drept este posibilă exclusiv în situații medicale justificate, individuale și documentate, pe baza decizie medicale motivate, comunicată pacientei. Soluția legislativă propusă este echilibrată: dreptul nu este absolut, ci poate fi limitat în prezența unor indicații medicale concrete. Aceasta reproduce modelul francez și cel britanic, care permit restricții individuale, motivate medical, dar interzic excluderea generalizată, nemotivată, a însoțitorului. VI.2. Dreptul la intimitate în cursul travaliului Unitățile sanitare sunt obligate să asigure condiții de separare vizuală și auditivă adecvată în spațiile în care se desfășoară travaliul, cu scopul de a proteja intimitatea pacientei și a celorlalte paciente aflate în aceeași unitate. Unde configurația existentă nu permite această separare, unitatea sanitară este obligată să asigure măsuri alternative de protecție a intimității, documentate și integrate în planul de îngrijire.
+
+VI.3. Mecanismul de aplicare Aplicarea dispozițiilor propuse nu generează sarcini administrative semnificative. Unitățile sanitare sunt obligate să: • includă dreptul la însoțitor și condițiile aplicabile în regulamentul intern al maternității, document public și accesibil pacientelor; • documenteze, în foaia de observație clinică, orice limitare a dreptului la însoțitor, cu indicarea temeiului medical;
+
+• Informeze pacienta, la internare, cu privire la drepturile sale în cursul travaliului și nașterii.
+
+VII. IMPACTUL REGLEMENTĂRII
+
+Prezentul proiect de lege nu implică cheltuieli bugetare suplimentare. Adaptările organizatorice necesare (separatoare vizuale și acustice, actualizarea regulamentelor interne, instruirea personalului) pot fi realizate în cadrul bugetelor existente ale unităților sanitare sau pot constitui criterii de condiționare a acreditării, similar practicii ANMCS. Proiectul nu afectează reglementările fiscale sau financiare în vigoare și nu impune sarcini administrative disproporționate operatorilor economici din domeniul sănătății. Impactul asupra mediului de afaceri este neutru: reglementarea se aplică deopotrivă unităților sanitare publice și private, asigurând astfel egalitate de tratament și evitând distorsionarea concurenței.
+
+VI. CONCLUZIE Intervenția legislativă propusă este necesară, proporționată și justificată din perspectivă constituțională, convențională și medicală. Ea răspunde unui vid normativ real, vizibil în practica unităților sanitare, și aliniază cadrul juridic național la standardele europene și la recomandările Organizației Mondiale a Sănătății. Reglementarea dreptului la însoțitor și a dreptului la intimitate în cursul travaliului și nașterii nu reprezintă o preferință de confort, ci o garanție fundamentală a demnității umane - recunoscută ca atare de jurisprudența Curții Europene a Drepturilor Omului și de legislațiile majorității statelor membre ale Uniunii Europene. Adoptarea prezentului proiect de lege va contribui la creșterea calității îngrijirii obstetricale, la reducerea ratei operațiilor cezariene evitabile, la îmbunătățirea indicatorilor de sănătate mintală maternă și neonatală și la consolidarea încrederii publice în sistemul de sănătate din România.
+
+Inițiator, Ruxandra CIBU DEACONU
+
+Lista susținătorilor Proiect de lege pentru modificarea și completarea Legii drepturilor pacientului nr. 46/2003 DEPUTAT/SENATOR | SEMNĂTERA NR. | PARTID 1. | Bodca Manus | VSR DOBRA ELErA ADELINA | USR 3. SiPOS S2RT4 G REDRGA | USL 4. | | USR 5. | SEBASTIAN CERNIC | USIZ 6. | PAUM CYMTHIA | ust BOCHILERNU GEORGE-CĂTĂLIN | USK MÎNDRU CATĂLIN- EMIL | VSR 9. SPATARI SiNOHA - | USR 10. | CRISTIAW | GHInIZA | USR 11. | KONDOR AGOTA | WAMR 12. | Orbau Carten | PSO 13. | STREÎNU-CERIEL ADRIAY | PSD 14. | VICTORiA STOTCiY | PSL 15. | MARGINEAN LUCiAN | PS1 16. | CARB OMEL | PSH 17. | PASCET eU VEDA | P. t 18. | TASNAN STVAN - SELARA | UDAR / AIBS 19. | ECHERT FAIRiAN | VER 20. | CVIDiU JITARY | PNL 21. | VASS LEVENTE | VOMR
+
+Lista susținătorilor Proiect de lege pentru modificarea și completarea Legii drepturilor pacientului nr. 46/2003
+
+NR. | DEPUTAT/SENATOR | SEMNĂTURĂ | PARTID /) 1. | Diana Stoica | USK 200 | CSEP EVA ANDREA | USHR Zaluce Iritcau | uSe 4. | POLLYANNA HANGAN 5. | CRISTIAN BRIAX 6. | BULAI IULIAN | USR Paraschivesan Ovidin | USR OVIDiU IMPERINI | ANL 9. | RUS VASILE-CIPRiAN | USR 10.
+
+11\.
+
+12\.
+
+13\.
+
+14\.
+
+15\.
+
+16\.
+
+17\.
+
+18\.
+
+19\.
+
+20\.
+
+21\.
+
+SENAT BIROUL SE MANENT Nr. .... ROMANIA | Data. . 4.05.2026
+
+\*-BENA Senat
+
+PARLAMENTUL ROMÂNIEI
+
+Către, . Comitetul Liderilor
+
+Subsemnata, Ruxandra Cibu Deaconu, senator USR, vă solicit dezbaterea în procedură de urgență a Propunerii legislative privind modificarea și completarea Legii drepturilor pacientului nr. 46/2003 (B 271 / 2026)
+
+În numele inițiatorilor , Ruxandra Cibu Deaconu

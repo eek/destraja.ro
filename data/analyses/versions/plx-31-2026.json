@@ -1,0 +1,102 @@
+{
+  "slug": "plx-31-2026",
+  "billId": "PL-x 31/2026",
+  "updatedAt": "2026-10-29T12:25:44.368Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L584FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Reforma banilor pentru serviciile sociale se amână până în 2027, iar persoanele fizice nu pot fi furnizori",
+      "summaryTlDr": "Ordonanța e în mare parte necesară, pentru că evită un gol de finanțare în 2026 pentru peste 130.000 de beneficiari ai serviciilor sociale. Problemele sunt două: amână cu un an reforma care ar fi finanțat egal furnizorii publici și privați, iar textul se contrazice, admițând PFA-urile ca furnizori deși alineatul următor exclude toate persoanele fizice.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/30/1/se15.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Reforma finanțării serviciilor sociale se amână cu un an, iar cine îngrijește vârstnici primește reguli noi",
+      "summaryTlDr": "În mare parte e o amânare bugetară inofensivă: în 2026 serviciile sociale sunt finanțate exact ca până acum. Problema reală e definiția furnizorilor. Ea se contrazice și lasă neacoperit tocmai riscul invocat de Guvern, „căminele” informale pentru vârstnici.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat ordonanța fără modificări de fond; problemele cu PFA-urile și finanțarea rămân",
+      "summary": "Senatul a aprobat ordonanța exact cum a trimis-o Guvernul. Acum se schimbă doar formula de adoptare, la care s-au adăugat data și Monitorul Oficial al ordonanței. Rămân neclar statutul PFA-urilor, finanțarea de doar 10% în 2027 și pilotarea fără termen.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Nu e clar dacă PFA-urile pot fi furnizori; riscă pedeapsă penală fără licență",
+            "major": true,
+            "article": "art. I pct. 1-2"
+          },
+          {
+            "text": "Finanțare de doar 10% în 2027 pentru pachetul minim și persoanele fără adăpost",
+            "major": true,
+            "article": "art. I pct. 3, art. II pct. 1"
+          },
+          {
+            "text": "Nicio limită la câți vârstnici poate găzdui o persoană prin contract",
+            "major": true,
+            "article": "art. I pct. 2"
+          },
+          {
+            "text": "Mecanismul „resursa financiară urmează beneficiarul” e amânat la 1 ianuarie 2027",
+            "major": false,
+            "article": "art. I pct. 3, art. II pct. 1"
+          },
+          {
+            "text": "Ordinul pentru pilotarea din 2026 nu are termen, criterii sau rezultate publice",
+            "major": false,
+            "article": "art. II pct. 2"
+          },
+          {
+            "text": "Controlul îngrijitorilor informali se face doar prin trimitere la art. 35 din Legea 17/2000",
+            "major": false,
+            "article": "art. I pct. 2"
+          }
+        ],
+        "good": [
+          {
+            "text": "Îngrijitorii informali și cei cu contracte de întreținere nu sunt considerați furnizori",
+            "major": true,
+            "article": "art. I pct. 2"
+          },
+          {
+            "text": "Mecanismul se testează întâi prin pilotare în 2026, înainte de aplicarea generală",
+            "major": false,
+            "article": "art. II pct. 2"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:25:23.354Z"
+    }
+  ]
+}

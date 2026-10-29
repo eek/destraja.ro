@@ -1,0 +1,102 @@
+{
+  "slug": "plx-201-2026",
+  "billId": "PL-x 201/2026",
+  "updatedAt": "2026-10-29T12:47:02.123Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L007FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Mai puține coduri fiscale pentru sediile cu angajați, amânare e-Factura și o regulă fiscală pentru firme abrogată",
+      "summaryTlDr": "În mare parte o ordonanță utilă. Ușurează situația celor circa 400.000 de sedii secundare care ar fi trebuit înregistrate fiscal și suspendă amenzile pentru un termen de 30 de zile imposibil de respectat. Totuși, sub un titlu tehnic, abrogă definitiv art. 25¹ din Codul fiscal, deși OCDE ceruse doar suspendarea lui, și introduce o derogare neclară de la plafonul de 5% pentru Apuseni și Delta.",
+      "scores": {
+        "agy": 2,
+        "claude": 4,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/200/00/1/se212.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Mai puțină birocrație pentru firmele cu angajați în mai multe sedii, plus o abrogare fiscală strecurată în pachet",
+      "summaryTlDr": "Partea principală e utilă: scutește circa 400.000 de sedii secundare de înregistrări inutile și suspendă amenzile. Sub eticheta «unele măsuri fiscal-bugetare» se abrogă însă definitiv art. 25¹ din Codul fiscal, deși motivarea vorbește de o suspendare temporară, iar fișa Camerei nu pomenește deloc această abrogare.",
+      "scores": {
+        "agy": 2,
+        "claude": 4,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat ordonanța fără modificări; diferențele față de forma inițială sunt doar de redactare",
+      "summary": "Senatul a aprobat ordonanța exact cum a emis-o Guvernul. Acum legea adaugă doar data ordonanței și Monitorul Oficial în care a apărut. Rămân un singur CIF pentru salarii în fiecare UAT și suspendarea amenzii, dar și abrogarea definitivă a art. 25¹ din Codul fiscal.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Art. 25¹ abrogat definitiv, deși OCDE recomanda suspendare temporară; revenirea doar „după caz”",
+            "major": true,
+            "article": "art. 25¹ din Codul fiscal"
+          },
+          {
+            "text": "Nu se spune ce devin obligațiile, declarațiile restante și rambursările CIF-urilor radiate",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Textul nu arată până când durează suspendarea amenzii",
+            "major": false,
+            "article": "art. 336 alin. (2) lit. d) din Codul de procedură fiscală"
+          }
+        ],
+        "good": [
+          {
+            "text": "Un singur sediu desemnat pentru impozitul pe salarii în fiecare UAT",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Sediile din UAT-ul domiciliului fiscal nu mai trebuie înregistrate separat",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Amenda pentru neînregistrarea sediilor existente, cu termen nerealist de 30 de zile, se suspendă",
+            "major": true,
+            "article": "art. 336 alin. (2) lit. d) din Codul de procedură fiscală"
+          },
+          {
+            "text": "CIF-urile sediilor nedesemnate se radiază din oficiu, după notificarea organului fiscal",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "UAT-ul care încasează cota din impozitul pe salarii rămâne același",
+            "major": false,
+            "article": null
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:46:58.564Z"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "slug": "plx-79-2026",
+  "billId": "PL-x 79/2026",
+  "updatedAt": "2026-10-29T12:30:49.526Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L618FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Agenția pentru egalitate de gen și violență domestică (ANES) trece de la Guvern la Ministerul Muncii",
+      "summaryTlDr": "Este o reorganizare administrativă care nu creează obligații, taxe sau sancțiuni pentru cetățeni ori firme. ANES se mută sub Ministerul Muncii și primește bază legală pentru a finanța servicii pentru victime. Riscul real nu ține de conținut, ci de instabilitate: este a doua mutare a agenției în circa un an.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/70/9/se75.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Agenția pentru egalitatea dintre femei și bărbați trece de la Guvern la Ministerul Muncii",
+      "summaryTlDr": "Este o reorganizare administrativă care nu impune nicio obligație nouă cetățenilor sau firmelor: ANES își schimbă doar ministerul de care ascultă și bugetul din care e plătită. Preambulul promite însă mult mai mult (sprijin rapid pentru victime, compensații pentru copiii orfani) decât fac efectiv articolele.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat OUG 83/2025 fără modificări: mutarea ANES la Ministerul Muncii rămâne la fel",
+      "summary": "Senatul a aprobat ordonanța exact cum a venit de la Guvern. S-au adăugat doar data ordonanței și Monitorul Oficial în care a fost publicată. Agenția trece la Ministerul Muncii, iar banii pe care îi poate primi rămân fără sume, criterii sau raportare.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Fonduri posibile pentru cinci destinații, fără sume, criterii de alocare sau raportare publică",
+            "major": true,
+            "article": "art. I alin. (3)"
+          },
+          {
+            "text": "Ministerul decide cât primește agenția, ca ordonator terțiar de credite",
+            "major": false,
+            "article": "art. I alin. (2)"
+          },
+          {
+            "text": "Agenția mutată din nou după circa un an: alt transfer de buget, personal",
+            "major": false,
+            "article": "art. I alin. (1)"
+          },
+          {
+            "text": "Urgența invocată pentru victime nu are o măsură directă în articole",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Posibile cuvinte lipsă la lit. b), de verificat în Monitorul Oficial",
+            "major": false,
+            "article": "art. I alin. (3) lit. b)"
+          },
+          {
+            "text": "Prevedere tranzitorie de finanțare provizorie, deja consumată, rămâne în text",
+            "major": false,
+            "article": "art. II alin. (1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Bază legală pentru programe naționale, subvenții la servicii sociale și proiecte-pilot",
+            "major": true,
+            "article": "art. I alin. (3) lit. a)-d)"
+          },
+          {
+            "text": "Se pot contracta furnizori privați pentru victimele violenței domestice",
+            "major": true,
+            "article": "art. I alin. (3) lit. e)"
+          },
+          {
+            "text": "Agenția e finanțată integral de la bugetul de stat, prin bugetul ministerului",
+            "major": false,
+            "article": "art. I alin. (2)"
+          },
+          {
+            "text": "Nu creează taxe, obligații sau sancțiuni pentru persoane ori firme",
+            "major": false,
+            "article": "art. I"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:30:49.526Z"
+    }
+  ]
+}

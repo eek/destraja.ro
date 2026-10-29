@@ -1,0 +1,119 @@
+CAMERA DEPUTAȚILOR
+
+SENATUL
+
+# LEGE
+
+privind guvernanța instituțională digitală a administrației publice, organizarea organigramei digitale naționale și autorizarea accesului pe bază de roluri și operațiuni
+
+Parlamentul României adoptă prezenta lege.
+
+Art. 1 - (1) Prezenta lege instituie cadrul juridic privind guvernanța digitală instituțională a administrației publice, a mecanismului național de autorizare și autentificare la resursele administrative și standardizarea operațiunilor administrative digitale în sectorul public.
+
+(2) Prezenta lege se aplică autorităților și instituțiilor publice centrale și locale, precum și entităților aflate în subordonarea, coordonarea sau sub autoritatea acestora.
+
+Art. 2 - Scopul prezentei legi este asigurarea bunei guvernanțe digitale instituționale, a securității operaționale, a trasabilității administrative, a interoperabilității între instituții și a creșterii calității serviciilor publice digitale furnizate persoanelor fizice și juridice.
+
+Art. 3 - Aplicarea prezentei legi se realizează cu respectarea regimului juridic al informațiilor clasificate, a dispozițiilor legale privind securitatea cibernetică și a legislației privind protecția datelor cu caracter personal.
+
+Art. 4 - În sensul prezentei legi, termenii și expresiile de mai jos au următoarele semnificații:
+
+a) autentificare - procesul tehnic de verificare a identității unei persoane fizice sau juridice în raport cu un sistem informatic;
+
+b) autorizare - procesul de stabilire, verificare și aplicare a drepturilor unei persoane autentificate anterior de a efectua operațiuni determinate asupra unor resurse digitale, în condiții prestabilite;
+
+c) rol digital - ansamblul drepturilor și restricțiilor atribuite unei persoane în considerarea funcției sau postului, atribuțiilor legale și poziției în structura organizatorică;
+
+d) operațiune digitală administrativă - acțiunea executabilă într-o aplicație publică digitală, inclusiv, fără a se limita la, vizualizare, inițiere, creare, modificare, avizare, aprobare, semnare, administrare și audit;
+
+e) entități publice - autoritățile și instituțiile publice centrale și locale, precum și entitățile aflate în subordinea, în administrarea, sub autoritatea, coordonarea sau controlul acestora.
+
+Art. 5 - (1) Se înființează Registrul Unic al Instituțiilor Publice, denumit în continuare RUIP, registru național de referință pentru identificarea unică și evidența structurii instituționale a entităților publice.
+
+(2) RUIP se organizează și se administrează potrivit prezentei legi și normelor metodologice de aplicare a legii.
+
+Art. 6 - RUIP include, cel puțin, următoarele categorii de date:
+
+a) identificatorul unic național al instituției;
+
+b) denumirea oficială;
+
+c) temeiul juridic de înființare/organizare/funcționare;
+
+d) relațiile de subordonare, coordonare sau autoritate;
+
+e) forma de organizare și link-ul către organigrama instituției din cadrul Organigramei Digitale Naționale;
+
+f) date instituționale de contact și identificare.
+
+Art. 7 - (1) Fiecare instituție are obligația desemnării unui responsabil pentru introducerea și actualizarea datelor introduse în RUIP. Actualizarea datelor se realizează în termen de cel mult 10 zîle lucrătoare de la data producerii modificării.
+
+(2) Răspunderea pentru îndeplinirea obligației prevăzute la alin. (2) revine responsabilului desemnat potrivit alin. (1), în condițiile legii.
+
+Art. 8 - Se instituie Organigrama Digitală Națională, denumită în continuare ODN, ca sistem național de evidență standardizată a structurilor organizatorice interne ale instituțiilor publice.
+
+Art. 9 - ODN cuprinde structura organizatorică internă a autorității sau instituției publice, organizată ierarhic, funcțiile și posturile aferente fiecărei structuri, relațiile ierarhice și funcționale interne, precum și elementele de identificare, valabilitate și versiunile sistemului necesare asigurării trasabilității organizării administrative.
+
+Art. 10 - (1) ODN constituie baza de referință pentru atribuirea rolurilor digitale, autentificarea și autorizarea persoanelor la platformele informatice.
+
+(2) Atribuirea rolurilor digitale se realizează pentru funcțiile și posturile înscrise în ODN și în condițiile stabilite prin Registrul Funcțiilor, Rolurilor și Operațiunilor Digitale.
+
+Art. 11 - Se înființează Registrul Funcțiilor, Rolurilor și Operațiunilor Digitale, denumit în continuare RFROD, registru național destinat corelării funcțiilor cu rolurile digitale și operațiunile permise în aplicațiile publice.
+
+Art. 12 - (1) RFROD stabilește, pentru fiecare funcție sau post:
+
+a) rolurile digitale atribuite;
+
+b) operațiunile digitale administrative permise rolului digital respectiv;
+
+c) restricțiile și limitele permise.
+
+(2) Datele înscrise în RFROD trebuie respectate de entitățile publice în operațiunile digitale administrative desfășurate.
+
+(3) Structura completă a datelor introduse în RFROD, printre care stabilirea rolurilor digitale atribuite, a operațiunilor digitale administrative permise rolului digital respectiv, preucm și restricțiile și limitele permise se stabilesc prin normele metodologice de aplicare a legii.
+
+Art. 13 - (1) Delegarea, interimatul unei funcții, suspendarea ori încetarea raportului de serviciu sau de muncă, precum și orice modificare a competenței instituționale produc efectele corespunzătoare asupra rolurilor digitale acordate.
+
+(3) Procedurile de acordare, modificare, suspendare și revocare a rolurilor digitale se stabilesc prin normele metodologice de aplicare a legii.
+
+Art. 14 - (1) Autentificarea confirmă identitatea persoanei care accesează un sistem informatic.
+
+(2) Accesul la resursele digitale și operațiunile digitale administrative în aplicațiile, platformele sau sistemele informatice publice se acordă exclusiv prin mecanismul național de autorizare, întemeiat pe roluri digitale, în baza autentificării prealabile a persoanei.
+
+(3) Mecanismul prevăzut de prezentul articol se aplică unitar tuturor entităților publice, cu respectarea competențelor legale și a regimurilor speciale prevăzute de lege.
+
+(4) Autorizarea stabilește drepturile concrete ale persoanei autentificate de a efectua operațiuni asupra unor resurse digitale.
+
+(5) Mecanismele de autentificare utilizate de entitățile publice se integrează cu sistemele naționale de identitate digitală, în condițiile legii.
+
+Art. 15 - (1) Drepturile de acces se actualizează de îndată ori de câte ori intervin modificări în RUIP, OFD, RFROD, privind funcția, rolul digital, raportul de serviciu ori de muncă ori delegarea.
+
+(2) Procedura de autentificare și autorizare se stabilesc prin normele metodologice de aplicare a legii.
+
+Art. 16 - Entitățile publice au obligația de a asigura interoperabilitatea aplicațiilor, platformelor și sistemelor informatice proprii cu RUIP, ODN, RFROD și mecanismul național de autorizare.
+
+Art. 18 - (1) Autorizarea și operațiunile digitale administrative se jurnalizează cu marcă temporală și cu elemente de identificare suficiente pentru trasabilitatea digitală.
+
+(2) Jurnalizarea prevăzută la alin. (1) se păstrează pe durata stabilită prin normele metodologice de aplicare a legii și se pun la dispoziția autorităților competente, în condițiile legii.
+
+Art. 19 - (1) Entitățile publice efectuează anual auditul intern privind corectitudinea atribuirii rolurilor, calitatea jurnalizării și conformitatea autorizării.
+
+(2) Concluziile auditului se consemnează într-un raport anual și se încarcă într-o platformă informatică pusă la dispoziție de Secretariatul General al Guvernului.
+
+Art. 20 - (1) Coordonarea implementării prezentei legi se realizează de Guvern, prin Secretariatul General al Guvernului.
+
+(2) Secretariatul General al Guvernului publică anual un raport agregat privind stadiul implementării, gradul de conformare, incidentele semnificative de acces și măsurile de remediere dispuse.
+
+Art. 21 - (1) Constituie contravenție și se sancționează cu amendă de la 1.000 lei la 2.000 lei, fapta responsabilului desemnat conform legii, neactualizarea datelor în RUIP, ODN, RFROD, în termenele prevăzute de prezenta lege.
+
+(2) Constatarea contravențiilor și aplicarea sancțiunilor se realizează de personalul împuternicit din cadrul Secretariatului General al Guvernului, în condițiile stabilite prin hotărâre a Guvernului.
+
+(3) Contravențiilor prevăzute de prezenta lege le sunt aplicabile dispozițiile Ordonanței Guvernului nr. 2/2001 privind regimul juridic al contravențiilor, aprobată cu modificări și completări prin Legea nr. 180/2002, cu modificările și completările ulterioare.
+
+Art. 22 - În termen de 90 de zile de la data intrării în vigoare a prezentei legi, Guvernul aprobă, prin hotărâre, normele metodologice de aplicare a legii.
+
+Art. 23 - (1) Prezenta lege intră în vigoare la 180 de zile de la data publicării în Monitorul Oficial al României, Partea I.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și 76 alin. (2) din Constituția României, republicată.
+
+Președintele Senatului, Mircea ABRUDEAN

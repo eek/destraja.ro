@@ -1,0 +1,55 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+pentru completarea Legii privind Codul fiscal nr.227/2015, cu modificările și completările ulterioare
+
+Senatul adoptă prezentul proiect de lege
+
+Articol unic.- Legea nr. 227/2015 privind Codul fiscal, publicată în Monitorul Oficial nr. 688 din 10 septembrie 2015, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+## I:
+
+La Titlul IV - Impozitul pe venit, Capitolul I - Dispoziții generale, după articolul 60 se introduce un nou articol, articolul 60¹, cu următorul cuprins:
+
+Art.60¹: Scutirea de la plata impozitului pe venitul din salarii pentru părinții care cresc cel puțin doi copii
+
+(1) Sunt scutite de la plata impozitului pe venitul din salarii și asimilate salariilor, potrivit art.76, persoanele fizice care îndeplinesc cumulativ următoarele condiții:
+
+a) au în întreținere cel puțin doi copii minori;
+
+b) realizează venituri din salarii sau asimilate salariilor dintr-o funcție de bază, potrivit art.78 alin.(2), însă în limita plafonului prevăzut la alin.(2).
+
+c) prezintă angajatorului documentele justificative prevăzute la alin. (5).
+
+(2) Plafonul anual al venitului impozabil până la care se aplică scutirea este de 150.000 de lei pentru fiecare contribuabil. În cazul familiilor în care ambii soți îndeplinesc condițiile prevăzute la alin. (1), plafonul se cumulează.
+
+(3) În sensul prezentului articol, se consideră copil aflat în întreținere orice persoană până la vârsta de 25 de ani, dacă urmează o formă de învățământ superior acreditată, pentru care contribuabilul are calitatea de părinte biologic, părinte adoptator, tutore legal sau persoană desemnată potrivit legii în plasament familial.
+
+## 2
+
+(4) Scutirea prevăzută la alin.(1) se aplică începând cu luna următoare depunerii documentelor justificative la angajator și încetează la data la care contribuabilul nu mai îndeplinește condițiile prevăzute de prezentul articol.
+
+(5) Documentele justificative constau în:
+
+a) certificatul de naștere al copilului;
+
+b) certificatul de adopție, hotărârea de instituire a tutelei sau documentul privind plasamentul, după caz;
+
+c) o declarație pe propria răspundere privind întreținerea efectivă a copilului.
+
+(6) Procedura de aplicare, verificare și evidențiere a scutirii se stabilește prin ordin al ministrului finanțelor, emis în termen de 60 de zile de la intrarea în vigoare a prezentei legi.
+
+(7) Prevederile prezentului articol se aplică și părinților singuri care cresce cel puțin doi copii, precum și persoanelor cu responsabilitate parentală potrivit legii.
+
+## II:
+
+Prezenta lege intră în vigoare la data de 1 ianuarie 2026. In termen de 60 de zile de la publicarea prezentei legi în Monitorul Oficial al României, Ministerul Finanțelor va emite ordinul prevăzut la art.60¹ alin. (6).
+
+Acest proiect de lege se consideră adoptat de Senat în forma inițială, în condițiile articolului 75 alineatul (2) teza a III-a din Constituția României, republicată.
+
+PREȘEDINTELE SENATULUI
+
+MIRCEA ABR/ UDEAN

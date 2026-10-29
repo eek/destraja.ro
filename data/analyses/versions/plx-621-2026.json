@@ -1,0 +1,146 @@
+{
+  "slug": "plx-621-2026",
+  "billId": "PL-x 621/2026",
+  "updatedAt": "2026-10-29T13:24:25.364Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L368FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "O medalie de stat, numită după Ilie Ilașcu, pentru cei care apără românii din afara granițelor",
+      "summaryTlDr": "Lege simbolică și practic inofensivă: nu impune taxe, obligații sau sancțiuni nimănui. Problemele sunt de tehnică legislativă. Textul nu conține procedura de nominalizare și nici acordarea către străini și persoane juridice, pe care le promite expunerea de motive, iar aproape totul este lăsat pe seama unei hotărâri de Guvern.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/600/20/1/se722.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "O medalie de stat pentru cei care apără românii din afara granițelor",
+      "summaryTlDr": "Este o lege simbolică, fără costuri reale și fără obligații pentru cetățeni sau firme: creează o medalie civilă pentru apărarea identității românești peste hotare. Problemele sunt doar de redactare: un criteriu foarte vag și prea multe lucruri lăsate la decizia Guvernului.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_riscant",
+      "headline": "Senatul a adăugat un criteriu vag de acordare: „promovarea unității naționale”, fără legătură cu diaspora",
+      "summary": "Senatul a adăugat „promovarea unității naționale” ca motiv separat de acordare a medaliei, fără legătură cu diaspora. Aproape oricine poate fi încadrat aici, deci acordarea devine mai arbitrară. Restul legii e neschimbat, iar medalia nu aduce bani și nu impune obligații.",
+      "changes": [
+        {
+          "title": "Medalia se poate da și pentru „unitate națională”",
+          "text": "Art. 2 primește lit. e), „promovarea unității naționale”. E un criteriu de sine stătător, fără legătură cu diaspora sau cu comunitățile istorice, în care aproape oricine poate fi încadrat.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 2 lit. e)",
+          "before": null,
+          "after": "e) promovarea unității naționale.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Scopul medaliei include acum unitatea națională",
+          "text": "La art. 1 alin. (1), printre contribuțiile recunoscute apare acum și promovarea unității naționale, alături de limbă, cultură și tradiții. Scopul declarat al medaliei devine mai larg.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 1 alin. (1)",
+          "before": "la promovarea limbii, culturii și tradițiilor românești",
+          "after": "la promovarea unității naționale, a limbii, culturii și tradițiilor românești",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Medalia onorează și lupta pentru unitate națională",
+          "text": "Art. 1 alin. (2) amintește acum lupta lui Ilie Ilașcu pentru „identitate și unitate națională”, nu doar pentru identitate națională. Precizarea e simbolică și nu are efect practic.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 1 alin. (2)",
+          "before": "în memoria luptei pentru identitate națională, libertate și demnitate a lui Ilie Ilașcu",
+          "after": "în memoria luptei pentru identitate și unitate națională, libertate și demnitate a lui Ilie Ilașcu",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Lit. e) „promovarea unității naționale” e atât de vag încât încape aproape oricine",
+            "major": true,
+            "article": "art. 2 lit. e)"
+          },
+          {
+            "text": "HG poate dubla sau adăuga criterii și reguli de retragere față de lege",
+            "major": true,
+            "article": "art. 5"
+          },
+          {
+            "text": "Expunerea de motive descrie altă lege: art. 7, nominalizări, străini, persoane juridice",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Nu se stabilesc clase, plafon de acordări sau locul în ierarhia decorațiilor",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Lit. d) recunoaște curajul civic doar legat de identitatea sau comunitățile românești",
+            "major": false,
+            "article": "art. 2 lit. d)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Medalia se conferă prin decret prezidențial, conform Legii 29/2000",
+            "major": false,
+            "article": "art. 3"
+          },
+          {
+            "text": "Este decorație civilă, fără caracter militar",
+            "major": false,
+            "article": "art. 4"
+          },
+          {
+            "text": "Legea se completează cu Legea 29/2000 privind sistemul național de decorații",
+            "major": false,
+            "article": "art. 6"
+          },
+          {
+            "text": "Fără beneficii materiale și fără impact bugetar semnificativ",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Criteriile de la lit. a)–d) sunt detaliate și legate de comunitățile românești",
+            "major": false,
+            "article": "art. 2"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 11,
+        "removed": 9,
+        "same": 0.21
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:23:53.672Z"
+    }
+  ]
+}

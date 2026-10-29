@@ -1,0 +1,106 @@
+{
+  "slug": "plx-330-2026",
+  "billId": "PL-x 330/2026",
+  "updatedAt": "2026-10-29T13:06:45.110Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L196FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Închiderea termocentralelor pe cărbune devine ireversibilă, ca România să nu piardă banii din PNRR",
+      "summaryTlDr": "O ordonanță în mare necesară: potrivit Expunerii de motive, închide portița de «de-rating» criticată de Comisie și pune Govora 3–4 în calendar, ca să deblocheze plățile PNRR. Problemele sunt de redactare și de proporționalitate: amendă de până la 7% din cifra de afaceri fără criterii, retragerea licenței la cererea ministerului în 15 zile fără garanții pentru căldura populației și o interdicție de reînnoire a licențelor mai strictă decât calendarul PNRR.",
+      "scores": {
+        "agy": 5,
+        "claude": 5,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/300/30/0/se360.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Termocentralele pe cărbune se închid definitiv, ca România să nu piardă banii din PNRR",
+      "summaryTlDr": "Scopul e legitim și miza e reală: penalități PNRR de până la 1,8 miliarde euro. Textul e însă scris în grabă: amenda de până la 7% din cifra de afaceri n-are criterii, reînnoirea licențelor pe cărbune e interzisă fără nicio excepție, iar ANRE ajunge să execute cererile Ministerului Energiei. Problema nu e decarbonizarea, ci lipsa unei plase de siguranță explicite pentru termoficare și pentru sistemul energetic.",
+      "scores": {
+        "agy": 5,
+        "claude": 5,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat ordonanța fără modificări; problemele din forma inițială rămân",
+      "summary": "Senatul a aprobat ordonanța fără să-i schimbe conținutul. A adăugat doar data ei și numărul Monitorului Oficial. Rămân amenda de până la 7% din cifra de afaceri, retragerea licențelor la cererea ministerului și interdicția licențelor pe cărbune fără excepții.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Amendă de până la 7% din cifra de afaceri totală, fără minim sau criterii",
+            "major": true,
+            "article": "art. I pct. 7 (art. 20 alin. 2)"
+          },
+          {
+            "text": "Amenzile operatorilor publici ajung plătite din bugete publice sau din tarifele consumatorilor",
+            "major": true,
+            "article": "art. I pct. 7 (art. 20 alin. 2)"
+          },
+          {
+            "text": "Cererea ministerului obligă practic ANRE să retragă licența în 15 zile, fără audiere",
+            "major": true,
+            "article": "art. I pct. 8 (art. 21)"
+          },
+          {
+            "text": "Retragerea licenței poate afecta și termoficarea, fără garanții pentru alimentarea cu căldură",
+            "major": true,
+            "article": "art. I pct. 8 (art. 21)"
+          },
+          {
+            "text": "Interdicția licențelor pe lignit și huilă nu exceptează siguranța sistemului sau termenele PNRR 2030",
+            "major": true,
+            "article": "art. II"
+          },
+          {
+            "text": "Din tranșa de 710 MW, doar grupurile Govora 3 și 4 sunt identificate",
+            "major": true,
+            "article": "art. I pct. 2 (art. 4 alin. 1 lit. c)"
+          },
+          {
+            "text": "Nu se spune ce înlocuiește căldura de la Govora pentru Râmnicu Vâlcea",
+            "major": true,
+            "article": "art. I pct. 2 (art. 4 alin. 1 lit. c)"
+          },
+          {
+            "text": "Nu se precizează ce „autorizație valabilă” permite excepția de la interdicție",
+            "major": false,
+            "article": "art. II"
+          },
+          {
+            "text": "Interdicția e normă separată, neintegrată în OUG 108/2022, și fragmentează reglementarea",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "good": [],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:06:32.408Z"
+    }
+  ]
+}

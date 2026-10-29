@@ -1,0 +1,122 @@
+{
+  "billId": "Pl-x 474/2026",
+  "slug": "plx-474-2026",
+  "updatedAt": "2026-10-28T16:05:50.340Z",
+  "consensus": {
+    "riskScore": 2.7,
+    "riskLevel": "green",
+    "plainTitle": "Cetățenii ar putea susține inițiative legislative și cu semnătură electronică",
+    "summaryTlDr": "Lege utilă și benignă: aduce semnătura electronică și reguli clare de protecție a datelor în strângerea celor 100.000 de semnături. Are însă goluri de redactare (județul susținătorilor, dubla semnare, costul semnăturii calificate) care o pot lăsa literă moartă.",
+    "initiatorClaim": "Inițiatorul spune că Legea 189/1999 e învechită: nu protejează explicit datele din listele de susținători, nu permite semnătura electronică și lasă verificarea fragmentată la primării. Propune reguli GDPR exprese, semnătură electronică calificată ca alternativă și validarea centralizată a susținerilor electronice la AEP.",
+    "realityCheck": "Legea adaugă trei articole: limitarea scopului datelor (4¹), semnătura electronică calificată ca alternativă la cea olografă (5¹) și validarea susținerilor electronice de către AEP (5²). Nu creează nicio platformă de colectare, nu spune ce date conține o susținere electronică și cum ajunge la AEP, ci lasă totul pe seama unei HG. Semnătura calificată e un serviciu plătit, oferit de furnizori privați și folosit mai ales de firme și profesioniști, iar canalul olograf (atestat de primari) și cel electronic (validat de AEP) nu se verifică între ele.",
+    "affectedGroups": [
+      "Toți cetățenii",
+      "Justiție & Drepturi Civile",
+      "IT & AI"
+    ],
+    "senatForm": {
+      "articleRef": "Art. I pct. 3 (art. 5² alin. (2))",
+      "proposalContent": "(2) În procedura de validare, Autoritatea Electorală Permanentă verifică exclusiv: a) existența dreptului de vot; b) județul de domiciliu sau de reședință, pentru pragurile pe județe din art. 74 alin. (1) din Constituție; c) unicitatea susținerii, inclusiv față de susținerile olografe depuse pentru aceeași inițiativă.",
+      "argumentation": "Art. 74 alin. (1) din Constituție cere minimum 5.000 de semnături în fiecare din cel puțin un sfert din județe. Textul nu permite AEP să verifice județul, deci susținerile electronice riscă să nu fie luate în calcul la pragul teritorial. Unicitatea verificată doar între semnăturile electronice permite ca o persoană să semneze o dată pe hârtie și o dată electronic.",
+      "otherComments": "Art. 4¹ alin. (3): „după finalizarea procedurii legislative” e vag dacă inițiativa eșuează sau rămâne ani în Parlament; propun termen fix (30 de zile după decizia CCR sau expirarea termenului de strângere) și indicarea cine distruge datele. Art. III: normele vin în 90 de zile de la intrarea în vigoare; art. 5¹–5² ar trebui aplicate de la data publicării lor."
+    }
+  },
+  "council": {
+    "agy": {
+      "model": "agy",
+      "status": "ok",
+      "durationMs": 49627,
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Semnarea online a inițiativelor legislative cetățenești și validarea lor prin AEP",
+      "verdictShort": "Un proiect binevenit care aduce în era digitală dreptul cetățenilor de a propune legi, dar care are nevoie de ajustări tehnice în comisie: limitarea doar la semnătura electronică calificată exclude majoritatea populației, iar procedura de validare omite verificarea distribuției pe județe cerută de Constituție.",
+      "initiatorClaim": "Inițiatorul urmărește modernizarea Legii nr. 189/1999 prin introducerea regulilor GDPR pentru comitetele de inițiativă și permiterea strângerii de semnături online (cu semnătură electronică calificată), validate centralizat de Autoritatea Electorală Permanentă (AEP).",
+      "realityCheck": "Măsura este pozitivă și elimină o parte din birocrația dosarelor cu șină plimbate pe la primării, dar în forma actuală are două lacune practice: foarte puțini cetățeni obișnuiți dețin o semnătură electronică calificată (care este contra cost, până la generalizarea Cărții Electronice de Identitate), iar textul nu explică cum se cumulează pe județe semnăturile electronice validate de AEP cu cele pe hârtie atestate de primari.",
+      "affectedGroups": [
+        "Toți cetățenii",
+        "Justiție & Drepturi Civile",
+        "IT & AI"
+      ],
+      "keyFindings": [
+        "Art. 5¹ alin. (1) permite susținerea online exclusiv prin semnătură electronică calificată (eIDAS), ignorând semnătura electronică avansată (reglementată de Legea nr. 214/2024) sau autentificarea prin ROeID, mult mai accesibile cetățenilor.",
+        "Art. 5² alin. (2) obligă AEP să verifice exclusiv dreptul de vot și unicitatea susținerii, omițând verificarea domiciliului pe județe — deși Art. 74 alin. (1) din Constituție impune minimum 5.000 de semnături în cel puțin un sfert din județele țării.",
+        "Art. 4¹ clarifică regimul GDPR: comitetul de inițiativă devine operator de date cu caracter personal, având obligația să distrugă sau să anonimizeze datele după finalizarea procedurii legislative."
+      ],
+      "blindSpotsCaught": "Proiectul creează două fluxuri paralele de verificare care nu comunică între ele: primarii atestă listele olografe pe hârtie (conform art. 6 din Legea 189/1999), iar AEP validează listele electronice. Fără o verificare încrucișată în Registrul Electoral, nu se poate preveni dubla semnare (atât pe hârtie, cât și electronic) și nu este desemnată instituția care centralizează cifrele pe județe pentru controlul Curții Constituționale.",
+      "constitutionalityNote": "Susține exercitarea dreptului constituțional la inițiativă legislativă (Art. 74 din Constituție), însă pentru a respecta exigențele de claritate și previzibilitate ale Art. 1 alin. (5), procedura de la Art. 5² trebuie să includă explicit certificarea dispersiei teritoriale (minimum 5.000 de susținători în cel puțin un sfert din județe), condiție verificată obligatoriu de Curtea Constituțională conform Art. 146 lit. j).",
+      "euLawNote": "Proiectul face trimitere corectă la Regulamentul (UE) 2016/679 (GDPR) și la Regulamentul (UE) nr. 910/2014 (eIDAS). Nu instituie bariere pe piața unică și nu necesită notificare TRIS conform Directivei (UE) 2015/1535, dar poate fi armonizat cu standardele mai flexibile ale Inițiativei Cetățenești Europene (Regulamentul UE 2019/788).",
+      "senatForm": {
+        "articleRef": "Art. I pct. 2 și 3 (Art. 5¹ și Art. 5²)",
+        "proposalContent": "La art. 5¹ alin. (1), sintagma „semnăturii electronice calificate” se înlocuiește cu „semnăturii electronice calificate sau avansate ori prin identificare în ROeID”. La art. 5² alin. (2) se adaugă lit. c): „c) apartenența la circumscripția județeană/a mun. București și lipsa suprapunerii cu listele olografe, eliberând certificatul de validare pentru Curtea Constituțională.”",
+        "argumentation": "Puțini cetățeni dețin semnătură calificată contra cost; acceptarea semnăturii avansate (Legea 214/2024) sau a identificării ROeID democratizează accesul. De asemenea, Art. 74 alin. (1) din Constituție impune pragul de 5.000 de susținători în minimum un sfert din județe, deci AEP trebuie să certifice și distribuția pe județe pentru controlul Curții Constituționale.",
+        "otherComments": "Se recomandă corelarea cu art. 6 și art. 7 din Legea nr. 189/1999 republicată, astfel încât listele electronice validate de AEP să se cumuleze oficial cu dosarele fizice atestate de primari înainte de înregistrarea inițiativei la Parlament și sesizarea Curții Constituționale."
+      }
+    },
+    "claude": {
+      "model": "claude",
+      "status": "ok",
+      "durationMs": 205999,
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Cetățenii ar putea susține inițiative legislative și cu semnătură electronică",
+      "verdictShort": "Lege utilă și benignă: aduce semnătura electronică și reguli clare de protecție a datelor în strângerea celor 100.000 de semnături. Are însă goluri de redactare (județul susținătorilor, dubla semnare, costul semnăturii calificate) care o pot lăsa literă moartă.",
+      "initiatorClaim": "Inițiatorul spune că Legea 189/1999 e învechită: nu protejează explicit datele din listele de susținători, nu permite semnătura electronică și lasă verificarea fragmentată la primării. Propune reguli GDPR exprese, semnătură electronică calificată ca alternativă și validarea centralizată a susținerilor electronice la AEP.",
+      "realityCheck": "Legea adaugă trei articole: limitarea scopului datelor (4¹), semnătura electronică calificată ca alternativă la cea olografă (5¹) și validarea susținerilor electronice de către AEP (5²). Nu creează nicio platformă de colectare, nu spune ce date conține o susținere electronică și cum ajunge la AEP, ci lasă totul pe seama unei HG. Semnătura calificată e un serviciu plătit, oferit de furnizori privați și folosit mai ales de firme și profesioniști, iar canalul olograf (atestat de primari) și cel electronic (validat de AEP) nu se verifică între ele.",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii",
+        "IT & AI"
+      ],
+      "keyFindings": [
+        "Art. 5² alin. (2): AEP verifică „exclusiv” dreptul de vot și unicitatea, nu și județul de domiciliu. Art. 74 alin. (1) din Constituție cere semnături din cel puțin un sfert din județe, cu minimum 5.000 în fiecare, deci susținerile electronice nu au un mecanism legal de repartizare pe județe.",
+        "Art. 5² coroborat cu art. II: susținerile olografe rămân la primari, cele electronice la AEP, iar nicio normă nu cere verificarea încrucișată. Aceeași persoană poate semna o dată pe hârtie și o dată electronic și poate fi numărată de două ori.",
+        "Art. 5¹: este acceptată doar semnătura electronică calificată, iar alin. (2) repetă ce prevede deja art. 25 alin. (2) din Regulamentul eIDAS. Fiind un serviciu plătit, câștigul de accesibilitate e limitat până la portofelul european de identitate digitală (eIDAS 2), care trebuie să ofere semnătură calificată gratuită pentru uz personal.",
+        "Art. 4¹ alin. (1) și (3): limitarea scopului e reală și utilă, pentru că datele nu mai pot fi refolosite, de exemplu pentru marketing politic. Momentul distrugerii („după finalizarea procedurii legislative”) e însă vag, iar textul nu spune cine distruge datele aflate la comitet, primării, AEP, Parlament și CCR.",
+        "Art. 5² alin. (4) și art. III: elementele esențiale sunt delegate unei HG: ce date conține o susținere electronică, cum se transmite, termenul de validare și calea de contestare a unei invalidări. Legea intră în vigoare după 30 de zile, dar normele pot veni după încă 90, timp în care dreptul nou există doar pe hârtie.",
+        "Impact bugetar: expunerea afirmă „costuri nesemnificative”, dar AEP are nevoie de un sistem de validare a certificatelor și de interogare a Registrului electoral. Lipsa fișei financiare (art. 15 din Legea 500/2002) și a sursei de finanțare e un risc formal, nu o povară pentru cetățeni sau IMM-uri."
+      ],
+      "blindSpotsCaught": "Art. II este o dispoziție autonomă, neintegrată în Legea 189/1999, care doar repetă că textele nemodificate rămân aplicabile. AEP este autoritate administrativă autonomă, dar procedura ei de validare se aprobă prin hotărâre a Guvernului. Executivul controlează astfel tehnic mecanismul prin care cetățenii pot propune legi, inclusiv împotriva Guvernului; ar fi mai coerentă o decizie a AEP. Comitetul de inițiativă devine operator GDPR, ca organizatorii inițiativei cetățenești europene din Regulamentul (UE) 2019/788, deci niște voluntari preiau obligații și răspundere. Spre deosebire de modelul european, textul nu clarifică relația cu AEP (operatori separați sau asociați) și nu fixează termene concrete de distrugere a datelor.",
+      "constitutionalityNote": "Pe fond, legea facilitează exercitarea art. 74 și întărește protecția vieții private (art. 26), deci e compatibilă cu Constituția și nu atinge pragurile constituționale. Omisiunea verificării județului poate însă face ca susținerile electronice să nu poată fi luate în calcul de CCR la verificarea condițiilor (art. 146 lit. h). Din perspectiva art. 1 alin. (5), art. 4¹ alin. (3) și art. 5² sunt neclare în puncte esențiale. Conținutul susținerii și calea de contestare țin de lege, nu de o HG, pentru că privesc exercitarea unui drept politic fundamental. Lipsa sursei de finanțare pentru sistemul AEP (art. 138 alin. (5)) și a informării Guvernului (art. 111) e un risc formal. Atribuirea de noi competențe AEP atinge materia art. 73 alin. (3) lit. a), deci cel puțin aceste dispoziții ar trebui adoptate cu majoritatea cerută pentru legile organice.",
+      "euLawNote": "GDPR (2016/679) se aplică direct, astfel că art. 4¹ alin. (4) e declarativ. Art. 4¹ ar fi un temei național mai solid (art. 6 alin. (1) lit. c)/e) și alin. (3) GDPR) dacă ar preciza categoriile de date și durata stocării. eIDAS (910/2014), art. 25 alin. (2)-(3), dă deja semnăturii calificate efect echivalent celei olografe și recunoaștere în toată UE, deci trebuie acceptate certificate de la orice furnizor calificat european. eIDAS 2 (Regulamentul (UE) 2024/1183) obligă statele să ofere portofelul european de identitate digitală, cu semnătură calificată gratuită pentru uz neprofesional, iar o referire expresă ar rezolva problema costului. Directiva 2018/958 nu se aplică, fiindcă nu se reglementează nicio profesie. TRIS 2015/1535 nu se aplică, fiindcă e o procedură publică de participare, nu un serviciu al societății informaționale furnizat contra cost; HG-ul ar trebui verificat doar dacă impune cerințe tehnice furnizorilor de servicii de încredere. Nu apare niciun efect anticoncurențial: piața semnăturilor calificate are mai mulți furnizori.",
+      "senatForm": {
+        "articleRef": "Art. I pct. 3 (art. 5² alin. (2))",
+        "proposalContent": "(2) În procedura de validare, Autoritatea Electorală Permanentă verifică exclusiv: a) existența dreptului de vot; b) județul de domiciliu sau de reședință, pentru pragurile pe județe din art. 74 alin. (1) din Constituție; c) unicitatea susținerii, inclusiv față de susținerile olografe depuse pentru aceeași inițiativă.",
+        "argumentation": "Art. 74 alin. (1) din Constituție cere minimum 5.000 de semnături în fiecare din cel puțin un sfert din județe. Textul nu permite AEP să verifice județul, deci susținerile electronice riscă să nu fie luate în calcul la pragul teritorial. Unicitatea verificată doar între semnăturile electronice permite ca o persoană să semneze o dată pe hârtie și o dată electronic.",
+        "otherComments": "Art. 4¹ alin. (3): „după finalizarea procedurii legislative” e vag dacă inițiativa eșuează sau rămâne ani în Parlament; propun termen fix (30 de zile după decizia CCR sau expirarea termenului de strângere) și indicarea cine distruge datele. Art. III: normele vin în 90 de zile de la intrarea în vigoare; art. 5¹–5² ar trebui aplicate de la data publicării lor."
+      }
+    },
+    "codex": {
+      "model": "codex",
+      "status": "ok",
+      "durationMs": 115024,
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Semnături electronice pentru legile propuse de cetățeni",
+      "verdictShort": "Proiectul facilitează participarea civică și nu introduce taxe, monopoluri sau sancțiuni noi. Riscul este redus, dar procedura electronică necesită completări pentru a funcționa previzibil și a proteja efectiv datele susținătorilor.",
+      "initiatorClaim": "Inițiatorul urmărește modernizarea inițiativei legislative cetățenești prin semnături electronice calificate, verificarea acestora de către AEP și reguli explicite pentru protecția datelor. Susține că implementarea poate folosi infrastructura existentă, fără costuri bugetare semnificative.",
+      "realityCheck": "Forma inițiatorului analizată adaugă o cale electronică opțională, păstrează semnarea pe hârtie și atribuie AEP verificarea susținerilor electronice, fără să modifice pragurile constituționale. Centralizarea privește numai susținerile electronice, iar textul nu stabilește suficient circuitul documentelor, termenele AEP și contestarea respingerilor. GDPR se aplică deja, iar echivalența semnăturii calificate cu cea olografă există deja; noutatea utilă este integrarea lor expresă în această procedură, încă incomplet reglementată.",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii",
+        "IT & AI"
+      ],
+      "keyFindings": [
+        "Art. I pct. 2 păstrează alternativa olografă și nu desemnează un furnizor exclusiv. Semnătura calificată poate presupune costuri pentru cetățean, dar proiectul nu instituie o taxă și nu garantează gratuitatea acesteia.",
+        "Art. 5² alin. (2) limitează verificarea AEP la dreptul de vot și unicitate. Lipsesc precizări exprese despre cetățenia română, domiciliul pentru repartizarea teritorială, validarea tehnică a semnăturii și eliminarea dublurilor dintre susținerile electronice și cele olografe.",
+        "Art. 4 alin. (5)-(7) din legea existentă cere formulare și dosare fizice, iar art. 6-7 păstrează circuitul originalelor și trimiterea la atestarea potrivit art. 5. Art. II al proiectului nu corelează explicit aceste reguli cu noua procedură electronică. [Legea nr. 189/1999](https://legislatie.just.ro/Public/DetaliiDocument/20219).",
+        "Art. 4¹ alin. (3) nu definește momentul finalizării procedurii și termenul concret de ștergere. Trebuie corelat cu păstrarea listelor la CCR și Parlament, prevăzută de art. 4 alin. (8), și cu obligațiile legale de arhivare. [Legea nr. 189/1999](https://legislatie.just.ro/Public/DetaliiDocument/20219).",
+        "Art. III permite adoptarea normelor până la 90 de zile după intrarea în vigoare. Noua opțiune poate astfel exista legal înainte de operaționalizare; lipsesc reguli tranzitorii pentru inițiativele deja începute.",
+        "Afirmația privind costurile nesemnificative nu este demonstrată prin estimări în materialul furnizat. Integrarea registrelor, securitatea informatică, verificarea semnăturilor și personalul AEP pot necesita resurse; comitetele pot suporta sarcini tehnice suplimentare. Nu apar obligații generale noi pentru IMM-uri."
+      ],
+      "blindSpotsCaught": "Expunerea numește CNP-ul și domiciliul date sensibile, dar acestea nu sunt, prin ele însele, categorii speciale în sensul art. 9 GDPR. În schimb, asocierea persoanei cu susținerea unei inițiative poate dezvălui opinii politice: atunci trebuie identificată și o excepție aplicabilă din art. 9 alin. (2), cu garanții adecvate. Declararea comitetului drept operator nu rezolvă singură această problemă și nici rolurile autorităților. [GDPR, art. 9](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679).",
+      "constitutionalityNote": "Obiectivul este compatibil cu art. 74 și poate facilita exercitarea dreptului constituțional. Competența CCR prevăzută de art. 146 lit. j) rămâne aplicabilă; verificarea administrativă a AEP nu o înlocuiește. Principalele vulnerabilități privesc claritatea cerută de art. 1 alin. (5), protecția vieții private potrivit art. 26 și garanțiile contestării respingerilor, relevante pentru art. 21. Condițiile esențiale trebuie stabilite prin lege, nu lăsate integral normelor Guvernului. Art. 23 alin. (12), privind legalitatea pedepselor, nu este incident direct: proiectul nu instituie pedepse. Nu rezultă o neconstituționalitate evidentă a soluției de principiu. [Constituția României](https://legislatie.just.ro/Public/DetaliiDocument/47355).",
+      "euLawNote": "Directiva 2018/958 privește accesul la profesii reglementate și exercitarea lor; proiectul nu introduce asemenea restricții, deci testul său special nu este incident. [Directiva 2018/958, art. 2 și 4](https://eur-lex.europa.eu/eli/dir/2018/958/oj/eng). Nu identific în text o obligație evidentă de notificare TRIS: simpla utilizare a semnăturii electronice într-o procedură civică nu constituie automat o reglementare a serviciilor societății informaționale; eventualele norme tehnice trebuie evaluate separat. Nu există dispoziții despre AI. [Directiva 2015/1535, art. 1 și 5](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32015L1535). eIDAS consacră deja echivalența semnăturii calificate; implementarea trebuie să respecte recunoașterea certificatelor calificate din celelalte state membre, fără exclusivități naționale. [eIDAS, art. 25 și 4a](https://eur-lex.europa.eu/eli/reg/2014/910).",
+      "senatForm": {
+        "articleRef": "Art. I pct. 3 – art. 5² alin. (2)",
+        "proposalContent": "(2) AEP verifică identitatea și cetățenia română a susținătorului, dreptul de vot la data semnării, validitatea semnăturii electronice, domiciliul pentru repartizarea teritorială și unicitatea susținerii aceleiași inițiative, inclusiv față de listele olografe, fără a aduce atingere competenței Curții Constituționale.",
+        "argumentation": "Verificarea limitată la dreptul de vot și unicitate omite cerințe esențiale pentru numărarea legală a susținerilor. Semnătura calificată nu dovedește singură cetățenia sau domiciliul. Verificarea comună a listelor electronice și olografe previne dubla numărare, iar controlul constituțional rămâne la CCR.",
+        "otherComments": "Sunt necesare amendamente distincte pentru corelarea art. 4, 6 și 7, termene și contestarea respingerilor, păstrarea datelor și lansarea sistemului. Propunerea se adresează Comisiei juridice a Camerei Deputaților; un deputat o poate prelua ca amendament. Termenul indicat, 17.06.2026, este depășit."
+      }
+    }
+  }
+}

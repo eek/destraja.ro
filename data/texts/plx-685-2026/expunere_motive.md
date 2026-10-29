@@ -1,0 +1,96 @@
+# EXPUNERE DE MOTIVE
+
+# Lege pentru completarea Ordonanței de Urgență nr. 57/2019 privind Codul administrativ
+
+## 1. Descrierea situației actuale
+
+În percepția generală că statul nu ajută contribuabilii și nu este interesat decât de a încasa sumele datorate de aceștia, se impune o schimbare de atitudine la nivelul sistemului public. Prezenta propunere legislativă vine în întâmpinarea acestei nevoi, urmărind să contribuie la redobândirea încrederii cetățenilor în stat printr-un demers simplu, eficient și lipsit de ambiguități, care reflectă un minim necesar de respect față de contribuabilul corect.
+
+Un astfel de gest minimal de respect constă în facilitarea îndeplinirii obligațiilor legale de către cetățeni, prin informarea prealabilă a acestora cu privire la expirarea sau iminenta necesitate de îndeplinire a condițiilor pentru achitarea sumelor aferente emiterii unui act administrativ de către o autoritate sau instituție publică.
+
+Viața cotidiană a cetățenilor, în special a celor activi profesional, este caracterizată de un grad ridicat de încărcare cu responsabilități și activități diverse. În aceste condiții, o mare parte dintre aceștia nu urmăresc cu stricete termenele de expirare ale documentelor emise de stat, ajungând, fără intenție, în situații de neconformare legală. Consecința directă o reprezintă aplicarea sancțiunilor contravenționale pentru neprezentarea în vederea depunerii documentației necesare emiterii sau reînnoirii unor acte.
+
+În prezent, numeroase acte administrative individuale emise de instituțiile publice — precum pașapoarte, permise de conducere sau autorizații de construire — au o perioadă limitată de valabilitate, a cărei urmărire revine exclusiv titularului.
+
+În practică, lipsa unui mecanism instituțional de notificare prealabilă conduce frecvent la: • expirarea neintenționată a documentelor;
+
+\- imposibilitatea exercitării unor drepturi (deplasare, conducere, desfășurare de activități);
+
+\- aplicarea unor sancțiuni contravenționale;
+
+\- costuri suplimentare pentru cetățeni și mediul economic.
+
+Această situație afectează în mod direct calitatea serviciilor publice și încrederea cetățenilor în administrația publică.
+
+Dincolo de eforturile, în curs de desfășurare, privind interoperabilitatea bazelor de date ale instituțiilor publice, care ar putea elimina, în viitor, necesitatea redepunerii unor documente deja existente în posesia statului, realitatea imediată este aceea că cetățenii de bună-credință omit, involuntar, respectarea unor termene-limită. Aceștia nu trebuie tratați ca potențiali contravenienți, ci sprijiniți în vederea conformării. În acest sens, notificarea prealabilă, cu un termen rezonabil (propunerea legislativă stabilește un interval de 30 de zile), reprezintă un instrument eficient prin care statul poate contribui la simplificarea vieții cetățeanului.
+
+O societate modernă și funcțională presupune un stat care nu sancționează lipsa de atenție a cetățeanului de bună-credință, ci îl sprijină activ să respecte legea. Statul nu trebuie să „aștepte după colț” pentru a aplica sancțiuni, ci să creeze mecanisme prin care contribuabilul să fie informat și să se conformeze în timp util.
+
+## 2. Schimbări preconizate
+
+În concret, proiectul de lege propune instituirea obligației pentru autoritățile și instituțiile publice, precum și pentru entitățile cărora li s-au concesionat servicii publice și în care statul este acționar unic sau majoritar, de a notifica contribuabilii cu cel puțin 30 de zile înainte cu privire la obligația de a depune documente (în vederea primei eliberări) sau de a se prezenta pentru reînnoirea unui act administrativ cu durată de valabilitate limitată.
+
+Această măsură urmărește nu doar îmbunătățirea gradului de conformare, ci și o schimbare de mentalitate în relația dintre administrația publică și cetățean. Trimiterea unui mesaj informativ trebuie privită ca o formă de respect instituțional față de contribuabil.
+
+Totodată, proiectul stabilește în mod clar că neprimirea notificării sau întârzierea acesteia, din motive obiective sau tehnice, nu poate constitui o justificare pentru neîndeplinirea obligațiilor legale de către cetățeni.
+
+Pentru implementarea mecanismului de notificare, este necesar acordul prealabil al cetățeanului. Acesta va fi exprimat la prima interacțiune cu instituția sau entitatea publică după intrarea în vigoare a legii. În acest mod, este respectat dreptul cetățeanului de a opta pentru primirea sau refuzul acestor informări. De asemenea, proiectul respectă cadrul legal privind protecția datelor cu caracter personal, întrucât orice prelucrare suplimentară a datelor, dincolo de scopul inițial al furnizării serviciului public, se va realiza exclusiv cu consimțământul contribuabilului.
+
+În prezent, în mediul privat există deja inițiative similare, prin care cetățenii primesc notificări privind expirarea unor documente, în baza datelor introduse de aceștia. Aceste servicii sunt din ce în ce mai apreciate, demonstrând utilitatea practică a unui astfel de mecanism. Statul are oportunitatea de a prelua această bună practică și de a o integra sistemului public, eliminând necesitatea introducerii repetate a datelor de către cetățean și asigurând, în același timp, un nivel ridicat de securitate a datelor personale. Gestionat de o entitate publică, sistemul de notificare asigură siguranța datelor personale integrate în sistemul care va genera notificările. În plus, implementarea unui astfel de sistem la nivel național poate genera, în mod indirect, un efect de propagare și în mediul privat, încurajând adoptarea unor standarde similare de relaționare cu clienții, bazate pe respect și proactivitate.
+
+Proiectul prevede intrarea în vigoare a obligației de notificare începând cu data de 1 ianuarie 2027, pentru a permite instituțiilor și entităților vizate să își adapteze infrastructura și procedurile interne.
+
+Având în vedere caracterul nesofisticat al sistemului propus, perioada de implementare este considerată suficientă, statul având capacitatea de a pune la dispoziția cetățenilor un instrument simplu și eficient de comunicare în intervalul 2026–2027.
+
+În concluzie, pentru cetățenii de bună-credință, care nu intenționează să eludeze legea, proiectul facilitează respectarea obligațiilor legale, reduce riscul de sancționare și contribuie la simplificarea relației cu administrația publică. Pentru autorități, acesta conduce la creșterea gradului de conformare voluntară, eficientizarea activității administrative și consolidarea unei relații bazate pe încredere și respect reciproc între stat și cetățean.
+
+Este necesară o lege pentru implementarea unui mecanism relativ simplu de notificare întrucât se referă la utilizarea datelor personale – fără un cadru legal, ar putea încălca Regulamentul General privind Protecția Datelor. GDPR solicită o bază legală clară și explicită pentru prelucrarea datelor personale. Cetățeanul trebuie să își dea acordul pentru primirea notificărilor. Un alt argument este acela că este nevoie de un sistem unitar național la care toate instituțiile statului să se raporteze. Altfel, unele instituții trimit notificări chiar și în prezent (de ex. în cazul achitării taxelor locale, în unele localități) dar aceasta rămâne doar o practică sporadică și nu se aplică la nivel național.
+
+## 3. Impactul socio-economic al modificărilor
+
+Din punct de vedere social, modificările propuse au rolul de a reduce riscul ca cetățenii să intre în situații de neconformitate juridică din motive neintenționate. Cetățenii vor avea posibilitatea reală de a acționa din timp, evitând amenzi, suspendarea unor drepturi sau întârzieri în desfășurarea activităților economice.
+
+În ce privește eficiența administrativă, prin proiectul propus se evită aglomerarea instituțiilor cu solicitări urgente, se distribuie mai uniform cererile de reînnoire și se reduc costurile administrative generate de situații excepționale.
+
+Proiectul este în concordanță cu direcțiile de modernizare și digitalizare a administrației publice.
+
+În diverse state europene (Estonia, Germania, Polonia, Italia, UK) există sisteme de notificare (sub diverse forme) pentru documente oficiale, ceea ce contribuie la creșterea conformării voluntare.
+
+Impactul asupra societății se traduce prin orientarea administrației către cetățean, crescând transparența, încrederea în sistemul public și gradul de satisfacție față de serviciile publice.
+
+## 4. Impactul financiar asupra bugetului general consolidat
+
+Din punct de vedere financiar, implementarea se realizează în principal prin utilizarea infrastructurii informatice existente. Configurația de bază poate fi concepută într-un singur lor, la o entitate având expertiză în acest sens, urmând să fie replicată la nivelul instituțiilor/entităților publice care vor emite asemenea notificări, astfel neconstituind sub nicio formă o cheltuială importantă din bugetele acestor entități.
+
+Evoluția tehnologică permite transmiterea de notificări prin e-mail și/sau SMS la costuri minime. În raport cu beneficiile generate – creșterea gradului de conformare și reducerea situațiilor sancționatorii – costurile sunt nesemnificative.
+
+## 5. Consultări efectuate în vederea elaborării prezentului act normativ
+
+Au fost organize consultări cu societatea civilă respectiv cu reprezentanți ai mediului de afaceri.
+
+Având în vedere argumentele prezentate, supunem Parlamentului României spre dezbatere și adoptare prezenta propunere legislativă.
+
+Inițiatori: Victoria-Violeta Alexandru, Senator USR
+
+<table>
+<tbody>
+<tr><td colspan="4">LEGEPENTRE COMPLETAREA ORDONANTEI DE UCEGENTA NR 57/2019PRJUNO COSUC ADMINISTRATIV</td></tr>
+<tr><td colspan="4">Tabel sustinători</td></tr>
+<tr><td>Nr. Crt.</td><td>Nume/Prenume</td><td>Grup parlamentar</td><td>Semnaturay</td></tr>
+<tr><td>1.</td><td>Violeto Akhtar</td><td>lm USR</td><td rowspan="7"></td></tr>
+<tr><td>2</td><td>PAUH CYTHIA</td><td>USR</td></tr>
+<tr><td>3</td><td>SHELUAOCHAUCUPE</td><td>USR</td></tr>
+<tr><td>4</td><td>ANGHEL RAZ</td><td>AN-PAUL USR</td></tr>
+<tr><td>5</td><td>RUS VASOLE-CIPRI</td><td>AN USR</td></tr>
+<tr><td>6</td><td>SPATARU SINONA</td><td>USR</td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>

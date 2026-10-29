@@ -1,0 +1,87 @@
+{
+  "slug": "plx-319-2026",
+  "billId": "PL-x 319/2026",
+  "updatedAt": "2026-10-29T13:05:55.962Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L163FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "18 iulie devine zi națională de comemorare a rezistenței anticomuniste",
+      "summaryTlDr": "Lege simbolică și inofensivă: adaugă o zi comemorativă în calendar, fără zi liberă, fără obligații și fără sancțiuni. Problemele sunt doar de redactare și se pot repara ușor prin amendament.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/300/10/9/se341.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "18 iulie devine Ziua Rezistenței Anticomuniste (zi de comemorare, nu zi liberă)",
+      "summaryTlDr": "Lege simbolică și inofensivă: instituie o zi de comemorare, fără zi liberă, fără obligații, taxe sau sancțiuni. Are doar câteva scăpări de redactare (art. 3 alin. 2) și o formulă bugetară mai largă decât promite expunerea de motive.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a păstrat textul inițiatorului; s-au schimbat doar ghilimelele și formula de adoptare",
+      "summary": "Senatul a adoptat textul fără schimbări de fond. Au dispărut doar ghilimelele din jurul numelui zilei și s-a schimbat formula de adoptare. Riscurile și avantajele au rămas aceleași: 18 iulie rămâne zi de comemorare, nu zi liberă.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Parteneriatele cer asociații dedicate unei zile inexistente, excluzând asociațiile foștilor deținuți politici",
+            "major": true,
+            "article": "art. 3 alin. (2)"
+          },
+          {
+            "text": "Banii publici pot fi cheltuiți mai larg decât promite expunerea de motive",
+            "major": true,
+            "article": "art. 3 alin. (1)"
+          },
+          {
+            "text": "Totul e opțional, deci efectul practic depinde doar de voința autorităților",
+            "major": false,
+            "article": "art. 2–4"
+          }
+        ],
+        "good": [
+          {
+            "text": "18 iulie nu devine zi liberă; fără costuri pentru angajatori și angajați",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Fără obligații, termene sau sancțiuni pentru cetățeni ori firme",
+            "major": true,
+            "article": "art. 2–4"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 7,
+        "removed": 6,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:04:54.803Z"
+    }
+  ]
+}

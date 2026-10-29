@@ -1,0 +1,57 @@
+# EXPUNERE DE MOTIVE
+
+Prezenta inițiativă legislativă are ca obiect modificarea și completarea Ordonanței de urgență a Guvernului nr. 80/2012 privind echivalarea titlurilor de medic specialist eliberate de Australia, Canada, Israel, Noua Zeelandă și Statele Unite ale Americii, în sensul includerii Regatului Unit al Marii Britanii și Irlandei de Nord în categoria statelor ale căror titluri oficiale de calificare ca medic specialist pot fi echivalate cu certificatul de medic specialist eliberat de Ministerul Sănătății.
+
+Inițiativa are la bază solicitarea formulată de Colegiul Medicilor din România, care a semnalat necesitatea inițierii demersurilor legislative pentru instituirea unei proceduri simplificate de recunoaștere a titlurilor de calificare de medic și medic specialist obținute în Regatul Unit al Marii Britanii și Irlandei de Nord, similară celei deja prevăzute pentru titlurile de medic specialist eliberate de Australia, Canada, Israel, Noua Zeelandă și Statele Unite ale Americii.
+
+Colegiul Medicilor din România a arătat că o asemenea intervenție legislativă este necesară pentru facilitarea reintegrării profesionale a medicilor români formați în Regatul Unit, în contextul deficitului persistent de personal medical cu care se confrontă sistemul de sănătate din România. Acest deficit este accentuat de migrația anuală a unui număr semnificativ de profesioniști din domeniul sănătății către alte state, inclusiv medici și medici specialiști, fenomen care afectează capacitatea sistemului sanitar de a asigura servicii medicale corespunzătoare populației.
+
+Totodată, potrivit celor semnalate de Colegiul Medicilor din România, în prezent se înregistrează un număr semnificativ de solicitări formulate de medici cetățeni români care au dobândit titluri de medic specialist în Regatul Unit al Marii Britanii și Irlandei de Nord și care doresc să se repatrieze și să exercite profesia în România. În lipsa unui cadru normativ expres și simplificat, procedurile aplicabile acestor categorii de profesioniști pot deveni complexe, de durată și lipsite de predictibilitate, ceea ce poate descuraja revenirea în țară a unor medici cu pregătire profesională relevantă.
+
+În prezent, potrivit prevederilor Hotărârii Guvernului nr. 1.282/2007 pentru aprobarea normelor privind recunoașterea diplomelor, certificatelor și titlurilor de medic, de medic dentist, de farmacist, de asistent medical generalist și de moașă, eliberate de un stat membru al Uniunii Europene, de un stat aparținând Spațiului Economic European sau de Confederația Elvețiană, mecanismele de recunoaștere automată se aplică titlurilor oficiale de calificare care intră sub incidența Directivei 2005/36/CE privind recunoașterea calificărilor profesionale. Ca urmare a retragerii Regatului Unit din Uniunea Europeană, calificările dobândite ulterior acestei date nu mai beneficiază, în mod general, de același regim de recunoaștere aplicabil statelor membre ale Uniunii Europene, ceea ce impune completarea cadrului normativ național. Menținerea unui regim procedural apropiat celui aplicabil anterior retragerii Regatului Unit din Uniunea Europeană este justificată de nivelul ridicat de pregătire profesională al medicilor formați în acest stat, precum și de interesul public privind asigurarea resurselor umane necesare funcționării sistemului sanitar. Anterior Brexit, titlurile de calificare obținute în Regatul Unit beneficiau, în condițiile legii, de mecanismele europene de recunoaștere a calificărilor profesionale, iar sistemul britanic de formare medicală postuniversitară a fost integrat în cadrul principiilor europene privind standardele minime de formare. Formarea profesională a medicilor specialiști în Regatul Unit se realizează în baza unor standarde ridicate de pregătire, supraveghere profesională și evaluare, compatibile cu principiile care au stat la baza reglementărilor europene în materia recunoașterii calificărilor profesionale. Prin urmare, includerea Regatului Unit al Marii Britanii și Irlandei de Nord în sfera de aplicare a OUG nr. 80/2012 reprezintă o soluție legislativă justificată și proporțională. Prin modificarea propusă nu se instituie o recunoaștere automată și necondiționată a titlurilor de medic specialist eliberate de Regatul Unit al Marii Britanii și Irlandei de Nord. Echivalarea va continua să fie realizată numai cu respectarea condițiilor cumulative prevăzute de OUG nr. 80/2012, respectiv: titularul să îndeplinească cerințele legale pentru exercitarea profesiei de medic pe territoriul României, formarea de medic specialist să asigure o competență profesională similară celei dobândite prin formarea națională, iar titlul oficial de calificare să fie eliberat de autoritatea competentă din statul în care a avut loc formarea. Astfel, modificarea propusă păstrează garanțiile privind calitatea actului medical și siguranța pacientului, întrucât echivalarea se va realiza în continuare cu implicarea Ministerului Sănătății și a Colegiului Medicilor din România, potrivit procedurii prevăzute de lege. În acest context, completarea cadrului normativ existent, prin extinderea aplicabilității mecanismului prevăzut de OUG nr. 80/2012 și pentru titlurile oficiale de calificare ca medic specialist obținute în Regatul Unit al Marii Britanii și Irlandei de Nord, este necesară pentru instituirea unei proceduri clare, predictibile și simplificate de echivalare, cu respectarea standardelor profesionale și a cerințelor privind siguranța pacientului. Prezenta inițiativă contribuie la facilitarea revenirii în țară a medicilor români formați în Regatul Unit, la valorificarea competențelor profesionale dobândite în sisteme medicale performante și la consolidarea capacității sistemului sanitar românesc de a furniza servicii medicale de calitate.
+
+Față de cele expuse, se impune modificarea Ordonanței de urgență a Guvernului nr. 80/2012, prin introducerea Regatului Unit al Marii Britanii și Irlandei de Nord atât în titlul actului normativ, cât și în cuprinsul alineatul (1) al articolului unic, în vederea aplicării procedurii de echivalare și pentru titlurile oficiale de calificare ca medic specialist eliberate de acest stat.
+
+În numele inițiatorilor, Senator Prof. Univ. Dr. Adrian Streinu – Cercel, grup PSD
+
+## TABEL SEMNĂTURI INIȚIATORI
+
+Propunere legislativă pentru modificarea Ordonanței de urgență a Guvernului nr. 80/2012 privind echivalarea titlurilor de medic specialist eliberate de Australia, Canada, Israel, Noua Zeelandă și Statele Unite ale Americii
+
+| NR.CRT. | NUME ȘI PRENUME | GRUPPARLAMENTAR | SEMNĂTURĂ |
+| --- | --- | --- | --- |
+| 1 | STREI NEU CERCEI ADRIA | PSD |  |
+| 2 | CIBJ DEA CONU REJXAN-89A | USR |  |
+| 3 | Cordhou vafniz | ACIR |  |
+| 4 | Onlau Conu en | ASD |  |
+| 5. | PASAUETOU UETA | ONN |  |
+| 6. | Pauliuc Nicoleta | PHL |  |
+| 7 | CLEMENT SAVA | PACE |  |
+
+Senatul României Grupul parlamentar Alianța pentru Unirea Românilor
+
+Către Biroul Permanent al Senatului,
+
+Subsemnata, Senator Olga Onea, membră a Grupului Parlamentar Alianța pentru Unirea Românilor (AUR), parlamentar ales în Circumscripția electorală nr.18 Galați, solicit să devin co-inițiator la Propunerea legislativă pentru modificarea Ordonanței de urgență a Guvernului nr.80/2012 privind echivalarea titlurilor de medic specialist eliberate de Australia, Canada, Israel, Noua Zeelandă și Statele Unite ale Americii (L535/2026).
+
+Senator Olga Onea, Grupul parlamentar AUR
+
+17.09.2026
+
+## Către, BIROUL PERMANENT AL SENATULUI
+
+Subsemnata, Doina-Elena Federovici, senator ales în Circumscripția electorală nr. 07, Botoșani, solicit să aprobați dobândirea calității de coinițiator al următoarelor propuneri legislative:
+
+\- Propunere legislativă pentru aprobarea schemei "Ajutor de minimis pentru aplicarea Programului de susținere a producției de lapte ecologic certificat" (L498/2026);
+
+\- Propunere legislativă pentru completarea Ordonanței de urgență a Guvernului nr.60/2009 privind unele măsuri în vederea implementării programului «Noua casă» (L529/2026);
+
+\- Propunere legislativă pentru modificarea și completarea Legii nr.200/2006 privind constituirea și utilizarea Fondului de garantare pentru plata creanțelor salariale (L567/2026);
+
+\- Propunere legislativă pentru modificarea Ordonanței de urgență a Guvernului nr.80/2012 privind echivalarea titlurilor de medic specialist eliberate de Australia, Canada, Israel, Noua Zeelandă și Statele Unite ale Americii (L535/2026);
+
+\- Propunere legislativă pentru completarea ordonanței de urgență nr.195/2002 privind circulația pe drumurile publice (L366/2026);
+
+Vă mulțumesc.
+
+Senator Doina-Elena FEDEROVICI, Secretar al Senatului

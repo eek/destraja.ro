@@ -1,0 +1,555 @@
+LEGE
+
+# privind promovarea produselor agroalimentare prin lanțuri scurte de aprovizionare și trasabilitate digitală, precum și integrarea acestora în achizițiile publice
+
+## Capitolul I – Dispoziții generale
+
+## Art. 1 – Obiectul reglementării
+
+Prezenta lege stabilește măsuri pentru promovarea produselor agroalimentare provenite din România prin lanțuri scurte de aprovizionare, obligativitatea includerii acestora în oferta rețelelor comerciale alimentare, asigurarea unui tratament corespunzător pentru producătorii români în măsura reducerii amprentei de carbon , atenuarea amprentei de carbon pentru tranzacțiile cu produse agroalimentare pe territoriul național și integrarea criteriilor de durabilitate în achizițiile publice.
+
+## Art. 2 – Definiții
+
+În sensul prezentei legi, se înțelege prin:
+
+a) Lanț scurt de aprovizionare – relația contractuală între producătorul primar sau procesatorul agroalimentar și rețeaua comercială, fără mai mult de un intermediar logistic, situat într-un perimetru geografic maximal de 200 kilometri;
+
+b) Produs agroalimentar cu amprentă de carbon redusă – produs rezultat integral din materii prime cultivate, crescute sau colectate pe territoriul României și/sau procesat într-o unitate din România de un operator economic român a cărui livrare către punctul de comercializare sau consum final se realizează pe o distanță de maximum 200 kilometri, calculată pe traseul rutier cel mai scurt, și care nu utilizează mijloace de transport cu emisii ridicate sau sisteme logistice ce împlică depozitări intermediare la distanțe care depășesc această rază geografică.
+
+c) Rețea comercială – operator economic sau grup de operatori economici cu activitate de vânzare cu amănuntul a produselor alimentare, prin spații comerciale fizice totale, respectiv de vânzare și de depozitare, inclusiv piețe, având suprafață mai mare de 100 m² cumulat la nivel național.
+
+d) Platforma Națională pentru Lanțuri Scurte și Trasabilitate Agroalimentară - sistem electronic național integrat, cu rolul de a înregistra, verifica și monitoriza în timp real fluxurile agroalimentare relevante pentru lanțurile scurte locale de aprovizionare, în vederea susținerii trasabilității, sustenabilității, combaterii fraudei
+
+e) Intermediar logistic - orice persoană juridică sau entitate economică care, fără a desfășura activități de producție agricolă primară sau procesare, participă la circuitul comercial prin achiziția, depozitare autorizată a produselor agroalimentare sau revânzarea de produse agroalimentare provenite de la alți operatori economici, în scopul obținerii unui beneficiu economic. Intermediarul nu modifică, nu ambalează și poate stoca în nume propriu marfa, având responsabilitate asupra trasabilității și conformității tehnico-sanitare a produsului.
+
+f) Fenomene climatice extreme - reprezintă evenimente meteorologice sau climatice rare ca frecvență și intensitate, care depășesc valorile climatologice obișnuite specifice unei anumite regiuni și perioade și care au potențialul de a cauza perturbări semnificative asupra producției agricole. Acestea includ, dar nu se limitează la: secetă severă, inundații, înghețuri târzii sau timpurii, valuri de căldură, furtuni violente, grindină sau precipitații abundente.
+
+g) Producator cu amprenta logistica de carbon redusa – orice operator economic român care desfășoară activități de producție agroalimentară primară sau procesată, a cărui livrare a produselor către punctul de comercializare sau consum final se realizează pe o distanță de maximum 200 kilometri, calculată pe traseul rutier cel mai scurt, și care nu utilizează mijloace de transport cu emisii ridicate sau sisteme logistice ce implică depozitări intermediare la distanțe care depășesc această rază geografică. Această limită are în vedere reducerea amprentei de carbon asociate lanțului logistic.
+
+h) Condiții artificiale de proximitate – reprezintă ansamblul situațiilor, practicilor sau aranjamentelor contractuale prin care se creează, în mod deliberat, aparența unei relații de proximitate geografică, economico-socială sau comerciale între producătorii agricoli și consumatori sau comercianți, cu scopul de a eluda cerințele legale privind lanțul scurt de aprovizionare. Acestea includ, dar nu se limitează la: interpunerea de entități intermediare formale fără activitate economică reală, declararea fictivă a locului de producție sau procesare, precum și utilizarea de puncte de livrare formale care nu corespund realității geografice a producției.
+
+i) Produs de origine neindigenă - produselor agroalimentare care nu pot fi obținute pe teritoriul României din motive climatice sau biologice
+
+j) Produs neindigen adaptat local - produs agroalimentar care inițial nu a putut fi obținut pe territoriul României din motive climatice sau biologice, dar care ulterior, prin diferite tehnici de aclimatizare, incrucișare sau rezultatul proiectelor sau schemelor de cercetare, a obținut viabilitate economică prin producerea pe territoriul României;
+
+k) Trasabilitate – totalitatea informațiilor și procedurilor care permit identificarea originii, locației, parcursului și caracteristicilor unui produs agroalimentar de la sursa de producție până la punctul final de consum, inclusiv prin documente fiscale, logistice și tehnologii digitale, conform Regulamentului (CE) nr. 178/2002 și Regulamentului (UE) nr. 931/2011.
+
+I) Operator eligibil în lanț scurt – orice persoană fizică autorizată, întreprindere individuală sau persoană juridică înregistrată în România, care este inclusă în Registrul Național al Furnizorilor prin Lanțuri Scurte și respectă cumulativ condițiile privind distanța de aprovizionare, fiscalizarea completă, trasabilitatea și lipsa intermediarilor neautorizați.
+
+m) Depozit logistic intermediar autorizat – spațiu de depozitare deținut sau contractat de către un producător, procesator sau comerciant înregistrat, care se află în România, în raza de maximum 200 km de locul de producție și depozitare finala spre comercializare și care este înregistrat sanitar-veterinar, fiscal și în sistemul PNLSTA.
+
+n) Produs agroalimentar procesat local – produs obținut prin prelucrarea uneia sau mai multor materii prime agricole în unități de procesare situate în România, în raza a maximum 200 km de locul de vânzare sau consum, care utilizează ingrediente de origine românească în proporție de minimum 70% din masa finală.
+
+o) Adaos comercial – diferența dintre prețul de achiziție efectiv și prețul de vânzare practicat de către un operator economic, exprimată procentual, fără a include TVA și alte taxe reglementate, calculată pe produs sau pe factură, conform normelor emise de Ministerul Finanțelor și MADR.
+
+p) Centru logistic – unitate funcțională utilizată pentru colectarea, depozitarea, sortarea și distribuirea produselor agroalimentare către puncte de vânzare sau consum, înregistrată fiscal și sanitar-veterinar și integrată în sistemul PNLSTA.
+
+q) Certificat electronic de conformitate (CEC) – document digital unic, generat automat prin sistemul PNLSTA, care atestă respectarea criteriilor prevăzute de prezenta lege privind distanța, trasabilitatea, sezonalitatea și proveniența produsului.
+
+r) Consum final – momentul și locația în care produsul agroalimentar este livrat direct consumatorului sau unei instituții publice care îl utilizează în mod direct pentru hrana umană, fără alte etape intermediare de procesare sau distribuție.
+
+s) Produs agroalimentar cu impact redus asupra mediului – produs certificat conform standardelor naționale sau europene privind durabilitatea (agricultură ecologică, montan, IGP, DOP, etic, certificare HNV).
+
+## Capitolul II – Obligații pentru rețelele comerciale
+
+Art. 3 - Cota minimă de produse agroalimentare prin lanțuri scurte de aprovizionare
+
+(1) Rețelele comerciale au obligația ca minimum 60% din volumul produselor agroalimentare proaspete și procesate aflate la vânzare să fie achiziționate prin lanțuri scurte de aprovizionare, de la producători sau procesatori locali aflați la o distanță de maximum 200 km de centrul logistic.
+
+(2) Aplicarea pragului de 60% se realizează, pentru fiecare produs în parte, în măsura în care există ofertă națională certificată ca disponibilă pentru acel produs, conform Ministerului Agriculturii si Dezvoltării Rurale.
+
+(3) Pentru produse sezoniere sau perisabile (fructe, legume, ouă, lapte, carne proaspătă, brânzeturi, panificație), ponderea minimă se ridică la 70%, pe durata disponibilității lor în sezonul agricol național.
+
+(4) În cazul în care capacitatea națională scade sub 70% din cererea internă, cotele pot fi ajustate prin ordin al Ministrului Agriculturii si Dezvoltării Rurale, pe o perioadă determinată, până la remedierea situației.
+
+(6) Ministerului Agriculturii si Dezvoltării Rurale, prin reprezentanții sai anume desemnați, are obligația verificării lunare a disponibilității prevăzute la alin. 2-4, prin interogarea Platformei Naționale pentru Lanțuri Scurte și Trasabilitate Agroalimentară (PNLSTA), cât și a datelor obținute pe teren de către direcțiile agricole județene și publicării acestor date într-un raport pe siteul Ministerului;
+
+(7) Intermediarul logistic, pentru a fi admis potrivit prezentei legi, trebuie să fie organizat potrivit uneia din formele de organizare:
+
+## a) cooperativă
+
+b) grup de producători
+
+c) operator logistic independent, cu adaos comercial limitat și cu respectarea trasabilității.
+
+## Art. 4 – Lanț scurt de aprovizionare
+
+(1) Este admisă prezența unei entități de colectare sau distribuție regională, în sensul art. 2 lit. e din lege, dacă:
+
+a) aceasta are un centru logistic situat la cel mult 200 km de punctul de vânzare;
+
+b) are calitatea de asociere/cooperativă de producători sau furnizor logistic independent, fără adaosuri comerciale care depășesc 15% din prețul producătorului.
+
+(2) Intermediarii nu pot participa la livrări în cadrul lanțurilor scurte locale destinate instituțiilor publice.
+
+Art. 5 – Criterii de selecție pentru produse agroalimentare cu impact scăzut asupra mediului
+
+(1) În cazul în care există mai multe oferte egale din punct de vedere al prețului de vânzare la , se acordă prioritate produsului care implică un lanț de aprovizionare cu amprentă de carbon mai redusă, evaluată prin distanța de transport de la locul de producție până la punctul de vânzare și prin documentația de trasabilitate.
+
+(2) Operatorii economici pot beneficia de acest criteriu doar dacă:
+
+a) își desfășoară activitatea principală în România;
+
+b) producția, procesarea se desfășoară în interiorul unei raze de maximum 200 km față de punctul de comercializare.
+
+(3) Ministerul Agriculturii și Dezvoltării Rurale, în colaborare cu Ministerul Mediului, va emite ghiduri de evaluare a amprentei de carbon și a distanțelor relevante pentru implementarea acestui articol.
+
+(4) Pentru îndeplinirea cotei de 60%, rețeaua comercială are obligația interogării sistemului PNLSATA în vederea contractării produselor dorite, precum si a contractării exclusiv cu producatori cu amprenta logistică de carbon redusă, înregistrati în cadrul sistemului PNLSATA.
+
+Art. 6 – Obligația utilizării produselor din lanțuri scurte locale în alimentația instituțiilor publice
+
+(1) Prin excepție de la prevederile Legii nr. 98 / 2016 și în temeiul Directivei 2014/24/UE privind achizițiile publice, cu modificările și completările ulterioare, instituțiile publice care furnizează servicii de alimentație (unități de învățământ, spitale, cămine pentru persoane vârstnice, centre sociale, penitenciare, unități militare etc.) au obligația de a cere și utiliza exclusiv produse agroalimentare provenite din lanțuri scurte de aprovizionare locală, astfel cum sunt definite prin prezenta lege, în măsura în care exista disponibilitate în piață.
+
+(2) Produsele sunt considerate eligibile doar dacă:
+
+a) sunt produse, procesate și ambalate în interiorul unei raze de maximum 200 km față de unitatea publică,
+
+b) sunt livrate de operatori economici înregistrați fiscal și logistic în România,
+
+c) respectă criterii de sezonalitate și prospețime stabilite de Ministerul Agriculturii și Dezvoltării Rurale,
+
+d) sunt însoțite de documente de trasabilitate și dovada implicării în rețeaua economică locală.
+
+(3) Achiziția altor produse agroalimentare este permisă numai în cazul în care nu există disponibilitate internă documentată și verificată oficial pentru categoriile respective, conform raportului lunar prevazut de art. 3, emis de Ministerul Agriculturii și Dezvoltării Rurale.
+
+(4) În aplicarea Legii nr. 98/2016 privind achizițiile publice, autoritățile contractante au obligația de a include în documentațiile de atribuire prevederile referitoare la produsele agroalimentare din lanțuri scurte locale, în conformitate cu prezenta lege și de a utiliza criterii de durabilitate, prospețime și sezonalitate, în conformitate cu Directiva 2014/24/UE, cu modificările și completările ulterioare.
+
+(5) Instituțiile publice au obligația interrogarii sistemului PNLSTA în vederea verificarii disponibilitatii și a cantitatilor produselor care pot fi furnizate de catre producatori cu amprenta logistică de carbon redusă, anterior demarării procedurii de achiziție.
+
+(6) Normele metodologice privind aplicarea prezentului articol se stabilesc prin ordin al Ministrului Agriculturii și Dezvoltării Rurale.
+
+## Art. 7 – Produs agroalimentar eligibil
+
+(1) Este eligibil orice produs agroalimentar care:
+
+a) este cultivat, crescut sau procesat, înregistrat cu trasabilitate fiscală completă, la 200 km departare de spațiul de depozitare destinatar al rețelei comerciale, aflat pe territoriul României;
+
+b) are etichetă de origine însoțită de certificare privind lanțul de aprovizionare (facturi, CMR, declarații de conformitate).
+
+(2) Nu sunt eligibile produsele:
+
+a) reambalate în România, dar provenite din import, din surse aflate la peste 200 km de depozitul destinatar al retelei comerciale;
+
+b) procesate parțial în România, dar cu peste 30% din ingrediente de origine din alte state;
+
+c) Pentru care nu poate fi demonstrată, pentru întreaga cantitate, respectarea distanței de maxim 200 km intre sursa de producere sau procesare si depozitul destinatar al rețelei comerciale;
+
+d) Pentru care nu poate fi demonstrată trasabilitatea între sursa de producere sau procesare si depozitul destinatar al rețelei comerciale, pe o distanță de maxim 200 km;
+
+e) Pentru care nu poate fi demonstrată productia sau procesarea în locații aflate pe o distanță de maxim 200 km de depozitul destinatar al rețelei comerciale;
+
+f) Reambalate in afara Romaniei, din ingrediente sau produse care nu respecta lit. c-e din prezentul alineat;
+
+g) produsele marcate ca fiind de origine \`mixtă', \`UE/non-UE' sau \`fabricat în România din ingrediente din import', precum și cele pentru care nu se poate demonstra proveniența în proporție de minimum 70% din ingrediente de origine românească.
+
+(3) Normele metodologice privind aplicarea prezentului articol se stabilesc prin ordin al Ministrului Agriculturii și Dezvoltării Rurale;
+
+## Art. 8 - Dispoziții speciale privind produsele de origine neindigenă
+
+(1) Produsele agroalimentare care, în mod tradițional, nu sunt cultivate în România din cauza condițiilor climatice (denumite în continuare „produse de origine neindigenă”) nu intră, de principiu, în calculul cotei minime prevăzute la art. 3 alin. (1).
+
+(2) În cazul în care, în urma unor evoluții agroclimatice și tehnologice, apar pe piața internă producători sau procesatori care oferă produse exotice cultivate în România, aceștia pot fi integrați în oferta rețelelor comerciale în baza următoarelor condiții:
+
+a) înregistrarea ca furnizor în Registrul Național al Furnizorilor prin Lanțuri Scurte, în categoria „culturi neindigene adaptate local”;
+
+b) asigurarea unei capacități de aprovizionare minime constante pe perioada de comercializare;
+
+c) furnizarea documentației de trasabilitate privind proveniența, procesarea și conformitatea sanitar-veterinară.
+
+(3) Retele comerciale au obligația interrogarii lunare a sistemului PNLSTA în vederea verificarii disponibilitatii și a cantitatilor produselor din culturi neindigene adaptate local care pot fi furnizate de catre producatori cu amprenta logistică de carbon redusă.
+
+(4) în măsura în care interogarea a avut loc conform alin. (3), există cantități suficiente unei livrări de minim 1,5 tone și vandabile conform standardelor de calitate pentru produs ale rețelei comerciale cu cerința imediată de achiziție a acelui produs, rețeaua comercială are obligatia contractării cu producatorul cu amprentă logistică de carbon redusă.
+
+(3) În termen de 60 de zile de la publicarea legii, Ministerul Agriculturii și Dezvoltării Rurale va emite, prin ordin, metodologia de identificare, clasificare și validare a acestor produse în cadrul subregistrului „culturi neindigene adaptate local”.
+
+(4) Rețelele comerciale au obligația de a da prioritate, în limita capacității de livrare, produselor neindigene adaptate local, cultivate în România, față de cele similare provenite din import, fără a restricționa accesul acestora din urmă în mod generalizat.
+
+Capitolul III – Platforma Națională pentru Lanțuri Scurte și Trasabilitate Agroalimentară
+
+## Art. 9 – Înființarea și scopul platformei
+
+(1) Se înființează Platforma Națională pentru Lanțuri Scurte și Trasabilitate Agroalimentară (denumită în continuare „PNLSTA”), sistem electronic național integrat, cu rolul de a înregistra, verifica și monitoriza în timp real fluxurile agroalimentare relevante pentru lanțurile scurte locale de aprovizionare, în vederea susținerii trasabilității, sustenabilității, combaterii fraudei și implementării eficiente a prezentei legi.
+
+(2) Platforma PNLSTA este instrumentul digital oficial prin care:
+
+a) se dovedește eligibilitatea operatorilor economici care furnizează produse agroalimentare în cadrul contractelor publice vizate de prezenta lege;
+
+b) se înregistrează producția, transportul, depozitarea, comercializarea și livrarea produselor agroalimentare în lanțuri scurte locale;
+
+c) se verifică respectarea criteriilor privind distanța, sezonalitatea, trasabilitatea, registrul fiscal și logistic, precum și condițiile de conformitate ecologică și socială.
+
+(3) Platforma are caracter obligatoriu pentru toți operatorii economici care participă la proceduri de achiziție publică în temeiul art. 6 din prezenta lege și pentru toți furnizorii care doresc să beneficieze de statutul de operator în lanț scurt local.
+
+## Art. 10 Program de formare profesională pentru fermieri
+
+(1) Ministerul Agriculturii și Dezvoltării Rurale, în colaborare cu direcțiile agricole și organizațiile de fermieri, va elabora un program anual de formare profesională pentru utilizarea platformelor PNLSTA și RDPAM.
+
+(2)Participarea la program este gratuită pentru fermierii activi și se desfășoară prin cursuri locale în comune, materiale video informative
+
+(3) Direcțiile agricole județene, prin reprezentanții lor, organizează și desfășăra cursurile de formare;
+
+(4) Ministerul Agriculturii și Dezvoltării Rurale, prin structurile sale sau prin contractanți externe, realizează materialele video informative pentru disseminare, publicate și accesibile pe siteul Ministerului;
+
+(5) Normele metodologice privind aplicarea prezentului articol se stabilesc prin ordin al Ministrului Agriculturii și Dezvoltării Rurale;
+
+## Art. 11 – Autoritatea competentă și interoperabilitatea
+
+(1) Platforma PNLSTA este dezvoltată, administrată și actualizată de către Ministerul Agriculturii și Dezvoltării Rurale, prin Agenția de Plăți și Intervenție pentru Agricultură (APIA), în colaborare cu:
+
+a) Autoritatea Națională Sanitară Veterinară și pentru Siguranța Alimentelor (ANSVSA),
+
+b) Agenția Națională de Administrare Fiscală (ANAF),
+
+c) Agenția Națională pentru Achiziții Publice (ANAP),
+
+d) Oficiul Național al Registrului Comerțului (ONRC),
+
+e) și Ministerul Dezvoltării, Lucrărilor Publice și Administrației, pentru integrarea la nivelul autorităților locale.
+
+(2) Platforma PNLSTA este interoperabilă cu următoarele baze de date și sisteme informatice publice:
+
+a) Registrul exploatațiilor și al fermierilor (APIA),
+
+b) Registrul trasabilității produselor agroalimentare (ANSVSA),
+
+c) Sistemul Electronic de Achiziții Publice (SEAP),
+
+d) sistemele de facturare electronică și TVA (e-Factura, RO e-Transport),
+
+(3) Datele sunt gestionate în conformitate cu legislația privind protecția datelor cu caracter personal, fiind considerate informații de interes public în condițiile legii.
+
+## Art. 12 – Funcționalități platformă PNLSTA
+
+(1) Platforma PNLSTA permite în mod obligatoriu următoarele operațiuni:
+
+a) Înregistrarea producției agricole primare pentru fiecare operator agricol, cu următoarele date: tip cultură, cantitate estimată și realizată, locație, perioada de recoltare.
+
+b) Înregistrarea transportului pentru fiecare lot de produs vandut în lanț scurt, cu următoarele date: punct de plecare, punct de destinație, distanța, temperatură de păstrare, mijloc de transport, data și oră plecare.
+
+c) Înregistrarea vânzării și a livrărilor cu următoarele date: produs, cantitate, beneficiar, dată, traseu, documente fiscale.
+
+d) Verificare automată a eligibilității pentru lanț scurt pe baza
+
+\- calcului distanței în kilometri față de punctul de consum,
+
+\- verificării trasabilității complete,
+
+\- verificării înregistrării fiscale în România.
+
+e) Generarea de certificate electronice de conformitate
+
+\- documente digitale care atestă că produsul îndeplinește criteriile prevăzute de prezenta lege.
+
+f) Export de rapoarte oficiale pentru autoritățile contractante, utilizabile în SEAP, audit și control.
+
+(2) Normele metodologice privind aplicarea prezentului articol se stabilesc prin ordin al Ministrului Agriculturii și Dezvoltării Rurale;
+
+## Art. 13 – Calendar de implementare
+
+(1) Ministerul Agriculturii și Dezvoltării Rurale va elabora, în termen de 60 de zile de la intrarea în vigoare a prezentei legi, caietul de sarcini tehnic pentru dezvoltarea și implementarea PNLSTA.
+
+(2) Platforma va deveni funcțională în termen de 12 luni de la publicarea prezentei legi în Monitorul Oficial, iar în termen de maximum 18 luni utilizarea ei va deveni obligatorie pentru:
+
+a) toate instituțiile publice care derulează achiziții de produse agroalimentare;
+
+b) toți operatorii economici care doresc să furnizeze produse agroalimentare în lanțuri scurte.
+
+## Art. 14 – Finanțare platformei
+
+Finanțarea dezvoltării și operării platformei PNLSTA se realizează din bugetul Ministerului Agriculturii și Dezvoltării Rurale, precum și din fonduri externe rambursabile și nerambursabile dupa caz.
+
+## Art. 15 – Colaborări internaționale și transfer de cunoștințe
+
+Ministerul Agriculturii și Dezvoltării Rurale este autorizat să inițieze parteneriate și proiecte comune cu statele membre care dețin platforme similare (ex: Franța – „Provenance”, Italia – SIAN, Austria – eAMA), în scopul transferului de know-how, interoperabilității la nivel european și asigurării celor mai bune practici în domeniu.
+
+## Art. 16 – Actualizarea platformei
+
+(1) PNLSTA va fi actualizată lunar, după caz, conform evoluțiilor tehnologice, a reglementărilor europene și a nevoilor identificate de autoritățile publice și partenerii sociali.
+
+(2) Normele metodologice de funcționare a platformei, inclusiv ghidurile de utilizare și standardele de calitate și trasabilitate, vor fi aprobate prin hotărâre de Guvern, în termen de 6 luni de la operaționalizarea tehnică a sistemului.
+
+## CAPITOLUL IV – Verificarea și certificarea realității producției agroalimentare
+
+## Art. 17 – Necesitatea probării producției reale
+
+Pentru a asigura trasabilitatea, conformitatea și autenticitatea produselor agroalimentare din lanțurile scurte de aprovizionare locală, se instituie obligativitatea înregistrării și verificării reale a producției agricole primare, cât și a producției alimentare procesate.
+
+## Art. 18 – Registrul Digital de Producție Agricolă Minimizată (RDPAM)
+
+(1) Se instituie Registrul Digital de Producție Agricolă Minimizată (RDPAM), ca modul funcțional al Platformei Naționale pentru Lanțuri Scurte și Trasabilitate Agroalimentară (PNLSTA), cu scopul de a colecta datele de bază privind producția agricolă primară destinată comercializării în sistemele reglementate de prezenta lege.
+
+(2) RDPAM va include următoarele date minime obligatorii:
+
+a) identitatea operatorului (nume; CUI; CNP; cod APIA, după caz);
+
+b) tipul culturii, conform nomenclatorului aprobat de Ministerul Agriculturii și Dezvoltării Rurale;
+
+c) suprafața cultivată exprimată în hectare;
+
+d) estimarea producției exprimate în kilograme sau tone;
+
+e) capacitate de depozitare;
+
+f) cantiate si tipuri de produse aflate în depozitare.
+
+(3) Completarea datelor se va putea realiza:
+
+a) direct de către fermier, prin interfața digitală a platformei;
+
+b) prin completare asistată la primărie, direcția agricolă județeană, sau de către o cooperativă parteneră, în baza unei împuterniciri semnate de fermier.
+
+(4) Pentru exploatațiile sub 1 ha, înregistrarea în RDPAM este facultativă, dar necesară pentru a beneficia de acces la achiziții publice și statutul de operator eligibil în lanț scurt.
+
+## Art. 19 – Verificarea producției reale
+
+(1) Pentru validarea datelor înscrise în RDPAM, Direcțiile pentru Agricultură Județene, în colaborare cu APIA și, dacă este cazul, ANSVSA, efectuează cel puțin o verificare anuală în teren pentru fiecare operator.
+
+(2) Verificarea se realizează prin:
+
+a) control fizic cu întocmirea unui proces-verbal;
+
+b) fotografii geolocalizate ale culturilor și/sau produselor;
+
+c) documente justificative: facturi de inputuri, bonuri de cântar, avize de transport, facturi fiscale de vânzare, documente ANSVSA, etc.
+
+(3) Dacă producția declarată este semnificativ diferită de realitatea constatată (abatere de peste 30% fără justificare agronomică sau climatică), operatorul este notificat și poate prezenta explicații în termen de 15 zile.
+
+(4) Refuzul verificării sau nerespectarea termenelor atrage pierderea temporară a calității de operator eligibil.
+
+## Art. 20 – Sancțiuni pentru declarații false
+
+(1) În cazul constatării unor declarații false privind producția, suprafața sau natura culturilor, se aplică următoarele sancțiuni concomitente:
+
+a) excluderea din RDPAM pentru o perioadă de 2 ani;
+
+b) interdicția participării la proceduri de achiziții publice pe aceeași perioadă;
+
+c) sesizarea organelor fiscale și de control pentru recuperarea eventualelor sume încasate necuvenit.
+
+(2) Sancțiunile se aplică prin decizie a Direcției Agricole Județene, cu drept de contestație în termen de 30 de zile.
+
+## Art. 21 – Măsuri de protecție pentru fermierii autentici
+
+(1) Fermierii care întâmpină dificultăți în utilizarea platformei digitale pot solicita sprijinul autorităților locale (primării), direcțiilor agricole sau cooperativelor partenere pentru completarea și transmiterea datelor.
+
+(2) Platforma oferă o interfață de utilizare accesibilă, fără costuri pentru utilizator.
+
+(3) Toate datele înregistrate în RDPAM beneficiază de protecția prevăzută de Regulamentul (UE) 2016/679 privind protecția datelor cu caracter personal, cu modificările și completările ulterioare.
+
+## Art. 22 – Corelarea cu alte sisteme și trasabilitate extinsă
+
+(1). Datele înregistrate în RDPAM sunt corelate cu:
+
+a) cererile unice de plată depuse la APIA;
+
+b) notificările ANSVSA privind mișcările de produse;
+
+c) documentele de transport (RO e-Transport).
+
+(2) Pentru fiecare livrare destinată instituțiilor publice, sistemul va genera un Certificat Electronic de Conformitate (CEC) cu un cod QR corespunzător, care va atesta:
+
+a) respectarea distanței maxime de 200 km;
+
+b) trasabilitatea produsului;
+
+c) și calitatea de producător real înregistrat.
+
+(3) Instituțiile publice vor putea verifica autenticitatea fiecărui certificat în timp real, în momentul recepției mărfurilor, prin scanarea codului unic QR.
+
+## Art. 23 – Dispoziții finale privind RDPAM
+
+(1) RDPAM devine funcțional în termen de 12 luni de la intrarea în vigoare a prezentei legi.
+
+(2) Operatorii economici care nu sunt înregistrați în RDPAM nu pot beneficia de statutul de furnizor în lanț scurt local și nu pot furniza produse agroalimentare către instituții publice sau rețele comerciale în condițiile prezentei legi.
+
+(3) Ministerul Agriculturii și Dezvoltării Rurale va elabora, prin ordin, normele metodologice de funcționare a RDPAM, în termen de 6 luni de la publicarea prezentei legi în Monitorul Oficial.
+
+## CAPITOLUL V - Facilități de înregistrare și asistență digitală pentru fermierii fără competențe IT
+
+## Art. 24 – Preluarea obligației de înregistrare
+
+(1) În cazul în care un producător agricol din Registrul Digital de Producție Agricolă Minimizată (RDPAM) vinde produse agroalimentare către un comerciant cu amănuntul (inclusiv supermarketuri, hipermarketuri, rețele cash & carry sau magazine independente), obligația de înregistrare a tranzacției în Platforma Națională pentru Lanțuri Scurte și Trasabilitate Agroalimentară (PNLSTA) revine operatorului economic cumpărător.
+
+(2) Comerciantul va introduce în sistem, în termen de cel mult 24 de ore de la recepția produselor:
+
+a) identificarea fermierului (nume, CUI sau CNP);
+
+b) tipul și cantitatea produsului;
+
+c) locația și data livrării;
+
+d) numărul și data facturii sau avizului de însoțire.
+
+(3) Fermierul are obligația de a emite documente fiscale, dar poate opta pentru emitere asistată digital, prin sistemele autorizate ale comerciantului. Această facturare asistată se consideră validă juridic și fiscal, cu acceptul scris al fermierului.
+
+(4) în cazul desfacerii finale a produselor agroalimentare in piețe, obligația de înregistrare poate fi preluată de comercianți, administratori de piețe sau autorități locale
+
+(5) Refuzul comerciantului de a înregistra tranzacția în PNLSTA constituie contravenție și se sancționează cu amendă de la 50.000 lei la 250.000 lei, iar în caz de recidivă, cu suspendarea accesului la facilitățile prevăzute la art. 10 privind cota mínămă de produse din lanțuri scurte.
+
+## Art. 25 – Asistență digitală pentru vânzarea în piețe agroalimentare
+
+(1) Fermierii care vând produse agroalimentare în piețele agroalimentare publice sau private au obligația de a fi înregistrați în RDPAM, dar nu sunt obligați să opereze direct sistemul PNLSTA.
+
+(2) Administratorii piețelor vor:
+
+a) colecta documentele fiscale zilnice ale producătorilor;
+
+b) asigura înregistrarea în PNLSTA a vânzărilor care depășesc 50 kg per produs sau 500 lei per zi;
+
+c) elibera, la cerere, etichete de trasabilitate cu cod QR unic generat prin PNLSTA.
+
+(3) Primăriile au obligația de a organiza un punct de sprijin digital (oficiu agricol, birou mobil sau terminal electronic) în fiecare piață agroalimentară din subordine, în care fermierii pot:
+
+a) completa sau actualiza fișa de producător;
+
+b) transmite datele de vânzare zilnică;
+
+c) solicita imprimarea etichetelor de trasabilitate.
+
+(4) Lipsa cooperării administratorului pieței cu autoritățile responsabile pentru trasabilitate atrage sancțiune cu amendă de la 10.000 lei la 50.000 lei și, în caz de recidivă, suspendarea dreptului de a gestiona piețe publice.
+
+## Art. 26 – Protecția fermierilor reali și excluderea intermediarilor fictivi
+
+(1) Statutul de producător agricol eligibil în lanțul scurt este valabil doar dacă:
+
+a) fermierul este înregistrat în RDPAM;
+
+b) produce efectiv pe terenul declarat, dovedit prin verificări periodice sau documente de exploatare;
+
+c) realizează cel puțin o parte din comercializare în mod direct sau prin livrare către instituții publice ori comercianți autorizați.
+
+(2) Persoanele care utilizează certificatul de producător fără a desfășura efectiv activități agricole vor fi:
+
+a) eliminate din RDPAM pentru 2 ani;
+
+b) interzise în accesul la piețe agroalimentare publice;
+
+c) sesizate autorităților fiscale și penale.
+
+(3) MADR va elabora, în termen de 90 de zile de la intrarea în vigoare a prezentei legi, ghidul oficial de recunoaștere a producătorului agricol real, care va fi folosit de toate autoritățile locale, direcțiile agricole și structurile de control.
+
+## Art. 27 – Declararea asistată și echipamente mobile
+
+(1) Fermierii fără acces la internet sau cu dificultăți în utilizarea platformelor electronice pot solicita:
+
+a) completarea asistată a RDPAM și PNLSTA de către funcționarii primăriei;
+
+b) înregistrarea zilnică a vânzărilor prin sistem mobil gestionat de administratorii piețelor;
+
+c) emiterea de documente fiscale prin POS sau echipamente oferite în parteneriat cu MADR.
+
+(2) Ministerul Agriculturii și Dezvoltării Rurale va implementa, prin APIA și direcțiile agricole, un program național de dotare cu echipamente mobile gratuite (POS, imprimante portabile) pentru fermierii activi în lanțurile scurte.
+
+(3) Toate sistemele de emitere asistată vor fi verificate anual de ANAF și MADR, pentru a preveni abuzurile și eludările.
+
+## Art. 28 – Dispoziții finale privind facilitarea accesului digital
+
+În termen de 6 luni de la intrarea în vigoare a prezentei legi, Ministerul Agriculturii și Dezvoltării Rurale va elabora norme metodologice privind:
+
+a) procedura de înregistrare asistată;
+
+b) formularele tipizate pentru vânzări în piețe;
+
+c) etichetarea produselor cu trasabilitate digitală;
+
+d) și interoperabilitatea între platformele comercianților și PNLSTA.
+
+## Capitolul VI – Etichetarea la raft
+
+## Art. 29 – Obligații privind informarea consumatorilor
+
+(1) Rețelele comerciale sunt obligate să eticheteze distinct produsele românești provenite din lanțuri scurte, prin utilizarea siglei:
+
+„PRODUS ROMÂNESC – LANȚ SCURT”, sub o formă vizuală aprobată de MADR.
+
+(2) Eticheta trebuie să fie vizibilă:
+
+a) la raft, pe suportul de pret;
+
+b) în catalogul promoțional;
+
+c) în magazinul online, dacă este cazul.
+
+## Capitolul VII – Procedura de sancționare
+
+## Art. 30 – Mecanismul de control
+
+(1) ANPC și MADR verifică, prin eșantionare, conformitatea provenienței produselor.
+
+(2) În cazul constatării neîndeplinirii cotelor minime:
+
+a) se notifică operatorul economic în termen de 10 zile;
+
+b) în absentă corectării în termen de 30 de zile, se aplică sancțiunile prevăzute în art. 20 din lege.
+
+(3) Fiecare punct de vânzare este verificat separat.
+
+## Capitolul VIII - Dispoziții finale
+
+## Art. 31 – Calendarul de implementare
+
+(1) În termen de 30 de zile de la intrarea în vigoare a normelor:
+
+\- MADR publică lista produselor sezoniere pentru care se aplică cota de 60%;
+
+\- ANPC creează portalul digital pentru raportarea trimestrială.
+
+(2) În termen de 90 de zile, rețelele comerciale trebuie să își actualizeze procedurile interne și să desemneze un responsabil pentru conformitate.
+
+## Art. 32 – Publicitate și transparență
+
+(1) Produsele agroalimentare românești provenite din lanțuri scurte trebuie semnalizate vizibil la raft și în pliantele de promovare, cu mențiunea: „PRODUS ROMÂNESC – LANT SCURT”.
+
+(2) Rețelele comerciale sunt obligate să publice trimestrial, pe site-ul propriu, raportul privind structura provenienței produselor din magazine, defalcat pe grupe alimentare.
+
+## Capitolul IX – Mecanisme de conformare și sancțiuni
+
+## Art. 33 - Verificare și monitorizare
+
+(1) Respectarea prevederilor prezentei legi este verificată de către Ministerul Agriculturii și Dezvoltării Rurale (MADR).
+
+(2) Ministerul Agriculturii și Dezvoltării Rurale întocmește un registru electronic al furnizorilor eligibili prin lanțuri scurte, actualizat semestrial.
+
+## Art. 34 – Sancțiuni contravenționale
+
+(1) Nerespectarea prevederilor art. 3 constituie contravenție și se sancționează cu:
+
+a) amendă între 500.000 și 2.000.000 lei pentru prima abatere;
+
+b) amendă între 2.000.000 și 10.000.000 lei pentru fiecare abatere succesivă celei prevazute la lit. a), într-un interval de 12 luni;
+
+c) suspendarea autorizației de funcționare a punctului de vânzare respectiv pentru o perioadă de până la 30 de zile în cazul abaterilor repetate grave.
+
+(2) în cazul în care raportul public de proveniență (art. 4 alin. 2) nu este publicat, se aplică amendă de 50.000 lei pentru fiecare zi de întârziere.
+
+## Art. 35 – Sancționarea faptelor de natură penală
+
+(1) Falsificarea, alterarea sau utilizarea de date false privind trasabilitatea produselor agroalimentare, în scopul obținerii beneficiilor prevăzute de prezenta lege, constituie faptă de natură penală conform art. 323 (fals intelectual) și art. 326 (declarații inexacte) Cod penal în vigoare, fără a exclude sancțiunile contravenționale specifice.
+
+(2) Plafonarea artificială a disponibilității ofertei produselor agroalimentare cu amprentă de carbon redusă prin publicarea cu intarziere a raportului Ministerului Agriculturii si Dezvoltarii Rurale care atesta cresterea ofertei de produse agroalimentare cu amprenta de carbon redusă constituie faptă de natură penală conform art. 297 Cod penal in vigoare, pentru care se sesează organelor competente, de către orice parte interesată, fără a exclude sancțiunile contravenționale specifice
+
+## Art. 36 Protecția datelor în platforma digitală
+
+(1)PNLSTA va respecta prevederile Regulamentului (UE) 2016/679 (GDPR) privind protecția datelor, cu modificările și completările ulterioare.
+
+(2) Furnizorii care introduc date false sau trunchiate în sistem răspund civil și penal, conform Codului penal, art. 326 și art. 323.
+
+## Capitolul X – Dispoziții finale și tranzitorii
+
+## Art. 37 – Derogări temporare
+
+(1) În situații excepționale de epidemii zoosanitare, fenomene climatice extreme, embargouri comerciale, Guvernul poate dispune, prin hotărâre, derogări temporare de la cotele prevăzute la art. 3, pe perioade limitate.
+
+(2) Aceste derogări nu pot depăși 120 de zile calendaristice pe an.
+
+## Art. 38 – Conformitate cu dreptul Uniunii Europene
+
+Prezenta lege este conformă cu principiile de nediscriminare, proporționalitate și libertate economică prevăzute în Tratatul privind Funcționarea Uniunii Europene, fiind fundamentată pe obiective legitime de interes public în domeniul sănătății, mediului și dezvoltării economice locale.
+
+## Art. 39 – Dispoziții tranzitorii
+
+(1) Rețelele comerciale au obligația de a se conforma prevederilor legii în termen de 120 de zile de la intrarea în vigoare.
+
+(2) MADR va elabora și publica normele metodologice în termen de 60 de zile de la publicarea legii în Monitorul Oficial.
+
+## Art. 40 – Intrarea în vigoare

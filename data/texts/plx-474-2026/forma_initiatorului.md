@@ -1,0 +1,61 @@
+# PROIECT DE LEGE pentru modificarea și completarea Legii nr. 189/1999 privind exercitarea inițiativei legislative de către cetățeni
+
+Parlamentul României adoptă prezenta lege:
+
+## Articolul I
+
+Legea nr. 189/1999 privind exercitarea inițiativei legislative de către cetățeni, republicată, se modifică și se completează după cum urmează:
+
+## 1. Introducerea articolului 4¹
+
+După articolul 4 se introduce un nou articol, art. 4¹, cu următorul cuprins:
+
+„Art. 4¹ – Protecția datelor cu caracter personal
+
+(1) Datele cu caracter personal colectate în cadrul exercitării inițiativei legislative cetățenești sunt prelucrate exclusiv în scopul verificării calității de cetățean cu drept de vot și al îndeplinirii condițiilor legale de susținere.
+
+(2) Comitetul de inițiativă are calitatea de operator de date cu caracter personal, în sensul Regulamentului (UE) 2016/679.
+
+(3) Datele colectate nu pot fi utilizate în alte scopuri și se distrug sau anonimizează după finalizarea procedurii legislative.
+
+(4) Autoritățile publice implicate în procedura de verificare și validare a susținerilor au obligația respectării principiilor prevăzute de Regulamentul (UE) 2016/679.”
+
+## 2. Introducerea articolului 5¹
+
+După articolul 5 se introduce un nou articol, art. 5¹, cu următorul cuprins:
+
+„Art. 5¹ – Susținerea prin semnătură electronică
+
+(1) Susținerea inițiativei legislative cetățenești se poate realiza, alternativ, și prin utilizarea semnăturii electronice calificate, în condițiile Regulamentului (UE) nr. 910/2014 (eIDAS).
+
+(2) Semnăturile electronice calificate utilizate în acest scop au aceeași valoare juridică precum semnăturile olografe.
+
+(3) Utilizarea semnăturii electronice nu exclude posibilitatea susținerii inițiativei prin semnătură olografă, în condițiile prezentei legi.”
+
+## 3. Introducerea articolului 5²
+
+După articolul 5¹ se introduce un nou articol, art. 5², cu următorul cuprins:
+
+„Art. 5² – Validarea susținerilor electronice
+
+(1) Validarea susținerilor exprimate prin semnătură electronică calificată se realizează de către Autoritatea Electorală Permanentă.
+
+(2) În cadrul procedurii de validare, Autoritatea Electorală Permanentă verifică exclusiv: a) existența dreptului de vot;
+
+b) unicitatea susținerii.
+
+(3) Autoritatea Electorală Permanentă nu verifică conținutul inițiativei legislative și nu se pronunță asupra oportunității acesteia.
+
+(4) Procedura tehnică de validare se stabilește prin norme metodologice aprobate prin hotărâre a Guvernului, la propunerea Autorității Electorale Permanente.”
+
+## Articolul II
+
+Dispozițiile art. 5 din Legea nr. 189/1999 rămân aplicabile pentru susținerile exprimate prin semnătură olografă.
+
+## Articolul III
+
+În termen de 90 de zile de la intrarea în vigoare a prezentei legi, Guvernul adoptă normele metodologice de aplicare.
+
+## Articolul IV
+
+Prezenta lege intră în vigoare la 30 de zile de la publicarea în Monitorul Oficial al României, Partea I.

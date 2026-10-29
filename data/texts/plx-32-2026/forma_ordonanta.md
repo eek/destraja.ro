@@ -1,0 +1,573 @@
+# GUVERNUL ROMÂNIEI
+
+## ORDONANȚĂ DE URGENȚĂ pentru modificarea și completarea Legii nr. 207/2015 privind Codul de procedură fiscală
+
+Având în vedere că, în calitatea sa de stat membru al Uniunii Europene cu drepturi depline, României îi revine sarcina de a transpune și implementa directivele adoptate la nivelul Uniunii Europene,
+
+Luând în considerare faptul că România are obligația transpunerii corecte și complete a Directivei (UE) 2023/2226 a Consiliului din 17 octombrie 2023 de modificare a Directivei 2011/16/UE privind cooperarea administrativă în domeniul fiscal, având totodată obligația de a comunica Comisiei Europene textul acestor măsuri,
+
+Întrucât termenul de transpunere urmează a se împlini la data de 31 decembrie 2025, statele membre ale Uniunii Europene aplicând aceste prevederi începând cu data de 1 ianuarie 2026,
+
+Având în vedere invitația de aderare la Organizația pentru Cooperare și Dezvoltare Economică, denumită în continuare OCDE, și luând în considerare puternicul consens politic intern pentru aderarea la această organizație,
+
+Ținând seama de faptul că la nivelul OCDE au fost adoptate Standardele internaționale pentru schimbul automat de informații în materie fiscală, ce cuprind, atât Cadrul de Raportare privind Criptoactivele,denumit în continuare CARI, care reprezintă instrumentul juridic prin care se va realiza schimbul automat de informații privind tranzacțiile de criptoactive într-o manieră standardizată cu jurisdictile de rezidență ale contribuabililor, cât și modificările aduse Standardului Comun de Raportare, denumit în continuare SCR, prin care s-a avut în vedere extinderea sferei schimbului de informații privind conturile financiare cu statele terțe, aducând în sfera sa de aplicare noi active financiare, produse și intermediari, În considerarea faptului că România, în calitatea sa de țară membră a Forumului Global din cadrul OCDE, și-a asumat implementarea eficientă a CARF și inițierea schimbului de informații în ianuarie 2027, precum și alinierea la noile modificări aduse SCR, Având în vedere că atât Directiva (UE) 2023/2226, cât și CARF prevăd proceduri comune și standardizate de raportare ale furnizorilor de servicii de criptoactive raportori, rezultând astfel nevoia existenței unui cadru legislativ clar și predictibil la nivelul legislației naționale prin care să se reglementeze organizarea sistemelor informatice, procedurile interne și obligațiile de raportare și prin care să poată fi evitate eventuale blocaje operaționale și riscul imposibilității respectării termenelor de raportare impuse la nivel european și international, Ținând cont de necesitatea evitării pierderilor bugetare semnificative și prevenirii fenomenului de evaziune fiscală rezultate din neraportarea sau raportarea incompletă a veniturilor obținute din tranzacții cu criptoactive, Întrucât este esențială respectarea calendarului european de digitalizare și standardizare fiscală, lipsa unei reglementări urgente putând împiedica interoperabilitatea tehnică, cu posibilitatea excluderii României din mecanismul comun de raportare, Luând în considerare măsurile ce trebuie luate de către ANAF pentru consolidarea capacității administrative, respectiv de a asigura un cadru normativ privind colectarea informațiilor de la furnizorii de servicii raportori, modelul conținutului formularelor utilizate în activitatea de colectare ceea ce necesită modernizarea infrastructurii IT, precum și modul de efectuare a controalelor specifice în cazul nerespectării de către furnizorii de servicii de criptoactive raportori a procedurilor de diligență fiscală și a obligațiilor de raportare,
+
+Având în vedere că preluarea în dreptul intern a directivelor Uniunii Europene, în mod corect și complet, reprezintă o obligație juridică a statelor membre ale Uniunii Europene, potrivit Tratatului privind funcționarea Uniunii Europene (TFUE), și că neadoptarea actelor de transpunere la termenul prevăzut constituie o încălcare a acestei obligații, pentru care Comisia Europeană, denumită în continuare Comisia, declanșează automat acțiuni în constatarea neîndeplinirii obligației de comunicare a măsurilor naționale de transpunere, potrivit art. 258 coroborat cu art. 260 alin. (3) TFUE,
+
+Ținând cont că, potrivit jurisprudenței Curții Constituționale, statuată prin deciziile nr. 15 din 25 ianuarie 2000, nr. 802 din 19 mai 2009, nr. 1599 din 9 decembrie 2010 și nr. 60 din 12 februarie 2020, actele obligatorii ale Uniunii Europene pot fi transpuse prin ordonanță de urgență numai în condiții restrictive, respectiv iminența declanșării procedurii de infringement în fața Curții de Justiție a Uniunii Europene, și că în situația prezentată sunt întrunite asemenea condiții,
+
+Având în vedere că în considerentele Deciziei Curții Constituționale nr. 60 din 12 februarie 2020, paragraful 59, se menționează că "Curtea a admis utilizarea ordonanței de urgență a Guvernului ca instrument de legiferare pentru situații concrete, stabilind, în considerarea obligațiilor impuse statului român de art. 148 alin. (4) din Constituție, că «Guvernul este abilitat din punct de vedere constituțional ca, prin mijloacele pe care le are la îndemână, să garanteze îndeplinirea obligațiilor României față de Uniunea Europeană. Astfel, folosirea ordonanțelor de urgență pentru punerea de acord a legislației naționale cu cea comunitară în situația în care era iminentă declanșarea procedurii de infringement în fața Curții de Justiție este pe deplin constituțională»",
+
+Având în vedere că tot în Decizia nr. 60 din 12 februarie 2020, paragraful 60, Curtea precizează „Considerentele mai sus relevate, desprinse din jurisprudența Curții, exprimă, cu alte cuvinte, ideea potrivit căreia urgența reglementării apare atunci când o situație extraordinară - care se abate semnificativ de la obișnuit, este preexistentă urgenței, este cuantificabilă și obiectivă - determină, prin aceste caracteristici, necesitatea reglementării imediate, fără întârziere, a unor măsuri prompte și adecvate, în lipsa căfora ar exista riscul iminent al producerii unor consecințe negative de natură să afecteze un anumit interes public sau chiar drept fundamental. Totodată, mecanismul comun de legiferare specific Parlamentului, chiar și în procedură de urgență, nu este în măsură să răspundă cu celeritate necesității de a se interveni de îndată, astfel că reglementarea de către Guvern, prin procedura ordonanței de urgență, este singura soluție pentru evitarea unor grave consecințe.”,
+
+Luând în considerare riscul crescut ca România să fie obligată la plata unor sancțiuni pecuniare semnificative, respectiv Comisia poate propune aplicarea unei sume forfetare de minimum 1.636.000 euro și a unor penalități cominatorii cu o valoare cuprinsă între 1.754,4 si 105.264 euro pe zi de intarziere,
+
+Având în vedere demersurile realizate de România pentru aderarea la OCDE și ținând cont de angajamentele luate privind respectarea termenelor de implementare a instrumentelor juridice internaționale,
+
+Deoarece problemele menționate mai sus vizează interesul public și strategic al României în îndeplinirea obligațiilor de drept internațional și procesului de aderare la OCDE și constituie o situație extraordinară a cărei reglementare nu poate fi amânată,
+
+În temeiul art. 115 alin. (4) din Constituția României, republicată,
+
+Guvernul României adoptă prezenta ordonanță de urgență.
+
+Art. I. - Legea nr. 207/2015 privind Codul de procedură fiscală, publicată în Monitorul Oficial al României, Partea I, nr. 547 din 23 iulie 2015, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+## 1. La articolul 71, alineatul (4) se modifică și va avea următorul cuprins:
+
+„(4) Informațiile se transmit, după caz, automat, spontan sau la cererea autorității solicitante din statele cu care România s-a angajat printr-un instrument juridic de drept internațional, altele decât statele membre ale Uniunii Europene. Termenele prevăzute la art. 290, art. 291 alin. (6) lit. b), art. 291¹, art. 291³, art. 291⁶ și art. 293 pentru transmiterea informațiilor se aplică și pentru schimbul de informații prevăzut de prezentul articol, cu excepția cazului în care prin instrumentul juridic de drept internațional sunt prevăzute alte termene."
+
+## 2. La articolul 286 litera i), punctele 1 și 3 se modifică și vor avea următorul cuprins:
+
+„1. în sensul art. 291 alin. (1), art. 291¹, 291³ - 291⁶, comunicarea sistematică a informațiilor predefinite către alt stat membru, fără cerere prealabilă, la intervale regulate prestabilite. În sensul art. 291 alin. (1), prin informații disponibile se înțeleg informațiile din dosarele fiscale ale statului membru care comunică informațiile respective, ce pot fi accesate în conformitate cu procedurile de colectare și de procesare a informațiilor din acel stat membru.
+
+3\. în sensul oricâror altor dispoziții din prezentul capitol, cu excepția prevederilor art. 291 alin. (1) și (4), art. 291¹, 291³ - 291⁶, comunicarea sistematică de informații predefinite furnizate în conformitate cu pct. 1 și 2.
+
+În sensul art. 291 alin. (4) și (7), art. 304 alin. (2), art. 308 alin. (2) și (3) și al anexei nr. 4, orice termen scris cu inițială majusculă are sensul atribuit conform definițiilor corespunzătoare prevăzute în anexa nr. 1. În sensul art. 308 alin. (2) și (3) orice termen scris cu inițială majusculă are înțelesul corespunzător definițiilor prevăzute în anexa nr. 1, în anexa nr. 5 sau în anexa nr. 6. În sensul art. 291³ și al anexei nr. 3 orice termen scris cu inițială majusculă are sensul atribuit conform definițiilor corespunzătoare prevăzute în respectiva anexă. În sensul art. 291⁵ și al anexei nr. 5, orice termen scris cu inițială majusculă are sensul atribuit conform definițiilor corespunzătoare prevăzute în respectiva anexă. În sensul art. 291⁶ și al anexei nr. 6, orice termen scris cu inițială majusculă are înțelesul corespunzător definițiilor prevăzute în respectiva anexă.”
+
+## 3. La articolul 286 litera n), punctul 4 se modifică și va avea următorul cuprins:
+
+„4. se referă la o tranzacție transfrontalieră sau la informația dacă activitățile desfășurate de o persoană într-o altă jurisdicție creează sau nu un sediu permanent sau la informația dacă o persoană fizică are sau nu domiciliul fiscal în statul membru care a emis decizia.”
+
+## 4. La articolul 286, după litera aa) se introduc patru noi litere, lit. bb) – ee), cu următorul cuprins:
+
+„bb) «venituri din dividende vărsate prin intermediul unor conturi altele decât cele de custodie» - dividende sau alte venituri considerate drept dividende în statul membru al plătitorului, care sunt plătite sau creditate în alt cont decât un Cont de Custodie, astfel cum este definit în anexa nr. 1, secțiunea VIII, subsecțiunea C, punctul 3.
+
+cc) «produse de asigurări de viață neacoperite de alte instrumente juridice ale Uniunii Europene privind schimbul de informații și de alte măsuri similare» - contracte de asigurare, altele decât contractele de asigurare cu valoare de răscumpărare care fac obiectul raportării în conformitate cu anexa nr. 1, secțiunea I, în care beneficiile din contracte sunt plătibile în cazul decesului unui deținător de poliță de asigurare;
+
+dd) «adresă a registrului distribuit» - adresa unui registru distribuit, astfel cum este definită în Regulamentul (UE) 2023/1114 al Parlamentului European și al Consiliului din 31 mai 2023 privind piețele criptoactivelor și de modificare a Regulamentelor (UE) nr. 1093/2010 și (UE) nr. 1095/2010 și a Directivelor 2013/36/UE și (UE) 2019/1937;
+
+ee) «client» - în sensul art. 291^4, orice intermediar sau contribuabil relevant care primește servicii, inclusiv asistență, consiliere, îndrumare sau orientări, din partea unui intermediar care trebuie să respecte privilegiul profesional legal în legătură cu o modalitate transfrontalieră care face obiectul raportării.”
+
+## 5. La articolul 291, alineatele (1), (2) și (7) se modifică și vor avea următorul cuprins:
+
+„(1) Autoritatea competentă din România comunică autorității competente a oricărui alt stat membru, prin schimb automat, toate informațiile care sunt disponibile referitoare la rezidenții din respectivul stat membru, cu privire la următoarele categorii specifice de venituri și de capital, astfel cum sunt acestea înțelese în temeiul normeleri legale în vigoare:
+
+a) venituri din muncă;
+
+b) remunerații plătite administratorilor și altor persoane asimilate acestora;
+
+c) venituri din produse de asigurări de viață neacoperite de alte instrumente juridice ale Uniunii Europene privind schimbul de informații și de alte măsuri similare;
+
+d) pensii;
+
+e) proprietatea asupra bunurilor imobile și venituri din bunuri imobile;
+
+f) redevențe;
+
+g) venituri din dividende, altele decât veniturile din dividende scutite de la plata impozitului pe profit în temeiul art. 24 alin. (1) lit. b), alin. (3) și (4) din Legea nr. 227/2015, cu modificările și completările ulterioare, vărsate prin intermediul unor conturi altele decât cele de custodie.
+
+(2) Înainte de 1 ianuarie 2024, autoritatea competentă din România informează Comisia Europeană cu privire la cel puțin patru categorii prevăzute la alin. (1), în legătură cu care comunică, prin schimb automat, autorității competente a oricărui alt stat membru informații referitoare la rezidenții respectivului alt stat membru. Informațiile respective vizează perioade impozabile care încep la 1 ianuarie 2025 sau ulterior datei respective. Înainte de 1 ianuarie 2026, statele membre informează Comisia Europeană cu privire la cel puțin cinci categorii menționate la alin. (1) în legătură cu care autoritatea competentă a fiecărui stat membru comunică, prin schimb automat, autorității competente a oricărui alt stat membru informații referitoare la rezidenții respectivului alt stat membru. Aceste informații vizează perioade impozabile care încep la 1 ianuarie 2026 sau ulterior datei respective.
+
+(7) Autoritatea competentă din România se asigură de faptul că entitățile și conturile care urmează să fie considerate drept Instituții Financiare Nonraportoare și, respectiv Conturi Excluse îndeplinesc toate cerințele enumerate la subsecțiunea B pct. 1 lit. c) și subsecțiunea C pct. 19 lit. g) din secțiunea VIII a anexei nr. 1 și, în special, că statutul unei Instituții Financiare drept Instituție Financiară Nonraportoare sau statutul deuui cont drept
+
+Cont Exclus nu aduce atingere obiectivelor prezentului capitol."
+
+## 6. La articolul 291, după alineatul (8) se introduce un nou alineat, alin. (9), cu următorul cuprins:
+
+„(9) Fără a aduce atingere pct. 1 și 6¹ din subsecțiunea A a secțiunii I din Anexa nr. 1, în ceea ce privește fiecare Cont care face Obiectul Raportării și care este administrat de o Instituție Financiară Raportoare la 31 decembrie 2025 și pentru perioadele de raportare care se încheie în al doilea an calendaristic care urmează acestei date, informațiile cu privire la rolul/rolurile în temeiul căruia /cărora fiecare Persoană care face obiectul raportării este o Persoană care exercită Controlul sau un Deținător de Participații în Capitalurile Proprii ale Entității trebuie raportate numai dacă aceste informații sunt disponibile în datele accesibile pentru căutare electronică păstrate de Instituția Financiară Raportoare.”
+
+## 7. La articolul 291¹, alineatul (6) se modifică și va avea următorul cuprins:
+
+„(6) Prevederile alin. (1) - (3) nu se aplică în cazul în care o decizie fiscală anticipată cu aplicare transfrontalieră implică și se referă exclusiv la afacerile fiscale ale uneia sau mai multor persoane fizice, cu excepția cazului în care una dintre aceste decizii fiscale anticipate cu aplicare transfrontalieră a fost emisă, modificată sau reînnoită după 1 ianuarie 2026 și dacă:
+
+a) valoarea tranzacției sau a seriei de tranzacții aferente deciziei fiscale anticipate cu aplicare transfrontalieră depășește 1 500 000 euro (sau valoarea echivalentă în orice altă monedă), dacă o astfel de valoare este menționată în decizia fiscală anticipată cu aplicare transfrontalieră; sau
+
+b) decizia fiscală anticipată cu aplicare transfrontalieră stabilește dacă o persoană este sau nu rezidentă fiscal în statul membru care emite decizia.”
+
+## 8. La articolul 291¹, după alineatul (6) se introduc 2 noi alienate, alin. (6¹) și (6²), cu următorul cuprins:
+
+„(6¹) În sensul alin. (6) lit. a) și fără a aduce atingere cuantumulucmentionat în decizia fiscală anticipată cu aplicare transfrontalieră, într-o serie de tranzacții referitoare la diferite bunuri, servicii sau active, cuantumul deciziei fiscale anticipate cu aplicare transfrontalieră cuprinde valoarea totală subiacentă. Sumele nu sunt aggregate în cazul în care aceleași bunuri, servicii sau active sunt tranzacționate de mai multe ori.
+
+(6²) Fără a aduce atingere alin. (6) lit. b), schimbul de informații privind deciziile fiscale anticipate cu aplicare transfrontalieră referitoare la persoane fizice nu include astfel de decizii privind impozitarea la sursă în ceea ce privește veniturile din muncă, remunerațiile plătite administratorilor și altor persoane asimilate acestora sau pensiile nerezidenților."
+
+## 9. La articolul 291¹ alineatul (8), literele a) și k) se modifică și vor avea următorul cuprins:
+
+„(a) identitatea persoanei, alta decât o persoană fizică, cu excepția cazului în care decizia fiscală anticipată cu aplicare transfrontalieră se referă la o persoană fizică și se comunică potrivit alin. (1) și (6) și, după caz, cea a grupului de persoane din care aceasta face parte.
+
+(k) identitatea oricărei persoane, alta decât o persoană fizică, cu excepția cazului în care decizia fiscală anticipată cu aplicare transfrontalieră se referă la o persoană fizică și se comunică potrivit alin. (1) și (6), din celelalte state membre, dacă există, care este probabil să fie afectată de decizia fiscală anticipată cu aplicare transfrontalieră sau de acordul prealabil privind prețul de transfer, indicând statele membre de care sunt legate persoanele afectate.”
+
+## 10. La articolul 291⁴ alineatul (8), litera a) se modifică și va avea următorul cuprins:
+
+„a) intermediarul notifică, fără întârziere, în scris, oricărui alt intermediar obligația de raportare a informațiilor prevăzute la alin. (19), cu excepția avocatului-care are calitatea de intermediar.”
+
+## 11. La articolul 291⁴ alineatul (19), literele a) și c) se modifică și vor avea următorul cuprins:
+
+„a) identitatea intermediarilor, alții decât intermediarii exonerați de obligația de raportare ca urmare a privilegiului profesional legal pe care trebuie să îl respecte în potrivit alin. (7), precum și a contribuabililor relevanți, inclusiv numele, data și locul nașterii (în cazul unei persoane fizice), rezidența fiscală, NIF ale acestora, și, dacă este cazul, identitatea persoanelor care sunt întreprinderi asociate cu contribuabilul relevant;
+
+c) un rezumat al conținutului aranjamentului transfrontalier care face obiectul raportării, inclusiv o trimitere la denumirea sub care este cunoscut de regulă, dacă aceasta există, și o descriere generală a aranjamentelor relevante și a oricăror alte informații care ar putea ajuta autoritatea competentă să valueze un posibil risc fiscal, fără a duce la dezvăluirea unui secret comercial, industrial sau profesional ori a unui proces comercial ori a unor informații a căror dezvăluire ar fi contrară politicilor publice;”
+
+## 12. La articolul 291⁵ alineatul (2), după litera l) se introduce o nouă literă, lit. m), cu următorul cuprins:
+
+„m) identificatorul Serviciului de Identificare și statul membru emitent, în cazul în care Operatorul de Platformă care are Obligația de Raportare se bazează pe confirmarea directă a identității și a reședinței Vânzătorului prin intermediul unui Serviciu de Identificare pus la dispoziție de un stat membru sau de Uniunea Europeană pentru a stabili identitatea și rezidența fiscală a Vânzătorului; în astfel de cazuri, nu este necesar să se comunice statului membru emitent al identificatorului Serviciului de Identificare informațiile menționate la lit. c)-g).”
+
+## 13. La articolul 291⁵ alineatul (19), partea introductivă se modifică și va avea următorul cuprins:
+
+„(19) Autoritatea competentă din România elimină din registrul central un Operator de platformă care are obligația de raportare în următoarele cazuri:"
+
+## 14. După articolul 291⁵, se introduce un nou articol, art. 291⁶, cu următoru cuprins:
+
+„Art. 291⁶
+
+Domeniul de aplicare și condițiile pentru schimbul automat obligatoriu de informații raportate de Furnizorii de Servicii de Criptoactive Raportori
+
+(1) Furnizorii de Servicii de Criptoactive Raportori trebuie să îndeplinească cerințele de raportare și procedurile de diligență fiscală prevăzute în secțiunile II și III din anexa nr. 6.
+
+Formularul utilizat de Furnizorii de Servicii de Criptoactive Raportori pentru îndeplinirea cerințelor de raportare se aprobă prin ordin al președintelui A.N.A.F.
+
+(2) În temeiul cerințelor de raportare aplicabile și ale procedurilor de diligență fiscală prevăzute în secțiunile II și III din anexa nr. 6, autoritatea competentă din România comunică informațiile menționate la alin. (3) aferente perioadelor impozabile care încep la 1 ianuarie 2026, prin intermediul unui schimb automat și în termenul stabilit la alin. (5), către autoritățile competente din toate celelalte state membre, în conformitate cu măsurile practice adoptate în temeiul art. 304.
+
+(3) Autoritatea competentă din România comunică următoarele informații cu privire la fiecare persoană care face obiectul raportării:
+
+a) numele, adresa, statul membru sau statele membre de rezidență, după caz, numărul (numerele) de identificare fiscală (NIF) și, în cazul unei persoane fizice, data și locul nașterii fiecărui Utilizator care face obiectul raportării, iar în cazul oricărei entități care, după aplicarea procedurilor de diligență fiscală prevăzute în secțiunea III din anexa nr. 6, este identificată ca având una sau mai multe Persoane care Exercită Controlul care sunt persoane care fac obiectul raportării, numele, adresa, statul membru sau statele membre de rezidență, după caz, și numărul (numerele) de identificare fiscală (NIF) ale entității, precum și numele, adresa, statul membru sau statele membre de rezidență, după caz, numărul (numerele) de identificare fiscală (NIF) și data și locul nașterii fiecărei persoane care face obiectul raportării, împreună cu rolul (rolurile) în temeiul căruia (cărora) fiecare persoană care face obiectul raportării este o Persoană care Exercită Controlul asupra entității. În cazul în care Furnizorul de Servicii de Criptoactive Raportor raportează unei autorități competente care utilizează un Serviciu de Identificare și se bazează pe confirmarea directă a identității și a rezidenței Persoanei care face obiectul raportării prin intermediul unui Serviciu de Identificare pus la dispoziție de un stat membru sau de Uniunea Europeană pentru a stabili identitatea și rezidența fiscală a Persoanei care face obiectul raportării, informațiile ce se raportează de către autoritatea competentă cu privire la Persoana care face obiectul sunt: numele, identificatorul din Serviciul de Identificare și statul membru emitent, precum și rolul (rolurile) în virtutea căruia (cărora) fiecare Persoană care face obiectul raportării este o Persoană care Exercită Controlul asupra Entității;
+
+b) numele, adresa, numărul de identificare fiscală (NIF), și dacă este disponibil, numărul individual de identificare menționat la alin. (10) și Identificatorul global al entității juridice ale Furnizorului de Servicii de Criptoactive Raportor;
+
+c) pentru fiecare tip de Criptoactiv care face obiectul raportării și cu care Furnizorul de Servicii de Criptoactive Raportor a efectuat Tranzacții care fac obiectul raportării în cursul anului calendaristic relevant sau al altei perioade de raportare adecvate, dacă este cazul:
+
+1\. denumirea completă a tipului de Criptoactiv care face obiectul raportării;
+
+2\. suma brută agregată plătită, numărul agregat de unități și numărul de Tranzacții care fac obiectul raportării în contextul achizițiilor în schimbul monedei fiduciare;
+
+3\. suma brută agregată încasată, numărul agregat de unități și numărul de Tranzacții care fac obiectul raportării în contextul vânzărilor în schimbul monedei fiduciare;
+
+4\. valoarea justă de piață agregată, numărul agregat de unități și numărul de Tranzacții care fac obiectul raportării în contextul achizițiilor în schimbul altor
+
+5.valoarea justă de piață agregată, numărul agregat de unități și numărul de Tranzacții care fac obiectul raportării în contextul vânzărilor în schimbul altori Criptoactive care fac obiectul raportării;
+
+6\. valoarea justă de piață agregată, numărul agregat de unități și numărul de Tranzacții de Plată cu Amănuntul care fac obiectul raportării;
+
+7\. valoarea justă de piață agregată, numărul agregat de unități și numărul de Tranzacții care fac obiectul raportării, defalcate pe tipuri de transfer în cazul în care acestea sunt cunoscute de Furnizorul de Servicii de Criptoactive Raportor, în cazul acelor Transferuri către Utilizatorul care face obiectul raportării care nu intră sub incidența pct. 2 și 4;
+
+8.valoarea justă de piață agregată, numărul agregat de unități și numărul de Tranzacții care fac obiectul raportării, defalcate pe tipuri de transfer în cazul în care acestea sunt cunoscute de Furnizorul de Servicii de Criptoactive Raportor în cazul acelor Transferuri din partea Utilizatorului care face obiectul raportării care nu intră sub incidența pct. 3, 5 și 6 ;
+
+9.valoarea justă de piață agregată, precum și numărul agregat de unități de Transferuri efectuate de Furnizorul de Servicii de Criptoactive Raportor către adresele registrelor distribuite, menționate în Regulamentul (UE) 2023/1114, despre care nu se știe că ar fi asociate cu un furnizor de servicii de active virtuale sau cu o instituție financiară.
+
+10\. Suma plătită sau încasată prevăzută la lit. c) pct. 2 și 3 se raportează în moneda fiduciară în care a fost plătită sau încasată. În cazul în care sumele au fost plătite sau încasate în mai multe monede fiduciare, sumele se comunică într-o singură monedă, convertită la momentul fiecărei Tranzacții care face obiectul raportării, într-un mod aplicat consecvent de către Furnizorul de Servicii de Criptoactive Raportor.
+
+11\. Valoarea justă de piață prevăzută la lit. c) pct. 4-9 se determină și se comunică într-o singură monedă fiduciară, evaluată la momentul fiecărei Tranzacții care face obiectul raportării într-un mod aplicat consecvent de către Furnizorul de Servicii de Criptoactive Raportor.
+
+12\. În cadrul informațiilor comunicate se specifică Moneda Fiduciară în care este raportată fiecare sumă.
+
+(4) În cazul în care un Furnizor de Servicii de Criptoactive Raportor comunică informații incorecte sau incomplete în ceea ce privește Utilizatorul său de Criptoactive autoritatea competentă din România îi transmite o notificare acestuia pentru a-i furniza toate informațiile necesare, în termen de 30 de zile de la comunicarea notificării, astfel încât să-ș poată îndeplini obligația prevăzută la alin. (3).
+
+(5) Comunicarea în temeiul alin. (3) se efectuează prin intermediul formularului-tip electronic prevăzut la art. 303 alin. (5), anual, în termen de 9 luni de la sfârșitul anului calendaristic sau a altei perioade de raportare adecvate la care se referă informațiile. Primele informații se comunică pentru anul calendaristic relevant sau pentru altă perioadă de raportare adecvată începând cu 1 ianuarie 2026.
+
+(6) În cazul în care un Utilizator de Criptoactive nu furnizează informațiile prevăzute în secțiunea III din anexa nr. 6, nici după primirea a două atenționări transmise ulterior solicitării inițiale din partea Furnizorului de Servicii de Criptoactive Raportor, dar nu înainte de expirarea unui termen de 60 de zile de la solicitarea inițială, Furnizorul de Servicii de Criptoactive Raportor nu îi permite Utilizatorului de Criptoactive să efectueze Tranzacții de Schimb.
+
+(7) Furnizorii de Servicii de Criptoactive Raportori trebuie să păstreze evidența măsurilor întreprinse și a oricăror informații pe care s-au bazat în îndeplinirea procedurilor de raportare și a procedurilor de diligență fiscală prevăzute în secțiunile II și III din anexa nr. 6. Furnizorii de Servicii de Criptoactive Raportori păstrează aceste evidențe pentru o perioadă suficient de lungă și, în orice caz, pentru cel puțin cinci ani, dar nu mai mult de zece ani după încheierea perioadei în care Furnizorul de Servicii de Criptoactive Raportori are obligația de a raporta informațiile în cazul în care informațiile fac obiectul obligației de raportare conform secțiunii II din anexa nr. 6.
+
+(8) În vederea verificării respectării de către Furnizorii de Servicii de Criptoactive Raportori a procedurilor de raportare și de diligență fiscală prevăzute în secțiunile II și III din anexa nr. 6, Agenția Națională de Admnistrare Fiscală poate efectua verificări și în acest sens. Procedurile administrative și de punere în aplicare a prezentului alineat se aprobă prin ordin al președintelui A.N.A.F.
+
+(9) Prin ordin al președintelui A.N.A.F. se aprobă proceduri administrative de comunicare ulterioară cu Furnizorul de Servicii de Criptoactive Raportor în situațiile în care informațiile raportate sunt incorecte sau incomplete.
+
+(10) Operatorul de Criptoactive care este un Furnizor de Servicii de Criptoactive Raportor, astfel cum este definit la secțiunea IV, subsecțiunea B, pct.3 din anexa nr. 6, trebuie să se înregistreze la autoritatea competentă din România sau din oricare alt stat membru, determinată în conformitate cu secțiunea I, subsecțiunea A, pct 2, lit. a), b), c) sau d) sau subsecțiunea B din anexa nr. 6, înainte de sfârșitul perioadei în care trebuie să raporteze informațiile prevăzute la secțiunea II, subsecțiunea B din anexa nr. 6, în vederea respectării procedurilor de raportare prevăzute la alin. (1). În cazul în care Operatorul de Criptoactive care este un Furnizor de Servicii de Criptoactive Raportor, astfel cum este definit la secțiunea IV, subsecțiunea B, pct. 3 din anexa nr. 6, solicită să se înregistreze la autoritatea competentă din România, aceasta îi alocă un număr individual de identificare și notifică acest număr autorităților competente din toate statele membre prin mijloace electronice. Un Operator de Criptoactive care este un Furnizor de Servicii de Criptoactive Raportor, poate alege să se înregistreze la autoritatea competentă dintr-un singur stat membru. Fără a aduce atingere, un Operator de Criptoactive care este un Furnizor de Servicii de Criptoactive Raportor, astfel cum este definit în secțiunea IV subsecțiunea B pct.3 din anexa nr. 6, nu se înregistrează la autoritatea competentă a unui stat membru în care Operatorul de Criptoactive respectiv nu are obligația de a îndeplini cerințele de raportare și de diligență fiscală prevăzute în secțiunile II și, respectiv III în temeiul secțiunii I subsecțiunile C, D, E, F, G sau H din anexa nr. 6, în temeiul faptului că cerințele respective sunt îndeplinite de către Operatorul de Criptoactive respectiv în orice alt stat membru.
+
+(11) Autoritatea competentă din România poate să reînregistreze un Operator de Criptoactive care are obligația de raportare a cărui înregistrare a fost revocată în conformitate cu alin. (17) numai dacă acesta furnizează garanții adecvate privind angajamentul său, respectiv declarații pe propria răspundere și garanții financiare, de a respecta cerințele de raportare din Uniunea Europeană, inclusiv orice cerință de raportare neîndeplinită.
+
+(12) Prevederile alin. (10) nu se aplică Furnizorilor de Servicii de Criptoactive Raportori definiți conform secțiunii IV, subsecțiunea B, pct. 1 din anexa nr. 6.
+
+(13) Autoritatea competentă care acordă autorizația Furnizorilor de Servicii de Criptoactive în conformitate cu Regulamentul (UE) 2023/1114 comunică în mod regulat și cel târziu până la data de 31 decembrie a anului calendaristic relevant sau a altei perioade de raportare, Agenției Naționale de Administrare Fiscală, o listă a tuturor Furnizorilor de Servicii de Criptoactive autorizați.
+
+(14) În cazul în care Operatorul de Criptoactive care are obligația de raportare alege să se înregistreze în România, conform alin. (10), comunică autorității competente dir România următoarele informații:
+
+a) numele;
+
+b) adresa poștală;
+
+c) adresele electronice, inclusiv site-urile web;
+
+d) orice NIF care s-a emis Operatorului de Criptoactive;
+
+e) statele membre în care Utilizatorii care fac obiectul Raportării sunt rezidenți în sensul secțiunii III, subsecțiunile A și B din anexa nr.6;
+
+f) orice Jurisdicție Calificată din afara Uniunii Europene menționată la secțiunea I, subsecțiunile C, D, E, F, sau H din anexa nr. 6.
+
+(15) După înregistrare, Operatorul de Criptoactive informează autoritatea competentă din România cu privire la orice modificări ale informațiilor prevăzute la alin. (14).
+
+(16) Autoritatea competentă din România informează de îndată Comisia cu privire la orice Operator de Criptoactive, în sensul secțiunii IV subsecțiunii B pct. 2 din anexa nr. 6, care are Utilizatori care fac obiectul Raportării rezidenți în Uniune fără să fie înregistrat în conformitate cu prezentul articol.
+
+(17) Dacă un Operator de Criptoactive care are obligația de raportare nu respectă obligația de înregistrare sau dacă înregistrarea sa a fost revocată în conformitate cu alin. (18), autoritatea competentă din România ia măsuri effective, proporționale of disuasive, fără
+
+a aduce atingere art. 336 alin. (1), lit. nn) și alin. (2) lit. v), pentru a asigura conformarea cu prevederile prezentului articol. Autoritatea competentă din România împreună cu toate celelalte autorități ale statelor membre își coordonează acțiunile menite să asigure conformitatea, inclusiv, în ultimă instanță, să împiedice Operatorul de Criptoactive care are obligația de raportare să își desfășoare activitatea în cadrul Uniunii Europene. (18) Dacă un Operator de Criptoactive care are obligația de raportare în sensul secțiunii II, subsecțiunea B din anexa nr. 6, nu respectă obligația de raportare prevăzută în anexa nr. 6, după două atenționări din partea autorității competente din România, fără a aduce atingere art. 336 alin. (1) și alin. (2), aceasta îi revocă înregistrarea efectuată în temeiul alin. (10). Înregistrarea se revocă cel târziu după expirarea unui termen de 90 de zile, dar nu înainte de expirarea unui termen de 30 de zile de la a doua atenționare. (19) În situația prevăzută la alin. (17) Autoritatea competentă din România solicită furnizorilor de rețele sau servicii de comunicații electronice oprirea accesului la site-ul sau aplicația Operatorului de Criptoactive care are obligația de raportare în sensul subsecțiunii B a secțiunii II din anexa nr. 6, până când operatorul respectiv se înregistrează în România sau într-un alt stat membru. (20) Furnizorii de rețele sau servicii de comunicații electronice sunt obligați să oprească accesul la site-ul sau aplicația Operatorului de criptoactive care are obligația de raportare în sensul subsecțiunii B a secțiunii II din anexa nr. 6, în termen de 24 de ore de la data primirii solicitării prevăzute la alin. (19). (21) Atunci când Operatorul de criptoactive pentru care se aplică măsura prevăzută la alin. (19) se înregistrează în România sau în alt stat membru, autoritatea competentă din România notifică furnizorii de rețele sau servicii de comunicații electronice pentru a restabili accesul la site-ul sau aplicația Operatorului de criptoactive în termen de 24 de ore de la notificare. (22) Autoritatea competentă din România elimină un Operator de Criptoactive din registrul Operatorilor de Criptoactive în următoarele cazuri: a) Operatorul de Criptoactive informează autoritatea competentă din România cu privire la faptul că nu mai are Utilizatori care fac obiectul Raportării în Uniunea
+
+Europeană;
+
+b) în absența unei notificări conform lit. a), există motive pentru a presupune că activitatea Operatorului de Criptoactive a încetat;
+
+c) Operatorul de Criptoactive nu mai îndeplinește condițiile prevăzute în Secțiunea IV, subsecțiunea B pct. 2 din anexa nr.6;
+
+d) autoritatea competentă din România a revocat înregistrarea în temeiul alin. (17).
+
+(23) Autoritatea competentă poate solicita, motivat, Comisiei Europene să stabilească, prin intermediul unor acte de punere în aplicare, dacă informațiile care trebuie să facă obiectul schimbului automat de informații în temeiul unui acord între autoritatea competentă din România și o jurisdicție din afara Uniunii Europene, corespund celor indicate în secțiunea II punctul B din anexa nr. 6, în sensul secțiunii IV subsecțiunea F pct. 5 din aceeași anexă.
+
+(24) În cazul în care autoritatea competentă din România solicită măsura prevăzută la alin. (23) trimite Comisiei Europene o cerere motivată.
+
+(25) La solicitarea Comisiei Europene, Autoritatea competentă din România transmite informații suplimentare necesare pentru evaluarea cererii prevăzute la alin. (23).
+
+(26) A.N.A.F. emite și publică pe pagina de internet proprie ghidul prin care detaliază aspectele referitoare la anexa nr. 6, cu luarea în considerare a comentariilor la Cadrul de raportare privind criptoactivele publicat de Organizația pentru Cooperare și Dezvoltare Economică.”
+
+## 15. La articolul 299, alineatul (1) se modifică și va avea următorul cuprins:
+
+„(1) Informațiile comunicate între România si alte state membre potrivit prezentului capitol intră sub incidența secretului profesional și se bucură de protecția conferită informațiilor de acest tip în temeiul legislației din România. Astfel de informații pot fi utilizate pentru evaluarea, administrarea și aplicarea legislației din România referitoare la taxele și impozitele prevăzute la art. 285, la TVA, la alte impozite indirecte, la taxele vamale și la combaterea spălării banilor și a finanțării terorismului. Aceste informații pot fi utilizate, de asemenea, pentru stabilirea și recuperarea altor taxe și impozite prevăzute la art. 311 sau pentru stabilirea și recuperarea contribuțiilor obligatorii la sistemul de securitate socială. De asemenea, acestea pot fi folosite în legătură cu procedurile judiciare și administrative care pot implica sancțiuni, inițiate ca urmare a încălcării legislației fiscale, fără a aduce atingere normelor și dispozițiilor generale care reglementează drepturile făptuitorului, suspectului sau inculpatului ori contravenientului, precum și ale martorilor în cadrul acestor proceduri.”
+
+## 16. La articolul 299, după alineatul (2²) se introduce un nou alineat, alin. (2³), cu următorul cuprins:
+
+„(2³) Autoritatea competentă din România poate, să utilizeze informațiile și documentele primite fără permisiunea menționată la alin. (2) în orice scop care face obiectul unui act întemeiat pe art. 215 din Tratatul privind funcționarea Uniunii Europene și să le comunice în acest scop autorității competente responsabile cu măsurile restrictive din statul membru în cauză.”
+
+## 17. La articolul 299, alineatul (3) se modifică și va avea următorul cuprins:
+
+„(3) Dacă autoritatea competentă din România consideră că informațiile primite de la autoritatea competentă a unui alt stat membru pot fi utile, în scopurile prevăzute la alin. (1), autorității competente a unui al treilea stat membru, le poate transmite acesteia din urmă, cu condiția ca această partajare să respecte normele și procedurile prevăzute de prezentul capitol. Autoritatea competentă din România informează autoritatea competentă a statului membru din care provin informațiile cu privire la intenția sa de a partaja informațiile respective unui stat membru terț. În situația în care România este stat membru din care provin informațiile, aceasta se poate opune partajării informațiilor respective în termen de 15 zile calendaristice de la data primirii comunicării din partea statului membru care dorește să transmită informațiile.”
+
+18\. La articolul 301, după alineatul (3) se introduce un nou alineat, alin. (4), cu următorul cuprins:
+
+„(4) Autoritatea competentă din România elaborează proceduri interne în vederea instituirii unui mecanism eficace prin care se garantează utilizarea și valorificarea informațiilor obținute în urma raportării sau a schimbului de informații prevăzute la art. 291-291⁶.”
+
+## 19. La articolul 303, după alineatul (6) se introduce un nou alineat, alin. (6¹), cu următorul cuprins:
+
+„(6¹) Schimbul automat de informații privind Criptoactivele care fac obiectul raportării în temeiul art. 291⁶ se efectuează utilizând formularul-tip electronic stabilit de Comisia Europeană.”
+
+## 20. La articolul 303, alineatul (7) se modifică și va avea următorul cuprins:
+
+„(7) ANAF comunică informațiile prevăzute la art. 291¹, 291³, 291⁴ și 291⁶ în limba română. În funcție de regimul lingvistic adoptat de Comisia Europeană, în temeiul art. 20 alin. (5) primul paragraf din Directiva 2011/16/UE a Consiliului din 15 februarie 2011 privind cooperarea administrativă în domeniul fiscal și de abrogare a Directivei 77/799/CEE, astfel cum a fost modificată prin Directiva (UE) 2016/881 din 25 mai 2016 și, respectiv, Directiva (UE) 2018/822 din 25 mai 2018 și respectiv Directiva (UE) 2023/2226 din 17 octombrie 2023, ANAF comunică elementele esențiale ale informațiilor respective și într-o altă limbă oficială a Uniunii Europene.”
+
+## 21. La articolul 304, după alineatul (4) se introduce un nou alineat, alin. (4¹), cu următorul cuprins:
+
+„(4¹) Informațiile comunicate în temeiul art. 291¹ alin. (1) și (2), art. 291⁴ alin. (18) și (19) și art. 291⁶ alin. (2) și (3) se furnizează în conformitate cu alin. (1).”
+
+## 22. La articolul 305, după litera c) se introduce o nouă literă, lit. d), cu următorul cuprins:
+
+„d) a păstra evidențele informațiilor primite prin intermediul schimbului automat de informații în temeiul art. 291-291⁶ pentru o perioadă care nu depășește perioada necesară, dar în niciun caz mai puțin de cinci ani de la data primirii lor.”
+
+## 23. După articolul 305, se introduce un nou articol, art. 305¹, cu următorul cuprins:
+
+„Art. 305¹
+
+(1) România se asigură că unei entități raportoare i se permite să obțină confirmarea prin mijloace electronice a valabilității informațiilor referitoare la NIF al oricărui contribuabil care face obiectul schimbului de informații în temeiul art. 291-291⁶. Confirmarea informațiilor referitoare la NIF poate fi solicitată numai în scopul validării corectitudinii datelor menționate la art. 291 alin. (1) și (4), art. 291¹ alin. (8), art. 291³ alin. (3), art. 291⁴ alin. (19), art. 291⁵ alin. (2) și art. 291⁶ alin. (3).
+
+(2) Autoritatea competentă din România ia măsurile necesare pentru a impune ca NIF al persoanelor sau entităților raportate, emis de statul membru de rezidență, să fie raportat de entitatea raportoare sau de persoana raportoare și să fie comunicat acesteia atunci când se impune.
+
+(3) Pentru perioadele impozabile care încep la 1 ianuarie 2030 sau ulterior acestei date, autoritatea competentă din România ia măsurile necesare pentru a impune obligația ca NIF al rezidenților emis de statul membru de rezidență să fie raportat, atunci când este posibil, în ceea ce privește informațiile menționate la art. 291 alin. (1) lit. (a), (b) și (d), în măsura în care aceste informații se referă la categorii de venituri și de capital cu privire la care ar fi fost comunicate informații chiar dacă NIF nu ar fi fost disponibil.
+
+(4) Pentru perioadele impozabile care încep la 1 ianuarie 2028 sau ulterior acestei date, autoritatea competentă din România ia măsurile necesare pentru a impune obligația ca NIF al persoanelor și entităților emise de statul membru de rezidență să fie raportat, atunci când este posibil, în ceea ce privește informațiile menționate la art. 291¹ alin. (8) lit. (a) și (k), precum și al persoanelor și entităților raportate în ceea ce privește informațiile menționate la art. 291³ alin. (3) lit. (b) și la art. 291⁴ alin. (19) lit. (h).
+
+(5) Pentru perioadele impozabile care încep la 1 ianuarie 2028 seu ulterior acestei date, autoritatea competentă din România include, în cazul în care a fost obținut, NIF al persoanelor și entităților emis de statul membru de rezidență, în comunicarea informațiilor menționate la art. 291¹ alin. (8) lit. (a) și (k), precum și al persoanelor și entităților raportate în comunicarea informațiilor menționate la art. 291³ alin. (3) lit. (b) și la art. 291⁴ alin. (19) lit. (h).
+
+(6) Procedurile administrative corespunzătoare ducerii la îndeplinire a prevederilor alin. (3)- - (5) se aprobă prin ordin ale președintelui ANAF."
+
+## 24. La articolul 306, alineatul (3) se modifică și va avea următorul cuprins:
+
+„(3) Autoritatea competentă din România transmite Comisiei Europene o evaluare anuală a eficacității cooperării administrative prevăzute de prezentul capitol, inclusiv în scopul combaterii evaziunii fiscale și a evitării obligațiilor fiscale, precum și rezultatele practice obținute, utilizând formularul și condițiile de transmitere adoptate de către Comisia Europeană, conform art. 23 din Directiva 2011/16/UE a Consiliului din 15 februarie 2011.”
+
+## 25. La articolul 308, alineatul (2) și (3) se modifică și vor avea următorul cuprins:
+
+„(2) Instituțiile financiare raportoare, intermediarii, Operatorii de platforme care au obligația de raportare, Furnizorii de Servicii de Criptoactive Raportori și autoritățile competente din România sunt considerați operatori de date care acționează individual sau în comun atunci când, acționând individual sau în comun, stabilesc scopurile și mijloacele de prelucrare a datelor cu caracter personal în sensul Regulamentului (UE) 2016/679.
+
+(3) Fără a aduce atingere alin. (1), fiecare Instituție financiară raportoare, intermediar, Operator de platformă, sau, după caz, Furnizorul de Servicii de Criptoactive Raportor trebuie să:
+
+a) informeze fiecare persoană vizată că informațiile care o privesc vor fi colectate și transferate în conformitate cu prezentul capitol; și
+
+b) comunice fiecărei persoane vizate toate informațiile dreptul să le primească de la operatorul de date, în timp util, astfel încât persoana respectivă să aibă suficient timp să își exercite drepturile în materie de protecție a datelor și, în orice caz, înainte de raportarea informațiilor."
+
+## 26. La articolul 336 alineatul (1), literele i) și j) se modifică și vor avea următorul cuprins:
+
+„i) nerespectarea de către instituțiile de credit, precum și de alte persoane care transmit informații către Oficiul Național de Prevenire și Combatere a Spălării Banilor a oricărei obligații privind furnizarea informațiilor prevăzute la art. 61 sau transmiterea de informații incorecte sau incomplete, precum și nerespectarea de către bănci a obligațiilor de decontare prevăzute la art. 172;
+
+j) nerespectarea de către orice entitate a obligației privind furnizarea informațiilor, potrivit art. 61 sau transmiterea de informații incorecte sau incomplete;"
+
+27\. La articolul 336 alineatul (1), după lit. t⁴) se introduce o nouă literă, lit. t⁵), cu următorul cuprins:
+
+„t⁵) nerespectarea de către entitățile raportoare a obligației prevăzute la art. 62¹;”
+
+## 28. La articolul 336 alineatul (1), literele gg) și hh) se modifică și vor avea următorul cuprins:
+
+„gg) nerespectarea de către furnizorii de rețele sau servicii de comunicații electronice a obligațiilor prevăzute la art. 291⁵ alin. (17) și (18) și art. 291⁶ alin. (20) și (21);
+
+hh) împiedicarea, prin orice mijloace, de către instituțiile financiare raportoare, Operatorii de platforme și Furnizorii de servicii de criptoactive raportori a verificărilor și controalelor prevăzute la art. 62 alin. (5), art. 291⁵ alin. (8) și art. 291⁶ alin. (8);”
+
+29\. La articolul 336 alineatul (1), dupa litera jj), se introduc cinci noi litere, respectiv lit. kk) - oo), cu următorul cuprins:
+
+„kk) raportarea cu întârziere sau raportarea incorectă
+
+ori incompletă de către
+
+Furnizorii de servicii de criptoactive raportori a informațiilor prevăzute la art. 291⁶;
+
+II) neaplicarea de către Furnizorii de servicii de criptoactive raportori a procedurilor de diligență fiscală, a procedurilor de raportare, a procedurilor speciale de diligență fiscală, precum și a procedurilor suplimentare de raportare și de diligență fiscală prevăzute în anexa nr. 6;
+
+mm) nerespectarea de către Furnizorii de servicii de criptoactive raportori a obligației prevăzute la art. 291⁶ alin. (7);
+
+nn) nerespectarea de către Operatorii de criptoactive care au obligația de raportare a obligației prevăzute la art. 291⁶ alin. (14) și (15);
+
+oo) neraportarea de către Furnizorii de servicii de criptoactive raportori a informațiilor prevăzute la art. 291⁶.”
+
+30 La articolul 336 alineatul (2), după litera k⁴) se introduce o nouă literă, lit. k⁵), cu următorul cuprins:
+
+„k⁵) cu amendă de la 20.000 lei la 100.000 lei în cazul persoanelor juridice și cu amendă de la 10.000 lei la 50.000 lei în cazul persoanelor fizice, în cazul savârșirii faptei prevăzute la alin. (1), lit. ṭ⁵);”
+
+31\. La articolul 336 alineatul (2), dupa litera ṭ) se introduc două noi litere, lit. u) și v), cu următorul cuprins:
+
+„u) cu amendă de la 50.000 lei la 150.000 lei în cazul săvârșirii faptelor prevăzute la alin. (1) lit. kk), ll) și oo);
+
+v) cu amendă de la 20.000 lei la 100.000 lei în cazul săvârșirii faptelor prevăzute la alin. (1) lit. mm) și nn);”
+
+## 32. La articolul 339, după alineatul (2) se introduc două noi alineate, alin. (3) și (4), cu următorul cuprins:
+
+„(3) În cazul constatării săvârșirii contravențiilor prevăzute la art. 336 alin. (1) lit. t), t¹), ii), kk), ll) și oo), amenzile prevăzute la art. 336 alin. (2) lit. k¹), k²), și si u) sunt stabilite prin derogare de la dispozițiile art. 8 alin. (2) din Ordonanța Guvernului nr. 2/2001 privind regimul juridic al contravențiilor, aprobată cu modificări și completări prin Legea nr. 180/2002, cu modificările și completările ulterioare.
+
+(4) În cazul constatării săvârșirii contravențiilor prevăzute la art. 336 alin. (1) lit. ț), ț¹), ii), kk), ll) și oo), amenzile prevăzute la art. 336 alin. (2) lit. k¹), k²), și) și u) se aplică prin derogare de la art. 10 alin. (2) prima teză referitoare la dublul maximului amenzii prevăzut pentru contravenția cea mai gravă din Ordonanța Guvernului nr. 2/2001 privind regimul juridic al contravențiilor, aprobată cu modificări și completări prin Legea nr. 180/2002, cu modificările și completările ulterioare.”
+
+## 33. La anexa nr. 1 secțiunea I subsecțiunea A, partea indroductivă și punctele 1,2 și 4 se modifică și vor avea următorul cuprins:
+
+„A. Sub rezerva dispozițiilor subsecțiunilor C - F ale prezentei secțiuni, fiecare Instituție Financiară Raportoare raportează autorității competente din România următoarele informații cu privire la fiecare cont care face obiectul raportării al respectivelor Instituții Financiare Raportoare:
+
+1\. În cazul unei Persoane fizice care este o persoană care face obiectul raportării și care este Titular de cont al respectivului cont: numele, adresa, jurisdicția/jurisdicțiile de rezidență, numărul/numerele de identificare fiscală (NIF), data și locul nașterii și informația dacă a furnizat o declarație pe propria răspundere valabilă.
+
+În cazul unei entități care este Titular de Cont și o persoană care face obiectul raportării: denumirea, adresa, jurisdicția/jurisdicțiile de rezidență, numărul/numerele de identificare fiscală și informația dacă a furnizat o declarație pe propria răspundere valabilă.
+
+În cazul unei entități care este Titular de Cont și care, după aplicarea procedurilor de diligență fiscală în conformitate cu secțiunile V, VI și VII este identificată ca având una sau mai multe Persoane care exercită controlul și care sunt Persoane care fac obiectul raportării: numele, adresa, jurisdicția/jurisdicțiile de rezidență, și Numărul/Numerele de Identificare Fiscală (NIF) ale Entității, precum și numele, adresa, jurisdicția/jurisdicțiile de rezidență și Numărul (Numerele) de Identificare Fiscală (NIF), data și locul nașterii fiecărei persoane care face obiectul raportării, precum și rolul (rolurile) în temeiul căruia (cărora) fiecare Persoană care face obiectul raportării este o Persoană care exercită controlul asupra Entității și informația dacă a fost furnizată o declarație pe propria răspundere valabilă pentru fiecare Persoană care face obiectul raportării și informația dacă contul este un cont comun, precizându-se numărul de Titulari de Cont comuni.
+
+Rolul (rolurile) fiecărei Persoane care face obiectul raportării care este Persoană care exercită controlul în ceea ce privește o Entitate se află sub obligația de raportare.
+
+Cerințele de identificare a Persoanelor care exercită controlul, precum și rolurile acestora în ceea ce privește Entitatea, sunt reglementate de legislația pentru prevenirea și combaterea spălării banilor și finanțării terorismului. În cazul în care o Persoană care face obiectul raportării este o Persoană care exercită controlul în virtutea mai multor roluri în ceea ce privește o Entitate, alta decât o fiducie sau o construcție juridică similară, Instituția Financiară Raportoare trebuie să raporteze în conformitate cu ierarhia rolurilor stabilită de Legea nr. 129/2019 pentru prevenirea și combaterea spălării banilor și finanțării terorismului, precum și pentru modificarea și completarea unor acte normative, cu modificările și completările ulterioare (și anume, participațiile, controlul prin alte mijloace, funcție de conducere de rang superior), cu condiția ca identificarea rolului să fie impusă de această legislație.
+
+În cazul în care o Persoană care face obiectul raportării este o Persoană care exercită controlul asupra unei fiducii sau asupra unei construcții juridice similare în virtutea mai multor roluri, Instituția Financiară Raportoare trebuie să raporteze fiecare rol, cu condiția ca identificarea rolurilor să fie impusă de Legea nr. 129/2019 cu modificările și completările ulterioare. Această cerință se aplică, de asemenea, în ceea ce privește identificarea rolurilor Deținătorilor de participații în capitalurile proprii, potrivit pct. 6¹, ale unei fiducii sau ale unei construcții juridice similare.
+
+2\. Numărul de cont sau echivalentul său funcțional în absența unui număr de cont, tipul de cont și informația dacă contul este un Cont Preexistent sau un Cont Neu.
+
+Instituția Financiară Raportoare trebuie, de asemenea, să raporteze dacă un cont este un Cont preexistent sau un Cont nou, astfel cum este definit în secțiunea VIII subsecțiunea C pct. 11 și, respectiv, subsecțiunea C pct.12.
+
+Tipul de cont care se află sub obligația de raportare cu privire la un cont este tipul de Cont Financiar administrat de Instituția Financiară Raportoare pentru Titularul de cont, astfel cum este prevăzut în secțiunea VIII subsecțiunea C pct. 1.
+
+4\. Soldul sau valoarea contului, inclusiv valoarea de răscumpărare în cazul unui contract de asigurare cu valoare de răscumpărare sau al unui contract de rentă viageră, valabil/ă la sfârșitul anului calendaristic relevant sau la sfârșitul altei perioade de raportare adecvate sau închiderea contului în cazul în care contul a fost închis în cursul anului calendaristic relevant. În cazul închiderii unui cont, Instituția Financiară Raportoare nu are obligația de a raporta soldul sau valoarea contului înainte sau la închidere, dar trebuie să raporteze închiderea contului. De exemplu, un titlu de capital sau de creanță într-o Instituție Financiară ar fi, în general, considerat închis în momentul rezilierii, transferului, răscumpărării, anulării sau lichidării. Un cont cu un sold sau o valoare egală cu zero sau care este negativ nu va fi un cont închis numai din cauza unui astfel de sold sau valoare. În mod similar, dacă un beneficiar discreționar al unei fiducii care este o Instituție Financiară primește o distribuire din fiducie într-un anumit an, dar nu într-un an următor, absența unei distribuiri nu constituie o închidere a contului, atât timp cât beneficiarul nu este exclus permanent de la primirea viitoarelor distribuiri din fiducie.”
+
+## 34. La anexa nr. 1 secțiunea I subsecțiunea A punctul 5, litera b) se modifică și va avea următorul cuprins:
+
+„b) încasările brute totale din vânzarea sau răscumpărarea activelor financiare plătite sau creditate în cont sau în legătură cu contul în anului calendaristic sau al altei perioade de raportare adecvate, în legătură cu care instituția financiară raportoare a acționat drept custode, broker, reprezentant sau orice alt fel de mandatar al titularului de cont; Termenul „vânzare sau răscumpărare” înseamnă orice vânzare sau răscumpărare de Active Financiare, determinată fără a ține seama de faptul dacă proprietarul acestor active financiare este supus impozitului cu privire la o astfel de vânzare sau răscumpărare.
+
+În ceea ce privește o vânzare care este efectuată de un broker care are ca rezultat o plată a încasărilor brute, data la care încasările brute sunt considerate plătite este data la care încasările unei astfel de vânzări sunt creditate sau în legătură cu contul sau puse în alt mod la dispoziția persoanei îndreptățite la plată.
+
+Veniturile brute totale dintr-o vânzare sau răscumpărare înseamnă suma totală realizată ca urmare a unei vânzări sau răscumpărări de active financiare. În cazul unei vânzări efectuate de un broker, încasările brute totale dintr-o vânzare sau răscumpărare înseamnă suma totală plătită sau creditată în sau cu privire la contul persoanei îndreptățite la plată, majorată cu orice sumă care nu a fost plătită din cauza rambursării marjei împrumutului; brokerul poate, dar nu este obligat, să ia în considerare comisioanele cu privire la vânzare pentru a stabili încasările brute totale. În cazul vânzării unui titlu de creanță purtător de dobândă, încasările brute includ orice dobândă acumulată între datele de plată a dobânzii.
+
+35\. La anexa nr. 1 secțiunea I subsecțiunea A, punctul 6 se modifică și va avea următorul cuprins:
+
+„6. În cazul oricărui Cont de depozit, cuantumul brut total al dobânzilor plătite sau creditate în cont în cursul anului calendaristic sau al altei perioade de raportare adecvate.”
+
+36\. La anexa nr. 1 secțiunea I subsecțiunea A, după punctul 6, se introduce un nou punct, pct. 6¹, cu următorul cuprins:
+
+„6¹. În cazul oricărei Participații în capitalurile proprii deținute într-o Entitate de Investiții care este o construcție juridică, rolul (rolurile) în temeiul căruia (cărora) Persoana care face obiectul raportării este un deținător de Participații în capitalurile proprii;”
+
+37\. La anexa nr. 1 secțiunea I, subsecțiunea C, punctele 2 și 6 se modifică și vor avea următorul cuprins:
+
+„2. În situația în care Instituția Financiară Raportoare nu deține Numărul/Numerele de Identificare Fiscală sau data nașterii ale Titularului de Cont Preexistent în evidențele sale și nu este obligată să obțină aceste informații în temeiul normelor legale în vigoare sau al oricărui instrument juridic al Uniunii Europene, Instituția Financiară Raportoare are obligația să depună eforturi rezonabile pentru a obține Numărul/Numerele de Identificare Fiscală și data nașterii în ceea ce privește Conturile Preexistente până la sfârșitul celui de al doilea an calendaristic care urmează anului în care respectivele Conturi Preexistente au fost identificate drept Conturi care fac obiectul raportării și ori de câte ori este necesară actualizarea informațiilor referitoare la Contul Preexistent în temeiul legislației pentru prevenirea și combaterea spălării banilor și finanțării terorismului.
+
+6\. Prin "eforturi rezonabile" se înțelege încercările reale de a obține numărul/numerele de identificare fiscală și data nașterii titularului de cont care face obiectul raportării și nu necesită neapărat închiderea, blocarea sau transferul contului, nici condiționarea sau limitarea în alt mod a utilizării acestuia. Astfel de eforturi rezonabile trebuie făcute cel puțin o dată pe an până la termenul prevăzut la art. 62 alin. (7) și ori de câte ori este necesar să se actualizeze informațiile referitoare la Contul preexistent în conformitate cu legislația pentru prevenirea și combaterea spălării banilor și finanțării terorismului. Astfel, pot fi depuse în continuare eforturi rezonabile în orice moment."
+
+## 38. La anexa nr. 1 secțiunea I, după subsecțiunea E se introduce o nouă subsecțiune, subsecțiunea F, cu următorul cuprins:
+
+„F. Fără a aduce atingere subsecțiunii A, pct.5, lit. (b), cu excepția cazului în care Instituția Financiară Raportoare decide altfel cu privire la orice grup de conturi identificat în mod clar, raportarea încasărilor brute din vânzarea sau răscumpărarea unui Activ Financiar nu este obligatorie, dacă încasările brute din vânzarea sau răscumpărarea Activului Financiar respectiv sunt raportate de Instituția Financiară Raportoare în conformitate cu anexa nr. 6.”
+
+39\. La anexa nr. 1 secțiunea IV subsecțiunea B, punctul 1 se modifică și va avea
+
+## următorul cuprins:
+
+„1. Declarația pe propria răspundere trebuie să permită stabilirea rezidenței fiscale/rezidențelor fiscale a/ale titularului contului de persoană fizică nou. În cazul în care prin declarația pe propria răspundere sunt declarate mai multe jurisdicții de rezidență, Instituția Financiară Raportoare trebuie să considere contul drept Cont care face obiectul raportării pentru fiecare jurisdicție care face obiectul raportării.”
+
+## 40. La anexa nr. 1 secțiunea IV subsecțiunea B, după punctul 6 se introduce un nou punct, pct. 7 cu următorul cuprins:
+
+„7. În cazul în care declarația pe propria răspundere este confirmată, această confirmare este cuprinsă de Instituția Financiară Raportoare într-o evidență care să poată demonstra, în mod credibil, că declarația pe propria răspundere a fost confirmată. Instituția Financiară Raportoare păstrează această evidență în scopuri de audit, pe lângă declarația pe propria răspundere furnizată.”
+
+## 41. La anexa nr. 1 secțiunea IV subsecțiunea C, după punctul 18 se introduce un nou punct, pct. 19, cu următorul cuprins:
+
+„19. În cazul în care o persoană fizică care este Titular de cont indică într-o declarație pe propria răspundere că nu are rezidență fiscală, Instituția Financiară Raportoare are obligația de a confirma caracterul rezonabil al declarației pe propria răspundere pe baza altor documente, inclusiv orice documentație colectată în conformitate cu legislația pentru prevenirea și combaterea spălării banilor și finanțării terorismului. În cazul în care Instituția Financiară Raportoare nu obține o explicație rezonabilă cu privire la caracterul rezonabil al declarației pe propria răspundere, Instituția Financiară Raportoare nu se poate baza pe aceasta și trebuie să obțină o nouă declarație pe propria răspundere valabilă de la Titularul de cont.”
+
+42\. La anexa nr. 1 secțiunea VI punctul 2, litera b) se următorul cuprins:
+
+„b) să stabilească Persoanele care exercită controlul asupra unui Titular de Cont.
+
+În scopul stabilirii Persoanelor care Exercită Controlul asupra unui Titular de Cont, o Instituție Financiară Raportoare se poate baza pe informațiile colectate și păstrate în conformitate cu măsurile de cunoaștere a clientelei specifice legislației pentru prevenirea și combaterea spălării banilor și finanțării terorismului. În cazul în care Instituția Financiară Raportoare nu are obligația legală de a aplica astfel de proceduri, aceasta aplică proceduri similare în esență în scopul stabilirii Persoanelor care Exercită Controlul.”
+
+## 43. La anexa nr. 1 secțiunea VII subsecțiunea A, punctul 2 se modifică și va avea următorul cuprins:
+
+„2. Instituția financiară raportoare cunoaște sau are motive să cunoască faptul că declarația pe propria răspundere sau documentele justificative sunt incorecte sau nu mai sunt de încredere dacă deține date cu privire la faptele sau afirmațiile dintr-o declarație pe propria răspundere sau din alte documente, inclusiv informațiile deținute de responsabilul pentru relația cu clienții, dacă este cazul, care sunt de natură să determine instituția financiară raportoare să nu mai considere de încredere informațiile primite. Instituția financiară raportoare nu se poate baza pe o declarație pe propria răspundere a titularului de cont, dacă declarația sau documentele justificative sunt incorecte sau contrazic declarația persoanei care face obiectul raportării cu privire la statutul acesteia. Instituția Financiară Raportoare în baza furnizării de către Titularul de cont sau Persoana care exercită controlul a unor documente eliberate în temeiul unei scheme de investiții pentru cetățenie sau de rezidență, are îndoieli cu privire la rezidența fiscală (rezidențele fiscale) a (ale) unui Titular de cont sau Persoană care exercită controlul în legătură cu faptul că o astfel de persoană solicită rezidența într-o jurisdicție.”
+
+## 44. La anexa nr. 1 secțiunea VII subsecțiunea A punctul 3 litera a), după subpunctul iii) se introduce un nou subpunct, subpct. iv), cu următorul cuprins:
+
+„iv) Instituția financiară raportoare deține informații privind obligauvitatea emiterii numărului de identificare fiscală (NIF) tuturor rezidenților fiscală de către jurisdicția care face obiectul raportării, iar declarația nu conține NIF."
+
+45\. La anexa nr. 1 la secțiunea VII, după subsecțiunea A, se introduce o nouă subsecțiune, subsecțiunea A¹, cu următorul cuprins:
+
+„A¹ Lipsa temporară a declarației pe propria răspundere.
+
+În circumstanțe excepționale în care o instituție financiară raportoare nu poate obține o declarație pe propria răspundere în ceea ce privește un cont nou în timp util pentru a-și îndeplini obligațiile de diligență fiscală și de raportare cu privire la perioada de raportare în care a fost deschis contul, instituția financiară raportoare aplică procedurile de diligență fiscală pentru conturile preexistente, până la obținerea și validarea unei astfel de declarații pe propria răspundere.”
+
+46\. La anexa nr. 1 secțiunea VIII subsecțiunea A punctul 10, după litera f) se introduce o nouă literă, lit. g), cu următorul cuprins:
+
+„g) comisioanele și taxele din deținerea, transferul și schimbul de Criptoactive Relevante păstrate în custodie.”
+
+47\. La anexa nr. 1 secțiunea VIII subsecțiunea A, după punctul 10 se introduce un nou punct, pct. 10¹, cu următorul cuprins:
+
+„10¹. „Testul venitului brut" se referă la toate remunerațiile pentru activitățile relevante ale unei Entități, indiferent dacă această remunerație este plătită direct Entității căreia i se aplică testul sau unei alte Entități.”
+
+48\. La anexa nr. 1 secțiunea VIII subsecțiunea A, după punctul 11 se introduce un nou punct, pct. 11¹, cu următorul cuprins:
+
+„11¹. În cazul Activelor Financiare emise sub forma unui Criptoactiv Relevant, termenul "păstrare" include, de asemenea, păstrarea sau administrarea instrumentelor care permit controlul asupra acestor active (de exemplu, chei private), în măsura în care entitatea are capacitatea de a gestiona, tranzaționa sau transfera către terți activele financiare subiacente în numele utilizatorului. În consecință, o Entitate care oferă numai servicii de stocare sau securitate pentru cheile private ale unor astfel de Active Financiare nu ar fi considerată o Instituție de Custodie.”
+
+49\. La anexa nr. 1 secțiunea VIII subsecțiunea A, punctele 12-14, 17,19 și 22 se modifică și vor avea următorul cuprins:
+
+„12. Termenul «Instituție Depozitară» înseamnă orice Entitate care:
+
+a) atrage depozite în cadrul obișnuit al activității bancare sau al unei activități similare; sau
+
+b) deține, în beneficiul clienților, Monedă Electronică sau Monede Digitale emise de Bănci Centrale.
+
+13\. O entitate este considerată a fi implicată în "activități bancare sau alte activități similare" dacă, în cadrul obișnuit al activității sale cu clienții, entitatea atrage depozite sau alte investiții similare de fonduri și se angajează în mod regulat sau este autorizată să se angajeze într-una sau multe dintre activitățile de mai jos:
+
+a) acordarea de împrumuturi personale, ipotecare, industriale sau de altă natură sau acordarea altor prelungiri ale creditului;
+
+b) cumpărări, vânzări, reduceri sau negocieri de conturi de creanțe, obligații de rate, note, trate, cecuri, cambii, acceptări sau alte dovezi de îndatorare;
+
+c) emiterea de acreditive și să negocieze proiectele întocmite în temeiul acestora;
+
+d) furnizarea de servicii de fiducie sau fiduciare;
+
+e) finanțare tranzacțiilor valutare; sau
+
+f) să încheie, să achiziționeze sau să cedeze contracte de leasing financiar sau active închiriate.
+
+14\. O Entitate este, de asemenea, considerată o Instituție Depozitară dacă deține Produse de monedă electronică specificate sau Monede digitale emise de Banca Centrală în beneficiul clienților. În majoritatea cazurilor, o astfel de Entitate va fi emitentul Produselor de monedă electronică specificate sau al Monedelor Digitale emise de Banca Centrală. În ceea ce privește Produsele de monedă electronică specificate emise sub forma unui Criptoactiv, Instituția Depozitară care deține un astfel de produs va fi, de obicei, un furnizor de schimb sau de portofel de Criptoactiv.
+
+17\. Termenul "Entitate de Investiții" înseamnă orice entitate:
+
+a) care desfășoară, ca activitate principală, una sau mai multe dintre următoarele activități sau operațiuni pentru sau în numele unui client:
+
+(i) tranzacții cu instrumente de piață monetară (cecuri, certificate de trezorerie, certificate de depozit, instrumente derivate etc.); schimb valutar; instrumente în materie de schimb valutar, rata dobânzii și indici bursieri; titluri de valoare transferabile sau tranzacții la termen cu mărfuri;
+
+(ii) administrarea individuală și colectivă a portofoliului; sau
+
+(iii) care investește, administrează sau gestionează în alt mod în numele altor persoane Active Financiare, bani (inclusiv Monede digitale emise de Banca Centrală) sau Criptoactive Relevante; sau
+
+b) al cărei venit brut provine în principal din activități de investire, reinvestire sau tranzacționare de Active Financiare sau Criptoactive Relevante, în cazul în care Entitatea este administrată de către o altă Entitate care este o Instituție Depozitară, o Instituție de Custodie, o Companie de Asigurări Specificată sau o Entitate de Investiții, astfel cum sunt prevăzute la lit. (a).
+
+Termenul „client” include participația în capitalurile proprii ale unui organism de plasament colectiv, prin care se consideră că organismul de plasament colectiv își desfășoară activitățile sau operațiunile ca activitate comercială. În sensul lit. (a) punctul (iii), termenul „investiție, administrare sau tranzacționare” nu cuprinde prestarea de servicii care efectuează tranzacții de schimb pentru sau în numele clienților.
+
+19\. O Entitate este considerată a desfășura ca activitate principală una sau mai multe dintre activitățile prevăzute la pct. 17 lit. a), sau venitul brut al unei Entități este atribuibil în principal activităților de investire, reinvestire sau tranzacționare de Active Financiare sau de Criptoactive Relevante în sensul pct. 17 lit. b), în cazul în care venitul brut al Entității atribuibil activităților relevante este egal sau mai mare de 50% din venitul brut al entității pe perioada cea mai scurtă dintre următoarele:
+
+a) perioada de trei ani care se încheie la data de 31 decembrie a anului dinaintea anului în care se efectuează calculul; sau
+
+b) perioada în cursul căreia Entitatea a existat.
+
+În sensul pct. 17 lit. (a) subpct. (iii) expresia «care investește, administrează sau gestionează în alt mod Active Financiare, bani sau Criptoactive Relevante în numele altor persoane» nu include prestarea de servicii prin care se efectuează tranzacții de schimb pentru clienți sau în numele acestora.
+
+Termenul «Entitate de Investiții» nu include o Entitate care este o ENF activă, întrucât Entitatea respectivă îndeplinește oricare dintre criteriile prevăzute la punctul 9 lit. (d)-(g), subsecțiunea D.
+
+22\. Termenul "activ financiar" include un titlu de valoare, de exemplu, acțiuni în cadrul capitalului unei societăți; participații în capitalurile proprii sau dreptul la beneficii în cadrul unui parteneriat deținut de mulți asociați sau cotat la bursă sau în cadrul unei fiducii; bilete la ordin, obligațiuni sau alte titluri de datorie. De asemenea, termenul "activ financiar" include drepturi generate de un parteneriat, o marfă, un swap, de exemplu, swap pe rata dobânzii, swap valutar, swap de bază, rată de dobândă cu plafon maxim, rată de dobândă cu prag minim, swap pe mărfuri, swap pe acțiuni, swap pe indici bursieri și acorduri similare, un contract de asigurare sau un contract de rentă viageră sau orice dobândă, inclusiv un contract de tip futures sau forward sau o opțiune în legătură cu un titlu de valoare, un Criptoactiv Relevant, drepturi generate de un parteneriat, o marfă, un swap, un contract de asigurare sau un contract de rentă viageră.
+
+Termenul activ financiar nu include drepturile directe asupra unor bunuri imobile, care să nu fie titluri de datorie.
+
+În fiecare caz, stabilirea dacă un activ este un Activ Financiar este independentă de forma în care este emis un astfel de activ. Prin urmare, un activ emis sub forma unui
+
+Criptoactiv poate fi simultan un Activ Financiar."
+
+50\. La anexa nr. 1 secțiunea VIII subsecțiunea A, după punctul 27 se introduc șase noi puncte, pct. 28-33, cu următorul cuprins:
+
+„28. Termenul «Monedă Electronică (Produs de monedă electronica specificat)» înseamnă orice produs care este:
+
+a) o reprezentare digitală a unei singure Monede Fiduciare;
+
+Se va considera că un produs reprezintă și reflectă digital valoarea monedei fiduciare în care este exprimat. În consecință, un produs care reflectă valoarea mai multor monede sau active nu este un produs de monedă electronică specificat.
+
+b) emis la primirea de fonduri în scopul efectuării de operațiuni de plată;
+
+Actul de „emitere” se interpretează ca incluzând activitatea de punere la dispoziție a valorii stocate preplătite și a mijloacelor de plată în schimbul fondurilor. În acest sens, pot fi „emise” atât produse stocate electronic, cât și produse stocate magnetic, inclusiv conturi de plată online și carduri fizice care utilizează tehnologia benzii magnetice. În plus, acest alineat prevede că produsul trebuie emis în scopul efectuării tranzacțiilor de plată.
+
+c) reprezentat de o creanță asupra emitentului exprimată în aceeași Monedă Fiduciară;
+
+În acest sens, o „creanță” include orice creanță monetară împotriva emitentului, reflectând valoarea monedei fiduciare reprezentată de produsul de monedă electronică emis clientului.
+
+d) acceptat ca plată de către o persoană fizică sau juridică, alta decât emitentul; și
+
+Valoarea monetară stocată pe instrumente preplătite specifice, concepute pentru a răspunde unor nevoi precise care pot fi utilizate numai într-un mod limitat, deoarece permit Deținătorului de monedă electronică să achiziționeze bunuri sau servicii numai în incinta emitentului de monedă electronică sau în cadrul unei rețele limitate de furnizori de servicii în temeiul unui acord comercial direct cu un emitent profesionist sau deoarece pot fi utilizate numai pentru a achiziționa o gamă limitată de bunuri sau servicii, nu sunt considerate Produse de monedă electronică specificate.
+
+e) în temeiul cerințelor de reglementare aplicabile emitentului, rambursabil în orice moment și la valoarea nominală pentru aceeași Monedă Fiduciară, la cererea deținătorului produsului.
+
+În acest sens, „aceeași” monedă fiduciară se referă la moneda fiduciară pentru care produsul monetar electronic este o reprezentare digitală. Atunci când se procedează la o răscumpărare, se recunoaște că emitentul poate deduce din suma de răscumpărare orice comisioane sau costuri de tranzacție.
+
+Termenul Monedă Electronică (Produs de monedă electronică specificat) nu include un produs creat cu unicul scop de a facilita transferul de fonduri de la un client la o altă persoană în conformitate cu instrucțiunile clientului. Un produs nu este creat cu unicul scop de a facilita transferul de fonduri dacă, pe parcursul desfășurării normale a activității Entității care efectuează transferul, fie fondurile legate de produsul respectiv sunt deținute mai mult de 60 de zile de la primirea instrucțiunilor de facilitare a transferului, fie, în cazul în care nu se primesc instrucțiuni, fondurile legate de produsul respectiv sunt deținute mai mult de 60 de zile de la primirea fondurilor.
+
+Termenul Monedă Electronică (Produs de monedă electronica specificat) exclude acele produse care sunt create exclusiv pentru a facilita un transfer de fonduri în conformitate cu instrucțiunile unui client și care nu pot fi utilizate pentru a stoca valoare.
+
+29\. Termenul «Monedă Fiduciară» înseamnă moneda oficială a unei jurisdicții, emisă de o jurisdicție sau de o Bancă centrală sau de o autoritate monetară desemnată de o jurisdicție, reprezentată de bancnote sau monede fizice sau de monede în diferite forme digitale, printre care rezerve bancare și Monedele Digitale emise de Banca Centrală, printre care rezerve bancare, moneda băncii comerciale, produse de monedă electronică și Monedele Digitale emise de Banca centrală.
+
+30\. Termenul «Monedă digitală emisă de Banca Centrală» înseamnă orice Monedă Fiduciară digitală emisă de o Bancă Centrală sau de o altă autoritate monetară.
+
+31\. Termenul "Criptoactiv" înseamnă criptoactiv în sensul definiției prevăzute la art.3 alin. (1) pct. 5 din Regulamentul (UE) 2023/1114.
+
+32\. Termenul "Criptoactiv care face obiectul raportării sau Criptoactiv Relevant" înseamnă orice Criptoactiv care nu este o Monedă Digitală emisă de Banca Centrală, un Produs de monedă electronică specificată sau orice Criptoactiv în privința căruia Furnizorul de servicii de criptoactive raportor stabilit în mod corespunzător că nu poate fi utilizat în scopuri de plată sau de investiții.
+
+33\. Termenul "Tranzacție de Schimb" înseamnă orice:
+
+a) schimb între Criptoactivele Relevante și Monedele Fiduciare; și
+
+b) schimb între una sau mai multe forme de Criptoactive Relevante"
+
+## 51. La anexa nr. 1 secțiunea VIII subsecțiunea B punctul 1, litera a) se modifică și va avea următorul cuprins:
+
+„a) o Entitate guvernamentală, o Organizație internațională sau o Bancă centrală, în afară de situațiile care:
+
+(i) se referă la o plată care derivă dintr-o obligație care incumbă în legătură cu o activitate financiară comercială de tipul celor desfășurate de o Companie de asigurări specificată, de o Instituție de custodie sau de o Instituție depozitară; sau
+
+(ii) se referă la activitatea de menținere a Monedei Digitale emise de Banca Centrală pentru Titularii de cont care nu sunt Instituții Financiare, Entități guvernamentale, Organizații internaționale sau Bănci Centrale.”
+
+## 52. La anexa nr. 1 secțiunea VIII subsecțiunea B punctul 5, litera a) se modifică și va avea următorul cuprins:
+
+„a) să nu aibă un singur beneficiar cu dreptul la mai mult de 5% din activele fondului. În cazul în care fondul este compartimentat în subfonduri care funcționează în practică ca produse de pensii separate, inclusiv prin segregarea activelor, riscurilor și veniturilor atribuite acestor subfonduri, testul dacă un singur beneficiar are dreptul la mai mult de 5% din activele fondului trebuie aplicat la nivelul fiecărui subfond.”
+
+53\. La anexa nr. 1 secțiunea VIII subsecțiunea C, punctele 2-4, 11 si 12 se
+
+## modifică și vor avea următorul cuprins:
+
+„2. Termenul "Cont de Depozit" include orice cont comercial, de debit, de economii, la termen, de consemnațiuni sau un cont a cărui existență este documentată printr-un certificat de depozit, de economii, de investiții, un certificat de îndatorare sau un alt instrument similar păstrat de o Instituție Depozitară. Un Cont de depozit include, de asemenea:
+
+a) o sumă deținută de o companie de asigurări în temeiul unui contract de investiții cu garanție sau al unui acord similar care are drept scop plata sau creditarea de dobânzi către titular;
+
+b) un cont sau un cont noțional care reprezintă toate Monedele Electronice deținute în beneficiul unui client; precum și
+
+c) un cont în care se dețin una sau mai multe Monede digitale emise de Banca Centrală în beneficiul unui client.
+
+Titlurile de creanță negociabile care sunt tranzacționate pe o piață reglementată sau pe o piață extrabursieră și distribuite și deținute prin intermediul instituțiilor financiare nu sunt considerate în general conturi de depozit, ci active financiare.
+
+Toate Produsele de monedă electronică specificate pe care o Entitate le deține în beneficiul unui client sunt considerate împreună un Cont de Depozit al acelui client. În scopul determinării valorii unui astfel de Cont de depozit, o Instituție Financiară Raportoare este obligată să cumuleze valoarea tuturor Produselor de monedă electronică specificate pe care Titularul de cont le deține la Instituția Financiară Raportoare. În mod similar, orice acord prin care Entitatea deține Monedă Digitală emisă de Banca Centrală în beneficiul unui client va fi considerat un Cont de Depozit. În cazurile în care un Produs de monedă electronică specificat sau o Monedă Digitală emisă de Banca Centrală a fost emis cu titlu de Criptoactiv, se consideră că o Entitate deține un astfel de activ în beneficiul unui client în măsura în care păstrează sau administrează instrumentele care permit controlul asupra activului (de exemplu, chei private), iar entitatea are capacitatea de a gestiona, tranzacționa sau transfera terților activul subiacent în numele unui astfel de client.
+
+3\. Termenul "cont de custodie" înseamnă un cont, altul
+
+décat un contract de asigurare sau un contract de rentă viageră, care conține unul sau mai multe active financiare în beneficiul altei persoane.
+
+Un acord de păstrare sau administrare în siguranță a instrumentului care permite controlul asupra unuia sau mai multor Active Financiare emise sub forma unui Criptoactiv în beneficiul unei alte persoane este, de asemenea, un Cont de custodie, în măsura în care Entitatea are capacitatea de a gestiona, tranzacționa sau transfera către terți Activele Financiare subiacente în numele persoanei.
+
+4\. Termenul "participație în capitalurile proprii" înseamnă, în cazul unui parteneriat care este o instituție financiară, o participație fie la capitalul, fie la profitul parteneriatului. În cazul unei fiducii care este o instituție financiară, o participație în capitalurile proprii este considerată a fi deținută de către orice persoană asimilată unui constituitor sau unui beneficiar al întregii fiducii sau a unei părți a acesteia sau a oricărei alte persoane fizice care exercită un control efectiv definitiv asupra fiduciei.
+
+O persoană care face obiectul raportării va fi considerată beneficiar al unei fiducii dacă respectiva persoană care face obiectul raportării are dreptul de a primi, direct sau indirect, de exemplu, prin intermediul unui mandatar, o distribuție obligatorie sau poate primi, direct sau indirect, o distribuție discreționară din fiducie. Distribuțiile indirecte de către o fiducie pot apărea atunci când fiducia efectuează plăți către o terță parte în beneficiul unei alte persoane. Distribuțiile indirecte includ, de asemenea, cazurile în care fiducia acordă un împrumut fără dobândă sau la o rată a dobânzii mai mică decât rata dobânzii de pe piață sau în alte condiții care nu țin de principiul valorii de piață. În plus, anularea unui împrumut acordat de o fiducie beneficiarului său constituie o distribuție indirectă în anul în care împrumutul este anulat. În toate cazurile de mai sus, Persoana care face obiectul raportării va fi persoana care este beneficiarul fiduciei care primește distribuirea indirectă. Un beneficiar care poate primi o distribuție discreționară din fiducie poate să fie considerat doar un beneficiar al fiduciei dacă această persoană primește o distribuție în cursul anului calendaristic relevant sau al altei perioade de raportare adecvate, adică fie distribuția a fost plătită, fie este de plătit.
+
+În cazul în care participațiile în capitalurile proprii sunt definute pein intermediul
+
+*Documentul are 82 de pagini; am citit primele 40.*

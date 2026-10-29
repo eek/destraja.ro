@@ -1,0 +1,29 @@
+# EXPUNERE DE MOTIVE
+
+Proiectul de Lege privind privind consolidarea controlului oficial asupra fructelor și legumelor provenite din import, pe baza evaluării riscului
+
+Prezenta inițiativă legislativă urmărește întărirea sistemului național de control al fructelor și legumelor provenite din import, în contextul creșterii constante a volumului de produse din țări terțe și al riscurilor asociate reziduurilor de pesticide și contaminanților chimici.
+
+Datele sistemului european RASFF indică frecvent neconformități pentru anumite produse și țări terțe. În lipsa unei abordări bazate pe evaluarea riscului, România nu poate preveni eficient introducerea pe piață a loturilor cu risc sanitar.
+
+Regulamentul (UE) 2017/625 permite statelor membre aplicarea unor măsuri suplimentare, bazate pe risc, pentru protecția sănătății publice. Prezenta lege se încadrează în acest cadru, fără a introduce bariere comerciale și fără a restricționa în mod nejustificat comerțul cu state terțe.
+
+Elementele principale ale proiectului:
+
+– crearea unei liste trimestriale de risc;
+
+\- obligativitatea buletinului de analiză pentru loturile cu risc ridicat;
+
+\- trasabilitate digitală obligatorie;
+
+– publicarea săptămânală a rezultatelor;
+
+\- sancțiuni proporționale.
+
+Proiectul nu generează costuri pentru bugetul de stat. Costurile analizelor sunt suportate de operatorii economici, conform legislației europene.
+
+Adoptarea legii va crește nivelul de protecție a consumatorilor, va îmbunătăți transparenta și va sprijini producătorii români în competiția cu importurile.
+
+Inițiator:
+
+Lucian-Nicolae ANDRUȘCĂ Deputat afiliat PSD

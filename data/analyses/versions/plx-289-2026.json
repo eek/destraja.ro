@@ -1,0 +1,102 @@
+{
+  "slug": "plx-289-2026",
+  "billId": "PL-x 289/2026",
+  "updatedAt": "2026-10-29T12:58:00.920Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L138FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Transferuri instant în euro și verificarea numelui destinatarului, după regulile UE",
+      "summaryTlDr": "Ordonanță tehnică și utilă, care recuperează o întârziere față de UE la plățile instant în euro. Riscul pentru cetățeni și firme e mic. Problemele sunt de redactare, nu de fond.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/200/80/9/se310.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Transferuri instant în euro: BNR primește puterile de control cerute de UE",
+      "summaryTlDr": "Lege tehnică și utilă. Pune în aplicare regulile UE pentru plățile instant în euro și le deschide fintech-urilor accesul la sistemele de plăți și la conturi la BNR. Problemele țin de redactare și de transparența deciziilor BNR, nu de fond.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat ordonanța fără modificări; s-au completat doar numărul și datele publicării",
+      "summary": "Ordonanța e aprobată la fel ca inițial, fără modificări. Acum legea arată doar numărul ordonanței (5/2026), data ei și Monitorul Oficial în care a apărut. Regulile pentru plăți instant, bănci și fintech rămân aceleași.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Scutirea de la transferuri instant în euro se poate prelungi anual fără limită",
+            "major": true,
+            "article": "art. I pct. 4 (art. 4¹ din Legea 231/2015)"
+          },
+          {
+            "text": "Mentenanța „scurtă și previzibilă” nu are durată maximă sau termen minim de anunț",
+            "major": true,
+            "article": "art. I pct. 5 (art. 7 alin. (5) din Legea 231/2015)"
+          },
+          {
+            "text": "BNR decide discreționar conturile de protecție a fondurilor, fără termen, motivare sau criterii publice",
+            "major": true,
+            "article": "art. II (art. 38 alin. (3)-(4) din Legea 209/2019) și art. III"
+          },
+          {
+            "text": "Sintagma „plafon de minim 25000 de euro per operațiune” e neclară",
+            "major": false,
+            "article": "art. I pct. 4 (art. 4¹ alin. (3) din Legea 231/2015)"
+          }
+        ],
+        "good": [
+          {
+            "text": "BNR supraveghează verificarea zilnică a clienților pe listele de sancțiuni, nu la fiecare transfer",
+            "major": true,
+            "article": "art. I pct. 1 (art. 3 alin. (1¹) din Legea 231/2015)"
+          },
+          {
+            "text": "Instituțiile de plată și monedă electronică accesează direct sistemele de plăți, fără bancă",
+            "major": true,
+            "article": "art. IV (art. 2 alin. (1) pct. 2 din Legea 253/2004)"
+          },
+          {
+            "text": "Fintech-urile pot păstra banii clienților la BNR, dacă BNR deschide astfel de conturi",
+            "major": true,
+            "article": "art. II (art. 38 alin. (3)-(4) din Legea 209/2019) și art. III"
+          },
+          {
+            "text": "Clienții trebuie anunțați înainte de mentenanța care oprește plățile instant",
+            "major": false,
+            "article": "art. I pct. 5 (art. 7 alin. (5) din Legea 231/2015)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:58:00.920Z"
+    }
+  ]
+}

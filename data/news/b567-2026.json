@@ -1,9 +1,9 @@
 {
   "slug": "b567-2026",
   "billId": "B567/2026",
-  "checkedAt": "2026-10-28T08:40:22.313Z",
+  "checkedAt": "2026-10-29T12:19:53.065Z",
   "models": {
-    "agy": "error: răspuns gol după 603s (probabil timp depășit)",
+    "agy": "ok",
     "claude": "ok",
     "codex": "ok"
   },
@@ -45,6 +45,50 @@
             "stanceP": 0.74,
             "source": "trade_press",
             "sourceP": 0.81,
+            "about": 0.99,
+            "release": 0.84
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.dcbusiness.ro/pensionare-la-60-de-ani-pentru-persoanele-care-au-sau-au-avut-cancer-document-din-parlament_700149.html",
+      "title": "Pensionare la 60 de ani pentru persoanele care au sau au avut cancer - Document din Parlament",
+      "outlet": "DC Business",
+      "domain": "dcbusiness.ro",
+      "publishedAt": "2026-10-16",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "A fost depusă la Senat pentru dezbateri şi vot o propunere legislativă pentru modificarea și completarea Legii nr.360/2023 privind sistemul public de pensii.",
+      "match": "quote",
+      "firstSeenAt": "2026-10-29",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-29",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.817,
+            "source": "national_news",
+            "sourceP": 0.328,
+            "about": 0.958,
+            "release": 0.667
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.505,
+            "source": "trade_press",
+            "sourceP": 0.771,
+            "about": 0.777,
+            "release": 0.223
+          },
+          "luna": {
+            "stance": "supportive",
+            "stanceP": 0.86,
+            "source": "trade_press",
+            "sourceP": 0.74,
             "about": 0.99,
             "release": 0.84
           }
@@ -191,9 +235,10 @@
       "domain": "b1tv.ro",
       "publishedAt": "2026-10-15",
       "foundBy": [
-        "claude"
+        "claude",
+        "agy"
       ],
-      "quote": "Aceasta a explicat că inițiativa a pornit din discuțiile cu pacienții oncologici care continuă să lucreze și să contribuie la sistemul public de pensii.",
+      "quote": "O propunere legislativă depusă joi de două deputate AUR prevede reducerea vârstei de pensionare pentru pacienții oncologici, indiferent de stadiul bolii sau de capacitatea acestora de a munci.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -236,7 +281,7 @@
       "foundBy": [
         "claude"
       ],
-      "quote": "Deocamdată, propunerea reprezintă doar un proiect legislativ.",
+      "quote": "Inițiativa prevede acordarea pensiei pentru limită de vârstă înainte de vârsta standard, cu condiția ca beneficiarii să fi realizat stagiul minim de cotizare contributiv prevăzut de lege.",
       "match": "quote",
       "firstSeenAt": "2026-10-27",
       "decision": {
@@ -280,7 +325,7 @@
       "foundBy": [
         "claude"
       ],
-      "quote": "Măsura ar urma să se aplica la cerere și nu ar fi condiționată de pierderea capacității de muncă, potrivit inițiativei legislative, potrivit digi24.ro.",
+      "quote": "O propunere legislativă depusă de deputatele AUR Dumitrina Mitrea și Andra Constantinescu prevede posibilitatea pensionării la 60 de ani pentru persoanele diagnosticate cu cancer, dacă au realizat stagiul minim de cotizare.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -315,60 +360,16 @@
       }
     },
     {
-      "url": "https://www.digi24.ro/stiri/economie/aur-propune-ca-persoanele-diagnosticate-cu-cancer-sa-poata-iesi-la-pensie-la-60-de-ani-3993427",
-      "title": "AUR propune ca persoanele diagnosticate cu cancer să poată ieși la pensie la 60 de ani",
-      "outlet": "Digi24",
-      "domain": "digi24.ro",
-      "publishedAt": "2026-10-15",
-      "foundBy": [
-        "claude",
-        "codex"
-      ],
-      "quote": "Proiectul prevede că reducerea vârstei standard de pensionare se acordă la cerere și nu este condiționată de pierderea capacității de muncă.",
-      "match": "quote",
-      "firstSeenAt": "2026-10-27",
-      "decision": {
-        "v": 2,
-        "checkedAt": "2026-10-27",
-        "text": "trafilatura",
-        "models": {
-          "clef": {
-            "stance": "neutral",
-            "stanceP": 0.876,
-            "source": "national_news",
-            "sourceP": 0.907,
-            "about": 0.968,
-            "release": 0.441
-          },
-          "d1": {
-            "stance": "neutral",
-            "stanceP": 0.569,
-            "source": "national_news",
-            "sourceP": 0.333,
-            "about": 0.835,
-            "release": 0.378
-          },
-          "luna": {
-            "stance": "neutral",
-            "stanceP": 0.91,
-            "source": "national_news",
-            "sourceP": 0.99,
-            "about": 0.99,
-            "release": 0.03
-          }
-        }
-      }
-    },
-    {
       "url": "https://www.digi24.ro/digieconomic/consumer/proiect-persoanele-diagnosticate-cu-cancer-ar-putea-iesi-la-pensie-la-60-de-ani-ce-conditii-trebuie-indeplinite-123387",
       "title": "PROIECT Persoanele diagnosticate cu cancer ar putea ieși la pensie la 60 de ani. Ce condiții trebuie îndeplinite",
       "outlet": "Digi24",
       "domain": "digi24.ro",
       "publishedAt": "2026-10-15",
       "foundBy": [
-        "codex"
+        "codex",
+        "agy"
       ],
-      "quote": "Propunerea legislativă se află în etapa parlamentară și nu produce, în prezent, efecte.",
+      "quote": "Persoanele diagnosticate cu cancer ar putea beneficia de pensie pentru limită de vârstă începând cu vârsta de 60 de ani, indiferent de stadiul bolii sau de capacitatea de muncă, potrivit unui proiect de lege înregistrat miercuri, 14 octombrie, la Senat.",
       "match": "quote",
       "firstSeenAt": "2026-10-27",
       "decision": {
@@ -399,6 +400,51 @@
             "sourceP": 0.99,
             "about": 0.99,
             "release": 0.01
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.digi24.ro/stiri/economie/aur-propune-ca-persoanele-diagnosticate-cu-cancer-sa-poata-iesi-la-pensie-la-60-de-ani-3993427",
+      "title": "AUR propune ca persoanele diagnosticate cu cancer să poată ieși la pensie la 60 de ani",
+      "outlet": "Digi24",
+      "domain": "digi24.ro",
+      "publishedAt": "2026-10-15",
+      "foundBy": [
+        "claude",
+        "codex"
+      ],
+      "quote": "Persoanele diagnosticate cu cancer ar putea ieși la pensie la 60 de ani dacă au realizat stagiul minim de cotizare, potrivit unei propuneri legislative a partidului AUR, depusă joi.",
+      "match": "quote",
+      "firstSeenAt": "2026-10-27",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-27",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.876,
+            "source": "national_news",
+            "sourceP": 0.907,
+            "about": 0.968,
+            "release": 0.441
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.569,
+            "source": "national_news",
+            "sourceP": 0.333,
+            "about": 0.835,
+            "release": 0.378
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.91,
+            "source": "national_news",
+            "sourceP": 0.99,
+            "about": 0.99,
+            "release": 0.03
           }
         }
       }
@@ -453,9 +499,10 @@
       "domain": "ziare.com",
       "publishedAt": "2026-10-15",
       "foundBy": [
-        "claude"
+        "claude",
+        "agy"
       ],
-      "quote": "Măsura ar urma să se aplice celor care au realizat stagiul minim de cotizare contributiv prevăzut de lege.",
+      "quote": "AUR a depus un proiect de lege care prevede reducerea la 60 de ani a vârstei de pensionare pentru persoanele diagnosticate cu cancer, indiferent de stadiul bolii sau de capacitatea de muncă, inclusiv în cazul pacienților aflați în remisie.",
       "match": "quote",
       "firstSeenAt": "2026-10-27",
       "decision": {
@@ -580,15 +627,60 @@
       }
     },
     {
+      "url": "https://www.monitorulexpres.ro/2026/10/15/aur-propune-pensionarea-la-60-de-ani-pentru-persoanele-care-au-cancer",
+      "title": "AUR propune pensionarea la 60 de ani pentru persoanele care au cancer - Monitorul Expres - Stiri Brasov",
+      "outlet": "Monitorul Expres - Stiri Brasov",
+      "domain": "monitorulexpres.ro",
+      "publishedAt": "2026-10-15",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "AUR a depus o propunere legislativă privind sistemul public de pensii, prin care persoanele diagnosticate cu cancer să poată beneficia de pensie pentru limită de vârstă începând cu vârsta de 60 de ani, cu condiția realizării stagiului minim de cotizare contributiv prevăzut de lege.",
+      "match": "quote",
+      "firstSeenAt": "2026-10-29",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-29",
+        "text": "pagina",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.679,
+            "source": "local_news",
+            "sourceP": 0.44,
+            "about": 0.963,
+            "release": 0.814
+          },
+          "d1": {
+            "stance": "supportive",
+            "stanceP": 0.504,
+            "source": "local_news",
+            "sourceP": 0.74,
+            "about": 0.835,
+            "release": 0.531
+          },
+          "luna": {
+            "stance": "supportive",
+            "stanceP": 0.91,
+            "source": "local_news",
+            "sourceP": 0.99,
+            "about": 0.99,
+            "release": 0.82
+          }
+        }
+      }
+    },
+    {
       "url": "https://oficiuldestiri.ro/romanii-bolnavi-de-cancer-ar-putea-iesi-la-pensie-mai-devreme-ce-conditii-prevede-proiectul-de-lege-depus-de-aur",
       "title": "Românii bolnavi de cancer ar putea ieși la pensie mai devreme. Ce condiții prevede proiectul de lege depus de AUR",
       "outlet": "Oficiul de Știri | Stiri de ultima ora interne si externe, breaking news, stiri online, stirile zilei",
       "domain": "oficiuldestiri.ro",
       "publishedAt": "2026-10-15",
       "foundBy": [
-        "claude"
+        "claude",
+        "agy"
       ],
-      "quote": "Proiectul AUR face referire la stagiul minim, nu la cel complet.",
+      "quote": "Proiectul de lege B567/2026 a fost înregistrat la Senat pe 14 octombrie 2026 și se află în etapa de dezbatere parlamentară.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -704,6 +796,50 @@
             "sourceP": 0.72,
             "about": 0.99,
             "release": 0.01
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.wowbiz.ro/persoanele-diagnosticate-cu-cancer-ar-putea-iesi-la-pensie-la-60-de-ani-proiectul-de-lege-a-fost-depus-de-aur-20596549",
+      "title": "Cine sunt românii care ar putea ieși mai devreme la pensie. Vârsta standard se reduce pentru... Vezi mai mult",
+      "outlet": "WOWbiz.ro",
+      "domain": "wowbiz.ro",
+      "publishedAt": "2026-10-15",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Proiectul legislativ prevede ca persoanele care se confruntă cu o afecțiune oncologică să iasă la pensie la 60 de ani.",
+      "match": "quote",
+      "firstSeenAt": "2026-10-29",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-29",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.785,
+            "source": "aggregator",
+            "sourceP": 0.565,
+            "about": 0.957,
+            "release": 0.661
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.317,
+            "source": "aggregator",
+            "sourceP": 0.422,
+            "about": 0.679,
+            "release": 0.407
+          },
+          "luna": {
+            "stance": "supportive",
+            "stanceP": 0.83,
+            "source": "aggregator",
+            "sourceP": 0.79,
+            "about": 0.99,
+            "release": 0.88
           }
         }
       }

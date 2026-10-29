@@ -1,0 +1,47 @@
+## PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENATUL
+
+# LEGE
+
+pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 41/2016 privind stabilirea unor măsuri de simplificare la nivelul administrației publice centrale și pentru modificarea și completarea unor acte normative, precum și completarea art. 11 din Ordonanța de urgență a Guvernului nr. 97/2005 privind evidența, domiciliul, reședința și actele de identitate ale cetățenilor români
+
+Parlamentul României adoptă prezenta lege.
+
+LEGE pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 41/2016 privind stabilirea unor măsuri de simplificare la nivelul administrației publice centrale și pentru modificarea și completarea unor acte normative, precum și completarea art. 11 din Ordonanța de urgență a Guvernului nr. 97/2005 privind evidența, domiciliul, reședința și actele de identitate ale cetățenilor români
+
+Art. I – Ordonanța de urgență a Guvernului nr. 41/2016 privind stabilirea unor măsuri de simplificare la nivelul administrației publice centrale și pentru modificarea și completarea unor acte normative, publicată în Monitorul Oficial al României, Partea I, cu modificările și completările ulterioare, se modifică și se completează, după cum urmează:
+
+## 1. La art. 2, alineatele (1) și (2) se modifică și vor avea următorul cuprins:
+
+„Art. 2 – (1) în cazul în care este necesar pentru soluționarea unei cereri în vederea furnizării unui serviciu public sau a îndeplinirii unei obligații legale, instituțiile publice, organele de specialitate ale administrației publice centrale și locale, precum și persoanele juridice de drept privat care, potrivit legii, au obținut statut de utilitate publică sau sunt autorizate să presteze un serviciu public, în regim de putere publică, verifică, cu consimțământul persoanei, datele privind identitatea acesteia și, după caz, datele privind domiciliul ori reședința sa înregistrate în Registrul național de evidență a persoanelor, în conformitate cu Ordonanța de urgență a Guvernului nr. 97/2005 privind evidența, domiciliul, reședința și actele de identitate ale cetățenilor români, cu modificările și completările ulterioare, asigurând condițiile prevăzute de reglementările legale privind protecția persoanelor fizice în ceea ce privește prelucrarea datelor cu caracter personal.
+
+(2) Instituțiilor publice, organelor de specialitate ale administrației publice centrale și locale, precum și persoanelor juridice de drept privat care, potrivit legii, au obținut statut de utilitate publică sau sunt autorizate să presteze un serviciu public, în regim de putere publică, le este interzis să solicite depunerea ori să rețină copia după actul de identitate a persoanei, cu excepția cazurilor în care prin lege se dispune altfel.
+
+## 2. După Capitolul II, se introduce un nou Capitol, Capitolul II¹, alcătuit din art. 14¹, cu următorul cuprins:
+
+„Art. 14¹– (1) Nerespectarea prevederilor art. 2 alin. (2) constituie contravenție și se sanționează cu amendă de la 2000 lei la 3000 lei.
+
+(2) Constatarea contravențiilor și aplicarea sancțiunilor se fac de către ofițerii și agenții de poliție din cadrul Poliției Române.
+
+(3) Prevederile prezentului articol se completează cu dispozițiile Ordonanței Guvernului nr. 2/2001 privind regimul juridic al contravențiilor, aprobată cu modificări și completări prin Legea nr. 180/2002, cu modificările și completările ulterioare."
+
+LEGE pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 41/2016 privind stabilirea unor măsuri de simplificare la nivelul administrației publice centrale și pentru modificarea și completarea unor acte normative, precum și completarea art. 11 din Ordonanța de urgență a Guvernului nr. 97/2005 privind evidența, domiciliul, reședința și actele de identitate ale cetățenilor români
+
+Art. II – La articolul 11 din Ordonanța de urgență a Guvernului nr. 97/2005 privind evidența, domiciliul, reședința și actele de identitate ale cetățenilor români, republicată în Monitorul Oficial al României, Partea I, nr. 719 din 12 octombrie 2011, cu modificările și completările ulterioare, după alineatul (6) se introduce două noi alinieate, alin. (7) și (8), cu următorul cuprins:
+
+„(7) Entitățile prevăzute la art. 2 alin. (1) din Ordonanța de urgență a Guvernului nr. 41/2016 privind stabilirea unor măsuri de simplificare la nivelul administrației publice centrale și pentru modificarea și completarea unor acte normative, pot verifica datele privind identitatea persoanei și, după caz, datele privind domiciliul ori reședința sa înscrise în R.N.E.P în scopul soluționării cererilor pentru furnizarea unui serviciu public sau îndeplinirii unei obligații legale fără plata taxei prevăzute la alin. (2).
+
+(8) în cazul prevăzut la alin. (7), verificarea datelor se face în condițiile stabilite prin ordin al ministrului afacerilor interne."
+
+Art. III – În termen de 60 de zile de la data intrării în vigoare a prezentei legi, Guvernul va modifica Hotararea nr. 295/2021 pentru aprobarea Normelor metodologice de aplicare unitară a dispozițiilor Ordonanței de urgență a Guvernului nr. 97/2005 privind evidența, domiciliul, reședința și actele de identitate ale cetățenilor români, precum și pentru stabilirea formei și conținutului actelor de identitate, ale dovezii de reședință și ale cărții de imobil, publicată în Monitorul Oficial, Partea I nr. 312 din 29 martie 2021, pentru a o pune de acord cu dispozițiile prezentei legi.
+
+Art. IV – Prezenta lege intră în vigoare la 180 zile de la data publicării în Monitorul Oficial al României, Partea I.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și 76 alin. (2) din Constituția României, republicată.
+
+Președintele Camerei Deputaților, Sorin-Mihai GRINDEANU
+
+Președintele Senatului, Mircea ABRUDEAN

@@ -1,0 +1,101 @@
+# Parlamentul României
+
+## Camera Deputaților
+
+Senat
+
+Lege privind interzicerea excluderii anumitor defecte de la garanția legală și comercială acordată consumatorilor
+
+Parlamentul României adoptă prezenta lege:
+
+Art. 1 – Scopul legii
+
+Prezenta lege are ca scop protecția consumatorilor prin garantarea remedierii gratuite a unor defecțiuni tehnice grave care privesc siguranța și buna funcționare a vehiculelor, indiferent de clauzele contractuale stabilite de producător, importator sau dealer.
+
+## Art. 2 - Definiții
+
+În sensul prezentei legi, termenii de mai jos se definesc astfel:
+
+a) vehicul – orice autovehicul destinat circulației pe drumurile publice, conform legislației în vigoare;
+
+b) garant – producătorul, importatorul sau dealerul care acordă garanția legală ori comercială;
+
+c) unitate reparatoare autorizată – orice service auto propriu sau partener autorizat de garant pentru efectuarea reparațiilor în garanție;
+
+d) lipsă de conformitate – situația în care vehiculul nu corespunde cerințelor de calitate, siguranță, funcționalitate și performanță pe care consumatorul le poate justifica în mod rezonabil, în raport cu natura bunului și declarațiile publice ale vânzătorului ori producătorului, în conformitate cu Directiva (UE) 2019/771; e) defecțiuni esențiale – defecțiunile enumerate la art. 4, a căror excludere din garanție este interzisă.
+
+## Art. 3 – Domeniul de aplicare
+
+(1) Dispozițiile prezentei legi se aplică tuturor vehiculelor rutiere noi sau second-hand vândute cu garanție în România, indiferent de proveniență.
+
+(2) Prevederile se aplică atât garanției legale de conformitate, cât și oricărei garanții comerciale suplimentare oferite de producător, importator sau dealer direct sau printr-o unitate reparatoare autorizată.
+
+Art. 4 – Defecțiuni ce nu pot fi excluse de la garanție
+
+(1) Este interzisă excluderea de la acoperirea prin garanție a următoarelor defecțiuni, considerate esențiale pentru siguranța rutieră și funcționarea vehiculului:
+
+a) sistemul de frânare, inclusiv pierderi de lichid de frână, defectarea pompei de frână, etrierilor sau conductelor;
+
+b) sistemul de direcție și elementele aferente (coloană, casetă, bielete, servodirecție);
+
+c) sistemele de retenție și protecție a pasagerilor (airbaguri, centuri de siguranță, pretensionatoare);
+
+d) șasiul, lonjeroanele și elementele portante structurale ale caroseriei;
+
+e) circuitul de răcire al motorului, inclusiv pierderile de lichid de răcire, radiator, conducte și pompă de apă;
+
+f) instalația de climatizare în ceea ce privește etanșeitatea circuitului și pierderea agentului frigorific (freon);
+
+g) orice altă defecțiune care, potrivit expertizei tehnice autorizate, compromite siguranța circulației sau poate conduce la avarierea gravă a motorului ori la afectarea sănătății pasagerilor.
+
+(2) Orice clauză contractuală prin care se încearcă excluderea acestor defecte din garanție este nulă de drept.
+
+Art. 5 – Obligațiile producătorilor, importatorilor și dealeri-lor :
+
+a) să garanteze remedierea gratuită, într-un termen rezonabil, a defecțiunilor prevăzute la art. 4;
+
+b) să suporte toate costurile legate de manoperă, piese și materiale necesare remedierii;
+
+c) să informeze consumatorii, în scris, despre aceste drepturi la momentul vânzării.
+
+## Art. 6 – Lipsa de conformitate
+
+(1) Vehiculul este considerat neconform cu contractul atunci când nu corespunde cerințelor de calitate, siguranță, funcționalitate și performanță pe care consumatorul le poate justifica în mod rezonabil, ținând cont de natura bunului și de declarațiile publice făcute de vânzător, producător sau reprezentantul acestuia. (2) Lipsa de conformitate include, în mod exemplificativ, defecțiunile prevăzute la art. 3, precum și orice alte neconformități care împiedică utilizarea normală a vehiculului sau compromit siguranța rutieră.
+
+(3) În conformitate cu prevederile Directivei (UE) 2019/771 privind contractele de vânzare de bunuri, prezumția legală este că orice lipsă de conformitate care apare în termen de 12 luni de la livrare exista la momentul predării vehiculului, dacă nu se dovedește contrariul printr-o expertiză tehnică.
+
+(4) Consumatorul are dreptul să solicite, fără costuri, aducerea vehiculului la conformitate prin reparare sau înlocuire, iar în caz de imposibilitate, reducerea corespunzătoare a prețului ori rezoluțiunea contractului, potrivit legislației europene și naționale aplicabile.
+
+## Art.7 – Reparațiile în perioada de garanție
+
+(1) Remedierea defecțiunilor prevăzute la art. 4 se realizează gratuit în cadrul rețelei de service-uri autorizate, atât în unitățile reparatoare proprii ale producătorului, importatorului sau dealerului, cât și prin service-uri partenere autorizate, desemnate oficial și comunicate consumatorilor.
+
+(2) Consumatorul are dreptul să aleagă oricare dintre aceste unități reparatoare autorizate, fără ca producătorul, importatorul sau dealerul să poată impune restricții abuzive privind locul efectuării reparației.
+
+(3) Toate costurile legate de manoperă, piesE de schimb și materiale necesare remedierii cad exclusiv în sarcina garantului, indiferent de unitatea reparatoare aleasă.
+
+(4) Unitățile reparatoare partenere au obligația să asigure aceleași standarde de calitate, siguranță și termene de execuție ca unitățile proprii ale garantului.
+
+## Art. 8 – Sancțiuni
+
+(1) Nerespectarea prevederilor prezentei legi se sancționează cu amendă între 50.000 lei și 200.000 lei, aplicată de Autoritatea Națională pentru Protecția Consumatorului.
+
+(2) În caz de recidivă, ANPC poate dispune suspendarea temporară a activității de vânzare a vehiculelor de către producătorul, importatorul sau dealerul în cauză, până la remedierea situației.
+
+## Art. 9 – Dispoziții finale
+
+(1) Prezenta lege se completează cu dispozițiile legislației naționale și europene privind protecția consumatorilor.
+
+(2) În termen de 60 de zile de la intrarea în vigoare a prezentei legi, Guvernul va adopta normele metodologice de aplicare.
+
+## Art. 10 - Intrarea în vigoare:
+
+Prezenta lege intră în vigoare la 30 de zile de la publicarea în Monitorul Oficial al României, Partea I.
+
+Președintele
+
+Camerei Deputaților
+
+Președintele
+
+Senatului

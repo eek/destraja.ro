@@ -1,0 +1,35 @@
+# LEGE
+
+# pentru modificarea și completarea Legii nr. 334/2006 privind finanțarea activității partidelor politice și a campaniilor electorale
+
+Parlamentul României adoptă prezenta lege:
+
+Articolul unic. Legea nr. 334/2006 privind finanțarea activității partidelor politice și a campaniilor electorale, republicată în Monitorul Oficial al României, Partea I, nr. 446 din 23 iunie 2015, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 25, după alineatul (2) se introduc patru noi alineate, cu următorul cuprins:
+
+„(3) Se interzice utilizarea subvențiilor de la bugetul de stat pentru finanțarea oricăror destinații care, prin conținutul ori finalitatea lor, direct sau indirect, aduc atingere sau sunt contrare imaginii, ordinii constituționale, valorilor sau intereselor fundamentale ale României.
+
+(4) În sensul alin. (3), se interzice utilizarea sumelor provenite din subvențiile de la bugetul de stat pentru finanțarea cheltuielilor cu achiziția, directă sau indirectă, de bunuri ori de servicii care au ca scop determinarea, directă sau indirectă, a decidenților politici sau instituționali din alte state ori din organizații internaționale, în vederea obținerii unor efecte care aduc atingere imaginii, ordinii constituționale, valorilor sau intereselor fundamentale ale României.
+
+(5) În sensul alin. (4), se consideră determinare orice activitate prin care se urmărește, direct sau indirect, ca un decident politic sau instituțional, ales sau numit, să adopte o orientare contrară imaginii, ordinii constituționale, valorilor sau intereselor fundamentale ale României.
+
+(6) Încălcarea prevederilor alin. (3) și alin. (4) atrage aplicarea, inclusiv cumulativă, a măsurilor legale corespunzătoare, după cum urmează:
+
+a) obligarea partidului politic la restituirea către bugetul de stat a sumelor utilizate cu încălcarea dispozițiilor prezentei legi;
+
+b) confiscarea sumelor utilizate nelegal, potrivit dispozițiilor legale privind recuperarea și executarea creanțelor bugetare;
+
+c) suspendarea temporară, parțială sau totală, a subvenției acordate partidului politic, potrivit reglementărilor în vigoare;
+
+d) sesizarea autorităților competente, în situația în care faptele întrunesc elementele constitutive ale unei contravenții sau ale unor fapte prevăzute de legea penală.”
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.
+
+Președintele Camerei Deputaților,
+
+Sorin Mihai GRINDEANU
+
+Președintele Senatului,
+
+Mircea ABRUDEAN

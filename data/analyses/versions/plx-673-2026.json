@@ -1,0 +1,172 @@
+{
+  "slug": "plx-673-2026",
+  "billId": "PL-x 673/2026",
+  "updatedAt": "2026-10-29T13:13:50.436Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L550FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "CT, RMN și scintigrafii decontate cât e nevoie, nu o dată pe an, pentru bolnavii de inimă, AVC, boli neurologice și rare",
+      "summaryTlDr": "Lege utilă: repară plafonul de o singură investigație pe an, care, după datele Ministerului Sănătății, a tăiat cu circa 47% CT-urile și RMN-urile de monitorizare în ianuarie 2026. Punctul slab este art. II, o „interpretare” retroactivă care transformă „o singură” în „toate” și riscă să fie declarată neconstituțională, ceea ce ar întârzia toată legea. Un al doilea neajuns: diabeticii și bolnavii renali rămân la o investigație pe an.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/600/70/3/se770.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Bolnavii cronici scapă de limita de un singur RMN/CT decontat pe an",
+      "summaryTlDr": "O corectură necesară și favorabilă pacienților cronici: dispare plafonul de o singură investigație de înaltă performanță pe an, care a blocat accesul la monitorizare. Plata retroactivă (Art. II) e însă scrisă în grabă. Nu spune cine primește banii, la ce tarif și din ce bani.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Diabeticii și bolnavii renali primesc și ei investigații decontate fără plafonul de una pe an",
+      "summary": "Acum și diabeticii și bolnavii renali au toate investigațiile necesare decontate, nu doar una pe an, iar plata retroactivă din 1 ianuarie 2026 vizează aceleași boli și are termen de 20 de zile. Rămân neclare cine primește banii, la ce tarif și dacă rezistă la Curtea Constituțională.",
+      "changes": [
+        {
+          "title": "Diabet și boală renală: fără limita de o investigație",
+          "text": "Art. I: inițial, diabeticii și bolnavii cronici renali rămâneau la o singură investigație de înaltă performanță pe an. Acum li se decontează toate cele necesare monitorizării, ca celorlalte patru categorii.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. I",
+          "before": "Pentru persoanele asigurate diagnosticate cu diabet zaharat sau boală cronică renală, se decontează, în cadrul monitorizării prevăzute la alin. (4), o singură investigație de înaltă performanță sau de medicină nucleară într-un an calendaristic",
+          "after": "pentru persoanele asigurate diagnosticate cu diabet zaharat, afecțiuni rare, boli cardiovasculare, boli cerebrovasculare, boli neurologice sau boală cronică renală se decontează toate investigațiile de înaltă performanță sau de medicină nucleară necesare monitorizării",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Plata pentru trecut acoperă aceleași boli ca pe viitor",
+          "text": "Art. II: o „interpretare” care contrazicea art. I a fost înlocuită. Acum casele de asigurări decontează investigațiile din 1 ianuarie 2026 până la intrarea în vigoare, pentru aceleași șase categorii de boli.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. II alin. (1)",
+          "before": "se va interpreta în sensul că se decontează toate investigațiile de înaltă performanță sau de medicină nucleară necesare monitorizării prevăzute la alin.",
+          "after": "casele de asigurări de sănătate acordă, în condițiile prezentei legi, decontarea aferentă investigațiilor de înaltă performanță sau de medicină nucleară efectuate în perioada din 1 ianuarie 2026 și până la data intrării în vigoare a prezentei legi",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dreptul la plată apare la intrarea în vigoare",
+          "text": "Art. II alin. (2), prevedere nouă: dreptul la decontare se naște la intrarea în vigoare, iar investigația trecută e doar condiție de eligibilitate. Construcția poate fi contestată ca retroactivitate ascunsă.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. II alin. (2)",
+          "before": null,
+          "after": "Dreptul la decontarea prevăzută la alin.(1) se naște la data intrării în vigoare a prezentei legi. Efectuarea investigației în perioada prevăzută la alin.(1) constituie condiție de eligibilitate pentru exercitarea acestui drept.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Termen de 20 de zile pentru decontările retroactive",
+          "text": "Art. II alin. (3), prevedere nouă: casele de asigurări trebuie să deconteze investigațiile trecute în 20 de zile de la intrarea în vigoare. Inițial nu exista niciun termen și nicio procedură.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. II alin. (3)",
+          "before": null,
+          "after": "Decontarea prevăzută la alin.(1) se efectuează de casele de asigurări de sănătate în termen de 20 de zile de la data intrării în vigoare a prezentei legi, pe baza documentelor justificative prevăzute de legislația aplicabilă.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Nu spune cui se plătește decontarea retroactivă: furnizorului sau pacientului care a plătit",
+            "major": true,
+            "article": "art. II alin. (1)"
+          },
+          {
+            "text": "Nu precizează tariful (CNAS sau privat) și nici dacă intră clinicile fără contract CAS",
+            "major": true,
+            "article": "art. II alin. (1)"
+          },
+          {
+            "text": "Nu exclude investigațiile deja decontate în limita veche, deci există risc de plată dublă",
+            "major": true,
+            "article": "art. II alin. (1)"
+          },
+          {
+            "text": "Dreptul „născut” la intrarea în vigoare poate fi atacat ca retroactivitate la CCR",
+            "major": true,
+            "article": "art. II alin. (2)"
+          },
+          {
+            "text": "Nicio trimitere la ghiduri sau protocoale care să ancoreze frecvența investigațiilor",
+            "major": false,
+            "article": "art. I"
+          },
+          {
+            "text": "Documentele justificative pentru plata către pacienți nu sunt identificate",
+            "major": false,
+            "article": "art. II alin. (3)"
+          },
+          {
+            "text": "CNAS nu este obligată să emită norme metodologice pentru decontarea retroactivă",
+            "major": false,
+            "article": "art. II alin. (3)"
+          },
+          {
+            "text": "Nu indică sursa de finanțare din FNUASS pentru plățile retroactive",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "good": [
+          {
+            "text": "Toate investigațiile necesare monitorizării se decontează, fără plafonul de una pe an",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Diabeticii și bolnavii renali sunt tratați la fel ca celelalte categorii de bolnavi cronici",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Se decontează și investigațiile făcute din 1 ianuarie 2026 până la intrarea în vigoare",
+            "major": true,
+            "article": "art. II alin. (1)"
+          },
+          {
+            "text": "Termen clar de 20 de zile pentru decontarea investigațiilor trecute",
+            "major": false,
+            "article": "art. II alin. (3)"
+          },
+          {
+            "text": "Rămân posibile investigații și pentru afecțiuni intercurente, în condițiile pachetului de bază",
+            "major": false,
+            "article": "art. I"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 9,
+        "removed": 7,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:13:29.289Z"
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "slug": "plx-317-2026",
+  "billId": "PL-x 317/2026",
+  "updatedAt": "2026-10-29T13:05:55.960Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L035FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 6.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Câinii fără stăpân trec la județ: plan pe 5 ani, sterilizare și contracte doar pentru ONG-uri",
+      "summaryTlDr": "Direcția e bună: recensământ, sterilizare, plan pe termen lung și stăpâni responsabili. Textul e însă plin de contradicții: numește «fără stăpân» și câinele cu cip scăpat din curte, scoate toate firmele din contracte și trimite nota de plată la bugetul de stat fără să arate sursa banilor.",
+      "scores": {
+        "agy": 7,
+        "claude": 6,
+        "codex": 6
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/300/10/7/se337.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Câinii fără stăpân: județele preiau gestionarea, cu planuri pe 5 ani, recensământ și sterilizare",
+      "summaryTlDr": "Direcția e bună: prevenție, sterilizare, planuri publice și raportări anuale. Textul e însă redactat neglijent. Se contrazice singur, scoate firmele din piață pe criterii vagi și mută adăposturile primăriilor la județ fără procedură și fără costuri estimate.",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 6
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat tacit textul inițiatorului; diferențele dintre forme sunt doar de scriere",
+      "summary": "Senatul nu s-a pronunțat în termen, așa că proiectul s-a considerat adoptat în forma inițială. Textele diferă doar prin diacritice, greșeli de tipar și paragrafe unite. Regulile pentru câini, deținători, adăposturi și ONG-uri rămân aceleași.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Orice câine liber în afara proprietății, chiar microcipat, devine „fără stăpân”",
+            "major": true,
+            "article": "art. 1⁴ alin. (1)"
+          },
+          {
+            "text": "Câinii de vânătoare și de stână lăsați liberi intră în aceeași definiție",
+            "major": true,
+            "article": "art. 1⁴ alin. (1) și (7)"
+          },
+          {
+            "text": "Câinele cu microcip capturat poate fi adoptat de alții după 7 zile lucrătoare",
+            "major": true,
+            "article": "art. 7 alin. (1)"
+          },
+          {
+            "text": "Art. 1¹ șterge „fără stăpân” din articole rescrise, care devin fraze fără sens",
+            "major": true,
+            "article": "art. 1¹"
+          },
+          {
+            "text": "Firmele sunt excluse total de la gestiunea delegată a serviciilor",
+            "major": true,
+            "article": "art. 2 alin. (4)"
+          },
+          {
+            "text": "ONG-urile care au eutanasiat vreodată legal câini sunt excluse definitiv",
+            "major": true,
+            "article": "art. 2 alin. (4) lit. b)"
+          },
+          {
+            "text": "Excludere pentru „acțiuni contrare” bunăstării animalelor, fără hotărâre definitivă",
+            "major": true,
+            "article": "art. 2 alin. (4) lit. c)"
+          },
+          {
+            "text": "Lipsesc dispoziții tranzitorii pentru contractele de gestiune delegată în curs",
+            "major": true,
+            "article": "art. 2 alin. (4)"
+          },
+          {
+            "text": "Preluarea adăposturilor primăriilor după indicatori vagi, fără evaluator și contestație",
+            "major": true,
+            "article": "art. 1 alin. (4)"
+          },
+          {
+            "text": "Sterilizarea gratuită se extinde și la câinii de rasă, fără cost evaluat",
+            "major": true,
+            "article": "art. 1², art. 2¹"
+          },
+          {
+            "text": "Abandonul câinelui adoptat: 2-5 ani închisoare, mai mult decât pentru cruzime",
+            "major": true,
+            "article": "art. 14 alin. (2) lit. c), art. 13 alin. (2)"
+          },
+          {
+            "text": "Amenzi de 5.000-10.000 lei cu trimiteri vagi la „art.1, 3”",
+            "major": true,
+            "article": "art. 14 alin. (1) lit. b)"
+          },
+          {
+            "text": "Vechimea de 5 ani se raportează la o „dată a înființării” neclară",
+            "major": false,
+            "article": "art. 2 alin. (4) lit. a)"
+          },
+          {
+            "text": "Nu e clar cine răspunde de câinii comunitari hrăniți de voluntari",
+            "major": false,
+            "article": "art. 1³ lit. b)"
+          },
+          {
+            "text": "Câinii cu regim special apar ca definiți la art. 3, trimitere greșită",
+            "major": false,
+            "article": "art. 8 alin. (1), art. 13²"
+          },
+          {
+            "text": "Adoptatorii trebuie să dovedească spațiu și resurse materiale, criterii nedefinite",
+            "major": false,
+            "article": "art. 8 alin. (3)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Eutanasia interzisă ca metodă de gestionare; permisă doar pentru boli incurabile",
+            "major": true,
+            "article": "art. 5"
+          },
+          {
+            "text": "Hrănitorii și voluntarii nu sunt considerați deținători ai câinilor",
+            "major": true,
+            "article": "art. 1³ lit. b)"
+          },
+          {
+            "text": "Primele 72 de ore în adăpost sunt plătite de primărie, nu de proprietar",
+            "major": true,
+            "article": "art. 4 alin. (5)"
+          },
+          {
+            "text": "Adopția din adăposturi este gratuită",
+            "major": true,
+            "article": "art. 7 alin. (1) lit. c)"
+          },
+          {
+            "text": "Sterilizarea și identificarea câinilor subvenționate anual din bani publici",
+            "major": true,
+            "article": "art. 2¹ alin. (1)"
+          },
+          {
+            "text": "Camere corporale obligatorii la capturare, transport și predarea la adăpost",
+            "major": false,
+            "article": "art. 2¹ alin. (8), art. 4 alin. (3)"
+          },
+          {
+            "text": "Registre digitale ale adăposturilor publicate online, cu protecția datelor",
+            "major": false,
+            "article": "art. 10"
+          },
+          {
+            "text": "Plan local de gestionare pe minimum 5 ani, public, cu raportări anuale",
+            "major": false,
+            "article": "art. 1 alin. (7)-(11)"
+          },
+          {
+            "text": "Adăposturi deschise publicului șase ore pe zi, inclusiv în weekend",
+            "major": false,
+            "article": "art. 2 alin. (7)"
+          },
+          {
+            "text": "ONG-urile pot participa la capturi, iar autoritățile trebuie să accepte",
+            "major": false,
+            "article": "art. 11"
+          },
+          {
+            "text": "Serviciile nu se atribuie doar după preț, ci și după calitatea planului",
+            "major": false,
+            "article": "art. 2 alin. (5)"
+          }
+        ],
+        "partial": true
+      },
+      "diff": {
+        "added": 139,
+        "removed": 131,
+        "same": 0.67
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:05:55.960Z"
+    }
+  ]
+}

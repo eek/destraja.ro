@@ -1,0 +1,15 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+privind aprobarea Ordonanței de urgență a Guvernului nr.27/2026 pentru aprobarea unor măsuri în vederea asigurării îndeplinirii misiunilor specifice ce revin Serviciului de Protecție și Pază
+
+Senatul adoptă prezentul proiect de lege
+
+Articol unic.- Se aprobă Ordonanța de urgență a Guvernului nr.27 din 16 aprilie 2026 pentru aprobarea unor măsuri în vederea asigurării îndeplinirii misiunilor specifice ce revin Serviciului de Protecție și Pază, publicată în Monitorul Oficial al României, Partea I, nr.304 din 16 aprilie 2026.
+
+Acest proiect de lege se consideră adoptat de Senat în forma inițială, în condițiile articolului 115 alineatul (5) teza a III-a din Constituția României, republicată.
+
+p. PREȘEDINTELE SENATULUI

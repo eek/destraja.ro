@@ -1,0 +1,103 @@
+EXPUNERE DE MOTIVE Propunerea legislativă privind trecerea orașului Căzănești, județul Ialomița, la rangul de comună și pentru modificarea și completarea unor acte normative
+
+I. Necesitatea reglementării Prezenta inițiativă legislativă are ca obiect reglementarea statutului administrativ al unității administrativ-teritoriale Căzănești, județul Ialomița, in sensul trecerii acesteia de la rangul de oraș la rangul de comună, precum și abrogarea Legii nr. 134/2004. Necesitatea intervenției legislative rezultă din existența unei necorelări evidente între statutul juridic actual al localității și realitățile demografice, economice și edilitare existente, precum și din necesitatea asigurării respectării principiilor constituționale și legale aplicabile în materia organizării administrativ-teritoriale.
+
+II. Situația juridică existentă Prin Legea nr.134/2004, comuna Căzănești a fost declarată oraș, în temeiul dispozițiilor Legea nr.351/2001 privind aprobarea Planului de amenajare a teritoriului național - Secțiunea a IV-a - Rețeaua de localități. Potrivit cadrului normativ incident, dobândirea statutului de oraș este condiționată de Îndeplinirea cumulativă a unor criterii minime de ordin: - demografic; - economic; - infrastructural și edilitar; - instituțional. Analiza datelor existente la momentul adoptării legii, coroborată cu documentele justificative anexate, relevă faptul că aceste criterii nu erau îndeplinite în mod cumulativ, în special sub aspectul: - numărului minim de locuitori; - ponderii populației ocupate în activități neagricole; - existenței infrastructurii tehnico-edilitare corespunzătoare; - dotărilor sanitare și educaționale specifice mediului urban. În aceste condiții, se conturează concluzia că actul normativ menționat a fost adoptat în absența unei fundamentări conforme exigențelor legale aplicabile.
+
+III. Evoluția ulterioară și situația actuală Ulterior declarării ca oraș, evoluția indicatorilor socio-economici ai localității nu numai că nu a condus la atingerea standardelor specifice mediului urban, ci, dimpotrivă, a evidențiat o stagnare sau chiar o regresie în anumite domenii esențiale. Datele actuale indică: - neîndeplinirea majorității criteriilor prevăzute de lege pentru localitățile urbane; - diminuarea serviciilor publice și a infrastructurii existente; - nivel redus de diversificare economică, cu predominanța activităților agricole; - insuficiența dotărilor tehnico-edilitare specifice unui oraș. În consecință, menținerea statutului de oraș apare ca fiind lipsită de fundament obiectiv, generând o discrepanță între realitatea factuală și calificarea juridică a localității.
+
+IV. Voința comunității locale In conformitate cu principiile consacrate de Constituția României, în special cele referitoare la suveranitate și autonomie locală, consultarea directă a cetățenilor reprezintă un instrument legitim de exprimare a voinței colective. Prin referendumul local organizat la data de 26 aprilie 2015, validat potrivit legii, majoritatea covârșitoare a cetățenilor (95,6% dintre votanți) s-a pronunțat în favoarea revenirii la statutul de comună. Această manifestare de voință nu poate fi ignorată de legiuitor, în condițiile în care: - reflectă interesul direct al comunității; - este expresia principiului democrației participative; - se circumscrie cadrului legal privind consultarea populației în probleme de interes local.
+
+V. Considerații de ordin financiar și fiscal Statutul de oraș implică un regim juridic distinct în materie fiscală și bugetară, cu consecințe directe asupra sarcinii fiscale suportate de contribuabili și asupra nivelului cheltuielilor publice locale. În raport cu dispozițiile Legea nr.227/2015 și Legea nr.273/2006, se impune ca: - sarcina fiscală să fie stabilită în mod echitabil, în raport cu capacitatea contributivă; - cheltuielile bugetare să fie fundamentate în corelație cu veniturile realizabile. Situația existentă la nivelul orașului Căzănești evidențiază: - un grad ridicat de neîncasare a veniturilor bugetare; - acumularea unor arierate semnificative; - dezechilibre bugetare majore.
+
+În acest context, menținerea statutului de oraș conduce la perpetuarea unei presiuni fiscale disproporționate și a unor cheltuieli administrative nesustenabile.
+
+VI. Temeiul constituțional și legal Prezenta inițiativă legislativă se întemeiază pe următoarele dispoziții: 1. Constituția României: - art.2 - suveranitatea națională; - art.56 alin.(2) - justa așezare a sarcinilor fiscale; - art.61 - rolul Parlamentului; - art.120 - principlile administrației publice locale; - art.139 - regimul impozitelor și taxelor locale; 2. Ordonanța de urgență nr. 57/2019 - principiile autonomiei locale și consultării cetățenilor; 3. Legea nr. 351/2001 - criteriile de clasificare a localităților; 4. Legea nr.2/1968 - organizarea administrativ-teritorială.
+
+VII. Concluzii Fată de cele expuse, se constată că: declararea localității Căzănești ca oraș nu a fost fundamentată pe îndeplinirea criteriilor legale; - evoluția ulterioară nu a condus la atingerea standardelor specifice mediului urban; - voința comunității locale este în mod clar orientată către revenirea la statutul de comună; - menținerea statutului actual generează disfuncționalități administrative și financiare. În consecință, se impune adoptarea prezentei inițiative legislative, în vederea: - restabilirii legalității și coerenței în organizarea administrativ-teritorială; - alinierii statutului juridic al localității la realitățile socio-economice; - asigurării unei gestionări eficiente și sustenabile a resurselor publice; - respectării voinței exprimate de comunitatea locală. Față de cele prezentate, supunem spre dezbatere și adoptare prezenta propunere legislativă.
+
+INIȚIATORI: OLTENAȘU SORIN-GEORGE CARAGAȚĂ FLORIN TOADER ELENA LAURA
+
+Tabel cu semnături la Propunerea legislativă Propunerea legislativă privind trecerea orașului Căzănești, județul Ialomița, la rangul de comună și pentru modificarea și completarea unor acte normative
+
+Nr.crt | Deputați/Senatori | Grupul parlamentar | Semnătura 1 | OLTENASU SORIA | S.O.S RO 2. | TOADER ELENA - LAURA | S.O.S. RO 3. | BAS. AHA MARCELA | S.0.8. RO HACOVEI iLE SINONA ELENA | S.O.S. R0 5. | VIDRA VLAD-ANAREI | SOS. RO TiU MiHAi-ADRiAM | 5,0, S Ro 7. | ¡'ONESCU TUDOR | 5.0.5. RO CARAGATĂ FLORIN | S.O. SRO. LAZĂROI IDAN | 8.0.5. RO 10 | OANCEA SILVIV | AUR TINTA SIRPAN | PSA I2 | PEIU ADRIAU | PACE I RO 13 | PETREA DORiM SİLViU | PACE ITA ROMÂNA - Seia Winal | PACE 15 | ONEA | \_OLEA | PACE CUSNiR RODiCA | ROMAM\* 17. | CLEMENT SAVA 18 | tODOCA LINIY 1ULIAXI | PACE TAGE MADAUN CANSADY | independent
+
+Nr.crt | Deputați/Senatori | Grupul parlamentar | Semnătura 20. | NAGY VASILE | S.O.S. RO
+
+CIRCUMSCRIPȚIA ELECTORALĂ Nr. LS] ...
+
+Biroul electoral de circumscripție CĂZĂNEȘTI
+
+PROCES- VERBAL privind rezultatele referendumului local din data de 26 aprilie 2015 pentr'u consultarca populatici cu privire la trecerea orașului Căzănești in categoria comunclar
+
+L. Numărul persaneler inscrise in lista peatru referendum " | L1 1112191018 2. Numărul participanților \*\*1 | L111 191611 3. Numărul de buletire de vot primite pentru a fi Intrebuinpie | 111113121001 4, fumrul de buictire de vut ramase neintrebuinjale | [1/1 121213161 5. Numărul voturilor valahil exprimate la tăspunsul "DA" | L111906 0. Numănů voturiln: valabil exprimate la răspuasul "NU" | L1/1// 1412 7. Nimnărul voturilm nulc | L/111 1/16 K. Numărul voturilor contestate
+
+9, Numărul i«tal al intâmpinărilor și contestațiiler 10. Numărul Intămpinătilor și contestațiilor soluționate de câtre Biruurife electorale sle secților de votare
+
+¡e Nuraral pervanelr Inverhe in lista pentra referendem cuprinde: nombrat persoaneior lanceie in copite Jc pe folefe elctorale permanenie adunal eu numâral persi anetor inscrise in listele speciale droatete au fort oralic d)a iniele siesinrale permantaic. ' Numărul participacțlinr copriade: numărul perssaneit car | 1 al da erte laserite la copüle de pe latels electorale permaneale sunnal cu număral persuarelor inscrise in listele «icetorale suplimentate Jumfral participantiloe (pel. 2) trebuie s1 fie egal cu sama ec rerota din adiționarta cifrelor de la pet 5, 6 gi:
+
+11\. Exparera pe saurt a modului de soluționare a intâmpinărilor si contestațiilor de clire birourile electorale ale secpillo: de votare
+
+thee eth cozul
+
+12\. Numarul intâmpistrilor și contestațiilor inainate biroului [I LILLI] clectoral de ciscumschippe 13. Expunerea pe scun a medului de saluliocare a intâmpinirilor si contestațiilar de căle bircul electoral de circumscriptie Ure este cojal
+
+Președintele | Membrii Biroului Electoral
+
+Nuntle și prenumeis | Semnalura Naratie st preromacle ". MENISE VICTOR - PED" MUNTEANU CRÍSTINEL :. GEÍGAREACU ADCIAN - PDL Sesfrolt a A ii fez | 1. DIMA AUREL - PP DD MIRICE GHEOCGHE - PNL
+
+12cs 26.04.20/5
+
+ANEXA 6
+
+JUDEȚUL IALOMIȚA Orasul CĂZĂNEȘTI CIRCUMSCRIPTLA NºL| |5
+
+PROCES - VERBAL privind resultatele referendumului local asupra trecerii localizăți CĂZĂVEȘTI de la rangul de oraș la rangul de comună 25 aprilie 2010
+
+Numărul persoanclor inscrise in lista pentru referendum | 2:91213] Numarol participan;ilor \*) | [78512 3. | Numărul de buletine de vot primite penuu a fi Intrebainfate | [312VTO
+
+Numaral de buletine de vot rămase neintrebuintate. | 12131019 S. | Numărul veturilor valabil exprimate la răspunsul DA | [71515} | Numărul voturilor valabil exprimaste la rispunsul NU, | 1 63 Numărul vorarilor nule . | 0 32 •yNemaral | crea sureleor de la pra 5,0 r1
+
+. • =
+
+8\. Numåral voturiler contestate
+
+9\. Numărul întâmpinărilor și contestațiilor primite
+
+10\. N'ur&al intâmpin &ilor și contestațiilo: soluționate
+
+11\. Expunerea pe scurt a modului de soluționare a intâmpinărilo: și contestariilor
+
+Pregediatele Biroului Electoral | Membri :
+
+Numele si prezumcle | (numele, prenumele ji semndrza) CHETÉ MICULES Sede impila | CETU mAE Y MERGU ION CHIREE SUNCUL
+
+DS2- 25.04.2010
+
+.; " "
+
+Judetul Ialomita | ANEXA 6
+
+Orasal | CAZANESTI
+
+CIRCUNSCRIPTLA ELECTORALĂ NF.
+
+PROCES - VERBAL privind rezultatele referendumului local din data de 29 iunie 2014 pentru trecerca localticdi CAZANESTI de la rangul de oras la rangul de comura. • 1. Număral persuaneio: Inscrise In lista pentru referendum | 2|0|2|2 2. Nanăne/ paricipanțilar " | 7|218181 2. Numanl de buletine de vos primite pentru a fi întrebuinpate | 3|2/0|0 4. Numaral de bristine de vot râmase neintrebuintate | 1/9|//2 5. Numaral voturilo: valabil expris mate la rispunsul "DA" | 17/2/012 6. Numărul voturilor valabil exprimate la râspuns:| "NU" | 13/8 7. Număral voturilor nule | L 3|₴ 6. Numfrel vonilor contestate
+
+9\. Numarel intimpindrilor si cestestaților primite
+
+10\. Nemiral frzimpitărilos și centesațillor soluționate | 1 101
+
+y Yara ral pardkip ajüor trebuie si f egal cu tuma ce rez n'l3 dla adipoasres cifrelor de la per, 5, 6 pi 7.
+
+106 11. Expunerea pe seurt a modelui de soluționare a intimpinariler și contestațiilo:
+
+Președintele | Membrii Biroului Electoral
+
+Numele ¡l Itctumele | SETătUTs Numele si prerumele 1. DIMA AUREL IVÂNIČĂ RALUCA : MIRICA GHEORGHE 3. DERGDI OCTAYIAN \* MOiSE iON
+
+De: \_29ILNI53014
+
+DILATAFEN MAUIRIAME CH OAIE DI ML IA JUDETUL IALOMITA | Tocuinta : 55 % din intal locainte ; | +0 % localnte 1. N'umar paturi La spitale La 1000 toc : 7 pateri : | 2 parari V'IZAT | Ghiumar de medici la 1000 loculori : 1A medici; | I medie 7. Unitati de invatamant Ücesl sau alta | Grup Scolar forma de invatamant recuadar | (Licea - Scoab ului Jodeiean / //. | profesionala ) 8. Datari calturale si sportive ( vali de rprezacal, - Sala de spectacol, hiblinteca biblinteei publice spali pe axtirttatl eporttre ) cumunela stadion en 300 de locartsa la de sport altramoderas. FISA | 9. Locuri in hoteluri ; So de locari : | Sa Sacreri nrasului CAZANESTI propus pentru declarare | In.Strazi moderaizate : 50% din lungimea (otala a strazilor ; | 70 % 11.Strazi cu relele de dntribatie a apei : A. Alcatuit din : | 60% din lungimea totala a strazilor ; | 100 - 1. Comuna Cazanesti | 12 Strazi cu coadacte de canalizare : 50 % din lungimea totala a strazilor; | 40 % B. ludeplinirea principalilor indicatori cantitativi si calitativi minimali | 13. Epurare ape azale(statie de epurare cu de definire a oraselor prevazuti prin Anexa nr. Il, punctal 1.0. la Legea | treapta mecano - chimica ) ; | o statie eparare nr. .15172001 : | 14. Strazi eu retele de hidraati estericri pt. singerra incendillor : a) Indicatori prevazuti de | b) Gradul de | 60% din iungimes totala = stranlor : | 100% indeplinire a | 15.5 patii verzi (parcuri gradiai publicr. Legea 351/2001 | indicatorilor de | scuaruri 10mphoeuitar : | impłacuiinr 10. Depozit controla! de descari cu acces asigurat - 2 platforme de calre arasul propus C. Date priviad referradamal : 1 Numar de locuitori : 5.000 lo€ | 1811 locuitori Referredumul inal a avut toc la data de 01.00.:00) ¿. l'opulutia ocupata in aet. neagricule: | lin intalal Je ?"ól persaane inscrise ia lista peatru referendara au 2,5 % dia populatia mupata: | 78 % locuitori | | 1151 persoane. J. Datarea locuintelor cu inst. de alimentare | Din intalul de 113) roiura valabil exprimate, ua nomar de 1401 cumps : | voturi au exprimat acordal pealra declararra arasalal Carancati. 70 % din Intal Incuinte : | 55 % lucuinte
+
+*Documentul are 25 de pagini; am citit primele 12.*

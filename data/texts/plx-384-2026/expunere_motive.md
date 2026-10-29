@@ -1,0 +1,57 @@
+# EXPUNERE DE MOTIVE
+
+## Lege pentru instituirea unei cotizații profesionale agricole voluntare aplicate fermierilor pentru finanțarea Asociațiilor Profesionale membre în Organizații Profesionale/Interprofesionale reprezentative din sectorul agroalimentar
+
+Sectorul agroalimentar din România se confruntă în prezent cu provocări majore, generate de o birocrație excesivă, o legislație tot mai complexă și resurse limitate. Fermierii se află în dificultate, pierzând oportunități financiare, deoarece nu au capacitatea organizatorică și expertiza necesară pentru a urmări integral și a contribui profesional la dezvoltarea și implementarea politicilor agricole, atât la nivel național, cât și european. Activitatea lor este concentrată pe producție, iar implicarea în consultări legislative complexe rămâne limitată, necesitând sprijinul specialiștilor angajați în cadrul organizațiilor profesionale și interprofesionale agroalimentare.
+
+Cadrul legislativ actual care reglementează funcționarea și responsabilitățile acestor organizații nu asigură, însă, surse financiare stabile și adecvate pentru consolidarea și eficientizarea activității acestora. În pofida rolului esențial pe care aceste entități îl au în elaborarea și susținerea politicilor agricole românești și europene, în special în contextul noi Politici Agricole Comune (PAC) 2023-2027, lipsa unor mecanisme clare de finanțare conduce la un aparat tehnic și administrativ insuficient dimensionat.
+
+România dispune de o suprafață agricolă de aproximativ 13,3 milioane hectare, reprezentând circa 56% din territoriul național, iar anual sunt depuse aproximativ 750.000 de cereri unice de plată pentru schemele de sprijin pe suprafață (SAPS). Bugetul gestionat de Agenția de Plăți și Intervenție pentru Agricultură (APIA) în cadrul noului cadru financiar multianual a crescut semnificativ, ajungând la aproximativ 15,25 miliarde euro, din care circa 11,35 miliarde euro sunt alocate României pentru plăți directe și măsuri de piață, iar restul pentru finanțarea măsurilor dedicate mediului, agriculturii ecologice, zonelor cu constrângeri naturale și bunăstării animalelor.
+
+Experiența altor state membre, cum este cazul Franței care, în urma crizei economice din 2010, a reorganizat gestionarea fondurilor europene prin implicarea organizațiilor interprofesionale pe filiere de produs, a demonstrat o creștere semnificativă a absorbției fondurilor, cu aproximativ 17%. România se află într-un context similar, în care absorbția fondurilor europene pentru agricultură și dezvoltare rurală trebuie consolidată prin parteneriate public-private eficiente, în care organizațiile profesionale/interprofesionale au un rol cheie.
+
+Reforma PAC pentru perioada 2023-2027 aduce noi cerințe, scheme și măsuri mai complexe, ceea ce impune o profesionalizare sporită a organizațiilor profesionale și interprofesionale. Acestea trebuie susținute printr-un mecanism de finanțare corespunzător, care să le permită să ofere servicii calitative fermierilor, să sprijine creșterea competitivității sectorului agroalimentar românesc și să reprezinte cu eficiență interesele acestuia la nivel european.
+
+Proiectul de lege propune instituirea unei contribuții profesionale agricole voluntare, ce poate fi direcționată de fermieri către una sau mai multe organizații profesionale/interprofesionale recunoscute de autoritatea națională. Contribuția se va stabili prin mecanisme clare și transparente, facilitate prin colaborarea dintre APIA și instituțiile bancare, astfel încât fermierii să poată redirecționa o sumă de 1-5 lei pe hectar, conform opțiunii personale, cu posibilitatea de a monitoriza și evalua activitatea organizațiilor beneficiare.
+
+Acest mecanism va stimula dezvoltarea și eficientizarea organizațiilor profesionale, generând o competiție sănătoasă între acestea pentru atragerea contribuțiilor și pentru creșterea calității serviciilor oferite fermierilor. În plus, în baza creșterii contribuțiilor, se poate reduce treptat dependența acestor organizații de sprijinul financiar direct din partea MADR, prin Legea nr. 52/2015, actualizată.
+
+Articolul 107 alineatul (1) din Tratatul privind Funcționarea Uniunii Europene (TFUE) confirmă faptul că instituirea unei astfel de cotizații în cadrul organizațiilor recunoscute, pentru acțiuni de comunicare, promovare, relații externe, asigurarea calității, cercetare și apărarea intereselor sectorului, nu constituie ajutor de stat.
+
+Prin acest instrument, fermierii pot participa activ la autogospodărirea sectorului, contribuind la dezvoltarea durabilă și performantă a agriculturii românești.
+
+Inițiator,
+
+George SCARLAT
+
+Deputat PNL GALATILAI
+
+Tabelul cu susținătorii Proiectului de Lege pentru instituirea unei cotizații profesionale agricole voluntare aplicate fermierilor pentru finanțarea Asociațiilor Profesionale membre în Organizații Profesionale/Interprofesionale reprezentative din sectorul agroalimentar
+
+<table>
+<tbody>
+<tr><td>Nr.crt.</td><td>Nume și Prenume</td><td>Grup parlamentar</td><td>Semnătură</td></tr>
+<tr><td>1</td><td>JCTAREAT GEORBE</td><td>PNL</td><td rowspan="12"></td></tr>
+<tr><td>2</td><td>Pandeq Gprisan</td><td>PNL</td></tr>
+<tr><td>3.</td><td>ANDREI ALEXANDRU</td><td>PNL</td></tr>
+<tr><td>4</td><td>HOIST N RASU HAIN</td><td>PNL</td></tr>
+<tr><td>5</td><td>CIOHT IONIEZ</td><td>PSD</td></tr>
+<tr><td>6</td><td>CIOBANU ADRIAN</td><td>PNL</td></tr>
+<tr><td>7</td><td>KÖNCTEJ CSABA</td><td>UDMR</td></tr>
+<tr><td>8.</td><td>TIPLEA DAMIRCU</td><td>PNL</td></tr>
+<tr><td>9</td><td>CERMOI SEBASFIAN</td><td>VSIC</td></tr>
+<tr><td>10</td><td>Hara QG PETH</td><td>PTAC</td></tr>
+<tr><td>11.</td><td>PAJCUUJCU VETA</td><td>PNL</td></tr>
+<tr><td>12</td><td>MITHAI DANIEUA</td><td>PSA</td></tr>
+<tr><td></td><td></td><td></td><td>y</td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>

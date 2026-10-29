@@ -1,0 +1,33 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+## LEGE
+
+pentru modificarea și completarea art.13 din Ordonanța de urgență a Guvernului nr.27/2006 privind salarizarea și alte drepturi ale judecătorilor, procurorilor și altor categorii de personal din sistemul justiției
+
+Senatul adoptă prezentul proiect de lege
+
+Articol unic.- Articolul 13 din Ordonanța de urgență a Guvernului nr.27/2006 privind salarizarea și alte drepturi ale judecătorilor, procurorilor și altor categorii de personal din sistemul justiției, publicată în Monitorul Oficial al României, Partea I, nr.314 din 7 aprilie 2006, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. Partea introductivă a alineatului (1) și litera a) se modifică și va avea următorul cuprins:
+
+(1) Judecătorii, procurorii, personalul asimilat acestora și magistrații-asistenți, care sunt detașați sau delegați în altă localitate decât cea în care au locul de muncă permanent, beneficiază pe toată durata delegării sau detașării, de următoarele drepturi:
+
+„a) diurnă în cuantumul stabilit pentru personalul autorităților și instituțiilor publice pe perioada delegării și detașării în altă localitate;”
+
+2\. După alineatul (1), se introduce un nou alineat, alin.(1¹), cu următorul cuprins:
+
+„(1¹) Nu beneficiază de drepturile prevăzute la alin.(1) judecătorii, procurorii, personalul asimilat acestora și magistrații-asistenți care sunt delegați sau detașați:
+
+a) în localitatea de domiciliu;
+
+b) într-o localitate în care ei ori soțul/soția sau copiii aflați în întreținerea lor dețin o locuință în proprietate;
+
+c) într-o localitate situată la o distanță mai mică de 5 km față de localitatea de domiciliu.”
+
+Acest proiect de lege a fost adoptat de Senat, în ședința din 30 martie 2026, cu respectarea prevederilor articolului 76 alineatul (1) din Constituția României, republicată.
+
+p. PREȘEDINTELE SENATULUI
+
+MIHAI COTET

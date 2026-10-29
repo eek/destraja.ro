@@ -1,0 +1,93 @@
+# EXPUNERE DE MOTIVE
+
+la propunerea legislativă pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 155/2001 privind aprobarea programului de gestionare a câinilor fără stăpân
+
+## 1. Motivul emiterii actului normativ
+
+Ordonanța de urgență a Guvernului nr. 155/2001 constituie cadrul legal principal pentru gestionarea câinilor fără stăpân, având ca obiectiv protecția animalelor, siguranța publică și sănătatea populației. Deși actul normativ a suferit numeroase modificări și completări, evoluțiile recente din domeniul protecției animalelor, precum și necesitatea creșterii transparenței și a controlului asupra activităților desfășurate în acest domeniu impun adaptarea și consolidarea mecanismelor existente.
+
+În practică, s-au semnalat situații care au generat neîncredere publică cu privire la modul de desfășurare a activităților de capturare, adăpostire și, în special, de eutanasiere a câinilor fără stăpân. Lipsa unor instrumente tehnice de monitorizare obiectivă și a unui cadru clar privind accesul organizațiilor neguvernamentale pentru protecția animalelor a condus la controverse, conflicte și dificultăți în verificarea respectării normelor legale.
+
+Prezentul proiect de act normativ urmărește introducerea unor măsuri moderne de transparență și responsabilizare, prin:
+
+\- Utilizarea obligatorie a dispozitivelor individuale de înregistrare audio-video (bodycam) în cadrul activităților de capturare, adăpostire, deparazitare, vaccinare, sterilizare, revendicare/adopție sau orice altă activitate care implică animalele.
+
+\- Instituirea obligației de dotare a adăposturilor cu sisteme de supraveghere video în toate spațiile în care sunt adăpostite animale.
+
+\- Instituirea mecanismului de monitorizare independentă a adăposturilor pentru câinii fără stăpân, publice sau private, prin acordarea dreptului organizațiilor neguvernamentale acreditate în domeniul protecției animalelor de a organiza vizite inopinate de monitorizare. Aceste măsuri sunt necesare pentru asigurarea respectării legislației privind protecția animalelor, pentru prevenirea abuzurilor și pentru creșterea încrederii cetățenilor în activitatea autorităților și a operatorilor implicați.
+
+## 2. Impactful socioeconomic
+
+Adoptarea proiectului de lege va avea un impact socioeconomic pozitiv, prin creșterea nivelului de transparență și responsabilitate în gestionarea câinilor fără stăpân. Implementarea sistemelor de monitorizare va contribui la reducerea conflictelor sociale generate de suspiciuni privind tratamentul aplicat animalelor și va favoriza dialogul între autorități, operatori și societatea civilă.
+
+Totodată, clarificarea rolului organizațiilor neguvernamentale va stimula implicarea civică și voluntariatul, consolidând parteneriatul dintre administrația publică locală și sectorul non-guvernamental. Prin prevenirea practicilor neconforme și îmbunătățirea standardelor de lucru, se creează premisele unei gestionări mai eficiente și mai umane a fenomenului câinilor fără stăpân, cu efecte pozitive asupra coeziunii sociale și imaginii instituțiilor publice.
+
+## 3. Impactul financiar
+
+Impactul financiar al proiectului de act normativ este limitat și previzibil. Costurile aferente dotării personalului de capturare cu dispozitive bodycam și instalării sistemelor de supraveghere video în adăposturi sunt minime și pot fi suportate din bugetele autorităților administrației publice locale, din bugetele operatorilor privați ai serviciilor de gestionare câinilor fără stăpân sau din alte surse legal constituite.
+
+Pe termen mediu și lung, aceste cheltuieli pot fi compensate prin reducerea costurilor generate de litigii, sancțiuni, controale repetate sau disfunționalități în activitatea adăposturilor. Proiectul nu implică alocări suplimentare de la bugetul de stat.
+
+## 4. Impactul asupra sistemului juridic
+
+Proiectul de lege are un impact pozitiv asupra sistemului juridic, prin clarificarea și completarea cadrului normativ existent. Noile dispoziții sunt correlate cu prevederile actuale ale Ordonanței de urgență nr. 155/2001 și cu legislația în vigoare privind protecția animalelor și regimul contravențional.
+
+Introducerea unor sancțiuni clare pentru nerespectarea obligațiilor privind monitorizarea video și accesul organizațiilor neguvernamentale contribuie la creșterea gradului de conformare voluntară și la aplicarea unitară a legii. Actul normativ nu generează suprapuneri sau conflicte de competență și respectă principiile legalității, proporționalității și securității juridice.
+
+## 5. Consultări derulate în vederea elaborării proiectului de act normativ
+
+La elaborarea proiectului de act normativ au fost avute în vedere observațiile și recomandările formulate în practică de autorități locale, medici veterinari, operatori ai serviciilor pentru gestionarea câinilor fără stăpân, precum și de organizații neguvernamentale active în domeniul protecției animalelor.
+
+De asemenea, proiectul reflectă bune practici existente la nivel european privind utilizarea mijloacelor de supraveghere și implicarea societății civile în monitorizarea activităților cu impact asupra bunăstării animalelor.
+
+## 6. Activitățile de informare publică privind elaborarea și implementarea proiectului de act normativ
+
+Proiectul de act normativ va fi supus procedurilor legale de transparență decizională, potrivit legislației în vigoare, fiind publicat pe site-urile Camerei Deputaților și Senatului și supus dezbaterii publice.
+
+După adoptare, autoritățile administrației publice locale și operatorii serviciilor de gestionare a câinilor fără stăpân vor asigura informarea personalului și a publicului cu privire la noile obligații și drepturi instituite, inclusiv prin afișare în adăposturi și comunicare publică.
+
+## 7. Măsurile de implementare
+
+Implementarea prevederilor proiectului de lege se va realiza prin:
+
+\- dotarea personalului de capturare și din adăposturi cu dispozitive bodycam;
+
+\- instalarea și operarea sistemelor de supraveghere video în adăposturi și padocuri;
+
+\- actualizarea procedurilor interne ale operatorilor serviciilor pentru gestionarea câinilor fâră stăpân;
+
+\- colaborarea cu organizațiile neguvernamentale acreditate de Autoritatea Națională Sanitară Veterinară și pentru Siguranța Alimentelor;
+
+\- exercitarea atribuțiilor de control de către autoritățile competente.
+
+Aplicarea noilor dispoziții se va face gradual, în limitele resurselor disponibile, fără a afecta continuitatea serviciilor publice.
+
+Inițiator,
+
+Corina Atanasiu
+
+## LISTA SEMNĂTURI
+
+L E G E Pentru modificarea și pentru completarea Ordonanței de urgență a Guvernului nr. 155/2001 privind aprobarea programului de gestionare a câinilor fără stăpân
+
+| NR. | DEPUTAT/SENATOR | SEMNĂTURĂ | PARTID |
+| --- | --- | --- | --- |
+| 1. | RUS VASILE-CIPRIAN |  | USR |
+| 2. | CBU DEACONU RUXANDRA |  | USR |
+| 3. | MINDRU CATACIN-EMIL |  | USR |
+| 4. | NEGOI EVGEN REMUS |  | USR |
+| 5. | CRISTIAN GWINIEA |  | USR |
+| 6. | Bodca Havius |  | USL |
+| 7. | ANGHEL RAZAN-UU |  | USR |
+| 8. | BECHILCANU GEORGE-CATALIN |  | USR |
+| 9. | PALADE STEFAN |  | USR |
+| 10. | BIAGA AANIEL |  | USR |
+| 11. | ALEESANDRU MARIUS NICOLAE |  | USR |
+| 12. | Omitiv ALEENIO |  | USR |
+| 13. | UWUVA LONITAU |  | USR |
+| 14. | PLUAR AUDREI |  | USR |
+| 15. | BERESM MONICA |  | USR |
+| 16. | SENIROIV VLAD-IOAN |  | USR |
+| 17. | Smonik Umgunom |  | USL |
+| 18. | CYNTHIA PAUM |  | USR |
+| 19. | MURARIV OANA |  | USR |

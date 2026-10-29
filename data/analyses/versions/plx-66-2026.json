@@ -1,0 +1,229 @@
+{
+  "slug": "plx-66-2026",
+  "billId": "PL-x 66/2026",
+  "updatedAt": "2026-10-29T14:01:10.192Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L559FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Primăriile pot plăti repararea adăposturilor din subsolurile blocurilor",
+      "summaryTlDr": "Lege benignă și utilă: dă primăriilor voie, nu obligația, să repare din bani locali adăposturile civile din blocuri, la cererea asociațiilor de proprietari. Singurul punct slab: banii publici vin fără condiții, adică fără criterii de prioritate, fără aviz tehnic și fără obligația de a păstra adăpostul funcțional.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/000/60/6/se59.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Primăriile pot plăti repararea adăposturilor de protecție civilă din blocuri",
+      "summaryTlDr": "Lege benignă și utilă. Le dă consiliilor locale temei legal să finanțeze sau să repare adăposturile din subsolurile blocurilor, fără să oblige pe nimeni. Slăbiciunea ei: banii publici intră în proprietăți private fără criterii, fără aviz ISU și fără garanția că spațiul rămâne adăpost.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl066_cd066_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Primăria poate plăti repararea adăposturilor din subsolul blocurilor",
+      "summaryTlDr": "Lege scurtă, utilă și benignă: dă primăriilor voie, nu obligația, să plătească sau să facă reparațiile adăposturilor civile din blocuri. Singura problemă reală este că banii publici cheltuiți pe proprietate privată nu au nicio condiție.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Finanțarea adăposturilor din blocuri se aprobă acum prin hotărâre publică de consiliu, nu prin protocol",
+      "summary": "Inițial, autoritățile locale puteau plăti reparații la adăposturile din blocuri printr-un protocol cu asociația. Acum consiliul local decide prin hotărâre publică, la cererea asociației, dar tot fără aviz ISU, criterii sau obligația de a păstra adăpostul.",
+      "changes": [
+        {
+          "title": "Consiliul local decide prin hotărâre, nu prin protocol",
+          "text": "Art. 21 alin. (3¹): inițial, autoritățile locale lucrau pe baza unui protocol cu asociația. Acum consiliul aprobă prin hotărâre, act public controlat de prefect, și doar la cererea asociației.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 21 alin. (3¹)",
+          "before": "în baza unui protocol încheiat cu asociația de proprietari",
+          "after": "La solicitarea asociațiilor de proprietari, autoritățile deliberative ale administrației publice locale pot aproba, prin hotărâre",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Sursa banilor e precizată, dar mecanismul rămâne neclar",
+          "text": "Acum textul spune explicit că banii vin din bugetele locale, ca finanțare sau ca lucrări făcute direct, „după caz”. Nu spune cine alege varianta, cum se decontează banii și cine răspunde de calitate.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 21 alin. (3¹)",
+          "before": "pot aloca fonduri și pot realiza lucrări de reparații și întreținere",
+          "after": "finanțarea din bugetele locale a cheltuielilor necesare pentru reparații și întreținere, respectiv realizarea lucrărilor de reparații și întreținere, după caz",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Se aplică explicit adăposturilor private din blocuri",
+          "text": "Inițial era vorba de fondul de adăpostire din blocuri de locuințe. Acum textul precizează că e vorba de fondul privat de adăpostire din condominii de tip bloc.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 21 alin. (3¹)",
+          "before": "a fondului de adăpostire situat în blocuri de locuințe",
+          "after": "a fondului privat de adăpostire situat în condominiuri de tip bloc",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Nicio obligație de a păstra adăpostul și nicio restituire dacă spațiul e închiriat",
+            "major": true,
+            "article": "art. 21 alin. (3¹)"
+          },
+          {
+            "text": "Fără criterii de prioritate, consiliul alege discreționar blocurile, cu risc clientelar",
+            "major": true,
+            "article": "art. 21 alin. (3¹)"
+          },
+          {
+            "text": "Nu cere aviz ISU pentru lucrări sau că spațiul poate fi adăpost",
+            "major": false,
+            "article": "art. 21 alin. (3¹)"
+          },
+          {
+            "text": "Neclar cine alege între bani și lucrări, cum se decontează, cine răspunde",
+            "major": false,
+            "article": "art. 21 alin. (3¹)"
+          },
+          {
+            "text": "Blocurile din localități cu bugete mici au șanse mai mici la finanțare",
+            "major": false,
+            "article": "art. 21 alin. (3¹)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Creează temeiul legal ca bugetul local să plătească lucrări la adăposturi private",
+            "major": true,
+            "article": "art. 21 alin. (3¹)"
+          },
+          {
+            "text": "Normă facultativă: fără cheltuieli obligatorii, drept la finanțare sau sancțiuni noi",
+            "major": false,
+            "article": "art. 21 alin. (3¹)"
+          },
+          {
+            "text": "Consiliul decide prin hotărâre publică, la cererea asociației, controlabilă de prefect",
+            "major": false,
+            "article": "art. 21 alin. (3¹)"
+          },
+          {
+            "text": "Deținătorii rămân răspunzători legal pentru menținerea adăposturilor",
+            "major": false,
+            "article": "art. 21 alin. (3¹)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 5,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:56:40.212Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a păstrat textul Senatului; primăriile pot plăti reparații la adăposturi, dar fără condiții",
+      "summary": "Forma adoptată de cameră reia textul votat de senat, cu doar mici corecturi de redactare. Consiliile locale pot plăti, la cererea asociației, reparații la adăposturile din blocuri, dar tot fără aviz ISU, criterii de prioritate sau obligația ca spațiul să rămână adăpost.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Nu cere aviz ISU că spațiul poate fi folosit ca adăpost",
+            "major": true,
+            "article": "art. 21 alin. (3¹)"
+          },
+          {
+            "text": "Subsolul renovat din bani publici nu trebuie să rămână adăpost accesibil",
+            "major": true,
+            "article": "art. 21 alin. (3¹)"
+          },
+          {
+            "text": "Nu prevede returnarea banilor dacă spațiului i se schimbă destinația",
+            "major": true,
+            "article": "art. 21 alin. (3¹)"
+          },
+          {
+            "text": "Lipsesc criterii publicate de prioritate între blocurile care cer bani",
+            "major": false,
+            "article": "art. 21 alin. (3¹)"
+          },
+          {
+            "text": "Nu spune cine alege: plată către asociație sau lucrări făcute de primărie",
+            "major": false,
+            "article": "art. 21 alin. (3¹)"
+          },
+          {
+            "text": "Neclar cum se decontează banii și cine răspunde de calitatea lucrărilor",
+            "major": false,
+            "article": "art. 21 alin. (3¹)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Primăriile pot plăti legal reparații la adăposturile din subsolurile blocurilor",
+            "major": true,
+            "article": "art. 21 alin. (3¹)"
+          },
+          {
+            "text": "Finanțarea e facultativă: consiliul local decide, primăria nu e obligată să plătească",
+            "major": false,
+            "article": "art. 21 alin. (3¹)"
+          },
+          {
+            "text": "Banii se dau doar la cererea asociației de proprietari",
+            "major": false,
+            "article": "art. 21 alin. (3¹)"
+          },
+          {
+            "text": "Nu aduce taxe, sancțiuni sau obligații noi pentru cetățeni ori firme",
+            "major": false,
+            "article": "art. 21 alin. (3¹)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 3,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:57:06.668Z"
+    }
+  ]
+}

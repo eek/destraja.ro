@@ -1,0 +1,225 @@
+{
+  "slug": "plx-108-2026",
+  "billId": "PL-x 108/2026",
+  "updatedAt": "2026-10-29T14:09:28.535Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L635FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 1.7,
+      "riskLevel": "green",
+      "plainTitle": "15 iunie devine zi de comemorare a victimelor Mineriadei din 1990",
+      "summaryTlDr": "Lege simbolică și utilă, fără costuri pentru cetățeni sau firme: nu creează zi liberă, nu are sancțiuni, iar cheltuielile rămân opționale. Problemele țin de redactare și de obligația ca TVR și radioul public să difuzeze emisiuni, care atinge puțin autonomia lor editorială.",
+      "scores": {
+        "agy": 1,
+        "claude": 2,
+        "codex": 2
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/00/8/se136.pdf",
+      "source": "cdep.ro",
+      "riskScore": 1.7,
+      "riskLevel": "green",
+      "plainTitle": "15 iunie devine zi națională de comemorare a victimelor Mineriadei din 1990",
+      "summaryTlDr": "Lege comemorativă benignă: nu creează taxe, sancțiuni sau obligații pentru cetățeni ori firme. Are doar scăpări de tehnică legislativă. Cea mai importantă este obligația impusă televiziunii și radioului public de a difuza emisiuni, care atinge autonomia lor editorială. Se adaugă denumiri instituționale și bugetare imprecise.",
+      "scores": {
+        "agy": 1,
+        "claude": 2,
+        "codex": 2
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl108_cd108_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 1,
+      "riskLevel": "green",
+      "plainTitle": "15 iunie devine zi oficială de comemorare a victimelor Mineriadei din 1990",
+      "summaryTlDr": "Lege simbolică și benignă. Instituie o zi de memorie fără zi liberă, fără obligații și fără sancțiuni. Singurul reproș este că scopul educativ declarat nu are niciun mecanism care să-l pună în practică.",
+      "scores": {
+        "agy": 1,
+        "claude": 1,
+        "codex": 1
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a adoptat textul inițiatorului fără nicio schimbare de fond",
+      "summary": "Senatul a păstrat textul inițial; s-au schimbat doar ghilimele, diacritice și formula de adoptare. Ziua rămâne doar comemorativă, fără zi liberă, dar televiziunea și radioul public rămân obligate la emisiuni gratuite, iar drapelul în bernă rămâne obligatoriu.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Televiziunea și radioul public sunt obligate să difuzeze gratuit emisiuni tematice",
+            "major": true,
+            "article": "art. 2 alin. (2)"
+          },
+          {
+            "text": "Drapel în bernă obligatoriu anual la toate instituțiile publice, necorelat cu Legea nr. 75/1994",
+            "major": true,
+            "article": "art. 2 alin. (3)"
+          },
+          {
+            "text": "Denumirile „Televiziunea Română” și „Radioul Public” nu corespund entităților din Legea nr. 41/1994",
+            "major": false,
+            "article": "art. 2 alin. (2)"
+          },
+          {
+            "text": "Nu se precizează față de cine este gratuită difuzarea",
+            "major": false,
+            "article": "art. 2 alin. (2)"
+          },
+          {
+            "text": "Nu se precizează orele sau procedura arborării drapelului în bernă",
+            "major": false,
+            "article": "art. 2 alin. (3)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Zi doar comemorativă, nu zi liberă; angajatorii nu au obligații sau costuri noi",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Autoritățile, școlile, presa și ONG-urile sunt doar invitate, fără obligații sau sancțiuni",
+            "major": true,
+            "article": "art. 2 alin. (1)"
+          },
+          {
+            "text": "Cheltuielile se fac doar în limita fondurilor aprobate anual",
+            "major": false,
+            "article": "art. 3"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 6,
+        "removed": 9,
+        "same": 0.14
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T14:01:04.046Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_putin_riscant",
+      "headline": "Ziua devine facultativă: TVR și radioul nu mai trebuie să difuzeze emisiuni, iar drapelul în bernă dispare",
+      "summary": "Inițial, radioul și televiziunea publică erau obligate să difuzeze gratuit emisiuni, iar instituțiile publice să arboreze drapelul în bernă; acum totul, inclusiv finanțarea, e facultativ. Pentru cetățeni și firme legea rămâne fără costuri.",
+      "changes": [
+        {
+          "title": "Emisiunile la TVR și radio public devin facultative",
+          "text": "La art. 2 alin. (2), obligația de a difuza gratuit emisiuni tematice devine o posibilitate („pot difuza”). Televiziunea și radioul public sunt acum numite corect, ca în Legea nr. 41/1994.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 2 alin. (2)",
+          "before": "Televiziunea Română și Radioul Public difuzează, gratuit, emisiuni tematice despre evenimentele din 13-15 iunie 1990.",
+          "after": "Societatea Română de Televiziune și Societatea Română de Radiodifuziune pot difuza emisiuni tematice despre evenimentele din 13-15 iunie 1990.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Nu mai e obligatoriu drapelul în bernă",
+          "text": "A fost eliminat alin. (3) al art. 2. El obliga instituțiile publice să arboreze anual drapelul în bernă, fără corelare cu Legea nr. 75/1994 și fără să precizeze intervalul.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 2 alin. (3)",
+          "before": "Drapelul național va fi arborat în bernă la instituțiile publice centrale și locale.",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Finanțarea din bugete publice devine opțională",
+          "text": "La art. 3, finanțarea din bugetele centrale și locale nu se mai „asigură”, ci „se poate asigura”, doar din fonduri aprobate anual cu această destinație.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 3",
+          "before": "Finanțarea cheltuielilor pentru organizarea manifestărilor se asigură din bugetele locale și centrale, în limita fondurilor aprobate anual.",
+          "after": "Finanțarea cheltuielilor pentru organizarea manifestărilor se poate asigura din bugetele autorităților administrației publice centrale și locale, în limita fondurilor aprobate anual cu această destinație.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dispare mențiunea că statul a orchestrat represiunea",
+          "text": "La art. 1, scopul zilei nu mai spune că represiunea a fost „orchestrată de stat”. Schimbarea ține doar de formularea declarativă și nu atinge drepturi sau obligații.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 1",
+          "before": "cu scopul de a cinsti memoria victimelor represiunii violente orchestrate de stat în iunie 1990",
+          "after": "cu scopul de a cinsti memoria victimelor represiunii violente din iunie 1990",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Manifestările rămân facultative, cu formulare mai clară",
+          "text": "La art. 2 alin. (1), „sunt invitate să organizeze” devine „pot organiza”. Lista numește explicit instituțiile publice și unitățile de învățământ. Nu apare nicio obligație nouă.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 2 alin. (1)",
+          "before": "autoritățile publice, instituțiile de învățământ, mass-media și organizațiile neguvernamentale sunt invitate să organizeze manifestări culturale, educative și comemorative",
+          "after": "autoritățile și instituțiile publice, unitățile și instituțiile de învățământ, mass-media și organizațiile neguvernamentale pot organiza manifestări culturale, educative și comemorative",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [],
+        "good": [
+          {
+            "text": "Ziua e doar comemorativă, nu zi liberă; angajatorii nu au costuri",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Toate manifestările sunt facultative, fără obligații pentru instituții sau școli",
+            "major": true,
+            "article": "art. 2 alin. (1)"
+          },
+          {
+            "text": "TVR și radioul public pot difuza emisiuni; independența editorială rămâne neatinsă",
+            "major": true,
+            "article": "art. 2 alin. (2)"
+          },
+          {
+            "text": "Cheltuielile publice sunt opționale, în limita fondurilor aprobate anual; nu cer surse noi",
+            "major": true,
+            "article": "art. 3"
+          },
+          {
+            "text": "Nu incriminează negarea evenimentelor și nu numește vinovați; efect strict memorial",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Societățile publice de radio și televiziune sunt numite corect, ca în Legea 41/1994",
+            "major": false,
+            "article": "art. 2 alin. (2)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 7,
+        "removed": 7,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T14:02:15.490Z"
+    }
+  ]
+}

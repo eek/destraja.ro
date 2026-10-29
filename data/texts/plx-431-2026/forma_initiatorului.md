@@ -1,0 +1,13 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENATUL
+
+LEGE
+
+pentru aprobarea Ordonanței de urgență a Guvernului nr. 36/2026 privind măsuri în vederea accelerării implementării investițiilor finanțate prin Planul național de redresare și reziliență la nivelul autorităților administrației publice locale, prin asigurarea lichidității temporare prin împrumuturi pe termen scurt, acordate de Ministerul Finanțelor
+
+Parlamentul României adoptă prezenta lege:
+
+Articol unic. – Se aprobă Ordonanța de urgență a Guvernului nr. 36 /2026 privind măsuri în vederea accelerării implementării investițiilor finanțate prin Planul național de redresare și reziliență la nivelul autorităților administrației publice locale, prin asigurarea lichidității temporare prin împrumuturi pe termen scurt, acordate de Ministerul Finanțelor.

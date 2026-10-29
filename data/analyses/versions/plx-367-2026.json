@@ -1,0 +1,122 @@
+{
+  "slug": "plx-367-2026",
+  "billId": "PL-x 367/2026",
+  "updatedAt": "2026-10-29T13:07:46.615Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L234FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Zone noi pentru protejarea naturii, cerute de PNRR, și geoparcurile scoase din lista ariilor protejate",
+      "summaryTlDr": "Lege utilă și în mare parte tehnică: dă României cadrul legal pentru zonele de natură cerute de UE și de PNRR. Problema este că restricțiile pe terenurile private vor fi stabilite prin ordin de ministru, iar compensațiile sunt doar promise, fără termen și fără bani garantați.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/300/60/7/se401.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Zone noi de protecție a naturii cerute de PNRR și scoaterea geoparcurilor dintre ariile protejate",
+      "summaryTlDr": "Lege în mare tehnică și utilă: preia conceptul UE de „protecție strictă” sub alt nume, ca să nu fie confundat cu zonele intangibile din parcuri. Problema e la proprietari: restricțiile vin prin ordin de ministru, iar compensațiile depind de o HG fără termen și de cât se alocă în buget.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat ordonanța fără modificări; compensațiile depind tot de o HG fără termen",
+      "summary": "Senatul a aprobat ordonanța așa cum a trimis-o Guvernul. Legea de aprobare precizează acum doar data ordonanței și Monitorul Oficial în care a apărut. Riscurile rămân: restricții pe terenuri, cu compensații care depind de o HG fără termen și de bugetul disponibil.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Compensațiile depind de o HG fără termen și de bani la buget",
+            "major": true,
+            "article": "art. I pct. 8 (art. 26 alin. (1¹))"
+          },
+          {
+            "text": "UAT-urile proprietare și arendașii sau chiriașii de pajiști nu primesc compensații",
+            "major": true,
+            "article": "art. I pct. 8 (art. 26 alin. (1¹))"
+          },
+          {
+            "text": "La suprapuneri nu e clar ce sumă se plătește",
+            "major": true,
+            "article": "art. I pct. 8 (art. 26 alin. (1²))"
+          },
+          {
+            "text": "Legea nu spune ce activități pot fi limitate în zonele prioritare",
+            "major": true,
+            "article": "art. I pct. 1 (art. 4 pct. 41)"
+          },
+          {
+            "text": "Protecția față de presiuni „din afară” poate restrânge și terenurile învecinate",
+            "major": true,
+            "article": "art. I pct. 1 (art. 4 pct. 41)"
+          },
+          {
+            "text": "Zonele pot fi desemnate și în afara ariilor protejate existente",
+            "major": true,
+            "article": "art. I pct. 9 (art. 40¹–40²)"
+          },
+          {
+            "text": "Nu se spune dacă ghidul pentru păduri e obligatoriu pentru proprietari",
+            "major": true,
+            "article": "art. I pct. 7 (art. 24 alin. (1¹))"
+          },
+          {
+            "text": "Desemnare prin ordin de ministru; Agricultura avizează doar pajiștile permanente",
+            "major": false,
+            "article": "art. I pct. 9 (art. 40¹–40²)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Proprietarii privați și concesionarii au dreptul la compensații pentru restricții",
+            "major": true,
+            "article": "art. I pct. 8 (art. 26 alin. (1¹))"
+          },
+          {
+            "text": "Zonele prioritare sunt distincte de zonele de protecție strictă din parcuri",
+            "major": false,
+            "article": "art. I pct. 1 (art. 4 pct. 41)"
+          },
+          {
+            "text": "Metodologia de desemnare cere avizul Academiei Române",
+            "major": false,
+            "article": "art. I pct. 9 (art. 40¹–40²)"
+          },
+          {
+            "text": "Introduce zonele strict protejate cerute de Strategia UE 2030 și PNRR",
+            "major": false,
+            "article": "art. I pct. 1 (art. 4 pct. 41)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:07:46.614Z"
+    }
+  ]
+}

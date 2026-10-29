@@ -1,0 +1,187 @@
+{
+  "slug": "plx-414-2026",
+  "billId": "PL-x 414/2026",
+  "updatedAt": "2026-10-29T12:35:40.295Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L233FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 7.3,
+      "riskLevel": "red",
+      "plainTitle": "ONG-urile ar trebui să publice numele tuturor donatorilor, fără niciun prag",
+      "summaryTlDr": "Transparența banilor publici primiți de ONG-uri e un scop legitim. Textul însă cere publicarea online a numelui fiecărui donator și membru cotizant, indiferent de sumă, fără prag, fără termene și fără sancțiune. Așa cum e scris, intră disproporționat în viața privată și în libertatea de asociere și e vulnerabil la CCR și în fața dreptului UE.",
+      "scores": {
+        "agy": 8,
+        "claude": 7,
+        "codex": 7
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/10/4/se447.pdf",
+      "source": "cdep.ro",
+      "riskScore": 8.3,
+      "riskLevel": "red",
+      "plainTitle": "ONG-urile, obligate să-și publice anual finanțatorii, sub amenințarea desființării automate",
+      "summaryTlDr": "Transparența banilor ONG-urilor e un scop legitim, iar textul tratează la fel sursele românești și pe cele străine. Legea e însă vagă, publică pe site-ul ANAF numele donatorilor fără limită de timp și pedepsește o declarație nedepusă cu suspendarea și apoi dizolvarea automată a organizației, fără judecător. Sancțiunea este disproporționată.",
+      "scores": {
+        "agy": 9,
+        "claude": 7,
+        "codex": 9
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_riscant",
+      "headline": "Senatul a adăugat suspendarea și dizolvarea automată a ONG-urilor care nu-și declară finanțatorii",
+      "summary": "Acum, o asociație sau fundație care nu depune declarația de venituri e suspendată de drept și dizolvată după un an, fără instanță. Donatorii persoane fizice cu sume de până la 5.000 lei nu mai sunt identificați, dar ceilalți apar în continuare cu numele, acum pe site-ul ANAF.",
+      "changes": [
+        {
+          "title": "ONG-urile pot fi suspendate și dizolvate fără instanță",
+          "text": "Inițial nu exista nicio sancțiune. Acum, art. 48² alin. (3): fără declarație, activitatea se suspendă de drept, iar după un an organizația e dizolvată de drept, fără somație sau instanță.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 48² alin. (3)",
+          "before": null,
+          "after": "Nerespectarea obligației prevăzute la alin.(1) atrage suspendarea de drept a activității persoanei juridice până la momentul conformării, dar nu mai mult de un an, după care aceasta este dizolvată de drept.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Micii donatori persoane fizice nu mai sunt identificați",
+          "text": "Art. 48² alin. (1): inițial orice persoană fizică era identificată; acum doar pentru sume de peste 5.000 lei. Nu e clar dacă pragul e pe donație sau anual, iar persoanele juridice rămân fără prag.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 48² alin. (1)",
+          "before": "cu precizarea tuturor elementelor de identificare ale persoanelor fizice și juridice",
+          "after": "cu precizarea tuturor elementelor de identificare ale persoanelor fizice - pentru sume mai mari de 5.000 de lei, și juridice",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Declarație anuală pentru veniturile din anul anterior",
+          "text": "Art. 48² alin. (1): lista fără perioadă devine o declarație anuală pentru veniturile din anul anterior. Lipsind o normă tranzitorie, prima declarație ar cuprinde donații dinainte de lege.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 48² alin. (1)",
+          "before": "au obligația să întocmească o listă care să evidențieze toate veniturile și sursele de finanțare ale acestora, indiferent de proveniența lor",
+          "after": "au obligația să depună anual, o declarație cu privire la toate veniturile și sursele de finanțare ale acestora din anul anterior, indiferent de proveniența lor",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Declarația merge la ANAF, nu la Ministerul Finanțelor",
+          "text": "Art. 48² alin. (2): declarația se depune la structurile teritoriale ANAF și se publică pe site-ul ANAF, nu pe al Ministerului Finanțelor Publice. Numele persoanelor fizice se publică în continuare.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 48² alin. (2)",
+          "before": "Lista se depune la Ministerul Finanțelor Publice odată cu situațiile financiare anuale și se publică într-o secțiune specială pe pagina de internet a Ministerului Finanțelor Publice.",
+          "after": "Declarația se depune la structurile territoriale ale Agenției Naționale de Administrare Fiscală odată cu situațiile financiare anuale și se publică într-o secțiune specială pe pagina de internet a Agenției Naționale de Administrare Fiscală.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Suspendare și dizolvare de drept fără somație, amendă sau hotărâre judecătorească",
+            "major": true,
+            "article": "art. 48² alin. (3)"
+          },
+          {
+            "text": "Numele donatorilor se publică pe site-ul ANAF fără limită de timp",
+            "major": true,
+            "article": "art. 48² alin. (2)"
+          },
+          {
+            "text": "Apariția pe listă poate dezvălui sănătatea, credința sau orientarea donatorilor",
+            "major": true,
+            "article": "art. 48² alin. (2)"
+          },
+          {
+            "text": "Persoanele juridice finanțatoare se identifică la orice sumă, fără prag",
+            "major": true,
+            "article": "art. 48² alin. (1)"
+          },
+          {
+            "text": "„Toate veniturile” poate cuprinde cotizații, dobânzi și clienții activității economice",
+            "major": true,
+            "article": "art. 48² alin. (1)"
+          },
+          {
+            "text": "„Elementele de identificare” nedefinite: ONG-urile ar putea colecta CNP-uri, contrar minimizării GDPR",
+            "major": true,
+            "article": "art. 48² alin. (1)"
+          },
+          {
+            "text": "Fără normă tranzitorie: prima declarație vizează donații făcute înainte de lege",
+            "major": true,
+            "article": "art. II"
+          },
+          {
+            "text": "Neclar ce devin angajații, contractele, proiectele UE și serviciile sociale la suspendare",
+            "major": true,
+            "article": "art. 48² alin. (3)"
+          },
+          {
+            "text": "Nu se precizează cine constată suspendarea activității",
+            "major": false,
+            "article": "art. 48² alin. (3)"
+          },
+          {
+            "text": "Neclar dacă pragul de 5.000 lei e pe donație sau anual; ocolire prin fracționare",
+            "major": false,
+            "article": "art. 48² alin. (1)"
+          },
+          {
+            "text": "Lipsesc formatul declarației, termenul de publicare și normele de aplicare",
+            "major": false,
+            "article": "art. 48²"
+          },
+          {
+            "text": "Obligație împovărătoare pentru ONG-urile mici, fără personal",
+            "major": false,
+            "article": "art. 48² alin. (1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Persoanele fizice cu sume de până la 5.000 lei nu mai sunt identificate",
+            "major": true,
+            "article": "art. 48² alin. (1)"
+          },
+          {
+            "text": "Perioada e clară: declarație anuală pentru veniturile din anul anterior",
+            "major": false,
+            "article": "art. 48² alin. (1)"
+          },
+          {
+            "text": "Se știe unde se depune: la ANAF, odată cu situațiile financiare",
+            "major": false,
+            "article": "art. 48² alin. (2)"
+          },
+          {
+            "text": "În afară de nume, datele personale ale donatorilor nu se publică",
+            "major": false,
+            "article": "art. 48² alin. (2)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 7,
+        "removed": 5,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:33:50.896Z"
+    }
+  ]
+}

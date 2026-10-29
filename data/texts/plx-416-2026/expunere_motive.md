@@ -1,0 +1,115 @@
+# EXPUNERE DE MOTIVE
+
+Prezenta inițiativă legislativă are ca obiect întărirea cadrului sancționator aplicabil infracțiunilor sexuale având ca subiect pasiv minorii, prin majorarea limitelor de pedeapsă și corelarea acestora cu gravitatea excepțională a faptelor și cu obligațiile internaționale asumate de statul român.
+
+Abuzul sexual și exploatarea sexuală a copiilor, inclusiv pornografia infantilă, constituie încălcări grave ale drepturilor fundamentale ale copilului, în special ale dreptului la protecție, la dezvoltare armonioasă și la demnitate. Conform art. 34 din Convenția Organizației Națiunilor Unite cu privire la drepturile copilului, statele părți se angajează să protejeze copilul împotriva oricărei forme de exploatare și abuz sexual. Carta Drepturilor Fundamentale a Uniunii Europene consacră, la art. 24 alin. (2), principiul potrivit căruia interesul superior al copilului trebuie să prevaleze în toate acțiunile care îl privesc.
+
+Aceste obligații nu au un caracter declarativ. Ele impun adoptarea unor măsuri legislative effective, proporționale și descurajante, capabile să reflecte gravitatea deosebită a infracțiunilor sexuale comise asupra minorilor și să asigure o protecție reală, nu formală.
+
+Evoluția fenomenului infracțional, în special prin utilizarea noilor tehnologii și a internetului, amplifică riscurile la care sunt expuși minorii. Pornografia infantilă, ademenirea online în scopuri sexuale (grooming), exploatarea în scopuri comerciale sau de trafic sunt forme de criminalitate care beneficiază de anonimat, rapiditate și caracter transfrontalier. Directiva 2011/93/UE impune statelor membre să prevadă sancțiuni penale adecvate, eficiente și disuasive, stabilind că limitele maxime ale pedepsei trebuie să se aplice cel puțin celor mai grave forme ale acestor infracțiuni.
+
+În acest context, menținerea unor limite de pedeapsă insuficient calibrate în raport cu pericolul social al faptelor afectează atât funcția preventivă, cât și pe cea represivă a dreptului penal. Infracțiunile sexuale împotriva minorilor nu reprezintă simple atingeri aduse libertății sexuale, ci traume profunde, cu efecte pe termen lung asupra dezvoltării psihice, emoționale și sociale a victimelor. Statul are obligația pozitivă de a răspunde ferm unor astfel de conduite, printr-un regim sancționator care să exprime dezaprobarea socială maximă și să descurajeze reiterarea acestora.
+
+Experiența comparată demonstrează o tendință clară de înăsprire a tratamentului penal pentru astfel de infracțiuni. În Germania, în ipoteza în care abuzul sexual asupra minorului conduce la decesul victimei, pedeapsa este detențiunea pe viață. În Franța, violul asupra unui minor care provoacă moartea este sancționat cu 30 de ani de detenție, iar dacă este însoțit de acte de tortură sau barbarie, cu detențiune pe viață. De asemenea, sunt prevăzute sancțiuni pecuniare suplimentare pentru agresiunile sexuale asupra minorilor, iar politica penală include măsuri ferme de prevenire a comportamentelor cu potențial abuziv.
+
+În alte state, precum Polonia, sunt instituite măsuri complementare de natură medicală pentru diminuarea pulsiunilor sexuale în cazul pedofililor și al autorilor unor infracțiuni de incest. Aceste exemple reflectă o abordare legislativă centrată pe protecția prioritară a minorului și pe prevenirea recidivei.
+
+În plan european, neimplementarea integrală a Directivei 2011/93/UE a determinat declanșarea procedurilor de infringement împotriva mai multor state membre, ceea ce subliniază importanța alinierii effective a legislațiilor naționale la standardele minime impuse la nivelul Uniunii. Creșterea pedepselor pentru infrațiuile sexuale împotriva minorilor reprezintă o etapă necesară în consolidarea acestui cadru normativ și în asigurarea conformității cu obligațiile asumate.
+
+Prin prezenta inițiativă se urmărește consolidarea funcției de prevenție generală și specială a pedepsei, reafirmarea priorității interesului superior al copilului și transmiterea unui mesaj normativ clar: orice atingere adusă integrității sexuale a minorului va fi sancționată cu maximă fermitate.
+
+Într-un stat de drept, protecția copiilor nu poate fi relativizată. Gravitatea acestor infracțiuni impune o reacție legislativă pe măsură, aptă să reflecte valoarea supremă a demnității și integrității copilului și să asigure un nivel ridicat de protecție, în acord cu standardele internaționale și europene.
+
+INITIATORI:
+
+Deputat AUR Florin-Bogdan Velcescu \_\_\_\_
+
+Deputat AUR Cosmin Teodor Iosub \_\_\_\_
+
+Deputat AUR Cristina Irina Butură \_\_\_\_
+
+Deputat AUR Ariadna Elena Cîrligeanu \_\_\_\_
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1. | Simion GEORGE NICOCAE | AUR |  |
+| 2. | Vulpoiu Dorel | AUR |  |
+| 3. | VASIH - TUBOR LIBIA | AUR |  |
+| 4. | PARASCHIV CUPRAU GTIN | AUR |  |
+| 5. | PUSEAȘU PETRE | AVR |  |
+| 6. | AVRÂMESCU SÜSPÁNIRÂ - ACIU | AUR |  |
+| 7. | MUSA DPU-LCEIAN | AUR |  |
+| 8. | GHO fu VELONIA | AUR |  |
+| 9. | TILEA JTEP | AUR |  |
+| 10. | GHEORGHE IONEL | AUR |  |
+| 11. | MiHDRESCU.MIC. | AUR |  |
+| 12. | Constantineau Andra - cloud | AUR |  |
+| 13. | JOSOȘ EVENA | AUR |  |
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1h. | TANASA DAM | AUR |  |
+| 15. | GURLUI' A'LYVIU - OCTAVIAN | AUR |  |
+| 16. | LOVIH LAMOHA | AUR |  |
+| 17. | 'NAGAL MONICIA | AUR |  |
+| 18. | BARSITAN TIB-RAIV | AUR |  |
+| 19. | Priesuu lonelica | AUR |  |
+| 20. | HRISTU COSMIN | AUR |  |
+| 21. | SOSUZENIA | AUR |  |
+| 22. | MITREA DUMITRINA | AUR |  |
+| 23. | DASCALU CRISTINA | AUR |  |
+| 24. | COLESA I'IE-ALIN | AUR |  |
+| 25. | BIRO DANIEL-RAZVAN | AUR |  |
+| 26. | PASCARIU MIHAI-COSMIN | AUR |  |
+
+LISTA Susținătorilor propunerii legislative — Lege pentru modificarea Legii nr. 286/2009
+
+privind Codul penal
+
+Nr. Numele și prenumele Grupul Semnătura parlamentar
+
+CARMEL inte kUP-
+
+Roawona\_\_ oaua a fure.
+
+Reduta Ss ENAGHE TRUA —
+
+'= [= Piz
+
+April | Au - PI E STITE AUR
+
+Susținătorilor propunerii legislative - Lege pentru modificarea Legii nr. 286/2009
+
+LISTA
+
+privind Codul
+
+penal
+
+Numele și prenumele
+
+Grupul
+
+| eu TEPișd- GABRice n 2. | lati Soei AUR: | = Roracoii AT AUP 7, co O. iritat AUR 6 MISU entomy | ful + | STOc4 CrPeriu | AUR. & | VAS/ic HARAN AUR d. Pe Acta ee) | E 0 ROMII, a esTin | E UI | Mseca Ne A ANS IA, Th E ut 5 | Bond M. lord: | ASR
+
+Semnătura
+
+LISTA Susținătorilor propunerii legislative - Lege pentru modificarea Legii nr. 286/2009
+
+privind Codul penal
+
+Nr. Numele și prenumele Grupul Semnătura parlamentar
+
+ll Gotdâroa vu A |
+
+sos an FERIANOZS
+
+DOING va colt ,
+
+(b E =) POS OR SAW FII
+
+SAR pp AU
+
+20 | \_DUTZESAL ztetaa AUR
+
+SI Dl Labe | ue

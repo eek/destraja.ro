@@ -1,0 +1,107 @@
+{
+  "slug": "plx-226-2026",
+  "billId": "PL-x 226/2026",
+  "updatedAt": "2026-10-29T12:51:38.975Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L006FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Bon fiscal în autocar, licență pentru aplicațiile de bilete și certificat pentru șoferii de dube în transport internațional",
+      "summaryTlDr": "Ordonanța e în mare parte tehnică: curăță OG 27/2011 după liberalizarea curselor interjudețene și face sancțiunea pentru lipsa casei de marcat mai proporțională, pentru că oprește doar autobuzul, nu toată firma. În schimb adaugă un certificat național pentru șoferii de dube de peste 2,5 t, licențiază aplicațiile de bilete și limitează, printr-o formulare vagă, îmbarcarea pasagerilor locali pe cursele interjudețene.",
+      "scores": {
+        "agy": 6,
+        "claude": 4,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/200/20/6/se251.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Reguli noi pentru autocare, aplicații de bilete și dubele de peste 2,5 tone",
+      "summaryTlDr": "Ordonanța este în mare parte tehnică și utilă. Curăță trimiteri depășite, aliniază dubele la regulile UE și face mai proporțională sancțiunea pentru lipsa casei de marcat. Riscurile reale sunt două: condiția vagă care îi poate împiedica pe localnici să urce în autocarele interjudețene și licențierea aplicațiilor de bilete, fără o analiză vizibilă de proporționalitate sau o notificare TRIS.",
+      "scores": {
+        "agy": 6,
+        "claude": 4,
+        "codex": 6
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a aprobat ordonanța fără modificări; diferențele față de forma inițială sunt doar de formă",
+      "summary": "Senatul a aprobat OG 5/2026 exact cum a propus Guvernul și a adăugat doar data ordonanței și numărul Monitorului Oficial. Riscurile rămân aceleași: CPP pentru șoferii de dube, licență pentru aplicațiile de bilete și casă de marcat în fiecare autocar.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "CPP obligatoriu pentru șoferii B/BE peste 2,5 t, cerință națională care costă firmele mici",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Licență obligatorie pentru aplicațiile de bilete: barieră pentru start-up-uri, greu aplicabilă platformelor UE",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Casă de marcat obligatorie în fiecare vehicul, cost greu pentru operatorii mici",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Criteriul „nu există cursă atribuită” e nedefinit și poate lăsa satele cu mai puține curse",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Imobilizarea vehiculului fără termen maxim și fără soluție pentru pasagerii aflați în cursă",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Intermediarii de bilete devin identificabili și sancționabili, deci transportul e mai ușor de controlat",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Bonul fiscal sau biletul online fac încasările din transport trasabile",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Fără casă de marcat se suspendă doar vehiculul găsit, nu toată flota",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Dispare „programul de transport”, înlocuit de rețeaua de mobilitate rutieră națională, fără costuri noi",
+            "major": false,
+            "article": "art. 3 pct. 33 din OG 27/2011"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T12:51:04.186Z"
+    }
+  ]
+}

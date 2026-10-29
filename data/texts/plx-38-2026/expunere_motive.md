@@ -1,0 +1,67 @@
+EXPUNERE DE MOTIVE
+
+Secțiunea 1 Titlul proiectului de act normativ
+
+LEGE pentru aprobarea Ordonanței de urgență privind unele măsuri fiscal-bugetare
+
+Secțiunea a 2-a Motivele emiterii proiectului de act normativ
+
+2.1. Sursa | Programul de Guvernare 2025 - 2028, prevăzut în anexa nr. 2 la proiectului de act | Hotărârea Parlamentului nr. 25/2025 pentru acordarea încrederii normativ | Guvernului (Sectiunea Apărare, subsectiunea Obiective generale, pct. 3 si 5). 2.2.Descrierea | Ordonanța Guvernului nr. 26/2013 privind întărirea disciplinei situației actuale | financiare la nivelul unor operatori economici la care statul sau unitățile administrativ-teritoriale sunt acționari unici ori majoritari sau dețin direct ori indirect o participație majoritară, cu modificările și completările ulterioare, introduce prin prevederile art. 4 alin. (9) obligații referitoare la suspendarea alocării de fonduri de la bugetul de stat pentru operatorii economici aflați în subordinea, în coordonarea sau sub autoritatea organelor administrației publice centrale și care nu respectă termenele impuse pentru aprobarea bugetelor de venituri și cheltuieli. Infrastructura aeroportuară aflată în administrarea operatorilor economici aflați în subordinea, în coordonarea sau sub autoritatea organelor administrației publice centrale este utilizată frecvent și la activități suport pentru operațiunile aeriene militare, eserestet inclusiv de poliție aeriană, existand obligația menținera infrastructuri în stare operațională, la standarde de sigurantă și securitate, 24 de ore din 24, 7 zile din 7. OMÂNIA 1 JARNY
+
+Aplicarea dispozițiilor art. 4 alin. (9) din Ordonanța Guvernului nr. 26/2013 în cazul operatorilor economici aflați în subordinea, în coordonarea sau sub autoritatea organelor administrației publice centrale și care au în administrare infrastructură aeroportuară, utilizată și la activități suport pentru operațiunile aeriene militare esențiale, poate conduce la disfuncționalități majore în activitatea acestora, mergând până la imposibilitatea menținerii infrastructurii aeroportuare în stare operațională în mod continuu, ceea ce poate afecta procesul de consolidare a rolului României de furnizor de securitate în regiunea și de stat membru activ și responsabil în cadrul NATO. De asemenea, lipsa gravă a resurselor financiare, respectiv a lichidităților, în perioada imediat următoare, este de natură a conduce la neachitarea drepturilor salariale și de personal, precum și a facturilor către furnizorii de utilități, cu riscul sistării furnizării acestora, ceea ce va avea repercusiuni majore asupra activităților curente desfășurate de acești operatori economici. 2.3 Schimbări | Se propune ca, prin derogare de la dispozițiile art. 4 alin. (9) preconizate | din Ordonanța Guvernului nr. 26/2013, pentru situațiile în care în anul 2025 nu au fost îndeplinite cerințele prevăzute la art. (7') din ordonanță, până la data de 31.12.2025 să poată fi alocate fonduri de la bugetul de stat operatorilor economici aflați în subordinea, în coordonarea sau sub autoritatea organelor administrației publice centrale și care au în administrare infrastructură aeroportuară. Adaptarea alocărilor pentru acces suplimentar la împrumuturi din venituri din privatizarea, în condițiile necesităților mai mari pentru finanțarea sistemelor de termoficare în sezonul rece 2025- 2026, precum și actualizarea unor plafoane pentru UAT-urile mari, cât și pentru asigurarea cofinanțărilor pentru proiectele pe fonduri europene, respectiv: • suplimentarea alocării pentru termie cu 150 milioane lei; • suplimentarea alocării pentru asigurarea cofinanțărilor pe fonduri europene cu 100 milioane lei. .Actualizarea legislației finanțelor publice la condițiile de închidere a exercițiului bugetar exclusiv pentru anul 2025, prin flexibilizarea virărilor între capitole la titlul Cheltuieli de personal", în limita creditelor aprobate, pentru evitarea unor eventuale blocaje salariale generate de redistribuiri interne, respectiv prelungirea termenului pentru anularea creditelor bugetare si de angajament aferent sarcinilor desființate sau amânate (virarea la Fondul de Rezerva Bugetara al Guvernului).
+
+Elementele care vizează o situație de urge ąȘì'èxt | dinară, a cărei reglementare nu poate fi amânată: ROMANIA 2 IMINTAI
+
+Aplicarea restricțiilor de finanțare de la bugetul de stat prevăzute la art. 4 alin. (9) din Ordonanța Guvernului nr. 26/2013, în cazul operatorilor economici aflați în subordinea, în coordonarea sau sub autoritatea organelor administrației publice centrale și care au în administrare infrastructură aeroportuară, utilizată în mod frecvent și în activități suport pentru operațiunile aeriene militare esențiale, inclusiv de poliție aeriană, și cărora nu li s-a aprobat bugetul de venituri și cheltuieli pe anul 2025 în conformitate cu cerințele prevăzute la art. 4 alin. (7') din ordonantă, poate crea sincope majore în finanțarea acestora, putând conduce la întreruperea temporară a activităților specifice, ceea ce reprezintă un risc semnificativ la adresa securității naționale și constituie o circumstanță extraordinară a cărei reglementare nu poate fi amânată. .
+
+2.4. Alte informații Nu este cazul
+
+Secțiunea a 3-a Impactul socioeconomic al proiectului de act normativ
+
+3.1. Descrierea | Proiectul de act normativ nu are impact în acest domeniu generală a beneficiilor și a costurilor estimate ca urmare a intrării în vigoare | actului normativ 3.2 Impactul social | Proiectul de act normativ nu are impact în acest domeniu 3.3.Impactul | asupra Proiectul de act normativ nu are impact în acest domeniu drepturilor libertăților fundamentale | ale omului 3.4.Impactul | Proiectul de act normativ nu are impact în acest domeniu macroeconomic 3.4.1.Impactul asupra Proiectul de act normativ nu are impact în acest domeniu economiei și asupra principalilor indicatori macroeconomici 3.4.2. Impactul asupra mediului concurențial Nu este cazul. domeniului ajutoarelor de stat | juridic GENER
+
+1191
+
+3.5.Impactul asupra Proiectul de act normativ nu are impact în acest domeniu mediului de afaceri 3.6.Impactul asupra Proiectul de act normativ nu are impact în acest domeniu mediului înconjurător 3.7. Evaluarea | Nu este cazul. costurilor și beneficiilor din perspectiva inovării și digitalizării 3.8. Evaluarea | Nu este cazul costurilor și beneficiilor din perspectiva dezvoltării durabile 3.9. Alte informații | Nu au fost identificate.
+
+Secțiunea a 4-a Impactul financiar asupra bugetului general consolidat, atât pe termen scurt, pentru anul curent, cât și pe termen lung (pe 5 ani) ), inclusiv informații cu privire la cheltuieli și venituri
+
+\-în mii lei (RON). Indicatori | Anul | Următorii 4 ani | Media pe curent | 5 ani 1 | 2 | 4 5 | 6 | 7 4.1 Modificări ale veniturilor bugetare, plus/minus din care: 1. buget de stat, din acesta: 1.impozit pe profit 2. impozit pe venit 1. bugete locale 1. impozit pe profit 1. bugetul asigurărilor sociale de stat: .contribuții de asigurări 1.alte tipuri de venituri ( se va menționa natura acestora) 4.2. Modificări ale cheltuielilor | Nu generează influențe financiare asupra bugetare, plus/minus, | cheltuielilor bugetului general consolidat din care: 1.buget de stat, din acesta: 1. cheltuieli de personal 2.bunuri și servicii 4 | ÂNIA
+
+1\. bugete locale: 1.cheltuieli de personale 2. bunuri și servicii 1. bugetul asigurărilor sociale de stat : 1. cheltuieli de personal 2.bunuri și servicii 1.alte tipuri de cheltuieli (se va menționa natura acestora) 4.3. Impact financiar, plus/minus, din care:
+
+1.buget de stat 2.bugete locale 4.4. Propuneri pentru acoperirea | Proiectul de act normativ nu se referă la acest subiect. creșterii cheltuielilor bugetare 4.5. Propuneri pentru a compensa Proiectul de act normativ nu se referă la acest subiect. reducerea veniturilor bugetare 4.6. Calcule detaliate privind | Proiectul de act normativ nu se referă la acest subiect. fundamentarea modificărilor veniturilor și/sau cheltuielilor bugetare 4.7. Punerea în aplicare a prezentei legi nu necesită modificarea cheltuielilor bugetare aprobate 4.8 Ale informații | Nu este cazul
+
+Secțiunea a 5-a Efectele proiectului de act normativ asupra legislației în vigoare
+
+5.1 Măsuri normative necesare Nu este cazul pentru aplicarea prevederilor proiectului de act normativ : a) acte normative în vigoare ce vor fi modificate sau abrogate, ca urmare a intrării în vigoare a proiectului de act normativ;
+
+b) acte normative ce urmează a fi elaborate în vederea implementării noilor dispoziții.
+
+5.2 Impactul asupra legislației în Proiectul de act normativ nu se referă la acest subiect domeniul achiziției publice 5.3. Conformitatea proiectului de | Proiectul de act normativ nu se referă la acest subiect act normativ cu legislația UE (în cazul proiectelor ce transpun sau asigură aplicarea unor prevederi de drept UE)
+
+5.3.1. Măsuri normative necesare | Proiectul de act normativ nu se referă la acest subiect transpunerii directivelor UE 5.3.2. Măsuri normative necesare Nu este cazul aplicării actelor legislative UE 5.4. Hotărâri ale Curții de Justiție a Nu este cazul Uniunii Europene 5.5. Alte acte normative și/sau Proiectul de act normativ nu se referă la acest subiect. documente internaționale din care decurg angajamente 5.6. Alte informații | Nu au fost identificate.
+
+Secțiunea a 6-a Consultările efectuate în vederea elaborării proiectului de act normativ
+
+6.I. Informații privind neaplicarea procedurii de Nu este cazul. participare la elaborarea actelor normative 6.2. Informații privind procesul de consultare cu Nu este cazul. organizații neguvernamentale, institute de cercetare și alte organisme implicate 6.3 Informații despre consultările organizate cu Nu este cazul. autoritățile administrației publice locale 6.4. Informații privind puncte de vedere / opinii Nu este cazul. emise de organisme consultative constituite prin acte normative 6.5. Informații privind avizarea de către: a) Consiliul Legislativ | a) Proiectul de act normativ a fost b) Consiliul Suprem de Apărare a Țării | avizat de Consiliul Legislativ prin c) Consiliul Economic și Social | avizul nr. 1032/2025. d) Consiliul Concurenței | b) Nu este cazul. e) Curtea de Conturi | c) Nu este cazul. d) Nu este cazul. | ARIATII frectia e) Nu este cazul. 6.6. Alte informații | Nu au fost identificate.
+
+HUONT 6
+
+Secțiunea a 7-a Activități de informare publică privind elaborarea și implementarea proiectului de act normativ
+
+7.1. Informarea societății civile cu Proiectul de act normativ a îndeplinit procedurile privire la elaborarea proiectului de prevăzute de Legea nr. 52/2003, cu modificările și act normativ | completările ulterioare, privind transparența în administrația publică, fiind publicat pe pagina web a Ministerului Transporturilor și Infrastructurii.
+
+Totodată au fost întreprinse demersurile legale prevăzute de art.7, alin. (1) din Regulamentul privind procedurile, la nivelul Guvernului, pentru elaborarea, avizarea și prezentarea proiectelor de documente de politici publice, a proiectelor de acte normative, precum și a altor documente, în vederea adoptării/aprobării, aprobat prin HG nr. 561/2009, cu modificările și completările ulterioare. Proiectul de act normativ intră sub incidența dispozițiilor art. 7 alin. (13) din Legea nr. 52/2003, cu modificările și completările ulterioare. Pe perioada consultării publice nu au fost primite observații/comentarii/propuneri din partea societății civile.
+
+7.2. Informarea societății civile cu Proiectul de act normativ nu are un astfel de impact. privire la eventualul impact asupra mediului în urma implementării proiectului de act normativ, precum și efectele asupra sănătății și securității cetățenilor | sau diversității biologice 7.3. Alte informații | Nu au fost identificate.
+
+Secțiunea a 8-a Măsuri de implementare
+
+8.1. Măsuri privind implementarea, Nu este cazul. monitorizarea | evaluarea proiectului de act normativ existent | -cția JUr 8.2. Alte informații | Nu au fost identificate.
+
+Față de cele prezentate, a fost elaborat proiectul de Lege pentru aprobarea Ordonanței de urgență a Guvernului privind unele măsuri fiscal-bugetare, pe care îl supunem Parlamentului spre adoptare.
+
+PRIM-MINISTRU
+
+ILIE-GAY& | JAN ANUL RO M- MINIS

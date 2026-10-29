@@ -1,0 +1,69 @@
+# CAMERA DEPUTAȚILOR
+
+SENATUL
+
+## LEGE
+
+# pentru modificarea și completarea Legii învățământului preuniversitar nr. 198/2023
+
+Parlamentul României adoptă prezenta lege.
+
+Art. I. - Legea învățământului preuniversitar nr. 198/2023, publicată în Monitorul Oficial al României, Partea I, nr. 613 din 5 iulie 2023, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 106 alineatul (2), litera c) se modifică și va avea următorul cuprins:
+
+c) obligația de a se prezenta la școală în uniform școlară, conform regulamentului unității de învățământ preuniversitar;
+
+2\. După articolul 106, se introduce un nou articol, art. 106¹, cu următorul cuprins: Art. 106¹.-
+
+(1) Modelele, standardele tehnice și elementele componente ale uniformelor școlare se stabilesc de către consiliul de administrație al fiecărei unități de învățământ, cu consultarea obligatorie a consiliului școlar al elevilor și a asociației de părinți.
+
+(2) Se interzice modificarea, adăugarea sau impunerea altor elemente vestimentare sau accesorii față de cele stabilite prin ordinul prevăzut la litera a), cu excepția ecusonului care conține denumirea școlii.
+
+(3) Pentru achiziția uniformelor școlare se acordă gratuitate sau subvenții conform Anexei la prezenta lege, iar cheltuielile aferente pot fi finanțate din fonduri alocate din bugetele consiliilor județene, ale Consiliului General al Municipiului București și ale consiliilor locale, precum și din fonduri externe nerambursabile.
+
+3\. La articolul 148 alineatul (1), după litera b), se introduce o nouă literă, lit. c), cu următorul cuprins:
+
+c) Unitatea de învățământ care nu asigură aplicare dispozițiilor art. 106 alin. (2) litera c), constituie contravenție și se sancționează cu amendă de la 5.000 la 10.000 lei.
+
+4\. La articolul 148 după alineatul (5), se introduce un nou alineat, alin. (6), cu următorul cuprins:
+
+(6) Constatarea contravențiilor și aplicarea sancțiunilor prevăzute la alin. (1) lit. c) se realizează de către personalul Poliției Române și al Poliției Locale, împuternicit în acest sens.
+
+## Art. II. Dispoziții tranzitorii și finale
+
+(1) Prezenta lege intră în vigoare la 3 zile de la data publicării în Monitorul Oficial, Partea I.
+
+(2) În termen de 90 de zile de la publicarea prezentei legi în Monitorul Oficial al României, Ministerul Educației elaborează normele metodologice de aplicare a art. 106 alineatul (2), litera c) din Legea nr. 198/2023.
+
+Această lege a fost adoptată de Parlamentul României, în condițiile art. 77 alin. (2), cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.
+
+PREȘEDINTELE
+
+PREȘEDINTELE
+
+CAMEREI DEPUTAȚILOR
+
+SENATULUI
+
+SORIN-MIHAI GRINDEANU
+
+MIRCEA ABRUDEAN
+
+## ANEXA
+
+## (ANEXA nr. 2 la Legea învățământului preuniversitar nr. 198/2023)
+
+## Ghidul Pragurilor Financiare (ISR 2026 = 660 lei)
+
+| Tip Subvenție | Familie monoparentală | Familie cu 1 copil | Familie cu 2 copii | Familie cu 3+ copii |
+| --- | --- | --- | --- | --- |
+| 100% Gratuit | Sub 3,78 ISR | Sub 3 ISR | Sub 2,28 ISR | Sub 1,9 ISR |
+| 50% Subvenție | Între 3,78 ISR – 4,54 ISR | Între 3 ISR – 5,1 ISR | Între 2,28 ISR – 3,85 ISR | Între 1,9 ISR – 3,1 ISR |
+| 0% Plată integrală | Peste 4,54 ISR | Peste 5,1 ISR | Peste 3,85 ISR | Peste 3,1 ISR |
+
+Sumele reprezintă venitul brut lunar pe fiecare membru al familiei.
+
+\- La stabilirea venitului prevăzut la Anexă se iau în considerare exclusiv veniturile salariale nete impozabile ale părinților sau reprezentanților legali, indiferent de sursa acestora, inclusiv venituri din salarii, activități independente, dividende, chirii, investiții și alte venituri supuse impozitării potrivit legii.
+
+\- Nu se includ la calculul venitului prevăzut la Anexă alocația de stat pentru copii, bursele școlare, prestațiile sociale destinate copiilor, indemnizațiile de handicap ale minorilor, precum și ale părinților sau reprezentanților legali, și alte drepturi bănești acordate direct copiilor în baza legii.

@@ -1,0 +1,189 @@
+{
+  "slug": "plx-607-2026",
+  "billId": "PL-x 607/2026",
+  "updatedAt": "2026-10-29T13:19:16.630Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L398FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Noul „timbru cultural”: 6 taxe în loc de 8 pe cărți, bilete și construcții, cu sume fixe pe exemplar",
+      "summaryTlDr": "În mare parte e o rescriere tehnică și utilă a unei taxe parafiscale care există din 1994. Aduce definiții mai clare, calcul pe preț fără TVA și un singur timbru pe eveniment. Capcana sunt sumele fixe fără plafon, 2 lei pe fiecare carte de ficțiune și 2 lei pe fiecare bilet la expoziții, care lovesc cel mai tare cărțile și biletele ieftine. La asta se adaugă trimiteri interne încâlcite, iar pe ele se vor da amenzi.",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/600/00/7/se700.pdf",
+      "source": "cdep.ro",
+      "riskScore": 7,
+      "riskLevel": "red",
+      "plainTitle": "Taxele culturale pe bilete, cărți și construcții se rescriu, iar timbrul pe case și clădiri crește de 10 ori",
+      "summaryTlDr": "Pune ordine într-o lege veche și confuză, dar sub eticheta de „clarificare” înzecește timbrul de arhitectură plătit de oricine construiește, inclusiv de o familie care își ridică o casă. Introduce și taxe fixe de 2 lei, fără plafon, pe bilete de muzeu și pe cărți. Mecanismul de bază e vechi și validat de CCR; problemele sunt cotele și neclaritățile.",
+      "scores": {
+        "agy": 7,
+        "claude": 7,
+        "codex": 7
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_riscant",
+      "headline": "Timbrul arhitecturii crește de zece ori: 0,5% din valoarea oricărei construcții autorizate",
+      "summary": "Inițial, timbrul arhitecturii era 0,5‰ din valoarea investiției; acum e 0,5%, de zece ori mai mult, plătit și de persoanele fizice: 2.500 lei în loc de 250 la o casă de 500.000 lei. Restul diferențelor vizibile sunt de redactare.",
+      "changes": [
+        {
+          "title": "Timbrul la construcții crește de zece ori",
+          "text": "Art. 1² alin. (2) lit. f): cota urcă de la 0,5‰ la 0,5% din investiție. Senatul anunță totuși adoptare tacită „în forma inițială”, deci diferența poate fi o eroare de redactare.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 1² alin. (2) lit. f)",
+          "before": "f. timbrul arhitecturii: 0,5‰",
+          "after": "f. timbrul arhitecturii: 0,5%.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Timbrul arhitecturii: 0,5% din investiție, indiferent de beneficiar, inclusiv persoane fizice",
+            "major": true,
+            "article": "art. 1² alin. (2) lit. f), art. 1¹ alin. (1) lit. c)"
+          },
+          {
+            "text": "2 lei fix pe bilet la muzee și expoziții, fără plafon, inclusiv muzee publice",
+            "major": true,
+            "article": "art. 1² alin. (3) lit. b), art. 1³ alin. (6)"
+          },
+          {
+            "text": "2 lei fix pe carte de ficțiune, inclusiv e-book și audiobook, fără plafon",
+            "major": true,
+            "article": "art. 1² alin. (3) lit. c), alin. (7)"
+          },
+          {
+            "text": "„Ficțiune/beletristică” nedefinită, deși decide între 2 lei fix și 1% din preț",
+            "major": true,
+            "article": "art. 1² alin. (3) lit. c), alin. (4)"
+          },
+          {
+            "text": "Plătitorul timbrului cărții e contradictoriu: risc de dublă plată sau de neplată",
+            "major": true,
+            "article": "art. 1 lit. l) pct. i, art. 1³ alin. (1) lit. a)"
+          },
+          {
+            "text": "Biletele de concert riscă cumul: 2% plus suma fixă de 2/5 lei",
+            "major": true,
+            "article": "art. 1³ alin. (3), art. 1² alin. (5)"
+          },
+          {
+            "text": "„Alte obiecte protejate” poate aduce sub timbru muzeele de istorie sau științe",
+            "major": true,
+            "article": "art. 1 lit. f)"
+          },
+          {
+            "text": "Concertul include interpretarea electronică, deci și seturile DJ",
+            "major": false,
+            "article": "art. 1 lit. e)"
+          },
+          {
+            "text": "Virarea timbrului arhitecturii trimite la un „protocol aplicabil” nedefinit",
+            "major": false,
+            "article": "art. 1³ alin. (4)"
+          },
+          {
+            "text": "Art. 2 alin. (2) și (3) reglementează diferit virarea când există mai mulți beneficiari",
+            "major": false,
+            "article": "art. 2 alin. (2)-(3)"
+          },
+          {
+            "text": "Contul escrow din regimul penalităților nu este definit nicăieri",
+            "major": false,
+            "article": "art. 5 alin. (3) lit. a)"
+          },
+          {
+            "text": "Litera „l)” numerotată greșit „1)” în definiții",
+            "major": false,
+            "article": "art. 1"
+          }
+        ],
+        "good": [
+          {
+            "text": "Cărțile pentru copii, manualele și cărțile didactice nu plătesc timbru",
+            "major": true,
+            "article": "art. 1³ alin. (1) lit. b)"
+          },
+          {
+            "text": "Timbrul fix la concerte nu poate depăși 5% din prețul biletului",
+            "major": true,
+            "article": "art. 1² alin. (7)"
+          },
+          {
+            "text": "Operele cu drepturi patrimoniale expirate plătesc jumătate din timbru",
+            "major": true,
+            "article": "art. 1⁴ alin. (2)"
+          },
+          {
+            "text": "Festivalurile cu minimum 20% artiști din România, UE, SEE sau Moldova: abonament 2 lei",
+            "major": true,
+            "article": "art. 1⁴ alin. (1)"
+          },
+          {
+            "text": "Un singur timbru la evenimente mixte, după principiul dominantei",
+            "major": true,
+            "article": "art. 1³ alin. (7)"
+          },
+          {
+            "text": "Beneficiarii publică statutul, membrii, utilizarea banilor și situațiile financiare",
+            "major": true,
+            "article": "art. 2²"
+          },
+          {
+            "text": "Fonduri acordate prin concurs public, deschis și nemembrilor, fără conflicte de interese",
+            "major": true,
+            "article": "art. 3 alin. (1), (5), (6)"
+          },
+          {
+            "text": "Banii nu pot finanța cheltuieli proprii sau entități afiliate beneficiarilor",
+            "major": true,
+            "article": "art. 3 alin. (3)"
+          },
+          {
+            "text": "Penalitățile vechi se anulează dacă restanța se plătește în 90 de zile",
+            "major": true,
+            "article": "art. III alin. (4)"
+          },
+          {
+            "text": "Timbrul se calculează la prețul fără TVA și fără alte timbre",
+            "major": false,
+            "article": "art. 1¹ alin. (2)"
+          },
+          {
+            "text": "Ministerul Culturii poate cere retragerea statutului de utilitate publică",
+            "major": false,
+            "article": "art. 3 alin. (8)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 43,
+        "removed": 43,
+        "same": 0.7
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-29T13:19:16.630Z"
+    }
+  ]
+}

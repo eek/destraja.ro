@@ -1,0 +1,17 @@
+## LEGE
+
+pentru completarea art. 6 din Legea nr. 217/2003 pentru prevenirea și combaterea violenței domestice
+
+Parlamentul României adoptă prezenta lege
+
+Art. I. — La articolul 6 din Legea nr. 217/2003 pentru prevenirea și combaterea violenței domestice, republicată în Monitorul Oficial al României, Partea I, nr. 948 din 15 octombrie 2020, cu modificările și completările ulterioare, se introduc două noi alineate, alin. (2) și (3), cu următorul cuprins:
+
+„(2) La primul contact al victimei cu o autoritate competentă în prevenirea și combaterea violenței domestice ori cu un organ judiciar, precum și anterior primei audieri sau declarații în legătură cu faptele de violență domestică sau cu cererea de ordin de protecție, victima este informată în mod expres, într-un limbaj clar și accesibil, cu privire la drepturile sale prevăzute de la alin. (1) lit. c)-e).
+
+(3) Informarea prevăzută la alin. (2) se consemnează într-un înscris distinct, denumit Fișă de informare, care se semnează de victimă. Refuzul de semnare ori imposibilitatea obiectivă de semnare se consemnează motivat în același înscris."
+
+Art. II. - Prezenta lege intră în vigoare în termen de 30 de zile de la publicarea în Monitorul Oficial al României, Partea I.
+
+Art. III. – Modelul Fișei de informare și procedura de utilizare se aprobă prin ordin comun al ministrului afacerilor interne și ministrului justiției, în termen de 60 de zile de la intrarea în vigoare a prezentei legi."
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.

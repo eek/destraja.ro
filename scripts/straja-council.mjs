@@ -18,6 +18,10 @@ const BILLS_FILE = path.join(DATA_DIR, 'senat-bills.json');
 fs.mkdirSync(TEXT_DIR, { recursive: true });
 fs.mkdirSync(ANALYSES_DIR, { recursive: true });
 
+// La Cameră (--camera, --versions) citim în modul rapid: sute de proiecte, din care modelele citesc doar începutul
+// documentelor. Textele întregi le face apoi scripts/straja-texts.mjs.
+const FAST_TEXTS = process.argv.includes('--camera') || process.argv.includes('--versions');
+
 async function extractPdfTextsForBill(bill) {
   let pdfParse = null;
   try {
@@ -30,6 +34,7 @@ async function extractPdfTextsForBill(bill) {
   return writeBillTexts(path.join(PDF_DIR, bill.slug), path.join(TEXT_DIR, bill.slug), {
     pdfParse,
     cacheDir: path.join(ROOT_DIR, '.cache', 'ocr'),
+    fast: FAST_TEXTS,
   });
 }
 

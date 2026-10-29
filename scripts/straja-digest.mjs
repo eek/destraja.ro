@@ -14,6 +14,11 @@
 //   node scripts/straja-digest.mjs --send    trimite și actualizează state.json
 //   --local                                  trimite prin wrangler dev (http://127.0.0.1:8787), cu evidența în .cache/
 //   --day=AAAA-LL-ZZ                         altă zi decât azi (pentru teste)
+//   --anunt=camera                           ediția specială despre Camera Deputaților: o primesc toate nivelurile,
+//                                            înaintea noutăților zilei (dacă sunt)
+//
+// Pauză: o dată AAAA-LL-ZZ în .cache/email-paused-until oprește trimiterea până în ziua aceea inclusiv. Evidența nu se
+// mută, așa că prima ediție de după pauză cuprinde și noutățile din zilele oprite.
 
 import fs from 'node:fs';
 import path from 'node:path';
@@ -36,6 +41,8 @@ const API = LOCAL ? 'http://127.0.0.1:8787' : SITE;
 const stateFile = LOCAL ? LOCAL_STATE_FILE : STATE_FILE;
 const DAY = argv.find((a) => a.startsWith('--day='))?.slice(6) ?? new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Bucharest' }).format(new Date());
 
+const PAUSE_FILE = path.join(ROOT, '.cache', 'email-paused-until');
+const ANUNT = argv.find((a) => a.startsWith('--anunt='))?.slice(8) ?? null;
 const CLOSING_DAYS = 3;
 // Un articol vechi găsit abia acum nu e o noutate: îl notăm ca văzut, dar nu îl trimitem.
 const PRESS_MAX_AGE_DAYS = 7;
@@ -247,15 +254,133 @@ ${P(`În consultare publică la Senat sunt acum <strong>${countWord(open.length,
 ${next ? P(`Următorul termen: <a href="${esc(billUrl(next))}" class="lt-link" style="${linkStyle}">${esc(next.id)}</a>, ${esc(deadlineText(next))}.`, 'margin:14px 0 0;font-size:14px;line-height:22px') : ''}`;
 }
 
+// --- ediția specială: Camera Deputaților ---------------------------------------------------------
+
+// Proiectele aflate acum în dezbatere la Cameră (aceeași regulă ca în scripts/straja-council.mjs).
+const AT_CHAMBER = /^(la comisii|raport|pe ordinea de zi|în reexaminare|aviz|sesizare)/i;
+const nameKey = (name) => name.normalize('NFKD').replace(/\p{M}/gu, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const cameraUrl = (slug) => track(`${SITE}/camera/${slug}`);
+
+/** Cifrele despre Cameră din datele de azi: proiecte, analize, forme comparate, parlamentari. */
+function cameraStats(senateBills) {
+  const index = readJson(path.join(DATA, 'cdep', 'index.json'), { proiecte: [] });
+  const rows = index.proiecte.filter((p) => !p.senat);
+  const bills = rows
+    .map((p) => ({ ...p, analysis: readJson(path.join(DATA, 'analyses', `${p.slug}.json`), null), sheet: readJson(path.join(DATA, 'cdep', 'proiecte', `${p.slug}.json`), null) }))
+    .filter((b) => b.analysis)
+    .map((b) => ({ ...b, level: b.analysis.consensus.riskLevel, score: b.analysis.consensus.riskScore, title: b.analysis.consensus.plainTitle }));
+  const levels = { red: 0, yellow: 0, green: 0 };
+  for (const b of bills) levels[b.level]++;
+  const here = bills.filter((b) => AT_CHAMBER.test(b.stadiu));
+  const government = bills.filter((b) => b.sheet && !b.sheet.fisa.initiatori.length).length;
+
+  // Comparația formelor: direcția ultimei schimbări, ca în lista de pe site.
+  const versions = fs.existsSync(path.join(DATA, 'analyses', 'versions'))
+    ? fs
+        .readdirSync(path.join(DATA, 'analyses', 'versions'))
+        .filter((f) => f.endsWith('.json'))
+        .map((f) => readJson(path.join(DATA, 'analyses', 'versions', f), null))
+        .filter((v) => v?.changes?.length)
+    : [];
+  const direction = { mai_riscant: 0, mai_putin_riscant: 0, la_fel: 0 };
+  for (const v of versions) direction[v.changes.at(-1).direction]++;
+  const riskier = versions
+    .filter((v) => v.changes.at(-1).direction === 'mai_riscant')
+    .map((v) => ({ v, delta: v.versions.at(-1).riskScore - v.versions[0].riskScore }))
+    .sort((a, b) => b.delta - a.delta)[0]?.v;
+
+  // Parlamentarii cu cel puțin un proiect analizat, la Senat sau la Cameră (ca pe /parlamentari).
+  const mps = new Set();
+  for (const b of senateBills) for (const i of b.initiators) mps.add(nameKey(i.name));
+  for (const b of bills) for (const i of b.sheet?.fisa.initiatori ?? []) mps.add(nameKey(i.nume));
+  mps.delete('');
+
+  return {
+    total: rows.length,
+    analysed: bills.length,
+    levels,
+    here: here.length,
+    hereRed: here.filter((b) => b.level === 'red').length,
+    top: here.filter((b) => b.level === 'red').sort((a, b) => b.score - a.score).slice(0, 3),
+    government,
+    compared: versions.length,
+    direction,
+    riskier,
+    mps: mps.size,
+  };
+}
+
+function cameraCard(b) {
+  const r = RISK[b.level];
+  return `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" class="lt-surface" style="margin:0 0 12px;border:1px solid ${C.line};border-left:4px solid ${r.fill};border-radius:12px;background:${C.surface}">
+<tr><td style="padding:14px 18px 16px">
+<p style="margin:0 0 8px;font-family:${SANS};font-size:13px;line-height:20px">${riskChip(b.level, b.score)} <span class="lt-muted" style="color:${C.muted};white-space:nowrap">&nbsp;${esc(b.numar)} · ${esc(b.stadiu)}</span></p>
+<a href="${esc(cameraUrl(b.slug))}" class="lt-ink" style="font-family:${SERIF};font-size:18px;line-height:24px;color:${C.ink};text-decoration:none">${esc(b.title)}</a>
+</td></tr></table>`;
+}
+
+/** Ediția specială: { subject, lead, intro, html, text }, pusă înaintea noutăților zilei. */
+function cameraAnnouncement(senateBills) {
+  const s = cameraStats(senateBills);
+  const subject = `destrajă urmărește acum și Camera Deputaților: ${countWord(s.analysed, 'proiect analizat', 'proiecte analizate')}`;
+  const lead = 'destrajă urmărește acum și Camera Deputaților';
+  const intro = `Până acum urmăream doar proiectele aflate în consultare publică la Senat. De azi, pe site sunt și proiectele înregistrate în ${new Date().getFullYear()} la Camera Deputaților, analizate cu aceleași trei modele AI.`;
+
+  let html = '';
+  let text = '';
+
+  html += H2('Ce am găsit la Cameră');
+  html += P(
+    `Am citit ${countWord(s.total, 'proiect', 'proiecte')} și am analizat <strong>${s.analysed}</strong>: <span class="lt-text-red" style="color:${RISK.red.text};font-weight:600">${s.levels.red} cu risc ridicat</span>, <span class="lt-text-yellow" style="color:${RISK.yellow.text};font-weight:600">${s.levels.yellow} cu risc moderat</span> și <span class="lt-text-green" style="color:${RISK.green.text};font-weight:600">${s.levels.green} cu risc scăzut</span>. ${countWord(s.government, 'proiect vine', 'proiecte vin')} de la Guvern, restul de la parlamentari.`,
+  );
+  const hereRed = s.hereRed === 0 ? 'niciunul' : s.hereRed === 1 ? 'unul' : String(s.hereRed);
+  html += P(`Acum sunt în dezbatere la Cameră (în comisii, cu raport sau pe ordinea de zi) <strong>${countWord(s.here, 'proiect', 'proiecte')}</strong>, dintre care ${hereRed} cu risc ridicat.`);
+  text += `\nCE AM GĂSIT LA CAMERĂ\nAm citit ${countWord(s.total, 'proiect', 'proiecte')} și am analizat ${s.analysed}: ${s.levels.red} cu risc ridicat, ${s.levels.yellow} cu risc moderat și ${s.levels.green} cu risc scăzut. ${countWord(s.government, 'proiect vine', 'proiecte vin')} de la Guvern, restul de la parlamentari.\nÎn dezbatere la Cameră acum: ${countWord(s.here, 'proiect', 'proiecte')}, ${s.hereRed} cu risc ridicat.\n`;
+  if (s.top.length) {
+    html += P('Cele mai riscante dintre cele aflate acum în dezbatere:', 'margin:18px 0 10px;font-size:15px;line-height:23px') + s.top.map(cameraCard).join('');
+    text += `\nCele mai riscante dintre cele aflate acum în dezbatere:\n${s.top.map((b) => `- ${b.title}\n  ${RISK[b.level].label} ${fmtScore(b.score)} · ${b.numar} · ${b.stadiu}\n  ${cameraUrl(b.slug)}`).join('\n')}\n`;
+  }
+  html += `<div style="margin-top:18px">${button(track(`${SITE}/camera`), 'Proiectele de la Cameră')}</div>`;
+  text += `\nProiectele de la Cameră: ${track(`${SITE}/camera`)}\n`;
+
+  if (s.compared) {
+    html += H2('Cum se schimbă legile pe drum');
+    html += P(
+      `Un proiect trece prin mai multe forme: textul inițiatorului, forma votată de Senat, forma votată de Cameră. Le-am analizat pe fiecare și le-am comparat. Din ${countWord(s.compared, 'proiect comparat', 'proiecte comparate')}, <strong>${s.direction.mai_riscant}</strong> au devenit mai riscante, <strong>${s.direction.mai_putin_riscant}</strong> mai puțin riscante, iar ${s.direction.la_fel} au rămas pe fond la fel.`,
+    );
+    text += `\nCUM SE SCHIMBĂ LEGILE PE DRUM\nAm analizat și comparat formele prin care trece un proiect (inițiator, Senat, Cameră). Din ${countWord(s.compared, 'proiect comparat', 'proiecte comparate')}: ${s.direction.mai_riscant} mai riscante, ${s.direction.mai_putin_riscant} mai puțin riscante, ${s.direction.la_fel} pe fond la fel.\n`;
+    if (s.riskier) {
+      const c = s.riskier.changes.at(-1);
+      html += P(
+        `De exemplu, la <a href="${esc(cameraUrl(s.riskier.slug))}" class="lt-link" style="${linkStyle}">${esc(s.riskier.billId)}</a>: ${esc(c.summary)}`,
+        'font-size:15px;line-height:24px',
+      );
+      text += `De exemplu, la ${s.riskier.billId}: ${c.summary}\n${cameraUrl(s.riskier.slug)}\n`;
+    }
+  }
+
+  html += H2('Parlamentarii');
+  html += P(
+    `Scorul fiecărui parlamentar ține cont acum și de proiectele de la Cameră pe care le-a semnat. Pe site sunt <strong>${countWord(s.mps, 'parlamentar', 'parlamentari')}</strong> cu cel puțin un proiect analizat, fiecare cu proiectele lui și datele oficiale de contact.`,
+  );
+  html += `<div style="margin-top:18px">${button(track(`${SITE}/parlamentari`), 'Parlamentarii')}</div>`;
+  text += `\nPARLAMENTARII\nScorul fiecărui parlamentar ține cont acum și de proiectele de la Cameră pe care le-a semnat: ${countWord(s.mps, 'parlamentar', 'parlamentari')} cu cel puțin un proiect analizat.\n${track(`${SITE}/parlamentari`)}\n`;
+
+  html += P(`Analizele sunt făcute cu AI și pot conține erori: textul oficial e pe cdep.ro și senat.ro. Cum lucrăm: <a href="${esc(track(`${SITE}/metodologie`))}" class="lt-link" style="${linkStyle}">metodologia</a>.`, `margin:26px 0 0;font-size:14px;line-height:22px;color:${C.muted}`);
+  text += `\nAnalizele sunt făcute cu AI și pot conține erori: textul oficial e pe cdep.ro și senat.ro. Metodologia: ${track(`${SITE}/metodologie`)}\n`;
+
+  return { subject, lead, intro, html, text, stats: s };
+}
+
 // --- o ediție pentru un nivel --------------------------------------------------------------------
 
-function edition(level, data) {
+function edition(level, data, anunt = null) {
   const match = (b) => MATCHES[level](b.level);
   const newBills = data.newBills.filter(match).sort((a, b) => b.score - a.score);
   const closing = data.closing.filter(match).sort((a, b) => a.days - b.days || b.score - a.score);
   const press = data.press.filter((a) => match(a.bill));
   const corrections = data.corrections.filter((c) => match(c.bill));
-  if (newBills.length + closing.length + press.length + corrections.length === 0) return null;
+  if (!anunt && newBills.length + closing.length + press.length + corrections.length === 0) return null;
   // Articolele despre proiectele scoase în față stau în cardul lor; restul, separat, ca să nu pară despre ele.
   const featured = [...newBills, ...closing];
   const featuredIds = new Set(featured.map((b) => b.id));
@@ -280,15 +405,26 @@ function edition(level, data) {
   if (otherPart) parts.push(otherPart);
   if (corrections.length) parts.push(corrections.length === 1 ? `analiza ${corrections[0].bill.id} corectată` : `${corrections.length} analize corectate`);
 
-  const subject = capitalize(parts.filter((p) => p !== otherPart || !featured.length).slice(0, 2).join(' · '));
-  const lead = `${capitalize(parts.join(', ').replace(/, ([^,]*)$/, ' și $1'))}.`;
-  const intro = newBills.length
-    ? 'Fiecare proiect are pe site explicația pe înțeles, scorul celor trei modele AI și un formular pe care îl trimiți Senatului în 60 de secunde.'
-    : 'Mai jos e ce s-a schimbat de la ultima ediție.';
-  const preheader = (newBills[0] ?? closing[0])?.title ?? lead;
+  const subject = anunt ? anunt.subject : capitalize(parts.filter((p) => p !== otherPart || !featured.length).slice(0, 2).join(' · '));
+  const lead = anunt ? anunt.lead : `${capitalize(parts.join(', ').replace(/, ([^,]*)$/, ' și $1'))}.`;
+  const intro = anunt
+    ? anunt.intro
+    : newBills.length
+      ? 'Fiecare proiect are pe site explicația pe înțeles, scorul celor trei modele AI și un formular pe care îl trimiți Senatului în 60 de secunde.'
+      : 'Mai jos e ce s-a schimbat de la ultima ediție.';
+  const preheader = anunt ? anunt.intro : ((newBills[0] ?? closing[0])?.title ?? lead);
 
   let body = `<h1 class="lt-ink lt-h1" style="margin:0 0 14px;font-family:${SERIF};font-size:28px;font-weight:400;line-height:35px;color:${C.ink}">${esc(lead)}</h1>${P(esc(intro))}`;
   let text = `${lead}\n\n${intro}\n`;
+  if (anunt) {
+    body += anunt.html;
+    text += anunt.text;
+    // Noutățile zilei de la Senat vin după, cu titlul lor; dacă nu sunt, ediția e doar anunțul.
+    if (parts.length) {
+      body += H2(`Și azi, la Senat: ${parts.join(', ').replace(/, ([^,]*)$/, ' și $1')}`);
+      text += `\nȘI AZI, LA SENAT\n`;
+    }
+  }
   const textBill = (b) =>
     `\n- ${b.title}\n  ${RISK[b.level].label} ${fmtScore(b.score)} · ${b.id} · ${deadlineText(b)}\n  ${billUrl(b)}` +
     pressOf(b)
@@ -346,7 +482,7 @@ function edition(level, data) {
   text += `\n—\nPrimești acest e-mail pentru că te-ai abonat la alertele destrajă, nivelul „${levelName}”.\nSchimbă nivelul: {{prefs_url}}\nDezabonează-te: {{unsubscribe_url}}\n\nAnalizele sunt făcute cu AI și pot conține erori; verifică textul oficial pe senat.ro.\n`;
 
   const html = emailLayout({ title: subject, preheader, eyebrow: `${esc(dateLong)} · Alerte: ${esc(levelName.toLowerCase())}`, body, footer });
-  return { subject, html, text, stats: { newBills: newBills.length, closing: closing.length, press: press.length, corrections: corrections.length } };
+  return { subject, html, text, stats: { newBills: newBills.length, closing: closing.length, press: press.length, corrections: corrections.length, ...(anunt && { anunt: ANUNT }) } };
 }
 
 // --- trimiterea ----------------------------------------------------------------------------------
@@ -407,10 +543,13 @@ async function main() {
     return;
   }
   const data = collect(bills, state);
+  if (ANUNT && ANUNT !== 'camera') throw new Error(`--anunt=${ANUNT}: nu există; avem doar --anunt=camera`);
+  const anunt = ANUNT === 'camera' ? cameraAnnouncement(readJson(path.join(DATA, 'senat-bills.json'), []).filter((b) => fs.existsSync(path.join(DATA, 'analyses', `${b.slug}.json`)))) : null;
+  if (anunt) console.log(`📣 anunț: ${JSON.stringify({ ...anunt.stats, top: anunt.stats.top.map((b) => b.numar), riskier: anunt.stats.riskier?.billId ?? null })}`);
   fs.mkdirSync(OUT_DIR, { recursive: true });
   const editions = {};
   for (const level of LEVEL_KEYS) {
-    const e = edition(level, data);
+    const e = edition(level, data, anunt);
     if (!e) {
       console.log(`· ${level}: nimic nou`);
       continue;
@@ -424,6 +563,11 @@ async function main() {
 
   if (!SEND) {
     console.log('Doar previzualizare; cu --send trimitem și actualizăm data/digests/state.json.');
+    return;
+  }
+  const pausedUntil = fs.existsSync(PAUSE_FILE) ? fs.readFileSync(PAUSE_FILE, 'utf8').trim() : '';
+  if (!LOCAL && /^\d{4}-\d{2}-\d{2}$/.test(pausedUntil) && DAY <= pausedUntil) {
+    console.log(`⏸ Trimiterea e oprită până pe ${pausedUntil} inclusiv (${path.relative(ROOT, PAUSE_FILE)}); nu trimitem nimic și nu mutăm evidența.`);
     return;
   }
   // Și fără abonați mutăm evidența: cine se abonează mâine primește noutățile de mâine, nu tot ce s-a strâns.

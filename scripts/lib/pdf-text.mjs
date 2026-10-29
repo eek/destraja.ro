@@ -7,9 +7,10 @@
 //      intră în buclă („de la Partei de la Partei …”), sare peste rânduri de text sau pierde mai mult de 15% din
 //      cuvintele citite de Tesseract (mai puțin pe paginile cu grafice), pagina aceea vine de la Tesseract, iar
 //      jurnalul o spune. Pe paginile păstrate, Tesseract pune la loc ș, ț și ă pe care MinerU le-a scăpat.
-//   3. Expunerile de motive și ordonanțele le citește Apple Vision (scripts/vision-ocr.swift, pe Neural Engine, ~0,3 s pe
-//      pagină față de 7–13 s la MinerU). Modelele primesc doar începutul lor, unde câteva litere greșite nu schimbă
-//      sensul; textul legii rămâne la MinerU, pentru citate exacte și comparația dintre forme.
+//   3. În modul rapid (`fast`, la recuperarea proiectelor de la Cameră), expunerile de motive și ordonanțele le citește
+//      Apple Vision (scripts/vision-ocr.swift, pe Neural Engine, ~0,3 s pe pagină față de 7–13 s la MinerU), iar din
+//      fiecare PDF citim doar primele pagini. Modelele primesc doar începutul lor, unde câteva litere greșite nu schimbă
+//      sensul. Ce s-a citit așa e recitit întreg, cu MinerU, la următoarea rulare fără `fast` (scripts/straja-texts.mjs).
 // Fără MinerU (scripts/install-ocr.sh) citim doar cu Tesseract; fără ocrmypdf rămânem la stratul de text al PDF-ului.
 // Pentru fiecare PDF scriem <nume>.md (Markdown, afișat pe pagina proiectului) și <nume>.txt (text simplu, pentru
 // analizele modelelor și verificarea citatelor), iar _meta.json spune cum a fost citit fiecare.
@@ -27,19 +28,21 @@ const OWN_TESSDATA = path.join(OCR_HOME, 'tessdata');
 const MINERU_ARGS = ['--tier', 'standard', '--ocr-mode', 'ocr'];
 const MINERU_ENV = { ...process.env, MINERU_MODEL_SOURCE: 'local', HF_HUB_OFFLINE: '1' };
 const VISION_BIN = process.env.VISION_OCR_BIN || path.join(OCR_HOME, 'bin', 'vision-ocr');
-// Documentele citite cu Apple Vision când îl avem (vezi mai sus).
+// Documentele citite cu Apple Vision în modul rapid, când îl avem (vezi mai sus).
 const VISION_DOCS = new Set(['expunere_motive', 'forma_ordonanta']);
 // Cât așteptăm MinerU: ~7 s pe pagină pe un Mac liber, de câteva ori mai mult când mașina e ocupată.
 const mineruTimeout = (pages) => 10 * 60_000 + 60_000 * Math.max(1, pages);
 // Câte pagini dăm odată lui MinerU (o rulare ține 4–9 GB de RAM, în funcție de numărul de pagini).
 const BATCH_PAGES = 80;
-// Câte pagini citim cu OCR dintr-un PDF. Modelele primesc ~14.000 de caractere din formă și 10.000 din expunere (câteva
-// pagini), iar o anexă scanată de 262 de pagini ținea MinerU ocupat ore întregi.
-const OCR_MAX_PAGES = 40;
+// În modul rapid, câte pagini citim cu OCR dintr-un PDF. Modelele primesc ~14.000 de caractere din formă și 10.000 din
+// expunere (câteva pagini), iar o anexă scanată de 262 de pagini ținea MinerU ocupat ore întregi.
+const FAST_MAX_PAGES = 40;
 // Din expunerea de motive și din ordonanța aprobată modelele primesc doar începutul (10.000, respectiv 9.000 de
 // caractere, 3–4 pagini); după primele pagini vin de obicei listele de semnături și anexele.
-const SHORT_DOCS = { expunere_motive: 12, forma_ordonanta: 12 };
-const ocrPageLimit = (pdfPath) => SHORT_DOCS[textName(pdfPath)] ?? OCR_MAX_PAGES;
+const FAST_SHORT_DOCS = { expunere_motive: 12, forma_ordonanta: 12 };
+const ocrPageLimit = (pdfPath, fast) => (fast ? (FAST_SHORT_DOCS[textName(pdfPath)] ?? FAST_MAX_PAGES) : Infinity);
+// Nota pusă la sfârșitul unui document citit doar în parte (vezi withCut).
+const CUT_NOTE = /\[Documentul are \d+ (?:de )?pagini; am citit primele \d+\.\]\s*$/;
 // „13 pagini”, dar „40 de pagini”.
 const pagesRo = (n) => (n % 100 >= 1 && n % 100 <= 19 ? `${n} pagini` : `${n} de pagini`);
 // Câte rulări MinerU merg odată pe mașină, din toate procesele: fiecare ține câteva nuclee și 4–9 GB de RAM.
@@ -767,7 +770,10 @@ async function tesseractPages(pdfPath, hash, { cacheDir, fresh, tool }) {
   try {
     const sidecar = path.join(work, 'text.txt');
     try {
-      await runTool('ocrmypdf', ['-q', '--force-ocr', '-l', 'ron', '--output-type', 'none', '--sidecar', sidecar, pdfPath, '-'], { env: tool.env, timeoutMs: 20 * 60_000 });
+      // ocrmypdf pornește din oficiu câte un Tesseract pe nucleu: cu mai multe loturi în paralel, Mac-ul ajungea la o
+      // încărcare de 60–80. Două procese pe document, fiecare pe un singur fir, ajung pentru câteva pagini.
+      const args = ['-q', '--jobs', '2', '--force-ocr', '-l', 'ron', '--output-type', 'none', '--sidecar', sidecar, pdfPath, '-'];
+      await runTool('ocrmypdf', args, { env: { ...tool.env, OMP_THREAD_LIMIT: '1' }, timeoutMs: 20 * 60_000 });
     } catch (err) {
       if (/language|traineddata|tessdata/i.test(err.stderr ?? err.message)) loud(`ocrmypdf -l ron a eșuat (limba română lipsește?): ${err.message}. Rulează sh scripts/install-ocr.sh.`);
       throw err;
@@ -844,12 +850,12 @@ async function visionPages(pdfPath, hash, limit, { cacheDir, fresh, tool }) {
  * Un document din VISION_DOCS, citit cu Vision; null dacă Vision lipsește sau n-a găsit text. Vision scapă uneori
  * virgula lui ș și ț (de exemplu în Verdana: „national”), așa că, la fel ca la MinerU, Tesseract pune la loc ș, ț și ă.
  */
-async function visionText(pdfPath, buf, totalPages, { cacheDir, fresh, label }) {
+async function visionText(pdfPath, buf, totalPages, { cacheDir, fresh, label, fast }) {
   const tools = await ocrTools();
-  if (!tools.vision || !VISION_DOCS.has(textName(pdfPath))) return null;
-  const limit = ocrPageLimit(pdfPath);
+  if (!fast || !tools.vision || !VISION_DOCS.has(textName(pdfPath))) return null;
+  const limit = ocrPageLimit(pdfPath, fast);
   try {
-    const src = tools.tesseract && (await ocrInput(pdfPath, buf, totalPages, cacheDir));
+    const src = tools.tesseract && (await ocrInput(pdfPath, buf, totalPages, cacheDir, fast));
     const tessP = src
       ? tesseractPages(src.pdfPath, src.hash, { cacheDir, fresh, tool: tools.tesseract }).catch((err) => {
           console.warn(`⚠️ ${label}: Tesseract a eșuat (${err.message}); diacriticele rămân cum le-a citit Vision`);
@@ -933,12 +939,12 @@ async function withMineruSlot(fn) {
 }
 
 /**
- * PDF-ul dat la OCR: el însuși sau, când are mai multe pagini decât citim din el (ocrPageLimit), o copie cu primele (qpdf
+ * PDF-ul dat la OCR: el însuși sau, în modul rapid, când are mai multe pagini decât citim din el (ocrPageLimit), o copie cu primele (qpdf
  * vine cu ocrmypdf). Copia are altă cheie de cache decât PDF-ul întreg. `cut` e numărul de pagini al originalului.
  */
-async function ocrInput(pdfPath, buf, pages, cacheDir) {
+async function ocrInput(pdfPath, buf, pages, cacheDir, fast) {
   const hash = sha1(buf);
-  const max = ocrPageLimit(pdfPath);
+  const max = ocrPageLimit(pdfPath, fast);
   if (pages <= max) return { pdfPath, hash, pages, cut: null };
   const short = path.join(cacheDir, 'cut', `${hash}-p${max}.pdf`);
   try {
@@ -1032,16 +1038,16 @@ async function layerText(buf, pdfParse) {
  * Textul unui PDF și cum l-am obținut: { text, markdown, method, pages, fallbacks }.
  * method: 'mineru' | 'mineru+ocr' (unele pagini de la Tesseract) | 'ocr' (doar Tesseract) | 'vision' (Apple Vision, pentru
  * VISION_DOCS) | 'text' (stratul PDF-ului).
- * `pdfParse` e pdf-parse încărcat de apelant (poate lipsi); `fresh` ignoră cache-ul OCR.
+ * `pdfParse` e pdf-parse încărcat de apelant (poate lipsi); `fresh` ignoră cache-ul OCR; `fast` e modul rapid (vezi sus).
  */
-export async function extractPdfText(pdfPath, { pdfParse, cacheDir, fresh = false, label = path.basename(pdfPath) }) {
+export async function extractPdfText(pdfPath, { pdfParse, cacheDir, fresh = false, fast = false, label = path.basename(pdfPath) }) {
   const buf = fs.readFileSync(pdfPath);
   const layer = await layerText(buf, pdfParse);
   const tools = await ocrTools();
   fs.mkdirSync(cacheDir, { recursive: true });
-  const seen = await visionText(pdfPath, buf, layer.pages, { cacheDir, fresh, label });
+  const seen = await visionText(pdfPath, buf, layer.pages, { cacheDir, fresh, label, fast });
   if (seen) return seen;
-  const src = tools.tesseract || tools.mineru ? await ocrInput(pdfPath, buf, layer.pages, cacheDir) : null;
+  const src = tools.tesseract || tools.mineru ? await ocrInput(pdfPath, buf, layer.pages, cacheDir, fast) : null;
   const note = (res) => withCut(res, src?.cut, src?.pages);
 
   const tessP = tools.tesseract
@@ -1072,16 +1078,16 @@ export async function extractPdfText(pdfPath, { pdfParse, cacheDir, fresh = fals
 }
 
 /** Citește dinainte cu MinerU, într-o singură rulare, PDF-urile care nu sunt încă în cache. */
-async function warmMineru(pdfPaths, { pdfParse, cacheDir, fresh, label }) {
+async function warmMineru(pdfPaths, { pdfParse, cacheDir, fresh, fast, label }) {
   const tools = await ocrTools();
   if (!tools.mineru || tools.mineru.failures >= 3 || !pdfPaths.length) return;
   fs.mkdirSync(cacheDir, { recursive: true });
   const docs = [];
   for (const pdfPath of pdfPaths) {
-    // Acestea le citește Vision (extractPdfText); MinerU le ia doar dacă Vision lipsește sau eșuează.
-    if (tools.vision && VISION_DOCS.has(textName(pdfPath))) continue;
+    // În modul rapid acestea le citește Vision (extractPdfText); MinerU le ia doar dacă Vision lipsește sau eșuează.
+    if (fast && tools.vision && VISION_DOCS.has(textName(pdfPath))) continue;
     const buf = fs.readFileSync(pdfPath);
-    const doc = await ocrInput(pdfPath, buf, await pageCount(buf, pdfParse), cacheDir);
+    const doc = await ocrInput(pdfPath, buf, await pageCount(buf, pdfParse), cacheDir, fast);
     if (!fresh && mineruCached(cacheDir, doc.hash, tools.mineru)) continue;
     docs.push(doc);
   }
@@ -1108,11 +1114,12 @@ const RANK = { text: 0, ocr: 1, vision: 1, 'mineru+ocr': 2, mineru: 2 };
 
 /**
  * Scrie pentru fiecare PDF al proiectului <nume>.txt și, când avem OCR, <nume>.md, și notează metoda în _meta.json.
- * Fără `force`, un PDF care are deja text și meta e lăsat în pace. Nu aruncă erori pentru un PDF care nu se poate
+ * Fără `force`, un PDF care are deja text și meta e lăsat în pace, cu excepția celor citite doar în parte în modul rapid
+ * (Vision sau primele pagini): fără `fast`, acestea se recitesc întregi. Nu aruncă erori pentru un PDF care nu se poate
  * citi: îl sare și păstrează textul vechi. Întoarce textele după nume (forma_initiatorului, expunere_motive, aviz_ES...).
  * `onDoc(name, result)` primește rezultatul fiecărui PDF citit acum (pentru statistici).
  */
-export async function writeBillTexts(pdfDir, textDir, { pdfParse, cacheDir, force = false, fresh = false, onDoc } = {}) {
+export async function writeBillTexts(pdfDir, textDir, { pdfParse, cacheDir, force = false, fresh = false, fast = false, onDoc } = {}) {
   const texts = {};
   if (!fs.existsSync(pdfDir)) return texts;
   fs.mkdirSync(textDir, { recursive: true });
@@ -1125,9 +1132,13 @@ export async function writeBillTexts(pdfDir, textDir, { pdfParse, cacheDir, forc
   }
   const slug = path.basename(pdfDir);
   const files = fs.readdirSync(pdfDir).filter((f) => /\.pdf$/i.test(f)).sort();
-  const todo = files.filter((f) => force || !meta[textName(f)] || !fs.existsSync(path.join(textDir, `${textName(f)}.txt`)));
+  const partial = (name) => meta[name] === 'vision' || CUT_NOTE.test(fs.readFileSync(path.join(textDir, `${name}.txt`), 'utf8').slice(-200));
+  const todo = files.filter((f) => {
+    const name = textName(f);
+    return force || !meta[name] || !fs.existsSync(path.join(textDir, `${name}.txt`)) || (!fast && partial(name));
+  });
   try {
-    await warmMineru(todo.map((f) => path.join(pdfDir, f)), { pdfParse, cacheDir, fresh, label: slug });
+    await warmMineru(todo.map((f) => path.join(pdfDir, f)), { pdfParse, cacheDir, fresh, fast, label: slug });
   } catch (err) {
     console.warn(`⚠️ ${slug}: MinerU nu a putut citi lotul (${err.message})`);
   }
@@ -1143,7 +1154,7 @@ export async function writeBillTexts(pdfDir, textDir, { pdfParse, cacheDir, forc
     }
     let res;
     try {
-      res = await extractPdfText(path.join(pdfDir, file), { pdfParse, cacheDir, fresh, label: `${slug}/${name}` });
+      res = await extractPdfText(path.join(pdfDir, file), { pdfParse, cacheDir, fresh, fast, label: `${slug}/${name}` });
     } catch (err) {
       console.warn(`⚠️ ${slug}/${name}: textul nu a putut fi citit (${err.message}); rămâne cel vechi`);
       if (old) texts[name] = old;

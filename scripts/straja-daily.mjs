@@ -22,6 +22,9 @@
 // Jurnalul: ops/logs/AAAA-LL-ZZ.log. La final apare o notificare macOS cu rezumatul.
 //
 //   --no-deploy   rulează tot, fără build, publicare și e-mailuri
+//
+// Pauză: cât există .cache/publish-paused, rularea adună datele (pașii 1–7), dar nu aplică migrațiile, nu publică, nu
+// trimite e-mailuri și nu face commit sau push. Scoți fișierul când vrei să publici din nou.
 //   --skip-news   fără căutarea în presă
 //   --skip-positions  fără căutarea pozițiilor organizațiilor
 //   --skip-mps    fără datele de contact ale parlamentarilor
@@ -35,6 +38,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = path.join(ROOT, 'data');
 const LOG_DIR = path.join(ROOT, 'ops', 'logs');
 const LOCK = path.join(ROOT, 'ops', 'daily.lock');
+const PUBLISH_PAUSE = path.join(ROOT, '.cache', 'publish-paused');
 const args = new Set(process.argv.slice(2));
 const day = new Date().toLocaleDateString('sv-SE', { timeZone: 'Europe/Bucharest' });
 const monday = new Date().toLocaleDateString('en-US', { weekday: 'short', timeZone: 'Europe/Bucharest' }) === 'Mon';
@@ -187,7 +191,11 @@ async function main() {
     const counts = checkData();
     log(`Date verificate: ${counts.analysed}/${counts.bills} proiecte cu analiză`);
 
-    if (!args.has('--no-deploy')) {
+    const paused = fs.existsSync(PUBLISH_PAUSE);
+    if (paused) {
+      log(`⏸ Publicarea e oprită (${path.relative(ROOT, PUBLISH_PAUSE)}): fără migrații, build, publicare, e-mailuri, commit și push`);
+      summary.push('publicare oprită');
+    } else if (!args.has('--no-deploy')) {
       const migrate = await step('Migrații D1', 'npx', ['wrangler', 'd1', 'migrations', 'apply', 'lastraja', '--remote']);
       const build = migrate.ok ? await step('Build', 'npx', ['next', 'build']) : { ok: false };
       const deploy = build.ok ? await step('Publicare', 'npx', ['wrangler', 'deploy']) : { ok: false };
@@ -201,18 +209,20 @@ async function main() {
       }
     }
 
-    await step('Pregătire commit', 'git', ['add', 'data', 'public/docs']);
-    const commit = await step('Commit', 'git', ['commit', '-q', '-m', `Date: actualizarea din ${day}`], { timeoutMs: 60_000 });
-    if (!commit.ok && !/nothing to commit|nimic de comis/i.test(commit.tail)) summary.push('datele au rămas necomise');
+    if (!paused) {
+      await step('Pregătire commit', 'git', ['add', 'data', 'public/docs']);
+      const commit = await step('Commit', 'git', ['commit', '-q', '-m', `Date: actualizarea din ${day}`], { timeoutMs: 60_000 });
+      if (!commit.ok && !/nothing to commit|nimic de comis/i.test(commit.tail)) summary.push('datele au rămas necomise');
 
-    // Întâi ce s-a aprobat între timp prin PR pe GitHub, altfel push-ul e respins.
-    const pull = await step('Sincronizare GitHub', 'git', ['pull', '--rebase', '--autostash', '-q', 'origin', 'main'], { timeoutMs: 120_000 });
-    if (!pull.ok) {
-      await step('Anulare rebase', 'git', ['rebase', '--abort'], { timeoutMs: 60_000 });
-      summary.push('GitHub: sincronizarea a eșuat');
-    } else {
-      const push = await step('Push GitHub', 'git', ['push', '-q', 'origin', 'main'], { timeoutMs: 120_000 });
-      if (!push.ok) summary.push('datele n-au ajuns pe GitHub');
+      // Întâi ce s-a aprobat între timp prin PR pe GitHub, altfel push-ul e respins.
+      const pull = await step('Sincronizare GitHub', 'git', ['pull', '--rebase', '--autostash', '-q', 'origin', 'main'], { timeoutMs: 120_000 });
+      if (!pull.ok) {
+        await step('Anulare rebase', 'git', ['rebase', '--abort'], { timeoutMs: 60_000 });
+        summary.push('GitHub: sincronizarea a eșuat');
+      } else {
+        const push = await step('Push GitHub', 'git', ['push', '-q', 'origin', 'main'], { timeoutMs: 120_000 });
+        if (!push.ok) summary.push('datele n-au ajuns pe GitHub');
+      }
     }
   } catch (err) {
     log(`✗ Oprit: ${err.message}`);

@@ -4,7 +4,10 @@
 //
 //   node scripts/straja-texts.mjs [--force] [--fresh] [b543]
 //
-//   --force   recitește și PDF-urile care au deja text
+// Fără --force recitește doar PDF-urile fără text și pe cele citite în parte în modul rapid (Apple Vision sau primele
+// pagini, la recuperarea proiectelor de la Cameră): acestea devin documente întregi, citite cu MinerU.
+//
+//   --force   recitește și PDF-urile care au deja text întreg
 //   --fresh   nu folosește rezultatele OCR din .cache/ocr (altfel o recitire după o schimbare de cod durează secunde)
 //
 // Recitirea tuturor PDF-urilor cu MinerU durează 1,5–2 ore pe un Mac M2 (~7 s pe pagină). Rulează în afara

@@ -6,14 +6,19 @@
 //
 // - claude: `--tools` restrânge setul la WebSearch,WebFetch (web) sau la nimic (offline); `--strict-mcp-config`
 //   fără `--mcp-config` înseamnă fără servere MCP. Verificat: fără shell, fără citire de fișiere.
-// - codex: sandbox read-only, iar shell_tool, browserul, computer use, apps, plugins, hooks și serverele MCP sunt
-//   dezactivate; `--search` (flag de nivel superior, înainte de `exec`) doar în modul web.
+// - codex: sandbox read-only, iar shell_tool, browserul, computer use, apps, plugins și hooks sunt dezactivate;
+//   `--search` (flag de nivel superior, înainte de `exec`) doar în modul web. `-c mcp_servers={}` NU oprește serverele
+//   din ~/.codex/config.toml (pe 29 octombrie 2026 fiecare apel pornea MCP-ul nugbit și node_repl), așa că codex
+//   rulează cu un CODEX_HOME al nostru (.cache/codex-home): un config.toml fără servere MCP, plugin-uri, memorii sau
+//   AGENTS.md, plus autentificarea, legată simbolic de cea din ~/.codex.
 // - agy: în modul print, agentul implicit rulează comenzi și scrie fișiere fără să ceară voie, iar `--sandbox`
 //   oprește doar terminalul, nu și write_file; `--mode plan` nu schimbă nimic. De aceea folosim agenții din
 //   .agents/agents/: lastraja-web (doar search_web) și lastraja-offline (fără unelte), cu
 //   excludeDefaultComponents și inheritMcp: false. Verificat: le rămân doar search_web (la web), list_resources,
 //   read_resource și manage_task; fără terminal, fără fișiere. search_web dă adrese de redirecționare
 //   vertexaisearch.cloud.google.com, pe care verificarea le urmează până la articol.
+// Git: dosarul gol e în repo, iar un CLI care rula git de acolo cerea cheia SSH din 1Password. GIT_CEILING_DIRECTORIES
+// oprește căutarea repo-ului la .cache/, iar GIT_SSH_COMMAND nu lasă ssh să folosească agentul de chei.
 // Nu folosim niciodată --dangerously-skip-permissions sau flagurile „dangerously” ale codex.
 
 import fs from 'node:fs';
@@ -25,6 +30,32 @@ import { fileURLToPath } from 'node:url';
 const ROOT_DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', '..');
 // În interiorul repo-ului, ca agy să găsească agenții din .agents/agents/, dar gol și ignorat de git.
 export const SANDBOX_DIR = path.join(ROOT_DIR, '.cache', 'ai-sandbox');
+const CODEX_HOME = path.join(ROOT_DIR, '.cache', 'codex-home');
+const CODEX_CONFIG = `# Codex pentru analizele destrajă (scripts/lib/ai-cli.mjs): fără servere MCP, plugin-uri sau memorii.
+model = "gpt-6.1-sol"
+model_reasoning_effort = "high"
+
+# Doar text: fără terminal, execuție de cod, sub-agenți, obiective, imagini, aplicații sau browser.
+[features]
+shell_tool = false
+unified_exec = false
+code_mode_host = false
+multi_agent = false
+goals = false
+sleep_tool = false
+image_generation = false
+view_image = false
+apps = false
+plugins = false
+hooks = false
+browser_use = false
+browser_use_external = false
+computer_use = false
+in_app_browser = false
+skill_search = false
+tool_suggest = false
+skill_mcp_dependency_install = false
+`;
 
 export const MODEL_KEYS = ['agy', 'claude', 'codex'];
 
@@ -90,7 +121,7 @@ function liveFile(model, label) {
   return path.join(LIVE_DIR, `${stamp}-${model}-${safe}-${process.pid}.log`);
 }
 
-const CODEX_OFF = ['shell_tool', 'apps', 'browser_use', 'browser_use_external', 'computer_use', 'in_app_browser', 'plugins', 'hooks', 'skill_mcp_dependency_install'];
+const CODEX_OFF = ['shell_tool', 'unified_exec', 'code_mode_host', 'multi_agent', 'goals', 'apps', 'browser_use', 'browser_use_external', 'computer_use', 'in_app_browser', 'plugins', 'hooks', 'skill_mcp_dependency_install'];
 
 function args(model, mode, codexModel) {
   const web = mode === 'web';
@@ -130,11 +161,25 @@ function args(model, mode, codexModel) {
 }
 
 // Doar ce le trebuie CLI-urilor ca să găsească autentificarea din HOME; nimic din .env.
-function minimalEnv() {
-  const keep = ['HOME', 'USER', 'LOGNAME', 'LANG', 'LC_ALL', 'TMPDIR', 'CODEX_HOME'];
+/** CODEX_HOME-ul nostru: config.toml minim și autentificarea utilizatorului (legătură simbolică, nu copie). */
+function codexHome() {
+  fs.mkdirSync(CODEX_HOME, { recursive: true });
+  const config = path.join(CODEX_HOME, 'config.toml');
+  if (!fs.existsSync(config) || fs.readFileSync(config, 'utf8') !== CODEX_CONFIG) fs.writeFileSync(config, CODEX_CONFIG);
+  const auth = path.join(CODEX_HOME, 'auth.json');
+  const source = path.join(process.env.CODEX_HOME || path.join(os.homedir(), '.codex'), 'auth.json');
+  if (!fs.existsSync(auth) && fs.existsSync(source)) fs.symlinkSync(source, auth);
+  return CODEX_HOME;
+}
+
+function minimalEnv(cmd) {
+  const keep = ['HOME', 'USER', 'LOGNAME', 'LANG', 'LC_ALL', 'TMPDIR'];
   const env = { PATH: `${LOCAL_BIN}:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin` };
   for (const k of keep) if (process.env[k]) env[k] = process.env[k];
   env.LANG ??= 'en_US.UTF-8';
+  env.GIT_CEILING_DIRECTORIES = path.join(ROOT_DIR, '.cache');
+  env.GIT_SSH_COMMAND = 'ssh -o BatchMode=yes -o IdentityAgent=none';
+  if (cmd === BINS.codex) env.CODEX_HOME = codexHome();
   return env;
 }
 
@@ -160,7 +205,7 @@ function run(cmd, argv, stdin, timeoutMs, { parse, live } = {}) {
   };
   return new Promise((resolve, reject) => {
     // Grup de procese propriu: la expirare oprim și procesele pornite de CLI, nu doar CLI-ul.
-    const child = spawn(cmd, argv, { cwd: SANDBOX_DIR, env: minimalEnv(), stdio: ['pipe', 'pipe', 'pipe'], detached: true });
+    const child = spawn(cmd, argv, { cwd: SANDBOX_DIR, env: minimalEnv(cmd), stdio: ['pipe', 'pipe', 'pipe'], detached: true });
     const killGroup = (signal) => {
       try {
         process.kill(-child.pid, signal);

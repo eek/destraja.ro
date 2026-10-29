@@ -4,8 +4,7 @@
 //   upl_pck2015.proiect?cam=2&idp=N  fișa proiectului; `idp` rămâne același de la BP la PL-x
 //   structura2015.co?idc=N&leg=2024&cam=2  pagina unei comisii (adresa de e-mail)
 // cdep.ro are un firewall care, după prea multe cereri, răspunde cu HTTP 200 și o pagină de captcha: o recunoaștem
-// după conținut și ne oprim, iar cererile au cel puțin cinci secunde între ele (în octombrie 2026, captcha a apărut
-// după vreo 200 de cereri la trei secunde).
+// după conținut și ne oprim două ore, iar cererile sunt rare, comune tuturor proceselor (vezi pace).
 
 import fs from 'node:fs';
 import path from 'node:path';
@@ -21,10 +20,12 @@ export const parseCommitteeEmail = (html) =>
   [...html.matchAll(/mailto:([\w.+-]+@cdep\.ro)/gi)].map((m) => m[1].toLowerCase()).find((e) => e !== 'webmaster@cdep.ro') ?? null;
 
 const UA = 'DeStraja/1.0 (+https://destraja.ro; contact@destraja.ro)';
-const PAUSE_MS = 5000;
-// Cel mult atâtea cereri într-o oră, din toate procesele: pe 29 octombrie captcha a venit după vreo 200 de cereri în
-// 80 de minute, iar IP-ul e același cu al celui care navighează pe cdep.ro de acasă.
-const PER_HOUR = 80;
+// O cerere pe minut și cel mult 60 pe oră, din toate procesele. Pe 29 octombrie captcha a venit o dată după vreo 200
+// de cereri în 80 de minute și încă o dată după 78 de cereri în 26 de minute (cinci secunde între ele): firewall-ul
+// numără pe o fereastră scurtă, așa că cererile trebuie întinse, nu doar numărate pe oră. IP-ul e același cu al celui
+// care navighează pe cdep.ro de acasă.
+const PAUSE_MS = 60_000;
+const PER_HOUR = 60;
 const HOUR = 3_600_000;
 // După un captcha nu mai cerem nimic de la cdep.ro atâta timp.
 const BACKOFF_MS = 2 * HOUR;
@@ -70,7 +71,7 @@ async function lock() {
   }
 }
 
-/** Așteaptă rândul la cdep.ro: cinci secunde după cererea de dinainte și cel mult PER_HOUR cereri într-o oră. */
+/** Așteaptă rândul la cdep.ro: PAUSE_MS după cererea de dinainte și cel mult PER_HOUR cereri într-o oră. */
 export async function pace() {
   fs.mkdirSync(path.dirname(PACE_FILE), { recursive: true });
   for (;;) {

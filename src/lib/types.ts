@@ -295,15 +295,41 @@ export interface BillVersion {
   scores: Record<ModelKey, number | null>;
 }
 
+/**
+ * O schimbare dintre două forme. Titlul, importanța, articolul și citatele vin de la comparațiile cu schema 2; citatele
+ * sunt doar cele găsite cuvânt cu cuvânt în textul formei (altfel null).
+ */
+export interface VersionItem {
+  text: string;
+  effect: 'mai_bine' | 'mai_rau' | 'neutru';
+  title?: string;
+  major?: boolean;
+  article?: string | null;
+  before?: string | null;
+  after?: string | null;
+}
+
+/** O problemă sau o parte bună din forma nouă, din inventarul comparației. */
+export interface RemainingItem {
+  text: string;
+  major: boolean;
+  article: string | null;
+}
+
 /** Comparația a două forme la rând, făcută de un model pe diferențele de text. */
 export interface VersionChange {
   from: BillVersion['key'];
   to: BillVersion['key'];
   direction: 'mai_riscant' | 'mai_putin_riscant' | 'la_fel';
+  /** Cea mai importantă schimbare, într-o propoziție (schema 2). */
+  headline?: string;
   summary: string;
-  changes: { text: string; effect: 'mai_bine' | 'mai_rau' | 'neutru' }[];
+  changes: VersionItem[];
+  /** Ce e acum în forma nouă, schimbat sau nu (schema 2). */
+  remaining?: { problems: RemainingItem[]; good: RemainingItem[] };
   diff: { added: number; removed: number; same: number };
   model: string;
+  schema?: number;
   updatedAt: string;
 }
 

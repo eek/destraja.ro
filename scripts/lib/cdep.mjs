@@ -8,6 +8,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
+import { spawnSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 
 export const CDEP = 'https://www.cdep.ro';
@@ -36,6 +37,7 @@ const BACKOFF_MS = 2 * HOUR;
 const PACE_FILE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../.cache/cdep-last-request');
 const LOCK = `${PACE_FILE}.lock`;
 const BLOCK_FILE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../.cache/cdep-blocked-until');
+const CAPTCHA_URL_FILE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../.cache/cdep-captcha-url');
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 const readNumber = (file) => {
@@ -98,9 +100,19 @@ export async function pace() {
   }
 }
 
-/** Captcha: notăm până când nu mai cerem nimic, pentru toate procesele. */
-export function blocked() {
+/**
+ * Captcha: notăm până când nu mai cerem nimic, pentru toate procesele, și o dată (cât ține pauza) anunțăm pe Mac
+ * pagina pe care Radu o poate deschide ca să rezolve captcha-ul: firewall-ul pare să deblocheze IP-ul, nu browserul.
+ * Adresa rămâne în .cache/cdep-captcha-url; după ce e rezolvat, ștergi .cache/cdep-blocked-until.
+ */
+export function blocked(url = CDEP) {
+  const announced = readNumber(BLOCK_FILE) > Date.now();
   fs.writeFileSync(BLOCK_FILE, String(Date.now() + BACKOFF_MS));
+  fs.writeFileSync(CAPTCHA_URL_FILE, `${url}\n`);
+  if (!announced && process.platform === 'darwin') {
+    const msg = `cdep.ro cere captcha. Deschide ${url} și rezolvă-l, apoi spune-i lui Claude.`;
+    spawnSync('osascript', ['-e', `display notification ${JSON.stringify(msg)} with title "destrajă" sound name "Glass"`], { timeout: 10_000 });
+  }
   return new CdepBlocked('cdep.ro cere captcha; ne oprim până la rularea următoare');
 }
 
@@ -111,7 +123,7 @@ export async function fetchCdep(url) {
   const res = await fetch(url, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(60_000) });
   if (!res.ok) throw new Error(`HTTP ${res.status} la ${url}`);
   const html = await res.text();
-  if (/Firewall Captcha Authentication/i.test(html)) throw blocked();
+  if (/Firewall Captcha Authentication/i.test(html)) throw blocked(url);
   return html;
 }
 
@@ -122,7 +134,7 @@ export async function fetchCdepFile(url) {
   if (!res.ok) throw new Error(`HTTP ${res.status} la ${url}`);
   const buf = Buffer.from(await res.arrayBuffer());
   if (buf.subarray(0, 5).toString() !== '%PDF-') {
-    if (/Firewall Captcha Authentication/i.test(buf.toString('utf8'))) throw blocked();
+    if (/Firewall Captcha Authentication/i.test(buf.toString('utf8'))) throw blocked(url);
     throw new Error(`${url} nu e un PDF`);
   }
   return buf;

@@ -96,7 +96,7 @@ async function getPage(url) {
       if (buf.length > MAX_BYTES) throw new Error(`pagină prea mare (${buf.length} octeți)`);
       const html = buf.toString('utf8');
       // Pagina de captcha a firewall-ului cdep.ro nu e o fișă: ne oprim, fără s-o păstrăm în cache.
-      if (/Firewall Captcha Authentication/i.test(html)) throw Object.assign(cdepBlocked(), { fatal: true });
+      if (/Firewall Captcha Authentication/i.test(html)) throw Object.assign(cdepBlocked(url), { fatal: true });
       fs.writeFileSync(file, html, 'utf8');
       return { html, fetchedAt: Date.now() };
     } catch (err) {

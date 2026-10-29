@@ -2,7 +2,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { writeBillTexts } from './lib/pdf-text.mjs';
+import { textName, writeBillTexts } from './lib/pdf-text.mjs';
 import { runModel } from './lib/ai-cli.mjs';
 import { CdepBlocked, fetchCdepFile } from './lib/cdep.mjs';
 import { unitDiff } from './lib/text-diff.mjs';
@@ -21,6 +21,14 @@ fs.mkdirSync(ANALYSES_DIR, { recursive: true });
 // La Cameră (--camera, --versions) citim în modul rapid: sute de proiecte, din care modelele citesc doar începutul
 // documentelor. Textele întregi le face apoi scripts/straja-texts.mjs.
 const FAST_TEXTS = process.argv.includes('--camera') || process.argv.includes('--versions');
+// Analiza unui proiect de la Cameră folosește doar forma cea mai nouă (latestVersion): formele mai vechi le citesc
+// --versions și straja-texts, ca GPU-ul să nu le citească de două ori în timp ce analizele așteaptă.
+const ANALYSIS_ONLY = process.argv.includes('--camera') && !process.argv.includes('--versions');
+const olderForms = (pdfDir) => {
+  const have = new Set(fs.existsSync(pdfDir) ? fs.readdirSync(pdfDir).map((f) => textName(f)) : []);
+  const newer = Object.values(FORMS).map((f) => f.text).find((t) => have.has(t));
+  return (name) => name.startsWith('forma_') && name !== 'forma_ordonanta' && name !== newer;
+};
 
 async function extractPdfTextsForBill(bill) {
   let pdfParse = null;
@@ -35,6 +43,7 @@ async function extractPdfTextsForBill(bill) {
     pdfParse,
     cacheDir: path.join(ROOT_DIR, '.cache', 'ocr'),
     fast: FAST_TEXTS,
+    ...(ANALYSIS_ONLY && { skip: olderForms(path.join(PDF_DIR, bill.slug)) }),
   });
 }
 

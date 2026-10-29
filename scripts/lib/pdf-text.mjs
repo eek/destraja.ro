@@ -1117,9 +1117,10 @@ const RANK = { text: 0, ocr: 1, vision: 1, 'mineru+ocr': 2, mineru: 2 };
  * Fără `force`, un PDF care are deja text și meta e lăsat în pace, cu excepția celor citite doar în parte în modul rapid
  * (Vision sau primele pagini): fără `fast`, acestea se recitesc întregi. Nu aruncă erori pentru un PDF care nu se poate
  * citi: îl sare și păstrează textul vechi. Întoarce textele după nume (forma_initiatorului, expunere_motive, aviz_ES...).
- * `onDoc(name, result)` primește rezultatul fiecărui PDF citit acum (pentru statistici).
+ * `onDoc(name, result)` primește rezultatul fiecărui PDF citit acum (pentru statistici). `skip(name)` lasă necitite acum
+ * PDF-urile fără text de care apelantul nu are nevoie (le citește o rulare de mai târziu).
  */
-export async function writeBillTexts(pdfDir, textDir, { pdfParse, cacheDir, force = false, fresh = false, fast = false, onDoc } = {}) {
+export async function writeBillTexts(pdfDir, textDir, { pdfParse, cacheDir, force = false, fresh = false, fast = false, skip = () => false, onDoc } = {}) {
   const texts = {};
   if (!fs.existsSync(pdfDir)) return texts;
   fs.mkdirSync(textDir, { recursive: true });
@@ -1135,7 +1136,9 @@ export async function writeBillTexts(pdfDir, textDir, { pdfParse, cacheDir, forc
   const partial = (name) => meta[name] === 'vision' || CUT_NOTE.test(fs.readFileSync(path.join(textDir, `${name}.txt`), 'utf8').slice(-200));
   const todo = files.filter((f) => {
     const name = textName(f);
-    return force || !meta[name] || !fs.existsSync(path.join(textDir, `${name}.txt`)) || (!fast && partial(name));
+    const missing = !meta[name] || !fs.existsSync(path.join(textDir, `${name}.txt`));
+    if (missing && skip(name)) return false;
+    return force || missing || (!fast && partial(name));
   });
   try {
     await warmMineru(todo.map((f) => path.join(pdfDir, f)), { pdfParse, cacheDir, fresh, fast, label: slug });

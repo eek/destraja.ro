@@ -20,9 +20,9 @@ const DAY = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Bucharest' }).f
 const SIZE = { width: 1080, height: 1350 };
 const TOP = 5;
 
-// Culorile temei deschise a site-ului (src/og/og.tsx, src/app/globals.css).
-const OG = { bg: '#fffefb', ink: '#121a2b', body: '#2c3546', muted: '#5b6475', line: '#e0dbcf', brand: '#172c54' };
-const RED = { bar: '#d0372b', text: '#a8261b', soft: '#fbe8e5' };
+// Culorile temei întunecate a site-ului (src/app/globals.css).
+const OG = { bg: '#1b2230', deep: '#141a25', ink: '#eef0f5', body: '#cdd3de', muted: '#9ca5b5', line: '#333d51', brand: '#bccaee' };
+const RED = { bar: '#f06a5d', text: '#ff9e93', soft: '#43272a' };
 
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
 const fmtScore = (n) => n.toFixed(1).replace('.', ',');
@@ -55,6 +55,11 @@ const row = (b) => `
     </div>
   </div>`;
 
+// Logo-ul are o singură culoare (#111111): pe fundal închis îl desenăm cu culoarea textului.
+const logo = `data:image/svg+xml;base64,${Buffer.from(fs.readFileSync(path.join(ROOT, 'public', 'destraja-logo.svg'), 'utf8').replace('fill="#111111"', `fill="${OG.ink}"`)).toString('base64')}`;
+
+const village = pathToUrl(path.join(ROOT, 'src', 'og', 'village-dark-transparent.png'));
+
 const html = `<!doctype html>
 <html lang="ro"><head><meta charset="utf-8"><title>Camera Deputaților</title>
 <style>
@@ -63,13 +68,15 @@ const html = `<!doctype html>
   @font-face { font-family: Sans; font-weight: 400; src: ${font('sans-400.ttf')}; }
   @font-face { font-family: Sans; font-weight: 600; src: ${font('sans-600.ttf')}; }
   * { box-sizing: border-box; margin: 0; }
-  html, body { width: ${SIZE.width}px; height: ${SIZE.height}px; background: ${OG.bg}; overflow: hidden; }
+  html, body { width: ${SIZE.width}px; height: ${SIZE.height}px; background: linear-gradient(180deg, ${OG.bg} 0%, ${OG.deep} 100%); overflow: hidden; }
   body { font-family: Sans; color: ${OG.body}; padding: 60px 72px 0; position: relative; display: flex; flex-direction: column; }
-  .head { display: flex; align-items: center; justify-content: space-between; }
+  .head { display: flex; align-items: center; justify-content: space-between; position: relative; }
   .eyebrow { font-size: 24px; color: ${OG.muted}; letter-spacing: .02em; }
-  h1 { font-family: Serif; font-weight: 600; font-size: 70px; line-height: 1.04; letter-spacing: -1.5px; color: ${OG.ink}; margin-top: 38px; }
+  .title-row { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; margin-top: 38px; }
+  h1 { font-family: Serif; font-weight: 600; font-size: 70px; line-height: 1.04; letter-spacing: -1.5px; color: ${OG.ink}; }
+  .village { flex: none; width: 205px; margin: 0 -14px -6px 0; }
   h1 span { display: block; color: ${OG.muted}; font-weight: 400; }
-  .stats { display: flex; gap: 28px; margin-top: 36px; padding: 26px 0 26px; border-top: 2px solid ${OG.line}; border-bottom: 2px solid ${OG.line}; }
+  .stats { display: flex; gap: 28px; margin-top: 36px; position: relative; padding: 26px 0 26px; border-top: 2px solid ${OG.line}; border-bottom: 2px solid ${OG.line}; }
   .stat { flex: 1; }
   .value { font-family: Serif; font-weight: 600; font-size: 88px; line-height: 1; letter-spacing: -2px; }
   .label { font-size: 23px; line-height: 1.3; color: ${OG.muted}; margin-top: 8px; }
@@ -86,10 +93,13 @@ const html = `<!doctype html>
 </style></head>
 <body>
   <div class="head">
-    <img src="${pathToUrl(path.join(ROOT, 'public', 'destraja-logo.svg'))}" width="210" height="71" alt="destrajă.ro">
+    <img src="${logo}" width="210" height="71" alt="destrajă.ro">
     <div class="eyebrow">Camera Deputaților · ${new Date().getFullYear()}</div>
   </div>
-  <h1><span>Ce se pregătește</span>la Camera Deputaților</h1>
+  <div class="title-row">
+    <h1><span>Acum stăm de strajă</span>și la Camera Deputaților</h1>
+    <img class="village" src="${village}" alt="">
+  </div>
   <div class="stats">
     ${stat(s.total, `proiecte în ${new Date().getFullYear()}`)}
     ${stat(s.here, 'în dezbatere acum')}

@@ -200,6 +200,8 @@ export default async function CameraBillPage({ params }: PageProps) {
           </p>
         </section>
 
+        {versions && <BillVersions data={versions} />}
+
         {atChamber && report.length > 0 && (
           <section aria-labelledby="actiune" className={`${panel} mt-6 border-brand/40 p-6 sm:p-8`}>
             <h2 id="actiune" className="text-lg font-semibold text-ink">
@@ -284,8 +286,6 @@ export default async function CameraBillPage({ params }: PageProps) {
             </section>
           </>
         )}
-
-        {versions && <BillVersions data={versions} />}
 
         {f.comisii && (
           <section aria-labelledby="comisii" className="mt-12">

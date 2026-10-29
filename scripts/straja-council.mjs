@@ -231,6 +231,8 @@ const CDEP_DOCS = [
   { type: 'forma_ordonanta', match: /^Ordonanța( de urgență)? a Guvernului/i },
   { type: 'expunere_motive', match: /^Expunerea de motive/i },
 ];
+// Aceleași documente pe senat.ro, după codul din numele fișierului (vezi senatPdf).
+const SENAT_CODE = { forma_senat: 'FS', forma_initiatorului: 'FG', expunere_motive: 'EM' };
 
 function chamberBill(sheet) {
   const f = sheet.fisa;
@@ -263,7 +265,11 @@ async function downloadChamberPdfs(sheet) {
     // Formele votate au adresa „…/proiecte/docs?2026/pl001_cd001_26.pdf”: numele fișierului e în query.
     const u = new URL(doc.url);
     const file = path.join(dir, `${type}_${path.basename(u.pathname.endsWith('.pdf') ? u.pathname : u.search.slice(1)).replace(/_/g, '')}`);
-    if (!fs.existsSync(file)) fs.writeFileSync(file, await fetchCdepFile(doc.url));
+    if (fs.existsSync(file)) continue;
+    // Proiectele trecute pe la Senat au aceleași texte pe senat.ro: le luăm de acolo, ca să cerem puțin de la cdep.ro.
+    const alt = SENAT_CODE[type] && senatPdf(sheet.fisa.numarSenat, SENAT_CODE[type]);
+    const fromSenat = alt && (await fetchSenatPdf(alt).catch(() => null));
+    fs.writeFileSync(file, fromSenat ?? (await fetchCdepFile(doc.url)));
   }
   return true;
 }
@@ -311,6 +317,7 @@ async function mainChamber(args) {
 
   let done = 0;
   let failed = 0;
+  let blockedSeen = 0;
   for (const sheet of targets) {
     if (done >= max) break;
     const release = slug ? () => {} : claim(sheet.slug);
@@ -326,9 +333,10 @@ async function mainChamber(args) {
       }
     } catch (err) {
       release();
+      // Fără cdep.ro mergem mai departe: proiectele cu textele pe senat.ro nu au nevoie de el.
       if (err instanceof CdepBlocked) {
-        console.log(`⏸️  ${err.message}`);
-        break;
+        if (!blockedSeen++) console.log(`⏸️  ${err.message}; trecem doar la proiectele cu textele pe senat.ro`);
+        continue;
       }
       console.log(`⚠️  ${sheet.numar}: ${err.message}`);
       failed++;

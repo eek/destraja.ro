@@ -22,18 +22,45 @@ export const parseCommitteeEmail = (html) =>
 
 const UA = 'DeStraja/1.0 (+https://destraja.ro; contact@destraja.ro)';
 const PAUSE_MS = 5000;
-// Pauza e comună tuturor proceselor (citirea fișelor și mai multe loturi de analize în paralel): ora ultimei cereri
-// stă într-un fișier, iar un director creat atomic face de lacăt. Un lacăt mai vechi de un minut e al unui proces mort.
+// Cel mult atâtea cereri într-o oră, din toate procesele: pe 29 octombrie captcha a venit după vreo 200 de cereri în
+// 80 de minute, iar IP-ul e același cu al celui care navighează pe cdep.ro de acasă.
+const PER_HOUR = 80;
+const HOUR = 3_600_000;
+// După un captcha nu mai cerem nimic de la cdep.ro atâta timp.
+const BACKOFF_MS = 2 * HOUR;
+// Pauza și bugetul sunt comune tuturor proceselor (citirea fișelor și mai multe loturi de analize în paralel): orele
+// cererilor din ultima oră stau într-un fișier, iar un director creat atomic face de lacăt. Un lacăt mai vechi de un
+// minut e al unui proces mort. Ora până la care așteptăm după un captcha stă în alt fișier.
 const PACE_FILE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../.cache/cdep-last-request');
 const LOCK = `${PACE_FILE}.lock`;
+const BLOCK_FILE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../.cache/cdep-blocked-until');
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-export async function pace() {
-  fs.mkdirSync(path.dirname(PACE_FILE), { recursive: true });
+const readNumber = (file) => {
+  try {
+    return Number(fs.readFileSync(file, 'utf8')) || 0;
+  } catch {
+    return 0;
+  }
+};
+
+/** Orele cererilor din ultima oră (fișierul vechi ținea doar ora ultimei cereri, ca număr). */
+function recentRequests(now) {
+  let times = [];
+  try {
+    const v = JSON.parse(fs.readFileSync(PACE_FILE, 'utf8'));
+    times = Array.isArray(v) ? v : [v];
+  } catch {
+    // fără fișier sau stricat
+  }
+  return times.filter((t) => Number.isFinite(t) && t > now - HOUR).sort((a, b) => a - b);
+}
+
+async function lock() {
   for (;;) {
     try {
       fs.mkdirSync(LOCK);
-      break;
+      return;
     } catch {
       try {
         if (Date.now() - fs.statSync(LOCK).mtimeMs > 60_000) fs.rmSync(LOCK, { recursive: true, force: true });
@@ -41,14 +68,38 @@ export async function pace() {
       await sleep(250);
     }
   }
-  try {
-    const last = Number(fs.existsSync(PACE_FILE) ? fs.readFileSync(PACE_FILE, 'utf8') : 0) || 0;
-    const wait = last + PAUSE_MS - Date.now();
-    if (wait > 0) await sleep(wait);
-    fs.writeFileSync(PACE_FILE, String(Date.now()));
-  } finally {
-    fs.rmSync(LOCK, { recursive: true, force: true });
+}
+
+/** Așteaptă rândul la cdep.ro: cinci secunde după cererea de dinainte și cel mult PER_HOUR cereri într-o oră. */
+export async function pace() {
+  fs.mkdirSync(path.dirname(PACE_FILE), { recursive: true });
+  for (;;) {
+    const until = readNumber(BLOCK_FILE);
+    if (Date.now() < until) {
+      throw new CdepBlocked(`cdep.ro a cerut captcha; nu mai cerem nimic până la ${new Date(until).toLocaleTimeString('ro-RO', { hour: '2-digit', minute: '2-digit' })}`);
+    }
+    await lock();
+    let wait;
+    try {
+      const now = Date.now();
+      const times = recentRequests(now);
+      const next = Math.max((times.at(-1) ?? 0) + PAUSE_MS, times.length >= PER_HOUR ? times[times.length - PER_HOUR] + HOUR : 0);
+      wait = next - now;
+      if (wait <= 0) {
+        fs.writeFileSync(PACE_FILE, JSON.stringify([...times, now]));
+        return;
+      }
+    } finally {
+      fs.rmSync(LOCK, { recursive: true, force: true });
+    }
+    await sleep(Math.min(wait, 30_000));
   }
+}
+
+/** Captcha: notăm până când nu mai cerem nimic, pentru toate procesele. */
+export function blocked() {
+  fs.writeFileSync(BLOCK_FILE, String(Date.now() + BACKOFF_MS));
+  return new CdepBlocked('cdep.ro cere captcha; ne oprim până la rularea următoare');
 }
 
 export class CdepBlocked extends Error {}
@@ -58,7 +109,7 @@ export async function fetchCdep(url) {
   const res = await fetch(url, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(60_000) });
   if (!res.ok) throw new Error(`HTTP ${res.status} la ${url}`);
   const html = await res.text();
-  if (/Firewall Captcha Authentication/i.test(html)) throw new CdepBlocked('cdep.ro cere captcha; ne oprim până la rularea următoare');
+  if (/Firewall Captcha Authentication/i.test(html)) throw blocked();
   return html;
 }
 
@@ -69,7 +120,7 @@ export async function fetchCdepFile(url) {
   if (!res.ok) throw new Error(`HTTP ${res.status} la ${url}`);
   const buf = Buffer.from(await res.arrayBuffer());
   if (buf.subarray(0, 5).toString() !== '%PDF-') {
-    if (/Firewall Captcha Authentication/i.test(buf.toString('utf8'))) throw new CdepBlocked('cdep.ro cere captcha; ne oprim până la rularea următoare');
+    if (/Firewall Captcha Authentication/i.test(buf.toString('utf8'))) throw blocked();
     throw new Error(`${url} nu e un PDF`);
   }
   return buf;

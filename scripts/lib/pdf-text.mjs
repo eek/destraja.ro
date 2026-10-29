@@ -7,6 +7,9 @@
 //      intră în buclă („de la Partei de la Partei …”), sare peste rânduri de text sau pierde mai mult de 15% din
 //      cuvintele citite de Tesseract (mai puțin pe paginile cu grafice), pagina aceea vine de la Tesseract, iar
 //      jurnalul o spune. Pe paginile păstrate, Tesseract pune la loc ș, ț și ă pe care MinerU le-a scăpat.
+//   3. Expunerile de motive și ordonanțele le citește Apple Vision (scripts/vision-ocr.swift, pe Neural Engine, ~0,3 s pe
+//      pagină față de 7–13 s la MinerU). Modelele primesc doar începutul lor, unde câteva litere greșite nu schimbă
+//      sensul; textul legii rămâne la MinerU, pentru citate exacte și comparația dintre forme.
 // Fără MinerU (scripts/install-ocr.sh) citim doar cu Tesseract; fără ocrmypdf rămânem la stratul de text al PDF-ului.
 // Pentru fiecare PDF scriem <nume>.md (Markdown, afișat pe pagina proiectului) și <nume>.txt (text simplu, pentru
 // analizele modelelor și verificarea citatelor), iar _meta.json spune cum a fost citit fiecare.
@@ -23,10 +26,25 @@ const MINERU_BIN = process.env.MINERU_BIN || path.join(OCR_HOME, 'venv', 'bin', 
 const OWN_TESSDATA = path.join(OCR_HOME, 'tessdata');
 const MINERU_ARGS = ['--tier', 'standard', '--ocr-mode', 'ocr'];
 const MINERU_ENV = { ...process.env, MINERU_MODEL_SOURCE: 'local', HF_HUB_OFFLINE: '1' };
+const VISION_BIN = process.env.VISION_OCR_BIN || path.join(OCR_HOME, 'bin', 'vision-ocr');
+// Documentele citite cu Apple Vision când îl avem (vezi mai sus).
+const VISION_DOCS = new Set(['expunere_motive', 'forma_ordonanta']);
 // Cât așteptăm MinerU: ~7 s pe pagină pe un Mac liber, de câteva ori mai mult când mașina e ocupată.
 const mineruTimeout = (pages) => 10 * 60_000 + 60_000 * Math.max(1, pages);
 // Câte pagini dăm odată lui MinerU (o rulare ține 4–9 GB de RAM, în funcție de numărul de pagini).
 const BATCH_PAGES = 80;
+// Câte pagini citim cu OCR dintr-un PDF. Modelele primesc ~14.000 de caractere din formă și 10.000 din expunere (câteva
+// pagini), iar o anexă scanată de 262 de pagini ținea MinerU ocupat ore întregi.
+const OCR_MAX_PAGES = 40;
+// Din expunerea de motive și din ordonanța aprobată modelele primesc doar începutul (10.000, respectiv 9.000 de
+// caractere, 3–4 pagini); după primele pagini vin de obicei listele de semnături și anexele.
+const SHORT_DOCS = { expunere_motive: 12, forma_ordonanta: 12 };
+const ocrPageLimit = (pdfPath) => SHORT_DOCS[textName(pdfPath)] ?? OCR_MAX_PAGES;
+// „13 pagini”, dar „40 de pagini”.
+const pagesRo = (n) => (n % 100 >= 1 && n % 100 <= 19 ? `${n} pagini` : `${n} de pagini`);
+// Câte rulări MinerU merg odată pe mașină, din toate procesele: fiecare ține câteva nuclee și 4–9 GB de RAM.
+const MINERU_SLOTS = 3;
+const SLOTS_DIR = path.join(OCR_HOME, 'mineru-slots');
 
 // Verificarea pe pagină. O buclă e aceeași secvență repetată de cel puțin 7 ori la rând.
 const LOOP = /((?=\S*\p{L})\S.{2,60}?)(?:\s+\1){6,}/u;
@@ -675,7 +693,7 @@ export function ocrTools() {
 }
 
 async function detectTools() {
-  const tools = { tesseract: null, mineru: null };
+  const tools = { tesseract: null, mineru: null, vision: null };
   const env = { ...process.env };
   if (fs.existsSync(path.join(OWN_TESSDATA, 'ron.traineddata'))) env.TESSDATA_PREFIX = OWN_TESSDATA;
   else console.warn(`⚠️ Nu există ${path.join(OWN_TESSDATA, 'ron.traineddata')}: Tesseract folosește limbile sistemului, pe care un \`brew upgrade\` le poate șterge. Rulează sh scripts/install-ocr.sh.`);
@@ -703,6 +721,10 @@ async function detectTools() {
   } else {
     const rest = tools.tesseract ? 'citim scanările doar cu Tesseract' : 'fără OCR rămâne stratul de text al PDF-urilor';
     console.warn(`ℹ️ MinerU nu e instalat (${MINERU_BIN}); ${rest}. Pentru structură și tabele: sh scripts/install-ocr.sh`);
+  }
+  if (process.platform === 'darwin' && fs.existsSync(VISION_BIN)) {
+    // Cache-ul ține de binar și de versiunea sistemului, care aduce modelul Vision.
+    tools.vision = { id: `vision-${sha1(fs.readFileSync(VISION_BIN)).slice(0, 8)}-darwin${os.release()}` };
   }
   return tools;
 }
@@ -759,6 +781,107 @@ async function tesseractPages(pdfPath, hash, { cacheDir, fresh, tool }) {
   }
 }
 
+// ─── Apple Vision ────────────────────────────────────────────────────────────────────────────────────────────────
+
+// Vision pune uneori ã, á, ä sau à în loc de ă și ı fără punct în loc de i; în textele noastre nu apar. Pe semnăturile
+// de mână citește uneori litere chirilice sau grecești: acele cuvinte nu sunt text.
+const fixVision = (s) =>
+  s
+    .replace(/[ãáäàǎ]/g, 'ă')
+    .replace(/[ÃÁÄÀǍ]/g, 'Ă')
+    .replace(/ı/g, 'i')
+    .replace(/[^\s|]*[\p{Script=Cyrillic}\p{Script=Greek}][^\s|]*/gu, '')
+    .replace(/[ \t]{2,}/g, ' ');
+
+/**
+ * Textul unei pagini din rândurile date de Vision (`{ t, x, y, w, h }`, între 0 și 1, cu y de sus). Rândurile de la
+ * aceeași înălțime se pun pe un rând (celulele unui tabel, despărțite de „ | ” când sunt departe), iar un spațiu mai
+ * mare decât un rând începe un paragraf nou, ca în textul Tesseract (vezi tesseractBlocks).
+ */
+export function visionPageText(lines) {
+  const items = lines.filter((l) => l.t.trim()).map((l) => ({ ...l, mid: l.y + l.h / 2 })).sort((a, b) => a.mid - b.mid);
+  const rows = [];
+  for (const l of items) {
+    const row = rows.at(-1);
+    if (row && Math.abs(l.mid - row.mid) < Math.min(l.h, row.h) / 2) {
+      row.cells.push(l);
+      row.bottom = Math.max(row.bottom, l.y + l.h);
+    } else rows.push({ mid: l.mid, h: l.h, top: l.y, bottom: l.y + l.h, cells: [l] });
+  }
+  const heights = rows.map((r) => r.h).sort((a, b) => a - b);
+  const lineH = heights[Math.floor(heights.length / 2)] ?? 0;
+  let out = '';
+  let prev = null;
+  for (const r of rows) {
+    const cells = r.cells.sort((a, b) => a.x - b.x);
+    const text = cells.map((c, i) => (i === 0 ? '' : c.x - (cells[i - 1].x + cells[i - 1].w) > 0.02 ? ' | ' : ' ') + c.t.trim()).join('');
+    if (prev) out += r.top - prev.bottom > lineH * 0.9 ? '\n\n' : '\n';
+    out += text;
+    prev = r;
+  }
+  return fixVision(out);
+}
+
+/** Paginile citite de Vision (cel mult `limit`), ca text. Cache-ul ține rândurile, nu textul așezat din ele. */
+async function visionPages(pdfPath, hash, limit, { cacheDir, fresh, tool }) {
+  const file = cacheFile(cacheDir, 'vision-lines', `${hash}-p${limit}-${tool.id}`);
+  let pages = !fresh && readCache(file);
+  if (!pages) {
+    const work = workDir(cacheDir, 'vision-');
+    try {
+      const out = path.join(work, 'out.json');
+      await runTool(VISION_BIN, [pdfPath, String(limit), out], { timeoutMs: 3 * 60_000 + 15_000 * limit });
+      pages = JSON.parse(fs.readFileSync(out, 'utf8')).pages;
+      writeCache(file, pages);
+    } finally {
+      dropWorkDir(work);
+    }
+  }
+  return pages.map((p) => visionPageText(p.lines));
+}
+
+/**
+ * Un document din VISION_DOCS, citit cu Vision; null dacă Vision lipsește sau n-a găsit text. Vision scapă uneori
+ * virgula lui ș și ț (de exemplu în Verdana: „national”), așa că, la fel ca la MinerU, Tesseract pune la loc ș, ț și ă.
+ */
+async function visionText(pdfPath, buf, totalPages, { cacheDir, fresh, label }) {
+  const tools = await ocrTools();
+  if (!tools.vision || !VISION_DOCS.has(textName(pdfPath))) return null;
+  const limit = ocrPageLimit(pdfPath);
+  try {
+    const src = tools.tesseract && (await ocrInput(pdfPath, buf, totalPages, cacheDir));
+    const tessP = src
+      ? tesseractPages(src.pdfPath, src.hash, { cacheDir, fresh, tool: tools.tesseract }).catch((err) => {
+          console.warn(`⚠️ ${label}: Tesseract a eșuat (${err.message}); diacriticele rămân cum le-a citit Vision`);
+          return null;
+        })
+      : null;
+    const pages = await visionPages(pdfPath, sha1(buf), limit, { cacheDir, fresh, tool: tools.vision });
+    const tess = await tessP;
+    if (!pages.some((p) => p.trim())) return null;
+    const docFix = tess && diacriticFixer(tess.join('\n'));
+    const doc = new DocBuilder();
+    pages.forEach((page, i) => {
+      const fix = tess?.length === pages.length ? diacriticFixer(tess[i]) : docFix;
+      doc.addTesseract(fix ? fixBlocks(tesseractBlocks(page), fix) : tesseractBlocks(page));
+    });
+    return withCut({ ...doc.render(), method: 'vision', pages: pages.length, fallbacks: [] }, totalPages > limit ? totalPages : null, limit);
+  } catch (err) {
+    console.warn(`⚠️ ${label}: Apple Vision a eșuat (${err.message}); citim cu MinerU`);
+    return null;
+  }
+}
+
+/** Nota de la sfârșitul unui document citit doar în parte. */
+function withCut(res, cut, read) {
+  if (!cut) return res;
+  return {
+    ...res,
+    text: `${res.text.trimEnd()}\n\n[Documentul are ${pagesRo(cut)}; am citit primele ${read}.]\n`,
+    markdown: res.markdown && `${res.markdown.trimEnd()}\n\n*Documentul are ${pagesRo(cut)}; am citit primele ${read}.*\n`,
+  };
+}
+
 // ─── MinerU ──────────────────────────────────────────────────────────────────────────────────────────────────────
 
 // Un singur MinerU odată în proces: o rulare ține 4–9 GB de RAM.
@@ -769,13 +892,76 @@ function withMineruLock(fn) {
   return next;
 }
 
+/** Un loc e ocupat cât trăiește procesul care l-a luat; un folder abia creat, încă fără PID, e și el ocupat. */
+function slotTaken(slot) {
+  try {
+    const pid = Number(fs.readFileSync(path.join(slot, 'pid'), 'utf8'));
+    process.kill(pid, 0);
+    return true;
+  } catch (err) {
+    if (err.code === 'EPERM') return true;
+    if (err.code !== 'ENOENT') return false;
+    try {
+      return Date.now() - fs.statSync(slot).mtimeMs < 30_000;
+    } catch {
+      return false;
+    }
+  }
+}
+
+/** Ia unul din cele MINERU_SLOTS locuri de pe mașină (un folder cu PID-ul nostru) și îl ține cât rulează `fn`. */
+async function withMineruSlot(fn) {
+  fs.mkdirSync(SLOTS_DIR, { recursive: true });
+  for (;;) {
+    for (let i = 0; i < MINERU_SLOTS; i++) {
+      const slot = path.join(SLOTS_DIR, String(i));
+      try {
+        fs.mkdirSync(slot);
+      } catch {
+        if (!slotTaken(slot)) fs.rmSync(slot, { recursive: true, force: true });
+        continue;
+      }
+      fs.writeFileSync(path.join(slot, 'pid'), String(process.pid));
+      try {
+        return await fn();
+      } finally {
+        fs.rmSync(slot, { recursive: true, force: true });
+      }
+    }
+    await new Promise((r) => setTimeout(r, 3000));
+  }
+}
+
+/**
+ * PDF-ul dat la OCR: el însuși sau, când are mai multe pagini decât citim din el (ocrPageLimit), o copie cu primele (qpdf
+ * vine cu ocrmypdf). Copia are altă cheie de cache decât PDF-ul întreg. `cut` e numărul de pagini al originalului.
+ */
+async function ocrInput(pdfPath, buf, pages, cacheDir) {
+  const hash = sha1(buf);
+  const max = ocrPageLimit(pdfPath);
+  if (pages <= max) return { pdfPath, hash, pages, cut: null };
+  const short = path.join(cacheDir, 'cut', `${hash}-p${max}.pdf`);
+  try {
+    if (!fs.existsSync(short)) {
+      fs.mkdirSync(path.dirname(short), { recursive: true });
+      const tmp = `${short}.${process.pid}.tmp`;
+      await runTool('qpdf', ['--warning-exit-0', pdfPath, '--pages', '.', `1-${max}`, '--', tmp], { timeoutMs: 5 * 60_000 });
+      fs.renameSync(tmp, short);
+    }
+    return { pdfPath: short, hash: `${hash}-p${max}`, pages: max, cut: pages };
+  } catch (err) {
+    console.warn(`⚠️ ${path.basename(pdfPath)}: nu am putut păstra doar primele ${max} pagini (${err.message}); citim tot PDF-ul`);
+    return { pdfPath, hash, pages, cut: null };
+  }
+}
+
 /**
  * Rulează MinerU o dată pe mai multe PDF-uri (modelele se încarcă o singură dată) și pune paginile fiecăruia în cache.
  * `docs`: [{ pdfPath, hash, pages }]. Întoarce numărul de documente citite.
  */
 async function runMineru(docs, { cacheDir, tool, label }) {
   if (!docs.length) return 0;
-  return withMineruLock(async () => {
+  return withMineruLock(() => withMineruSlot(async () => {
     const work = workDir(cacheDir, 'mineru-');
     const started = Date.now();
     try {
@@ -814,7 +1000,7 @@ async function runMineru(docs, { cacheDir, tool, label }) {
     } finally {
       dropWorkDir(work);
     }
-  });
+  }));
 }
 
 const mineruCached = (cacheDir, hash, tool) => readCache(cacheFile(cacheDir, 'mineru', `${hash}-${tool.id}`));
@@ -844,18 +1030,22 @@ async function layerText(buf, pdfParse) {
 
 /**
  * Textul unui PDF și cum l-am obținut: { text, markdown, method, pages, fallbacks }.
- * method: 'mineru' | 'mineru+ocr' (unele pagini de la Tesseract) | 'ocr' (doar Tesseract) | 'text' (stratul PDF-ului).
+ * method: 'mineru' | 'mineru+ocr' (unele pagini de la Tesseract) | 'ocr' (doar Tesseract) | 'vision' (Apple Vision, pentru
+ * VISION_DOCS) | 'text' (stratul PDF-ului).
  * `pdfParse` e pdf-parse încărcat de apelant (poate lipsi); `fresh` ignoră cache-ul OCR.
  */
 export async function extractPdfText(pdfPath, { pdfParse, cacheDir, fresh = false, label = path.basename(pdfPath) }) {
   const buf = fs.readFileSync(pdfPath);
-  const hash = sha1(buf);
   const layer = await layerText(buf, pdfParse);
   const tools = await ocrTools();
   fs.mkdirSync(cacheDir, { recursive: true });
+  const seen = await visionText(pdfPath, buf, layer.pages, { cacheDir, fresh, label });
+  if (seen) return seen;
+  const src = tools.tesseract || tools.mineru ? await ocrInput(pdfPath, buf, layer.pages, cacheDir) : null;
+  const note = (res) => withCut(res, src?.cut, src?.pages);
 
   const tessP = tools.tesseract
-    ? tesseractPages(pdfPath, hash, { cacheDir, fresh, tool: tools.tesseract }).catch((err) => {
+    ? tesseractPages(src.pdfPath, src.hash, { cacheDir, fresh, tool: tools.tesseract }).catch((err) => {
         console.warn(`⚠️ ${label}: Tesseract a eșuat (${err.message})`);
         return null;
       })
@@ -863,10 +1053,10 @@ export async function extractPdfText(pdfPath, { pdfParse, cacheDir, fresh = fals
 
   let mine = null;
   if (tools.mineru) {
-    mine = !fresh && mineruCached(cacheDir, hash, tools.mineru);
+    mine = !fresh && mineruCached(cacheDir, src.hash, tools.mineru);
     if (!mine && tools.mineru.failures < 3) {
-      await runMineru([{ pdfPath, hash, pages: layer.pages }], { cacheDir, tool: tools.mineru, label });
-      mine = mineruCached(cacheDir, hash, tools.mineru);
+      await runMineru([{ pdfPath: src.pdfPath, hash: src.hash, pages: src.pages }], { cacheDir, tool: tools.mineru, label });
+      mine = mineruCached(cacheDir, src.hash, tools.mineru);
     }
     if (tools.mineru.failures >= 3 && !tools.mineru.disabled) {
       tools.mineru.disabled = true;
@@ -875,8 +1065,8 @@ export async function extractPdfText(pdfPath, { pdfParse, cacheDir, fresh = fals
   }
   const tess = await tessP;
 
-  if (mine?.pages?.length) return assemble(mine.pages, tess, label);
-  if (tess?.some((p) => p.trim())) return fromTesseract(tess);
+  if (mine?.pages?.length) return note(assemble(mine.pages, tess, label));
+  if (tess?.some((p) => p.trim())) return note(fromTesseract(tess));
   if (tools.tesseract || tools.mineru) console.warn(`⚠️ ${label}: OCR indisponibil, rămâne stratul de text al PDF-ului`);
   return { text: layer.text, markdown: null, method: 'text', pages: layer.pages, fallbacks: [] };
 }
@@ -888,10 +1078,12 @@ async function warmMineru(pdfPaths, { pdfParse, cacheDir, fresh, label }) {
   fs.mkdirSync(cacheDir, { recursive: true });
   const docs = [];
   for (const pdfPath of pdfPaths) {
+    // Acestea le citește Vision (extractPdfText); MinerU le ia doar dacă Vision lipsește sau eșuează.
+    if (tools.vision && VISION_DOCS.has(textName(pdfPath))) continue;
     const buf = fs.readFileSync(pdfPath);
-    const hash = sha1(buf);
-    if (!fresh && mineruCached(cacheDir, hash, tools.mineru)) continue;
-    docs.push({ pdfPath, hash, pages: await pageCount(buf, pdfParse) });
+    const doc = await ocrInput(pdfPath, buf, await pageCount(buf, pdfParse), cacheDir);
+    if (!fresh && mineruCached(cacheDir, doc.hash, tools.mineru)) continue;
+    docs.push(doc);
   }
   // Loturi de cel mult BATCH_PAGES pagini (un PDF mai mare merge singur).
   let batch = [];
@@ -912,7 +1104,7 @@ const META = '_meta.json';
 // Numele de dinainte de textName: un singur aviz.txt pentru toate avizele, plus dubluri vechi.
 const LEGACY = ['adresa.txt', 'expunere.txt', 'forma.txt', 'aviz.txt', 'other.txt'];
 // Un text citit mai bine nu e înlocuit de unul citit mai prost (de exemplu --force pe o mașină fără MinerU).
-const RANK = { text: 0, ocr: 1, 'mineru+ocr': 2, mineru: 2 };
+const RANK = { text: 0, ocr: 1, vision: 1, 'mineru+ocr': 2, mineru: 2 };
 
 /**
  * Scrie pentru fiecare PDF al proiectului <nume>.txt și, când avem OCR, <nume>.md, și notează metoda în _meta.json.

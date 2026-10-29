@@ -254,11 +254,11 @@ export interface BillText {
   content: string;
   /** Textul cu structură (.md: titluri, paragrafe, tabele), când PDF-ul a fost citit cu OCR. */
   markdown: string | null;
-  /** Text recunoscut automat din scanare (MinerU și/sau Tesseract), nu luat din stratul de text al PDF-ului. */
+  /** Text recunoscut automat din scanare (MinerU, Tesseract sau Apple Vision), nu luat din stratul de text al PDF-ului. */
   ocr: boolean;
 }
 
-/** Metodele din _meta.json: 'mineru', 'mineru+ocr', 'ocr' (OCR) sau 'text' (stratul PDF-ului); textele vechi pot lipsi din meta. */
+/** Metodele din _meta.json: 'mineru', 'mineru+ocr', 'ocr', 'vision' (OCR) sau 'text' (stratul PDF-ului); textele vechi pot lipsi din meta. */
 const isOcr = (method: string | undefined) => !!method && method !== 'text';
 
 const TEXT_ORDER = ['forma_initiatorului', 'expunere_motive', 'aviz', 'adresa_inaintare', 'other'];

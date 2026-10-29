@@ -20,7 +20,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { pace as cdepPace } from './lib/cdep.mjs';
+import { blocked as cdepBlocked, pace as cdepPace } from './lib/cdep.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const BILLS_FILE = path.join(ROOT, 'data', 'senat-bills.json');
@@ -77,7 +77,11 @@ async function getPage(url) {
   for (let attempt = 0; attempt < 2; attempt++) {
     const wait = lastRequest + DELAY_MS * (attempt + 1) - Date.now();
     if (wait > 0) await sleep(wait);
-    if (url.startsWith(CDEP)) await cdepPace();
+    if (url.startsWith(CDEP)) {
+      await cdepPace().catch((err) => {
+        throw Object.assign(err, { fatal: true });
+      });
+    }
     lastRequest = Date.now();
     requests++;
     try {
@@ -92,7 +96,7 @@ async function getPage(url) {
       if (buf.length > MAX_BYTES) throw new Error(`pagină prea mare (${buf.length} octeți)`);
       const html = buf.toString('utf8');
       // Pagina de captcha a firewall-ului cdep.ro nu e o fișă: ne oprim, fără s-o păstrăm în cache.
-      if (/Firewall Captcha Authentication/i.test(html)) throw Object.assign(new Error('cdep.ro cere captcha'), { fatal: true });
+      if (/Firewall Captcha Authentication/i.test(html)) throw Object.assign(cdepBlocked(), { fatal: true });
       fs.writeFileSync(file, html, 'utf8');
       return { html, fetchedAt: Date.now() };
     } catch (err) {

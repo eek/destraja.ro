@@ -24,8 +24,9 @@ const UA = 'DeStraja/1.0 (+https://destraja.ro; contact@destraja.ro)';
 // de cereri în 80 de minute și încă o dată după 78 de cereri în 26 de minute (cinci secunde între ele): firewall-ul
 // numără pe o fereastră scurtă, așa că cererile trebuie întinse, nu doar numărate pe oră. IP-ul e același cu al celui
 // care navighează pe cdep.ro de acasă.
-const PAUSE_MS = 60_000;
-const PER_HOUR = 60;
+// CDEP_PAUSE_MS și CDEP_PER_HOUR schimbă ritmul pentru o rulare anume, când Radu cere explicit mai repede.
+const PAUSE_MS = Number(process.env.CDEP_PAUSE_MS) || 60_000;
+const PER_HOUR = Number(process.env.CDEP_PER_HOUR) || 60;
 const HOUR = 3_600_000;
 // După un captcha nu mai cerem nimic de la cdep.ro atâta timp.
 const BACKOFF_MS = 2 * HOUR;

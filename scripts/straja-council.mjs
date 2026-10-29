@@ -272,8 +272,13 @@ function chamberBill(sheet) {
 /** Descarcă textul proiectului și expunerea de motive; întoarce false dacă fișa n-are niciun text al legii. */
 async function downloadChamberPdfs(sheet) {
   const dir = path.join(PDF_DIR, sheet.slug);
-  const wanted = CDEP_DOCS.map((d) => ({ ...d, doc: (sheet.fisa.documente ?? []).find((x) => d.match.test(x.eticheta)) })).filter((d) => d.doc);
+  let wanted = CDEP_DOCS.map((d) => ({ ...d, doc: (sheet.fisa.documente ?? []).find((x) => d.match.test(x.eticheta)) })).filter((d) => d.doc);
   if (!wanted.some((d) => d.type.startsWith('forma'))) return false;
+  // Pentru analiză ajunge forma cea mai nouă (CDEP_DOCS le are în ordinea asta); pe celelalte le descarcă --versions.
+  if (ANALYSIS_ONLY) {
+    const newest = wanted.find((d) => d.type.startsWith('forma_') && d.type !== 'forma_ordonanta')?.type;
+    wanted = wanted.filter((d) => !d.type.startsWith('forma_') || d.type === 'forma_ordonanta' || d.type === newest);
+  }
   fs.mkdirSync(dir, { recursive: true });
   for (const { type, doc } of wanted) {
     // Formele votate au adresa „…/proiecte/docs?2026/pl001_cd001_26.pdf”: numele fișierului e în query.

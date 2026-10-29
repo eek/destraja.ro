@@ -87,8 +87,9 @@ export default function ActionKitClient({ bill, press }: ActionKitClientProps) {
           },
         ];
 
+  // Postarea vine mereu din șablon: pe 29 octombrie 2026 ajunsese pe site o postare scrisă de mână pentru B563
+  // („Bă voi sunteți nebuni…”).
   const defaultSocialPost =
-    c.socialShare?.facebookPost ||
     `${
       c.riskLevel === 'red'
         ? `Atenție la proiectul de lege ${bill.id} aflat în consultare publică la Senat până pe ${bill.consultationDeadline}!`
@@ -96,7 +97,6 @@ export default function ActionKitClient({ bill, press }: ActionKitClientProps) {
     }\n\nCe spun inițiatorii: ${c.initiatorClaim}\n\nCe face legea în realitate (Scor risc AI: ${fmt(c.riskScore)}/10): ${c.realityCheck}\n\nAm pregătit textele pre-calculate la fix pentru formularul Senatului + documentul Word (.docx) gata de atașat în 60 de secunde! Link în primul comentariu.`;
 
   const defaultFirstComment =
-    c.socialShare?.firstCommentLinks ||
     `Linkuri oficiale pentru proiectul ${bill.id}:\n1. Fișa oficială pe Senat.ro: ${bill.sheetUrl}\n2. Portalul de consultare publică: https://www.senat.ro/LegiProiect.aspx\n3. Punctele de vedere deja depuse: ${bill.opinionsUrl}`;
 
   const formBoxes = [

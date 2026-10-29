@@ -94,10 +94,6 @@ export interface BillAnalysis {
     articlesBreakdown?: ArticleChange[];
     mythsAndFacts?: MythVsFact[];
     institutionalEmails?: InstitutionalEmail[];
-    socialShare?: {
-      facebookPost: string;
-      firstCommentLinks: string;
-    };
     docxTitle?: string;
     docxIntro?: string;
     docxSections?: DocxSection[];

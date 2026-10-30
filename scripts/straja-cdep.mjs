@@ -18,6 +18,7 @@ import { CdepBlocked, committeeUrl, fetchCdep, listUrl, parseCommitteeEmail, par
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DIR = path.join(ROOT, 'data', 'cdep');
 const SHEETS = path.join(DIR, 'proiecte');
+const HTML_CACHE = path.join(ROOT, '.cache', 'cdep-html');
 const arg = (name, def) => process.argv.find((a) => a.startsWith(`--${name}=`))?.split('=')[1] ?? def;
 const YEAR = +arg('an', new Date().getFullYear());
 const MAX = +arg('max', 50);
@@ -27,6 +28,7 @@ export const AT_CHAMBER = /^(la comisii|raport|pe ordinea de zi|în reexaminare|
 const slugOf = (row) => `${row.tip.toLowerCase().replace(/[^a-z]/g, '')}-${row.nr}-${row.an}`.replace(/^pl(x)?-/, 'plx-');
 
 fs.mkdirSync(SHEETS, { recursive: true });
+fs.mkdirSync(HTML_CACHE, { recursive: true });
 const indexFile = path.join(DIR, 'index.json');
 const previous = fs.existsSync(indexFile) ? JSON.parse(fs.readFileSync(indexFile, 'utf8')) : { proiecte: [] };
 const before = new Map(previous.proiecte.map((p) => [p.slug, p]));
@@ -106,7 +108,10 @@ let read = 0;
 let note = '';
 try {
   for (const p of todo) {
-    const fisa = parseSheet(await fetchCdep(p.url));
+    const html = await fetchCdep(p.url);
+    // Păstrăm și HTML-ul o săptămână: straja-amendments îl refolosește în loc să ceară fișa a doua oară.
+    fs.writeFileSync(path.join(HTML_CACHE, `${p.slug}.html`), html);
+    const fisa = parseSheet(html);
     const senat = (fisa.numarSenat && ours.get(fisa.numarSenat)) || null;
     if (senat) p.senat = senat;
     fs.writeFileSync(path.join(SHEETS, `${p.slug}.json`), JSON.stringify({ ...p, cititLa: new Date().toISOString(), fisa }, null, 1) + '\n');

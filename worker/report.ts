@@ -5,7 +5,8 @@
 import { json, readSiteJson, verifyTurnstile } from './http';
 
 const TARGETS = new Set(['consensus', 'agy', 'claude', 'codex']);
-const BILL_ID = /^B\d{1,4}\/\d{4}$/;
+// Senatul: „B543/2026”; Camera: „PL-x 94/2026” sau „Pl-x 705/2026”.
+const BILL_ID = /^(?:B\d{1,4}|P[Ll]-x \d{1,4})\/\d{4}$/;
 const MIN_COMMENT = 15;
 const MAX_COMMENT = 1000;
 const MAX_BODY_BYTES = 16_000;

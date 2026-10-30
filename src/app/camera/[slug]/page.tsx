@@ -15,6 +15,7 @@ import BillAmendments from '@/components/camera/BillAmendments';
 import { getMpPageSlugs } from '@/lib/mp-pages';
 import BillBalance from '@/components/bills/BillBalance';
 import ModelsVerdict from '@/components/bills/ModelsVerdict';
+import ReportIssue from '@/components/bills/ReportIssue';
 import LiveDeadline from '@/components/bills/LiveDeadline';
 import { getBalance } from '@/lib/balance';
 
@@ -197,7 +198,11 @@ export default async function CameraBillPage({ params }: PageProps) {
           <Consultation c={f.consultare} builtOn={builtOn} billId={bill.numar} />
         )}
 
-        {c && analysis && <ModelsVerdict score={c.riskScore} level={c.riskLevel} council={analysis.council} />}
+        {c && analysis && (
+          <ModelsVerdict score={c.riskScore} level={c.riskLevel} council={analysis.council}>
+            <ReportIssue billId={bill.numar} target="consensus" />
+          </ModelsVerdict>
+        )}
         {c && balance && <BillBalance data={balance} level={c.riskLevel} />}
 
         <section aria-labelledby="traseu" className={`${panel} mt-6 p-6 sm:p-8`}>

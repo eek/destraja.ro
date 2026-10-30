@@ -396,6 +396,11 @@ function digestEntry(report, result) {
 
 async function main() {
   const bills = new Map(JSON.parse(fs.readFileSync(path.join(DATA, 'senat-bills.json'), 'utf8')).map((b) => [b.id, b]));
+  // Proiectele de la Cameră au analiza și textele în aceleași foldere, după slug („plx-94-2026”); raportul vine cu numărul lor.
+  const chamber = JSON.parse(fs.readFileSync(path.join(DATA, 'cdep', 'index.json'), 'utf8')).proiecte;
+  for (const p of chamber) {
+    if (!bills.has(p.numar) && fs.existsSync(path.join(DATA, 'analyses', `${p.slug}.json`))) bills.set(p.numar, { id: p.numar, slug: p.slug });
+  }
   const reports = await d1("SELECT id, bill_id, target, comment, created_at FROM reports WHERE status = 'new' ORDER BY created_at LIMIT 50");
   console.log(`📮 ${reports.length} rapoarte noi${LOCAL ? ' (local)' : ''}${DRY ? ', fără scriere' : ''}`);
 

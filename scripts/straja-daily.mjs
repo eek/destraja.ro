@@ -4,7 +4,8 @@
 //
 // 1. senat.ro → data/senat-bills.json, cu PDF-urile noi și textul lor: scanările citite cu MinerU și verificate pagină cu
 //    pagină cu Tesseract (straja-sync, scripts/lib/pdf-text.mjs)
-// 2. analiza celor trei modele pentru proiectele noi (straja-council <slug>), apoi motivele avizelor negative CES (straja-ces)
+// 2. analiza celor trei modele pentru proiectele noi (straja-council <slug>), apoi motivele avizelor negative CES (straja-ces);
+//    la Cameră, și amendamentele din rapoartele comisiilor, cu autorii lor (straja-amendments)
 // 3. presa pentru proiectele aflate în consultare (straja-news), apoi poziția articolelor noi față de proiect, cu două
 //    modele de decizie rulate local, Clef și d1-3B (straja-stance)
 // 4. pozițiile organizațiilor (straja-positions --due): proiectele cu risc ridicat sau cu cel mult 3 zile până la
@@ -136,6 +137,9 @@ async function main() {
     else {
       const cdepCouncil = await step('Camera: analize', 'node', ['scripts/straja-council.mjs', '--camera', '--due', '--max=8'], { timeoutMs: 7_200_000 });
       if (!cdepCouncil.ok) summary.push('analizele Camerei au eșuat');
+      // Amendamentele din rapoartele comisiilor, cu autorii lor; doar proiectele cu raport sau comparație nouă ajung la model.
+      const amendments = await step('Camera: amendamente', 'node', ['scripts/straja-amendments.mjs', '--max=100'], { timeoutMs: 7_200_000 });
+      if (!amendments.ok) summary.push('amendamentele Camerei au eșuat');
     }
 
     const ces = await step('Avize CES', 'node', ['scripts/straja-ces.mjs'], { timeoutMs: 1_800_000 });

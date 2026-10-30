@@ -176,6 +176,8 @@ function minimalEnv(cmd) {
   const keep = ['HOME', 'USER', 'LOGNAME', 'LANG', 'LC_ALL', 'TMPDIR'];
   const env = { PATH: `${LOCAL_BIN}:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin` };
   for (const k of keep) if (process.env[k]) env[k] = process.env[k];
+  // AI_ENV_KEEP=PATH,NUME: variabile în plus pentru CLI-uri, de exemplu autentificarea lui claude într-o sesiune din cloud.
+  for (const k of (process.env.AI_ENV_KEEP ?? '').split(',').map((s) => s.trim())) if (k && process.env[k]) env[k] = process.env[k];
   env.LANG ??= 'en_US.UTF-8';
   env.GIT_CEILING_DIRECTORIES = path.join(ROOT_DIR, '.cache');
   env.GIT_SSH_COMMAND = 'ssh -o BatchMode=yes -o IdentityAgent=none';

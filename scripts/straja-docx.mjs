@@ -1,6 +1,9 @@
 #!/usr/bin/env node
 import fs from 'node:fs/promises';
 import path from 'node:path';
+
+// Loc de completat de mână, în documentul care nu e personalizat pe site.
+const BLANK = '……………………………………';
 import {
   Document,
   Packer,
@@ -77,8 +80,10 @@ async function generateDocxForBill(bill, analysis) {
       alignment: AlignmentType.JUSTIFIED,
       children: [
         new TextRun({
+          // Introducerea scrisă de modele lasă „{{NUME_CETATEAN}}” pentru semnatar; în documentul gata făcut rămâne loc de
+          // completat de mână (issue #7).
           text:
-            c.docxIntro ||
+            c.docxIntro?.replaceAll('{{NUME_CETATEAN}}', BLANK) ||
             `În cadrul consultării publice organizate de Senatul României și în exercitarea dreptului de petiționare prevăzut de art. 51 din Constituția României, formulăm prezentul punct de vedere tehnic și juridic referitor la propunerea legislativă ${bill.id}.`,
           size: 22,
           font: 'Calibri',
@@ -235,7 +240,7 @@ async function generateDocxForBill(bill, analysis) {
       spacing: { after: 80 },
       children: [
         new TextRun({
-          text: 'Cetățean / Contribuabil / Reprezentant al Societății Civile',
+          text: `Nume și prenume: ${BLANK}`,
           bold: true,
           size: 22,
           font: 'Calibri',

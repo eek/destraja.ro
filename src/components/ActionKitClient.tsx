@@ -225,6 +225,26 @@ export default function ActionKitClient({ bill, press }: ActionKitClientProps) {
         {/* TAB 1: SENAT.RO FORM + DOCX */}
         {activeTab === 'senat' && (
           <div className="divide-y divide-line">
+            {/* Formularul online al Senatului cere cont; mulți se împotmolesc aici (issue #7). */}
+            <div className="p-4 sm:p-6 text-sm leading-6 text-body">
+              <span className="font-semibold text-ink">Ai nevoie de cont pe online.senat.ro.</span> Alegi „Înregistrare”, te autentifici,
+              apoi deschizi{' '}
+              <a
+                href="https://online.senat.ro/portal/serviciu/initiative-legislative-aflate-in-consultare-publica"
+                target="_blank"
+                rel="noopener noreferrer"
+                {...trackAttrs('senat_portal_open', { bill_id: bill.id })}
+                className="font-semibold text-ink underline decoration-line-strong underline-offset-4 hover:decoration-ink"
+              >
+                „Inițiative legislative aflate în consultare publică”
+                <ExternalLink className="ml-1 inline h-3.5 w-3.5 align-[-2px]" aria-hidden />
+              </a>{' '}
+              și cauți {bill.id}. Fără cont, poți trimite formularul completat pe e-mail, la{' '}
+              <a href="mailto:infopub@senat.ro" className="font-semibold text-ink underline decoration-line-strong underline-offset-4 hover:decoration-ink">
+                infopub@senat.ro
+              </a>
+              .
+            </div>
             {/* DOCX Row */}
             <div className="p-4 sm:p-6 bg-sunken/50 space-y-3">
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">

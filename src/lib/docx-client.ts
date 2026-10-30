@@ -85,7 +85,9 @@ export async function downloadPersonalizedDocx(
     })
   );
 
-  if (c.docxIntro) {
+  // Introducerea scrisă de modele, când începe cu „Subsemnatul(a) {{NUME_CETATEAN}}”, repetă paragraful de mai sus, care
+  // are deja numele: o sărim, altfel ar apărea două „Subsemnatul”, al doilea fără nume (issue #7).
+  if (c.docxIntro && !c.docxIntro.includes('{{NUME_CETATEAN}}')) {
     children.push(
       new Paragraph({
         spacing: { after: 240 },

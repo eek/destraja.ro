@@ -1,97 +1,329 @@
-Expunere de motive - CIIP
+# EXPUNERE DE MOTIVE
 
-EXPUNERE DE MOTIVE
+## LEGE
 
-LEGE pentru înființarea și funcționarea Conturilor Individuale de Investiții pentru Pensie
+pentru înființarea și funcționarea Conturilor Individuale de Investiții pentru Pensie
 
-Secțiunea 1 - Titlul proiectului de act normativ Lege pentru înființarea și funcționarea Conturilor Individuale de Investiții pentru Pensie.
+## Secțiunea 1 — Titlul proiectului de act normativ
 
-Secțiunea a 2-a - Motivul emiterii actului normativ
+Lege pentru înființarea și funcționarea Conturilor Individuale de Investiții pentru Pensie.
 
-2.1. Sursa proiectului de act normativ Prezenta propunere legislativă reprezintă o inițiativă parlamentară, elaborată în temeiul art. 74 alin. (1) din Constituția României, cu respectarea normelor de tehnică legislativă prevăzute de Legea nr. 24/2000 și a modelului standard al instrumentului de prezentare și motivare prevăzut de Anexa nr. 1 la HG nr. 443/2022. Inițiativa se înscrie în contextul modernizării sistemului românesc de pensii și al dezvoltării pieței de capital, corespunzând obiectivelor strategice ale Uniunii Europene privind Uniunea Economillor și Investiților (Savings and Investments Union - SIu).
+## Secțiunea a 2-a — Motivul emiterii actului normativ
 
-2.2. Descrierea situației actuale
+## 2.1. Sursa proiectului de act normativ
 
-A. Criza demografică și sustenabilitatea sistemului public de pensii Sistemul public de pensii din România, bazat pe principiul solidarității între generații (pay-as-you-go), se confruntă cu presiuni structurale fără precedent. Conform datelor Eurostat, rata de dependență a vârstnicilor (populația de 65+ raportată la cea de 15-64 ani) se situează la aproximativ 31% în 2024 și este proiectată să depășească 50% în 2050. Această evoluție este rezultatul a trei factori convergenți: scăderea fertilității (aproximativ 1,65 copii/femeie în 2024), creșterea speranței de viață (76,1 ani în 2024 față de 69,8 în 2000) și emigrația masivă a forței de muncă tinere. Populația României a scăzut de la 21,7 milioane în 2002 la aproximativ 19 milioane, cu proiecții de continuare a declinului. Raportul dintre contribuabili și beneficiari în sistemul public de pensii este de aproximativ 1:1, unul dintre cele mai scăzute din UE. Conform Raportului privind îmbătrânirea populației (2024 Ageing Report) al Comisiei Europene, rata de înlocuire a pensiilor publice se va deteriora semnificativ până în 2070, ceea ce înseamnă că viitorii pensionari se vor confrunta cu o reducere substanțială a nivelului de trai la pensionare. Legea nr. 360/2023 privind sistemul public de pensii a încercat să adreseze parțial aceste provocări, dar reformele parametrice ale Pilonului I sunt insuficiente pentru a compensa integral efectele demografice adverse. Experiența internațională demonstrează că un sistem de pensii sustenabil necesită diversificarea surselor de venit la pensie, prin combinarea pensiei publice cu instrumente private de economisire pe termen lung.
+Prezenta propunere legislativă reprezintă o inițiativă parlamentară, elaborată în temeiul art. 74 alin. (1) din Constituția României, cu respectarea normelor de tehnică legislativă prevăzute de Legea nr. 24/2000 și a modelului standard al instrumentului de prezentare și motivare prevăzut de Anexa nr. 1 la HG nr. 443/2022. Inițiativa se înscrie în contextul modernizării sistemului românesc de pensii și al dezvoltării pieței de capital, corespunzând obiectivelor strategice ale Uniunii Europene privind Uniunea Economiilor și Investițiilor (Savings and Investments Union — SIU).
 
-Expunere de motive - CIIP
+## 2.2. Descrierea situației actuale
 
-B. Insuficiența Piloanelor II și III Pilonul II (pensiile administrate privat obligatoriu) a acumulat active de circa 200 miliarde RON și cuprinde aproximativ 8,4 milioane de participanți. Cu toate acestea, prezintă limitări structurale: contribuția este obligatorie și fixată (4,75% din baza de calcul a CAS în 2024), fără posibilitatea de a contribui voluntar sume suplimentare; participantul nu are nicio libertate de alegere privind instrumentele sau strategia de investire; iar pilonul a fost supus unor modificări legislative frecvente care au afectat încrederea publicului. Pilonul III (pensiile facultative) a atins abia 1 milion de participanți și active de circa 7,4 miliarde RON. Contribuția maximă deductibilă fiscal este de 400 EUR/an - un prag neactualizat din 2007, cel mai scăzut din spațiul OCDE. Pentru comparație, plafonul anual al ISA în Regatul Unit este de 20.000 GBP, iar al IRA în SUA de 7.000 USD (2024). Această situație explică penetrarea nesemnificativă a Pilonului III. România are nevoie de un instrument de economisire de generație nouă, care să combine libertatea de investiții specifică pieței de capital cu stimulentul fiscal specific instrumentelor de pensii.
+## A. Criza demografică și sustenabilitatea sistemului public de pensii
 
-C. Deficitul de economisire și subdezvoltarea pieței de capital România înregistrează una dintre cele mai scăzute rate de economisire a gospodăriilor din UE, semnificativ sub media europeană de aproximativ 13%. Concomitent, capitalizarea bursieră a BVB se situează la aproximativ 20% din PIB, semnificativ sub media europeană. Numărul de conturi de investitori individuali pe BVB a ajuns la circa 226.000 la sfârșitul anului 2024, un nivel scăzut pentru o țară cu 19 milioane de locuitori. În Suedia, după introducerea ISK-ului în 2012, numărul de investitori individuali a depășit 3,5 milioane dintr-o populație de 10,5 milioane. Regimul fiscal actual al investițiilor pe piața de capital - prin stratificarea impozitului pe câștiguri de capital, a impozitului pe dividende, a CASS și eventual CAS - erodează randamentul net al investițillor pe termen lung și constituie o barieră procedurală semnificativă care limitează accesibilitatea pieței de capital. Experiența suedeză a ISK-ului demonstrează că simplificarea mecanismului fiscal stimulează decisiv participarea.
+Sistemul public de pensii din România, bazat pe principiul solidarității între generații (pay-as-you-go), se confrontă cu presiuni structurale fără precedent. Conform datelor Eurostat, rata de dependență a vârstnicilor (populația de 65+ raportată la cea de 15–64 ani) se situează la aproximativ 31% în 2024 și este proiectată să depășească 50% în 2050. Această evoluție este rezultatul a trei factori convergenți: scăderea fertilității (aproximativ 1,65 copii/femeie în 2024), creșterea speranței de viață (76,1 ani în 2024 față de 69,8 în 2000) și emigrația masivă a forței de muncă tinere. Populația României a scăzut de la 21,7 milioane în 2002 la aproximativ 19 milioane, cu proiecții de continuare a declinului.
 
-D. Contextul european Comisia Europeană a lansat în 2025 Strategia privind Uniunea Economiilor și Investițiilor (SIU), care succede Uniunea Piețelor de Capital (CMU). Un element de noutate este Recomandarea Comisiei din 30 septembrie 2025 privind creșterea disponibilității conturilor de economii și investiții (Savings and Investment Accounts - SIA), prin care statele membre sunt încurajate să instituie conturi de investiții cu regim fiscal simplificat. Cele patru mecanisme fiscale recomandate - deductibilitatea contribuțillor, scutirea veniturilor, amânarea impozitării sau impozitul forfetar - corespund integral modelelor fiscale adoptate de CIP. Prin urmare, CIIP anticipează și implementează la nivel național exact instrumentul pe care Comisia Europeană îl recomandă.
+Raportul dintre contribuabili și beneficiari în sistemul public de pensii este de aproximativ 1:1, unul dintre cele mai scăzute din UE. Conform Raportului privind îmbătrânirea populației (2024 Ageing Report) al Comisiei Europene, rata de înlocuire a pensiilor publice se va deteriora semnificativ până în 2070, ceea ce înseamnă că viitorii pensionari se vor confrunta cu o reducere substanțială a nivelului de trai la pensionare. Legea nr. 360/2023 privind sistemul public de pensii a încercat să adreseze parțial aceste provocări, dar reformele parametrice ale Pilonului I sunt insuficiente pentru a compensa integral efectele demografice adverse. Experiența internațională demonstrează că un sistem de pensii sustenabil necesită diversificarea surselor de venit la pensie, prin combinarea pensiei publice cu instrumente private de economisire pe termen lung.
 
-Expunere de motive - CIIP
+## B. Insuficiența Piloanelor II și III
 
-De asemenea, Regulamentul (UE) 2019/1238 privind produsul paneuropean de pensii personale (PEPP) a avut o adoptare nesemnificativă la nivelul UE, confirmând că soluțille eficiente trebuie calibrate la nivel național, cu respectarea specificului fiecărui sistem fiscal și juridic.
+Pilonul II (pensiile administrate privat obligatoriu) a acumulat active de circa 200 miliarde RON și cuprinde aproximativ 8,4 milioane de participanți. Cu toate acestea, prezintă limitări structurale: contribuția este obligatorie și fixată (4,75% din baza de calcul a CAS în 2024), fără posibilitatea de a contribui voluntar sume suplimentare; participantul nu are nicio libertate de alegere privind instrumentele sau strategia de investire; iar pilonul a fost supus unor modificări legislative frecvente care au afectat încrederea publicului.
 
-E. Experiența internațională - modele de referință CIIP se inspiră din modele de succes implementate în alte state. In SUA, Individual Retirement Account (IRA), introdus în 1974, funcționează în două variante fiscale: Traditional IRA (EET - contribuții deductibile, impozitare la retragere) și Roth IRA (TEE - contribuții din venit net, scutire la retragere). Modelul dual IRA a servit ca inspirație directă pentru cele două tipuri de conturi CIIP (CIIP-D și CIIP-S). În Regatul Unit, ISA-ul (introdus în 1999, regim TEE) demonstrează că un instrument simplu și transparent mobilizează economisiri semnificative la nivel național. În Suedia, ISK-ul (introdus în 2012) a atras peste 3,5 milioane de conturi dintr-o populație de 10,5 milioane, confirmând că simplitatea fiscală este cel mai puternic catalizator al participării. Caracteristică | IRA (SUA) | ISA (UK) | ISK (SE) | TFSA (CA) NISA (JP) | CIIP (RO) An introducere | 1974 | 1999 | 2012 | 2009 | 2014/2024 | 2027 Regim fiscal | SET + TEE | TEE | Forfetar | TEE | TEE | EET + TEE Blocare fonduri | Pâna 59½ Nu | Nu | Nu | Nu \*\* | Până pensie ani Portabilitate | Da | Da | Da | Da | Da | Da (art. 10) Libertate inv. | Largă | Largă | Largă | Largă | Largă | Listate OCDE \* NISA: plafon pe viață de 18 mil. JPY. \*\* New NISA (2024): scutire fiscală nelimitată în timp. Lecțiile principale: (i) stimulentul fiscal este motorul adopției - modelele fără stimulent (PEPP) au eșuat; (ii) simplitatea stimulează participarea; (iii) dualitatea fiscală maximizează atractivitatea; (iv) libertatea de investiții este esențială; (v) portabilitatea protejează investitorul și stimulează concurența.
+Pilonul III (pensiile facultative) a atins abia 1 milion de participanți și active de circa 7,4 miliarde RON. Contribuția maximă deductibilă fiscal este de 400 EUR/an — un prag neactualizat din 2007, cel mai scăzut din spațiul OCDE. Pentru comparație, plafonul anual al ISA în Regatul Unit este de 20.000 GBP, iar al IRA în SUA de 7.000 USD (2024). Această situație explică penetrarea nesemnificativă a Pilonului III.
 
-F. Necesitatea intervenției legislative Analiza situației actuale conduce la concluzia că niciun instrument juridic existent în dreptul românesc nu îndeplinește simultan funcțile de: economisire individuală pe termen lung cu libertate de investiții, regim fiscal stimulativ, protecție specifică a investitorului și integrare în infrastructura pieței de capital existente. Intervenția prin lege este impusă de natura materiei: regimul fiscal al CIIP presupune instituirea de derogări de la Codul fiscal (lege organică), ceea ce nu poate fi realizat decât printr-un act normativ de aceeași forță juridică. Forma aleasă — lege specială, cu caracter organic - se justifică prin încadrarea în art. 73 alin. (3) din Constituție. Regimul fiscal preferențial nu contravine principiului egalității fiscale (art. 56 alin. 2 coroborat cu art. 16 din Constituție): este deschis tuturor persoanelor fizice rezidente, iar diferențierea față de investițiile clasice este justificată de condiția de blocare a fondurilor până la pensie. Curtea Constituțională a recunoscut în mod constant că principiul egalității fiscale nu presupune uniformitate, ci egalitate în situații comparabile.
+România are nevoie de un instrument de economisire de generație nouă, care să combine libertatea de investiții specifică pieței de capital cu stimulentul fiscal specific instrumentelor de pensii.
 
-Expunere de motive - CIIP
+## C. Deficitul de economisire și subdezvoltarea pieței de capital
 
-2.3. Schimbări preconizate Propunerea legislativă este structurată în 10 capitole și 19 articole: Capitolul I - Dispoziții generale (art. 1-2): Definește obiectul reglementării (CIIP ca instrument voluntar de economisire, distinct de piloanele I-III) și conține un glosar de 12 definiții, conform art. 48 din Legea nr. 24/2000. Capitolul II - Tipurile de conturi (art. 3): Două tipuri: CIIP-S (regim TEE - contribuții din venit net, scutire pe câștiguri și retrageri, analog Roth IRA) și CIIP-D (regim EET - contribuții deductibile, impozitare la retragere, analog Traditional IRA). Capitolul III - Eligibilitate (art. 4): Orice persoană fizică rezidentă cu venituri impozabile. Se pot deține simultan conturi CIIP-S și CIIP-D, la aceeași sau la SSIF-uri diferite. Capitolul IV - Regimul investițiilor (art. 5-8): Contribuții voluntare, inclusiv prin reținere la sursă de angajator (pentru CIIP-D). Universul de investiții: instrumente financiare listate pe piețe reglementate din state OCDE, cu excluderea derivatelor speculative. Obligațiile SSIF: evidență separată, extras de cont online, înștiințarea depozitarului central, raportare ASF, transparența comisioanelor. Capitolul V - Regimul fiscal (art. 9): Articolul central. Derogări exprese de la Codul fiscal: scutirea veniturilor și câștigurilor din CIIP de impozit și contribuții sociale (art. 94- 98, 155, 170 din Legea 227/2015), scutirea dividendelor (art. 97), mecanismul de blocare până la pensie, stabilirea prețului de achiziție la transfer. Capitolul VI - Transfer și portabilitate (art. 10-11): Portabilitate totală între SSIF-uri, fără comisioane, în 15 zile lucrătoare, cu menținerea regimului fiscal. Protecție la falimentul SSIF prin FCI. Capitolul VII - Moștenire (art. 12): Moștenitorii pot opta între transterul într-un cont CIIP propriu (cu continuarea regimului fiscal) sau retragerea printr-o plată unică, în concordanță cu Codul civil. Capitolul VIII - Protecția investitorilor (art. 13-14): Document informativ standardizat (aliniat la Regulamentul PRIIP) și protecția FCI. Capitolul IX - Supraveghere și sancțiuni (art. 15-16): ASF supraveghează și publică raport anual. Sancțiuni: avertisment sau amendă 1.000-10.000 lei. Capitolul X - Dispoziții tranzitorii (art. 17-19): Termen de 90 zile pentru SSIF-uri. Norme de aplicare prin ordin comun ASF-MFin în 90 zile. Intrare în vigoare: 1 ianuarie a anului următor adoptării legii.
+România înregistrează una dintre cele mai scăzute rate de economisire a gospodăriilor din UE, semnificativ sub media europeană de aproximativ 13%. Concomitent, capitalizarea bursieră a BVB se situează la aproximativ 20% din PIB, semnificativ sub media europeană. Numărul de conturi de investitori individuali pe BVB a ajuns la circa 226.000 la sfârșitul anului 2024, un nivel scăzut pentru o țară cu 19 milioane de locuitori. În Suedia, după introducerea ISK-ului în 2012, numărul de investitori individuali a depășit 3,5 milioane dintr-o populație de 10,5 milioane.
 
-Expunere de motive - CIIP
+Regimul fiscal actual al investițiilor pe piața de capital — prin stratificarea impozitului pe câștiguri de capital, a impozitului pe dividende, a CASS și eventual CAS — erodează randamentul net al investițiilor pe termen lung și constituie o barieră procedurală semnificativă care limitează accesibilitatea pieței de capital. Experiența suedeză a ISKului demonstrează că simplificarea mecanismului fiscal stimulează decisiv participarea.
 
-Secțiunea a 3-a - Impactul socioeconomic
+## D. Contextul european
 
-3.1. Beneficii și costuri estimate Beneficiile principale: crearea unui instrument de economisire pe termen lung accesibil tuturor categoriilor de contribuabili; creșterea participării gospodăriilor pe piața de capital, cu efecte pozitive asupra lichidității și capitalizării bursiere; dezvoltarea industriei serviciilor de investiții financiare; reducerea pe termen lung a presiunii asupra bugetului de asigurări sociale; și îmbunătățirea educației financiare a populației. Costul principal constă în renunțarea pe termen scurt la o parte din veniturile fiscale, analizat detaliat în Secțiunea a 4-a.
+Comisia Europeană a lansat în 2025 Strategia privind Uniunea Economiilor și Investițiilor (SIU), care succede Uniunea Piețelor de Capital (CMU). Un element de noutate este Recomandarea Comisiei din 30 septembrie 2025 privind creșterea disponibilității conturilor de economii și investiții (Savings and Investment Accounts — SIA), prin care statele membre sunt încurajate să instituie conturi de investiții cu regim fiscal simplificat. Cele patru mecanisme fiscale recomandate — deductibilitatea contribuțiilor, scutirea veniturilor, amânarea impozitării sau impozitul forfetar — corespund integral modelelor fiscale adoptate de CIIP. Prin urmare, CIIP anticipează și implementează la nivel național exact instrumentul pe care Comisia Europeană îl recomandă.
 
-3.2. Impactul social ClIP se adresează în special clasei de mijloc și profesioniștilor cu venituri medii care au capacitatea de a economisi dar nu dispun de un instrument adecvat. Dualitatea CIIP-S/CIIP-D permite fiecărui titular să aleagă regimul fiscal optim în funcție de situația sa. Mecanismul de reținere la sursă prin angajator facilitează participarea salariaților. Pe termen lung, ClIP va contribui la reducerea ratei de sărăcie în rândul vârstnicilor (aproximativ 20% în România, semnificativ peste media UE) prin diversificarea surselor de venit la pensie.
+De asemenea, Regulamentul (UE) 2019/1238 privind produsul paneuropean de pensii personale (PEPP) a avut o adoptare nesemnificativă la nivelul UE, confirmând că soluțiile eficiente trebuie calibrate la nivel național, cu respectarea specificului fiecărui sistem fiscal și juridic.
 
-3.3. Impactul asupra drepturilor fundamentale Propunerea nu afectează niciun drept sau libertate fundamentală. Contribuie la realizarea dreptului la proprietate (art. 44 din Constituție), a dreptului la un nivel de trai decent (art. 47), a libertății economice (art. 45) și a egalității în drepturi (art. 16). Participarea este strict voluntară.
+## E. Experiența internațională — modele de referință
 
-3.4. Impactul macroeconomic CIIP va contribui la creșterea ratei de economisire a gospodarillor, dezvoltarea pieței de capal, inataria eres | el sigu isto și capital, finanțarea economiei reale prin investiții în acțiuni și obligațiuni listate și reducerea dependenței de finanțarea bancară. Fondurile investite vor susține și procesul de reclasificare a României de către MSCI în categoria piețelor emergente. Exemplu ilustrativ: un salariat de 30 de ani care contribuie 1.000 RON/lună la un cont CIIP-S, cu un randament mediu de 8%/an, va acumula la 65 de ani aproximativ 2,2 milioane RON. Fara CIIP, aceleași investiții ar genera o acumulare cu 15-20% mai mică, din cauza erodării randamentului prin impozitare continuă pe parcursul acumulării.
+CIIP se inspiră din modele de succes implementate în alte state. În SUA, Individual Retirement Account (IRA), introdus în 1974, funcționează în două variante fiscale: Traditional IRA (EET — contribuții deductibile, impozitare la retragere) și Roth IRA (TEE — contribuții din venit net, scutire la retragere). Modelul dual IRA a servit ca inspirație directă pentru cele două tipuri de conturi CIIP (CIIP-D și CIIP-S). În Regatul Unit, ISA-ul (introdus în 1999, regim TEE) demonstrează că un instrument simplu și transparent mobilizează economisiri semnificative la nivel național. În Suedia, ISK-ul (introdus în 2012) a atras peste 3,5 milioane de conturi dintr-o populație de 10,5 milioane, confirmând că simplitatea fiscală este cel mai puternic catalizator al participării.
 
-3.5. Impact asupra mediului de afaceri, inovării și dezvoltării durabile SSIF-urile vor beneficia de un flux nou de clienți și active. Companille listate pe BVB vor beneficia de o bază extinsă de investitori și de lichiditate sporită. CIIP va stimula ecosistemul fintech românesc și digitalizarea serviciilor financiare. Propunerea nu are impact direct asupra mediului, dar contribuie indirect la finanțarea tranziției verzi (obligațiuni verzi, fonduri ESG) și la obiectivele de dezvoltare durabilă.
+| Caracteristică | IRA (SUA) | ISA (UK) | ISK (SE) | TFSA (CA) | NISA (JP) | CIIP (RO) |
+| --- | --- | --- | --- | --- | --- | --- |
+| An introducere | 1974 | 1999 | 2012 | 2009 | 2014/2024 | 2027 |
+| Regim fiscal | EET + TEE | TEE | Forfetar | TEE | TEE | EET + TEE |
+| Blocare fonduri | Până 59\\frac12 ani | Nu | Nu | Nu | Nu \*\* | Până pensie |
+| Portabilitate | Da | Da | Da | Da | Da | Da (art. 10) |
+| Libertate inv. | Largă | Largă | Largă | Largă | Largă | Listate OCDE |
 
-Expunere de motive - CIIP
+\* NISA: plafon pe viață de 18 mil. JPY. \*\* New NISA (2024): scutire fiscală nelimitată în timp.
 
-Secțiunea a 4-a - Impactul financiar asupra bugetului general consolidat Propunerea nu generează cheltuieli bugetare suplimentare. Costul fiscal (renunțarea la venituri) este compensat pe termen lung prin: impozitarea la retragere a CIIP-D (bază impozabilă majorată cu câștigurile acumulate), impozitarea normală a câștigurilor după transfer în contul de tranzacționare, efectele multiplicatoare ale creșterii pieței de capital și reducerea cheltuielilor sociale viitoare.
+Lecțiile principale: (i) stimulentul fiscal este motorul adopției — modelele fără stimulent (PEPP) au eșuat; (ii) simplitatea stimulează participarea; (iii) dualitatea fiscală maximizează atractivitatea; (iv) libertatea de investiții este esențială; (v) portabilitatea protejează investitorul și stimulează concurența.
 
-Secțiunea a 5-a - Efectele asupra legislației în vigoare
+## F. Necesitatea intervenției legislative
 
-5.1. Măsuri normative necesare Pentru aplicare sunt necesare: ordin comun al președintelui ASF și al ministrului finanțelor (norme de aplicare, în 90 de zile de la publicare); instrucțiuni ASF privind formatul raportărilor SSIF și modelul documentului informativ; eventuale norme ANAF privind mecanismul deductibilității CIIP-D. Propunerea nu are impact asupra legislației în domeniul achizițillor publice. 5.2. Derogări de la Codul fiscal Legea introduce derogări exprese, formulate conform art. 67 din Legea 24/2000, de la următoarele prevederi ale Legii nr. 227/2015 privind Codul fiscal: art. 94-98 (impozitarea câștigurilor de capital), art. 97 (impozitarea dividendelor), art. 155 (CAS) și art. 170 (CASS). Tehnica legislativă utilizată - derogarea prin lege specială — păstrează coerența Codului fiscal și permite identificarea clară a regimului fiscal CIIP într-un singur act normativ.
+Analiza situației actuale conduce la conclusia că niciun instrument juridic existent în dreptul românesc nu îndeplinește simultan funcțiile de: economisire individuală pe termen lung cu libertate de investiții, regim fiscal stimulativ, protecție specifică a investitorului și integrare în infrastructura pieței de capital existente. Intervenția prin lege este impusă de natura materiei: regimul fiscal al CIIP presupune instituirea de derogări de la Codul fiscal (lege organică), ceea ce nu poate fi realizat decât printr-un act normativ de aceeași forță juridică. Forma aleasă — lege specială, cu caracter organic — se justifică prin încadrarea în art. 73 alin. (3) din Constituție.
 
-5.3. Conformitatea cu legislația UE Proiectul nu transpune și nu asigură aplicarea directă a niciunui act al UE, dar este compatibil cu: Directiva 2014/65/UE (MiFID II) - CIIP funcționează prin SSIF autorizate; Regulamentul (UE) nr. 1286/2014 (PRIIP) - documentul informativ este aliniat; Regulamentul (UE) 2019/1238 (PEPP) — CIIP complementează cadrul PEPP; Strategia SIU și Recomandarea Comisiei privind conturile de economii și investiții (2025).
+Regimul fiscal preferențial nu contravine principiului egalității fiscale (art. 56 alin. 2 coroborat cu art. 16 din Constituție): este deschis tuturor persoanelor fizice rezidente, iar diferențierea față de investițiile clasice este justificată de condiția de blocare a fondurilor până la pensie. Curtea Constituțională a recunoscut în mod constant că principiul egalității fiscale nu presupune uniformitate, ci egalitate în situații comparabile.
 
-5.4. Interacțiunea cu alte acte normative Propunerea interacționează, fără a le modifica, cu: Legea nr. 126/2018 (piețele de instrumente financiare), Legea nr. 88/2021 (Fondul de compensare a investitorilor), Legea nr. 360/2023 (sistemul public de pensii), Legea nr. 287/2009 (Codul civil), OUG nr. 93/2012 (ASF) și OG nr. 2/2001 (regimul contravențiilor). Secțiunea a 6-a - Consultările efectuate Prezenta propunere este o inițiativă parlamentară, motiv pentru care procedura de transparență decizională prevăzută de Legea nr. 52/2003 nu este direct aplicabilă. Au
+## 2.3. Schimbări preconizate
 
-Expunere de motive - CIIP
+Propunerea legislativă este structurată în 10 capitole și 19 articole:
 
-fost sau urmează a fi consultate: Asociația Brokerilor de Valori din România, Asociația Administratorilor de Fonduri (AAF), Bursa de Valori București (BVB), CFA Society Romania și Asociația pentru Pensiile Administrate Privat (APAPR). Urmează a fi solicitate avizele Consiliului Legislativ și Consiliului Economic și Social. Elaborarea propunerii s-a bazat pe analiza comparativă a legislației din SUA, Regatul Unit, Suedia și Canada, precum și pe recomandările OECD (Pensions at a Glance 2023, Pension Markets in Focus 2024), ale Băncii Mondiale (FSAP România) și ale Comisiei Europene (2024 Ageing Report, Strategia SIU 2025).
+Capitolul I — Dispoziții generale (art. 1–2): Definește obiectul reglementării (CIIP ca instrument voluntar de economisire, distinct de piloanele I–III) și conține un glosar de 12 definiții, conform art. 48 din Legea nr. 24/2000.
+
+Capitolul II — Tipurile de conturi (art. 3): Două tipuri: CIIP-S (regim TEE — contribuții din venit net, scutire pe câștiguri și retrageri, analog Roth IRA) și CIIP-D (regim EET — contribuții deductibile, impozitare la retragere, analog Traditional IRA).
+
+Capitolul III — Eligibilitate (art. 4): Orice persoană fizică rezidentă cu venituri impozabile. Se pot deține simultan conturi CIIP-S și CIIP-D, la aceeași sau la SSIF-uri diferite.
+
+Capitolul IV — Regimul investițiilor (art. 5–8): Contribuții voluntare, inclusiv prin reținere la sursă de angajator (pentru CIIP-D). Universul de investiții: instrumente financiare listate pe piețe reglementate din state OCDE, cu excluderea derivatelor speculative. Obligațiile SSIF: evidență separată, extras de cont online, înștiințarea depozitarului central, raportare ASF, transparența comisioanelor.
+
+Capitolul V — Regimul fiscal (art. 9): Articolul central. Derogări exprese de la Codul fiscal: scutirea veniturilor și câștigurilor din CIIP de impozit și contribuții sociale (art. 94–98, 155, 170 din Legea 227/2015), scutirea dividendelor (art. 97), mecanismul de blocare până la pensie, stabilirea prețului de achiziție la transfer.
+
+Capitolul VI — Transfer și portabilitate (art. 10–11): Portabilitate totală între SSIF-uri, fără comisioane, în 15 zile lucrătoare, cu menținerea regimului fiscal. Protecție la falimentul SSIF prin FCI.
+
+Capitolul VII — Moștenire (art. 12): Moștenitorii pot opta între transferul într-un cont CIIP propriu (cu continuarea regimului fiscal) sau retragerea printr-o plată unică, în concordanță cu Codul civil.
+
+Capitolul VIII — Protecția investitorilor (art. 13–14): Document informativ standardizat (aliniat la Regulamentul PRIIP) și protecția FCI.
+
+Capitolul IX — Supraveghere și sancțiuni (art. 15–16): ASF supraveghează și publică raport anual. Sancțiuni: avertisment sau amendă 1.000–10.000 lei.
+
+Capitolul X — Dispoziții tranzitorii (art. 17–19): Termen de 90 zile pentru SSIF-uri. Norme de aplicare prin ordin comun ASF-MFin în 90 zile. Intrare în vigoare: 1 ianuarie a anului următor adoptării legii.
+
+## Secțiunea a 3-a — Impactul socioeconomic
+
+## 3.1. Beneficii și costuri estimate
+
+Beneficiile principale: crearea unui instrument de economisire pe termen lung accesibil tuturor categoriilor de contribuabili; creșterea participării gospodăriilor pe piața de capital, cu efecte pozitive asupra lichidității și capitalizării bursiere; dezvoltarea industriei serviciilor de investiții financiare; reducerea pe termen lung a presiunii asupra bugetului de asigurări sociale; și îmbunătățirea educației financiare a populației. Costul principal constă în renunțarea pe termen scurt la o parte din veniturile fiscale, analizat detaliat în Secțiunea a 4-a.
+
+## 3.2. Impactul social
+
+CIIP se adresează în special clasei de mijloc și profesioniștilor cu venituri medii care au capacitatea de a economisi dar nu dispun de un instrument adecvat. Dualitatea CIIP-S/CIIP-D permite fiecărui titular să aleagă regimul fiscal optim în funcție de situația sa. Mecanismul de reținere la sursă prin angajator facilitează participarea salariaților. Pe termen lung, CIIP va contribui la reducerea ratei de sărăcie în rândul vârstnicilor (aproximativ 20% în România, semnificativ peste media UE) prin diversificarea surselor de venit la pensie.
+
+## 3.3. Impactul asupra drepturilor fundamentale
+
+Propunerea nu afectează niciun drept sau libertate fundamentală. Contribuie la realizarea dreptului la proprietate (art. 44 din Constituție), a dreptului la un nivel de trai decent (art. 47), a libertății economice (art. 45) și a egalității în drepturi (art. 16). Participarea este strict voluntară.
+
+## 3.4. Impactul macroeconomic
+
+CIIP va contribui la creșterea ratei de economisire a gospodăriilor, dezvoltarea pieței de capital, finanțarea economiei reale prin investiții în acțiuni și obligațiuni listate și reducerea dependenței de finanțarea bancară. Fondurile investite vor susține și procesul de reclasificare a României de către MSCI în categoria piețelor emergente.
+
+Exemplu ilustrativ: un salariat de 30 de ani care contribuie 1.000 RON/lună la un cont CIIP-S, cu un randament mediu de 8%/an, va acumula la 65 de ani aproximativ 2,2 milioane RON. Fără CIIP, aceleași investiții ar genera o acumulare cu 15–20% mai mică, din cauza erodării randamentului prin impozitare continuă pe parcursul acumulării.
+
+## 3.5. Impact asupra mediului de afaceri, inovării și dezvoltării durabile
+
+SSIF-urile vor beneficia de un flux nou de clienți și active. Companiile listate pe BVB vor beneficia de o bază extinsă de investitori și de lichiditate sporită. CIIP va stimula ecosistemul fintech românesc și digitalizarea serviciilor financiare. Propunerea nu are impact direct asupra mediului, dar contribuie indirect la finanțarea tranziției verzi (obligațiuni verzi, fonduri ESG) și la obiectivele de dezvoltare durabilă.
+
+## Secțiunea a 4-a — Impactul financiar asupra bugetului general consolidat
+
+Propunerea nu generează cheltuieli bugetare suplimentare. Costul fiscal (renunțarea la venituri) este compensat pe termen lung prin: impozitarea la retragere a CIIP-D (bază impozabilă majorată cu câștigurile acumulate), impozitarea normală a câștigurilor după transfer în contul de tranzacționare, efectele multiplicatoare ale creșterii pieței de capital și reducerea cheltuielilor sociale viitoare.
+
+## Secțiunea a 5-a — Efectele asupra legislației în vigoare
+
+## 5.1. Măsuri normative necesare
+
+Pentru aplicare sunt necesare: ordin comun al președintelui ASF și al ministrului finanțelor (norme de aplicare, în 90 de zile de la publicare); instrucțiuni ASF privind formatul raportărilor SSIF și modelul documentului informativ; eventuale norme ANAF privind mecanismul deductibilității CIIP-D. Propunerea nu are impact asupra legislației în domeniul achizițiilor publice.
+
+## 5.2. Derogări de la Codul fiscal
+
+Legea introduce derogări exprese, formulate conform art. 67 din Legea 24/2000, de la următoarele prevederi ale Legii nr. 227/2015 privind Codul fiscal: art. 94–98 (impozitarea câștigurilor de capital), art. 97 (impozitarea dividendelor), art. 155 (CAS) și art. 170 (CASS). Tehnica legislativă utilizată — derogarea prin lege specială — păstrează coerența Codului fiscal și permite identificarea clară a regimului fiscal CIIP într-un singur act normativ.
+
+## 5.3. Conformitatea cu legislația UE
+
+Proiectul nu transpune și nu asigură aplicarea directă a niciunui act al UE, dar este compatibil cu: Directiva 2014/65/UE (MiFID II) — CIIP funcționează prin SSIF autorizate; Regulamentul (UE) nr. 1286/2014 (PRIIP) — documentul informativ este aliniat; Regulamentul (UE) 2019/1238 (PEPP) — CIIP complementează cadrul PEPP; Strategia SIU și Recomandarea Comisiei privind conturile de economii și investiții (2025).
+
+## 5.4. Interacțiunea cu alte acte normative
+
+Propunerea interacționează, fără a le modifica, cu: Legea nr. 126/2018 (piețele de instrumente financiare), Legea nr. 88/2021 (Fondul de compensare a investitorilor), Legea nr. 360/2023 (sistemul public de pensii), Legea nr. 287/2009 (Codul civil), OUG nr. 93/2012 (ASF) și OG nr. 2/2001 (regimul contravențiilor).
+
+## Secțiunea a 6-a — Consultările efectuate
+
+Prezenta propunere este o inițiativă parlamentară, motiv pentru care procedura de transparență decizională prevăzută de Legea nr. 52/2003 nu este direct aplicabilă. Au fost sau urmează a fi consultate: Asociația Brokerilor de Valori din România, Asociația Administratorilor de Fonduri (AAF), Bursa de Valori București (BVB), CFA Society Romania și Asociația pentru Pensiile Administrate Privat (APAPR). Urmează a fi solicitate avizele Consiliului Legislativ și Consiliului Economic și Social.
+
+Elaborarea propunerii s-a bazat pe analiza comparativă a legislației din SUA, Regatul Unit, Suedia și Canada, precum și pe recomandările OECD (Pensions at a Glance 2023, Pension Markets in Focus 2024), ale Băncii Mondiale (FSAP România) și ale Comisiei Europene (2024 Ageing Report, Strategia SIU 2025).
 
 Având în vedere argumentele prezentate mai sus, înaintăm Parlamentului României, spre dezbatere și adoptare, prezenta propunere legislativă.
 
-În numele inițiatorilor, Deputat USR, | Deputat USR, Claudiu lulius Gavril Nasur | Cristina Mădălina Prună Deputat PNL, | Senator PNL, Sebastian loan Buyduja | Maria Gabriela Horga '
+În numele inițiatorilor,
 
-Tabel susținători LEGE pentru înființarea și funcționarea Conturilor Individuale de Investiții pentru Pensie
+| Deputat USR,Claudiu Iulius Gavril Năsui | Deputat USR,Cristina Mădălina Prună |
+| --- | --- |
+| Deputat PNL,Sebastian Ioan-Burduja | Senator PNL,Maria Gabriela Horga |
 
-Nr. Nume și prenume | Grup parlamentar | Semnătura crt. HORGA MARIA-GABRIELA | PNL 2 | " PNL Monan Cilin Petu | PNC E1 Siluu fulare Casa . i VEGaer MittsiL | PNL 6 Nease ol dee | INZ PNL. FENECHiU DANiEL | : PNL. 9 | VAR-EA GLAS | - PNL 10 BOTA GAFO AGItÉ | PaYL Rusu Petrică Lucian | PHL 125 PASCUTIOn VETA | P.IX L DOBRA GEMA ADEZiMA | USR 14 RUS VASILE- CIPRIAN | USR 15 | Eticadt 16 ANTAL tOBART\\ | lUDHR RMAS7 (sastar Latok Trok UDMR/RAAS7 CRISTiAN GHINEA | USR 19 CIBU DEACONU RUXANZA GheO OXANAA USP 20 Fluten Greoghe | PAL Uriche Jitarn | PNL
+## Tabel susținători
 
-Tabel susținători LEGE pentru înființarea și funcționarea Conturilor Individuale de Investiții pentru Pensie
+## LEGE
 
-Nr. Nume și prenume | Grup parlamentar | Semnătura crt. Rocuai Constur | PHE Cimpeanu Sorin | P ML. MAZİLU LINIV | ANiSiE MONICA CRiSTÍNA PNL Ninean Cag r Gestim PAj DOGARIO EUGEN | P80
+pentru înființarea și funcționarea Conturilor Individuale de Investiții pentru Pensie
 
-VLASIN SON | 7≤L PETRISOR PEIV | AUR NICULA MIRCEA CRISTIAM | PSD Teavi sutri partici PS) → SA C. CiPRIAN | A.U.R. Norci's Mizceseu | USR STEIZA MIMULH : | .. AuR PETREA DORIM SiLViU
+| Nr.crt. | Nume și prenume | Grup parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1 | HORGA MARIA - GABRIELA | PNL |  |
+| 2 | GOTEN MIHAI .. | PNL |  |
+| 3 | Monich Cen Petu | PNC |  |
+| 4 | Silvululuc Cosa .. | PNC .. |  |
+| 5 | VEEBRA MIHAI | PNL |  |
+| 6 | Neegue Khadoo | PNZ |  |
+| 7 | Paulue Nicoleta | PNL |  |
+| 8 | FENECHIU DANIEC | PNL |  |
+| 9 | VAREA GLAD .. | PNL |  |
+| 10 | BOYA GATTODGUTE | PNL |  |
+| 11 | Rusu Petrica Lucian | PNL |  |
+| 12 | PASCUZOU VENT | PIL |  |
+| 13 | JOBRA CENIA ADEZIHA | USR |  |
+| 14 | RUS VASILE - CIPRIAN . | USR |  |
+| 15 | SHALGUOEGHE GROUPE | WSR |  |
+| 16 | AMAL LBRANT .. | UDRE/RADSP |  |
+| 17. | Csasaar Karoly 750KT | UDRE/RADSP |  |
+| 18. | CRISTIAN GHINSA A | USR |  |
+| 19 | CIBU DEACONU ROXANHA | USR |  |
+| 20 | Flutun Gheoghe | PHC |  |
+| 21 | Ovidiu Lifam | PNL |  |
 
-.. .
+## Tabel susținători
 
-Tabel susținători LEGE pentru înființarea și funcționarea Conturilor Individuale de Investiții pentru Pensie
+## LEGE
 
-Nr. Nume și prenume | Grup parlamentar | Semnătura / crt. ATANASIV CORINA AFAARTOS NICOLAE | USR GIMA GEORGE | USR Paraschivescu Quidin | USR DiMITMiU ACZTANAM | usr ECHERT AS RiAN | USR SHEOOGHIU ANDREI | USR FLORIN BLAGA ANIEL | USR Bufene Folix | UER PRUNĂ CRISTINA - MADALINA | USR NASUI CLBUDIO | USR PLUSAR | ANDREL | USR AZAR TEODOR | USR Rady Mihain | U SR FAMASA STErAN | OSR BOTEZ MIHAI | USR MITITELO EDUARS-TATIAN | ANL SIGHARTAU ROBERT | PXL MOS ARINA | 9HL Jandea Lubrian | ParL STELIAN | USR
+pentru înființarea și funcționarea Conturilor Individuale de Investiții pentru Pensie
 
-Tabel susținători LEGE pentru înființarea și funcționarea Conturilor Individuale de Investiții pentru Pensie
+<table>
+<tbody>
+<tr><td>Nr. crt.</td><td>Nume și prenume</td><td>Grup parlamentar</td><td rowspan="18">Semnătura</td></tr>
+<tr><td></td><td>Rocuei Cloudlun</td><td>PHL</td></tr>
+<tr><td></td><td>Cîmpeanv Sorin</td><td>PNL</td></tr>
+<tr><td></td><td>MAGILU LÀJIV</td><td>PSJ</td></tr>
+<tr><td></td><td>ANISIE MONICA CRISTINA</td><td>PNL</td></tr>
+<tr><td></td><td>Niculenceur Câgână Grintin</td><td>PNL</td></tr>
+<tr><td></td><td>ORBade Carceee</td><td>PSD</td></tr>
+<tr><td></td><td>DOCARIO EVGEN</td><td>PSD</td></tr>
+<tr><td></td><td>PUJY OVIJAY</td><td>PSD</td></tr>
+<tr><td></td><td>VLASIN SORIN</td><td>PSD</td></tr>
+<tr><td></td><td>PETRISOR PEIV</td><td>AUR</td></tr>
+<tr><td></td><td>NICULA MIRCEA CRISTIAN</td><td>PSD</td></tr>
+<tr><td></td><td>Tepreus CAULSPINGE ESTRIN</td><td>PSD</td></tr>
+<tr><td></td><td>Floccin IONL</td><td>PSA</td></tr>
+<tr><td></td><td>IACOB C.CIPRIAN</td><td>A.U.R.</td></tr>
+<tr><td></td><td>Norcîs Minceseu</td><td>USR</td></tr>
+<tr><td></td><td>STBEZA MIUKAH</td><td>AUR</td></tr>
+<tr><td></td><td>PETREA DORIN SIVIV</td><td>PACE</td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
 
-Nr. Nume și prenume | Grup parlamentar | Semnătura crt. BURDUZA SEBASTIAN-I9AN PNL TIPLEA OLIMITRIL | PAIL Gal calin | PINIL 4 MOCANU ADRIAN | DNL 5 | MOISIN RADU-MARIN | PNL RALUCA TURCAM | PNL ·. | Otorion Ovria | PIVL Vela. lon Marcel | +N/L Lücian : BODE | DAIL 10 | ROMAM FORIN | PNL 22. | PSD PNL PNL 14. | PML 15. Cioteteru Dradas | PNL K6. Gal: Citin: ALINA GOREHM 18 MATEi AMETI SIGHiARTĂL ROBERT 20. ANDREI ALEXANDRU10AN
+\_
 
-Tabel susținători LEGE pentru înființarea și funcționarea Conturilor Individuale de Investiții pentru Pensie
+Tabel susținători
 
-Nr. Nume și prenume | Grup parlamentar | Semnătura crt.
+LEGE
 
-ebon Gramine | AUR Naltat | Neafiliat MIHAESCU MUGUR | AUR GROZA CĂLiN FLORiN | reafivoti Kpișa Enachi' | Nea liVí'o TOTOUKI TERIM CORVEL | AUR GURLUI ALYEU- O CTINIAN | AUR TATASA DAX | AUR Negrea Petru-Gabriel XUR NEAMT MiLAL | AUR Vitus PAULEBCU | AUR ILIAW CORANE Z | SR Millss Zelten | UIMR OSEP EVA ANDREA | VAMR KOLESAR KAROLY | UDMR Baude Sinder | USMR TUSA DIANA | PS1 Ghigiu Alexandru Nikai PSA CRISTIAX BRIAX | USR
+pentru înființarea și funcționarea Conturilor Individuale de Investiții pentru Pensie
 
-*Documentul are 14 pagini; am citit primele 12.*
+N Nume și prenume Grup parlamentar | Semnătura, LT | ATTA DBA | SL RUS NICOLRE| US R\_ Cit QfoRoă- VCR Drascliesum Ustdin USR DAFT V BECLOSACA na V3AI EACOLCĂ d ENUEET 3 R\_
+
+BUSA MIEL USE a oorci FOX AP fluwă, COLINA UTILE JSR\_ NASUL clu TG LCR ILVA \_\_AsLDRE/ VSZ/2 IZIR TJEONR USR Pool, Thea LV >. Minsk SED VCR. BOTET MID VE MTTE o EDD TIT | NL SIGHRTAY DBERT PL. Ma kRiMi- NR EU \* toxt US
+
+## Tabel susținători
+
+## LEGE
+
+pentru înființarea și funcționarea Conturilor Individuale de Investiții pentru Penșie
+
+<table>
+<tbody>
+<tr><td>Nr.crt.</td><td>Nume și prenume</td><td>Grup parlamentar</td><td>Semnătura</td></tr>
+<tr><td>1</td><td>BURDUZA SEBASTION-10AN</td><td>PNL</td><td rowspan="20"></td></tr>
+<tr><td>2.</td><td>VIPREA-NLIMISRL</td><td>PNL</td></tr>
+<tr><td>3.</td><td>Gou Cahin</td><td>PNL</td></tr>
+<tr><td>4</td><td>MOCANU ARIAN</td><td>PNL</td></tr>
+<tr><td>5</td><td>noisin NADU-NATIN</td><td>PNL</td></tr>
+<tr><td>6.</td><td>RALUCA TURCAM</td><td>PNL</td></tr>
+<tr><td>7.</td><td>Otonium Oma</td><td>PNL</td></tr>
+<tr><td>8.</td><td>Vela lon'Morcel</td><td>PNL</td></tr>
+<tr><td>9.</td><td>Lucian BODE</td><td>PNL</td></tr>
+<tr><td>10.</td><td>RONAN PORIN</td><td>PNL</td></tr>
+<tr><td>11.</td><td>CACIU ARIAN</td><td>PSD</td></tr>
+<tr><td>12.</td><td>London Ytuluco</td><td>PNL</td></tr>
+<tr><td>13.</td><td>Chosvereu Mariam</td><td>PNL</td></tr>
+<tr><td>14.</td><td>Mog ARINA</td><td>PNL</td></tr>
+<tr><td>15.</td><td>Cioletou Dnaglas</td><td>PNL</td></tr>
+<tr><td>16.</td><td>Gal. Caiu</td><td>PNL</td></tr>
+<tr><td>17.</td><td>ALINA GORGUW</td><td>PNL</td></tr>
+<tr><td>18.</td><td>MATEI AVEZ</td><td>PNL</td></tr>
+<tr><td>19.</td><td>SIGHIARTAU ROBERT</td><td>PNL</td></tr>
+<tr><td>20.</td><td>ANADEI ALEXANSRU-10AN</td><td>PNL</td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+## Tabel susținători
+
+## LEGE
+
+pentru înființarea și funcționarea Conturilor Individuale de Investiții pentru Pensie
+
+<table>
+<tbody>
+<tr><td>Nr.crt.</td><td>Nume și prenume</td><td>Grup parlamentar</td><td>Semnătura</td></tr>
+<tr><td></td><td>Gmonnil Umgunomn</td><td>USR</td><td rowspan="21"></td></tr>
+<tr><td></td><td>Se bon Gioine</td><td>AUR</td></tr>
+<tr><td></td><td>Covny Shiu</td><td>Neafhaf</td></tr>
+<tr><td></td><td>CuBuc Cihrban</td><td>Neafhiai</td></tr>
+<tr><td></td><td>Mu HAesau HUGUE</td><td>AUR</td></tr>
+<tr><td></td><td>Cro2A CALIN FIORIN</td><td>Neafhati</td></tr>
+<tr><td></td><td>Roise Euechi'</td><td>Neo/11/0</td></tr>
+<tr><td></td><td>ToIOUKI FORIN CORCE</td><td>AUR</td></tr>
+<tr><td></td><td>Gorici' hizro- o CTIN'AN</td><td>AUR</td></tr>
+<tr><td></td><td>TAMASA DAXI</td><td>AUR</td></tr>
+<tr><td></td><td>Negrea Petro-Gabriel</td><td>AUR</td></tr>
+<tr><td></td><td>NEAMTV MIL7ML</td><td>AUR</td></tr>
+<tr><td></td><td>Vitus PAUNESQU</td><td>AUR</td></tr>
+<tr><td></td><td>JILLAN COANCZ</td><td>USR</td></tr>
+<tr><td></td><td>Mihedn ZoRKN</td><td>UHR</td></tr>
+<tr><td></td><td>CSEP EUA ANDREA</td><td>UHR</td></tr>
+<tr><td></td><td>Kolesin KAROCY</td><td>UPMR</td></tr>
+<tr><td></td><td>Bade Scindor</td><td>UDWR</td></tr>
+<tr><td></td><td>TUF A DINA</td><td>PSA</td></tr>
+<tr><td></td><td>Ghigiu Alexandru Mihai</td><td>PSA</td></tr>
+<tr><td></td><td>CRISTIAN BRIAX</td><td>USR</td></tr>
+</tbody>
+</table>
+
+Tabel susținători
+
+pentru înființarea și funcționarea Conturilor Individuale de Investiții pentru Pensie
+
+LEGE
+
+Semnătura
+
+Nr. | Nume și prenume Grup parlamentar crt. DiUHAVA COSTEL E 9) SENDROU VLAD 1044 USA
+
+Cleo MA
+
+VS
+
+Cons NT SSeu ca
+
+Peg
+
+TOMA ru
+
+PS]
+
+Si oaj \_CLolL Ade Ca LCR LOU RUE FUT |
+
+SA MIP TURE ALR
+
+## Tabel de semnături
+
+## LEGE
+
+pentru înființarea și funcționarea Conturilor Individuale de Investiții pentru Pensie
+
+| Nume și prenume | Semnătură | Grup parlamentar |
+| --- | --- | --- |
+| NEGO! EVGEN RENUS |  | USR |
+| TNGHEC RAZ AAY | PAUL | USR |
+| RAMONIA IOANA BDRANSEELS |  | AUN |
+| BILPOS SORH |  | USR |

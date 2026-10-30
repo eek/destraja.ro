@@ -1,6 +1,6 @@
 GUVERNUL ROMÂNIEI
 
-## ORDONANȚĂ DE URGENȚĂ
+## ORDONANTĂ DE URGENTĂ
 
 # pentru modificarea și completarea unor acte normative, precum și pentru adoptarea unor măsuri pentru creșterea capacității financiare a unităților administrativ-teritoriale
 
@@ -20,9 +20,9 @@ având în vedere necesitatea eficientizării imediate a procedurilor privind at
 
 ținând cont de urgența reformării managementului resurselor umane din administrația publică, precum și obligațiile asumate în acest sens în contextul PNRR, precum și al soluțiilor în materie de politici de personal agreate la nivel politic, inclusiv prin introducerea unor mecanisme de evaluare bazate pe competențe, a mobilității și rotației în funcțiile publice sensibile, pentru reducerea riscurilor de corupție, precum și prin reducerea cheltuielilor de personal și a numărului de angajați din sectorul public, sau identificării unor soluții alternative la acestea, măsuri indispensabile pentru creșterea performanței administrative, prevenirea riscurilor de politicare și consolidarea integrității instituționale,
 
-ținând cont de reformele, politicile și țintele asumate prin Programul Național de Guvernare PSD-PNL-USR-UDMR-Grupul parlamentar al minorităților naționale din Camera Deputaților 2025-2028 în ceea ce privește reorganizarea administrației publice centrale și locale și eficientizarea funcționării acesteia, ținând seama de scăderea veniturilor proprii ale unităților administrativ-teritoriale, de nivelul redus de colectare a impozitelor, taxelor și amenzilor locale, precum și de acumularea de restanțe cronice care afectează grav lichiditatea bugetelor locale și capacitatea acestora de a asigura plata salariilor, a serviciilor publice esențiale și a obligațiilor legale curente,
+ținând cont de reformele, politicile și țintele asumate prin Programul Național de Guvernare PSD-PNL-USR-UDMR-Grupul parlamentar al minorităților naționale din Camera Deputaților 2025-2028 în ceea ce privește reorganizarea administratiei publice centrale și locale și eficientizarea funcționării acesteia, ținând seama de scăderea veniturilor proprii ale unităților administrativ-teritoriale, de nivelul redus de colectare a impozitelor, taxelor și amenzilor locale, precum și de acumularea de restanțe cronice care afectează grav lichiditatea bugetelor locale și capacitatea acestora de a asigura plata salariilor, a serviciilor publice esențiale și a obligațiilor legale curente,
 
-luând în considerare amploarea fenomenelor de evaziune fiscală și neconformare la nivel local, inclusiv în domeniul construcțiilor neautorizate, al tranzacțiilor imobiliare și al sancțiunilor contravenționale neîncasate, care generează pierderi bugetare de ordinul miliardelor de lei anual și compromit finanțarea serviciilor publice și a investițiilor locale,
+luând în considerare amploarea fenomenelor de evaziune fiscală și neconformare la nivel local, inclusiv în domeniul construcțiilor neautorizate, al tranzacțiilor imobiliare și al sanctiunilor contravenționale neîncasate, care generează pierderi bugetare de ordinul miliardelor de lei anual și compromit finanțarea serviciilor publice și a investițiilor locale,
 
 luând în considerare necesitatea asigurării urgente a cofinanțărilor pentru proiectele finanțate din fonduri europene, în special din cadrul Planului național de redresare și reziliență și al Politicii de Coeziune, cu termene stricte de execuție în perioada 2026–2027, precum și riscul pierderii definitive a acestor fonduri în lipsa unor măsuri imediate de stabilizare financiară la nivel local,
 
@@ -96,11 +96,11 @@ d) furnizarea de expertiză și asistență tehnică de specialitate ministerelo
 
 ## 7. La articolul 91¹, alineatul (17) se modifică și va avea următorul cuprins:
 
-„(17) Pentru a stimula cooperarea unităților administrativ-teritoriale în consorții administrative, Guvernul derulează Programul multianual pentru sprijinirea cooperării unităților administrativ-teritoriale membre ale consorțiilor administrative, a cărui finanțare este asigurată de la bugetul de stat, prin bugetul Ministerului Dezvoltării, Lucrărilor Publice și Administrației. Creditele de angajament și creditele bugetare se prevăd prin legea bugetului de stat. Finanțarea se asigură pe baza unor criterii de performanță transparente care se circumscriu obiectivelor prevăzute la art. 89 alin. (8⁴).”
+„(17) Pentru a stimula cooperarea unităților administrativ-teritoriale în consortii administrative, Guvernul derulează Programul multianual pentru sprijinirea cooperării unităților administrativ-teritoriale membre ale consortiilor administrative, a cărui finanțare este asigurată de la bugetul de stat, prin bugetul Ministerului Dezvoltării, Lucrărilor Publice și Administrației. Creditele de angajament și creditele bugetare se prevăd prin legea bugetului de stat. Finanțarea se asigură pe baza unor criterii de performanță transparente care se circumscriu obiectivelor prevăzute la art. 89 alin. (8⁴).”
 
 ## 8. La articolul 91¹, după alineatul (17), se introduce un nou alineat, alin. (17¹), cu următorul cuprins:
 
-„(17¹) Beneficiarii programului multianual prevăzut la alin. (17) sunt consorțiile administrative, constituite în condițiile legii, care primesc finanțarea acordată prin program în conturile de disponibil deschise la Trezoreria Statului. Beneficiarii programului încheie contracte de finanțare multianuale cu Ministerul Dezvoltării, Lucrărilor Publice și Administrației.”
+„(17¹) Beneficiarii programului multianual prevăzut la alin. (17) sunt consortiile administrative, constituite în condițiile legii, care primesc finanțarea acordată prin program în conturile de disponibil deschise la Trezoreria Statului. Beneficiarii programului încheie contracte de finanțare multianuale cu Ministerul Dezvoltării, Lucrărilor Publice și Administrației.”
 
 9\. La articolul 91¹, alineatul (18), partea introductivă și lit. a) se modifică și va avea următorul cuprins:
 
@@ -114,17 +114,17 @@ a) funcționarea consorțiilor administrative pentru realizarea scopului pentru 
 
 11\. După articolul 91⁶ se introduce un nou articol, art. 91⁷ cu următorul cuprins:
 
-„Art. 91⁷ Finanțarea programului multianual pentru sprijinirea cooperării unităților administrativ-teritoriale membre ale consorțiilor administrative
+„Art. 91⁷ Finanțarea programului multianual pentru sprijinirea cooperării unităților administrativ-teritoriale membre ale consortiilor administrative
 
 (1) Finanțarea Programului multianual prevăzut la art. 91¹ alin. (17) se asigură din sume din transferuri de la bugetul de stat alocate consorțiilor administrative, aprobate cu această destinație în bugetul Ministerului Dezvoltării, Lucrărilor Publice și Administrației, la o poziție distinctă de cheltuieli.
 
-(2) Sumele alocate de la bugetul de stat potrivit dispozițiilor alin. (1) sunt surse de finanțare complementare pentru bugetele consorțiilor administrative.
+(2) Sumele alocate de la bugetul de stat potrivit dispozițiilor alin. (1) sunt surse de finanțare complementare pentru bugetele consortiilor administrative.
 
 (3) Transferul sumelor alocate potrivit dispozițiilor alin. (1) se respectarea alin. (4)-(6).
 
-(4) Sumele acordate prin respectivul Program nu vor fi folosite pentru plata cheltuielilor consorțiilor administrative acoperite din alte surse.
+(4) Sumele acordate prin respectivul Program nu vor fi folosite pentru plata cheltuielilor consortiilor administrative acoperite din alte surse.
 
-(5) Pentru realizarea transferurilor de la bugetul de stat a sumelor aprobate conform contractelor de finanțare încheiate, consorțiile administrative beneficiare:
+(5) Pentru realizarea transferurilor de la bugetul de stat a sumelor aprobate conform contractelor de finanțare încheiate, consortiile administrative beneficiare:
 
 a) deschid la unități ale Trezoreriei Statului conturile în care vor fi transferate sumele aferente alocate de la bugetul de stat prin bugetul Ministerului Dezvoltării, Lucrărilor Publice și Administrației;
 
@@ -132,7 +132,7 @@ b) asigură evidența alocării și utilizării sumelor transferate în conturil
 
 (6) Prin conturile deschise la trezorerie potrivit dispozițiilor alin. (5) se realizează, în condițiile prevăzute la alin. (7) – (18), încasarea și, după caz, restituirea sumelor rămase neutilizate sau utilizate, pentru care s-a constatat un regim de utilizare neconform cu destinația acestora sau cu procedurile prevăzute de legislația în domeniu financiar-contabil sau al achizițiilor publice.
 
-(7) În baza contractelor de finanțare încheiate potrivit art. 91¹ alin. (17¹), consorțiile administrative beneficiare depun la Ministerul Dezvoltării, Lucrărilor Publice și Administrației cereri de transfer ale sumelor prevăzute și aprobate în cererile depuse, aferente cheltuielilor eligibile în cadrul Programului, însoțite de documentația stabilită prin ghidul de finanțare.
+(7) În baza contractelor de finanțare încheiate potrivit art. 91¹ alin. (17¹), consortiile administrative beneficiare depun la Ministerul Dezvoltării, Lucrărilor Publice și Administrației cereri de transfer ale sumelor prevăzute și aprobate în cererile depuse, aferente cheltuielilor eligibile în cadrul Programului, însoțite de documentația stabilită prin ghidul de finanțare.
 
 (8) Ghidul de finanțare prevăzut la alin. (7) se aprobă prin ordin al ministrului dezvoltării, lucrărilor publice și administrației, care se publică în Monitorul Oficial al României, Partea I.
 
@@ -150,7 +150,7 @@ b) asigură evidența alocării și utilizării sumelor transferate în conturil
 
 (15) Pe perioada de derulare a contractelor de finanțare încheiate între Ministerul Dezvoltării, Lucrărilor Publice și Administrației și consorțiile administrative beneficiare, în situația în care solicitările de transfer depuse conform alin. (14) depășesc nivelul creditelor bugetare aprobate prin legea bugetară anuală pentru anul în curs, sumele aferente acestora se transferă de către Ministerul Dezvoltării, Lucrărilor Publice și Administrației, cu prioritate, în anul bugetar următor, în ordinea cronologică de înregistrare în anul anterior a solicitării de transfer al sumelor necesare pentru decontarea cheltuielilor aferente activităților și obiectivelor prevăzute la art. 91¹ alin. (18) realizate.
 
-(16) În cazul în care Ministerul Dezvoltării, Lucrărilor Publice și Administrației constată că beneficiarii nu au utilizat sau au utilizat sumele transferate cu nerespectarea prevederilor legale sau contractuale, acesta notifică consorțiile administrative beneficiare cu privire la prevederile încălcate și solicită restituirea în termen de 30 de zile calendaristice a sumelor decontate necuvenit.
+(16) În cazul în care Ministerul Dezvoltării, Lucrărilor Publice și Administrației constată că beneficiarii nu au utilizat sau au utilizat sumele transferate cu nerespectarea prevederilor legale sau contractuale, acesta notifică consortiile administrative beneficiare cu privire la prevederile încălcate și solicită restituirea în termen de 30 de zile calendaristice a sumelor decontate necuvenit.
 
 (17) Restituirea sumelor prevăzute la alin. (16) se realizează în termen de 30 de zile de la data notificării de către Ministerul Dezvoltării, Lucrărilor Publice și Administrației.
 
@@ -320,7 +320,7 @@ b) prin hotărâre a consiliului județean, a Consiliului General al Municipiulu
 
 30\. La articolul 360, după alineatul (2) se introduc două noi alineate, alin. (2¹) și (2²), cu următorul cuprins:
 
-„(2¹) Prin excepție de la prevederile alin. (2), trecerea unui bun mobil din domeniul privat al unei unități administrativ-teritoriale în domeniul privat al altei unități administrativ-teritoriale se poate face fără plata contravalorii bunului în cazul în care bunul a fost achiziționat în cadrul unui proiect finanțat din fonduri europene nerambursabile, din fonduri externe rambursabile sau prin Mecanismul de redresare și reziliență, după caz.
+„(2¹) Prin excepție de la prevederile alin. (2), trecerea unui bun mobil din domeniul privat al unei unități administrativ-teritoriale în domeniul privat al altei unități administrativ-teritoriale se poate face fără plata contravalorii bunului în cazul în care bunul a fost achiziționat în cadrul unui proiect finanțat din fonduri europene nerambursabile, din fonduri externe rambursabile sau prin Mecanismul de redresare și rezilientă, după caz.
 
 (2²) Plata contravalorii bunului prevăzută la alin. (2) se poate face în termen de maximum 10 ani de la data intrării în vigoare a hotărârii prevăzute la alin. (1), într-una sau în mai multe tranșe, cu condiția menținerii bunului în proprietatea unității administrativ-teritoriale solicitante până la efectuarea integrală a plății. În cazul în care plata contravalorii se realizează în mai multe tranșe, prima tranșă trebuie să reprezinte 25% din totalul sumei. Tranșele de plată ulterioare se actualizează cu indicele prețurilor de consum pe anul anterior.”
 
@@ -456,7 +456,7 @@ h) înștiințează în scris comisia de rotație prin repartizare de la nivelul
 
 (12) În cazul prevăzut la alin. (11), funcționarul public care ocupă o funcție din categoria înalților funcționari publici sau o funcție publică de conducere prevăzută la art. 374² alin. (6) are prioritate în realizarea mobilității prin rotație prin repartizarea prevăzută la art. 2 din anexa nr. 11 într-o funcție inclusă în planul de rotație pentru care deține competențele generale și specifice, fără a se organiza interviul prevăzut la art. 10 alin. (2) lit. e) din anexa nr. 11.
 
-(13) Prin excepție de la prevederile art. 374² alin. (1), pe durata unor situații excepționale cum ar fi durata stării de asediu, a stării de urgență sau a stării de alertă, precum și pentru o perioadă de maximum 60 de zile calendaristice, calculate de la data încetării stării de asediu, a stării de urgență, respectiv a stării de alertă, pentru mandatele a căror perioadă de exercitare expiră, se poate dispune, în condițiile legii, continuarea exercitării respectivei funcții publice din categoria înalților funcționari publici pentru un mandat cu o durată de maximum 6 luni, cu notificarea prealabilă a Agentiei Naționale a Funcționarilor Publici cu 5 zile înainte de dispunerea măsurii.
+(13) Prin excepție de la prevederile art. 374² alin. (1), pe durata unor situații exceptionale cum ar fi durata stării de asediu, a stării de urgență sau a stării de alertă, precum și pentru o perioadă de maximum 60 de zile calendaristice, calculate de la data încetării stării de asediu, a stării de urgență, respectiv a stării de alertă, pentru mandatele a căror perioadă de exercitare expiră, se poate dispune, în condițiile legii, continuarea exercitării respectivei funcții publice din categoria înalților funcționari publici pentru un mandat cu o durată de maximum 6 luni, cu notificarea prealabilă a Agentiei Naționale a Funcționarilor Publici cu 5 zile înainte de dispunerea măsurii.
 
 (14) În cazul în care mobilitatea prin rotație nu se poate realiza la expirarea unui mandat, în sensul în care la aplicarea mobilității prin rotație prin repartizarea prevăzută la art. 2 din anexa nr. 11 nu se identifică o funcție publică pe care se poate realiza rotația, mandatul aflat în curs se prelungește de drept cu o durată de până la 2 ani, prin decizie a prim-ministrului.
 
@@ -570,7 +570,7 @@ Art. 485⁴. - Rezultatul evaluării multianuale a performanțelor profesionale 
 
 (3) În situația în care la evaluarea multianuală a performanțelor profesionale individuale a obținut calificativul „bine” sau „foarte bine”, iar mandatul său nu mai poate fi reînnoit, conform prevederilor art. 374² alin. (6), funcționarului public de conducere i se aplică mobilitatea prin rotație, în condițiile prevăzute la art. 502 și 503¹-503³. În cadrul mobilității prin rotație, punctajul obținut la evaluarea multianuală a performanțelor profesionale individuale, conform prevederilor anexei nr. 11, determină ordinea de preferință pentru ocuparea funcției publice, pe baza opțiunii funcționarilor publici de conducere, dacă sunt exprimate mai multe opțiuni pentru aceeași funcție publică, fiind acordată prioritate funcționarului public cu punctajul cel mai mare.
 
-(4) În situația în care la evaluarea multianuală a performanțelor profesionale individuale a obținut calificativul „suficient”, funcționarul public de conducere are obligația să finalizeze, în maximum 12 luni de la comunicarea rezultatelor evaluării, un program de perfecționare profesională în domeniul managementului public. Dacă mandatul său poate fi reînnoit conform prevederilor art. 374² alin. (6), funcționarul public de conducere își continuă activitatea. Dacă mandatul său nu mai poate fi reînnoit, conform prevederilor art. 374² alin. (6), funcționarului public de conducere i se aplică mobilitate prin rotație, în condițiile prevăzute la art. 503-503³ și este obligat să finalizeze programul de pregătire profesională indiferent de funcția publică pe care o ocupă după aplicarea mobilității prin rotație. Pe perioada participării funcționarului public la programul de pregătire profesională se aplică în mod corespunzător prevederile art. 438 alin. (2) – (4), (9) și (11).
+(4) În situația în care la evaluarea multianuală a performanțelor profesionale individuale a obținut calificativul „suficient”, funcționarul public de conducere are obligația să finalizeze, în maximum 12 luni de la comunicarea rezultatelor evaluării, un program de perfectionare profesională în domeniul managementului public. Dacă mandatul său poate fi reînnoit conform prevederilor art. 374² alin. (6), funcționarul public de conducere își continuă activitatea. Dacă mandatul său nu mai poate fi reînnoit, conform prevederilor art. 374² alin. (6), funcționarului public de conducere i se aplică mobilitate prin rotație, în condițiile prevăzute la art. 503-503³ și este obligat să finalizeze programul de pregătire profesională indiferent de funcția publică pe care o ocupă după aplicarea mobilității prin rotație. Pe perioada participării funcționarului public la programul de pregătire profesională se aplică în mod corespunzător prevederile art. 438 alin. (2) – (4), (9) și (11).
 
 (5) În situația în care la evaluarea multianuală a performanțelor profesionale individuale a obținut calificativul „insuficient”, funcționarul public de conducere este mutat definitiv pe o funcție publică de execuție vacantă, cu acordul său, în condițiile prevăzute la art. 507. În cazul în care nu este disponibilă o funcție publică de execuție vacantă în cadrul autorității sau instituției publice în cadrul căreia funcționarul public de conducere și-a desfășurat activitatea, prevederile art. 526 se aplică în mod corespunzător. În cazul în care funcționarul public de conducere care la evaluarea multianuală a performanțelor profesionale individuale a obținut calificativul „insuficient” refuză mutarea definitivă pe o funcție publică de execuție vacantă, acesta este eliberat din funcția publică pentru incompetență profesională.
 
@@ -632,6 +632,2263 @@ b) în cadrul aceleiași autorități/instituții publice.
 
 (1) Mobilitatea prin rotație este obligatorie la finalizarea mandatelor, dacă acestea nu se mai pot înnoi, pentru înalții funcționari publici prevăzuți la art. 374² alin. (1) și funcționarii publici de conducere prevăzuți la 374² alin. (6).
 
-(2) Prin excepție de la prevederile alin. (1), mobilitatea prin rotație obligatorie nu se realizează în cazul în care, până la finalizarea mandatului, înalții funcționari publici prevăzuți art. 374² alin. (1) și funcționarii publici de conducere prevăzuți la 374² alin. (6) își modifică raporturile de serviciu prin transfer în interesul serviciului, mutare definitivă, promovare, mobilitate prin rotație voluntară sau redistribuire într-o funcție
+(2) Prin excepție de la prevederile alin. (1), mobilitatea prin rotație obligatorie nu se realizează în cazul în care, până la finalizarea mandatului, înalții funcționari publici prevăzuți art. 374² alin. (1) și funcționarii publici de conducere prevăzuți la 374² alin. (6) își modifică raporturile de serviciu prin transfer în interesul serviciului, mutare definitivă, promovare, mobilitate prin rotație voluntară sau redistribuire într-o funcție publică vacantă sau dacă dobândesc o altă funcție publică prin concurs organizat în condițiile legii.
 
-*Documentul are 149 de pagini; am citit primele 40.*
+(3) Raportul de serviciu al înaltului funcționar public și funcționarului public de conducere care se încadrează în categoriile prevăzute la alin. (1) nu se poate modifica pe perioada mandatului prin detașare sau transfer la cererea funcționarului public.
+
+(4) Raportul de serviciu al înaltului funcționar public și funcționarului public de conducere care se încadrează în categoriile prevăzute la alin. (1) se poate modifica prin transfer în interesul serviciului aprobat prin act administrativ al persoanei care are competența de numire.
+
+(5) Pentru evaluarea multianuală a performanțelor profesionale individuale ale înalților funcționari publici și ale funcționarilor publici de conducere, se aplică în mod corespunzător prevederile art. 398² alin. (4) și 485³ alin. (12).
+
+(6) Mobilitatea prin rotație se realizează pe baza planului de rotație, care se aprobă prin hotărâre a Guvernului, și a procedurii reglementate în anexa nr. 11.
+
+(7) În situația în care salariul funcției publice pe care funcționarul public o ocupă până la realizarea mobilității prin rotație este mai mare decât salariul funcției publice pe care funcționarul public urmează să o ocupe ca urmare a mobilității prin rotație, funcționarul public păstrează salariul mai mare.
+
+(8) Înaltul funcționar public și funcționarul public de conducere care se încadrează în categoriile prevăzute la alin. (1) poate refuza mobilitatea prin rotație obligatorie dacă se află în una dintre următoarele situații:
+
+a) graviditate;
+
+b) își crește singur copilul minor;
+
+c) starea sănătății, dovedită cu certificat medical, face contraindicată mobilitatea prin rotație obligatorie;
+
+d) motive familiale temeinice.
+
+(9) Refuzul neîntemeiat de a da curs mobilității prin rotație obligatorie atrage eliberarea din funcția publică, în condițiile legii.
+
+Art. 503². - Mobilitatea prin rotație voluntară
+
+(1) În scopul perfectionării profesionale și realizării unui transfer de bune practici administrative între autoritățile și instituțiile publice, toți înalții funcționari publici și funcționarii publici de conducere care ocupă funcții publice de conducere prevăzute la art. 374² alin. (6) au dreptul să adere în mod voluntar la mobilitate prin rotație, exprimându-și opțiunea pentru ocuparea unui post inclus în planul de rotație.
+
+(2) Mobilitatea prin rotație voluntară nu poate fi realizată decât o dată la 3 ani de către același înalt funcționar public, respectiv decât o dată la 5 ani de către același funcționar public de conducere.
+
+(3) Prevederile art. 503¹ alin. (2), (5) și (6) se aplică în mod corespunzător.
+
+Art. 503³. - Identificarea funcțiilor publice de conducere pentru care se aplică mobilitatea prin rotație obligatorie
+
+(1) Funcțiile publice de conducere sensibile sunt cele care prezintă un risc semnificativ de afectare a obiectivelor entității prin utilizarea necorespunzătoare a resurselor umane, materiale, financiare și informaționale sau de corupție sau fraudă.
+
+(2) În vederea identificării funcțiilor publice de conducere sensibile la nivelul autorităților și instituțiilor publice prevăzute la art. 385 alin. (1) se nominalizează un grup de lucru, din care nu fac parte conducătorii autorităților sau instituțiilor publice. Acesta poate fi și un alt grup de lucru cu sarcini similare, existent la nivelul autorității sau instituției publice. Pentru identificarea funcțiilor publice de conducere sensibile din autoritățile și instituțiile publice prevăzute la art. 385 alin. (1), ordonatorii principali de credite pot constitui un grup de lucru pentru toate autoritățile și instituțiile publice aflate în subordinea, coordonarea sau sub autoritatea proprie, dacă este cazul.
+
+(3) Grupul de lucru prevăzut la alin. (2) analizează posturile aferente funcțiilor publice de conducere sensibile urmând procedurile de la nivelul autorităților și instituțiilor publice privind funcțiile sensibile, incluzând analizele realizate la nivelul fiecărei structuri funcționale și propun identificarea funcțiilor publice de conducere pentru care sunt identificați următorii factori de risc:
+
+a) deținerea de atribuții și responsabilități ce implică administrarea resurselor financiare necesare pentru funcționarea instituției sau autorității publice. General și conteu
+
+b) gestionarea procedurilor de achiziții publice desfășurate de autoritatea sau instituția publică;
+
+c) managementul resurselor umane de la nivelul instituției sau autorității publice;
+
+d) existența unui acces slab monitorizat la informații clasificate și deținerea de atribuții și responsabilități privind utilizarea acestor informații;
+
+e) deținerea de responsabilități ce implică emiterea de avize și autorizații pentru activități ale mediului de afaceri;
+
+f) exercitarea activităților de control, inspecție și monitorizare a activităților economice.
+
+(4) Funcțiile publice de conducere sensibile din autoritățile și instituțiile publice prevăzute la art. 385 alin. (1) se stabilesc pe baza propunerii grupului de lucru prevăzut la alin. (2), prin act administrativ al conducătorului autorității sau instituției publice.
+
+Art. 503⁴. - Modalitatea de realizare a rotației obligatorie pentru funcționarii publici de conducere care ocupă funcții publice identificate ca funcții publice de conducere sensibile
+
+(1) La finalizarea mandatelor, funcționarii publici care ocupă funcțiile publice de conducere prevăzute la art. 374² alin. (6) rămân în corpul funcționarilor publici de conducere și urmează să ocupe o nouă funcție publică din aceeași categorie, în baza mobilității prin rotație, în condițiile reglementate la art. 502-503².
+
+(2) Prevederile art. 397¹ alin. (8)-(15) se aplică corespunzător și în cazul funcționarilor publici de conducere care ocupă funcții publice de conducere sensibile pentru care mobilitatea prin rotație este obligatorie.
+
+Art. 503⁵. - Reguli privind începerea unui nou mandat pentru înalții funcționari publici și pentru funcționarii publici de conducere care ocupă funcții publice de conducere pentru care mobilitatea prin rotație este obligatorie
+
+(1) Până la finalizarea mandatului, înalții funcționari publici prevăzuți la art. 374² alin. (1) au posibilitatea să înceapă un alt mandat prin transfer în interesul serviciului.
+
+(2) La finalul mandatului, ori până la finalizarea acestuia, funcționarii publici de conducere prevăzuți la art. 374² alin. (6) au posibilitatea să înceapă un alt mandat prin una din următoarele modalități:
+
+a) promovare pe o altă funcție publică de conducere superioară celei pe care o ocupă sau ocuparea unei asemenea funcții publice de conducere sau a unei funcții publice corespunzătoare categoriei înalților funcționari publici, prin recrutare în condițiile legii;
+
+b) transfer în interesul serviciului.
+
+(3) Termenele mandatelor instituite pentru funcționarii publici în temeiul art. 374² alin. (1) și (6) încep să curgă la data numirii în funcția publică în cauză.”
+
+## 51. La articolul 506, alineatele (5), (8¹) și (9) se modifică și vor avea următorul cuprins:
+
+„(5) Funcționarul public trebuie să îndeplinească condițiile prevăzute la art. 465 alin. (1) lit. f), g) și g²), pentru ocuparea funcției publice în care urmează să fie transferat, conform fișei postului. Autoritățile sau instituțiile publice la care se transferă funcționarul public verifică condițiile de realizare a transferului, precum și modul de îndeplinire de către acesta a competențelor specifice prevăzute în fișa postului aferentă funcției publice în care urmează să fie transferat, conform prevederilor art. 21 alin. (1) - (7) din anexa nr. 8.
+
+(8¹) În vederea realizării transferului la cerere, autoritatea sau instituția publică în cadrul căreia se află funcția publică vacantă are obligația de a publica pe pagina de internet a acesteia un anunț care cuprinde fișa postului corespunzătoare funcției publice, modalitatea de verificare a îndeplinirii competențelor specifice în condițiile prevăzute la art. 21 alin. (1) - (7) din anexa nr. 8, documentele necesare și perioada de înscriere, data, ora și locația stabilită pentru verificarea îndeplinirii competențelor specifice privind funcția publică respectivă. Anunțul se publică cu cel puțin 30 de zile calendaristice înainte de data stabilită pentru verificarea îndeplinirii competențelor specifice pentru funcția publică respectivă.
+
+(9) Autoritățile sau instituțiile publice aprobă proceduri interne de condițiilor de realizare a transferului și a competențelor specifice, pe care pagina proprie de internet. Procedurile interne trebuie să contină cel puțin prevederi referitoare la documentele necesare transferului, modalitatea de verificare a îndeplinirii condițiilor de realizare a transferului și de verificare a îndeplinirii competențelor specifice în condițiile prevăzute la art. 21 alin. (1) - (7) din anexa nr. 8.
+
+52\. La articolul 510, alineatul (2), litera a) se modifică și va avea următorul cuprins:
+
+„a) cu maximum 6 luni, cu notificare prealabilă a Agenției Naționale a Funcționarilor Publici, cu 10 zile înainte de dispunerea măsurii, dacă funcția publică de conducere sau funcția publică corespunzătoare categoriei înalților funcționari publici din cadrul autorității sau instituției publice prevăzute la art. 369 lit. a), c) și e) nu a fost ocupată în condițiile prevăzute la art. 466 alin. (2) lit. b)-d), art. 467 alin. (3), art. 482 alin. (4), art. 503¹ și 503².”
+
+53\. La articolul 510, după alineatul (2) se introduc trei noi alineate, alin. (3)-(5), cu următorul cuprins:
+
+„(3) Este obligatorie introducerea funcțiilor publice de conducere vacante din autoritățile și instituțiile publice prevăzute la art. 385 alin. (1) sau a funcțiilor publice din categoria înalților funcționari publici vacante, ocupate prin exercitare cu caracter temporar în condițiile prevăzute la art. 509, în planul de recrutare a funcționarilor publici sau în planul de promovare în funcțiile publice de conducere prevăzute la art. 5 din anexa nr. 10, sau în planul de rotație prevăzut la art. 3 din anexa nr. 11.
+
+(4) Obligația prevăzută la alin. (3) se constituie de la data la care funcțiile publice de conducere vacante sau din categoria înalților funcționari publici vacante sunt ocupate prin exercitare cu caracter temporar în condițiile prevăzute la art. 509.
+
+(5) Funcțiile publice de conducere vacante sau din categoria înalților funcționari publici vacante ocupate prin exercitare cu caracter temporar în condițiile prevăzute la art. 509 și incluse în planul de recrutare a funcționarilor publici sau în planul de promovare în funcțiile publice de conducere, prevăzute la art. 5 din anexa nr. 10, sau în planul de rotație prevăzut la art. 3 din anexa nr. 11, se pot ocupa prin transfer în interesul serviciului, situație în care sunt excluse de drept din planul în care au fost incluse.”
+
+54\. La articolul 519, alineatul (1), după litera h) se introduc patru noi litere, lit. i)-l), cu următorul cuprins:
+
+„i) ca urmare a refuzului nejustificat al funcționarilor publici prevăzuți la art. 374² alin (1) și (6) de a formula opțiuni și/sau de a se prezenta la interviuri, dacă sunt invitați, pentru realizarea mobilității prin rotație;
+
+j) pentru incompetență profesională, în cazul obținerii calificativului „insuficient” în urma derulării procesului de evaluare multianuală a performanțelor profesionale individuale ale înalților funcționari publici, respectiv ale funcționarilor publici de conducere prevăzuți la art. 374² alin. (6) în condițiile prevăzute la art. 398², 398³, 485³, 485⁴;
+
+k) neparticiparea funcționarilor publici prevăzuți la art. 374² alin. (1) și (6) la un program de pregătire profesională în domeniul managementului public în termenele și condițiile prevăzute la art. 398³ respectiv art. 485⁴, în cazul obținerii calificativului „suficient” în urma derulării procesului de evaluare multianuală a performanțelor profesionale individuale;
+
+1\) ca urmare a refuzului funcționarului public de a fi numiți într-o funcție publică definitivă cu durată redusă a timpului de muncă la jumătate de normă, în condițiile prevăzute la art. 378¹ alin. (4).”
+
+55\. La articolul 519, alineatul (3) se modifică și va avea următorul cuprins:
+
+„(3) Situațiile prevăzute la alin. (1) lit. a)-d), f), g) și l) reprezintă motive neimputabile funcționarilor publici.”
+
+56\. La articolul 519, alineatul (7), teza introductivă se modifică și va avea următorul cuprins:
+
+„(7) În cazurile prevăzute la alin. (1) lit. c), d), f) și l) în perioada de preaviz, dacă în cadrul autorității sau instituției publice există funcții publice vacante corespunzătoare, aceasta are obligația să le pună la dispoziția funcționarilor publici. În sensul prezentului cod, sunt considerate funcții publice corespunzătoare:”
+
+57\. La articolul 519, alineatul (9) se modifică și va avea următorul cuprins:
+
+„(9) În cazurile prevăzute la alin. (1) lit. a)-d), f), g) și l), dacă nu ex publice vacante corespunzătoare în cadrul autorității sau instituției publice ori instituția publică are obligația de a solicita Agenției Naționale a Funcționarilor Publici, în perioada de preaviz, lista funcțiilor publice vacante. În cazul în care există o funcție publică vacantă corespunzătoare, funcționarului public îi sunt aplicabile dispozițiile art. 506.”
+
+## 58. La articolul 525, alineatul (1) se modifică și va avea următorul cuprins:
+
+„(1) Corpul de rezervă este format din funcționarii publici care au fost eliberați din funcția publică în condițiile prevăzute la art. 519 alin. (1) lit. a)-d), f), g), h) și l) și este gestionat de Agenția Națională a Funcționarilor Publici.”
+
+59\. La articolul 544 alineatul (1), litera e) se modifică și va avea următorul cuprins:
+
+„e) consilierul de stat, secretarul de stat și asimilații acestora din cadrul aparatului de lucru al Guvernului, din cadrul ministerelor și al celorlalte organe de specialitate ale administrației publice centrale;”
+
+## 60. Articolul 546 se modifică și va avea următorul cuprins:
+
+„Art. 546 - Numărul de posturi din cadrul cabinetului și cancelariei
+
+Numărul maxim de posturi din cadrul cabinetului, respectiv cancelariei este:
+
+a) 5 posturi pentru cabinetul prim-ministrului;
+
+b) 5 posturi pentru cabinetul viceprim-ministrului cu portofoliu, ministrului de stat;
+
+c) 3 posturi pentru cabinetul viceprim-ministrului fără portofoliu;
+
+d) 3 posturi pentru cabinetul ministrului, secretarului general al Guvernului și șefului Cancelariei Prim-Ministrului;
+
+e) 3 posturi pentru cabinetul ministrului delegat;
+
+f) 1 post pentru cabinetul secretarului general adjunct al Guvernului, secretarului de stat și asimilatului acestuia din cadrul ministerelor și aparatului de lucru al Guvernului și consilierului de stat;
+
+g) 1 post pentru cabinetul conducătorului de organ de specialitate al administrației publice centrale, cu rang de secretar de stat;
+
+h) 4 posturi pentru cabinetul primarului general al municipiului Buçurești;
+
+i) 4 posturi pentru cabinetul președintelui consiliului județean și primarilor unităților/subdiviziunilor administrativ-teritoriale cu o populație peste 100.000 de locuitori;
+
+j) 3 posturi pentru cabinetul primarilor de comună, oraș sau municipiu cu o populație între 30.000 - 100.000 de locuitori;
+
+k) 2 posturi pentru cabinetele primarilor comunelor, orașelor sau municipiilor cu populație între 10.000 – 30.000 de locuitori, viceprimarilor comunelor, orașelor sau municipiilor cu o populație între 30.000 – 100.000 de locuitori, viceprimarilor comunelor, orașelor sau municipiilor cu o populație de peste 100.000 de locuitori, viceprimarilor sectoarelor municipiului București, viceprimarilor generali ai municipiului București, vicepreședinților consiliilor județene, precum și pentru cancelaria prefectului;
+
+1\) 1 post pentru cabinetele primarilor comunelor, orașelor sau municipiilor cu o populație mai mică de 10.000 de locuitori și viceprimarilor comunelor, orașelor sau municipiilor cu o populație între 10.000 – 30.000 de locuitori.”
+
+61\. La articolul 551, alineatul (3) se modifică și va avea următorul cuprins:
+
+„(3) Dispozițiile art. 376 alin. (2), art. 391 alin. (3), art. 430, art. 432-434, art. 437-441, art. 443-449, art. 458 și art. 506 alin. (1)-(9) se aplică în mod corespunzător și personalului contractual.”
+
+62\. La articolul 597 alineatul (1), după litera j) se introduce o nouă literă, lit. k) cu următorul cuprins:
+
+k) prevederile art. 485² intră în vigoare la data de 1 ianuarie 2027, cu excepția art. 26 din anexa nr. 6¹ care se poate aplica, în cadrul evaluării performanțelor profesionale individuale ale funcționarilor publici care ocupă funcții publice prevăzute la art. 385 alin. (3), pentru activitatea desfașurată în perioada 1 ianuarie-31 decembrie 2026;
+
+63\. La articolul 597, după alineatul (4) se introduce un nou alineat, alin. (5), cu următorul cuprins:
+
+„(5) La data de 1 aprilie 2027, se abrogă art. 485.”
+
+64\. Articolul 598 se modifică și va avea următorul cuprins:
+
+„Art. 598. - Anexele nr. 1-11 fac parte integrantă din prezentul cod.”
+
+65\. La anexa nr. 5 punctul I „Funcții publice generale”, litera A „Funcții publice corespunzătoare categoriei înalților funcționari publici, punctul 5 se abrogă.
+
+66\. La anexa nr. 6 articolul 3 alineatul (1), litera b) se modifică și va avea următorul cuprins:
+
+„b) referatul de evaluare întocmit de către conducătorul autorității sau instituției publice în al cărei stat de funcții se află funcția publică, pentru funcțiile publice prevăzute la art. 389 lit. a) din prezentul cod, de către ministrul care coordonează activitatea instituției prefectului pentru funcțiile publice prevăzute la art. 389 lit. c¹) din prezentul cod;”
+
+67\. La anexa nr. 6 articolul 4 alineatul (1), litera c) se abrogă.
+
+68\. După anexa nr. 6 se introduc două noi anexe, anexele nr. 6¹ și 6², având cuprinsul prevăzut în anexele nr. 1 și 2 la prezenta ordonanță de urgență.
+
+69\. La anexa nr. 8 articolul 31, alineatul (1²) se modifică și va avea următorul cuprins:
+
+„(1¹) Pentru funcțiile publice din categoria înalților funcționari publici fișa postului se întocmește de către conducătorul autorității sau instituției publice în al cărei stat de funcții se află funcția publică, pentru funcțiile publice de secretar general și secretar general adjunct din cadrul ministerelor și al organelor de specialitate ale administrației publice centrale, precum și pentru funcțiile publice de secretar general al instituției prefectului.”
+
+70\. La anexa nr. 8, articolul 31 alineatul (2), punctul III, nota de subsol 19 se modifică și va avea următorul cuprins:
+
+„¹⁹ Se întocmește de către persoana care are calitatea de evaluator al titularului postului, potrivit legii, cu excepția situației în care calitatea de evaluator revine, potrivit legii, conducătorului autorității sau instituției publice. Pentru funcțiile publice din categoria înalților funcționari publici fișa postului se întocmește de către conducătorul autorității sau instituției publice în al cărei stat de funcții se află funcția publică, pentru funcțiile publice de secretar general și secretar general adjunct din cadrul ministerelor și al organelor de specialitate ale administrației publice centrale, precum și pentru functiile publice de secretar general al instituției prefectului. În cazul în care calitatea de evaluator revine conducătorului autorității sau instituției publice precum și pentru funcția publică de secretar general al unității/subdiviziunii administrativ-teritoriale, prin act administrativ al conducătorului autorității sau instituției publice se desemnează persoana care ocupă funcția de conducere imediat inferioară să întocmească și să semneze fișa postului, dacă prin reglementări cu caracter special nu se prevede altfel. Persoanele cu atribuții în domeniul managementului resurselor umane din cadrul autorității sau instituției publice au obligația de a acorda asistență funcționarilor publici și de a monitoriza respectarea acestor prevederi.”
+
+## 71. La anexa nr. 8, articolul 33 se modifică și va avea următorul cuprins:
+
+„Art. 33. - Pentru funcțiile publice corespunzătoare categoriei înalților funcționari publici, fișa postului standardizată se întocmește de către conducătorul autorității sau instituției publice în al cărei stat de funcții se află funcția publică, pentru funcțiile publice de secretar general și secretar general adjunct din cadrul ministerelor și al altor organe de specialitate ale administrației publice centrale, precum și pentru funcțiile publice de secretar general al instituției prefectului.”
+
+72\. La anexa nr. 10, articolul 70, alineatele (2) și (4) se modifică și vor avea următorul cuprins:
+
+„(2) Autoritatea sau instituția publică organizatoare poate solicita Agenției Naționale a Funcționarilor Publici desemnarea unui reprezentant pentru a face parte din comisia de concurs, respectiv din comisia de soluționare a contestațiilor, odată cu transmiterea înștiințării, doar pentru concursurile pentru ocuparea funcțiilor publice de conducere.
+
+(4) În situația prevăzută la alin. (2), reprezentantul Agenției Naționale a Funcționarilor Publici poate fi desemnat din cadrul Agenției Naționale a Funcționarilor Publici sau, după caz, din cadrul instituției prefectului pentru concursurile organizate pentru ocuparea funcțiilor publice prevăzute la art. 385 alin. (2) din prezentul cod, la propunerea prefectului județului respectiv.”
+
+73\. La anexa nr. 10, articolul 70, alineatul (3) se abrogă.
+
+74\. La anexa nr. 10, articolul 75, alineatele (1) - (4) se modifică și vor avea următorul cuprins:
+
+„(1) Pentru concursurile organizate în vederea ocupării funcțiilor publice de execuție, comisia de concurs și comisia de soluționare a contestațiilor sunt compuse din câte trei membri, reprezentanți ai autorității sau instituției publice organizatoare a concursului, desemnați din cadrul acesteia, prin act administrativ al conducătorului autorității sau instituției publice organizatoare.
+
+(2) Pentru concursurile organizate în vederea ocupării funcțiilor publice de conducere, comisia de concurs și comisia de soluționare a contestațiilor sunt compuse fiecare din câte 5 membri, reprezentanți ai autorității sau instituției publice organizatoare a concursului desemnați din cadrul acesteia sau/și din cadrul autorității sau instituției publice ierarhic superioare.
+
+(3) În situația concursurilor organizate pentru ocuparea funcțiilor publice de conducători ai serviciilor publice deconcentrate ale ministerelor și ale celorlalte organe ale administrației publice centrale din unitățile administrativ-teritoriale, comisia de concurs și comisia de soluționare a contestațiilor se constituie după cum urmează:
+
+a) 4 membri sunt desemnați din cadrul autorității sau instituției publice care coordonează activitatea serviciului public deconcentrat;
+
+b) un membru este reprezentantul instituției prefectului din județul/municipiul București în care își are sediul serviciul public deconcentrat, desemnat prin ordin al prefectului.
+
+(4) Prin excepție de la prevederile alin. (1) și (2), în cazul concursurilor organizate în vederea ocupării funcțiilor publice de execuție și de conducere prevăzute la art. 385 alin. (3) din prezentul cod, comisia de concurs și comisia de soluționare a contestațiilor poate avea în componentă membrii desemnați din cadrul instituției prefectului, sau după caz, din cadrul consiliului județean.”
+
+75\. La anexa nr. 10, articolul 83, alineatul (1) se modifică și va avea următorul cuprins:
+
+„(1) Pentru comisiile prevăzute la art. 75 alin. (1), prin act administrativ al conducătorului autorității sau instituției publice organizatoare se numește minimum un membru supleant care înlocuiește de drept pe oricare membru titular care, din motive întemeiate, nu își poate exercita atribuțiile.”
+
+76\. La anexa nr. 10, articolul 215 alineatul (1), litera b), alineatul (2) litera b) și alineatul (3) se abrogă.
+
+77\. La anexa nr.10, articolul 216, alineatul (1) litera b) și alineatul (5) se abrogă.
+
+78\. La anexa nr. 10, la Titlul III Capitolul III Secțiunea a 2-a alcătuită din art. 222 se abrogă.
+
+79\. După anexa nr. 10 se introduce o nouă anexă, anexa nr. 11, având cuprinsul prevăzut în anexa nr. 3 la prezenta ordonanță de urgență.
+
+Art. II. – La articolul 94 alineatul (2¹) din Legea nr. 161/2003 privind unele măsuri pentru asigurarea transparenței în exercitarea demnităților publice, a funcțiilor publice și în mediul de afaceri, prevenirea și sanctionarea corupției, publicată în Monitorul Oficial al României, Partea I, nr. 279 din 21 aprilie 2003, cu modificările și completările ulterioare, după litera c) se introduce o nouă literă, lit. d), cu următorul cuprins:
+
+„d) exercită raporturi de serviciu cu timp parțial în cadrul autorităților administrației publice locale sau instituțiilor publice subordonate, după caz, potrivit art. 378¹ din Ordonanța de urgență a Guvernului nr. 57/2019 privind Codul administrativ, cu modificările și completările ulterioare.”
+
+Art. III. - Ordonanța de urgență a Guvernului nr. 77/2009 privind organizarea și exploatarea jocurilor de noroc, publicată în Monitorul Oficial al României, Partea I, nr. 439 din 26 iunie 2009, aprobată cu modificări și completări prin Legea 246/2010, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 1³, alieantul (1) se modifică și va avea următorul cuprins:
+
+„(1) În înțelesul prezentei ordonanțe de urgență, operatorul de jocuri licențiat este organizatorul de jocuri de noroc, respectiv persoana juridică care licență de organizare a jocurilor de noroc, autorizație de exploatare a jocurilor de noroc de la Comitetul de Supraveghere al Oficiului Național pentru Jocuri de Noroc, precum și autorizație de funcționare locală de la autoritatea administrației publice locale pe raza căreia își desfășoară activitatea.”
+
+## 2. La articolul 10, alineatul (2) se modifică și va avea următorul cuprins:
+
+„(2) Pentru jocurile de noroc prevăzute la alin. (1), precum și pentru orice alte tipuri de jocuri de noroc organizate în condițiile stabilite prin prezenta ordonanță de urgență este obligatorie deținerea licenței de organizare a jocurilor de noroc, respectiv a autorizației de exploatare a jocurilor de noroc. În cazul desfășurării activității în locații fizice, este necesară și deținerea autorizației de funcționare eliberate de autoritatea administrației publice locale competente.”
+
+## 3. La articolul 15 alineatul (2), litera a) se modifică și va avea următorul cuprins:
+
+„a) detin licență de organizare a jocurilor de noroc valabilă la data depunerii cererii pentru obținerea autorizației de exploatare a jocurilor de noroc și detin autorizație de funcționare eliberată de autoritatea administrației publice locale;”
+
+4\. La articolul 15, alineatul (3) se abrogă.
+
+## 5. La articolul 15, alineatul (8) se modifică și va avea următorul cuprins:
+
+„(8) Licența de organizare și autorizația de exploatare a jocurilor de noroc permit operatorului economic care le-a obținut să desfășoare activitatea pe întreg territoriul României, fără a fi necesară obținerea de autorizații, aprobări, taxe suplimentare, avize ori licențe din partea altor autorități. Desfășurarea efectivă a activității în locații fizice este condiționată, după caz, de obținerea autorizației de funcționare locală, eliberate de autoritatea administrației publice locale competente, potrivit legii. Anterior începerii activității pe raza unei localități, operatorul economic licențiat în condițiile prezentei ordonanțe de urgență va informa, în termen de 5 zile, prin adresă, autoritatea administrației publice locale competente despre începerea activității, comunicându-i data începerii activității și transmitându-i copii de pe licența și autorizația de exploatare a jocurilor de noroc. Condițiile pe care trebuie să le îndeplinească locațiile în care sunt exploatae jocurile de noroc, condițiile tehnice pe care trebuie să le îndeplinească mijloacele de joc, condițiile referitoare la regulamentele de joc și regulamentele interne în vederea acordării autorizației de exploatare a jocurilor de noroc, precum și obligațiile care le revin organizatorilor în vederea menținerii valabilității acestora se stabilesc prin normele metodologice de aplicare a prezentei ordonanțe de urgență.”
+
+## 6. După articolul 18 se introduce un nou articol, art. 18¹, cu următorul cuprins:
+
+„Art. 18¹. - (1) Consiliul local decide, prin hotărâre, dacă pe territoriul unității administrativ-teritoriale pe care o reprezintă se pot sau nu desfășura activități de jocuri de noroc.
+
+(2) În cazul în care consiliul local decide ca pe territoriul unității administrativ-teritoriale pe care o reprezintă să se desfășoare activități de jocuri de noroc, acestea sunt condiționate de obținerea, în prealabil, a autorizației anuale de funcționare.
+
+(3) În vederea obținerii autorizației de funcționare prevăzută la alin. (2) operatorul economic depune copii de pe licența de organizare a jocurilor de noroc și documente cu privire la spațiului propus pentru organizarea activității. Autorizația de funcționare prevăzută la alin. (2) se acordă sau se respinge prin hotărâre a consiliului local, pe baza criteriilor stabilite prin regulament propriu, cu respectarea priorităților de dezvoltare locală, a normelor de protecție a ordinii și a sănătății și siguranței publice.
+
+(4) Autoritatea administrației publice locale stabilește, prin hotărâre a consiliului local:
+
+a) zonele în care activitățile de jocuri de noroc pot fi desfășurate;
+
+b) cuantumul taxei locale datorate pentru obținerea autorizației de funcționare, calculată în funcție de suprafața, exprimată în metri pătrați, a spațiului în care se desfășoară activitatea.
+
+(5) Hotărârea consiliului local prevăzută la alin. (4) se aduce la cunoștința publicului prin afișare pe pagina de internet a autorității administrației publice locale și prin celelalte mijloace de publicitate prevăzute de lege.
+
+(6) Taxa locală anuală prevăzută la alin. (4) lit. b) se achită în termen de 30 de zile
+
+de la emiterea autorizației de funcționare."
+
+Art. IV. – Ordonanța Guvernului nr. 71/2002 privind organizarea și funcționarea serviciilor publice de administrare a domeniului public și privat de interes local, publicată în Monitorul Oficial al României, Partea I, nr. 648 din 31 august 2002, aprobată cu modificări prin Legea nr. 3/2003, cu modificările și completările ulterioare, se completează după cum urmează:
+
+1\. La articolul 3 alineatul (1), după litera m) se introduce o nouă literă, lit. m¹) cu următorul cuprins:
+
+„m¹) instalarea, amenajarea, organizarea și exploatarea punctelor de închiriere de trotinete electrice și biciclete, precum și a infrastructurii de încărcare a vehiculelor și a autovehiculelor electrice;”
+
+2\. La articolul 5 punctul 2, după litera j) se introduc două noi litere, lit. k) și l) cu următorul cuprins:
+
+„k) instalarea, întreținerea și funcționarea punctelor de închiriere de trotinete electrice și biciclete;
+
+1\) amenajarea, întreținerea și exploatarea infrastructurii de încărcare a vehiculelor și a autovehiculelor electrice;”
+
+Art. V. - Legea nr. 227/2015 privind Codul fiscal, publicată în Monitorul Oficial al României, Partea I, nr. 688 din 10 septembrie 2015, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 460, după alineatul (10) se introduce un nou alineat, alin. (11), cu următorul cuprins:
+
+„(11) Pentru lucrările realizate cu autorizație de construire, valoarea impozabilă se calculează în raport cu informațiile cuprinse în anexa la cererea pentru emiterea autorizației de construire și/sau proiectul anexat la autorizația de construire.”
+
+2\. La articolul 461, după alineatul (1) se introduce un nou alineat, alin. (1¹), cu următorul cuprins:
+
+„(1¹) Impozitul pe clădiri stabilit potrivit dispozițiilor alin. (1) se datorează și pentru clădirea edificată:
+
+a) cu autorizație de construire al cărei termen de valabilitate nu a expirat, însă persoanele împuternicite ale autorității executive constată până la 31 decembrie.
+
+inclusiv, a anului anterior finalizarea clădirii și/sau folosirea acesteia, chiar dacă nu a fost întocmit procesul-verbal de recepție la terminarea lucrărilor;
+
+b) fără autorizație de construire, iar compartimentul de urbanism sau persoana desemnată prin dispoziție a primarului constată până la 31 decembrie, inclusiv, a anului anterior edificarea integrală sau parțială a clădirii și/sau folosirea acesteia.”
+
+## 3. La articolul 461 alineatul (3), litera c) se modifică și va avea următorul cuprins:
+
+„c) pentru clădirile edificate în baza unei autorizații de construire al cărei termen de valabilitate a expirat, fără ca proprietarul să fi solicitat prelungirea valabilității autorizației de construire, în condițiile legii, și fără a fi notificat autoritatea emitentă cu privire la imposibilitatea finalizării lucrărilor în termen, dacă termenul de valabilitate a autorizației a expirat până la data de 31 decembrie inclusiv a anului anterior, pentru clădirile ale căror lucrări de construcții nu au fost finalizate la termenul prevăzut în autorizația de construire, impozitul stabilindu-se numai pentru suprafața construită desfășurată care are elementele structurale de bază ale unei clădiri, respectiv pereți și acoperiș. Declararea clădirilor aflate în această situație se realizează în baza unui proces-verbal de recepție parțială, care să ateste stadiul fizic de execuție, întocmit între proprietar și executant, obligatoriu la data expirării termenului prevăzut în autorizația de construire, în care se consemnează stadiul lucrărilor și suprafața construită desfășurată în raport cu care se stabilește impozitul pe clădiri. În cazul lucrărilor executate în regie proprie, proprietarul are obligația de a notifica autoritatea executivă competentă în vederea participării la întocmirea procesului-verbal de recepție parțială.”
+
+## 4. La articolul 461, alineatul (4) se modifică și va avea următorul cuprins:
+
+„(4) Declararea clădirilor în vederea impunerii și înscrierea acestora în evidențele autorităților administrației publice locale reprezintă o obligație legală a contribuabililor care dețin în proprietate aceste imobile, chiar dacă ele au fost executate fără autorizație de construire sau cu nerespectarea acesteia. În situația nedeclarării clădirii, de către proprietar, valoarea impozitului stabilit de către organul fiscal local se majorează succesiv, cu 30% pentru fiecare interval de întârziere sau fracție de interval de 6 luni de întârziere, calculat după expirarea termenului prevăzut la alin. (2), aplicat la valoarea impozitului stabilit inițial. Majorarea se aplică pentru anul fiscal pentru care se stabilește impozitul."
+
+5\. La articolul 461, după alineatul (9), se introduc cinci noi alineate, alin. (9¹)-(9⁵) cu următorul cuprins:
+
+„(9¹) În vederea identificării clădirilor edificate cu sau fără autorizație de construire și neînscrise în evidențele fiscale, autoritățile administrației publice locale efectuează inspecții atât pe teren prin inspectori privind disciplina în construcții sau inspectori fiscali, cât și pe baza de imagini satelitare, fotogrametrie sau prin utilizarea aeronavelor fără pilot la bord (drone), putând solicita și date și informații de la Agenția Națională de Cadastru și Publicitate Imobiliară, prin Centrul Național de Cartografie. Folosirea dronelor se face cu avizul instituțiilor care asigură respectarea drepturilor garantate inclusiv la nivelul Uniunii Europene. Imaginile obținute pot fi utilizate ca probe pentru aplicarea sancțiunilor privind disciplina în construcții, în condițiile legislației privind autorizarea executării lucrărilor de construcții și pentru impunerea din oficiu a clădirilor în condițiile prevederilor art. 7, 106 și 107 din Legea nr. 207/2015 privind Codul de procedură fiscală, cu modificările și completările ulterioare.
+
+(9²) Agenția Națională de Cadastru și Publicitate Imobiliară și instituțiile subordonate asigură verificarea tehnică a calității lucrărilor de aerofotografiere și fotogrammetrie și recepționează, pentru conformitate tehnică, datele utilizate, înainte de transmiterea acestora, pentru verificare și integrare, potrivit dispozițiilor prevăzute la alin.(9³).
+
+(9³) Ortofotoplanurile realizate potrivit dispozițiilor prevăzute la alin. (9²) se transmit de către autoritățile administrației publice locale, Agenției Naționale de Cadastru și Publicitate Imobiliară, în scopul:
+
+a) emiterii procesului-verbal de recepție a ortofotoplanului;
+
+b) integrării informațiilor referitoare la imobile în sistemul integrat de cadastru și carte funciară, fără atribuire de număr cadastral.
+
+(9⁴) În cazul în care terenul aferent clădirilor identificate potrivit dispozitiilor prevăzute la alin. (9¹) și (9²) este înscris în cartea funciară, oficiul de cadastru și publicitate imobiliară notează, din oficiu existența construcțiilor fără autorizație de construire, în baza procesului-verbal de recepție.
+
+(9⁵) Pentru punerea în aplicare a dispozițiilor alin. (9¹)-(9³), se elaborază metodologia, prin ordin comun al ministrului dezvoltării, lucrărilor publice și administrației și al ministrului finanțelor, și cu avizul Agenției Naționale de Cadastru și Publicitate Imobiliară, care reglementează etapele procedurale, responsabilitățile instituționale, persoanele abilitate să efectueze zborurile, termenele de realizare a acțiunilor, modalitatea de finanțare și normele tehnice și administrative de aplicare a prevederilor legale.”
+
+## 6. La articolul 461, după alineatul (15) se introduce un nou alineat, alin. (16) cu următorul cuprins:
+
+„(16) În vederea stabilirii valorii de impunere, structura de specialitate din domeniul urbanismului sau persoana desemnată prin dispoziția a primarului transmite structurilor de specialitate din domeniul impozitelor și taxelor locale lista autorizațiilor de construire, termenele de valabilitate și datele tehnice necesare stabilirii impozitului (suprafață, materiale). Transmiterea informațiilor se poate realiza și automat prin interconectarea datelor din sistemele informatice ale autorităților administrației publice locale.”
+
+## 7. La articolul 471, după alineatul (1) se introduce un nou alineat, alin. (1¹), cu următorul cuprins:
+
+„(1¹) Prin excepție de la alin. (1), un mijloc de transport achiziționat, înmatriculat și vândut în același an calendaristic, generează stabilirea unui impozit pentru anul respectiv cu un singur termen de plată, respectiv data înstrăinării.”
+
+## 8. La articolul 471, alineatul (4) se modifică și va avea următorul cuprins:
+
+„(4) În cazul radierii din circulație a unui mijloc de transport, proprietarul are obligația de a depune declarația de radiere la organul fiscal competent în a cărui rază teritorială se află domiciliul, sediul sau punctul de lucru, după caz, în termen de 30 de zile de la data radierii. Începând cu data de 1 ianuarie a anului următor radierii, proprietarul încetează să datoreze impozitul aferent mijlocului de transport. De asemenea, este obligatorie achitarea tuturor obligațiilor de plată datorate bugetului local al unității administrativ-teritoriale în a cărei rază își au domiciliul, sediul sau punctul de lucru, după caz, până la data radierii din circulație, la cerere, potrivit art. 17 alin. (1), (2) și (5¹) din Ordonanța de urgență a Guvernului nr. 195/2002 privind circulația pe drumurile publice, republicată, cu modificările și completările ulterioare.”
+
+## 9. La articolul 471, după alineatul (4) se introduce un nou alineat, alin. (4¹), cu următorul cuprins:
+
+„(4¹) Prin excepție de la alin. (1), dacă un contribuabil solicită în cursul anului fiscal radierea la cerere a unui mijloc de transport, iar în anul următor solicită reînmatricularea milocului de transport, atunci acesta datorează impozitul pe mijlocul de transport pentru întregul an fiscal în care vehiculul se reînmatriculează.”
+
+Art. VI. - Legea nr. 207/2015 privind codul de procedură fiscală, publicată în Monitorul Oficial al României, Partea I, nr. 547 din 23 iulie 2015, cu modificările și completările ulterioare, se modifică și va avea următorul cuprins:
+
+## 1. La articolul 11, alineatul (2) se modifică și va avea următorul cuprins:
+
+„(2) În categoria informațiilor de natura celor considerate a fi secret fiscal intră datele referitoare la contribuabil/plătitor, cum ar fi: plăți, conturi, rulaje, transferuri de numerar, solduri, încasări, deduceri, credite, datorii, valoarea patrimoniului net sau orice fel de informații obținute din declarații ori documente prezentate de către contribuabil/plătitor sau terți.”
+
+## 2. La articolul 68, alineatul (3) se modifică și va avea următorul cuprins:
+
+„(3) Organul fiscal central este obligat să transmită organelor fiscale locale informații privind sursele de venit ale persoanelor fizice, precum și informațiile transmise de către Uniunea Națională a Notarilor Publici cu privire la actele translative ale dreptului de proprietate asupra bunurilor imobile și a mijloacelor de transport în vederea valorificării din punct de vedere fiscal. Organele fiscale locale și organul fiscal central încheie protocolul denumit «Protocol de aderare la serviciile sistemului informatic PatrimVen», care se transmite prin sistemul informatic propriu al Ministerului Finanțelor/ANAF în conformitate cu art. 70¹ alin. (1) lit. a) și (2).”
+
+## 3. La articolul 159, alineatul (5) se modifică și și va avea următorul cuprins:
+
+(5) Pentru înstrăinarea dreptului de proprietate asupra clădirilor, terenurilor și a mijloacelor de transport, proprietarii bunurilor ce se înstrăinează trebuie să prezinte certificate de atestare fiscală prin care să se ateste achitarea tuturor obligațiilor de plată datorate bugetului local al unității administrativ-teritoriale în a cărei raza se află înregistrat fiscal bunul ce se înstrăinează, potrivit dispozițiilor alin. (2). Pentru bunul ce se înstrăinează, proprietarul bunului trebuie să achite impozitul datorat pentru anul în care se înstrăinează bunul, cu excepția cazului în care pentru bunul ce se înstrăinează impozitul se datorează de altă persoana decât proprietarul. Prezentarea certificatelor de atestare fiscală poate fi înlocuită de verificarea, pe cale electronică, a situației obligațiilor fiscale datorate.
+
+## 4. La articolul 159, după alineatul (5¹), se introduce un nou alineat, alin. (5²), cu următorul cuprins:
+
+„(5²) Pentru dobândirea dreptului de proprietate asupra clădirilor, terenurilor și a mijloacelor de transport, cumpărătorii ce dobândesc bunurile trebuie să prezinte certificate de atestare fiscală prin care să se ateste achitarea tuturor obligațiilor de plată datorate bugetului local al unității administrativ-teritoriale în a cărei rază își au domiciliul, sediul sau punctul de lucru, după caz. Prezentarea certificatelor de atestare fiscală poate fi înlocuită de verificarea, pe cale electronică, a situației obligațiilor fiscale datorate.”
+
+## 5. La articolul 159, alineatul (6) se modifică și va avea următorul cuprins:
+
+„(6) Actele prin care se înstrăinează clădiri, terenuri, respectiv mijloace de transport, cu încălcarea prevederilor alin. (5) și (5²), sunt nule de drept.”
+
+## 6. La articolul 162, alineatul (1) se modifică și va avea următorul cuprins:
+
+„(1) Organele fiscale au obligația de a publica pe pagina de internet proprie lista debitorilor, persoane fizice și persoane juridice, care înregistrează obligații fiscale restante, precum și cuantumul acestor obligații. Valoarea minimă a obligațiilor fiscale restante, administrate de organele fiscale locale, ale contribuabililor care sunt incluși în listă se aprobă prin hotărâre a Guvernului.”
+
+7\. La articolul 162 alineatul (2), litera b) se modifică și va cuprins:
+
+„b) în cazul creanțelor fiscale administrate de organul fiscal local, prin dispoziție a autorității executive.”
+
+8\. La articolul 162, după alineatul (5) se introduce un nou alineat, alin. (6) cu următorul cuprins:
+
+„(6) Organele fiscale locale publică informațiile în Monitorul Oficial Local, la subeticheta „ALTE DOCUMENTE”, la subeticheta prevăzută la art. 1 alin. (3) lit. h) din anexa nr. 1 la Ordonanța de urgență nr. 57/2019 privind Codul administrativ, cu modificările și completările ulterioare. În cazul persoanelor fizice se menționează:
+
+a) numele și prenumele;
+
+b) denumirea unității administrativ-teritoriale unde își are domiciliul fiscal;
+
+c) numărul rolului nominal unic;
+
+d) domiciliul."
+
+Art. VII. - Legea nr. 50/1991 privind autorizarea executării lucrărilor de construcții, republicată în Monitorul Oficial al României, Partea I, nr. 933 din 13 octombrie 2004, cu modificările și completările ulterioare, se modifică și se completează, după cum urmează:
+
+1\. La articolul 26 alineatul (2), a șasea liniuță se modifică și va avea următorul cuprins:
+
+„ - de la 1.000 lei la 5.000 lei, cele prevăzute la lit. h²) și k);”
+
+2\. La articolul 26 alineatul (2), după a șasea liniuță se introduce o nouă liniuță cu următorul cuprins:
+
+„- de la 1.000 lei la 5.000 lei, cea prevăzută la lit. j);”
+
+3\. La articolul 27, după alineatul (4) se introduce un nou alineat, alin. (4¹) cu următorul cuprins:
+
+„(4¹) Sanctiunile pentru săvârșirea contravențiilor prevăzute la art. 26 alin. (1) lit. j) se aplică autorității sau instituției public în cauză. Autoritatea, respectiv instituția publică sanctionată are drept de regres împotriva persoanei fizice care a săvârsit faptă de obstrucționare a controlului, în condițiile legii.”
+
+4\. La articolul 37, după alineatul (2³) se introduc trei noi alineate, alin. (2⁴)-(2⁶), cu următorul cuprins:
+
+„(2⁴) În cazul nefinalizării lucrărilor în termenul de execuție stabilit în autorizația de construire, investorul are obligația efectuării recepției partiale la stadiul fizic al lucrărilor autorizate, în vederea stabilirii obligațiilor de impunere, potrivit legislației fiscale.
+
+(25) Structura de specialitate în domeniul urbanismului și executării lucrărilor de construcții sau persoana desemnată prin dispoziție a primarului comunică structurii responsabile cu stabilirea și colectarea impozitelor și taxelor locale, termenele de valabilitate ale autorizațiilor de construire și termenele de execuție, împreună cu suprafața construită desfășurată, în vederea impozitării clădirii /construcției, indiferent dacă a fost sau nu efectuată recepția la terminarea lucrărilor.
+
+(2⁶) Cu maxim 10 zile înainte de expirarea termenului de valabilitate a autorizației de construire, în situația neînceperii lucrărilor sau în situația imposibilității finalizării acestora, investitorul are obligația notificării autorității administrației publice, în vederea exonerării de la impunerea și înscrierea în evidențele fiscale a clădirii a cărei execuție a fost autorizată.”
+
+Art. VIII. - Ordonanța de urgență a Guvernului nr. 195/2002 privind circulația pe drumurile publice, republicată în Monitorul Oficial al României, Partea I, nr. 670 din 3 august 2006, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 11² alineatul (2), litera d) se modifică și va avea următorul cuprins:
+
+„d) verificarea respectării prevederilor art. 159 alin. (5) - (5²) din Legea nr. 207/2015 privind Codul de procedură fiscală, cu modificările și completările ulterioare, precum și ale art. 471 alin. (4) din Legea nr. 227/2015 privind Codul fiscal, cu modificările și completările ulterioare, după caz, în situațiile prevăzute la lit. a)-c);”
+
+2\. La articolul 104 alineatul (1), litera c) se modifică și va avea următorul cuprins:
+
+„c) prezintă dovada achitării tuturor obligațiilor de plată datorate bugetului local al unității administrativ-teritoriale în a cărei rază își are domiciliul provenite din amenzile contravenționale care le-au fost aplicate în calitate de conducători de autovehicule, tractoare agricole sau forestiere și tramvaie potrivit prezentului act normativ. În cazul în care nu are domiciliul în România, titularul permisului de conducere prezintă dovada achitării doar a amenzii aplicate pentru săvârșirea contravenției care a determinat suspendarea dreptului de a conduce.”
+
+## 3. La articolul 106², alineatul (1) se modifică și va avea următorul cuprins:
+
+„(1) Testul de verificare a cunoașterii regulilor de circulație, prevăzut la art. 104 alin. (1) lit. a) și art. 106¹, se susține la orice serviciu public comunitar regim permise de conducere și înmatriculare a vehiculelor.”
+
+4\. La articolul 106², după alineatul (1) se introduce un nou alineat, alin. (1¹) cu următorul cuprins:
+
+„(1¹) Procedura privind susținerea testului de verificare a cunoașterii regulilor de circulație se stabilește prin regulament.”
+
+5\. La articolul 113 alineatul (1), litera a) se modifică și va avea următorul cuprins:
+
+„a) la expirarea perioadei de suspendare, cu excepția situației în care dreptul de a conduce este afectat de o altă suspendare stabilită de o autoritate a administrației publice locale ca urmare a neîndeplinirii obligațiilor de plată a creanțelor provenite din amenzile contravenționale care le-au fost aplicate în calitate de conducători de autovehicule, tractoare agricole sau forestiere și tramvaie potrivit prezentului act normativ.”
+
+## 6. La articolul 113, alineatul (1¹) se modifică și va avea următorul cuprins:
+
+„(1¹) Titularul permisului de conducere eliberat de o autoritate străină, împotriva căruia s-a dispus suspendarea dreptului de a conduce, poate solicita șefului poliției rutiere pe raza căreia a fost constată fapta, restituirea documentului, înainte de expirarea perioadei de suspendare, cu cel mult o zi lucrătoare înainte de data parăsirii teritoriului României, dacă prezintă dovada achitării amenzii aplicate pentru săvărșirea contravenției care a determinat suspendarea dreptului de a conduce.”
+
+7\. La articolul 128, alineatul (1), după litera i) se introduce o nouă literă, lit. j), cu următorul cuprins:
+
+„j) stabilesc, în condițiile legii, perioadele în care titularii permiselor de conducere nu au dreptul de a conduce autovehicule, tractoare agricole sau forestiere și tramvaie pe drumurile publice ca urmare a neîndeplinirii obligațiilor de plată a creanțelor provenite din amenzile contravenționale prevăzute de prezenta ordonanță de urgență, aplicate acestora în calitate de conducători de autovehicule, tractoare agricole sau forestiere și tramvaie.”
+
+Art. IX. – Ordonanța Guvernului nr. 2/2001 privind regimul juridic al contravențiilor, publicată în Monitorul Oficial al României, Partea I, nr. 410 din 25 iulie 2001, abrobată cu modificări și completări prin Legea nr. 182/2002, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 8 alineatul (2), literele c) și d) se modifică și vor avea următorul cuprins:
+
+„c) 10.000 lei, în cazul contravențiilor stabilite prin hotărâri ale consiliilor județene ori ale Consiliului General al Municipiului București;
+
+d) 5.000 lei, în cazul contravențiilor stabilite prin hotărâri ale consiliilor locale ale comunelor, orașelor, municipiilor și ale sectoarelor municipiului București.”
+
+2\. La articolul 25, după alineatul (1¹) se introduce un nou alineat, alin. (1²) cu următorul cuprins:
+
+„(1²) În cazul în care contravenientul nu este prezent sau, deși prezent, refuză primirea procesului-verbal și aceste împrejurări nu sunt înregistrate cu mijloace audio-video ale organului din care face parte agentul constatator , comunicarea procesului-verbal se face de către agentul constatator, în termen de cel mult două luni de la data încheierii acestuia.”
+
+3\. La articolul 28, după alineatul (1) se introduce un nou alineat, alin (1¹) cu următorul cuprins:
+
+„(1¹) Pentru amenzile aplicate în domeniul autorizării executării lucrărilor de construcții și urbanismului, contravenientul poate achita jumătate din cuantumul amenzii aplicate de agentul constatator, în termen de cel mult 15 zile de la data înmânării sau comunicării procesului-verbal, agentul constatator făcând mențiune expresă despre această posibilitate în cuprinsul procesului-verbal, cu excepția situațiilor în care sunt executate lucrări fără autorizația de construire sau desființare cerută de lege sau cu nerespectarea prevederilor acestora.”
+
+Art. X. - Ordonanța de urgență a Guvernului nr. 63/2010 pentru modificarea și completarea Legii nr. 273/2006 privind finanțele publice locale, precum și pentru stabilirea unor măsuri financiare, publicată în Monitorul Oficial al României, Partea I, nr. 450 din 2 iulie 2010, aprobată cu modificări și completări prin Legea nr. 13/2011, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+## 1. La art. III, alineatul (2) se modifică și va avea următorul cuprins:
+
+„(2) Numărul maxim de posturi prevăzut la alin. (1) nu se aplică și capitolului bugetar „Învățământ” finanțat din bugetele locale, din capitolul „Cultură” pentru muzee și colecții publice, biblioteci, instituții și companii de spectacole sau concerte, așezăminte culturale, precum și alte instituții publice din domeniul culturii înființate prin hotărâri ale autorităților deliberative ale unităților administrativ-teritoriale, organizate în temeiul Ordonanței Guvernului nr. 21/2007 privind instituțiile și companiile de spectacole sau concerte, precum și desfășurarea activității de impresariat artistic, aprobată cu modificări și completări prin Legea nr. 353/2007, cu modificările și completările ulterioare, Legii muzeelor și colecțiilor publice nr. 311/2003, republicată, cu modificările și completările ulterioare, Legii bibliotecilor nr. 334/2002, republicată, cu modificările și completările ulterioare, Ordonanței de urgență a Guvernului nr. 118/2006 privind înființarea, organizarea și desfășurarea activității așezămintelor culturale, aprobată cu modificări și completări prin Legea nr. 143/2007, cu modificările și completările ulterioare, și care funcționează în subordinea consiliilor locale sau județene respective, și nici capitolelor bugetare „Sănătate”, „Asigurări și asistență socială” și „Servicii publice de interes local sau județean, specializate, cu personalitate juridică, înființate și organize în subordinea consiliilor locale sau consiliilor județene, după caz, prin hotărâri ale autorităților deliberative ale unităților administrativ-teritoriale respective”, așa cum sunt definite la art. 28 alin. (2) lit. a) din Legea serviciilor comunitare de utilități publice nr. 51/2006, republicată, cu modificările și completările ulterioare, indiferent de sursa de finanțare. De asemenea, numărul maxim de posturi prevăzut la alin. (1) nu se aplică și serviciilor publice Salvamont de la nivelul unităților administrativ-teritoriale”.
+
+## 2. La art. III alineatul (8¹) se abrogă.
+
+## 3. La anexă, titlul se modifică și va avea următorul cuprins:
+
+„Procedura de stabilire a numărului maxim de posturi ce pot fi încadrate la nivelul unităților/subdiviziunilor administrativ-teritoriale, cu excepția celor prevăzute la art. III alin (2)".
+
+4\. La anexă, tabelul 1.1. se modifică și va avea următorul cuprins:
+
+<table>
+<tbody>
+<tr><td colspan="2">Tabelul 1.1.</td><td colspan="4">Numărul posturilor din comune,corespunzător grupelor de populație</td></tr>
+<tr><td rowspan="2">Nr.crt.</td><td colspan="2" rowspan="2">Grupe în funcție denumărul de locuitori</td><td colspan="3">Numărul posturilor</td></tr>
+<tr><td>minim</td><td>mediu</td><td>maxim</td></tr>
+<tr><td>0</td><td colspan="2">1</td><td>2</td><td>3</td><td>4</td></tr>
+<tr><td>1</td><td colspan="2">cel mult 1.500</td><td>10</td><td>14</td><td>16</td></tr>
+<tr><td>2</td><td colspan="2">1.501 – 3.000</td><td>17</td><td>19</td><td>22</td></tr>
+<tr><td>3</td><td colspan="2">3.001 – 5.000</td><td>22</td><td>25</td><td>30</td></tr>
+<tr><td>4</td><td colspan="2">5.001 – 10.000</td><td>30</td><td>35</td><td>43</td></tr>
+<tr><td>5</td><td colspan="2">10.001 – 20.000</td><td>44</td><td>52</td><td>60</td></tr>
+<tr><td>6</td><td colspan="2">20.001 – 50.000</td><td>65</td><td>75</td><td>110</td></tr>
+<tr><td>7</td><td colspan="2">peste 50.000</td><td colspan="3">110 + câte 10 posturi pentru fiecare fracție de10.000 de locuitori peste cei 50.000 de locuitori</td></tr>
+</tbody>
+</table>
+
+5\. La anexă, punctul 3 se modifică și se completează, după cum urmează.
+
+a) un post pentru fiecare 1.200 de locuitori pentru comune, orase, sectoare ale municipiului București;
+
+b) un post pentru fiecare 6.500 de locuitori pentru județe, respectiv municipiul București;
+
+c) unitățile administrativ-teritoriale cu numărul locuitorilor mai mic de 4.500 nu pot înființa poliție locală decât dacă cheltuielile secțiunii de funcționare sunt asigurate integral din venituri proprii, așa cum sunt definite la art. 5 alin. (1) lit. a) din Legea nr. 273/2006 privind finanțele publice locale, cu modificările și completările ulterioare. În acest caz numărul este de maxim 3 polițiști locali. Numărul posturilor astfel determinat poate fi prevăzut și utilizat numai pentru serviciul public de poliție locală, respectiv serviciul de pază a obiectivelor de interes județean;
+
+d) numărul maxim de posturi rezultat la poliția locală cuprinde funcționari publici care ocupă funcții publice specifice de polițist local, funcționari publici care ocupă funcții publice generale și personal contractual.
+
+Nota: În situația în care numărul rezultat nu este un număr întreg se aplică următoarele reguli de rotunjire:
+
+Regula 1: reducere la numărul întreg, când fracțiunile sunt mai mici de 50.
+
+Regula 2: majorare la numărul întreg, când fracțiunile sunt de 50 sau mai mari."
+
+6\. La Anexă, după punctul 6 se introduce un nou punct, pct. 7, cu următorul cuprins:
+
+„7. Prin excepție de la prevederile pct. 2 și 3, unitatea/subdiviziunea administrativ-teritorială care are organizat serviciul public comunitar local de evidență a persoanelor, cu sau fără personalitate juridică, respectiv serviciul public de poliție locală poate aproba prin hotărâre majorarea sau reducerea numărului maxim de posturi stabilit pentru acestea sau pentru celelalte puncte, cu încadrarea în numărul maxim de posturi stabilit potrivit pct. 1- 6, după caz.”
+
+Art. XI. – Articolul 36 din Legea nr. 273/2006 privind finanțele publice locale, publicată în Monitorul Oficial al României, Partea I, nr. 618 din 18 iulie 2006, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. Denumirea marginală se modifică și va avea următorul/
+
+„Fondul de rezervă bugetară și Fondul de regenerare locală”.
+
+2\. După alineatul (3) se introduc două noi alineate, alin. (4) și (5), cu următorul cuprins:
+
+„(4) În bugetele locale se poate înscrie Fondul de regenerare locală la dispoziția consiliului local, județean și a Consiliului General al Municipiului București, precum și a sectoarelor municipiului București, după caz, în cotă de până la 5% din totalul veniturilor proprii încasate anul anterior. Acesta se utilizează la propunerea ordonatorilor principali de credite, pe bază de hotărâri ale consiliilor respective, în scopul prezervării fondului imobiliar valoros din punct de vedere cultural, istoric și arhitectural.
+
+(5) Fondul de regenerare locală poate fi majorat în cursul anului, peste cota prevăzută la alin. (1), cu aprobarea consiliului local, județean și a Consiliului General al Municipiului București, precum și a consiliilor sectoarelor municipiului București, după caz, din disponibilitățile de credite bugetare care nu mai sunt necesare până la sfârșitul anului.”
+
+Art. XII. – După articolul 43 din Legea nr. 448/2006 privind protecția și promovarea drepturilor persoanelor cu handicap, republicată în Monitorul Oficial al României, Partea I, nr. 1 din 3 ianuarie 2008, cu modificările și completările ulterioare, se introduce un nou articol, art. 43¹, cu următorul cuprins:
+
+„Art. 43¹. – (1) Începând cu drepturile aferente lunii calendaristice următoare datei de intrare în vigoare a prezentei legi, prin derogare de la prevederile art. 729 alin. (7) din Legea nr. 134/2010 privind Codul de procedură civilă, republicată, cu modificările și completările ulterioare, indemnizația prevăzută la art. 42 alin.(2) și (4) poate fi executată silit în vederea plății impozitelor și taxelor locale neachitate în termenul legal.
+
+(2) Reținerea din indemnizația prevăzută la art. 42 alin. (2) și (4) datorate cu titlu de impozite și taxe locale se realizează de către primării, organelor fiscale locale.
+
+(3) Organele fiscale locale emit până la datele de 10 ianuarie, 10 aprilie și 10 octombrie ale fiecărui an, titlurile executorii privind impozitele și taxele locale restante, precum și accesoriiile aferente acestora.
+
+(4) Pe baza titlurilor executorii prevăzute la alin.(3), primăriile rețin din drepturile acordate persoanei cu handicap grav, sumele cuvenite bugetelor locale, succesiv, lunar, până la stingerea sumelor cuprinse în titlurile executorii și le virează în termen de 10 zile lucrătoare de la data reținerii, în conturile de venituri ale unităților/subdiviziunilor administrativ-teritoriale, deschise la Trezoreria Statului. Reținerile se fac în limita prevederilor art. 729 alin. (1)-(6) din Legea nr. 134/2010 privind Codul de procedură civilă, republicată, cu modificările și completările ulterioare.
+
+(5) În cazul în care titularii indemnizației prevăzută la art. 42 alin.(2) și (4) obțin certificate de atestare fiscală locală în care se specifică faptul că și-au stins obligațiile fiscale cuprinse în titlurile executorii, organele fiscale locale au obligația încetării executării silite, în condițiile prevăzute la art. 69 alin.(5) din Legea nr. 207/2015 privind Codul de procedură fiscală, cu modificările și completările ulterioare. Drepturile de indemnizație se plătesc integral începând cu luna următoare celei în care se constată că obligațiile fiscale ale titularului indemnizației au fost stinse.
+
+(6) Reținerea sumelor potrivit prevederilor prezentului articol încetează în luna următoare decesului titularului dreptului sau în cazurile prevăzute la art. 43 alin.(3) și (4).”
+
+Art. XIII. - După articolul 80 din Legea nr. 196/2016 privind venitul minim de incluziune, publicată în Monitorul Oficial al României, Partea I, nr. 882 din 3 noiembrie 2016, cu modificările și completările ulterioare, se introduce un nou articol, art. 80¹, cu următorul cuprins:
+
+„Art. 80¹. – (1) Începând cu data de 1 a lunii următoare datei de intrare în vigoare a prezentei legi, sumele acordate cu titlu de venit minim de incluziune pot fi executate silit în vederea plății impozitelor și taxelor locale.
+
+(2) Reținerea din sumele acordate cu titlu de venit minim de incluziune a sumelor datorate cu titlu de impozite și taxe locale se realizează de către agențiile territoriale, la solicitarea organelor fiscale locale.
+
+(3) Organele fiscale locale transmit agentiilor territoriale până la 10 ianuarie, 10 aprilie și 10 octombrie ale fiecărui an, titlurile executorii privind impozitele și taxele locale restante, precum și accesoriiile aferente acestora.
+
+(4) Pe baza titlurilor executorii prevăzute la alin. (3), agentiile territoriale rețin din drepturile de venit minim de incluziune, sumele cuvenite bugetelor locale, succesiv, lunar, până la stingerea sumelor cuprinse în titlurile executorii și le virează în termen de 10 zile lucrătoare de la data reținerii, în conturile de venituri ale unităților/subdiviziunilor administrativ-teritoriale, deschise la Trezoreria Statului.
+
+(5) Reținerile prevăzute la alin. (4), precum și cele prevăzute la art. 78 alin. (4) se aplică asupra sumei rezultată după oprirea contribuției de asigurări sociale de sănătate în cota prevăzută la art. 156 din Legea nr. 227/2015, cu modificările și completările ulterioare și, după caz, a diminuărilor de drepturi prevăzute la art. 19 alin.(2) și (3), în limita prevederilor art. 729 alin. (1)-(6) din Legea nr. 134/2010 privind Codul de procedură civilă, republicată, cu modificările și completările ulterioare.
+
+(6) În cazul în care titularii drepturilor de venit minim de incluziune obțin certificate de atestare fiscală locală în care se specifică faptul că și-au stins obligațiile fiscale cuprinse în titlurile executorii, organele fiscale locale au obligația de a comunica agențiilor territoriale încetarea executării silite, în condițiile prevăzute la art. 69 alin. (5) din Legea nr. 207/2015, cu modificările și completările ulterioare.”
+
+Art. XIV. - Articolul 58 din Legea bibliotecilor nr. 334/2002, republicată, în Monitorul Oficial al României, Partea I, nr. 132 din 11 februarie 2005, cu modificările și completările ulterioare, se modifică și va avea următorul cuprins:
+
+„Art. 58. - Directorul general sau directorul, respectiv bibliotecarul responsabil, răspunde de organizarea și funcționarea bibliotecii sau filialei pe baza organigramei, statului de funcții și regulamentului de organizare și funcționare a instituției, elaborate în condițiile legii și avizate de către autoritățile tutelare.”
+
+Art. XV. - Începând cu data intrării în vigoare a prezentei ordonanțe de urgență este interzisă stabilirea de către autoritățile administrației publice locale a oricărei taxe locale sau taxe speciale pentru eliberarea certificatului de atestare fiscală, precum și a adeverințelor necesare eliberării cărții de identitate.
+
+Art. XVI. - Până la data de 01.01.2027, Guvernul, la propunerea Ministerului Finanțelor și a Ministerului Dezvoltării, Lucrărilor Publice și Administrației, adoptă un proiect de act normativ cu putere de lege, având ca obiect reglementarea posibilității de externalizare a serviciilor de colectare a creanțelor bugetare și fiscale locale, stabilind, în acest scop, condițiile pentru a recurge la externalizare, condițiile atribuirii serviciilor, inclusiv competența și procedura de colectare.
+
+Art. XVII. – (1) Titularii permiselor de conducere eliberate de autoritatea română nu au dreptul de a conduce autovehicule, tractoare agricole sau forestiere și tramvaie pe drumurile publice, în cazul în care nu își îndeplinesc, în termen de 90 de zile de la data înmânării sau comunicării procesului-verbal, obligațiile de plată a creanțelor provenite din amenzile contravenționale care le-au fost aplicate în calitate de conducători de autovehicule, tractoare agricole sau forestiere și tramvaie potrivit dispozițiilor Ordonanței de urgență a Guvernului nr. 195/2002 privind circulația pe drumurile publice, republicată, cu modificările și completările ulterioare.
+
+(2) Perioada în care titularii permiselor de conducere nu au dreptul de a conduce potrivit dispozițiilor prevăzute la alin. (1) se constată de către organul fiscal local competent și se stabilește de către acesta proporțional cu suma datorată, respectiv 1 zi de suspendare pentru fiecare 50 de lei datorați. Fracțiile de zile de suspendare nu se iau în calcul.
+
+(3) Perioada în care titularii permiselor de conducere nu au dreptul de a conduce potrivit dispozițiilor alin. (1) începe la ora 0⁰⁰ a celei de a treia zi lucrătoare următoare împlinirii termenului de 90 de zile prevăzut la alin. (1) și încetează la ora 24⁰⁰ a ultimei
+
+(4) În termen de 30 de zile de la luarea în evidență a obligațiilor de plată a creanțelor prevăzute la alin. (1), organul fiscal local este obligat să comunice debitorului o somație privind obligația de plată, în cuprinsul căreia se menționează și:
+
+a) data la care se împlinește termenul de 90 de zile prevăzut la alin.(1), precum și faptul că ulterior împlinirii acestui termen se execută o perioadă de suspendare a dreptului de a conduce;
+
+b) perioada de suspendare a dreptului de a conduce autovehicule, tractoare agricole sau forestiere și tramvaie pe drumurile publice stabilită potrivit dispozițiilor alin. (2), cu indicarea datelor și orelor de început și de final ale acesteia.
+
+(5) Perioadele în care titularii permiselor de conducere nu au dreptul de a conduce, stabilite potrivit prezentului articol, curg independent de perioadele în care aceștia nu au dreptul de a conduce potrivit Ordonanței de urgență a Guvernului nr. 195/2002 republicată, cu modificările și completările ulterioare și nu se cumulează cu acestea.
+
+(6) În termen de 2 zile lucrătoare de la împlinirea termenului de 90 de zile prevăzut la alin. (1), organul fiscal local constată această împrejurare și operează mențiuni privind pierderea dreptului de a conduce în sistemul informatic PatrimVen al Ministerului Finanțelor/Agenției Naționale de Administrare Fiscală, care se transmit prin mijloace electronice automatizate în Sistemul informatic național de evidență a permiselor de conducere și a vehiculelor înmatriculate al Ministerului Afacerilor Interne/ Direcției Generale Permise de Conducere și Înmatriculări.
+
+(7) În termen de 2 zile lucrătoare de la constatarea stingerii integrale a obligației de plată a creanței ce a determinat suspendarea dreptului de a conduce, organul fiscal local implementează mențiuni privind redobândirea dreptului de a conduce. Prevederile alin. (6) se aplică în mod corespunzător.
+
+(8) Termenele prevăzute de prezentul articol se calculează potrivit art. 2.552-2.555 din Legea nr. 287/2009 privind Codul civil, republicată, cu modificările și completările ulterioare.
+
+(9) Ministerul Finanțelor și Ministerul Afacerilor Interne interconectează sistemele informatice proprii în scopul aplicării prezentului articol.
+
+(10) În termen de 60 de zile de la intrarea în vigoare a prezentei ordonanțe de urgență, la propunerea Ministerului Afacerilor Interne, Ministerului Dezvoltării, Lucrărilor Publice și Administrației și a Ministerului Finanțelor, Guvernul aprobă, prin hotărâre, Normele de aplicare a prezentului articol.
+
+Art. XVIII. - (1) Prin derogare de la prevederile Ordonanței de urgență a Guvernului nr. 57/2019 privind Codul administrativ, cu modificările și completările ulterioare, ale Legii nr. 53/2003 – Codul muncii, republicată, cu modificările și completările ulterioare, ale Legii contabilității nr. 82/1991, republicată, cu modificările și completările ulterioare, ale Legii nr. 500/2002 privind finanțele publice, cu modificările și completările ulterioare, ale Legii nr. 98/2016 privind achizițiile publice, cu modificările și completările ulterioare, ale Legii nr. 99/2016 privind achizițiile publice, cu modificările și completările ulterioare, ale Legii nr. 100/2016 privind concesiunile de lucrări și concesiunile de servicii, cu modificările și completările ulterioare, ale Legii nr. 672/2002 privind auditul public intern, republicată, ale Legii nr. 162/2017 privind auditul statutar al situațiilor financiare anuale și consolidate și de modificarea unor acte normative, cu modificările și completările ulterioare și ale Legii nr. 514/2003 privind organizarea și exercitarea profesiei de consilier juridic, cu modificările și completările ulterioare, începând cu data de 1 a lunii calendaristice următoare datei de intrare în vigoare a prezentei ordonanțe de urgență ordonatorii principali de credite ai autorităților și instituțiilor publice de la nivelul administrației publice centrale pot prelua integral sau parțial exercitarea atribuțiilor compartimentelor suport de la ordonatorii secundari de credite și de la ordonatorii terțiari de credite, după caz, aflați în subordinea sau coordonarea acestora.
+
+(2) Compartimentul suport reprezintă cumulul funcțiilor care oferă suport administrativ, logistic și operational pentru desfășurarea activităților de specialitate ale instituției. Compartimentele suport nu sunt direct implicate în activitatea de specialitate, ci asigură infrastructura necesară pentru buna funcționare a întregii organizații. Rolul acestui tip de structuri este acela de a crea condiții optime pentru ca structurile de specialitate să-și îndeplinească sarcinile în mod eficient pentru realizarea misiunii organizației.
+
+(3) Compartimentele suport ale autorităților și instituțiilor publice sunt următoarele:
+
+a) financiar-contabilitate;
+
+b) achiziții publice;
+
+c) resurse umane;
+
+d) juridic;
+
+e) auditul public;
+
+f) comunicarea;
+
+g) tehnologia informației;
+
+h) suport logistic
+
+(4) În termen de 45 de zile de la intrarea în vigoare a prezentei ordonanțe de urgență, Ministerul Finanțelor, Secretariatul General al Guvernului, Ministerul Dezvoltării, Lucrărilor Publice și Administrației și Agenția Națională pentru Achizițiile Publice vor aproba prin ordin comun Norme Metodologice de aplicare a prevederilor alin. (1) – (3), care se va publica în Monitorul Oficial al României, Partea I.
+
+(5) După aprobarea ordinului prevăzut la alin. (4) autoritățile și instituțiile publice de la nivelul administrației publice centrale care decid preluarea integrală sau parțială a atribuțiilor compartimentelor suport de la ordonatorii secundari de credite și de la ordonatorii terțiari de credite, după caz, aflați în subordinea lor, se pot reorganiza astfel încât să exercite atribuțiile potrivit prevederilor alin. (1) – (3).
+
+„(6) Prevederile alin. (1) – (5) nu se aplică instituțiilor publice din domeniul culturii.”
+
+Art. XIX. - (1) Personalul din instituția prefectului responsabil cu aplicarea prevederilor art. 289 din Ordonanța de urgență a Guvernului nr. 57/2019 privind Codul administrativ, cu modificările și completările ulterioare își desfășoară activitatea în subordinea secretarului general al instituției prefectului.
+
+(2) Ministerul Dezvoltării, Lucrărilor Publice și Administrației sprijină și coordonează pregătirea personalului prevăzut la alin.(1).
+
+(3) Ministerul Dezvoltării, Lucrărilor Publice și Administrației emite, prin ordin, norme și instrucțiuni pentru asigurarea aplicării unitare a prevederilor art. 289 din Ordonanța de urgență a Guvernului nr.57/2019 privind Codul administrativ, cu modificările și completările ulterioare.
+
+Art. XX. - (1) În termen de 6 luni de la data intrării în vigoare a prezentei ordonanțe de urgență, toate unitățile/subdiviziunile administrativ-teritoriale sunt obligate să se înregistreze în Sistemul National Electronic de Plată Online (SNEP).
+
+(2) Autoritatea pentru Digitalizarea României verifică respectarea prevederilor alin. (1) și sesizează Direcțiile generale regionale ale finanțelor publice/Administrațiile județene ale finanțelor publice în cazul nerespectării acestora.
+
+(3) În cazul nerespectării prevederilor alin. (1) directorii direcțiilor generale regionale ale finanțelor publice/șefii administrațiilor județene ale finanțelor publice sistează alimentarea atât cu cote defalcate din impozitul pe venit, cât și cu sume defalcate din unele venituri ale bugetului de stat pentru echilibrarea bugetelor locale, cu excepția plăților pentru achitarea drepturilor salariale și a contribuțiilor aferente, inclusiv a drepturilor cuvenite asistenților personali ai persoanelor cu handicap grav, precum și a indemnizațiilor lunare ale persoanelor cu handicap grav și a plăților privind finanțarea sistemului de protectie socială, după caz, atunci când nu pot fi asigurate din venituri proprii. Alocarea și utilizarea cotelor defalcate din impozitul pe venit și a sumelor defalcate din unele venituri ale bugetului de stat pentru echilibrarea bugetelor locale, care au fost sistate în condițiile altor acte normative, se mențin.
+
+(4) Alimentarea cu cote defalcate din impozitul pe venit și sume defalcate din unele venituri ale bugetului de stat pentru echilibrarea bugetelor locale, se reia la data respectării prevederilor alin. (1), în baza comunicării Autorității pentru Digitalizarea României.
+
+Art. XXI. – În termen de 60 de zile de data intrării în vigoare a prezentei ordonanțe de urgență, Guvernul României aprobă, prin act normativ cu putere de lege, grilele de salarizare pentru comune, orașe și municipii, cu excepția municipiului București care nu își pot acoperi cheltuielile cu salariile din venituri proprii, atât pentru aparatul propriu cât și pentru instituțiile din subordinea autorităților administrației publice locale. Grilele de salarizare se aplică până la intrarea în vigoare a noii legi privind salarizarea unitară.
+
+Art. XXII. - Legea serviciilor comunitare de utilități publice nr. 51/2006, republicată în Monitorul Oficial al României, Partea I, nr. 121 din 5 martie 2013, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 19, după alineatul (3) se introduce un nou alineat, alin. (3¹), cu următorul cuprins:
+
+„(3¹) Prin excepție de la prevederile alin. (3), salariul președintelui A.N.R.S.C. nu poate depăși coeficientul de 0,9 din indemnizația ministrului dezvoltării, lucrărilor publice și administrației.”
+
+2\. La articolul 28, alineatul (2¹), litera b) se modifică și va avea următorul cuprins:
+
+„b) operatorul regional, respectiv operatorul, după caz, desfășoară mai mult de 80% din activitățile efectuate în vederea îndeplinirii sarcinilor care îi sunt încredințate de către autoritatea/entitatea contractantă care îl controlează, destinate satisfacerii nevoilor de interes public general ale utilizatorilor de pe raza de competență a unităților administrativ-teritoriale membre ale asociației, respectiv a unității administrativ-teritoriale care i-a încredințat gestiunea serviciului;”
+
+3\. La articolul 28, după alineatul (2²), se introduce un nou alineat, alin. (2³), cu următorul cuprins:
+
+„(2³) Prevederile alin. (2¹), lit. b) nu se aplică serviciilor comunitare de utilității publice prevăzute la art. 1, alin. (2), lit. a), b), b¹) și c) la nivelul cărora operatorul regional, respectiv, operatorul, desfășoară exclusiv activități din sfera furnizării/prestării serviciilor de utilități publice;”
+
+4\. La articolul 29, alineatul (4) se modifică și va avea următorul cuprins:
+
+„(4) Gestiunea delegată se realizează prin intermediul unor operatori de servicii de utilități publice, astfel cum sunt definiți la art. 2 lit. g).”
+
+5\. La articolul 29, alineatul (5) se abrogă.
+
+6\. După articolul 34, se introduce un nou articol, art. 34¹, cu următorul cuprins:
+
+„Art. 34¹. – Operatorul/operatorul regional poate să furnizeze sau să presteze mai multe tipuri de servicii în aceeași localitate sau, după caz, același serviciu în mai multe localități.”
+
+Art. XXIII. - La articolul 3 din Legea cadastrului și a publicității imobiliare nr. 7/1996, republicată în Monitorul Oficial al României, Partea I, nr. 720 din 24 septembrie 2015, cu modificările și completările ulterioare, alineatul (9) se modifică și va avea următorul cuprins:
+
+„(9) Agenția Națională este condusă de un consiliu de administrație format din 5 membri, dintre care unul este directorul general al Agenției Naționale și președinte al consiliului de administrație.”
+
+Art. XXIV. - La articolul 13 din Legea nr. 152/1998 privind înființarea Agenției Naționale pentru Locuințe, republicată în Monitorul Oficial al României, Partea I, nr. 740 din 21 octombrie 2011, cu modificările și completările ulterioare, alineatul (3) se modifică și va avea următorul cuprins:
+
+„(3) Consiliul de administrație este compus din 5 membri desemnați și numiți prin ordin al ministrului dezvoltării, lucrărilor publice și administrației.”
+
+Art. XXV. – La articolul 36 din Legea nr. 350/2001 privind amenajarea teritoriului și urbanismul, publicată în Monitorul Oficial al României, Partea I, nr. 373 din 10 iulie 2001 cu modificările și completările ulterioare, alineatul (1) se modifică și va avea următorul cuprins:
+
+„(1) În cadrul aparatului de specialitate al consiliului județean, respectiv în cadrul aparatului de specialitate al primarului/Primarului general al municipiului București se organizează și funcționează, potrivit legii, structuri de specialitate în domeniul amenajării teritoriului și urbanismului.”
+
+Art. XXVI. – La articolul 20 din Legea nr. 672/2002 privind auditul public intern, republicată în Monitorul Oficial al României, Partea I, nr. 142 din 20 februarie 2024, alineatul (8) se modifică și va avea următorul cuprins:
+
+„(8) În cazul în care structura asociativă are mai mult de 10 unități administrativ-teritoriale care au aderat la sistemul de cooperare, numărul minim al auditorilor interni de execuție, ca normare de personal cu normă întreagă, este primul număr natural mai mare decât valoarea numerică rezultată în urma împărțirii la 10 a numărului unităților administrativ-teritoriale care au aderat la acest sistem. Prin excepție de la prevederile art. 13 lit. b), în sistemul de audit în cooperare Planul multianual se elaborază pentru o perioadă de 5 ani.”
+
+Art. XXVII. - (1) În organizarea activității achizițiilor publice, potrivit Legii nr. 98/2016 privind achizițiile publice, cu modificările și completările ulterioare, instituțiile publice înființează, în condițiile legii, un compartiment intern specializat, în care cel puțin o persoană să aibă studii superioare, precum și specializări în domeniul achizițiilor.
+
+(2) La data intrării în vigoare a prezentei ordonanțe de urgență, se abrogă art. 2 alin. (1) din Normele metodologice de aplicare a prevederilor referitoare la atribuirea contractului de achiziție publică/acordului-cadru din Legea nr. 98/2016 privind achizițiile publice, cu modificările și completările ulterioare, aprobate prin Hotărârea
+
+Guvernului nr. 395/2016, cu modificările și completările ulterioare.
+
+Art. XXVIII. - Ordonanța de urgență a Guvernului nr. 92/2008 privind statutul funcționarului public denumit manager public, publicată în Monitorul Oficial al României, Partea I, nr. 484 din 30 iunie 2008, aprobată cu modificări și completări prin Legea nr. 135/2009, cu modificările ulterioare, se modifică după cum urmează:
+
+## 1. La articolul 3, alineatul (2) va avea următorul cuprins:
+
+„(2) Prin programele de formare prevăzute la alin. (1) lit. a), b) și, respectiv, prin programul intensiv prevăzut la alin. (1) lit. c), organizate de către Institutul Național de Administrație, denumite în continuare programe de formare, se înțelege: activități de formare în țară și, după caz, în străinătate, stagii practice în țară și, după caz, în străinătate, inclusiv perioada vacanțelor, până la absolvirea programelor respective, în condițiile prezentei ordonanțe de urgență.”
+
+## 2. La articolul 9, alineatul (2) va avea următorul cuprins:
+
+„(2) Perioada de formare până la numirea în funcția publică specifică de manager public constituie vechime în muncă, în funcția publică și în specialitatea studiilor absolvite.”
+
+Art. XXIX. – După articolul 27 din Legea nr. 60/1991 privind organizarea și desfășurarea adunărilor publice, republicată în Monitorul Oficial al României, Partea I, nr. 186 din 14 martie 2014, cu modificările ulterioare, se introduce un nou articol, art. 27¹, cu următorul cuprins:
+
+„Art. 27¹. – Prin derogare de la dispozițiile art. 28 alin. (1) din Ordonanța Guvernului nr. 2/2001 privind regimul juridic al contravențiilor, aprobată cu modificări și completări prin Legea nr. 180/2002, cu modificările și completările ulterioare, contravenientul poate achita, în termen de cel mult 15 zile de la data înmânării sau comunicării procesului-verbal, jumătate din cuantumul amenzii aplicate de agentul constatator pentru contravențiile prevăzute la art. 26.”
+
+Art. XXX. – După articolul 6 din Legea nr. 61/1991 pentru sanctionarea faptelor de încălcare a unor norme de conviețuire socială, a ordinii și liniștii publice, republicată în Monitorul Oficial al României, Partea I, nr. 125 din 18 februarie 2020, cu modificările și completările ulterioare, se introduce un nou articol, art. 6¹, cu următorul cuprins:
+
+„Art. 6¹. - Prin derogare de la dispozițiile art. 28 alin. (1) din Ordonanța Guvernului nr. 2/2001 privind regimul juridic al contravențiilor, aprobată cu modificări și completări prin Legea nr. 180/2002, cu modificările și completările ulterioare, contravenientul poate achita, în termen de cel mult 15 zile de la data înmânării sau comunicării procesului-verbal, jumătate din cuantumul amenzii aplicate de agentul constatator pentru contravențiile prevăzute la art. 2, cu excepția celei prevăzute la pct. 6).”
+
+Art. XXXI. – Legea nr. 333/2003 privind paza obiectivelor, bunurilor, valorilor și protecția persoanelor, republicată în Monitorul Oficial al României, Partea I, nr. 189 din 18 martie 2014, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 18, după alineatul (5) se introduce un nou alineat, alin. (6) cu următorul cuprins:
+
+„(6) În localitățile rurale care au instalate și utilizează sisteme tehnice de supraveghere video, autoritățile administrației publice locale nu mai au obligația de a asigura personal de pază.”
+
+2\. După articolul 63 se introduce un nou articol, art. 63¹, cu următorul cuprins:
+
+„Art. 63¹. - Prin derogare de la dispozițiile art. 28 alin. (1) din Ordonanța Guvernului nr. 2/2001 privind regimul juridic al contravențiilor, aprobată cu modificări și completări prin Legea nr. 180/2002, cu modificările și completările ulterioare, contravenientul poate achita, în termen de cel mult 15 zile de la data înmânării sau comunicării procesului-verbal, jumătate din cuantumul amenzii aplicate de agentul constatator pentru contravențiile prevăzute la art. 58.”
+
+Art. XXXII. - Articolul 132 din Legea nr. 295/2004 privind regimul armelor și al munițiilor, republicată în Monitorul Oficial al României, Partea I, nr. 425 din 10 iunie 2014, cu modificările și completările ulterioare, se modifică și va avea următorul cuprins:
+
+„Art. 132 – Regimul contraventilor
+
+Contravențiilor prevăzute la art. 129 le sunt aplicabile dispozițiile Ordonanței Guvernului nr. 2/2001 privind regimul juridic al contravențiilor, aprobată cu modificări și completări prin Legea nr. 180/2002, cu modificările și completările ulterioare, cu posibilitatea de a achita în termen de cel mult 15 zile de la data înmânării sau comunicării procesului-verbal, jumătate din cuantumul amenzii aplicate de agentul constatator.”
+
+Art. XXXIII. - La articolul 39 din Legea nr. 126/1995 privind regimul materiilor explozive, republicată în Monitorul Oficial al României, Partea I, nr. 177 din 12 martie 2014, cu modificările și completările ulterioare, după alineatul (1) se introduce un nou alineat, alin. (1¹), cu următorul cuprins:
+
+„(1¹) Prin derogare de la dispozițiile art. 28 alin. (1) din Ordonanța Guvernului nr. 2/2001 privind regimul juridic al contravențiilor, aprobată cu modificări și completări prin Legea nr. 180/2002, cu modificările și completările ulterioare, contravenientul poate achita, în termen de cel mult 15 zile de la data înmânării sau comunicării procesului-verbal, jumătate din cuantumul amenzii aplicate de agentul constatator pentru contravențiile prevăzute la art. 38 alin. (1).”
+
+Art. XXXIV. – Legea nr. 268/2001 privind privatizarea societăților care dețin în administrare terenuri proprietate publică și privată a statului cu destinație agricolă și înființarea Autorității Naționale pentru Administrarea Domeniilor Statului, Pescuit și Acvacultură, publicată în Monitorul Oficial al României, Partea I, nr. 299 din 7 iunie 2001, cu modificările și completările ulterioare, se modifică după cum urmează:
+
+1\. La articolul 6, alineatul (3) va avea următorul cuprins:
+
+„(3) Sumele prevăzute la alin. (1) se declară și se plătesc trimestrial, până la data de 25 a lunii următoare încheierii trimestrului pentru care se datorează cu aplicarea prevederilor art. 307 alin. (2) din Ordonanța de urgență a Guvernului nr. 57/2019 privind Codul administrativ, cu modificările și completările ulterioare.”
+
+2\. La articolul 6, alineatele (4)-(6) se abrogă.
+
+Art. XXXV. – La articolul 20 din Ordonanța Guvernului nr. 84/2001 privind înființarea, organizarea și funcționarea serviciilor publice comunitare de evidență a persoanelor, publicată în Monitorul Oficial al României, Partea I, nr. 544 din 1 septembrie 2001, aprobată cu modificări și completări prin Legea nr. 372/2002, cu modificările și completările ulterioare, după alineatul (2) se introduce un nou alineat, alin. (3), cu următorul cuprins:
+
+„(3) Pentru finanțarea cheltuielilor curente și de capital ale serviciilor publice comunitare de evidență a persoanelor organizate la nivelul consiliilor locale ale comunelor, orașelor și municipiilor, consiliile județene pot aloca sume din veniturile proprii ale acestora, în completarea sumelor alocate potrivit prevederilor alin. (1) și (2).”
+
+Art. XXXVI. - Legea nr. 188/1999 privind Statutul functionarilor publici, republicată în Monitorul Oficial al României, Partea I, nr. 365 din 29 mai 2007, cu modificările și completările ulterioare, se modifică după cum urmează:
+
+1\. La articolul 20² alineatul (1), litera b) va avea următorul cuprins:
+
+„b) referatul de evaluare întocmit de către conducătorul autorității sau instituției publice în al cărei stat de funcții se află funcția publică, pentru înalții funcționari publici care ocupă funcțiile publice de secretar general și secretar general adjunct din ministere și alte organe de specialitate ale administrației publice centrale, precum și pentru persoanele care ocupă funcția de secretar general al instituției prefectului.”
+
+2\. La articolul 20³ alineatul (2), litera d) se abrogă.
+
+Art. XXXVII. - La articolul 113 din Legea asistenței sociale nr. 292/2011, publicată în Monitorul Oficial al României, Partea I, nr. 905 din 20 decembrie
+
+2011, cu modificările și completările ulterioare, alineatele (3) și (3¹) se modifică și vor avea următorul cuprins:
+
+„(3) Serviciile publice de asistență socială se organizează în subordinea consiliilor locale ale municipiilor și orașelor, la nivel de minimum serviciu.
+
+(3¹) Prin excepție de la prevederile alin. (3), serviciile publice de asistență socială se pot organiza ca un compartiment funcțional în aparatul de specialitate al primarului, ca direcție sau ca direcție generală, instituție publică în subordinea consiliilor locale ale municipiilor și orașelor, în funcție de structura demografică și de indicatorii socioeconomici ai orașului/municipiului.”
+
+Art. XXXVIII. - În termen de 90 de zile de la intrarea în vigoare a prezentei ordonanțe de urgență Ministerul Apărării Naționale inițiază un act normativ cu putere de lege pentru modificarea Legii nr. 446/2006 privind pregătirea populației pentru apărare, publicată în Monitorul Oficial al României, Partea I, nr. 990 din 12 decembrie 2006, cu modificările și completările ulterioare, prin care să reglementeze, începând cu 1 ianuarie 2027, preluarea finanțării centrelor militare de la bugetele locale la bugetul de stat, prin bugetul Ministerul Apărării Naționale.
+
+Art. XXXIX. – (1) Pentru operatorii economici care la data intrării în vigoare a prezentei ordonanțe de urgență dețin autorizație valabilă de exploatare a jocurilor de noroc de la Comitetul de Supraveghere al Oficiului Național pentru Jocuri de Noroc, prevederile art. III se aplică la expirarea perioadei de autorizare.
+
+(2) Taxa locală prevăzută la art. III, pct. 6, nu se datorează pentru perioada prevăzută la alin. (1).
+
+Art. XL. - (1) Începând cu data intrării în vigoare a prezentei ordonanțe de urgență, numărul maxim al posturilor corespunzător fiecărei unități/subdiviziuni administrativ-teritoriale, stabilit pentru anul 2025 potrivit art. III alin. (8¹) din Ordonanța de urgență a Guvernului nr. 63/2010 pentru modificarea și completarea Legii nr. 273/2006 privind finanțele publice locale, precum și pentru stabilirea unor măsuri financiare, aprobată cu modificări și completări prin Legea nr. 13/2011, cu modificările și completările ulterioare, și pct. 1 din anexa la respectiva ordonanța de urgență, se reduce cu 30%.
+
+(2) În termen de 20 de zile de la intrarea în vigoare a prezentei ordonanțe de urgență în Monitorul Oficial al României, Partea I, prefercții comunică numărul maxim de posturi stabilit potrivit prezentei ordonanțe de urgență către fiecare unitate/subdiviziune administrativ-teritorială. În prealabil stabilirii numărului maxim de posturi, prefercții verifică stabilirea numărului de posturi conform pct.3 și pct.4 din anexa la Ordonanța de urgență a Guvernului nr. 63/2010 pentru modificarea și completarea Legii nr. 273/2006 privind finanțele publice locale, precum și pentru stabilirea unor măsuri financiare, cu modificările și completările ulterioare.
+
+(3) Autoritățile administrației publice locale au obligația ca în termen de 30 de zile de la comunicarea numărului maxim de posturi potrivit dispozițiilor alin. (2) să adopte proiectele de hotărâri ale consiliilor locale, respectiv ale consiliilor județene privind aplicarea noului număr maxim de posturi stabilit de către instituția prefectului care se comunică și direcțiilor regionale ale finanțelor publice județene / administrațiilor județene ale finanțelor publice.
+
+(4) În cazul nerespectării prevederilor alin. (3), alin.(6) coroborat cu alin.(7) și (11) direcțiile generale ale finanțelor publice / administrațiile județene ale finanțelor publice, în termen de maximum 10 zile, sistează alimentarea cu cote defalcate din impozitul pe venit. Alocarea și utilizarea cotelor defalcate din impozitul pe venit care au fost sistate în condițiile altor acte normative se mențin.
+
+(5) Alimentarea cu cote defalcate din impozitul pe venit se reia la data respectării prevederilor alin. (3), (7) și (11).
+
+(6) Reorganizarea aparatului de specialitate al primarului, aparatului de specialitate al consiliului județean, precum și a instituțiilor publice locale înființate prin hotărâri ale autorităților deliberative se realizează până cel târziu la data de 1 iulie 2026.
+
+(7) În aplicarea alin. (1) și (3) autoritățile administrației publice locale au în vedere următoarele reguli:
+
+a) reducerea cu 30% a numărului de posturi prevăzut la pct. 1 din anexa la Ordonanța de urgență a Guvernului nr. 63/2010, aprobată cu modificări și completări prin Legea nr. 13/2011, cu modificările și completările ulterioare, nu trebuie să conducă la depășirea unui procent mai mare de 20% aplicat posturilor ocupate.
+
+b) autoritățile deliberative, la propunerea ordonatorului principal de credite, pot stabilii ca reducerea de posturi calculată prin aplicarea procentului de 30% la numărul maxim de posturi stabilit pentru punctul 1 din anexa la Ordonanța de urgență a Guvernului nr. 63/2010, aprobată cu modificări și completări prin Legea nr. 13/2011, cu modificările și completările ulterioare, să fie realizat prin reduceri de posturi la toate punctele din anexa la respectiva ordonanță de urgență, sub condiția ca prin însumarea posturilor reduse să se obțină reducerea prevăzută de lege.
+
+c) În anul 2026, în mod temporar, autoritățile deliberative, la propunerea ordonatorului principal de credite, pot aproba, cu implementare de la 1 iulie 2026, ca variantă alternativă la reducerea posturilor ocupate prin aplicarea prevederilor lit. a) și/sau b), diminuarea cheltuielilor de personal. Cuantumul diminuării se determină, după cum urmează:
+
+i) se calculează media aritmetică lunară a execuției cheltuielilor de personal realizate în anul 2025 aferente posturilor stabilite pentru punctul 1 din anexa la Ordonanța de urgență a Guvernului nr. 63/2010, aprobată cu modificări și completări prin Legea nr. 13/2011, cu modificările și completările ulterioare;
+
+ii) media calculată la lit. i) se împarte la numărul de posturi stabilite pentru punctul 1 din anexa la Ordonanța de urgență a Guvernului nr. 63/2010, aprobată cu modificări și completări prin Legea nr. 13/2011, cu modificările și completările ulterioare;
+
+iii) cuantumul calculat la lit. ii) se înmulțește cu numărul posturilor ocupate ce ar trebui desființate și cu numărul de luni rămase până la 31 decembrie 2026 calculate de la 90 de zile care încep să curgă de la data intrării în vigoare a prezentei ordonanțe de urgență, perioadă pentru care trebuie aplicată măsura.
+
+(8) Secretarul general al unității/subdiviziunii administrativ-teritoriale transmite instituției prefectului în termenul prevăzut la art. 197 alin. (1) din Ordonanța de urgentă a Guvernului nr. 57/2019, cu modificările și completările ulterioare, hotărârile autorităților deliberative adoptate pentru punerea în aplicare a prevederilor prezentului articol, precum și o notă justificativă detaliată, asumată de către ordonatorul principal de credite, șeful compartimentului financiar-contabil și responsabilul de gestionarea activității de resurse umane. Nota cuprinde justificarea opțiunii unității/subdiviziunii administrativ-teritoriale, precum și calculul impactului financiar al măsurilor adoptate.
+
+(9) Instituția prefectului verifică modul de calcul și modul de aplicare a măsurilor adoptate și exercită atribuțiile prevăzute la art. 255 din Ordonanța de urgență a Guvernului nr. 57/2019, cu modificările și completările ulterioare.
+
+(10) Administrațiile județene ale finanțelor publice asigură expertiza de specialitate instituțiilor prefectului pentru realizarea atribuțiilor privind verificarea modului de calcul și a modului de aplicare a măsurilor adoptate de către autoritățile administrației publice locale.
+
+(11) Unitățile/subdiviziunile administrativ-teritoriale care au aplicat în anul 2026 prevederile alin. (7), lit. c) trebuie să ia măsuri până la 31 decembrie 2026, astfel încât începând cu 1 ianuarie 2027 să fie respectate prevederile alin. (1) prin aplicarea alin. (7) lit. a) și/sau b).
+
+(12) Pentru reducerea cheltuielilor de personal și încadrarea în numărul maxim de posturi ordonatorii de credite ai bugetelor prevăzute la art. 1 alin. (2) din Legea nr. 273/2006 privind finanțele publice locale, cu modificările și completările ulterioare, pot aplica, în condițiile legii, fără a afecta salariul de bază, următoarele modalități:
+
+a) reducerea numărului de posturi finanțate;
+
+b) disponibilizarea de personal, în condițiile prevăzute la art. 518 și 519 din Ordonanța de urgență a Guvernului nr. 57/2019 privind Codul administrativ, cu modificările și completările ulterioare sau după caz, la art. 58 – 80 din Legea nr. 52/2003 – Codul muncii, republicată, cu modificările și completările ulterioare;
+
+c) reducerea nivelului unor sporuri;
+
+d) alte modalități de reducere a cheltuielilor de personal.
+
+(13) Modalitățile și procedura de reducere a cheltuielilor prevăzută la alin. (12) se realizează cu consultarea organizațiilor sindicale din instituții sau consultarea reprezentanților salariaților, după caz.
+
+Art. XLI. - (1) În cazul funcțiilor publice din categoria înalților funcționari publici ocupate definitiv la data intrării în vigoare a prezentei ordonanțe de urgență, termenele mandatelor prevăzute la art. 374² alin. (1) din Ordonanța de urgență a Guvernului nr. 57/2019 privind Codul administrativ, cu modificările și completările ulterioare, încep să curgă de la data de 1 ianuarie 2027.
+
+(2) În cazul funcțiilor publice de conducere sensibile prevăzute la art. 374² alin. (6) din Ordonanța de urgență a Guvernului nr. 57/2019, cu modificările și completările ulterioare, termenele mandatelor instituite încep să curgă de la data de la data de 1 ianuarie 2027. La nivelul autorităților și instituțiilor publice prevăzute la art. 385 alin. (1) din Ordonanța de urgență a Guvernului nr. 57/2019, cu modificările și completările ulterioare, se identifică funcțiile publice de conducere sensibile și se emit actele administrative necesare până la data de 1 ianuarie 2027.
+
+(3) Pentru funcțiile publice din categoria înalților funcționari publici și funcțiile publice de conducere sensibile prevăzute la art. 374² alin. (6) din Ordonanța de urgență a Guvernului nr. 57/2019, cu modificările și completările ulterioare, ocupate definitiv la data intrării în vigoare a prevederilor prezentei ordonanțe de urgență, planurile de management a structurilor funcționale conduse prevăzute la art. 397¹ alin. (1) și art. 485³ alin. (3) din aceeași ordonanță de urgență se elaborază de funcționarii publici titulari ai acestor funcții publice și se aprobă de conducătorul autorității sau instituției publice, în termen de 6 luni de la data de începere a mandatelor.
+
+(4) Sistemul informatic prevăzut la art. 7 alin. (1) din anexa nr. 11 la Ordonanța de urgență a Guvernului nr. 57/2019, cu modificările și completările ulterioare, se dezvoltă de Agenția Națională a Funcționarilor Publici în termen de 24 de luni de la data intrării în vigoare a prezentei ordonanțe de urgență.
+
+(5) Metodologia cadru ce conține instrucțiunile de elaborare a planurilor de management al structurilor funcționale conduse se stabilește prin ordin al presedintelui
+
+Agenției Naționale a Funcționarilor Publici, care se publică în Monitorul Oficial al României, Partea I, în termen de 3 luni de la data intrării în vigoare a prezentei ordonanțe de urgență.
+
+(6) Refuzul neîntemeiat al înalților funcționari publici sau al funcționarilor publici de conducere care ocupă funcții publice de conducere prevăzute la art. 374² alin. (6) din Ordonanța de urgență a Guvernului nr. 57/2019, cu modificările și completările ulterioare, de a reface sau de a actualiza planul de management în termenele și condițiile prevăzute de prezentul Cod, constituie abatere disciplinară și se sancționează cu diminuarea drepturilor salariale cu 10% până la data refacerii sau actualizării, după caz, a planului de management. Prevederile art. 493 alin. (1) și (4) din aceeași ordonanță de urgență se aplică în mod corespunzător.
+
+(7) În termen de 6 luni de la data intrării în vigoare a prezentei ordonanțe de urgență, se elaborază Metodologia cadru de identificare și actualizare a funcțiilor publice sensibile care se aprobă prin hotărâre a Guvernului, la propunerea Secretariatului General al Guvernului, Ministerului Dezvoltării, Lucrărilor Publice și Administrației și Agenției Naționale a Funcționarilor Publici.
+
+Art. XLII. – La articolul II din Ordonanța de urgență a Guvernului nr. 191/2022 pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 57/2019 privind Codul administrativ, publicată în Monitorul Oficial al României, Partea I, nr. 1280 din 30 decembrie 2022, aprobată cu modificări și completări prin Legea nr. 348/2023, cu modificările ulterioare, după alineatul (2) se introduc cinci noi alineate, alin. (3) - (7), cu următorul cuprins:
+
+„(3) Evaluarea performanțelor profesionale individuale ale înalților funcționari publici pentru activitatea desfășurată până la 31 decembrie 2025 se va face până la data de 31 martie 2026, cu respectarea prevederilor art. 397² și ale anexei nr. 6 la Ordonanța de urgență a Guvernului nr. 57/2019, cu modificările și completările ulterioare.
+
+(4) Evaluarea performanțelor profesionale individuale ale funcționarilor publici de execuție și de conducere care ocupă funcții publice prevăzute la art. 385 alin. (1) și (2) din Ordonanța de urgență a Guvernului nr. 57/2019, cu modificările și completarile ulterioare pentru activitatea desfășurată până la 31 decembrie 2025, se va face până la data de 31 martie 2026, cu respectarea prevederilor art. 485 și ale anexei nr. 6 la aceeași ordonanță de urgență.
+
+(5) Evaluarea performanțelor profesionale individuale ale înalților funcționari publici pentru activitatea desfășurată de la 1 ianuarie 2026 până la 31 decembrie 2026 se va face până la data de 31 martie 2027, cu respectarea prevederilor art. 397² și ale anexei nr. 6 la Ordonanța de urgență a Guvernului nr. 57/2019, cu modificările și completările ulterioare.
+
+(6) Evaluarea performanțelor profesionale individuale ale funcționarilor publici de execuție și de conducere care ocupă funcții publice prevăzute la art. 385 alin. (1) și (2) din Ordonanța de urgență a Guvernului nr. 57/2019, cu modificările și completările ulterioare pentru activitatea desfășurată de la 1 ianuarie 2026 până la 31 decembrie 2026, se va face până la data de 31 martie 2027, cu respectarea prevederilor art. 485 și ale anexei nr. 6 la aceeași ordonanță de urgență.
+
+(7) Începând cu activitatea desfășurată în anul 2027, evaluarea performanțelor profesionale individuale ale funcționarilor publici care ocupă funcții publice prevăzute la art. 385 alin. (1) și (2) se face potrivit prevederilor art. 398¹ și 485¹ și ale anexei nr. 6¹ la Ordonanță de urgență a Guvernului nr. 57/2019, cu modificările și completările ulterioare.
+
+Art. XLIII. - În aplicarea prevederilor art. 544 alin. (1) lit. e) și art. 546 lit. l) din Ordonanța de urgență a Guvernului nr. 57/2019 privind Codul administrativ, cu modificările și completările ulterioare, cabinetele subsecretarilor de stat și asimilații acestora din cadrul aparatului de lucru al Guvernului, din cadrul ministerelor și al celorlalte organe de specialitate ale administrației publice centrale, precum și cabinetele viceprimarilor comunelor, ale orașelor sau ale municipiilor cu o populație sub 10.000 de locuitori, se desființează la data intrării în vigoare a prezentei ordonanțe de urgență.
+
+Art. XLIV. - (1) Prevederile art. XVII se aplică exclusiv creanțelor provenite din amenzile contravenționale care au fost aplicate după intrarea în vigoare a acestuia.
+
+(2) În termen de 3 luni de la data intrării în vigoare a prezentei ordonanțe de urgență, Guvernul va modifica, în mod corespunzător, Regulamentul de aplicare a Ordonanței de urgență a Guvernului nr. 195/2002 privind circulația pe drumurile publice, aprobat prin Hotărârea Guvernului nr. 1.391/2006, publicată în Monitorul Oficial al României, Partea I, nr. 876 din 26 octombrie 2006, cu modificările și completările ulterioare.
+
+(3) Hotărârea Guvernului prevăzută la art. XVII alin. (10) se adoptă în termen 30 de zile de la data adaptării/interconectării sistemelor prevăzute la art. XVII alin. (9).
+
+Art. XLV. - Începând cu data intrării în vigoare a prezentei ordonanțe de urgență, numărul total de posturi pentru instituțiile prefectului, aprobat potrivit art. 5 alin. (3) din Hotărârea Guvernului nr. 906/2020 pentru punerea în aplicare a unor prevederi ale Ordonanței de urgență a Guvernului nr. 57/2019 privind Codul administrativ, cu modificările și completările ulterioare, se reduce cu 25%, cu excepția posturilor serviciilor publice comunitare de pașapoarte și serviciilor publice comunitare regim permise de conducere și înmatriculare a vehiculelor. Procedura de reorganizare a instituțiilor prefectului se definitivează de către acestea până cel târziu la data de 1 iulie 2026.
+
+(2) În termen de 15 zile de la intrarea în vigoare a prezentei ordonanțe de urgență, ministerul care coordonează instituțiile prefectului emite ordinul pentru stabilirea numărului maxim de posturi aferente instituției prefectului, potrivit prevederilor alin. (1), precum și structura acestor posturi.
+
+(3) Prevederile art. XLIX nu se aplică instituțiilor prefectului.
+
+Art. XLVI. - În termen de 90 de zile de la data intrării în vigoare a prezentei ordonanțe de urgență, autoritățile administrației publice locale au obligația de a aproba proceduri privind organizarea și exercitarea controlului referitor la disciplina în autorizarea și executarea lucrărilor de construcții, precum și urmărirea modului de îndeplinire a celor dispuse de Inspectoratul de Stat în Construcții, prevăzute în cuprinsul Legii nr. 50/1991 privind autorizarea executării lucrărilor de construcții, republicată, cu modificările și completările ulterioare, cu respectarea dispozițiilor legale în vigoare.
+
+Art. XLVII. - (1) La data intrării în vigoare a prezentei ordonanțe de urgență, funcția publică de inspector guvernamental din cadrul categoriei înalților funcționari publici se desființează.
+
+(2) Prin derogare de la art. 519 alin.(1) din Ordonanța de urgență a Guvernului nr.57/2019 privind Codul administrativ, cu modificările și completările ulterioare, inspectorii guvernamentali ale căror raporturi de serviciu încetează conform alin.(1) intră de drept în corpul de rezervă al funcționarilor publici.
+
+Art. XLVIII. - (1) Procedura privind modalitatea de virare a sumelor prevăzute la art. 307 alin. (2) din Ordonanța de urgență a Guvernului nr. 57/2019, publicată în Monitorul Oficial al României, Partea I, nr. 555 din 5 iulie 2019, cu modificările și completările ulterioare, se aprobă în maximum 60 de zile de la intrarea în vigoare a prezentei ordonanțe de urgență, prin ordin comun al ministrului finanțelor și ministrului cu atribuții în domeniul administrației publice.
+
+(2) În aplicarea prevederilor art. 307 din Ordonanța de urgență a Guvernului nr. 57/2019 privind Codul administrativ, cu modificările și completările ulterioare, ale art. 45¹ din Legea minelor nr. 85/2003, cu modificările și completările ulterioare și a procedurii prevăzute la alin. (1) autoritățile administrației publice locale au dreptul:
+
+a) să solicite titularilor activităților miniere sau al terenurilor agricole concesionate, iar aceștia au obligația să transmită autorității competente, în condițiile legii, datele și informațiile necesare pentru calcularea taxei pentru activitatea minieră și a redevenței miniere cuvenite, respectiv a redevenței, după caz;
+
+b) să efectueze control și inspecție privind exactitatea și regularitatea situației faptice cu cea prevăzută în contracte, iar în cazul în care constat abateri să sesizeze autoritatea cu care titularii au încheiat contracte sau de la care au obținut licențe de exploatare în vederea revizuirii acestora conform constatărilor realizate.
+
+Art. XLIX. - (1) În anul 2026 cheltuielile de personal, care nu includ tranșele aferente sumelor prevăzute prin hotărâri judecătorești definitive având ca obiect acordarea unor drepturi de natură salarială scadente în acest an, din cadrul Guvernului, ministerelor, altor organe de specialitate ale administrației publice centrale din subordinea Guvernului și a ministerelor, instituțiilor aflate în subordinea, coordonarea, respectiv sub autoritatea ministerelor și a altor organe de specialitate ale administrației publice centrale, din autoritățile administrative autonome, finanțate din bugetele prevăzute la art. 1 alin. (2) din Legea nr. 500/2002 privind finanțele publice, cu modificările și completările ulterioare, cu excepția cheltuielilor de personal aferente unităților și instituțiilor din învățământul de stat, a cheltuielilor de personal aferente spitalelor publice, serviciilor publice de ambulanță și a centrelor medicale de diagnostic și tratament ambulatoriu, a cheltuielilor de personal aferente instituțiilor publice din domeniul culturii aflate în subordinea sau coordonarea autorităților administrației publice centrale precum și a cheltuielilor de personal aferente instituțiilor publice din familia ocupațională „Apărare, ordine publică și securitate națională”, se reduc cu 10% față de cheltuielile de personal efectuate în anul 2025 diminuate cu cheltuielile de personal aferente organizării alegerilor din anul 2025. Reducerea calculată se împarte la 12 și se înmulțește cu numărul lunilor pentru care se implementează măsura.
+
+(2) Reducerea de 10%, prevăzută la alin. (1) se aplică centralizat asupra tuturor cheltuielilor de personal, respectiv cele înregistrate la nivelul ordonatorului principal de credite și a celor înregistrate la nivelul ordonatorilor secundari sau terțiari de credite, după caz, cu excepția celor finanțate din titlul 56 „Proiecte cu finanțare din fondurile externe nerambursabile (FEN) post-aderare”. Ordonatorii principali de credite pot stabili procente mai mari sau mai mici de 10% pentru fiecare ordonator de credite din subordine, coordonare sau sub autoritatea acestora, însă reducerea cumulată a cheltuielilor de personal la nivelul ordonatorului principal de credite, în anul 2026, trebuie să fie de 10%, calculată potrivit dispozițiilor prevăzute la alin. (1)
+
+(3) Pentru reducerea cheltuielilor de personal, ordonatorii de credite prevăzuți la alin. (1), pot aplica, în condițiile legii, fără a afecta salariul de bază, următoarele modalități:
+
+a) reducerea numărului de posturi finanțate;
+
+b) disponibilizarea de personal, în condițiile prevăzute la art. 518 și 519 din Ordonanța de urgență a Guvernului nr. 57/2019 privind Codul administrativ, cu modificările și completările ulterioare sau după caz, la art. 58 – art. 80 din Legea nr. 53/2003, republicată, cu modificările și completările ulterioare;
+
+c) reducerea nivelului unor sporuri;
+
+d) alte modalități de reducere a cheltuielilor de personal.
+
+(4) Modalitățile și procedura de reducere a cheltuielilor prevăzută la alin. (3) se realizează cu consultarea organizațiilor sindicale din instituții sau consultarea reprezentanților salariaților, după caz.
+
+(5) Măsurile prevăzute la alin. (1) - (3) se aprobă și se aplică până la data de 1 iulie 2026, iar implementarea pentru atingerea obiectivelor privind reducerea cheltuielilor de personal se face în intervalul 1 iulie - 31 decembrie 2026.
+
+(6) Prin excepție de la prevederile alin. (1), în anul 2026, pentru ordonatorii principali de credite care în cursul anului 2025 au avut o conduită prudentă și care au redus cheltuielile de personal față de plățile efectuate în anul 2024, cheltuielile de personal se diminuează cu un procent care se calculează ca diferență dintre procentul de 10% și procentul de economii efectiv realizat în anul 2025, față de plățile de cheltuieli de personal efectuate în anul 2024.
+
+Art. L. - La data intrării în vigoare a prezentei ordonanțe de urgență încetează acordarea drepturilor prevăzute la art. 9 alin. (3) din Ordonanța de urgență a Guvernului nr. 92/2008 privind statutul funcționarului public denumit manager public aprobată cu modificări și completări prin Legea nr. 135/2009, cu modificările ulterioare și la art. 30 alin. (1) din Normele metodologice de aplicare a Ordonanței de urgență a Guvernului nr. 92/2008 privind statutul funcționarului public denumit manager public, aprobate prin Hotărârea Guvernului nr. 78/2011, cu modificările și completările ulterioare, de care beneficiază absolvenții programelor de formare specializată în administrația publică prevăzute la art. 3 alin. (1) lit. a) și b) din Ordonanța de urgentă a Guvernului nr. 92/2008 privind statutul funcționarului public denumit manager public, aprobată cu modificări și completări prin Legea nr. 135/2009, cu modificările ulterioare.
+
+Art. LI. - În termen de 90 de zile de la data intrării în vigoare a prezentei ordonanțe de urgență, la propunerea Ministerului Dezvoltării, Lucrărilor Publice și Administrației, Normele metodologice de aplicare a Ordonanței de urgență a Guvernului nr. 92/2008 privind statutul funcționarului public denumit manager public, aprobate prin Hotărârea Guvernului nr. 78/2011, cu modificările și completările ulterioare, se modifică potrivit prevederilor art. XXVIII și art. L din prezenta ordonanță de urgență.
+
+Art. LII. - (1) În termen de 60 de zile de la intrarea în vigoare a prezentei ordonanțe de urgență, Ministerul Dezvoltării, Lucrărilor Publice și Administrației și Ministerul Finanțelor, la propunerea Agenției Naționale de Cadastru și Publicitate Imobiliară, emit ordinul comun prevăzut la art. 461 alin. (9⁵) din Legea nr. 227/2015 privind Codul fiscal, publicată în Monitorul Oficial al României, Partea I, nr. 688 din 10 septembrie 2015, cu modificările și completările ulterioare.
+
+(2) Regulamentul prevăzut la art. 18¹ alin. (3) din Ordonanța de urgență a Guvernului nr. 77/2009 privind organizarea și exploatarea jocurilor de noroc, aprobată cu modificări și completări prin Legea nr. 246/2010, cu modificările și completările ulterioare, se aprobă prin hotărâre a consiliului local în termen de 60 de zile de la intrarea în vigoare a prezentei ordonanțe de urgență.
+
+Art. LIII. - În sistemul sanitar, în termen de 60 de zile de la intrarea în vigoare a prezentei ordonanțe de urgență, Ministerul Sănătății va promova actele normative potrivit cărora se va realiza reducerea cheltuielilor în anul 2026, prin:
+
+a) aplicarea metodologiei unitare pentru sumele reprezentând influențele financiare, reglementată prin art. XI din Legea nr. 163/2025 privind modificarea și completarea unor acte normative și pentru stabilirea unor măsuri în domeniul sănătății, cu modificările ulterioare;
+
+b) instituirea contribuției trimestriale temporare de solidaritate în sarcina deținătorilor de autorizații de punere pe piață a medicamentelor, reglementată prin art. VIII din Legea nr. 163/2025 privind modificarea și completarea unor acte normative și pentru stabilirea unor măsuri în domeniul sănătății, cu modificările ulterioare;
+
+c) reclasificarea unităților sanitare cu paturi, conform prevederilor art. I, pct. 5 din Legea nr. 163/2025 privind modificarea și completarea unor acte normative și pentru stabilirea unor măsuri în domeniul sănătății, cu modificările ulterioare;
+
+d) creșterea capacității de răspuns a ambulatoriilor de specialitate, reglementată prin art. III din Legea nr. 163/2025 privind modificarea și completarea unor acte normative și pentru stabilirea unor măsuri în domeniul sănătății, cu modificările ulterioare;
+
+e) organizarea achizițiilor centralizate, conform prevederilor Ordonanței de urgență a Guvernului nr. 20/2024 pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 46/2018 privind înființarea, organizarea și funcționarea Oficiului Național pentru Achiziții Centralizate, aprobată prin Legea nr. 104/2025.
+
+Art. LIV. - (1) Prin derogare de la prevederile art. 14 alin. (1) din Legea-cadru nr. 153/2017 privind salarizarea personalului plătit din fonduri publice, cu modificările și completările ulterioare, în anul 2026, de la intrarea în vigoare a prezentei ordonanțe de urgență, personalul care deține titlul științific de doctor beneficiază de o indemnizație pentru titlul științific de doctor în cuantum de 500 Lei brut lunar, care se acordă lunar numai dacă își desfășoară activitatea în domeniul pentru care deține titlul și dacă are prevăzute în fișa postului un set de atribuții obiective și cuantificabile care să permită verificarea lunară a modului în care activitatea acestuia este valorificată în mod suplimentar. Cuantumul salarial al acestei indemnizații nu se ia în calcul la determinarea limitei sporurilor/ compensațiilor, primelor, premiilor și indemnizațiilor prevăzută la art. 25.
+
+(2) În anul 2026 personalul din cadrul Institutelor Naționale de Cercetare Dezvoltare care deține titlul științific de doctor beneficiază de o indemnizație pentru titlul științific de doctor în cuantum de 500 lei brut lunar, care se acordă lunar numai dacă își desfășoară activitatea în domeniul pentru care deține titlul și dacă are prevăzute în fișa postului un set de atribuții obiective și cuantificabile care să permită verificarea lunară a modului în care activitatea acestuia este valorificată în mod suplimentar.
+
+Art. LV. - Având în vedere excepțiile prevăzute la art. X, pct.1, art. XVIII, alin. (6) și art. XLIX alin. (1), în termen de 60 de zile de la intrarea în vigoare a prezentei ordonanțe de urgență, Ministerul Culturii are obligația de a iniția măsuri legislative și administrative cu privire la instituțiile publice din domeniul culturii, pentru reducerea impactului financiar al aplicării dispozițiilor Legii nr. 153/2017 privind salarizarea personalului plătit din fonduri publice, cu modificările și completările ulterioare, asupra bugetului de stat și bugetului autorităților administrației publice locale.
+
+Art. LVI. - (1) Având în vedere excepția prevăzută la art. XLIX alin. (1), pentru instituțiile publice din familia ocupațională „Apărare, ordine publică și securitate națională”, reducerea cu 10% a cheltuielilor de personal este compensată de efectele generate de implementarea reformei sistemului pensiilor militare de stat.
+
+(2) În scopul aplicării prevederilor alin. (1), în termen de maximum 30 de zile de la intrarea în vigoare a prezentei ordonanțe de urgență, Guvernul va aproba, la propunerea Ministerului Apărării Naționale și a Ministerului Afacerilor Interne, modificarea și completarea Legii nr.223/2015 privind pensiile militare de stat, cu modificările și completările ulterioare, în scopul creșterii etapizate și progresive a vârstei standard de pensionare, cu aplicarea unor măsuri tranzitorii și fără afectarea drepturilor persoanelor care îndeplinesc condițiile legale pentru obținerea unei pensii
+
+de serviciu la data adoptării actului normativ.
+
+Art. LVII. - Începând cu data intrării în vigoare a prezentei ordonanțe de urgență, veniturile salariale lunare ale personalului care intră sub incidența prevederilor art. LIV se diminuează în mod corespunzător.
+
+Art. LVIII. – În termen de 30 de zile de la data intrării în vigoare a prezentei ordonanțe de urgență, se aprobă hotărârea Guvernului, prevăzută la art. VI, pct. 6, la propunerea Ministerului Dezvoltării, Lucrărilor Publice și Administrației.
+
+Art. LIX. - (1) La articolul 6 alineatul (7) din Hotărârea Guvernului nr. 1.571/2022 privind stabilirea cadrului general de implementare a intervențiilor aferente sectoarelor vegetal și zootehnic din cadrul Planului strategic PAC 2023-2027, finanțate din Fondul european de garantare agricolă și de la bugetul de stat, publicată în Monitorul Oficial al României, Partea I nr. 1275 din 30 decembrie 2022, cu modificările și completările ulterioare, litera b) se abrogă.
+
+(2) Articolul XXI din Legea nr. 296/2023 privind unele măsuri fiscal-bugetare pentru asigurarea sustenabilității financiare a României pe termen lung, publicată în Monitorul Oficial al României, Partea I nr. 977 din 27 octombrie 2023, cu modificările și completările ulterioare, se abrogă.
+
+Art. LX. - Prezenta ordonanță de urgență intră în vigoare la data publicării în Monitorul Oficial al României, Partea I, cu excepția:
+
+a) art. I pct. 14, pct. 15 și pct. 23 și art. VIII pct. 3 care intră în vigoare la data de 1 a lunii calendaristice calculate la 5 luni de la data publicării prezentei ordonanțe de urgență;
+
+b) art. VIII pct. 7 și art. XVII alin.(1) – (8), care intră în vigoare la 6 luni de la intrarea în vigoare a ordonanțe de urgență;
+
+c) art. VII pct. 1-3, art. VIII pct. 1-2, 5 și 6, art. IX și art. XXIX – XXXIV, care intră în vigoare la 30 de zile de la intrarea în vigoare a prezentei ordonante de
+
+PRIM-MINISTRU
+
+ILIE-GAVRIL BOLOJAN
+
+Contrasemnează:
+
+Viceprim-ministru Tánczos Barna
+
+Viceprim-ministru Marian Neacsu
+
+Viceprim-ministrul ministrul afacerilor interne Marian-Cătălin Predoiu
+
+BOGDAM DESKEU
+
+24.02.2026
+
+Viceprim-ministru, ministrul apărării naționale Radu-Dinel-Mirută
+
+Ministrul dezvoltării, lucrărilor publice și administrației Cseke Attila-Zoltán
+
+Președintele Agenției Nationale a Funcționarilor Publici Vasile-Felix-Centina
+
+Secretarul general al Guvernului Ștefan-Radu Obrea
+
+Ministrul muncii, familiei, tineretului și solidarității sociale Petre/Elorin Manole
+
+București, 24.02.2026 Nr. 7
+
+Ministrul agricultură și dezvoltarii turale Florin-Donut Barbu
+
+\-continuare verso-
+
+Ministrul culturii Demeter András István
+
+Ministrul sănătății Alexandru-Florin Rogobete
+
+Ministrul educației și cercetării, interimar Ilie-Gavril Bolojan
+
+GIGEL PARASCHY
+
+Ministrul finanțelor
+
+Alexandru Nazare
+
+# Metodologie pentru realizarea procesului de evaluare a performanțelor profesionale individuale ale funcționarilor publici pe bază de competențe
+
+# CAPITOLUL I
+
+## Dispoziții generale
+
+Art. 1 - Prezenta anexă reglementează metodologia de evaluare a performanțelor profesionale individuale ale funcționarilor publici pe bază de competențe.
+
+Art. 2 - (1) Evaluarea performanțelor profesionale individuale ale funcționarilor publici pe bază de competențe se face anual.
+
+(2) În urma evaluării performanțelor profesionale individuale pe bază de competențe, funcționarului public i se acordă unul dintre următoarele calificative: „foarte bine”, „bine”, „satisfăcător”, „nesatisfăcător”.
+
+(3) În cadrul procesului de evaluare a performanțelor profesionale ale funcționarilor publici pe bază de competențe se stabilesc cerințele de formare profesională a funcționarilor publici.
+
+(4) Cerințele de formare profesională a funcționarilor publici se determină în funcție de rezultatul evaluării anuale.
+
+Art. 3 - (1) Evaluarea performanțelor profesionale individuale ale funcționarilor publici pe bază de competențe se realizează utilizând cadrele de competențe generale și nivelurile de complexitate, descriptorii și indicatorii comportamentali aferenți competențelor generale stabilite pentru funcția publică respectivă prevăzute la art. 17 din anexa nr. 8, precum și competențele specifice identificate în urma analizei posturilor în condițiile prevăzute la art. 11 alin. (2) lit. d) din anexa nr. 8 și cuprinse în fișa postului întocmită conform modelului fișei postului standardizate prevăzut la art. 31 alin. (2) pct. III din anexa nr. 8, la rubrica “Alte competențe specifice”.
+
+(2) În cazul stabilirii unor competențe specifice noi pentru un post ocupat sau temporar ocupat în timpul perioadei evaluate, aprecierea manifestării acestora se realizează în următoarea perioadă evaluată.
+
+(3) Prin excepție de la prevederile alin. (2), dacă stabilirea competențelor specifice a avut loc în ultimele 30 zile ale perioadei evaluate, aprecierea manifestării acestora se realizează după împlinirea a două perioade evaluate.
+
+(4) În situațiile prevăzute la alin. (2) și (3) autoritatea sau instituția publică asigură cadrul necesar pentru dezvoltarea competențelor specifice prin măsuri organizatorice sau programe de formare profesională, după caz.
+
+## CAPITOLUL II
+
+## Evaluarea performanțelor profesionale individuale ale înalților funcționari publici pe bază de competențe
+
+Art. 4 - (1) Evaluarea prevăzută la art. 398¹ din prezentul cod se realizează anual, în scopul aprecierii performanțelor obținute, prin raportarea rezultatelor obținute în mod efectiv și la obiectivele stabilite și a competențelor manifestate utilizând cadrele de competențe generale și nivelurile de complexitate aferente, precum și descriptorii și indicatorii comportamentali aferenți competențelor generale stabilite pentru funcțiile publice prevăzute la art. 389 din prezentul cod, conform art. 17 din anexa nr. 8 și competențele specifice prevăzute în fișa postului întocmită conform modelului fișei postului standardizate prevăzut la art. 31 alin. (2) pct. III din anexa nr. 8 la prezentul cod, la rubrica „Alte competențe specifice”, utilizând sistemul de notare de la 1 la 5.
+
+(2) Perioada evaluată este 1 ianuarie - 31 decembrie a fiecărui an, iar perioada de evaluare este 1 ianuarie - 31 martie a anului următor perioadei evaluate, pentru toți înalții funcționari publici care au desfășurat efectiv activitate minimum 6 luni în anul calendaristic pentru care se realizează evaluarea.
+
+(3) Evaluarea anuală prevăzută la alin. (1) se realizează și pentru funcționarii publici care exercită cu caracter temporar o funcție publică corespunzătoare categoriei înalților funcționari publici.
+
+Art. 5 - (1) Evaluarea performanțelor profesionale individuale ale înalților funcționari publici pe bază de competențe se realizează pe baza următoarelor documente:
+
+a) raportul de activitate întocmit de înaltul funcționar public;
+
+b) referatul de evaluare pe bază de competențe întocmit de către conducătorul autorității sau instituției publice în al cărei stat de funcții se află funcția publică, pentru funcțiile publice prevăzute la art. 389 lit. a) din prezentul cod, de către ministrul care coordonează activitatea în instituția prefectului pentru funcțiile publice prevăzute la art. 389 lit. c¹) din prezentul cod;
+
+c) fișa postului înaltului funcționar public evaluat;
+
+d) documentele prin care se stabilesc obiectivele pentru perioada pentru care se face evaluarea și indicatorii de performanță.
+
+(2) Competența de întocmire a referatului de evaluare prevăzut la alin. (1) lit. b) poate fi delegată, prin act administrativ, către secretarul de stat care coordonează activitatea înaltului funcționar public, respectiv către un demnitar din instituția prefectului pentru funcțiile prevăzute la art. 389 lit. c¹) din prezentul cod, cu precizarea condițiilor și limitelor delegării.
+
+Art. 6 - (1) Obiectivele se stabilesc la începutul perioadei pentru care se face evaluarea de către:
+
+a) conducătorul autorității sau instituției publice în al cărei stat de funcții se află funcția publică, pentru funcțiile publice prevăzute la art. 389 lit. a) din prezentul cod;
+
+b) de către ministrul care coordonează activitatea instituției prefectului pentru funcțiile publice prevăzute la art. 389 lit. c¹) din prezentul cod.
+
+(2) Competența de stabilire a obiectivelor pentru perioada pentru care se face evaluarea poate fi delegată, prin act administrativ, către secretarul de stat care coordonează activitatea înaltului funcționar public, respectiv către un demnitar din instituția prefectului pentru funcțiile prevăzute la art. 389 lit. c¹) din prezentul cod, cu precizarea condițiilor și limitelor delegării.
+
+(3) Obiectivele se consemnează într-un document datat și semnat de persoana care are competența de a stabili obiectivele potrivit dispozițiilor alin. (1), respectiv alin. (2) și de înaltul funcționar public.
+
+(4) Obiectivele, împreună cu termenele de realizare și indicatorii de performanță corespunzători, se stabilesc pentru perioada 1 ianuarie – 31 decembrie a anului pentru care se face evaluarea.
+
+(5) Obiectivele, termenele de realizare și indicatorii de performanță corespunzători pot fi revizuiți trimestrial sau ori de câte ori intervin modificări în activitatea sau structura organizatorică a autorității sau instituției publice. În acest caz, prevederile alin. (4) se aplică în mod corespunzător.
+
+(6) Indicatorii de performanță prevăzuți la alin. (4) și (5) se stabilesc pentru fiecare obiectiv în conformitate cu nivelul atribuțiilor, prin raportare la cerințele privind cantitatea și calitatea muncii prestate.
+
+(7) Competențele generale, precum și nivelurile de complexitate aferente, descriptorii și indicatorii comportamentali aferenți competențelor pentru evaluarea înalților funcționari publici sunt prevăzute la art. 17 din anexa nr. 8 la prezentul cod.
+
+(8) Competențele specifice pentru evaluarea înalților funcționari publici sunt prevăzute în fișa postului, elaborată potrivit modelului fișei postului standardizate prevăzut la art. 31 alin. (2) pct. III din anexa nr. 8 la prezentul cod, la rubrica „Alte competențe specifice”.
+
+Art. 7 - (1) Evaluarea performanțelor profesionale individuale ale înalților funcționari publici pe bază de competențe se realizează de comisia de evaluare, în următoarele etape:
+
+a) analizarea documentelor prevăzute la art. 5 alin. (1) de către fiecare membru al comisiei de evaluare;
+
+b) aprecierea îndeplinirii fiecărui obiectiv de către fiecare membru al comisiei de evaluare cu note de la 1 la 5, nota exprimând gradul de îndeplinire a obiectivului respectiv, în raport cu termenele de realizare și cu indicatorii de performanță; În componenta notei acordate pentru îndeplinirea fiecărui obiectiv, valoarea cumulată a notelor acordate pentru indicatorul de performanță privind gradul de complexitate al lucrărilor sau sarcinilor efectuate anual, indicatorul de performanță privind gradul de implicare în realizarea lucrărilor sau sarcinilor efectuate anual și indicatorul de performanță privind numărul de lucrări sau sarcini efectuate anual reprezintă minimum 50% din nota acordată fiecărui obiectiv. Prevederile art. 19 alin. (4)-(8) se aplică în mod corespunzător.
+
+c) aprecierea manifestării competențelor generale de către fiecare membru al comisiei de evaluare cu note de la 1 la 5, în funcție de prezența indicatorilor comportamentali în activitățile realizate de acesta pentru exercitarea atribuțiilor din fișa postului.
+
+d) aprecierea îndeplinirii competențelor specifice cu note de la 1 la 5, în funcție de gradul de îndeplinire;
+
+(2) Fiecare competență generală se notează astfel:
+
+a) 1 - competență slabă, manifestată prin absenta indicatorilor comportamentali;
+
+b) 2 - competență care implică ghidaj suplimentar constant, manifestată prin prezența indicatorilor comportamentali într-o mică măsură;
+
+c) 3 - competență manifestată prin prezența indicatorilor comportamentali într-o măsură acceptabilă;
+
+d) 4 - competență manifestată prin prezența indicatorilor comportamentali într-o mare măsură;
+
+e) 5 - competență manifestată prin prezența tuturor indicatorilor comportamentali;
+
+(3) Fiecare competență specifică se notează astfel:
+
+a) 1 – competență slabă, care necesită dezvoltare imediată;
+
+b) 2 - competență care implică ghidaj suplimentar constant;
+
+c) 3 – competență manifestată;
+
+d) 4 – competență manifestată proactiv;
+
+e) 5 – competență manifestată proactiv și prin ghidajul constant al colegilor pentru atingerea celor mai bune rezultate și de către aceștia.
+
+(4) În cadrul etapei de analizare a documentelor, prevăzută la alin. (1) lit. a), comisia de evaluare poate solicita completarea raportului de activitate și/sau a referatului de evaluare, în măsura în care consideră că sunt incomplete sau conțin date eronate, stabilind și un termen pentru transmiterea raportului de activitate și a referatului de evaluare modificate, după caz.
+
+(5) Nota acordată pentru îndeplinirea obiectivelor reprezintă media aritmetică a notelor acordate pentru îndeplinirea fiecărui obiectiv, inclusiv a obiectivelor revizuite, dacă s-a impus revizuirea acestora pe parcursul perioadei evaluate.
+
+(6) Nota acordată pentru manifestarea competențelor se calculează ca medie aritmetică a notelor acordate pentru fiecare competență generală și specifică.
+
+(7) Nota finală a evaluării performanțelor profesionale individuale este media aritmetică a notelor prevăzute la alin. (5) și (6).
+
+(8) Indicatorii comportamentali aferenți competențelor generale evaluați potrivit dispozițiilor alin. (1) corespund nivelului de complexitate aferent funcției publice din categoria înalților funcționari publici prevăzut la art. 17 din Anexa nr. 8 la prezentul cod.
+
+Art. 8 - (1) În mod exceptional, evaluarea se poate face și în cursul perioadei evaluate, dacă perioada efectiv lucrată este de cel puțin 30 de zile consecutive, caz în care reprezintă evaluare parțială, cu aplicarea corespunzătoare a dispozițiilor art. 3-5, în următoarele cazuri:
+
+a) atunci când pe parcursul perioadei evaluate raportul de serviciu al înaltului funcționar public evaluat încetează, se suspendă sau se modifică, în condițiile legii. În aceste situații, înaltul funcționar public va fi evaluat până la încetarea, suspendarea sau modificarea raporturilor de serviciu, după caz;
+
+b) la expirarea perioadei pentru care un funcționar public a exercitat cu caracter temporar o funcție publică din categoria înalților funcționari publici;
+
+c) atunci când pe parcursul perioadei evaluate, raportul juridic în baza căruia este exercitată funcția de către persoanele care au competența de întocmire a referatului de evaluare potrivit art. 5 alin. (1) lit. b) din prezenta anexă încetează, se suspendă sau se modifică, în condițiile legii.
+
+(2) În situațiile prevăzute la alin. (1), referatul de evaluare pe bază de competențe se întocmește în termen de 10 zile lucrătoare de la data încetării, suspendării sau modificării raporturilor de serviciu, după caz.
+
+(3) Pe baza documentelor transmise, comisia de evaluare realizează evaluarea parțială a performanțelor profesionale ale înaltului funcționar public pe bază de competențe. Nota finală a evaluării parțiale este media aritmetică a notelor finale acordate de membrii comisiei pentru evaluarea parțială. Calificativul acordat la evaluarea parțială se va lua în considerare la evaluarea anuală a performanțelor profesionale individuale.
+
+Art. 9 - (1) În situația în care există diferențe între informațiile cuprinse în raportul de activitate al înaltului funcționar public și referatul de evaluare pe bază de competențe, este obligatorie organizarea unui interviu cu înaltul funcționar public, care are rolul de a furniza informațiile necesare finalizării evaluării.
+
+(2) Interviul prevăzut la alin. (1) se desfășoară anterior completării raportului de evaluare pe bază de competențe de către comisia de evaluare.
+
+(3) Înaltul funcționar public este convocat în fața comisiei de evaluare prin adresă transmisă de președintele Comisiei de evaluare, prin intermediul secretariatului acesteia, la sediul autorității sau instituției publice unde își desfășoară activitatea, cu cel puțin 5 zile lucrătoare înainte de data stabilită pentru interviu. La adresa de convocare se anexează o copie a documentelor prevăzute la art. 5 alin. (1) din prezenta anexă.
+
+(4) Interviul poate fi reprogramat, la cererea motivată a înaltului funcționar public, cu aprobarea președintelui comisiei de evaluare. Convocarea în fața comisiei de evaluare la o dată ulterioară stabilită de către aceasta se face cu respectarea prevederilor alin. (3).
+
+(5) În situația neprezentării la interviu a înaltului funcționar public, convocat în condițiile prevăzute la alin. (3) și, după caz, ale alin. (4), la evaluare sunt luate în considerare consemnările din referatul de evaluare pe bază de competențe.
+
+(6) Întrebările și răspunsurile la interviu se consemnează de către secretariatul comisiei de evaluare într-o anexă la procesul-verbal de ședință, semnată de înaltul funcționar public interviewat, de membrii Comisiei de evaluare și de secretariatul acesteia.
+
+Art. 10 - Ćalificativul final al evaluării pe bază de competențe se stabilește pe baza notei finale, după cum urmează:
+
+a) între 1,00-2,50 – nesatisfăcător;
+
+b) între 2,51-3,50 – satisfăcător;
+
+c) între 3,51-4,50 – bine;
+
+d) între 4,51-5,00 – foarte bine.
+
+Art. 11 - (1) Fiecare evaluare pe bază de competențe realizată de comisia de evaluare se consemnează în raportul de evaluare pe bază de competențe a înaltului funcționar public, încheiat în 2 exemplare originale.
+
+(2) În termen de 15 zile de la data finalizării, un exemplar se arhivează la secretariatul comisiei de evaluare și un exemplar se comunică autorității sau instituției publice unde este încadrat înaltul funcționar public, pentru a fi depus la dosarul profesional.
+
+(3) În termen de cel mult 3 zile lucrătoare de la data primirii, autoritatea sau instituția publică unde este încadrat înaltul funcționar public îi transmite acestuia o copie a raportului de evaluare.
+
+(4) O copie a raportului de evaluare pe bază de competențe se transmite persoanei care are competența numirii în funcția publică a acestuia, spre informare și pentru a asigura, atunci când este cazul, aplicarea art. 519 alin. (1) lit. e) din prezentul cod.
+
+Art. 12 - (1) Înaltul funcționar public nemulțumit de rezultatele obținute la evaluarea performanțelor profesionale individuale pe bază de competențe, prevăzută la art. 2 alin. (1) din prezenta anexă, se poate adresa Comisiei de evaluare, care va răspunde contestației în termen de 15 zile de la data depunerii acesteia.
+
+(2) Înaltul funcționar public nemulțumit de rezultatele obținute în urma deciziei comisiei de evaluare, potrivit dispozițiilor alin. (1), se poate adresa instanței de contencios administrativ competente, în condițiile legii.
+
+Art. 13 - Formularul standard al Raportului de evaluare anuală pentru funcționarii publici din categoria înalților funcționari publici este prevăzut la pct. I.
+
+I. Raportul de evaluare anuală pentru funcționarii publici din categoria înalților funcționari publici
+
+| Autoritatea sau instituția publică: |
+| --- |
+| Numele și prenumele înaltului funcționar public evaluat:Funcția publică: |
+| Data numirii în funcția publică: |
+| Persoana responsabilă de întocmirea referatului de evaluare potrivit art. 5 alin. (1) lit. b) din anexa nr. 61 la Ordonanța de urgență a Guvernului nr. 57/2019 privind Codul administrativ, cu modificările și completările ulterioare: |
+| Perioada evaluată: |
+
+Secțiunea 1 - Evaluării gradului de îndeplinire a obiectivelor individuale pentru anul.
+
+<table>
+<tbody>
+<tr><td>Obiectivul individual</td><td>Indicatori de performanță</td><td>Nota 1</td><td>Nota 2</td><td>Nota 3</td><td>Nota 4</td><td>Nota 5</td></tr>
+<tr><td>Descrierea obiectivului:Pondere:Obiectivul instituțional/ departamental asociat:</td><td>Indicator 1Indicator 2Indicator 3</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="7">Nota aferență obiectivului individual:</td></tr>
+<tr><td colspan="7">Comentarii în sprijinul notei acordate:</td></tr>
+</tbody>
+</table>
+
+Sinteza evaluării gradului de îndeplinire a obiectivelor individuale pentru anul.
+
+<table>
+<tbody>
+<tr><td>Lista obiectivelor</td><td>Ponderea obiectivului</td><td>Nota</td></tr>
+<tr><td>Obiectivul 1</td><td></td><td></td></tr>
+<tr><td>Obiectivul 2</td><td></td><td></td></tr>
+<tr><td>Obiectivul...</td><td></td><td></td></tr>
+<tr><td colspan="2">Notă finală grad de îndeplinire obiective individuale</td><td></td></tr>
+<tr><td colspan="3">Secțiunea a 2-a – Evaluarea competențelor pentru anul ......</td></tr>
+<tr><td colspan="3">Competența generală :</td></tr>
+<tr><td>Definiția competenței:Indicator 1:Indicator 2:Indicator 3:Indicator...</td></tr>
+<tr><td>Nota competenței generale:</td></tr>
+<tr><td>Motivarea notei propuse:</td></tr>
+</tbody>
+</table>
+
+Competențele specifice care trebuie evaluate se vor prelua din fișa postului, după ce acestea au fost stabilite printr-o analiză a postului și vor fi notate potrivit scalei de notare detaliate la art. 35 din prezenta anexă.
+
+| Competențele specifice postului | Notă propusă | Motivarea notei propuse |
+| --- | --- | --- |
+| Competența specifică 1: |  |  |
+| Competența specifică 2: |  |  |
+| Competența specifică 3: |  |  |
+| Altele: |  |  |
+
+Sinteza evaluării competențelor
+
+<table>
+<tbody>
+<tr><td>Lista competențelor generale și specifice</td><td>Nota fiecărei competențe</td><td>Notă finală evaluare competențe</td></tr>
+<tr><td>Competența generală 1: Gândire strategică</td><td></td><td rowspan="15"></td></tr>
+<tr><td>Competența generală 2: Asumarea răspunderii</td><td></td></tr>
+<tr><td>Competența generală 3: Planificare și organizare strategică</td><td></td></tr>
+<tr><td>Competența generală 4: Comunicare strategică</td><td></td></tr>
+<tr><td>Competența generală 5: Medierea conflictelor</td><td></td></tr>
+<tr><td>Competența generală 6: Responsabilitate civică</td><td></td></tr>
+<tr><td>Competența generală 7: Managementul vulnerabilităților</td><td></td></tr>
+<tr><td>Competența generală 8: Managementul resurselor și al proceselor</td><td></td></tr>
+<tr><td>Competența generală 9: Dezvoltarea echipei</td><td></td></tr>
+<tr><td>Competența generală 10: Generarea angajamentului</td><td></td></tr>
+<tr><td>Competența generală 11: Agilitate strategică</td><td></td></tr>
+<tr><td>Competență specifică 1:</td><td></td></tr>
+<tr><td>Competență specifică 2:</td><td></td></tr>
+<tr><td>Competență specifică 3:</td><td></td></tr>
+<tr><td>Altele:</td><td></td></tr>
+</tbody>
+</table>
+
+Secțiunea a 3 -a – Calificativul final și acordul părților cu privire la rezultatul evaluării
+
+| Nota finală a evaluării |  |
+| --- | --- |
+| Calificativul final al evaluării |  |
+| Competențele care trebuie în planul individual de dezvoltare |  |
+| Tematică de cursuri recomandate pentru formare și nr. credite |  |
+| Observații finale ale funcționarului public evaluat |  |
+| Observații finale ale comisiei de evaluare |  |
+| Numele și prenumele funcționarului public evaluatSemnătura funcționarului public evaluat:Data |  |
+| Numele și prenumele membrilor comisiei de evaluareSemnăturile membrilor comisiei de evaluareData |  |
+
+CAPITOLUL III
+
+## Evaluarea performanțelor profesionale individuale ale funcționarilor publici de execuție și conducere pe bază de competențe
+
+Art. 14 - (1) Evaluarea performanțelor profesionale individuale ale funcționarilor publici de execuție și conducere pe bază de competențe reprezintă aprecierea obiectivă a performanțelor profesionale individuale ale funcționarilor publici, prin compararea gradului și modului de îndeplinire a obiectivelor individuale și a competențelor generale și specifice manifestate cu rezultatele obținute în mod efectiv de către funcționarul public pe parcursul unui an calendaristic.
+
+(2) Evaluarea performanțelor profesionale individuale ale funcționarului public pe bază de competențe se consemnează în raportul de evaluare întocmit și semnat de către superiorul ierarhic nemijlocit al funcționarului public, care se contrasemnează de către persoanele prevăzute la art. 15 alin. (2) și (3) din prezenta anexă, în condițiile prezentei metodologii.
+
+(3) În realizarea activităților specifice, evaluatorul și contrasemnatarul au obligația asigurării respectării întocmai a normei generale de conduită profesională privind obiectivitatea în evaluare, precum și a respectării regimului juridic al incompatibilităților și al conflictului de interese.
+
+(4) În realizarea evaluării prevăzute la alin. (1), calitatea de evaluator este exercitată de către:
+
+a) funcționarul public de conducere pentru funcționarul public de execuție din subordine, respectiv funcționarul public de conducere ierarhic superior potrivit structurii organizatorice a autorității sau instituției publice, pentru funcționarul public de conducere;
+
+b) înaltul funcționar public, pentru funcționarii publici de conducere din subordinea directă sau pentru funcționarii publici de execuție, atunci când aceștia își desfășoară activitatea în cadrul unor compartimente din subordinea directă, care nu sunt coordonate de un funcționar public de conducere;
+
+c) persoana care ocupă funcția de conducere imediat inferioară celei de conducător al autorității sau instituției publice, pentru funcționarii publici aflați în coordonarea sau în subordinea directă;
+
+d) conducătorul autorității sau instituției publice pentru funcționarii publici aflați în subordinea directă, precum și pentru funcționarii publici care au calitatea de conducători ai autorităților sau instituțiilor publice aflate în subordinea, în coordonarea ori sub autoritatea acesteia și pentru adjunctii acestora;
+
+e) membrii comisiei pentru evaluarea secretarilor generali ai unității administrativ-teritoriale/subdiviziunii administrativ – teritoriale;
+
+f) persoana care are competența de numire expres stabilită prin legea specială, pentru funcționarii publici care au calitatea de conducători sau fac parte din organele colective de conducere ale unor autorități sau instituții publice care nu se află în subordinea, în coordonarea ori sub autoritatea altor autorități sau instituții publice.
+
+(5) În cazul funcționarilor publici de conducere care conduc structuri a căror activitate este coordonată de persoane diferite potrivit atribuțiilor stabilite prin acte administrative, evaluarea se face în condițiile prevăzute la alin. (4) lit. a), b) sau c), cu luarea în considerare a unui referat întocmit de persoana căreia i-au fost delegate parțial atribuțiile de coordonare. Prin referat se evaluează gradul și modul de atingere a obiectivelor individuale, precum și gradul de manifestare a competențelor generale și specifice pentru atribuțiile pe care le îndeplinește în coordonarea persoanelor care întocmesc referatul.
+
+(6) Comisia prevăzută la alin. (4) lit. e) se constituie prin dispoziția primarului, respectiv a președintelui consiliului județean, pe baza propunerilor/nominalizării consiliului local, respectiv consiliului județean.
+
+(7) Conducătorul autorității sau instituției publice poate delega prin act administrativ competența de realizare a evaluării prevăzute la alin. (4) lit. d) către persoana care ocupă funcția de conducere imediat inferioară și care coordonează activitatea structurii funcționale respective, cu precizarea condițiilor și limitelor delegării.
+
+Art. 15 - (1) Raportul de evaluare pe bază de competențe semnat de evaluator se înaintează contrasemnatarului.
+
+(2) În întelesul prezentului cod, are calitatea de contrasemnatar:
+
+a) funcționarul public ierarhic superior evaluatorului, potrivit structurii organizatorice a autorității sau instituției publice, pentru funcționarii publici de conducere aflați în subordine sau în coordonarea directă și pentru funcționarii publici de execuție pentru care calitatea de evaluator aparține funcționarului public de conducere direct subordonat contrasemnatarului;
+
+b) înaltul funcționar public, în cazul în care, potrivit structurii organizatorice a autorității ori instituției publice, nu există un funcționar public ierarhic superior evaluatorului și activitatea compartimentului în care își desfășoară activitatea funcționarul public evaluat este coordonată de înaltul funcționar public, cu excepția situației funcționarilor publici prevăzuți la lit. a);
+
+c) persoana care ocupă funcția de conducere imediat inferioară celei de conducător al autorității sau instituției publice, pentru funcționarii publici aflați în coordonarea sau în subordinea directă.
+
+(3) În situația în care, potrivit structurii organizatorice a autorității sau instituției publice, nu există o persoană care să aibă calitatea de contrasemnatar potrivit dispozițiilor alin. (2), raportul de evaluare nu se contrasemnează.
+
+(4) Raportul de evaluare a performanțelor profesionale individuale pe bază de competențe ale secretarului general al unității administrativ-teritoriale/subdiviziunii administrativ-teritoriale nu se contrasemnează.
+
+Art. 16 - (1) În situația în care instanța judecătorească dispune refacerea evaluării performanțelor profesionale individuale ale funcționarilor publici pe bază de competențe, prin hotărâre judecătorească definitivă, pronunțată în urma contestării rezultatelor evaluării la instanțele de contencios administrativ în condițiile legii, calitatea de evaluator se exercită în următoarea ordine:
+
+a) de către persoana care a realizat evaluarea ce urmează a fi refăcută, dacă își desfășoară activitatea în cadrul autorității sau instituției publice respective;
+
+b) de către persoana care avea calitatea de contrasemnatar la data realizării evaluării ce urmează a fi refăcută, în situația în care nu se aplică prevederile lit. a);
+
+c) de către conducătorul autorității sau instituției publice care are obligația punerii în executare a hotărârii judecătorești definitive ori de către persoana desemnată de acesta prin act administrativ, în situația în care persoanele prevăzute la lit. a), respectiv lit. b) nu își mai desfășoară activitatea în cadrul autorității sau instituției publice respective;
+
+d) de către comisia prevăzută la art. 14 alin. (4) lit. e) din prezenta anexă.
+
+(2) În urma refacerii evaluării performanțelor profesionale individuale pe bază de competențe potrivit dispozițiilor alin. (1), raportul de evaluare nu se contrasemnează.
+
+Art. 17 - (1) Evaluarea anuală a performanțelor profesionale individuale ale funcționarilor publici pe bază de competențe se realizează pentru un an calendaristic, în perioada cuprinsă între 1 ianuarie-31 martie din anul următor perioadei evaluate, pentru toți funcționarii publici care au desfășurat efectiv activitate minimum 6 luni în anul calendaristic pentru care se realizează evaluarea.
+
+(2) Prin excepție de la prevederile alin. (1), evaluarea anuală a performanțelor profesionale individuale pe bază de competențe ale funcționarilor publici se poate realiza și ulterior perioadei cuprinse între 1 ianuarie-31 martie din anul următor perioadei evaluate, în situația în care raportul de serviciu al funcționarului este suspendat pe parcursul întregii perioade de evaluare. În acest caz, evaluarea se realizează în termen de 5 zile lucrătoare de la data reluării activității, în condițiile prezentei metodologii.
+
+(3) Prin excepție de la prevederile alin. (1), evaluarea anuală a performanțelor profesionale individuale pe bază de competențe ale funcționarilor publici se poate realiza și ulterior perioadei cuprinse între 1 ianuarie-31 martie din anul următor perioadei evaluate, în situația în care raportul de serviciu ori, după caz, raportul de muncă al evaluatorului este suspendat pe parcursul întregii perioade de evaluare. În acest caz, evaluarea se realizează în termen de 5 zile lucrătoare de la data expirării perioadei de evaluare, cu aplicarea corespunzătoare a art. 18 alin. (1) lit. b) din prezenta anexă.
+
+Art. 18 - (1) Prin excepție de la prevederile art. 17 alin. (1) din prezenta anexă, evaluarea funcționarilor publici pe bază de competențe se realizează pentru o altă perioadă, în oricare dintre următoarele situații:
+
+a) la modificarea, suspendarea sau încetarea raporturilor de serviciu ale funcționarilor publici în condițiile legii, dacă perioada efectiv lucrată este de cel puțin 30 de zile consecutive;
+
+b) la modificarea, suspendarea sau încetarea raportului de serviciu ori, după caz, a raportului de muncă al evaluatorului, în condițiile legii, dacă perioada efectiv coordonată este de cel puțin 30 de zile consecutive. În cazul în care evaluatorul se află în imposibilitatea de drept sau de fapt constată prin act administrativ de a realiza efectiv evaluarea, calitatea de evaluator revine persoanei care are calitatea de contrasemnatar al raportului de evaluare la data încetării, suspendării sau modificării, în condițiile legii, a raportului de serviciu sau, după caz, a raportului de muncă al evaluatorului, cu aplicarea corespunzătoare a dispozițiilor legale în ceea ce privește desemnarea unui alt contrasemnatar, atunci când este posibil, potrivit structurii organizatorice;
+
+c) atunci când pe parcursul perioadei evaluate funcționarul public este promovat în clasă sau în grad profesional.
+
+(2) Evaluarea realizată în situațiile prevăzute la alin. (1) se numește evaluare pe bază de competențe parțială și are în vedere evaluarea obiectivelor individuale.
+
+(3) Evaluarea pe bază de competențe parțială se realizează la data sau în termen de 10 zile lucrătoare de la data intervenirii situațiilor prevăzute la alin. (1) și va fi luată în considerare la evaluarea anuală.
+
+(4) Evaluarea pe bază de competențe parțială a funcționarilor publici nu este necesară în situația în care raportul de serviciu al funcționarului public se modifică prin delegare, se suspendă în condițiile art. 513 alin. (1) lit. e), h), i) și j) din prezentul cod sau, după caz, încetează în condițiile art. 517 alin. (1) lit. a) și b) din același cod.
+
+Art. 19 - (1) În vederea realizării componentei evaluării performanțelor profesionale individuale pe bază de competențe ale funcționarilor publici de execuție și de conducere prevăzute la art. 485¹ alin. (3) și art. 485² din prezentul cod, la începutul perioadei evaluate persoana care are calitatea de evaluator stabilește obiectivele individuale pentru funcționarii publici a căror activitate o coordonează și indicatorii de performanță utilizați în evaluarea gradului și modului de atingere a acestora.
+
+(2) Obiectivele prevăzute la alin. (1) se stabilesc în conformitate cu atribuțiile din fișa postului și corespund obiectivelor compartimentului în care își desfășoară activitatea funcționarul public.
+
+(3) Indicatorii de performanță prevăzuți la alin. (1) se stabilesc pentru fiecare obiectiv individual, în conformitate cu nivelul atribuțiilor titularului funcției publice, prin raportare la cerințele privind cantitatea și calitatea muncii prestate. Indicatorii stabiliți sunt atât indicatori calitativi cât și cantitativi.
+
+(4) Indicatorii de performanță prevăzuți la alin. (1) includ cel puțin următorii indicatori, a căror pondere cumulată reprezintă cel puțin 50% din ponderea alocată fiecărui obiectiv:
+
+a) gradul de complexitate a lucrărilor sau sarcinilor efectuate anual;
+
+b) gradul de implicare în realizarea lucrărilor sau sarcinilor efectuate anual;
+
+c) număr de lucrări sau sarcini efectuate anual raportat la numărul zilelor lucrătoare din anul pentru care se face evaluarea.
+
+(5) Evaluarea indicatorilor prevăzuți la alin. (4) lit. a) se realizează pe baza unei grile de notare, astfel:
+
+a) nota 1 se acordă pentru lucrări sau sarcini cu grad de complexitate redus (spre exemplu: lucrări sau sarcini, după caz, de redirectionare, petiții care se clasează, potrivit legii, operațiuni administrative simple etc.);
+
+b) nota 2 se acordă pentru lucrări sau sarcini cu grad de complexitate mediu (spre exemplu: lucrări sau sarcini, după caz, care implică verificarea sau reverificarea unor aspecte semnalate anterior unor terți);
+
+c) nota 3 se acordă pentru lucrări sau sarcini cu grad de complexitate ridicat (spre exemplu: lucrări sau sarcini, după caz, care implică analiza și interpretare, conform atribuțiilor din fișa postului);
+
+d) nota 4 se acordă pentru lucrări sau sarcini cu grad de complexitate foarte ridicat (spre exemplu: lucrări sau sarcini, după caz, care implică identificarea de soluții în vederea îmbunătățirii/standardizării activității structurii, analize/studii/propuneri de proiecte);
+
+e) nota 5 se acordă pentru lucrări sau sarcini cu grad de complexitate maximal (spre exemplu: lucrări sau sarcini, după caz, care implică identificarea de soluții în vederea îmbunătățirii legislației, concepere și implementare strategii/politici publice/proiecte din fonduri naționale sau fonduri europene)
+
+(6) Evaluarea indicatorilor prevăzuți la alin. (4) lit. b) se realizează pe baza unei grile de notare, astfel:
+
+a) nota 1 se acordă pentru un grad redus de implicare (de exemplu: 50% din lucrări sau sarcini necesită corecturi majore, funcționarul public nu dă curs solicitării motivate din partea conducerii structurii de a efectua ore suplimentare);
+
+b) nota 2 se acordă pentru un grad mediu de implicare (de exemplu: circa 30% din lucrări sau sarcini necesită corecturi majore, funcționarul public nu dă curs solicitării motivate din partea conducerii structurii de a efectua ore suplimentare);
+
+c) nota 3 se acordă pentru un grad ridicat de implicare (de exemplu: 20% din lucrări sau sarcini necesită corecturi majore, funcționarul public dă curs solicitării motivate din partea conducerii structurii de a efectua ore suplimentare);
+
+d) nota 4 se acordă pentru un grad foarte ridicat de implicare (de exemplu: sub 10% din lucrări sau sarcini necesită corecturi, funcționarul public dă curs solicitării motivate din partea conducerii structurii de a efectua ore suplimentare, funcționarul public îndrumă și ajută alți colegi în desfășurarea corespunzătoare a activității);
+
+e) nota 5 se acordă pentru un grad maximal de implicare (de exemplu: lucrările sau sarcinile nu necesită corecturi sau acestea nu sunt majore, funcționarul public dă curs solicitării motivate din partea conducerii structurii de a efectua ore suplimentare, funcționarul public identifică din proprie inițiativă oportunități pentru buna desfășurare a unor activități ale instituției sau se perfecționează în mod individual pentru îndeplinirea obiectivelor, funcționarul public îndrumă și ajută alți colegi în desfășurarea corespunzătoare a activității).
+
+(7) Evaluarea indicatorilor prevăzuți la alin. (4) lit. c) se realizează pe baza unei grile de notare de la 1 la 5 care are în vedere numărul de lucrări sau de sarcini efectuate anual stabilit la nivelul structurii din care face parte funcționarul public evaluat.
+
+(8) Conducătorul autorității sau instituției publice poate stabili, suplimentar indicatorilor de performanță prevăzuți la alin. (4), până la limita de 100% din totalul indicatorilor, indicatori de performanță calitativi, în funcție de specificul activității autorității sau instituției publice, respectiv al structurilor componente ale acesteia.
+
+(9) În toate situațiile obiectivele individuale și indicatorii de performanță se aduc la cunostinta funcționarului public la începutul perioadei evaluate.
+
+(10) Obiectivele individuale și indicatorii de performanță pot fi revizuiți trimestrial sau ori de câte ori intervin modificări în activitatea ori în structura organizatorică a autorității sau instituției publice. Prevederile alin. (9) se aplică în mod corespunzător.
+
+(11) Competențele generale pentru realizarea evaluării performanțelor profesionale individuale ale funcționarilor publici potrivit art. 485¹ și 485² din prezentul cod sunt prevăzute la art. 17 din anexa nr. 8 la prezentul cod.
+
+(12) Competențele specifice pentru realizarea evaluării performanțelor profesionale individuale sunt prevăzute la rubrica „Alte competențe specifice” din fișa postului întocmită conform modelului fișei postului standardizate prevăzut la art. 31 alin. (2) pct. III din anexa nr. 8 la prezentul cod.
+
+Art. 20 - (1) Evaluarea performanțelor profesionale individuale pe bază de competențe se realizează în următoarele etape:
+
+a) completarea raportului de evaluare a performanțelor profesionale individuale pe bază de competențe, denumit în continuare raport de evaluare, de către funcționarul public evaluat, la rubricile dedicate acestuia, cu gradul de realizare efectivă a obiectivelor și dovezile în manifestarea competențelor generale și a competențelor specifice;
+
+b) completarea raportului de evaluare a performanțelor profesionale individuale pe bază de competențe de către evaluator;
+
+c) interviul;
+
+d) contrasemnarea raportului de evaluare de către persoana prevăzută la art. 15 alin. (2) din prezenta anexă;
+
+(2) Raportul de evaluare este un document distinct, în care funcționarul public evaluat prezintă gradul de realizare efectivă a obiectivelor din perspectiva sa și dovezile în manifestarea competențelor generale și specifice, iar evaluatorul:
+
+a) acordă note pentru fiecare componentă a evaluării obiectivelor individuale prevăzute la art. 485¹ și art. 485² din prezentul cod;
+
+b) acordă notă pentru manifestarea competențelor generale prevăzute la art. 17 din anexa nr. 8 la prezentul cod și a competențelor specifice prevăzute în fișa postului la categoria „alte competențe specifice”;
+
+c) consemnează rezultatele deosebite ale funcționarului public, dificultățile obiective întâmpinate de acesta în perioada evaluată și orice alte observații pe care le consideră relevante;
+
+d) stabilește punctajul final și calificativul acordat;
+
+e) stabilește necesitățile de formare profesională pentru anul următor perioadei evaluate;
+
+I) stabilește obiectivele individuale pentru anul următor perioadei evaluate.
+
+(3) Interviul este o discuție între evaluator și funcționarul public evaluat în cadrul căreia se aduce la cunoștința funcționarului public evaluat conținutul raportului de evaluare, se discută aspectele cuprinse în acesta, având ca finalitate semnarea și datarea raportului, de către evaluator și de către funcționarul public evaluat.
+
+(4) În cazul în care între funcționarul public evaluat și evaluator există diferențe de opinie asupra conținutului raportului de evaluare se procedează astfel:
+
+a) în situația în care se ajunge la un punct de vedere comun, evaluatorul poate modifica raportul de evaluare;
+
+b) în situația în care nu se ajunge la un punct de vedere comun, funcționarul public consemnează comentariile sale în raportul de evaluare, în secțiunea dedicată.
+
+(5) În situația în care funcționarul public evaluat refuză să semneze raportul de evaluare, acest aspect se consemnează într-un proces-verbal întocmit de către evaluator și semnat de către acesta și un martor. Refuzul funcționarului public evaluat de a semna raportul de evaluare nu împiedică producerea efectelor juridice ale acestuia.
+
+Art. 21 - (1) Evaluarea performanțelor profesionale individuale pe bază de competențe ale funcționarilor publici de execuție și conducere se realizează de către evaluator prin acordarea de calificative, pe baza aprecierii îndeplinirii obiectivelor de performanță, a manifestării competențelor generale prevăzute la art. 17 din anexa nr. 8 la prezentul cod și a competențelor specifice prevăzute în fișa postului întocmită conform modelului fișei postului standardizate prevăzut la art. 31 alin. (2) pct. III din anexa nr. 8 la prezentul cod, la rubrica „Alte competențe specifice”.
+
+(2) Aprecierea îndeplinirii fiecărui obiectiv de performanță se realizează de către evaluator cu note de la 1 la 5, nota exprimând gradul de îndeplinire a obiectivului respectiv, în raport cu indicatorii de performanță. În componenta notei acordate pentru îndeplinirea fiecărui obiectiv, ponderea cumulată a notelor acordate pentru fiecare dintre indicatorii de performanță prevăzuți la art. 19 alin. (4)-(8) reprezintă minimum 50% din nota acordată fiecărui obiectiv.
+
+(3) Aprecierea manifestării competențelor generale se realizează de către evaluator cu note de la 1 la 5, în funcție de prezența indicatorilor comportamentali în activitățile realizate de acesta pentru exercitarea atribuțiilor din fișa postului.
+
+(4) Aprecierea manifestării competențelor specifice se realizează de către evaluator cu note de la 1 la 5, în funcție de gradul de îndeplinire;
+
+(5) Fiecare competență generală se notează astfel:
+
+a) 1 - competență slabă, manifestată prin absenta indicatorilor comportamentali;
+
+b) 2 - competență care implică ghidaj suplimentar constant, manifestată prin prezența indicatorilor comportamentali într-o mică măsură;
+
+c) 3 - competență manifestată prin prezența indicatorilor comportamentali într-o măsură acceptabilă;
+
+d) 4 - competență manifestată prin prezența indicatorilor comportamentali într-o mare măsură;
+
+e) 5 - competență manifestată prin prezența tuturor indicatorilor comportamentali;
+
+(6) Fiecare competență specifică se notează, astfel:
+
+a) 1 – competență slabă, care necesită dezvoltare imediată;
+
+b) 2 - competență care implică ghidaj suplimentar constant;
+
+c) 3 – competență manifestată;
+
+d) 4 – competență manifestată proactiv;
+
+e) 5 – competență manifestată proactiv și prin ghidajul constant al colegilor pentru atingerea celor mai bune rezultate și de către aceștia.
+
+(7) Nota acordată pentru îndeplinirea obiectivelor reprezintă media aritmetică a notelor acordate pentru îndeplinirea fiecărui obiectiv, inclusiv a obiectivelor revizuite, dacă s-a impus revizuirea acestora pe parcursul perioadei evaluate.
+
+(8) Nota acordată pentru manifestarea competențelor se calculează ca medie aritmetică a notelor acordate pentru fiecare competență.
+
+(9) Punctajul final al evaluării este media aritmetică a notelor prevăzute la alin. (7) și (8).
+
+(10) În urma evaluării performanțelor profesionale individuale, funcționarului public i se acordă unul dintre următoarele calificative: foarte bine, bine, satisfăcător, nesatisfăcător.
+
+(11) Acordarea calificativelor se face pe baza punctajului final al evaluării performanțelor profesionale individuale pe bază de competențe, după cum urmează:
+
+a) pentru un punctaj între 1,00-2,50 se acordă calificativul „nesatisfăcător”;
+
+b) pentru un punctaj între 2,51-3,50 se acordă calificativul „satisfăcător”;
+
+c) pentru un punctaj între 3,51-4,50 se acordă calificativul „bine”;
+
+d) pentru un punctaj între 4,51-5,00 se acordă calificativul „foarte bine”.
+
+(12) Indicatorii comportamentali aferenți competențelor generale evaluați potrivit dispozițiilor alin. (3) corespund nivelului de complexitate aferent categoriei de funcții publice din care funcționarul evaluat face parte prevăzut la art. 17 din Anexa nr. 8 la prezentul cod.
+
+Art. 22 - (1) Raportul de evaluare rezultat în urma interviului se înaintează contrasemnatarului, care semnează raportul așa cum a fost completat de evaluator sau, după caz, îl modifică, cu obligația de motivare și de înștiințare a funcționarului public evaluat.
+
+(2) Funcționarul public evaluat semnează raportul de evaluare modificat de contrasemnatar, cu posibilitatea consemnării observațiilor sale, dacă este cazul.
+
+(3) La finalizarea evaluării potrivit dispozițiilor alin. (1), o copie a raportului de evaluare se comunică funcționarului public evaluat.
+
+(4) Formularul standard al Raportului de evaluare anuală pentru funcționarii publici de execuție și de conducere este prevăzut la pct. II.
+
+II. Raport de evaluare anuală pentru funcționarii publici de execuție și de conducere
+
+| Autoritatea sau instituția publică:Departamentul/ compartimentul: |
+| --- |
+| Numele și prenumele funcționarului public evaluat:Funcția publică: |
+| Numele superiorului ierarhic care realizează evaluarea:Funcția publică: |
+| Perioada evaluată: |
+
+Secțiunea 1 – Evaluarea gradului de îndeplinire a obiectivelor individuale
+
+<table>
+<tbody>
+<tr><td>Obiectivul individual</td><td>Indicatori de performanță/</td><td>Gradul de realizare efectivă din perspectiva funcționarului public evaluat</td></tr>
+<tr><td>Descrierea obiectivului:</td><td>Indicator 1</td><td></td></tr>
+<tr><td>Pondere:</td><td>Indicator 2</td><td></td></tr>
+<tr><td>Obiectivul instituțional/ departamental asociat:</td><td>Indicator 3Indicator 4...</td><td></td></tr>
+<tr><td colspan="3">Nota propusă de evaluator:</td></tr>
+<tr><td colspan="3">Motivarea notei propuse de evaluator:</td></tr>
+</tbody>
+</table>
+
+Sinteza evaluării gradului de îndeplinire a obiectivelor individuale
+
+<table>
+<tbody>
+<tr><td>Lista obiectivelor</td><td>Ponderea obiectivului</td><td>Nota</td></tr>
+<tr><td>Obiectivul 1</td><td></td><td></td></tr>
+<tr><td>Obiectivul 2</td><td></td><td></td></tr>
+<tr><td>Obiectivul ...</td><td></td><td></td></tr>
+<tr><td colspan="2">Notă finală grad de îndeplinire obiective individuale</td><td></td></tr>
+</tbody>
+</table>
+
+Obiective individuale propuse pentru următoarea perioadă pentru care se face evaluarea
+
+| Obiectivul individual | Indicatori de performanță |
+| --- | --- |
+| Obiectivul individual 1: | Indicator 1 |
+| Descrierea obiectivului individual: | Indicator 2 |
+| Pondere: | Indicator 3 |
+| Obiectivul instituțional/ departamental asociat: |  |
+
+Secțiunea a 2-a – Evaluarea competențelor
+
+<table>
+<tbody>
+<tr><td colspan="2">Competența generală:</td></tr>
+<tr><td colspan="2">Definiția competenței:Indicator 1:Indicator 2:Indicator 3:Indicator ....</td></tr>
+<tr><td>Nota competenței generale:</td><td></td></tr>
+<tr><td colspan="2">Dovezi furnizate de funcționarul public evaluat în susținerea evaluării competenței</td></tr>
+<tr><td colspan="2">Motivarea notei propuse de evaluator:</td></tr>
+</tbody>
+</table>
+
+| Competențele specifice postului | Dovezi furnizate de funcționarul public evaluat în | Notă propusă | Motivarea notei propuse de evaluator |
+| --- | --- | --- | --- |
+|  | sustinerea evaluării competenței | de evaluator |  |
+| Competența specifică 1: |  |  |  |
+| Competența specifică 2: |  |  |  |
+| Competența specifică 3: |  |  |  |
+| Altele: |  |  |  |
+
+Sinteza evaluării competențelor:
+
+<table>
+<tbody>
+<tr><td>Lista competențelor generale și specifice</td><td>Nota fiecărei competențe</td><td>Notă finală evaluare competențe</td></tr>
+<tr><td>Competența generală 1:</td><td></td><td rowspan="9"></td></tr>
+<tr><td></td><td></td></tr>
+<tr><td></td><td></td></tr>
+<tr><td>Competența generală 2:</td><td></td></tr>
+<tr><td>Altele:</td><td></td></tr>
+<tr><td>Competență specifică 1:</td><td></td></tr>
+<tr><td></td><td></td></tr>
+<tr><td>Competență specifică 2:</td><td></td></tr>
+<tr><td>Altele:</td><td></td></tr>
+</tbody>
+</table>
+
+Secțiunea a 3-a – Calificativul final și acordul părților cu privire la rezultatul evaluării
+
+| Nota finală a evaluării |  |
+| --- | --- |
+| Calificativul final al evaluării |  |
+| Competențele care trebuie în planul individual de dezvoltare |  |
+| Tematică de cursuri recomandate pentru formare și nr. credite |  |
+| Observații finale ale funcționarului public evaluat |  |
+| Observații finale ale evaluatorului |  |
+| Numele și prenumele funcționarului public evaluatSemnătura funcționarului public evaluat:Data: |  |
+| Numele și prenumele evaluatorului |  |
+| Semnătura evaluatoruluiData: |  |
+| Numele și prenumele persoanei care contrasemnează FuncțiaSemnătura persoanei care contrasemnează Data: |  |
+
+Art. 23 - (1) Funcționarii publici nemulțumiți de evaluarea comunicată potrivit art. 22 alin. (3), o pot contesta, în cadrul procedurii de evaluare, la conducătorul autorității sau instituției publice, în termen de 5 zile lucrătoare de la de la data luării la cunoștință, menționând aspectele pe care le contestă, însoțite de dovezi și documente care dovedesc veridicitatea acestora.
+
+(2) În termen de maxim trei zile lucrătoare de la data înregistrării contestației, conducătorul autorității sau instituției publice numește, prin act administrativ, o comisie pentru formularea unei propuneri de soluționare a aspectelor contestate, formată din 3 membri, funcționari publici cu funcții de conducere din cadrul autorității sau instituției publice. Termenul maxim de soluționare este de 5 zile lucrătoare de la data constituirii comisiei prin act administrativ.
+
+(3) Nu pot fi numiți în cadrul comisiei prevăzută la alin. (2) evaluatorul funcționarului public contestatar și contrasemnatarul raportului de evaluare.
+
+(4) Membrii comisiei sunt obligați să verifice aspectele contestate și să analizeze documentele de evaluare și dovezile anexate la contestație. Dacă situația impune, pentru clarificarea aspectelor semnalate, aceștia pot purta discuții cu funcționarul public evaluat și cu evaluatorul, respectiv contrasemnatarul.
+
+(5) Pe baza propunerii comisiei și a raportului de evaluare inițial, conducătorul autorității sau instituției publice respinge motivat contestația, păstrând calificativul acordat initial, sau o admite, caz în care modifică raportul de evaluare în mod corespunzător, acodând un nou calificativ.
+
+(6) Rezultatul contestației se comunică funcționarului public în termen de 5 zile calendaristice de la data soluționării acesteia. Dacă cea de a cincea zi a termenului cade într-o zi nelucrătoare, termenul se împlinește în prima zi lucrătoare care urmează.
+
+(7) La expirarea termenului prevăzut la alin. (1), în condițiile în care funcționarul public nu a contestat rezultatul evaluării, respectiv la expirarea termenului prevăzut la alin. (6), o copie a raportului de evaluare, certificată pentru conformitate cu originalul de către persoana cu atribuții privind evidența personalului din cadrul compartimentului de resurse umane, se comunică funcționarului public.
+
+(8) Funcționarul public nemulțumit de rezultatul evaluării performanțelor profesionale individuale se poate adresa instanței de contencios administrativ, în condițiile legii.
+
+Art. 24 - (1) Calificativele obținute la evaluarea performanțelor profesionale individuale pe bază de competențe sunt avute în vedere la:
+
+a) promovarea într-o funcție publică superioară, în măsura îndeplinirii unui calificativ de minim „bine” și „foarte bine”;
+
+b) acordarea de prime, în condițiile legii;
+
+c) diminuarea drepturilor salariale cu 10% până la următoarea evaluare anuală a performanțelor profesionale individuale, pentru funcționarii publici care au obținut calificativul „satisfăcător”;
+
+d) eliberarea din funcția publică, în cazul atingerii unui calificativ „nesatisfăcător” ca urmare a evaluării performanțelor profesionale individuale.
+
+(2) Necesitățile de formare profesională pentru anul următor perioadei evaluate, stabilite în cadrul evaluării performanțelor profesionale individuale ale funcționarilor publici, se au în vedere la elaborarea planului de perfectionare profesională a funcționarilor publici prevăzut la art. 459 din prezentul cod.
+
+Art. 25 - (1) Comisia de evaluare prevăzută la art. 14 alin. (4) lit. e) din prezenta anexă se constituie, în condițiile prevăzute la art. 14 alin. (6). Secretariatul comisiei este asigurat de un funcționar public din cadrul aparatului de specialitate al primarului, respectiv al președintelui consiliului județean, nominalizat pentru a asigura secretariatul comisiei.
+
+(2) Evaluarea activității secretarului general al unității administrativ-teritoriale/subdiviziunii administrativ-teritoriale se realizează prin notarea, pentru fiecare dintre elementele prevăzute la art. 485¹ din prezentul cod, de către fiecare membru al comisiei, cu aplicarea corespunzătoare a prevederilor art. 20-22 din prezenta anexă.
+
+(3) Secretarul general al unității administrativ-teritoriale/subdiviziunii administrativ-teritoriale nemulțumit de rezultatele obținute la evaluarea performanțelor profesionale individuale pe bază de competențe se poate adresa instanței de contencios administrativ, în condițiile legii.
+
+Art. 26 - (1) Conducătorul autorității sau instituției publice organizează, la un interval de 4 ani, o verificare a cunoștințelor personalului din subordine privind actele normative identificate prin fișa postului ca reprezentând legislație specifică postului ocupat, necesară pentru îndeplinirea atribuțiilor.
+
+(2) Prin excepție de la prevederile alin. (1), conducătorul autorității sau instituției publice poate decide organizarea verificării anuale a cunoștințelor având la bază actele normative identificate prin fișa postului ca reprezentând legislație specifică postului ocupat.
+
+(3) Pentru realizarea evaluării prevăzute la alin. (1) și (2) este necesară introducerea în fișa postului a competenței specifice privind utilizarea legislației specifice postului ocupat, prin enumerarea în fișa postului a secțiunilor relevante din actele normative identificate ca fiind legislație specifică postului ocupat.
+
+(4) În cadrul verificării prevăzute la alin. (1) și (2) este analizată capacitatea de utilizare a legislației specifice postului prin evaluarea cumulativă a următoarelor elemente:
+
+a) identificarea corectă a normelor legislative specifice aplicabile pentru soluționarea subiectelor de verificare a cunoștințelor;
+
+b) calitatea interpretării normelor legislative specifice pentru soluționarea subiectelor de verificare a cunoștințelor.
+
+(5) Pentru realizarea verificării prevăzute la alin. (1) și (2) vor fi constituite comisii de elaborare a subiectelor de verificare și de evaluare a răspunsurilor la nivelul fiecărei structuri/compartiment din cadrul instituției publice.
+
+(6) Notarea rezultatelor verificării capacității de utilizare a legislației specifice postului se realizează pe o grilă de notare de la 1 la 5.
+
+(7) Nota obținută la verificarea prevăzută la alin. (1) și (2) se ia în calcul în stabilirea notei finale aferente evaluării anuale din anul în care se face această evaluare. Nota finală reprezintă media aritmetică între nota obținută la verificare, nota obținută pentru atingerea obiectivelor individuale și nota obținută la evaluarea cadrelor de competență.
+
+(8) Prevederile art. 23-25 se aplică în mod corespunzător.
+
+(9) Prevederile prezentului articol pot fi aplicate în cadrul procedurii de evaluare a performanțelor profesionale ale funcționarilor publici de execuție și de conducere care ocupă funcțiile publice prevăzute la art. 385 alin. (3) pentru activitatea desfășurată în perioada 1 ianuarie -31 decembrie 2026.
+
+## CAPITOLUL IV
+
+Evaluarea performanțelor profesionale individuale ale funcționarilor publici debutanți, pe bază de competențe
+
+Art. 27 - (1) Evaluarea activității și cunoștințelor funcționarului public debutant, pe bază de competențe, reprezintă aprecierea obiectivă a nivelului cunoștințelor teoretice necesare îndeplinirii atribuțiilor aferente unei funcții publice, a cunoașterii specificului activității autorității sau instituției publice și a exigențelor administrației publice și a manifestării competențelor generale în funcție de nivelul de complexitate, descriptorii și indicatorii comportamentali, prevăzuți în anexa nr. 8 la prezentul cod, aferenți funcțiilor publice de execuție de grad profesional debutant.
+
+(2) Pe parcursul perioadei de stagiu funcționarul public debutant are un îndrumător, funcționar public definitiv desemnat de conducătorul autorității sau instituției publice, de regulă din cadrul compartimentului în cadrul căruia urmează să își desfășoare activitatea, cu atribuții în stabilirea programului de desfășurare a perioadei de stagiu și în coordonarea activității funcționarului public debutant pe parcursul acestei perioade. Îndrumătorul nu poate avea și calitatea de evaluator.
+
+(3) Evaluarea activității funcționarului public debutant pe bază de competențe se face în termen de 10 zile lucrătoare de la data terminării perioadei de stagiu, de regulă, de către conducătorul compartimentului în care își desfășoară activitatea, denumit în continuare evaluator.
+
+(4) Prin excepție de la prevederile alin. (3), în cazul autorităților sau instituțiilor publice a căror structură nu este detaliată pe compartimente ori în cadrul cărora nu există un funcționar public de conducere care să coordoneze compartimentul, evaluator este:
+
+a) un funcționar public de conducere, desemnat de conducătorul autorității sau instituției publice;
+
+b) conducătorul autorității sau instituției publice, dacă nu există un funcționar public de conducere care să fie desemnat potrivit lit. a).
+
+(5) În cazul modificării temporare a raporturilor de serviciu prin mutare în cadrul altui compartiment ori al altei structuri fără personalitate juridică a autorității sau instituției publice sau în cazul suspendării raportului de serviciu al funcționarului public debutant, evaluatorul are obligația de a întocmi raportul de evaluare, pentru perioada de stagiu parcursă de funcționarul public debutant până în acel moment cu aplicarea corespunzătoare a dispozițiilor art. 28 alin. (1) din prezenta anexă. În acest caz, evaluarea este parțială și va fi luată în considerare la evaluarea funcționarului public debutant la terminarea perioadei de stagiu.
+
+(6) În cazul modificării, suspendării sau încetării raportului de serviciu al evaluatorului, acesta are obligația de a întocmi raportul de evaluare pentru perioada de stagiu parcursă de funcționarul public debutant până în acel moment. În acest caz, evaluarea este parțială și va fi luată în considerare la evaluarea funcționarului public debutant la terminarea perioadei de stagiu.
+
+Art. 28 - (1) Evaluarea activității funcționarului public debutant se face de către evaluator pe baza:
+
+a)raportului de stagiu întocmit de funcționarul public debutant;
+
+b) referatului întocmit de îndrumător;
+
+c) analizei gradului și modului de manifestare a competențelor generale în exercitarea atribuțiilor de serviciu de către funcționarul public debutant;
+
+d) interviului cu funcționarul public debutant.
+
+(2) Cu cel mult 5 zile lucrătoare înainte de terminarea perioadei de stagiu funcționarul public debutant întocmește un document denumit raport de stagiu, pe care îl înaintează evaluatorului și care cuprinde descrierea activității desfășurate pe parcursul acestei perioade, prin prezentarea atribuțiilor, a modalităților de îndeplinire a acestora, precum și a eventualelor dificultăți întâmpinate.
+
+(3) Cu cel mult 5 zile lucrătoare înainte de terminarea perioadei de stagiu îndrumătorul întocmește un document denumit referat, pe care îl înaintează evaluatorului și care cuprinde următoarele elemente:
+
+a) descrierea activității desfășurate de funcționarul public debutant;
+
+b) competențele generale pe care le-a dovedit funcționarul public debutant în modul de îndeplinire a atribuțiilor de serviciu;
+
+c) conduita funcționarului public debutant în timpul serviciului;
+
+d) concluzii privind desfășurarea perioadei de stagiu și recomandări privind definitivarea acesteia.
+
+(4) În cazul modificării, suspendării sau încetării raportului de serviciu ori în situația aplicării unei sancțiuni disciplinare îndrumătorului, acesta întocmește referatul prevăzut la alin. (3) pentru perioada de stagiu parcursă de funcționarul public debutant până în acel moment, iar conducătorul autorității sau instituției publice numește un alt funcționar public definitiv, în calitate de îndrumător, pentru perioada de stagiu rămasă neefectuată. Referatul astfel întocmit se înaintează evaluatorului și este avut în vedere la evaluarea funcționarului public debutant la terminarea perioadei de stagiu.
+
+(5) Competențele generale pe baza cărora se realizează evaluarea activității funcționarului public debutant sunt prevăzute la art. 17 din anexa nr. 8 la prezentul cod.
+
+Art. 29 - Interviul reprezintă un schimb de informații care are loc între evaluator și funcționarul public debutant, anterior finalizării raportului de evaluare, în cadrul căruia:
+
+a) se aduc la cunoștință funcționarului public debutant evaluat consemnările făcute de evaluator în raportul de evaluare;
+
+b) se semnează și se datează raportul de evaluare de către evaluator și de către funcționarul public debutant evaluat.
+
+Art. 30 - (1) Pentru completarea raportului de evaluare a perioadei de stagiu, evaluatorul:
+
+a) analizează raportul de stagiu completat de către funcționarul public debutant și referatul întocmit de către îndrumător;
+
+b) notează manifestarea competențelor generale, cunoașterea specificului și a principiilor care guvernează administrația publică și a raporturilor administrative din cadrul autorității sau instituției publice, precum și cunoașterea reglementărilor specifice domeniului de activitate, în funcție de gradul de îndeplinire a atribuțiilor de serviciu;
+
+c) stabilește calificativul de evaluare;
+
+d) formulează propuneri cu privire la numirea într-o funcție publică definitivă sau la eliberarea din funcția publică.
+
+(2) Pentru notarea competențelor generale în funcție de gradul de îndeplinire a atribuțiilor de serviciu, evaluatorul:
+
+a) notează competența generală cu note de la 1 la 5, în funcție de prezența indicatorilor comportamentali în activitățile realizate de funcționarului public debutant pentru exercitarea atribuțiilor din fișa postului.
+
+b) notează gradul de cunoaștere a specificului administrației publice și a exigențelor acesteia cu note de la 1 la 5, nota 1 fiind cea mai mică, iar nota 5 fiind cea mai mare;
+
+(3) Fiecare competență generală se notează cu note de la 1 la 5, astfel:
+
+a) 1 - competență slabă, manifestată prin absenta indicatorilor comportamentali;
+
+b) 2 - competență care implică ghidaj suplimentar constant, manifestată prin prezența indicatorilor comportamentali într-o mică măsură;
+
+c) 3 - competență manifestată prin prezența indicatorilor comportamentali într-o măsură acceptabilă;
+
+d) 4 - competență manifestată prin prezența indicatorilor comportamentali într-o mare măsură;
+
+e) 5 - competență manifestată prin prezența tuturor indicatorilor comportamentali;
+
+(4) Nota finală a evaluării se calculează ca medie aritmetică a notelor acordate conform alin. (2).
+
+(5) Calificativul de evaluare se acordă în funcție de nota finală obținută, după cum urmează:
+
+a) între 1,00-3,00 se acordă calificativul „necorespunzător”;
+
+b) între 3,01-5,00 se acordă calificativul „corespunzător”.
+
+(6) Semnificația calificativelor de evaluare este următoarea:
+
+a) „necorespunzător" - funcționarul public debutant nu a făcut dovada că deține cunoștințele teoretice și deprinderile practice necesare exercitării funcției publice;
+
+b) „corespunzător" - funcționarul public debutant a făcut dovada că deține cunoștințele teoretice și deprinderile practice necesare exercitării funcției publice.
+
+(7) Evaluatorul formulează în raportul de evaluare a perioadei de stagiu, după caz:
+
+a) propunerea privind numirea funcționarului public debutant într-o funcție publică definitivă, în situația în care calificativul de evaluare este „corespunzător”;
+
+b) propunerea de eliberare din funcție, în condițiile legii, în situația în care funcționarul public debutant a obținut calificativul „necorespunzător”.
+
+(8) Indicatorii comportamentali aferenți competențelor generale evaluați potrivit dispozițiilor alin. (2) corespund nivelului de complexitate aferent categoriei funcției publice de execuție, grad profesional debutant, prevăzut la art. 17 din anexa nr. 8 la prezentul cod.
+
+Art. 31 - (1) Raportul de evaluare a perioadei de stagiu se aduce la cunoștința funcționarului public debutant în cadrul interviului prevăzut la art. 29 din prezenta anexă.
+
+(2) În cazul în care între funcționarul public debutant și evaluator există diferențe de opinie asupra conținutului raportului de evaluare se procedează astfel:
+
+a) în situația în care se ajunge la un punct de vedere comun, evaluatorul poate modifica raportul de evaluare;
+
+b) în situația în care nu se ajunge la un punct de vedere comun, funcționarul public debutant consemnează comentariile sale în raportul de evaluare, în secțiunea dedicată.
+
+(3) În situația în care funcționarul public debutant evaluat refuză să semneze raportul de evaluare, acest aspect se consemnează într-un proces-verbal întocmit de către evaluator și semnat de către acesta și un martor.
+
+(4) Refuzul funcționarului public debutant de a semna raportul de evaluare nu împiedică producerea efectelor juridice ale acestuia.
+
+(5) La finalizarea evaluării, o copie a raportului de evaluare se comunică funcționarului public debutant.
+
+Art. 32 - (1) Funcționarul public debutant nemulțumit de evaluarea comunicată potrivit art. 31 alin. (5) din prezenta anexă o poate contesta în cadrul procedurii de evaluare, în termen de 5 zile lucrătoare de la data luării la cunoștință, la conducătorul autorității sau instituției publice.
+
+(2) Conducătorul autorității sau instituției publice soluționează contestația pe baza raportului de evaluare a perioadei de stagiu, a referatului întocmit de îndrumător și a raportului de stagiu redactat de funcționarul public debutant, în termen de 10 zile lucrătoare de la data expirării termenului de depunere a contestației.
+
+(3) Pe baza documentelor prevăzute la alin. (2), conducătorul autorității sau instituției publice respinge motivat contestația sau o admite, caz în care modifică raportul de evaluare în mod corespunzător. Rezultatul contestației se comunică funcționarului public debutant în termen de 5 zile calendaristice de la data soluționării acesteia.
+
+(4) La expirarea termenului prevăzut la alin. (1), în condițiile în care funcționarul public debutant nu a contestat rezultatul evaluării, respectiv la expirarea termenului prevăzut la alin. (3) raportul de evaluare se comunică compartimentului de resurse umane pentru a fi depus la dosarul profesional, precum și pentru a asigura aplicarea de conducătorul autorității sau instituției publice a dispozițiilor art. 33 din prezenta anexă.
+
+(5) O copie a raportului de evaluare se comunică funcționarului public debutant.
+
+(6) Funcționarul public debutant nemulțumit de rezultatul evaluării activității sale, pe care l-a contestat în condițiile alin. (1), se poate adresa instanței de contencios administrativ, în condițiile legii.
+
+Art. 33 - (1) Funcționarii publici debutanți care au obținut la evaluarea pe bază de competențe calificativul „corespunzător” sunt numiți, prin transformarea postului, funcționari publici definitivi în funcția publică de execuție din clasa corespunzătoare studiilor absolvite deținută, în gradul profesional „asistent”.
+
+(2) În situația în care funcționarii publici debutanți au obținut la evaluarea pe bază de competențe calificativul „necorespunzător”, conducătorul autorității sau instituției publice dispune prin act administrativ eliberarea din funcția publică, în condițiile legii.
+
+Art. 34 - Formularele standard utilizate în cadrul procedurilor de evaluare a performanțelor profesionale individuale ale funcționarilor publici debutanți sunt următoarele:
+
+a) raport de evaluare a perioadei de stagiu al funcționarului public debutant, conform pct. III;
+
+b) raport de stagiu al funcționarului public debutant, conform pct. IV
+
+c) referatul îndrumătorului, conform pct. V.
+
+III. Raport de evaluare a perioadei de stagiu al functionarului public debutant
+
+| Autoritatea sau instituția publică:Departamentul/ compartimentul: |
+| --- |
+| Numele și prenumele funcționarului public evaluat:Funcția publică: |
+| Numele superiorului ierarhic care realizează evaluarea:Funcția publică: |
+| Perioada de stagiu: |
+| Data evaluării: |
+
+Secțiunea 1 – Evaluarea competențelor generale și a cunoștințelor teoretice necesare îndeplinirii atribuțiilor aferente unei funcții publice, pe durata stagiului
+
+<table>
+<tbody>
+<tr><td colspan="3">Competența generală:</td></tr>
+<tr><td colspan="3">Definiția competenței:Indicator 1:Indicator 2:Indicator 3:Indicator ...</td></tr>
+<tr><td>Nota competenței generale :</td><td colspan="2"></td></tr>
+<tr><td colspan="3">Motivarea notei propuse de evaluator:</td></tr>
+<tr><td colspan="2">Nota aferentă gradului de cunoaștere a specificului administrației publice și a exigențelor acesteia</td><td></td></tr>
+<tr><td colspan="3">Motivarea notei propuse de evaluator:</td></tr>
+<tr><td colspan="3">Sinteza evaluării competențelor și a cunoștințelor teoretice</td></tr>
+<tr><td>Lista competențelor generale și a gradului de cunoaștere a specificului administrației publice și a exigențelor acesteia</td><td>Nota fiecărei competențe și a gradului de cunoaștere a specificului administrației publice și a exigențelor acesteia</td><td>Notă finală evaluare competențe și cunoștințe teoretice.</td></tr>
+<tr><td>Competența generală 1: Rezolvarea de probleme și luarea deciziilor</td><td></td><td rowspan="8"></td></tr>
+<tr><td>Competența generală 2: Inițiativă</td><td></td></tr>
+<tr><td>Competența generală 3: Planificare și organizare</td><td></td></tr>
+<tr><td>Competența generală 4: Comunicare</td><td></td></tr>
+<tr><td>Competența generală 5: Lucru în echipă</td><td></td></tr>
+<tr><td>Competența generală 6: Orientare către cetățean</td><td></td></tr>
+<tr><td>Competența generală 7: Integritate</td><td></td></tr>
+<tr><td>Gradul de cunoaștere a specificului administrației publice și a exigențelor acesteia</td><td></td></tr>
+</tbody>
+</table>
+
+Secțiunea a 2-a – Calificativul final și acordul părților cu privire la rezultatul evaluării aferente stagiului
+
+| Nota finală a evaluării |  |
+| --- | --- |
+| Calificativul de evaluare |  |
+| Propunerea evaluatorului |  |
+| Competențele care trebuie incluse în planul individual de dezvoltare |  |
+| Observații finale ale funcționarului public evaluat |  |
+| Observații finale ale evaluatorului |  |
+| Numele și prenumele funcționarului public evaluatSemnătura funcționarului public evaluat:Data: |  |
+| Numele și prenumele evaluatoruluiSemnătura funcționarului public evaluator:Data: |  |
+
+IV. Raportul de stagiu al functionarului public debutant
+
+| Autoritatea sau instituția publică:............Compartimentul............ |
+| --- |
+| Numele și prenumele funcționarului public debutant............Perioada de stagiu: de la............la............ |
+| Atribuțiile de serviciu (conform fișei postului):1............2............3............4............ |
+| Activitățile desfășurate efectiv: |
+| 1............ |
+| 2............ |
+| 3............ |
+| Dificultăți întâmpinate pe parcursul perioadei de stagiu: |
+| 1............ |
+| 2............ |
+| 3............ |
+| Activități din afara instituției în care s-a implicat: |
+| 1............ |
+| 2............ |
+| 3............ |
+| Data întocmirii ............ |
+| Semnătura ............ |
+
+## V. Referatul îndrumătorului
+
+| Autoritatea sau instituția publică:............ |
+| --- |
+| Numele și prenumele funcționarului public debutant............ |
+| Funcția publică............ |
+| Compartimentul............ |
+| Perioada de stagiu: de la..............la............ |
+| Principalele activități ale funcționarului public debutant: |
+| 1............ |
+| 2............ |
+| 3............ |
+| 4............ |
+| 5............ |
+| Activități desfășurate în cadrul altor compartimente ale autorității sau instituției publice: |
+| 1............ |
+| 2............ |
+| 3............ |
+| Rezultate deosebite pe durata stagiului (dacă este cazul): |
+| 1............ |
+| 2............ |
+| 3............ |
+| Aptitudinile pe care le-a dovedit funcționarul public debutant în modul de îndeplinire a atribuțiilor de serviciu: |
+| 1............ |
+| 2............ |
+| 3............ |
+| Conduita funcționarului public debutant în timpul serviciului: |
+| Modul de colaborare cu personalul autorității sau instituției publice: |
+| Programele de formare la care a participat funcționarul public debutant: |
+| 1............ |
+| 2............ |
+| Concluzii ............ |
+| Recomandări ............ |
+| Propuneri privind perfectionarea funcționarului public debutant: |
+| 1............ |
+| 2............ |
+| Numele și prenumele îndrumătorului ............ |
+| Funcția publică ............ |
+| Data completării ............ |
+| Semnătura ............ |
+
+Art. 35 - Scala de notare pentru evaluarea competențelor specifice este detaliată după cum urmează:
+
+| Notă | Definiție |
+| --- | --- |
+| 1 – Competență slabă, care necesită dezvoltare imediată | Nu stăpânește cunoștințele, atitudinile, aptitudinile și abilitățile pentru a-și duce la bun sfârșit activitățile, iar asta duce la realizarea de erori și/ sau neîndeplinirea unor sarcini;În situația în care îi lipsesc cunoștințe specifice, are dificultăți în a identifica sursele necesare de informație pentru a-și finaliza activitățile;Primește observații constante cu privire la modul în care tratează procesele/ procedurile care guvernează munca sa;Primește reclamații de la superiorul direct/ colegi cu privire la calitatea lucrărilor pe care acesta le pregătește. |
+| 2 – Competență care implică ghidaj suplimentar constant | Deține într-o proporție scăzută cunoștințele, atitudinile, aptitudinile și abilitățile necesare pentru a-și duce la bun sfârșit activitățile, fără erori materiale;Aplică suboptim competența specifică asupra activității derulate, existând nevoia îmbunătățirii calității și vitezei procesului;În situația în care îi lipsesc cunoștințe specifice, caută și identifică anumite surse pentru a avansa în realizarea activităților;Urmărește parțial procedurile și procesele de lucru. |
+
+## Notă
+
+## Definitie
+
+5 - Competență manifestată proactiv și prin ghidajul constant al colegilor pentru atingerea celor mai bune rezultate și de către aceștia.
+
+\- Deține în proporție relevantă cunoștințele, atitudinile, aptitudinile și abilitățile necesare pentru a-și duce la bun sfârșit activitățile, fără erori materiale;
+
+\- Aplică în mod corect competența specifică, aferentă activității derulate, existând însă posibilitatea îmbunătățirii vitezei procesului;
+
+\- În situația în care ii lipsesc cunoștințe specifice, identifică sursele necesare pentru a-și finaliza cu succes activitățile;
+
+\- Cunoaște și respectă procedurile de lucru în totalitate.
+
+\- Deține cunoștințele, atitudinile, aptitudinile și abilitățile necesare pentru a-și duce la bun sfârșit activitățile, fără erori semnificative;
+
+\- Aplică în mod corect competența specifică, aferentă activității derulate și manifestă interes pentru dezvoltarea/aprofundarea acesteia;
+
+\- În situația în care îi lipsesc cunoștințele specifice, identifică cele mai adecvate surse de informații pentru a-și finaliza cu succes activitățile; solicită deopotrivă în mod proactiv instruire formală;
+
+\- Propune modalități de îmbunătățire a activităților/proceselor derulate.
+
+\- Este considerat ca având un maxim de cunoștințe, atitudini, aptitudini și abilități în domeniul său;
+
+\- Împărtășește celorlalți cunoștințele avute putând fi considerat indispensabil pentru activitățile pe care le desfășoară;
+
+\- Demonstrează o înțelegere largă a modului în care funcționează instituția și realizează conexiuni facile între tipurile de competențe necesare;
+
+\- Este un promotor al învățării continue: își asumă în mod constant rol de consiliere și îndrumare pentru colegii săi;
+
+\- Propune cadre integrate de lucru, interdepartamentale.
+
+(Anexa nr. 6² la Ordonanța de urgență a Guvernului nr. 57/2019)
+
+Metodologie pentru realizarea procesului de evaluare multianuală a performanțelor profesionale individuale ale funcționarilor publici din categoria înalților funcționari publici și ale funcționarilor publici de conducere care ocupă funcții sensibile
+
+Art. 1 – (1) Prezenta anexă reglementează metodologia de evaluare multianuală a performanțelor profesionale individuale ale funcționarilor publici din categoria înalților funcționari publici și ale funcționarilor publici de conducere care ocupă funcții sensibile, prevăzuți la art. 374² alin. (6) din prezentul cod.
+
+(2) Evaluarea multianuală a performanțelor profesionale individuale este realizată de comisiile prevăzute la art. 398² alin. (4) și art. 485³ alin. (1) din prezentul cod.
+
+Art. 2 - (1) Evaluarea multianuală a performanțelor profesionale individuale ale funcționarilor publici prevăzuți la art. 1 alin. (1) din prezenta anexă se face o dată la 3 ani pentru înalții funcționari publici, respectiv o dată la 5 ani pentru funcționari publici de conducere în scopul aprecierii performanțelor profesionale individuale obținute pe parcursul unui mandat și/sau pe parcursul implementării planului de management al structurii/structurilor conduse prevăzut la art. 397¹ alin. (1) și art. 485³ alin. (3) din prezentul cod, după caz.
+
+(2) Perioada de evaluare începe la data începerii mandatului sau a planului de management al structurii/structurilor conduse, în condițiile expres prevăzute de lege sau prin actul administrativ emis în acest sens.
+
+(3) În cazul în care mandatul sau perioada implementării planului de management al structurii/structurilor conduse se întrerupe, evaluarea multianuală a performanțelor profesionale individuale ale funcționarilor publici prevăzuți la art. 1 alin. (1) se face pentru perioada în care funcția publică din categoria înalților funcționari publici, respectiv funcția publică de conducere, s-a exercitat, cu condiția ca această perioadă să fie mai lungă de un an. Prezenta metodologie include procedura de adaptare a evaluării multianuale a performanțelor profesionale individuale pentru perioade mai scurte de 3, respectiv 5 ani, după caz.
+
+(4) Ca urmare a evaluării multianuale a performanțelor profesionale individuale, funcționarului public i se acordă unul dintre următoarele calificative: „foarte bine”, „bine”, „suficient”, „insuficient”.
+
+(5) În cadrul procesului de evaluare multianuală a performanțelor profesionale individuale ale funcționarilor publici prevăzuți la art. 1 alin. (1) se stabilesc cerințele de formare profesională a acestora în ceea ce privește competențele de management și /sau leadership.
+
+(6) Ca urmare a procesului de evaluare multianuală a performanțelor profesionale individuale ale funcționarilor publici prevăzuți la art. 1 alin. (1), dacă au obținut cel puțin calificativul „bine”, aceștia pot fie să continue să ocupe funcția publică din categoria înalților funcționari publici sau funcția publică de conducere, fie să între într-un proces de rotație.
+
+(7) Dacă au obținut calificativul „suficient”, funcționarii publici prevăzuți la art. 1 alin. (1) sunt îndrumați către un program de perfectionare profesională.
+
+(8) Dacă au obținut calificativul „insuficient”, funcționarii publici din categoria înalților funcționari publici sunt eliberați din funcția publică deținută. Dacă au obținut calificativul „insuficient”, funcționarii publici de conducere prevăzuți la art. 1 alin. (1) sunt mutați pe o funcție publică de execuție vacantă, iar dacă refuză sunt eliberați din funcția publică.
+
+Art. 3 - Evaluarea multianuală a performanțelor profesionale individuale ale înalților funcționari publici și ale funcționarilor publici de conducere are în vedere obiectivele de performanță și capacitatea funcționarilor publici din categoriile specificate la art. 1 alin. (1) de a urmări aceste obiective, pe baza următoarelor documente:
+
+a) planurile de management ale structurilor funcționale conduse, elaborate de funcționarii publici din categoriile specificate la art. 1 alin. (1) conform art. 397¹ alin (1) și art. 485³ alin. (3) din prezentul cod.
+
+b) raportul de activitate întocmit de înaltul funcționar public sau funcționarul public de conducere prevăzut la art. 1 alin. (1), după caz, în care acesta evaluează gradul de atingere a obiectivelor de performanță din planul de management al structurii conduse și prezintă activitățile cu caracter deosebit, care au contribuit la dezvoltarea instituțională sau la cooperarea în structuri de cooperare inter-instituționale în țară sau străinătate ori participarea la activități cu caracter deosebit prin care și-a dezvoltat competențele profesionale în mod semnificativ;
+
+c) toate rapoartele de evaluare anuală a performanțelor profesionale individuale, elaborate pe perioada de referință pentru evaluarea multianuală, pentru funcționarul public evaluat;
+
+d) fișa postului înaltului funcționar public evaluat sau funcționarului public de conducere evaluat, după caz.
+
+Art. 4. – (1) Criteriile pentru evaluarea multianuală a performanțelor profesionale individuale ale funcționarilor publici prevăzuți la art. 1 alin. (1) sunt rezultatul evaluărilor anuale ale performanțelor profesionale ale funcționarilor publici, îndeplinirea obiectivelor manageriale conform planului de management al structurii/structurilor conduse, participarea la activități cu caracter deosebit, conform prevederilor de la alin. (2) - (6).
+
+(2) Rezultatul evaluărilor anuale ale performanțelor profesionale ale înalților funcționari publici pentru perioada de referință reprezintă 40% din punctajul evaluării multianuale a performanțelor profesionale individuale, maximum 40 de puncte, rezultate din înmulțirea cu 8 a mediei aritmetice a notelor obținute la evaluarea anuală a performanțelor profesionale individuale din cei 3 ani supuși evaluării. În cazul în care evaluarea se face pe o perioadă mai scurtă de timp, se aplică prevederile art. 6 alin. (3).
+
+(3) Rezultatul evaluărilor anuale ale performanțelor profesionale ale funcționarilor publici pentru perioada de referință reprezintă 40% din punctajul evaluării multianuale a performanțelor profesionale individuale, maximum 40 de puncte, rezultate din înmulțirea cu 8 a mediei aritmetice a notelor obținute la evaluarea anuală a performanțelor profesionale individuale din cei 5 ani supuși evaluării. În cazul în care evaluarea se face pe o perioadă mai scurtă de timp, se aplică prevederile art. 6 alin. (6)
+
+(4) Îndeplinirea obiectivelor manageriale conform planului de management al structurii/structurilor conduse, întocmit în raport cu Planul strategic instituțional al autorității sau instituției publice în care au fost numiți la nivelul ministerelor și al Secretariatului General al Guvernului, respectiv cu alte documente strategice de la nivelul autorității sau instituției publice în care au fost numiți, dacă Planul strategic instituțional nu este întocmit, precum și pentru alte autorități și instituții publice ale administrației publice centrale reprezintă 40% din punctajul evaluării multianuale a performanțelor profesionale individuale, maximum 40 de puncte, atât pentru înalții funcționari publici, cât și pentru funcționarii publici de conducere.
+
+(5) Participarea înalților funcționari publici și a funcționarilor publici de conducere prevăzuți la art. 374² alin. (6) la activități cu caracter deosebit, care au contribuit la dezvoltarea instituțională sau la cooperarea în structuri de cooperare inter-instituționale în țară sau străinătate ori participarea la activități cu caracter deosebit prin care și-a dezvoltat competențele profesionale în mod semnificativ reprezintă 20% din punctajul evaluării multianuale a performanțelor profesionale individuale, maximum 20 de puncte.
+
+(6) Totalul punctajului care poate fi obținut este de 100 de puncte.
+
+(7) Calificativul final al evaluării multianuale a performanțelor profesionale individuale se stabilește pe baza punctajelor finale, după cum urmează:
+
+a) între 0 și 50 puncte – insuficient;
+
+b) între 50 și 70 puncte – suficient;
+
+c) între 70 și 90 puncte – bine;
+
+d) între 90 și 100 puncte – foarte bine.
+
+Art. 5 - Formularele standard ale Raportului de evaluare multianuală a performanțelor profesionale individuale pentru înalții funcționari publici și funcționarii publici de conducere prevăzuți la art. 1 alin. (1) sunt prevăzute la pct. I. și II.
+
+I. Raportul de evaluare multianuală a performanțelor profesionale individuale pentru înalții funcționari publici prevăzuți la art. 1 alin. (1) din anexa nr. 6² la Ordonanța de urgență a Guvernului nr. 57/2019, cu modificările și completările ulterioare:
+
+| Autoritatea sau instituția publică: |
+| --- |
+| Numele și prenumele înaltului funcționar public evaluat: |
+| Funcția publică: |
+| Data numirii în funcția publică deținută în prezent: |
+| Perioada evaluată: |
+
+a) Notarea aferentă evaluărilor profesionale individuale anuale pentru perioada de referință
+
+<table>
+<tbody>
+<tr><td rowspan="2">Punctajul obținut la evaluările anuale anterioare pentru perioada de referință (perioada desfășurării mandatului sau echivalent/perioada de implementare a planului de management al structurii/structurilor funcționale conduse, după caz)</td><td>An 1</td><td>An 2</td><td>An 3</td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td colspan="4">Nota aferentă evaluărilor profesionale anuale pentru perioada de referință1: media aritmetică a evaluărilor anuale x 8 în vederea obținerii unui maximum de 40 de puncte.</td></tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr><td colspan="7">a) Notarea aferentă îndeplinirii obiectivelor din planul de management structurii/structurilor funcționale conduse</td></tr>
+<tr><td>Obiectivul individual 1</td><td>Indicatori de performanță tintă²</td><td>Nota 1</td><td>Nota 2</td><td>Nota 3</td><td>Nota 4</td><td>Nota 5</td></tr>
+<tr><td>Descrierea obiectivului:Obiectivul instituțional/ departamental asociat:</td><td>Indicator 1Se completează în funcție de numărul de indicatori propuși</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="7">Nota aferentă obiectivului individual 1³:</td></tr>
+<tr><td colspan="7">Comentarii în sprijinul notei acordate4:</td></tr>
+<tr><td>Obiectivul individual 2</td><td>Indicatori de performanță tintă2</td><td>Nota 1</td><td>Nota 2</td><td>Nota 3</td><td>Nota 4</td><td>Nota 5</td></tr>
+<tr><td>Descrierea obiectivului:Obiectivul instituțional/ departamental asociat:</td><td>Indicator 1Se completează în funcție de numărul de indicatori propuși</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="7">Nota aferentă obiectivului individual 2³:</td></tr>
+<tr><td colspan="7">Comentarii în sprijinul notei acordate4:</td></tr>
+<tr><td>Obiectivul individual 3</td><td>Indicatori de performanță tintă²</td><td>Nota 1</td><td>Nota 2</td><td>Nota 3</td><td>Nota 4</td><td>Nota 5</td></tr>
+<tr><td>Descrierea obiectivului:</td><td>Indicator 1</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Obiectivul instituțional/ departamental asociat:</td><td>Se completează în funcție de numărul de indicatori propuși</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="7">Nota aferentă obiectivului individual 3³:</td></tr>
+<tr><td colspan="7">Comentarii în sprijinul notei acordate4:</td></tr>
+<tr><td>Obiectivul individual 4</td><td>Indicatori de performanță tintă²</td><td>Nota 1</td><td>Nota 2</td><td>Nota 3</td><td>Nota 4</td><td>Nota 5</td></tr>
+<tr><td>Descrierea obiectivului:Obiectivul instituțional/ departamental asociat:</td><td>Indicator 1Se completează în funcție de numărul de indicatori propuși</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="7">Nota aferentă obiectivului individual 4³:</td></tr>
+<tr><td colspan="7">Comentarii în sprijinul notei acordate4:</td></tr>
+<tr><td>Obiectivul individual 5</td><td>Indicatori de performanță tintă²</td><td>Nota 1</td><td>Nota 2</td><td>Nota 3</td><td>Nota 4</td><td>Nota 5</td></tr>
+<tr><td>Descrierea obiectivului:Obiectivul instituțional/ departamental asociat:</td><td>Indicator 1Se completează în funcție de numărul de indicatori propuși</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="7">Nota aferentă obiectivului individual 5³:</td></tr>
+<tr><td colspan="7">Comentarii în sprijinul notei acordate4:</td></tr>
+<tr><td>Obiectivul individual 6</td><td>Indicatori de performanță tintă²</td><td>Nota 1</td><td>Nota 2</td><td>Nota 3</td><td>Nota 4</td><td>Nota 5</td></tr>
+<tr><td>Descrierea obiectivului:Pondere:Obiectivul instituțional/ departamental asociat:</td><td>Indicator 1Se completează în funcție de numărul de indicatori propuși</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="7">Nota aferentă obiectivului individual 6³:</td></tr>
+<tr><td colspan="7">Comentarii în sprijinul notei acordate4:</td></tr>
+<tr><td>Obiectivul individual 7</td><td>Indicatori de performanță tintă²</td><td>Nota 1</td><td>Nota 2</td><td>Nota 3</td><td>Nota 4</td><td>Nota 5</td></tr>
+<tr><td>Descrierea obiectivului:Pondere:Obiectivul instituțional/ departamental asociat:</td><td>Indicator 1Se completează în funcție de numărul de indicatori propuși</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="7">Nota aferentă obiectivului individual 7³:</td></tr>
+<tr><td colspan="7">Comentarii în sprijinul notei acordate4:</td></tr>
+<tr><td>Obiectivul individual 8</td><td>Indicatori de performanță tintă²</td><td>Nota 1</td><td>Nota 2</td><td>Nota 3</td><td>Nota 4</td><td>Nota 5</td></tr>
+<tr><td>Descrierea obiectivului:Pondere:Obiectivul instituțional/ departamental asociat:</td><td>Indicator 1Se completează în funcție de numărul de indicatori propuși</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="7">Nota aferentă obiectivului individual 8³:</td></tr>
+<tr><td colspan="7">Comentarii în sprijinul notei acordate4:</td></tr>
+<tr><td colspan="7">Nota aferentă obiectivelor individuale din planul de management:</td></tr>
+</tbody>
+</table>
+
+b) Notarea aferentă participării la activități care au contribuit la dezvoltarea instituțională sau la cooperarea în structuri de cooperare inter-instituționale ori participării la activități de dezvoltare semnificativă a competențelor
+
+<table>
+<tbody>
+<tr><td>Punctaj pentru participarea la activități cu caracter deosebit, care au contribuit la dezvoltarea instituțională sau la cooperarea în structuri de cooperare inter-instituționale în țară sau străinătate ori participarea la activități cu caracter deosebit prin care și-a dezvoltat competențele profesionale în mod semnificativ (max. 5 puncte pe activitate)</td><td>Nota 1</td><td>Nota 2</td><td>Nota 3</td><td>Nota 4</td><td>Nota 5</td></tr>
+<tr><td colspan="2">Lista activităților este orientativă. Se punctează numărul de activități raportate de înaltul funcționar public evaluat, cu un maxim de 5 puncte / activitate și un maxim de 20 puncte în total</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Activitatea 1</td><td>Descrierea activității:</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Activitatea 2</td><td>Descrierea activității:</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Activitatea 3</td><td>Descrierea activității:</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Activitatea 4</td><td>Descrierea activității:</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="7">Nota aferentă participării la activități cu caracter deosebit, care au contribuit la dezvoltarea instituțională sau la cooperarea în structuri de cooperare inter-instituționale în țară sau străinătate ori participarea la activități cu caracter deosebit prin care și-a dezvoltat competențele profesionale în mod semnificativ:</td></tr>
+<tr><td colspan="7">Comentarii în sprijinul notei acordate4:</td></tr>
+</tbody>
+</table>
+
+¹Se calculează media aritmetică a celor 3 note corespunzătoare evaluărilor anuale ale performanțelor profesionale individuale din perioada celor 3 ani supuși evaluării multianuale și se înmulțește cu 8, reprezentând numărul corespunzător obiectivelor individuale stabilite.
+
+²În planul de management al structurii/structurilor funcționale conduse se va defini modul în care se va identifica atingerea cu succes a obiectivului. Fiecare obiectiv îndeplinit se punctează cu note de la 1 la 5 unde nota 1 reprezintă nivelul minim de atingere a fiecăruia dintre obiectivele individuale în raport cu indicatorii de performanță iar nota 5 reprezintă nivelul maxim;
+
+³ Se va calcula ca medie aritmetică a notelor acordate îndeplinirii obiectivelor evaluate;
+
+⁴Se va explica modul în care a fost îndeplinit obiectivul, utilizând ca referință indicatorii predefiniți. În situația în care nota acordată pentru modalitatea de îndeplinire a unui obiectiv nu este 5 se va explica de ce performanța funcționarului public evaluat nu a putut fi evaluată cu nota 5.
+
+II. Raportul de evaluare multianuală a performanțelor profesionale individuale pentru funcționarii publici de conducere prevăzuți la art. 1 alin. (1) din anexa nr. 6² la Ordonanța de urgență a Guvernului nr. 57/2019, cu modificările și completările ulterioare:
+
+| Autoritatea sau instituția publică: |
+| --- |
+| Numele și prenumele funcționarului public de conducere evaluat: |
+| Funcția publică: |
+| Data numirii în funcția publică deținută în prezent: |
+| Perioada evaluată: |
+
+a) Notarea aferentă evaluărilor profesionale individuale anuale pentru perioada de referință
+
+<table>
+<tbody>
+<tr><td rowspan="2">Punctajul obținut la evaluările anuale anterioare pentru perioada de referință (perioada desfășurării mandatului sau echivalent/perioada de implementare a planului de management al structurii/structurilor funcționale conduse, după caz)</td><td>An 1</td><td>An 2</td><td>An 3</td><td>An 4</td><td>An 5</td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="6">Nota aferentă evaluărilor profesionale anuale pentru perioada de referință1: media aritmetică a evaluărilor anuale x 8 în vederea obținerii unui maximum de 40 de puncte.</td></tr>
+</tbody>
+</table>
+
+b) Notarea aferentă îndeplinirii obiectivelor din planul de management al structurii/structurilor funcționale conduse
+
+<table>
+<tbody>
+<tr><td>Obiectivul individual 1</td><td>Indicatori de performanță țintă²</td><td>Nota 1</td><td>Nota 2</td><td>Nota 3</td><td>Nota 4</td><td>Nota 5</td></tr>
+<tr><td>Descrierea obiectivului:Obiectivul instituțional/ departamental asociat:</td><td>Indicator 1Se completează în funcție de numărul de indicatori propuși</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="7">Nota aferentă obiectivului individual 1³:</td></tr>
+<tr><td colspan="7">Comentarii în sprijinul notei acordate4:</td></tr>
+<tr><td>Obiectivul individual 2</td><td>Indicatori de performanță țintă²</td><td>Nota 1</td><td>Nota 2</td><td>Nota 3</td><td>Nota 4</td><td>Nota 5</td></tr>
+<tr><td>Descrierea obiectivului:</td><td>Indicator 1</td><td></td><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr><td>Obiectivul instituțional/ departamental asociat:</td><td>Se completează în funcție de numărul de indicatori propuși</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="7">Nota aferentă obiectivului individual 23:</td></tr>
+<tr><td colspan="7">Comentarii în sprijinul notei acordate4:</td></tr>
+<tr><td>Obiectivul individual 3</td><td>Indicatori de performanță țintă²</td><td>Nota 1</td><td>Nota 2</td><td>Nota 3</td><td>Nota 4</td><td>Nota 5</td></tr>
+<tr><td>Descrierea obiectivului:Obiectivul instituțional/ departamental asociat:</td><td>Indicator 1Se completează în funcție de numărul de indicatori propuși</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="7">Nota aferentă obiectivului individual 33:</td></tr>
+<tr><td colspan="7">Comentarii în sprijinul notei acordate4:</td></tr>
+<tr><td>Obiectivul individual 4</td><td>Indicatori de performanță țintă²</td><td>Nota 1</td><td>Nota 2</td><td>Nota 3</td><td>Nota 4</td><td>Nota 5</td></tr>
+<tr><td>Descrierea obiectivului:Obiectivul instituțional/ departamental asociat:</td><td>Indicator 1Se completează în funcție de numărul de indicatori propuși</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="7">Nota aferentă obiectivului individual 43:</td></tr>
+<tr><td colspan="7">Comentarii în sprijinul notei acordate4:</td></tr>
+<tr><td>Obiectivul individual 5</td><td>Indicatori de performanță țintă²</td><td>Nota 1</td><td>Nota 2</td><td>Nota 3</td><td>Nota 4</td><td>Nota 5</td></tr>
+<tr><td>Descrierea obiectivului:Obiectivul instituțional/ departamental asociat:</td><td>Indicator 1Se completează în funcție de numărul de indicatori propuși</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="7">Nota aferentă obiectivului individual 53:</td></tr>
+<tr><td colspan="7">Comentarii în sprijinul notei acordate4:</td></tr>
+<tr><td>Obiectivul individual 6</td><td>Indicatori de performanță țintă²</td><td>Nota 1</td><td>Nota 2</td><td>Nota 3</td><td>Nota 4</td><td>Nota 5</td></tr>
+<tr><td>Descrierea obiectivului:Pondere:Obiectivul instituțional/ departamental asociat:</td><td>Indicator 1Se completează în funcție de numărul de indicatori propuși</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="7">Nota aferentă obiectivului individual 6³:</td></tr>
+<tr><td colspan="7">Comentarii în sprijinul notei acordate4:</td></tr>
+<tr><td>Obiectivul individual 7</td><td>Indicatori de performanță țintă²</td><td>Nota 1</td><td>Nota 2</td><td>Nota 3</td><td>Nota 4</td><td>Nota 5</td></tr>
+<tr><td>Descrierea obiectivului:Pondere:Obiectivul instituțional/ departamental asociat:</td><td>Indicator 1Se completează în funcție de numărul de indicatori propuși</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="7">Nota aferentă obiectivului individual 7³:</td></tr>
+<tr><td colspan="7">Comentarii în sprijinul notei acordate4:</td></tr>
+<tr><td>Obiectivul individual 8</td><td>Indicatori de performanță țintă²</td><td>Nota 1</td><td>Nota 2</td><td>Nota 3</td><td>Nota 4</td><td>Nota 5</td></tr>
+<tr><td>Descrierea obiectivului:Pondere:Obiectivul instituțional/ departamental asociat:</td><td>Indicator 1Se completează în funcție de numărul de indicatori propuși</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="7">Nota aferentă obiectivului individual 8³:</td></tr>
+<tr><td colspan="7">Comentarii în sprijinul notei acordate4:</td></tr>
+<tr><td colspan="7">Nota aferentă obiectivelor individuale din planul de management:</td></tr>
+</tbody>
+</table>
+
+c) Notarea aferentă participării la activități care au contribuit la dezvoltarea instituțională sau la cooperarea în structuri de cooperare inter-instituționale ori participării la activități de dezvoltare semnificativă a competențelor
+
+<table>
+<tbody>
+<tr><td colspan="2">Punctaj pentru participarea la activități cu caracter deosebit, care au contribuit la dezvoltarea instituțională sau la cooperarea în structuri de cooperare inter-instituționale în țară sau străinătate ori participarea la activități cu caracter deosebit prin care și-a dezvoltat competențele profesionale în mod semnificativ (max. 5 puncte pe activitate)Lista activităților este orientativă. Se punctează numărul de activități raportate de funcționarul public de conducere evaluat, cu un maxim de 5 puncte / activitate și un maxim de 20 puncte în total</td><td>Nota 1</td><td>Nota 2</td><td>Nota 3</td><td>Nota 4</td><td>Nota 5</td></tr>
+<tr><td>Activitatea 1</td><td>Descrierea activității:</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Activitatea 2</td><td>Descrierea activității:</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Activitatea 3</td><td>Descrierea activității:</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Activitatea 4</td><td>Descrierea activității:</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="7">Nota aferentă participării la activități cu caracter deosebit, care au contribuit la dezvoltarea instituțională sau la cooperarea în structuri de cooperare inter-instituționale în țară sau străinătate ori participarea la activități cu caracter deosebit prin care și-a dezvoltat competențele profesionale în mod semnificativ:</td></tr>
+<tr><td colspan="7">Comentarii în sprijinul notei acordate4:</td></tr>
+</tbody>
+</table>
+
+| Punctaj final: |
+| --- |
+| 1. Nota aferentă evaluărilor profesionale anuale pentru perioada de referință (max. 40) + |
+| 2. Nota aferentă obiectivelor individuale din planul de management (max. 40) + |
+| 3. Nota aferentă participării la activități cu caracter deosebit, care au contribuit la dezvoltarea instituțională sau la cooperarea în structuri de cooperare inter-instituționale în țară sau străinătate ori participarea la activități cu caracter deosebit prin care și-a dezvoltat competențele profesionale în mod semnificativ (max. 20) + |
+| ....= (maximum 100) |
+
+¹Se calculează media aritmetică a celor 5 note corespunzătoare evaluărilor anuale ale performanțelor profesionale individuale din perioada celor 5 ani supuși evaluării multianuale și se înmulțește cu 8, reprezentând numărul corespunzător obiectivelor individuale stabilite.
+
+²În planul de management al structurii/structurilor funcționale conduse se va defini modul în care se va identifica atingerea cu succes a obiectivului. Fiecare obiectiv îndeplinit se punctează cu note de la 1 la 5 unde nota 1 reprezintă nivelul minim de atingere a fiecăruia dintre obiectivele individuale în raport cu indicatorii de performanță. iar nota 5 reprezintă nivelul maxim;
+
+³ Se calculează ca medie aritmetică a notelor acordate îndeplinirii obiectivelor evaluate;
+
+⁴Se calculează modul în care a fost îndeplinit obiectivul, utilizând ca referință indicatorii predefiniți. În situația în care nota acordată pentru modalitatea de îndeplinire a unui obiectiv nu este 5 se va explica de ce performanța funcționarului public evaluat nu a putut fi evaluată cu nota 5.
+
+Art. 6 – (1) Pentru înalții funcționari publici, media aritmetică a rezultatelor evaluărilor anuale ale performanțelor profesionale individuale pentru perioada de referință se înmulțește cu 8 pentru calcularea punctajului pentru criteriul prevăzut la art. 4 alin. (2). Perioada de referință este de maximum 3 ani, dar poate fi mai mică dacă înaltul funcționar public își modifică definitiv raporturile de serviciu prin transfer, mutare definitivă, promovare, mobilitate în categoria înalților funcționari publici.
+
+(2) Maximul ce poate fi obținut în urma evaluărilor anuale ale performanțelor profesionale individuale ale înalților funcționari publici este de 40 de puncte, reprezentând 3 evaluări cu punctaj maxim de 5 puncte la evaluările anuale și la modalitatea de calcul indicată la alin. (1).
+
+(3) În cazul în care înaltul funcționar public își modifică definitiv raporturile de serviciu prin transfer, mutare definitivă sau înainte de expirarea celor 3 ani de mandat sau pentru care a fost elaborat planul de management al structurii conduse, după caz, se iau în calcul evaluările anuale pentru perioada de referință astfel:
+
+a) dacă funcționarul public își modifică definitiv raporturile de serviciu la mai puțin de 2 ani de la data elaborării planului de management al structurii conduse, nota de la evaluarea anuală a performanțelor profesionale individuale se înmulțește cu 8, pentru a obține maximul de 40 de puncte;
+
+b) dacă funcționarul public își modifică definitiv raporturile de serviciu la mai mult de 2 ani de la data elaborării planului de management al structurii conduse, și s-au realizat două evaluări ale performanțelor profesionale individuale, se realizează media aritmetică a notelor obținute și rezultatul se înmulțește cu 8, pentru a obține maximul de 40 de puncte.
+
+(4) Pentru funcționarii publici de conducere, media aritmetică a rezultatelor evaluărilor anuale ale performanțelor profesionale individuale pentru perioada de referință se înmulțește cu 8 pentru calcularea punctajului pentru criteriul prevăzut la art. 4 alin. (3). Perioada de referință este de maximum 5 ani, dar poate fi mai mică dacă funcționarul public își modifică definitiv raporturile de serviciu prin transfer, mutare definitivă, promovare, mobilitate în categoria înalților funcționari publici.
+
+(5) Maximul ce poate fi obținut în urma evaluărilor anuale ale performanțelor profesionale individuale ale funcționarilor publici de conducere este de 40 de puncte, reprezentând 5 evaluări cu punctaj maxim de 5 puncte la evaluările anuale și la modalitatea de calcul indicată la alin. (4).
+
+(6) În cazul în care funcționarul public de conducere își modifică definitiv raporturile de serviciu, prin transfer, mutare definitivă, promovare sau înainte de expirarea celor 5 ani de mandat sau pentru care a fost elaborat planul de management al structurii conduse, după caz, se iau în calcul evaluările anuale pentru perioada de referință și punctajele lor, astfel:
+
+a) dacă funcționarul public își modifică definitiv raporturile de serviciu la mai puțin de 2 ani de la data elaborării planului de management al structurii conduse, nota de la evaluarea anuală a performanțelor profesionale individuale se înmulțește cu 8, pentru a obține maximul de 40 de puncte;
+
+b) dacă funcționarul public își modifică definitiv raporturile de serviciu la mai mult de 2 ani de la data elaborării planului de management al structurii conduse, și s-au realizat două, trei sau patru evaluări ale performanțelor profesionale individuale, se realizează media aritmetică a notelor obținute și rezultatul se înmulțește cu 8, pentru a obține maximul de 40 de puncte.
+
+Art. 7 - (1) Îndeplinirea fiecărui obiectiv individual de performanță din planul de management al structurii conduse se notează cu maximum 5 puncte pentru îndeplinirea în totalitate și se punctează cu punctaj mai mic de 5 puncte, proporțional, pentru îndeplinirea parțială a obiectivului individual de performanță. Planul de management al structurii conduse trebuie să conțină minimum 8 obiective individuale de performanță pentru o perioadă de 3 respectiv 5 ani. Punctajul final pentru criteriul de evaluare prevăzut la art. 4 alin. (4) se obține prin însumarea punctajelor pentru fiecare obiectiv de performanță.
+
+(2) În cazul în care sunt mai mult de 8 obiective individuale de performanță, se notează îndeplinirea fiecăruia cu maximum 5 puncte pentru îndeplinirea în totalitate și se punctează cu punctaj mai mic de 5 puncte, proporțional, pentru îndeplinirea parțială a obiectivului individual de performanță. Punctajul final pentru criteriul de evaluare prevăzut la art. 4 alin. (3) se obține prin însumarea celor mai mari punctaje obținute pentru 8 obiective individuale de performanță.
+
+Art. 8. – Punctajul pentru criteriul prevăzut la art. 4 alin. (5) se notează cu maximum 20 puncte, prin acordarea a câte 5 puncte pentru fiecare activitate cu caracter deosebit, care a contribuit la dezvoltarea instituțională sau la cooperarea în structuri de cooperare inter-instituționale în țară sau străinătate ori pentru fiecare activitate cu caracter deosebit prin care și-a dezvoltat competențele profesionale în mod semnificativ. Se punctează maximum 4 activități. Dacă în perioada de referință funcționarul public a participat la mai multe activități, se însumează punctele de la cele 4 activități cu cel mai mare punctaj.
+
+Art. 9. - Prevederile referitoare la contestarea evaluărilor anuale ale performanțelor profesionale individuale, prevăzute la art. 10 și art. 20 din anexa nr. 6 la prezentul cod se aplică în mod corespunzător pentru evaluarea multianuală a performanțelor profesionale individuale a înalților funcționari publici și funcționarilor publici de conducere prevăzuți la art. 1 alin. (1).
+
+## Capitolul I
+
+## Dispoziții generale
+
+c) comisia de soluționare a contestațiilor privind rotația - organ colegial special constituit în vederea luării unor decizii, conform legii, în urma solicitării primite din partea unuia sau mai multor înalții funcționari publici și/sau funcționarii publici de conducere care intră în procedura de rotație obligatorie sau voluntară, după caz, asupra menținerii sau modificării rezultatelor stabilite de comisia de rotație sau de către comisia de rotație prin repartizare;
+
+d) mobilitate prin rotație – modalitate de modificare a raporturilor de serviciu în cazul înalților funcționari publici și a funcționarilor publici de conducere care ocupă funcțiile publice de conducere prevăzute la art. 390 alin. (1) din prezentul cod, prin care se realizează o schimbare planificată, pe baza planului de rotație, a postului pe care sunt numiți înalții funcționari publici sau funcționarii publici de conducere, cu rămânerea în corpul funcționarilor publici și în categoria înalților funcționari publici sau a funcționarilor publici de conducere, după caz;
+
+e) plan de rotație - plan care se elaborază de către Agenția Națională a Funcționarilor Publici pe baza datelor transmise de către autoritățile și instituțiile publice și prin care se previzionează, pentru o perioadă de 2 ani, funcțiile publice de la nivelul autorităților și instituțiilor publice în cadrul cărora sunt stabilite funcțiile publice prevăzute la art. 385 alin. (1) din prezentul cod, cu excepția celor care beneficiază de statute speciale în condițiile legii, care sunt disponibile sau urmează să fie disponibile pentru ocupare prin rotație;
+
+f) rotația conform opțiunii - schimbare a postului ocupat de un funcționar public din categoria înalților funcționari publici sau a funcționarilor publici de conducere prevăzuți la art. 2 alin. (2) și (3), pe un post de același nivel, vacant sau care urmează să se vacanteze, inclus în planul de rotație a funcționarilor publici și pentru care respectivul funcționar public a optat.
+
+g) rotație prin repartizare - schimbare a postului ocupat de un funcționar public din categoria înalților funcționari publici sau a funcționarilor publici de conducere prevăzuți la art. 2 alin. (2) și (3), pe un post de același nivel, vacant sau care urmează să se vacanteze, inclus în planul de rotație a funcționarilor publici, pentru care respectivul funcționar public nu a optat inițial.
+
+Art. 2 - (1) Mobilitatea prin rotație este obligatorie sau voluntară, conform prevederilor art. 503-503² din prezentul cod. Mobilitatea prin rotație obligatorie se realizează în baza unor scheme de rotație obligatorie, conform regulilor procedurale cuprinse în prezenta anexă.
+
+(2) Sunt supuși mobilității prin rotație obligatorie, conform art. 503¹ din prezentul cod, înalții funcționari publici prevăzuți la art. 374² alin. (1) și funcționarii publici de conducere care ocupă funcțiile publice prevăzute la art. 374² alin. (6) din prezentul cod.
+
+(3) Pot adera voluntar la mobilitatea prin rotație, conform art. 503², toți înalții funcționari publici și funcționarii publici de conducere care ocupă funcțiile publice de conducere prevăzute la art. 374² alin. (6) din prezentul cod.
+
+(4) Rotația prin repartizare se aplică în situația în care unui funcționar public din categoria înalților funcționari publici sau a funcționarilor publici de conducere prevăzuți la alin. (2) i-a expirat mandatul și pentru care nu a fost posibilă rotația conform opțiunii. În această situație funcționarul public urmează să ocupe un post de același nivel aflat în planul de rotație sau pentru care s-a organizat concurs de recrutare sau de promovare, dar care nu a fost ocupat.
+
+(5) Rotația prin repartizare pe un post de nivel inferior are caracter temporar, până la identificarea unui post pentru realizarea rotației conform opțiunii sau prin repartizare pe un post de același nivel, doar cu acordul scris al funcționarului public și nu este condiționată de includerea postului în planul de rotație sau în categoria funcțiilor publice de conducere prevăzute la alin. (2) și (3). Mandatele se prelungesc până la data identificării unui post pentru care să se poată realiza rotația prin repartizare.
+
+(6) În situația prevăzută la alin. (5), funcționarul public pentru care nu a fost posibilă rotația conform opțiunii sale sau rotația prin repartizare pe un post de același nivel, are prioritate pentru opțiunile pe care le formulează, în vederea ocupării unei funcții publice de același nivel.
+
+(7) Rotația conform opțiunii și rotația prin repartizare, în funcțiile publice corespunzătoare înalților funcționari publici și pentru funcțiile publice de conducere prevăzute la alin. (2) și (3) se realizează cu respectarea principiilor privind legalitatea, imparțialitatea, obiectivitatea și transparenta, exclusiv pe baza consimțământului scris al funcționarilor publici vizați. Refuzul nejustificat al rotației atrage eliberarea din funcția publică deținută în conformitate cu art. 519 alin. (1) lit. i) din prezentul cod.
+
+(8) În situația în care salariul funcției publice pe care funcționarul public o ocupă până la realizarea mobilității prin rotație este mai mare decât salariul funcției publice pe care funcționarul public urmează să o ocupe ca urmare a mobilității prin rotație, funcționarul public păstrează salariul mai mare.
+
+## Capitolul II
+
+## Planul de rotatie
+
+Art. 3 - (1) În vederea realizării mobilității prin rotație a înalților funcționari publici și a funcționarilor publici de conducere care își modifică raporturile de serviciu prin mobilitate prin rotație, conform art. 503-503⁵ din prezentul cod, la un interval de doi ani, Agenția Națională a Funcționarilor Publici solicită autorităților și instituțiilor publice în cadrul cărora se află funcțiile publice prevăzute la art. 2 alin (2) din prezenta anexă să stabilească lista funcțiilor publice vacante sau care se vor vacanta și urmează să se ocupe prin rotație.
+
+(2) Agenția Națională a Funcționarilor Publici transmite autorităților și instituțiilor publice în cadrul cărora se află funcțiile publice prevăzute la art. 2 alin (2) din prezenta anexă solicitarea privind stabilirea funcțiilor publice vacante sau care se vor vacanta și urmează să se ocupe prin rotație, prevăzută la alin. (1), până la data de 31 ianuarie a primului an din intervalul pentru care se aprobă planul de rotație a funcționarilor publici.
+
+Art. 4 - (1) În vederea comunicării către Agenția Națională a Funcționarilor Publici a listei funcțiilor publice vacante sau care se vor vacanta și urmează să se poată ocupa prin rotație, autoritățile și instituțiile publice în cadrul cărora se află funcțiile publice prevăzute la art. 2 alin. (1) și (2) din prezenta anexă au obligația de a stabili numărul funcțiilor publice vacante, precum și numărul funcțiilor publice vacante sau previzionate pentru vacantare în condițiile legii.
+
+(2) Autoritățile și instituțiile publice prevăzute la alin. (1) au obligația de a stabili lista funcțiilor publice vacante sau care se vor vacanta și urmează să se ocupe prin rotație în corelație cu funcțiile publice incluse în planul de recrutare, respectiv planul de promovare, astfel încât să se asigure că funcțiile publice care urmează să fie ocupate prin rotație la nivelul fiecărui ordonator de credite nu sunt mai puține decât numărul înaltilor funcționari publici și al funcționarilor publici de conducere prevăzuți la art. 2 alin. (1) și (2) din prezenta anexă care trebuie să exercite mobilitatea prin rotație obligatorie.
+
+(3) La stabilirea listei funcțiilor publice vacante sau care se vor vacanta și care urmează să se ocupe prin rotație autoritățile și instituțiile publice prevăzute la alin. (1) au obligația de a se asigura că toate posturile de conducere din cadrul aceleiași direcții nu se supun mobilității prin rotație în același an, respectiv că toate posturile de conducere din cadrul unei direcții generale nu se supun mobilității prin rotație într-un interval de 6 luni.
+
+(4) Prevederile art. 15 din anexa nr. 10 la prezentul cod se aplică în mod corespunzător.
+
+Art. 5 - (1) În termen de 10 zile calendaristice de la data primirii solicitării prevăzute la art. 3 din prezenta anexă, autoritatea sau instituția publică, prin conducătorul acesteia, transmite Agenției Naționale a Funcționarilor Publici o informare privind lista funcțiilor publice vacante sau care se vor vacanta și urmează să se poată ocupa prin rotație, stabilită potrivit prevederilor art. 4 din prezenta anexă.
+
+(2) Informarea prevăzută la alin. (1) se transmite însoțită de adresă de înaintare, asumată de către conducătorul autorității sau instituției publice și cuprinde următoarele informații:
+
+a) denumirea instituției sau autorității publice;
+
+b) coordonate de contact ale persoanei responsabile din cadrul compartimentului de resurse umane al autorității sau instituției publice, cuprinzând numele și prenumele acesteia, funcția, precum și numărul de telefon și adresa de e-mail ale compartimentului de resurse umane;
+
+c) cod fiscal/CIF instituției sau autorității publice;
+
+d) denumirea completă a funcțiilor publice care urmează să se ocupe prin rotație, reprezentând funcții publice vacante sau care se vor vacanta, cu menționarea datei la care este anticipată vacantarea;
+
+e) compartimentul funcțional sau compartimentele funcționale, după caz, în cadrul căruia sau cărora se regăsesc funcțiile publice prevăzute la lit. d).
+
+Art. 6 - (1) În baza listei funcțiilor publice vacante sau care se vor vacanta și urmează să se poată ocupa prin rotație comunicate de către autoritățile și instituțiile publice în condițiile prevăzute la art. 5 din prezenta anexă și a evidenței funcției publice și a funcționarilor publici gestionate de Agenția Națională a Funcționarilor Publici potrivit art. 401 alin. (1) lit. d) din prezentul cod, Agenția Națională a Funcționarilor Publici elaborează planul de rotație a funcționarilor publici, pentru o perioadă de doi ani.
+
+(2) Planul de rotație va defini și o perioadă de 2 luni în fiecare an, în care se desfășoară interviurile descrise pentru realizarea rotației pentru toate posturile pentru care se exprimă opțiuni privind ocuparea prin mobilitate prin rotație, precum și o perioadă de 3 luni, imediat după cele 2 luni în care se desfășoară interviurile, pentru rotația prin repartizare și transferul atribuțiilor și responsabilităților între funcționarii publici, astfel încât să se asigure că perioada de transfer al atribuțiilor este suficient de lungă.
+
+(3) Planul de rotație a funcționarilor publici elaborat cu respectarea prevederilor art. 4 din prezenta anexă cuprinde informațiile prevăzute la art. 5 alin. (2) lit. a) și c)-e) și se aprobă prin hotărârea Guvernului prevăzută la art. 467 alin. (5) din prezentul cod.
+
+(4) Planul de rotație a funcționarilor publici poate fi revizuit de către Agenția Națională a Funcționarilor Publici, dar nu mai devreme de un an de la data aprobării prin hotărâre a Guvernului, la solicitarea autorităților și instituțiilor publice, dar cu respectarea condiției prevăzută la art. 4 alin. (2) și (3) din prezenta anexă.
+
+(5) Funcțiile publice corespunzătoare categoriei înalților funcționari publici sau funcțiilor publice de conducere vacante pot fi ocupate prin detașare, delegare, transfer sau exercitare cu caracter temporar, în situația în care nu au fost ocupate de către un funcționar public din categoria înalților funcționari publici sau din categoria funcționarilor publici de conducere, după caz, supus mobilității prin rotație obligatorie.
+
+# Capitolul III
+
+Procesul de rotatie
+
+Art. 7 - (1) Agenția Națională a Funcționarilor Publici dezvoltă și administrează un sistem informatic care să permită realizarea mobilității prin rotație, denumit platformă informatică de rotație.
+
+(2) La nivelul Agenției Naționale a Funcționarilor Publici, cu participarea unor reprezentanți ai Ministerului Dezvoltării, Lucrărilor Publice și Administrației și cu posibilitatea de participare a unor reprezentanți din alte autorități și instituții publice sau a unor experți externi cooptați, se constituie o comisie pentru realizarea rotației prin repartizare, denumită comisie de rotație prin repartizare. Dacă volumul de activitate a comisiei de repartizare prin rotație o impune, pe baza referatului motivat al președintelui comisiei, se poate constitui o a doua comisie cu aceleași atribuții și responsabilități și componentă corespunzătoare.
+
+(3) Prevederile privind comisia de verificare a eligibilității din procedura de recrutare, constituită conform art. 20-25 din anexa nr. 10 la prezentul cod, se aplică în mod corespunzător.
+
+Art. 8 - (1) În sistemul informatic prevăzut la art. 7 se înregistrează lista funcțiilor publice disponibile pentru rotație, conform planului de rotație a funcționarilor publici, aprobat conform art. 6 alin (3), împreună cu lista competențelor specifice necesare pentru fiecare funcție publică inclusă în planul de rotație.
+
+(2) Documentele din dosarul profesional al înalților funcționari publici și funcționarilor publici de conducere prevăzuți la art. 2 alin. (2) și (3) din prezenta anexă se înregistrează în sistemul informatic prevăzut la art. 7 din prezenta anexă.
+
+(3) Utilizând sistemul informatic prevăzut la art. 7 din prezenta anexă, înalții funcționari publici și funcționarii publici de conducere prevăzuți la art. 2 alin. (2) și (3) din prezenta anexă își exprimă opțiunile pentru mobilitate prin rotație pe una sau mai multe funcții publice incluse în planul de rotație a funcționarilor publici.
+
+(4) Utilizând sistemul informatic prevăzut la art. 7 din prezenta anexă, funcționarii publici pot exprima oricât de multe opțiuni pentru funcțiile publice incluse în planul de rotație a funcționarilor publici și pot specifica ordinea de preferință pentru ocuparea funcțiilor publice prin mobilitate prin rotație.
+
+(5) Exprimarea opțiunilor pentru rotație, în cazul înalților funcționari publici și funcționarilor publici de conducere prevăzuți la art. 2 alin. (2) și (3) din prezenta anexă pentru care rotația este obligatorie, se face cel mai târziu cu 9 luni înainte de finalizarea mandatelor.
+
+(6) Au dreptul să exprime opțiuni pentru mobilitate prin rotație, conform prezentului articol, doar înalții funcționari publici și funcționarii publici de conducere care, în urma procedurilor de evaluare multianuală a performanțelor profesionale individuale aplicate în condițiile prevăzute în anexa nr. 6² la prezentul cod, au obținut cel puțin calificativul "bine".
+
+Art. 9 - Refuzul neîntemeiat al înalților funcționari publici sau al funcționarilor publici de conducere supuși mobilității prin rotație obligatorie de a formula opțiuni și de a se prezenta la interviuri în cadrul autorităților și instituțiilor publice, la încetarea mandatelor limitate în timp, atrage eliberarea din funcția publică, în condițiile art. 519 alin (1) lit. i) din prezentul cod.
+
+Art. 10 - (1) La nivelul autorităților și instituțiilor publice, în cadrul cărora sunt numiți pe durată nedeterminată funcționarii publici de conducere prevăzuți la art. 2 alin. (2) și (3) din prezenta anexă, comisiile de evaluare multianuală a performanțelor profesionale individuale, prevăzute la art. 485³ alin. (1) din prezentul cod se constituie și în comisii de rotație, cu aplicarea corespunzătoare a normelor prevăzute la art. 73-81 din anexa nr. 10 la prezentul cod, privind componenta și numirea membrilor comisiilor de concurs.
+
+(2) Comisiile de rotație au următoarele atribuții:
+
+a) examinează opțiunile exprimate pe platforma de rotație de către funcționarii publici de conducere care urmează să realizeze mobilitatea prin rotație obligatorie sau voluntară;
+
+b) verifică îndeplinirea de către toți funcționarii publici de conducere care au exprimat opțiuni cu privire la funcțiile publice de la nivelul autorității și instituției publice, incluse în planul de rotație, a condițiilor de ocupare a fiecărui post și a competențelor specifice prevăzute în fișa postului aferentă funcției publice în care urmează să se facă rotația;
+
+c) selectează funcționarul public de conducere care îndeplinește condițiile de ocupare și și-a exprimat opțiunea pentru ocuparea funcției publice de conducere și care are cel mai mare punctaj la evaluarea multianuală a performanțelor profesionale individuale și formulează propunerea pentru modificarea raporturilor de serviciu prin realizarea rotației;
+
+d) în cazul în care există mai multe opțiuni pentru aceeași funcție publică de conducere din planul de rotație, iar funcționarii publici de conducere care și-au exprimat opțiunea îndeplinesc condițiile de ocupare și au același punctaj la evaluarea multianuală a performanțelor profesionale individuale, comisiile de rotație selectează funcționarul public de conducere care a ocupat anterior o funcție publică din același domeniu funcțional cu cea pentru care a optat în vederea rotației;
+
+e) în cazul în care există mai multe opțiuni pentru aceeași funcție publică de conducere din planul de rotație, iar funcționarii publici de conducere care și-au exprimat opțiunea îndeplinesc condițiile de ocupare și au același punctaj la evaluarea multianuală a performanțelor profesionale individuale, comisiile de rotație invită funcționarii publici care și-au exprimat opțiunea pentru aceeași funcție publică de conducere la un interviu;
+
+f) stabilesc planul de interviu și realizează interviul prevăzut la lit. e), dacă este cazul;
+
+g) notează pentru fiecare candidat interviul, într-o fișă individuală, dacă este cazul. Modalitățile de notare stabilite la art. 105 alin. (1) din anexa nr. 10 la prezentul cod se aplică în mod corespunzător;
+
+h) transmit secretarului comisiei rezultatele interviului pentru a fi comunicate candidatului;
+
+i) formulează propunerea de numire în funcția publică de conducere a candidatului unic sau a candidatului declarat „admis”, după caz, fie pe baza punctajului evaluării multianuale a performanțelor profesionale individuale, fie pe baza interviului;
+
+j) semnalează comisiei de rotație prin repartizare de la nivelul Agenției Naționale a Funcționarilor Publici, constituită conform art. 7 alin. (2) și (3) din prezenta anexă, pentru fiecare funcție publică de conducere inclusă în planul de rotație în cadrul autorității sau instituției publice pentru care nu s-a exprimat nicio opțiune.
+
+(3) Dispozițiile privind organizarea interviurilor în procedura de selecție a funcționarilor publici de conducere, conform anexei nr. 10 la prezentul cod, se aplică în mod corespunzător.
+
+(4) Pentru activitatea desfășurată în cadrul comisiei de rotație prevederile art. 87 din anexa nr. 10 la prezentul cod se aplică în mod corespunzător.
+
+Art. 11 - Comisia de rotație prin repartizare de la nivelul Agenției Naționale a Funcționarilor Publici, constituită conform art. 7 alin. (2) și (3) din prezenta anexă are următoarele atribuții:
+
+a) primește înștiințarea privind fiecare funcție publică inclusă în planul de rotație în cadrul autorităților și instituțiilor publice pentru care nu s-a exprimat nicio opțiune;
+
+b) analizează situația înalților funcționari publici și funcționarilor publici de conducere prevăzuți la art. 2 alin. (2) și (3) din prezenta anexă care au exprimat opțiuni, dar care nu au fost numiți într-o funcție publică din planul de rotație în urma activității de realizare a mobilității prin rotație de la nivelul Guvernului și autorităților și instituțiilor publice, prevăzute la art. 10 din prezenta anexă;
+
+c) înaintează cel puțin o propunere de repartizare autorităților și instituțiilor publice prevăzute la lit. a) și funcționarilor publici prevăzuți la lit. b).
+
+Art. 12 - Ca urmare a comunicării privind propunerea de repartizare prevăzută la art. 11 lit. c) se organizează interviuri. Prevederile art. 10 se aplică în mod corespunzător.
+
+Art. 13 - (1) Activitățile prevăzute pentru comisiile de la nivelul Guvernului, cu privire la rotația înalților funcționari publici, activitățile prevăzute la nivelul autorităților și instituțiilor publice și activitățile comisiei de rotație și a comisiei de rotație prin repartizare constituită la nivelul Agenției Naționale a Funcționarilor Publici, prevăzute la art. 10-12 din prezenta anexă se desfășoară în mod repetat până la modificarea raporturilor de serviciu ale tuturor funcționarilor publici pentru care mobilitatea prin rotație este obligatorie.
+
+(2) În activitățile prevăzute la alin (1) sunt avuți în vedere atât funcționarii publici pentru care mobilitatea prin rotație este obligatorie, cât și cei care își exprimă voluntar dorința de mobilitate prin rotație. Comisia de rotație prin repartizare va acorda prioritate în realizarea repartizărilor acelor funcționari publici pentru care mobilitatea prin rotație este obligatorie.
+
+Art. 14 - (1) În termen de 2 zile lucrătoare de la data afișării rezultatului interviului pentru fiecare funcție publică din planul de rotație, funcționarii publici care au optat pentru respectiva funcție publică și care sunt nemulțumiți de rezultat pot depune contestație prin intermediul platformei informatice de rotație.
+
+(2) Comisia de soluționare a contestațiilor privind rotația se constituie cu aplicarea corespunzătoare a normelor prevăzute la art. 73-81 din anexa nr. 10 la prezentul cod, privind componența și numirea membrilor comisiilor de concurs. Comisia de de soluționare a contestațiilor privind rotația constituită la nivelul Agenției Naționale a funcționarilor publici se constituie cu aplicarea corespunzătoare a art. 10 alin. (2) din prezenta anexă.
+
+(3) Comisia de soluționare a contestațiilor privind rotația analizează înregistrările răspunsurilor la interviu doar pentru funcționarul public contestatar, în termen de maximum 5 zile lucrătoare de la expirarea termenului de depunere a contestațiilor.
+
+(4) Fiecare membru al comisiei de soluționare a contestațiilor privind rotația acordă punctaje și le notează în fișa individuală prevăzută la art. 10 alin. (2) lit. g) din prezenta anexă. În situația în care între membrii comisiei de soluționare a contestațiilor există diferențe de opinie care nu au putut fi soluționate de comun acord sau diferență de punctaj mai mare de 10 puncte, candidatul va fi declarat „admis” ori „respins” în funcție de opinia majoritară. Membrul comisiei de soluționare a contestațiilor privind rotația care nu este de acord cu opinia majoritară formulează opinie separată, motivată, și o consemnează în secțiunea individuală disponibilă în platforma informatică de rotație sau, după caz, în fișa individuală.
+
+(5) Comisia de soluționare a contestațiilor privind rotația admite contestația modificând punctajul acordat de comisia de rotație, în situația în care punctajul acordat de comisia de soluționare a contestațiilor este mai mare decât cel acordat de comisia de rotație.
+
+(6) Comisia de soluționare a contestațiilor privind rotația respinge contestația în situația în care punctajul acordat de comisia de soluționare a contestațiilor privind rotația este mai mic sau egal cu cel acordat de comisia de rotație.
+
+(7) Pentru activitatea desfășurată în cadrul comisiei de soluționare a contestațiilor privind rotația prevederile art. 87 din anexa nr. 10 la prezentul cod se aplică în mod corespunzător.
+
+Art. 15 - (1) Comunicarea rezultatelor interviurilor, precum și a rezultatelor la contestații, se realizează în platforma informatică de rotație prevăzută la art. 7 alin. (1) din prezenta anexă în contul fiecărui funcționar public care a exprimat opțiuni privind mobilitatea prin rotație.
+
+(2) Publicarea rezultatelor interviurilor, precum și a rezultatelor la contestații, se realizează în platforma informatică de rotație prevăzută la art. 7 alin. (1) din prezenta anexă cu respectarea tuturor prevederilor europene și naționale privind protecția datelor cu caracter personal, utilizându-se numere de înregistrare atribuite pentru funcționarii publici care a exprimat opțiuni privind mobilitatea prin rotație.
+
+Art. 16 - Înalții funcționari publici declarați „admis” își încep activitatea în funcția publică la o dată ulterioară selecției, conform calendarului exercițiului de rotație, dar nu mai devreme de 60 de zile de la data la care li se comunică rezultatul selecției, pentru a permite pregătirea schimbării de post.
+
+Art. 17 – (1) Funcționarii publici de conducere selectați de comisiile pentru rotație din cadrul fiecărei autorități și instituții publice își încep activitatea la noul post la o dată ulterioară selecției, conform calendarului exercițiului de rotație, nu mai devreme de 120 de zile de la data la care li se comunică rezultatul selecției, pentru a permite pregătirea schimbării de post. În această perioadă titularul și viitorul ocupant al postului au minimum 3 întâlniri pentru a asigura transferul cunoștințelor necesare pentru îndeplinirea atribuțiilor și responsabilităților postului. În situațiile în care postul pe care se face rotația este vacant sau se vacantează în perioada de referință și nu se pot organiza întâlnirile, funcționarul public care urmează să ocupe un post se întâlnește, în aceeași perioadă de minimum 120 de zile de la data selecției realizată de comisa pentru rotație, în vederea preluării atribuțiilor postului, cu viitorul său superior ierarhic, indiferent dacă acesta este funcționar public de conducere, înalt funcționar public sau demnitar.
+
+(2) De la data începerii exercitării funcțiilor publice pe bază de mandate în condițiile prezentei legi, funcționarilor publici de conducere prevăzuți la art. 374² alin. (6) nu li se aplică, pe durata derulării mandatului, prevederile articolului nr. 89 alin. (2) din Legea nr. 161/2003 privind unele măsuri pentru asigurarea transparente în exercitarea demnităților publice, a funcțiilor publice și în mediul de afaceri, prevenirea și sanctionarea corupției, cu modificările și completările ulterioare.
+
+Art. 18 - Funcționarii publici de conducere care intră în procesul de rotație, obligatoriu sau voluntar, beneficiază de un stimulent echivalent a 10% din salariul de bază al postului deținut anterior aplicării mobilității prin rotație, pentru primii doi ani de la data numirii în noul post, în vederea sprijinirii tranziției în noua funcție publică deținută. Stimulentul se introduce în bugetul autorităților și instituțiilor publice care includ posturi în planul de rotație și se plătește lunar împreună cu salariul de bază, de către angajator.

@@ -6,28 +6,29 @@ import { ChevronDown, ChevronRight, ExternalLink, Search, X } from 'lucide-react
 import type { CdepListItem } from '@/lib/cdep';
 import type { RiskLevel } from '@/lib/types';
 import { RISK } from '@/lib/risk';
-import { dayDiff, shortCommittee, shortDate, stageLabel, type StageKey } from '@/lib/cdep-text';
+import { STAGES, dayDiff, shortCommittee, shortDate, stageLabel, type StageKey } from '@/lib/cdep-text';
 import { countWord, initialRows, normalize, todayISO } from '@/lib/format';
 import { trackAttrs } from '@/lib/analytics';
 import { EmptyState, RiskChip, btnSecondary, inputCls, segCls } from '@/components/ui';
+import { Barometer, LEVELS, Showcase, Stages, Timeline, byLevel, monthLabel, showcaseNote, type ShowcaseTab } from './CameraOverview';
 
-type Filter = 'acum' | 'comisii' | 'raport' | 'plen' | 'toate';
-const FILTERS: { key: Filter; label: string; stages: StageKey[] | null }[] = [
-  { key: 'acum', label: 'La Cameră acum', stages: ['comisii', 'raport', 'plen', 'altele'] },
-  { key: 'comisii', label: 'La comisii', stages: ['comisii'] },
-  { key: 'raport', label: 'Cu raport', stages: ['raport'] },
-  { key: 'plen', label: 'Pe ordinea de zi', stages: ['plen'] },
-  { key: 'toate', label: 'Toate din an', stages: null },
-];
 const PAGE = 40;
+const CHAMBER: StageKey[] = STAGES.filter((s) => s.atChamber).map((s) => s.key);
+const ALL: StageKey[] = STAGES.map((s) => s.key);
 
-// Filtrele stau și în adresă (/camera?risc=ridicat&ordine=risc), ca o listă să poată fi trimisă cuiva.
-type Risk = RiskLevel | 'toate';
-type Drum = 'mai_riscant' | 'mai_putin_riscant' | 'toate';
-type Sort = 'risc' | 'noi' | 'termen';
+// Filtrele stau și în adresă (/camera?risc=ridicat&etapa=plen), ca o listă să poată fi trimisă cuiva.
+type Scope = 'acum' | 'toate';
+type Drum = 'mai_riscant' | 'mai_putin_riscant';
+type Sort = 'risc' | 'risc_mic' | 'noi' | 'termen';
 const RISK_PARAM: Record<RiskLevel, string> = { red: 'ridicat', yellow: 'moderat', green: 'redus' };
-const DRUM_PARAM: Record<Exclude<Drum, 'toate'>, string> = { mai_riscant: 'mai-riscant', mai_putin_riscant: 'mai-putin-riscant' };
-const find = <T extends string>(map: Record<T, string>, v: string | null) => (Object.keys(map) as T[]).find((k) => map[k] === v);
+const DRUM_PARAM: Record<Drum, string> = { mai_riscant: 'mai-riscant', mai_putin_riscant: 'mai-putin-riscant' };
+const SORTS: { key: Sort; label: string }[] = [
+  { key: 'risc', label: 'Cele mai riscante' },
+  { key: 'risc_mic', label: 'Cele mai puțin riscante' },
+  { key: 'noi', label: 'Cele mai noi' },
+  { key: 'termen', label: 'Termen apropiat' },
+];
+const find = <T extends string>(map: Record<T, string>, v: string | null) => (Object.keys(map) as T[]).find((k) => map[k] === v) ?? null;
 
 const hrefOf = (p: CdepListItem) => (p.senat ? `/legi/${p.senat}` : `/camera/${p.slug}`);
 
@@ -37,11 +38,15 @@ export default function CameraExplorer({ items, pages, builtOn }: { items: CdepL
   const withPage = useMemo(() => new Set(pages), [pages]);
 
   const [query, setQuery] = useState('');
-  const [filter, setFilter] = useState<Filter>('acum');
-  const [risk, setRisk] = useState<Risk>('toate');
-  const [drum, setDrum] = useState<Drum>('toate');
+  const [scope, setScope] = useState<Scope>('acum');
+  const [stage, setStage] = useState<StageKey | null>(null);
+  const [risk, setRisk] = useState<RiskLevel | null>(null);
+  const [drum, setDrum] = useState<Drum | null>(null);
+  const [month, setMonth] = useState<string | null>(null);
+  const [day, setDay] = useState<string | null>(null);
   const [openOnly, setOpenOnly] = useState(false);
   const [sort, setSort] = useState<Sort>('risc');
+  const [tab, setTab] = useState<ShowcaseTab>('risc');
   const [visible, setVisible] = useState(PAGE);
   const [ready, setReady] = useState(false);
 
@@ -49,272 +54,306 @@ export default function CameraExplorer({ items, pages, builtOn }: { items: CdepL
   useEffect(() => {
     const q = new URLSearchParams(window.location.search);
     const etapa = q.get('etapa');
-    if (FILTERS.some((f) => f.key === etapa)) setFilter(etapa as Filter);
-    setRisk(find(RISK_PARAM, q.get('risc')) ?? 'toate');
-    setDrum(find(DRUM_PARAM, q.get('drum')) ?? 'toate');
+    if (etapa === 'toate' || q.get('domeniu') === 'toate') setScope('toate');
+    if (etapa && ALL.includes(etapa as StageKey)) {
+      setStage(etapa as StageKey);
+      if (!CHAMBER.includes(etapa as StageKey)) setScope('toate');
+    }
+    setRisk(find(RISK_PARAM, q.get('risc')));
+    setDrum(find(DRUM_PARAM, q.get('drum')));
+    if (/^\d{4}-\d{2}$/.test(q.get('luna') ?? '')) setMonth(q.get('luna'));
+    if (/^\d{4}-\d{2}-\d{2}$/.test(q.get('termen') ?? '')) setDay(q.get('termen'));
     setOpenOnly(q.get('termen') === 'deschis');
-    const ordine = q.get('ordine');
-    if (ordine === 'noi' || ordine === 'termen') setSort(ordine);
+    const ordine = q.get('ordine') as Sort | null;
+    if (ordine && SORTS.some((s) => s.key === ordine)) setSort(ordine);
     setQuery(q.get('q') ?? '');
     setReady(true);
   }, []);
   useEffect(() => {
     if (!ready) return;
     const q = new URLSearchParams();
-    if (filter !== 'acum') q.set('etapa', filter);
-    if (risk !== 'toate') q.set('risc', RISK_PARAM[risk]);
-    if (drum !== 'toate') q.set('drum', DRUM_PARAM[drum]);
-    if (openOnly) q.set('termen', 'deschis');
+    if (scope === 'toate') q.set('domeniu', 'toate');
+    if (stage) q.set('etapa', stage);
+    if (risk) q.set('risc', RISK_PARAM[risk]);
+    if (drum) q.set('drum', DRUM_PARAM[drum]);
+    if (month) q.set('luna', month);
+    if (day) q.set('termen', day);
+    else if (openOnly) q.set('termen', 'deschis');
     if (sort !== 'risc') q.set('ordine', sort);
     if (query.trim()) q.set('q', query.trim());
     const url = `${window.location.pathname}${q.size ? `?${q}` : ''}${window.location.hash}`;
     if (url !== `${window.location.pathname}${window.location.search}${window.location.hash}`) window.history.replaceState(null, '', url);
-  }, [ready, filter, risk, drum, openOnly, sort, query]);
+  }, [ready, scope, stage, risk, drum, month, day, openOnly, sort, query]);
 
-  const openDeadline = (p: CdepListItem) => p.termenAmendamente !== null && p.termenAmendamente >= today;
-  const atChamber = (p: CdepListItem) => FILTERS[0].stages!.includes(p.stage);
-  const counts = useMemo(
-    () => Object.fromEntries(FILTERS.map((f) => [f.key, f.stages ? items.filter((p) => f.stages!.includes(p.stage)).length : items.length])) as Record<Filter, number>,
-    [items],
-  );
-  // Câte proiecte are fiecare nivel de risc în etapa aleasă, ca butoanele să spună ce găsești în spatele lor.
-  const inStage = useMemo(() => {
-    const stages = FILTERS.find((f) => f.key === filter)!.stages;
-    return items.filter((p) => !stages || stages.includes(p.stage));
-  }, [items, filter]);
-  const riskCounts = useMemo(
-    () => Object.fromEntries((['red', 'yellow', 'green'] as const).map((l) => [l, inStage.filter((p) => p.risk?.level === l).length])) as Record<RiskLevel, number>,
-    [inStage],
-  );
-  const worse = useMemo(() => inStage.filter((p) => p.textChange?.direction === 'mai_riscant').length, [inStage]);
-  const better = useMemo(() => inStage.filter((p) => p.textChange?.direction === 'mai_putin_riscant').length, [inStage]);
+  // Universul: proiectele aflate acum la Cameră sau toate din an. Barometrul, etapele și timeline-ul îl descriu pe el.
+  const universe = useMemo(() => (scope === 'acum' ? items.filter((p) => CHAMBER.includes(p.stage)) : items), [items, scope]);
+  const counts = useMemo(() => byLevel(universe), [universe]);
+  const open = (p: CdepListItem) => p.termenAmendamente !== null && p.termenAmendamente >= today;
 
   const list = useMemo(() => {
     const terms = normalize(query.trim()).split(/\s+/).filter(Boolean);
     const deadline = (p: CdepListItem) => (p.termenAmendamente && p.termenAmendamente >= today ? p.termenAmendamente : '9999');
-    // Fără analiză = la coada listei când ordonăm după risc.
-    const score = (p: CdepListItem) => p.risk?.score ?? -1;
-    return inStage
-      .filter((p) => risk === 'toate' || p.risk?.level === risk)
-      .filter((p) => drum === 'toate' || p.textChange?.direction === drum)
-      .filter((p) => !openOnly || (p.termenAmendamente !== null && p.termenAmendamente >= today))
+    // Fără analiză = la coada listei, în ambele ordini după risc.
+    const score = (p: CdepListItem, low: boolean) => (p.risk ? (low ? -p.risk.score : p.risk.score) : -99);
+    return universe
+      .filter((p) => !stage || p.stage === stage)
+      .filter((p) => !risk || p.risk?.level === risk)
+      .filter((p) => !drum || p.textChange?.direction === drum)
+      .filter((p) => !month || p.inregistrat.startsWith(month))
+      .filter((p) => (day ? p.termenAmendamente === day : !openOnly || (p.termenAmendamente !== null && p.termenAmendamente >= today)))
       .filter((p) => {
         const text = normalize(`${p.numar} ${p.titlu} ${p.risk?.plainTitle ?? ''} ${p.raport.join(' ')}`);
         return terms.every((t) => text.includes(t));
       })
       .sort(
         (a, b) =>
-          (sort === 'termen' ? deadline(a).localeCompare(deadline(b)) : sort === 'risc' ? score(b) - score(a) : 0) ||
+          (sort === 'termen'
+            ? deadline(a).localeCompare(deadline(b))
+            : sort === 'risc' || sort === 'risc_mic'
+              ? score(b, sort === 'risc_mic') - score(a, sort === 'risc_mic')
+              : 0) ||
           b.inregistrat.localeCompare(a.inregistrat) ||
           b.idp - a.idp,
       );
-  }, [inStage, risk, drum, openOnly, query, sort, today]);
+  }, [universe, stage, risk, drum, month, day, openOnly, query, sort, today]);
 
-  const set = <T,>(fn: (v: T) => void) => (v: T) => {
-    fn(v);
-    setVisible(PAGE);
-  };
-  const shown = initialRows(list.length, visible);
-  const hasFilters = query.trim() !== '' || openOnly || filter !== 'acum' || risk !== 'toate' || drum !== 'toate';
+  const scrollToList = () => document.getElementById('proiecte')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  const touched = () => setVisible(PAGE);
   const reset = () => {
     setQuery('');
+    setStage(null);
+    setRisk(null);
+    setDrum(null);
+    setMonth(null);
+    setDay(null);
     setOpenOnly(false);
-    setFilter('acum');
-    setRisk('toate');
-    setDrum('toate');
     setVisible(PAGE);
   };
 
-  // Cifrele de sus sunt scurtături: fiecare arată lista din spatele ei, cu cele mai riscante întâi.
-  const here = items.filter(atChamber);
-  const tiles: { key: string; n: number; label: string; tone?: string; on: boolean; apply: () => void }[] = [
-    {
-      key: 'acum',
-      n: here.length,
-      label: 'în dezbatere acum',
-      on: filter === 'acum' && risk === 'toate' && drum === 'toate' && !openOnly,
-      apply: () => {
-        reset();
-        setSort('risc');
-      },
-    },
-    {
-      key: 'ridicat',
-      n: here.filter((p) => p.risk?.level === 'red').length,
-      label: 'cu risc ridicat',
-      tone: RISK.red.text,
-      on: filter === 'acum' && risk === 'red' && drum === 'toate' && !openOnly,
-      apply: () => {
-        reset();
-        setRisk('red');
-        setSort('risc');
-      },
-    },
-    {
-      key: 'drum',
-      n: items.filter((p) => p.textChange?.direction === 'mai_riscant').length,
-      label: 'mai riscante după schimbări',
-      tone: RISK.red.text,
-      on: filter === 'toate' && drum === 'mai_riscant' && risk === 'toate' && !openOnly,
-      apply: () => {
-        reset();
-        setFilter('toate');
-        setDrum('mai_riscant');
-        setSort('risc');
-      },
-    },
-    {
-      key: 'termen',
-      n: here.filter(openDeadline).length,
-      label: 'cu termen de amendamente deschis',
-      on: filter === 'acum' && openOnly && risk === 'toate' && drum === 'toate',
-      apply: () => {
-        reset();
-        setOpenOnly(true);
-        setSort('termen');
-      },
-    },
-  ];
-  const chip = (on: boolean) =>
-    `inline-flex min-h-10 shrink-0 items-center gap-1.5 rounded-lg border px-3 text-sm font-semibold transition-colors ${
-      on ? 'border-brand bg-brand text-on-brand' : 'border-line bg-surface text-body hover:border-line-strong hover:text-ink'
-    }`;
+  // Vitrina: câte șase proiecte pe temă; „vezi toate” aplică același filtru listei.
+  const top = (ps: CdepListItem[], by: (a: CdepListItem, b: CdepListItem) => number) => [...ps].sort(by).slice(0, 6);
+  const byScore = (a: CdepListItem, b: CdepListItem) => (b.risk?.score ?? -1) - (a.risk?.score ?? -1);
+  const worse = universe.filter((p) => p.textChange?.direction === 'mai_riscant');
+  const better = universe.filter((p) => p.textChange?.direction === 'mai_putin_riscant');
+  const openList = universe.filter(open);
+  const reds = universe.filter((p) => p.risk?.level === 'red');
+  const tabs = [
+    { key: 'risc' as const, label: 'Cele mai riscante', items: top(reds.length ? reds : universe, byScore), total: reds.length },
+    { key: 'agravate' as const, label: 'Mai riscante pe drum', items: top(worse, byScore), total: worse.length },
+    { key: 'imblanzite' as const, label: 'Îmblânzite pe drum', items: top(better, byScore), total: better.length },
+    { key: 'termen' as const, label: 'Se pot amenda acum', items: top(openList, (a, b) => a.termenAmendamente!.localeCompare(b.termenAmendamente!) || byScore(a, b)), total: openList.length },
+  ]
+    .filter((t) => t.items.length)
+    .map((t) => ({ ...t, note: (p: CdepListItem) => showcaseNote(t.key, p, today) }));
+  const seeAll = (t: ShowcaseTab) => {
+    reset();
+    if (t === 'risc') {
+      setRisk('red');
+      setSort('risc');
+    } else if (t === 'agravate' || t === 'imblanzite') {
+      setDrum(t === 'agravate' ? 'mai_riscant' : 'mai_putin_riscant');
+      setSort('risc');
+    } else {
+      setOpenOnly(true);
+      setSort('termen');
+    }
+    scrollToList();
+  };
+
+  // Filtrele active, ca etichete care se pot scoate una câte una.
+  const active: { key: string; label: string; clear: () => void }[] = [
+    stage && { key: 'etapa', label: stageLabel(stage), clear: () => setStage(null) },
+    risk && { key: 'risc', label: RISK[risk].label, clear: () => setRisk(null) },
+    drum && { key: 'drum', label: drum === 'mai_riscant' ? 'Mai riscante pe drum' : 'Îmblânzite pe drum', clear: () => setDrum(null) },
+    month && { key: 'luna', label: `Înregistrate în ${monthLabel(month)}`, clear: () => setMonth(null) },
+    day && { key: 'zi', label: `Amendamente până pe ${shortDate(day)}`, clear: () => setDay(null) },
+    !day && openOnly && { key: 'termen', label: 'Termen de amendamente deschis', clear: () => setOpenOnly(false) },
+    query.trim() && { key: 'q', label: `„${query.trim()}”`, clear: () => setQuery('') },
+  ].filter(Boolean) as { key: string; label: string; clear: () => void }[];
+
+  const shown = initialRows(list.length, visible);
+  const scopeLabel = scope === 'acum' ? 'aflate acum la Cameră' : 'înregistrate în an';
 
   return (
     <div>
-      <div role="group" aria-label="Scurtături" className="mb-8 grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-line bg-line sm:grid-cols-4">
-        {tiles.map((t) => (
+      <div role="group" aria-label="Ce proiecte" className="inline-flex rounded-lg bg-sunken p-1">
+        {(
+          [
+            ['acum', 'La Cameră acum', items.filter((p) => CHAMBER.includes(p.stage)).length],
+            ['toate', 'Toate din 2026', items.length],
+          ] as const
+        ).map(([k, label, n]) => (
           <button
-            key={t.key}
+            key={k}
             type="button"
-            aria-pressed={t.on}
+            aria-pressed={scope === k}
             onClick={() => {
-              t.apply();
-              document.getElementById('proiecte')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              setScope(k);
+              setStage(null);
+              touched();
             }}
-            {...trackAttrs('camera_filter', { filter: 'tile', value: t.key })}
-            className={`group flex flex-col items-start px-5 py-4 text-left transition-colors focus-visible:relative focus-visible:z-10 ${
-              t.on ? 'bg-brand-soft' : 'bg-surface hover:bg-sunken'
-            }`}
+            {...trackAttrs('camera_filter', { filter: 'scope', value: k })}
+            className={segCls(scope === k)}
           >
-            <span className={`text-3xl font-semibold tabular-nums ${t.tone ?? 'text-ink'}`}>{t.n}</span>
-            <span className="mt-0.5 text-sm leading-5 text-muted group-hover:text-ink">
-              {t.label}
-              <ChevronRight className="ml-0.5 inline h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" aria-hidden />
-            </span>
+            {label} <span className="font-normal tabular-nums opacity-75">{n}</span>
           </button>
         ))}
       </div>
 
-      <div id="proiecte" className="scroll-mt-24 space-y-3 border-b border-line pb-5">
+      <div className="mt-6 grid grid-cols-1 gap-10 lg:grid-cols-[minmax(0,5fr)_minmax(0,6fr)] lg:gap-12">
+        <div className="min-w-0 space-y-10">
+          <Barometer
+            counts={counts}
+            unrated={universe.length - LEVELS.reduce((s, l) => s + counts[l], 0)}
+            risk={risk}
+            onRisk={(l) => {
+              setRisk(l);
+              setSort('risc');
+              touched();
+              scrollToList();
+            }}
+          />
+          <Stages
+            list={universe}
+            keys={scope === 'acum' ? CHAMBER : ALL}
+            stage={stage}
+            risk={risk}
+            onPick={(s, r) => {
+              setStage(s);
+              setRisk(r);
+              touched();
+              scrollToList();
+            }}
+          />
+        </div>
+        <div className="min-w-0">
+          {tabs.length > 0 && <Showcase tabs={tabs} active={tabs.some((t) => t.key === tab) ? tab : tabs[0].key} onTab={setTab} onSeeAll={seeAll} />}
+        </div>
+      </div>
+
+      <div className="mt-10 min-w-0">
+        <Timeline
+          list={universe}
+          today={today}
+          month={month}
+          day={day}
+          onMonth={(m) => {
+            setMonth(m);
+            touched();
+            scrollToList();
+          }}
+          onDay={(d) => {
+            setDay(d);
+            setSort('termen');
+            touched();
+            scrollToList();
+          }}
+        />
+      </div>
+
+      <div id="proiecte" className="mt-12 scroll-mt-20 space-y-3 border-b border-line pb-5">
+        <h2 className="font-display text-2xl text-ink sm:text-3xl">Proiectele</h2>
         <label className="relative block">
           <span className="sr-only">Caută un proiect după număr, titlu sau comisie</span>
           <Search className="pointer-events-none absolute left-4 top-1/2 h-[18px] w-[18px] -translate-y-1/2 text-muted" aria-hidden />
           <input
             type="search"
             value={query}
-            onChange={(e) => set(setQuery)(e.target.value)}
+            onChange={(e) => {
+              setQuery(e.target.value);
+              touched();
+            }}
             placeholder="Număr, cuvânt din titlu sau comisie"
             className={`${inputCls} pl-11 pr-4`}
             autoComplete="off"
           />
         </label>
         <div className="flex flex-wrap items-center gap-2">
-          <div role="group" aria-label="Stadiul la Cameră" className="-mx-4 flex max-w-[calc(100%+2rem)] gap-2 overflow-x-auto px-4 pb-1 no-scrollbar sm:mx-0 sm:max-w-full sm:flex-wrap sm:px-0">
-            {FILTERS.map((f) => {
-              const on = filter === f.key;
-              return (
+          {(
+            [
+              ['mai_riscant', 'Mai riscante pe drum', worse.length],
+              ['mai_putin_riscant', 'Îmblânzite pe drum', better.length],
+            ] as const
+          ).map(
+            ([k, label, n]) =>
+              n > 0 && (
                 <button
-                  key={f.key}
+                  key={k}
                   type="button"
-                  aria-pressed={on}
-                  onClick={() => set(setFilter)(f.key)}
-                  {...trackAttrs('camera_filter', { filter: 'stage', value: f.key })}
-                  className={chip(on)}
+                  aria-pressed={drum === k}
+                  onClick={() => {
+                    setDrum(drum === k ? null : k);
+                    touched();
+                  }}
+                  {...trackAttrs('camera_filter', { filter: 'text_change', value: k })}
+                  className={`inline-flex min-h-10 shrink-0 items-center gap-1.5 rounded-lg border px-3 text-sm font-semibold transition-colors ${
+                    drum === k ? 'border-brand bg-brand text-on-brand' : 'border-line bg-surface text-body hover:border-line-strong hover:text-ink'
+                  }`}
                 >
-                  {f.label}
-                  <span className="font-normal tabular-nums opacity-75">{counts[f.key]}</span>
+                  {label}
+                  <span className="font-normal tabular-nums opacity-75">{n}</span>
                 </button>
-              );
-            })}
-          </div>
+              ),
+          )}
           <button
             type="button"
-            aria-pressed={openOnly}
-            onClick={() => set(setOpenOnly)(!openOnly)}
+            aria-pressed={openOnly || Boolean(day)}
+            onClick={() => {
+              setDay(null);
+              setOpenOnly(!(openOnly || day));
+              touched();
+            }}
             {...trackAttrs('camera_filter', { filter: 'open_deadline', value: openOnly ? 'off' : 'on' })}
             className={`inline-flex min-h-10 shrink-0 items-center gap-1.5 rounded-lg border px-3 text-sm font-semibold transition-colors ${
-              openOnly ? 'border-ink bg-ink text-paper' : 'border-dashed border-line-strong bg-surface text-body hover:text-ink'
+              openOnly || day ? 'border-ink bg-ink text-paper' : 'border-dashed border-line-strong bg-surface text-body hover:text-ink'
             }`}
           >
             Termen de amendamente deschis
+            <span className="font-normal tabular-nums opacity-75">{openList.length}</span>
           </button>
-        </div>
-        <div role="group" aria-label="Riscul" className="-mx-4 flex max-w-[calc(100%+2rem)] gap-2 overflow-x-auto px-4 pb-1 no-scrollbar sm:mx-0 sm:max-w-full sm:flex-wrap sm:px-0">
-          <button type="button" aria-pressed={risk === 'toate'} onClick={() => set(setRisk)('toate')} className={chip(risk === 'toate')}>
-            Orice risc
-          </button>
-          {(['red', 'yellow', 'green'] as const).map((l) => (
-            <button
-              key={l}
-              type="button"
-              aria-pressed={risk === l}
-              onClick={() => set(setRisk)(risk === l ? 'toate' : l)}
-              {...trackAttrs('camera_filter', { filter: 'risk', value: l })}
-              className={chip(risk === l)}
-            >
-              <span aria-hidden className={`h-2 w-2 rounded-full ${RISK[l].fill}`} />
-              {RISK[l].label}
-              <span className="font-normal tabular-nums opacity-75">{riskCounts[l]}</span>
-            </button>
-          ))}
-          {(worse > 0 || better > 0) && <span aria-hidden className="mx-1 hidden w-px self-stretch bg-line sm:block" />}
-          {worse > 0 && (
-            <button
-              type="button"
-              aria-pressed={drum === 'mai_riscant'}
-              onClick={() => set(setDrum)(drum === 'mai_riscant' ? 'toate' : 'mai_riscant')}
-              {...trackAttrs('camera_filter', { filter: 'text_change', value: 'mai_riscant' })}
-              className={chip(drum === 'mai_riscant')}
-            >
-              Mai riscante după schimbări
-              <span className="font-normal tabular-nums opacity-75">{worse}</span>
-            </button>
-          )}
-          {better > 0 && (
-            <button
-              type="button"
-              aria-pressed={drum === 'mai_putin_riscant'}
-              onClick={() => set(setDrum)(drum === 'mai_putin_riscant' ? 'toate' : 'mai_putin_riscant')}
-              {...trackAttrs('camera_filter', { filter: 'text_change', value: 'mai_putin_riscant' })}
-              className={chip(drum === 'mai_putin_riscant')}
-            >
-              Mai puțin riscante
-              <span className="font-normal tabular-nums opacity-75">{better}</span>
-            </button>
-          )}
         </div>
       </div>
 
       <div className="flex min-h-14 flex-wrap items-center justify-between gap-3 py-3">
-        <p role="status" aria-live="polite" className="text-sm text-muted">
-          <strong className="font-semibold text-ink">{countWord(list.length, 'proiect', 'proiecte')}</strong>
-          {hasFilters ? ' corespund filtrelor' : ' aflate acum la Cameră'}
-        </p>
-        <div className="flex max-w-full items-center gap-2 text-sm text-muted">
-          <span className="hidden sm:inline">Ordine:</span>
-          <div role="group" aria-label="Ordonează" className="flex rounded-lg bg-sunken p-1">
-            <button type="button" aria-pressed={sort === 'risc'} onClick={() => setSort('risc')} className={segCls(sort === 'risc')}>
-              Cele mai riscante
+        <div className="flex flex-wrap items-center gap-2">
+          <p role="status" aria-live="polite" className="text-sm text-muted">
+            <strong className="font-semibold text-ink">{countWord(list.length, 'proiect', 'proiecte')}</strong> {active.length ? 'corespund filtrelor' : scopeLabel}
+          </p>
+          {active.map((f) => (
+            <button
+              key={f.key}
+              type="button"
+              onClick={() => {
+                f.clear();
+                touched();
+              }}
+              className="inline-flex min-h-8 items-center gap-1 rounded-full border border-line-strong bg-surface pl-3 pr-2 text-xs font-semibold text-ink hover:bg-sunken"
+            >
+              {f.label}
+              <X className="h-3.5 w-3.5" aria-hidden />
+              <span className="sr-only">(scoate filtrul)</span>
             </button>
-            <button type="button" aria-pressed={sort === 'noi'} onClick={() => setSort('noi')} className={segCls(sort === 'noi')}>
-              Cele mai noi
+          ))}
+          {active.length > 1 && (
+            <button type="button" onClick={reset} className="text-xs font-semibold text-link underline underline-offset-4">
+              Șterge filtrele
             </button>
-            <button type="button" aria-pressed={sort === 'termen'} onClick={() => setSort('termen')} className={segCls(sort === 'termen')}>
-              Termen apropiat
-            </button>
-          </div>
+          )}
         </div>
+        <label className="flex items-center gap-2 text-sm text-muted">
+          <span>Ordine:</span>
+          <select
+            value={sort}
+            onChange={(e) => setSort(e.target.value as Sort)}
+            className="min-h-9 rounded-lg border border-line-strong bg-surface px-2 text-sm font-semibold text-ink"
+          >
+            {SORTS.map((s) => (
+              <option key={s.key} value={s.key}>
+                {s.label}
+              </option>
+            ))}
+          </select>
+        </label>
       </div>
 
       {list.length === 0 ? (
@@ -322,7 +361,7 @@ export default function CameraExplorer({ items, pages, builtOn }: { items: CdepL
           title="Niciun proiect nu corespunde"
           text="Încearcă un singur cuvânt din titlu, numărul fără „PL-x” sau toate proiectele din an."
           action={
-            hasFilters ? (
+            active.length ? (
               <button type="button" onClick={reset} className={`${btnSecondary} min-h-11 px-5 text-sm`}>
                 <X className="h-4 w-4" aria-hidden />
                 Șterge filtrele
@@ -340,30 +379,30 @@ export default function CameraExplorer({ items, pages, builtOn }: { items: CdepL
                 <>
                   <span className="min-w-0">
                     <span className="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs">
+                      {p.risk && <RiskChip level={p.risk.level} score={p.risk.score} />}
                       <span className="font-semibold tabular-nums text-ink">{p.numar}</span>
                       <span className={`rounded-md px-1.5 py-0.5 font-semibold ${p.stage === 'plen' ? 'bg-brand text-on-brand' : 'bg-sunken text-body'}`}>
                         {stageLabel(p.stage)}
                       </span>
-                      {p.risk && <RiskChip level={p.risk.level} score={p.risk.score} />}
                       {p.textChange && (
-                        <span className={p.textChange.direction === 'mai_riscant' ? 'text-risk-red-text' : 'text-risk-green-text'}>
+                        <span className={`font-semibold ${p.textChange.direction === 'mai_riscant' ? 'text-risk-red-text' : 'text-risk-green-text'}`}>
                           {p.textChange.direction === 'mai_riscant' ? 'mai riscant' : 'mai puțin riscant'} după {p.textChange.after === 'senat' ? 'Senat' : 'Cameră'}
                         </span>
                       )}
                       {p.senat && <span className="text-muted">urmărit de la Senat</span>}
                     </span>
-                    <span className="mt-1.5 block text-[15px] font-semibold leading-6 text-ink group-hover:underline group-hover:underline-offset-4">
+                    <span className="mt-1.5 block font-display text-[17px] leading-snug text-ink group-hover:underline group-hover:underline-offset-4">
                       {p.risk?.plainTitle ?? p.titlu}
                     </span>
                     {p.risk && <span className="mt-0.5 line-clamp-1 block text-xs leading-5 text-muted">{p.titlu}</span>}
                     <span className="mt-1.5 flex flex-wrap gap-x-4 gap-y-1 text-xs leading-5 text-muted">
-                      <span>Înregistrat pe {shortDate(p.inregistrat)}</span>
-                      {p.raport.length > 0 && <span>Raport: {p.raport.map(shortCommittee).join(', ')}</span>}
                       {p.stage === 'comisii' && days !== null && (
                         <span className={days >= 0 && days <= 3 ? 'font-semibold text-risk-red-text' : days >= 0 ? 'font-semibold text-ink' : ''}>
                           {days >= 0 ? `Amendamente până pe ${shortDate(p.termenAmendamente!)}` : `Termenul de amendamente a trecut (${shortDate(p.termenAmendamente!)})`}
                         </span>
                       )}
+                      <span>Înregistrat pe {shortDate(p.inregistrat)}</span>
+                      {p.raport.length > 0 && <span>Raport: {p.raport.map(shortCommittee).join(', ')}</span>}
                     </span>
                   </span>
                   {ours ? (

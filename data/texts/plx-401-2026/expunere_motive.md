@@ -1,61 +1,293 @@
-EXPUNERE DE MOTIVE pentru propunerea legislativă pentru completarea art.15 din Legea învățământului preuniversitar nr.198/2023
+# EXPUNERE DE MOTIVE pentru propunerea legislativă pentru completarea art.15 din Legea învățământului preuniversitar nr.198/2023
 
-LEGEA MESERIAȘIOR Introducerea calificărilor profesionale nivel 2, cu certificare, la finalul clasei a X-a, în liceele tehnologice
+## LEGEA MESERIAȘIOR
 
-1\) Rezumat executiv Propunerea legislativă vizează introducerea posibilității de certificare a unei calificări profesionale CNC pe nivel 2 la finalul clasei a X-a în liceele tehnologice, ca etapă intermediară în parcursul existent (nivel 3 după clasa a XI-a și nivel 4 dupa clasa a XII-a, acolo unde se aplică). Această schimbare este benefică pentru: • reducerea riscului ca elevii să părăsească școala fără niciun rezultat recunoscut; • creșterea motivației și a retenției prin „trepte" de progres; • alinierea cu realitatea legală și socială: la 16 ani tinerii pot munci, iar sistemul trebuie să le ofere opțiunea unei intrări mai sigure și mai calificate pe piața muncii; • îmbunătățirea calității și relevanței liceului tehnologic pentru angajatori. Teza centrală: calificările nivel 2 la finalul clasei a X-a nu vor crește abandonul, dimpotrivă, îl pot combate mai ales dacă sunt proiectate ca treaptă de progres (nu „capăt de linie"), cu mecanisme care încurajează continuarea spre nivel 3 - 4 și bacalaureat acolo unde este cazul. 2) Context și problemă (a) Abandonul școlar este concentrat în filiera tehnologică. Din rapoartele Ministerului Educației reiese explicit că cei mai mulți elevi care abandonează liceul provin din filiera tehnologică. (b) Sistemul actual oferă certificare târziu, iar riscul este „plecarea cu mâna goală". În logica actuală a filierei tehnologice, certificarea calificării profesionale este asociată etapelor superioare (ex. după clasa a XI-a se poate obține certificatul de calificare nivel 3).
+Introducerea calificărilor profesionale nivel 2, cu certificare, la finalul clasei a X-a, în liceele tehnologice
 
-În practică, elevii vulnerabili socio-economic sunt exact cei care au dificultăți să „tragă" până la final de a XI-a pentru a avea o certificare utilizabilă. (c) La 16 ani, piața muncii există, iar sistemul educațional trebuie să răspundă realist. Indiferent ce credem că ar „trebui", realitatea este că unii tineri vor încerca să lucreze încă din jurul vârstei de 16 ani. Dacă sistemul nu le oferă un prag de certificare mai devreme, o parte intră în muncă precară, fară recunoaștere formală a competențelor, cu risc mare de ieșire definitivă din educație.
+## 1) Rezumat executiv
 
-3\) Ce propunem (designul măsurii) Obiectiv: introducerea unei certificări CNC nivel 2 la finalul clasei a X-a, în liceele tehnologice, pentru calificări, pe cât posibil dar și în funcție de sprecificul pieței muncii locale și regionale, aliniate cu domeniul de pregătire și cu traseul ulterior către nivel 3-4. Principii de design: Trepte, nu ieșiri: certificarea 2 este definită explicit ca etapă intermediară, dacă este posibil, conectată curricular cu nivel 3 - 4. Compatibilitate domeniu: calificarea 2 să fie în același domeniu sau apropiat de pregătire de bază, pentru a evita „rupturi" între X și XI. Evaluare standardizată: certificarea se bazează pe standarde de pregătire profesională și examinare unitară, similar logicii actuale de certificare din IPT
+Propunerea legislativă vizează introducerea posibilității de certificare a unei calificări profesionale CNC pe nivel 2 la finalul clasei a X-a în liceele tehnologice, ca etapă intermediară în parcursul existent (nivel 3 după clasa a XI-a și nivel 4 după clasa a XII-a, acolo unde se aplică). Această schimbare este benefică pentru:
 
-4\) De ce este benefică certificarea la finalul clasei a X-a 4.1. Beneficiu social: prevenim „abandonul fără rezultat" Abandonul la transferul sau pe perioada clasei a X-a este dublu față de transferul către clasa a XI-a. Pentru elevii care se pierd din sistem înainte de cls. a XI-a, problema majoră este că părăsesc școala fără o calificare recunoscută, ceea ce îi împinge către muncă informală și precaritate. Certificarea 2 creează o plasă de siguranță. 4.2. Beneficiu educațional: crește retenția prin motivație și sens În liceul tehnologic, retenția crește când elevul vede utilitatea. Un prag intermediar la final de a X-a:
+\- reducerea riscului ca elevii să părăsească școala fără niciun rezultat recunoscut;
 
-• transformă progresul în ceva măsurabil; • reduce demotivarea în anii în care elevii simt că „muncesc mult" fără o recompensă formală. 4.3. Beneficiu economic: intrare mai bună pe piața muncii pentru cei care lucrează Dacă un tânăr lucrează la 16 - 17 ani, diferența între „fără calificare" și „calificare nivel 2" se vede în: • șanse mai bune de angajare formală; • productivitate mai mare; • mobilitate ulterioară către nivel 3 - 4 (upskilling).
+\- creșterea motivației și a retenției prin „trepte” de progres;
 
-4.4. Beneficiu de echitate: nu îi obligăm pe cei vulnerabili să aștepte până la 18 ani pentru o certificare de bază Accesul tinerilor sub 18 ani la calificări de bază este imposibil în afara școlii și chiar și in contextul școlii, mai ales pentru cei fară sprijin familial, fară bani și fară mobilitate. Școala devine locul corect unde această certificare se poate obține mai devreme și mai echitabil.
+alinierea cu realitatea legală și socială: la 16 ani tinerii pot munci, iar sistemul trebuie să le ofere opțiunea unei intrări mai sigure și mai calificate pe piața muncii;
 
-5\) De ce NU va crește abandonul (și poate chiar il scade) 5.1. Pierderile cele mai mari nu apar după a XI-a, ci înainte și la trecerea de la a X-a la a XI-a. Pierderi în seria pentru filiera tehnologică în transferul de la... la: • X→XI este stabil în jur de \~8%; • XI→XII este mai mic (\~4 - 5%); • IX→X foarte mare (cu excepția anului 2022 - 2023)
+\- îmbunătățirea calității și relevanței liceului tehnologic pentru angajatori.
 
-Pierderi (%) pe tranziții - filiera tehnologică 34.9 | Tranziție • IX→X • X-XI # XI→XI! 25 Pierderi (%) 15 10
+Teza centrală: calificările nivel 2 la finalul clasei a X-a nu vor crește abandonul, dimpotrivă, îl pot combate mai ales dacă sunt proiectate ca treaptă de progres (nu „capăt de linie”), cu mecanisme care încurajează continuarea spre nivel 3 - 4 și bacalaureat acolo unde este cazul.
 
-2020-2021 | 2021-2022 | 2022-2023 | 2023-2024 | 2024-2025 | 2025-2026 An școlar (anul de destinație)
+## 2) Context și problemă
 
-Dacă o certificare „ar împinge" masiv ieșirea, te-ai aștepta să vezi efecte de tip „exit după prag". Însă, chiar și cu certificarea existentă (nivel 3 după XI), tranziția XI→XII este la jumătate față de X—XI. Asta sugerează că un prag de certificare, în sine, nu produce automat un val de ieșiri ci, dimpotrivă, ar putea îmbunătăți rămânerea în sistem. 5.2. Mecanismul corect: „checkpoint" care stabilizează, nu „ușă de ieșire" Pentru ca nivelul 2 să reducă abandonul, propunerea include mecanisme clare:
+(a) Abandonul școlar este concentrat în filiera tehnologică. Din rapoartele Ministerului Educației reiese explicit că cei mai mulți elevi care abandonează liceul provin din filiera tehnologică.
 
-punte curriculară: competențele de nivel 1 - 2 sunt primele module din nivel 3 - 4; • stimulente de continuare: burse/prime de progres, practică plătită/dual, sprijin țintit pentru XI - XII; • semnal către angajatori: subvenții sau facilități pentru angajatori condiționate de continuarea elevului în educație (muncă + școală), nu de retragere. Cu aceste elemente, certificarea 2 devine un motiv în plus să rămâi până la a X-a și sa continui, nu un motiv să pleci. 5.3. Oricum, la 16 ani unii vor încerca să muncească; măsura reduce riscul de ieșire definitivă Fără certificare, munca timpurie tinde să fie precaritate și „ruptură" de școală. Cu certificare, crește probabilitatea ca elevul să: • rămână conectat la domeniu;
+(b) Sistemul actual oferă certificare târziu, iar riscul este „plecarea cu mâna goală”. În logica actuală a filierei tehnologice, certificarea calificării profesionale este asociată etapelor superioare (ex. după clasa a XI-a se poate obține certificatul de calificare nivel 3).
 
-• revină/modularizeze traseul; • continue spre nivel 3 - 4. 6) Riscuri și cum le controlăm Risc 1: certificarea devine "capăt de linie". Control: condiționarea beneficiilor (bursă, practică plătită, dual, subvenții) de înscrierea/participarea în a XIa. Risc 2: scade motivația pentru bac. Control: menținerea și întărirea rutelor care combină calificarea cu pregătirea pentru bac; consiliere de carieră orientată către venituri mai mari la nivel 3 - 4 față de 1 - 2. Risc 3: inflație de certificate fără competențe reale. Control: standarde, evaluatori externi, examinare practică reală și audit periodic.
+În practică, elevii vulnerabili socio-economic sunt exact cei care au dificultăți să „tragă” până la final de a XI-a pentru a avea o certificare utilizabilă.
 
-7\) Indicatori de monitorizare (KPI) Ca să demonstrăm că măsura scade abandonul, propunem monitorizare anuală pe:
+(c) La 16 ani, piața muncii există, iar sistemul educațional trebuie să răspundă realist. Indiferent ce credem că ar „trebui”, realitatea este că unii tineri vor încerca să lucreze încă din jurul vârstei de 16 ani. Dacă sistemul nu le oferă un prag de certificare mai devreme, o parte intră în muncă precară, fără recunoaștere formală a competențelor, cu risc mare de ieșire definitivă din educație.
 
-• Rata de tranziție X-→XI în filiera tehnologică (indicator-țintă principal). • Ponderea elevilor certificați nivel 2 care continuă în XI. • Rata de tranziție XI→XII și finalizare nivel 3 - 4. • Absenteism, repetenție și transferuri (pentru a separa abandonul de „zgomotul" administrativ). • Inserție pe piața muncii pentru cei care lucrează (6/12 luni), dar separat pentru „au continuat" vs „au ieșit".
+## 3) Ce propunem (designul măsurii)
 
-8\) Concluzie Calificările CNC nivel 2 la finalul clasei a X-a sunt o măsură de realism social, echitate și prevenire a abandonului. Ele nu subminează traseul spre nivel 3 - 4, ci îl pot întări, dacă sunt construite ca treaptă integrată, cu stimulente și monitorizare. În filiera
+Obiectiv: introducerea unei certificări CNC nivel 2 la finalul clasei a X-a, în liceele tehnologice, pentru calificări, pe cât posibil dar și în funcție de spreciful pieței muncii locale și regionale, aliniate cu domeniul de pregătire și cu traseul ulterior către nivel 3-4.
 
-tehnologică, unde abandonul este structural mai ridicat, politica inteligentă nu este să „așteptăm" până la a XI-a, ci să introducem rezultate intermediare recunoscute care țin elevul în sistem și îi cresc șansele pe piața muncii. Având în vedere argumentele prezentate mai sus, înaintăm Parlamentului României, spre dezbatere și adoptare, prezenta propunere legislativă.
+Principii de design:
 
-INIȚIATORI
+Trepte, nu ieșiri: certificarea 2 este definită explicit ca etapă intermediară, dacă este posibil, conectată curricular cu nivel 3 - 4.
 
-Nr. | NUME ȘI PRENUME | SEMNĂTURA ert. Raluca TURCAN - Deputat PNL
+Compatibilitate domeniu: calificarea 2 să fie în același domeniu sau apropiat de pregătire de bază, pentru a evita „rupturi” între X și XI.
 
-Corina ATANASIU - deputat USR
+Evaluare standardizată: certificarea se bazează pe standarde de pregătire profesională și examinare unitară, similar logicii actuale de certificare din IPT.
 
-3\. GABRiEL ANDROMACHE 4. ROMAM FORiN PHL 5. NEACSU AX/DREEA - FIRUTA 6. MATÉ ANETA | PAL COMPEAN OVIAIU | PNL SEBASTAN- OA BURDJA SOL 9. Ciprian Pandea PNL 10. TIPLEA DAMIT SL 11. GHEORSHE DANIEL 12. ALiNA GORGHI 13. CIOBOTARU DRAROS 14. | ESUARA-TATIAN MITITELO
+## 4) De ce este benefică certificarea la finalul clasei a X-a
 
-LISTA SEMNĂTURI completarea art. 15 L E G E pentru propunerea legislativă pentru te\_ din Legea învățământului preuniversitar nr. 198/2023 NR. | DEPUTAT/SENATOR | SEMNĂTURĂ | PARTID CORINA ATANASIU | USD 2. | VĂDUVA DÜNTRU | USK Pandea Liprian | PNL 4 | 2i.8ANU/ ADrita | PAL 5. PiSTRU-SOPA GEANINA | PNL - TIPLEA AUTITEA 7. | NĂCUTĂ SORIN | PNL PNL | PNC CMpEAt CVIgiu | PNL 12 | NEACSU ANAREEH FiRUTA | PNL mord Unserame | USA 14 | CRISTIAN BRIAN | USR 15 . | PLUSAT AVDREi | USr 16. | ECHEREI ADRiAN | USA 17 | ALiN STOICA | USR
+## 4.1. Beneficiu social: prevenim „abandonul fără rezultat”
 
-LISTA SEMNĂTURI | completarea art 15 L E G E pentru propunerea legislativă pentru r.. din Legea învățământului preuniversitar nr. 198/2023 NR. | DEPUTAT/SENATOR | SEMNĂTURĂ | PARTID Kaluce viraù | PNL GABRiEL ANDRENACHE | PHL 20 | P51
+Abandonul la transferul sau pe perioada clasei a X-a este dublu față de transferul către clasa a XI-a. Pentru elevii care se pierd din sistem înainte de cls. a XI-a, problema majoră este că părăsesc școala fără o calificare recunoscută, ceea ce îi împinge către muncă informală și precaritate. Certificarea 2 creează o plasă de siguranță.
 
-21 | TES 22 | SRiNCEANU VLAS FLORENTIN | PSA. 23 | MiHUTí BOGAAN | PSA
+## 4.2. Beneficiu educațional: crește retenția prin motivație și sens
 
-LISTA SEMNĂTURI LE G E pentru CF | , din Legea completarea art.15 invațământului preuniversitar nr. 198/2023
+În liceul tehnologic, retenția crește când elevul vede utilitatea. Un prag intermediar la final de a X-a:
 
-NR. | DEPUTAT/SENATOR | SEMNĂTURĂ | PARTID 24 | RIGMAN CÌPRiAN | USR 25 | FLECSARARU NUCOLI MART VSR 26 POLLYANNA HANGAN | USR 27 | GIURGIV ADRIAN : | USR 28 Paraschivesu Ovidiu | USR 29 | Rodeanu Bogdan | ISR 30 | SENDROIU VLAD -10AN | USR 3 ) | BLAGA KANiEZ | XSR 32 | GiMA GÓODGE | VER 33 BOTEZ MIHAI- CÂTĂLIN | USR 304 | USR 55 | WSie 36 | LiSU DEACONIO RU XANACA 57 | CERIIC SEBASTIAM | usz 38 RUS VASiLE-CiPRIAN | LISR 39 | GAZAR TEODOR USR. 40 | GHEORCHIV ANDREI- | USR 41 | BULAI IULIAN | ÜSR 42 BERESA MONiCA-CCENA | VSR 43 | 81ABBO | 4orkeutt
+● transformă progresul în ceva măsurabil;
 
-LISTA SEMNĂTURI completarea art 15 LE G E pentru propunerea legislativă pentru andx din Legea învățământului preuniversitar nr. 198/2023
+\- reduce demotivarea în anii în care elevii simt că „muncesc mult” fără o recompensă formală.
 
-NR. | DEPUTAT/SENATOR | SEMNĂTURĂ | PARTID 44 | CRISTINDĂSMANVELA | AUR
+4.3. Beneficiu economic: intrare mai bună pe piața muncii pentru cei care lucrează
 
-LISTA SEMNĂTURI 15 LEGE pentru : | art. | din Legea conspetasza invatamantului preuniversitar nr. 198/2023
+Dacă un tânăr lucrează la 16 - 17 ani, diferența între „fără calificare” și „calificare nivel 2” se vede în:
 
-NR. | DEPUTAT/SENATOR | SEMNĂTURĂ | PARTID DOBRA ELEMA ADCiHA | USR MÎNSRU CÂTALIN- EMIL | USR RUS VASiLE-CIARiAN | USR AUGHEL RAZVAN-PAUL | USR Bodea Manus | USA NEGDÌ EUGEO REMUS | VSR
+● șanse mai bune de angajare formală;
+
+● productivitate mai mare;
+
+\- mobilitate ulterioară către nivel 3 - 4 (upskilling).
+
+4.4. Beneficiu de echitate: nu îi obligăm pe cei vulnerabili să aștepte până la 18 ani pentru o certificare de bază
+
+Accesul tinerilor sub 18 ani la calificări de bază este imposibil în afara școlii și chiar și în contextul școlii, mai ales pentru cei fără sprijin familial, fără bani și fără mobilitate. Școala devine locul corect unde această certificare se poate obține mai devreme și mai echitabil.
+
+## 5) De ce NU va crește abandonul (și poate chiar îl scade)
+
+5.1. Pierderile cele mai mari nu apar după a XI-a, ci înainte și la trecerea de la a X-a la a XI-a.
+
+Pierderi în seria pentru filiera tehnologică în transferul de la... la:
+
+● X→XI este stabil în jur de \~8%;
+
+XI→XII este mai mic (\~4 - 5%);
+
+IX→X foarte mare (cu excepția anului 2022 – 2023)
+
+Dacă o certificare „ar împinge” masiv ieșirea, te-ai aștepta să vezi efecte de tip „exit după prag”. Însă, chiar și cu certificarea existentă (nivel 3 după XI), tranziția XI→XII este la jumătate față de X→XI. Asta sugerează că un prag de certificare, în sine, nu produce automat un val de ieșiri ci, dimpotrivă, ar putea îmbunătăți rămânerea în sistem.
+
+5.2. Mecanismul corect: „checkpoint” care stabilizează, nu „ușă de ieșire”
+
+Pentru ca nivelul 2 să reducă abandonul, propunerea include mecanisme clare:
+
+\- punte curriculară: competențele de nivel 1 - 2 sunt primele module din nivel 3 - 4;
+
+stimulente de continuare: burse/prime de progres, practică plătită/dual, sprijin țintit pentru XI - XII;
+
+\- semnal către angajatori: subvenții sau facilități pentru angajatori condiționate de continuarea elevului în educație (muncă + școală), nu de retragere.
+
+Cu aceste elemente, certificarea 2 devine un motiv în plus să rămâi până la a X-a și să continui, nu un motiv să pleci.
+
+5.3. Oricum, la 16 ani unii vor încerca să muncească; măsura reduce riscul de ieșire definitivă
+
+Fără certificare, munca timpurie tinde să fie precaritate și „ruptură” de școală. Cu certificare, crește probabilitatea ca elevul să:
+
+\- rămână conectat la domeniu;
+
+● revină/modularizeze traseul;
+
+● continue spre nivel 3 - 4.
+
+## 6) Riscuri și cum le controlăm
+
+Risc 1: certificarea devine "capăt de linie".
+
+Control: condiționarea beneficiilor (bursă, practică plătită, dual, subvenții) de înscrierea/participarea în a XIa.
+
+Risc 2: scade motivația pentru bac.
+
+Control: menținerea și întărirea rutelor care combină calificarea cu pregătirea pentru bac; consiliere de carieră orientată către venituri mai mari la nivel 3 - 4 față de 1 - 2.
+
+Risc 3: inflație de certificate fără competențe reale.
+
+Control: standarde, evaluatori externi, examinare practică reală și audit periodic.
+
+## 7) Indicatori de monitorizare (KPI)
+
+Ca să demonstrăm că măsura scade abandonul, propunem monitorizare anuală pe:
+
+\- Rata de tranziție X→XI în filiera tehnologică (indicator-țintă principal).
+
+\- Ponderea elevilor certificați nivel 2 care continuă în XI.
+
+Rata de tranziție XI→XII și finalizare nivel 3 - 4.
+
+\- Absenteism, repetenție și transferuri (pentru a separa abandonul de „zgomotul” administrativ).
+
+\- Insertie pe piața muncii pentru cei care lucrează (6/12 luni), dar separat pentru „au continuat” vs „au ieșit”.
+
+## 8) Concluzie
+
+Calificările CNC nivel 2 la finalul clasei a X-a sunt o măsură de realism social, echitate și prevenire a abandonului.
+
+Ele nu subminează traseul spre nivel 3 - 4, ci îl pot întări, dacă sunt construite ca treaptă integrată, cu stimulente și monitorizare. În filiera tehnologică, unde abandonul este structural mai ridicat, politica inteligentă nu este să „așteptăm” până la a XI-a, ci să introducem rezultate intermediare recunoscute care țin elevul în sistem și îi cresc șansele pe piața muncii.
+
+Având în vedere argumentele prezentate mai sus, înaintăm Parlamentului României, spre dezbatere și adoptare, prezenta propunere legislativă.
+
+## INIȚIATORI
+
+| Nr.crt. | NUME ȘI PRENUME | SEMNĂTURA |
+| --- | --- | --- |
+| 1. | Raluca TURCAN – Deputat PNL |  |
+| 2. | Corina ATANASIU – deputat USR |  |
+| 3. | GABRIEL ANDRONACHZ |  |
+| 4. | ROMAN FIORIN PNL |  |
+| 5. | NEACSU AXLOREEA - FIRUTA |  |
+| 6. | MARG' ANETA PNL |  |
+| 7. | CIMPEAN OUIAU PNL |  |
+| 8. | SCBASTAN - DAJ BURDUYA RN |  |
+| 9. | Cypran Pardeq PNL |  |
+| 10. | TIPLE A DUMIR JU |  |
+| 11. | GHEORCHE AANIEZ |  |
+| 12. | AUNA GOREGHU |  |
+| 13. | QIOBOTANU DRAPOS |  |
+| 14. | MITITELO EQUARAD-TATIAN |  |
+
+LISTA SEMNĂTURI completarea art 15 L E G E pentru propunerea legislativă pentru din Legea învățământului preuniversitar nr. 198/2023
+
+<table>
+<tbody>
+<tr><td>NR.</td><td>DEPUTAT/SENATOR</td><td>SEMNĂTURĂ</td><td>PARTID</td></tr>
+<tr><td>1.</td><td>CORINA ATAHASIĆ</td><td rowspan="23"></td><td>USD</td></tr>
+<tr><td>2.</td><td>VĂDUVA BUNHRU</td><td>USK</td></tr>
+<tr><td>3</td><td>Pandea Ćprian</td><td>PNL</td></tr>
+<tr><td>4</td><td>e.i.BANU ADRIAN</td><td>PNL</td></tr>
+<tr><td>5.</td><td>PISTRU-POPA BEANINA</td><td>PNL</td></tr>
+<tr><td>6</td><td>PELEA-DVIJITĆĆ</td><td>PNL</td></tr>
+<tr><td>7.</td><td>NĂEUTĂ SORIN</td><td>PNL</td></tr>
+<tr><td>8.</td><td>Quoi Antonion</td><td>PNL</td></tr>
+<tr><td>9.</td><td>Hulucu Bagdon</td><td>PNC</td></tr>
+<tr><td>10.</td><td>ROMAN FOJIN</td><td>PNL</td></tr>
+<tr><td>11.</td><td>CAMPAN OVIJIU</td><td>PNC</td></tr>
+<tr><td>12.</td><td>NEACSU ANAREEA FIREUTA (</td><td>PNL</td></tr>
+<tr><td>13.</td><td>Smoam Umgunomu</td><td>USR</td></tr>
+<tr><td>14.</td><td>CRISTIAN BRIAR</td><td>USR</td></tr>
+<tr><td>15.</td><td>PLOSAR ANDREI</td><td>USR</td></tr>
+<tr><td>16.</td><td>EOHEEC ADRIAN</td><td>USR</td></tr>
+<tr><td>17.</td><td>ALIN SPOI CA</td><td>USR</td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+LISTA SEMNĂTURI completarea art 15 L E G E pentru propunerea legislativă pentru r din Legea învățământului preuniversitar nr. 198/2023
+
+<table>
+<tbody>
+<tr><td>NR.</td><td>DEPUTAT/SENATOR</td><td rowspan="8">SEMNĂTURĂ</td><td>PARTID</td></tr>
+<tr><td>18</td><td>Raluce TWCaui</td><td>P</td></tr>
+<tr><td>19</td><td>GABRIEC ANDROXACHIE</td><td>PHL</td></tr>
+<tr><td>20</td><td>Ghigiu Alexandru Mihai</td><td>PSA</td></tr>
+<tr><td>21</td><td>Budur Ariana</td><td>76J</td></tr>
+<tr><td>22</td><td>DRINCEANU VUTD FLORINJIN</td><td>PSA.</td></tr>
+<tr><td>23</td><td>MİHUTI BOGANN</td><td rowspan="2">PSA</td></tr>
+<tr><td></td><td>1</td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+L E G E pentru 25 din Lege completarea avt.15 învățământului preuniversitar nr. 198/2023
+
+| NR. | DEPUTAT/SENATOR | SEMNĂTURĂ | PARTID |
+| --- | --- | --- | --- |
+| 24 | RIGMAN CIPRIAN |  | USR |
+| 25 | ALECSANDRU MARLU-NUCOLATE |  | USR |
+| 26 | POLYANNA HANGAN |  | USR |
+| 27 | GIVRGIV ADRIAN |  | USR |
+| 28 | Paraschivescu Ovidiu |  | USR |
+| 29 | Rodeanu Bosdan |  | ISR |
+| 30 | SENDROIU VLAD-104N |  | USR |
+| 31 | BLASA SARLIEZ |  | USR |
+| 32 | GIMA GEORGE |  | USR |
+| 33 | BOTEZ MIHAI-CAJTALIN |  | USR |
+| 34 | BERGSCU MONICA-CELENA |  | USR |
+| 35 | STERGURP CHEJME |  | USR |
+| 36 | CIBO DEACOMU RU XAUVA |  | USR |
+| 37 | CEPIR SEBASTIAN |  | USR |
+| 38 | RUS VASILE-CIPRIAN |  | USR |
+| 39 | LAZAR TEOSOR |  | USR |
+| 40 | CHEORCHIV ANDREI |  | USR |
+| 41 | BULAI IULIAN |  | USR |
+| 42 | BERGSCU MONICA-CELENA |  | USD |
+| 43 | STABO OBOH |  | USD/USD |
+
+LISTA SEMNĂTURI | completata ar at / >
+
+LEGE pentru propunerea legislativă pentru ai din Legea învățământului preuniversitar nr. 198/2023.
+
+NR. DEPUTAT/SENATOR | SEMNĂTURĂ PARTID
+
+y/4 COSTIN E MRNIJELA &J (2
+
+## LISTA SEMNĂTURI 15
+
+L E G E pentru :
+
+art.
+
+din Legea
+
+comsputarea învățământului preuniversitar·nr. 198/2023
+
+<table>
+<tbody>
+<tr><td>NR.</td><td>DEPUTAT/SENATOR</td><td>SEMNĂTURĂ</td><td>PARTID</td></tr>
+<tr><td></td><td>DOBRA ECERA ADEU'HA</td><td rowspan="6"></td><td>USR</td></tr>
+<tr><td></td><td>MINDRU CĂTĂCIN-EMIL</td><td>USR</td></tr>
+<tr><td></td><td>RUS VASICE-CĂPRIAN</td><td>USR</td></tr>
+<tr><td></td><td>AUGHEL RĂZVN-PAUL</td><td>USR</td></tr>
+<tr><td></td><td>Bodea Manus</td><td>USR</td></tr>
+<tr><td></td><td>NEGPI EUGOV REMUS</td><td>USR</td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>

@@ -1,0 +1,17 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+LEGE
+
+privind aprobarea Ordonanței de urgență a Guvernului nr.39/2026 pentru modificarea și completarea Ordonanței de urgență a Guvernului nr.58/2023 privind unele măsuri pentru acordarea unei prime de carieră didactică pentru personalul didactic și didactic auxiliar, precum și unei prime de carieră profesională pentru personalul administrativ din învățământul de stat, suportate din fonduri externe nerambursabile, precum și pentru instituirea unor reglementări în vederea gestionării Programului Educație și Ocupare 2021-2027
+
+Senatul adoptă prezentul proiect de lege
+
+Articol unic.- Se aprobă Ordonanța de urgență a Guvernului nr.39 din 5 mai 2026 pentru modificarea și completarea Ordonanței de urgență a Guvernului nr.58/2023 privind unele măsuri pentru acordarea unei prime de carieră didactică pentru personalul didactic și didactic auxiliar, precum și unei prime de carieră profesională pentru personalul administrativ din învățământul de stat, suportate din fonduri externe nerambursabile, precum și pentru instituirea unor reglementări în vederea gestionării Programului Educație și Ocupare 2021-2027, publicată în Monitorul Oficial al României, Partea I, nr.381 din 6 mai 2026.
+
+Acest proiect de lege se consideră adoptat de Senat în forma inițială, în condițiile articolului 115 alineatul (5) teza a III-a din Constituția României, republicată.
+
+PREȘEDINTELE SENATULUI
+
+MIRCEA ABRUDEAN

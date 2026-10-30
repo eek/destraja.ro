@@ -1,57 +1,303 @@
-GUVERNUL ROMÂNIEI ORDONANȚĂ DE URGENȚĂ pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 62/2025 privind măsurile de punere în aplicare a Regulamentului (UE) 2025/1.106 al Consiliului din 27 mai 2025 de instituire a Instrumentului ,,Acțiunea pentru securitatea Europei" (SAFE) prin consolidarea industriei europene de apărare precum și pentru modificarea și completarea unor acte normative
+# GUVERNUL ROMÂNIEI ORDONANȚĂ DE URGENȚĂ
 
-Având în vedere Decizia de punere în aplicare (UE) 2026/368 a Consiliului din 11 februarie 2026 privind punerea la dispoziția României a asistenței financiare în temeiul Regulamentului (UE) 2025/1.106, necesitatea creării unui cadru instituțional clar, coerent și funcțional, în conformitate cu exigențele Uniunii Europene, care să permită absorbția eficientă și la termen a asistenței financiare acordate României de către Comisia Europeană în cadrul Instrumentului SAFE, și totodată să asigure derularea corespunzătoare a achizițiilor incluse în Planul de investiții pentru industria europeană de apărare în exercițiul bugetar 2026, obligația clarificării unor elemente legate de mecanismul bugetar, inclúsiva modului de evidențiere în clasificația bugetară a achizițiilor incluse în cadrul Planului de investiții
+pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 62/2025 privind măsurile de punere în aplicare a Regulamentului (UE) 2025/1.106 al Consiliului din 27 mai 2025 de instituire a Instrumentului „Acțiunea pentru securitatea Europei” (SAFE) prin consolidarea industriei europene de apărare precum și pentru modificarea și completarea unor acte normative
 
-pentru industria europeană de apărare, element care necesită reglementare anterior aprobării bugetului de stat pe anul 2026, situația excepțională justificată de actualul context geopolitic, prin raportare la caracterul temporar al posibilității de utilizare a asistenței financiare acordate în cadrul Instrumentului SAFE, faptul că în lipsa adoptării imediate, în regim de urgență, a unor măsuri de reglementare privind cadrul instituțional și financiar necesar implementării Planului de investiții pentru industria europeană de apărare, există riscul apariției unor blocaje de natură bugetară și administrativă, care nu ar asigura reflectarea corespunzătoare, în bugetul de stat pe anul 2026, a achizițiilor incluse în respectivul Plan de investiții și nu ar permite semnarea contractelor de achiziții publice efectuate de un stat membru, în termenul limită prevăzut la art. 4 alin.(3) din Regulamentul (UE) 2025/1.106 al Consiliului din 27 mai 2025 de instituire a Instrumentului "Acțiunea pentru securitatea Europei" (SAFE) prin consolidarea industriei europene de apărare, pentru eligibilitatea în cadrul Instrumentului SAFE, respectiv 30 mai 2026, luând în considerare că aceste elemente vizează interesul general public și constituie o situație de urgență și extraordinară a cărei reglementare nu poate fi amânată,
+## Având în vedere
 
-In temeiul art. 115 alin. (4) din Constituția României, republicată,
+Decizia de punere în aplicare (UE) 2026/368 a Consiliului din 11 februarie 2026 privind punerea la dispoziția României a asistenței financiare în temeiul Regulamentului (UE) 2025/1.106,
+
+necesitatea creării unui cadru instituțional clar, coerent și funcțional, în conformitate cu exigențele Uniunii Europene, care să permită absorbția eficientă și la termen a asistenței financiare acordate României de către Comisia Europeană în cadrul Instrumentului SAFE, și totodată să asigure derularea corespunzătoare a achizițiilor incluse în Planul de investiții pentru industria europeană de apărare în exercițiul bugetar 2026,
+
+obligația clarificării unor elemente legate de mecanismul bugetar, inclusiv a modului de evidențiere în clasificația bugetară a achizițiilor incluse în cadrul Planului de investiții pentru industria europeană de apărare, element care necesită reglementare anterior aprobării bugetului de stat pe anul 2026,
+
+situația excepțională justificată de actualul context geopolitic, prin raportare la caracterul temporar al posibilității de utilizare a asistenței financiare acordate în cadrul Instrumentului SAFE,
+
+faptul că în lipsa adoptării imediate, în regim de urgență, a unor măsuri de reglementare privind cadrul instituțional și financiar necesar implementării Planului de investiții pentru industria europeană de apărare, există riscul apariției unor blocaje de natură bugetară și administrativă, care nu ar asigura reflectarea corespunzătoare, în bugetul de stat pe anul 2026, a achizițiilor incluse în respectivul Plan de investiții și nu ar permite semnarea contractelor de achiziții publice efectuate de un stat membru, în termenul limită prevăzut la art. 4 alin.(3) din Regulamentul (UE) 2025/1.106 al Consiliului din 27 mai 2025 de instituire a Instrumentului "Acțiunea pentru securitatea Europei" (SAFE) prin consolidarea industriei europene de apărare, pentru eligibilitatea în cadrul Instrumentului SAFE, respectiv 30 mai 2026,
+
+luând în considerare că aceste elemente vizează interesul general public și constituie o situație de urgență și extraordinară a cărei reglementare nu poate fi amânată,
+
+În temeiul art. 115 alin.(4) din Constituția României, republicată,
 
 Guvernul României adoptă prezenta ordonanță de urgență.
 
-Art. I. - Ordonanța de urgență a Guvernului nr. 62/2025 privind măsurile de punere în aplicare a Regulamentului (UE) 2025/1.106 al Consiliului din 27 mai 2025 de instituire a Instrumentului "Acțiunea pentru securitatea Europei" (SAFE) prin consolidarea industriei europene de apărare, precum și pentru modificarea și completarea unor acte normative,
+Art. I. - Ordonanța de urgență a Guvernului nr. 62/2025 privind măsurile de punere în aplicare a Regulamentului (UE) 2025/1.106 al Consiliului din 27 mai 2025 de instituire a Instrumentului "Acțiunea pentru securitatea Europei" (SAFE) prin consolidarea industriei europene de apărare, precum și pentru modificarea și completarea unor acte normative, publicată în Monitorul Oficial al României, Partea I, nr. 1071 din 20 noiembrie 2025, aprobată cu completări prin Legea nr.4/2026, se modifică și se completează după cum urmează:
 
-publicată în Monitorul Oficial al României, Partea I, nr. 1071 din 20 noiembrie 2025, aprobată cu completări prin Legea nr.4/2026, se modifică și se completează după cum urmează:
+## 1. La articolul 1, alineatul (2) se modifică și va avea următorul cuprins:
 
-1\. La articolul 1, alineatul (2) se modifică și va avea următorul cuprins: »(2) În sensul prezentei ordonanțe de urgență, termenii și expresiile de mai jos au următoarele semnificații: a) "produs" - are înțelesul definițiilor sintagmelor "produs din domeniul apărării", respectiv "alte produse utilizate în scopuri de apărare", prevăzute la art. 2 pct. 1 și 2 din Regulamentul (UE) 2025/1.106; b) "Acord de împrumut"- instrumentul juridic internațional încheiat între România, prin Ministerul Finanțelor și Uniunea Europeană, prin Comisia Europeană, în temeiul dispozițiilor art.10 alin.(1) din Regulamentul (UE) 2025/1.106 și al art. 4 din Ordonanța de urgență a Guvernului nr. 64/2007 privind datoria publică, aprobată cu modificări și completări prin Legea nr.109/2008, cu modificările și completările ulterioare, al Deciziei de punere în aplicare (UE) 2026/368 a Consiliului din 11 februarie 2026 privind punerea la dispoziția României a asistenței financiare în temeiul Regulamentului (UE) 2025/1.106, denumită în continuare "Decizia de punere în aplicare (UE) 2026/368", prin care se stabilesc condițile detaliate ale sprijinului acordat României în cadrul instrumentului SAFE sub formă de împrumut; c) | "Acord operațional" - instrumentul juridic internațional încheiat între România, prin Ministerul Finanțelor și Uniunea Europeană, prin Comisia Europeană în temeiul dispozițiilor art. 10 alin. (1) din Regulamentul (UE) 2025/1.106, prin care se stabilește relația dintre execuția Planului și asistența financiară acordată; d) "Declarație de confirmare a cheltuielilor" - document prin care se certifică de către instituțiile prevăzute la art. 1' alin.(1) lit.c), după caz., în urma verificărilor efectuate potrivit atribuțiilor ce le revin, legalitatea, realitatea și conformitatea cheltuielilor efectuate în cadrul Planului; e) "Planul de investiții" sau „Planul SAFE" său "Planul" - Planul de investiți pentru industria europeană de apărare, astfel cum a fost propus de partea română, 3
+„(2) În sensul prezentei ordonanțe de urgență, termenii și expresiile de mai jos au următoarele semnificații:
 
-transmis împreună cu cererea de asistență financiară aprobată de către Comisia Europeană conform Deciziei de punere în aplicare (UE) 2026/368.
+a) "produs" - are înțelesul definițiilor sintagmelor "produs din domeniul apărării", respectiv "alte produse utilizate în scopuri de apărare", prevăzute la art. 2 pct. 1 și 2 din Regulamentul (UE) 2025/1.106;
 
-După articolul 1 se introduce un nou articol, art. 1', cu următorul cuprins: „Art. 1 . - (1) Instituțiile cu atribuții în coordonarea, gestionarea, implementarea și controlul fondurilor acordate României în cadrul Instrumentului SAFE sunt: a) Cancelaria Prim-Ministrului, care asigură supervizarea generală a implementării Planului și îndeplinește atribuțiile prevăzute la alin.(2); b) Ministerul Finanțelor, în calitate de reprezentant al Împrumutatului și care îndeplinește atribuțiile prevăzute la alin. (3); c) Ministerul Apărării Naționale, inclusiv și prin Direcția generală pentru armamente, Ministerul Afacerilor Interne, Serviciul Român de Informații, Serviciul de Telecomunicații Speciale, Serviciul de Informații Externe, Serviciul de Protecție și Pază, Administrația Națională a Penitenciarelor, precum și Ministerul Transporturilor și Infrastructurii, inclusiv prin administratorii/dezvoltatorii naționali de infrastructură de transport rutier de interes național, care îndeplinesc atribuțiile prevăzute la alin. (4); (2) Cancelaria Prim-Ministrului îndeplinește următoarele atribuții: a) asigură coordonarea autorităților din România în vederea participării la instrumentul SAFE; b) transmite și negociază cu Comisia Europeană, prin intermediul Reprezentanței Permanente a României pe lângă Uniunea Europeană, proiectele propuse pentru accesarea instrumentului de finanțare SAFE, precum și documentația de susținere, cererile de asistență financiară însoțite de planurile de investiții, la termenele prevăzute; c) negociază cooperarea cu alte state eligibile, definite prin Regulamentul (UE) 2025/1.106, pentru a întruni condițiile de finanțare, precum și cu potențiali furnizori; d) propune spre aprobare Consiliului Suprem de Apărare a Țarii planul de investiții pentru industria europeană de apărare ce va fi înaintat Comisiei Europene și
+b) “Acord de împrumut”— instrumentul juridic internațional încheiat între România, prin Ministerul Finanțelor și Uniunea Europeană, prin Comisia Europeană, în temeiul dispozițiilor art.10 alin.(1) din Regulamentul (UE) 2025/1.106 și al art. 4 din Ordonanța de urgență a Guvernului nr. 64/2007 privind datoria publică, aprobată cu modificări și completări prin Legea nr.109/2008, cu modificările și completările ulterioare, al Deciziei de punere în aplicare (UE) 2026/368 a Consiliului din 11 februarie 2026 privind punerea la dispoziția României a asistenței financiare în temeiul Regulamentului (UE) 2025/1.106, denumită în continuare “Decizia de punere în aplicare (UE) 2026/368”, prin care se stabilesc condițiile detaliate ale sprijinului acordat României în cadrul instrumentului SAFE sub formă de împrumut;
 
-coordonează implementarea acestui plan, conform dispozițiilor prezentei ordonanțe de urgență; e) colaborează cu Ministerul Apărării Naționale, Ministerul Economiei, Digitalizării, Antreprenoriatului și Turismului și cu alte autorități publice, după caz, pentru identificarea posibilităților de cooperare la nivel de operator economic cu corespondenții/omologii din alte state eligibile, precum și pentru elaborarea cererilor de asistență financiară și a planurilor de investiții aferente; f) reprezintă punct de contact în relația cu Comisia Europeană potrivit atribuțiilor specifice prevăzute de prezenta ordonanță de urgență; g) participă alături de Ministerul Finanțelor și de instituțiile prevăzute la alin.(1) lit.c) la stabilirea propunerilor de modificare și/sau înlocuire a proiectelor și/sau jaloanelor incluse în Plan, în cazul în care se constată întârzieri și/sau riscuri de neîndeplinire ori în cazul apariției unor situații excepționale temeinic fundamentate și le transmite Grupului de Lucru; h) negociază cu Comisia Europeană modificările aferente Planului, în colaborare cu Ministerul Finanțelor și cu instituțiile prevăzute la alin.(1) lit.c); i) îndeplinește orice alte atribuții prevăzute prin prezenta ordonanță de urgență. (3) Ministerul Finanțelor îndeplinește următoarele atribuții: a) semnează acordul de împrumut dintre România și Comisia Europeană prevăzut la art. 10 din Regulamentul (UE) 2025/1.106 și asigură formalitățile pentru intrarea în vigoare a acestuia potrivit Ordonanței de urgență a Guvernului nr. 64/2007, aprobată cu modificări și completări prin Legea nr. 109/2008, cu modificările și completările ulterioare; b) semnează acordul operațional prevăzut la art. 10 din Regulamentul (UE) 2025/1.106; c) deschide la Banca Națională a României contul pentru primirea sumelor ce se disponibilizează de către Comisia Europeană în cadrul împrumutului; d) asigură tragerile și administrează/utilizează sumele împrumutului în conformitate cu prevederile Ordonanței de urgență a Guvernului nr. 64/2007, aprobată cu modificări și completări prin Legea nr. 109/2008, cu modificările și completările ulterioare și prevederile acordului de împrumut; 5
+c) “Acord operațional” – instrumentul juridic internațional încheiat între România, prin Ministerul Finanțelor și Uniunea Europeană, prin Comisia Europeană în temeiul dispozițiilor art.10 alin.(1) din Regulamentul (UE) 2025/1.106, prin care se stabilește relația dintre execuția Planului și asistența financiară acordată;
 
-e) rambursează împrumutul și asigură plata costului de finanțare, care cuprinde dobânda și alte taxe, precum și a altor costuri aferente împrumutului; f) asigură, conform atribuțiilor specifice ce-i revin, reglementarea controlului financiar preventiv, în vederea exercitării controlului financiar preventiv propriu și controlului financiar preventiv delegat, unde este cazul, respectiv a îndeplinirii condițiilor de legalitate, regularitate și încadrare în limitele creditelor bugetare și de angajament aprobate, a operațiunilor efectuate în cadrul Planului; g) autentifică, prin Agenția Națională de Administrare Fiscală, Certificatele de scutire de TVA pentru achizițiile de produse din domeniul apărării sau alte produse utilizate în scopuri de apărare în temeiul contractelor care rezultă din achiziții publice sprijinite în cadrul Instrumentului SAFE, potrivit dispozițiilor art.20 din Regulamentul (UE) 2025/1.106; h) monitorizează stadiul implementării proiectelor și a jaloanelor incluse în Plan și, după caz, stabilește împreună cu Cancelaria Prim-ministrului și instituțiile prevăzute la alin.(1) lit.c) propunerile de acțiuni de întreprins, inclusiv propunerile de modificare și/sau înlocuire a proiectelor și/sau a jaloanelor incluse în Plan, în cazul în care se constată întârzieri și/sau riscuri de neîndeplinire ori în cazul apariției unor situații excepționale temeinic tundamentate; i) elaborează raportările periodice privind stadiul implementării proiectelor și/sau jaloanelor incluse în Plan; j) centralizează raportările privind progresele înregistrate în implementarea Planului pentru justificarea cererilor de plată, care se transmit Comisiei Europene potrivit art.12 alin.(2) din Regulamentul (UE) 2025/1.106, pe baza informațiilor transmise de instituțiile prevăzute la alin.(1) lit.c); k) monitorizează existența la nivelul instituțiilor prevăzute la alin.(1) lit.c), a procedurilor aplicabile pentru asigurarea îndeplinirii condițiilor de eligibilitate pentru utilizarea asistenței financiare acordate de Uniunea Europeană, conform Regulamentului (UE) 2025/1.106; 1) reprezintă punct de contact în relația cu Comisia Europeană potrivit atribuțiilor
+d) “Declarație de confirmare a cheltuielilor” - document prin care se certifică de către instituțiile prevăzute la art. 1¹ alin.(1) lit.c), după caz, în urma verificărilor efectuate potrivit atribuțiilor ce le revin, legalitatea, realitatea și conformitatea cheltuielilor efectuate în cadrul Planului;
 
-specifice prevăzute de prezenta ordonanță de urgență;
+e) “Planul de investiții” sau „Planul SAFE” sau "Planul" - Planul de investiții pentru industria europeană de apărare, astfel cum a fost propus de partea română, transmis împreună cu cererea de asistență financiară aprobată de către Comisia Europeană conform Deciziei de punere în aplicare (UE) 2026/368.
 
-m) îndeplinește orice alte atribuții prevăzute prin prezenta ordonanță de urgență. (4) Instituțiile prevăzute la alin.(1) lit.c) îndeplinesc următoarele atribuții: a) realizează achizițiile publice corespunzătoare proiectelor incluse în Plan și dețin întreaga responsabilitate și autoritate în acest sens; b) realizează acțiunile necesare îndeplinirii jaloanelor din Plan, conform calendarului convenit și în acest scop asigură pregătirea documentelor și evidențelor necesare justificării acestora, inclusiv în ceea ce privește respectarea prevederilor privind achizițiile publice care sprijină investițiile din industria de apărare, precum și în ceea ce privește respectarea normelor de eligibilitate prevăzute la art. 16 din Regulamentul (UE) 2025/1.106; c) implementează, conform legii, cadrul procedural necesar verificării respectării legalității, realității și conformității cheltuielilor efectuate în cadrul Planului și desfășoară activități pentru prevenirea și combaterea corupției, a conflictelor de interese, a fraudei și a dublei finanțări, asigurând principiul bunei gestiuni financiare și protejarea intereselor financiare naționale și ale Uniunii Europene; d) întocmesc și transmit către Cancelaria Prim-Ministrului și Ministerul Finanțelor raportări privind stadiul implementării proiectelor și jaloanelor din Plan și privind măsurile pentru asigurarea îndeplinirii acestora, cu o frecvență care va fi stabilită prin acordul subsidiar prevăzut la art. 82 alin. (3); e) colaborează cu Cancelaria Prim-ministrului și Ministerul Finanțelor în procesul de stabilire a propunerilor de modificare și/sau înlocuire a proiectelor și/sau a jaloanelor incluse în Plan, în cazul în care se constată întârzieri și/sau riscuri de neîndeplinire ori în cazul apariției unor situații excepționale temeinic fundamentate; f) colaborează cu Cancelaria Prim-Ministrului și Ministerul Finanțelor pentru asigurarea răspunsurilor la solicitările Comisiei Europene privind prezentarea de informații și/sau evidențe în legătură cu Planul; #) întocmesc și transmit către Ministerul F'inanțelor situații privind cheltuielile efectuate în cadrul proiectelor incluse în Plan, însoțite de declarația de confirmare a cheltuielilor, cu o frecvență care va fi stabilită prin acordul subsidiar prevăzut la jart. 83 alin. (3);
+## 2. După articolul 1 se introduce un nou articol, art. 1¹, cu următorul cuprins:
 
-h) asigură îndeplinirea măsurilor legate de vizibilitate a asistenței financiare acordate de Uniunea Europeană, conform art. 22 din Regulamentul (UE) 2025/1.106; i) îndeplinesc orice alte atribuții prevăzute prin prezenta ordonanță de urgență. (5) Instituțiile prevăzute la alin.(1) lit.c) își exercită atribuțiile prevăzute la alin.(4), corespunzător dispozițiilor specifice prevăzute în cuprinsul prezentei ordonanțe de urgență și ale legislației aplicabile."
+„Art. 1¹. - (1) Instituțiile cu atribuții în coordonarea, gestionarea, implementarea și controlul fondurilor acordate României în cadrul Instrumentului SAFE sunt:
 
-3\. | La articolul 2, alineatele (1) și (2) se abrogă.
+a) Cancelaria Prim-Ministrului, care asigură supervizarea generală a implementării Planului și îndeplinește atribuțiile prevăzute la alin.(2);
 
-4\. | La articolul 3, partea introductivă și litera a) se modifică și vor avea urmărul cuprins: „Art. 3. - Pentru implementarea Planului de investiții: a) Ministerul Apărării Naționale, precum și celelalte autorități publice transmit Cancelariei Prim-Ministrului și Ministerului Economiei, Digitalizării, Antreprenoriatului și Turismului cerințele operaționale sau, după caz, cerințe similare, aferente fiecărui proiect propus pentru accesarea instrumentului de finanțare SAFE, precum și o listă cu potențialii furnizori;"
+b) Ministerul Finanțelor, în calitate de reprezentant al Împrumutatului și care îndeplinește atribuțiile prevăzute la alin.(3);
 
-5\. | La articolul 4, alineatele (1) - (3) se modifică și vor avea următorul cuprins: »(1) Șeful Cancelariei Prim-Ministrului stabilește, prin ordin cu caracter individual, cerințele de cooperare aferente fiecărui proiect, în acord cu prevederile Instrumentului SAFE, luând în considerare cerințele operaționale sau similare, prevăzute la art. 3 lit.a). (2) În aplicarea prevederilor art. 19 din Instrumentul SAFE, autoritățile contractante au dreptul de a aplica procedura de negociere fără publicarea prealabilă a unui anunț de participare, cu obligația introducerii în documentația de atribuire a acordului de cooperare prevăzut la art. 5 alin.(8), sau, după caz, a ordinului prevăzut la alin.(1).
+c) Ministerul Apărării Naționale, inclusiv și prin Direcția generală pentru armamente, Ministerul Afacerilor Interne, Serviciul Român de Informații, Serviciul de Telecomunicații Speciale, Serviciul de Informații Externe, Serviciul de Protecție și Pază, Administrația Națională a Penitenciarelor, precum și Ministerul Transporturilor și Infrastructurii, inclusiv prin administratorii/dezvoltatorii naționali de infrastructură de transport rutier de interes național, care îndeplinesc atribuțiile prevăzute la alin.(4);
 
-™V
+(2) Cancelaria Prim-Ministrului îndeplinește următoarele atribuții:
 
-(3) Estimarea valorii contractului de achiziție publică se realizează prin luarea în considerare a acordului de cooperare prevăzut la art. 5 alin.(8), sau, după caz, a ordinului prevăzut la alin.(1)."
+a) asigură coordonarea autorităților din România în vederea participării la Instrumentul SAFE;
 
-6\. Articolul 5 se modifică și va avea următorul cuprins: »Art.5. - (1) Pentru implementarea Hotărârii Consiliului Suprem de Apărare a Țării, prevăzută la art. 1' alin. (2) lit.d), Ministerul Apărării Naționale, prin Direcția generală pentru armamente, respectiv celelalte autorități publice transmit, cu aprobarea șefului Grupului de lucru, o solicitare de informații, însoțită de cerințele operaționale sau similare aferente achiziției și de cooperare, după caz, prin care se solicită comunicarea cel puțin a următoarelor elemente: a) îndeplinirea cerințelor operaționale sau a celor similare; b) îndeplinirea cerințelor de cooperare, după caz; c) termenele de livrare; d) estimarea prețului achiziției. (2) In aplicarea prevederilor alin.(1), destinatarii solicitării de informații pot fi operatorii economici, autorități contractante din alte state sau organizații internaționale, după caz. (3) În cazul în care niciun destinatar al solicitării de informații nu îndeplinește cerințele operaționale sau cele similare, după caz, sau cerințele de cooperare, șeful Cancelariei Prim-Ministrului poate dispune reanalizarea cerințelor, în vederea modificării acestora, dacă este cazul. (4) Ministerul Apărării Naționale, prin Direcția generală pentru armamente, respectiv celelalte autorități publice transmit Cancelariei Prim-Ministrului răspunsurile primite la solicitările de informații, însoțite de un document de analiză preliminară, din care să rezulte indeplinirea sau neîndeplinirea cerințelor operaționale sau similare e si sa cerințelor de cooperare, după caz. (5) În situația în care mai mulți destinatari ai solicitării de informații răspund la solicitarea de informații și din analiza răspunsului rezultă îndeplinirea cerințelor operaționale
+b) transmite și negociază cu Comisia Europeană, prin intermediul Reprezentanței Permanente a României pe lângă Uniunea Europeană, proiectele propuse pentru accesarea instrumentului de finanțare SAFE, precum și documentația de susținere, cererile de asistență financiară însoțite de planurile de investiții, la termenele prevăzute;
 
-sau similare și a cerințelor de cooperare, Ministerul Apărării Naționale, prin Direcția generală pentru armamente, respectiv celelalte autorități publice transmit Cancelariei Prim-Ministrului și o propunere privind clasamentul descrescător menționat la alin. (6). (6) După îndeplinirea activităților prevăzute la alin. (4) și (5), Șeful Cancelariei Prim-ministrului convoacă Grupul de lucru în vederea elaborării unui document de analiză prin care se propune operatorul economic cu care se va derula procedura de atribuire sau statul membru ori organizația internațională prin care se va realiza achiziția în comun, precum și valoarea estimată a achiziției și cerințele de cooperare aferente fiecărui proiect propus. În situația prevăzută la alin.(5), Grupul de lucru întocmește un clasament descrescător realizat prin aplicarea factorilor de evaluare și a ponderilor relative, după cum urmează: a) termenele de livrare - pondere 40%; b) prețul achiziției - pondere 60%. (7) Documentul de analiză prevăzut la alin. (6) se avizează de către Prim-ministru și se înaintează de către șeful Cancelariei Prim-Ministrului, spre aprobare, Consiliului Suprem de Apărare a Țării. (8) În baza documentelor de analiză aprobate de către Consiliul Suprem de Apărare a Țării, Grupul de lucru poate hotărî încheierea unui acord de cooperare pentru unul sau mai multe proiecte din Plan, care include cerințele de cooperare și alte obligații specifice, după caz. Acordurile de cooperare se semnează de către: a) Cancelaria Prim-ministrului, în calitate de coordonator al implementării Planului; b) Ministerul Economiei, Digitalizării, Antreprenoriatului si Turismului, în calitate de autoritate responsabilă pentru monitorizarea implementării cerințelor de cooperare; c)instituțiile prevăzute la art. 1' alin.(1) lit.c), după caz, în calitate de achizitor, având atribuții exclusive în ceea ce privește cerințele operationale; și d) unul sau mai mulți operatori economici.
+c) negociază cooperarea cu alte state eligibile, definite prin Regulamentul (UE) 2025/1.106, pentru a întruni condițiile de finanțare, precum și cu potențiali furnizori;
 
-(9) Cancelaria Prim-ministrului și instituțiile prevăzute la art. 1' alin.(1) lit.c) nu au atribuții în ceea ce privește monitorizarea îndeplinirii cerințelor de cooperare și, după caz, a obligațiilor specifice. (10) Pentru proiectele din Plan, confirmarea îndeplinirii cerințelor de cooperare și a obligațiilor specifice, se realizează cu minim 2 luni înainte de fiecare recepție la solicitarea furnizorului sau la termenele prevăzute în acordurile de cooperare, printr-un document de certificare a îndeplinirii acestora, emis de Grupul de lucru, pe baza propunerii Ministerului Economiei, Digitalizării, Antreprenoriatului și Turismului. (11) Autoritatea contractantă nu are dreptul de a recepționa produse pentru care furnizorul nu prezintă documentul de certificare prevăzut la alin. (10), aspect care se va reflecta în mod corespunzător în documentația de atribuire."
+d) propune spre aprobare Consiliului Suprem de Apărare a Tării planul de investiții pentru industria europeană de apărare ce va fi înaintat Comisiei Europene și coordonează implementarea acestui plan, conform dispozițiilor prezentei ordonanțe de urgență;
 
-După articolul 5 se introduce un nou articol, art. 5' , cu următorul cuprins: »Art. 5!. . - (1) In cazul în care, până la data de 30 mai 2026, o autoritate contractantă nu încheie contractul de achiziție publică aferent unei achiziții publice individuale, care nu tace obiectul unei achiziții publice în comun, autoritatea contractantă are dreptul de a anula procedura de atribuire, fără obligația de a suporta daune, sau, după caz, de a încheia un contract care face obiectul unei achiziții în comun până la data de 31 decembrie 2027. (2) Prin derogare de la prevederile Legii nr. 98/2016, cu modificările și completările ulterioare și ale Ordonantei de urgență a Guvernului nr. 114/2011 privind atribuirea anumitor contracte de achiziții publice în domeniile apărării și securității, aprobată cu modificări și completări prin Legea nr. 195/2012, cu modificările și completările ulterioare, autoritățile contractante pot modifica contractele de achiziție aflate în derulare și care respectă condițiile de eligibilitate potrivit Regulamentului (UE) 2025/1.106, prin introducerea de autorități contractante, respectiv prin modificarea cantităților și/sau a prețurilor cu acordul furnizorului, în condițiile Regulamentului (UE) 2025/1.106."
+e) colaborează cu Ministerul Apărării Naționale, Ministerul Economiei, Digitalizării, Antreprenoriatului și Turismului și cu alte autorități publice, după caz, pentru identificarea posibilităților de cooperare la nivel de operator economic cu corespondenții/omologii din alte state eligibile, precum și pentru elaborarea cererilor de asistență financiară și a planurilor de investiții aferente;
 
-8\. Articolul 6 se abrogă.
+f) reprezintă punct de contact în relația cu Comisia Europeană potrivit atribuțiilor specifice prevăzute de prezenta ordonanță de urgență;
 
-9\. După articolul 8 se introduc nouă noi articole, art. g'- 8°, cu următorul cuprins: „Art. 8'. - In cazul în care una din instituțiile prevăzute la art. 1' alin.(1) lit.c) organizează, cu respectarea dispozițiilor legale în vigoare, achiziții și în numele altor instituții menționate, atribuțiile prevăzute la art. 1' alin. (4) se îndeplinesc în mod corespunzător potrivit responsabilităților ce le revin în procesul de achiziție și derulare a contractelor.
+g) participă alături de Ministerul Finanțelor și de instituțiile prevăzute la alin.(1) lit.c) la stabilirea propunerilor de modificare și/sau înlocuire a proiectelor și/sau jaloanelor incluse în Plan, în cazul în care se constată întârzieri și/sau riscuri de neîndeplinire ori în cazul apariției unor situații excepționale temeinic fundamentate și le transmite Grupului de Lucru;
 
-Art. 8. - (1) Fondurile acordate României conform Deciziei de punere în aplicare (UE) 2026/368 se derulează în baza acordului de împrumut, încheiat în conformitate cu prevederile art. 10 din Regulamentul (UE) 2025/1.106, precum și cu prevederile Ordonanței de urgență a Guvernului nr. 64/2007, aprobată cu modificări și completări prin Legea nr. 109/2008, cu modificările și completările ulterioare. (2) Repartizarea fondurilor acordate României către instituțiile prevăzute la art. 1' alin.(1) lit.c) se stabilește, în conformitate cu Planul, prin hotărâre a Guvernului inițiată de Ministerul Finanțelor în termen de 30 de zile de la data aprobării acordului de împrumut potrivit alin. (1). (3) Ministerul Finanțelor încheie cu instituțiile prevăzute la art. 1' alin.(1) lit.c) și cu Cancelaria Prim-Ministrului, după caz, acorduri subsidiare prin care se stabilesc drepturile și obligațile părților în implementarea Planului, în aplicarea acordului de împrumut și a acordului operațional, după aprobarea acordului de împrumut conform Ordonanței de urgență a Guvernului nr. 64/2007, aprobată cu modificări și completări prin Legea nr. 109/2008, cu modificările și completările ulterioare și a hotărârii Guvernului prevăzută la alin. (2) .
+h) negociază cu Comisia Europeană modificările aferente Planului, în colaborare cu Ministerul Finanțelor și cu instituțiile prevăzute la alin.(1) lit.c);
 
-Art. 8. - (1) Tragerea sumelor în cadrul împrumutului se efectuează de către Ministerul Finanțelor, cu respectarea prevederilor Regulamentului (UE) 2025/1.106, Deciziei de punere în aplicare (UE) 2026/368 și astfel cum se stabilește prin acordul dé împrumut.
+i) îndeplinește orice alte atribuții prevăzute prin prezenta ordonanță de urgență.
 
-*Documentul are 21 de pagini; am citit primele 12.*
+(3) Ministerul Finanțelor îndeplinește următoarele atribuții:
+
+a) semnează acordul de împrumut dintre România și Comisia Europeană prevăzut la art. 10 din Regulamentul (UE) 2025/1.106 și asigură formalitățile pentru intrarea în vigoare a acestuia potrivit Ordonanței de urgență a Guvernului nr. 64/2007, aprobată cu modificări și completări prin Legea nr. 109/2008, cu modificările și completările ulterioare;
+
+b) semnează acordul operațional prevăzut la art. 10 din Regulamentul (UE) 2025/1.106;
+
+c) deschide la Banca Națională a României contul pentru primirea sumelor ce se disponibilizează de către Comisia Europeană în cadrul împrumutului;
+
+d) asigură tragerile și administrează/utilizează sumele împrumutului în conformitate cu prevederile Ordonanței de urgență a Guvernului nr. 64/2007, aprobată cu modificări și completări prin Legea nr. 109/2008, cu modificările și completările ulterioare și prevederile acordului de împrumut;
+
+e) rambursează împrumutul și asigură plata costului de finanțare, care cuprinde dobânda și alte taxe, precum și a altor costuri aferente împrumutului;
+
+f) asigură, conform atribuțiilor specifice ce-i revin, reglementarea controlului financiar preventiv, în vederea exercitării controlului financiar preventiv propriu și controlului financiar preventiv delegat, unde este cazul, respectiv a îndeplinirii condițiilor de legalitate, regularitate și încadrare în limitele creditelor bugetare și de angajament aprobate, a operațiunilor efectuate în cadrul Planului;
+
+g) autentifică, prin Agenția Națională de Administrare Fiscală, Certificatele de scutire de TVA pentru achizițiile de produse din domeniul apărării sau alte produse utilizate în scopuri de apărare în temeiul contractelor care rezultă din achiziții publice sprijinite în cadrul Instrumentului SAFE, potrivit dispozițiilor art.20 din Regulamentul (UE) 2025/1.106;
+
+h) monitorizează stadiul implementării proiectelor și a jaloanelor incluse în Plan și, după caz, stabilește împreună cu Cancelaria Prim-ministrului și instituțiile prevăzute la alin.(1) lit.c) propunerile de acțiuni de întreprins, inclusiv propunerile de modificare și/sau înlocuire a proiectelor și/sau a jaloanelor incluse în Plan, în cazul în care se constată întârzieri și/sau riscuri de neîndeplinire ori în cazul apariției unor situații excepționale temeinic fundamentate;
+
+i) elaborază raportările periodice privind stadiul implementării proiectelor și/sau jaloanelor incluse în Plan;
+
+j) centralizează raportările privind progresele înregistrate în implementarea Planului pentru justificarea cererilor de plată, care se transmit Comisiei Europene potrivit art.12 alin.(2) din Regulamentul (UE) 2025/1.106, pe baza informațiilor transmise de instituțiile prevăzute la alin.(1) lit.c);
+
+k) monitorizează existența la nivelul instituțiilor prevăzute la alin.(1) lit.c), a procedurilor aplicabile pentru asigurarea îndeplinirii condițiilor de eligibilitate pentru utilizarea asistenței financiare acordate de Uniunea Europeană, conform Regulamentului (UE) 2025/1.106;
+
+1\) reprezintă punct de contact în relația cu Comisia Europeană potrivit atribuțiilor specifice prevăzute de prezenta ordonanță de urgență;
+
+m) îndeplinește orice alte atribuții prevăzute prin prezenta ordonanță de urgență.
+
+(4) Instituțiile prevăzute la alin.(1) lit.c) îndeplinesc următoarele atribuții:
+
+a) realizează achizițiile publice corespunzătoare proiectelor incluse în Plan și dețin întreaga responsabilitate și autoritate în acest sens;
+
+b) realizează acțiunile necesare îndeplinirii jaloanelor din Plan, conform calendarului convenit și în acest scop asigură pregătirea documentelor și evidențelor necesare justificării acestora, inclusiv în ceea ce privește respectarea prevederilor privind achizițiile publice care sprijină investițiile din industria de apărare, precum și în ceea ce privește respectarea normelor de eligibilitate prevăzute la art. 16 din Regulamentul (UE) 2025/1.106;
+
+c) implementează, conform legii, cadrul procedural necesar verificării respectării legalității, realității și conformității cheltuielilor efectuate în cadrul Planului și desfășoară activități pentru prevenirea și combaterea corupției, a conflictelor de interese, a fraudei și a dublei finanțări, asigurând principiul bunei gestiuni financiare și protejarea intereselor financiare naționale și ale Uniunii Europene;
+
+d) întocmesc și transmit către Cancelaria Prim-Ministrului și Ministerul Finanțelor raportări privind stadiul implementării proiectelor și jaloanelor din Plan și privind măsurile pentru asigurarea îndeplinirii acestora, cu o frecvență care va fi stabilită prin acordul subsidiar prevăzut la art. 8² alin.(3);
+
+e) colaborează cu Cancelaria Prim-ministrului și Ministerul Finanțelor în procesul de stabilire a propunerilor de modificare și/sau înlocuire a proiectelor și/sau a jaloanelor incluse în Plan, în cazul în care se constată întârzieri și/sau riscuri de neîndeplinire ori în cazul apariției unor situații excepționale temeinic fundamentate;
+
+f) colaborează cu Cancelaria Prim-Ministrului și Ministerul Finanțelor pentru asigurarea răspunsurilor la solicitările Comisiei Europene privind prezentarea de informații și/sau evidențe în legătură cu Planul;
+
+g) întocmesc și transmit către Ministerul Finanțelor situații privind cheltuielile efectuate în cadrul proiectelor incluse în Plan, însoțite de declarația de confirmare a cheltuielilor, cu o frecvență care va fi stabilită prin acordul subsidiar prevăzut la art. 8² alin.(3);
+
+h) asigură îndeplinirea măsurilor legate de vizibilitate a asistenței financiare acordate de Uniunea Europeană, conform art. 22 din Regulamentul (UE) 2025/1.106;
+
+i) îndeplinesc orice alte atribuții prevăzute prin prezenta ordonanță de urgență.
+
+(5) Instituțiile prevăzute la alin.(1) lit.c) își exercită atribuțiile prevăzute la alin.(4), corespunzător dispozițiilor specifice prevăzute în cuprinsul prezentei ordonanțe de urgență și ale legislației aplicabile.”
+
+## 3. La articolul 2, alineatele (1) și (2) se abrogă.
+
+## 4. La articolul 3, partea introductivă și litera a) se modifică și vor avea urmărul cuprins:
+
+„Art. 3. – Pentru implementarea Planului de investiții:
+
+a) Ministerul Apărării Naționale, precum și celelalte autorități publice transmit Cancelariei Prim-Ministrului și Ministerului Economiei, Digitalizării, Antreprenoriatului și Turismului cerințele operaționale sau, după caz, cerințe similare, aferente fiecărui proiect propus pentru accesarea instrumentului de finanțare SAFE, precum și o listă cu potențialii furnizori;”
+
+## 5. La articolul 4, alineatele (1) - (3) se modifică și vor avea următorul cuprins:
+
+„(1) Șeful Cancelariei Prim-Ministrului stabilește, prin ordin cu caracter individual, cerințele de cooperare aferente fiecărui proiect, în acord cu prevederile Instrumentului SAFE, luând în considerare cerințele operaționale sau similare, prevăzute la art. 3 lit.a).
+
+(2) În aplicarea prevederilor art. 19 din Instrumentul SAFE, autoritățile contractante au dreptul de a aplica procedura de negociere fără publicarea prealabilă a unui anunț de participare, cu obligația introducerii în documentația de atribuire a acordului de cooperare prevăzut la art. 5 alin.(8), sau, după caz, a ordinului prevăzut la alin.(1).
+
+(3) Estimarea valorii contractului de achiziție publică se realizează prin luarea în considerare a acordului de cooperare prevăzut la art. 5 alin.(8), sau, după caz, a ordinului prevăzut la alin.(1).”
+
+## 6. Articolul 5 se modifică și va avea următorul cuprins:
+
+„Art.5. - (1) Pentru implementarea Hotărârii Consiliului Suprem de Apărare a Țării, prevăzută la art. 1¹ alin.(2) lit.d), Ministerul Apărării Naționale, prin Direcția generală pentru armamente, respectiv celelalte autorități publice transmit, cu aprobarea șefului Grupului de lucru, o solicitare de informații, însoțită de cerințele operaționale sau similare aferente achiziției și de cooperare, după caz, prin care se solicită comunicarea cel puțin a următoarelor elemente:
+
+a) îndeplinirea cerințelor operaționale sau a celor similare;
+
+b) îndeplinirea cerințelor de cooperare, după caz;
+
+c) termenele de livrare;
+
+d) estimarea prețului achiziției.
+
+(2) În aplicarea prevederilor alin.(1), destinatarii solicitării de informații pot fi operatorii economici, autorități contractante din alte state sau organizații internaționale, după caz.
+
+(3) În cazul în care niciun destinatar al solicitării de informații nu îndeplinește cerințele operaționale sau cele similare, după caz, sau cerințele de cooperare, șeful Cancelariei Prim-Ministrului poate dispune reanalizarea cerințelor, în vederea modificării acestora, dacă este cazul.
+
+(4) Ministerul Apărării Naționale, prin Direcția generală pentru armamente, respectiv celelalte autorități publice transmit Cancelariei Prim-Ministrului răspunsurile primite la solicitările de informații, însoțite de un document de analiză preliminară, din care să rezulte îndeplinirea sau neîndeplinirea cerințelor operaționale sau similare și a cerințelor de cooperare, după caz.
+
+(5) În situația în care mai mulți destinatari ai solicitării de informații răspund la solicitarea de informații și din analiza răspunsului rezultă îndeplinirea cerințelor operaționale sau similare și a cerințelor de cooperare, Ministerul Apărării Naționale, prin Direcția generală pentru armamente, respectiv celelalte autorități publice transmit Cancelariei Prim-Ministrului și o propunere privind clasamentul descrescător menționat la alin.(6).
+
+(6) După îndeplinirea activităților prevăzute la alin. (4) și (5), Șeful Cancelariei Primministrului convoacă Grupul de lucru în vederea elaborării unui document de analiză prin care se propune operatorul economic cu care se va derula procedura de atribuire sau statul membru ori organizația internațională prin care se va realiza achiziția în comun, precum și valoarea estimată a achiziției și cerințele de cooperare aferente fiecărui proiect propus. În situația prevăzută la alin.(5), Grupul de lucru întocmește un clasament descrescător realizat prin aplicarea factorilor de evaluare și a ponderilor relative, după cum urmează:
+
+a) termenele de livrare – pondere 40%;
+
+b) prețul achiziției – pondere 60%.
+
+(7) Documentul de analiză prevăzut la alin.(6) se avizează de către Prim-ministru și se înaintează de către șeful Cancelariei Prim-Ministrului, spre aprobare, Consiliului Suprem de Apărare a Țării.
+
+(8) În baza documentelor de analiză aprobate de către Consiliul Suprem de Apărare a Țării, Grupul de lucru poate hotărî încheierea unui acord de cooperare pentru unul sau mai multe proiecte din Plan, care include cerințele de cooperare și alte obligații specifice, după caz. Acordurile de cooperare se semnează de către:
+
+a) Cancelaria Prim-ministrului, în calitate de coordonator al implementării Planului;
+
+b) Ministerul Economiei, Digitalizării, Antreprenoriatului si Turismului, în calitate de autoritate responsabilă pentru monitorizarea implementării cerințelor de cooperare;
+
+c) instituțiile prevăzute la art.1¹ alin.(1) lit.c), după caz, în calitate de achizitor, având atribuții exclusive în ceea ce privește cerințele operationale; și
+
+d) unul sau mai mulți operatori economici.
+
+(9) Cancelaria Prim-ministrului și instituțiile prevăzute la art. 1¹ alin.(1) lit.c) nu au atribuții în ceea ce privește monitorizarea îndeplinirii cerințelor de cooperare și, după caz, a obligațiilor specifice.
+
+(10) Pentru proiectele din Plan, confirmarea îndeplinirii cerințelor de cooperare și a obligațiilor specifice, se realizează cu minim 2 luni înainte de fiecare recepție la solicitarea furnizorului sau la termenele prevăzute în acordurile de cooperare, printr-un document de certificare a îndeplinirii acestora, emis de Grupul de lucru, pe baza propunerii Ministerului Economiei, Digitalizării, Antreprenoriatului și Turismului.
+
+(11) Autoritatea contractantă nu are dreptul de a recepționa produse pentru care furnizorul nu prezintă documentul de certificare prevăzut la alin. (10), aspect care se va reflecta în mod corespunzător în documentația de atribuire.”
+
+## 7. După articolul 5 se introduce un nou articol, art. 5¹ , cu următorul cuprins:
+
+„Art. 5¹. - (1) În cazul în care, până la data de 30 mai 2026, o autoritate contractantă nu încheie contractul de achiziție publică aferent unei achiziții publice individuale, care nu face obiectul unei achiziții publice în comun, autoritatea contractantă are dreptul de a anula procedura de atribuire, fără obligația de a suporta daune, sau, după caz, de a încheia un contract care face obiectul unei achiziții în comun până la data de 31 decembrie 2027.
+
+(2) Prin derogare de la prevederile Legii nr. 98/2016, cu modificările și completările ulterioare și ale Ordonantei de urgență a Guvernului nr. 114/2011 privind atribuirea anumitor contracte de achiziții publice în domeniile apărării și securității, aprobată cu modificări și completări prin Legea nr. 195/2012, cu modificările și completările ulterioare, autoritățile contractante pot modifica contractele de achiziție aflate în derulare și care respectă condițiile de eligibilitate potrivit Regulamentului (UE) 2025/1.106, prin introducerea de autorități contractante, respectiv prin modificarea cantităților și/sau a prețurilor cu acordul furnizorului, în condițiile Regulamentului (UE) 2025/1.106.”
+
+## 8. Articolul 6 se abrogă.
+
+9\. După articolul 8 se introduc nouă noi articole, art. 8¹ - 8⁹, cu următorul cuprins:
+
+„Art. 8¹. - În cazul în care una din instituțiile prevăzute la art. 1¹ alin.(1) lit.c) organizează, cu respectarea dispozițiilor legale în vigoare, achiziții și în numele altor instituții menționate, atribuțiile prevăzute la art.1¹ alin.(4) se îndeplinesc în mod corespunzător potrivit responsabilităților ce le revin în procesul de achiziție și derulare a contractelor.
+
+Art. 8². - (1) Fondurile acordate României conform Deciziei de punere în aplicare (UE) 2026/368 se derulează în baza acordului de împrumut, încheiat în conformitate cu prevederile art. 10 din Regulamentul (UE) 2025/1.106, precum și cu prevederile Ordonanței de urgență a Guvernului nr. 64/2007, aprobată cu modificări și completări prin Legea nr. 109/2008, cu modificările și completările ulterioare.
+
+(2) Repartizarea fondurilor acordate României către instituțiile prevăzute la art. 1¹ alin.(1) lit.c) se stabilește, în conformitate cu Planul, prin hotărâre a Guvernului inițiată de Ministerul Finanțelor în termen de 30 de zile de la data aprobării acordului de împrumut potrivit alin.(1).
+
+(3) Ministerul Finanțelor încheie cu instituțiile prevăzute la art. 1¹ alin.(1) lit.c) și cu Cancelaria Prim-Ministrului, după caz, acorduri subsidiare prin care se stabilesc drepturile și obligațiile părților în implementarea Planului, în aplicarea acordului de împrumut și a acordului operațional, după aprobarea acordului de împrumut conform Ordonanței de urgență a Guvernului nr. 64/2007, aprobată cu modificări și completări prin Legea nr. 109/2008, cu modificările și completările ulterioare și a hotărârii Guvernului prevăzută la alin.(2).
+
+Art. 8³. - (1) Tragerea sumelor în cadrul împrumutului se efectuează de către Ministerul Finanțelor, cu respectarea prevederilor Regulamentului (UE) 2025/1.106, Deciziei de punere în aplicare (UE) 2026/368 și astfel cum se stabilește prin acordul de împrumut.
+
+(2) În conformitate cu Decizia de punere în aplicare (UE) 2026/368 și cu art. 11 din Regulamentul (UE) 2025/1.106, Ministerul Finanțelor primește o prefinanțare în cuantum de 15% din împrumut, după data intrării în vigoare a acordului de împrumut.
+
+(3) Cu sumele disponibilizate de către Comisia Europeană, reprezentând prefinanțare acordată și tragerile ulterioare efectuate, potrivit alin.(1) și (2), se alimentează contul în valută al Ministerului Finanțelor deschis la Banca Națională a României pentru acest scop.
+
+(4) Sumele disponibile în contul în valută prevăzut la alin.(3) se utilizează pe măsura necesităților de finanțare a deficitului bugetului de stat și de refinanțare a datoriei publice guvernamentale, în conformitate cu prevederile Ordonanței de urgență a Guvernului nr. 64/2007, aprobată cu modificări și completări prin Legea nr. 109/2008, cu modificările și completările ulterioare, astfel:
+
+a) prefinanțarea prevăzută la alin.(2), pe baza cheltuielilor efectuate în cadrul împrumutului pentru proiectele prevăzute în Plan, raportate periodic Ministerului Finanțelor de către instituțiile prevăzute la art. 1¹ alin.(1) lit.c);
+
+b) sumele din tragerile efectuate din împrumut potrivit alin.(1) conform Deciziei Comisiei Europene de autorizare a plății tranșei împrumutului, prevăzută la art. 12 alin.(3) din Regulamentul (UE) 2025/1.106.
+
+(5) Ministerul Finanțelor poate transfera echivalentul în lei al sumelor în valută din contul prevăzut la alin.(3), într-un cont distinct de disponibil, cu afectațiune specială, deschis pe numele Ministerului Finanțelor, la Trezoreria Operativă Centrală. Cursul de schimb valutar folosit de către direcția de specialitate din cadrul Ministerului Finanțelor pentru efectuarea operațiunii de schimb valutar este cursul pieței valutare valabil la data efectuării operațiunii, respectiv cursul comunicat de Banca Națională a României în ziua anterioară efectuării acesteia.
+
+(6) Sumele aflate în contul prevăzut la alin.(5) nu sunt purtătoare de dobândă, nu sunt supuse executării silite prin poprire conform art. 781 alin.(5) lit. b) din Legea nr. 134/2010 privind Codul de procedură civilă, republicată, cu modificările și completările ulterioare și se utilizează potrivit destinațiilor prevăzute la alin.(4).
+
+Art. 8⁴. - Rambursarea împrumutului, inclusiv rambursarea anticipată la solicitarea Comisiei Europene, se efectuează prin mecanismul aferent finanțărilor rambursabile contractate de România, prin Ministerul Finanțelor, în vederea finanțării deficitului bugetului de stat, refinanțării și rambursării anticipate a datoriei publice guvernamentale, iar costurile aferente împrumutului se suportă de către Ministerul Finanțelor din bugetul de stat, în conformitate cu legislația privind datoria publică.
+
+Art. 8⁵. - (1) Verificarea legalității și regularității cheltuielilor se va realiza prin mecanismele existente la nivel național, controlul financiar preventiv propriu, controlul financiar preventiv delegat, precum și prin mecanisme de verificare ex-post realizate de autoritățile competente, cu atribuții în acest domeniu conform legislației în vigoare.
+
+(2) Controlul financiar preventiv al fondurilor acordate în cadrul Instrumentului SAFE se exercită asupra tuturor operațiunilor, potrivit reglementărilor legale în domeniu, respectiv prevederilor Ordonanței Guvernului nr.119/1999 privind controlul intern/managerial și controlul financiar preventiv, republicată, cu modificările și completările ulterioare, și ale actelor normative emise în aplicarea acesteia.
+
+Art. 8⁶. - (1) În bugetele instituțiilor prevăzute la art. 1¹ alin.(1) lit.c) se cuprind, la un titlul distinct de cheltuieli bugetare, creditele de angajament și creditele bugetare aferente sumelor reprezentând fondurile acordate României, în conformitate cu Planul, stabilite prin hotărârea Guvernului prevăzută la art.8² alin.(2).
+
+(2) Prin excepție de la prevederile alin.(1), instituțiile prevăzute la art. 1¹ alin.(1) lit.c) care gestionează proiectele de infrastructură de transport rutier de interes național incluse în Plan pot depăși valoarea acestor proiecte cu maxim 30% din contravaloarea sumei alocată conform Planului, stabilită în hotărârea Guvernului prevăzută la art. 8² alin.(2) și suma suplimentară se asigură din bugetul de stat, prin bugetul acestuia, de la o poziție bugetară distinctă în cadrul titlului din clasificația bugetară prevăzut la alin.(1).
+
+(3) Din bugetul de stat, prin bugetul instituțiilor prevăzute la art. 1 alin.(1) lit.c), de la o poziție bugetară distinctă în cadrul titlului din clasificația bugetară prevăzut la alin.(1), se suportă TVA aferentă achizițiilor publice din punct de vedere al cheltuielilor prevăzute la alin. (1) și (2), care nu intră sub incidența art. 20 din Regulamentul (UE) 2025/1.106.
+
+(4) Fondurile cuprinse în bugetele ordonatorilor de credite, potrivit prevederilor alin. (1)-(3), sunt destinate exclusiv cheltuielilor aferente Planului și nu pot fi utilizate pentru finanțarea cheltuielilor de altă natură sau cedate la Fondul de rezervă bugetară la dispoziția Guvernului.
+
+Art. 8⁷. - Instituțiile prevăzute la art. 1¹ alin.(1) lit.c) încheie angajamente legale în cadrul Instrumentului SAFE în limita sumelor prevăzute la art. 8⁶ alin. (1) -(3).
+
+Art. 8⁸. - Ordonatorii principali de credite au obligația de a iniția, după caz, modificarea actelor normative sau administrative prin care au fost aprobate documentațiile tehnico-economice aferente obiectivelor/proiectelor de investiții, precum și documentațiile de avizare a lucrărilor de intervenții și notele de fundamentare privind necesitatea și oportunitatea efectuării cheltuielilor aferente celorlalte categorii de investiții incluse la poziția C "Alte cheltuieli de investiții", care se finanțează, potrivit legii, din fonduri publice, cu respectarea art. 42 din Legea nr. 500/2002 privind finanțele publice, cu modificările și completările ulterioare.
+
+Art. 8⁹. - (1) Sumele aferente plăților realizate de instituțiile prevăzute la art. 1¹ alin.(1) lit.c) pentru cheltuielile în cadrul Planului, efectuate începând cu data intrării în vigoare a Regulamentului (UE) nr. 2025/1.106, respectiv 29 mai 2025 și până la data intrării în vigoare a hotărârii de Guvern prevăzute la art. 8² alin.(2), se recunosc ca eligibile în cadrul împrumutului, în condițiile Regulamentului (UE) 2025/1.106 și se raportează distinct de către acestea Ministerului Finanțelor.
+
+(2) După data intrării în vigoare a hotărârii de Guvern prevăzută la art. 8² alin.(2), cheltuielile din cadrul Planului se angajează și se efectuează de la titlul din clasificația bugetară prevăzut la art.8⁶ alin.(1).
+
+## 10. Articolul 11 se modifică și va avea următorul cuprins :
+
+„Art. 11. - Prin derogare de la prevederile art. 51 alin. (2) teza a doua din Ordonanța de urgență a Guvernului nr. 114/2011, aprobată cu modificări și completări prin Legea nr. 195/2012, cu modificările și completările ulterioare, pentru proiectele propuse în cadrul instrumentului de finanțare SAFE, Parlamentul României, prin comisiile reunite de apărare, ordine publică și siguranță națională, se pronunță cu privire la solicitarea de aprobare prealabilă, în termen de 20 de zile de la primirea acesteia.”
+
+Art. II. - Articolul II din Legea nr. 102/2024 privind aprobarea Ordonanței Guvernului nr. 8/2024 pentru modificarea Ordonanței de urgență a Guvernului nr. 124/2021 privind stabilirea cadrului instituțional și financiar pentru gestionarea fondurilor europene alocate României prin Mecanismul de redresare și reziliență, precum și pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 155/2020 privind unele măsuri pentru elaborarea Planului național de redresare și reziliență necesar României pentru accesarea de fonduri externe rambursabile și nerambursabile în cadrul Mecanismului de redresare și reziliență, publicată în Monitorul Oficial al României, Partea I, nr. 358 din 17 aprilie 2024, se modifică după cum urmează:
+
+„Art. II. - (1) Perioada de implementare a proiectelor finanțate prin contracte/decizii/ordine de finanțare semnate în cadrul apelurilor lansate în Planul național de redresare și reziliență al României, precum și a celor încheiate fără lansare de apeluri, în vederea atingerii jaloanelor și țintelor prevăzute în anexa la Decizia de punere în aplicare a Consiliului din 3 noiembrie 2021 de aprobare a evaluării planului de redresare și reziliență al României, modificată prin Decizia de punere în aplicare a Consiliului din 11 decembrie 2023 și prin Decizia de punere în aplicare a Consiliului din 17 noiembrie 2025, poate fi prelungită până la data de 31 august 2026 inclusiv, în baza unei solicitări de prelungire transmisă de către beneficiar.
+
+(2) Coordonatorii de reformă și/sau investiții pot emite instrucțiuni, pentru a detalia termenele și procedura de depunere a solicitării prevăzute la alin.(1). Instrucțiunile vor stabili modalitatea de transmitere a solicitării, precum și termenul de depunere a acesteia, care trebuie să fie în perioada de valabilitate a contractului/deciziei/ordinului de finanțare.
+
+(3) Solicitarea de prelungire prevăzută la alin.(1) se aprobă de către coordonatorul de reforme și/sau investiții în termen de 5 zile lucrătoare de la primirea acesteia. În lipsa unui răspuns din partea coordonatorului în termenul stabilit, solicitarea de prelungire se consideră aprobată tacit.
+
+(4) Prin excepție de la prevederile alin. (1), în cazul investițiilor aferente Componentei 5. Valul renovării, Componentei 10. Fondul local și Componentei 15. Educație, pentru care Ministerul Dezvoltării, Lucrărilor Publice și Administrației are calitatea de coordonator de reforme și/sau investiții, prelungirea perioadei de implementare a proiectelor finanțate prin contracte/decizii/ordine de finanțare se face prin notificare transmisă de acesta către beneficiari, prin intermediul sistemului informatic, având dreptul să stabilească prin act administrativ, un termen mai scurt.
+
+(5) Prin excepție de la prevederile alin. (1), pentru jaloanele și țintele aferente cererii de plată nr. 5, prelungirea duratei contractelor/deciziilor/ordinelor de finanțare nu poate depăși data de 31 mai 2026 inclusiv.”
+
+Art. III. - Ordonanța de urgență a Guvernului nr. 124/2021 privind stabilirea cadrului instituțional și financiar pentru gestionarea fondurilor europene alocate României prin Mecanismul de redresare și reziliență, precum și pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 155/2020 privind unele măsuri pentru elaborarea Planului național de redresare și reziliență necesar României pentru accesarea de fonduri externe rambursabile și nerambursabile în cadrul Mecanismului de redresare și reziliență, publicată în Monitorul Oficial al României, Partea I, nr. 1178 din 14 decembrie 2021, aprobată cu modificări și completări prin Legea nr. 178/2022, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+1\. La articolul 5, după alineatul (1) se introduc două noi alineate, alin. (1¹) și (1²) cu următorul cuprins:
+
+„(1¹) Funcția de monitorizare tehnica a progresului fizic al investițiilor se poate realiza, la solicitarea MIPE, la nivel regional și de către agențiile de dezvoltare regionala, organizate potrivit Legii nr. 315/2004, cu modificările și completările ulterioare.
+
+(1²) Monitorizarea prevăzută la alin. (1¹) se realizează de către agențiile de dezvoltare regională în baza instructiunilor emise de către coordonatorul național.”
+
+2\. La articolul 6 alineatul (1) litera g¹) se modifică și va avea următorul cuprins: „g¹) adoptă politica antifraudă și anticorupție în vederea respectării măsurilor de prevenire, detectare și constatare a fraudei, corupției și a conflictului de interese;”
+
+3\. În tot cuprinsul ordonanței de urgență sintagmele „Decizia de punere în aplicare a Consiliului din 3 noiembrie 2021 de aprobare a evaluării planului de redresare și reziliență al României” respectiv „Decizia de punere în aplicare a Consiliului din 3 noiembrie 2021 de aprobare a evaluării planului de redresare și reziliență al României, modificată prin Decizia de punere în aplicare a Consiliului din 11 decembrie 2023” se înlocuiesc cu sintagma „Decizia de punere în aplicare a Consiliului din 3 noiembrie 2021 de aprobare a evaluării planului de redresare și reziliență al României, modificată prin Decizia de punere în aplicare a Consiliului din 11 decembrie 2023 și prin Decizia de punere în aplicare a Consiliului din 17 noiembrie 2025”.
+
+Art. IV. – (1) În anul 2026, începând cu data intrării în vigoare a prezentei ordonanțe de urgență, unitățile administrativ-teritoriale de la nivelul comunelor, prevăzute la numerele curente 6 și 7 din tabelul 1.1 din anexa la Ordonanța de urgență a Guvernului nr. 63/2010 pentru modificarea și completarea Legii nr. 273/2006 privind finanțele publice locale, precum și pentru stabilirea unor măsuri financiare, aprobată cu modificări și completări prin Legea nr. 13/2011, cu modificările și completările ulterioare sunt exceptate de la aplicarea prevederilor art. XL din Ordonanța de urgență a Guvernului nr. 7/2026 pentru modificarea și completarea unor acte normative, precum și pentru adoptarea unor măsuri pentru creșterea capacității financiare a unităților administrativ-teritoriale.
+
+(2) În anul 2026, începând cu data intrării în vigoare a prezentei ordonanțe de urgență, ordinul, prevăzut la art. III, alin. (11) din Ordonanța de urgență a Guvernului nr. 63/2010, aprobată cu modificări și completări prin Legea nr. 13/2011, cu modificările și completările ulterioare, prin care se revizuiesc mediile pe baza populației comunicate de Institutul Național de Statistică la 1 ianuarie a anului anterior, se utilizează doar pentru stabilirea numărului maxim de posturi pentru unitățile administrativ-teritoriale prevăzute la alin. (1), precum și pentru unitățile administrativ-teritoriale care trec într-o grupă de populație superioară celei în care au fost încadrate în anul 2025.
+
+Art. V. - Ordonanța de urgență a Guvernului nr. 57/2019 privind Codul administrativ, publicată în Monitorul Oficial al României, Partea I, nr. 555 din 5 iulie 2019, cu modificările și completările ulterioare, se modifică și se completează după cum urmează:
+
+## 1. La articolul 122 după alineatul (4), se introduce un nou alineat, alin. (4¹), cu următorul cuprins:
+
+„(4¹) În situația în care în termenul prevăzut la alin. (2) sau (3) nu are loc o ședință a consiliului local, ordinară sau extraordinară sau în cazul când, din alte motive temeinice, nu a putut depune jurământul în această ședință, consilierul local al cărui mandat a fost validat depune jurământul în fața judecătorului delegat, în camera de consiliu. Încheierea judecătorului delegat este definitivă și se comunică de îndată prefectului și secretarului general al unității/subdiviziunii administrativ-teritoriale. Prevederile alin. (5) se aplică în mod corespunzător.”
+
+## 2. La articolul 150 după alineatul (1), se introduce un nou alineat, alin. (1¹), cu următorul cuprins:
+
+„(1¹) Primarul ales ca urmare a organizării alegerilor prevăzute la art. 160 alin. (11) depune jurământul prevăzut la art. 117 în ședința consiliului local care are loc în termen de 30 de zile de la data alegerilor locale parțiale. În situația în care în acest termen nu are loc o ședință a consiliului local, ordinară sau extraordinară, sau în cazul când, din alte motive temeinice, nu a putut depune jurământul în această ședință, primarul ales depune jurământul în fața judecătorului delegat, în camera de consiliu. Încheierea judecătorului delegat este definitivă și se comunică de îndată prefectului și secretarului general al unității/subdiviziunii administrativ-teritoriale.”
+
+## 3. La articolul 187 după alin. (2), se introduce un nou alineat, alin. (2¹), cu următorul cuprins:
+
+„(2¹) Președintele consiliului județean ales în cursul unui mandat ca urmare a vacanței funcției depune jurământul prevăzut la art. 117 în ședința consiliului județean care are loc în termen de 30 de zile de la data alegerilor locale parțiale. În situația în care în acest termen nu are loc o ședință a consiliului județean, ordinară sau extraordinară, sau în cazul când, din alte motive temeinice, nu a putut depune jurământul în această ședință, președintele consiliului județean ales depune jurământul în fața președintelui tribunalului, în camera de consiliu. Prevederile art. 150 alin. (2) și (3) se aplică în mod corespunzător.”
+
+## 4. La articolul 378 alineatul (6) se modifică și va avea următorul cuprins:
+
+„(6) În situația în care funcția publică este vacantă, în baza unei solicitări motivate a conducătorului structurii în care se regăsește funcția publică, persoana care are competența de numire în funcția publică poate aproba măsura ocupării acesteia în baza unui raport de serviciu cu timp parțial, prin una dintre modalitățile de ocupare prevăzute de lege. Postul vacant se poate ocupa de către doi funcționari publici care au raport de serviciu cu timp
+
+Contrasem nează:
+
+Viceprim-ministru, ministrul afacerilor interne , Marian-Cătălin Predoiu
+
+Viceprim-ministru, ministrul apărării naționale Radu-Dineł/Mirută
+
+Șeful Cancelariei Prım-Ministrului Mihai Jurca
+
+Ministrul finetolar Alexandru Nazare
+
+Ministrul economiei, digitalizării, antreprenoriatului și turismului Ambrozie-Irineu Darău
+
+Ministrul transporturilor și infrastructurii Ciprian-Constantin Serban COSNA HOPPSU LUCHN
+
+Ministrul dezvoltării, lucrărilor publice și administrației Cseke Attila-Zoltan
+
+București, 26.03.2026 Nr.21
+
+Ministrul investiților și protectelor eurodene Dragoș-Nicolae Pișlaru 15/09/2013 CUI 15-07-000000000000000

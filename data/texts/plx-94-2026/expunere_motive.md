@@ -1,63 +1,424 @@
-ROMĂNIA
+# EXPUNERE DE MOTIVE
 
-EXPUNERE DE MOTIVE
+## 1. Motivarea initiativei legislative
 
-1\. Motivarea inițiativei legislative Prezenta propunere legislativă are drept scop consolidarea lanțului scurt de aprovizionare în sectorul agroalimentar românesc, în special prin facilitarea și stimularea colaborării directe între producători agricoli, procesatori locali și unități de desfacere (retail, HORECA, instituții publice). Conform definiției europene (Regulamentul UE nr. 1305/2013, art. 2 lit. m), lanțul scurt de aprovizionare presupune un număr limitat de operatori economici implicați, angajați în colaborare, implicând o relație strânsă între producători și consumatori. Cu toate acestea, legislația națională nu oferă un cadru normativ coerent, aplicabil și funcțional care să permită dezvoltarea reală a acestor lanțuri. Conform raportului Departamentului de Stat pentru Agricultura al Statelor Unite ale Americii (USDA) nr. RO2024-0004 din 17 iulie 2024, România continuă să fie o piață în creștere pentru exporturile de produse alimentare și agricole. În 2023, importurile totale de produse agricole ale României au ajuns la 14,6 miliarde de dolari, înregistrând o creștere de 5% față de 2022, dintre care 56% au provenit din state membre ale Uniunii Europene. Germania, Ungaria, Polonia, Ucraina și Țările de Jos au fost principalii parteneri comerciali ai României în 2023. Principalele categorii de produse importate au fost carnea, produsele lactate, cerealele, semințele oleaginoase și băuturile. De asemenea, încă de acum 8 ani de zile, un alt raport al Departamentului de Stat pentru Agricultura al Statelor Unite ale Americii (USDA) nr. RO1809 din 30 iulie 2018, 85% din produsele vândute la nivel de retail autohton erau de import sau origine mixte, iar doar 15% de origine locală. Anul 2024 a marcat pentru România trecerea peste un nou prag deficitar în ceea ce privește fluxul de produse alimentare și animale vii. Valoarea importurilor a depășit pragul de 11,4 miliarde de euro, după o creștere de 5,1% față de anul anterior, în timp ce exporturile s-au micșorat cu 14,2%, până la 6,5 miliarde de euro, ajungându-se astfel la un deficit comercial pe acest segment de 4,8 miliarde de euro, cu 50% mai mare față de 2023, potrivit datelor Institutului Național de Statistică. De asemenea, doar in perioada 1.01.2025 si 31.03.2025, România a înregistrat un deficit comercial la alimente și animale vii de 1,33 miliarde euro, importurile fiind cu mult mai ridicate valoric decât exporturile, potrivit Institutului Național de Statistică (conform Comunicatului de presă numarul 113 / 12 mai 2025).
+Prezenta propunere legislativă are drept scop consolidarea lanțului scurt de aprovizionare în sectorul agroalimentar românesc, în special prin facilitarea și stimularea colaborării directe între producători agricoli, procesatori locali și unități de desfacere (retail, HORECA, instituții publice).
 
-ROMANIA
+Conform definiției europene (Regulamentul UE nr. 1305/2013, art. 2 lit. m), lanțul scurt de aprovizionare presupune un număr limitat de operatori economici implicați, angajați în colaborare, implicând o relație strânsă între producători și consumatori. Cu toate acestea, legislația națională nu oferă un cadru normativ coerent, aplicabil și funcțional care să permită dezvoltarea reală a acestor lanțuri.
 
-Piața retail alimentară de-altfel a avut o creștere susținută, de la 21,6 miliarde euro in 2022, conform studiului „State of Grocery in Central Europe 2023" realizat de către firma de consultanță internațională McKinsey & Company, până la o valoare estimată de 25 miliarde euro în anul 2024. Lipsa unui sprijin legislativ clar și a unor facilități administrative sau fiscale face ca micii fermieri și procesatori locali să rămână dezavantajați în raport cu marile lanțuri comerciale, afectând sustenabilitatea agriculturii locale și securitatea alimentară. Conform Regulamentului (UE) 2021/2115 privind planurile strategice PAC (Politica Agricolă Comună), statele membre sunt încurajate să sprijine și să prioritizeze lanțurile scurte de aprovizionare și piețele locale, ca instrumente esențiale pentru reducerea emisiilor de carbon, creșterea rezilienței sistemelor alimentare, susținerea economică a micilor fermieri și îmbunătățirea trasabilității și siguranței alimentare. De asemenea, Directiva 2014/24/UE privind achizițiile publice evidențiaza, prin articolele 67-70, utilizarea de criterii de atribuire ecologice și sociale, inclusiv distanța de transport, sezonalitatea și implicarea economică locală. Ghidul Comisiei Europene privind Achizițiile Publice Verzi (Green Public Procurement Criteria for Food and Catering Services) recomandă explicit ca entitățile publice să includă în caietele de sarcini produse din lanțuri scurte și locale, care asigură sustenabilitate, prospețime și beneficii economice regionale. În lipsa unor norme clare și obligatorii, administrațiile publice locale și centrale din România continuă să desfășoare proceduri de achiziții publice pentru produse agroalimentare care nu favorizează lanțurile scurte de aprovizionare alimentara, din producția locală, deși aceasta este disponibilă și competitivă. Această practică genereaza amprentă sporită de carbon, fragilizează economia rurală românească, elimină accesul fermierilor locali la contracte publice esențiale, reduce din potențialul statului de a capitaliza, prin TVA și alte impozite și taxe, din aprovizionarea alimentară pentru bugetul național, contribuie la importuri masive, uneori din regiuni aflate la mii de kilometri distanță. Astfel, prin această lege, România transpune coerent și aplicabil la nivel național principiile europene privind sustenabilitatea lanțului alimentar public, obligația de a dezvolta lanțuri scurte și parteneriate locale și dreptul administrațiilor publice de a include criterii sociale, economice și ecologice în achizițiile lor. 2. Obiectiv național strategic: Această reglementare contribuie direct la: • consolidarea suveranității alimentare a României, • sprijinirea micilor producători și procesatori autohtoni,
+Conform raportului Departamentului de Stat pentru Agricultura al Statelor Unite ale Americii (USDA) nr. RO2024-0004 din 17 iulie 2024, România continuă să fie o piață în creștere pentru exporturile de produse alimentare și agricole.
 
-ROMÂNIA
+În 2023, importurile totale de produse agricole ale României au ajuns la 14,6 miliarde de dolari, înregistrând o creștere de 5% față de 2022, dintre care 56% au provenit din state membre ale Uniunii Europene. Germania, Ungaria, Polonia, Ucraina și Țările de Jos au fost principalii parteneri comerciali ai României în 2023. Principalele categorii de produse importate au fost carnea, produsele lactate, cerealele, semințele oleaginoase și băuturile.
 
-• reducerea deficitului agroalimentar, • și stimularea investițiilor în infrastructura agricolă și logistică locală. De asemenea, protejează interesul public prin: • furnizarea de alimente proaspete și sigure în instituțiile esențiale ale statului: școli, spitale, azile, unități militare, penitenciare, • eliminarea intermediarilor fiscali și logistici externi fără contribuție reală în economia românească. Inițiativa propune: • Definirea clară și extinsă a conceptului de lanț scurt de aprovizionare, inclusiv componenta de procesare locală; • Prioritizarea produselor provenite din lanțuri scurte în achizițiile publice și în rețelele de retail; • Reducerea deficitului comercial privitor la alimente și animale vii • Posibilitatea cooperării directe între agricultori și instituții publice 3. Impactul bugetar și economic Pe termen scurt, impactul bugetar este imediat, întrucât vizează contribuții suplimentare din TVA colectat ca urmare a tranzacțiilor in interioul țării. Din calculul datelor obtinute in urma documentelor emise de catre Departamentul de Stat pentru Agricultura al Statelor Unite ale Americii, Institutul National de Statistica, rapoartelor diferitelor societati de consultanta, rezulta ca intr-o piata de retail alimentara de 25 miliarde de euro avem se afla alimente importate in valoare de 14,6 miliarde euro, respectiv un procent de 23,8% produse efectiv romanesti, iar restul de import. O ridicare a procentului retailului alimentar din surse autohtone de la 23,8% la 60% ar genera, doar in ceea ce priveste Taxa pe Valoare Adaugata (TVA) colectată, minim 890 milioane de euro, cu costuri minime imediate pentru bugetul de stat. Pe termen mediu și lung, măsura are potențialul de creștere a veniturilor bugetare prin încurajarea conformării fiscale voluntare în rândul micilor producători și reducerea economiei informale. Impact economic: • Crește valoarea adăugată păstrată în plan local; • Susține IMM-urile din agricultură și industria alimentară;
+De asemenea, încă de acum 8 ani de zile, un alt raport al Departamentului de Stat pentru Agricultura al Statelor Unite ale Americii (USDA) nr. RO1809 din 30 iulie 2018, 85% din produsele vândute la nivel de retail autohton erau de import sau origine mixte, iar doar 15% de origine locală.
 
-ROMANIA
+Anul 2024 a marcat pentru România trecerea peste un nou prag deficitar în ceea ce privește fluxul de produse alimentare și animale vii. Valoarea importurilor a depășit pragul de 11,4 miliarde de euro, după o creștere de 5,1% față de anul anterior, în timp ce exporturile s-au micșorat cu 14,2%, până la 6,5 miliarde de euro, ajungându-se astfel la un deficit comercial pe acest segment de 4,8 miliarde de euro, cu 50% mai mare față de 2023, potrivit datelor Institutului Național de Statistică.
 
-• Reduce dependența de importuri și stimulează consumul de produse românești; • Favorizează dezvoltarea microregiunilor rurale. 4. Impact social • Contribuie la menținerea și crearea de locuri de muncă în mediul rural; • Reduce decalajele de dezvoltare urban-rural; • Îmbunătățește accesul populației la alimente locale, proaspete și sănătoase; • Creează o relație de încredere între consumator și producător; • Susține agricultura familială și solidaritatea locală. 5. Impact de mediu • Scade amprenta de carbon prin reducerea transportului pe distanțe mari; • Încurajează practici agroecologice prin diversificarea producției locale; • Reduce pierderile alimentare datorită distanței mai mici între producție și consum. 6. Compatibilitatea cu legislația națională și europeană Propunerea este aliniată cu legislația și strategiile europene, in special: • Regulamentul UE nr. 1305/2013 privind sprijinul pentru dezvoltarea rurală; • Pactul Verde European și strategia „De la fermă la consumator"; • Noua Politică Agricolă Comună 2023-2027, care include măsuri dedicate lanțurilor scurte; • Tratatul privind funcționarea UE, În legislația națională, completarea se corelează cu: • Legea nr. 145/2014 privind comercializarea produselor agricole; • Legea cooperației agricole nr. 566/2004; • Legea achizițiilor publice nr. 98/2016, care permite criterii de sustenabilitate; 7. Concluzie Adoptarea acestei inițiative este oportună, necesară și justificată atât economic, cât și social și ecologic. Ea nu doar că încurajează producția locală și consumul responsabil, dar și răspunde angajamentelor internaționale ale României în domeniul sustenabilității,
+De asemenea, doar în perioada 1.01.2025 si 31.03.2025, România a înregistrat un deficit comercial la alimente și animale vii de 1,33 miliarde euro, importurile fiind cu mult mai ridicate valoric decât exporturile, potrivit Institutului Național de Statistică (conform Comunicatului de presă numarul 113 / 12 mai 2025).
 
-ROMANIA
+Piața retail alimentară de-altfel a avut o creștere susținută, de la 21,6 miliarde euro în 2022, conform studiului „State of Grocery in Central Europe 2023” realizat de către firma de consultanță internațională McKinsey & Company, până la o valoare estimată de 25 miliarde euro în anul 2024.
 
-economiei circulare și combaterii schimbărilor climatice. Mai mult, creează premisele unei agriculturi viabile, competitive și echitabile.
+Lipsa unui sprijin legislativ clar și a unor facilități administrative sau fiscale face ca micii fermieri și procesatori locali să rămână dezavantajați în raport cu marile lanțuri comerciale, afectând sustenabilitatea agriculturii locale și securitatea alimentară.
 
-ELEMENTE DE FUNDAMENTARE FINANCIARĂ A PROIECTULUI DE LEGE I. Obiectul intervenției financiare: Implementarea unei platforme digitale naționale de trasabilitate (PNLSTA) și a unui registru digital de producție (RDPAM), care să asigure: trasabilitatea completă a produselor agroalimentare în lanțuri scurte, • înregistrarea și validarea producției agricole primare, • integrarea cu sistemele ANAF, APIA, ANSVSA și SEAP, sprijin minimal pentru instruirea fermierilor fără competențe IT. II. Estimarea costurilor pe 5 ani (lei și euro): Nr. crt. | Componentă | Detaliu | Valoare | Valoare estimată estimată (EUR) | (LEI) 1 | Platforma IT națională | 11.000.000 | 57.200.000 (PNLSTA + RDPAM) Construcție, securitate, interoperabilitate 2 | Instruire fermieri interesați | 6.000.000 | 29.400.000 Sesiuni de grup + materiale video Operare | sistem | ani | 3.000.000 | 15.600.000 Hosting, | helpdesk, mentenanță, audit 4 | Administrativ | șİ | 1.000.000 | 5.200.000 metodologicElaborare norme, audit, ghiduri TOTAL | 21.000.000 | 109.200.000 GENERAL
+Conform Regulamentului (UE) 2021/2115 privind planurile strategice PAC (Politica Agricolă Comună), statele membre sunt încurajate să sprijine și să prioritizeze lanțurile scurte de aprovizionare și piețele locale, ca instrumente esențiale pentru reducerea emisiilor de carbon, creșterea rezilienței sistemelor alimentare, susținerea economică a micilor fermieri și îmbunătățirea trasabilității și siguranței alimentare.
 
-ROMÂNIA
+De asemenea, Directiva 2014/24/UE privind achizițiile publice evidențiaza, prin articolele 67–70, utilizarea de criterii de atribuire ecologice și sociale, inclusiv distanța de transport, sezonalitatea și implicarea economică locală.
 
-III. Sursa de finanțare propusă: Bugetul Ministerului Agriculturii și Dezvoltării Rurale • Fonduri externe nerambursabile (PAC 2023-2027 - Intervenții DR-30, DR-37) PNRR - Componenta C7 - Transformare Digitală Programe REPowerEU și Digital Europe (pentru interoperabilitate și securitate) IV. Precizări privind sustenabilitatea bugetară: Costul este proporțional cu suprafața agricolă activă și cu valoarea pierderilor actuale din lipsa trasabilității. Platforma reduce pierderi fiscale (evaziune, dublă subvenționare, intermediere neautorizată) estimate la peste 100 milioane euro/an. Platforma va genera peste 900 milioane euro/an din TVA, taxe și impozite suplimentar colectate. Sistemul oferă efecte structurale asupra competitivității produselor locale și a lanțurilor agroalimentare, fără impact fiscal permanent. Evaluarea impactului bugetar al prezentei legi indică o necesitate de finanțare de aproximativ 21 milioane euro pentru o perioadă de 5 ani, reprezentând costurile aferente dezvoltării unei platforme digitale naționale de trasabilitate (PNLSTA), înregistrării producției agricole prin RDPAM, asistenței minimale pentru fermierii fără competențe digitale și operaționalizării infrastructurii IT aferente. Această sumă reprezintă o investiție strategică unică, recuperabilă integral prin: • | reducerea pierderilor bugetare cauzate de evaziune și fraudă în circuitul agroalimentar, scăderea | dependenței de importuri și creșterea competitivității producătorilor locali, încadrarea directă în obiectivele UE privind digitalizarea agriculturii și lanțurile scurte. Suma este integral eligibilă pentru finanțare nerambursabilă din fondurile PAC și PNRR și nu generează, în eventualitatea accesării fondurilor nerambursabile menționate, impact negativ pe termen lung asupra deficitului bugetar.
+Ghidul Comisiei Europene privind Achizițiile Publice Verzi (Green Public Procurement Criteria for Food and Catering Services) recomandă explicit ca entitățile publice să includă în caietele de sarcini produse din lanțuri scurte și locale, care asigură sustenabilitate, prospețime și beneficii economice regionale.
 
-ROMÂNIA
+În lipsa unor norme clare și obligatorii, administrațiile publice locale și centrale din România continuă să desfășoare proceduri de achiziții publice pentru produse agroalimentare care nu favorizează lanțurile scurte de aprovizionare alimentara, din producția locală, deși aceasta este disponibilă și competitivă. Această practică genereaza amprentă sporită de carbon, fragilizează economia rurală românească, elimină accesul fermierilor locali la contracte publice esențiale, reduce din potențialul statului de a capitaliza, prin TVA și alte impozite și taxe, din aprovizionarea alimentară pentru bugetul național, contribuie la importuri masive, uneori din regiuni aflate la mii de kilometri distanță.
 
-V. Estimarea impactului asupra colectării TVA prin creșterea ponderii produselor agroalimentare prin lanțuri scurte de aprovizionare și trasabilitate digitală În conformitate cu următoarele date vom face mai multe precizări: • Raportului USDA RO2024-0004: importuri agroalimentare în 2023 = 14,6 miliarde USD. • Date INS (2024): importuri alimente și animale vii = 11,4 miliarde euro. • Studiu McKinsey: piața de retail alimentar România = 25 miliarde euro (2024). • Rapoarte USDA (RO1809): 85% din alimentele din retail în 2018 erau de origine import/mixte. • Cota TVA aplicabilă produselor alimentare: 9%. Obiectivul legislativ: Creșterea ponderii produselor agroalimentare românești în retail de la 15% la 60% In sensul celor de mai sus observăm următoarele efecte viitoare: • O creștere de 45 puncte procentuale în ponderea vânzărilor provenite din surse fiscalizate intern. • Se reduce importul și se înlocuiește cu produse românești fiscalizate integral în România. În ce privește calculul impactului TVA: 1. Volumul înlocuirii de produse de import cu produse locale 45% x 25 miliarde euro = 11,25 miliarde euro (valoarea mărfurilor care ar face tranziția de la import la producție internă) 2. TVA suplimentar colectat în România TVA aferent: 9% x 11,25 miliarde = 1,0125 miliarde euro TVA brut Se consideră că importurile: • Sunt fie fiscalizate parțial (prețuri de transfer, rețele externe), • Fie implică evaziune fiscală (nefiscalizare totală sau subdeclarare). Prin înlocuirea cu produse românești, TVA-ul se colectează 100% în România. Astfel, TVA suplimentar colectat anual: între 900 milioane și 1,01 miliarde euro
+Astfel, prin această lege, România transpune coerent și aplicabil la nivel național principiile europene privind sustenabilitatea lanțului alimentar public, obligația de a dezvolta lanțuri scurte și parteneriate locale și dreptul administrațiilor publice de a include criterii sociale, economice și ecologice în achizițiile lor.
 
-ROMÅNIA
+## 2. Obiectiv național strategic:
 
-Valoarea medie justificabilă și prudentă pentru fundamentare legislativă: 900 milioane euro TVA/an. În concluzie, aplicarea prevederilor prezentei legi, prin creșterea ponderii produselor agroalimentare de origine românească de la 15% la 60% în comerțul cu amănuntul, este estimată a conduce la o creștere a colectării de TVA cu aproximativ 900 milioane euro anual, in condițiile în care aceste produse vor fi fiscalizate integral pe teritoriul național. Estimarea este fundamentată pe o piață totală de retail alimentar de 25 miliarde euro (2024), o cotă de TVA aplicabilă de 9% și o înlocuire de 45% a produselor de import cu produse interne.
+Această reglementare contribuie direct la:
+
+• consolidarea suveranității alimentare a României,
+
+\- sprijinirea micilor producători și procesatori autohtoni,
+
+\- reducerea deficitului agroalimentar,
+
+\- și stimularea investițiilor în infrastructura agricolă și logistică locală.
+
+De asemenea, protejează interesul public prin:
+
+\- furnizarea de alimente proaspete și sigure în instituțiile esențiale ale statului: școli, spitale, azile, unități militare, penitenciare,
+
+\- eliminarea intermediarilor fiscali și logistici externi fără contribuție reală în economia românească.
+
+## Inițiativa propune:
+
+\- Definirea clară și extinsă a conceptului de lanț scurt de aprovizionare, inclusiv componenta de procesare locală;
+
+\- Prioritizarea produselor provenite din lanțuri scurte în achizițiile publice și în rețelele de retail;
+
+\- Reducerea deficitului comercial privitor la alimente și animale vii
+
+\- Posibilitatea cooperării directe între agricultori și instituții publice
+
+## 3. Impactul bugetar și economic
+
+Pe termen scurt, impactul bugetar este imediat, întrucât vizează contribuții suplimentare din TVA colectat ca urmare a tranzacțiilor in interioul țării.
+
+Din calculul datelor obtinute in urma documentelor emise de catre Departamentul de Stat pentru Agricultura al Statelor Unite ale Americii, Institutul National de Statistica, rapoartelor diferitelor societati de consultanta, rezulta ca intr-o piata de retail alimentara de 25 miliarde de euro avem se afla alimente importate in valoare de 14,6 miliarde euro, respectiv un procent de 23,8% produse efectiv romanesti, iar restul de import. O ridicare a procentului retailului alimentar din surse autohtone de la 23,8% la 60% ar genera, doar in ceea ce priveste Taxa pe Valoare Adaugata (TVA) colectată, minim 890 milioane de euro, cu costuri minime imediate pentru bugetul de stat.
+
+Pe termen mediu și lung, măsura are potențialul de creștere a veniturilor bugetare prin încurajarea conformării fiscale voluntare în rândul micilor producători și reducerea economiei informale.
+
+## Impact economic:
+
+\- Crește valoarea adăugată păstrată în plan local;
+
+\- Susține IMM-urile din agricultură și industria alimentară;
+
+\- Reduce dependența de importuri și stimulează consumul de produse românești;
+
+\- Favorizează dezvoltarea microregiunilor rurale.
+
+## 4. Impact social
+
+\- Contribuie la menținerea și crearea de locuri de muncă în mediul rural;
+
+\- Reduce decalajele de dezvoltare urban-rural;
+
+\- Îmbunătățește accesul populației la alimente locale, proaspete și sănătoase;
+
+\- Creează o relație de încredere între consumator și producător;
+
+\- Susține agricultura familială și solidaritatea locală.
+
+## 5. Impact de mediu
+
+\- Scade amprenta de carbon prin reducerea transportului pe distanțe mari;
+
+\- Încurajează practici agroecologice prin diversificarea producției locale;
+
+\- Reduce pierderile alimentare datorită distanței mai mici între producție și consum.
+
+## 6. Compatibilitatea cu legislația națională și europeană
+
+Propunerea este aliniată cu legislația și strategiile europene, în special:
+
+\- Regulamentul UE nr. 1305/2013 privind sprijinul pentru dezvoltarea rurală;
+
+\- Pactul Verde European și strategia „De la fermă la consumator”;
+
+\- Noua Politică Agricolă Comună 2023-2027, care înclude măsuri dedicate lanțurilor scurte;
+
+\- Tratatul privind funcționarea UE,
+
+În legislația națională, completarea se corelează cu:
+
+\- Legea nr. 145/2014 privind comercializarea produselor agricole;
+
+\- Legea cooperației agricole nr. 566/2004;
+
+\- Legea achizițiilor publice nr. 98/2016, care permite criterii de sustenabilitate;
+
+## 7. Concluzie
+
+Adoptarea acestei inițiative este oportună, necesară și justificată atât economic, cât și social și ecologic. Ea nu doar că încurajează producția locală și consumul responsabil, dar și răspunde angajamentelor internaționale ale României în domeniul sustenabilității, economiei circulare și combaterii schimbărilor climatice. Mai mult, creează premisele unei agriculturi viabile, competitive și echitabile.
+
+## ELEMENTE DE FUNDAMENTARE FINANCIARĂ A PROIECTULUI DE LEGE
+
+## I. Obiectul intervenției financiare:
+
+Implementarea unei platforme digitale naționale de trasabilitate (PNLSTA) și a unui registru digital de producție (RDPAM), care să asigure:
+
+• trasabilitatea completă a produselor agroalimentare în lanțuri scurte,
+
+• înregistrarea și validarea producției agricole primare,
+
+• integrarea cu sistemele ANAF, APIA, ANSVSA și SEAP,
+
+\- sprijin minimal pentru instruirea fermierilor fără competențe IT.
+
+II. Estimarea costurilor pe 5 ani (lei și euro):
+
+| Nr. crt. | Componentă | Detaliu Valoare estimată (EUR) | Valoare estimată (LEI) |
+| --- | --- | --- | --- |
+| 1 | Platforma IT națională(PNLSTA + RDPAM)Construcție, securitate,interoperabilitate | 11.000.000 | 57.200.000 |
+| 2 | Instruire fermieri interesațiSesiuni de grup + materiale video | 6.000.000 | 29.400.000 |
+| 3 | Operare sistem 5 ani Hosting, helpdesk,mentenanță, audit | 3.000.000 | 15.600.000 |
+| 4 | Administrativ și metodologicElaborare norme,audit, ghiduri | 1.000.000 | 5.200.000 |
+| TOTALGENERAL |  | 21.000.000 | 109.200.000 |
+
+## III. Sursa de finanțare propusă:
+
+• Bugetul Ministerului Agriculturii și Dezvoltării Rurale
+
+\- Fonduri externe nerambursabile (PAC 2023–2027 – Intervenții DR-30, DR-
+
+• PNRR – Componenta C7 – Transformare Digitală
+
+• Programe REPowerEU și Digital Europe (pentru interoperabilitate și securitate)
+
+## IV. Precizări privind sustenabilitatea bugetară:
+
+Costul este proporțional cu suprafața agricolă activă și cu valoarea pierderilor actuale din lipsa trasabilității.
+
+Platforma reduce pierderi fiscale (evaziune, dublă subvenționare, intermediere neautorizată) estimate la peste 100 milioane euro/an.
+
+Platforma va genera peste 900 milioane euro/an din TVA, taxe și impozite suplimentar colectate.
+
+Sistemul oferă efecte structurale asupra competitivității produselor locale și a lanțurilor agroalimentare, fără impact fiscal permanent.
+
+Evaluarea impactului bugetar al prezentei legi indică o necesitate de finanțare de aproximativ 21 milioane euro pentru o perioadă de 5 ani, reprezentând costurile aferente dezvoltării unei platforme digitale naționale de trasabilitate (PNLSTA), înregistrării producției agricole prin RDPAM, asistenței minimale pentru fermierii fără competențe digitale și operaționalizării infrastructurii IT aferente.
+
+Această sumă reprezintă o investiție strategică unică, recuperabilă integral prin:
+
+\- reducerea pierderilor bugetare cauzate de evaziune și fraudă în circuitul agroalimentar,
+
+\- scăderea dependenței de importuri și creșterea competitivității producătorilor locali,
+
+\- încadrarea directă în obiectivele UE privind digitalizarea agriculturii și lanțurile scurte.
+
+Suma este integral eligibilă pentru finanțare nerambursabilă din fondurile PAC și PNRR și nu generează, în eventualitatea accesării fondurilor nerambursabile menționate, impact negativ pe termen lung asupra deficitului bugetar.
+
+V. Estimarea impactului asupra colectării TVA prin creșterea ponderii produselor agroalimentare prin lanțuri scurte de aprovizionare și trasabilitate digitală
+
+În conformitate cu următoarele date vom face mai multe precizări:
+
+\- Raportului USDA RO2024-0004: importuri agroalimentare în 2023 = 14,6 miliarde USD.
+
+\- Date INS (2024): importuri alimente și animale vii = 11,4 miliarde euro.
+
+\- Studiu McKinsey: piața de retail alimentar România = 25 miliarde euro (2024).
+
+\- Rapoarte USDA (RO1809): 85% din alimentele din retail în 2018 erau de origine import/mixte.
+
+• Cota TVA aplicabilă produselor alimentare: 9%.
+
+Obiectivul legislativ: Creșterea ponderii produselor agroalimentare românești în retail de la 15% la 60%
+
+În sensul celor de mai sus observăm următoarele efecte viitoare:
+
+\- O creștere de 45 puncte procentuale în ponderea vânzărilor provenite din surse fiscalizate intern.
+
+\- Se reduce importul și se înlocuiește cu produse românești fiscalizate integral în România.
+
+## În ce privește calculul impactului TVA:
+
+1\. Volumul înlocuirii de produse de import cu produse locale
+
+45% × 25 miliarde euro = 11,25 miliarde euro (valoarea mărfurilor care ar face tranziția de la import la producție internă)
+
+2\. TVA suplimentar colectat în România
+
+TVA aferent: 9% × 11,25 miliarde = 1,0125 miliarde euro TVA brut
+
+Se consideră că importurile:
+
+\- Sunt fie fiscalizate parțial (prețuri de transfer, rețele externe),
+
+\- Fie implică evaziune fiscală (nefiscalizare totală sau subdeclarare).
+
+Prin înlocuirea cu produse românești, TVA-ul se colectează 100% în România.
+
+Astfel, TVA suplimentar colectat anual: între 900 milioane și 1,01 miliarde euro
+
+Valoarea medie justificabilă și prudentă pentru fundamentare legislativă: 900 milioane euro TVA/an. În concluzie, aplicarea prevederilor prezentei legi, prin creșterea ponderii produselor agroalimentare de origine românească de la 15% la 60% în comerțul cu amănuntul, este estimată a conduce la o creștere a colectării de TVA cu aproximativ 900 milioane euro anual, în condițiile în care aceste produse vor fi fiscalizate integral pe teritoriul național. Estimarea este fundamentată pe o piață totală de retail alimentar de 25 miliarde euro (2024), o cotă de TVA aplicabilă de 9% și o înlocuire de 45% a produselor de import cu produse interne.
 
 În temeiul art. 111 alin. (1) din Constituția României, republicată, vă adresăm rugămintea de a solicita Guvernului să comunice punctul de vedere asupra prezentei propuneri legislative
 
-INIȚIATOR: Deputat AUR Laura Gherasim
+## INIȚIATOR:
 
-LISTA Susținătorilor propunerii legislative - Lege privind promovarea produselor agroalimentare prin lanțuri scurte de aprovizionare și trasabilitate digitală, precum și integrarea acestora în achizițiile publice
+Deputat AUR Laura Gherasim
 
-Nr. | Numele și prenumele | Grupul | Semnătura parlamentar SiMiON GEORGE | • AUR HICOLAE POPESCU ANTONIO 2 | AUR Borceder | AUR i Denice MUSAT | LuciAN
+## LISTA
 
-GHEDRGHE TONEL | AUR CIORHEI AAXIIEL CATALIN | AUR CIPRiAN PARASCHIV | AVR AVRĂMESCU ȘTEFÂMITA- ALiM AUR GUȘĂ ANDREi | AUR GURLUi SiLViU - OCTAViAN Avr
+Susținătorilor propunerii legislative – Lege privind promovarea produselor agroalimentare prin lanțuri scurte de aprovizionare și trasabilitate digitală, precum și integrarea acestora în achizițiile publice
 
-11\. | TAGAR MOMICA PUSCAȘU PETRE | AUR COrlAn Tragos | AUR
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1. | SIMION GEORGE NICOLAE | AUR |  |
+| 2 | POPESCU ANTONIO | AVR |  |
+| 3. | Bursa da Jiaica | AUR |  |
+| 4. | MUSAT LNOJAN | AUR |  |
+| 5. | GHEORGHE IONEL | AUR |  |
+| 6. | CIORXOJI KAAIJELCATAUIN | AUR |  |
+| 7. | CIPRIAN PARASCHN | AVR |  |
+| 8. | AVRAÎMESCU STEFAHITA-ALIH | AUR |  |
+| 9. | GOSĂ ANDREI | AUR |  |
+| 10. | GURLU' RILVIO-OCTAVIAN | AVR |  |
+| 11. | IAGAR MONICA | AVR |  |
+| 12. | PUȘCAȘU PETRE | AVR |  |
+| 13. | CUMAN Dnogos | AUR |  |
 
-LISTA Susținătorilor propunerii legislative - Lege privind promovarea produselor agroalimentare prin lanțuri scurte de aprovizionare și trasabilitate digitală, precum și integrarea acestora în achizițiile publice
+## LISTA
 
-Nr. | Numele și prenumele | Grupul | Semnătura parlamentar JERBAM GrAMiMA | AUR BADiU GEORGEL | AUR MIELĂE SEMUEL- VIRGiC | AUR MITREA SUMITRÍNA | HUR - | AUR GHEORGHE MIHAI | AUR 19. | CLAUDIO NEGUESCU MiHAi -BUGDAN | AUR 20. 21. Constarelimeseu Andra laudeo AUR
+Susținătorilor propunerii legislative – Lege privind promovarea produselor agroalimentare prin lanțuri scurte de aprovizionare și trasabilitate digitală, precum și integrarea acestora în achizițiile publice
 
-22\. BiRO DANIEL - RĂZVAN | AUR PASCARIU 23. | MiHAi - COSMiN | AUR 24. Vulpoiu Dorel | AUR 2V. Velescu Fora Bozcian | ĂOR 26.IAMASA DAN | AURI
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 14. | SERBAN GIÀMINA | AUR |  |
+| 15. | RADIU GEORGOL | AUR |  |
+| 16. | MICLACSEMHEL-VIRCIC | AUR |  |
+| 17. | MITREA SUMITEINIA | AUR |  |
+| 18. | VADIH-TUDOR LIDIA | AUR |  |
+| 19. | CHEORGHE MIHAICLAUDIU | AUR |  |
+| 20. | NEGOESCU MIHAI-BOGDAN | AUR |  |
+| 21. | CONSTANIMSEU ANDRA PLOUDEU | AUR |  |
+| 22. | BIRO DANIEL-RAZVAN | AUR |  |
+| 23. | PASCARIUMIHAI-COSMIN | AUR |  |
+| 24. | Yulpoiu Dorel | AUR |  |
+| 25. | Velocou Blown Boglen | AUR |  |
+| 26. | TANASA DAN | AUR |  |
 
-LISTA Susținătorilor propunerii legislative - Lege privind promovarea produselor agroalimentare prin lanțuri scurte de aprovizionare și trasabilitate digitală, precum și integrarea acestora în achizițiile publice
+## LISTA
 
-Nr. | Numele și prenumele | Grupul | Semnătura parlamentar costin 27. | COnEHDEA | NK BORDIAN ALEXANDRU | AUR 29 | DASCĂLU CRISTINA | MUR EMANUEL OANCED 30, | SRViO | AVA GROtu VEROMiCA - AUR 32. | Priesm lonela HUR 33. | SOboO& ELENA | Aurc 3h. Luciau Floria Pugcaçu . AUR 35. FLOREA CADRIEZ AUR-OANCEA 36. | SILVİL | AUR BASēA 37. MELU VALENTIN | AUR 38. PAUNESM SILVIV-TITUS | AUR 39. | ENACHE MiHAi ASRIAH | AURE
+Susținătorilor propunerii legislative – Lege privind promovarea produselor agroalimentare prin lanțuri scurte de aprovizionare și trasabilitate digitală, precum și integrarea acestora în achizițiile publice
 
-LISTA Susținătorilor propunerii legislative - Lege privind promovarea produselor agroalimentare prin lanțuri scurte de aprovizionare și trasabilitate digitală, precum și integrarea acestora în achizițiile publice
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 24. | coshine conchdea | AvR |  |
+| 28. | BORDIAN ALEXANDRU | AVR |  |
+| 29. | DASCALU CRISTINA EMANUELA | AVR |  |
+| 30. | OANCEA Sr VIJO | AVR |  |
+| 31. | GNOJU VERONICA | AVR |  |
+| 32. | Pniescu lonelce | AVR |  |
+| 33. | SODOF ELENT | AVR |  |
+| 34. | Lucian Floriu Pușcașu | AVR |  |
+| 35. | FOREA CĂDRIOZ | AVR |  |
+| 36. | OANCEA Silvi | AVR |  |
+| 37. | BASEA NELU VALENTIN | AVR |  |
+| 38. | FAUNESCU SILVIU-TITUS | AVR |  |
+| 39. | ENACHE MIHAI ADRIAN | AVR |  |
 
-Nr. | Numele și prenumele | Grupul | Semnătura parlamentar GHERASiM LAURA | AUR
+## LISTA
 
-*Documentul are 19 pagini; am citit primele 12.*
+Susținătorilor propunerii legislative – Lege privind promovarea produselor agroalimentare prin lanțuri scurte de aprovizionare și trasabilitate digitală, precum și integrarea acestora în achizițiile publice
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura / |
+| --- | --- | --- | --- |
+|  | GHERASIN LAURA | AUR |  |
+|  |  |  | / |
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege privind promovarea produselor agroalimentare prin lanțuri scurte de aprovizionare și trasabilitate digitală, precum și integrarea acestora în achizițiile publice
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1 | SIMU AURORA TASICA | INDEPENDENT |  |
+| 2. | BRS DMA BROSET | S V.I.R |  |
+| 3. | Vangã Maurua | judapudat |  |
+| 4 | CSILLAG ANDREI | INSEPEUDEN |  |
+| 5. | Veolinos Vergino | SOS.RO |  |
+| 6 | GOLDESCU IOMEZ | J.O.S. NO |  |
+| 7. | CHIRITA RAZVAN-MIREC | POT |  |
+| 8. | Tuiuia Aueuto | POT |  |
+| 9. | Gavuita Bouca Eugenia | POT |  |
+| 10 | POPA CRISTIAN-ALEXANDRU | POT |  |
+| 11 | ANTMARIA GAVUZA | POT |  |
+| 12. | MATEI SERSIU-ZUCIAN | POT |  |
+| 13. | CAMPAN ORIS MAN | POT |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege privind promovarea produselor agroalimentare prin lanțuri scurte de aprovizionare și trasabilitate digitală, precum și integrarea acestora în achizițiile publice
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+|  | GROFU Dauier | POT |  |
+|  | Kroncsis Sebastiun | POT |  |
+|  | RADUCEA VALENDAY | POT |  |
+|  | NICOLAE DAN | POT |  |
+|  | PORUMBOI'S GABRI'EVA | POT |  |
+|  | Corches Cochruta -Mario | POT |  |
+|  | Tiu Mihai-ADRIAY | S.O.S.RO |  |
+|  | iO NESCU TUDOR | S.O.S.RO |  |
+|  | OLIENASV SORIN | S.O.S.RO |  |
+|  | MACOVGI IHE SIMONA | S.O.S.RO |  |
+|  | PASCALINI MINE ANOPANSA | S.O.S.RO |  |
+|  | GROZA CALIN FLORIN | INDEPENDENT |  |
+|  | COARNA KUNYBA | N.G.P.P.P |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege privind promovarea produselor agroalimentare prin lanțuri scurte de aprovizionare și trasabilitate digitală, precum și integrarea acestora în achizițiile publice
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+|  | Bacizan gheorghe Petreu | Yndependent |  |
+|  | FAGET MADALUTLAURENTIU | Indopedat |  |
+|  | Alecu Robert | Nezfiliot |  |
+|  | PKOPEAUU ROJCA | INNETHOMAT |  |
+|  | MATICHESCU RINECA | PSD |  |
+|  | GEORGESCU GHE. DANIEL | PSD |  |
+|  | POMA iUE | PSD |  |
+|  | GHERASIM CATHA | AUR |  |
+|  |  |  | / |
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege privind promovarea produselor agroalimentare prin lanțuri scurte de aprovizionare și trasabilitate digitală, precum și integrarea acestora în achizițiile publice
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td>Semnătura</td></tr>
+</tbody>
+</table>
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege privind promovarea produselor agroalimentare prin lanțuri scurte de aprovizionare și trasabilitate digitală, precum și integrarea acestora în achizițiile publice
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1 | PECU PETRISOR -GABRIEL | AUR |  |
+| 2 | CHECARU MIRCEIA | AUR |  |
+| 3 | Pete Georg Gafal | AUR |  |
+| 4 | Pooree Teveh | AUR |  |
+| 5 | Andrei Dirlau | AUR |  |
+| 6 | Thoesu Kaweudiu | AUR |  |
+| 7 | SANOU MIRCEA - IONUT | AUR |  |
+| 8. | OASIANYIYESCU BOLOCA | AUR |  |
+| 9 | Boveari Sonino | AUR |  |
+| 10 | SIEZA MICUINA | AUR |  |
+| 11. | STOICA CIPRIAN -TIVI | A.V.R. |  |
+| 12 | SANUELA STEZA YESCU | AUR |  |
+| 13 | Vlosca Vivyl Ph | AUR |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege privind promovarea produselor agroalimentare prin lanțuri scurte de aprovizionare și trasabilitate digitală, precum și integrarea acestora în achizițiile publice
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 14 | CRISTINA DUMITRESCU | AUR |  |
+| 15 | CRISTIN AVAN | AUR |  |
+| 16 | VLATHU NICOLAE | AUR |  |
+| 17 | POTECI VASILICU | AUR |  |
+| 18. | Spau Dumitsu | AUR |  |
+| 19. | VASICE MARIAXI | AUR |  |
+| 20. | LAVIE SOUIN | AUR |  |
+| 21 | JFFAN GEAMAN | AUR |  |
+| 22 | POECCOR FERNANDES LUCINI | AUR |  |
+| 23 | IACOB C. CIPRIAN | AUR |  |
+| 24 | SILGEONU OTOLNI | AUR |  |
+| 25 | AVERG | AUR |  |
+| 26 | NAGU CORALEIU | AUR |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege privind promovarea produselor agroalimentare prin lanțuri scurte de aprovizionare și trasabilitate digitală, precum și integrarea acestora în achizițiile publice
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td rowspan="4">Semnătura</td></tr>
+<tr><td>27.</td><td>SIPDS EUGENCRISIAN ALIR</td><td></td></tr>
+<tr><td>28</td><td>Bonuau Mareus-Valentiu</td><td>AUR</td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>

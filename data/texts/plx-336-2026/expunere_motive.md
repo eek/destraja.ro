@@ -1,13 +1,127 @@
-Expunere de motive Prezenta inițiativă legislativă urmărește modificarea și armonizarea Legii nr. 303/2022 privind statutul judecătorilor și procurorilor, în sensul stabilirii duratei cursurilor de formare profesională inițială a auditorilor de justiție la 2 ani (în loc de 3 ani), prin intervenții corelative în articolele care „codifică" în mod expres structura pe 3 ani (stagii „în al treilea an", examen „după al treilea an", calculul mediei pe „4 medii", departajare cu „media mai mare a celor 3 ani"). Necesitatea reglementării derivă din: existența, chiar în dreptul pozitiv, a unui »model operațional" de formare de 2 ani aplicat deja pentru promoțiile 2022-2024 (prin art. 283 din Legea nr. 303/2022), pentru promoția 2025 (prin OUG nr. 146/2024) și pentru promoția 2026 (prin OUG nr. 93/2025); a) persistența unui deficit semnificativ de personal la nivelul judecătoriilor și parchetelor de pe lângă acestea (de exemplu, datele indică la 1 noiembrie 2025: 313 posturi vacante din 2.463 de posturi de judecător la judecătorii și 364 de posturi vacante din 1.386 de posturi de procuror la parchetele corespunzătoare), cu riscul de a agrava disfuncționalitățile dacă intrarea în sistem a promoțiilor este întârziată suplimentar; b) considerente de stabilitate normativă și de reducere a dependenței de soluții temporare prin ordonanțe de urgență, cu atât mai mult cu cât Constituția limitează domeniile și efectele în care Guvernul poate interveni prin OUG (art. 115), iar jurisprudența Curții Constituționale a conturat exigențe stricte asupra noțiunii de „a afecta" regimul instituțiilor fundamentale. Inițiativa este construită pe două repere de principiu: (i) regula neretroactivității (lex prospicit, non respicit) consacrată de art. 15 alin. (2) din Constituție, pentru a proteja promoțiile deja admise; și (ii) menținerea standardelor de calitate și etică judiciară, cu trimitere la Principiile de la Bangalore (independență, imparțialitate, integritate, conduită, egalitate, competență și diligență), subliniind că eficiența temporală trebuie însoțită de competentia et diligentia prin programe și evaluări robuste. In prezent, art. 25 alin. (3) din Legea nr. 303/2022 stabilește ca regulă generală: ‚Durata cursurilor de formare profesională a auditorilor de justiție este de 3 ani." În același timp, cadrul normativ în vigoare include deja derogări / regimuri tranzitorii de 2 ani, ceea ce a dus la o arhitectură „mixtă" (regulă de 3 ani, excepții de 2 ani): - pentru promoțiile admise în anii 2022-2024, prin art. 283 din Legea nr. 303/2022; - pentru promoția admisă în 2025, prin OUG nr. 146/2024, care instituie durata de 2 ani și motivează măsura prin deficitul de resurse umane și riscul apariției unui decalaj de absolvenți; - pentru promoția admisă în 2026, prin OUG nr. 93/2025, care prevede expres durata de 2 ani pentru auditorii admiși în anul 2026.
+## Expunere de motive
 
-Această fragmentare contravine, ca efect practic, obiectivelor de claritate și coerență impuse de normele de tehnică legislativă, potrivit cărora actele normative trebuie redactate cu unitate terminologică • și integrate coerent în sistemul legislativ. (Ubi lex non distinguit, nec nos distinguere debemus - acolo unde legea nu distinge în mod coerent, practica ajunge să distingă prin improvizații.) Datele agregate care au fundamentat măsuri temporare recente indică un deficit pronunțat la nivelul instanțelor și parchetelor (în special la nivelul judecătoriilor și al parchetelor de pe lângă acestea), cuantificat inclusiv prin procentul posturilor vacante. Totodată, motivările din OUG nr. 146/2024 evidențiază explicit rațiunea de politică publică: menținerea unei durate de 2 ani a fost justificată prin deficitul de personal, creșterea necesară a numărului de auditori și riscul unui nou decalaj de absolvenți dacă s-ar trece abrupt la durata de 3 ani, în condițiile presiunilor logistice și bugetare asupra formării inițiale. În termeni de interes public - salus rei publicae suprema lex -, funcționarea efectivă a justiției depinde de capacitatea sistemului de a acoperi posturile vacante într-un ritm compatibil cu nevoile societății și cu obligațiile instituționale de soluționare a cauzelor într-un termen rezonabil. Obiectul reglementării: modificarea duratei cursurilor de formare profesională inițială la INM de la 3 la 2 ani, prin modificarea art. 25 alin. (3) din Legea nr. 303/2022; - armonizarea articolului modificat cu dispozițiile conexe din Legea nr. 303/2022 care presupun în mod expres existența unui al treilea an, precum și adaptarea mecanismului de stagii, absolvire și numire în funcție, pentru evitarea incoerențelor normative (lex certa și ratio legis). In forma actuală a legii, pe lângă art. 25 alin. (3), există cel puțin trei dispoziții care devin nefuncționale dacă durata se modifică fără corelări: - art. 26 alin. (3) stabilește durata minimă a stagiilor, inclusiv pentru „al treilea an"; art. 33 alin. (1) plasează susținerea testului psihologic și a examenului de absolvire „după al treilea an"; - art. 41 alin. (1) calculează media generală pe baza a „4 medii" și folosește, la departajare, „media mai mare a celor 3 ani de formare". Proiectul propune corelarea acestor articole, fie prin formule „numerice" (3→2, 4→3), fie prin formule „cadru" („după finalizarea cursurilor", „,mediile anuale", „anii de formare"), compatibile cu exigențele de tehnică legislativă privind coerența și unitatea terminologică. În sprijinul soluției propuse, există deja un standard de redactare aplicat în regimurile temporare (art. 283 și ordonanțele de urgență din 2024-2025) care au adaptat, pentru promoțiile respective, exact elementele de practică, absolvire și calcul al mediilor în logica duratei de 2 ani.
+Prezenta inițiativă legislativă urmărește modificarea și armonizarea Legii nr. 303/2022 privind statutul judecătorilor și procurorilor, în sensul stabilirii duratei cursurilor de formare profesională inițială a auditorilor de justiție la 2 ani (în loc de 3 ani), prin intervenții correlative în articolele care „codifică” în mod expres structura pe 3 ani (stagii „în al treilea an”, examen „după al treilea an”, calculul mediei pe „4 medii”, departajare cu „media mai mare a celor 3 ani”).
 
-Soluția proiectului urmează principiul tempus regit actum, în sensul aplicării regimului legal corespunzător momentului admiterii, principiu recunoscut și în jurisprudența Curții Constituționale privind succesiunea în timp a regimurilor juridice și absența discriminării doar pentru că legea se modifică între cohorte. În mod complementar, proiectul păstrează explicit regimurile speciale deja instituite pentru promoțiile 2022-2026 (art. 283, OUG nr. 146/2024, OUG nr. 93/2025), astfel încât tranziția să fie sine ambiguitate. Prin reducerea duratei formării inițiale, proiectul urmărește accelerarea intrării promoțiilor în sistem, diminuarea presiunii generate de posturile vacante și creșterea predictibilității fluxului de resurse umane, obiective care apar constant în motivările măsurilor temporare recente. În plus, raționamentul din OUG nr. 146/2024 privind riscul apariției unui decalaj" în promoții dacă formarea ar fi extinsă imediat la 3 ani oferă suport factual pentru alegerea unei soluții generale de 2 ani, stabilă și uniformă. Legea nr. 303/2022 prevede că programul de formare este aprobat în mecanisme instituționale, iar regulamentele relevante (admitere, stagii, absolvire) sunt stabilite prin acte subsecvente. În practică, standardizarea operațională se realizează inclusiv prin reglementări de tip: hotărâre a Plenului CSM pentru aprobarea regulamentului examenului de absolvire și regulamentul propriu-zis, publicate în Monitorul Oficial. Prin urmare, proiectul include un termen realist (de exemplu 60 de zile) pentru actualizarea actelor subsecvente și a programului de formare, pentru a evita blocaje administrative (actus curiae neminem gravabit - actul instituțiilor nu trebuie să prejudicieze cursanții). Inițiativa legislativă propusă urmărește o reformă de coerență și eficiență: stabilirea, ca regulă generală, a duratei de 2 ani a formării inițiale la INM și armonizarea completă a mecanismelor de practică, absolvire și numire, care sunt în prezent redactate pentru structura de 3 ani. Reglementarea este justificată factual prin deficitul semnificativ de personal și prin rațiunile invocate repetat în actele temporare din 2024-2025, iar alegerea instrumentului legislativ (lege, nu prelungirea permanentă a excepțiilor temporare) răspunde cerințelor de stabilitate și previzibilitate într-un domeniu de lege organică, cu respectarea limitelor constituționale privind delegarea legislativă. În același timp, reforma este compatibilă cu standardele etice internaționale: prin raportare la Principiile de la Bangalore, accentul trebuie să cadă pe competentia et diligentia și pe păstrarea calității formării prin curriculum, practică și evaluări riguroase, astfel încât să se asigure atât eficiența sistemului, cât și încrederea publică în justiție. Inițiatori: Deputat PNL Patricia-Simina-Arina MOȘ Deputat USR Alexandru-Paul DIMITRIU PAL PISTRU-POPA GEANINA AEP. GEORGE SERBAN . dep. Ciprian Solve AStme-PKL
+Necesitatea reglementării derivă din: existența, chiar în dreptul pozitiv, a unui „model operațional” de formare de 2 ani aplicat deja pentru promoțiile 2022–2024 (prin art. 283 din Legea nr. 303/2022), pentru promoția 2025 (prin OUG nr. 146/2024) și pentru promoția 2026 (prin OUG nr. 93/2025);
 
-Tabel semnături Propunerea legislativă pentru modificarea și completarea Legii nr. 303/2022 privind statutul judecătorilor și procurorilor Nr. | Prenume și nume Funția/Grup | Semnătura crt. parlamentar T.N.L PNL sanpo | Fricefnt ANDREI ALEXANDRU MACUTA SORIN | PAL TIPLÉA ALMiTRK | PAL Cotineseu Aurelian | PNL MATE ANETA. | AUL SANEICU VETUTA | PAL CiOBOTARU DRAGOS | DN2 Terlorin Andrei Jonut | PAL Gal Călirz | PINILI ROMAM FLORil | PNL z'aluce juzau CADAR KAZVAN | PNL Tandea Ciprian | PNL SCARLAT GEORGE | PNL SİGHiARTAL ROBERT | PNL Sirbe Coikp | PAL Veacse Andrica - Firuto | PNL TD RiAN | PAUL PNL BUSSUZA SEBASTIAN - IOANI | PHL
+a) persistența unui deficit semnificativ de personal la nivelul judecătoriilor și parchetelor de pe lângă acestea (de exemplu, datele indică la 1 noiembrie 2025: 313 posturi vacante din 2.463 de posturi de judecător la judecătorii și 364 de posturi vacante din 1.386 de posturi de procuror la parchetele corespunzătoare), cu riscul de a agrava disfuncționalitățile dacă intrarea în sistem a promoțiilor este întârziată suplimentar;
 
-Tabel semnături Propunerea legislativă pentru modificarea și completarea Legii nr. 303/2022 privind statutul judecătorilor și procurorilor Nr. | Prenume și nume | Funția/Grup | Semnătura crt. | parlamentar CiBU DEACONU RUXANIA | USe BERESW MONICA -GIENA | USR CRISTIAM BRIAN | USR ȘTEFAN -IULIAN CORINCZ | USR GABORGHIU ANGREI FLORIN | USR ATATIASiU CORINA | USR FANASĂ STEFAN | Q5R Norussi George | USA
+b) considerente de stabilitate normativă și de reducere a dependenței de soluții temporare prin ordonanțe de urgență, cu atât mai mult cu cât Constituția limitează domeniile și efectele în care Guvernul poate interveni prin OUG (art. 115), iar jurisprudența Curții Constituționale a conturat exigențe stricte asupra noțiunii de „a afecta” regimul instituțiilor fundamentale.
 
-| A OR SERBAY GiAMIMA | AUR kelea Eloin baple. | AUR AUR LUCiAN MUStE Aur GHEORGHE iONEL | AUR CIPRiAN PARASCHIV | AUR LOSIN RAMOHA | AUR CALIN GHE NATIRS | ALR
+Inițiativa este construită pe două repere de principiu: (i) regula neretroactivității (lex prospicit, non respicit) consacrată de art. 15 alin. (2) din Constituție, pentru a proteja promoțiile deja admise; și (ii) menținerea standardelor de calitate și etică judiciară, cu trimitere la Principiile de la Bangalore (independență, imparțialitate, integritate, conduită, egalitate, competență și diligență), subliniind că eficiența temporală trebuie însoțită de competentia et diligentia prin programe și evaluări robuste.
 
-CLAUBTU | AUR CIORNEI BANIEL - CATĂLILY | AUR BORDiAN ALEXANDRU | DOR
+În prezent, art. 25 alin. (3) din Legea nr. 303/2022 stabilește ca regulă generală: „Durata cursurilor de formare profesională a auditorilor de justiție este de 3 ani.” În același timp, cadrul normativ în vigoare include deja derogări / regimuri tranzitorii de 2 ani, ceea ce a dus la o arhitectură „mixtă” (regulă de 3 ani, excepții de 2 ani):
+
+\- pentru promoțiile admise în anii 2022–2024, prin art. 283 din Legea nr. 303/2022;
+
+\- pentru promoția admisă în 2025, prin OUG nr. 146/2024, care instituie durata de 2 ani și motivează măsura prin deficitul de resurse umane și riscul apariției unui decalaj de absolvenți;
+
+\- pentru promoția admisă în 2026, prin OUG nr. 93/2025, care prevede expres durata de 2 ani pentru auditorii admiși în anul 2026.
+
+Această fragmentare contravine, ca efect practic, obiectivelor de claritate și coerență impuse de normele de tehnică legislativă, potrivit cărora actele normative trebuie redactate cu unitate terminologică și integrate coerent în sistemul legislativ. (Ubi lex non distinguit, nec nos distinguere debemus — acolo unde legea nu distinge în mod coerent, practica ajunge să distingă prin improvizații.)
+
+Datele aggregate care au fundamentat măsuri temporare recente indică un deficit pronunțat la nivelul instanțelor și parchetelor (în special la nivelul judecătoriilor și al parchetelor de pe lângă acestea), cuantificat inclusiv prin procentul posturilor vacante. Totodată, motivările din OUG nr. 146/2024 evidențiază explicit rațiunea de politică publică: menținerea unei durate de 2 ani a fost justificată prin deficitul de personal, creșterea necesară a numărului de auditori și riscul unui nou decalaj de absolvenți dacă s-ar trece abrupt la durata de 3 ani, în condițiile presiunilor logistice și bugetare asupra formării inițiale. În termeni de interes public - salus rei publicae suprema lex -, funcționarea efectivă a justiției depinde de capacitatea sistemului de a acoperi posturile vacante într-un ritm compatibil cu nevoile societății și cu obligațiile instituționale de soluționare a cauzelor într-un termen rezonabil.
+
+## Obiectul reglementării:
+
+\- modificarea duratei cursurilor de formare profesională inițială la INM de la 3 la 2 ani, prin modificarea art. 25 alin. (3) din Legea nr. 303/2022;
+
+\- armonizarea articolului modificat cu dispozițiile conexe din Legea nr. 303/2022 care presupun în mod expres existența unui al treilea an, precum și adaptarea mecanismului de stagii, absolvire și numire în funcție, pentru evitarea incoerențelor normative (lex certa și ratio legis).
+
+În forma actuală a legii, pe lângă art. 25 alin. (3), există cel puțin trei dispoziții care devin nefuncționale dacă durata se modifică fără corelări:
+
+\- art. 26 alin. (3) stabilește durata minimă a stagiilor, inclusiv pentru „al treilea an”;
+
+\- art. 33 alin. (1) plasează susținerea testului psihologic și a examenului de absolvire „după al treilea an”;
+
+\- art. 41 alin. (1) calculează media generală pe baza a „4 medii” și folosește, la departajare, „media mai mare a celor 3 ani de formare”.
+
+Proiectul propune corelarea acestor articole, fie prin formule „numerice” (3→2, 4→3), fie prin formule „cadru” („după finalizarea cursurilor”, „mediile anuale”, „anii de formare”), compatibile cu exigențele de tehnică legislativă privind coerența și unitatea terminologică.
+
+În sprijinul soluției propuse, există deja un standard de redactare aplicat în regimurile temporare (art. 283 și ordonanțele de urgență din 2024–2025) care au adaptat, pentru promoțiile respective, exact elementele de practică, absolvire și calcul al mediilor în logica duratei de 2 ani.
+
+Soluția proiectului urmează principiul tempus regit actum, în sensul aplicării regimului legal corespunzător momentului admiterii, principiu recunoscut și în jurisprudența Curții Constituționale privind succesiunea în timp a regimurilor juridice și absența discriminării doar pentru că legea se modifică între cohorte. În mod complementar, proiectul păstrează explicit regimurile speciale deja instituite pentru promoțiile 2022–2026 (art. 283, OUG nr. 146/2024, OUG nr. 93/2025), astfel încât tranziția să fie sine ambiguitate.
+
+Prin reducerea duratei formării inițiale, proiectul urmărește accelerarea intrării promoțiilor în sistem, diminuarea presiunii generate de posturile vacante și creșterea predictibilității fluxului de resurse umane, obiective care apar constant în motivările măsurilor temporare recente. În plus, raționamentul din OUG nr. 146/2024 privind riscul apariției unui „decalaj” în promoții dacă formarea ar fi extinsă imediat la 3 ani oferă suport factual pentru alegerea unei soluții generale de 2 ani, stabilă și uniformă.
+
+Legea nr. 303/2022 prevede că programul de formare este aprobat în mecanisme instituționale, iar regulamentele relevante (admitere, stagii, absolvire) sunt stabilite prin acte subsecvente. În practică, standardizarea operațională se realizează inclusiv prin reglementări de tip: hotărâre a Plenului CSM pentru aprobarea regulamentului examenului de absolvire și regulamentul propriu-zis, publicate în Monitorul Oficial.
+
+Prin urmare, proiectul include un termen realist (de exemplu 60 de zile) pentru actualizarea actelor subsecvente și a programului de formare, pentru a evita blocaje administrative (actus curiae neminem gravabit — actul instituțiilor nu trebuie să prejudicieze cursanții).
+
+Inițiativa legislativă propusă urmărește o reformă de coerență și eficiență: stabilirea, ca regulă generală, a duratei de 2 ani a formării inițiale la INM și armonizarea completă a mecanismelor de practică, absolvire și numire, care sunt în prezent redactate pentru structura de 3 ani.
+
+Reglementarea este justificată factual prin deficitul semnificativ de personal și prin rațiunile invocate repetat în actele temporare din 2024–2025, iar alegerea instrumentului legislativ (lege, nu prelungirea permanentă a excepțiilor temporare) răspunde cerințelor de stabilitate și previzibilitate într-un domeniu de lege organică, cu respectarea limitelor constituționale privind delegarea legislativă.
+
+În același timp, reforma este compatibilă cu standardele etice internaționale: prin raportare la Principiile de la Bangalore, accentul trebuie să cadă pe competentia et diligentia și pe păstrarea calității formării prin curriculum, practică și evaluări riguroase, astfel încât să se asigure atât eficiența sistemului, cât și încrederea publică în justiție.
+
+Inițiatori:
+
+Deputat PNL Patricia-Simina-Arina MOS
+
+Deputat USR Alexandru-Paul DIMITRU
+
+PNC PISTRU - POPA GERNINA
+
+AEP. GEORGE SIZBAN - ANL'
+
+dep. Cyprian Solve Slume -PKL
+
+## Tabel semnături
+
+Propunerea legislativă pentru modificarea și completarea Legii nr. 303/2022 privind statutul judecătorilor și procurorilor
+
+| Nr.crt. | Prenume și nume | Funția/Grupparlamentar |
+| --- | --- | --- |
+|  | Jenno Alezondru | PN.L |
+|  | Mudlee Bogdom | PNL |
+|  | Macobel Jlie Simond | S.O.S. 70 |
+|  | Vangoi Nauua | Nudepudd |
+|  | ANDREI ALEXANDRU | PNL |
+|  | NACUTA SORIN | PNL |
+|  | TIPLEA DUMIRCU | PNL |
+|  | Cotmescu Aurelian | PNL |
+|  | MATEI ANETA | PNL |
+|  | JANEICU VEJUTA | PNL |
+|  | CIOBOTARU DDAGOS | PNL |
+|  | Tejorini Andrei Jounch | PNL |
+|  | Gad Catiliz | PN.L |
+|  | ROMAN FIORIY | PNL |
+|  | Kaluce Jiueau | PNL |
+|  | CADAR RAZVAN | PNL |
+|  | Pandea Cypran | PNL |
+|  | SEARCAT GEORGE | PNL |
+|  | SIGHIARTAU ROBERT | PNL |
+|  | Shihu Coupel | PNL |
+|  | Naacme Andrea - Tiruto | PNL |
+|  | e.i.BANV ADRIAN | PNL |
+|  | Ovru Octomom | PNL |
+|  | BURDUJA SEBASTIAN - IOAN | PNL |
+
+## Tabel semnături
+
+Propunerea legislativă pentru modificarea și completarea Legii nr. 303/2022 privind statutul judecătorilor și procurorilor
+
+| Nr. crt. | Prenume și nume | Funția/Grup parlamentar | Semnătura |
+| --- | --- | --- | --- |
+|  | CIBU DEACOWU BUXANJA | USR |  |
+|  | PERESW MONICA GENA | USR |  |
+|  | CRISTIAN BRIAN | USR |  |
+|  | STEFAN -IULIAN COLINCE | USR |  |
+|  | GHEORGHIU ANSREI FLORIN | USR |  |
+|  | AFATIASIU CORINA | USR |  |
+|  | TANASIA STEFAN | USR |  |
+|  | Norussi George | USA |  |
+
+| MiHAI EMACHE | AOR |
+| --- | --- |
+| SERBAY GIANYIMA | AUR |
+| Velescu Florin Bogden | AUR |
+| Pnesau Ionelub | AUR |
+| LUGAN MUSAF | AUR |
+| GHEORGHE IONEL | AUR |
+| CIPRIAN PARASCHIN | AUR |
+| LOJIN RAHOHA | AUR |
+| CALINE GHE MATRES | AUR |
+| GHEORGHE MICHAH CLAUDRU | AUR |
+| CI'ORNOI KANIIGC -COJIA'LIY | NUR |
+| BORDIAN ALEXANDRU | AOR |

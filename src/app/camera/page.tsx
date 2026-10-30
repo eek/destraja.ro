@@ -32,8 +32,12 @@ export default async function CameraPage() {
         </p>
       </div>
 
+      <div className="mt-8">
+        <CameraExplorer items={items} pages={pages} builtOn={builtOn} />
+      </div>
+
       {(read < items.length || analysed < atChamber || comparePending > 0) && (
-        <div role="note" className="mt-8 max-w-3xl rounded-2xl border border-brand/30 bg-brand-soft px-5 py-4 text-[15px] leading-7 text-ink">
+        <div role="note" className="mt-12 max-w-3xl rounded-2xl border border-line bg-sunken px-5 py-4 text-[15px] leading-7 text-ink">
           <p className="font-semibold">Pagina e nouă și o completăm treptat.</p>
           {read < items.length || analysed < atChamber ? (
             <p className="mt-1 text-body">
@@ -54,10 +58,6 @@ export default async function CameraPage() {
           )}
         </div>
       )}
-
-      <div className="mt-8">
-        <CameraExplorer items={items} pages={pages} builtOn={builtOn} />
-      </div>
 
       <p className="mt-8 max-w-2xl text-xs leading-5 text-muted">
         Datele vin din lista proiectelor înregistrate la Camera Deputaților în {index?.an ?? 'acest an'} și din fișa fiecărui proiect de pe cdep.ro

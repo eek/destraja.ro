@@ -24,6 +24,12 @@ const FAST_TEXTS = process.argv.includes('--camera') || process.argv.includes('-
 // Analiza unui proiect de la Cameră folosește doar forma cea mai nouă (latestVersion): formele mai vechi le citesc
 // --versions și straja-texts, ca GPU-ul să nu le citească de două ori în timp ce analizele așteaptă.
 const ANALYSIS_ONLY = process.argv.includes('--camera') && !process.argv.includes('--versions');
+// Comparațiile se pot face pe etape: COUNCIL_MODELS=claude în cloud (analizele lui Claude și comparațiile), apoi
+// COUNCIL_MODELS=agy,codex local, care completează Gemini și ChatGPT în aceleași fișiere și recalculează scorul.
+const ONLY_MODELS = process.env.COUNCIL_MODELS?.split(',').map((m) => m.trim()).filter(Boolean) ?? null;
+const canRun = (model) => !ONLY_MODELS || ONLY_MODELS.includes(model);
+// TEXTS_FROM_DISK=1: textele formelor se iau din data/texts, fără descărcări și fără citirea PDF-urilor (în cloud nu sunt).
+const TEXTS_FROM_DISK = process.env.TEXTS_FROM_DISK === '1';
 const olderForms = (pdfDir) => {
   const have = new Set(fs.existsSync(pdfDir) ? fs.readdirSync(pdfDir).map((f) => textName(f)) : []);
   const newer = Object.values(FORMS).map((f) => f.text).find((t) => have.has(t));
@@ -31,6 +37,13 @@ const olderForms = (pdfDir) => {
 };
 
 async function extractPdfTextsForBill(bill) {
+  if (TEXTS_FROM_DISK) {
+    const dir = path.join(TEXT_DIR, bill.slug);
+    if (!fs.existsSync(dir)) return {};
+    return Object.fromEntries(
+      fs.readdirSync(dir).filter((f) => f.endsWith('.txt')).map((f) => [f.slice(0, -4), fs.readFileSync(path.join(dir, f), 'utf8')]),
+    );
+  }
   let pdfParse = null;
   try {
     const mod = await import('pdf-parse/lib/pdf-parse.js');
@@ -170,11 +183,13 @@ async function analyzeBillWithCouncil(bill, force = false, { texts: given, versi
   const version = bill.chamber ? (wanted ?? latestVersion(texts)) : undefined;
   const prompt = buildCouncilPrompt(bill, texts, version);
 
-  const [agyRes, claudeRes, codexRes] = await Promise.all([
-    existing?.council?.agy?.status === 'ok' ? Promise.resolve(existing.council.agy) : runSingleAi('agy', prompt, bill.id),
-    existing?.council?.claude?.status === 'ok' ? Promise.resolve(existing.council.claude) : runSingleAi('claude', prompt, bill.id),
-    existing?.council?.codex?.status === 'ok' ? Promise.resolve(existing.council.codex) : runSingleAi('codex', prompt, bill.id),
-  ]);
+  const verdict = (model) =>
+    existing?.council?.[model]?.status === 'ok'
+      ? Promise.resolve(existing.council[model])
+      : canRun(model)
+        ? runSingleAi(model, prompt, bill.id)
+        : Promise.resolve({ model, status: 'skipped', error: 'încă nerulat (COUNCIL_MODELS)' });
+  const [agyRes, claudeRes, codexRes] = await Promise.all([verdict('agy'), verdict('claude'), verdict('codex')]);
 
   console.log(
     `   ├─ AGY: ${agyRes.status === 'ok' ? `Scor ${agyRes.riskScore}/10 (${agyRes.riskLevel})` : agyRes.error}`
@@ -428,10 +443,14 @@ async function fetchSenatPdf(url) {
 /** Descarcă formele care lipsesc; întoarce planul fără formele care nu există (încă). */
 async function downloadVersions(sheet, plan) {
   const dir = path.join(PDF_DIR, sheet.slug);
-  fs.mkdirSync(dir, { recursive: true });
+  if (!TEXTS_FROM_DISK) fs.mkdirSync(dir, { recursive: true });
   const kept = [];
   for (const v of plan) {
     const type = FORMS[v.key].text;
+    if (TEXTS_FROM_DISK) {
+      if (fs.existsSync(path.join(TEXT_DIR, sheet.slug, `${type}.txt`))) kept.push(v);
+      continue;
+    }
     const u = new URL(v.url);
     const name = `${type}_${path.basename(u.pathname.toLowerCase().endsWith('.pdf') ? u.pathname : u.search.slice(1)).replace(/_/g, '')}`;
     const file = path.join(dir, name.toLowerCase().endsWith('.pdf') ? name : `${name}.pdf`);
@@ -621,6 +640,9 @@ Returnează EXCLUSIV un obiect JSON valid:
   };
 }
 
+/** Modelele cerute de COUNCIL_MODELS care n-au încă un răspuns bun în analiza unei forme (fără COUNCIL_MODELS: niciunul). */
+const missingModels = (an) => Boolean(ONLY_MODELS) && ONLY_MODELS.some((m) => an?.council?.[m]?.status !== 'ok');
+
 async function versionsForBill(sheet, force, recompare = false) {
   const bill = chamberBill(sheet);
   const plan = await downloadVersions(sheet, versionPlan(sheet));
@@ -641,7 +663,8 @@ async function versionsForBill(sheet, force, recompare = false) {
   const analyses = {};
   for (const v of withText) {
     const file = path.join(dir, `${v.key}.json`);
-    if (!force && fs.existsSync(file)) analyses[v.key] = readJsonFile(file);
+    const saved = !force && fs.existsSync(file) ? readJsonFile(file) : null;
+    if (saved && !missingModels(saved)) analyses[v.key] = saved;
     else if (!force && main && mainVersion === v.key) {
       analyses[v.key] = { ...main, version: v.key };
       fs.writeFileSync(file, JSON.stringify(analyses[v.key], null, 2));
@@ -649,9 +672,11 @@ async function versionsForBill(sheet, force, recompare = false) {
       analyses[v.key] = await analyzeBillWithCouncil(bill, force, { texts, version: v.key, outFile: file });
     }
   }
-  // Analiza principală e a formei celei mai noi.
+  // Analiza principală e a formei celei mai noi; o rescriem și când i s-au completat modelele.
   const latest = withText.at(-1).key;
-  if (!main || mainVersion !== latest) fs.writeFileSync(mainFile, JSON.stringify(analyses[latest], null, 2));
+  if (!main || mainVersion !== latest || analyses[latest].updatedAt > (main.updatedAt ?? '')) {
+    fs.writeFileSync(mainFile, JSON.stringify(analyses[latest], null, 2));
+  }
 
   const summaryFile = path.join(VERSIONS_DIR, `${sheet.slug}.json`);
   const previous = readJsonFile(summaryFile);
@@ -661,7 +686,11 @@ async function versionsForBill(sheet, force, recompare = false) {
     const old = previous?.changes?.find((c) => c.from === a.key && c.to === b.key);
     const stale = !old || [analyses[a.key], analyses[b.key]].some((an) => an.updatedAt > old.updatedAt);
     const outdated = recompare && old?.schema !== COMPARE_SCHEMA;
-    changes.push(force || stale || outdated ? await compareVersions(bill, a, b, texts, analyses) : old);
+    // Comparația o face Claude, din constatările lui: fără el (COUNCIL_MODELS=agy,codex) le păstrăm pe cele făcute.
+    if (!canRun('claude')) {
+      if (!old) return false;
+      changes.push(old);
+    } else changes.push(force || stale || outdated ? await compareVersions(bill, a, b, texts, analyses) : old);
   }
   const scores = (an) => Object.fromEntries(['agy', 'claude', 'codex'].map((k) => [k, an.council?.[k]?.status === 'ok' ? an.council[k].riskScore : null]));
   const summary = {
@@ -718,11 +747,16 @@ async function mainVersions(args) {
     const st = writeVersionsStatus(index, read);
     return console.log(`📜 Versiuni: ${st.compared} din ${st.comparable} proiecte comparate, ${st.pending.length} în așteptare`);
   }
+  // Etapa fără Claude completează doar proiectele deja comparate care au forme cu modele lipsă.
+  const incomplete = (s) => {
+    const dir = path.join(VERSIONS_DIR, s);
+    return fs.existsSync(path.join(VERSIONS_DIR, `${s}.json`)) && fs.existsSync(dir) && fs.readdirSync(dir).some((f) => missingModels(readJsonFile(path.join(dir, f))));
+  };
   // Proiectele cu analiză principală și cel puțin două forme posibile; întâi cele aflate acum la Cameră.
-  const targets = (slug ? [{ slug }] : index.filter((p) => !p.senat && fs.existsSync(path.join(ANALYSES_DIR, `${p.slug}.json`))))
+  const targets =(slug ? [{ slug }] : index.filter((p) => !p.senat && fs.existsSync(path.join(ANALYSES_DIR, `${p.slug}.json`))))
     .map((p) => read(p.slug))
     .filter((s) => s && versionPlan(s).length >= 2)
-    .filter((s) => slug || force || recompare === fs.existsSync(path.join(VERSIONS_DIR, `${s.slug}.json`)))
+    .filter((s) => slug || force || (canRun('claude') ? recompare === fs.existsSync(path.join(VERSIONS_DIR, `${s.slug}.json`)) : incomplete(s.slug)))
     .sort((a, b) => Number(!AT_CHAMBER.test(a.stadiu ?? '')) - Number(!AT_CHAMBER.test(b.stadiu ?? '')));
   const claim = claimer('versions');
   let done = 0;
@@ -751,7 +785,8 @@ async function mainVersions(args) {
 
 async function main() {
   const args = process.argv.slice(2);
-  if (args.includes('--versions')) return mainVersions(args);
+  // --status singur e tot raportul comparațiilor: fără asta pornea modul implicit și rescria analizele Senatului.
+  if (args.includes('--versions') || args.includes('--status')) return mainVersions(args);
   if (args.includes('--camera')) return mainChamber(args);
   const extractOnly = args.includes('--extract-texts');
   const targetSlug = args.find((a) => !a.startsWith('--'));

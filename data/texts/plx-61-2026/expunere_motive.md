@@ -1,35 +1,111 @@
-EXPUNERE DE MOTIVE
+## EXPUNERE DE MOTIVE
 
-I. Necesitatea și oportunitatea reglementării Prezenta inițiativă legislativă răspunde unei urgențe sociale reale, aliniază România la standardele europene emergente și plasează interesul superior al copilului în centrul politicilor publice digitale, fară a aduce atingere libertăților fundamentale într-o manieră disproporționatăUtilizarea intensivă și necontrolată a rețelelor sociale de către minori a generat, în ultimii ani, riscuri majore pentru sănătatea mintală, dezvoltarea emoțională și siguranța acestora. Studii științifice, rapoarte ale instituțiilor europene, precum și anchete parlamentare recente evidențiază o creștere alarmantă a fenomenelor de anxietate, depresie, automutilare, suicid, dependență digitală, cyberbullying și expunere la conținuturi nocive sau manipulative.
+## I. Necesitatea și oportunitatea reglementării
 
-II. Constituționalitatea și proporționalitatea • Măsurile propuse respectă art.53 din Constituție, fiind: prevăzute de lege; necesare pentru protejarea sănătății publice și a drepturilor copilului; - proporționale și limitate în timp. • Jurisprudența CEDO recunoaște o marjă largă de apreciere statelor în domeniul protecției minorilor. • Nu se instituie cenzură, ci obligații de diligență pentru furnizori. Constituția României consacră, prin art.49, obligația statului de a asigura protecția copiilor și tinerilor, iar prin art.34 dreptul fundamental la ocrotirea sănătății. Totodată, art.26 garantează viața intimă, familială și privată, însă permite restrângeri ale exercițiului unor drepturi, în condițiile art.53, atunci când acestea sunt necesare, proporționale și justificate de protejarea sănătății, moralei publice și a drepturilor altor persoane.
+Prezenta inițiativă legislativă răspunde unei urgențe sociale reale, aliniază România la standardele europene emergente și plasează interesul superior al copilului în centrul politicilor publice digitale, fără a aduce atingere libertăților fundamentale într-o manieră disproporționatăutilizarea intensivă și necontrolată a rețelelor sociale de către minori a generat, în ultimii ani, riscuri majore pentru sănătatea mintală, dezvoltarea emoțională și siguranța acestora.
 
-III. Comparație cu legislația altor state (drept comparat) Inițiativa se înscrie într-o tendință legislativă europeană și internațională clară. Prezenta lege instituie un cadru juridic coerent, proporțional și compatibil cu dreptul Uniunii Europene, în special cu Regulamentul (UE) 2016/679 (GDPR) și Regulamentul (UE) 2022/2065 (Digital Services Act), având ca obiectiv primordial protejarea interesului superior al copilului, prevenirea riscurilor grave și responsabilizarea furnizorilor de servicii de rețele sociale.
+Studii științifice, rapoarte ale instituțiilor europene, precum și anchete parlamentare recente evidențiază o creștere alarmantă a fenomenelor de anxietate, depresie, automutilare, suicid, dependență digitală, cyberbullying și expunere la conținuturi nocive sau manipulative.
+
+## II. Constituționalitatea și proporționalitatea
+
+\- Măsurile propuse respectă art.53 din Constituție, fiind:
+
+\- prevăzute de lege;
+
+\- necesare pentru protejarea sănătății publice și a drepturilor copilului;
+
+\- proporționale și limitate în timp.
+
+\- Jurisprudența CEDO recunoaște o marjă largă de apreciere statelor în domeniul protecției minorilor.
+
+\- Nu se instituie cenzură, ci obligații de diligență pentru furnizori.
+
+Constituția României consacră, prin art.49, obligația statului de a asigura protecția copiilor și tinerilor, iar prin art.34 dreptul fundamental la ocrotirea sănătății.
+
+Totodată, art.26 garantează viața intimă, familială și privată, însă permite restrângeri ale exercițiului unor drepturi, în condițiile art.53, atunci când acestea sunt necesare, proporționale și justificate de protejarea sănătății, moralei publice și a drepturilor altor persoane.
+
+## III. Comparație cu legislația altor state (drept comparat)
+
+Inițiativa se înscrie într-o tendință legislativă europeană și internațională clară.
+
+Prezenta lege instituie un cadru juridic coerent, proporțional și compatibil cu dreptul Uniunii Europene, în special cu Regulamentul (UE) 2016/679 (GDPR) și Regulamentul (UE) 2022/2065 (Digital Services Act), având ca obiectiv primordial protejarea interesului superior al copilului, prevenirea riscurilor grave și responsabilizarea furnizorilor de servicii de rețele sociale.
 
 Măsurile propuse se aliniază unei tendințe clare la nivel internațional și european de consolidare a protecției minorilor în mediul digital, prin reglementări restrictive, preventive și educaționale.
 
-1\. Franța Prin Legea nr.2023-566 privind majoritatea digitală, Franța a stabilit: • vârsta minimă de 15 ani pentru accesul la rețelele sociale; • obligația furnizorilor de a obține consimțământul verificabil al părinților pentru minorii sub acest prag; • sancțiuni semnificative pentru platformele care nu implementează mecanisme eficiente de verificare a vârstei.
+## 1. França
+
+Prin Legea nr.2023-566 privind majoritatea digitală, Franța a stabilit:
+
+\- vârsta minimă de 15 ani pentru accesul la rețelele sociale;
+
+\- obligația furnizorilor de a obține consimțământul verificabil al părinților pentru minorii sub acest prag;
+
+\- sancțiuni semnificative pentru platformele care nu implementează mecanisme eficiente de verificare a vârstei.
 
 Curtea Constituțională franceză a reținut că protecția sănătății mintale a minorilor justifică restrângeri proporționale ale libertății de exprimare în mediul digital.
 
-2\. Germania Germania aplică încă din 2003 Jugendmedienschutz-Staatsvertrag (JMStV), care: • impune clasificarea conținutului online în funcție de vârstă; • obligă platformele să limiteze accesul minorilor la conținut nociv; • permite sancțiuni administrative severe pentru nerespectare.
+## 2. Germania
+
+Germania aplică încă din 2003 Jugendmedienschutz-Staatsvertrag (JMStV), care:
+
+\- impune clasificarea conținutului online în funcție de vârstă;
+
+\- obligă platformele să limiteze accesul minorilor la conținut nociv;
+
+\- permite sancțiuni administrative severe pentru nerespectare.
 
 Modelul german pune accent pe responsabilitatea furnizorilor, nu pe culpabilizarea utilizatorilor minori.
 
-3\. Italia Italia a adoptat măsuri consolidate prin Codul pentru protecția minorilor în mediul digital, incluzând:
+## 3. Italia
 
-• mecanisme stricte de age-verification; • intervenția autorității de protecție a datelor (Garante per la protezione dei dati personali); • recunoașterea explicită a dependenței digitale ca risc pentru sănătatea copilului. 4. Spania
+Italia a adoptat măsuri consolidate prin Codul pentru protecția minorilor în mediul digital, incluzând:
+
+\- mecanisme stricte de age-verification;
+
+\- intervenția autorității de protecție a datelor (Garante per la protezione dei dati personali);
+
+\- recunoașterea explicită a dependenței digitale ca risc pentru sănătatea copilului.
+
+## 4. Spania
 
 Spania a introdus prin Carta drepturilor digitale:
 
-• conceptul de drept al copilului la protecție împotriva manipulării algoritmice; • obligația statului de a integra educația digitală în sistemul de învățământ obligatoriu.
+\- conceptul de drept al copilului la protecție împotriva manipulării algoritmice;
 
-5\. State non-UE (exemplu relevant) - Australia Australia a anunțat, în 2024, intenția legislativă de: • a stabili o vârstă minimă de 16 ani pentru accesul la rețele sociale; • a impune amenzi de ordinul sutelor de milioane de dolari pentru platformele neconforme.
+\- obligația statului de a integra educația digitală în sistemul de învățământ obligatoriu.
 
-IV.Impactul social și economic Impact bugetar: neutru. Prezenta lege nu presupune înființarea de noi instituții sau structuri administrative. Autoritățile competente utilizează resursele existente, iar costurile de implementare revin exclusiv furnizorilor privați de servicii digitale. Aplicarea legii poate genera efecte pozitive indirecte prin reducerea cheltuielilor publice în domeniul sănătății mintale, al abandonului școlar și al infracționalității juvenile.
+## 5. State non-UE (exemplu relevant) – Australia
 
-INIȚIATOR: Macovei Ilie Simona-Elena - deputat S.O.S. România Circumscripția electorală nr.24
+Australia a anunțat, în 2024, intenția legislativă de:
 
-Tabel cu semnături la Propunerea legislativă privind protecția minorilor împotriva riscurilor utilizării rețelelor sociale Nr.crt | Deputați/Senatori | Grupul parlamentar | Semnătura .
+\- a stabili o vârstă minimă de 16 ani pentru accesul la rețele sociale;
 
-HACOVEÍ İLiE SiMONA -ELENA | S.0. S. RO 21 | BAS ANA MORFIA | 5.0.0 R0 3 | LAZAROI IOAN | S.O.S.RO TOADER ELENA - LAURA S.0.5. Ro | PASCALINÍ NINİ ALEXANDEU | S.O.S. RO. 6 | OLTENASU SORIN | SOS RO CARAGATĂ FLORiIL | S.O.S RO 8 | JON MiREL | 5.0.5.RO Câmpianu Anodve etonela r.o. S.RO
+\- a impune amenzi de ordinul sutelor de milioane de dolari pentru platformele neconforme.
+
+## IV.Impactul social și economic
+
+Impact bugetar: neutru.
+
+Prezenta lege nu presupune înființarea de noi instituții sau structuri administrative. Autoritățile competente utilizează resursele existente, iar costurile de implementare revin exclusiv furnizorilor privați de servicii digitale.
+
+Aplicarea legii poate genera efecte pozitive indirecte prin reducerea cheltuielilor publice în domeniul sănătății mintale, al abandonului școlar și al infracționalității juvenile.
+
+INIȚIATOR:
+
+Macovei Ilie Simona-Elena - deputat S.O.S. România
+
+Circumscripția electorală nr.24
+
+Tabel cu semnături la Propunerea legislativă privind protecția minorilor împotriva riscurilor utilizării rețelelor sociale
+
+| Nr.crt | Deputați/Senatori | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1. | MACOVG' iJIE SIMONA -ELENA | S.O.S. RO |  |
+| 2. | BAG ANA MORELA | S.O.S. RO |  |
+| 3 | LÂZAROi IOAN | S.O.S.RO |  |
+| 4. | TODAER ELENA -LAURA | S.O.S. RO |  |
+| 5. | PASCALINI NINI ALEXANDU | S.O.S. RO |  |
+| 6. | OLIENASU SORIN | S.O.S. RO |  |
+| 7. | CARAGA'IA FLORAI | S.O.S. RO |  |
+| 8. | YON MIREL | S.O.S. RO |  |
+| 9. | CÔMPIANU ANDREA Petromela | S.O.S. RO |  |

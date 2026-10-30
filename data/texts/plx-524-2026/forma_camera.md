@@ -784,6 +784,991 @@ j) valorifică rezultatul evaluării expertului sau experților, după caz, pent
 
 ## 52. După anexa nr. 11 se introduc două noi anexe, anexele nr. 12 și 13, având cuprinsul prevăzut în anexele nr. 1 și 2 care fac parte integrantă din prezenta lege.
 
-Art. II. - (1) Până la data de 1 ianuarie 2027, autoritățile și instituțiile publice prevăzute la art. 369 lit. a) și b) din Ordonanța de urgență a Guvernului nr. 57/2019 privind Codul administrativ, cu modificările și completările ulterioare au obligația să transforme funcțiile publice de expert, clasa I și de inspector, clasa I, care nu au prevăzute în fișa postului atribuții de inspecție și control, în funcții publice de consilier,
+Art. II. - (1) Până la data de 1 ianuarie 2027, autoritățile și instituțiile publice prevăzute la art. 369 lit. a) și b) din Ordonanța de urgență a Guvernului nr. 57/2019 privind Codul administrativ, cu modificările și completările ulterioare au obligația să transforme funcțiile publice de expert, clasa I și de inspector, clasa I, care nu au prevăzute în fișa postului atribuții de inspecție și control, în funcții publice de consilier, clasa I, cu menținerea gradelor profesionale corespunzătoare pentru funcțiile publice ocupate.
 
-*Documentul are 89 de pagini; am citit primele 40.*
+(2) Prevederile art. 402 și 407 din Ordonanța de urgență a Guvernului nr. 57/2019, cu modificările și completările ulterioare, se aplică în mod corespunzător.
+
+(3) Numirea funcționarilor publici care dețin funcțiile publice de expert, clasa I și inspector, clasa I și care nu au prevăzute în fișa postului atribuții de inspecție și control în funcțiile publice de consilier, clasa I, stabilite în condițiile prevăzute la alin. (1) și (2), se face cu încadrarea în termenul prevăzut la alin. (1).
+
+Art. III. - (1) Definirea responsabilităților funcției publice, a atribuțiilor, a competențelor specifice din fișele postului se determină în funcție de domeniul funcțional căruia îi aparține funcția publică respectivă.
+
+(2) Pentru funcțiile publice prevăzute la art. 385 alin. (1) și (2) din Ordonanța de urgență a Guvernului nr. 57/2019 privind Codul administrativ, cu modificările și completările ulterioare, cu excepția celor care beneficiază de statute speciale în condițiile legii, care nu au prevăzute competențe specifice potrivit art. 11 alin. (2) lit. d) din anexa nr. 8 la aceeași ordonanță de urgență, etapele procedurii de elaborare și avizare a cadrelor de competență se desfășoară de către autoritățile și instituțiile publice prevăzute la art. II alin. (1) din prezenta lege, până la data de 30 septembrie 2026.
+
+(3) Pentru funcțiile publice care nu au fost supuse unui proces de analiză a postului potrivit prevederilor art. 28 din anexa nr. 8 la Ordonanța de urgență a Guvernului nr. 57/2019, cu modificările și completările ulterioare, dar care au prevăzute competențe specifice potrivit art. 11 alin. (2) lit. d) din anexa nr. 8 la aceeași ordonanță de urgență, persoanele prevăzute la art. 31 alin. (1¹)- (1³) din aceeași anexă vor completa fișa postului cu domeniul funcțional aferent în funcție de atribuțiile prevăzute în fișa postului actuală, până la data de 1 ianuarie 2027.
+
+(4) Până la data de 1 ianuarie 2027, autoritățile și instituțiile publice prevăzute la art. II alin. (1) din prezenta lege au obligația să actualizeze fișele posturilor, în conformitate cu prevederile art. 31 alin. (2) pct. III din anexa nr. 8 la Ordonanța de urgență a Guvernului nr. 57/2019, cu modificările și completările ulterioare.
+
+(5) Pentru funcțiile publice prevăzute la art. 385 alin. (3) din Ordonanța de urgență a Guvernului nr. 57/2019, cu modificările și completările ulterioare, cu excepția celor care beneficiază de statute speciale în condițiile legii, etapele procedurii de elaborare și avizare a cadrelor de competență prevăzute la art. 22 din anexa nr. 8 la aceeași ordonanță de urgență se desfășoară de către autoritățile și instituțiile publice prevăzute la art. 369 lit. b) din aceeași ordonanță de urgență, până cel târziu la data de 31 decembrie 2026.
+
+Art. IV. - (1) Concursurile de recrutare și promovare pentru funcțiile publice prevăzute la art. 385 din Ordonanța de urgență a Guvernului nr.57/2019 privind Codul administrativ, cu modificările și completările ulterioare, vacante și temporar vacante, pentru care a fost începută procedura de organizare și desfășurare a concursului prin transmiterea înștiințării către Agenția Națională a Funcționarilor Publici, până la data intrării în vigoare a prezentei legi, se desfășoară în continuare până la finalizarea acestora, în conformitate cu prevederile legale în vigoare la data demarării procedurii de concurs.
+
+(2) Procedurile privind modificarea raporturilor de serviciu ale funcționarilor publici care ocupă funcțiile publice prevăzute la art. 385 din Ordonanța de urgență a Guvernului nr. 57/2019, cu modificările și completările ulterioare, prin modalitățile prevăzute la art. 502 alin. (1) din aceeași ordonanță de urgență, inițiate anterior datei intrării în vigoare a prezentei legi, se finalizează în conformitate cu prevederile legale în vigoare la data inițierii modalității de modificare a raportului de serviciu.
+
+(3) Procedurile privind modificarea raporturilor de serviciu ale funcționarilor publici care ocupă funcțiile publice prevăzute la art. 385 alin. (3) din Ordonanța de urgență a Guvernului nr. 57/2019, cu modificările și completările ulterioare, prin modalitățile prevăzute la art. 502 alin. (1) din aceeași ordonanță de urgență, inițiate anterior datei de 1 ianuarie 2027, se finalizează în conformitate cu prevederile legale în vigoare la data inițierii modalității de modificare a raportului de serviciu.
+
+Art. V. - (1) În termen de 6 luni de la data intrării în vigoare a prezentei legi, autoritățile și instituțiile publice prevăzute la art. 369 lit. a) și b) din Ordonanța de urgență a Guvernului nr. 57/2019 privind Codul administrativ, cu modificările și completările ulterioare, au obligația să analizeze structura de posturi existente și să stabilească posturile care implică exercitarea de prerogative de putere publică, în condițiile prevăzute la art. 370, precum și posturile prevăzute la art. 539 alin. (2) din aceeași ordonanță de urgență.
+
+(2) Stabilirea posturilor aferente personalului contractual la nivelul autorităților și instituțiilor publice prevăzute la art. 369 lit. a) din Ordonanța de urgență a Guvernului nr. 57/2019, cu modificările și completările ulterioare, se realizează prin act administrativ al conducătorului autorității și instituției publice, cu avizul prealabil și consultativ al Agenției Naționale a Funcționarilor Publici. Prevederile art. 402 din Ordonanța de urgență a Guvernului nr. 57/2019, cu modificările și completările ulterioare, se aplică în mod corespunzător.
+
+(3) Stabilirea posturilor aferente personalului contractual la nivelul autorităților și instituțiilor publice prevăzute la art. 369 lit. b) din Ordonanța de urgență a Guvernului nr. 57/2019, cu modificările și completările ulterioare, se realizează prin hotărâre a consiliului local sau, după caz, a consiliului județean, la propunerea primarului, respectiv a președintelui consiliului județean.
+
+(4) În termenul prevăzut la alin. (1), după finalizarea stabilirii posturilor aferente personalului contractual potrivit alin. (1) - (3), autoritățile și instituțiile publice au obligația de a asigura emiterea actelor administrative de numire, respectiv încheierea actelor adiționale la contractele individuale de muncă, după caz, aferente posturilor identificate la nivelul organigramei proprii, ca urmare a transformării acestora, pentru personalul contractual care le ocupă.
+
+(5) În termen de 6 luni de la data intrării în vigoare a prezentei legi, autoritățile administrative autonome și celelalte autorități publice prevăzute la art. 2 din anexa nr. 13 la Ordonanța de urgență a Guvernului nr. 57/2019, cu modificările și completările ulterioare, au obligația de a iniția demersurile de modificare a actelor normative privind organizarea și funcționarea proprie, astfel încât să fie asigurată implementarea normelor legale referitoare la dezvoltarea cadrelor de competență proprii, aplicabile posturilor aferente personalului contractual, și, implicit, la gestiunea unitară a personalului contractual.
+
+(6) Până la data de 1 ianuarie 2027, autoritățile și instituțiile publice prevăzute la art. II alin. (1) din prezenta lege, precum și cele prevăzute la art. 539 alin. (2) din Ordonanța de urgență a Guvernului nr. 57/2019, cu modificările și completările ulterioare, au obligația să actualizeze fișele posturilor pentru personalul contractual, în conformitate cu prevederile Hotărârii Guvernului nr. 1336/2022, pentru aprobarea Regulamentului-cadru privind organizarea și dezvoltarea carierei personalului contractual din sectorul bugetar plătit din fonduri publice, cu modificările și completările ulterioare.
+
+Art. VI. - (1) Prin excepție de la prevederile art. 464 din Ordonanța de urgență a Guvernului nr. 57/2019 privind Codul administrativ, cu modificările și completările ulterioare, în termen de 12 luni de la data intrării în vigoare a prezentei legi, calitatea de funcționar public se poate dobândi și prin transformarea posturilor aferente personalului contractual în posturi aferente funcțiilor publice, în condițiile prevăzute la art. 406 din aceeași ordonanță de urgență.
+
+(2) În cazul prevăzut la alin. (1), persoanele încadrate cu contract individual de muncă pe perioadă nedeterminată în posturi de natură contractuală care au fost stabilite ca funcții publice sunt numite în funcții publice pentru care îndeplinesc condițiile prevăzute la art. 465 din Ordonanța de urgență a Guvernului nr. 57/2019, cu modificările și completările ulterioare.
+
+(3) Drepturile salariale ale persoanelor care ocupă funcții publice în condițiile prevăzute la alin. (2) se stabilesc potrivit salarizării funcțiilor publice în care au fost numite.
+
+Art. VII. - (1) La data intrării în vigoare a prezentei legi, funcționarii publici de execuție își păstrează încadrarea în grad profesional, conform prevederilor art. 393 din Ordonanța de urgență a Guvernului nr. 57/2019 privind Codul administrativ, cu modificările și completările ulterioare.
+
+(2) Autoritățile și instituțiile publice prevăzute la art. 369 lit. a) și b) din Ordonanța de urgență a Guvernului nr. 57/2019, cu modificările și completările ulterioare, pot organiza concurs/examen de promovare în gradul profesional superior nivel 2 pentru funcționarii publici de execuție clasa I încadrați în grad profesional superior începând cu data de 1 ianuarie 2027.
+
+Art. VIII. - Platforma informatică de concurs prevăzută la art. 467¹ alin. (2) din Ordonanța de urgență a Guvernului nr. 57/2019 privind Codul administrativ, cu modificările și completările ulterioare, se dezvoltă de Agenția Națională a Funcționarilor Publici în termen de 24 de luni de la data intrării în vigoare a prezentei legi.
+
+Art. IX. - La articolul VII din Ordonanța de urgență a Guvernului nr. 121/2023 pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 57/2019 privind Codul administrativ, precum și pentru modificarea art. III din Ordonanța de urgență a Guvernului nr. 191/2022 pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 57/2019 privind Codul administrativ, publicată în Monitorul Oficial al României, Partea I nr. 1184 din 28 decembrie 2023, alineatul (9) se modifică și va avea următorul cuprins:
+
+„(9) În vederea organizării și desfășurării concursurilor de recrutare, de la momentul înștiințării Agenției Naționale a Funcționarilor Publici, dar nu mai târziu de data publicării anunțului privind concursul în condițiile legii, se constituie comisii de concurs, respectiv comisii de soluționare a contestațiilor, prin act administrativ al conducătorului autorității sau instituției publice organizatoare a concursului.”
+
+Art. X. - (1) Până la data prevăzută la art. 597 alin. (1) lit. m) din Ordonanța de urgență a Guvernului nr. 57/2019, cu modificările și completările ulterioare, concursurile de recrutare pentru ocuparea funcțiilor publice de conducere vacante și de execuție vacante sau temporar vacante, precum și concursurile de promovare în funcțiile publice de conducere vacante din cadrul autorităților și instituțiilor publice prevăzute la art. 369 lit. b) din Ordonanța de urgență a Guvernului nr. 57/2019, cu modificările și completările ulterioare, sunt organizate și se desfășoară în condițiile prevăzute la art. VII alin. (3)-(10) și (12)-(41) din Ordonanța de urgență a Guvernului nr. 121/2023 pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 57/2019 privind Codul administrativ, precum și pentru modificarea art. III din Ordonanța de urgență a Guvernului nr. 191/2022 pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 57/2019 privind Codul administrativ.
+
+(2) Până la data de 31 decembrie 2028, concursurile pentru ocuparea funcțiilor publice specifice care beneficiază de statute speciale, vacante și de execuție temporar vacante, din cadrul autorităților și instituțiilor publice prevăzute la art. 369 lit. b) din Ordonanța de urgență a Guvernului nr. 57/2019, cu modificările și completările ulterioare, se organizează și se desfășoară de către aceste autorități și instituții publice, cu aplicarea corespunzătoare a prevederilor art. VII alin. (3)-(10) și (12)-(41) din Ordonanța de urgență a Guvernului nr. 121/2023.
+
+(3) Începând cu data intrării în vigoare a prezentei legi și până la data de 31 decembrie 2028, pentru funcționarii publici din cadrul autorităților și instituțiilor publice prevăzute la art. 369 lit. b) din Ordonanța de urgență a Guvernului nr. 57/2019, cu modificările și completările ulterioare, modificarea raporturilor de serviciu între aceste autorități și instituții publice se realizează prin modalitățile prevăzute la art. 502-509 din aceeași ordonanță de urgență, cu excepția aplicării prevederilor art. 6 lit. d) și art. 21 alin. (1) - (7) din anexa nr. 8 la aceeași ordonanță de urgență.
+
+Art. XI. - La data intrării în vigoare a prezentei legi se abrogă prevederile art. VII alin. (2) și alin. (11), art. VIII alin. (2), art. IX alin. (3) și XII alin. (2) din Ordonanța de urgență a Guvernului nr. 121/2023 pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 57/2019 privind Codul administrativ, precum și pentru modificarea art. III din Ordonanța de urgență a Guvernului nr. 191/2022 pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 57/2019 privind Codul administrativ, publicată în Monitorul Oficial al României, Partea I nr. 1184 din 28 decembrie 2023.
+
+Acest proiect de lege a fost adoptat de Camera Deputaților în ședința din 29 iulie 2026, cu respectarea prevederilor art. 76 alin. (1) din Constituția României, republicată.
+
+p. PREȘEDINTELE CAMEREI DEPUTAȚILOR
+
+NATALIA-ELENA INTOTERO
+
+Norme privind organizarea și desfășurarea concursului pentru ocuparea funcțiilor publice prevăzute la art. 385 alin. (3) din prezentul cod, cu excepția celor care beneficiază de statute speciale în condițiile legii
+
+## CAPITOLUL I Dispoziții generale
+
+Art. 1. - Prezenta anexă reglementează normele privind organizarea și desfășurarea concursului pentru ocuparea funcțiilor publice generale și specifice, prevăzute la art. 385 alin. (3) din prezentul cod, cu excepția celor care beneficiază de statute speciale în condițiile legii.
+
+Art. 2. - Principiile care stau la baza organizării și desfășurării concursului pentru ocuparea funcțiilor publice prevăzute la art. 385 alin. (3) din prezentul cod, cu excepția celor care beneficiază de statute speciale în condițiile legii, sunt:
+
+a) competiția, principiu potrivit căruia verificarea competențelor necesare exercitării unei funcții publice se face prin concurs;
+
+b) transparența, principiu potrivit căruia autoritățile și instituțiile publice organizatoare ale etapelor concursului au obligația de a pune la dispoziția tuturor celor interesați informațiile de interes public referitoare la modalitatea de organizare și desfășurare a concursului, precum și la rezultatele etapelor din cadrul concursului, cu respectarea prevederilor legale privind protecția persoanelor cu privire la prelucrarea datelor cu caracter personal și libera circulație a acestor date;
+
+c) competența, principiu conform căruia persoanele care doresc să acceadă la o funcție publică trebuie să demonstreze deținerea competențelor generale și a competențelor specifice necesare exercitării funcției publice respective;
+
+d) egalitatea accesului la funcțiile publice pentru fiecare cetățean, principiu conform căruia are dreptul să se înscrie la concurs orice persoană care îndeplinește condițiile legale de ocupare a unei funcții publice, indiferent de rasă, naționalitate, etnie, limbă, religie, categorie socială, convingeri, sex, orientare sexuală, vârstă, handicap, boală cronică necontagioasă, infectare HIV, apartenență la o categorie defavorizată, opinii politice sau de orice altă natură.
+
+Art. 3. - (1) Funcțiile publice vacante prevăzute la art. 385 alin. (3) din prezentul cod, cu excepția celor care beneficiază de statute speciale, se ocupă prin concurs organizat în condițiile prezentei anexe.
+
+(2) Concursul prevăzut la alin. (1) se organizează de către fiecare autoritate sau instituție publică dintre cele prevăzute la art. 369 lit. b) din prezentul cod, în cadrul căreia se află funcțiile publice vacante și temporar vacante și al cărei conducător are competența de numire în funcțiile publice pentru care se organizează concursul pentru ocuparea funcțiilor publice de conducere vacante și de execuție vacante și temporar vacante.
+
+## CAPITOLUL II
+
+## Organizarea și publicitatea concursului pe post pentru funcțiile publice vacante si temporar vacante din administrația publică locală
+
+## Secțiunea 1
+
+## Înștiințarea Agenției Naționale a Funcționarilor Publici
+
+Art. 4 . - (1) Autoritățile și instituțiile publice prevăzute la art. 3 alin. (2) din prezenta anexă au obligația de a înștiința Agenția Națională a Funcționarilor Publici cu privire la organizarea unui concurs pe post cu cel puțin 10 zile lucrătoare înainte de data publicării anunțului de concurs cu privire la organizarea unui concurs pe post pentru ocuparea unor funcții publice de conducere și execuție, vacante, respectiv cu 5 zile lucrătoare înainte de data publicării anunțului de concurs cu privire la organizarea unui concurs pe post pentru ocuparea unei funcții publice de execuție temporar vacante.
+
+(2) Înștiințarea Agenției Naționale a Funcționarilor Publici se face prin completarea și transmiterea online a informațiilor necesare organizării și desfășurării concursului, utilizând instrumentele informatice puse la dispoziție de Agenția Națională a Funcționarilor Publici.
+
+(3) Înștiințarea cu privire la organizarea concursului pe post cuprinde, în mod obligatoriu, următoarele informații:
+
+a) denumirea autorității sau instituției publice organizatoare a concursului pe post sau, după caz, denumirea autorității sau instituției publice în cadrul căreia se găsesc funcțiile publice pentru care se organizează concursul;
+
+b) funcția publică pentru care se organizează concursul, identificată, după caz, prin denumire, categorie, clasă și grad profesional, precum și compartimentul din care face parte, conform evidenței gestionate de Agenția Națională a Funcționarilor Publici, potrivit art. 401 alin. (1) lit. d) din prezentul cod;
+
+c) precizarea expresă a duratei timpului de muncă, respectiv durată normală a timpului de muncă sau durată redusă a timpului de muncă la jumătate de normă;
+
+d) data, ora și locul sau locația desfășurării probei suplimentare, dacă este cazul, pentru testarea prin probă suplimentară a competențelor specifice;
+
+e) data, ora și locul sau locația desfășurării probei scrise;
+
+f) condițiile de participare cuprinzând condițiile prevăzute la art. 465 din prezentul cod, alte condiții prevăzute de legislația specifică, precum și competențele specifice, după caz;
+
+g) perioada și modalitatea de înscriere la concurs;
+
+h) perioadele estimate pentru desfășurarea probelor de concurs, inclusiv prin luarea în considerare a faptului că testarea vizează atât competențele generale, cât și cele specifice;
+
+i) locul de desfășurare a probelor;
+
+j) durata maximă alocată pentru desfășurarea probelor;
+
+k) bibliografia de specialitate și tematica de specialitate;
+
+1\) atribuțiile postului prevăzute în fișa postului, precum și alte date necesare desfășurării concursului pe post;
+
+m) coordonate de contact pentru înscrierea la concursul pe post, cuprinzând adresa de corespondență, telefon, e-mail, persoana de contact și funcția publică deținută;
+
+n) coordonate de contact ale persoanei din cadrul compartimentului de resurse umane, responsabilă pentru gestionarea concursului, precum și, dacă este cazul, a platformei informatice de concurs pentru autoritatea sau instituția publică organizatoare; datele de contact, cuprinzând numele și prenumele acesteia, funcția, numărul de telefon și adresa de e-mail;
+
+o) conținutul dosarului de concurs.
+
+## Secțiunea a 2- a Publicitatea concursului pe post
+
+Art. 5 . - (1) Anunțul privind organizarea concursului pe post se publică pe pagina de internet a autorității sau instituției publice al cărei conducător are competența de numire în funcția publică pentru ocuparea căreia se organizează concursul și pe site-ul Agenției Națională a Funcționarilor Publici, cu cel puțin 30 de zile calendaristice înainte de data desfășurării concursului, potrivit instrucțiunilor aprobate prin ordin al președintelui Agenției Naționale a Funcționarilor Publici.
+
+(2) Termenul de 30 de zile calendaristice poate fi redus la 15 zile calendaristice pentru concursul organizat în vederea ocupării funcțiilor publice de execuție temporar vacante.
+
+(3) Anunțul de concurs cuprinde, în mod obligatoriu, următoarele informații:
+
+a) denumirea autorității sau instituției publice organizatoare a concursului pe post;
+
+b) funcția publică pentru care se organizează concursul, identificată, după caz, prin denumire, categorie, clasă și grad profesional, precum și compartimentul din care face parte, conform evidenței gestionate de Agenția Națională a Funcționarilor Publici, potrivit art. 401 alin. (1) lit. d) din prezentul cod;
+
+c) precizarea expresă a duratei timpului de muncă, respectiv durată normală a timpului de muncă sau durată redusă a timpului de muncă la jumătate de normă;
+
+d) data, ora și locul sau locația desfășurării probei suplimentare, dacă este cazul, pentru testarea competențelor specifice, precum și detalii privind testarea competențelor generale;
+
+e) data, ora și locul sau locația desfășurării probei scrise;
+
+f) condițiile de participare cuprinzând condițiile prevăzute la art. 465 din prezentul cod și competențele generale și specifice;
+
+g) perioada și modalitatea de înscriere la concursul pe post;
+
+h) bibliografia de specialitate și tematica de specialitate;
+
+i) atribuțiile postului prevăzute în fișa postului standardizată, precum și alte date necesare desfășurării concursului pe post;
+
+j) coordonate de contact pentru înscrierea la concursul pe post, cuprinzând adresa de corespondență, telefon, e-mail, persoana de contact și funcția publică deținută;
+
+k) conținutul dosarului de concurs.
+
+(4) Informațiile se mențin la locul de publicare până la finalizarea concursului.
+
+(5) Bibliografia cuprinde acte normative, precum și lucrări, articole de specialitate sau surse de informare și documentare expres indicate, cu relevanță pentru funcția publică pentru care se organizează concursul. Tematica de specialitate este obligatorie și se stabilește pe baza bibliografiei. Tematica de specialitate reprezintă totalitatea temelor esențiale și relevante pentru funcția publică pentru care se organizează concursul, sintetizate din bibliografia de specialitate.
+
+(6) Bibliografia conține, în mod obligatoriu, Constituția României, republicată, Partea I, Partea a II-a, Titlul I și Titlul II, Partea a IV-a, Titlul I și Partea a VI-a, Titlul I și Titlul II din prezentul cod, Ordonanța Guvernului nr. 137/2000 privind prevenirea și sancționarea tuturor formelor de discriminare, republicată, cu modificările și completările ulterioare, și Legea nr. 202/2002 privind egalitatea de șanse și de tratament între femei și bărbați, republicată, cu modificările și completările ulterioare.
+
+Art. 6. - Instrucțiunile privind comunicarea înștiințării de către autoritățile și instituțiile publice, precum și publicarea anunțului de concurs pe site-ul Agenției Naționale a Funcționarilor Publici se aprobă prin ordin al președintelui Agenției Naționale a Funcționarilor Publici, care se publică în Monitorul Oficial al României, Partea I.
+
+## Secțiunea a 3- a Constituirea și atribuțiile comisiilor de concurs și de soluționare a contestațiilor
+
+Art. 7. - (1) În vederea organizării și desfășurării concursului pentru ocuparea funcțiilor publice prevăzute la art. 385 alin. (3) din prezentul cod, cu excepția celor care beneficiază de statute speciale în condițiile legii, de la momentul înștiințării Agenției Naționale a Funcționarilor Publici, dar nu mai târziu de data publicării anunțului privind concursul în condițiile prevăzute la art. 5, se constituie comisii de concurs, respectiv comisii de soluționare a contestațiilor, coordonate de un președinte, desemnate prin act administrativ al conducătorului autorității sau instituției publice organizatoare, în condițiile prezentului capitol.
+
+(2) În cazul în care testarea cunoștințelor generale și competențelor generale, precum și a cunoștințelor de specialitate și competențelor specifice se derulează prin organizarea de probe suplimentare, prin actul administrativ prevăzut la alin. (1), conducătorul autorității sau instituției publice numește experți în domeniu, care gestionează aceste probe.
+
+(3) Autoritatea ori instituția publică organizatoare a concursului poate desemna ca expert funcționari publici din cadrul altor autorități sau instituții publice, la solicitarea acestora, în situația în care nu există un expert în cadrul autorității sau instituției publice organizatoare.
+
+(4) În situația prevăzută la alin. (3), conducătorul autorității sau instituției publice organizatoare a concursului se adresează conducătorului autorității sau instituției publice în cadrul căreia consideră că își desfășoară activitatea funcționarul public care îndeplinește condițiile prevăzute de lege pentru a fi desemnat expert.
+
+Art. 8. - (1) Prin actul administrativ prevăzut la art. 7 alin. (1) din prezenta anexă se desemnează președintele comisiei de concurs, respectiv al comisiei de soluționare a contestațiilor din rândul membrilor acestora, precum și un secretar, de regulă, din cadrul compartimentului de resurse umane, astfel încât să poată fi asigurată desfășurarea în condiții optime a probelor de concurs.
+
+(2) Președintele comisiei de concurs, respectiv al comisiei de soluționare a contestațiilor, prevăzute la art. 9 alin. (2) din prezenta anexă, se desemnează prin act administrativ al conducătorului autorității sau instituției publice organizatoare a comisiilor din rândul membrilor acestora.
+
+Art. 9. - (1) Pentru concursurile organizate în vederea ocupării funcțiilor publice de execuție, comisia de concurs și comisia de soluționare a contestațiilor sunt compuse din câte trei membri, reprezentanți ai autorității sau instituției publice organizatoare a concursului, desemnați din cadrul acesteia, prin act administrativ al conducătorului autorității sau instituției publice organizatoare.
+
+(2) Pentru concursurile organizate în vederea ocupării funcțiilor publice de conducere, comisia de concurs și comisia de soluționare a contestațiilor sunt compuse fiecare din câte 5 membri, desemnați după cum urmează:
+
+a) 4 membri sunt reprezentanți ai autorității sau instituției publice organizatoare a concursului desemnați din cadrul acesteia sau/și din cadrul autorității sau instituției publice ierarhic superioare;
+
+b) al cincilea membru al comisiei este un reprezentant al structurii de resurse umane din cadrul autorității sau instituției publice organizatoare a concursului.
+
+(3) În situația în care prin acte normative cu caracter special aplicabile unor domenii de activitate este prevăzută obligația participării unor reprezentanți ai altor autorități și instituții publice decât cele prevăzute de prezenta anexă la concursul pe post, reprezentantul autorității sau instituției publice respective îl înlocuiește pe unul dintre reprezentanții autorității ori instituției publice organizatoare a concursului în cadrul comisiei de concurs, respectiv al comisiei de soluționare a contestațiilor.
+
+(4) Răspunderea privind respectarea prevederilor legale privind organizarea și desfășurarea concursului pe post aparține autorității sau instituției publice, prevăzute la art. 3 alin. (2) din prezenta anexă, care este organizatoare a concursului sau, după caz, comisiei de concurs.
+
+Art. 10. - (1) La solicitarea organizațiilor sindicale reprezentative ale funcționarilor publici, adresată autorității sau instituției publice organizatoare a concursului, un membru al comisiei de concurs, respectiv al comisiei de soluționare a contestațiilor este desemnat din partea acestora.
+
+(2) Solicitarea organizațiilor sindicale reprezentative ale funcționarilor publici se depune până cel târziu în ultima zi prevăzută pentru depunerea dosarelor de către candidații la ocuparea funcției publice de conducere vacante și a funcției publice de execuție vacante sau temporar vacante pentru care se organizează concursul.
+
+(3) Membrul comisiei de concurs sau al comisiei de soluționare a contestațiilor desemnat potrivit alin. (1) îl înlocuiește pe unul dintre reprezentanții autorității ori instituției publice în al cărei stat de funcții se află funcția publică vacantă pentru care se organizează concursul.
+
+(4) Persoanele desemnate de organizațiile sindicale reprezentative ale funcționarilor publici trebuie să îndeplinească condițiile prevăzute la art. 13 alin. (1) și art. 14 și 15 din prezenta anexă.
+
+Art. 11. - (1) Comisia de concurs, respectiv comisia de soluționare a contestațiilor pot avea în componență funcționari publici din cadrul altor autorități sau instituții publice, în următoarele cazuri:
+
+a) număr insuficient de funcționari publici din cadrul autorității ori instituției publice organizatoare;
+
+b) funcționarii publici din cadrul autorității sau instituției publice organizatoare nu îndeplinesc condițiile prevăzute de art. 12 din prezenta anexă pentru a fi desemnați în comisia de concurs, respectiv în comisia de soluționare a contestațiilor;
+
+c) funcționarii publici din cadrul autorității sau instituției publice s-ar putea afla sau se află în conflict de interese și/sau incompatibilitate conform art. 13 și 14 din prezenta anexă.
+
+(2) În situația prevăzută la alin. (1), conducătorul autorității sau instituției publice organizatoare a concursului se adresează conducătorului autorității sau instituției publice în cadrul căreia își desfășoară activitatea funcționari publici care îndeplinesc condițiile prevăzute de lege pentru a fi desemnați membri în comisia de concurs, respectiv în comisia de soluționare a contestațiilor și solicită nominalizarea unor funcționari publici pentru a fi desemnați ca membri în cadrul comisiei de concurs, respectiv în cadrul comisiei de soluționare a contestațiilor.
+
+Art. 12. - Pot fi desemnați ca membri în comisiile de concurs sau de soluționare a contestațiilor prevăzute la art. 7 alin. (1) din prezenta anexă funcționarii publici definitivi care îndeplinesc cumulativ următoarele condiții:
+
+a) au cunoștințe aprofundate în unul dintre domeniile funcțiilor publice pentru care se organizează concursul pe post;
+
+b) au pregătire și/sau experiență în unul dintre domeniile funcțiilor publice pentru care se organizează concursul în managementul resurselor umane sau în administrația publică;
+
+c) au probitate morală recunoscută;
+
+d) dețin o funcție publică cel puțin din aceeași clasă cu funcția publică de execuție vacantă sau temporar vacantă pentru ocuparea căreia se organizează concursul pe post;
+
+e) nu se află în cazurile de incompatibilitate sau conflict de interese prevăzute la art. 13 și 14 din prezenta anexă.
+
+Art. 13. - (1) Nu poate fi desemnat membru în comisia de concurs sau în comisia de soluționare a contestațiilor funcționarul public care a fost sancționat disciplinar, iar sancțiunea aplicată nu a fost radiată, conform legii.
+
+(2) Calitatea de membru sau membru supleant în comisia de verificare a eligibilității este incompatibilă cu calitatea de membru sau membru supleant în comisia de soluționare a contestațiilor privind verificarea eligibilității.
+
+Art. 14. - Nu poate fi membru în comisia de concurs sau în comisia de soluționare a contestațiilor funcționarul public sau persoana care se află în unul dintre cazurile de conflict de interese:
+
+a) are relații cu caracter patrimonial cu oricare dintre candidați sau interesele patrimoniale ale sale ori ale soțului sau soției pot afecta imparțialitatea și obiectivitatea evaluării;
+
+b) are un interes politic, economic sau oricare alt interes personal direct sau indirect care îi pot afecta integritatea, imparțialitatea și obiectivitatea evaluării;
+
+c) este soț, soție, rudă sau afin până la gradul al IV-lea inclusiv cu oricare dintre candidați ori cu un alt membru al comisiei de verificare a eligibilității sau al comisiei de soluționare a contestațiilor privind verificarea eligibilității din care face parte;
+
+d) se află în relații de prietenie sau dușmănie cu oricare dintre candidați.
+
+Art. 15. - (1) Situațiile de incompatibilitate prevăzute la art. 13 din prezenta anexă, precum și situațiile de conflict de interese prevăzute la art. 14 din prezenta anexă se sesizează de persoana în cauză, de oricare dintre candidați, de conducătorul autorității sau instituției publice organizatoare a concursului ori de orice altă persoană interesată, în orice moment al organizării și desfășurării concursului pe post.
+
+(2) Membrii comisiei de concurs sau ai comisiei de soluționare a contestațiilor au obligația să informeze, în scris, cu celeritate, persoanele care i-au desemnat despre orice conflict de interese care a intervenit sau ar putea interveni și să se abțină de la participarea ori luarea vreunei decizii cu privire la concursul în cadrul căruia a intervenit conflictul de interese.
+
+(3) În cazul constatării existenței unei situații de incompatibilitate sau conflict de interese, pentru membrii comisiei de concurs sau ai comisiei de soluționare a contestațiilor, actul administrativ de constituire a comisiei se modifică în mod corespunzător, în termen de cel mult două zile lucrătoare de la data constatării, prin înlocuirea persoanei aflate în respectiva situație.
+
+(4) În cazul în care situația de incompatibilitate sau conflictul de interese se constată ulterior desfășurării uneia dintre probele concursului pe post, rezultatul probei ori probelor desfășurate se recalculează prin eliminarea evaluării membrului aflat în situație de incompatibilitate sau conflict de interese, sub rezerva asigurării validității evaluării a cel puțin două treimi din numărul membrilor comisiei de verificare a eligibilității.
+
+(5) În situația în care nu este asigurată validitatea evaluării a cel puțin două treimi din numărul membrilor comisiei de concurs, procedura de organizare și desfășurare a concursului se reia.
+
+Art. 16. - Neîndeplinirea de către membrii comisiilor de concurs și de soluționare a contestațiilor a obligației prevăzute la art. 15 alin. (2) din prezenta anexă constituie abatere disciplinară și poate atrage, după caz, răspunderea civilă sau penală, potrivit legii.
+
+Art. 17. - (1) Pentru comisiile prevăzute la art. 7 alin. (1) din prezenta anexă, prin act administrativ al conducătorului autorității sau instituției publice organizatoare, se numesc membri supleanți care îi înlocuiesc de drept pe acei membri care, din motive întemeiate, nu își pot exercita atribuțiile.
+
+(2) Prevederile alin. (1) se aplică, în mod corespunzător, reprezentanților desemnați în comisii potrivit prevederilor art. 9 alin. (2), precum și secretarilor acestor comisii.
+
+(3) Prevederile art. 12 - 16 din prezenta anexă se aplică, în mod corespunzător și membrilor supleanți.
+
+## Secțiunea a 4-a
+
+Atribuțiile comisiilor de concurs, ale comisiilor de soluționare a contestațiilor și ale secretarului/secretariatului acestor comisii
+
+Art. 18. - (1) Comisia de concurs pentru ocuparea funcțiilor publice de conducere și de execuție are următoarele atribuții principale:
+
+a) verifică eligibilitatea candidaților pe baza îndeplinirii condițiilor de participare la concursul pe post și selectează dosarele de concurs;
+
+b) înscrie mențiuni în platforma informatică de concurs în vederea solicitării de clarificare a documentației depuse de candidați;
+
+c) verifică informațiile care trebuie comunicate de către secretar candidaților, în vederea solicitării de clarificare a documentației depuse;
+
+d) stabilește subiectele pentru proba scrisă și, după caz, pentru proba testării scrise;
+
+e) stabilește planul interviului și realizează interviul;
+
+f) notează pentru fiecare candidat proba scrisă și interviul;
+
+g) transmite secretarului comisiei rezultatele probelor, pentru a fi comunicate candidaților;
+
+h) transmite secretarului comisiei rezultatul final al concursului, pentru a fi încărcat în platforma informatică de concurs;
+
+i) formulează propunerea de numire în funcția publică a candidatului declarat admis.
+
+(2) Comisia de soluționare a contestațiilor pentru ocuparea funcțiilor publice de conducere și de execuție are următoarele atribuții principale:
+
+a) soluționează contestațiile depuse de candidați cu privire la rezultatul probei de verificare a eligibilității candidaților pe baza îndeplinirii condițiilor de participare la concurs, precum și contestațiile depuse cu privire la rezultatul probei scrise și al interviului;
+
+b) transmite secretarului comisiei rezultatele contestațiilor, pentru a fi comunicate candidaților.
+
+Art. 19. - (1) Principalele atribuții ale secretarilor comisiilor de concurs sunt următoarele:
+
+a) notifică membrii comisiei de concurs cu privire la începerea probelor concursului;
+
+b) redactează și semnează, după caz, documentația specifică concursului, care intră în atribuțiile acestora;
+
+c) verifică identitatea candidaților prezenți la probele concursului;
+
+d) la solicitarea membrilor comisiei de concurs, iau legătura cu candidații, în vederea completării dosarului de concurs constituit cu alte documente relevante;
+
+e) asigură comunicarea către candidați a rezultatelor fiecărei probe a concursului, precum și a rezultatului final;
+
+f) îndeplinesc orice alte sarcini specifice necesare desfășurării concursului, stabilite de comisia de concurs.
+
+(2) Principalele atribuții ale secretarilor comisiilor de soluționare a contestațiilor sunt:
+
+a) notifică membrii comisiilor de soluționare a contestațiilor, în cazul depunerii de către candidați a unor contestații;
+
+b) redactează și semnează, după caz, alături de comisia de soluționare a contestațiilor, întreaga documentație privind activitatea specifică a acesteia;
+
+c) asigură publicarea rezultatelor contestațiilor depuse;
+
+d) îndeplinesc orice alte sarcini specifice necesare desfășurării concursului, stabilite de comisia de soluționare a contestațiilor.
+
+Art. 20. - În îndeplinirea atribuțiilor ce le revin potrivit dispozițiilor prezentei anexe, membrii comisiei de concurs, ai comisiei de soluționare a contestațiilor, precum și persoanele care asigură secretariatul acestor comisii au obligația de a respecta confidențialitatea datelor cu caracter personal, potrivit legii.
+
+Art. 21. - (1) Membrii comisiilor de concurs, ai comisiilor de soluționare a contestațiilor, precum și secretarii acestor comisii au dreptul la o indemnizație reprezentând 10% din salariul de bază minim brut pe țară garantat în plată. Indemnizația se plătește de către autoritatea sau instituția publică pe al cărei stat de funcții este prevăzută funcția publică pentru care se organizează concursul.
+
+(2) Cheltuielile aferente deplasării persoanelor prevăzute la art. 11 alin. (2) din prezenta anexă pentru a participa la comisiile de concurs se suportă de către autoritățile și instituțiile publice care organizează concursul.
+
+## Secțiunea a 5-a
+
+## Dispoziții generale privind desfășurarea concursului pe post
+
+Art. 22. - Desfășurarea concursului pe post se realizează între prima zi de depunere a dosarelor candidaților și formularea propunerilor de numire în funcțiile publice vacante pentru care s-a organizat concursul, în condițiile prevăzute la art. 64 alin. (3) și (4) din prezenta anexă.
+
+Art. 23. - (1) Concursul pe post constă în desfășurarea succesivă a următoarelor probe:
+
+a) verificarea eligibilității candidaților;
+
+b) testarea scrisă, în cadrul căreia se testează cunoștințele generale și competențele generale necesare ocupării unei funcții publice prevăzute la art. 385 alin. (3) din prezentul cod, cu excepția celor care beneficiază de statute speciale în condițiile legii;
+
+c) proba suplimentară, în cadrul căreia se testează competențele specifice necesare ocupării unei funcții publice prevăzute la art. 385 alin. (3) din prezentul cod, cu excepția celor care beneficiază de statute speciale în condițiile legii;
+
+d) proba scrisă, în cadrul căreia se testează cunoștințele de specialitate și competențele specifice necesare ocupării unei funcții publice prevăzute la art. 385 alin. (3) din prezentul cod, cu excepția celor care beneficiază de statute speciale în condițiile legii;
+
+e) interviul, în cadrul căruia se testează abilitățile, aptitudinile și motivația candidaților.
+
+(2) Se pot prezenta la următoarea probă numai candidații declarați „admis” la proba precedentă.
+
+Art. 24. - Condițiile de participare la concursul pe post se stabilesc pe baza condițiilor prevăzute la art. 465 alin. (1) - (3) din prezentul cod, a condițiilor de ocupare a funcției publice și a competențelor specifice din fișa postului corespunzătoare funcției publice de conducere vacante, respectiv funcției publice de execuție vacante sau temporar vacante.
+
+## Secțiunea a 6-a Dosarul de concurs
+
+Art. 25. - (1) În vederea participării la concurs, în termen de 20 de zile de la data publicării anunțului pe pagina de internet a autorității sau instituției publice organizatoare, candidații încarcă în platforma informatică dosarul de concurs, care conține în mod obligatoriu:
+
+a) formularul de înscriere prevăzut la art. 68 lit. a) din prezenta anexă;
+
+b) copia cărții de identitate;
+
+c) copia actului doveditor emis de autoritățile competente, în cazul în care a intervenit schimbarea numelui consemnat în certificatul de naștere;
+
+d) copia carnetului de muncă și/sau a adeverinței eliberate de angajator pentru perioada lucrată, care să ateste vechimea în muncă și în specialitatea studiilor necesare pentru ocuparea funcției publice, potrivit prevederilor din prezentul cod, după caz;
+
+e) copii ale diplomelor de studii sau echivalente, certificatelor și altor documente care atestă efectuarea unor specializări și perfecționări sau deținerea unor competențe specifice, după caz;
+
+f) copia adeverinței care atestă starea de sănătate corespunzătoare, eliberată cu cel mult 6 luni anterior demarării concursului pe post de către medicul de familie al candidatului, și a avizului psihologic eliberat pe baza unei evaluări psihologice organizate prin intermediul unităților specializate acreditate în condițiile legii, valabil potrivit prevederilor legale;
+
+g) cazierul judiciar;
+
+h) declarația pe propria răspundere, prin completarea rubricii corespunzătoare din formularul de înscriere, sau adeverința care să ateste lipsa calității de lucrător al Securității sau colaborator al acesteia, în condițiile prevăzute de legislația specifică;
+
+i) declarația pe propria răspundere, prin completarea rubricii corespunzătoare din formularul de înscriere, privind faptul că, în ultimii 3 ani, persoana nu a fost destituită sau nu i-a încetat contractul individual de muncă pentru motive disciplinare.
+
+(2) Pentru funcțiile publice de conducere, dosarul de concurs include si copia diplomei de master în domeniul administrației publice, management sau în specialitatea studiilor necesare ocupării funcției publice sau a diplomei echivalente conform prevederilor art. 57 alin. (2) din Legea învățământului superior nr. 199/2023, cu modificările și completările ulterioare.
+
+(3) Modelul orientativ al adeverinței menționate la alin. (1) lit. d) trebuie să cuprindă cel puțin următoarele informații: funcția/funcțiile ocupată/ocupate, nivelul studiilor solicitate pentru ocuparea acesteia/acestora, temeiul legal al desfășurării activității, vechimea în muncă acumulată, precum și vechimea în specialitatea studiilor.
+
+(4) Adeverința care atestă starea de sănătate conține, în clar, numărul, data, numele emitentului și calitatea acestuia, în formatul standard stabilit prin ordin al ministrului sănătății. Pentru candidații cu dizabilități, în situația solicitării de adaptare rezonabilă, adeverința care atestă starea de sănătate trebuie însoțită de copia certificatului de încadrare într-un grad de handicap, emis în condițiile legii.
+
+(5) Copiile de pe actele prevăzute la alin. (1), precum și copia certificatului de încadrare într-un grad de handicap prevăzut la alin. (4) se prezintă în copii legalizate sau însoțite de documentele originale, care se certifică pentru conformitatea cu originalul de către secretarul comisiei de concurs.
+
+(6) Documentul prevăzut la alin. (1) lit. g) poate fi înlocuit cu o declarație pe propria răspundere. În acest caz, candidatul declarat admis la selecția dosarelor și care nu a solicitat expres la înscrierea la concurs preluarea informațiilor direct de la autoritatea sau instituția publică competentă are obligația de a completa dosarul de concurs cu originalul documentului pe tot parcursul desfășurării concursului, dar nu mai târziu de data și ora organizării interviului, sub sancțiunea neemiterii actului administrativ de numire. În situația în care candidatul solicită expres la înscrierea la concurs preluarea informațiilor direct de la autoritatea sau instituția publică competentă, extrasul de pe cazierul judiciar se solicită potrivit legii și procedurii aprobate la nivel instituțional.
+
+(7) Formularul de înscriere prevăzut la art. 68 lit. a) din prezenta anexă se pune la dispoziție candidaților de autoritatea sau instituția publică organizatoare a concursului din oficiu, prin publicare pe pagina de internet a acesteia în format deschis, editabil, în cadrul secțiunii dedicate publicității concursului, precum și la sediu, în locul special amenajat pentru desfășurarea de activități de informare și relații publice, în format letric.
+
+(8) Prin raportare la nevoile individuale, candidatul cu dizabilități poate înainta comisiei de concurs, în termenul prevăzut pentru depunerea dosarelor de concurs, propunerea sa privind instrumentele necesare pentru asigurarea accesibilității probelor de concurs.
+
+Art. 26. - (1) Prin intermediul platformei informatice de concurs, persoanele interesate care și-au creat profil individual de candidat sunt notificate automat, atât cu privire la începerea perioadei de înscriere la concurs, cât și cu privire la finalizarea acesteia.
+
+(2) La momentul începerii perioadei de înscriere, candidații își pot constitui dosarul de concurs.
+
+Art. 27. - (1) Constituirea dosarului de concurs se face prin încărcarea documentelor aflate în profilul individual al candidatului din platforma informatică de concurs.
+
+(2) Candidatul poate completa sau modifica conținutul dosarului de concurs oricând până la expirarea termenului-limită pentru finalizarea perioadei de înscriere, moment de la care platforma informatică de concurs nu mai permite completarea sau modificarea conținutului dosarului de concurs.
+
+(3) Constituirea dosarului de concurs este considerată finalizată după completarea tuturor secțiunilor predefinite de platforma informatică de concurs și finalizarea procesului prin aplicarea efectivă la concursul vizat, în platforma informatică de concurs.
+
+Art. 28. - (1) La finalul procesului de constituire a dosarului de concurs, fiecărui candidat i se atribuie un număr de înregistrare a dosarului de concurs care se utilizează în comunicarea rezultatelor probelor și un identificator unic.
+
+(2) Dispozițiile art. 37 alin. (6) din anexa nr. 10 la prezentul cod se aplică în mod corespunzător.
+
+## Secțiunea a 7-a Probele concursului
+
+Art. 29. - (1) Verificarea eligibilității candidaților este proba concursului pe post care constă în verificarea îndeplinirii condițiilor de ocupare prevăzute la art. 465 alin. (1) - (3) din prezentul cod, inclusiv a competențelor specifice, după caz, pe baza documentelor din dosarele de concurs constituite de către candidați.
+
+(2) În termen de maximum 5 zile lucrătoare de la data expirării termenului prevăzut la art. 25 alin. (1) din prezenta anexă, comisia de concurs verifică eligibilitatea candidaților.
+
+(3) În termenul prevăzut la alin. (2), rezultatele verificării eligibilității candidaților, cu mențiunea „admis” sau „respins”, însoțită, după caz, de motivul respingerii candidatului, se comunică pe site-ul autorității sau instituției publice organizatoare a concursului pe post și în platforma informatică.
+
+(4) În situația în care între membrii comisiei de concurs există diferențe de opinie care nu au putut fi soluționate de comun acord, dosarul va fi declarat admis sau respins în funcție de opinia majoritară, consemnată conform mențiunilor individuale.
+
+(5) Membrul comisiei de concurs care nu este de acord cu opinia majoritară formulează opinie separată, motivată, care se va încărca în platforma informatică de concurs.
+
+(6) În termen de maximum două zile lucrătoare de la data expirării termenului prevăzut la art. 25 alin. (1) din prezenta anexă, membrii comisiei de concurs pot solicita candidaților alte documente relevante, din categoria celor prevăzute la art. 25 alin. (2) - (4) din prezenta anexă.
+
+(7) Documentele solicitate se încarcă de către candidați în platforma informatică de concurs în termen de maximum o zi lucrătoare de la data solicitării.
+
+(8) Solicitarea către candidați prevăzută la alin. (6) se comunică prin intermediul platformei informatice de concurs, în contul candidatului, aceștia primind o notificare prin e-mail, cu menționarea termenului-limită până la care se permite completarea de către candidat a dosarului de concurs cu clarificările solicitate.
+
+Art. 30. - (1) Testarea scrisă este probă a concursului pe post care constă în verificarea cunoștințelor generale în domeniul respectării demnității umane, protecției drepturilor și libertăților fundamentale ale omului, prevenirii și combaterii incitării la ură și discriminare, egalității de șanse și de tratament, cunoștințelor generale în domeniul administrației publice, cunoștințelor teoretice în domeniul tehnologiei informației, aptitudinilor cognitive ale candidaților și a competențelor generale prevăzute la art. 17 lit. a) din anexa nr. 8 la prezentul cod, corespunzătoare categoriei de funcții publice dintre cele prevăzute la art. 387 alin. (1) lit. b) și lit. c) din prezentul cod, potrivit nivelurilor de complexitate prevăzute la art. 17 lit. b) din anexa nr. 8 la prezentul cod.
+
+(2) Testarea scrisă se organizează la sediul autorității sau instituției publice organizatoare.
+
+(3) Testarea scrisă prevăzută la alin. (1) se poate realiza și prin utilizarea și calculatoarelor proprii ale autorității sau instituției publice organizatoare a concursului sau prin utilizarea, la cerere, a platformei informatice de concurs prevăzută la art. 467¹ alin. (2) din prezentul cod, respectiv printr-un modul cu funcționalități specifice din cadrul platformei informatice de concurs dezvoltat pentru administrația publică locală.
+
+(4) În cazul utilizării platformei informatice prevăzută la art. 467¹ alin. (2) din prezentul cod, în situația apariției unei întreruperi a conexiunii sau defecțiuni a platformei informatice de concurs, există posibilitatea reluării testării scrise, cu păstrarea rezultatelor pentru întrebările deja soluționate și a intervalului de timp disponibil până la expirarea duratei maxime alocate fiecărei etape a testării.
+
+(5) În situația prevăzută la alin. (4), membrii comisiei de concurs stabilesc reluarea sesiunii de testare scrisă și completează un proces-verbal în care se consemnează evenimentul și ora la care s-a reluat testarea care se semnează și se încarcă în platforma informatică de concurs.
+
+(6) În cazul în care reluarea testării scrise nu se mai poate realiza în aceeași zi, comisia de concurs stabilește ziua și ora reluării sesiunii de testare, prin consemnarea acestora în procesul-verbal și înștiințarea candidaților, în condițiile prevăzute la art. 471 din prezentul cod.
+
+(7) Testarea scrisă se desfășoară în două etape, organize în cursul aceleiași zile.
+
+(8) Prima etapă a testării scrise constă în rezolvarea unor teste-grilă, elaborate în conformitate cu bibliografia prevăzută la art. 5 alin. (5) și (6) din prezenta anexă, prin care sunt verificate următoarele:
+
+a) cunoștințe generale în domeniul respectării demnității umane, protecției drepturilor și libertăților fundamentale ale omului, prevenirii și combaterii incitării la ură și discriminare, egalității de șanse și de tratament;
+
+b) cunoștințe generale în domeniul administrației publice;
+
+c) cunoștințe teoretice în domeniul tehnologiei informației;
+
+d) aptitudinile cognitive ale candidaților.
+
+(9) Prima etapă se desfășoară pe o durată maximă de 3 ore, prin parcurgerea testelor-grilă prevăzute la alin. (8) lit. a) - d), perioadă care poate fi diminuată, în funcție de complexitatea și numărul întrebărilor din testele-grilă.
+
+(10) A doua etapă a testării scrise constă în rezolvarea unui chestionar prin care se verifică competențele generale prevăzute la art. 17 lit. a) din anexa nr. 8 la prezentul cod, corespunzătoare categoriei de funcții publice dintre cele prevăzute la art.387 alin. (1) din prezentul cod, potrivit nivelurilor de complexitate prevăzute la art. 17 lit. b) din anexa nr. 8 la prezentul cod.
+
+(11) A doua etapă a testării scrise se desfășoară după finalizarea și în continuarea primei etape prevăzute la alin. (8), pe o durată maximă de 2 ore, care poate fi diminuată, în funcție de complexitatea și numărul întrebărilor din chestionar.
+
+(12) Pot participa la testarea scrisă numai candidații declarați „admis” la proba de verificare a eligibilității.
+
+Art. 31. - (1) Autoritatea sau instituția publică organizatoare a concursului stabilește modalitatea prin care se dovedesc competențele specifice, cu respectarea prevederilor art. 21 din anexa nr. 8 la prezentul cod.
+
+(2) Prin proba suplimentară se verifică competențele specifice prevăzute la art. 11 alin. (2) lit. a) - d) din anexa nr. 8 la prezentul cod, necesare ocupării funcției publice pentru care se organizează concursul pe post.
+
+(3) În cazul în care verificarea îndeplinirii competențelor specifice se realizează prin documente, aceasta se desfășoară în cadrul probei de verificare a eligibilității. În acest caz nu se organizează probă suplimentară.
+
+(4) În cazul în care testarea competențelor specifice se realizează prin organizarea unei probe suplimentare, aceasta se desfășoară ulterior testării, dar nu mai târziu de data prevăzută în anunțul de concurs pentru proba scrisă, și se gestionează de către unul sau mai mulți experți în domeniu, la solicitarea și prin grija autorității sau instituției publice organizatoare a concursului. Expertul nu este membru al comisiei de concurs sau, după caz, al comisiei de soluționare a contestațiilor.
+
+(5) Pot participa la proba scrisă numai candidații declarați „admis” la proba testării sau, în cazul în care concursul pe post presupune și organizarea unei probe suplimentare, numai candidații declarați „admis” la proba suplimentară.
+
+(6) În exercitarea atribuțiilor prevăzute pentru proba scrisă și proba interviului, fiecare membru al comisiei de concurs, respectiv al comisiei de soluționare a contestațiilor, precum și expertul au obligația de a completa secțiunea individuală alocată în acest sens în platforma informatică de concurs.
+
+(7) Pot participa la proba suplimentară numai candidații declarați „admis” la proba de testare scrisă.
+
+Art. 32. - (1) Pe baza evaluării realizate prin testarea scrisă, se generează un raport individual pentru fiecare candidat care conține răspunsurile acestuia la testul-grilă rezolvat în prima etapă și informații cu privire la competențele generale ale candidatului și nivelul de complexitate al acestora evaluate în a doua etapă, pe baza indicatorilor comportamentali prevăzuți la art.20 alin. (2) din anexa nr. 8 la prezentul cod.
+
+(2) Raportul individual pentru fiecare candidat care participă la testarea scrisă se generează automat prin intermediul platformei informatice de concurs.
+
+Art. 33. - (1) Proba scrisă constă în:
+
+a) redactarea unei lucrări scrise de sinteză;
+
+b) rezolvarea unor teste-grilă, teste cu întrebări deschise și/sau
+
+c) exerciții care constau în rezolvarea unor situații practice, conform deciziei comisiei de concurs.
+
+(2) Prin proba scrisă se verifică competențele specifice și cunoștințele de specialitate teoretice, precum și abilitățile specifice, practice, ca parte componentă a competențelor specifice prevăzute la art. 11 alin. (2) lit. d) din anexa nr. 8 la prezentul cod, necesare ocupării funcției publice pentru care se organizează concursul pe post, prin raportare la bibliografia și tematica de specialitate prevăzute la art. 5 alin. (5) din prezenta anexă.
+
+(3) Durata probei scrise se stabilește de comisia de concurs în funcție de gradul de dificultate și complexitate a subiectelor, dar nu poate depăși 3 ore.
+
+(4) Proba scrisă poate fi susținută doar de către acei candidați declarați „admis” la testare.
+
+Art. 34. - (1) Subiectele pentru proba scrisă se stabilesc pe baza bibliografiei de specialitate, cu încadrarea în tematica de specialitate, astfel încât să reflecte capacitatea de analiză și sinteză a candidaților și de înțelegere a tematicii de specialitate, în concordanță cu nivelul și specificul funcțiilor publice pentru care se organizează concursul.
+
+(2) Subiectele sunt identice pentru toți candidații la ocuparea funcției publice.
+
+(3) Comisiile de concurs stabilesc subiectele și alcătuiesc seturile de subiecte pentru proba scrisă, precum și baremul de corectare aferent, în ziua în care se desfășoară această probă.
+
+(4) Comisia de concurs stabilește punctajul maxim pentru fiecare subiect, care se comunică odată cu subiectele.
+
+(5) Punctajul maxim stabilit pentru lucrarea de sinteză nu poate depăși 30% din punctajul probei scrise, diferența de punctaj fiind alocată celorlalte tipuri de subiecte prevăzute la art. 33 alin. (1) din prezenta anexă.
+
+(6) În vederea desfășurării. probei scrise, Agenția Națională a Funcționarilor Publici pune la dispoziția autorităților și instituțiilor publice organizatoare instrumente informatice de extragere automată a subiectelor.
+
+(7) Instrucțiunile privind utilizarea instrumentelor informatice de către membrii comisiei de concurs se aprobă prin ordin al președintelui Agenției Naționale a Funcționarilor Publici, care se publică în Monitorul Oficial al României, Partea I.
+
+(8) Membrii comisiei de concurs propun cel puțin 3 subiecte pentru fiecare element cuprins în bibliografie, cu încadrarea în tematica de specialitate, precum și baremul de corectare aferent, care se încarcă în instrumentul informatic de extragere automată a subiectelor în ziua probei scrise a concursului.
+
+(9) Pe baza propunerilor membrilor comisiei de concurs, aplicația informatică extrage aleatoriu două seturi de subiecte însoțite de baremul de corectare aferent, cu cel mult două ore înaintea desfășurării probei scrise, prin intermediul președintelui comisiei de concurs, care vor fi prezentate candidaților, în condițiile prevăzute la alin. (8).
+
+(10) Seturile de subiecte extrase din aplicația informatică se semnează de toți membrii comisiei de concurs și se închid în plicuri sigilate purtând ștampila autorității sau a instituției publice organizatoare.
+
+(11) Membrii comisiei de concurs răspund individual pentru asigurarea confidențialității subiectelor propuse. Lista subiectelor propuse de fiecare membru al comisiei de concurs, cu menționarea membrului comisiei de concurs care a propus subiectul se încarcă în platforma informatică de concurs.
+
+(12) La terminarea probei scrise, secretarul/secretariatul comisiei de concurs are obligația de a afișa baremul detaliat de corectare a subiectelor, la locul desfășurării probei și pe pagina de internet a instituției organizatoare, acesta încărcându-se în platforma informatică de concurs.
+
+Art. 35. - (1) Înainte de începerea fiecărei probe, la locul desfășurării acesteia, dacă este cazul, se afișează repartizarea pe săli a candidaților.
+
+(2) Înainte de începerea fiecărei probe se face apelul nominal al candidaților, în vederea îndeplinirii formalităților prealabile, respectiv verificarea identității.
+
+(3) Înainte de începerea primei probe și după verificarea identității se înmânează, spre asumare prin semnătură olografă, formularul de înscriere la concursul pe post.
+
+(4) Verificarea identității candidaților se face numai pe baza cărții de identitate valabile, potrivit legii.
+
+(5) Candidații care nu sunt prezenți la efectuarea apelului nominal, care nu pot face dovada identității prin prezentarea cărții de identitate ori care nu își asumă, prin semnătură olografă, formularul de înscriere sunt considerați absenți.
+
+(6) Înainte de începerea probei scrise candidații sunt informați cu privire la regulile de redactare a lucrărilor în cadrul probei scrise, precum și la cazurile de anulare a lucrărilor, iar aceștia semnează pentru luare la cunoștință.
+
+(7) După verificarea identității candidaților, ieșirea din sală a acestora, anterior finalizării probei scrise, atrage eliminarea din concurs, cu excepția situațiilor de urgență, în care aceștia pot fi însoțiți de unul dintre membrii comisiei de concurs sau de persoanele care asigură secretariatul.
+
+(8) După începerea probei sau comunicarea subiectelor este interzis accesul candidaților care întârzie sau al oricărei persoane, cu excepția membrilor comisiei de concurs, a persoanelor care asigură secretariatul comisiei de concurs, precum și a persoanei/persoanelor responsabile cu posibilitatea monitorizării și supravegherii audio-video în sălile de concurs.
+
+(9) În încăperea în care are loc concursul, pe toată perioada derulării acestuia, inclusiv a formalităților prealabile și a celor ulterioare finalizării probei, candidaților nu le este permisă deținerea sau folosirea vreunei surse de consultare sau a telefoanelor mobile ori a altor mijloace de comunicare la distanță.
+
+(10) Nerespectarea prevederilor alin. (9) atrage eliminarea candidatului din proba de concurs. Comisia de concurs, constatând încălcarea acestor dispoziții, elimină candidatul din sală, înscrie mențiunea „anulat” pe lucrare și consemnează cele întâmplate în fișa individuală, al cărei model este prevăzut la art. 68 lit. b) din prezenta anexă.
+
+(11) Lucrările de la proba scrisă se redactează, sub sancțiunea anulării, doar pe seturile de hârtie asigurate de autoritatea sau instituția publică organizatoare, purtând ștampila acesteia pe fiecare filă. Prima filă, după înscrierea numelui și a prenumelui în colțul din dreapta sus, se lipește astfel încât datele înscrise să nu poată fi identificate și se aplică ștampila autorității sau instituției publice organizatoare a concursului, cu excepția situației când există un singur candidat pentru funcția publică vacantă, caz în care nu mai există obligația sigilării lucrării.
+
+(12) Candidatul are obligația de a preda lucrarea scrisă secretarului/secretariatului comisiei de concurs, la finalizarea acesteia ori la expirarea timpului alocat probei scrise, semnând borderoul special întocmit în acest sens, potrivit art. 68 lit. c) din prezenta anexă.
+
+(13) Borderoul de predare a lucrărilor se păstrează de către secretarul comisiei de concurs până la notarea probei scrise, se arhivează la dosarul de concurs și se încarcă în platforma informatică de concurs.
+
+Art. 36. - (1) În cadrul probei interviului se verifică îndeplinirea competențelor specifice necesare exercitării funcției publice, care nu au fost verificate prin alte probe, precum și motivația candidaților.
+
+(2) Proba interviului se realizează conform planului de interviu întocmit de către comisia de concurs în ziua desfășurării acestei probe, pe baza criteriilor de evaluare. Desfășurarea probei interviului are loc în condițiile și cu respectarea dispozițiilor art. 104 din anexa nr. 10 la prezentul cod.
+
+(3) În cuprinsul planului de interviu se stabilesc cel puțin 5 criterii de evaluare, cărora li se alocă o pondere de maximum 40%, din următoarele categorii:
+
+a) motivația candidatului;
+
+b) cunoștințe și abilități care dovedesc îndeplinirea competenței specifice necesare exercitării funcției publice.
+
+(4) Pentru funcțiile publice de conducere, planul de interviu include și următoarele criterii de evaluare:
+
+a) exercitarea controlului decizional;
+
+b) experiența profesională și managerială a candidaților relevantă pentru domeniul de specialitate.
+
+(5) Proba interviului se susține de către candidații care au fost declarați „admis” la proba scrisă.
+
+Art. 37. - (1) Proba interviului se susține de regulă, într-un termen de maximum 8 zile lucrătoare de la data afișării rezultatului probei scrise.
+
+(2) Data, ora și locul susținerii probei interviului se afișează odată cu rezultatele la proba scrisă.
+
+(3) Prin excepție de la prevederile alin. (1), în situația în care pentru proba scrisă a fost admis sau s-a prezentat un singur candidat, care ulterior promovează această probă, la cererea scrisă a candidatului și cu acordul membrilor comisiei de concurs, președintele comisiei de concurs poate aproba reducerea termenului prevăzut pentru susținerea interviului, cu îndeplinirea cumulativă a următoarelor condiții:
+
+a) candidatul a luat cunoștință despre rezultatul probei scrise;
+
+b) candidatul nu intenționează contestarea rezultatului obținut la proba scrisă.
+
+Art. 38. - (1) Fiecare membru al comisiei de concurs adresează cel puțin o întrebare candidatului.
+
+(2) Nu se pot adresa întrebări referitoare la opiniile politice ale candidatului, activitatea sindicală, religie, etnie, starea materială, originea socială sau care pot constitui discriminare în condițiile legii.
+
+## Secțiunea a 8-a
+
+## Notarea probelor și comunicarea rezultatelor
+
+Art. 39. - Probele concursului pe post se notează după cum urmează :
+
+a) proba de testare scrisă cu rezultatul „admis” sau „respins” și punctajul obținut la prima etapă a testării;
+
+b) proba suplimentară cu rezultatul „admis” sau „respins” ;
+
+c) proba scrisă cu un punctaj de maximum 100 de puncte;
+
+d) proba interviului cu un punctaj de maximum 100 de puncte.
+
+Art. 40. - (1) Promovarea probei de testare scrisă se realizează prin obținerea de către candidați în mod cumulativ, pentru fiecare etapă, a următoarelor:
+
+a) pentru prima etapă, a unui punctaj general de minimum 60%, cu condiția obținerii pentru fiecare test-grilă a unui punctaj minim de 50%;
+
+b) pentru a doua etapă, rezultatul „admis”, pentru deținerea fiecărei competențe generale prevăzute de normele privind cadrele de competențe generale și specifice, prevăzute la art. 17 lit. a) din anexa nr. 8 la prezentul cod.
+
+(2) Rezultatele probei de testare scrisă se comunică cu mențiunea sintagmei „admis” sau „respins”, în termen de maximum 3 zile lucrătoare de la finalizarea probei de către toți candidații.
+
+(3) Comunicarea rezultatelor la prima etapă, împreună cu punctajul obținut la fiecare test-grilă, precum și cu punctajul general obținut, ori, după caz, cu mențiunea sintagmei „absent” sau „anulat” se realizează în contul candidatului din platforma informatică de concurs, acesta primind o notificare prin e-mail, precum și pe site-ul Agenției Naționale a Funcționarilor Publici și a autorității sau a instituției publice organizatoare, la secțiunea special creată în acest scop.
+
+(4) La comunicarea rezultatului, în contul candidatului din platforma informatică de concurs se regăsesc baremul de corectare aferent testelor-grilă susținute, precum și răspunsurile candidatului.
+
+(5) Notarea etapei a doua se realizează conform art. 20 din anexa nr. 8 la prezentul cod.
+
+Art. 41. - (1) Proba scrisă sau după caz, proba interviului se promovează de candidații care au obținut:
+
+a) minimum 60 de puncte, în cazul concursurilor organize pentru ocuparea funcțiilor publice de execuție;
+
+b) minimum 70 de puncte, în cazul concursurilor organize pentru ocuparea funcțiilor publice de conducere.
+
+(2) Sunt declarați „admis” la proba scrisă, respectiv la proba interviului, candidații care au promovat proba în condițiile alin. (1).
+
+(3) Anterior începerii corectării lucrărilor la proba scrisă, fiecare lucrare va fi numerotată, cu excepția cazului în care există un singur candidat pentru ocuparea funcției publice vacante sau temporar vacante, după caz.
+
+(4) Notarea probei scrise sau a interviului se face în termen de maximum 3 zile lucrătoare de la finalizarea fiecărei probe.
+
+(5) Lucrările de la proba scrisă, cu excepția cazului în care există un singur candidat pentru ocuparea funcției publice vacante sau temporar vacante, se corectează sigilate.
+
+(6) Punctajele se acordă de către fiecare membru al comisiei de concurs, pentru fiecare lucrare scrisă, și se notează în fișa individuală elaborată potrivit modelului prevăzut la art. 68 lit. b) din prezenta anexă. Acordarea punctajului pentru proba scrisă se face pe baza mediei aritmetice a punctajelor acordate de fiecare membru al comisiei de concurs.
+
+(7) Lucrările care prezintă însemnări în scopul identificării candidaților se anulează și nu se mai corectează. Mențiunea "anulat" se înscrie atât pe lucrare, cât și pe fișa individuală.
+
+(8) În situația în care pentru o lucrare se înregistrează diferențe mai mari de 10 puncte între punctajele acordate de membrii comisiei de concurs, lucrarea se recorectează de către toți membrii acesteia.
+
+(9) Procedura recorectării se efectuează o singură dată, iar, în cazul menținerii acestei diferențe și după recorectare, punctajul final va fi calculat ca medie aritmetică a punctajelor acordate de membrii comisiei de concurs. Membrul comisiei de concurs care a acordat cel mai mic, respectiv cel mai mare punctaj își motivează punctajul acordat, detaliat pe baremul de corectare, în fișa individuală.
+
+(10) Se interzice desigilarea lucrărilor anterior recorectării în condițiile prevăzute la alin. (8).
+
+Art. 42. - (1) Lucrările scrise se desigilează numai după acordarea punctajelor finale, cu respectarea prevederilor art. 41 din prezenta anexă.
+
+(2) Punctajele obținute de fiecare dintre candidați și mențiunea „admis” ori „respins” se comunică prin intermediul platformei informatice de concurs, în contul candidatului, acesta primind o notificare prin e-mail, precum și pe pagina de internet a Agenției Naționale a Funcționarilor Publici și a autorității sau instituției publice organizatoare, la secțiunea special creată în acest scop, în termenul prevăzut la art. 41 alin. (4) din prezenta anexă, precum și în platforma informatică de concurs.
+
+Art. 43. - (1) Interviul se notează pe baza criteriilor de evaluare prevăzute la art. 36 alin. (2) și (3) din prezenta anexă și a punctajelor maxime stabilite de comisia de concurs pentru aceste criterii prin planul de interviu.
+
+(2) Membrii comisiei de concurs acordă punctaje pentru fiecare dintre criteriile de evaluare prevăzute la art. 36 alin. (2) și, după caz, alin. (3) din prezenta anexă. Punctajele se acordă de către fiecare membru al comisiei de concurs pentru fiecare candidat și se notează în fișa individuală.
+
+(3) Punctajul final la interviu al fiecărui candidat se stabilește cu aplicarea corespunzătoare a prevederilor art. 41 alin. (4) și (6) din prezenta anexă.
+
+(4) Punctajele obținute de fiecare dintre candidați și mențiunea „admis” ori „respins” se comunică prin intermediul platformei informatice de concurs, în contul candidatului, acesta primind o notificare prin e-mail, precum și pe pagina de internet a autorității sau instituției publice organizatoare, la secțiunea special creată în acest scop, în termenul prevăzut la art. 41 alin. (4) din prezenta anexă.
+
+Art. 44. - (1) Punctajul final al concursului pe post se calculează ca medie aritmetică a punctajelor obținute la proba scrisă și interviu.
+
+(2) Comunicarea rezultatelor finale ale concursului se face prin menționarea sintagmei „admis” sau „respins” și a punctajului final, dacă este cazul, al fiecărui candidat, prin intermediul platformei informatice de concurs, în contul candidatului, acesta primind o notificare prin e-mail, precum și pe pagina de internet a autorității sau instituției publice organizatoare, la secțiunea special creată în acest scop.
+
+(3) Comunicarea rezultatelor finale ale concursului se face în termen de maximum 3 zile lucrătoare de la data afișării rezultatelor ultimei probe.
+
+(4) Se consideră admis la concursul pentru ocuparea unei funcții publice de conducere vacante, respectiv unei funcției publice de execuție vacante sau temporar vacante, candidatul care a obținut cel mai mare punctaj dintre candidații care au concurat pentru aceeași funcție publică, cu condiția ca aceștia să fi obținut punctajul minim necesar, potrivit prevederilor prezentei anexe.
+
+(5) La punctaje egale are prioritate candidatul care a obținut punctajul cel mai mare la proba scrisă, iar dacă egalitatea se menține, se consideră admis candidatul cu punctajul cel mai mare obținut la prima etapă a testării.
+
+(6) În baza acestui criteriu, comisia de concurs stabilește candidatul câștigător, cu respectarea termenului prevăzut la alin. (3).
+
+# Secțiunea a 9-a Gestionarea contestațiilor
+
+Art. 45 .- În termen de o zi lucrătoare de la data afișării rezultatului verificării eligibilității candidaților, testării, probei scrise ori a interviului, candidații nemulțumiți pot depune contestație prin intermediul platformei informatice de concurs, sub sancțiunea decăderii din acest drept.
+
+Art. 46. - (1) În situația contestațiilor formulate față de rezultatul verificării eligibilității candidaților, comisia de soluționare a contestațiilor verifică, îndeplinirea de către candidatul contestatar a condițiilor pentru participare la concursul pe post, în termen de maximum 2 zile lucrătoare de la expirarea termenului de depunere a contestațiilor.
+
+(2) În situația contestațiilor formulate față de rezultatul verificării eligibilității candidaților, comisia de soluționare a contestațiilor verifică, prin intermediul platformei informatice de concurs, îndeplinirea de către candidatul contestatar a condițiilor pentru participarea la concurs, în termen de maximum 2 zile lucrătoare de la expirarea termenului de depunere a contestațiilor.
+
+(3) Comisia de soluționare a contestațiilor admite contestația modificând rezultatul dacă constată că acel candidat îndeplinește condițiile pentru a participa la concurs, în situația contestațiilor formulate fată de rezultatul verificării eligibilității candidaților.
+
+(4) Comisia de soluționare a contestațiilor respinge contestația dacă constată că acel candidat nu îndeplinește condițiile pentru a participa la concurs, în situația contestațiilor formulate față de rezultatul verificării eligibilității candidaților.
+
+Art. 47. - (1) În situația contestațiilor formulate de candidați față de rezultatul individual obținut la prima etapă a probei de testare scrisă, contestațiile pot privi rezultatul și punctajul obținut la rezolvarea testelor-grilă, prin care sunt verificate cunoștințele generale în domeniul respectării demnității umane, protecției drepturilor și libertăților fundamentale ale omului, prevenirii și combaterii incitării la ură și discriminare, egalității de șanse și de tratament, respectiv cunoștințele generale în domeniul administrației publice.
+
+(2) Comisia de soluționare a contestațiilor analizează baremul de corectare și răspunsurile înregistrate, respectiv încadrarea subiectului contestat în bibliografia stabilită potrivit prevederilor art. 5 alin. (6) din prezenta anexă, doar pentru candidatul contestatar, în termen de maximum 3 zile lucrătoare de la expirarea termenului de depunere a contestațiilor.
+
+(3) În situația în care candidatul este nemulțumit de organizarea și desfășurarea concursului, respectiv de rezultatul privind testarea scrisă, acesta se poate adresa instanței de contencios administrativ, în condițiile legii.
+
+(4) Fiecare membru al comisiei de soluționare a contestațiilor acordă rezultate pe care le consemnează în secțiunea individuală disponibilă în platforma informatică de concurs sau în fișa individuală, după caz.
+
+(5) În situația în care între membrii comisiei de soluționare a contestațiilor care procedează în condițiile alin. (4) există diferențe de opinie care nu au putut fi soluționate de comun acord sau o diferență de punctaj mai mare de 10%, candidatul este declarat "admis" ori "respins" în funcție de opinia majoritară, consemnată în secțiunile individuale alocate fiecărui membru din platforma informatică de concurs.
+
+(6) Membrul comisiei de soluționare a contestațiilor care nu este de acord cu opinia majoritară formulează opinie separată, motivată, și o consemnează în secțiunea individuală disponibilă în platforma informatică de concurs.
+
+(7) Comisia de soluționare a contestațiilor admite contestația modificând rezultatul candidatului la proba de testare, în situația în care constată că rezultatul potrivit prevederilor alin. (5) este „admis” sau există o diferență de punctaj mai mare de 10%, la prima etapă a probei de testare.
+
+(8) Comisia de soluționare a contestațiilor respinge contestația în situația în care constată că rezultatul, după soluționarea contestațiilor, rămâne „respins” sau există o diferență de punctaj mai mică de 10%, la prima etapă a probei de testare.
+
+Art. 48. - (1) În situația contestațiilor formulate la proba scrisă sau interviu, comisia de soluționare a contestațiilor analizează lucrarea sau înregistrările răspunsurilor la interviu doar pentru candidatul contestatar, în termen de maximum 2 zile lucrătoare de la expirarea termenului de depunere a contestațiilor.
+
+(2) Fiecare membru al comisiei de soluționare a contestațiilor acordă punctaje și le notează în fișa individuală.
+
+(3) În situația în care între membrii comisiei de soluționare a contestațiilor există diferențe de opinie care nu au putut fi soluționate de comun acord sau diferență de punctaj mai mare de 10 puncte, candidatul va fi declarat „admis” ori „respins” în funcție de opinia majoritară, consemnată conform secțiunilor individuale alocate fiecărui membru din platforma informatică de concurs sau, după caz, în fișa individuală.
+
+(4) Membrul comisiei de soluționare a contestațiilor care nu este de acord cu opinia majoritară formulează opinie separată, motivată, și o consemnează în secțiunea individuală disponibilă în platforma informatică de concurs sau, după caz, în fișa individuală.
+
+Art. 49. - (1) Comisia de soluționare a contestațiilor admite contestația modificând rezultatul probei scrise, respectiv probei interviului și punctajul acordat de comisia de concurs, dacă constată că punctajul pe care l-a acordat la proba scrisă, respectiv la interviu este mai mare decât cel acordat de comisia de concurs.
+
+(2) Comisia de soluționare a contestațiilor respinge contestația dacă constată că punctajul pe care l-a acordat la proba scrisă, respectiv la interviu este mai mic sau egal cu cel acordat de comisia de concurs.
+
+Art. 50. - Comunicarea rezultatelor la contestațiile depuse se face prin intermediul platformei informatice de concurs, în contul candidatului acesta primind o notificare prin e-mail, precum și pe site-ul Agenției Naționale a Funcționarilor Publici și a autorității sau instituției publice organizatoare, la secțiunea special creată în acest scop, în termenul de soluționare a contestațiilor.
+
+Art. 51. - Afișarea rezultatelor obținute de candidați la probele concursului, precum și afișarea rezultatelor soluționării contestațiilor și a rezultatelor finale se realizează în platforma informatică de concurs, utilizându-se numărul de înregistrare atribuit dosarului de concurs pentru fiecare candidat, precum și identificatorul unic prevăzut la art. 37 alin. (6) din anexa nr. 10 la prezentul cod.
+
+Art. 52. - În cazul respingerii contestației, candidatul se poate adresa instanței de contencios administrativ, în condițiile legii.
+
+Art. 53. - (1) Rezultatele finale ale concursului cuprinzând lista privind punctajele finale ale candidaților se încarcă în platforma informatică de concurs de către secretarul comisiei de concurs.
+
+(2) Agenția Națională a Funcționarilor Publici, în exercitarea atribuțiilor sale legale, poate realiza verificarea respectării normelor legale privind organizarea și desfășurarea concursului pe post.
+
+Art. 54. - (1) Autoritatea sau instituția publică organizatoare a concursului pe post pune la dispoziție candidaților interesați, la solicitarea scrisă a acestora, documentele elaborate de comisia de concurs, respectiv de comisia de soluționare a contestațiilor, care sunt informații de interes public, cu respectarea confidențialității datelor cu caracter personal, potrivit legii.
+
+(2) Se exceptează de la prevederile alin. (1) documentele elaborate de comisia de concurs, respectiv de comisia de soluționare a contestațiilor care conțin date cu caracter personal ale candidaților, potrivit legii.
+
+(3) Orice candidat își poate consulta, la solicitarea sa, lucrarea scrisă individuală redactată în cadrul probei scrise a concursului, după afișarea rezultatelor la proba scrisă.
+
+## Secțiunea a 10-a
+
+Dispoziții speciale privind desfășurarea etapelor concursului pe post pentru ocuparea funcțiilor publice prevăzute la art. 385 alin. (3) din prezentul cod, cu excepția celor care beneficiază de statute speciale în condițiile legii, la care se înscriu persoanele cu dizabilități
+
+Art. 55. - Persoanelor cu dizabilități le sunt asigurate accesul neîngrădit, precum și accesibilitatea la concursul pentru ocuparea funcțiilor publice locale, pentru care îndeplinesc condițiile de ocupare a funcției publice, precum și de participare la concurs.
+
+Art. 56. - (1) În situația în care la concurs se înscrie o persoană cu dizabilități, conducătorul autorității sau instituției publice organizatoare, precum și comisia de concurs pentru înalții funcționari publici are obligația de a asigura, accesul neîngrădit, precum și accesibilitatea la concursul pentru ocuparea unei funcții publice în condițiile prevăzute de Legea nr. 448/2006 privind protecția și promovarea drepturilor persoanelor cu handicap, republicată, cu modificările și completările ulterioare, prin identificarea și aplicarea unor instrumente de asigurare a accesibilității și a unor măsuri de adaptare.
+
+(2) Instrumentele de asigurare a accesibilității și măsurile de adaptare au rol în egalizarea șanselor persoanelor cu dizabilități în susținerea concursului pe post, precum și în asigurarea condițiilor optime pentru testarea competențelor generale și a cunoștințelor generale, precum și pentru testarea competențelor specifice și cunoștințelor de specialitate necesare ocupării funcțiilor publice pentru care se organizează concurs.
+
+(3) Măsurile de adaptare sunt aplicabile, de la caz la caz, în funcție de tipul de dizabilitate, nevoile individuale și de proba concursului pe care urmează să o susțină.
+
+Art. 57. - (1) În cazul în care la concursul pe post se înscriu și sunt admise la proba de verificare a eligibilității candidaților persoane cu dizabilități vizuale, iar autoritatea sau instituția publică organizatoare a concursului nu dispune de echipamentul necesar pentru verificarea competențelor specifice și cunoștințelor de specialitate necesare exercitării funcției publice, pe baza unei solicitări scrise, Agenția Națională a Funcționarilor Publici pune la dispoziția acesteia echipamente de accesibilizare, după cum urmează:
+
+a) pentru concursurile pentru ocuparea funcțiilor publice organizate de autoritățile sau instituțiile publice cu sediul în municipiul București, utilizarea echipamentelor de accesibilizare se poate realiza la sediul acestora sau, după caz, la sediul Agenției Naționale a Funcționarilor Publici;
+
+b) pentru concursurile organizate de autoritățile sau instituțiile publice care au sediul în altă localitate decât municipiul București, utilizarea echipamentelor de accesibilizare se realizează la sediul acestora.
+
+(2) În aplicarea prevederilor alin. (1), autoritățile sau instituțiile publice organizatoare ale concursului pe post transmit Agenției Naționale a Funcționarilor Publici, la data afișării rezultatelor la verificarea eligibilității candidaților, solicitarea de a pune la dispoziție echipamentele de accesibilizare.
+
+(3) Agenția Națională a Funcționarilor Publici analizează solicitarea și comunică autorității sau instituției publice organizatoare, în termen de 3 zile lucrătoare, condițiile de punere la dispoziție a echipamentelor de accesibilizare. În situația în care sunt mai multe solicitări pentru aceeași dată, Agenția Națională a Funcționarilor Publici îi solicită autorității sau instituției publice organizatoare a concursului amânarea acestuia, în condițiile art. 471 din prezentul cod, până la o dată la care echipamentele de accesibilizare pot fi puse la dispoziție.
+
+(4) Utilizarea echipamentelor de accesibilizare se face în prezența unui reprezentant al Agenției Naționale a Funcționarilor Publici. În măsura în care acest lucru implică deplasarea reprezentantului Agenției Naționale a Funcționarilor Publici la sediul autorității sau instituției publice organizatoare a concursului, sumele necesare pentru asigurarea cheltuielilor de transport, cazare și masă, în condițiile legislației specifice, se suportă din bugetul acesteia.
+
+Art. 58. - (1) În procesul de constituire a dosarelor de concurs, persoanele cu dizabilități solicită adaptarea rezonabilă a condițiilor de desfășurare a concursului, prin completarea secțiunii corespunzătoare din formularul de înscriere. Prin raportare la nevoile individuale, candidatul cu dizabilități poate înainta comisiei de concurs, în termenul prevăzut pentru constituirea dosarelor de concurs, propunerea sa privind instrumentele necesare pentru asigurarea accesibilității probelor de concurs.
+
+(2) Comisia de concurs verifică dacă, din documentele depuse de candidați la dosarele de concurs, rezultă înscrierea unor persoane cu dizabilități.
+
+(3) În situația în care persoana cu dizabilități este declarată admisă la verificarea eligibilității candidaților, comisia de concurs are următoarele obligații:
+
+a) de a informa conducătorul autorității sau instituției publice organizatoare a concursului despre acest fapt, cu identificarea instrumentelor necesare pentru asigurarea accesibilității probelor de concurs pentru candidatul în cauză, respectiv interpret în limbaj mimico-gestual, suplimentarea numărului de persoane care asigură secretariatul comisiei de concurs, suplimentarea numărului de săli de concurs ori alte instrumente sau măsuri de adaptare pe care le consideră necesare;
+
+b) de a menționa în cuprinsul documentului privind rezultatele verificării eligibilității candidaților despre aplicarea prevederilor prezentului capitol.
+
+Art. 59. - Conducătorul autorității sau instituției publice organizatoare a concursului are obligația de a pune la dispoziția comisiei de concurs instrumentele necesare asigurării accesibilității probelor de concurs pentru candidatul în cauză, într-un termen care să asigure desfășurarea probelor de concurs.
+
+Art. 60. - (1) Regulile generale aplicabile desfășurării probelor din fiecare etapă de concurs, în funcție de tipul de dizabilitate și nevoile individuale ale candidatului, pot include:
+
+a) prelungirea duratei probelor cu încă jumătate din timpul maxim prevăzut de prezenta anexă pentru fiecare dintre acestea;
+
+b) posibilitatea de a susține probele în altă sală de concurs față de ceilalți candidați;
+
+c) alocarea, la cerere, pe parcursul fiecărei probe a concursului cu durata prevăzută la lit. a), a cel mult două pauze de maximum 10 minute.
+
+(2) Candidații cu dizabilități au dreptul de a fi însoțiți pe durata probelor din etapele de concurs de către un însoțitor sau de către asistentul personal.
+
+Art. 61. - (1) Regulile specifice aplicabile desfășurării probelor din etapele de concurs, prin raportare la tipul de dizabilitate și nevoile individuale ale candidatului, sunt următoarele:
+
+a) pentru candidații cu dizabilități vizuale care au dificultăți sau se află în imposibilitatea citirii subiectelor la probele care implică acest lucru, se acordă asistență în citirea subiectelor și înregistrarea răspunsurilor sau consemnarea acestora de către secretarul comisiei de concurs într-un document semnat și datat, posibilitatea utilizării limbajului Braille ori a unui computer cu cititor de ecran sau a unei tablete, în funcție de opțiunea candidatului. În măsura în care candidatul cu dizabilități vizuale poate să citească subiectele și să redacteze/rezolve răspunsurile/testele-grilă, se asigură, la cererea acestuia, materialele de examen printate într-un format cu caractere mărite;
+
+b) pentru candidații cu dizabilități auditive se asigură un interpret al limbajului mimico-gestual;
+
+c) pentru candidații cu dizabilități locomotorii se asigură facilitățile de acces în instituție și în sala de testare, precum și, la cerere, o masă de scris ajustabilă, adaptată la nevoile individuale ale acestora. Pentru candidații cu dizabilități locomotorii care au dificultăți sau se află în imposibilitatea redactării/rezolvării răspunsurilor/testelor-grilă, înregistrarea răspunsurilor și consemnarea acestora se fac de către secretarul comisiei de concurs într-un document semnat și datat.
+
+(2) Prevederile alin. (1) se aplică în mod corespunzător și pentru proba suplimentară, dacă este cazul.
+
+## Secțiunea a 11-a
+
+## Dispoziții privind nulitatea etapelor concursului
+
+Art. 62. - (1) Probele și etapele concursului organize cu nerespectarea prevederilor prezentei anexe, sunt nule de drept.
+
+(2) Nulitatea se constată de instanța de contencios administrativ.
+
+Secțiunea a 12-a
+
+Amânarea organizării concursului la inițiativa autorităților și instituțiilor publice
+
+Art. 63. - Autoritatea sau instituția publică organizatoare a concursului pe post poate dispune amânarea desfășurării concursului, în condițiile prevăzute la art. 471 din prezentul cod.
+
+## CAPITOLUL III Numirea funcționarilor publici
+
+Art. 64. - (1) În termen de maximum 10 zile lucrătoare de la data afișării rezultatelor finale ale concursului pe post, candidatul declarat "admis" are obligația de a prezenta, în original, toate documentele încărcate în dosarul de concurs, prin platforma informatică de concurs, în vederea certificării pentru conformitatea cu originalul de către secretarul comisiei de concurs, sub sancțiunea neemiterii actului administrativ de numire în funcția publică.
+
+(2) În cazul în care candidatul declarat „admis” nu prezintă documentele în original în termenul prevăzut la alin. (1), este declarat „admis” următorul candidat din lista cuprinzând punctajele finale ale concursului pe post.
+
+(3) În termen de 15 zile lucrătoare de la data afișării rezultatelor finale ale concursului pe post, comisia de concurs are obligația de a comunica propunerea de numire a candidatului declarat „admis” persoanei care are competența de numire în funcția publică.
+
+(4) Propunerea de numire se comunică în copie, în mod corespunzător, candidatului declarat „admis”, prin una dintre următoarele modalități:
+
+a) personal, pe bază de semnătură;
+
+b) prin scrisoare recomandată, cu confirmare de primire;
+
+c) prin poșta electronică, cu solicitarea confirmării primirii.
+
+Art. 65. - (1) Emiterea actului administrativ de numire în funcția publică se face în termen de cel mult 10 zile lucrătoare de la data comunicării propunerii de numire în condițiile prevăzute la art. 64 alin. (3) și (4) din prezenta anexă.
+
+(2) Fișa postului standardizată aferentă funcției publice se anexează la actul administrativ de numire în funcția publică, iar o copie a acesteia se înmânează funcționarului public.
+
+Art. 66. - Prin excepție de la prevederile art. 65 din prezenta anexă, la solicitarea scrisă și motivată a candidatului declarat „admis”, depusă în termenul prevăzut la art. 65 alin. (1) din prezenta anexă, conducătorul autorității sau instituției publice poate prelungi termenul stabilit pentru emiterea actului administrativ de numire în funcția publică la cel mult 31 de zile lucrătoare de la data comunicării propunerii de numire în condițiile prevăzute la art. 64 alin. (3) din prezenta anexă.
+
+Art. 67. - (1) Neprezentarea candidatului declarat „admis” la data prevăzută în actul administrativ de numire pentru începerea activității, cu excepția situațiilor de forță majoră sau de caz fortuit, definite conform Legii nr. 287/2009 privind Codul civil, republicată, cu modificările și completările ulterioare, atrage revocarea actului administrativ de numire în funcția publică.
+
+(2) Autoritatea sau instituția publică organizatoare a concursului pe post notifică următorul candidat din lista cuprinzând punctajele finale ale concursului, pentru a se prezenta în vederea numirii în funcția publică. Neprezentarea în vederea numirii determină reluarea procedurii până la notificarea ultimului candidat care a obținut punctajul minim necesar potrivit prevederilor prezentei anexe, iar, dacă nici ultimul candidat care a obținut punctajul minim necesar nu se prezintă în vederea numirii, postul rămâne vacant, urmând să se organizeze concurs pe post, în condițiile legii.
+
+Art. 68. - Formularele standard utilizate în cadrul procedurilor de organizare și desfășurare a concursului pe post sunt următoarele:
+
+a) formular de înscriere, conform punctului I;
+
+b) fișă individuală pentru membrii comisiei de concurs, conform punctului II;
+
+c) borderou cu lucrările predate la proba scrisă, conform art. 137 lit. f) din anexa nr. 10 la prezentul cod.
+
+## I. Formular de înscriere
+
+<table>
+<tbody>
+<tr><td colspan="4">Funcția publică pentru care se organizează concursul pe post:</td></tr>
+<tr><td colspan="4">Numele și prenumele candidatului: Datele de contact ale candidatului (se utilizează pentru comunicarea cu privire la concurs): Adresa: E-mail: Telefon:</td></tr>
+<tr><td colspan="4">Identificator unic al candidatului:</td></tr>
+<tr><td colspan="4">a) Studii generale și de specialitate: Studii medii postliceale: liceale sau</td></tr>
+<tr><td>b) Instituția</td><td>c) Perioada</td><td colspan="2">d)Diploma obținută</td></tr>
+<tr><td colspan="4">e) Studii superioare de scurtă durată:</td></tr>
+<tr><td>f) Instituția</td><td>g) Perioada</td><td colspan="2">h) Diploma obținută</td></tr>
+<tr><td colspan="4">i) Studii superioare de lungă durată:</td></tr>
+<tr><td>j) Instituția</td><td>k) Perioada</td><td colspan="2">l) Diploma obținută</td></tr>
+<tr><td colspan="4">m) Studii universitare de masterat, doctorat sau studii postuniversitare:</td></tr>
+<tr><td>n) Instituția</td><td>o) Perioada</td><td colspan="2">p) Diploma obținută</td></tr>
+<tr><td colspan="4">q) Alte tipuri de studii:</td></tr>
+<tr><td>r) Instituția</td><td>s) Perioada</td><td colspan="2">t) Diploma obținută</td></tr>
+<tr><td colspan="4">u) Limbi străine):</td></tr>
+<tr><td>v) Limba</td><td>w) Înțelegere</td><td>x) Vorbire</td><td>y) Scriere</td></tr>
+<tr><td colspan="4">z) Cunoștințe operare calculator):</td></tr>
+<tr><td colspan="4">aa) Cariera profesională, după caz):</td></tr>
+<tr><td>bb) Perioada</td><td>cc) Instituția/Firma</td><td colspan="2">dd) Funcția</td></tr>
+</tbody>
+</table>
+
+ee) Declarații pe proprie răspundere) Subsemnatul/a ............, legitimat/ă cu CI/BI, seria ..........., numărul ..........., eliberat/ă de ............ la data de............ Cunoscând prevederile art. 465 alin. (1) lit. e) din Ordonanța de urgență a Guvernului nr. 57/2019 privind Codul administrativ, cu modificările și completările ulterioare, declar pe proprie răspundere că:- sunt [ ]- nu sunt [ ] apt din punct de vedere medical și psihologic să exercit o funcție publică. Cunoscând prevederile art. 465 alin. (1) lit. h) din Ordonanța de urgență a Guvernului nr. 57/2019, cu modificările și completările ulterioare, declar pe proprie răspundere că: - am săvârșit [ ] - nu am săvârșit [ ] fapte de natura celor înscrise în cazierul judiciar și pentru care nu a intervenit reabilitarea, amnistia post-condamnatorie sau dezincriminarea faptei, în condițiile legii. Cunoscând prevederile art. 465 alin. (1) lit. i) din Ordonanța de urgență a Guvernului nr. 57/2019 privind Codul administrativ, cu modificările și completările ulterioare, declar pe proprie răspundere că: - mi-a fost [ ] - nu mi-a fost [ ] interzis dreptul de a ocupa o funcție publică sau de a exercita profesia ori activitatea, prin hotărâre judecătorească definitivă, în condițiile legii. ff) Cunoscând prevederile art. 465 alin. (1) lit. j) din Ordonanța de urgență a Guvernului nr. 57/2019, cu modificările și completările ulterioare, declar pe proprie răspundere că în ultimii 3 ani: - am fost [ ] - nu am fost [ ] destituit/ă dintr-o funcție publică, și /sau - mi-a încetat [ ] - nu mi-a încetat [ ] contractul individual de muncă pentru motive disciplinare.
+
+gg) Cunoscând prevederile art. 465 alin. (1) lit. k) din Ordonanța de urgență a Guvernului nr. 57/2019, cu modificările și completările ulterioare, declar pe proprie răspundere că:
+
+\- nu am fost [ ]
+
+lucrător al Securității sau colaborator al acesteia, în condițiile prevăzute de legislația specifică.
+
+În cadrul concursului, optez pentru următoarea limbă străină:- engleză [ ]- franceză [ ]- germană [ ]- spaniolă [ ].
+
+În baza prevederilor art. 87 alin. (4) și art. 89 alin. (3) din Legea nr. 448/2006 privind protecția și promovarea drepturilor persoanelor cu handicap, republicată, cu modificările și completările ulterioare, ca persoană cu dizabilități:
+
+\- solicit [ ]
+
+\- nu solicit [ ]
+
+adaptarea rezonabilă a condițiilor de desfășurare a concursului.
+
+De asemenea, formulez următoarele propuneri privind instrumentele necesare pentru asigurarea accesibilității probelor de concurs:
+
+Cunoscând prevederile art. 4 pct. 2 și 11, art. 6 alin. (1) lit. a) și art. 7 din Regulamentul (UE) 2016/679 al Parlamentului European și al Consiliului din 27 aprilie 2016 privind protecția persoanelor fizice în ceea ce privește prelucrarea datelor cu caracter personal și privind libera circulație a acestor date și de abrogare a Directivei 95/46/CE (Regulamentul general privind protecția datelor), în ceea ce privește consimțământul cu privire la prelucrarea datelor cu caracter personal, declar următoarele:
+
+\- îmi exprim consimțământul [ ]
+
+\- nu îmi exprim consimțământul [ ] cu privire la termenii și condițiile de organizare a concursului pe post, prelucrarea datelor cu caracter personal cuprinse în prezentul formular, respectiv cu privire la acordul de a primi notificări transmise prin platforma informatică de concurs.
+
+Cunoscând prevederile art. 4 pct. 2 și 11 și art. 6 alin. (1) lit. a) din Regulamentul (UE) 2016/679 al Parlamentului European și al Consiliului din 27 aprilie 2016, în ceea ce privește consimțământul cu privire la prelucrarea datelor cu caracter personal, declar următoarele:
+
+II. FIȘĂ INDIVIDUALĂ pentru membrii comisiei de concurs pentru concursul pe post
+
+<table>
+<tbody>
+<tr><td colspan="7">Funcția publică sau funcțiile publice pentru care se organizează concursul pe post*1):</td></tr>
+<tr><td colspan="7">1. ............</td></tr>
+<tr><td colspan="7">2. ............</td></tr>
+<tr><td colspan="7">3. ............</td></tr>
+<tr><td colspan="7">Numele și prenumele membrului în comisia de concurs: ............</td></tr>
+<tr><td colspan="7">Informații privind verificarea eligibilității candidaților*2)</td></tr>
+<tr><td colspan="7">Data verificării eligibilității candidaților:</td></tr>
+<tr><td colspan="2">Numele și prenumele candidatului</td><td colspan="4">Rezultatul verificării eligibilității candidaților*3)</td><td>Motivul respingerii dosarului*4)</td></tr>
+<tr><td colspan="2">1. ............</td><td colspan="4"></td><td></td></tr>
+<tr><td colspan="2">2. ............</td><td colspan="4"></td><td></td></tr>
+<tr><td colspan="2">3. ............</td><td colspan="4"></td><td></td></tr>
+<tr><td colspan="2">4. ............</td><td colspan="4"></td><td></td></tr>
+<tr><td colspan="2">5. ............</td><td colspan="4"></td><td></td></tr>
+<tr><td colspan="7">Semnătura membrului comisiei:</td></tr>
+<tr><td colspan="7">Informații privind proba scrisă*5)</td></tr>
+<tr><td colspan="7">Data desfășurării probei scrise:</td></tr>
+<tr><td>Numărul lucrării</td><td>Punctaj la subiectul nr. 1</td><td>Punctaj la subiectul nr. 2</td><td>Punctaj la subiectul nr. 3</td><td>Punctaj la subiectul nr. 4</td><td>Punctaj la subiectul nr. 5</td><td>Total</td></tr>
+<tr><td>1.</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="7">Numele și prenumele candidatului*): ............</td></tr>
+<tr><td>2.</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="7">Numele și prenumele candidatului*): ............</td></tr>
+<tr><td>3.</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="7">Numele și prenumele candidatului*): ............</td></tr>
+<tr><td>4.</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="7">Numele și prenumele candidatului*): ............</td></tr>
+<tr><td>5.</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="7">Numele și prenumele candidatului*):</td></tr>
+<tr><td colspan="7">Semnătura membrului comisiei:</td></tr>
+<tr><td colspan="7">Informații privind interviul*6)</td></tr>
+<tr><td colspan="7">Data desfășurării interviului:</td></tr>
+<tr><td rowspan="7">Numele și prenumele candidatului:</td><td colspan="2">Planul de interviu**)</td><td>Punctaj maxim</td><td>Punctaj acordat</td><td colspan="2" rowspan="7">Total:</td></tr>
+<tr><td colspan="2">1.</td><td></td><td></td></tr>
+<tr><td colspan="2">2.</td><td></td><td></td></tr>
+<tr><td colspan="2">3.</td><td></td><td></td></tr>
+<tr><td colspan="2">4.</td><td></td><td></td></tr>
+<tr><td colspan="2">5.</td><td></td><td></td></tr>
+<tr><td colspan="2">6.</td><td></td><td></td></tr>
+<tr><td rowspan="7">Numele și prenumele candidatului:</td><td colspan="2">Planul de interviu**)</td><td>Punctaj maxim</td><td>Punctaj acordat</td><td colspan="2" rowspan="7">Total:</td></tr>
+<tr><td colspan="2">1.</td><td></td><td></td></tr>
+<tr><td colspan="2">2.</td><td></td><td></td></tr>
+<tr><td colspan="2">3.</td><td></td><td></td></tr>
+<tr><td colspan="2">4.</td><td></td><td></td></tr>
+<tr><td colspan="2">5.</td><td></td><td></td></tr>
+<tr><td colspan="2">6.</td><td></td><td></td></tr>
+<tr><td rowspan="7">Numele și prenumele candidatului:</td><td colspan="2">Planul de interviu**)</td><td>Punctaj maxim</td><td>Punctaj acordat</td><td colspan="2" rowspan="7">Total:</td></tr>
+<tr><td colspan="2">1.</td><td></td><td></td></tr>
+<tr><td colspan="2">2.</td><td></td><td></td></tr>
+<tr><td colspan="2">3.</td><td></td><td></td></tr>
+<tr><td colspan="2">4.</td><td></td><td></td></tr>
+<tr><td colspan="2">5.</td><td></td><td></td></tr>
+<tr><td colspan="2">6.</td><td></td><td></td></tr>
+<tr><td rowspan="7">Numele și prenumele candidatului:</td><td>Planul de interviu**)</td><td>Punctaj maxim</td><td>Punctaj acordat</td><td rowspan="3"></td></tr>
+<tr><td>1.</td><td></td><td></td></tr>
+<tr><td>2.</td><td></td><td></td></tr>
+<tr><td>3.</td><td></td><td></td><td rowspan="4">Total:</td></tr>
+<tr><td>4.</td><td></td><td></td></tr>
+<tr><td>5.</td><td></td><td></td></tr>
+<tr><td>6.</td><td></td><td></td></tr>
+<tr><td rowspan="7">Numele și prenumele candidatului:</td><td>Planul de interviu**)</td><td>Punctaj maxim</td><td>Punctaj acordat</td><td rowspan="7">Total:</td></tr>
+<tr><td>1.</td><td></td><td></td></tr>
+<tr><td>2.</td><td></td><td></td></tr>
+<tr><td>3.</td><td></td><td></td></tr>
+<tr><td>4.</td><td></td><td></td></tr>
+<tr><td>5.</td><td></td><td></td></tr>
+<tr><td>6.</td><td></td><td></td></tr>
+<tr><td colspan="5">Semnătura membrului comisiei:</td></tr>
+<tr><td colspan="5">Informații privind opinia separată/motivarea membrului comisiei*7)</td></tr>
+<tr><td colspan="5">Verificarea eligibilității candidaților:</td></tr>
+<tr><td colspan="5">Proba scrisă:</td></tr>
+<tr><td colspan="5">Interviu:</td></tr>
+<tr><td colspan="5">Semnătura membrului comisiei:</td></tr>
+</tbody>
+</table>
+
+\*1) Se menționează denumirea funcției publice, gradul profesional și compartimentul din cadrul autorității sau instituției publice în care este prevăzut postul.
+
+\*2) Se completează la data prevăzută conform legii pentru realizarea verificării eligibilității candidaților.
+
+\*3) Se completează cu „admis”, respectiv „respins”.
+
+\*4) Se completează, dacă este cazul, pentru fiecare candidat în parte, cu indicarea expresă a articolului din lege pe baza căruia se respinge dosarul, precum și a unor informații referitoare la documentele lipsă din dosarul de concurs constituit pe platforma informatică de concurs, documentele întocmite necorespunzător, documentele care și-au pierdut valabilitatea, condițiile a căror îndeplinire nu rezultă clar din documentele depuse, precum și orice alte informații similare relevante.
+
+\*5) Se completează la data desfășurării probei scrise, respectiv la data corectării lucrărilor.
+
+\*6) Se completează la data desfășurării interviului.
+
+(\*) Se completează după desigilarea lucrărilor, după ce toți membrii comisiei de concurs/comisiei de soluționare a contestațiilor au acordat note.
+
+(\*\*) Este același pentru toți candidații la ocuparea aceleiași funcții publice, pentru ocuparea funcțiilor publice de execuție sau din categoria înalților funcționari publici, după caz.
+
+\*7) Se completează, dacă este cazul, pentru fiecare probă a concursului în parte (verificarea eligibilității candidaților, proba scrisă, interviu, contestație).
+
+Anexa nr. 2
+
+(anexa nr. 13 la Ordonanța de urgență a Guvernului nr. 57/2019)
+
+## Lista autorităților și instituțiilor publice obligate la inițierea armonizării actelor normative specifice, conform prevederilor art. 539 din prezentul cod
+
+Art. 1. - Autoritățile și instituțiile publice care încadrează personal contractual în condițiile prevăzute la art. 539 alin. (2) lit. f) din prezentul cod, sunt următoarele:
+
+a) Administrația Prezidențială;
+
+b) Ministerul Apărării Naționale;
+
+c) Ministerul Afacerilor Interne;
+
+d) Serviciul Român de Informații;
+
+e) Serviciul de Informații Externe;
+
+f) Serviciul de Protecție și Pază;
+
+g) Administrația Națională a Rezervelor de Stat și Probleme Speciale;
+
+h) Societatea Română de Televiziune;
+
+i) Societatea Română de Radiodifuziune;
+
+j) Academia Română;
+
+k) Academia Oamenilor de Știință;
+
+1\) Autoritatea de Supraveghere Financiară;
+
+m)Autoritatea Națională de Reglementare în Domeniul Energiei.
+
+Art. 2. - Autoritățile publice care au obligația de a iniția modificarea actelor normative proprii de organizare și funcționare pentru a pune în acord cadrul specific de reglementare cu prevederile prezentului cod în vederea dezvoltării cadrelor de competențe, conform art. 539 alin. (8) din prezentul cod, sunt următoarele:
+
+a) Curtea de Conturi a României;
+
+b) Consiliul Concurenței;
+
+c) Agenția Națională de Integritate;
+
+d) Consiliul Național al Audiovizualului;
+
+e) Consiliul Național pentru Studierea Arhivelor Securității;
+
+f) Oficiul Național de Prevenirea și Combaterea a Spălării Banilor;
+
+g) Autoritatea Națională de Supraveghere a Prelucrării Datelor cu Caracter
+
+## Personal;
+
+h) Alte autorități administrative autonome înființate prin lege organică.

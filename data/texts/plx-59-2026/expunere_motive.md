@@ -1,81 +1,388 @@
-EXPUNERE DE MOTIVE
+# EXPUNERE DE MOTIVE
 
-Secțiunea 1 - Titlul proiectului de act normativ
+# Secțiunea 1 - Titlul proiectului de act normativ
 
-LEGE
+## LEGE
 
-pentru aprobarea Ordonanței de urgență a Guvernului privind unele măsuri pentru realizarea de investiții în domeniul securității naționale prin asigurarea unor condiții optime dezvoltării de proiecte ale operatorilor economici din industria de apărare
+# pentru aprobarea Ordonanței de urgență a Guvernului privind unele măsuri pentru realizarea de investiții în domeniul securității naționale prin asigurarea unor condiții optime dezvoltării de proiecte ale operatorilor economici din industria de apărare
 
-Secțiunea a 2-a Motivul emiterii actului normativ
+Secțiunea a 2-a
 
-2.1. Sursa proiectului de act normativ Proiectul de act normativ este elaborat de Ministerul Economiei, Digitalizării, Antreprenoriatului și Turismului.
+# Motivul emiterii actului normativ
 
-2.2. Descrierea situatiei actuale In contextul regional geopolitic actual, marcat de instabilitate și amenințări multiple în proximitatea României, este esențial ca țara să își întărească capacitatea de apărare. Acest lucru este necesar nu doar pentru a proteja interesele esențiale de securitate națională, ci și pentru a-și respecta angajamentele internaționale asumate în cadrul NATO și al Uniunii Europene. Aceste structuri impun standarde ridicate în ceea ce privește interoperabilitatea și capacitatea de reacție militară. ENERAL A Strategia națională pentru industria de apărare (SNIA) este o strategie intersèctôrială, GUVER •on care aplică Programul de Guvernare în domeniul industriei de apărare. | scont
+2.1. Sursa proiectului de act normativ
 
-ROMÂNIA
+Proiectul de act normativ este elaborat de Ministerul Economiei, Digitalizării, Antreprenoriatului și Turismului.
 
-prezentării primei strategii industriale europene din domeniul apărării la nivelul Uniunii Europene (UE) și a propunerii unui set ambițios de noi acțiuni pentru sprijinirea competitivității și pregătirii industriei de apărare, provocarea României, ca stat membru al UE și al Organizației Tratatului Atlanticului de Nord (NATO), este aceea de a răspunde prompt direcțiilor comune de acțiune, precum și de a contura un profil de țară demn de statutul nostru în cadrul celor două organizații și care să ia în considerare poziția noastră geografică. Strategia Națională de Apărare a Țării reprezintă, în mod firesc și legitim, cumulul sintetic al aspirațiilor, dorințelor, viziunilor și ideilor de libertate, demnitate și prosperitate menite să construiască o Românie normală, o Românie a secolului XXI. Strategia reflectă nevoia de a asigura un echilibru firesc între securitatea națională și alte domenii vitale, precum economia, sănătatea sau educația. Strategia Națională de Apărare a Țării propune un management al problematicii de securitate națională cu accent pe gestionarea integrată a riscurilor, amenințărilor și vulnerabilităților de către statul român. Gestionarea integrată are o dublă valență: prima este internă, națională, în spiritul edificării unei autentice comunități de securitate, apărare și ordine publică, a doua valență este cea europeană, euro-atlantică și internațională, România asumându-și responsabilitățile ce-i revin în calitate de membru al UE, NATO, OSCE, ONU și al altor organizații internaționale. Comportamentul agresiv al Federației Ruse, acțiunile de militarizare a regiunii Mării Negre și de tip hibrid desfășurate de acest stat, ce au ca scop menținerea unui climat tensionat și de insecuritate în zona apropiată țării noastre, determină România să continue cu fermitate procesul amplu de construire de capabilități robuste de descurajare și apărare. Acest proces se destășoară împreună cu cel de creștere a interoperabilității forțelor noastre armate cu aliații și cu întărirea capacității instituționale de contracarare a acțiunilor de tip hibrid. Evoluțiile din domeniul tehnologic determină diversificarea și creșterea complexității riscurilor și amenințărilor de securitate, precum atacurile cibernetice, activitățile specifice domeniului informațional (acțiuni ostile/de influență dery atenti spațiul public, dezinformare, răspândirea de știri false/fabricate etc.) și posibile efecté Prali reli Sanes J10 HOMĂNIA 2
+## 2.2. Descrierea situației actuale
 
-nocive și destabilizatoare ale importului unor tehnologii cu uz civil în cadrul acțiunilor asimetrice și hibride, generând noi provocări de securitate. Pe plan intern, Strategia Națională de Apărare a Țării vine în sprijinul efortului național de modernizare a statului. Buna guvernare rămâne instrumentul prin care democrația trece din planul conceptelor și teoriilor în planul vieții reale și o condiție esențială a securității și prosperității, factorii implicați în procesul bunei guvernări fiind deopotrivă statul și societatea civilă.
+În contextul regional geopolitical actual, marcat de instabilitate și amenințări multiple în proximitatea României, este esențial ca țara să își întărească capacitatea de apărare. Acest lucru este necesar nu doar pentru a proteja interesele esențiale de securitate națională, ci și pentru a-și respecta angajamentele internaționale asumate în cadrul NATO și al Uniunii Europene. Aceste structuri impun standarde ridicate în ceea ce privește interoperabilitatea și capacitatea de reacție militară.
 
-Pentru a depăși provocările actuale, România are nevoie de o viziune pe termen lung și de un obiectiv final în domeniul industriei de apărare, care să exprime nivelul de ambiție propus, în acord cu viziunea și scopurile Strategiei industriale europene de apărare (EDIS). Acest document asigură un cadru unitar și coerent de intervenție publică în vederea transformării și revitalizării industriei naționale de apărare prin participarea tuturor instituțiilor cu atribuții în domeniu. Totodată, asigură implementarea unui set de politici publice și planificarea strategică a proceselor transformaționale în domeniul abordat,în sensul dezvoltării durabile a României, în așa fel încât obiectivele generale și specifice să fie realizate, inclusiv prin utilizarea eficientă a tuturor resurselor. Suplimentar, România trebuie să față facă oricăror riscuri la adresa securității naționale. Prin urmare, investițiile în industria de apărare devin o prioritate strategică. Acestea ar trebui să se concentreze pe modernizarea echipamentelor militare, dezvoltarea de noi tehnologii de apărare și creșterea capacității de producție internă a echipamentelor militare. Această abordare nu doar că va spori securitatea națională, dar va contribui și la creșterea autonomiei strategice a României în cadrul alianțelor sale.
+Strategia națională pentru industria de apărare (SNIA) este o strategie inter care aplică Programul de Guvernare în domeniul industriei de apărare. În
 
-Totodată, aceste investiții vor sprijini industria locală de apărare. Pe termen lung, dezvoltarea unei industrii de apărare moderne va permite României să fie mai puțin dependentă de importuri și să contribuie mai eficient la securitatea colectivă în cadrul NATO șI UE. Parteneriatele internaționale cu state NATO și UE, care dispun de o industrieni apărare avansată, sunt esențiale pentru transferul de tehnologie și know-how Aceste
+prezentării primei strategii industriale europene din domeniul apărării la nivelul Uniunii Europene (UE) și a propunerii unui set ambițios de noi acțiuni pentru sprijinirea al UE și al Organizației Tratatului Atlanticului de Nord (NATO), este aceea de a răspunde prompt direcțiilor comune de acțiune, precum și de a contura un profil de țară demn de statutul nostru în cadrul celor două organizații și care să ia în considerare poziția noastră
 
-ROMĂNIA
+geografică.
 
-colaborări pot facilita modernizarea industriei românești de apărare, inclusiv prin co-producții sau proiecte de dezvoltare comune. Pentru a asigura un flux constant de echipamente și piese de schimb pentru forțele armate, România trebuie să îmbunătățească infrastructura industrială și să asigure un lanț de aprovizionare eficient și sigur, care să minimizeze dependența de furnizori externi, în special în situații de criză. Producția internă a echipamentelor va reduce costurile pe termen lung și va întări reziliența strategică. Dezvoltarea capacității umane este la fel de importantă ca cea tehnologică. Personalul militar trebuie să fie instruit corespunzător pentru a opera noile echipamente, iar specialiștii din industria de apărare trebuie să aibă acces la programe de formare continuă pentru a rămâne competitivi și inovativi. Aceste măsuri ar trebui implementate rapid și eficient, având în vedere că securitatea României și capacitatea sa de a răspunde la amenințările externe sunt legate în mod direct de nivelul de pregătire și dotare a forțelor sale armate. Consolidarea industriei de apărare nu numai că va întări postura de apărare a României, dar va contribui și la securitatea colectivă europeană, consolidând poziția țării în cadrul NATO și UE. Industria de apărare joacă un rol vital în menținerea capacităților operaționale ale forțelor armate, iar o incapacitate de a funcționa la parametri optimi din cauza problemelor financiare ar afecta în mod direct securitatea națională. Lipsa echipamentelor adecvate și a infrastructurii de apărare bine susținute ar putea slăbi semnificativ capacitatea României de a răspunde eficient la amenințările externe, mai ales într-un context în care regiunile de proximitate se confruntă cu instabilitate politică și militară. Având în vedere imposibilitatea punerii imediate în aplicare a unor programe coerente ori realizarea de investiții cu aportul unor investitori pentru situațiile ce urmăresc protecția interesului esențial de securitate, din cauza cadrului legal insuficient, lipsa fondurilor și riscul împovărării bugetului de stat, intervenția prin prezenta legislație este esențială. În plus, întârzierea acestor investiții poate crea o disfuncționalitate peteren lung în structurile esențiale ale statului, crescând vulnerabilitatea națională în fata-riscurilor geopolitice actuale și viitoare.
+Strategia Națională de Apărare a Țării reprezintă, în mod firesc și legitim, cumulul sintetic al aspirațiilor, dorințelor, viziunilor și ideilor de libertate, demnitate și prosperitate menite să construiască o Românie normală, o Românie a secolului XXI, Strategia reflectă nevoia de a asigura un echilibru firesc între securitatea națională și alte domenii vitale, precum economia, sănătatea sau educația. Strategia Națională de Apărare a Țării propune un management al problematicii de securitate națională cu accent pe gestionarea integrată a riscurilor, amenințărilor și vulnerabilităților de către statul român. Gestionarea integrată are o dublă valență: prima este internă, națională, în spiritul edificării unei autentice comunități de securitate, apărare și ordine publică, a doua valență este cea europeană, euro-atlantică și internațională, România asumându-și responsabilitățile ce-i revin în calitate de membru al UE, NATO, OSCE, ONU și al altor organizații internaționale.
 
-Prin urmare, este necesară identificarea și aprobarea imediată a parteneriatelor strategice adecvate pentru a putea implementa programele de modernizare și dezvoltare, astfel încât instituțiile-cheie ale României să fie echipate corespunzător. Această abordare va asigura că țara își poate menține capacitățile operaționale la nivelul cerințelor impuse de parteneriatele internaționale și de amenințările din mediul geopolitic actual.
+Comportamentul agresiv al Federației Ruse, acțiunile de militarizare a regiunii Mării Negre și de tip hibrid desfășurate de acest stat, ce au ca scop menținerea unui climat tensionat și de insecuritate în zona apropiată țării noastre, determină România să continue cu fermitate procesul amplu de construire de capabilități robuste de descurajare și apărare. Acest proces se desfășoară împreună cu cel de creștere a interoperabilității forțelor noastre armate cu aliații și cu întărirea capacității instituționale de contracarare a acțiunilor de tip hibrid.
 
-Având în vedere dispozițiile art. 346 din Tratatul de funcționare a Uniunii Europene (TFUE), potrivit cărora orice stat membru poate lua măsurile pe care la consideră necesare pentru protecția intereselor esențiale ale siguranței sale și care se referă la producția sau comerțul cu armament, muniție și material de război, cu condiția ca respectivele măsuri să nu distorsioneze concurența pe piața internă pentru produsele ce nu sunt destinate unor scopuri specific militare și luând în considerare necesitatea definirii unui mecanism de implementare a art. 346 TFUE în materia realizării unor investiții în domeniul industriei de apărare, fără de care se creează vulnerabilități privind securitatea națională. Prioritățile, politicile și cadrul legal existente Pe baza nevoilor de dotare cu armament, muniție, produse, sisteme și platforme militare ale FSNA, precum și a nevoii de protejare a intereselor esențiale de securitate au fost identificate următoarele priorități: - Reluarea fabricării de pulberi cu bază simplă, dublă, triplă și sferică și dezvoltarea capacităților pentru producerea de explozivi brizanți (TNT, RDX, PETN), a pulberilor necesare producerii de combustibil pentru rachete reluarea fabricației de capse detonante, de inițiere și alte elemente pirotehnice. - Asigurarea pe plan intern a principalelor materii prime necesare fabricării pulberii pentru muniție. - Transformarea și revitalizarea capacităților de fabricare a armamentului de infanterie și a aparaturii optoelectronice în așa fel încât să se asigure tranziția de la armamentul individual existent la cel standard NATO. - Transformarea și revitalizarea capacităților de producție a munițiilor, cu açeent po omologarea celor standard NATO necesare noilor mijloace de luptă intrate/ ca urmeaza să intre în dotarea MApN; dezvoltarea de noi capabilități privind muniția | ra
+Evoluțiile din domeniul tehnologic determină diversificarea și creșterea complexității riscurilor și amenințărilor de securitate, precum atacurile cibernetice, activitățile specifice domeniului informațional (acțiuni ostile/de influență spațiul public, dezinformare, răspândirea de știri false/fabricate etc.) și posifile ClectE|
 
-standarde NATO pentru toate tipurile de armamente și rachete, omologarea munițiilor standard NATO pentru armamentul de infanterie.
+| nocive și destabilizatoare ale importului unor tehnologii cu uz civil în cadrul acțiunilor asimetrice și hibride, generând noi provocări de securitate. |
+| --- |
+| Pe plan intern, Strategia Națională de Apărare a Țării vine în sprijinul efortului național de modernizare a statului. Buna guvernare rămâne instrumentul prin care democrația trece din planul conceptelor și teoriilor în planul vieții reale și o condiție esențială a securității și prosperității, factorii implicați în procesul bunei guvernări fiind deopotrivă statul și societatea civilă. |
+| Pentru a depăși provocările actuale, România are nevoie de o viziune pe termen lung și de un obiectiv final în domeniul industriei de apărare, care să exprime nivelul de ambiție propus, în acord cu viziunea și scopurile Strategiei industriale europene de apărare (EDIS). Acest document asigură un cadru unitar și coerent de intervenție publică în vederea transformării și revitalizării industriei naționale de apărare prin participarea tuturor instituțiilor cu atribuții în domeniu. Totodată, asigură implementarea unui set de politici publice și planificarea strategică a proceselor transformaționale în domeniul abordat, în sensul dezvoltării durabile a României, în așa fel încât obiectivele generale și specifice să fie realizate, inclusiv prin utilizarea eficientă a tuturor resurselor. |
+| Suplimentar, România trebuie să față facă oricăror riscuri la adresa securității naționale. Prin urmare, investițiile în industria de apărare devin o prioritate strategică. Acestea ar trebui să se concentreze pe modernizarea echipamentelor militare, dezvoltarea de noi tehnologii de apărare și creșterea capacității de producție internă a echipamentelor militare. Această abordare nu doar că va spori securitatea națională, dar va contribui și la creșterea autonomiei strategice a României în cadrul alianțelor sale. |
+| Totodată, aceste investiții vor sprijini industria locală de apărare. Pe termen lung, dezvoltarea unei industrii de apărare moderne va permite României să fie mai puțin dependentă de importuri și să contribuie mai eficient la securitatea colectivă în cadrul NATO și UE. |
+| Parteneriatele internaționale cu state NATO și UE, care dispun de o industrie de apărare avansată, sunt esențiale pentru transferul de tehnologie și know-how. Aceste |
 
-\- Transformarea și revitalizarea tuturor capacităților de producție ale operatorilor economici de stat din domeniul aerospațial și naval și susținerea dezvoltării operatorilor cu capital privat. - Transformarea și revitalizarea capacităților de producție care pot asigura executarea lucrărilor de mentenanță pentru refacerea stării tehnice a echipamentelor militare, pe timp de pace și pe timp de război, cât și modernizarea acestora. - Revitalizarea capacităților de fabricare în domeniul autovehiculelor militare pentru a putea asigura producția, integrarea, testarea și mentenanța în țară a tuturor automobilelor și a autospecialelor realizate pe șasiul acestora.
+| colaborări pot facilita modernizarea industriei românești de apărare, inclusiv prin co-producții sau proiecte de dezvoltare comune. |
+| --- |
+| Pentru a asigura un flux constant de echipamente și piesE de schimb pentru forțele armate, România trebuie să îmbunătățească infrastructura industrială și să asigure un lanț de aprovizionare eficient și sigur, care să minimizeze dependența de furnizori externi, în special în situații de criză. Producția internă a echipamentelor va reduce costurile pe termen lung și va întări reziliența strategică. |
+| Dezvoltarea capacității umane este la fel de importantă ca cea tehnologică. Personalul militar trebuie să fie instruit corespunzător pentru a opera noile echipamente, iar specialiștii din industria de apărare trebuie să aibă acces la programe de formare continuă pentru a rămâne competitivi și inovativi. |
+| Aceste măsuri ar trebui implementate rapid și eficient, având în vedere că securitatea României și capacitatea sa de a răspunde la amenințările externe sunt legate în mod direct de nivelul de pregătire și dotare a forțelor sale armate. Consolidarea industriei de apărare nu numai că va întări postura de apărare a României, dar va contribui și la securitatea colectivă europeană, consolidând poziția țării în cadrul NATO și UE. |
+| Industria de apărare joacă un rol vital în menținerea capacităților operaționale ale forțelor armate, iar o incapacitate de a funcționa la parametri optimi din cauza problemelor financiare ar afecta în mod direct securitatea națională. Lipsa echipamentelor adecvate și a infrastructurii de apărare bine susținute ar putea slăbi semnificativ capacitatea României de a răspunde eficient la amenințările externe, mai ales într-un context în care regiunile de proximitate se confruntă cu instabilitate politică și militară. |
+| Având în vedere imposibilitatea punerii imediate în aplicare a unor programe coerente ori realizarea de investiții cu aportul unor investitori pentru situațiile ce urmăresc protecția interesului esențial de securitate, din cauza cadrului legal insuficient, lipsa fondurilor și riscul împovărării bugetului de stat, intervenția prin prezenta legislație este esențială. În plus, întârzierea acestor investiții poate crea o disfuncționalitate pe termen lung în structurile esențiale ale statului, crescând vulnerabilitatea națională în fata riscurilor geopolitice actuale și viitoare. |
 
-\- Susținerea dezvoltării capacităților existente la operatorii economiciromâni în vederea realizării și integrării sistemelor de comunicații și informatică, de comandă-control și a realizării de software destinat domeniului apărării și securității naționale.
+| Prin urmare, este necesară identificarea și aprobarea imediată a parteneriatelor strategice adecvate pentru a putea implementa programele de modernizare și dezvoltare, astfel încât instituțiile-cheie ale României să fie echipate corespunzător. Această abordare va asigura că țara își poate menține capacitățile operaționale la nivelul cerințelor impuse de parteneriatele internaționale și de amenințările din mediul geopolitic actual. |
+| --- |
+| Având în vedere dispozițiile art. 346 din Tratatul de funcționare a Uniunii Europene (TFUE), potrivit cărora orice stat membru poate lua măsurile pe care la consideră necesare pentru protecția intereselor esențiale ale siguranței sale și care se referă la producția sau comerțul cu armament, muniție și material de război, cu condiția ca respectivele măsuri să nu distorsioneze concurența pe piața internă pentru produsele ce nu sunt destinate unor scopuri specific militare și luând în considerare necesitatea definirii unui mecanism de implementare a art. 346 TFUE în materia realizării unor investiții în domeniul industriei de apărare, fără de care se creează vulnerabilități privind securitatea națională. |
+| Prioritățile, politicile și cadrul legal existente |
+| Pe baza nevoilor de dotare cu armament, muniție, produse, sisteme și platforme militare ale FSNA, precum și a nevoii de protejare a intereselor esențiale de securitate au fost identificate următoarele priorități: |
+| - Reluarea fabricării de pulberi cu bază simplă, dublă, triplă și sferică și dezvoltarea capacităților pentru producerea de explozivi brizanți (TNT, RDX, PETN), a pulverilor necesare producerii de combustibil pentru rachete reluarea fabricației de capse detonante, de inițiere și alte elemente pirotehnice. |
+| - Asigurarea pe plan intern a principalelor materii prime necesare fabricării pulberii pentru muniție. |
+| - Transformarea și revitalizarea capacităților de fabricare a armamentului de infanterie și a aparaturii optoelectronice în așa fel încât să se asigure tranziția de la armamentul individual existent la cel standard NATO. |
+| - Transformarea și revitalizarea capacităților de producție a munițiilor, cu aceenț pe omologarea celor standard NATO necesare noilor mijloace de luptă intrate/ care urmează să între în dotarea MApN; dezvoltarea de noi capabilități privind muniția de artinerie la |
 
-\- Asigurarea și întărirea rezilienței României în situații de criză și reducerea dependenței față de furnizorii de materii prime și furnituri din afara spațiului UE și NATO, prin investiții realizate de către statul român în capacitățile de producție din domeniul industriei naționale de apărare atât pentru produse militare, cât și pentru cele cu dublă utilizare. 10. Atragerea de investiții străine și crearea de societăți mixte cu investitori strategici din state membre UE, NATO și/sau a unor state cu care România are încheiate parteneriate strategice în domeniul apărării și industriei de apărare.
+| standarde NATO pentru toate tipurile de armamente și rachete, omologarea munițiilor standard NATO pentru armamentul de infanterie. |
+| --- |
+| - Transformarea și revitalizarea tuturor capacităților de producție ale operatorilor economici de stat din domeniul aerospațial și naval și susținerea dezvoltării operatorilor cu capital privat. |
+| - Transformarea și revitalizarea capacităților de producție care pot asigura executarea lucrărilor de mentenanță pentru refacerea stării tehnice a echipamentelor militare, pe timp de pace și pe timp de război, cât și modernizarea acestora. |
+| - Revitalizarea capacităților de fabricare în domeniul autovehiculelor militare pentru a putea asigura producția, integrarea, testarea și mentenanța în țară a tuturor automobilelor și a autospecialelor realizate pe șasiul acestora. |
+| - Susținerea dezvoltării capacităților existente la operatorii economiciromâni în vederea realizării și integrării sistemelor de comunicații și informatică, de comandă-control și a realizării de software destinat domeniului apărării și securității naționale. |
+| - Asigurarea și întărirea rezilienței României în situații de criză și reducerea dependenței față de furnizorii de materii prime și furnituri din afara spațiului UE și NATO, prin investiții realizate de către statul român în capacitățile de producție din domeniul industriei naționale de apărare atât pentru produse militare, cât și pentru cele cu dublă utilizare. |
+| 10. Atragerea de investiții străine și crearea de societăți mixte cu investitori strategici din state membre UE, NATO și/sau a unor state cu care România are încheiate parteneriate strategice în domeniul apărării și industriei de apărare. |
+| Neadoptarea în regim de urgență a unor măsuri pentru realizarea de investiții în domeniul securității naționale prin asigurarea unor condiții optime dezvoltării de proiecte ale operatorilor economici din industria de apărare ar avea consecințe deosebit de grave sub aspectul imposibilității operatorilor economici din industria națională de apărare, ca pe baza capacităților de producție existente și insuficente din punct de vedere cantitativ, cât și al tehnologiilor folosite, să satisfacă necesitățile Fortelor Sistemului Național de Apărare atât pe timp de pace cât și în caz de conflict militar. |
 
-Neadoptarea în regim de urgență a unor măsuri pentru realizarea de investiții în domeniul securității naționale prin asigurarea unor condiții optime dezvoltării de proiecte ale operatorilor economici din industria de apărare ar avea consecințe deosebit de grave sub aspectul imposibilității operatorilor economici din industria națională de apărare, ca pe baza capacităților de producție existente și insuficente din punct de vedere cantitativ, cât și al tehnologiilor folosite, să satisfacă necesitățile Forțelor Sistemului Național de SERA Apărare atât pe timp de pace cât și în caz de conflict militar.
+În considerarea celor indicate în vederea facilitării realizării de investiții în domeniul securității naționale prin asigurarea unor condiții optime dezvoltării de proiecte ale operatorilor economici din industria de apărare se impune adoptarea de măsuri care să perimtă acestor operatori utilizarea mecanismelor puse la dispozițe de către Uniunea Europeană prin: ASAP (Act to Support Ammunition Production), Security Action for Europe, denumit în continuare SAFE și European Defence Industry Reinforcement through common Procurement Act denumit în continuare EDIRPA, precum și a altor mecanisme puse la dispoziție de alți parteneri strategici.
 
-ROMANI
+EDIRPA (European Defence Industry Reinforcement through common Procurement Act) este un program al Uniunii Europene conceput pentru a stimula cooperarea între statele membre în domeniul achizițiilor comune de apărare. Scopul său principal este de a sprijini statele membre să își coordoneze și să își achiziționeze în comun cele mai urgente și critic produce de apărare, în special cele a căror necesitate a crescut semnificativ ca urmare a agresiunii Federației Ruse împotriva Ucrainei.
 
-În considerarea celor indicate în vederea facilitării realizării de investiții în domeniul securității naționale prin asigurarea unor condiții optime dezvoltării de proiecte ale operatorilor economici din industria de apărare se impune adoptarea de măsuri care să perimtă acestor operatori utilizarea mecanismelor puse la dispozițe de către Uniunea Europeană prin: ASAP (Act to Support Ammunition Production), Security Action for Europe, denumit în continuare SAFE și European Defence Industry Reinforcement through common Procurement Act denumit în continuare EDIRPA, precum și a altor mecanisme puse la dispoziție de alți parteneri strategici. EDIRPA (European Defence Industry Reinforcement through common Procurement Act) este un program al Uniunii Europene conceput pentru a stimula cooperarea între statele membre în domeniul achizițiilor comune de apărare. Scopul său principal este de a sprijini statele membre să își coordoneze și să își achiziționeze în comun cele mai urgente și critice produse de apărare, în special cele a căror necesitate a crescut semnificativ ca urmare a agresiunii Federației Ruse împotriva Ucrainei. Obiectivele programului EDIRPA: Consolidarea cooperării europene în domeniul achizițiilor de apărare, prin stimularea participării comune a statelor membre la proiecte de achiziție; Creșterea eficienței și reducerea costurilor prin achiziții comune, evitând duplicarea eforturilor naționale; Sprijinirea industriei europene de apărare (European Defence Technological and Industrial Base - EDTIB) prin comenzi coordonate și predictibile; Îmbunătățirea interoperabilității între forțele armate ale statelor membre și consolidarea capacității colective de reacție. Prin intermediul acestui instrument, Comisia Europeană acordă stimulente financiare statelor membre care se angajează să deruleze achiziții comune de produse de apărare. Finanțarea se bazează pe principiul cooperării între cel puțin trei state membre și are ca scop reducerea complexității procedurilor asociate achizițiilor comune, recompensând coordonarea și planificarea colectivă. EDIRPA reprezintă „pista 2" din planul european în trei etape privind muniția și capabilitățile de apărare: - 1: sprijinirea livrărilor imediate către Ucraina din stocurile statelor membre juridic EENERAL - 2: achiziții comune prin EDIRPA pentru reînnoirea stocurilor; | AR ctia SECHET COMTNIA 7
+Obiectivele programului EDIRPA: Consolidarea cooperării europene în domeniul achizițiilor de apărare, prin stimularea participării comune a statelor membre la proiecte de achiziție; Creșterea eficienței și reducerea costurilor prin achiziții comune, evitând duplicarea eforturilor naționale; Sprijinirea industriei europene de apărare (European Defence Technological and Industrial Base – EDTIB) prin comenzi coordonate și predictibile; Îmbunătățirea interoperabilității între forțele armate ale statelor membre și consolidarea capacității colective de reacție. Prin intermediul acestui instrument, Comisia Europeană acordă stimulente financiare statelor membre care se angajează să deruleze achiziții comune de produse de apărare. Finanțarea se bazează pe principiul cooperării între cel puțin trei state membre și are ca scop reducerea complexității procedurilor asociate achizițiilor comune, recompensând coordonarea și planificarea colectivă. EDIRPA reprezintă „pista 2” din planul european în trei etape privind muniția și capabilitățile de apărare:
+
+\- 1: sprijinirea livrărilor imediate către Ucraina din stocurile statelor membre:
+
+\- 2: achiziții comune prin EDIRPA pentru reînnoirea stocurilor;
 
 \- 3: creșterea capacităților industriale europene prin programul ASAP.
 
-Prin urmare, EDIRPA acționează pe partea cererii, în timp ce ASAP intervine pe partea ofertei - cele două instrumente fiind complementare și interdependente în consolidarea securității și apărării europene.
+Prin urmare, EDIRPA acționează pe partea cererii, în timp ce ASAP intervine pe | partea ofertei — cele două instrumente fiind complementare și interdependente în
 
-ASAP (Act to Support Ammunition Production) este un răspuns direct la apelul Consiliului European din martie 2023 de a livra de urgență muniție - și rachete, dacă este solicitat - Ucrainei și de a ajuta statele membre să își reumple stocurile prin introducerea unor măsuri specifice. Având ca scop creșterea capacității de producție de muniție în întreaga Europă, ASAP constituie pista 3 (componenta industrială) a așa-numitei abordări în trei piste a planului de muniție convenit de Consiliu. Obiectivele instrumentului ASAP sunt: sprijinirea industriei de apărare a UE pentru a-și intensifica capacitățile de fabricație, în vederea satisfacerii cererii crescute de muniție și rachete; asigurarea aprovizionării și disponibilității inputurilor critice, precum materiile prime și componentele; facilitarea accesului companiilor europene de apărare la finanțare și mobilizarea fondurilor private; eliminarea blocajelor în producție pentru a permite ritmuri de livrare mai rapide.
+consolidarea securității și apărării europene.
 
-Programul de lucru ASAP vizează principalele blocaje identificate în lanțurile de aprovizionare cu muniție - explozivi, pulbere de propulsie și proiectile (obuze) - și sprijină, de asemenea, creșterea producției de rachete. Acesta abordează și problemele legate de uzură, testare și certificarea recondiționării produselor relevante din domeniul apărării. Programul de lucru ASAP este structurat în jurul a cinci apeluri pentru propuneri, pe următoarele teme: Explozivi; Pulbere; Proiectile (obuze); Rachete; Testare și certificare a recondiționării; Security Action for Europe, denumit în continuare SAPE. Statului român îi sunt puse la dispoziție 16,68 miliarde de euro prin programul european SAFE, finanțare destinată consolidării capacității de apărare. În concluziile sale din 6 martie 2025, Consiliul European a subliniat că Europa trebuie să devină mai suverană, să își asume o mai mare responsabilitate pentru propria sa apărare și să fie mai bine pregătită să acționeze și să facă față în mod autonom provoca alor și amenințărilor imediate și viitoare. La acea reuniune a Consiliului Europeans foate stateles
+ASAP (Act to Support Ammunition Production) este un răspuns direct la apelul Consiliului European din martie 2023 de a livra de urgență muniție — și rachete, dacă este solicitat — Ucrainei și de a ajuta statele membre să își reumple stocurile prin introducerea unor măsuri specifice. Având ca scop creșterea capacității de producție de muniție în întreaga Europă, ASAP constituie pista 3 (componenta industrială) a așa-numitei abordări
 
-ROMANIA
+în trei piste a planului de muniție convenit de Consiliu.
 
-membre s-au angajat să își consolideze gradul general de pregătire pentru apărare, să reducă dependențele strategice, să abordeze deficitele în! materie de capabilități critice și să consolideze în consecință EU's Defence Technological and Industrial Base, denumit în continuare EDTIB, astfel încât UE să fie în măsură să furnizeze mai bine echipamente în cantitățile și în ritmul accelerat de care este nevoie.
+Obiectivele instrumentului ASAP sunt: sprijinirea industriei de apărare a UE pentru a-și intensifica capacitățile de fabricație, în vederea satisfacerii cererii crescute de muniție prime și componentele; facilitarea accesului companiilor europene de apărare la finanțare și mobilizarea fondurilor private; eliminarea blocajelor în producție pentru a permite
 
-SAFE este primul pilon al Planului Comisiei Europene „ReArm Europe Plan/Readiness 2030", care propune mobilizarea a peste 800 de miliarde EUR sub formă de cheltuieli pentru apărare. Ceilalți piloni sunt: stimularea finanțării apărării naționale prin activarea clauzei derogatorii naționale în temeiul Pactului de stabilitate și de creștere; flexibilizarea instrumentelor UE, cum ar fi fondurile de coeziune, pentru a permite investiții mai mari în domeniul apărării; completarea finanțării publice cu contribuții din partea Băncii Europene de Investiții; mobilizarea capitalului privat. Activitățile eligibile finanțate prin SAFE/ASAP se referă la prima listă de domenii prioritare identificate de către Consiliul European la 6 martie 2025 și sunt împărțite în două categorii de produse din domeniul apărării: 1) muniție și rachete; sisteme de artilerie, inclusiv capabilități de lovire de precizie în adâncime; capabilități de luptă terestră și sisteme de sprijin ale acestora, inclusiv echipamente pentru soldați și armament pentru infanterie; protecția infrastructurii critice; domeniul cibernetic; mobilitatea militară, inclusiv contracararea mobilității; 2) sisteme de apărare antiaeriană și antirachetă; capabilități maritime de suprafață și subacvatice; dronele și sistemele antidrone; factori de sprijin strategici care includ, fără a se limita la aceștia, transportul aerian strategic, alimentarea în aer și sistemele C4 ISTAR, precum și activele și serviciile spațiale; protecția activelor spațiale; inteligența artificială și războiul electronic. Produsele din domeniul apărării care fac parte din categoria 2 vor face obiectul unor condiții de eligibilitate mai stricte, care impun contractanților să aibă capacitatea de a decide cu privire la definirea, adaptarea și evoluția proiectării produselor din domeniul apărării achiziționate. | juridic GENERA
+ritmuri de livrare mai rapide.
 
-so JEMANH 9
+Programul de lucru ASAP vizează principalele blocaje identificate în lanțurile de aprovizionare cu muniție — explozivi, pulbere de propulsie și proiectile (obuze) — și sprijină, de asemenea, creșterea producției de rachete. Acesta abordează și problemele legate de uzură, testare și certificarea recondiționării produselor relevante din domeniul apărării. Programul de lucru ASAP este structurat în jurul a cinci apeluri pentru propuneri, pe următoarele teme: Explozivi; Pulbere; Proiectile (obuze); Rachete; Testare și certificare
 
-Foreign Military Financing, denumit în continuare FMF este un program al SUA de asistență în domeniul apărării pentru partenerii externi, prin care SUA oferă granturi sau împrumuturi avantajoase pentru achiziții de echipamente și tehnologie militară. Departamentul de Stat al SUA a alocat României un împrumut direct de 920 milioane de dolari (aprox. 4,1 miliarde lei) prin mecanismul Foreign Military Financing, România fiind un partener strategic situat pe Flancul Estic al NATO, lângă Marea Neagră. Mecanismul FMF oferă o modalitate eficientă și avantajoasă de a diversifica sursele de finanțare ale guvernului român, din perspectiva maturității și a costurilor asociate cu această finanțare, comparativ cu alte surse utilizate în prezent, concomitent cu dezvoltarea anumitor capabilități militare strategice. Obiectivele finanțării îl constiuie: - Modernizarea capacităților militare ale României și achiziția de tehnologie americană de ultimă generație; - Sprijinirea industriei locale de apărare pentru a deveni nu doar consumatoare, ci și producătoare în domeniul munitiilor, armamentului și componentelor strategice; Consolidarea poziției României în cadrul NATO, pe flancul estic, și creșterea interoperabilității cu forțele americane; - Prin acest acord, România își asigură un instrument de finanțare semnificativ pentru dotarea Forțelor Armate cu echipamente moderne (ex: tancuri, avioane, rachete) și pentru dezvoltarea industriei naționale de apărare; - Este un stimulent important pentru cooperarea industrială cu parteneri americani, transferul de tehnologii și producție locală, ceea ce va contribui la autonomia strategică; - Asigură un cadru de finanțare care poate reduce presiunea asupra bugetului național pentru capitolul achiziții militare, datorită condițiilor avantajoase oferite de FMF; - Acordul întărește relația strategică România-SUA și poziția României în NATO ca GENERA partener important pe flancul estic. | juridic In considerare acestor aspecte rederitor la Foreign Military Financing se impune
+a recondiționării; Security Action for Europe, denumit în continuare SAFE,
 
-HOMÂNHA 10
+Statului român îi sunt puse la dispoziție 16,68 miliarde de euro prin programul
 
-\- Implementarea eficientă a fondurilor: asigurarea că sumele alocate sunt utilizate pentru proiectele planificate și că industria națională își asumă partea de producție; - Respectarea termenelor și condițiilor de utilizare: proiectele trebuie să fie eligibile, să respecte criteriile americane și să asigure monitorizare și transparență; - Continuitatea finanțării: mecanismul trebuie susținut politic și bugetar pentru a nu deveni blocat.
+european SAFE, finanțare destinată consolidării capacității de apărare.
 
-\- Compatibilitatea cu alte programe europene (ex: ASAP, EDIRPA, SAFE) - este important ca România să armonizeze finanțările americane cu cele europene, pentru a evita suprapuneri sau conflic. În privinața programelor NATO care vizează industria de armament și sprijinul capacităților de apărare ale statelor membre, România poate beneficia de contracte NATO Support and Procurement Agency, denumit în continuare NSPA și programul NATO Defence Innovation Accelerator, denumit în continuare DIANA pentru transfer de tehnologie și dezvoltarea producției locale. Industria românească poate participa la licitații și proiecte comune NATO pentru armament, muniții și echipamente de comunicații. De aseamenea Programele NATO oferă și finanțare sau cofinanțare pentru proiecte de cercetare-dezvoltare în domeniul apărării. NSPA este destinat achizițiilor, logisticii și suportului tehnic pentru statele membre NATO, oferă contracte pentru producători de echipamente militare și sprijină dezvoltarea de componente, muniții, vehicule și sisteme de comunicații. România poate participa la licitații pentru mentenanță, reparații și furnizare de echipamente pentru NATO. DIANA are rol în inovare și transfer de tehnologie în domeniul militar prin: - Susținerea startup-uri și companii din sectorul privat pentru dezvoltarea de tehnologii militare avansate. - Programează investiții în sisteme de inteligență artificială, roboți militari, sisteme de supraveghere și armament de ultimă generație In conextul celor prezentate, proiectul de act normativ supus analizei își propur dispozițiile sale, să asigure:
+În concluziile sale din 6 martie 2025, Consiliul European a subliniat că Europa
 
-ROMÂNIA 11
+trebuie să devină mai suverană, să își asume o mai mare responsabilitate pentru propria sa
 
-1\. Flexibilitate și complementaritate - utilizarea coordonată a fondurilor europene, americane și NATO, pentru a evita suprapuneri și a maximiza eficiența investițiilor în contextul necesității stabilirii unor măsuri proporționale cu scopul asigurării interesului esențial de securtate; 2. Sprijin pentru inovare și transfer tehnologic - inclusiv în domeniile inteligenței artificiale, dronelor, sistemelor antirachetă, protecției infrastructurii critice și mobilității militare, în măsura în care acesta corespunde scopului urmărit prin prezenta ordonanță de urgență; 3. Acces la finanțări viitoare - nu doar prin programele existente, ci și prin instrumente noi, aflate în dezvoltare, care pot răspunde noilor provocări tehnologice și de securitate;
+apărare și să fie mai bine pregătită să acționeze și să facă față în mod autonom p ATA i RN stidic )
 
-4\. Dezvoltarea autonomiei strategice - consolidarea capacității industriei românești de a produce muniție, echipamente și tehnologii critice, reducând dependența de importuri și sporind interoperabilitatea cu partenerii NATO și UE în contextul geostrategic actual, marcat de conflicte armate în proximitate; 5. Implementare eficientă și transparentă - proiectele finanțate trebuie să fie monitorizate riguros, respectând termenele, condițiile de eligibilitate și prioritățile strategice naționale. În concluzie, finanțarea sectorului apărării trebuie să fie dinamică și diversificată și să răspundă cerințelor esențiale de securitate, combinând programele existente cu noi instrumente de finantare viitoare.
+și amenințărilor imediate și viitoare. La acea reuniune a Consiliului Buropearisioate statele
 
-2.3. Schimbări preconizate Prezenta ordonanță de urgență reglementează cadrul juridic aplicabil calificării investițiilor din domeniul industriei naționale de apărare ca investiții strategice, realizate de către operatorii economici definiți potrivit art. 1 alin. (2) lit. b) sau de către segietăți la care aceștia și investitori privați dețin participații conform proiectului de act normativ?
+| membre s-au angajat să își consolideze gradul general de pregătire pentru apărare, să reducă dependențele strategice, să abordeze deficitele în materie de capabilități critic și să consolideze în consecință EU’s Defence Technological and Industrial Base, denumit în continuare EDTIB, astfel încât UE să fie în măsură să furnizeze mai bine echipamente în cantitățile și în ritmul accelerat de care este nevoie. |
+| --- |
+| SAFE este primul pilon al Planului Comisiei Europene „ReArm Europe Plan/Readiness 2030”, care propune mobilizarea a peste 800 de miliarde EUR sub formă de cheltuieli pentru apărare. Ceilalți piloni sunt: stimularea finanțării apărării naționale prin activarea clauzei derogatorii naționale în temeiul Pactului de stabilitate și de creștere; flexibilizarea instrumentelor UE, cum ar fi fondurile de coeziune, pentru a permite investiții mai mari în domeniul apărării; completarea finanțării publice cu contribuții din partea Băncii Europene de Investiții; mobilizarea capitalului privat. Activitățile eligibile finanțate prin SAFE/ASAP se referă la prima listă de domenii prioritare identificate de către Consiliul European la 6 martie 2025 și sunt împărțite în două categorii de produse din domeniul apărării: |
+| 1) muniție și rachete; sisteme de artilerie, inclusiv capabilități de lovire de precizie în adâncime; capabilități de luptă terestră și sisteme de sprijin ale acestora, inclusiv echipamente pentru soldați și armament pentru infanterie; protecția infrastructurii critice; domeniul cibernetic; mobilitatea militară, inclusiv contracararea mobilității; |
+| 2) sisteme de apărare antiaeriană și antirachetă; capabilități maritime de suprafață și subacvatice; dronele și sistemele antidrone; factori de sprijin strategici care includ, fără a se limita la aceștia, transportul aerian strategic, alimentarea în aer și sistemele C4 ISTAR, precum și activele și serviciile spațiale; protecția activelor spațiale; inteligența artificială și războiul electronic. |
+| Produsele din domeniul apărării care fac parte din categoria 2 vor face obiectul unor condiții de eligibilitate mai stricte, care impun contractanților să aibă capacitatea de a decide cu privire la definirea, adaptarea și evoluția proiectării produselor din domeniul apărării achiziționate. |
 
-ROMÂNIA 12
+Foreign Military Financing, denumit în continuare FMF este un program al SUA de asistență în domeniul apărării pentru partenerii externi, prin care SUA oferă granturi sau împrumuturi avantajoase pentru achiziții de echipamente și tehnologie militară.
 
-*Documentul are 30 de pagini; am citit primele 12.*
+Departamentul de Stat al SUA a alocat României un împrumut direct de 920 milioane de dolari (aprox. 4,1 miliarde lei) prin mecanismul Foreign Military Financing, România fiind un partener strategic situat pe Flancul Estic al NATO, lângă Marea Neagră. Mecanismul FMF oferă o modalitate eficientă și avantajoasă de a diversifica sursele de finanțare ale guvernului român, din perspectiva maturității și a costurilor asociate cu această finanțare, comparativ cu alte surse utilizate în prezent, concomitent cu dezvoltarea anumitor capabilități militare strategice.
+
+Obiectivele finanțării îl constituie:
+
+\- Modernizarea capacităților militare ale României și achiziția de tehnologie americană de ultimă generație;
+
+\- Sprijinirea industriei locale de apărare pentru a deveni nu doar consumatoare, ci și producătoare în domeniul munitiilor, armamentului și componentelor strategice;
+
+\- Consolidarea poziției României în cadrul NATO, pe flancul estic, și creșterea interoperabilității cu forțele americane;
+
+\- Prin acest acord, România își asigură un instrument de finanțare semnificativ pentru dotarea Forțelor Armate cu echipamente moderne (ex: tancuri, avioane, rachete) și pentru dezvoltarea industriei naționale de apărare;
+
+\- Este un stimulent important pentru cooperarea industrială cu parteneri americani, transferul de tehnologii și producție locală, ceea ce va contribui la autonomia strategică;
+
+\- Asigură un cadru de finanțare care poate reduce presiunea asupra bugetului național pentru capitolul achiziții militare, datorită condițiilor avantajoase oferite de FMF;
+
+\- Acordul întărește relația strategică România–SUA și poziția României în NATO ca partener important pe flancul estic.
+
+În considerare acestor aspecte rederitor la Foreign Military Financing se in
+
+Implementarea eficientă a fondurilor: asigurarea că sumele alocate sunt utilizate pentru proiectele planificate și că industria națională își asumă partea de producție;Respectarea termenelor și condițiilor de utilizare: proiectele trebuie să fie eligibile, să respecte criteriile americane și să asigure monitorizare și transparență;Continuitatea finanțării: mecanismul trebuie susținut politic și bugetar pentru a nu deveni blocat.Compatibilitatea cu alte programe europene (ex: ASAP, EDIRPA, SAFE) — este important ca România să armonizeze finanțările americane cu cele europene, pentru a evita suprapuneri sau conflic.În privinața programelor NATO care vizează industria de armament și sprijinul capacităților de apărare ale statelor membre, România poate beneficia de contracte NATO Support and Procurement Agency, denumit în continuare NSPA și programul NATO Defence Innovation Accelerator, denumit în continuare DIANA pentru transfer de tehnologie și dezvoltarea producției locale.Industria românească poate participa la licitații și proiecte comune NATO pentru armament, muniții și echipamente de comunicații. De aseamenea Programele NATO oferă și finanțare sau cofinanțare pentru proiecte de cercetare-dezvoltare în domeniul apărării.NSPA este destinat achizițiilor, logisticii și suportului tehnic pentru statele membre NATO, oferă contracte pentru producători de echipamente militare și sprijină dezvoltarea de componente, muniții, vehicule și sisteme de comunicații. România poate participa la licitații pentru mentenanță, reparații și furnizare de echipamente pentru NATO.DIANA are rol în inovare și transfer de tehnologie în domeniul militar prin:Susținerea startup-uri și companii din sectorul privat pentru dezvoltarea de tehnologii militare avansate.Programează investiții în sisteme de inteligență artificială, roboți militari, sisteme de supraveghere și armament de ultimă generațieÎn conextul celor prezentate, proiectul de act normativ supus analizei își propune, dispozițiile sale, să asigure:
+
+| 1. Flexibilitate și complementaritate – utilizarea coordonată a fondurilor europene, americane și NATO, pentru a evita suprapuneri și a maximiza eficiența investițiilor în contextul necesității stabilirii unor măsuri proporționale cu scopul asigurării interesului esențial de securtate; |
+| --- |
+| 2. Sprijin pentru inovare și transfer tehnologic – inclusiv în domeniile inteligenței artificiale, dronelor, sistemelor antirachetă, protecției infrastructurii critice și mobilității militare, în măsura în care acesta corespunde scopului urmărit prin prezenta ordonanță de urgență; |
+| 3. Acces la finanțări viitoare – nu doar prin programele existente, ci și prin instrumente noi, aflate în dezvoltare, care pot răspunde noilor provocări tehnologice și de securitate; |
+| 4. Dezvoltarea autonomiei strategice – consolidarea capacității industriei românești de a produce muniție, echipamente și tehnologii critice, reducând dependența de importuri și sporind interoperabilitatea cu partenerii NATO și UE în contextul geostrategic actual, marcat de conflicte armate în proximitate; |
+| 5. Implementare eficientă și transparentă – proiectele finanțate trebuie să fie monitorizate riguros, respectând termenele, condițiile de eligibilitate și prioritățile strategice naționale. |
+| În concluzie, finanțarea sectorului apărării trebuie să fie dinamică și diversificată și să răspundă cerințelor esențiale de securitate, combinând programele existente cu noi instrumente de finantare viitoare. |
+| 2.3. Schimbări preconizatePrezenta ordonanță de urgență reglementează cadrul juridic aplicabil calificării investițiilor din domeniul industriei naționale de apărare ca investiții strategice, realizate de către operatorii economici definiți potrivit art. 1 alin. (2) lit. b) sau de către societăți la care aceștia și investitori privați dețin participații conform proiectului de acti-normativ. |
+
+| Scopul reglementării este stimularea investițiilor publice și private în industria națională de apărare, modernizarea și dezvoltarea capacităților industriale, creșterea autonomiei strategice și asigurarea protecției intereselor esențiale de securitate națională. |
+| --- |
+| Investițiile în domeniul industriei naționale de apărare sunt considerate eligibile în sensul prezentei ordonanțe dacă îndeplinesc cumulativ următoarele condiții: |
+| - capacitățile de producție construite, modernizate, supuse reconversiei sau extinse se încadrează în prevederile art. 5 din Legea nr. 232/2016 privind industria națională de apărare, cu modificările și completările ulterioare, și sunt înscrise în inventarul prevăzut la art. 1 alin. (15) din aceeași lege; |
+| - se încadrează în prevederile Strategiei naționale pentru industria de apărare în vigoare; |
+| - elementele esențiale ale mandatului ministerului de resort, care va avea și rolul de supraveghere și asigurare a protejării intereselor esențiale de securitate, precum și condițiile principale de realizare a investiției se aprobă de Guvern prin memorandum; dacă, în urma negocierilor purtate de operatorul economic și investor, rezultă afectarea vreunui drept sau interes legitim, ministerul de resort întreprinde demersurile necesare pentru eliminarea acestor efecte; |
+| - sunt avizate de Consiliul Suprem de Apărare a Țării (CSAT) ca fiind necesare protecției intereselor esențiale de securitate națională și asigurării securității aprovizionării, prin crearea sau modernizarea de capacități industriale pe territoriul național, în domeniile prevăzute la art. 5 din Legea nr. 232/2016; avizul CSAT se emite potrivit Legii nr. 415/2002 privind organizarea și funcționarea CSAT, cu modificările și completările ulterioare; |
+| - sunt supuse examinării și avizării Comisiei pentru examinarea investițiilor străine directe (CEISD), conform prevederilor Ordonanței de urgență a Guvernului nr. 46/2022, asigurându-se că investițiile nu distorsionează concurența; |
+| - pot beneficia de fonduri externe prin intermediul unor programe de finanțare destinate creșterii capacităților de producție ale industriei de apărare din cadrul Uniunii Europene juridic |
+
+| - operatorul economic sau, după caz, societatea se obligă să mențină investiția pe întreagadurată a acesteia, în condiții de eficiență economică, asigurând know-how-ul, portofoliulde clienți și forța de muncă necesară. |
+| --- |
+| Măsurile propuse sunt în conformitate cu prevederile Legii nr. 232/2016 privind industria națională de apărare, ale Legii nr. 415/2002 privind organizarea și funcționarea CSAT,precum și ale Ordonanței de urgență a Guvernului nr. 46/2022 privind examinareainvestițiilor străine directe. |
+| Implementarea acestor prevederi va contribui la consolidarea capacitățilorindustriale strategice, la creșterea competitivității și a nivelului tehnologic al industriei deapărare, precum și la asigurarea rezilienței și securității aprovizionării României cuproduse și servicii destinate apărării. |
+| Pentru asigurarea posibilității de realizare și implementare a investițiilor în domeniulindustriei naționale de apărare, se instituie un mecanism flexibil privind utilizareaterenurilor și activelor necesare desfășurării proiectelor. |
+| Astfel, investițiile pot fi realizate pe terenuri aflate în proprietate, închiriate,concesionate sau pentru care operatorii economici dețin un drept de superficie. În vederearelizării investiției, operatorul economic beneficiar al fondurilor publice, în condițiile art.7 alin. (1) din proiectul de act normativ, poate închiria în mod direct societății orice activeconstruite, modernizate sau extinse, indiferent de modul de dobândire a acestora, dacăacestea sunt necesare implementării proiectului. |
+| Închirierea se va face la un preț stabilit printr-un raport de evaluare întocmit de unexpert autorizat ANEVAR, neputând fi mai mic decât valoarea de piață determinatăpotrivit raportului de evaluare. |
+| Adoptarea acestei măsuri este justificată de necesitatea asigurării unui cadru operativcare să permită implementarea investițiilor strategice într-un termen scurt, în condițiile încare aplicarea procedurilor prevăzute de normele generale ar putea împiedica realizareaproiectelor în termenele impuse de finanțatori sau de caracterul urgent al investițiilor juridic |
+| Tot în acest scop, la art. 12 din proiect se instituie un mecanism de concesionaréprin atribuire directă, destinat implementării rapide a proiectelor strategice în industria |
+
+| națională de apărare, cu respectarea principiilor transparenteți, proporționalității și protejării intereselor esențiale de securitate națională. |
+| --- |
+| Pentru asigurarea unui cadru coerent de implementare a proiectelor de investiții în industria națională de apărare, prezenta ordonanță de urgență stabilește condițiile minime pe care trebuie să le îndeplinească investitorii și regimul juridic aplicabil acestor investiții. |
+| Astfel, în vederea implementării proiectelor de investiții, investitorii trebuie să îndeplinească cumulativ următoarele condiții: |
+| - dețin experiență similară în domeniul investiției și, în situația unei participații majoritare, stabilesc strategia de management a societății, având control managerial și operațional asupra acesteia; |
+| - dispun de know-how, licențe, capacitate financiară și tehnică necesară realizării obiectului de activitate al societății; |
+| - au fost supuși procedurii de verificare de securitate prevăzute de Standardele naționale de protecție a informațiilor clasificate în România, aprobate prin Hotărârea Guvernului nr. 585/2002, cu modificările și completările ulterioare, și au obținut aviz favorabil pentru accesul la informații clasificate; |
+| - asigură protecția informațiilor și securitatea accesului la produsul specific pe întreg ciclul de viață al proiectului, garantând continuitatea aprovizionării pentru industria națională de apărare și pentru Forțele Sistemului Național de Apărare (FSNA); |
+| - se angajează să respecte standardele de calitate și securitate aplicabile produselor și serviciilor furnizate în domeniul apărării (se angajează să respecte standardele de calitate, securitate și interoperabilitate aplicabile produselor și serviciilor furnizate în domeniul apărării, în conformitate cu standardele NATO (STANAG) și, după caz, cu reglementările Uniunii Europene și ale legislației naționale în vigoare). |
+| Prin aceste prevederi, se asigură selectarea unor investitori cu capacitate tehnică, financiară și operațională adecvată, precum și protejarea intereselor esențiale de securitate națională. |
+
+Totodată, prin efectul prezentei ordonanțe de urgență, investițiile în industria națională de apărare sunt asimilate unor categorii de lucrări și proiecte cu caracter strategic, după cum urmează:- investiții de securitate națională, în sensul art. 6 din Ordonanța de urgență a Guvernului nr. 57/2007 privind regimul arilor naturale protejate, conservarea habitatelor naturale, a florei și faunei sălbatice, aprobată cu modificări și completări prin Legea nr. 49/2011;- lucrări de utilitate publică și de interes strategic pentru securitatea națională a României, potrivit Legii nr. 255/2010 privind exproprierea pentru cauză de utilitate publică, necesară realizării unor obiective de interes național, județean și local;- situații excepționale, în sensul art. 5 alin. (2) și (4) din Legea nr. 292/2018 privind evaluarea impactului anumitor proiecte publice și private asupra mediului;- proiecte de interes public deosebit, de interes național și care privesc securitatea națională, în sensul art. 27 alin. (2) din Legea apelor nr. 107/1996, cu modificările și completările ulterioare;- proiecte de interes național / de importanță / de securitate națională pentru care este permisă scoaterea terenurilor din circuitul agricol și, după caz, din fondul forestier național, potrivit Legii fondului funciar nr. 18/1991 și art. 40 și 44 din Legea nr. 331/2024 privind Codul silvic.Această măsură este indispensabilă pentru asigurarea implementării imediate a proiectelor de investiții strategice, a căror realizare nu poate fi amânată fără a afecta capacitatea de reacție, continuitatea producției și securitatea aprovizionării în domeniul apărării.Prin definirea acestor categorii, actul normativ conferă investițiilor din industria națională de apărare un regim juridic special, adaptat naturii lor strategice, aplicabil exclusiv situațiilor expres prevăzute, care permite utilizarea unor proceduri accelerate și derogatorii de la reglementările generale doar atunci când este necesar pentru protejarea intereselor de securitate națională și pentru respectarea termenelor impuse de finanțațori europeni sau partenerii internaționali.
+
+În vederea implementării eficiente și rapide a proiectelor strategice din industria de apărare, este necesară crearea unui cadru flexibil pentru utilizarea activelor, indiferent de modul de dobândire a acestora, pentru realizarea investițiilor finanțate din fonduri publice
+
+conform art. 7 alin. (1) din prezenta ordonanță de urgență.
+
+Proiectele din industria de apărare, având în vedere contextul geopolitic actual și nevoia de consolidare rapidă a capabilităților naționale și europene de apărare, impun termene stricte de implementare. Orice întârziere în accesul la infrastructură sau echipamente poate compromite atingerea obiectivelor strategice, afectând securitatea
+
+națională și capacitatea de reacție a forțelor armate.
+
+Mecanismul închirierii directe a activelor către operatorii economici beneficiari permite acces rapid la activele necesare: operatorii economici pot utiliza imediat clădiri, spații de producție, terenuri sau alte infrastructuri esențiale fără a parcurge proceduri complexe de achiziție sau licitații publice, care ar genera întârzieri semnificative; flexibilitate în adaptarea infrastructurii: proiectele strategice necesită adesea modificări și extinderi ale infrastructurii existente; închirierea directă asigură posibilitatea de a adapta rapid activele pentru cerințele specifice ale proiectului; respectarea valorii de piață și transparența: prețul de închiriere este stabilit prin raport de evaluare întocmit de un expert ANEVAR, garantând că tranzacția este corectă, transparentă și conformă cu normele de
+
+reglementare financiară.
+
+În concluzie, având în vedere caracterul strategic și urgent al proiectelor din industria de apărare, precum și necesitatea de a respecta termenele stricte impuse de contextul de securitate, închirierea directă a activelor reprezintă un instrument necesar și adecvat. Aceasta asigură continuitatea implementării proiectelor, flexibilitatea în adaptarea
+
+infrastructurii și respectarea principiilor de transparență și corectitudine financiară.
+
+Finanțarea investițiilor realizate de operatorii economici prevăzuți la art. 1 alin. (2) lit. b) din proiectul de act normativ se poate realiza atât prin alocări de la bugetul de stat,
+
+prin bugetul ministerului de resort, cât și prin fonduri externe disponibile. Această
+
+finanțare include și posibilitatea majorării capitalului social al operatorului econ
+
+| poate fi utilizat pentru plata oricăror cheltuieli necesare realizării investiției, inclusiv a taxei pe valoarea adăugată. |
+| --- |
+| Utilizarea sumelor alocate de la bugetul de stat sau prin fonduri externe sub formă de aport în numerar la capitalul social permite operatorilor economici să dispună rapid și eficient de resursele financiare necesare implementării proiectelor, garantând realizarea investițiilor fără întârzieri și respectând obiectivele strategice stabilite. |
+| Astfel, combinarea fondurilor naționale cu cele externe asigură atât flexibilitate, cât și eficiență în alocarea resurselor, contribuind la dezvoltarea durabilă și rapidă a proiectelor strategice vitale pentru satisfacerea interesului esențial de securitate. |
+| Regimul TVA pentru investițiile în industria de apărare finanțate din bugetul de stat |
+| - Pentru investițiile în industria de apărare finanțate integral sau parțial din bugetul de stat, costurile eligibile includ prețul bunurilor și serviciilor achiziționate, precum și TVA-ul nedeductibil conform legislației fiscale în vigoare. |
+| - TVA-ul aferent achizițiilor pentru care beneficiarul are dreptul de rambursare sau compensare nu se include în costurile eligibile suportate din bugetul de stat. |
+| - Rambursarea TVA-ului se realizează conform procedurilor fiscale generale aplicabile, prin declararea și deducerea TVA-ului recuperabil, fără impact asupra finanțării alocate proiectului din bugetul de stat. |
+| Prin prezenta reglementare se urmărește asigurarea unei finanțări eficiente și transparente, astfel încât bugetul de stat să acopere doar costurile effective suportate de beneficiar, evitând duplicarea cheltuielilor cu TVA-ul recuperabil. |
+| În cazul investițiilor din industria de apărare finanțate integral sau parțial din bugetul de stat, costurile eligibile includ TVA-ul nedeductibil. TVA-ul rambursabil sau compensabil prin procedurile fiscale nu este considerat cost eligibil și nu se finanțează din bugetul de stat, pentru a evita dubla finanțare. |
+| Mecanismul de control care sa asigure monitorizarea folosirii finantarile din bugetul de stat se va face printr-un: |
+
+Audit statutar al resurselor financiare alocate în baza prezentei ordonanțe de urgență ce va realiza conform Standardelor Internaționale de Audit (ISA) adoptate de Comisia Europeană, în conformitate cu prevederile Directivei 2006/43/CE a Parlamentului European și a Consiliului, privind auditul legal al conturilor anuale și consolidate, cu modificările și completările ulterioare. Aceste standarde reprezintă cadrul profesional recunoscut la nivel internațional, care asigură independența, obiectivitatea și rigurozitatea
+
+verificării activităților financiare și a raportărilor aferente.
+
+Autoritatea competentă va monitoriza modul de administrare și utilizare a resurselor financiare, la solicitarea ministerului de resort, în conformitate cu rolul acestuia de coordonare și supraveghere stabilit prin prezenta ordonanță. Această verificare va include evaluarea conformității cheltuielilor cu destinația legală, analiza proceselor decizionale și verificarea respectării procedurilor financiare aplicabile, Prin această abordare, se urmărește nu doar confirmarea corectitudinii operațiunilor financiare, ci și prevenirea utilizării necorespunzătoare a fondurilor, identificarea riscurilor și propunerea de măsuri
+
+de remediere acolo unde este necesar.
+
+Metoda adoptată va permite un control combinat ex-ante și ex-post, asigurând monitorizarea atât înaintea efectuării cheltuielilor, cât și după derularea acestora. În plus, auditul va contribui la consolidarea responsabilității instituțiilor implicate, la creșterea transparenței în administrarea fondurilor publice și la eficientizarea proceselor de utilizare a resurselor în domeniile prioritare, inclusiv pentru proiectele strategice din domeniul
+
+securității naționale și al industriei de apărare.
+
+Această metodă asigură un cadru clar pentru gestionarea resurselor financiare strict în conformitate cu art. 346 TFUE și în mod eficient, responsabil și conform cu standardele internaționale, facilitând în același timp evaluarea continuă a impactului finanțării asupra dezvoltării capacităților naționale și europene în domeniul apărării, precum și adaptarea strategiilor de alocare a fondurilor la nevoile viitoare, proporțional cu necesitatea
+
+identificată ca fiind de natură a leza interesul esențial de securitate.
+
+națională de apărare ar putea avea consecințe majore:
+
+| - limitarea capacității de reacție a Forțelor Armate Române în situații de criză;- dependență excesivă de importuri sau de lanțuri logistice externe vulnerabile;- pierderea oportunităților de finanțare europeană dedicate consolidării bazei industriale de apărare (EDTIB). |
+| --- |
+| Uniunea Europeană a stabilit, prin instrumentele ASAP, EDIRPA și SAFE, un cadru excepțional pentru creșterea rapidă a producției, a cooperării și a investițiilor în domeniul apărării. România are deja proiecte aprobate sau în curs de aprobare, precum parteneriatul strategic cu Rheinmetall pentru construirea unei fabrici de pulberi și componente pentru muniție – proiect esențial pentru autonomia națională de aprovizionare.Cu toate acestea, implementarea acestor proiecte este întârziată față de termenele asumate la nivel european, ceea ce riscă să afecteze nu doar industria românească, ci și contribuția țării noastre la obiectivele comune ale UE. |
+| Programele europene impun termene stricte pentru implementare:- ASAP (Act in Support of Ammunition Production): toate proiectele trebuie finalizate în maximum 36 de luni de la semnarea contractului și nu mai târziu de 31 decembrie 2027;- EDIRPA: achizițiile comune trebuie contractate până în 2026;- SAFE (Security Action for Europe): finanțările destinate investițiilor strategice sunt planificate pentru perioada 2025–2030, însă primele proiecte vor fi evaluate deja în 2025.Întârzierea inițierii proiectelor ar putea conduce la pierderea finanțării europene sau a partenerilor strategici, cu consecința lezării interesului esențial de securitate.Pentru a evita aceste riscuri și pentru a asigura sincronizarea cu calendarul european, este necesară adoptarea imediată a unor măsuri prin ordonanță de urgență, care să permită:- accelerarea procedurilor de autorizare, alocare de teren și obținere a avizelor tehnice pentru obiectivele de apărare;- introducerea unor proceduri derogatorii pentru investițiile din domeniul apărării de interes național, similare celor aplicate infrastructurii critice strategice. |
+
+| - facilitarea accesului operatorilor economici din industria națională de apărare la finanțările europene disponibile; |
+| --- |
+| Urgentarea implementării acestor proiecte va genera: poziționarea României ca hub regional de producție și logistică pentru apărare în flancul estic al NATO și al UE. |
+| Având în vedere: caracterul urgent al necesităților de apărare, termenele limitative ale programelor europene ASAP, EDIRPA și SAFE, întârzierea proiectelor strategice deja aprobate, se impune adoptarea de urgență a unui act normativ care să creeze cadrul accelerat pentru dezvoltarea și implementarea acestor investiții. |
+| Având în vedere dispozițiile art. 346 din Tratatul de funcționare a Uniunii Europene (TFUE), potrivit cărora orice stat membru poate lua măsurile pe care la consideră necesare pentru protecția intereselor esențiale ale siguranței sale și care se referă la producția sau comerțul cu armament, muniție și material de război, cu condiția ca respectivele măsuri să nu distorsioneze concurența pe piața internă pentru produsele ce nu sunt destinate unor scopuri specific militare, prin prezentul proiect se propune un mecanism care să conducă la realizarea în regim de urgență a unor investiții fără de care, în contextul regional geopolitic, se creează vulnerabilități privind securitatea națională. |
+| Astfel, prin proiect se reglementează cadrul juridic pentru realizarea investițiilor din domeniul industriei naționale de apărare destinate construirii, modernizării, reconversiei și extinderii capacităților de producție și/sau servicii pentru apărare de interes strategic necesare asigurării protecției intereselor esențiale de securitate ale României și care se referă la producția sau comerțul cu armament, muniție și material de război |
+| Investițiile din domeniul industriei naționale de apărare sunt învestiții care se realizează de către un operator economic la care statul este acționar integral sau majoritar sau o societate la care acesta și un investitor privat dețin participații și care îndeplinesc cumulativ următoarele condiții. |
+| Ele vor fi avizate de către CSAT, iar Guvernul va aproba condițiile principale de realizare ale investiției și elementele esentiale ale mandatului ministerului de resort care are rol în supravegherea și asigurarea protejării intereselor esențiale de securitate și care poate interveni, dacă acesta este afectat. |
+
+Suplimentar, investițiile vor fi supuse examinării și avizării CEISD și verificate de Consiliul Concurenței sub aspectul îndeplinirii condiției prevăzute de art. 346 TFUE.
+
+Strategia de management necesară pentru realizarea și implementarea proiectului se stabilește de investor, care este ținut responsabil pentru toate efectele decurgând din aceasta.
+
+Investitorii vor asigura securitatea informațiilor și securitatea accesului la produsul specific pe întreg ciclul de viață al proiectului în condiții de continuitate al aprovizionării pentru industria națională de apărare și pentru FSNA.
+
+\- Capacitățile de producție și sau servicii decurgând din realizarea investiției se înscriu în inventar în conformitate cu Legea nr. 232/2016 privind industria națională de apărare, precum și pentru modificarea și completarea unor acte normative, cu modificările și completările ulterioare și Planul de mobilizare a economiei naționale pentru apărare în conformitate cu prevederile Legii nr. 477/2003 privind pregătirea economiei naționale și a teritoriului pentru apărare.
+
+\- Pe durata existenței investiției, destinația acesteia nu se modifică.
+
+\- La încetarea din orice motiv a societății, ținând cont de interesul esențial de securitate, acționarii se obligă să negocieze și să convină, la discreția lor, asupra unor termeni și condiții rezonabile pentru a permite continuarea activității. În cazul în care investitorul intenționează să se retragă din societate, operatorul economic are drept de preemțiune la cumpărarea acțiunilor, la valoarea determinată conform unei evaluări efectuate de un evaluator ANEVAR.
+
+\- Având în vedere că statul alocă fonduri de la bugetul de stat pentru realizarea investiției, în toate cazurile, investițiile în curs de implementare sau implementate în condițiile prezentei ordonanțe de urgență trec în proprietatea statului și administrarea ministerului de resort fie la încetarea persoanei juridice, fie ca urmare o oricărei decizii a acesteia sau a acționarului majoritar care conduce la sistarea sau neutilizarea capacităților potrivit destinației.
+
+În considerarea faptului că aceste elemente vizează interesul general public și constituie o situație extraordinară, a cărei reglementare nu poate fi amânată, este necesară prômovarea și aprobarea prezentului proiect de ordonanță de urgență.
+
+## 2.4. Alte informatii
+
+Nu este cazul.
+
+## Secțiunea a 3-a
+
+## Impactul socioeconomic
+
+3.1. Descrierea generală a beneficiilor și costurilor estimate ca urmare a intrării în vigoare a actului normativ- Proiectul de act normativ nu se referă la acest subiect.
+
+3.2. Impactul social - Proiectul de act normativ nu se referă la acest subiect.
+
+3.3. Impactul asupra drepturilor și libertăților fundamentale ale omului Proiectul de act normativ nu se referă la acest subiect.
+
+3.4.Impactul macroeconomic - Proiectul de act normativ nu se referă la acest subiect.
+
+3.4.1. Impactul asupra economiei și asupra principalilor indicatori macroeconomici Proiectul de act normativ nu se referă la acest subiect.
+
+3.4.2. Impactul asupra mediului concurentițial și domeniul ajutoarelor de stat Proiectul de act normativ nu se referă la acest subiect.
+
+3.5. Impactul asupra mediului de afaceri - Proiectul de act normativ nu se referă la acest subiect.
+
+3.6. Impactul asupra mediului înconjurător - Proiectul de act normativ nu se referă la acest subiect.
+
+3.7. Evaluarea costurilor și beneficiilor din perspectiva inovării și digitalizării Proiectul de act normativ nu se referă la acest subiect.
+
+3.8. Evaluarea costurilor și beneficiilor din perspectiva dezvoltării durabile Projectul de act normativ nu se referă la acest subiect.
+
+<table>
+<tbody>
+<tr><td>3.9. Alte informații</td><td></td></tr>
+</tbody>
+</table>
+
+Secțiunea a 4-a
+
+Impactul financiar asupra bugetului general consolidat, atât pe termen scurt, pentru anul curent, cât și pe 5 ani, inclusiv informații cu privire la cheltuieli și venituri
+
+<table>
+<tbody>
+<tr><td colspan="7">- în mii lei (RON)</td></tr>
+<tr><td>Indicatori</td><td>Anul curent</td><td colspan="4">Următorii patru ani</td><td>Media pe cinci ani</td></tr>
+<tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr>
+<tr><td>4.1. Modificări ale veniturilor bugetare, plus/minus, din care:</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>a) buget de stat, din acesta: i. impozit pe profit; ii. impozit pe venit</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>b) bugete locale: i. impozit pe profit;</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>c) bugetul asigurărilor sociale de stat: i. contribuții de asigurări</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>d) alte tipuri de venituri</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+| 4.2. Modificări ale cheltuielilor bugetare, plus/minus, din care: |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+| a) buget de stat, din acesta:(i) cheltuieli de personal(ii) bunuri și servicii |  |  |  |  |  |  |
+| b) bugete locale:(i) cheltuieli de personal(ii) bunuri și servicii |  |  |  |  |  |  |
+| c) bugetul asigurărilor sociale de stat:(i) cheltuieli de personal(ii) bunuri și servicii |  |  |  |  |  |  |
+| d) alte tipuri de cheltuieli |  |  |  |  |  |  |
+| 4.3. Impact financiar, plus/minus, din care:a) buget de statb) bugete locale |  |  |  |  |  |  |
+| 4.4. Propuneri pentru acoperirea creșterii cheltuielilor bugetare |  |  |  |  |  |  |
+
+<table>
+<tbody>
+<tr><td>4.5. Propuneri pentru a compensa reducerea veniturilor bugetare</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>4.6. Calcule detaliate privind fundamentarea modificărilor veniturilor și/sau cheltuielilor bugetare</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td colspan="7">4.7. Prezentarea, în cazul proiectelor de acte normative a căror adoptare atrage majorarea cheltuielilor bugetare, a următoarelor documente:a) fișa financiară prevăzută la art. 15 din Legea nr. 500/2002 privind finanțele publice, cu modificările și completările ulterioare, însoțită de ipotezele și metodologia de calcul utilizată;b) declarație conform căreia majorarea de cheltuială respectivă este compatibilă cu obiectivele și prioritățile strategice specificate în strategia fiscal-bugetară, cu legea bugetară anuală și cu plafoanele de cheltuieli prezentate în strategia fiscal-bugetară</td></tr>
+<tr><td>4.8. Alte informații</td><td colspan="6"></td></tr>
+</tbody>
+</table>
+
+Secțiunea a 5-a
+
+Efectele proiectului de act normativ asupra legislației în vigoare
+
+| 5.1. Măsuri normative necesare pentru aplicarea prevederilor proiectului de act normativeProiectul de act normativ nu se referă la acest subiect. |
+| --- |
+| 5.2. Impactul asupra legislației în domeniul achizițiilor publiceProiectul de act normativ nu se referă la acest subiect. |
+
+<table>
+<tbody>
+<tr><td colspan="2">5.3. Conformitatea proiectului de act normativ cu legislația UE (în cazul proiectelor ce transpun sau asigură aplicarea unor prevederi de drept UE)Proiectul de act normativ nu se referă la acest subiect.</td></tr>
+<tr><td colspan="2">5.3.1. Măsuri normative necesare transpunerii directivelor UEProiectul de act normativ nu se referă la acest subiect.</td></tr>
+<tr><td colspan="2">5.3.2. Măsuri normative necesare aplicării actelor legislative UEProiectul de act normativ nu se referă la acest subiect.</td></tr>
+<tr><td colspan="2">5.4. Hotărâri ale Curții de Justiție a Uniunii EuropeneProiectul de act normativ nu se referă la acest subiect.</td></tr>
+<tr><td colspan="2">5.5. Alte acte normative și/sau documente internaționale din care decurg angajamente asumateProiectul de act normativ nu se referă la acest subiect.</td></tr>
+<tr><td>5.6. Alte informații</td><td></td></tr>
+</tbody>
+</table>
+
+Secțiunea a 6-a
+
+Consultările efectuate în vederea elaborării proiectului de act normativ
+
+| 6.1. Informații privind neaplicarea procedurii de participare la elaborarea actelor normativeProiectul de act normativ nu se referă la acest subiect. |
+| --- |
+| 6.2. Informații privind procesul de consultare cu organizații neguvernamentale, institute de cercetare și alte organisme implicateProiectul de act normativ nu se referă la acest subiect. |
+| 6.3. Informații despre consultările organize cu autoritățile administratiei publice locale |
+
+<table>
+<tbody>
+<tr><td colspan="2">Proiectul de act normativ nu se referă la acest subiect.</td></tr>
+<tr><td colspan="2">6.4. Informații privind puncte de vedere/opinii emise de organisme consultativeconstituite prin acte normative - Proiectul de act normativ nu se referă la acestsubiect.</td></tr>
+<tr><td>6.5. Informații privind avizarea de către:a) Consiliul Legislativb) Consiliul Suprem de Apărare aȚăriic) Consiliul Economic și Sociald) Consiliul Concurențeie) Curtea de Conturi</td><td>Proiectul de act normativ a fostavizat de Consiliul Legislativ cuavizul nr. 1004/2025.Consiliul Suprem de Apărare al Țăriia emis hotărârea nr. 140/2025.Consiliului Concurenței a emisavizul nr.RG/17102/2025.</td></tr>
+<tr><td>6.6. Alte informații</td><td>Proiectul de act normativ nu se referăla acest subiect.</td></tr>
+</tbody>
+</table>
+
+## proiectului de act normativ
+
+| 7.1. Informarea societății civile cu privire la necesitatea elaborării proiectului de act normativPotrivit art. 7 alin. (13) din Legea 52/2003, prin excepție de la prevederile alin. (2), în cazul reglementării unei situații urgente sau a uneia care, din cauza circumstanțelor sale excepționale, impune adoptarea de soluții imediate, în vederea evitării unei grave atingeri aduse interesului public, proiectele de acte normative se supun adoptării și anterior expirării termenului prevăzut de respectivul alineat. |
+| --- |
+| 7.2. Informarea societății civile cu privire la eventualul impact asupra mediului în urma implementării proiectului de act normativ, precum și efectele asupra sănătății și securității cetățenilor sau diversității biologiceProiectul de act normativ nu se referă la acest subiect. |
+
+## Secțiunea a 8-a
+
+Măsuri privind implementarea, monitorizarea și evaluarea proiectului de act normativ
+
+| 8.1. Măsurile de punere în aplicare a proiectului de act normativ |  |
+| --- | --- |
+| 8.2. Alte informații |  |
+
+Față de cele prezentate, a fost elaborat proiectul de Lege pentru aprobarea Ordonanței de urgență a Guvernului privind unele măsuri pentru realizarea de investiții în domeniul securității naționale prin asigurarea unor condiții optime dezvoltării de proiecte ale operatorilor economici din industria de apărare, pe care îl supunem Parlamentului spre adoptare.
+
+PRIM-MINISTRU
+
+ILIE-GAVRII BOEGIAN Z

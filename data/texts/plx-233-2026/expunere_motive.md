@@ -169,4 +169,51 @@ Susținătorilor propunerii legislative – Lege pentru completarea articolului 
 </tbody>
 </table>
 
-*Documentul are 14 pagini; am citit primele 12.*
+## LISTA
+
+Susținătorilor propunerii legislative – Lege pentru completarea articolului 4 din Legea nr. 33/1994 privind exproprierea pentru cauză de utilitate publică
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td>Semnătura</td></tr>
+<tr><td>1.</td><td>Pedrigan Peiu</td><td>AUR</td><td rowspan="14"></td></tr>
+<tr><td>2.</td><td>Boareari Soniuo</td><td>AUR</td></tr>
+<tr><td>3.</td><td>Pete George Cebel</td><td>AUR</td></tr>
+<tr><td>4.</td><td>PAUCEAN-VERNANDES LUMINIJA</td><td>AUR</td></tr>
+<tr><td>5.</td><td>CATHOR VARIET</td><td>AUR</td></tr>
+<tr><td>6.</td><td>Joob E. Biprion</td><td>A.U.R.</td></tr>
+<tr><td>7.</td><td>STOICA CIPRIAN -NIN</td><td>A.U.R.</td></tr>
+<tr><td>8.</td><td>Parosea Teojie</td><td>AUR</td></tr>
+<tr><td>9.</td><td>Silgeomu 6doln</td><td>AUR</td></tr>
+<tr><td>10.</td><td>Andrei Gialan</td><td>AUR</td></tr>
+<tr><td>11.</td><td>Lawrie Sovim</td><td>AQR</td></tr>
+<tr><td>12.</td><td>ROMAN MARIUS - VALENTIN</td><td>AQR</td></tr>
+<tr><td>13.</td><td>SAMOU MIRCEA -IONUT</td><td>AUR</td></tr>
+<tr><td>14.</td><td>SIPOS EUGEN CRISTIAN</td><td>AUR</td></tr>
+</tbody>
+</table>
+
+## LISTA
+
+Susținătorilor propunerii legislative – Lege pentru completarea articolului 4 din Legea nr. 33/1994 privind exproprierea pentru cauză de utilitate publică
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td>Semnătura</td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td>14.</td><td>VASILE MARIAXI</td><td>AUR</td><td rowspan="3"></td></tr>
+<tr><td>18</td><td>SPAU DURITRC</td><td>AUR</td></tr>
+<tr><td>19.</td><td>CONSTANYINEPCU RODICA</td><td>AUR</td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>

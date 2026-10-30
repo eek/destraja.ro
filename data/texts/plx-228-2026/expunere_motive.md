@@ -158,4 +158,28 @@ Lista inițiatorilor Propunerii legislative pentru modificarea și completarea L
 </tbody>
 </table>
 
-*Documentul are 13 pagini; am citit primele 12.*
+Lista inițiatorilor
+
+Propunerii legislative pentru modificarea și completarea Legii nr. 135/2010 privind Codul de procedură penală
+
+<table>
+<tbody>
+<tr><td>Nr.Crt.</td><td>Nume și prenume</td><td>Grupparlamentar</td><td>Semnătura</td></tr>
+<tr><td>39</td><td>Oaa Tjuw</td><td>JSR</td><td rowspan="3"></td></tr>
+<tr><td>YO</td><td>Victorie Stoiciu</td><td>PSD</td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>

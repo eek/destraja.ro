@@ -1,57 +1,257 @@
-ROMANIA
+## EXPUNERE DE MOTIVE
 
-EXPUNERE DE MOTIVE Prezenta inițiativă legislativă are ca obiect modificarea si completarea Legii nr. 118/2002 pentru instituirea indemnizației de merit în sensul de a se fi incluși președinții comisiilor de sport din Senat și Camera Deputaților în componența Comisiei naționale pentru acordarea indemnizației de merit. Această completare este justificată de faptul că sportul reprezintă un domeniu distinct, cu specific propriu, iar evaluarea meritelor sportive trebuie să beneficieze și de expertiza instituțională a comisiilor parlamentare de specialitate. Pe de altă parte, propunerea legislativă urmărește introducerea expresă în lege a unei categorii de beneficiari din domeniul sportului, respectiv componenții echipei de fotbal Steaua București, câștigători ai Cupei Campionilor Europeni în anul 1986. Această performanță reprezintă un moment unic în istoria sportului românesc și una dintre cele mai importante realizări obținute vreodată de o echipă din România la nivel internațional. Câștigarea Cupei Campionilor Europeni în anul 1986 de către Steaua București a consacrat fotbalul românesc la cel mai înalt nivei european și a adus României un prestigiu sportiv deosebit. Importanța acestei reușite depășește sfera strict sportivă. Victoria din anul 1986 a devenit un reper de identitate sportivă națională, un simbol al performanței colective și al capacității sportivilor români de a concura și de a învinge la cel mai înalt nivel. Pentru generații întregi, componenții acelei echipe au reprezentat modele de profesionalism, sacrificiu și devotament față de sport și față de România. Adoptarea acestei inițiative reprezintă un act necesar de recunoaștere publică și instituțională a unei performanțe sportive istorice și unice. Statul român are datoria de a onora, inclusiv prin instrumente legislative, acele rezultate care au adus României prestigiu internațional și care au rămas în memoria colectivă ca repere ale excelenței sportive. În concluzie, prezenta propunere legislativă este necesară pentru a asigura o reprezentare adecvată a domeniului sportului în procedura de acordare a indemnizației de merit și pentru a consacra expres, la nivel de lege, dreptul componenților echipei de fotbal Steaua București, câștigători ai Cupei Campionilor Europeni în anul 1986, de a putea beneficia de această formă de recunoaștere din partea statului român. In temeiul art. 111 alin. (1) din Constituția României, republicată, vă adresăm rugămintea de a solicita Guvernului să comunice punctul de vedere asupra prezentei propuneri legislative.
+Prezenta inițiativă legislativă are ca obiect modificarea si completarea Legii nr. 118/2002 pentru instituirea indemnizației de merit în sensul de a se fi incluși președinții comisiilor de sport din Senat și Camera Deputaților în componența Comisiei naționale pentru acordarea indemnizației de merit. Această completare este justificată de faptul că sportul reprezintă un domeniu distinct, cu specific propriu, iar evaluarea meritelor sportive trebuie să beneficieze și de expertiza instituțională a comisiilor parlamentare de specialitate. Pe de altă parte, propunerea legislativă urmărește introducerea expresă în lege a unei categorii de beneficiari din domeniul sportului, respectiv componenții echipei de fotbal Steaua București, câștigători ai Cupei Campionilor Europeni în anul 1986. Această performanță reprezintă un moment unic în istoria sportului românesc și una dintre cele mai importante realizări obținute vreodată de o echipă din România la nivel internațional. Câștigarea Cupei Campionilor Europeni în anul 1986 de către Steaua București a consacrat fotbalul românesc la cel mai înalt nivel european și a adus României un prestigiu sportiv deosebit.
 
-ROMANIA
+Importanța acestei reușite depășește sfera strict sportivă. Victoria din anul 1986 a devenit un reper de identitate sportivă națională, un simbol al performanței colective și al capacității sportivilor români de a concura și de a învinge la cel mai înalt nivel. Pentru generații întregi, componenții acelei echipe au reprezentat modele de profesionalism, sacrificiu și devotament față de sport și față de România.
 
-SENAT
+Adoptarea acestei inițiative reprezintă un act necesar de recunoaștere publică și instituțională a unei performanțe sportive istorice și unice. Statul român are datoria de a onora, inclusiv prin instrumente legislative, acele rezultate care au adus României prestigiu internațional și care au rămas în memoria colectivă ca repere ale excelenței sportive. În concluzie, prezenta propunere legislativă este necesară pentru a asigura o reprezentare adecvată a domeniului sportului în procedura de acordare a indemnizației de merit și pentru a consacra expres, la nivel de lege, dreptul componenților echipei de fotbal Steaua București, câștigători ai Cupei Campionilor Europeni în anul 1986, de a putea beneficia de această formă de recunoaștere din partea statului român.
+
+În temeiul art. 111 alin. (1) din Constituția României, republicată, vă adresăm rugămintea de a solicita Guvernului să comunice punctul de vedere asupra prezentei propuneri legislative.
 
 INIȚIATORI:
 
-Deputat AUR George-Nicolae Simion \_ Deputat AUR Ciprian-Constantin Paraschiv \< Deputat AUR Mihai-Adrian Enache \_ Deputat AUR Dragoș-Florin Coman . Deputat AUR Monica Iagăr Deputat AUR Andrei-Cosmin Gușă \_ Deputat AUR Lidia Vadim-Tudor
+Deputat AUR George-Nicolae Simion \_\_\_\_
 
-LISTA Susținătorilor propunerii legislative - „Lege pentru modificarea și completarea Legii nr. 118/2002 pentru instituirea indemnizației de merit
+Deputat AUR Ciprian-Constantin Paraschiv
 
-Nr. | Numele și prenumele | Grupul | Semnătura parlamentar ARIADNA - ELENA | A.U.R. CIRLIGE ANUI DiANA ENACHE | AVR 2 '
+Deputat AUR Mihai-Adrian Enache .
 
-GHGRASiM LAURA | Aua COLEZ iLIE-ALIN | AUR 5. | MITREA SUMITRINA | AUR
+Deputat AUR Dragoș-Florin Coman
 
-KOLOR EDUARD | DUR MILLEU ·- | SAMUEL- VIRGIL | AUR CACiM GHE MATIBS | AUR sobof Eventt | AUÊ GURLUÍ tiLViU 10. | OCTAVIAN AUR HRiSTU COSMIN | AVR Topovici Fenu -Cornel AUR 12. ostin 13- | CORuRio ET | Kel 14. | VARSAM CIPRIAN MICOLAE AUR
+Deputat AUR Monica Iagăr \_\_\_\_
 
-LISTA Susținătorilor propunerii legislative - „Lege pentru modificarea și completarea Legii nr. 118/2002 pentru instituirea indemnizației de merit
+Deputat AUR Andrei-Cosmin Gușă \_
 
-Nr. | Numele și prenumele | Grupul | Semnătura parlamentar 115. LONGHER GHERVAZEN | Min 16\_ | COTiReT FAUL | DSA 17 . | BOUDA STEFAN | FaINO 18- | MUSET LieithY | Bar Vulpoiu Dorel | AUR 19. Naleiu Munteanu | HUR 20. 21. Bordian AlexAndru | AOR 22. | - Gabrid Auk 23. | ACK 24. Bogatan Velescu | AUR PODESCL ANTONIO 25. | GADI | AUR DAS CĂLV CRISTINA | AVIR 26 - | EMATVZLA 27. | LOVIN RAMOHA | Aur 28. | PAUNESC SİLZiU- TITUS | AUR
+Deputat AUR Lidia Vadim-Tudor \_\_\_\_
 
-LISTA Susținătorilor propunerii legislative -ạLege pentru modificarea și completarea Legii nr. 118/2002 pentru instituirea indemnizației de merit
+## LISTA
 
-Nr. | Numele și prenumele | Grupul | Semnătura parlamentar GHBORGHE MIHAI | HUR 29. | CLAUDIU CiORHOi 30. | SAMIỜR - CĂTFLIA | DUR ORVYASEELS | AUR 31. | RAMONA IOANE NEGOESCU MIHAT-BOGDAN | AUR 32 PUSCASU 33. | AUR F EIRE 34. | Nalezin Munteanu | AUR BARSTAN Țiberiu | bon 35. | CLAUDIU 36. | TiLEA STB4 | AUR PASCARIU 37 - | MIHAI-COSMIN | AUR 3& MITREA DUMiTRiNA | AUR 39. iOSUB COSMiX - TEODOR | AUR
+Susținătorilor propunerii legislative – „Lege pentru modificarea și completarea Legii nr. 118/2002 pentru instituirea indemnizației de merit
 
-LISTA Susținătorilor propunerii legislative -ạLege pentru modificarea și completarea Legii nr. 118/2002 pentru instituirea indemnizației de merit Nr. | Numele și prenumele | Grupul | Semnătura parlamentar BUDĂI MARiUS CONSTANTİN 2. | PSs
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1. | ARIADNA-ELENA CIRLIGEANU | A.U.R. |  |
+| 2. | DIANA ENACHE | AVR |  |
+| 3. | GHEASIM L'ARIA | AUA |  |
+| 4. | COLESA ILIE-ALIN | AUR |  |
+| 5. | MITREA SUMITRINA | AUR |  |
+| 6. | KOLOR EDUARO | DUE |  |
+| 7. | MILLIFU SAMUEL-VIRAIL | AUR |  |
+| 8. | CACIM GHE MATIBS | AUR |  |
+| 9. | ADBOF ELENA | AVR |  |
+| 10. | GURLUI' HIKVIU- OCTAVIAN | AVR |  |
+| 11. | HRISTV COSMIN | AVR |  |
+| 12. | Popovici 'FLENU-GANEL | AVR |  |
+| 13. | OSNIN CONEAD BA | KEE |  |
+| 14. | VARSAN CIPRIAN NICOLAE | AVR |  |
 
-sanuu |
+## LISTA
 
-Chilat Cina finela Circau Arinita Adamnicai Mirela | PSI Minet Bogolam | PSA BARBu Forin | PSA
+Susținătorilor propunerii legislative – „Lege pentru modificarea și completarea Legii nr. 118/2002 pentru instituirea indemnizației de merit
 
-10\. MATICHERCU MIRELA BUCUrE ARIANA | PSD 2. | HAGO AUGUSTINO FORiN | PSD 13\_ TOLBER BOLSAM-ANDRET PSD 14. iANeiescu GreADEn A8A
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 15. | LONBER GHERAZEN | MIN |  |
+| 16. | COTINLEY PAUL | PSD |  |
+| 17. | BOUDR STEFAV | TAINIO |  |
+| 18. | MUSAT LIEADH | AUR |  |
+| 19. | VALPOU DOREI | AUR |  |
+| 20. | Valeniu Munteanu | AUR |  |
+| 21. | Bordian Alexandru | AOR |  |
+| 22. | Negrea Petru-Gabrid | AUR |  |
+| 23. | PSD CEA RIBUA | AOR |  |
+| 24. | Bogodan Velvescu | AUR |  |
+| 25. | POBOSCA ANTONIO QAB1 | AUR |  |
+| 26. | DASCĂIV CRISTINA EMAHUEZA | AUR |  |
+| 27. | LOVIN RAMONA | AOR |  |
+| 28. | PAOHECU BILXIU TITUS | AUR |  |
 
-LISTA Susținătorilor propunerii legislative -ạLege pentru modificarea și completarea Legii nr. 118/2002 pentru instituirea indemnizației de merit Nr. | Numele și prenumele | Grupul | Semnătura parlamentar 15. | VICTOR PONTA 16- | NUSCAN VOICO P7 . 18- | DOLiMEBSCHI ANARE | PSØ 19. | PORA OFÍN | , 20. GOLE GEABRiNA PSA 21. Ardrei Cosmin 22. PLOPEAMU RORICA P51 - 23 - | Hilast 24. | Herberiostăx | klin LONGHłR GHERVAZEN 25 . | Min 26. | FALAST STETAS | VER 27. | LIPĂ EUSABETA -ŤSÒ 28. Băiçaru Șt. Alex IPSJ
+## LISTA
 
-LISTA Susținătorilor propunerii legislative -‚Lege pentru modificarea și completarea Legii nr. 118/2002 pentru instituirea indemnizației de merit
+Susținătorilor propunerii legislative – „Lege pentru modificarea și completarea Legii nr. 118/2002 pentru instituirea indemnizației de merit
 
-Nr. | Numele și prenumele | Grupul | Semnătura parlamentar 29- | CẦU'u fARIzM | PSI
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td>Semnătura</td></tr>
+<tr><td>29.</td><td>GMEORGHE MIHAI CLAUDIU</td><td>AUR</td><td rowspan="11"></td></tr>
+<tr><td>30.</td><td>CIOORNOI LAUUBR - CAFICIJA</td><td>AUR</td></tr>
+<tr><td>31.</td><td>ARUVYNSEECS RAKONYA IOOVA</td><td>AUR</td></tr>
+<tr><td>32.</td><td>NEGOESCU MIHAI-BOGDAN</td><td>AUR</td></tr>
+<tr><td>33.</td><td>PUSCASU PETRE</td><td>AUR</td></tr>
+<tr><td>34.</td><td>Naleziu Mlunteau</td><td>AUR</td></tr>
+<tr><td>35.</td><td>BARSTAN ȚIBERIU CLAUDIU</td><td>AUR</td></tr>
+<tr><td>36.</td><td>TILEA DTZ</td><td>AUR</td></tr>
+<tr><td>37.</td><td>PASCARIU MIHAI-COSMIN</td><td>AUR</td></tr>
+<tr><td>38.</td><td>MITREA DUMITRINA</td><td>AUR</td></tr>
+<tr><td>39.</td><td>IOSUB COSMIN-TEODR</td><td>AUR</td></tr>
+<tr><td></td><td></td><td></td><td>v</td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
 
-30 . | Popa Ovidiu | PSD 21. | TOMA IVE | PSD 32. TINTA STREAN | PSA 33. BEJiNADIU EUGTY | PSI 34. | WEBEr Ma'Hti 35. | Govor xdievza | PSØ 36. CiLSHT | OHEL QSD 37 | pogola Gico | PSF 38. | MARGARIT MARIUS | ASD Solomon Soliau | PSA 39- 40. | RINDET ANA SMARANA PSI 41. Manta claudiu | PSD 42. CHiRiLI VIRGiL-ALiM | P.S.4
+## LISTA
 
-LISTA Susținătorilor propunerii legislative -ạLege pentru modificarea și completarea Legii nr. 118/2002 pentru instituirea indemnizației de merit Nr. | Numele și prenumele | Grupul | Semnătura parlamentar 43- | NICOLtE DAN | UDR 44. MATEI SERSiU-ZUCIAN | UDR 45. | PORUMBOIU GABRIELA UAR
+Susținătorilor propunerii legislative – „Lege pentru modificarea și completarea Legii nr. 118/2002 pentru instituirea indemnizației de merit
 
-46\. RĂDUCEA VALENTIY | UPR 97. GROFU Daniel | UPR 48. TAGET MADAON GURESITI In depan dest 59. Prolisan Sherghe DAru UPR 50. GROZA CALIN FLORiN | UPR 51. SIML AURORA TASICA Indrepond..
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1. | Budăi Marius Constantin | PSD |  |
+| 2. | Neok Eupon | PSD |  |
+| 3. | Saniu Liorica | PSDA |  |
+| 4. | Pracruțiv vouluri | PSD |  |
+| 5. | Cholat Cima Mirela | PSA |  |
+| 6. | Cicau Drituta | PSD |  |
+| 7. | Polouuioi Mirela | PSA |  |
+| 8. | Miud Bogolam | PSA |  |
+| 9. | BARB4 F20R1U | PSA |  |
+| 10. | MARCHERCU MINELA | PSA |  |
+| 11. | Buucu HLANA | PSD |  |
+| 12. | HAGU AUGUSTO FORAU | PSA |  |
+| 13. | TAYRER BOLEDAH-ANDREJ | PSD |  |
+| 14. | GANDERCU GRANJE | PSDA |  |
 
-LISTA Susținătorilor propunerii legislative -iLege pentru modificarea și completarea Legii nr. 118/2002 pentru instituirea indemnizației de merit Nr. | Numele și prenumele | Grupul Semnătura parlamentar SAMOiLĂ ION PSA 2. | Ghigiu Alexandru | PS1 Minai ADONICFi MIRE LA | PSD 4. DUMAVA COSTEL | PSD
+## LISTA
 
-LISTA Susținătorilor propunerii legislative -ạLege pentru modificarea și completarea Legii nr. 118/2002 pentru instituirea indemnizației de merit
+Susținătorilor propunerii legislative – „Lege pentru modificarea și completarea Legii nr. 118/2002 pentru instituirea indemnizației de merit
 
-Nr. | Numele și prenumele | Grupul | Semnătura parlamentar POPA CRISTIAN-ALEXANDRU | POT
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 15. | VICTUR PONDA |  |  |
+| 16. | NUSEAN VOICU | PSD |  |
+| 17. | MAGEANE ST. AEA | PSD |  |
+| 18. | DOLINERSCHI ANMREJ | PSD |  |
+| 19. | PORA DOEIN | BSD |  |
+| 20. | STOILE GEATZJINPA | PSD |  |
+| 21. | Andrea Cosmin | → |  |
+| 22. | PROPEANU RODOL | PSD |  |
+| 23. | JIMU FLIN | ArlidotPSD |  |
+| 24. | Herbe AdrijanLili COZAX | Iliin |  |
+| 25. | LONGHAT KHER-VIAZEN | M,in |  |
+| 26. | TALASAT STERA | USR |  |
+| 27. | LIPA EUGABETA | PSD |  |
+| 28. | BOIGANU ST. ALEX | PSD |  |
 
-LISTA Susținătorilor propunerii legislative -ạLege pentru modificarea și completarea Legii nr. 118/2002 pentru instituirea indemnizației de merit Nr. | Numele și prenumele | Grupul | Semnătura parlamentar 4 | PETRISOR PEiV | AVR 2. Plöesu saurentiu | AUR 3\_ LUMiNIȚA PAUCEAN-FERNANDES AUR STRiCA CIPRiAN-TITi | A.U.R. 5 | Stepa Geamănu | AUR 6 | Barcari Dorina AUR 7 Tocob E. Eiprion AUR CONSTANTI MESCU RODICA | AuR Parosca Jeafe AUR 10. VASiLE MARiAM | AUR DAMIERA STEFÂNESC AUR 12. V AHU HICOLAE | AUR Sandu Mircea-lonut • AUR CRiSTINLA SUMTRESCÓ sUR
+Susținătorilor propunerii legislative – „Lege pentru modificarea și completarea Legii nr. 118/2002 pentru instituirea indemnizației de merit
 
-*Documentul are 13 pagini; am citit primele 12.*
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 29. | C#u'4 #H#U# | PSD |  |
+| 30. | Popa Ovidiu | PSD |  |
+| 31. | TOMA iue | PSD |  |
+| 32. | TINTA STRAN | PSD |  |
+| 33. | B#YINARiu E#GTN | PSD |  |
+| 34. | WSBR MRHAI | PSD |  |
+| 35. | Govor M#ECEN | PSD |  |
+| 36. | C#HT #HEC | PSD |  |
+| 37. | Bogoloe Suco | PSD |  |
+| 38. | MARGARIT MARIUS | PSD |  |
+| 39. | Jelouou Adhian | PSD |  |
+| 40. | RINDEX ANA SMARAND | PSD |  |
+| 41. | Manta .Claudiu | PSD |  |
+| 42. | CHIRIC# JIRGIC -ALIN | P.S.D |  |
+
+## LISTA
+
+Susținătorilor propunerii legislative – „Lege pentru modificarea și completarea Legii nr. 118/2002 pentru instituirea indemnizației de merit
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 43. | Nicolae BAN | UPR |  |
+| 44. | MATEI SERSIU-2UCIAN | UPR |  |
+| 45. | PORUMBOIU GABRIEIA | UPR |  |
+| 46. | RADUCEA VALENTIIY | UPR |  |
+| 47. | GROFU DANIEL | UPR |  |
+| 48. | TAGES MADAUIN CAVORIJN | Independen |  |
+| 49. | Polician Ghorghe DCRU | UPR |  |
+| 50. | CROZA CALIN FZORIN | UPR |  |
+| 51. | Simu AURORA TASICA | Independ. |  |
+
+Susținătorilor propunerii legislative – „Lege pentru modificarea și completarea Legii nr. 118/2002 pentru instituirea indemnizației de merit
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td>Semnătura</td></tr>
+<tr><td>1.</td><td>SAMOILAION</td><td>PSD</td><td rowspan="4"></td></tr>
+<tr><td>2.</td><td>Ghigiu Alexandru Mihai</td><td>PSD</td></tr>
+<tr><td>3.</td><td>ADONXICATI MIRE LIA</td><td>PSD</td></tr>
+<tr><td>4.</td><td>DLIMAVA COSTEL</td><td>PSD</td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+Susținătorilor propunerii legislative – „Lege pentru modificarea și completarea Legii nr. 118/2002 pentru instituirea indemnizației de merit
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td>Semnătura</td></tr>
+<tr><td>1</td><td>POPA CRISTIAN-ALEXANDRU</td><td>POT</td><td rowspan="2"></td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+## LISTA
+
+Susținătorilor propunerii legislative – „Lege pentru modificarea și completarea Legii nr. 118/2002 pentru instituirea indemnizației de merit
+
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1. | PETRISOR PEIV | AVR |  |
+| 2. | Plóesu laureaticiu | AUR |  |
+| 3. | Luminith PAUCEAN -FERNANDES | AUR |  |
+| 4. | STOICA CIPRIAN -NITI | A.U.R. |  |
+| 5. | Stefa Geamann | AUR |  |
+| 6. | Sareani Soniuo | AUR |  |
+| 7. | Jocol B. Cipriom | A.U.R. |  |
+| 8. | CONSTANINESOU RODICA | AUE |  |
+| 9. | Pooreza Jeefe | AUR |  |
+| 10. | VASILE MARIAN | AUR |  |
+| 11. | DANIEKA STEFANES | AUR |  |
+| 12. | J L#Hu Nicole | AUR |  |
+| 13. | Sandu Mircea -lonud | AUR |  |
+| 14. | Ocistika Dumiresciu | AUR |  |
+
+Susținătorilor propunerii legislative – „Lege pentru modificarea și completarea Legii nr. 118/2002 pentru instituirea indemnizației de merit
+
+## LISTA
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td>Semnătura</td></tr>
+<tr><td>15</td><td>Silgeosu Čdokii</td><td>AUR</td><td rowspan="5"></td></tr>
+<tr><td>16</td><td>Andrei Afelau</td><td>AVA</td></tr>
+<tr><td>17</td><td>Cedha N###</td><td>hcl</td></tr>
+<tr><td>18</td><td>SPAU DUMITRU</td><td>A.U.R.</td></tr>
+<tr><td>19</td><td>Ploesu Baucreatiu</td><td>AUR</td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>

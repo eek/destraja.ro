@@ -1,18 +1,30 @@
-ROMANIA
+# EXPUNERE DE MOTIVE
 
-SENAT
+În 2026, Statele Unite ale Americii celebrează 250 de ani de la semnarea Declarației de Independență, evenimentul istoric care a determinat nașterea națiunii americane. Pe 4 iulie 1776, în cadrul lucrărilor celui de-al doilea congres continental, desfășurate într-o sală din Philadelphia, reprezentanții celor 13 colonii britanice din America de Nord au aprobat o declarație prin care și-au proclamat suveranitatea și independența față de Imperiul Britanic. Declarația de Independență este un document epocal, iar anul 1776 este un an de referință pentru aât Statele Unite, cât și pentru întreaga lume.
 
-EXPUNERE DE MOTIVE
+Într-un context geopolitical din ce în ce mai complicat și instabil, inițiatorii de mai jos, a căror opțiune pro-atlantistă este una fără echivoc, consideră că susținerea fermă a parteneriatului strategic cu cea mai puternică națiune a lumii este crucială. În acest sens, este înaintată prezenta inițiativă legislativă, prin care este propusă celebrarea, în spațiul românesc, a celor 250 de ani de independență a SUA, sub forma „Anului Americii în România”.
 
-În 2026, Statele Unite ale Americii celebrează 250 de ani de la semnarea Declarației de Independență, evenimentul istoric care a determinat nașterea națiunii americane. Pe 4 iulie 1776, în cadrul lucrărilor celui de-al doilea congres continental, desfășurate într-o sală din Philadelphia, reprezentanții celor 13 colonii britanice din America de Nord au aprobat o declarație prin care și-au proclamat suveranitatea și independența față de Imperiul Britanic. Declarația de Independență este un document epocal, iar anul 1776 este un an de referință pentru aât Statele Unite, cât și pentru întreaga lume. Într-un context geopolitic din ce în ce mai complicat și instabil, inițiatorii de mai jos, a căror opțiune pro-atlantistă este una fără echivoc, consideră că susținerea fermă a parteneriatului strategic cu cea mai puternică națiune a lumii este crucială. În acest sens, este înaintată prezenta inițiativă legislativă, prin care este propusă celebrarea, în spațiul românesc, a celor 250 de ani de independență a SUA, sub forma „Anului Americii în Româniai. Potrivit inițiatorilor, România trebuie să fie parte activă a acestui moment de importanță istorică și să transmită un mesaj clar de respect și prietenie față de națiunea americană și poporul american. Relația țării noastre cu Statele Unite nu este doar una strategică, ci una esențială pentru garantarea securității și menținerea pluralismului politic, a libertății de opinie și a suveranității naționale, fapt pentru care revigorarea și întărirea parteneriatului strategic cu SUA sunt esențiale. Inițiatorii consideră că declararea anului 2026 drept „Anul Americii în România" va permite: • consolidarea relației strategice româno-americane; • organizarea de evenimente culturale, educaționale și academice dedicate istoriei și valorilor americane; • promovarea cooperării economice și a investițiilor americane în România; • reafirmarea angajamentului României față de lumea liberă, libertatea de exprimare și democrația autentică; • întărirea legăturilor dintre societățile română și americană.
+Potrivit inițiatorilor, România trebuie să fie parte activă a acestui moment de importanță istorică și să transmită un mesaj clar de respect și prietenie față de națiunea americană și poporul american. Relația țării noastre cu Statele Unite nu este doar una strategică, ci una esențială pentru garantarea securității și menținerea pluralismului politic, a libertății de opinie și a suveranității naționale, fapt pentru care revigorarea și întărirea parteneriatului strategic cu SUA sunt esențiale.
 
-RONIANIA
+Inițiatorii consideră că declararea anului 2026 drept „Anul Americii în România” va permite:
 
-SENAT
+• consolidarea relației strategice româno-americane;
 
-Anul acesta, Statele Unite marchează un sfert de mileniu de existență ca națiune construită pe valori fundamentale precum libertatea, suveranitatea, credința, democrația și libertatea de expresie - valori care au influențat decisiv evoluția lumii moderne și care rămân esențiale pentru viitorul Europei și al României, dar care astăzi se află sub un asediu continuu din partea unor forțe extremiste distructive. Sub conducerea președintelui Donald Trump, SUA joacă un rol determinant în arhitectura globală de securitate și libertate, iar influența americană este decisivă atât pe scena | internațională, | cât și | în relația cu Uniunea Europeană.
+\- organizarea de evenimente culturale, educaționale și academice dedicate istoriei și valorilor americane;
 
-Inițiatorii susțin 2026 drept un an al libertății, suveranității și alianțelor bazate pe valori reale. Astfel, este imperativ ca relația României cu Statele Unite ale Americii să fie una clară, onestă și puternică, în interesul național al României. Astfel, marcarea aniversării a 250 de ani de independență americană este nu doar necesară, cât și de o uriașă însemnătate în evoluția relației bilaterale, cât și a consolidării cooperării cu partenerul strategic fundamental al țării noastre. Din motivele expuse mai sus, vă solicităm adoptarea prezentei propuneri legislative intitulate „Lege pentru instituirea anului 2026 - Anul Statelor Unite ale Americii în România".
+\- promovarea cooperării economice și a investițiilor americane în România;
+
+\- reafirmarea angajamentului României față de lumea liberă, libertatea de exprimare și democrația autentică;
+
+\- întărirea legăturilor dintre societățile română și americană.
+
+Anul acesta, Statele Unite marchează un sfert de mileniu de existență ca națiune construită pe valori fundamentale precum libertatea, suveranitatea, credința, democrația și libertatea de expresie – valori care au influențat decisiv evoluția lumii moderne și care rămân esențiale pentru viitorul Europei și al României, dar care astăzi se află sub un asediu continuu din partea unor forțe extremiste distructive.
+
+Sub conducerea președintelui Donald Trump, SUA joacă un rol determinant în arhitectura globală de securitate și libertate, iar influența americană este decisivă atât pe scena internațională, cât și în relația cu Uniunea Europeană.
+
+Inițiatorii susțin 2026 drept un an al libertății, suveranității și alianțelor bazate pe valori reale. Astfel, este imperativ ca relația României cu Statele Unite ale Americii să fie una clară, onestă și puternică, în interesul național al României. Astfel, marcarea aniversării a 250 de ani de independență americană este nu doar necesară, cât și de o uriașă însemnătate în evoluția relației bilaterale, cât și a consolidării cooperării cu partenerul strategic fundamental al țării noastre.
+
+Din motivele expuse mai sus, vă solicităm adoptarea prezentei propuneri legislative intitulate „Lege pentru instituirea anului 2026 - Anul Statelor Unite ale Americii în România”.
 
 INIȚIATORI:
 
@@ -22,12 +34,45 @@ Cristina-Gabriela DUMITRESCU
 
 Laurențiu PLĂEȘU
 
-Nr. | Numele și prenumele | Grupul | Semnătura parlamentar SIMiON GEORGE | AUK MICOLAE ENACHE MITAi | AUR
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td>Semnătura</td></tr>
+<tr><td>1.</td><td>SIMION GEORGE NICOLAE</td><td>AUR</td><td rowspan="4"></td></tr>
+<tr><td>2.</td><td>ENACHE MITAI</td><td>AUR</td></tr>
+<tr><td>3.</td><td>LOUIN RAMONA</td><td>AUR</td></tr>
+<tr><td>4.</td><td>RADJ FABIAN - CRISTIAN</td><td>AUR</td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
 
-LOViN RAMONA | AuR RADU 4. | FABiAN-CRISTiAN | AUR
+## INIȚIATORI
 
-INIȚIATORI
-
-Nr. Crt | Nume - Prenume | Grup Parlamentar | Semnătura
-
-PETRIȘOR PEiU | AUR ORiVTINA SUMiTREJCI | AUR . 3 | autentiu Pliese |
+<table>
+<tbody>
+<tr><td>Nr. Crt</td><td>Nume - Prenume</td><td>Grup Parlamentar</td><td>Semnătura</td></tr>
+<tr><td>1</td><td>PETRISOR PEiU</td><td>AUR</td><td rowspan="3"></td></tr>
+<tr><td>2</td><td>ORIVTINA JUMITRECIU</td><td>AUR</td></tr>
+<tr><td>3</td><td>Jaustruhlu Plăe Sey</td><td>AUR</td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>

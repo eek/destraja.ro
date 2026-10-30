@@ -1,12 +1,14 @@
-EXPUNERE DE MOTIVE
+# EXPUNERE DE MOTIVE
 
 Lege pentru modificarea și completarea Ordonanței de urgență a Guvernului nr. 6/2025 și a Ordonanței de urgență a Guvernului nr. 27/2022
 
-Descrierea situației actuale
+## Descrierea situației actuale
 
-În cadrul mecanismului de decontare a sumelor cuvenite furnizorilor de energie electrică și gaze naturale în baza schemelor de plafonare-compensare, art. 9 alin. (10) lit. a) din Ordonanța de urgență a Guvernului nr. 27/2022 și, corespunzător, din Ordonanța de urgență a Guvernului nr. 6/2025 prevăd efectuarea unor plăți parțiale de 40% din valoarea solicitată prin cererile de decontare, până la finalizarea verificărilor. Potrivit datelor disponibile, volumul cererilor de decontare aflate în analiză este de aproximativ 6 miliarde lei, iar menținerea pragului actual de 40% generează dificultăți semnificative în asigurarea fluxurilor financiare necesare continuării activității furnizorilor, cu potențiale efecte asupra stabilității pieței de energie și asupra consumatorilor finali. Prin Adresa ACUE nr. 676/25.03.2026, furnizorii de energie au semnalat dificultățile financiare generate de întârzierile excesive în procesul de decontare, precum și necesitatea majorării procentului aferent plăților parțiale, în vederea reducerii presiunilor de lichiditate și a evitării amplificării costurilor de finanțare. Totodată, prin Ordonanța de urgență a Guvernului nr. 38/2026 a fost instituit cadrul legal necesar pentru suspendarea plăților efectuate de la bugetul de stat în situațiile în care, în cadrul procesului de verificare și decontare, sunt identificate nereguli, suspiciuni privind legalitatea documentelor ori au fost inițiate proceduri penale relevante, find astfel deja instituite mecanisme suficiente pentru protejarea fondurilor publice și prevenirea efectuării unor plăți nejustificate. Cadrul actual nu reglementează însă perceperea de dobânzi și penalități de întârziere în cazul nerecuperării în termen a sumelor plătite necuvenit și nici un termen final pentru introducerea datelor necesare decontării și regularizării.
+În cadrul mecanismului de decontare a sumelor cuvenite furnizorilor de energie electrică și gaze naturale în baza schemelor de plafonare-compensare, art. 9 alin. (10) lit. a) din Ordonanța de urgență a Guvernului nr. 27/2022 și, corespunzător, din Ordonanța de urgență a Guvernului nr. 6/2025 prevăd efectuarea unor plăți parțiale de 40% din valoarea solicitată prin cererile de decontare, până la finalizarea verificărilor. Potrivit datelor disponibile, volumul cererilor de decontare aflate în analiză este de aproximativ 6 miliarde lei, iar menținerea pragului actual de 40% generează dificultăți semnificative în asigurarea fluxurilor financiare necesare continuării activității furnizorilor, cu potențiale efecte asupra stabilității pieței de energie și asupra consumatorilor finali. Prin Adresa ACUE nr. 676/25.03.2026, furnizorii de energie au semnalat dificultățile financiare generate de întârzierile excesive în procesul de decontare, precum și necesitatea majorării procentului aferent plăților parțiale, în vederea reducerii presiunilor de lichiditate și a evitării amplificării costurilor de finanțare.
 
-Schimbări preconizate
+Totodată, prin Ordonanța de urgență a Guvernului nr. 38/2026 a fost instituit cadrul legal necesar pentru suspendarea plăților efectuate de la bugetul de stat în situațiile în care, în cadrul procesului de verificare și decontare, sunt identificate nereguli, suspiciuni privind legalitatea documentelor ori au fost inițiate proceduri penale relevante, fiind astfel deja instituite mecanisme suficiente pentru protejarea fondurilor publice și prevenirea efectuării unor plăți nejustificate. Cadrul actual nu reglementează însă perceperea de dobânzi și penalități de întârziere în cazul nerecuperării în termen a sumelor plătite necuvenit și nici un termen final pentru introducerea datelor necesare decontării și regularizării.
+
+## Schimbări preconizate
 
 Se propune majorarea de la 40% la 60% a plăților parțiale efectuate în contul cererilor de decontare depuse de furnizorii de energie electrică și gaze naturale, atât în cadrul schemei reglementate de Ordonanța de urgență a Guvernului nr. 27/2022, cât și al celei reglementate de Ordonanța de urgență a Guvernului nr. 6/2025. Plățile parțiale reprezintă exclusiv o modalitate de executare etapizată a unor obligații deja existente ale statului, iar nu o decontare definitivă: sumele au fost depuse și supuse verificărilor preliminare realizate de ANRE, iar eventualele diferențe dintre sumele acordate și cele validate definitiv se regularizează în etapa finală de decontare, potrivit mecanismului legal existent. În consecință, majorarea procentului plăților parțiale nu implică cheltuieli bugetare suplimentare, ci exclusiv o ajustare a ritmului de efectuare a plăților, măsura fiind justificată și proporțională în contextul mecanismelor de control instituite prin Ordonanța de urgență a Guvernului nr. 38/2026.
 
@@ -14,4 +16,10 @@ Corelativ, se propun: perceperea de dobânzi și penalități de întârziere, c
 
 Față de cele de mai sus, a fost elaborată propunerea legislativă privind unele măsuri fiscal-bugetare, precum și pentru modificarea și completarea unor acte normative, pe care îl supunem spre aprobare.
 
-Inițiatori : Senator PNL de Bacău | Senator PNL de Giurgiu Daniel-Cătălin FENECHIU | Maria-Gabriela HORGA
+Senator PNL de Bacău Daniel –Cătălin FENECHIU
+
+Inițiatori :
+
+Senator PNL de Giurgiu
+
+Maria-Gabriela HORGA

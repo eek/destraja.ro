@@ -1112,4 +1112,920 @@ c) comisiile de experți constituite ad-hoc.
 
 (4) Numărul de reprezentanți în Adunarea Generală aferent fiecărei filiale territoriale se va determina prin împărțirea numărului de membri ai fiecărei filiale territoriale la norma de reprezentare. Dacă numărul astfel obținut este un număr zecimal, acesta se va rotunji la valoarea întreagă cea mai apropiată, în minus sau în plus, potrivit regulilor matematice de rotunjire.
 
-*Documentul are 68 de pagini; am citit primele 40.*
+(5) Alegerea membrilor Adunării Generale se face prin vot secret, în cadrul alegerilor derulate la nivelul fiecărei filiale territoriale a Colegiului, în ordinea numărului de voturi obținute. Pot candida pentru obținerea unui mandat de reprezentant în Adunarea Generală doar membrii Colegiului Psihologilor din România care dețin gradul profesional de specialist sau principal și care îndeplinesc condițiile de candidatură stabilite de către Consiliul Național prin regulamentul menționat la art. 92 din prezenta lege.
+
+(6) Mandatul membrilor Adunării Generale este de 4 ani, iar numărul de mandate consecutive este limitat la două mandate, indiferent de durata efectivă a acestora.
+
+## Art. 94.
+
+(1) Încetarea mandatului de membru al Adunării Generale are loc în una dintre următoarele situații:
+
+a) de drept, ca urmare a decesului;
+
+b) prin demisie;
+
+c) în situația absentării de la 2 ședințe ale Adunării Generale într-un an calendaristic, indiferent de motivul absentării;
+
+d) ca urmare a transferului membrului Adunării Generale în cadrul altei filiale territoriale;
+
+e) de drept, ca urmare a pierderii calității de membru al Colegiului Psihologilor din România;
+
+f) de drept, ca urmare a apariției uneia dintre situațiile care atrage suspendarea dreptului de liberă practică, prevăzute la art. 18 alin. (1) lit. a), b), d), e) și f) din prezenta lege;
+
+g) ca urmare a apariției situației care atrage suspendarea dreptului de liberă practică, prevăzută la art. 18 alin. (1) lit. c) din prezenta lege;
+
+h) prin revocarea mandatului de reprezentant în Adunarea Generală de către Adunarea generală a filialei teritoriale;
+
+i) prin revocarea mandatului de reprezentant în Consiliul Național de către Adunarea generală a filialei territoriale;
+
+j) de drept, ca urmare a încetării mandatului de Președinte al filialei territoriale;
+
+k) de drept, ca urmare a încetării mandatului de Președinte al Colegiului Psihologilor din România.
+
+(2) Constatarea încetării mandatului în situațiile prevăzute la alin. (1) lit. b), c) și d) se realizează prin hotărârea Adunării Generale.
+
+(3) Încetarea mandatului în situația prevăzută la alin. (1) lit. g) are loc la data rămânerii definitive a hotărârii Biroului Executiv prevăzută la art. 18 alin. (2) din prezenta lege.
+
+(4) Încetarea suspendării dreptului de liberă practică ulterior încetării mandatului de membru al Adunării Generale în condițiile alin. (1) lit. f) și g) nu are ca efect redobândirea mandatului încetat.
+
+## Art. 95.
+
+În situația vacantării poziției de membru al Adunării Generale ca urmare a incidenței unuia dintre cazurile de încetare a mandatului prevăzute la art. 94 alin. (1) din prezenta lege, poziția respectivă va fi ocupată conform dispozițiilor Statutului profesiei de psiholog.
+
+## Art. 96.
+
+(1) Adunarea Generală este legal constituită și poate adopta hotărâri în prezența a jumătate plus unul dintre membrii săi. Hotărârile Adunării Generale se adoptă cu majoritate simplă, prin majoritate simplă înțelegându-se votul a jumătate plus unul dintre membrii prezenți la ședința respectivă, cu excepția hotărârilor privind adoptarea, modificarea, completarea sau abrogarea Statutului profesiei de psiholog care se adoptă cu votul a cel puțin două treimi dintre membrii prezenți la ședința respectivă.
+
+(2) Adunarea Generală se întrunește anual în ședință ordinară și se poate întruni în ședință extraordinară ori de câte ori este nevoie, la solicitarea Consiliului Național sau a majorității simple a membrilor Adunării Generale.
+
+(3) Convocarea Adunării Generale ordinare se realizează cu cel puțin 30 de zile înainte de data stabilită pentru desfășurarea ședinței Adunării Generale și cu cel puțin 20 de zile înainte de data stabilită pentru desfășurarea ședinței Adunării Generale extraordinare.
+
+(4) Dispoziția de convocare va conține atât data convocării ședinței, cât și data reconvocării acesteia pentru situația în care la prima convocare nu este îndeplinită condiția de cvorum. Data reconvocării nu va putea fi mai mică de 3 zile și nici mai mare de 10 zile de la data primei convocări. Dispoziția de convocare emisă de către Președintele Colegiului Psihologilor din România se publică pe pagina de internet a Colegiului și poate fi transmisă membrilor Adunării Generale pe adresa de corespondență electronică comunicată de către aceștia și înscrisă în baza de date a Colegiului.
+
+## Art. 97.
+
+Adunarea Generală are următoarele atribuții:
+
+a) stabilește liniile directoare privind organizarea și exercitarea profesiei de psiholog pe territoriul României;
+
+b) adoptă Statutul profesiei de psiholog, la propunerea Biroului Executiv;
+
+c) adoptă Regulamentul de organizare și funcționare a Colegiului Psihologilor din România, pe baza proiectului elaborat de către Consiliu Național, precum și modificarea și completarea acestuia, la propunerea Consiliului Național;
+
+d) adoptă Codul deontologic al profesiei de psiholog, pe baza proiectului elaborat de către Consiliul Național, precum și modificarea și completarea acestuia, la propunerea Consiliului Național;
+
+e) adoptă Codul de procedură disciplinară, pe baza proiectului elaborat de către Consiliu Național, precum și modificarea și completarea acestuia, la propunerea Consiliului Național;
+
+f) adoptă Normele de avizare a metodelor și tehnicilor de evaluare și asistență psihologică, pe baza proiectului elaborat de către Consiliu Național, precum și modificarea și completarea acestora, la propunerea Consiliului Național;
+
+g) analizează și dezbate Raportul anual de activitate a Consiliului Național și poate formula propuneri Consiliului Național.
+
+## Art. 98.
+
+(1) Consiliul Național este constituit dintr-un număr de minimum 91 și maximum 113 membri ai Colegiului Psihologilor din România, număr alcătuit din Președintele Colegiului Psihologilor din România, din președinții filialelor territoriale ale Colegiului Psihologilor din România aleși în cadrul fiecărei filiale teritoriale, care sunt membri de drept ai Consiliului Național, precum și din reprezentanți aleși din rândul membrilor Colegiului Psihologilor din România din cadrul fiecărei filialele teritoriale a Colegiului, potrivit normei de reprezentare stabilite pentru alegerea membrilor Consiliului Național. Numărul concret al membrilor Consiliului Național se va determina de către Consiliul Național înaintea fiecărui proces electoral, prin aplicarea algoritmului de calcul prevăzut la alin . (2) – (6).
+
+(2) Numărul minim de poziții de membru în Consiliul Național este de 91, incluzând și Președintele Colegiului Psihologilor din România.
+
+(3) Norma de reprezentare pentru determinarea numărului concret de poziții în Consiliul Național se obține prin împărțirea numărului total de membri ai Colegiului la 90, obținându-se un număr de referință. Norma de reprezentare pentru Consiliu național este partea întreagă a numărului de referință, cu excepția cazului în care acest număr de referință nu conduce la obținerea unui număr minim de 90 de poziții de membru în Consiliul Național, fără a lua în calcul poziția de Președinte al Colegiului Psihologilor din România. În această situație norma de reprezentare este numărul întreg cel mai apropiat de numărul de referință care conduce la obținerea unui număr minim de 90 de poziții de membru în Consiliul Național, cu excepția poziției de Președinte al Colegiului Psihologilor din România.
+
+(4) Numărul de poziții de membru în Consiliul Național aferent fiecărei filiale teritoriale se va determina prin împărțirea numărului de membri ai fiecărei filiale teritoriale la norma de reprezentare. Dacă numărul astfel obținut este un număr zecimal, acesta se va rotunji la valoarea întreagă cea mai apropiată, în minus sau în plus, potrivit regulilor matematice de rotunjire.
+
+(5) Numărul de poziții de membru în Consiliul Național aferent fiecărei filiale territoriale, determinat potrivit alin. (4), se ocupă în această ordine: o poziție se ocupă de drept de către președintele ales al filialei territoriale, iar restul pozițiilor reprezintă poziții eligibile de reprezentant în Consiliul Național pentru filiala teritorială respectivă.
+
+(6) Dacă numărul de poziții de membru în Consiliul Național aferent unei filiale territoriale este egal cu 1, filiala respectivă va fi reprezentată în Consiliul Național doar de către președintele filialei territoriale. Dacă numărul de poziții de membru în Consiliul Național al unei filiale este 0, filiala respectivă va fi reprezentată în Consiliul Național doar de către președintele filialei territoriale, situație în care numărul de membri în Consiliul Național va fi suplimentat cu această poziție, în limitele stabilite la alin. (1).
+
+(7) Alegerea reprezentanților filialelor territoriale ale Colegiului Psihologilor din România în Consiliul Național se face prin vot secret, în cadrul alegerilor derulate la nivelul fiecărei filiale territoriale a Colegiului, în ordinea numărului de voturi obținute. Pot candida pentru obținerea unui mandat de reprezentant în Consiliul Național doar membrii Colegiului Psihologilor din România care dețin gradul profesional de specialist sau principal și care îndeplinesc condițiile de candidatură stabilite de către Consiliul Național prin regulamentul menționat la art. 92 din prezenta lege.
+
+(8) Mandatul membrilor Consiliului Național este de 4 ani, iar numărul de mandate consecutive este limitat la două mandate, indiferent de durata efectivă a acestora.
+
+Art. 99.
+
+(1) Încetarea mandatului de membru al Consiliului Național are loc în una dintre următoarele situații:
+
+a) de drept, ca urmare a decesului;
+
+b) prin demisie;
+
+c) în situația absentării de la 3 ședințe ale Consiliului Național într-un an calendaristic, indiferent de motivul absentării;
+
+d) ca urmare a transferului membrului Consiliului Național în cadrul altei filiale teritoriale;
+
+e) de drept, ca urmare a pierderii calității de membru al Colegiului Psihologilor din România;
+
+f) de drept, ca urmare a apariției uneia dintre situațiile care atrage suspendarea dreptului de liberă practică, prevăzute la art. 18 alin. (1) lit. a), b), d), e) și f) din prezenta lege;
+
+g) ca urmare a apariției situației care atrage suspendarea dreptului de liberă practică, prevăzută la art. 18 alin. (1) lit. c) din prezenta lege;
+
+h) prin revocarea mandatului de reprezentant în Consiliul Național de către Adunarea generală a filialei teritoriale;
+
+i) de drept, ca urmare a încetării mandatului de Președinte al filialei teritoriale;
+
+j) de drept, ca urmare a încetării mandatului de Președinte al Colegiului Psihologilor din România.
+
+(2) Constatarea încetării mandatului în situațiile prevăzute la alin. (1) lit. b), c) și d) se realizează prin hotărârea Consiliului Național.
+
+(3) Încetarea mandatului în situația prevăzută la alin. (1) lit. g) are loc la data rămânerii definitive a hotărârii Biroului Executiv prevăzută la art. 18 alin. (2) din prezenta lege.
+
+(4) Încetarea suspendării dreptului de liberă practică ulterior încetării mandatului de membru al Consiliului Național în condițiile alin. (1) lit. f) și g) nu are ca efect redobândirea mandatului încetat.
+
+## Art.100.
+
+În situația vacantării poziției de membru al Consiliului Național ca urmare a incidenței unuia dintre cazurile de încetare a mandatului prevăzute la art. 99 alin. (1) din prezenta lege, poziția respectivă va fi ocupată conform dispozițiilor Statutului profesiei de psiholog.
+
+## Art. 101.
+
+(1) Consiliul Național este legal constituit și poate adopta hotărâri în prezența a jumătate plus unul dintre membrii săi. Hotărârile Consiliului Național se adoptă cu majoritate simplă, prin majoritate simplă înțelegându-se votul a jumătate plus unul dintre membrii prezenți la ședința respectivă.
+
+(2) Consiliul Național se întrunește semestrial în ședință ordinară și se poate întruni în ședință extraordinară ori de câte ori este nevoie, la solicitarea Biroului Executiv sau a majorității simple a membrilor Consiliului Național.
+
+(3) Convocarea ședinței ordinare a Consiliului Național se realizează cu cel puțin 30 zile înainte de data stabilită pentru desfășurarea acesteia și cu cel puțin 20 de zile înainte de data stabilită pentru desfășurarea ședinței extraordinare a Consiliului Național.
+
+(4) Dispoziția de convocare va conține atât data convocării ședinței, cât și data reconvocării acesteia pentru situația în care la prima convocare nu este îndeplinită condiția de cvorum. Data reconvocării nu va putea fi mai mică de 3 zile și nici mai mare de 10 zile de la data primei convocări. Dispoziția de convocare emisă de către Președintele Colegiului Psihologilor din România se publică pe pagina de internet a Colegiului și poate fi transmisă membrilor Consiliului Național pe adresa de corespondență electronică comunicată de către aceștia și înscrisă în baza de date a Colegiului.
+
+## Art. 102.
+
+(1) Consiliul Național are, în principal, următoarele atribuții:
+
+a) elaborează proiectul Regulamentului de organizare și funcționare a Colegiului Psihologilor din România, precum și propunerile de modificare și completare a Regulamentului de organizare și funcționare a Colegiului Psihologilor din România, pe care le înaintează spre adoptare Adunării Generale;
+
+b) elaborează proiectul Codului deontologic al profesiei de psiholog, precum și propunerile de modificare și completare a Codului deontologic al profesiei de psiholog, pe care le înaintează spre adoptare Adunării Generale;
+
+c) elaborază proiectul Codului de procedură disciplinară, precum și propunerile de modificare și completare a Codului de procedură disciplinară, pe care le înaintează spre adoptare Adunării Generale;
+
+d) elaborează proiectul Normelor de avizare a metodelor și tehnicilor de evaluare și asistență psihologică, precum și propunerile de modificare și completare a Normelor de avizare a metodelor și tehnicilor de evaluare și asistență psihologică, pe care le înaintează spre adoptare Adunării Generale;
+
+e) stabilește strategii privind organizarea și exercitarea profesiei de psiholog și a activităților specifice specialităților profesionale interdisciplinare, concretizate în rezoluții cu privire la strategiile stabilite;
+
+f) aprobă bugetul de venituri și cheltuieli al Colegiului Psihologilor din România;
+
+g) aprobă execuția bugetară și descărcarea de gestiune a Biroului Executiv pentru exercițiul bugetar anual anterior;
+
+h) alege și revocă Președintele Colegiului Psihologilor din România și membrii Biroului Executiv;
+
+i) alege și revocă membrii Comisiei de Deontologie, ai Comisiei de Metodologie, precum și membrii comisiilor de experți constituite ad-hoc;
+
+j) aprobă înființarea și componența grupurilor de lucru aflate în coordonarea Consiliului Național, stabilește criteriile de eligibilitate și dimensionarea numărului de membri, organizarea și funcționarea acestora, la propunerea Biroului Executiv;
+
+k) aprobă înființarea comisiilor de experți constituite ad-hoc, la propunerea Biroului Executiv;
+
+1\) aprobă standardele de calitate a serviciilor psihologice, precum și a activităților specifice specialităților profesionale interdisciplinare, furnizate pe teritoriul României;
+
+m) adoptă și modifică condițiile și metodologia privind autorizarea furnizorilor de formare profesională, privind avizarea programelor de formare profesională de lungă durată, precum și cele privind avizarea și creditarea programelor de formare profesională continuă în domeniul psihologiei;
+
+n) adoptă și modifică condițiile și metodologia privind recunoașterea programelor de studii universitare de master în unul sau mai multe domenii generale de specializare;
+
+o) adoptă Norme privind regimul incompatibilităților și conflictului de interese aplicabile membrilor organelor de conducere ale Colegiului Psihologilor din România și ale filialelor territoriale ale Colegiului Psihologilor din România, a membrilor Comisiei de Deontologie și Comisiei de Metodologie, precum și modificarea și completarea acestora, la propunerea Biroului Executiv;
+
+p) aprobă înființarea, reorganizarea sau desființarea filialelor territoriale ale Colegiului Psihologilor din România;
+
+q) aprobă cuantumul cotizației de membru și al taxelor profesionale, precum și modalitatea și termenele de plată ale acestora;
+
+r) adoptă Regulamentul Intern al Colegiului, statul de funcții, organigrama și grila de salarizare a personalului angajat al Colegiului Psihologilor din România și al filialelor territoriale, pe baza proiectelor elaborate de către Biroul Executiv, precum și modificarea și completarea acestora, la propunerea Biroului Executiv;
+
+s) stabilește indemnizațiile membrilor organelor de conducere ale Colegiului Psihologilor din România și ale filialelor territoriale, precum și indemnizațiile pentru membrii Comisiei de Deontologie, Comisiei de Metodologie, comisiilor de experți constituite ad-hoc și grupurilor de lucru înființate potrivit dispozițiilor prezentei legi, în raport de bugetul anual aprobat;
+
+t) adoptă Regulamentul de organizare și desfășurare a alegerilor organelor de conducere ale Colegiului Psihologilor din România și ale filialelor territoriale ale Colegiului Psihologilor din România, a membrilor Comisiei de Deontologie și Comisiei de Metodologie, pe baza proiectului elaborat de către Biroul Executiv, precum și modificarea și completarea acestuia, la propunerea Biroului Executiv;
+
+u) dezbate și aprobă propuneri de modificare a legislației care vizează organizarea și exercitarea profesiei de psiholog, precum și organizarea și exercitarea activităților specifice specialităților profesionale interdisciplinare;
+
+v) gestionează bunurile Colegiului Psihologilor din România și poate să inițieze și să subvenționeze acțiuni interesând profesia de psiholog, acțiuni de întrajutorare sau de sponsorizare;
+
+w) adoptă, cu caracter de recomandare, tabloul onorariilor minimale pentru serviciile prestate potrivit legii de către psihologii cu drept de liberă practică și deținătorii dreptului de liberă practică pentru exercitarea activităților specifice specialităților profesionale interdisciplinare, care nu dețin titlul profesional de psiholog;
+
+x) exercită controlul profesional al activităților profesionale ale membrilor Colegiului Psihologilor din România, în condițiile prezentei legi;
+
+y) are puterea de a adopta condiții suplimentare pentru dobândirea sau exercitarea dreptului de liberă practică în specialitățile profesionale psihologice, precum și în specialitățile profesionale interdisciplinare;
+
+z) aduce la îndeplinire obligațiile stabilite în sarcina Colegiului Psihologilor din România prin alte acte normative;
+
+aa) alte atribuții stabilite potrivit prezentei legi în sarcina Consiliului Național.
+
+## Art. 103.
+
+(1) Consiliul Național este forul competent pentru exercitarea controlului profesional al activităților profesionale ale membrilor Colegiului Psihologilor din România.
+
+(2) Controlul profesional se exercită, din oficiu sau în baza unei sesizări scrise, potrivit metodologiei activității de control profesional adoptată de către Consiliul Național.
+
+(3) Obiectul controlului profesional privește modul de exercitare a activităților specifice profesiei de psiholog și a serviciilor psihologice, precum și modul de exercitare a activităților specifice specialităților profesionale interdisciplinare, iar întinderea și limitele controlului se stabilesc prin hotărâre a Consiliului Național pentru fiecare caz în parte.
+
+(4) Urmare a exercitării activității de control profesional, Consiliul Național poate formula recomandări privind modul de exercitare a activităților specifice profesiei de psiholog și a serviciilor psihologice, precum și privind modul de exercitare a activităților specifice specialităților profesionale interdisciplinare, poate sesiza Comisia de deontologie cu privire la săvârșirea unor posibile abateri disciplinare sau poate sesiza alte organe de conducere ale Colegiului Psihologilor din România în vederea adoptării măsurilor legale care se impun.
+
+## Art. 104.
+
+(1) În cadrul Colegiului Psihologilor din România, în funcție de nevoile corpului profesional, se pot înființa și pot funcționa comisii de experți constituite ad-hoc și grupuri de lucru cu caracter temporar, aflate în coordonarea Consiliului Național, cu rol consultativ, pentru sprijinirea activității organelor de conducere ale Colegiului Psihologilor din România.
+
+(2) Modalitatea de constituire, numărul de membri, modalitatea de alegere și revocare a membrilor comisiilor de experți constituite ad-hoc, modalitatea de desemnare a membrilor grupurilor de lucru cu caracter temporar aflate în coordonarea Consiliului Național, organizarea și funcționarea comisiilor de experți constituie ad-hoc și grupurilor de lucru cu caracter temporar aflate în coordonarea Consiliului Național, precum și atribuțiile, drepturile, obligațiile și modalitatea de indemnizare a membrilor acestora se stabilesc de către Consiliul Național, la propunerea Biroului Executiv.
+
+(3) Alegerea membrilor comisiilor de experți constituite ad-hoc se realizează numai prin vot secret și se desfășoară cu îndeplinirea condițiilor prevăzute în prezenta lege, precum și potrivit procedurii și cu îndeplinirea condițiilor prevăzute în Statutul profesiei de psiholog.
+
+## Art. 105.
+
+(1) În cadrul Colegiului Psihologilor din România, în coordonarea Consiliului Național, funcționează următoarele comisii permanente: Comisia de Deontologie și Comisia de Metodologie.
+
+(2) Alegerea membrilor Comisiei de Deontologie și ai Comisiei de Metodologie se realizează prin vot secret, în cadrul alegerilor derulate la nivelul Consiliului Național, în ordinea numărului de voturi obținute. Pot candida pentru obținerea unui mandat de membru în cadrul acestor comisii doar membrii Colegiului Psihologilor din România care dețin gradul profesional de specialist sau principal și care îndeplinesc condițiile de candidatură stabilite de către Consiliul Național prin regulamentul menționat la art. 92 din prezenta lege.
+
+(3) Mandatul membrilor Comisiei de Deontologie și ai Comisiei de Metodologie este de 4 ani, iar numărul de mandate consecutive este limitat la două mandate, indiferent de durata efectivă a acestora.
+
+(4) Activitatea fiecărei comisii permanente este coordonată de către un președinte, ales cu majoritatea voturilor membrilor săi, în cadrul primei ședințe a comisiei.
+
+## Art. 106.
+
+(1) Încetarea mandatului de membru al Comisiei de Deontologie, precum și încetarea mandatului de membru al Comisiei de Metodologie, are loc în una dintre următoarele situații:
+
+a) de drept, ca urmare a decesului;
+
+b) prin demisie;
+
+c) în situația absentării de la 4 ședințe ale Comisiei de Deontologie, respectiv în situația absentării de la 4 ședințe ale Comisiei de Metodologie într-un an calendaristic, indiferent de motivul absentării;
+
+d) de drept, ca urmare a pierderii calității de membru al Colegiului Psihologilor din România;
+
+e) de drept, ca urmare a aparitei uneia dintre situațiile care atrage suspendarea dreptului de liberă practică, prevăzute la art. 18 alin. (1) lit. a), b), d), e) și f) din prezenta lege;
+
+f) ca urmare a apariției situației care atrage suspendarea dreptului de liberă practică, prevăzută la art. 18 alin. (1) lit. c) din prezenta lege;
+
+g) prin revocare de către Consiliul Național.
+
+(2) Constatarea încetării mandatului în situațiile prevăzute la alin. (1) lit. b) și c) se realizează prin hotărârea Comisiei de Deontologie, respectiv prin hotărârea Comisiei de Metodologie.
+
+(3) Încetarea mandatului în situația prevăzută la alin. (1) lit. f) are loc la data rămânerii definitive a hotărârii Biroului Executiv prevăzută la art. 18 alin. (2) din prezenta lege.
+
+(4) Încetarea suspendării dreptului de liberă practică ulterior încetării mandatului de membru al Comisiei de Deontologie, respectiv de membru al Comisiei de Metodologie în condițiile alin. (1) lit. e) și f) nu are ca efect redobândirea mandatului încetat.
+
+## Art.107.
+
+În situația vacantării poziției de membru al Comisiei de Deontologie, respectiv de membru al Comisiei de Metodologie ca urmare a incidenței unuia dintre cazurile de încetare a mandatului prevăzute la art. 106 alin. (1) din prezenta lege, poziția respectivă va fi ocupată conform dispozițiilor Statutului profesiei de psiholog.
+
+## Art. 108.
+
+(1) Comisia de Deontologie urmărește respectarea Codului deontologic al profesiei de psiholog, analizează sesizările cu privire la săvârșirea unor posibile abateri disciplinare, judecă abaterile disciplinare și aplică sancțiunile disciplinare prevăzute de prezenta lege, aflate în competența sa, conform procedurii prevăzute de Codul de procedură disciplinară.
+
+(2) Membrii Comisiei de Deontologie vor participa, în calitate de invitați, atât la ședințele Consiliului Național care au pe ordinea de zi elaborarea proiectelor Codului deontologic al profesiei de psiholog și Codului de procedură disciplinară sau elaborarea propunerilor de modificare sau completare a acestora, cât și la ședințele Adunării Generale care au pe ordinea de zi aprobarea acestora.
+
+(3) Comisia de Deontologie poate înainta Consiliului Național propuneri de modificare și completare a Codului deontologic al profesiei de psiholog și a Codului de procedură disciplinară.
+
+## Art.109.
+
+(1) Comisia de Metodologie desfãçoară activități specifice necesare pentru operațiunile de autorizare a furnizorilor de formare profesională, de recunoaștere, în cadrul unuia sau mai multor domenii generale de specializare, a programelor de studii universitare de master, de avizare a programelor de formare profesională de lungă durată în domeniul psihologiei, de avizare și creditare a programelor de formare profesională continuă, precum și de avizare a metodelor și tehnicilor de evaluare și asistență psihologică.
+
+(2) Membrii Comisiei de Metodologie vor participa, în calitate de invitați, atât la ședințele Consiliului Național care au pe ordinea de zi elaborarea proiectului Normelor de avizare a metodelor și tehnicilor de evaluare și asistență psihologică sau elaborarea propunerilor de modificare sau completare a acestora, cât și și la ședințele Adunării Generale care au pe ordinea de zi aprobarea acestora.
+
+(3) Comisia de Metodologie poate înainta Consiliului Național propuneri de modificare și completare a Normelor de avizare a metodelor și tehnicilor de evaluare și asistență psihologică.
+
+(4) Comisia de Metodologie propune Biroului Executiv eliberarea avizului metodologic pentru metodele și tehnicile de evaluare și asistență psihologică și modurile de utilizare a acestora.
+
+## Art.110.
+
+Numărul de membri, organizarea și funcționarea comisiilor permanente prevăzute la art. 105 alin. (1) din prezenta lege, precum și atribuțiile, drepturile, obligațiile și modalitatea de indemnizare a membrilor acestora se stabilesc de către Consiliul Național, la propunerea Biroului Executiv.
+
+## Art.111.
+
+Membrii comisiilor permanente, membrii comisiilor de experți constituite ad-hoc și membrii grupurilor de lucru cu caracter temporar pot participa, în calitate de invitați, la ședințele Adunării Generale, ale Consiliului Național și ale Biroului Executiv, fără drept de vot.
+
+Art.112.
+
+(1) Biroul Executiv este format din nouă membri, având următoarele funcții:
+
+a) Președintele, care este și Președintele Colegiului Psihologilor din România;
+
+b) prim-vicepreședintele;
+
+c) doi vicepreședinți;
+
+d) secretarul general;
+
+e) patru membri.
+
+(2) Alegerea membrilor Biroului Executiv pentru fiecare din funcțiile prevăzute la alin. (1) se realizează de către Consiliul Național dintre membrii Adunării Generale. Mandatul membrilor Biroului Executiv este de 4 ani, iar numărul de mandate consecutive este limitat la două mandate, indiferent de durata efectivă a acestora.
+
+(3) Alegerea membrilor Biroului Executiv se realizează prin vot secret, în cadrul alegerilor derulate la nivelul Consiliului Național, în ordinea numărului de voturi obținute. Pot candida pentru obținerea unui mandat de membru în cadrul Biroului Executiv doar membrii Adunării Generale care dețin gradul profesional de specialist sau principal și care îndeplinesc condițiile de candidatură stabilite de către Consiliul Național prin regulamentul menționat la art. 92 din prezenta lege.
+
+(4) Biroul Executiv va stabili prin hotărâre atribuțiile concrete ale membrilor săi, alături de cele stabilite prin prezenta lege.
+
+(5) Președintele Biroului Executiv este și Președintele Colegiului Psihologilor din România.
+
+(6) Biroul Executiv este legal constituit și poate adopta hotărâri în prezența a jumătate plus unul dintre membrii săi. Hotărârile Biroului Executiv se adoptă cu majoritate simplă, prin majoritate simplă înțelegându-se votul a jumătate plus unul dintre membrii prezenți la ședința respectivă.
+
+(7) Modalitatea de organizare și desfășurare a ședințelor Biroului Executiv, precum și drepturile, obligațiile și modalitatea de indemnizare a membrilor Biroului Executiv se stabilesc de către Consiliul Național.
+
+(8) Membrii Biroului Executiv vor participa, în calitate de invitați permanenți, la ședințele Adunării Generale și ale Consiliului Național.
+
+Art. 113.
+
+(1) Încetarea mandatului de membru al Biroului Executiv are loc în una dintre următoarele situații:
+
+a) de drept, ca urmare a decesului;
+
+b) prin demisie;
+
+c) în situația absentării de la 5 ședințe ale Biroului Executiv într-un an calendaristic, indiferent de motivul absentării;
+
+d) de drept, ca urmare a pierderii calității de membru al Colegiului Psihologilor din România;
+
+e) de drept, ca urmare a apariției uneia dintre situațiile care atrage suspendarea dreptului de liberă practică, prevăzute la art. 18 alin. (1) lit. a), b), d), e) și f) din prezenta lege;
+
+f) ca urmare a apariției situației care atrage suspendarea dreptului de liberă practică, prevăzută la art. 18 alin. (1) lit. c) din prezenta lege;
+
+g) prin revocare de către Consiliul Național;
+
+h) de drept, ca urmare a încetării mandatului de Președinte al Colegiului Psihologilor din România.
+
+(2) Constatarea încetării mandatului în situațiile prevăzute la alin. (1) lit. b) și c) se realizează prin hotărârea Biroului Executiv.
+
+(3) Încetarea mandatului în situația prevăzută la alin. (1) lit. f) are loc la data rămânerii definitive a hotărârii Biroului Executiv prevăzută la art. 18 alin. (2) din prezenta lege.
+
+(4) Încetarea suspendării dreptului de liberă practică ulterior încetării mandatului de membru al Biroului Executiv în condițiile alin. (1) lit. e) și f) nu are ca efect redobândirea mandatului încetat.
+
+## Art. 114.
+
+În situația vacantării poziției de membru al Biroului Executiv ca urmare a incidenței unuia dintre cazurile de încetare a mandatului prevăzute la art. 113 alin. (1) din prezenta lege, poziția respectivă va fi ocupată conform dispozițiilor Statutului profesiei de psiholog.
+
+## Art. 115.
+
+(1) În cadrul Colegiului Psihologilor din România, în funcție de nevoile corpului profesional, se pot înființa și pot funcționa, în coordonarea Biroului Executiv, grupuri de lucru cu caracter temporar, cu rol consultativ, pentru sprijinirea activității Biroului Executiv.
+
+(2) Modalitatea de constituire, modalitatea de desemnare a membrilor grupurilor de lucru cu caracter temporar, organizarea și funcționarea acestora precum și atribuțiile, drepturile, obligațiile și modalitatea de indemnizare a membrilor acestora se stabilesc de către Biroul Executiv.
+
+## Art. 116.
+
+(1) În subordinea Biroului Executiv funcționează Secretariatul general al Colegiului Psihologilor din România, condus de către Secretarul general al Biroului Executiv.
+
+(2) Personalul din cadrul Secretariatului general este personal contractual, încadrat în muncă în conformitate cu prevederile Legii nr. 53/2003 - Codul muncii, republicată, cu modificările și completările ulterioare.
+
+(3) Organizarea, funcționarea și atribuțiile Secretariatului general sunt stabilite prin Regulamentul Intern al Colegiului Psihologilor din România.
+
+## Art. 117.
+
+(1) Biroul Executiv conduce activitatea Colegiului Psihologilor din România și are următoarele atribuții:
+
+a) asigură funcționarea curentă a Colegiului Psihologilor din România;
+
+b) eliberează atestatul de liberă practică, cu respectarea actelor normative în vigoare;
+
+c) realizează înregistrarea, avizarea, autorizarea formelor și modalităților de exercitare a profesiei de psiholog, precum și a formelor și modalităților de exercitare a activităților specifice specialităților profesionale interdisciplinare ale deținătorilor dreptului de liberă practică pentru exercitarea activităților specifice specialităților profesionale interdisciplinare, care nu dețin titlul profesional de psiholog, și hotărăște suspendarea activității și radierea acestora;
+
+'d) asigură execuția bugetului Colegiului Psihologilor din România;
+
+e) aprobă angajarea și eliberarea din funcție a personalului Secretariatului general al Colegiului Psihologilor din România;
+
+f) întocmește raportul anual de gestiune și activitate, care cuprinde inclusiv raportul individual de activitate a fiecărui membru al Biroului Executiv, pe care îl supune spre aprobare Consiliului Național;
+
+g) aprobă contractele, convențiile, protocoalele și orice alte acte juridice ce urmează a fi încheiate în numele și pe seama Colegiului Psihologilor din România;
+
+h) acceptă donațiile, legatele și sponsorizările făcute către Colegiul Psihologilor din România;
+
+i) colaborează cu comisiile permanente, precum și cu comisiile de experți constituite ad-hoc și grupurile de lucru cu caracter temporar prevăzute la art. 104 din prezenta lege și asigură relațiile funcționale dintre acestea și Consiliul Național;
+
+j) elaborează și supune spre aprobare Consiliului Național proiectul bugetului de venituri și cheltuieli al Colegiului Psihologilor din România;
+
+k) informează periodic Consiliul Național cu privire la hotărârile Biroului Executiv adoptate între ședințele Consiliului Național;
+
+1\) propune spre aprobare Consiliului Național cuantumul indemnizațiilor membrilor organelor de conducere ale Colegiului Psihologilor din România și ale filialelor territoriale, precum și indemnizațiile pentru membrii Comisiei de Deontologie, Comisiei de Metodologie, comisiilor de experți constituite ad-hoc și grupurilor de lucru înființate potrivit dispozițiilor prezentei legi;
+
+m) elaborează proiectul Statutului profesiei de psiholog, precum și propunerile de modificare și completare a Statutului profesiei de psiholog, pe care le înaintează spre adoptare Adunării Generale;
+
+n) hotărăște înființarea și componența grupurilor de lucru aflate în coordonarea Biroului Executiv, stabilește criteriile de eligibilitate și dimensionarea numărului de membri, organizarea și funcționarea grupurilor de lucru aflate în coordonarea Biroului Executiv;
+
+o) propune Consiliului Național înființarea și componența grupurilor de lucru aflate în coordonarea Consiliului Național;
+
+p) propune Consiliului Național înființarea comisiilor de experți constituite ad-hoc;
+
+q) elaborează proiectele Regulamentului Intern al Colegiului, statului de funcții, organigramei și grilei de salarizare a personalului angajat al Colegiului Psihologilor din România și al filialelor territoriale, precum și propunerile de modificare sau completare a acestora, pe care le înaintează spre adoptare Consiliului Național;
+
+r) elaborează proiectul Regulamentului de organizare și desfășurare a alegerilor organelor de conducere ale Colegiului Psihologilor din România și ale filialelor territoriale ale Colegiului Psihologilor din România, a membrilor Comisiei de Deontologie și Comisiei de Metodologie, precum și propunerile de modificare și completare a Regulamentului de organizare și desfășurare a alegerilor organelor de conducere ale Colegiului Psihologilor din România și ale filialelor territoriale ale Colegiului Psihologilor din România, a membrilor Comisiei de Deontologie și Comisiei de Metodologie, pe care le înaintează spre adoptare Consiliului Național;
+
+s) elaborează proiectul Normelor privind regimul incompatibilităților și conflictului de interese aplicabile membrilor organelor de conducere ale Colegiului Psihologilor din România și ale filialelor territoriale ale Colegiului Psihologilor din România, a membrilor Comisiei de Deontologie și Comisiei de Metodologie, precum și propunerile de modificare și completare a Normelor privind regimul incompatibilităților și conflictului de interese aplicabile membrilor organelor de conducere ale Colegiului Psihologilor din România și ale filialelor territoriale ale Colegiului Psihologilor din România, a membrilor Comisiei de Deontologie și Comisiei de Metodologie, pe care le înaintează spre adoptare Consiliului Național;
+
+t) efectuează operațiunile de autorizare a furnizorilor de formare profesională, operațiunile de recunoaștere, în cadrul unuia sau mai multor domenii generale de specializare, a programelor de studii universitare de master și a programelor de studii postuniversitare, operațiunile de avizare a programelor de formare profesională de lungă durată, operațiunile de avizare și creditare a programelor de formare profesională continuă, precum și operațiunile de avizare a metodelor și tehnicilor de evaluare și asistență psihologică, în conformitate cu hotărârile adoptate de către Consiliul Național;
+
+u) eliberează toate actele și avizele necesare exercitării profesiei de psiholog și exercitării activităților specifice specialităților profesionale interdisciplinare;
+
+v) înregistrează, prin intermediul Secretariatului general al Colegiului, propunerile de documente primite din partea membrilor organelor de conducere ale Colegiului Psihologilor din România și ale filialelor territoriale, Comisiei de Deontologie, Comisiei de Metodologie, comisiilor de experți constituite ad-hoc și grupurilor de lucru înființate potrivit dispozițiilor prezentei legi, propuneri care urmează a fi supuse aprobării în organele de conducere ale Colegiului Psihologilor din România;
+
+w) elaborează și înaintează spre dezbaterea și aprobarea Consiliului Național propuneri de modificare a legislației care vizează organizarea și exercitarea profesiei de psiholog și prestarea serviciilor psihologice, precum și organizarea și exercitarea activităților specifice specialităților profesionale interdisciplinare;
+
+x) asigură condițiile corespunzătoare de desfășurare a activității organelor de conducere, comisiilor permanente, comisiilor de experți constituite ad-hoc și grupurilor de lucru aflate în coordonarea Consiliului Național și în propria coordonare;
+
+y) întocmește, gestionează, actualizează și asigură publicitatea Registrului național al psihologilor cu drept de liberă practică și a celorlalte registre profesionale, prin publicarea acestora pe pagina de internet a Colegiului;
+
+z) sesizează organele competente cu privire la situațiile de exercitare fără drept a profesiei de psiholog sau a activităților specifice specialităților profesionale interdisciplinare;
+
+aa) propune Consiliului Național spre aprobare cuantumul cotizației de membru și al taxelor profesionale, precum și modalitatea și termenul de plată a acestora;
+
+bb) înaintează Consiliului Național propuneri privind criteriile de eligibilitate și dimensionarea numărului de membri pentru comisiile de experți constituite ad-hoc și pentru grupurile de lucru cu caracter temporar aflate în coordonarea Consiliului Național, în condițiile prezentei legi;
+
+cc) îndeplinește toate formalitățile necesare pentru constituirea comisiilor de experți constituite ad-hoc și a grupurilor de lucru cu caracter temporar;
+
+dd) îndeplinește orice alte atribuții stabilite prin Statutul profesiei de psiholog, Regulamentul de organizare și funcționare al Colegiului Psihologilor din România sau stabilite prin hotărâri ale Consiliului Național;
+
+ee) alte atribuții stabilite potrivit prezentei legi în sarcina Biroului Executiv.
+
+(2) Biroul Executiv se întrunește săptămânal sau ori de câte ori este nevoie.
+
+(3) Biroul Executiv poate mandata membri ai Colegiului Psihologilor din România sau alte persoane pentru a reprezenta interesele Colegiului Psihologilor din România în relațiile cu terții.
+
+## Art. 118.
+
+(1) Președintele Colegiului Psihologilor din România este și Președintele Biroului Executiv și al Consiliului Național.
+
+(2) Președintele Colegiului Psihologilor din România are următoarele atribuții principale:
+
+a) reprezintă Colegiul în relațiile cu persoanele fizice și juridice din țară și din străinătate;
+
+b) cu aprobarea prealabilă a Biroului Executiv, încheie contracte, convenții, protocoale și orice alte acte juridice în numele și pe seama Colegiului Psihologilor din România;
+
+c) cu aprobarea prealabilă a Biroului Executiv, angajează și eliberează din funcție personalul Secretariatului general al Colegiului Psihologilor din România;
+
+d) convoacă și conduce ședințele Adunării Generale, Consiliului Național și Biroului Executiv;
+
+e) aduce la îndeplinire hotărârile Adunării Generale, Consiliului Național și Biroului Executiv;
+
+f) urmărește încasarea veniturilor, ordonanțează cheltuielile și coordonează activitatea financiară a Colegiului Psihologilor din România conform bugetului aprobat de către Consiliul Național;
+
+g) semnează actele Adunării Generale, ale Consiliului Național și ale Biroului Executiv;
+
+h) pentru îndeplinirea atribuțiilor sale, Președintele Colegiului Psihologilor din România poate emite dispoziții;
+
+i) supraveghează relațiile dintre organele de conducere ale Colegiului Psihologilor din România și organele de conducere ale filialelor teritoriale ale Colegiului Psihologilor din România, precum și relațiile dintre acestea și comisiile permanente, comisiile de experți constituite ad -hoc și grupurile de lucru;
+
+j) veghează la asigurarea de către angajatori a condițiilor corespunzătoare de desfășurare a activității membrilor Colegiului Psihologilor din România, angajați cu contract individual de muncă, potrivit reglementărilor specifice;
+
+k) îndeplinește orice alte atribuții stabilite prin Statutul profesiei de psiholog, prin Regulamentul de organizare și funcționare al Colegiului Psihologilor din România sau prin hotărâri ale Consiliului Național sau ale Biroului Executiv;
+
+1\) alte atribuții stabilite potrivit prezentei legi în sarcina Președintelui Colegiului Psihologilor din România.
+
+## Art. 119.
+
+(1) Înlocuitorul Președintelui Colegiului Psihologilor din România este prim-vicepreședintele Biroului Executiv sau unul dintre cei doi vicepreședinți ai Biroului Executiv, desemnat prin hotărâre a Biroului Executiv.
+
+(2) În situația neîndeplinirii în termenul legal sau în termenele stabilite de către organele de conducere ale Colegiului Psihologilor din România a atribuțiilor Președintelui Colegiului Psihologilor din România, constată de Biroul Executiv, acesta îl poate suspenda din funcție pe Președintele Colegiului Psihologilor din România, desemnând prin vot secret înlocuitorul acestuia.
+
+(3) Înlocuitorul desemnat convoacă, în termen de maximum 5 zile de la desemnare, ședința extraordinară a Consiliului Național, având pe ordinea de zi revocarea Președintelui Colegiului Psihologilor din România.
+
+(4) În situația în care Biroul Executiv constată prin hotărâre neîndeplinirea sau îndeplinirea defectuoasă de către unul dintre membrii săi a atribuțiilor ce îi revin acestuia, Președintele Biroului Executiv convoacă, în termen de maximum 5 zile de la data hotărârii Biroului Executiv, ședința extraordinară a Consiliului Național având pe ordinea de zi revocarea membrului respectiv. Dispozițiile acestui alineat nu se aplică Președintelui Colegiului Psihologilor din România.
+
+(5) În situația revocării din funcție a Președintelui Colegiului Psihologilor din România sau a unui membru al Biroului Executiv, Consiliul Național va stabili prin hotărârea de revocare și data alegerilor pentru ocuparea funcției vacante, care nu poate depăși 45 de zile calendaristice de la data adoptării hotărârii de revocare. Dispozițiile art. 112 alin. (2) și (3) rămân aplicabile.
+
+## Art. 120.
+
+(1) Încetarea mandatului de Președinte al Colegiului Psihologilor din România are loc în una dintre următoarele situații:
+
+a) de drept, ca urmare a decesului;
+
+b) prin demisie;
+
+c) în situația absentării de la 2 ședințe ale Adunării Generale într-un an calendaristic, indiferent de motivul absentării ori în situația absentării de la 3 ședințe ale Consiliului Național într-un an calendaristic, indiferent de motivul absentării ori în situația absentării de la 5 ședințe ale Biroului Executiv într-un an calendaristic, indiferent de motivul absentării;
+
+d) de drept, ca urmare a pierderii calității de membru al Colegiului Psihologilor din România;
+
+e) de drept, ca urmare a apariției uneia dintre situațiile care atrage suspendarea dreptului de liberă practică, prevăzute la art. 18 alin. (1) lit. a), b), d), e) și f) din prezenta lege;
+
+f) ca urmare a apariției situației care atrage suspendarea dreptului de liberă practică, prevăzută la art. 18 alin. (1) lit. c) din prezenta lege;
+
+g) prin revocare de către Consiliul Național;
+
+h) de drept, ca urmare a încetării mandatului de membru al Adunării Generale.
+
+(2) Constatarea încetării mandatului în situațiile prevăzute la alin. (1) lit. b) se realizează prin hotărârea Biroului Executiv, iar constatarea încetării mandatului în situațiile prevăzute la alin. (1) lit. c) se realizează prin hotărârea Adunării Generale ori a Consiliului Național ori a Biroului Executiv, după caz.
+
+(3) Încetarea mandatului în situația prevăzută la alin. (1) lit. f) are loc la data rămânerii definitive a hotărârii Biroului Executiv prevăzute la art. 18 alin. (2) din prezenta lege.
+
+(4) Încetarea suspendării dreptului de liberă practică ulterior încetării mandatului de Președinte al Colegiului Psihologilor din România în condițiile alin. (1) lit. e) și f) nu are ca efect redobândirea mandatului încetat.
+
+## Art. 121.
+
+În situația vacantării poziției de Președinte al Colegiului Psihologilor din România ca urmare a incidenței unuia dintre cazurile de încetare a mandatului prevăzute la art. 120 alin. (1) din prezenta lege, poziția respectivă va fi ocupată conform dispozițiilor Statutului profesiei de psiholog.
+
+## Art. 122.
+
+Secretarul general al Biroului Executiv are următoarele atribuții:
+
+a) coordonează activitatea Secretariatului general al Colegiului Psihologilor din România;
+
+b) organizează evidențele și registrele Colegiului Psihologilor din România și răspunde de păstrarea și actualizarea acestora;
+
+c) coordonează demersurile de organizare logistică a ședințelor organelor de conducere ale Colegiului Psihologilor din România, a celor ale Comisiei de Deontologie și ale Comisiei de Metodologie, precum și cele ale comisiilor de experți constituite ad-hoc și a grupurilor de lucru cu caracter temporar și ține evidența proceselor verbale ale ședințelor acestora;
+
+d) ține evidența și arhivează hotărârile adoptate de către organele de conducere ale Colegiului Psihologilor din România;
+
+e) la încetarea mandatului, predă noului Secretar General toate documentele întocmite sau aflate în evidența și responsabilitatea sa, cu întocmirea unui proces verbal de predare – primire în care vor fi consemnate documentele predate;
+
+f) alte atribuții stabilite de către Biroul Executiv.
+
+## Secțiunea a 4-a Filialele territoriale ale Colegiului Psihologilor din România
+
+## Art. 123.
+
+(1) La nivelul fiecărui județ și la nivelul Municipiului București, prin hotărâre a Consiliului Național se pot înființa, organiza și funcționa filiale territoriale, fără personalitate juridică.
+
+(2) O filială se poate înființa dacă în județul respectiv își au domiciliul sau sediul profesional un număr de cel puțin 200 de membri ai Colegiului Psihologilor din România.
+
+(3) Pentru județele în care numărul membrilor Colegiului Psihologilor din România care își au domiciliul sau sediul profesional în județul respectiv este mai mic de 200, Consiliul Național poate hotărî înființarea unei filiale territoriale care să acopere două sau mai multe județe limitrofe ori poate hotărî afilierea membrilor care își au domiciliul sau sediul profesional în județul respectiv la o altă filială limitrofă deja înființată.
+
+(4) Fiecare membru al Colegiului Psihologilor din România este obligat să se înregistreze ori la filiala teritorială din județul unde are domiciliul ori la filiala teritorială unde își are sediul profesional. Un membru al Colegiului Psihologilor din România nu poate fi membru decât al unei singure filiale teritoriale.
+
+(5) În situația în care numărul membrilor unei filiale territoriale scade sub numărul de 150 de membri, Consiliul Național poate hotărî încetarea activității filialei și desființarea acesteia sau continuarea activității filialei territoriale, stabilind totodată și măsurile organizatorice necesare continuării activității. În cazul desființării unei filiale territoriale, mandatele organelor de conducere ale acesteia încetează de drept de la data hotărârii Consiliului Național privind desființarea. Încetarea mandatului Președintelui filialei territoriale nu atrage pierderea calității de membru al Consiliului Național, persoana aflată în această situație continuând mandatul de membru în Consiliul Național, însă nu în calitate de Președinte de filială teritorială, ci în calitate de reprezentant al filialei territoriale al cărui membru devine în urma desființării filialei territoriale unde acesta deținea anterior mandatul de președinte.
+
+(6) În cazul în care două sau mai multe filiale territoriale limitrofe ajung în situația ca numărul de membri al fiecăreia dintre acestea să scadă sub numărul de 150 de membri, la propunerea Adunărilor generale ale filialelor aflate în această situație, Consiliul Național poate hotărî fuziunea acestora. Procedura de fuziune, măsurile organizatorice necesare pentru implementarea acesteia, precum și organizarea și funcționarea filialei astfel constituite se stabilesc prin hotărârea Consiliului Național.
+
+## Art. 124.
+
+Filialele territoriale vor fi individualizate prin denumire astfel: sintagma filiala teritorială, urmată de denumirea județului și de sintagma a Colegiului Psihologilor din România.
+
+## Art. 125.
+
+Organele de conducere ale filialei territoriale sunt:
+
+a) Adunarea generală a filialei territoriale;
+
+b) Comitetul filialei territoriale;
+
+c) Președintele filialei territoriale.
+
+## Art. 126.
+
+(1) Adunarea generală a filialei teritoriale reprezintă forul de dezbatere al membrilor activi ai Colegiului Psihologilor din România care au domiciliul sau sediul profesional în aria teritorială de competență arondată filialei teritoriale respective.
+
+(2) Adunarea generală a filialei territoriale are următoarele atribuții:
+
+a) analizează și dezbate raportul anual de activitate a Comitetului filialei territoriale și poate formula propuneri Comitetului filialei;
+
+b) alege și revocă Președintele filialei teritoriale și membrii Comitetului filialei teritoriale;
+
+c) alege reprezentanții filialei territoriale în cadrul Adunării Generale și Consiliului Național ale Colegiului Psihologilor din România;
+
+d) dezbate problemele specifice ale practicii profesionale curente din aria teritorială a filialei.
+
+(3) Adunarea generală a filialei territoriale se întrunește anual în ședință ordinară și se poate întruni în ședință extraordinară ori de câte ori este nevoie, la solicitarea Comitetului filialei territoriale. Adunarea generală a filialei territoriale adoptă hotărâri cu majoritate simplă, prin majoritate simplă înțelegându-se votul a jumătate plus unul dintre membrii prezenți la ședința respectivă.
+
+(4) Convocarea Adunării generale ordinare a filialei territoriale se face cu cel puțin 30 zile înainte de data stabilită pentru desfășurarea ședinței Adunării generale a filialei territoriale și cu cel puțin 20 de zile înainte de data stabilită pentru desfășurarea ședinței Adunării generale extraordinare a filialei territoriale.
+
+(5) Dispoziția de convocare va conține data convocării ședinței și se publică pe pagina de internet a Colegiului și poate fi transmisă membrilor Adunării generale a filialei teritoriale pe adresa de corespondență electronică comunicată de către aceștia și înscrisă în baza de date a Colegiului.
+
+(6) Convocarea Adunării generale a filialei territoriale se face de către Președintele filialei territoriale. În cazul în care, urmare a solicitării Comitetului filialei territoriale, Președintele filialei territoriale refuză expres sau tacit să convoace Adunarea generală, convocarea se va realiza de către un membru al Comitetului filialei desemnat prin votul majorității simple a membrilor Comitetului filialei territoriale.
+
+(7) Convocarea Adunării generale a filialei territoriale se poate realiza și de către Biroul Executiv al Colegiului Psihologilor din România în cazurile expres prevăzute în Regulamentul de organizare și funcționare a Colegiului Psihologilor din România.
+
+## Art. 127.
+
+(1) Comitetul filialei territoriale este constituit dintr-un număr impar de membri raportat la numărul de membri ai filialei, stabilit prin hotărâre a Consiliului Național. Președintele filialei territoriale este membru de drept al comitetului filialei territoriale. Structura organizatorică și modul de funcționare ale Comitetului filialei territoriale sunt stabilite prin Regulamentul de organizare și funcționare a Colegiului Psihologilor din România.
+
+(2) Alegerea membrilor Comitetului filialei territoriale, cu excepția Președintelui filialei territoriale, se realizează de către Adunarea generală a filialei territoriale dintre membrii activi ai Colegiului Psihologilor din România aflați în evidența filialei territoriale respective, potrivit procedurii prevăzute în regulamentul menționat la art. 92 din prezenta lege.
+
+(3) Alegerea membrilor Comitetului filialei teritoriale se realizează de către Adunarea generală a filialei teritoriale prin vot secret.
+
+(4) Pot candida pentru obținerea unui mandat de membru în Comitetul filialei territoriale doar membrii activi ai Colegiului Psihologilor din România aflați în evidența filialei territoriale respective care dețin gradul profesional de specialist sau principal și care îndeplinesc condițiile de candidatură stabilite de către Consiliul Național prin regulamentul menționat la art. 92 din prezenta lege.
+
+(5) Mandatul membrilor Comitetului filialei territoriale este de 4 ani, iar numărul de mandate consecutive este limitat la două mandate, indiferent de durata efectivă a acestora.
+
+## Art. 128.
+
+(1) Comitetul filialei territoriale este legal constituit și poate adopta hotărâri în prezența a jumătate plus unul dintre membrii săi. Hotărârile Comitetul filialei territoriale se adoptă cu majoritate simplă, prin majoritate simplă înțelegându-se votul a jumătate plus unul dintre membrii prezenți la ședința respectivă.
+
+(2) Comitetul filialei territoriale se întrunește trimestrial în ședință ordinară și se poate întruni în ședință extraordinară ori de câte ori este necesar, la solicitarea majorității simple a membrilor săi.
+
+(3) Convocarea ședinței ordinare a Comitetului filialei territoriale se face cu cel puțin 10 zile înainte de data stabilită pentru desfășurarea acesteia și cu cel puțin 5 de zile înainte de data stabilită pentru desfășurarea ședinței extraordinare a Comitetului filialei territoriale. Dispoziția de convocare va conține atât data convocării ședinței, cât și data reconvocării acesteia pentru situația în care la prima convocare nu este îndeplinită condiția de cvorum. Data reconvocării nu va putea fi mai mică de 2 zile și nici mai mare de 4 zile de la data primei convocări. Dispoziția de convocare se publică pe pagina de internet a Colegiului Psihologilor din România și se poate transmite membrilor Comitetului filialei territoriale pe adresa de corespondență electronică comunicată de către aceștia și înscrisă în baza de date a Colegiului.
+
+(4) Ședințele Comitetului filialei teritoriale sunt conduse de către Președintele filialei teritoriale.
+
+## Art. 129.
+
+Comitetul filialei territoriale are următoarele atribuții:
+
+a) propune Adunării generale a filialei territoriale strategiile și proiectele de organizare și de dezvoltare ale filialei territoriale;
+
+b) asigură conducerea curentă a activității filialei teritoriale;
+
+c) propune Consiliului Național necesarul de personal pentru funcționarea corespunzătoare a filialei territoriale;
+
+d) aduce la îndeplinire hotărârile organelor de conducere ale Colegiului Psihologilor din România;
+
+e) poate organiza întâlniri, simpozioane, dezbateri în interes profesional la nivelul filialei territoriale, inclusiv în colaborare cu alte entități cu atribuții în formarea profesională a psihologilor și a deținătorilor dreptului de liberă practică pentru exercitarea activităților specifice specialităților profesionale interdisciplinare, care nu dețin titlul profesional de psiholog;
+
+f) poate colabora cu comitetele altor filiale teritoriale în vederea organizării împreună a unor proiecte profesionale de interes comun, în condițiile asigurării sustenabilității respectivelor proiecte;
+
+g) întocmește raportul anual de activitate a Comitetului filialei, pe care îl supune spre analiză și dezbatere Adunării generale a filialei territoriale.
+
+## Art. 130.
+
+(1) Președintele filialei territoriale este și Președintele Comitetului filialei territoriale. Acesta este membru de drept în Consiliul Național.
+
+(2) Alegerea Președintelui filialei teritoriale se realizează prin vot secret de către Adunarea generală a filialei teritoriale, potrivit procedurii prevăzute în regulamentul menționat la art. 92 din prezenta lege.
+
+(3) Pot candida pentru obținerea unui mandat de Președinte al filialei territoriale doar membrii activi ai Colegiului Psihologilor din România aflați în evidența filialei territoriale respective care dețin gradul profesional de specialist sau principal și care îndeplinesc condițiile de candidatură stabilite de către Consiliul Național prin regulamentul menționat la art. 92 din prezenta lege.
+
+(4) Mandatul Președintelui filialei territoriale este de 4 ani, iar numărul de mandate consecutive este limitat la două mandate, indiferent de durata efectivă a acestora.
+
+## Art. 131.
+
+Președintele filialei territoriale are următoarele atribuții:
+
+a) reprezintă filiala teritorială în relația cu organele de conducere ale Colegiului Psihologilor din România;
+
+b) este reprezentantul Colegiului Psihologilor din România în relația cu entitățile de drept public și de drept privat de pe raza filialei teritoriale respective, în baza mandatului primit din partea Consiliului Național;
+
+c) conduce activitatea curentă a filialei territoriale între ședințele Comitetului filialei territoriale;
+
+d) administrează bunurile încredințate pentru desfășurarea activității filialei de către Colegiul Psihologilor din România;
+
+e) aduce la îndeplinire hotărârile Comitetului filialei territoriale și ale organelor de conducere ale Colegiului Psihologilor din România;
+
+f) colaborează, în exercitarea mandatului, cu personalul administrativ al filialei territoriale aflat în coordonarea Secretarului general al Biroului Executiv;
+
+g) poate fi ordonator secundar de credite prin hotărârea Consiliului Național;
+
+h) în cazul în care îi este adusă la cunoștință o situație conflictuală existentă între membri ai filialei teritoriale sau între un membru al filialei teritoriale și un beneficiar al serviciilor prestate de către respectivul membru al filialei teritoriale, poate îndruma părțile implicate spre rezolvarea amiabilă a conflictului.
+
+## Art. 132.
+
+(1) Încetarea mandatului de Președinte al filialei teritoriale, respectiv a mandatului de membru al Comitetul filialei teritoriale are loc în una dintre următoarele situații:
+
+a) de drept, ca urmare a decesului;
+
+b) prin demisie;
+
+c) în situația absentării de la 3 ședințe ale Comitetului filialei territoriale într-un an calendaristic, indiferent de motivul absentării;
+
+d) ca urmare a transferului membrului Comitetului filialei în cadrul altei filiale teritoriale;
+
+e) de drept, ca urmare a pierderii calității de membru al Colegiului Psihologilor din România;
+
+f) de drept, ca urmare a apariției uneia dintre situațiile care atrage suspendarea dreptului de liberă practică, prevăzute la art. 18 alin. (1) lit. a), b), d), e) și f) din prezenta lege;
+
+g) ca urmare a apariției situației care atrage suspendarea dreptului de liberă practică, prevăzută la art. 18 alin. (1) lit. c) din prezenta lege.
+
+h) prin revocare de către Adunarea generală a filialei territoriale.
+
+(2) Constatarea încetării mandatului în situațiile prevăzute la alin. (1) lit. b), c) și d) se realizează prin hotărârea Comitetului filialei teritoriale.
+
+(3) Încetarea mandatului în situația prevăzută la alin. (1) lit. g) are loc la data rămânerii definitive a hotărârii Biroului Executiv prevăzute la art. 18 alin. (2) din prezenta lege.
+
+(4) Încetarea suspendării dreptului de liberă practică ulterior încetării mandatului de Președinte al filialei teritoriale, respectiv a mandatului de membru al Comitetul filialei teritoriale în condițiile alin. (1) lit. f) și g) nu are ca efect redobândirea mandatului încetat.
+
+## Art. 133.
+
+În situația vacantării poziției de Președinte al filialei territoriale sau a unei poziții de membru al Comitetului filialei teritoriale ca urmare a incidenței unuia dintre cazurile de încetare a mandatului prevăzute la art. 132 alin. (1) din prezenta lege, poziția respectivă va fi ocupată conform dispozițiilor Statutului profesiei de psiholog.
+
+## Secțiunea a 5-a
+
+Incompatibilități derivate din calitatea de membru al organelor de conducere ale Colegiului Psihologilor din Români și ale filialelor teritoriale ale Colegiului Psihologilor din România, precum și din calitatea de membru al Comisiei de Deontologie, Comisiei de Metodologie și comisiilor de experți constituite ad-hoc.
+
+## Art. 134.
+
+(1) Calitatea de reprezentant ales în Adunarea Generală este incompatibilă cu calitatea de reprezentant ales în Consiliului Național, precum și cu calitatea de Președinte al filialei territoriale.
+
+(2) Calitatea de reprezentant ales în Consiliului Național este incompatibilă cu calitatea de reprezentant ales în Adunarea Generală, precum și cu calitatea de Președinte al filialei teritoriale.
+
+(3) Calitatea de Președinte al filialei territoriale este incompatibilă cu calitatea de reprezentant ales în Adunarea Generală, precum și cu calitatea de reprezentant ales în Consiliului Național.
+
+(4) Calitatea de membru al Biroului Executiv este incompatibilă cu calitatea de reprezentant ales în Adunarea Generală, reprezentant ales în Consiliului Național, precum și cu calitatea de Președinte al filialei territoriale.
+
+(5) Calitatea de membru al Comisiei de Deontologie sau al Comisiei de Metodologie este incompatibilă cu calitatea de membru în organele de conducere ale Colegiului Psihologilor din România, cu calitatea de Președinte al filialei teritoriale, cu calitatea de membru în Comitetul filialei teritoriale, precum și cu calitatea de membru într-o comisie de experți constituită ad hoc.
+
+(6) Calitatea de membru într-o comisie de experți constituită ad hoc este incompatibilă cu calitatea de membru în organele de conducere ale Colegiului Psihologilor din România, cu calitatea de Președinte al filialei teritoriale, cu calitatea de membru în comitetul filialei teritoriale, precum și cu calitatea de membru al Comisiei de Deontologie sau al Comisiei de Metodologie.
+
+(7) Calitatea de membru al Comitetului filialei territoriale este incompatibilă cu calitatea de Președinte al filialei territoriale, cu calitatea de membru al Adunării Generale, cu calitatea de membru al Consiliului Național, cu calitatea de membru al Biroului Executiv, cu calitatea de membru într-o comisie de experți constituită ad hoc, precum și cu calitatea de membru al Comisiei de Deontologie sau al Comisiei de Metodologie.
+
+(8) Membrii organelor de conducere ale Colegiului Psihologilor din Români și ale filialelor territoriale ale Colegiului Psihologilor din România, membrii Comisiei de Deontologie, Comisiei de Metodologie, precum și membrii comisiilor de experți constituite ad-hoc sunt incompatibili cu calitatea de angajat al Colegiului Psihologilor din România, în baza unui contract individual de muncă, încheiat în condițiile Legii nr. 53/2003 – Codul Muncii.
+
+## Art. 135.
+
+Pozițiile de membru al Adunării Generale, membru al Consiliului Național, precum și pozițiile de Președinte al filialei territoriale și membru al Comitetului filialei territoriale care au devenit vacante ca urmare a alegerii persoanelor respective în calitate de membru al Biroului Executiv sau în calitate de membru al Comisiei de Deontologie sau al Comisiei de Metodologie se vor ocupa conform dispozițiilor Statutului profesiei de psiholog.
+
+## Secțiunea a 6-a Finanțarea Colegiului Psihologilor din România
+
+Art. 136.
+
+Veniturile Colegiului Psihologilor din România se constituie din:
+
+a) cotizațiile membrilor;
+
+b) taxele profesionale stabilite de către Consiliul Național;
+
+c) donații și sponsorizări de la persoane fizice și juridice;
+
+d) legate;
+
+e) drepturi editoriale;
+
+f) încasări din vânzarea publicațiilor proprii;
+
+g) alte surse, potrivit legii.
+
+## Art. 137.
+
+Veniturile pot fi utilizate pentru cheltuieli cu organizarea și funcționarea, cheltuieli de personal, cheltuieli pentru achiziționarea de bunuri și servicii, cheltuieli de capital, pentru finanțarea unor proiecte aprobate de Consiliul Național, pentru înființarea unor asociații sau fundații cu scop științific sau profesional, pentru acordarea de premii pentru membrii cu activități profesionale deosebite, precum și pentru alte cheltuieli aprobate de Consiliul Național.
+
+## Art. 138.
+
+(1) Fiecare filială teritorială întocmește anual o estimare a bugetului anual necesar funcționării și o înaintează Consiliului Național în vederea elaborării bugetului anual al Colegiului Psihologilor din România. Propunerea de buget întocmită de către fiecare filială se transmite până la sfârșitul lunii noiembrie a fiecărui an.
+
+(2) Pentru proiectele aprobate, Consiliul Național aloca filialei territoriale bugetul necesar proiectului respectiv.
+
+## Secțiunea a 7-a Membrii Colegiului Psihologilor din România
+
+Art. 139.
+
+Membrii Colegiului Psihologilor din România au, în principal următoarele drepturi:
+
+a) să aleagă și să fie aleși în organele de conducere, în condițiile prezentei legi;
+
+b) să solicite Colegiului Psihologilor din România și să obțină informații legate de exercitarea profesiei de psiholog pe territoriul României;
+
+c) să solicite Colegiului Psihologilor din România și să obțină informații legate de funcționarea Colegiului Psihologilor din România, inclusiv cu privire la funcționarea filialelor;
+
+d) să solicite Colegiului Psihologilor din România și să primească orice informație sau document legat de statutul lor profesional ori calitatea lor de membri ai Colegiului Psihologilor din România, informații și documente emise ori aflate în evidența instituției.
+
+## Art. 140.
+
+Membrii Colegiului Psihologilor din România au, în principal, următoarele obligații:
+
+a) să-și îndeplinească cu bună credință mandatele primite sau atribuțiile funcțiilor în care aceștia au fost numiți;
+
+b) să participe la ședințele convocate de către Colegiul Psihologilor din România, la activitățile profesionale, precum și la ședințele organelor de conducere sau la cele ale comisiilor din care aceștia fac parte;
+
+c) să răspundă convocărilor adresate de către organele de conducere ale Colegiului Psihologilor din România și ale filialelor territoriale;
+
+d) să achite, în termenul stabilit, cotizația și taxele profesionale datorate în calitate de membri ai Colegiului Psihologilor din România;
+
+e) să cunoască și să respecte Codul deontologic al profesiei de psiholog, Statutul profesiei de psiholog, precum și celelalte hotărâri cu caracter normativ ale organelor de conducere ale Colegiului Psihologilor din România;
+
+f) să încece rezolvarea pe cale amiabilă a oricărui litigiu sau conflict cu un alt membru al corpului profesional, sau cu un beneficiar al serviciilor psihologice, în legătură cu exercitarea profesiei.
+
+## Art. 141.
+
+(1) În exercitarea profesiei, membrii Colegiului Psihologilor din România răspund disciplinar pentru nerespectarea dispozițiilor prezentei legi, ale Codului deontologic al profesiei de psiholog, ale Statutului profesiei de psiholog, ale Regulamentului de organizare și funcționare, precum și pentru nerespectarea altor reglementări adoptate de către organele de conducere ale Colegiului Psihologilor din România.
+
+(2) În exercitarea mandatelor încredințate, membrii organelor de conducere răspund disciplinar și pentru neîndeplinirea sau îndeplinirea în mod necorespunzător a atribuțiilor și obligațiilor ce le revin în cadrul organelor de conducere, stabilite potrivit prezentei legi, Statutului profesiei de psiholog și Regulamentului de organizare și funcționare a Colegiului Psihologilor din România.
+
+(3) Nu fac obiect al cercetării disciplinare solicitările privind acoperirea unor prejudicii materiale sau morale.
+
+(4) Răspunderea disciplinară, potrivit prezentei legi, nu exclude răspunderea penală, contravențională sau civilă, conform prevederilor legale.
+
+## Art. 142.
+
+Faptele ce pot constitui abateri de natură disciplinară sunt cercetate de către Comisia de Deontologie.
+
+## Art. 143.
+
+(1) Orice sesizare formulată împotriva unui membru al Colegiului Psihologilor din România se soluționează de către Comisia de Deontologie.
+
+(2) Sesizarea cu privire la posibila săvârșire a unei abateri disciplinare de către un membru al Colegiului Psihologilor din România se poate formula în termen de cel mult 6 luni de la data la care persoana vătămată a luat cunoștință de săvârșirea faptei, dar nu mai târziu de 2 ani de la data săvârșirii acesteia.
+
+(3) Sesizarea se poate realiza și prin hotărârea motivată a Biroului Executiv sau a Consiliului Național, precum și prin sesizarea din oficiu a Comisiei de Deontologie, cu respectarea termenelor prevăzute la alin. (2).
+
+(4) Comisia de Deontologie soluționează orice sesizare potrivit procedurii stabilite prin Codul de procedură disciplinară.
+
+## Art. 144.
+
+(1) Sancțiunile disciplinare care pot fi aplicate pentru săvârșirea unei abateri disciplinare de către un membru al Colegiului Psihologilor din România sunt următoarele:
+
+a) mustrarea;
+
+b) avertismentul;
+
+c) suspendarea dreptului de liberă practică pentru o perioadă cuprinsă între cel puțin 1 lună și cel mult 12 luni;
+
+d) retragerea dreptului de liberă practică.
+
+(2) Săvârșirea repetată a unei abateri disciplinare constituie o circumstanță agravantă care va fi luată în considerare la individualizarea sanctiunii.
+
+(3) Împreună cu sancțiunile prevăzute la alin. (1) lit. a) și c) se pot aplica suplimentar și una sau mai multe dintre măsurile complementare preventive enumerate la alin. (6).
+
+(4) Împreună cu sancțiunea prevăzută la alin. (1) lit. b) se pot aplica suplimentar și una sau mai multe măsuri complementare corective și preventive.
+
+(5) Măsurile complementare corective sunt:
+
+a) suspendarea dreptului de desfășurare a anumitor activități profesionale pentru o perioadă cuprinsă între cel puțin 6 luni și cel mult 12 luni;
+
+b) suspendarea dreptului de supervizare profesională pentru o perioadă cuprinsă între cel puțin 6 luni și cel mult 12 luni;
+
+c) suspendarea dreptului de formare profesională pentru o perioadă cuprinsă între cel puțin 6 luni și cel mult 12 luni.
+
+(6) Măsurile complementare preventive sunt:
+
+a) obligarea la parcurgerea unui număr de ore de dezvoltare profesională;
+
+b) obligarea la efectuarea supervizării profesionale a practicii profesionale pentru o perioadă cuprinsă între cel puțin 6 luni și cel mult 12 luni;
+
+c) obligarea la parcurgerea unui număr de ore de dezvoltare personală.
+
+(7) Sancțiunile prevăzute la alin. (1) lit. a) și b), precum și eventualele măsuri complementare dispuse împreună cu acestea, se aplică de către Comisia de Deontologie. În situația în care un membru al Colegiului Psihologilor din România este sancționat disciplinar cu trei avertismente într-o perioadă de 12 luni, Comisia de Deontologie propune Biroului Executiv suspendarea dreptului de liberă practică al respectivului membru.
+
+(8) Sancțiunile prevăzute la alin. (1), lit. c) și d), precum și eventualele măsuri complementare dispuse împreună cu acestea se aplică de către Biroul Executiv, la propunerea motivată a Comisiei de Deontologie.
+
+## Art. 145.
+
+(1) Hotărârea motivată a Comisiei de Deontologie și, după caz, hotărârea motivată a Biroului Executiv, se comunică, în termen de cel mult 90 zile de la data adoptării acesteia, părților precum și, după caz, angajatorului în situația în care membrul Colegiului Psihologilor din România își exercită activitatea în calitate de salariat, supervizorului în situația în care membrul Colegiului Psihologilor din România își exercită activitatea în calitate de stagiar, precum și formei de exercitare în situația în care membrul Colegiului Psihologilor din România își exercită activitatea în calitate de colaborator.
+
+(2) Hotărârea motivată a Comisiei de Deontologie prin care a fost aplicată una dintre sancțiunile prevăzute la art. 144 alin. (1) lit. a) și b) poate fi contestată la Biroul Executiv, în termen de 30 zile de la comunicare, iar hotărârea motivată a Biroului Executiv prin care a fost aplicată una dintre sancțiunile prevăzute la art. 144 alin. (1) lit. c) și d) poate fi contestată la Consiliul Național al Colegiului, în termen de 30 zile de la comunicare.
+
+(3) Hotărârea motivată a Comisiei de Deontologie și, după caz, hotărârea motivată a Biroului Executiv prin care nu au fost aplicate sancțiuni disciplinare membrului reclamat al Colegiului Psihologilor din România poate fi contestată în condițiile Legii nr. 554/2004 privind contenciosul administrativ.
+
+## CAPITOLUL VI Dispoziții finale și tranzitorii
+
+## Art. 146.
+
+(1) Prezenta lege intră în vigoare de la data publicării în Monitorul Oficial al României, Partea I.
+
+(2) Prevederile art. 7 alin. (1) lit. a), art. 31 lit. a) și b), art. 33 lit. a) și b), art. 56 alin. (1) lit. a) și 58 alin. (1) lit. a) din prezenta lege intră în vigoare în termen de 3 ani de la data publicării prezentei legi în Monitorul Oficial al României, Partea I.
+
+(3) Prevederile art. 55 alin. (1) lit. a) teza I, precum și prevederile art. 55 alin. (3) din prezenta lege în ceea ce privește condiția privind îndeplinirea uneia dintre cerințele de studii universitare prevăzute la art. 55 alin. (2) din prezenta lege, atât pentru obținerea dreptului de liberă practică pentru exercitarea activităților specifice specialității profesionale interdisciplinare psihoterapie, cât și pentru obținerea dreptului de liberă practică pentru exercitarea activităților specifice specialității profesionale interdisciplinare consiliere psihologică, intră în vigoare în termen de 6 ani de la data publicării în Monitorul Oficial al României, Partea I a prezentei legi.
+
+(4) Prin excepție de la prevederile alin. (2), pentru persoanele care doresc să dobândească dreptul de liberă practică pentru exercitarea profesiei de psiholog în specialitățile profesionale pentru care, pentru dobândirea dreptului de liberă este necesară și dovada absolvirii unui program suplimentar de formare profesională de lungă durată, prevederile art. 7 alin. (1) lit. a) din prezenta lege intră în vigoare în termen de 6 ani de la data publicării în Monitorul Oficial al României, Partea I a prezentei legi.
+
+(5) Prevederile art. 7 alin. (1) lit. b), art. 8, art. 31 lit. c), art. 32, art. 33 lit. c), art. 34 alin. (2), (3) și (4), art. 55 alin. (1) lit. b), art. 56 alin. (1) lit. b), art. 57 alin. (1) lit. b), art. 57 alin. (2) lit. b), art. 58 alin. (1) lit. b), art. 72 lit. c), art. 73, art. 74 lit. c), art. 75 alin. (2), (3) și (4) din prezenta lege intră în vigoare în termen de 1 an de la data adoptării Statutului profesiei de psiholog.
+
+(6) Până la împlinirea termenelor prevăzute la alin. (2) – (5), condițiile și procedura pentru dobândirea dreptului de liberă pentru exercitarea profesiei de psiholog, pentru dobândirea dreptului de liberă practică pentru exercitarea activităților specifice specialităților profesionale interdisciplinare, precum și condițiile și procedura pentru obținerea gradelor profesionale prevăzute de prezenta lege se vor stabili prin hotărârea Consiliului Colegiului Psihologilor din România aflat în exercitarea mandatului la data intrării în vigoare a prezentei legi.
+
+## Art. 147.
+
+(1) Psihologii și deținătorii de competențe generale care, la data intrării în vigoare a prezentei legi, dețin treapta de practicant sub supervizare într-o anumită specialitate profesională sau într-o anumită competență generală, obținută în temeiul Legii nr. 213/2004 privind exercitarea profesiei de psiholog cu drept de liberă practică, înființarea, organizarea și funcționarea Colegiului Psihologilor din România, publicată în Monitorul Oficial al României, Partea I, nr. 492 din 1 iunie 2004, cu modificările și completările ulterioare, precum și în temeiul actelor normative subsecvente acestei legi și care au exercitat profesia de psiholog sau au exercitat o competența generală în regim de supervizare profesională anterior intrării în vigoare a prezentei legi au obligația obținerii gradului profesional de specialist în termen de cel mult 6 ani de la data intrării în vigoare a prezentei legi.
+
+(2) Dacă în termen de 6 ani de la data intrării în vigoare a prezentei legi, persoanele prevăzute la alin. (1) nu promovează sau nu se prezintă pentru susținerea procedurilor specifice pentru obținerea gradului de specialist, acestea pierd, de drept, dreptul de liberă practică în specialitatea profesională sau în competența generală respectivă.
+
+## Art. 148.
+
+(1) Atestatele de liberă practică pentru treapta de specializare practicant, regim de exercitare autonom, eliberate anterior intrării în vigoare a prezentei legi își mențin valabilitatea și continuă să producă efecte juridice.
+
+(2) Condițiile și procedura pentru obținerea gradelor profesionale prevăzute de prezenta lege de către deținătorii atestatelor de liberă practică pentru treapta de practicant, regim de exercitare autonom eliberate anterior intrării în vigoare a prezentei legi se vor stabili de către Consiliul Național al Colegiului Psihologilor din România.
+
+## Art. 149.
+
+(1) Atestatele de liberă practică pentru competența în specialitatea psihologie judiciară - evaluarea comportamentului simulat prin tehnica poligraf eliberate anterior intrării în vigoare a prezentei legi, conform art. 18 alin. (2) din Normele metodologice de aplicare a Legii nr. 213/2004 privind exercitarea profesiei de psiholog cu drept de liberă practică, înființarea, organizarea și funcționarea Colegiului Psihologilor din România, aprobate prin Hotărârea de Guvern nr. 788/2005, își mențin valabilitatea și continuă să producă efecte juridice.
+
+(2) Condițiile și procedura pentru obținerea gradelor profesionale prevăzute de prezenta lege de către deținătorii atestatelor de liberă practică prevăzute la alin. (1) se vor stabili de către Consiliul Național al Colegiului Psihologilor din România.
+
+## Art. 150.
+
+(1) Atestatele de liberă practică cu competența generală în psihoterapie eliberate anterior intrării în vigoare a prezentei legi persoanelor care îndeplinesc alte condiții de studii universitare de licență decât cele prevăzute la art. 55 alin. (1) lit. a) și alin. (2) lit. a) și b) din prezenta lege își mențin valabilitatea și continuă să producă efecte juridice.
+
+(2) În termen de 3 ani de la data publicării prezentei legi în Monitorul Oficial al României, Partea I, absolvenții facultăților de filosofie, pedagogie și teologie care, la data intrării în vigoare a prezentei legi, se aflau înscriși într-un program de formare profesională de lungă durată în domeniul psihoterapiei avizat de către Colegiul Psihologilor din România, vor putea obține dreptul de liberă practică pentru exercitarea activităților specifice specialității profesionale interdisciplinare psihoterapie, cu îndeplinirea condițiilor și conform procedurii stabilite prin hotărârea Consiliului Colegiului Psihologilor din România aflat în exercitarea mandatului la data intrării în vigoare a prezentei legi.
+
+(3) Condițiile și procedura pentru obținerea gradelor profesionale prevăzute de prezenta lege de către deținătorii atestatelor de liberă practică cu competența generală în psihoterapie eliberate anterior intrării în vigoare a prezentei legi persoanelor care îndeplinesc alte condiții de studii universitare de licență decât cele prevăzute la art. 55 alin. (1) lit. a) și alin. (2) lit. a) și b), precum și de către persoanele prevăzute la alin. (2) se vor stabili de către Consiliul Național al Colegiului Psihologilor din România.
+
+## Art. 151.
+
+(1) Drepturile de liberă practică pentru exercitarea profesiei de psiholog, precum și drepturile de liberă practică pentru exercitarea competenței generale în psihoterapie și a competenței generale în psihopedagogie specială dobândite în temeiul Legii nr. 213/2004 privind exercitarea profesiei de psiholog cu drept de liberă practică, înființarea, organizarea și funcționarea Colegiului Psihologilor din România, publicată în Monitorul Oficial al României, Partea I, nr. 492 din 1 iunie 2004, cu modificările și completările ulterioare, rămân în vigoare și se vor exercita potrivit prevederilor prezentei legi.
+
+(2) Atestatele de liberă practică emise în temeiul Legii nr. 213/2004 privind exercitarea profesiei de psiholog cu drept de liberă practică, înființarea, organizarea și funcționarea Colegiului Psihologilor din România, publicată în Monitorul Oficial al României, Partea I, nr. 492 din 1 iunie 2004, cu modificările și completările ulterioare, se preschimbă prin eliberarea noilor atestate de liberă practică prevăzute de prezenta lege în termen de maximum 24 de luni de la data adoptării Statutului profesiei de psiholog, sub sancțiunea nulității absolute.
+
+(3) Persoanelor care dețin mai multe atestate de liberă practică emise în temeiul Legii nr. 213/2004 privind exercitarea profesiei de psiholog cu drept de liberă practică, înființarea, organizarea și funcționarea Colegiului Psihologilor din România, publicată în Monitorul Oficial al României, Partea I, nr. 492 din 1 iunie 2004, cu modificările și completările ulterioare, li se va elibera un singur atestat de liberă practică, conform prevederilor prezentei legi, care va conține mențiuni privind aceleași specialități profesionale deținute anterior și aceleași grade profesionale correspondente treptelor profesionale deținute anterior.
+
+(4) Procedura de preschimbare a atestatelor de liberă practică emise în temeiul Legii nr. 213/2004 privind exercitarea profesiei de psiholog cu drept de liberă practică, înființarea, organizarea și funcționarea Colegiului Psihologilor din România, publicată în Monitorul Oficial al României, Partea I, nr. 492 din 1 iunie 2004, cu modificările și completările ulterioare, cu atestatele de liberă practică prevăzute de prezenta lege se stabilește prin Statutul profesiei de psiholog.
+
+## Art. 152.
+
+(1) Formele de exercitare a profesiei de psiholog înființate potrivit Legii nr. 213/2004 privind exercitarea profesiei de psiholog cu drept de liberă practică, înființarea, organizarea și funcționarea Colegiului Psihologilor din România, publicată în Monitorul Oficial al României, Partea I, nr. 492 din 1 iunie 2004, cu modificările și completările ulterioare, își vor continua activitatea ori, după caz, se pot reorganiza potrivit prezentei legi.
+
+(2) Formele de exercitare ale deținătorilor dreptului de liberă practică pentru exercitarea competenței generale în psihoterapie și a competenței generale în psihopedagogie specială înființate anterior intrării în vigoare a prezentei legi se vor reorganiza în formele de exercitare a activităților specifice specialităților profesionale interdisciplinare ale deținătorilor dreptului de liberă practică pentru exercitarea activităților specifice specialităților profesionale interdisciplinare psihoterapie și psihopedagogie specială prevăzute de prezenta lege, în termen de 24 de luni de la data adoptării Statutului profesiei de psiholog, sub sancțiunea dizolvării de drept.
+
+## Art. 153.
+
+(1) Avizele emise de către Colegiul Psihologilor din România pentru programele de formare profesională până la data intrării în vigoare a prezentei legi și a căror perioadă de avizare încetează până la data adoptării de către Consiliul Național al Colegiului Psihologilor din România a normelor privind avizarea și creditarea programelor de formare profesională prevăzute de prezenta lege își prelungesc valabilitatea până la adoptarea de către Consiliul Național al Colegiului Psihologilor din România a normelor privind avizarea și creditarea programelor de formare profesională prevăzute de prezenta lege.
+
+(2) Avizele emise de către Colegiul Psihologilor din România pentru programele de formare profesională până la data intrării în vigoare a prezentei legi și a căror perioadă de avizare încetează după data adoptării de către Consiliul Național al Colegiului Psihologilor din România a normelor privind avizarea și creditarea programelor de formare profesională prevăzute de prezenta lege rămân valabile pe toată perioada de avizare acordată inițial.
+
+(3) Avizele emise de către Colegiul Psihologilor din România privind recunoașterea programelor de studii universitare de master în unul sau mai multe domenii generale de specializare emise până la data intrării în vigoare a prezentei legi și a căror perioadă de avizare încetează până la data adoptării de către Consiliul Național al Colegiului Psihologilor din România a normelor privind avizarea și creditarea programelor de formare profesională prevăzute de prezenta lege își prelungesc valabilitatea până la adoptarea de către Consiliul Național al Colegiului Psihologilor din România a normelor privind avizarea și creditarea programelor de formare profesională prevăzute de prezenta lege.
+
+(4) Avizele emise de către Colegiul Psihologilor din România privind recunoașterea programelor de studii universitare de master în unul sau mai multe domenii generale de specializare până la data intrării în vigoare a prezentei legi și a căror perioadă de avizare încetează după data adoptării de către Consiliul Național al Colegiului Psihologilor din România a normelor privind avizarea și creditarea programelor de formare profesională prevăzute de prezenta lege rămân valabile pe toată perioada de avizare acordată inițial.
+
+## Art. 154.
+
+(1) În termen de 1 an de la intrarea în vigoare a prezentei legi, Colegiul Psihologilor din România va organiza alegeri pentru desemnarea noilor organe de conducere ale Colegiului Psihologilor din România și ale filialelor territoriale ale Colegiului Psihologilor din România, precum și pentru desemnarea membrilor Comisiei de Deontologie și a membrilor Comisiei de Metodologie, prevăzute de prezenta lege.
+
+(2) Alegerile prevăzute la alin. (1) se vor desfășura în condițiile și conform procedurii stabilite prin regulamentul elaborat și aprobat în termen de 120 de zile de la data intrării în vigoare a prezentei legi, de către Consiliul Colegiului Psihologilor din România aflat în exercitarea mandatului la data intrării în vigoare a prezentei legi, cu respectarea prevederilor prezentei legi.
+
+(3) În prima ședință legal constituită, Consiliului Național al Colegiului Psihologilor din România va alege Președintele Colegiului Psihologilor din România, membrii Biroului Executiv, membrii Comisiei de Deontologie și membrii Comisiei de Metodologie.
+
+(4) În prima ședință legal constituită, Adunarea Generală a Colegiului Psihologilor din România va adopta Statutul profesiei de psiholog, Regulamentul de organizare și funcționare a Colegiului Psihologilor din România, Codul deontologic al profesiei de psiholog, Codul de procedură disciplinară, precum și Normele de avizare a metodelor și tehnicilor de evaluare și asistență psihologică.
+
+(5) Prin excepție de la prevederile art. 102 alin. (1) lit. a), b), c) și d) și de la art. 117 alin. (1) lit. m) din prezenta lege, proiectul Regulamentului de organizare și funcționare a Colegiului Psihologilor din România, al Codului deontologic al profesiei de psiholog, al Codului de procedură disciplinară, al Normelor de avizare a metodelor și tehnicilor de evaluare și asistență psihologică, precum și proiectul Statutului profesiei de psiholog, prevăzute la alin. (4), se vor elabora de către Consiliul Colegiului Psihologilor din România aflat în exercitarea mandatului la data intrării în vigoare a prezentei legi.
+
+(6) Până la finalizarea alegerilor prevăzute la alin. (1), conducerea Colegiului Psihologilor din România se va exercita de către organele de conducere aflate în exercitarea mandatului la data intrării în vigoare a prezentei legi, în conformitate cu prevederile actelor normative subsecvente emise în executarea Legii nr. 213/2004 privind exercitarea profesiei de psiholog cu drept de liberă practică, înființarea, organizarea și funcționarea Colegiului Psihologilor din România, publicată în Monitorul Oficial al României, Partea I, nr. 492 din 1 iunie 2004, cu modificările și completările ulterioare și a Hotărârii Guvernului nr. 788/2005 pentru aprobarea Normelor metodologice de aplicare a Legii nr. 213/2004 privind exercitarea profesiei de psiholog cu drept de liberă practică, înființarea, organizarea și funcționarea Colegiului Psihologilor din România, cu completările ulterioare, publicată în Monitorul Oficial, Partea I, nr. 721 din 9 august 2005, în forma în vigoare la data adoptării prezentei legi.
+
+## Art. 155.
+
+(1) Colegiul Psihologilor din România organizat potrivit prezentei legi este continuatorul Colegiului Psihologilor din România organizat potrivit Legii nr. 213/2004 privind exercitarea profesiei de psiholog cu drept de liberă practică, înființarea, organizarea și funcționarea Colegiului Psihologilor din România cu modificările și completările ulterioare.
+
+(2) Activitatea filialelor territoriale ale Colegiului Psihologilor din România înființate la data intrării în vigoare a prezentei legi se va continua de către filialele territoriale prevăzute de prezenta lege.
+
+(3) Activitatea Comisiei de deontologie și disciplină aflată în exercitarea mandatului la data intrării în vigoare a prezentei legi va fi preluată de către Comisia de Deontologie aleasă conform prezentei legi.
+
+(4) Activitatea Comisiei de Metodologie aflată în exercitarea mandatului la data intrării în vigoare a prezentei legi va fi preluată de către Comisia de Metodologie aleasă conform prezentei legi.
+
+## Art. 156.
+
+(1) La data intrării în vigoare a prezentei legi se abrogă Legea nr. 213/2004 privind exercitarea profesiei de psiholog cu drept de liberă practică, înființarea, organizarea și funcționarea Colegiului Psihologilor din România, publicată în Monitorul Oficial al României, Partea I, nr. 492 din 1 iunie 2004, cu modificările și completările ulterioare, precum și Hotărârea Guvernului nr. 788/2005 pentru aprobarea Normelor metodologice de aplicare a Legii nr. 213/2004 privind exercitarea profesiei de psiholog cu drept de liberă practică, înființarea, organizarea și funcționarea Colegiului Psihologilor din România, cu completările ulterioare, publicată în Monitorul Oficial, Partea I, nr. 721 din 9 august 2005.
+
+(2) Până la data intrării în vigoare a actelor normative subsecvente emise în executarea prezentei legi se aplică prevederile actelor normative în vigoare, în măsura în care nu contravin acesteia. În caz de dificultăți de interpretare a acestora prin raportare la dispozițiile prezentei legi, Consiliul Colegiul Psihologilor din România aflat în exercitarea mandatului la data intrării în vigoare a prezentei legi va putea emite norme interpretative.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 alin. (1) și art. 76 alin. (2) din Constituția României, republicată.
+
+Președintele Camerei Deputaților
+
+Sorin GRINDEANU
+
+Președintele Senatului
+
+Mircea ABRUDEAN

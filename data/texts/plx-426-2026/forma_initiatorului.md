@@ -1,0 +1,25 @@
+## Modificarea Ordonanței de urgență a Guvernului nr. 33/2007
+
+Articol unic. Ordonanța de urgență a Guvernului nr. 33/2007 privind organizarea și funcționarea Autorității Naționale de Reglementare în Domeniul Energiei, publicată în Monitorul Oficial al României, Partea I, nr. 337 din 18 mai 2007, aprobată cu modificări și completări prin Legea nr. 160/2012, cu modificările și completările ulterioare, se modifică după cum urmează:
+
+La articolul 9, după alineatul (1^2) se introduce un nou alineat, alin. (1^3), cu următorul cuprins:
+
+(1^3) în exercitarea atribuțiilor sale, Autoritatea Națională de Reglementare în domeniul Energiei acționează în maniera pe care o consideră cea mai adecvată pentru a asigura un cadru de reglementare stabil și predictibil, având următoarele obiective:
+
+a) promovarea dezvoltării eficiente a rețelelor energetice, astfel încât acestea să poată răspunde necesităților actuale și viitoare ale sistemului energetic național
+
+b) promovarea operării eficiente, sigure și reziliente a rețelelor energetice, inclusiv prin integrarea considerentelor privind digitalizarea și securitatea infrastructurii, securitatea cibernetică și continuitatea alimentării cu energie
+
+c) crearea unui cadru de reglementare care facilitează atragerea finanțării private, reduce barierele de investiții și asigură, în limitele atribuțiilor ANRE, stabilitatea și predictibilitatea veniturilor necesare investițiilor în infrastructură d) asigurarea condițiilor necesare pentru ca operatorii de rețele să poată finanța activitățile și obligațiile ce le revin potrivit legii, în vederea dezvoltării infrastructurii energetice conform obiectivelor naționale și europene privind tranziția energetică
+
+e) în îndeplinirea obiectivelor prevăzute la lit. a)--d), ANRE urmărește aplicarea principiilor transparenteți, proporționalității și protecției consumatorilor
+
+1\. Alineatul (6) al articolului 1 se modifică și va avea următorul cuprins:
+
+(6) La solicitarea comisiilor prevăzute la alin. (5), ANRE prezintă rapoarte specifice activității sale, precum și un program de măsuri concrete pentru remedierea eventualelor lipsuri semnalate în aceste rapoarte specifice și/sau în raportul anual. De asemenea, comisiile pot solicita organizarea de audieri periodice ale conducerii ANRE cu privire la aspecte generale privind transparența, independența și eficiența activității autorității, precum și funcționarea piețelor de energie electrică, gaze naturale și energie termică. Audierile nu pot viza proceduri concrete aflate în curs și nu pot impune intervenții asupra unor acte de reglementare individuale sau normative aflate în competența exclusivă a ANRE.
+
+2\. După alineatul (6) al articolului 1 se introduc două noi alineate, alineatele (8) și (9), cu următorul cuprins:
+
+(8) După dezbaterea raportului anual de activitate prevăzut la alin. (4), Parlamentul poate adopta o rezoluție prin care formulează recomandări privind îmbunătățirea cadrului de reglementare, a transparenteii, a calității reglementărilor, a protecției consumatorilor și a funcționării piețelor de energie electrică, gaze naturale și energie termică, precum și privind buna guvernanță în cadrul ANRE. Rezoluția nu are caracter juridic obligatoriu și nu poate viza acte de reglementare sau decizii individuale aflate în competența exclusivă a ANRE.
+
+(9) ANRE are obligația de a prezenta comisiilor prevăzute la alin. (5), în termen de cel mult 6 luni de la adoptarea rezoluției prevăzute la alin. (8), un raport scris privind modul de luare în considerare a recomandărilor formulate și, după caz, măsurile adoptate ori motivele pentru care anumite recomandări nu au fost preluate.

@@ -1,41 +1,38 @@
-ROMANIA
+## EXPUNERE DE MOTIVE
 
-SENA
+Legislația națională cu privire la ocuparea posturilor vacante din instituțiile și autoritățile publice, precum și din unitățile bugetare este explicită, stipulând expres faptul că acestea nu se pot ocupa decât prin concurs sau examen.
 
-EXPUNERE DE MOTIVE
+Mai mult decât atât, ierarhizarea funcțiilor publice ține cont atât de experiența profesională a angajatului, cât și de nivelul studiilor: studii medii, studii universitare de lungă/de scurtă durată, studii de masterat, studii doctorale.
 
-Legislația națională cu privire la ocuparea posturilor vacante din instituțiile și autoritățile publice, precum și din unitățile bugetare este explicită, stipulând expres faptul că acestea nu se pot ocupa decât prin concurs sau examen. Mai mult decât atât, ierarhizarea funcțiilor publice ține cont atât de experiența profesională a angajatului, cât și de nivelul studiilor: studii medii, studii universitare de lungă/de scurtă durată, studii de masterat, studii doctorale. Din păcate, în ultimii ani, sfera publică din România s-a confruntat cu situații inacceptabile/ilegale, prin care unii candidați/angajați au prezentat angajatorilor din sectorul public diplome/atestate falsificate sau anulate de instanțele din țara noastră. De asemenea, o altă situație particulară a fost aceca în care unii candidați/angajați au prezentat la' angajare/la concurs, diplome/atestate, de cele mai multe ori ale absolvirii unor cursuri neautorizate, de scurtă durată, obținute în străinătate, fără ca acestea să fie echivalate în sistemul românesc, prin intermediul Centrului Național de Recunoaștere și Echivalare a Diplomelor. Având în vedere faptul că la nivel național, prin efortul Ministerului Educației și Cercetării, s-a constituit și funcționează deja un sistem informatic cu privire la diplomele de studii obținute/echivalate în România, sistem informatic ce poate să fie accesat la cererea autorităților publice, propunem prin prezenta ca toate autoritățile/instituțiile publice din România, inclusiv alte unități finanțate parțial sau integral de la bugetul de stat, să întreprindă
+Din păcate, în ultimii ani, sfera publică din România s-a confrontat cu situații inacceptabile/ilegale, prin care unii candidați/angajați au prezentat angajatorilor din sectorul public diplome/atestate falsificate sau anulate de instanțele din țara noastră. De asemenea, o altă situație particulară a fost aceea în care unii candidați/angajați au prezentat la' angajare/la concurs, diplome/atestate, de cele mai multe ori ale absolvirii unor cursuri neautorizate, de scurtă durată, obținute în străinătate, fără ca acestea să fie echivalate în sistemul românesc, prin intermediul Centrului Național de Recunoaștere și Echivalare a Diplomelor.
 
-ROMANIA
+Având în vedere faptul că la nivel național, prin efortul Ministerului Educației și Cercetării, s-a constituit și funcționează deja un sistem informatic cu privire la diplomele de studii obținute/echivalate în România, sistem informatic ce poate să fie accesat la cererea autorităților publice, propunem prin prezenta ca toate autoritățile/instituțiile publice din România, inclusiv alte unități finanțate parțial sau integral de la bugetul de stat, să întreprindă toate diligențele necesare pentru a verifica ex ante autenticitatea diplomelor/atestatelor și tuturor înscrisurilor depuse de candidat la concursul sau examenul pentru ocuparea a unei funcții publice în sectorul public.
 
-SENAT
+Prin această măsură se va elimina orice formă de eludare a prevederilor legale privind condițiile de studii privind ocuparea unei funcții în domeniul public, se va aduce un spor de credibilitate instituțiilor/autorităților publice și o creștere a performanței în sectorul public.
 
-toate diligențele necesare pentru a verifica ex ante autenticitatea diplomelor/atestatelor și tuturor înscrisurilor depuse de candidat la concursul sau examenul pentru ocuparea a unei funcții publice în sectorul public. Prin această măsură se va elimina orice formă de eludare a prevederilor legale privind condițiile de studii privind ocuparea unei funcții în domeniul public, se va aduce un spor de credibilitate instituțiilor/autorităților publice și o creștere a performanței în sectorul public. Propunerea legislativă nu generează niciun impact asupra bugetului general consolidat, atâta vreme cât evidența informatică a diplomelor/atestatelor există, iar prin prezenta propunere se adaugă doar o obligație suplimentară în sarcina departamentelor de resurse umane ale instituțiilor publice. Având în vedere argumentele prezentate mai sus, înaintăm Parlamentului României, spre dezbatere și adoptare, prezenta propunere legislativă.
+Propunerea legislativă nu generează niciun impact asupra bugetului general consolidat, atâta vreme cât evidența informatică a diplomelor/atestatelor există, iar prin prezenta propunere se adaugă doar o obligație suplimentară în sarcina departamentelor de resurse umane ale instituțiilor publice.
+
+Având în vedere argumentele prezentate mai sus, înaintăm Parlamentului României, spre dezbatere și adoptare, prezenta propunere legislativă.
 
 INIȚIATORI
 
-Nr. | NUME ȘI PRENUME | /SEMNĂTURA ert. 1. | Dumitru ȚIPLEA - deputat PNL
+<table>
+<tbody>
+<tr><td>Nr.crt.</td><td>NUME ȘI PRENUME</td><td>SEMNĂTURA</td></tr>
+<tr><td>1.</td><td>Dumitru ȚIPLEA - deputat PNL</td><td rowspan="5"></td></tr>
+<tr><td>2.</td><td>Gal Călîn</td></tr>
+<tr><td>3.</td><td>NEACSU ANDREEA- FİRÜTA</td></tr>
+<tr><td>4.</td><td>ION IÓRBACHE</td></tr>
+<tr><td>5.</td><td>GEORGE FÉRBAN</td></tr>
+</tbody>
+</table>
 
-2\. | Gal Calir 3. NEACSU ANBREEA - FIRUTA ION iORDACHE 5. GEORGE FERBAN
+6\. ROSCA MINCEA 7. Teolorui Andrei-Joule 8. Cofrescu Aurelian 9. Ciobatou Inagas 10. PISTRUI-POPAGEANINA 11. CAJAR RAZVAN 12. Merlu Adrian Hlin 13. Lucion BOAE-PNL 14. Vela lon Marcel-PNL 15. DOGDAN IONEL OVIDIV 16. CINPEAN OVIACU 17. MATEI ANEFA-18. ZANELE UETU 19. Otoniom Ophua 20. MITITELU EDUARD FATTIAN 21. Cypovean Marian 22. GABRIZ ANDRONACHE 23. Stibbe Ggel 24. Pardea Cyssan
 
-ROMANIA
-
-SENAT
-
-ROȘCA MiRCEA Teslorii Andrei - Jomeo Cotinescu Aurelian 9. Ciolator Drogos 10. PISTRI POPA GEANINA 11. CADAR RAZVAN 12. Merke Adrian Alin 13. Lucion BODE - PNL 14. Vela lon Marcel -PNL 15. | DOGDAN | TONEL OVIDIU
-
-16\. CIMPEAN OVIATU 17. MATEi ANETA-18. STANESCU VETUTA 19. Ntoriom pria 20. MITITELU EDUARD ATATIAN 21. Cepaveano Marian 22. GABRIEL ANDRONACHE 23. Stirbu Giyel 24. Tandea Ciprian
-
-ROMANIA
-
-SE
-
-25\. Urien Doline PNL 26.
-
-27\.
-
-28\.
-
-29\.
-
-30\.
+| 25. |  |  |
+| --- | --- | --- |
+| 26. |  |  |
+| 27. |  |  |
+| 28. |  |  |
+| 29. |  |  |
+| 30. |  |  |

@@ -966,4 +966,80 @@ Pentru rubrica „Tip bunuri de valoare semnificativă”, pe baza selecției de
 
 Pentru rubrica „Mod dobândire” se va selecta una dintre următoarele opțiuni, conform legislației în vigoare: (1) cumpărare; (2) donație; (3) moștenire; (4) schimb; (5) hotărâre judecătorească; (6) alte moduri prevăzute de lege.
 
-*Documentul are 44 de pagini; am citit primele 40.*
+Pentru rubrica „Valoare dobândire/estimată”, pe baza informațiilor declarate în declarația de avere, se va popula pragul privind valoarea individuală a bunurilor declarate, folosindu-se astfel următoarele praguri: (1) 5.000 – 25.000 EUR; (2) 25.001 EUR – 50.000 EUR; (3) 50.001 EUR – 75.000 EUR; (4) 75.001 EUR – 100.000 EUR; (5) 100.001 EUR – 150.000 EUR; (6) 150.001 EUR – 300.000 EUR; (7) >300.001 EUR.
+
+## H. Active financiare
+
+Valoare cumulată = ........... în EURO
+
+Pentru rubrica „Valoare cumulată”, pe baza informațiilor declarate în declarația de avere, se va popula pragul privind valoarea cumulată a activelor financiare, folosindu-se astfel următoarele praguri: (1) 5.000 – 25.000 EUR; (2) 25.001 EUR – 50.000 EUR; (3) 50.001 EUR – 75.000 EUR; (4) 75.001 EUR – 100.000 EUR; (5) 100.001 EUR – 150.000 EUR; (6) 150.001 EUR – 300.000 EUR; (7) 300.001 EUR – 500.000 EUR; (8) 500.001 EUR – 1.000.000 EUR; (9) >1.000.001 EUR.
+
+I. Participații, acțiuni sau părți sociale în societăți, alte interese economice
+
+<table>
+<tbody>
+<tr><td>Tip</td><td>Țară înregistrare</td><td>Cotă (%)</td><td>Mod dobândire</td><td>Valoare (în EURO)</td><td>Observații</td></tr>
+</tbody>
+</table>
+
+Pentru rubrica „Tip”, pe baza selecției declarantului în declarația de avere, se va selecta automat una dintre următoarele opțiuni: (1) participații; (2) acțiuni sau părți sociale în societăți; (3) alte interese economice.
+
+Pentru rubrica „Valoare”, pe baza informațiilor declarate în declarația de avere, se va popula pragul privind valoarea participațiilor, acțiunilor sau părților sociale în societăți comerciale, ori alte interese economice, folosindu-se astfel următoarele praguri: (1) 5.000 – 25.000 EUR; (2) 25.001 EUR – 50.000 EUR; (3) 50.001 EUR – 75.000 EUR; (4) 75.001 EUR – 100.000 EUR; (5) 100.001 EUR – 150.000 EUR; (6) 150.001 EUR – 300.000 EUR; (7) 300.001 EUR – 500.000 EUR; (8) 500.001 EUR – 1.000.000 EUR; (9) >1.000.001 EUR.
+
+## J. Venituri ocazionale
+
+| Tip | Valoarea anuală calculată raportat la salariu minim brut pe economie |
+| --- | --- |
+| Premii/jocuri de noroc, venituri din cedarea folosinței bunurilor, despăgubiri ca urmare a încetării contractului de muncă sau mandatului, venituri ca urmare a unei hotărâri judecătorești, drepturi de autor. |  |
+| Donații, cadouri, moșteniri, servicii sau avantaje primite gratuit sau subvenționate față de valoarea de piață din partea unor persoane, organizații, societăți, regii autonome, companii/societăți naționale sau instituții publice românești sau străine, inclusiv burse, credite, garanții, decontări de cheltuieli, altele decât cele ale angajatorului |  |
+| Bunuri înstrăinate, venituri din vânzarea/lichidarea unui activ |  |
+| Altele |  |
+
+Pentru rubrica „Valoare anuală calculată raportat la salariul minim brut pe economie”, pe baza informațiilor declarate în declarația de avere, se va popula automat pragul corespunzător valorii anuale calculate raportat la salariul minim pe economie, utilizându-se următoarele praguri: (1) 1 – 25 salarii; (2) 26 – 50 salarii; (3) 51 – 75 salarii; (4) 76 – 100 salarii; (5) 101 – 125 salarii; (6) 126 – 150 salarii; (7) 151 – 175 salarii; (8) 176 – 200 salarii; (9) 201 – 250 salarii; (10) peste 251 salarii.
+
+K. Venituri proprii, realizate în ultimul an fiscal încheiat
+
+| Tip | Valoarea anuală calculată raportat la salariu minim brut pe economie |
+| --- | --- |
+| Salarii și alte drepturi salariale, venituri din consili de administrație, pensii, rente viagere, pensii, burse, indemnizații de maternitate/paternitate/șomaj/handicap |  |
+| Venituri din cedarea folosinței bunurilor, drepturi de autor |  |
+| Dividende, activități independente, investiții, activități agricole |  |
+| Altele |  |
+
+Pentru rubrica „Valoare anuală calculată raportat la salariul minim brut pe economie”, pe baza informațiilor declarate în declarația de avere, se va popula automat pragul corespunzător valorii anuale calculate raportat la salariul minim pe economie, utilizându-se următoarele praguri: (1) 1 – 5.000 EUR; (2) 5.001 EUR – 10.000 EUR; (3) 10.001 EUR – 15.000 EUR; (4) 15.001 EUR – 20.000 EUR; (5) 20.001 EUR – 25.000 EUR; (6) 25.001 EUR – 30.000 EUR; (7) 30.001 EUR – 40.000 EUR; (8) 40.001 EUR – 50.000 EUR; (9) 50.001 EUR – 75.000 EUR; (10) 75.001 EUR – 100.000 EUR; (11) 100.001 EUR – 200.000 EUR; (12) 200.001 EUR – 300.000 EUR; (13) >300.001 EUR
+
+## Capitolul III – Pasive
+
+D. Credite, împrumuturi, datorii financiare
+
+Valoarea credite contractate = ............ în EURO Durată medie contractată/per credit = .............luni Valoare sold cumulată = ............. în EURO
+
+Pentru rubrica „Valoare credite contractate” și „Valoare sold cumulată”, pe baza informațiilor declarate în declarația de avere, se va popula pragul privind valoarea cumulată a pasivelor, folosindu-se astfel următoarele praguri: (1) 1 – 25.000 EUR; (2) 25.001 EUR – 50.000 EUR; (3) 50.001 EUR – 75.000 EUR; (4) 75.001 EUR – 100.000 EUR; (5) 100.001 EUR – 150.000 EUR; (6) 150.001 EUR – 300.000 EUR; (7) 300.001 EUR – 500.000 EUR; (8) 500.001 EUR – 1.000.000 EUR; (9) >1.000.001 EUR
+
+## Capitolul IV – Funcții și calități deținute
+
+C. Funcții și calități în entități publice și private din țară și străinătate \*deținute în an calendaristic anterior până la data depunerii
+
+<table>
+<tbody>
+<tr><td>Funcția / Calitatea deținută</td><td>Entitate / organism / comitet / structură</td><td>Dată de început</td><td>Dată de sfârșit (dacă e cazul)</td></tr>
+</tbody>
+</table>
+
+D. Funcții și calități retribuite sau neretribuite în partide politice sau alte forme de organizare care participă la alegerile locale și/sau naționale \* deținute în an calendaristic anterior până la data depunerii
+
+<table>
+<tbody>
+<tr><td>Calitate / Funcția deținută</td><td>Partid Politic</td></tr>
+</tbody>
+</table>
+
+Capitolul V – Contracte finanțate integral sau parțial de la bugetul de stat, local și din fonduri externe, inclusiv contractele finanțate de societăți cu capital de stat sau unde statul este acționar
+
+\*Contracte semnate sau aflate în derulare în anul anterior depunerii declarației, inclusiv cele ale copiilor minori aflați în întreținere
+
+<table>
+<tbody>
+<tr><td>Denumire entitate la care deponentul deține interese</td><td>Entitate finanțată integral sau parțial de la bugetul de stat, local și din fonduri externe/societate cu capital de stat sau unde statul este acționar</td><td>Tip contract</td><td>Data început</td><td>Dată finalizare</td><td>Valoare</td><td>Observații</td></tr>
+</tbody>
+</table>

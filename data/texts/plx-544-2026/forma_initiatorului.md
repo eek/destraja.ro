@@ -646,4 +646,350 @@ b) în cazul F.I.A.C. de tip deschis, datele exacte sau perioadele de timp la ca
 
 (5) A.F.I.A. are obligația de a transmite la A.S.F., în termen de două zile lucrătoare de la informarea investitorilor, dovada publicării sau comunicării notei de informare.
 
-*Documentul are 63 de pagini; am citit primele 40.*
+(6) Retragerea autorizației de funcționare a unui F.I.A.C. la solicitarea expresă a A.F.I.A. care administrează activele F.I.A.C. se realizează în conformitate cu reglementările emise de A.S.F.
+
+(7) Retragerea avizului de funcționare a unui depozitar F.I.A.C. la solicitarea expresă a acestuia se realizează în conformitate cu reglementările emise de A.S.F.”
+
+## 21. După articolul 11, se introduce un nou articol, art. 11¹, cu următorul cuprins:
+
+„Art. 11¹. - (1) Prin excepție de la prevederile art. 11 din prezenta lege și prin derogare de la prevederile art. 10 alin. (1) din Legea nr. 74/2015, F.I.A.C. înregistrate la A.S.F. în conformitate cu art. 4¹ notifică A.S.F. modificările semnificative intervenite în regulile fondului, astfel cum sunt stabilite prin reglementările emise de A.S.F. în aplicarea acestei legi, precum și schimbarea identității depozitarului, înainte de intrarea în vigoare a acestor modificări.
+
+(2) A.S.F. poate formula observații cu privire la modificările prevăzute la alin. (1), după caz, în termen de 14 zile de la primirea notificării. Aceste modificări devin aplicabile numai după implementarea corespunzătoare a observațiilor A.S.F. cu privire la acestea, în termenul stabilit de A.S.F.
+
+(3) Dacă în intervalul prevăzut la alin. (2) A.S.F. nu a transmis nicio solicitare de modificare sau completare a informațiilor notificate, acestea se consideră intrate în vigoare la data informării investitorilor în conformitate cu alin. (4).
+
+(4) Ulterior expirării termenelor prevăzute la alin. (2) sau (3), după caz, F.I.A.C. menționate la alin. (1) au obligația de a informa investorii, prin intermediul canalelor de comunicare stabilite prin contractul de societate, în termen de maximum 2 zile lucrătoare, cu privire la aceste modificări.
+
+(5) În situația în care investitorii nu sunt de acord cu modificările semnificative intervenite în regulile F.I.A.C. efectuate la inițiativa A.F.I.A., A.F.I.A. are obligația de a onora cererile de răscumpărare integrală ale investitorilor depuse într-un interval de maximum 15 zile de la data informării în condițiile prevăzute în documentele fondului anterior intrării în vigoare a acestor modificări.
+
+(6) A.F.I.A. informează investitorii respectivului fond, prin intermediul canalelor de comunicare stabilite prin contractul de societate, precum și A.S.F., cu privire la alte modificări decât cele prevăzute la alin. (1), intervenite în regulile F.I.A.C., în termen de maximum 10 zile de la efectuarea acestora, acestea intrând în vigoare la data informării investitorilor.”
+
+## 22. La articolul 12, după alineatul (3) se introduce un nou alineat, alin. (3¹), cu următorul cuprins:
+
+„(3¹) Prin excepție de la prevederile alin. (3), F.I.A.C. constituite din mai multe compartimente de investiții destinate investitorilor profesionali, se înregistrează la A.S.F. în conformitate cu prevederile art. 7¹.”
+
+## 23. La articolul 12, alineatul (5) se modifică și va avea următorul cuprins:
+
+„(5) Un subfond nou-înființat se supune autorizării A.S.F. în cazul F.I.A.C. destinate investitorilor de retail. Solicitarea de autorizare a regulilor se aplică pentru fiecare subfond nou sau clasă de unități de fond nou-înființată și este însoțită de documentele prevăzute în reglementările emise de A.S.F. Activele reprezentând investiții ale unui subfond nu vor fi considerate investiții ale oricărui alt subfond și nu pot face obiectul niciunei pretenții din partea creditorilor oricărui alt subfond.”
+
+24\. La articolul 12, după alineatul (5) se introduce un nou alineat, alin. (6), cu următorul cuprins:
+
+„(6) În cazul F.I.A.C. destinate investitorilor profesionali, fiecare subfond nou-Înființat se înregistrează la A.S.F., solicitarea fiind însoțită de documentele prevăzute de prezenta lege și de reglementările emise de A.S.F.”
+
+## 25. La Titlul I Capitolul II Secțiunea a 3-a, titlul se modifică și va avea următorul cuprins:
+
+„Autorizarea/ înregistrarea și funcționarea F.I.A. înființate ca societăți de investiții”
+
+## 26. La articolul 17, alineatul (2) se modifică și va avea următorul cuprins:
+
+„(2) F.I.A.S. emit acțiuni nominative și capitalul social subscris este vărsat integral până la data constituirii. Prin data constituirii F.I.A.S. se înțelege data autorizării/ înregistrării sale de către A.S.F.”
+
+## 27. La articolul 17, după alineatul (2) se introduc trei noi alineate, alin. (3) - (5), cu următorul cuprins:
+
+„(3) Modificarea capitalului social al F.I.A.S. destinat investorilor de retail este supusă autorizării A.S.F. anterior înregistrării la O.N.R.C. în condițiile stabilite prin reglementările A.S.F.
+
+(4) Autorizarea modificării capitalului social al unui F.I.A.S. administrat intern, se realizează în conformitate cu prevederile art. 10 alin. (2) din Legea nr. 74/2015.
+
+(5) Prin derogare de la prevederile art. 92² alin. (1) din Legea nr.24/2017, în cazul majorării capitalului social al F.I.A.S. ale căror acțiuni sunt admise la tranzaționare în cadrul unui loc de tranzaționare se aplică prevederile alin. (3) ”
+
+## 28. La articolul 18, alineatul (2) se modifică și va avea următorul cuprins:
+
+„(2) F.I.A.S. autoadministrate destinate investitorilor de retail se autorizează în conformitate cu prevederile Cap. II din Legea nr. 74/2015.”
+
+## 29. La articolul 18, după alineatul (2) se introduce un nou alineat, alin. (3), cu următorul cuprins:
+
+„(3) F.I.A.S. autoadministrate destinate investorilor profesionali reglementate la Titlul I, Cap. IV, se înregistrează în conformitate cu prevederile prezentei legi și a reglementărilor A.S.F. emise în aplicarea acesteia.”
+
+## 30. Articolul 19 se modifică și va avea următorul cuprins:
+
+„Art. 19. - Un F.I.A.S. autoadministrat, persoană juridică română, se autorizează sau înregistrează de A.S.F. inclusiv în calitate de A.F.I.A., în condițiile stabilite la art. 2 alin. (3) sau art. 5, după caz, din Legea nr. 74/2015.”
+
+## 31. La articolul 20, după alineatul (1) se introduce un nou alineat, alin. (1¹), cu următorul cuprins:
+
+„(1¹) Prin excepție de la prevederile alin. (1), F.I.A.S. destinate investitorilor profesionali, administrate extern de un A.F.I.A. autorizat sau înregistrat de A.S.F., de un A.F.I.A. stabilit în alt stat membru sau de un A.F.I.A. stabilit într-un stat terț, după caz, sunt înregistrate la A.S.F. în conformitate cu prevederile prezentei legi și a reglementărilor A.S.F. emise în aplicarea acesteia.”
+
+## 32. La articolul 20, după alineatul (2) se introduc două noi alineate, alin. (3) și (4), cu următorul cuprins:
+
+„(3) Modificările intervenite în actul constitutiv al F.I.A.S. destinat investorilor de retail sunt notificate la A.S.F. cu cel puțin 14 zile anterior intrării în vigoare a respectivelor modificări.
+
+(4) Prin excepție de la prevederile alin. (3), modificările intervenite în actul constitutiv al F.I.A.S. destinat investorilor de retail care se regăsesc și în regulile F.I.A.S. și sunt considerate modificări semnificative, astfel cum sunt stabilite prin reglementările A.S.F., se transmit A.S.F. concomitent cu cererea de autorizare a modificărilor regulilor F.I.A.S. și intră în vigoare la data intrării în vigoare a modificării regulilor F.I.A.S.”
+
+## 33. La articolul 21, alineatele (1) și (2) se modifică și vor avea următorul cuprins:
+
+„(1) Documentele atașate cererii de autorizare/ înregistrare a F.I.A.S. administrat de un A.F.I.A. extern/F.I.A.S. autoadministrat sunt stabilite în reglementările emise de A.S.F.
+
+(2) Prevederile Titlului IX „Auditul financiar” din Legea nr. 126/2018, cu modificările și completările ulterioare, se aplică în mod corespunzător de către F.I.A.S.”
+
+## 34. La articolul 21, alineatul (6) se abrogă.
+
+## 35. La articolul 21, alineatul (7) se modifică și va avea următorul cuprins:
+
+„(7) Prospectul F.I.A.S. destinat investitorilor de retail se aprobă de către A.S.F. la momentul depunerii cererii de autorizare a F.I.A.S. respectiv, cu respectarea prevederilor Regulamentului (UE) 2017/1.129 al Parlamentului European și al Consiliului din 14 iunie 2017 privind prospectul care trebuie publicat în cazul unei oferte publice de valori mobiliare sau al admiterii de valori mobiliare la tranzaționare pe o piață reglementată și de abrogare a Directivei 2003/71/CE.”
+
+## 36. Articolul 22 se modifică și va avea următorul cuprins:
+
+„Art.22. - (1) Prospectul F.I.A.S destinat investorilor de retail este întocmit în conformitate cu dispozițiile legale aplicabile emitenților de valori mobiliare și ale reglementărilor A.S.F. emise în aplicarea acestora și cu respectarea prevederilor Regulamentului (UE) nr. 2019/980.
+
+(2) Documentul de ofertă al F.I.A.S. destinat investorilor profesionali are conținutul stabilit prin reglementările emise de A.S.F. ”
+
+## 37. Articolul 23 se modifică și va avea următorul cuprins:
+
+„Art. 23. - (1) Prin excepție de la prevederile art. 4 alin. (4), A.S.F. acordă autorizația unui F.I.A.S. destinat investorilor de retail administrat de un A.F.I.A., în termen de 3 luni de la data primirii documentației complete prevăzute de reglementările aplicabile. În cazuri bine justificate, acest termen se poate prelungi cu maximum 3 luni, în funcție de circumstanțele specifice cazului și după ce A.S.F. a notificat F.I.A.S. cu privire la această prelungire. În cazul F.I.A.S. prevăzute la art. 20 alin. (1¹) înregistrarea la A.S.F. se face în termenele prevăzute la art. 4¹ alin. (3) și (4).
+
+(2) Acordarea autorizației/ înregistrarea unui F.I.A.S. poate fi refuzată în situația în care A.S.F. consideră că administrarea prudențială nu poate fi asigurată, deși sunt îndeplinite condițiile prevăzute de prezenta lege și de reglementările A.S.F.”
+
+## 38. Articolul 25 se modifică și va avea următorul cuprins:
+
+„Art. 25. - (1) Prevederile cap. II și III din Legea nr. 74/2015 se aplică în mod corespunzător și F.I.A.S. autoadministrate, potrivit prevederilor prezentei legi și reglementărilor A.S.F., care dețin calitatea de A.F.I.A. autorizat.
+
+(2) Prevederile art. 2 alin. (2) – (5), art. 5 alin. (1) – (4), art. 6 alin. (1) și art. 20 din Legea nr. 74/2015 se aplică în mod corespunzător și F.I.A.S. autoadministrate, potrivit prevederilor prezentei legi și reglementărilor A.S.F., care dețin calitatea de A.F.I.A. înregistrat.
+
+(3) Prevederile art. 7 alin. (3) sau art. 7¹ alin. (2), după caz, art. 8 alin. (6) și (7) și ale art. 12-16 se aplică în mod corespunzător și F.I.A.S."
+
+39\. La articolul 29, alineatele (2) - (4) se modifică și vor avea următorul cuprins:
+
+„(2) F.I.A.S. efectuează, în cursul unui exercițiu financiar, o singură restituire de capital către acționari în scopul reducerii capitalului social al F.I.A.S., în limita a maximum 5% din capitalul social, cu respectarea cerințelor prevăzute de Legea nr. 31/1990; prin exercițiu financiar se înțelege an calendaristic.
+
+(3) Prin excepție de la prevederile alin. (2), F.I.A.S. poate efectua suplimentar restituiri de capital către acționari, peste limita de 5%, de mai multe ori în cursul unui exercițiu financiar, cu respectarea unei limite maxime, anuale, de 10% din capitalul social, în scopul reducerii capitalului social al F.I.A.S., cu îndeplinirea următoarelor cerințe cumulative:
+
+a) restituirea de capital către acționari se realizează exclusiv din surse proprii ale F.I.A.S.;
+
+b) F.I.A.S. a înregistrat profit în ultimele 3 exerciții financiare anterioare, în conformitate cu situațiile financiare anuale ale F.I.A.S. auditate conform legii;
+
+c) ulterior autorizării de către A.S.F. a reducerii capitalului social al F.I.A.S. ca urmare a finalizării restituirii anterioare, și după înregistrarea acestei operațiuni la O.N.R.C.
+
+(4) F.I.A.S. poate derula un program de răscumpărare a acțiunilor proprii, aprobat de A.G.E.A., în scopul reducerii capitalului social, cu respectarea cerințelor prevăzute de Legea nr. 31/1990, cu îndeplinirea următoarelor condiții:
+
+a) în limita a maximum 10% din capitalul social, în cursul unui exercițiu financiar; prin exercițiu financiar se înțelege an calendaristic;
+
+b) ulterior autorizării de către A.S.F. a reducerii capitalului social al F.I.A.S. ca urmare a finalizării programului de răscumpărare anterior, și după înregistrarea acestei operațiuni la O.N.R.C.”
+
+40\. La articolul 29, după alineatul (4) se introduc trei noi alineate, alin. (5) - (7), cu următorul cuprins:
+
+„(5) În cazul în care A.G.E.A. a F.I.A.S. adoptă mai multe hotărâri privind aprobarea de programe de răscumpărare a acțiunilor proprii, aceste programe pot fi comasate, cu respectarea condițiilor prevăzute la alin. (4).
+
+(6) Programele de răscumpărare se efectuează prin tranzacții în piață și/ sau ofertă publică de cumpărare.
+
+(7) Limitele procentuale prevăzute la alin. (2) – (4) se calculează prin raportare la capitalul social subscris și vărsat, înregistrat la O.N.R.C. la începutul exercițiului financiar.”
+
+## 41. După articolul 30¹ se introduce un nou articol, art. 30², cu următorul cuprins:
+
+„Art. 30². - Prin derogare de la prevederile alin. (2) al art. 137 din Legea nr. 31/1990, A.F.I.A. extern este administratorul unic al F.I.A.S., în sensul Legii nr. 31/1990.”
+
+## 42. La articolul 32, alineatul (2) se modifică și va avea următorul cuprins:
+
+„(2) F.I.A.I.R. se pot transforma într-o categorie de F.I.A. destinată investitorilor profesionali, în cazul în care toți investitorii acestuia sunt investitori profesionali și semiprofesionali.”
+
+## 43. La articolul 33, după alineatul (3) se introduce un nou alineat, alin. (4), cu următorul cuprins:
+
+„(4) F.I.A.I.R. nu efectuează schimburi de instrumente financiare contra altor instrumente financiare din portofoliul acestora, cu excepția F.I.A.I.R. admise la tranzacționare, care pot efectua schimburi de valori mobiliare în cadrul unei oferte publice de schimb, în conformitate cu prevederile legale aplicabile emitenților de valori mobiliare și ale reglementărilor emise de A.S.F.”
+
+## 44. La articolul 34, alineatul (2) se modifică și va avea următorul cuprins:
+
+„(2) Pe lângă excepția prevăzută la alin. (1), F.I.A.I.R. pot deroga de la respectarea limitelor investiționale aplicabile pe o perioadă de maximum 6 luni de la data primei emisiuni de titluri de participare ale F.I.A.I.R., cu asigurarea supravegherii respectării principiului dispersiei riscului și sub condiția includerii de mențiuni în acest sens în prospectul de emisiune sau în documentul de ofertă, după caz.”
+
+## 45. La articolul 35 alineatul (1), litera n) se modifică și va avea următorul cuprins:
+
+„n) bunuri mobile și imobile necesare strict pentru desfășurarea activității unui F.I.A. înființat ca societate de investiții administrată intern; prevederile prezentei litere nu se aplică F.I.A. înființat ca fond de investiții fără personalitate juridică.”
+
+## 46. La articolul 35 alineatul (2), litera m) se modifică și va avea următorul cuprins:
+
+„m) nu poate deține mai mult de 40% din valoarea activelor sale în valori mobiliare, instrumente ale pieței monetare neadmise la tranzacționare în cadrul unui loc de tranzacționare sau pe o bursă dintr-un stat terț;”
+
+## 47. La articolul 35, după alineatul (2), se introduc două noi alineate, alin. (2¹) și (2²), cu următorul cuprins:
+
+„(2¹) În calculul limitei de deținere de la alin. (2) lit. m) nu sunt incluse deținerile F.I.A.I.R. în titluri de stat și obligațiuni emise de Ministerul Finanțelor, neadmise la tranzacționare în cadrul unui loc de tranzacționare.
+
+(2²) Deținerile în valori mobiliare și/ sau instrumente ale pieței monetare neadmise la tranzacționare în cadrul unui loc de tranzacționare sau pe o bursă dintr-un stat terț dobândite de către un F.I.A.I.R. prin lege se iau în calculul limitei de deținere de la alin. (2) lit. m). În cazul în care aceste dețineri dobândite prin lege depășesc limita anterior menționată, acestea pot fi păstrate în portofoliul F.I.A.I.R., fără a mai putea efectua investiții suplimentare în astfel de instrumente, cu excepția exercitării dreptului de preferință în cadrul majorărilor de capital, distribuirii gratuite.”
+
+## 48. La articolul 38, alineatele (1) – (3) se modifică și vor avea următorul cuprins:
+
+„(1) A.F.I.A. care administrează un F.I.A.I.R. sau, după caz, consiliul de administrație/directoratul F.I.A.I.R. autoadministrat întocmește, publică pe propriul site și transmite la A.S.F. și, după caz, la operatorul de piață, rapoarte lunare cu privire la V.A.N. și la V.U.A.N. calculate de administrator/ intern și certificate de depozitar, precum și situația detaliată a investițiilor la data de raportare, întocmite conform reglementărilor A.S.F., în maximum 10 zile lucrătoare de la sfârșitul perioadei pentru care se face raportarea. În cazul în care calculul V.A.N. și V.U.A.N. se realizează cu o frecvență mai mare decât cea lunară, atunci raportul cu privire la aceste informații împreună cu situația detaliată a investițiilor se transmite la A.S.F. în maximum 5 zile lucrătoare de la sfârșitul perioadei pentru care se face raportarea.
+
+(2) V.A.N. și V.U.A.N. prevăzute la alin. (1) sunt disponibile permanent investitorilor prin publicare pe site-ul propriu și pot fi consultate la sediul social/sediile secundare ale A.F.I.A./F.I.A. autoadministrat. Publicarea noilor valori ale V.A.N. și V.U.A.N. se realizează în termenele prevăzute la alin. (1), după caz.
+
+(3) A.F.I.A. care administrează un F.I.A.I.R., respectiv consiliul de administrație/directoratul unui F.I.A.I.R. care se autoadministrează întocmește, transmite la A.S.F. și pune la dispoziția investitorilor prin publicare pe site-ul propriu și prin consultare la sediul social/sediile secundare documentul de ofertă și regulile fondului sau actul constitutiv al F.I.A.I.R., după caz, precum și rapoarte semestriale și anuale privind situația activelor și obligațiilor, inclusiv situația detaliată a investițiilor la data de raportare, având conținutul și forma prevăzute de Legea nr. 74/2015, Regulamentul (UE) nr. 231/2013 și reglementările A.S.F. Rapoartele semestriale și anuale se depun la A.S.F. și se pun la dispoziția investitorilor în termenele prevăzute de reglementările emise de A.S.F. referitoare la depunerea situațiilor financiare anuale și a raportărilor contabile semestriale.”
+
+## 49. La articolul 40, alineatele (1) și (2) se modifică și vor avea următorul cuprins:
+
+„(1) Un F.I.A.I.R. specializat dintre cele prevăzute la art. 31 lit. b) deține active sau o expunere totală de cel puțin 70% din V.A.N. numai în clasa de active corespunzătoare specializării sale.
+
+(2) În vederea asigurării lichidității, un F.I.A.I.R. menționat la alin. (1) poate investi până la 30% din activele sale numai în depozite constituite în conformitate cu prevederile art. 35 alin. (1) lit. e), în instrumente ale pieței monetare prevăzute la art. 35 alin. (1) lit. a), b) și g) și în O.P.C.V.M. care dețin permanent în portofoliul investițional peste 50% din active plasate în titluri de stat și valori mobiliare tranzacționate în cadrul unui loc de tranzacționare sau sunt tranzacționate în cadrul unei burse dintr-un stat terț, în titluri de participare emise de F.I.A./O.P.C.V.M. de piață monetară autorizate într-un stat membru, în instrumente financiare derivate utilizate exclusiv în scop de acoperire a riscului definite conform reglementărilor A.S.F., în operațiuni de repo sau reverse repo, și poate să dețină conturi curente și numerar în lei și valută, cu respectarea tipurilor de active eligibile pentru un F.I.A.I.R. stabilite potrivit prevederilor art. 35 alin. (1).”
+
+## 50. La articolul 40, alineatul (4) se abrogă.
+
+## 51. La articolul 41 alineatul (1), partea introductivă și litera a) se modifică și vor avea următorul cuprins:
+
+„(1) Nerespectarea procentului prevăzut la art. 40 alin.(1) pe o perioadă de maximum 90 de zile consecutive nu constituie motiv de schimbare a categoriei în care este încadrat un
+
+F.I.A.I.R., dacă sunt îndeplinite următoarele condiții cumulative:
+
+a) această posibilitate este prevăzută în prospectul de emisiune/documentul de ofertă, sau, după caz, în regulile/actul constitutiv al F.I.A.I.R.; ”
+
+## 52. La articolul 46, litera g) se modifică și va avea următorul cuprins:
+
+„g) F.I.A. stabilite la art. 31 lit. a), b) pct. (i) - (iii) și pct. (v), lit. c) și d), fără utilizarea de sintagme care fac referire la faptul că F.I.A. este destinat investorilor de retail.”
+
+## 53. La articolul 46, după litera g) se introduce o nouă literă, lit. h), cu următorul cuprins:
+
+„h) alte categorii de F.I.A. stabilite în conformitate cu reglementările emise de A.S.F.”
+
+## 54. Articolul 46 ¹ se modifică și va avea următorul cuprins:
+
+„Art. 46¹. – Prin excepție de la prevederile art. 17, F.I.A.I.P. de tip societate de investiții, stabilite potrivit dispozițiilor art. 46 lit. h), vor putea fi înființate și în formă juridică de societăți cu răspundere limitată în conformitate cu prevederile Legii nr. 31/1990.”
+
+## 55. La articolul 47, alineatele (2), (5) și (6) se modifică și vor avea următorul cuprins:
+
+„(2) Modificările intervenite la documentele depuse la momentul înregistrării unui F.I.A.I.P., în situația prevăzută la alin. (1) lit. a), sunt transmise în prealabil A.S.F. în vederea autorizării acestora. A.S.F. emite un act individual de aprobare sau de respingere a acestor modificări în termen de 60 de zile de la depunerea documentației complete stabilite prin reglementările A.S.F. În cazuri bine justificate, A.S.F. poate prelungi termenul de 60 de zile cu încă 30 de zile.
+
+(5) În vederea informării investitorilor cu privire la modificările intervenite, A.F.I.A. transmite acestora o notă de informare cu privire la respectivele modificări în termen de maximum două zile lucrătoare de la data comunicării deciziei de autorizare a modificărilor de către A.S.F.
+
+(6) În situația în care investitorii nu sunt de acord cu modificările semnificative ale documentelor F.I.A.I.P. de tip contractual, definite conform reglementărilor A.S.F., efectuate la inițiativa A.F.I.A., atunci A.F.I.A. are obligația de a onora cererile de răscumpărare integrală depuse într-un interval de 15 zile de la data transmiterii notei de informare prevăzută la alin. (5) fără costuri suplimentare în sarcina investitorilor.”
+
+## 56. Articolul 48 se modifică și va avea următorul cuprins:
+
+„(1) F.I.A.I.P. pot investi în toate tipurile de active în care pot investi F.I.A.I.R. în conformitate cu art. 35 alin. (1) lit. a)-c), lit. e)-g) și lit. i) – m), precum și, suplimentar în următoarele active:
+
+a) titluri de participare sau participații ale O.P.C.V.M sau F.I.A. stabilite în România sau în alte state membre sau terțe;
+
+b) părți sociale ale societăților cu răspundere limitată, reglementate de Legea nr. 31/1990;
+
+c) criptoactive, astfel cum sunt definite la art. 3 alin. (1) pct. 5 din Regulamentul (UE) 2023/1114 privind piețele criptoactivelor și de modificare a Regulamentelor (UE) nr. 1093/2010 și (UE) nr. 1095/2010 și a Directivelor 2013/36/UE și (UE) 2019/1937, denumit în continuare Regulamentul (UE) nr. 2023/1114;
+
+d) bunuri conform dispozițiilor art. 535 din Codul Civil, a căror valoare poate fi determinată în orice moment, în mod corect, conform prevederilor din documentele de constituire ale F.I.A.I.P.
+
+(2) F.I.A.I.P. nu au restricții în ceea ce privește limitele investiționale, cu excepția celor stabilite de prezenta lege în sarcina F.I.A.I.P., conform categoriei din care fiecare F.I.A.I.P. face parte, investițiile realizându-se în conformitate cu documentele de constituire sau actele constitutive ale F.I.A.I.P.
+
+(3) În cazul nerespectării limitelor investiționale stabilite prin prezenta lege, prin documentele de constituire sau actele constitutive ale F.I.A.I.P., A.F.I.A. care administrează respectivul F.I.A.I.P. are obligația reîncadrării în limitele investiționale stabilite, în termen de 6 luni de la data abaterii de la limitele respective. A.F.I.A. are obligația transmiterii, în termen de două zile lucrătoare, către depozitarul activelor F.I.A.I.P. și A.S.F. unei informări cu privire la nerespectarea limitelor stabilite, ce cuprinde justificarea cauzelor care au condus la depășire, precum și un plan de măsuri pentru reîncadrarea în cerințele stabilite prin lege și/sau documentele de constituire în termenul de 6 luni de la data abaterii.
+
+(4) Nerespectarea de către F.I.A.I.P. a limitelor de investiții aferente categoriei de încadrare prevăzute de art. 46, ulterior termenului de 6 luni prevăzut la alin. (3), conduce la obligativitatea depunerii la A.S.F., în termen de maximum 30 de zile de la expirarea termenului menționat, a documentației complete aferente transformării F.I.A.I.P. într-o altă categorie de F.I.A. destinate investitorilor profesionali în conformitate cu art. 4¹ alin. (8) și cu reglementările emise de A.S.F..
+
+(5) Prin excepție de la prevederile alin. (3) și (4), în cazul investițiilor F.I.A.I.P în activele mentionate la art. 35 alin. (1) lit. i) și 1) și art. 48 alin. (1) lit. b), A.F.I.A. care administrează respectivul F.I.A.I.P. are obligația reîncadrării în limitele investiționale stabilite prin lege, prin documentele de constituire sau actele constitutive ale F.I.A.I.P. în termen de 12 luni de la data abaterii. A.F.I.A. are obligația transmiterii în termen de două zile lucrătoare, către depozitarul activelor F.I.A.I.P. și A.S.F., unei informări cu privire la nerespectarea limitelor stabilite, ce cuprinde justificarea cauzelor care au condus la această situație, precum și al unui plan de măsuri pentru reîncadrarea în cerințele stabilite prin lege și/sau documentele de constituire în termenul de 12 luni de la data abaterii.
+
+(6) Nerespectarea de către F.I.A.I.P. a politicii de investiții aferente categoriei de încadrare prevăzute de art. 46, ulterior termenului de 12 luni prevăzut la alin. (5), conduce la obligativitatea depunerii la A.S.F., în termen de maximum 30 de zile de la expirarea termenului menționat, a documentației complete aferente transformării F.I.A.I.P. într-o altă categorie de F.I.A. destinate investitorilor profesionali în conformitate cu art. 4¹ alin. (8) și cu reglementările emise de A.S.F.”
+
+## 57. La articolul 51, alineatul (1) se modifică și va avea următorul cuprins:
+
+„(1) A.F.I.A. care administrează un F.I.A.I.P. sau, după caz, consiliul de administrație/directoratul F.I.A.I.P. administrat intern întocmește și transmite la A.S.F. rapoarte trimestriale cu privire la V.A.N. și la V.U.A.N. calculate de administrator și certificate de depozitar, precum și situația detaliată a investițiilor la data de raportare, întocmite conform reglementărilor A.S.F., în maximum 15 zile de la sfârșitul perioadei pentru care se face raportarea. În cazul în care calculul V.A.N. și V.U.A.N. se realizează cu o frecvență mai mare decât cea trimestrială, atunci raportul cu privire la aceste informații împreună cu situația detaliată a investițiilor se va transmite la A.S.F. în maximum 5 zile lucrătoare de la sfârșitul perioadei pentru care se face raportarea. În cazul în care ultima zi de raportare nu este o zi lucrătoare, atunci documentele sunt transmise în următoarea zi lucrătoare după această dată.”
+
+## 58. La articolul 52, alineatul (1) se modifică și va avea următorul cuprins:
+
+„(1) A.F.I.A. care administrează un F.I.A.I.P., respectiv consiliul de administrație/directoratul unui F.I.A.I.P. autoadministrate întocmește, transmite la A.S.F. și pune la dispoziția investitorilor prospectul sau documentul de ofertă, după caz, și regulile fondului/actul constitutiv, după caz, actualizate, rapoartele anuale privind situația activelor și obligațiilor, inclusiv situația detaliată a investițiilor aferente perioadelor de raportare, având conținutul și forma prevăzută la art. 21-23 din Legea nr. 74/2015, la art. 103-111 din Regulamentul (UE) nr. 231/2013 și de reglementările A.S.F., precum și rapoartele semestriale având conținutul și forma prevăzute în reglementările A.S.F.”
+
+## 59. La articolul 53, alineatele (1), (2) și (6) se modifică și vor avea următorul cuprins:
+
+„(1) F.I.A. cu capital privat, denumite în continuare F.I.A.C.P., sunt acele F.I.A.I.P. înregistrate de A.S.F. și înființate ca F.I.A. de tip contractual sau ca F.I.A. de tipul societăților de investiții a căror politică de investiții constă în investirea a peste 50% din activele sale în active cu grad ridicat de risc.
+
+(2) În sensul prevederilor alin. (1), în cazul F.I.A.C.P. de tipul societăților de investiții, activul cu grad ridicat de risc reprezintă participarea directă sau indirectă a F.I.A. la înființarea, dezvoltarea sau admiterea în cadrul unui loc de tranzacționare din România a unei societăți reglementate de Legea nr. 31/1990 sau de legislația din alte state membre/terțe, prin participarea la capitalul social al respectivei societăți.
+
+(6) F.I.A.C.P. utilizează în denumirea lor sintagma societate de investiții alternative cu capital privat sau fond de investiții alternative cu capital privat, după caz.”
+
+## 60. La articolul 54, alineatul (3) se modifică și va avea următorul cuprins:
+
+„(3) Evaluarea activelor F.I.A.C.P. de tip societate de investiții se realizează prin utilizarea metodelor de evaluare conforme principiului valorii juste stabilite în documentele constitutive, cu respectarea dispozițiilor Regulamentului (UE) nr. 231/2013, și se realizează cel puțin anual, precum și atunci când sunt înregistrate tranzacții cu activele F.I.A.C.P., dar și anterior onorării fiecărei solicitări a unui investitor de răscumpărare din activul F.I.A.C.P.”
+
+## 61. La articolul 56, alineatul (2) se abrogă.
+
+62\. La articolul 56 alineatul (4), după litera e) se introduce o nouă literă, lit. f), cu următorul cuprins:
+
+„f) prin excepție de la prevederile art. 4¹ F.I.A.C.P. este supus autorizării A.S.F. în conformitate cu procedura aplicabilă F.I.A. destinate investitorilor de retail din cadrul prezentei legi și a reglementărilor emise de A.S.F.”
+
+## 63. La articolul 57, alineatul (1) se modifică și va avea următorul cuprins:
+
+„(1) F.I.A. speculative, denumite în continuare F.I.A.S.P.E.C., sunt acele F.I.A.I.P. înființate ca F.I.A. de tip contractual sau ca F.I.A. de tipul societăților de investiții înregistrate la A.S.F., care investesc preponderent în instrumente financiare derivate și/sau care utilizează strategii de investiții și operațiuni care implică utilizarea substanțială a efectului de levier, definit la art. 3 pct. 16 din Legea nr. 74/2015, în vederea obținerii unor randamente pozitive indiferent de condițiile și fluctuațiile piețelor financiare.”
+
+## 64. Articolul 58 se modifică și va avea următorul cuprins:
+
+„Art. 58. - În vederea dobândirii calității de acționar/asociat/investitor al unui F.I.A.S.P.E.C. de tipul societăților de investiții sau de tip contractual fără personalitate juridică, investiția minimă individuală este reprezentată de contravaloarea în lei a sumei de 125.000 euro, stabilită la cursul B.N.R. de la data subscrierii.”
+
+## 65. La articolul 59, alineatul (2) se modifică și va avea următorul cuprins:
+
+„(2) Prevederile art. 54 alin. (3), art. 55 și art. 56 alin. (1) se aplică în mod corespunzător și F.I.A.S.P.E.C.”
+
+## 66. La articolul 60, alineatele (1) - (3) se modifică și vor avea următorul cuprins:
+
+„(1) F.I.A. specializate în investiții în bunuri și mărfuri, denumite în continuare F.I.A.B.M., sunt acele F.I.A.I.P. înființate ca F.I.A. de tip contractual sau ca F.I.A. de tipul societăților de investiții înregistrate la A.S.F. al căror obiect îl reprezintă investiția directă de cel puțin 70% în active fizice din domeniul/ domeniile de activitate sau ramura/ ramurile economică/e prevăzută/e în documentele de constituire ale F.I.A.I.P., inclusiv obiecte de artă, metale prețioase, terenuri agricole și păduri.
+
+(2) Valoarea inițială a activului net, respectiv a capitalului social al F.I.A.B.M. nu poate fi mai mică de echivalentul în lei a sumei de 1.000.000 euro, valoarea inițială a titlului de participare fiind de minimum contravaloarea în lei a 10.000 euro.
+
+(3) Prevederile art. 54 alin. (3) și art. 56 alin. (1) se aplică în mod corespunzător și F.I.A.B.M.; de asemenea, prevederile art. 55 se aplică în mod corespunzător și F.I.A.B.M., cu excepția acelor F.I.A.B.M. specializate în investiții în obiecte de artă.”
+
+## 67. La articolul 61, alineatele (1) și (4) se modifică și vor avea următorul cuprins:
+
+„(1) Un F.I.A. destinat investitorilor profesionali specializat în investiții imobiliare, denumit în continuare F.I.A.I.M.O.B., este înregistrat la A.S.F. și investește cel puțin 70% din activele sale în active imobiliare, în sensul prezentei legi, și/sau în acțiuni neadmise la tranzacționare în cadrul unui loc de tranzacționare ale societăților cu profil imobiliar, respectiv părți sociale ale societăților cu profil imobiliar care își reevaluează activele cel puțin anual, precum și de fiecare dată când se înregistrează tranzacții cu active din portofoliul său investițional. În scop de supraveghere prudențială, A.S.F. poate solicita ca procesul de evaluare a activelor societăților cu profil imobiliar în care sunt investite activele F.I.A.I.M.O.B. să se realizeze cu o frecvență mai mare decât cea anuală.
+
+(4) În vederea asigurării lichidității, un F.I.A.I.M.O.B. poate investi în activele menționate la art. 35 alin. (1) lit. a), b), e) și g), la art. 48 alin. (1) lit. a), precum și în instrumente financiare derivate admise la tranzaționare în cadrul unui loc de tranzaționare și poate să dețină conturi curente și numerar în lei și valută, cu respectarea următoarelor limite:
+
+a) valoarea depozitelor bancare constituite la aceeași instituție de credit nu poate reprezenta mai mult de 20% din activele F.I.A. Valoarea conturilor curente și a numerarului deținut în lei și în valută nu trebuie să depășească 10% din activele sale;
+
+b) valorile mobiliare și instrumentele pieței monetare prevăzute la art. 35 alin. (1) lit. a) și b) emise de un singur emitent, deținute de un F.I.A. specializat în investiții imobiliare, nu pot reprezenta mai mult de 10% din activele sale.”
+
+## 68. La articolul 61, după alineatul (4) se introduce un nou alineat, alin. (4¹), cu următorul cuprins:
+
+„(4¹) Prevederile art. 40 alin. (9) se aplică în mod corespunzător și F.I.A.I.M.O.B.”
+
+## 69. Articolul 65 se modifică și va avea următorul cuprins:
+
+„Art. 65. - F.I.A. cu capital de risc, denumite în continuare F.I.A.C.R., înregistrate de către A.S.F., constituite ca F.I.A.C. sau ca F.I.A.S., își desfășoară activitatea în conformitate cu prevederile Regulamentului (UE) nr. 345/2013 și a măsurilor de implementare adoptate de Comisia Europeană.”
+
+## 70. La articolul 67, alineatul (1) se modifică și va avea următorul cuprins:
+
+„(1) Înregistrarea de către A.S.F. a F.I.A.C.R. se realizează în conformitate cu prevederile prezentei legi.”
+
+## 71. Articolul 68 se modifică și va avea următorul cuprins:
+
+„Art. 68. - F.I.A. de antreprenoriat social, denumite în continuare F.I.A.A.S. înregistrate de către A.S.F., constituite ca F.I.A. de tip contractual sau ca F.I.A. de tipul societăților de investiții, își desfășoară activitatea în conformitate cu prevederile Regulamentului (UE) nr. 346/2013 și a măsurilor de implementare adoptate de Comisia Europeană.”
+
+## 72. La articolul 70, alineatul (1) se modifică și va avea următorul cuprins:
+
+„(1) Înregistrarea de către A.S.F. a F.I.A.A.S. se realizează în conformitate cu prevederile prezentei legi.”
+
+## 73. La articolul 73 alineatul (2), literele a), c) și e) se modifică și vor avea următorul cuprins:
+
+„a) nerespectarea condițiilor care au stat la baza autorizării/înregistrării și a condițiilor de funcționare prevăzute la art. 4, art. 4¹, art. 6 alin. (4), art. 7¹, art. 11 alin. (1), art. 11¹ alin. (1) și (4), art. 12 alin. (3¹), (4) și (6), art. 20 alin. (1¹), art. 25 și art. 64 alin. (3);
+
+c) nerespectarea obligațiilor de transparență și raportare prevăzute la art. 8 alin. (4), art. 9 alin. (3) și (4), art. 11 alin. (2) și (4), art. 11¹ alin. (3), art. 38 alin. (1) - (4) și (6), art. 40, art. 47 alin. (4) și (5), art. 51, art. 52, art. 57 alin. (2) și art. 59 alin. (1);
+
+e) nerespectarea termenelor prevăzute la art. 11 alin. (2) și (5), art. 28 alin. (3), art. 34, art. 35 alin. (3), art. 36, art. 41 alin. (2), art. 47 alin. (2), (4) și (5), art. 48 alin. (3) – (6) și art. 49; ”
+
+## 74. La articolul 74, alineatele (1), (4) și (7) se modifică și vor avea următorul cuprins:
+
+„(1) Prin derogare de la prevederile art. 8 alin. (2) din Ordonanța Guvernului nr. 2/2001 privind regimul juridic al contravențiilor, aprobată cu modificări și completări prin Legea nr. 180/2002, cu modificările și completările ulterioare, denumită în continuare Ordonanța Guvernului nr. 2/2021, săvârșirea contravențiilor prevăzute la art. 73 alin. (2) lit. a)-l) se sancționează după cum urmează:
+
+a) cu avertisment sau amendă de la 1.000 lei la 22.098.000 lei sau cu până la de două ori valoarea beneficiului rezultat din încălcare, în cazul în care beneficiul poate fi determinat, chiar dacă acesta depășește limita maximă a amenzii, pentru persoanele fizice;
+
+b) cu avertisment sau amendă de la 0,1% până la 5% din cifra de afaceri netă realizată în anul financiar anterior sancționării, în funcție de gravitatea faptei săvârșite sau cu până la de două ori valoarea beneficiului rezultat din încălcare, în cazul în care beneficiul poate fi determinat, chiar dacă acesta depășește limita maximă a amenzii, pentru persoanele juridice înregistrate la A.S.F.;
+
+c) cu avertisment sau amendă de la 0,1 până la 8% din cifra de afaceri netă realizată în anul financiar anterior sancționării, în funcție de gravitatea faptei săvârșite sau cu până la de două ori valoarea beneficiului rezultat din încălcare, în cazul în care beneficiul poate fi determinat, chiar dacă acesta depășește limita maximă a amenzii, pentru persoanele juridice autorizate de A.S.F.
+
+(4) Prin derogare de la prevederile art. 8 alin. (2) din Ordonanța Guvernului nr. 2/2001, în cazul persoanei juridice care nu a înregistrat cifră de afaceri în anul anterior sancționării, precum și în cazul persoanei juridice a cărei cifră de afaceri nu este accesibilă A.S.F., aceasta este sancționată cu amendă de la 10.000 lei la 1.000.000 lei.
+
+(7) În funcție de natura și gravitatea faptei, în cazul săvârșirii contravențiilor prevăzute la art. 73 alin. (2), A.S.F. poate aplica măsuri administrative, precum:
+
+a) o declarație publică în care se indică persoana responsabilă de încălcare și natura încălcării prevederilor legale;
+
+b) o decizie prin care se solicită persoanei responsabile de încălcare să pună capăt respectivului comportament și să se abțină de la repetarea acestuia;
+
+c) un plan de măsuri în scopul remedierii situațiilor de nerespectare a dispozițiilor legale constatate și/sau prevenirii apariției/materializării unor riscuri în activitate;
+
+d) alte măsuri de atenționare și/sau cu scopul prevenirii sau remedierii situațiilor de nerespectare a dispozițiilor legale, conform reglementărilor A.S.F.”
+
+75\. La articolul 74, după alineatul (7) se introduce un nou alineat, alin. (7¹), cu
+
+## următorul cuprins:
+
+„(7¹) În cazul constatării unor deficiențe care, prin natura și gravitatea lor, nu reprezintă fapte contravenționale, precum și în cazul identificării unor riscuri, A.S.F. poate adopta măsura administrativă a impunerii unui plan de măsuri în scopul remedierii deficiențelor constatate și/sau prevenirii apariției/materializării unor riscuri în activitate. Prevederile alin. (11) și (12) se aplică în mod corespunzător.”
+
+## 76. La articolul 74, alineatul (10) se modifică și va avea următorul cuprins:
+
+„(10) Prin derogare de la prevederile art. 10 alin. (2) din Ordonanța Guvernului nr. 2/2001, în cazul constatării săvârșirii a două sau mai multe contravenții, se aplică amenda prevăzută pentru contravenția cea mai gravă, majorată cu până la 50%, după caz.”
+
+## 77. Articolul 75 se modifică și va avea următorul cuprins:
+
+„Art. 75. - Desfășurarea fără autorizație sau fără înregistrare a oricăror activități sau operațiuni pentru care prezenta lege cere autorizarea sau înregistrarea constituie infracțiune și se sancționează potrivit art. 348 din Legea nr. 286/2009 privind Codul penal, cu modificările și completările ulterioare.”
+
+## Capitolul IV Dispoziții tranzitorii și finale
+
+Art. IV. - (1) Cererile de autorizare în calitate de fonduri de investiții alternative destinate investitorilor profesionali, denumite în continuare F.I.A.I.P., depuse la Autoritatea de Supraveghere Financiară, denumită în continuare A.S.F., și nesoluționate până la data intrării în vigoare a prezentei legi, se soluționează de A.S.F. conform prevederilor în vigoare la data depunerii acestora.
+
+(2) Toate autorizațiile acordate de A.S.F. F.I.A.I.P. până la data întrării în vigoare a prezentei legi își păstrează valabilitatea și sunt considerate înregistrări în sensul prevederilor art. 4¹ din Legea nr. 243/2019 privind reglementarea fondurilor de investiții alternative și pentru modificarea și completarea unor acte normative, introdus conform art. III pct.9. (3) Fondurile de investiții alternative, denumite în continuare F.I.A., autorizate de A.S.F. la data intrării în vigoare a prezentei legi sunt obligate ca, în termen de 9 luni de la data intrării în vigoare a acesteia să își adapteze documentele de constituire și funcționare, precum și activitatea la prevederile prezentei legi. (4) Depozitarii unui organism de plasament colectiv în valori mobiliare/ fond de investiții alternative autorizat/ înregistrat de A.S.F. au obligația ca, în termen de 90 de zile de la data intrării în vigoare a prezentei legi să asigure punerea în aplicare a prevederilor art. I pct. 10 și 11 și ale art. II pct. 17, după caz. (5) În cazul programelor de răscumpărare și restituirilor de capital către acționari aprobate și/sau aflate în derulare la data intrării în vigoare a prezentei legi se aplică dispozițiile legale în vigoare la data aprobării acestora de către A.G.E.A. a F.I.A.S. Art. V. - În termen de 9 luni de la data intrării în vigoare a prezentei legi, A.S.F. emite reglementări în aplicarea acesteia. Art. VI. - Prezenta lege intră în vigoare la 10 zile de la data publicării în Monitorul Oficial al României, Partea I.

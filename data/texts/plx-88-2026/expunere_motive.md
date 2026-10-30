@@ -1,9 +1,40 @@
-EXPUNERE DE MOTIVE
+# EXPUNERE DE MOTIVE
 
-Protecția tinerilor față de provocările aduse de dependența de jocuri de noroc impune reguli mai stricte la nivelul legislației primare din România. Astfel, ridicarea limitei de vârstă, de la 18 ani în prezent la 21 de ani ar proteja tinerii într-o fază critică a dezvoltării lor, când sunt mai susceptibili la comportamente riscante și impulsivitate. Cercetările științifice din domeniul neurologiei au arătat că o parte semnificativă din creierul uman continuă să se dezvolte și să se maturizeze până în jurul vârstei de 25 de ani, în special în zonele responsabile pentru autocontrol și luarea deciziilor. Mai mult decât atât, tinerii cu vârste cuprinse între 18 și 21 de ani se află adesea într-o etapă de tranziție către independența financiară, fiind studenți sau la începutul carierei profesionale. Dacă aceștia nu reușesc să gestioneze riscurile asociate cu jocurile de noroc, vor avea probleme financiare serioase la începutul primelor experiențe de autonomie din viața lor. Nu în ultimul rând, adolescenții și tinerii, grupuri țintă vizate nediscriminatoriu, reprezintă categoriile cărora le sunt adresate campaniile de marketing pentru jocurile de noroc. Ridicarea limitei de vârstă ar putea reduce din eficacitatea tehnicilor de marketing și ar diminua presiunea asupra acestora de a participa la jocuri de noroc. Având în vedere argumentele prezentate mai sus, înaintăm Parlamentului României, spre dezbatere și adoptare, prezenta propunere legislativă.
+Protecția tinerilor față de provocările aduse de dependența de jocuri de noroc impune reguli mai stricte la nivelul legislației primare din România. Astfel, ridicarea limitei de vârstă, de la 18 ani în prezent la 21 de ani ar proteja tinerii într-o fază critică a dezvoltării lor, când sunt mai susceptibili la comportamente riscante și impulsivitate.
 
-INIȚIATORI
+Cercetările științifice din domeniul neurologiei au arătat că o parte semnificativă din creierul uman continuă să se dezvolte și să se maturizeze până în jurul vârstei de 25 de ani, în special în zonele responsabile pentru autocontrol și luarea deciziilor.
 
-Nr. | Nume și Prenume | Semnătura crt. 1. | Raluca TURCAN - deputat PNL 2. aiel thai de deg FNL 4. | 5. | PISTRU-POPA GEANINA 6. | Pandea Ciprian 7. | Pusoveanu Marian 8. 9. | 10. II algy madei Sonts 13. Gal Calin 14. | otimeseu turolivr 15. | HOS HRINA 16. NEACSU ANDREEA- FIRUTA 17. | MATEi ANETA 18. | Vela Ic4 Marcel 19. | ECHEET ASEIAN 20. | SiGHItRTtU ROBERT 21. DRĂGOESCU CEZAR 22. ROMIN FIOR/M 23. | VASS LEVENTE 24. | SOGKSAX TOKEL
+Mai mult decât atât, tinerii cu vârste cuprinse între 18 și 21 de ani se află adesea într-o etapă de tranziție către independența financiară, fiind studenți sau la începutul carierei profesionale. Dacă aceștia nu reușesc să gestioneze riscurile asociate cu jocurile de noroc, vor avea probleme financiare serioase la începutul primelor experiențe de autonomie din viața lor. Nu în ultimul rând, adolescenții și tinerii, grupuri țintă vizate nediscriminatoriu, reprezintă categoriile cărora le sunt adresate campaniile de marketing pentru jocurile de noroc. Ridicarea limitei de vârstă ar putea reduce din eficacitatea tehnicilor de marketing și ar diminua presiunea asupra acestora de a participa la jocuri de noroc.
 
-. 25. | Youn Balon 26. | MOCANU ADRIAN 27. | Ytoica „Ștelon-Bucur 28. 29. 30. | BLAGA VASILE 31. 32. 33. | LUCAM RUSU 34. ANISE MONICA CRISTINA 35. | aulive 36. slek-160lon Ce29 38. | VARGA GLADT 39. | OVIDiU JITARU 40. ABRUDEAN MIRCEA PNL 41. SEBASTiAN CERNIC USIL 42. Ghigiu Alexandru Mihai - PSA 43. ALINA GORGHM | PNL 44. 45. 46. 47. 48. 49. 50.
+Având în vedere argumentele prezentate mai sus, înaintăm Parlamentului României, spre dezbatere și adoptare, prezenta propunere legislativă.
+
+## INIȚIATORI
+
+| Nr.crt. | Nume și Prenume | Semnătura |
+| --- | --- | --- |
+| 1. | Raluca TURCAN - deputat PNL |  |
+| 2. | Gobriel Andomache-depPNL |  |
+| 3. | EACARD-TATIAN HITITELU-AEP.PNL |  |
+| 4. | Alexandu MURAPU |  |
+| 5. | PISTRU-POPA BEANINA |  |
+| 6. | Pandea Cypriem |  |
+| 7. | Crusoveanu Marian |  |
+| 8. | ANDREI ALEXANDRV |  |
+| 9. | Audui Boeull |  |
+| 10. | Jon Iorola dez |  |
+| 11. | Teolgri Andrei-Jonid |  |
+| 12. | Fechit Mirce |  |
+| 13. | Gal Caiin |  |
+| 14. | Cotinescu Avolian |  |
+| 15. | MOS ARINA |  |
+| 16. | NEAOSU ANDREEA-FIRUTA |  |
+| 17. | MATEI ANETA |  |
+| 18. | Vela Icu Marcee |  |
+| 19. | ECHEET ALEJAN |  |
+| 20. | SIGHAROU ROBERT |  |
+| 21. | DPAGOESCU CEZAR |  |
+| 22. | ROMAN FLORIN |  |
+| 23. | VASS LEVENTE |  |
+| 24. | DOGASAXI FORCEL |  |
+
+25\. Youau Bolou 26. MSCANU ADEIAN 27. Yfoica Skelon-Bucu 28. PLEA DUMIIRLI 29. Duvel Feweiu 30. BLAGA YASILE 31. PASAUJOU, VEDA 32. COVEI HICH 33. LUCIAN RUSU 34. ANIGIE MONICA CRISDINA 35. Pauliue Nicoleta 36. Heagu Nicole 37. Shek-Luola Cen 38. VARGA GLAD 39. OVIDU JITACU 40. ABPULEAN MIRCEA PNL 41. SEBASTIAN CEZNIE USIC 42. Ghiqiu Alexandru Mihai 43. ALINA GORGTEU 44. 45. 46. 47. 48. 49. 50.

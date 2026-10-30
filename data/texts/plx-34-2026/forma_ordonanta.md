@@ -1,29 +1,51 @@
-GUVERNUL ROMÂNIEI
+# GUVERNUL ROMÂNIEI
 
-ORDONANȚĂ DE URGENȚĂ pentru prorogarea unor termene privind stabilirea unor măsuri pentru asigurarea facilităților la transport pentru anumite categorii de persoane
+## ORDONANȚĂ DE URGENȚĂ
 
-Având în vedere necesitatea asigurării facilităților la transport pentru persoanele care beneficiază de acest drept, potrivit legii, luând în considerare faptul că în cardul național de asigurări de sănătate nu a fost cuprinsă partiția pentru transport, ținând seama de faptul că nu toți beneficiarii facilităților la transport dețin un card de sănătate potrivit dispozițiilor art. 337 alin. (2) teza a 2-a din Legea nr. 95/2006 privind reforma în domeniul sănătății, republicată, cu modificările și completările ulterioare, potrivit căreia iPentru persoanele care refuză în mod expres, din motive religioase sau de conștiință, primirea cardului național pentru dovedirea calității de asigurat, se emite adeverința de asigurat, prevăzută la art. 326 lit. c)", având în vedere că, potrivit prevederilor art. 338 alin. (5) din Legea nr. 95/2006, republicată, cu modificările și completările ulterioare, ,,Cardul național își încetează valabilitatea la data la care titularului i s-a eliberat o carte electronică de identitate", ținând seama de faptul că persoanele îndreptățite mai pot beneficia de facilități la transport pe baza tichetelor de călătorie gratuite sau a taloanelor speciale de călătorie numai până la data de 31 decembrie 2025, constatând că situația actuală reclamă o intervenție imediată pentry asigurarea n continuare a facilităților la transport prin utilizarea în această perioadă a tichetelor de
+## pentru prorogarea unor termene privind stabilirea unor măsuri pentru asigurarea facilităților la transport pentru anumite categorii de persoane
 
-călătorie gratuite sau a taloanelor speciale de călătorie, ținând seama de faptul că neadoptarea acestei măsuri ar conduce, începând cu data de 1 ianuarie 2026, la imposibilitatea asigurării facilităților la transport pentru persoanele care beneficiază de acest drept, potrivit legii, pe baza tichetelor/taloanelor de călătorie, în considerarea faptului că toate aceste elemente vizează interesul public și constituie situații extraordinare a căror reglementare nu poate fi amânată,
+Având în vedere necesitatea asigurării facilităților la transport pentru persoanele care beneficiază de acest drept, potrivit legii,
+
+luând în considerare faptul că în cardul național de asigurări de sănătate nu a fost cuprinsă partiția pentru transport,
+
+ținând seama de faptul că nu toți beneficiarii facilităților la transport dețin un card de sănătate potrivit dispozițiilor art. 337 alin. (2) teza a 2-a din Legea nr. 95/2006 privind reforma în domeniul sănătății, republicată, cu modificările și completările ulterioare, potrivit căreia „Pentru persoanele care refuză în mod expres, din motive religioase sau de conștiință, primirea cardului național pentru dovedirea calității de asigurat, se emite adeverința de asigurat, prevăzută la art. 326 lit. c)”,
+
+având în vedere că, potrivit prevederilor art. 338 alin. (5) din Legea nr. 95/2006, republicată, cu modificările și completările ulterioare, „Cardul național își încetează valabilitatea la data la care titularului i s-a eliberat o carte electronică de identitate”,
+
+ținând seama de faptul că persoanele îndreptățite mai pot beneficia de facilități la transport pe baza tichetelor de călătorie gratuite sau a taloanelor speciale de călătorie numai până la data de 31 decembrie 2025,
+
+constatând că situația actuală reclamă o intervenție imediată pentru asigurarea în continuare a facilităților la transport prin utilizarea în această perioadă a tichetelor de călătorie gratuite sau a taloanelor speciale de călătorie,
+
+ținând seama de faptul că neadoptarea acestei măsuri ar conduce, începând cu data de 1 ianuarie 2026, la imposibilitatea asigurării facilităților la transport pentru persoanele care beneficiază de acest drept, potrivit legii, pe baza tichetelor/taloanelor de călătorie,
+
+în considerarea faptului că toate aceste elemente vizează interesul public și constituie situații extraordinare a căror reglementare nu poate fi amânată,
 
 În temeiul art. 115 alin. (4) din Constituția României, republicată,
 
-Guvernul României adoptă prezenta ordonanță de urgență.
+## Guvernul României adoptă prezenta ordonanță de urgență.
 
-Art.l. - Termenul prevăzut la art. V și VII din Ordonanța Guvernului nr. 8/2011 pentru modificarea și completarea legislației cu privire la eliberarea, gestionarea și monitorizarea documentelor de călătorie acordate pensionarilor, veteranilor de război și văduvelor de război, publicată în Monitorul Oficial al României, Partea I, nr. 78 din 31 ianuarie 2011, aprobată cu modificări prin Legea nr. 211/2012, cu modificările ulterioare, se prorogă până la data de 31 decembrie 2026.
+Art.I. - Termenul prevăzut la art. V și VII din Ordonanța Guvernului nr. 8/2011 pentru modificarea și completarea legislației cu privire la eliberarea, gestionarea și monitorizarea documentelor de călătorie acordate pensionarilor, veteranilor de război și văduvelor de război, publicată în Monitorul Oficial al României, Partea I, nr. 78 din 31 ianuarie 2011, aprobată cu modificări prin Legea nr. 211/2012, cu modificările ulterioare, se prorogă până la data de 31 decembrie 2026.
 
-Art.Il. - Termenul prevăzut la alin. (2) al articolului unic din Ordonanța Guvernului nr. 4/2013 pentru abrogarea unor prevederi din Legea nr. 211/2012 privind aprobarea Ordonanței Guvernului nr. 8/2011 pentru modificarea și completarea legislației cu privire la eliberarea, gestionarea și monitorizarea documentelor de călătorie acordate pensionarilor, veteranilor de război și văduvelor de război, publicată în Monitorul Oficial al României, Partea 1, nr. 43 din 19 ianuarie 2013, aprobată cu modificări prin Legea nr. 112/2013, cu modificările ulterioare, se prorogă până la data de
+Art.II. - Termenul prevăzut la alin. (2) al articolului unic din Ordonanța Guvernului nr. 4/2013 pentru abrogarea unor prevederi din Legea nr. 211/2012 privind aprobarea Ordonanței Guvernului nr. 8/2011 pentru modificarea și completarea legislației cu privire la eliberarea, gestionarea și monitorizarea documentelor de călătorie acordate pensionarilor, veteranilor de război și văduvelor de război, publicată în Monitorul Oficial al României, Partea I, nr. 43 din 19 ianuarie 2013, aprobată cu modificări prin Legea nr. 112/2013, cu modificările ulterioare, se prorogă până la data de
 
 1 ianuarie 2027.
 
 PRIM-MINISTRU
 
-ILIE-GAYRI | LOJAN PALL ROMR MINISTR Contrasemnează: Viceprim-ministru Marian Nearei
+ILIE-GAVRIE BOLOJAN
+
+Contrasemnează:
+
+Viceprim-ministru Marian Neacsu
 
 Ministrul transporturilor și infrastructurii Ciprian-Constantin Serban
 
-Ministrul muncii, familiei, tineretului și solidarității sociale . Metre-Florin Manole CASSiALI - ASILCOiY Mimistruy/sanătății Alexandru-Flotin Rogobete
+Ministrul muncii, familiei, tineretului și solidarității sociale ..Petre-Florin Manole
 
-Ministrul finanțelor Alexandru azare
+ePASSiA+1 -ABsilcoi4
 
-București, 11.12.2025 Nr. 74
+Ministru/sanătății Alexandru-Flocin/Rogobete
+
+Ministrul finanțelor Alexandru Nazare
+
+București, 11.12.2025 Nr. 24

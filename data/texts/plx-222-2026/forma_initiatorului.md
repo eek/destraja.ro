@@ -1510,4 +1510,2368 @@ c) cantitățile de materiale reciclate și componente reutilizate.
 
 (8) Nerespectarea obligațiilor prevăzute la prezentul articol constituie contravenție și se sancționează potrivit dispozițiilor titlului dedicat regimului sancționator din prezenta lege, fără a exclude răspunderea civilă sau penală, după caz.
 
-*Documentul are 92 de pagini; am citit primele 40.*
+Art. 44 – Agricultură, bioeconomie și lanțuri alimentare
+
+(1) Politicile și activitățile din domeniul agriculturii, bioeconomiei și lanțurilor alimentare se desfășoară în conformitate cu principiile economiei circulare și cu dispozițiile:
+
+a) Regulamentului (CE) nr. 178/2002 al Parlamentului European și al Consiliului din 28 ianuarie 2002, care stabilește principiile și cerințele generale ale legislației alimentare, instituie Autoritatea Europeană pentru Siguranța Alimentară și stabilește proceduri în materie de siguranță a produselor alimentare, publicat în Jurnalul Oficial al Comunităților Europene, seria L 31 din 1 februarie 2002;
+
+b) Regulamentului (UE) 2018/848 al Parlamentului European și al Consiliului din 30 mai 2018 privind producția ecologică și etichetarea produselor ecologice și de abrogare a Regulamentului (CE) nr. 834/2007 al Consiliului, publicat în Jurnalul Oficial al Uniunii Europene, seria L 150 din 14 iunie 2018;
+
+c) legislației naționale aplicabile;
+
+vizând:
+
+(i) utilizarea eficientă și sustenabilă a resurselor naturale;
+
+(ii) reducerea risipei alimentare;
+
+(iii) valorificarea subproduselor și deșeurilor agricole și alimentare;
+
+(iv) promovarea producției și consumului responsabile.
+
+(2) Producătorii agricoli, procesatorii, distribuitorii și comercianții de produse agroalimentare au obligația să implementeze, cumulativ:
+
+a) practici agricole regenerative și de conservare a solului, inclusiv rotația culturilor și utilizarea fertilizanților organici;
+
+b) metode de reducere a consumului de apă și energie în procesul de producție;
+
+c) soluții tehnologice pentru reducerea pierderilor pe lanțul de aprovizionare;
+
+d) sisteme de colectare și redistribuire a produselor alimentare nevândute, dar apte pentru consum, către organizații caritabile sau consumatori finali, în conformitate cu Legea nr. 217/2016 privind diminuarea risipei alimentare;
+
+e) tehnologii de valorificare a subproduselor agricole în biomasă, biofertilizanți, biocombustibili sau alte produse cu valoare adăugată.
+
+(3) Ministerul Agriculturii și Dezvoltării Rurale, împreună cu Ministerul Mediului, Apelor și Pădurilor, stabilește, prin hotărâre a Guvernului, norme metodologice care cuprind:
+
+a) obiective anuale de reducere a risipei alimentare, pe etape ale lanțului agroalimentar, corelate cu indicatorii din Strategia Națională pentru Dezvoltare Durabilă;
+
+b) standarde tehnice pentru colectarea, procesarea și valorificarea subproduselor;
+
+c) criterii de certificare a produselor bioeconomiei circulare;
+
+d) mecanisme de sprijin pentru fermele și întreprinderile care aplică modele de producție circulară.
+
+(4) Începând cu data de 1 ianuarie 2026, toate unitățile de procesare agroalimentară cu capacitate mare, astfel cum este definită prin hotărâre a Guvernului, au obligația să dețină și să implementeze un Plan de prevenire a risipei alimentare, care să cuprindă:
+
+a) măsuri de optimizare a lanțului logistic;
+
+b) proceduri de donare și redistribuire;
+
+c) planuri de valorificare a subproduselor;
+
+d) indicatori de performanță și raportare anuală către autoritățile competente.
+
+(5) Autoritățile administrației publice locale sprijină dezvoltarea hub-urilor de bioeconomie, centre regionale care:
+
+a) colectează și procesează biomasa agricolă și alimentară;
+
+b) produc biofertilizanți, biocombustibili și alte produse circulare;
+
+c) oferă servicii de consultanță și instruire pentru fermieri și întreprinderi, inclusiv prin facilități fiscale, granturi și infrastructură de sprijin.
+
+(6) Platforma Națională pentru Economie Circulară integrează în raportul anual prevăzut la art. 32 date privind:
+
+a) cantitățile de risipă alimentară prevenită și valorificată;
+
+b) volumele de biomasă colectată și procesată;
+
+c) impactul socio-economic și de mediu al măsurilor aplicate.
+
+(7) Începând cu data de 1 ianuarie 2030, este interzisă eliminarea prin depozitare finală a subproduselor agricole și alimentare biodegradabile, cu excepția situațiilor în care nu există tehnologii sau piețe funcționale de valorificare, justificate prin documente tehnice prevăzute în normele metodologice.
+
+(8) Nerespectarea obligațiilor prevăzute la prezentul articol constituie contravenție și se sancționează potrivit dispozițiilor titlului dedicat regimului sancționator din prezenta lege, fără a exclude răspunderea civilă sau penală, după caz.
+
+Art. 45 – Comerț electronic și bunuri de consum rapide
+
+(1) Operatorii economici care desfãçoară activități de comerț electronic au obligația să adopte modele de afaceri și practici comerciale care reduc impactul asupra mediului și susțin principiile economiei circulare, în conformitate cu:
+
+a) Directiva 2000/31/CE a Parlamentului European și a Consiliului din 8 iunie 2000 privind anumite aspecte juridice ale serviciilor societății informaționale, în special comerțul electronic, pe piața internă, publicată în Jurnalul Oficial al Comunităților Europene, seria L 178 din 17 iulie 2000;
+
+b) Regulamentul (UE) 2023/988 al Parlamentului European și al Consiliului din 10 mai 2023 privind siguranța generală a produselor, publicat în Jurnalul Oficial al Uniunii Europene, seria L 135 din 23 mai 2023;
+
+c) Directiva (UE) 2019/771 a Parlamentului European și a Consiliului din 20 mai 2019 privind anumite aspecte referitoare la contractele de vânzare de bunuri, publicată în Jurnalul Oficial al Uniunii Europene, seria L 136 din 22 mai 2019;
+
+d) Regulamentul (UE) 2024/1781 al Parlamentului European și al Consiliului din 13 iunie 2024 privind proiectarea ecologică a produselor sustenabile și de abrogare a Directivei 2009/125/CE, publicat în Jurnalul Oficial al Uniunii Europene, seria L 2024/1781 din 28 iunie 2024;
+
+precum și cu legislația națională aplicabilă.
+
+(2) Bunurile de consum rapide introduse pe piață prin comerț electronic trebuie să respecte, cumulativ:
+
+a) cerințele de proiectare durabilă, reparabilitate și reciclabilitate, conform legislației Uniunii Europene aplicabile;
+
+b) utilizarea de ambalaje reutilizabile, reciclabile sau compostabile, cu un procent minim de material reciclat stabilit prin hotărâre a Guvernului, cu actualizare periodică;
+
+c) etichetarea clară și transparentă privind caracteristicile de mediu ale produsului, incluzând durabilitatea, reciclabilitatea și consumul de resurse;
+
+d) evitarea ambalării excesive și a utilizării materialelor nereciclabile.
+
+(3) Platformele și comercianții online au obligația de a pune la dispoziția consumatorilor, înainte de cumpărare, informații clare privind:
+
+a) durabilitatea produsului și perioada de garanție;
+
+b) disponibilitatea pieselor de schimb și a serviciilor de reparații;
+
+c) instrucțiuni pentru reutilizarea, repararea și reciclarea produsului;
+
+d) amprenta estimată de carbon a livrării, calculată conform standardelor internaționale aplicabile (ex. ISO 14067), atunci când datele sunt disponibile.
+
+(4) Operatorii de comerț electronic trebuie să implementeze sisteme logistice sustenabile, care includ:
+
+a) opțiuni de livrare cu emisii reduse (vehicule electrice, curierat pe bicicletă, puncte de colectare);
+
+b) consolidarea transporturilor pentru reducerea numărului de livrări;
+
+c) scheme de preluare a produselor la sfârșitul ciclului de viață (,,logistică inversă” – reverse logistics), în special pentru produsele electronice și textile;
+
+d) minimizarea retururilor prin informare corectă, descrieri tehnice detaliate și imagini fidele ale produsului.
+
+(5) În cazul produselor returnate care nu mai pot fi vândute ca noi, operatorii au obligația de a le direcționa către:
+
+a) recondiționare și revânzare;
+
+b) reutilizare sau donare;
+
+c) reciclare, în condițiile legii.
+
+(6) Ministerul Economiei, Antreprenoriatului și Turismului, împreună cu Ministerul Mediului, Apelor și Pădurilor, stabilește, prin hotărâre a Guvernului, norme metodologice care cuprind:
+
+a) criteriile minime de sustenabilitate pentru bunurile de consum rapide vândute online; b) standardele de ambalare ecologică și logistică sustenabilă;
+
+c) indicatorii de performanță și raportare anuală a impactului de mediu.
+
+(7) Platforma Națională pentru Economie Circulară integrează în raportul anual prevăzut la art. 32 date privind comerțul electronic, inclusiv:
+
+a) volumele de bunuri de consum rapide introduse pe piață;
+
+b) cantitățile de ambalaje utilizate și reciclate;
+
+c) rata de retur și modul de gestionare a produselor returnate.
+
+(8) Nerespectarea obligațiilor prevăzute la prezentul articol constituie contravenție și se sancționează potrivit dispozițiilor titlului dedicat regimului sancționator din prezenta lege, fără a exclude răspunderea civilă sau penală, după caz.
+
+## TITLUL VI – MANAGEMENTUL CIRCULAR AL DEȘEURILOR
+
+Art. 46 – Clasificarea deșeurilor și ierarhia circulară
+
+(1) Deșeurile sunt clasificate în conformitate cu dispozițiile:
+
+a) Directivei 2008/98/CE a Parlamentului European și a Consiliului din 19 noiembrie 2008 privind deșeurile și de abrogare a anumitor directive, publicată în Jurnalul Oficial al Uniunii Europene, seria L 312 din 22 noiembrie 2008, astfel cum a fost modificată prin Directiva (UE) 2018/851 a Parlamentului European și a Consiliului din 30 mai 2018, publicată în Jurnalul Oficial al Uniunii Europene, seria L 150 din 14 iunie 2018;
+
+b) Deciziei 2014/955/UE a Comisiei din 18 decembrie 2014 de modificare a Deciziei 2000/532/CE privind lista deșeurilor, publicată în Jurnalul Oficial al Uniunii Europene, seria L 370 din 30 decembrie 2014;
+
+c) legislației naționale aplicabile, inclusiv OUG nr. 92/2021 privind regimul deșeurilor și HG nr. 856/2002 privind evidența gestiunii deșeurilor și aprobarea listei deșeurilor; și se împart, în principal, în funcție de:
+
+(i) originea lor – deșeuri municipale, industriale, agricole, din construcții și demolări, periculoase și nepericuloase;
+
+(ii) natura și compoziția materială – metale, sticlă, hârtie/carton, plastic, textile, lemn, bio-deșeuri, alte categorii specifice;
+
+(iii) posibilitatea de valorificare – reciclabile, reutilizabile, valorificabile energetic, nereciclabile.
+
+(2) Ierarhia circulară a gestionării deșeurilor, care se aplică în toate politicile și acțiunile din domeniu, cu respectarea excepțiilor prevăzute de legislația europeană și națională, este următoarea:
+
+a) prevenirea generării deșeurilor;
+
+b) pregătirea pentru reutilizare;
+
+c) reciclarea materialelor;
+
+d) alte forme de valorificare, inclusiv valorificarea energetică;
+
+e) eliminarea, ca ultimă opțiune.
+
+(3) Autoritățile publice centrale și locale, operatorii economici și instituțiile publice au obligația să integreze ierarhia circulară în planificarea și implementarea programelor și proiectelor de gestionare a deșeurilor, în mod prioritar pentru categoriile de deșeuri cu potențial ridicat de valorificare, definite prin hotărâre a Guvernului.
+
+(4) Ministerul Mediului, Apelor și Pădurilor, în colaborare cu Platforma Națională pentru Economie Circulară, actualizează periodic Catalogul Național al Deșeurilor, pe baza Listei Europene a Deșeurilor aprobată prin Decizia 2014/955/UE, cu detalierea codurilor de deșeu, descrierea și clasificarea acestora.
+
+(5) Începând cu data de 1 ianuarie 2026, toate autoritățile administrației publice locale și operatorii economici autorizați implementează sisteme de colectare și raportare a datelor privind fluxurile de deșeuri pe categorii de clasificare, în format digital interoperabil, în conformitate cu Legea nr. 269/2022 privind unele măsuri referitoare la interoperabilitatea sistemelor informatice și a bazelor de date.
+
+(6) Nerespectarea obligațiilor de clasificare și aplicare a ierarhiei circulare constituie contravenție și se sancționează potrivit dispozițiilor titlului dedicat regimului sancționator din prezenta lege, fără a exclude răspunderea civilă sau penală, după caz. Art. 47 – Colectare separată și reciclare
+
+(1) Autoritățile administrației publice locale, operatorii economici și instituțiile publice au obligația de a organiza și asigura colectarea separată a deșeurilor, în conformitate cu:
+
+a) Directiva 2008/98/CE a Parlamentului European și a Consiliului din 19 noiembrie 2008 privind deșeurile și de abrogare a anumitor directive, publicată în Jurnalul Oficial al Uniunii Europene, seria L 312 din 22 noiembrie 2008, astfel cum a fost modificată prin Directiva (UE) 2018/851 a Parlamentului European și a Consiliului din 30 mai 2018, publicată în Jurnalul Oficial al Uniunii Europene, seria L 150 din 14 iunie 2018;
+
+b) Decizia 2014/955/UE a Comisiei din 18 decembrie 2014 de modificare a Deciziei 2000/532/CE privind lista deșeurilor, publicată în Jurnalul Oficial al Uniunii Europene, seria L 370 din 30 decembrie 2014;
+
+c) legislația națională aplicabilă, inclusiv OUG nr. 92/2021 privind regimul deșeurilor; și trebuie să acopere, cel puțin, următoarele fracții: hârtie și carton, metale, plastic, sticlă, textile, bio-deșeuri și deșeuri periculoase din gospodării.
+
+(2) Sistemele de colectare separată trebuie să respecte cumulativ:
+
+a) amplasarea punctelor de colectare accesibile populației și agenților economici;
+
+b) dotarea cu containere sau recipienți inscripționați și colorați conform standardelor naționale aprobate prin hotărâre a Guvernului;
+
+c) asigurarea vidanjării și transportului separat al fiecărei fracții colectate;
+
+d) monitorizarea calității colectării și prevenirea contaminării fracțiilor reciclabile;
+
+e) integrarea soluțiilor digitale pentru trasabilitate și optimizarea rutelor de colectare.
+
+(3) Începând cu data de 1 ianuarie 2027, toate unitățile administrativ-teritoriale trebuie să atingă, cel puțin, următoarele obiective minime de pregătire pentru reutilizare și reciclare a deșeurilor municipale, în conformitate cu art. 11 alin. (2) din Directiva 2008/98/CE:
+
+a) minimum 60% din masă până în anul 2027;
+
+b) minimum 65% din masă până în anul 2030;
+
+c) obiective anuale intermediare stabilite prin hotărâre a Guvernului.
+
+(4) Bio-deșeurile se colectează separat și se valorifică prin compostare, digestie anaerobă sau alte procese autorizate, în conformitate cu standardele de calitate a compostului și digestatului stabilite prin normele metodologice aprobate prin hotărâre a Guvernului și cu Regulamentul (UE) 2019/1009 al Parlamentului European și al Consiliului din 5 iunie 2019 privind introducerea pe piață a produselor fertilizante UE, publicat în Jurnalul Oficial al Uniunii Europene, seria L 170 din 25 iunie 2019.
+
+(5) Operatorii economici responsabili pentru gestionarea deșeurilor de ambalaje, echipamente electrice și electronice, vehicule scoase din uz, baterii și acumulatori, textile și alte fluxuri specifice definite prin hotărâre a Guvernului trebuie să implementeze sisteme proprii sau colective de colectare și reciclară, respectând țintele și condițiile tehnice prevăzute de legislația în vigoare și de actele normative sectoriale aplicabile.
+
+(6) Ministerul Mediului, Apelor și Pădurilor, în colaborare cu Platforma Națională pentru Economie Circulară, stabilește, prin hotărâre a Guvernului, norme metodologice care cuprind:
+
+a) standardele tehnice pentru colectare și reciclare;
+
+b) obiectivele anuale și termenele de conformare;
+
+c) mecanismele de verificare, audit și control.
+
+(7) Este interzisă amestecarea fracțiilor reciclabile colectate separat cu alte tipuri de deșeuri, cu excepția cazurilor în care acest lucru este necesar din motive de siguranță sanitară, justificate prin documente tehnice și autorizate de Agenția Națională pentru Protecția Mediului.
+
+(8) Nerespectarea obligațiilor prevăzute la prezentul articol constituie contravenție și se sancționează potrivit dispozițiilor titlului dedicat regimului sancționator din prezenta lege, fără a exclude răspunderea civilă sau penală, după caz.
+
+## Art. 48 – Infrastructura de tratare autorizată
+
+(1) Tratarea deșeurilor se realizează exclusiv în instalații autorizate în conformitate cu: a) Directiva 2008/98/CE a Parlamentului European și a Consiliului din 19 noiembrie 2008 privind deșeurile și de abrogare a anumitor directive, publicată în Jurnalul Oficial al Uniunii Europene, seria L 312 din 22 noiembrie 2008, astfel cum a fost modificată prin Directiva (UE) 2018/851 a Parlamentului European și a Consiliului din 30 mai 2018, publicată în Jurnalul Oficial al Uniunii Europene, seria L 150 din 14 iunie 2018; b) Directiva 2010/75/UE a Parlamentului European și a Consiliului din 24 noiembrie 2010 privind emisiile industriale, publicată în Jurnalul Oficial al Uniunii Europene, seria L 334 din 17 decembrie 2010;
+
+c) OUG nr. 92/2021 privind regimul deșeurilor, cu modificările și completările ulterioare;
+
+și cu respectarea principiilor economiei circulare, protecției mediului și sănătății populației.
+
+(2) Tipurile de infrastructuri de tratare autorizată cuprind, cel puțin:
+
+a) instalații de sortare și pregătire pentru reutilizare;
+
+b) instalații de reciclare mecanică, chimică sau biologică;
+
+c) instalații de compostare și digestie anaerobă pentru bio-deșeuri;
+
+d) unități de remanufacturare și recondiționare;
+
+e) instalații de valorificare energetică, cu eficiență ridicată, în condițiile art. 3 pct. 40 din Directiva 2008/98/CE;
+
+f) depozite de deșeuri pentru fracțiile nereciclabile, autorizate conform cerințelor de mediu.
+
+(3) Autorizarea infrastructurii de tratare este condiționată de:
+
+a) prezentarea documentației tehnice privind fluxurile de deșeuri gestionate, capacitatea de procesare și tehnologiile utilizate;
+
+b) demonstrarea conformității cu cele mai bune tehnici disponibile (BAT) și cu standardele de eficiență energetică;
+
+c) existența unui sistem de monitorizare a emisiilor și a impactului asupra mediului;
+
+d) implementarea unui sistem digital de trasabilitate a deșeurilor tratate;
+
+e) existența planurilor de gestionare a situațiilor de urgență și prevenire a poluării accidentale.
+
+(4) Ministerul Mediului, Apelor și Pădurilor, împreună cu autoritățile territoriale pentru protecția mediului, elaborează și actualizează Registrul Național al Infrastructurii de Tratare a Deșeurilor, gestionat conform metodologiei aprobate prin hotărâre a Guvernului, care include date privind:
+
+a) tipul instalației și capacitatea de procesare;
+
+b) categoriile de deșeuri acceptate;
+
+c) performanța de mediu și gradul de valorificare;
+
+d) conformitatea cu obiectivele naționale și europene.
+
+(5) Operatorii instalațiilor de tratare autorizate au obligația să:
+
+a) respecte fluxurile de deșeuri și capacitățile prevăzute în autorizație;
+
+b) mențină standardele de mediu și de siguranță tehnologică;
+
+c) transmită anual Ministerului Mediului, Apelor și Pădurilor rapoarte privind cantitățile tratate, gradul de reciclare și valorificare, pierderile și impactul de mediu;
+
+d) permită accesul autorităților competente pentru inspecții și audituri.
+
+(6) Începând cu data de 1 ianuarie 2028, se interzice funcționarea instalațiilor de tratare care nu ating obiectivele minime de valorificare stabilite prin hotărâre a Guvernului, cu excepția situațiilor justificate și aprobate temporar de autoritatea competentă.
+
+(7) Nerespectarea obligațiilor prevăzute în prezentul articol constituie contravenție și se sancționează potrivit titlului dedicat regimului sancționator din prezenta lege, fără a exclude răspunderea civilă sau penală, după caz.
+
+Art. 49 – Principiul trasabilității digitale a deșeurilor
+
+(1) Operatorii economici și autoritățile publice implicate în colectarea, transportul, sortarea, tratarea, valorificarea sau eliminarea deșeurilor au obligația de a asigura trasabilitatea digitală completă a fluxurilor gestionate, din momentul generării până la valorificarea finală sau eliminarea acestora, în conformitate cu OUG nr. 92/2021 privind regimul deșeurilor, cu modificările și completările ulterioare, și cu reglementările Uniunii Europene aplicabile.
+
+(2) Trasabilitatea digitală a deșeurilor presupune îndeplinirea cumulativă a următoarelor cerințe:
+
+a) înregistrarea fiecărui transport sau transfer de deșeuri într-un sistem electronic național, interoperabil cu bazele de date europene instituite prin Regulamentul (UE) 2024/1157 al Parlamentului European și al Consiliului privind transferurile de deșeuri; b) identificarea deșeurilor prin coduri unice, conform Catalogului Național al Deșeurilor;
+
+c) păstrarea evidenței electronice privind cantitatea, originea, destinația și modul de tratare;
+
+d) integrarea datelor provenite din sisteme de cântărire, localizare prin GPS și monitorizare automată, acolo unde este aplicabil;
+
+e) arhivarea digitală a documentelor de însoțire și a certificatelor de valorificare sau reciclare, cu respectarea legislației privind arhivarea documentelor și protecția datelor cu caracter personal.
+
+(3) Începând cu data de 1 ianuarie 2027, trasabilitatea digitală a deșeurilor este obligatorie pentru toate categoriile de operatori economici și autorități publice implicate în gestionarea acestora, conform metodologiei aprobate prin hotărâre a Guvernului, la propunerea Ministerului Mediului, Apelor și Pădurilor.
+
+Art. 50 – Sistemul Național de Trasabilitate a Deșeurilor (SNTD) – constituire și administrare
+
+(1) Se înființează, prin prezenta lege, Sistemul Național de Trasabilitate a Deșeurilor (SNTD), ca platformă digitală centralizată, administrată de Ministerul Mediului, Apelor și Pădurilor, în colaborare cu Platforma Națională pentru Economie Circulară. SNTD se operaționalizează în termen de 12 luni de la data intrării în vigoare a prezentei legi.
+
+(2) SNTD are ca obiective principale:
+
+a) înregistrarea și monitorizarea în timp real a fluxurilor de deșeuri, în conformitate cu principiul trasabilității prevăzut la art. 49;
+
+b) generarea de rapoarte automate și personalizate pentru autoritățile competente, în vederea verificării îndeplinirii obiectivelor naționale și europene;
+
+c) integrarea datelor provenite din sistemele sectoriale (ambalaje, DEEE, vehicule scoase din uz, baterii și acumulatori, textile etc.);
+
+d) asigurarea interoperabilității cu platformele digitale europene relevante, în conformitate cu Regulamentul (UE) 2024/1157 al Parlamentului European și al Consiliului privind transferurile de deșeuri.
+
+(3) Ministerul Mediului, Apelor și Pădurilor asigură funcționarea SNTD, inclusiv:
+
+a) dezvoltarea, întreținerea și modernizarea infrastructurii informatice;
+
+b) asigurarea securității cibernetice și protecției datelor cu caracter personal, cu respectarea Regulamentului (UE) 2016/679 și a Legii nr. 190/2018;
+
+c) elaborarea și aprobarea, prin ordin al ministrului mediului, a normelor tehnice de utilizare și acces, cu avizul Autorității pentru Digitalizarea României;
+
+d) asigurarea suportului tehnic și formării pentru utilizatorii autorizați ai sistemului.
+
+Art. 51 – Alimentarea, accesarea și utilizarea SNTD
+
+(1) Operatorii economici și autoritățile publice au obligația de a transmite în Sistemul Național de Trasabilitate a Deșeurilor (SNTD), în termenul stabilit prin normele metodologice aprobate prin ordin al ministrului mediului, apelor și pădurilor, elaborate în termen de 6 luni de la intrarea în vigoare a prezentei legi, cel puțin următoarele date: a) tipul și cantitatea de deșeuri gestionate;
+
+b) proveniența și deținătorul anterior;
+
+c) destinația și tipul operațiunii efectuate (reutilizare, reciclare, valorificare energetică, eliminare);
+
+d) data și locul preluării/predării;
+
+e) documentele justificative aferente, în format digital.
+
+(2) Accesul la datele din SNTD se realizează diferențiat, în funcție de statutul utilizatorului, după cum urmează:
+
+a) autoritățile competente – acces complet la date, în scop de control și monitorizare; b) operatorii economici – acces la propriile date și la datele partenerilor contractuali relevanți;
+
+c) publicul – acces la informații statistice anonimizate și aggregate pe tip de deșeu și regiune, fără divulgarea datelor comerciale sensibile.
+
+(3) Ministerul Mediului, Apelor și Pădurilor publică anual, până la data de 31 mai a anului următor celui de raportare, Raportul Național de Trasabilitate a Deșeurilor, care conține:
+
+a) date aggregate pe categorii de deșeuri și regiuni;
+
+b) indicatori de performanță;
+
+c) gradul de atingere a obiectivelor de valorificare și reciclare.
+
+(4) Nerespectarea obligațiilor prevăzute la alin. (1) și (2) constituie contravenție și se sancționează potrivit titlului din prezenta lege referitor la regimul sancționator, fără a exclude răspunderea civilă sau penală, după caz.
+
+## TITLUL VII – RESPONSABILITATEA EXTINSĂ A PRODUCĂTORULUI (REP)
+
+Art. 52 – Domenii de aplicare și obligații specifice
+
+(1) Sistemul de răspundere extinsă a producătorului (REP) se aplică, în condițiile prezentei legi și ale legislației specifice, pentru următoarele fluxuri de produse și deșeuri:
+
+a) ambalaje și deșcuri de ambalaje;
+
+b) echipamente electrice și electronice (EEE) și deșeuri de echipamente electrice și electronice (DEEE);
+
+c) baterii și acumulatori, inclusiv deșcuri de baterii;
+
+d) vehicle scoase din uz;
+
+e) textile și produse din industria ușoară;
+
+f) mobilier;
+
+g) produse din plastic de unică folosință, conform legislației europene aplicabile;
+
+h) alte fluxuri stabilite prin hotărâre a Guvernului, pe baza criteriilor de impact asupra mediului, volumului generat și fezabilității tehnice și economice a colectării și reciclării.
+
+(2) În sensul prezentului titlu, prin „producător” se înțelege orice persoană fizică sau juridică ce fabrică, importă ori introduce pe piața națională produse, sub propriul nume sau marcă, inclusiv prin vânzări la distanță, definiție corelată cu actele normative sectoriale aplicabile.
+
+(3) Producătorii au obligația de a asigura, direct sau prin intermediul organizațiilor colective autorizate, îndeplinirea cumulativă a următoarelor obligații:
+
+a) preluarea, colectarea, transportul, tratarea, valorificarea și reciclarea produselor ajunse la sfârșitul ciclului de viață;
+
+b) atingerea obiectivelor anuale de colectare, reciclare și valorificare stabilite prin prezenta lege și actele normative subsecvente;
+
+c) finanțarea integrală sau parțială a operațiunilor prevăzute la lit. a), inclusiv costurile administrative aferente;
+
+d) asigurarea informării clare a consumatorilor privind modalitățile de returnare, colectare și reciclare a produselor;
+
+e) transmiterea către Sistemul Național de Trasabilitate a Deșeurilor (SNTD) a datelor privind cantitățile introduse pe piață, colectate, reutilizate, reciclate și valorificate.
+
+(4) Ministerul Mediului, Apelor și Pădurilor, în colaborare cu Platforma Națională pentru Economie Circulară, stabilește prin hotărâre a Guvernului, în termen de 6 luni de la intrarea în vigoare a prezentei legi:
+
+a) categoriile de produse supuse REP;
+
+b) obiectivele cantitative și calitative anuale;
+
+c) modalitățile de organizare și autorizare a schemelor REP;
+
+d) mecanismele de verificare, control și sancționare.
+
+(5) Nerespectarea obligațiilor prevăzute în prezentul articol constituie contravenție și se sancționează potrivit articolelor din titlul dedicat regimului sancționator din prezenta lege, fără a exclude răspunderea civilă sau penală, după caz.
+
+Art. 53 – Tipologiile schemelor REP
+
+(1) Producătorii supuși obligațiilor prevăzute în prezentul titlu își pot îndeplini responsabilitățile individual sau prin intermediul unor organizații colective autorizate, denumite în continuare „scheme REP”, constituite ca persoane juridice și autorizate potrivit prevederilor prezentei legi și ale actelor normative subsecvente.
+
+(2) Schemele REP pot fi:
+
+a) individuale – organize și gestionate de un singur producător, exclusiv pentru îndeplinirea propriilor obligații, cu respectarea cerințelor tehnice și financiare aplicabile;
+
+b) colective – organize și gestionate de mai mulți producători, în scopul îndeplinirii în comun a obligațiilor legale, în condițiile autorizării și supravegherii de către autoritatea competentă.
+
+(3) Alegerea tipului de schemă REP se face de către producător, cu respectarea condițiilor și procedurilor stabilite prin prezenta lege, actele normative subsecvente și legislația europeană aplicabilă, producătorul păstrând răspunderea integrală pentru îndeplinirea obligațiilor, indiferent de modalitatea aleasă.
+
+(4) Ministerul Mediului, Apelor și Pădurilor poate stabili, prin hotărâre a Guvernului adoptată în termen de 6 luni de la intrarea în vigoare a prezentei legi, domeniile pentru care implementarea REP este obligatorie prin schema colectivă, în cazul în care eficiența operațională și atingerea obiectivelor nu pot fi asigurate printr-o schemă individuală.
+
+(5) Nerespectarea obligațiilor privind alegerea, constituirea, participarea sau funcționarea schemelor REP constituie contravenție și se sancționează potrivit titlului privind regimul sancționator din prezenta lege, fără a exclude răspunderea civilă sau penală, după caz.
+
+Art. 54 – Organizarea și funcționarea schemelor REP
+
+(1) În sensul prezentei legi, prin schemă REP se înțelege structura organizată, individuală sau colectivă, prin care producătorii își îndeplinesc responsabilitățile privind gestionarea produselor după utilizare, în conformitate cu principiul răspunderii extinse a producătorului.
+
+(2) Schemele REP, individuale sau colective, se autorizează prin ordin al ministrului mediului, apelor și pădurilor, emis în condițiile prezentei legi și ale normelor metodologice aprobate prin hotărâre a Guvernului.
+
+(3) Autorizația prevăzută la alin. (2) se acordă numai dacă solicitantul îndeplinește, cumulativ, următoarele condiții:
+
+a) dispune de capacitate financiară adecvată, dovedită potrivit criteriilor stabilite prin normele metodologice de aplicare;
+
+b) deține infrastructura logistică necesară sau are încheiate contracte valabile cu operatori economici autorizați pentru colectare, transport, tratare și reciclare;
+
+c) prezintă un plan operațional și financiar, care include obiective anuale de colectare, reciclare și valorificare, precum și măsuri pentru atingerea acestora;
+
+d) asigură un sistem de trasabilitate și raportare conform cerințelor stabilite de prezenta lege;
+
+e) respectă principiile transparenteți, nediscriminării și concurenței loiale, precum și regulile privind conflictul de interese.
+
+(4) Schemele colective REP trebuie să îndeplinească, suplimentar, următoarele condiții:
+
+a) să aibă personalitate juridică și să fie constituite în formă asociativă potrivit legislației în vigoare;
+
+b) să fie conduse de organe administrative a căror componență asigură independența față de interesele comerciale directe ale membrilor, potrivit criteriilor și incompatibilităților stabilite prin normele metodologice.
+
+(5) Autorizația se acordă pentru o perioadă de maximum 5 ani, cu posibilitatea reînnoirii, pe baza evaluării conformării schemei cu obligațiile legale și a performanței operaționale, evaluare realizată de Ministerul Mediului, Apelor și Pădurilor prin structura de specialitate desemnată.
+
+Art. 55 – Obligații de transparență și conformare ale schemelor REP
+
+(1) Schemele REP au obligația de a transmite anual Ministerului Mediului, Apelor și Pădurilor și Platformei Naționale pentru Economie Circulară, până la data de 31 martie a anului următor celui de raportare, următoarele informații, referitoare exclusiv la produsele și ambalajele gestionate în cadrul schemei:
+
+a) cantitățile totale de produse introduse pe piață de producătorii afiliați;
+
+b) cantitățile de produse colectate, reutilizate, reciclate și valorificate;
+
+c) structura detaliată a costurilor și sursele de finanțare, potrivit formatului stabilit prin normele metodologice;
+
+d) lista operatorilor economici autorizați cu care au contracte în vigoare pentru colectare, transport, tratare și reciclare.
+
+(2) Rapoartele anuale prevăzute la alin. (1) sunt supuse auditului independent, efectuat de un auditor financiar autorizat potrivit legislației în vigoare, iar raportul de audit se transmite Ministerului Mediului, Apelor și Pădurilor împreună cu raportul anual.
+
+(3) Schemele REP au obligația să asigure accesul autorităților publice competente, inclusiv în format electronic, la documentele și datele necesare verificării îndeplinirii obiectivelor legale.
+
+(4) Nerespectarea obligațiilor prevăzute în prezentul articol constituie contravenție și se sancționează potrivit titlului privind regimul sancționator din prezenta lege, fără a aduce atingere răspunderii civile ori penale, după caz.
+
+Art. 56 – Trasabilitatea în cadrul schemelor REP
+
+(1) Schemele REP, individuale sau colective, au obligația de a asigura înregistrarea și monitorizarea, în format digital, a tuturor fluxurilor de produse și deșeuri gestionate, prin Sistemul Național de Trasabilitate a Deșeurilor (SNTD), definit și reglementat potrivit prezentei legi.
+
+(2) Datele înregistrate în SNTD de către schemele REP trebuie să includă, cel puțin: a) cantitățile de produse introduse pe piață de producătorii afiliați, defalcate pe categorii;
+
+b) cantitățile de produse sau ambalaje colectate, reutilizate, reciclate și valorificate;
+
+c) date privind transferul deșeurilor între operatori și destinația finală a acestora;
+
+d) copiile electronice ale documentelor justificative aferente fiecărei operațiuni.
+
+(3) Înregistrarea datelor în SNTD se face în timp real sau în termenele maxime stabilite prin normele metodologice de aplicare aprobate prin hotărâre a Guvernului. Accesul autorităților publice competente la SNTD este garantat permanent, în condițiile stabilite prin aceste norme, cu respectarea legislației privind protecția datelor cu caracter personal.
+
+Art. 57 – Raportarea anuală a schemelor REP
+
+(1) Fiecare schemă REP are obligația de a întocmi și transmite, până la data de 31 martie a anului următor celui de raportare, Ministerului Mediului, Apelor și Pădurilor și Platformei Naționale pentru Economie Circulară, un raport anual de activitate care să cuprindă, cel puțin:
+
+a) situația cantităților de produse introduse pe piață, colectate, reutilizate, reciclate și valorificate;
+
+b) gradul de atingere a obiectivelor legale;
+
+c) descrierea infrastructurii utilizate și a operatorilor economici implicați în colectare, transport și tratare;
+
+d) structura costurilor și sursele de finanțare, potrivit formatului stabilit prin normele metodologice;
+
+e) măsurile adoptate pentru îmbunătățirea performanței și reducerea impactului asupra mediului.
+
+(2) Raportul anual prevăzut la alin. (1) trebuie să fie corelat cu datele înregistrate în Sistemul Național de Trasabilitate a Deșeurilor (SNTD), iar eventualele discrepanțe semnalate de autoritatea competentă se clarifică prin completarea și retransmiterea raportului, în termen de maximum 30 de zile de la notificare.
+
+(3) Ministerul Mediului, Apelor și Pădurilor publică anual, pe pagina sa de internet, o sinteză a rapoartelor transmise de schemele REP, sub formă de date aggregate, fără divulgarea informațiilor comerciale sensibile, astfel cum acestea sunt definite în legislația națională și europeană în materie de concurență și protecția secretului comercial.
+
+## Art. 58 – Auditarea schemelor REP
+
+(1) Schemele REP sunt supuse anual unui audit independent, efectuat de un auditor financiar autorizat, selectat de schemă cu respectarea legislației în vigoare privind achizițiile publice, după caz.
+
+(2) Auditul prevăzut la alin. (1) verifică, în principal:
+
+a) acuratețea datelor raportate în Sistemul Național de Trasabilitate a Deșeurilor (SNTD) și în raportul anual;
+
+b) conformitatea activităților desfășurate cu obligațiile prevăzute de prezenta lege și de normele metodologice aferente;
+
+c) eficiența utilizării resurselor financiare;
+
+d) respectarea criteriilor de transparență, nediscriminare și concurență loială.
+
+(3) Concluziile auditului se consemnează într-un raport de audit, care se transmite Ministerului Mediului, Apelor și Pădurilor și Platformei Naționale pentru Economie Circulară, în termen de 30 de zile de la data finalizării auditului.
+
+(4) Nerespectarea obligațiilor privind trasabilitatea, raportarea și auditul constituie contravenție și se sancționează potrivit titlului privind regimul sancționator din prezenta lege, fără a aduce atingere răspunderii civile ori penale, după caz.
+
+## TITLUL VIII – SISTEMUL DE GARANȚIE-RETURNARE (SGR)
+
+## Art. 59 – Ambalaje supuse regimului de garanție-returnare (SGR)
+
+(1) Regimul de garanție-returnare (SGR) se aplică ambalajelor primare nereutilizabile din sticlă, plastic sau metal, cu volume nominale cuprinse între 0,1 litri și 3 litri inclusiv, care conțin băuturi alcoolice sau nealcoolice, inclusiv apă minerală, apă plată, sucuri, băuturi răcoritoare, băuturi energizante, băuturi lactate și alte categorii stabilite prin hotărâre a Guvernului. Lista detaliată a produselor și specificațiile tehnice aferente ambalajelor se stabilesc prin hotărâre a Guvernului, emisă în termen de 90 de zile de la intrarea în vigoare a prezentei legi, pe baza consultării operatorului SGR, a producătorilor și a comercianților.
+
+(2) Sunt exceptate de la aplicarea SGR următoarele categorii de ambalaje:
+
+a) ambalajele produselor lactate fermentate cu culturi vii active, care, prin natura lor, nu pot fi integrate în fluxul de colectare standard al SGR;
+
+b) ambalajele produselor cu vâscozitate, densitate sau conținut rezidual ridicat, potrivit criteriilor tehnice stabilite prin normele metodologice, care împiedică procesul de golire, curățare și reciclare eficientă;
+
+c) ambalajele incluse în sisteme distincte de ambalaje reutilizabile, care funcționează pe baza unui mecanism propriu de returnare și refolosire, autorizat conform legislației în vigoare;
+
+d) alte categorii stabilite prin hotărâre a Guvernului, în baza unor criterii tehnice și economice justificate.
+
+(3) Marcajul specific SGR este obligatoriu pe toate ambalajele supuse regimului, fiind aplicat în mod vizibil, lizibil, inalterabil și permanent pe corpul ambalajului sau pe etichetă, în conformitate cu standardele tehnice și grafice aprobate prin ordin al ministrului mediului, apelor și pădurilor, după consultarea operatorului SGR și cu respectarea legislației europene aplicabile.
+
+(4) Este interzisă introducerea pe piața națională a ambalajelor aparținând categoriilor vizate la alin. (1) dacă acestea nu poartă marcajul specific SGR. Încălcarea acestei interdicții se sancționează potrivit prevederilor titlului privind regimul sancționator din prezenta lege.
+
+Art. 60 – Obligațiile producătorilor, comercianților și consumatorilor
+
+(1) Producătorii care introduc pe piața națională produse ambalate supuse SGR au obligația să:
+
+a) înregistreze, în format electronic, fiecare tip de produs și ambalaj în Sistemul SGR înainte de punerea pe piață;
+
+b) asigure marcarea corespunzătoare și uniformă a ambalajelor, conform cerințelor legale și standardelor tehnice aplicabile;
+
+c) achite operatorului SGR valoarea garanției unitare stabilite pentru fiecare ambalaj, concomitent cu introducerea pe piață;
+
+d) transmită operatorului SGR date complete, corecte și actualizate, în format electronic, privind cantitățile și tipurile de ambalaje introduse pe piață, respectând formatul, periodicitatea și modalitatea de raportare stabilite prin normele metodologice;
+
+e) colaboreze cu operatorul SGR și cu autoritățile de control în vederea verificării conformității informațiilor și a fluxurilor de ambalaje.
+
+(2) Comercianții care comercializează produse ambalate supuse SGR au obligația să:
+
+a) perceapă garanția aferentă ambalajului de la consumator, la momentul vânzării produsului;
+
+b) accepte returnarea ambalajelor supuse SGR de către consumatori, indiferent de locul achiziției inițiale, fără condiționarea restituirii garanției de prezentarea bonului fiscal, cu respectarea categoriilor de produse vizate;
+
+c) restituie integral consumatorului valoarea garanției, în numerar sau prin alte mijloace de plată autorizate, imediat după predarea ambalajului;
+
+d) predea operatorului SGR ambalajele colectate, în condițiile și termenele stabilite prin contractul de participare la sistem;
+
+e) asigure infrastructura minimă de colectare (manuală sau automată) conform cerințelor tehnice prevăzute în normele metodologice;
+
+f) mențină în stare de funcționare echipamentele și instalațiile de preluare a ambalajelor, efectuând operațiunile de întreținere și reparație necesare, astfel încât disponibilitatea acestora să fie asigurată pe toată durata programului de colectare; defecțiunile trebuie remediate în maximum 48 de ore lucrătoare de la constatare, cu informarea operatorului SGR.
+
+(3) Consumatorii au obligația să:
+
+a) returneze ambalajele supuse regimului SGR la orice punct de colectare autorizat sau operat de comercianți ori de operatorul SGR, indiferent de locul achiziției produsului, cu respectarea condițiilor tehnice stabilite;
+
+b) predea ambalajele curate, cu integritatea structurală menținută și cu marcajul SGR vizibil și integral, pentru a asigura identificarea și reciclarea corespunzătoare;
+
+c) respecte instrucțiunile de predare afișate la punctele de colectare.
+
+Art. 61 – Operatorul SGR – statut, atribuții și funcționare
+
+(1) Sistemul SGR este gestionat de un operator desemnat prin hotărâre a Guvernului, constituit ca entitate cu personalitate juridică, de drept privat, fără scop patrimonial, formată prin asocierea producătorilor și comercianților, potrivit dispozițiilor Codului civil și legislației speciale privind asociațiile și fundațiile, cu participarea autorităților publice centrale de mediu în calitate de membri cu drept de veto asupra aspectelor esențiale de reglementare și conformitate, stabilite prin normele metodologice de aplicare.
+
+(2) Operatorul SGR are următoarele atribuții principale:
+
+a) organizează, coordonează și implementează, la nivel național, procesul de colectare, transport și predare spre reciclare a ambalajelor returnate;
+
+b) gestionează fluxurile financiare aferente garanțiilor, inclusiv returnarea acestora către comercianți;
+
+c) administrează baza de date centralizată a SGR, asigurând compatibilitatea și interoperabilitatea cu Sistemul Național de Trasabilitate a Deșeurilor (SNTD);
+
+d) verifică și validează datele și operațiunile raportate de producători, comercianți și punctele de colectare;
+
+e) desfășoară campanii de informare și educare a publicului privind funcționarea SGR; f) monitorizează funcționarea echipamentelor de preluare a ambalajelor instalate de comercianți și asigură, în caz de defecțiune, sprijin tehnic și logistic pentru remediere în termen de maximum 48 de ore lucrătoare de la constatare;
+
+g) raportează anual Ministerului Mediului, Apelor și Pădurilor performanțele sistemului și măsurile de îmbunătățire propuse.
+
+(3) Operatorul SGR este supus anual unui audit financiar și tehnic realizat de un auditor autorizat potrivit legislației aplicabile, selectat în conformitate cu dispozițiile legale în vigoare. Raportul de audit se publică pe pagina de internet a operatorului și se transmite Ministerului Mediului, Apelor și Pădurilor, în termen de 15 zile de la finalizarea auditului.
+
+Art. 62 – Indicatori de performanță, raportare și control
+
+(1) Indicatorii minimi de performanță ai sistemului de garanție-returnare (SGR), stabiliți prin hotărâre a Guvernului, în conformitate cu cerințele legislației Uniunii Europene și cu obiectivele naționale în materie de gestionare a deșeurilor, includ cel puțin:
+
+a) rata anuală de colectare a ambalajelor supuse regimului, exprimată procentual din cantitatea pusă pe piață;
+
+b) rata anuală de reciclare efectivă, diferențiată pe tipuri de materiale;
+
+c) cantitatea de materiale reciclate și calitatea acestora, conform standardelor europene aplicabile;
+
+d) gradul de acoperire teritorială a punctelor de colectare, raportat la populație și suprafață, exprimat prin indicatori minimi stabiliți prin normele metodologice;
+
+e) reducerea procentuală a ambalajelor supuse SGR ajunse în fluxul deșeurilor municipale reziduale.
+
+(2) Operatorul SGR transmite Ministerului Mediului, Apelor și Pădurilor, până la data de 31 martie a fiecărui an, un raport anual detaliat privind anul anterior, corelat cu datele din Sistemul Național de Trasabilitate a Deșeurilor (SNTD), care cuprinde:
+
+a) analiza gradului de îndeplinire a indicatorilor de performanță;
+
+b) identificarea dificultăților întâmpinate în implementare;
+
+c) propuneri de măsuri corective și de îmbunătățire a performanței sistemului.
+
+Raportul anual este publicat pe pagina de internet a operatorului SGR în termen de 15 zile de la transmiterea către autoritatea competență.
+
+(3) Controlul respectării obligațiilor prevăzute în prezentul titlu se exercită de către autoritățile publice competente de mediu, în baza procedurilor stabilite prin normele metodologice aprobate prin hotărâre a Guvernului, cu aplicarea regimului sancționator prevăzut de prezenta lege.
+
+## TITLUL IX – GESTIONAREA BIODEȘEURILOR ȘI COMPOSTABILITĂȚII
+
+## Art. 63 – Colectarea separată a biodeșeurilor
+
+(1) Colectarea separată a biodeșeurilor este obligatorie pentru toate categoriile de generatori de deșeuri, în scopul valorificării acestora prin compostare, digestie anaerobă sau alte metode conforme principiilor economiei circulare și normelor europene aplicabile.
+
+(2) În sensul prezentei legi, prin biodeșcuri se înțeleg deșeurile biodegradabile provenite din:
+
+a) gospodării;
+
+b) unități comerciale și de prestări servicii;
+
+c) instituții și autorități publice;
+
+d) activități industriale nepericuloase care generează deșeuri organice;
+
+e) activități agricole și horticole desfășurate pe territoriul național.
+
+(3) Colectarea separată a biodeșeurilor se organizează și se realizează astfel încât să fie evitată amestecarea acestora cu alte categorii de deșeuri, pentru a nu compromite valorificarea materială și calitatea compostului sau a digestatului.
+
+(4) Autoritățile administrației publice locale, împreună cu operatorii de salubrizare și alți operatori autorizați potrivit legislației privind gestionarea deșeurilor, au obligația să asigure, în limita competențelor și responsabilităților stabilite de lege, existența infrastructurii necesare colectării separate a biodeșeurilor, inclusiv recipiente inscripționate distinct, adaptate tipului de generator și fluxului de deșeuri.
+
+(5) Achiziția, inscripționarea, amplasarea și întreținerea recipientelor destinate colectării separate a biodeșeurilor se asigură de către operatorii autorizați de colectare sau, după caz, de către autoritățile administrației publice locale, în baza obligațiilor contractuale ori legale, finanțarea putând fi realizată, cumulativ sau alternativ, din următoarele surse:
+
+a) tarifele de salubrizare aprobate conform legii, în care sunt incluse costurile pentru infrastructura de colectare;
+
+b) alocări din bugetele locale, pe baza programelor anuale de gestionare a deșeurilor; c) Fondul pentru Mediu, prin programe și scheme de finanțare specifice;
+
+d) fonduri europene nerambursabile, în special cele destinate infrastructurii de mediu; e) alte surse legal constituite, inclusiv parteneriate public-private.
+
+(6) Metodologia, standardele tehnice și frecvența colectării separate a biodeșeurilor se stabilesc prin hotărâre a Guvernului, emisă la propunerea autorității centrale pentru protecția mediului, în conformitate cu cerințele Directivei 2008/98/CE a Parlamentului European și a Consiliului din 19 noiembrie 2008 privind deșeurile și de abrogare a anumitor directive, astfel cum a fost modificată prin Directiva (UE) 2018/851.
+
+Art. 64 – Obligațiile gospodăriilor în colectarea separată a biodeșeurilor
+
+(1) Persoanele fizice, în calitate de deținători sau generatori de biodeșeuri în gospodării, au obligația să colecteze separat aceste deșeuri, utilizând recipiente distincte, inscripționate corespunzător și puse la dispoziție de operatorii autorizați de colectare sau de autoritățile administrației publice locale, potrivit competențelor și atribuțiilor stabilite de lege.
+
+(2) În scopul asigurării calității fluxului de biodeșeuri, gospodăriile au obligația:
+
+a) să nu amestece biodeșeurile cu alte tipuri de deșeuri menajere, periculoase sau reciclabile;
+
+b) să respecte regulile privind separarea deșeurilor alimentare de alte tipuri de biodeșeuri, acolo unde colectarea distinctă este prevăzută prin regulamentele locale sau normele metodologice;
+
+c) să depoziteze biodeșeurile în condiții care previn scurgerile de lichide, degajările de mirosuri neplăcute și atragerea vectorilor biologici;
+
+d) să respecte calendarul de colectare stabilit de autoritatea administrației publice locale sau de operatorul de salubrizare.
+
+(3) Gospodăriile situate în mediul rural pot opta pentru compostarea individuală a biodeșeurilor proprii, cu respectarea cerințelor minime de igienă, a măsurilor de protecție a mediului și a prevederilor privind evitarea poluării solului și a apelor subterane.
+
+(4) Autoritățile administrației publice locale, prin operatorii de colectare, au obligația de a asigura gospodăriilor materiale informative și instruire privind modalitățile corecte de separare și depozitare a biodeșeurilor.
+
+(5) Achiziția, inscriptionarea, amplasarea și întreținerea recipientelor destinate colectării separate a biodeșeurilor pentru gospodării se asigură potrivit mecanismului de finanțare prevăzut la art. 63 alin. (5).
+
+(6) Încălcarea obligațiilor prevăzute la alin. (1)-(4) atrage răspunderea contravențională, conform dispozițiilor prezentei legi și normelor metodologice de aplicare aprobate prin hotărâre a Guvernului.
+
+Art. 65 – Obligațiile comercianților în colectarea separată a biodeșeurilor
+
+(1) Comercianții și unitățile de prestări servicii care generează biodeșeuri, inclusiv cele din domeniul comerțului cu amănuntul, comerțului en-gros, alimentației publice, hotelurilor și altor structuri de primire turistică, au obligația de a organiza colectarea separată a acestor deșeuri, în conformitate cu normele tehnice și de igienă stabilite prin legislația în vigoare, inclusiv cele din domeniul sanitar-veterinar și pentru siguranța alimentelor.
+
+(2) În vederea îndeplinirii obligației prevăzute la alin. (1), comercianții trebuie:
+
+a) să asigure recipiente dedicate biodeșeurilor, inscripționate distinct și amplasate în zone accesibile personalului;
+
+b) să prevină contaminarea biodeșeurilor cu alte fluxuri de deșeuri, prin instruirea angajaților și implementarea unor proceduri interne;
+
+c) să încheie contracte cu operatori autorizați pentru colectarea, transportul și tratarea biodeșeurilor, cu respectarea trasabilității;
+
+d) să păstreze, pe o perioadă de minimum 3 ani, în original sau în format electronic, documentele justificative privind predarea biodeșeurilor către operatori autorizați, conform legislației privind arhivarea documentelor;
+
+e) să respecte frecvența de predare a biodeșeurilor stabilită prin contract, astfel încât să fie evitată degradarea acestora în condiții care pot afecta sănătatea publică.
+
+(3) Comercianții care desfășoară activități de procesare sau preparare a alimentelor au obligația de a implementa sisteme de separare și colectare a deșeurilor alimentare distinct de cele vegetale, atunci când fluxurile permit acest lucru.
+
+(4) Unitățile comerciale cu suprafețe de vânzare mai mari de 400 m² sunt obligate să transmită autorităților administrației publice locale și autorităților de mediu, anual, raportări privind cantitățile de biodeșeuri generate și gestionate, în formatul stabilit prin normele metodologice aprobate prin hotărâre a Guvernului.
+
+(5) Achiziția, inscripționarea, amplasarea și întreținerea recipientelor destinate colectării separate a biodeșeurilor pentru comercianți se asigură potrivit mecanismului de finanțare prevăzut la art. 63 alin. (5).
+
+(6) Nerespectarea prevederilor prezentului articol constituie contravenție și se sancționează conform dispozițiilor prezentei legi și normelor metodologice de aplicare, fără a exclude aplicarea altor sancțiuni prevăzute de legislația sanitar-veterinară și pentru siguranța alimentelor.
+
+Art. 66 – Obligațiile autorităților publice în colectarea separată a biodeșeurilor
+
+(1) Instituțiile și autoritățile publice, inclusiv cele din domeniul educației, sănătății, administrației publice centrale și locale, precum și alte entități finanțate din fonduri publice, au obligația, potrivit competențelor stabilite de legislația în vigoare, să organizeze colectarea separată a biodeșeurilor generate în cadrul activităților proprii.
+
+(2) În scopul îndeplinirii obligației prevăzute la alin. (1), autoritățile publice trebuie:
+
+a) să asigure recipiente dedicate, inscripționate distinct pentru biodeșeuri, amplasate în spații adecvate și accesibile;
+
+b) să implementeze proceduri interne de separare și colectare, adaptate specificului activităților desfășurate;
+
+c) să încheie contracte cu operatori autorizați pentru colectarea, transportul și valorificarea sau tratarea biodeșeurilor, cu asigurarea trasabilității acestora;
+
+d) să desemneze o persoană responsabilă cu monitorizarea și raportarea activităților de gestionare a biodeșeurilor;
+
+e) să asigure instruirea periodică a personalului privind colectarea separată și prevenirea contaminării biodeșeurilor.
+
+(3) Unitățile de învățământ și instituțiile medicale au obligația suplimentară de a implementa programe de informare și educare a elevilor, pacienților și personalului medical privind importanța colectării separate a biodeșeurilor.
+
+(4) Autoritățile administrației publice locale trebuie să includă în strategiile și planurile de gestionare a deșeurilor măsuri concrete pentru dezvoltarea infrastructurii de colectare separată a biodeșeurilor, în parteneriat cu operatorii autorizați.
+
+(5) Achiziția, inscripționarea, amplasarea și întreținerea recipientelor destinate colectării separate a biodeșeurilor pentru autoritățile publice se asigură potrivit mecanismului de finanțare prevăzut la art. 63 alin. (5).
+
+(6) Încălcarea obligațiilor prevăzute de prezentul articol atrage răspunderea contravențională a instituției, precum și, după caz, răspunderea disciplinară a persoanelor desemnate să asigure conformitatea, conform dispozițiilor prezentei legi și normelor metodologice de aplicare.
+
+Art. 67 – Obligațiile operatorilor economici în colectarea separată a biodeșeurilor
+
+(1) Operatorii economici din sectorul industrial, de producție, prelucrare și procesare care generează biodeșeuri au obligația de a implementa sisteme de colectare separată a acestora, adaptate specificului activităților desfășurate și fluxurilor de deșeuri rezultate.
+
+(2) În vederea îndeplinirii obligației prevăzute la alin. (1), operatorii economici trebuie: a) să asigure recipiente dedicate, inscripționate distinct, amplasate în proximitatea zonelor de generare a biodeșeurilor;
+
+b) să prevină contaminarea biodeșeurilor cu alte tipuri de deșeuri sau substanțe periculoase, prin proceduri interne și instruirea personalului;
+
+c) să stabilească și să aplice proceduri clare de predare a biodeșeurilor către operatori autorizați pentru colectarea, transportul, tratarea sau valorificarea acestora, conform legislației în vigoare;
+
+d) să asigure trasabilitatea biodeșeurilor prin documente justificative, păstrate minimum 3 ani, în original sau în format electronic, conform legislației privind arhivarea documentelor;
+
+e) să respecte frecvența de colectare sau predare stabilită prin contracte ori prin reglementările locale aplicabile.
+
+(3) Operatorii economici care desfășoară activități în care se generează atât deșeuri organice alimentare, cât și biodeșeuri vegetale, au obligația să asigure separarea distinctă a fluxurilor, dacă acest lucru este fezabil din punct de vedere tehnic și economic, potrivit criteriilor stabilite prin normele metodologice de aplicare.
+
+(4) Unitățile de procesare a produselor agroalimentare, abatoarelor și altor unități similare au obligația de a respecta și normele sanitar-veterinare și pentru siguranța alimentelor privind gestionarea deșeurilor organice, fără a se limita la prevederile prezentei legi.
+
+(5) Achiziția, inscripționarea, amplasarea și întreținerea recipientelor destinate colectării separate a biodeșeurilor pentru operatorii economici se asigură de către aceștia sau, după caz, de către operatorii autorizați de colectare ori de autoritățile administrației publice locale, finanțarea fiind realizată conform mecanismului prevăzut la art. 63 alin. (5).
+
+(6) Nerespectarea obligațiilor prevăzute de prezentul articol atrage răspunderea contravențională a operatorului economic, precum și, după caz, aplicarea altor sancțiuni prevăzute de legislația specifică domeniului de activitate și de normele metodologice de aplicare.
+
+Art. 68 -- Compostarea individuală, comunitară și industrială
+
+(1) Compostarea biodeșeurilor se realizează prin metode individuale, comunitare sau industriale, cu respectarea cerințelor tehnice, sanitare și de protecție a mediului, în vederea obținerii unui compost de calitate, sigur pentru sănătatea umană și pentru mediu.
+
+(2) În sensul prezentei legi, termenii de mai jos au următoarea semnificație:
+
+a) compostarea individuală – procesarea biodeșeurilor la nivelul gospodăriei sau al unei proprietăți private, de către generator, exclusiv pentru uz propriu;
+
+b) compostarea comunitară – procesarea biodeșeurilor colectate de la mai mulți generatori, în instalații de capacitate redusă, organizate la nivel local, în cartiere, sate sau comunități restrânse;
+
+c) compostarea industrială – procesarea biodeșeurilor în instalații specializate, de mare capacitate, autorizate conform legislației de mediu.
+
+(3) Toate formele de compostare trebuie să respecte:
+
+a) parametrii tehnici minimi privind temperaturile, timpii de procesare și aerarea masei biodegradabile, potrivit standardelor tehnice și normelor metodologice aprobate;
+
+b) măsurile de prevenire a emisiilor de mirosuri, poluanți și levigat;
+
+c) procedurile de control al calității compostului obținut;
+
+d) normele sanitar-veterinare și pentru siguranța alimentelor, atunci când se procesează deșeuri de origine animală.
+
+(4) Autoritățile administrației publice locale și operatorii autorizați, potrivit competențelor stabilite de legislația în vigoare, sprijină dezvoltarea infrastructurii pentru compostare prin:
+
+a) identificarea și amenajarea de spații adecvate;
+
+b) punerea la dispoziție a echipamentelor sau a unităților de compostare comunitară;
+
+c) acordarea de facilități financiare și stimulente pentru gospodăriile și operatorii care practică compostarea.
+
+(5) Achiziția, instalarea și întreținerea echipamentelor și instalațiilor pentru compostare individuală, comunitară sau industrială se poate finanța, cumulativ sau alternativ, din următoarele surse:
+
+a) bugetele locale și bugetul de stat, prin programe dedicate;
+
+b) Fondul pentru Mediu;
+
+c) fonduri europene nerambursabile destinate infrastructurii de mediu;
+
+d) contribuții proprii ale operatorilor economici sau ale persoanelor fizice;
+
+e) alte surse legal constituite, inclusiv parteneriate public-private.
+
+(6) Metodologia de certificare a compostului și standardele de calitate se stabilesc prin hotărâre a Guvernului, emisă la propunerea autorității centrale pentru protecția mediului, în concordanță cu legislația europeană în vigoare.
+
+Art. 69 – Compostarea individuală
+
+(1) Compostarea individuală este permisă pentru gospodăriile și proprietățile private care generează biodeșeuri, cu condiția ca aceasta să se realizeze exclusiv pentru uz propriu și să respecte normele de protecție a mediului și sănătății publice.
+
+(2) Persoanele fizice care practică compostarea individuală au obligația:
+
+a) să utilizeze echipamente sau containere adecvate, dimensionate corespunzător volumului de biodeșeuri generate;
+
+b) să evite amestecarea biodeșeurilor compostabile cu materiale nebiodegradabile sau deșeuri periculoase;
+
+c) să prevină scurgerile, poluarea solului, a apelor subterane și degajarea de mirosuri neplăcute;
+
+d) să asigure întreținerea periodică a instalațiilor sau spațiilor utilizate pentru compostare.
+
+(3) Nu se admite compostarea individuală a deșeurilor de origine animală cu risc sanitar-veterinar ridicat, astfel cum sunt definite de legislația sanitar-veterinară, decât dacă sunt utilizate echipamente specializate care asigură neutralizarea agenților patogeni.
+
+(4) Autoritățile administrației publice locale, potrivit competențelor stabilite de legislația în vigoare, pot sprijini compostarea individuală prin:
+
+a) distribuirea de compostiere de uz casnic achiziționate din surse proprii sau externe; b) acordarea de reduceri la taxa de salubrizare pentru gospodăriile care dovedesc practicarea compostării individuale în condiții conforme;
+
+c) organizarea de programe de instruire privind tehnicile corecte de compostare.
+
+(5) Achiziția, distribuirea și întreținerea compostierelor individuale puse la dispoziția gospodăriilor se poate finanța, cumulativ sau alternativ, din următoarele surse:
+
+a) bugetele locale, pe baza programelor anuale de gestionare a deșeurilor;
+
+b) Fondul pentru Mediu;
+
+c) fonduri europene nerambursabile;
+
+d) alte surse legal constituite.
+
+(6) Încălcarea prevederilor prezentului articol atrage răspunderea contravențională conform dispozițiilor prezentei legi și normelor metodologice de aplicare, fără a exclude aplicarea altor dispoziții legale incidente.
+
+Art. 70 – Compostarea comunitară
+
+(1) Compostarea comunitară se organizează la nivel local, prin procesarea biodeșeurilor colectate de la mai mulți generatori, în instalații de capacitate redusă, amplasate în zone rezidențiale, rurale sau urbane, în scopul valorificării acestora pentru uzul comunității.
+
+(2) Organizarea compostării comunitare poate fi inițiată și gestionată de:
+
+a) autoritatea administrației publice locale, individual sau în asociere cu alte autorități ori entități;
+
+b) asociații de proprietari sau asociații de locatari;
+
+c) organizații neguvernamentale și cooperative;
+
+d) operatori economici autorizați în domeniul gestionării deșeurilor.
+
+(3) Instalarea și operarea unităților de compostare comunitară trebuie să respecte:
+
+a) cerințele tehnice și de igienă stabilite prin normele metodologice aprobate prin hotărâre a Guvernului, la propunerea autorității centrale pentru protecția mediului;
+
+b) măsurile de prevenire a poluării solului, apei și aerului;
+
+c) procedurile de control al calității compostului obținut;
+
+d) restricțiile privind tipurile de biodeșeuri acceptate, cu excluderea deșeurilor periculoase sau a celor care prezintă risc sanitar ridicat, astfel cum sunt definite de legislația sanitar-veterinară.
+
+(4) Autoritățile administrației publice locale, potrivit competențelor stabilite de legislația în vigoare, au obligația de a asigura:
+
+a) identificarea și amenajarea terenurilor pentru amplasarea instalațiilor de compostare comunitară;
+
+b) dotarea acestora cu echipamentele necesare și infrastructura aferentă;
+
+c) desemnarea personalului responsabil cu operarea și monitorizarea instalațiilor;
+
+d) instruirea utilizatorilor privind regulile de predare a biodeșeurilor.
+
+(5) Achiziția, instalarea, operarea și întreținerea instalațiilor de compostare comunitară se poate finanța, cumulativ sau alternativ, din următoarele surse:
+
+a) bugetele locale;
+
+b) Fondul pentru Mediu;
+
+c) fonduri europene nerambursabile;
+
+d) contribuțiile financiare sau în natură ale participanților;
+
+e) alte surse legal constituite, inclusiv parteneriate public-private.
+
+(6) Compostul obținut prin compostare comunitară se utilizează cu prioritate în scopuri locale, inclusiv pentru amenajări peisagistice, spații verzi și activități agricole comunitare, cu respectarea normelor de calitate stabilite prin legislația în vigoare.
+
+(7) Încălcarea normelor de operare sau introducerea necorespunzătoare a biodeșeurilor în instalațiile de compostare comunitară atrage răspunderea contravențională a persoanelor fizice sau juridice responsabile, conform dispozițiilor prezentei legi și normelor metodologice de aplicare.
+
+Art. 71 – Compostarea industrială
+
+(1) Compostarea industrială se realizează în instalații specializate, de mare capacitate, autorizate conform legislației de mediu, destinate tratării prin compostare a biodeșeurilor provenite din gospodării, sectorul comercial, instituții publice, activități industriale nepericuloase și agricultură.
+
+(2) Operatorii unităților de compostare industrială au obligația:
+
+a) să obțină autorizațiile și avizele prevăzute de legislația privind protecția mediului, sănătatea publică și siguranța alimentelor;
+
+b) să respecte parametrii tehnici minimi pentru temperatura, durata procesului și aerarea masei biodegradabile, potrivit standardelor tehnice și normelor metodologice aprobate;
+
+c) să prevină poluarea mediului prin emisii, levigat sau zgomot;
+
+d) să asigure trasabilitatea biodeșeurilor de la momentul preluării până la obținerea compostului, prin registre și documente justificative păstrate minimum 5 ani;
+
+e) să efectueze periodic, în laboratoare acreditate, analize de laborator asupra compostului rezultat, pentru verificarea conformității cu standardele de calitate aplicabile;
+
+f) să implementeze măsuri de gestionare a situațiilor de urgență și de securitate în muncă.
+
+(3) În unitățile de compostare industrială este interzisă prelucrarea deșeurilor periculoase, a celor contaminate cu substanțe toxice sau a deșeurilor de origine animală de risc ridicat, astfel cum sunt definite de legislația sanitar-veterinară, cu excepția cazurilor în care instalațiile sunt prevăzute cu tehnologii certificate pentru neutralizarea completă a acestora.
+
+(4) Autoritățile administrației publice locale și operatorii economici, potrivit competențelor stabilite de legislația în vigoare, pot încheia contracte de parteneriat pentru utilizarea capacităților de compostare industrială existente sau pentru construirea unor noi unități, în vederea optimizării costurilor și reducerii cantităților de biodeșeuri eliminate prin depozitare.
+
+(5) Achiziția, construirea, modernizarea și operarea instalațiilor de compostare industrială se poate finanța, cumulativ sau alternativ, din următoarele surse:
+
+a) fonduri proprii ale operatorilor economici;
+
+b) credite bancare sau alte instrumente de finanțare private;
+
+c) Fondul pentru Mediu;
+
+d) fonduri europene nerambursabile destinate infrastructurii de mediu;
+
+e) parteneriate public-private și alte surse legal constituite.
+
+(6) Compostul rezultat din instalațiile industriale poate fi comercializat sau utilizat în agricultură, silvicultură, spații verzi ori alte domenii permise de lege, cu respectarea normelor de calitate și etichetare stabilite prin legislația aplicabilă.
+
+(7) Încălcarea obligațiilor prevăzute de prezentul articol atrage răspunderea contravențională sau, după caz, răspunderea civilă ori penală, conform dispozițiilor prezentei legi și altor reglementări aplicabile.
+
+Art. 72 – Certificarea compostului
+
+(1) Compostul obținut din procesele de compostare comunitară, industrială sau individuală atunci când este destinat comercializării, poate fi pus pe piață sau utilizat în scopuri agricole, horticole ori peisagistice numai dacă este certificat conform standardelor tehnice și normelor metodologice aprobate, armonizate la nivel național și european.
+
+(2) Certificarea compostului se realizează de către organisme de evaluare a conformității acreditate conform legislației privind evaluarea conformității, în baza analizei de laborator și a verificării procesului tehnologic.
+
+(3) Procedura de certificare cuprinde, cel puțin:
+
+a) depunerea unei cereri de certificare la un organism acreditat, însoțită de documentația tehnică privind procesul de compostare;
+
+b) prelevarea de probe reprezentative de către personal autorizat;
+
+c) efectuarea analizelor fizico-chimice și microbiologice conform standardelor tehnice aplicabile, armonizate la nivel național și european;
+
+d) verificarea trasabilității fluxului de biodeșeuri;
+
+e) emiterea certificatului de conformitate sau, după caz, a raportului de neconformitate.
+
+(4) Certificatele de conformitate au o valabilitate de maximum 12 luni și pot fi reînnoite numai în urma unei noi evaluări.
+
+(5) Autoritatea competentă în domeniul protecției mediului, potrivit competențelor stabilite de legislația în vigoare, ține un registru național al producătorilor de compost certificați, actualizat trimestrial și accesibil publicului, în condițiile stabilite prin normele metodologice.
+
+(6) Costurile aferente certificării sunt suportate de solicitant, cu posibilitatea accesării, cumulativ sau alternativ, de scheme de sprijin din Fondul pentru Mediu sau din fonduri europene nerambursabile.
+
+(7) Comercializarea sau utilizarea compostului necertificat în condițiile prevăzute de prezentul articol constituie contravenție și se sancționează conform dispozițiilor prezentei legi și normelor metodologice de aplicare.
+
+Art. 73 – Standardele de calitate ale compostului
+
+(1) Compostul certificat trebuie să îndeplinească standardele de calitate stabilite prin normele metodologice de aplicare a prezentei legi, armonizate cu standardele europene relevante, inclusiv EN 13432, EN 13406 sau alte standarde aplicabile la nivel european și național.
+
+(2) Standardele de calitate se stabilesc pe baza, inclusiv, dar fâră a se limita la, următorii indicatori minimi:
+
+a) parametri fizico-chimici – umiditate, pH, conținut de materie organică, conținut de nutrienți (azot, fosfor, potasiu), salinitate;
+
+b) limite maxime admise pentru metale grele și alte substanțe potențial toxice;
+
+c) absența organismelor patogene peste nivelurile acceptate de legislația sanitarveterinară și fitosanitară;
+
+d) gradul de maturitate și stabilitate al compostului;
+
+e) conținut redus de impurități vizibile (plastic, sticlă, metal).
+
+(3) Autoritatea competentă în domeniul protecției mediului, în colaborare cu autoritatea sanitar-veterinară și fitosanitară, potrivit competențelor stabilite de legislația în vigoare, stabilește metodologia de prelevare a probelor și frecvența testărilor, care se realizează în laboratoare acreditate, prin normele metodologice de aplicare a prezentei legi.
+
+(4) În funcție de parametrii îndepliniți, compostul poate fi clasificat în categorii de calitate, cu destinații diferite (agricultură ecologică, agricultură convențională, spații verzi, alte utilizări permise), stabilite prin normele metodologice de aplicare.
+
+(5) Este interzisă utilizarea compostului care depășește limitele maxime admise pentru metale grele, contaminanți organici persistenți sau agenți patogeni, în special pe terenuri agricole și în spații frecventate de populație.
+
+(6) Eticheta compostului comercializat trebuie să conțină cel puțin: denumirea producătorului, data obținerii, certificatul de conformitate, categoria de calitate, instrucțiuni de utilizare și avertismentele obligatorii prevăzute de lege, formatul și conținutul detaliat fiind stabilite prin normele metodologice de aplicare.
+
+(7) Nerespectarea standardelor de calitate stabilite potrivit prezentului articol atrage retragerea de pe piață a lotului neconform, sancțiuni contravenționale și, după caz, răspundere civilă sau penală, conform dispozițiilor prezentei legi și altor reglementări aplicabile.
+
+Art. 74 – Etichetarea compostului
+
+(1) Orice compost destinat comercializării sau distribuirii, indiferent de categoria de calitate, trebuie să fie însoțit de o etichetă clară, lizibilă și rezistentă, aplicată pe ambalaj sau, în cazul livrării în vrac, pe documentele de livrare.
+
+(2) Eticheta compostului trebuie să conțină cel puțin următoarele informații, exprimate în unități de măsură conform standardelor aplicabile:
+
+a) denumirea și datele de contact ale producătorului;
+
+b) locul de producție (adresa unității de compostare);
+
+c) numărul certificatului de conformitate și data expirării acestuia;
+
+d) categoria de calitate conform clasificării prevăzute la art. 73 alin. (4);
+
+e) compoziția principală, incluzând conținutul de materie organică, azot, fosfor, potasiu, pH-ul și gradul de umiditate;
+
+f) data producerii și data recomandată pentru utilizare;
+
+g) instrucțiuni de utilizare și dozaj;
+
+h) avertismente privind utilizarea pe anumite tipuri de culturi, dacă este cazul;
+
+i) mențiunea „Compost obținut conform standardelor de calitate prevăzute de legislația în vigoare”.
+
+(3) Pentru compostul livrat în vrac, eticheta este înlocuită de un document de livrare care include toate informațiile prevăzute la alin. (2), transmis și în format electronic, acolo unde este posibil.
+
+(4) Eticheta trebuie redactată în limba română, iar pentru produsele destinate exportului se vor adăuga traducerile necesare în limbile cerute de țara importatoare.
+
+(5) Este interzisă utilizarea oricăror mențiuni, simboluri sau imagini care pot induce în eroare consumatorul cu privire la calitatea, originea sau compoziția compostului. Formatul etichetei și conținutul detaliat se stabilesc prin normele metodologice de aplicare a prezentei legi.
+
+(6) Nerespectarea obligațiilor de etichetare prevăzute de prezentul articol atrage sancțiuni contravenționale, retragerea produsului de pe piață și, după caz, răspunderea civilă sau penală, conform dispozițiilor prezentei legi și altor reglementări aplicabile.
+
+Art. 75 – Trasabilitatea compostului
+
+(1) Producătorii și distribuitorii de compost au obligația de a asigura trasabilitatea completă a produsului, de la recepția biodeșeurilor și procesarea acestora până la livrarea compostului către utilizatorul final, potrivit standardelor tehnice și normelor metodologice de aplicare a prezentei legi.
+
+(2) Sistemul de trasabilitate trebuie să includă, cel puțin:
+
+a) evidența cantităților și tipurilor de biodeșeuri primite, cu indicarea sursei;
+
+b) date privind procesul tehnologic utilizat (tipul de compostare, durata, parametrii monitorizați conform standardelor aplicabile);
+
+c) rezultatele analizelor de laborator pentru fiecare lot de compost;
+
+d) date privind destinația fiecărui lot livrat, inclusiv numele și adresa beneficiarului;
+
+e) documentele de livrare și facturare aferente.
+
+(3) În cazul livrării în vrac, documentele de trasabilitate trebuie să fie puse la dispoziția beneficiarului împreună cu produsul, inclusiv în format electronic, acolo unde este posibil.
+
+(4) Producătorii și distribuitorii au obligația de a păstra documentele de trasabilitate pentru o perioadă de minimum 5 ani, în original sau în format electronic, conform legislației privind arhivarea documentelor.
+
+(5) Autoritatea competentă în domeniul protecției mediului, potrivit competențelor stabilite de legislația în vigoare, are dreptul de a solicita, în orice moment, prezentarea documentelor și a registrelor de trasabilitate, precum și de a efectua verificări la fața locului, în baza unui program de control sau a unei sesizări.
+
+(6) Lipsa documentelor de trasabilitate sau furnizarea de informații false constituie contravenție ori infracțiune și se sancționează conform dispozițiilor prezentei legi și normelor metodologice de aplicare sau, după caz, potrivit legislației penale.
+
+Art. 76 – Planificarea și dezvoltarea infrastructurii de compostare
+
+(1) Autoritățile administrației publice locale, în colaborare cu autoritățile centrale competente și cu operatorii autorizați, potrivit competențelor stabilite de legislația în vigoare, au obligația de a planifica și dezvolta infrastructura de compostare, corespunzător necesarului de gestionare a biodeșeurilor din unitatea administrativ-teritorială.
+
+(2) Planificarea infrastructurii se realizează în baza:
+
+a) analizei cantităților, tipurilor și caracteristicilor biodeșeurilor generate la nivel local; b) estimării capacităților necesare pentru compostare individuală, comunitară și industrială;
+
+c) consultării publice și implicării tuturor părților interesate, în condițiile legislației privind transparența decizională.
+
+(3) Dezvoltarea infrastructurii de compostare include:
+
+a) amplasarea și dotarea punctelor de colectare separată a biodeșeurilor;
+
+b) instalarea unităților de compostare comunitară;
+
+c) construirea și modernizarea instalațiilor de compostare industrială;
+
+d) crearea de centre logistice pentru depozitarea și distribuirea compostului rezultat;
+
+e) alte investiții conexe stabilite prin normele metodologice de aplicare.
+
+(4) Autoritățile administrației publice locale includ măsurile de dezvoltare a infrastructurii de compostare în strategiile și planurile locale de gestionare a deșeurilor, correlate cu Planul Național de Gestionare a Deșeurilor și, după caz, cu planurile județene de gestionare a deșeurilor.
+
+(5) În cazul în care o unitate administrativ-teritorială nu dispune de capacități proprii de compostare, aceasta poate încheia parteneriate cu alte unități administrativ-teritoriale sau cu operatori autorizați, pe baza contractelor sau acordurilor legale, pentru utilizarea în comun a infrastructurii existente, cu respectarea legislației privind achizițiile publice și concesiunile.
+
+Art. 77 – Finanțarea infrastructurii de compostare
+
+(1) Infrastructura de compostare se poate finanța, cumulativ sau alternativ, din următoarele surse:
+
+a) bugetele locale și bugetul de stat;
+
+b) Fondul pentru Mediu, prin programe naționale de sprijin;
+
+c) fonduri europene nerambursabile, în special din programele dedicate economiei circulare și protecției mediului;
+
+d) parteneriate public-private;
+
+e) credite, leasing și alte instrumente de finanțare permise de legislația în vigoare;
+
+f) contribuții ale operatorilor economici și taxele de salubrizare.
+
+(2) Autoritățile administrației publice locale, potrivit competențelor stabilite de legislația în vigoare, pot aplica pentru finanțare în cadrul programelor naționale sau europene, inclusiv pentru proiecte integrate care cuprind colectarea separată, compostarea și utilizarea compostului.
+
+(3) Prioritate la finanțare se acordă proiectelor care îndeplinesc cel puțin următoarele criterii:
+
+a) reduc cantitatea de biodeșeuri trimisă la depozitare;
+
+b) promovează compostarea comunitară și industrială în zone fără infrastructură;
+
+c) integrează sisteme de valorificare energetică a digestatului rezultat din procese de digestie anaerobă, conform legislației privind gestionarea deșeurilor;
+
+d) implică parteneriate între autorități, operatori și comunități locale.
+
+(4) Finanțarea din Fondul pentru Mediu se acordă în baza unor ghiduri de finanțare aprobate prin ordin al ministrului mediului, apelor și pădurilor și publicate în Monitorul Oficial al României, Partea I.
+
+Art. 78 – Stimulente economice pentru compostare
+
+(1) Autoritățile administrației publice locale, potrivit competențelor stabilite de legislația în vigoare, pot acorda stimulente gospodăriilor, operatorilor economici și altor entități care implementează sisteme de compostare, în scopul reducerii cantității de biodeșeuri eliminate prin depozitare, cu respectarea legislației în domeniul finanțelor publice locale și a legislației privind ajutorul de stat.
+
+(2) Stimulentele economice pot include, inclusiv, dar fâră a se limita la:
+
+a) reduceri ale taxei de salubrizare pentru gospodăriile care practică compostarea individuală;
+
+b) subvenții pentru achiziția de echipamente de compostare;
+
+c) scutiri sau reduceri de impozite locale pentru operatorii economici care investesc în infrastructura de compostare;
+
+d) bonificații pentru compostul utilizat în agricultură ecologică sau amenajări peisagistice publice;
+
+e) scheme de sprijin pentru inovarea tehnologică și operațională în domeniul compostării.
+
+(3) Criteriile de eligibilitate, cuantumul și durata stimulentelor se stabilesc prin hotărâri ale consiliilor locale sau prin programe naționale, în conformitate cu legislația privind finanțele publice locale și, după caz, cu legislația națională și europeană în materia ajutorului de stat.
+
+Art. 79 – Monitorizarea și raportarea privind infrastructura de compostare
+
+(1) Autoritățile administrației publice locale și operatorii autorizați au obligația de a monitoriza funcționarea infrastructurii de compostare și de a raporta anual, până la data de 31 martie a anului următor celui de referință, către autoritatea centrală competentă în domeniul protecției mediului, cel puțin următoarele date:
+
+a) numărul și tipul unităților de compostare existente;
+
+b) capacitatea totală de procesare;
+
+c) cantitățile de biodeșeuri procesate;
+
+d) cantitățile de compost obținute și destinația acestora;
+
+e) eventualele neconformități constatate și măsurile corective aplicate.
+
+(2) Raportarea prevăzută la alin. (1) se realizează în formatul, prin procedura și cu periodicitatea stabilite prin normele metodologice de aplicare a prezentei legi.
+
+(3) Datele prevăzute la alin. (1) se transmit și către Platforma Națională pentru Economie Circulară, în vederea integrării acestora în rapoartele naționale și europene privind gestionarea biodeșeurilor.
+
+(4) Autoritatea centrală competentă în domeniul protecției mediului publică anual un raport privind stadiul infrastructurii de compostare la nivel național, cu evidențierea progreselor realizate și a zonelor deficitare.
+
+(5) Netransmiterea datelor prevăzute la alin. (1) sau transmiterea de date incorecte constituie contravenție sau, după caz, infracțiune și se sancționează conform dispozițiilor prezentei legi, normelor metodologice de aplicare ori, după caz, potrivit legislației penale.
+
+Art. 80 – Monitorizarea gestionării biodeșeurilor
+
+(1) Monitorizarea gestionării biodeșeurilor se realizează în mod coordonat de către autoritățile administrației publice locale, operatorii autorizați și autoritatea centrală competentă în domeniul protecției mediului, în vederea asigurării conformității cu dispozițiile prezentei legi, normelor metodologice de aplicare și standardelor tehnice și de calitate în vigoare.
+
+(2) Activitatea de monitorizare vizează, cel puțin:
+
+a) respectarea obligațiilor de colectare separată de către toate categoriile de generatori;
+
+b) funcționarea infrastructurii de compostare individuală, comunitară și industrială;
+
+c) calitatea compostului obținut și conformitatea acestuia cu standardele aplicabile;
+
+d) destinația finală a compostului produs.
+
+(3) Autoritățile administrației publice locale au obligația de a desemna personal responsabil cu monitorizarea, de a asigura instruirea acestuia și de a transmite periodic autorității centrale competente rezultatele monitorizării, potrivit procedurii stabilite prin normele metodologice de aplicare.
+
+(4) Operatorii autorizați implementează sisteme interne de monitorizare, cu proceduri documentate, verificări periodice și raportări interne, în conformitate cu cerințele prevăzute de prezenta lege și de legislația specifică din domeniu.
+
+Art. 81 – Raportarea privind gestionarea biodeșeurilor
+
+(1) Operatorii autorizați implicați în colectarea și procesarea biodeșeurilor, producătorii de compost și autoritățile administrației publice locale au obligația de a transmite anual către autoritatea centrală competentă în domeniul protecției mediului și către Platforma Națională pentru Economie Circulară un raport detaliat privind gestionarea biodeșeurilor.
+
+(2) Raportul prevăzut la alin. (1) cuprinde, cel puțin:
+
+a) cantitățile de biodeșeuri colectate separat, defalcate pe tipuri;
+
+b) cantitățile procesate prin compostare individuală, comunitară și industrială;
+
+c) capacitatea de procesare utilizată și cea disponibilă;
+
+d) cantitățile și calitatea compostului obținut, conform standardelor aplicabile;
+
+e) cantitățile de compost puse pe piață, utilizate intern sau eliminate;
+
+f) problemele întâmpinate și măsurile corective adoptate.
+
+(3) Formatele, termenele și modalitățile de transmitere a raportărilor se stabilesc prin normele metodologice de aplicare a prezentei legi, în concordanță cu cerințele naționale și cu obligațiile de raportare la nivelul Uniunii Europene.
+
+(4) Datele colectate prin raportările prevăzute la alin. (1) se integrează în baza de date națională privind gestionarea biodeșeurilor, administrată de autoritatea centrală competentă în domeniul protecției mediului, și se utilizează pentru elaborarea raportărilor oficiale către Comisia Europeană și alte organisme internaționale.
+
+Art. 82 – Controlul respectării obligațiilor în domeniul gestionării biodeșeurilor
+
+(1) Controlul aplicării prevederilor prezentei legi în domeniul gestionării biodeșeurilor se exercită de către:
+
+a) Garda Națională de Mediu, pentru verificarea conformității activităților de colectare, transport, compostare și valorificare;
+
+b) autoritățile administrației publice locale, prin structurile specializate, pentru respectarea obligațiilor la nivelul unității administrativ-teritoriale;
+
+c) autoritățile sanitar-veterinare și pentru siguranța alimentelor, pentru verificarea gestionării deșeurilor de origine animală și a respectării normelor sanitare aplicabile; d) alte autorități publice competente, potrivit atribuțiilor stabilite prin legislația în vigoare.
+
+(2) În exercitarea atribuțiilor de control, autoritățile prevăzute la alin. (1) au dreptul:
+
+a) să solicite și să verifice documentele justificative privind colectarea, transportul, compostarea și valorificarea biodeșeurilor;
+
+b) să efectueze inspecții la fața locului, inclusiv în instalațiile de compostare individuală, comunitară și industrială;
+
+c) să preleve probe de compost, în vederea verificării conformității cu standardele de calitate aplicabile;
+
+d) să verifice documentele de trasabilitate și raportările transmise autorităților competente;
+
+e) să dispună, prin act de control, măsuri obligatorii cu termene clare de remediere a neconformităților constatate.
+
+(3) Rezultatele controlului se consemnează într-un proces-verbal semnat de reprezentanții autorității de control și de entitatea verificată, care se comunică acesteia și constituie temei pentru:
+
+a) aplicarea măsurilor corective stabilite;
+
+b) sesizarea organelor abilitate pentru aplicarea sancțiunilor contravenționale sau penale, după caz.
+
+(4) Procedura unitară de control, inclusiv mecanismele de cooperare și schimb de informații între autoritățile competente, se stabilește prin normele metodologice de aplicare a prezentei legi, cu respectarea legislației naționale privind inspecția și supravegherea în domeniul protecției mediului.
+
+Art. 83 – Gestionarea fluxurilor de deșeuri cu reglementări sectoriale
+
+(1) Gestionarea fluxurilor de deșeuri reglementate prin legislația sectorială se realizează potrivit prezentei legi și actelor normative speciale aplicabile fiecărei categorii, cu respectarea principiilor și obiectivelor naționale privind economia circulară. În caz de conflict între dispozițiile prezentei legi și cele ale actelor normative speciale, prevalează dispozițiile legii speciale, dacă aceasta nu prevede altfel.
+
+(2) În cazul modificării sau completării actelor normative sectoriale, autoritățile și operatorii economici implicați au obligația de a asigura conformitatea procedurilor operaționale interne cu noile cerințe legale, în termenele și condițiile prevăzute de acestea.
+
+## TITLUL XI – INSTRUMENTE ECONOMICE, FINANȚARE ȘI STIMULENTE
+
+## Art. 84 – Principiile utilizării instrumentelor economice în economia circulară
+
+(1) În sensul prezentei legi, instrumentele economice, fiscale și financiare reprezintă ansamblul măsurilor de natură monetară, fiscal-bugetară sau de piață utilizate pentru stimularea tranziției către economia circulară. Acestea constituie mijloace esențiale pentru orientarea pieței și a comportamentului operatorilor economici, prin aplicarea principiilor „poluatorul plătește” și „responsabilitatea extinsă a producătorului”, astfel cum sunt definite în legislația Uniunii Europene.
+
+(2) Instrumentele economice, fiscale și financiare prevăzute de prezenta lege se concep și se aplică astfel încât să stimuleze:
+
+a) eficiența utilizării resurselor;
+
+b) reducerea consumului de materii prime neregenerabile;
+
+c) creșterea duratei de viață a produselor;
+
+d) repararea, reutilizarea și reciclarea produselor.
+
+(3) Instituirea și aplicarea instrumentelor economice trebuie să respecte, cumulativ, următoarele cerințe:
+
+a) transparență – mecanismele sunt prezentate public, cu indicarea modului de calcul și a destinației veniturilor;
+
+b) proporționalitate – cuantumul și condițiile aplicării sunt adaptate gradului de impact asupra mediului și capacității economice a contribuabililor;
+
+c) nediscriminare – tratament egal pentru toți operatorii aflați în situații similare;
+
+d) previzibilitate – modificările sunt anunțate și fundamentate cu un termen minim de preaviz stabilit prin normele metodologice.
+
+(4) Instituirea, modificarea și aplicarea instrumentelor economice și fiscale se realizează în concordanță cu:
+
+a) legislația fiscală și bugetară națională, inclusiv Legea nr. 227/2015 privind Codul fiscal, cu modificările și completările ulterioare, și Legea nr. 500/2002 privind finanțele publice;
+
+b) normele Uniunii Europene în materie de ajutor de stat și fiscalitate ecologică, inclusiv Directiva 2008/98/CE privind deșeurile, cu modificările ulterioare;
+
+c) strategiile și politicile naționale aprobate prin hotărâri ale Guvernului în domeniul dezvoltării durabile, competitivității economice și protecției mediului.
+
+(5) Ministerul Mediului, Apelor și Pădurilor, împreună cu Ministerul Finanțelor, elaborează și publică, până la data de 31 martie a anului următor celui de referință, un raport anual privind evaluarea impactului acestor instrumente asupra mediului, economiei și societății.
+
+Art. 85 – Mecanisme fiscale și contribuții de mediu
+
+(1) În vederea atingerii obiectivelor prevăzute de prezenta lege, se pot institui, prin acte normative subsecvente, următoarele tipuri de mecanisme fiscale și contribuții de mediu:
+
+a) taxe verzi, aplicate produselor și serviciilor cu impact semnificativ asupra mediului pe parcursul ciclului de viață;
+
+b) contribuții specifice aferente gestionării fluxurilor de deșeuri reglementate, inclusiv în cadrul schemelor de răspundere extinsă a producătorului;
+
+c) bonificații, deduceri sau reduceri fiscale acordate operatorilor economici care depășesc țintele minime de circularitate stabilite prin prezenta lege sau prin reglementările de aplicare.
+
+(2) Modul de calcul, baza de impunere, categoriile de contribuabili, termenele de plată și eventualele scutiri se stabilesc prin hotărâre a Guvernului sau, după caz, prin ordin comun al ministrului mediului, apelor și pădurilor și al ministrului finanțelor, cu respectarea:
+
+a) principiului proporționalității;
+
+b) dispozițiilor Legii nr. 227/2015 privind Codul fiscal, cu modificările și completările ulterioare, și ale legislației de mediu, inclusiv OUG nr. 196/2005 privind Fondul pentru mediu, aprobată cu modificări și completări prin Legea nr. 105/2006;
+
+c) normelor Uniunii Europene privind impozitarea ecologică și ajutorul de stat.
+
+(3) Veniturile obținute din aplicarea mecanismelor prevăzute la alin. (1) se constituie ca surse dedicate finanțării programelor și proiectelor de economie circulară și se gestionează potrivit prevederilor Legii nr. 500/2002 privind finanțele publice, cu modificările și completările ulterioare, și ale Legii nr. 273/2006 privind finanțele publice locale, după caz, în regim de fonduri cu destinație specială.
+
+(4) Ministerul Finanțelor, împreună cu Ministerul Mediului, Apelor și Pădurilor, elaborează și publică, până la data de 31 martie a anului următor celui de referință, un raport anual privind impactul mecanismelor prevăzute la alin. (1) asupra atingerii obiectivelor de mediu și circularitate, care cuprinde în mod obligatoriu:
+
+a) cuantumul sumelor colectate;
+
+b) destinația efectivă a acestora;
+
+c) evaluarea rezultatelor obținute.
+
+Art. 86 – Penalități și sancțiuni financiare specifice
+
+(1) În cazul neîndeplinirii obligațiilor stabilite prin prezenta lege sau prin actele normative subsecvente acesteia, autoritățile competente pot aplica penalități financiare, distincte de amenzile contravenționale, pentru următoarele situații:
+
+a) neatingerea obiectivelor anuale de prevenire, reutilizare, reciclare sau valorificare, stabilite potrivit dispozițiilor legale;
+
+b) neîndeplinirea obligațiilor de raportare sau transmiterea de date eronate ori falsificate;
+
+c) amestecarea fluxurilor de deșeuri colectate separat cu alte tipuri de deșeuri, contrar obligațiilor legale;
+
+d) nerespectarea obligațiilor privind trasabilitatea deșeurilor prevăzute în prezenta lege și în reglementările de aplicare.
+
+(2) Penalitățile prevăzute la alin. (1) se calculează pe zi de întârziere, începând cu data constatării neconformității prin proces-verbal întocmit de autoritatea competentă și până la remedierea acesteia, utilizând coeficienți diferențiați în funcție de:
+
+a) gravitatea faptei;
+
+b) dimensiunea operatorului economic;
+
+c) durata încălcării obligației.
+
+(3) Nivelul minim și maxim al penalităților, modalitatea de calcul, autoritățile competente să le aplice, precum și procedura de constatare și aplicare se stabilesc prin normele metodologice de aplicare a prezentei legi, cu respectarea principiilor legalității și proporționalității, în conformitate cu prevederile Ordonanței Guvernului nr. 2/2001 privind regimul juridic al contravențiilor, aprobată cu modificări și completări prin Legea nr. 180/2002, cu modificările și completările ulterioare.
+
+(4) Sumele colectate din penalitățile aplicate potrivit prezentului articol se virează în Fondul Național pentru Economia Circulară, constituit și administrat potrivit prevederilor prezentei legi și ale legislației privind finanțele publice, și se utilizează exclusiv pentru:
+
+a) finanțarea proiectelor corective și a acțiunilor de remediere a neconformităților;
+
+b) susținerea măsurilor de educație, formare profesională și conștientizare publică în domeniul economiei circulare;
+
+c) acoperirea costurilor aferente activităților de control, monitorizare și raportare.
+
+Art. 87 – Fonduri naționale pentru economia circulară
+
+(1) Se înființează Fondul Național pentru Economia Circulară, administrat de Ministerul Mediului, Apelor și Pădurilor, ca instrument financiar cu destinație specială, constituit în afara bugetului de stat, destinat sprijinirii proiectelor, programelor și măsurilor care contribuie la atingerea obiectivelor prezentei legi.
+
+(2) Fondul prevăzut la alin. (1) se înființează și devine operațional în termen de 90 de zile de la data intrării în vigoare a prezentei legi, prin hotărâre a Guvernului, care stabilește:
+
+a) structura organizatorică și atribuțiile specifice;
+
+b) procedurile de administrare și utilizare a resurselor;
+
+c) mecanismele de control și raportare.
+
+(3) Fondul se alimentează din următoarele surse:
+
+a) venituri obținute din aplicarea mecanismelor fiscale, taxelor verzi și penalităților prevăzute la art. 85 și art. 86;
+
+b) alocări de la bugetul de stat, aprobate anual prin legea bugetului de stat;
+
+c) contribuții voluntare ale operatorilor economici, asociațiilor profesionale și altor persoane juridice;
+
+d) donații și sponsorizări, primite potrivit dispozițiilor legale;
+
+e) alte surse legal constituite, inclusiv fonduri externe nerambursabile.
+
+(4) Resursele Fondului se utilizează exclusiv pentru:
+
+a) investiții în infrastructura de colectare, reutilizare, reciclare și valorificare a resurselor;
+
+b) programe de educație, formare profesională și conștientizare publică în domeniul economiei circulare;
+
+c) sprijinirea proiectelor-pilot și a inovațiilor tehnologice cu aplicabilitate directă în domeniul economiei circulare;
+
+d) măsuri de remediere a neconformităților constatate de autoritățile competente;
+
+e) programe și proiecte de cercetare aplicată și transfer tehnologic în domeniul economiei circulare.
+
+(5) Criteriile de eligibilitate, procedura de alocare a fondurilor și condițiile de raportare se stabilesc prin hotărârea Guvernului prevăzută la alin. (2), cu asigurarea transparenței, concurenței loiale și accesului egal pentru toți solicitanții eligibili, în conformitate cu normele Uniunii Europene privind ajutorul de stat.
+
+(6) Ministerul Mediului, Apelor și Pădurilor publică anual, până la data de 31 martie a anului următor celui de referință, un raport detaliat privind execuția bugetară a Fondului, impactul proiectelor finanțate și gradul de atingere a obiectivelor prevăzute de prezenta lege.
+
+Art. 88 – Accesarea fondurilor europene și internaționale
+
+(1) Autoritățile publice, operatorii economici, organizațiile neguvernamentale, instituțiile de învățământ și institutele de cercetare pot accesa fonduri europene și internaționale pentru implementarea proiectelor, programelor și măsurilor în domeniul economiei circulare, inclusiv, fără a se limita la:
+
+a) Fondul European de Dezvoltare Regională (FEDR);
+
+b) Fondul de Coeziune (FC);
+
+c) Mecanismul pentru o Tranziție Justă;
+
+d) Programul InvestEU;
+
+e) Programul Horizon Europe;
+
+f) programele și fondurile gestionate de Organizația Națiunilor Unite și alte inițiative internaționale relevante.
+
+(2) Ministerul Mediului, Apelor și Pădurilor, în colaborare cu autoritățile de management, organismele intermediare și alte instituții competente, asigură:
+
+a) sprijin tehnic pentru elaborarea, depunerea și evaluarea proiectelor;
+
+b) asistență în procesul de implementare și monitorizare a proiectelor;
+
+c) mecanisme de cofinanțare, acolo unde este necesar, potrivit dispozițiilor legale;
+
+d) funcționarea și actualizarea periodică a platformelor digitale de informare privind oportunitățile de finanțare.
+
+(3) Accesarea fondurilor prevăzute la alin. (1) se realizează cu respectarea:
+
+a) regulilor de eligibilitate și criteriilor de selecție stabilite de finanțatori;
+
+b) normelor de audit și control aplicabile fiecărui program;
+
+c) dispozițiilor legislației naționale și europene incidente.
+
+(4) Ministerul Mediului, Apelor și Pădurilor elaborează și publică anual, până la data de 31 martie a anului următor celui de referință, un raport privind gradul de absorbție a fondurilor europene și internaționale în domeniul economiei circulare, care include:
+
+a) situația proiectelor finanțate și a stadiului implementării acestora;
+
+b) cuantumul sumelor contractate și plătite;
+
+c) rezultatele obținute și impactul asupra atingerii obiectivelor prezentei legi.
+
+Art. 89 – Sprijin pentru IMM-uri, start-up-uri și inovatori
+
+(1) Statul sprijină întreprinderile mici și mijlocii, start-up-urile și persoanele fizice sau juridice care dezvoltă soluții, tehnologii, produse ori modele de afaceri bazate pe principiile economiei circulare.
+
+(2) Sprijinul prevăzut la alin. (1) poate lua următoarele forme:
+
+a) granturi nerambursabile și scheme de ajutor de minimis, acordate potrivit legislației naționale și europene în domeniul ajutorului de stat;
+
+b) facilități fiscale temporare, inclusiv deduceri și scutiri, acordate potrivit dispozițiilor Legii nr. 227/2015 privind Codul fiscal, cu modificările și completările ulterioare;
+
+c) acces preferențial la incubatoare, hub-uri de inovare, centre de transfer tehnologic și infrastructuri de testare, acreditate potrivit legii;
+
+d) sprijin financiar sau logistic pentru certificare, standardizare și internaționalizare;
+
+e) instruire, mentorat și formare profesională în domeniul economiei circulare.
+
+(3) Criteriile de eligibilitate, condițiile de acordare a sprijinului și procedura de selecție se stabilesc prin normele metodologice de aplicare a prezentei legi, aprobate prin hotărâre a Guvernului, având în vedere:
+
+a) impactul proiectelor asupra circularității și reducerii emisiilor de gaze cu efect de seră;
+
+b) potențialul de creare a locurilor de muncă verzi;
+
+c) nivelul de inovare și scalabilitate al soluțiilor propuse.
+
+(4) Autoritățile administrației publice centrale și locale pot încheia parteneriate, în condițiile legii, cu sectorul privat, mediul academic și organizațiile de cercetare, pentru sprijinirea inițiativelor de inovare în domeniul economiei circulare.
+
+(5) Ministerul Mediului, Apelor și Pădurilor, împreună cu Ministerul Economiei, Antreprenoriatului și Turismului, elaborază anual, până la data de 31 martie, un Plan național de sprijin pentru IMM-uri, start-up-uri și inovatori în domeniul economiei circulare, corelat cu strategiile naționale de inovare, competitivitate industrială și tranziție verde.
+
+## TITLUL XII - CERCETARE, DIGITALIZARE ȘI EDUCAȚIE PENTRU CIRCULARITATE
+
+Art. 90 – Sprijinirea cercetării aplicate în domeniul economiei circulare
+
+(1) În termen de 90 de zile de la intrarea în vigoare a prezentei legi, Ministerul Mediului, Apelor și Pădurilor, în colaborare cu Ministerul Cercetării, Inovării și Digitalizării, va adopta prin ordin comun un Plan național pentru cercetare aplicată în domeniul economiei circulare.
+
+(2) Planul va stabili prioritățile strategice, alocările financiare și modalitățile de colaborare între institutele de cercetare, universități, sectorul privat și organizațiile neguvernamentale.
+
+(3) Ministerul Cercetării, Inovării și Digitalizării, în termen de 120 de zile de la adoptarea planului, va emite normele metodologice privind finanțarea, implementarea și monitorizarea proiectelor de cercetare în domeniul circularității.
+
+(4) Instituțiile de învățământ superior vor include domeniul economiei circulare în tematicile eligibile pentru finanțare publică, în conformitate cu prevederile art. 124 alin. (2) lit. h) din Legea nr. 199/2023 privind învățământul superior, care asigură dreptul studenților la mobilitate academică pentru desfășurarea studiilor și stagiilor de practică, atât în țară, cât și în străinătate.
+
+Art. 91 – Platforme digitale, baze de date și interoperabilitate
+
+(1) Se înființează Platforma Națională pentru Economia Circulară (PNEC), administrată de Agenția pentru Digitalizarea României, în colaborare cu Ministerul Mediului, Apelor și Pădurilor, ca instrument digital central destinat colectării, gestionării, analizei și raportării datelor privind fluxurile de materiale și deșeuri, precum și monitorizării implementării obiectivelor economiei circulare.
+
+(2) Platforma prevăzută la alin. (1) se instituie în termen de 6 luni de la data intrării în vigoare a prezentei legi, prin ordin comun al președintelui Agenției pentru Digitalizarea României și al ministrului mediului, apelor și pădurilor, care va stabili:
+
+a) cadrul tehnic și funcționalitățile platformei;
+
+b) structura de guvernanță și responsabilitățile privind administrarea;
+
+c) procedurile de actualizare și mentenanță a platformei.
+
+(3) În termen de 90 de zile de la instituirea PNEC, Agenția pentru Digitalizarea României elaborază normele metodologice privind:
+
+a) utilizarea, accesul și securitatea datelor;
+
+b) interoperabilitatea platformei cu Sistemul Național de Trasabilitate a Deșeurilor, Platforma Națională pentru Proceduri Administrative și alte sisteme informatice naționale și europene relevante;
+
+c) mecanismele de protecție a datelor cu caracter personal și a informațiilor confidențiale.
+
+(4) PNEC asigură acces transparent și securizat pentru utilizatorii autorizați, facilitând:
+
+a) colectarea, procesarea și raportarea datelor privind fluxurile de materiale și deșeuri;
+
+b) monitorizarea indicatorilor de performanță în domeniul economiei circulare;
+
+c) integrarea și schimbul standardizat de date cu platformele europene relevante.
+
+(5) Platforma Națională pentru Economia Circulară asigură interoperabilitatea completă cu sistemul național de gestionare a Pașaportului digital al produselor, prevăzut la art. 38, în vederea preluării și furnizării de date tehnice, comerciale și de trasabilitate relevante pentru economia circulară.
+
+(6) Interoperabilitatea prevăzută la alin. (3) se realizează în conformitate cu Legea nr. 269/2022 privind interoperabilitatea bazelor de date și cu standardele tehnice naționale și europene aplicabile.
+
+Art. 92 – Integrarea circularității în educația formală și profesională
+
+(1) Principiile economiei circulare, sustenabilității și protecției mediului se integrează în curriculumul național al învățământului preuniversitar, profesional și superior, în conformitate cu Legea nr. 198/2023 privind învățământul preuniversitar și Legea nr. 199/2023 privind învățământul superior, cu modificările și completările ulterioare.
+
+(2) Ministerul Educației, în colaborare cu Ministerul Mediului, Apelor și Pădurilor, elaborază în termen de 9 luni de la intrarea în vigoare a prezentei legi un plan de acțiune pentru integrarea principiilor prevăzute la alin. (1) în programele școlare și universitare, manuale, resurse educaționale și activități extracurriculare.
+
+(3) Instituțiile de învățământ profesional și tehnic introduc, în cadrul planurilor de învățământ, module obligatorii privind:
+
+a) gestionarea eficientă a resurselor;
+
+b) reducerea, reutilizarea și reciclarea deșeurilor;
+
+c) inovarea verde și economia circulară aplicată.
+
+(4) Instituțiile de învățământ superior dezvoltă programe de studii, cursuri opționale și module interdisciplinare dedicate economiei circulare, în parteneriat cu mediul economic, organizații de cercetare și autorități publice competente.
+
+(5) Ministerul Educației propune, în termen de 12 luni de la intrarea în vigoare a prezentei legi, modificările legislative necesare la Legea nr. 198/2023 și Legea nr. 199/2023, pentru asigurarea cadrului normativ adecvat implementării prevederilor prezentului articol.
+
+(6) Ministerul Educației și Ministerul Mediului, Apelor și Pădurilor elaborază și publică anual, până la data de 31 martie a anului următor celui de referință, un raport comun privind stadiul implementării prevederilor prezentului articol, care va cuprinde: a) măsurile adoptate și nivelul de integrare a principiilor economiei circulare în programele educaționale;
+
+b) numărul și tipul modulelor sau cursurilor introduse;
+
+c) gradul de acoperire a beneficiarilor pe niveluri de învățământ;
+
+d) impactul estimat asupra competențelor verzi dobândite de elevi și studenți.
+
+Art. 93 – Campanii de conștientizare și responsabilizare a publicului
+
+(1) Ministerul Mediului, Apelor și Pădurilor, în colaborare cu Ministerul Educației și cu autoritățile administrației publice locale, organizează anual campanii naționale de informare și educație privind principiile economiei circulare, sustenabilitatea și adoptarea comportamentelor responsabile față de mediu.
+
+(2) Programul-cadru pentru campaniile prevăzute la alin. (1) se aprobă, în termen de 6 luni de la intrarea în vigoare a prezentei legi, prin ordin comun al ministrului mediului, apelor și pădurilor și al ministrului educației.
+
+(3) Campaniile prevăzute la alin. (1) utilizează canale de comunicare tradiționale și digitale, inclusiv rețele sociale, platforme de e-learning, evenimente comunitare și materiale educative, adaptate fiecărui grup-țintă, pentru a asigura acoperire națională și impact maxim.
+
+(4) Ministerul Mediului, Apelor și Pădurilor, în colaborare cu Ministerul Educației, elaborează și publică anual, până la data de 31 martie a anului următor celui de referință, un raport privind:
+
+a) numărul și tipul campaniilor desfășurate;
+
+b) indicatorii de audiență și participare;
+
+c) impactul estimat asupra nivelului de cunoaștere și adoptării comportamentelor circulare;
+
+d) corelarea rezultatelor cu indicatorii de performanță în domeniul economiei circulare, stabiliți potrivit prezentei legi.
+
+## TITLUL XIII – MONITORIZARE, INDICATORI ȘI RAPORTARE
+
+Art. 94 – Sistemul Național de Monitorizare și Auditare a Economiei Circulare
+
+(1) Se instituie Sistemul Național de Monitorizare și Auditare a Economiei Circulare (SNMAEC), ca mecanism integrat și centralizat pentru urmărirea implementării politicilor, măsurilor și obiectivelor stabilite prin prezenta lege, organizat și gestionat de Ministerul Mediului, Apelor și Pădurilor.
+
+(2) Instituirea și operaționalizarea SNMAEC se realizează în termen de 6 luni de la data intrării în vigoare a prezentei legi, prin hotărâre a Guvernului, care stabilește:
+
+a) cadrul organizatoric și funcțional al sistemului;
+
+b) rolurile și atribuțiile instituțiilor și autorităților publice implicate, inclusiv Agenția Națională pentru Protecția Mediului, Institutul Național de Statistică, autoritățile administrației publice locale și alte entități relevante;
+
+c) modalitățile de coordonare interinstituțională;
+
+d) procedurile de colectare, prelucrare și validare a datelor statistice și operaționale;
+
+e) mecanismele de auditare, control și verificare a conformității cu prevederile legale;
+
+f) metodologia de raportare internă și către Comisia Europeană, precum și către alte organisme naționale și internaționale;
+
+g) modalitățile de comunicare și publicare a rezultatelor către publicul larg și factorii decidenți.
+
+(3) SNMAEC asigură:
+
+a) colectarea și analiza datelor privind fluxurile materiale, generarea, gestionarea și eliminarea deșeurilor, precum și indicatorii relevanți pentru economia circulară;
+
+b) auditarea periodică a operatorilor economici și autorităților cu atribuții în domeniu, pentru verificarea respectării obligațiilor legale;
+
+c) evaluarea progresului național față de țintele și indicatorii stabiliți prin strategiile și legislația europeană și națională;
+
+d) identificarea deficiențelor, riscurilor și oportunităților de îmbunătățire a implementării economiei circulare.
+
+(4) Ministerul Mediului, Apelor și Pădurilor emite, în termen de 6 luni de la instituirea SNMAEC, normele metodologice privind:
+
+a) modul detaliat de funcționare a sistemului;
+
+b) procedurile și termenele de raportare pentru operatori și autorități;
+
+c) criteriile și metodele de audit și verificare;
+
+d) formatele standardizate pentru raportare și comunicare;
+
+e) măsurile pentru asigurarea transparenței, confidențialității și securității datelor;
+
+f) modalitățile de coordonare și interoperabilitate cu Platforma Națională pentru Economia Circulară (PNEC), Sistemul Național de Trasabilitate a Deșeurilor și alte platforme digitale naționale și europene relevante.
+
+(5) Ministerul Mediului, Apelor și Pădurilor monitorizează permanent funcționarea SNMAEC și publică anual, până la data de 31 martie a anului următor celui de referință, un raport de activitate, care include:
+
+a) sinteza datelor colectate și analizate;
+
+b) concluzii privind stadiul implementării economiei circulare în România;
+
+c) recomandări pentru politici publice și ajustări legislative;
+
+d) informații privind conformitatea cu obligațiile europene și gradul de realizare a obiectivelor naționale.
+
+Art. 95 – Indicatorii naționali de circularitate
+
+(1) Ministerul Mediului, Apelor și Pădurilor, în colaborare cu Institutul Național de Statistică și cu alte instituții și autorități publice relevante, stabilește, prin ordin al ministrului mediului, apelor și pădurilor, un set coerent de indicatori naționali de circularitate, care reflectă performanța României în tranziția către economia circulară și gradul de realizare a obiectivelor stabilite prin prezenta lege și prin strategiile naționale și europene aplicabile.
+
+(2) Indicatorii naționali de circularitate prevăzuți la alin. (1) includ, cel puțin:
+
+a) rata de prevenire și reducere a generării deșeurilor;
+
+b) procentul de materiale reutilizate, reparate, reciclate și valorificate;
+
+c) eficiența utilizării resurselor naturale;
+
+d) reducerea emisiilor de gaze cu efect de seră asociate ciclului de viață al produselor; e) impactul social și economic al măsurilor de economie circulară.
+
+(3) Indicatorii se actualizează periodic, dar nu mai rar de o dată la 3 ani, pentru a reflecta evoluțiile tehnologice, economice și legislative, în concordanță cu metodologia și cerințele Comisiei Europene și cu standardele statistice internaționale.
+
+(4) Datele necesare calculului indicatorilor se colectează prin Sistemul Național de Monitorizare și Auditare a Economiei Circulare (SNMAEC), Platforma Națională pentru Economia Circulară (PNEC) și alte surse oficiale relevante, asigurându-se corelarea și interoperabilitatea acestora.
+
+(5) Ministerul Mediului, Apelor și Pădurilor publică anual, până la data de 31 martie a anului următor celui de referință, indicatorii naționali de circularitate într-un format accesibil și transparent, inclusiv în Raportul Național privind Economia Circulară, care se transmite și Comisiei Europene conform obligațiilor de raportare internațională.
+
+Art. 96 – Indicatorii minimi obligatorii și obligațiile de colectare
+
+(1) Pentru monitorizarea eficientă a implementării economiei circulare, Ministerul Mediului, Apelor și Pădurilor, în colaborare cu Institutul Național de Statistică și cu alte autorități competente, stabilește, prin ordin al ministrului mediului, apelor și pădurilor, indicatorii minimi obligatorii care trebuie raportați anual de către operatorii economici și autoritățile administrației publice.
+
+(2) Indicatorii minimi obligatorii prevăzuți la alin. (1) includ, cel puțin:
+
+a) cantitatea totală de deșeuri generate, colectate separat și valorificate;
+
+b) procentul de material reciclat din totalul deșeurilor generate;
+
+c) volumul materialelor reutilizate și reparate;
+
+d) consumul de resurse primare și secundare;
+
+e) emisiile de gaze cu efect de seră asociate proceselor de producție și gestionare a deșeurilor;
+
+f) gradul de implementare a schemelor de răspundere extinsă a producătorului (REP).
+
+(3) Operatorii economici și autoritățile publice au obligația de a colecta și raporta date corecte, complete și conforme cu standardele metodologice emise de Ministerul Mediului, Apelor și Pădurilor, în termenele stabilite prin normele metodologice prevăzute la alin. (4).
+
+(4) Ministerul Mediului, Apelor și Pădurilor emite, în termen de 6 luni de la intrarea în vigoare a prezentei legi, normele metodologice privind:
+
+a) obligațiile de colectare, raportare și verificare a datelor;
+
+b) formatele standardizate de raportare;
+
+c) procedurile de transmitere prin Platforma Națională pentru Economia Circulară (PNEC);
+
+d) mecanismele de control și verificare;
+
+e) sancțiunile aplicabile în caz de nerespectare.
+
+(5) Datele colectate potrivit prezentului articol se integrează în Sistemul Național de Monitorizare și Auditare a Economiei Circulare (SNMAEC) și se utilizează pentru raportările naționale și pentru transmiterea informațiilor către Comisia Europeană și alte organisme internaționale, conform obligațiilor legale.
+
+Art. 97 – Obligațiile de raportare pentru operatori și autorități
+
+(1) Operatorii economici care desfășoară activități în domeniul producției, importului, distribuției, colectării, tratării, reciclării, valorificării și eliminării materialelor și deșeurilor au obligația de a raporta anual Ministerului Mediului, Apelor și Pădurilor date complete, corecte și verificate privind:
+
+a) cantitățile de materiale și produse puse pe piață;
+
+b) volumele de deșeuri generate, colectate separat, reciclate, valorificate și eliminate;
+
+c) indicatorii relevanți de performanță în domeniul economiei circulare, stabiliți conform art. 95 și art. 96.
+
+(2) Autoritățile administrației publice centrale și locale au obligația de a raporta periodic Ministerului Mediului, Apelor și Pădurilor date privind:
+
+a) implementarea politicilor și programelor publice în domeniul economiei circulare;
+
+b) infrastructura disponibilă pentru colectare, tratare, reciclare și valorificare;
+
+c) rezultatele controalelor și auditurilor desfășurate;
+
+d) indicatorii de performanță corespunzători atribuțiilor proprii.
+
+(3) Termenele, modalitățile, frecvența și formularele pentru raportare se stabilesc prin normele metodologice elaborate de Ministerul Mediului, Apelor și Pădurilor și aprobate prin ordin al ministrului, în termen de 6 luni de la intrarea în vigoare a prezentei legi.
+
+(4) Raportarea datelor prevăzute la alin. (1) și (2) se realizează exclusiv prin Platforma Națională pentru Economia Circulară (PNEC), cu asigurarea interoperabilității cu Sistemul Național de Monitorizare și Auditare a Economiei Circulare (SNMAEC) și cu alte sisteme informatice relevante, naționale și europene.
+
+(5) Datele raportate se utilizează pentru:
+
+a) evaluarea progresului național în atingerea obiectivelor de economie circulară;
+
+b) fundamentarea și actualizarea politicilor publice;
+
+c) raportarea către Comisia Europeană și alte organisme internaționale, conform obligațiilor legale.
+
+(6) Nerespectarea obligațiilor de raportare atrage aplicarea sancțiunilor prevăzute de prezenta lege și de legislația specifică în vigoare.
+
+Art. 98 – Publicarea anuală a Raportului Național privind Economia Circulară
+
+(1) Ministerul Mediului, Apelor și Pădurilor are obligația de a elabora și publica anual Raportul Național privind Economia Circulară (RNEC), document oficial de analiză și evaluare a stadiului implementării politicilor, măsurilor și obiectivelor prevăzute în prezenta lege.
+
+(2) Raportul prevăzut la alin. (1) se elaborază pe baza datelor colectate prin Sistemul Național de Monitorizare și Auditare a Economiei Circulare (SNMAEC), Platforma Națională pentru Economia Circulară (PNEC) și alte surse oficiale relevante și cuprinde, cel puțin:
+
+a) analiza indicatorilor naționali de circularitate prevăzuți la art. 95 și a evoluției acestora;
+
+b) sinteza datelor raportate conform art. 96 și 97;
+
+c) evaluarea progresului în raport cu țintele și angajamentele naționale și europene;
+
+d) recomandări pentru îmbunătățirea politicilor și a intervențiilor viitoare;
+
+e) evidențierea bunelor practici și a inițiativelor inovatoare din sectorul public și privat.
+
+(3) Raportul se publică anual, până la data de 31 martie a anului următor celui de referință, și se transmite Parlamentului României, Comisiei Europene și altor instituții relevante, fiind pus la dispoziția publicului larg prin mijloace accesibile și transparente, inclusiv pe site-ul oficial al Ministerului Mediului, Apelor și Pădurilor și în cadrul PNEC.
+
+(4) Ministerul Mediului, Apelor și Pădurilor organizează anual, în termen de 60 de zile de la publicarea raportului, dezbateri publice pe marginea acestuia, cu participarea părților interesate, în vederea evaluării impactului și ajustării strategiei naționale privind economia circulară.
+
+(5) Nerespectarea termenului de publicare și a obligațiilor privind conținutul raportului atrage răspunderea administrativă a conducătorului instituției, conform legislației în vigoare.
+
+## TITLUL XIV - REGIMUL JURIDIC AL SANCȚIUNILOR ȘI MĂSURILOR CORECTIVE
+
+Art. 99 – Contravenții
+
+(1) Constituie contravenții următoarele fapte, dacă nu întrunesc elementele constitutive ale unei infracțiuni, potrivit legii penale, și care afectează realizarea obiectivelor economiei circulare:
+
+a) neorganizarea colectării separate a deșeurilor conform categoriilor prevăzute la art. 47 și în normele metodologice aferente;
+
+b) amestecarea deșeurilor colectate separat, inclusiv a biodeșeurilor, cu alte tipuri de deșcuri, contrar art. 47;
+
+c) depozitarea, transportul sau valorificarea deșeurilor fâră respectarea condițiilor legale;
+
+d) comercializarea, punerea pe piață sau utilizarea materialelor reciclate, compostului sau produselor obținute din deșeuri fără certificare sau fără respectarea standardelor de calitate stabilite la art. 73 și în reglementările tehnice aplicabile;
+
+e) nerespectarea obligațiilor de raportare privind gestionarea deșeurilor, inclusiv transmiterea de date incomplete;
+
+f) nerespectarea obligațiilor stabilite în cadrul schemelor de responsabilitate extinsă a producătorului, inclusiv neînregistrarea, neplata contribuțiilor sau neîndeplinirea obiectivelor;
+
+g) nefuncționarea sau funcționarea necorespunzătoare a Sistemului de Garanție-Returnare (SGR), în sensul art. 61;
+
+h) introducerea pe piață sau utilizarea ambalajelor care nu respectă criteriile de reciclabilitate, reutilizare sau compostabilitate;
+
+i) împiedicarea accesului autorităților competente în exercitarea atribuțiilor de control, inclusiv refuzul de a furniza informațiile sau documentele solicitate;
+
+j) neîndeplinirea obligațiilor privind informarea și educarea publicului în domeniul economiei circulare;
+
+k) nerespectarea obligațiilor privind eliminarea deșeurilor periculoase, inclusiv depozitarea și transportul acestora în condiții necorespunzătoare, conform normelor tehnice aferente;
+
+1\) desfășurarea activităților de gestionare a deșeurilor fără deținerea autorizațiilor prevăzute la TITLUL IX din prezenta lege;
+
+m) utilizarea neautorizată a instalațiilor de tratare a deșeurilor;
+
+n) neîndeplinirea obligațiilor privind monitorizarea și raportarea impactului asupra mediului în cadrul activităților de gestionare a deșeurilor, prevăzute în TITLUL IX din prezenta lege;
+
+o) nerespectarea obligațiilor referitoare la trasabilitatea deșeurilor;
+
+p) neîndeplinirea obligațiilor privind întocmirea și păstrarea documentelor justificative și a registrului de evidență a deșeurilor;
+
+q) neîndeplinirea obligațiilor de a coopera cu autoritățile în cadrul controalelor și investigațiilor, potrivit art. 101;
+
+r) refuzul de a implementa măsurile corective dispuse de autoritățile competente în urma constatării contravențiilor, conform art. 100;
+
+s) neîndeplinirea obligațiilor referitoare la finanțarea activităților de prevenire și reducere a deșeurilor.
+
+(2) Contravențiile prevăzute la alin. (1) pot fi săvârșite de persoane fizice sau juridice.
+
+(3) Contravențiile prevăzute la alin. (1) se sancționează potrivit dispozițiilor prezentei legi și Ordonanței Guvernului nr. 2/2001 privind regimul juridic al contravențiilor, aprobată cu modificări și completări prin Legea nr. 180/2002, cu modificările și completările ulterioare.
+
+Art. 100 – Sancțiuni contravenționale și măsuri complementare (1) În funcție de gravitatea și impactul contravențiilor prevăzute la art. 99 alin. (1), se aplică următoarele sancțiuni principale și măsuri complementare:
+
+A. Contravenții cu impact ridicat asupra mediului și economiei circulare
+
+— lit. c), d), f), l), m), s) din art. 99 alin. (1)
+
+## Sancțiuni:
+
+a) pentru persoane fizice: amendă de la 5.000 lei la 20.000 lei;
+
+b) pentru persoane juridice: amendă de la 50.000 lei la 200.000 lei.
+
+Măsuri complementare:
+
+\- suspendarea temporară sau retragerea autorizațiilor/avizelor;
+
+\- confiscarea produselor și echipamentelor implicate, potrivit legislației în vigoare;
+
+\- obligarea la remedierea deficiențelor constatate, în termen stabilit;
+
+\- suspendarea temporară a activității până la remedierea deficiențelor.
+
+B. Contravenții cu impact mediu
+
+— lit. a), b), g), h), k), n), r) din art. 99 alin. (1)
+
+## Sancțiuni:
+
+a) pentru persoane fizice: amendă de la 2.000 lei la 10.000 lei;
+
+b) pentru persoane juridice: amendă de la 20.000 lei la 100.000 lei.
+
+Măsuri complementare:
+
+\- confiscarea produselor și echipamentelor implicate, potrivit legislației în vigoare;
+
+\- obligarea la remedierea deficiențelor constatate, în termen stabilit;
+
+\- suspendarea temporară a activității până la remedierea deficiențelor.
+
+C. Contravenții cu impact redus, dar care afectează bunele practici și transparența
+
+— lit. e), i), j), o), p), q) din art. 99 alin. (1)
+
+Sancțiuni:
+
+a) pentru persoane fizice: amendă de la 1.000 lei la 5.000 lei;
+
+b) pentru persoane juridice: amendă de la 10.000 lei la 50.000 lei.
+
+Măsuri complementare:
+
+\- confiscarea produselor și echipamentelor implicate, potrivit legislației în vigoare;
+
+\- obligarea la remedierea deficiențelor constatate, în termen stabilit;
+
+\- suspendarea temporară a activității până la remedierea deficiențelor.
+
+(2) La stabilirea cuantumului amenzii și a măsurilor complementare se vor avea în vedere criteriile de individualizare prevăzute la art. 21 din Ordonanța Guvernului nr. 2/2001, precum și:
+
+a) gravitatea și durata faptei;
+
+b) prejudiciul cauzat mediului și economiei circulare;
+
+c) numărul de fapte și frecvența săvârșirii;
+
+d) recidiva;
+
+e) cooperarea cu autoritățile în constatarea și remedierea contravenției;
+
+f) capacitatea economică a contravenientului.
+
+(3) Aplicarea măsurilor complementare nu înlătură aplicarea sancțiunii principale, acestea executându-se conform procedurii prevăzute de Ordonanța Guvernului nr. 2/2001.
+
+Art. 101 – Autorități competente pentru constatarea contravențiilor și aplicarea sancțiunilor
+
+(1) Constatarea contravențiilor prevăzute la art. 99 și aplicarea sancțiunilor stabilite la art. 100 se efectuează de către următoarele autorități:
+
+a) Ministerul Mediului, Apelor și Pădurilor, prin structurile specializate, inclusiv Garda Națională de Mediu;
+
+b) autoritățile administrației publice locale, prin structurile specializate, inclusiv poliția locală, în limitele competențelor stabilite prin lege sau prin delegarea expresă de atribuții de la autoritățile centrale;
+
+c) alte autorități publice cu competențe în domeniul specific al contravenției, prevăzute expres în prezenta lege sau în alte acte normative în vigoare.
+
+(2) Autoritățile competente prevăzute la alin. (1) au următoarele atribuții:
+
+a) efectuarea de controale și verificări în teren și la sediile operatorilor economici;
+
+b) solicitarea și verificarea documentelor, înregistrărilor și oricăror alte înscrisuri relevante;
+
+c) ridicarea de probe sau produse suspectate a încălca dispozițiile prezentei legi;
+
+d) cooperarea între ele și cu alte instituții publice în exercitarea atribuțiilor de control;
+
+e) întocmirea proceselor-verbale de constatare a contravenției și de aplicare a sancțiunii, potrivit legii.
+
+(3) Procedura de constatare a contravențiilor și de aplicare a sancțiunilor se desfășoară potrivit dispozițiilor Ordonanței Guvernului nr. 2/2001 privind regimul juridic al contravențiilor, aprobată cu modificări și completări prin Legea nr. 180/2002, cu modificările și completările ulterioare, asigurând respectarea dreptului la apărare și a principiilor de transparență și legalitate.
+
+Art. 102 – Procedura de executare a sancțiunilor și măsurilor complementare
+
+(1) Sancțiunile contravenționale și măsurile complementare aplicate în temeiul art. 100 se execută potrivit dispozițiilor Ordonanței Guvernului nr. 2/2001 privind regimul juridic al contravențiilor, aprobată cu modificări și completări prin Legea nr. 180/2002, cu modificările și completările ulterioare, dacă prezenta lege nu prevede altfel.
+
+(2) Plata amenzii contravenționale se face conform procedurii prevăzute de art. 28–30 din Ordonanța Guvernului nr. 2/2001, în conturile indicate de autoritatea care a aplicat sancțiunea.
+
+(3) Măsurile complementare dispuse prin procesul-verbal de constatare și sancționare se execută în termenul stabilit de autoritatea competentă, sub sancțiunea aplicării unor măsuri suplimentare prevăzute de prezenta lege sau de actele normative incidente.
+
+(4) În cazul în care contravenientul nu se conformează în termen măsurilor complementare dispuse, autoritatea competentă poate:
+
+a) dispune executarea silită, potrivit legii;
+
+b) sesiza organul de urmărire penală, dacă fapta întrunește elementele constitutive ale unei infracțiuni;
+
+c) solicita instanței competente suspendarea sau anularea autorizației, avizului sau licenței.
+
+(5) Contestarea procesului-verbal de constatare a contravenției și aplicare a sancțiunii se face potrivit art. 31–36 din Ordonanța Guvernului nr. 2/2001, iar judecarea se realizează de către instanțele competente, conform Legii contenciosului administrativ nr. 554/2004, cu modificările și completările ulterioare.
+
+(6) Introducerea contestației nu suspendă de drept executarea măsurilor complementare dispuse, cu excepția cazului în care instanța, la cererea contravenientului, dispune suspendarea executării acestora în condițiile Legii nr. 554/2004.
+
+(7) În toate cazurile, autoritățile competente țin evidența sancțiunilor aplicate și a măsurilor complementare dispuse, într-un registru special, gestionat în format electronic și corelat cu Sistemul Național de Monitorizare și Auditare a Economiei Circulare.
+
+Art. 103 – Procedura de remediere administrativă
+
+(1) Procedura de remediere administrativă se aplică exclusiv actelor administrative cu caracter decizional, emise în exercitarea atribuțiilor prevăzute de prezenta lege, în special în situațiile în care actul este considerat nelegal sau netemeinic, potrivit legii.
+
+(2) Persoana interesată poate formula o cerere de remediere administrativă la autoritatea emitentă a actului sau la autoritatea ierarhic superioară acesteia, conform competențelor stabilite prin prezenta lege, alte acte normative incidente sau prin regulamente interne.
+
+(3) Autoritatea competentă are obligația să analizeze cererea și să comunice o decizie motivată, în scris, în termen de 30 de zile calendaristice de la data înregistrării acesteia, termen care poate fi prelungit o singură dată, pentru motive temeinice, cu cel mult 15 zile calendaristice, cu notificarea prealabilă a solicitantului.
+
+(4) Procedura de remediere administrativă nu se aplică sancțiunilor contravenționale prevăzute de prezenta lege, care pot fi contestate exclusiv potrivit procedurii prevăzute de Ordonanța Guvernului nr. 2/2001 și Legii contenciosului administrativ nr. 554/2004.
+
+(5) Exercitarea procedurii de remediere administrativă nu suspendă executarea actului administrativ, cu excepția cazurilor prevăzute expres de prezenta lege sau de alte acte normative incidente.
+
+(6) Nerespectarea termenului de soluționare a cererii atrage răspunderea disciplinară și, după caz, contravențională, potrivit dispozițiilor Titlului XIV din prezenta lege și altor acte normative aplicabile.
+
+Art. 104 – Obligațiile autorităților în cazul constatării infracțiunilor
+
+(1) În situația în care, în exercitarea atribuțiilor de control prevăzute la art. 101 alin. (1), autoritatea competentă constată fapte care pot întruni elementele constitutive ale unei infracțiuni, aceasta întocmește proces-verbal de constatare, cu respectarea dispozițiilor Codului de procedură penală privind sesizarea organelor de urmărire penală.
+
+(2) Dacă situația impune efectuarea cercetării la fața locului sau a altor acte procedurale specifice urmăririi penale, autoritatea competentă sesizează fără întârziere organele de urmărire penală și asigură conservarea locului până la sosirea acestora.
+
+(3) La sosirea organelor de urmărire penală, procesul-verbal de constatare și orice alte documente relevante se predau acestora, pe bază de semnătură.
+
+(4) În cazul în care nu se impune efectuarea cercetării la fața locului, procesul-verbal de constatare se transmite organelor de urmărire penală în termen de 24 de ore de la întocmire; dacă termenul expiră într-o zi nelucrătoare, transmiterea se face în prima zi lucrătoare următoare.
+
+(5) Autoritatea competentă asigură păstrarea și integritatea probelor și mijloacelor de probă colectate în cadrul controlului, cu respectarea procedurilor privind prelevarea, sigilarea și etichetarea prevăzute de Codul de procedură penală și de normele metodologice aplicabile.
+
+(6) Nerespectarea obligației de sesizare a organelor de urmărire penală, de întocmire și transmitere a procesului-verbal de constatare atrage răspunderea disciplinară, contravențională sau penală, după caz, potrivit dispozițiilor Titlului XIV din prezenta lege și actelor normative incidente.
+
+## TITLUL XV – TRANZIȚIA JUSTĂ ȘI ECONOMIA SOCIALĂ
+
+Art. 105 – Instituirea Programului Național pentru Susținerea Zonelor Afectate de Tranziția Ecologică
+
+(1) Prin prezenta lege se instituie Programul Național pentru Susținerea Zonelor Afectate de Tranziția Ecologică, denumit în continuare „Programul”, având ca scop prevenirea și atenuarea efectelor socio-economice negative ale tranziției către economia circulară și tranziția ecologică asupra comunităților și regiunilor vulnerabile.
+
+(2) Programul se aprobă prin hotărâre a Guvernului, la propunerea Ministerului Mediului, Apelor și Pădurilor, în termen de cel mult 6 luni calendaristice de la intrarea în vigoare a prezentei legi.
+
+(3) Programul este organizat și implementat de Ministerul Mediului, Apelor și Pădurilor, în parteneriat cu:
+
+a) autoritățile administrației publice locale din regiunile eligibile;
+
+b) Ministerul Dezvoltării, Lucrărilor Publice și Administrației;
+
+c) partenerii sociali, mediul de afaceri și organizațiile societății civile.
+
+(4) Finanțarea Programului se asigură din:
+
+a) bugetul de stat, prin bugetul Ministerului Mediului, Apelor și Pădurilor;
+
+b) fonduri externe nerambursabile alocate prin programe europene și internaționale;
+
+c) contribuții din surse proprii ale autorităților locale, potrivit legislației privind finanțele publice;
+
+d) alte surse legal constituite, în condițiile legii.
+
+(5) Programul prevede, în mod specific:
+
+a) finanțarea investițiilor în infrastructură verde și tehnologii durabile;
+
+b) sprijin pentru proiecte de diversificare economică, ecoturism și antreprenoriat social;
+
+c) măsuri de protecție socială și incluziune pentru grupurile vulnerabile;
+
+d) dezvoltarea capacității administrative locale și a rezilienței comunitare.
+
+(6) Programul devine operațional începând cu anul bugetar următor adoptării hotărârii de Guvern menționate la alin. (2) și se implementează anual, pe baza unei liste de priorități territoriale stabilite prin ordin al ministrului mediului, revizuită cel puțin o dată pe an.
+
+Art. 106 – Programul Național de Sprijin pentru Lucrători Afectați de Tranziția Ecologică
+
+(1) Prin prezenta lege se instituie Programul Național de Sprijin pentru Lucrători Afectați de Tranziția Ecologică, cu scopul facilitării reconversiei profesionale, recalificării și reintegrării pe piața muncii a persoanelor afectate de modificările structurale induse de tranziția ecologică.
+
+(2) Programul se aprobă prin hotărâre a Guvernului, la propunerea Agenției Naționale pentru Ocuparea Forței de Muncă (ANOFM), în colaborare cu Ministerul Muncii și
+
+Solidarității Sociale și Ministerul Mediului, Apelor și Pădurilor, în termen de cel mult 4 luni calendaristice de la intrarea în vigoare a prezentei legi.
+
+(3) ANOFM este autoritatea responsabilă pentru implementarea programului, în parteneriat cu:
+
+a) instituțiile de învățământ profesional și universitar;
+
+b) camerele de comerț;
+
+c) organizațiile sindicale și patronale;
+
+d) alte entități relevante.
+
+(4) Programul este finanțat din:
+
+a) bugetul asigurărilor pentru șomaj;
+
+b) fonduri europene prin Fondul Social European Plus (FSE+);
+
+c) bugetul Ministerului Muncii și Solidarității Sociale;
+
+d) alte surse legal constituite, în conformitate cu legislația privind finanțele publice.
+
+(5) Programul oferă beneficiarilor:
+
+a) consiliere profesională personalizată;
+
+b) cursuri de formare și certificare în domenii relevante pentru economia circulară;
+
+c) sprijin financiar pe durata participării la programele de reconversie, în condițiile Codului muncii și ale legislației subsecvente;
+
+d) stimulente pentru angajatorii care angajează persoane reconvertite.
+
+(6) Programul se implementează începând cu exercițiul bugetar aferent anului următor adoptării hotărârii de Guvern și se revizuiește anual, pe baza unui raport de evaluare publicat de ANOFM.
+
+Art. 107 – Mecanisme de Sprijin și Integrare a Actorilor din Economia Socială
+
+(1) Prin prezenta lege se instituie Mecanismele Naționale de Sprijin și Integrare a Actorilor din Economia Socială, cu scopul promovării întreprinderilor sociale, cooperativelor și organizațiilor non-profit care contribuie la economia circulară și coeziunea socială.
+
+(2) Mecanismele se aprobă prin ordin comun al ministrului muncii și al ministrului mediului, în termen de 90 de zile calendaristice de la intrarea în vigoare a prezentei legi.
+
+(3) Administrarea mecanismelor se realizează de către Ministerul Muncii și Solidarității Sociale, în colaborare cu:
+
+a) Ministerul Mediului, Apelor și Pădurilor;
+
+b) autoritățile locale;
+
+c) structurile territoriale de ocupare a forței de muncă.
+
+(4) Sprijinul acordat include:
+
+a) facilități fiscale și granturi pentru investiții verzi, în condițiile legislației fiscale în vigoare;
+
+b) acces la fonduri nerambursabile prin scheme dedicate;
+
+c) servicii de formare profesională și consultanță pentru dezvoltare organizațională;
+
+d) integrarea în proiecte publice de tranziție ecologică.
+
+(5) Actorii economiei sociale participă activ în Platforma Națională pentru Economia Circulară, în condițiile stabilite prin regulamentul de organizare și funcționare al acesteia, și sunt integrați în strategiile naționale și locale de dezvoltare durabilă.
+
+Art. 108 – Prioritizarea Regiunilor Vulnerabile în Alocarea Fondurilor pentru Tranziția Ecologică
+
+(1) Prin prezenta lege se instituie Cadrul Național de Prioritizare Teritorială, în vederea orientării preferențiale a fondurilor publice și europene către regiunile cele mai vulnerabile în contextul tranziției ecologice.
+
+(2) Ministerul Mediului, Apelor și Pădurilor, împreună cu Ministerul Dezvoltării, Lucrărilor Publice și Administrației, elaborază, în termen de 6 luni calendaristice de la intrarea în vigoare a prezentei legi, o listă de criterii obiective și transparente pentru identificarea acestor regiuni, incluzând cel puțin:
+
+a) indicatori socio-economici (rata șomajului, PIB/capita, gradul de dependență industrială);
+
+b) indicatori de mediu (nivelul poluării, risc climatic, gradul de degradare ecologică); c) indicatori privind infrastructura și serviciile publice.
+
+(3) Lista criteriilor poate fi completată sau actualizată prin actele normative de aplicare, în funcție de evoluția contextului socio-economic și de mediu.
+
+(4) Pe baza acestor criterii se întocmește Registrul Național al Regiunilor Vulnerabile, aprobat prin ordin comun al miniștrilor de resort.
+
+(5) Regiunile astfel identificate beneficiază de:
+
+a) punctaj prioritar în evaluarea proiectelor cu finanțare publică sau europeană;
+
+b) acces facilitat la asistență tehnică și prefinanțare;
+
+c) alocări dedicate din fonduri structurale, mecanisme verzi sau bugete naționale.
+
+(6) Procesul de prioritizare este monitorizat anual de Ministerul Mediului și evaluat independent o dată la 3 ani, de către o instituție publică independentă sau un evaluator extern selectat potrivit legislației în vigoare, cu publicarea raportului privind impactul asupra coeziunii territoriale.
+
+## TITLUL XVI – DISPOZIȚII FINALE, TRANZITORII ȘI ABROGATORII
+
+## Art. 109 – Elaborarea normelor metodologice
+
+(1) Ministerul Mediului, Apelor și Pădurilor, în colaborare cu ministerele și autoritățile publice competente prevăzute la articolele din prezenta lege, elaborază și supune aprobării Guvernului, în termen de cel mult 6 luni calendaristice de la intrarea în vigoare a prezentei legi, normele metodologice unitare de aplicare a dispozițiilor acesteia. Normele metodologice se publică în Monitorul Oficial al României, Partea I.
+
+(2) Normele metodologice includ, pentru fiecare domeniu de aplicare a prezentei legi, proceduri detaliate, indicatori de performanță, termene, responsabilități instituționale și mecanisme de control.
+
+(3) Pentru structurile, mecanismele și platformele instituite prin prezenta lege, normele metodologice vor cuprinde regulamente proprii de organizare și funcționare, aprobate prin ordin al ministrului de resort, publicat în Monitorul Oficial al României, Partea I, în termen de cel mult 90 de zile calendaristice de la înființare.
+
+(4) În situația în care prezenta lege prevede elaborarea de ghiduri tehnice, manuale de utilizare sau instrucțiuni specifice, acestea se adoptă prin ordin al ministrului competent, publicat în Monitorul Oficial al României, Partea I, în termen de cel mult 120 de zile calendaristice de la aprobarea normelor metodologice aferente domeniului respectiv.
+
+Art. 110 – Termene tranzitorii și conformarea etapizată
+
+(1) Pentru domeniile în care prezenta lege prevede înființarea de noi structuri, mecanisme sau sisteme naționale (inclusiv platforme digitale, registre și centre de competență), implementarea se realizează etapizat, în termenele maxime stabilite prin normele metodologice, dar nu mai târziu de 24 de luni calendaristice de la intrarea în vigoare a prezentei legi.
+
+(2) Până la operaționalizarea completă a noilor structuri, atribuțiile acestora sunt exercitate temporar de direcțiile, serviciile sau entitățile existente din cadrul instituțiilor coordonatoare, în baza unui plan de tranziție aprobat prin ordin al ministrului de resort, publicat în Monitorul Oficial al României, Partea I.
+
+(3) În cazul schemelor și programelor instituite prin prezenta lege, finanțarea și implementarea acestora se desfășoară conform calendarului etapizat prevăzut în actul normativ de aprobare sau modificare, cu respectarea termenelor maxime de conformare.
+
+(4) Conformarea operatorilor economici și a autorităților publice la obligațiile prevăzute de prezenta lege se realizează gradual, pe baza unor termene tranzitorii incluse în normele metodologice, fără a depăși un termen total de 36 de luni calendaristice de la intrarea în vigoare a legii.
+
+Art. 111 – Abrogarea și menținerea în vigoare a unor acte normative incidente
+
+(1) La data intrării în vigoare a prezentei legi se abrogă integral:
+
+a) Ordonanța de urgență a Guvernului nr. 92/2021 privind regimul deșeurilor, publicată în Monitorul Oficial al României, Partea I, nr. 820 din 26 august 2021, cu modificările și completările ulterioare;
+
+b) Legea nr. 249/2015 privind modalitatea de gestionare a ambalajelor și a deșeurilor de ambalaje, publicată în Monitorul Oficial al României, Partea I, nr. 809 din 30 octombrie 2015, cu modificările și completările ulterioare;
+
+c) orice alte dispoziții legale contrare prezentei legi, în măsura în care reglementează domenii preluate și integrate în aceasta.
+
+(2) Următoarele documente strategice și programe naționale rămân în vigoare cu caracter tranzitoriu, exclusiv până la aprobarea prin hotărâre a Guvernului a strategiilor, planurilor și programelor prevăzute de prezenta lege:
+
+a) Planul de acțiune pentru implementarea Strategiei naționale privind economia circulară, aprobat prin Hotărârea Guvernului nr. 1174/2022;
+
+b) Strategia națională privind economia circulară, aprobată prin Hotărârea Guvernului nr. 1173/2022;
+
+c) Planul național de gestionare a deșeurilor, aprobat prin Hotărârea Guvernului nr. 942/2017, cu modificările și completările ulterioare, în măsura în care prevederile acestuia nu contravin prezentei legi și până la aprobarea unui nou plan conform dispozițiilor acesteia.
+
+(3) Actele normative cu caracter special și/sau de suport rămân în vigoare și se aplică în măsura în care nu contravin prezentei legi, inclusiv, dar fără a se limita la:
+
+a) Legea nr. 101/2006 a serviciului de salubrizare a localităților, republicată, cu modificările și completările ulterioare;
+
+b) Legea nr. 278/2013 privind emisiile industriale, cu modificările și completările ulterioare;
+
+c) legislația privind gestionarea substanțelor periculoase, a produselor chimice, a bateriilor și acumulatorilor, a vehiculelor scoase din uz și a altor fluxuri speciale de deșeuri, în măsura în care acestea nu contravin dispozițiilor prezentei legi.
+
+(4) Ministerele și autoritățile publice responsabile pentru aplicarea actelor normative prevăzute la alin. (3) inițiază, în termen de 12 luni calendaristice de la intrarea în vigoare a prezentei legi, modificările și completările necesare pentru corelarea acestora cu dispozițiile legii-cadru privind economia circulară și pentru eliminarea oricăror suprapuneri, contradicții sau lacune.
+
+(5) Dispozițiile tranzitorii prevăzute la alin. (2) și (3) încetează de drept la data intrării în vigoare a normelor metodologice și a strategiilor, programelor și planurilor aprobate în aplicarea prezentei legi, dacă acestea abrogă sau înlocuiesc în mod expres actele normative sau prevederile respective.
+
+Art. 112 – Corelarea cu legislația privind educația, digitalizarea și cercetarea
+
+(1) Ministerul Mediului, Apelor și Pădurilor, Ministerul Educației, Ministerul Cercetării, Inovării și Digitalizării, împreună cu alte instituții competente, asigură corelarea normelor metodologice de aplicare a prezentei legi cu strategiile și planurile naționale în domeniul educației pentru dezvoltare durabilă, al digitalizării administrației publice și al cercetării-inovării.
+
+(2) În termen de 12 luni calendaristice de la intrarea în vigoare a prezentei legi, ministerele prevăzute la alin. (1) elaborează programe comune de formare, proiecte pilot și parteneriate pentru integrarea principiilor economiei circulare în educație, cercetare și inovare.
+
+(3) Platformele digitale și bazele de date instituite prin prezenta lege sunt interoperabile cu sistemele naționale existente, conform legislației în vigoare privind transformarea digitală a administrației publice și interoperabilitatea sistemelor informatice.
+
+Art. 113 – Intrarea în vigoare
+
+(1) Prezenta lege intră în vigoare la 90 de zile calendaristice de la data publicării în Monitorul Oficial al României, Partea I, cu excepția prevederilor pentru care sunt stabilite termene specifice în articolele sale.
+
+(2) În termenul prevăzut la alin. (1), autoritățile și instituțiile publice competente iau toate măsurile necesare pentru inițierea proceselor de elaborare a normelor metodologice, actelor administrative și programelor prevăzute de prezenta lege.
+
+(3) Prevederile referitoare la sancțiuni se aplică începând cu data intrării în vigoare a normelor metodologice aferente fiecărui domeniu reglementat, publicate în Monitorul Oficial al României, Partea I.
+
+Art. 114 – Transpunerea actelor Uniunii Europene și emiterea actelor subsecvente
+
+(1) Prezenta lege transpune parțial dispozițiile următoarelor acte ale Uniunii Europene: a) Directiva 2008/98/CE a Parlamentului European și a Consiliului privind deșeurile și de abrogare a anumitor directive, cu modificările și completările ulterioare;
+
+b) Directiva (UE) 2018/851 a Parlamentului European și a Consiliului din 30 mai 2018 de modificare a Directivei 2008/98/CE privind deșeurile;
+
+c) Directiva (UE) 2019/904 a Parlamentului European și a Consiliului din 5 iunie 2019 privind reducerea impactului anumitor produse din plastic asupra mediului;
+
+d) alte acte normative ale Uniunii Europene relevante pentru domeniul de reglementare al prezentei legi, menționate în mod expres în cuprinsul acesteia.
+
+(2) Guvernul și ministerele de resort elaborează și supun aprobării, în termenele prevăzute în prezenta lege sau, după caz, în termen de cel mult 12 luni calendaristice de la intrarea sa în vigoare, actele normative subsecvente necesare pentru aplicarea integrală a dispozițiilor prezentei legi.
+
+(3) Actele normative subsecvente prevăzute la alin. (2) se publică în Monitorul Oficial al României, Partea I, și includ, fără a se limita la:
+
+a) hotărâri ale Guvernului pentru aprobarea strategiilor, programelor și planurilor naționale prevăzute de prezenta lege, inclusiv:
+
+(i) Strategia națională privind economia circulară;
+
+(ii) Planul de acțiune pentru economia circulară;
+
+(iii) Planul național de gestionare a deșeurilor;
+
+b) hotărâri ale Guvernului și ordine de ministru pentru înființarea, organizarea și funcționarea structurilor instituite prin prezenta lege, inclusiv:
+
+(i) Platforma Națională pentru Economie Circulară;
+
+(ii) Sistemul Național de Trasabilitate a Deșeurilor;
+
+(iii) Sistemul Național de Monitorizare și Auditare a Economiei Circulare;
+
+(iv) Registrul Național al Performanței Contractuale, dacă a fost integrat în prezenta lege;
+
+(v) centrele de competență, registrele și bazele de date tematice prevăzute de prezenta lege;
+
+c) ordine și instrucțiuni ale miniștrilor pentru aprobarea normelor metodologice, ghidurilor tehnice, manualelor de operare și a procedurilor de aplicare pentru:
+
+(i) schemele de responsabilitate extinsă a producătorului;
+
+(ii) sistemul garanție-returnare;
+
+(iii) gestionarea fluxurilor speciale de materiale și deșeuri;
+
+(iv) programele naționale de sprijin pentru zonele afectate de tranziția ecologică, reconversie profesională și economie socială;
+
+d) acte normative comune ale mai multor ministere, acolo unde atribuțiile sunt partajate, pentru domenii precum:
+
+(i) educație pentru economie circulară;
+
+(ii) digitalizare și interoperabilitate a bazelor de date;
+
+(iii) cercetare, inovare și transfer tehnologic în sprijinul tranziției către economia circulară.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea art. 75 și art. 76 alin. (1) din Constituția României.
+
+PREȘEDINTELE SENATULUI
+
+# LEGE-CADRU privind economia circulară și tranziția către utilizarea durabilă a resurselor
+
+CUPRINS: (forma propusă)
+
+TITLUL I - DISPOZIȚII GENERALE
+
+Capitolul I – Obiect, scop și principii
+
+Art. 1 – Obiectul și scopul legii
+
+Art. 2 – Domeniul de aplicare
+
+Art. 3 – Principiile economiei circulare și tranziției către utilizarea durabilă a resurselor
+
+Capitolul II – Definiții ale termenilor de noutate
+
+Art. 4 – Termeni tehnici și instituționali specifici domeniului economiei circulare
+
+## TITLUL II – OBJECTIVE STRATEGICE ȘI CONVERGENȚĂ CU LEGISLAȚIA UNIUNII
+
+EUROPENE
+
+Art. 5 – Obiective naționale în tranziția circulară
+
+Art. 6 – Corelarea cu Pactul Verde European și Planul de Acțiune al Uniunii Europene
+
+Art. 7 – Transpunerea directivelor și aplicarea regulamentelor europene
+
+Art. 8 – Strategii, planuri și angajamente internaționale asumate
+
+## TITLUL III – RESPONSABILITĂȚI GENERALE ALE AUTORITĂȚILOR PUBLICE
+
+Capitolul I – Competența autorităților publice centrale
+
+Art. 9 – Ministerul Mediului, Apelor și Pădurilor
+
+Art. 10 – Agenția Națională pentru Protecția Mediului și Garda Națională de Mediu
+
+Art. 11 – Ministerul Educației
+
+Art. 12 – Ministerul Economiei, Antreprenoriatului și Turismului
+
+Art. 13 – Ministerul Cercetării, Inovării și Digitalizării
+
+Art. 14 – Ministerul Dezvoltării, Lucrărilor Publice și Administrației
+
+Art. 15 – Alte autorități centrale și instituții implicate
+
+Capitolul II – Competența autorităților publice locale și județene
+
+Art. 16 – Rolul general al autorităților publice locale și județene
+
+Art. 17 – Atribuțiile consiliilor județene
+
+Art. 18 – Atribuțiile consiliilor locale
+
+Art. 19 – Atribuțiile primarului
+
+Art. 20 – Asociațiile de dezvoltare intercomunitară în domeniul economiei circulare
+
+Capitolul III – Comitetul Interministerial pentru Coordonarea Economiei Circulare
+
+Art. 21 – Înființarea și rolul Comitetului Interministerial pentru Coordonarea Economiei Circulare
+
+Art. 22 – Componența Comitetului Interministerial pentru Coordonarea Economiei Circulare
+
+Art. 23 – Atribuțiile și responsabilitățile Comitetului Interministerial pentru Coordonarea Economiei Circulare
+
+Art. 24 – Funcționarea Comitetului Interministerial pentru Coordonarea Economiei Circulare
+
+Art. 25 – Obligațiile de raportare și transparență ale Comitetului
+
+Capitolul IV – Platforma Națională pentru Economie Circulară
+
+Art. 26 – Instituirea și scopul Platformei Naționale pentru Economie Circulară
+
+Art. 27 – Obiectivele Platformei Naționale pentru Economie Circulară
+
+Art. 28 – Atribuțiile Platformei Naționale pentru Economie Circulară
+
+Art. 29 – Organizarea și funcționarea Platformei Naționale pentru Economie Circulară
+
+Art. 30 – Relația Platformei Naționale pentru Economie Circulară cu Comitetul Interministerial
+
+pentru Coordonarea Economiei Circulare
+
+Art. 31 – Obligațiile de raportare și transparență ale Platformei Naționale pentru Economie Circulară
+
+## TITLUL IV - SISTEMUL NAȚIONAL DE CIRCULARITATE A PRODUSELOR ȘI
+
+## RESURSELOR
+
+Art. 32 – Prevenirea generării deșeurilor și a risipei
+
+Art. 33 – Proiectarea ecologică și sustenabilitatea produselor
+
+Art. 34 – Reutilizarea, repararea și remanufacturarea produselor
+
+Art. 35 – Infrastructura și stimulentele pentru reutilizare, reparare și remanufacturare
+
+Art. 36 – Materii prime secundare și simbioza industrială
+
+Art. 37 – Etichetarea ecologică a produselor
+
+Art. 38 – Pașaportul digital al produselor
+
+## TITLUL V - DOMENII PRIORITARE DE INTERVENȚIE
+
+Art. 39 – Ambalaje și materiale plastice
+
+Art. 40 – Textile și produse din industria ușoară
+
+Art. 41 – Echipamente electrice și electronice
+
+Art. 42 – Construcții și demolări
+
+Art. 43 – Vehicule scoase din uz
+
+Art. 44 – Agricultură, bioeconomie și lanțuri alimentare
+
+Art. 45 – Comerț electronic și bunuri de consum rapide
+
+## TITLUL VI - MANAGEMENTUL CIRCULAR AL DEȘEURILOR
+
+Art. 46 – Clasificarea deșeurilor și ierarhia circulară
+
+Art. 47 – Colectare separată și reciclare
+
+Art. 48 – Infrastructura de tratare autorizată
+
+Art. 49 – Principiul trasabilității digitale a deșeurilor
+
+Art. 50 – Sistemul Național de Trasabilitate a Deșeurilor (SNTD) – constituire și administrare
+
+Art. 51 – Alimentarea, accesarea și utilizarea SNTD
+
+## TITLUL VII – RESPONSABILITATEA EXTINSĂ A PRODUCĂTORULUI (REP)
+
+Art. 52 – Domenii de aplicare și obligații specifice
+
+Art. 53 – Tipologiile schemelor REP
+
+Art. 54 – Organizarea și funcționarea schemelor REP
+
+Art. 55 – Obligații de transparență și conformare ale schemelor REP
+
+Art. 56 – Trasabilitatea în cadrul schemelor REP
+
+Art. 57 – Raportarea anuală a schemelor REP
+
+Art. 58 – Auditarea schemelor REP
+
+## TITLUL VIII - SISTEMUL DE GARANȚIE-RETURNARE (SGR)
+
+Art. 59 -- Ambalaje supuse regimului de garanție-returnare (SGR)
+
+Art. 60 – Obligațiile producătorilor, comercianților și consumatorilor
+
+Art. 61 – Operatorul SGR – statut, atribuții și funcționare
+
+Art. 62 – Indicatori de performanță, raportare și control
+
+## TITLUL IX - GESTIONAREA BIODEȘEURILOR ȘI COMPOSTABILITĂȚII
+
+Art. 63 – Colectarea separată a biodeșeurilor
+
+Art. 64 – Obligațiile gospodăriilor în colectarea separată a biodeșeurilor
+
+Art. 65 – Obligațiile comercianților în colectarea separată a biodeșeurilor
+
+Art. 66 – Obligațiile autorităților publice în colectarea separată a biodeșeurilor
+
+Art. 67 – Obligațiile operatorilor economici în colectarea separată a biodeșeurilor
+
+Art. 68 – Compostarea individuală, comunitară și industrială
+
+Art. 69 – Compostarea individuală
+
+Art. 70 – Compostarea comunitară
+
+Art. 71 – Compostarea industrială
+
+Art. 72 – Certificarea compostului
+
+Art. 73 – Standardele de calitate ale compostului
+
+Art. 74 – Etichetarea compostului
+
+Art. 75 – Trasabilitatea compostului
+
+Art. 76 – Planificarea și dezvoltarea infrastructurii de compostare
+
+Art. 77 – Finanțarea infrastructurii de compostare
+
+Art. 78 – Stimulente economice pentru compostare
+
+Art. 79 – Monitorizarea și raportarea privind infrastructura de compostare
+
+Art. 80 – Monitorizarea gestionării biodeșeurilor
+
+Art. 81 – Raportarea privind gestionarea biodeșeurilor
+
+Art. 82 – Controlul respectării obligațiilor în domeniul gestionării biodeșeurilor
+
+Art. 83 – Gestionarea fluxurilor de deșeuri cu reglementări sectoriale
+
+## TITLUL XI – INSTRUMENTE ECONOMICE, FINANȚARE ȘI STIMULENTE
+
+Art. 84 – Principiile utilizării instrumentelor economice în economia circulară
+
+Art. 85 – Mecanisme fiscale și contribuții de mediu
+
+Art. 86 – Penalități și sancțiuni financiare specifice
+
+Art. 87 – Fonduri naționale pentru economia circulară
+
+Art. 88 – Accesarea fondurilor europene și internaționale
+
+Art. 89 – Sprijin pentru IMM-uri, start-up-uri și inovatori
+
+## TITLUL XII - CERCETARE, DIGITALIZARE ȘI EDUCAȚIE PENTRU
+
+## CIRCULARITATE
+
+Art. 90 – Sprijinirea cercetării aplicate în domeniul economiei circulare
+
+Art. 91 – Platforme digitale, baze de date și interoperabilitate
+
+Art. 92 – Integrarea circularității în educația formală și profesională
+
+Art. 93 – Campanii de conștientizare și responsabilizare a publicului
+
+## TITLUL XIII – MONITORIZARE, INDICATORI ȘI RAPORTARE
+
+Art. 94 – Sistemul Național de Monitorizare și Auditare a Economiei Circulare
+
+Art. 95 – Indicatorii naționali de circularitate
+
+Art. 96 – Indicatorii minimi obligatorii și obligațiile de colectare
+
+Art. 97 – Obligațiile de raportare pentru operatori și autorități
+
+Art. 98 – Publicarea anuală a Raportului Național privind Economia Circulară
+
+## TITLUL XIV - REGIMUL JURIDIC AL SANCȚIUNILOR ȘI MĂSURILOR CORECTIVE
+
+Art. 99 – Contravenții
+
+Art. 100 – Sancțiuni contravenționale și măsuri complementare
+
+Art. 101 – Autorități competente pentru constatarea contravențiilor și aplicarea sancțiunilor
+
+Art. 102 – Procedura de executare a sancțiunilor și măsurilor complementare
+
+Art. 103 – Procedura de remediere administrativă
+
+Art. 104 – Obligațiile autorităților în cazul constatării infracțiunilor
+
+TITLUL XV - TRANZIȚIA JUSTĂ ȘI ECONOMIA SOCIALĂ
+
+Art. 105 – Instituirea Programului Național pentru Susținerea Zonelor Afectate de Tranziția Ecologică
+
+Art. 106 – Programul Național de Sprijin pentru Lucrători Afectați de Tranziția Ecologică
+
+Art. 107 – Mecanisme de Sprijin și Integrare a Actorilor din Economia Socială
+
+Art. 108 – Prioritizarea Regiunilor Vulnerabile în Alocarea Fondurilor pentru Tranziția Ecologică
+
+TITLUL XVI – DISPOZIȚII FINALE, TRANZITORII ȘI ABROGATORII
+
+Art. 109 – Elaborarea normelor metodologice
+
+Art. 110 – Termene tranzitorii și conformarea etapizată
+
+Art. 111 – Abrogarea și menținerea în vigoare a unor acte normative incidente
+
+Art. 112 – Corelarea cu legislația privind educația, digitalizarea și cercetarea
+
+\- Art. 113 – Intrarea în vigoare
+
+Art. 114 – Transpunerea actelor Uniunii Europene și emiterea actelor subsecvente

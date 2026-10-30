@@ -273,7 +273,8 @@ export function extractJsonFromText(raw = '') {
  * Rulează un model și întoarce JSON-ul din răspuns.
  * @returns {Promise<{ model: string, status: 'ok', data: any, durationMs: number } | { model: string, status: 'error', error: string, durationMs: number }>}
  */
-export async function runModel(model, prompt, { mode = 'offline', timeoutMs = 300000, codexModel, label } = {}) {
+// text: true întoarce răspunsul ca text (de exemplu o pagină HTML), fără să caute JSON în el.
+export async function runModel(model, prompt, { mode = 'offline', timeoutMs = 300000, codexModel, label, text = false } = {}) {
   const start = Date.now();
   const live = liveFile(model, label);
   fs.writeFileSync(live, `# ${model} · ${label ?? path.basename(process.argv[1] ?? '', '.mjs')} · ${new Date(start).toLocaleTimeString('ro-RO')} · limită ${Math.round(timeoutMs / 1000)}s · prompt ${prompt.length} caractere\n`);
@@ -292,7 +293,7 @@ export async function runModel(model, prompt, { mode = 'offline', timeoutMs = 30
     if (!res.stdout.trim()) throw new Error(`răspuns gol după ${Math.round((Date.now() - start) / 1000)}s (probabil timp depășit)`);
     let data;
     try {
-      data = extractJsonFromText(res.stdout);
+      data = text ? res.stdout : extractJsonFromText(res.stdout);
     } catch (err) {
       const snippet = res.stdout.replace(/\s+/g, ' ').trim();
       throw new Error(`${err.message}: „${snippet.slice(0, 120)}${snippet.length > 240 ? ` … ${snippet.slice(-120)}` : snippet.slice(120)}”`);

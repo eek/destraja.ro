@@ -115,4 +115,20 @@ Prevederile Convenției stipulează crearea unor mecanisme care să garanteze o 
 | 6.4. Informații privind puncte de vedere/opinii emise de organisme consultative constituite prin acte normativeProiectul nu se referă la acest subiect. |
 | 6.5. Informații privind avizarea de către:a) Consiliul Legislativb) Consiliul Suprem de Apărare a Țării c) Consiliul Economic și Social |
 
-*Documentul are 14 pagini; am citit primele 12.*
+| d) Consiliul Concurențeie) Curtea de ConturiProiectul de act normativ va fi supus avizării Consiliului Legislativ. |
+| --- |
+| 6.6. Alte informații Nu este cazul. |
+| Secțiunea a 7-aActivități de informare publică privind elaborareași implementarea proiectului de act normativ |
+| 7.1. Informarea societății civile cu privire la elaborarea proiectului de act normativPrezentul proiect de act normativ a fost publicat pe pagina de internet a Ministerului Muncii, Familiei, Tineretului și Solidarității Sociale, conform prevederilor Legii nr. 52/2003 privind transparența decizională în administrația publică, republicată, cu modificările ulterioare, începând cu data de 19.09.2025.Perioada în care se pot primi propuneri, sugestii și opinii: 19.09.2025-28.09.2025. |
+| 7.2. Informarea societății civile cu privire la eventualul impact asupra mediului în urma implementării proiectului de act normativ, precum și efectele asupra sănătății și securității cetățenilor sau diversității biologiceProiectul de act normativ nu se referă la acest subiect. |
+| Secțiunea a 8-aMăsuri privind implementarea, monitorizarea și evaluarea proiectului de act normativ |
+| 8.1. Măsurile de punere în aplicare a proiectului de act normativNu este cazul. |
+| 8.2. Alte informațiiNu este cazul. |
+
+Față de cele prezentate, a fost elaborat proiectul de Lege privind aprobarea Ordonanței de urgență a Guvernului privind trecerea Agenției Naționale pentru Egalitatea de Șanse între Femei și Bărbați din subordinea Guvernului și din coordonarea prim-ministrului, prin Cancelaria Prim-Ministrului, în subordinea Ministerului Muncii, Familiei, Tineretului și Solidarității Sociale, pe care îl supunem Parlamentului spre adoptare.
+
+PRIM-MINISTRO
+
+(5)
+
+ILIE-GA ZRIL BOLOJAN

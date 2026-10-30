@@ -1,0 +1,19 @@
+# LEGE pentru modificarea și completarea articolului 225 din Ordonanța de Urgență a Guvernului nr. 57/2019 Codul administrativ
+
+Parlamentul României adoptă prezenta lege:
+
+Art. I- Articolul 225 din Ordonanța de urgență nr. 57/2019 privind Codul administrativ, publicată în Monitorul Oficial al României, Partea I, nr. 555 din 5 iulie 2019 cu modificările și completările ulterioare, se modifică, după cum urmează:
+
+1\. Alineatul (2) se modifică și va avea următorul cuprins:
+
+„(2) Aleșii locali, în înțelesul art. 5, lit. f), sunt obligați să prezinte anual un raport de activitate. Raportul se face public prin grija secretarului general al unității/subdiviziunii administrativ-teritoriale.”
+
+2\. După alineatul (2) se introduce un nou alineat, alin. (2¹), cu următorul cuprins: „(2¹) Primarul și Președintele de consiliu județean sunt obligați să prezinte raportul de activitate într-o ședință ordinară a organului deliberativ.”
+
+3\. După alineatul (3), se introduce un nou alineat, alineatul (3¹), care va avea următorul cuprins:
+
+„(3¹) Rapoartele prevăzute la alin. (2) și alin. (3) se prezintă până la data de 31 martie a anului următor celui pentru care se face raportarea.”
+
+Art. II- Pentru aleșii locali aflați în exercițiul mandatului la data intrării în vigoare a prezentei legi, obligația de prezentare a raportului anual de activitate se aplică începând cu anul calendaristic în curs la data intrării în vigoare a acesteia.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și 76 alin. (2) din Constituția României, republicată.

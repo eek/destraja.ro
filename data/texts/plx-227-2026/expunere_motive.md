@@ -239,4 +239,89 @@ Propunere legislativă pentru modificarea și completarea Legii nr.286/2009 priv
 </tbody>
 </table>
 
-*Documentul are 20 de pagini; am citit primele 12.*
+## Lege pentru modificarea și completarea Legii nr. 286/2009 privind Codul penal și pentru completarea Legii audiovizualului nr. 504/2002
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Parlamentar</td><td>Partid</td><td>Semnătură</td></tr>
+<tr><td>1</td><td>SPATARU SIMONA</td><td>USR</td><td rowspan="4"></td></tr>
+<tr><td>2</td><td>SESTAN CEJNIC</td><td>USR2</td></tr>
+<tr><td>3</td><td>PAGAUE SETAH</td><td>USΩ</td></tr>
+<tr><td>4</td><td>NEGOI ENMIN REMY</td><td>USR</td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td>1</td><td>Rockeanu Bogdan</td><td>USR</td><td></td></tr>
+<tr><td>2</td><td>SENDROIV VLFO-104AM</td><td>USR</td><td></td></tr>
+<tr><td>3</td><td>GHEORGHIV ANDREI</td><td>USR</td><td></td></tr>
+<tr><td>4</td><td>Brasclivesx Oradin</td><td>USR</td><td></td></tr>
+<tr><td>5</td><td>BLASA ANUEZ</td><td>USA</td><td></td></tr>
+<tr><td>6</td><td>PLUJAR ANDREI</td><td>USR</td><td></td></tr>
+<tr><td>7</td><td>BCHERI TAKIRAN</td><td>USR</td><td></td></tr>
+<tr><td>8</td><td>DIMITNIV ALEXANDAY</td><td>USR</td><td></td></tr>
+<tr><td>9</td><td>ALECSANINRU MARIOL NICOLATE</td><td>USR</td><td></td></tr>
+<tr><td>10</td><td>PORUSSI GEORYC</td><td>USR</td><td></td></tr>
+<tr><td>11</td><td>GIVEGW ADRIAN</td><td>USR</td><td></td></tr>
+<tr><td>12</td><td>BULAI JULIAN</td><td>USR</td><td></td></tr>
+<tr><td>13</td><td>JUN STOICH</td><td>USR</td><td></td></tr>
+<tr><td>14</td><td>BOTKE Z MIHAI-CATALIA</td><td>USR</td><td></td></tr>
+<tr><td>15</td><td>Togasl Stofan</td><td>USR</td><td></td></tr>
+<tr><td>16</td><td>S###mal UMRGUNAN</td><td>USR</td><td></td></tr>
+<tr><td>17</td><td>PAUN CYPTHIA</td><td>USR</td><td></td></tr>
+</tbody>
+</table>
+
+Lege pentru modificarea și completarea Legii nr. 286/2009 privind Codul penal și pentru completarea Legii audiovizualului nr. 504/2002
+
+Nr. Parlamentar Partid Semnătură
+
+1 Diana Stoica USR
+
+| Nr. | Parlamentar | Partid | Semnătură |
+| --- | --- | --- | --- |
+| 1 | CRISTIAN BRIAN | USR |  |
+|  | Corina Atanasiu | USR |  |
+| 1 | Monica – Elena BERESCU | USR |  |
+
+APROBAT
+
+a Biroului permanent al
+
+nerei Deputaților
+
+data de 13.10.2025
+
+Parlamentul României
+
+Senat
+
+Grupul Parlamentar al Partidului Național Liberal
+
+Parlamentul României CAMERA DEPUTAȚILOR BIROUL PERMANENT Nr. 1057 din 09.10.2025
+
+Către: Biroul Permanent al Camerei deputaților De la: Maria-Gabriela HORGA, senator PNL
+
+Subsemnata, Maria-Gabriela HORGA, senator ales în circumscripția electorală nr. 19 Giurgiu, vă adresez rugămintea de a-mi aproba solicitarea de adăugare pe lista de inițiatori ai Propunerii legislative pentru modificarea și completarea Legii nr.286/2009 privind Codul Penal și a Legii audiovizualului nr.504/2002, înregistrată la Biroul permanent al Camerei Deputaților cu nr. BP479/2025.
+
+Cu mulțumiri,
+
+Maria-Gabriela HORGA Senator PNL
+
+București
+
+9 octombrie 2025

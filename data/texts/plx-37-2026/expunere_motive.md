@@ -1,98 +1,121 @@
-EXPUNERE DE MOTIVE
+## Secțiunea 1
 
-Secțiunea 1
-
-Titlul actului normativ
+# Titlul actului normativ
 
 Lege privind aprobarea Ordonanței de urgență a Guvernului
 
 pentru completarea art. 9 din Legea nr. 346/2004 privind stimularea înființării și dezvoltării întreprinderilor mici și mijlocii
 
-Secțiunea a 2 -a
+## Secțiunea a 2 -a
 
-Motivul emiterii actului normativ
+Motivul emitterii actului normativ
 
-2.1. Sursa proiectului de act normativ:
+## 2.1. Sursa proiectului de act normativ:
 
 Legea nr. 346/2004 privind stimularea înființării și dezvoltării întreprinderilor mici și mijlocii, cu modificările și completările ulterioare, introduce coceptul de Test IMM având ca scop evaluarea impactului proiectelor de acte normative asupra asupra IMM-urilor.
 
-Art.21 din Regulamentul (UE) 2021/241 al Parlamentului European și al Consiliului din 12 februarie 2021 de instituire a Mecanismului de redresare și reziliență, cu modificările și completările ulterioare. Aranjamentele Operaționale Componenta 9 -Suport pentru sectorul privat, cercetare, dezvoltare și inovare", Pilonul III. "Creștere inteligentă, sustenabilă și favorabilă incluziunii, inclusiv coeziune economică, locuri de muncă, productivitate, competitivitate, cercetare, dezvoltare și inovare, precum și o piață internă funcțională, cu întreprinderi mici și mijlocii (IMM-uri) puternice", Reforma 1. "Transparentizare legislativă, debirocratizare și simplificare procedurală destinate mediului de afaceri" Ținta 245 - Acte legislative/modificări referitoare la IMM-urile cărora li s-a aplicat testul.
+Art.21 din Regulamentul (UE) 2021/241 al Parlamentului European și al Consiliului din 12 februarie 2021 de instituire a Mecanismului de redresare și reziliență, cu modificările și completările ulterioare.
 
-ec
+Aranjamentele Operaționale Componenta 9 - "Suport pentru sectorul privat, cercetare, dezvoltare și inovare", Pilonul III. "Creștere inteligentă, sustenabilă și favorabilă incluziunii, inclusiv coeziune economică, locuri de muncă, productivitate, competitivitate, cercetare, dezvoltare și inovare, precum și o piață internă funcțională, cu întreprinderi mici și mijlocii (IMM-uri) puternice", Reforma 1. "Transparentizare legislativă, debirocratizare și simplificare procedurală destinate mediului de afaceri" Ținta 245 - Acte legislative/modificări referitoare la IMM-urile cărora li s-a aplicat testul.
 
-Anexa la Decizia de punere în aplicare a Consiliului de modificare a Deciziei de punere în aplicare din 29 octombrie 2021 de aprobare a evaluării planului de redresare și reziliență al României 15833/23, 05 octombrie 2023; Anexa la Propunerea de decizie de punere în aplicare a Consiliului de aprobare a evaluării planului de redresare și reziliență al României, Bruxelles, 27.9.2021 COM(2021) 608 final; Acordul de finanțare încheiat în data de 22 martie 2022 între Ministerul Economiei, Antreprenoriatului și Turismului (MEAT), în calitate de coordonator de reforme și investiții și Ministerul Investițiilor și Proiectelor Europene (MIPE), în calitate de coordonator național al Planul Național de Redresare și Reziliență (PNRR).
+Anexa la Decizia de punere în aplicare a Consiliului de modificare a Deciziei de punere în aplicare din 29 octombrie 2021 de aprobare a evaluării planului de redresare și reziliență al României 15833/23, 05 octombrie 2023;
 
-2.2. Descrierea situației actuale:
+Anexa la Propunerea de decizie de punere în aplicare a Consiliului de aprobare a evaluării planului de redresare și reziliență al României, Bruxelles, 27.9.2021 COM(2021) 608 final;
 
-In contextul provocărilor excepționale din ultimii ani, economia a rămas stabilă, însă rezolvarea problemelor ce țin de reziliență și redresare postpandemică sunt prioritare, urmând ca statele membre să se concentreze pe obiective de politici economice stabile. Deși provocările structurale se mențin, realizările recente arată că Europa funcționează cel mai bine într-un context al colaborării de unde necesitatea Uniunii Europene să își consolideze în continuare autonomia strategică deschisă și să rămână competitivă pe piața mondială, asigurându-se, în același timp, că nimeni nu este lăsat în urmă.
+Acordul de finanțare încheiat în data de 22 martie 2022 între Ministerul Economiei, Antreprenoriatului și Turismului (MEAT), în calitate de coordonator de reforme și investiții și Ministerul Investițiilor și Proiectelor Europene (MIPE), în calitate de coordonator național al Planul Național de Redresare și Reziliență (PNRR).
 
-Economia românească este susținută de activitatea IMM-urilor și a marilor companii, îndeosebi a celor cu capital majoritar străin, dar și a celor cu capital de stat. Contributor de importanță strategică la creșterea economică și crearea de locuri de muncă, sectorul întreprinderilor mici și mijlocii trebuie să beneficieze din partea statului de politici publice ce vizează o reglementare inteligentă, în vederea asigurării unui mediu favorabil inițierii și dezvoltării afacerilor, în procesul de elaborare a actelor normative cu impact asupra întreprinderilor mici și mijlocii, cu respectarea principiului "Gândiți mai întâi la scară mică" (Think small first), precum și principiul numărului constant (One in one out).
+## 2.2. Descrierea situației actuale:
 
-Ministerul Economiei, Digitalizării, Antreprenoriatului și Turismului (MEDAT), în calitate de coordonator de reforme și/sau investiții, are responsabilitatea implementării Reformei 1, cuprinsă în PNRR, Componenta nr. 9 - ,Suport pentru sectorul privat, cercetare, dezvoltare și inovare", Pilonul III. „Creștere inteligentă, sustenabilă și favorabilă incluziunii, inclusiv coeziune economică, locuri de muncă, productivitate, competitivitate, cercetare, dezvoltare și inovare, cât și printr-o piață internă funcțională", cu întreprinderi mici și mijlocii (IMM-uri) puternice' care îndeplinește ca obiectiv Ținta 245 - „Acte legislative/modificări referitoare la IMM-urile cărora li s-a aplicat testul". Ținta prevede un indicator de 100 % din actele legislative/modificările referitoare la IMM-urile cărora li s-a aplicat testul și are termen T4 2025.
+În contextul provocârilor excepționale din ultimii ani, economia a râmas stabilă, însă rezolvarea problemelor ce țin de reziliență și redresare postpandemică sunt prioritare, urmând ca statele membre să se concentreze pe obiective de politici economice stabile. Deși provocările structurale se mențin, realizările recente arată că Europa funcționează cel mai bine într-un context al colaborării de unde necesitatea Uniunii Europene să își consolideze în continuare autonomia strategică deschisă și să rămână competitivă pe piața mondială, asigurându-se, în același timp, că nimeni nu este lăsat în urmă.
 
-Testul IMM reprezintă o modalitate de evaluare a impactului pe care propunerile legislative îl au asupra IMM-urilor și constă în efectuarea unor consultări (prin una dintre modalitățile prevăzute în legislație), de către inițiatorul actului normativ, înainte de demararea procesului de avizare, cu privire la potențialele efecte generate în activitatea întreprinderilor mici și mijlocii de introducerea noilor reglementări. În concret, testul IMM vine în sprijinul mediului de afaceri având ca scop reducerea poverii administrative și fiscale.
+Economia românească este susținută de activitatea IMM-urilor și a marilor companii, îndeosebi a celor cu capital majoritar străin, dar și a celor cu capital de stat. Contributor de importanță strategică la creșterea economică și crearea de locuri de muncă, sectorul întreprinderilor mici și mijlocii trebuie să beneficieze din partea statului de politici publice ce vizează o reglementare inteligentă, în vederea asigurării unui mediu favorabil inițierii și dezvoltării afacerilor, în procesul de elaborare a actelor normative cu impact asupra întreprinderilor mici și mijlocii, cu respectarea principiului "Gândiți mai întâi la scară mică"(Think small first), precum și principiul numărului constant (One in one out).
 
-Legislația actuală națională aferentă testului IMM:
+| Ministerul Economiei, Digitalizării, Antreprenoriatului și Turismului (MEDAT), în calitate de coordonator de reforme și/sau investiții, are responsabilitatea implementării Reformei 1, cuprinsă în PNRR, Componenta nr. 9 – „Suport pentru sectorul privat, cercetare, dezvoltare și inovare”, Pilonul III. „Creștere inteligentă, sustenabilă și favorabilă incluziunii, inclusiv coeziune economică, locuri de muncă, productivitate, competitivitate, cercetare, dezvoltare și inovare, cât și printr-o piață internă funcțională”, cu întreprinderi mici și mijlocii (IMM-uri) puternice” care îndeplinește ca obiectiv Ținta 245 – „Acte legislative/modificări referitoare la IMM-urile cărora li s-a aplicat testul”. Ținta prevede un indicator de 100 % din actele legislative/modificările referitoare la IMM-urile cărora li s-a aplicat testul și are termen T4 2025. |
+| --- |
+| Testul IMM reprezintă o modalitate de evaluare a impactului pe care propunerile legislative îl au asupra IMM-urilor și constă în efectuarea unor consultări (prin una dintre modalitățile prevăzute în legislație), de către inițiatorul actului normativ, înainte de demararea procesului de avizare, cu privire la potențialele efecte generate în activitatea întreprinderilor mici și mijlocii de introducerea noilor reglementări. În concret, testul IMM vine în sprijinul mediului de afaceri având ca scop reducerea poverii administrative și fiscale. |
+| Legislația actuală națională aferentă testului IMM: |
+| • Legea 346/2004 privind stimularea înființării și dezvoltării întreprinderilor mici și mijlocii, cu modificările și completările ulterioare |
+| • Ordinul ministrului economiei, antreprenoriatului și turismului, nr. 546 din 12 octombrie 2023 privind aprobarea Metodologiei de elaborare și aplicare a Testului IMM, publicat în Monitorul Oficial al României nr. 1006 din 06 noiembrie 2023, cu modificările ulterioare; |
+| • Ordinul ministrului economiei, antreprenoriatului și turismului, nr. 545 din 12 octombrie 2023 privind aprobarea Regulamentului de organizare și funcționare a Grupului pentru evaluarea impactului economic al actelor normative asupra |
 
-• Legea 346/2004 privind stimularea înființării și dezvoltării întreprinderilor mici și mijlocii, cu modificările și completările ulterioare • Ordinul ministrului economiei, antreprenoriatului și turismului, nr. 546 din 12 octombrie 2023 privind aprobarea Metodologiei de elaborare și aplicare a Testului IMM, publicat în Monitorul Oficial al României nr. 1006 din 06 noiembrie 2023, cu modificările ulterioare;
+întreprinderilor mici și mijlocii, publicat în Monitorul Oficial al României 990 din 31 octombrie 2023;
 
-• Ordinul ministrului economiei, antreprenoriatului și turismului, nr. 545 din 12 octombrie 2023 privind aprobarea Regulamentului de organizare și functionare a Grupului pentru evaluarea impactului economic al actelor normative asupra
+În prezent, aplicarea Testului IMM presupune, în primul rând, acțiuni din partea inițiatorului actului normativ (exemple de inițiatori – Ministerul Justiției, Ministerul Finanțelor, etc.) sub forma de consultări cu IMM-urile asupra proiectelor de acte normative. În al doilea rând, după finalizarea Testului IMM de către inițiator, presupune acțiuni în sarcina GEIEAN, organism extern cu reprezentativitate în rândul IMM-urilor al carui secretariat este asigurat la nivelul ministerului cu atribuții în domeniul întreprinderilor mici și mijlocii sau a mediului de afaceri, în prezent Ministerul Economiei, Digitalizării, Antreprenoriatului și Turismului (MEDAT), care în baza votului liber exprimat, acordă aviz favorabil, favorabil cu observații sau negativ.
 
-întreprinderilor mici și mijlocii, publicat în Monitorul Oficial al României 990 din 31 octombrie 2023; In prezent, aplicarea Testului IMM presupune, în primul rând, acțiuni din partea inițiatorului actului normativ (exemple de inițiatori - Ministerul Justiției, Ministerul Finanțelor, etc.) sub forma de consultări cu IMM-urile asupra proiectelor de acte normative. În al doilea rând, după finalizarea Testului IMM de către inițiator, presupune acțiuni în sarcina GEIEAN, organism extern cu reprezentativitate în rândul IMM-urilor al carui secretariat este asigurat la nivelul ministerului cu atribuții în domeniul întreprinderilor mici și mijlocii sau a mediului de afaceri, în prezent Ministerul Economiei, Digitalizării, Antreprenoriatului și Turismului (MEDAT), care în baza votului liber exprimat, acordă aviz favorabil, favorabil cu observații sau negativ.
+Grupul Pentru Evaluarea Impactului Economic al Actelor Normative asupra Întreprinderilor Mici și Mijlocii (GEIEAN) funcționează ca organism consultativ, fără personalitate juridică, sub coordonarea autorității administrației publice centrale cu atribuții în domeniul întreprinderilor mici și mijlocii. Președinția GEIEAN se asigură de către secretarul de stat cu atribuții în domeniul mediului de afaceri, respectiv întreprinderi mici și mijlocii, al autorității publice centrale cu atribuții în domeniul întreprinderilor mici și mijlocii. Lista membrilor GEIEAN și datele de contact ale acestora vor fi afișate pe site-ul autorității publice centrale cu atribuții în domeniul întreprinderilor mici și mijlocii. Secretariatul GEIEAN este asigurat de către direcția de specialitate din cadrul autorității publice centrale cu atribuții în domeniul întreprinderilor mici și mijlocii.
 
-Grupul Pentru Evaluarea Impactului Economic al Actelor Normative asupra Intreprinderilor Mici și Mijlocii (GEIEAN) funcționează ca organism consultativ, tară personalitate juridică, sub coordonarea autorității administrației publice centrale cu atribuții în domeniul întreprinderilor mici și mijlocii. Președinția GEIEAN se asigură de către secretarul de stat cu atribuții în domeniul mediului de afaceri, respectiv întreprinderi mici și mijlocii, al autorității publice centrale cu atribuții în domeniul întreprinderilor mici și mijlocii. Lista membrilor GEIEAN și datele de contact ale acestora vor fi afișate pe site-ul autorității publice centrale cu atribuții în domeniul întreprinderilor mici și mijlocii. Secretariatul GEIEAN este asigurat de către direcția de specialitate din cadrul autorității publice centrale cu atribuții în domeniul întreprinderilor mici și mijlocii.
+În cadrul reuniunii Comitetului pentru e-guvernare și reducerea birocrației (CERB), organizat în data de 22 aprilie 2024 la Secretariatul General al Guvernului, a fost susținută o prezentare a modului de realizare a testului IMM în conformitate cu modificările aduse Legii nr. 346/2004, în scopul informării reprezentanților instituțiilor inițiatoare de proiecte de acte normative. După adoptarea Ordinului nr. 2761/22.08.2024 privind modificarea Ordinului nr. 546/2023 au fost monitorizate proiectele de acte normative aflate în transparență legislativă, inclusiv cele de pe
 
-In cadrul reuniunii Comitetului pentru e-guvernare și reducerea birocrației (CERB), organizat în data de 22 aprilie 2024 la Secretariatul General al Guvernului, a fost susținută o prezentare a modului de realizare a testului IMM în conformitate cu modificările aduse Legii nr. 346/2004, în scopul informării reprezentanților instituțiilor inițiatoare de proiecte de acte normative. După adoptarea Ordinului nr. 2761/22.08.2024 privind modificarea Ordinului nr. 546/2023 au fost monitorizate
+agenda ședinței de Guvern și a ședințelor pregătitoare, în vederea identificării necesițăii efectuării testului IMM. Potrivit acestuia, inițiatorii de proiecte de acte normative cu impact asupra mediului de afaceri, înainte de demararea procesului de avizare, procedează la evaluarea impactului proiectelor de acte normative privind
 
-proiectele de acte normative aflate în transparență legislativă, inclusiv celé de pe
+aplicarea Testului IMM.
 
-agenda ședinței de Guvern și a ședințelor pregătitoare, în vederea identificării necesițăii efectuării testului IMM. Potrivit acestuia, inițiatorii de proiecte de acte normative cu impact asupra mediului de afaceri, înainte de demararea procesului de avizare, procedează la evaluarea impactului proiectelor de acte normative privind aplicarea Testului IMM.
+Astfel, pentru realizarea Țintei 245 — “Acte legislative/modificări referitoare la IMM-urile cărora li s-a aplicat testul” s-a procedat la o monitorizare a proiectelor de acte normative cu impact asupra mediului de afaceri care efectuează testul IMM, cu respectarea Legii nr. 53/2023 privind aprobarea Ordonanței de urgență a Guvernului nr. 10/2022 pentru modificarea și completarea Legii nr. 346/2004 privind stimularea înființării și dezvoltării întreprinderilor mici și mijlocii cât si a normelor de aplicare respectiv Ordinul ministrului economiei, antreprenoriatului și turismului nr. 546 din 12 octombrie 2023 privind aprobarea Metodologiei de elaborare și aplicare a Testului IMM, cu modificările și completările ulterioare și Ordinul ministrului economiei, antreprenoriatului și turismului nr. 545 din 12 octombrie 2023 privind aprobarea Regulamentului de organizare și funcționare a Grupului pentru evaluarea impactului economic al actelor normative asupra întreprinderilor mici și mijlocii, modificări legislative elaborate în cadrul Jalonului 242 - “Intrarea în vigoare a modificărilor legislative menite să simplifice și să asigure transparența și aplicabilitatea testului
 
-Astfel, pentru realizarea Țintei 245 - "Acte legislative/modificări referitoare la IMM-urile cărora li s-a aplicat testul" s-a procedat la o monitorizare a proiectelor de acte normative cu impact asupra mediului de afaceri care efectuează testul IMM, cu respectarea Legii nr. 53/2023 privind aprobarea Ordonanței de urgență a Guvernului nr. 10/2022 pentru modificarea și completarea Legii nr. 346/2004 privind stimularea înființării și dezvoltării întreprinderilor mici și mijlocii cât si a normelor de aplicare respectiv Ordinul ministrului economiei, antreprenoriatului și turismului nr. 546 din 12 octombrie 2023 privind aprobarea Metodologiei de elaborare și aplicare a Testului IMM, cu modificările și completările ulterioare și Ordinul ministrului economiei, antreprenoriatului și turismului nr. 545 din 12 octombrie 2023 privind aprobarea Regulamentului de organizare și funcționare a Grupului pentru evaluarea impactului economic al actelor normative asupra întreprinderilor mici și mijlocii, modificări legislative elaborate în cadrul Jalonului 242 - Intrarea în vigoare a modificărilor legislative menite să simplifice și să asigure transparența și aplicabilitatea testului IMM".
+IMM”. Totodată, s-au constatat următoarele dificultăți:
 
-Totodată, s-au constatat următoarele dificultăți: 1. Reticența inițiatorilor de proiecte de acte normative în parcurgerea procedurii privind Testul IMM: inițiatorii proiectelor de acte normative, procedează la adoptarea acestora de multe ori în regim de urgență, fapt care îi determină să omită testul IMM. Totodată, prin faptul că IMM-urile nu prezintă interes în a participa la consultări, îi descurajează.
+l. Reticența inițiatorilor de proiecte de acte normative în parcurgerea procedurii privind Testul IMM: inițiatorii proiectelor de acte normative, procedează la adoptarea acestora de multe ori în regim de urgență, fapt care îi determină să omită testul IMM. Totodată, prin faptul că IMM-urile nu prezintă interes în a participa la consultări, îi
 
-2\. Reticența IMM-urilor în a participa la consultările prin intermediul testului IMM: participarea IMM-urilor la consultările aferente Testului IMM, presupune alocarea de resurse în acest sens, ceea ce poate fi împovărător pentru aceștia. Totodată,
+descurajează.
 
-este necesar ca resursele alocate să aibă o oarecare pregătire sau înțelegere juridică astfel încât să poată interpreta proiectele de acte normative și să poată formula observații. Aceste resurse umane, trebuie totodată să fie susținute prin alocarea de resurse financiare aferente. De asemenea, există o oarecare temere de a participa la consultări și de a-și comunica observațiile, care pot evidenția vulnerabilitățile acestuia în fața concurenței. 3. Interpretarea inițiatorilor privind impactul asupra IMM-urilor a proiectelor inițiate: potrivit art. 1 din Hotărârea nr. 443/2022 pentru aprobarea conținutului instrumentului de prezentare și motivare, a structurii raportului privind implementarea actelor normative, a instrucțiunilor metodologice pentru realizarea evaluării impactului, precum și pentru înființarea Consiliului consultativ pentru evaluarea impactului actelor normative, inițatorul actului normativ trebuie să fundamenteze proiectul conform structurii prevăzute. Astfel, inițiatorul, în procesul de fundamentare identifică domeniile asupra cărora are impact proiectul și completează, spre exemplu nota de fundamentare. Dacă, potrivit interpretării, proiectul nu are impact asupra mediului de afaceri, respectiv asupra IMM-urilor, inițiatorul va preciza acest aspect și drept urmare, nici nu va parcurge testul IMM. Considerăm că, inițiatorii de proiecte de acte normative au nevoie de timp pentru angrenarea voluntară și cât mai largă a IMM-urilor, în sensul constatării opiniei IMM-urilor în forma finală a actelor normative, fenomen care va genera încredere și determinare participativă. De asemenea, crearea unor mecanisme la nivelul inițiatorilor de proiecte de acte normative în procesul de aplicare a testului IMM care, prin repetare, vor conduce la o mai facilă aplicare a testului IMM pentru toate părțile implicate. In plus față de cele expuse, prin Decizia nr. 445/2022, Curtea Constituțională "constată că obligația inițiatorilor proiectelor de acte normative cu impact asupra mediului de afaceri de a întocmi raportul privind aplicarea Testului IMM cu privire la respectivul act normativ se circumscrie obligației prevăzute de art.6 din Legea nr.24/2000 de a fundamenta soluțiile legislative cu impact asupra domeniilor social, economic și de mediu, asupra bugetului general consolidat sau asupra legislației în
+2\. Reticența IMM-urilor în a participa la consultările prin intermediul testului
 
-vigoare."
+IMM: participarea IMM-urilor la consultările aferente Testului IMN, presupune
 
-Mai mult, această obligație corespunde evaluării preliminare a impactului noilor reglementări, prevăzută de art. 7 din Legea nr.24/2000 ca modalitate de fundamentare pentru soluțiile legislative propuse, care se realizează de inițiatorul proiectului de act normativ.
+alocarea de resurse în acest sens, ceea ce poate fi împovărător pentru aceșt
+
+ia. Totodată,
+
+3\. Interpretarea inițiatorilor privind impactul asupra IMM-urilor a proiectelor inițiate: potrivit art. 1 din Hotărârea nr. 443/2022 pentru aprobarea conținutului instrumentului de prezentare și motivare, a structurii raportului privind implementarea actelor normative, a instrucțiunilor metodologice pentru realizarea evaluării impactului, precum și pentru înființarea Consiliului consultativ pentru evaluarea impactului actelor normative, inițatorul actului normativ trebuie să fundamenteze proiectul conform structurii prevăzute. Astfel, inițiatorul, în procesul de fundamentare identifică domeniile asupra cărora are impact proiectul și completează, spre exemplu nota de fundamentare. Dacă, potrivit interpretării, proiectul nu are impact asupra mediului de afaceri, respectiv asupra IMM-urilor, inițiatorul va preciza acest aspect și drept urmare, nici nu va parcurge testul IMM.
+
+Considerăm că, inițiatorii de proiecte de acte normative au nevoie de timp pentru angrenarea voluntară și cât mai largă a IMM-urilor, în sensul constatării opiniei IMM-urilor în forma finală a actelor normative, fenomen care va genera încredere și determinare participativă. De asemenea, crearea unor mecanisme la nivelul inițiatorilor de proiecte de acte normative în procesul de aplicare a testului IMM care, prin repetare, vor conduce la o mai facilă aplicare a testului IMM pentru toate părțile implicate.
+
+În plus față de cele expuse, prin Decizia nr. 445/2022, Curtea Constituțională "constată că obligația inițiatorilor proiectelor de acte normative cu impact asupra mediului de afaceri de a întocmi raportul privind aplicarea Testului IMM cu privire la respectivul act normativ se circumscrie obligației prevăzute de art.6 din Legea nr.24/2000 de a fundamenta soluțiile legislative cu impact asupra domenilor social, economic și de mediu, asupra bugetului general consolidat sau asupra legislației în vigoare."
+
+Mai mult, această obligație corespunde evaluării preliminare a impactului noilor reglementări, prevăzută de art.7 din Legea nr.24/2000 ca modalitate de fundamentare pentru soluțiile legislative propuse, care se realizează de inițiatorul proiectului de act normativ.
 
 De asemenea, obligația inițiatorului de a supune proiectele de acte normative analizei Grupului pentru evaluarea impactului economic al actelor normative asupra întreprinderilor mici și mijlocii se circumscrie tot dispozițiilor art.7 din Legea nr.24/2000. Astfel, după aplicarea Testului IMM și întocmirea raportului cu privire la evaluarea sistematică a impactului proiectului de act normativ, actul normativ este trimis spre avizare Grupului pentru evaluarea impactului economic al actelor normative asupra întreprinderilor mici și mijlocii, etape din procedura administrativă corespunzătoare fundamentării soluțiilor legislative și evaluării preliminare a impactului noilor reglementări.
 
-Luând în considerare art. 9, alin. (1) din Legea nr. 24/2000 privind normele de tehnică legislativă pentru elaborarea actelor normative, republicată: "Art. 9: Avizarea proiectelor (1)Ín cazurile prevăzute de lege, în faza de elaborare a proiectelor de acte normative inițiatorul trebuie să solicite avizul autorităților interesate în aplicarea acestora, în funcție de obiectul reglementării." Se impune astfel clarificarea faptului că inițiatorul este cel care evaluează impactul proiectelor de acte normative, identifică impactul asupra IMM-urilor și în consecință înaintează spre avizare acele proiecte cu impact asupra IMM-urilor, către ministerul cu atribuții în acest domeniu, respectiv Ministerul Economiei, Digitalizării, Antreprenoriatului și Turismului (MEDAT). În procesul de avizare, MEDAT analizează respectivele proiecte din perspectiva impactului asupra IMM-urilor și dacă proiectul reglementează sarcini administrative și fiscale noi, notifică acest aspect inițiatorului indicând faptul că se impune testul IMM. Menționăm faptul că această intervenție nu modifică cadrul normativ secundar, ci asigură aplicarea unitară și efectivă a procedurilor în vigoare, în special în situațiile de adoptare accelerată a actelor normative.
+Luând în considerare art. 9, alin. (1) din Legea nr. 24/2000 privind normele de tehnică legislativă pentru elaborarea actelor normative, republicată: "Art. 9: Avizarea proiectelor (1)În cazurile prevăzute de lege, în faza de elaborare a proiectelor de acte normative inițiatorul trebuie să solicite avizul autorităților interesate în aplicarea acestora, în funcție de obiectul reglementării." Se impune astfel clarificarea faptului că inițiatorul este cel care evaluează impactul proiectelor de acte normative, identifică impactul asupra IMM-urilor și în consecință înaintează spre avizare acele proiecte cu impact asupra IMM-urilor, către ministerul cu atribuții în acest domeniu, respectiv Ministerul Economiei, Digitalizării, Antreprenoriatului și Turismului (MEDAT). În procesul de avizare, MEDAT analizează respectivele proiecte din perspectiva impactului asupra IMM-urilor și dacă proiectul reglementează sarcini administrative și fiscale noi, notifică acest aspect inițiatorului indicând faptul că se impune testul IMM. Menționăm faptul că această intervenție nu modifică cadrul normativ secundar, ci asigură aplicarea unitară și efectivă a procedurilor în vigoare, în special în situațiile de adoptare accelerată a actelor normative.
 
-\~
+## 2.3. Schimbări preconizate:
 
-2.3. Schimbări preconizate: Ministerul Economiei, Digitalizării, Antreprenoriatului și Turismului are ca prioritate îndeplinirea obiectivului prevăzut în Planul Național de Redresare și Reziliență (PNRR) în cadrul R1- Transparentizare legislativă, debirocratizare și simplificare procedurală destinate mediului de afaceri - Ținta 245 - 100% din actele legislative/modificări referitoare la IMM-urile cărora li s-a aplicat testul. Având în vedere asumarea finalizării investițiilor din cadrul PNRR în termenele prevăzute în CID, și totodată, potrivit art.21 din Regulamentul (UE) 2021/241 al Parlamentului European și al Consiliului din 12 februarie 2021 de instituire a Mecanismului de redresare și reziliență, cu modificările și completările ulterioare, propunem completarea art.9 din Legea nr. 346/2004 privind stimularea înființării și dezvoltării întreprinderilor mici și mijlocii, cu modificările și completările ulterioare, în sensul prezentat, respectiv introducerea după alineatul (4') a unui nou alineat cu următorul cuprins: „(4') Inițiatorul actului normativ cu impact asupra întreprinderilor mici și mijlocii sau asupra mediului de afaceri are obligația de a solicita avizul autorității publice centrale cu atribuții în domeniul întreprinderilor mici și mijlocii sau a mediului de afaceri, anterior adoptării acestuia de către Guvern." Arătăm că avizul autorității publice centrale cu atribuții în domeniul întreprinderilor mici și mijlocii sau a mediului de afaceri se circumscrie prevederilor Hotărârii Guvernului nr. 561/2009 pentru aprobarea Regulamentului privind procedurile, la nivelul Guvernului, pentru elaborarea, avizarea și prezentarea proiectelor de documente de politici publice, a proiectelor de acte normative, precum și a altor documente, în vederea adoptării/aprobării. Reiterăm că, demersul nostru vine în contextul existenței unui risc major de neîndeplinire a indicatorului Țintei 245, context generat de neefectuarea de către inițiatori a testului IMM pentru toate proiectele de acte normative cu impact asupra IMM-urilor. Se impune astfel clarificarea faptului că inițiatorul este cel care evaluează
+Ministerul Economiei, Digitalizării, Antreprenoriatului și Turismului are ca prioritate îndeplinirea obiectivului prevăzut în Planul Național de Redresare și Reziliență (PNRR) în cadrul R1- Transparentizare legislativă, debirocratizare și simplificare procedurală destinate mediului de afaceri - Ținta 245 - 100% din actele legislative/modificări referitoare la IMM-urile cărora li s-a aplicat testul.
 
-impactul proiectelor de acte normative, identifică impactul asupra IMM-urilor și, în consecință, înaintează spre avizare acele proiecte cu impact asupra IMM-urilor către ministerul cu atribuții în acest domeniu, respectiv Ministerul Economiei, Digitalizării, Antreprenoriatului și Turismului (MEDAT). In procesul de avizare, MEDAT analizează respectivele proiecte din perspectiva impactului asupra IMM-urilor și, dacă, proiectul reglementează sarcini administrative și fiscale noi, notifică acest aspect inițiatorului indicând faptul că se impune testul IMM.
+Având în vedere asumarea finalizării investițiilor din cadrul PNRR în termenele prevăzute în CID, și totodată, potrivit art.21 din Regulamentul (UE) 2021/241 al Parlamentului European și al Consiliului din 12 februarie 2021 de instituire a Mecanismului de redresare și reziliență, cu modificările și completările ulterioare, propunem completarea art.9 din Legea nr. 346/2004 privind stimularea înființării și dezvoltării întreprinderilor mici și mijlocii, cu modificările și completările ulterioare, în sensul prezentat, respectiv introducerea după alineatul (4¹) a unui nou alineat cu următorul cuprins:
 
-Astfel, ca urmare a modificării, inițiatorii de proiecte de acte normative cu impact asupra IMM-urilor, respectiv instituțiile inițiatoare de acte normative cu impact asupra mediului de afaceri și a întreprindelor mici și mijlocii, vor transmite în mod obligatoriu autorității publice centrale cu atribuții în domeniul mediului de afaceri și a întreprindelor mici și mijlocii, proiectul de act normativ pentru aviz. Având în vedere că neimplementarea în regim de urgență a schimbărilor legislative propuse generează consecințe negative asupra numărului de întreprinderi existente și implicit asupra economiei naționale, prin neîndeplinirea obiectivelor definite în Planul Național de Redresare și Reziliență.
+„(4²) Inițiatorul actului normativ cu impact asupra întreprinderilor mici și mijlocii sau asupra mediului de afaceri are obligația de a solicita avizul autorității publice centrale cu atribuții în domeniul întreprinderilor mici și mijlocii sau a mediului de afaceri, anterior adoptării acestuia de către Guvern.”
 
-Precizăm, totodată, că demersul nostru vine în contextul generat de neefectuarea de către inițiatori a testului IMM pentru toate proiectele de acte normative cu impact asupra IMM-urilor, ținându-se cont de complexitatea procesului de adoptare a actelor normative.
+Arătăm că avizul autorității publice centrale cu atribuții în domeniul întreprinderilor mici și mijlocii sau a mediului de afaceri se circumscrie prevederilor Hotărârii Guvernului nr. 561/2009 pentru aprobarea Regulamentului privind procedurile, la nivelul Guvernului, pentru elaborarea, avizarea și prezentarea proiectelor de documente de politici publice, a proiectelor de acte normative, precum și a altor documente, în vederea adoptării/aprobării.
 
-Impactul așteptat al schimbărilor: se va asigura aplicarea reală și eficientă a Testului IMM, oferind un cadru legislativ mai favorabil dezvoltării IMM-urilor și a mediului de afaceri din România, prin: • Creșterea transparenței procesului legislativ și a implicării IMM-urilor.
+Reiterăm că, demersul nostru vine în contextul existenței unui risc major de neîndeplinire a indicatorului Țintei 245, context generat de neefectuarea de către inițiatori a testului IMM pentru toate proiectele de acte normative cu impact asupra IMM-urilor.
 
-• Reducerea poverii administrative asupra IMM-urilor prin reglementări mai bine adaptate realității economice.
+Se impune astfel clarificarea faptului că inițiatorul este cel
 
-• Imbunătățirea predictibilității pentru mediul de afaceri, permițând IMM-urilor să se adapteze mai eficient la noile reglementări.
+| impactul proiectelor de acte normative, identifică impactul asupra IMM-urilor și, în consecință, înaintează spre avizare acele proiecte cu impact asupra IMM-urilor către ministerul cu atribuții în acest domeniu, respectiv Ministerul Economiei, Digitalizării, Antreprenoriatului și Turismului (MEDAT). În procesul de avizare, MEDAT analizează respectivele proiecte din perspectiva impactului asupra IMM-urilor și, dacă, proiectul reglementează sarcini administrative și fiscale noi, notifică acest aspect inițiatorului indicând faptul că se impune testul IMM. |
+| --- |
+| Astfel, ca urmare a modificării, inițiatorii de proiecte de acte normative cu impact asupra IMM-urilor, respectiv instituțiile inițiatoare de acte normative cu impact asupra mediului de afaceri și a întreprindelor mici și mijlocii, vor transmite în mod obligatoriu autorității publice centrale cu atribuții în domeniul mediului de afaceri și a întreprindelor mici și mijlocii, proiectul de act normativ pentru aviz. |
+| Având în vedere că neimplementarea în regim de urgență a schimbărilor legislative propuse generează consecințe negative asupra numărului de întreprinderi existente și implicit asupra economiei naționale, prin neîndeplinirea obiectivelor definite în Planul Național de Redresare și Reziliență. |
+| Precizăm, totodată, că demersul nostru vine în contextul generat de neefectuarea de către inițiatori a testului IMM pentru toate proiectele de acte normative cu impact asupra IMM-urilor, ținându-se cont de complexitatea procesului de adoptare a actelor normative. |
+| Impactul așteptat al schimbărilor: se va asigura aplicarea reală și eficientă a Testului IMM, oferind un cadru legislativ mai favorabil dezvoltării IMM-urilor și a mediului de afaceri din România, prin: • Creșterea transparenței procesului legislativ și a implicării IMM-urilor. • Reducerea poverii administrative asupra IMM-urilor prin reglementări mai bine adaptate realității economice. • Îmbunătățirea predictibilității pentru mediul de afaceri, permitând IMM-urilor să se adapteze mai eficient la noile reglementări. |
 
-• Accelerarea procesului decizional, evitând întârzierile birocratice.
+\- Accelerarea procesului decizional, evitând întârzierile birocratice.
 
-• Creșterea conformității instituțiilor publice cu obligațiile legale privind evaluarea impactului asupra IMM-urilor.
+\- Creșterea conformității instituțiilor publice cu obligațiile legale privind evaluarea impactului asupra IMM-urilor.
 
-Adoptarea actului normativ în regim de urgență este justificată de necesitatea prevenirii unor disfuncționalități recurente în evaluarea impactului asupra IMM-urilor, de evitarea adoptării unor reglementări insuficient fundamentate și de protejarea atingerii obiectivelor asumate prin PNRR, inclusiv a indicatorilor aferenți Țintei 245. Lipsa intervenției ar perpetua vulnerabilități în procesul legislativ, cu potențial efect negativ asupra predictibilității, transparenței și calității reglementărilor. Totodată, ar putea genera, efecte negative asupra numărului de întreprinderi mici și mijlocii active, întrucât adoptarea de acte normative fără evaluarea prealabilă a impactului poate conduce la impunerea unor sarcini administrative sau fiscale disproporționate, cu consecințe asupra sustenabilității și menținerii în activitate a IMM-urilor.
+Adoptarea actului normativ în regim de urgență este justificată de necesitatea prevenirii unor disfuncționalități recurente în evaluarea impactului asupra IMM-urilor, de evitarea adoptării unor reglementări insuficient fundamentate și de protejarea atingerii obiectivelor asumate prin PNRR, inclusiv a indicatorilor aferenți Țintei 245.
+
+Lipsa intervenției ar perpetua vulnerabilități în procesul legislativ, cu potențial efect negativ asupra predictibilității, transparenței și calității reglementărilor. Totodată, ar putea genera, efecte negative asupra numărului de întreprinderi mici și mijlocii active, întrucât adoptarea de acte normative fără evaluarea prealabilă a impactului poate conduce la impunerea unor sarcini administrative sau fiscale disproporționate, cu consecințe asupra sustenabilității și menținerii în activitate a IMM-urilor.
 
 Astfel, măsura propusă are rolul de a asigura respectarea imediată și unitară a cadrului normativ existent, în condițiile în care lipsa unei intervenții rapide poate genera consecințe negative asupra mediului de afaceri. Așadar, nu se introduc obligații noi, ci se consolidează aplicarea celor existente, în condițiile în care procedura actuală, deși completă la nivel normativ, este vulnerabilă în practică în situațiile de urgență legislativă.
 
 Caracterul de urgență al adoptării este justificat de necesitatea prevenirii unor situații recurente în care, în contextul procedurilor accelerate de reglementare, obligația de aplicare a Testului IMM este omisă sau amânată, ceea ce conduce la riscuri sistemice privind calitatea procesului legislativ, transparența decizională și îndeplinirea obiectivelor asumate prin PNRR.
 
-2.4. Alte informații: TRIATUI Turieic Nu este cazul RE birect/a
+## 2.4. Alte informații:
 
-Secțiunea a 3 -a
+Nu este cazul
+
+# Secțiunea a 3 -a
 
 Impactul socioeconomic al actului normativ
 
@@ -100,44 +123,128 @@ Impactul socioeconomic al actului normativ
 
 Prezentul act normativ nu se referă la acest subiect
 
-3.2. Impactul social:
+## 3.2. Impactul social:
 
 Creșterea gradului de consultare a IMM-urilor va duce la o mai bună reprezentare a intereselor acestora în procesul legislativ, ceea ce va sprijini dezvoltarea economică și crearea de noi locuri de muncă. Îmbunătățirea dialogului între autorități și mediul de afaceri va contribui la consolidarea unui climat economic stabil și predictibil, cu efecte benefice asupra întregii societăți.
 
-3.3. Impactul asupra drepturilor și libertăților fundamentale ale omului:
+## 3.3. Impactul asupra drepturilor și libertăților fundamentale ale omului:
 
 Prezentul act normativ nu se refera la acest subiect
 
-3.4. Impactul macroeconomic:
+## 3.4. Impactul macroeconomic:
 
 Modificările propuse vor avea un impact pozitiv atât asupra mediului de afaceri, cât și asupra economiei naționale și societății în ansamblu, contribuind la dezvoltarea sustenabilă a României.
 
-3.4.1. Impactul asupra economiei și asupra principalilor indicatori macroeconomici:
+## 3.4.1. Impactul asupra economiei și asupra principalilor indicatori macroeconomici:
 
 Prin îmbunătățirea aplicării Testului IMM și reducerea poverii administrative asupra întreprinderilor mici și mijlocii, economia României poate înregistra o creștere mai accelerată, o creștere a investițiilor și a ocupării forței de muncă, precum și o îmbunătățire a principalilor indicatori macroeconomici.
 
-3.4.2. Impactul asupra mediului concurențial și domeniul ajutoarelor de stat:
+## 3.4.2. Impactul asupra mediului concurentițial și domeniul ajutoarelor de stat:
 
 Prin reducerea barierelor administrative și creșterea predictibilității legislative, IMM-urile vor putea crește productivitatea și investițiile, ceea ce va genera o creștere economică sustenabilă
 
-3.5. Impactul asupra mediului de afaceri: Va avea un impact pozitiv asupra mediului de afaceri, ducând la transparentizarea legislativă, debirocratizarea și simplificarea procedurală în ceea ce privește principalele proiectele de act normative cu impact asupra întreprinderilor mici și mijlocii.
+## 3.5. Impactul asupra mediului de afaceri:
+
+Va avea un impact pozitiv asupra mediului de afaceri, ducând la transparentizarea legislativă, debirocratizarea și simplificarea procedurală în ceea ce privește principalele proiectele de act normative cu impact asupra întreprinderilor mici și mijlocii.
 
 Asigurarea unei protecții sporite pentru IMM-uri printr-un cadru legislativ mai echilibrat va contribui la respectarea principiului egalității de șanse în mediul de afaceri.
 
-3.6. Impactul asupra mediului înconjurător:
+## 3.6. Impactul asupra mediului înconjurător:
 
 Prezentul act normativ nu se referă la acest subiect
 
-3.7. Evaluarea costurilor și beneficiilor din perspectiva inovării și digitalizării:
+## 3.7. Evaluarea costurilor și beneficiilor din perspectiva inovării și digitalizării:
 
 Prezentul act normativ nu se referă la acest subiect
 
-3.8. Evaluarea costurilor și beneficiilor din perspectiva dezvoltării durabile Prezentul act normativ nu se referă la acest subiect
+## 3.8. Evaluarea costurilor și beneficiilor din perspectiva dezvoltării durabile
 
-3.9. Alte informații Nu este cazul
+Prezentul act normativ nu se referă la acest subiect
 
-Secțiunea a 4 -a Impactul financiar asupra bugetului general consolidat, atât pe termen scurt, pentru anul curent, cât și pe termen lung (5 ani), inclusiv informații cu privire la cheltuieli și venituri
+## 3.9. Alte informații
 
-Inmii lei (RON) -
+Nu este cazul
 
-*Documentul are 19 pagini; am citit primele 12.*
+## Secțiunea a 4 -a
+
+Impactul financiar asupra bugetului general consolidat, atât pe termen scurt, pentru anul curent, cât și pe termen lung (5 ani), inclusiv informații cu privire la cheltuieli și venituri
+
+<table>
+<tbody>
+<tr><td>Indicatori</td><td>Anul curent</td><td colspan="4">Următorii 4 ani</td><td>Media pe 5 ani</td></tr>
+<tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr>
+<tr><td>4.1.Modificări ale veniturilor bugetare, plus / minus, din care: a) buget de stat, din acesta: i) impozit pe profit ii) impozit pe venit b) bugete locale: i) impozit pe profit c) bugetul asigurărilor sociale de stat: i) contribuții de asigurări d) alte tipuri de venituri (se va menționa natura acestora)</td><td colspan="6">Prezentul act normativ nu se referă la acest subiect</td></tr>
+<tr><td>4.2.Modificări ale cheltuielilor bugetare, plus / minus, din care: a) buget de stat, din acesta: (i) cheltuieli de personal (ii) bunuri și servicii b) bugete locale: (i) cheltuieli de personal</td><td colspan="6">Prezentul act normativ nu se referă la acest subiect</td></tr>
+</tbody>
+</table>
+
+| (ii) bunuri și servicii c) bugetul asigurărilor sociale de stat: (i) cheltuieli de personal (ii) bunuri și servicii d) alte tipuri de venituri (se va menționa natura acestora) |  |
+| --- | --- |
+| 4.3. Impact financiar, plus/minus, din care: a) buget de stat b) bugete locale | Prezentul act normativ nu se referă la acest subiect |
+| 4.4. Propuneri pentru acoperirea creșterii cheltuielilor bugetare | Prezentul act normativ nu se referă la acest subiect |
+| 4.5. Propuneri pentru a compensa reducerea veniturilor bugetare | Prezentul act normativ nu se referă la acest subiect |
+| 4.6. Calcule detaliate privind fundamentarea modificărilor veniturilor și/sau cheltuielilor bugetare | Prezentul act normativ nu se referă la acest subiect |
+| 4.7. Prezentarea, în cazul proiectelor de acte normative a căror adoptare atrage majorarea cheltuielilor bugetare, a următoarelor documente: | Prezentul act normativ nu se referă la acest subiect |
+
+<table>
+<tbody>
+<tr><td>a) fișa financiară prevăzută la art.15 din Legea nr. 500/2002 privind finanțele publice, cu modificările și completările ulterioare, însoțită de ipotezele și metodologia de calcul utilizată;b) declarație conform căreia majorarea de cheltuială respectivă este compatibilă cu obiectivele și prioritățile strategice specificate în strategia fiscal-bugetară, cu legea bugetară anuală și cu plafoanele de cheltuieli prezentate în strategia fisca-bugetară</td><td></td></tr>
+<tr><td>4.8. Alte informații</td><td></td></tr>
+<tr><td colspan="2">Secțiunea a 5-aEfectele actului normativ asupra legislației în vigoare</td></tr>
+<tr><td colspan="2">5.1. Măsuri normative necesare pentru aplicarea prevederilor actului normativ:a) acte normative în vigoare ce vor fi modificate sau abrogate, ca urmare a intrării în vigoare a actului normativb) acte normative ce urmează a fi elaborate în vederea implementării noilor dispoziții.Prezentul act normativ nu se referă la acest subiect</td></tr>
+<tr><td colspan="2">5.2. Impactul asupra legislației în domeniul achizițiilor publice</td></tr>
+</tbody>
+</table>
+
+| Prezentul act normativ nu se referă la acest subiect |
+| --- |
+| 5.3. Conformitatea actului normativ cu legislația UE (în cazul proiectelor ce transpun sau asigură aplicarea unor prevederi de drept UE)Prezentul act normativ nu se referă la acest subiect |
+| 5.3.1. Măsuri normative necesare transpunerii directvelor UEPrezentul act normativ nu se referă la acest subiect |
+| 5.3.2. Măsuri normative necesare aplicării actelor legislative UEPrezentul act normativ nu se referă la acest subiect |
+| 5.4. Hotărâri ale Curții de Justiție a Uniunii EuropenePrezentul act normativ nu se referă la acest subiect |
+| 5.5. Alte acte normative și/sau documente internaționale din care decurg angajamente asumatePrezentul act normativ nu se referă la acest subiect |
+| 5.6. Alte informațiiNu este cazul |
+| Secțiunea a 6-aConsultările efectuate în vederea elaborării actului normativ |
+| 6.1. Informații privind neaplicarea procedurii de participare la elaborarea actelor normativePrezentul act normativ nu se referă la acest subiect |
+| 6.2. Informații privind procesul de consultare cu organizații neguvernamentale, institute de cercetare și alte organisme implicatePrezentul act normativ nu se referă la acest subiect |
+
+<table>
+<tbody>
+<tr><td colspan="2">6.3. Informații despre consultările organizate cu autoritățile administrației publice locale Prezentul act normativ nu se referă la acest subiect</td></tr>
+<tr><td colspan="2">6.4. Informații privind punctele de vedere/opinii emise de organisme consultative constituite prin acte normative Prezentul act normativ nu se referă la acest subiect</td></tr>
+<tr><td>6.5. Informații privind avizarea de către: a) Consiliul Legislativ b) Consiliul Suprem de Apărare a Țării c) Consiliul Economic și Social d) Consiliul Concurenței e) Curtea de Conturi</td><td>Proiectul de act normativ a fost avizat de Consiliul Legislativ prin avizul nr. 1025/2025.</td></tr>
+<tr><td colspan="2">6.6. Alte informații Nu este cazul.</td></tr>
+<tr><td colspan="2">Secțiunea a 7-a - Activități de informare publică privind elaborarea și implementarea actului normativ</td></tr>
+<tr><td colspan="2">7.1. Informarea societății civile cu privire la necesitatea elaborării actului normativ În procesul de elaborare a proiectului de act normativ au fost îndeplinite procedurile prevăzute de Legea nr. 52/2003 privind transparența decizională în administrația publică, republicată, cu modificările ulterioare. Proiectul de act normativ a fost</td></tr>
+</tbody>
+</table>
+
+publicat pe site-ul Ministerului Economiei, Digitalizării, Antreprenoriatului și Turismului în data de 12.11.2025.
+
+7.2. Informarea societății civile cu privire la eventualul impact asupra mediului în urma implementării actului normativ, precum și efectele asupra sănătății și securității cetățenilor sau diversității biologice
+
+Prezentul act normativ nu se referă la acest subiect.
+
+## 7.3. Alte informații
+
+Nu e cazul.
+
+## Secțiunea a 8-a
+
+Măsuri privind implementarea, monitorizarea și evaluarea proiectului de act
+
+## normativ
+
+8.1. Măsurile de punere în aplicare a actului normativ
+
+Actul normativ nu se referă la acest subiect.
+
+8.2. Alte informații
+
+Nu este cazul
+
+Față de cele prezentate, a fost elaborat proiectul de Lege privind aprobarea Ordonanței de urgență a Guvernului pentru completarea art.9 din Legea nr. 346/2004 privind stimularea înființării și dezvoltării întreprinderilor mici și mijlocii, pe care îl supunem Parlamentului spre adoptare.
+
+PRIM-MINISTRU
+
+ILIE-GAVRIL BOLOJAN

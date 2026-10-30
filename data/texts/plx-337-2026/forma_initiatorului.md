@@ -1,0 +1,39 @@
+# PARLAMENTUL ROMÂNIEI
+
+CAMERA DEPUTAȚILOR
+
+SENAT
+
+LEGE
+
+# pentru modificarea și completarea Legii nr. 182/ 2002 privind protecția informațiilor clasificate
+
+## Parlamentul Romaniei adopta prezenta Lege
+
+Art. I. Legea nr. 182/2002 privind protecția informațiilor clasificate, publicată în Monitorul Oficial al României, Partea I, nr. 248 din 12 aprilie 2002, se modifică și se completează după cum urmează:
+
+1\. După articolul 28, se introduce un nou articol, art. 28¹ cu următorul cuprins: Art. 28¹. – (1) Decizia de refuz sau de retragere a autorizației de securitate se motivează în fapt și în drept.
+
+(2) Dacă motivele conțin informații clasificate, autoritatea furnizează persoanei un rezumat neclasificat al acestora, care să permită exercitarea dreptului la apărare fără a periclita siguranța națională.
+
+(3) Nerespectarea obligației de motivare atrage nulitatea absolută a deciziei.
+
+## 2. Articolul 30 se modifică și va avea următorul cuprins:
+
+Art. 30. – Persoana vătămată poate ataca decizia la instanța de contencios administrativ. Instanța are obligația de a verifica temeinicia probelor care au fundamentat avizul negativ, având acces la dosarul complet în regim de confidențialitate.
+
+Art. II. În 60 de zile de la intrare în vigoare a prezentei legi, Guvernul va actualiza Hotărârea nr.585/2002 pentru aprobarea Standardelor naționale de protecție a informațiilor clasificate în România, publicată în Monitorul Oficial al României, Partea I nr. 485 din 5 iulie 2002.
+
+Această lege a fost adoptată de Parlamentul României cu respectarea prevederilor art. 75 si. ale art. 76 alin. (1) din Constituția României, republicată.
+
+PREȘEDINTELE
+
+PREȘEDINTELE
+
+CAMEREI DEPUTAȚILOR
+
+Sorin Mihai GRINDEANU
+
+SENATULUI
+
+Mircea ABRUDEAN

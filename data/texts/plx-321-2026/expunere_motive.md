@@ -1,47 +1,103 @@
-ROMANIA
+# EXPUNERE DE MOTIVE
 
-EXPUNERE DE MOTIVE
+Prezenta inițiativă legislativă are ca obiect modificarea și completarea Legii audiovizualului nr. 504/2002, în vederea consolidării regimului juridic aplicabil evenimentelor de importantă majoră și asigurării accesului publicului larg la evenimente de importantă majoră.
 
-Prezenta inițiativă legislativă are ca obiect modificarea și completarea Legii audiovizualului nr. 504/2002, în vederea consolidării regimului juridic aplicabil evenimentelor de importanță majoră și asigurării accesului publicului larg la evenimente de importanță majoră. in prezent, art. 21 din Legea nr. 504/2002 prevede că evenimentele de importanță majoră pot fi difuzate în exclusivitate numai dacă difuzarea nu privează o parte importantă a publicului din România de posibilitatea de a le urmări în direct sau în transmisie decalată, printr-un serviciu de programe cu acces liber. Totodată, în forma actuală a legii, lista evenimentelor considerate de importanță majoră, precum și procentul din populație care definește „parte importantă a publicului" și regimul de difuzare (în direct sau decalat, în tot sau în parte) sunt stabilite prin hotărâre a Guvernului, la propunerea Consiliului Național al Audiovizualului (CNA), fiind comunicate Comisiei Europene. In practica aplicării acestor dispoziții, lista evenimentelor de importanță majoră a rămas restrânsă, fără a reflecta suficient evoluțiile interesului public și realitatea socială privind accesul publicului la competiții sportive reprezentative. Meciurile echipelor naționale ale României la competiții majore constituie repere de interes general și contribuie la promovarea sportului și încurajarea participării publicului, în special a copiilor și tinerilor. În acest context, meciurile echipelor naționale de handbal feminin și masculin la Campionatul Mondial și la Campionatul European, competiții cu relevanță majoră și audiență semnificativă, nu sunt în prezent consacrate expres ca evenimente de importanță majoră, ceea ce poate conduce, în funcție de modul de valorificare a drepturilor de difuzare, la limitarea accesului liber al publicului larg. Propunerea legislativă introduce în mod expres în cuprinsul legii evenimentele de importanță majoră, asigurând astfel publicul din România că nu este privat de posibilitatea de a urmări aceste competiții în cadrul unui serviciu de programe cu acces liber. Totodată, proiectul clarifică regula potrivit căreia difuzarea evenimentelor de importanță majoră se face, de regulă, în direct, cu posibilitatea difuzării în transmisie decalată, în tot sau în parte, în condiții obiective, menținând un echilibru rezonabil între interesul public și mecanismele de funcționare a pieței drepturilor de difuzare. Se menține și obligația de comunicare către Comisia Europeană a listei și a modificărilor intervenite, in acord cu cerințele dreptului Uniunii Europene, atribuind această operațiune autorității de reglementare, respectiv CNA. Întrucât soluțiile în materia pragului și a listei evenimentelor sunt preluate la nivel de lege, proiectul prevede abrogarea Hotărârii Guvernului nr. 47/2003.
+În prezent, art. 21 din Legea nr. 504/2002 prevede că evenimentele de importantă majoră pot fi difuzate în exclusivitate numai dacă difuzarea nu privează o parte importantă a publicului din România de posibilitatea de a le urmări în direct sau în transmisie decalată, printr-un serviciu de programe cu acces liber.
 
-ROMANIA
+Totodată, în forma actuală a legii, lista evenimentelor considerate de importantă majoră, precum și procentul din populație care definește „parte importantă a publicului” și regimul de difuzare (în direct sau decalat, în tot sau în parte) sunt stabilite prin hotărâre a Guvernului, la propunerea Consiliului Național al Audiovizualului (CNA), fiind comunicate Comisiei Europene.
 
-Impactul social preconizat constă în creșterea accesului publicului la evenimente sportive de interes național, în condiții de echitate și nediscriminare, cu efecte pozitive asupra promovării sportului și a modelelor de performanță pentru tineri. Impactul juridic este unul pozitiv, prin sporirea stabilității și previzibilității reglementării, iar din perspectivă economică, măsura urmărește un echilibru între interesul public și valorificarea drepturilor, fără a elimina exclusivitatea, ci condiționând-o de respectarea accesului publicului la un serviciu cu acces liber. Luând în considerare argumentele prezentate, vă solicităm respectuos sprijinul în vederea adoptării prezentei propuneri legislative.
+În practica aplicării acestor dispoziții, lista evenimentelor de importantă majoră a rămas restrânsă, fără a reflecta suficient evoluțiile interesului public și realitatea socială privind accesul publicului la competiții sportive reprezentative. Meciurile echipelor naționale ale României la competiții majore constituie repere de interes general și contribuie la promovarea sportului și încurajarea participării publicului, în special a copiilor și tinerilor.
+
+În acest context, meciurile echipelor naționale de handbal feminin și masculin la Campionatul Mondial și la Campionatul European, competiții cu relevanță majoră și audiență semnificativă, nu sunt în prezent consacrate expres ca evenimente de importanță majoră, ceea ce poate conduce, în funcție de modul de valorificare a drepturilor de difuzare, la limitarea accesului liber al publicului larg.
+
+Propunerea legislativă introduce în mod expres în cuprinsul legii evenimentele de importantă majoră, asigurând astfel publicul din România că nu este privat de posibilitatea de a urmări aceste competiții în cadrul unui serviciu de programe cu acces liber.
+
+Totodată, proiectul clarifică regula potrivit căreia difuzarea evenimentelor de importantă majoră se face, de regulă, în direct, cu posibilitatea difuzării în transmisie decalată, în tot sau în parte, în condiții obiective, menținând un echilibru rezonabil între interesul public și mecanismele de funcționare a pieței drepturilor de difuzare. Se menține și obligația de comunicare către Comisia Europeană a listei și a modificărilor intervenite, în acord cu cerințele dreptului Uniunii Europene, atribuind această operațiune autorității de reglementare, respectiv CNA.
+
+Întrucât soluțiile în materia pragului și a listei evenimentelor sunt preluate la nivel de lege, proiectul prevede abrogarea Hotărârii Guvernului nr. 47/2003.
+
+Impactul social preconizat constă în creșterea accesului publicului la evenimente sportive de interes național, în condiții de echitate și nediscriminare, cu efecte pozitive asupra promovării sportului și a modelelor de performanță pentru tineri. Impactul juridic este unul pozitiv, prin sporirea stabilității și previzibilității reglementării, iar din perspectivă economică, măsura urmărește un echilibru între interesul public și valorificarea drepturilor, fără a elimina exclusivitatea, ci condiționând-o de respectarea accesului publicului la un serviciu cu acces liber.
+
+Luând în considerare argumentele prezentate, vă solicităm respectuos sprijinul în vederea adoptării prezentei propuneri legislative.
 
 INIȚIATORI:
 
-Deputat AUR Ciprian-Constantin Paraschiv\_
+Deputat AUR Ciprian-Constantin Paraschiv
 
-Deputat AUR Monica Iagăr
+Deputat AUR Monica Iagăr \_\_\_\_
 
-Deputat AUR Cosmin-Andrei Gușă \_ Deputat AUR Daniel-Răzvan Biro \_
+Deputat AUR Cosmin-Andrei Gușă \_\_\_\_
 
-Deputat AUR Lidia Vadim Tudor
+Deputat AUR Daniel-Răzvan Biro \_\_\_\_
 
-PARLAMENTUL ROMÂNIEI
+Deputat AUR Lidia Vadim Tudor \_\_\_\_
 
-LISTA Susținătorilor propunerii legislative - Lege pentru modificarea și completarea Legii audiovizualului nr. 504/2002 Nr. | Numele și prenumele | Grupul | Semnătura parlamentar SIMiON GEORGE 1. | MICOLAE 2. | PASCARIU AUR MiHAi-COSMIN JERBAY | AUR SCAMiMA AVRĂMESCU STEZÂMITA - ALiM | AuR Luciau Floriu 5. | PUȘCAȘU | AUR TILEA SUMiTRU 7. | Butură Custua- Ihia AuR PUSCAȘU PETRE | AUR
+## LISTA
 
-FLOREA GABRITL | AUK 10. | Priesc Ionelia | AUR C/ORxĞi DANiEL CATALIIY | Auk GÜRLUI LIViU 12- 13- CAMASA DAM | dUR: 15. SORiN MUNcACin AUR
+Susținătorilor propunerii legislative – Lege pentru modificarea și completarea Legii audiovizualului nr. 504/2002
 
-LISTA Susținătorilor propunerii legislative - Lege pentru modificarea și completarea Legii audiovizualului nr. 504/2002 Nr. | Numele și prenumele | Grupul | Semnătura parlamentar 15. BORDIAN ALEXANDRO | AOR 16. COLESA ILE-ALIN AUR
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1. | SIMION GEOROGE NICOLAE | AUR |  |
+| 2. | PASCARIU NIHAI-COSMIN | AUR |  |
+| 3. | SERBAY GIAMIHA | AUR |  |
+| 4. | AVRÂMESCU STEFÂNIITA-ALIN | AUR |  |
+| 5. | Lucianu Floriu PUSCAȘU | AUR |  |
+| 6. | TILEA DUMITRU | AUR |  |
+| 7. | Butură Cuisiua-Juna | AUR |  |
+| 8. | PUSCAȘU PETRE | AUR |  |
+| 9. | FLOREA CABRIZ | AUR |  |
+| 10. | Priescu lonelica | AUR |  |
+| 11. | CIORXEȘI ANRIEC EÂTML.IY | AUR |  |
+| 12. | GÜRLU' LIZIVU | AUR |  |
+| 13. | TATIASĂ DAY | AER |  |
+| 14. | SOSIN MUNCTAIJ | AUR |  |
 
-| AUR DASCAL CRISTINA - 18. | EMANNELA | AUR 19. LOVIH RAMOHA | tuk coshiy 20. | COREHIEA 21, Vulpoiu Dore | HUR 22. | MITREA DUMITRINA | AUR 23. HOBO& ELENA | Aur 24. Velesu Ferin Begalan | AUR RADU | AUR 25. | FABIAN - CRiSTiN POPESCU ANTONIO | AUR 26. | GABI NEGOESCU MILAÎ-BOGDAN | AUR 27. ENACHE DIANA | AUR 28.
+## LISTA
 
-LISTA
+Susținătorilor propunerii legislative – Lege pentru modificarea și completarea Legii audiovizualului nr. 504/2002
 
-Susținătorilor propunerii legislative - Lege pentru modificarea și completarea Legii audiovizualului nr. 504/2002
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 15. | BORDIAN ALEXANDRU | AOR |  |
+| 16. | COLESA IULIE-ALLW | AUR |  |
+| 17. | ENACHEMIHAI | AUR |  |
+| 18. | DASCAW CRISTINA - EMANNECA | AUR |  |
+| 19. | LOVIH RAMOHA | TUR |  |
+| 20. | COSNICU CONERUBA | AUR |  |
+| 21. | Vulpoiu Dorel | AUR |  |
+| 22. | MITREA BUNITRINA | AOR |  |
+| 23. | KOPBOF ELENA | AUR |  |
+| 24. | Velescu Eletin Bogelan | AUR |  |
+| 25. | RADV FABIAN - CRISTIN | AUR |  |
+| 26. | POPESCU ANTONIO GABI | AUR |  |
+| 27. | NIEGOESCU MIRAH-BOEGAN | AUR |  |
+| 28. | ENACHE DIANA | AUR |  |
 
-Nr. | Numele și prenumele | Grupul | Semnătura parlamentar 29. | PAUNESCU SiLVIU-TITUS | AUR
+## LISTA
 
-30 | jOSUB COSMIN TEODOR | A.U.R
+Susținătorilor propunerii legislative – Lege pentru modificarea și completarea Legii audiovizualului nr. 504/2002
 
-LISTA Susținătorilor propunerii legislative - Lege pentru modificarea și completarea Legii audiovizualului nr. 504/2002 Nr. | Numele și prenumele | Grupul | Semnătura parlamentar IACOB CONSTANTIM - CIPRIAH | AUR Constantinescu Rodica | AUR
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 29. | PAUNESCU 6iLiu-Tirug | AUR |  |
+| 30 | IOSUB COSMIN TEODOR | A.U.R. |  |
 
-3\. | Geamăne Stefare | AUR Lauric Sorin | AUR
+## LISTA
 
-5\. PARASCA TEOFIL | AUR Paucean-Fernandes Luminita | AUR TETRE GLCHGE CEAR > ALg ROMAL MARIUS -VALENTÍA | AVR -
+Susținătorilor propunerii legislative – Lege pentru modificarea și completarea Legii audiovizualului nr. 504/2002
 
-SANDU MIRCEA ¡ONUI | AUR STAU SUTATEL ACR. 10.
-
-11 . | VAȘILE MARiAX | AUR 12 .- | ACR
+| Nr. | Numele și prenumele | Grupul parlamentar | Semnătura |
+| --- | --- | --- | --- |
+| 1. | JACOB CONSTANTIN - CIPIN | AUR |  |
+| 2. | Laustaintinecu Podica | AUR |  |
+| 3. | Geacuănu Stefan | AUR |  |
+| 4. | Laurie Soriu | AUR |  |
+| 5. | PARASCA TEOFIL | AUR |  |
+| 6. | Paucean-fernandes Luminița | AUR |  |
+| 7. | TETRE GEUGE CEAR | AUR |  |
+| 8. | ROMAN MARIUS - VALENTIN | AUR |  |
+| 9. | SANDU HIRCEA IONUT | AUR |  |
+| 10. | SPAU KUTINIU | AUR |  |
+| 11. | VASICA MADIAX | AUR |  |
+| 12. | Laniela Stefouescu | AUR |  |

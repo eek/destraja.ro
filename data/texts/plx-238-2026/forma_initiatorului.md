@@ -1,0 +1,17 @@
+# PARLAMENTUL ROMÂNIEI
+
+## LEGE
+
+# pentru completarea Legii nr. 185/2013 privind amplasarea și autorizarea mijloacelor de publicitate
+
+Parlamentul României adoptă prezenta lege:
+
+## Articol unic :
+
+Articolul 50 din Legea nr. 185/2013 privind amplasarea și autorizarea mijloacelor de publicitate, publicată în Monitorul Oficial al României, Partea I, nr. 452 din 24 iulie 2013, cu modificările și completările ulterioare, se completează și va avea următorul cuprins:
+
+"Art. 50 : Dispozițiile prezentei legi referitoare la constatarea contravențiilor și aplicarea sancțiunilor contravenționale se completează cu prevederile art. 4 alin. (1) și art. 28 din Ordonanța Guvernului nr. 2/2001 privind regimul juridic al contravențiilor, aprobată cu modificări și completări prin Legea nr. 180/2002, cu modificările și completările ulterioare."
+
+Președinte al Camerei Deputaților,
+
+Președinte al Senatului,

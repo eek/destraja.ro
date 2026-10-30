@@ -1,31 +1,169 @@
-Expunere de motive
+# Expunere de motive
 
-1\. Context și necesitate In prezent, numeroși producători, importatori și dealeri de vehicule prevăd în certificatele de garanție clauze prin care anumite defecțiuni tehnice sunt excluse de la reparațiile gratuite. Printre acestea se numără pierderile de lichid de frână, pierderile de lichid de răcire, pierderile de agent frigorific (freon) sau defecțiunile de direcție ori structurale. Excluderea acestor defecțiuni este profund nocivă pentru siguranța rutieră și pentru protecția consumatorilor, întrucât: • pierderea lichidului de frână poate duce la imposibilitatea opririi vehiculului și producerea unor accidente grave; • pierderea lichidului de răcire poate cauza avarierea motorului și oprirea bruscă a vehiculului în trafic; • pierderea agentului frigorific afectează nu doar confortul, ci și sănătatea pasagerilor, mai ales în condiții extreme de temperatură; • defecțiunile de direcție și de retenție a pasagerilor compromit în mod direct siguranța circulației. Consumatorii sunt puși astfel într-o poziție de inferioritate contractuală, fiind nevoiți să suporte costuri semnificative pentru reparații ce ar trebui să cadă în sarcina celor care garantează calitatea și siguranța produsului. 2. Armonizare cu legislația europeană Directiva (UE) 2019/771 privind anumite aspecte referitoare la contractele de vânzare de bunuri stabilește obligația vânzătorului de a livra consumatorului bunuri conforme, definind conceptul de „lack of conformity" (lipsă de conformitate). Prin acest proiect, România transpune și detaliază obligațiile privind conformitatea vehiculelor, consolidând cadrul național prin precizarea expresă a defecțiunilor care nu pot fi excluse de la garanție.
+## 1. Context și necesitate
 
-In plus, proiectul introduce un capitol de definiții pentru a clarifica noțiuni precum »vehicul", „garant", „unitate reparatoare autorizată", „,lipsă de conformitate" și „defecțiuni esențiale", în vederea aplicării unitare a legii. 3. Reparațiile în garanție Proiectul consacră dreptul consumatorului de a alege între unitățile reparatoare proprii ale garantului și service-urile partenere autorizate. Astfel se evită practicile abuzive prin care unii profesioniști limitează accesul la reparații doar la rețeaua proprie, generând întârzieri sau costuri suplimentare. Toate unitățile reparatoare, fie proprii, fie partenere, trebuie să respecte aceleași standarde de calitate și siguranță. 4. Impactul reglementării Adoptarea legii va avea următoarele efecte pozitive: • creșterea nivelului de siguranță rutieră prin remedierea gratuită a defecțiunilor critice; • consolidarea protecției consumatorilor prin eliminarea clauzelor abuzive din certificatele de garanție; • creșterea încrederii cetățenilor în piața auto din România; • armonizarea cadrului național cu standardele europene privind lipsa de conformitate și garanțiile. 5. Concluzie Proiectul de lege are caracter de protecție socială și de siguranță publică, fiind de interes general. El creează un echilibru corect între drepturile consumatorilor și obligațiile profesioniștilor, punând accent pe siguranța rutieră, transparență contractuală și respectarea principiilor europene în materie de conformitate și garanție.
+În prezent, numeroși producători, importatori și dealeri de vehicule prevăd în certificatele de garanție clauze prin care anumite defecțiuni tehnice sunt excluse de la reparațiile gratuite. Printre acestea se numără pierderile de lichid de frână, pierderile de lichid de răcire, pierderile de agent frigorific (freon) sau defecțiunile de direcție ori structurale.
 
-Inițiatori: Deputat, Augustin-Florin Hagiu
+Excluderea acestor defecțiuni este profund nocivă pentru siguranța rutieră și pentru protecția consumatorilor, întrucât:
 
-Aspecte relevante pentru Jara | Ce prevede legislația / practica specifică proiectul pt România
+\- pierderea lichidului de frână poate duce la imposibilitatea opririi vehiculului și producerea unor accidente grave;
 
-Are două garanții legale: garanția legală de conformitate și garanția pentru „vices caches" Exemplul Franței arată cum (defecte ascunse). (Service Public) Garanția legală se poate garanta (prin lege) de conformitate acoperă defectele ce există la că defectele critice nu pot fi momentul livrării ("defauts de conformite lors de eliminate prin clauze Franța | la délivrancei), cu un termen de 2 ani. (Ministere contractuale. De asemenea, de l'Economie) Excluderile contractuale sau principiul de prezentare a clauzele care limitează garanția legală de defectelor și obligația de conformitate sau garanția pentru defecte ascunse informare sunt clare. sunt considerate nule dacă nu respectă condițiile legale. (Ministere de l'Economie
+\- pierderea lichidului de răcire poate cauza avarierea motorului și oprirea bruscă a vehiculului în trafic;
 
-Codul civil german (BGB) prevede răspunderea Germania poate fi folosită ca pentru defecte materiale („Sachmăngelhaftung") model pentru cum să care sunt existente la predarea bunului. restrângi clauzele de Excluderile sunt foarte restricționate, mai ales Germania | excludere, mai ales în cazul pentru defecte ascunse, și nu se pot exclude defectelor care afectează drepturile dacă vânzătorul a cunoscut defectul siguranța sau calitatea sau a garantat calitatea. (Association of Corporate esențială. Counsel)
+\- pierderea agentului frigorific afectează nu doar confortul, ci și sănătatea pasagerilor, mai ales în condiții extreme de temperatură;
 
-Legea prevede garanția pentru defecte ascunse Aspectul jurisdicțional din (vices caches) în Codul Civil și jurisprudența a Luxemburg arată că stabilit ca excluderea garanției defectelor ascunse Luxemburg | instanțele nu acceptă poate fi invalidă dacă vânzătorul a cunoscut excluderi absolute, ceea ce e defectul sau dacă clauza este formulată în mod util ca precedent. abuziv. (Avocats LEGAL OZ I Luxembourg)
+\- defecțiunile de direcție și de retenție a pasagerilor compromit în mod direct siguranța circulației.
 
-În raportul Comisiei Europene despre ạArticle 8a of the Consumer Sales and Guarantees Directivei, Acest lucru arată că există Belgia, | deschidere în UE pentru se menționează că aceste tări au legi naționale Austria, Italla, care merg dincolo de cerințele minime ale | standarde naționale mai Portugalia, | riguroase decât minimul UE directivei privind garanția legală, notificarea Polonia etc. | — ceea ce înseamnă că deficiențelor, termenul de prescripție, etc. (European Commission) | inițiativa mea legislativă are
+Consumatorii sunt puși astfel într-o poziție de inferioritate contractuală, fiind nevoiți să suporte costuri semnificative pentru reparații ce ar trebui să cadă în sarcina celor care garantează calitatea și siguranța produsului.
 
-Aspecte relevante pentru Țara | Ce prevede legislația / practica specifică proiectul pt România
+## 2. Armonizare cu legislația europeană
+
+Directiva (UE) 2019/771 privind anumite aspecte referitoare la contractele de vânzare de bunuri stabilește obligația vânzătorului de a livra consumatorului bunuri conforme, definind conceptul de „lack of conformity” (lipsă de conformitate).
+
+Prin acest proiect, România transpune și detaliază obligațiile privind conformitatea vehiculelor, consolidând cadrul național prin precizarea expresă a defecțiunilor care nu pot fi excluse de la garanție.
+
+În plus, proiectul introduce un capitol de definiții pentru a clarifica noțiuni precum „vehicul”, „garant”, „unitate reparatoare autorizată”, „lipsă de conformitate” și „defecțiuni esențiale”, în vederea aplicării unitare a legii.
+
+## 3. Reparațiile în garanție
+
+Proiectul consacră dreptul consumatorului de a alege între unitățile reparatoare proprii ale garantului și service-urile partenere autorizate. Astfel se evită practicile abuzive prin care unii profesioniști limitează accesul la reparații doar la rețeaua proprie, generând întârzieri sau costuri suplimentare.
+
+Toate unitățile reparatoare, fie proprii, fie partenere, trebuie să respecte aceleași standarde de calitate și siguranță.
+
+## 4. Impactul reglementării
+
+Adoptarea legii va avea următoarele efecte pozitive:
+
+\- creșterea nivelului de siguranță rutieră prin remedierea gratuită a defecțiunilor critice;
+
+consolidarea protecției consumatorilor prin eliminarea clauzelor abuzive din certificatele de garanție;
+
+\- creșterea încrederii cetățenilor în piața auto din România;
+
+\- armonizarea cadrului național cu standardele europene privind lipsa de conformitate și garanțiile.
+
+## 5. Concluzie
+
+Proiectul de lege are caracter de protecție socială și de siguranță publică, fiind de interes general.
+
+El creează un echilibru corect între drepturile consumatorilor și obligațiile profesioniștilor, punând accent pe siguranța rutieră, transparență contractuală și respectarea principiilor europene în materie de conformitate și garanție.
+
+## Inițiatori:
+
+Deputat, Augustin-Florin Hagiu
+
+## Tara
+
+## Franța
+
+## Ce prevede legislația / practica specifică
+
+Are două garanții legale: garanția legală de conformitate și garanția pentru „vices caches” (defecte ascunse). (Service Public) Garanția legală de conformitate acoperă defectele ce există la momentul livrării (“defauts de conformite lors de la delivrance”), cu un termen de 2 ani. (Ministere de l'Economie) Excluderile contractuale sau clauzele care limitează garanția legală de conformitate sau garanția pentru defecte ascunse sunt considerate nule dacă nu respectă condițiile legale. (Ministere de l'Economie)
+
+## Germania
+
+Codul civil german (BGB) prevede răspunderea pentru defecte materiale („Sachmângelhaftung”) care sunt existente la predarea bunului. Excluderile sunt foarte restricționate, mai ales pentru defecte ascunse, și nu se pot exclude drepturile dacă vânzătorul a cunoscut defectul sau a garantat calitatea. (Association of Corporate Counsel)
+
+## Luxemburg
+
+Legea prevede garanția pentru defecte ascunse (vices caches) în Codul Civil și jurisprudența a stabilit că excluderea garanției defectelor ascunse poate fi invalidă dacă vânzătorul a cunoscut defectul sau dacă clauza este formulată în mod abuziv. (Avocats LEGAL OZ I Luxembourg)
+
+În raportul Comisiei Europene despre „Article 8a of the Consumer Sales and Guarantees Directive” se menționează că aceste țări au legi naționale care merg dincolo de cerințele minime ale directivei privind garanția legală, notificarea deficientțelor, termenul de prescripție, etc. (European Commission)
+
+## Aspecte relevante pentru proiectul pt România
+
+Exemplul Franței arată cum se poate garanta (prin lege) că defectele critice nu pot fi eliminate prin clauze contractuale. De asemenea, principiul de prezentare a defectelor și obligația de informare sunt clare.
+
+Germania poate fi folosită ca model pentru cum să restrângi clauzele de excludere, mai ales în cazul defectelor care afectează siguranța sau calitatea esențială.
+
+Aspectul jurisdicțional din Luxemburg arată că instanțele nu acceptă excluderi absolute, ceea ce e util ca precedent.
+
+Acest lucru arată că există deschidere în UE pentru standarde naționale mai riguroase decât minimul UE — ceea ce înseamnă că inițiativa mea legislativă are
+
+Tara
+
+Ce prevede legislația / practica specifică
+
+Aspecte relevante pentru proiectul pt România
 
 susținere doctrinară și practică potențială.
 
-Nr.crt. | Nume și prenume | Grup | Semnătură HAGiU AUGUSTiN FLORIN | P SD 2 | MIHUTI 130GBAN -FLORIAN | ASA Fitótero catalia cua | PIA ENE CORINA | PSiD 5 . | JÂCH ADRIAN | PID MILIA MARIAN | PSD 7 . | DRiNCEANU VLAK | PSd FLORENION BOR§ MADALÍN | PS1 COfOCARU BOGDAN | PSD 10 | BEjiNARiu BUGEZ | 7SA TIUTA STEFAN | PSD BOGDAN C'UCĂ | PSD 13 | Geamănu tolelo | TSJ 14 : | Mircea Florin | PSD. GOVOR MIRLEA | Xs0 Manto Clandes | PSD 10 Nadó Eugn 18. | CiUHT IONEL | PSD preie plie Cruna nt |
+<table>
+<tbody>
+<tr><td>Nr.crt.</td><td>Nume și prenume</td><td>Grup</td><td>Semnătură</td></tr>
+<tr><td>1</td><td>HAGIU AUGUSTIN FLORIN</td><td>PSD</td><td rowspan="19"></td></tr>
+<tr><td>2</td><td>MİHUTI 1306DAN -FLORIAN</td><td>PSA</td></tr>
+<tr><td>3</td><td>Jištětiro chatalia Yluq</td><td>PSD</td></tr>
+<tr><td>4.</td><td>ENE CORINA</td><td>PSD</td></tr>
+<tr><td>5.</td><td>JÂCU ARAIAN</td><td>PA</td></tr>
+<tr><td>6.</td><td>MILA MARIAN</td><td>PSD</td></tr>
+<tr><td>7.</td><td>DRINCEANU VLAĐ FLORENDIN</td><td>PSD</td></tr>
+<tr><td>8.</td><td>BORȘ MĂDACIN</td><td>PSA</td></tr>
+<tr><td>9.</td><td>COYOCARU BOGDAN</td><td>PSD</td></tr>
+<tr><td>10.</td><td>BEGJIMARIU 64602</td><td>9SA</td></tr>
+<tr><td>11.</td><td>TINTA STETAN</td><td>PSD</td></tr>
+<tr><td>12.</td><td>BOGDAN C'UCA</td><td>PSD</td></tr>
+<tr><td>13.</td><td>Yeacmanu Idela</td><td>7SJ</td></tr>
+<tr><td>14.</td><td>Mircea Florin</td><td>PSD</td></tr>
+<tr><td>15.</td><td>Govor MİKCEA</td><td>PSD</td></tr>
+<tr><td>16.</td><td>Mando Claudn</td><td>PSD</td></tr>
+<tr><td>17.</td><td>Haoh Eugm</td><td>PSO</td></tr>
+<tr><td>18.</td><td>CIOHT 10AIEL</td><td>PSD</td></tr>
+<tr><td>19.</td><td>Neagu Petre -Emiouaraič</td><td>P.D.D.</td></tr>
+</tbody>
+</table>
 
-Nr.crt. | Nume și prenume | Grup | Semnătură 20 | Samoilś | TON | PSI 21. | Bucnk Arian | PSD 22 | STOENiCA iNiNA | PSA 23 | Iritatero datalia-Elenor | TISA 24 | TOVA ILE | PED 25 | GEORGESEU GHE. DANIEL | PSD 26 | MATICHESCU MIRELA | PSD 27 | ADOMNICHI MIRELA | PSA 28 | Chilot Lina Foela 29 | Jomsesc Jon Alii | PSD 30 | MASSAR RODICA | PSD e lilar | P.S.D NESCAN VOICO | 7S1 32 33 | CONSTANTiNESCU SERE U | PęĎ 34 | AHARUROĞ MELAN | pes 35. | DOLINEASCHI AMAREI | PSD 36. | RARA | HARIAN | JPSA 3‡ | Circau Doinita | PSL) 38 | Ghigiu Alexandru Mihai PSA 39 | BATiLA ALESANSRe | SILVIA MIHALCEA | PSA 41 | Crusoveane Marian | PALT 42 | SCARLAT GEDRGE | PNL 43 | Vela Icn Narcel | PNL
+| Nr.crt. | Nume și prenume | Grup |
+| --- | --- | --- |
+| 20 | Samois ION | PSD |
+| 21 | Bouw Arzaua | PSD |
+| 22 | STOENICA IVA'NA | PSA |
+| 23 | Shuturo Alatalio-Glena | PSD |
+| 24 | POEA iUE | PSD |
+| 25 | GEORGESCU GHE. DANIEL | PSD |
+| 26 | MATICHESCU MIRELA | PSD |
+| 27 | ANOMNICAI MIRELA | PSD |
+| 28 | ChilofCena Floela | PSD |
+| 29 | Tomocau Jon Ali | PSD |
+| 30 | MASSAR RODICA | PSD |
+| 31 | Angel Tilvar | P.S.D. |
+| 32 | VASCAN Voicu | PSD |
+| 33 | CONSTANTINESCU BZRAU | PSD |
+| 34 | ANDRUSEA WEIDAN | PSD |
+| 35 | DOLINEASCHI ANDREI | PSD |
+| 36 | BART Asarian | PSA |
+| 37 | Circau Joinita | PSD |
+| 38 | Ghigiu Alexandru Mihai | PSD |
+| 39 | ARJIA AZEKANDU | AVD |
+| 40 | SILVIA MITHALCEA | PSD |
+| 41 | Cruzovean Marian | PNL |
+| 42 | SOARLAT GEORGE | PNL |
+| 43 | Vela IOI MARCE | PNL |
+| 49 | Pandea Cyprien | PNL |
+| 45 | DUHAVA COSTEL HECULAI | PSO |
+| 46 | BUDACĂ VKSILE | PSD |
+| 47 | POPA JRIAY | PSO |
+| 48 | BOGBANOZ LUCIAN | PSO |
+| 49 | GIL KAROCY | USMR |
+| 50 | STABD ÖBÁN | USMR |
+| 51 | Parasduiescu Oridiu | USR |
+| 52 | PONTA VIETER | PSD |
+| 53 | Bonde Samdar | UDUR |
+| 54 | MIHAESCU MUGUR | AUR |
+| 55 | GROZA CALIN FLORIN | NEAFILIAT |
+| 56 | CIMPAN CRISHAN EMANUEL | POT |
+| 57 | SIHU AURORA TASICA | INDEPENDENT |
+| 58 | Pecilsan Sheorghe Petru | Independent |
+| 59 | ALBU SUMITRITA | Independent |
+| 60 | FÀGEȘ MİNĂQUİN LAURENTIÙ | Independent |
+| 61 | PLOPEANU ROBICA | INDEPENDENT |
+| 62 | GROPU DANIEL | POT |
+| 63 | OXENĂ BH ADRI | NELLAT |
+| 64 | BAGANU ȘİT. AEX. | PSO |
+| 65 | ION IORDAPE | PNL |
+| 66 | FURTUNĂ MİRELA | PSA |
+| 67 | LAQUȘAN LEMUS | PSD |
 
-Nr.crt. | Nume și prenume | Grup | Semnătură Pandea Ciprian | PNL 45 | DUHAVA COSTEL HECULAi | PSO 46 | BUDACA VASiLE | PSD POPA fRIAN | PSD 48 | BOGHINOZ LUCHN | PSA. 49 | GAILKAKOLY | USMR 50 | STABO ÖBIN | UsuR 51 | Paraschvesen Oxidin | USR 52 | PONTA VICER | PSD 53 | Bende Săndor. | UDMR 54 | MiHAESC MUGUR | AUR 55 | GROZA CALiN FLORIN | NEAFiLiAT 56 | CIMPAN CRISMAN EMANUEL | POT 57 SiHL AURORA TASICA | İNEPEMDENI 58 Biclișan Sheorghe Petsu | Independent 59 | ALBU DUMITRITA | Indepade-60 | FĂGES MADĂUN LAURENITU | Independent 61 | PLOPEANU ROBICA | INACENBZA 62 | GROFU Saniel | TOT 63 | CORNNĂ DU DANTE | ata llet 64 | Baiga nu If. Ales 6.5 | ION iORDACME | PRIL 66 | FURTUNĂ MiRELA | PSA 67 | LADUSAN REMUS | PSD
-
-Nr.crt. | Nume și prenume | Grup | Semnătură Fitor dilcn | PSg
-
-Nr.crt. | Nume și prenume | Grup | Semnătură
+| Nr.crt. | Nume și prenume | Grup | Semnătură |
+| --- | --- | --- | --- |
+| 60 | Tipor deleu | PSG |  |

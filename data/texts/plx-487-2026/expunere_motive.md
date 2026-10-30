@@ -1,37 +1,125 @@
-EXPUNERE DE MOTIVE la propunerea legislativă privind desființarea Agenției Române pentru Investiții și Comerț Exterior
+# EXPUNERE DE MOTIVE
 
-I. DESCRIEREA SITUAȚIEI ACTUALE
+la propunerea legislativă privind desființarea Agenției Române pentru Investiții și Comerț Exterior
 
-Agenția Română pentru Investiții și Comerț Exterior a fost înființată prin Ordonanța de urgență a Guvernului nr. 147/2022, ca organ de specialitate al administrației publice centrale, cu personalitate juridică, aflat în subordinea Guvernului și în coordonarea prim-ministrului, finanțat de la bugetul de stat prin bugetul Secretariatului General al Guvernului. Organizarea și funcționarea instituției au fost stabilite ulterior prin Hotărârea Guvernului nr. 153/2023. Înființarea Agenției s-a realizat prin divizarea parțială a Ministerului Antreprenorialului și Turismului, aceasta preluând atribuțiile și activitățile din domeniul atragerii investițiilor străine și promovării comerțului exterior, precum și personalul și patrimoniul aferente acestor structuri. Rațiunea instituirii unei entități autonome a fost justificată, la momentul adoptării ordonanței de urgență, prin necesitatea intensificării eforturilor de atragere a investițiilor străine, reducerea deficitului balanței comerciale, precum și prin contextul economic marcat de efectele pandemiei de COVID-19 și de evoluțiile geopolitice regionale. În prezent, atribuțiile Agenției includ elaborarea și implementarea politicilor de atragere a investițiilor, promovarea exporturilor, reprezentarea intereselor economice ale României în relațiile comerciale externe, coordonarea rețelei de reprezentare economică externă, precum și gestionarea unor mecanisme instituționale aferente procesului de aderare la Organizația pentru Cooperare și Dezvoltare Economică. Cu toate acestea, analiza funcțională a cadrului instituțional relevă existența unor suprapuneri de competențe și a unei fragmentări administrative în domeniul politicilor economice externe. Atribuțiile exercitate de Agenție sunt, prin natura lor, interdependente de politicile economice generale și de diplomația economică, domenii aflate în competența ministerelor de profil. De asemenea, organizarea unei structuri autonome, aflate în coordonarea directă a prim-ministrului, presupune menținerea unui aparat administrativ distinct, cu funcții de conducere, servicii suport și cheltuieli de funcționare proprii, ceea ce conduce la o creștere a costurilor administrative comparativ cu integrarea acestor atribuții într-o structură ministerială existentă.
+## I. DESCRIEREA SITUAȚIEI ACTUALE
+
+Agenția Română pentru Investiții și Comerț Exterior a fost înființată prin Ordonanța de urgență a Guvernului nr. 147/2022, ca organ de specialitate al administrației publice centrale, cu personalitate juridică, aflat în subordinea Guvernului și în coordonarea prim-ministrului, finanțat de la bugetul de stat prin bugetul Secretariatului General al Guvernului. Organizarea și funcționarea instituției au fost stabilite ulterior prin Hotărârea Guvernului nr. 153/2023.
+
+Înființarea Agenției s-a realizat prin divizarea parțială a Ministerului Antreprenorialului și Turismului, aceasta preluând atribuțiile și activitățile din domeniul atragerii investițiilor străine și promovării comerțului exterior, precum și personalul și patrimoniul aferente acestor structuri. Rațiunea instituirii unei entități autonome a fost justificată, la momentul adoptării ordonanței de urgență, prin necesitatea intensificării eforturilor de atragere a investițiilor străine, reducerea deficitului balanței comerciale, precum și prin contextul economic marcat de efectele pandemiei de COVID-19 și de evoluțiile geopolitice regionale.
+
+În prezent, atribuțiile Agenției includ elaborarea și implementarea politicilor de atragere a investițiilor, promovarea exporturilor, reprezentarea intereselor economice ale României în relațiile comerciale externe, coordonarea rețelei de reprezentare economică externă, precum și gestionarea unor mecanisme instituționale aferente procesului de aderare la Organizația pentru Cooperare și Dezvoltare Economică.
+
+Cu toate acestea, analiza funcțională a cadrului instituțional relevă existența unor suprapuneri de competențe și a unei fragmentări administrative în domeniul politicilor economice externe. Atribuțiile exercitate de Agenție sunt, prin natura lor, interdependente de politicile economice generale și de diplomația economică, domenii aflate în competența ministerelor de profil. De asemenea, organizarea unei structuri autonome, aflate în coordonarea directă a prim-ministrului, presupune menținerea unui aparat administrativ distinct, cu funcții de conducere, servicii suport și cheltuieli de funcționare proprii, ceea ce conduce la o creștere a costurilor administrative comparativ cu integrarea acestor atribuții într-o structură ministerială existență.
 
 În contextul actual al necesității consolidării fiscale și al eficientizării cheltuielilor publice, menținerea unei structuri distincte trebuie reevaluată prin prisma principiilor economicității, eficienței și coerenței instituționale.
 
-II. SCOPUL URMĂRIT PRIN PREZENTUL PROIECT DE LEGE ȘI SCHIMBĂRILE PRECONIZATE
+## II. SCOPUL URMĂRIT PRIN PREZENTUL PROIECT DE LEGE ȘI SCHIMBĂRILE PRECONIZATE
 
-Prezentul proiect de lege are ca obiect reorganizarea administrativă a activităților din domeniul promovării investițiilor și comerțului exterior, prin desființarea Agenției Române pentru Investiții și Comerț Exterior și preluarea integrală a atribuțiilor acesteia de către Ministerul Afacerilor Externe, în condițiile asigurării continuității funcționale și juridice a activității. Intervenția legislativă este fundamentată pe prerogativa statului de a-și organiza structurile administrative în mod eficient, în conformitate cu principiile legalității, bunei administrări și utilizării responsabile a fondurilor publice. În acest sens, evaluarea funcționării instituției, corelată cu evoluțiile economice recente și cu necesitatea consolidării coordonării la nivel guvernamental, relevă oportunitatea integrării atribuțiilor într-o structură aflată în subordinea unui minister. Pentru anul 2025, Agenției Române pentru Investiții și Comerț Exterior i-au fost aprobate credite de angajament în cuantum de 176.814 mii lei și credite bugetare în cuantum de 94.060 mii lei. În considerarea acestor alocări, se impune asigurarea unci corelări adecvate între resursele financiare utilizate și capacitatea instituțională de implementare a obiectivelor stabilite în domeniul atragerii investițiilor și promovării exporturilor. În același timp, datele macroeconomice recente indică o creștere a exporturilor României până la aproximativ 96,6 miliarde euro în anul 2025, concomitent cu majorarea importurilor la circa 129,3 miliarde euro, menținând un deficit semnificativ al balanței comerciale. Deși exporturile au înregistrat o creștere anuală de 4,2%, iar importurile de 2,6%, dezechilibrul comercial persistă, evidențiind necesitatea consolidării mecanismelor de promovare a intereselor economice externe ale statului. Reorganizarea propusă nu reprezintă o diminuare a atribuțiilor statului în domeniul investițiilor și comerțului exterior, ci o reașezare instituțională menită să asigure o coordonare unitară, o clarificare a responsabilităților și o utilizare mai eficientă a resurselor administrative.
+Prezentul proiect de lege are ca obiect reorganizarea administrativă a activităților din domeniul promovării investițiilor și comerțului exterior, prin desființarea Agenției Române pentru Investiții și Comerț Exterior și preluarea integrală a atribuțiilor acesteia de către Ministerul Afacerilor Externe, în condițiile asigurării continuității funcționale și juridice a activității.
 
-Înființarea Direcției Generale pentru Investiții și Comerț Exterior în cadrul Ministerul Afecerilor Externe garantează exercitarea neîntreruptă a atribuțiilor preluate. Proiectul de lege reglementează în mod expres transferul patrimoniului, al drepturilor și obligațiilor, al contractelor, acordurilor și litigilor, precum și subrogarea de drept a Ministerului Afacerilor Externe în toate raporturile juridice ale Agenției, asigurând stabilitatea și continuitatea juridică. Totodată, personalul este preluat și încadrat cu respectarea regimului juridic aplicabil fiecărei categorii de funcții și a drepturilor salariale prevăzute de lege, nefiind afectate drepturi individuale dobândite potrivit legii. Reorganizarea se realizează cu respectarea angajamentelor asumate de statul român în plan internațional, atribuțiile relevante fiind exercitate în continuare, fără întreruperi sau modificări care să afecteze obligațiile existente în cadrul mecanismelor și proceselor internaționale la care România este parte. Prin prezenta măsură legislativă se urmărește consolidarea capacității administrative a Guvernului în domeniul diplomației 'economice, în condiții de proporționalitate, continuitate instituțională'și responsabilitate bugetară, fără afectarea stabilității raporturilor juridice existente și fără diminuarea rolului statului în promovarea investițiilor și exporturilor.
+Intervenția legislativă este fundamentată pe prerogativa statului de a-și organiza structurile administrative în mod eficient, în conformitate cu principiile legalității, bunei administrări și utilizării responsabile a fondurilor publice. În acest sens, evaluarea funcționării instituției, corelată cu evoluțiile economice recente și cu necesitatea consolidării coordonării la nivel guvernamental, relevă oportunitatea integrării atribuțiilor într-o structură aflată în subordinea unui minister.
 
-IIL. IMPACTUL FINANCIAR-BUGETAR ȘI EFECTELE PROIECTULUI ASUPRA LEGISLAȚIEI ÎN VIGOARE
+Pentru anul 2025, Agenției Române pentru Investiții și Comerț Exterior i-au fost aprobate credite de angajament în cuantum de 176.814 mii lei și credite bugetare în cuantum de 94.060 mii lei. În considerarea acestor alocări, se impune asigurarea unei corelări adecvate între resursele financiare utilizate și capacitatea instituțională de implementare a obiectivelor stabilite în domeniul atragerii investițiilor și promovării exporturilor.
 
-Din perspectivă financiar-bugetară, proiectul de lege generează economii prin desființarea unei structuri autonome și integrarea atribuțiilor acesteia într-un minister existent. Eliminarea nivelului distinct de conducere și a aparatului administrativ aferent conduce la reducerea cheltuielilor de personal asociate funcțiilor de conducere și structurilor suport. Totodată, integrarea activităților în cadrul unei structuri ministeriale deja funcționale permite evitarea duplicării serviciilor administrative (juridic, resurse umane, financiar-contabil, achiziții, IT), precum și optimizarea utilizării infrastructurii logistice și a resurselor materiale. Proiectul nu presupune crearea de noi posturi și nu implică majorări ale cheltuielilor bugetare. Personalul aferent atribuțiilor preluate va fi încadrat în limita posturilor aprobate, cu respectarea bugetelor existente. Prin reducerea fragmentării administrative și eliminarea costurilor structurale ale unei
+În același timp, datele macroeconomice recente indică o creștere a exporturilor României până la aproximativ 96,6 miliarde euro în anul 2025, concomitent cu majorarea importurilor la circa 129,3 miliarde euro, menținând un deficit semnificativ al balanței comerciale. Deși exporturile au înregistrat o creștere anuală de 4,2%, iar importurile de 2,6%, dezechilibrul comercial persistă, evidențiind necesitatea consolidării mecanismelor de promovare a intereselor economice externe ale statului.
 
-entități distincte, măsura contribuie la eficientizarea utilizării fondurilor publice și la consolidarea disciplinei financiar-bugetare.
+Reorganizarea propusă nu reprezintă o diminuare a atribuțiilor statului în domeniul investițiilor și comerțului exterior, ci o reașezare instituțională menită să asigure o coordonare unitară, o clarificare a responsabilităților și o utilizare mai eficientă a resurselor administrative.
+
+Înființarea Direcției Generale pentru Investiții și Comerț Exterior în cadrul Ministerul Afecerilor Externe garantează exercitarea neîntreruptă a atribuțiilor preluate.
+
+Proiectul de lege reglementează în mod expres transferul patrimoniului, al drepturilor și obligațiilor, al contractelor, acordurilor și litigiilor, precum și subrogarea de drept a Ministerului Afacerilor Externe în toate raporturile juridice ale Agenției, asigurând stabilitatea și continuitatea juridică. Totodată, personalul este preluat și încadrat cu respectarea regimului juridic aplicabil fiecărei categorii de funcții și a drepturilor salariale prevăzute de lege, nefiind afectate drepturi individuale dobândite potrivit legii.
+
+Reorganizarea se realizează cu respectarea angajamentelor asumate de statul român în plan internațional, atribuțiile relevante fiind exercitate în continuare, fără întreruperi sau modificări care să afecteze obligațiile existente în cadrul mecanismelor și proceselor internaționale la care România este parte.
+
+Prin prezenta măsură legislativă se urmărește consolidarea capacității administrative a Guvernului în domeniul diplomației economice, în condiții de proporționalitate, continuitate instituțională și responsabilitate bugetară, fără afectarea stabilității raporturilor juridice existente și fără diminuarea rolului statului în promovarea investițiilor și exporturilor.
+
+## III. IMPACTUL FINANCIAR-BUGETAR ȘI EFECTELE PROIECTULUI ASUPRA LEGISLAȚIEI ÎN VIGOARE
+
+Din perspectivă financiar-bugetară, proiectul de lege generează economii prin desființarea unei structuri autonome și integrarea atribuțiilor acesteia într-un minister existent.
+
+Eliminarea nivelului distinct de conducere și a aparatului administrativ aferent conduce la reducerea cheltuielilor de personal asociate funcțiilor de conducere și structurilor suport. Totodată, integrarea activităților în cadrul unei structuri ministeriale deja funcționale permite evitarea duplicării serviciilor administrative (juridic, resurse umane, financiar-contabil, achiziții, IT), precum și optimizarea utilizării infrastructurii logistice și a resurselor materiale.
+
+Proiectul nu presupune crearea de noi posturi și nu implică majorări ale cheltuielilor bugetare. Personalul aferent atribuțiilor preluate va fi încadrat în limita posturilor aprobate, cu respectarea bugetelor existente.
+
+Prin reducerea fragmentării administrative și eliminarea costurilor structurale ale unei
+
+\\therefore m = \\frac311 ;
+
+1\. 用 NaOH 在每一琼脂块内扩散的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH- 和 NaCl- 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH+ 和 NaCl+ 的体积来计算 NaOH- 和 NaCl-entități distincte, măsura contribuie la eficientizarea utilizării fondurilor publice și la consolidarea disciplinei financiar-bugetare.
 
 IV. EFECTELE PROIECTULUI DE ACT NORMATIV ASUPRA LEGISLAȚIEI ÎN VIGOARE
 
-Urmare a intrării în vigoare a proiectului de act normativ, următoarele acte normative vor fi modificate: Ordonanța de Urgență a Guvernului nr. 147/2022 privind înființarea, organizarea și funcționarea Agenției Române pentru Investiții și Comerț Exterior, precum și pentru modificarea Ordonanței de urgență a Guvernului nr. 43/2017 privind înființarea, organizarea și funcționarea agențiilor pentru întreprinderi mici și mijlocii, atragere de investiții și promovare a exportului, publicată în Monitorul Oficial al României, nr. 1048 din 28 octombrie 2022 - Hotararea Guvernului nr.| 153/2023 privind organizarea și funcționarea Agenției Române pentru Investiții și Comerț Exterior
+Urmare a intrării în vigoare a proiectului de act normativ, următoarele acte normative vor fi modificate:
+
+\- Ordonanța de Urgență a Guvernului nr. 147/2022 privind înființarea, organizarea și funcționarea Agenției Române pentru Investiții și Comerț Exterior, precum și pentru modificarea Ordonanței de urgență a Guvernului nr. 43/2017 privind înființarea, organizarea și funcționarea agențiilor pentru întreprinderi mici și mijlocii, atragere de investiții și promovare a exportului, publicată în Monitorul Oficial al României, nr. 1048 din 28 octombrie 2022
+
+\- Hotararea Guvernului nr.1 153/2023 privind organizarea și funcționarea Agenției Române pentru Investiții și Comerț Exterior
 
 Față de cele expuse, solicităm dezbaterea și adoptarea prezentei propuneri legislative.
 
-Inițiator, Cezar-Mihail Drăgoescu, deputat USR Dolj
+Inițiator,
 
-¡ label de semnături LEGE privind desființarea Agenției Române pentru Investiții și Comerț Exterior
+Cezar-Mihail Drăgoescu, deputat USR Dolj
 
-Nr. | Nume și prenume | Semnătură | Grup crt. | parlamentar Radu Mihain | USR SEMORON VLAO-10AN | USR MURARiU OANA | USR ALIA STOIDA | USR CELTÍNA PRUNĂ | USA TAKASA SEFAIZ | Ose Mordssi Geoide | USR ALESANR NIKOLE | USR PLUSAR ANDREi | US 12 GHEORGHIU ANDREI | USR | usn USQ Paraschivescu Ovidin | USR Diana Stoica | USR
+## Tabel de semnături
 
-Tabel de semnături LEGE privind desființarea Agenției Române pentru Investiții și Comerț Exterior
+LEGE privind desfünțarea Agenției Române pentru Investiții și Comerț Exterior
 
-Nr. | Nume și prenume | Semnătură | Grup crt. | parlamentar | USR 2 | DOBRA ASELiHA | USR CRiSTiAN GHINEA | USR 4 | CiBUROEASH | USR 5 CERNiC SEBASTIAM | USiZ • Mircu | USk 7 | use WELOT EVEEN REMUS | USR 9 STATARO SIMOA | USR 1o PALARTE FETAS | USR 843S S92H: | VER
+<table>
+<tbody>
+<tr><td>Nr.crt.</td><td>Nume și prenume</td><td rowspan="13">Semnătură</td><td>Grupparlamentar</td></tr>
+<tr><td></td><td>Radu MihaiySENORON VLAD-104N</td><td>USR</td></tr>
+<tr><td></td><td>MURARIU OANA</td><td>USR</td></tr>
+<tr><td></td><td>ALIX SPOI DA</td><td>USR</td></tr>
+<tr><td></td><td>CELISINA PREUNA</td><td>USR</td></tr>
+<tr><td></td><td>TAKASA SEFAIX</td><td>USR</td></tr>
+<tr><td></td><td>MORSSI GEORIQALECSARRU SEHARIUS-NICO2AE</td><td>USR</td></tr>
+<tr><td></td><td>PLUJAN ANDREI</td><td>USR</td></tr>
+<tr><td></td><td>BHEOCHIO ANDREI</td><td>USR</td></tr>
+<tr><td></td><td>Djinitmij AGRIONANI</td><td>USR</td></tr>
+<tr><td></td><td>Smoniul IINGUMONU</td><td>USR</td></tr>
+<tr><td></td><td>Paraschivescu Qvidiu</td><td>USR</td></tr>
+<tr><td></td><td>Diana Stóica</td><td>USR</td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
 
-13 RUS VASILE-C PRIAN | USR ‡
+## Tabel de semnături
+
+LEGE privind desființarea Agenției Române pentru Investiții și Comerț Exterior
+
+<table>
+<tbody>
+<tr><td>Nr.crt.</td><td>Nume și prenume</td><td rowspan="15">Semnătură</td><td>Grupparlamentar</td></tr>
+<tr><td>1.</td><td>Opuntiu Huel</td><td>USR</td></tr>
+<tr><td>2.</td><td>DOBRA ANECI'HA</td><td>USR</td></tr>
+<tr><td>3.</td><td>CRISTIAN GRIINIGA</td><td>USR</td></tr>
+<tr><td>4.</td><td>CIBU DEACO'OUROXAND'BA</td><td>USR</td></tr>
+<tr><td>5.</td><td>CEENIE SEBASTI'AM</td><td>USR2</td></tr>
+<tr><td>6.</td><td>VHICEYU NAnous</td><td>USR</td></tr>
+<tr><td>7.</td><td>ANGHEL RAZON-Paul</td><td>USE</td></tr>
+<tr><td>8.</td><td>NEEOL EVGEN REMUS</td><td>USR</td></tr>
+<tr><td>9.</td><td>SIATARV SIMO'AA</td><td>USR</td></tr>
+<tr><td>10.</td><td>PALANIE STEFAX</td><td>USR</td></tr>
+<tr><td>11.</td><td>BILSS SORH</td><td>USR</td></tr>
+<tr><td>12.</td><td>JBLAURCHYCHROGHE</td><td>USR</td></tr>
+<tr><td>13.</td><td>RUS VASILE-CIPRI'AN</td><td>USR</td></tr>
+<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>

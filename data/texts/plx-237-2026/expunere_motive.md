@@ -183,4 +183,12 @@ LISTA
 </tbody>
 </table>
 
-*Documentul are 13 pagini; am citit primele 12.*
+Susținătorilor propunerii legislative – Lege privind prevenirea și combaterea deșertificării și degradării solului
+
+LISTA
+
+<table>
+<tbody>
+<tr><td>Nr.</td><td>Numele și prenumele</td><td>Grupul parlamentar</td><td>Semnătura</td></tr>
+</tbody>
+</table>

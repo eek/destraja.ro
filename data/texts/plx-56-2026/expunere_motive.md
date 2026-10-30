@@ -1,18 +1,24 @@
-EXPUNERE DE MOTIVE
+## EXPUNERE DE MOTIVE
 
 Legea nr.350/2005 privind regimul finanțărilor nerambursabile din fonduri publice pentru activități nonprofit de interes general reprezintă cadrul juridic fundamental pentru sprijinirea sectorului nonprofit în România. Această lege a demonstrat utilitatea sa în ultimii aproape douăzeci de ani, contribuind la dezvoltarea unei societăți civile active și la implementarea numeroaselor proiecte de interes public.
 
 Totuși, experiența acumulată în perioada de aplicare a legii a evidențiat o limitare semnificativă: restricția finanțărilor la durata unui singur an bugetar. Această limitare afectează în mod substanțial capacitatea organizațiilor nonprofit și a comunităților locale de a dezvolta și implementa proiecte complexe care necesită o abordare strategică pe termen lung.
 
-Beneficiile finanțărilor multianuale
+## Beneficiile finanțărilor multianuale
 
 Introducerea acordurilor-cadru pe mai mulți ani ar permite:
 
-\- planificare strategică și predictibilitate pentru organizațiile nonprofit; - stabilitate în angajarea personalului și dezvoltarea de parteneriate durabile; - reducerea poverii administrative și concentrarea pe rezultate; - creșterea eficienței utilizării fondurilor publice și a impactului social.
+\- planificare strategică și predictibilitate pentru organizațiile nonprofit;
+
+\- stabilitate în angajarea personalului și dezvoltarea de parteneriate durabile;
+
+\- reducerea poverii administrative și concentrarea pe rezultate;
+
+\- creșterea eficienței utilizării fondurilor publice și a impactului social.
 
 Stabilitatea finanțării va permite și o mai bună planificare a resurselor locale.
 
-Beneficiile finanțărilor multianuale pentru organizațiile nonprofit
+## Beneficiile finanțărilor multianuale pentru organizațiile nonprofit
 
 Introducerea posibilității finanțărilor multianuale va aduce beneficii substanțiale pentru organizațiile nonprofit din România. Aceste entități vor putea să își planifice activitatea într-un orizont de timp mai larg, ceea ce va permite dezvoltarea de strategii coerente și sustenabile. Planificarea pe termen mediu și lung va facilita angajarea și menținerea personalului specializat, element esențial pentru implementarea eficientă a proiectelor complexe.
 
@@ -20,56 +26,125 @@ Finanțările multianuale vor permite organizațiilor nonprofit să dezvolte par
 
 De asemenea, mecanismul propus va reduce semnificativ povara administrativă asupra organizațiilor mici și mijlocii din sectorul nonprofit. În loc să depună cereri anuale pentru fiecare etapă a unui proiect complex, acestea vor putea să se concentreze pe activitățile de implementare și pe livrarea de rezultate concrete către comunitate.
 
-Impactul asupra comunităților locale
+Comunitățile locale vor beneficia în mod direct de introducerea finanțărilor multianuale prin îmbunătățirea calității și continuității serviciilor oferite de organizațiile nonprofit. Proiectele sociale, educaționale și culturale vor putea fi planificate și implementate cu o viziune pe termen lung, ceea ce va genera impact durabil în comunitățile beneficiare. Comunitățile locale vor putea, de asemenea, să își planifice mai eficient propriile resurse și să dezvolte strategii integrate de dezvoltare, cunoscând că anumite componente ale acestor strategii vor beneficia de sprijin financiar stabil pe o perioadă mai lungă. Creșterea eficienței în utilizarea fondurilor publice Modificarea propusă va contribui la creșterea eficienței în utilizarea fondurilor publice prin reducerea costurilor administrative atât pentru beneficiari, cât și pentru autoritățile finanțatoare. Procedurile de evaluare și monitorizare vor putea fi optimize, iar eforturile administrative vor fi redirecționate către activități care generează valoare publică directă. Finanțările multianuale vor facilita implementarea de proiecte cu raport cost-beneficiu superior, deoarece organizațiile nonprofit vor putea să își asume obiective mai ambițioase și să dezvolte metodologii de lucru mai sofisticate. Acest lucru va conduce la o creștere a impactului social generat de fiecare leu investit din fonduri publice. Transparența și responsabilitatea publică Contractele anuale subsecvente vor asigura menținerea controlului bugetar și vor permite autorităților finanțatoare să monitorizeze progresul și să facă ajustări acolo unde este necesar. Această abordare echilibrată păstrează avantajele planificării bugetare anuale, oferind în același timp flexibilitatea necesară pentru proiecte complexe. Mecanismul propus este conceput pentru a fi simplu și ușor de implementat. Implementarea acestei modificări nu va necesita resurse financiare suplimentare de la bugetul de stat, ci doar o reorganizare a procedurilor existente. Autoritățile finanțatoare vor putea să adopte treptat acest mecanism, începând cu proiecte pilot în domenii prioritare. Așadar, finanțările multianuale reprezintă un pas necesar pentru consolidarea sectorului nonprofit și pentru creșterea impactului social al acestuia, contribuind la dezvoltarea durabilă a comunităților și la modernizarea mecanismelor de finanțare publică în România. Având în vedere argumentele prezentate mai sus, înaintăm Parlamentului României, spre dezbatere și adoptare, prezenta propunere legislativă.
 
-Comunitățile locale vor beneficia în mod direct de introducerea finanțărilor multianuale prin îmbunătățirea calității și continuității serviciilor oferite de organizațiile nonprofit. Proiectele sociale, educaționale și culturale vor putea fi planificate și implementate cu o viziune pe termen lung, ceea ce va genera impact durabil în comunitățile beneficiare.
+## INIȚIATORI
 
-Comunitățile locale vor putea, de asemenea, să își planifice mai eficient propriile resurse și să dezvolte strategii integrate de dezvoltare, cunoscând că anumite componente ale acestor strategii vor beneficia de sprijin financiar stabil pe o perioadă mai lungă.
+<table>
+<tbody>
+<tr><td>Nr. crt.</td><td>NUME ȘI PRENUME</td><td>GRUP PARLAMENTAR</td><td>SEMNĂTURA</td></tr>
+<tr><td>1.</td><td>Cîmpean Ovidiu-Vasile</td><td>PNL</td><td rowspan="16"></td></tr>
+<tr><td>2.</td><td>MITITELU EDUARĂ-TATIAN</td><td>PNL</td></tr>
+<tr><td>3.</td><td>BAVEICU VENTĂ</td><td>PNL</td></tr>
+<tr><td>4.</td><td>CIOBANV ADIZIAN</td><td>PNL</td></tr>
+<tr><td>5.</td><td>MOISIN RADV-NADIN</td><td>PNL</td></tr>
+<tr><td>6.</td><td>Puna Bobaud</td><td>UDMR</td></tr>
+<tr><td>7.</td><td>Nagy Sabalds</td><td>UDMR</td></tr>
+<tr><td>8.</td><td>MARUR LORAND-BOLNT</td><td>UDMR</td></tr>
+<tr><td>9.</td><td>ROMAN FEORIN</td><td>PNL</td></tr>
+<tr><td>10.</td><td>AMRONACHE GABRIEL</td><td>PNL</td></tr>
+<tr><td>11.</td><td>Raluee Julcea</td><td>PNL</td></tr>
+<tr><td>12.</td><td>Cnsovean Marion</td><td>PNL</td></tr>
+<tr><td>13.</td><td>Pandea Cyprion</td><td>PNL</td></tr>
+<tr><td>14.</td><td>DOGANIONEL</td><td>PNL</td></tr>
+<tr><td>15.</td><td>Oprua Octonion</td><td>PNL</td></tr>
+<tr><td>16.</td><td>Gal Calin</td><td>PN.L</td></tr>
+</tbody>
+</table>
 
-Creșterea eficienței în utilizarea fondurilor publice
+17\. Govor Mircaa PSO
 
-Modificarea propusă va contribui la creșterea eficienței în utilizarea fondurilor publice prin reducerea costurilor administrative atât pentru beneficiari, cât și pentru autoritățile finanțatoare. Procedurile de evaluare și monitorizare vor putea fi optimizate, iar eforturile administrative vor fi redirecționate către activități care generează valoare publică directă.
+18\. LAPUSAN REMUS 9SD
 
-Finanțările multianuale vor facilita implementarea de proiecte cu raport cost-beneficiu superior, deoarece organizațiile nonprofit vor putea să își asume obiective mai ambițioase și să dezvolte metodologii de lucru mai sofisticate. Acest lucru va conduce la o creștere a impactului social generat de fiecare leu investit din fonduri publice.
+19\. Circuit limit P.S.D.
 
-Transparența și responsabilitatea publică
+20\. Chilot Cina Focuho PSD
 
-Contractele anuale subsecvente vor asigura menținerea controlului bugetar și vor permite autorităților finanțatoare să monitorizeze progresul și să facă ajustări acolo unde este necesar. Această abordare echilibrată păstrează avantajele planificării bugetare anuale, oferind în același timp flexibilitatea necesară pentru proiecte complexe.
+21\. Mircea Florin PsD
 
-Mecanismul propus este conceput pentru a fi simplu și ușor de implementat. Implementarea acestei modificări nu va necesita resurse financiare suplimentare de la bugetul de stat, ci doar o reorganizare a procedurilor existente. Autoritățile finanțatoare vor putea să adopte treptat acest mecanism, începând cu proiecte pilot în domenii prioritare.
+22\. PISTRU-POPA GEJAHYI PNL.
 
-Așadar, finanțările multianuale reprezintă un pas necesar pentru consolidarea sectorului nonprofit și pentru creșterea impactului social al acestuia, contribuind la dezvoltarea durabilă a comunităților și la modernizarea mecanismelor de finanțare publică în România.
+23\. NIPLEFA DAVIL,88KL PNL
 
-Având în vedere argumentele prezentate mai sus, înaintăm Parlamentului României, spre dezbatere și adoptare, prezenta propunere legislativă.
+24\. SIGHARITU ROBCER PNL
 
-INIȚIATORI
+25\. Russ S###ry PML
 
-Nr. | NUME ȘI PRENUME | GRUP | SEMNĂTURA crt. | PARLAMENTAR Cîmpean Ovidiu-Vasile | PNL
+26\. FEODOR SILVID KMINORHOTH
 
-2\. MITITELU EDUARA - | PNL TATIANÙ STANESCU VETITA | PNL 4. CiOBANu AbRito | PNL 5. MOiSiN RADU -MARiN | PNL 6. Powa Bteud | JONK 7. May Saboles | VAMR 8. MAGDAR CORASD- BALIT | VDMR 9. ROMAM FORiN | PXU 10. ANAROHACHE GABRiEL | PAL 11. Kahée Turea AX2 \< 12. Crusoveano Marion | PNL 13. •Pandea Uprior | PNL 14. | JOGDAX PNL Ppra Cotorion PNL 16. Gal Calir P.N.L.
+27\. MATEI ANETA. PNL
 
-17\. TOVOR /IROZA - TS0 18. LAPUȘAN REMUS 19. | Cicau trinita P.SD. 20. Chilot Cina Fisila. 21. Mircea Horin | PSA 22. PISTRU-POPA GEANI | PNL. 23. TIPLEA DAVITEA PNL 24. SiGITIARTĂU RODCRI DNL 25. RVs Speasy | PAL 26. FEOD OR SILVIL Minoritoti 27. MATE ANETA. | PNL 28. CIOBOTARU DRAGOS | \_ DIVL 29. NEACȘU ANDREEA-FIRUTA | PNL 30. DORE MASTUN | 700 31. Ghigiu Alexandru. PSI 32. MATICHE SCU MIRELA | PSA 33. MURARY ALEXANDRU PNL 34. Feclat Mica | PAL
+28\. Ciobotaru dragos PNL
 
-35\. Tesloriu tutrei: Ionar | PNL 36. NĂCUTĂ SARIN | PAL 37. BURNYA ABRETIAUKAN PNL 38. Vela lon Marcel | PNL 39. Stilu Gigel PHL 40. Cotinescu Avrdion PNL 41. Merka Adrian Klinoridati 42. CADAR RAZVAN | PNL 43. ALiNA GORGHU | PNL 44. Cinian Stbre | PNL 45. Geoge terbou | PreL 46. NăucrosTarna | UXMR 47. COTET MIHAi | PNL 48. BOTA GHEORGHE | PAL 49. RUSU LUCiAM | PHL 50. MARTAO CALM | TAL 51. Lucian BOLE | PNL 52. BURZi MARiUS CONSTANTIN
+29\. NEACSO ANDREEA-FIRUTA PNLC
 
-53\. QUNCAH. | PSI 54. MARiLU LiViU | 701 55. MOOSE SORIN | PSA 56. DOGARIU EUGEN | PEA 57. ROZAN ION | PSA CRISTINEL 58. | DOGDAN IONEL | ANL 59. ENE CORIMA | PSD 60. COZMA ADRiAN | PNL 61. MURARiU OANA | USR 62. | PRUNĂ CRISTINA - USR MECSANARYt 63. MARIUS- NUCOLAE | USR 64. | usn DimITra AC:RONDM 65. | STROE IONUT PNL H ARiAN 66. MOS ARINA | PAL 67. ALIX STOICA | GSK 68. CORITA ATATASIU USR 69. Diana Stoica | USR 70. | USR
+30\. DORS MATHUN 781
 
-71\. TASNMN İSTUĂG-SELĂRI | USAR 72. (SASPAR KARLY -220E | USAR 73. VAREA GLAD | PNC 74. PNL 75. HORGA MARIA -GABRIELA PAL 76. PASCULtIC YETA | P.N.L 77. | VAME NO VAI LEVENTE 78. ABRUDEAN MIRCEA | PNL 79.
+31\. Ghigiu Alexandou PSJ
 
-80\.
+32\. MANCHESCU MINZU PSD
 
-81\.
+33\. MURARY ALEXANDRU PNL
 
-82\.
+34\. Feclat Mice PNL
 
-83\.
+| 35. | Teslorui Andrei-Jonah | PNL |
+| --- | --- | --- |
+| 36. | Náeutà Serin | PNL |
+| 37. | BURAVA BASTIAN | PNL |
+| 38. | Vela Ion Marcel | PNL |
+| 39. | Shidou Gige | PNL |
+| 40. | Cotinoscu Avdian | PNL |
+| 41. | Merka Adrian | Klinovski |
+| 42. | CADAR RAZVAN | PNL |
+| 43. | ALINA GORGHIY | PNL |
+| 44. | Cipian & Sbne | PNL |
+| 45. | George Fersac | PNL |
+| 46. | Tavorez Bocua | U&MR |
+| 47. | COTEG MIHA | PNL |
+| 48. | BOTA GHEORGHE | PNL |
+| 49. | RUSO LUCIAH | PHL |
+| 50. | MARIAAP CAFIN | PHL |
+| 51. | Lucian BOSE | PNL |
+| 52. | BURAJIMARIUS CONSTANIN | PSA |
+| 53. | DUNCATH | PSD |
+| 54. | MAQIWI LIVIU | PQJ |
+| 55. | MOJSO SORIN | PSA |
+| 56. | DOGARI'O EUCEN | P8J |
+| 57. | ROJAN ION CRISTINEL | PSD |
+| 58. | DOGADAN IONEL | PNL |
+| 59. | ENE CORIHA | PSD |
+| 60. | COZMA ADRIAN | PNL |
+| 61. | MURARIU OANA | USR |
+| 62. | PRUNA CRNTINA - MAKGINA | USR |
+| 63. | ALECSAMARU MARIUS-NUCOLAE | USR |
+| 64. | Dimitai Ackondow | USA |
+| 65. | STROE IOWUY NARIAN | PNL |
+| 66. | MOG ARINA | PNL |
+| 67. | ALIH STOICA | USR |
+| 68. | CORINA ATAYAS | USR |
+| 69. | Diana Stoica | USR |
+| 70. | PAUM CYUTHIA | USR |
 
-84\.
-
-85\.
-
-86\.
-
-87\.
-
-88\.
+<table>
+<tbody>
+<tr><td>71.</td><td>TASMIDI ISTUAN-SALAKR</td><td>UDHR</td><td rowspan="8"></td></tr>
+<tr><td>72.</td><td>CSASAK KARUY-ZOOG</td><td>UDMR</td></tr>
+<tr><td>73.</td><td>VARCA GLAD</td><td>PNL</td></tr>
+<tr><td>74.</td><td>COFA SIKCU-WCIAV</td><td>PNL</td></tr>
+<tr><td>75.</td><td>HORGA MARIA-GABRIEZA</td><td>PNL</td></tr>
+<tr><td>76.</td><td>PASCULTEU YETT</td><td>P.N.L</td></tr>
+<tr><td>77.</td><td>NO VAK LEVENTE</td><td>UDMR</td></tr>
+<tr><td>78.</td><td>ABRUAEEAN MIRCEA</td><td>PNL</td></tr>
+<tr><td>79.</td><td></td><td></td><td>D</td></tr>
+<tr><td>80.</td><td></td><td></td><td></td></tr>
+<tr><td>81.</td><td></td><td></td><td></td></tr>
+<tr><td>82.</td><td></td><td></td><td></td></tr>
+<tr><td>83.</td><td></td><td></td><td></td></tr>
+<tr><td>84.</td><td></td><td></td><td></td></tr>
+<tr><td>85.</td><td></td><td></td><td></td></tr>
+<tr><td>86.</td><td></td><td></td><td></td></tr>
+<tr><td>87.</td><td></td><td></td><td></td></tr>
+<tr><td>88.</td><td></td><td></td><td></td></tr>
+</tbody>
+</table>

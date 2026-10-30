@@ -1,0 +1,102 @@
+{
+  "slug": "plx-298-2026",
+  "billId": "Pl-x 298/2026",
+  "updatedAt": "2026-10-30T08:20:39.173Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/200/90/8/pl321.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Comunele și orașele care au avut indicatoare și acte bilingve le păstrează chiar dacă minoritatea scade sub 20%",
+      "summaryTlDr": "Este o modificare tehnică, de o singură frază, cu scop legitim de protecție a minorităților. Nu creează taxe, monopoluri sau sancțiuni. Singura problemă reală este că nu stabilește niciun prag minim, ceea ce poate ridica o întrebare de constituționalitate legată de cerința de „pondere semnificativă” din art. 120 alin. (2).",
+      "scores": {
+        "agy": null,
+        "claude": 3,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl298_cd298_26_(1).pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Limba maternă în primărie rămâne și dacă minoritatea scade sub 20%",
+      "summaryTlDr": "Modificarea e scurtă și clară din punct de vedere tehnic. Ea face permanentă o protecție care azi este temporară: folosirea limbii minorităților în administrația locală, acolo unde ponderea lor a coborât sub 20%. Nu aduce taxe, sancțiuni sau sarcini pentru firme. Punctul slab real este lipsa oricărui prag minim, care face legea mai ușor de atacat pe art. 120 alin. (2) din Constituție.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 2
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Textul adoptat de Cameră e identic cu cel inițial: drepturile lingvistice locale devin permanente",
+      "summary": "Camera a adoptat tacit proiectul în forma inițială, fără schimbări de fond. Ca și inițial, localitățile unde minoritatea scade sub 20% după 2019 își păstrează pentru totdeauna obligațiile de folosire a limbii materne.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Nu există prag minim: drepturile rămân chiar dacă minoritatea aproape dispare",
+            "major": true,
+            "article": "art. 604 alin. (1)"
+          },
+          {
+            "text": "Efect de clichet: recensămintele pot doar adăuga localități cu obligații lingvistice",
+            "major": true,
+            "article": "art. 604 alin. (1)"
+          },
+          {
+            "text": "Tratament diferit după istoric, nu după ponderea actuală; discutabil față de art. 16",
+            "major": true,
+            "article": "art. 604 alin. (1)"
+          },
+          {
+            "text": "Localitățile care au scăzut sub 20% înainte de 5 iulie 2019 nu sunt protejate",
+            "major": true,
+            "article": "art. 604 alin. (1)"
+          },
+          {
+            "text": "Efect practic amânat abia după validarea recensământului din 2031",
+            "major": false,
+            "article": "art. 604 alin. (1)"
+          },
+          {
+            "text": "Lipsește o normă tranzitorie care să clarifice aplicarea după recensământul din 2021",
+            "major": false,
+            "article": "art. 604 alin. (1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Comunitățile minoritare aflate în scădere își păstrează stabil drepturile lingvistice locale",
+            "major": true,
+            "article": "art. 604 alin. (1)"
+          },
+          {
+            "text": "Nu se adaugă obligații noi; se păstrează aceeași listă de articole aplicabile",
+            "major": false,
+            "article": "art. 604 alin. (1)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 4,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:20:10.251Z"
+    }
+  ]
+}

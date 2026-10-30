@@ -1,0 +1,97 @@
+{
+  "slug": "plx-242-2026",
+  "billId": "PL-x 242/2026",
+  "updatedAt": "2026-10-30T08:17:34.814Z",
+  "versions": [
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/200/40/2/se261.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Cine răspunde în România de stațiile de încărcare electrică, hidrogen și GNL cerute de UE",
+      "summaryTlDr": "Lege tehnică și necesară: aprobă o ordonanță care numește autoritățile care aplică un regulament UE deja obligatoriu din aprilie 2024. Nu vedem în textul disponibil taxe noi sau monopoluri. Problemele reale sunt întârzierea statului și formulările vagi despre cine răspunde de fiecare obiectiv.",
+      "scores": {
+        "agy": null,
+        "claude": 2,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl242_cd242_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Ministerul Energiei răspunde de stațiile de încărcare și realimentare cerute de UE",
+      "summaryTlDr": "Lege tehnică și utilă: aprobă fără modificări OUG nr. 4/2026, care stabilește cine aplică în România regulamentul UE despre stațiile de încărcare electrică, hidrogen și GNL. În partea vizibilă nu apar taxe, monopoluri sau obligații noi pentru cetățeni. Slăbiciunea este că sarcinile instituțiilor sunt împărțite vag, fără termene.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a aprobat OUG nr. 4/2026 privind combustibilii alternativi fără modificări față de Senat",
+      "summary": "Și Senatul, și Camera aprobă ordonanța exact cum a dat-o Guvernul. Senatul a adoptat-o tacit, iar Camera, ca for decizional, a votat-o pe 13 mai 2026. Pentru cetățeni și firme regulile nu se schimbă.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Instituțiile care nu furnizează date nu au termene, indicatori sau sancțiuni",
+            "major": true,
+            "article": "art. 3"
+          },
+          {
+            "text": "Colaborarea ministerelor este obligatorie, dar nu se spune ce urmează dacă lipsește",
+            "major": false,
+            "article": "art. 3 alin. (1)-(2)"
+          },
+          {
+            "text": "Obiectivele pe moduri de transport sunt parafrazate și pot devia de la regulamentul european",
+            "major": false,
+            "article": "art. 3 alin. (2)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Ministerul Energiei este autoritatea competentă unică, deci răspunderea e clară",
+            "major": true,
+            "article": "art. 2 alin. (1), (2) și (4)"
+          },
+          {
+            "text": "ANRE răspunde de art. 15 alin. (3)-(4) AFIR, coerent cu rolul său",
+            "major": true,
+            "article": "art. 2 alin. (3)"
+          },
+          {
+            "text": "Ministerul lucrează cu MTI și MDLPA la monitorizare și raportări",
+            "major": false,
+            "article": "art. 2"
+          },
+          {
+            "text": "Definițiile sunt preluate corect din regulament, fără să fie rescrise",
+            "major": false,
+            "article": "art. 1 alin. (2)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 3,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:17:27.703Z"
+    }
+  ]
+}

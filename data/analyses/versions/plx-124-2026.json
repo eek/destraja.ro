@@ -1,0 +1,160 @@
+{
+  "slug": "plx-124-2026",
+  "billId": "PL-x 124/2026",
+  "updatedAt": "2026-10-30T08:13:17.616Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L623FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "După divorț, fiecare își păstrează numele din căsătorie, fără acordul fostului partener",
+      "summaryTlDr": "Este o lege benignă și utilă. Mută decizia asupra numelui din mâna fostului soț în mâna titularului și simplifică divorțul la notar sau la starea civilă. Are o singură scăpare reală: persoana al cărei nume a devenit nume comun nu mai are niciun remediu, nici măcar în cazuri excepționale.",
+      "scores": {
+        "agy": null,
+        "claude": 2,
+        "codex": null
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/20/4/se113.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "După divorț îți păstrezi numele de căsătorie fără să mai ai nevoie de acordul fostului partener",
+      "summaryTlDr": "Lege benignă și utilă, care elimină un drept de veto al fostului soț asupra identității celuilalt și deblochează divorțul la notar sau la starea civilă. Are o singură lacună practică reală: nu există o fereastră simplă de revenire la numele vechi după divorț.",
+      "scores": {
+        "agy": null,
+        "claude": 2,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl124_cd124_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "După divorț îți păstrezi numele din căsătorie, fără acordul fostului soț",
+      "summaryTlDr": "Lege benignă și utilă: numele devine o alegere personală, nu un subiect de negociere sau de proces. Lipsesc doar o normă tranzitorie pentru cei deja divorțați și o supapă pentru cazurile-limită.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a păstrat neschimbate regulile privind numele după divorț din forma inițiatorului",
+      "summary": "Față de forma inițiatorului, Senatul a schimbat doar formulări de tehnică legislativă. Regulile despre numele după divorț rămân aceleași: fiecare fost soț alege singur, iar dacă nu alege, își păstrează numele din căsătorie.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Nicio excepție pentru titularul originar al numelui, nici la folosire abuzivă",
+            "major": true,
+            "article": "art. 383 alin. (1)"
+          },
+          {
+            "text": "Dispare controlul instanței asupra motivelor temeinice; instanța doar ia act de alegere",
+            "major": true,
+            "article": "art. 383 alin. (1)"
+          },
+          {
+            "text": "„Numele purtat anterior” e neclar pentru cei aflați la a doua căsătorie",
+            "major": false,
+            "article": "art. 383 alin. (1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Fiecare fost soț alege singur numele după divorț, fără acordul celuilalt",
+            "major": true,
+            "article": "art. 383 alin. (1)"
+          },
+          {
+            "text": "Fără opțiune, se păstrează numele din căsătorie; acte schimbate mai rar",
+            "major": true,
+            "article": "art. 383 alin. (2)"
+          },
+          {
+            "text": "Divorț la notar sau primărie posibil fără acord asupra numelui",
+            "major": true,
+            "article": "art. 375 alin. (2), art. 376 alin. (5)"
+          },
+          {
+            "text": "Mai puține divorțuri trimise în instanță, deci costuri și timp mai mici",
+            "major": false,
+            "article": "art. 376 alin. (5)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 10,
+        "removed": 10,
+        "same": 0.23
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:13:04.047Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a păstrat textul Senatului: fiecare fost soț își alege singur numele după divorț",
+      "summary": "Camera nu a schimbat nimic de fond față de Senat, doar formulări de tehnică legislativă. Rămâne regula: fiecare fost soț alege singur numele, iar dacă nu alege, îl păstrează pe cel din căsătorie.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Fostul soț de la care provine numele nu se mai poate opune",
+            "major": true,
+            "article": "art. 383 alin. (1)"
+          },
+          {
+            "text": "Fără alegere expresă, păstrezi automat numele din căsătorie, nu pe cel vechi",
+            "major": true,
+            "article": "art. 383 alin. (2)"
+          },
+          {
+            "text": "„Numele purtat anterior” e neclar pentru cei aflați la a doua căsătorie",
+            "major": false,
+            "article": "art. 383 alin. (1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Fiecare fost soț alege singur numele, fără acordul celuilalt sau motive temeinice",
+            "major": true,
+            "article": "art. 383 alin. (1)"
+          },
+          {
+            "text": "Disputa pe nume nu mai blochează divorțul la notar sau la primărie",
+            "major": true,
+            "article": "art. 375 alin. (2), art. 376 alin. (5)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 10,
+        "removed": 9,
+        "same": 0.29
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:13:17.616Z"
+    }
+  ]
+}

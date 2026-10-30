@@ -1,0 +1,71 @@
+{
+  "billId": "Pl-x 350/2026",
+  "slug": "plx-350-2026",
+  "version": "initiator",
+  "updatedAt": "2026-10-30T08:25:12.843Z",
+  "consensus": {
+    "riskScore": 3,
+    "riskLevel": "green",
+    "plainTitle": "Protecție penală pentru cei care găsesc și raportează breșe de securitate, plus un comitet de consultare pentru DNSC",
+    "summaryTlDr": "Lege în esență pozitivă: îi scoate de sub amenințarea dosarului penal pe cercetătorii de securitate care raportează responsabil vulnerabilități. Protecția este însă îngustă, cu condiții foarte restrictive, iar comitetul de consultare are reguli netransparente.",
+    "initiatorClaim": "Inițiatorii vor să elimine incertitudinea juridică a celor care descoperă și raportează cu bună-credință vulnerabilități, după modelul safe harbour din Belgia, Franța sau Portugalia. Vor și un mecanism structurat prin care DNSC să analizeze vulnerabilitățile împreună cu celelalte autorități din securitatea cibernetică.",
+    "realityCheck": "Art. II introduce art. 365¹ în Codul penal: faptele din art. 360-365 nu constituie infracțiune dacă sunt respectate cumulativ condițiile din art. 36 alin. (5) și (6) din OUG 155/2024. Condițiile prezentate în Expunerea de motive (fără ocolirea parolelor, fără modificarea datelor, fără perturbări, raportare în 48 de ore, nicio dezvăluire publică fără acordul DNSC) exclud practic tocmai faptele din art. 362-363 și lasă cercetătorul la discreția DNSC privind publicarea. Art. I obligă DNSC să se consulte cu un comitet al autorităților din Legea 58/2023, ceea ce poate duce la partajarea vulnerabilităților raportate de civili cu structuri din sistemul de securitate națională. Comitetul funcționează după un statut nepublicat oficial.",
+    "affectedGroups": [
+      "IT & AI",
+      "IMM & Antreprenori",
+      "Justiție & Drepturi Civile",
+      "Toți cetățenii"
+    ],
+    "senatForm": {
+      "articleRef": "Art. II – art. 365¹ Cod penal",
+      "proposalContent": "Se introduce alin. (2): «Condiția privind nedezvăluirea publică se consideră îndeplinită dacă dezvăluirea are loc după remedierea vulnerabilității sau la cel puțin 90 de zile de la raportare, în lipsa unui răspuns al DNSC ori al producătorului. Termenul de raportare curge de la confirmarea vulnerabilității.»",
+      "argumentation": "Interdicția nelimitată de dezvăluire fără acordul DNSC și termenul de 48 de ore pot descuraja raportarea și pot lăsa vulnerabilitățile nereparate. Practica internațională de divulgare coordonată (ISO/IEC 29147) folosește perioade de embargo definite. Precizarea întărește previzibilitatea normei penale (art. 1 alin. 5 și art. 23 alin. 12 din Constituție).",
+      "otherComments": "Legea fiind deja adoptată (Lege 123/2026), propunerea poate fi preluată doar printr-o nouă inițiativă. Recomand publicarea statutului comitetului din art. 36 alin. (1)¹ în Monitorul Oficial, cu garanții de confidențialitate pentru raportori și cu interzicerea folosirii vulnerabilităților în alt scop decât remedierea."
+    }
+  },
+  "council": {
+    "agy": {
+      "model": "agy",
+      "status": "skipped",
+      "error": "încă nerulat (COUNCIL_MODELS)"
+    },
+    "claude": {
+      "model": "claude",
+      "status": "ok",
+      "durationMs": 53439,
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Protecție penală pentru cei care găsesc și raportează breșe de securitate, plus un comitet de consultare pentru DNSC",
+      "verdictShort": "Lege în esență pozitivă: îi scoate de sub amenințarea dosarului penal pe cercetătorii de securitate care raportează responsabil vulnerabilități. Protecția este însă îngustă, cu condiții foarte restrictive, iar comitetul de consultare are reguli netransparente.",
+      "initiatorClaim": "Inițiatorii vor să elimine incertitudinea juridică a celor care descoperă și raportează cu bună-credință vulnerabilități, după modelul safe harbour din Belgia, Franța sau Portugalia. Vor și un mecanism structurat prin care DNSC să analizeze vulnerabilitățile împreună cu celelalte autorități din securitatea cibernetică.",
+      "realityCheck": "Art. II introduce art. 365¹ în Codul penal: faptele din art. 360-365 nu constituie infracțiune dacă sunt respectate cumulativ condițiile din art. 36 alin. (5) și (6) din OUG 155/2024. Condițiile prezentate în Expunerea de motive (fără ocolirea parolelor, fără modificarea datelor, fără perturbări, raportare în 48 de ore, nicio dezvăluire publică fără acordul DNSC) exclud practic tocmai faptele din art. 362-363 și lasă cercetătorul la discreția DNSC privind publicarea. Art. I obligă DNSC să se consulte cu un comitet al autorităților din Legea 58/2023, ceea ce poate duce la partajarea vulnerabilităților raportate de civili cu structuri din sistemul de securitate națională. Comitetul funcționează după un statut nepublicat oficial.",
+      "affectedGroups": [
+        "IT & AI",
+        "IMM & Antreprenori",
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. II (art. 365¹ C.pen.) este o normă de trimitere: conținutul exact al protecției depinde integral de art. 36 alin. (5) și (6) din OUG 155/2024. Orice renumerotare sau modificare a OUG schimbă indirect sfera ilicitului penal, iar textul Codului penal nu enumeră condițiile.",
+        "Condițiile din Expunerea de motive sunt incoerente cu faptele exceptate. Exonerarea acoperă art. 362 (alterarea datelor) și art. 363 (perturbarea funcționării), dar condițiile c) și e) interzic exact modificarea datelor și întreruperea serviciilor. În practică, protecția utilă privește doar art. 360, 361, 364 și 365.",
+        "Condiția g), care interzice dezvăluirea publică anterior sau ulterior raportării fără acordul DNSC, nu are limită de timp. Corelată cu termenul de 48 de ore de la identificare, poate descuraja raportarea și poate permite ca vulnerabilitățile să rămână nereparate pe termen nedefinit.",
+        "Art. I (art. 36 alin. (1)¹ OUG 155/2024) creează un comitet din autoritățile de la art. 11-12 și 14-17 din Legea 58/2023, fără compunere nominală în lege. Statutul este elaborat de DNSC și doar avizat de membri, fără obligație de publicare și fără termen de adoptare.",
+        "Impactul bugetar și birocratic este practic nul: comitetul funcționează în structurile existente, iar pentru cetățeni și IMM-uri nu apar obligații sau taxe noi."
+      ],
+      "blindSpotsCaught": "Stadiul este deja Lege 123/2026, iar termenul de amendamente (12.05.2026) a expirat, deci orice corecție necesită o nouă inițiativă. Formula de adoptare invocă art. 74 alin. (1) din Constituție, care privește dreptul de inițiativă, deși completarea Codului penal este materie de lege organică (art. 73 alin. (3) lit. h). Formula uzuală este art. 75 și art. 76 alin. (1). Tehnica nu constituie infracțiune nu este încadrată nici ca o cauză justificativă clasică (art. 18-22 C.pen.), nici ca lipsă de tipicitate, ceea ce poate genera practică neunitară. Protecția nu se extinde la răspunderea civilă sau contravențională, de exemplu GDPR.",
+      "constitutionalityNote": "Legea nu pare neconstituțională în fond: restrânge sfera ilicitului penal, ceea ce este favorabil persoanelor (art. 15 alin. (2), legea penală mai favorabilă). Principala vulnerabilitate ține de previzibilitate (art. 1 alin. (5); art. 23 alin. (12), nicio pedeapsă fără lege): norma penală trimite la un act extern, iar condiții precum buna-credință sau scopul exclusiv de îmbunătățire a securității sunt evaluative. CCR acceptă însă normele de trimitere dacă actul vizat este o lege publicată, iar OUG 155/2024 a fost aprobată prin Legea 124/2025. Statutul comitetului nu poate stabili drepturi sau obligații pentru terți. Dacă ar face-o, ar ridica probleme de nivel normativ și de transparență.",
+      "euLawNote": "Legea este compatibilă cu NIS2 (Directiva (UE) 2022/2555), al cărei art. 12 cere divulgarea coordonată a vulnerabilităților prin CSIRT-ul desemnat ca coordonator. Este compatibilă și cu Directiva 2013/40/UE privind atacurile împotriva sistemelor informatice, care incriminează doar faptele comise fără drept și lasă loc excepțiilor pentru cercetare legitimă. Se recomandă corelarea cu obligațiile de raportare a vulnerabilităților exploatate din Regulamentul (UE) 2024/2847 (Cyber Resilience Act). Directiva (UE) 2018/958 nu este aplicabilă, deoarece nu se reglementează accesul la o profesie. Directiva TRIS (UE) 2015/1535 nu impune notificarea, pentru că nu se introduc reguli tehnice sau reguli privind serviciile societății informaționale.",
+      "senatForm": {
+        "articleRef": "Art. II – art. 365¹ Cod penal",
+        "proposalContent": "Se introduce alin. (2): «Condiția privind nedezvăluirea publică se consideră îndeplinită dacă dezvăluirea are loc după remedierea vulnerabilității sau la cel puțin 90 de zile de la raportare, în lipsa unui răspuns al DNSC ori al producătorului. Termenul de raportare curge de la confirmarea vulnerabilității.»",
+        "argumentation": "Interdicția nelimitată de dezvăluire fără acordul DNSC și termenul de 48 de ore pot descuraja raportarea și pot lăsa vulnerabilitățile nereparate. Practica internațională de divulgare coordonată (ISO/IEC 29147) folosește perioade de embargo definite. Precizarea întărește previzibilitatea normei penale (art. 1 alin. 5 și art. 23 alin. 12 din Constituție).",
+        "otherComments": "Legea fiind deja adoptată (Lege 123/2026), propunerea poate fi preluată doar printr-o nouă inițiativă. Recomand publicarea statutului comitetului din art. 36 alin. (1)¹ în Monitorul Oficial, cu garanții de confidențialitate pentru raportori și cu interzicerea folosirii vulnerabilităților în alt scop decât remedierea."
+      }
+    },
+    "codex": {
+      "model": "codex",
+      "status": "skipped",
+      "error": "încă nerulat (COUNCIL_MODELS)"
+    }
+  }
+}

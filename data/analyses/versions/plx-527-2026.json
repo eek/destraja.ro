@@ -1,0 +1,140 @@
+{
+  "slug": "plx-527-2026",
+  "billId": "PL-x 527/2026",
+  "updatedAt": "2026-10-30T08:40:13.057Z",
+  "versions": [
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/20/7/se527.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Pachet fiscal mixt: scutiri TVA mai flexibile, iertarea impozitului pe unele moșteniri, reguli noi de compensare pentru firmele în concordat și bani de la Exim pentru companiile de stat poprite",
+      "summaryTlDr": "Lege în mare parte tehnică și parțial favorabilă contribuabililor, dar trecută în viteză, cu o trimitere greșită în norma tranzitorie și cu o modificare la art. 166 CPF care permite fiscului să compenseze datorii a căror executare a fost suspendată de instanță. Nu este o capcană majoră, dar are fisuri reale de claritate și de protecție juridică.",
+      "scores": {
+        "agy": null,
+        "claude": 5,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?cd527_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Omnibus fiscal: ANAF și firmele în restructurare, scutire pentru moșteniri întârziate, bani de urgență pentru ROMATSA",
+      "summaryTlDr": "Pachetul e în mare parte tehnic și are reparații utile: scutirea de TVA pentru ambasade devine mai puțin formalistă, iar datoriile fiscale restructurate nu mai apar ca restante. În schimb, strânge lichiditatea firmelor aflate în concordat sau cu executarea suspendată și aplică regulile noi și procedurilor deja aprobate. Mecanismul de finanțare prin Eximbank e justificat de criza ROMATSA, dar condițiile lui nu se văd în textul disponibil.",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_putin_riscant",
+      "headline": "Corectată trimiterea greșită din norma tranzitorie: regulile noi vizează clar și firmele aflate deja în procedură",
+      "summary": "Acum norma tranzitorie trimite corect la Codul de procedură fiscală (art. IV), nu la impozitul pe moștenire. Dispare o confuzie, dar firmele aflate deja în prevenirea insolvenței intră sigur sub regulile noi. Restul fondului rămâne neschimbat.",
+      "changes": [
+        {
+          "title": "Norma tranzitorie trimite acum la articolul corect",
+          "text": "Art. VI alin. (1) trimitea inițial la art. III (impozitul pe moștenire). Acum trimite la art. IV, deci regulile fiscale noi se aplică clar și firmelor aflate deja în prevenirea insolvenței.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. VI alin. (1)",
+          "before": "Art.VI.- (1) Prevederile art.III se aplică și debitorilor care, la data intrării în vigoare a prezentei legi, se află în procedurile de prevenire a insolvenței prevăzute de Legea nr.85/2014",
+          "after": "Art. VI. – (1) Prevederile art. IV se aplică și debitorilor care, la data intrării în vigoare a prezentei legi, se află în procedurile de prevenire a insolvenței prevăzute de Legea nr. 85/2014",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Corectată litera greșită la scutirea directă de TVA",
+          "text": "Art. II (art. 294 alin. (1¹) Cod fiscal) trimitea la o literă inexistentă, „1¹)”. Acum trimite la lit. l¹), deci se știe exact cine beneficiază de scutire.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. II",
+          "before": "prevăzute la alin. (1) lit. j), l), 1¹) și m), pe bază de certificat de scutire.",
+          "after": "prevăzute la alin. (1) lit. j), l), l¹) și m), pe bază de certificat de scutire.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Rambursările de TVA pot fi compensate cu datorii cu executarea suspendată de instanță",
+            "major": true,
+            "article": "art. IV pct. 4 (art. 166 CPF)"
+          },
+          {
+            "text": "Firmele în prevenirea insolvenței primesc eșalonare doar dacă ies din procedură înainte de decizie",
+            "major": true,
+            "article": "art. IV pct. 7 și 10 (art. 186, art. 209¹ CPF)"
+          },
+          {
+            "text": "Intrarea în prevenirea insolvenței duce la pierderea eșalonării existente",
+            "major": true,
+            "article": "art. IV pct. 8 și 11 (art. 194, art. 209⁴ CPF)"
+          },
+          {
+            "text": "Condiția nouă se aplică și cererilor de eșalonare depuse anterior și nesoluționate",
+            "major": true,
+            "article": "art. VI alin. (2)"
+          },
+          {
+            "text": "TVA de recuperat dinaintea confirmării planului nu se reportează, ci se compensează cu ratele planului",
+            "major": true,
+            "article": "art. IV pct. 6 (art. 167 alin. 13 CPF)"
+          },
+          {
+            "text": "Datoriile de care depinde menținerea eșalonării nu pot intra în planul de restructurare",
+            "major": true,
+            "article": "art. IV pct. 9 și 12, art. V"
+          },
+          {
+            "text": "Scutirea de impozit pe moștenire nu are mecanism de restituire a sumelor deja încasate",
+            "major": true,
+            "article": "art. III"
+          }
+        ],
+        "good": [
+          {
+            "text": "Ratele viitoare din acord sau plan nu mai sunt considerate restanțe",
+            "major": true,
+            "article": "art. IV pct. 1-2 (art. 157 alin. 2 CPF)"
+          },
+          {
+            "text": "Datoriile reduse prin plan se anulează la închiderea procedurii, dacă planul e respectat",
+            "major": true,
+            "article": "art. IV pct. 13-14 (art. 266 CPF)"
+          },
+          {
+            "text": "Fără impozit pe moștenire pentru succesiunile din fereastra 14 iulie – 30 septembrie 2026",
+            "major": true,
+            "article": "art. III"
+          },
+          {
+            "text": "Scutirea directă de TVA se poate aplica retroactiv dacă certificatul vine ulterior",
+            "major": true,
+            "article": "art. II"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 48,
+        "removed": 48,
+        "same": 0.41
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:40:13.057Z"
+    }
+  ]
+}

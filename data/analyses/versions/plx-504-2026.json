@@ -1,0 +1,177 @@
+{
+  "slug": "plx-504-2026",
+  "billId": "PL-x 504/2026",
+  "updatedAt": "2026-10-30T08:35:12.053Z",
+  "versions": [
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/00/4/se580.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Apele Române își majorează treptat contribuțiile pentru apă și pot monta contoare la utilizatori",
+      "summaryTlDr": "Scopul este legitim: subfinanțarea cronică a barajelor și digurilor e reală, iar alocarea minimă obligatorie pentru investiții e un pas bun. Însă legea adaugă majorări în trepte peste indexarea anuală cu inflația și o obligație de a permite montarea aparaturii pe proprietatea utilizatorului, fără reguli clare despre costuri și acces.",
+      "scores": {
+        "agy": null,
+        "claude": 5,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?cd504_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Contribuțiile pentru apă cresc treptat până în 2029, iar «Apele Române» trebuie să investească o parte fixă din bani",
+      "summaryTlDr": "Este o lege tehnică, cerută de PNRR. Scumpește moderat și eșalonat apa brută pentru firme, centrale și operatorii de apă, dar nu și pentru irigații, și obligă «Apele Române» să pună în investiții minimum 12%, apoi 18% din cheltuieli. Nu ascunde o capcană majoră, dar e redactată stângaci și nu oferă nicio garanție celor obligați să accepte contoarele ANAR pe proprietatea lor.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_riscant",
+      "headline": "Obligația de a accepta contoarele ANAR se extinde la toți operatorii din anexa contribuțiilor",
+      "summary": "Camera a lărgit cercul firmelor obligate să permită montarea contoarelor ANAR: acum sunt incluși toți operatorii economici din anexa contribuțiilor, nu doar categoriile din tabelul E1. Restul modificărilor sunt precizări de redactare.",
+      "changes": [
+        {
+          "title": "Mai multe firme obligate să accepte contoarele ANAR",
+          "text": "Art. II pct. 1 (art. III alin. (1¹) din Legea 122/2020): obligația se aplică acum tuturor operatorilor din anexa nr. 5 la OUG 107/2002, plus categoriile din tabelul E1, nu doar acestora din urmă.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. II pct. 1",
+          "before": "Prevederea se aplica operatorilor economici din anexa nr.2 E 1:",
+          "after": "Prevederea se aplică operatorilor economici din anexa nr. 5 la Ordonanța de urgență a Guvernului nr. 107/2002 privind înființarea Administrației Naționale «Apele Române»",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Ordinul pe metode indirecte ține cont de noua lege",
+          "text": "Art. V precizează că ordinul privind metodele indirecte de contorizare se emite după Legea 122/2020 așa cum e modificată prin această lege. Termenul de 6 luni rămâne.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. V",
+          "before": "aprobă ordinul prevăzut la art.III alin.(4) din Legea nr.122/2020 pentru modificarea și completarea Legii apelor nr.107/1996, cu modificările și completările ulterioare, care se publică în Monitorul Oficial al României, Partea I.",
+          "after": "aprobă ordinul prevăzut la art. III alin. (4) din Legea nr. 122/2020 pentru modificarea și completarea Legii apelor nr. 107/1996, cu modificările ulterioare, precum și cu modificările și completările aduse prin prezenta lege, care se publică",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dispare mențiunea explicită despre data noilor anexe",
+          "text": "Art. III pct. 2 nu mai spune „începând cu data intrării în vigoare”. Anexele se înlocuiesc tot la intrarea în vigoare a legii, deci efectul practic rămâne același.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. III pct. 2",
+          "before": "Începând cu data intrării în vigoare, anexele nr.4 - 7 se modifică și se înlocuiesc cu anexele nr.1 - 4 la prezenta lege.",
+          "after": "Anexele nr. 4 - 7 se modifică și se înlocuiesc cu anexele nr. 1 - 4 la prezenta lege.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Pragul de investiții trimite la lista oficială",
+          "text": "Art. I pct. 3 (art. 85⁴ alin. (4)-(5)): pragurile de 12% și 18% se raportează acum la „lista obiectivelor de investiții”, aceeași listă numită în art. 85 alin. (3).",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. I pct. 3",
+          "before": "finanțarea obiectivelor de investiții, conform listei de investiții, este de cel puțin 12 %",
+          "after": "finanțarea obiectivelor de investiții, conform listei obiectivelor de investiții, este de cel puțin 12 %",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Majorări de 2%, 4%, 3,7% peste IPC: circa +10% real în trei ani",
+            "major": true,
+            "article": "art. IV alin. (1) lit. b)-d)"
+          },
+          {
+            "text": "Majorările se aplică și penalităților, nu doar contribuțiilor și tarifelor",
+            "major": true,
+            "article": "art. IV alin. (1) lit. b)-d)"
+          },
+          {
+            "text": "Hidrocentralele fără contoare plătesc imediat +7,32%, înainte de ordinul privind metodele indirecte",
+            "major": true,
+            "article": "art. IV alin. (1) lit. a)"
+          },
+          {
+            "text": "Montarea contoarelor e obligatorie indiferent de proprietate; nu se spune cine plătește sau despăgubește",
+            "major": true,
+            "article": "art. II pct. 1"
+          },
+          {
+            "text": "Obligația include instituții publice, unități de cult și toți operatorii din anexa 5",
+            "major": true,
+            "article": "art. II pct. 1"
+          },
+          {
+            "text": "Calculul indirect, debit maxim autorizat × timp, poate supraestima volumele facturate",
+            "major": true,
+            "article": "art. II pct. 2"
+          },
+          {
+            "text": "Nu se reglementează accesul pe proprietate și folosirea datelor colectate",
+            "major": false,
+            "article": "art. II pct. 1"
+          },
+          {
+            "text": "Regulile concrete de calcul indirect sunt lăsate unui ordin de ministru",
+            "major": false,
+            "article": "art. V"
+          },
+          {
+            "text": "Nicio consecință dacă pragul minim pentru investiții nu este respectat",
+            "major": false,
+            "article": "art. I pct. 3"
+          }
+        ],
+        "good": [
+          {
+            "text": "Minimum 12% din cheltuieli pentru investiții în 2027-2031, 18% din 2032",
+            "major": true,
+            "article": "art. I pct. 3"
+          },
+          {
+            "text": "Irigațiile cu apă brută de suprafață și subteran sunt exceptate de la majorări",
+            "major": true,
+            "article": "art. IV alin. (1) lit. b)-d)"
+          },
+          {
+            "text": "50% din chiriile bunurilor ANAR merg în fondul pentru investiții",
+            "major": true,
+            "article": "art. I pct. 2"
+          },
+          {
+            "text": "Utilizatorii sunt notificați în ianuarie despre noul nivel al contribuției",
+            "major": false,
+            "article": "art. IV alin. (2)"
+          },
+          {
+            "text": "Ordinul privind metodele indirecte trebuie aprobat în cel mult 6 luni",
+            "major": false,
+            "article": "art. V"
+          }
+        ],
+        "partial": true
+      },
+      "diff": {
+        "added": 60,
+        "removed": 58,
+        "same": 0.62
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:34:55.553Z"
+    }
+  ]
+}

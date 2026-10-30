@@ -1,0 +1,107 @@
+{
+  "slug": "plx-512-2026",
+  "billId": "PL-x 512/2026",
+  "updatedAt": "2026-10-30T08:36:38.755Z",
+  "versions": [
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/10/2/se572.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Scutece pentru adulți compensate 80% pentru pacienții asigurați",
+      "summaryTlDr": "Este o lege socială utilă și fără capcane comerciale, susținută de aproape toate partidele. Textul are însă un singur articol, foarte vag: nu spune cine stabilește prețul de referință, câte scutece se dau, din ce bani și de când, așa că dreptul riscă să rămână doar pe hârtie până intervine Contractul-cadru.",
+      "scores": {
+        "agy": null,
+        "claude": 3,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl512_cd512_26_(2).pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Scutece pentru adulți compensate 80% de CNAS, cu rețetă de la medicul specialist",
+      "summaryTlDr": "Este o măsură socială utilă, susținută de aproape toate partidele, dar redactată într-o singură frază: nu spune cine stabilește prețul de referință, ce cantități se acordă și din ce bani se plătesc. Riscul nu e pentru cetățeni. Riscul e ca dreptul să rămână pe hârtie până apar normele sau ca legea să fie contestată la CCR pentru lipsa sursei de finanțare.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Fără schimbări de fond: scutecele pentru adulți rămân compensate 80%, cu aceleași lacune ca inițial",
+      "summary": "Forma adoptată de Cameră reformulează doar câteva expresii din art. 2². Dreptul, procentul de 80%, prescrierea de către specialist și lipsurile rămân aceleași: prețul de referință nu e definit, sursa de bani lipsește și nu există termen pentru norme.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "„Preț de referință” nedefinit, fără autoritate sau act care să-l stabilească",
+            "major": true,
+            "article": "art. 2²"
+          },
+          {
+            "text": "Cheltuială permanentă din FNUASS fără estimare de cost și fără sursă de finanțare",
+            "major": true,
+            "article": "art. 2²"
+          },
+          {
+            "text": "Coplată uniformă de 20%, fără scutiri pentru pensionari săraci sau handicap grav",
+            "major": true,
+            "article": "art. 2²"
+          },
+          {
+            "text": "Doar „scutece pentru adulți”: rămân în afară alte absorbante și copiii cu dizabilități",
+            "major": true,
+            "article": "art. 2²"
+          },
+          {
+            "text": "Fără termen de aplicare și fără delegare pentru norme, deci risc de literă moartă",
+            "major": false,
+            "article": "art. 2²"
+          },
+          {
+            "text": "Prescriere doar de medicul specialist, medicul de familie nu este menționat",
+            "major": false,
+            "article": "art. 2²"
+          },
+          {
+            "text": "Cantitățile, perioada și procedura de eliberare nu sunt stabilite în lege",
+            "major": false,
+            "article": "art. 2²"
+          }
+        ],
+        "good": [
+          {
+            "text": "Asigurații primesc dreptul la scutece pentru adulți compensate în proporție de 80%",
+            "major": true,
+            "article": "art. 2²"
+          },
+          {
+            "text": "Dreptul se aplică indiferent dacă afecțiunea este temporară sau permanentă",
+            "major": true,
+            "article": "art. 2²"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 3,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:36:20.192Z"
+    }
+  ]
+}

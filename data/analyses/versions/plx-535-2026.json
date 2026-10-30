@@ -1,0 +1,145 @@
+{
+  "slug": "plx-535-2026",
+  "billId": "PL-x 535/2026",
+  "updatedAt": "2026-10-30T08:42:49.206Z",
+  "versions": [
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/30/5/se621.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Statul le plătește mai repede furnizorilor de energie banii pentru plafonare: 60% în avans în loc de 40%",
+      "summaryTlDr": "Legea e în esență tehnică și rezolvă o problemă reală de lichiditate. Totuși, crește cu jumătate suma plătită din bani publici doar pe baza declarației furnizorului, înainte de verificare, și are erori de redactare care pot bloca exact plățile pe care vrea să le grăbească.",
+      "scores": {
+        "agy": null,
+        "claude": 4,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl535_cd535_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.5,
+      "riskLevel": "green",
+      "plainTitle": "Creșterea de la 40% la 60% a plăților în avans către furnizorii de energie și gaze pentru facturile plafonate",
+      "summaryTlDr": "O lege tehnică utilă care atenuează blocajul de lichiditate al furnizorilor de energie cărora statul le întârzie decontările, instituind totodată penalități fiscale pentru sumele încasate necuvenit. Totuși, plata efectivă a diferenței de 20% rămâne la discreția calendarului de viramente al Ministerului Finanțelor.",
+      "scores": {
+        "agy": 3,
+        "claude": null,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a corectat doar trimiterile legale din cererea adițională; plata de 60% rămâne la fel",
+      "summary": "Forma adoptată de Cameră păstrează neschimbate plata de 60%, dobânzile și termenele. A corectat doar trimiterile legale: temeiul din modelul cererii adiționale și articolul declarației pe propria răspundere. Riscurile pentru buget și firme rămân aceleași.",
+      "changes": [
+        {
+          "title": "Modelul cererii adiționale invocă acum temeiul legal corect",
+          "text": "Anexa trimitea greșit la art. IV alin. 1 lit. A din ordonanță. Acum trimite la art. IV alin. (2) lit. A din lege, ceea ce elimină confuzia la depunerea cererii.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "anexa",
+          "before": "art. IV, alin. 1. litera A. din Ordonanța de urgență",
+          "after": "în temeiul prevederilor art. IV, alin. (2). lit. A. din Legea nr.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Declarația pe propria răspundere, legată clar de ambele ordonanțe",
+          "text": "La art. IV alin. (2) lit. A b), trimiterea generică la art. 9 alin. (7) este precizată acum pentru OUG nr. 27/2022 și pentru OUG nr. 6/2025.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. IV alin. (2) lit. A b)",
+          "before": "b) cererea adițională este depusă în termen de 30 de zile de la data intrării în vigoare a prezentei legi și este însoțită de o declarație pe propria răspundere a furnizorului prevăzută la art.9 alin.(7), emisă conform modelului din anexă;",
+          "after": "prevăzută la art. 9 alin. (7) din Ordonanța de urgență a Guvernului nr. 27/2022, aprobată cu modificări și completări prin Legea nr. 206/2022, cu modificările și completările ulterioare și respectiv art. 9 alin. (7) din Ordonanța de urgență a Guvernului nr. 6/2025",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Se plătesc 60% înainte de verificare, doar pe baza declarației furnizorului",
+            "major": true,
+            "article": "art. I pct. 1, art. II pct. 1"
+          },
+          {
+            "text": "Diferența de 20% depinde de un transfer al Finanțelor fără niciun termen",
+            "major": true,
+            "article": "art. IV alin. (2) lit. A c)"
+          },
+          {
+            "text": "Nu se spune dacă dobânzile se aplică și sumelor scadente anterior legii",
+            "major": true,
+            "article": "art. I pct. 2, art. II pct. 2"
+          },
+          {
+            "text": "Cererea adițională e adresată doar Ministerului Energiei, deși plătește și ANPIS",
+            "major": false,
+            "article": "anexa"
+          }
+        ],
+        "good": [
+          {
+            "text": "Sumele nerestituite în 10 zile lucrătoare generează dobânzi și penalități fiscale",
+            "major": true,
+            "article": "art. I pct. 2, art. II pct. 2"
+          },
+          {
+            "text": "Furnizorii returnează în 10 zile lucrătoare sumele decontate peste calculul ANRE",
+            "major": true,
+            "article": "art. I pct. 3"
+          },
+          {
+            "text": "Regularizarea volumelor funcționează în ambele sensuri: restituire sau plată suplimentară",
+            "major": true,
+            "article": "art. II pct. 3"
+          },
+          {
+            "text": "Furnizorii plătiți deja cu 40% pot cere diferența de 20%",
+            "major": true,
+            "article": "art. IV alin. (2) lit. A"
+          },
+          {
+            "text": "Cererile încă neplătite primesc direct 60%, fără cerere adițională",
+            "major": true,
+            "article": "art. IV alin. (2) lit. B"
+          },
+          {
+            "text": "Termen final clar, 31 decembrie 2026, pentru introducerea datelor de decontare",
+            "major": false,
+            "article": "art. I pct. 3"
+          },
+          {
+            "text": "Ordin comun în 30 de zile pentru verificarea și plata cererilor",
+            "major": false,
+            "article": "art. III"
+          },
+          {
+            "text": "Modelul cererii adiționale invocă acum corect temeiul din lege",
+            "major": false,
+            "article": "anexa"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 23,
+        "removed": 21,
+        "same": 0.43
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:42:33.386Z"
+    }
+  ]
+}

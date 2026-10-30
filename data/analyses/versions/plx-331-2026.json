@@ -1,0 +1,97 @@
+{
+  "slug": "plx-331-2026",
+  "billId": "PL-x 331/2026",
+  "updatedAt": "2026-10-30T08:21:40.950Z",
+  "versions": [
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/300/30/1/se361.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Institutul Levantului își schimbă numele în „Institutul Levant pentru Cultura Păcii” și devine instituție autonomă",
+      "summaryTlDr": "Este o lege tehnică, în mare parte de imagine. Nu afectează cetățenii sau firmele. Are însă mici scăpări de tehnică legislativă: nu reglementează succesiunea instituției și nu definește ce înseamnă concret „autonomă”.",
+      "scores": {
+        "agy": null,
+        "claude": 2,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl331_cd331_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Institutul Levantului își schimbă numele și devine autonom",
+      "summaryTlDr": "Lege tehnică, fără efecte pentru cetățeni sau firme: redenumește un institut finanțat public și îi reformulează statutul și trimiterea salarială. Singura problemă reală este că institutul e declarat „autonom” fără să se explice ce înseamnă asta, față de cine mai răspunde și cum se asigură continuitatea sub noul nume.",
+      "scores": {
+        "agy": 3,
+        "claude": 2,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a adoptat textul Senatului fără modificări de fond: același nume nou, statut și salarizare",
+      "summary": "Camera Deputaților a păstrat textul votat de Senat. Diferențele sunt doar de formulare legislativă. Institutul primește tot noul nume și statutul de instituție autonomă, iar salarizarea rămâne raportată la administrația centrală.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Salarizarea nu are fișă financiară și nici garanție că salariile actuale se păstrează",
+            "major": true,
+            "article": "art. 6 alin. (2)"
+          },
+          {
+            "text": "Statutul „autonomă” nu precizează ordonatorul de credite, controlul și relația cu Senatul",
+            "major": false,
+            "article": "art. 1 alin. (1)"
+          },
+          {
+            "text": "Expunerea de motive nu justifică schimbarea statutului institutului",
+            "major": false,
+            "article": "art. 1 alin. (1)"
+          },
+          {
+            "text": "Formula „Se înființează” rămâne, fără o normă expresă de succesiune juridică",
+            "major": false,
+            "article": "art. 1 alin. (1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Nu introduce taxe, obligații, sancțiuni sau sarcini pentru cetățeni ori IMM-uri",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Costurile se limitează la schimbarea identității: ștampile, documente, site",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Salarizarea e legată explicit de o categorie din legislația salarizării publice",
+            "major": false,
+            "article": "art. 6 alin. (2)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 10,
+        "removed": 8,
+        "same": 0.09
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:21:36.594Z"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "slug": "plx-426-2026",
+  "billId": "Pl-x 426/2026",
+  "updatedAt": "2026-10-30T08:28:27.326Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/400/20/6/pl470.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "ANRE primește obiective legale pro-investiții în rețele și mai mult control din partea Parlamentului",
+      "summaryTlDr": "Este o lege mai mult declarativă, fără taxe și fără sancțiuni, dar formulată neglijent. Înclină balanța de reglementare spre veniturile operatorilor de rețea, iar protecția consumatorului ajunge doar un „principiu” secundar.",
+      "scores": {
+        "agy": null,
+        "claude": 4,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl426_cd426_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Obiective noi pentru ANRE: bani pentru rețele, plus audieri și rezoluții în Parlament",
+      "summaryTlDr": "Legea e mai degrabă declarativă și are două părți: un control parlamentar asupra ANRE bine îngrădit și o listă de obiective care pune finanțarea operatorilor de rețea înaintea consumatorilor. Nu e periculoasă, dar lit. d) poate deveni argument pentru tarife de rețea mai mari pe factură.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a adoptat tacit textul inițiatorului; obiectivele ANRE favorizează în continuare operatorii de rețea",
+      "summary": "Proiectul a trecut tacit de Cameră, fără modificări de fond. Acum se văd doar corecturi de formă: antet, diacritice, notații. Riscurile au rămas: ANRE are o marjă largă de decizie, iar obiectivele pot împinge tarifele de rețea în sus.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "ANRE acționează „în maniera pe care o consideră cea mai adecvată”, greu de controlat în instanță",
+            "major": true,
+            "article": "art. 9 alin. (1³)"
+          },
+          {
+            "text": "Finanțarea operatorilor și veniturile lor sunt garantate fără limita costurilor eficiente",
+            "major": true,
+            "article": "art. 9 alin. (1³) lit. c)-d)"
+          },
+          {
+            "text": "Protecția consumatorilor e doar principiu, nu obiectiv, și lipsește o regulă de arbitraj",
+            "major": true,
+            "article": "art. 9 alin. (1³) lit. e)"
+          },
+          {
+            "text": "Expunerea de motive nu justifică deloc mecanismul de control parlamentar",
+            "major": false,
+            "article": "art. 1 alin. (6), (8)-(9)"
+          },
+          {
+            "text": "Greșeală de redactare: „principiilor transparente” în loc de „transparenței”",
+            "major": false,
+            "article": "art. 9 alin. (1³) lit. e)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Audierile conducerii ANRE nu pot viza proceduri în curs sau acte exclusive ANRE",
+            "major": false,
+            "article": "art. 1 alin. (6)"
+          },
+          {
+            "text": "ANRE trebuie să explice în scris, în 6 luni, cum a urmat recomandările Parlamentului",
+            "major": false,
+            "article": "art. 1 alin. (8)-(9)"
+          },
+          {
+            "text": "Obiective explicite privind securitatea cibernetică și continuitatea alimentării cu energie",
+            "major": false,
+            "article": "art. 9 alin. (1³) lit. b)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 7,
+        "removed": 4,
+        "same": 0.56
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:28:07.397Z"
+    }
+  ]
+}

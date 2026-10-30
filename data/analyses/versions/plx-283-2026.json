@@ -1,0 +1,107 @@
+{
+  "slug": "plx-283-2026",
+  "billId": "PL-x 283/2026",
+  "updatedAt": "2026-10-30T08:19:07.874Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/200/80/3/pl304.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Cine gestionează împrumutul UE de ~16,7 miliarde euro pentru apărare (SAFE) și cum, plus câteva modificări fără legătură pentru primării",
+      "summaryTlDr": "Lege în mare parte tehnică și necesară pentru a nu pierde termenul SAFE din 30 mai 2026. Problemele reale sunt caracterul de «omnibus», cu măsuri de administrație locală lipite de un act de apărare, și controlul parlamentar slab asupra unei datorii publice uriașe.",
+      "scores": {
+        "agy": null,
+        "claude": 4,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl283_cd283_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Cine cheltuie și cine controlează împrumutul UE de 16,7 miliarde € pentru apărare",
+      "summaryTlDr": "Lege tehnică și necesară: fără ea, România risca să rateze termenul de 30 mai 2026 pentru contractele finanțate prin SAFE. Problema e controlul. O datorie de cca. 16,68 mld. EUR e cheltuită inclusiv de servicii secrete, iar cheltuielile sunt certificate chiar de instituțiile care le fac. Camera a aprobat legea tacit, fără dezbatere.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Fără schimbări de fond: Camera a adoptat tacit legea de aprobare a OUG 21/2026 în forma inițială",
+      "summary": "Camera Deputaților nu a modificat nimic: proiectul a fost considerat adoptat tacit, în forma inițială (art. 115 alin. 5 din Constituție). Ordonanța privind împrumutul SAFE de cca. 16,68 mld. EUR rămâne neschimbată, cu aceleași riscuri.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "SRI, SIE, STS și SPP fac achiziții SAFE, multe clasificate, cu transparență redusă",
+            "major": true,
+            "article": "art. 1^1 alin. (4) lit. a)"
+          },
+          {
+            "text": "Instituțiile care cheltuie își certifică singure legalitatea cheltuielilor, fără verificare independentă vizibilă",
+            "major": true,
+            "article": "art. 1^1 alin. (4) lit. c)"
+          },
+          {
+            "text": "Datorie publică de cca. 16,68 mld. EUR, rambursată cu dobânzi de contribuabili",
+            "major": true,
+            "article": "art. 1^1 alin. (3) lit. a)-e)"
+          },
+          {
+            "text": "Planul de investiții e aprobat de CSAT, fără rol explicit al Parlamentului",
+            "major": true,
+            "article": "art. 1^1 alin. (2) lit. d)"
+          },
+          {
+            "text": "Cancelaria Prim-Ministrului negociază cu furnizorii fără să răspundă pentru contracte",
+            "major": true,
+            "article": "art. 1^1 alin. (2) lit. c)"
+          },
+          {
+            "text": "Fonduri împrumutate pentru apărare pot ajunge în proiecte de drumuri cu dublă utilizare",
+            "major": true,
+            "article": "art. 1^1 alin. (1) lit. c)"
+          },
+          {
+            "text": "Scutirea de TVA cere evidență strictă ca să nu acopere achiziții neeligibile",
+            "major": false,
+            "article": "art. 1^1 alin. (3) lit. g)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Scutire legitimă de TVA pentru achizițiile SAFE, certificată de ANAF, conform regulamentului UE",
+            "major": true,
+            "article": "art. 1^1 alin. (3) lit. g)"
+          },
+          {
+            "text": "Ministerul Finanțelor are rol clar pentru semnarea și rambursarea împrumutului",
+            "major": false,
+            "article": "art. 1^1 alin. (3) lit. a)-e)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:19:07.874Z"
+    }
+  ]
+}

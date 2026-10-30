@@ -1,0 +1,102 @@
+{
+  "slug": "plx-373-2026",
+  "billId": "Pl-x 373/2026",
+  "updatedAt": "2026-10-30T08:26:35.898Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/300/70/3/pl407.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Se elimină definitiv pensia specială a primarilor și șefilor de consilii județene",
+      "summaryTlDr": "Este o lege scurtă și pozitivă: abrogă un singur articol care acordă foștilor aleși locali o indemnizație fără contribuții, aflată în prezent suspendată. Riscul principal ține de calendar: dacă legea nu intră în vigoare înainte de 1 ianuarie 2027, abrogarea ar putea lovi drepturi deja intrate în plată.",
+      "scores": {
+        "agy": null,
+        "claude": 2,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl373_cd373_26_(1).pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Pensia specială a primarilor și a șefilor de consilii județene se taie definitiv",
+      "summaryTlDr": "Lege de un singur articol, clară și utilă: șterge definitiv o pensie specială care acum nu se plătește, înainte să devină o cheltuială reală. Riscurile țin doar de tehnica legislativă și de calendar: legea trebuie să intre în vigoare înainte de 1 ianuarie 2027.",
+      "scores": {
+        "agy": 1,
+        "claude": 2,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Fără schimbări de fond: Camera a adoptat tacit textul inițial, care abrogă art. 210 din Codul administrativ",
+      "summary": "Camera Deputaților a adoptat tacit proiectul în forma inițială, fără amendamente. Textul abrogă în continuare indemnizația pentru limită de vârstă a aleșilor locali. Decizia finală se ia la Senat.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Lipsesc dispozițiile tranzitorii pentru cererile depuse sau deciziile deja emise",
+            "major": true,
+            "article": "art. unic"
+          },
+          {
+            "text": "Risc de contestare constituțională dacă intră în vigoare după reactivarea dreptului",
+            "major": true,
+            "article": "art. unic"
+          },
+          {
+            "text": "Trimiterile la art. 210 și norma de suspendare din alte acte rămân neabrogate",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Inițiatorii nu estimează numărul beneficiarilor sau costul anual evitat",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Adoptată tacit la Cameră, fără dezbatere în plen",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Elimină o cheltuială publică viitoare recurentă cu pensiile speciale ale aleșilor locali",
+            "major": true,
+            "article": "art. unic"
+          },
+          {
+            "text": "Pensia contributivă din sistemul public a aleșilor locali rămâne neatinsă",
+            "major": true,
+            "article": "art. unic"
+          },
+          {
+            "text": "Nu creează sarcini birocratice sau fiscale pentru cetățeni ori IMM-uri",
+            "major": false,
+            "article": "art. unic"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 4,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:25:58.020Z"
+    }
+  ]
+}

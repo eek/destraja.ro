@@ -1,0 +1,107 @@
+{
+  "slug": "plx-485-2026",
+  "billId": "PL-x 485/2026",
+  "updatedAt": "2026-10-30T08:31:48.340Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/400/80/5/pl543.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Legea veche despre trimiterea întrebărilor la Curtea UE în procesele penale este actualizată după Tratatul de la Lisabona și după o decizie CCR",
+      "summaryTlDr": "Este o lege tehnică, de curățenie legislativă, care aduce un câștig real pentru dreptul la apărare: plângerea împotriva suspendării procesului se va judeca de acum cu citarea părților. Riscul este minim. Rămân însă câteva scăpări de redactare (alin. 1 și alin. 8) care merită corectate, plus întârzierea de aproape doi ani față de termenul impus de CCR.",
+      "scores": {
+        "agy": null,
+        "claude": 2,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl485_cd485_26_(1).pdf",
+      "source": "cdep.ro",
+      "riskScore": 1.7,
+      "riskLevel": "green",
+      "plainTitle": "Instanțele penale întreabă direct Curtea UE, iar suspendarea procesului se contestă cu părțile citate",
+      "summaryTlDr": "Lege tehnică și utilă. Curăță o lege din 2009 rămasă în logica de dinainte de Tratatul de la Lisabona și repară, cu aproape doi ani întârziere, viciul constatat de CCR în Decizia 219/2024. Nu creează taxe, sancțiuni sau sarcini noi; are doar câteva formulări neglijente, ușor de corectat la Senat.",
+      "scores": {
+        "agy": 1,
+        "claude": 2,
+        "codex": 2
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Fără schimbări de fond: Camera a adoptat tacit proiectul în forma inițiatorului",
+      "summary": "Camera Deputaților a adoptat tacit proiectul, în forma inițiatorului. Față de forma inițială s-au modificat doar antetul, formula de adoptare și o greșeală de tipar la Art. II. Regulile despre întrebările adresate CJUE în procesele penale sunt aceleași.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Contestația poate viza și trimiterea la CJUE, nu doar suspendarea judecății",
+            "major": false,
+            "article": "art. I pct. 3 (art. 2 alin. (4))"
+          },
+          {
+            "text": "„Dacă cererea este formulată” sugerează greșit că sesizarea obligatorie depinde de cererea părților",
+            "major": false,
+            "article": "art. I pct. 3 (art. 2 alin. (2))"
+          },
+          {
+            "text": "Condiția „necesară pentru pronunțarea unei hotărâri” apare doar la lit. b), nu și la a)",
+            "major": false,
+            "article": "art. I pct. 3 (art. 2 alin. (1))"
+          },
+          {
+            "text": "Textul poate fi citit ca și cum hotărârea CJUE obligă doar în cauza respectivă",
+            "major": false,
+            "article": "art. I pct. 3 (art. 2 alin. (8))"
+          },
+          {
+            "text": "Citarea părților la contestație rezultă doar din Codul de procedură penală, nu expres",
+            "major": false,
+            "article": "art. I pct. 3 (art. 2 alin. (4)-(5))"
+          }
+        ],
+        "good": [
+          {
+            "text": "Recursul judecat fără citarea părților devine contestație cu citare, conform Deciziei CCR 219/2024",
+            "major": true,
+            "article": "art. I pct. 3 (art. 2 alin. (4)-(5))"
+          },
+          {
+            "text": "Se abrogă declarația depășită; orice instanță penală poate sesiza CJUE",
+            "major": false,
+            "article": "art. I pct. 2"
+          },
+          {
+            "text": "Instanța de ultim grad este obligată să sesizeze CJUE și să suspende judecata",
+            "major": false,
+            "article": "art. I pct. 3 (art. 2 alin. (2)-(3))"
+          },
+          {
+            "text": "Dezbaterile nu se pot încheia înainte ca CJUE să se pronunțe",
+            "major": false,
+            "article": "art. I pct. 3 (art. 2 alin. (7))"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 7,
+        "removed": 3,
+        "same": 0.67
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:31:48.340Z"
+    }
+  ]
+}

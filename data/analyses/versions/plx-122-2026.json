@@ -1,0 +1,342 @@
+{
+  "slug": "plx-122-2026",
+  "billId": "PL-x 122/2026",
+  "updatedAt": "2026-10-30T08:11:05.654Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L547FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Gospodăriile de la sat pot primi turiști legal, cu certificat de la primărie și rezervări printr-o platformă națională administrată de o firmă privată",
+      "summaryTlDr": "Scopul e util și bine primit de aproape tot Parlamentul. Textul inițiatorului lasă însă trei lucruri nereglementate: comisionul firmei private care încasează banii gospodăriilor nu are plafon în lege, lista activităților eligibile se publică pe un site, nu în Monitorul Oficial, iar baza de impozitare o stabilește ministerul care promovează programul.",
+      "scores": {
+        "agy": 5,
+        "claude": 5,
+        "codex": 5
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/20/2/se110.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Gospodăriile de la țară pot primi turiști contra cost, cu un certificat de la primărie și o platformă online națională",
+      "summaryTlDr": "Ideea este utilă și simplifică accesul gospodăriilor mici la turismul rural, dar execuția are goluri. Banii vizitatorilor trec printr-un singur operator privat, cu comision nelimitat. Lista activităților permise stă pe un site, nu într-un act normativ. Normele de venit le fixează Ministerul Agriculturii, nu Fiscul.",
+      "scores": {
+        "agy": null,
+        "claude": 4,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl122_cd122_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Programul „Viața la țară”: agroturism simplificat pentru gospodării, dar cu comision către un operator privat unic și o capcană la norma de venit",
+      "summaryTlDr": "O inițiativă cu intenție bună pentru deschiderea gospodăriilor rurale către turiști, dar viciată de concesionarea încasărilor către un operator privat unic cu comision neplafonat și de o omisiune fiscală care poate lăsa țăranii cu taxe fixe mai mari decât încasările ocazionale.",
+      "scores": {
+        "agy": 5,
+        "claude": null,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a păstrat textul inițiatorului: doar corecturi de formă, riscurile de fond rămân",
+      "summary": "Acum textul are doar retușuri de redactare: diacritice, ghilimele scoase, trimiterea la Monitorul Oficial, Partea I și formula de adoptare. Comisionul nelimitat al operatorului privat, normele de venit stabilite de MADR și certificatul fără criterii au rămas neschimbate.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Comisionul operatorului privat nu are plafon, fiind lăsat pe seama caietului de sarcini",
+            "major": true,
+            "article": "art. 5 lit. f)"
+          },
+          {
+            "text": "Un singur operator privat încasează toți banii vizitatorilor pentru gospodării",
+            "major": true,
+            "article": "art. 4 alin. (2)"
+          },
+          {
+            "text": "Lipsesc termenul de virare a banilor și garanțiile pentru fondurile încasate",
+            "major": true,
+            "article": "art. 5 lit. f)"
+          },
+          {
+            "text": "Nu se precizează dacă folosirea platformei private este obligatorie sau opțională",
+            "major": true,
+            "article": "art. 5"
+          },
+          {
+            "text": "Lista activităților eligibile e doar afișată pe platformă, fără act publicat oficial",
+            "major": true,
+            "article": "art. 3 alin. (2)"
+          },
+          {
+            "text": "Nu se spune cine aprobă și cum se modifică lista activităților",
+            "major": true,
+            "article": "art. 3 alin. (2)"
+          },
+          {
+            "text": "Normele de venit le stabilește ministrul agriculturii prin ordin, ocolind Codul fiscal",
+            "major": true,
+            "article": "art. 6 alin. (2)"
+          },
+          {
+            "text": "Lipsește avizul Ministerului Finanțelor; contribuțiile CASS și CAS nu sunt tratate",
+            "major": true,
+            "article": "art. 6"
+          },
+          {
+            "text": "Certificatul nu are criterii, termen, motive de refuz, valabilitate sau retragere",
+            "major": true,
+            "article": "art. 2 alin. (4)"
+          },
+          {
+            "text": "Formula „în mod uzual și permanent” rămâne nedefinită",
+            "major": false,
+            "article": "art. 2 alin. (2)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Veniturile se impozitează simplu, pe bază de norme de venit",
+            "major": true,
+            "article": "art. 6 alin. (1)"
+          },
+          {
+            "text": "Normele de venit trebuie comunicate ANAF până la 30 noiembrie, anul anterior",
+            "major": false,
+            "article": "art. 6 alin. (3)"
+          },
+          {
+            "text": "Operatorul platformei se desemnează prin licitație publică",
+            "major": false,
+            "article": "art. 4 alin. (2)"
+          },
+          {
+            "text": "Înscrierea se face la primărie, într-un registru local digital",
+            "major": false,
+            "article": "art. 2 alin. (3)"
+          },
+          {
+            "text": "Statul oferă ghiduri, cursuri gratuite și programe de finanțare gospodăriilor",
+            "major": false,
+            "article": "art. 7"
+          },
+          {
+            "text": "Veniturile beneficiarilor devin transparente pentru ANAF și autoritățile locale",
+            "major": false,
+            "article": "art. 5 lit. g)"
+          },
+          {
+            "text": "Normele metodologice trebuie aprobate prin hotărâre de Guvern în 90 de zile",
+            "major": false,
+            "article": "art. 9"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 18,
+        "removed": 23,
+        "same": 0.42
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:10:25.770Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_putin_riscant",
+      "headline": "Normele de venit pentru gospodari se stabilesc acum împreună cu Ministerul Finanțelor",
+      "summary": "Acum, impozitul gospodarilor se fixează prin ordin comun cu Ministerul Finanțelor și se aplică doar din anul fiscal următor. Rămân însă comisionul fără plafon al operatorului privat și lipsa unor reguli clare pentru certificat.",
+      "changes": [
+        {
+          "title": "Ministerul Finanțelor stabilește și el normele de venit",
+          "text": "Art. 6 alin. (2): normele anuale de venit nu mai sunt fixate doar de ministrul agriculturii. Acum se stabilesc prin ordin comun cu ministrul finanțelor.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 6 alin. (2)",
+          "before": "precum și coeficienții de corecție a acestora se stabilesc prin ordin al ministrului agriculturii și dezvoltării rurale.",
+          "after": "precum și coeficienții de corecție ai acestora se stabilesc prin ordin comun al ministrului agriculturii și dezvoltării rurale și ministrului finanțelor.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Impozitarea începe abia din anul fiscal următor",
+          "text": "Art. 10 nou: regimul fiscal de la art. 6 se aplică veniturilor din anul fiscal de după publicarea legii. Gospodarii au astfel timp să se pregătească.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 10",
+          "before": null,
+          "after": "Prin derogare de la prevederile art. 4 din Legea nr. 227/2015, cu modificările și completările ulterioare, prevederile art. 6 se aplică începând cu veniturile anului fiscal următor celui publicării în Monitorul Oficial al României, Partea I, a prezentei legi.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Datele financiare ajung la fisc, nu la primării",
+          "text": "Art. 5 lit. g): situațiile financiare ale beneficiarilor nu mai merg la autoritățile locale. Acum se transmit organului fiscal competent.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 5 lit. g)",
+          "before": "transmiterea situațiilor financiare către autoritățile locale din zona de competență.",
+          "after": "transmiterea situațiilor financiare către organul fiscal competent.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Platforma trebuie să funcționeze în 6 luni",
+          "text": "Art. 9 alin. (2) nou: platforma națională trebuie dezvoltată și pusă în funcțiune în 6 luni de la publicarea legii.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 9 alin. (2)",
+          "before": null,
+          "after": "Dezvoltarea și operaționalizarea platformei electronice naționale „Viața la țară” prevăzută la art. 4 alin. (1) se efectuează în termen de 6 luni de la data publicării în Monitorul Oficial al României, Partea I, a prezentei legi.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Regimul fiscal vizează explicit persoanele fizice",
+          "text": "Art. 6 alin. (1) precizează că regula privind veniturile din activități independente se aplică veniturilor realizate de persoanele fizice.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 6 alin. (1)",
+          "before": "Veniturile realizate în baza activităților Programului Viața la țară reprezintă venituri din activități independente",
+          "after": "Veniturile realizate de persoanele fizice în baza activităților Programului reprezintă venituri din activități independente",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Certificatul atestă datele declarate, nu dreptul de prezentare",
+          "text": "Art. 2 alin. (4): certificatul nu mai spune că titularul poate prezenta activități în program. Acum atestă gospodăria și informațiile din declarație.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 2 alin. (4)",
+          "before": "care atestă deținerea gospodăriei rurale și că poate prezenta activități rurale în cadrul programului.",
+          "after": "care atestă deținerea gospodăriei țărănești, precum și informațiile prevăzute la alin. (2).",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Operator privat unic încasează banii, cu comision fără plafon legal",
+            "major": true,
+            "article": "art. 5 lit. f)"
+          },
+          {
+            "text": "Nu există termen de virare a banilor și nici garanții pentru fondurile clienților",
+            "major": true,
+            "article": "art. 5 lit. f)"
+          },
+          {
+            "text": "Lista activităților eligibile e doar afișată pe platformă, fără act normativ",
+            "major": true,
+            "article": "art. 3 alin. (2)"
+          },
+          {
+            "text": "Nu derogă de la plafonul minim al normei din art. 69 alin. (3)",
+            "major": true,
+            "article": "art. 6"
+          },
+          {
+            "text": "Contribuțiile CASS/CAS și baza minimă anuală nu sunt tratate",
+            "major": true,
+            "article": "art. 6"
+          },
+          {
+            "text": "Certificat fără termen de eliberare, gratuitate sau condiții de refuz și retragere",
+            "major": true,
+            "article": "art. 2"
+          },
+          {
+            "text": "Platforma raportează toate încasările la fisc, deși impozitul e pe normă",
+            "major": false,
+            "article": "art. 5 lit. g)"
+          },
+          {
+            "text": "Formula „în mod uzual și permanent” rămâne nedefinită",
+            "major": false,
+            "article": "art. 2 alin. (2)"
+          },
+          {
+            "text": "Platformă finanțată public, dar administrată integral de un operator privat",
+            "major": false,
+            "article": "art. 4 alin. (2)"
+          },
+          {
+            "text": "Primăriile trebuie să creeze registre digitale, fără termen stabilit",
+            "major": false,
+            "article": "art. 2 alin. (3)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Normele de venit se stabilesc prin ordin comun cu Ministerul Finanțelor",
+            "major": true,
+            "article": "art. 6 alin. (2)"
+          },
+          {
+            "text": "Impozitare simplă, pe normă de venit, pentru veniturile din program",
+            "major": true,
+            "article": "art. 6 alin. (1)"
+          },
+          {
+            "text": "Statul oferă gospodarilor cursuri gratuite de instruire",
+            "major": true,
+            "article": "art. 7 lit. b)"
+          },
+          {
+            "text": "Regimul fiscal se aplică doar din anul fiscal următor publicării",
+            "major": false,
+            "article": "art. 10"
+          },
+          {
+            "text": "Normele sunt comunicate fiscului până la 30 noiembrie a anului anterior",
+            "major": false,
+            "article": "art. 6 alin. (3)"
+          },
+          {
+            "text": "Platforma trebuie să funcționeze în 6 luni de la publicare",
+            "major": false,
+            "article": "art. 9 alin. (2)"
+          },
+          {
+            "text": "Normele metodologice trebuie aprobate în 90 de zile",
+            "major": false,
+            "article": "art. 9 alin. (1)"
+          },
+          {
+            "text": "Operatorul platformei este desemnat prin licitație publică",
+            "major": false,
+            "article": "art. 4 alin. (2)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 24,
+        "removed": 21,
+        "same": 0.29
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:11:05.654Z"
+    }
+  ]
+}

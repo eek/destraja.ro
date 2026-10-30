@@ -1,0 +1,107 @@
+{
+  "slug": "plx-410-2026",
+  "billId": "PL-x 410/2026",
+  "updatedAt": "2026-10-30T08:28:27.325Z",
+  "versions": [
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/10/0/se446.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Statul obține încă 6 luni de protecție contra popririi conturilor sale din bănci",
+      "summaryTlDr": "Legea extinde un termen de grație deja existent pentru instituțiile publice datoare și asupra conturilor din bănci. Scopul de a nu bloca salariile și serviciile publice este legitim, dar textul votat de Senat are un singur rând vag („se aplică în mod corespunzător”), care lasă băncile, executorii și creditorii fără reguli clare.",
+      "scores": {
+        "agy": null,
+        "claude": 5,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl410_cd410_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Instituțiile publice, protejate 6 luni de popriri și pe conturile din bănci",
+      "summaryTlDr": "Lege scurtă și în mare parte tehnică. Extinde și la conturile din bănci perioada de grație de 6 luni de care instituțiile publice beneficiază deja la Trezorerie. Nu costă nimic cetățeanul, dar lungește așteptarea celor cărora statul le datorează bani. Este scrisă printr-o trimitere vagă („în mod corespunzător”), care nu dă băncilor și executorilor nicio procedură.",
+      "scores": {
+        "agy": 6,
+        "claude": 4,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Fără schimbări de fond: Camera a adoptat același text ca Senatul despre blocarea popririi pe conturile statului",
+      "summary": "Camera a votat același articol ca Senatul, cu diferențe doar de redactare. Instituțiile publice pot amâna și acum până la 6 luni plata datoriilor din conturile bancare, iar regulile rămân neclare.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Poprirea pe conturile instituțiilor poate fi amânată până la 6 luni de la somație",
+            "major": true,
+            "article": "art. 2¹"
+          },
+          {
+            "text": "Salariații, IMM-urile și păgubiții așteaptă mai mult, iar penalitățile se plătesc tot din buget",
+            "major": true,
+            "article": "art. 2¹"
+          },
+          {
+            "text": "„În mod corespunzător” e ambiguu: suspendare de drept sau doar reafirmarea termenului?",
+            "major": true,
+            "article": "art. 2¹"
+          },
+          {
+            "text": "Fără dispoziții tranzitorii; neclar dacă afectează popririle deja înființate",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Lipsa de fonduri nu are procedură: cine o constată, cu ce act",
+            "major": false,
+            "article": "art. 2¹"
+          },
+          {
+            "text": "Lipsește termenul de 15 zile pentru notificarea lipsei fondurilor",
+            "major": false,
+            "article": "art. 2¹"
+          },
+          {
+            "text": "Rolul băncii neclar: refuz din oficiu, la cerere, încasări viitoare?",
+            "major": false,
+            "article": "art. 2¹"
+          },
+          {
+            "text": "Nicio derogare expresă de la art. 781–794 CPC pentru bănci",
+            "major": false,
+            "article": "art. 2¹"
+          }
+        ],
+        "good": [
+          {
+            "text": "După cele 6 luni creditorul poate trece la executarea silită obișnuită",
+            "major": false,
+            "article": "art. 2¹"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 3,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:28:27.325Z"
+    }
+  ]
+}

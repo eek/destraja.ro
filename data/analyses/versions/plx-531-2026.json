@@ -1,0 +1,112 @@
+{
+  "slug": "plx-531-2026",
+  "billId": "Pl-x 531/2026",
+  "updatedAt": "2026-10-30T08:40:58.810Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/500/30/1/pl616.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Statul împrumută 544 milioane de euro de la Banca Mondială ca să acopere deficitul bugetar",
+      "summaryTlDr": "Este o lege tehnică, standard, de ratificare a unui împrumut. Nu creează taxe, sancțiuni sau obligații directe pentru cetățeni sau firme. Riscurile reale sunt de altă natură: dobânda variabilă, rambursarea integrală abia în 2044 și posibilitatea ca Guvernul să modifice ulterior acordul prin simplă hotărâre.",
+      "scores": {
+        "agy": null,
+        "claude": 3,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl531_cd531_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Ratificarea împrumutului de 544 milioane euro de la Banca Mondială (BIRD) pentru acoperirea deficitului bugetar",
+      "summaryTlDr": "Lege tehnică standard de ratificare a unui împrumut suveran în condiții financiare avantajoase față de piețele comerciale, dar promovată atipic prin inițiativă parlamentară în loc de proiect al Guvernului.",
+      "scores": {
+        "agy": 3,
+        "claude": null,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Fără schimbări de fond: Camera a adoptat împrumutul BIRD de 544 mil. euro în forma inițiatorului",
+      "summary": "Textul adoptat de Cameră este, pe fond, identic cu cel inițial. Diferențele sunt doar de redactare și de formula de adoptare. Riscurile rămân aceleași: bani pentru deficit, rambursare integrală în 2044 și amendamente aprobate prin HG.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Banii acoperă deficitul și refinanțarea datoriei, nu proiecte de investiții",
+            "major": true,
+            "article": "art. 2"
+          },
+          {
+            "text": "544 mil. euro se rambursează într-o singură zi, la 15.02.2044",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Dobânda variabilă EURIBOR plus marjă și comisioane pot scumpi împrumutul",
+            "major": true,
+            "article": "art. 3"
+          },
+          {
+            "text": "Guvernul modifică Acordul prin HG, fără a reveni în Parlament",
+            "major": true,
+            "article": "art. 4"
+          },
+          {
+            "text": "Limita nu acoperă schimbări de condiții, calendar, valută sau dobândă",
+            "major": true,
+            "article": "art. 4"
+          },
+          {
+            "text": "Costul total până în 2044 nu este prezentat, doar 2026–2030",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Acordul guvernamental a fost depus de 4 deputați, ocolind procedura obișnuită",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Amendamentele aprobate prin HG nu pot majora obligațiile financiare ale României",
+            "major": false,
+            "article": "art. 4"
+          },
+          {
+            "text": "Utilizarea banilor urmează regulile legale privind datoria publică (OUG 64/2007)",
+            "major": false,
+            "article": "art. 2"
+          },
+          {
+            "text": "Plata ratelor, dobânzilor și comisioanelor are un mecanism legal clar",
+            "major": false,
+            "article": "art. 3"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 8,
+        "removed": 8,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:40:58.810Z"
+    }
+  ]
+}

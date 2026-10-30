@@ -1,0 +1,132 @@
+{
+  "slug": "plx-465-2026",
+  "billId": "Pl-x 465/2026",
+  "updatedAt": "2026-10-30T08:30:27.172Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/400/60/5/pl512.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Educația pentru sănătate devine materie obligatorie pentru toți elevii",
+      "summaryTlDr": "Este o lege de politică educațională cu scop legitim și fără sancțiuni, taxe sau poveri pentru cetățeni ori firme. Problema ei e că e redactată prea sumar: nu spune la ce clase se predă, cu câte ore, cine predă și din ce bani.",
+      "scores": {
+        "agy": null,
+        "claude": 3,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl465_cd465_26_(3).pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Educația pentru sănătate devine materie obligatorie la școală",
+      "summaryTlDr": "Este o idee utilă de sănătate publică și nu conține capcane pentru firme sau cetățeni. Textul e însă scris în grabă: nu spune la ce clase se predă, câte ore are, cine o predă și din ce bani se plătește. A trecut tacit prin Camera Deputaților, așa că Senatul e singurul loc unde mai poate fi reparat.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Fără schimbări de fond: forma adoptată de Cameră reia textul inițiatorului, doar cu noul nume al ministerului",
+      "summary": "Forma adoptată de cameră e aceeași cu cea inițială. S-a actualizat doar denumirea ministerului (Ministerul Educației și Cercetării) și s-au făcut retușuri de redactare. Problemele inițiale rămân toate.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Disciplină obligatorie în trunchiul comun, fără clase, cicluri sau număr minim de ore",
+            "major": true,
+            "article": "art. I pct. 2, art. 88 alin. (10¹)"
+          },
+          {
+            "text": "Lipsește sursa de finanțare și estimarea impactului bugetar cerută de Legea 500/2002",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Formarea „în țară sau în străinătate” generează costuri neestimate",
+            "major": true,
+            "article": "art. I pct. 2, art. 88 alin. (10³)"
+          },
+          {
+            "text": "Nivelurile și orele rămân la planurile-cadru ale ministerului, fără delegare expresă și criterii",
+            "major": false,
+            "article": "art. I pct. 2, art. 88 alin. (10¹)"
+          },
+          {
+            "text": "Manualele pot fi elaborate direct de minister, în afara regimului obișnuit de selecție",
+            "major": false,
+            "article": "art. I pct. 2, art. 88 alin. (10²)"
+          },
+          {
+            "text": "Formarea profesorilor e doar facultativă, coordonată de INSP, nu prin formarea continuă",
+            "major": false,
+            "article": "art. I pct. 2, art. 88 alin. (10³)"
+          },
+          {
+            "text": "Nu se cere o specializare pentru cine predă; risc de ore pentru completarea normei",
+            "major": false,
+            "article": "art. I pct. 2, art. 88 alin. (10³)"
+          },
+          {
+            "text": "90 de zile și aplicare din anul școlar următor: termen nerealist pentru programe și manuale",
+            "major": false,
+            "article": "art. II și art. III"
+          },
+          {
+            "text": "Greșeală de redactare: „elaborază” în loc de „elaborează”",
+            "major": false,
+            "article": "art. I pct. 2, art. 88 alin. (10²)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Educația pentru sănătate devine disciplină școlară în trunchiul comun",
+            "major": true,
+            "article": "art. I pct. 2, art. 88 alin. (10¹)"
+          },
+          {
+            "text": "Conținutul se adaptează vârstei și particularităților de dezvoltare ale elevilor",
+            "major": false,
+            "article": "art. I pct. 2, art. 88 alin. (10²)"
+          },
+          {
+            "text": "Programa și manualele se fac în colaborare cu Ministerul Sănătății",
+            "major": false,
+            "article": "art. I pct. 2, art. 88 alin. (10²)"
+          },
+          {
+            "text": "Obiectivele curriculumului includ stil de viață sănătos și educație pentru prevenție",
+            "major": false,
+            "article": "art. I pct. 1, art. 85 alin. (1) lit. j)"
+          },
+          {
+            "text": "Competența pentru sănătate și prevenție se adaugă între competențele-cheie",
+            "major": false,
+            "article": "art. I pct. 3, art. 91 lit. i)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 10,
+        "removed": 12,
+        "same": 0.17
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:30:16.788Z"
+    }
+  ]
+}

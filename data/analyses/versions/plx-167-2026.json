@@ -1,0 +1,102 @@
+{
+  "slug": "plx-167-2026",
+  "billId": "Pl-x 167/2026",
+  "updatedAt": "2026-10-30T08:16:22.341Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/100/60/7/pl179.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Comasarea comunelor prin referendum: prag de prezență redus de la 30% la 20%",
+      "summaryTlDr": "Este o inițiativă scurtă și în esență benignă, care urmează recomandările europene de a nu bloca referendumurile prin cvorum ridicat. Are însă o greșeală tehnică serioasă: dacă rămâne pragul de 25% voturi valabile din înscriși, o prezență de 20% nu poate valida niciodată rezultatul, deci legea riscă să nu aibă niciun efect.",
+      "scores": {
+        "agy": null,
+        "claude": 3,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl167_cd167_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Referendumul pentru comasarea sau separarea comunelor ar fi valabil de la 20% prezență, nu de la 30%",
+      "summaryTlDr": "Schimbarea este rezonabilă și merge în direcția recomandată de Comisia de la Veneția, dar e scrisă neglijent. Derogarea generică de la „art. 5” din Legea nr. 3/2000 lasă neclar dacă mai contează pragul de validare de 25% din înscriși, iar de asta depinde dacă legea chiar coboară pragul la 20%.",
+      "scores": {
+        "agy": 5,
+        "claude": 3,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Fără schimbări de fond: pragul de 20% pentru referendumul local rămâne la fel ca inițial",
+      "summary": "Textul noului alineat a rămas identic. S-au schimbat doar diacriticele, ghilimelele și formula de adoptare, acum adoptare tacită de Cameră. Problemele inițiale rămân: pragul de validare de 25% nu e lămurit și nu există normă tranzitorie.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Pragul de validare de 25% din Legea 3/2000 nu este tratat",
+            "major": true,
+            "article": "art. 95 alin. (5)"
+          },
+          {
+            "text": "Dacă pragul de 25% cade, circa 10% din înscriși pot decide",
+            "major": true,
+            "article": "art. 95 alin. (5)"
+          },
+          {
+            "text": "La prezență de 20–24%, rezultatul poate fi imposibil de validat",
+            "major": true,
+            "article": "art. 95 alin. (5)"
+          },
+          {
+            "text": "Se aplică și desprinderii de sate, nu doar comasărilor",
+            "major": true,
+            "article": "art. 95 alin. (5)"
+          },
+          {
+            "text": "Lipsește norma tranzitorie privind data de la care se aplică noul prag",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Listele electorale umflate de plecații în străinătate rămân baza de calcul",
+            "major": false,
+            "article": "art. 95 alin. (5)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Prezența minimă scade de la 30% la 20%, ușurând comasarea localităților",
+            "major": true,
+            "article": "art. 95 alin. (5)"
+          },
+          {
+            "text": "Fără impact bugetar direct și fără sarcini noi pentru cetățeni sau IMM-uri",
+            "major": false,
+            "article": null
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 3,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:16:11.067Z"
+    }
+  ]
+}

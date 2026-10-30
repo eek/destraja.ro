@@ -1,0 +1,97 @@
+{
+  "slug": "plx-284-2026",
+  "billId": "Pl-x 284/2026",
+  "updatedAt": "2026-10-30T08:19:17.293Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/200/80/4/pl303.pdf",
+      "source": "cdep.ro",
+      "riskScore": 1,
+      "riskLevel": "green",
+      "plainTitle": "Comuna „Bira” din Neamț își recapătă oficial numele corect: „Bâra”",
+      "summaryTlDr": "Lege pur tehnică și benignă: corectează o greșeală de tipar din 1981 și aduce numele comunei în linie cu grafia cu „â”. Nu creează obligații, taxe sau sancțiuni. Singura scăpare este lipsa unei norme tranzitorii pentru actele emise sub vechea denumire.",
+      "scores": {
+        "agy": null,
+        "claude": 1,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl284_cd284_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Comuna Bira din Neamț devine oficial «Bâra»",
+      "summaryTlDr": "Lege benignă și utilă: repară o literă scrisă greșit de 45 de ani în numele comunei Bâra (Neamț). Nu aduce taxe și nu impune obligații noi. Singurul cusur este o formulă de tehnică legislativă stângace.",
+      "scores": {
+        "agy": 2,
+        "claude": 1,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Comuna Bira din Neamț devine Bâra; textul adoptat e doar reformulat, fără schimbări de fond",
+      "summary": "Inițial și acum, legea schimbă doar grafia numelui comunei și al satului de reședință din „Bira” în „Bâra”. Camera a precizat mai exact coloanele modificate și republicarea legii. Nu apar drepturi, obligații sau costuri noi.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Nu spune că actele emise cu „Bira” rămân valabile",
+            "major": true,
+            "article": "art. unic"
+          },
+          {
+            "text": "Nu stabilește cine actualizează evidențele și cine plătește costurile",
+            "major": true,
+            "article": "art. unic"
+          },
+          {
+            "text": "Grafiile pot rămâne amestecate, evidența populației folosind deja „BARA”",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Formula introductivă sugerează înlocuirea întregii anexe, nu doar a poziției 7",
+            "major": false,
+            "article": "art. unic"
+          }
+        ],
+        "good": [
+          {
+            "text": "Modifică doar poziția 7; satele Negrești și Rediu rămân neschimbate",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Corectează o eroare documentată: circumflexul pierdut la republicarea din 1981",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Indică precis coloanele modificate și republicarea legii din 1981",
+            "major": false,
+            "article": "art. unic"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 7,
+        "removed": 6,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:19:17.293Z"
+    }
+  ]
+}

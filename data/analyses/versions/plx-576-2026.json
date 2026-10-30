@@ -1,0 +1,107 @@
+{
+  "slug": "plx-576-2026",
+  "billId": "Pl-x 576/2026",
+  "updatedAt": "2026-10-30T08:45:07.544Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/500/70/6/pl658.pdf",
+      "source": "cdep.ro",
+      "riskScore": 1,
+      "riskLevel": "green",
+      "plainTitle": "România aprobă votul prin procură pentru europarlamentarele însărcinate sau care au născut recent",
+      "summaryTlDr": "Lege tehnică și benignă: Parlamentul doar aprobă o decizie UE adoptată în unanimitate, care permite europarlamentarelor să voteze prin procură în jurul nașterii unui copil. Nu are efecte asupra cetățenilor, firmelor sau bugetului național.",
+      "scores": {
+        "agy": null,
+        "claude": 1,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl576_cd576_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 1,
+      "riskLevel": "green",
+      "plainTitle": "Eurodeputatele însărcinate sau proaspăt mame vor putea vota prin procură",
+      "summaryTlDr": "Lege tehnică și benignă: România își dă doar acordul ca deputatele în Parlamentul European să poată vota printr-un coleg în lunile din jurul nașterii. Nu creează taxe, sancțiuni sau obligații pentru cetățeni ori firme.",
+      "scores": {
+        "agy": 1,
+        "claude": 1,
+        "codex": 1
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Fără schimbări de fond: Camera a înlocuit doar „se aprobă” cu „se acceptă” în textul legii",
+      "summary": "Acum legea spune că România „acceptă” decizia UE, nu că o „aprobă”, iar formula finală e cea a Camerei. Efectul e același: consimțământul României la votul prin procură al eurodeputaților în jurul nașterii unui copil.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Excepție de la votul individual și personal al eurodeputaților, prin procură dată altui membru",
+            "major": true,
+            "article": "art. 1 din Decizie (art. 6 alin. (1a) din Actul din 1976)"
+          },
+          {
+            "text": "Garanțiile anti-abuz sunt doar principii; regulile concrete le stabilește Parlamentul European",
+            "major": false,
+            "article": "art. 1 din Decizie (art. 6 alin. (1b) din Actul din 1976)"
+          },
+          {
+            "text": "Parlamentul României nu are niciun rol ulterior în stabilirea condițiilor votului prin procură",
+            "major": false,
+            "article": "art. unic"
+          }
+        ],
+        "good": [
+          {
+            "text": "Nu creează taxe, obligații, sancțiuni sau costuri pentru cetățeni și firme",
+            "major": true,
+            "article": "art. unic"
+          },
+          {
+            "text": "Eurodeputații pot vota prin procură în perioada din jurul nașterii unui copil",
+            "major": true,
+            "article": "art. 1 din Decizie (art. 6 alin. (1a) din Actul din 1976)"
+          },
+          {
+            "text": "Derogarea e limitată la 3 luni înainte și 6 luni după naștere",
+            "major": false,
+            "article": "art. 1 din Decizie (art. 6 alin. (1a) din Actul din 1976)"
+          },
+          {
+            "text": "Votul prin procură se exprimă exclusiv prin alt membru al Parlamentului European",
+            "major": false,
+            "article": "art. 1 din Decizie (art. 6 alin. (1a) din Actul din 1976)"
+          },
+          {
+            "text": "Nu modifică Legea nr. 33/2007 și nici altă lege națională",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Acceptarea de către România evită blocarea intrării în vigoare pentru toate statele UE",
+            "major": false,
+            "article": "art. unic"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 4,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:44:42.643Z"
+    }
+  ]
+}

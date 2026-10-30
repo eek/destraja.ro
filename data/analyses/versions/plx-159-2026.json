@@ -1,0 +1,185 @@
+{
+  "slug": "plx-159-2026",
+  "billId": "PL-x 159/2026",
+  "updatedAt": "2026-10-30T08:16:22.338Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L069FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "2026 declarat Anul Centenarului PNȚ: instituțiile pot organiza și finanța evenimente comemorative",
+      "summaryTlDr": "Este o lege simbolică și permisivă, fără obligații, taxe sau sancțiuni pentru cetățeni ori firme. Singura problemă reală este că permite cheltuirea banilor publici pentru aniversarea unei formațiuni al cărei continuator, PNȚCD, este astăzi partid politic activ. Plasa de siguranță din art. 2 alin. (3) este doar declarativă.",
+      "scores": {
+        "agy": null,
+        "claude": 2,
+        "codex": null
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/50/9/se168.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Legea care declară 2026 Anul Centenarului PNȚ și le permite instituțiilor să organizeze evenimente",
+      "summaryTlDr": "Este o lege comemorativă, aproape pur simbolică: nu impune obligații, taxe sau sancțiuni și nu atinge piața. Singura problemă reală este că permite folosirea banilor publici pentru omagierea unui brand de partid, iar garanția împotriva propagandei este doar declarativă.",
+      "scores": {
+        "agy": null,
+        "claude": 2,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl159_cd159_26_(6).pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "2026 devine oficial Anul Centenar al PNȚ",
+      "summaryTlDr": "Lege comemorativă, fără obligații și fără bani noi: instituțiile pot, dar nu sunt obligate, să organizeze evenimente despre istoria PNȚ. Singurul punct slab este protecția împotriva folosirii banilor publici în favoarea unui partid de azi, care e formulată vag.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Doar corecturi de formă: diacriticele din numele partidului și formula de adoptare de către Senat",
+      "summary": "Conținutul nu s-a schimbat. Acum numele partidului e scris corect, „Țărănesc”, iar formula finală arată că proiectul a fost adoptat de Senat. Pentru cetățeni și firme legea rămâne simbolică și nu impune obligații.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Clauza anti-promovare partizană nu are criterii, interdicții concrete sau sancțiuni",
+            "major": true,
+            "article": "art. 2 alin. (3)"
+          },
+          {
+            "text": "Nu împiedică finanțarea unor evenimente co-organizate cu partide actuale care revendică PNȚ",
+            "major": true,
+            "article": "art. 2 alin. (3)"
+          },
+          {
+            "text": "Legea asociază statul cu o doctrină politică anume, prin aprecieri istorico-ideologice",
+            "major": false,
+            "article": "art. 1"
+          },
+          {
+            "text": "Nu cere raportarea sumelor publice cheltuite pentru manifestări",
+            "major": false,
+            "article": "art. 2"
+          },
+          {
+            "text": "Nu are termen de încetare; după 2026 rămâne în vigoare o normă epuizată",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Nu creează obligații, cheltuieli sau sarcini birocratice pentru cetățeni ori IMM-uri",
+            "major": true,
+            "article": "art. 2 alin. (1)-(2)"
+          },
+          {
+            "text": "Cheltuielile sunt opționale și limitate la alocările bugetare deja aprobate",
+            "major": true,
+            "article": "art. 2 alin. (2)"
+          },
+          {
+            "text": "Articolul de instituire este simbolic: fără zile libere, drepturi sau beneficii fiscale",
+            "major": false,
+            "article": "art. 1"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 5,
+        "removed": 5,
+        "same": 0.17
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:16:07.591Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a adoptat textul Senatului fără schimbări de fond, doar cu mici diferențe de scriere",
+      "summary": "Forma adoptată de Cameră reia aproape cuvânt cu cuvânt forma adoptată de Senat. Diferențele sunt doar de scriere („Tărănesc”, „Parliamentul”, spațieri), așa că riscurile pentru cetățeni și firme rămân aceleași.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Nimeni nu verifică neutralitatea politică, iar încălcarea ei nu are nicio sancțiune",
+            "major": true,
+            "article": "art. 2 alin. (3)"
+          },
+          {
+            "text": "Nu interzice expres transferul de bani sau bunuri către un partid existent",
+            "major": true,
+            "article": "art. 2 alin. (3)"
+          },
+          {
+            "text": "Administrația Prezidențială poate finanța evenimente dedicate unui partid, deși trebuie să fie neutră",
+            "major": true,
+            "article": "art. 2 alin. (1)-(2)"
+          },
+          {
+            "text": "Permite cheltuirea de bani publici, dar costul nu este estimat nicăieri",
+            "major": true,
+            "article": "art. 2 alin. (2)"
+          },
+          {
+            "text": "Legea consfințește aprecieri istorico-ideologice care asociază statul cu o doctrină politică",
+            "major": false,
+            "article": "art. 1"
+          },
+          {
+            "text": "Nu are termen de încetare și nu cere raportarea sumelor cheltuite",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Nicio instituție nu este obligată să organizeze sau să finanțeze evenimente",
+            "major": true,
+            "article": "art. 2 alin. (1)-(2)"
+          },
+          {
+            "text": "Cheltuielile se fac doar în limita bugetelor deja aprobate, fără bani noi",
+            "major": true,
+            "article": "art. 2 alin. (2)"
+          },
+          {
+            "text": "Nu creează obligații sau sarcini birocratice pentru cetățeni ori firme",
+            "major": true,
+            "article": "art. 2"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 6,
+        "removed": 5,
+        "same": 0.14
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:16:22.338Z"
+    }
+  ]
+}

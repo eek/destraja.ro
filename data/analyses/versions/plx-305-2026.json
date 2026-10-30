@@ -1,0 +1,92 @@
+{
+  "slug": "plx-305-2026",
+  "billId": "Pl-x 305/2026",
+  "updatedAt": "2026-10-30T08:20:39.174Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/300/00/5/pl330.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Lege prin care Parlamentul României „decide” singur unirea cu Republica Moldova",
+      "summaryTlDr": "Este o lege declarativă cu efect juridic practic nul, deoarece un stat nu poate decide prin lege internă unirea cu alt stat suveran. Nu introduce taxe și nu are capcane economice, dar are vicii constituționale serioase de formă și de competență și poate produce costuri diplomatice reale.",
+      "scores": {
+        "agy": null,
+        "claude": 5,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl305_cd305_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 7.3,
+      "riskLevel": "red",
+      "plainTitle": "O lege de patru articole care «decide» singură unirea cu Republica Moldova",
+      "summaryTlDr": "Nu evaluăm idealul unirii, ci instrumentul. O lege de patru articole care «decide» unilateral unirea cu un stat suveran, fără acordul lui, fără revizuirea Constituției și fără referendum, nu se poate aplica juridic și e riscantă diplomatic. Nu atinge buzunarul nimănui, dar ar fi avut șanse mari să fie declarată neconstituțională; Senatul a respins-o definitiv.",
+      "scores": {
+        "agy": 8,
+        "claude": 6,
+        "codex": 8
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Fără schimbări de fond: proiectul a trecut tacit de Cameră, cu textul inițial neschimbat",
+      "summary": "Camera Deputaților a adoptat proiectul tacit, în forma inițiatorului. S-au schimbat doar formula de adoptare, semnătura și câteva diacritice și puncte. Articolele 1–4 au rămas identice, deci problemele de fond rămân aceleași.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Unirea e decisă unilateral, fără acordul și fără referendumul Republicii Moldova",
+            "major": true,
+            "article": "art. 2"
+          },
+          {
+            "text": "Invocă Helsinki, dar omite condiția acordului; poate părea imixtiune în afacerile altui stat",
+            "major": false,
+            "article": "art. 1"
+          },
+          {
+            "text": "Contradicție: unirea e „decisă”, dar definitivarea ei abia urmează să fie negociată",
+            "major": false,
+            "article": "art. 3"
+          },
+          {
+            "text": "„Abilitează” e folosit impropriu și nu adaugă nicio competență nouă Guvernului",
+            "major": false,
+            "article": "art. 3"
+          },
+          {
+            "text": "„Autorități internaționale competente” neidentificate; legea română nu poate obliga state străine",
+            "major": false,
+            "article": "art. 4"
+          }
+        ],
+        "good": [
+          {
+            "text": "Afirmă că frontierele se pot modifica doar pe căi pașnice, diplomatice",
+            "major": false,
+            "article": "art. 1"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 5,
+        "removed": 5,
+        "same": 0.29
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:20:13.234Z"
+    }
+  ]
+}

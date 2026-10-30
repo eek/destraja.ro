@@ -1,0 +1,102 @@
+{
+  "slug": "plx-443-2026",
+  "billId": "PL-x 443/2026",
+  "updatedAt": "2026-10-30T08:29:06.114Z",
+  "versions": [
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/40/3/se488.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "STS poate cumpăra licențele pentru cloudul statului fără să mai aștepte acordurile guvernamentale cu producătorii, iar termenul PNRR pentru Cloudul Guvernamental se prelungește până la 31 august 2026",
+      "summaryTlDr": "Este o lege tehnică de deblocare a unei achiziții PNRR de aproximativ 6 milioane de euro și nu atinge direct cetățenii sau firmele. Are totuși o problemă de redactare: derogarea pentru STS este permanentă și nelimitată, deși justificarea invocată este una temporară, legată de termenul PNRR.",
+      "scores": {
+        "agy": null,
+        "claude": 3,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl443_cd443_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "STS poate cumpăra licențe pentru cloudul statului fără să mai aștepte acordurile cu producătorii de software",
+      "summaryTlDr": "Este o lege tehnică, făcută ca să salveze circa 6 milioane de euro din PNRR, și nu are efecte directe asupra cetățenilor sau firmelor. Problema e că scurtătura, justificată printr-un termen din august 2026, a rămas permanentă și ocolește negocierea centralizată a licențelor la nivel de stat.",
+      "scores": {
+        "agy": 3,
+        "claude": 4,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a păstrat textul Senatului; derogarea pentru licențele cloud ale STS rămâne fără termen",
+      "summary": "Între forma adoptată de Senat și cea adoptată de Cameră nu s-a schimbat nimic de fond, doar corecturi de scriere. STS poate cumpăra licențe cloud înaintea acordurilor guvernamentale, fără termen sau plafon, iar finanțarea PNRR pentru cloud poate fi prelungită până la 31 august 2026.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "STS poate cumpăra licențe înaintea acordurilor guvernamentale, ocolind regula din art. 3 alin. (5¹)",
+            "major": true,
+            "article": "art. I (art. 10 alin. (12¹) OUG 89/2022)"
+          },
+          {
+            "text": "Derogarea e permanentă: fără termen, plafon valoric sau limitare la finanțarea PNRR",
+            "major": true,
+            "article": "art. I (art. 10 alin. (12¹) OUG 89/2022)"
+          },
+          {
+            "text": "Nu spune ce se întâmplă cu contractele STS după acordurile încheiate de MEDAT",
+            "major": true,
+            "article": "art. I (art. 10 alin. (12¹) OUG 89/2022)"
+          },
+          {
+            "text": "Acordurile-cadru de până la 4 ani pot genera costuri de licențiere după PNRR",
+            "major": true,
+            "article": "art. I (art. 10 alin. (12¹) OUG 89/2022)"
+          },
+          {
+            "text": "Impactul financiar nu e calculat, deși există riscul ca statul să plătească 6 milioane euro",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Expunerea de motive invocă Investiția 2, dar legea se referă la Investiția I1",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "good": [
+          {
+            "text": "Finanțarea PNRR pentru Cloudul Guvernamental poate fi prelungită până la 31 august 2026",
+            "major": true,
+            "article": "art. II"
+          },
+          {
+            "text": "Pentru celelalte jaloane ale cererii de plată nr. 5 rămâne termenul de 30 iunie 2026",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 6,
+        "removed": 5,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:28:51.943Z"
+    }
+  ]
+}

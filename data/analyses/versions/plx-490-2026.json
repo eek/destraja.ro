@@ -1,0 +1,145 @@
+{
+  "slug": "plx-490-2026",
+  "billId": "PL-x 490/2026",
+  "updatedAt": "2026-10-30T08:32:00.027Z",
+  "versions": [
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/90/0/se553.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Competițiile pentru bani de cercetare trec integral online, iar ministerul primește un observator care măsoară cum se cheltuie fondurile",
+      "summaryTlDr": "Lege tehnică, în mare parte utilă: digitalizare obligatorie, transparență, alocare aleatorie a evaluatorilor și publicarea rezultatelor în acces deschis. Riscurile principale sunt operaționale și de redactare: interdicția de a lansa competiții din 2027 fără platformă interoperabilă poate bloca finanțarea dacă partea IT întârzie, iar unele criterii sunt vagi.",
+      "scores": {
+        "agy": null,
+        "claude": 3,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?cd490_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "Granturile de cercetare trec integral online, cu evaluatori trași la sorți și rezultate publice",
+      "summaryTlDr": "Lege tehnică și în mare parte utilă. Mută competițiile de cercetare pe platforme care comunică între ele, alocă evaluatorii aleatoriu și cere publicarea rezultatelor plătite din bani publici. Riscurile țin de redactare: blocajul automat din 2027 nu are plan B, iar recuperarea banilor nu are o procedură clară.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_riscant",
+      "headline": "Beneficiarii care nu publică rezultatele în acces deschis pot fi obligați să returneze banii",
+      "summary": "Acum, cine primește bani publici pentru cercetare și nu publică rezultatele în acces deschis într-un an poate fi obligat să returneze fondurile. Legea nu spune ce înseamnă „rezultate” sau cum se calculează suma și nu dă timp de remediere.",
+      "changes": [
+        {
+          "title": "Banii se recuperează dacă rezultatele nu sunt publicate",
+          "text": "Art. 2 alin. (22), nou: dacă rezultatele nu sunt publicate în acces deschis într-un an de la finalizare, fondurile se recuperează integral sau parțial, pe baza auditului CNCS. Criteriile nu sunt definite.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 2 alin. (22)",
+          "before": null,
+          "after": "are obligația recuperării integrale sau parțiale a fondurilor plătite pentru derularea proiectului, proporțional cu gradul de neîndeplinire a obligației prevăzute la alin. (21), în baza auditului realizat de Consiliul Național al Cercetării Științifice",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Evaluarea ulterioară include obligatoriu impactul economic și social",
+          "text": "Art. 2 alin. (20): inițial, evaluarea ex-post prin eșantionare „poate include” impactul economic și social. Acum îl include obligatoriu.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 2 alin. (20)",
+          "before": "realiza o evaluare ex-post prin eșantionare a proiectelor finanțate care poate include impactul economic și social.",
+          "after": "realiza o evaluare ex-post prin esțanționare a proiectelor finanțate care include impactul economic și social.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Din 2027 competițiile nu pot porni fără platformă IT; fără perioadă de tranziție",
+            "major": true,
+            "article": "art. 2 alin. (9)"
+          },
+          {
+            "text": "Obligația HRS4R: „inițierea procesului” e nedefinită, fără termen, birocratică pentru institutele mici",
+            "major": true,
+            "article": "art. 2 alin. (17)"
+          },
+          {
+            "text": "Recuperarea banilor: „rezultate” și „grad de neîndeplinire” nedefinite, fără somație sau remediere",
+            "major": true,
+            "article": "art. 2 alin. (22)"
+          },
+          {
+            "text": "Ordinul cu standardele IT are termen de 90 de zile, fără consecințe la întârziere",
+            "major": false,
+            "article": "art. 2 alin. (11)"
+          },
+          {
+            "text": "„Recunoașterea internațională” a evaluatorilor e nedefinită; în nișe pot lipsi evaluatorii",
+            "major": false,
+            "article": "art. 2 alin. (18)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Rezultatele cercetării finanțate public trebuie publicate în acces deschis",
+            "major": true,
+            "article": "art. 2 alin. (21)"
+          },
+          {
+            "text": "Cel puțin o treime din proiectele CDI finanțate trebuie să includă o întreprindere",
+            "major": true,
+            "article": "art. 4 alin. (1) lit. c)"
+          },
+          {
+            "text": "Evaluatorii sunt alocați automat și aleatoriu, după aria tematică",
+            "major": false,
+            "article": "art. 2 alin. (19)"
+          },
+          {
+            "text": "Observatori independenți și evaluare ex-post, inclusiv a impactului economic și social",
+            "major": false,
+            "article": "art. 2 alin. (20)"
+          },
+          {
+            "text": "Competițiile se desfășoară integral digital, cu punct unic electronic de contact",
+            "major": false,
+            "article": "art. 2 alin. (1)-(4)"
+          },
+          {
+            "text": "Proceduri simplificate pentru achiziția de echipamente, software și reactivi",
+            "major": false,
+            "article": "art. 3 alin. (8)"
+          },
+          {
+            "text": "Bugetarea multianuală a instrumentelor de finanțare a cercetării, pentru predictibilitate",
+            "major": false,
+            "article": "art. 5"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 43,
+        "removed": 41,
+        "same": 0.48
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:31:58.025Z"
+    }
+  ]
+}

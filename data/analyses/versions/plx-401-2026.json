@@ -1,0 +1,92 @@
+{
+  "slug": "plx-401-2026",
+  "billId": "Pl-x 401/2026",
+  "updatedAt": "2026-10-30T08:27:47.211Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/400/00/1/pl437.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Certificat de meserie (nivel 2) după clasa a X-a, la liceele tehnologice",
+      "summaryTlDr": "Măsura e utilă și cu risc mic: le oferă elevilor din liceele tehnologice o calificare recunoscută mai devreme, fără taxe, sancțiuni sau obligații noi. Problema este redactarea. Textul de lege nu pomenește clasa a X-a, care este exact scopul declarat, așa că aplicarea depinde de metodologia ministerului.",
+      "scores": {
+        "agy": null,
+        "claude": 3,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl401_cd401_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Certificat de meserie de nivel 2 pentru elevii de la liceul tehnologic, înainte de finalul liceului",
+      "summaryTlDr": "Este o idee utilă și ieftină pentru elevii care riscă să plece din școală fără nicio calificare. Textul votat are însă o singură frază și omite tocmai ce promite: „clasa a X-a” nu apare nicăieri. Riscul e mic, dar textul trebuie precizat înainte de votul decisiv din Senat.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Textul legii nu s-a schimbat: Camera l-a adoptat tacit, în forma inițială a inițiatorului",
+      "summary": "Conținutul noului alin. (5) de la art. 15 este identic. Diferă doar formula de adoptare: Camera Deputaților a adoptat tacit proiectul, în forma inițială. Pentru cetățeni și firme, efectele sunt aceleași.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Dreptul la examen e acordat oricărui elev, fără reperul finalului clasei a X-a",
+            "major": true,
+            "article": "art. 15 alin. (5)"
+          },
+          {
+            "text": "Termenul „absolvenții” e neclar: nu reiese cine primește certificatul și când",
+            "major": true,
+            "article": "art. 15 alin. (5)"
+          },
+          {
+            "text": "Lipsesc bursele, practica plătită, subvențiile și celelalte măsuri anti-abandon promise",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Derogarea de la alin. (1) lit. d) are întindere și efect neclare",
+            "major": false,
+            "article": "art. 15 alin. (5)"
+          },
+          {
+            "text": "Nu se cer metodologie, standarde pentru nivelul 2 și termen de aplicare",
+            "major": false,
+            "article": "art. 15 alin. (5)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Elevii din liceul tehnologic pot obține certificat de calificare de nivel 2",
+            "major": true,
+            "article": "art. 15 alin. (5)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 4,
+        "same": 0.2
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:27:47.211Z"
+    }
+  ]
+}

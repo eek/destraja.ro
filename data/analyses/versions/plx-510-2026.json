@@ -1,0 +1,142 @@
+{
+  "slug": "plx-510-2026",
+  "billId": "PL-x 510/2026",
+  "updatedAt": "2026-10-30T08:36:38.753Z",
+  "versions": [
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/10/0/se570.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Statul șterge și returnează TVA-ul cerut retroactiv firmelor cărora ANAF le-a anulat codul de TVA",
+      "summaryTlDr": "Rezolvă o problemă reală și dureroasă pentru IMM-uri, dar o face prin anularea integrală a TVA-ului principal, nu doar a penalităților. Asta o expune riscului de a fi considerată amnistie fiscală contrară dreptului UE. Adaugă și un beneficiu sectorial pentru cooperativele agricole, nejustificat în expunerea de motive, iar costul bugetar este nefinanțat.",
+      "scores": {
+        "agy": null,
+        "claude": 5,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?cd510_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Iertarea TVA-ului cerut retroactiv firmelor cu codul de TVA anulat și cooperativelor agricole pentru utilaje",
+      "summaryTlDr": "Legea repară o nedreptate reală: ANAF cerea, pe ani în urmă, TVA și penalități unor firme pe care chiar ea le tratase ca neplătitoare de TVA. Repararea vine însă printr-o amnistie unică, fără sursă de acoperire bugetară, cu risc de conflict cu Directiva TVA, cu o excepție vagă pe care ANAF o poate întinde și cu un paragraf nemotivat pentru cooperativele agricole.",
+      "scores": {
+        "agy": 3,
+        "claude": 4,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a păstrat textul Senatului: aceleași anulări de TVA, doar titlu scurtat și corecturi",
+      "summary": "Acum legea are același conținut ca inițial: se anulează TVA-ul și accesoriile după anularea codului de TVA, plus TVA-ul pe utilaje la cooperative. S-au schimbat doar titlul, o greșeală de scriere și formatarea.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Anulează și TVA-ul principal, nu doar accesoriile, fără condiția plății debitului",
+            "major": true,
+            "article": "art. unic alin. (1)"
+          },
+          {
+            "text": "Facilitate separată pentru cooperative agricole, nejustificată, cu risc de ajutor de stat",
+            "major": true,
+            "article": "art. unic alin. (3)"
+          },
+          {
+            "text": "La cooperative nu se limitează motivul contestării deducerii; excepția din alin. (7) nu se potrivește",
+            "major": true,
+            "article": "art. unic alin. (3)"
+          },
+          {
+            "text": "Excepția pentru TVA facturat sau colectat nu clarifică sarcina probei și perioadele neinspectate",
+            "major": true,
+            "article": "art. unic alin. (7)"
+          },
+          {
+            "text": "„Orice modalitate” de stingere permite restituiri și unde nu s-a plătit nimic",
+            "major": true,
+            "article": "art. unic alin. (4)"
+          },
+          {
+            "text": "Nu se precizează dacă sumele restituite se dau cu dobânzi",
+            "major": true,
+            "article": "art. unic alin. (4)"
+          },
+          {
+            "text": "Codul fiscal rămâne neschimbat, deci situația se poate repeta pentru perioadele viitoare",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Sumele deja plătite se restituie doar dacă firma depune cerere",
+            "major": false,
+            "article": "art. unic alin. (4)"
+          },
+          {
+            "text": "Nu există termen pentru emiterea deciziilor de anulare din oficiu",
+            "major": false,
+            "article": "art. unic alin. (10)"
+          },
+          {
+            "text": "Nu se spune ce se întâmplă cu procesele aflate deja pe rol",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Sumele deja plătite pentru obligațiile anulate se restituie contribuabililor",
+            "major": true,
+            "article": "art. unic alin. (4)"
+          },
+          {
+            "text": "ANAF nu mai poate emite decizii noi pentru perioada 2019 – intrarea în vigoare",
+            "major": true,
+            "article": "art. unic alin. (8)"
+          },
+          {
+            "text": "Deciziile emise dar necomunicate nu se mai comunică, iar sumele se scad",
+            "major": true,
+            "article": "art. unic alin. (11)"
+          },
+          {
+            "text": "Anularea se face din oficiu, prin decizie comunicată contribuabilului",
+            "major": false,
+            "article": "art. unic alin. (10)"
+          },
+          {
+            "text": "Termenul pentru cererea de restituire curge abia de la intrarea în vigoare",
+            "major": false,
+            "article": "art. unic alin. (6)"
+          },
+          {
+            "text": "ANAF trebuie să aprobe procedura de aplicare în 30 de zile",
+            "major": false,
+            "article": "art. unic alin. (12)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 13,
+        "removed": 12,
+        "same": 0.24
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:36:38.753Z"
+    }
+  ]
+}

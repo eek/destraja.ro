@@ -1,0 +1,132 @@
+{
+  "slug": "plx-347-2026",
+  "billId": "Pl-x 347/2026",
+  "updatedAt": "2026-10-30T08:24:52.883Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/300/40/7/pl381.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Anii de mandat ai viceprimarilor se vor număra ca vechime în muncă",
+      "summaryTlDr": "Este o lege tehnică și în mare parte benignă. Pune viceprimarii pe picior de egalitate cu primarii și conducerea consiliilor județene la recunoașterea vechimii. Singura stângăcie reală este trimiterea la Revisal, un registru gândit pentru salariați cu contract de muncă.",
+      "scores": {
+        "agy": null,
+        "claude": 2,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl347_cd347_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 7.3,
+      "riskLevel": "red",
+      "plainTitle": "Șterge regulile noi de incompatibilitate din Codul administrativ și iartă retroactiv încălcările din 2026",
+      "summaryTlDr": "Textul extras ca formă adoptată nu are nicio legătură cu vechimea viceprimarilor din titlu: abrogă art. 550 alin. (2)–(6) și declară retroactiv că incompatibilitățile și conflictele de interese apărute între timp «nu constituie» încălcări și nu atrag răspundere. Fie a fost extras documentul greșit, fie inițiativa a fost folosită ca vehicul pentru o exonerare. În ambele cazuri, Art. II ridică o problemă serioasă de stat de drept.",
+      "scores": {
+        "agy": 8,
+        "claude": 7,
+        "codex": 7
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "mai_riscant",
+      "headline": "Proiectul despre viceprimari a devenit o amnistie pentru incompatibilități și conflicte de interese",
+      "summary": "Inițial, legea recunoștea mandatul viceprimarului ca vechime în muncă. Acum abrogă reguli din Codul administrativ și declară retroactiv că incompatibilitățile și conflictele de interese dintr-o anumită perioadă nu există și nu se sancționează.",
+      "changes": [
+        {
+          "title": "Faptele de incompatibilitate nu mai sunt sancționate retroactiv",
+          "text": "Art. II prevede că situațiile din perioada dintre intrarea în vigoare a Legii 165/2026 și noua lege nu sunt incompatibilități sau conflicte de interese. Este o amnistie administrativă.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. II",
+          "before": null,
+          "after": "nu constituie incompatibilități sau conflict de interese, după caz, și nu atrag răspunderea juridică aferentă acestora.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Se abrogă reguli privind incompatibilitatea din Codul administrativ",
+          "text": "Art. I abrogă art. 550 alin. (2)–(6) din OUG 57/2019, în forma modificată prin Legea 165/2026. Conținutul regulilor eliminate nu apare în text.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. I",
+          "before": null,
+          "after": "Art. 550 alin. (2) – (6) din Ordonanța de urgență a Guvernului nr. 57/2019 privind Codul administrativ",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dispare vechimea în muncă pentru mandatul de viceprimar",
+          "text": "Inițial, art. 152 alin. (9) recunoștea mandatul viceprimarului ca vechime, la fel ca pentru primari. Prevederea a fost scoasă, iar odată cu ea și trimiterea neclară la Revisal.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 152 alin. (9)",
+          "before": "Durata mandatului viceprimarului constituie vechime în muncă și în specialitatea studiilor absolvite",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Legea are acum cu totul alt obiect",
+          "text": "Titlul s-a schimbat din completarea art. 152 în abrogarea unor dispoziții. Expunerea de motive nu conține niciun argument pentru abrogare sau exonerare.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": null,
+          "before": "privind completarea articolului 152 din OUG 57/2019 privind Codul administrativ",
+          "after": "pentru abrogarea unor dispoziții din Ordonanța de urgență a Guvernului nr. 57/2019 privind Codul administrativ",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Amnistie retroactivă pentru incompatibilități și conflicte de interese dintr-o perioadă dată",
+            "major": true,
+            "article": "art. II"
+          },
+          {
+            "text": "Neclar dacă exonerarea acoperă rapoarte, procese, hotărâri definitive, nulități sau latura penală",
+            "major": true,
+            "article": "art. II"
+          },
+          {
+            "text": "Abrogă reguli de incompatibilitate al căror conținut nu reiese din text",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Obiectul diferă complet de inițiativă, fără justificare în expunerea de motive",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Perioada acoperită de exonerare este delimitată prin două date precise",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 5,
+        "removed": 5,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:24:51.330Z"
+    }
+  ]
+}

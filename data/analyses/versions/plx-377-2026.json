@@ -1,0 +1,136 @@
+{
+  "slug": "plx-377-2026",
+  "billId": "PL-x 377/2026",
+  "updatedAt": "2026-10-30T08:26:59.603Z",
+  "versions": [
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/300/70/7/se427.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Cine administrează vânătoarea din zona ta trebuie să anunțe primăria",
+      "summaryTlDr": "Este o lege tehnică, benignă și utilă, care obligă gestionarul fondului de vânătoare să anunțe primăriile. Redactarea are mici imprecizii: termenul nu are un punct de plecare explicit, iar conținutul înștiințării nu este definit. Amenda este modestă și proporțională.",
+      "scores": {
+        "agy": null,
+        "claude": 2,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl377_377-26_cam_stema.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Primăriile trebuie anunțate cine administrează vânătoarea din comună",
+      "summaryTlDr": "Lege mică și de bun-simț: cine gestionează un fond de vânătoare trebuie să anunțe primăriile de pe raza lui. Riscul e minim. Singurele scăpări sunt că textul nu spune ce anume se comunică și că lasă deoparte contractele deja semnate.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_putin_riscant",
+      "headline": "Termenul de 30 de zile pentru notificarea primăriilor curge acum clar de la încheierea contractului",
+      "summary": "Inițial nu era clar de când curg cele 30 de zile și se admitea „orice mijloc”. Acum termenul curge de la contract și de la fiecare act adițional, iar căile de notificare sunt precizate, deci gestionarii știu clar când riscă amenda.",
+      "changes": [
+        {
+          "title": "Se știe de când curg cele 30 de zile",
+          "text": "La art. 9 alin. (1²), termenul de 30 de zile curge acum de la data încheierii contractului și de la data fiecărui act adițional. Inițial nu se preciza momentul de început.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. I pct. 1 (art. 9 alin. (1²))",
+          "before": "Gestionarul este obligat ca, în termen de cel mult 30 de zile, să înștiințeze unitățile administrativ-teritoriale pe raza cărora este situat fondul cinegetic",
+          "after": "în termen de cel mult 30 de zile de la data încheierii contractului de gestionare, prevăzut la alin. (1), precum și de la data fiecărui act adițional la acesta",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Căile de notificare sunt stabilite expres",
+          "text": "În loc de „orice mijloc de comunicare”, notificarea se face acum prin recomandată cu aviz, e-mail sau registratură. Sunt căi ieftine, care lasă dovadă.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. I pct. 1 (art. 9 alin. (1²))",
+          "before": "prin orice mijloc de comunicare",
+          "after": "Notificarea se transmite prin scrisoare recomandată cu aviz de primire, prin poștă electronică sau prin depunere directă la registratura unității administrativ-teritoriale.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Obiectul notificării nu mai e menționat",
+          "text": "Inițial, primăria era înștiințată „despre încheierea contractului”. Acum textul spune doar că gestionarul notifică UAT-urile, fără să precizeze conținutul notificării.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. I pct. 1 (art. 9 alin. (1²))",
+          "before": "despre încheierea contractului prevăzut la alin.(1), precum și despre actele adiționale ale acestuia",
+          "after": "să notifice unitățile administrativ-teritoriale pe raza cărora este situat fondul cinegetic.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Contractele în derulare nu trebuie notificate decât la un nou act adițional",
+            "major": true,
+            "article": "art. I pct. 1 (art. 9 alin. (1²))"
+          },
+          {
+            "text": "Legea nu spune ce trebuie să cuprindă notificarea",
+            "major": false,
+            "article": "art. I pct. 1 (art. 9 alin. (1²))"
+          },
+          {
+            "text": "Nu se cere transmiterea unei copii a contractului de gestionare",
+            "major": false,
+            "article": "art. I pct. 1 (art. 9 alin. (1²))"
+          }
+        ],
+        "good": [
+          {
+            "text": "Gestionarul trebuie să notifice toate primăriile pe raza cărora se află fondul",
+            "major": true,
+            "article": "art. I pct. 1 (art. 9 alin. (1²))"
+          },
+          {
+            "text": "Amenda de 500–1.500 lei este moderată, proporțională cu o obligație informativă",
+            "major": true,
+            "article": "art. I pct. 2 (art. 48 alin. (1) lit. b))"
+          },
+          {
+            "text": "Termenul de 30 de zile curge clar de la contract și fiecare act adițional",
+            "major": false,
+            "article": "art. I pct. 1 (art. 9 alin. (1²))"
+          },
+          {
+            "text": "Notificarea se poate face ieftin: recomandată, e-mail sau registratură",
+            "major": false,
+            "article": "art. I pct. 1 (art. 9 alin. (1²))"
+          },
+          {
+            "text": "Legea intră în vigoare la 30 de zile de la publicare",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 8,
+        "removed": 6,
+        "same": 0.2
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:26:59.603Z"
+    }
+  ]
+}

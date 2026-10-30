@@ -1,0 +1,192 @@
+{
+  "slug": "plx-499-2026",
+  "billId": "PL-x 499/2026",
+  "updatedAt": "2026-10-30T08:33:16.414Z",
+  "versions": [
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/90/9/se573.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Femeile care nasc primesc prin lege dreptul la un însoțitor, la intimitate și la a sta cu bebelușul",
+      "summaryTlDr": "Este o lege benefică pentru paciente. Transformă în drepturi legale practici recomandate de OMS și de CEDO și elimină interdicțiile generale din regulamentele interne ale maternităților. Riscul real vine din redactare: restrângerile nu trebuie motivate scris, separarea auditivă a dispărut din text, iar termenele de implementare sunt nerealiste.",
+      "scores": {
+        "agy": null,
+        "claude": 2,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl499_cd499_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Însoțitor la naștere, intimitate în sala de travaliu și bebelușul lângă mamă",
+      "summaryTlDr": "Lege utilă și binevenită: transformă în drept ceea ce azi depinde de bunăvoința fiecărei maternități. Punctul slab sunt excepțiile vagi, pe care spitalele le pot folosi ca să păstreze vechile interdicții, fără să răspundă nimeni clar pentru asta.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": null
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_riscant",
+      "headline": "Camera a scos regula care spunea cine decide interzicerea însoțitorului la naștere",
+      "summary": "Acum legea nu mai spune cine decide restrângerea dreptului la însoțitor. A dispărut și termenul de 30 de zile pentru actualizarea normelor ministerului. Restrângerile pot fi justificate prin siguranța oricăror femei internate, nu doar a celor însărcinate.",
+      "changes": [
+        {
+          "title": "Nu mai scrie cine decide interzicerea însoțitorului",
+          "text": "Art. 28¹ alin. (4) a fost eliminat. Inițial, restrângerea o dispunea personalul medical care îngrijește femeia. Acum legea nu mai spune cine decide.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. 28¹ alin. (4)",
+          "before": "Măsura restrângerii se dispune de către personalul medical responsabil de îngrijirea a femeii însărcinate.",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Restrângeri justificate prin siguranța oricăror femei internate",
+          "text": "La art. 27¹ alin. (3) și art. 28¹ alin. (3), motivul de restrângere se extinde de la celelalte femei însărcinate la toate femeile internate în unitate.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 27¹ alin. (3), art. 28¹ alin. (3)",
+          "before": "a personalului medical ori a celorlalte femei însărcinate aflate în unitatea sanitară",
+          "after": "a personalului medical ori a celorlalte femei internate în unitatea sanitară",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dispare termenul de 30 de zile pentru normele ministerului",
+          "text": "Art. II a fost eliminat. Inițial, Ministerul Sănătății trebuia să actualizeze în 30 de zile ordinele privind drepturile pacientului, infecțiile și autorizarea spitalelor.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "Art. II",
+          "before": "Art.II.- În termen de 30 de zile de la data intrării în vigoare a prezentei legi, Ministerul Sănătății modifică și completează Ordinul ministrului sănătății nr.1410/2016 privind aprobarea Normelor de aplicare a Legii drepturilor pacientului nr.46/2003",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Contractul-cadru CNAS trebuie corelat cu legea",
+          "text": "Noul art. 38¹ obligă la corelarea contractului-cadru și a normelor lui cu legea. Modificările se preiau dacă se aplică cu cel puțin 60 de zile înainte de intrarea în vigoare a contractului.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 38¹",
+          "before": null,
+          "after": "La elaborarea și aprobarea Contractului-cadru privind condițiile acordării asistenței medicale în cadrul sistemului asigurărilor sociale de sănătate, se asigură, în mod obligatoriu, corelarea acestuia cu dispozițiile prezentei legi",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Însoțitorul poate fi refuzat când „poate afecta” siguranța: prag scăzut",
+            "major": true,
+            "article": "art. 28¹ alin. (3)"
+          },
+          {
+            "text": "Refuzul însoțitorului nu se consemnează, nu are decident și nu se poate contesta",
+            "major": true,
+            "article": "art. 28¹ alin. (3)"
+          },
+          {
+            "text": "Lipsește separarea auditivă, deși Expunerea de motive o cere explicit",
+            "major": true,
+            "article": "art. 27¹ alin. (2)"
+          },
+          {
+            "text": "Separarea vizuală e obligatorie fără termen de conformare și fără finanțare",
+            "major": true,
+            "article": "art. 27¹ alin. (2)"
+          },
+          {
+            "text": "Se permite restrângerea demnității, deși demnitatea este valoare constituțională supremă",
+            "major": true,
+            "article": "art. 27¹ alin. (3)"
+          },
+          {
+            "text": "Excepții vagi la separarea mamă-copil: „siguranță”, „forță majoră”",
+            "major": true,
+            "article": "art. 28² alin. (1)"
+          },
+          {
+            "text": "Restrângeri justificabile prin siguranța oricăror femei internate, nu doar însărcinate",
+            "major": false,
+            "article": "art. 27¹ alin. (3), art. 28¹ alin. (3)"
+          },
+          {
+            "text": "Fără termen pentru actualizarea normelor Ministerului Sănătății",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Anglicismul „rooming-in” nu este definit în lege",
+            "major": false,
+            "article": "art. 28² alin. (2)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Drept explicit la demnitate și viață privată în sarcină, travaliu și naștere",
+            "major": true,
+            "article": "art. 27¹ alin. (1)"
+          },
+          {
+            "text": "Spitalele publice și private trebuie să asigure intimitate și separare vizuală",
+            "major": true,
+            "article": "art. 27¹ alin. (2)"
+          },
+          {
+            "text": "Drept la însoțitor ales pe tot travaliul, nașterea și transferul",
+            "major": true,
+            "article": "art. 28¹ alin. (1)"
+          },
+          {
+            "text": "Nou-născutul rămâne cu mama; separarea trebuie consemnată în documentele medicale",
+            "major": true,
+            "article": "art. 28² alin. (1)"
+          },
+          {
+            "text": "Spitalele trebuie să favorizeze contactul precoce, alăptarea și rooming-in-ul",
+            "major": true,
+            "article": "art. 28² alin. (2)"
+          },
+          {
+            "text": "Măsurile „organizatorice și/sau tehnice” permit soluții ieftine, de exemplu paravane",
+            "major": false,
+            "article": "art. 27¹ alin. (2)"
+          },
+          {
+            "text": "Restrângerea însoțitorului permisă doar excepțional, cu justificare medicală sau epidemiologică",
+            "major": false,
+            "article": "art. 28¹ alin. (3)"
+          },
+          {
+            "text": "Corelare obligatorie a contractului-cadru CNAS cu noile drepturi",
+            "major": false,
+            "article": "art. 38¹"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 15,
+        "removed": 13,
+        "same": 0.21
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:33:16.414Z"
+    }
+  ]
+}

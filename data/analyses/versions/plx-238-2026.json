@@ -1,0 +1,142 @@
+{
+  "slug": "plx-238-2026",
+  "billId": "Pl-x 238/2026",
+  "updatedAt": "2026-10-30T08:17:34.809Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/200/30/8/pl256.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Amenzile pentru panouri publicitare ilegale se pot plăti pe jumătate în 15 zile, ca la orice altă amendă",
+      "summaryTlDr": "Este o lege tehnică și favorabilă cetățenilor: extinde la amenzile pentru publicitate regula obișnuită a plății a jumătate din minim. Riscul real nu vine din fond, ci dintr-o redactare neglijentă, care trimite la un articol aparent greșit și restrânge inutil aplicarea dreptului comun contravențional.",
+      "scores": {
+        "agy": null,
+        "claude": 2,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl238_cd238_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 1.7,
+      "riskLevel": "green",
+      "plainTitle": "Amenzile pentru reclame și panouri ilegale urmează regulile generale ale amenzilor",
+      "summaryTlDr": "Modificarea este tehnică și benignă. Confirmă că amenzile din legea publicității stradale urmează dreptul comun contravențional, inclusiv plata a jumătate din minim. Efectul real e mic, iar trimiterea generică putea fi formulată mai precis.",
+      "scores": {
+        "agy": 1,
+        "claude": 2,
+        "codex": 2
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "mai_putin_riscant",
+      "headline": "Toată OG 2/2001, inclusiv plata a jumătate din amendă, se aplică acum, dar doar la art. 49 alin. (1)",
+      "summary": "Inițial se aplicau doar două articole din legea generală a contravențiilor, unul greșit ales. Acum se aplică toată legea: plata redusă, căile de atac, prescripția. Dar doar pentru faptele de la art. 49 alin. (1).",
+      "changes": [
+        {
+          "title": "Se aplică toată legea contravențiilor, nu doar două articole",
+          "text": "Lista strictă din art. 50 (art. 4 alin. (1) și art. 28) devine trimitere la toată OG 2/2001. Intră și mențiunea plății reduse în procesul-verbal, prescripția, căile de atac.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 50 alin. (2)",
+          "before": "se completează cu prevederile art. 4 alin. (1) și art. 28 din Ordonanța Guvernului nr. 2/2001 privind regimul juridic al contravențiilor",
+          "after": "le sunt aplicabile dispozițiile Ordonanței Guvernului nr. 2/2001, aprobată cu modificări și completări prin Legea nr. 180/2002",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Regula acoperă doar faptele de la art. 49 alin. (1)",
+          "text": "Inițial erau vizate toate contravențiile din lege. Acum sunt vizate doar cele de la art. 49 alin. (1). Pentru alte fapte, dacă există, se poate susține a contrario că regula nu se aplică.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 50 alin. (2)",
+          "before": "Dispozițiile prezentei legi referitoare la constatarea contravențiilor și aplicarea sancțiunilor contravenționale",
+          "after": "Contravențiilor prevăzute la art. 49 alin. (1) le sunt aplicabile",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Plata a jumătate din amendă nu mai e scrisă explicit",
+          "text": "Art. 28 (jumătate din minim în 15 zile) nu mai e numit, deși era scopul declarat. Se aplică însă prin trimiterea generală la OG 2/2001.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. 50 alin. (2)",
+          "before": "art. 28 din Ordonanța Guvernului nr. 2/2001",
+          "after": "dispozițiile Ordonanței Guvernului nr. 2/2001",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dispare trimiterea greșită la art. 4 alin. (1)",
+          "text": "Art. 4 alin. (1) din OG 2/2001 privește intrarea în vigoare a actelor care stabilesc contravenții, nu completarea legilor speciale. Trimiterea eronată a fost eliminată.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 50",
+          "before": "prevederile art. 4 alin. (1)",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Se aplică doar contravențiilor de la art. 49 alin. (1), celelalte rămân neacoperite",
+            "major": true,
+            "article": "art. 50 alin. (2)"
+          },
+          {
+            "text": "Plata a jumătate din minimul amenzii în 15 zile nu e numită expres",
+            "major": false,
+            "article": "art. 50 alin. (2)"
+          },
+          {
+            "text": "Impact bugetar nedocumentat: doar 8.000 lei amenzi la Iași, fără date despre încasări",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Se aplică toată OG 2/2001: plată redusă, căi de atac, prescripție",
+            "major": true,
+            "article": "art. 50 alin. (2)"
+          },
+          {
+            "text": "A dispărut trimiterea eronată la art. 4 alin. (1) din OG 2/2001",
+            "major": false,
+            "article": "art. 50 alin. (2)"
+          },
+          {
+            "text": "Nu schimbă faptele sancționate, cuantumul amenzilor sau procedura de autorizare",
+            "major": false,
+            "article": "art. 50 alin. (2)"
+          },
+          {
+            "text": "Plata redusă poate crește încasările efective și reduce contestațiile în instanță",
+            "major": false,
+            "article": null
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 4,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:17:34.809Z"
+    }
+  ]
+}

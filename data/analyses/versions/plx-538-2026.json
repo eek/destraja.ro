@@ -1,0 +1,152 @@
+{
+  "slug": "plx-538-2026",
+  "billId": "PL-x 538/2026",
+  "updatedAt": "2026-10-30T08:43:52.241Z",
+  "versions": [
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/30/8/se627.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Hidrogenul verde: cote amânate un an, doar pentru transportul rutier și industrie, fără obligații pentru hidrogenul «cu emisii reduse»",
+      "summaryTlDr": "Este o lege tehnică de corelare cu RED III, în mare parte utilă: elimină cote naționale fără temei european și amână cu un an niște obligații care nu puteau fi îndeplinite. Riscurile țin de redactare, nu de fond: câteva trimiteri greșite și o condiție vagă privind baza de date UE.",
+      "scores": {
+        "agy": null,
+        "claude": 3,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl538_cd538_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Hidrogenul verde: obligații amânate, limitate la transportul rutier și aliniate la regulile UE",
+      "summaryTlDr": "Lege tehnică, în mare parte de aliniere la Directiva RED III. Elimină cotele pentru hidrogenul „cu emisii reduse”, mută cotele intermediare din 2026 în 2027 și restrânge obligațiile din transport la cel rutier. Riscul e scăzut, dar textul are trimiteri greșite în definiții, iar amenzile și finanțarea CfD nu apar în extrasul analizat.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a păstrat textul Senatului; diferențele vizibile sunt doar de redactare și tehnică legislativă",
+      "summary": "Față de forma adoptată de Senat, forma adoptată de Cameră schimbă, în diferențele disponibile, doar aspecte de formă: spații, liniuțe, ghilimele, trimiteri și denumirea unui regulament UE. Cotele, obligațiile și amenzile rămân aceleași.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Cotele pe 2027–2029 se pot atinge fără hidrogen, doar cu electricitate regenerabilă",
+            "major": true,
+            "article": "art. 3 alin. (3)"
+          },
+          {
+            "text": "Neclar cum își atribuie electricitate un furnizor care vinde doar benzină și motorină",
+            "major": true,
+            "article": "art. 3 alin. (3)"
+          },
+          {
+            "text": "Transportul înseamnă doar rutier; baza de calcul mai mică reduce volumul obligației",
+            "major": true,
+            "article": "art. 2 pct. 7"
+          },
+          {
+            "text": "Posibil conflict: numitor doar rutier, dar metodologia OUG vizează tot sectorul transporturilor",
+            "major": true,
+            "article": "art. 5 alin. (1)–(2)"
+          },
+          {
+            "text": "Ținta de 42%/60% e impusă fiecărui consumator industrial, nu la nivel de stat",
+            "major": true,
+            "article": "art. 4 alin. (2)"
+          },
+          {
+            "text": "Reducerea de 20% depinde de condiții naționale pe care firmele nu le pot anticipa",
+            "major": true,
+            "article": "art. 4 alin. (3)"
+          },
+          {
+            "text": "Amenzile pe deficit nu pot fi achitate la jumătate din minim",
+            "major": true,
+            "article": "art. 13 alin. (2)"
+          },
+          {
+            "text": "Înregistrarea în UDB nu se mai cere dacă baza europeană nu funcționează",
+            "major": false,
+            "article": "art. 6 alin. (1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Dovada prin bilanț masic, audit independent acreditat și înregistrare în UDB",
+            "major": true,
+            "article": "art. 6 alin. (1) și (3)"
+          },
+          {
+            "text": "Garanția de origine nu poate înlocui dovada de sustenabilitate",
+            "major": true,
+            "article": "art. 6 alin. (2)"
+          },
+          {
+            "text": "Aceeași energie nu poate fi revendicată de mai multe persoane sau ori",
+            "major": true,
+            "article": "art. 6 alin. (4)"
+          },
+          {
+            "text": "Obligațiile industriale nu se cumulează cu cele din OUG nr. 163/2022",
+            "major": true,
+            "article": "art. 4 alin. (4)"
+          },
+          {
+            "text": "Amenzile pe deficit sunt plafonate la 1% din cifra de afaceri",
+            "major": true,
+            "article": "art. 9 alin. (3)"
+          },
+          {
+            "text": "Același deficit nu poate fi sancționat de două ori",
+            "major": true,
+            "article": "art. 9 alin. (6)"
+          },
+          {
+            "text": "Sprijinul CfD pentru hidrogen nu se finanțează din facturile consumatorilor",
+            "major": true,
+            "article": "art. 13¹ alin. (2)"
+          },
+          {
+            "text": "Dreptul de a contesta amenda în instanță rămâne neafectat",
+            "major": true,
+            "article": "art. 13 alin. (2)"
+          },
+          {
+            "text": "Excluderea aviației și navigației maritime evită dublarea cu ReFuelEU și FuelEU",
+            "major": false,
+            "article": "art. 2 pct. 7"
+          },
+          {
+            "text": "Sancțiunile noi intră în vigoare abia la 30 de zile după publicare",
+            "major": false,
+            "article": "art. IV alin. (4)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 104,
+        "removed": 100,
+        "same": 0.33
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:43:52.241Z"
+    }
+  ]
+}

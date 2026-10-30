@@ -1,0 +1,107 @@
+{
+  "slug": "plx-256-2026",
+  "billId": "PL-x 256/2026",
+  "updatedAt": "2026-10-30T08:18:58.722Z",
+  "versions": [
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/200/50/6/se269.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Firmele străine care vând prin agenți din România vor plăti impozit pe profit aici",
+      "summaryTlDr": "Este o lege fiscală tehnică și legitimă, care preia standardul OCDE 2017 (BEPS Acțiunea 7) privind agentul dependent. Problemele sunt de redactare și de aplicare practică: teza finală e neclară, iar efectul va fi limitat acolo unde convențiile de evitare a dublei impuneri păstrează vechea definiție.",
+      "scores": {
+        "agy": null,
+        "claude": 3,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl256_cd256_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Firmele străine care încheie afaceri prin intermediari din România vor putea fi impozitate aici",
+      "summaryTlDr": "Legea aliniază Codul fiscal la standardul anti-evitare al OCDE (BEPS Acțiunea 7), lucru util în principiu. Textul e însă redactat stângaci, lasă prea puțin timp de pregătire, iar convențiile fiscale bilaterale, care prevalează, îi reduc mult efectul real.",
+      "scores": {
+        "agy": 3,
+        "claude": 4,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Textul adoptat de Cameră e identic în fond cu cel al Senatului; diferă doar redactarea",
+      "summary": "Camera a adoptat aceeași regulă ca Senatul, cu modificări doar de redactare: spații, liniuțe, date și semnături. Regula se extinde tot la intermediarii care negociază contracte pentru firme străine, iar ambiguitățile au rămas aceleași.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Termeni amestecați (persoană, societate, companie) lasă neclar dacă se aplică persoanelor fizice sau fondurilor",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "„Fără nicio negociere activă” poate face orice contract nenegociat considerat încheiat de intermediar",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Negocierea tuturor elementelor în România echivalează cu încheierea aici; ficțiune greu de probat",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Trimiterea „conform legii” nu precizează care lege se aplică",
+            "major": false,
+            "article": "art. I"
+          },
+          {
+            "text": "„Proprietăți” sugerează imobile, deși sunt vizate bunuri de orice fel; posibile dispute cu ANAF",
+            "major": false,
+            "article": "art. I"
+          },
+          {
+            "text": "Publicată la final de 2026, legea riscă să nu respecte termenul de 6 luni",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "good": [
+          {
+            "text": "Preia aproape literal Modelul OCDE 2017, cu reper interpretativ solid în Comentariul OCDE",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Criteriul „rolul principal” acoperă comisionarii și distribuitorii care negociază tot, dar nu semnează",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Aplicarea începe de la 1 ianuarie a anului următor, ceea ce ajută previzibilitatea",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 6,
+        "removed": 5,
+        "same": 0.14
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:18:58.722Z"
+    }
+  ]
+}

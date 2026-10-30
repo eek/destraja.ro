@@ -1,0 +1,107 @@
+{
+  "slug": "plx-229-2026",
+  "billId": "PL-x 229/2026",
+  "updatedAt": "2026-10-30T08:16:36.730Z",
+  "versions": [
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/200/20/9/se238.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Cine îl agresează pe executorul judecătoresc va fi pedepsit ca pentru agresarea unui judecător",
+      "summaryTlDr": "Lege penală scurtă, punctuală și în mare parte benignă: extinde protecția sporită de la ultrajul judiciar și la executorii judecătorești, după modelul deja aplicat avocaților. Singura problemă reală este trimiterea vagă «în mod corespunzător», care lasă instanțelor să stabilească întinderea exactă a protecției.",
+      "scores": {
+        "agy": null,
+        "claude": 2,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl229_cd229_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Cine agresează un executor judecătoresc va fi pedepsit ca pentru ultrajul asupra unui judecător",
+      "summaryTlDr": "Legea e scurtă și în mare parte benignă: dă executorilor judecătorești protecția penală pe care avocații o au deja. Singura problemă reală e formularea „sau în legătură cu exercitarea atribuțiilor”, care poate întinde protecția dincolo de cea a magistraților.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a adoptat textul Senatului fără schimbări de fond: executorii primesc protecția ultrajului judiciar",
+      "summary": "Textul adoptat de Cameră este identic ca fond cu cel adoptat de Senat. Diferă doar redactarea formală (spații, abrevieri, camera care adoptă). Executorii judecătorești primesc în continuare aceeași protecție ca magistrații.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Formula „în legătură cu” poate proteja executorul mai larg decât pe magistrat",
+            "major": true,
+            "article": "art. 279 alin. (5) C.pen."
+          },
+          {
+            "text": "Executorul stagiar și angajații biroului executorului rămân în afara protecției",
+            "major": true,
+            "article": "art. 279 alin. (5) C.pen."
+          },
+          {
+            "text": "Executorii fiscali (ANAF, primării) rămân pe ultraj, cu majorare de doar o treime",
+            "major": true,
+            "article": "art. 279 alin. (5) C.pen."
+          },
+          {
+            "text": "Formula „se aplică în mod corespunzător” lasă loc de interpretări diferite",
+            "major": false,
+            "article": "art. 279 alin. (5) C.pen."
+          },
+          {
+            "text": "Raportul cu ultrajul (art. 257) și art. 175 rămâne lăsat practicii judiciare",
+            "major": false,
+            "article": "art. 279 alin. (5) C.pen."
+          }
+        ],
+        "good": [
+          {
+            "text": "Agresiunile asupra executorului judecătoresc se pedepsesc mai aspru, limitele cresc cu jumătate",
+            "major": true,
+            "article": "art. 279 alin. (5) C.pen."
+          },
+          {
+            "text": "Sunt protejați și familia și bunurile executorului, la intimidare sau răzbunare",
+            "major": true,
+            "article": "art. 279 alin. (5) C.pen."
+          },
+          {
+            "text": "Nu apar infracțiuni noi; opoziția pașnică și contestația la executare rămân legale",
+            "major": false,
+            "article": "art. 279 alin. (5) C.pen."
+          },
+          {
+            "text": "Folosește aceeași tehnică de trimitere aplicată deja avocaților la alin. (4)",
+            "major": false,
+            "article": "art. 279 alin. (5) C.pen."
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 3,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:16:32.535Z"
+    }
+  ]
+}

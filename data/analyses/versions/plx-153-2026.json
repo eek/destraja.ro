@@ -1,0 +1,255 @@
+{
+  "slug": "plx-153-2026",
+  "billId": "PL-x 153/2026",
+  "updatedAt": "2026-10-30T08:15:16.034Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L078FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Recuperarea medicală la distanță (telerecuperarea) intră oficial în telemedicină",
+      "summaryTlDr": "Lege scurtă și benignă: adaugă telerecuperarea pe lista formelor de telemedicină și o definește, fără taxe, sancțiuni sau monopoluri. Problemele sunt de redactare. Articolele conțin mult mai puțin decât promite expunerea de motive, iar decontarea CNAS depinde în întregime de norme și de contractul-cadru.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/50/3/se170.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Recuperarea medicală la distanță (telerecuperare) devine oficial parte din telemedicină",
+      "summaryTlDr": "Lege tehnică, benignă și utilă: recunoaște explicit kinetoterapia și recuperarea medicală prin mijloace digitale. Textul final este însă mult mai sărac decât promite Expunerea de motive și lasă aproape totul pe seama normelor Guvernului.",
+      "scores": {
+        "agy": null,
+        "claude": 2,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl153_cd153_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Recuperarea medicală la distanță (video, aplicații) intră oficial în telemedicină",
+      "summaryTlDr": "Lege benignă și utilă: dă bază legală explicită kinetoterapiei și recuperării prin mijloace digitale, fără taxe, sancțiuni sau monopoluri. Textul adoptat e însă mult mai sărac decât promite expunerea de motive, are o incoerență între lit. b)–d) și lit. e) și lasă aproape totul pe seama unor norme fără termen real de aprobare.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Dispare obligația de a lucra cu cinci profesii; fizioterapeuții pot furniza telerecuperare, la prescripția medicului",
+      "summary": "Acum telerecuperarea poate fi făcută de medicii de recuperare și de fizioterapeuți, la prescripția medicului, fără echipa obligatorie de cinci profesii. În schimb, textul spune doar că serviciul «poate» face parte din telemedicină, deci nu garantează un drept.",
+      "changes": [
+        {
+          "title": "Nu mai e nevoie de echipă din cinci profesii",
+          "text": "Inițial, planul de recuperare se realiza cu cinci profesii, lucru greu de aplicat pentru cabinetele mici. Acum furnizorii sunt medicii de recuperare și fizioterapeuții (art. 30¹³ alin. (1)).",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 30¹³ alin. (1)",
+          "before": "monitorizarea și implementarea planului individual de recuperare fiind realizat în colaborare cu fizioterapeuți, dieteticieni, psihologi, logopezi și specialiști în terapie ocupațională.",
+          "after": "precum și de fizioterapeuți, în limitele competențelor profesionale stabilite prin lege",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Telerecuperarea devine doar o posibilitate",
+          "text": "Formularea «pot face parte» este facultativă. Nu creează un drept al pacientului și nici o obligație de decontare (art. 30¹³ alin. (1)).",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 30¹³ alin. (1)",
+          "before": "Serviciile sunt furnizate la indicația medicului specialist în medicină fizică și de recuperare respectiv a medicului specialist în medicină fizică și balneologie",
+          "after": "Din categoria serviciilor de telemedicină pot face parte și serviciile de telerecuperare furnizate de medicii specialiști în medicină fizică și de reabilitare, respectiv medicină fizică și balneologie",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Fizioterapeutul lucrează strict după prescripția medicului",
+          "text": "Prevedere nouă: serviciile conexe se furnizează strict conform prescripției medicului curant, o garanție de siguranță pentru pacient (art. 30¹³ alin. (3)).",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 30¹³ alin. (3)",
+          "before": null,
+          "after": "În cadrul telerecuperării, serviciile conexe actului medical se furnizează în strictă concordanță cu prescripția și recomandările cu caracter medical ale medicului curant",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Definiția include și serviciile conexe actului medical",
+          "text": "Definiția telerecuperării cuprinde acum și serviciile conexe actului medical, pe lângă cele de medicină fizică și de reabilitare (art. 30¹³ alin. (2)).",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 30¹³ alin. (2)",
+          "before": "Telerecuperarea reprezintă furnizarea la distanță a serviciilor de medicină fizică și de reabilitare, utilizând mijloace digitale",
+          "after": "Telerecuperarea reprezintă furnizarea la distanță a serviciilor de medicină fizică și de reabilitare și a serviciilor conexe actului medical, utilizând mijloace digitale",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Formularea «pot face parte» nu creează drept al pacientului sau obligație de decontare",
+            "major": true,
+            "article": "art. 30¹³ alin. (1)"
+          },
+          {
+            "text": "Logopezii, ergoterapeuții și psihologii nu sunt menționați, deci pot apărea dispute de competență",
+            "major": true,
+            "article": "art. 30¹³ alin. (1)"
+          },
+          {
+            "text": "Termenul de 30 de zile pentru norme e nerealist; până atunci dreptul rămâne declarativ",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "good": [
+          {
+            "text": "Telerecuperarea intră în telemedicină și preia regimul ei general existent",
+            "major": true,
+            "article": "art. I pct. 1"
+          },
+          {
+            "text": "Serviciile conexe se furnizează strict conform prescripției medicului curant",
+            "major": true,
+            "article": "art. 30¹³ alin. (3)"
+          },
+          {
+            "text": "Fizioterapeuții pot furniza telerecuperare, în limitele competențelor stabilite prin lege",
+            "major": true,
+            "article": "art. 30¹³ alin. (1)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 11,
+        "removed": 6,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:14:22.841Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_riscant",
+      "headline": "Telereabilitarea poate fi făcută și de medici din orice specialitate clinică, fără limită de timp",
+      "summary": "Inițial, telerecuperarea era rezervată medicilor de recuperare și fizioterapeuților. Acum o pot presta și cardiologi, neurologi, ortopezi, alte specialități clinice și toți terapeuții autorizați, dar cu reguli neclare.",
+      "changes": [
+        {
+          "title": "Medici din orice specialitate clinică pot presta telereabilitare",
+          "text": "Art. 30¹³ alin. (1) lit. e) admite acum „medici de alte specialități clinice”, fără limită de timp și fără să spună față de ce sunt „alte”, deci restricțiile de 3 luni pot fi ocolite.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 30¹³ alin. (1) lit. e)",
+          "before": null,
+          "after": "e) medici de alte specialități clinice, în limitele competențelor profesionale stabilite prin lege;",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Cardiologi, neurologi și ortopezi, doar primele 3 luni",
+          "text": "Art. 30¹³ alin. (1) lit. b)-d) adaugă cardiologii, neurologii/neurochirurgii și ortopezii, limitați la primele 3 luni de la eveniment sau intervenție. Plafonul contrazice parțial faza subacută.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 30¹³ alin. (1) lit. b)-d)",
+          "before": null,
+          "after": "b) medicii cu specialitatea cardiologie pentru pacienții aflați în faza acută de recuperare cardiovasculară, în primele 3 luni de la producerea unui eveniment cardiovascular acut sau de la o intervenție cardiacă",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Toți terapeuții autorizați, nu doar fizioterapeuții",
+          "text": "Art. 30¹³ alin. (1) lit. f): în locul fizioterapeuților, pot presta toți furnizorii autorizați de servicii conexe actului medical, ceea ce poate include logopezi, ergoterapeuți sau psihologi.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 30¹³ alin. (1) lit. f)",
+          "before": "precum și de fizioterapeuți, în limitele competențelor profesionale stabilite prin lege.",
+          "after": "f) furnizorii de servicii conexe actului medical autorizați, în limitele competențelor profesionale stabilite prin lege.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Telerecuperarea se numește acum telereabilitare",
+          "text": "La art. 30¹ alin. (6) lit. g) și în art. 30¹³, termenul „telerecuperare” e înlocuit cu „telereabilitare”, cu aceeași definiție.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 30¹ alin. (6) lit. g)",
+          "before": "g) telerecuperarea.",
+          "after": "g) telereabilitarea.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Medicii de „alte specialități clinice” pot presta fără limită de timp sau precizări",
+            "major": true,
+            "article": "art. 30¹³ alin. (1) lit. e)"
+          },
+          {
+            "text": "Formularea „pot face parte” nu dă pacientului drept la telereabilitare decontată",
+            "major": true,
+            "article": "art. 30¹³ alin. (1)"
+          },
+          {
+            "text": "Fără prescripție medicală prealabilă nu există telereabilitare cu terapeutul",
+            "major": true,
+            "article": "art. 30¹³ alin. (3)"
+          },
+          {
+            "text": "Plafonul de 3 luni contrazice faza subacută, care poate dura până la 6 luni",
+            "major": false,
+            "article": "art. 30¹³ alin. (1) lit. c)-d)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Telereabilitarea primește temei legal explicit, deschizând drumul spre contractare și decontare",
+            "major": true,
+            "article": "art. 30¹ alin. (6) lit. g)"
+          },
+          {
+            "text": "Terapeuții autorizați de servicii conexe sunt incluși explicit printre furnizori",
+            "major": true,
+            "article": "art. 30¹³ alin. (1) lit. f)"
+          },
+          {
+            "text": "Serviciile conexe se prestează strict conform prescripției medicului curant, pentru siguranța pacientului",
+            "major": true,
+            "article": "art. 30¹³ alin. (3)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 17,
+        "removed": 10,
+        "same": 0.06
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:14:55.896Z"
+    }
+  ]
+}

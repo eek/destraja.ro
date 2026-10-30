@@ -1,0 +1,159 @@
+{
+  "slug": "plx-77-2026",
+  "billId": "Pl-x 77/2026",
+  "updatedAt": "2026-10-30T08:12:37.870Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/000/70/7/pl71bun.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Un cod unic cu regulile după care instituțiile statului îți răspund, decid și pot fi contestate",
+      "summaryTlDr": "Este o lege utilă și necesară, fără taxe, monopoluri sau sancțiuni noi pentru cetățeni. Textul are însă defecte tehnice serioase: exclude hotărârile consiliilor locale, folosește liste deschise vagi și lasă normele speciale să prevaleze aproape necondiționat, ceea ce îi slăbește chiar scopul de unificare.",
+      "scores": {
+        "agy": null,
+        "claude": 4,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl077_plx_77_26_prima_pagina_stema.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Reguli comune pentru felul în care instituțiile statului îți tratează cererile",
+      "summaryTlDr": "Ideea e bună, iar principiile sunt moderne: proporționalitate, dreptul de a fi ascultat, tăcerea administrației tratată ca refuz atacabil. Textul însă cedează în fața oricărei legi speciale, nu arată ce abrogă și scoate din cod tocmai hotărârile consiliilor locale. Riscă să adauge încă un strat de reguli în loc să le unifice.",
+      "scores": {
+        "agy": 6,
+        "claude": 4,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a scos regula generală din art. 5 alin. (1); în rest sunt doar corecturi de formă",
+      "summary": "Acum lipsește fraza care spunea că codul se aplică tuturor autorităților publice, dar art. 2 și art. 6 spun în continuare același lucru. Restul modificărilor sunt de formă. Problemele mari de fond au rămas neschimbate.",
+      "changes": [
+        {
+          "title": "Dispare regula generală despre cine aplică codul",
+          "text": "Art. 5 alin. (1) a fost eliminat, iar articolul începe acum cu alin. (2). Aplicarea codului la toate autoritățile rămâne prevăzută în art. 2 alin. (1) și art. 6 alin. (1).",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 5 alin. (1)",
+          "before": "(1) Prezentul cod se aplică tuturor procedurilor administrative desfășurate, în exercitarea atribuțiilor legale, de către autoritățile și instituțiile publice, indiferent de natura acestora – centrală, locală, autonomă sau deconcentrată.",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Hotărârile consiliilor locale și județene (taxe, bugete, PUZ) sunt excluse din cod",
+            "major": true,
+            "article": "art. 7 alin. (1) lit. a)"
+          },
+          {
+            "text": "Norma specială prevalează, deci caracterul unitar al codului devine în mare parte declarativ",
+            "major": true,
+            "article": "art. 2 alin. (3), art. 3 alin. (3), art. 7 alin. (2)"
+          },
+          {
+            "text": "Lipsesc abrogările și corelările cu OG 27/2002 și Legea 544/2001, deci rămân regimuri paralele",
+            "major": true,
+            "article": "art. 29 alin. (3)"
+          },
+          {
+            "text": "Liste deschise «fără a se limita la» fac imprevizibil domeniul de aplicare",
+            "major": true,
+            "article": "art. 5 alin. (2), art. 6 alin. (1), art. 10 alin. (1)"
+          },
+          {
+            "text": "Firmele private concesionare primesc obligații procedurale noi fără perioadă de tranziție",
+            "major": true,
+            "article": "art. 6 alin. (1) lit. e)"
+          },
+          {
+            "text": "Sintagma «alte autorități legislative» nu are corespondent în Constituție",
+            "major": false,
+            "article": "art. 7 alin. (1) lit. a)"
+          },
+          {
+            "text": "Termenul «rezonabil» nedefinit face incert momentul din care curg termenele de contestare",
+            "major": false,
+            "article": "art. 10 alin. (1) lit. c)"
+          },
+          {
+            "text": "Art. 5 începe cu alin. (2), iar alin. (1) lipsește",
+            "major": false,
+            "article": "art. 5"
+          },
+          {
+            "text": "Condițiile pentru procedurile în curs diferă între art. 20 și art. 21",
+            "major": false,
+            "article": "art. 20 alin. (2), art. 21 alin. (2)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Deciziile interne cu efecte directe asupra terților pot fi contestate",
+            "major": true,
+            "article": "art. 10 alin. (1) lit. d)"
+          },
+          {
+            "text": "Tăcerea administrației și refuzul tacit sunt asimilate actelor administrative",
+            "major": true,
+            "article": "art. 10 alin. (1) lit. b)"
+          },
+          {
+            "text": "Firmele private care prestează servicii publice respectă garanțiile codului",
+            "major": true,
+            "article": "art. 6 alin. (1) lit. e)"
+          },
+          {
+            "text": "Faptele materiale și inacțiunea autorităților intră sub incidența codului",
+            "major": true,
+            "article": "art. 5 alin. (3), art. 9"
+          },
+          {
+            "text": "Dreptul de a fi ascultat, de a propune probe și de a accesa documentele",
+            "major": true,
+            "article": "art. 14 alin. (1)"
+          },
+          {
+            "text": "Autoritatea trebuie să aleagă măsura care afectează cel mai puțin drepturile persoanei",
+            "major": true,
+            "article": "art. 12 alin. (1)"
+          },
+          {
+            "text": "Persoanele pot invoca direct normele UE în fața autorităților și instanțelor",
+            "major": false,
+            "article": "art. 24 alin. (5)"
+          },
+          {
+            "text": "Derogarea de la cod cere caracter expres și justificare obiectivă",
+            "major": false,
+            "article": "art. 31 alin. (2)"
+          }
+        ],
+        "partial": true
+      },
+      "diff": {
+        "added": 106,
+        "removed": 106,
+        "same": 0.96
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:12:37.870Z"
+    }
+  ]
+}

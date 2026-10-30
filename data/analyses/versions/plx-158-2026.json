@@ -1,0 +1,216 @@
+{
+  "slug": "plx-158-2026",
+  "billId": "PL-x 158/2026",
+  "updatedAt": "2026-10-30T08:15:16.035Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L029FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 1.7,
+      "riskLevel": "green",
+      "plainTitle": "Foștii deținuți politici pot depune coroane la ceremoniile oficiale",
+      "summaryTlDr": "Lege simbolică și benignă: Asociația Foștilor Deținuți Politici din România (AFDPR) primește dreptul de a depune coroane de flori la ceremoniile oficiale. Nu aduce costuri, sancțiuni sau obligații pentru cetățeni ori firme. Singurele observații țin de tehnica legislativă.",
+      "scores": {
+        "agy": 1,
+        "claude": 2,
+        "codex": 2
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/50/8/se167.pdf",
+      "source": "cdep.ro",
+      "riskScore": 1,
+      "riskLevel": "green",
+      "plainTitle": "Foștii deținuți politici (AFDPR) pot depune coroane de flori la ceremoniile oficiale",
+      "summaryTlDr": "Lege simbolică și benignă: adaugă o singură asociație pe lista celor care pot depune coroane la ceremoniile oficiale. Nu are costuri, sancțiuni sau efecte economice. Singura observație ține de tehnica legislativă: în lege este numită o singură entitate de drept privat.",
+      "scores": {
+        "agy": 1,
+        "claude": 1,
+        "codex": 1
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl158_cd_plx_158-26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 1.7,
+      "riskLevel": "green",
+      "plainTitle": "Foștii deținuți politici și veteranii de război pot depune coroane la ceremoniile oficiale",
+      "summaryTlDr": "Lege simbolică și benignă: nu costă bani publici și nu impune nimic cetățenilor sau firmelor. Singurele observații țin de redactare: legea numește explicit asociații private, iar litera f²) a apărut pe parcurs, fără justificare în expunerea de motive.",
+      "scores": {
+        "agy": 1,
+        "claude": 2,
+        "codex": 2
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a corectat trimiterea la alin.(3) al art.16. AFDPR rămâne printre cei care pot depune coroane",
+      "summary": "Inițial, textul trimitea greșit la art.16 alin.(1). Acum trimite la alin.(3), la fel ca titlul oficial. Fondul nu s-a schimbat: AFDPR poate depune coroane de flori la ceremonii, fără obligații sau costuri pentru cetățeni și firme.",
+      "changes": [
+        {
+          "title": "Trimiterea corectată la alineatul (3)",
+          "text": "Articolul unic introduce acum lit. f¹) la art.16 alin.(3), nu la alin.(1) ca inițial. Textul se potrivește cu titlul oficial al proiectului.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. unic",
+          "before": "La articolul 16 alineatul (1) din Legea nr. 215/2016 privind ceremoniile oficiale",
+          "after": "La articolul 16 alineatul (3) din Legea nr.215/2016 privind ceremoniile oficiale",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Formula despre modificările ulterioare ale legii, ajustată",
+          "text": "Mențiunea despre istoricul Legii nr.215/2016 este acum doar „cu completările ulterioare”. Este o schimbare de tehnică legislativă, fără efect asupra fondului.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. unic",
+          "before": "cu modificările și completările ulterioare",
+          "after": "cu completările ulterioare",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Legea numește o asociație privată și nu are clauză pentru un succesor în drepturi",
+            "major": true,
+            "article": "art. unic"
+          },
+          {
+            "text": "Alte organizații ale foștilor deținuți politici sau ale urmașilor lor nu sunt incluse",
+            "major": true,
+            "article": "art. unic"
+          },
+          {
+            "text": "Dreptul nu e limitat la ceremoniile dedicate victimelor comunismului, cum spune motivarea",
+            "major": false,
+            "article": "art. unic"
+          }
+        ],
+        "good": [
+          {
+            "text": "Nu creează obligații, taxe, sancțiuni sau proceduri pentru cetățeni ori firme",
+            "major": true,
+            "article": "art. unic"
+          },
+          {
+            "text": "Nu are impact bugetar, conform celor declarate",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Trimiterea la art.16 alin.(3) este acum aceeași în titlu și în articol",
+            "major": false,
+            "article": "art. unic"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:14:10.136Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Și asociațiile de veterani de război primesc dreptul de a depune coroane la ceremonii oficiale",
+      "summary": "Inițial legea dădea doar asociației foștilor deținuți politici dreptul de a depune coroane la ceremoniile oficiale. Acum îl primesc și două asociații de veterani. Pentru cetățeni și firme nu apar obligații, taxe sau sancțiuni noi.",
+      "changes": [
+        {
+          "title": "Două asociații de veterani adăugate pe lista oficială",
+          "text": "Art. unic introduce lit. f²) la art. 16 alin. (3): ANVR și AMVVD pot depune coroane. Lista se lărgește fără motivare scrisă, dincolo de obiectul inițial al proiectului.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. unic (art. 16 alin. (3) lit. f²) din Legea nr. 215/2016)",
+          "before": null,
+          "after": "f²) Asociația Națională a Veteranilor de Război și Asociația Militarilor Veterani și Veteranilor cu Dizabilități «Sfântul Mare Mucenic Dimitrie Izvorâtorul de Mir» – AMVVD, asociații militare reprezentative la nivel național și de utilitate publică;",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Două asociații în aceeași literă, regim neclar",
+          "text": "Lit. f²) pune două asociații distincte într-o singură literă. Nu reiese dacă depun o coroană comună sau câte una fiecare.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. unic (art. 16 alin. (3) lit. f²) din Legea nr. 215/2016)",
+          "before": null,
+          "after": "asociații militare reprezentative la nivel național și de utilitate publică;",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Alte asociații de foști deținuți politici sau veterani rămân în afara listei",
+            "major": true,
+            "article": "art. unic"
+          },
+          {
+            "text": "Asociațiile sunt numite exact; schimbarea denumirii sau dizolvarea lasă textul fără obiect",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Includerea veteranilor depășește obiectul inițial și nu are motivare scrisă",
+            "major": false,
+            "article": "art. unic (lit. f²))"
+          },
+          {
+            "text": "Neclar dacă cele două asociații de veterani depun o coroană comună",
+            "major": false,
+            "article": "art. unic (lit. f²))"
+          },
+          {
+            "text": "Dreptul AFDPR nu e limitat la ceremoniile pentru victimele comunismului",
+            "major": false,
+            "article": "art. unic (lit. f¹))"
+          }
+        ],
+        "good": [
+          {
+            "text": "Nu creează obligații, taxe sau sancțiuni pentru cetățeni, firme ori autorități",
+            "major": true,
+            "article": "art. unic"
+          },
+          {
+            "text": "Foștii deținuți politici primesc dreptul de a depune coroane la ceremonii oficiale",
+            "major": true,
+            "article": "art. unic (lit. f¹))"
+          },
+          {
+            "text": "Asociațiile de veterani de război primesc dreptul de a depune coroane",
+            "major": true,
+            "article": "art. unic (lit. f²))"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 3,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:14:31.397Z"
+    }
+  ]
+}

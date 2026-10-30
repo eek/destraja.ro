@@ -1,0 +1,238 @@
+{
+  "slug": "plx-151-2026",
+  "billId": "Pl-x 151/2026",
+  "updatedAt": "2026-10-30T08:15:16.032Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/100/50/1/pl163.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Orașul Voluntari (Ilfov) devine municipiu",
+      "summaryTlDr": "Lege tehnică și benignă, care schimbă statutul administrativ al unei localități mari și dezvoltate, fără sancțiuni, taxe noi sau obligații pentru firme. Problemele sunt de documentare (referendum din 2004, un indicator neîndeplinit) și de tehnică legislativă, nu de fond.",
+      "scores": {
+        "agy": null,
+        "claude": 2,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl151_cd151_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Orașul Voluntari din Ilfov devine municipiu",
+      "summaryTlDr": "Lege tehnică și în mare parte benignă: orașul Voluntari devine municipiu, iar cetățenii nu primesc nicio obligație nouă. Are însă trei puncte slabe: un referendum vechi de 22 de ani, un indicator neîndeplinit chiar în fișa orașului și un efect fiscal al trecerii la rangul II despre care expunerea nu spune nimic.",
+      "scores": {
+        "agy": 5,
+        "claude": 2,
+        "codex": 3
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L381FS.PDF",
+      "source": "senat.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Orașul Voluntari (Ilfov) devine municipiu",
+      "summaryTlDr": "Este o lege administrativă scurtă, cu două articole, de tipul celor adoptate frecvent pentru schimbarea statutului unei localități. Nu creează monopoluri, sancțiuni sau obligații noi pentru firme. Riscurile sunt minore: o eroare de redactare și doi indicatori de infrastructură îndepliniți doar parțial.",
+      "scores": {
+        "agy": null,
+        "claude": 2,
+        "codex": null
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Fără schimbări de fond: Voluntari devine municipiu, s-au corectat doar greșeli de redactare",
+      "summary": "Textul spune același lucru ca inițial: orașul Voluntari se declară municipiu. Diferențele sunt doar de formă: greșeala „territoriului” a fost corectată, iar formula de adoptare s-a schimbat. Pentru cetățeni și firme, riscul rămâne același.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Nu se precizează rangul municipiului (II), deși rangul are efecte fiscale",
+            "major": true,
+            "article": "art. 2"
+          },
+          {
+            "text": "Indicatorul privind depozitul controlat de deșeuri nu este îndeplinit",
+            "major": false,
+            "article": "art. 1"
+          },
+          {
+            "text": "Indicatorii 6-17 sunt declarați de primărie, fără certificare independentă",
+            "major": false,
+            "article": "art. 1"
+          },
+          {
+            "text": "Numărul de medici este la limită: 2,34 la mie, față de minimul de 2,3",
+            "major": false,
+            "article": "art. 1"
+          },
+          {
+            "text": "Epurarea apelor uzate se face prin canalizarea Bucureștiului, nu printr-o stație proprie",
+            "major": false,
+            "article": "art. 1"
+          },
+          {
+            "text": "Referendumul și avizele tehnice datează din 2004, iar populația s-a schimbat mult de atunci",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Proiectul a fost adoptat tacit de Cameră, fără vot, conform art. 75 alin. (2)",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Declararea este clară și are temei direct în art. 3 alin. (3) din Constituție",
+            "major": false,
+            "article": "art. 1"
+          },
+          {
+            "text": "Legea nu impune obligații, taxe sau sancțiuni pentru cetățeni ori firme",
+            "major": false,
+            "article": "art. 1"
+          },
+          {
+            "text": "Indicatorii 1-5 sunt confirmați de avizul INS din 2026",
+            "major": false,
+            "article": "art. 1"
+          },
+          {
+            "text": "Eroarea „territoriului” din titlurile legilor citate a fost corectată",
+            "major": false,
+            "article": "art. 2"
+          },
+          {
+            "text": "Formula de modificare este aceeași ca în celelalte legi de declarare a municipiilor",
+            "major": false,
+            "article": "art. 2"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 4,
+        "same": 0.2
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:14:37.276Z"
+    },
+    {
+      "from": "camera",
+      "to": "senat",
+      "direction": "la_fel",
+      "headline": "Senatul a păstrat declararea Voluntariului ca municipiu și a adăugat pct. 2.0 din Legea 351/2001",
+      "summary": "Fondul nu s-a schimbat: Voluntari devine municipiu, fără obligații, taxe sau sancțiuni pentru cetățeni ori firme. Senatul a adăugat doar o trimitere în plus, la pct. 2.0 din anexa Legii 351/2001, și a introdus o greșeală de scriere.",
+      "changes": [
+        {
+          "title": "Se modifică și pct. 2.0 din Legea 351/2001",
+          "text": "La art. 2, pe lângă pct. 4.3, acum se modifică și pct. 2.0 din anexa nr. II la Legea nr. 351/2001. Este o precizare de trimitere, fără efect asupra drepturilor sau obligațiilor.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 2",
+          "before": "precum și pct. 4.3 din anexa nr. II la Legea nr. 351/2001 privind aprobarea Planului de amenajare a teritoriului național",
+          "after": "precum și pct. 2.0. și 4.3 din anexa nr. II la Legea nr.351/2001 privind aprobarea Planului de amenajare a territoriului național",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Senatul a votat legea, nu a adoptat-o tacit",
+          "text": "Camera a adoptat proiectul tacit, prin depășirea termenului, iar Senatul l-a adoptat prin vot în ședința din 21 septembrie 2026. Schimbarea este doar de procedură.",
+          "effect": "neutru",
+          "major": false,
+          "article": null,
+          "before": "Acest proiect de lege se consideră adoptat de Camera Deputaților în forma inițială, în condițiile art. 75 alin. (2) teza a III-a din Constituția României, republicată.",
+          "after": "Acest proiect de lege a fost adoptat de Senat în ședința din 21 septembrie 2026, cu respectarea prevederilor articolului 76 alineatul (1) din Constituția României, republicată.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Legea nu menționează expres rangul II al noului municipiu",
+            "major": false,
+            "article": "art. 2"
+          },
+          {
+            "text": "Formula „se modifică în mod corespunzător” nu redă textul nou al anexelor",
+            "major": false,
+            "article": "art. 2"
+          },
+          {
+            "text": "Eroare materială: „territoriului” scris greșit de două ori",
+            "major": false,
+            "article": "art. 2"
+          },
+          {
+            "text": "Indicatorul 17, depozitul controlat de deșeuri, nu este îndeplinit",
+            "major": false,
+            "article": "art. 1"
+          },
+          {
+            "text": "Epurarea apelor uzate se face prin rețeaua Bucureștiului, fără stație proprie",
+            "major": false,
+            "article": "art. 1"
+          },
+          {
+            "text": "Numărul de medici este la limită: 2,34 față de minimul 2,3",
+            "major": false,
+            "article": "art. 1"
+          },
+          {
+            "text": "Indicatorii 6-17 sunt declarați de primărie, fără certificare independentă",
+            "major": false,
+            "article": "art. 1"
+          }
+        ],
+        "good": [
+          {
+            "text": "Legea nu impune obligații, taxe sau sancțiuni cetățenilor ori firmelor",
+            "major": false,
+            "article": "art. 1"
+          },
+          {
+            "text": "INS confirmă populația de 49.417 locuitori și indicatorii 1-5",
+            "major": false,
+            "article": "art. 1"
+          },
+          {
+            "text": "Formula de modificare a anexelor urmează practica constantă a legilor similare",
+            "major": false,
+            "article": "art. 2"
+          },
+          {
+            "text": "Trimiterea include acum și pct. 2.0 din anexa Legii 351/2001",
+            "major": false,
+            "article": "art. 2"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 5,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:14:58.639Z"
+    }
+  ]
+}

@@ -1,0 +1,386 @@
+{
+  "slug": "plx-128-2026",
+  "billId": "PL-x 128/2026",
+  "updatedAt": "2026-10-30T08:13:53.788Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2025/25L651FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Statul își face inventarul: toate site-urile, aplicațiile, licențele și calculatoarele instituțiilor într-un singur registru",
+      "summaryTlDr": "Este o lege utilă de igienă digitală. Statul află, în sfârșit, ce site-uri, aplicații și licențe deține, iar cetățenii pot verifica dacă un site este oficial. Problema principală este art. 7 alin. (3): orice resursă neînregistrată în 6 luni nu mai poate fi folosită, deși platforma se construiește treptat.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 4
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/20/8/se139.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Inventarul digital al statului: toate site-urile, aplicațiile, licențele și calculatoarele instituțiilor, într-un singur registru",
+      "summaryTlDr": "Este o lege tehnică și în esență utilă: obligă statul să știe ce resurse digitale are, cine răspunde de ele și cât costă. Riscurile reale sunt de redactare și de securitate, nu de abuz: delegă mult normelor metodologice, nu definește „cazurile urgente” și ar putea face publice detalii tehnice exploatabile de atacatori.",
+      "scores": {
+        "agy": null,
+        "claude": 3,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl128_cd128_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Statul își face inventarul digital: site-uri, telefoane, aplicații și licențe într-un registru unic",
+      "summaryTlDr": "Lege utilă, de bun-simț administrativ: statul află în sfârșit ce site-uri, aplicații, licențe și servere are, iar oricine poate verifica dacă un site sau un număr de telefon e cu adevărat oficial. Problemele țin de o redactare grăbită (definiții contradictorii, termene rigide), nu de capcane pentru cetățeni sau firme.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Resursele neînregistrate nu mai sunt blocate automat: instituțiile primesc 30 de zile să se conformeze",
+      "summary": "Inițial, sistemele neînregistrate la termen nu mai puteau fi folosite. Acum ADR notifică instituția și îi dă 30 de zile, deci scade riscul de întreruperi ale serviciilor publice. Rămân interdicția de finanțare fără excepții și riscurile de securitate.",
+      "changes": [
+        {
+          "title": "Fără blocarea automată a sistemelor neînregistrate",
+          "text": "Inițial, resursele neînregistrate la termen nu mai puteau fi utilizate. Acum ADR notifică entitatea și acordă 30 de zile pentru conformare (art. 6 alin. 3).",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 6 alin. (3)",
+          "before": "La expirarea termenului prevăzut la alin. (1), resursele digitale publice neînregistrate în PNIDP nu mai po",
+          "after": "La expirarea termenului prevăzut la alin.(1), ADR notifică entitățile publice care nu și-au îndeplinit obligația de înregistrare și stabilește un termen de conformare de 30 de zile.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Cerc mai restrâns de entități obligate",
+          "text": "Art. 1 alin. (2) nu mai menționează entitățile aflate în administrarea sau controlul autorităților. Definiția de la art. 2 lit. k) le include însă în continuare, deci textul e neclar.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 1 alin. (2)",
+          "before": "Prezenta lege se aplică autorităților și instituțiilor publice centrale și locale, precum și entităților aflate în subordinea, în administrarea, sub autoritatea, coordonarea sau controlul acestora, dacă legea nu prevede altfel.",
+          "after": "Prezenta lege se aplică autorităților și instituțiilor publice centrale și locale, precum și entităților aflate în subordonarea, coordonarea sau sub autoritatea acestora.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Standardele tehnice obligatorii trec din lege în norme",
+          "text": "Inițial, standardele tehnice minime erau într-o anexă a legii. Acum le aprobă Guvernul prin norme metodologice, deci pot fi schimbate fără Parlament.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. 2 lit. f)",
+          "before": "standard tehnic minim – cerințe obligatorii prevăzute în anexa nr. 1 privind securitatea, interoperabilitatea și accesibilitatea infrastructurii digitale publice",
+          "after": "standard tehnic minim - cerințe obligatorii privind securitatea, interoperabilitatea și accesibilitatea resurselor digitale publice, aprobate prin normele metodologice de aplicare a legii",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dispare limitarea datelor la metadate tehnice",
+          "text": "Inițial, datele erau doar metadate, fără conținutul operațional al resurselor. Acum „date informatice” înseamnă orice informație prelucrabilă, deci limita a dispărut.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. 2 lit. j)",
+          "before": "date informatice publice – metadata și/sau informații tehnice despre resursele digitale publice, fără a include conținutul operațional al acestora",
+          "after": "date informatice - orice reprezentare de fapte, informații ori concepte într-o formă aptă pentru prelucrare într-un sistem informatic",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Termenul de urgență, precizat în zile calendaristice",
+          "text": "Termenul de 5 zile pentru modificări urgente se calculează acum explicit în zile calendaristice, de la data producerii modificării (art. 6 alin. 2).",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 6 alin. (2)",
+          "before": "În cazuri urgente, modificarea se realizează cu celeritate fără ca termenul să poată depăși 5 zile.",
+          "after": "În cazuri urgente, modificarea se realizează cu celeritate fără ca termenul să poată depăși 5 zile calendaristice de la data producerii modificării.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Interdicție de finanțare pentru resurse neînregistrate, fără excepție pentru remedieri urgente de securitate",
+            "major": true,
+            "article": "art. 6 alin. (4)"
+          },
+          {
+            "text": "Configurațiile și versiunile sistemelor adunate într-un loc pot deveni hartă de atac",
+            "major": true,
+            "article": "art. 9 alin. (1) lit. d)"
+          },
+          {
+            "text": "Regimul de acces la datele interne și sensibile este lăsat normelor metodologice",
+            "major": true,
+            "article": "art. 7 alin. (3)"
+          },
+          {
+            "text": "Domeniul de aplicare diferă între art. 1 alin. (2) și definiția entităților publice",
+            "major": true,
+            "article": "art. 1 alin. (2)"
+          },
+          {
+            "text": "Datele din PNIDP prevalează asupra altor evidențe publice până la proba contrară",
+            "major": true,
+            "article": "art. 17 alin. (2)"
+          },
+          {
+            "text": "Suspendarea accesului la PNIDP poate împiedica tocmai conformarea cerută",
+            "major": true,
+            "article": "art. 24 alin. (3)"
+          },
+          {
+            "text": "Cere date de contact ale responsabilului, dar interzice datele personale",
+            "major": false,
+            "article": "art. 9 alin. (1) lit. c)"
+          },
+          {
+            "text": "Termenul unic de 6 luni ignoră calendarul gradual al registrelor",
+            "major": false,
+            "article": "art. 6 alin. (1)"
+          },
+          {
+            "text": "Noțiunea de „cazuri urgente” nu este definită",
+            "major": false,
+            "article": "art. 6 alin. (2)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Notificare și 30 de zile de conformare înainte de consecințe",
+            "major": true,
+            "article": "art. 6 alin. (3)"
+          },
+          {
+            "text": "Interdicție explicită de a înscrie date personale în registre",
+            "major": true,
+            "article": "art. 9 alin. (3)"
+          },
+          {
+            "text": "Obligația de accesibilitate digitală pentru persoanele cu dizabilități",
+            "major": true,
+            "article": "art. 23"
+          },
+          {
+            "text": "Cetățenii pot verifica pe data.gov.ro autenticitatea site-urilor publice",
+            "major": false,
+            "article": "art. 21 alin. (1)"
+          },
+          {
+            "text": "Reutilizarea software-ului finanțat public între instituții",
+            "major": false,
+            "article": "art. 19"
+          },
+          {
+            "text": "Redistribuirea licențelor software neutilizate pentru a evita risipa",
+            "major": false,
+            "article": "art. 11 alin. (3)"
+          },
+          {
+            "text": "Fără raportări suplimentare pentru date deja disponibile prin interoperabilitate",
+            "major": false,
+            "article": "art. 17 alin. (3)"
+          },
+          {
+            "text": "Raport anual de conformare comunicat Parlamentului",
+            "major": false,
+            "article": "art. 22"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 93,
+        "removed": 187,
+        "same": 0.2
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:13:01.504Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_putin_riscant",
+      "headline": "Interdicția de finanțare se limitează la modernizare, iar SRI preia securitatea cibernetică a platformei",
+      "summary": "Acum, blocarea banilor pentru resursele neînregistrate vizează doar soluțiile de modernizare, nu orice finanțare. Apare un registru al numerelor de telefon oficiale. Securitatea platformei trece la SRI, deși SRI nu apare în listele de acces la date.",
+      "changes": [
+        {
+          "title": "Blocarea contractelor vizează doar modernizarea resurselor neînregistrate",
+          "text": "La art. 6 alin. (4), interdicția nu mai privește orice finanțare, achiziție sau modernizare. Acum se referă la finanțarea sau achiziția de soluții de modernizare pentru resursele neînregistrate.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 6 alin. (4)",
+          "before": "(4) Nu pot fi finanțate, achiziționate și nu pot face obiectul modernizării resurse digitale publice neînregistrate în PNIDP.",
+          "after": "(4) Nu pot fi finanțate, respectiv achiziționate soluții de modernizare a resurselor digitale publice neînregistrate în PNIDP.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "SRI asigură securitatea cibernetică a platformei naționale",
+          "text": "Prevedere nouă la art. 3 alin. (3): SRI asigură securitatea cibernetică a PNIDP. Totuși, art. 7 nu îi dă acces la datele interne sau sensibile, deci rolul nu e corelat cu restul textului.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 3 alin. (3)",
+          "before": null,
+          "after": "(3) Autoritatea competentă, conform Legii nr. 14/1992, privind organizarea și funcționarea Serviciului Român de Informații, cu modificările și completările ulterioare, asigură securitatea cibernetică a PNIDP",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Registru public al numerelor de telefon oficiale",
+          "text": "Numerele de telefon oficiale devin resurse digitale publice (art. 2 lit. h) și primesc un registru propriu (art. 8 alin. (2) lit. c). Oamenii vor putea verifica dacă un apel vine cu adevărat de la o instituție.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 8 alin. (2) lit. c)",
+          "before": null,
+          "after": "c) registrul numerelor de telefon oficiale ale entităților publice;",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Instituțiile care colaborează nu mai sunt numite explicit",
+          "text": "Ordinul de cooperare (art. 3 alin. (5)) și cooperarea DNSC (art. 3 alin. (4)) nu mai numesc ADR, STS și DNSC. Textul trimite acum vag la „autoritățile competente”.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. 3 alin. (5)",
+          "before": "mecanismele de cooperare instituțională dintre ADR, STS și DNSC pentru aplicarea acesteia se stabilesc prin ordinul comun al președintelui ADR, directorului STS și directorului DNSC",
+          "after": "mecanismele de cooperare instituțională pentru aplicarea acesteia se stabilesc prin ordinul comun al conducătorilor autorităților și instituțiilor publice competente",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Interdicția de finanțare nu are excepții pentru urgențe de securitate sau registre neoperaționale",
+            "major": true,
+            "article": "art. 6 alin. (4)"
+          },
+          {
+            "text": "Configurațiile și versiunile înscrise pot deveni hartă de atac, încadrarea fiind lăsată normelor",
+            "major": true,
+            "article": "art. 9 alin. (1) lit. d)"
+          },
+          {
+            "text": "Datele tehnice interne sunt accesibile tuturor responsabililor digitali, nu doar celor ai entității proprii",
+            "major": true,
+            "article": "art. 7 alin. (1) lit. b)"
+          },
+          {
+            "text": "Proiectele IT finanțate doar din bugete locale scapă de registrul proiectelor",
+            "major": true,
+            "article": "art. 2 lit. e)"
+          },
+          {
+            "text": "SRI asigură securitatea platformei, dar lipsește din listele de acces la date",
+            "major": false,
+            "article": "art. 3 alin. (3), art. 7"
+          },
+          {
+            "text": "Contactul responsabilului digital și e-mailurile nominale contrazic interdicția datelor personale",
+            "major": false,
+            "article": "art. 9 alin. (1) lit. c), alin. (3)"
+          },
+          {
+            "text": "Noțiunea de „cazuri urgente” nu este definită, termenul de 5 zile e imprevizibil",
+            "major": false,
+            "article": "art. 6 alin. (2)"
+          },
+          {
+            "text": "Autoritățile care semnează ordinul de cooperare nu sunt numite explicit",
+            "major": false,
+            "article": "art. 3 alin. (5)"
+          },
+          {
+            "text": "Noua formulare a interdicției de finanțare este ambiguă",
+            "major": false,
+            "article": "art. 6 alin. (4)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Evidență unică a resurselor digitale publice, prin registre specializate",
+            "major": true,
+            "article": "art. 8"
+          },
+          {
+            "text": "Coduri unice publice permit verificarea autenticității site-urilor și documentelor oficiale",
+            "major": true,
+            "article": "art. 6 alin. (5)-(7), art. 21"
+          },
+          {
+            "text": "Registru al numerelor de telefon oficiale, util împotriva apelurilor frauduloase",
+            "major": true,
+            "article": "art. 8 alin. (2) lit. c)"
+          },
+          {
+            "text": "Blocarea finanțării vizează doar soluțiile de modernizare, nu orice contract",
+            "major": true,
+            "article": "art. 6 alin. (4)"
+          },
+          {
+            "text": "Datele cu caracter personal nu se înscriu în registre",
+            "major": true,
+            "article": "art. 9 alin. (3)"
+          },
+          {
+            "text": "Platformele publice trebuie să respecte standardele de accesibilitate pentru persoanele cu dizabilități",
+            "major": true,
+            "article": "art. 23"
+          },
+          {
+            "text": "Amenzi de 5.000-10.000 lei pentru neînregistrarea resurselor",
+            "major": true,
+            "article": "art. 24"
+          },
+          {
+            "text": "Aplicațiile plătite din bani publici pot fi reutilizate de alte instituții",
+            "major": false,
+            "article": "art. 19"
+          },
+          {
+            "text": "Licențele software neutilizate sunt redistribuite între instituții, evitând risipa",
+            "major": false,
+            "article": "art. 11 alin. (3)"
+          },
+          {
+            "text": "Raport anual de conformare publicat și comunicat Parlamentului",
+            "major": false,
+            "article": "art. 22"
+          },
+          {
+            "text": "Incidentele de securitate se notifică de îndată către DNSC",
+            "major": false,
+            "article": "art. 15 alin. (3)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 73,
+        "removed": 68,
+        "same": 0.4
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:13:53.787Z"
+    }
+  ]
+}

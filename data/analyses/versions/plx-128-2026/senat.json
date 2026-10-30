@@ -1,0 +1,70 @@
+{
+  "billId": "PL-x 128/2026",
+  "slug": "plx-128-2026",
+  "version": "senat",
+  "updatedAt": "2026-10-30T08:12:14.365Z",
+  "consensus": {
+    "riskScore": 3,
+    "riskLevel": "green",
+    "plainTitle": "Inventarul digital al statului: toate site-urile, aplicațiile, licențele și calculatoarele instituțiilor, într-un singur registru",
+    "summaryTlDr": "Este o lege tehnică și în esență utilă: obligă statul să știe ce resurse digitale are, cine răspunde de ele și cât costă. Riscurile reale sunt de redactare și de securitate, nu de abuz: delegă mult normelor metodologice, nu definește „cazurile urgente” și ar putea face publice detalii tehnice exploatabile de atacatori.",
+    "initiatorClaim": "Inițiatorii spun că infrastructura IT a statului este fragmentată și netrasabilă, ceea ce duce la investiții dublate, domenii și servere neautorizate și riscuri cibernetice. Ei propun o platformă unică de evidență (PNIDP), aliniată la NIS2, fără impact bugetar.",
+    "realityCheck": "Legea obligă toate entitățile publice centrale și locale, cu excepția sectorului de apărare, ordine publică și securitate națională, să-și înregistreze în 6 luni toate resursele digitale în registrele ADR. Resursele neînregistrate nu mai pot fi finanțate, achiziționate sau modernizate (art.6 alin.4). Instituțiile trebuie să afișeze coduri unice pe site-uri și pe documentele electronice. Afirmația că legea nu are impact bugetar este discutabilă: cele aproximativ 3.200 de UAT-uri și instituțiile subordonate primesc o sarcină nouă de inventariere și actualizare permanentă (15 zile, respectiv 5 zile în cazuri urgente), fără resurse alocate. În plus, conținutul concret al registrelor și regimul de acces sunt lăsate aproape integral normelor metodologice.",
+    "affectedGroups": [
+      "IT & AI",
+      "Toți cetățenii",
+      "IMM & Antreprenori"
+    ],
+    "senatForm": {
+      "articleRef": "Art.9 alin.(1) lit.d) din Legea nr.119/2026",
+      "proposalContent": "Lit.d) se modifică: „d) detalii tehnice esențiale, inclusiv configurații, versiuni și certificări de securitate, care constituie date sensibile în sensul art.7 alin.(1) lit.c) și nu pot fi publicate ca date publice;”",
+      "argumentation": "Publicarea configurațiilor și versiunilor software ar permite identificarea sistemelor vulnerabile și atacuri țintite asupra instituțiilor. Legea lasă clasificarea acestor date pe seama normelor metodologice. Principiul securității prin design (NIS2, Legea 58/2023) cere ca protecția elementelor critice să fie stabilită chiar în lege, nu printr-un act infralegal.",
+      "otherComments": "Legea fiind promulgată (L119/2026), propunerea vizează o lege de modificare. Recomandăm și: definirea „cazurilor urgente” (art.6 alin.2), o excepție de la art.6 alin.(4) pentru remedieri de securitate, corelarea art.9 alin.(1) lit.c) cu art.9 alin.(3) privind datele personale și corelarea art.1 alin.(2) cu art.2 lit.k)."
+    }
+  },
+  "council": {
+    "agy": {
+      "model": "agy",
+      "status": "skipped",
+      "error": "încă nerulat (COUNCIL_MODELS)"
+    },
+    "claude": {
+      "model": "claude",
+      "status": "ok",
+      "durationMs": 49555,
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Inventarul digital al statului: toate site-urile, aplicațiile, licențele și calculatoarele instituțiilor, într-un singur registru",
+      "verdictShort": "Este o lege tehnică și în esență utilă: obligă statul să știe ce resurse digitale are, cine răspunde de ele și cât costă. Riscurile reale sunt de redactare și de securitate, nu de abuz: delegă mult normelor metodologice, nu definește „cazurile urgente” și ar putea face publice detalii tehnice exploatabile de atacatori.",
+      "initiatorClaim": "Inițiatorii spun că infrastructura IT a statului este fragmentată și netrasabilă, ceea ce duce la investiții dublate, domenii și servere neautorizate și riscuri cibernetice. Ei propun o platformă unică de evidență (PNIDP), aliniată la NIS2, fără impact bugetar.",
+      "realityCheck": "Legea obligă toate entitățile publice centrale și locale, cu excepția sectorului de apărare, ordine publică și securitate națională, să-și înregistreze în 6 luni toate resursele digitale în registrele ADR. Resursele neînregistrate nu mai pot fi finanțate, achiziționate sau modernizate (art.6 alin.4). Instituțiile trebuie să afișeze coduri unice pe site-uri și pe documentele electronice. Afirmația că legea nu are impact bugetar este discutabilă: cele aproximativ 3.200 de UAT-uri și instituțiile subordonate primesc o sarcină nouă de inventariere și actualizare permanentă (15 zile, respectiv 5 zile în cazuri urgente), fără resurse alocate. În plus, conținutul concret al registrelor și regimul de acces sunt lăsate aproape integral normelor metodologice.",
+      "affectedGroups": [
+        "IT & AI",
+        "Toți cetățenii",
+        "IMM & Antreprenori"
+      ],
+      "keyFindings": [
+        "Art.6 alin.(4) interzice finanțarea, achiziția sau modernizarea oricărei resurse digitale publice neînregistrate în PNIDP. Este un instrument puternic de disciplină, dar nu are nicio excepție pentru remedieri urgente de securitate. Furnizorii IT, inclusiv IMM-uri, pot vedea contracte blocate din cauza unei omisiuni administrative a beneficiarului.",
+        "Art.9 alin.(1) lit.d) cere înscrierea configurațiilor, versiunilor și certificărilor de securitate. Art.7 stabilește doar categoriile generale (public, intern, sensibil) și lasă încadrarea concretă normelor metodologice (art.7 alin.3, art.11 alin.2). Dacă aceste date ajung în zona publică, ele devin o hartă de atac pentru versiunile vulnerabile.",
+        "Art.9 alin.(1) lit.c) cere „datele publice de contact ale responsabilului digital”, iar art.9 alin.(3) interzice înscrierea datelor cu caracter personal în sensul GDPR. Numele, e-mailul sau telefonul unei persoane fizice sunt date personale, deci textul este intern contradictoriu.",
+        "Art.6 alin.(2) folosește noțiunea de „cazuri urgente” fără să o definească. Astfel, termenul de 5 zile nu este previzibil pentru responsabilul digital.",
+        "Art.11 alin.(3) prevede redistribuirea licențelor neutilizate între instituții, cu aviz conform ADR, dacă legea sau contractul nu o interzic. Este o măsură pozitivă de economie, iar textul protejează explicit clauzele contractuale ale furnizorilor.",
+        "Expunerea de motive anunță „sancțiuni pecuniare pentru neconformare”, dar fragmentul extras se oprește la art.13. Proporționalitatea eventualelor sancțiuni nu a putut fi verificată."
+      ],
+      "blindSpotsCaught": "Definițiile nu sunt corelate. Art.1 alin.(2) vizează entitățile aflate în „subordonarea, coordonarea sau sub autoritatea” autorităților publice, dar art.2 lit.k) adaugă entitățile aflate „în administrarea” sau „controlul” acestora. Asta poate include companiile de stat, așa că sfera subiecților obligați este neclară. Art.2 lit.h) încadrează și „echipamentele hardware” în categoria „date informatice”, ceea ce este o eroare conceptuală, întrucât art.2 lit.j) definește datele ca reprezentări de informații. Există și greșeli materiale („project digital public”, „correlate”, „responsabili digitali” fără articol) și o paginare defectuoasă la art.8 alin.(2) și art.9, care trebuiau îndreptate înainte de publicare. Excluderea totală a sectorului de apărare și securitate (art.1 alin.3) lasă în afara evidenței exact entitățile cu cele mai multe domenii și resurse sensibile, chiar dacă excluderea e justificabilă.",
+      "constitutionalityNote": "Nu se identifică probleme grave de constituționalitate. Obligațiile impuse UAT-urilor prin lege organică sau ordinară sunt compatibile cu autonomia locală (art.120-121), fiind obligații de evidență, nu de tutelă. Există însă trei puncte sensibile. (1) Art.1 alin.(5) privind calitatea legii: noțiunile „cazuri urgente” și „duplicare funcțională” (art.12 alin.2) sunt vagi. (2) Delegarea extinsă către normele metodologice (calendarul, schemele de date, regimul accesului și standardele tehnice minime) se apropie de limita jurisprudenței CCR, potrivit căreia elementele esențiale trebuie stabilite prin lege. (3) Art.138 alin.(5) cere indicarea sursei de finanțare. Trimiterea generică la PNRR sau la „alte fonduri europene”, combinată cu afirmația „fără impact bugetar”, este fragilă pentru obligațiile noi impuse autorităților locale, mai ales în lipsa unei fișe financiare (art.15 din Legea nr.500/2002).",
+      "euLawNote": "Directiva (UE) 2018/958 nu este aplicabilă, deoarece legea nu reglementează accesul la profesii sau exercitarea acestora. Directiva (UE) 2015/1535 (TRIS) nu pare aplicabilă: obligațiile privesc exclusiv entitățile publice și organizarea internă a administrației, nu reguli privind serviciile societății informaționale sau produse puse pe piață. Standardele tehnice minime din art.2 lit.f) ar trebui verificate pentru notificare doar dacă vor fi impuse și furnizorilor privați prin norme. Legea este coerentă cu Directiva NIS2, transpusă prin Legea nr.58/2023 și OUG 155/2024, cu Regulamentul (UE) 2018/1724 și cu Regulamentul privind interoperabilitatea (UE) 2024/903. Pe piața internă nu se creează un monopol privat. Rolul STS (art.3 alin.2) este o atribuire intra-statală, nu o achiziție. Legea respectă GDPR prin art.9 alin.(3), cu excepția contradicției de la lit.c).",
+      "senatForm": {
+        "articleRef": "Art.9 alin.(1) lit.d) din Legea nr.119/2026",
+        "proposalContent": "Lit.d) se modifică: „d) detalii tehnice esențiale, inclusiv configurații, versiuni și certificări de securitate, care constituie date sensibile în sensul art.7 alin.(1) lit.c) și nu pot fi publicate ca date publice;”",
+        "argumentation": "Publicarea configurațiilor și versiunilor software ar permite identificarea sistemelor vulnerabile și atacuri țintite asupra instituțiilor. Legea lasă clasificarea acestor date pe seama normelor metodologice. Principiul securității prin design (NIS2, Legea 58/2023) cere ca protecția elementelor critice să fie stabilită chiar în lege, nu printr-un act infralegal.",
+        "otherComments": "Legea fiind promulgată (L119/2026), propunerea vizează o lege de modificare. Recomandăm și: definirea „cazurilor urgente” (art.6 alin.2), o excepție de la art.6 alin.(4) pentru remedieri de securitate, corelarea art.9 alin.(1) lit.c) cu art.9 alin.(3) privind datele personale și corelarea art.1 alin.(2) cu art.2 lit.k)."
+      }
+    },
+    "codex": {
+      "model": "codex",
+      "status": "skipped",
+      "error": "încă nerulat (COUNCIL_MODELS)"
+    }
+  }
+}

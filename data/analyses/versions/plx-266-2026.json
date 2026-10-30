@@ -1,0 +1,131 @@
+{
+  "slug": "plx-266-2026",
+  "billId": "Pl-x 266/2026",
+  "updatedAt": "2026-10-30T08:18:58.723Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/200/60/6/pl283.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Lege care declară 2026 „Anul SUA în România” și cere instituțiilor și TVR/Radio România să promoveze evenimente pro-americane",
+      "summaryTlDr": "Lege în principal simbolică și temporară, fără taxe, sancțiuni sau monopoluri. Are însă două defecte tehnice: o obligație nefinanțată pentru toate autoritățile publice și o cotă de emisie impusă SRR/SRTV care atinge independența editorială.",
+      "scores": {
+        "agy": null,
+        "claude": 3,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl266_cd266_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 1.7,
+      "riskLevel": "green",
+      "plainTitle": "2026 devine oficial «Anul Statelor Unite ale Americii» în România",
+      "summaryTlDr": "Lege simbolică, fără obligații, taxe sau sancțiuni: autoritățile și Radio România/TVR «pot», dar nu «trebuie», să organizeze sau să difuzeze ceva. Singurul risc real, mic, ține de banii publici cheltuiți pe lit. d), formulată foarte larg și fără reguli de transparență.",
+      "scores": {
+        "agy": 1,
+        "claude": 2,
+        "codex": 2
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "mai_putin_riscant",
+      "headline": "Autoritățile nu mai sunt obligate să organizeze evenimente; acum doar pot, din bugetele deja aprobate",
+      "summary": "Inițial, autoritățile centrale și locale trebuiau să organizeze evenimente, fără bani prevăzuți, iar TVR și Radio România trebuiau să rezerve timp de emisie la cerere. Acum totul e opțional și plătit doar din bugetele existente.",
+      "changes": [
+        {
+          "title": "Ministerele și primăriile nu mai sunt obligate",
+          "text": "La art. 2 alin. (2), „organizează sau sprijină” devine „pot organiza sau sprijini”, iar cheltuielile sunt limitate la alocările bugetare aprobate. Nu se mai cer bani noi.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 2 alin. (2)",
+          "before": "autoritățile administrației publice centrale și locale organizează sau sprijină material ori logistic organizarea și desfășurarea de:",
+          "after": "autoritățile administrației publice centrale și locale pot organiza sau sprijini material ori logistic, în limita alocărilor bugetare aprobate, organizarea și desfășurarea de:",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dispare cota obligatorie de 1% la TVR și Radio România",
+          "text": "La art. 2 alin. (3), obligația de a rezerva la cerere până la 1% din timpul de emisie e înlocuită cu posibilitatea de a difuza materiale tematice. Autonomia editorială e respectată.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 2 alin. (3)",
+          "before": "Societatea Română de Radiodifuziune și Societatea Română de Televiziune vor rezerva la cerere în limita a 1% din timpul de emisie materialelor realizate cu ocazia Anului Statelor Unite ale Americii în România.",
+          "after": "Societatea Română de Radiodifuziune și Societatea Română de Televiziune pot difuza materiale tematice realizate cu ocazia Anului Statelor Unite ale Americii în România.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Evenimentele devin opționale, nu obligatorii",
+          "text": "La art. 2 alin. (1), „se organizează evenimente” devine „se pot organiza evenimente”. Legea devine pur declarativă.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 2 alin. (1)",
+          "before": "Cu prilejul sărbătoririi Anului Statelor Unite ale Americii în România se organizează evenimente menite să consolidateze relația strategică româno-americană",
+          "after": "Cu prilejul sărbătoririi Anului Statelor Unite ale Americii în România se pot organiza evenimente menite să consolidateze relația strategică româno-americană",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "„Orice alte activități de promovare” lasă autorităților o discreție foarte largă la cheltuieli",
+            "major": false,
+            "article": "art. 2 alin. (2) lit. d)"
+          },
+          {
+            "text": "Nu există criterii, plafoane sau obligații de raportare pentru banii cheltuiți",
+            "major": false,
+            "article": "art. 2 alin. (2)"
+          },
+          {
+            "text": "Greșeala „consolidateze” în loc de „consolideze” trebuie corectată",
+            "major": false,
+            "article": "art. 2 alin. (1)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Lege declarativă: fără obligații, taxe sau sancțiuni pentru cetățeni și firme",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Cheltuielile sunt permise doar în limita alocărilor bugetare deja aprobate",
+            "major": true,
+            "article": "art. 2 alin. (2)"
+          },
+          {
+            "text": "TVR și Radio România pot difuza, nu sunt obligate; autonomia editorială e respectată",
+            "major": true,
+            "article": "art. 2 alin. (3)"
+          },
+          {
+            "text": "Efectele se limitează la anul 2026",
+            "major": false,
+            "article": "art. 1"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 7,
+        "removed": 6,
+        "same": 0.36
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:18:33.841Z"
+    }
+  ]
+}

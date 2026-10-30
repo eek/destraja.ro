@@ -1,0 +1,119 @@
+{
+  "slug": "plx-240-2026",
+  "billId": "PL-x 240/2026",
+  "updatedAt": "2026-10-30T08:17:34.811Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/200/40/0/pl259.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "România și Egiptul semnează un acord-cadru de cooperare militară",
+      "summaryTlDr": "Este o lege tehnică de ratificare, cu un singur articol, fără costuri, taxe sau obligații pentru cetățeni ori firme. Riscul real nu ține de textul legii, ci de felul în care va fi aplicată cooperarea în industria de apărare cu un stat din afara UE și NATO.",
+      "scores": {
+        "agy": null,
+        "claude": 2,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl240_cd_plx_240_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Cooperare militară România–Egipt: ratificarea memorandumului semnat la Cairo în 2025",
+      "summaryTlDr": "Este o lege tehnică de ratificare, cu un singur articol, fără taxe, sancțiuni sau obligații pentru cetățeni și firme. Riscurile reale nu sunt în lege, ci în ce nu se vede: textul Memorandumului, cooperarea în industria de apărare cu un stat terț și protecția informațiilor clasificate, amânată pentru un acord separat.",
+      "scores": {
+        "agy": 1,
+        "claude": 2,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Ratificarea acordului militar cu Egiptul a trecut tacit de Cameră, cu textul neschimbat",
+      "summary": "Textul de lege a rămas identic: doar se ratifică memorandumul militar cu Egiptul. Camera Deputaților nu l-a votat în termen, așa că a fost adoptat tacit, iar decizia finală îi revine Senatului.",
+      "changes": [
+        {
+          "title": "Adoptat tacit de Camera Deputaților, fără dezbatere",
+          "text": "Proiectul a fost considerat adoptat de Camera Deputaților în forma inițială, pentru că termenul a expirat fără vot (art. 75 alin. (2) din Constituție). Articolul unic nu s-a schimbat.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. unic",
+          "before": null,
+          "after": "Acest proiect de lege se consideră adoptat de Camera Deputaților în forma inițială, în condițiile art. 75 alin. (2) teza a III-a din Constituția României, republicată.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Conținutul clauzei de jurisdicție pentru militarii în vizită nu este explicat",
+            "major": true,
+            "article": "art. unic"
+          },
+          {
+            "text": "Impact bugetar declarat zero, deși vizitele și comitetul mixt costă bani MApN",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Cooperarea în industria de apărare nu are controale specifice descrise",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Informațiile clasificate sunt protejate doar de principiu, acordul separat lipsește",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Acordul din 1976 este denunțat implicit, nu printr-o dispoziție expresă",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Camera Deputaților nu a dezbătut proiectul, adoptarea fiind tacită",
+            "major": false,
+            "article": "art. unic"
+          }
+        ],
+        "good": [
+          {
+            "text": "Nu creează taxe, sancțiuni, licențe sau obligații pentru cetățeni ori firme",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Înlocuiește acordul învechit din 1976, simplificând cadrul legal",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Exporturile de armament rămân sub controlul Legii 232/2016 și normelor UE",
+            "major": false,
+            "article": "art. unic"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 3,
+        "removed": 1,
+        "same": 0.25
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:17:10.049Z"
+    }
+  ]
+}

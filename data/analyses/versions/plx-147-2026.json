@@ -1,0 +1,304 @@
+{
+  "slug": "plx-147-2026",
+  "billId": "PL-x 147/2026",
+  "updatedAt": "2026-10-30T08:15:16.030Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.senat.ro/legis/PDF/2026/26L010FG.PDF",
+      "source": "senat.ro",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Prima zi de concediu medical nu se mai plătește până la finalul lui 2027, iar casele de sănătate pot verifica concediile medicale la cererea angajatorului",
+      "summaryTlDr": "Este o ordonanță „omnibus” care amestecă reguli utile pentru medici cu o tăiere temporară a indemnizației pentru toți asigurații. Ziua neplătită se aplică fără excepții clare pentru maternitate, copii bolnavi sau cancer, iar asiguratul poate pierde indemnizația pentru greșeala medicului.",
+      "scores": {
+        "agy": null,
+        "claude": 6,
+        "codex": null
+      }
+    },
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/100/40/7/se154.pdf",
+      "source": "cdep.ro",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Prima zi de concediu medical nu mai e plătită, iar concediile medicale pot fi controlate la cererea angajatorului (2026-2027)",
+      "summaryTlDr": "Este o lege de austeritate pentru bugetul FNUASS. Costul îl suportă bolnavii, care pierd integral prima zi de indemnizație. Senatul a scos de sub tăiere maternitatea, bolnavii oncologici și pe cei spitalizați, dar a lăsat pe dinafară părinții cu copii bolnavi, iar asiguratul poate pierde toată indemnizația pentru greșeala medicului.",
+      "scores": {
+        "agy": null,
+        "claude": 6,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl147_cd147_26_(2).pdf",
+      "source": "cdep.ro",
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Prima zi de concediu medical rămâne neplătită până la finalul lui 2027, cu câteva scutiri noi",
+      "summaryTlDr": "Legea de aprobare îmbunătățește o ordonanță de austeritate: se taie o singură zi pe episod de boală, iar maternitatea, internările și bolnavii din programele naționale sunt scutiți. Problemele de fond rămân: salariații bolnavi și părinții copiilor bolnavi pierd o zi, iar pacientul pierde toată indemnizația și pentru greșelile medicului, fără garanții procedurale scrise în lege.",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "senat",
+      "direction": "mai_putin_riscant",
+      "headline": "Senatul scoate maternitatea, oncologia și spitalizarea de sub tăierea unei zile de concediu medical",
+      "summary": "Acum, ziua de indemnizație tăiată nu se mai aplică la maternitate, risc maternal, îngrijirea pacientului oncologic, bolnavilor din programele naționale și celor spitalizați. Părinții cu copil bolnav și ceilalți salariați pierd în continuare o zi pe certificat.",
+      "changes": [
+        {
+          "title": "Maternitatea și îngrijirea pacientului oncologic nu mai pierd ziua",
+          "text": "Art. II alin. (4) nou: diminuarea cu o zi nu se mai aplică concediilor de maternitate, de risc maternal și de îngrijire a pacientului oncologic. Inițial, la o lectură literală, li se aplica.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. II alin. (4)",
+          "before": null,
+          "after": "(4) Prevederile alin.(1) nu se aplică în cazul concediilor medicale prevăzute la art.2 alin.(1) lit.c), d¹) și e) din Ordonanța de urgență a Guvernului nr.158/2005",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Bolnavii din programele naționale de sănătate sunt scutiți",
+          "text": "Art. II alin. (4) nou: bolnavii incluși în programele naționale de sănătate nu mai pierd prima zi de indemnizație.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. II alin. (4)",
+          "before": null,
+          "after": "precum și în cazul concediilor medicale acordate bolnavilor incluși în programele naționale de sănătate.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Concediul pentru spitalizare nu mai pierde prima zi",
+          "text": "Art. II alin. (5) nou: certificatele eliberate pentru bolnavii internați în spital sunt exceptate de la diminuarea cu o zi a indemnizației.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. II alin. (5)",
+          "before": null,
+          "after": "(5) Prevederile alin.(1) nu se aplică în cazul certificatelor de concediu medical eliberate în situația bolnavilor care beneficiază de acordarea serviciilor medicale în regim de spitalizare.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Se pierde o zi de indemnizație la fiecare certificat, cumulat la boli repetate",
+            "major": true,
+            "article": "art. II alin. (1)"
+          },
+          {
+            "text": "Certificatele în continuare ale aceleiași boli nu sunt exceptate explicit",
+            "major": true,
+            "article": "art. II alin. (1)"
+          },
+          {
+            "text": "Părintele pierde o zi de indemnizație pentru îngrijirea copilului bolnav",
+            "major": true,
+            "article": "art. II alin. (4)"
+          },
+          {
+            "text": "Asiguratul pierde toată indemnizația dacă medicul a eliberat certificatul nelegal",
+            "major": true,
+            "article": "art. 51 alin. (2⁵) din OUG 158/2005"
+          },
+          {
+            "text": "Angajatorul poate cere control fără nicio suspiciune motivată, putând presa salariații bolnavi",
+            "major": true,
+            "article": "art. 51 alin. (2¹) din OUG 158/2005"
+          },
+          {
+            "text": "Nicio garanție de confidențialitate a datelor medicale față de angajator",
+            "major": true,
+            "article": "art. 51 alin. (2¹)–(2³) din OUG 158/2005"
+          },
+          {
+            "text": "Economia bugetară vine din indemnizația pierdută de asigurat, nu din efort împărțit",
+            "major": true,
+            "article": "art. II alin. (1)"
+          },
+          {
+            "text": "Procedura și contestarea pierderii indemnizației sunt lăsate integral unei hotărâri de Guvern",
+            "major": false,
+            "article": "art. 51 alin. (2⁶) din OUG 158/2005"
+          }
+        ],
+        "good": [
+          {
+            "text": "Maternitatea, riscul maternal și îngrijirea pacientului oncologic sunt exceptate de la tăiere",
+            "major": true,
+            "article": "art. II alin. (4)"
+          },
+          {
+            "text": "Bolnavii din programele naționale de sănătate nu pierd prima zi",
+            "major": true,
+            "article": "art. II alin. (4)"
+          },
+          {
+            "text": "Concediile pentru spitalizare sunt exceptate de la diminuarea indemnizației",
+            "major": true,
+            "article": "art. II alin. (5)"
+          },
+          {
+            "text": "Izolarea prevăzută de Legea 136/2020 rămâne exceptată de la diminuare",
+            "major": true,
+            "article": "art. II alin. (1)"
+          },
+          {
+            "text": "Pentru concediile scurte, costul suportat de angajator scade",
+            "major": true,
+            "article": "art. II"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:14:43.365Z"
+    },
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_putin_riscant",
+      "headline": "Prima zi neplătită se taie o singură dată pe episod de boală, nu la fiecare certificat",
+      "summary": "Acum, pentru o boală fără întrerupere se pierde o singură zi de indemnizație, oricâte certificate s-ar emite. Excepțiile pentru gravide, bolnavi oncologici, PNS și spitalizați se aplică însă abia din luna de după legea de aprobare, fără restituirea zilelor reținute până atunci.",
+      "changes": [
+        {
+          "title": "O singură zi tăiată pe episod de boală",
+          "text": "Noul art. II alin. (1¹) prevede că pentru un concediu medical continuu se scade o singură zi, indiferent câte certificate în continuare se emit. Inițial textul permitea pierderea unei zile la fiecare certificat.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. II alin. (1¹)",
+          "before": null,
+          "after": "(1¹) În cazul concediului medical acordat fâră întrerupere pentru un episod de boală sau complicațiile care decurg din aceasta, indemnizațiile de asigurări sociale de sănătate se calculează și se plătesc prin diminuarea cu o singură zi, indiferent de numărul certificatelor de concediu medical eliberate.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Scutirile se aplică doar de la o dată ulterioară",
+          "text": "Art. VI alin. (4) face ca excepțiile pentru maternitate, oncologie, risc maternal, PNS și spitalizare să se aplice doar din luna următoare legii de aprobare. Zilele reținute din 1 februarie 2026 nu se restituie.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. VI alin. (4)",
+          "before": null,
+          "after": "(4) Prevederile art. II alin. (4) și (5) se aplică concediilor medicale acordate începând cu data de 1 a lunii următoare intrării în vigoare a legii de aprobare a prezentei ordonanțe de urgență.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Ordin comun pentru aplicarea excepțiilor, în 30 zile",
+          "text": "Art. VI alin. (3) cere ca modul de aplicare a excepțiilor să fie stabilit prin ordin comun al ministrului sănătății și al președintelui CNAS, în 30 de zile de la intrarea în vigoare a legii.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. VI alin. (3)",
+          "before": null,
+          "after": "(3) Modalitatea de punere în aplicare a prevederilor art. II alin. (4) și (5) se stabilește prin ordinul comun al ministrului sănătății și al președintelui Casei Naționale de Asigurări de Sănătate",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Medicul notează „PNS” pe certificatul actual",
+          "text": "Art. VI alin. (5) stabilește că, până la noile formulare, medicul scrie „PNS” la rubrica „Observații”, cu semnătură și parafă, pentru aplicarea excepțiilor.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. VI alin. (5)",
+          "before": null,
+          "after": "pe formatul în vigoare al formularelor de certificate de concediu medical, medicul curant va înscrie în rubrica \"Observații\" – \"PNS\", utilizând semnătura și parafa.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Prima zi de concediu medical nu se plătește în 2026-2027",
+            "major": true,
+            "article": "art. II alin. (1)"
+          },
+          {
+            "text": "Angajatorul plătește și ziua 6; fondul plătește abia din ziua 7",
+            "major": true,
+            "article": "art. II alin. (1)"
+          },
+          {
+            "text": "Îngrijirea copilului bolnav nu este exceptată: părintele pierde o zi",
+            "major": true,
+            "article": "art. II alin. (4)"
+          },
+          {
+            "text": "Pacientul pierde integral indemnizația pentru certificat eliberat nelegal de medic",
+            "major": true,
+            "article": "art. I pct. 1, art. 51 alin. (2⁵)"
+          },
+          {
+            "text": "Angajatorul poate cere control fără suspiciune motivată, putând presa salariații bolnavi",
+            "major": true,
+            "article": "art. I pct. 1, art. 51 alin. (2¹)"
+          },
+          {
+            "text": "Ziua reținută gravidelor, internaților și bolnavilor PNS până la aplicare nu se restituie",
+            "major": true,
+            "article": "art. VI alin. (4)"
+          },
+          {
+            "text": "Procedura controlului și aplicarea sancțiunii sunt lăsate pe seama unei hotărâri de Guvern",
+            "major": false,
+            "article": "art. I pct. 1, art. 51 alin. (2⁶)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Se taie o singură zi pe episod de boală, oricâte certificate",
+            "major": true,
+            "article": "art. II alin. (1¹)"
+          },
+          {
+            "text": "Exceptate maternitatea, îngrijirea pacientului oncologic, riscul maternal și bolnavii din PNS",
+            "major": true,
+            "article": "art. II alin. (4)"
+          },
+          {
+            "text": "Certificatele emise pe durata spitalizării sunt exceptate de la ziua tăiată",
+            "major": true,
+            "article": "art. II alin. (5)"
+          },
+          {
+            "text": "Termen de 30 de zile pentru ordinul de aplicare a excepțiilor",
+            "major": false,
+            "article": "art. VI alin. (3)"
+          },
+          {
+            "text": "Soluție tranzitorie: mențiunea „PNS” pe formularul actual de certificat",
+            "major": false,
+            "article": "art. VI alin. (5)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 14,
+        "removed": 4,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:15:16.030Z"
+    }
+  ]
+}

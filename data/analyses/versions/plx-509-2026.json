@@ -1,0 +1,107 @@
+{
+  "slug": "plx-509-2026",
+  "billId": "PL-x 509/2026",
+  "updatedAt": "2026-10-30T08:35:12.054Z",
+  "versions": [
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/00/9/se566.pdf",
+      "source": "cdep.ro",
+      "riskScore": 1,
+      "riskLevel": "green",
+      "plainTitle": "Fundațiile pot deschide sucursale în alte orașe, la fel ca asociațiile",
+      "summaryTlDr": "Lege tehnică și benignă. Repară o inegalitate reală dintre fundații și asociații și deblochează un impas practic între instanțe și ANAF, fără taxe, sancțiuni sau obligații noi pentru cetățeni.",
+      "scores": {
+        "agy": null,
+        "claude": 1,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl509_cd509_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 1.7,
+      "riskLevel": "green",
+      "plainTitle": "Fundațiile vor putea deschide sucursale în alte orașe",
+      "summaryTlDr": "Lege tehnică și utilă. Repară o scăpare din OG 26/2000 din cauza căreia fundațiile nu își puteau declara legal angajații din alte județe. Textul e foarte scurt și lasă câteva întrebări practice fără răspuns, dar nu ascunde taxe, sancțiuni sau privilegii.",
+      "scores": {
+        "agy": 1,
+        "claude": 2,
+        "codex": 2
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Fundațiile pot înființa sucursale; Camera a păstrat textul Senatului, cu doar corecturi de redactare",
+      "summary": "Inițial și acum, legea permite fundațiilor să înființeze sucursale fără personalitate juridică, înscrise în Registru la judecătorie. Camera a făcut doar corecturi de formă, fără schimbări de fond.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Trimiterea vagă la art. 15-17 poate impune condiții nepotrivite, inclusiv patrimoniu minim",
+            "major": true,
+            "article": "art. 18¹ alin. (3)"
+          },
+          {
+            "text": "Nu se reglementează modificarea, desființarea sau radierea sucursalei din Registru",
+            "major": false,
+            "article": "art. 18¹"
+          },
+          {
+            "text": "Lipsesc reguli despre conducătorul sucursalei, dreptul de semnătură și reprezentarea față de terți",
+            "major": false,
+            "article": "art. 18¹ alin. (4)"
+          },
+          {
+            "text": "Înscrierea la judecătorie presupune cost: taxă judiciară și eventual avocat",
+            "major": false,
+            "article": "art. 18¹ alin. (3)"
+          },
+          {
+            "text": "Completarea golurilor prin analogie cu art. 13¹ poate genera practică judiciară neunitară",
+            "major": false,
+            "article": "art. 18¹"
+          }
+        ],
+        "good": [
+          {
+            "text": "Fundațiile primesc dreptul expres de a înființa sucursale, ca asociațiile",
+            "major": true,
+            "article": "art. 18¹ alin. (1)"
+          },
+          {
+            "text": "Sucursala se constituie simplu, prin hotărâre a consiliului director",
+            "major": false,
+            "article": "art. 18¹ alin. (2)"
+          },
+          {
+            "text": "Înscrierea dă hotărârea judecătorească cerută de ANAF pentru înregistrarea ca plătitor de salarii",
+            "major": false,
+            "article": "art. 18¹ alin. (3)"
+          },
+          {
+            "text": "Sucursala este facultativă; legea nu creează taxe, sancțiuni sau obligații noi",
+            "major": false,
+            "article": null
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 6,
+        "removed": 5,
+        "same": 0.25
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:34:47.221Z"
+    }
+  ]
+}

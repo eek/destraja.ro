@@ -1,0 +1,202 @@
+{
+  "slug": "plx-503-2026",
+  "billId": "PL-x 503/2026",
+  "updatedAt": "2026-10-30T08:35:12.051Z",
+  "versions": [
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/00/3/se579.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "68 de euro pe vacă sau bivol pentru fermierii loviți de scumpirea motorinei și a îngrășămintelor în 2026",
+      "summaryTlDr": "Este o lege de sprijin tehnică și benignă: un ajutor de stat temporar și plafonat, cu sursă bugetară identificată, notificat Comisiei Europene. Riscurile nu țin de abuzuri. Țin de redactarea neglijentă (bubaline omise la verificare, formulări confuze, citări greșite ale regulamentelor UE) și de un calendar foarte strâns, care poate lăsa fermieri fără bani dacă aprobarea UE sau plata întârzie după 31.12.2026.",
+      "scores": {
+        "agy": null,
+        "claude": 3,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?cd503_26_(rev).pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "68 de euro pe cap de vită sau bivol pentru fermierii loviți de scumpirea motorinei și a îngrășămintelor",
+      "summaryTlDr": "E o lege de sprijin real pentru crescătorii de bovine și bubaline, plătită din bugetul de stat și încadrată în regulile UE privind ajutorul de stat. Nu are capcane ascunse. Riscurile vin din redactarea grăbită și din calendarul foarte strâns, care pot face ca banii să ajungă greu sau deloc la o parte dintre fermieri.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_putin_riscant",
+      "headline": "Schema se aplică doar după autorizarea Comisiei Europene, iar cumulul cu alte ajutoare e formulat mai larg",
+      "summary": "Acum ajutorul se acordă doar după aprobarea Comisiei Europene, ceea ce reduce riscul ca fermierii să fie nevoiți să returneze banii. Cumulul cu alte ajutoare de la buget nu mai e limitat la aceeași secțiune, formularea e neclară, iar problema bivolilor la verificare rămâne.",
+      "changes": [
+        {
+          "title": "Ajutorul se aplică doar după aprobarea Comisiei Europene",
+          "text": "Art. 1 alin. (6) condiționează acum aplicarea schemei de autorizarea Comisiei Europene. Plata poate întârzia, dar scade riscul ca ajutorul să fie declarat ilegal și recuperat de la fermieri.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 1 alin. (6)",
+          "before": "(6) Schema se aplică pe întreg teritoriul României.",
+          "after": "(6) Schema se aplică pe întreg territoriul României, după autorizarea de către Comisia Europeană a ajutorului de stat.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Cumulul permis cu orice alte ajutoare de la buget",
+          "text": "Art. 1 alin. (3) nu mai limitează cumulul la schemele din secțiunea 2.1. Acum vorbește de orice alte scheme de la bugetul de stat, tot sub plafonul de 50.000 euro. Formularea e mai largă și mai neclară.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 1 alin. (3)",
+          "before": "Schema se cumulează cu orice alte scheme de sprijin finanțate de la bugetul de stat pe secțiunea 2.1 - Sprijinirea temporară a prețurilor",
+          "after": "Schema se cumulează cu orice alte scheme de sprijin finanțate de la bugetul de stat precum și cu ajutoarele acordate în temeiul",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Actualizată referința la comunicarea Comisiei Europene",
+          "text": "Art. 1 alin. (2) trimite acum la Comunicarea C/2026/2593, publicată în Jurnalul Oficial al UE la 5 mai 2026, în locul documentului C(2026) 2947 final.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 1 alin. (2)",
+          "before": "Cadrul temporar privind ajutoarele de stat în contextual crizei din Orientul Mijlociu (C(2026) 2947 final)",
+          "after": "denumită în continuare Comunicarea Comisiei Europene (C/2026/2593), publicată în Jurnalul Oficial al Uniunii Europene, Seria C din 5 mai 2026",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Regulamentele de minimis, citate complet, dar tot greșit numerotate",
+          "text": "Art. 1 alin. (3) dă acum titlurile complete ale regulamentelor de minimis. Numerotarea rămâne însă greșită: «nr. 2013/1408» și «nr. 2014/717» în loc de nr. 1408/2013 și nr. 717/2014.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 1 alin. (3)",
+          "before": "Regulamentul (UE) 2023/2831, Regulamentul (UE) 2013/1408 și Regulamentul (UE) 2014/717",
+          "after": "al Regulamentului (UE) nr. 2013/1408 al Comisiei din 18 decembrie 2013",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Definiția crescătorului și verificarea din 5 octombrie menționează doar bovine, nu și bivoli",
+            "major": true,
+            "article": "art. 2 lit. d), art. 7 alin. (1)"
+          },
+          {
+            "text": "Pragul de 10 capete (5 la munte) exclude gospodăriile foarte mici",
+            "major": true,
+            "article": "art. 4 alin. (1) lit. a)"
+          },
+          {
+            "text": "Vârsta minimă de 22 de luni exclude fermele de îngrășare a tineretului",
+            "major": true,
+            "article": "art. 2 lit. b)-c)"
+          },
+          {
+            "text": "Cumulul cu alte ajutoare și cu cele de minimis, legat confuz de plafonul de 50.000 euro",
+            "major": true,
+            "article": "art. 1 alin. (3)"
+          },
+          {
+            "text": "Decizia Comisiei poate modifica automat schema, fără o nouă lege",
+            "major": true,
+            "article": "art. 14 alin. (2)"
+          },
+          {
+            "text": "Formularea «mai mic sau cel puțin egal» este contradictorie",
+            "major": false,
+            "article": "art. 4 alin. (3)"
+          },
+          {
+            "text": "Regulamentele de minimis sunt citate cu numerotare greșită",
+            "major": false,
+            "article": "art. 1 alin. (3)"
+          },
+          {
+            "text": "Finanțarea depinde de o hotărâre de Guvern adoptată în 10 zile lucrătoare",
+            "major": false,
+            "article": "art. 5 alin. (3)"
+          },
+          {
+            "text": "Termen scurt de depunere a cererilor: 20 de zile lucrătoare",
+            "major": false,
+            "article": "art. 6 alin. (3)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Ajutor clar de 68 euro pe cap, plafonat la 50.000 euro pe beneficiar",
+            "major": true,
+            "article": "art. 5 alin. (1)-(2)"
+          },
+          {
+            "text": "Reducere proporțională pentru toți dacă cererile depășesc bugetul",
+            "major": true,
+            "article": "art. 8 alin. (3)"
+          },
+          {
+            "text": "Schema se aplică doar după autorizarea Comisiei, cu risc mic de recuperare",
+            "major": true,
+            "article": "art. 1 alin. (6)"
+          },
+          {
+            "text": "Excepții de la condiția de 75% pentru forță majoră, faliment și boli",
+            "major": true,
+            "article": "art. 4 alin. (1) lit. c)"
+          },
+          {
+            "text": "Sumele nu pot fi poprite, deci ajung efectiv la crescători",
+            "major": true,
+            "article": "art. 1 alin. (8)"
+          },
+          {
+            "text": "Curs de schimb fix de 5,0953 lei/euro, previzibil pentru calcul",
+            "major": false,
+            "article": "art. 5 alin. (4)"
+          },
+          {
+            "text": "Animalele mutate temporar la pășunat rămân eligibile",
+            "major": false,
+            "article": "art. 4 alin. (2)"
+          },
+          {
+            "text": "O singură cerere pentru exploatații aflate în mai multe județe",
+            "major": false,
+            "article": "art. 6 alin. (2)"
+          },
+          {
+            "text": "Beneficiarii peste 10.000 euro sunt publicați pe site-ul APIA",
+            "major": false,
+            "article": "art. 11 alin. (3)"
+          },
+          {
+            "text": "Procedură clară de contestare a actelor de recuperare",
+            "major": false,
+            "article": "art. 13 alin. (4)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 106,
+        "removed": 75,
+        "same": 0.23
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:35:00.119Z"
+    }
+  ]
+}

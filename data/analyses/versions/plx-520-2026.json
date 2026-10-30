@@ -1,0 +1,102 @@
+{
+  "slug": "plx-520-2026",
+  "billId": "Pl-x 520/2026",
+  "updatedAt": "2026-10-30T08:36:53.305Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/500/20/0/pl600.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Parlamentul aprobă împrumutul UE de 16,68 miliarde euro pentru apărare și drumuri militare (SAFE)",
+      "summaryTlDr": "Este o lege tehnică de aprobare a unui împrumut avantajos, cu text-tip UE: are trei articole, nu creează taxe sau sancțiuni pentru cetățeni și nu dă monopoluri. Riscul real ține de transparență: jaloanele, tranșele și amendamentele ulterioare rămân în mâna Guvernului, iar datoria se întinde pe 45 de ani.",
+      "scores": {
+        "agy": null,
+        "claude": 3,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl520_cd520_26_(2).pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "România se împrumută 16,68 mld. euro de la UE pentru armată și drumuri strategice",
+      "summaryTlDr": "Este o lege tehnică de aprobare a unui împrumut UE pentru apărare și nu creează taxe, obligații sau sancțiuni pentru cetățeni. Miza financiară e uriașă (16,68 mld. EUR datorie nouă), dar riscul juridic e mic. Punctul slab e art. 3: Guvernul poate modifica acordul prin HG, iar singura limită este să nu crească obligațiile financiare.",
+      "scores": {
+        "agy": 3,
+        "claude": 3,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Fără schimbări de fond: Camera a adoptat împrumutul SAFE de 16,68 mld. euro în forma inițiatorului",
+      "summary": "Camera a păstrat textul inițial. S-au corectat doar diacritice, ghilimele și formula de adoptare. Riscurile rămân: costuri necuantificate în lege și amendamente aprobate de Guvern prin HG, fără Parlament.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Datorie publică nouă de 16,68 mld. euro, plătită din bugetul de stat",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Dobânda și costurile de lichiditate și regie sunt variabile, necuantificate în lege",
+            "major": true,
+            "article": "art. 2"
+          },
+          {
+            "text": "Guvernul aprobă amendamente la acord prin HG, fără informarea Parlamentului",
+            "major": true,
+            "article": "art. 3"
+          },
+          {
+            "text": "Amendamentele cu jaloane, termene sau condiționalități noi nu sunt excluse expres",
+            "major": true,
+            "article": "art. 3"
+          },
+          {
+            "text": "Parlamentul aprobă doar suma; repartizarea banilor pe instituții se face prin HG",
+            "major": true,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Costul urmează finanțarea UE, probabil mai ieftin decât împrumutul României pe piață",
+            "major": true,
+            "article": "art. 2"
+          },
+          {
+            "text": "Amendamentele aprobate de Guvern nu pot majora obligațiile financiare ale României",
+            "major": true,
+            "article": "art. 3"
+          },
+          {
+            "text": "Sursa plății este stabilită clar: bugetul MF - Acțiuni generale, capitolul 55.01",
+            "major": false,
+            "article": "art. 2"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 9,
+        "removed": 9,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:36:53.305Z"
+    }
+  ]
+}

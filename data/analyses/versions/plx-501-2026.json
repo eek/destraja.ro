@@ -1,0 +1,178 @@
+{
+  "slug": "plx-501-2026",
+  "billId": "PL-x 501/2026",
+  "updatedAt": "2026-10-30T08:33:51.502Z",
+  "versions": [
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/00/1/se577.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Ajutor de stat de până la 50.000 euro pentru fermierii care cresc porci, ca să compenseze scumpirea combustibilului în 2026",
+      "summaryTlDr": "Este o schemă de sprijin tehnică, temporară și benefică pentru fermieri, fără sancțiuni sau taxe noi pentru cetățeni. Textul are însă erori de redactare: suma totală e exprimată greșit în «mii lei», iar justificarea economică nu se potrivește cu ce compensează efectiv articolele.",
+      "scores": {
+        "agy": null,
+        "claude": 3,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?cd501_26_(rev).pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "Ajutor de stat de până la 50.000 € pentru fermele de porci, în 2026",
+      "summaryTlDr": "Este o schemă de sprijin utilă, cu buget modest (11,5 mil. €) și notificată corect la Comisia Europeană, dar redactată neglijent. Art. 3 îi lasă pe dinafară pe crescătorii organizați ca SRL/SA, iar mai multe termene și condiții se contrazic. Riscul pentru cetățeni e mic; riscul de blocaje la plată pentru fermieri e real.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_riscant",
+      "headline": "Firmele SRL și SA nu mai apar printre beneficiarii ajutorului pentru crescătorii de porci",
+      "summary": "Acum doar PFA/II/IF, cooperativele și societățile agricole pot primi ajutorul. SRL-urile și SA-urile nu mai apar. Banii vin din Fondul de rezervă, iar suma totală e scrisă corect. Schema se aplică doar după aprobarea Comisiei Europene.",
+      "changes": [
+        {
+          "title": "SRL-urile și SA-urile nu mai pot primi ajutorul",
+          "text": "Inițial, beneficiari erau orice persoane juridice, alături de PFA/II/IF și societăți agricole. Acum lista e închisă: OUG 44/2008, cooperative agricole și societăți agricole (art. 3).",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 3",
+          "before": "crescători de suine persoane juridice, întreprinderi individuale sau familiale, persoane fizice autorizate, precum și societăți agricole constituite în baza Legii nr.36/1991",
+          "after": "crescători de suine constituiți conform prevederilor Ordonanței de urgență a Guvernului nr. 44/2008 privind desfășurarea activităților economice de către persoanele fizice autorizate, întreprinderile individuale și întreprinderile familiale",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Bani suplimentari din Fondul de rezervă al Guvernului",
+          "text": "Inițial, banii veneau din bugetul deja aprobat al Ministerului Agriculturii. Acum bugetul se suplimentează din Fondul de rezervă, prin hotărâre de Guvern în 10 zile lucrătoare (art. 5 alin. (3)).",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 5 alin. (3)",
+          "before": "Resursele financiare prevăzute la alin.(3) se asigură de la bugetul de stat, în limita prevederilor bugetare aprobate Ministerului Agriculturii și Dezvoltării Rurale pentru anul 2026",
+          "after": "din Fondul de rezervă la dispoziția Guvernului prevăzut în Legea bugetului de stat pe anul 2026 nr. 43/2026, în baza unei hotărâri a Guvernului inițiată de Ministerul Agriculturii și Dezvoltării Rurale în termen de 10 zile lucrătoare de la data intrării în vigoare a prezentei legi",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Suma totală a schemei, corectată în lei",
+          "text": "Inițial, bugetul era scris în „mii lei”, ceea ce însemna de circa 1.000 de ori mai mult decât echivalentul în euro. Acum suma e în lei și corespunde celor 11.540.120 euro (art. 5 alin. (3)).",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 5 alin. (3)",
+          "before": "Valoarea totală maximă a schemei de ajutor de stat de 58.800.373,436 mii lei, echivalentul sumei de 11.540.120 euro.",
+          "after": "Valoarea totală maximă a schemei este de 11.540.120 euro, echivalentul în lei al sumei de 58.800.373,436 lei",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Schema se aplică doar după aprobarea Comisiei Europene",
+          "text": "Acum aplicarea e condiționată explicit de autorizarea CE. Asta reduce riscul ca ajutorul să fie ilegal și să trebuiască returnat. Termenul pentru cereri curge însă de la intrarea în vigoare a legii (art. 1 alin. (6)).",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 1 alin. (6)",
+          "before": "Schema se aplică pe întreg teritoriul României.",
+          "after": "Schema se aplică pe întreg territoriul României, după autorizarea de către Comisia Europeană a ajutorului de stat.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Factura către abator, numită „document de decontare”",
+          "text": "Prevedere nouă. Nu spune ce se decontează, deși ajutorul se calculează pe locuri de cazare. Fermele de reproducție, care vând mai ales purcei, de regulă nu au astfel de facturi (art. 5 alin. (5)).",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. 5 alin. (5)",
+          "before": null,
+          "after": "Documentul de decontare reprezintă factura de livrare către un abator autorizat sanitar-veterinar.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "SRL-urile și SA-urile sunt excluse, deși definiția întreprinderii acceptă orice formă juridică",
+            "major": true,
+            "article": "art. 3"
+          },
+          {
+            "text": "Activitatea se verifică după plată; dacă nu e dovedită, banii se returnează cu dobânzi",
+            "major": true,
+            "article": "art. 4 alin. (1) lit. b), art. 8"
+          },
+          {
+            "text": "Fermierii protejați de poprire, dar creditorii lor (furnizori de furaje, combustibil) sunt dezavantajați",
+            "major": true,
+            "article": "art. 1 alin. (8)"
+          },
+          {
+            "text": "Termenele de cerere și plată nu țin cont de o eventuală întârziere a aprobării CE",
+            "major": false,
+            "article": "art. 1 alin. (6), art. 7"
+          },
+          {
+            "text": "Document de decontare neclar; fermele de reproducție nu vând de regulă la abator",
+            "major": false,
+            "article": "art. 5 alin. (5)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Bugetul se suplimentează din Fondul de rezervă prin hotărâre de Guvern în 10 zile",
+            "major": true,
+            "article": "art. 5 alin. (3)"
+          },
+          {
+            "text": "Suma totală a schemei e acum corectă în lei",
+            "major": true,
+            "article": "art. 5 alin. (3)"
+          },
+          {
+            "text": "Plafonul de 50.000 euro avantajează proporțional fermele mici și mijlocii",
+            "major": true,
+            "article": "art. 5 alin. (1)-(2)"
+          },
+          {
+            "text": "Ajutorul nu poate fi poprit, deci ajunge efectiv la crescători",
+            "major": true,
+            "article": "art. 1 alin. (8)"
+          },
+          {
+            "text": "Aplicarea după autorizarea CE evită recuperarea ulterioară a unui ajutor ilegal",
+            "major": false,
+            "article": "art. 1 alin. (6)"
+          },
+          {
+            "text": "Dacă cererile depășesc bugetul, ajutorul se reduce proporțional pentru toți",
+            "major": false,
+            "article": "art. 9 alin. (3)"
+          },
+          {
+            "text": "Datele din intervenția DR-06 sunt preluate, fără redepunerea documentelor",
+            "major": false,
+            "article": "art. 6 alin. (2)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 111,
+        "removed": 96,
+        "same": 0.22
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:33:51.502Z"
+    }
+  ]
+}

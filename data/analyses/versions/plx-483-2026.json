@@ -1,0 +1,146 @@
+{
+  "slug": "plx-483-2026",
+  "billId": "Pl-x 483/2026",
+  "updatedAt": "2026-10-30T08:31:25.203Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/400/80/3/pl540.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Directorii și inspectorii școlari predau din nou mai puține ore",
+      "summaryTlDr": "Este o lege tehnică, în mare parte benignă. Anulează o măsură de austeritate din 2025 și readuce regula din legea educației, cu mai multă claritate. Punctele slabe sunt costul bugetar nedeclarat, lipsa unei dispoziții tranzitorii și câteva noțiuni vagi.",
+      "scores": {
+        "agy": null,
+        "claude": 3,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl483_cd483_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Directorii și inspectorii școlari revin la mai puține ore de predare",
+      "summaryTlDr": "Legea este în mare parte o corecție tehnică. Anulează măsura de austeritate din 2025 care îi obliga pe directori să predea mult mai mult și mută în legea educației interdicția plății cu ora. Punctul slab este Art. II: amână cu un an o prevedere indicată doar prin număr, fără nicio justificare.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "mai_riscant",
+      "headline": "Camera adaugă amânarea neexplicată a unui termen din Legea 198/2023 și grăbește intrarea în vigoare",
+      "summary": "Acum legea amână până la 1 septembrie 2027 un termen din Legea 198/2023 fără să spună ce se amână și intră în vigoare la 3 zile, nu la 5. Excepția de la interdicția plății cu ora e restrânsă la zone izolate geografic și lingvistic.",
+      "changes": [
+        {
+          "title": "Amânare până în 2027 a unui termen neprecizat",
+          "text": "Prevedere nouă (art. II): termenul din art. 248 alin. (23) din Legea 198/2023 se prorogă până la 1 septembrie 2027. Textul nu spune ce măsură se amână.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. II",
+          "before": null,
+          "after": "Termenul de intrare în vigoare prevăzut la art. 248 alin. (23) din Legea învățământului preuniversitar nr. 198/2023, publicată în Monitorul Oficial al României, Partea I, nr. 613 din 5 iulie 2023, cu modificările și completările ulterioare, se prorogă până la data de 1 septembrie 2027.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Legea intră în vigoare mai repede: 3 zile",
+          "text": "Termenul de intrare în vigoare scade de la 5 la 3 zile, prin derogare de la art. 10 alin. (2) din Legea 198/2023. Școlile au și mai puțin timp să refacă încadrările (art. IV).",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. IV",
+          "before": "Art. III.- Prevederile prezentei legi intră în vigoare la 5 zile de la data publicării în Monitorul Oficial al României, Partea I.",
+          "after": "Art. IV. – Prin derogare de la prevederile art. 10 alin. (2) din Legea învățământului preuniversitar nr. 198/2023, cu modificările și completările ulterioare, prezenta lege intră în vigoare la 3 zile de la data publicării în Monitorul Oficial al României, Partea I.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Excepția pentru plata cu ora, restrânsă la zone izolate",
+          "text": "Excepția de la interdicția plății cu ora se aplică acum doar în zone „izolate geografic și lingvistic”, nu în orice „zone izolate” (art. I pct. 2, art. 208 alin. 11²).",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. I pct. 2 (art. 208 alin. 11²)",
+          "before": "(11²) Prin excepție de la prevederile alin. (11¹), se poate aproba efectuarea de activități în regim de plata cu ora, în unități de învățământ preuniversitar din zone izolate, cu aprobarea consiliului de administrație al inspectoratului școlar județean.",
+          "after": "(11²) Prin excepție de la prevederile alin. (11¹), se poate aproba efectuarea de activități în regim de plată cu ora, în unități de învățământ preuniversitar din zone izolate geografic și lingvistic, cu aprobarea consiliului de administrație al inspectoratului școlar județean.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Degrevare plătită din bani publici pentru persoane desemnate de sindicate, fără limită numerică",
+            "major": true,
+            "article": "art. I pct. 1 (art. 208 alin. 11)"
+          },
+          {
+            "text": "Revenirea la degrevări mai mari depinde de ordinul ministrului, nu e automată",
+            "major": true,
+            "article": "art. I pct. 1 (art. 208 alin. 11)"
+          },
+          {
+            "text": "Nu e clar dacă plafonul de 40% se aplică și persoanelor desemnate de sindicate",
+            "major": false,
+            "article": "art. I pct. 1 (art. 208 alin. 11)"
+          },
+          {
+            "text": "Excepția pentru zone izolate nu are definiție, criterii sau plafon de ore",
+            "major": false,
+            "article": "art. I pct. 2 (art. 208 alin. 11²)"
+          },
+          {
+            "text": "Prorogarea termenului din art. 248 alin. (23) nu spune ce amână și nu e motivată",
+            "major": false,
+            "article": "art. II"
+          },
+          {
+            "text": "Intrare în vigoare la 3 zile, fără dispoziții tranzitorii, în timpul anului școlar",
+            "major": false,
+            "article": "art. IV"
+          }
+        ],
+        "good": [
+          {
+            "text": "Abrogă limitele de degrevare de 30% pentru directori și 50% pentru inspectori",
+            "major": true,
+            "article": "art. III"
+          },
+          {
+            "text": "Predarea personalului degrevat este plafonată la cel mult 40% din normă",
+            "major": true,
+            "article": "art. I pct. 1 (art. 208 alin. 11)"
+          },
+          {
+            "text": "Personalul degrevat nu poate preda plătit cu ora sau prin cumul",
+            "major": true,
+            "article": "art. I pct. 2 (art. 208 alin. 11¹)"
+          },
+          {
+            "text": "Excepția de la interdicție este limitată la zone izolate geografic și lingvistic",
+            "major": false,
+            "article": "art. I pct. 2 (art. 208 alin. 11²)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 10,
+        "removed": 10,
+        "same": 0.29
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:31:25.203Z"
+    }
+  ]
+}

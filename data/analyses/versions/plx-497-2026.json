@@ -1,0 +1,162 @@
+{
+  "slug": "plx-497-2026",
+  "billId": "PL-x 497/2026",
+  "updatedAt": "2026-10-30T08:32:49.516Z",
+  "versions": [
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/400/90/7/se559.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Clădirile publice aproape gata pot fi recepționate și decontate înainte de terminarea lucrărilor mărunte",
+      "summaryTlDr": "Scopul este legitim și util: deblochează plata unor investiții publice practic finalizate, mai ales în PNRR. Textul are însă erori de redactare, un prag de 5% calculat la două baze diferite și scoate ISC tocmai din recepția excepțională în care se decide ce rămâne neterminat.",
+      "scores": {
+        "agy": null,
+        "claude": 4,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?cd497_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Clădiri publice recepționate cu până la 5% din lucrări neterminate, restul în 120 de zile",
+      "summaryTlDr": "Rezolvă un blocaj real al investițiilor PNRR, dar slăbește controlul: ISC intră abia la recepția finală, iar comisia, în care investitorul numește majoritatea membrilor, decide cu majoritate. Nu e periculoasă, însă îi permite beneficiarului public să-și recepționeze practic singur lucrarea.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a făcut doar corecturi de redactare; regulile de recepție parțială au rămas aceleași",
+      "summary": "În diferențele disponibile, acum apar doar corecturi de formă: diacritice, greșeli de tipar, renumerotări și citări actualizate. Regulile de fond, inclusiv problemele privind controlul ISC și comisia dominată de investitor, au rămas neschimbate.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "ISC lipsește de la recepția lucrărilor esențiale; nicio verificare specifică în cele 120 de zile",
+            "major": true,
+            "article": "art. 7 alin. (6)"
+          },
+          {
+            "text": "Investitorul numește președintele și specialiștii, deci poate controla majoritatea comisiei",
+            "major": true,
+            "article": "art. 7 alin. (7) și (10)"
+          },
+          {
+            "text": "Pragul de 5% e raportat o dată la contract, altă dată la investiție",
+            "major": true,
+            "article": "art. 4 alin. (3) lit. d), art. 8 alin. (2) lit. d)"
+          },
+          {
+            "text": "Definiția lucrărilor auxiliare e generală, fără listă clară a lucrărilor excluse",
+            "major": true,
+            "article": "art. 3 lit. b)"
+          },
+          {
+            "text": "Fără instrucțiuni ministeriale opționale, legea nu se aplică investițiilor din afara PNRR",
+            "major": true,
+            "article": "art. 18 alin. (1)"
+          },
+          {
+            "text": "Recepția pe faze la calea ferată se face fără ISC, cu comisie numită de investitor",
+            "major": true,
+            "article": "art. 17 alin. (3)"
+          },
+          {
+            "text": "Condiția de funcționalitate se cere doar la punerea în funcțiune, contrar definiției",
+            "major": false,
+            "article": "art. 8 alin. (2) lit. c)"
+          },
+          {
+            "text": "Termenul de 120 de zile se poate prelungi pentru cauze vagi, fără limită maximă",
+            "major": false,
+            "article": "art. 8 alin. (3), art. 11 alin. (5)"
+          },
+          {
+            "text": "Interzicerea extinderii atribuțiilor de control prin interpretare limitează intervenția autorităților",
+            "major": false,
+            "article": "art. 1 alin. (4)"
+          },
+          {
+            "text": "Clauză vagă de interpretare corelată a dispozițiilor contrare",
+            "major": false,
+            "article": "art. 18 alin. (6)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Clădirea nu poate fi folosită dacă lipsesc condițiile pentru punerea în funcțiune",
+            "major": true,
+            "article": "art. 9 alin. (3)"
+          },
+          {
+            "text": "Utilizarea e permisă doar cu toate instalațiile de securitate la incendiu funcționale",
+            "major": true,
+            "article": "art. 10 alin. (3)"
+          },
+          {
+            "text": "Fără certificat de edificare sau intabulare până la finalizarea tuturor lucrărilor",
+            "major": true,
+            "article": "art. 11 alin. (6)"
+          },
+          {
+            "text": "O parte din garanția de bună execuție se reține până la finalizarea lucrărilor auxiliare",
+            "major": true,
+            "article": "art. 14 alin. (3)"
+          },
+          {
+            "text": "Amenzi pentru încadrare nelegală, nefinalizare la termen și neregularizare",
+            "major": true,
+            "article": "art. 15 alin. (3) și (4)"
+          },
+          {
+            "text": "Regularizare financiară completă în 30 de zile, cu dobânzi și penalități",
+            "major": true,
+            "article": "art. 13"
+          },
+          {
+            "text": "Mecanismul e opțional și excepțional; regula rămâne recepția unitară",
+            "major": false,
+            "article": "art. 2 alin. (3), art. 7 alin. (2)"
+          },
+          {
+            "text": "Specialiștii din comisie nu pot fi implicați în proiectare sau execuție",
+            "major": false,
+            "article": "art. 7 alin. (7) lit. c)"
+          },
+          {
+            "text": "Răspundere stabilită diferențiat pentru fiecare participant la încadrarea lucrărilor",
+            "major": false,
+            "article": "art. 6"
+          },
+          {
+            "text": "Lucrările auxiliare nefinalizate trebuie identificate distinct tehnic, fizic și valoric",
+            "major": false,
+            "article": "art. 8 alin. (2) lit. d), art. 11 alin. (4)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 84,
+        "removed": 74,
+        "same": 0.6
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:32:49.516Z"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "slug": "plx-500-2026",
+  "billId": "PL-x 500/2026",
+  "updatedAt": "2026-10-30T08:33:16.416Z",
+  "versions": [
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/00/0/se576.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Portal național „e-SănătateaMea” și programări online obligatorii la medic prin CNAS",
+      "summaryTlDr": "Lege tehnică, utilă pentru digitalizare și aliniată la Spațiul European al Datelor de Sănătate. Problema ei este că e prea scurtă: impune o obligație („toți furnizorii”) fără să spună cine anume, cum, cu ce date și pe ce bază normativă.",
+      "scores": {
+        "agy": null,
+        "claude": 3,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl500_cd500_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Portalul CNAS «e-SănătateaMea»: datele tale medicale online și programări obligatorii prin portal",
+      "summaryTlDr": "Este o lege utilă de digitalizare, care dă bază legală portalului e-SănătateaMea, finanțat din PNRR, și nu introduce taxe sau sancțiuni pentru cetățeni. Punctul slab este alin. (2³): obligă „toți furnizorii” să folosească portalul de programări din trimestrul IV 2026, fără să spună cine anume, cum, după ce norme și ce alternativă au pacienții fără internet.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a păstrat textul Senatului: doar corecturi de redactare, aceleași probleme rămân",
+      "summary": "Forma adoptată de Cameră are același conținut ca forma adoptată de Senat. S-au corectat doar o greșeală de scriere și ghilimelele. Obligația vagă pentru toți furnizorii și lipsa regulilor pentru datele medicale rămân.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "„Toți furnizorii” obligați la programări online, inclusiv privați, farmacii și dispozitive, posibil",
+            "major": true,
+            "article": "art. unic, alin. (2³)"
+          },
+          {
+            "text": "Nu se spune ce programări, prin ce mijloace tehnice și cu ce sancțiuni",
+            "major": true,
+            "article": "art. unic, alin. (2³)"
+          },
+          {
+            "text": "Datele medicale personale nu au reguli de prelucrare și acces în lege",
+            "major": true,
+            "article": "art. unic, alin. (2²)"
+          },
+          {
+            "text": "Garanțiile GDPR apar doar în Expunerea de motive, fără forță obligatorie",
+            "major": true,
+            "article": "art. unic, alin. (2²)"
+          },
+          {
+            "text": "Nicio delegare și niciun termen pentru normele de aplicare ale portalului",
+            "major": false,
+            "article": "art. unic, alin. (2³)"
+          },
+          {
+            "text": "Pilotul nu are participanți, durată, criterii de evaluare sau raportare publică",
+            "major": false,
+            "article": "art. unic, alin. (2⁴)"
+          },
+          {
+            "text": "Pilotul durează cel mult câteva luni; termenul T4 2026 curge oricum",
+            "major": false,
+            "article": "art. unic, alin. (2⁴)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Pacienții primesc acces securizat online la propriile informații medicale",
+            "major": true,
+            "article": "art. unic, alin. (2²)"
+          },
+          {
+            "text": "Programări electronice la medici prin portalul unic „e-SănătateaMea”",
+            "major": true,
+            "article": "art. unic, alin. (2³)"
+          },
+          {
+            "text": "CNAS este numită clar responsabilă de dezvoltarea și administrarea portalului",
+            "major": false,
+            "article": "art. unic, alin. (2¹)"
+          },
+          {
+            "text": "Este prevăzut un proiect-pilot înainte de obligativitatea portalului",
+            "major": false,
+            "article": "art. unic, alin. (2⁴)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 3,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:33:06.994Z"
+    }
+  ]
+}

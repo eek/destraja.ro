@@ -1,0 +1,165 @@
+{
+  "slug": "plx-523-2026",
+  "billId": "PL-x 523/2026",
+  "updatedAt": "2026-10-30T08:38:22.499Z",
+  "versions": [
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/20/3/se604.pdf",
+      "source": "cdep.ro",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Bonusuri pentru angajații ANAF și ai Vămii, inclusiv 3% din amenzile și impozitele mari recuperate",
+      "summaryTlDr": "Scopul este legitim: un sistem bonus/malus cerut de PNRR, care ajută la păstrarea personalului competent. Totuși, art. 6 dă inspectorilor un interes financiar direct în mărimea sumelor impuse, iar art. 3 taie salariul pentru un calificativ de trecere. Ambele sunt formulate vag și fără garanții suficiente.",
+      "scores": {
+        "agy": null,
+        "claude": 6,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl523_cd523_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Bonusuri pentru angajații ANAF și ai Vămii, legate de performanță și de sumele mari recuperate",
+      "summaryTlDr": "Un sistem bonus/malus cerut de PNRR, util pentru a păstra oameni buni în ANAF și Vamă, dar cu o parte riscantă: prime de până la 3% din sumele mari recuperate, care dau inspectorilor, șefilor și juriștilor un interes bănesc direct în rezultatul controalelor. Există o plasă de siguranță, pentru că se premiază doar sumele definitive și încasate, însă textul e confuz și lasă indicatorii complet în seama Guvernului și a ministrului.",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 6
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_putin_riscant",
+      "headline": "Camera a corectat trimiterea greșită privind indicatorii de care depinde tăierea salariului la ANAF și Vamă",
+      "summary": "Pe fond, aproape nimic nu s-a schimbat. Acum, tăierea salariului pentru calificativul „satisfăcător” trimite corect la indicatorii aprobați prin ordin al ministrului. Problemele mari rămân: primele de 3% neclare și conflictul de interese.",
+      "changes": [
+        {
+          "title": "Trimiterea la indicatorii de performanță a fost corectată",
+          "text": "La art. 3 alin. (2), indicatorii a căror neîndeplinire atrage diminuarea salariului trimit acum la art. 1 alin. (1), nu la un alineat care nu stabilea niciun indicator.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 3 alin. (2)",
+          "before": "nu realizează indicatorii de performanță stabiliți potrivit alin.(1) și obține calificativul „satisfăcător”",
+          "after": "nu realizează indicatorii de performanță stabiliți potrivit art. 1 alin. (1) și obține calificativul „satisfăcător”",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Ordonanța abrogată este identificată prin Monitorul Oficial",
+          "text": "La art. 7 s-a adăugat datele de publicare ale OUG 132/2024. Abrogarea art. VIII rămâne neschimbată.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 7",
+          "before": "pentru modificarea și completarea unor acte normative, cu completările ulterioare, se abrogă.",
+          "after": "pentru modificarea și completarea unor acte normative, publicată în Monitorul Oficial al României, Partea I, nr. 1169 din 22 noiembrie 2024, cu completările ulterioare, se abrogă.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Nu e clar dacă 3% se aplică întregii sume sau doar peste prag",
+            "major": true,
+            "article": "art. 6 alin. (4)"
+          },
+          {
+            "text": "Nu există plafon individual sau anual pentru primele pe dosare mari",
+            "major": true,
+            "article": "art. 6 alin. (4)"
+          },
+          {
+            "text": "Nu e clar dacă primele de 3% intră în plafonul de 12%",
+            "major": true,
+            "article": "art. 6 alin. (4)"
+          },
+          {
+            "text": "Șefii și juriștii care pledează în instanță primesc prime din sumele încasate",
+            "major": true,
+            "article": "art. 6 alin. (2)"
+          },
+          {
+            "text": "Pragul de un milion nu e precizat pe titlu, contribuabil sau dosar",
+            "major": true,
+            "article": "art. 6 alin. (1)"
+          },
+          {
+            "text": "Primele nu se restituie dacă titlul e desființat ulterior",
+            "major": true,
+            "article": "art. 6"
+          },
+          {
+            "text": "Indicatorii sunt lăsați pe seama ordinului ministrului, fără interdicții privind amenzile",
+            "major": true,
+            "article": "art. 1 alin. (1), art. 5"
+          },
+          {
+            "text": "Calificativul „satisfăcător” aduce automat tăierea salariului, fără procedură sau apărare",
+            "major": true,
+            "article": "art. 3 alin. (2)"
+          },
+          {
+            "text": "Excluderea din bonus pentru „nu a contribuit” sau „abateri” nu are criterii",
+            "major": true,
+            "article": "art. 4 lit. a), d)"
+          },
+          {
+            "text": "Pragul pentru prime coboară de la 10 la 1 milion euro și include Vama",
+            "major": true,
+            "article": "art. 7"
+          }
+        ],
+        "good": [
+          {
+            "text": "Recompensele depind de lipsa abuzurilor și viciilor de procedură în control",
+            "major": true,
+            "article": "art. 1 alin. (2) lit. f)"
+          },
+          {
+            "text": "Bonusurile anuale totale au plafon de 12% din salariile de bază",
+            "major": true,
+            "article": "art. 2"
+          },
+          {
+            "text": "Primele se calculează doar pe sume definitive și efectiv încasate",
+            "major": true,
+            "article": "art. 6 alin. (1), (4)"
+          },
+          {
+            "text": "Cine a fost sancționat disciplinar în acel an nu primește bonus",
+            "major": false,
+            "article": "art. 4 lit. b)"
+          },
+          {
+            "text": "Stimulentul pentru un caz excepțional se acordă o singură dată",
+            "major": false,
+            "article": "art. 6 alin. (3)"
+          },
+          {
+            "text": "Trimiterea la indicatorii de performanță este acum corectă",
+            "major": false,
+            "article": "art. 3 alin. (2)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 20,
+        "removed": 19,
+        "same": 0.31
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:38:22.498Z"
+    }
+  ]
+}

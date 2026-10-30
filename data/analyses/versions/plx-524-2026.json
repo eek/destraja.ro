@@ -1,0 +1,166 @@
+{
+  "slug": "plx-524-2026",
+  "billId": "PL-x 524/2026",
+  "updatedAt": "2026-10-30T08:38:36.449Z",
+  "versions": [
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/20/4/se605.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Noi trepte de carieră pentru funcționarii publici de execuție și preluarea de către ANFP a gestiunii personalului contractual",
+      "summaryTlDr": "Este o lege tehnică de resurse umane în administrație, cerută de jalonul PNRR 418, fără efecte directe asupra cetățenilor sau firmelor. Riscurile sunt de redactare: plafoane ambigue, o condiție de promovare lăsată la aprecierea șefului direct și trimiteri la anexe care nu apar în text.",
+      "scores": {
+        "agy": null,
+        "claude": 3,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?cd524_26_(final).pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "Funcționarii publici primesc trei trepte noi de „superior”, cu promovare pe competențe",
+      "summaryTlDr": "Este o reformă tehnică cerută de PNRR și, în mare, utilă. Introduce trei trepte noi de carieră, plafonate la 20% și 8% din posturi, cu promovare pe competențe. Problemele: accesul la trepte depinde de nota dată de șef, costul salarial nu e arătat, iar viceprimarii primesc un bonus de vechime fără legătură cu reforma.",
+      "scores": {
+        "agy": 4,
+        "claude": 4,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_riscant",
+      "headline": "Concursul pentru gradele superioare nu mai testează competențele generale; contează doar nota șefului",
+      "summary": "Acum concursul de promovare în nivelurile superioare 2-4 nu mai are probe pentru competențele generale, ci doar pentru cele specifice. Singurul filtru pentru competențele generale rămâne nota 5 dată de șeful direct. Restul schimbărilor sunt corecturi de formulare.",
+      "changes": [
+        {
+          "title": "Concursul de promovare nu mai testează competențele generale",
+          "text": "Art. 478 alin. (5): inițial concursul pentru nivelurile superioare 2-4 avea probe și pentru competențele generale. Acum are probe doar pentru cele specifice, deci contează mai mult nota dată de evaluatorul ierarhic.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. 478 alin. (5)",
+          "before": "includ și probe suplimentare pentru testarea competențelor generale necesare exclusiv pentru aceste grade profesionale, prevăzute la art. 17 din anexa nr. 8.",
+          "after": "includ, pentru verificarea competențelor specifice identificate la nivelul autorităților și instituțiilor publice, conform art. 4 alin. (2) din anexa nr. 8, probe suplimentare conform prevederile art. 21 din aceeași anexă.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Se clarifică pentru cine gradul superior este plafonul",
+          "text": "Art. 393 alin. (2) lit. d) e reformulat. Acum spune clar că gradul superior este nivelul maxim doar pentru clasele II și III, nu și pentru clasa I.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 393 alin. (2) lit. d)",
+          "before": "d) superior, ca nivel maxim pentru funcția publică de execuție, clasele II și III;",
+          "after": "d) superior; pentru funcția publică de execuție, clasele II și III gradul superior este nivelul maxim;",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dispare precizarea „din maximum 5” la nota necesară",
+          "text": "Art. 479 alin. (1¹) cere în continuare nota 5 la competența generală. Doar mențiunea scalei „din maximum 5” a fost scoasă, iar condiția rămâne aceeași.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 479 alin. (1¹)",
+          "before": "prin notarea sa cu nota/calificativul 5 din maximum 5, conform grilei de notare din anexa nr. 6¹.",
+          "after": "prin notarea sa cu nota/calificativul 5, conform grilei de notare din anexa nr. 6¹.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Accesul la concurs depinde de nota 5 dată de șeful direct",
+            "major": true,
+            "article": "art. 479 alin. (1¹), (1³)"
+          },
+          {
+            "text": "Competența notată e aleasă tot de evaluator, doar după consultarea funcționarului",
+            "major": true,
+            "article": "art. 479 alin. (1³)"
+          },
+          {
+            "text": "Nota e scoasă din calificativ; nu e clar dacă poate fi contestată",
+            "major": true,
+            "article": "art. 479 alin. (1⁴)"
+          },
+          {
+            "text": "Vechimea revine ca filtru: 3 ani în grad și un an în instituție",
+            "major": true,
+            "article": "art. 479 alin. (3), (1²)"
+          },
+          {
+            "text": "Plafoane 20% și 8%: baza de calcul și rotunjirea sunt neclare",
+            "major": true,
+            "article": "art. 393 alin. (7)-(8)"
+          },
+          {
+            "text": "Concursul nu mai verifică competențele generale pentru nivelurile superioare 2-4",
+            "major": false,
+            "article": "art. 478 alin. (5)"
+          },
+          {
+            "text": "Formulări diferite: „aceluiași domeniu” la detașare, „acelorași domenii” la transfer",
+            "major": false,
+            "article": "art. 505 alin. (12), art. 506 alin. (8²)"
+          },
+          {
+            "text": "Greșeli de redactare: „va avea cu următorul cuprins”, „elaborază”, „clasa l”",
+            "major": false,
+            "article": "art. 393, art. 401 alin. (5)"
+          },
+          {
+            "text": "Alineate plasate după ghilimelele de închidere ale textului citat",
+            "major": false,
+            "article": "art. 539 alin. (10), art. 554¹ alin. (8)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Nivelurile noi există doar la clasa I și revin la grad inferior la vacantare",
+            "major": true,
+            "article": "art. 393 alin. (4)-(6)"
+          },
+          {
+            "text": "Mandatul viceprimarului se socotește vechime în muncă și în specialitate",
+            "major": true,
+            "article": "art. 152 alin. (9)"
+          },
+          {
+            "text": "Personalul contractual primește îndatoriri, reguli de incompatibilitate și răspundere disciplinară",
+            "major": true,
+            "article": "art. 549¹, art. 550, art. 553²"
+          },
+          {
+            "text": "Personalul contractual poate refuza în scris semnarea documentelor pe care le consideră ilegale",
+            "major": true,
+            "article": "art. 553 alin. (3)-(4)"
+          },
+          {
+            "text": "Detașarea și transferul în același domeniu nu mai cer verificarea competențelor",
+            "major": false,
+            "article": "art. 505 alin. (12), art. 506 alin. (8²)"
+          }
+        ],
+        "partial": true
+      },
+      "diff": {
+        "added": 356,
+        "removed": 370,
+        "same": 0.59
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:38:36.449Z"
+    }
+  ]
+}

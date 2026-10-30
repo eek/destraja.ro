@@ -215,8 +215,17 @@ export interface PositionsSummary {
   line: string | null;
 }
 
+/** Rezumatul din BillBalance pentru casetele din liste: cât cântărește fiecare punct, problema cea mai gravă și reparația. */
+export type BalanceSummary = {
+  good: BalanceItem['weight'][];
+  bad: BalanceItem['weight'][];
+  worst: string | null;
+  fix: BillBalance['fix'];
+} | null;
+
 export interface EnrichedBill {
   cesNegative: boolean;
+  balance: BalanceSummary;
   ces: CesOpinion | null;
   positions: BillPositions | null;
   id: string;
@@ -364,6 +373,7 @@ export interface BillLite {
   ces: CesOpinion | null;
   press: PressSummary;
   positions: PositionsSummary;
+  balance: BalanceSummary;
   analysis: {
     consensus: Pick<
       BillAnalysis['consensus'],
@@ -371,4 +381,25 @@ export interface BillLite {
     >;
     council: Record<ModelKey, Pick<AiVerdict, 'riskScore' | 'riskLevel' | 'verdictShort'>>;
   };
+}
+
+/** Un lucru bun sau o problemă din textul unui proiect, cu locul și citatul verificat (scripts/straja-balance.mjs). */
+export interface BalanceItem {
+  text: string;
+  article: string | null;
+  quote: string | null;
+  /** 3 = esențial, 2 = important, 1 = mărunt. */
+  weight: 1 | 2 | 3;
+}
+
+/** Ce e bine și ce strică tot într-un proiect: toate prevederile, ordonate după importanță. */
+export interface BillBalance {
+  slug: string;
+  model: string;
+  updatedAt: string;
+  summary: string | null;
+  good: BalanceItem[];
+  bad: BalanceItem[];
+  /** Schimbarea care ar face proiectul acceptabil și riscul estimat după ea; null dacă e problematic în ansamblu. */
+  fix: { text: string; removes: number[]; levelAfter: RiskLevel | null; scoreAfter: number | null } | null;
 }

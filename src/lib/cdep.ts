@@ -3,7 +3,8 @@
 // ține propunerea de amendament pentru comisie (aceleași patru câmpuri: articol, text propus, motivare, observații).
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import type { BillAnalysis, BillVersions, CdepSigned } from './types';
+import type { BalanceSummary, BillAnalysis, BillVersions, CdepSigned } from './types';
+import { getBalanceSummary } from './balance';
 import { getMpContacts } from './mp-contacts';
 import { slugify } from './format';
 import { stageOf, type StageKey } from './cdep-text';
@@ -32,6 +33,8 @@ export interface CdepSheet {
   timeline: { camera: string | null; data: string; actiune: string }[];
   documente?: { url: string; eticheta: string }[];
   comisii?: { raport: CdepCommittee[]; aviz: CdepCommittee[]; termenAmendamente: string | null; termenRaport: string | null } | null;
+  /** Consultarea publică de la Cameră (când e prima sesizată): termenul, câte propuneri s-au trimis și formularul de pe cdep.ro. */
+  consultare?: { termen: string; propuneri: number; formular: string | null } | null;
 }
 
 export interface CdepRow {
@@ -64,9 +67,14 @@ export interface CdepListItem extends CdepRow {
   raport: string[];
   termenAmendamente: string | null;
   termenRaport: string | null;
-  risk: { level: BillAnalysis['consensus']['riskLevel']; score: number; plainTitle: string } | null;
+  /** oneLiner: rezumatul modelelor, tăiat cât încape pe un card. */
+  risk: { level: BillAnalysis['consensus']['riskLevel']; score: number; plainTitle: string; oneLiner: string } | null;
   /** Încotro a mers textul la ultima schimbare de fond și după ce cameră (din comparația formelor). */
   textChange: { direction: 'mai_riscant' | 'mai_putin_riscant'; after: 'senat' | 'camera' } | null;
+  /** Ce e bine și ce strică în textul proiectului, pe scurt (scripts/straja-balance.mjs). */
+  balance: BalanceSummary;
+  /** Consultarea publică de la Cameră, dacă proiectul a avut una: termenul și câte propuneri s-au trimis. */
+  consultare: { termen: string; propuneri: number } | null;
 }
 
 /** „Guvernul” sau „12 parlamentari”: fișa Camerei scrie „Initiator: Guvern” fără nume, altfel listează parlamentarii. */
@@ -119,6 +127,9 @@ export async function getCdepSlugs(): Promise<string[]> {
   return index.proiecte.filter((p) => !p.senat && read.has(p.slug)).map((p) => p.slug);
 }
 
+// Pe card intră trei rânduri; restul rezumatului e pe pagina proiectului.
+const clip = (s: string, max: number) => (s.length <= max ? s : `${s.slice(0, max).replace(/[\s,;:]+\S*$/, '')}…`);
+
 export async function getCdepList(): Promise<CdepListItem[]> {
   const index = await getCdepIndex();
   if (!index) return [];
@@ -138,9 +149,11 @@ export async function getCdepList(): Promise<CdepListItem[]> {
         raport: bill?.fisa.comisii?.raport.map((c) => c.nume) ?? [],
         termenAmendamente: bill?.fisa.comisii?.termenAmendamente ?? null,
         termenRaport: bill?.fisa.comisii?.termenRaport ?? null,
-        risk: c ? { level: c.riskLevel, score: c.riskScore, plainTitle: c.plainTitle } : null,
+        risk: c ? { level: c.riskLevel, score: c.riskScore, plainTitle: c.plainTitle, oneLiner: clip(c.citizenOneLiner || c.summaryTlDr, 260) } : null,
         textChange:
           last && last.direction !== 'la_fel' && last.to !== 'initiator' ? { direction: last.direction, after: last.to } : null,
+        balance: row.senat ? null : await getBalanceSummary(row.slug),
+        consultare: bill?.fisa.consultare ? { termen: bill.fisa.consultare.termen, propuneri: bill.fisa.consultare.propuneri } : null,
       };
     }),
   );

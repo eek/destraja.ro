@@ -7,7 +7,8 @@ export const STAGES: { key: StageKey; label: string; match: RegExp; atChamber: b
   { key: 'comisii', label: 'La comisii', match: /^la comisii/i, atChamber: true },
   { key: 'raport', label: 'Cu raport', match: /^raport/i, atChamber: true },
   { key: 'plen', label: 'Pe ordinea de zi', match: /^pe ordinea de zi/i, atChamber: true },
-  { key: 'altele', label: 'Reexaminare', match: /^(în reexaminare|aviz|sesizare)/i, atChamber: true },
+  // „aviz/ punct de vedere”: proiectul nou așteaptă avizele (CES, Consiliul Legislativ, Guvernul), adesea în consultare publică.
+  { key: 'altele', label: 'Avize sau reexaminare', match: /^(în reexaminare|aviz|sesizare)/i, atChamber: true },
   { key: 'senat', label: 'La Senat', match: /^la senat/i, atChamber: false },
   { key: 'promulgare', label: 'La promulgare', match: /^la promulgare/i, atChamber: false },
   { key: 'lege', label: 'Lege', match: /^lege\s/i, atChamber: false },

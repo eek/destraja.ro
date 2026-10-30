@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo } from 'react';
 import Link from 'next/link';
-import { ArrowRight, ArrowUpRight, MessageCircle, PenLine } from 'lucide-react';
+import { ArrowRight, ArrowUpRight, Megaphone, MessageCircle, PenLine } from 'lucide-react';
 import type { BillLite, RiskLevel } from '@/lib/types';
 import { RISK, RISK_LEVELS } from '@/lib/risk';
 import { addDays, countWord, fmt } from '@/lib/format';
@@ -13,6 +13,7 @@ import { trackAttrs } from '@/lib/analytics';
 import { ALERTS_LIVE } from '@/lib/site';
 import { TowerIcon } from '@/components/Logo';
 import { Container, btnSecondary, linkCls } from '@/components/ui';
+import { WorstLine } from '@/components/bills/BalanceBlock';
 import VillageHero from './sat/VillageHero';
 
 /** Un proiect aflat acum la Cameră, cu ce arată pagina principală despre el. */
@@ -27,6 +28,10 @@ export type HomeCamItem = {
   deadline: string | null;
   change: 'mai_riscant' | 'mai_putin_riscant' | null;
   after: 'senat' | 'camera' | null;
+  /** Problema principală din text (scripts/straja-balance.mjs), dacă e analizată. */
+  bad: string | null;
+  /** Termenul consultării publice de la Cameră (YYYY-MM-DD), când Camera e prima sesizată. */
+  consult: string | null;
 };
 
 export type HomePress = { url: string; title: string; outlet: string; date: string | null; billId: string; slug: string; plainTitle: string };
@@ -36,6 +41,8 @@ type Cam = {
   registered: number;
   counts: Record<RiskLevel, number>;
   amend: HomeCamItem[];
+  /** Proiectele în consultare publică la Cameră, după termen. */
+  consult: HomeCamItem[];
   riskiest: HomeCamItem[];
   worse: HomeCamItem[];
   worseCount: number;
@@ -43,7 +50,7 @@ type Cam = {
 };
 
 /** Un rând din listele paginii: un proiect de la Senat sau de la Cameră. */
-type Item = { ch: 'sen' | 'cam'; href: string; numar: string; title: string; level: RiskLevel; score: number; note: string; cam?: HomeCamItem };
+type Item = { ch: 'sen' | 'cam'; href: string; numar: string; title: string; level: RiskLevel; score: number; note: string; bad?: string | null; cam?: HomeCamItem };
 
 // Ancorele fostei pagini principale (linkuri din e-mailuri și de pe Facebook) duc acum pe /senat.
 const OLD_ANCHORS = ['#legi', '#cine-propune', '#aviz-ces'];
@@ -143,7 +150,8 @@ function ItemRow({ p }: { p: Item }) {
 }
 
 /** Ce se închide într-o zi, la o cameră. */
-type Block = { ch: 'sen' | 'cam'; items: Item[] };
+type Block = { ch: 'sen' | 'cam' | 'camc'; items: Item[] };
+const BLOCK_ORDER = { cam: 0, camc: 1, sen: 2 } as const;
 /** O zi din cronologie, cu termenele ambelor camere; „later” adună consultările care se închid mai târziu. */
 type Ev = { key: string; date: string; blocks: Block[]; later?: string };
 
@@ -153,13 +161,19 @@ function EventBlock({ b, left, later, date }: { b: Block; left: number; later: b
   return (
     <div className="[&+&]:mt-7">
       <p className="inline-flex items-center gap-1.5 rounded-md border border-line-strong bg-surface px-2.5 py-0.5 text-[13.5px] font-bold text-ink">
-        {b.ch === 'cam' ? <PenLine className="h-[15px] w-[15px]" aria-hidden /> : <MessageCircle className="h-[15px] w-[15px]" aria-hidden />}
-        {b.ch === 'cam' ? 'Cameră · amendamente' : 'Senat · consultare publică'}
+        {b.ch === 'cam' ? (
+          <PenLine className="h-[15px] w-[15px]" aria-hidden />
+        ) : b.ch === 'camc' ? (
+          <Megaphone className="h-[15px] w-[15px]" aria-hidden />
+        ) : (
+          <MessageCircle className="h-[15px] w-[15px]" aria-hidden />
+        )}
+        {b.ch === 'cam' ? 'Cameră · amendamente' : b.ch === 'camc' ? 'Cameră · consultare publică' : 'Senat · consultare publică'}
       </p>
       <h3 className="mt-2 text-[16.5px] leading-snug text-body">
         {later ? (
           `${countWord(b.items.length, 'consultare a Senatului rămâne deschisă', 'consultări ale Senatului rămân deschise')} mai mult. Cele mai riscante:`
-        ) : b.ch === 'sen' ? (
+        ) : b.ch !== 'cam' ? (
           'Se închide consultarea publică pentru:'
         ) : (
           <>
@@ -267,12 +281,13 @@ function WatchItem({ p }: { p: Item }) {
           </Link>
         </h4>
         <Where p={p} />
+        <WorstLine text={p.bad} className="mt-2" />
       </div>
     </li>
   );
 }
 
-const camItem = (c: HomeCamItem, note: string): Item => ({ ch: 'cam', href: `/camera/${c.slug}`, numar: c.numar, title: c.title, level: c.level, score: c.score, note, cam: c });
+const camItem = (c: HomeCamItem, note: string): Item => ({ ch: 'cam', href: `/camera/${c.slug}`, numar: c.numar, title: c.title, level: c.level, score: c.score, note, bad: c.bad, cam: c });
 
 export default function HomeClient({
   bills: initial,
@@ -314,6 +329,7 @@ export default function HomeClient({
     level: b.analysis.consensus.riskLevel,
     score: b.analysis.consensus.riskScore,
     note,
+    bad: b.balance?.worst ?? null,
   });
   const senCounts = useMemo(() => {
     const c: Record<RiskLevel, number> = { red: 0, yellow: 0, green: 0 };
@@ -321,13 +337,14 @@ export default function HomeClient({
     return c;
   }, [senOpen]);
   const amend = cam.amend.filter((p) => dayDiff(p.deadline!, today) >= 0);
-  const lastCam = amend.at(-1)?.deadline ?? null;
+  const consult = cam.consult.filter((p) => dayDiff(p.consult!, today) >= 0);
+  const lastCam = [amend.at(-1)?.deadline, consult.at(-1)?.consult].filter(Boolean).sort().at(-1) ?? null;
 
   // Unde poți interveni: termenele Camerei pe zile, consultările Senatului care se închid până atunci (sau în 7 zile), apoi restul.
   const events = useMemo(() => {
     const limit = [lastCam ?? today, addDays(today, 7)].sort().at(-1)!;
     const evs: Ev[] = [];
-    const group = (ch: 'sen' | 'cam', date: string, item: Item) => {
+    const group = (ch: Block['ch'], date: string, item: Item) => {
       let e = evs.find((x) => x.date === date);
       if (!e) evs.push((e = { key: date, date, blocks: [] }));
       const b = e.blocks.find((x) => x.ch === ch);
@@ -335,13 +352,14 @@ export default function HomeClient({
       else e.blocks.push({ ch, items: [item] });
     };
     for (const p of amend) group('cam', p.deadline!, camItem(p, ''));
+    for (const p of consult) group('camc', p.consult!, { ...camItem(p, ''), href: `/camera/${p.slug}#consultare` });
     const later: { b: BillLite; date: string }[] = [];
     for (const s of senOpen) {
       if (s.date <= limit) group('sen', s.date, senItem(s.b, ''));
       else later.push(s);
     }
     for (const e of evs) {
-      e.blocks.sort((a, b) => (a.ch === 'cam' ? -1 : 1) - (b.ch === 'cam' ? -1 : 1));
+      e.blocks.sort((a, b) => BLOCK_ORDER[a.ch] - BLOCK_ORDER[b.ch]);
       for (const b of e.blocks) b.items.sort(byScore);
     }
     evs.sort((a, b) => a.date.localeCompare(b.date));
@@ -357,7 +375,7 @@ export default function HomeClient({
     return evs;
     // senItem e o funcție simplă, fără stare.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [amend.length, lastCam, senOpen, today]);
+  }, [amend.length, consult.length, lastCam, senOpen, today]);
 
   // Banda de azi: ce se închide azi sau mâine.
   const todayCam = amend.filter((p) => p.deadline === today).length;
@@ -478,6 +496,12 @@ export default function HomeClient({
                 </p>
               </div>
               <div>
+                <h4 className="text-[15.5px] font-bold text-ink">La Cameră: consultarea publică</h4>
+                <p className="mt-1 text-[15px] leading-relaxed text-body">
+                  Când Camera e prima care dezbate un proiect, oricine poate trimite o propunere până la termen, printr-un formular de pe cdep.ro. Butonul e pe pagina proiectului.
+                </p>
+              </div>
+              <div>
                 <h4 className="text-[15.5px] font-bold text-ink">La Cameră: amendamentele</h4>
                 <p className="mt-1 text-[15px] leading-relaxed text-body">
                   Amendamentele le depun deputații, în comisia care face raportul. Pe pagina proiectului vezi comisia și le poți scrie deputaților din ea.
@@ -523,6 +547,7 @@ export default function HomeClient({
                     </Link>
                   </h4>
                   <Where p={lead} />
+                  <WorstLine text={lead.bad} className="mt-3 max-w-[60ch] text-[15px]" />
                 </article>
                 <ol className="mt-6 border-t border-line">
                   {both.slice(1, 5).map((p) => (
@@ -664,7 +689,7 @@ export default function HomeClient({
           </div>
           {ALERTS_LIVE && (
             <div className="rounded-[20px] bg-band p-6 text-on-band sm:p-9">
-              <h2 className="font-display text-[clamp(1.7rem,3vw,2.3rem)] leading-[1.12] font-medium tracking-[-0.015em]">Nu vrei să verifici în fiecare zi? Îți scriem noi.</h2>
+              <h2 className="font-display text-[clamp(1.7rem,3vw,2.3rem)] leading-[1.12] font-medium tracking-[-0.015em] text-on-band">Nu vrei să verifici în fiecare zi? Îți scriem noi.</h2>
               <p className="mt-3 text-base leading-relaxed text-on-band-muted">
                 Un e-mail dimineața, doar când apare ceva nou: un proiect intră în consultare, se apropie un termen sau scrie presa despre el. Alegi tu nivelul:
               </p>

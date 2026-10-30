@@ -3,17 +3,20 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import { ArrowLeft, ChevronDown, ExternalLink, FileDown, FileText } from 'lucide-react';
 import { getAllBills, getBillBySlug, getBillExtractedTexts, toLite } from '@/lib/bills';
-import { agreement, mpSlugs, oneLiner } from '@/lib/stats';
+import { mpSlugs, oneLiner } from '@/lib/stats';
 import { RISK } from '@/lib/risk';
 import { MODELS } from '@/lib/site';
-import { fmt, formatDateRo, formatDeadline, todayISO } from '@/lib/format';
+import { formatDateRo, formatDeadline, todayISO } from '@/lib/format';
 import { trackAttrs } from '@/lib/analytics';
 import ActionKitClient from '@/components/ActionKitClient';
+import BillBalance from '@/components/bills/BillBalance';
+import ModelsVerdict from '@/components/bills/ModelsVerdict';
+import { getBalance } from '@/lib/balance';
 import LiveDeadline from '@/components/bills/LiveDeadline';
 import BillRoute from '@/components/bills/BillRoute';
 import BillNews, { PressLink } from '@/components/bills/BillNews';
 import BillPositions, { PositionsLink } from '@/components/bills/BillPositions';
-import { Container, ModelMeters, PartyTag, RiskChip, panel } from '@/components/ui';
+import { Container, PartyTag, RiskChip, panel } from '@/components/ui';
 import { Flags } from '@/components/bills/Flags';
 import CiteBill from '@/components/bills/CiteBill';
 import DocumentText from '@/components/bills/DocumentText';
@@ -42,8 +45,6 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 }
 
-const AGREE_TONE = { strong: 'text-muted', partial: 'text-muted', split: 'text-ink' } as const;
-
 const summaryCls = 'flex min-h-14 cursor-pointer items-center justify-between gap-4 px-5 py-4 text-base font-semibold text-ink transition-colors hover:bg-sunken/60';
 
 export default async function BillDetailPage({ params }: PageProps) {
@@ -54,11 +55,11 @@ export default async function BillDetailPage({ params }: PageProps) {
   const all = await getAllBills();
   const slugs = mpSlugs(all.map(toLite));
   const extractedTexts = await getBillExtractedTexts(bill);
+  const balance = await getBalance(slug);
   const news = bill.news;
   const builtOn = todayISO();
   const lite = toLite(bill);
   const c = bill.analysis.consensus;
-  const ag = agreement(lite);
 
   const byParty: Record<string, typeof bill.initiators> = {};
   for (const init of bill.initiators) {
@@ -136,6 +137,25 @@ export default async function BillDetailPage({ params }: PageProps) {
           </div>
         </header>
 
+        <ModelsVerdict score={c.riskScore} level={c.riskLevel} summary={c.summaryTlDr} council={bill.analysis.council}>
+          {bill.analysis.corrections?.map((fix) => (
+            <p key={fix.reportId} className="mt-4 rounded-lg bg-brand-soft px-3 py-2 text-sm leading-6 text-ink">
+              <strong className="font-semibold">Corectat la {formatDateRo(fix.date)}:</strong>{' '}
+              {fix.note ?? (
+                <>
+                  {fix.target === 'consensus' ? 'concluzia comună a fost refăcută' : `analiza ${MODELS.find((m) => m.key === fix.target)?.name} a fost refăcută`} după
+                  raportul unui cititor, confirmat în textul oficial.
+                </>
+              )}
+            </p>
+          ))}
+          <a href="#audit-ai" className="mt-4 inline-flex min-h-11 items-center gap-1.5 text-sm font-semibold text-link underline underline-offset-4">
+            Ce a găsit fiecare model în text
+            <ChevronDown className="h-4 w-4" aria-hidden />
+          </a>
+        </ModelsVerdict>
+        {balance && <BillBalance data={balance} level={c.riskLevel} />}
+
         <BillRoute bill={bill} />
 
         <section aria-labelledby="realitate" className="mt-6 grid gap-4 md:grid-cols-2">
@@ -152,39 +172,7 @@ export default async function BillDetailPage({ params }: PageProps) {
           </div>
         </section>
 
-        <section aria-labelledby="scoruri" className={`${panel} mt-6 p-6 sm:p-7`}>
-          <div className="flex flex-wrap items-end justify-between gap-4">
-            <div>
-              <h2 id="scoruri" className="text-base font-semibold text-ink">
-                De ce acest nivel de risc?
-              </h2>
-              <p className={`mt-1 text-sm font-semibold ${AGREE_TONE[ag.tone]}`}>{ag.label}</p>
-            </div>
-            <p className={`text-4xl font-semibold tabular-nums ${RISK[c.riskLevel].text}`}>
-              {fmt(c.riskScore)}
-              <span className="text-lg font-normal text-muted">/10</span>
-            </p>
-          </div>
-          <p className="mt-4 text-[15px] leading-7 text-body">{c.summaryTlDr}</p>
-          <div className="mt-5">
-            <ModelMeters bill={lite} />
-          </div>
-          {bill.analysis.corrections?.map((fix) => (
-            <p key={fix.reportId} className="mt-4 rounded-lg bg-brand-soft px-3 py-2 text-sm leading-6 text-ink">
-              <strong className="font-semibold">Corectat la {formatDateRo(fix.date)}:</strong>{' '}
-              {fix.note ?? (
-                <>
-                  {fix.target === 'consensus' ? 'concluzia comună a fost refăcută' : `analiza ${MODELS.find((m) => m.key === fix.target)?.name} a fost refăcută`} după
-                  raportul unui cititor, confirmat în textul oficial.
-                </>
-              )}
-            </p>
-          ))}
-          <a href="#audit-ai" className="mt-4 inline-flex min-h-11 items-center gap-1.5 text-sm font-semibold text-link underline underline-offset-4">
-            Ce a găsit fiecare model în text
-            <ChevronDown className="h-4 w-4" aria-hidden />
-          </a>
-        </section>
+
 
         <div className="mt-6 flex flex-wrap items-center justify-between gap-3 text-sm">
           <div className="flex flex-wrap items-center gap-2">

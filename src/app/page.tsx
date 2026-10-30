@@ -28,6 +28,8 @@ export default async function HomePage() {
             deadline: p.termenAmendamente,
             change: p.textChange?.direction ?? null,
             after: p.textChange?.after ?? null,
+            bad: p.balance?.worst ?? null,
+            consult: p.consultare?.termen ?? null,
           },
         ]
       : [],
@@ -63,6 +65,7 @@ export default async function HomePage() {
         counts,
         // Termenele trecute nu mai pot reveni; restul se filtrează în browser, după ziua de azi.
         amend: rated.filter((p) => p.deadline && p.deadline >= builtOn).sort((a, b) => a.deadline!.localeCompare(b.deadline!) || byScore(a, b)),
+        consult: rated.filter((p) => p.consult && p.consult >= builtOn).sort((a, b) => a.consult!.localeCompare(b.consult!) || byScore(a, b)),
         riskiest: rated.filter((p) => p.level === 'red').sort(byScore).slice(0, 6),
         worse: worse.slice(0, 4),
         worseCount: worse.length,

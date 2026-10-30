@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import type { BillAnalysis, BillLite, BillNews, BillPdf, BillPositions, CameraLink, CesOpinion, EnrichedBill, InstitutionalEmail, PressSummary } from './types';
 import { daysUntil } from './format';
+import { getBalanceSummary } from './balance';
 import { recentPress } from './stats';
 import { positionsSummary } from './positions';
 import { pressArticle, stanceCounts, type RawPressItem } from './press';
@@ -82,6 +83,7 @@ async function load() {
       news: await getBillNews(bill.slug),
       positions: await getBillPositions(bill.slug),
       camera: await getBillCamera(bill.slug),
+      balance: await getBalanceSummary(bill.slug),
     });
   }
 
@@ -136,6 +138,7 @@ export function toLite(b: EnrichedBill): BillLite {
     ces: b.ces,
     press: pressSummary(b.news),
     positions: positionsSummary(b.positions?.positions ?? []),
+    balance: b.balance,
     analysis: {
       consensus: {
         riskScore: c.riskScore,

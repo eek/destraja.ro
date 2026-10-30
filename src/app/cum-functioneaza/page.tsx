@@ -270,7 +270,7 @@ export default async function TechPage() {
       <section id="cod" aria-labelledby="cod-title" className="-mb-24 scroll-mt-20 bg-band text-on-band">
         <Container className="grid gap-10 py-16 sm:py-20 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,0.85fr)] lg:items-end lg:gap-16">
           <div>
-            <h2 id="cod-title" className="font-display text-[2rem] font-normal leading-[1.12] sm:text-5xl">
+            <h2 id="cod-title" className="font-display text-[2rem] font-normal leading-[1.12] text-on-band sm:text-5xl">
               <span className="block text-on-band-muted">Pot verifica singur?</span>
               <span className="block text-on-band">Da. Totul e public.</span>
             </h2>

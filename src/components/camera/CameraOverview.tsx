@@ -7,6 +7,7 @@ import { RISK } from '@/lib/risk';
 import { STAGES, stageLabel, type StageKey } from '@/lib/cdep-text';
 import { countWord, fmt } from '@/lib/format';
 import { trackAttrs } from '@/lib/analytics';
+import { Glyph } from '@/components/ui';
 
 // Bucățile de deasupra listei de la /camera: distribuția riscului și etapele. Un pătrățel = un proiect.
 // Starea filtrelor stă în CameraExplorer; aici doar o arătăm și o schimbăm prin callback-uri.
@@ -42,16 +43,7 @@ export function shareWords(part: number, total: number): string {
   return tens ? `${tens} din zece` : `${Math.round(x * 100)} din 100`;
 }
 
-const SHAPE: Record<RiskLevel, string> = {
-  red: '[clip-path:polygon(50%_2%,100%_96%,0_96%)]',
-  yellow: '[clip-path:polygon(50%_0,100%_50%,50%_100%,0_50%)]',
-  green: 'scale-[0.86] rounded-full',
-};
-
-/** Forma spune nivelul și fără culoare: ▲ ridicat, ◆ moderat, ● redus. */
-export function Glyph({ level, className = 'h-3 w-3' }: { level: RiskLevel; className?: string }) {
-  return <span aria-hidden className={`inline-block shrink-0 ${RISK[level].fill} ${SHAPE[level]} ${className}`} />;
-}
+export { Glyph };
 
 export const btnShadow = 'shadow-[0_1px_0_rgb(var(--shadow-color)/0.1),0_1px_3px_rgb(var(--shadow-color)/0.08)]';
 export const pressable = `${btnShadow} transition hover:-translate-y-px hover:border-muted active:translate-y-0 active:shadow-none`;

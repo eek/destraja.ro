@@ -1,17 +1,20 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import type { Metadata } from 'next';
-import { ArrowLeft, ExternalLink, FileText } from 'lucide-react';
-import { cdepParty, getBillVersions, getCdepAnalysis, getCdepBill, getCdepSlugs, getCommittees, getVersionsStatus, initiatorLabel } from '@/lib/cdep';
+import { ArrowLeft, ExternalLink, FileText, Megaphone } from 'lucide-react';
+import { type CdepSheet, cdepParty, getBillVersions, getCdepAnalysis, getCdepBill, getCdepSlugs, getCommittees, getVersionsStatus, initiatorLabel } from '@/lib/cdep';
 import { dayDiff, shortCommittee, shortDate, stageLabel, stageOf } from '@/lib/cdep-text';
 import { RISK } from '@/lib/risk';
-import { MODELS } from '@/lib/site';
-import { fmt, formatDateRo, todayISO } from '@/lib/format';
+import { formatDateRo, todayISO } from '@/lib/format';
 import { trackAttrs } from '@/lib/analytics';
-import { Container, PartyTag, RiskChip, linkCls, panel } from '@/components/ui';
+import { Container, PartyTag, RiskChip, btnPrimary, linkCls, panel } from '@/components/ui';
 import { RouteSteps, type RouteStep } from '@/components/bills/BillRoute';
 import WriteCommittee from '@/components/camera/WriteCommittee';
 import BillVersions from '@/components/camera/BillVersions';
+import BillBalance from '@/components/bills/BillBalance';
+import ModelsVerdict from '@/components/bills/ModelsVerdict';
+import LiveDeadline from '@/components/bills/LiveDeadline';
+import { getBalance } from '@/lib/balance';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -39,12 +42,13 @@ const LAW_TYPE: Record<string, string> = { ordinar: 'Ordinară', organic: 'Organ
 
 export default async function CameraBillPage({ params }: PageProps) {
   const { slug } = await params;
-  const [bill, analysis, committees, versions, versionsStatus] = await Promise.all([
+  const [bill, analysis, committees, versions, versionsStatus, balance] = await Promise.all([
     getCdepBill(slug),
     getCdepAnalysis(slug),
     getCommittees(),
     getBillVersions(slug),
     getVersionsStatus(),
+    getBalance(slug),
   ]);
   const comparing = !versions && versionsStatus?.pending.includes(slug);
   if (!bill) notFound();
@@ -185,6 +189,13 @@ export default async function CameraBillPage({ params }: PageProps) {
           </div>
         </header>
 
+        {f.consultare && (
+          <Consultation c={f.consultare} builtOn={builtOn} billId={bill.numar} />
+        )}
+
+        {c && analysis && <ModelsVerdict score={c.riskScore} level={c.riskLevel} council={analysis.council} />}
+        {c && balance && <BillBalance data={balance} level={c.riskLevel} />}
+
         <section aria-labelledby="traseu" className={`${panel} mt-6 p-6 sm:p-8`}>
           <div className="flex flex-wrap items-baseline justify-between gap-2">
             <h2 id="traseu" className="text-lg font-semibold text-ink">
@@ -279,29 +290,6 @@ export default async function CameraBillPage({ params }: PageProps) {
                 <p className="mt-2 text-[15px] leading-7 text-ink">{c.realityCheck}</p>
               </div>
             </section>
-            <section aria-labelledby="modele" className={`${panel} mt-6 p-6 sm:p-7`}>
-              <h2 id="modele" className="text-base font-semibold text-ink">
-                Ce spune fiecare model
-              </h2>
-              <div className="mt-4 grid gap-3 md:grid-cols-3">
-                {MODELS.map((m) => {
-                  const v = analysis!.council[m.key];
-                  return (
-                    <div key={m.key} className="rounded-xl border border-line p-4">
-                      <div className="flex items-center justify-between gap-2">
-                        <p className="text-sm font-semibold text-ink">{m.name}</p>
-                        {v?.status === 'ok' ? (
-                          <span className={`text-sm font-semibold tabular-nums ${RISK[v.riskLevel].text}`}>{fmt(v.riskScore)}/10</span>
-                        ) : (
-                          <span className="text-xs text-muted">fără răspuns</span>
-                        )}
-                      </div>
-                      {v?.status === 'ok' && <p className="mt-2 text-sm leading-6 text-body">{v.verdictShort}</p>}
-                    </div>
-                  );
-                })}
-              </div>
-            </section>
           </>
         )}
 
@@ -393,5 +381,54 @@ export default async function CameraBillPage({ params }: PageProps) {
         </p>
       </article>
     </Container>
+  );
+}
+
+/**
+ * Consultarea publică de la Cameră: când Camera e prima sesizată, oricine poate trimite o propunere până la termen, printr-un
+ * formular de pe cdep.ro. Deschisă, stă sus, cu butonul; încheiată, rămâne doar o notă cu câte propuneri s-au trimis.
+ */
+function Consultation({ c, builtOn, billId }: { c: NonNullable<CdepSheet['consultare']>; builtOn: string; billId: string }) {
+  const days = dayDiff(c.termen, builtOn);
+  const sent = c.propuneri === 0 ? 'Nu s-a trimis încă nicio propunere' : `S-au trimis până acum ${c.propuneri === 1 ? 'o propunere' : `${c.propuneri} propuneri`}`;
+  if (days < 0)
+    return (
+      <p className="mt-6 flex items-start gap-2 rounded-2xl border border-line bg-surface px-5 py-4 text-[15px] leading-7 text-body">
+        <Megaphone className="mt-1 h-4 w-4 shrink-0 text-muted" aria-hidden />
+        Consultarea publică de la Cameră s-a încheiat pe {formatDateRo(c.termen)}, cu {c.propuneri === 1 ? 'o propunere trimisă' : `${c.propuneri} propuneri trimise`}.
+      </p>
+    );
+  return (
+    <section id="consultare" aria-labelledby="consultare-titlu" className="mt-6 scroll-mt-20 rounded-2xl bg-band p-6 text-on-band sm:p-8">
+      <p className="inline-flex items-center gap-2 text-sm font-semibold text-on-band-muted">
+        <Megaphone className="h-4 w-4" aria-hidden />
+        Consultare publică la Camera Deputaților
+      </p>
+      <h2 id="consultare-titlu" className="font-display mt-2 text-2xl font-semibold text-on-band sm:text-[1.75rem]">
+        Poți trimite o propunere până pe {formatDateRo(c.termen)}
+      </h2>
+      <p className="mt-3 max-w-[64ch] text-[15.5px] leading-7 text-on-band-muted">
+        Camera e prima care dezbate proiectul, așa că oricine poate trimite o propunere sau o sugestie la text. {sent}.
+      </p>
+      <div className="mt-5 flex flex-wrap items-center gap-x-6 gap-y-3">
+        {c.formular && (
+          <a
+            href={c.formular}
+            target="_blank"
+            rel="noopener noreferrer"
+            {...trackAttrs('official_source_open', { bill_id: billId, source: 'cdep_consultation_form' })}
+            className={`${btnPrimary} min-h-12 bg-on-band px-5 text-[15px] text-band hover:bg-on-band`}
+          >
+            Trimite o propunere pe cdep.ro
+            <ExternalLink className="h-4 w-4" aria-hidden />
+            <span className="sr-only">(se deschide într-o filă nouă)</span>
+          </a>
+        )}
+        <span className="text-sm text-on-band [&_*]:text-on-band">
+          <LiveDeadline deadline={c.termen.split('-').reverse().join('-')} days={days} withDate={false} />
+        </span>
+      </div>
+      <p className="mt-4 text-xs leading-5 text-on-band-muted">Formularul e pe site-ul Camerei Deputaților; ce scrii acolo ajunge la Cameră, nu la noi.</p>
+    </section>
   );
 }

@@ -1,13 +1,13 @@
 'use client';
 
 import { useMemo, useState } from 'react';
-import { ChevronDown, Clock, Newspaper, Search, Users, X } from 'lucide-react';
+import { ChevronDown, Clock, Newspaper, Search, Users, Wrench, X } from 'lucide-react';
 import type { BillLite, RiskLevel } from '@/lib/types';
-import { RISK, RISK_LEVELS } from '@/lib/risk';
 import { countWord, initialRows, normalize } from '@/lib/format';
 import { byDeadline, byNewest, byRiskDesc, oneLiner, type RiskCounts } from '@/lib/stats';
-import { EmptyState, RiskDot, btnPrimary, btnSecondary, inputCls } from '@/components/ui';
+import { EmptyState, btnPrimary, btnSecondary, inputCls } from '@/components/ui';
 import BillCard from './BillCard';
+import RiskFilter, { chipCls } from './RiskFilter';
 import { track, trackAttrs } from '@/lib/analytics';
 
 type SortKey = 'risc' | 'termen' | 'noi';
@@ -38,6 +38,8 @@ export default function BillExplorer({
   const [group, setGroup] = useState('all');
   const [soonOnly, setSoonOnly] = useState(initialSoon);
   const [pressOnly, setPressOnly] = useState(false);
+  // Doar proiectele la care o schimbare punctuală ar face legea acceptabilă (scripts/straja-balance.mjs).
+  const [fixOnly, setFixOnly] = useState(false);
   const [sort, setSort] = useState<SortKey>('risc');
   const [visible, setVisible] = useState(PAGE);
 
@@ -67,21 +69,24 @@ export default function BillExplorer({
       if (group !== 'all' && !b.analysis.consensus.affectedGroups.includes(group)) return false;
       if (soonOnly && !(b.daysRemaining >= 0 && b.daysRemaining <= 7)) return false;
       if (pressOnly && b.press.recent === 0) return false;
+      if (fixOnly && !b.balance?.fix) return false;
       if (parties.length && !parties.every((p) => b.parties.includes(p))) return false;
       const text = haystack.get(b.id) ?? '';
       return terms.every((t) => text.includes(t));
     });
     return list.sort(sort === 'termen' ? byDeadline : sort === 'noi' ? byNewest : byRiskDesc);
-  }, [bills, haystack, query, risk, group, soonOnly, pressOnly, parties, sort]);
+  }, [bills, haystack, query, risk, group, soonOnly, pressOnly, fixOnly, parties, sort]);
+  const fixable = useMemo(() => bills.filter((b) => b.balance?.fix).length, [bills]);
 
   const shown = initialRows(filtered.length, visible);
-  const hasFilters = query.trim() !== '' || risk !== 'all' || group !== 'all' || soonOnly || pressOnly || parties.length > 0;
+  const hasFilters = query.trim() !== '' || risk !== 'all' || group !== 'all' || soonOnly || pressOnly || fixOnly || parties.length > 0;
   const reset = () => {
     setQuery('');
     setRisk('all');
     setGroup('all');
     setSoonOnly(false);
     setPressOnly(false);
+    setFixOnly(false);
     onPartiesChange([]);
     setVisible(PAGE);
   };
@@ -90,10 +95,6 @@ export default function BillExplorer({
     setVisible(PAGE);
   };
 
-  const riskOptions: { key: RiskLevel | 'all'; label: string; count: number }[] = [
-    { key: 'all', label: 'Toate', count: bills.length },
-    ...RISK_LEVELS.map((l) => ({ key: l, label: RISK[l].label, count: counts[l] })),
-  ];
 
   return (
     <div>
@@ -131,40 +132,24 @@ export default function BillExplorer({
           </label>
         </div>
 
+        <RiskFilter
+          counts={counts}
+          value={risk === 'all' ? null : risk}
+          onChange={(l) => {
+            touch(setRisk)(l ?? 'all');
+            track('bill_filter', { filter: 'risk', value: l ?? 'all' });
+          }}
+        />
+
         <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
-          <div role="group" aria-label="Filtrează după nivelul de risc" className="flex flex-wrap gap-2">
-            {riskOptions.map((o) => {
-              const on = risk === o.key;
-              return (
-                <button
-                  key={o.key}
-                  type="button"
-                  aria-pressed={on}
-                  onClick={() => touch(setRisk)(o.key)}
-                  {...trackAttrs('bill_filter', { filter: 'risk', value: o.key })}
-                  className={`inline-flex min-h-10 items-center gap-2 rounded-lg border px-3 text-sm font-semibold transition-colors ${
-                    on
-                      ? o.key === 'all'
-                        ? 'border-brand bg-brand text-on-brand'
-                        : `border-current ${RISK[o.key].chip}`
-                      : 'border-line bg-surface text-body hover:border-line-strong hover:text-ink'
-                  }`}
-                >
-                  {o.key !== 'all' && <RiskDot level={o.key} />}
-                  {o.label}
-                  <span className="font-normal tabular-nums opacity-80">{o.count}</span>
-                </button>
-              );
-            })}
+          <div className="flex flex-wrap gap-2">
             {counts.closingSoon > 0 && (
               <button
                 type="button"
                 aria-pressed={soonOnly}
                 onClick={() => touch(setSoonOnly)(!soonOnly)}
                 {...trackAttrs('bill_filter', { filter: 'closing_soon', value: soonOnly ? 'off' : 'on' })}
-                className={`inline-flex min-h-10 items-center gap-2 rounded-lg border px-3 text-sm font-semibold transition-colors ${
-                  soonOnly ? 'border-brand bg-brand-soft text-ink' : 'border-line bg-surface text-body hover:border-line-strong hover:text-ink'
-                }`}
+                className={chipCls(soonOnly)}
               >
                 <Clock className="h-4 w-4" aria-hidden />
                 Se închid în 7 zile
@@ -178,13 +163,25 @@ export default function BillExplorer({
                 onClick={() => touch(setPressOnly)(!pressOnly)}
                 {...trackAttrs('bill_filter', { filter: 'press_recent', value: pressOnly ? 'off' : 'on' })}
                 title="Proiecte despre care a apărut cel puțin un articol în ultimele 7 zile"
-                className={`inline-flex min-h-10 items-center gap-2 rounded-lg border px-3 text-sm font-semibold transition-colors ${
-                  pressOnly ? 'border-brand bg-brand-soft text-ink' : 'border-line bg-surface text-body hover:border-line-strong hover:text-ink'
-                }`}
+                className={chipCls(pressOnly)}
               >
                 <Newspaper className="h-4 w-4" aria-hidden />
                 În presă în ultima săptămână
                 <span className="font-normal tabular-nums opacity-80">{counts.pressRecent}</span>
+              </button>
+            )}
+            {fixable > 0 && (
+              <button
+                type="button"
+                aria-pressed={fixOnly}
+                onClick={() => touch(setFixOnly)(!fixOnly)}
+                {...trackAttrs('bill_filter', { filter: 'fixable', value: fixOnly ? 'off' : 'on' })}
+                title="Proiecte la care o schimbare punctuală ar face legea acceptabilă"
+                className={chipCls(fixOnly)}
+              >
+                <Wrench className="h-4 w-4" aria-hidden />
+                Se pot repara
+                <span className="font-normal tabular-nums opacity-80">{fixable}</span>
               </button>
             )}
           </div>

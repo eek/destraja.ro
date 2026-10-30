@@ -189,9 +189,12 @@ a {
   text-decoration-thickness: 1px;
 }
 
-h1, h2, h3, h4 {
-  color: var(--ink);
-  text-wrap: balance;
+/* În stratul de bază, ca o clasă de culoare pusă pe un titlu (de exemplu pe o bandă închisă) să aibă câștig de cauză. */
+@layer base {
+  h1, h2, h3, h4 {
+    color: var(--ink);
+    text-wrap: balance;
+  }
 }
 
 p, li, blockquote, dd {

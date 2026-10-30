@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { ArrowRight, ChevronRight, Clock, ExternalLink, MessageSquare, Newspaper, Users, X } from 'lucide-react';
+import { ArrowRight, Clock, ExternalLink, MessageSquare, Newspaper, Users, X } from 'lucide-react';
 import type { BillLite } from '@/lib/types';
 import { MODELS } from '@/lib/site';
 import { RISK } from '@/lib/risk';
@@ -8,7 +8,9 @@ import { countWord, deadlineInfo, DEADLINE_TONE, fmt } from '@/lib/format';
 import { agreement, modelScore, oneLiner } from '@/lib/stats';
 import { trackAttrs } from '@/lib/analytics';
 import { PartyTag, RiskChip, RiskDot, btnPrimary, btnSecondary } from '@/components/ui';
+import { CardStrip, RiskChipFace, cardCls, cardLedeCls, cardTitleCls, riskChipCls } from './card-parts';
 import { Flags } from './Flags';
+import BalanceBlock from './BalanceBlock';
 
 const AGREE_TONE = { strong: 'text-muted', partial: 'text-muted', split: 'text-ink' } as const;
 
@@ -29,21 +31,34 @@ export default function BillCard({ bill, onParty }: { bill: BillLite; onParty?: 
   return (
     <article
       aria-labelledby={`t-${bill.slug}`}
-      className="group/card flex flex-col overflow-hidden rounded-2xl border border-line bg-surface shadow-[var(--shadow-card)] transition-[box-shadow,transform] duration-300 hover:-translate-y-0.5 hover:shadow-[var(--shadow-lift)]"
+      className={cardCls}
     >
-      <div className={`h-1 w-full ${RISK[c.riskLevel].fill} ${dl.open ? '' : 'opacity-40'}`} aria-hidden />
+      <CardStrip level={c.riskLevel} dim={!dl.open} />
       <div className="flex flex-1 flex-col p-5 sm:p-6">
         <div className="flex items-center justify-between gap-3">
-          <RiskChip level={c.riskLevel} score={c.riskScore} />
+          {/* Cipul deschide explicația scorului: o fereastră peste pagină, ca să nu lungească un singur card din grilă. */}
+          <button
+            type="button"
+            popoverTarget={`risc-${bill.slug}`}
+            aria-haspopup="dialog"
+            aria-label={`${RISK[c.riskLevel].label} ${fmt(c.riskScore)} din 10. De ce acest nivel de risc?`}
+            {...trackAttrs('risk_reason_open', { bill_id: bill.id })}
+            className={riskChipCls(c.riskLevel)}
+          >
+            <RiskChipFace level={c.riskLevel} score={c.riskScore} />
+          </button>
           <span className="text-xs font-medium tabular-nums text-muted">{bill.id}</span>
         </div>
 
-        <h3 id={`t-${bill.slug}`} className="font-display mt-4 text-[1.3rem] leading-[1.25] text-ink">
+        <h3 id={`t-${bill.slug}`} className={cardTitleCls}>
           <Link href={`/legi/${bill.slug}`} {...trackAttrs('bill_open', { bill_id: bill.id, source: 'card' })} className="decoration-line-strong decoration-1 underline-offset-4 hover:underline">
             {c.plainTitle}
           </Link>
         </h3>
-        <p className="mt-2.5 text-[15px] leading-relaxed text-body">{oneLiner(bill)}</p>
+        <p className={cardLedeCls} title={oneLiner(bill)}>
+          {oneLiner(bill)}
+        </p>
+        <BalanceBlock balance={bill.balance} level={c.riskLevel} score={c.riskScore} href={`/legi/${bill.slug}`} className="mt-4 border-t border-line pt-4" />
 
         {/* Etichetele și presa stau lipite de subsol, ca pe un rând de carduri să fie la aceeași înălțime. */}
         <div className="mt-auto space-y-2 pt-4">
@@ -127,20 +142,6 @@ export default function BillCard({ bill, onParty }: { bill: BillLite; onParty?: 
             <ArrowRight className="h-4 w-4 transition-transform group-hover/card:translate-x-0.5" aria-hidden />
           </Link>
 
-          {/* Explicația se deschide într-o fereastră peste pagină: desfășurată în card, lungea un singur card din grilă. */}
-          <button
-            type="button"
-            popoverTarget={`risc-${bill.slug}`}
-            aria-haspopup="dialog"
-            {...trackAttrs('risk_reason_open', { bill_id: bill.id })}
-            className="mt-2 flex min-h-11 w-full cursor-pointer items-center justify-between gap-2 rounded-lg text-left text-xs font-semibold text-muted hover:text-ink"
-          >
-            <span className="inline-flex flex-wrap items-center gap-x-1.5">
-              De ce acest nivel de risc?
-              <span className={`font-semibold ${AGREE_TONE[ag.tone]}`}>· {ag.label}</span>
-            </span>
-            <ChevronRight className="h-4 w-4 shrink-0" aria-hidden />
-          </button>
           <div
             id={`risc-${bill.slug}`}
             popover="auto"

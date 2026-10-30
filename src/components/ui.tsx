@@ -24,6 +24,17 @@ export function Container({ children, className = '' }: { children: ReactNode; c
   return <div className={`mx-auto w-full max-w-[1240px] px-4 sm:px-8 lg:px-10 ${className}`}>{children}</div>;
 }
 
+const GLYPH_SHAPE: Record<RiskLevel, string> = {
+  red: '[clip-path:polygon(50%_2%,100%_96%,0_96%)]',
+  yellow: '[clip-path:polygon(50%_0,100%_50%,50%_100%,0_50%)]',
+  green: 'scale-[0.86] rounded-full',
+};
+
+/** Forma spune nivelul și fără culoare: ▲ ridicat, ◆ moderat, ● redus. */
+export function Glyph({ level, className = 'h-3 w-3' }: { level: RiskLevel; className?: string }) {
+  return <span aria-hidden className={`inline-block shrink-0 ${RISK[level].fill} ${GLYPH_SHAPE[level]} ${className}`} />;
+}
+
 export function RiskDot({ level, className = 'h-2 w-2' }: { level: RiskLevel; className?: string }) {
   return <span aria-hidden className={`inline-block shrink-0 rounded-full ${RISK[level].fill} ${className}`} />;
 }
@@ -35,7 +46,7 @@ export function RiskChip({ level, score, size = 'sm' }: { level: RiskLevel; scor
         size === 'md' ? 'px-3 py-1.5 text-sm' : 'px-2.5 py-1 text-xs'
       }`}
     >
-      <RiskDot level={level} className="h-1.5 w-1.5" />
+      <Glyph level={level} className={size === 'md' ? 'h-2.5 w-2.5' : 'h-2 w-2'} />
       {RISK[level].label}
       {score !== undefined && <span className="tabular-nums opacity-85">{fmt(score)}</span>}
     </span>

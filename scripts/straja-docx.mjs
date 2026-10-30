@@ -99,7 +99,8 @@ async function generateDocxForBill(bill, analysis) {
       spacing: { before: 240, after: 120 },
       children: [
         new TextRun({
-          text: `I. Sinteză Executivă (Scor Risc AI — Gemini + Claude + ChatGPT: ${c.riskScore.toFixed(1)}/10)`,
+          // Documentul e al cetățeanului care îl semnează: modelele AI apar doar în nota de la final.
+          text: 'I. Sinteză Executivă',
           bold: true,
           size: 24,
           font: 'Calibri',
@@ -137,9 +138,10 @@ async function generateDocxForBill(bill, analysis) {
         {
           heading: 'II. Analiza Tehnică, Constituțională și de Drept European',
           paragraphs: [
-            `Evaluare Gemini (Gemini 4 Argon): ${analysis.council.agy.verdictShort} — ${analysis.council.agy.constitutionalityNote} ${analysis.council.agy.euLawNote}`,
-            `Evaluare Claude (Claude Opus 5.5): ${analysis.council.claude.verdictShort} — ${analysis.council.claude.constitutionalityNote} ${analysis.council.claude.euLawNote}`,
-            `Evaluare ChatGPT (GPT-6.1 Sol): ${analysis.council.codex.verdictShort} — ${analysis.council.codex.constitutionalityNote} ${analysis.council.codex.euLawNote}`,
+            // Câte o perspectivă, după rolul fiecărui model, fără numele lui.
+            `Tehnică legislativă și impactul asupra cetățenilor: ${analysis.council.agy.verdictShort} — ${analysis.council.agy.constitutionalityNote} ${analysis.council.agy.euLawNote}`,
+            `Constituționalitate și drept european: ${analysis.council.claude.verdictShort} — ${analysis.council.claude.constitutionalityNote} ${analysis.council.claude.euLawNote}`,
+            `Impact economic și fiscal: ${analysis.council.codex.verdictShort} — ${analysis.council.codex.constitutionalityNote} ${analysis.council.codex.euLawNote}`,
           ],
         },
         {
@@ -250,7 +252,7 @@ async function generateDocxForBill(bill, analysis) {
     new Paragraph({
       children: [
         new TextRun({
-          text: `Generat prin platforma civică destrajă.ro • Referință proiect: ${bill.id} (Cod Senat ${bill.cod})`,
+          text: `Pregătit cu destrajă.ro, pe baza analizei a trei modele AI • Referință proiect: ${bill.id} (Cod Senat ${bill.cod})`,
           italics: true,
           size: 18,
           color: '666666',

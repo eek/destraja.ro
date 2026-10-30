@@ -187,14 +187,17 @@ export async function getCdepSigned(): Promise<CdepSigned[]> {
   const rows = [...index.proiecte].filter((r) => !r.senat).sort((a, b) => b.inregistrat.localeCompare(a.inregistrat));
   const out = await Promise.all(
     rows.map(async (row): Promise<CdepSigned | null> => {
-      const [bill, analysis] = await Promise.all([getCdepBill(row.slug), getCdepAnalysis(row.slug)]);
+      const [bill, analysis, versions] = await Promise.all([getCdepBill(row.slug), getCdepAnalysis(row.slug), getBillVersions(row.slug)]);
       if (!bill || !analysis || !bill.fisa.initiatori.length) return null;
       const c = analysis.consensus;
+      const last = versions?.changes.at(-1);
       return {
         id: row.numar,
         slug: row.slug,
         officialTitle: row.titlu,
         stadiu: row.stadiu,
+        passed: ['lege', 'promulgare'].includes(stageOf(row.stadiu)),
+        textChange: last && last.direction !== 'la_fel' && last.to !== 'initiator' ? { direction: last.direction, after: last.to } : null,
         initiators: bill.fisa.initiatori.map((i) => ({
           name: i.nume,
           role: i.rol ?? chamberOf.get(slugify(i.nume)) ?? '',

@@ -12,10 +12,16 @@ import { EmptyState, PartyTag, RiskDot, btnSecondary, inputCls, segCls } from '@
 import type { ReactNode } from 'react';
 import { trackAttrs } from '@/lib/analytics';
 
-type SortKey = 'ridicat' | 'proiecte' | 'medie' | 'nume';
+type SortKey = 'ridicat' | 'moderat' | 'redus' | 'proiecte' | 'medie' | 'nume';
 type Sort = { key: SortKey; dir: 'asc' | 'desc' };
-// Implicit după scorul mediu al proiectelor semnate: un singur proiect roșu nu urcă pe cineva în fața celor cu multe riscante.
-const DEFAULT_SORT: Sort = { key: 'medie', dir: 'desc' };
+// Implicit alfabetic: lista arată ce a semnat fiecare, nu un clasament al celor „mai riscanți”. Ordonarea după risc
+// rămâne la un click pe coloană.
+const DEFAULT_SORT: Sort = { key: 'nume', dir: 'asc' };
+const COUNT: Record<'ridicat' | 'moderat' | 'redus', (m: MpStat) => number> = {
+  ridicat: (m) => m.redCount,
+  moderat: (m) => m.yellowCount,
+  redus: (m) => m.greenCount,
+};
 const PAGE = 40;
 
 const roleLabel = (role: string) => (role === 'senator' ? 'Senator' : role === 'deputat' ? 'Deputat' : role);
@@ -43,7 +49,8 @@ export default function MpDirectory({ mpStats, levels, withEmail = [] }: { mpSta
 
   const list = useMemo(() => {
     const terms = normalize(query.trim()).split(/\s+/).filter(Boolean);
-    const val = (m: MpStat) => (sort.key === 'ridicat' ? m.redCount : sort.key === 'proiecte' ? m.billsCount : m.avgRiskScore);
+    const val = (m: MpStat) =>
+      sort.key === 'ridicat' || sort.key === 'moderat' || sort.key === 'redus' ? COUNT[sort.key](m) : sort.key === 'proiecte' ? m.billsCount : m.avgRiskScore;
     const sign = sort.dir === 'asc' ? 1 : -1;
     return mpStats
       .filter((m) => (party === 'all' || m.party === party) && (role === 'all' || m.role === role))
@@ -54,7 +61,7 @@ export default function MpDirectory({ mpStats, levels, withEmail = [] }: { mpSta
       .sort((a, b) =>
         sort.key === 'nume'
           ? sign * a.name.localeCompare(b.name, 'ro')
-          : sign * (val(a) - val(b)) || b.redCount - a.redCount || b.billsCount - a.billsCount || a.name.localeCompare(b.name, 'ro'),
+          : sign * (val(a) - val(b)) || b.billsCount - a.billsCount || a.name.localeCompare(b.name, 'ro'),
       );
   }, [mpStats, query, party, role, sort]);
 
@@ -148,7 +155,9 @@ export default function MpDirectory({ mpStats, levels, withEmail = [] }: { mpSta
                 <tr>
                   <SortHeader label="Parlamentar" k="nume" sort={sort} onSort={sortBy} className="pl-4 sm:pl-6" />
                   <SortHeader label="Proiecte" k="proiecte" sort={sort} onSort={sortBy} numeric />
-                  <SortHeader label={<>Risc<span className="hidden sm:inline"> ridicat</span></>} k="ridicat" sort={sort} onSort={sortBy} numeric />
+                  {(['ridicat', 'moderat', 'redus'] as const).map((k) => (
+                    <SortHeader key={k} label={<span className="capitalize">{k}</span>} k={k} sort={sort} onSort={sortBy} numeric className="hidden md:table-cell" />
+                  ))}
                   <SortHeader label={<>Scor<span className="hidden sm:inline"> mediu</span></>} k="medie" sort={sort} onSort={sortBy} numeric className="pr-4 sm:pr-6" />
                 </tr>
               </thead>
@@ -170,15 +179,19 @@ export default function MpDirectory({ mpStats, levels, withEmail = [] }: { mpSta
                           </span>
                         )}
                       </span>
-                      <span className="mt-2 flex flex-wrap items-center gap-1" aria-label={`${m.redCount} cu risc ridicat, ${m.yellowCount} moderat, ${m.greenCount} redus`}>
-                        {m.billIds.slice(0, 14).map((id) => (
+                      {/* Toate proiectele semnate, de la risc ridicat la redus: și cele verzi, nu doar cele roșii. */}
+                      <span className="mt-2 flex max-w-[30rem] flex-wrap items-center gap-1" aria-label={`${m.redCount} cu risc ridicat, ${m.yellowCount} moderat, ${m.greenCount} redus`}>
+                        {m.billIds.map((id) => (
                           <RiskDot key={id} level={levels[id] ?? 'green'} className="h-2.5 w-2.5" />
                         ))}
-                        {m.billIds.length > 14 && <span className="ml-1 text-[11px] text-muted">+{m.billIds.length - 14}</span>}
                       </span>
                     </td>
                     <td className="px-2 py-4 text-right text-base font-semibold tabular-nums text-ink sm:px-4">{m.billsCount}</td>
-                    <td className={`px-2 py-4 text-right text-base font-semibold tabular-nums sm:px-4 ${m.redCount ? 'text-risk-red-text' : 'text-ink'}`}>{m.redCount}</td>
+                    {(['ridicat', 'moderat', 'redus'] as const).map((k) => (
+                      <td key={k} className="hidden px-2 py-4 text-right text-base font-semibold tabular-nums text-ink md:table-cell sm:px-4">
+                        {COUNT[k](m)}
+                      </td>
+                    ))}
                     <td className={`py-4 pl-2 pr-4 text-right text-base font-semibold tabular-nums sm:pl-4 sm:pr-6 ${RISK[levelFromScore(m.avgRiskScore)].text}`}>
                       {fmt(m.avgRiskScore)}
                     </td>

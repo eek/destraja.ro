@@ -288,6 +288,10 @@ export interface CdepSigned extends Signed {
   slug: string;
   officialTitle: string;
   stadiu: string;
+  /** A devenit lege sau e la promulgare. */
+  passed: boolean;
+  /** Încotro a mers textul la ultima schimbare de fond (din comparația formelor) și după ce cameră. */
+  textChange: { direction: 'mai_riscant' | 'mai_putin_riscant'; after: 'senat' | 'camera' } | null;
   analysis: { consensus: Pick<BillAnalysis['consensus'], 'riskScore' | 'riskLevel' | 'plainTitle'> };
 }
 

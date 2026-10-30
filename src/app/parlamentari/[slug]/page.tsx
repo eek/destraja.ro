@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!mp) return { title: 'Parlamentar negăsit' };
   return {
     title: `${mp.name} (${mp.party})`,
-    description: `${mp.name}${mp.role ? `, ${mp.role}` : ''} ${mp.party}, a semnat ${countWord(mp.billsCount, 'proiect analizat', 'proiecte analizate')} de noi la Senat și la Camera Deputaților, dintre care ${mp.redCount} cu risc ridicat.`,
+    description: `${mp.name}${mp.role ? `, ${mp.role}` : ''} ${mp.party}, a semnat ${countWord(mp.billsCount, 'proiect analizat', 'proiecte analizate')} de noi la Senat și la Camera Deputaților: ${mp.redCount} cu risc ridicat, ${mp.yellowCount} moderat și ${mp.greenCount} redus.`,
   };
 }
 
@@ -102,6 +102,17 @@ export default async function MpPage({ params }: PageProps) {
         </dl>
       </header>
 
+      <WentWell
+        green={[
+          ...own.filter((b) => b.analysis.consensus.riskLevel === 'green').map((b) => ({ id: b.id, href: `/legi/${b.slug}`, title: b.analysis.consensus.plainTitle })),
+          ...ownChamber.filter((b) => b.analysis.consensus.riskLevel === 'green').map((b) => ({ id: b.id, href: `/camera/${b.slug}`, title: b.analysis.consensus.plainTitle })),
+        ]}
+        passed={ownChamber.filter((b) => b.passed).map((b) => ({ id: b.id, href: `/camera/${b.slug}`, title: b.analysis.consensus.plainTitle }))}
+        improved={ownChamber
+          .filter((b) => b.textChange?.direction === 'mai_putin_riscant')
+          .map((b) => ({ id: b.id, href: `/camera/${b.slug}`, title: b.analysis.consensus.plainTitle }))}
+      />
+
       <MpContactPanel mp={mp} contact={contact} topBill={own[0]} />
 
       <section aria-labelledby="proiecte-title" className="mt-12">
@@ -129,6 +140,11 @@ export default async function MpPage({ params }: PageProps) {
                       <span className="font-semibold tabular-nums text-ink">{b.id}</span>
                       <RiskChip level={b.analysis.consensus.riskLevel} score={b.analysis.consensus.riskScore} />
                       <span className="text-muted">{b.stadiu}</span>
+                      {b.textChange && (
+                        <span className={`font-semibold ${b.textChange.direction === 'mai_putin_riscant' ? 'text-risk-green-text' : 'text-risk-red-text'}`}>
+                          {b.textChange.direction === 'mai_putin_riscant' ? '↘ mai puțin riscant' : '↗ mai riscant'} după {b.textChange.after === 'senat' ? 'Senat' : 'Cameră'}
+                        </span>
+                      )}
                     </span>
                     <span className="mt-1.5 block text-[15px] font-semibold leading-6 text-ink group-hover:underline group-hover:underline-offset-4">
                       {b.analysis.consensus.plainTitle}
@@ -163,5 +179,56 @@ export default async function MpPage({ params }: PageProps) {
         </section>
       )}
     </Container>
+  );
+}
+
+type Pick = { id: string; href: string; title: string };
+
+/**
+ * Ce a mers bine: proiectele cu risc redus, cele devenite lege și cele care au ieșit mai bune de la Senat sau de la Cameră.
+ * Pagina unui parlamentar nu trebuie să arate doar riscurile din ce a semnat.
+ */
+function WentWell({ green, passed, improved }: { green: Pick[]; passed: Pick[]; improved: Pick[] }) {
+  // „24 de proiecte”, dar „3 proiecte”: cifra stă mare, separat, așa că „de” trece în etichetă.
+  const de = (n: number) => (n % 100 >= 20 || (n >= 100 && n % 100 === 0) ? 'de ' : '');
+  const tiles = [
+    { n: green.length, label: `${de(green.length)}${green.length === 1 ? 'proiect' : 'proiecte'} cu risc redus`, note: 'Semnate de el sau de ea; cele trei modele le văd cu risc redus.', items: green },
+    { n: passed.length, label: `${de(passed.length)}${passed.length === 1 ? 'proiect devenit' : 'proiecte devenite'} lege`, note: 'Sau ajunse la promulgare.', items: passed },
+    { n: improved.length, label: `${de(improved.length)}${improved.length === 1 ? 'proiect ieșit mai bun' : 'proiecte ieșite mai bune'}`, note: 'Textul adoptat de Senat sau de Cameră e mai puțin riscant decât cel inițial.', items: improved },
+  ].filter((t) => t.n > 0);
+  if (!tiles.length) return null;
+  return (
+    <section aria-labelledby="bine-title" className="mt-10">
+      <h2 id="bine-title" className="font-display text-3xl font-normal">
+        Ce a mers bine
+      </h2>
+      <ul className="mt-5 grid gap-4 md:grid-cols-3">
+        {tiles.map((t) => (
+          <li key={t.label} className="rounded-2xl border border-line bg-surface p-5">
+            <p className="flex items-baseline gap-2">
+              <span className="font-display text-4xl font-semibold tabular-nums text-risk-green-text">{t.n}</span>
+              <span className="font-semibold text-ink">{t.label}</span>
+            </p>
+            <p className="mt-1 text-sm text-muted">{t.note}</p>
+            <ul className="mt-3 space-y-1.5 border-t border-line pt-3">
+              {t.items.slice(0, 3).map((b) => (
+                <li key={b.href}>
+                  <Link href={b.href} className="line-clamp-2 text-sm font-semibold leading-snug text-ink underline-offset-4 hover:underline">
+                    {b.title}
+                  </Link>
+                </li>
+              ))}
+              {t.items.length > 3 && <li className="text-xs text-muted">și încă {t.items.length - 3}, în lista de mai jos</li>}
+            </ul>
+          </li>
+        ))}
+      </ul>
+      {improved.length > 0 && (
+        <p className="mt-3 max-w-[70ch] text-xs leading-5 text-muted">
+          Când un proiect iese mai bun de la Senat sau de la Cameră, schimbarea o fac de obicei comisiile, prin amendamente. Lucrăm să arătăm și cine a
+          propus fiecare amendament.
+        </p>
+      )}
+    </section>
   );
 }

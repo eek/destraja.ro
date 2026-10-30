@@ -55,6 +55,7 @@ export function cameraStats(DATA, senateBills) {
     levels,
     here: here.length,
     hereRed: here.filter((b) => b.level === 'red').length,
+    hereLevels: { red: 0, yellow: 0, green: 0, ...Object.fromEntries(['red', 'yellow', 'green'].map((l) => [l, here.filter((b) => b.level === l).length])) },
     top: here.filter((b) => b.level === 'red').sort((a, b) => b.score - a.score),
     government,
     compared: versions.length,

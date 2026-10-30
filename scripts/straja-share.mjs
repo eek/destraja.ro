@@ -3,7 +3,8 @@
 // imaginilor de previzualizare ale site-ului (src/og: fonturile, culorile, logo-ul), cu cifrele din
 // scripts/lib/camera-stats.mjs, aceleași ca în e-mail. O desenează Chrome fără interfață.
 //
-//   node scripts/straja-share.mjs     → ops/share/camera-AAAA-LL-ZZ.png (și .html)
+//   node scripts/straja-share.mjs          → ops/share/camera-AAAA-LL-ZZ.png (și .html)
+//   node scripts/straja-share.mjs --site   → ops/share/site-AAAA-LL-ZZ.png: imaginea postării de lansare, cu ambele camere
 //
 // CHROME_BIN schimbă calea spre Chrome (implicit cea de pe macOS).
 import fs from 'node:fs';
@@ -60,7 +61,7 @@ const logo = `data:image/svg+xml;base64,${Buffer.from(fs.readFileSync(path.join(
 
 const village = pathToUrl(path.join(ROOT, 'src', 'og', 'village-dark-transparent.png'));
 
-const html = `<!doctype html>
+const cameraHtml = `<!doctype html>
 <html lang="ro"><head><meta charset="utf-8"><title>Camera Deputaților</title>
 <style>
   @font-face { font-family: Serif; font-weight: 400; src: ${font('serif-400.ttf')}; }
@@ -114,8 +115,78 @@ const html = `<!doctype html>
   <div class="bar"></div>
 </body></html>`;
 
+// Imaginea postării de lansare, refăcută cu ambele camere: tema deschisă a site-ului, satul mare, data actualizării.
+const LIGHT = { bg: '#fffefb', ink: '#121a2b', body: '#2c3546', muted: '#5b6475', line: '#e0dbcf', brand: '#172c54' };
+const BAR = { red: '#d0372b', yellow: '#dd9c12', green: '#3b8a52' };
+const RED_TEXT = '#a8261b';
+const isoDay = (d) => d.replace(/^(\d{2})-(\d{2})-(\d{4})$/, '$3-$2-$1');
+const senateOpen = senateBills.filter((b) => isoDay(b.consultationDeadline) >= DAY);
+const senateLevels = { red: 0, yellow: 0, green: 0 };
+for (const b of senateOpen) senateLevels[readJson(path.join(DATA, 'analyses', `${b.slug}.json`), null).consensus.riskLevel]++;
+const longDay = new Intl.DateTimeFormat('ro-RO', { day: 'numeric', month: 'long', timeZone: 'Europe/Bucharest' }).format(new Date());
+const triangle = (color) => `<svg width="20" height="20" viewBox="0 0 10 10"><polygon points="5,0.4 9.8,9.6 0.2,9.6" fill="${color}"/></svg>`;
+const line = (levels) => `<div class="line">${['red', 'yellow', 'green'].filter((l) => levels[l]).map((l) => `<i style="flex-grow:${levels[l]};background:${BAR[l]}"></i>`).join('')}</div>`;
+const chamber = (name, n, what, levels) => `
+  <div class="ch">
+    <div class="ch-row"><b class="ch-name">${name}</b><span class="ch-n">${n}</span><span>${what}</span><span class="dot">·</span>${triangle(BAR.red)}<span class="red">${levels.red} cu risc ridicat</span></div>
+    ${line(levels)}
+  </div>`;
+const lightLogo = `data:image/svg+xml;base64,${Buffer.from(fs.readFileSync(path.join(ROOT, 'public', 'destraja-logo.svg'), 'utf8').replace('fill="#111111"', `fill="${LIGHT.ink}"`)).toString('base64')}`;
+
+const siteHtml = `<!doctype html>
+<html lang="ro"><head><meta charset="utf-8"><title>destrajă.ro</title>
+<style>
+  @font-face { font-family: Serif; font-weight: 400; src: ${font('serif-400.ttf')}; }
+  @font-face { font-family: Serif; font-weight: 600; src: ${font('serif-600.ttf')}; }
+  @font-face { font-family: Sans; font-weight: 400; src: ${font('sans-400.ttf')}; }
+  @font-face { font-family: Sans; font-weight: 600; src: ${font('sans-600.ttf')}; }
+  * { box-sizing: border-box; margin: 0; }
+  html, body { width: ${SIZE.width}px; height: ${SIZE.height}px; background: ${LIGHT.bg}; overflow: hidden; }
+  body { font-family: Sans; color: ${LIGHT.body}; padding: 64px 76px 0; position: relative; display: flex; flex-direction: column; }
+  .head { display: flex; align-items: flex-start; justify-content: space-between; }
+  .upd { text-align: right; padding-top: 6px; }
+  .upd b { display: inline-block; font-weight: 600; font-size: 22px; color: ${LIGHT.ink}; background: #efece4; border-radius: 999px; padding: 8px 18px; }
+  .upd p { font-size: 17px; color: ${LIGHT.muted}; margin-top: 8px; }
+  h1 { font-family: Serif; font-size: 82px; line-height: 1.04; letter-spacing: -2px; margin-top: 52px; color: ${LIGHT.ink}; }
+  h1 span { display: block; }
+  h1 .m { color: ${LIGHT.muted}; font-weight: 400; }
+  h1 .k { font-weight: 600; }
+  .sub { font-size: 29px; line-height: 1.4; margin-top: 22px; width: 860px; }
+  .village { width: 860px; margin: -4px auto -16px; display: block; }
+  .ch { margin-top: 18px; }
+  .ch-row { display: flex; align-items: center; gap: 10px; font-size: 25px; white-space: nowrap; }
+  .ch-name { font-family: Serif; font-weight: 600; font-size: 31px; color: ${LIGHT.ink}; margin-right: 6px; }
+  .ch-n { font-family: Serif; font-weight: 600; font-size: 31px; color: ${LIGHT.ink}; }
+  .dot { color: ${LIGHT.muted}; margin: 0 4px; }
+  .red { color: ${RED_TEXT}; font-weight: 600; }
+  .line { display: flex; gap: 4px; height: 10px; margin-top: 10px; width: 700px; }
+  .line i { display: block; min-width: 12px; border-radius: 5px; }
+  .foot { margin: auto 0 46px; display: flex; justify-content: space-between; align-items: flex-end; }
+  .url { font-family: Serif; font-weight: 600; font-size: 38px; color: ${LIGHT.brand}; }
+  .bar { position: absolute; left: 0; right: 0; bottom: 0; height: 16px; background: ${LIGHT.brand}; }
+</style></head>
+<body>
+  <div class="head">
+    <img src="${lightLogo}" width="230" height="78" alt="destrajă.ro">
+    <div class="upd"><b>Actualizat pe ${longDay}</b><p>Am adăugat și Camera Deputaților</p></div>
+  </div>
+  <h1><span class="m">Stăm de strajă.</span><span class="k">Să știi ce se pregătește.</span></h1>
+  <p class="sub">Proiectele de lege din Senat și din Camera Deputaților, citite de Gemini, Claude și ChatGPT. Pe înțelesul tuturor.</p>
+  <img class="village" src="${pathToUrl(path.join(ROOT, 'src', 'og', 'village-light.png'))}" alt="">
+  <div class="foot">
+    <div>
+      ${chamber('Senatul', senateOpen.length, 'în consultare', senateLevels)}
+      ${chamber('Camera', s.here, 'în dezbatere', s.hereLevels)}
+    </div>
+    <div class="url">destraja.ro</div>
+  </div>
+  <div class="bar"></div>
+</body></html>`;
+
+const SITE = process.argv.includes('--site');
+const html = SITE ? siteHtml : cameraHtml;
 fs.mkdirSync(OUT_DIR, { recursive: true });
-const base = path.join(OUT_DIR, `camera-${DAY}`);
+const base = path.join(OUT_DIR, `${SITE ? 'site' : 'camera'}-${DAY}`);
 fs.writeFileSync(`${base}.html`, html);
 const shot = spawnSync(
   CHROME,
@@ -126,4 +197,8 @@ if (shot.status !== 0 || !fs.existsSync(`${base}.png`)) {
   console.error(`✗ Chrome nu a desenat imaginea: ${(shot.stderr || shot.error?.message || '').slice(0, 300)}`);
   process.exit(1);
 }
-console.log(`🖼  ${path.relative(ROOT, base)}.png: ${s.total} proiecte, ${s.here} în dezbatere, ${s.hereRed} cu risc ridicat; top: ${top.map((b) => b.numar).join(', ')}`);
+console.log(
+  SITE
+    ? `🖼  ${path.relative(ROOT, base)}.png: Senat ${senateOpen.length} în consultare (${senateLevels.red} cu risc ridicat), Camera ${s.here} în dezbatere (${s.hereRed} cu risc ridicat)`
+    : `🖼  ${path.relative(ROOT, base)}.png: ${s.total} proiecte, ${s.here} în dezbatere, ${s.hereRed} cu risc ridicat; top: ${top.map((b) => b.numar).join(', ')}`,
+);

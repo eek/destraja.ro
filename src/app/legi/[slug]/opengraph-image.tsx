@@ -3,7 +3,7 @@ import { getAllBills, getBillBySlug, toLite } from '@/lib/bills';
 import { oneLiner } from '@/lib/stats';
 import { RISK } from '@/lib/risk';
 import { fmt, formatDeadline } from '@/lib/format';
-import { OG, OG_SIZE, clip, logoSrc, ogFonts } from '@/og/og';
+import { Glyph, OG, OG_SIZE, clip, logoSrc, ogFonts } from '@/og/og';
 
 export const dynamic = 'force-static';
 export const size = OG_SIZE;
@@ -35,7 +35,7 @@ export default async function Image({ params }: { params: Promise<{ slug: string
         <div style={{ display: 'flex', flexDirection: 'column', flex: 1, padding: '44px 64px 44px' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 16, fontSize: 26 }}>
             <span style={{ display: 'flex', alignItems: 'center', gap: 10, background: tone.soft, color: tone.text, fontWeight: 600, borderRadius: 999, padding: '8px 20px' }}>
-              <span style={{ width: 14, height: 14, borderRadius: 999, background: tone.bar }} />
+              <Glyph level={c.riskLevel} size={16} />
               {RISK[c.riskLevel].label} {fmt(c.riskScore)}/10
             </span>
             {flags.map((f) => (

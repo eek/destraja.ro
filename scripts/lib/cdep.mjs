@@ -200,15 +200,17 @@ export function parseSheet(html) {
   let party = null;
   const initBlock = html.slice(start).match(/Initiator:([\s\S]*?)Obiect de reglementare/i)?.[1] ?? '';
   // Fiecare bucată începe cu numele (linkul fișei) și se poate termina cu eticheta partidului următor („- PNL:”).
-  // Grupurile arată ca „deputati - PSD:”, „senatori - neafiliati:” sau „deputati - SOS RO:”: de acolo luăm și camera.
-  let rol = null;
+  // Când semnează și senatori, grupurile arată ca „deputati - PSD:” sau „senatori - neafiliati:”: de acolo luăm și camera.
+  // Când semnează doar deputați, fișa scrie „25 deputati, din care:” și apoi doar „- PSD:”. Liniuța din eticheta
+  // partidului are spațiu înainte; cea din numele compuse („Sergiu-Mircea”) nu, așa că nu le confundăm.
+  let rol = /^\s*\d+\s+senatori/i.test(clean(initBlock)) ? 'senator' : /^\s*\d+\s+deputati/i.test(clean(initBlock)) ? 'deputat' : null;
   for (const piece of initBlock.split(/(?=<a )/i)) {
     const name = piece.match(/structura2015\.mp\?idm=(\d+)[^>]*>([^<]+)<\/a>/);
     if (name) initiatori.push({ idm: +name[1], nume: clean(name[2]), partid: party, ...(rol && { rol }) });
-    const labels = [...clean(piece).matchAll(/(deputati|senatori)\s*-\s*([^:,]{1,30}):/gi)];
+    const labels = [...clean(piece).matchAll(/(?:^|\s)(?:(deputati|senatori)\s*)?-\s*([^:,\-]{1,30}):/gi)];
     if (labels.length) {
       const [, who, label] = labels.at(-1);
-      rol = /^senat/i.test(who) ? 'senator' : 'deputat';
+      if (who) rol = /^senat/i.test(who) ? 'senator' : 'deputat';
       party = label.trim();
     }
   }
@@ -252,6 +254,19 @@ export function parseSheet(html) {
         termenRaport: isoDate(raport.match(/termen depunere raport:\s*([\d.]+)/)?.[1]),
       }
     : null;
+
+  // Consultarea publică de la Cameră: apare doar când Camera e prima sesizată, cu termenul, câte propuneri s-au trimis și
+  // butonul „Trimite propunere” (un formular pe cdep.ro). null când fișa n-are rândul.
+  const consultBlock = html.slice(start).match(/Consultare public[ăa]:([\s\S]*?)<\/table>/i)?.[1];
+  const consultare = consultBlock
+    ? {
+        termen: isoDate(consultBlock.match(/Termen:\s*(\d{2}\.\d{2}\.\d{4})/)?.[1]),
+        propuneri: Number(consultBlock.match(/propuneri\/sugestii depuse:\s*(\d+)/i)?.[1] ?? 0),
+        formular: consultBlock.match(/href="(\/ords\/pls\/proiecte\/upl_pck2015\.form_sugestie\?idp=\d+)"/)?.[1]
+          ? `${CDEP}${consultBlock.match(/href="(\/ords\/pls\/proiecte\/upl_pck2015\.form_sugestie\?idp=\d+)"/)[1]}`
+          : null,
+      }
+    : null;
   return {
     titlu: titles.at(-1) ?? null,
     bpi: field('- B\\.P\\.I\\.:'),
@@ -266,5 +281,6 @@ export function parseSheet(html) {
     timeline,
     documente,
     comisii,
+    consultare: consultare?.termen ? consultare : null,
   };
 }

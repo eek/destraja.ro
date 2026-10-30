@@ -53,13 +53,36 @@ const index = rows.map((r) => {
   return { slug, idp: r.idp, numar: r.numar, tip: r.tip, inregistrat: r.data, titlu: r.titlu, stadiu: r.stadiu, stadiuData: r.stadiuData, url: sheetUrl(r.idp), ...(old?.senat && { senat: old.senat }) };
 });
 
-// Ce fișe citim acum: cele lipsă sau cu stadiul schimbat; întâi cele aflate la Cameră, apoi cele mai noi.
+// Consultarea publică de la Cameră nu schimbă stadiul din listă, dar numărul de propuneri crește: cât e deschisă, fișa
+// se recitește o dată pe zi. Fișele citite înainte să urmărim consultarea se recitesc o dată, dacă proiectul e recent
+// și Camera e prima sesizată (doar atunci are consultare).
+const today = new Date().toISOString().slice(0, 10);
+const sheetOf = (slug) => {
+  const file = path.join(SHEETS, `${slug}.json`);
+  return fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : null;
+};
+const consultationDue = (p) => {
+  const sheet = sheetOf(p.slug);
+  if (!sheet?.fisa) return false;
+  const c = sheet.fisa.consultare;
+  if (c === undefined) return /^Senat/i.test(sheet.fisa.cameraDecizionala ?? '') && Date.now() - Date.parse(p.inregistrat) < 75 * 86_400_000;
+  return Boolean(c?.termen && c.termen >= today && Date.now() - Date.parse(sheet.cititLa ?? 0) > 20 * 3_600_000);
+};
+
+// Fișele citite pe 28–29 octombrie 2026, cu un cititor care pierdea partidele când semnează doar deputați („- PSD:”):
+// le recitim, ca etichetele de partid și scorurile parlamentarilor să fie din nou corecte.
+const partiesLost = (p) => {
+  const list = sheetOf(p.slug)?.fisa?.initiatori ?? [];
+  return list.length > 1 && list.every((i) => !i.partid);
+};
+
+// Ce fișe citim acum: cele lipsă, cu stadiul schimbat sau în consultare; întâi cele aflate la Cameră, apoi cele mai noi.
 const todo = index
   .filter((p) => {
     const file = path.join(SHEETS, `${p.slug}.json`);
     if (!fs.existsSync(file)) return true;
     const old = before.get(p.slug);
-    return !old || old.stadiu !== p.stadiu || old.stadiuData !== p.stadiuData;
+    return !old || old.stadiu !== p.stadiu || old.stadiuData !== p.stadiuData || consultationDue(p) || partiesLost(p);
   })
   .sort((a, b) => Number(AT_CHAMBER.test(b.stadiu)) - Number(AT_CHAMBER.test(a.stadiu)) || b.inregistrat.localeCompare(a.inregistrat))
   .slice(0, MAX);
@@ -96,8 +119,10 @@ try {
     }
   }
 } catch (err) {
-  if (!(err instanceof CdepBlocked)) throw err;
-  note = ` (${err.message})`;
+  // Captcha sau rețea căzută (DNS, conexiune întreruptă): păstrăm ce am citit și scriem indexul; restul la rularea următoare.
+  const network = err?.cause?.code && /^(ENOTFOUND|EAI_AGAIN|ECONNRESET|ECONNREFUSED|ETIMEDOUT|UND_ERR_)/.test(err.cause.code);
+  if (!(err instanceof CdepBlocked) && !network) throw err;
+  note = ` (${network ? `rețea: ${err.cause.code}` : err.message})`;
 }
 
 fs.writeFileSync(indexFile, JSON.stringify({ an: YEAR, cititLa: new Date().toISOString(), proiecte: index }, null, 1) + '\n');

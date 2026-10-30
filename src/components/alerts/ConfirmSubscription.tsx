@@ -53,7 +53,7 @@ export default function ConfirmSubscription() {
           </span>
         </p>
         <div className="mt-8 flex flex-wrap gap-3">
-          <Link href="/#legi" className={`${btnPrimary} min-h-12 px-6`}>
+          <Link href="/senat#legi" className={`${btnPrimary} min-h-12 px-6`}>
             Vezi proiectele de acum
           </Link>
           <Link href={`/abonare/preferinte#t=${state.token}`} className={`${btnSecondary} min-h-12 px-5`}>

@@ -70,7 +70,7 @@ export default async function BillDetailPage({ params }: PageProps) {
   return (
     <Container className="max-w-[920px] py-8 sm:py-12">
       <div className="flex flex-wrap items-center justify-between gap-3 text-sm">
-        <Link href="/#legi" className="inline-flex min-h-11 items-center gap-1.5 font-semibold text-body hover:text-ink">
+        <Link href="/senat#legi" className="inline-flex min-h-11 items-center gap-1.5 font-semibold text-body hover:text-ink">
           <ArrowLeft className="h-4 w-4" aria-hidden />
           Toate proiectele
         </Link>

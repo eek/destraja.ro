@@ -419,8 +419,8 @@ function edition(level, data, anunt = null) {
     const counts = ['red', 'yellow', 'green'].map((l) => `${data.open.filter((b) => b.level === l).length} ${RISK[l].label.toLowerCase()}`);
     text += `\nPE SCURT\nÎn consultare acum: ${countWord(data.open.length, 'proiect', 'proiecte')} (${counts.join(', ')}).\n`;
   }
-  body += `<div style="margin-top:30px">${button(track(`${SITE}/#legi`), 'Toate proiectele în consultare')}</div>`;
-  text += `\nToate proiectele în consultare: ${track(`${SITE}/#legi`)}\n`;
+  body += `<div style="margin-top:30px">${button(track(`${SITE}/senat#legi`), 'Toate proiectele în consultare')}</div>`;
+  text += `\nToate proiectele în consultare: ${track(`${SITE}/senat#legi`)}\n`;
 
   const footer = footerHtml({
     reason: `Primești acest e-mail pentru că te-ai abonat la alertele destrajă, nivelul „${esc(levelName)}”. Îți scriem doar în zilele lucrătoare în care apare ceva nou pe nivelul tău.`,

@@ -11,7 +11,7 @@ export default function NotFound() {
         Poate proiectul a fost scos din consultare sau adresa s-a schimbat. Toate proiectele urmărite sunt pe prima pagină.
       </p>
       <div className="mt-8 flex flex-wrap items-center gap-6">
-        <Link href="/#legi" className={`${btnPrimary} min-h-12 px-5`}>
+        <Link href="/senat#legi" className={`${btnPrimary} min-h-12 px-5`}>
           Vezi proiectele de lege
         </Link>
         <Link href="/parlamentari" className={linkCls}>

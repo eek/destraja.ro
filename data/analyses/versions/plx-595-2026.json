@@ -1,0 +1,158 @@
+{
+  "slug": "plx-595-2026",
+  "billId": "PL-x 595/2026",
+  "updatedAt": "2026-10-30T08:45:48.423Z",
+  "versions": [
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/90/5/se681.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Ajutorul de criză pentru porci ajunge și la firme (SRL/SA), iar cel pentru vaci se calculează după efectivul din 1 martie",
+      "summaryTlDr": "Lege reparatorie și utilă: corectează o omisiune care excludea 98% din fermele de suine de la propria schemă de ajutor și simplifică dosarul la bovine. Riscurile sunt tehnice: ferestre de depunere posibil prea scurte, efect bugetar neevaluat și câteva stângăcii de redactare.",
+      "scores": {
+        "agy": null,
+        "claude": 3,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl595_cd595_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Ajutorul pentru crescătorii de porci ajunge și la firme (SRL/SA), iar regulile pentru bovine se clarifică",
+      "summaryTlDr": "Este o lege-reparație utilă. Corectează o scăpare care lăsa fără ajutor aproape toate fermele de porci organizate ca societăți. Riscurile țin de tehnica legislativă și de faptul că bugetul și temeiul de ajutor de stat al extinderii nu sunt precizate, nu de capcane ascunse.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_riscant",
+      "headline": "Societățile comerciale primesc ajutor la suine, dar au doar 10 zile lucrătoare să depună cererea",
+      "summary": "Acum societățile comerciale primesc ajutorul la suine printr-un articol separat, cu doar 10 zile lucrătoare pentru cerere. Au dispărut prelungirea termenelor până la 15 octombrie și schimbările condițiilor la bovine. Au apărut două interpretări noi: exploatația și rolul APIA în SNIIA.",
+      "changes": [
+        {
+          "title": "Societățile comerciale incluse la suine, dar în afara legii de bază",
+          "text": "Inițial art. 3 din Legea 175/2026 era modificat ca să includă firmele după Legea 31/1990. Acum art. II le dă ajutorul separat, iar art. 3 rămâne neschimbat. A dispărut și condiția de activitate 1 martie-31 decembrie 2026.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. II",
+          "before": "sau persoane juridice constituite potrivit Legii societăților nr.31/1990, republicată, cu modificările și completările ulterioare, care desfășoară activitate de îngrâșare și/sau reproducție a suinelor",
+          "after": "beneficiază, la cerere și persoanele juridice constituite potrivit Legii societăților nr. 31/1990, republicată, cu modificările și completările ulterioare, în condițiile prevăzute la art. 4 din Legea nr. 175/2026",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Termen scurt pentru firme, fără prelungire la 15 octombrie",
+          "text": "Inițial cererile la suine și bovine se puteau depune până la 15 octombrie 2026. Acum prelungirile au dispărut, iar firmele au doar 10 zile lucrătoare de la intrarea în vigoare (art. II).",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. II",
+          "before": "este cuprinsă între data intrării în vigoare a prezentei legi și data de 15 octombrie 2026, inclusiv.",
+          "after": "Cererile pentru solicitarea ajutorului de stat se depun în termen de 10 zile lucrătoare de la data intrării în vigoare a prezentei legi.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Au dispărut schimbările condițiilor de eligibilitate la bovine",
+          "text": "Au fost scoase modificările la art. 4 din Legea 176/2026: pragurile de 10/5 capete, păstrarea a 75% din efectiv cu excepțiile pentru faliment, lichidare și forță majoră, și plafonul la efectivul de la 1 martie.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 4 L176/2026",
+          "before": "existența, la data de 5 octombrie 2026, a cel puțin 75% din efectivul de bovine sau bubaline solicitat în cerere, cu vârsta de minimum 22 de luni la această dată, cu excepția celor care s-au aflat în una dintre următoarele situații: faliment, lichidare, forță majoră",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Toate codurile ANSVSA ale unui crescător formează o exploatație",
+          "text": "Art. III nou interpretează art. 2 lit. e) din Legea 176/2026: toate amenajările cu cod/coduri ANSVSA ale aceleiași persoane formează o singură exploatație. Asta poate schimba eligibilitatea sau sumele.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. III",
+          "before": null,
+          "after": "se interpretează în sensul că noțiunea de „exploatație în sectorul zootehnic” a unei persoane fizice/juridice cuprinde toate amenajările, toate construcțiile sau, în cazul creșterii în aer liber, orice mediu în care animalele sunt deținute",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "APIA verifică SNIIA pe baza unui protocol",
+          "text": "Inițial legea spunea direct că APIA interoghează SNIIA dacă lipsește extrasul. Acum art. IV o declară utilizator SNIIA în baza unui protocol cu operatorul sistemului.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. IV",
+          "before": "reprezentanții centrelor județene/locale APIA, respectiv al municipiului București, interoghează SNIIA, la data depunerii cererii de solicitare a ajutorului",
+          "after": "se înțelege și Agenția de Plăți și Intervenție pentru Agricultură în baza protocolului încheiat cu operatorul SNIIA.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Firmele au doar 10 zile lucrătoare pentru cererea de ajutor la suine",
+            "major": true,
+            "article": "art. II"
+          },
+          {
+            "text": "Agregarea codurilor ANSVSA poate schimba eligibilitatea sau sumele la bovine",
+            "major": true,
+            "article": "art. III"
+          },
+          {
+            "text": "Art. 3 din Legea 175/2026 rămâne nemodificat; beneficiul firmelor stă în afara legii",
+            "major": false,
+            "article": "art. II"
+          },
+          {
+            "text": "Nu se spune ce se întâmplă cu dosarele respinse pentru lipsa facturii",
+            "major": false,
+            "article": "art. I"
+          },
+          {
+            "text": "Rolul APIA depinde de un protocol nepublicat în Monitorul Oficial",
+            "major": false,
+            "article": "art. IV"
+          }
+        ],
+        "good": [
+          {
+            "text": "Societățile comerciale crescătoare de suine pot primi ajutorul de stat",
+            "major": true,
+            "article": "art. II"
+          },
+          {
+            "text": "Nu mai e cerută factura de livrare la abator, coerent cu plata pe loc",
+            "major": false,
+            "article": "art. I"
+          },
+          {
+            "text": "APIA poate verifica direct SNIIA, deci mai puține acte pentru fermieri",
+            "major": false,
+            "article": "art. IV"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 8,
+        "removed": 23,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:45:48.423Z"
+    }
+  ]
+}

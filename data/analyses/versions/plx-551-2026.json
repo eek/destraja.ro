@@ -1,0 +1,117 @@
+{
+  "slug": "plx-551-2026",
+  "billId": "PL-x 551/2026",
+  "updatedAt": "2026-10-30T08:45:07.542Z",
+  "versions": [
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/50/1/se629.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Primăriile primesc încă 2 ani să termine lucrările PNDL, ca să nu returneze banii",
+      "summaryTlDr": "Lege tehnică și în esență utilă: evită ca mii de UAT-uri să fie obligate să returneze aproximativ 10,86 mld. lei pentru șantiere neterminate. Riscul ține de redactare, care e ambiguă, și de faptul că este a cincea prelungire succesivă a unui program început în 2015.",
+      "scores": {
+        "agy": null,
+        "claude": 3,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl551_cd551_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Primăriile primesc încă 2 ani să termine lucrările PNDL fără să returneze banii",
+      "summaryTlDr": "Lege tehnică și utilă: scutește primăriile de riscul de a returna până la ~10,86 miliarde lei pentru șantiere PNDL nefinalizate. Problemele țin de redactare și de disciplina bugetară: este a cincea amânare și nu cere nicio dovadă că proiectul mai poate fi terminat.",
+      "scores": {
+        "agy": 3,
+        "claude": 2,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Fără schimbări de fond: Camera a adoptat același text ca Senatul pentru prelungirea contractelor PNDL",
+      "summary": "Camera a păstrat neschimbat textul votat de Senat. Diferențele sunt doar de redactare. Contractele PNDL I și II nefinalizate se pot prelungi cu 2 ani la cererea beneficiarilor. Neclaritățile și lipsa condițiilor de eligibilitate au rămas.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Prelungirea este fixă, de 2 ani, deși Expunerea de motive spune „până la 2 ani”",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Nu există condiții de eligibilitate, deci pot fi prelungite și șantiere practic abandonate",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Formula „cu cel mult 3 luni anterior” e confuză, așa că nu e clar cine se califică",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "„Se pot prelungi” nu spune dacă ministerul poate refuza cererea beneficiarului",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Nu e clar dacă „acestea” se referă la obiective sau la contracte",
+            "major": false,
+            "article": "art. 1"
+          },
+          {
+            "text": "„Respectiv” leagă greșit etapele I și II de termenele din 2026 și 2027",
+            "major": false,
+            "article": "art. 1"
+          },
+          {
+            "text": "Nu există termen pentru cererea beneficiarului, iar o cerere tardivă face imposibil termenul ministerului",
+            "major": false,
+            "article": "art. 2"
+          }
+        ],
+        "good": [
+          {
+            "text": "Lucrările nefinalizate pot continua cu finanțare, prin prelungirea contractelor cu 2 ani",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Prelungirea se acordă la solicitarea beneficiarilor, adică a autorităților locale",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Ministerul trebuie să modifice ordinele și contractele cu cel puțin 15 zile înainte de expirare",
+            "major": false,
+            "article": "art. 2"
+          },
+          {
+            "text": "Se aplică explicit contractelor de finanțare aflate în derulare",
+            "major": false,
+            "article": "art. 2"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 5,
+        "removed": 4,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:44:10.466Z"
+    }
+  ]
+}

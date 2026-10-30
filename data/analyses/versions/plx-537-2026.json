@@ -1,0 +1,102 @@
+{
+  "slug": "plx-537-2026",
+  "billId": "Pl-x 537/2026",
+  "updatedAt": "2026-10-30T08:42:59.760Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/500/30/7/pl537.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Noul mod de admitere la liceu și de Evaluare Națională se amână din 2027 în 2030",
+      "summaryTlDr": "Este o lege tehnică de amânare, fără taxe, sancțiuni sau beneficiari privați. Riscul real e mic. Problema ei este că nu spune ce reguli se aplică în anii de tranziție și nu obligă pe nimeni să pregătească noul model la timp.",
+      "scores": {
+        "agy": null,
+        "claude": 2,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl537_cd537_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.3,
+      "riskLevel": "green",
+      "plainTitle": "Noul sistem de Evaluare Națională și admitere la liceu se amână din 2027 în 2030",
+      "summaryTlDr": "Este o amânare tehnică, onestă față de realitate: noul model de admitere nu e gata pentru 2027. Problema nu este amânarea în sine, ci ce lipsește din text: regulile pentru generațiile intermediare și un termen ferm pentru noile metodologii.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 2
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Textul legii e identic: noul model de Evaluare Națională rămâne amânat până în 2030",
+      "summary": "Articolul unic are același conținut inițial și acum. S-a schimbat doar formula de adoptare: acum proiectul e considerat adoptat tacit de Cameră, în forma inițială. Noul examen se aplică tot de la generația din clasa a V-a în 2026-2027.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Nu spune expres ce reguli se aplică generațiilor intrate în clasa a V-a 2023-2026",
+            "major": true,
+            "article": "art. unic"
+          },
+          {
+            "text": "Elevii repetenți pot da în 2030 examen după alt sistem decât colegii",
+            "major": true,
+            "article": "art. unic"
+          },
+          {
+            "text": "Nu impune ministerului niciun termen pentru aprobarea noilor metodologii",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Nicio procedură de consultare în lege; dezbaterea apare doar în expunerea de motive",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Risc de o nouă cerere de amânare în 2029-2030",
+            "major": false,
+            "article": "art. unic"
+          }
+        ],
+        "good": [
+          {
+            "text": "Elevii din clasa a VIII-a nu trec la un model de examen încă nedefinit",
+            "major": true,
+            "article": "art. unic"
+          },
+          {
+            "text": "Fără impact bugetar direct și fără obligații noi pentru cetățeni sau IMM-uri",
+            "major": false,
+            "article": "art. unic"
+          },
+          {
+            "text": "Poate evita costurile unei implementări făcute în grabă",
+            "major": false,
+            "article": "art. unic"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 3,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:42:41.740Z"
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "slug": "plx-536-2026",
+  "billId": "Pl-x 536/2026",
+  "updatedAt": "2026-10-30T08:42:59.758Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/500/30/6/pl536.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Admiterea la liceu cu probe organizate de fiecare liceu se amână cu doi ani",
+      "summaryTlDr": "Lege tehnică de amânare care păstrează pentru încă două generații sistemul actual de admitere, bazat pe Evaluarea Națională și repartiție computerizată. Efectul e în principiu protector pentru elevi, dar textul are o formulare ambiguă și nu obligă pe nimeni să rezolve problemele invocate în cei doi ani câștigați.",
+      "scores": {
+        "agy": null,
+        "claude": 3,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?cd536_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Admiterea la liceu rămâne doar pe baza Evaluării Naționale, iar concursurile organizate de licee dispar",
+      "summaryTlDr": "Sub eticheta de „amânare”, legea elimină definitiv concursurile de admitere organizate de licee și păstrează repartizarea computerizată după Evaluarea Națională. Pentru familii aduce stabilitate și nu ascunde nicio capcană, însă tehnica legislativă e slabă: o amânare cerută pentru consultare a devenit o abrogare fără studiu de impact.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "mai_putin_riscant",
+      "headline": "Concursul de admitere organizat de licee e eliminat definitiv, nu doar amânat",
+      "summary": "Inițial, legea doar amâna concursul organizat de licee. Acum îl desființează definitiv: toți elevii intră prin repartizare computerizată după Evaluarea Națională, cu excepția filierei vocaționale. Dispar însă regulile pentru liceul tehnologic și dual.",
+      "changes": [
+        {
+          "title": "Concursul organizat de licee dispare definitiv",
+          "text": "Art. II pct. 1 abrogă art. 101 alin. (2). Admiterea prin concurs propriu, pentru maximum 50% din locuri, e eliminată pentru totdeauna, deși inițiativa vorbea doar de amânare.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. II pct. 1",
+          "before": null,
+          "after": "1. La articolul 101, alineatul (2) se abrogă.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Toți intră după Evaluarea Națională, prin calculator",
+          "text": "Noul art. 101 alin. (4): după locurile prioritare (elevi cu dizabilități/CES, romi), restul se ocupă computerizat după notele la Evaluarea Națională. Liceele nu mai pot stabili ponderi proprii.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. II pct. 2",
+          "before": null,
+          "after": "(4) Locurile rămase neocupate după repartizarea prevăzută la alin. (3) se atribuie pe baza rezultatelor obținute la evaluarea națională, conform opțiunilor exprimate, prin repartiție computerizată.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dispar regulile pentru liceul tehnologic și dual",
+          "text": "Prin abrogarea art. 101 alin. (5)–(9), nu mai apar condițiile de acces stabilite cu firmele și obligația de a publica programele probelor până la începutul clasei a VIII-a.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. II pct. 3",
+          "before": null,
+          "after": "3. La articolul 101, alineatele (5) – (9) se abrogă.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Probe de aptitudini doar la liceele vocaționale",
+          "text": "Noul art. 101 alin. (10) păstrează numai probele de aptitudini pentru filiera vocațională, organizate înaintea Evaluării Naționale.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. II pct. 2",
+          "before": null,
+          "after": "(10) Prin excepție de la prevederile alin. (3) și (4), unitățile de învățământ organizează, pentru filiera vocațională, anterior susținerii evaluării naționale, probe de aptitudini specifice pentru admitere.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Concursul liceelor e desființat definitiv, deși inițiativa propunea doar o amânare",
+            "major": true,
+            "article": "art. II pct. 1"
+          },
+          {
+            "text": "Lipsesc condițiile de acces la liceul tehnologic și dual stabilite cu firmele",
+            "major": true,
+            "article": "art. II pct. 3"
+          },
+          {
+            "text": "Nu mai există obligația de a publica programele probelor până în clasa a VIII-a",
+            "major": false,
+            "article": "art. II pct. 2"
+          },
+          {
+            "text": "Neclar dacă generația din clasa a V-a în 2025-2026 intră sub noul regim",
+            "major": false,
+            "article": "art. I"
+          },
+          {
+            "text": "Termenul e prorogat separat, iar textul legii educației arată tot anul 2023-2024",
+            "major": false,
+            "article": "art. I"
+          }
+        ],
+        "good": [
+          {
+            "text": "Regulă unică de admitere: repartizare computerizată după notele la Evaluarea Națională",
+            "major": true,
+            "article": "art. II pct. 2"
+          },
+          {
+            "text": "Locurile pentru elevi cu dizabilități/CES și elevi romi se ocupă primele",
+            "major": true,
+            "article": "art. II pct. 2"
+          },
+          {
+            "text": "Familiile scapă de costuri cu meditații și deplasări pentru probe suplimentare",
+            "major": true,
+            "article": "art. II pct. 1"
+          },
+          {
+            "text": "Probele de aptitudini pentru filiera vocațională rămân, înaintea Evaluării Naționale",
+            "major": false,
+            "article": "art. II pct. 2"
+          },
+          {
+            "text": "Intră în vigoare la 3 zile, justificat de începerea anului școlar",
+            "major": false,
+            "article": "art. III"
+          },
+          {
+            "text": "Fără impact bugetar direct și fără obligații sau sancțiuni noi",
+            "major": false,
+            "article": null
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 13,
+        "removed": 5,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:42:59.758Z"
+    }
+  ]
+}

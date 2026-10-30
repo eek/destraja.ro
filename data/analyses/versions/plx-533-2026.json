@@ -1,0 +1,146 @@
+{
+  "slug": "plx-533-2026",
+  "billId": "PL-x 533/2026",
+  "updatedAt": "2026-10-30T08:41:43.277Z",
+  "versions": [
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/30/3/se533.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Banii SAFE pentru apărare, mutați contabil pe „sertarul” corect din buget",
+      "summaryTlDr": "Este o lege tehnică de contabilitate bugetară: banii deja contractați pentru proiectele SAFE sunt mutați pe titlul de cheltuieli dedicat, iar creditele eliberate sunt blocate. Riscul real e mic. Singura problemă notabilă este redactarea vagă („noul titlu de cheltuieli” nu este numit în lege).",
+      "scores": {
+        "agy": null,
+        "claude": 2,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl533_cd533_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Corecție contabilă pentru banii de apărare SAFE, plus trei măsuri bugetare adăugate pe parcurs",
+      "summaryTlDr": "Nucleul legii (SAFE) este o corecție contabilă inofensivă și chiar prudentă. Problema sunt cele trei articole adăugate pe drum, neexplicate în expunerea de motive: o excepție pentru CNI, un regim favorabil pentru operatori economici care au avut restanțe și o portiță prin care se pot muta credite bugetare, fără plafon, spre capitalizarea unei bănci de stat.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_riscant",
+      "headline": "Camera a adăugat mutări de bani spre Banca de Dezvoltare fără plafon și reguli CNI stabilite prin contract",
+      "summary": "Inițial legea permitea doar mutarea creditelor SAFE pe un titlu nou. Acum include și o excepție pentru CNI, un regim pentru firme cu restanțe și redistribuiri spre Banca Națională de Dezvoltare, fără plafon sau raportare. Banul public devine astfel mai greu de urmărit.",
+      "changes": [
+        {
+          "title": "Bani europeni mutați spre Banca de Dezvoltare, fără plafon",
+          "text": "Art. IV nou: creditele pentru fonduri europene nerambursabile din bugetul MF pot fi redistribuite spre injecția de capital în BND (PNRR). Textul nu fixează o sumă maximă și nu cere raportare.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. IV",
+          "before": null,
+          "after": "Creditele bugetare aferente articolului 01 „Fonduri europene nerambursabile” prevăzute în bugetul Ministerului Finanțelor – Acțiuni Generale pot fi redistribuite și la articolul 16 „Sume aferente investiției 11 „Injectie de capital în Banca Națională de Dezvoltare”",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Regulile pentru CNI trec din lege în contracte",
+          "text": "Art. II nou: CNI este scutită de art. 5 alin. (3) din OG 25/2001. Mecanismul de implementare și eligibilitatea cheltuielilor se stabilesc prin Acord de implementare și contract, documente mai greu de urmărit public.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. II",
+          "before": null,
+          "after": "Cheltuielile efectuate de Compania Națională de Investiții „C.N.I.” - S.A. prevăzute la alin. (1³) sunt eligibile în condițiile prevăzute în contractul/decizia de finanțare și în Acordul de implementare.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Regim nou pentru firmele care și-au plătit restanțele",
+          "text": "Art. III nou: sunt incluși operatorii economici cu plăți restante la 31.12.2025, fără pierderi, dacă la 30.08.2026 nu mai au restanțe. Condiția finală e ambiguă: cumulativă sau alternativă.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. III",
+          "before": null,
+          "after": "c) operatorii economici care au înregistrat plăți restante la data de 31 decembrie 2025 și nu au înregistrat pierderi la aceeași dată, cu condiția ca la data de 30 august 2026 să nu înregistreze plăți restante și să nu prevadă în anul 2026 pierderi și plăți restante.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Redistribuirea spre Banca de Dezvoltare nu are sumă maximă și nici obligație de raportare",
+            "major": true,
+            "article": "art. IV"
+          },
+          {
+            "text": "Mecanismul și eligibilitatea cheltuielilor CNI se fixează prin contracte, nu prin lege",
+            "major": true,
+            "article": "art. II"
+          },
+          {
+            "text": "Condiția „să nu prevadă pierderi și plăți restante” poate fi citită cumulativ sau alternativ",
+            "major": true,
+            "article": "art. III"
+          },
+          {
+            "text": "Legea nu reproduce regimul de bază aplicat noilor operatori economici incluși",
+            "major": false,
+            "article": "art. III"
+          },
+          {
+            "text": "„Noul titlu de cheltuieli” nu e numit; titlul 66 apare doar în expunere",
+            "major": false,
+            "article": "art. I"
+          },
+          {
+            "text": "Data adoptării de Cameră apare greșit ca 5 august 2025",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Creditele eliberate nu pot fi folosite pentru cheltuieli noi, virări sau Fondul de rezervă",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Regim favorabil doar pentru firmele fără pierderi care și-au achitat restanțele",
+            "major": true,
+            "article": "art. III"
+          },
+          {
+            "text": "Contractorii SAFE nu sunt afectați: angajamentele legale încheiate rămân valabile",
+            "major": false,
+            "article": "art. I"
+          },
+          {
+            "text": "Redistribuirea spre BND rămâne supusă condițiilor art. 59 din Legea 43/2026",
+            "major": false,
+            "article": "art. IV"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 10,
+        "removed": 4,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:41:27.218Z"
+    }
+  ]
+}

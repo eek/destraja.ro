@@ -1,0 +1,147 @@
+{
+  "slug": "plx-532-2026",
+  "billId": "PL-x 532/2026",
+  "updatedAt": "2026-10-30T08:41:43.276Z",
+  "versions": [
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/30/2/se532bun.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Strategia României pentru protejarea naturii 2026-2030, cu frâne adăugate de Senat",
+      "summaryTlDr": "Strategia este utilă și necesară, fiind legată de un jalon PNRR și de Convenția CBD. Senatul a adăugat însă clauze redactate defectuos, în special Art. 3 și Art. 5, care creează ambiguități și pot întârzia implementarea, deși nu impun poveri directe cetățenilor.",
+      "scores": {
+        "agy": null,
+        "claude": 4,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl532_cd532_26_(complet).pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Planul României pentru protejarea naturii 2026-2030, cu frâne pentru restricțiile pe proprietăți",
+      "summaryTlDr": "Lege-cadru benignă: aprobă strategia de biodiversitate cerută prin PNRR și nu pune nicio obligație directă pe cetățeni sau firme. Problemele țin de redactare: un aviz local „normativ” confuz (art. 3) și un plafon la „minimul UE” (art. 5), care trimite chiar țintele principale ale strategiei către legi viitoare.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Forma adoptată de Cameră păstrează neschimbat fondul textului Senatului; diferențele sunt doar de redactare",
+      "summary": "Acum textul legii este identic ca fond cu cel inițial. Diferă doar camera care l-a adoptat, data, punctuația, diacriticele și câteva corecturi sau greșeli în cuprinsul și lista de abrevieri din anexă. Riscul pentru cetățeni și firme rămâne același.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Avizul consultativ trebuie dat prin hotărâre „cu caracter normativ”, contradicție juridică",
+            "major": false,
+            "article": "art. 3"
+          },
+          {
+            "text": "Folosește „consiliu comunal/orășenesc”, noțiuni inexistente în Codul administrativ",
+            "major": false,
+            "article": "art. 3"
+          },
+          {
+            "text": "Nu definește măsurile cu efecte locale, consiliile de consultat sau sancțiunea neconsultării",
+            "major": false,
+            "article": "art. 3"
+          },
+          {
+            "text": "Termenul de 60 de zile pentru fiecare consiliu poate produce întârzieri în lanț",
+            "major": false,
+            "article": "art. 3"
+          },
+          {
+            "text": "Plafonul la cerințele UE intră în conflict cu angajamente CBD și Kunming-Montreal",
+            "major": false,
+            "article": "art. 5"
+          },
+          {
+            "text": "Țintele de 30% și 10% arii protejate depind de legi viitoare",
+            "major": false,
+            "article": "art. 5"
+          },
+          {
+            "text": "Noțiunea „proiecte de interes strategic național ori european” nu este definită",
+            "major": false,
+            "article": "art. 1 alin. (4)"
+          },
+          {
+            "text": "Greșeli de redactare în cuprinsul anexei („extincte”, „speciilor sălbatic”)",
+            "major": false,
+            "article": "anexa nr. I"
+          }
+        ],
+        "good": [
+          {
+            "text": "Strategia și Planul nu pot crea direct obligații, interdicții sau restrângeri de drepturi",
+            "major": true,
+            "article": "art. 1 alin. (2)"
+          },
+          {
+            "text": "Restricțiile noi pe proprietate cer bază legală expresă, proporționalitate și compensații",
+            "major": true,
+            "article": "art. 2"
+          },
+          {
+            "text": "Obligațiile peste cerințele UE se pot institui doar prin lege, cu analiză de impact",
+            "major": true,
+            "article": "art. 5"
+          },
+          {
+            "text": "Măsurile care afectează proprietatea sau afacerile cer analiză de impact și consultare publică",
+            "major": true,
+            "article": "art. 1 alin. (3)"
+          },
+          {
+            "text": "Proiectele strategice pot fi blocate doar după evaluare individuală și motivată",
+            "major": false,
+            "article": "art. 1 alin. (4)"
+          },
+          {
+            "text": "Ministerul Mediului raportează anual Parlamentului despre implementare și impact",
+            "major": false,
+            "article": "art. 1 alin. (5)"
+          },
+          {
+            "text": "Registru electronic public cu beneficiarii și valoarea proiectelor finanțate",
+            "major": false,
+            "article": "art. 1 alin. (6)"
+          },
+          {
+            "text": "Strategia se evaluează la fiecare doi ani, cu propuneri de actualizare",
+            "major": false,
+            "article": "art. 1 alin. (7)"
+          },
+          {
+            "text": "Consiliile locale și județene sunt consultate înaintea măsurilor cu efecte locale",
+            "major": false,
+            "article": "art. 3"
+          }
+        ],
+        "partial": true
+      },
+      "diff": {
+        "added": 373,
+        "removed": 378,
+        "same": 0.75
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:41:43.276Z"
+    }
+  ]
+}

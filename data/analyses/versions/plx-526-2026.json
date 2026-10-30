@@ -1,0 +1,216 @@
+{
+  "slug": "plx-526-2026",
+  "billId": "PL-x 526/2026",
+  "updatedAt": "2026-10-30T08:40:03.308Z",
+  "versions": [
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/20/6/se607.pdf",
+      "source": "cdep.ro",
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Criză la carburanți: plafon la adaos, acciză mai mică la motorină și export doar cu aprobarea ministerelor",
+      "summaryTlDr": "Măsurile ajută șoferii pe termen scurt, mai ales prin reducerea accizei la motorină. Problema este că legea dă Guvernului o putere practic nelimitată în timp, prin hotărâri de guvern succesive, și introduce un regim de aprobare a exporturilor fără termene, criterii sau cale de atac.",
+      "scores": {
+        "agy": null,
+        "claude": 6,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl526_cd526_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 6.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Criza carburanților: adaos plafonat, acciză mai mică la motorină și export doar cu aprobare",
+      "summaryTlDr": "Legea vrea să protejeze consumatorii, iar o parte din mecanisme sunt cifrate și verificabile. Are însă trei probleme mari: rafinarea și prima vânzare sunt scoase din plafon, exportul de motorină și țiței depinde de un acord fără criterii și fără termen, iar criza poate fi prelungită prin HG fără nicio limită totală.",
+      "scores": {
+        "agy": 8,
+        "claude": 5,
+        "codex": 7
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_riscant",
+      "headline": "Importatorii de carburanți sunt scoși de sub plafonul adaosului comercial, ca și rafinăriile",
+      "summary": "Acum sunt scoase din plafonarea adaosului, pe lângă rafinare, și importul și prima vânzare a carburanților importați. Contradicția din art. 2 devine mai mare, iar marii jucători pot ieși din plafon. Benzinăriile independente rămân plafonate.",
+      "changes": [
+        {
+          "title": "Importul și prima vânzare a importurilor scapă de plafon",
+          "text": "Art. 2 alin. (11) scotea inițial din plafon doar rafinarea și prima vânzare a produselor rafinate. Acum scoate și importul și prima vânzare a produselor importate, deși alin. (1) și (7) îi includ pe importatori.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 2 alin. (11)",
+          "before": "Activitatea de rafinare și prima vânzare a produselor rezultate din procesarea țițeiului nu intră în sfera de aplicare a prezentului articol.",
+          "after": "Activitățile de rafinare și prima vânzare a produselor rezultate din procesarea țițeiului, precum și cele de import și prima vânzare a produselor petroliere importate nu intră în sfera de aplicare a prezentului articol.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Adaosul din 2025 se raportează la Ministerul Finanțelor",
+          "text": "Art. 2 alin. (8): valoarea medie a adaosului din 2025 și calculul ei se trimit acum Ministerului Finanțelor, nu ANAF. Procedura se stabilește prin ordin al ministrului finanțelor.",
+          "effect": "neutru",
+          "major": false,
+          "article": "art. 2 alin. (8)",
+          "before": "precum și calculul care a determinat valoarea se comunică Agenției Naționale de Administrare Fiscală, denumită în continuare ANAF.",
+          "after": "precum și calculul care a determinat valoarea se comunică Ministerului Finanțelor.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Se precizează la ce acciză se aplică reducerea",
+          "text": "Art. 6 alin. (1) trimitea inițial vag la „anexă” din Codul fiscal. Acum indică exact poziția nr. crt. 12 din Anexa nr. 1, adică acciza la motorina standard.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 6 alin. (1)",
+          "before": "între 5% și 25% din nivelul accizei în vigoare prevăzut în anexă de la titlul VIII „Accize și alte taxe speciale\" din Legea nr. 227/2015",
+          "after": "între 5% și 25% din nivelul accizei în vigoare prevăzut la nr. crt. 12 din Anexa nr. 1 de la titlul VIII „Accize și alte taxe speciale” din Legea nr. 227/2015",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Rafinorii și importatorii sunt plafonați la alin. (1) și (7), dar exceptați la (11)",
+            "major": true,
+            "article": "art. 2"
+          },
+          {
+            "text": "Vânzarea prin stațiile proprii poate fi prezentată ca „primă vânzare”, deci neplafonată",
+            "major": true,
+            "article": "art. 2 alin. (11)"
+          },
+          {
+            "text": "Adaosul ignoră costurile de operare, iar benzinăriile mici pot ajunge sub cost",
+            "major": true,
+            "article": "art. 2 alin. (3)-(6)"
+          },
+          {
+            "text": "Plafonul rămâne la nivelul din 2025, majorat o singură dată cu inflația",
+            "major": true,
+            "article": "art. 2 alin. (6)"
+          },
+          {
+            "text": "Exportul de motorină și țiței, inclusiv contractele existente, cere acordul a două ministere",
+            "major": true,
+            "article": "art. 3"
+          },
+          {
+            "text": "Acordul pentru export nu are criterii, termen, acord tacit sau cale de atac",
+            "major": true,
+            "article": "art. 3"
+          },
+          {
+            "text": "Exportul fără acord: amendă din cifra de afaceri și confiscare",
+            "major": true,
+            "article": "art. 19"
+          },
+          {
+            "text": "Guvernul poate prelungi criza prin HG fără limită totală",
+            "major": true,
+            "article": "art. 1 alin. (1)-(2)"
+          },
+          {
+            "text": "Parlamentul este doar informat despre prelungiri, nu votează",
+            "major": true,
+            "article": "art. 1 alin. (6)"
+          },
+          {
+            "text": "Guvernul poate schimba prin HG anul de referință al plafonului și al accizei",
+            "major": true,
+            "article": "art. 1 alin. (5)"
+          },
+          {
+            "text": "Unitatea de măsură „litri, tone” e formulată ambiguu",
+            "major": false,
+            "article": "art. 2 alin. (4)"
+          },
+          {
+            "text": "Pragurile de 20% nu se aplică prelungirilor succesive ale crizei",
+            "major": false,
+            "article": "art. 1 alin. (3)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Acciza la motorină scade cu 5–25% după o formulă publică",
+            "major": true,
+            "article": "art. 5-8"
+          },
+          {
+            "text": "Plafonul se verifică pe media întregii crize, nu lună de lună",
+            "major": true,
+            "article": "art. 2 alin. (12)"
+          },
+          {
+            "text": "Prețul la pompă crește cel mult o dată pe zi și scade oricând",
+            "major": true,
+            "article": "art. 2 alin. (10)"
+          },
+          {
+            "text": "Contribuție de solidaritate pe veniturile excepționale ale producătorilor de țiței",
+            "major": true,
+            "article": "art. 9-10"
+          },
+          {
+            "text": "Contribuția este deductibilă și scoasă din baza impozitului din OG 6/2013",
+            "major": true,
+            "article": "art. 11"
+          },
+          {
+            "text": "Depășirea plafonului de cel mult 5% se amendează cu dublul depășirii",
+            "major": true,
+            "article": "art. 18 alin. (3)"
+          },
+          {
+            "text": "Firmele pot face observații și pot ataca deciziile Consiliului Concurenței în instanță",
+            "major": true,
+            "article": "art. 18 alin. (8)-(9)"
+          },
+          {
+            "text": "Ministerul Finanțelor publică analiza și nivelul reducerii pentru fiecare jumătate de lună",
+            "major": false,
+            "article": "art. 7-8"
+          },
+          {
+            "text": "Firmele înființate în 2025 au plafonul calculat pe lunile de activitate",
+            "major": false,
+            "article": "art. 2 alin. (2)"
+          },
+          {
+            "text": "Criza și măsurile pot fi încheiate înainte de termen prin HG",
+            "major": false,
+            "article": "art. 1 alin. (4)"
+          },
+          {
+            "text": "Reducerea accizei încetează de drept la sfârșitul crizei",
+            "major": false,
+            "article": "art. 8 alin. (2)"
+          },
+          {
+            "text": "Ministerele evaluează lunar efectele asupra firmelor și populației",
+            "major": false,
+            "article": "art. 16"
+          }
+        ],
+        "partial": true
+      },
+      "diff": {
+        "added": 91,
+        "removed": 86,
+        "same": 0.56
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:40:03.308Z"
+    }
+  ]
+}

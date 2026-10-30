@@ -1,0 +1,107 @@
+{
+  "slug": "plx-528-2026",
+  "billId": "PL-x 528/2026",
+  "updatedAt": "2026-10-30T08:40:13.059Z",
+  "versions": [
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/20/8/se528.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Statul cumpără gaz Neptun Deep pe 7 ani (~12,8 mld. lei), iar plata capitalului BID se amână până la 30 septembrie",
+      "summaryTlDr": "Este o lege bugetar-tehnică, fără taxe sau sancțiuni pentru cetățeni. Totuși, autorizează un angajament multianual de circa 12,8 miliarde lei fără niciun plafon înscris în lege și lasă cuantumul în întregime la decizia Guvernului.",
+      "scores": {
+        "agy": null,
+        "claude": 4,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?cd528_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Statul își face loc în buget să cumpere gaz offshore pentru rezerve, iar plata PNRR către BID se amână cu 3 luni",
+      "summaryTlDr": "Lege tehnică, fără taxe, sancțiuni sau birocrație pentru cetățeni și firme. Problema este că permite Guvernului să angajeze statul pe 7 ani pentru gaze în valoare de circa 12,8 mld. lei fără ca legea să fixeze vreun plafon. Scopurile sunt legitime: rezerve strategice din gazul offshore și bani PNRR pentru BID. Slab este controlul parlamentar asupra unei sume foarte mari.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a păstrat textul Senatului: plafonul pentru achizițiile de gaz rămâne stabilit de Guvern",
+      "summary": "Camera nu a schimbat nimic de fond față de forma Senatului: diferă doar antetul, data adoptării, semnătura și unele spații sau prescurtări. Rămân aceleași riscuri: fără plafon legal pentru credite și contracte care leagă bugetele pe circa 7 ani.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Legea nu fixează plafonul creditelor de angajament; nivelul îl stabilește Guvernul prin hotărâre",
+            "major": true,
+            "article": "art. I alin. (1)"
+          },
+          {
+            "text": "Contractele multianuale angajează bugetele până în jurul lui 2033, inclusiv viitoare legislaturi",
+            "major": true,
+            "article": "art. I alin. (3)"
+          },
+          {
+            "text": "Plățile anuale nu apar în lege și nu se indică sursa de finanțare",
+            "major": true,
+            "article": "art. I alin. (3)"
+          },
+          {
+            "text": "Lipsesc reguli privind valorificarea gazului, pierderile și raportarea periodică către Parlament",
+            "major": false,
+            "article": "art. I alin. (3)"
+          },
+          {
+            "text": "Noul termen nu modifică expres art. 67 alin. (3) din Legea 43/2026",
+            "major": false,
+            "article": "art. II"
+          },
+          {
+            "text": "Termenul pentru vărsămintele la BID e repus după expirarea celui inițial",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "good": [
+          {
+            "text": "Nivelul creditelor se aprobă prin hotărâre publicată, atacabilă în contencios, nu prin memorandum",
+            "major": false,
+            "article": "art. I alin. (1)"
+          },
+          {
+            "text": "Modificările din anexele bugetului sunt limitate de hotărâre și comunicate Ministerului Finanțelor",
+            "major": false,
+            "article": "art. I alin. (2)"
+          },
+          {
+            "text": "Suma și destinația vărsămintelor la capitalul BID rămân neschimbate",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 6,
+        "removed": 5,
+        "same": 0.25
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:39:48.376Z"
+    }
+  ]
+}

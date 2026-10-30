@@ -1,0 +1,117 @@
+{
+  "slug": "plx-525-2026",
+  "billId": "PL-x 525/2026",
+  "updatedAt": "2026-10-30T08:39:11.650Z",
+  "versions": [
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/20/5/se606.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "TVA de 9% la locuințe: termenul se prelungește până la 30 septembrie 2026, plus banii înapoi pentru cine a plătit 21% în august",
+      "summaryTlDr": "Este o lege tehnică, de grație temporară, care îi protejează pe cumpărătorii cu avans plătit până la 1 august 2025. Problemele reale sunt de redactare: restituirea retroactivă nu are termen-limită și nici termen de plată, iar impactul bugetar e prezentat drept nul fără o fișă financiară.",
+      "scores": {
+        "agy": null,
+        "claude": 3,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl525_cd525_26_(1).pdf",
+      "source": "cdep.ro",
+      "riskScore": 2.7,
+      "riskLevel": "green",
+      "plainTitle": "Încă două luni de TVA 9% la locuințe pentru cei cu antecontract din 2025",
+      "summaryTlDr": "Este o amânare punctuală și în esență benignă. Cine a semnat antecontract cu avans până la 31 iulie 2025 mai are timp până la 30 septembrie 2026 să cumpere cu TVA 9%, iar cine a plătit deja cota standard în august își poate cere diferența înapoi. Problemele țin de tehnica legislativă și de cost: impactul bugetar nu e zero, cum susține expunerea, iar restituirea depinde în întregime de un ordin ANAF.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a păstrat textul Senatului: doar corecturi de formă, regimul TVA 9% și restituirea rămân la fel",
+      "summary": "Acum textul e identic ca fond cu cel inițial. Diferențele sunt doar de redactare: antetul, ghilimelele, spațierea trimiterilor și semnătura. Cota de 9%, plafoanele, termenele și restituirea diferenței de TVA nu s-au schimbat.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Restituirea diferenței de TVA e cheltuială bugetară directă, deși se afirmă impact zero",
+            "major": true,
+            "article": "art. II"
+          },
+          {
+            "text": "Primăriile primesc restituire fără plafon de suprafață, valoare sau număr de clădiri",
+            "major": true,
+            "article": "art. II alin. (4)"
+          },
+          {
+            "text": "Se restituie doar locuința cu primul fapt generator, cumpărătorul nu poate alege",
+            "major": true,
+            "article": "art. II alin. (3)"
+          },
+          {
+            "text": "Lipsesc termen de depunere, termen de plată și dobânzi pentru întârzierea restituirii",
+            "major": false,
+            "article": "art. II alin. (5)"
+          },
+          {
+            "text": "Procedura de restituire e lăsată integral pe seama unui ordin ANAF",
+            "major": false,
+            "article": "art. II alin. (5)"
+          },
+          {
+            "text": "Termen inconsecvent: 30 septembrie inclusiv pentru persoane, «până la 1 octombrie» pentru primării",
+            "major": false,
+            "article": "art. I alin. (1), (3), (4)"
+          }
+        ],
+        "good": [
+          {
+            "text": "TVA 9% doar pentru locuințe de cel mult 120 mp și 600.000 lei",
+            "major": true,
+            "article": "art. I alin. (1)"
+          },
+          {
+            "text": "Cei care au plătit cota standard pot recupera diferența până la 9%",
+            "major": true,
+            "article": "art. II alin. (1)"
+          },
+          {
+            "text": "O singură locuință cu cotă redusă de persoană începând din 2023",
+            "major": true,
+            "article": "art. I alin. (1) lit. c)"
+          },
+          {
+            "text": "Avans de 20% obligatoriu pentru antecontractele din iulie 2025, contra abuzurilor",
+            "major": true,
+            "article": "art. I alin. (2), art. II alin. (2)"
+          },
+          {
+            "text": "Notarii verifică registrul și consemnează cota de TVA aplicată în acte",
+            "major": false,
+            "article": "art. I alin. (3)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 13,
+        "removed": 12,
+        "same": 0.55
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:39:11.650Z"
+    }
+  ]
+}

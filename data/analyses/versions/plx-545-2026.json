@@ -1,0 +1,223 @@
+{
+  "slug": "plx-545-2026",
+  "billId": "PL-x 545/2026",
+  "updatedAt": "2026-10-30T08:45:07.540Z",
+  "versions": [
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/500/40/5/se589.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Conturi de investiții la bursă fără impozit, cu banii blocați până la pensie sau 65 de ani",
+      "summaryTlDr": "Este o lege utilă pentru cetățeni: un cont voluntar de investiții cu impozitare redusă, după modelul IRA/ISA, fără obligații sau sancțiuni pentru populație. Problemele țin de redactare și de lipsa oricărui plafon al contribuțiilor, care deschide un cost bugetar neestimat. Nu conține capcane împotriva cetățenilor.",
+      "scores": {
+        "agy": null,
+        "claude": 3,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl545_cd545_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "Conturi de investiții cu avantaje fiscale, blocate până la pensie sau 65 de ani",
+      "summaryTlDr": "Ideea e bună, voluntară și susținută de toate partidele: un cont de investiții cu avantaje fiscale pentru bătrânețe. Problema serioasă e la art. 13 alin. (3). Banii din CEI devin insesizabili fără plafon și fără excepții, deci contul poate deveni un adăpost față de creditori, ANAF sau pensia de întreținere.",
+      "scores": {
+        "agy": 2,
+        "claude": 4,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_putin_riscant",
+      "headline": "Regimul fiscal intră în Codul fiscal, iar scutirea pe dividende nu mai depinde de Depozitarul Central",
+      "summary": "Acum regimul fiscal e scris direct în Codul fiscal, iar scutirea pe dividende nu mai depinde de Depozitarul Central. Dispar însă dreptul explicit de a alege tipul de administrare și obligațiunile de stat OCDE/UE. Lipsa plafonului și blocarea banilor rămân.",
+      "changes": [
+        {
+          "title": "Scutirea pe dividende funcționează și la emitenți străini",
+          "text": "Inițial administratorul anunța Depozitarul Central, ceea ce nu mergea la emitenții străini, iar textul avea greșeala „CIIIV”. Acum administratorul anunță direct plătitorii de venituri (art. 7 alin. (1) lit. d)).",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 7 alin. (1)",
+          "before": "c) să înștiințeze depozitarul central despre deținerile de acțiuni în CIIIV, astfel încât emitenții care distribuie dividende să nu rețină la sursă impozitul pe dividende datorat de titularii conturilor CIIIV;",
+          "after": "d) să înștiințeze entitățile plătitoare de venituri obținute de titular ca urmare a deținerii de active investite în instrumente financiare eligibile prevăzute la art. 6 alin. (1), în vederea aplicării prevederilor art. 93 alin. (1) lit. e) din Legea nr. 227/2015",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Regimul fiscal e scris direct în Codul fiscal",
+          "text": "Art. 8 trimite acum la Codul fiscal, modificat prin art. 19. Retragerile din CEI-S sunt scutite, cele din CEI-D se impozitează cu 10% final. Nici acum nu există plafon.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 8, art. 19",
+          "before": "(2) Contribuțiile prevăzute la alin.(1) lit.a) sunt cheltuieli deductibile la calculul impozitului pe venit",
+          "after": "(2) Regimul fiscal aplicabil contribuțiilor în conturile CEI, precum și sumelor retrase din aceste conturi este cel stabilit potrivit prevederilor Legii nr. 227/2015, cu modificările și completările ulterioare.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Dispare dreptul de a alege cine administrează investițiile",
+          "text": "Inițial titularul putea alege oricând între administrarea discreționară și cea individualizată. Acum textul a dispărut din art. 3 și nu mai e clar cine decide investițiile.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 3",
+          "before": "(2) Titularul de cont are dreptul de a alege sau schimba, oricând și de oricâte ori, tipul de administrare a contului, discreționar sau individualizat, în conformitate cu prevederile Legii 126/2018",
+          "after": null,
+          "beforeAbsent": false,
+          "afterAbsent": true
+        },
+        {
+          "title": "Obligațiunile de stat OCDE/UE nu mai sunt permise explicit",
+          "text": "Art. 6 alin. (1) nu mai permite separat investiția în obligațiuni de stat OCDE/UE. Piețele din afara UE trebuie acum să fie „echivalente”.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 6 alin. (1)",
+          "before": "precum și în titluri de participare emise de OPCVM-uri distribuite în conformitate cu legislația aplicabilă și în obligațiuni emise de state membre ale Organizației pentru Cooperare și Dezvoltare Economică și/sau ale Uniunii Europene.",
+          "after": "precum și în titluri de participare emise de OPCVM-uri distribuite în conformitate cu legislația aplicabilă.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Document justificativ pentru contribuțiile deductibile",
+          "text": "Administratorul trebuie să dea titularului un document cu contribuțiile în CEI-D, necesar pentru deducere (art. 7 alin. (1) lit. c)). La cerere, documentul se dă gratuit și pe hârtie.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 7 alin. (1) lit. c)",
+          "before": null,
+          "after": "c) să furnizeze titularului un document justificativ privind contribuțiile efectuate în conturile CEI-D.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Niciun plafon pentru contribuții sau scutire; impactul bugetar nu e cuantificat",
+            "major": true,
+            "article": "art. 19"
+          },
+          {
+            "text": "Oricine poate deschide cont, fără condiție de rezidență fiscală sau vârstă",
+            "major": true,
+            "article": "art. 4"
+          },
+          {
+            "text": "Active insesizabile fără plafon și fără excepție pentru întreținere sau datorii",
+            "major": true,
+            "article": "art. 13 alin. (3)"
+          },
+          {
+            "text": "Interdicția vagă privind „tranzacții” contrazice cumpărările și transferurile permise",
+            "major": true,
+            "article": "art. 13 alin. (3)"
+          },
+          {
+            "text": "Bani blocați până la pensie sau 65 de ani, fără excepții",
+            "major": true,
+            "article": "art. 5 alin. (3)"
+          },
+          {
+            "text": "Cine lucrează după 65 de ani nu mai poate contribui",
+            "major": true,
+            "article": "art. 5 alin. (2)"
+          },
+          {
+            "text": "Firmele de investiții din alte state UE, fără sucursală, par excluse",
+            "major": true,
+            "article": "art. 1 alin. (3)"
+          },
+          {
+            "text": "Brokerii care doar execută ordine pot fi excluși ca administratori",
+            "major": true,
+            "article": "art. 1 alin. (3)"
+          },
+          {
+            "text": "Nu e clar cine decide investițiile: titularul sau administratorul",
+            "major": false,
+            "article": "art. 1 alin. (3)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Retragerile din CEI-S sunt scutite de impozit și contribuții sociale",
+            "major": true,
+            "article": "art. 19"
+          },
+          {
+            "text": "Contribuțiile CEI-D sunt deductibile; retragerile se impozitează final cu 10%",
+            "major": true,
+            "article": "art. 19"
+          },
+          {
+            "text": "Câștigurile nu se impozitează cât timp banii rămân în cont",
+            "major": true,
+            "article": "art. 19"
+          },
+          {
+            "text": "Scutirea pe dividende se aplică prin plătitorii de venituri",
+            "major": true,
+            "article": "art. 7 alin. (1) lit. d)"
+          },
+          {
+            "text": "Transfer gratuit între administratori în cel mult 15 zile lucrătoare",
+            "major": true,
+            "article": "art. 9"
+          },
+          {
+            "text": "Activele sunt protejate de Fondul de Compensare a Investitorilor",
+            "major": true,
+            "article": "art. 10"
+          },
+          {
+            "text": "Moștenitorii pot transfera activele în cont propriu sau le pot retrage",
+            "major": true,
+            "article": "art. 11"
+          },
+          {
+            "text": "Fără derivate, cu excepția OPCVM-urilor pentru indice sau hedging",
+            "major": true,
+            "article": "art. 6 alin. (2)"
+          },
+          {
+            "text": "ASF poate amenda administratorii cu 1.000–100.000 lei",
+            "major": true,
+            "article": "art. 15"
+          },
+          {
+            "text": "Document informativ standardizat, în română, înainte de deschiderea contului",
+            "major": false,
+            "article": "art. 12"
+          },
+          {
+            "text": "Extras anual online; comisioane anunțate cu preaviz de 30 de zile",
+            "major": false,
+            "article": "art. 7"
+          },
+          {
+            "text": "Titularul este proprietarul activelor din contul său",
+            "major": false,
+            "article": "art. 13 alin. (2)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 113,
+        "removed": 72,
+        "same": 0.07
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:45:07.540Z"
+    }
+  ]
+}

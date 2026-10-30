@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from 'react';
 import Link from 'next/link';
-import { AlertTriangle, ArrowRight, BarChart3, ChevronDown, ChevronRight, Flame, Layers, Scale, ShieldAlert, Sparkles, Users } from 'lucide-react';
+import { AlertTriangle, ArrowRight, BarChart3, ChevronDown, ChevronRight, Flame, Layers, Scale, ShieldAlert, Sparkles } from 'lucide-react';
 import type { BillLite } from '@/lib/types';
 import { ARC_DATE, OPOZITIE, PUTERE, SPRIJIN } from '@/lib/site';
 import { RISK, levelFromScore } from '@/lib/risk';
@@ -55,14 +55,7 @@ export function buildHeadlines(stats: Stats, counts: RiskCounts) {
       text: `${countWord(ces, 'proiect aflat', 'proiecte aflate')} în consultare ${ces === 1 ? 'are' : 'au'} aviz negativ de la Consiliul Economic și Social.`,
     });
   }
-  const mp = [...stats.mpStats].sort((a, b) => b.redCount - a.redCount || b.billsCount - a.billsCount)[0];
-  if (mp && mp.redCount > 0) {
-    out.push({
-      key: 'mp',
-      icon: Users,
-      text: `${mp.name} (${mp.party}) a semnat ${countWord(mp.redCount, 'proiect', 'proiecte')} cu risc ridicat din ${countWord(mp.billsCount, 'inițiativă', 'inițiative')} aflate în consultare.`,
-    });
-  }
+  // Fără titlul despre parlamentarul cu cele mai multe proiecte riscante: arăta ca o țintă, nu ca o informație.
   if (counts.split > 0) {
     out.push({
       key: 'split',
@@ -107,7 +100,7 @@ export function PartyDetail({ party, mps, onDossier }: { party?: PartyStat; mps:
   if (!party) return <p className="text-sm text-muted">Alege un partid din grafic.</p>;
   const topMps = mps
     .filter((m) => m.party === party.party)
-    .sort((a, b) => b.redCount - a.redCount || b.billsCount - a.billsCount)
+    .sort((a, b) => b.billsCount - a.billsCount || a.name.localeCompare(b.name, 'ro'))
     .slice(0, 5);
   const share = party.billsCount ? Math.round((party.redCount / party.billsCount) * 100) : 0;
   const facts = [
@@ -163,7 +156,7 @@ export function PartyDetail({ party, mps, onDossier }: { party?: PartyStat; mps:
                 <Link href={`/parlamentari/${m.slug}`} className="flex items-center justify-between gap-3 rounded-md py-1 text-sm hover:underline hover:underline-offset-4">
                   <span className="truncate text-ink">{m.name}</span>
                   <span className="shrink-0 text-xs tabular-nums text-muted">
-                    {countWord(m.billsCount, 'proiect', 'proiecte')} · <span className={m.redCount ? 'text-risk-red-text' : ''}>{m.redCount} cu risc ridicat</span>
+                    {countWord(m.billsCount, 'proiect semnat', 'proiecte semnate')}
                   </span>
                 </Link>
               </li>

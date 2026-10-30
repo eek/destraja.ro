@@ -1,8 +1,7 @@
 'use client';
 
 import { useMemo, useState } from 'react';
-import Link from 'next/link';
-import { ArrowRight, Check, Copy, Download } from 'lucide-react';
+import { Check, Copy, Download } from 'lucide-react';
 import type { BillLite } from '@/lib/types';
 import { CONTENT_LICENSE, SITE_URL } from '@/lib/site';
 import { countWord, fmt } from '@/lib/format';
@@ -195,35 +194,10 @@ export default function PressClient({ bills: initial, coverage, builtOn }: { bil
           </div>
         </section>
 
-        <div className="grid grid-cols-1 gap-6 lg:grid-cols-12">
-          <div className={`${panel} p-5 sm:p-7 lg:col-span-5`}>
-            <CesList bills={stats.cesNegativeBills} />
-          </div>
-          <div className={`${panel} flex flex-col p-5 sm:p-7 lg:col-span-7`}>
-            <PanelTitle title="Inițiatorii cu cele mai multe proiecte riscante" sub={`${countWord(stats.mpStats.length, 'parlamentar', 'parlamentari')} au semnat proiectele urmărite.`} />
-            <ol className="mt-4 divide-y divide-line">
-              {stats.mpStats.slice(0, 6).map((m) => (
-                <li key={m.slug}>
-                  <Link href={`/parlamentari/${m.slug}`} className="group flex items-center justify-between gap-4 py-3">
-                    <span className="min-w-0">
-                      <span className="block truncate font-semibold text-ink group-hover:underline group-hover:underline-offset-4">{m.name}</span>
-                      <span className="block text-xs text-muted">
-                        {m.party} · {m.role}
-                      </span>
-                    </span>
-                    <span className="shrink-0 text-right text-xs tabular-nums text-muted">
-                      <span className="font-semibold text-risk-red-text">{m.redCount} cu risc ridicat</span>
-                      <span className="block">din {countWord(m.billsCount, 'proiect', 'proiecte')}</span>
-                    </span>
-                  </Link>
-                </li>
-              ))}
-            </ol>
-            <Link href="/parlamentari" className={`${linkCls} mt-auto inline-flex min-h-11 items-center gap-1.5 pt-4 text-sm`}>
-              Caută orice parlamentar
-              <ArrowRight className="h-4 w-4" aria-hidden />
-            </Link>
-          </div>
+        {/* Fără clasamentul „inițiatorii cu cele mai multe proiecte riscante”: favoriza pe cei cu puține proiecte, dintre care unul
+            riscant, și arăta ca o listă de ținte. Fiecare parlamentar are pagina lui, cu tot ce a semnat. */}
+        <div className={`${panel} p-5 sm:p-7`}>
+          <CesList bills={stats.cesNegativeBills} />
         </div>
 
         <section id="tabel" aria-labelledby="tabel-title" className={`${panel} scroll-mt-24 p-5 sm:p-7`}>

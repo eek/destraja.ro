@@ -1,20 +1,16 @@
 import { ArrowRight, ChevronDown, ExternalLink } from 'lucide-react';
-import type { BillVersion, BillVersions as Versions, RemainingItem, VersionChange, VersionItem } from '@/lib/types';
+import type { ReactNode } from 'react';
+import type { Amendment, BillAmendments, BillVersion, BillVersions as Versions, RemainingItem, VersionChange, VersionItem } from '@/lib/types';
 import { MODELS } from '@/lib/site';
 import { RISK } from '@/lib/risk';
 import { fmt } from '@/lib/format';
 import { RiskChip, panel } from '@/components/ui';
+import { EFFECT, Mark } from './effect';
+import { AmendmentCredit } from './BillAmendments';
 
 type Key = BillVersion['key'];
 type Effect = VersionItem['effect'];
 
-// Direcția se citește și fără culori: pătrat = mai rău, cerc = mai bine, romb = neutru (roșul și verdele site-ului se
-// confundă pentru cine nu deosebește culorile).
-const EFFECT: Record<Effect, { label: string; text: string; mark: string }> = {
-  mai_rau: { label: 'mai rău', text: 'text-risk-red-text', mark: 'rounded-[3px] bg-risk-red' },
-  mai_bine: { label: 'mai bine', text: 'text-risk-green-text', mark: 'rounded-full bg-risk-green' },
-  neutru: { label: 'neutru', text: 'text-muted', mark: 'rotate-45 scale-[0.8] rounded-[2px] bg-faint' },
-};
 const AT: Record<Key, string> = { initiator: 'La inițiator', senat: 'La Senat', camera: 'La Cameră' };
 const FORM: Record<Key, string> = { initiator: 'forma inițiatorului', senat: 'forma Senatului', camera: 'forma Camerei' };
 const STEP: Record<Key, string> = { initiator: 'Inițiator', senat: 'Senat', camera: 'Cameră' };
@@ -35,10 +31,6 @@ function stepLabel(c: VersionChange) {
   return tacit(c) ? 'neschimbat, adoptat tacit' : 'neschimbat pe fond';
 }
 const stepEffect = (c: VersionChange): Effect => (c.direction === 'mai_riscant' ? 'mai_rau' : c.direction === 'mai_putin_riscant' ? 'mai_bine' : 'neutru');
-
-function Mark({ effect, big = false }: { effect: Effect; big?: boolean }) {
-  return <span aria-hidden className={`inline-block shrink-0 ${big ? 'h-4 w-4' : 'h-3 w-3'} ${EFFECT[effect].mark}`} />;
-}
 
 /** „3 în rău · 1 în bine”, colorat; fără tipurile care lipsesc. */
 function EffectCounts({ items }: { items: { effect: Effect }[] }) {
@@ -87,7 +79,7 @@ const summaryCls =
 type Where = { from: Key; to: Key; latest: Key };
 
 /** O schimbare majoră: titlul, explicația și, la prima, citatele deschise. */
-function MajorChange({ item, where, open }: { item: VersionItem; where: Where; open: boolean }) {
+function MajorChange({ item, where, open, credit }: { item: VersionItem; where: Where; open: boolean; credit?: ReactNode }) {
   return (
     <li className="flex gap-3 py-4 first:pt-1">
       <span className="mt-1">
@@ -100,6 +92,7 @@ function MajorChange({ item, where, open }: { item: VersionItem; where: Where; o
         </p>
         <h4 className="mt-0.5 text-[15px] font-semibold leading-6 text-ink">{item.title || item.text}</h4>
         {item.title && <p className="mt-1 text-[15px] leading-7 text-body">{item.text}</p>}
+        {credit}
         {hasQuotes(item) &&
           (open ? (
             <Quotes item={item} {...where} />
@@ -118,7 +111,7 @@ function MajorChange({ item, where, open }: { item: VersionItem; where: Where; o
 }
 
 /** O schimbare minoră: un rând cu efectul scris, iar explicația și citatele la cerere, dacă există. */
-function MinorChange({ item, where }: { item: VersionItem; where: Where }) {
+function MinorChange({ item, where, credit }: { item: VersionItem; where: Where; credit?: ReactNode }) {
   const label = <span className={`text-xs font-semibold ${EFFECT[item.effect].text}`}>{EFFECT[item.effect].label}</span>;
   const more = Boolean(item.title) || hasQuotes(item);
   return (
@@ -133,12 +126,16 @@ function MinorChange({ item, where }: { item: VersionItem; where: Where }) {
             <ChevronDown className="ml-1 inline h-3.5 w-3.5 text-muted transition-transform group-open:rotate-180" aria-hidden />
           </summary>
           {item.title && <p className="mt-1 text-sm leading-6 text-body">{item.text}</p>}
+          {credit}
           {hasQuotes(item) && <Quotes item={item} {...where} />}
         </details>
       ) : (
-        <p className="min-w-0 flex-1 text-[15px] leading-6 text-ink">
-          {label} {item.text}
-        </p>
+        <div className="min-w-0 flex-1">
+          <p className="text-[15px] leading-6 text-ink">
+            {label} {item.text}
+          </p>
+          {credit}
+        </div>
       )}
     </li>
   );
@@ -183,8 +180,15 @@ function mainChange(changes: VersionChange[]) {
 }
 
 /** Formele prin care a trecut textul și ce s-a schimbat de la una la alta. */
-export default function BillVersions({ data }: { data: Versions }) {
+export default function BillVersions({ data, amendments = null, pages = new Set() }: { data: Versions; amendments?: BillAmendments | null; pages?: Set<string> }) {
   const { versions } = data;
+  // Cine a propus fiecare schimbare de la Cameră, din raportul comisiei; id-urile vin din straja-amendments.mjs.
+  const byNr = new Map((amendments?.amendments ?? []).filter((a) => a.status === 'admis').map((a) => [a.nr, a]));
+  const credit = (c: VersionChange, item: VersionItem) => {
+    const id = `${data.changes.indexOf(c)}:${c.changes.indexOf(item)}`;
+    const list = (amendments?.matches.find((m) => m.change === id)?.amendments ?? []).map((n) => byNr.get(n)).filter((a): a is Amendment => Boolean(a));
+    return list.length ? <AmendmentCredit list={list} pages={pages} /> : undefined;
+  };
   const byKey = Object.fromEntries(versions.map((v) => [v.key, v])) as Partial<Record<Key, BillVersion>>;
   // O comparație cu o formă care lipsește din listă nu se poate arăta; celelalte rămân.
   const changes = data.changes.filter((c) => byKey[c.from] && byKey[c.to]);
@@ -302,7 +306,7 @@ export default function BillVersions({ data }: { data: Versions }) {
           <h3 className="mt-7 text-sm font-semibold text-ink">{weighted ? 'Schimbările majore' : 'Schimbările'}</h3>
           <ul className="mt-2 divide-y divide-line">
             {majors.map((c, i) => (
-              <MajorChange key={i} item={c} where={where(main)} open={i === 0} />
+              <MajorChange key={i} item={c} where={where(main)} open={i === 0} credit={credit(main, c)} />
             ))}
           </ul>
         </>
@@ -312,7 +316,7 @@ export default function BillVersions({ data }: { data: Versions }) {
           <h3 className={`${majors.length ? 'mt-5' : 'mt-7'} text-sm font-semibold text-ink`}>Schimbări minore</h3>
           <ul className="mt-1">
             {minors.map((c, i) => (
-              <MinorChange key={i} item={c} where={where(main)} />
+              <MinorChange key={i} item={c} where={where(main)} credit={credit(main, c)} />
             ))}
           </ul>
         </>
@@ -341,7 +345,7 @@ export default function BillVersions({ data }: { data: Versions }) {
                   </summary>
                   <ul className="mt-1">
                     {c.changes.map((x, i) => (
-                      <MinorChange key={i} item={x} where={where(c)} />
+                      <MinorChange key={i} item={x} where={where(c)} credit={credit(c, x)} />
                     ))}
                   </ul>
                 </details>

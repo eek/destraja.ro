@@ -295,6 +295,40 @@ export interface CdepSigned extends Signed {
   analysis: { consensus: Pick<BillAnalysis['consensus'], 'riskScore' | 'riskLevel' | 'plainTitle'> };
 }
 
+/** Autorul unui amendament, cum apare în raportul comisiei; `site` e numele lui de pe site, când potrivirea e sigură. */
+export interface AmendmentAuthor {
+  name: string;
+  role: string | null;
+  party: string | null;
+  site: string | null;
+}
+
+/** Un amendament din anexele raportului de comisie (scripts/straja-amendments.mjs). */
+export interface Amendment {
+  nr: string | null;
+  article: string | null;
+  status: 'admis' | 'respins';
+  authors: AmendmentAuthor[];
+  /** Când l-a propus comisia, nu un parlamentar anume. */
+  byCommittee: string | null;
+  summary: string;
+  quote: string | null;
+  /** Efectul schimbărilor din text produse de amendament (doar la cele admise și legate de comparația formelor). */
+  effects?: ('mai_bine' | 'mai_rau' | 'neutru')[];
+}
+
+export interface BillAmendments {
+  slug: string;
+  billId: string;
+  model: string;
+  updatedAt: string;
+  reports: string[];
+  counts: { admise: number; respinse: number };
+  amendments: Amendment[];
+  /** Ce schimbare din comparația formelor („2:0” = schimbarea 2, punctul 0) a venit din ce amendamente admise. */
+  matches: { change: string; amendments: string[] }[];
+}
+
 /** O formă a textului unui proiect (a inițiatorului, adoptată de Senat, adoptată de Cameră), cu analiza ei. */
 export interface BillVersion {
   key: 'initiator' | 'senat' | 'camera';

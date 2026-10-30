@@ -267,6 +267,8 @@ export function parseSheet(html) {
           : null,
       }
     : null;
+  // Rapoartele comisiilor (rp…pdf): au anexele cu amendamentele admise și respinse, cu autorul fiecăruia.
+  const rapoarte = [...new Set([...html.matchAll(/href="(\/comisii\/[^"]+\/pdf\/\d{4}\/rp[^"]*\.pdf)"/gi)].map((m) => `${CDEP}${m[1]}`))];
   return {
     titlu: titles.at(-1) ?? null,
     bpi: field('- B\\.P\\.I\\.:'),
@@ -282,5 +284,6 @@ export function parseSheet(html) {
     documente,
     comisii,
     consultare: consultare?.termen ? consultare : null,
+    rapoarte,
   };
 }

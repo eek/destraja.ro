@@ -3,7 +3,7 @@
 // ține propunerea de amendament pentru comisie (aceleași patru câmpuri: articol, text propus, motivare, observații).
 import fs from 'node:fs/promises';
 import path from 'node:path';
-import type { BalanceSummary, BillAnalysis, BillVersions, CdepSigned } from './types';
+import type { Amendment, BalanceSummary, BillAmendments, BillAnalysis, BillVersions, CdepSigned } from './types';
 import { getBalanceSummary } from './balance';
 import { getMpContacts } from './mp-contacts';
 import { slugify } from './format';
@@ -35,6 +35,8 @@ export interface CdepSheet {
   comisii?: { raport: CdepCommittee[]; aviz: CdepCommittee[]; termenAmendamente: string | null; termenRaport: string | null } | null;
   /** Consultarea publică de la Cameră (când e prima sesizată): termenul, câte propuneri s-au trimis și formularul de pe cdep.ro. */
   consultare?: { termen: string; propuneri: number; formular: string | null } | null;
+  /** Rapoartele comisiilor (PDF pe cdep.ro), cu anexele de amendamente; lipsește pe fișele citite înainte să le păstrăm. */
+  rapoarte?: string[];
 }
 
 export interface CdepRow {
@@ -110,6 +112,39 @@ export async function getBillVersions(slug: string): Promise<BillVersions | null
   return v && v.versions.length >= 2 ? v : null;
 }
 
+/** Amendamentele din rapoartele comisiilor, cu autorii lor (data/cdep/amendamente, scris de straja-amendments.mjs). */
+export async function getBillAmendments(slug: string): Promise<BillAmendments | null> {
+  return readJson<BillAmendments>(path.join(DIR, 'amendamente', `${slug}.json`));
+}
+
+export interface MpAmendment {
+  slug: string;
+  billId: string;
+  summary: string;
+  status: Amendment['status'];
+  effects: NonNullable<Amendment['effects']>;
+}
+
+let byMp: Promise<Map<string, MpAmendment[]>> | null = null;
+/** Amendamentele fiecărui parlamentar, după slug-ul paginii lui (doar autorii potriviți sigur cu un nume de pe site). */
+export function getAmendmentsByMp() {
+  byMp ??= (async () => {
+    const dir = path.join(DIR, 'amendamente');
+    const files = (await fs.readdir(dir).catch(() => [])).filter((f) => f.endsWith('.json'));
+    const out = new Map<string, MpAmendment[]>();
+    for (const f of files) {
+      const data = await readJson<BillAmendments>(path.join(dir, f));
+      for (const a of data?.amendments ?? []) {
+        for (const who of new Set(a.authors.flatMap((x) => (x.site ? [slugify(x.site)] : [])))) {
+          out.set(who, [...(out.get(who) ?? []), { slug: data!.slug, billId: data!.billId, summary: a.summary, status: a.status, effects: a.effects ?? [] }]);
+        }
+      }
+    }
+    return out;
+  })();
+  return byMp;
+}
+
 /** Cât mai e de comparat între forme (data/cdep/versions-status.json, scris de straja-council.mjs --versions). */
 export async function getVersionsStatus(): Promise<{ comparable: number; compared: number; pending: string[] } | null> {
   return readJson(path.join(DIR, 'versions-status.json'));
@@ -174,7 +209,7 @@ export function cdepParty(raw: string | null): string {
  * Pe fișele citite înainte să păstrăm camera fiecăruia, rolul vine din datele de contact; un partid lipsă rămâne gol,
  * iar computeMpStats îl ia din alt proiect al aceluiași parlamentar.
  */
-export async function getCdepSigned(): Promise<CdepSigned[]> {
+async function loadSigned(): Promise<CdepSigned[]> {
   const index = await getCdepIndex();
   if (!index) return [];
   const contacts = await getMpContacts();
@@ -208,4 +243,11 @@ export async function getCdepSigned(): Promise<CdepSigned[]> {
     }),
   );
   return out.filter((b) => b !== null);
+}
+
+// Pagina fiecărui proiect și a fiecărui parlamentar o cere; o citim o singură dată pe build, ca getAllBills.
+let signed: Promise<CdepSigned[]> | null = null;
+export function getCdepSigned() {
+  signed ??= loadSigned();
+  return signed;
 }

@@ -4,7 +4,7 @@ import type { Metadata } from 'next';
 import { ArrowLeft } from 'lucide-react';
 import { getAllBillsLite } from '@/lib/bills';
 import { byRiskDesc, computeMpStats, mpKey } from '@/lib/stats';
-import { getCdepSigned } from '@/lib/cdep';
+import { getAmendmentsByMp, getCdepSigned } from '@/lib/cdep';
 import { partyFullName } from '@/lib/site';
 import { RISK, RISK_LEVELS, levelFromScore } from '@/lib/risk';
 import { countWord, fmt } from '@/lib/format';
@@ -49,6 +49,7 @@ export default async function MpPage({ params }: PageProps) {
   const own = bills.filter((b) => ids.has(b.id)).sort(byRiskDesc);
   const ownChamber = chamber.filter((b) => ids.has(b.id)).sort(byRiskDesc);
   const contact = await getMpContact(mp.name);
+  const admitted = ((await getAmendmentsByMp()).get(mp.slug) ?? []).filter((a) => a.status === 'admis');
 
   const shared = new Map<string, number>();
   for (const b of [...own, ...ownChamber]) {
@@ -103,6 +104,7 @@ export default async function MpPage({ params }: PageProps) {
       </header>
 
       <WentWell
+        amended={admitted.map((a) => ({ id: a.billId, href: `/camera/${a.slug}#amendamente`, title: a.summary, better: a.effects.includes('mai_bine') }))}
         green={[
           ...own.filter((b) => b.analysis.consensus.riskLevel === 'green').map((b) => ({ id: b.id, href: `/legi/${b.slug}`, title: b.analysis.consensus.plainTitle })),
           ...ownChamber.filter((b) => b.analysis.consensus.riskLevel === 'green').map((b) => ({ id: b.id, href: `/camera/${b.slug}`, title: b.analysis.consensus.plainTitle })),
@@ -188,10 +190,21 @@ type Pick = { id: string; href: string; title: string };
  * Ce a mers bine: proiectele cu risc redus, cele devenite lege și cele care au ieșit mai bune de la Senat sau de la Cameră.
  * Pagina unui parlamentar nu trebuie să arate doar riscurile din ce a semnat.
  */
-function WentWell({ green, passed, improved }: { green: Pick[]; passed: Pick[]; improved: Pick[] }) {
+function WentWell({ amended, green, passed, improved }: { amended: (Pick & { better: boolean })[]; green: Pick[]; passed: Pick[]; improved: Pick[] }) {
+  const better = amended.filter((a) => a.better).length;
   // „24 de proiecte”, dar „3 proiecte”: cifra stă mare, separat, așa că „de” trece în etichetă.
   const de = (n: number) => (n % 100 >= 20 || (n >= 100 && n % 100 === 0) ? 'de ' : '');
   const tiles = [
+    {
+      n: amended.length,
+      label: `${de(amended.length)}${amended.length === 1 ? 'amendament admis' : 'amendamente admise'}`,
+      note: better
+        ? `Propuse de el sau de ea și acceptate de comisie; ${better === 1 ? 'unul a făcut' : `${better} au făcut`} textul mai bun.`
+        : 'Propuse de el sau de ea și acceptate de comisie.',
+      items: [...amended].sort((a, b) => Number(b.better) - Number(a.better)),
+      // Amendamentele nu sunt în lista proiectelor semnate de dedesubt; le găsești pe pagina fiecărui proiect.
+      more: 'pe paginile proiectelor',
+    },
     { n: green.length, label: `${de(green.length)}${green.length === 1 ? 'proiect' : 'proiecte'} cu risc redus`, note: 'Semnate de el sau de ea; cele trei modele le văd cu risc redus.', items: green },
     { n: passed.length, label: `${de(passed.length)}${passed.length === 1 ? 'proiect devenit' : 'proiecte devenite'} lege`, note: 'Sau ajunse la promulgare.', items: passed },
     { n: improved.length, label: `${de(improved.length)}${improved.length === 1 ? 'proiect ieșit mai bun' : 'proiecte ieșite mai bune'}`, note: 'Textul adoptat de Senat sau de Cameră e mai puțin riscant decât cel inițial.', items: improved },
@@ -202,7 +215,7 @@ function WentWell({ green, passed, improved }: { green: Pick[]; passed: Pick[]; 
       <h2 id="bine-title" className="font-display text-3xl font-normal">
         Ce a mers bine
       </h2>
-      <ul className="mt-5 grid gap-4 md:grid-cols-3">
+      <ul className={`mt-5 grid gap-4 ${tiles.length === 4 ? 'md:grid-cols-2 xl:grid-cols-4' : 'md:grid-cols-3'}`}>
         {tiles.map((t) => (
           <li key={t.label} className="rounded-2xl border border-line bg-surface p-5">
             <p className="flex items-baseline gap-2">
@@ -211,22 +224,22 @@ function WentWell({ green, passed, improved }: { green: Pick[]; passed: Pick[]; 
             </p>
             <p className="mt-1 text-sm text-muted">{t.note}</p>
             <ul className="mt-3 space-y-1.5 border-t border-line pt-3">
-              {t.items.slice(0, 3).map((b) => (
-                <li key={b.href}>
+              {t.items.slice(0, 3).map((b, i) => (
+                <li key={`${b.href}-${i}`}>
                   <Link href={b.href} className="line-clamp-2 text-sm font-semibold leading-snug text-ink underline-offset-4 hover:underline">
                     {b.title}
                   </Link>
                 </li>
               ))}
-              {t.items.length > 3 && <li className="text-xs text-muted">și încă {t.items.length - 3}, în lista de mai jos</li>}
+              {t.items.length > 3 && <li className="text-xs text-muted">și încă {t.items.length - 3}, {'more' in t ? t.more : 'în lista de mai jos'}</li>}
             </ul>
           </li>
         ))}
       </ul>
       {improved.length > 0 && (
         <p className="mt-3 max-w-[70ch] text-xs leading-5 text-muted">
-          Când un proiect iese mai bun de la Senat sau de la Cameră, schimbarea o fac de obicei comisiile, prin amendamente. Lucrăm să arătăm și cine a
-          propus fiecare amendament.
+          Când un proiect iese mai bun de la Senat sau de la Cameră, schimbarea o fac de obicei comisiile, prin amendamente. La proiectele de la
+          Cameră, pe pagina fiecăruia vezi cine a propus fiecare amendament.
         </p>
       )}
     </section>

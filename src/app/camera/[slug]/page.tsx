@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { ArrowLeft, ExternalLink, FileText, Megaphone } from 'lucide-react';
-import { type CdepSheet, cdepParty, getBillVersions, getCdepAnalysis, getCdepBill, getCdepSlugs, getCommittees, getVersionsStatus, initiatorLabel } from '@/lib/cdep';
+import { type CdepSheet, cdepParty, getBillAmendments, getBillVersions, getCdepAnalysis, getCdepBill, getCdepSlugs, getCommittees, getVersionsStatus, initiatorLabel } from '@/lib/cdep';
 import { dayDiff, shortCommittee, shortDate, stageLabel, stageOf } from '@/lib/cdep-text';
 import { RISK } from '@/lib/risk';
 import { formatDateRo, todayISO } from '@/lib/format';
@@ -11,6 +11,8 @@ import { Container, PartyTag, RiskChip, btnPrimary, linkCls, panel } from '@/com
 import { RouteSteps, type RouteStep } from '@/components/bills/BillRoute';
 import WriteCommittee from '@/components/camera/WriteCommittee';
 import BillVersions from '@/components/camera/BillVersions';
+import BillAmendments from '@/components/camera/BillAmendments';
+import { getMpPageSlugs } from '@/lib/mp-pages';
 import BillBalance from '@/components/bills/BillBalance';
 import ModelsVerdict from '@/components/bills/ModelsVerdict';
 import LiveDeadline from '@/components/bills/LiveDeadline';
@@ -42,14 +44,16 @@ const LAW_TYPE: Record<string, string> = { ordinar: 'Ordinară', organic: 'Organ
 
 export default async function CameraBillPage({ params }: PageProps) {
   const { slug } = await params;
-  const [bill, analysis, committees, versions, versionsStatus, balance] = await Promise.all([
+  const [bill, analysis, committees, versions, versionsStatus, balance, amendments] = await Promise.all([
     getCdepBill(slug),
     getCdepAnalysis(slug),
     getCommittees(),
     getBillVersions(slug),
     getVersionsStatus(),
     getBalance(slug),
+    getBillAmendments(slug),
   ]);
+  const mpPages = amendments ? await getMpPageSlugs() : new Set<string>();
   const comparing = !versions && versionsStatus?.pending.includes(slug);
   if (!bill) notFound();
 
@@ -218,7 +222,8 @@ export default async function CameraBillPage({ params }: PageProps) {
           </p>
         </section>
 
-        {versions && <BillVersions data={versions} />}
+        {versions && <BillVersions data={versions} amendments={amendments} pages={mpPages} />}
+        {amendments && <BillAmendments data={amendments} pages={mpPages} />}
         {comparing && (
           <section aria-labelledby="versiuni" role="note" className={`${panel} mt-6 p-6 sm:p-7`}>
             <h2 id="versiuni" className="text-base font-semibold text-ink">

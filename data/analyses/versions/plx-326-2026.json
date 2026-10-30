@@ -1,0 +1,117 @@
+{
+  "slug": "plx-326-2026",
+  "billId": "Pl-x 326/2026",
+  "updatedAt": "2026-10-30T08:21:27.693Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/300/20/6/pl353.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "România aderă oficial la convenția europeană împotriva meciurilor aranjate",
+      "summaryTlDr": "Este o lege de ratificare utilă și în esență benignă: aduce România în rețeaua europeană anti-blat sportiv. Are însă scăpări de tehnică legislativă: art. 3 este vag și fără sancțiune, ANAD primește atribuții noi fără finanțare, iar ruta parlamentară aleasă pentru ratificare este atipică.",
+      "scores": {
+        "agy": null,
+        "claude": 3,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl326_cd326_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "România aderă la convenția europeană împotriva meciurilor aranjate",
+      "summaryTlDr": "Lege utilă și în mare parte tehnică. Prin ea, România aderă la singurul tratat obligatoriu împotriva meciurilor trucate și numește ANAD coordonator național. Punctul slab e art. 3: un termen de 90 de zile adresat unor «autorități competente» nenumite, fără sancțiune pentru nerespectare și fără buget.",
+      "scores": {
+        "agy": 4,
+        "claude": 2,
+        "codex": 3
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Fără schimbări de fond: Camera a adoptat tacit textul inițiatorului, cu aceleași patru articole",
+      "summary": "Acum proiectul are exact conținutul inițial. S-au schimbat doar antetul, formula de adoptare și semnătura, pentru că, prin depășirea termenului, Camera l-a adoptat tacit. Riscurile pentru cetățeni și firme rămân aceleași.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "ANAD, agenție de dopaj, coordonează fără mandat, acces la date, personal sau buget",
+            "major": true,
+            "article": "art. 2"
+          },
+          {
+            "text": "Nicio fișă de impact bugetar pentru noile atribuții ale ANAD",
+            "major": true,
+            "article": "art. 2"
+          },
+          {
+            "text": "Autorități nenumite trebuie să adopte acte pentru dreptul penal, rezervat legii organice",
+            "major": true,
+            "article": "art. 3"
+          },
+          {
+            "text": "Nu e desemnată autoritatea de reglementare a pariurilor cerută de art. 9 (ONJN)",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Neclar cine primește raportările despre pariuri suspecte și combate pariurile ilegale",
+            "major": true,
+            "article": null
+          },
+          {
+            "text": "Fără rezerve: acceptă integral jurisdicția penală (art. 19), fără analiză în expunerea de motive",
+            "major": true,
+            "article": "art. 4"
+          },
+          {
+            "text": "Termenul de 90 de zile nu are nicio consecință dacă e încălcat",
+            "major": false,
+            "article": "art. 3"
+          },
+          {
+            "text": "Nicio declarație interpretativă privind compatibilitatea cu dreptul Uniunii Europene",
+            "major": false,
+            "article": "art. 4"
+          }
+        ],
+        "good": [
+          {
+            "text": "România ratifică Convenția împotriva manipulării competițiilor sportive",
+            "major": true,
+            "article": "art. 1"
+          },
+          {
+            "text": "Există un coordonator național desemnat explicit pentru politici și platforma națională",
+            "major": false,
+            "article": "art. 2"
+          },
+          {
+            "text": "Fixează un termen concret pentru adaptarea legislației naționale",
+            "major": false,
+            "article": "art. 3"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 4,
+        "removed": 4,
+        "same": 0.5
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:21:27.693Z"
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "slug": "plx-369-2026",
+  "billId": "PL-x 369/2026",
+  "updatedAt": "2026-10-30T08:26:24.656Z",
+  "versions": [
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/300/60/9/se405.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "12 euro pe an pentru fiecare familie de albine, timp de 3 ani",
+      "summaryTlDr": "Este o lege de sprijin cu scop legitim și fără capcane pentru cetățeni, dar este scrisă neglijent. Plafonul bugetar e ambiguu, trimiterile la dreptul UE sunt depășite, iar clauza de cumul nelimitat poate bloca autorizarea de către Comisia Europeană.",
+      "scores": {
+        "agy": null,
+        "claude": 4,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl369_cd369_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "15 euro pe an pentru fiecare familie de albine, timp de 3 ani",
+      "summaryTlDr": "Ajutor util pentru apicultori, fără capcane pentru restul cetățenilor: 15 euro pe an pentru fiecare familie de albine, timp de 3 ani. Textul e însă scris neglijent: trimite la acte UE depășite, nu spune ce se întâmplă dacă plafonul nu ajunge, iar plata depinde de o notificare la Bruxelles pentru care Guvernul nu are niciun termen.",
+      "scores": {
+        "agy": 4,
+        "claude": 3,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_putin_riscant",
+      "headline": "Ajutorul crește de la 12 la 15 euro pe familie de albine, cu plafon anual de 170 mil. lei",
+      "summary": "Acum apicultorii primesc 15 euro pe familie de albine, nu 12. Plafonul devine explicit anual și mai mare, iar cooperativele și grupurile de producători pot primi bani. Rămân însă probleme: banii nu ajung pentru toate familiile raportate, surplusul se împarte pe apicultor, iar noii apicultori sunt excluși.",
+      "changes": [
+        {
+          "title": "Ajutor mai mare: 15 euro pe familie de albine",
+          "text": "Art. 8 alin. (1): cuantumul crește de la 12 la 15 euro pentru fiecare familie de albine.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 8",
+          "before": "Valoarea ajutorului de stat care se acordă beneficiarilor este contravaloarea în lei a 12 euro/familie, fără ca această sumă să depășească 93.501,94 mii lei.",
+          "after": "Valoarea ajutorului de stat care se acordă beneficiarilor este contravaloarea în lei a 15 euro/familie.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Plafon anual clar de 170 milioane lei",
+          "text": "Art. 8 alin. (3): plafonul ambiguu de 93,5 mil. lei devine 170 mil. lei anual. Totuși, nici acesta nu acoperă cele circa 2,38 mil. familii raportate.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 8",
+          "before": "fără ca această sumă să depășească 93.501,94 mii lei",
+          "after": "Plafonul maxim al ajutorului de stat este de 170.000 mii lei anual.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Banii rămași se împart egal pe apicultor",
+          "text": "Art. 8 alin. (2) este nou: surplusul se împarte egal între beneficiari, nu pe familie de albine. Suma se stabilește la depunerea cererilor, când nu poate fi încă cunoscută.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 8",
+          "before": null,
+          "after": "suma rămasă neutilizată se împarte în mod egal tuturor beneficiarilor care au primit minimum de 15 euro/familie.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Cooperativele și grupurile de producători pot primi ajutor",
+          "text": "Art. 4 lit. c) adaugă printre beneficiari cooperativele agricole și grupurile sau organizațiile de producători recunoscute.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 4",
+          "before": "precum și societăți agricole constituite în baza Legii nr.36/1991 privind societățile agricole și alte forme de asociere în agricultură, cu modificările și completările ulterioare, și persoanele juridice;",
+          "after": "cooperative agricole organizate potrivit prevederilor Legii cooperației agricole nr. 566/2004, cu modificările și completările ulterioare, grupuri și organizații de producători recunoscute potrivit dispozițiilor Ordonanței Guvernului nr. 37/2005",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Cursul euro se ia la data plății",
+          "text": "Art. 9: cursul fix de 5,09 lei/euro din 17.02.2026 este înlocuit cu cursul BNR de la data acordării. Suma în lei nu mai e cunoscută dinainte.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. 9",
+          "before": "cel comunicat de Banca Națională a României la data de 17 februarie 2026, respectiv de 5,09 lei/euro.",
+          "after": "cel comunicat de Banca Națională a României, la data acordării sprijinului.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        },
+        {
+          "title": "Scopul legii corectat: apicultori, nu agricultori",
+          "text": "Art. 1 precizează că schema susține apicultorii, nu agricultorii în general.",
+          "effect": "mai_bine",
+          "major": false,
+          "article": "art. 1",
+          "before": "pentru susținerea agricultorilor",
+          "after": "pentru susținerea apicultorilor",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Plafonul de 170 mil. lei nu acoperă 2,38 mil. familii la 15 euro",
+            "major": true,
+            "article": "art. 8"
+          },
+          {
+            "text": "Legea nu spune cine primește mai puțin dacă banii nu ajung",
+            "major": true,
+            "article": "art. 8"
+          },
+          {
+            "text": "Surplusul se împarte egal pe apicultor, indiferent de numărul familiilor de albine",
+            "major": true,
+            "article": "art. 8"
+          },
+          {
+            "text": "Cine începe apicultura în 2026–2028 nu primește nimic",
+            "major": true,
+            "article": "art. 5"
+          },
+          {
+            "text": "Neclar dacă se plătesc familiile de la 31.12.2025 sau de la cerere",
+            "major": true,
+            "article": "art. 5"
+          },
+          {
+            "text": "Cumul nelimitat cu alte sprijine, cu risc de dublă finanțare UE",
+            "major": true,
+            "article": "art. 11"
+          },
+          {
+            "text": "Suma neutilizată nu poate fi cunoscută la data depunerii cererilor",
+            "major": false,
+            "article": "art. 8"
+          },
+          {
+            "text": "Trimitere la Orientări UE 2026–2028 care nu există sub acest titlu",
+            "major": false,
+            "article": "art. 2"
+          },
+          {
+            "text": "Trimitere la Regulamentul (UE) 702/2014, înlocuit de Regulamentul 2022/2472",
+            "major": false,
+            "article": "art. 4"
+          }
+        ],
+        "good": [
+          {
+            "text": "Ajutor de 15 euro pentru fiecare familie de albine",
+            "major": true,
+            "article": "art. 8"
+          },
+          {
+            "text": "Plafonul este stabilit explicit ca sumă anuală",
+            "major": true,
+            "article": "art. 8"
+          },
+          {
+            "text": "Cooperativele și grupurile de producători sunt incluse printre beneficiari",
+            "major": true,
+            "article": "art. 4"
+          },
+          {
+            "text": "Sumele primite nu pot fi poprite în executare silită",
+            "major": true,
+            "article": "art. 6"
+          },
+          {
+            "text": "Schema se aplică în toată țara, după autorizarea Comisiei Europene",
+            "major": false,
+            "article": "art. 3"
+          },
+          {
+            "text": "Normele de aplicare trebuie adoptate în 30 de zile",
+            "major": false,
+            "article": "art. 14"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 26,
+        "removed": 23,
+        "same": 0.19
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:26:24.656Z"
+    }
+  ]
+}

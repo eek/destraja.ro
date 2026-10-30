@@ -1,0 +1,107 @@
+{
+  "slug": "plx-327-2026",
+  "billId": "Pl-x 327/2026",
+  "updatedAt": "2026-10-30T08:21:40.945Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/300/20/7/pl354.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Taxele de la primărie trebuie justificate cu cifre și să nu depășească costul serviciului",
+      "summaryTlDr": "Este o lege de transparență bine intenționată și în esență benignă. Nu interzice taxe și nu taie venituri direct. Are însă noțiuni vagi, ca «taxe locale» și «cost rezonabil», și o sancțiune care nu poate fi aplicată, așa că riscă să producă mai multe procese decât disciplină.",
+      "scores": {
+        "agy": null,
+        "claude": 3,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl327_cd327_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.3,
+      "riskLevel": "green",
+      "plainTitle": "Taxele locale, plafonate la costul serviciului și justificate public cu 30 de zile înainte de vot",
+      "summaryTlDr": "Lege bine intenționată și favorabilă contribuabililor: obligă primăriile să arate public de ce introduc sau majorează o taxă locală. Este însă scrisă neglijent: «costul rezonabil» nu e definit, «abaterea administrativă» nu are nicio sancțiune reală, iar plafonul de cost intră în conflict cu taxele procentuale din chiar Codul fiscal.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a adoptat tacit proiectul, fără nicio modificare de fond față de forma inițiatorului",
+      "summary": "Acum textul este identic ca fond cu cel inițial. Diferă doar antetul, spațierea și formula de adoptare tacită de către Cameră. Riscurile rămân: «costul rezonabil» nu e definit, iar sancțiunea pentru lipsa notei de fundamentare nu poate fi aplicată.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Plafonul «costul rezonabil» nu are definiție, metodologie sau an de referință",
+            "major": true,
+            "article": "art. 454¹"
+          },
+          {
+            "text": "Testul cost-serviciu intră în coliziune cu taxele procentuale: reclamă, autorizație de construire",
+            "major": true,
+            "article": "art. 454¹"
+          },
+          {
+            "text": "«Abaterea administrativă» nu există juridic; nu există faptă tipizată sau sancțiune proprie",
+            "major": true,
+            "article": "art. 493¹"
+          },
+          {
+            "text": "Lipsește nulitatea hotărârii consiliului local adoptate fără nota de fundamentare publicată",
+            "major": true,
+            "article": "art. 493¹"
+          },
+          {
+            "text": "Publicarea cu 30 de zile înainte dublează Legea 52/2003 și Codul administrativ",
+            "major": false,
+            "article": "art. 491¹"
+          },
+          {
+            "text": "Controlul de contencios administrativ doar repetă Legea 554/2004",
+            "major": false,
+            "article": "art. 491¹"
+          }
+        ],
+        "good": [
+          {
+            "text": "Taxele locale trebuie legate de un serviciu și plafonate la costul acestuia",
+            "major": true,
+            "article": "art. 454¹"
+          },
+          {
+            "text": "Nota de fundamentare obligatorie: costuri, impact bugetar și impact socio-economic",
+            "major": true,
+            "article": "art. 491¹"
+          },
+          {
+            "text": "Taxele locale existente trebuie reanalizate în 12 luni pentru conformitate",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 8,
+        "removed": 7,
+        "same": 0.69
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:21:40.945Z"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "slug": "plx-346-2026",
+  "billId": "Pl-x 346/2026",
+  "updatedAt": "2026-10-30T08:24:52.882Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/300/40/6/pl378.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Toți aleșii locali, inclusiv primarii, trebuie să publice anual un raport de activitate până la 31 martie",
+      "summaryTlDr": "Este o lege benignă și utilă pentru transparență. Nu impune taxe, sancțiuni sau costuri pentru cetățeni. Are însă câteva scăpări de redactare: nu spune ce raport prezintă primarul, nici unde și cum se publică, și nu prevede vreo consecință dacă raportul nu este depus.",
+      "scores": {
+        "agy": null,
+        "claude": 2,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl346_cd346_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Aleșii locali trebuie să-și prezinte raportul anual până la 31 martie",
+      "summaryTlDr": "Lege mică și utilă: pune un termen (31 martie) pe un raport care exista deja în Codul administrativ și îi obligă pe primari și pe președinții de CJ să-și prezinte activitatea în ședința consiliului. Nu stabilește însă ce conține raportul, unde se publică sau ce se întâmplă dacă lipsește, așa că efectul depinde de bunăvoința aleșilor.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Fără schimbări de fond: textul adoptat tacit de Cameră e identic cu forma inițiatorului",
+      "summary": "Camera Deputaților a adoptat tacit proiectul în forma inițială. Diferențele țin doar de antet, formula de adoptare și punctuație. Obligațiile pentru aleșii locali rămân aceleași ca inițial.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Nicio sancțiune pentru nedepunerea sau întârzierea raportului de activitate",
+            "major": true,
+            "article": "art. I pct. 1"
+          },
+          {
+            "text": "Primarul și președintele CJ pot avea două rapoarte anuale suprapuse",
+            "major": false,
+            "article": "art. I pct. 2"
+          },
+          {
+            "text": "Nu se precizează canalul și termenul de publicare a raportului",
+            "major": false,
+            "article": "art. I pct. 1"
+          },
+          {
+            "text": "Legea nu stabilește un conținut minim al raportului de activitate",
+            "major": false,
+            "article": "art. I pct. 1"
+          },
+          {
+            "text": "Nu se precizează în care ședință ordinară se prezintă raportul",
+            "major": false,
+            "article": "art. I pct. 2"
+          },
+          {
+            "text": "Proiect adoptat tacit de Cameră, fără dezbatere și vot efectiv",
+            "major": false,
+            "article": null
+          }
+        ],
+        "good": [
+          {
+            "text": "Toți aleșii locali, inclusiv primarul și președintele CJ, prezintă raport anual",
+            "major": true,
+            "article": "art. I pct. 1"
+          },
+          {
+            "text": "Primarul și președintele CJ își prezintă raportul în ședința consiliului",
+            "major": false,
+            "article": "art. I pct. 2"
+          },
+          {
+            "text": "Termen clar: rapoartele se prezintă până la 31 martie",
+            "major": false,
+            "article": "art. I pct. 3"
+          },
+          {
+            "text": "Raportul se face public prin grija secretarului general",
+            "major": false,
+            "article": "art. I pct. 1"
+          },
+          {
+            "text": "Obligația se aplică și aleșilor deja în mandat, din anul curent",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 5,
+        "removed": 4,
+        "same": 0.58
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:24:19.403Z"
+    }
+  ]
+}

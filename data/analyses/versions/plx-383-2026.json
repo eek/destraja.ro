@@ -1,0 +1,97 @@
+{
+  "slug": "plx-383-2026",
+  "billId": "PL-x 383/2026",
+  "updatedAt": "2026-10-30T08:26:59.605Z",
+  "versions": [
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/300/80/3/se412.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "19 noiembrie devine Ziua Națională a Antreprenoriatului Feminin",
+      "summaryTlDr": "Este o lege simbolică și benignă. Nu creează obligații, taxe sau sancțiuni, ci doar permite instituțiilor să organizeze evenimente. Există câteva imperfecțiuni de redactare, fără miză juridică reală.",
+      "scores": {
+        "agy": null,
+        "claude": 2,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl383_cd383_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "19 noiembrie devine oficial Ziua femeilor antreprenor",
+      "summaryTlDr": "Lege simbolică și inofensivă. Nu dă zi liberă, nu impune obligații și nu cere bani în plus. Are doar câteva scăpări de redactare, iar sprijinul public pentru evenimente rămâne opțional și se acordă prin procedurile legale existente.",
+      "scores": {
+        "agy": 2,
+        "claude": 2,
+        "codex": 2
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Doar modificări de formă: 19 noiembrie rămâne zi simbolică, fără obligații sau costuri noi",
+      "summary": "Camera Deputaților a păstrat textul adoptat de Senat. S-au schimbat doar antetul, data adoptării și scrierea unor trimiteri. Legea rămâne pur simbolică: nu obligă pe nimeni, nu sancționează și nu aduce costuri pentru cetățeni sau firme.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Patronatele, entități private, sunt condiționate de „alocări bugetare aprobate”, noțiune inaplicabilă lor",
+            "major": false,
+            "article": "art. 2 alin. (1)"
+          },
+          {
+            "text": "Eroare materială „associative” în loc de „asociative”, acum în două locuri",
+            "major": false,
+            "article": "art. 1 alin. (2), art. 2 alin. (1)"
+          },
+          {
+            "text": "Enumerarea celor care pot marca ziua omite ONG-urile și operatorii economici",
+            "major": false,
+            "article": "art. 1 alin. (2)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Zi doar simbolică, nu zi liberă legală, deci fără costuri pentru angajatori",
+            "major": true,
+            "article": "art. 1 alin. (1)"
+          },
+          {
+            "text": "Numai formulări permisive: nicio obligație nouă și nicio sancțiune",
+            "major": true,
+            "article": "art. 1 alin. (2), art. 2"
+          },
+          {
+            "text": "Sprijinul public se acordă doar în limita alocărilor bugetare deja aprobate",
+            "major": true,
+            "article": "art. 2 alin. (1)"
+          },
+          {
+            "text": "SRR, SRTV și AGERPRES „pot” difuza conținut, cu respectarea independenței editoriale",
+            "major": false,
+            "article": "art. 2 alin. (2)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 5,
+        "removed": 4,
+        "same": 0.29
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:26:50.817Z"
+    }
+  ]
+}

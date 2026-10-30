@@ -1,0 +1,117 @@
+{
+  "slug": "plx-337-2026",
+  "billId": "Pl-x 337/2026",
+  "updatedAt": "2026-10-30T08:23:10.431Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/300/30/7/pl367.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Dreptul de a afla de ce ți s-a refuzat sau retras accesul la informații secrete și de a contesta real decizia în instanță",
+      "summaryTlDr": "Este o lege utilă, care protejează drepturile persoanei și răspunde unei probleme reale semnalate la CEDO. Textul e însă foarte scurt: nu spune cine motivează decizia, în ce termen, ce trebuie să cuprindă rezumatul și cum se judecă, așa că eficiența lui depinde de completări.",
+      "scores": {
+        "agy": null,
+        "claude": 3,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl337_cd337_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Dacă statul îți refuză accesul la secrete, trebuie să-ți spună de ce",
+      "summaryTlDr": "Lege utilă, care apropie procedura românească de standardul CEDO: motivele sunt comunicate, iar un judecător vede dosarul. E însă scrisă în grabă, cu termeni amestecați, fără acces pentru avocat și fără derogare de la Legea contenciosului. Senatul ar trebui să o repare, nu să o respingă.",
+      "scores": {
+        "agy": 2,
+        "claude": 3,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Fără schimbări de fond: Camera a adoptat tacit proiectul în forma inițiatorului",
+      "summary": "Camera Deputaților a adoptat proiectul tacit, în forma inițială. S-au schimbat doar antetul, formula de adoptare și semnăturile. Drepturile și obligațiile rămân aceleași, cu aceleași plusuri și aceleași lipsuri.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Rezumatul neclasificat nu are conținut minim; suficiența lui o decide doar autoritatea",
+            "major": true,
+            "article": "art. 28¹ alin. (2)"
+          },
+          {
+            "text": "Nulitatea absolută nu dă accesul și nu impune termen pentru o nouă decizie",
+            "major": true,
+            "article": "art. 28¹ alin. (3)"
+          },
+          {
+            "text": "Avocatul persoanei nu are acces la dosar, deci procesul nu e pe deplin contradictoriu",
+            "major": true,
+            "article": "art. 30"
+          },
+          {
+            "text": "Nu spune dacă hotărârea se poate baza pe probe nevăzute de reclamant",
+            "major": true,
+            "article": "art. 30"
+          },
+          {
+            "text": "Nu derogă expres de la art. 5 alin. (3) din Legea nr. 554/2004",
+            "major": true,
+            "article": "art. 30"
+          },
+          {
+            "text": "Nulitatea absolută nu e corelată cu Legea nr. 554/2004 și Codul administrativ",
+            "major": false,
+            "article": "art. 28¹ alin. (3)"
+          },
+          {
+            "text": "Lipsesc instanța competentă, termenul de atac, procedura prealabilă și efectul suspensiv",
+            "major": false,
+            "article": "art. 30"
+          }
+        ],
+        "good": [
+          {
+            "text": "Refuzul sau retragerea autorizației de securitate trebuie motivate în fapt și în drept",
+            "major": true,
+            "article": "art. 28¹ alin. (1)"
+          },
+          {
+            "text": "Persoana primește un rezumat neclasificat al motivelor clasificate, pentru apărare",
+            "major": true,
+            "article": "art. 28¹ alin. (2)"
+          },
+          {
+            "text": "Instanța verifică pe fond probele, cu acces la dosarul complet",
+            "major": true,
+            "article": "art. 30"
+          },
+          {
+            "text": "Guvernul trebuie să actualizeze standardele naționale în 60 de zile",
+            "major": false,
+            "article": "art. II"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 5,
+        "removed": 4,
+        "same": 0.69
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:23:06.332Z"
+    }
+  ]
+}

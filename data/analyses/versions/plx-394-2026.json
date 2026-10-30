@@ -1,0 +1,107 @@
+{
+  "slug": "plx-394-2026",
+  "billId": "Pl-x 394/2026",
+  "updatedAt": "2026-10-30T08:27:22.248Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/300/90/4/pl429.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "O oră pe săptămână de educație emoțională și anti-violență, obligatorie la clasele primare și gimnaziale",
+      "summaryTlDr": "Scopul este legitim și benefic, iar legea nu ascunde taxe, sancțiuni sau favoruri economice. Are însă defecte tehnice serioase care trebuie corectate. Cel mai grav este data de intrare în vigoare, 1 septembrie 2026, care a trecut deja. În plus, lipsesc sursa de finanțare și precizarea cine predă disciplina.",
+      "scores": {
+        "agy": null,
+        "claude": 3,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl394_cd394_26_(1).pdf",
+      "source": "cdep.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "O oră pe săptămână de educație emoțională și anti-violență, obligatorie din clasa pregătitoare până în a VIII-a",
+      "summaryTlDr": "Intenția este bună, iar efectul se limitează la școli: o oră obligatorie nouă pe săptămână, fără sancțiuni, taxe sau sarcini pentru cetățeni. Problema mare este tehnică. Data de intrare în vigoare, 1 septembrie 2026, a trecut deja, iar costul și cine predă ora nu sunt lămurite.",
+      "scores": {
+        "agy": 5,
+        "claude": 3,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Fără schimbări de fond: Camera a adoptat tacit textul inițial, cu data de intrare în vigoare deja depășită",
+      "summary": "Camera Deputaților a adoptat proiectul tacit, în forma inițială. Diferențele sunt doar de redactare, deci problemele rămân: data de 1 septembrie 2026 e depășită, costul nu e calculat, iar ora nouă nu e corelată cu orele existente.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Costul nu e calculat: lipsesc fișa financiară și sursa de finanțare",
+            "major": true,
+            "article": "art. I"
+          },
+          {
+            "text": "Ora obligatorie fixată prin lege încarcă orarul sau înlocuiește alte discipline",
+            "major": true,
+            "article": "art. I, alin. (4¹)"
+          },
+          {
+            "text": "Intrarea în vigoare la 1 septembrie 2026 este deja depășită",
+            "major": false,
+            "article": "art. II"
+          },
+          {
+            "text": "Se suprapune cu orele existente de dezvoltare personală și consiliere",
+            "major": false,
+            "article": "art. I, alin. (4¹)"
+          },
+          {
+            "text": "Nu precizează ce specializare trebuie să aibă profesorul disciplinei",
+            "major": false,
+            "article": "art. I, alin. (4¹)"
+          },
+          {
+            "text": "Formarea profesorilor e doar opțională („pot beneficia”), fără finanțare garantată",
+            "major": false,
+            "article": "art. I, alin. (4³)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Introduce educație emoțională și prevenirea violenței ca disciplină obligatorie",
+            "major": true,
+            "article": "art. I, alin. (4¹)"
+          },
+          {
+            "text": "Ministerul elaborează programa, manualele și materialele didactice ale disciplinei",
+            "major": false,
+            "article": "art. I, alin. (4²)"
+          },
+          {
+            "text": "Prevede formare pentru profesori, cu furnizori acreditați și mai multe instituții",
+            "major": false,
+            "article": "art. I, alin. (4³)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 5,
+        "removed": 3,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:27:22.248Z"
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "slug": "plx-335-2026",
+  "billId": "PL-x 335/2026",
+  "updatedAt": "2026-10-30T08:23:10.429Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/300/30/5/pl335.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Deblocarea angajărilor de profesori și asistenți universitari, plus un corp de profesori români trimiși în străinătate",
+      "summaryTlDr": "Este o lege în mare parte tehnică și utilă, care scoate concursurile didactice de sub înghețarea angajărilor din pachetul fiscal din 2025. Are însă câteva puncte slabe: amână finanțarea școlilor particulare nou acreditate, lasă multe detalii pe seama unor ordine ministeriale și conține o eroare de număr în articolul unic.",
+      "scores": {
+        "agy": null,
+        "claude": 3,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl335_plx_335_26_stema.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4.7,
+      "riskLevel": "yellow",
+      "plainTitle": "Concursurile pentru profesori se reiau, iar România poate trimite profesori la comunitățile românești din străinătate",
+      "summaryTlDr": "Partea principală e utilă: reia concursurile pentru zeci de mii de posturi didactice blocate de Legea 141/2025. Riscul moderat vine din amendamentele Camerei, care lasă universităților mână largă pe solduri și angajări fără selecție în proiecte și fac opționale standardele naționale la recunoașterea conducătorilor de doctorat din străinătate.",
+      "scores": {
+        "agy": 5,
+        "claude": 4,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "mai_riscant",
+      "headline": "Universitățile pot angaja în proiecte fără selecție și pot folosi soldurile pentru „alte destinații”",
+      "summary": "Deputații au deblocat angajările de personal auxiliar și administrativ în școli. În același timp, au dat universităților libertăți largi, aproape fără limite: banii rămași pot fi folosiți pentru orice decide consiliul, angajările în proiecte se fac fără selecție, iar cercetarea se plătește suprapus cu orele.",
+      "changes": [
+        {
+          "title": "Universitățile pot angaja în proiecte fără concurs",
+          "text": "Art. II pct. 4 (art. 202 alin. (6) din Legea 199/2023): angajarea pe durată determinată în proiecte se face fără selecție, iar pentru personalul propriu doar prin decizia rectorului. Nu există obligație de publicare.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. II pct. 4 (art. 202 alin. (6) din Legea 199/2023)",
+          "before": null,
+          "after": "angajarea pentru participarea la proiecte de cercetare în domeniul educației și formării profesionale sau în proiecte naționale/europene/internaționale se poate face pe perioadă determinată, fără parcurgerea altor formalități prealabile și/sau procese de selecție",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Banii rămași ai universităților, cheltuiți fără limite clare",
+          "text": "Art. II pct. 1 (art. 11 alin. (4) din Legea 199/2023): prin derogare de la Legea 500/2002, soldurile pot merge și spre „alte destinații” stabilite de consiliul de administrație, fără limite explicite.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. II pct. 1 (art. 11 alin. (4) din Legea 199/2023)",
+          "before": null,
+          "after": "precum și alte cheltuieli de natura investițiilor sau pentru alte destinații stabilite de către consiliul de administrației al instituției de învățământ superior.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Cercetarea plătită separat, în același timp cu predarea",
+          "text": "Art. II pct. 5 (art. 212¹ nou din Legea 199/2023): cadrele didactice pot fi plătite din contracte de cercetare pentru activități făcute în același interval cu norma, iar legea declară că asta nu e dublă salarizare.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. II pct. 5 (art. 212¹ din Legea 199/2023)",
+          "before": null,
+          "after": "Activitățile didactice și activitățile de cercetare desfășurate în cadrul contractelor de cercetare pot fi realizate concomitent, inclusiv în același interval de timp",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Deblocate angajările de personal auxiliar și administrativ în școli",
+          "text": "Art. III (art. XXII alin. (1¹) din Legea 141/2025): sunt exceptate de la blocaj și concursurile pentru personalul didactic auxiliar și administrativ din preuniversitarul de stat.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. III (art. XXII alin. (1¹) din Legea 141/2025)",
+          "before": null,
+          "after": "nu se aplică pentru ocuparea prin concurs sau examen a posturilor didactice de predare, a posturilor pentru personal didactic auxiliar și personal administrativ din învățământul preuniversitar de stat",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Bani de la stat pentru școlile universităților",
+          "text": "Art. I pct. 2¹ (art. 139 alin. (4) din Legea 198/2023): școlile din cadrul universităților de stat primesc finanțare de la bugetul de stat, pe cost standard per elev. Este o cheltuială nouă introdusă de Parlament.",
+          "effect": "neutru",
+          "major": true,
+          "article": "art. I pct. 2¹ (art. 139 alin. (4) din Legea 198/2023)",
+          "before": null,
+          "after": "Finanțarea se asigură prin transferuri de la bugetul de stat, prin bugetul Ministerului Educației și Cercetării, pe baza costului standard per antepreșcolar/preșcolar/elev",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Conducători de doctorat străini, recunoscuți fără standarde obligatorii",
+          "text": "Art. II pct. 2 (art. 69 alin. (8) lit. d) din Legea 199/2023): fiecare IOSUD îi recunoaște după metodologia proprie, iar standardele minimale naționale sunt doar opționale.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. II pct. 2 (art. 69 alin. (8) lit. d) din Legea 199/2023)",
+          "before": null,
+          "after": "în baza metodologiilor proprii în care pot fi prevăzute și standardele minimale naționale aferente.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Angajări în proiecte fără selecție și fără obligație de publicare",
+            "major": true,
+            "article": "art. II pct. 4 (art. 202 alin. (6) din Legea 199/2023)"
+          },
+          {
+            "text": "Soldurile universităților pot merge la „alte destinații”, fără limite; text cu greșeală",
+            "major": true,
+            "article": "art. II pct. 1 (art. 11 alin. (4) din Legea 199/2023)"
+          },
+          {
+            "text": "Plata cercetării suprapusă cu norma didactică, declarată prin lege ca nefiind dublă salarizare",
+            "major": true,
+            "article": "art. II pct. 5 (art. 212¹ din Legea 199/2023)"
+          },
+          {
+            "text": "Școlile particulare și confesionale noi pot aștepta circa 12 luni finanțarea",
+            "major": true,
+            "article": "art. I pct. 2 (art. 138 alin. (10) din Legea 198/2023)"
+          },
+          {
+            "text": "Posturile de lector, conferențiar și profesor rămân blocate pentru concurs extern",
+            "major": true,
+            "article": "art. III (art. XXII alin. (1¹) din Legea 141/2025)"
+          },
+          {
+            "text": "Standardele naționale pentru conducătorii de doctorat străini sunt doar opționale",
+            "major": false,
+            "article": "art. II pct. 2 (art. 69 alin. (8) lit. d) din Legea 199/2023)"
+          },
+          {
+            "text": "Limita de doctoranzi per conducător amânată până în 2030-2031",
+            "major": false,
+            "article": "art. II pct. 6 (art. 260 alin. (18) din Legea 199/2023)"
+          },
+          {
+            "text": "Nu e clar când instructorii ofițeri se angajează prin examen în loc de concurs",
+            "major": false,
+            "article": "art. I pct. 3 și 4 (art. 206 din Legea 198/2023)"
+          },
+          {
+            "text": "Clasele bilingve reduc timpul pentru alte opționale alese de școală",
+            "major": false,
+            "article": "art. I pct. 1 (art. 92 alin. (4) din Legea 198/2023)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Deblocate concursurile pentru profesori, personal auxiliar, administrativ și asistenți universitari",
+            "major": true,
+            "article": "art. III (art. XXII alin. (1¹) din Legea 141/2025)"
+          },
+          {
+            "text": "Școlile universităților de stat au finanțare clară, pe cost standard per elev",
+            "major": true,
+            "article": "art. I pct. 2¹ (art. 139 alin. (4) din Legea 198/2023)"
+          },
+          {
+            "text": "Condiții de vechime mai flexibile pentru instructorii ofițeri",
+            "major": false,
+            "article": "art. I pct. 3 și 4 (art. 206 din Legea 198/2023)"
+          },
+          {
+            "text": "Disciplinele bilingve se stabilesc prin ordin publicat în Monitorul Oficial",
+            "major": false,
+            "article": "art. I pct. 1 (art. 92 alin. (4) din Legea 198/2023)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 27,
+        "removed": 2,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:23:10.429Z"
+    }
+  ]
+}

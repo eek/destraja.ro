@@ -1,0 +1,162 @@
+{
+  "slug": "plx-340-2026",
+  "billId": "PL-x 340/2026",
+  "updatedAt": "2026-10-30T08:23:43.179Z",
+  "versions": [
+    {
+      "key": "senat",
+      "label": "Forma adoptată de Senat",
+      "url": "https://www.cdep.ro/proiecte/2026/300/40/0/se370.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Plafonarea adaosului la alimentele de bază se prelungește până la 30 iunie 2026, dar procesatorii scapă de plafon",
+      "summaryTlDr": "Pare o simplă prelungire de 3 luni, dar art. 2 schimbă discret cine suportă plafonul: rămân plafonați doar importatorii, distribuitorii și retailerii, iar procesatorii ies din măsură. Intervenția e temporară și moderată, însă urgența e motivată cu date vechi și lipsește orice evaluare publică a efectelor.",
+      "scores": {
+        "agy": null,
+        "claude": 4,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl340_cd340_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 5.3,
+      "riskLevel": "yellow",
+      "plainTitle": "Plafonul de adaos la alimentele de bază e prelungit până la finalul lui 2026, iar comisioanele pe tichete se limitează la 2%",
+      "summaryTlDr": "Măsura e numită „temporară”, dar se aplică din 2023, iar Parlamentul a prelungit-o cu încă șase luni peste cele trei cerute de Guvern, fără date noi că funcționează. Legea corectează o incoerență a OUG legată de procesatori, însă introduce un plafon de 2% la comisioanele pe tichete greu de aplicat produs cu produs și lasă importatorii într-o zonă gri la sancțiuni.",
+      "scores": {
+        "agy": 6,
+        "claude": 5,
+        "codex": 5
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "senat",
+      "to": "camera",
+      "direction": "mai_riscant",
+      "headline": "Camera prelungește plafonarea adaosului până la 31 decembrie 2026 și limitează la 2% comisionul la tichete",
+      "summary": "Inițial, Senatul aproba ordonanța fără modificări. Acum, plafonarea durează până la final de 2026, comisionul la tichete e limitat la 2%, iar sancțiunile vizează doar distribuitorii și comercianții. Unele reguli noi sunt greu de aplicat.",
+      "changes": [
+        {
+          "title": "Comision de maximum 2% la tichetele de masă",
+          "text": "Art. 6 limitează la 2% comisionul emitenților de tichete, inclusiv Sprijin pentru România, doar pentru produsele din anexă. Nu e clar cum se separă produsele și nu există sancțiune.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 6",
+          "before": null,
+          "after": "pot aplica comercianților la momentul decontării lor un comision de maximum 2% pentru produsele agricole și alimentare care se pot achiziționa cu acestea, prevăzute în anexa la prezenta ordonanță de urgență.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Amenda vizează doar distribuitorii și comercianții",
+          "text": "Noul art. 7 alin. (1) sancționează doar distribuitorii și comercianții, deși art. 2 include și importatorii. Pentru aceștia, obligația rămâne fără sancțiune clară.",
+          "effect": "mai_rau",
+          "major": true,
+          "article": "art. 7 alin. (1)",
+          "before": null,
+          "after": "Nerespectarea cotelor de adaos comercial prevăzute la art. 3 alin. (1) și (1¹) de către distribuitori sau comercianți la vânzarea cu amănuntul și cash&carry constituie contravenție",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Procesatorii scot definitiv din regula de adaos",
+          "text": "Art. 3 alin. (1) lit. a) se abrogă. Este corelarea cu scoaterea procesatorilor din art. 2, care lipsea în ordonanță.",
+          "effect": "mai_bine",
+          "major": true,
+          "article": "art. 3 alin. (1) lit. a)",
+          "before": null,
+          "after": "1¹. La articolul 3 alineatul (1), litera a) se abrogă.",
+          "beforeAbsent": true,
+          "afterAbsent": false
+        },
+        {
+          "title": "Plafonarea prețurilor durează până la 31 decembrie 2026",
+          "text": "Art. 8: termenul trece de la 30 iunie la 31 decembrie 2026. Parlamentul dublează prelungirea cerută de Guvern, fără studiu de impact.",
+          "effect": "mai_rau",
+          "major": false,
+          "article": "art. 8",
+          "before": "Articol unic.- Se aprobă Ordonanța de urgență a Guvernului nr.22 din 31 martie 2026 pentru modificarea Ordonanței de urgență a Guvernului nr.67/2023",
+          "after": "Art. 8. - Prezenta ordonanță de urgență se aplică până la data de 31 decembrie 2026 inclusiv.",
+          "beforeAbsent": false,
+          "afterAbsent": false
+        }
+      ],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Depășirea comisionului de 2% la tichete nu are nicio sancțiune prevăzută",
+            "major": true,
+            "article": "art. 6"
+          },
+          {
+            "text": "Emitentul de tichete nu vede coșul, deci nu poate separa produsele plafonate",
+            "major": true,
+            "article": "art. 6"
+          },
+          {
+            "text": "Importatorii au obligația de plafonare, dar contravenția nu îi vizează clar",
+            "major": true,
+            "article": "art. 7 alin. (1)"
+          },
+          {
+            "text": "Vânzătorii neînregistrați în România scapă de plafon, spre deosebire de comercianții locali",
+            "major": true,
+            "article": "art. 2"
+          },
+          {
+            "text": "Prelungire de 6 luni fără studiu de impact; măsura temporară devine practic permanentă",
+            "major": false,
+            "article": "art. 8"
+          },
+          {
+            "text": "Efectul plafonului asupra prețurilor la raft este afirmat fără date sau evaluare",
+            "major": false,
+            "article": "art. 8"
+          },
+          {
+            "text": "Preambulul se bazează pe date vechi, iar scăderea consumului nu are sursă",
+            "major": false,
+            "article": null
+          },
+          {
+            "text": "Ordonanța a funcționat cu norme necorelate până la intrarea în vigoare a legii",
+            "major": false,
+            "article": "art. 3"
+          }
+        ],
+        "good": [
+          {
+            "text": "Comisionul la tichete pentru alimentele plafonate este limitat la 2% pentru comercianți",
+            "major": true,
+            "article": "art. 6"
+          },
+          {
+            "text": "Abrogarea corelează regula de adaos cu scoaterea procesatorilor din plafonare",
+            "major": true,
+            "article": "art. 3 alin. (1) lit. a)"
+          },
+          {
+            "text": "Procesatorii ies din plafonare, ca sprijin pentru producție și procesare",
+            "major": true,
+            "article": "art. 2"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 11,
+        "removed": 3,
+        "same": 0
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:23:43.179Z"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "slug": "plx-344-2026",
+  "billId": "Pl-x 344/2026",
+  "updatedAt": "2026-10-30T08:24:52.881Z",
+  "versions": [
+    {
+      "key": "initiator",
+      "label": "Forma inițiatorului",
+      "url": "https://www.cdep.ro/proiecte/2026/300/40/4/pl380.pdf",
+      "source": "cdep.ro",
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Profesorii cu peste 25 de ani vechime și gradul I predau 2 ore mai puțin, dar fac 2 ore de pregătire cu elevii",
+      "summaryTlDr": "Ideea e rezonabilă și favorabilă elevilor: experiența profesorilor seniori e mutată din catedră spre pregătire pentru olimpiade și remediere. Textul e însă scris neglijent. Are o contradicție internă între reducerea „cu până la 2 ore” și obligația fixă de 2 ore, introduce pe ușa din spate o categorie vagă de beneficiari („performanță educațională”) și nu are niciun calcul de cost.",
+      "scores": {
+        "agy": null,
+        "claude": 4,
+        "codex": null
+      }
+    },
+    {
+      "key": "camera",
+      "label": "Forma adoptată de Cameră",
+      "url": "https://www.cdep.ro/ords/pls/proiecte/docs?2026/pl344_cd344_26.pdf",
+      "source": "cdep.ro",
+      "riskScore": 3.7,
+      "riskLevel": "green",
+      "plainTitle": "Profesorii cu vechime sau cu rezultate ar preda 2 ore mai puțin, în schimbul pregătirii elevilor",
+      "summaryTlDr": "Ideea e rezonabilă: experiența profesorilor vechi trece din catedră în pregătire pentru olimpiade și în remediere. Textul e însă scris neglijent. „Performanța educațională” nu e definită, reducerea depinde de consiliul de administrație al fiecărei școli, iar costul orelor cedate nu e calculat.",
+      "scores": {
+        "agy": 3,
+        "claude": 4,
+        "codex": 4
+      }
+    }
+  ],
+  "changes": [
+    {
+      "from": "initiator",
+      "to": "camera",
+      "direction": "la_fel",
+      "headline": "Camera a adoptat tacit proiectul în forma inițiatorului; reducerea normei profesorilor rămâne neschimbată",
+      "summary": "Camera Deputaților a adoptat tacit textul, fără modificări de fond. S-au schimbat doar formula de adoptare, referința la Monitorul Oficial și semnatarul, așa că problemele inițiale rămân toate.",
+      "changes": [],
+      "remaining": {
+        "problems": [
+          {
+            "text": "Reducerea e facultativă, fără criterii de refuz și fără cale de contestare",
+            "major": true,
+            "article": "art. 207 alin. (3)"
+          },
+          {
+            "text": "„Performanța educațională” nu e definită în lege, deci există risc de arbitrariu și favoritism",
+            "major": true,
+            "article": "art. 207 alin. (3)"
+          },
+          {
+            "text": "Reducere „până la” 2 ore, dar obligație fixă de 2 ore, fără „/săptămână”",
+            "major": true,
+            "article": "art. 207 alin. (3)"
+          },
+          {
+            "text": "„Suplimentar” sugerează muncă peste normă, deși se promit aceleași 40 de ore",
+            "major": true,
+            "article": "art. 207 alin. (3)"
+          },
+          {
+            "text": "Orele cedate generează costuri, dar lipsesc fișa financiară și sursa de finanțare",
+            "major": true,
+            "article": "art. 207 alin. (3)"
+          },
+          {
+            "text": "Metodologia prin ordin de ministru nu are termen de adoptare",
+            "major": false,
+            "article": "art. 207 alin. (3)"
+          }
+        ],
+        "good": [
+          {
+            "text": "Profesorii cu peste 25 de ani vechime și gradul I pot preda mai puțin",
+            "major": true,
+            "article": "art. 207 alin. (3)"
+          },
+          {
+            "text": "Reducerea normei se face fără afectarea drepturilor salariale",
+            "major": true,
+            "article": "art. 207 alin. (3)"
+          },
+          {
+            "text": "Reducerea se revizuiește anual și devine anexă la contractul de muncă",
+            "major": false,
+            "article": "art. 207 alin. (3)"
+          }
+        ],
+        "partial": false
+      },
+      "diff": {
+        "added": 6,
+        "removed": 4,
+        "same": 0.25
+      },
+      "model": "claude",
+      "schema": 3,
+      "updatedAt": "2026-10-30T08:24:35.351Z"
+    }
+  ]
+}

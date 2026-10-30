@@ -1,0 +1,69 @@
+{
+  "billId": "PL-x 372/2026",
+  "slug": "plx-372-2026",
+  "version": "initiator",
+  "updatedAt": "2026-10-30T08:26:09.027Z",
+  "consensus": {
+    "riskScore": 3,
+    "riskLevel": "green",
+    "plainTitle": "Furnizorii de internet, cloud și mesagerie trebuie să aibă o «adresă» în UE unde procurorii pot trimite cereri de probe",
+    "summaryTlDr": "Este o lege tehnică de transpunere obligatorie, în mare parte fidelă Directivei (UE) 2023/1544, care nu dă noi puteri de acces la date. Are însă o obligație birocratică suplimentară (art. 8 alin. 6), o trimitere incompletă la regimul datelor din domeniul penal și multe greșeli de redactare.",
+    "initiatorClaim": "Guvernul (MEDAT și ANCOM) spune că transpune Directiva (UE) 2023/1544, pentru ca autoritățile să știe unde să trimită ordinele de obținere a probelor electronice. Scopul declarat este eliminarea cerințelor naționale disparate și creșterea securității juridice pentru furnizori și autorități.",
+    "realityCheck": "Legea obligă furnizorii de comunicații electronice, servicii de domenii/IP și servicii digitale de comunicare sau stocare care operează în UE să desemneze un sediu cu personalitate juridică sau un reprezentant legal într-un stat membru participant. Desemnarea se notifică autorității centrale, iar ANCOM devine autoritate centrală. Legea nu reglementează conținutul ordinelor de divulgare, care rămâne în Regulamentul (UE) 2023/1543 și în legislația procesual-penală. Chichițele sunt trei: obligația suplimentară de a trimite ANCOM dovada notificării făcute în alt stat (art. 8 alin. 6), schimbul de date personale între ANCOM, poliție și autoritățile judiciare doar sub GDPR (art. 6 alin. 3) și sintagma nedefinită «exclusiv pe teritoriul României», care decide cine e exceptat.",
+    "affectedGroups": [
+      "IT & AI",
+      "IMM & Antreprenori",
+      "Justiție & Drepturi Civile"
+    ],
+    "senatForm": {
+      "articleRef": "Art. 8 alin. (6)",
+      "proposalContent": "Se elimină alin. (6). Alternativ: «(6) ANCOM obține informațiile privind destinatarii desemnați în alte state membre de furnizorii care oferă servicii în România prin cooperare cu autoritățile centrale ale acestora, potrivit art. 7 alin. (2), fără obligații suplimentare pentru furnizori.»",
+      "argumentation": "Directiva (UE) 2023/1544 interzice statelor să impună furnizorilor obligații suplimentare celor derivate din ea. Alin. (6) dublează notificarea deja făcută în alt stat membru, adaugă birocrație și risc de sancțiuni pentru furnizorii mici, iar informația circulă oricum între autoritățile centrale (art. 7). Obligația poate necesita și notificare TRIS.",
+      "otherComments": "Art. 6 alin. (3) să trimită și la Legea nr. 363/2018 și să precizeze scopul și durata păstrării datelor. Să fie definită sintagma «exclusiv pe teritoriul României» (art. 3 alin. 2). Corecturi: «territoriul», «unul sau mai multe», «furnizori» (art. 5 alin. 3). Trimiterile la art. 2 și la art. 2 lit. a)-c) să fie uniformizate."
+    }
+  },
+  "council": {
+    "agy": {
+      "model": "agy",
+      "status": "skipped",
+      "error": "încă nerulat (COUNCIL_MODELS)"
+    },
+    "claude": {
+      "model": "claude",
+      "status": "ok",
+      "durationMs": 77693,
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Furnizorii de internet, cloud și mesagerie trebuie să aibă o «adresă» în UE unde procurorii pot trimite cereri de probe",
+      "verdictShort": "Este o lege tehnică de transpunere obligatorie, în mare parte fidelă Directivei (UE) 2023/1544, care nu dă noi puteri de acces la date. Are însă o obligație birocratică suplimentară (art. 8 alin. 6), o trimitere incompletă la regimul datelor din domeniul penal și multe greșeli de redactare.",
+      "initiatorClaim": "Guvernul (MEDAT și ANCOM) spune că transpune Directiva (UE) 2023/1544, pentru ca autoritățile să știe unde să trimită ordinele de obținere a probelor electronice. Scopul declarat este eliminarea cerințelor naționale disparate și creșterea securității juridice pentru furnizori și autorități.",
+      "realityCheck": "Legea obligă furnizorii de comunicații electronice, servicii de domenii/IP și servicii digitale de comunicare sau stocare care operează în UE să desemneze un sediu cu personalitate juridică sau un reprezentant legal într-un stat membru participant. Desemnarea se notifică autorității centrale, iar ANCOM devine autoritate centrală. Legea nu reglementează conținutul ordinelor de divulgare, care rămâne în Regulamentul (UE) 2023/1543 și în legislația procesual-penală. Chichițele sunt trei: obligația suplimentară de a trimite ANCOM dovada notificării făcute în alt stat (art. 8 alin. 6), schimbul de date personale între ANCOM, poliție și autoritățile judiciare doar sub GDPR (art. 6 alin. 3) și sintagma nedefinită «exclusiv pe teritoriul României», care decide cine e exceptat.",
+      "affectedGroups": [
+        "IT & AI",
+        "IMM & Antreprenori",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Art. 3 alin. (2) folosește opțiunea din Directivă de a excepta furnizorii stabiliți în România care oferă servicii exclusiv în România. «Exclusiv» nu este definit: un mic hosting românesc cu câțiva clienți în Bulgaria sau Republica Moldova nu știe sigur dacă intră sub incidența legii.",
+        "Art. 8 alin. (6) obligă furnizorii stabiliți sau activi în România, care și-au desemnat destinatarul în alt stat membru, să trimită ANCOM dovada notificării în 30 de zile. Directiva nu prevede această obligație, iar informația poate circula direct între autoritățile centrale prin cooperarea de la art. 7.",
+        "Art. 6 alin. (3) permite schimbul de date personale între ANCOM, poliție și autoritățile judiciare doar în condițiile GDPR și ale Legii nr. 190/2018. Pentru poliție și parchete se aplică însă Directiva (UE) 2016/680 și Legea nr. 363/2018, iar textul nu definește scopul, categoriile de date sau durata păstrării.",
+        "Art. 4 pct. 5 cere ca sediul desemnat să aibă personalitate juridică (regulă din Directivă). Un PFA sau un II care furnizează servicii în UE nu se poate desemna pe sine și trebuie să apeleze la o entitate terță. Costul este atenuat de art. 5 alin. (3), care permite un destinatar comun pentru mai mulți furnizori.",
+        "Redactarea are erori: «territoriul» apare repetat; la art. 5 alin. (1) lit. a) și b) lipsește «sau» din «unul mai multe»; la art. 5 alin. (3) scrie «furnizorii» în loc de «furnizori». Trimiterile alternează între «art. 2» și «art. 2 lit. a)-c)» (art. 4 pct. 5, art. 5 lit. b) vs. lit. d)), deși lit. d) vizează dreptul național."
+      ],
+      "blindSpotsCaught": "Textul extras se oprește la art. 8 alin. (7), deci regimul sancționator nu poate fi evaluat, deși art. 7 alin. (3) și (5) arată că el există. Trebuie verificat că sancțiunile sunt proporționale, diferențiate pentru IMM-uri și că nu sancționează reprezentantul legal pentru fapte proprii ale furnizorului fără garanții procedurale. Tot de verificat sunt trimiterile la OUG nr. 111/2011, art. 4 alin. (1) pct. 9 și art. 135, după modificările din transpunerea Codului european al comunicațiilor electronice, pentru că o trimitere greșită afectează previzibilitatea. Termenul de transpunere a Directivei (18 februarie 2026) a fost depășit, ceea ce explică procedura de urgență și expune România la procedură de infringement.",
+      "constitutionalityNote": "Legea nu pare să ridice probleme majore. Ea stabilește doar destinatarul ordinelor, iar garanțiile privind accesul la date rămân în Regulamentul 2023/1543 și în Codul de procedură penală. Pentru art. 1 alin. (5) din Constituție (claritate și previzibilitate) există trei riscuri: sintagma «exclusiv pe teritoriul României» nedefinită, trimiterile inconsecvente la art. 2 și erorile de redactare. Art. 6 alin. (3) poate fi criticat din perspectiva art. 26 (viața privată) și a art. 53 (restrângerea drepturilor), pentru că permite schimb de date personale între autorități fără o delimitare clară a scopului, a categoriilor de date și a duratei păstrării. Art. 23 alin. (12) nu este direct relevant, deoarece legea nu instituie infracțiuni sau pedepse penale în textul analizat.",
+      "euLawNote": "Proiectul transpune în general corect Directiva (UE) 2023/1544, iar excepția de la art. 3 alin. (2) este permisă de Directivă. Art. 8 alin. (6) riscă să încalce interdicția din Directivă de a impune furnizorilor obligații suplimentare celor derivate din ea, ceea ce ar fi supra-reglementare și o barieră pentru libera prestare a serviciilor. Directiva (UE) 2018/958 nu este aplicabilă, deoarece nu se reglementează o profesie. Pentru TRIS (Directiva 2015/1535), transpunerea unui act UE obligatoriu este în principiu exceptată de la notificare. O obligație suplimentară care vizează specific serviciile societății informaționale, precum art. 8 alin. (6), ar putea însă necesita notificare TRIS prealabilă.",
+      "senatForm": {
+        "articleRef": "Art. 8 alin. (6)",
+        "proposalContent": "Se elimină alin. (6). Alternativ: «(6) ANCOM obține informațiile privind destinatarii desemnați în alte state membre de furnizorii care oferă servicii în România prin cooperare cu autoritățile centrale ale acestora, potrivit art. 7 alin. (2), fără obligații suplimentare pentru furnizori.»",
+        "argumentation": "Directiva (UE) 2023/1544 interzice statelor să impună furnizorilor obligații suplimentare celor derivate din ea. Alin. (6) dublează notificarea deja făcută în alt stat membru, adaugă birocrație și risc de sancțiuni pentru furnizorii mici, iar informația circulă oricum între autoritățile centrale (art. 7). Obligația poate necesita și notificare TRIS.",
+        "otherComments": "Art. 6 alin. (3) să trimită și la Legea nr. 363/2018 și să precizeze scopul și durata păstrării datelor. Să fie definită sintagma «exclusiv pe teritoriul României» (art. 3 alin. 2). Corecturi: «territoriul», «unul sau mai multe», «furnizori» (art. 5 alin. 3). Trimiterile la art. 2 și la art. 2 lit. a)-c) să fie uniformizate."
+      }
+    },
+    "codex": {
+      "model": "codex",
+      "status": "skipped",
+      "error": "încă nerulat (COUNCIL_MODELS)"
+    }
+  }
+}

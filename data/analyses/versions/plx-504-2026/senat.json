@@ -2,7 +2,7 @@
   "billId": "PL-x 504/2026",
   "slug": "plx-504-2026",
   "version": "senat",
-  "updatedAt": "2026-10-30T08:34:10.771Z",
+  "updatedAt": "2026-10-30T09:35:14.832Z",
   "consensus": {
     "riskScore": 5,
     "riskLevel": "yellow",
@@ -12,9 +12,9 @@
     "realityCheck": "Mecanic, legea crește veniturile ANAR. Hidrocentralele fără contoare au contribuția pe MWh indexată imediat cu 7,32%, iar contribuțiile, tarifele și penalitățile pentru toate categoriile, mai puțin irigațiile, cresc cu 2% (2027), 4% (2028) și 3,7% (2029), peste indexarea anuală cu IPC. În schimb, ANAR e obligată să investească cel puțin 12% (2027–2031), apoi 18% din cheltuielile din surse proprii. Operatorii de apă potabilă vor transfera majorările în factura populației, iar contorizarea indirectă după «debitul maxim autorizat × timpul de utilizare» poate supraestima consumul celor care nu pot monta contoare.",
     "affectedGroups": [
       "IMM & Antreprenori",
+      "Contabili & Fiscalitate",
       "Proprietari & Imobiliare",
-      "Agricultură & Mediu",
-      "Toți cetățenii"
+      "Agricultură & Mediu"
     ],
     "senatForm": {
       "articleRef": "Art.II pct.1 – art.III alin.(1¹) L.122/2020",
@@ -26,8 +26,36 @@
   "council": {
     "agy": {
       "model": "agy",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 68601,
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Scumpirea etapizată a apei brute și reguli noi de contorizare pentru Apele Române (ANAR)",
+      "verdictShort": "Deși legea bifează un jalon PNRR necesar pentru finanțarea digurilor și barajelor, ea introduce scumpiri în cascadă peste rata inflației (între 2027 și 2029) și o taxă fixă de administrare care se vor transfera în facturile la apă și energie. În schimb, obligația ANAR de a investi banii încasați este plafonată la un nivel modest (12%-18%) și conține o portiță bugetară.",
+      "initiatorClaim": "Inițiatorii susțin că reformează mecanismul economic al Administrației Naționale „Apele Române” (ANAR), conform studiilor Băncii Mondiale și Jalonului 4 din PNRR, pentru a asigura bani de întreținere a infrastructurii hidrotehnice și apărare împotriva inundațiilor.",
+      "realityCheck": "În practică, legea majorează tarifele pentru apă brută (industrie, utilități publice de apă potabilă, hidroenergie) atât cu inflația anuală (IPC), cât și cu procente suplimentare în 2027 (+2%), 2028 (+4%) și 2029 (+3,7%), plus o nouă contribuție în cotă fixă pentru cheltuieli generale de administrare. Deși utilizatorii plătesc mai mult, ANAR este obligată să aloce pentru investiții doar minimum 12% din cheltuieli (între 2027-2031), procent calculat doar la bugetul „aprobat inițial”, ceea ce permite tăierea investițiilor la rectificările bugetare.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate",
+        "Proprietari & Imobiliare",
+        "Agricultură & Mediu",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. IV alin. (1) și (2): Instituie o dublă indexare a contribuțiilor, tarifelor și penalităților (cu excepția irigațiilor): peste actualizarea anuală cu rata inflației (IPC) se aplică majorări suplimentare de 2% în 2027, 4% în 2028 și 3,7% în 2029, costuri care se vor regăsi în facturile la apă potabilă și energie.",
+        "Art. I pct. 3 (art. 85^4 alin. 4 și 5): Obligă ANAR să aloce pentru investiții doar cel puțin 12% din cheltuielile din surse proprii în perioada 2027-2031 (și 18% din 2032), raportat strict la bugetul „aprobat inițial” — lăsând până la 88% pentru cheltuieli curente și permițând diminuarea investițiilor la rectificări.",
+        "Art. II pct. 1 (art. III alin. 1^1 din Legea 122/2020): Obligă operatorii economici, instituțiile și unitățile de cult să permită instalarea aparaturii de măsurare a ANAR „indiferent de regimul juridic al proprietății lucrărilor utilizate și terenului aferent”, fără a preciza cine suportă costul echipamentelor și procedura de despăgubire pentru afectarea proprietății.",
+        "Art. III pct. 2 (Anexa 1, lit. E): Introduce o contribuție nouă, în cotă fixă, aferentă cheltuielilor generale de administrare, întreținere și dezvoltare, aplicabilă tuturor utilizatorilor resurselor de apă, pe lângă tariful pe volumul consumat."
+      ],
+      "blindSpotsCaught": "La Art. II pct. 1, textul trimite la „operatorilor economici din anexa nr. 2 E 1”, o referință normativă trunchiată și neclară (nu se precizează la care act normativ aparține anexa, iar numerotarea nu corespunde structurii Legii 122/2020). În plus, raportarea procentului minim de investiții (12%) doar la bugetul „aprobat inițial” este o chichiță clasică prin care sumele pot fi mutate spre cheltuieli de funcționare la prima rectificare bugetară.",
+      "constitutionalityNote": "Trimiterea inexactă la „anexa nr. 2 E 1” din Art. II pct. 1 încalcă exigențele de claritate și previzibilitate a legii prevăzute de art. 1 alin. (5) din Constituție. De asemenea, instituirea obligației de a permite instalarea de echipamente pe terenuri private, fără reglementarea procedurii și a eventualelor despăgubiri, ridică probleme sub aspectul art. 44 din Constituție (dreptul de proprietate privată).",
+      "euLawNote": "Proiectul transpune angajamente din PNRR (Reforma 2, Jalonul 4) și vizează conformarea cu Directiva Cadru Apă (2000/60/CE) și Directiva Inundații (2007/60/CE), introducând totodată tarife pentru tehnologii verzi (hidrogen verde și centrale hidroelectrice cu acumulare prin pompaj - CHEAP). Nu ridică obiecții pe Directiva 2015/1535 (TRIS) sau Directiva 2018/958.",
+      "senatForm": {
+        "articleRef": "Art. I pct. 3 și Art. II pct. 1 din proiect",
+        "proposalContent": "La Art. I pct. 3, în alin. (4) și (5), sintagma „aprobat inițial” se înlocuiește cu „inclusiv după rectificări”. La Art. II pct. 1, alin. (1^1) se completează cu: „Costurile sistemului revin ANAR, iar accesul pe proprietatea privată se face cu notificare și despăgubiri.”",
+        "argumentation": "Raportarea pragului minim de investiții (12%/18%) doar la bugetul „aprobat inițial” permite tăierea investițiilor la rectificările bugetare, deși tarifele cresc. De asemenea, instalarea contoarelor ANAR pe terenuri private impune garanții clare privind suportarea costurilor și protecția proprietății private (art. 44 Constituție).",
+        "otherComments": "Se impune și corectarea trimiterii eronate de la Art. II pct. 1 („anexa nr. 2 E 1”) pentru respectarea normelor de tehnică legislativă (Legea 24/2000), precum și reevaluarea suprataxării de la Art. IV alin. (2), care cumulează inflația (IPC) cu majorări procentuale suplimentare în 2027-2029, punând presiune pe facturile la apă și energie."
+      }
     },
     "claude": {
       "model": "claude",
@@ -65,8 +93,41 @@
     },
     "codex": {
       "model": "codex",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 120158,
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Contribuții mai mari pentru apă și bani rezervați investițiilor",
+      "verdictShort": "Reforma are un scop legitim: finanțarea infrastructurii de apă și a protecției împotriva inundațiilor. Riscul moderat vine din creșterea contribuțiilor și penalităților, din unele formule insuficient precizate și din accesul pentru montarea contoarelor fără garanții procedurale explicite în textul furnizat.",
+      "initiatorClaim": "Inițiatorii urmăresc finanțarea sustenabilă a infrastructurii administrate de Apele Române și îndeplinirea reformei asumate prin PNRR. Expunerea invocă analiza Băncii Mondiale privind deficitul de finanțare și îmbunătățirea administrării infrastructurii.",
+      "realityCheck": "Textul majorează etapizat contribuții, tarife și penalități, introduce praguri minime de finanțare a investițiilor și permite ANAR instalarea propriilor echipamente de monitorizare la categoriile indicate. Nu garantează prin aceste măsuri executarea lucrărilor sau eficiența cheltuielilor, iar expunerea recunoaște că studiul invocat nu repartizează costurile între categoriile de utilizatori. Anexele furnizate sunt incomplete, astfel încât povara totală și comparația dintre contribuția hidroenergetică pe volum și cea pe MWh nu pot fi calculate.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate",
+        "Proprietari & Imobiliare",
+        "Agricultură & Mediu",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. IV alin. (1) lit. b)-d) adaugă majorări de 2% în 2027, 4% în 2028 și 3,70% în 2029 peste actualizarea cu IPC. Dacă se aplică succesiv asupra nivelurilor anterior majorate, creșterea cumulată este de aproximativ 10%, înaintea inflației; formula trebuie exprimată fără echivoc.",
+        "Art. IV include expres și penalitățile în majorările etapizate. Fragmentul nu permite stabilirea naturii fiecărei penalități, a cuantumului final sau a proporționalității sale; nu trebuie confundate automat cu amenzi contravenționale.",
+        "Excepția de la majorările etapizate privește contribuția pentru irigații din apă de suprafață și subteran. Nu rezultă o scutire generală a agriculturii și nici eliminarea indexării cu IPC; acvacultura nu este nominalizată în această excepție.",
+        "Art. I pct. 3 rezervă investițiilor minimum 12% din cheltuielile din surse proprii în 2027-2031 și 18% din 2032, prin raportare la bugetul aprobat inițial. Este o disciplină bugetară utilă, dar nu o garanție că investițiile sunt executate, finalizate sau selectate după riscul infrastructurii.",
+        "Art. II pct. 1 obligă utilizatorii indicați să permită instalarea aparaturii indiferent de proprietatea lucrărilor și terenului. Textul nu precizează notificarea, condițiile accesului, suportarea costurilor, repararea prejudiciilor și procedura de contestare; trebuie verificat dacă acestea sunt acoperite de legislația existentă.",
+        "Art. II pct. 2 permite metode indirecte pentru utilizatorii fără măsurare și plata pe MWh pentru hidrocentralele care dovedesc imposibilitatea tehnică. Diferențierea poate fi justificată tehnic, însă criteriile probei și echivalența economică trebuie să împiedice avantaje selective.",
+        "Art. V acordă șase luni pentru ordinul privind metodele indirecte, în timp ce modificările legale intră în vigoare potrivit regulilor generale. Aplicarea în acest interval trebuie corelată cu eventualele instrucțiuni existente, pentru a evita calcule divergente.",
+        "Noua secțiune E din sistemul contribuțiilor prevede o contribuție fixă pentru cheltuieli generale, aplicabilă tuturor utilizatorilor resurselor de apă pe categorii. În lipsa anexelor complete și a comparației cu regimul anterior, nu se poate afirma că aceasta este integral nouă sau determina dacă produce suprapuneri de costuri.",
+        "Pentru IMM-uri apar costuri directe de utilizare a apei și obligații de cooperare la contorizare ori comunicare a datelor. Pentru populație este posibil un impact indirect în prețuri, fără ca textul prezentat să instituie o taxă directă datorată de fiecare cetățean."
+      ],
+      "blindSpotsCaught": "Directiva 2018/958 privește reglementarea profesiilor, nu orice restricție economică, iar existența unui sistem informatic de monitorizare nu declanșează singură notificarea TRIS. Separat, fișa indică deja Legea nr. 155/2026: formularul de mai jos reprezintă o propunere asupra formei Senatului, nu un amendament care mai poate fi introdus în procedura încheiată. Verificarea online nu a fost disponibilă; identificarea dosarului, stadiul și conținutul legii promulgate nu au fost confirmate independent.",
+      "constitutionalityNote": "Nu rezultă o neconstituționalitate evidentă din fragmentele prezentate. Art. 1 alin. (5) impune însă clarificarea formulei majorărilor, a categoriilor obligate și a regulilor de aplicare tranzitorie. Art. 23 alin. (12) privește stabilirea și aplicarea pedepselor și nu este un temei automat împotriva contribuțiilor sau tarifelor; aplicabilitatea sa nu poate fi dedusă numai din termenul «penalități». Instalarea echipamentelor trebuie analizată prin art. 44 și, dacă presupune acces într-un domiciliu ori într-o reședință, prin art. 27, inclusiv sub aspectul garanțiilor și despăgubirilor. Diferențele dintre utilizatori necesită justificare obiectivă potrivit art. 16; art. 56 devine relevant în funcție de natura juridică a fiecărei contribuții.",
+      "euLawNote": "Directiva (UE) 2018/958 nu apare aplicabilă: textul nu reglementează accesul la o profesie sau exercitarea unei profesii reglementate. Directiva (UE) 2015/1535 nu impune notificarea doar pentru că ANAR utilizează software; fragmentul nu instituie reguli destinate în mod specific serviciilor societății informaționale și nu reglementează AI. Eventuale specificații tehnice obligatorii pentru echipamente trebuie analizate distinct, inclusiv la elaborarea ordinului. Reperul sectorial principal este art. 9 din Directiva 2000/60/CE privind recuperarea costurilor serviciilor de apă, inclusiv costurile de mediu și ale resursei, și contribuția adecvată a diferitelor utilizări. Excepția pentru irigații și diferențele dintre utilizatori nu sunt automat interzise, dar reclamă justificare și verificarea efectelor concurențiale; un ajutor de stat nu poate fi constatat numai din aceste fragmente.",
+      "senatForm": {
+        "articleRef": "Art. IV alin. (2)",
+        "proposalContent": "(2) În luna ianuarie, ANAR publică și notifică nivelurile actualizate, baza de calcul, IPC utilizat și formula aplicată. Majorările prevăzute la alin. (1) lit. b)-d) se aplică o singură dată în anul indicat, după indexarea anuală cu IPC, asupra nivelului în vigoare la 31 decembrie al anului anterior.",
+        "argumentation": "Precizarea bazei și ordinii operațiunilor permite verificarea sumelor datorate și previne aplicarea repetată a aceleiași majorări. Publicarea formulei reduce litigiile și costurile administrative pentru utilizatori și întărește previzibilitatea cerută de art. 1 alin. (5) din Constituție.",
+        "otherComments": "Propunerea privește forma Senatului furnizată. Dacă stadiul Legea nr. 155/2026 este confirmat, schimbarea necesită o nouă intervenție legislativă, raportată la textul publicat. Anexele complete trebuie verificate înaintea evaluării finale a cuantumurilor."
+      }
     }
   }
 }

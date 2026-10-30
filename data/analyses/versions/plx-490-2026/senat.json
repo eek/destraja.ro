@@ -2,7 +2,7 @@
   "billId": "PL-x 490/2026",
   "slug": "plx-490-2026",
   "version": "senat",
-  "updatedAt": "2026-10-30T08:31:31.809Z",
+  "updatedAt": "2026-10-30T09:31:55.817Z",
   "consensus": {
     "riskScore": 3,
     "riskLevel": "green",
@@ -13,7 +13,8 @@
     "affectedGroups": [
       "Sănătate & Educație",
       "IT & AI",
-      "IMM & Antreprenori"
+      "IMM & Antreprenori",
+      "Angajați & HR"
     ],
     "senatForm": {
       "articleRef": "Art. 2 alin. (9) – Legea nr. 144/2026",
@@ -25,8 +26,33 @@
   "council": {
     "agy": {
       "model": "agy",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 58175,
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Digitalizarea competițiilor de granturi pentru cercetare și înființarea Observatorului CDI",
+      "verdictShort": "O lege tehnică utilă, asumată prin PNRR, care obligă statul să centralizeze online toate apelurile de finanțare pentru cercetare și să aloce aleatoriu evaluatorii. Singurul risc practic este blocarea apelurilor din 2027 dacă instituțiile întârzie dezvoltarea platformelor IT.",
+      "initiatorClaim": "Inițiatorii urmăresc reducerea birocrației, creșterea transparenței în acordarea fondurilor publice pentru cercetare-dezvoltare-inovare (CDI) și stimularea investițiilor, conform recomandărilor Comisiei Europene (PSF) și jaloanelor PNRR.",
+      "realityCheck": "În textul analizat (Art. 1-3), legea reglementează strict arhitectura administrativă și digitală a finanțărilor publice: creează un punct unic electronic de contact interconectat cu MySMIS2021, impune publicarea rezultatelor în regim „open access” și înființează o direcție nouă în minister (OCDI). Deși pozitivă, legea introduce la Art. 2 alin. (9) o interdicție rigidă de a mai lansa orice competiție din 2027 fără sisteme IT interoperabile funcționale, ceea ce poate bloca finanțările dacă statul întârzie implementarea tehnică.",
+      "affectedGroups": [
+        "Sănătate & Educație",
+        "IT & AI",
+        "IMM & Antreprenori"
+      ],
+      "keyFindings": [
+        "Art. 2 alin. (2)-(4) și (9): Instituie un punct unic electronic de contact pentru toate finanțările publice în cercetare și interzice, începând cu anul 2027, lansarea oricărui apel de proiecte în afara unor soluții IT interoperabile (comunicare mașină-la-mașină).",
+        "Art. 2 alin. (17)-(21): Obligă instituțiile publice beneficiare să inițieze din 2027 acreditarea europeană HRS4R, impune alocarea automată și aleatorie prin algoritmi a evaluatorilor cu recunoaștere internațională și obligă beneficiarii să publice rezultatele în regim de acces deschis (open access).",
+        "Art. 3 alin. (1)-(6): Înființează Observatorul de Cercetare, Dezvoltare și Inovare (OCDI) ca direcție permanentă fără personalitate juridică în cadrul autorității de stat pentru cercetare-dezvoltare, prin preluarea structurii PNRR (PSF)."
+      ],
+      "blindSpotsCaught": "Art. 2 alin. (9) instituie o sancțiune blocantă din 2027 (niciun apel de cercetare nu mai poate fi lansat fără soluția informatică interoperabilă), în timp ce specificațiile tehnice sunt lăsate prin Art. 2 alin. (11) într-un ordin de ministru emis în 90 de zile; având în vedere că legea devine aplicabilă spre finalul anului 2026, fereastra de dezvoltare și interconectare IT până la 1 ianuarie 2027 este extrem de scurtă. De asemenea, Art. 2 alin. (17) transformă o Recomandare UE neobligatorie (Carta europeană a cercetătorilor C/2023/1640) într-o condiție obligatorie de eligibilitate pentru instituțiile de drept public.",
+      "constitutionalityNote": "Nu ridică probleme majore de constituționalitate. Din perspectiva Art. 1 alin. (5) privind calitatea și previzibilitatea legii, sintagma „recunoaștere internațională” de la Art. 2 alin. (18) nu este definită în corpul legii, iar delegarea dezvoltării și administrării soluțiilor informatice prin simple „acorduri de parteneriat sau protocoale de colaborare” (Art. 2 alin. 15) va trebui aplicată cu respectarea strictă a legislației achizițiilor publice.",
+      "euLawNote": "Proiectul este aliniat cu politicile UE privind Știința Deschisă (Open Science), Recomandarea Consiliului C/2023/1640 (HRS4R) și Cadrul European de Interoperabilitate. Nu instituie restricții privind accesul la profesii reglementate (Directiva 2018/958) și nu impune reglementări tehnice comerciale private care să necesite notificare TRIS (Directiva 2015/1535), vizând exclusiv sistemele IT ale administrației publice.",
+      "senatForm": {
+        "articleRef": "Art. 2 alin. (9) și alin. (19)",
+        "proposalContent": "La art. 2, alin. (9) se completează cu o clauză tranzitorie: interdicția lansării apelurilor din 2027 se aplică doar după 6 luni de la recepția și testarea tehnică a punctului unic. La alin. (19), alocarea algoritmică și aleatorie a evaluatorilor se completează cu validarea sub-domeniului științific îngust și a incompatibilităților.",
+        "argumentation": "Blocarea prin lege a oricărui apel de cercetare începând cu 1 ianuarie 2027 (art. 2 alin. 9), indiferent dacă statul a finalizat sau nu interconectarea tehnică a platformelor IT, riscă să paralizeze finanțarea cercetării din culpa administrației. În plus, alocarea pur aleatorie a evaluatorilor fără filtru de nișă poate afecta calitatea evaluării.",
+        "otherComments": "Legea este în ansamblu benefică (jalon PNRR pentru transparența granturilor CDI și acces deschis la rezultate), însă termenul de 90 de zile din art. 2 alin. (11) pentru ordinul de ministru lasă un timp foarte scurt până la interdicția din 2027."
+      }
     },
     "claude": {
       "model": "claude",
@@ -62,8 +88,36 @@
     },
     "codex": {
       "model": "codex",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 107152,
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Platforme conectate pentru finanțarea cercetării",
+      "verdictShort": "Textul urmărește o modernizare utilă a finanțării cercetării, fără taxe, sancțiuni sau monopoluri comerciale explicite în fragmentul analizat. Principalul risc este blocarea lansării competițiilor din 2027 dacă infrastructura informatică nu este pregătită.",
+      "initiatorClaim": "Inițiatorii urmăresc reducerea birocrației, creșterea transparenței și fundamentarea politicilor de cercetare pe date, în contextul reformelor PNRR. Ei prezintă aceste măsuri ca favorizând inclusiv investițiile și colaborarea dintre cercetarea publică și întreprinderi.",
+      "realityCheck": "Fragmentul impune proceduri digitale, conectarea platformelor de finanțare, monitorizarea centralizată și constituirea unui observator în cadrul autorității pentru cercetare. Nu instituie facilități fiscale sau finanțări suplimentare pentru investitori, iar simplificarea promisă depinde de implementare: obligațiile existente pot fi digitalizate fără să fie reduse. Apar și condiții suplimentare privind instituțiile publice beneficiare, evaluatorii și publicarea rezultatelor.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "IT & AI",
+        "Angajați & HR",
+        "Sănătate & Educație"
+      ],
+      "keyFindings": [
+        "Art. 2 alin. (2)-(8), (12)-(14) conectează platformele și păstrează utilizarea MySMIS pentru finanțările europene indicate. Punctul unic centralizează accesul; textul nu desemnează un furnizor comercial exclusiv.",
+        "Art. 2 alin. (9) interzice lansarea competițiilor din 2027 fără o soluție conformă standardelor de interoperabilitate. Alin. (11) acordă 90 de zile pentru ordinul ministerial, dar fragmentul nu prevede o perioadă minimă de adaptare după publicarea standardelor sau o soluție pentru indisponibilitatea platformelor.",
+        "Art. 2 alin. (17) obligă introducerea în ghiduri a cerinței ca instituțiile publice contractante să inițieze procesul HRS4R ori să dețină recunoașterea indicată. Nu cere tuturor solicitanților, inclusiv IMM-urilor private, să obțină această recunoaștere înaintea depunerii proiectului.",
+        "Art. 2 alin. (18)-(20) introduce alocarea automată și aleatorie a evaluatorilor, observatori independenți și evaluare ex-post prin eșantionare. Garanțiile sunt utile, dar recunoașterea internațională, prestigiul profesional și momentul verificării conflictelor de interese necesită criterii verificabile.",
+        "Art. 2 alin. (16), (20)-(21) și art. 3 presupun actualizarea datelor, evaluări, publicarea rezultatelor și funcționarea OCDI. Acestea implică resurse administrative și informatice; costurile și sursele lor nu pot fi determinate din extras, iar eventualele economii prin reutilizarea datelor nu sunt cuantificate."
+      ],
+      "blindSpotsCaught": "HRS4R este o strategie europeană pentru resurse umane, asociată distincției «HR Excellence in Research», nu o acreditare profesională generală; formularea legală trebuie să identifice precis procedura și dovada inițierii acesteia. Art. 2 alin. (6) folosește «interoperabilitatea, după caz», deși alte alineate o impun obligatoriu. De asemenea, potrivit stadiului declarat, proiectul a devenit lege: propunerea din senatForm poate fundamenta modificarea legii, nu amendarea unei proceduri parlamentare deja încheiate.",
+      "constitutionalityNote": "Nu rezultă o neconstituționalitate evidentă din fragment. Art. 1 alin. (5) din Constituție impune însă corelarea obligațiilor, termene previzibile și delimitarea dintre standardele tehnice stabilite prin ordin și condițiile esențiale de acces la finanțare, care trebuie să aibă bază legală suficientă. Diferența dintre instituțiile publice și beneficiarii privați în materia HRS4R necesită o justificare obiectivă, fără a constitui automat discriminare. Art. 23 alin. (12), privind stabilirea și aplicarea pedepselor, nu este direct incident: extrasul nu instituie pedepse. Pentru art. 111 alin. (1) și art. 138 alin. (5), trebuie verificate documentația financiară, solicitarea informării Guvernului când sunt îndeplinite condițiile constituționale și sursele cheltuielilor; lipsa acestora nu poate fi dedusă din expunerea trunchiată.",
+      "euLawNote": "Directiva (UE) 2018/958 privește reglementarea accesului la profesii reglementate și a exercitării acestora; cerințele pentru evaluatorii unor competiții și procedura HRS4R nu demonstrează, singure, intrarea în acest domeniu. Directiva (UE) 2015/1535 nu impune notificare TRIS pentru orice digitalizare administrativă: trebuie verificat dacă prevederile sau standardele ulterioare constituie reglementări tehnice ori norme privind serviciile societății informaționale în sensul directivei; fragmentul nu reglementează explicit AI. Standardele și achizițiile trebuie să permită concurența, fără favorizarea nejustificată a unor tehnologii sau furnizori. Recomandarea europeană privind Carta cercetătorilor nu impune ea însăși condiția națională HRS4R. Interconectarea și accesul deschis rămân supuse RGPD, proprietății intelectuale și protecției informațiilor confidențiale; obligația de publicare nu înseamnă acces public nelimitat la toate datele.",
+      "senatForm": {
+        "articleRef": "Art. 2 alin. (9)",
+        "proposalContent": "Din 2027, competițiile/apelurile de proiecte de CDI finanțate din fonduri publice se lansează prin soluții informatice interoperabile. Dacă acestea sunt indisponibile sau integrarea nu este finalizată, se utilizează temporar proceduri electronice alternative, cu publicarea motivelor și migrarea ulterioară a datelor, potrivit ordinului prevăzut la alin. (11).",
+        "argumentation": "Interdicția absolută poate bloca finanțarea cercetării din cauze tehnice neimputabile solicitanților. Alternativa electronică temporară păstrează digitalizarea și transparența, asigurând continuitatea competițiilor. Ordinul trebuie să stabilească termene și responsabilități pentru remediere și migrarea datelor.",
+        "otherComments": "Potrivit stadiului comunicat, proiectul a devenit Legea nr. 144/2026; propunerea presupune modificarea legii printr-o nouă inițiativă. Analiza privește exclusiv extrasul, întrerupt la art. 3 alin. (6). Verificarea online nu a fost disponibilă; stadiul și documentația financiară nu au putut fi confirmate independent."
+      }
     }
   }
 }

@@ -2,9 +2,9 @@
   "billId": "PL-x 499/2026",
   "slug": "plx-499-2026",
   "version": "senat",
-  "updatedAt": "2026-10-30T08:32:38.517Z",
+  "updatedAt": "2026-10-30T09:33:12.825Z",
   "consensus": {
-    "riskScore": 2,
+    "riskScore": 2.3,
     "riskLevel": "green",
     "plainTitle": "Femeile care nasc primesc prin lege dreptul la un însoțitor, la intimitate și la a sta cu bebelușul",
     "summaryTlDr": "Este o lege benefică pentru paciente. Transformă în drepturi legale practici recomandate de OMS și de CEDO și elimină interdicțiile generale din regulamentele interne ale maternităților. Riscul real vine din redactare: restrângerile nu trebuie motivate scris, separarea auditivă a dispărut din text, iar termenele de implementare sunt nerealiste.",
@@ -13,6 +13,7 @@
     "affectedGroups": [
       "Sănătate & Educație",
       "Justiție & Drepturi Civile",
+      "Toți cetățenii",
       "IMM & Antreprenori"
     ],
     "senatForm": {
@@ -25,8 +26,33 @@
   "council": {
     "agy": {
       "model": "agy",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 40284,
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Dreptul gravidei la însoțitor în timpul nașterii, la intimitate și la păstrarea nou-născutului lângă mamă",
+      "verdictShort": "O lege pozitivă și necesară, care aliniază maternitățile din România la standardele OMS și la jurisprudența CEDO privind demnitatea nașterii. Rămâne însă o portiță procedurală: refuzul însoțitorului de către personalul medical nu trebuie motivat în scris în foaia de observație, ceea ce poate menține abuzurile verbale.",
+      "initiatorClaim": "Inițiatorii vor să elimine interdicțiile arbitrare din regulamentele interne ale spitalelor care blochează accesul unui însoțitor la naștere și să asigure intimitatea vizuală și auditivă a femeilor aflate în travaliu, precum și contactul permanent mamă-copil după naștere.",
+      "realityCheck": "Legea consacră expres dreptul la un însoțitor ales în travaliu și la naștere, obligația de separare vizuală în sălile de travaliu și dreptul nou-născutului de a nu fi separat de mamă (rooming-in). Totuși, Senatul a eliminat obligația de separare „auditivă” promisă în expunerea de motive (limitând-o la paravane vizuale), iar pentru refuzul însoțitorului nu a impus consemnarea scrisă a motivului medical în fișa pacientei.",
+      "affectedGroups": [
+        "Sănătate & Educație",
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. I pct. 3 (Art. 28¹): Introduce dreptul femeii însărcinate de a fi însoțită, la cerere, de o persoană aleasă pe tot parcursul travaliului, nașterii și transferului în spital, restrângerea fiind permisă doar excepțional, din motive medicale sau epidemiologice obiective.",
+        "Art. I pct. 3 (Art. 28²): Instituie dreptul nou-născutului de a rămâne împreună cu mama imediat după naștere și pe durata internării, orice excepție medicală sau de siguranță trebuind consemnată obligatoriu în documentele medicale.",
+        "Art. I pct. 2 (Art. 27¹ alin. 2): Obligă spitalele publice și private să asigure intimitatea gravidei prin măsuri tehnice/organizatorice, inclusiv separare vizuală în spațiile de travaliu și naștere (cerința separării auditive din expunerea de motive a fost omisă în textul normativ)."
+      ],
+      "blindSpotsCaught": "Asimetrie de garanții procedurale între Art. 28¹ alin. (4) și Art. 28² alin. (1): în timp ce separarea nou-născutului de mamă trebuie „consemnată în documentele medicale”, restrângerea dreptului la însoțitor se dispune de personalul medical fără obligația consemnării în scris a motivului, făcând dificilă contestarea refuzurilor abuzive. În plus, Art. 28¹ alin. (4) conține o eroare gramaticală („îngrijirea a femeii însărcinate”).",
+      "constitutionalityNote": "Proiectul valorifică direct Art. 26 din Constituție (viața intimă, familială și privată) și Art. 34 (dreptul la ocrotirea sănătății). Pentru o deplină previzibilitate (Art. 1 alin. 5), condițiile în care personalul medical poate restrânge dreptul la însoțitor (Art. 28¹ alin. 4) ar trebui să includă obligația motivării în scris în foaia de observație.",
+      "euLawNote": "Proiectul nu ridică probleme pe Directiva (UE) 2018/958 sau Directiva (UE) 2015/1535 (TRIS), ci transpune în dreptul intern obligațiile pozitive decurgând din Art. 8 CEDO (cauzele Ternovszky c. Ungariei și Konovalova c. Rusiei) și Art. 7 și 24 din Carta Drepturilor Fundamentale a UE.",
+      "senatForm": {
+        "articleRef": "Art. I pct. 3 (Art. 28^1 alin. (4))",
+        "proposalContent": "„(4) Măsura restrângerii se dispune de către medicul responsabil de îngrijirea femeii însărcinate, cu motivarea și consemnarea obligatorie a situației obiective în documentele medicale ale pacientei.”",
+        "argumentation": "În forma Senatului, doar separarea nou-născutului (art. 28^2) cere consemnarea în documentele medicale, nu și refuzul însoțitorului (art. 28^1). Fără obligația motivării în scris în foaia de observație, excepțiile medicale sau epidemiologice pot fi invocate verbal și arbitrar. De asemenea, se corectează dezacordul gramatical („îngrijirea a femeii”).",
+        "otherComments": "La Art. II, termenul de 30 de zile pentru modificarea OMS nr. 914/2006 privind structura funcțională a spitalelor este foarte scurt și ar trebui corelat cu norme tranzitorii pentru maternitățile publice care necesită reamenajarea spațiilor comune de travaliu."
+      }
     },
     "claude": {
       "model": "claude",
@@ -62,8 +88,37 @@
     },
     "codex": {
       "model": "codex",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 128238,
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Însoțitor la naștere și mai multă intimitate în maternitate",
+      "verdictShort": "Proiectul întărește drepturi utile ale pacientelor și nou-născuților, fără să introducă taxe, monopoluri sau sancțiuni noi. Principalele vulnerabilități sunt garanțiile insuficiente împotriva restricțiilor discreționare și lipsa unei tranziții clare pentru adaptarea maternităților.",
+      "initiatorClaim": "Inițiatorii urmăresc protejarea intimității în timpul nașterii și eliminarea interdicțiilor generale privind însoțitorul. Invocă respectarea vieții private și beneficiile sprijinului continuu pentru mamă și copil.",
+      "realityCheck": "Textul instituie dreptul la însoțitor în travaliu, la naștere și la transferul intrainstituțional, protecția intimității și dreptul nou-născutului de a rămâne cu mama, cu anumite excepții. Separarea vizuală este expres prevăzută, însă separarea auditivă nu este cerută explicit, iar restrângerea accesului însoțitorului nu trebuie expres motivată în scris sau reevaluată. Analiza privește exclusiv forma Senatului furnizată: verificarea online nu a fost disponibilă, astfel încât nu pot confirma stadiul oficial sau identitatea cu forma trimisă la promulgare.",
+      "affectedGroups": [
+        "Sănătate & Educație",
+        "Justiție & Drepturi Civile",
+        "IMM & Antreprenori"
+      ],
+      "keyFindings": [
+        "Art. 28¹ alin. (1) consacră alegerea însoțitorului de către pacientă, fără condiția căsătoriei sau a rudeniei. Dreptul acoperă și transferul în interiorul unității, dar nu reglementează expres transportul între spitale.",
+        "Art. 27¹ alin. (2) obligă expres atât unitățile publice, cât și pe cele private să protejeze intimitatea. Separarea vizuală este obligatorie; protecția auditivă poate rezulta din obligația generală, dar textul nu stabilește un standard explicit.",
+        "Art. 28¹ alin. (3)-(4) permite restrângerea însoțirii numai excepțional și pentru motive medicale sau epidemiologice obiective. Lipsesc însă obligațiile exprese de consemnare, comunicare, limitare în timp și reevaluare a măsurii.",
+        "Art. 28² cere consemnarea în documentele medicale a motivelor separării mamă–nou-născut. Această garanție documentară nu este prevăzută și pentru excluderea însoțitorului; motivele de siguranță și forță majoră necesită aplicare concretă și proporțională.",
+        "Art. II acordă Ministerului Sănătății 30 de zile pentru adaptarea normelor, fără să amâne expres obligațiile spitalelor. Termenul pentru emiterea normelor nu reprezintă automat o perioadă de grație pentru conformare.",
+        "Proiectul nu introduce taxe, dosare sau autorizații noi pentru paciente și însoțitori. Unitățile sanitare pot suporta costuri pentru separatoare, reorganizarea spațiilor și proceduri interne; fragmentul expunerii de motive nu cuantifică aceste costuri și nu indică finanțarea.",
+        "Expunerea de motive și recomandările medicale justifică obiectivul, dar nu înlocuiesc garanțiile din articole. Dreptul la însoțitor rămâne supus excepțiilor legale, iar textul nu impune expres camere individuale sau izolare fonică integrală."
+      ],
+      "blindSpotsCaught": "Dacă stadiul comunicat, «la promulgare», este exact, termenul obișnuit pentru amendamente la comisie a trecut. Un e-mail al cetățeanului poate constitui o petiție și poate inspira o intervenție legislativă ulterioară, dar nu redeschide procedura parlamentară; o eventuală reexaminare presupune declanșarea mecanismului constituțional corespunzător. În plus, art. II cere Ministerului modificarea «tuturor actelor normative subsecvente»: această formulă nu îi conferă competența de a modifica acte ale altor autorități. Eroarea «îngrijirea a femeii» din art. 28¹ alin. (4) este una de redactare, fără efect juridic major.",
+      "constitutionalityNote": "Reglementarea susține demnitatea, viața privată, ocrotirea sănătății și protecția copilului, în legătură cu art. 1 alin. (3), art. 26, art. 34 și art. 49 din Constituție. Sub art. 1 alin. (5), criteriile generale ale restrângerii ar beneficia de garanții procedurale explicite; lipsa lor nu dovedește singură neconstituționalitatea. Art. 27¹ alin. (3) este prea larg formulat deoarece trimite la întregul alin. (1), inclusiv la demnitate: ar trebui delimitate ingerințele strict necesare în intimitate, fără legitimarea tratamentelor degradante. Restricțiile trebuie să respecte necesitatea, proporționalitatea și condițiile art. 53, fără interdicții generale nemotivate. Art. 23 alin. (12), privind legalitatea pedepselor, nu este direct incident, deoarece proiectul nu instituie pedepse. Pentru cheltuielile publice trebuie verificată documentația financiară și, după caz, respectarea art. 111 alin. (1) și art. 138 alin. (5); fragmentul disponibil nu permite constatarea unei încălcări.",
+      "euLawNote": "Directiva (UE) 2018/958 privește testarea proporționalității cerințelor care restricționează accesul la profesii reglementate sau exercitarea acestora. Textul analizat nu introduce calificări, activități rezervate ori bariere profesionale de acest tip, astfel încât nu rezultă declanșarea testului specific directivei numai pentru că sunt reglementate servicii medicale. Obligațiile se aplică unităților publice și private și nu creează exclusivități, însă costurile de conformare pot apăsa relativ mai mult asupra unităților mici. Nu se identifică o obligație de notificare TRIS în temeiul Directivei (UE) 2015/1535: proiectul nu stabilește reguli tehnice pentru produse sau reguli privind servicii ale societății informaționale și nu reglementează servicii digitale ori AI. CEDO aparține cadrului Consiliului Europei, distinct de dreptul UE; recomandările OMS nu sunt norme obligatorii ale Uniunii.",
+      "senatForm": {
+        "articleRef": "Art. I pct. 3 – art. 28¹ alin. (4)",
+        "proposalContent": "(4) Restrângerea se dispune individual de personalul medical responsabil, numai în măsura și pe durata strict necesare. Motivele, durata estimată și alternativele analizate se consemnează în documentele medicale și se comunică pacientei. Măsura se reevaluează la schimbarea situației medicale sau epidemiologice.",
+        "argumentation": "Consemnarea și comunicarea motivelor fac verificabil caracterul excepțional al restricției. Limitarea duratei și reevaluarea reduc riscul interdicțiilor generale, păstrând posibilitatea intervenției medicale imediate și protejând siguranța pacientei, a copilului și a celorlalte persoane.",
+        "otherComments": "Dacă legea este deja la promulgare, propunerea nu mai poate fi preluată prin procedura obișnuită de amendare la comisie. Poate fundamenta o petiție pentru o modificare ulterioară sau poate fi valorificată într-o reexaminare, dacă aceasta este declanșată conform Constituției."
+      }
     }
   }
 }

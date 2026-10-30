@@ -2,19 +2,19 @@
   "billId": "Pl-x 530/2026",
   "slug": "plx-530-2026",
   "version": "initiator",
-  "updatedAt": "2026-10-30T08:39:58.124Z",
+  "updatedAt": "2026-10-30T09:42:49.991Z",
   "consensus": {
-    "riskScore": 3,
-    "riskLevel": "green",
+    "riskScore": 4,
+    "riskLevel": "yellow",
     "plainTitle": "Reforma ANI: averile se declară online, dar nu se mai publică, iar lista celor obligați se lărgește",
     "summaryTlDr": "Este o lege tehnică, în mare parte utilă, legată de jalonul PNRR 431 și de Decizia CCR nr. 297/2025. Riscurile sunt punctuale: obligația de declarare extinsă la lideri sindicali și patronali, un prag în euro formulat imprecis și costul semnăturii electronice calificate.",
     "initiatorClaim": "Inițiatorii spun că vor să armonizeze legile integrității (144/2007, 176/2010, 161/2003, 184/2016), să îndeplinească jalonul PNRR 431 și să pună legislația în acord cu Decizia CCR nr. 297/2025, care a declarat neconstituțională publicarea online a declarațiilor de avere.",
     "realityCheck": "Textul disponibil reorganizează conducerea ANI și introduce un interimat al secretarului general, limitat la 60 de zile și cu interdicții clare. Stabilește motive concrete de revocare a membrilor CNI și obligă declararea exclusiv electronic, prin e-DAI, cu semnătură calificată sau cu cartea electronică de identitate. Lista din art. 1 al Legii 176/2010 cuprinde și persoane din entități private (federații sportive, sindicale și patronale), ceea ce depășește sfera clasică a funcției publice.",
     "affectedGroups": [
-      "Angajați & HR",
       "Justiție & Drepturi Civile",
-      "Sănătate & Educație",
-      "Toți cetățenii"
+      "Angajați & HR",
+      "Toți cetățenii",
+      "Sănătate & Educație"
     ],
     "senatForm": {
       "articleRef": "Art. II pct.1, L.176/2010 art.1(1) pct.45-46",
@@ -26,8 +26,34 @@
   "council": {
     "agy": {
       "model": "agy",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 65111,
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Reforma ANI și noile reguli pentru declarațiile de avere și interese (Jalonul 431 PNRR)",
+      "verdictShort": "Legea modernizează funcționarea ANI și limitează abuzurile în caz de interimat la conducerea instituției, însă extinde vag obligația declarării averii către experți plătiți din fonduri externe și modifică regimul de publicitate al declarațiilor de avere în urma Deciziei CCR nr. 297/2025.",
+      "initiatorClaim": "Inițiatorii susțin că armonizează și digitalizează legislația privind integritatea (Legea 144/2007, Legea 176/2010, Legea 161/2003 și sistemul PREVENT) pentru a îndeplini Jalonul 431 din PNRR, cerințele OCDE și pentru a pune legea în acord cu Decizia CCR nr. 297/2025 privind protecția vieții private în declarațiile de avere.",
+      "realityCheck": "Pe partea pozitivă, proiectul introduce garanții stricte pentru interimatul secretarului general al ANI (maxim 60 de zile, fără drept de a schimba organigrama sau de a redistribui dosare) și include în controlul de integritate noile agenții de stat (AMEPIP, ANDIS, ANRMPSG). Totuși, sub umbrela Deciziei CCR nr. 297/2025 se restrânge regimul de publicare online a declarațiilor de avere și interese, se definește neclar categoria experților în afara organigramei plătiți din fonduri externe și se impune exclusiv semnătura electronică calificată sau cartea electronică de identitate (CEI) în platforma e-DAI.",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile",
+        "Angajați & HR",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. I pct. 1 (art. 13 alin. (5) lit. b) din Legea 144/2007) instituie un filtru salutar împotriva politizării prin interimat: secretarul general al ANI poate prelua atribuțiile de ordonator de credite cel mult 60 de zile când funcțiile de președinte și vicepreședinte sunt vacante, având interdicție expresă de a modifica structura organizatorică, de a numi/revoca inspectori sau de a redistribui dosare în afara sistemului aleatoriu.",
+        "Art. II pct. 1 (art. 1 alin. (1) pct. 11, 12, 20-22 și 44 din Legea 176/2010) extinde obligația depunerii declarațiilor de avere și interese la conducerea AMEPIP, ANDIS, ANRMPSG, Comitetului Național Paralimpic, personalul din ADR-uri, dar și la „experții cooptați și experții în afara organigramei plătiți din fonduri externe” – o formulare excesiv de largă, care nu precizează explicit dacă vizează doar autoritățile publice.",
+        "Art. II pct. 2 (art. 2 alin. (1) din Legea 176/2010) obligă toți deponenții (cu excepția candidaților în alegeri) să semneze declarațiile în e-DAI exclusiv cu semnătură electronică calificată sau cu semnătura avansată din cartea electronică de identitate (CEI), generând costuri suplimentare pentru categoriile asimilate (ex. lideri sindicali, federații sportive, experți cooptați) care nu dețin încă CEI.",
+        "Conform Expunerii de Motive, proiectul modifică regimul de publicitate al declarațiilor de avere și de interese în baza Deciziei CCR nr. 297/2025, ceea ce creează un risc major de diminuare a controlului civic și jurnalistic asupra averilor demnitarilor dacă restricția depășește simpla anonimizare a datelor cu caracter strict personal."
+      ],
+      "blindSpotsCaught": "La Art. II pct. 1 (art. 1 alin. (1) pct. 12 din Legea 176/2010), spre deosebire de pct. 10 care circumscrie clar obligația la „personalul instituțiilor și autorităților publice”, textul de la pct. 12 menționează generic „experții cooptați și experții în afara organigramei plătiți din fonduri externe”. Această omisiune de tehnică legislativă poate atrage sub regimul sancționator al ANI consultanți sau experți privați contractați în proiecte cu finanțare externă fără exercitarea unei funcții de autoritate publică.",
+      "constitutionalityNote": "Proiectul urmărește punerea în acord a Legii nr. 176/2010 cu Decizia CCR nr. 297/2025 (art. 26 din Constituție privind viața intimă, familială și privată). Totuși, formularea imprecisă de la Art. II pct. 1 (art. 1 alin. (1) pct. 12) privind „experții în afara organigramei plătiți din fonduri externe” ridică probleme de claritate și previzibilitate a normei juridice, contrar art. 1 alin. (5) din Constituție.",
+      "euLawNote": "Proiectul operaționalizează Jalonul 431 din PNRR și integrează în obiectivele ANI (Art. I pct. 1 - art. 13 alin. (2)) atribuțiile privind protecția avertizorilor în interes public (Directiva (UE) 2019/1937) și utilizarea semnăturii electronice conform Regulamentului (UE) nr. 910/2014 (eIDAS). Nu impune bariere în calea profesiilor reglementate în sensul Directivei (UE) 2018/958 și nu necesită notificare TRIS conform Directivei (UE) 2015/1535, vizând o platformă administrativă internă (e-DAI).",
+      "senatForm": {
+        "articleRef": "Art. II pct. 1 și pct. 2 (Legea nr. 176/2010)",
+        "proposalContent": "La Art. II pct. 1, art. 1 alin. (1) pct. 12 se modifică: „12. experții cooptați în procedurile de achiziții publice și experții în afara organigramei din cadrul autorităților și instituțiilor publice, plătiți din fonduri externe;”. La Art. II pct. 2, art. 2 alin. (1), se menține posibilitatea semnării prin certificate emise gratuit în platforma e-DAI până la generalizarea CEI.",
+        "argumentation": "Formularea actuală a pct. 12 („experții în afara organigramei plătiți din fonduri externe”) este lipsită de previzibilitate (art. 1 alin. (5) din Constituție), putând fi interpretată că include experți din mediul privat. De asemenea, impunerea exclusivă a semnăturii calificate sau a CEI generează costuri pentru categoriile fără carte electronică de identitate.",
+        "otherComments": "În punerea în acord a legii cu Decizia CCR nr. 297/2025 privind publicitatea declarațiilor de avere și de interese, solicităm ca protecția datelor personale să se realizeze prin anonimizarea datelor sensibile (adrese, CNP, datele terților), fără eliminarea transparenței publice asupra patrimoniului și intereselor demnitarilor și funcționarilor publici."
+      }
     },
     "claude": {
       "model": "claude",
@@ -65,8 +91,37 @@
     },
     "codex": {
       "model": "codex",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 136141,
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Reguli noi pentru ANI și declarațiile de avere",
+      "verdictShort": "Modernizarea ANI și depunerea electronică a declarațiilor sunt utile, dar textul reprodus prezintă omisiuni și probleme de continuitate administrativă. Riscul moderat privește această formă incompletă a inițiatorului; nu poate fi atribuit automat Legii nr. 180/2026.",
+      "initiatorClaim": "Inițiatorii urmăresc armonizarea legislației integrității, digitalizarea procedurilor și eficientizarea ANI. Invocă adaptarea la jurisprudența CCR și îndeplinirea angajamentelor din PNRR și procesul de aderare la OCDE.",
+      "realityCheck": "Articolele reproduse actualizează organizarea ANI, limitează atribuțiile secretarului general în interimat, reformulează categoriile obligate să declare și prevăd depunerea electronică folosind anumite semnături. Lista nu menționează expres europarlamentarii în funcție, iar interimatul de maximum 60 de zile nu este însoțit, în extras, de o soluție pentru prelungirea vacanței conducerii. Extrasul se întrerupe la art. II pct. 2: efectele asupra publicității declarațiilor, sancțiunilor și incompatibilităților nu pot fi deduse din promisiunile expunerii de motive.",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile",
+        "Angajați & HR",
+        "Sănătate & Educație",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. II pct. 1, noul art. 1 alin. (1): candidații din România la Parlamentul European sunt incluși la pct. 39, dar europarlamentarii în funcție nu sunt enumerați expres. Trebuie verificată acoperirea lor prin alte dispoziții și, dacă lipsește, completată lista.",
+        "Art. I pct. 1, art. 13 alin. (5) lit. b): interimatul secretarului general este limitat la 60 de zile, cu interdicții utile împotriva intervențiilor în evaluări și cu informarea CNI și Senatului în 24 de ore. Extrasul nu stabilește cine asigură reprezentarea și ordonanțarea creditelor după expirarea termenului dacă vacanța continuă.",
+        "Art. II pct. 2, art. 2 alin. (1): depunerea prin e-DAI și semnătura calificată sau avansată încorporată în cartea electronică de identitate pot simplifica administrarea. Pot apărea costuri pentru certificat și dificultăți tehnice; eventualele reguli de suport, indisponibilitate și prelungire a termenelor trebuie căutate în textul integral.",
+        "Art. I pct. 2: recunoașterea vechimii juridice a inspectorilor cu studii juridice poate sprijini recrutarea și mobilitatea profesională. Nu acordă, prin ea însăși, dreptul de exercitare a tuturor profesiilor juridice și nu instituie un monopol profesional.",
+        "Art. I pct. 7: amenzile aplicate de inspectorii ANI devin venit la bugetul de stat; această prevedere nu stabilește amenzi noi sau cuantumuri mai mari. Efectele abrogării art. 59 și anexei Legii nr. 144/2007 trebuie evaluate separat, prin comparație cu dispozițiile în vigoare.",
+        "Lista persoanelor obligate include personal care gestionează proiecte și fonduri publice, conducerea unor entități și organizații profesionale sau sociale. Întinderea obligațiilor trebuie justificată proporțional cu atribuțiile și riscurile de integritate; extrasul nu permite calcularea numărului suplimentar de declaranti sau a costului administrativ."
+      ],
+      "blindSpotsCaught": "Obligația candidaților la Parlamentul European nu acoperă automat întreaga durată a mandatului celor aleși. Separat, limita interimatului protejează autonomia ANI, dar poate produce un blocaj administrativ dacă nu există o regulă aplicabilă după ziua 60. Mențiunea «Lege 180/2026» impune distingerea formei promulgate de forma inițiatorului și schimbă instrumentul procedural disponibil cetățeanului.",
+      "constitutionalityNote": "Art. 1 alin. (5) din Constituție cere obligații previzibile, categorii de destinatari identificabile și corelarea regulilor de conducere a instituției. Art. 23 alin. (12) privește legalitatea pedepselor și nu justifică automat o critică împotriva acestor reguli administrative; eventualele sancțiuni trebuie analizate în textele lor concrete. Publicitatea declarațiilor necesită examinarea echilibrului dintre art. 26, art. 31 și protecția datelor, precum și respectarea art. 147 alin. (4) privind deciziile CCR. Conformitatea cu Decizia nr. 297/2025 nu poate fi certificată fără dispozițiile integrale privind publicarea și datele membrilor familiei. Pentru modificările privind autoritatea administrativă autonomă trebuie verificată și respectarea cerințelor legii organice și a majorității de adoptare.",
+      "euLawNote": "Directiva (UE) 2018/958 nu impune un test de proporționalitate pentru orice măsură care afectează concurența: ea vizează reglementări care restrâng accesul la profesii reglementate sau exercitarea lor. Recunoașterea vechimii inspectorilor nu demonstrează singură existența unei asemenea restricții; contează efectul juridic asupra accesului profesional. Directiva (UE) 2015/1535 nu devine aplicabilă doar pentru că depunerea declarațiilor se face online: extrasul nu evidențiază o reglementare tehnică notificabilă privind servicii ale societății informaționale și nu reglementează AI. Sunt relevante RGPD, pentru necesitatea și securitatea prelucrării datelor, și eIDAS, pentru semnăturile electronice. Nu rezultă din fragment taxe asupra IMM-urilor ori bariere comerciale; costurile vizibile privesc administrarea sistemului și îndeplinirea obligațiilor de declarare.",
+      "senatForm": {
+        "articleRef": "Art. II pct. 1 – art. 1 alin. (1)",
+        "proposalContent": "La articolul 1 alineatul (1), după punctul 46 se introduce un nou punct, pct. 46¹, cu următorul cuprins: „46¹. membrii din România în Parlamentul European;”.",
+        "argumentation": "Lista îi menționează expres pe candidații la Parlamentul European, dar nu și pe membrii aleși. Completarea elimină incertitudinea privind obligațiile de declarare pe durata mandatului și asigură un tratament coerent al reprezentanților aleși.",
+        "otherComments": "Verificarea online a surselor oficiale nu a fost disponibilă. Propunerea privește extrasul inițiatorului și necesită corelare cu textul integral. Dacă stadiul indicat înseamnă lege promulgată, este necesară o nouă inițiativă de modificare; un e-mail nu redeschide procedura de amendare a proiectului."
+      }
     }
   }
 }

@@ -2,9 +2,9 @@
   "billId": "PL-x 525/2026",
   "slug": "plx-525-2026",
   "version": "senat",
-  "updatedAt": "2026-10-30T08:38:54.499Z",
+  "updatedAt": "2026-10-30T09:40:39.668Z",
   "consensus": {
-    "riskScore": 3,
+    "riskScore": 2.7,
     "riskLevel": "green",
     "plainTitle": "TVA de 9% la locuințe: termenul se prelungește până la 30 septembrie 2026, plus banii înapoi pentru cine a plătit 21% în august",
     "summaryTlDr": "Este o lege tehnică, de grație temporară, care îi protejează pe cumpărătorii cu avans plătit până la 1 august 2025. Problemele reale sunt de redactare: restituirea retroactivă nu are termen-limită și nici termen de plată, iar impactul bugetar e prezentat drept nul fără o fișă financiară.",
@@ -14,7 +14,7 @@
       "Proprietari & Imobiliare",
       "Contabili & Fiscalitate",
       "IMM & Antreprenori",
-      "Justiție & Drepturi Civile"
+      "Toți cetățenii"
     ],
     "senatForm": {
       "articleRef": "Art. II alin. (5)",
@@ -26,8 +26,34 @@
   "council": {
     "agy": {
       "model": "agy",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 41964,
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Prelungirea până la 30 septembrie 2026 a termenului pentru achiziția locuințelor cu TVA redus de 9% și restituirea diferenței de TVA",
+      "verdictShort": "O lege reparatorie, echitabilă și necesară, care protejează cetățenii de bună-credință împotriva pierderii cotei reduse de TVA de 9% din cauza blocajului informatic al ANCPI din iulie 2026. Singurele vulnerabilități țin de birocrația restituirii ulterioare prin ANAF pentru cei nevoiți să semneze în luna august cu TVA standard.",
+      "initiatorClaim": "Inițiatorii urmăresc prelungirea cu 60 de zile (până la 30 septembrie / 1 octombrie 2026) a termenului-limită în care cumpărătorii cu promisiuni de vânzare-cumpărare semnate până la 1 august 2025 pot cumpăra locuințe cu TVA de 9%, deoarece avaria sistemelor informatice ale ANCPI din iulie 2026 a blocat autentificarea contractelor la notar.",
+      "realityCheck": "Legea își atinge scopul și, în forma adoptată de Senat, introduce inteligent (la Art. II) și un mecanism de restituire a diferenței de TVA pentru cumpărătorii care finalizează achiziția cu TVA standard între 1 august 2026 și data intrării în vigoare a legii. Totuși, restituirea se va putea cere abia de la 1 octombrie 2026 prin procedură ANAF, fără un termen-limită expres de plată și fără o corelare clară cu Registrul achizițiilor cu cotă redusă.",
+      "affectedGroups": [
+        "Proprietari & Imobiliare",
+        "Contabili & Fiscalitate",
+        "IMM & Antreprenori",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. I alin. (1) și (2): Prelungește până la 30 septembrie 2026 inclusiv posibilitatea achiziționării unei singure locuințe (max. 120 mp și max. 600.000 lei fără TVA) cu cota redusă de TVA de 9%, pentru persoanele fizice care au încheiat antecontracte până la 1 august 2025.",
+        "Art. II alin. (1) și (5): Cumpărătorii presați de credite sau termene contractuale să semneze cu TVA standard între 1 august 2026 și intrarea în vigoare a legii pot cere de la ANAF restituirea diferenței de TVA, însă abia începând cu 1 octombrie 2026.",
+        "Art. I alin. (4) și Art. II alin. (4): Extinde același regim de prelungire și restituire a diferenței de TVA și pentru primăriile care achiziționează clădiri destinate locuințelor sociale cu chirie subvenționată, în baza actelor de avans încheiate până la 1 august 2025."
+      ],
+      "blindSpotsCaught": "Art. II nu prevede înscrierea ulterioară în „Registrul achizițiilor de locuințe cu cota redusă de TVA” a imobilelor cumpărate cu TVA standard în august 2026 pentru care ANAF restituie ulterior diferența până la 9% (deoarece la momentul autentificării notariale li s-a aplicat cota standard). De asemenea, există o mică necorelare terminologică între Art. I alin. (1) („30 septembrie 2026 inclusiv”) și Art. I alin. (4) („Până la data de 1 octombrie 2026”).",
+      "constitutionalityNote": "Proiectul respectă Art. 1 alin. (5) din Constituție (principiul securității raporturilor juridice și al încrederii legitime), remediind o imposibilitate obiectivă cauzată chiar de infrastructura digitală a statului. De asemenea, Art. II respectă Art. 15 alin. (2) privind neretroactivitatea, instituind pentru viitor un drept de restituire a diferenței de taxă pentru tranzacțiile încheiate în perioada de vid dintre expirarea vechiului termen și intrarea în vigoare a noii legi.",
+      "euLawNote": "Măsura este compatibilă cu Directiva 2006/112/CE privind sistemul comun al TVA (Anexa III referitoare la cotele reduse pentru livrarea de locuințe ca parte a politicii sociale) și nu ridică probleme sub incidența Directivei (UE) 2018/958 sau a Directivei (UE) 2015/1535 (TRIS).",
+      "senatForm": {
+        "articleRef": "Art. II alin. (5) (completare și corelare)",
+        "proposalContent": "La Art. II alin. (5), se adaugă teza finală: „Cererile de restituire se soluționează în termen de maximum 30 de zile de la depunere, iar ANAF transmite din oficiu datele achiziției pentru înscrierea în Registrul achizițiilor de locuințe cu cota redusă de TVA.”",
+        "argumentation": "Art. II permite restituirea diferenței de TVA pentru achizițiile făcute după 1 august 2026, dar nu prevede un termen-limită în care ANAF trebuie să returneze efectiv banii cetățenilor și nici actualizarea Registrului achizițiilor cu cotă redusă de TVA, întrucât la notar tranzacția s-a încheiat cu cota standard.",
+        "otherComments": "Măsura legislativă este necesară și echitabilă, protejând cumpărătorii de bună-credință afectați de avaria sistemului informatic al ANCPI din iulie 2026. Se recomandă și uniformizarea expresiei „30 septembrie 2026 inclusiv” în tot textul legii."
+      }
     },
     "claude": {
       "model": "claude",
@@ -64,8 +90,36 @@
     },
     "codex": {
       "model": "codex",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 152184,
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "TVA de 9% la locuințe: termen prelungit și restituirea diferenței",
+      "verdictShort": "Forma analizată oferă un ajutor fiscal limitat cumpărătorilor eligibili, fără taxe sau sancțiuni noi. Riscurile principale sunt necorelarea termenelor și regulile incomplete pentru restituirea TVA.",
+      "initiatorClaim": "Inițiatorii susțin că indisponibilitatea sistemelor ANCPI a împiedicat finalizarea tranzacțiilor înainte de expirarea facilității fiscale. Ei propun o perioadă suplimentară pentru ca persoanele afectate să păstreze TVA de 9%.",
+      "realityCheck": "Art. I permite achiziții eligibile cu TVA de 9% până la 30 septembrie 2026 inclusiv, iar art. II creează un drept de restituire pentru anumite achiziții taxate standard după 1 august 2026, inclusiv pentru primării. Beneficiarii nu trebuie să dovedească blocarea tranzacției de către ANCPI, astfel că măsura acoperă întreaga categorie eligibilă. Textul depășește simpla prorogare descrisă în fișă și nu folosește un termen final uniform.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate",
+        "Proprietari & Imobiliare"
+      ],
+      "keyFindings": [
+        "Art. I alin. (1)-(2): facilitatea rămâne condiționată de plafonul de 600.000 lei fără TVA, maximum 120 mp, istoricul achizițiilor și actul privind avansul. Pentru actele din 3-31 iulie 2025 se cere și avansul de 20% achitat până la 31 iulie 2025; nu este o reducere generală pentru toate locuințele.",
+        "Art. I alin. (1), lit. b) și alin. (3) folosesc 30 septembrie 2026 inclusiv; alin. (4), privind primăriile, folosește «până la data de 1 octombrie 2026». Datele și caracterul inclusiv trebuie uniformizate. Intervalul 1 august-30 septembrie are 61 de zile, deși motivarea invocă 60.",
+        "Art. II alin. (1) și (4): intervalul restituirii se încheie la intrarea în vigoare, fără plafon explicit la 30 septembrie. Dacă legea intră în vigoare după această dată, art. I alin. (1) nu mai are o perioadă utilă de aplicare, iar restituirea poate acoperi tranzacții ulterioare termenului anunțat.",
+        "Art. II alin. (5): procedura ANAF trebuie să clarifice documentele, calculul, tratamentul coproprietarilor și coordonarea cu furnizorul. Textul nu prevede expres înscrierea locuințelor pentru care se restituie diferența în registrul folosit pentru controlul facilității.",
+        "Afirmația privind lipsa impactului bugetar nu este demonstrată: față de expirarea facilității, prelungirea reduce potențial încasările, iar restituirile necesită resurse și administrare. Promisiunile private încheiate anterior nu dovedesc că aceste efecte au fost deja bugetate.",
+        "Art. I alin. (3) menține verificările și înscrierile notariale; art. II adaugă cereri și dovezi pentru restituire. Nu sunt introduse licențe, exclusivități, obligații pentru servicii digitale sau sancțiuni noi."
+      ],
+      "blindSpotsCaught": "Termenul din art. I alin. (1) lit. d) și art. II alin. (1) lit. d), «până la data de 1 august 2025», nu coincide textual cu 31 iulie 2025, invocat în motivare; includerea zilei de 1 august trebuie clarificată. Restituirea privește diferența de TVA aplicată bazei impozabile, nu diferența de cote aplicată prețului cu TVA. La o cotă standard de 21%, avantajul maxim pentru o bază de 600.000 lei este de 72.000 lei. Mecanismul trebuie să împiedice recuperarea aceleiași diferențe atât de cumpărător, cât și printr-o corecție fiscală a furnizorului.",
+      "constitutionalityNote": "Art. 1 alin. (5) impune clarificarea termenelor, corelarea cu regimul existent și reguli suficient de previzibile pentru restituire. Art. 23 alin. (12) privește legalitatea pedepselor și nu este incident direct, deoarece textul nu introduce pedepse. Folosirea unor achiziții anterioare drept condiție pentru un drept nou de restituire nu înseamnă automat retroactivitate interzisă de art. 15 alin. (2); trebuie distins acest drept de modificarea retroactivă a obligației fiscale. Criteriile generale nu indică o discriminare evidentă potrivit art. 16. Impactul fiscal reclamă verificarea informării Guvernului potrivit art. 111 alin. (1); scăderea veniturilor nu dovedește singură încălcarea art. 138 alin. (5), care privește cheltuielile bugetare. Ordinul ANAF trebuie să rămână procedural, fără să redefinească elementele esențiale stabilite prin lege.",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea restricțiilor de acces la profesii reglementate sau de exercitare a acestora; obligațiile notariale din acest text nu instituie asemenea restricții. Directiva (UE) 2015/1535 nu devine aplicabilă doar fiindcă motivarea menționează sistemele ANCPI: proiectul nu introduce reguli tehnice pentru produse sau servicii ale societății informaționale. Cadrul relevant este Directiva 2006/112/CE privind TVA, inclusiv condițiile cotelor reduse pentru locuințe și neutralitatea fiscală. Nu rezultă o exclusivitate pentru anumiți dezvoltatori; efectele concurențiale și eventuala existență a unui avantaj selectiv pentru întreprinderi necesită analiză concretă, fără a presupune automat un ajutor de stat.",
+      "senatForm": {
+        "articleRef": "Art. II alin. (5)",
+        "proposalContent": "(5) Restituirea se solicită ANAF din 1 octombrie 2026, o singură dată pe locuință, proporțional cotelor de proprietate. Procedura, aprobată în 30 de zile de la intrarea în vigoare prin ordin al președintelui ANAF, publicat în Monitorul Oficial, asigură înscrierea în registru și prevenirea dublei restituiri.",
+        "argumentation": "Textul trebuie să prevină cereri suprapuse ale coproprietarilor și recuperarea aceleiași diferențe prin restituire și corectarea TVA de către furnizor. Înscrierea în registru permite verificarea unică a beneficiului și aplicarea coerentă a condiției privind o singură locuință.",
+        "otherComments": "Analiza privește forma Senatului furnizată. Verificarea online a documentelor și a stadiului nu a fost disponibilă. Dacă stadiul este deja Lege 161/2026, propunerea necesită o nouă inițiativă legislativă; nu mai poate fi depusă ca amendament la proiectul încheiat."
+      }
     }
   }
 }

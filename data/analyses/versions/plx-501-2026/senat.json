@@ -2,9 +2,9 @@
   "billId": "PL-x 501/2026",
   "slug": "plx-501-2026",
   "version": "senat",
-  "updatedAt": "2026-10-30T08:33:02.243Z",
+  "updatedAt": "2026-10-30T09:33:36.767Z",
   "consensus": {
-    "riskScore": 3,
+    "riskScore": 3.3,
     "riskLevel": "green",
     "plainTitle": "Ajutor de stat de până la 50.000 euro pentru fermierii care cresc porci, ca să compenseze scumpirea combustibilului în 2026",
     "summaryTlDr": "Este o schemă de sprijin tehnică, temporară și benefică pentru fermieri, fără sancțiuni sau taxe noi pentru cetățeni. Textul are însă erori de redactare: suma totală e exprimată greșit în «mii lei», iar justificarea economică nu se potrivește cu ce compensează efectiv articolele.",
@@ -12,7 +12,9 @@
     "realityCheck": "Legea acordă 11,9 euro pe loc de cazare la porc gras și 13,7 euro pe loc pentru scroafe și scrofițe, plafonat la 50.000 euro pe întreprindere. Bugetul total este de circa 11,54 mil. euro, iar plata se face prin APIA până la 31.12.2026. Sprijinul se calculează pe capacitatea autorizată, nu pe producția efectivă. Eligibilitatea (activitatea pe tot anul 2026) se verifică abia în ianuarie 2027, deci după plată, ceea ce expune beneficiarii la recuperări ulterioare. Art.1 alin.(1) vorbește doar de combustibili, în timp ce fișa Camerei și Expunerea de motive invocă și îngrășămintele, un cost marginal pentru crescătorii de porci.",
     "affectedGroups": [
       "Agricultură & Mediu",
-      "IMM & Antreprenori"
+      "IMM & Antreprenori",
+      "Contabili & Fiscalitate",
+      "Toți cetățenii"
     ],
     "senatForm": {
       "articleRef": "Art. 5 alin. (3) și introducerea alin. (3^1)",
@@ -24,8 +26,33 @@
   "council": {
     "agy": {
       "model": "agy",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 49959,
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Ajutor de stat de până la 50.000 euro pentru crescătorii de porci afectați de scumpirea combustibililor în 2026",
+      "verdictShort": "O măsură de sprijin legitimă și necesară pentru fermele de porcine, încadrată în plafonul european de criză și finanțată din bugetul existent al Ministerului Agriculturii. Textul conține însă o eroare materială de redactare la calculul plafonului în lei (exprimat greșit în „mii lei”) și birocrație inutilă la transmiterea electronică a cererilor.",
+      "initiatorClaim": "Inițiatorii propun compensarea parțială a pierderilor suferite de crescătorii de suine în perioada 1 martie – 31 decembrie 2026 din cauza scumpirii combustibililor, îngrășămintelor și furajelor pe fondul crizei din Orientul Mijlociu.",
+      "realityCheck": "Legea acordă subvenții directe prin APIA (11,9 euro/loc pentru porc gras și 13,7 euro/loc pentru scroafe/scrofițe, în limita a 50.000 euro/fermă) și simplifică depunerea dosarelor prin preluarea automată a datelor din măsura DR-06. Totuși, Art. 5 alin. (3) conține o greșeală aritmetică majoră (transformând 58,8 milioane lei în 58,8 miliarde lei prin adăugarea cuvântului „mii”), iar Art. 6 alin. (3) obligă fermierii să semneze olograf fiecare pagină scanată trimisă pe e-mail.",
+      "affectedGroups": [
+        "Agricultură & Mediu",
+        "IMM & Antreprenori"
+      ],
+      "keyFindings": [
+        "Eroare materială de calcul la Art. 5 alin. (3): plafonul total de 11.540.120 euro (calculat la cursul de 5,0953 lei/euro) este trecut ca „58.800.373,436 mii lei” (adică 58,8 miliarde lei) în loc de 58.800.373,44 lei (58,8 milioane lei).",
+        "Protecție împotriva popririi (Art. 1 alin. 8): sumele primite ca ajutor de stat sunt declarate insesizabile prin poprire, asigurând că banii merg efectiv în menținerea activității zootehnice și a animalelor în viață.",
+        "Preluare inteligentă a datelor, dar formalism la scanare (Art. 6 alin. 2-3): APIA preia automat documentele fermierilor înscriși în intervenția DR-06, însă pentru documentele trimise prin e-mail se cere semnătură pe fiecare pagină și mențiunea „conform cu originalul”.",
+        "Verificare ulterioară obligatorie (Art. 8 alin. 1): până la finalul lunii ianuarie 2027, beneficiarii trebuie să dovedească la APIA că au menținut efectivele minime de producție/reproducție pe parcursul anului 2026."
+      ],
+      "blindSpotsCaught": "La Art. 5 alin. (3), înmulțirea sumei de 11.540.120 euro cu cursul BNR de 5,0953 lei/euro dă exact 58.800.373,436 lei, însă redactorii au adăugat sintagma „mii lei” după această cifră, multiplicând din eroare plafonul legal în lei de 1.000 de ori. De asemenea, în Expunerea de Motive s-a strecurat o eroare de redactare („prețul furajelor a crescut în martie 2026 cu 20% față de luna martie a aceluiași an”).",
+      "constitutionalityNote": "Sub aspectul Art. 138 alin. (5) din Constituție (stabilirea sursei de finanțare), proiectul parlamentar evită blocajul constituțional prin Art. 5 alin. (4), care precizează că fondurile se asigură strict în limita bugetului deja aprobat pentru MADR pe anul 2026. Totuși, contradicția aritmetică din Art. 5 alin. (3) între valoarea în lei și cea în euro afectează exigențele de rigoare normativă (Art. 1 alin. 5 din Constituție) și necesită rectificare.",
+      "euLawNote": "Schema este fundamentată pe Secțiunea 2.1 din Cadrul temporar de criză al Comisiei Europene C(2026) 2947 final și prevede notificarea conform Art. 108 alin. (3) TFUE (Art. 1 alin. 5). Nu instituie restricții privind profesiile reglementate (Directiva 2018/958) și nici reglementări tehnice digitale (Directiva TRIS 2015/1535), însă punerea în plată efectivă trebuie corelată strict cu emiterea deciziei de autorizare a Comisiei Europene.",
+      "senatForm": {
+        "articleRef": "Art. 5 alin. (3) și Art. 6 alin. (3)",
+        "proposalContent": "La art. 5 alin. (3), valoarea se corectează în „58.800,373 mii lei” (sau „58.800.373,44 lei”), eliminându-se eroarea materială care multiplică bugetul de 1.000 de ori. La art. 6 alin. (3), documentele transmise prin e-mail pot fi asumate prin semnătură electronică calificată, fără obligația semnării olografe pe fiecare pagină.",
+        "argumentation": "La cursul de 5,0953 lei/euro prevăzut la art. 5 alin. (5), suma de 11.540.120 euro echivalează cu 58.800.373,436 lei (58,8 milioane lei), nu cu „58.800.373,436 mii lei” (58,8 miliarde lei). Totodată, acceptarea semnăturii electronice pe cererile trimise prin e-mail la APIA elimină birocrația tipăririi, semnării pe fiecare pagină și rescanării dosarului.",
+        "otherComments": "În ansamblu, schema de ajutor de stat este utilă pentru fermierii din sectorul suin și preia automat datele deja verificate în intervenția DR-06 la APIA, însă necesită îndreptarea erorii materiale privind plafonul bugetar în lei și condiționarea expresă a plăților de decizia de autorizare a Comisiei Europene."
+      }
     },
     "claude": {
       "model": "claude",
@@ -61,8 +88,37 @@
     },
     "codex": {
       "model": "codex",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 111339,
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Ajutor pentru fermele de porci, cu o eroare majoră în bugetul înscris",
+      "verdictShort": "Sprijinul are un scop economic legitim, dar fragmentul conține o neconcordanță bugetară de 1.000 de ori și necesită clarificarea condițiilor europene de acordare. Evaluarea privește forma Senatului furnizată, nu textul final al Legii 175/2026.",
+      "initiatorClaim": "Inițiatorii urmăresc compensarea parțială a pierderilor crescătorilor de porci provocate de scumpirea combustibililor, îngrășămintelor și furajelor, pentru menținerea producției și a locurilor de muncă. Expunerea invocă securitatea alimentară și criza din Orientul Mijlociu.",
+      "realityCheck": "Legea acordă sprijin calculat pe locurile de cazare autorizate, cu maximum 50.000 euro pe întreprindere, fără o formulă individuală de calcul al pierderilor în fragmentul disponibil. Art. 1 alin. (1) menționează numai combustibilii, iar eligibilitatea privind activitatea este verificată după plată, în ianuarie 2027. Bugetul exprimat în mii lei contrazice echivalentul în euro; finalul art. 8 și anexele lipsesc.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Agricultură & Mediu",
+        "Contabili & Fiscalitate",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 5 alin. (3): 58.800.373,436 mii lei înseamnă aproximativ 58,8 miliarde lei. Cele 11.540.120 euro, la cursul înscris în alin. (5), înseamnă exact 58.800.373,436 lei, aproximativ 58,8 milioane lei. Diferența este de 1.000 de ori; trebuie verificat dacă eroarea există în original sau provine din extragere.",
+        "Art. 1 alin. (5) prevede notificarea Comisiei Europene. În fragment nu apare însă condiționarea expresă a acordării ajutorului de autorizarea prealabilă; notificarea singură nu înlătură obligația de suspendare prevăzută de art. 108 alin. (3) TFUE. O eventuală clauză din partea omisă trebuie verificată.",
+        "Art. 4 și art. 5 folosesc capacitatea autorizată și un nivel minim de activitate drept criterii pentru sprijin. Nu rezultă o compensare calculată pe facturile fiecărui beneficiar; justificarea cuantumurilor forfetare trebuie verificată în documentația schemei.",
+        "Art. 8 alin. (1) permite verificarea activității până la sfârșitul lui ianuarie 2027, după termenul de plată. Textul se întrerupe chiar la alineatul următor, astfel încât nu se poate afirma că lipsesc recuperarea sumelor, dobânzile sau alte consecințe ale neeligibilității.",
+        "Art. 6 permite reutilizarea documentelor DR-06 și transmiterea la distanță, reducând unele formalități. Rămân necesare documente privind exploatația, capacitatea și proprietatea animalelor, precum și certificarea copiilor.",
+        "Art. 1 alin. (8) protejează aceste ajutoare împotriva popririi. Nu șterge datoriile beneficiarilor și nu instituie o imunitate generală a patrimoniului lor față de executarea silită."
+      ],
+      "blindSpotsCaught": "Art. 1 alin. (3) pare să includă și ajutoarele de minimis în plafonul comun de 50.000 euro, dar alin. (4) cere explicit deducerea numai a sprijinului primit pe aceeași secțiune a cadrului temporar. Redactarea poate produce calcule diferite și trebuie corelată cu regulile europene de cumul și cu identificarea întreprinderii ca unitate economică. Expunerea compară, de asemenea, prețul furajelor din martie 2026 cu martie al aceluiași an, ceea ce nu susține creșterea invocată. Cadrul C(2026) 2947 final și existența unei decizii de autorizare nu au putut fi verificate online în această sesiune.",
+      "constitutionalityNote": "Neconcordanța bugetară, dacă există în documentul original, ridică o problemă serioasă de claritate și previzibilitate potrivit art. 1 alin. (5) din Constituție. Art. 5 alin. (4) indică o sursă bugetară, deci nu se poate afirma că aceasta lipsește; respectarea art. 138 alin. (5), disponibilitatea fondurilor și solicitarea informării Guvernului conform art. 111 alin. (1) necesită verificarea dosarului legislativ. Art. 23 alin. (12) privește legalitatea pedepselor și nu este incident direct dispozițiilor prezentate. Protecția împotriva popririi trebuie justificată proporțional în raport cu drepturile creditorilor, fără ca neconstituționalitatea să rezulte automat.",
+      "euLawNote": "Schema acordă un avantaj selectiv din resurse publice, astfel încât compatibilitatea cu piața internă depinde de regulile ajutoarelor de stat și de autorizarea necesară potrivit art. 107–108 TFUE. Trebuie verificate cuantumurile, beneficiarii, cumulul și tratamentul întreprinderilor legate în raport cu cadrul efectiv aplicabil. Directiva (UE) 2018/958 privește restricțiile privind accesul la profesii reglementate sau exercitarea lor și nu impune aici testul său specific. În fragment nu se identifică o reglementare tehnică nouă ori reguli privind servicii ale societății informaționale care să fundamenteze notificarea TRIS conform Directivei (UE) 2015/1535; depunerea cererilor prin e-mail nu este suficientă pentru aceasta.",
+      "senatForm": {
+        "articleRef": "Art. 1 alin. (5) și art. 5 alin. (3)",
+        "proposalContent": "Art. 1 alin. (5): «Schema se notifică Comisiei Europene. Ajutoarele se acordă și se plătesc numai după autorizarea schemei de către aceasta și cu respectarea condițiilor deciziei.» Art. 5 alin. (3): «Valoarea totală maximă a schemei este de 58.800.373,436 lei, echivalentul a 11.540.120 euro.»",
+        "argumentation": "Notificarea nu echivalează cu autorizarea, iar art. 108 alin. (3) TFUE interzice punerea în aplicare prematură a ajutorului. La cursul de 5,0953 lei/euro, echivalentul înscris este 58.800.373,436 lei. Utilizarea unității «mii lei» multiplică suma de 1.000 de ori și afectează previzibilitatea cheltuielii.",
+        "otherComments": "Verificați originalul pentru excluderea unei erori de extragere și partea omisă pentru o eventuală clauză de autorizare. Potrivit stadiului comunicat, proiectul a devenit Legea 175/2026, iar termenul de amendamente a expirat. Modificarea unei legi în vigoare necesită un nou act normativ; propunerea de aici privește forma Senatului."
+      }
     }
   }
 }

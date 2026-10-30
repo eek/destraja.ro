@@ -2,9 +2,9 @@
   "billId": "Pl-x 77/2026",
   "slug": "plx-77-2026",
   "version": "initiator",
-  "updatedAt": "2026-10-30T08:12:02.606Z",
+  "updatedAt": "2026-10-30T09:51:11.668Z",
   "consensus": {
-    "riskScore": 4,
+    "riskScore": 5,
     "riskLevel": "yellow",
     "plainTitle": "Un cod unic cu regulile după care instituțiile statului îți răspund, decid și pot fi contestate",
     "summaryTlDr": "Este o lege utilă și necesară, fără taxe, monopoluri sau sancțiuni noi pentru cetățeni. Textul are însă defecte tehnice serioase: exclude hotărârile consiliilor locale, folosește liste deschise vagi și lasă normele speciale să prevaleze aproape necondiționat, ceea ce îi slăbește chiar scopul de unificare.",
@@ -12,8 +12,8 @@
     "realityCheck": "În articolele disponibile (1-15), codul stabilește principii corecte: legalitate, proporționalitate, loialitate, dreptul la apărare și nediscriminare. Extinde aplicarea și la faptele materiale, la inacțiune și la entitățile private care prestează servicii publice. Totuși, art. 2 alin. (3), art. 3 alin. (3) și art. 7 alin. (2) dau prioritate oricărei norme speciale, deci codul riscă să devină un al șaselea strat de reglementare, nu unul unificator. Art. 7 alin. (1) lit. a) scoate din aplicare actele «autorităților deliberative locale», adică exact hotărârile consiliilor locale și județene.",
     "affectedGroups": [
       "Toți cetățenii",
-      "Justiție & Drepturi Civile",
       "IMM & Antreprenori",
+      "Justiție & Drepturi Civile",
       "Proprietari & Imobiliare"
     ],
     "senatForm": {
@@ -26,8 +26,35 @@
   "council": {
     "agy": {
       "model": "agy",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 57158,
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Noul Cod de Procedură Administrativă: intenție bună de unificare, dar cu erori grave care scot consiliile locale de sub reguli",
+      "verdictShort": "Deși promite reguli clare și termene unice în relația cetățeanului cu statul, proiectul este redactat deficitar, conține contradicții interne și exclude inexplicabil hotărârile consiliilor locale și județene de la aplicarea Codului.",
+      "initiatorClaim": "Inițiatorul susține că vrea să elimine haosul și birocrația prin reunirea într-un singur Cod a tuturor regulilor privind petițiile, accesul la informații publice, transparența decizională, tăcerea administrației și contestarea actelor.",
+      "realityCheck": "În realitate, proiectul suprapune un mamut legislativ de aproape 700 de articole peste Codul Administrativ și legile speciale existente, fără a clarifica ce se abrogă. Mai grav, Art. 7 alin. (1) lit. a) exclude de la aplicarea Codului actele „autorităților deliberative locale” (consiliile locale și județene), iar Art. 3 alin. (3) și Art. 7 alin. (2) se contrazic direct cu privire la prioritatea legilor speciale față de noul Cod.",
+      "affectedGroups": [
+        "Toți cetățenii",
+        "IMM & Antreprenori",
+        "Justiție & Drepturi Civile",
+        "Proprietari & Imobiliare",
+        "Contabili & Fiscalitate"
+      ],
+      "keyFindings": [
+        "Eroare constituțională majoră la Art. 7 alin. (1) lit. a): sunt excluse de la aplicarea Codului actele adoptate de „autoritățile deliberative locale sau de alte autorități legislative”. Consiliile locale și județene sunt autorități administrative, nu legislative, iar excluderea hotărârilor lor (HCL/HCJ privind taxe locale, PUZ/PUG, patrimoniu) lasă cetățenii fără garanțiile din Cod exact în raport cu administrația locală.",
+        "Contradicție internă privind legile speciale: Art. 3 alin. (3) prevede că norma specială (ex. fiscalitate, urbanism, achiziții) se aplică cu prioritate dacă este incompatibilă cu Codul, însă Art. 7 alin. (2) afirmă că normele speciale se aplică „fără a aduce atingere principiilor generale și dispozițiilor procedurale comune prevăzute de prezentul cod”, generând blocaje de interpretare.",
+        "Redactare șablonardă și erori de documentare în Expunerea de Motive: sunt invocate acte normative cu titluri greșite (ex. Legea nr. 233/2002 pentru aprobarea OG nr. 27/2002 privind petițiile este prezentată drept lege „privind încheierea și executarea contractelor de achiziție publică”) și se afirmă eronat că Legea nr. 554/2004 nu ar prevedea o procedură prealabilă clară."
+      ],
+      "blindSpotsCaught": "Proiectul prezintă indicii puternice de generare automată neverificată juridic: repetă aceleași definiții în Art. 1, 2, 3 și 5, confunda natura juridică a consiliilor locale (numindu-le autorități legislative) și inventează titlul Legii nr. 233/2002 în tabelul comparativ din Expunerea de Motive.",
+      "constitutionalityNote": "Proiectul încalcă Art. 1 alin. (5) din Constituție (calitatea, claritatea și previzibilitatea legii) prin paralelisme legislative cu OUG nr. 57/2019 și Legea nr. 554/2004, precum și Art. 61 alin. (1) coroborat cu Art. 120–121 din Constituție, prin calificarea autorităților deliberative locale drept „autorități legislative” în Art. 7 alin. (1) lit. a).",
+      "euLawNote": "Deși invocă preeminența dreptului UE și principiul bunei administrări (Art. 41 din Carta Drepturilor Fundamentale a UE), insecuritatea juridică creată în procedurile de autorizare (urbanism, mediu, achiziții) riscă să afecteze libertatea de stabilire și Directiva 2006/123/CE privind serviciile în cadrul pieței interne.",
+      "senatForm": {
+        "articleRef": "Art. 7 alin. (1) lit. a) și alin. (2)",
+        "proposalContent": "La art. 7 alin. (1) lit. a), se elimină sintagma „de autoritățile deliberative locale sau de alte autorități legislative,”. Alin. (2) al art. 7 se modifică astfel: „(2) Dispozițiile prezentului cod constituie dreptul comun în materie de procedură administrativă și completează reglementările speciale în măsura în care acestea nu prevăd altfel.”",
+        "argumentation": "Consiliile locale și județene sunt autorități administrative, nu „legislative” (Parlamentul este unica autoritate legiuitoare conform art. 61 din Constituție). Excluderea hotărârilor lor (HCL/HCJ) din Cod lasă cetățenii fără garanții procedurale la nivel local. Totodată, art. 7 alin. (2) contrazice art. 3 alin. (3) privind raportul dintre legea generală și cea specială.",
+        "otherComments": "Se impune eliminarea paralelismelor dintre art. 1–6 și corelarea strictă cu OUG nr. 57/2019 (Codul administrativ), Legea nr. 554/2004 și Legea nr. 207/2015 (Codul de procedură fiscală), conform Legii nr. 24/2000 privind normele de tehnică legislativă, pentru a evita blocajele în instanțele de contencios administrativ."
+      }
     },
     "claude": {
       "model": "claude",
@@ -64,8 +91,42 @@
     },
     "codex": {
       "model": "codex",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 81113,
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Reguli comune pentru relația cu administrația, cu o excludere problematică",
+      "verdictShort": "Codificarea este utilă, dar art. 7 exclude prea larg actele autorităților deliberative locale de la garanțiile noului cod. Riscul identificat privește domeniul de aplicare și neclaritățile procedurale; fragmentul nu dovedește introducerea unor monopoluri, taxe sau sancțiuni disproporționate.",
+      "initiatorClaim": "Inițiatorul urmărește reunirea regulilor administrative dispersate într-un cadru previzibil, cu transparență, drept la apărare și remedii împotriva inacțiunii administrației. Expunerea promite și digitalizare, accesibilitate și armonizare europeană.",
+      "realityCheck": "Art. 2–6 instituie un cadru general care completează procedurile speciale, păstrând prioritatea normelor speciale incompatibile; prin urmare, uniformizarea nu elimină automat fragmentarea existentă. Art. 7 alin. (1) lit. a) exclude însă actele autorităților deliberative locale, deși acestea adoptă hotărâri administrative cu impact asupra cetățenilor și firmelor. Evaluarea este provizorie: fragmentul se întrerupe la art. 15, dispozițiile ulterioare sunt doar descrise în expunere, iar verificarea online a dosarului nu a fost disponibilă.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate",
+        "Angajați & HR",
+        "Proprietari & Imobiliare",
+        "Justiție & Drepturi Civile",
+        "Sănătate & Educație",
+        "Agricultură & Mediu",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 12–14 prevăd garanții utile: proporționalitatea măsurilor, consultarea publică, audierea persoanei, accesul la documente și posibilitatea reprezentării. Eficiența lor depinde de regulile operative și remediile din forma integrală.",
+        "Art. 7 alin. (1) lit. a) exclude actele consiliilor locale și județene fără delimitare după natura actului. Aceasta restrânge aplicarea noului cod, dar nu elimină prin ea însăși controlul judecătoresc existent în baza Legii nr. 554/2004.",
+        "Art. 7 alin. (1) lit. c) condiționează excluderea gestiunii interne de absența prerogativelor de putere publică. Enumerarea resurselor umane și financiare poate induce aplicări greșite: simplul caracter intern nu justifică excluderea unui act privind raportul de serviciu.",
+        "Art. 10 alin. (1) lit. b) califică neemiterea sau necomunicarea în termen drept refuz tacit. Trebuie verificată corelarea cu aprobarea tacită descrisă în expunere pentru art. 78–80; conținutul acelor articole nu este disponibil aici.",
+        "Art. 8 alin. (3) lit. a) evocă executorialitatea de la emitere sau comunicare, fără să menționeze publicarea actelor normative. Trimiterea la prevederile legale limitează problema, dar o delimitare explicită ar îmbunătăți previzibilitatea.",
+        "Expunerea atribuie greșit Legii nr. 233/2002 un obiect privind contractele de achiziție publică: aceasta aprobă OG nr. 27/2002 privind petițiile. Legea-cadru privind schimbul de date și Platforma națională de interoperabilitate este Legea nr. 242/2022, nu actul indicat în tabel.",
+        "Fragmentul nu stabilește taxe, cuantumuri de amenzi ori obligații digitale concrete. Audierea, consultarea și accesul la dosar presupun resurse administrative, dar pot reduce erorile și litigiile; impactul net asupra bugetului și IMM-urilor nu poate fi cuantificat fără forma integrală și fundamentarea financiară."
+      ],
+      "blindSpotsCaught": "Excluderea autorităților deliberative locale de la procedura administrativă nu trebuie confundată cu exceptarea actelor lor de la contenciosul administrativ. În plus, tăcerea administrației nu este o instituție nouă: Legea nr. 554/2004 reglementează nesoluționarea în termen și refuzul nejustificat, iar OUG nr. 27/2003 reglementează aprobarea tacită în domeniul său de aplicare.",
+      "constitutionalityNote": "Art. 1 alin. (5) din Constituție impune claritate și corelare: domeniul foarte larg din art. 5–6 trebuie armonizat cu excluderile art. 7 și cu prioritatea normelor speciale. Excluderea actelor administrative locale necesită justificare și poate ridica probleme de egalitate a garanțiilor, raportat la art. 16; nu rezultă automat o neconstituționalitate. Art. 21, 51, 52 și 126 alin. (6) cer păstrarea accesului la justiție, a dreptului de petiționare și a controlului actelor administrative. Art. 23 alin. (12) privește legalitatea pedepselor; fragmentul nu instituie asemenea pedepse. Nu se poate evalua respectarea cerințelor constituționale privind cheltuielile și sursa de finanțare fără dispozițiile operative complete.",
+      "euLawNote": "Directiva (UE) 2018/958 impune evaluarea proporționalității pentru restricții privind accesul la profesii reglementate sau exercitarea lor; un cod administrativ general nu intră automat în această ipoteză. Fragmentul nu introduce asemenea restricții și nici avantaje concurențiale exclusive. Directiva (UE) 2015/1535 impune notificarea anumitor reglementări tehnice și reguli specifice serviciilor societății informaționale; simpla digitalizare a administrației ori menționarea AI nu declanșează automat TRIS. Eventualele obligații tehnice din articolele nefurnizate trebuie examinate separat. Referirea generală din preambul la obligații europene nu identifică o directivă care ar impune adoptarea acestui cod.",
+      "senatForm": {
+        "articleRef": "Art. 7 alin. (1) lit. a)",
+        "proposalContent": "a) actele Parlamentului adoptate în exercitarea funcției legislative și actele autorităților judecătorești emise în exercitarea funcției jurisdicționale. Excluderea nu privește actele administrative ale acestor autorități ori ale autorităților deliberative locale, cărora li se aplică prezentul cod, cu respectarea legilor speciale;",
+        "argumentation": "Consiliile locale și județene sunt autorități administrative. Excluderea tuturor actelor lor ar înlătura garanțiile codului pentru hotărâri privind urbanismul, taxele și serviciile publice. Delimitarea după natura actului îmbunătățește previzibilitatea și egalitatea de tratament, potrivit art. 1 alin. (5) și art. 16 din Constituție.",
+        "otherComments": "Termenul indicat, 05.03.2026, este depășit. Verificați destinatarul în fișa actualizată: stadiul furnizat indică Senatul, iar comisiile enumerate sunt ale Camerei Deputaților. Un parlamentar poate prelua propunerea cetățeanului, în condițiile procedurii aplicabile; e-mailul nu reprezintă singur un amendament parlamentar."
+      }
     }
   }
 }

@@ -2,9 +2,9 @@
   "billId": "PL-x 503/2026",
   "slug": "plx-503-2026",
   "version": "senat",
-  "updatedAt": "2026-10-30T08:34:09.786Z",
+  "updatedAt": "2026-10-30T09:34:54.508Z",
   "consensus": {
-    "riskScore": 3,
+    "riskScore": 3.3,
     "riskLevel": "green",
     "plainTitle": "68 de euro pe vacă sau bivol pentru fermierii loviți de scumpirea motorinei și a îngrășămintelor în 2026",
     "summaryTlDr": "Este o lege de sprijin tehnică și benignă: un ajutor de stat temporar și plafonat, cu sursă bugetară identificată, notificat Comisiei Europene. Riscurile nu țin de abuzuri. Țin de redactarea neglijentă (bubaline omise la verificare, formulări confuze, citări greșite ale regulamentelor UE) și de un calendar foarte strâns, care poate lăsa fermieri fără bani dacă aprobarea UE sau plata întârzie după 31.12.2026.",
@@ -12,7 +12,8 @@
     "realityCheck": "Legea acordă 68 euro/cap pentru bovinele și bubalinele de minimum 22 de luni. Sunt eligibili doar fermierii cu minimum 10 capete (5 în zona montană), cu plafon de 50.000 euro/întreprindere, adică aproximativ 735 de capete. Bugetul total este de 277.184.320 lei, echivalentul a aproximativ 800.000 de capete, iar la depășire ajutorul se reduce proporțional (art.8 alin.(3)). Gospodăriile mici, cu 1-9 animale, sunt excluse complet, iar animalele tinere nu contează. Expunerea de motive invocă furaje, forță de muncă și servicii veterinare, dar textul compensează formal doar costurile cu îngrășăminte și combustibil.",
     "affectedGroups": [
       "Agricultură & Mediu",
-      "IMM & Antreprenori"
+      "IMM & Antreprenori",
+      "Contabili & Fiscalitate"
     ],
     "senatForm": {
       "articleRef": "Art.7 alin.(1)",
@@ -24,8 +25,33 @@
   "council": {
     "agy": {
       "model": "agy",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 69186,
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Ajutor de stat de 68 euro/cap de bovină sau bubalină pentru fermieri în 2026",
+      "verdictShort": "O măsură pozitivă și necesară de sprijin financiar (68 euro/cap de animal adult, plafonat la 50.000 euro/fermă) pentru crescătorii de bovine și bivolițe afectați de scumpirea combustibililor și îngrășămintelor. Legea este benignă pe fond, dar păstrează reflexe birocratice inutile (dosar cu copii „conform cu originalul” și adeverințe pe hârtie din baze de date pe care APIA le interoghează deja electronic) și erori de tehnică legislativă.",
+      "initiatorClaim": "Inițiatorii urmăresc compensarea parțială a pierderilor suferite de crescătorii de bovine și bubaline în perioada 1 martie – 31 decembrie 2026, pe fondul creșterii prețurilor la îngrășăminte și combustibili cauzate de criza din Orientul Mijlociu, pentru a preveni îndatorarea fermelor și scumpirea alimentelor.",
+      "realityCheck": "Legea acordă o subvenție directă de 68 euro/cap pentru animalele de minimum 22 de luni (la 28 februarie 2026), din bugetul MADR (plafon total de 277,18 milioane lei, cu reducere proporțională dacă cererile depășesc bugetul). Sunt eligibile doar fermele cu minimum 10 capete (sau minimum 5 capete în zona montană) care păstrează cel puțin 75% din efectiv până la 5 octombrie 2026, sumele primite fiind declarate neurmăribile prin poprire.",
+      "affectedGroups": [
+        "Agricultură & Mediu",
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate"
+      ],
+      "keyFindings": [
+        "Sprijin financiar clar și plafonat (Art. 4 și Art. 5): Se acordă 68 euro/cap (curs fix 5,0953 lei/euro, în limita a 50.000 euro/întreprindere) pentru bovine/bubaline de peste 22 de luni, cu prag minim de 10 capete (5 capete la munte), excluzând astfel gospodăriile de subzistență foarte mici și tineretul bovin.",
+        "Birocrație redundantă la depunerea cererii (Art. 6 alin. (1) și (5) vs. Art. 7 alin. (1)): Fermierii sunt obligați să depună în 20 de zile lucrătoare copii de pe CI și certificatul ONRC semnate „conform cu originalul”, plus o adeverință emisă din SNIIA pentru efectivul de la 1 martie 2026, deși la Art. 7 alin. (1) APIA interoghează direct electronic același sistem SNIIA pentru verificarea efectivului de la 5 octombrie 2026.",
+        "Imunitate la executarea silită prin poprire (Art. 1 alin. (8)): Sumele acordate nu pot fi poprite dacă fermierul este executat silit; deși măsura protejează lichiditatea fermei pentru întreținerea animalelor, ea blochează temporar recuperarea creanțelor de către furnizorii privați invocați chiar în Expunerea de motive."
+      ],
+      "blindSpotsCaught": "1) La Art. 4 alin. (1) lit. a), legea definește zona montană trimițând direct în textul legii la un URL cu spații către un fișier Excel de pe un site extern („https://pndr.ro/documente/ro/PNS-2023-2027-lista-zonelor-eligibile-pentru intervențiile- HNV-ANC-AEC.xlsx”), încălcând normele de tehnică legislativă (Legea nr. 24/2000). 2) Expunerea de motive conține o eroare de tip copy-paste din schemele anilor anteriori, afirmând că „prețul furajelor a crescut în luna martie a anului 2026 cu aproximativ 20% față de luna martie a aceluiași an”. 3) Desincronizare procedurală între Art. 7 alin. (1) și Art. 8 alin. (1): verificarea menținerii a 75% din efectiv se face la data fixă de 5 octombrie 2026, însă Art. 8 alin. (1) cere centrelor APIA să aprobe sumele imediat după expirarea celor 20 de zile lucrătoare de depunere a cererilor.",
+      "constitutionalityNote": "Sub aspectul calității legii (Art. 1 alin. (5) din Constituție), inserarea în corpul legii a unui link web către un fișier `.xlsx` administrat informatic (Art. 4 alin. (1) lit. a)) afectează previzibilitatea și stabilitatea normei primare, întrucât mutarea sau ștergerea fișierului de pe server lasă norma fără obiect determinabil. În rest, instituirea excepției de la poprire pentru subvenții cu destinație specială (Art. 1 alin. (8)) se înscrie în marja de apreciere a legiuitorului conform jurisprudenței CCR și art. 781 alin. (5) Cod procedură civilă.",
+      "euLawNote": "Proiectul este întemeiat pe Cadrul temporar al Comisiei Europene C(2026) 2947 final (secțiunea 2.1) și prevede notificarea conform Art. 108 alin. (3) TFUE (Art. 1 alin. (5)), însă ar fi trebuit să prevadă expres clauza de „standstill” (efectuarea plăților doar după emiterea deciziei de autorizare a Comisiei Europene). Nu ridică probleme pe Directiva (UE) 2018/958 (nu reglementează profesii) și nici pe Directiva (UE) 2015/1535 TRIS.",
+      "senatForm": {
+        "articleRef": "Art. 4 alin. (1) lit. a) și Art. 6 alin. (1)",
+        "proposalContent": "La art. 4 alin. (1) lit. a), trimiterea la link-ul web (.xlsx) se înlocuiește cu referința oficială la actul de aprobare a listei UAT montane. La art. 6 alin. (1) lit. a) și c), se elimină obligația depunerii copiilor CI/ONRC „conform cu originalul” și a adeverinței SNIIA pe hârtie, verificarea făcându-se automat de APIA prin interogarea SNIIA și ONRC.",
+        "argumentation": "Potrivit art. 7 alin. (1), APIA interoghează deja direct baza SNIIA pentru verificarea efectivelor la 5 octombrie 2026; obligarea fermierilor să aducă adeverințe SNIIA pe hârtie pentru 1 martie și copii CI/ONRC certificate încalcă Legea nr. 267/2021 (debirocratizarea). De asemenea, un URL cu spații către un fișier Excel nu poate fi normă primară (Legea 24/2000).",
+        "otherComments": "Se recomandă și corelarea art. 1 alin. (5) cu o normă expresă că plățile se efectuează doar după decizia de autorizare a Comisiei Europene (obligația de standstill, art. 108 alin. (3) TFUE), precum și îndreptarea erorii din Expunerea de motive („prețul a crescut în martie 2026 față de luna martie a aceluiași an”)."
+      }
     },
     "claude": {
       "model": "claude",
@@ -62,8 +88,36 @@
     },
     "codex": {
       "model": "codex",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 101641,
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Până la 68 de euro pe bovină pentru fermele eligibile",
+      "verdictShort": "Sprijinul poate ajuta fermele afectate de scumpiri, fără să introducă taxe sau monopoluri. Forma furnizată prezintă însă neclarități privind cumulul ajutoarelor și momentul autorizării europene; evaluarea rămâne limitată de întreruperea extrasului la art. 10.",
+      "initiatorClaim": "Inițiatorii urmăresc compensarea parțială a pierderilor provocate crescătorilor de bovine de scumpirea combustibililor și îngrășămintelor în contextul crizei din Orientul Mijlociu. Susțin că ajutorul va proteja activitatea fermelor și securitatea alimentară.",
+      "realityCheck": "Legea acordă un sprijin calculat pe animal eligibil, de 68 euro, cu plafon de 50.000 euro pe întreprindere și reducere proporțională dacă bugetul nu ajunge. Plata nu este calculată individual după facturi sau pierderi demonstrate, ci după efective și condiții administrative, inclusiv minimum 10 animale, respectiv 5 în zona montană. Regula păstrării a 75% din efectiv la 5 octombrie, cu excepțiile prevăzute, poate exclude integral beneficiari care nu ating pragul.",
+      "affectedGroups": [
+        "Agricultură & Mediu",
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate"
+      ],
+      "keyFindings": [
+        "Art. 1 alin. (5) prevede notificarea Comisiei Europene, dar în fragmentul disponibil nu apare interdicția expresă de a acorda ajutorul înaintea unei decizii favorabile. Trebuie verificată continuarea legii înainte de a concluziona că această garanție lipsește.",
+        "Art. 1 alin. (3) include ajutoarele de minimis în formularea cumulului cu plafon de 50.000 euro, în timp ce alin. (4) reglementează explicit deducerea numai pentru alte scheme din secțiunea 2.1. Relația dintre aceste reguli trebuie clarificată pentru calcularea uniformă a sumelor.",
+        "Art. 2 lit. c)-d) limitează animalele eligibile la cele de minimum 22 de luni la 28 februarie 2026; art. 4 adaugă pragurile de efectiv și verificarea păstrării a 75%. Aceste criterii favorizează anumite structuri de exploatație și necesită justificare prin obiectivul schemei, fără a constitui automat discriminare.",
+        "Art. 5 alin. (3) identifică bugetul maxim și sursa bugetară, iar art. 8 alin. (3) permite diminuarea proporțională a ajutorului. Prin urmare, suma de 68 euro pe animal nu este garantată tuturor solicitanților eligibili.",
+        "Art. 6 impune cerere, documente de identificare, coordonate bancare și document SNIIA într-un termen de 20 de zile lucrătoare. Aceasta creează un cost administrativ pentru ferme; extrasul nu stabilește expres un mecanism de completare a dosarelor incomplete.",
+        "Expunerea afirmă că furajele s-au scumpit în martie 2026 față de martie din același an, comparație care nu susține procentul invocat. Este o deficiență a fundamentării, nu o obligație sau sancțiune introdusă prin lege."
+      ],
+      "blindSpotsCaught": "Art. 6 leagă depunerea cererilor de intrarea în vigoare, iar art. 7 permite validarea numai după verificarea efectivului la 5 octombrie 2026. Calendarul efectiv depinde astfel de publicare și de autorizarea europeană, deși plata trebuie încheiată până la 31 decembrie. De asemenea, folosirea SNIIA pentru verificări administrative nu transformă schema într-o reglementare a serviciilor digitale.",
+      "constitutionalityNote": "Art. 1 alin. (5) din Constituție impune clarificarea cumulului, a condițiilor de acordare și a succesiunii operațiunilor administrative. Art. 23 alin. (12), privind legalitatea pedepselor, nu este incident dispozițiilor furnizate, care nu instituie pedepse. Diferențele de eligibilitate trebuie justificate obiectiv în raport cu art. 16. Indicarea sursei bugetare este relevantă pentru art. 138 alin. (5), dar extrasul nu permite verificarea fundamentării financiare și a solicitării informațiilor Guvernului potrivit art. 111 alin. (1). Protecția împotriva popririi din art. 1 alin. (8) servește destinației sprijinului, însă afectează recuperarea creanțelor și trebuie evaluată și prin protecția proprietății creditorilor. Nu rezultă o neconstituționalitate certă din fragmentul disponibil.",
+      "euLawNote": "Schema constituie un avantaj selectiv pentru sectorul bovin; compatibilitatea sa trebuie evaluată potrivit art. 107-108 TFUE. Notificarea nu înlocuiește respectarea obligației de suspendare a punerii în aplicare până la decizia Comisiei, inclusiv în privința conferirii dreptului la ajutor. Directiva (UE) 2018/958 privește reglementarea accesului la profesii reglementate și a exercitării acestora, deci nu este aplicabilă acestei subvenții. Fragmentul nu introduce specificații tehnice pentru produse ori reguli privind servicii ale societății informaționale care să impună notificare TRIS potrivit Directivei (UE) 2015/1535. Nu am putut verifica online cadrul C(2026) 2947 final; conformitatea plafonului și a cumulului cu acesta nu poate fi certificată doar din declarația legii.",
+      "senatForm": {
+        "articleRef": "Art. 1 alin. (5)",
+        "proposalContent": "Schema se notifică Comisiei Europene potrivit art. 108 alin. (3) TFUE. Ajutoarele se acordă numai după adoptarea deciziei Comisiei care permite acordarea lor și cu respectarea acesteia. Până atunci nu se emit acte care conferă beneficiarilor dreptul la ajutor și nu se efectuează plăți.",
+        "argumentation": "Notificarea nu echivalează cu autorizarea. Art. 108 alin. (3) TFUE interzice punerea în aplicare prematură a ajutorului, inclusiv conferirea dreptului la acesta. Completarea este justificată dacă această condiție nu apare deja în articolele care lipsesc din extras.",
+        "otherComments": "Conform datelor furnizate, proiectul a devenit Legea 176/2026, iar termenul de amendamente a trecut. Propunerea poate fundamenta o inițiativă de modificare a legii; nu mai poate fi depusă ca amendament în procedura încheiată. Forma integrală și anexele trebuie verificate înaintea promovării."
+      }
     }
   }
 }

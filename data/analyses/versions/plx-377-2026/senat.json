@@ -2,7 +2,7 @@
   "billId": "PL-x 377/2026",
   "slug": "plx-377-2026",
   "version": "senat",
-  "updatedAt": "2026-10-30T08:26:37.887Z",
+  "updatedAt": "2026-10-30T09:25:53.406Z",
   "consensus": {
     "riskScore": 2,
     "riskLevel": "green",
@@ -25,8 +25,32 @@
   "council": {
     "agy": {
       "model": "agy",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 46252,
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Obligația gestionarilor de fonduri de vânătoare de a anunța primăriile când semnează sau modifică contractele de gestionare",
+      "verdictShort": "O măsură utilă și de bun-simț administrativ, care ajută primăriile și fermierii să știe rapid cine răspunde de fondul cinegetic în caz de pagube produse de animale sălbatice, deși redactarea tehnică lasă mici neclarități privind contractele deja în derulare.",
+      "initiatorClaim": "Inițiatorii doresc ca primăriile să fie informate oficial, în cel mult 30 de zile, despre cine gestionează fondul cinegetic de pe raza comunei/orașului și despre modificările contractului, pentru a putea soluționa rapid dosarele de despăgubire și situațiile de urgență.",
+      "realityCheck": "Legea introduce o obligație simplă de înștiințare și o amendă moderată (500–1.500 lei) pentru neconformare. Totuși, textul cere doar „înștiințarea despre încheierea contractului” (nu transmiterea copiei contractului, cum susține expunerea de motive), nu precizează expres ziua din care curg cele 30 de zile și omite o normă tranzitorie pentru contractele aflate deja în derulare pe 10–16 ani.",
+      "affectedGroups": [
+        "Agricultură & Mediu",
+        "Proprietari & Imobiliare"
+      ],
+      "keyFindings": [
+        "Art. I pct. 1 (Art. 9 alin. (1²)): Instituie obligația gestionarului fondului cinegetic de a înștiința UAT-urile pe raza cărora se află fondul, în termen de cel mult 30 de zile, prin orice mijloc de comunicare, despre încheierea contractului de gestionare și a actelor adiționale.",
+        "Art. I pct. 2 (Art. 48 alin. (1) lit. b)): Sancționează neîndeplinirea obligației de înștiințare cu amendă contravențională de la 500 lei la 1.500 lei, cuantum proporțional și rezonabil.",
+        "Lipsa unei dispoziții tranzitorii la Art. II: Contractele de gestionare a fondurilor cinegetice se încheie pe perioade lungi (10–16 ani), iar legea vizează doar încheierea contractelor și actelor adiționale viitoare, fără a obliga gestionarii actuali să notifice primăriile pentru contractele aflate deja în vigoare."
+      ],
+      "blindSpotsCaught": "Discrepanță între Expunerea de Motive și textul normativ: inițiatorii vorbesc despre „comunicarea oficială a contractului” pentru ca primăria „să cunoască în mod exact contractul aplicabil”, însă Art. 9 alin. (1²) cere doar o simplă înștiințare „despre încheierea contractului”, „prin orice mijloc de comunicare” (formulă vagă ce nu garantează dovada primirii ori cunoașterea clauzelor) și fără a indica expres momentul de la care curge termenul de 30 de zile.",
+      "constitutionalityNote": "Legea nu ridică probleme majore de constituționalitate. Din perspectiva Art. 1 alin. (5) din Constituție (calitatea și previzibilitatea legii contravenționale), ar fi fost însă preferabil ca Art. 9 alin. (1²) să menționeze expres momentul de început al termenului („în termen de cel mult 30 de zile de la data semnării acestora”) și o modalitate de comunicare ce asigură confirmarea primirii.",
+      "euLawNote": "Nu are impact asupra pieței unice, nu restrânge accesul la o profesie reglementată (Directiva (UE) 2018/958 nu este incidentă) și nu vizează servicii ale societății informaționale (nu necesită notificare TRIS conform Directivei (UE) 2015/1535).",
+      "senatForm": {
+        "articleRef": "Art. I pct. 1 (Art. 9 alin. (1²)) și Art. II",
+        "proposalContent": "La art. 9, alin. (1²) va avea cuprinsul: „(1²) Gestionarul este obligat ca, în termen de 30 de zile de la data semnării, să comunice în scris sau electronic unităților administrativ-teritoriale pe raza cărora se află fondul cinegetic o copie a contractului prevăzut la alin. (1) și a actelor adiționale.” La Art. II se adaugă obligația și pentru contractele în curs.",
+        "argumentation": "Textul actual nu precizează momentul de la care curge termenul de 30 de zile („de la data semnării”), permite „orice mijloc de comunicare” (inclusiv verbal, imposibil de probat la control) și omite o normă tranzitorie pentru contractele deja în derulare, care sunt încheiate pe 10-16 ani și ar rămâne necunoscute primăriilor.",
+        "otherComments": "O alternativă debirocratizantă ar fi ca însăși autoritatea publică centrală (Ministerul Mediului / structurile teritoriale) care încheie contractele de gestionare să le publice automat într-un registru electronic deschis sau să le comunice din oficiu primăriilor, degrevând gestionarii și eliminând riscul de amendă."
+      }
     },
     "claude": {
       "model": "claude",
@@ -62,8 +86,36 @@
     },
     "codex": {
       "model": "codex",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 76750,
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Gestionarii fondurilor de vânătoare trebuie să informeze primăriile",
+      "verdictShort": "Măsură utilă, cu risc redus și o sarcină administrativă modestă. Obligația sancționată trebuie însă să precizeze explicit începutul termenului și informațiile care trebuie comunicate.",
+      "initiatorClaim": "Inițiatorii vor ca autoritățile locale să cunoască gestionarul fondului cinegetic și modificările contractuale, pentru cooperare și gestionarea procedurilor privind pagubele. Expunerea invocă inclusiv comunicarea contractului după semnare.",
+      "realityCheck": "Art. I pct. 1 impune numai înștiințarea despre încheierea contractului și despre actele adiționale, fără să ceară transmiterea contractului sau să enumere informațiile obligatorii. Nerespectarea obligației intră în categoria contravențiilor sancționate cu 500–1.500 lei. Textul nu modifică regulile despăgubirilor și nu stabilește explicit momentul de la care curg cele 30 de zile.",
+      "affectedGroups": [
+        "Agricultură & Mediu",
+        "Proprietari & Imobiliare",
+        "IMM & Antreprenori"
+      ],
+      "keyFindings": [
+        "Art. I pct. 1 permite înștiințarea «prin orice mijloc de comunicare»: flexibilitatea reduce costurile, dar lipsa unei dovezi verificabile poate genera dispute privind îndeplinirea obligației.",
+        "Termenul de maximum 30 de zile nu are un punct de plecare expres. Semnarea rezultă din scopul declarat, însă trebuie prevăzută în norma sancționată, separat pentru contract și fiecare act adițional.",
+        "Expunerea vorbește despre comunicarea contractului; articolul cere doar înștiințarea despre existența acestuia. Nu există obligația expresă de a transmite copia, identitatea completă sau datele de contact ale gestionarului.",
+        "Art. I pct. 2 prevede o amendă de 500–1.500 lei, fără taxe, bariere de acces pe piață sau privilegii identificabile. Nivelul amenzii nu apare vădit disproporționat față de obligația instituită.",
+        "Costurile directe constau în notificări către fiecare UAT vizată, la încheierea contractului și a actelor adiționale. Textul nu impune cetățenilor formalități noi și nu prevede cheltuieli bugetare distincte; autoritățile vor avea un volum modest de corespondență suplimentară.",
+        "Art. II stabilește intrarea în vigoare după 30 de zile de la publicare. Lipsesc reguli tranzitorii pentru contractele existente; simpla lor existență la acea dată nu justifică sancționarea retroactivă pentru necomunicarea încheierii lor."
+      ],
+      "blindSpotsCaught": "Problema subtilă este diferența dintre a anunța încheierea unui contract și a transmite contractul: textul realizează numai prima operațiune. În plus, termenul și dovada comunicării rămân insuficient precizate pentru o obligație contravențională. Mențiunea «Lege 196/2026», dacă este confirmată, înseamnă că amendarea proiectului în procedura inițială nu mai este disponibilă.",
+      "constitutionalityNote": "Nu rezultă o neconstituționalitate evidentă. Art. 1 alin. (5) cere însă claritate și previzibilitate, relevante mai ales pentru termenul și conținutul obligației sancționate. Art. 23 alin. (12) privește direct legalitatea pedepselor penale; nu trebuie aplicat automat unei amenzi contravenționale, pentru care rămân relevante garanțiile legalității și previzibilității. Intrarea în vigoare amânată este compatibilă cu art. 78, iar aplicarea trebuie să respecte neretroactivitatea din art. 15 alin. (2). Modificarea unor dispoziții administrative și contravenționale dintr-o lege care cuprinde și norme organice nu impune, prin ea însăși, procedura legii organice.",
+      "euLawNote": "Din text nu rezultă restricții discriminatorii sau avantaje concurențiale: obligația revine gestionarilor indiferent de identitate. Directiva (UE) 2018/958 privește proporționalitatea reglementării accesului la profesii reglementate și a exercitării acestora; această notificare contractuală nu indică, prin ea însăși, o asemenea reglementare. Directiva (UE) 2015/1535 nu devine aplicabilă doar fiindcă se permite comunicarea electronică: textul nu instituie reguli tehnice pentru produse sau reguli specifice serviciilor societății informaționale și nu reglementează servicii digitale ori AI. Nu se identifică astfel o obligație de notificare TRIS din conținutul furnizat.",
+      "senatForm": {
+        "articleRef": "Art. I pct. 1 – art. 9 alin. (1²)",
+        "proposalContent": "(1²) Gestionarul comunică în scris, inclusiv electronic, cu dovada transmiterii, fiecărei unități administrativ-teritoriale pe raza căreia se află fondul cinegetic identitatea sa, numărul și data contractului prevăzut la alin. (1) și modificările acestuia, în cel mult 30 de zile de la semnarea contractului sau a fiecărui act adițional.",
+        "argumentation": "Precizarea momentului de început al termenului și a informațiilor obligatorii face obligația previzibilă și verificabilă. Comunicarea scrisă, inclusiv electronică, permite dovedirea îndeplinirii ei cu costuri reduse și limitează disputele privind aplicarea amenzii.",
+        "otherComments": "Analiza privește forma Senatului furnizată; stadiul «Lege 196/2026» și legislația actualizată nu au putut fi verificate independent. Dacă procedura s-a încheiat, propunerea poate fundamenta o nouă modificare legislativă, nu un amendament la proiectul închis."
+      }
     }
   }
 }

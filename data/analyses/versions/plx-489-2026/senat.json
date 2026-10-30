@@ -2,9 +2,9 @@
   "billId": "PL-x 489/2026",
   "slug": "plx-489-2026",
   "version": "senat",
-  "updatedAt": "2026-10-30T08:31:35.448Z",
+  "updatedAt": "2026-10-30T09:31:44.224Z",
   "consensus": {
-    "riskScore": 3,
+    "riskScore": 3.7,
     "riskLevel": "green",
     "plainTitle": "Pornografia infantilă devine „materiale cu abuzuri sexuale asupra minorilor”: pedepse reordonate, imagini AI incluse, iar nedenunțarea devine infracțiune",
     "summaryTlDr": "Lege utilă și aliniată la standardele europene, care repară o inechitate reală de pedepse și scoate de sub incidența penală sexting-ul consensual între adolescenți. Are însă câteva scăpări de redactare: obligația de denunț îi poate prinde pe părinți și profesori, iar agravantele sunt formulate ambiguu.",
@@ -12,8 +12,8 @@
     "realityCheck": "Textul face efectiv ce anunță. Producerea (5–12 ani) devine mai grav pedepsită decât solicitarea (3–10 ani), ceea ce corectează inversiunea din forma în vigoare. Definiția de la alin. (13) include însă și „o persoană majoră drept un minor”, fără excepția permisă de art. 5 alin. (7) din Directiva 2011/93/UE, așa că pot intra sub incidență și materiale cu adulți reali care doar par minori. Totodată, art. 266 alin. (1¹) obligă la denunț orice persoană care află de „operațiuni” cu astfel de materiale, inclusiv de cazurile pe care art. 374 alin. (11) doar le declară nepedepsibile.",
     "affectedGroups": [
       "Justiție & Drepturi Civile",
-      "Sănătate & Educație",
       "IT & AI",
+      "Sănătate & Educație",
       "Toți cetățenii"
     ],
     "senatForm": {
@@ -26,8 +26,35 @@
   "council": {
     "agy": {
       "model": "agy",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 66253,
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Reconfigurarea infracțiunii privind materialele cu abuzuri sexuale asupra minorilor (inclusiv generate cu AI) și obligativitatea denunțării",
+      "verdictShort": "O reformă penală solidă și necesară, care aliniază Codul penal la standardele europene, incriminează explicit abuzurile generate prin inteligență artificială, corectează anomalii de individualizare a pedepselor și protejează adolescenții de dosare penale pentru mesaje intime consensuale între apropiați ca vârstă.",
+      "initiatorClaim": "Inițiatorii urmăresc înlocuirea termenului impropriu de „pornografie infantilă” cu cel de „operațiuni cu materiale ce conțin abuzuri sexuale asupra minorilor”, adaptarea incriminării la mediul digital și AI, ierarhizarea proporțională a pedepselor și dezincriminarea unor conduite consensuale între minori de vârste apropiate.",
+      "realityCheck": "Textul adoptat de Senat își atinge obiectivele în mod coerent: elimină anomalia prin care simpla solicitare adresată unui minor era pedepsită mai sever (5-12 ani) decât producerea efectivă a materialelor (3-10 ani), introduce incriminarea manualelor/programelor dedicate abuzului și instituie obligația penală de denunțare (art. 266 alin. 1¹). Rămân însă câteva mici necorelări de tehnică legislativă, precum omiterea sintagmei „fără drept” la alin. (1) prin raportare la alin. (6) și (9) și incriminarea nediferențiată a tentativei la alin. (15).",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile",
+        "IT & AI",
+        "Sănătate & Educație",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Reierarhizare proporțională a pedepselor în art. 374 C.pen.: deținerea/distribuirea se pedepsește cu 2-7 ani (alin. 1), promovarea/expunerea cu 3-10 ani (alin. 2), iar producerea sau recrutarea/constrângerea pentru spectacole cu 5-12 ani (alin. 3 și 4), eliminând disproporția din vechea reglementare.",
+        "Extindere tehnologică explicită: alin. (13) include în definiția materialelor de abuz conținutul generat cu ajutorul sistemelor de inteligență artificială care simulează în mod credibil un minor, iar alin. (9) incriminează (1-5 ani) programele informatice, ghidurile și manualele concepute ori adaptate pentru comiterea acestor fapte.",
+        "Protecție împotriva supra-incriminării minorilor (alin. 11): nu se pedepsesc faptele de solicitare sau transmitere consensuală între minori dacă diferența de vârstă nu depășește 3 ani, materialele îi înfățișează exclusiv pe aceștia și nu sunt distribuite terților.",
+        "Obligație generală de sesizare (art. 266 alin. 1¹ C.pen.): orice persoană care ia cunoștință de operațiuni cu materiale ce conțin abuzuri sexuale asupra minorilor și nu înștiințează de îndată autoritățile riscă închisoarea de la 6 luni la 2 ani."
+      ],
+      "blindSpotsCaught": "Folosirea neuniformă a sintagmei „fără drept”: aceasta apare expres doar la alin. (6) (accesare) și alin. (9) (programe/manuale), dar lipsește la alin. (1) (deținere/stocare). Deși art. 21 C.pen. acoperă îndeplinirea unei obligații legale, o interpretare per a contrario ar putea crea vulnerabilități pentru administratorii IT sau furnizorii de servicii digitale care izolează tehnic (stochează în carantină) fișiere ilegale tocmai pentru a le preda poliției conform art. 266 alin. (1¹). De asemenea, forma adoptată de Senat conține erori materiale evidente de tehnoredactare: „(1i)” în loc de „(1¹)”, „infrațiune” la alin. (4) și „fâpta/fâptuitor” la alin. (11) lit. a).",
+      "constitutionalityNote": "Proiectul respectă în ansamblu art. 1 alin. (5) și art. 23 alin. (12) din Constituție, sporind claritatea normei penale. Totuși, art. 374 alin. (15) prevede generic că „Tentativa se pedepsește” fără a distinge între alineate, deși unele modalități normative (precum simpla solicitare de la alin. (7) sau vizionarea de la alin. (5)) nu sunt susceptibile de tentativă în concepția tehnică a Codului penal.",
+      "euLawNote": "Proiectul este pe deplin aliniat cu Directiva 2011/93/UE, Convenția de la Lanzarote (Recomandarea II-1 privind înlocuirea expresiei „pornografie infantilă” cu CSAM) și propunerea de revizuire a Directivei UE privind combaterea abuzului sexual asupra copiilor (care vizează generarea AI și manualele de instrucțiuni). Fiind o normă de drept penal substanțial și nu o reglementare tehnică nouă impusă furnizorilor de servicii ale societății informaționale, nu necesită notificare TRIS conform Directivei (UE) 2015/1535 și nu ridică probleme pe Directiva (UE) 2018/958.",
+      "senatForm": {
+        "articleRef": "Art. I pct. 2 (Art. 374 alin. (1) și (15))",
+        "proposalContent": "La alin. (1), după cuvintele „Efectuarea, în orice mod,” se introduce sintagma „fără drept,”. Alin. (15) se modifică și va avea următorul cuprins: „(15) Tentativa la infracțiunile prevăzute la alin. (1)-(4) se pedepsește.”",
+        "argumentation": "Întrucât alin. (6) și (9) includ condiția „fără drept”, omiterea ei la alin. (1) poate genera interpretări per a contrario față de specialiștii IT/ISP care izolează tehnic fișiere ilegale pentru a le raporta conform art. 266 alin. (1¹). Totodată, la alin. (15) trebuie indicate alineatele susceptibile de tentativă, pentru previzibilitate (art. 1 alin. (5) din Constituție).",
+        "otherComments": "Se impune și îndreptarea erorilor materiale din forma adoptată de Senat: la Art. I pct. 1 indicele alineatului este redactat „(1i)” în loc de „(1¹)”, la art. 374 alin. (4) apare „infrațiune” în loc de „infracțiune”, la alin. (8) lit. b) „convietuiște”, iar la alin. (11) lit. a) „fâpta” și „fâptuitor”."
+      }
     },
     "claude": {
       "model": "claude",
@@ -66,8 +93,38 @@
     },
     "codex": {
       "model": "codex",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 131029,
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Pedepse noi pentru materialele cu abuzuri sexuale asupra copiilor",
+      "verdictShort": "Protecția urmărită este legitimă, iar diferențierea pedepselor are utilitate. Totuși, incriminarea instrumentelor informatice, excepțiile pentru minori și confiscarea necesită precizări pentru a preveni aplicări excesive.",
+      "initiatorClaim": "Inițiatorii urmăresc protejarea copiilor, adaptarea incriminării la tehnologiile digitale și AI și înlocuirea unei terminologii care poate minimaliza abuzul. Ei propun pedepse diferențiate și excepții pentru anumite conduite private ale minorilor.",
+      "realityCheck": "Textul restructurează integral art. 374, extinde nedenunțarea și incriminează separat operațiuni cu programe și instrucțiuni destinate comiterii faptelor. Nu reprezintă o majorare uniformă a pedepselor: solicitarea adresată minorului primește 3–10 ani, față de 5–12 ani potrivit reglementării descrise în expunere. Apar însă incertitudini privind instrumentele cu utilizări legitime, consimțământul persoanelor reprezentate și limitele confiscării.",
+      "affectedGroups": [
+        "IT & AI",
+        "Justiție & Drepturi Civile",
+        "Sănătate & Educație",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 374 alin. (9) incriminează inclusiv simpla deținere a unor programe, ghiduri sau instrucțiuni concepute ori adaptate pentru comiterea faptelor. Destinația ilicită a materialului limitează incriminarea, dar textul nu cere expres scopul infracțional al deținătorului; «fără drept» nu explică suficient situația cercetării, investigațiilor ori analizei criminalistice.",
+        "Art. 374 alin. (11) lit. b) menționează acordul destinatarului, fără să ceară explicit consimțământul tuturor minorilor reprezentați la producerea și transmiterea materialului. Diferența de vârstă de maximum 3 ani nu exclude singură constrângerea, exploatarea sau abuzul de autoritate.",
+        "Art. 374 alin. (10) exclude caracterul infracțional pentru anumite materiale care îl înfățișează exclusiv pe autor; alin. (11) instituie cauze de nepedepsire. Distincția are efecte juridice și impune corelarea cu noua obligație de denunțare din art. 266 alin. (1¹).",
+        "Art. 374 alin. (12) formulează confiscarea obligatorie, inclusiv prin echivalent, fără să reia limitele generale privind bunurile terților și proporționalitatea. Aplicarea trebuie corelată explicit cu art. 112 Cod penal; simpla utilizare a unui dispozitiv nu justifică ignorarea acestor garanții.",
+        "Art. 374 alin. (8) lit. e) folosește «a mai comis anterior», fără să precizeze dacă este necesară o condamnare definitivă. Nu rezultă automat o încălcare a prezumției de nevinovăție, dar trebuie clarificate constatarea faptei anterioare și raportul cu recidiva.",
+        "Art. 374 alin. (13) include expres materialele generate prin AI, însă definiția acoperă și simulări credibile fără persoane reale. Acuzarea nu trebuie să dovedească existența unui copil real abuzat pentru fiecare material; scopul declarat al protejării victimelor nu descrie integral întinderea incriminării.",
+        "Nu sunt introduse taxe, autorizații profesionale sau raportări periodice pentru IMM-uri. Extinderea nedenunțării creează însă o obligație penală pentru persoanele care cunosc săvârșirea faptelor, iar aplicarea noilor incriminări poate necesita resurse judiciare și expertiză digitală; costurile nu sunt cuantificate în fragmentul furnizat."
+      ],
+      "blindSpotsCaught": "Stadiul declarat «Lege 201/2026» înseamnă că un amendament la proiect nu mai poate fi preluat în procedura deja încheiată; formularul poate servi drept propunere pentru o nouă inițiativă legislativă. Analiza privește exclusiv forma Senatului furnizată: verificarea online a fișei, a legii publicate și a eventualelor modificări ulterioare nu a fost posibilă. Reducerile de pedepse și excepțiile pot activa legea penală mai favorabilă, potrivit art. 15 alin. (2) din Constituție și regulilor Codului penal, fără a produce automat aceleași efecte în toate dosarele.",
+      "constitutionalityNote": "Protecția minorilor susține obiectivul legii, inclusiv prin art. 49 din Constituție. Riscurile principale țin de claritatea și previzibilitatea incriminării, potrivit art. 1 alin. (5) și art. 23 alin. (12): delimitarea instrumentelor incriminate la alin. (9), condițiile excepțiilor și agravarea pentru fapte anterioare. Confiscarea trebuie interpretată în acord cu art. 44 alin. (8)–(9) și proporționalitatea ingerinței. Scara pedepselor nu este vădit neconstituțională doar prin severitate; sunt necesare delimitări mai precise, nu prezumarea neconstituționalității întregii legi. Regularitatea bicameralismului și a adoptării nu poate fi stabilită numai din forma Senatului.",
+      "euLawNote": "Directiva 2011/93/UE constituie reperul material: art. 8 alin. (3) permite o derogare pentru anumite activități private consensuale între copii care au atins vârsta consimțământului sexual, fără abuz. Excepția propusă la alin. (11) lit. b), care include transmiterea și nu fixează o asemenea vârstă minimă, necesită verificarea compatibilității cu această derogare; apropierea de vârstă nu este suficientă singură. Directiva (UE) 2018/958 privește restricțiile asupra profesiilor reglementate și nu impune aici un test profesional de proporționalitate: textul nu rezervă activități unei profesii și nu creează monopoluri. Pentru TRIS, simpla menționare a internetului sau AI nu face notificarea obligatorie; trebuie verificat dacă există reguli care vizează în mod specific serviciile societății informaționale, potrivit Directivei (UE) 2015/1535. Caracterul penal nu exclude singur această examinare, iar lipsa notificării nu poate fi presupusă. Repere: [Directiva 2011/93/UE](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32011L0093), [Directiva 2018/958](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32018L0958), [Directiva 2015/1535](https://eur-lex.europa.eu/legal-content/RO/TXT/?uri=CELEX:32015L1535).",
+      "senatForm": {
+        "articleRef": "Art. I pct. 2 – art. 374 alin. (9)",
+        "proposalContent": "(9) Producerea, procurarea, deținerea, stocarea ori punerea la dispoziție de programe informatice sau instrucțiuni special concepute ori adaptate pentru comiterea faptelor prevăzute la alin. (1)-(7), săvârșite în scopul facilitării acestor fapte, se pedepsesc cu închisoare de la unu la 5 ani și interzicerea exercitării unor drepturi.",
+        "argumentation": "Condiția scopului infracțional al autorului delimitează facilitarea abuzurilor de deținerea legitimă pentru cercetare, investigații sau analiză criminalistică. Precizarea întărește previzibilitatea cerută de art. 1 alin. (5) și art. 23 alin. (12) din Constituție și reduce riscul incriminării instrumentelor cu utilizări multiple.",
+        "otherComments": "Dacă stadiul Lege 201/2026 este confirmat, propunerea necesită o nouă inițiativă de modificare, nu un amendament la proiectul încheiat. Separat, trebuie revizuite consimțământul și condițiile excepțiilor de la alin. (11), precum și corelarea confiscării cu art. 112 Cod penal."
+      }
     }
   }
 }

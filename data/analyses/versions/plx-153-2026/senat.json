@@ -2,7 +2,7 @@
   "billId": "PL-x 153/2026",
   "slug": "plx-153-2026",
   "version": "senat",
-  "updatedAt": "2026-10-30T08:13:53.626Z",
+  "updatedAt": "2026-10-30T09:10:37.713Z",
   "consensus": {
     "riskScore": 2,
     "riskLevel": "green",
@@ -13,6 +13,7 @@
     "affectedGroups": [
       "Sănătate & Educație",
       "IT & AI",
+      "Toți cetățenii",
       "IMM & Antreprenori"
     ],
     "senatForm": {
@@ -25,8 +26,33 @@
   "council": {
     "agy": {
       "model": "agy",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 42569,
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Introducerea telerecuperării medicale și a fizioterapiei la distanță în Legea sănătății",
+      "verdictShort": "O lege modernă, utilă și benignă, care oferă bază legală recuperării medicale și fizioterapiei la distanță prin mijloace digitale. Singurele puncte slabe țin de o mică necorelare tehnică între alineate și de lăsarea regulilor concrete și a decontării CNAS pe seama unei Hotărâri de Guvern ulterioare.",
+      "initiatorClaim": "Inițiatorii susțin că reglementează telerecuperarea pentru a crește accesul pacienților cu mobilitate redusă sau din zone izolate la reabilitare medicală, stabilind totodată regulile de consimțământ, integrarea în dosarul electronic de sănătate și decontarea prin CNAS.",
+      "realityCheck": "În realitate, legea este mult mai suplă decât promite Expunerea de motive: adaugă „telerecuperarea” pe lista serviciilor de telemedicină din Legea 95/2006 și o definește ca serviciu furnizat de medici de recuperare, fizioterapeuți și furnizori de servicii conexe. Nu conține însă nicio prevedere directă despre decontarea prin CNAS sau Dosarul Electronic de Sănătate, pasând toate detaliile de aplicare către norme metodologice aprobate prin HG.",
+      "affectedGroups": [
+        "Sănătate & Educație",
+        "IT & AI",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. I pct. 1 și 2 (Art. 30¹ alin. 6 lit. g și Art. 30¹³): Recunoaște oficial telerecuperarea ca ramură a telemedicinei, permițând consultul, evaluarea funcțională, intervenția terapeutică, educarea și monitorizarea pacientului la distanță prin mijloace digitale.",
+        "Art. 30¹³ alin. (1)-(3): Include explicit fizioterapeuții alături de medicii specialiști în medicină fizică și de reabilitare/balneologie, dar condiționează furnizarea serviciilor conexe actului medical de respectarea strictă a prescripției și recomandărilor medicului curant.",
+        "Art. II: Stabilește un termen de 30 de zile în care Ministerul Sănătății „elaborază” (eroare de redactare în textul oficial) normele metodologice, fără a fixa însă un termen-limită obligatoriu și pentru adoptarea efectivă a Hotărârii de Guvern sau pentru cooptarea CNAS."
+      ],
+      "blindSpotsCaught": "Există o asimetrie internă în Art. 30¹³: în timp ce alin. (1) enumeră ca furnizori doar medicii de specialitate și fizioterapeuții, alin. (2) și (3) extind sfera telerecuperării la „serviciile conexe actului medical” (care, potrivit OUG 83/2000, includ și logopedia sau kinetoterapia/psihologia medicală). De asemenea, deși Expunerea de motive invocă obsesiv decontarea prin CNAS fără impact bugetar, textul legii nu menționează deloc Casa Națională de Asigurări de Sănătate.",
+      "constitutionalityNote": "Proiectul respectă exigențele constituționale și contribuie pozitiv la garantarea dreptului la ocrotirea sănătății (Art. 34 din Constituție). Sub aspectul calității legii (Art. 1 alin. 5), ușoara necorelare dintre alin. (1) și alin. (2)-(3) ale Art. 30¹³ privind furnizorii de servicii conexe poate fi clarificată fără dificultate prin normele metodologice.",
+      "euLawNote": "Măsura este pe deplin aliniată cu politicile UE privind digitalizarea sănătății (eHealth). Din perspectiva Directivei (UE) 2018/958 privind testul de proporționalitate, legea nu creează monopoluri noi, ci deschide piața serviciilor la distanță pentru fizioterapeuți și medici de reabilitare în limitele competențelor deja reglementate. Nu impune cerințe tehnice specifice platformelor IT care să fi necesitat notificare TRIS conform Directivei (UE) 2015/1535.",
+      "senatForm": {
+        "articleRef": "Art. I pct. 2 (Art. 30^13 alin. 1) și Art. II",
+        "proposalContent": "La Art. 30^13 alin. (1), după „fizioterapeuți” se introduce sintagma „și de alți furnizori de servicii conexe actului medical”. La Art. II, textul devine: „În termen de 60 de zile de la intrarea în vigoare a prezentei legi, Guvernul, la propunerea Ministerului Sănătății și CNAS, aprobă prin hotărâre normele metodologice de aplicare.”",
+        "argumentation": "Alin. (2) și (3) menționează „serviciile conexe actului medical” (logopedie, psihologie etc.), însă alin. (1) îi omite pe acești specialiști, limitând furnizorii doar la medici și fizioterapeuți. De asemenea, la Art. II trebuie impus un termen ferm pentru adoptarea HG (cu implicarea CNAS pentru decontare), nu doar pentru elaborarea proiectului de către minister.",
+        "otherComments": "Legea este binevenită și utilă pentru pacienții cu mobilitate redusă, însă corelarea alin. (1) cu alin. (2)-(3) și implicarea CNAS în normele metodologice sunt esențiale pentru ca decontarea promisă în Expunerea de motive să funcționeze în practică."
+      }
     },
     "claude": {
       "model": "claude",
@@ -62,8 +88,37 @@
     },
     "codex": {
       "model": "codex",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 108051,
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Recuperare medicală la distanță, prin mijloace digitale",
+      "verdictShort": "Forma Senatului este o completare utilă, cu risc redus: recunoaște explicit telerecuperarea, fără taxe sau sancțiuni noi. Nu garantează însă decontarea prin CNAS și nici beneficiile economice promise în motivare.",
+      "initiatorClaim": "Inițiatorii urmăresc acces mai bun la recuperare medicală, în special pentru persoane cu mobilitate redusă sau din zone slab deservite. Susțin că serviciile digitale vor permite tratamente mai lungi, continuitate terapeutică și economii fără creșterea bugetului.",
+      "realityCheck": "Art. I adaugă telerecuperarea între serviciile de telemedicină, o definește și precizează furnizorii și dependența serviciilor conexe de prescripția medicală. Textul nu introduce expres decontarea, prelungirea tratamentelor decontate sau reguli noi despre dosarul electronic și consimțământ; aplicarea garanțiilor existente trebuie analizată împreună cu regimul general al telemedicinei. Art. II cere elaborarea normelor în 30 de zile, fără să stabilească la fel de clar termenul aprobării lor.",
+      "affectedGroups": [
+        "Sănătate & Educație",
+        "IMM & Antreprenori",
+        "IT & AI",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Art. I pct. 1 recunoaște explicit telerecuperarea în lista serviciilor de telemedicină; nu instituie obligația pacientului de a utiliza servicii digitale.",
+        "Art. 30¹³ alin. (1) menționează medicii din specialitățile indicate și fizioterapeuții, în limitele competențelor legale. Nu rezervă serviciul unei platforme sau unui operator comercial.",
+        "Art. 30¹³ alin. (3) condiționează serviciile conexe de prescripția și recomandările medicale. Trebuie verificată concordanța cu legislația profesională, fără a presupune că textul introduce automat o restricție nouă.",
+        "Forma furnizată nu modifică explicit pachetul de servicii decontate, tarifele sau durata tratamentelor finanțate. Afirmația că tratamentele pot fi prelungite fără impact bugetar nu este demonstrată prin text ori prin calcule în documentele reproduse.",
+        "Nu apar taxe, amenzi, achiziții obligatorii de dispozitive sau raportări noi pentru pacienți. Furnizorii pot suporta costuri de implementare digitală, iar pacienții pot întâmpina bariere de conectivitate și accesibilitate.",
+        "Art. II lasă normelor detaliile aplicării. Acestea trebuie să organizeze serviciul în limitele legii, fără să introducă autonom restrângeri esențiale ale drepturilor ori competențelor profesionale."
+      ],
+      "blindSpotsCaught": "Descrierea din fișa Camerei și expunerea de motive sunt mai ample decât dispozitivul: consimțământul, dosarul electronic și decontarea nu primesc aici dispoziții noi exprese. Absența lor din această completare nu înseamnă însă absența garanțiilor din legislația existentă. Separat, stadiul declarat «Lege 138/2026» înseamnă că o propunere transmisă acum nu mai poate funcționa ca amendament la acest proiect dacă procedura parlamentară s-a încheiat.",
+      "constitutionalityNote": "Pe baza textului furnizat, nu rezultă o neconstituționalitate evidentă. Art. 1 alin. (5) impune corelarea definiției, competențelor profesionale și normelor de aplicare, inclusiv clarificarea formulării permisive «pot face parte». Art. 23 alin. (12), privind legalitatea pedepsei, nu este incident: textul nu instituie pedepse. Protejarea sănătății și a vieții private, potrivit art. 34 și art. 26, reclamă selecție clinică adecvată, informare și confidențialitate, prin aplicarea cadrului legal complet. Nu se poate deduce o încălcare a art. 138 alin. (5) doar din promisiunile economice ale motivării, deoarece dispozitivul nu stabilește expres o cheltuială bugetară nouă cuantificată.",
+      "euLawNote": "Directiva (UE) 2018/958 impune evaluarea proporționalității dispozițiilor care restrâng accesul la profesii reglementate sau exercitarea lor. Trebuie verificat dacă enumerarea furnizorilor și condiția prescripției adaugă restricții față de dreptul existent; protecția sănătății poate justifica restricții necesare și proporționale, dar justificarea nu este automată. Pentru Directiva (UE) 2015/1535, caracterul digital nu este suficient pentru a concluziona că notificarea TRIS este obligatorie: trebuie verificată încadrarea concretă ca regulă privind serviciile societății informaționale, inclusiv pentru normele ulterioare. Documentele furnizate nu permit stabilirea existenței unei notificări ori a unei încălcări. Textul nu reglementează expres AI. Prelucrarea datelor medicale rămâne supusă GDPR; consimțământul pentru actul medical nu trebuie confundat cu temeiul juridic al prelucrării datelor.",
+      "senatForm": {
+        "articleRef": "Art. I pct. 2 – art. 30¹³, alineat nou (4)",
+        "proposalContent": "(4) Telerecuperarea se utilizează numai dacă este adecvată clinic și sigură pentru pacient, cu consimțământul său informat. Pacientul este informat despre limitele și alternativele serviciului. Refuzul telerecuperării nu restrânge accesul la servicii acordate în prezență, în condițiile legii.",
+        "argumentation": "Completarea explicitează adecvarea clinică și libertatea pacientului de a accepta modalitatea digitală. Protejează persoanele fără acces la tehnologie și susține aplicarea art. 34 din Constituție, în completarea garanțiilor generale existente.",
+        "otherComments": "Analiza privește forma Senatului furnizată; sursele externe și textul Legii nr. 138/2026 nu au putut fi verificate. Dacă procedura s-a încheiat, propunerea poate susține o nouă inițiativă legislativă, nu un amendament la dosarul închis."
+      }
     }
   }
 }

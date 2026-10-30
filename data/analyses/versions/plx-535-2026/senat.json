@@ -2,10 +2,10 @@
   "billId": "PL-x 535/2026",
   "slug": "plx-535-2026",
   "version": "senat",
-  "updatedAt": "2026-10-30T08:41:57.899Z",
+  "updatedAt": "2026-10-30T09:44:39.228Z",
   "consensus": {
-    "riskScore": 4,
-    "riskLevel": "yellow",
+    "riskScore": 3.7,
+    "riskLevel": "green",
     "plainTitle": "Statul le plătește mai repede furnizorilor de energie banii pentru plafonare: 60% în avans în loc de 40%",
     "summaryTlDr": "Legea e în esență tehnică și rezolvă o problemă reală de lichiditate. Totuși, crește cu jumătate suma plătită din bani publici doar pe baza declarației furnizorului, înainte de verificare, și are erori de redactare care pot bloca exact plățile pe care vrea să le grăbească.",
     "initiatorClaim": "Inițiatorii spun că furnizorii au aproximativ 6 miliarde lei blocați în cereri de decontare neverificate, iar plata parțială de 40% le creează probleme de lichiditate. Ei susțin că majorarea la 60% doar accelerează plata unor obligații existente, fără cost bugetar suplimentar.",
@@ -25,8 +25,34 @@
   "council": {
     "agy": {
       "model": "agy",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 56265,
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Creșterea de la 40% la 60% a plăților în avans către furnizorii de energie pentru plafonarea facturilor",
+      "verdictShort": "Măsură tehnică necesară pentru deblocarea lichidităților din piața energiei și instituirea de penalități pentru sumele nerestituite la regularizare, dar viciată de erori de redactare în Anexă și de extinderea plăților pe proprie răspundere.",
+      "initiatorClaim": "Inițiatorii urmăresc reducerea presiunii financiare asupra furnizorilor de energie și gaze (care au cereri de decontare în analiză de circa 6 miliarde lei) prin creșterea plăților parțiale de la 40% la 60% înainte de validarea finală a ANRE, fără cheltuieli bugetare suplimentare pe termen lung.",
+      "realityCheck": "Legea urcă la 60% avansul decontat din bugetul de stat doar pe baza declarației pe propria răspundere a furnizorului (prin derogare de la Legea finanțelor publice nr. 500/2002), dar introduce în contrapartidă dobânzi și penalități fiscale dacă furnizorii nu restituie în 10 zile lucrătoare sumele încasate în plus după regularizarea ANRE. Totuși, termenul de 10 zile pentru plata diferenței de 20% din urmă este condiționat de momentul la care Ministerul Finanțelor virează efectiv banii, iar Anexa legii conține erori evidente de tip copy-paste.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. I pct. 1 și Art. II pct. 1 majorează de la 40% la 60% plățile parțiale acordate furnizorilor de energie și gaze pe bază de declarație pe propria răspundere, prin derogare de la art. 52 alin. (8) din Legea nr. 500/2002 privind finanțele publice (care impune verificarea prealabilă a realității și legalității cheltuielii).",
+        "Art. I pct. 2 și Art. II pct. 2 introduc dobânzi și penalități de întârziere conform art. 174 și 176 din Codul de procedură fiscală dacă furnizorii nu restituie către bugetul de stat, în termen de 10 zile lucrătoare, diferențele constatate în urma regularizării.",
+        "Art. I pct. 3 stabilește data de 31 decembrie 2026 ca termen-limită final pentru introducerea datelor necesare decontării lunare și regularizării sumelor aferente OUG nr. 6/2025.",
+        "Anexa și Expunerea de motive conțin erori materiale flagrante: formularul de Cerere adițională invocă „art. IV, alin. 1. litera A. din Ordonanța de urgență a Guvernului nr. ...”, deși prevederea se află la art. IV alin. (2) lit. A din prezenta lege, iar în finalul Expunerii de motive este menționat titlul unui cu totul alt proiect fiscal-bugetar."
+      ],
+      "blindSpotsCaught": "Textul pare preluat dintr-un proiect de OUG guvernamental și transformat în grabă în inițiativă parlamentară: în Anexă a rămas formularea „în temeiul prevederilor art. IV, alin. 1. litera A. din Ordonanța de urgență a Guvernului nr. ...” (în loc de art. IV alin. (2) lit. A din prezenta lege). Mai mult, Anexa este adresată exclusiv Ministerului Energiei, omițând ANPIS (Agenția Națională pentru Plăți și Inspecție Socială), deși art. IV alin. (2) reglementează depunerea cererii adiționale la ambele instituții. În plus, la art. IV alin. (2) lit. A pct. c), termenul de plată de 10 zile lucrătoare curge abia după ce Ministerul Finanțelor transferă fondurile, o condiție potestativă care permite statului să amâne plata pe termen nedeterminat.",
+      "constitutionalityNote": "Sub aspectul art. 1 alin. (5) din Constituție (calitatea și previzibilitatea legii), trimiterea greșită din Anexă la „art. IV alin. 1 lit. A din OUG nr. ...” și omisiunea ANPIS din formularul-tip creează confuzie în aplicare. De asemenea, afirmația din Expunerea de motive că legea nu are impact bugetar ignoră principiul anualității bugetare (art. 138 alin. (5) din Constituție), întrucât avansarea a 20% suplimentar din cereri de 6 miliarde lei generează un efort de trezorerie imediat de circa 1,2 miliarde lei.",
+      "euLawNote": "Măsura nu intră sub incidența Directivei (UE) 2015/1535 (TRIS) și nu instituie restricții profesionale noi în sensul Directivei (UE) 2018/958. În raport cu normele UE privind piața internă de energie (Directiva 2019/944) și ajutoarele de stat, deblocarea plăților restante reduce distorsiunile de lichiditate suferite de furnizori ca urmare a schemelor anterioare de plafonare.",
+      "senatForm": {
+        "articleRef": "Art. IV alin. (2) lit. A și Anexa la lege",
+        "proposalContent": "În Anexă, sintagma „art. IV, alin. 1. litera A. din Ordonanța de urgență a Guvernului nr. ...” se înlocuiește cu „art. IV alin. (2) lit. A din Legea nr. ...”, iar în antet și cuprins se introduce opțiunea adresării cererii și către „Agenția Națională pentru Plăți și Inspecție Socială (ANPIS)”, alături de Ministerul Energiei.",
+        "argumentation": "Anexa conține o eroare materială de preluare: trimite la „art. IV alin. 1 lit. A din OUG nr. ...”, deși temeiul cererii adiționale este art. IV alin. (2) lit. A din prezenta lege. Totodată, formularul este adresat doar Ministerului Energiei, omițând ANPIS, deși art. IV alin. (2) vizează ambele instituții plătitoare.",
+        "otherComments": "La art. IV alin. (2) lit. A pct. c), termenul de plată de 10 zile lucrătoare curge abia de la transferul fondurilor de către Ministerul Finanțelor, lăsând decontarea la discreția alimentării bugetare. Se recomandă stabilirea unui termen cert și pentru transferul sumelor de către Ministerul Finanțelor."
+      }
     },
     "claude": {
       "model": "claude",
@@ -63,8 +89,37 @@
     },
     "codex": {
       "model": "codex",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 117532,
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Statul plătește anticipat o parte mai mare din compensațiile pentru energie",
+      "verdictShort": "Măsură predominant tehnică și utilă pentru lichiditatea furnizorilor, fără taxe noi pentru consumatori. Riscurile principale sunt accelerarea plăților înaintea verificării finale și câteva necorelări procedurale.",
+      "initiatorClaim": "Inițiatorii urmăresc să reducă presiunea financiară asupra furnizorilor prin creșterea plăților parțiale de la 40% la 60%. Susțin că schimbarea doar accelerează achitarea obligațiilor statului, iar regularizarea și controalele protejează bugetul.",
+      "realityCheck": "Art. I și II măresc plata calculată asupra sumelor solicitate, care pot diferi de compensațiile validate definitiv; legea nu majorează prin ea însăși compensația finală legal datorată. Pentru cererile vechi, diferența se acordă prin cerere adițională dacă s-au plătit deja 40%, respectiv automat la nivelul de 60% dacă această plată nu s-a efectuat. Măsura poate accelera semnificativ ieșirile de numerar din buget, chiar dacă nu crește obligația finală, iar recuperarea diferențelor rămâne esențială.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. I pct. 1 și art. II pct. 1 cresc plata parțială cu 20 de puncte procentuale, pe baza declarației furnizorului. Derogarea de la regulile finanțelor publice există în mecanismul modificat; noutatea principală este procentul.",
+        "Afirmația din motivare privind lipsa cheltuielilor suplimentare trebuie separată de necesarul imediat de finanțare: dacă toate cele 6 miliarde lei invocate ar fi eligibile pentru diferență, accelerarea plăților ar reprezenta aproximativ 1,2 miliarde lei. Aceasta este o estimare condiționată, nu un impact bugetar demonstrat.",
+        "Art. IV alin. (2) lit. A nu exclude expres cererile care, după plata inițială de 40%, au fost deja achitate integral și nu plafonează explicit suplimentul în funcție de toate plățile efectuate. Corelarea cu decontarea finală trebuie făcută expres pentru evitarea plăților excedentare.",
+        "Art. I pct. 2 și art. II pct. 2 introduc dobânzi și penalități pentru recuperările întârziate vizate de art. 9. Trimiterea nu stabilește la fel de explicit regimul accesoriilor pentru regularizările distincte din art. 19 și art. 23².",
+        "Art. I pct. 3 stabilește 31 decembrie 2026 ca termen final pentru introducerea datelor în mecanismul vizat din OUG nr. 6/2025. Nu precizează expres consecința depășirii termenului sau tratamentul blocajelor platformei.",
+        "Art. III permite emiterea ordinului în 30 de zile, iar art. IV acordă tot 30 de zile pentru cererea adițională. Formularul legal permite pregătirea cererii, dar eventualele cerințe procedurale publicate spre sfârșitul intervalului pot îngreuna depunerea.",
+        "Nu sunt introduse direct obligații, taxe sau formulare pentru cetățeni și IMM-urile consumatoare. Sarcinile administrative privesc în principal furnizorii și autoritățile; beneficiul pentru consumatori este indirect și nu garantează reducerea facturilor."
+      ],
+      "blindSpotsCaught": "Anexa invocă greșit «art. IV, alin. 1. litera A» dintr-o OUG: temeiul cererii este art. IV alin. (2) lit. A din prezenta lege. Formularul indică numai Ministerul Energiei, deși dispozitivul prevede și circuitul ANPIS. Separat, dacă stadiul comunicat, Lege 179/2026, este confirmat, modificarea necesită o nouă intervenție legislativă; amendamentele nu mai pot fi depuse în procedura parlamentară încheiată.",
+      "constitutionalityNote": "Evaluarea privește forma Senatului furnizată. Verificarea online a dosarului, a stadiului și a legislației consolidate nu a fost posibilă. Art. 1 alin. (5) este relevant pentru trimiterile greșite, corelarea procedurilor și previzibilitatea termenelor, fără ca orice eroare redacțională să determine automat neconstituționalitatea. Art. 23 alin. (12) nu este reperul principal, deoarece textul nu instituie pedepse penale. Aplicarea noilor accesorii trebuie să respecte neretroactivitatea, potrivit art. 15 alin. (2). Pentru art. 111 alin. (1) și art. 138 alin. (5), trebuie verificate solicitarea informării Guvernului, fundamentarea financiară și acoperirea bugetară; simpla afirmație că plata este accelerată nu înlocuiește aceste verificări. Documentele furnizate nu permit constatarea unei încălcări procedurale certe.",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea reglementării accesului la profesii reglementate și a exercitării lor; modificarea decontării furnizorilor nu intră, prin obiectul descris, în acest domeniu. Directiva (UE) 2015/1535 nu impune notificare TRIS doar pentru că documentele sunt încărcate pe o platformă: textul nu stabilește reguli tehnice pentru produse ori reguli dedicate serviciilor societății informaționale și nu reglementează AI. Nu rezultă monopoluri sau bariere noi de intrare. Accelerarea plăților poate influența concurența prin lichiditatea disponibilă furnizorilor; eventuala relevanță a art. 107–108 TFUE trebuie evaluată în contextul schemei existente și al condițiilor sale, fără a presupune automat existența unui ajutor de stat nou sau ilegal.",
+      "senatForm": {
+        "articleRef": "Art. IV alin. (2) lit. A lit. a)",
+        "proposalContent": "a) Furnizorii pot solicita, prin cerere adițională întocmită conform anexei, cel mult diferența dintre 60% din valoarea cererii inițiale și totalul sumelor deja plătite pentru aceasta. Sunt excluse cererile decontate definitiv și sumele pentru care plata este suspendată potrivit legii.",
+        "argumentation": "Textul actual raportează suplimentul doar la plata inițială de 40%, fără să excludă expres decontările definitive intervenite ulterior. Plafonarea în funcție de toate plățile efectuate previne plata excedentară și recuperările ulterioare, păstrând obiectivul de lichiditate și controalele existente.",
+        "otherComments": "Corectați separat anexa: temeiul este art. IV alin. (2) lit. A din prezenta lege; includeți ANPIS ca destinatar, după caz. Dacă stadiul Lege 179/2026 este confirmat, propunerea trebuie preluată într-o nouă inițiativă legislativă de modificare, nu ca amendament în procedura încheiată."
+      }
     }
   }
 }

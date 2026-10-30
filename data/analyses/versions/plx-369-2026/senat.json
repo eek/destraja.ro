@@ -2,7 +2,7 @@
   "billId": "PL-x 369/2026",
   "slug": "plx-369-2026",
   "version": "senat",
-  "updatedAt": "2026-10-30T08:25:45.690Z",
+  "updatedAt": "2026-10-30T09:24:53.389Z",
   "consensus": {
     "riskScore": 4,
     "riskLevel": "yellow",
@@ -12,7 +12,8 @@
     "realityCheck": "Legea acordă doar o plată forfetară de 12 euro/familie de albine/an, timp de 3 ani. Plata nu este condiționată de cheltuieli cu hrana, procesare sau formare, deci obiectivele din expunere (modernizare, cursuri, promovare, programe de 5 ani) nu se regăsesc în articole. Plafonul de 93.501,94 mii lei nu precizează dacă este anual sau total, nu există o regulă de reducere proporțională dacă cererile îl depășesc, iar condiția de înregistrare la 31.12.2025 îi exclude pe apicultorii care încep activitatea în 2026-2028.",
     "affectedGroups": [
       "Agricultură & Mediu",
-      "IMM & Antreprenori"
+      "IMM & Antreprenori",
+      "Toți cetățenii"
     ],
     "senatForm": {
       "articleRef": "Art. 8 (cuantum și plafon anual)",
@@ -24,8 +25,34 @@
   "council": {
     "agy": {
       "model": "agy",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 66211,
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Ajutor de stat de 12 euro/familie de albine pe an pentru apicultori (2026-2028)",
+      "verdictShort": "Măsură de sprijin binevenită pentru apicultorii afectați de secetă și de importurile ieftine de miere, fără taxe sau sancțiuni ascunse. Totuși, textul adoptat de Senat suferă de erori tehnice serioase: bugetul alocat nu ajunge pentru toate familiile de albine din țară, nu există regulă de împărțire proporțională a banilor și se citează regulamente UE expirate.",
+      "initiatorClaim": "Inițiatorii urmăresc să acorde apicultorilor un sprijin financiar direct pentru acoperirea costurilor cu hrana albinelor în perioadele critice și de iernare, cheltuieli care nu sunt decontate prin Planul Național Strategic.",
+      "realityCheck": "Legea acordă 12 euro/familie de albine/an în perioada 2026-2028 (protejați de poprire), însă plafonează bugetul la 93,5 milioane lei, fără a preciza dacă suma este anuală sau pe 3 ani și fără o regulă de reducere pro-rata (în condițiile în care cele 2,38 milioane de familii de albine din România ar necesita ~145 milioane lei/an). În plus, îngheață eligibilitatea la deținerea stupilor la 31 decembrie 2025, excluzând apicultorii noi intrați în 2026-2028.",
+      "affectedGroups": [
+        "Agricultură & Mediu",
+        "IMM & Antreprenori"
+      ],
+      "keyFindings": [
+        "Art. 8 și Art. 9 vs. Expunerea de motive: La 2.379.037 familii de albine existente în România, subvenția de 12 euro/familie (la cursul fixat de 5,09 lei/euro) cere 145,3 milioane lei pe un singur an, dar plafonul din lege este de doar 93,5 milioane lei și nu prevede reducerea proporțională (pro-rata) a sumei per stup.",
+        "Art. 5 lit. b): Condiționează acordarea ajutorului pe toată perioada 2026-2028 de deținerea familiilor de albine la data fixă de 31 decembrie 2025, blocând accesul apicultorilor care își înființează stupine în 2026 sau 2027.",
+        "Art. 4 lit. d) și Art. 2: Legea definește întreprinderea printr-un regulament european abrogat din 2022 (Regulamentul UE nr. 702/2014, înlocuit de Regulamentul UE 2022/2472) și invocă inexact „Orientările UE pentru perioada 2026-2028” (Orientările reale 2022/C 485/01 vizează perioada 2023-2027).",
+        "Art. 6: Instituie o protecție utilă pentru fermieri, interzicând executarea silită prin poprire a sumelor primite ca ajutor de stat.",
+        "Art. 13 alin. (2): Prevede că legea „se completează și/sau se modifică în mod corespunzător” dacă decizia Comisiei Europene conține prevederi diferite, formulare vagă ce încalcă principiul ierarhiei actelor normative."
+      ],
+      "blindSpotsCaught": "Contradicție internă între Art. 4 lit. e) (care definește schema ca act aplicabil „fără a fi necesare măsuri de punere în aplicare”) și Art. 14 (care obligă Guvernul să adopte norme metodologice prin HG în 30 de zile), plus condiția vagă din Art. 7 privind acordarea ajutorului „pentru producția autohtonă”, fără niciun criteriu de verificare a producției în Art. 5.",
+      "constitutionalityNote": "Ridică vulnerabilități pe Art. 1 alin. (5) din Constituție (claritatea și previzibilitatea legii) din cauza omisiunii mecanismului de calcul la depășirea plafonului bugetar (Art. 8), a trimiterii la acte UE abrogate și a clauzei din Art. 13 alin. (2) conform căreia o lege organică/ordinară a Parlamentului s-ar modifica de la sine în funcție de decizia Comisiei Europene. De asemenea, angajează cheltuieli bugetare (Art. 10) fără indicarea sursei de finanțare conform Art. 138 alin. (5).",
+      "euLawNote": "Măsura intră sub incidența Art. 107 și 108 TFUE (ajutor de stat notificat Comisiei Europene conform Art. 2 și Art. 13), însă trimiterile tehnice sunt greșite: Regulamentul (UE) nr. 702/2014 invocat la Art. 4 lit. d) este expirat (înlocuit cu Regulamentul (UE) 2022/2472), iar Orientările UE agricole sunt pentru 2023-2027. Nu ridică probleme pe Directiva (UE) 2018/958 sau pe Directiva (UE) 2015/1535 (TRIS).",
+      "senatForm": {
+        "articleRef": "Art. 4 lit. d), Art. 5 lit. b) și Art. 8",
+        "proposalContent": "La art. 4 lit. d), trimiterea la Reg. (UE) 702/2014 se înlocuiește cu Reg. (UE) 2022/2472. La art. 5 lit. b), data „31 decembrie 2025” se înlocuiește cu „31 decembrie a anului anterior depunerii cererii”. La art. 8 se precizează că plafonul de 93.501,94 mii lei este anual, iar la depășirea lui cuantumul de 12 euro/familie se reduce proporțional (pro-rata).",
+        "argumentation": "Regulamentul (UE) 702/2014 este abrogat. Înghețarea eligibilității la 31.12.2025 pe toți cei 3 ani (2026-2028) exclude apicultorii noi. În plus, la 2,38 mil. familii de albine existente în România, 12 euro/familie necesită ~145 mil. lei/an, depășind plafonul de 93,5 mil. lei; fără regulă pro-rata, APIA nu va ști cum să împartă legal fondurile.",
+        "otherComments": "La art. 2 trebuie corectat titlul Orientărilor UE (2022/C 485/01 vizează perioada 2023-2027, nu 2026-2028). De asemenea, art. 13 alin. (2) trebuie reformulat, deoarece o lege adoptată de Parlament nu se poate modifica de la sine prin decizia Comisiei Europene fără un act normativ intern de modificare (art. 1 alin. 5 din Constituție)."
+      }
     },
     "claude": {
       "model": "claude",
@@ -62,8 +89,37 @@
     },
     "codex": {
       "model": "codex",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 118139,
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Ajutor pentru apicultori, cu buget și reguli neclare",
+      "verdictShort": "Sprijinul poate fi util și nu introduce taxe sau sancțiuni noi. Riscul mediu provine din finanțarea ambiguă, trimiterile europene depășite și procedura neclară de modificare a schemei.",
+      "initiatorClaim": "Inițiatorii urmăresc să ajute apicultorii să acopere hrana albinelor și să mențină stupinele afectate de condițiile climatice și dificultățile pieței. Expunerea promite și modernizare, formare profesională și competitivitate.",
+      "realityCheck": "Articolele instituie o plată anuală de 12 euro pe familie de albine pentru 2026–2028, condiționată de autorizarea Comisiei Europene, fără obligații explicite privind cheltuirea banilor pentru hrană, echipamente sau formare. Plafonul de 93.501,94 mii lei nu este identificat clar ca anual sau total și lipsește regula aplicabilă când cererile eligibile depășesc bugetul. Eligibilitatea raportată la 31 decembrie 2025 exclude apicultorii care au început ulterior activitatea, iar mecanismul anual de stabilire a efectivului plătit rămâne insuficient precizat.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Agricultură & Mediu",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 8–10: la cursul înscris în proiect, sprijinul este de 61,08 lei/familie/an. Pentru toate cele 2.379.037 de familii menționate în expunere ar fi necesari aproximativ 145,31 milioane lei anual, peste plafonul de 93,50 milioane lei. Comparația este orientativă: expunerea nu dovedește câte familii îndeplinesc efectiv condițiile legii.",
+        "Art. 8: nu se precizează dacă plafonul acoperă fiecare an sau întreaga schemă și nici dacă depășirea determină reducerea proporțională a plăților. Normele metodologice ar trebui să execute o opțiune stabilită prin lege, nu să aleagă discreționar între beneficiari.",
+        "Art. 2 și art. 4 lit. d): orientările europene nu sunt identificate printr-o referință oficială precisă, iar Regulamentul nr. 702/2014 este un reper depășit, înlocuit de Regulamentul (UE) 2022/2472. Această eroare de trimitere nu desființează singură schema, dar cere corectare.",
+        "Art. 11: permite cumularea cu alte ajutoare fără să formuleze limitele europene aplicabile. Autorizarea schemei trebuie să clarifice cumulul, eventualele costuri eligibile și prevenirea supracompensării; articolul nu poate înlătura aceste cerințe.",
+        "Art. 13 alin. (2): prevede modificarea schemei după decizia Comisiei, fără să identifice autoritatea și actul normativ necesar. O hotărâre a Guvernului nu poate modifica dispozițiile legii.",
+        "Art. 6: protecția privește executarea prin poprire a sumelor acordate. Nu instituie o imunitate generală a beneficiarului față de executare și nu șterge datoriile acestuia.",
+        "Art. 5, 12 și 14: solicitarea la APIA și verificarea înregistrărilor generează sarcini administrative obișnuite unui ajutor public. Textul nu stabilește însă termenele cererilor, calendarul plăților și mecanismul controalelor și recuperării; acestea trebuie corelate cu normele generale și cu autorizarea europeană."
+      ],
+      "blindSpotsCaught": "Stadiul declarat, Lege nr. 101/2026, schimbă utilitatea procedurală a formularului: amendarea acestui dosar în comisie nu mai este disponibilă după încheierea procedurii legislative; este necesară o nouă inițiativă de modificare. În plus, expunerea promite predictibilitate de cel puțin cinci ani, în timp ce art. 7 acordă sprijin pentru trei ani. Analiza privește exclusiv forma Senatului reprodusă, nu presupusa formă finală promulgată.",
+      "constitutionalityNote": "Art. 1 alin. (5) este relevant pentru ambiguitatea plafonului, calculul anual al plăților și modificarea schemei. Art. 23 alin. (12) privește legalitatea pedepselor și nu este incident direct: proiectul nu instituie pedepse. Art. 13 alin. (2) ridică o problemă privind rolul Parlamentului, potrivit art. 61, și limitele hotărârilor Guvernului, potrivit art. 108. Pentru art. 138 alin. (5), indicarea bugetului MADR trebuie evaluată împreună cu fundamentarea financiară și resursele disponibile; simplul cost al schemei nu dovedește neconstituționalitatea. Respectarea solicitării obligatorii a informării Guvernului, potrivit art. 111 alin. (1), nu poate fi verificată din materialele furnizate. Data istorică de eligibilitate necesită o justificare obiectivă în raport cu art. 16, fără a constitui automat discriminare.",
+      "euLawNote": "Plata selectivă din resurse publice către apicultori intră în analiza art. 107–108 TFUE. Art. 2 introduce corect condiția autorizării prealabile, dar aceasta nu garantează că schema va fi autorizată: sprijinul de funcționare, justificarea sa și cumulul trebuie încadrate într-un temei european admisibil. Susținerea producției realizate în România nu echivalează singură cu o interdicție a importurilor. Directiva (UE) 2018/958 privește proporționalitatea reglementării accesului la profesii sau exercitării acestora; proiectul nu introduce asemenea restricții. Nu rezultă o obligație TRIS potrivit Directivei (UE) 2015/1535: textul nu stabilește specificații tehnice pentru produse ori reguli privind serviciile societății informaționale și nu reglementează AI. Consultarea surselor oficiale externe nu a fost disponibilă în această sesiune; existența unei autorizări europene și situația actualizată a dosarului nu sunt confirmate independent.",
+      "senatForm": {
+        "articleRef": "Art. 13 alin. (2)",
+        "proposalContent": "Dacă autorizarea Comisiei Europene impune modificarea dispozițiilor prezentei legi, Guvernul inițiază modificările legislative necesare. În această situație, ajutoarele se acordă numai după intrarea în vigoare a modificărilor și în condițiile autorizate de Comisie. Normele metodologice nu pot modifica prezenta lege.",
+        "argumentation": "Decizia Comisiei condiționează compatibilitatea ajutorului, dar nu înlocuiește procedura internă de modificare a legii. Textul actual nu stabilește cine și prin ce act modifică schema. Propunerea clarifică procedura și respectă rolul Parlamentului și limitele hotărârilor Guvernului, potrivit art. 1 alin. (5), art. 61 și art. 108 din Constituție.",
+        "otherComments": "La stadiul declarat, Lege nr. 101/2026, propunerea nu mai poate fi preluată ca amendament în dosarul încheiat; poate fundamenta o nouă inițiativă legislativă. Trebuie clarificate separat plafonul anual, regula depășirii bugetului și limitele cumulului. Analiza privește forma Senatului furnizată."
+      }
     }
   }
 }

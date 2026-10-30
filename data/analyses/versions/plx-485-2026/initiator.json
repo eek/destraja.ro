@@ -2,9 +2,9 @@
   "billId": "PL-x 485/2026",
   "slug": "plx-485-2026",
   "version": "initiator",
-  "updatedAt": "2026-10-30T08:31:29.390Z",
+  "updatedAt": "2026-10-30T09:31:04.554Z",
   "consensus": {
-    "riskScore": 2,
+    "riskScore": 1.7,
     "riskLevel": "green",
     "plainTitle": "Legea veche despre trimiterea întrebărilor la Curtea UE în procesele penale este actualizată după Tratatul de la Lisabona și după o decizie CCR",
     "summaryTlDr": "Este o lege tehnică, de curățenie legislativă, care aduce un câștig real pentru dreptul la apărare: plângerea împotriva suspendării procesului se va judeca de acum cu citarea părților. Riscul este minim. Rămân însă câteva scăpări de redactare (alin. 1 și alin. 8) care merită corectate, plus întârzierea de aproape doi ani față de termenul impus de CCR.",
@@ -23,8 +23,31 @@
   "council": {
     "agy": {
       "model": "agy",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 52751,
+      "riskScore": 1,
+      "riskLevel": "green",
+      "plainTitle": "Actualizarea regulilor de sesizare a Curții de Justiție a UE în procesele penale și citarea obligatorie a părților",
+      "verdictShort": "Un proiect legislativ tehnic, pozitiv și necesar, care pune procedura penală în acord cu Decizia CCR nr. 219/2024 și cu Tratatul de la Lisabona. Legea garantează dreptul la apărare prin citarea părților la judecarea contestației privind suspendarea procesului penal.",
+      "initiatorClaim": "Guvernul urmărește punerea în acord a Legii nr. 340/2009 cu Decizia CCR nr. 219/2024 (eliminarea judecării fără citarea părților), actualizarea terminologiei conform Tratatului de la Lisabona și corelarea căilor de atac cu actualul Cod de procedură penală.",
+      "realityCheck": "Textul face exact ceea ce promite în Expunerea de Motive: abrogă declarația arhaică din fostul Pilon III al UE, înlocuiește vechiul „recurs fără citarea părților” cu „contestația” din noul Cod de procedură penală (care asigură citarea părților și contradictorialitatea) și aliniază textul la art. 267 TFUE. Nu introduce taxe, sancțiuni sau restricții ascunse.",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Art. I pct. 3 (Art. 2 alin. 4 și 5): Înlocuiește vechiul recurs soluționat în camera de consiliu „fără citarea părților” (declarat neconstituțional prin Decizia CCR nr. 219/2024) cu calea de atac a contestației, completată cu prevederile Codului de procedură penală (art. 425^1 CPP), ceea ce garantează citarea părților și dreptul la apărare.",
+        "Art. I pct. 2: Abrogă Art. 1 din Legea nr. 340/2009, eliminând referința perimată la declarația României în baza fostului art. 35 alin. (2) TUE, întrucât după Tratatul de la Lisabona toate instanțele naționale au competența de drept comun de a sesiza direct CJUE.",
+        "Art. I pct. 3 (Art. 2 alin. 1-3): Clarifică distincția dintre suspendarea facultativă a judecății (în fața instanțelor ale căror hotărâri pot fi atacate pe căi ordinare) și suspendarea obligatorie (în fața instanțelor de ultim grad ordinar)."
+      ],
+      "blindSpotsCaught": "Art. 2 alin. (4) prevede generic că încheierea privind suspendarea judecății poate fi atacată cu contestație, fără a distinge între prima instanță (suspendare facultativă) și instanța de ultim grad ordinar (unde suspendarea este obligatorie conform alin. 3 și unde, în cazul Curților de Apel în apel sau al ÎCCJ, poate lipsi o instanță ierarhic superioară în grad pentru soluționarea contestației conform art. 425^1 alin. 5 CPP).",
+      "constitutionalityNote": "Proiectul execută obligația constituțională prevăzută de art. 147 alin. (1) și (4) din Constituție, punând legea în acord cu Decizia CCR nr. 219/2024 și restabilind garanțiile dreptului la un proces echitabil (art. 21 alin. 3) și ale dreptului la apărare (art. 24).",
+      "euLawNote": "Pe deplin conform cu art. 267 din Tratatul privind Funcționarea Uniunii Europene (TFUE) și cu jurisprudența CJUE privind autonomia instanței naționale de a adresa întrebări preliminare. Nu intră sub incidența Directivei (UE) 2018/958 sau a procedurii TRIS (Directiva 2015/1535).",
+      "senatForm": {
+        "articleRef": "Art. I pct. 3 - Art. 2 alin. (4)",
+        "proposalContent": "La Art. 2, alin. (4) se modifică și va avea următorul cuprins: „(4) În cazurile prevăzute la alin. (1), încheierea prin care instanța se pronunță asupra suspendării judecății poate fi atacată separat cu contestație la instanța ierarhic superioară, în termen de 3 zile de la pronunțare pentru cei prezenți și de la comunicare pentru cei lipsă. Contestația nu suspendă executarea.”",
+        "argumentation": "Pentru instanțele de ultim grad prevăzute la alin. (2), suspendarea este deja obligatorie conform alin. (3) și adesea nu există o instanță ierarhic superioară în grad (ex. Curtea de Apel în apel sau ÎCCJ). Totodată, precizarea caracterului nesuspensiv evită blocarea dosarului prin simpla exercitare a contestației împotriva respingerii suspendării facultative.",
+        "otherComments": "Proiectul este binevenit și necesar pentru punerea în acord a Legii nr. 340/2009 cu Decizia CCR nr. 219/2024 și cu Tratatul de la Lisabona. De asemenea, la Art. II din proiect se recomandă corectarea erorilor materiale din titlul legii dacă acestea persistă în forma oficială („unei de în baza... Tratatul privind Uniunea Eur”)."
+      }
     },
     "claude": {
       "model": "claude",
@@ -59,8 +82,31 @@
     },
     "codex": {
       "model": "codex",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 92384,
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Reguli actualizate pentru întrebările trimise CJUE în procesele penale",
+      "verdictShort": "Proiectul este predominant tehnic și util: actualizează procedura penală și întărește garanțiile participanților la proces. Textul furnizat nu introduce taxe, monopoluri sau sancțiuni, dar necesită câteva clarificări de redactare și interpretare.",
+      "initiatorClaim": "Guvernul urmărește punerea legii în acord cu Decizia CCR nr. 219/2024 și cu dreptul UE aplicabil după Tratatul de la Lisabona. Propune actualizarea sesizării CJUE și înlocuirea recursului privind suspendarea cu o contestație judecată potrivit Codului de procedură penală.",
+      "realityCheck": "Abrogarea declarației de acceptare a jurisdicției CJUE elimină un mecanism depășit; posibilitatea instanțelor de a sesiza Curtea rezultă deja din dreptul UE. Noul art. 2 păstrează distincția dintre suspendarea facultativă și cea obligatorie, permite continuarea judecății asupra altor aspecte și interzice încheierea dezbaterilor înaintea răspunsului CJUE. Analiza privește documentele furnizate: indicativul, stadiul parlamentar și concordanța cu documentele oficiale nu au putut fi verificate independent.",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Art. I pct. 3, noul art. 2 alin. (4)-(5): contestația și completarea cu normele Codului de procedură penală înlătură soluția specială a judecării fără citarea părților, criticată prin decizia CCR invocată.",
+        "Noul art. 2 alin. (1): condiția necesității răspunsului apare la finalul lit. b), ceea ce poate sugera gramatical că privește numai actele UE. Trebuie formulată explicit pentru ambele categorii de întrebări, inclusiv interpretarea tratatelor.",
+        "Noul art. 2 alin. (3), (6)-(7): sesizarea poate prelungi procesul, dar continuarea judecății asupra celorlalte aspecte limitează blocajul. Nu sunt prevăzute obligații administrative sau costuri directe noi pentru cetățeni și IMM-uri; eventualul impact asupra resurselor instanțelor nu este cuantificat în extras."
+      ],
+      "blindSpotsCaught": "Formula «poate solicita» nu exprimă toate obligațiile rezultate din dreptul UE: potrivit jurisprudenței Foto-Frost, nici instanțele inferioare nu pot declara singure nevalide acte UE, fiind necesară sesizarea CJUE dacă soluția presupune constatarea nevalidității. Eliminarea dispoziției naționale despre procedura preliminară de urgență nu elimină această procedură europeană. Pasajul deteriorat din art. II trebuie confruntat cu originalul; o eroare de extragere nu dovedește un defect al proiectului.",
+      "constitutionalityNote": "Direcția proiectului este compatibilă cu accesul la justiție, dreptul la apărare și obligațiile rezultate din art. 147 și 148 din Constituție. Art. 1 alin. (5) justifică precizarea condiției necesității la art. 2 alin. (1). Nu rezultă o problemă directă de legalitate a pedepsei în sensul art. 23 alin. (12), deoarece proiectul nu definește infracțiuni sau pedepse. Suspendarea procesului trebuie aplicată cu respectarea termenelor și garanțiilor privind măsurile preventive.",
+      "euLawNote": "Proiectul urmează mecanismul art. 267 TFUE. Obligația instanței de ultim grad se interpretează conform jurisprudenței CILFIT, inclusiv excepțiile recunoscute de CJUE; criteriul căilor de atac trebuie înțeles în sensul dreptului UE. Directiva (UE) 2018/958 nu este incidentă: proiectul nu restrânge accesul la profesii reglementate sau exercitarea acestora. Nici notificarea TRIS potrivit Directivei (UE) 2015/1535 nu este incidentă: nu sunt introduse reglementări tehnice pentru produse sau servicii ale societății informaționale. Nu se identifică restrângeri ale concurenței.",
+      "senatForm": {
+        "articleRef": "Art. I pct. 3 – art. 2 alin. (1)",
+        "proposalContent": "(1) Instanța de judecată, din oficiu sau la cerere, poate solicita Curții de Justiție a Uniunii Europene să se pronunțe cu titlu preliminar asupra interpretării tratatelor ori asupra validității și interpretării actelor instituțiilor, organelor, oficiilor sau agențiilor Uniunii, dacă răspunsul este necesar pentru pronunțarea hotărârii în cauza penală.",
+        "argumentation": "Condiția necesității răspunsului trebuie să privească atât interpretarea tratatelor, cât și validitatea și interpretarea actelor UE. În textul propus, plasarea condiției la lit. b) permite o lectură restrictivă. Reformularea clarifică norma în acord cu art. 267 TFUE și art. 1 alin. (5) din Constituție.",
+        "otherComments": "Termenul indicat, 01.09.2026, este depășit la data analizei, 30.10.2026. Destinatarul și posibilitatea preluării propunerii trebuie verificate după stadiul parlamentar actual; dacă proiectul este la Senat, este relevantă comisia senatorială sesizată în fond."
+      }
     }
   }
 }

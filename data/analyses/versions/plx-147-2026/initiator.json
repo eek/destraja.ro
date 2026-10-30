@@ -2,9 +2,9 @@
   "billId": "PL-x 147/2026",
   "slug": "plx-147-2026",
   "version": "initiator",
-  "updatedAt": "2026-10-30T08:13:22.889Z",
+  "updatedAt": "2026-10-30T09:51:48.652Z",
   "consensus": {
-    "riskScore": 6,
+    "riskScore": 6.7,
     "riskLevel": "yellow",
     "plainTitle": "Prima zi de concediu medical nu se mai plătește până la finalul lui 2027, iar casele de sănătate pot verifica concediile medicale la cererea angajatorului",
     "summaryTlDr": "Este o ordonanță „omnibus” care amestecă reguli utile pentru medici cu o tăiere temporară a indemnizației pentru toți asigurații. Ziua neplătită se aplică fără excepții clare pentru maternitate, copii bolnavi sau cancer, iar asiguratul poate pierde indemnizația pentru greșeala medicului.",
@@ -12,9 +12,9 @@
     "realityCheck": "Art. II introduce, între 1.02.2026 și 31.12.2027, o zi de carență: angajatorul plătește zilele 2–6, FNUASS de la ziua 7, iar indemnizațiile suportate integral de FNUASS se plătesc abia din ziua 2. Singura excepție expresă este izolarea. Art. 51 alin. (2⁵) taie indemnizația asiguratului dacă certificatul a fost eliberat nelegal, chiar dacă vina este a medicului, iar procedura și căile de contestare sunt lăsate integral pe seama unei HG. La capitolul pozitiv, Art. III permite două contracte cu CAS în limita a 1,5 norme și separă programul cabinetului de cel al medicului în ambulatoriul integrat.",
     "affectedGroups": [
       "Angajați & HR",
-      "Sănătate & Educație",
+      "Contabili & Fiscalitate",
       "IMM & Antreprenori",
-      "Contabili & Fiscalitate"
+      "Sănătate & Educație"
     ],
     "senatForm": {
       "articleRef": "Art. II alin. (1) lit. B b) din OUG 91/2025",
@@ -26,8 +26,36 @@
   "council": {
     "agy": {
       "model": "agy",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 78822,
+      "riskScore": 8,
+      "riskLevel": "red",
+      "plainTitle": "Tăierea primei zile plătite de concediu medical și controlul certificatelor la sesizarea angajatorului (OUG 91/2025)",
+      "verdictShort": "Sub paravanul combaterii concediilor medicale fictive și al flexibilizării ambulatoriilor, legea instituie neplata primei zile de concediu medical în perioada februarie 2026 – decembrie 2027, mutând totodată povara celor 5 zile plătite de angajator în intervalul zilelor 2–6. Deși debirocratizarea programului din ambulatorii este utilă, mecanismul financiar și cel de control penalizează direct angajații de bună-credință și firmele.",
+      "initiatorClaim": "Guvernul susține că vrea să stopeze concediile medicale abuzive prin controale declanșate inclusiv la sesizarea angajatorilor și să asigure decontarea fără sincope din FNUASS, flexibilizând totodată munca medicilor în ambulatoriul spitalelor.",
+      "realityCheck": "În realitate, Art. II introduce o zi de carență neplătită: prima zi de concediu medical se taie de la plată, dar angajatorul nu economisește nimic, fiind obligat să suporte tot 5 zile (din ziua a 2-a până în a 6-a inclusiv), în timp ce FNUASS plătește abia din ziua a 7-a. Mai mult, diminuarea cu o zi se aplică și indemnizațiilor suportate integral din FNUASS (care încep abia din a 2-a zi), iar angajatul își poate pierde toată indemnizația dacă medicul a greșit completarea certificatului.",
+      "affectedGroups": [
+        "Angajați & HR",
+        "Contabili & Fiscalitate",
+        "IMM & Antreprenori",
+        "Sănătate & Educație",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. II alin. (1): Între 1 februarie 2026 și 31 decembrie 2027, toate indemnizațiile de concediu medical (cu singura excepție expresă a izolării pe Legea 136/2020 la lit. A) se diminuează cu o zi; angajatorul plătește zilele 2–6 (tot 5 zile), FNUASS plătește din ziua a 7-a, iar pentru concediile decontate integral din FNUASS plata începe abia din a 2-a zi.",
+        "Art. I pct. 1 (art. 51 alin. (2²) și (2⁵) din OUG 158/2005): Dacă în urma controlului CAS (care vizează inclusiv „corectitudinea completării certificatelor”) se constată eliberarea cu nerespectarea prevederilor legale, asiguratul pierde automat indemnizația, fără a se distinge între frauda pacientului și eroarea birocratică a medicului.",
+        "Art. III alin. (1): Medicii din spitalele publice sunt obligați să lucreze în ambulatoriul integrat în cadrul normei lunare după graficul făcut de manager la propunerea șefului de secție, însă șefii de secție își acordă prin lege o imunitate expresă („cu excepția șefilor de secție”) de la această obligație.",
+        "Art. III alin. (2)-(4) (aspect pozitiv): Se flexibilizează funcționarea ambulatoriilor prin raportarea contractului CAS la programul cabinetului (nu al medicului individual) și permiterea a două contracte CAS în limita unei norme și jumătate."
+      ],
+      "blindSpotsCaught": "În Expunerea de Motive (Secțiunea 2.3 – „Schimbări preconizate”), Guvernul a omis complet să menționeze și să justifice măsura de la Art. II privind tăierea primei zile de concediu medical! În plus, formularea „Pentru certificatele de concediu medical eliberate... indemnizațiile se calculează și se plătesc prin diminuarea cu o zi” nu distinge în legea primară între certificatul inițial și certificatele „în continuare” pentru același episod de boală, lăsând stabilirea regulii prin norme secundare (Art. II alin. 3) și generând haos în softurile de salarizare.",
+      "constitutionalityNote": "Vulnerabilități majore față de Art. 115 alin. (6) și Art. 47 alin. (2) din Constituție: restrângerea prin OUG a unor drepturi fundamentale de asigurări sociale contributive (inclusiv la concediile suportate integral din FNUASS, unde intră maternitatea, riscul maternal, îngrijirea copilului bolnav sau a pacientului oncologic) este neconstituțională. Totodată, Art. 51 alin. (2⁵) încalcă principiul proporționalității (Art. 53) și al previzibilității legii (Art. 1 alin. 5), sancționând patrimonial asiguratul de bună-credință pentru culpa administrativă a medicului curant și delegând procedura de aplicare unei viitoare Hotărâri de Guvern.",
+      "euLawNote": "Sub incidența Directivei 92/85/CEE (protecția lucrătoarelor gravide și lăuze) și a principiilor Pilonului European al Drepturilor Sociale, diminuarea cu o zi a indemnizațiilor suportate integral din FNUASS (Art. II alin. 1 lit. B pct. b), fără exceptarea expresă a concediului de maternitate și de risc maternal în textul legii primare, riscă să încalce garanțiile minime europene privind menținerea unei indemnizații adecvate pe toată durata concediului de maternitate.",
+      "senatForm": {
+        "articleRef": "Art. I pct. 1 (art. 51 alin. 2^5) și Art. II",
+        "proposalContent": "Se elimină Art. II privind diminuarea indemnizației cu o zi. La Art. I pct. 1, art. 51 alin. (2^5) se modifică astfel: „(2^5) Asiguratul pierde indemnizația doar dacă eliberarea nelegală a certificatului îi este imputabilă prin rea-credință, erorile formale ale medicului neputând lipsi asiguratul de bună-credință de indemnizația aferentă.”",
+        "argumentation": "Art. II taie prima zi de indemnizație (2026-2027), inclusiv la concediile suportate integral din FNUASS (maternitate, copil bolnav, oncologie), încălcând art. 47 alin. (2) și art. 115 alin. (6) din Constituție. Totodată, asiguratul de bună-credință nu trebuie să își piardă indemnizația pentru simple erori formale de completare comise de medic.",
+        "otherComments": "Subsecvent, dacă se menține Art. II, trebuie exclusă aplicarea diminuării la certificatele „în continuare”, la afecțiuni cronice/oncologice și la maternitate, iar la Art. III alin. (1) se impune eliminarea privilegiului prin care șefii de secție sunt exceptați de la obligația de a consulta în ambulatoriul integrat al spitalului public."
+      }
     },
     "claude": {
       "model": "claude",
@@ -67,8 +95,38 @@
     },
     "codex": {
       "model": "codex",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 118097,
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Concedii medicale cu o zi neplătită și controale extinse",
+      "verdictShort": "Combaterea concediilor medicale nelegale este justificată, dar forma inițială transferă costuri către asigurați și permite pierderea indemnizației fără garanții suficiente înscrise în lege. Analiza privește textul furnizat; forma promulgată ca Legea nr. 64/2026 nu a putut fi verificată independent.",
+      "initiatorClaim": "Guvernul urmărește controlarea concediilor medicale nelegale, utilizarea eficientă a FNUASS și evitarea blocajelor la plata indemnizațiilor. Totodată, propune flexibilizarea activității medicilor și stimularea serviciilor efectiv acordate în medicina de familie.",
+      "realityCheck": "Art. II introduce temporar o zi neplătită, fără excepții exprese pentru maternitate, risc maternal sau îngrijirea copilului bolnav în textul furnizat; pentru incapacitatea temporară obișnuită, angajatorul păstrează cinci zile în sarcină, iar FNUASS începe plata din ziua a șaptea. Art. I permite controale la solicitarea angajatorului și refuzarea indemnizației pentru certificate eliberate nelegal, fără diferențiere expresă între fraudă și erori neimputabile asiguratului. Art. III–V flexibilizează contractarea în ambulatoriu și redistribuie finanțarea medicinei de familie, menținând pentru 2026 fondul acesteia la nivelul nominal aprobat pentru 2025.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate",
+        "Angajați & HR",
+        "Justiție & Drepturi Civile",
+        "Sănătate & Educație"
+      ],
+      "keyFindings": [
+        "Art. II: diminuarea privește certificatele eliberate între 1 februarie 2026 și 31 decembrie 2027. Textul nu precizează suficient dacă ziua se scade o singură dată pentru un episod continuu sau și pentru certificatele de continuare; această alegere afectează direct venitul asiguratului.",
+        "Art. I pct. 1, art. 51 alin. (2⁵): pierderea indemnizației este legată de eliberarea nelegală a certificatului, fără condiția culpei asiguratului și fără un mecanism expres de remediere a erorilor formale. Textul primar nu detaliază audierea, comunicarea deciziei și contestarea acesteia.",
+        "Art. I și VI: procedura controlului și aplicarea refuzului indemnizației sunt lăsate unei hotărâri a Guvernului, iar verificarea medicală depinde și de un protocol interinstituțional, ambele cu termen de 90 de zile. Trebuie verificată corelarea aplicării noilor consecințe cu existența acestor instrumente.",
+        "Art. II: economia bugetară rezultă inclusiv din neplata unei zile către asigurat, independent de existența vreunei fraude. Angajatorii și contabilii trebuie să adapteze calculul indemnizațiilor; fragmentele furnizate nu permit cuantificarea economiilor sau a costurilor administrative.",
+        "Art. III: posibilitatea a două contracte reprezintă o relaxare a regimului prezentat de inițiator, fără instituirea unui monopol. Limita tranzitorie de o normă și jumătate trebuie corelată cu timpul total de muncă și repausul obligatoriu.",
+        "Art. IV–V: eliminarea garanției anterioare privind valorile punctelor din medicina de familie permite aplicarea repartizării 25% per capita și 75% pe serviciu. Bugetul nominal menținut nu garantează venituri constante fiecărui cabinet; efectele asupra cabinetelor rurale și cu puțini pacienți trebuie evaluate."
+      ],
+      "blindSpotsCaught": "Exceptarea izolării de la plata de către angajator, în art. II lit. A, nu reprezintă o exceptare de la ziua neplătită: lit. B lit. b) pornește plata din FNUASS tot din ziua a doua. În plus, stadiul declarat, Legea nr. 64/2026, înseamnă că termenul de amendamente indicat este depășit; formularul poate fundamenta acum o nouă inițiativă legislativă, după verificarea formei promulgate.",
+      "constitutionalityNote": "Art. 1 alin. (5) este relevant pentru ambiguitatea zilei eliminate, criteriile de neconformitate și garanțiile procedurale ale refuzului indemnizației. Art. 23 alin. (12) privește pedepsele și nu constituie aici temeiul principal, deoarece textul nu instituie pedepse penale. Diminuarea indemnizațiilor impune examinarea art. 47 alin. (2), inclusiv protecția expresă a concediului de maternitate plătit, precum și a art. 34 și 49. Legiuitorul are o marjă de configurare a prestațiilor, deci diminuarea nu dovedește singură neconstituționalitatea. Separat, trebuie verificat dacă preambulul demonstrează situația extraordinară cerută de art. 115 alin. (4) pentru fiecare măsură și dacă efectele asupra drepturilor respectă interdicția din art. 115 alin. (6); simpla aprobare parlamentară nu înlătură un eventual viciu originar al ordonanței.",
+      "euLawNote": "Directiva (UE) 2018/958 trebuie examinată pentru dispozițiile care introduc sau modifică restricții privind exercitarea profesiei medicale, fără a presupune că orice regulă de organizare spitalicească intră automat în domeniul său. Posibilitatea a două contracte este, în principiu, o liberalizare; limitele și condițiile concrete necesită justificare dacă restrâng exercitarea profesiei. Nu rezultă din text o reglementare tehnică sau una destinată specific serviciilor societății informaționale care să declanșeze notificarea TRIS potrivit Directivei (UE) 2015/1535. Controlul documentelor medicale trebuie să respecte art. 5, 6 și 9 GDPR; solicitarea angajatorului nu îi conferă prin ea însăși acces la dosarul medical. Pentru maternitate trebuie verificată respectarea protecției și prestației adecvate prevăzute de Directiva 92/85/CEE, iar cumulul activităților medicilor trebuie corelat cu Directiva 2003/88/CE privind timpul de muncă.",
+      "senatForm": {
+        "articleRef": "Art. I pct. 1 – art. 51 alin. (2⁵)",
+        "proposalContent": "„(2⁵) Refuzul indemnizației se dispune prin decizie motivată, comunicată asiguratului după audiere. Erorile formale se remediază în 10 zile lucrătoare. Asiguratul de bună-credință păstrează indemnizația dacă îndeplinește condițiile medicale și de asigurare. Decizia poate fi contestată la instanța competentă în 30 de zile de la comunicare.”",
+        "argumentation": "Textul inițial permite pierderea indemnizației inclusiv pentru erori ale emitentului neimputabile asiguratului. Propunerea protejează beneficiarul de bună-credință, permite corectarea erorilor și instituie garanții procedurale, păstrând controlul îndeplinirii condițiilor legale.",
+        "otherComments": "În stadiul declarat, Legea nr. 64/2026, propunerea necesită o nouă intervenție legislativă, după verificarea textului promulgat. Separat, art. II trebuie să precizeze aplicarea diminuării o singură dată pe episod continuu și să prevadă protecții pentru maternitate, risc maternal și îngrijirea copilului bolnav."
+      }
     }
   }
 }

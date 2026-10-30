@@ -2,7 +2,7 @@
   "billId": "PL-x 533/2026",
   "slug": "plx-533-2026",
   "version": "senat",
-  "updatedAt": "2026-10-30T08:40:52.696Z",
+  "updatedAt": "2026-10-30T09:43:38.650Z",
   "consensus": {
     "riskScore": 2,
     "riskLevel": "green",
@@ -24,8 +24,32 @@
   "council": {
     "agy": {
       "model": "agy",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 44415,
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Reglare contabilă în bugetul de stat pentru mutarea proiectelor de apărare pe linia europeană SAFE",
+      "verdictShort": "Lege tehnică benignă și necesară, care mută contabil contractele de apărare deja semnate în 2026 pe titlul bugetar dedicat instrumentului european SAFE. Include o interdicție expresă care blochează folosirea dublă a banilor sau mutarea lor în Fondul de rezervă al Guvernului.",
+      "initiatorClaim": "Inițiatorii arată că unele contracte finanțate prin mecanismul european de apărare SAFE au fost angajate în 2026 pe alte linii bugetare înainte de operaționalizarea Titlului 66 dedicat și propun o regulă care să permită mutarea lor contabilă pe titlul corect.",
+      "realityCheck": "Mecanismul funcționează strict ca o reclasificare bugetară între titluri de cheltuieli (dezangajare de pe vechiul titlu și reangajare pe noul titlu prevăzut de art. 68 alin. (1) din Legea bugetului de stat nr. 43/2026). Alineatul (2) este bine redactat și închide portița prin care ordonatorii de credite ar fi putut folosi spațiul bugetar eliberat pentru cheltuieli noi sau cedări către Fondul de rezervă al Guvernului.",
+      "affectedGroups": [
+        "Contabili & Fiscalitate",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 8¹⁰ alin. (1) autorizează ordonatorii principali de credite să dezangajeze angajamentele legale încheiate în 2026 pe alte titluri bugetare și să le reangajeze pe titlul dedicat proiectelor SAFE, conform art. 68 alin. (1) din Legea nr. 43/2026.",
+        "Art. 8¹⁰ alin. (2) instituie o garanție fermă de disciplină bugetară: creditele de angajament eliberate în urma dezangajării sunt înghețate și nu pot fi folosite pentru cheltuieli noi, virări între titluri sau alimentarea Fondului de rezervă bugetară la dispoziția Guvernului.",
+        "Nu creează taxe, obligații birocratice sau restricții pentru cetățeni ori mediul privat, având impact exclusiv asupra evidenței contabile interne a ordonatorilor principali de credite din administrația centrală."
+      ],
+      "blindSpotsCaught": "Deși este o reglementare pur tehnică a execuției bugetare (specifică Ministerului Finanțelor), proiectul a fost asumat de parlamentari pentru a ocoli circuitul de avizare guvernamental și a trecut cu termen de amendamente de o singură zi după adoptarea în Senat (4-5 august 2026). În plus, ultimul paragraf din Expunerea de motive conține o eroare de tip copy-paste, menționând un alt titlu de proiect („propunerea legislativă privind unele măsuri fiscal-bugetare... pe care îl supunem”).",
+      "constitutionalityNote": "Textul respectă exigențele de claritate și previzibilitate din art. 1 alin. (5) din Constituție, prin trimiterea exactă la art. 68 alin. (1) din Legea bugetului de stat nr. 43/2026, și se încadrează în regulile constituționale privind execuția bugetară (art. 137-138), fără a majora deficitul sau cheltuielile aprobate.",
+      "euLawNote": "Măsura facilitează punerea în aplicare contabilă națională a Regulamentului (UE) 2025/1.106 de instituire a Instrumentului „Acțiunea pentru securitatea Europei” (SAFE), asigurând trasabilitatea fondurilor conform regulilor financiare ale UE. Nu restrânge concurența (Directiva 2018/958) și nu necesită notificare TRIS (Directiva 2015/1535).",
+      "senatForm": {
+        "articleRef": "Articol unic - Art. 8^10 din OUG nr. 62/2025",
+        "proposalContent": "La art. 8^10, după alin. (2) se introduce alin. (3): „(3) Operațiunile de dezangajare și reangajare prevăzute la alin. (1) se efectuează exclusiv în limita sumelor aferente contractelor deja încheiate și se comunică Ministerului Finanțelor în termen de 15 zile de la efectuare, în vederea anulării creditelor de angajament disponibilizate.”",
+        "argumentation": "Deși alin. (2) interzice reutilizarea sau virarea creditelor dezangajate, textul nu prevede expres anularea lor contabilă și nici un termen de raportare către Ministerul Finanțelor. Introducerea alin. (3) garantează trasabilitatea mutării angajamentelor pe Titlul 66 (Planul SAFE) și închiderea definitivă a pozițiilor bugetare eliberate.",
+        "otherComments": "Proiectul este o corecție contabilă utilă și conține deja la alin. (2) o frână salutară împotriva deturnării sumelor spre Fondul de rezervă al Guvernului. Semnalăm însă redactarea neglijentă a Expunerii de motive, care în paragraful final copiază din eroare titlul unui alt proiect de lege privind măsuri fiscal-bugetare."
+      }
     },
     "claude": {
       "model": "claude",
@@ -59,8 +83,33 @@
     },
     "codex": {
       "model": "codex",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 105100,
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Cheltuielile SAFE, trecute pe linia bugetară dedicată",
+      "verdictShort": "În evaluarea mea, forma Senatului este o corecție bugetară tehnică, cu risc redus: permite reîncadrarea unor angajamente existente și împiedică reutilizarea creditelor eliberate pentru alte cheltuieli. Destinația reangajării și păstrarea acelorași obligații ar trebui precizate explicit.",
+      "initiatorClaim": "Inițiatorii urmăresc mutarea angajamentelor încheiate anterior pe titlul 66 «Cheltuieli aferente Planului SAFE», pentru evidență și monitorizare unitare. Ei susțin că operațiunea nu schimbă destinația fondurilor și nu majorează cheltuielile aprobate.",
+      "realityCheck": "Art. 8¹⁰ permite dezangajarea și reangajarea creditelor de angajament aferente unor obligații contractate în 2026 la alte titluri; această operațiune nu desființează contractele și nu reprezintă, prin ea însăși, autorizarea plăților. Alin. (2) împiedică folosirea creditelor eliberate pentru cheltuieli noi, virări sau cedări la Fondul de rezervă. Totuși, alin. (1) folosește expresia «noul titlu de cheltuieli», fără să numească direct titlul 66 și fără să precizeze expres păstrarea obiectului și valorii angajamentelor.",
+      "affectedGroups": [
+        "Contabili & Fiscalitate",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 8¹⁰ alin. (1) privește credite de angajament, adică limite pentru asumarea obligațiilor, distincte de creditele bugetare care autorizează plățile. Textul nu instituie taxe, amenzi sau obligații declarative pentru cetățeni și IMM-uri.",
+        "Art. 8¹⁰ alin. (2) introduce o protecție utilă: creditele rezultate din dezangajare nu devin disponibile pentru cheltuieli noi sau pentru alimentarea Fondului de rezervă bugetară.",
+        "Titlul 66 este identificat în expunerea de motive, dar nu este numit în articolul propus. Precizia trimiterii la art. 68 alin. (1) din Legea nr. 43/2026 trebuie verificată prin confruntarea cu textul integral al acesteia.",
+        "Afirmația privind lipsa impactului bugetar este plauzibilă pentru o simplă reîncadrare, dar extrasele nu permit verificarea sumelor, a plafoanelor și a implementării contabile. Efortul administrativ revine în principal instituțiilor publice."
+      ],
+      "blindSpotsCaught": "Dezangajarea bugetară nu trebuie confundată cu încetarea angajamentului legal: contractul poate continua să producă obligații. Relația dintre reangajarea permisă la alin. (1) și interdicțiile alin. (2) merită explicitată pentru aplicare uniformă. Separat, dacă stadiul «Lege 173/2026» este corect, procedura de amendare a acestui proiect în comisie este deja încheiată.",
+      "constitutionalityNote": "Nu rezultă din text o neconstituționalitate evidentă. Art. 1 alin. (5) susține cerința identificării clare a titlului de destinație și a operațiunilor permise, însă evaluarea definitivă necesită și norma la care se face trimitere. Art. 23 alin. (12), referitor la legalitatea pedepselor, nu este incident, deoarece nu se instituie sancțiuni. Trebuie verificată respectarea art. 111 alin. (1) privind solicitarea informării Guvernului dacă inițiativa modifică prevederile bugetului de stat. Art. 138 alin. (5) ar deveni problematic dacă s-ar aproba cheltuieli fără sursă de finanțare; o asemenea situație nu rezultă din extrase. Procedura de urgență nu demonstrează singură un viciu constituțional.",
+      "euLawNote": "Directiva (UE) 2018/958 privește testul de proporționalitate pentru reglementarea profesiilor, nu orice măsură cu efect economic; textul analizat nu intră aparent în domeniul său. Directiva (UE) 2015/1535 privește notificarea anumitor reglementări tehnice pentru produse și servicii ale societății informaționale; simpla reîncadrare bugetară nu declanșează aparent notificarea TRIS. Nu se introduc condiții de acces pe piață, exclusivități sau avantaje pentru furnizori identificați. Reîncadrarea contabilă nu dovedește însă eligibilitatea investițiilor potrivit Regulamentului SAFE și nu înlătură regulile aplicabile achizițiilor.",
+      "senatForm": {
+        "articleRef": "Art. 8¹⁰ alin. (1), teză finală nouă",
+        "proposalContent": "Reangajarea se efectuează exclusiv la titlul 66 «Cheltuieli aferente Planului SAFE», pentru aceleași angajamente legale, fără modificarea obiectului sau valorii acestora și cu respectarea plafoanelor aprobate. Interdicțiile prevăzute la alin. (2) nu împiedică această reîncadrare.",
+        "argumentation": "Precizarea transpune în norma obligatorie destinația indicată în expunerea de motive, limitează operațiunea la obligațiile deja contractate și clarifică relația dintre reangajarea permisă și interdicțiile alin. (2), în sprijinul previzibilității cerute de art. 1 alin. (5) din Constituție.",
+        "otherComments": "Evaluarea privește forma Senatului furnizată. Sursele externe și stadiul nu au putut fi verificate independent. Dacă proiectul a devenit Legea nr. 173/2026, propunerea poate fundamenta o inițiativă de modificare ulterioară, nu un amendament în procedura deja încheiată."
+      }
     }
   }
 }

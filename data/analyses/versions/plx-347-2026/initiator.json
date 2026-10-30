@@ -2,7 +2,7 @@
   "billId": "Pl-x 347/2026",
   "slug": "plx-347-2026",
   "version": "initiator",
-  "updatedAt": "2026-10-30T08:24:22.617Z",
+  "updatedAt": "2026-10-30T09:23:02.213Z",
   "consensus": {
     "riskScore": 2,
     "riskLevel": "green",
@@ -24,8 +24,32 @@
   "council": {
     "agy": {
       "model": "agy",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 44269,
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Recunoașterea mandatului de viceprimar ca vechime în muncă și în specialitatea studiilor",
+      "verdictShort": "Legea este benignă pentru cetățeni și mediul privat, vizând exclusiv recunoașterea vechimii în muncă și în specialitate pentru viceprimari. Totuși, textul conține o eroare tehnică de redactare, obligând primăriile să înregistreze în Revisal un mandat de demnitate publică (care nu este contract individual de muncă).",
+      "initiatorClaim": "Inițiatorii susțin că vor să elimine o discriminare între viceprimari și ceilalți aleși locali executivi (primari, președinți și vicepreședinți de consilii județene), prin recunoașterea mandatului de viceprimar ca vechime în muncă și în specialitatea studiilor.",
+      "realityCheck": "Măsura nu introduce taxe, obligații sau restricții pentru cetățeni ori firme, având doar un impact administrativ intern în primării. Totuși, legea este redactată deficitar: cere înregistrarea mandatului în aplicația Revisal, deși viceprimarii ocupă o funcție de demnitate publică (fără contract de muncă), și ignoră faptul că drepturile privind vechimea aleșilor locali sunt deja reglementate la art. 213 din Codul administrativ.",
+      "affectedGroups": [
+        "Angajați & HR",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Articol unic (art. 152 alin. 9 nou din OUG 57/2019): Recunoaște durata mandatului de viceprimar ca vechime în muncă și în specialitatea studiilor absolvite, similar primarilor și conducerii consiliilor județene.",
+        "Confuzie între mandat și contract de muncă: Articolul impune înregistrarea mandatului în Revisal, deși art. 148 alin. (2) din Codul administrativ prevede expres că viceprimarul deține o funcție de demnitate publică, iar Revisal înregistrează exclusiv salariați cu contract individual de muncă (art. 34 Codul muncii).",
+        "Tehnică legislativă deficitară (Legea nr. 24/2000): Reglementarea este plasată la art. 152 (rolul și alegerea viceprimarului) în loc să fie corelată cu art. 213 din Titlul VI al Codului administrativ, unde sunt deja prevăzute drepturile aleșilor locali privind vechimea."
+      ],
+      "blindSpotsCaught": "Legea introduce în legislația primară denumirea aplicației informatice „(Revisal)” – care a fost deja înlocuită operațional prin sistemul REGES-ONLINE – și creează un blocaj practic pentru compartimentele de resurse umane din primării, deoarece arhitectura registrului salariaților solicită număr și dată de contract individual de muncă, nu hotărâre de consiliu local (HCL) de alegere în funcție.",
+      "constitutionalityNote": "Scopul legii respectă art. 16 (egalitatea în drepturi) și art. 41 (dreptul la muncă) din Constituție. Totuși, contradicția dintre regimul juridic al mandatului de demnitate publică și obligația înscrierii în registrul salariaților, alături de paralelismul cu art. 213 din OUG 57/2019, afectează exigențele de claritate și previzibilitate a normei prevăzute de art. 1 alin. (5) din Constituție.",
+      "euLawNote": "Proiectul vizează exclusiv statutul aleșilor locali din administrația publică internă și nu are incidență asupra pieței unice, concurenței, Directivei (UE) 2018/958 privind testul de proporționalitate sau procedurii de notificare TRIS (Directiva 2015/1535).",
+      "senatForm": {
+        "articleRef": "Articol unic - Art. 152 alin. (9) OUG 57/2019",
+        "proposalContent": "Se elimină sintagma „și se înregistrează în Registrul general de evidență a salariaților (Revisal), conform legii”, textul reformulându-se astfel: „(9) Durata mandatului viceprimarului constituie vechime în muncă și în specialitatea studiilor absolvite, în aceleași condiții ca pentru primari, președinți și vicepreședinți de consilii județene.”",
+        "argumentation": "Viceprimarul exercită o funcție de demnitate publică în baza unui mandat (art. 148 alin. 2 din OUG 57/2019), nu a unui contract individual de muncă (CIM). Conform art. 34 din Codul muncii, în registrul salariaților se înregistrează exclusiv persoanele încadrate cu CIM, astfel încât trimiterea la aplicația Revisal creează un blocaj tehnic pentru primării.",
+        "otherComments": "Atenție la paralelismul legislativ (art. 16 din Legea 24/2000): drepturile aleșilor locali privind vechimea în muncă și în specialitate sunt deja reglementate în Titlul VI, Cap. III (art. 213) din Codul administrativ. De asemenea, aplicația Revisal a fost înlocuită de sistemul REGES-ONLINE, denumirea comercială neavând ce căuta în legea primară."
+      }
     },
     "claude": {
       "model": "claude",
@@ -60,8 +84,34 @@
     },
     "codex": {
       "model": "codex",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 80891,
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Vechimea viceprimarilor: un drept deja prevăzut în Codul administrativ",
+      "verdictShort": "Textul are un risc redus pentru cetățeni și firme, dar justificarea sa omite reglementarea existentă privind vechimea viceprimarilor. Obligația de înregistrare în Revisal introduce o problemă de aplicare care necesită corectare.",
+      "initiatorClaim": "Inițiatorii afirmă că viceprimarii sunt excluși de la recunoașterea mandatului ca vechime în muncă și în specialitatea studiilor. Ei prezintă completarea ca pe eliminarea unei discriminări, cu efecte asupra salarizării și pensiei.",
+      "realityCheck": "Art. 210 din Codul administrativ reglementează deja recunoașterea mandatului viceprimarului ca vechime în muncă și în specialitatea studiilor absolvite, ceea ce contrazice premisa expunerii de motive. Elementul suplimentar este obligația înregistrării în Revisal, insuficient corelată cu REGES-ONLINE și cu natura mandatului de demnitate publică. Textul nu stabilește o majorare salarială, o pensie suplimentară sau o taxă.",
+      "affectedGroups": [
+        "Angajați & HR",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Art. 210 din OUG nr. 57/2019 include deja viceprimarii între titularii mandatelor recunoscute ca vechime în muncă și în specialitatea studiilor absolvite; completarea art. 152 dublează această regulă.",
+        "Noul art. 152 alin. (9) impune înregistrarea mandatului în Revisal fără să precizeze responsabilul, termenele sau mecanismul aplicabil unei funcții de demnitate publică. Mandatul nu constituie, prin el însuși, un contract individual de muncă.",
+        "Referirea la Revisal necesită corelare cu HG nr. 295/2025 privind REGES-ONLINE. Simpla folosire a denumirii vechi nu clarifică dacă și cum trebuie înregistrate aceste mandate.",
+        "Nu apar obligații directe pentru cetățeni sau IMM-uri. Sarcina administrativă revine autorităților locale; eventualele efecte financiare sunt indirecte și nu sunt cuantificate în documentele furnizate.",
+        "Analiza privește forma inițiatorului furnizată. Identitatea dosarului, stadiul «Lege 186/2026» și conținutul legii promulgate nu au putut fi verificate independent; constatările nu trebuie atribuite automat formei finale."
+      ],
+      "blindSpotsCaught": "Detaliul principal este existența art. 210, care include deja viceprimarii: problema practică poate fi dovedirea vechimii, fără să existe lacuna legislativă invocată. Procedural, dacă stadiul «Lege 186/2026» se confirmă, depunerea de amendamente la acest dosar nu mai este disponibilă; formularul poate servi unei petiții pentru o intervenție legislativă ulterioară.",
+      "constitutionalityNote": "Scopul declarat este compatibil cu egalitatea prevăzută de art. 16, dar discriminarea invocată nu este demonstrată în raport cu art. 210. Dublarea normei și mecanismul neclar de înregistrare ridică probleme de coerență și previzibilitate potrivit art. 1 alin. (5), fără să demonstreze singure neconstituționalitatea. Art. 23 alin. (12), privind legalitatea pedepsei, nu este incident: textul nu instituie pedepse. Art. 41 și art. 47 alin. (2) nu produc automat majorări salariale sau de pensie. Caracterul organic indicat este plauzibil prin raportare la art. 73 alin. (3) lit. o), dar respectarea procedurii și a majorității necesare trebuie verificată în dosarul oficial.",
+      "euLawNote": "Textul nu condiționează accesul la o profesie reglementată ori exercitarea acesteia, astfel că nu rezultă obligația unui test de proporționalitate potrivit Directivei (UE) 2018/958. Nu introduce o reglementare tehnică pentru produse sau o regulă privind serviciile societății informaționale, astfel că notificarea TRIS în temeiul Directivei (UE) 2015/1535 nu este indicată. Înregistrarea într-un registru electronic nu declanșează singură această procedură. Nu sunt identificate monopoluri, bariere comerciale sau restricții directe asupra concurenței.",
+      "senatForm": {
+        "articleRef": "Articolul unic — art. 152 alin. (9)",
+        "proposalContent": "Se elimină articolul unic.",
+        "argumentation": "Art. 210 din OUG nr. 57/2019 recunoaște deja mandatul viceprimarului ca vechime în muncă și în specialitatea studiilor absolvite. Completarea dublează norma existentă, iar înregistrarea în Revisal este insuficient corelată cu REGES-ONLINE și cu natura mandatului.",
+        "otherComments": "Propunerea privește forma inițiatorului. Dacă stadiul «Lege 186/2026» se confirmă, dosarul nu mai permite amendamente; este necesară o inițiativă distinctă, raportată la textul promulgat. Termenul indicat, 12.05.2026, este depășit."
+      }
     }
   }
 }

@@ -2,7 +2,7 @@
   "billId": "PL-x 497/2026",
   "slug": "plx-497-2026",
   "version": "senat",
-  "updatedAt": "2026-10-30T08:32:16.389Z",
+  "updatedAt": "2026-10-30T09:31:45.401Z",
   "consensus": {
     "riskScore": 4,
     "riskLevel": "yellow",
@@ -26,8 +26,34 @@
   "council": {
     "agy": {
       "model": "agy",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 68039,
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Recepția parțială a lucrărilor publice din PNRR înainte de finalizarea branșamentelor și a lucrărilor auxiliare",
+      "verdictShort": "O măsură pragmatică pentru deblocarea plăților către constructori și salvarea fondurilor PNRR blocate de racordări întârziate la utilități, dar care ascunde o vulnerabilitate majoră: exclude Inspectoratul de Stat în Construcții (ISC) de la recepția celor 95% din lucrările esențiale.",
+      "initiatorClaim": "Inițiatorul urmărește să evite pierderea banilor din PNRR și blocarea investițiilor publice aproape gata (școli, spitale, clădiri renovate) din cauza întârzierii branșamentelor electrice definitive sau a unor lucrări mărunte de până la 5% din proiect.",
+      "realityCheck": "Legea permite recepția și decontarea „lucrărilor esențiale” (minimum 95% din contract) și amânarea cu până la 120 de zile a recepției „lucrărilor auxiliare” și a branșamentelor definitive, timp în care clădirea poate funcționa pe soluții provizorii. Totuși, Art. 7 alin. (6) lit. a) elimină Inspectoratul de Stat în Construcții de la recepția lucrărilor esențiale, chemându-l doar la final, după ce banii au fost deja decontați.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Proprietari & Imobiliare",
+        "Sănătate & Educație"
+      ],
+      "keyFindings": [
+        "Art. 4 alin. (3) lit. d) și Art. 8: Permite admiterea recepției la terminarea lucrărilor esențiale și decontarea acestora, cu suspendarea recepției pentru lucrări auxiliare nefinalizate de maximum 5%, ce trebuie terminate în cel mult 120 de zile.",
+        "Art. 7 alin. (6) lit. a) și alin. (7): Derogare riscantă prin care reprezentanții Inspectoratului de Stat în Construcții (ISC) nu mai participă la recepția lucrărilor esențiale (95% din obiectiv), ci exclusiv la recepția finală a restului de 5% lucrări auxiliare.",
+        "Art. 4 alin. (3) lit. d) vs. Art. 8 alin. (2) lit. d): Inconsecvență legislativă privind baza de calcul a pragului de 5% — Art. 4 îl raportează la „valoarea contractului”, în timp ce Art. 8 îl raportează la „valoarea investiției” (care este mult mai mare în devizul general).",
+        "Art. 3 lit. d)-e) și Art. 8 alin. (2) lit. e): Permite recepția și punerea în funcțiune a clădirilor publice fără branșament electric definitiv, pe baza unor „soluții tehnice provizorii” (ex. generatoare sau organizare de șantier), dacă s-au demarat procedurile la distribuitor."
+      ],
+      "blindSpotsCaught": "Deși Expunerea de Motive promite un regim special și pentru recepția pe tronsoane a infrastructurii feroviare de interes național, această secțiune ori a fost eliminată, ori se află în partea trunchiată a textului după Art. 8. Mai grav, necorelarea dintre „5% din valoarea contractului” (Art. 4) și „5% din valoarea investiției” (Art. 8) creează o portiță financiară, valoarea totală a investiției incluzând terenuri, studii și dotări, nu doar lucrările de construcții.",
+      "constitutionalityNote": "Sub aspectul Art. 1 alin. (5) din Constituție (claritatea și previzibilitatea legii), contradicția dintre Art. 4 alin. (3) lit. d) („5% din valoarea contractului”) și Art. 8 alin. (2) lit. d) („5% din valoarea investiției”) generează insecuritate juridică pentru comisiile de recepție și auditorii financiari.",
+      "euLawNote": "Proiectul nu încalcă Directiva (UE) 2018/958 și nu intră sub incidența Directivei TRIS 2015/1535. Din perspectiva Regulamentului (UE) 2021/241 (Mecanismul de redresare și reziliență), măsura facilitează îndeplinirea jaloanelor PNRR, însă decontarea fondurilor fără verificarea ISC în etapa recepției lucrărilor esențiale necesită vigilență sporită împotriva fraudei și a recepțiilor formale.",
+      "senatForm": {
+        "articleRef": "Art. 7 alin. (6) lit. a) și Art. 8 alin. (2)",
+        "proposalContent": "La Art. 7 alin. (6) lit. a) și alin. (7), se menține participarea reprezentantului ISC și la recepția lucrărilor esențiale, nu doar la finalizarea celor auxiliare. La Art. 8 alin. (2) lit. d), sintagma „5% din valoarea investiției” se înlocuiește cu „5% din valoarea contractului”, pentru corelare cu Art. 4 alin. (3) lit. d).",
+        "argumentation": "Excluderea ISC de la recepția lucrărilor esențiale (95% din proiect) și chemarea sa doar la finalizarea lucrărilor auxiliare creează riscul decontării din bani publici a unor lucrări neconforme. De asemenea, necorelarea dintre „5% din valoarea contractului” (Art. 4) și „5% din valoarea investiției” (Art. 8) încalcă cerința de previzibilitate a legii.",
+        "otherComments": "Deblocarea recepțiilor blocate de întârzierea branșamentelor electrice sau a unor amenajări secundare este utilă pentru absorbția PNRR și plata constructorilor. Totuși, la Art. 3 lit. e) ar trebui precizat expres că soluțiile tehnice provizorii de alimentare cu energie necesită avizul ISU atunci când clădirea publică este dată în folosință."
+      }
     },
     "claude": {
       "model": "claude",
@@ -65,8 +91,37 @@
     },
     "codex": {
       "model": "codex",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 88876,
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Recepția investițiilor publice înaintea ultimelor lucrări",
+      "verdictShort": "Mecanismul poate debloca investiții aproape terminate și păstrează expres cerințele de siguranță. Riscurile principale sunt excluderea ISC din prima recepție și calcularea neuniformă a plafonului lucrărilor nefinalizate.",
+      "initiatorClaim": "Inițiatorul urmărește deblocarea recepției și decontării investițiilor publice întârziate de lucrări auxiliare sau racordări definitive. Expunerea invocă absorbția fondurilor europene și acceptarea mecanismului în discuțiile cu Comisia Europeană.",
+      "realityCheck": "Art. 7–8 permit admiterea recepției lucrărilor executate, cu suspendarea exclusiv pentru lucrările auxiliare, sub condiții cumulative de conformitate și siguranță. Art. 7 alin. (6) amână participarea ISC până la finalizarea integrală, iar plafonul de 5% are baze diferite în art. 4 și art. 8. Fragmentul nu demonstrează că recepția astfel obținută asigură automat eligibilitatea cheltuielilor sau îndeplinirea jaloanelor PNRR.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Proprietari & Imobiliare",
+        "Sănătate & Educație",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 3 lit. a)–b), art. 5 alin. (2) și art. 7 alin. (4) exclud din categoria lucrărilor auxiliare lucrările necesare siguranței și funcționalității. Procentul mic al restului de executat nu este suficient pentru admiterea recepției.",
+        "Art. 4 alin. (3) lit. d) raportează plafonul de 5% la valoarea contractului, iar art. 8 alin. (2) lit. d), la valoarea investiției. Diferența poate schimba substanțial valoarea lucrărilor acceptate ca nefinalizate.",
+        "Art. 7 alin. (6) lit. a) exclude participarea reprezentanților ISC la recepția lucrărilor esențiale. Aceasta reduce verificarea instituțională în acel moment, fără ca textul să elimine expres competențele generale de control ale ISC.",
+        "Art. 4 și art. 6 cer o notă tehnică și distribuie răspunderea între participanți. Apar costuri de documentare și coordonare pentru beneficiari și firme, dar fragmentul nu introduce taxe noi sau cuantumuri proprii de amenzi.",
+        "Art. 7 alin. (6) lit. b) amână eliberarea adeverinței privind cotele ISC până la finalizarea tuturor lucrărilor; nu acordă o scutire de plată.",
+        "Art. 8 alin. (3) este întrerupt în mijlocul excepției privind prelungirea termenului de 120 de zile. Durata maximă efectivă, consecințele depășirii și caracterul temporar al întregului mecanism nu pot fi stabilite din fragment."
+      ],
+      "blindSpotsCaught": "Expunerea descrie și recepții speciale pentru infrastructura feroviară, dar articolele corespunzătoare nu apar în fragment și nu pot fi evaluate. Totodată, afirmația privind acceptarea de către Comisia Europeană nu dovedește singură modificarea condițiilor obligatorii de finanțare. Branșamentele sunt evidențiate distinct la art. 8 alin. (2) lit. e), însă relația lor valorică cu plafonul de 5% merită precizată expres.",
+      "constitutionalityNote": "Nu rezultă o neconstituționalitate certă din fragment. Art. 1 alin. (5) din Constituție este relevant pentru contradicția dintre bazele plafonului de 5% și pentru precizia derogărilor de la regimul general. Art. 23 alin. (12) privește stabilirea și aplicarea pedepselor: art. 6 alin. (2) doar trimite la răspunderea prevăzută de legislația existentă, fără să creeze aici o infracțiune sau o pedeapsă. Evaluarea procedurii parlamentare și a eventualelor sancțiuni ulterioare necesită documentele complete.",
+      "euLawNote": "Nu se identifică un monopol sau o restricție explicită nouă de acces la o profesie reglementată care să declanșeze, prin ea însăși, testul Directivei (UE) 2018/958. Directiva (UE) 2015/1535 privește și reglementări tehnice pentru produse, nu doar servicii digitale; fragmentul reglementează procedural recepția construcțiilor și nu indică o obligație evidentă de notificare TRIS. Mecanismul poate ajuta lichiditatea constructorilor, inclusiv IMM-uri, dar aplicarea sa trebuie să respecte contractele, concurența și condițiile finanțării europene; recepția națională nu înlocuiește verificarea acestora.",
+      "senatForm": {
+        "articleRef": "Art. 7 alin. (6) lit. a)",
+        "proposalContent": "a) Reprezentanții Inspectoratului de Stat în Construcții participă, ca membri ai comisiei, atât la recepția lucrărilor esențiale, cât și la închiderea suspendării, în cazurile în care participarea lor este obligatorie potrivit regimului general al recepției construcțiilor.",
+        "argumentation": "Recepția lucrărilor esențiale produce efecte înaintea finalizării integrale a investiției. Participarea ISC în cazurile prevăzute de regimul general păstrează verificarea instituțională la momentul relevant și reduce riscul unei încadrări greșite a lucrărilor, fără a elimina facilitatea procedurală.",
+        "otherComments": "Corelați art. 7 alin. (7) și (9) cu participarea ISC și unificați baza pragului de 5%. Dacă stadiul „Lege 141/2026” este corect, propunerea privește o modificare legislativă ulterioară, nu amendarea dosarului încheiat. Textul este incomplet; verificarea externă a surselor oficiale nu a fost posibilă."
+      }
     }
   }
 }

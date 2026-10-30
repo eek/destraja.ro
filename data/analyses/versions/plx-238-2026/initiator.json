@@ -2,9 +2,9 @@
   "billId": "Pl-x 238/2026",
   "slug": "plx-238-2026",
   "version": "initiator",
-  "updatedAt": "2026-10-30T08:17:03.111Z",
+  "updatedAt": "2026-10-30T09:12:36.309Z",
   "consensus": {
-    "riskScore": 2,
+    "riskScore": 2.7,
     "riskLevel": "green",
     "plainTitle": "Amenzile pentru panouri publicitare ilegale se pot plăti pe jumătate în 15 zile, ca la orice altă amendă",
     "summaryTlDr": "Este o lege tehnică și favorabilă cetățenilor: extinde la amenzile pentru publicitate regula obișnuită a plății a jumătate din minim. Riscul real nu vine din fond, ci dintr-o redactare neglijentă, care trimite la un articol aparent greșit și restrânge inutil aplicarea dreptului comun contravențional.",
@@ -25,8 +25,33 @@
   "council": {
     "agy": {
       "model": "agy",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 59199,
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Plata la jumătate a amenzilor pentru panouri și reclame publicitare",
+      "verdictShort": "Intenția legii este pozitivă și în favoarea cetățenilor și a firmelor (garantarea plății a jumătate din minimul amenzii pentru publicitate stradală), însă textul conține erori de tehnică legislativă care trebuie corectate în comisie pentru a nu suprascrie articolul existent.",
+      "initiatorClaim": "Inițiatorul dorește să clarifice expres în Legea nr. 185/2013 că persoanele sancționate contravențional pentru amplasarea mijloacelor de publicitate pot achita jumătate din minimul amenzii prevăzute de lege, conform OG nr. 2/2001.",
+      "realityCheck": "Intenția de a elimina abuzurile unor autorități locale care refuzau plata la jumătate din minim este salutară, deși acest drept se aplică deja automat tuturor contravențiilor încă din 2018 (prin Legea nr. 203/2018). Totuși, modul în care este redactat articolul unic riscă să înlocuiască integral textul actual al art. 50 și face trimitere doar la două articole din OG nr. 2/2001, în loc de întreaga ordonanță.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Proprietari & Imobiliare",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Articolul unic folosește formula contradictorie „Articolul 50 (...) se completează și va avea următorul cuprins”, ceea ce în tehnică legislativă echivalează cu înlocuirea întregului articol existent, nu cu adăugarea unui nou alineat.",
+        "Inițiatorul se raportează la forma inițială a Legii nr. 185/2013 (M.Of. nr. 452/2013), ignorând faptul că legea a fost republicată în M.Of. nr. 154 din 8 martie 2016, cu renumerotarea articolelor din capitolul privind sancțiunile.",
+        "Trimiterea din text este limitată strict la „prevederile art. 4 alin. (1) și art. 28 din OG nr. 2/2001”, ceea ce poate genera interpretarea per a contrario că restul dispozițiilor din OG nr. 2/2001 (precum prescripția sau procedura plângerii contravenționale) nu s-ar mai aplica."
+      ],
+      "blindSpotsCaught": "În Expunerea de motive, inițiatorul afirmă eronat că art. 4 alin. (1) din OG nr. 2/2001 ar prevedea completarea legilor speciale cu dreptul comun; în realitate, art. 4 alin. (1) din OG nr. 2/2001 reglementează termenul de 30 de zile pentru intrarea în vigoare a actelor normative care stabilesc contravenții. În plus, prin Legea nr. 203/2018 a fost deja eliminată din art. 28 alin. (1) al OG nr. 2/2001 condiția ca legea specială să prevadă expres plata a jumătate din minim.",
+      "constitutionalityNote": "Scopul reglementării este constituțional și favorabil destinatarilor normei, dar erorile de redactare (ignorarea republicării actului de bază și confuzia între modificare și completare) contravin normelor de tehnică legislativă din Legea nr. 24/2000 și standardului de claritate și previzibilitate a legii impus de art. 1 alin. (5) din Constituție.",
+      "euLawNote": "Nu ridică probleme de compatibilitate cu dreptul Uniunii Europene. Nu introduce restricții privind accesul la profesii (Directiva 2018/958), nu vizează servicii ale societății informaționale (Directiva TRIS 2015/1535) și reduce povara sancționatorie pentru operatorii economici.",
+      "senatForm": {
+        "articleRef": "Articol unic - raportat la Legea nr. 185/2013",
+        "proposalContent": "La articolul 51 din Legea nr. 185/2013 privind amplasarea și autorizarea mijloacelor de publicitate, republicată în Monitorul Oficial al României, Partea I, nr. 154 din 8 martie 2016, cu modificările și completările ulterioare, alineatul (3) se modifică și va avea următorul cuprins: „(3) Prevederile prezentei legi se completează cu dispozițiile Ordonanței Guvernului nr. 2/2001.”",
+        "argumentation": "Legea 185/2013 a fost republicată în M.Of. 154/2016 (unde contravențiile sunt la art. 49-51). Formula „se completează și va avea următorul cuprins” suprascrie textul existent. De asemenea, trimiterea exclusivă la art. 4 alin. (1) și art. 28 din OG 2/2001 riscă să excludă per a contrario restul ordonanței (prescripția, plângerea contravențională).",
+        "otherComments": "În Expunerea de motive, art. 4 alin. (1) din OG 2/2001 este citat eronat drept temei al completării cu dreptul comun (acesta reglementează de fapt intrarea în vigoare în 30 de zile). Totodată, prin Legea 203/2018, plata a jumătate din minim (art. 28 din OG 2/2001) este deja aplicabilă de drept tuturor contravențiilor."
+      }
     },
     "claude": {
       "model": "claude",
@@ -61,8 +86,35 @@
     },
     "codex": {
       "model": "codex",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 106659,
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Plata redusă a amenzilor pentru publicitate",
+      "verdictShort": "Măsura propusă este favorabilă contravenienților și are un risc redus. Textul are însă deficiențe de redactare, iar justificarea confundă conținutul unui articol esențial din dreptul contravențional.",
+      "initiatorClaim": "Inițiatorul urmărește să clarifice posibilitatea achitării a jumătate din minimul amenzii pentru încălcarea regulilor privind mijloacele de publicitate. Susține că astfel vor scădea litigiile și va crește colectarea, fără pierderi bugetare.",
+      "realityCheck": "Textul introduce expres trimiterea la mecanismul plății reduse, fără să schimbe limitele amenzilor sau obligațiile privind autorizarea publicității. Înlocuirea întregului art. 50 cu o trimitere limitată la două articole necesită verificarea corelării cu restul regimului contravențional. Analiza privește forma inițiatorului furnizată: nu am putut verifica în surse oficiale redactarea anterioară a art. 50 sau forma promulgată indicată drept Legea nr. 152/2026.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Proprietari & Imobiliare",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Expunerea de motive atribuie greșit art. 4 alin. (1) din OG nr. 2/2001 o regulă generală de completare a legislației speciale. Acesta reglementează intrarea în vigoare a dispozițiilor care stabilesc și sancționează contravenții, în principiu după 30 de zile de la publicare.",
+        "Art. 28 din OG nr. 2/2001 permite, în regimul general, plata în 15 zile de la înmânarea sau comunicarea procesului-verbal a jumătate din minimul amenzii legale. Reducerea se raportează la minimul prevăzut de lege, nu la cuantumul amenzii aplicate.",
+        "Formula «se completează și va avea următorul cuprins» înlocuiește efectiv întregul art. 50. Operațiunea trebuie descrisă ca modificare, iar trimiterea la dreptul comun ar trebui formulată integral pentru a evita interpretări restrictive.",
+        "Plata redusă nu autorizează amplasarea unui panou și nu înlătură automat măsurile de desființare sau alte obligații prevăzute de legislația aplicabilă.",
+        "Nu sunt introduse taxe, autorizații sau raportări suplimentare. Efectul bugetar net rămâne nedemonstrat: încasarea mai rapidă poate compensa parțial reducerea sumelor, dar valoarea amenzilor aplicate într-un singur municipiu, fără date de încasare, nu dovedește neutralitatea bugetară."
+      ],
+      "blindSpotsCaught": "Problema subtilă este dubla necorelare: art. 4 alin. (1) este explicat eronat în motivare, iar articolul propus invocă numai două dispoziții, deși pretinde armonizarea cu întregul drept comun. Fără verificarea art. 50 anterior și a normelor generale deja aplicabile, nu poate fi stabilit dacă beneficiul este nou, doar confirmat sau însoțit de eliminarea unei derogări existente.",
+      "constitutionalityNote": "Nu rezultă o neconstituționalitate evidentă din facilitarea plății amenzii. Art. 1 alin. (5) din Constituție impune însă corectarea trimiterilor și o redactare care să nu creeze incertitudine asupra procedurii contravenționale aplicabile. Art. 23 alin. (12) privește legalitatea pedepselor și nu trebuie aplicat automat oricărei amenzi contravenționale; pentru textul analizat, problema principală este calitatea legii. Eventualele efecte asupra situațiilor anterioare trebuie examinate și prin art. 15 alin. (2), privind legea contravențională mai favorabilă.",
+      "euLawNote": "Textul nu rezervă piața unor operatori, nu instituie monopoluri și nu adaugă condiții de acces la activitatea de publicitate. Directiva (UE) 2018/958 privește testul de proporționalitate pentru reglementarea profesiilor și nu este incidentă doar pentru că sunt afectate întreprinderi. Modificarea modalității de plată a amenzilor nu constituie, prin ea însăși, o reglementare tehnică sau o regulă privind serviciile societății informaționale în sensul Directivei (UE) 2015/1535; din text nu rezultă necesitatea notificării TRIS. Nu există dispoziții specifice privind AI.",
+      "senatForm": {
+        "articleRef": "Articolul unic – art. 50 din Legea nr. 185/2013",
+        "proposalContent": "Art. 50. — Dispozițiile prezentei legi referitoare la contravenții se completează cu dispozițiile Ordonanței Guvernului nr. 2/2001 privind regimul juridic al contravențiilor, aprobată cu modificări și completări prin Legea nr. 180/2002, cu modificările și completările ulterioare, inclusiv cu prevederile art. 28.",
+        "argumentation": "Trimiterea integrală la dreptul comun evită interpretarea că numai două articole sunt aplicabile. Art. 4 alin. (1) reglementează intrarea în vigoare, nu completarea legislației speciale. Menționarea expresă a art. 28 clarifică plata redusă. Formula introductivă trebuie să indice modificarea art. 50.",
+        "otherComments": "Potrivit stadiului comunicat, legea este deja adoptată, iar termenul de amendamente a expirat. Propunerea poate fi transmisă ca petiție pentru o nouă inițiativă legislativă, după verificarea formei promulgate; nu mai poate fi preluată ca amendament în procedura încheiată."
+      }
     }
   }
 }

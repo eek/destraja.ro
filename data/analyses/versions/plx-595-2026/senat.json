@@ -2,9 +2,9 @@
   "billId": "PL-x 595/2026",
   "slug": "plx-595-2026",
   "version": "senat",
-  "updatedAt": "2026-10-30T08:44:59.709Z",
+  "updatedAt": "2026-10-30T09:47:42.479Z",
   "consensus": {
-    "riskScore": 3,
+    "riskScore": 2.7,
     "riskLevel": "green",
     "plainTitle": "Ajutorul de criză pentru porci ajunge și la firme (SRL/SA), iar cel pentru vaci se calculează după efectivul din 1 martie",
     "summaryTlDr": "Lege reparatorie și utilă: corectează o omisiune care excludea 98% din fermele de suine de la propria schemă de ajutor și simplifică dosarul la bovine. Riscurile sunt tehnice: ferestre de depunere posibil prea scurte, efect bugetar neevaluat și câteva stângăcii de redactare.",
@@ -24,8 +24,32 @@
   "council": {
     "agy": {
       "model": "agy",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 64595,
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Corectarea și debirocratizarea ajutoarelor de stat pentru crescătorii de porci și vaci",
+      "verdictShort": "Lege utilă și reparatorie care corectează o eroare majoră de redactare (omiterea firmelor SRL/SA din rândul crescătorilor de porci eligibili) și simplifică depunerea cererilor la APIA pentru crescătorii de bovine, prelungind termenele până la 15 octombrie 2026.",
+      "initiatorClaim": "Inițiatorul arată că Legea nr. 175/2026 a omis din eroare societățile înființate conform Legii nr. 31/1990 (care reprezintă 98% din fermele de suine) și a inclus o cerință contradictorie privind factura de livrare către abator.",
+      "realityCheck": "Legea repară omisiunea pentru fermele de suine și elimină factura de abatorizare, dar adaugă și modificarea Legii nr. 176/2026 pentru sectorul bovin (deși Expunerea de motive nu o menționează). Pentru crescătorii de bovine, textul prelungește termenul de depunere până la 15 octombrie 2026, clarifică datele de referință ale efectivelor și obligă APIA să interogheze direct baza de date SNIIA dacă fermierul nu atașează extrasul pe hârtie. Persistă însă erori de tehnică legislativă, precum inserarea unui link web către un fișier Excel în corpul legii.",
+      "affectedGroups": [
+        "Agricultură & Mediu",
+        "IMM & Antreprenori"
+      ],
+      "keyFindings": [
+        "Repară o omisiune majoră din Legea nr. 175/2026 prin includerea la Art. I pct. 1 (art. 3) a persoanelor juridice constituite potrivit Legii societăților nr. 31/1990 (SRL, SA), care reprezintă 98% din fermele de porci și fuseseră excluse din articolul privind beneficiarii.",
+        "Debirocratizează procedura la APIA pentru crescătorii de bovine (Art. II pct. 3 și 6): în lipsa extrasului SNIIA adus de fermier, funcționarii APIA interoghează direct baza de date națională pentru verificarea efectivului deținut la 1 martie 2026.",
+        "Abrogă cerința inutilă privind factura de livrare la abator din schema pentru suine (Art. I pct. 2) și prelungește termenul de depunere a cererilor până la 15 octombrie 2026 pentru ambele scheme de sprijin (Art. I pct. 3 și Art. II pct. 4)."
+      ],
+      "blindSpotsCaught": "Art. II (modificarea Legii nr. 176/2026 pentru sectorul bovin) nu este menționat deloc în Expunerea de motive, care tratează exclusiv sectorul suin. Totodată, la Art. II pct. 1 lit. a) este introdus în corpul legii un URL cu spații către un tabel Excel („https://pndr.ro/documente/ro/PNS-2023-2027-lista-zonelor eligibile-pentru intervențiile-HNV-ANC-AEC.xlsx”), iar în titlul legii și în Art. II s-a perpetuat greșeala de redactare „în contextual crizei” în loc de „în contextul crizei”.",
+      "constitutionalityNote": "Legea este în ansamblu conformă cu Constituția și restabilește principiul nediscriminării și al concurenței loiale (Art. 16 și Art. 135) între fermierii organizați ca PFA/cooperative și cei organizați ca societăți comerciale. Totuși, trimiterea din Art. II pct. 1 lit. a) la un fișier Excel găzduit pe un site web încalcă exigențele de claritate și publicitate a legii prevăzute de Art. 1 alin. (5) și Art. 78 din Constituție, normele de eligibilitate trebuind publicate în Monitorul Oficial.",
+      "euLawNote": "Măsura este pozitivă din perspectiva dreptului UE al concurenței și al pieței unice, deoarece elimină excluderea arbitrară a societăților comerciale (SRL/SA) de la accesul la schema de ajutor de stat instituită conform normelor europene. Proiectul nu restrânge accesul la profesii reglementate (Directiva 2018/958) și nu introduce reglementări tehnice digitale notificabile conform Directivei (UE) 2015/1535 (TRIS).",
+      "senatForm": {
+        "articleRef": "Art. II pct. 1 (art. 4 alin. (1) lit. a))",
+        "proposalContent": "La Art. II pct. 1 (art. 4 alin. (1) lit. a)), se elimină URL-ul „https://pndr.ro/...xlsx”, lista UAT-urilor din zona montană fiind identificată prin actul normativ publicat în Monitorul Oficial. De asemenea, în titlu și la Art. II se corectează eroarea materială „în contextual crizei”, înlocuindu-se cu sintagma „în contextul crizei”.",
+        "argumentation": "Potrivit art. 1 alin. (5) și art. 78 din Constituție și Legii nr. 24/2000, normele juridice trebuie publicate în Monitorul Oficial. Includerea în lege a unui link web către un fișier Excel extern (URL care conține și spații) încalcă tehnica legislativă, deoarece linkul poate deveni inactiv sau fișierul poate fi modificat fără control parlamentar.",
+        "otherComments": "Susținem adoptarea proiectului de lege, întrucât corectează o omisiune gravă (excluderea societăților înființate conform Legii nr. 31/1990 din schema pentru suine) și debirocratizează depunerea cererilor la APIA. Recomandăm însă ca termenul-limită de 15 octombrie 2026 să fie corelat cu data intrării în vigoare a legii, pentru a lăsa fermierilor timp suficient de depunere."
+      }
     },
     "claude": {
       "model": "claude",
@@ -61,8 +85,36 @@
     },
     "codex": {
       "model": "codex",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 105301,
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Ajutoare pentru mai multe ferme de porci și bovine",
+      "verdictShort": "Modificările sunt în principal utile: includ societățile comerciale între beneficiarii ajutorului pentru porci și simplifică documentele pentru bovine. Riscurile principale țin de termene, de claritatea excepțiilor și de respectarea regulilor europene privind ajutoarele de stat.",
+      "initiatorClaim": "Inițiatorul urmărește includerea societăților constituite potrivit Legii nr. 31/1990, despre care afirmă că reprezintă 98% dintre fermele de reproducție și creștere a suinelor, și eliminarea unei cerințe de decontare necorelate cu sprijinul pe loc de cazare. Expunerea furnizată nu explică modificările privind bovinele.",
+      "realityCheck": "Art. I extinde beneficiarii din sectorul suin și elimină alineatul privind factura către abator, iar art. II modifică eligibilitatea pentru bovine și permite APIA să obțină direct datele din SNIIA. Forma analizată fixează depunerea până la 15 octombrie 2026, termen deja trecut la data evaluării, 30 octombrie 2026; utilitatea sa efectivă depinde de data intrării în vigoare. Textul nu introduce taxe sau sancțiuni noi, dar extinderea beneficiarilor poate crește presiunea asupra bugetului schemei.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Agricultură & Mediu"
+      ],
+      "keyFindings": [
+        "Art. I pct. 1 include expres societățile constituite potrivit Legii nr. 31/1990. Procentul de 98% provine din expunerea de motive și nu este demonstrat prin documentele furnizate.",
+        "Art. I pct. 2 elimină art. 5 alin. (5), prezentat în motivare drept cerință privind factura de livrare către abator. Abrogarea nu demonstrează, singură, eliminarea celorlalte controale sau documente justificative.",
+        "Art. I pct. 3 și art. II pct. 4 introduc aceeași dată finală, dar începuturi diferite: intrarea în vigoare, respectiv ziua următoare. Inserată în legile de bază, expresia «prezentei legi» nu desemnează neechivoc legea modificatoare și nu garantează redeschiderea termenului pentru noii beneficiari.",
+        "Art. II pct. 1 stabilește un prag de 10 bovine sau bubaline, respectiv 5 în zona montană. Identificarea zonei printr-un fișier publicat online îngreunează stabilirea versiunii listei aplicabile.",
+        "Art. II pct. 1 lit. c) cere păstrarea a minimum 75% din efectivul solicitat și vârsta minimă de 22 de luni la 5 octombrie 2026. Formularea nu precizează suficient dacă excepțiile înlătură numai condiția păstrării efectivului sau și condiția de vârstă.",
+        "Art. II pct. 2 plafonează numărul solicitat la efectivul din 1 martie 2026; acesta este un plafon individual, nu dovada unui plafon bugetar suficient. Pct. 3 și 6 permit interogarea SNIIA de către APIA, reducând documentele cerute fermierilor.",
+        "Textul furnizat nu permite cuantificarea costului suplimentar și nici verificarea încadrării în bugetul existent. Sunt necesare legile de bază și documentele financiare pentru o concluzie privind finanțarea."
+      ],
+      "blindSpotsCaught": "Termenele sunt punctul sensibil: o extindere formală a beneficiarilor poate rămâne fără efect dacă aceștia nu primesc o perioadă efectivă pentru depunere. Lipsesc dispoziții tranzitorii explicite pentru cererile deja depuse ori respinse. Dacă stadiul indicat, Lege 203/2026, este corect, modificarea nu mai poate fi preluată ca amendament în dosarul deja încheiat, ci necesită o nouă inițiativă legislativă.",
+      "constitutionalityNote": "Nu rezultă o neconstituționalitate evidentă din textul furnizat. Art. 1 alin. (5) impune clarificarea termenelor, a listei zonelor montane și a întinderii excepțiilor; art. 23 alin. (12) privește legalitatea pedepselor și nu este incident aici. Pragul redus pentru zona montană poate avea o justificare obiectivă potrivit art. 16. Folosirea unor efective istorice drept criteriu de eligibilitate nu înseamnă, singură, retroactivitate interzisă de art. 15 alin. (2). Dacă modificările afectează prevederile bugetare, trebuie verificată solicitarea informării Guvernului conform art. 111 alin. (1), precum și respectarea art. 138 alin. (5) privind sursa de finanțare; documentele furnizate nu demonstrează încălcarea acestor obligații.",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea restricțiilor asupra accesului la profesii reglementate sau exercitării acestora și nu este aplicabilă acestei scheme agricole. Textul nu introduce specificații tehnice pentru produse sau reguli privind servicii ale societății informaționale care să indice obligația notificării TRIS potrivit Directivei (UE) 2015/1535. Controlul relevant privește art. 107–108 TFUE: includerea unor noi beneficiari poate constitui o modificare a ajutorului existent, a cărei notificare sau exceptare trebuie verificată înainte de acordare. Invocarea crizei nu dovedește compatibilitatea ajutorului. Extinderea accesului poate reduce diferențele de tratament dintre formele juridice, dar efectul asupra concurenței depinde de plafoane, cumul și condițiile schemei, care nu sunt integral disponibile.",
+      "senatForm": {
+        "articleRef": "Art. III (nou) – depunerea cererilor",
+        "proposalContent": "Art. III. Prin derogare de la termenele din legile nr. 175/2026 și nr. 176/2026, cererile se depun în 20 de zile lucrătoare de la intrarea în vigoare a prezentei legi. Cererile depuse anterior rămân valabile și pot fi completate în același termen, cu respectarea condițiilor de eligibilitate și a termenelor permise de dreptul Uniunii Europene.",
+        "argumentation": "Includerea unor noi beneficiari trebuie însoțită de un termen efectiv de depunere. Data fixă de 15 octombrie 2026 poate face extinderea inutilă dacă legea intră în vigoare ulterior. Regula tranzitorie evită redepunerea cererilor și permite completarea lor.",
+        "otherComments": "Analiza privește forma Senatului furnizată; dosarul și stadiul nu au putut fi verificate independent. Dacă legea este deja adoptată definitiv, propunerea necesită o nouă inițiativă. Termenul trebuie corelat cu bugetul, calendarul plăților și cadrul european aplicabil."
+      }
     }
   }
 }

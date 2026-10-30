@@ -2,9 +2,9 @@
   "billId": "PL-x 432/2026",
   "slug": "plx-432-2026",
   "version": "senat",
-  "updatedAt": "2026-10-30T08:28:27.324Z",
+  "updatedAt": "2026-10-30T09:28:29.186Z",
   "consensus": {
-    "riskScore": 5,
+    "riskScore": 5.7,
     "riskLevel": "yellow",
     "plainTitle": "Bani de la stat pentru fermierii de porci loviți de pesta porcină (100 euro/UVM, maximum 250.000 euro per fermă)",
     "summaryTlDr": "Scopul este legitim și util pentru un sector afectat real, însă textul are defecte tehnice serioase. Finanțarea trimite la bugetul pe 2024, lipsește o clauză care să condiționeze plata de aprobarea Comisiei Europene, iar ajutorul se plătește pe capacitate, nu pe pierderi dovedite. Toate acestea expun chiar beneficiarii la recuperarea banilor.",
@@ -12,7 +12,9 @@
     "realityCheck": "Legea dă tuturor crescătorilor autorizați din țară 100 euro/UVM, calculat pe capacitatea de cazare a fermei (0,3 UVM/porc gras, 0,5 UVM/scroafă). Nu contează dacă ferma a fost sau nu în zonă de restricție ori a avut focar, iar plafonul este de 250.000 euro/întreprindere și 140,9 mil. lei în total. Gospodăriile populației neautorizate, invocate intens în Expunerea de motive, sunt de fapt excluse prin art.3 și art.4. Schema trebuie notificată la Comisia Europeană, dar textul permite plăți anuale până pe 30 august fără să aștepte decizia acesteia.",
     "affectedGroups": [
       "Agricultură & Mediu",
-      "IMM & Antreprenori"
+      "IMM & Antreprenori",
+      "Contabili & Fiscalitate",
+      "Justiție & Drepturi Civile"
     ],
     "senatForm": {
       "articleRef": "Art.4 alin.(6)",
@@ -24,8 +26,34 @@
   "council": {
     "agy": {
       "model": "agy",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 65116,
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Ajutor de stat pentru fermele de porci afectate de pesta porcină, dar finanțat din greșeală din bugetul pe anul 2024",
+      "verdictShort": "Deși scopul de a sprijini crescătorii de porci afectați de pesta porcină africană este legitim, legea conține erori grave de redactare (preluate prin copy-paste dintr-o ordonanță din 2024), indicând finanțarea din bugetul pe anul 2024 pentru o schemă din 2026–2030 și excluzând gospodăriile țărănești pe care le invocă în Expunerea de motive.",
+      "initiatorClaim": "Inițiatorii susțin că vor să salveze atât exploatațiile comerciale, cât și gospodăriile populației și tradițiile rurale afectate de restricțiile impuse contra pestei porcine africane și de concurența importurilor, acordând un sprijin de 100 euro/UVM.",
+      "realityCheck": "În realitate, Art. 3 și Art. 5 exclud complet gospodăriile populației (persoanele fizice neînregistrate la Registrul Comerțului), rezervând banii doar fermelor comerciale autorizate (SRL, PFA, II, IF, societăți agricole). Mai grav, Art. 4 alin. (6) prevede că cele 140,88 milioane lei se asigură din bugetul Ministerului Agriculturii „pe anul 2024”, făcând legea inaplicabilă financiar în 2026, iar plata se calculează la întreaga capacitate de cazare autorizată dacă ferma dovedește mișcări de efective într-o singură lună din cele 11 luni vizate.",
+      "affectedGroups": [
+        "Agricultură & Mediu",
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate"
+      ],
+      "keyFindings": [
+        "Eroare bugetară majoră (Art. 4 alin. 6): Finanțarea schemei în valoare de 140.886,75 mii lei (27,75 milioane euro) este prevăzută a se asigura din bugetul MADR „pe anul 2024”, un exercițiu bugetar încheiat, în timp ce cursul BNR folosit la Art. 4 alin. (7) este cel din 1 august 2025, iar legea se adoptă în 2026.",
+        "Contradicție între acordarea unică și cea multianuală (Art. 1 alin. 1-2 vs. Art. 6 alin. 1-2): Deși legea compensează o singură perioadă trecută (1 martie 2025 - 1 februarie 2026) în limita unui plafon total fix (și din bugetul pe 2024), Art. 6 prevede depunerea cererilor „până la data de 30 iunie a fiecărui an” și plata „până la data de 30 august a fiecărui an” până în 2030.",
+        "Excluderea gospodăriilor populației (Art. 3 și Art. 5 alin. 1 lit. a): Deși jumătate din Expunerea de motive deplânge soarta gospodăriilor populației și autoaprovizionarea familiilor din mediul rural, textul normativ acordă ajutorul exclusiv entităților înregistrate la ONRC sau constituite pe Legea nr. 36/1991, care dețin exploatații comerciale autorizate sanitar-veterinar.",
+        "Subvenționarea capacității de cazare cu activitate într-o singură lună (Art. 4 alin. 3 și Art. 5 alin. 1 lit. c-d): Ajutorul de 100 euro/UVM (până la 250.000 euro/întreprindere) nu se calculează la pierderea efectivă sau la media animalelor deținute, ci la capacitatea totală de cazare din autorizație, fiind suficientă dovada mișcării efectivelor dintr-o singură lună din intervalul martie 2025 – februarie 2026."
+      ],
+      "blindSpotsCaught": "Proiectul este copiat aproape integral după OUG nr. 20/2024 (schema similară din 2024), inițiatorii înlocuind mecanic anii din unele articole, dar uitând referința la bugetul pe anul 2024 în Art. 4 alin. (6) și transformând un termen unic de depunere („30 iunie 2024”) în „30 iunie a fiecărui an” la Art. 6. De asemenea, în Expunerea de motive, suma de 27,75 milioane euro este scrisă eronat ca „27.750 milioane euro” (adică 27,75 miliarde euro).",
+      "constitutionalityNote": "Legea ridică probleme serioase de constituționalitate raportat la Art. 1 alin. (5) din Constituție (principiul legalității, sub aspectul clarității, preciziei și previzibilității normei) și Art. 138 alin. (5) (interdicția aprobării unei cheltuieli bugetare fără stabilirea unei surse reale și actuale de finanțare). Trimiterea la creditele bugetare aprobate pe anul 2024 într-o lege din 2026, dublată de contradicția dintre caracterul anual al plăților (Art. 6) și plafonul unic aferent unei singure perioade (Art. 1 și Art. 4), creează un blocaj de aplicare.",
+      "euLawNote": "Sub incidența Art. 108 alin. (3) TFUE, deși Art. 1 alin. (5) prevede notificarea schemei către Comisia Europeană, legea omite clauza suspensivă obligatorie (clauza de standstill), stabilind la Art. 6 alin. (2) obligația de plată până la 30 august fără a o condiționa explicit de decizia prealabilă de autorizare a Comisiei. Totodată, Art. 1 alin. (4) permite cumulul necondiționat „cu orice alte scheme de sprijin finanțate de la bugetul de stat”, contravenind regulilor de cumul și plafoanelor maxime de intensitate din Orientările UE (2022/C 485/01, secțiunea 1.3.3) invocate chiar la alin. (3). Nu sunt incidente Directiva (UE) 2018/958 sau Directiva TRIS (UE) 2015/1535.",
+      "senatForm": {
+        "articleRef": "Art. 1 alin. (4)-(5), Art. 4 alin. (6) și Art. 6",
+        "proposalContent": "La Art. 4 alin. (6), sintagma „pe anul 2024” se înlocuiește cu „pe anul 2026”. La Art. 1 alin. (5) se adaugă: „Punerea în aplicare a schemei și efectuarea plăților sunt condiționate de decizia de autorizare a Comisiei Europene.” La Art. 1 alin. (4), cumulul se limitează la plafoanele din Orientările UE. La Art. 6 se clarifică dacă plata este unică sau anuală.",
+        "argumentation": "Art. 4 alin. (6) alocă fondurile din bugetul MADR „pe anul 2024” (eroare de copiere dintr-un act normativ vechi), ceea ce face legea inaplicabilă financiar în 2026 și încalcă art. 1 alin. (5) și art. 138 alin. (5) din Constituție. De asemenea, art. 108 alin. (3) TFUE interzice plata ajutorului de stat înainte de autorizarea Comisiei Europene (clauza de standstill).",
+        "otherComments": "Deși proiectul se află la promulgare, semnalăm că între Art. 1 alin. (1) (compensarea pierderilor din 2025-2026 cu plafon fix) și Art. 6 (cereri depuse „până la 30 iunie a fiecărui an” până în 2030) există o contradicție internă. Totodată, gospodăriile populației invocate în expunerea de motive sunt excluse de la eligibilitate prin Art. 3."
+      }
     },
     "claude": {
       "model": "claude",
@@ -61,8 +89,39 @@
     },
     "codex": {
       "model": "codex",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 113283,
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Ajutor pentru fermele de porci, cu finanțare și plăți repetate neclare",
+      "verdictShort": "Sprijinul pentru fermele afectate de pesta porcină poate fi justificat, dar forma analizată are probleme serioase de finanțare, calcul al despăgubirilor și compatibilitate europeană. Riscul principal este acordarea unor subvenții insuficient legate de pierderile reale.",
+      "initiatorClaim": "Inițiatorii urmăresc compensarea pierderilor produse de pesta porcină africană și de restricțiile sanitare, pentru menținerea producției și reducerea dependenței de importuri. Expunerea invocă inclusiv protejarea gospodăriilor populației și continuarea sprijinului până în 2030.",
+      "realityCheck": "Art. 3 rezervă ajutorul operatorilor organizați juridic enumerați, iar art. 4 cere exploatații autorizate; gospodăriile persoanelor fizice neautorizate nu sunt incluse. Plata se calculează după capacitatea de cazare, nu după pierderea individuală demonstrată: 30 euro pentru un loc echivalent de porc la îngrășat și 50 euro pentru unul de reproducție, înaintea eventualei reduceri proporționale. Cererile și plățile anuale până la expirarea schemei creează ambiguitatea compensării repetate a aceleiași perioade istorice.",
+      "affectedGroups": [
+        "Agricultură & Mediu",
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate",
+        "Justiție & Drepturi Civile"
+      ],
+      "keyFindings": [
+        "Art. 4 alin. (6) indică un plafon total de 140.886.750 lei, dar îl finanțează din prevederile bugetare ale MADR pentru anul 2024. Acest buget anterior perioadei compensate nu poate constitui, singur, autorizarea cheltuielilor din anii de aplicare.",
+        "Art. 1 alin. (1), art. 4 alin. (4) și art. 6 nu precizează suficient raportul dintre pierderile istorice, cererile anuale, plafonul de 250.000 euro pe întreprindere și plafonul total al schemei. Nu se stabilește expres dacă sprijinul individual este unic sau repetabil anual.",
+        "Art. 4 alin. (3) și art. 5 alin. (1) lit. c)-d) folosesc capacitatea de producție și dovada activității într-o singură lună. Extrasul nu cere cuantificarea pierderii efective, demonstrarea legăturii individuale cu restricțiile sau scăderea despăgubirilor deja primite pentru aceeași pierdere.",
+        "Art. 1 alin. (4) permite cumulul cu orice alte scheme bugetare, fără să prevadă aici limite pentru aceleași costuri eligibile. Art. 1 alin. (5) cere notificarea Comisiei Europene, dar extrasul nu condiționează expres acordarea ajutorului de autorizarea acesteia.",
+        "Art. 4 alin. (1) lit. a) cere autorizarea exploatației la depunere. Pot fi excluși operatori care au încetat activitatea tocmai din cauza bolii, deși expunerea invocă pierderile provocate de blocarea activității.",
+        "Art. 5 impune documente privind autorizarea, capacitatea, proprietatea animalelor și semnarea fiecărei pagini transmise; reutilizarea datelor DR-06 reduce însă sarcina pentru beneficiarii existenți. Art. 7 alin. (3) permite reducerea proporțională, astfel încât cuantumul anunțat nu este garantat.",
+        "Art. 1 alin. (8) protejează sumele împotriva popririi, avantajând beneficiarii în raport cu creditorii lor. Protecția poate servi scopului schemei, dar extrasul nu precizează durata și condițiile urmăririi destinației banilor.",
+        "Art. 6 nu stabilește o regulă tranzitorie pentru intrarea în vigoare după termenul anual de 30 iunie. Art. 1 alin. (2) nu identifică precis actul european și restricțiile a căror ridicare ar încheia schema."
+      ],
+      "blindSpotsCaught": "Referirea la secțiunea europeană despre creșterea animalelor nu echivalează cu un temei pentru compensarea pagubelor provocate de boli. Există și o limită procedurală: dacă stadiul declarat este la promulgare, termenul de amendamente este depășit, iar un e-mail către comisie nu redeschide procedura; textul propus poate susține o solicitare de reexaminare sau o intervenție legislativă ulterioară. Analiza privește exclusiv extrasul, întrerupt la art. 12; eventualele garanții ulterioare și stadiul oficial nu au putut fi verificate independent.",
+      "constitutionalityNote": "Art. 1 alin. (5) din Constituție este relevant pentru ambiguitățile privind periodicitatea ajutorului, plafoanele, finanțarea și încetarea schemei. Art. 23 alin. (12) privește legalitatea pedepselor și nu este incident normelor prezentate, care nu instituie pedepse. Raportarea la bugetul din 2024 ridică o problemă serioasă în raport cu anualitatea bugetară și art. 138 alin. (5), dar constatarea neconstituționalității necesită examinarea finanțării efective și a întregului dosar. Pentru art. 111 alin. (1) trebuie verificată solicitarea informării Guvernului, obligatorie când inițiativa modifică prevederile bugetare; lipsa acesteia nu poate fi dedusă din extras. Diferențele de eligibilitate și protecția față de poprire cer justificare obiectivă și proporțională, inclusiv prin raportare la art. 16 și art. 44.",
+      "euLawNote": "Sunt centrale art. 107 și art. 108 alin. (3) TFUE: notificarea nu înlocuiește autorizarea și nu permite punerea în aplicare anticipată a unei scheme supuse notificării. Secțiunea 1.3.3 din Orientările agricole din 2022 privește sprijinul pentru sectorul creșterii animalelor, în special evidențe genealogice și testări; pentru pagubele provocate de boli trebuie examinată încadrarea în secțiunea 1.2.1.3 și condițiile sale. Plata după capacitate, cumulul nelimitat formulat și eventuala repetare anuală necesită verificarea pierderilor eligibile și prevenirea supracompensării. Plafonul individual de 250.000 euro nu demonstrează singur compatibilitatea. Directiva (UE) 2018/958 nu este aplicabilă acestei scheme: privește restricțiile privind accesul la profesii reglementate sau exercitarea lor. Extrasul nu introduce reguli pentru servicii digitale ori AI și nu evidențiază o reglementare tehnică supusă TRIS prin Directiva (UE) 2015/1535; transmiterea cererilor prin e-mail nu declanșează această procedură. Retorica despre importuri nu este transpusă aici într-o interdicție de import sau într-o condiție de utilizare a produselor naționale.",
+      "senatForm": {
+        "articleRef": "Art. 1 alin. (4) și (5)",
+        "proposalContent": "(4) Cumulul ajutoarelor pentru aceleași costuri eligibile este permis numai în limitele autorizate de Comisia Europeană și fără supracompensare. (5) Schema se notifică potrivit art. 108 alin. (3) TFUE. Ajutoarele se acordă numai după decizia Comisiei Europene de autorizare a schemei și în condițiile acesteia.",
+        "argumentation": "Notificarea nu permite acordarea anticipată a ajutorului. Cumulul fără limite poate compensa aceeași pierdere de mai multe ori și poate conduce la recuperarea ajutoarelor, inclusiv cu dobândă. Condiționarea expresă de autorizare protejează beneficiarii și bugetul.",
+        "otherComments": "La promulgare, propunerea poate susține reexaminarea sau o lege ulterioară; nu mai este amendament în termen. Sunt necesare și corectarea finanțării din 2024, clarificarea plăților anuale și verificarea pierderilor efective. Art. 12 și următoarele, precum și anexele nu sunt disponibile integral."
+      }
     }
   }
 }

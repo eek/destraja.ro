@@ -2,19 +2,19 @@
   "billId": "PL-x 410/2026",
   "slug": "plx-410-2026",
   "version": "senat",
-  "updatedAt": "2026-10-30T08:28:11.342Z",
+  "updatedAt": "2026-10-30T09:27:25.384Z",
   "consensus": {
-    "riskScore": 5,
+    "riskScore": 4.7,
     "riskLevel": "yellow",
     "plainTitle": "Statul obține încă 6 luni de protecție contra popririi conturilor sale din bănci",
     "summaryTlDr": "Legea extinde un termen de grație deja existent pentru instituțiile publice datoare și asupra conturilor din bănci. Scopul de a nu bloca salariile și serviciile publice este legitim, dar textul votat de Senat are un singur rând vag („se aplică în mod corespunzător”), care lasă băncile, executorii și creditorii fără reguli clare.",
     "initiatorClaim": "Inițiatorii spun că termenul de 6 luni din art.2 OG 22/2002 se aplică neunitar: conturile de la Trezorerie sunt protejate în practică, iar cele din bănci sunt poprite imediat. Vor o regulă clară, bazată pe somație și notificare, care să nu blocheze conturile operaționale (salarii, POS, conturi colectoare) și să reducă litigiile.",
     "realityCheck": "Textul adoptat de Senat nu conține mecanismul descris în Expunerea de motive. Nu prevede expres suspendarea de drept, nu obligă băncile și executorii să acționeze pe baza somației și a notificării și nu derogă expres de la art.781–794 CPC. Spune doar că art.2 (care obligă debitorul să facă demersuri de plată în 6 luni) se aplică „în mod corespunzător” sumelor din bănci, „inclusiv” la poprire. Efectul practic probabil este că creditorii (angajați cu drepturi salariale câștigate în instanță, furnizori, IMM-uri) așteaptă cel puțin încă 6 luni. Interpretarea concretă rămâne la latitudinea fiecărei bănci și a fiecărui executor, deci litigiile accesorii nu dispar.",
     "affectedGroups": [
-      "IMM & Antreprenori",
-      "Angajați & HR",
       "Justiție & Drepturi Civile",
-      "Sănătate & Educație"
+      "IMM & Antreprenori",
+      "Contabili & Fiscalitate",
+      "Toți cetățenii"
     ],
     "senatForm": {
       "articleRef": "Articol unic – art.2¹ din OG nr.22/2002",
@@ -26,8 +26,34 @@
   "council": {
     "agy": {
       "model": "agy",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 70339,
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Scut suplimentar pentru instituțiile statului: conturile din băncile comerciale devin mai greu de poprit timp de 6 luni",
+      "verdictShort": "Legea extinde privilegiul de 6 luni al instituțiilor publice rău-platnice și asupra banilor ținuți în bănci comerciale, amânând recuperarea datoriilor câștigate în instanță de cetățeni și firme. Mai grav, textul votat de Senat este atât de vag încât pune băncile comerciale și executorii judecătorești într-un blocaj procedural.",
+      "initiatorClaim": "Inițiatorii susțin că vor să elimine practica neunitară prin care conturile instituțiilor publice de la Trezorerie sunt protejate 6 luni de executare silită, în timp ce conturile deschise la bănci comerciale sunt blocate imediat prin poprire, riscând paralizarea plăților curente.",
+      "realityCheck": "În realitate, deși Expunerea de motive promitea o procedură clară (notificare de lipsă a fondurilor și derogare expresă de la Codul de procedură civilă), textul adoptat de Senat conține doar o trimitere generică („prevederile art. 2 se aplică în mod corespunzător”). Astfel, creditorii privați (cetățeni, IMM-uri) care au câștigat procese definitive împotriva statului sunt blocați încă 6 luni de la poprirea conturilor bancare, iar băncile comerciale sunt lăsate fără criterii legale pentru a verifica „lipsa de fonduri bugetare” atunci când în cont există, faptic, bani.",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile",
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Articolul unic (Art. 2¹): Extinde termenul de grație de 6 luni din art. 2 al OG nr. 22/2002 asupra sumelor aflate în conturile instituțiilor și autorităților publice deschise la instituțiile de credit, inclusiv asupra popririlor.",
+        "Ruptură între Expunerea de motive și textul legii: Deși inițiatorii invocă o procedură bazată pe notificarea lipsei fondurilor și o derogare expresă de la art. 781–794 din Codul de procedură civilă, forma adoptată de Senat nu conține nicio regulă procedurală pentru terții popriți (bănci).",
+        "Capcană juridică pentru băncile comerciale: Potrivit art. 784 și art. 790 din Codul de procedură civilă, banca terț poprit trebuie să indisponibilizeze sumele de îndată sub sancțiunea validării popririi pe banii proprii; noua normă nu precizează pe baza cărui document banca poate refuza poprirea executorului atunci când în contul instituției publice există lichidități."
+      ],
+      "blindSpotsCaught": "Contradicție internă de tehnică legislativă și mecanică bancară: Art. 2 din OG nr. 22/2002 condiționează termenul de 6 luni de „lipsa de fonduri” (lipsa alocării în clasificația bugetară gestionată prin Trezorerie). Însă noul Art. 2¹ aplică această regulă „sumelor aflate în conturile (...) deschise la instituțiile de credit”. Băncile comerciale nu operează cu capitole și articole de clasificație bugetară, ci cu solduri lichide; dacă în cont există sume, banca nu are competența legală să constate „lipsa de fonduri” bugetare fără o procedură expresă de certificare.",
+      "constitutionalityNote": "Textul ridică probleme serioase de claritate și previzibilitate a legii (Art. 1 alin. (5) din Constituție), întrucât sintagma „se aplică în mod corespunzător” nu reglementează conduita terțului poprit (banca) între obligația de indisponibilizare din Codul de procedură civilă și protecția instituției debitoare. De asemenea, extinderea necondiționată a imunității temporare de poprire asupra tuturor conturilor comerciale poate afecta dreptul la executarea hotărârilor judecătorești (Art. 21) și dreptul de proprietate al creditorilor (Art. 44) dacă nu este dublată de garanții procedurale stricte.",
+      "euLawNote": "Proiectul nu intră sub incidența Directivei (UE) 2015/1535 (TRIS - servicii digitale) sau a Directivei (UE) 2018/958 (testul de proporționalitate pentru profesii reglementate). În schimb, întârzierea cu 6 luni a popririi pe conturile din bănci comerciale pentru datorii rezultate din contracte de achiziții publice intră în tensiune cu Directiva 2011/7/UE privind combaterea întârzierii în efectuarea plăților în tranzacțiile comerciale și cu art. 47 din Carta Drepturilor Fundamentale a UE (dreptul la o cale de atac eficientă, care include executarea promptă a titlurilor împotriva statului, conform jurisprudenței CJUE și CEDO).",
+      "senatForm": {
+        "articleRef": "Articol unic (Art. 2¹ din OG nr. 22/2002)",
+        "proposalContent": "Art. 2¹.- Prevederile art. 2 se aplică conturilor deschise la instituțiile de credit doar pentru sumele cu destinație specială afectate prin lege sau finanțări nerambursabile, pe baza dovezii lipsei fondurilor bugetare comunicate de debitor terțului poprit și executorului în 5 zile de la somație. Creanțele comerciale sub Directiva 2011/7/UE sunt exceptate.",
+        "argumentation": "Forma adoptată de Senat („se aplică în mod corespunzător”) este imprevizibilă (art. 1 alin. 5 Constituție): băncile comerciale nu gestionează clasificații bugetare și riscă validarea popririi (art. 790 CPC) dacă refuză indisponibilizarea fără criterii clare. În plus, blocarea popririi pe toate conturile bancare amână nejustificat plata datoriilor statului către IMM-uri și cetățeni.",
+        "otherComments": "Există o ruptură majoră între Expunerea de motive (care promite o procedură pe bază de notificare și derogare expresă de la art. 781-794 CPC) și textul votat de Senat, care omite orice mecanism procedural. Fără stabilirea documentelor justificative opozabile băncii, legea va genera mai multe litigii de validare a popririi și contestații la executare."
+      }
     },
     "claude": {
       "model": "claude",
@@ -65,8 +91,37 @@
     },
     "codex": {
       "model": "codex",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 91949,
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Protecția temporară a conturilor bancare ale instituțiilor publice față de poprire",
+      "verdictShort": "Forma Senatului este o clarificare limitată, în principiu justificată prin protejarea funcționării serviciilor publice. Riscul principal este interpretarea termenului de 6 luni ca protecție automată a debitorului public, fără verificarea lipsei fondurilor.",
+      "initiatorClaim": "Inițiatorii urmăresc aplicarea uniformă a termenului existent de 6 luni pentru conturile instituțiilor publice, inclusiv cele bancare. Expunerea promite și un mecanism expres de suspendare a popririlor, bazat pe somație și notificarea debitorului.",
+      "realityCheck": "Art. 2¹ propus prevede doar aplicarea corespunzătoare a art. 2 și asupra sumelor din conturile bancare, inclusiv în materia popririi. Nu introduce expres suspendarea de drept, procedura notificării, termenul de 15 zile sau derogarea de la Codul de procedură civilă descrise în materialele însoțitoare. Protecția rămâne condiționată de situația prevăzută de art. 2, respectiv imposibilitatea începerii ori continuării executării din lipsă de fonduri.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Angajați & HR",
+        "Justiție & Drepturi Civile",
+        "Sănătate & Educație"
+      ],
+      "keyFindings": [
+        "Articolul unic introduce numai art. 2¹: confirmă expres aplicarea regimului art. 2 asupra conturilor deschise la instituții de credit. Nu creează un nou termen de 6 luni, distinct pentru fiecare cont.",
+        "Art. 2 din OG nr. 22/2002 condiționează mecanismul de lipsa fondurilor și obligă instituția să facă demersuri pentru plată. Simpla calitate de instituție publică nu justifică acordarea necondiționată a termenului.",
+        "Trimiterea la art. 2 nu precizează cine constată lipsa fondurilor, ce documente o demonstrează și cum este informat terțul poprit. Textul poate clarifica sfera conturilor, dar nu rezolvă integral dificultățile procedurale invocate.",
+        "Forma furnizată nu introduce taxe, sancțiuni, autorizații sau monopoluri. Pentru creditorii IMM și persoanele fizice, o interpretare excesiv de favorabilă instituției debitoare poate însă prelungi recuperarea banilor și afecta lichiditatea.",
+        "Nu există o estimare financiară în materialele reproduse. Solicitarea unei fișe financiare nu dovedește nici emiterea, nici absența acesteia din dosarul complet; eventualele costuri cu dobânzile și litigiile nu pot fi cuantificate din aceste extrase.",
+        "Descrierea din fișa Camerei și expunerea de motive sunt mai ample decât dispozitivul formei Senatului. Ele nu pot introduce singure reguli obligatorii privind suspendarea sau intervalul de 15 zile."
+      ],
+      "blindSpotsCaught": "Art. 2 are deja o formulare generală, fără să limiteze expres mecanismul la conturile Trezoreriei; completarea poate avea predominant rol de clarificare. Totodată, forma Senatului nu poate fi tratată automat drept forma trimisă la promulgare. Nu am putut verifica online dosarul, legislația consolidată și jurisprudența invocată; evaluarea privește textul furnizat.",
+      "constitutionalityNote": "Nu rezultă o neconstituționalitate evidentă din simpla extindere expresă a aceluiași regim asupra conturilor bancare. Art. 1 alin. (5) impune însă o aplicare previzibilă: formula «în mod corespunzător» lasă nerezolvate aspecte procedurale importante. Art. 21 și art. 44, interpretate și prin art. 20 în raport cu protecția convențională a executării hotărârilor și a creanțelor, cer ca protecția serviciului public să nu golească dreptul creditorului de conținut. Lipsa fondurilor nu poate justifica neexecutarea nelimitată. Art. 23 alin. (12), privind legalitatea pedepselor, nu este incident acestei norme de executare civilă.",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea reglementării profesiilor și nu se aplică acestei completări. Textul nu instituie cerințe tehnice pentru produse ori reguli privind serviciile societății informaționale, astfel încât nu rezultă o obligație de notificare TRIS potrivit Directivei (UE) 2015/1535. Nu introduce restricții de acces pe piață, dar întârzierile recuperării creanțelor pot dezavantaja economic furnizorii instituțiilor publice, mai ales IMM-urile. Pentru creanțele comerciale trebuie respectate Directiva 2011/7/UE și Legea nr. 72/2013: termenul procedural nu trebuie confundat cu prelungirea scadenței sau eliminarea drepturilor la dobânzi și despăgubiri.",
+      "senatForm": {
+        "articleRef": "Articol unic – art. 2¹ propus",
+        "proposalContent": "Art. 2¹. — Art. 2 se aplică și sumelor din conturile instituțiilor și autorităților publice deschise la instituții de credit, numai în condițiile lipsei de fonduri dovedite de debitor. Termenul de 6 luni curge potrivit art. 2 și nu se reia pentru aceeași creanță prin schimbarea contului urmărit.",
+        "argumentation": "Clarificarea protejează continuitatea serviciilor publice și păstrează caracterul condiționat al termenului. Dovedirea lipsei fondurilor împiedică folosirea simplei notificări ca scut automat, iar nereînceperea termenului la schimbarea contului previne prelungirea artificială a executării.",
+        "otherComments": "Dacă stadiul indicat, la promulgare, este corect, comisia nu mai poate introduce amendamente în procedura încheiată. Propunerea poate fi valorificată într-o reexaminare, dacă aceasta este declanșată, sau printr-o inițiativă legislativă nouă. Trebuie verificată forma finală adoptată de Camera Deputaților."
+      }
     }
   }
 }

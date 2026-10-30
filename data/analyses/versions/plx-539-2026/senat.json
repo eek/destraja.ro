@@ -2,9 +2,9 @@
   "billId": "PL-x 539/2026",
   "slug": "plx-539-2026",
   "version": "senat",
-  "updatedAt": "2026-10-30T08:43:36.497Z",
+  "updatedAt": "2026-10-30T09:45:57.157Z",
   "consensus": {
-    "riskScore": 4,
+    "riskScore": 5,
     "riskLevel": "yellow",
     "plainTitle": "Cum închide România PNRR: cine plătește proiectele neterminate și ce se întâmplă după 2026",
     "summaryTlDr": "Este o lege tehnică și necesară, fiindcă fără ea închiderea PNRR ar fi un haos administrativ. Are însă trei probleme: termene adoptate după ce expiraseră, multe decizii lăsate pe seama ordinelor de ministru și costul proiectelor abandonate mutat discret la bugetul de stat.",
@@ -12,8 +12,8 @@
     "realityCheck": "Legea fixează termene de închidere (31.08, 15.09, 30.09.2026) și dă coordonatorilor puterea de a înlocui proiecte din memorandumuri cu proiecte deja finalizate (art. 9). Le permite să denunțe parțial sau unilateral contracte (art. 11–12) și să mute obiective către alte programe naționale, PNCIPS, AFM sau programul PUG (art. 10, 13, 14). Efectul practic este că plățile pentru părțile abandonate rămân «cheltuieli definitive» ale bugetelor publice, adică le suportă contribuabilul, iar condițiile concrete se stabilesc prin ordine de ministru, nu prin lege.",
     "affectedGroups": [
       "Toți cetățenii",
+      "Contabili & Fiscalitate",
       "IMM & Antreprenori",
-      "Proprietari & Imobiliare",
       "Agricultură & Mediu"
     ],
     "senatForm": {
@@ -26,8 +26,36 @@
   "council": {
     "agy": {
       "model": "agy",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 66254,
+      "riskScore": 6,
+      "riskLevel": "yellow",
+      "plainTitle": "Reguli pentru închiderea PNRR și mutarea proiectelor neterminate pe bugetul național",
+      "verdictShort": "Deși legea este necesară tehnic pentru a închide conturile PNRR la termenul european din august-septembrie 2026, ea ascunde o socializare masivă a pierderilor: plățile pentru proiecte eșuate sau denunțate rămân cheltuieli definitive pe bugetul de stat, iar proiectele neterminate sunt mutate discreționar, prin ordin de ministru, pe bani naționali.",
+      "initiatorClaim": "Inițiatorii susțin că instituie un cadru juridic unitar și clar pentru închiderea operațională și financiară a PNRR după termenul-limită de 31 august 2026, stabilind responsabilitățile instituțiilor pentru ultima cerere de plată și pentru monitorizarea post-implementare.",
+      "realityCheck": "Dincolo de procedurile administrative de raportare, legea funcționează ca o plasă de salvare bugetară pentru proiectele ratate: permite miniștrilor să înlocuiască din pix proiectele din memorandumuri cu altele deja finalizate (art. 9), să treacă proiectele pierdute pe bugetele naționale (MDLPA, CNI, AFM) fără proceduri de selecție (art. 10, 13, 14) și să declare nerecuperabile sumele deja plătite pentru contracte denunțate (art. 11-12). Totodată, introduce conceptul de „minus de venituri” și „măsuri de compensare” pentru banii europeni pierduți, nota de plată mutându-se pe bugetul consolidat.",
+      "affectedGroups": [
+        "Toți cetățenii",
+        "Contabili & Fiscalitate",
+        "IMM & Antreprenori",
+        "Agricultură & Mediu"
+      ],
+      "keyFindings": [
+        "Amnistierea financiară a proiectelor neterminate (Art. 11 și Art. 12): Coordonatorii pot denunța parțial sau unilateral contractele din Componenta 10 (Fondul Local) și Componenta 5 (Valul Renovării) care nu mai pot fi finalizate, iar plățile deja efectuate rămân cheltuieli definitive ale bugetelor și nu se mai recuperează de la beneficiari, fără a se distinge între blocaje obiective și culpa beneficiarului.",
+        "Mutarea proiectelor pierdute din PNRR pe bugetul național fără selecție competitivă (Art. 10, Art. 13 și Art. 14): Contractele neterminate pentru Planuri Urbanistice Generale, apă, deșeuri sau construcții sunt preluate pe programele naționale (MDLPA, CNI, Administrația Fondului pentru Mediu) prin simple ordine de ministru, cu exonerarea expresă de la procedura de selecție (art. 10 alin. 4), cheltuielile anterioare rămânând definitiv pe bugetul de stat.",
+        "Cosmetizarea țintelor prin înlocuirea proiectelor din pix (Art. 9): În domeniile Apă, Deșeuri, Valul Renovării și Fondul Local, miniștrii pot modifica prin ordin lista proiectelor aprobate anterior prin Memorandum de Guvern, înlocuindu-le cu „proiecte finalizate” pentru a bifa formal țintele și jaloanele.",
+        "Acoperirea banilor europeni pierduți prin măsuri compensatorii (Art. 2 lit. d, Art. 4 și Art. 5 lit. b): Legea definește „minusul de venituri” ca diferența dintre fondurile nerambursabile tăiate de Comisia Europeană și sumele recuperate, obligând ministerele și Ministerul Finanțelor să propună „măsuri de reformă sectorială suplimentare” și „măsuri de compensare” pentru bugetul general consolidat.",
+        "Excepții punctuale de la înghețarea plăților după 31 august 2026 (Art. 8 alin. 2-4): Deși activitățile după 31 august 2026 nu se mai decontează, se instituie derogări pentru instrumentele financiare InvestEU (Componenta 9) și pentru plata până la 30 septembrie 2026 a salariilor pe august ale experților din task-force-ul de cloud guvernamental și din unitatea de reformă CDI."
+      ],
+      "blindSpotsCaught": "Proiectul este depus ca inițiativă parlamentară a 4 senatori/deputați pentru a ocoli filtrele de avizare interministerială specifice Guvernului, însă trădează o redactare grăbită în aparatul executiv: Expunerea de motive are numerotarea articolelor decalată față de textul legii (de ex., invocă art. 11 ca fiind Capitolul IV privind închiderea financiară, deși în lege acesta este la art. 15, iar art. 11-12 privind denunțarea contractelor cu iertarea debitelor nici măcar nu sunt explicate la punctul 2.3 lit. c). În plus, Expunerea de motive vorbește la timpul trecut despre data de 31 august 2026 („perioada de implementare s-a încheiat la 31 august 2026”), anticipând o adoptare retroactivă acoperită prin dispoziții tranzitorii.",
+      "constitutionalityNote": "Ridică probleme de constituționalitate prin prisma art. 1 alin. (5) (calitatea și previzibilitatea legii), întrucât art. 13 alin. (1) deleagă în alb ministrului dezvoltării stabilirea condițiilor de transfer al investițiilor din PNRR în Programul național de construcții de interes public sau social, fără niciun criteriu primar în lege. De asemenea, transformarea cheltuielilor PNRR în cheltuieli definitive ale bugetului de stat și mutarea finanțării pe bugetele MDLPA/AFM printr-o inițiativă parlamentară necesită indicarea sursei de finanțare și fișa financiară conform art. 138 alin. (5) și art. 111 alin. (1) din Constituție.",
+      "euLawNote": "Proiectul urmărește închiderea Mecanismului instituit prin Regulamentul (UE) 2021/241 (art. 24 și art. 32 privind ireversibilitatea reformelor și auditul). Nu cade sub incidența Directivei (UE) 2018/958 (nu reglementează profesii) și nici a Directivei (UE) 2015/1535 TRIS. Totuși, scutirea de la recuperare a sumelor plătite pentru contracte denunțate (art. 11-12) și înlocuirea proiectelor cu altele deja finalizate (art. 9) pot ridica riscuri de audit din partea Comisiei Europene, OLAF și Curții de Conturi Europene (ECA) privind dubla finanțare sau eligibilitatea reală a jaloanelor raportate la Cererea de plată nr. 6.",
+      "senatForm": {
+        "articleRef": "Art. 11, Art. 12 și Art. 13 alin. (1)",
+        "proposalContent": "La art. 11 și 12, teza finală se modifică: „Plățile efectuate pentru partea denunțată rămân cheltuieli definitive ale bugetelor doar dacă nefinalizarea nu se datorează culpei grave sau fraudei beneficiarului.” La art. 13 alin. (1), transferul către PNCIPS se face pe bază de criterii obiective de maturitate și stadiu fizic minim, publicate transparent.",
+        "argumentation": "În forma actuală, art. 11 și 12 transformă automat în cheltuieli definitive ale bugetului (nerecuperabile) toate plățile pentru proiecte PNRR denunțate, chiar și când eșecul provine din culpa beneficiarului. De asemenea, art. 13 alin. (1) deleagă în alb ministrului dezvoltării stabilirea condițiilor de transfer al proiectelor la CNI, fără criterii legale de prioritizare.",
+        "otherComments": "Se impune corelarea Expunerii de motive cu textul legii (numerotarea articolelor din expunere este decalată față de proiect) și prezentarea fișei financiare conform art. 138 alin. (5) din Constituție, întrucât preluarea proiectelor nefinalizate pe bugetul de stat, AFM și MDLPA generează un impact bugetar major pentru contribuabili."
+      }
     },
     "claude": {
       "model": "claude",
@@ -65,8 +93,38 @@
     },
     "codex": {
       "model": "codex",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 102264,
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Închiderea PNRR și plata din bani publici a proiectelor rămase",
+      "verdictShort": "Cadrul de închidere este util, dar unele articole transferă definitiv asupra bugetelor publice costurile proiectelor abandonate, fără garanții suficient de clare privind recuperarea plăților nelegale. Riscul este moderat și privește disciplina financiară, transparența și limitele deciziilor ministeriale.",
+      "initiatorClaim": "Inițiatorii urmăresc reguli unitare pentru închiderea PNRR, stabilirea responsabilităților instituționale și gestionarea proiectelor nefinalizate. Ei invocă necesitatea raportării, controlului și menținerii rezultatelor după încheierea implementării.",
+      "realityCheck": "Textul stabilește termene și responsabilități, permite mutarea unor proiecte către finanțări naționale și declară definitive anumite cheltuieli deja efectuate. Art. 11 și 12 exclud recuperarea unor plăți aferente contractelor denunțate, fără o rezervă expresă pentru plăți nelegale, iar art. 13 lasă condițiile transferurilor unui ordin ministerial. Evaluarea privește exclusiv extrasul furnizat, întrerupt la art. 15 alin. (2); descrierea capitolelor ulterioare în expunerea de motive nu dovedește conținutul lor normativ.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate",
+        "Proprietari & Imobiliare",
+        "Agricultură & Mediu",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 11 și 12 fac definitive plățile aferente părților denunțate și prevăd nerecuperarea lor de la beneficiari. Soluția poate proteja beneficiarii care au executat legal contractele, dar trebuie delimitată expres de fraudă, conflicte de interese și alte plăți nelegale recuperabile potrivit normelor aplicabile.",
+        "Art. 10 și 14 permit continuarea unor proiecte din bugete naționale, în limita fondurilor disponibile, și interzic decontarea repetată a cheltuielilor deja suportate. Sunt garanții utile împotriva dublei finanțări, însă extrasul nu cuantifică obligațiile bugetare rezultate.",
+        "Art. 10 alin. (4) elimină selecția prevăzută de HG nr. 1137/2023 pentru contractele preluate. Continuitatea proiectelor poate justifica această soluție, dar lipsa criteriilor de prioritate devine problematică atunci când bugetul nu ajunge pentru toate contractele eligibile.",
+        "Art. 13 permite transferuri între PNRR și un program național în condiții stabilite prin ordin ministerial. Legea nu precizează aici criteriile de eligibilitate, prioritizarea și limitele financiare; menținerea contractelor și interdicția dublei finanțări nu acoperă toate aceste aspecte.",
+        "Art. 6–8 și 15 alin. (1) folosesc termene calendaristice care, la data evaluării, sunt depășite. Expunerea de motive menționează o dispoziție tranzitorie, dar aceasta lipsește din extras și nu poate fi evaluată sau considerată suficientă.",
+        "Nu apar taxe noi pentru populație, restricții profesionale, monopoluri ori sancțiuni în articolele disponibile. Povara directă de raportare revine în principal autorităților și beneficiarilor PNRR; impactul asupra cetățenilor este predominant bugetar și prin finalizarea serviciilor sau infrastructurii."
+      ],
+      "blindSpotsCaught": "PNRR finanțează rezultate evaluate prin jaloane și ținte: declararea unei cheltuieli ca definitivă în bugetul național nu obligă Comisia să o acopere și nu dovedește îndeplinirea unui jalon. O dispoziție națională tranzitorie nu poate prelungi termenele europene. În plus, stadiul indicat «Lege 183/2026» presupune că amendarea proiectului în comisie s-a încheiat. Stadiul și sursele externe nu au putut fi verificate independent.",
+      "constitutionalityNote": "Art. 1 alin. (5) impune claritate și previzibilitate: formulările generale privind nerecuperarea, delegarea din art. 13 și corelarea termenelor necesită precizare. Dacă legea ar atașa retroactiv consecințe juridice noi unor fapte epuizate, ar trebui verificat art. 15 alin. (2); simpla reglementare a plăților viitoare pentru contracte existente nu este automat retroactivă. Pentru efectele bugetare trebuie verificate sursele cerute de art. 138 alin. (5) și solicitarea informării Guvernului în condițiile art. 111 alin. (1); extrasul nu permite constatarea unei încălcări procedurale. Art. 23 alin. (12), privind pedepsele, nu este incident în lipsa unor norme sancționatorii relevante în textul disponibil.",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea restricțiilor privind accesul la profesii reglementate sau exercitarea lor; articolele disponibile nu introduc asemenea restricții. Simpla referire la cloudul guvernamental și la salariile experților nu declanșează notificarea TRIS potrivit Directivei (UE) 2015/1535, nefiind identificată o nouă reglementare tehnică pentru produse ori servicii ale societății informaționale. Art. 22 din Regulamentul (UE) 2021/241 impune protejarea intereselor financiare ale Uniunii; nerecuperarea națională nu poate înlătura obligațiile europene aplicabile. Transferurile către finanțări naționale trebuie verificate, după natura beneficiarilor și avantajului, și prin regulile ajutoarelor de stat și achizițiilor publice; nu rezultă automat o încălcare.",
+      "senatForm": {
+        "articleRef": "Art. 11 și art. 12, ultima teză",
+        "proposalContent": "La art. 11 și 12, ultima teză se înlocuiește cu: «Plățile aferente părții denunțate rămân cheltuieli definitive ale bugetelor din care au fost efectuate și nu se recuperează de la beneficiari, cu excepția sumelor pentru care legislația națională sau dreptul Uniunii Europene impune recuperarea.»",
+        "argumentation": "Protecția beneficiarilor pentru costurile contractelor denunțate trebuie conciliată cu recuperarea plăților nelegale. Rezerva expresă previne interpretarea nerecuperării ca exonerare generală și protejează bugetul public și obligațiile României potrivit art. 22 din Regulamentul (UE) 2021/241.",
+        "otherComments": "Dacă stadiul «Lege 183/2026» este confirmat, propunerea necesită o inițiativă de modificare a legii, nu un amendament la proiectul deja adoptat. Pentru evaluarea integrală sunt necesare articolele ulterioare art. 15 alin. (1), inclusiv dispoziția tranzitorie."
+      }
     }
   }
 }

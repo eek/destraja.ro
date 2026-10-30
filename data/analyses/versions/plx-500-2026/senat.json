@@ -2,9 +2,9 @@
   "billId": "PL-x 500/2026",
   "slug": "plx-500-2026",
   "version": "senat",
-  "updatedAt": "2026-10-30T08:32:54.230Z",
+  "updatedAt": "2026-10-30T09:33:14.651Z",
   "consensus": {
-    "riskScore": 3,
+    "riskScore": 3.7,
     "riskLevel": "green",
     "plainTitle": "Portal național „e-SănătateaMea” și programări online obligatorii la medic prin CNAS",
     "summaryTlDr": "Lege tehnică, utilă pentru digitalizare și aliniată la Spațiul European al Datelor de Sănătate. Problema ei este că e prea scurtă: impune o obligație („toți furnizorii”) fără să spună cine anume, cum, cu ce date și pe ce bază normativă.",
@@ -12,9 +12,9 @@
     "realityCheck": "Articolul unic face trei lucruri: obligă CNAS să dezvolte și să administreze portalul, creează un modul de programare pe care „toți furnizorii” trebuie să îl folosească din T IV 2026 și prevede un proiect pilot până atunci. Nu delimitează furnizorii vizați (cu sau fără contract CNAS), nu prevede norme de aplicare, nu fixează durata și criteriile pilotului și nu reglementează prelucrarea datelor medicale. Nu există sancțiuni, deci obligația e greu de aplicat, iar cabinetele mici pot ajunge să gestioneze două sisteme de programare în paralel.",
     "affectedGroups": [
       "Sănătate & Educație",
-      "IT & AI",
+      "Toți cetățenii",
       "IMM & Antreprenori",
-      "Justiție & Drepturi Civile"
+      "IT & AI"
     ],
     "senatForm": {
       "articleRef": "Art. unic – art. 280 alin. (2³)-(2⁴) L. 95/2006",
@@ -26,8 +26,35 @@
   "council": {
     "agy": {
       "model": "agy",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 64686,
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Portalul „e-SănătateaMea” și programările online obligatorii la medic prin CNAS",
+      "verdictShort": "O inițiativă utilă de digitalizare din PNRR care oferă pacienților acces online la propriul istoric medical și la programări, dar care riscă să dubleze birocrația în cabinete și clinici dacă portalul de programări al CNAS devine obligatoriu fără conectare automată (API) cu softurile medicale existente.",
+      "initiatorClaim": "Inițiatorul urmărește îndeplinirea jalonului PNRR de modernizare a Platformei Informatice din Asigurările de Sănătate (PIAS) până la 31 august 2026, prin lansarea portalului „e-SănătateaMea”, unde asigurații își pot vedea istoricul medical, rețetele și se pot programa online la furnizorii de servicii medicale.",
+      "realityCheck": "Pentru pacienți, accesul online la propriul dosar și la decontările din CNAS este un progres major de transparență. Pentru medici și clinici însă, alin. (2³) introduce din trimestrul IV 2026 obligația utilizării portalului de programări al CNAS, fără a garanta prin lege interoperabilitatea automată (API) cu sistemele informatice de programări pe care cabinetele și spitalele le folosesc deja și fără a reglementa procedurile de avarie când PIAS este nefuncțional.",
+      "affectedGroups": [
+        "Sănătate & Educație",
+        "Toți cetățenii",
+        "IMM & Antreprenori",
+        "IT & AI"
+      ],
+      "keyFindings": [
+        "Art. 280 alin. (2¹)-(2²): Din semestrul II 2026, CNAS pune la dispoziția asiguraților portalul „e-SănătateaMea” pentru acces securizat la date medicale personale, rețete, servicii decontate și interacțiune cu furnizorii.",
+        "Art. 280 alin. (2³): Începând cu trimestrul IV 2026, toți furnizorii au obligația să utilizeze portalul electronic de programare a pacienților din cadrul „e-SănătateaMea”, fără a fi prevăzută sincronizarea automată (API) cu softurile de recepție și programare deja utilizate de clinici și cabinete.",
+        "Neclaritate privind sfera furnizorilor obligați: Alin. (2²) menționează „furnizorii de servicii medicale, medicamente și dispositive medicale”, iar alin. (2³) obligă „toți furnizorii” să folosească portalul de programări, deși farmaciile și distribuitorii de dispozitive nu funcționează pe bază de programare a pacienților.",
+        "Lipsa reglementării situațiilor de avarie tehnică și a canalelor alternative: Textul nu precizează ce se întâmplă când platforma CNAS este indisponibilă și nici cum se integrează programările telefonice sau fizice pentru pacienții vârstnici ori din mediul rural fără acces digital."
+      ],
+      "blindSpotsCaught": "Textul adoptat de Senat conține o eroare materială la alin. (2²) („dispositive medicale” în loc de „dispozitive medicale”), folosește construcția redundantă „În cadrul portalului «e-SănătateaMea» funcționează un portal electronic” la alin. (2³) și omite complet obligația CNAS de a pune la dispoziție interfețe API deschise și gratuite pentru sincronizarea programărilor cu softurile medicale existente, riscând atât dubla introducere manuală a datelor de către medici, cât și dezavantajarea platformelor private de programări medicale.",
+      "constitutionalityNote": "Sub aspectul art. 34 din Constituție (dreptul la ocrotirea sănătății), proiectul este pozitiv, crescând transparența serviciilor decontate și accesul pacientului la datele sale. Din perspectiva art. 1 alin. (5) privind calitatea și previzibilitatea legii, sintagma „toți furnizorii au obligația să îl utilizeze” din alin. (2³) este insuficient circumscrisă față de enumerarea de la alin. (2²) și nu este însoțită de trimiteri la norme metodologice privind interoperabilitatea tehnică sau regimul sancționator/derogatoriu în caz de nefuncționare a PIAS.",
+      "euLawNote": "Măsura este aliniată cu obiectivele Regulamentului (UE) 2025/327 privind Spațiul european al datelor privind sănătatea (EHDS), care impune statelor membre să asigure cetățenilor acces electronic gratuit și imediat la propriile date de sănătate prioritare, precum și cu Regulamentul (UE) 2016/679 (GDPR). Totuși, din perspectiva concurenței pe piața serviciilor digitale medicale și a standardelor europene de interoperabilitate din EHDS, impunerea unui modul unic de programare fără interfețe deschise (API) pentru aplicațiile terțe de gestiune a clinicilor poate distorsiona piața locală de software medical.",
+      "senatForm": {
+        "articleRef": "Articol unic - art. 280 alin. (2²) și (2³)",
+        "proposalContent": "La alin. (2²) se corectează termenul „dispositive” în „dispozitive”. Alin. (2³) se modifică: „(2³) În cadrul portalului «e-SănătateaMea» funcționează un modul pentru programarea pacienților, interoperabil prin API cu sistemele informatice proprii ale furnizorilor de servicii medicale aflați în contract cu casele de asigurări, utilizat începând cu trimestrul IV 2026.”",
+        "argumentation": "Textul actual obligă „toți furnizorii” (inclusiv farmaciile vizate la alin. 2²) să utilizeze portalul de programări și nu prevede conectarea automată (API) cu softurile deja folosite de clinici și cabinete. Fără interoperabilitate tehnică, personalul medical va fi forțat să opereze manual programările în două sisteme paralele.",
+        "otherComments": "Se impune clarificarea prin norme că indisponibilitatea tehnică a PIAS/e-SănătateaMea nu blochează acordarea și decontarea serviciilor medicale și nu împiedică programările telefonice sau directe pentru pacienții vârstnici ori fără acces la internet."
+      }
     },
     "claude": {
       "model": "claude",
@@ -66,8 +93,35 @@
     },
     "codex": {
       "model": "codex",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 90390,
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Dosarul medical online și programările prin portalul CNAS",
+      "verdictShort": "Digitalizarea propusă este utilă, dar obligația tuturor furnizorilor de a utiliza portalul este insuficient delimitată. Riscul este moderat: textul nu introduce taxe sau sancțiuni, însă lasă neclare condițiile practice ale utilizării obligatorii.",
+      "initiatorClaim": "Inițiatorul urmărește accesul securizat al asiguraților la informațiile medicale proprii și simplificarea interacțiunii cu furnizorii. Portalul este prezentat ca parte a modernizării PIAS finanțate prin PNRR.",
+      "realityCheck": "Textul atribuie CNAS dezvoltarea și administrarea portalului și obligă «toți furnizorii» să utilizeze componenta de programări din trimestrul IV 2026. Nu stabilește expres exclusivitatea programărilor online, nu obligă pacienții să dețină cont și nu interzice aplicațiile private. Totuși, nu delimitează furnizorii și serviciile vizate, integrarea aplicațiilor existente sau procedura aplicabilă când portalul nu funcționează.",
+      "affectedGroups": [
+        "Sănătate & Educație",
+        "IMM & Antreprenori",
+        "IT & AI",
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Alin. (2³) impune utilizarea portalului de către «toți furnizorii», fără să precizeze expres dacă obligația privește numai furnizorii contractați de casele de asigurări și numai serviciile decontate. Contextul asigurărilor de sănătate susține o interpretare limitată, dar formularea poate genera aplicări neuniforme, inclusiv pentru categorii de furnizori pentru care programarea nu este relevantă.",
+        "Alin. (2¹)-(2²) creează un punct de acces la informații medicale sensibile. Mențiunea «acces securizat» nu descrie autentificarea, reprezentarea minorilor, drepturile de acces sau jurnalizarea; trebuie verificat cât acoperă deja legislația PIAS și a dosarului electronic de sănătate. Referirea la GDPR din expunerea de motive nu completează dispozitivul legii și nici nu înlocuiește aceste garanții.",
+        "Alin. (2³)-(2⁴) fixează utilizarea obligatorie din trimestrul IV 2026 și un pilot anterior, fără durată minimă, criterii de evaluare sau condiționarea obligației de funcționarea efectivă. Proiectul nu introduce taxe ori sancțiuni proprii și nu cuantifică eventualele costuri de integrare, instruire și operare pentru CNAS și furnizori; finanțarea PNRR invocată nu demonstrează acoperirea cheltuielilor recurente."
+      ],
+      "blindSpotsCaught": "Alin. (2¹) vorbește despre accesul «asiguraților», iar alin. (2²) despre accesul «pacienților», categorii care nu coincid integral. În plus, un portal public obligatoriu poate produce costuri de dublă operare dacă nu permite integrarea aplicațiilor existente, fără ca aceasta să însemne automat instituirea unui monopol comercial. Analiza privește exclusiv forma Senatului furnizată; identitatea ei cu Legea 157/2026 și documentele procedurale nu au fost verificate online.",
+      "constitutionalityNote": "Principala vulnerabilitate privește art. 1 alin. (5): destinatarii și întinderea obligației de utilizare trebuie să fie previzibili. Art. 23 alin. (12), referitor la legalitatea pedepselor, nu este un reper direct pentru aceste alineate, care nu instituie pedepse. Datele medicale implică art. 26, iar accesul efectiv la servicii implică art. 34; simpla creare a portalului nu dovedește încălcarea lor, dar implementarea trebuie să protejeze confidențialitatea și accesul persoanelor fără competențe digitale. Eventualele probleme privind informarea Guvernului, potrivit art. 111 alin. (1), și sursa finanțării, potrivit art. 138 alin. (5), necesită examinarea dosarului și a efectelor bugetare efective; nu rezultă automat din extrase.",
+      "euLawNote": "Directiva (UE) 2018/958 nu impune un test pentru orice obligație informatică: trebuie stabilit dacă măsura restrânge accesul la o profesie reglementată sau exercitarea acesteia. Dacă obligația intră în acest domeniu, necesitatea și proporționalitatea sa trebuie evaluate. Directiva (UE) 2015/1535 nu se aplică automat pentru că există un portal digital: trebuie verificat dacă dispozițiile constituie o regulă notificabilă privind servicii ale societății informaționale; extrasele nu permit confirmarea existenței ori necesității unei notificări TRIS. Textul nu reglementează AI. GDPR se aplică direct: trebuie identificate temeiurile pertinente din art. 6 și 9, respectate minimizarea și securitatea, iar evaluarea de impact prevăzută de art. 35 este, în principiu, relevantă pentru prelucrarea pe scară largă a datelor medicale. Concurența poate fi afectată practic prin integrare costisitoare sau închiderea accesului aplicațiilor existente, dar textul nu acordă unui operator privat un drept exclusiv.",
+      "senatForm": {
+        "articleRef": "Articol unic, art. 280 alin. (2³)",
+        "proposalContent": "(2³) Furnizorii aflați în contract cu casele de asigurări de sănătate utilizează portalul pentru programarea serviciilor decontate, după operaționalizarea sa anunțată public de CNAS. Rămân disponibile programarea telefonică și la sediu, precum și aplicațiile interoperabile. Indisponibilitatea portalului nu împiedică acordarea serviciilor.",
+        "argumentation": "Textul delimitează furnizorii și serviciile vizate, condiționează obligația de funcționarea portalului și păstrează accesul persoanelor fără mijloace digitale. Interoperabilitatea poate reduce dubla introducere a datelor și costurile furnizorilor, fără a elimina programarea prin CNAS.",
+        "otherComments": "Potrivit stadiului furnizat, proiectul a devenit Legea 157/2026, iar termenul pentru amendamente a trecut. Propunerea nu mai poate fi preluată ca amendament în dosarul încheiat; poate fundamenta o inițiativă de modificare a legii în vigoare, după verificarea textului promulgat și corelarea alin. (2⁴)."
+      }
     }
   }
 }

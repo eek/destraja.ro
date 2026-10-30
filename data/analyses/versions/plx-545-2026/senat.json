@@ -2,9 +2,9 @@
   "billId": "PL-x 545/2026",
   "slug": "plx-545-2026",
   "version": "senat",
-  "updatedAt": "2026-10-30T08:44:07.727Z",
+  "updatedAt": "2026-10-30T09:46:37.862Z",
   "consensus": {
-    "riskScore": 3,
+    "riskScore": 3.7,
     "riskLevel": "green",
     "plainTitle": "Conturi de investiții la bursă fără impozit, cu banii blocați până la pensie sau 65 de ani",
     "summaryTlDr": "Este o lege utilă pentru cetățeni: un cont voluntar de investiții cu impozitare redusă, după modelul IRA/ISA, fără obligații sau sancțiuni pentru populație. Problemele țin de redactare și de lipsa oricărui plafon al contribuțiilor, care deschide un cost bugetar neestimat. Nu conține capcane împotriva cetățenilor.",
@@ -12,9 +12,9 @@
     "realityCheck": "Legea creează două conturi la SSIF-uri sau bănci. CIIV-S se alimentează din bani deja impozitați, iar câștigurile și retragerile sunt scutite de impozit și de contribuții sociale. CIIV-D are contribuții deductibile sau neimpozabile, iar la retragere se aplică impozit pe venit, fără contribuții sociale. Câștigurile din interiorul conturilor nu se impozitează, iar banii rămân blocați până la pensie sau la 65 de ani. Chichițele sunt: lipsa totală a unui plafon anual sau pe viață, mecanismul neoperaționalizat de nereținere a impozitului pe dividende prin Depozitarul Central, eligibilitatea fără condiție de rezidență (deși Expunerea de motive o invocă) și o sistematizare a capitolelor greșită.",
     "affectedGroups": [
       "Toți cetățenii",
-      "Contabili & Fiscalitate",
       "Angajați & HR",
-      "IMM & Antreprenori"
+      "IMM & Antreprenori",
+      "Contabili & Fiscalitate"
     ],
     "senatForm": {
       "articleRef": "Art.8 – plafon anual contribuții CIIV",
@@ -26,8 +26,35 @@
   "council": {
     "agy": {
       "model": "agy",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 60702,
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Conturi individuale de investiții pe bursă cu scutiri sau deduceri de taxe pentru bătrânețe (CIIV)",
+      "verdictShort": "O inițiativă binevenită și voluntară care scutește de impozit pe câștiguri și de CASS investițiile pe termen lung ale cetățenilor (după modelul Roth IRA/ISA), dar care a trecut de Senat cu erori serioase de redactare, capitole decalate față de articole și trimiteri necorelate la Codul fiscal.",
+      "initiatorClaim": "Inițiatorii propun crearea unui instrument modern și voluntar de economisire pe termen lung pe piața de capital, cu stimulente fiscale (scutire de impozit la retragere sau deductibilitate la depunere), pentru a suplimenta veniturile la pensie și a dezvolta bursa locală.",
+      "realityCheck": "Mecanismul de bază este favorabil cetățenilor (scutire de impozit pe dividende/câștiguri și de CASS pe durata deținerii contului și la retragerea din CIIV-S), însă forma adoptată de Senat suferă de vicii tehnice care îi pot bloca aplicarea la ANAF. Trimiterile la deducerile din Codul fiscal (art. 68 și art. 78) nu stabilesc un plafon clar și nu modifică efectiv Codul fiscal, iar eliminarea unui articol în Senat a lăsat titlurile Capitolelor V și VI decalate față de conținutul articolelor.",
+      "affectedGroups": [
+        "Toți cetățenii",
+        "Angajați & HR",
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate"
+      ],
+      "keyFindings": [
+        "Decalaj major de tehnică legislativă în textul adoptat de Senat: regimul fiscal se află la Art. 8 (în Capitolul IV), în timp ce titlul „Capitolul V - Regimul fiscal” a rămas plasat deasupra Art. 9 (Transferul între administratori), iar „Capitolul VI - Transferul și portabilitatea” deasupra Art. 10 (Falimentul administratorului).",
+        "Neclaritate fiscală la Art. 8 alin. (2)-(3): legea trimite la aplicarea regulilor de la art. 68 și art. 78 alin. (2) lit. a) din Codul fiscal pentru deducerea contribuțiilor în contul CIIV-D, fără a modifica însă Codul fiscal și fără a preciza un plafon anual propriu, riscând fie blocarea deducerii de către ANAF, fie înghesuirea ei în plafonul existent de 400 euro/an al Pilonului III.",
+        "Restrângerea concurenței și confuzie conceptuală la Art. 1 alin. (2)-(3): conturile CIIV sunt definite exclusiv ca „portofolii” deschise la SSIF-uri și bănci autorizate să presteze „serviciul de administrare de portofolii”, omițând Societățile de Administrare a Investițiilor (SAI) și brokerii din alte state UE care operează prin pașaport european.",
+        "Blocarea rigidă a sumelor la Art. 5 alin. (3): textul prevede că fondurile pot fi retrase doar la deschiderea dreptului de pensie sau după 65 de ani, fără a detalia în articolele extrase procedura de retragere anticipată în caz de urgență (nici măcar pentru conturile CIIV-S alimentate din bani deja impozitați)."
+      ],
+      "blindSpotsCaught": "În urma eliminării unui articol față de proiectul inițial (care avea 19 articole și numea instrumentul CIIP), renumerotarea din Senat s-a făcut mecanic doar pe cifrele articolelor, nu și pe titlurile capitolelor. În plus, la Art. 7 alin. (1) lit. c), acronimul este scris greșit „CIIIV” (cu trei de I) și impune înștiințarea Depozitarului Central pentru a nu se reține la sursă impozitul pe dividende, mecanism inaplicabil tehnic pentru acțiunile străine din state OCDE/UE permise la Art. 6.",
+      "constitutionalityNote": "Scutirile fiscale instituite sunt constituționale și respectă art. 56 alin. (2) din Constituție. Totuși, decalarea titlurilor Capitolelor V și VI față de obiectul articolelor 8, 9 și 10, precum și trimiterile incomplete din Art. 8 la Codul fiscal încalcă exigențele de calitate, claritate și previzibilitate a legii consacrate de art. 1 alin. (5) din Constituție și Legea nr. 24/2000.",
+      "euLawNote": "Proiectul transpune oportun spiritul Recomandării Comisiei Europene din 30.09.2025 privind conturile de economii și investiții (SIU). Însă Art. 1 alin. (3) trebuie corelat cu Directiva 2014/65/UE (MiFID II) și cu art. 56 TFUE (libera prestare a serviciilor), pentru a permite explicit furnizarea conturilor CIIV și de către firmele de investiții din alte state membre UE pașaportate în România, precum și de către SAI-uri.",
+      "senatForm": {
+        "articleRef": "Art. 1 alin. (3), Art. 8 și Cap. V-VI",
+        "proposalContent": "La art. 1 alin. (3) se includ SAI-urile și firmele de investiții din UE autorizate conform Legii nr. 126/2018. La art. 8 alin. (2)-(4) se precizează expres plafonul anual de deductibilitate pentru CIIV-D și scutirea de CAS/CASS pentru contribuțiile din art. 8 alin. (1) lit. c). Titlurile Cap. V și VI se realiniază înaintea art. 8, respectiv art. 9.",
+        "argumentation": "Limitarea administratorilor doar la SSIF și bănci exclude nejustificat SAI-urile și brokerii din UE pașaportați. Trimiterea generică din art. 8 la art. 68 și art. 78 din Codul fiscal, fără plafon propriu ori modificarea Codului fiscal, blochează aplicarea deducerii în practică. De asemenea, în forma Senatului, titlurile Capitolelor V și VI sunt decalate cu câte un articol.",
+        "otherComments": "Se impune corectarea erorii materiale „CIIIV” din art. 7 alin. (1) lit. c) în „CIIV” și reglementarea expresă la art. 5 alin. (3) a condițiilor în care titularul poate lichida anticipat contul (înainte de 65 de ani/pensionare), cu pierderea facilității fiscale, pentru a nu bloca absolut economiile private ale cetățenilor în situații de urgență."
+      }
     },
     "claude": {
       "model": "claude",
@@ -68,8 +95,39 @@
     },
     "codex": {
       "model": "codex",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 118601,
+      "riskScore": 5,
+      "riskLevel": "yellow",
+      "plainTitle": "Conturi de investiții cu avantaje fiscale și bani blocați până la pensionare",
+      "verdictShort": "Instrumentul poate încuraja economisirea voluntară, dar facilitățile fiscale insuficient delimitate și unele ambiguități cer corecturi. Fragmentul analizat nu justifică acuzații de confiscare, monopol sau sancțiuni abuzive.",
+      "initiatorClaim": "Inițiatorii urmăresc venituri suplimentare la pensionare, participare mai mare la investiții și dezvoltarea pieței de capital. Propun două mecanisme: contribuții deductibile cu impozitare la retragere și contribuții din venituri deja impozitate cu retrageri scutite.",
+      "realityCheck": "Art. 3, 5 și 8 instituie portofolii voluntare cu acces la bani condiționat de pensionare sau împlinirea vârstei de 65 de ani, investiții scutite pe durata deținerii și tratamente fiscale diferite la retragere. În fragment nu apare un plafon anual individual pentru deducerile contribuțiilor proprii, iar contribuțiile angajatorului sunt raportate la plafonul lunar de 33%; avantajul fiscal poate favoriza persoanele cu disponibilități mari de economisire. Textul se întrerupe la art. 12 alin. (2), astfel încât dispozițiile finale, eventualele sancțiuni și mecanismele suplimentare de protecție nu pot fi evaluate.",
+      "affectedGroups": [
+        "Toți cetățenii",
+        "Angajați & HR",
+        "Contabili & Fiscalitate",
+        "IMM & Antreprenori"
+      ],
+      "keyFindings": [
+        "Art. 4 permite oricărei persoane fizice să deschidă conturi, în timp ce expunerea de motive descrie persoane rezidente cu venituri impozabile. Efectul juridic rezultă din articole, nu din această prezentare mai restrictivă.",
+        "Art. 8 alin. (2)-(3) nu stabilește expres un plafon anual al contribuțiilor proprii deductibile. Trimiterile la regulile generale din Codul fiscal nu identifică un plafon specific CIIV; costul bugetar trebuie calculat, inclusiv pentru titularii cu mai multe conturi.",
+        "Art. 8 alin. (6) impozitează integral retragerile din CIIV-D, inclusiv capitalul contribuit. Mecanismul este coerent cu deducerea inițială, dar trebuie precizat tratamentul contribuțiilor care nu au beneficiat efectiv de facilitate, pentru a evita impozitarea repetată.",
+        "Art. 5 interzice implicit retragerile obișnuite înaintea evenimentului eligibil, fără să prevadă în fragment o ieșire anticipată pentru dificultăți financiare. Pensionarea anticipată sau de invaliditate permite însă accesul înainte de 65 de ani; blocarea nu are aceeași durată pentru toți.",
+        "Art. 6 interzice investițiile directe în derivate, dar permite anumite OPCVM-uri care le utilizează. Nu introduce limite generale de concentrare a portofoliului: eligibilitatea instrumentelor nu garantează diversificarea și nici conservarea capitalului.",
+        "Art. 9 permite transferuri integrale sau parțiale între administratori, fără comision de transfer și în maximum 15 zile lucrătoare. Este o măsură favorabilă concurenței, deși modalitatea transferului și tratarea instrumentelor netransferabile necesită clarificare.",
+        "Art. 10 trimite la protecția FCI în condițiile Legii nr. 88/2021. Aceasta nu echivalează cu garantarea randamentului, acoperirea pierderilor bursiere sau protejarea nelimitată a întregului portofoliu.",
+        "Art. 11 alin. (2) lit. a) cere expres același tip de cont pentru transferul succesoral, dar nu repetă condiția pentru cumularea într-un cont existent. Formularea trebuie uniformizată pentru a înlătura interpretarea unei conversii indirecte între CIIV-D și CIIV-S."
+      ],
+      "blindSpotsCaught": "Fișa indică deja Legea nr. 202/2026, iar termenul de amendamente indicat a expirat. Dacă stadiul este corect, un e-mail către comisie nu mai poate modifica această lege prin amendarea proiectului încheiat; textul propus poate susține o inițiativă legislativă de modificare. Separat, documentele informative online nu transformă automat serviciul financiar într-o reglementare digitală supusă TRIS.",
+      "constitutionalityNote": "Art. 1 alin. (5) impune clarificarea deducerilor, a administrării «individualizate» și a regulilor succesorale; greșelile de numerotare sau redactare nu dovedesc singure neconstituționalitatea. Art. 23 alin. (12) privește legalitatea pedepselor și nu oferă un motiv autonom de critică pentru fragmentul fără norme penale prezentat. Art. 16 și art. 56 alin. (2) permit facilități fiscale justificate obiectiv, dar distribuția avantajelor și diferențele dintre beneficiari trebuie fundamentate. Expunerea greșește când prezintă fiscalitatea ca materie automat organică: art. 73 alin. (3) nu rezervă în general impozitele legii organice. Pentru reducerea veniturilor bugetare trebuie verificată respectarea art. 111 alin. (1), iar eventualele cheltuieli trebuie examinate și prin art. 138 alin. (5); fragmentul nu dovedește respectarea sau încălcarea acestor cerințe.",
+      "euLawNote": "Directiva (UE) 2018/958 privește restricțiile privind accesul la profesii reglementate și exercitarea lor; autorizarea societăților financiare nu declanșează automat testul său de proporționalitate. Accesul administratorilor și definiția OPCVM trebuie însă corelate cu MiFID II, regimul OPCVM și drepturile prestatorilor autorizați în alte state membre: formularea «autorizate de ASF» nu trebuie să excludă organisme europene comercializate legal în România. Directiva (UE) 2015/1535 nu impune notificare doar fiindcă extrasele sunt online; serviciile financiare beneficiază de excluderea specifică prevăzută de directivă. Scutirile românești nu înlătură automat impozitele reținute de alte state asupra dividendelor externe.",
+      "senatForm": {
+        "articleRef": "Art. 11 alin. (2) lit. a)",
+        "proposalContent": "a) transferul activelor într-un cont CIIV propriu nou sau cumularea lor într-un cont CIIV propriu existent, în ambele situații exclusiv de același tip cu cel al contului titularului decedat;",
+        "argumentation": "Condiția păstrării tipului de cont trebuie să privească expres atât transferul, cât și cumularea. Se elimină ambiguitatea care ar putea permite interpretarea unei treceri succesorale din CIIV-D în CIIV-S, cu evitarea impozitării prevăzute la art. 8 alin. (6).",
+        "otherComments": "Evaluarea privește fragmentul furnizat; stadiul și sursele externe nu au putut fi verificate independent. Dacă Legea nr. 202/2026 este deja promulgată, propunerea necesită o inițiativă legislativă de modificare, nu un amendament la proiectul încheiat."
+      }
     }
   }
 }

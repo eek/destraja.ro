@@ -2,9 +2,9 @@
   "billId": "Pl-x 337/2026",
   "slug": "plx-337-2026",
   "version": "initiator",
-  "updatedAt": "2026-10-30T08:22:50.203Z",
+  "updatedAt": "2026-10-30T09:21:19.576Z",
   "consensus": {
-    "riskScore": 3,
+    "riskScore": 2.7,
     "riskLevel": "green",
     "plainTitle": "Dreptul de a afla de ce ți s-a refuzat sau retras accesul la informații secrete și de a contesta real decizia în instanță",
     "summaryTlDr": "Este o lege utilă, care protejează drepturile persoanei și răspunde unei probleme reale semnalate la CEDO. Textul e însă foarte scurt: nu spune cine motivează decizia, în ce termen, ce trebuie să cuprindă rezumatul și cum se judecă, așa că eficiența lui depinde de completări.",
@@ -25,8 +25,33 @@
   "council": {
     "agy": {
       "model": "agy",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 61018,
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Obligația motivării refuzului sau retragerii certificatului de securitate ORNISS și controlul judecătoresc pe probe",
+      "verdictShort": "O inițiativă legislativă binevenită și necesară, care pune capăt practicii retragerii nemotivate a certificatelor de securitate și aliniază România la jurisprudența CEDO. Textul suferă însă de câteva necorelări terminologice și de tehnică legislativă care trebuie corectate prin amendamente pentru a nu lăsa portițe instituționale.",
+      "initiatorClaim": "Inițiatorii urmăresc eliminarea arbitrariului în procedura de acordare sau retragere a certificatelor de securitate (ORNISS), în acord cu hotărârea CEDO în cauza Corneschi c. României (2022). Proiectul instituie obligația comunicării unui rezumat neclasificat al motivelor și dreptul instanței de a verifica direct probele clasificate.",
+      "realityCheck": "În mod real, proiectul introduce două garanții importante: nulitatea absolută a deciziei nemotivate (Art. 28¹) și controlul judiciar de plină jurisdicție asupra temeiniciei probelor (Art. 30). Totuși, redactarea sumară confundă termenii legii („autorizație de securitate” vs. „certificat de securitate” și „aviz negativ”) și nu obligă explicit autoritatea care face verificările (SRI/MApN/MAI) să furnizeze rezumatul neclasificat către ORNISS, riscând pasarea responsabilității între instituții.",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile",
+        "Angajați & HR"
+      ],
+      "keyFindings": [
+        "Art. I pct. 1 (Art. 28¹ alin. 1-3): Instituie obligația motivării în fapt și în drept a refuzului sau retragerii autorizației, furnizarea unui rezumat neclasificat al motivelor dacă acestea conțin secrete de stat și sancțiunea nulității absolute în caz de nemotivare.",
+        "Art. I pct. 2 (Art. 30): Permite atacarea deciziei în contencios administrativ și obligă instanța să verifice temeinicia probelor care au stat la baza avizului negativ, cu acces la dosarul complet.",
+        "Necorelare terminologică și instituțională: Legea nr. 182/2002 și HG nr. 585/2002 operează cu „certificat de securitate” / „autorizație de acces” (emise de ORNISS/conducătorul unității) pe baza unui „aviz” (emis de Autoritatea Desemnată de Securitate - ADS). Dacă obligația redactării rezumatului neclasificat nu este impusă direct emitentului avizului negativ (ADS), ORNISS poate invoca imposibilitatea obiectivă de a motiva în fapt.",
+        "Art. II: Obligă Guvernul ca în 60 de zile să actualizeze HG nr. 585/2002 (Standardele naționale de protecție a informațiilor clasificate), actul infralegal care în prezent interzice comunicarea motivelor la retragerea sau refuzul certificatului."
+      ],
+      "blindSpotsCaught": "1) Deși Expunerea de motive invocă expres Decizia CCR nr. 21/2018 privind accesul avocatului la informații clasificate, Art. 30 propus acordă acces la dosarul complet doar „instanței”, omițând să reglementeze accesul apărătorului autorizat al părții. 2) Suprascrierea directă a Art. 30 din Legea nr. 182/2002 fără verificarea textului existent în vigoare la acel articol riscă să abroge involuntar o normă de fond existentă în lege (fiind preferabilă introducerea unui art. 28² sau 30¹). 3) Sintagma „în regim de confidențialitate” din Art. 30 este improprie, standardul tehnic din Legea nr. 182/2002 fiind „cu respectarea regimului informațiilor clasificate”.",
+      "constitutionalityNote": "Proiectul consolidează substanțial Art. 21 (accesul liber la justiție și dreptul la un proces echitabil), Art. 24 (dreptul la apărare) și Art. 52 (dreptul persoanei vătămate de o autoritate publică) din Constituție. Totuși, sub aspectul Art. 1 alin. (5) privind calitatea și previzibilitatea legii, necorelarea dintre noțiunea de „decizie de refuz/retragere a autorizației de securitate” (Art. 28¹) și cea de „aviz negativ” (Art. 30), precum și omisiunea reglementării accesului avocatului conform Deciziei CCR nr. 21/2018, trebuie remediate în comisiile Senatului.",
+      "euLawNote": "Proiectul este pe deplin convergent cu Art. 47 din Carta Drepturilor Fundamentale a UE (dreptul la o cale de atac eficientă) și cu jurisprudența CJUE (ex. cauza C-300/11, ZZ, privind obligația comunicării cel puțin a esenței motivelor în materie de securitate națională) și CEDO (Corneschi c. României, 2022). Nu ridică probleme pe Directiva (UE) 2018/958 (dimpotrivă, elimină o barieră arbitrară în exercitarea unor profesii și funcții) și nu intră sub incidența notificării TRIS conform Directivei (UE) 2015/1535.",
+      "senatForm": {
+        "articleRef": "Art. I pct. 1 și 2 (Art. 28¹ și Art. 30)",
+        "proposalContent": "La Art. 28¹ alin. (1)-(2), sintagma „autorizației de securitate” se înlocuiește cu „certificatului de securitate sau autorizației de acces, precum și avizul negativ prealabil”. La Art. 30, teza a II-a se completează cu: „precum și apărătorului părții, în condițiile legii, cu respectarea regimului informațiilor clasificate.”",
+        "argumentation": "Legea nr. 182/2002 folosește noțiunile de „certificat de securitate” și „autorizație de acces”, emise în baza „avizului” autorității desemnate de securitate (ADS). Dacă obligația motivării nu vizează expres și avizul ADS, ORNISS va invoca lipsa datelor. De asemenea, conform Deciziei CCR nr. 21/2018, și avocatul părții trebuie să aibă acces reglementat la dosar.",
+        "otherComments": "Susțin adoptarea proiectului, fiind esențial pentru eliminarea abuzurilor administrative și alinierea la jurisprudența CEDO (cauza Corneschi c. României). Este necesară însă corelarea cu conținutul actual al art. 30 din Legea nr. 182/2002 (pentru a nu abroga involuntar normele existente) prin introducerea unui articol nou (art. 30¹) în locul modificării art. 30."
+      }
     },
     "claude": {
       "model": "claude",
@@ -64,8 +89,35 @@
     },
     "codex": {
       "model": "codex",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 108802,
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Dreptul de a afla de ce îți este refuzat accesul la informații clasificate",
+      "verdictShort": "Proiectul introduce garanții utile împotriva deciziilor arbitrare: motivare, informare minimă și verificarea probelor de către instanță. Riscurile provin din redactarea incompletă a procedurii, fără taxe, monopoluri sau sancțiuni noi pentru cetățeni.",
+      "initiatorClaim": "Inițiatorii urmăresc protejarea persoanelor cărora li se refuză sau retrage accesul la informații clasificate, cu posibile consecințe profesionale. Invocă necesitatea unui proces echitabil și hotărârea CEDO Corneschi împotriva României.",
+      "realityCheck": "Art. 28¹ impune motivarea deciziei și comunicarea unui rezumat neclasificat, iar noul art. 30 obligă instanța să examineze probele din dosarul complet. Textul folosește însă termeni diferiți — autorizație și aviz negativ — fără să precizeze suficient actele și autoritățile vizate sau procedura comunicării rezumatului. Nulitatea pentru nemotivare nu echivalează, prin ea însăși, cu acordarea autorizației ori restabilirea automată a raportului de muncă.",
+      "affectedGroups": [
+        "Angajați & HR",
+        "Justiție & Drepturi Civile",
+        "IMM & Antreprenori"
+      ],
+      "keyFindings": [
+        "Art. 28¹ alin. (1)-(2) creează o garanție concretă: persoana trebuie să primească explicații utilizabile pentru apărare, inclusiv când motivarea integrală conține informații clasificate.",
+        "Art. 28¹ alin. (3) sancționează nemotivarea cu nulitate absolută, dar nu clarifică tratamentul motivării pur formale sau al rezumatului insuficient. Această delimitare contează pentru aplicarea previzibilă a sancțiunii.",
+        "Noul art. 30 impune verificarea temeiniciei probelor. Expresia «în regim de confidențialitate» trebuie corelată cu regimul juridic al informațiilor clasificate și cu garanțiile contradictorialității.",
+        "Expunerea de motive prezintă abuzuri profesionale fără documentarea unor cazuri identificabile în materialul furnizat. Aceste afirmații nu demonstrează existența unei imunități administrative totale sau inexistența oricărui control judiciar actual.",
+        "Nu sunt instituite taxe, amenzi, licențe economice ori obligații generale pentru IMM-uri. Apar sarcini administrative pentru autorități și de examinare pentru instanțe; costurile nu sunt cuantificate în materialul furnizat."
+      ],
+      "blindSpotsCaught": "Accesul instanței la întregul dosar nu asigură singur apărarea efectivă: contează și dacă persoana primește esența motivelor și poate combate informațiile decisive. Proiectul nu precizează cum verifică instanța suficiența rezumatului și ce dispune când acesta este inutilizabil. Referirea din expunere la judecători cu certificat de securitate nu introduce o asemenea condiție în textul normativ.",
+      "constitutionalityNote": "Direcția proiectului susține art. 21 și 24, împreună cu art. 20 din Constituție. Art. 31 trebuie interpretat inclusiv prin limita privind protejarea securității naționale din alin. (3), fără a justifica refuzuri arbitrare. Principala vulnerabilitate privește art. 1 alin. (5): terminologie neunitară, procedură insuficient precizată și delimitarea efectelor nemotivării. Art. 23 alin. (12), privind stabilirea și aplicarea pedepselor, nu este direct incident acestei proceduri administrative. Decizia CCR nr. 21/2018 privește garanții din procesul penal și nu poate fi transpusă automat întregii proceduri administrative. Corneschi susține necesitatea garanțiilor compensatorii efective, fără să impună divulgarea necondiționată a tuturor informațiilor clasificate.",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea restricțiilor asupra profesiilor reglementate; mecanismul general de contestare propus nu instituie, prin el însuși, o asemenea restricție. Aplicabilitatea ar necesita verificare dacă amendamentele ar introduce condiții suplimentare pentru accesul la o profesie reglementată. Textul furnizat nu conține reguli tehnice privind produse sau cerințe specifice serviciilor societății informaționale, astfel încât nu rezultă o obligație de notificare TRIS potrivit Directivei (UE) 2015/1535. Nu reglementează servicii digitale ori AI și nu creează avantaje concurențiale exclusive.",
+      "senatForm": {
+        "articleRef": "Art. I pct. 2 – art. 30",
+        "proposalContent": "Art. 30. – Persoana vătămată poate contesta refuzul sau retragerea autorizației de securitate în condițiile Legii nr. 554/2004. Instanța are acces la dosarul complet, potrivit regimului legal al informațiilor clasificate, și verifică legalitatea și temeinicia deciziei, inclusiv ale avizului care o fundamentează, precum și suficiența rezumatului neclasificat.",
+        "argumentation": "Accesul instanței la dosar trebuie completat cu verificarea efectivă a motivelor comunicate persoanei. Controlul avizului și al rezumatului reduce riscul unei apărări pur formale și corelează procedura cu dreptul comun al contenciosului administrativ, păstrând protecția informațiilor clasificate.",
+        "otherComments": "Analiza privește textul furnizat; identificatorii și stadiul nu au putut fi verificați online. La stadiul indicat, propunerea se transmite comisiilor sesizate ale Senatului, spre preluare de un senator. Termenul indicat, 04.05.2026, este expirat; trebuie verificat calendarul actual. Trimiterea cetățeanului nu constituie amendament parlamentar."
+      }
     }
   }
 }

@@ -2,7 +2,7 @@
   "billId": "PL-x 128/2026",
   "slug": "plx-128-2026",
   "version": "senat",
-  "updatedAt": "2026-10-30T08:12:14.365Z",
+  "updatedAt": "2026-10-30T09:51:49.482Z",
   "consensus": {
     "riskScore": 3,
     "riskLevel": "green",
@@ -25,8 +25,32 @@
   "council": {
     "agy": {
       "model": "agy",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 54093,
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Inventarul național al site-urilor, echipamentelor IT și licențelor software din instituțiile statului",
+      "verdictShort": "O lege utilă și necesară care face ordine în haosul informatic al statului, obligând instituțiile să își inventarieze site-urile, serverele și licențele și să redistribuie softurile cumpărate degeaba. Prezintă doar mici necorelări tehnice privind termenele de implementare și procedura pentru achizițiile noi.",
+      "initiatorClaim": "Inițiatorii vor să elimine risipa bugetară și vulnerabilitățile de securitate cibernetică prin crearea unei platforme unice (PNIDP) în care să fie înregistrate toate domeniile web, aplicațiile, licențele și echipamentele IT ale instituțiilor publice.",
+      "realityCheck": "Legea instituie un mecanism sănătos de evidență administrativă (gestionat de ADR, cu infrastructură STS și standarde DNSC), permite cetățenilor să verifice autenticitatea site-urilor oficiale și obligă la redistribuirea licențelor software nefolosite între instituții. Totuși, conține un scurtcircuit procedural: obligă instituțiile să înregistreze totul în 6 luni de la intrarea în vigoare a legii, deși platforma se construiește gradual, și blochează tehnic achizițiile noi dacă nu sunt deja înregistrate.",
+      "affectedGroups": [
+        "IT & AI",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Inventariere completă și oprirea risipei (Art. 8 și Art. 11 alin. 3): Toate domeniile web, adresele de e-mail, aplicațiile, echipamentele hardware și licențele statului sunt centralizate în 7 registre, iar licențele software neutilizate vor fi redistribuite cu avizul ADR către alte instituții publice.",
+        "Protecție anti-phishing pentru cetățeni (Art. 6 alin. 5-7): Fiecare site oficial și document electronic emis de stat va purta un cod unic persistent/sursă verificabil public pe un portal național, confirmând cetățenilor că interacționează cu o instituție reală.",
+        "Blocaj tehnic la achiziții noi și termene nerealiste (Art. 6 alin. 1 și 4): Entitățile publice trebuie să își înregistreze resursele în 6 luni de la intrarea în vigoare a legii (chiar dacă platforma ADR se dezvoltă gradual conform Art. 5), iar Art. 6 alin. (4) interzice achiziționarea de resurse neînregistrate în PNIDP — un paradox logic pentru bunurile IT noi, care nu au cum să aibă serie și dovadă de deținere înainte de cumpărare."
+      ],
+      "blindSpotsCaught": "Există o necorelare între Art. 1 alin. (2), care aplică legea entităților aflate în «subordonarea, coordonarea sau sub autoritatea» instituțiilor publice, și Art. 2 lit. k), care extinde definiția entităților publice și la cele aflate «în administrarea» sau «controlul» acestora (formularea din urmă putând include companiile de stat și regiile autonome). De asemenea, Art. 9 alin. (3) interzice absolut înscrierea oricăror date cu caracter personal conform GDPR, deși Art. 9 alin. (1) lit. c) impune înscrierea datelor de contact ale responsabilului digital.",
+      "constitutionalityNote": "Proiectul respectă cadrul constituțional, dar necesită rafinarea Art. 6 alin. (1) și (4) și a Art. 2 lit. k) din perspectiva principiului calității și previzibilității legii (Art. 1 alin. 5 din Constituție), astfel încât obligația de înregistrare să curgă de la data operaționalizării efective a platformei de către ADR.",
+      "euLawNote": "Proiectul este aliniat cu Directiva (UE) 2022/2555 (NIS2) privind guvernanța activelor cibernetice în administrația publică și cu Regulamentul Single Digital Gateway. Nu impune bariere pe piața unică (Directiva 2018/958) și nu necesită notificare TRIS (Directiva 2015/1535), deoarece reglementează exclusiv organizarea internă a infrastructurii digitale a sectorului public.",
+      "senatForm": {
+        "articleRef": "Art. 6 alin. (1) și alin. (4)",
+        "proposalContent": "La art. 6, alin. (1) și (4) se modifică: «(1) În termen de 6 luni de la operaționalizarea fiecărui registru specializat din PNIDP, entitățile publice înregistrează resursele digitale aferente. (4) Nu pot fi finanțate pentru mentenanță sau modernizare resursele digitale existente neînregistrate în PNIDP, iar achizițiile noi se înscriu în 15 zile de la recepție.»",
+        "argumentation": "Art. 6 alin. (1) impune înregistrarea în 6 luni de la intrarea în vigoare a legii, deși art. 5 alin. (1) prevede că PNIDP se dezvoltă gradual. Dacă platforma întârzie, instituțiile devin automat neconforme. În plus, alin. (4) interzice achiziția de resurse neînregistrate în PNIDP, ceea ce este imposibil tehnic pentru echipamente sau licențe noi înainte de cumpărare.",
+        "otherComments": "Se recomandă și corelarea art. 1 alin. (2) cu art. 2 lit. k) privind sfera entităților publice (includerea sau excluderea clară a întreprinderilor publice aflate sub controlul statului), precum și corelarea art. 9 alin. (1) lit. c) cu alin. (3) pentru a clarifica faptul că înscrierea datelor de serviciu ale responsabilului digital nu încalcă interdicția GDPR."
+      }
     },
     "claude": {
       "model": "claude",
@@ -63,8 +87,35 @@
     },
     "codex": {
       "model": "codex",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 118920,
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Un inventar al site-urilor, aplicațiilor și echipamentelor statului",
+      "verdictShort": "Proiectul are un scop util: inventarierea infrastructurii digitale publice și reducerea risipei. Fragmentul analizat conține însă o interdicție de finanțare și achiziție insuficient delimitată, care poate afecta inclusiv continuitatea serviciilor publice.",
+      "initiatorClaim": "Inițiatorii urmăresc reducerea fragmentării infrastructurii digitale, reutilizarea resurselor și creșterea securității și transparenței. Ei afirmă că platforma poate fi implementată fără impact bugetar suplimentar, folosind infrastructura și finanțările existente.",
+      "realityCheck": "Textul creează o platformă administrată de ADR, registre obligatorii și responsabilități de inventariere pentru instituțiile vizate, cu sprijinul STS și DNSC. Art. 6 alin. (4) condiționează finanțarea, achiziția și modernizarea resurselor de înregistrarea lor, fără să clarifice suficient achizițiile inițiale sau indisponibilitatea platformei. Fragmentul nu instituie direct obligații pentru cetățeni ori IMM-uri și nu permite evaluarea eventualelor sancțiuni din articolele nefurnizate.",
+      "affectedGroups": [
+        "IT & AI",
+        "IMM & Antreprenori",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 6 alin. (1) impune înregistrarea tuturor resurselor în șase luni de la intrarea în vigoare, dar art. 5 lasă dezvoltarea graduală a registrelor unui calendar ulterior. Lipsesc, în fragment, garanțiile că obligația devine exigibilă numai după operaționalizarea registrului necesar.",
+        "Art. 6 alin. (4) interzice finanțarea, achiziționarea și modernizarea resurselor neînregistrate. Nu precizează procedura de înregistrare înaintea achiziției și nici excepții pentru intervenții urgente; termenul suplimentar de conformare din alin. (3) nu este corelat expres cu această interdicție.",
+        "Art. 9 alin. (3) interzice înscrierea datelor personale, însă alin. (1) lit. c) cere datele de contact ale responsabilului digital. Contactele funcționale generice pot respecta interdicția, dar numele și adresele profesionale individualizate pot fi date personale; schema registrului trebuie să rezolve această tensiune.",
+        "Art. 7 și art. 11 lasă normelor metodologice detalii ample privind accesul la informațiile tehnice. Înregistrarea configurațiilor și versiunilor, cerută de art. 9, este utilă inventarierii, dar accesul trebuie limitat și trasabil, pentru a evita expunerea vulnerabilităților.",
+        "Art. 11 alin. (3) permite redistribuirea licențelor numai dacă legea și contractul o permit; nu autorizează confiscarea drepturilor furnizorilor și nu creează un monopol comercial. Totuși, platforma, integrarea, verificările și actualizarea permanentă presupun muncă și cheltuieli, chiar fără posturi suplimentare; lipsa impactului bugetar nu este demonstrată prin simpla invocare a fondurilor europene."
+      ],
+      "blindSpotsCaught": "Analiza privește exclusiv fragmentul furnizat, întrerupt la art. 13 alin. (3); nu atribuie conținut articolelor ulterioare. Verificarea online nu a fost disponibilă, astfel încât identificarea dosarului și stadiul Lege 119/2026 sunt preluate din informațiile utilizatorului. Acest stadiu indică o procedură legislativă încheiată: o intervenție actuală trebuie raportată la forma promulgată și formulată ca propunere de modificare, nu ca amendament la forma Senatului. Afirmația din expunere privind proprietatea statului nu echivalează, în articolele analizate, cu un transfer legal general al proprietății.",
+      "constitutionalityNote": "Riscul principal privește art. 1 alin. (5) din Constituție: corelarea insuficientă a termenelor, condiționarea achizițiilor și întinderea accesului la date afectează claritatea și previzibilitatea. Detaliile tehnice pot fi delegate, dar garanțiile esențiale pentru protecția datelor și limitele obligațiilor trebuie stabilite prin lege, inclusiv în raport cu art. 26. Art. 23 alin. (12), privind legalitatea pedepselor, nu justifică singur o obiecție împotriva acestui fragment, care nu reproduce norme sancționatorii. Pentru cheltuielile generate trebuie verificată respectarea art. 138 alin. (5), iar solicitarea informării Guvernului conform art. 111 alin. (1) trebuie verificată dacă sunt incidente condițiile constituționale; documentele furnizate nu permit constatarea încălcării lor.",
+      "euLawNote": "Directiva (UE) 2018/958 privește restricțiile de acces la profesii reglementate sau de exercitare a acestora; desemnarea unui responsabil digital intern nu demonstrează că directiva este aplicabilă. Nici notificarea TRIS, potrivit Directivei (UE) 2015/1535, nu rezultă automat din caracterul digital al platformei: trebuie examinate cerințele concrete aplicabile produselor ori serviciilor societății informaționale, inclusiv cele introduse ulterior prin norme. Fragmentul nu reglementează specific inteligența artificială și nu rezervă piața unui furnizor privat. Eventualele standarde trebuie să respecte concurența și normele achizițiilor publice. GDPR impune delimitarea datelor personale, minimizarea și securitatea prelucrării; invocarea NIS2 în expunere nu dovedește că această directivă cere inventarul public propus sau toate mecanismele sale.",
+      "senatForm": {
+        "articleRef": "Art. 6 alin. (4)",
+        "proposalContent": "Resursele noi se înregistrează în PNIDP în 15 zile de la recepție sau de la operaționalizarea registrului corespunzător, dacă aceasta este ulterioară. Neînregistrarea nu poate împiedica achiziția inițială, mentenanța ori intervențiile necesare continuității și securității serviciilor publice.",
+        "argumentation": "Condiționarea achiziției de înregistrarea prealabilă nu este corelată cu recepția resursei și cu dezvoltarea graduală a registrelor. Propunerea păstrează obligația de inventariere și previne blocarea achizițiilor inițiale sau a intervențiilor necesare funcționării serviciilor publice.",
+        "otherComments": "Stadiul comunicat este Lege 119/2026, iar termenul de amendamente, 12.03.2026, a expirat. Propunerea trebuie confruntată cu forma promulgată și poate susține o inițiativă de modificare a legii. Analiza fragmentului Senatului, întrerupt la art. 13 alin. (3), nu stabilește conținutul legii în vigoare."
+      }
     }
   }
 }

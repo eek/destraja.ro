@@ -2,7 +2,7 @@
   "billId": "PL-x 443/2026",
   "slug": "plx-443-2026",
   "version": "senat",
-  "updatedAt": "2026-10-30T08:28:39.693Z",
+  "updatedAt": "2026-10-30T09:28:48.906Z",
   "consensus": {
     "riskScore": 3,
     "riskLevel": "green",
@@ -12,7 +12,8 @@
     "realityCheck": "Art. I aprobă OUG 34/2026, care introduce art. 10 alin. (12¹): STS poate încheia acordurile-cadru și contractele subsecvente pentru licențe și înainte de acordurile guvernamentale. Textul nu are limită de timp și nu se restrânge la proiectele PNRR, așa că poate goli de conținut regula acordurilor guvernamentale, al căror scop era obținerea unor condiții unitare și mai avantajoase de licențiere. Art. II a fost adăugat la Senat și modifică o altă lege (Legea 102/2024): prelungește până la 31 august 2026 contractul de finanțare pentru Investiția I1 – Cloud Guvernamental, în timp ce celelalte jaloane din cererea de plată nr. 5 rămân cu termenul de 30 iunie 2026.",
     "affectedGroups": [
       "IT & AI",
-      "Toți cetățenii"
+      "Toți cetățenii",
+      "IMM & Antreprenori"
     ],
     "senatForm": {
       "articleRef": "Art. I – art.10 alin.(12¹) OUG 89/2022",
@@ -24,8 +25,31 @@
   "council": {
     "agy": {
       "model": "agy",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 49808,
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Deblocarea achizițiilor de licențe IT de către STS și prelungirea termenului PNRR pentru Cloudul Guvernamental",
+      "verdictShort": "O măsură tehnică utilă pe termen scurt pentru salvarea a 6 milioane de euro din PNRR, dar care transformă o urgență punctuală într-o derogare permanentă de la negocierea centralizată a licențelor software de către Guvern.",
+      "initiatorClaim": "Guvernul susține că trebuie să permită de urgență Serviciului de Telecomunicații Speciale (STS) să cumpere licențe de sisteme de operare și baze de date fără a mai aștepta acordurile guvernamentale negociate de Ministerul Economiei și Digitalizării (MEDAT), pentru a nu pierde 6 milioane de euro din PNRR până la 31 august 2026.",
+      "realityCheck": "Legea rezolvă un blocaj birocratic intern creat chiar de întârzierea MEDAT în negocierea acordurilor-cadru guvernamentale cu marii producători software și prelungește termenul contractului de finanțare PNRR pentru Cloudul Guvernamental până la 31 august 2026. Totuși, articolul introdus în OUG 89/2022 nu este limitat nici la banii din PNRR, nici la data de 31 august 2026, permițând STS să achiziționeze licențe pe cont propriu pe termen nelimitat, fără discounturile de volum pe care le-ar fi asigurat un acord guvernamental centralizat.",
+      "affectedGroups": [
+        "IT & AI"
+      ],
+      "keyFindings": [
+        "Art. I (art. 10 alin. (12¹) din OUG nr. 89/2022): Deși urgența invocată vizează exclusiv termenul PNRR de 31 august 2026, textul legii instituie o derogare permanentă, fără termen-limită, prin care STS poate încheia acorduri-cadru și contracte subsecvente pentru licențe software înaintea încheierii acordurilor guvernamentale prevăzute la art. 3 alin. (5¹).",
+        "Art. II (introdus la Senat, modificând art. II alin. (5) din Legea nr. 102/2024): Prelungește de la 30 iunie 2026 la 31 august 2026 durata maximă a contractului de finanțare pentru jaloanele și țintele aferente Investiției I1 „Implementarea infrastructurii de Cloud Guvernamental” din cererea de plată nr. 5 a PNRR.",
+        "Contradicție în Expunerea de motive și eroare materială în textul Senatului: Inițiatorii afirmă simultan că textul „nu instituie o excepție în sensul derogării de la regula generală, ci doar introduce o măsură derogatorie”, iar la Art. II din forma Senatului apare eroarea tipografică „Investiției Il” (iar în fișa Camerei „investiției 11”) în loc de „Investiției I1”."
+      ],
+      "blindSpotsCaught": "Derogarea de la art. 10 alin. (12¹) nu conține nicio limitare temporală (31 august 2026) și nicio condiționare de finanțarea prin PNRR; astfel, o întârziere administrativă a MEDAT devine pretext pentru golirea de conținut, pe termen nedeterminat, a obligației de a negocia condiții de licențiere la nivel de stat (Enterprise Agreement guvernamental).",
+      "constitutionalityNote": "Respectă în linii mari exigențele constituționale, însă din perspectiva art. 1 alin. (5) din Constituție (calitatea și previzibilitatea legii) și a art. 115 alin. (4), există o necorelare între scopul temporar invocat în preambulul OUG nr. 34/2026 (încadrarea în termenul PNRR de 31 august 2026) și caracterul permanent al normei derogatorii instituite în corpul actului normativ.",
+      "euLawNote": "Nu încalcă Directiva (UE) 2018/958 (nu restrânge accesul la profesii reglementate) și nu necesită notificare TRIS conform Directivei (UE) 2015/1535, vizând exclusiv proceduri interne de achiziții publice IT și gestiunea contractelor de finanțare PNRR, măsură agreată prealabil cu serviciile Comisiei Europene.",
+      "senatForm": {
+        "articleRef": "Art. I (art. 10 alin. (12^1) OUG nr. 89/2022)",
+        "proposalContent": "La art. 10, alin. (12^1) se modifică: „(12^1) Pentru proiectele finanțate din PNRR, încheierea de către STS a acordurilor-cadru și a contractelor subsecvente prevăzute la alin. (11) și (12) se poate realiza până la 31 august 2026 și anterior încheierii acordurilor guvernamentale prevăzute la art. 3 alin. (5^1).”",
+        "argumentation": "Urgența invocată în Expunerea de motive vizează exclusiv evitarea pierderii a 6 mil. EUR din PNRR până la termenul-limită de 31 august 2026. În forma actuală, derogarea este permanentă, anulând practic obligația MEDAT de a negocia acorduri guvernamentale la nivel de stat pentru obținerea de discounturi de volum la licențele software.",
+        "otherComments": "La Art. II din forma adoptată de Senat există o eroare materială de tehnoredactare: este scris „Investiției Il” (cu litera „l” mic) în loc de „Investiției I1” din Componenta 7 a PNRR. Se recomandă corectarea la redactarea finală pentru rigoare normativă conform Legii nr. 24/2000."
+      }
     },
     "claude": {
       "model": "claude",
@@ -60,8 +84,36 @@
     },
     "codex": {
       "model": "codex",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 113603,
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "STS poate cumpăra licențe pentru cloud înaintea acordurilor guvernamentale",
+      "verdictShort": "Măsură tehnică utilă pentru deblocarea achizițiilor, fără taxe sau sancțiuni noi pentru cetățeni. Principala rezervă este că justificarea temporară legată de PNRR produce o derogare fără termen final.",
+      "initiatorClaim": "Guvernul urmărește evitarea pierderii a aproximativ 6 milioane de euro din PNRR prin deblocarea achiziției licențelor necesare cloudului intern. Forma Senatului permite și prelungirea finanțării investiției indicate până la 31 august 2026.",
+      "realityCheck": "Art. I aprobă ordonanța care permite STS să încheie acorduri-cadru și contracte subsecvente înaintea acordurilor guvernamentale de licențiere; nu autorizează prin această formulare achiziția directă și nu elimină regulile de atribuire aplicabile. Derogarea nu este limitată expres la PNRR sau la anul 2026 și nu impune adaptarea contractelor la condițiile negociate ulterior. Art. II permite prelungirea contractului de finanțare indicat, fără să prelungească prin el însuși termenele europene sau să garanteze eligibilitatea cheltuielilor.",
+      "affectedGroups": [
+        "IT & AI",
+        "IMM & Antreprenori",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 10 alin. (12¹), introdus prin ordonanța aprobată la art. I, înlătură condiția succesiunii dintre acordurile guvernamentale și contractarea de către STS. Obligația generală privind acordurile guvernamentale rămâne în legislație.",
+        "Textul nu desemnează un furnizor, nu instituie exclusivitate și nu modifică expres procedurile de achiziție. Riscurile de dependență de furnizor și de prețuri nefavorabile depind de documentația și contractele concrete.",
+        "Justificarea invocă urgența PNRR, dar alineatul introdus nu conține termen de încetare, plafon financiar sau limitare expresă la achizițiile finanțate prin PNRR.",
+        "Art. II păstrează termenul de 30 iunie 2026 pentru celelalte jaloane și ținte ale cererii de plată nr. 5 și introduce excepția până la 31 august 2026 pentru investiția indicată.",
+        "Nu sunt introduse obligații administrative sau costuri directe pentru cetățeni și IMM-uri. Suma de aproximativ 6 milioane de euro provine din motivare; articolul normativ nu o transformă într-un plafon și nu dovedește economii efective.",
+        "Extrasul financiar este incomplet, astfel încât nu permite evaluarea costurilor multianuale ale licențelor, mentenanței și eventualei migrări."
+      ],
+      "blindSpotsCaught": "Expunerea numește măsura când derogatorie, când lipsită de caracter de excepție; mecanic, ea permite contractarea fără îndeplinirea prealabilă a condiției existente. Identificatorul «Investiția Il» trebuie verificat în original: poate reprezenta «I1», nu «11»; referirea separată la Investiția 2 în motivare nu dovedește singură o contradicție. Potrivit stadiului comunicat, proiectul a devenit lege, astfel încât formularul nu mai poate funcționa ca amendament într-o procedură parlamentară încheiată. Verificarea online nu a fost disponibilă; analiza se bazează pe textele furnizate.",
+      "constitutionalityNote": "Nu rezultă o neconstituționalitate evidentă. Pentru art. 1 alin. (5), principalele verificări sunt identificarea exactă a investiției și corelarea derogării cu normele existente; absența unui termen final reprezintă mai ales o opțiune legislativă discutabilă, nu automat o încălcare constituțională. Art. 23 alin. (12) nu este incident, deoarece textul nu instituie pedepse. În raport cu art. 115 alin. (4), termenul apropiat și blocajul financiar concret susțin urgența, dar întârzierea administrativă și invocarea priorităților guvernamentale nu sunt suficiente singure: situația extraordinară trebuie demonstrată obiectiv. Nu se poate constata încălcarea art. 138 alin. (5) doar din extrasul financiar incomplet, fără identificarea unor cheltuieli suplimentare și a surselor lor.",
+      "euLawNote": "Directiva (UE) 2018/958 privește proporționalitatea restricțiilor pentru accesul la profesii reglementate sau exercitarea acestora; textul analizat nu introduce asemenea restricții. Nici notificarea TRIS potrivit Directivei (UE) 2015/1535 nu este declanșată automat de referirea la cloud: dispozițiile prezentate reglementează succesiunea contractării publice și finanțarea, fără cerințe tehnice noi pentru produse sau reguli specifice serviciilor societății informaționale. Rămân aplicabile normele relevante privind achizițiile, concurența, egalitatea de tratament și specificațiile nediscriminatorii. Acordul Comisiei invocat în motivare nu este demonstrat printr-un document anexat și nu înlocuiește verificarea fiecărei achiziții.",
+      "senatForm": {
+        "articleRef": "Art. I – art. 10 alin. (12¹) din OUG 89/2022",
+        "proposalContent": "(12¹) STS poate încheia acordurile-cadru și contractele subsecvente prevăzute la alin. (11) și (12) anterior acordurilor guvernamentale prevăzute la art. 3 alin. (5¹), cu respectarea legislației achizițiilor publice, pe baza unei analize documentate a costurilor pe durata utilizării și a riscului de dependență de furnizor.",
+        "argumentation": "Deblocarea achiziției este justificată, dar contractele pot produce costuri multianuale înaintea negocierii condițiilor guvernamentale. Analiza documentată permite evaluarea costurilor și a dependenței tehnologice. Menționarea legislației achizițiilor clarifică faptul că derogarea privește succesiunea contractării.",
+        "otherComments": "Propunere de îmbunătățire legislativă. Potrivit stadiului comunicat, Legea nr. 109/2026 este deja adoptată; intervenția necesită o inițiativă distinctă de modificare. Termenele din art. II au trecut, fără ca aceasta să anuleze efectele legal produse anterior. Identificatorul investiției trebuie verificat în original."
+      }
     }
   }
 }

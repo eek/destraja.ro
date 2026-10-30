@@ -2,17 +2,18 @@
   "billId": "PL-x 283/2026",
   "slug": "plx-283-2026",
   "version": "initiator",
-  "updatedAt": "2026-10-30T08:18:53.449Z",
+  "updatedAt": "2026-10-30T09:15:35.853Z",
   "consensus": {
-    "riskScore": 4,
-    "riskLevel": "yellow",
+    "riskScore": 3.7,
+    "riskLevel": "green",
     "plainTitle": "Cine gestionează împrumutul UE de ~16,7 miliarde euro pentru apărare (SAFE) și cum, plus câteva modificări fără legătură pentru primării",
     "summaryTlDr": "Lege în mare parte tehnică și necesară pentru a nu pierde termenul SAFE din 30 mai 2026. Problemele reale sunt caracterul de «omnibus», cu măsuri de administrație locală lipite de un act de apărare, și controlul parlamentar slab asupra unei datorii publice uriașe.",
     "initiatorClaim": "Guvernul spune că OUG-ul creează un cadru instituțional clar pentru absorbția la timp a împrumutului SAFE (~16,68 mld. EUR, cu prefinanțare de ~2,5 mld. EUR) și clarifică mecanismul bugetar înainte de adoptarea bugetului pe 2026. Fără el, există riscul de blocaje și de ratarea termenului de semnare a contractelor din 30 mai 2026.",
     "realityCheck": "Art. 1¹ împarte rolurile: Cancelaria Prim-Ministrului coordonează și negociază, Ministerul Finanțelor semnează acordurile, trage și rambursează împrumutul, iar MApN, MAI, serviciile de informații, ANP și MTI (inclusiv administratorii de drumuri naționale) fac achizițiile și dețin «întreaga responsabilitate și autoritate» în acest sens. Planul se aprobă în CSAT, nu în Parlament, iar actul nu prevede nicio raportare publică sau parlamentară dedicată. Același OUG modifică, fără legătură cu SAFE, OUG 7/2026 (posturi în comune) și Codul administrativ (jurământul consilierilor, primarilor și președinților de CJ aleși la alegeri parțiale).",
     "affectedGroups": [
-      "Toți cetățenii",
       "IMM & Antreprenori",
+      "Contabili & Fiscalitate",
+      "Toți cetățenii",
       "Justiție & Drepturi Civile"
     ],
     "senatForm": {
@@ -25,8 +26,33 @@
   "council": {
     "agy": {
       "model": "agy",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 53803,
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Împrumutul UE de 16,68 miliarde euro pentru înzestrare și autostrăzi militare (SAFE), combinat cu reguli pentru primării",
+      "verdictShort": "Legea este necesară pentru a debloca împrumutul european de 16,68 miliarde EUR destinat apărării și infrastructurii rutiere duale, dar conține două vulnerabilități: dă Cancelariei Prim-Ministrului atribuția ambiguă de a negocia direct cu furnizorii și lipește, în stil „ordonanță-trenuleț”, modificări la Codul administrativ și la organigramele comunelor.",
+      "initiatorClaim": "Guvernul susține că reglementează de urgență arhitectura instituțională și bugetară necesară pentru a absorbi împrumutul de 16,68 miliarde EUR (și prefinanțarea de 2,5 miliarde EUR) aprobat României în februarie 2026 prin Instrumentul european SAFE, înainte de termenul-limită de 30 mai 2026 pentru semnarea contractelor.",
+      "realityCheck": "Pe fond, actul normativ împarte gestionarea celor 16,68 miliarde EUR între Cancelaria Prim-Ministrului, Ministerul Finanțelor și un grup extins de beneficiari (MApN, MAI, SRI, STS, SIE, SPP, Administrația Penitenciarelor și Ministerul Transporturilor), incluzând și scutiri de TVA autentificate de ANAF. Totuși, art. 1¹ alin. (2) lit. c) permite Cancelariei Prim-Ministrului să negocieze direct „cu potențiali furnizori” peste capul autorităților contractante, iar Expunerea de motive relevă că în aceeași OUG au fost strecurate prevederi despre posturile din primării (OUG 7/2026) și jurământul aleșilor locali.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Centralizarea negocierilor la vârful Guvernului (Art. I pct. 2 - Art. 1¹ alin. (2) lit. c)): Cancelaria Prim-Ministrului primește atribuția de a negocia nu doar cu alte state eligibile, ci și „cu potențiali furnizori”, deși alin. (4) lit. a) prevede că responsabilitatea juridică a achizițiilor aparține exclusiv ministerelor și serviciilor beneficiare.",
+        "Extinderea beneficiarilor către servicii, penitenciare și infrastructură rutieră (Art. 1¹ alin. (1) lit. c)): Pe lângă MApN și MAI, fondurile din împrumutul SAFE vor fi cheltuite de SRI, SIE, STS, SPP, Administrația Națională a Penitenciarelor și Ministerul Transporturilor (prin CNAIR/CNIR pentru mobilitate militară).",
+        "Scutire de TVA prin certificat ANAF (Art. 1¹ alin. (3) lit. g)): Ministerul Finanțelor, prin ANAF, va autentifica certificate de scutire de TVA pentru achizițiile de produse din domeniul apărării sau cu utilizare în scopuri de apărare derulate prin Instrumentul SAFE, conform art. 20 din Regulamentul (UE) 2025/1106."
+      ],
+      "blindSpotsCaught": "Din lectura încrucișată a titlului („precum și pentru modificarea și completarea unor acte normative”) cu Secțiunea 2.2 pct. II și III din Expunerea de motive reiese că OUG nr. 21/2026 este o „ordonanță-trenuleț”: sub umbrela urgenței geopolitice și a apărării europene, Guvernul a introdus reglementări complet străine de subiect, vizând reducerea cu 30% a posturilor din comune (modificarea OUG nr. 7/2026) și depunerea jurământului de către primari, șefi de CJ și consilieri locali validați după alegeri parțiale (Codul administrativ).",
+      "constitutionalityNote": "Sub aspectul art. 1 alin. (5) din Constituție (calitatea și previzibilitatea legii) raportat la art. 14 din Legea nr. 24/2000 (unicitatea reglementării în materie), amestecarea unor norme privind datoria publică și înzestrarea militară cu norme din Codul administrativ privind mandatul aleșilor locali încalcă exigențele de tehnică legislativă. De asemenea, suprapunerea dintre negocierea cu furnizorii de către Cancelaria Prim-Ministrului și responsabilitatea exclusivă a autorităților contractante creează o neclaritate instituțională.",
+      "euLawNote": "Măsura principală pune în aplicare Regulamentul (UE) 2025/1106 (Instrumentul SAFE) și Decizia de punere în aplicare (UE) 2026/368 a Consiliului din 11 februarie 2026, fiind aliniată cu dreptul UE în materie de achiziții comune în apărare și scutiri fiscale aferente (art. 20 din Regulament). Nu ridică probleme pe Directiva (UE) 2018/958 sau Directiva TRIS 2015/1535, însă procedurile naționale de negociere cu furnizorii trebuie să respecte strict condițiile de eligibilitate și transparență din art. 16 al Regulamentului (UE) 2025/1106.",
+      "senatForm": {
+        "articleRef": "Art. I pct. 2 (Art. 1^1 alin. (2) lit. c) OUG)",
+        "proposalContent": "La Art. 1^1 alin. (2), litera c) se modifică și va avea următorul cuprins: „c) negociază cooperarea la nivel guvernamental cu alte state eligibile, definite prin Regulamentul (UE) 2025/1.106, pentru a întruni condițiile de finanțare în comun;” (se elimină sintagma „precum și cu potențiali furnizori”).",
+        "argumentation": "Art. 1^1 alin. (4) lit. a) prevede că instituțiile beneficiare realizează achizițiile publice și dețin întreaga responsabilitate. Atribuirea către Cancelaria Prim-Ministrului a competenței de a negocia direct „cu potențiali furnizori” creează paralelism instituțional, confuzie de răspundere și riscuri de integritate în achiziții de 16,68 mld. EUR.",
+        "otherComments": "Semnalăm și viciul de tehnică legislativă (Legea 24/2000): potrivit Expunerii de motive (pct. II și III), într-o OUG dedicată apărării europene (SAFE) au fost introduse modificări fără legătură cu obiectul principal, vizând schemele de posturi ale comunelor (OUG 7/2026) și jurământul aleșilor locali în Codul administrativ."
+      }
     },
     "claude": {
       "model": "claude",
@@ -62,8 +88,35 @@
     },
     "codex": {
       "model": "codex",
-      "status": "skipped",
-      "error": "încă nerulat (COUNCIL_MODELS)"
+      "status": "ok",
+      "durationMs": 73020,
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Cine gestionează împrumuturile SAFE pentru apărare",
+      "verdictShort": "Fragmentul disponibil organizează finanțarea și achizițiile SAFE, fără să demonstreze instituirea unor monopoluri, taxe sau sancțiuni disproporționate. Riscurile principale sunt transparența achizițiilor, delimitarea responsabilităților și costul împrumutului public; evaluarea întregii legi necesită textul integral.",
+      "initiatorClaim": "Guvernul urmărește să clarifice responsabilitățile instituțiilor, circuitul bugetar și controlul cheltuielilor SAFE. Invocă necesitatea pregătirii bugetului pentru 2026 și termenul european pentru eligibilitatea anumitor contracte încheiate de un singur stat.",
+      "realityCheck": "Art. I pct. 2 distribuie coordonarea către Cancelaria Prim-Ministrului, administrarea împrumutului și monitorizarea către Ministerul Finanțelor, iar achizițiile și justificarea cheltuielilor către instituțiile beneficiare. Finanțarea este un împrumut rambursabil, cu dobânzi și alte costuri, nu o subvenție nerambursabilă; fragmentul nu permite însă calcularea unui impact bugetar suplimentar produs exclusiv de această modificare. Textul furnizat este trunchiat, iar forma promulgată și stadiul indicat nu au putut fi verificate independent.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 1¹ alin. (3) lit. e), introdus prin art. I pct. 2, atribuie Ministerului Finanțelor rambursarea împrumutului și plata dobânzilor, taxelor și celorlalte costuri: există o obligație financiară publică, dar fragmentul nu instituie o taxă directă pentru cetățeni sau IMM-uri.",
+        "Art. 1¹ alin. (2) lit. c) permite Cancelariei să negocieze inclusiv cu potențiali furnizori, în timp ce alin. (4) lit. a) atribuie instituțiilor beneficiare întreaga responsabilitate pentru achiziții. Delimitarea documentată a negocierilor de deciziile de atribuire este importantă pentru răspundere și concurență; aceste prevederi nu demonstrează singure favorizarea unui furnizor.",
+        "Art. 1¹ alin. (4) lit. b)-c) impune respectarea eligibilității europene, verificarea cheltuielilor și prevenirea corupției, conflictelor de interese, fraudei și dublei finanțări. Sunt garanții utile, a căror eficacitate depinde de procedurile și controalele efective.",
+        "Raportările prevăzute la art. 1¹ alin. (3) lit. i)-j) urmăresc monitorizarea implementării și justificarea cererilor de plată. În fragmentul disponibil nu apare o obligație expresă de publicare periodică a unor rezultate agregate.",
+        "Modificările privind posturile administrației locale și jurământul aleșilor apar în expunerea de motive, dar articolele operative corespunzătoare nu sunt furnizate. Efectele lor juridice și bugetare nu pot fi deduse cu certitudine numai din justificare."
+      ],
+      "blindSpotsCaught": "Termenul de 30 mai 2026 este prezentat pentru excepția privind eligibilitatea contractelor încheiate de un singur stat membru, cu condițiile aferente; nu trebuie confundat cu un termen general pentru toate achizițiile SAFE. În plus, dacă stadiul «Lege 95/2026» este corect, termenul parlamentar indicat pentru amendamente este depășit: formularul poate servi unei petiții pentru o modificare legislativă ulterioară.",
+      "constitutionalityNote": "În fragment, atribuțiile sunt suficient de identificabile pentru a nu constata o încălcare evidentă a art. 1 alin. (5), dar coerența trebuie verificată împreună cu restul ordonanței și legislația achizițiilor. Art. 23 alin. (12), privind legalitatea pedepselor, nu este incident dispozițiilor reproduse, care nu stabilesc pedepse. Pentru art. 115 alin. (4), preambulul oferă repere concrete de urgență pentru componenta SAFE, însă existența unui termen european nu dovedește automat imposibilitatea amânării fiecărei măsuri, mai ales a modificărilor administrative distincte. Art. 115 alin. (6) și eventualele efecte asupra instituțiilor fundamentale necesită examinarea articolelor lipsă. Aprobarea parlamentară nu înlătură, prin ea însăși, eventualele vicii constituționale ale ordonanței.",
+      "euLawNote": "Directiva (UE) 2018/958 privește testarea proporționalității restricțiilor privind accesul la profesii reglementate sau exercitarea lor; nu este un test general obligatoriu pentru orice achiziție publică și nu rezultă că ar fi incidentă aici. Fragmentul nu introduce reguli specifice serviciilor societății informaționale, astfel că simpla posibilitate de a cumpăra produse IT/AI nu declanșează notificarea TRIS potrivit Directivei (UE) 2015/1535; eventuale specificații tehnice obligatorii din articolele lipsă necesită analiză separată. Pentru concurență sunt relevante regulile aplicabile achizițiilor de apărare și condițiile Regulamentului SAFE: fragmentul trimite expres la eligibilitatea din art. 16 și la scutirea de TVA din art. 20, fără să demonstreze o derogare generală de la competiție.",
+      "senatForm": {
+        "articleRef": "OUG nr. 62/2025, art. 1¹ – alineat nou",
+        "proposalContent": "Ministerul Finanțelor publică trimestrial un raport agregat privind tragerile, plățile, rambursările și costurile de finanțare aferente Instrumentului SAFE, precum și stadiul proiectelor și jaloanelor. Publicarea respectă regimul informațiilor clasificate și protecția informațiilor comerciale confidențiale.",
+        "argumentation": "Finanțarea SAFE este rambursabilă și implică obligații bugetare multianuale. Raportarea publică agregată permite urmărirea utilizării împrumutului și a progresului proiectelor, cu protejarea informațiilor clasificate și comerciale confidențiale.",
+        "otherComments": "Dacă stadiul Lege 95/2026 este confirmat, propunerea privește o modificare legislativă ulterioară, nu un amendament în procedura încheiată. Înaintea depunerii trebuie verificată forma consolidată, pentru a evita dublarea unei obligații existente. Extrasul analizat este incomplet."
+      }
     }
   }
 }

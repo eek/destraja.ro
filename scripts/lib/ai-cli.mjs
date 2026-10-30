@@ -185,6 +185,20 @@ function minimalEnv(cmd) {
   return env;
 }
 
+const IDLE_MS = 60_000;
+
+/** Un răspuns care s-a terminat: un JSON întreg sau o pagină HTML închisă. */
+function looksComplete(answer) {
+  if (!answer?.trim()) return false;
+  if (/<\/html>\s*(?:```)?\s*$/i.test(answer)) return true;
+  try {
+    extractJsonFromText(answer);
+    return /\}\s*(?:```)?\s*$/.test(answer);
+  } catch {
+    return false;
+  }
+}
+
 function run(cmd, argv, stdin, timeoutMs, { parse, live } = {}) {
   fs.mkdirSync(SANDBOX_DIR, { recursive: true });
   const out = live ? fs.createWriteStream(live, { flags: 'a' }) : null;
@@ -217,8 +231,30 @@ function run(cmd, argv, stdin, timeoutMs, { parse, live } = {}) {
     };
     let stdout = '';
     let stderr = '';
+    let done = false;
+    // agy scrie uneori tot răspunsul și apoi nu se mai închide (nici evenimentul final nu vine). Dacă răspunsul e întreg și
+    // nu mai vine nimic un minut, îl luăm și oprim procesul; altfel limita de timp ar arunca un răspuns bun.
+    let idle = null;
+    const settleIfComplete = () => {
+      clearTimeout(idle);
+      if (!parse) return;
+      idle = setTimeout(() => {
+        const answer = final ?? text;
+        if (done || !looksComplete(answer)) return;
+        done = true;
+        clearTimeout(timer);
+        out?.write('\n[răspuns întreg, procesul nu s-a închis singur: îl opresc]\n');
+        out?.end();
+        killGroup('SIGTERM');
+        setTimeout(() => killGroup('SIGKILL'), 5000).unref();
+        resolve({ stdout: answer, raw: stdout, stderr, code: 0 });
+      }, IDLE_MS);
+      idle.unref();
+    };
     // agy ignoră SIGTERM și rămânea viu ore întregi după expirare, ocupând Argon: după 5 secunde îl oprim forțat.
     const timer = setTimeout(() => {
+      if (done) return;
+      done = true;
       killGroup('SIGTERM');
       setTimeout(() => killGroup('SIGKILL'), 5000).unref();
       reject(new Error(`timeout după ${Math.round(timeoutMs / 1000)}s`));
@@ -230,6 +266,7 @@ function run(cmd, argv, stdin, timeoutMs, { parse, live } = {}) {
       const lines = pending.split('\n');
       pending = lines.pop();
       lines.forEach(onLine);
+      settleIfComplete();
     });
     child.stderr.on('data', (c) => {
       stderr += c;
@@ -237,10 +274,16 @@ function run(cmd, argv, stdin, timeoutMs, { parse, live } = {}) {
     });
     child.on('error', (err) => {
       clearTimeout(timer);
+      clearTimeout(idle);
+      if (done) return;
+      done = true;
       reject(err);
     });
     child.on('close', (code) => {
       clearTimeout(timer);
+      clearTimeout(idle);
+      if (done) return;
+      done = true;
       if (parse && pending) onLine(pending);
       out?.end();
       // Cu evenimente în flux, `text` e răspunsul final al modelului (sau bucățile lui, dacă lipsește evenimentul final).

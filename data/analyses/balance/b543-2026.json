@@ -1,0 +1,65 @@
+{
+  "slug": "b543-2026",
+  "billId": "B543/2026",
+  "schema": 1,
+  "model": "agy",
+  "updatedAt": "2026-10-30T10:18:58.251Z",
+  "inputHash": "690a01074857",
+  "riskScore": 8.6,
+  "summary": "O debirocratizare utilă pentru micile lăcașuri de cult rurale, compromisă grav de permisiunea de a construi în arii naturale protejate fără studii de mediu.",
+  "good": [
+    {
+      "text": "Simplifică birocrația pentru construirea în mediul rural a lăcașurilor de cult mici, de cel mult 130 mp, reducând costurile și timpul de așteptare pentru comunitățile locale.",
+      "article": "art. unic pct. 1 (art. 294 alin. (2) lit. c))",
+      "quote": "realizarea de construcții noi având destinația exclusivă de lăcaș de cult, având o suprafață construită desfășuratată de maximum 130 mp",
+      "weight": 2
+    },
+    {
+      "text": "Impune acordul expres al unui cult recunoscut oficial și destinația exclusivă de lăcaș de cult, prevenind folosirea procedurii simplificate în scopuri imobiliare sau comerciale.",
+      "article": "art. unic pct. 1 (art. 294 alin. (2) lit. c))",
+      "quote": "la solicitarea ori cu acordul expres al unei unități de cult aparținând unui cult recunoscut potrivit Legii nr. 489/2006 privind libertatea religioasă și regimul general al cultelor",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Scutește construcțiile din arii naturale protejate de orice studii și evaluări de mediu, încălcând legislația UE (Directiva Habitate) și Constituția, cu risc direct de sancțiuni europene.",
+      "article": "art. unic pct. 1 (art. 294 alin. (2) lit. c) teza a II-a)",
+      "quote": "și nici obligația efectuării evaluării adecvate, a evaluării impactului asupra mediului ori a întocmirii altor studii de mediu.",
+      "weight": 3
+    },
+    {
+      "text": "Permite construirea prin simplă notificare în extravilan și în arii naturale protejate, anulând protecția din noul Cod al Urbanismului (Jalon PNRR) și expunând natura la degradare.",
+      "article": "art. unic pct. 1 (art. 294 alin. (2) lit. c) teza a II-a)",
+      "quote": "Prin derogare de la prevederile art. 197 alin. (4), pentru construcțiile prevăzute la prezenta literă, situarea imobilului în perimetrul unei arii naturale protejate nu constituie, prin ea însăși, motiv de respingere a notificării",
+      "weight": 3
+    },
+    {
+      "text": "Limitează facilitatea la „locuri deja sfințite de către înalții ierarhi”, criteriu vag care discriminează cultele fără ierarhi și sugerează o lege cu dedicație pentru locuri deja alese.",
+      "article": "art. unic pct. 1 (art. 294 alin. (2) lit. c) teza I)",
+      "quote": "amplasate în mediul rural, în intravilan sau extravilan, inclusiv în perimetrul ariilor naturale protejate pe terenuri proprietate privată și/sau de obște, pe locuri deja sfințite de către înalții ierarhi pentru ridicarea lăcașurilor de cult.",
+      "weight": 2
+    },
+    {
+      "text": "Scutește vag de obținerea „repetată” a avizului administratorului ariei protejate, neclaritate care poate fi folosită în practică pentru a ocoli complet controlul acestuia.",
+      "article": "art. unic pct. 1 (art. 294 alin. (2) lit. c) teza a II-a)",
+      "quote": "nu determină obligația obținerii repetate, în fiecare etapă a procedurii, a avizului administratorului ariei naturale protejate",
+      "weight": 2
+    }
+  ],
+  "fix": {
+    "text": "Eliminarea construirii în extravilan și în arii naturale protejate, a scutirii de studii și avize de mediu, precum și a condiției ca locul să fie deja sfințit de înalți ierarhi.",
+    "removes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 6,
+    "verified": 6
+  }
+}

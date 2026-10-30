@@ -6,6 +6,7 @@ import { textName, writeBillTexts } from './lib/pdf-text.mjs';
 import { runModel } from './lib/ai-cli.mjs';
 import { CdepBlocked, fetchCdepFile } from './lib/cdep.mjs';
 import { unitDiff } from './lib/text-diff.mjs';
+import { clean, quoteKey, verifiedQuote } from './lib/quotes.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(__dirname, '..');
@@ -489,34 +490,6 @@ const INVENTORY_CHARS = 40_000;
  * dispare de ambele părți, ca „opera-\ntorii” (despărțire în silabe) și „s-\na” (cratimă ruptă la capăt de rând) să se
  * potrivească la fel cu citatul.
  */
-const quoteKey = (s) =>
-  s
-    .normalize('NFC')
-    .replace(/\u00ad/g, '')
-    .replace(/ş/g, 'ș').replace(/ţ/g, 'ț').replace(/Ş/g, 'Ș').replace(/Ţ/g, 'Ț')
-    .replace(/[„”“"«»]/g, '"').replace(/[‘’`]/g, "'").replace(/[–—‑]/g, '-')
-    .replace(/\s+/g, ' ')
-    .replace(/(\p{L}) ?- ?(\p{L})/gu, '$1$2')
-    .toLowerCase()
-    .trim();
-
-/**
- * Citatul, doar dacă apare cuvânt cu cuvânt în text; altfel null, ca să nu afișăm citate inventate. „…” e voie doar la
- * început sau la sfârșit; o bucată lipsă din mijloc ar lăsa nevăzute exact cuvintele scurte care schimbă sensul („nu”, „90”).
- */
-function verifiedQuote(quote, hay) {
-  if (typeof quote !== 'string') return null;
-  const core = quote.trim().replace(/^(?:…|\.\.\.)\s*/, '').replace(/\s*(?:…|\.\.\.)$/, '');
-  if (core.length < 12 || /…|\.\.\./.test(core)) return null;
-  return hay.includes(quoteKey(core)) ? quote.trim().slice(0, 400) : null;
-}
-
-/** Un șir de la model, fără spații goale și fără „null” scris ca text. */
-const clean = (v, max) => {
-  const s = typeof v === 'string' ? v.trim() : '';
-  return s && s.toLowerCase() !== 'null' ? s.slice(0, max) : null;
-};
-
 /** Inventarul, cu cele majore întâi, ca limita să taie din cele minore; null dacă modelul nu l-a dat. */
 function inventory(list) {
   if (!Array.isArray(list)) return null;

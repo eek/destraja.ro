@@ -1,0 +1,84 @@
+{
+  "slug": "b571-2026",
+  "billId": "B571/2026",
+  "schema": 1,
+  "model": "agy",
+  "updatedAt": "2026-10-30T10:20:27.052Z",
+  "inputHash": "e3d134873485",
+  "riskScore": 7.2,
+  "summary": "Ideea de a folosi o parte din despăgubiri pentru înzestrarea armatei este compromisă de acordarea unui comision de 10% ca bonus neplafonat chiar angajaților care aplică penalitățile.",
+  "good": [
+    {
+      "text": "Permite MApN să folosească 30% din daunele încasate pentru înzestrare, mentenanță și pregătire, acoperind direct pierderile provocate de furnizorii care întârzie livrările.",
+      "article": "art. 1 lit. a) și art. 2 alin. (1)",
+      "quote": "Veniturile proprii prevăzute la art. 1 lit. a) se evidențiază distinct și se utilizează, în condițiile legii, pentru finanțarea activităților și programelor Ministerului Apărării Naționale, inclusiv pentru programe de înzestrare",
+      "weight": 2
+    },
+    {
+      "text": "Sumele reținute și fondul de stimulare se constituie doar din banii încasați efectiv de la firmele penalizate, fără să ceară bani în plus de la bugetul de stat.",
+      "article": "art. 3 alin. (4)",
+      "quote": "Constituirea și utilizarea fondului pentru stimularea personalului nu determină majorarea sumelor alocate Ministerului Apărării Naționale de la bugetul de stat, fondul fiind constituit exclusiv din sumele efectiv încasate potrivit prezentei legi.",
+      "weight": 2
+    },
+    {
+      "text": "Obligă la evidența separată prin Trezorerie pentru fiecare contract în parte și supune cheltuirea banilor controlului financiar preventiv și auditului intern.",
+      "article": "art. 5 și art. 6 alin. (2)",
+      "quote": "Evidența sumelor se organizează astfel încât să permită identificarea contractului din executarea căruia acestea provin, a structurii care a gestionat contractul, a cuantumului total efectiv încasat și a repartizării acestuia potrivit art. 1.",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Cei care fac caietul de sarcini, recepția și aplică penalități primesc 10% din daune ca bonus, având interes direct să blocheze recepțiile și să penalizeze abuziv firmele.",
+      "article": "art. 1 lit. c) și art. 3 alin. (2)",
+      "quote": "Fondul aferent sumelor rezultate din executarea unui contract se utilizează exclusiv pentru stimularea personalului militar și civil din cadrul autorității contractante implicate în atribuirea și executarea contractului respectiv.",
+      "weight": 3
+    },
+    {
+      "text": "Bonusurile ocolesc plafoanele din Legea salarizării nr. 153/2017 și nu au nicio limită pe persoană, permițând câtorva angajați să împartă sume uriașe din contractele mari.",
+      "article": "art. 4 alin. (1) și art. 6 alin. (1)",
+      "quote": "Stimulentele financiare prevăzute de prezenta lege constituie drepturi financiare cu caracter variabil, distincte de premiile de excelență prevăzute la art. 26 din Legea-cadru nr. 153/2017 privind salarizarea personalului plătit din fonduri publice",
+      "weight": 3
+    },
+    {
+      "text": "Legea nu fixează criterii clare sau plafoane pentru împărțirea bonusurilor între angajați, lăsând regulile la discreția ministrului apărării, prin ordin.",
+      "article": "art. 7",
+      "quote": "În termen de 60 de zile de la intrarea în vigoare a prezentei legi, ministrul apărării naționale aprobă, prin ordin, normele privind constituirea, evidențierea, repartizarea și utilizarea fondului pentru stimularea personalului.",
+      "weight": 2
+    },
+    {
+      "text": "Direcționează 20% din bani către un „fond pentru actualizarea pensiilor militare” care nu există în lege și nu are nicio regulă de funcționare sau de plată.",
+      "article": "art. 1 lit. c)",
+      "quote": "20% se virează la bugetul de stat, cu destinație specială, în vederea constituirii unui fond pentru actualizarea pensiilor militare de stat, gestionat potrivit legii;",
+      "weight": 2
+    },
+    {
+      "text": "Ia 40% din despăgubirile care azi merg integral la bugetul de stat, încălcând regula finanțelor publice și fără a calcula pierderea bugetară în expunerea de motive.",
+      "article": "art. 1",
+      "quote": "Prin derogare de la prevederile art. 62 alin. (2) din Legea nr. 500/2002 privind finanțele publice, cu modificările și completările ulterioare, sumele efectiv încasate de Ministerul Apărării Naționale",
+      "weight": 2
+    },
+    {
+      "text": "Art. 1 are două litere „c)” și nicio literă „d)”, dar art. 3 trimite la o inexistentă „art. 1 lit. d)”, eroare de redactare care creează confuzie la aplicarea legii.",
+      "article": "art. 1 și art. 3 alin. (1)",
+      "quote": "Din cota prevăzută la art. 1 lit. d) se constituie fondul pentru stimularea personalului militar și civil.",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Eliminarea fondului de 10% pentru bonusurile personalului (art. 3, 4, 6 și 7) și a fondului inexistent de 20% pentru pensii, păstrând doar 30% pentru înzestrarea MApN și 70% la bugetul de stat.",
+    "removes": [
+      0,
+      1,
+      2,
+      3,
+      5
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2.5
+  },
+  "quotes": {
+    "checked": 9,
+    "verified": 9
+  }
+}

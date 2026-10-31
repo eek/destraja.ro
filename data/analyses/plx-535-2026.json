@@ -2,24 +2,24 @@
   "billId": "PL-x 535/2026",
   "slug": "plx-535-2026",
   "version": "camera",
-  "updatedAt": "2026-10-29T07:54:41.617Z",
+  "updatedAt": "2026-10-31T08:47:19.673Z",
   "consensus": {
-    "riskScore": 3.5,
+    "riskScore": 3.7,
     "riskLevel": "green",
-    "plainTitle": "Creșterea de la 40% la 60% a plăților în avans către furnizorii de energie și gaze pentru facturile plafonate",
-    "summaryTlDr": "O lege tehnică utilă care atenuează blocajul de lichiditate al furnizorilor de energie cărora statul le întârzie decontările, instituind totodată penalități fiscale pentru sumele încasate necuvenit. Totuși, plata efectivă a diferenței de 20% rămâne la discreția calendarului de viramente al Ministerului Finanțelor.",
-    "initiatorClaim": "Inițiatorii urmăresc reducerea presiunii financiare asupra furnizorilor de energie și gaze (unde s-au acumulat cereri de decontare în analiză de circa 6 miliarde lei) prin creșterea plăților parțiale de la 40% la 60%, protejând în paralel bugetul de stat prin dobânzi și penalități în caz de nerestituire a diferențelor la regularizare.",
-    "realityCheck": "Legea majorează procentul plăților parțiale acordate pe baza declarației pe propria răspundere (de la 40% la 60%) și fixează termenul final de 31 decembrie 2026 pentru introducerea datelor de regularizare în baza OUG 6/2025. În contrapartidă, furnizorii care nu returnează în 10 zile lucrătoare sumele plătite în plus față de validarea ANRE vor datora dobânzi și penalități conform Codului de procedură fiscală. Ca chichiță mecanică, pentru cererile din urmă, termenul de plată de 10 zile curge abia după ce Ministerul Finanțelor transferă banii, fără ca legea să oblige Ministerul Finanțelor la un termen limită.",
+    "plainTitle": "Statul plătește mai repede furnizorilor de energie banii pentru plafonare: 60% avans în loc de 40%",
+    "summaryTlDr": "Lege în principal tehnică și utilă pentru lichiditatea furnizorilor, care completează util și mecanismul de recuperare a sumelor necuvenite. Riscul ține de execuție: aproximativ 1,2 miliarde lei sunt plătite înainte de verificarea finală, în plin deficit bugetar, iar câteva termene și efecte sunt formulate neclar.",
+    "initiatorClaim": "Inițiatorii vor să reducă presiunea de lichiditate asupra furnizorilor, care așteaptă decontări de circa 6 miliarde lei, prin majorarea plății parțiale de la 40% la 60%. Ei susțin că măsura nu costă bugetul în plus, fiind doar o grăbire a unor plăți deja datorate.",
+    "realityCheck": "Legea mută riscul de recuperare spre stat: o cotă mai mare din bani pleacă doar pe baza declarației pe propria răspundere a furnizorului, iar dacă verificarea ANRE găsește sume nejustificate, statul trebuie să le recupereze, uneori de la firme cu probleme financiare. Contrapondere reală: dobânzi și penalități fiscale pentru nerestituire în 10 zile lucrătoare și termen final 31.12.2026 pentru date. Pe de altă parte, plata diferenței de 20% depinde de un transfer al Ministerului Finanțelor pentru care legea nu fixează niciun termen.",
     "affectedGroups": [
       "IMM & Antreprenori",
       "Contabili & Fiscalitate",
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. IV alin. (2) lit. A pct. c) și Anexa",
-      "proposalContent": "La Art. IV alin. (2) lit. A, lit. c) se modifică astfel: „c) plata sumelor aferente cererii adiționale se realizează în termen de 15 zile lucrătoare de la data depunerii cererii adiționale, Ministerul Finanțelor având obligația alimentării conturilor în acest termen.” În Anexă, la destinatar se adaugă: „/ Agenția Națională pentru Plăți și Inspecție Socială”.",
-      "argumentation": "Condiționarea termenului de plată de 10 zile de momentul nedeterminat în care Ministerul Finanțelor transferă fondurile golește de conținut garanția de lichiditate pentru furnizori. De asemenea, Anexa omite menționarea ANPIS ca destinatar și plătitor pentru decontările aferente consumatorilor casnici, deși Art. IV alin. (2) vizează ambele instituții.",
-      "otherComments": "Măsura creșterii plăților parțiale la 60% și impunerea de dobânzi și penalități pentru sumele nerestituite în 10 zile sunt echilibrate, însă fără un termen ferm de virare a banilor de la Ministerul Finanțelor, arieratele de 6 miliarde lei riscă să rămână blocate administrativ."
+      "articleRef": "Art. IV alin. (2) lit. A c) și alin. (3) nou",
+      "proposalContent": "La lit. A c) se adaugă: „Ministerul Finanțelor transferă fondurile în cel mult 30 de zile de la primirea situației centralizate a cererilor adiționale.” Se introduce alin. (3): „Art. I pct. 2 și art. II pct. 2 se aplică sumelor al căror termen de restituire de 10 zile lucrătoare se împlinește după intrarea în vigoare a prezentei legi.”",
+      "argumentation": "Termenul de plată de 10 zile curge de la un transfer MF fără niciun termen, deci e iluzoriu. Lipsa unei norme tranzitorii pentru dobânzi și penalități permite aplicarea lor unor restanțe născute anterior, contrar art. 15 alin. (2) din Constituție. Ambele completări asigură previzibilitate (art. 1 alin. (5)) fără cost bugetar suplimentar.",
+      "otherComments": "Legea fiind promulgată (Legea 179/2026), propunerea vizează o lege ulterioară de modificare. De clarificat și: efectul depășirii termenului din art. 19 alin. (4) OUG 6/2025 (decădere?); anexa e adresată doar Ministerului Energiei, deși plătește și ANPIS; art. IV alin. (1) trimite greșit la art. III, care nu se poate aplica cererilor."
     }
   },
   "council": {
@@ -55,9 +55,35 @@
     },
     "claude": {
       "model": "claude",
-      "status": "error",
-      "durationMs": 420013,
-      "error": "timeout după 420s"
+      "status": "ok",
+      "durationMs": 63209,
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Statul plătește mai repede furnizorilor de energie banii pentru plafonare: 60% avans în loc de 40%",
+      "verdictShort": "Lege în principal tehnică și utilă pentru lichiditatea furnizorilor, care completează util și mecanismul de recuperare a sumelor necuvenite. Riscul ține de execuție: aproximativ 1,2 miliarde lei sunt plătite înainte de verificarea finală, în plin deficit bugetar, iar câteva termene și efecte sunt formulate neclar.",
+      "initiatorClaim": "Inițiatorii vor să reducă presiunea de lichiditate asupra furnizorilor, care așteaptă decontări de circa 6 miliarde lei, prin majorarea plății parțiale de la 40% la 60%. Ei susțin că măsura nu costă bugetul în plus, fiind doar o grăbire a unor plăți deja datorate.",
+      "realityCheck": "Legea mută riscul de recuperare spre stat: o cotă mai mare din bani pleacă doar pe baza declarației pe propria răspundere a furnizorului, iar dacă verificarea ANRE găsește sume nejustificate, statul trebuie să le recupereze, uneori de la firme cu probleme financiare. Contrapondere reală: dobânzi și penalități fiscale pentru nerestituire în 10 zile lucrătoare și termen final 31.12.2026 pentru date. Pe de altă parte, plata diferenței de 20% depinde de un transfer al Ministerului Finanțelor pentru care legea nu fixează niciun termen.",
+      "affectedGroups": [
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. I pct. 1 și art. II pct. 1: plata parțială urcă de la 40% la 60% din valoarea cererii de decontare, plătită exclusiv pe baza declarației pe propria răspundere. Afirmația din Expunere că nu există cost suplimentar este corectă nominal, dar ignoră efectul de trezorerie în anul curent și riscul de nerecuperare.",
+        "Art. I pct. 2 și art. II pct. 2 (noua lit. d): introduc dobânzi și penalități de întârziere conform art. 174 și 176 din Codul de procedură fiscală pentru sumele nerestituite în 10 zile lucrătoare. Este o măsură pozitivă de protecție a banului public, dar art. IV nu stabilește o normă tranzitorie pentru ea.",
+        "Art. IV alin. (2) lit. A c): termenul de 10 zile lucrătoare pentru plata cererii adiționale curge de la transferul fondurilor de către Ministerul Finanțelor, pentru care nu există niciun termen. În practică, termenul este iluzoriu.",
+        "Art. I pct. 3 (art. 19 alin. (4) din OUG 6/2025): fixează termenul final de 31.12.2026 pentru introducerea datelor, fără să precizeze sancțiunea depășirii lui (decăderea din dreptul la decontare sau doar un termen de recomandare).",
+        "Art. IV alin. (1) prevede că art. III «se aplică cererilor de decontare», deși art. III doar obligă miniștrii să emită un ordin comun în 30 de zile. Este o eroare de tehnică legislativă."
+      ],
+      "blindSpotsCaught": "Anexa (cererea adițională) este adresată doar Ministerului Energiei și vorbește de «bugetul Ministerului Energiei», deși art. IV prevede plăți și prin ANPIS. Art. IV alin. (2) lit. A b) cere ca declarația prevăzută de art. 9 alin. (7) din OUG să fie emisă «conform modelului din anexă», dar anexa legii este modelul de cerere adițională, iar modelul de declarație este anexa nr. 3 din OUG. Expunerea vorbește de «anexele» la lege, iar legea are o singură anexă. Paragraful final al Expunerii este copiat dintr-o altă inițiativă («măsuri fiscal-bugetare»). Lipsește ghilimeaua de deschidere la art. I pct. 1. Proiectul a fost adoptat pe 12.08.2026, la o zi după termenul de amendamente, iar adoptarea s-a făcut conform art. 76 alin. (1) (majoritate organică) pentru o materie ordinară, ceea ce nu viciază legea, fiind o majoritate mai mare decât cea necesară.",
+      "constitutionalityNote": "Nu se văd vicii majore de constituționalitate. Privind previzibilitatea (art. 1 alin. (5)), sunt trei probleme: efectul nedefinit al termenului din 31.12.2026, termenul de plată condiționat de un transfer fără termen și formularea «respectiv» din art. 23² alin. (2), care lasă ambiguă autoritatea competentă. Privind neretroactivitatea (art. 15 alin. (2)), lipsa unei norme tranzitorii pentru dobânzi și penalități poate duce la aplicarea lor unor obligații de restituire scadente înainte de intrarea în vigoare a legii, ceea ce ar fi discutabil. Privind finanțele publice (art. 111 alin. (1) și art. 138 alin. (5)), inițiativa parlamentară influențează execuția bugetară; trebuie verificat dacă s-a obținut informarea Guvernului și fișa de impact cerută de art. 15 din Legea nr. 500/2002, deoarece CCR a sancționat anterior lipsa acestora. Art. 23 alin. (12) nu este incident, deoarece dobânzile și penalitățile nu sunt sancțiuni penale.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, deoarece legea nu reglementează accesul la o profesie reglementată. Directiva (UE) 2015/1535 (TRIS) nu se aplică, deoarece legea nu conține reguli tehnice și nu privește servicii ale societății informaționale. Privind ajutorul de stat (art. 107 TFUE), legea nu creează un ajutor nou, ci accelerează plata unor compensații deja instituite; nu modifică cuantumul total, așa că riscul este redus, cu condiția ca regularizarea finală să recupereze efectiv supracompensarea. Directiva (UE) 2019/944 nu este afectată, deoarece nu se modifică intervenția în preț, ci doar ritmul de decontare. Directiva 2011/7/UE privind întârzierea plăților nu se aplică formal, compensațiile nefiind tranzacții comerciale, dar întârzierile structurale ale statului contravin spiritului ei.",
+      "senatForm": {
+        "articleRef": "Art. IV alin. (2) lit. A c) și alin. (3) nou",
+        "proposalContent": "La lit. A c) se adaugă: „Ministerul Finanțelor transferă fondurile în cel mult 30 de zile de la primirea situației centralizate a cererilor adiționale.” Se introduce alin. (3): „Art. I pct. 2 și art. II pct. 2 se aplică sumelor al căror termen de restituire de 10 zile lucrătoare se împlinește după intrarea în vigoare a prezentei legi.”",
+        "argumentation": "Termenul de plată de 10 zile curge de la un transfer MF fără niciun termen, deci e iluzoriu. Lipsa unei norme tranzitorii pentru dobânzi și penalități permite aplicarea lor unor restanțe născute anterior, contrar art. 15 alin. (2) din Constituție. Ambele completări asigură previzibilitate (art. 1 alin. (5)) fără cost bugetar suplimentar.",
+        "otherComments": "Legea fiind promulgată (Legea 179/2026), propunerea vizează o lege ulterioară de modificare. De clarificat și: efectul depășirii termenului din art. 19 alin. (4) OUG 6/2025 (decădere?); anexa e adresată doar Ministerului Energiei, deși plătește și ANPIS; art. IV alin. (1) trimite greșit la art. III, care nu se poate aplica cererilor."
+      }
     },
     "codex": {
       "model": "codex",

@@ -2,24 +2,24 @@
   "billId": "Pl-x 531/2026",
   "slug": "plx-531-2026",
   "version": "camera",
-  "updatedAt": "2026-10-29T07:17:39.528Z",
+  "updatedAt": "2026-10-31T08:46:30.890Z",
   "consensus": {
-    "riskScore": 3,
+    "riskScore": 2.7,
     "riskLevel": "green",
-    "plainTitle": "Ratificarea împrumutului de 544 milioane euro de la Banca Mondială (BIRD) pentru acoperirea deficitului bugetar",
-    "summaryTlDr": "Lege tehnică standard de ratificare a unui împrumut suveran în condiții financiare avantajoase față de piețele comerciale, dar promovată atipic prin inițiativă parlamentară în loc de proiect al Guvernului.",
-    "initiatorClaim": "Inițiatorii susțin că împrumutul de 544 milioane euro de la BIRD este necesar pentru finanțarea deficitului bugetar și refinanțarea datoriei publice la costuri mai reduse și pe o maturitate extinsă (18 ani).",
-    "realityCheck": "Legea aprobă tragerea a 544 milioane euro în contul BNR al Ministerului Finanțelor, cu rambursare într-o singură tranșă în februarie 2044 și dobândă variabilă (EURIBOR la 6 luni + ~1,48% marjă, plus comisioane de 0,25%). Deși textul legii nu instituie taxe directe, finanțarea este de tip DPL (împrumut pentru politici de dezvoltare), fiind condiționată de reforme fiscale asumate de Guvern (lărgirea bazei de impozitare). De asemenea, Art. 4 permite Guvernului să modifice ulterior Acordul prin simplă Hotărâre de Guvern, fără vot parlamentar, dacă nu cresc obligațiile financiare.",
+    "plainTitle": "Parlamentul aprobă un împrumut de 544 milioane euro de la Banca Mondială pentru acoperirea deficitului",
+    "summaryTlDr": "Este o lege tehnică de ratificare, fără taxe, sancțiuni sau obligații directe pentru cetățeni ori firme. Riscul real nu ține de text, ci de datoria publică: împrumutul are dobândă variabilă și se rambursează integral, într-o singură tranșă, în 2044.",
+    "initiatorClaim": "Inițiatorii spun că împrumutul finanțează deficitul bugetar și refinanțează datoria publică la costuri mai mici și pe termen mai lung decât pe piață. Ei susțin și că împrumutul sprijină reformele fiscale, energetice și de acces la finanțare pentru IMM-uri asumate prin PNRR și prin Planul bugetar-structural 2025–2031.",
+    "realityCheck": "Legea ratifică Acordul (art. 1), trimite banii în contul Ministerului Finanțelor la BNR pentru deficit și refinanțare, fără destinație pe proiecte (art. 2), și plătește serviciul datoriei prin mecanismul obișnuit (art. 3). Art. 4 permite Guvernului să modifice Acordul prin hotărâre de guvern, fără Parlament, dacă obligațiile financiare nu cresc. Reformele-condiție (lărgirea bazei de impozitare, eliminarea «distorsiunilor» fiscale, măsuri în energie) nu apar în textul legii, deși pot avea efecte indirecte asupra contribuabililor.",
     "affectedGroups": [
       "Toți cetățenii",
       "Contabili & Fiscalitate",
       "IMM & Antreprenori"
     ],
     "senatForm": {
-      "articleRef": "Art. 4 alin. (2)",
-      "proposalContent": "La articolul 4, alineatul (2) se modifică și va avea următorul cuprins: „(2) Amendamentele la Acordul de împrumut convenite potrivit alin. (1) se aprobă prin hotărâre a Guvernului, cu informarea prealabilă a comisiilor permanente pentru buget și finanțe ale Senatului și Camerei Deputaților.”",
-      "argumentation": "Conform principiului simetriei actelor juridice și art. 1 alin. (5) din Constituție, modificarea prin HG a unui acord ratificat prin lege diminuează controlul parlamentar. Instituirea obligației de informare prealabilă a comisiilor parlamentare de buget-finanțe asigură transparența asupra modificărilor aduse condițiilor împrumutului de 544 milioane euro.",
-      "otherComments": "Deși ratificarea împrumutului este oportună financiar (dobândă inferioară emisiunilor de euroobligațiuni), depunerea unui tratat internațional ca propunere a 4 deputați în loc de proiect al Guvernului eludează art. 21 din Legea nr. 590/2003 privind tratatele și procedura standard de avizare interministerială."
+      "articleRef": "Art. 4 – amendamente la Acord prin HG",
+      "proposalContent": "Art. 4 alin. (3): Hotărârile Guvernului prevăzute la alin. (2) se comunică, în termen de 15 zile de la adoptare, comisiilor pentru buget, finanțe și bănci ale celor două Camere, însoțite de o notă privind impactul financiar și orice modificare a condițiilor de politică (acțiuni prealabile) ale împrumutului.",
+      "argumentation": "Alin. (1) permite modificarea Acordului prin HG fără control parlamentar, cu singura limită a nemajorării obligațiilor financiare. Condițiile de politică (reforme fiscale, energie) pot fi schimbate fără ca Parlamentul să afle. Informarea comisiilor asigură transparență și previzibilitate (art. 1 alin. 5 Constituție) fără a bloca execuția.",
+      "otherComments": "Legea e deja adoptată (Lege 187/2026), deci propunerea ar necesita o lege de modificare. Recomandăm publicarea acțiunilor prealabile din Acord și a unei analize a riscului de refinanțare: împrumutul se rambursează integral (bullet) la 15.02.2044, cu dobândă variabilă EURIBOR 6 luni + marjă."
     }
   },
   "council": {
@@ -55,9 +55,35 @@
     },
     "claude": {
       "model": "claude",
-      "status": "error",
-      "durationMs": 420148,
-      "error": "timeout după 420s"
+      "status": "ok",
+      "durationMs": 41283,
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Parlamentul aprobă un împrumut de 544 milioane euro de la Banca Mondială pentru acoperirea deficitului",
+      "verdictShort": "Este o lege tehnică de ratificare, fără taxe, sancțiuni sau obligații directe pentru cetățeni ori firme. Riscul real nu ține de text, ci de datoria publică: împrumutul are dobândă variabilă și se rambursează integral, într-o singură tranșă, în 2044.",
+      "initiatorClaim": "Inițiatorii spun că împrumutul finanțează deficitul bugetar și refinanțează datoria publică la costuri mai mici și pe termen mai lung decât pe piață. Ei susțin și că împrumutul sprijină reformele fiscale, energetice și de acces la finanțare pentru IMM-uri asumate prin PNRR și prin Planul bugetar-structural 2025–2031.",
+      "realityCheck": "Legea ratifică Acordul (art. 1), trimite banii în contul Ministerului Finanțelor la BNR pentru deficit și refinanțare, fără destinație pe proiecte (art. 2), și plătește serviciul datoriei prin mecanismul obișnuit (art. 3). Art. 4 permite Guvernului să modifice Acordul prin hotărâre de guvern, fără Parlament, dacă obligațiile financiare nu cresc. Reformele-condiție (lărgirea bazei de impozitare, eliminarea «distorsiunilor» fiscale, măsuri în energie) nu apar în textul legii, deși pot avea efecte indirecte asupra contribuabililor.",
+      "affectedGroups": [
+        "Toți cetățenii",
+        "Contabili & Fiscalitate",
+        "IMM & Antreprenori"
+      ],
+      "keyFindings": [
+        "Art. 1: ratifică un împrumut de 544 mil. EUR de la BIRD (DPL 1), primul dintr-o serie de două. Al doilea împrumut este planificat până la 30 iunie 2027.",
+        "Art. 2: banii nu finanțează proiecte anume. Merg în contul general pentru deficit și refinanțarea datoriei, conform OUG 64/2007, deci sunt sprijin bugetar general.",
+        "Termeni financiari (din Expunerea de motive): dobândă EURIBOR 6 luni + marjă variabilă de cca 1,48%, comision inițial de 0,25%, comision de angajament de 0,25% p.a. și rambursare integrală la 15.02.2044. Asta creează un risc de refinanțare concentrat într-o singură dată.",
+        "Fișa financiară estimează un serviciu anual al datoriei de cca 22–23 mil. EUR (circa 112–119 mil. lei/an) în 2027–2030. Cifrele depind de evoluția EURIBOR și a cursului de schimb.",
+        "Art. 4: Guvernul poate aproba prin HG amendamente la Acord care «nu sunt de natură să majoreze obligațiile financiare». Formula nu limitează modificarea condițiilor de politică (reformele asumate) și nu cere informarea Parlamentului."
+      ],
+      "blindSpotsCaught": "1) Ratificarea vine din inițiativă parlamentară (4 deputați PNL), deși Legea 590/2003 privind tratatele prevede ca proiectele de ratificare să fie supuse Parlamentului de Guvern. Calea parlamentară este permisă de art. 74 din Constituție, dar ocolește avizarea și fundamentarea specifice procedurii guvernamentale. 2) Termenul pentru amendamente (5 august 2026) coincide cu data adoptării în Camera Deputaților, deci practic nu a existat o fereastră pentru amendamente. 3) Acțiunile prealabile (prior actions) agreate cu BIRD, adică reformele fiscale efective, nu sunt descrise nici în lege, nici detaliat în Expunerea de motive. 4) Fișa financiară trece în 2027 un comision de angajament calculat pe 90 de zile, pornind de la ipoteza unei trageri până la 30.11.2026, fără un scenariu alternativ.",
+      "constitutionalityNote": "Textul nu ridică probleme constituționale evidente. Ratificarea prin lege respectă art. 11 alin. (2) și art. 91 alin. (1): Acordul a fost negociat și semnat pe baza unui memorandum aprobat de Guvern și de Președinte. Adoptarea ca lege ordinară (art. 76 alin. (2)) și procedura de urgență sunt corecte. Art. 2 și 3 sunt suficient de clare și previzibile (art. 1 alin. (5)), pentru că trimit la OUG 64/2007. Art. 4 este o clauză standard în legile de ratificare a împrumuturilor externe. Totuși, delegarea către Guvern a modificării unui tratat ratificat de Parlament, fără criterii pentru condițiile de politică și fără informarea Parlamentului, slăbește controlul parlamentar (art. 61, art. 111). Nu are însă o gravitate care să o facă neconstituțională. Art. 23 alin. (12) nu este relevant, pentru că legea nu prevede sancțiuni.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică, pentru că legea nu reglementează accesul la profesii. Directiva (UE) 2015/1535 (TRIS) nu se aplică, pentru că nu conține reglementări tehnice ori reguli privind serviciile digitale sau AI. Nu există efecte asupra concurenței sau pieței unice. Contextul relevant este guvernanța economică a UE: România este în procedura de deficit excesiv (art. 126 TFUE), iar împrumutul finanțează traiectoria de ajustare din Planul bugetar-structural. Depunerea sumelor în contul Ministerului Finanțelor la BNR este o operațiune de trezorerie, nu finanțare monetară interzisă de art. 123 TFUE, pentru că creditorul este BIRD, nu banca centrală.",
+      "senatForm": {
+        "articleRef": "Art. 4 – amendamente la Acord prin HG",
+        "proposalContent": "Art. 4 alin. (3): Hotărârile Guvernului prevăzute la alin. (2) se comunică, în termen de 15 zile de la adoptare, comisiilor pentru buget, finanțe și bănci ale celor două Camere, însoțite de o notă privind impactul financiar și orice modificare a condițiilor de politică (acțiuni prealabile) ale împrumutului.",
+        "argumentation": "Alin. (1) permite modificarea Acordului prin HG fără control parlamentar, cu singura limită a nemajorării obligațiilor financiare. Condițiile de politică (reforme fiscale, energie) pot fi schimbate fără ca Parlamentul să afle. Informarea comisiilor asigură transparență și previzibilitate (art. 1 alin. 5 Constituție) fără a bloca execuția.",
+        "otherComments": "Legea e deja adoptată (Lege 187/2026), deci propunerea ar necesita o lege de modificare. Recomandăm publicarea acțiunilor prealabile din Acord și a unei analize a riscului de refinanțare: împrumutul se rambursează integral (bullet) la 15.02.2044, cu dobândă variabilă EURIBOR 6 luni + marjă."
+      }
     },
     "codex": {
       "model": "codex",

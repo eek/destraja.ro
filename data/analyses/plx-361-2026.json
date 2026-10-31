@@ -1,23 +1,24 @@
 {
   "billId": "Pl-x 361/2026",
   "slug": "plx-361-2026",
-  "updatedAt": "2026-10-28T19:11:39.877Z",
+  "version": "initiator",
+  "updatedAt": "2026-10-31T08:44:12.359Z",
   "consensus": {
-    "riskScore": 3.5,
+    "riskScore": 3.3,
     "riskLevel": "green",
-    "plainTitle": "Eliminarea prescripției de 3 ani pentru pensiile de întreținere restante datorate copiilor minori",
-    "summaryTlDr": "Intenția de a împiedica părinții rău-platnici să scape de restanțele la pensia alimentară prin prescripția de 3 ani este legitimă și binevenită, însă redactarea tehnică este contradictorie și incompletă. Proiectul confundă imprescriptibilitatea cu suspendarea prescripției și uită să coreleze textul cu executarea silită (art. 706 C.proc.civ.) și cu regula că pensia se datorează doar de la data procesului (art. 532 Cod civil).",
-    "initiatorClaim": "Inițiatoarea urmărește protejarea interesului superior al copilului prin stabilirea faptului că dreptul de a recupera pensia de întreținere restantă nu se prescrie pe toată durata în care subzistă obligația de întreținere a minorului.",
-    "realityCheck": "În practică, proiectul creează un paradox juridic: la art. 2517 declară dreptul „imprescriptibil”, iar la art. 2523 prevede că „prescripția nu începe să curgă” pe durata obligației (ceea ce, în dreptul civil, reprezintă o suspendare a prescripției, nu o imprescriptibilitate). Mai grav, majoritatea pierderilor de pensii restante apar în faza de executare silită (guvernată de termenul de 3 ani din art. 706 Cod procedură civilă) sau sunt blocate de art. 532 alin. (1) Cod civil (care acordă pensia doar de la data chemării în judecată), texte pe care proiectul le ignoră complet.",
+    "plainTitle": "Pensia alimentară neplătită copilului nu se mai poate pierde prin trecerea timpului",
+    "summaryTlDr": "Intenția este corectă și benefică pentru copii. Textul are însă erori de tehnică juridică: este pus în articolul greșit, folosește un termen contradictoriu și ignoră Codul de procedură civilă. Din cauza acestor omisiuni, protecția promisă poate rămâne în mare parte pe hârtie.",
+    "initiatorClaim": "Inițiatoarea susține că minorul își poate pierde dreptul de a recupera pensia de întreținere neplătită din cauza termenului de prescripție de 3 ani. Propunerea vrea să elimine acest risc cât timp durează obligația de întreținere.",
+    "realityCheck": "Legea adaugă două alineate în Codul civil. Art. 2517 alin. (2) declară acțiunea «imprescriptibilă» pe durata obligației, iar art. 2523 alin. (2) prevede că prescripția nu începe să curgă în acea perioadă. Cele două formule se contrazic: un drept imprescriptibil nu are niciun termen, pe când amânarea începutului prescripției înseamnă că termenul curge după încetarea obligației. Textul nu atinge art. 706 din Codul de procedură civilă, care limitează la 3 ani dreptul de a executa silit hotărârea de pensie. Tocmai acolo se pierd în practică cele mai multe sume.",
     "affectedGroups": [
       "Justiție & Drepturi Civile",
       "Toți cetățenii"
     ],
     "senatForm": {
-      "articleRef": "Art. I pct. 1-2 (reconfigurare la art. 2532 CC)",
-      "proposalContent": "La art. 2532, după pct. 2 se introduce pct. 2^1: „2^1. în cazul creanțelor reprezentând pensia de întreținere datorată minorului ori majorului aflat în continuarea studiilor, pe toată durata existenței obligației de întreținere, atât pentru dreptul la acțiune, cât și pentru dreptul de a obține executarea silită;”. Pct. 1 și 2 din proiect (art. 2517 și 2523) se elimină.",
-      "argumentation": "Forma propusă confundă imprescriptibilitatea (art. 2517) cu suspendarea prescripției (art. 2523) și omite că art. 2517 și 2523 au un singur alineat nenumerotat. Mutarea normei la art. 2532 (suspendarea prescripției) asigură, prin efectul art. 708 alin. (1) pct. 1 C.proc.civ., și suspendarea prescripției executării silite (art. 706 C.proc.civ.), unde apar blocajele reale.",
-      "otherComments": "Se impune și corelarea cu art. 532 alin. (1) Cod civil („Pensia de întreținere se datorează de la data cererii de chemare în judecată”), întrucât, fără o derogare expresă pentru minori la art. 532, instanțele vor respinge în continuare acordarea pensiei pe trecut în lipsa unui titlu executoriu anterior, făcând inaplicabilă reforma propusă."
+      "articleRef": "Art. I pct. 1-2 (art. 2517, 2523 Cod civil)",
+      "proposalContent": "Pct. 1-2 se înlocuiesc cu: la art. 2532 Cod civil se introduce un nou punct: «între debitorul obligației de întreținere și copilul creditor, pentru prestațiile scadente, cât timp durează obligația de întreținere;». Se completează art. 706 C.proc.civ.: prescripția executării titlurilor privind pensia de întreținere nu curge cât timp durează obligația.",
+      "argumentation": "«Imprescriptibil pe durata obligației» este o contradicție: un drept imprescriptibil nu are termen. Art. 2517 reglementează termenul general, iar suspendarea (art. 2532) este instrumentul tehnic corect, cu un final clar. Fără modificarea art. 706 CPC, executarea hotărârilor de pensie rămâne prescriptibilă în 3 ani, deci protecția copilului ar fi iluzorie.",
+      "otherComments": "Recomand: (1) o normă tranzitorie pentru prescripțiile în curs (art. 6 C.civ., art. 201 din Legea 71/2011); (2) includerea expresă a copilului major aflat în studii (art. 499 alin. 3); (3) corelarea cu art. 532 privind sumele anterioare cererii de chemare în judecată; (4) solicitarea punctului de vedere al CSM și al Consiliului Legislativ."
     }
   },
   "council": {
@@ -52,9 +53,35 @@
     },
     "claude": {
       "model": "claude",
-      "status": "error",
-      "durationMs": 420007,
-      "error": "timeout după 420s"
+      "status": "ok",
+      "durationMs": 56036,
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Pensia alimentară neplătită copilului nu se mai poate pierde prin trecerea timpului",
+      "verdictShort": "Intenția este corectă și benefică pentru copii. Textul are însă erori de tehnică juridică: este pus în articolul greșit, folosește un termen contradictoriu și ignoră Codul de procedură civilă. Din cauza acestor omisiuni, protecția promisă poate rămâne în mare parte pe hârtie.",
+      "initiatorClaim": "Inițiatoarea susține că minorul își poate pierde dreptul de a recupera pensia de întreținere neplătită din cauza termenului de prescripție de 3 ani. Propunerea vrea să elimine acest risc cât timp durează obligația de întreținere.",
+      "realityCheck": "Legea adaugă două alineate în Codul civil. Art. 2517 alin. (2) declară acțiunea «imprescriptibilă» pe durata obligației, iar art. 2523 alin. (2) prevede că prescripția nu începe să curgă în acea perioadă. Cele două formule se contrazic: un drept imprescriptibil nu are niciun termen, pe când amânarea începutului prescripției înseamnă că termenul curge după încetarea obligației. Textul nu atinge art. 706 din Codul de procedură civilă, care limitează la 3 ani dreptul de a executa silit hotărârea de pensie. Tocmai acolo se pierd în practică cele mai multe sume.",
+      "affectedGroups": [
+        "Justiție & Drepturi Civile",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. I pct. 1 introduce imprescriptibilitatea în art. 2517, care reglementează doar termenul general de 3 ani. Sediul firesc al cazurilor de imprescriptibilitate este art. 2502 alin. (2) Cod civil, iar plasarea actuală încalcă sistematizarea codului (Legea nr. 24/2000).",
+        "Formula «imprescriptibil pe durata existenței obligației» este o contradicție în termeni. Combinată cu art. 2523 alin. (2), ea produce de fapt o amânare a începutului prescripției, nu imprescriptibilitate. Rămâne neclar dacă, după încetarea obligației, prescripția mai curge și de la ce dată, în condițiile în care art. 2526 prevede prescripție separată pentru fiecare prestație periodică.",
+        "Problema reală, prescrierea dreptului de a executa silit hotărârea de pensie (art. 706 C.proc.civ.), nu este abordată. Un părinte care are deja hotărâre judecătorească poate pierde în continuare sumele dacă nu pornește executarea în 3 ani.",
+        "Expresia «obligație de întreținere datorată minorului» exclude copilul major aflat în continuarea studiilor, până la 26 de ani (art. 499 alin. 3). Pentru acesta, regimul rămâne neclar, deși obligația continuă.",
+        "Legea nu are normă tranzitorie privind prescripțiile aflate deja în curs. Se aplică deci regula generală din art. 6 Cod civil și art. 201 din Legea nr. 71/2011, ceea ce poate genera practică neunitară.",
+        "Nu are impact bugetar sau birocratic asupra cetățenilor ori IMM-urilor. Singurul efect economic este o expunere mai lungă a debitorilor rău-platnici, efect justificat de scopul legii."
+      ],
+      "blindSpotsCaught": "Partea mai gravă este că art. 532 Cod civil prevede că pensia se datorează, în principiu, doar de la data cererii de chemare în judecată. Prin urmare, «creanțele» vizate de lege există aproape exclusiv după o hotărâre, iar acolo operează prescripția executării silite din CPC, pe care legea nu o modifică. În plus, art. 2532 Cod civil prevede deja cazuri de suspendare între părinți și copiii aflați sub ocrotirea lor, iar raportul cu noua normă nu este lămurit. Pe dreptul internațional privat: conform Regulamentului (CE) 4/2009 și Protocolului de la Haga din 2007 (art. 11), prescripția este guvernată de legea aplicabilă obligației. Noua regulă se aplică deci doar când legea română este cea aplicabilă, de regulă când copilul are reședința obișnuită în România.",
+      "constitutionalityNote": "Scopul este pe deplin compatibil cu art. 49 din Constituție (protecția copiilor) și cu principiul interesului superior al copilului. Diferențierea față de alte creanțe are o justificare obiectivă, deci nu încalcă art. 16. Afectarea dreptului de proprietate al debitorului (art. 44) este minimă, pentru că debitorul plătește o datorie legală deja existentă. Riscul constituțional ține de claritate și previzibilitate (art. 1 alin. 5): coexistența «imprescriptibilității» cu «neînceperea curgerii prescripției» pentru aceeași creanță creează o normă echivocă, care poate fi criticată pe calea excepției de neconstituționalitate. Riscul nu este major, iar textul poate fi corectat ușor prin amendament.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este incidentă, deoarece legea nu reglementează accesul la profesii sau exercitarea lor. Nici Directiva (UE) 2015/1535 (TRIS) nu este incidentă, pentru că legea nu conține reguli tehnice și nu privește servicii ale societății informaționale. Legea nu are impact asupra concurenței sau a pieței unice. Cadrul UE relevant este Regulamentul (CE) nr. 4/2009 privind obligațiile de întreținere, împreună cu Protocolul de la Haga din 2007. Legea este compatibilă cu acestea, cu precizarea că se aplică doar când legea română guvernează obligația de întreținere.",
+      "senatForm": {
+        "articleRef": "Art. I pct. 1-2 (art. 2517, 2523 Cod civil)",
+        "proposalContent": "Pct. 1-2 se înlocuiesc cu: la art. 2532 Cod civil se introduce un nou punct: «între debitorul obligației de întreținere și copilul creditor, pentru prestațiile scadente, cât timp durează obligația de întreținere;». Se completează art. 706 C.proc.civ.: prescripția executării titlurilor privind pensia de întreținere nu curge cât timp durează obligația.",
+        "argumentation": "«Imprescriptibil pe durata obligației» este o contradicție: un drept imprescriptibil nu are termen. Art. 2517 reglementează termenul general, iar suspendarea (art. 2532) este instrumentul tehnic corect, cu un final clar. Fără modificarea art. 706 CPC, executarea hotărârilor de pensie rămâne prescriptibilă în 3 ani, deci protecția copilului ar fi iluzorie.",
+        "otherComments": "Recomand: (1) o normă tranzitorie pentru prescripțiile în curs (art. 6 C.civ., art. 201 din Legea 71/2011); (2) includerea expresă a copilului major aflat în studii (art. 499 alin. 3); (3) corelarea cu art. 532 privind sumele anterioare cererii de chemare în judecată; (4) solicitarea punctului de vedere al CSM și al Consiliului Legislativ."
+      }
     },
     "codex": {
       "model": "codex",

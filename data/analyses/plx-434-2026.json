@@ -2,14 +2,14 @@
   "billId": "PL-x 434/2026",
   "slug": "plx-434-2026",
   "version": "senat",
-  "updatedAt": "2026-10-29T01:12:38.525Z",
+  "updatedAt": "2026-10-31T08:45:49.486Z",
   "consensus": {
-    "riskScore": 2.5,
+    "riskScore": 2.7,
     "riskLevel": "green",
-    "plainTitle": "Cursuri gratuite și opționale de înot pentru preșcolari și elevi, din anul școlar 2027-2028",
-    "summaryTlDr": "O inițiativă benefică pentru siguranța și sănătatea copiilor, restructurată pragmatic de Senat într-un program-pilot pe 3 ani, fără obligații sau poveri fiscale pentru cetățeni. Textul conține însă câteva desincronizări de termene și omisiuni procedurale ușor de corectat la Camera Deputaților.",
-    "initiatorClaim": "Inițiatorii propun un program național prin care copiii să învețe gratuit să înoate în siguranță, pentru prevenirea cazurilor de înec și încurajarea unui stil de viață sănătos și armonios.",
-    "realityCheck": "Senatul a extins grupul-țintă (de la preșcolari de 5 ani până la clasa a VIII-a, plus elevii cu dizabilități/CES pe tot parcursul școlar) și a introdus o etapă-pilot de 3 ani în minimum 5 județe, cu intrare în vigoare la 1 septembrie 2027. Totuși, termenele de aplicare sunt prost corelate în text, coordonarea locală este lăsată neclar în sarcina operatorilor de bazine, iar finanțarea depinde strict de resursele bugetare disponibile anual.",
+    "plainTitle": "Lecții gratuite de înot pentru copii, prin grădiniță și școală",
+    "summaryTlDr": "Este o lege utilă și fără capcane pentru cetățeni: lecțiile sunt opționale și gratuite. Are însă probleme tehnice: transmiterea datelor copiilor către cluburi private, finanțare lăsată „în funcție de resurse” și un calendar care nu se leagă.",
+    "initiatorClaim": "Inițiatorii vor ca fiecare copil să învețe să înoate în siguranță la vârstă mică, pentru a preveni înecurile și a încuraja un stil de viață sănătos. Invocă programul LEN „Learn-to-Swim, Prevent Drowning”.",
+    "realityCheck": "Forma Senatului extinde grupul țintă față de Expunerea de motive (care viza copiii până în clasa a II-a): include și gimnaziul și elevii cu CES. Totodată renunță la denumirea „Johnny Weissmuller”. În primii 3 ani programul este doar pilot, în minimum 5 județe, iar finanțarea minimă per copil depinde anual de «resursele bugetare disponibile», deci nu există un drept garantat. Coordonarea locală revine operatorilor de bazine, posibil privați, fără un coordonator național desemnat.",
     "affectedGroups": [
       "Sănătate & Educație",
       "Toți cetățenii",
@@ -17,10 +17,10 @@
       "Justiție & Drepturi Civile"
     ],
     "senatForm": {
-      "articleRef": "Art. 4 alin. (1), Art. 5 alin. (2) și Art. 11",
-      "proposalContent": "La Art. 4 alin. (1), transmiterea rezultatelor către cluburi se face doar cu acordul scris al părinților. La Art. 5 alin. (2), sintagma „de la adoptarea prezentei legi” se înlocuiește cu „de la intrarea în vigoare a prezentei legi”. La Art. 11, termenul de 60 de zile pentru norme curge de la publicarea legii în Monitorul Oficial, nu de la 1 septembrie 2027.",
-      "argumentation": "Dacă legea intră în vigoare la 1 septembrie 2027 (Art. 12), raportarea pilotării de 3 ani la „adoptare” (2026) consumă un an înainte ca legea să producă efecte, iar elaborarea normelor în 60 de zile de la 1 septembrie 2027 blochează debutul anului școlar 2027/2028. Totodată, GDPR impune consimțământul părinților pentru transferul datelor minorilor către cluburi.",
-      "otherComments": "La Art. 10 alin. (1), coordonarea locală a unui program finanțat prin Ministerul Educației ar trebui realizată de direcțiile județene de învățământ/autoritățile locale în parteneriat cu operatorii bazelor sportive, nu lăsată exclusiv în sarcina operatorilor bazinelor. De asemenea, necesită corectare erorile materiale de la Art. 2 alin. (1) lit. a) și Art. 8 alin. (2)."
+      "articleRef": "Art. 4 alin. (1)",
+      "proposalContent": "Programul are caracter educativ, preventiv și formativ și nu urmărește selecția sportivă de performanță. Cu acordul scris și revocabil al părinților sau reprezentanților legali, familia poate fi informată despre cluburile sportive partenere, iar rezultatele copilului le pot fi transmise acestora. Fără acest acord, datele nu se transmit terților.",
+      "argumentation": "Textul actual permite transmiterea rezultatelor copiilor către cluburi private fără temei explicit, contrar art. 6 GDPR și cons. 38, și contrazice caracterul nonselectiv declarat. Acordul de la art. 2 alin.(2) vizează participarea, nu transferul de date. Propunerea păstrează puntea spre cluburi, dar lasă decizia familiei.",
+      "otherComments": "Art. 11: normele în 60 de zile de la 1.09.2027 ar veni după începerea anului școlar; propun termen raportat la publicarea legii. Art. 5 alin.(2): «de la adoptare» să devină «de la intrarea în vigoare», cu criterii publice de selecție a județelor pilot. Art. 8 alin.(2): avizul medical să fie gratuit (medic școlar/de familie)."
     }
   },
   "council": {
@@ -56,9 +56,35 @@
     },
     "claude": {
       "model": "claude",
-      "status": "error",
-      "durationMs": 420009,
-      "error": "timeout după 420s"
+      "status": "ok",
+      "durationMs": 58941,
+      "riskScore": 3,
+      "riskLevel": "green",
+      "plainTitle": "Lecții gratuite de înot pentru copii, prin grădiniță și școală",
+      "verdictShort": "Este o lege utilă și fără capcane pentru cetățeni: lecțiile sunt opționale și gratuite. Are însă probleme tehnice: transmiterea datelor copiilor către cluburi private, finanțare lăsată „în funcție de resurse” și un calendar care nu se leagă.",
+      "initiatorClaim": "Inițiatorii vor ca fiecare copil să învețe să înoate în siguranță la vârstă mică, pentru a preveni înecurile și a încuraja un stil de viață sănătos. Invocă programul LEN „Learn-to-Swim, Prevent Drowning”.",
+      "realityCheck": "Forma Senatului extinde grupul țintă față de Expunerea de motive (care viza copiii până în clasa a II-a): include și gimnaziul și elevii cu CES. Totodată renunță la denumirea „Johnny Weissmuller”. În primii 3 ani programul este doar pilot, în minimum 5 județe, iar finanțarea minimă per copil depinde anual de «resursele bugetare disponibile», deci nu există un drept garantat. Coordonarea locală revine operatorilor de bazine, posibil privați, fără un coordonator național desemnat.",
+      "affectedGroups": [
+        "Sănătate & Educație",
+        "IMM & Antreprenori"
+      ],
+      "keyFindings": [
+        "Art. 4 alin. (1) permite transmiterea «rezultatelor» copiilor către cluburi sportive private. Asta contrazice caracterul declarat nonselectiv, iar legea nu prevede un temei explicit pentru prelucrarea datelor minorilor. Acordul de la art. 2 alin. (2) privește doar participarea.",
+        "Art. 11 cere norme metodologice în 60 de zile de la intrarea în vigoare (1 septembrie 2027), adică după începerea anului școlar 2027/2028, pe care art. 12 îl indică drept moment de start.",
+        "Art. 5 alin. (2) calculează pilotul de 3 ani «de la adoptarea» legii, nu de la intrarea în vigoare. Nu stabilește criterii de selecție a județelor, ceea ce intră în tensiune cu art. 3 lit. a) (acces egal) și art. 5 alin. (1) (implementare națională).",
+        "Art. 9 alin. (3) declară participarea gratuită, dar art. 8 alin. (2) cere aviz medical fără să precizeze cine îl suportă. Art. 9 alin. (4) condiționează standardul de finanțare de resursele disponibile.",
+        "Art. 4 alin. (2) spune că activitățile «nu afectează curriculumul obligatoriu», dar «pot fi incluse în acesta». Aceasta contrazice caracterul opțional de la art. 9 alin. (3).",
+        "Art. 10 încredințează coordonarea operatorilor bazelor sportive, nu MEC sau unei autorități publice. Ministerul Sportului nu este menționat deloc."
+      ],
+      "blindSpotsCaught": "Terminologia este inconsecventă: art. 2 alin. (1) lit. b) trimite la «metodologie», art. 2 alin. (3) la «norme metodologice de aplicare», iar art. 11 la «actul normativ» în loc de «prezenta lege», contrar Legii nr. 24/2000. Selecția cluburilor și a operatorilor de bazine plătiți din bani publici prin «protocoale» (art. 5, 6, 10) ocolește aparent regulile de achiziții publice. Lit. c) a art. 2 alin. (1) include și gimnaziștii care știu deja să înoate.",
+      "constitutionalityNote": "Obiectivul protejează copiii (art. 49) și dreptul la educație (art. 32), deci este constituțional în substanță. Riscurile sunt următoarele. (1) Previzibilitatea (art. 1 alin. (5)) este afectată de calendarul incoerent dintre art. 5, 11 și 12 și de contradicția de la art. 4 alin. (2). (2) Legea generează cheltuieli bugetare, iar din materialele furnizate nu reiese o fișă financiară sau punctul de vedere al Guvernului. Potrivit jurisprudenței CCR pe art. 111 alin. (1) și art. 138 alin. (5), lipsa acestora poate atrage neconstituționalitatea extrinsecă. Formula «în funcție de resursele disponibile» atenuează, dar nu elimină riscul. (3) Art. 4 alin. (1) ridică probleme față de art. 26 (viața privată) prin transferul datelor minorilor fără garanții. (4) Pilotarea teritorială este admisibilă față de art. 16 doar cu criterii obiective, care lipsesc.",
+      "euLawNote": "Directiva (UE) 2018/958 nu este declanșată: legea nu creează o profesie reglementată și nu adaugă condiții noi de acces, ci trimite la autorizarea existentă («potrivit legii», art. 7). Directiva (UE) 2015/1535 (TRIS) nu se aplică, deoarece nu există servicii digitale sau reguli tehnice. Este relevant însă GDPR (art. 6 și considerentul 38) pentru transferul rezultatelor copiilor către cluburi (art. 4 alin. (1)). Contractarea serviciilor de bazine și instructori din fonduri publice trebuie să respecte Directiva 2014/24/UE (Legea 98/2016) și principiul nediscriminării furnizorilor din alte state membre. Calificările instructorilor din UE trebuie recunoscute conform Directivei 2005/36/CE.",
+      "senatForm": {
+        "articleRef": "Art. 4 alin. (1)",
+        "proposalContent": "Programul are caracter educativ, preventiv și formativ și nu urmărește selecția sportivă de performanță. Cu acordul scris și revocabil al părinților sau reprezentanților legali, familia poate fi informată despre cluburile sportive partenere, iar rezultatele copilului le pot fi transmise acestora. Fără acest acord, datele nu se transmit terților.",
+        "argumentation": "Textul actual permite transmiterea rezultatelor copiilor către cluburi private fără temei explicit, contrar art. 6 GDPR și cons. 38, și contrazice caracterul nonselectiv declarat. Acordul de la art. 2 alin.(2) vizează participarea, nu transferul de date. Propunerea păstrează puntea spre cluburi, dar lasă decizia familiei.",
+        "otherComments": "Art. 11: normele în 60 de zile de la 1.09.2027 ar veni după începerea anului școlar; propun termen raportat la publicarea legii. Art. 5 alin.(2): «de la adoptare» să devină «de la intrarea în vigoare», cu criterii publice de selecție a județelor pilot. Art. 8 alin.(2): avizul medical să fie gratuit (medic școlar/de familie)."
+      }
     },
     "codex": {
       "model": "codex",

@@ -2,24 +2,24 @@
   "billId": "PL-x 415/2026",
   "slug": "plx-415-2026",
   "version": "senat",
-  "updatedAt": "2026-10-29T01:39:12.926Z",
+  "updatedAt": "2026-10-31T08:45:14.153Z",
   "consensus": {
-    "riskScore": 2.5,
+    "riskScore": 2.3,
     "riskLevel": "green",
-    "plainTitle": "Facturile la telefon și internet în euro vor fi calculate obligatoriu la cursul BNR, fără adaosul băncilor comerciale",
-    "summaryTlDr": "O lege utilă și favorabilă consumatorilor și firmelor, care elimină comisionul mascat de 1-2% rezultat din folosirea cursului de vânzare al băncilor comerciale la facturarea abonamentelor telecom în euro. Are însă câteva scăpări de tehnică legislativă privind contractele deja în derulare și termenul de implementare IT, care trebuie corectate în comisii.",
-    "initiatorClaim": "Inițiatorii vor să oblige toți operatorii telecom să emită facturile pentru abonamentele exprimate în euro exclusiv la cursul oficial BNR din ziua lucrătoare anterioară facturării, fără marje sau comisioane bancare suplimentare.",
-    "realityCheck": "Măsura curăță piața de practica prin care un abonament de 10 euro costa diferit în funcție de banca comercială aleasă de operator (ING, BRD, BT). Totuși, textul adoptat de Senat nu precizează clar dacă regula se aplică automat și milioanelor de contracte deja în derulare și nu acordă un termen tehnic pentru reconfigurarea softurilor de facturare după publicarea în Monitorul Oficial.",
+    "plainTitle": "Facturile de telefon și internet stabilite în euro se vor calcula la cursul BNR, nu la cursul băncilor",
+    "summaryTlDr": "Este o lege mică, tehnică și favorabilă consumatorilor. Interzice operatorilor telecom să convertească prețurile din euro la cursul de vânzare al unei bănci comerciale, mai mare decât cel oficial. Are câteva imperfecțiuni de redactare (formularea cursului, lipsa unui termen de aplicare), dar nu ascunde capcane.",
+    "initiatorClaim": "Inițiatorii vor un criteriu unic și transparent de conversie euro-lei la facturile telecom. Motivul invocat: operatori precum Vodafone, Orange și Telekom aplică cursuri de vânzare ale băncilor comerciale, ceea ce ar aduce clienților costuri suplimentare de 1–2%.",
+    "realityCheck": "Art. 84¹ obligă furnizorii de servicii de comunicații electronice destinate publicului, care au prețuri în valută, să emită facturile în lei, la cursul BNR, fără marje sau comisioane. Art. 50³ alin. (7) adaugă obligația de a-i informa pe clienți despre acest lucru înainte de semnarea contractului. Încălcarea devine contravenție constatată de ANCOM (art. 142 pct. 46² și art. 144). Operatorii rămân liberi să stabilească prețul în euro, deci pot compensa prin tarife mai mari. În plus, legea nu are prevederi tranzitorii pentru contractele în curs și nu acordă un termen de adaptare a sistemelor de facturare.",
     "affectedGroups": [
       "Toți cetățenii",
       "IMM & Antreprenori",
       "Contabili & Fiscalitate"
     ],
     "senatForm": {
-      "articleRef": "Articol unic pct. 2 (Art. 84¹) și Art. II (nou)",
-      "proposalContent": "La Art. 84¹ se elimină sintagma „publicat la ora 13:00”. Se introduce Art. II: „Prezenta lege intră în vigoare la 60 de zile de la publicarea în Monitorul Oficial, dispozițiile art. 84¹ din OUG nr. 111/2011 aplicându-se și facturilor emise după această dată în baza contractelor aflate în derulare.”",
-      "argumentation": "Fără o normă tranzitorie, operatorii pot aplica cursul BNR doar contractelor noi, lăsând abonații existenți pe cursul comercial bancar. Termenul de 60 de zile permite adaptarea sistemelor IT de facturare, iar eliminarea orei fixe 13:00 previne litigii dacă BNR își schimbă regulamentul sau publică cursul cu întârziere.",
-      "otherComments": "Se recomandă și corelarea redactării de la pct. 2 („pentru ziua lucrătoare precedentă”) cu cea de la pct. 3 („comunicat în ziua lucrătoare precedentă”), folosind formularea consacrată din Codul Fiscal (ultimul curs de schimb comunicat de BNR în ziua lucrătoare precedentă datei emiterii facturii)."
+      "articleRef": "Art. unic pct. 2 (art. 84¹) și Art. II nou",
+      "proposalContent": "Art. 84¹: «...au obligația de a emite facturile în lei, la cursul de referință comunicat de BNR în ziua lucrătoare precedentă datei emiterii facturii, fără marje, adaosuri sau comisioane.» Art. II (nou): «Art. 84¹ se aplică facturilor emise după 60 de zile de la intrarea în vigoare a legii, inclusiv celor aferente contractelor în curs.»",
+      "argumentation": "Sintagma «comunicat pentru ziua lucrătoare precedentă» este ambiguă, pentru că BNR publică zilnic, în jurul orei 13:00, cursul de referință. Formula «comunicat în ziua» este cea folosită deja la pct. 46² și elimină divergența. Termenul de 60 de zile permite adaptarea sistemelor de facturare și clarifică regimul contractelor în derulare.",
+      "otherComments": "Pct. 46² ar trebui aliniat la art. 84¹, deoarece îi lipsește sintagma «fără marje». De verificat dacă art. 143 încadrează pct. 46² într-o limită de amendă și dacă lista din art. 144 alin. (1) reproduce forma consolidată în vigoare. Art. 50³ alin. (7) trebuie analizat și din perspectiva art. 101 din Directiva 2018/1972 (armonizare maximă)."
     }
   },
   "council": {
@@ -56,9 +56,36 @@
     },
     "claude": {
       "model": "claude",
-      "status": "error",
-      "durationMs": 420009,
-      "error": "timeout după 420s"
+      "status": "ok",
+      "durationMs": 51843,
+      "riskScore": 2,
+      "riskLevel": "green",
+      "plainTitle": "Facturile de telefon și internet stabilite în euro se vor calcula la cursul BNR, nu la cursul băncilor",
+      "verdictShort": "Este o lege mică, tehnică și favorabilă consumatorilor. Interzice operatorilor telecom să convertească prețurile din euro la cursul de vânzare al unei bănci comerciale, mai mare decât cel oficial. Are câteva imperfecțiuni de redactare (formularea cursului, lipsa unui termen de aplicare), dar nu ascunde capcane.",
+      "initiatorClaim": "Inițiatorii vor un criteriu unic și transparent de conversie euro-lei la facturile telecom. Motivul invocat: operatori precum Vodafone, Orange și Telekom aplică cursuri de vânzare ale băncilor comerciale, ceea ce ar aduce clienților costuri suplimentare de 1–2%.",
+      "realityCheck": "Art. 84¹ obligă furnizorii de servicii de comunicații electronice destinate publicului, care au prețuri în valută, să emită facturile în lei, la cursul BNR, fără marje sau comisioane. Art. 50³ alin. (7) adaugă obligația de a-i informa pe clienți despre acest lucru înainte de semnarea contractului. Încălcarea devine contravenție constatată de ANCOM (art. 142 pct. 46² și art. 144). Operatorii rămân liberi să stabilească prețul în euro, deci pot compensa prin tarife mai mari. În plus, legea nu are prevederi tranzitorii pentru contractele în curs și nu acordă un termen de adaptare a sistemelor de facturare.",
+      "affectedGroups": [
+        "Toți cetățenii",
+        "IMM & Antreprenori",
+        "Contabili & Fiscalitate"
+      ],
+      "keyFindings": [
+        "Art. 84¹ (Art. unic pct. 2) impune conversia la cursul BNR pentru ziua lucrătoare precedentă emiterii facturii, publicat la ora 13:00, fără marje, adaosuri sau comisioane. Efectul real este eliminarea diferenței dintre cursul de vânzare bancar și cursul oficial.",
+        "Formulările nu coincid între ele. Art. 84¹ spune «cursul comunicat de BNR pentru ziua lucrătoare precedentă», pct. 46² spune «comunicat în ziua lucrătoare precedentă», iar Expunerea de motive descrie practica DIGI ca fiind «cursul din ziua emiterii facturii». Divergența poate genera dispute despre ziua exactă a cursului aplicabil.",
+        "Pct. 46² din art. 142 descrie fapta sancționabilă fără sintagma «fără marje, adaosuri sau comisioane». Trimiterea la art. 84¹ acoperă probabil și această parte, dar textul contravenției ar trebui aliniat pentru a fi pe deplin previzibil.",
+        "Obligația de informare precontractuală din art. 50³ alin. (7) nu este trecută expres în lista contravențiilor introdusă de proiect. Se sancționează explicit doar emiterea facturii la alt curs.",
+        "Legea nu are dispoziții tranzitorii și nici termen de aplicare. Ar intra în vigoare la 3 zile de la publicare, ceea ce lasă puțin timp pentru adaptarea sistemelor de facturare. Rămâne neclar și dacă se aplică facturilor emise pentru contractele deja încheiate.",
+        "Impactul bugetar este nul. Pentru IMM-uri și cetățeni efectul este o mică economie, iar pentru operatori costul de conformare este minim, pentru că unul dintre ei (DIGI) aplică deja cursul BNR."
+      ],
+      "blindSpotsCaught": "Art. 144 alin. (1) este rescris integral prin enumerarea punctelor din art. 142. Dacă lista nu reproduce exact forma consolidată în vigoare, se pot pierde din greșeală competențe de constatare ale ANCOM pentru alte contravenții, de aceea trebuie verificată. Proiectul nu modifică art. 143 (cuantumul amenzilor), așa că trebuie verificat dacă pct. 46² intră automat într-o categorie de amendă. Directiva 2018/1972 impune, la art. 101, armonizare maximă pentru protecția utilizatorilor finali, iar o obligație națională suplimentară de informare precontractuală (art. 50³ alin. (7)) poate fi contestată pe acest temei. Obligația de facturare în lei (art. 84¹) privește mai degrabă regimul monedei și conversiei, deci riscul de conflict este redus.",
+      "constitutionalityNote": "Proiectul nu ridică probleme constituționale serioase. Libertatea economică (art. 45) este restrânsă doar marginal și proporțional, pentru protecția consumatorilor (art. 135 alin. (2) lit. a). Operatorii rămân liberi să stabilească prețul. Aplicarea la facturile viitoare din contractele în curs ține de efectele viitoare ale unor situații existente (facta futura), nu de retroactivitate interzisă de art. 15 alin. (2), dar o normă tranzitorie expresă ar spori securitatea juridică. Exigențele de claritate și previzibilitate din art. 1 alin. (5) sunt în general respectate, cu rezerva formulării ambigue a datei cursului și a nealinierii dintre art. 84¹ și pct. 46².",
+      "euLawNote": "Directiva (UE) 2018/958 privind testul de proporționalitate nu este aplicabilă, deoarece vizează doar profesiile reglementate. Directiva (UE) 2015/1535 (TRIS) nu pare să impună notificarea: serviciile de comunicații electronice sunt în mare parte excluse din noțiunea de servicii ale societății informaționale, iar norma nu vizează specific astfel de servicii. Proiectul nu creează bariere discriminatorii pe piața unică, pentru că se aplică tuturor furnizorilor, indiferent de origine. Punctul sensibil este Directiva (UE) 2018/1972 (Codul european al comunicațiilor electronice): art. 101 impune armonizare maximă pentru art. 102–115, inclusiv informarea precontractuală, deci noul art. 50³ alin. (7) ar trebui justificat ca simplă concretizare a informațiilor despre preț cerute de anexa VIII.",
+      "senatForm": {
+        "articleRef": "Art. unic pct. 2 (art. 84¹) și Art. II nou",
+        "proposalContent": "Art. 84¹: «...au obligația de a emite facturile în lei, la cursul de referință comunicat de BNR în ziua lucrătoare precedentă datei emiterii facturii, fără marje, adaosuri sau comisioane.» Art. II (nou): «Art. 84¹ se aplică facturilor emise după 60 de zile de la intrarea în vigoare a legii, inclusiv celor aferente contractelor în curs.»",
+        "argumentation": "Sintagma «comunicat pentru ziua lucrătoare precedentă» este ambiguă, pentru că BNR publică zilnic, în jurul orei 13:00, cursul de referință. Formula «comunicat în ziua» este cea folosită deja la pct. 46² și elimină divergența. Termenul de 60 de zile permite adaptarea sistemelor de facturare și clarifică regimul contractelor în derulare.",
+        "otherComments": "Pct. 46² ar trebui aliniat la art. 84¹, deoarece îi lipsește sintagma «fără marje». De verificat dacă art. 143 încadrează pct. 46² într-o limită de amendă și dacă lista din art. 144 alin. (1) reproduce forma consolidată în vigoare. Art. 50³ alin. (7) trebuie analizat și din perspectiva art. 101 din Directiva 2018/1972 (armonizare maximă)."
+      }
     },
     "codex": {
       "model": "codex",

@@ -2,14 +2,14 @@
   "billId": "Pl-x 267/2026",
   "slug": "plx-267-2026",
   "version": "initiator",
-  "updatedAt": "2026-10-29T04:42:51.521Z",
+  "updatedAt": "2026-10-31T08:43:24.202Z",
   "consensus": {
-    "riskScore": 3.5,
+    "riskScore": 3.7,
     "riskLevel": "green",
-    "plainTitle": "Amenzi pentru părinții care își lasă copiii sub 14 ani cu trotineta electrică pe drumurile publice",
-    "summaryTlDr": "O inițiativă utilă și necesară pentru siguranța rutieră, care acoperă un vid sancționator real. Are însă câteva stângăcii de redactare juridică ce trebuie corectate în comisii pentru a nu bloca aplicarea practică de către polițiști.",
-    "initiatorClaim": "Inițiatorul dorește să responsabilizeze părinții prin sancționarea lor contravențională atunci când minorii sub 14 ani circulă cu trotinete electrice pe drumurile publice și să ofere șoferilor sau pietonilor păgubiți în accidente ușoare un instrument mai rapid de recuperare a daunelor.",
-    "realityCheck": "Legea instituie corect amenda din clasa a III-a (6-8 puncte-amendă) direct pe numele părintelui sau tutorelui pentru nesupravegherea minorului sub 14 ani. Totuși, promisiunea din expunerea de motive că păgubitul scapă de instanța civilă este doar parțial adevărată: procesul-verbal va dovedi culpa, dar polițistul nu poate stabili despăgubiri bănești, deci dacă părintele refuză plata amiabilă și trotineta nu are RCA, tot instanța civilă va decide.",
+    "plainTitle": "Amendă pentru părinții care lasă copiii sub 14 ani pe trotineta electrică",
+    "summaryTlDr": "Scopul este legitim și interdicția de vârstă există deja, dar textul e redactat neglijent. Pct. 8¹ sancționează vag „tolerarea” și „nesupravegherea”, art. 101 alin. (2¹) e în mare parte redundant, iar mecanismul de despăgubire promis în Expunerea de motive nu există în articole.",
+    "initiatorClaim": "Inițiatorul vrea să închidă un gol: copilul sub 14 ani nu răspunde contravențional, iar poliția nu are temei să sancționeze părintele. În plus, păgubiții unor accidente minore ar rămâne fără o cale rapidă de despăgubire.",
+    "realityCheck": "Legea creează o contravenție de clasa a III-a (6–8 puncte-amendă, ordinul de mărime ~2.400–3.500 lei, în funcție de salariul minim în vigoare) pentru părinte, tutore sau orice persoană care supraveghea minorul. Alin. (2¹) al art. 101 nu aduce nimic nou: părintele e deja subiect al contravenției prin pct. 8¹, iar răspunderea civilă se face tot „potrivit Codului civil” (art. 1372), adică tot prin instanță dacă nu există acord sau acoperire RCA. Formula „permiterea, tolerarea sau nesupravegherea” poate duce în practică la o răspundere aproape obiectivă, constatată doar pe faptul că minorul a fost găsit pe trotinetă.",
     "affectedGroups": [
       "Șoferi & Auto",
       "Justiție & Drepturi Civile",
@@ -17,10 +17,10 @@
       "Sănătate & Educație"
     ],
     "senatForm": {
-      "articleRef": "Titlul legii și Art. unic pct. 3 (art. 101)",
-      "proposalContent": "Corectarea titlului (eliminarea dublării sintagmei „și completarea”) și reformularea art. 101 alin. (2¹): „În toate cazurile de săvârșire a faptei de la alin. (1) pct. 8¹, procesul-verbal se întocmește pe numele părintelui/tutorelui. În caz de accident cu pagube materiale, agentul eliberează și autorizația de reparație, părintele răspunzând civil conform Codului civil.”",
-      "argumentation": "În forma propusă, art. 101 alin. (2¹) prevede că procesul-verbal se întocmește pe numele părintelui „dacă s-au produs accidente”, ceea ce creează confuzia per a contrario că fără accident nu s-ar întocmi pe numele părintelui. De asemenea, simpla trimitere la Codul civil nu scutește păgubitul de proces dacă nu se corelează cu procedura constatării tamponărilor.",
-      "otherComments": "Totodată, la art. 101 alin. (2¹), sintagma „vătămări... care nu întrunesc elementele constitutive ale unei infracțiuni” este inaplicabilă pe loc de către polițistul rutier, deoarece orice accident rutier cu victime implică deschiderea unui dosar penal in rem, calificarea juridică aparținând exclusiv procurorului, nu agentului constatator."
+      "articleRef": "Art. unic pct. 3 – art. 101 alin. (2¹)",
+      "proposalContent": "Se reformulează: „(2¹) Pentru fapta prevăzută la alin. (1) pct. 8¹, agentul constatator consemnează în procesul-verbal pagubele produse și datele persoanei păgubite. Repararea prejudiciului se face potrivit art. 1372 Cod civil și Legii nr. 132/2017. Contravenția nu există dacă persoana responsabilă dovedește că nu a putut împiedica fapta.”",
+      "argumentation": "Textul inițial e redundant: pct. 8¹ deja face părintele subiect al contravenției, iar trimiterea la Codul civil nu creează un mecanism nou de despăgubire. Pragul „nu întrunesc elementele unei infracțiuni” e neclar la un minor sub 14 ani. Clauza exoneratoare evită o răspundere obiectivă, contrară art. 1 alin. (5) Constituție.",
+      "otherComments": "Titlul repetă „și completarea”, iar legea doar completează (Legea nr. 24/2000), deci trebuie corectat în „pentru completarea”. La art. 70 alin. (2¹), „se află în supravegherea acestora” se va înlocui cu „sub a căror supraveghere se află minorul”. Se recomandă avertisment (art. 7 OG 2/2001) la prima abatere fără incident."
     }
   },
   "council": {
@@ -56,9 +56,36 @@
     },
     "claude": {
       "model": "claude",
-      "status": "error",
-      "durationMs": 420010,
-      "error": "timeout după 420s"
+      "status": "ok",
+      "durationMs": 73860,
+      "riskScore": 4,
+      "riskLevel": "yellow",
+      "plainTitle": "Amendă pentru părinții care lasă copiii sub 14 ani pe trotineta electrică",
+      "verdictShort": "Scopul este legitim și interdicția de vârstă există deja, dar textul e redactat neglijent. Pct. 8¹ sancționează vag „tolerarea” și „nesupravegherea”, art. 101 alin. (2¹) e în mare parte redundant, iar mecanismul de despăgubire promis în Expunerea de motive nu există în articole.",
+      "initiatorClaim": "Inițiatorul vrea să închidă un gol: copilul sub 14 ani nu răspunde contravențional, iar poliția nu are temei să sancționeze părintele. În plus, păgubiții unor accidente minore ar rămâne fără o cale rapidă de despăgubire.",
+      "realityCheck": "Legea creează o contravenție de clasa a III-a (6–8 puncte-amendă, ordinul de mărime ~2.400–3.500 lei, în funcție de salariul minim în vigoare) pentru părinte, tutore sau orice persoană care supraveghea minorul. Alin. (2¹) al art. 101 nu aduce nimic nou: părintele e deja subiect al contravenției prin pct. 8¹, iar răspunderea civilă se face tot „potrivit Codului civil” (art. 1372), adică tot prin instanță dacă nu există acord sau acoperire RCA. Formula „permiterea, tolerarea sau nesupravegherea” poate duce în practică la o răspundere aproape obiectivă, constatată doar pe faptul că minorul a fost găsit pe trotinetă.",
+      "affectedGroups": [
+        "Șoferi & Auto",
+        "Justiție & Drepturi Civile",
+        "Sănătate & Educație",
+        "Toți cetățenii"
+      ],
+      "keyFindings": [
+        "Art. 70 alin. (2¹) reia o interdicție care rezultă deja din art. 70 alin. (2). Noutatea reală este doar obligația de supraveghere pusă în sarcina adultului.",
+        "Art. 101 alin. (1) pct. 8¹ folosește trei forme alternative de vinovăție („permiterea, tolerarea sau nesupravegherea”) fără vreo clauză exoneratoare. Părintele care a luat măsuri rezonabile, dar copilul a folosit totuși trotineta, e expus aceleiași amenzi.",
+        "Art. 101 alin. (2¹) spune că procesul-verbal „se întocmește pe numele părintelui” doar în ipoteza accidentului. Asta poate sugera, prin interpretare a contrario, o incertitudine pentru cazul fără accident. Trimiterea la Codul civil nu creează niciun mecanism nou de recuperare a prejudiciului, contrar promisiunii din Expunerea de motive.",
+        "Pragul „vătămări... care nu întrunesc elementele constitutive ale unei infracțiuni” e neclar. Minorul sub 14 ani nu răspunde penal (cauză de neimputabilitate), deci nu se înțelege dacă testul privește fapta obiectiv, conduita minorului sau o eventuală răspundere penală a adultului.",
+        "Titlul conține o eroare evidentă („modificarea și completarea și completarea”). În plus, articolul unic doar introduce texte noi, fără să modifice vreunul existent, deci formula corectă ar fi „pentru completarea”, potrivit Legii nr. 24/2000."
+      ],
+      "blindSpotsCaught": "1) Sintagma „persoanele cărora minorul le este încredințat” poate include bunici, profesori sau antrenori, care pot fi amendați pentru clasa a III-a fără să fi avut control asupra trotinetei. 2) Operatorii de trotinete partajate, unde minorii folosesc frecvent contul unui adult, nu sunt vizați deloc. 3) Hoverboardurile, monoroțile și trotinetele sub 6 km/h nu intră în definiția art. 6 pct. 10¹, deci rămân în afara normei. 4) Numerotarea art. 101 alin. (2¹) și a pct. 8¹ trebuie verificată față de forma consolidată actuală, pentru a evita coliziuni cu modificările ulterioare. 5) Contravenția nu atrage puncte de penalizare decât dacă se modifică art. 108, ceea ce e corect, dar nu e lămurit explicit. 6) Formularea art. 70 alin. (2¹) („se află în supravegherea acestora”) e gramatical defectuoasă și ambiguă.",
+      "constitutionalityNote": "Scopul este compatibil cu art. 48 (îndatoririle părinților) și art. 49 (protecția copiilor) din Constituție. Părintele răspunde pentru propria omisiune de supraveghere, nu pentru fapta altuia, deci principiul personalității răspunderii nu e încălcat în sine. Problemele țin de art. 1 alin. (5), adică de claritate și previzibilitate: termenii „tolerarea” și „nesupravegherea” sunt nedefiniți, cercul subiecților activi e larg, iar pragul penal din art. 101 alin. (2¹) e neclar. Contravențiile intră în „materia penală” în sens CEDO (Engel, Anghel c. România), iar CCR aplică aceleași exigențe de calitate a legii. Fără o clauză care să permită dovada diligenței, există riscul unei prezumții de vinovăție greu de răsturnat. Art. 23 alin. (12) nu e încălcat direct, fapta fiind prevăzută de lege, dar standardul de precizie impus de art. 1 alin. (5) nu e atins pe deplin.",
+      "euLawNote": "Directiva (UE) 2018/958 nu se aplică: proiectul nu reglementează accesul la o profesie sau exercitarea ei. Directiva (UE) 2015/1535 (TRIS) nu e incidentă: nu se impun specificații tehnice pentru produse și nici reguli pentru servicii ale societății informaționale. Regula privește doar conduita utilizatorilor pe drumurile publice, deci nu e necesară notificarea. Nu apar efecte asupra pieței unice sau a concurenței, pentru că vânzarea și închirierea trotinetelor rămân neatinse. Directiva 2009/103/CE privind asigurarea auto (transpusă prin Legea nr. 132/2017, extinsă prin Legea nr. 181/2025) rămâne mecanismul principal de despăgubire a terților. Proiectul nu interferează cu ea, dar nici nu adaugă ceva util.",
+      "senatForm": {
+        "articleRef": "Art. unic pct. 3 – art. 101 alin. (2¹)",
+        "proposalContent": "Se reformulează: „(2¹) Pentru fapta prevăzută la alin. (1) pct. 8¹, agentul constatator consemnează în procesul-verbal pagubele produse și datele persoanei păgubite. Repararea prejudiciului se face potrivit art. 1372 Cod civil și Legii nr. 132/2017. Contravenția nu există dacă persoana responsabilă dovedește că nu a putut împiedica fapta.”",
+        "argumentation": "Textul inițial e redundant: pct. 8¹ deja face părintele subiect al contravenției, iar trimiterea la Codul civil nu creează un mecanism nou de despăgubire. Pragul „nu întrunesc elementele unei infracțiuni” e neclar la un minor sub 14 ani. Clauza exoneratoare evită o răspundere obiectivă, contrară art. 1 alin. (5) Constituție.",
+        "otherComments": "Titlul repetă „și completarea”, iar legea doar completează (Legea nr. 24/2000), deci trebuie corectat în „pentru completarea”. La art. 70 alin. (2¹), „se află în supravegherea acestora” se va înlocui cu „sub a căror supraveghere se află minorul”. Se recomandă avertisment (art. 7 OG 2/2001) la prima abatere fără incident."
+      }
     },
     "codex": {
       "model": "codex",

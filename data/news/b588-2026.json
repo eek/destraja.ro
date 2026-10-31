@@ -1,9 +1,8 @@
 {
   "slug": "b588-2026",
   "billId": "B588/2026",
-  "checkedAt": "2026-10-29T12:56:14.053Z",
+  "checkedAt": "2026-10-31T08:28:02.338Z",
   "models": {
-    "agy": "error: răspuns gol după 603s (probabil timp depășit)",
     "claude": "ok",
     "codex": "ok"
   },
@@ -18,7 +17,7 @@
         "agy",
         "claude"
       ],
-      "quote": "Noua inițiativă legislativă propune schimbarea acestei responsabilități.",
+      "quote": "O inițiativă legislativă depusă recent la Senat propune schimbarea modului în care sunt finanțate centrele militare din România.",
       "match": "quote",
       "firstSeenAt": "2026-10-27",
       "decision": {
@@ -63,7 +62,7 @@
         "claude",
         "codex"
       ],
-      "quote": "Eu voi susține ca propunerea să fie dezbătută rapid, ca să poată intra în vigoare de la 1 ianuarie 2027.",
+      "quote": "Inițiativa privind finanțarea centrelor militare a fost prezentată de Nicoleta Pauliuc într-o postare pe Facebook.",
       "match": "quote",
       "firstSeenAt": "2026-10-27",
       "decision": {
@@ -237,6 +236,50 @@
   ],
   "pending": [
     {
+      "url": "https://psnews.ro/romania-parlament-proiect-lege-centre-militare-mapn-bugete-judetene",
+      "title": "Nicoleta Pauliuc, inițiativă pentru preluarea de către MApN a cheltuielilor centrelor militare de la primării",
+      "outlet": "PS News",
+      "domain": "psnews.ro",
+      "publishedAt": "2026-10-30",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "O nouă inițiativă legislativă depusă în Parlament propune transferul cheltuielilor de întreținere și pază ale centrelor militare de la consiliile județene și primăriile de sector către Ministerul Apărării Naționale.",
+      "match": "quote",
+      "firstSeenAt": "2026-10-31",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-31",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.802,
+            "source": "national_news",
+            "sourceP": 0.466,
+            "about": 0.944,
+            "release": 0.637
+          },
+          "d1": {
+            "stance": "supportive",
+            "stanceP": 0.53,
+            "source": "national_news",
+            "sourceP": 0.535,
+            "about": 0.679,
+            "release": 0.321
+          },
+          "luna": {
+            "stance": "supportive",
+            "stanceP": 0.88,
+            "source": "national_news",
+            "sourceP": 0.85,
+            "about": 0.99,
+            "release": 0.22
+          }
+        }
+      }
+    },
+    {
       "url": "https://www.amosnews.ro/propunere-ca-centrele-militare-sa-fie-finantate-integral-de-ministerul-apararii-nationale",
       "title": "Propunere ca centrele militare să fie finanțate integral de Ministerul Apărării Naționale -",
       "outlet": "amosnews.ro",
@@ -245,7 +288,7 @@
       "foundBy": [
         "claude"
       ],
-      "quote": "Senatoarea Nicoleta Pauliuc propune ca Ministerul Apărării Naționale să le preia integral finanțarea",
+      "quote": "Propunerea prevede ca, de la 1 ianuarie 2027, centrele militare să fie finanțate integral de Ministerul Apărării Naționale, de la bugetul de stat.",
       "match": "quote",
       "firstSeenAt": "2026-10-28",
       "decision": {

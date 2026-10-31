@@ -1,13 +1,144 @@
 {
   "slug": "b563-2026",
   "billId": "B563/2026",
-  "checkedAt": "2026-10-29T12:18:54.326Z",
+  "checkedAt": "2026-10-31T08:18:24.394Z",
   "models": {
-    "agy": "error: răspuns gol după 603s (probabil timp depășit)",
     "claude": "ok",
     "codex": "ok"
   },
   "articles": [
+    {
+      "url": "https://alba24.ro/avocat-pentru-contracte-imm-romania-anunta-ca-a-obtinut-in-parlament-eliminarea-obligatiei-pentru-firme-din-proiectul-de-lege-1165088.html",
+      "title": "Avocat pentru contracte: IMM România anunță că a obținut în Parlament eliminarea obligației pentru firme, din proiectul de lege",
+      "outlet": "Alba24",
+      "domain": "alba24.ro",
+      "publishedAt": "2026-10-29",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Propunerea legislativă a fost depusă la Senat la 14 octombrie de parlamentari aparținând mai multor formațiuni politice.",
+      "match": "quote",
+      "firstSeenAt": "2026-10-31",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-31",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "mixed",
+            "stanceP": 0.434,
+            "source": "local_news",
+            "sourceP": 0.721,
+            "about": 0.947,
+            "release": 0.06
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.549,
+            "source": "national_news",
+            "sourceP": 0.368,
+            "about": 0.798,
+            "release": 0.223
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.84,
+            "source": "local_news",
+            "sourceP": 0.96,
+            "about": 0.99,
+            "release": 0.02
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.capital.ro/consultanta-juridica-garantiile-profesionale-si-delimitarea-competentelor-in-centrul-dezbaterii-de-la-senat-pe-marginea-proiectului-b563-2026.html",
+      "title": "Consultanța juridică, garanțiile profesionale și delimitarea competențelor, în centrul dezbaterii de la Senat pe marginea proiectului B563/2026",
+      "outlet": "Capital",
+      "domain": "capital.ro",
+      "publishedAt": "2026-10-29",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Dezbaterile pe marginea proiectului B563/2026 vor fi reluate săptămâna viitoare",
+      "match": "quote",
+      "firstSeenAt": "2026-10-31",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-31",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.395,
+            "source": "national_news",
+            "sourceP": 0.548,
+            "about": 0.926,
+            "release": 0.102
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.508,
+            "source": "trade_press",
+            "sourceP": 0.68,
+            "about": 0.755,
+            "release": 0.133
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.83,
+            "source": "national_news",
+            "sourceP": 0.8,
+            "about": 0.99,
+            "release": 0.02
+          }
+        }
+      }
+    },
+    {
+      "url": "https://economedia.ro/colegiul-consilierilor-juridici-si-ceccar-contesta-proiectul-care-extinde-atributiile-avocatilor-unbr-nu-va-fi-obligatoriu-un-avocat-pentru-orice-contract.html",
+      "title": "Colegiul Consilierilor Juridici și CECCAR contestă proiectul care extinde atribuțiile avocaților. UNBR: Nu va fi obligatoriu un avocat pentru orice contract",
+      "outlet": "Economedia",
+      "domain": "economedia.ro",
+      "publishedAt": "2026-10-28",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Propunerea legislativă B563/2026, înregistrată la Senat pe 14 octombrie, vizează modificarea Legii nr. 51/1995",
+      "match": "quote",
+      "firstSeenAt": "2026-10-31",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-31",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "mixed",
+            "stanceP": 0.452,
+            "source": "trade_press",
+            "sourceP": 0.421,
+            "about": 0.943,
+            "release": 0.067
+          },
+          "d1": {
+            "stance": "mixed",
+            "stanceP": 0.618,
+            "source": "trade_press",
+            "sourceP": 0.687,
+            "about": 0.881,
+            "release": 0.202
+          },
+          "luna": {
+            "stance": "critical",
+            "stanceP": 0.83,
+            "source": "national_news",
+            "sourceP": 0.91,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
     {
       "url": "https://www.digi24.ro/digieconomic/financiar/legea-avocat-obligatoriu-ce-impact-real-are-asupra-firmelor-si-serviciilor-digitale-in-romania-124669",
       "title": "Legea „Avocat obligatoriu”: Ce impact real are asupra firmelor și serviciilor digitale în România",
@@ -456,7 +587,7 @@
       "foundBy": [
         "claude"
       ],
-      "quote": "CECCAR solicită public parlamentarilor inițiatori retragerea acestei propuneri legislative.",
+      "quote": "E vorba despre inițiativa legislativă B563/2026 pentru modificarea și completarea Legii nr.51/1995",
       "match": "quote",
       "decision": {
         "v": 2,

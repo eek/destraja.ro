@@ -1,9 +1,8 @@
 {
   "slug": "b578-2026",
   "billId": "B578/2026",
-  "checkedAt": "2026-10-29T12:36:38.249Z",
+  "checkedAt": "2026-10-31T08:24:13.984Z",
   "models": {
-    "agy": "ok",
     "claude": "ok",
     "codex": "ok"
   },
@@ -19,7 +18,7 @@
         "codex",
         "agy"
       ],
-      "quote": "Până atunci, propunerea trebuie să parcurgă etapele parlamentare și să fie votată pentru a putea deveni lege.",
+      "quote": "Documentul se află în dezbatere la Senat, prima Cameră sesizată, iar măsurile propuse nu sunt încă în vigoare.",
       "match": "quote",
       "firstSeenAt": "2026-10-28",
       "decision": {
@@ -153,7 +152,7 @@
         "claude",
         "codex"
       ],
-      "quote": "Parlamentarii se supun testării antidrog obligatorii la începutul fiecărei sesiuni ordinare și extraordinare.",
+      "quote": "propunerea legislativă privind instituirea obligativității testării antidrog a parlamentarilor",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -279,6 +278,50 @@
     }
   ],
   "pending": [
+    {
+      "url": "https://e-juridic.manager.ro/articole/teste-antidrog-obligatorii-pentru-parlamentari-ce-sanctiuni-risca-alesii-care-refuza-testarea-30570.html",
+      "title": "Teste antidrog obligatorii pentru parlamentari. Ce sanctiuni risca alesii care refuza testarea [Proiect]",
+      "outlet": "e-juridic.manager.ro",
+      "domain": "e-juridic.manager.ro",
+      "publishedAt": "2026-10-28",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Masurile sunt prevazute intr-un proiect de lege depus la Senat pe 20 octombrie 2026.",
+      "match": "quote",
+      "firstSeenAt": "2026-10-31",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-31",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.915,
+            "source": "trade_press",
+            "sourceP": 0.781,
+            "about": 0.976,
+            "release": 0.036
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.794,
+            "source": "trade_press",
+            "sourceP": 0.624,
+            "about": 0.905,
+            "release": 0.119
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.98,
+            "source": "trade_press",
+            "sourceP": 0.94,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
     {
       "url": "https://botosani24.ro/teste-antidrog-obligatorii-pentru-deputati-si-senatori-parlamentarii-care-refuza-ar-putea-ramane-fara-jumatate-din-indemnizatie-145978.html",
       "title": "Teste ANTIDROG obligatorii pentru deputați și senatori! Parlamentarii care refuză ar putea rămâne fără jumătate din indemnizație",

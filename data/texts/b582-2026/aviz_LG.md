@@ -1,0 +1,57 @@
+# AVIZ
+
+# referitor la propunerea legislativă pentru modificarea art. 6 din Legea nr. 202/1998 privind organizarea Monitorului Oficial al României.
+
+Analizând propunerea legislativă pentru modificarea art. 6 din Legea nr. 202/1998 privind organizarea Monitorului Oficial al României. (b582/21.10.2026), transmisă de Secretarul General al Senatului cu adresa nr. XXXV/5145/26.10.2026 și înregistrată la Consiliul Legislativ cu nr. D884/26.10.2026,
+
+## CONSILIUL LEGISLATIV
+
+În temeiul art. 2 alin. (1) lit. a) din Legea nr. 73/1993, republicată, și al art. 29 alin. (4) din Regulamentul de organizare și funcționare a Consiliului Legislativ,
+
+Avizează negativ propunerea legislativă, pentru următoarele considerente:
+
+1\. Propunerea legislativă are ca obiect de reglementare modificarea art. 6 din Legea nr. 202/1998 privind organizarea Monitorului Oficial al României, republicată, cu modificările și completările ulterioare, normă prin care sunt stabilite actele care se publică în Monitorul Oficial al României, Partea a II-a, în sensul abrogării lit. „E. întrebări adresate de deputați, respectiv de senatori Guvernului, miniștrilor sau altor conducători ai organelor administrației publice la care nu s-a răspuns”.
+
+Demersul legislativ este justificat de faptul că „Eliminarea obligației de a publica în Monitorul Oficial al României documente care privesc activitatea individuală a parlamentarilor, documente care se regăsesc pe site-urile celor două camere ale Parlamentului, presupune pe lângă debirocratizarea excesivă și o diminuare substanțială a bugetului alocat pentru funcționarea Parlamentului”.
+
+2\. Prin conținutul său normativ, proiectul face parte din categoria legilor ordinare, iar în aplicarea art. 75 alin. (1) din Constituția României, republicată, prima Cameră sesizată este Senatul.
+
+Calea 13 Septembrie nr. 1-3, Palatul Parlamentului, Corp B1, Sector 5, București Tel.: 021 313 6608 / Fax: 021 414 2061 / E-mail: relatii.publice@clr.ro / www.clr.ro
+
+3\. Precizăm că, prin avizul pe care îl emite, Consiliul Legislativ nu se pronunță asupra oportunității soluțiilor legislative preconizate.
+
+4\. Menționăm că soluția legislativă propusă trebuie să se subsumeze dispozițiilor art. 6 alin. (1) teza I din Legea nr. 24/2000, republicată, cu modificările și completările ulterioare, conform cărora „Proiectul de act normativ trebuie să instituie reguli necesare, suficiente și posibile care să conducă la o cât mai mare stabilitate și eficiență legislativă. Soluțiile pe care le cuprinde trebuie să fie temeinic fundamentate”.
+
+Cu toate acestea, în Expunerea de motive nu se regăsește o fundamentare riguroasă a impactului juridic, atât pe termen scurt cât și pe termen lung, pe care îl are eliminarea din categoria actelor care se publică în Monitorul Oficial al României a întrebărilor adresate de deputați, respectiv de senatori Guvernului, miniștrilor sau altor conducători ai organelor administrației publice, la care nu s-a răspuns, fără a se ține seama de implicațiile majore ale acestei soluții legislative în ceea ce privește evidența oficială a activității parlamentare și/sau governamentale.
+
+5\. Referitor la soluția legislativă preconizată, precizăm că Monitorul Oficial al României nu reprezintă un simplu canal de diseminare a informațiilor publice, ci este instituția oficială de învestire a actelor și faptelor juridice cu atributele certitudinii, autenticității și opozabilității erga omnes.
+
+Ca urmare, eliminarea unei categorii de acte parlamentare din sfera actelor care se publică în Partea a II-a a Monitorului Oficial (în speță, întrebările parlamentarilor rămase fără răspuns) afectează însăși finalitatea acestora.
+
+Din punct de vedere juridic, publicarea în Monitorul Oficial conferă înscrisului caracterul de act autentic, care face deplină dovadă cu privire la conținutul acestuia; ca atare, pentru autoritatea legislativă, aceasta atestă, în plan juridic, existența, conținutul și data depunerii întrebărilor.
+
+Eliminarea din Partea a II-a a Monitorului Oficial a întrebărilor parlamentare rămase fără răspuns poate crea incertitudini referitoare la existența și la conținutul acelor demersuri, care nu s-ar mai regăsi decât în evidențe administrative interne, precum și pe site-urile celor două Camere ale Parlamentului.
+
+Pe termen lung, evidența completă în cadrul publicației oficiale a întrebărilor și interpelărilor servește și ca element subsidiar în analiza contextului politic și social care a fundamentat adoptarea anumitor legi.
+
+Totodată, lipsa acestei publicări oficiale poate afecta substanțial forța probantă a actului de control parlamentar, în eventuale litigii constituționale sau administrative.
+
+Astfel, în litigiile de drept constituțional sau administrativ, instanțele (inclusiv Curtea Constituțională) apelează la Monitorul Oficial, Partea a II-a, pentru a reconstitui voința legiuiitorului și blocajele instituționale dintre executiv și legislativ.
+
+De asemenea, dovada juridică a faptului că un membru al Guvernului a refuzat în mod sistematic să răspundă unei întrebări parlamentare (dovadă instituită prin publicarea oficială a întrebărilor în cazul cărora lipsește răspunsul transmis în termenele legale) poate constitui un element care să declanșeze proceduri de anvergură, cum ar fi moțiunile simple sau de cenzură.
+
+În acest context, eliminarea publicării în Monitorul Oficial al României a întrebărilor parlamentare la care nu s-a răspuns îngreunează analiza conduitei membrilor executivului.
+
+În plus, lipsa publicării întrebărilor adresate de deputați, respectiv de senatori Guvernului, miniștrilor sau altor conducători ai organelor administrației publice, la care nu s-a răspuns, îngrădește chiar accesul cetățenilor la surse juridice oficiale și incontestabile de documentare privind funcționarea statului, fiind afectat dreptul acestora de a deține o imagine certă asupra activității reprezentanților săi în Parlament.
+
+Pe de altă parte, La fel de importantă este și vulnerabilitatea site-urilor web. Spre deosebire de Monitorul Oficial, care beneficiază de un regim special de arhivare legală, securizare și neschimbare a formei fizice/digitale (semnate electronic cu titlu oficial), platformele informatice ale Camerelor Parlamentului sunt considerate instrumente de informare publică și management intern. Ele nu sunt purtătoare de forță publică și sunt expuse riscurilor tehnologice (migrări de date, atacuri cibernetice, reorganizări de interfață) care pot duce la alterarea sau pierderea informațiilor relevante pentru activitatea parlamentară.
+
+\* \*
+
+Față de cele de mai sus, propunerea legislativă nu poate fi adoptată.
+
+PRESEDINTE
+
+Florin LORDACHE
+
+București Nr. 904/29.10.2026

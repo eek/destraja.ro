@@ -1,9 +1,8 @@
 {
   "slug": "b591-2026",
   "billId": "B591/2026",
-  "checkedAt": "2026-10-29T12:53:30.145Z",
+  "checkedAt": "2026-10-31T08:28:54.840Z",
   "models": {
-    "agy": "ok",
     "claude": "ok",
     "codex": "ok"
   },
@@ -53,5 +52,50 @@
       }
     }
   ],
-  "pending": []
+  "pending": [
+    {
+      "url": "https://newsbuzau.ro/2026/10/31/norma-de-hrana-a-politistilor-locali-ar-putea-deveni-obligatorie-in-toata-tara-primariile-nu-vor-mai-putea-refuza-plata-daca-legea-va-fi-adoptata",
+      "title": "Norma de hrană a polițiștilor locali ar putea deveni obligatorie în toată țara. Primăriile nu vor mai putea refuza plata dacă legea va fi adoptată",
+      "outlet": "News Buzau – O altfel de presa!",
+      "domain": "newsbuzau.ro",
+      "publishedAt": "2026-10-31",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Inițiativa a fost depusă la Senat de senatorii PACE Ninel Peia și Clement Sava și de deputatul Mădălin-Laurențiu Făget.",
+      "match": "quote",
+      "firstSeenAt": "2026-10-31",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-31",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.641,
+            "source": "local_news",
+            "sourceP": 0.765,
+            "about": 0.967,
+            "release": 0.05
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.528,
+            "source": "national_news",
+            "sourceP": 0.443,
+            "about": 0.852,
+            "release": 0.085
+          },
+          "luna": {
+            "stance": "mixed",
+            "stanceP": 0.77,
+            "source": "local_news",
+            "sourceP": 0.98,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    }
+  ]
 }

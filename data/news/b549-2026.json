@@ -1,9 +1,8 @@
 {
   "slug": "b549-2026",
   "billId": "B549/2026",
-  "checkedAt": "2026-10-29T12:06:56.996Z",
+  "checkedAt": "2026-10-31T08:16:28.755Z",
   "models": {
-    "agy": "ok",
     "claude": "ok",
     "codex": "ok"
   },
@@ -15,9 +14,10 @@
       "domain": "capital.ro",
       "publishedAt": "2026-10-29",
       "foundBy": [
-        "agy"
+        "agy",
+        "claude"
       ],
-      "quote": "Pentru a reduce timpul de așteptare, o inițiativă legislativă propune modificarea Legii nr. 360/2023 privind sistemul public de pensii.",
+      "quote": "Inițiativa se află în prezent în consultare publică la Senat.",
       "match": "quote",
       "firstSeenAt": "2026-10-29",
       "decision": {
@@ -193,7 +193,7 @@
       "foundBy": [
         "claude"
       ],
-      "quote": "O propunere legislativă aflată la Senat ar obliga casele de pensii să emită o decizie provizorie",
+      "quote": "Consiliul Economic și Social a avizat favorabil inițiativa.",
       "match": "quote",
       "firstSeenAt": "2026-10-29",
       "decision": {
@@ -664,6 +664,50 @@
             "stanceP": 0.98,
             "source": "national_news",
             "sourceP": 0.72,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.oradesibiu.ro/2026/10/28/lege-pentru-romanii-care-au-muncit-in-mai-multe-tari-si-se-apropie-de-pensie",
+      "title": "Lege pentru românii care au muncit în mai multe țări și se apropie de pensie",
+      "outlet": "Ora de Sibiu",
+      "domain": "oradesibiu.ro",
+      "publishedAt": "2026-10-28",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Inițiativa propune modificarea Legii nr. 360/2023 privind sistemul public de pensii.",
+      "match": "quote",
+      "firstSeenAt": "2026-10-31",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-31",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.773,
+            "source": "local_news",
+            "sourceP": 0.679,
+            "about": 0.965,
+            "release": 0.04
+          },
+          "d1": {
+            "stance": "mixed",
+            "stanceP": 0.49,
+            "source": "local_news",
+            "sourceP": 0.541,
+            "about": 0.835,
+            "release": 0.085
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.94,
+            "source": "local_news",
+            "sourceP": 0.98,
             "about": 0.99,
             "release": 0.01
           }

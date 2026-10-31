@@ -159,13 +159,25 @@ STRUCTURA JSON CERUTĂ:
 }`;
 }
 
+// Codex încearcă uneori să caute legile cu unelte pe care nu le are, apoi se oprește după fraza de început
+// („Verific textele legale…, apoi formulez evaluarea”). La a doua încercare îi spunem să răspundă direct.
+const NO_TOOLS_RETRY = `
+
+NOTĂ: în această sesiune nu ai unelte, internet sau fișiere. Nu anunța ce urmează să verifici: răspunde acum, direct, cu obiectul JSON complet, pe baza textului de mai sus și a ce știi deja.`;
+
 // Același apel izolat ca în restul scripturilor (scripts/lib/ai-cli.mjs): fără unelte, într-un director gol,
-// fără variabilele din .env. Proiectele lungi pot cere câteva minute.
-async function runSingleAi(modelKey, prompt, label) {
+// fără variabilele din .env. Proiectele lungi pot cere câteva minute. Un răspuns fără scor sau un JSON stricat se mai
+// încearcă o dată; un timeout nu, ar mai costa încă 7 minute.
+async function runSingleAi(modelKey, prompt, label, retry = true) {
   const res = await runModel(modelKey, prompt, { mode: 'offline', timeoutMs: 420000, label });
-  return res.status === 'ok'
-    ? { model: modelKey, status: 'ok', durationMs: res.durationMs, ...res.data }
-    : { model: modelKey, status: 'error', durationMs: res.durationMs, error: res.error };
+  const scored = res.status === 'ok' && Number.isFinite(res.data?.riskScore);
+  if (scored) return { model: modelKey, durationMs: res.durationMs, ...res.data, status: 'ok' };
+  const error = res.status === 'ok' ? `răspuns fără analiză: „${JSON.stringify(res.data).slice(0, 120)}”` : res.error;
+  if (retry && !/timeout|timp depășit|limită de utilizare|usage limit|rate limit|quota/i.test(error)) {
+    console.log(`   ↻ ${modelKey} ${label}: ${error.slice(0, 100)}; mai încerc o dată`);
+    return runSingleAi(modelKey, prompt + NO_TOOLS_RETRY, label, false);
+  }
+  return { model: modelKey, status: 'error', durationMs: res.durationMs, error };
 }
 
 // texts, version și outFile servesc comparațiilor (--versions): o formă anume a textului, scrisă în alt fișier.
@@ -287,6 +299,11 @@ function chamberBill(sheet) {
 
 /** Descarcă textul proiectului și expunerea de motive; întoarce false dacă fișa n-are niciun text al legii. */
 async function downloadChamberPdfs(sheet) {
+  // În cloud nu descărcăm nimic: ajunge textul unei forme deja citite în data/texts.
+  if (TEXTS_FROM_DISK) {
+    const texts = path.join(TEXT_DIR, sheet.slug);
+    return fs.existsSync(texts) && fs.readdirSync(texts).some((f) => f.startsWith('forma_') && f.endsWith('.txt'));
+  }
   const dir = path.join(PDF_DIR, sheet.slug);
   let wanted = CDEP_DOCS.map((d) => ({ ...d, doc: (sheet.fisa.documente ?? []).find((x) => d.match.test(x.eticheta)) })).filter((d) => d.doc);
   if (!wanted.some((d) => d.type.startsWith('forma'))) return false;

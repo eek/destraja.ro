@@ -4,6 +4,7 @@ import { MODELS } from '@/lib/site';
 import { RISK } from '@/lib/risk';
 import { fmt } from '@/lib/format';
 import { Glyph } from '@/components/ui';
+import RiskInfo from './RiskInfo';
 
 type Council = Partial<Record<(typeof MODELS)[number]['key'], Pick<AiVerdict, 'status' | 'riskScore' | 'riskLevel' | 'verdictShort'> | undefined>>;
 
@@ -95,10 +96,13 @@ export default function ModelsVerdict({
           {rows.length > 0 && <p className="mt-1.5 max-w-[60ch] text-base leading-relaxed text-body">{plainAgreement(rows)}</p>}
         </div>
         <div className="text-right">
-          <p className="font-display text-5xl font-semibold leading-none tabular-nums text-ink">
-            {fmt(score)}
-            <span className="font-sans text-lg font-normal text-muted">/10</span>
-          </p>
+          <div className="flex items-start justify-end gap-1">
+            <p className="font-display text-5xl font-semibold leading-none tabular-nums text-ink">
+              {fmt(score)}
+              <span className="font-sans text-lg font-normal text-muted">/10</span>
+            </p>
+            <RiskInfo />
+          </div>
           <p className={`mt-2 inline-flex items-center gap-1.5 text-sm font-semibold ${RISK[level].text}`}>
             <Glyph level={level} />
             {RISK[level].label} · <span className="text-muted">{agree.toLowerCase()}</span>

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { AlertTriangle, CheckCircle2, ChevronDown, FileText, Scale, Sparkles } from 'lucide-react';
 import { getAllBills, getDataSyncedAt, toLite } from '@/lib/bills';
 import { ARC_DATE, FEATURED_ID, MODELS, OPOZITIE, PUTERE, SENAT_URL, SOURCE_URL, SPRIJIN } from '@/lib/site';
-import { RISK, RISK_LEVELS } from '@/lib/risk';
+import { RISK, RISK_LEVELS, RISK_MEANING, RISK_MEANING_MORE } from '@/lib/risk';
 import { fmt, formatDateRo } from '@/lib/format';
 import { Container, RiskChip, RiskDot, linkCls, panel } from '@/components/ui';
 import { trackAttrs } from '@/lib/analytics';
@@ -42,6 +42,10 @@ const FAQ = [
   {
     q: 'Chiar contează dacă trimit o obiecție?',
     a: 'Da. Opiniile depuse rămân în dosarul oficial al proiectului, sunt vizibile pentru parlamentari și pentru presă și arată că cineva urmărește. Tăcerea e ușor de interpretat drept acord.',
+  },
+  {
+    q: 'Scorul spune dacă legea e bună sau rea?',
+    a: `Nu. ${RISK_MEANING} ${RISK_MEANING_MORE}`,
   },
   {
     q: 'Cum sunt calculate scorurile de risc?',
@@ -142,6 +146,9 @@ export default async function MethodPage() {
           <h2 id="niveluri" className="font-display text-3xl font-normal sm:text-4xl">
             Cum citești culorile
           </h2>
+          <p className="mt-3 text-[15px] leading-7 text-body">
+            <b className="font-semibold text-ink">{RISK_MEANING}</b> {RISK_MEANING_MORE}
+          </p>
           <p className="mt-3 text-[15px] leading-7 text-muted">
             Culoarea apare mereu împreună cu eticheta și scorul. Acordul dintre modele: „de acord” sub 1,5 puncte diferență, „acord parțial” până la 3,
             „nu sunt de acord” peste 3.

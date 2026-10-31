@@ -1,16 +1,13 @@
 'use client';
 
-import { useCallback, useEffect, useId, useRef, type ReactNode } from 'react';
+import type { ReactNode } from 'react';
 import Link from 'next/link';
 import { AlertTriangle, ArrowRight, ExternalLink, Flame, Layers, X } from 'lucide-react';
 import type { BillLite } from '@/lib/types';
 import { formatDateRo } from '@/lib/format';
 import { camps } from '@/lib/stats';
 import { trackAttrs } from '@/lib/analytics';
-
-const GAP = 8;
-const EDGE = 16;
-const SHEET_BELOW = 640;
+import { useAnchoredPopover } from '@/components/useAnchoredPopover';
 
 /** Eticheta e un buton; explicația se deschide lângă ea (pe telefon, ca o foaie jos) și se închide cu Esc sau click în afară. */
 function FlagInfo({ chip, chipCls, icon: Icon, billId, flag, title, children }: {
@@ -22,48 +19,7 @@ function FlagInfo({ chip, chipCls, icon: Icon, billId, flag, title, children }: 
   title: string;
   children: ReactNode;
 }) {
-  const id = useId();
-  const btn = useRef<HTMLButtonElement>(null);
-  const pop = useRef<HTMLDivElement>(null);
-
-  const place = useCallback(() => {
-    const b = btn.current?.getBoundingClientRect();
-    const p = pop.current;
-    if (!b || !p) return;
-    const vw = window.innerWidth;
-    const vh = window.innerHeight;
-    if (vw < SHEET_BELOW) {
-      Object.assign(p.style, { left: `${EDGE}px`, right: `${EDGE}px`, top: 'auto', bottom: `${EDGE}px`, width: 'auto' });
-      return;
-    }
-    const w = p.offsetWidth;
-    const h = p.offsetHeight;
-    const left = Math.min(Math.max(EDGE, b.left), vw - EDGE - w);
-    const top = b.bottom + GAP + h > vh - EDGE && b.top - GAP - h > EDGE ? b.top - GAP - h : b.bottom + GAP;
-    Object.assign(p.style, { left: `${left}px`, top: `${top}px`, right: 'auto', bottom: 'auto' });
-  }, []);
-
-  useEffect(() => {
-    const p = pop.current;
-    if (!p) return;
-    const onScroll = () => place();
-    const onToggle = (e: Event) => {
-      if ((e as ToggleEvent).newState === 'open') {
-        place();
-        window.addEventListener('scroll', onScroll, { passive: true });
-        window.addEventListener('resize', onScroll);
-      } else {
-        window.removeEventListener('scroll', onScroll);
-        window.removeEventListener('resize', onScroll);
-      }
-    };
-    p.addEventListener('toggle', onToggle);
-    return () => {
-      p.removeEventListener('toggle', onToggle);
-      window.removeEventListener('scroll', onScroll);
-      window.removeEventListener('resize', onScroll);
-    };
-  }, [place]);
+  const { id, btn, pop } = useAnchoredPopover();
 
   return (
     <li>

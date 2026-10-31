@@ -9,6 +9,7 @@ import { agreement, modelScore, oneLiner } from '@/lib/stats';
 import { trackAttrs } from '@/lib/analytics';
 import { PartyTag, RiskChip, RiskDot, btnPrimary, btnSecondary } from '@/components/ui';
 import { CardStrip, RiskChipFace, cardCls, cardLedeCls, cardTitleCls, riskChipCls } from './card-parts';
+import RiskInfo from './RiskInfo';
 import { Flags } from './Flags';
 import BalanceBlock from './BalanceBlock';
 
@@ -37,16 +38,19 @@ export default function BillCard({ bill, onParty }: { bill: BillLite; onParty?: 
       <div className="flex flex-1 flex-col p-5 sm:p-6">
         <div className="flex items-center justify-between gap-3">
           {/* Cipul deschide explicația scorului: o fereastră peste pagină, ca să nu lungească un singur card din grilă. */}
-          <button
-            type="button"
-            popoverTarget={`risc-${bill.slug}`}
-            aria-haspopup="dialog"
-            aria-label={`${RISK[c.riskLevel].label} ${fmt(c.riskScore)} din 10. De ce acest nivel de risc?`}
-            {...trackAttrs('risk_reason_open', { bill_id: bill.id })}
-            className={riskChipCls(c.riskLevel)}
-          >
-            <RiskChipFace level={c.riskLevel} score={c.riskScore} />
-          </button>
+          <span className="flex items-center gap-0.5">
+            <button
+              type="button"
+              popoverTarget={`risc-${bill.slug}`}
+              aria-haspopup="dialog"
+              aria-label={`${RISK[c.riskLevel].label} ${fmt(c.riskScore)} din 10. De ce acest nivel de risc?`}
+              {...trackAttrs('risk_reason_open', { bill_id: bill.id })}
+              className={riskChipCls(c.riskLevel)}
+            >
+              <RiskChipFace level={c.riskLevel} score={c.riskScore} />
+            </button>
+            <RiskInfo />
+          </span>
           <span className="text-xs font-medium tabular-nums text-muted">{bill.id}</span>
         </div>
 

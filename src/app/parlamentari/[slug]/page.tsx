@@ -11,6 +11,7 @@ import { countWord, fmt } from '@/lib/format';
 import { Container, PartyTag, RiskChip, RiskDot, panel } from '@/components/ui';
 import BillGrid from '@/components/bills/BillGrid';
 import MpContactPanel from '@/components/mps/MpContactPanel';
+import RiskInfo from '@/components/bills/RiskInfo';
 import { getMpContact } from '@/lib/mp-contacts';
 
 interface PageProps {
@@ -97,7 +98,10 @@ export default async function MpPage({ params }: PageProps) {
             </div>
           ))}
           <div className="flex flex-col-reverse">
-            <dt className="text-sm text-muted">scor mediu</dt>
+            <dt className="flex items-center gap-0.5 text-sm text-muted">
+              scor mediu
+              <RiskInfo className="-my-1" />
+            </dt>
             <dd className={`text-3xl font-semibold tabular-nums ${RISK[levelFromScore(mp.avgRiskScore)].text}`}>{fmt(mp.avgRiskScore)}</dd>
           </div>
         </dl>

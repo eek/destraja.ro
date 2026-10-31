@@ -16,6 +16,7 @@ import { getMpPageSlugs } from '@/lib/mp-pages';
 import BillBalance from '@/components/bills/BillBalance';
 import ModelsVerdict from '@/components/bills/ModelsVerdict';
 import ReportIssue from '@/components/bills/ReportIssue';
+import RiskInfo from '@/components/bills/RiskInfo';
 import LiveDeadline from '@/components/bills/LiveDeadline';
 import { getBalance } from '@/lib/balance';
 
@@ -144,7 +145,12 @@ export default async function CameraBillPage({ params }: PageProps) {
           {c && <div className={`h-1.5 ${RISK[c.riskLevel].fill}`} aria-hidden />}
           <div className="p-6 sm:p-9">
             <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
-              {c && <RiskChip level={c.riskLevel} score={c.riskScore} size="md" />}
+              {c && (
+                <span className="inline-flex items-center gap-0.5">
+                  <RiskChip level={c.riskLevel} score={c.riskScore} size="md" />
+                  <RiskInfo />
+                </span>
+              )}
               <span className={`rounded-md px-2 py-0.5 text-xs font-semibold ${stage === 'plen' ? 'bg-brand text-on-brand' : 'bg-sunken text-body'}`}>
                 {stageLabel(stage)}
               </span>

@@ -1,5 +1,10 @@
 import type { RiskLevel } from './types';
 
+/** Ce măsoară scorul de risc și ce nu: lângă fiecare scor (RiskInfo) și în metodologie. */
+export const RISK_MEANING = 'Riscul e juridic: cât de clar, proporțional și constituțional e textul. Nu spune dacă legea e bună sau rea pentru țară.';
+export const RISK_MEANING_MORE =
+  'O lege cu un scop bun poate avea risc ridicat când e scrisă vag sau prea larg, iar câteva articole rescrise o pot coborî. La fel, o lege cu risc redus poate să nu-ți placă, și e în regulă.';
+
 export type RiskMeta = {
   label: string;
   short: string;

@@ -17,6 +17,7 @@ import BillRoute from '@/components/bills/BillRoute';
 import BillNews, { PressLink } from '@/components/bills/BillNews';
 import BillPositions, { PositionsLink } from '@/components/bills/BillPositions';
 import { Container, PartyTag, RiskChip, panel } from '@/components/ui';
+import RiskInfo from '@/components/bills/RiskInfo';
 import { Flags } from '@/components/bills/Flags';
 import CiteBill from '@/components/bills/CiteBill';
 import DocumentText from '@/components/bills/DocumentText';
@@ -100,7 +101,10 @@ export default async function BillDetailPage({ params }: PageProps) {
           <div className={`h-1.5 ${RISK[c.riskLevel].fill}`} aria-hidden />
           <div className="p-6 sm:p-9">
             <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
-              <RiskChip level={c.riskLevel} score={c.riskScore} size="md" />
+              <span className="inline-flex items-center gap-0.5">
+                <RiskChip level={c.riskLevel} score={c.riskScore} size="md" />
+                <RiskInfo />
+              </span>
               <span className="tabular-nums text-muted">
                 {bill.id} · cod Senat {bill.cod}
               </span>

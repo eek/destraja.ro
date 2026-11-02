@@ -1,0 +1,99 @@
+{
+  "slug": "plx-693-2026",
+  "billId": "Pl-x 693/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T19:36:46.595Z",
+  "inputHash": "42e7122c57ff",
+  "riskScore": 3.3,
+  "summary": "O reducere de impozit clară și anunțată din timp, dar făcută fără niciun calcul al costului pentru buget și cu omisiuni care creează tratament inegal și incertitudine.",
+  "good": [
+    {
+      "text": "Persoanele fizice (asociați de firme, investitori) vor plăti 8% în loc de 16% pe dividende, ca impozit final. Rămân mai mulți bani pentru reinvestire sau economisire.",
+      "article": "art. 1 pct. 2",
+      "quote": "se impozitează cu o cotă de 8% din suma acestora, impozitul fiind final",
+      "weight": 3
+    },
+    {
+      "text": "Legea intră în vigoare abia de la 1 ianuarie a anului următor. Firmele și oamenii au timp să se pregătească, iar regula de previzibilitate fiscală e respectată.",
+      "article": "art. 2",
+      "quote": "Prezenta lege intră în vigoare la data de 1 ianuarie a anului următor publicării în Monitorul Oficial, Partea I.",
+      "weight": 2
+    },
+    {
+      "text": "Aceeași cotă redusă se aplică și câștigurilor din fondurile de investiții. Economisirea prin fonduri e pusă pe picior de egalitate cu dividendele.",
+      "article": "art. 1 pct. 2",
+      "quote": "inclusiv câștigul obținut ca urmare a deținerii de titluri de participare definite de legislația în materie la organisme de plasament colectiv",
+      "weight": 1
+    },
+    {
+      "text": "Modul de reținere și termenele de plată rămân cele de acum. Firmele nu au proceduri noi de învățat, iar banii ajung integral la bugetul de stat.",
+      "article": "art. 1 pct. 2",
+      "quote": "Obligația calculării și reținerii impozitului pe veniturile sub formă de dividende revine persoanelor juridice, odată cu plata dividendelor",
+      "weight": 1
+    },
+    {
+      "text": "Dividendele primite de o firmă de la altă firmă românească, fără scutire, sunt impozitate cu 8%. Se reduce dubla impozitare, deși mai ales pentru participațiile mici.",
+      "article": "art. 1 pct. 1",
+      "quote": "Impozitul pe dividende se stabilește prin aplicarea unei cote de impozit de 8% asupra dividendului brut plătit unei persoane juridice române.",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Proiectul înjumătățește un impozit fără să estimeze cât pierde bugetul și fără să spună de unde se acoperă golul, deși România are deficit excesiv.",
+      "article": "art. 1",
+      "quote": null,
+      "weight": 3
+    },
+    {
+      "text": "Impozitul pe dividendele plătite străinilor nu e modificat și rămâne 16%, dublu față de rezidenți. Există risc de conflict cu libera circulație a capitalului din dreptul UE.",
+      "article": "art. 1 (lipsa modificării art. 224 C. fiscal)",
+      "quote": null,
+      "weight": 3
+    },
+    {
+      "text": "Nu se spune ce cotă se aplică dividendelor aprobate înainte de lege și plătite după, sau dividendelor interimare regularizate ulterior. Pot apărea interpretări și litigii.",
+      "article": "art. 2 și art. 1 pct. 2",
+      "quote": "distribuite, dar care nu au fost plătite acționarilor/asociaților/investitorilor până la sfârșitul anului în care s-a aprobat distribuirea acestora",
+      "weight": 2
+    },
+    {
+      "text": "Reducerea nu e limitată la firmele mici. Câștigul crește odată cu suma dividendelor, deci cei mai mulți bani merg la acționarii cu dividende mari.",
+      "article": "art. 1 pct. 2",
+      "quote": "Veniturile sub formă de dividende, inclusiv câștigul obținut ca urmare a deținerii de titluri de participare",
+      "weight": 2
+    },
+    {
+      "text": "Diferența mai mare dintre impozitarea salariilor și a dividendelor poate încuraja plata prin dividende în loc de salariu. Asta scade contribuțiile la pensii.",
+      "article": "art. 1 pct. 2",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Cota a fost majorată la 16% recent și acum se propune revenirea la 8%. Schimbările dese contrazic chiar argumentul de previzibilitate invocat de inițiatori.",
+      "article": "art. 1",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Titlul are o greșeală de scriere („modifcarea”). E o problemă minoră, dar arată o redactare grăbită.",
+      "article": "titlul legii",
+      "quote": "privind modifcarea Legii nr. 227/2015 privind Codul fiscal",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Modificarea în paralel a art. 224 alin. (4) lit. b), cu cota de 8% și pentru nerezidenți, plus o normă tranzitorie pentru dividendele aprobate înainte și plătite după intrarea în vigoare.",
+    "removes": [
+      1,
+      2
+    ],
+    "levelAfter": "yellow",
+    "scoreAfter": 4
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 8
+  }
+}

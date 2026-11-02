@@ -1,0 +1,81 @@
+{
+  "slug": "plx-44-2026",
+  "billId": "PL-x 44/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T19:32:31.633Z",
+  "inputHash": "f368aef7073c",
+  "riskScore": 3.3,
+  "summary": "O lege scurtă cu un scop bun, mărirea economiilor la Pilonul II, stricată în principal de o dată de aplicare deja trecută și de lipsa oricărui calcul de cost.",
+  "good": [
+    {
+      "text": "Cota pentru Pilonul II crește la 6% din 2027, deci se strâng mai mulți bani în conturile personale de pensie ale participanților.",
+      "article": "art. unic, art. 43 alin. (6)",
+      "quote": "Începând cu data de 1 ianuarie 2027, cota de contribuție la fondul de pensii este de 6%.",
+      "weight": 3
+    },
+    {
+      "text": "Pune în practică angajamentul din PNRR de a întări Pilonul II prin creșterea contribuțiilor, ceea ce reduce riscul de a pierde fonduri europene.",
+      "article": "art. unic, art. 43 alin. (5)-(6)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Creșterea se face în doi pași, cu date fixe în lege, așa că oamenii și angajatorii știu dinainte ce urmează.",
+      "article": "art. unic, art. 43 alin. (5)-(6)",
+      "quote": "Începând cu data de 1 ianuarie 2026, cota de contribuție la fondul de pensii este de 5,25%.",
+      "weight": 1
+    },
+    {
+      "text": "Textul e simplu. Nu introduce taxe noi, formulare, sancțiuni sau avantaje pentru un anumit administrator de fond.",
+      "article": "art. unic",
+      "quote": "se introduc două alineate noi, alin.(5)-(6), cu următorul cuprins:",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Creșterea la 5,25% e scrisă de la 1 ianuarie 2026, dată deja trecută. Legea ar fi ori retroactivă, ori imposibil de aplicat, și nu spune ce se face cu banii virați deja la 4,75%.",
+      "article": "art. unic, art. 43 alin. (5)",
+      "quote": "Începând cu data de 1 ianuarie 2026, cota de contribuție la fondul de pensii este de 5,25%.",
+      "weight": 3
+    },
+    {
+      "text": "Banii mutați la Pilonul II scad veniturile pensiilor de stat. Nu există niciun calcul și nicio sursă de acoperire, doar o promisiune generală bazată pe măsuri fiscale deja luate.",
+      "article": "Expunerea de motive / art. unic",
+      "quote": null,
+      "weight": 3
+    },
+    {
+      "text": "Proiectul doar adaugă alineate. Nu schimbă și nu abrogă regulile care fixează azi cota de 4,75%, deci pot rămâne în vigoare două reguli care se contrazic.",
+      "article": "art. unic",
+      "quote": "se introduc două alineate noi, alin.(5)-(6), cu următorul cuprins:",
+      "weight": 2
+    },
+    {
+      "text": "Nimic din text nu împiedică o lege bugetară viitoare să înghețe din nou cota, deși chiar inițiatorii recunosc că asta s-a întâmplat de multe ori.",
+      "article": "Expunerea de motive / art. unic",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Legea nu spune pentru ce lună de venit se aplică noua cotă și nu are reguli de tranziție pentru calcul și evidență. Costurile tehnice nu sunt evaluate.",
+      "article": "art. unic, art. 43 alin. (5)-(6)",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Data de la alin. (5) trebuie înlocuită cu o dată viitoare, de exemplu prima zi a lunii de după intrarea în vigoare, precizând luna de venit. Trebuie adăugată și abrogarea expresă a prevederilor care fixează cota de 4,75%.",
+    "removes": [
+      0,
+      2
+    ],
+    "levelAfter": "yellow",
+    "scoreAfter": 2.5
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 5
+  }
+}

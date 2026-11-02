@@ -1,6 +1,6 @@
 # Partea 1: „Ce e bine și ce strică” (cloud/bine-rau)
 
-Actualizat: 2026-11-02 19:15 UTC
+Actualizat: 2026-11-02 19:44 UTC
 
 ## Făcut
 - Test pe 3 proiecte galbene, `--model=claude --paralel=1`, textele din data/texts:
@@ -19,6 +19,7 @@ Actualizat: 2026-11-02 19:15 UTC
 
 ## În lucru
 - Lotul verde, `--model=claude --paralel=4`: cele 190 de proiecte verzi cu scorul cel mai mare (3,7 până la 2,7), alese să încapă în ≈ $45, adică ≈ $130 în total. Rămân 227 de verzi (scor 2,7 și mai mic), pentru când mai e buget.
+- Progres verde: 102 făcute, 0 eșuate. Cost total măsurat: $105.66.
 
 ## Eșuate
 - (niciunul încă)

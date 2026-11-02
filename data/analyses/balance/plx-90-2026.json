@@ -1,0 +1,102 @@
+{
+  "slug": "plx-90-2026",
+  "billId": "Pl-x 90/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T19:16:33.818Z",
+  "inputHash": "63ae0a793ef4",
+  "riskScore": 3.7,
+  "summary": "O măsură de economie simplă și legitimă ca alegere politică, stricată de o dată de intrare în vigoare deja trecută și de o formulare mai largă decât intenția anunțată.",
+  "good": [
+    {
+      "text": "Oprește pe doi ani plata subvențiilor de la stat către partide, ceea ce reduce cheltuielile bugetului cu sume de ordinul sutelor de milioane de lei.",
+      "article": "art. unic alin. (1)",
+      "quote": "pentru exercițiile bugetare aferente anilor 2026 și 2027 nu se alocă și nu se utilizează fonduri de la bugetul de stat pentru finanțarea partidelor politice",
+      "weight": 2
+    },
+    {
+      "text": "Măsura este limitată în timp și are o dată clară de încetare. După 2027, finanțarea revine automat, fără altă lege.",
+      "article": "art. 2",
+      "quote": "și se aplică până la data de 31 decembrie 2027",
+      "weight": 2
+    },
+    {
+      "text": "Legea nu abrogă și nu modifică legea finanțării partidelor, ci doar o suspendă temporar. Regulile de bază rămân neatinse.",
+      "article": "art. unic alin. (1)",
+      "quote": "Prin derogare de la prevederile art. 18 din Legea nr. 334/2006 privind finanțarea activității partidelor politice și a campaniilor electorale",
+      "weight": 1
+    },
+    {
+      "text": "Suspendarea se aplică la fel tuturor partidelor, fără excepții sau tratament preferențial pentru vreunul.",
+      "article": "art. unic alin. (1)",
+      "quote": "nu se alocă și nu se utilizează fonduri de la bugetul de stat pentru finanțarea partidelor politice",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Legea ar intra în vigoare la 1 ianuarie 2026, dată deja trecută, deși proiectul e încă în Parlament. Asta o face retroactivă, contrar art. 15 și art. 78 din Constituție.",
+      "article": "art. 2",
+      "quote": "Prezenta lege intră în vigoare la data de 1 ianuarie 2026 și se aplică până la data de 31 decembrie 2027.",
+      "weight": 3
+    },
+    {
+      "text": "Interdicția generală de finanțare din bani publici depășește art. 18 și ar putea bloca și rambursarea cheltuielilor de campanie sau folosirea banilor primiți anterior.",
+      "article": "art. unic alin. (1)",
+      "quote": "nu se alocă și nu se utilizează fonduri de la bugetul de stat pentru finanțarea partidelor politice",
+      "weight": 2
+    },
+    {
+      "text": "Nu spune ce se întâmplă cu subvențiile deja plătite în 2026 înainte de adoptare. Lipsesc regulile de tranziție, iar partidele ar putea fi obligate să returneze bani.",
+      "article": "art. 2 și art. unic alin. (1)",
+      "quote": "pentru exercițiile bugetare aferente anilor 2026 și 2027 nu se alocă și nu se utilizează fonduri de la bugetul de stat",
+      "weight": 2
+    },
+    {
+      "text": "Fără bani publici, partidele depind doar de donatori privați. Asta favorizează partidele cu sponsori bogați și crește riscul de influență ascunsă.",
+      "article": "art. unic alin. (1)",
+      "quote": "Prin derogare de la prevederile art. 18 din Legea nr. 334/2006 privind finanțarea activității partidelor politice și a campaniilor electorale",
+      "weight": 2
+    },
+    {
+      "text": "Fiind suspendat tot art. 18, dispare și bonusul pentru partidele care aleg femei în funcții. Se pierde astfel un stimulent pentru reprezentarea femeilor.",
+      "article": "art. unic alin. (1)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Banii pentru sănătate, educație și protecție socială sunt doar o justificare. Textul nu obligă pe nimeni să-i direcționeze acolo.",
+      "article": "art. unic alin. (2)",
+      "quote": "Măsura are caracter excepțional și temporar, fiind justificată de necesitatea consolidării fiscale, protejării cheltuielilor sociale și redirecționării resurselor bugetare către domenii prioritare de interes public",
+      "weight": 2
+    },
+    {
+      "text": "Proiectul are un „Articol unic” urmat de „Articolul 2”. Este o greșeală de redactare contrară normelor de tehnică legislativă.",
+      "article": "art. unic și art. 2",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Sumele economisite nu se potrivesc: circa 230 milioane lei pe 2025, dar 328 milioane pe an. În plus, adoptarea târzie face ca economia pe 2026 să fie în mare parte iluzorie.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Art. 2 ar trebui să prevadă intrarea în vigoare conform art. 78 din Constituție, cu aplicare de la următorul exercițiu bugetar și reguli de tranziție. Interdicția ar trebui limitată strict la subvențiile din art. 18, iar alineatul declarativ ar trebui eliminat și articolele renumerotate.",
+    "removes": [
+      0,
+      1,
+      2,
+      5,
+      6
+    ],
+    "levelAfter": "yellow",
+    "scoreAfter": 3
+  },
+  "quotes": {
+    "checked": 10,
+    "verified": 9
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "slug": "plx-344-2026",
+  "billId": "Pl-x 344/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T19:17:38.111Z",
+  "inputHash": "1dbf080f665b",
+  "riskScore": 3.7,
+  "summary": "O idee rezonabilă, redactată neglijent: reducerea normei pentru profesorii cu experiență devine contraprestație, dar obligația e disproporționată, criteriile sunt vagi și costul nu e calculat.",
+  "good": [
+    {
+      "text": "Profesorii cu experiență nu primesc doar mai puține ore de predare. Timpul eliberat trebuie folosit în alte activități utile școlii.",
+      "article": "art. I pct. 1 (art. 207 alin. (3))",
+      "quote": "cu obligația de a presta 2 ore suplimentar activități complementare normei didactice de predare",
+      "weight": 2
+    },
+    {
+      "text": "Profesorii cu peste 25 de ani vechime și gradul I pot preda mai puțin fără să piardă bani, ceea ce le recunoaște experiența.",
+      "article": "art. I pct. 1 (art. 207 alin. (3))",
+      "quote": "poate fi redusă cu până la 2 ore/săptămână, fără afectarea drepturilor salariale, pentru cadrele didactice cu o vechime în învățământ de peste 25 de ani și gradul didactic I",
+      "weight": 2
+    },
+    {
+      "text": "Reducerea nu e pe viață: se aprobă local, se reverifică în fiecare an și se trece în contract, deci poate fi urmărită și retrasă.",
+      "article": "art. I pct. 1 (art. 207 alin. (3))",
+      "quote": "Această reducere se aprobă în consiliul de administrație, se revizuiește anual și constituie anexă la contractul individual de muncă.",
+      "weight": 1
+    },
+    {
+      "text": "Activitățile din afara predării trebuie să se potrivească specializării profesorului, deci nu i se pot da sarcini fără legătură cu pregătirea lui.",
+      "article": "art. I pct. 1 (art. 207 alin. (3))",
+      "quote": "care corespund profilului profesional, specializării și aptitudinilor personalului didactic care ocupă postul didactic respectiv",
+      "weight": 1
+    },
+    {
+      "text": "Reducerea poate fi primită și pentru rezultate deosebite, nu doar pentru vechime. Așa pot beneficia și profesori mai tineri, dar performanți.",
+      "article": "art. I pct. 1 (art. 207 alin. (3))",
+      "quote": "precum și pentru cadrele didactice care au dovedit performanță educațională, în conformitate cu prevederile unei metodologii",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Reducerea poate fi de doar o oră, dar obligația în schimb rămâne fix două ore. Cine primește o oră în minus datorează la fel ca cine primește două.",
+      "article": "art. I pct. 1 (art. 207 alin. (3))",
+      "quote": "poate fi redusă cu până la 2 ore/săptămână, fără afectarea drepturilor salariale",
+      "weight": 3
+    },
+    {
+      "text": "Legea nu spune ce înseamnă „performanță educațională”. Ministrul decide prin ordin, fără criterii în lege și fără termen pentru ordin.",
+      "article": "art. I pct. 1 (art. 207 alin. (3))",
+      "quote": "precum și pentru cadrele didactice care au dovedit performanță educațională, în conformitate cu prevederile unei metodologii aprobate prin ordin al ministrului educației și cercetării",
+      "weight": 3
+    },
+    {
+      "text": "Orele de predare cedate trebuie ținute de alți profesori, plătiți în plus. Proiectul nu are calcul de cost și nici sursă de bani.",
+      "article": "art. I pct. 1 (art. 207 alin. (3))",
+      "quote": "Norma didactică de predare-învățare-evaluare prevăzută la alin. (4) lit. d), f) și h) poate fi redusă",
+      "weight": 3
+    },
+    {
+      "text": "Orele date în schimb pot fi orice activitate din alin. (1) și (2), inclusiv hârtii și ședințe, nu neapărat pregătire pentru olimpiade sau ajutor la învățat, cum promite motivarea.",
+      "article": "art. I pct. 1 (art. 207 alin. (3))",
+      "quote": "Activitățile prevăzute la alin. (1) și (2), care corespund profilului profesional, specializării și aptitudinilor personalului didactic",
+      "weight": 2
+    },
+    {
+      "text": "Consiliul de administrație decide liber cine primește reducerea. Legea nu spune când poate refuza și nici cum se contestă refuzul, deci există riscul de favoritism.",
+      "article": "art. I pct. 1 (art. 207 alin. (3))",
+      "quote": "Această reducere se aprobă în consiliul de administrație, se revizuiește anual și constituie anexă la contractul individual de muncă.",
+      "weight": 2
+    },
+    {
+      "text": "Aceeași activitate, de pildă pregătirea pentru examene, poate fi socotită și ca predare, și ca oră dată în schimb. Legea nu interzice această dublă numărare.",
+      "article": "art. I pct. 1 (art. 207 alin. (3))",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Cuvântul „suplimentar” sugerează ore peste program, deși motivarea spune că programul rămâne de 40 de ore. Lipsește și „pe săptămână”, deci nu e clar dacă e vorbă de muncă în plus și dacă se plătește.",
+      "article": "art. I pct. 1 (art. 207 alin. (3))",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Obligația în schimb trebuie să fie egală cu reducerea aprobată, pe săptămână. Criteriile de performanță trebuie puse în lege, cu termen pentru metodologie, iar orele date în schimb trebuie limitate la activități directe cu elevii, fără dublă numărare.",
+    "removes": [
+      0,
+      1,
+      3,
+      5,
+      6
+    ],
+    "levelAfter": "yellow",
+    "scoreAfter": 2.5
+  },
+  "quotes": {
+    "checked": 10,
+    "verified": 10
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "slug": "plx-361-2026",
+  "billId": "Pl-x 361/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T19:31:01.904Z",
+  "inputHash": "a7a0092816fa",
+  "riskScore": 3.5,
+  "summary": "Un scop bun, protecția pensiei de întreținere a copilului, dar redactat contradictoriu și cu efect practic redus, pentru că nu atinge executarea hotărârilor.",
+  "good": [
+    {
+      "text": "Copilul nu mai pierde, din cauza trecerii timpului, dreptul de a cere în instanță pensia de întreținere neplătită cât timp este minor.",
+      "article": "art. I pct. 1 (art. 2517 alin. (2) propus)",
+      "quote": "Dreptul la acțiune privind recuperarea creanțelor reprezentând pensie de întreținere datorată minorului",
+      "weight": 2
+    },
+    {
+      "text": "Protecția are o limită: se aplică doar cât durează obligația de întreținere, nu face datoriile atacabile la nesfârșit.",
+      "article": "art. I pct. 1 (art. 2517 alin. (2) propus)",
+      "quote": "pensie de întreținere datorată minorului, pe durata existenței obligației de întreținere, este imprescriptibil",
+      "weight": 2
+    },
+    {
+      "text": "Lasă 30 de zile între publicare și intrarea în vigoare, ca oamenii și instanțele să afle de schimbare.",
+      "article": "art. II",
+      "quote": "Prezenta lege intră în vigoare la 30 de zile de la data publicării în Monitorul Oficial",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Cele două puncte se contrazic: un drept nu poate fi „imprescriptibil” și, în același timp, supus unui termen de prescripție care doar „nu începe să curgă”.",
+      "article": "art. I pct. 1 și pct. 2",
+      "quote": "prescripția nu începe să curgă pe durata existenței obligației de întreținere datorate minorului",
+      "weight": 3
+    },
+    {
+      "text": "Nu spune ce se întâmplă cu restanțele după 18 ani și nici dacă se aplică și copilului care studiază până la 26 de ani. Instanțele pot judeca diferit.",
+      "article": "art. I pct. 1 (art. 2517 alin. (2) propus)",
+      "quote": "Dreptul la acțiune privind recuperarea creanțelor reprezentând pensie de întreținere datorată minorului, pe durata existenței obligației de întreținere, este imprescriptibil.",
+      "weight": 3
+    },
+    {
+      "text": "Atinge doar dreptul de a da în judecată. Problema reală e executarea hotărârii deja obținute, care rămâne supusă termenului de 3 ani din Codul de procedură civilă.",
+      "article": "art. I pct. 1–2 (lipsa corelării cu art. 706–708 C.proc.civ.)",
+      "quote": null,
+      "weight": 3
+    },
+    {
+      "text": "Ignoră regula că pensia se datorează de regulă de la data cererii în instanță, așa că rămâne neclar ce restanțe vechi s-ar mai putea recupera.",
+      "article": "art. I pct. 1 (lipsa corelării cu art. 532 Cod civil)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Pornește de la ideea că lipsește orice protecție, deși Codul civil suspendă deja prescripția între părinți și copiii ocrotiți. Nu arată ce cazuri rămân neacoperite.",
+      "article": "expunerea de motive / art. I",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Lipsesc regulile de tranziție: nu e clar dacă legea ajută datoriile deja prescrise sau termenele aflate în curs la intrarea în vigoare.",
+      "article": "art. II",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Cere adăugarea unui „alin. (2) după alin. (1)” la articole care au azi un singur text, nenumerotat. Este o greșeală de redactare.",
+      "article": "art. I pct. 1 și pct. 2",
+      "quote": "La articolul 2517, după alineatul (1) se introduce un nou alineat, alin. (2), cu următorul cuprins",
+      "weight": 1
+    },
+    {
+      "text": "Regulile sunt puse la articolul despre termenul general și la cel despre începutul prescripției. Locul firesc era la suspendarea prescripției (art. 2532).",
+      "article": "art. I pct. 1 și pct. 2",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Datornicul poate fi chemat să plătească restanțe adunate până la 18 ani, fără o limită clară după majorat, ceea ce poate crea sume mari și incertitudine.",
+      "article": "art. I pct. 1–2",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Titlul și formula de introducere vorbesc de „modificare”, deși proiectul doar adaugă texte. Este o imprecizie formală.",
+      "article": "art. I partea introductivă",
+      "quote": "Legea nr. 287/2009 privind Codul civil, republicată în Monitorul Oficial al României, Partea I, nr. 505 din 15 iulie 2011, cu modificările și completările ulterioare, se modifică și se completează după cum urmează",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Înlocuirea celor două puncte cu o singură regulă clară de suspendare, la art. 2532, care spune că prescripția restanțelor nu curge cât copilul e minor și reîncepe la majorat, extinsă expres și la executarea silită.",
+    "removes": [
+      0,
+      1,
+      2,
+      6,
+      7
+    ],
+    "levelAfter": "yellow",
+    "scoreAfter": 2
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 7
+  }
+}

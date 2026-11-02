@@ -1,0 +1,82 @@
+{
+  "slug": "plx-706-2026",
+  "billId": "PL-x 706/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T19:33:09.307Z",
+  "inputHash": "1ad0bc1bd65b",
+  "riskScore": 3.3,
+  "summary": "O măsură de siguranță utilă pentru trotinete, scrisă neglijent: o extinde fără temei la „biciclete electrice” nedefinite și cere o cască „omologată” fără să spună după ce reguli.",
+  "good": [
+    {
+      "text": "Casca devine obligatorie pentru toți cei care conduc trotinete electrice, la orice vârstă. Asta poate reduce rănile grave la cap, cele mai frecvente cauze de deces și invaliditate.",
+      "article": "art. unic (art. 70 alin. (4) teza a II-a)",
+      "quote": "Pentru conducătorii de trotinete electrice și biciclete electrice, purtarea căștii de protecție, omologată și fixată corespunzător, este obligatorie indiferent de vârstă",
+      "weight": 3
+    },
+    {
+      "text": "Casca trebuie purtată și prinsă corect pe cap, nu doar avută la tine sau pusă fără să fie fixată. Asta face regula utilă în practică.",
+      "article": "art. unic (art. 70 alin. (4) teza a II-a)",
+      "quote": "purtarea căștii de protecție, omologată și fixată corespunzător, este obligatorie indiferent de vârstă",
+      "weight": 2
+    },
+    {
+      "text": "Se păstrează obligația existentă ca bicicliștii sub 16 ani să poarte cască în trafic, deci copiii rămân protejați ca până acum.",
+      "article": "art. unic (art. 70 alin. (4) teza I)",
+      "quote": "Casca de protecție este obligatorie pentru conducătorii de biciclete cu vârsta sub 16 ani, atunci când se deplasează pe partea carosabilă",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Termenul „biciclete electrice” nu e definit. Nu se știe dacă intră și bicicletele cu pedalare asistată, pe care legea le tratează ca biciclete obișnuite, deci teza I contrazice teza a II-a.",
+      "article": "art. unic (art. 70 alin. (4) teza a II-a)",
+      "quote": "Pentru conducătorii de trotinete electrice și biciclete electrice, purtarea căștii de protecție",
+      "weight": 3
+    },
+    {
+      "text": "Căștile de bicicletă sau trotinetă nu au omologare rutieră, ci marcaj CE după reguli UE. Cuvântul „omologată” e neclar și poate fi citit ca obligația de a purta cască de motocicletă.",
+      "article": "art. unic (art. 70 alin. (4) teza a II-a)",
+      "quote": "purtarea căștii de protecție, omologată și fixată corespunzător",
+      "weight": 3
+    },
+    {
+      "text": "Expunerea de motive spune că bicicletele nu sunt vizate și aduce date doar despre trotinete, dar textul include și bicicletele electrice. Extinderea nu e justificată deloc.",
+      "article": "art. unic (art. 70 alin. (4) teza a II-a)",
+      "quote": "trotinete electrice și biciclete electrice, purtarea căștii de protecție, omologată și fixată corespunzător, este obligatorie",
+      "weight": 2
+    },
+    {
+      "text": "Pentru vehiculele electrice, casca e cerută pe toate drumurile publice, inclusiv pe piste. Pentru copiii pe bicicletă e cerută doar pe carosabil, deci aceeași alee are reguli incoerente.",
+      "article": "art. unic (art. 70 alin. (4))",
+      "quote": "este obligatorie indiferent de vârstă, atunci când se deplasează pe drumurile publice",
+      "weight": 2
+    },
+    {
+      "text": "Inițiatorii spun că nu vor să amendeze pe nimeni, dar orice obligație din Codul rutier încălcată poate fi sancționată cu amenzile existente. Textul nu clarifică asta.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Nu există perioadă de tranziție. Utilizatorii, firmele de închiriere și curierii trebuie să se conformeze imediat după intrarea în vigoare.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Eliminați „biciclete electrice” sau definiți-le prin trimitere la OUG 195/2002, și înlocuiți „omologată” cu „conformă cerințelor europene aplicabile (marcaj CE)”.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2
+  },
+  "quotes": {
+    "checked": 7,
+    "verified": 7
+  }
+}

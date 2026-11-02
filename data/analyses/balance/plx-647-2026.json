@@ -1,0 +1,95 @@
+{
+  "slug": "plx-647-2026",
+  "billId": "PL-x 647/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T19:33:44.896Z",
+  "inputHash": "9b021f0dc9bd",
+  "riskScore": 3.3,
+  "summary": "O clarificare utilă pentru panourile publicitare din extravilan, dar care nu scrie în lege limitele promise în motivare și conține formulări care pot bloca sau abuza procedura.",
+  "good": [
+    {
+      "text": "Panourile publicitare autorizate sunt trecute explicit printre construcțiile permise pe teren agricol din extravilan. Astfel scad refuzurile arbitrare ale direcțiilor agricole.",
+      "article": "art. unic (art. 92 alin. (2) lit. i))",
+      "quote": "drumuri tehnologice și mijloace de publicitate definite și autorizate potrivit Legii nr.185/2013 privind amplasarea și autorizarea mijloacelor de publicitate",
+      "weight": 2
+    },
+    {
+      "text": "Excepția se aplică doar terenurilor din clasele III–V aflate în extravilan. Terenurile agricole cele mai bune (clasele I și II) rămân protejate.",
+      "article": "art. unic (art. 92 alin. (2), partea introductivă nemodificată)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Panoul trebuie să respecte și regulile privind drumurile publice, deci se păstrează condițiile de siguranță rutieră și zona de protecție a drumului.",
+      "article": "art. unic (art. 92 alin. (2) lit. i))",
+      "quote": "cu completările ulterioare și cu respectarea prevederilor Ordonanței Guvernului nr.43/1997, republicată, cu modificările și completările ulterioare",
+      "weight": 2
+    },
+    {
+      "text": "Se modifică doar litera i). Rămân obligatorii autorizația de construire, aprobarea scoaterii din circuitul agricol și tarifele aferente, deci controlul statului nu dispare.",
+      "article": "art. unic",
+      "quote": "litera i) se modifică și va avea următorul cuprins",
+      "weight": 1
+    },
+    {
+      "text": "Prin trimiterea la Legea 185/2013, panoul păstrează caracterul provizoriu și obligația de desființare la expirarea autorizației, ceea ce limitează parțial ocuparea terenului.",
+      "article": "art. unic (art. 92 alin. (2) lit. i))",
+      "quote": "mijloace de publicitate definite și autorizate potrivit Legii nr.185/2013 privind amplasarea și autorizarea mijloacelor de publicitate, republicată",
+      "weight": 1
+    },
+    {
+      "text": "Proiectul nu introduce taxe, scutiri sau cheltuieli noi de la buget.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Garanțiile promise în motivare lipsesc din text: scoatere doar temporară, doar pentru suprafața de la sol, cu redarea terenului la final. Legea permite astfel și scoaterea definitivă pentru un panou.",
+      "article": "art. unic (art. 92 alin. (2) lit. i))",
+      "quote": "mijloace de publicitate definite și autorizate potrivit Legii nr.185/2013 privind amplasarea și autorizarea mijloacelor de publicitate, republicată",
+      "weight": 3
+    },
+    {
+      "text": "Formula „definite și autorizate” poate fi citită ca cerând o autorizație deja emisă. Autorizația depinde însă de aprobarea agricolă, deci apare un cerc care permite refuzuri în continuare.",
+      "article": "art. unic (art. 92 alin. (2) lit. i))",
+      "quote": "drumuri tehnologice și mijloace de publicitate definite și autorizate potrivit Legii nr.185/2013 privind amplasarea și autorizarea mijloacelor de publicitate",
+      "weight": 2
+    },
+    {
+      "text": "Nu e clar dacă respectarea OG 43/1997 privește doar panourile sau toată litera i), inclusiv drumurile private și tehnologice. Nici nu se precizează că se aplică doar lângă drumuri publice.",
+      "article": "art. unic (art. 92 alin. (2) lit. i))",
+      "quote": "cu completările ulterioare și cu respectarea prevederilor Ordonanței Guvernului nr.43/1997, republicată, cu modificările și completările ulterioare",
+      "weight": 2
+    },
+    {
+      "text": "Este o extindere reală, nu o simplă corelare: reclama comercială este pusă alături de drumuri și telecomunicații pe terenul agricol, fără nicio limită de suprafață sau de număr.",
+      "article": "art. unic (art. 92 alin. (2) lit. i))",
+      "quote": "infrastructuri de comunicații radio-TV sau telefonie, drumuri publice și private, drumuri tehnologice și mijloace de publicitate",
+      "weight": 2
+    },
+    {
+      "text": "Trimiterea la OG 43/1997 nu include titlul actului („privind regimul drumurilor”), deși Legea 185/2013 este citată cu titlu. Este o greșeală mică de redactare.",
+      "article": "art. unic (art. 92 alin. (2) lit. i))",
+      "quote": "cu respectarea prevederilor Ordonanței Guvernului nr.43/1997, republicată, cu modificările și completările ulterioare",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Pentru panouri, legea ar trebui să prevadă explicit scoaterea doar temporară, doar pentru suprafața de la sol și cu redarea terenului la final. Formula „autorizate” ar trebui înlocuită cu „care se autorizează”, iar OG 43/1997 ar trebui limitată la zona drumurilor publice și citată cu titlu.",
+    "removes": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2.5
+  },
+  "quotes": {
+    "checked": 9,
+    "verified": 9
+  }
+}

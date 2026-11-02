@@ -1,0 +1,76 @@
+{
+  "slug": "plx-294-2026",
+  "billId": "PL-x 294/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T19:38:35.828Z",
+  "inputHash": "fe8ab2108754",
+  "riskScore": 3.3,
+  "summary": "Un scop bun și o listă de produse actualizată, dar o interdicție fără nicio sancțiune, deci mai mult o declarație decât o regulă aplicabilă.",
+  "good": [
+    {
+      "text": "Interzice explicit fumatul și consumul de produse cu tutun sau nicotină pentru toți cei sub 18 ani. Până acum legea interzicea doar vânzarea către ei, nu consumul.",
+      "article": "art. unic, art. 3 alin. (1⁴)",
+      "quote": "Persoanelor care nu au împlinit vârsta de 18 ani le este strict interzis fumatul, precum și utilizarea tuturor categoriilor de produse care conțin tutun",
+      "weight": 3
+    },
+    {
+      "text": "Acoperă și produsele noi, populare printre tineri: țigări electronice, rezerve de lichid și dispozitive care încălzesc tutunul, nu doar țigările clasice.",
+      "article": "art. unic, art. 3 alin. (1⁴)",
+      "quote": "a țigaretelor electronice, a flacoanelor de reumplere pentru țigaretele electronice, a dispozitivelor electronice pentru încălzirea tutunului",
+      "weight": 2
+    },
+    {
+      "text": "Include pliculețele cu nicotină puse în gură și produsele inhalate din înlocuitori de tutun, care altfel ar fi putut scăpa de reglementare.",
+      "article": "art. unic, art. 3 alin. (1⁴)",
+      "quote": "a produselor destinate inhalării fără ardere din înlocuitori de tutun, precum și a pliculețelor cu nicotină pentru uz oral (pouch-uri)",
+      "weight": 2
+    },
+    {
+      "text": "Nu impune taxe, autorizații, raportări sau verificări noi pentru firme și nu creează cheltuieli noi de la buget.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Proiectul adaugă interdicția, dar nu modifică articolul care stabilește amenzile. Încălcarea nu are nicio sancțiune, așa că regula nu poate fi aplicată în practică.",
+      "article": "art. unic (lipsă modificare art. 10 din Legea 349/2002)",
+      "quote": "după alineatul (1³) se introduce un nou alineat, alin.(1⁴), cu următorul cuprins",
+      "weight": 3
+    },
+    {
+      "text": "Expunerea de motive promite amenzi reduse pentru minori, amenzi mai mari și avertisment pentru adulți, interdicție pe terenuri de sport și locuri de joacă. Nimic din acestea nu e în textul votat.",
+      "article": "art. unic (comparativ cu expunerea de motive)",
+      "quote": "privind completarea art.3 din Legea nr.349/2002 pentru prevenirea și combaterea efectelor consumului produselor din tutun",
+      "weight": 2
+    },
+    {
+      "text": "Interdicția nu are limită de loc, deci se aplică și acasă, deși expunerea vorbește doar de spații publice. O amendă adăugată ulterior ar intra în conflict cu dreptul la viață privată.",
+      "article": "art. unic, art. 3 alin. (1⁴)",
+      "quote": "Persoanelor care nu au împlinit vârsta de 18 ani le este strict interzis fumatul",
+      "weight": 2
+    },
+    {
+      "text": "Termenii folosiți nu corespund definițiilor din legea produselor din tutun. Formula „strict interzis” nu are sens juridic, iar vape-urile și pliculețele fără nicotină pot rămâne în afara interdicției.",
+      "article": "art. unic, art. 3 alin. (1⁴)",
+      "quote": "precum și a pliculețelor cu nicotină pentru uz oral (pouch-uri)",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Interdicția ar trebui limitată la spațiile publice, iar art. 10 completat cu o sancțiune proporțională pentru minorii de peste 14 ani (avertisment sau amendă redusă), conform expunerii de motive.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 7,
+    "verified": 7
+  }
+}

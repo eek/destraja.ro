@@ -14,6 +14,8 @@ import ModelsVerdict from '@/components/bills/ModelsVerdict';
 import { getBalance } from '@/lib/balance';
 import LiveDeadline from '@/components/bills/LiveDeadline';
 import BillRoute from '@/components/bills/BillRoute';
+import BillAgenda from '@/components/bills/BillAgenda';
+import { getBillAgenda } from '@/lib/agenda';
 import BillNews, { PressLink } from '@/components/bills/BillNews';
 import BillPositions, { PositionsLink } from '@/components/bills/BillPositions';
 import { Container, PartyTag, RiskChip, panel } from '@/components/ui';
@@ -57,6 +59,7 @@ export default async function BillDetailPage({ params }: PageProps) {
   const slugs = mpSlugs(all.map(toLite));
   const extractedTexts = await getBillExtractedTexts(bill);
   const balance = await getBalance(slug);
+  const agenda = await getBillAgenda(`/legi/${slug}`);
   const news = bill.news;
   const builtOn = todayISO();
   const lite = toLite(bill);
@@ -161,6 +164,7 @@ export default async function BillDetailPage({ params }: PageProps) {
         {balance && <BillBalance data={balance} level={c.riskLevel} />}
 
         <BillRoute bill={bill} />
+        <BillAgenda items={agenda} billId={bill.id} />
 
         <section aria-labelledby="realitate" className="mt-6 grid gap-4 md:grid-cols-2">
           <h2 id="realitate" className="sr-only">

@@ -81,3 +81,17 @@ că sunt doar ordinile de zi ale Senatului; de schimbat odată cu cititorul).
 2. Cititorul Camerei, când cdep.ro e accesibil.
 3. În e-mail: o secțiune „Săptămâna aceasta în comisii” cu `upcomingAgenda`, fără să trimitem de două ori aceeași ședință
    (evidența în `data/digests/state.json`).
+
+## Verificat cu date reale (2026-11-02, după deschiderea rețelei)
+- `straja-agenda.mjs` rulat o dată din cloud, cu o cerere la 3 secunde și `NODE_USE_ENV_PROXY=1` (fără variabila asta
+  `fetch` din Node nu trece prin proxy-ul sesiunii): 72 de cereri, 22 de zile noi, 0 erori. Datele au rămas în afara
+  depozitului.
+- `src/lib/agenda.ts` le-a citit fără erori: 7 apariții ale proiectelor noastre în următoarele 14 zile (de exemplu
+  PL-x 51/2026 la Comisia pentru energie pe 3 noiembrie, ora 09:30, sala 4044, etaj 4). Câmpurile `deLa`, `sala`, `etaj`,
+  `scop`, `termen` au forma presupusă.
+- Găsit și reparat: `scripts/lib/senat-agenda.mjs` decoda doar &amp; &lt; &gt; &quot; &apos; &nbsp; și entitățile
+  numerice, iar senat.ro scrie și &icirc; &acirc; &bdquo; &rdquo; &ndash;, care rămâneau ca atare în titluri, scopuri și
+  săli („sala &rdquo;Regina Maria&rdquo;”). Fișierele scrise deja pe VM le au; se corectează la următoarea citire după ce
+  VM-ul ia codul nou.
+- Camera Deputaților: www.cdep.ro tot nu răspunde din cloud (conexiunea TLS e tăiată după ~15 s), deci cititorul Camerei
+  rămâne de făcut local.

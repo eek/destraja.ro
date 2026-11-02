@@ -7,10 +7,14 @@ export const SENAT = 'https://www.senat.ro';
 export const calendarUrl = (id, day) => `${SENAT}/ExportData.asmx/GetCalendarOdz?ComisieID=${id}&Data=${day}`;
 export const dayUrl = (id, day) => `${SENAT}/ProgramLucruZi.aspx?Zi=${day}&ComisieID=${id}`;
 
-const ENTITIES = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ' };
+// senat.ro scrie și î, â, ghilimelele și liniuțele cu entități cu nume (&icirc;, &bdquo;…); fără ele rămâneau în titluri și săli.
+const ENTITIES = {
+  amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ', acirc: 'â', Acirc: 'Â', icirc: 'î', Icirc: 'Î',
+  bdquo: '„', ldquo: '“', rdquo: '”', lsquo: '‘', rsquo: '’', laquo: '«', raquo: '»', ndash: '–', mdash: '—', hellip: '…',
+};
 const decode = (s) =>
   s.replace(/&(#x[0-9a-f]+|#\d+|[a-z]+);/gi, (m, e) =>
-    e[0] === '#' ? String.fromCodePoint(e[1].toLowerCase() === 'x' ? parseInt(e.slice(2), 16) : +e.slice(1)) : (ENTITIES[e.toLowerCase()] ?? m),
+    e[0] === '#' ? String.fromCodePoint(e[1].toLowerCase() === 'x' ? parseInt(e.slice(2), 16) : +e.slice(1)) : (ENTITIES[e] ?? ENTITIES[e.toLowerCase()] ?? m),
   );
 
 /** Text curat dintr-o bucată de HTML, cu rândurile păstrate. Diacriticele cu sedilă devin cu virgulă. */

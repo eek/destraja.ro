@@ -1,0 +1,99 @@
+{
+  "slug": "plx-695-2026",
+  "billId": "PL-x 695/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T19:51:39.638Z",
+  "inputHash": "d863b6572205",
+  "riskScore": 3,
+  "summary": "O scutire de impozit cu scop bun dar efect mic, slăbită de o excludere neclară care poate lăsa noua regulă aproape fără aplicare.",
+  "good": [
+    {
+      "text": "Scutește de impozit premiile mici primite la concursuri sportive, culturale și educaționale. Participanții, des tineri sau amatori, păstrează integral premiul.",
+      "article": "art. unic, art. 62 lit. w¹)",
+      "quote": "premiile în bani și/sau în natură acordate participanților la competiții sportive, manifestări culturale sau concursuri cu caracter educațional",
+      "weight": 2
+    },
+    {
+      "text": "Plafonul scutirii e legat de salariul minim și crește singur odată cu el. Nu mai e nevoie de o lege nouă ca să fie actualizat.",
+      "article": "art. unic, art. 62 lit. w¹)",
+      "quote": "o șesime din salariul de bază minim brut pe țară garantat în plată, în vigoare la data acordării premiului",
+      "weight": 2
+    },
+    {
+      "text": "Scutirea se aplică și premiilor plătite din sponsorizări sau din taxele de participare. Nu contează de unde vin banii pentru premiu.",
+      "article": "art. unic, art. 62 lit. w¹)",
+      "quote": "inclusiv cele finanțate din sponsorizări, taxe de participare ori alte surse similare",
+      "weight": 1
+    },
+    {
+      "text": "Plafonul se calculează separat pentru fiecare premiu, după salariul minim din ziua acordării. Regula e simplă de aplicat pentru organizatori.",
+      "article": "art. unic, art. 62 lit. w¹)",
+      "quote": "în vigoare la data acordării premiului, pentru fiecare premiu acordat",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Legea scoate din scutire premiile impozitate deja după art. 110. Acolo intră de regulă premiile din concursuri, deci nu e clar ce premii mai beneficiază de noua scutire.",
+      "article": "art. unic, art. 62 lit. w¹)",
+      "quote": "altele decât cele supuse regimului de impunere prevăzut la art. 110, în cuantum de până la o șesime",
+      "weight": 3
+    },
+    {
+      "text": "Textul nu spune ce se întâmplă cu un premiu peste plafon: pierde toată scutirea sau se impozitează doar suma în plus. Organizatorii și Fiscul pot aplica regula diferit.",
+      "article": "art. unic, art. 62 lit. w¹)",
+      "quote": "în cuantum de până la o șesime din salariul de bază minim brut pe țară garantat în plată",
+      "weight": 2
+    },
+    {
+      "text": "Motivarea critică plafonul fix actual, dar proiectul doar adaugă o literă și nu schimbă regula veche. Rămân două plafoane în paralel, iar problema invocată nu e rezolvată.",
+      "article": "art. unic",
+      "quote": "după litera w), se introduce o nouă literă, lit.w¹), cu următorul cuprins",
+      "weight": 2
+    },
+    {
+      "text": "Plafonul se aplică fiecărui premiu în parte și nu există nicio limită. Un premiu mare poate fi spart în mai multe premii mici, toate sub plafon, ca să nu se plătească impozit.",
+      "article": "art. unic, art. 62 lit. w¹)",
+      "quote": "din salariul de bază minim brut pe țară garantat în plată, în vigoare la data acordării premiului, pentru fiecare premiu acordat",
+      "weight": 1
+    },
+    {
+      "text": "Nu se spune cum se evaluează premiile în natură, de exemplu obiecte sau excursii. Valoarea poate fi umflată sau micșorată ca premiul să încapă sub plafon.",
+      "article": "art. unic, art. 62 lit. w¹)",
+      "quote": "premiile în bani și/sau în natură acordate participanților la competiții sportive",
+      "weight": 1
+    },
+    {
+      "text": "Termeni ca „manifestări culturale”, „caracter educațional” sau „alte surse similare” nu sunt definiți. Aproape orice eveniment cu premii poate pretinde scutirea.",
+      "article": "art. unic, art. 62 lit. w¹)",
+      "quote": "manifestări culturale sau concursuri cu caracter educațional, inclusiv cele finanțate din sponsorizări, taxe de participare ori alte surse similare",
+      "weight": 1
+    },
+    {
+      "text": "O șesime din salariul minim e o sumă mică. Câștigul real pentru oameni e redus, mai ales dacă premiul ar beneficia oricum de pragul neimpozabil existent.",
+      "article": "art. unic, art. 62 lit. w¹)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Nu e clar cum se împacă noua literă cu scutirile deja existente pentru sportivi și elevi. Se pot suprapune sau pot fi interpretate ca limitate de noul plafon.",
+      "article": "art. unic, art. 62 lit. w¹)",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Excluderea premiilor de la art. 110 trebuie înlocuită cu o corelare explicită cu acel articol, de exemplu prin modificarea pragului său. Trebuie spus clar că peste plafon se impozitează doar diferența.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2
+  },
+  "quotes": {
+    "checked": 10,
+    "verified": 10
+  }
+}

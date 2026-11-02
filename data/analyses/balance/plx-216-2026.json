@@ -1,0 +1,101 @@
+{
+  "slug": "plx-216-2026",
+  "billId": "PL-x 216/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T19:53:45.992Z",
+  "inputHash": "4a454b965f9a",
+  "riskScore": 3,
+  "summary": "O lege scurtă și în mare parte inofensivă, care doar adaugă o categorie pe listă, dar e redactată imprecis și promite în motivare ajutoare pe care textul nu le conține.",
+  "good": [
+    {
+      "text": "Fabricile, depozitele și transportul de îngrășăminte pot fi protejate ca infrastructuri critice, cu planuri de securitate și continuitate, ceea ce ajută aprovizionarea fermierilor în crize.",
+      "article": "art. I",
+      "quote": "la Sectorul Industrie, după subsectorul 9.2 se introduce un nou subsector, subsectorul 9.3., cu următorul cuprins:",
+      "weight": 2
+    },
+    {
+      "text": "Legea adaugă doar o categorie pe listă. Nicio firmă nu devine automat infrastructură critică, ci doar după identificare și desemnare de către stat, după procedura existentă.",
+      "article": "art. I",
+      "quote": "9.3. Producția, procesarea, transportul și depozitarea îngrășămintelor chimice.",
+      "weight": 2
+    },
+    {
+      "text": "Guvernul este obligat să stabilească ce autoritate se ocupă de noul subsector, într-un termen fix, deci noua categorie nu rămâne fără responsabil.",
+      "article": "art. II alin. (1)",
+      "quote": "În termen de 60 de zile de la data intrării în vigoare a prezentei legi, Guvernul modifică hotărârea prevăzută la art.6² alin.(1)",
+      "weight": 1
+    },
+    {
+      "text": "Legea intră în vigoare abia după 90 de zile, ceea ce dă timp autorităților și firmelor să se pregătească.",
+      "article": "art. II alin. (2)",
+      "quote": "Prezenta lege intră în vigoare la 90 de zile de la data publicării în Monitorul Oficial al României, Partea I.",
+      "weight": 1
+    },
+    {
+      "text": "Proiectul nu creează cheltuieli bugetare directe, taxe sau sancțiuni noi. Folosește doar mecanismele deja existente în OUG 98/2010.",
+      "article": "art. I",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "„Îngrășăminte chimice” nu e definit, iar transportul și depozitarea nu au praguri. Nu e clar dacă intră și depozitele mici sau orice transportator, lăsând loc de interpretări.",
+      "article": "art. I",
+      "quote": "9.3. Producția, procesarea, transportul și depozitarea îngrășămintelor chimice.",
+      "weight": 2
+    },
+    {
+      "text": "Guvernul are încă 60 de zile după intrarea în vigoare ca să numească autoritatea responsabilă, deși avea deja 90 de zile la dispoziție. Nu există nicio sancțiune dacă întârzie.",
+      "article": "art. II alin. (1) și (2)",
+      "quote": "În termen de 60 de zile de la data intrării în vigoare a prezentei legi, Guvernul modifică hotărârea prevăzută la art.6² alin.(1)",
+      "weight": 2
+    },
+    {
+      "text": "Motivarea promite ajutor de stat și sprijin pentru fermierii care cumpără îngrășăminte românești. Nimic din acestea nu apare în lege, iar statutul de infrastructură critică nu le aduce.",
+      "article": "Expunerea de motive",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Includerea transportului de îngrășăminte se poate suprapune cu sectorul Transporturi deja existent pe listă. Nu e clar ce autoritate răspunde de ce.",
+      "article": "art. I",
+      "quote": "9.3. Producția, procesarea, transportul și depozitarea îngrășămintelor chimice.",
+      "weight": 1
+    },
+    {
+      "text": "Termenul folosit nu corespunde celui din regulamentul european privind fertilizanții (UE 2019/1009). Asta poate crea neconcordanțe la aplicare.",
+      "article": "art. I",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Operatorii desemnați trebuie să plătească singuri planuri de securitate, personal și pregătire. Proiectul nu estimează aceste costuri, nici efectul asupra firmelor mici.",
+      "article": "art. I",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Pe o piață cu puțini producători, statutul special poate favoriza un jucăman dominant. Consiliul Concurenței a cerut o analiză de necesitate și proporționalitate, care lipsește.",
+      "article": "art. I",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Definiți „îngrășăminte chimice” prin trimitere la Regulamentul (UE) 2019/1009, puneți praguri pentru transport și depozitare și obligați Guvernul să actualizeze HG 35/2019 înainte de intrarea în vigoare.",
+    "removes": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 7
+  }
+}

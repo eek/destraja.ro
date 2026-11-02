@@ -1,0 +1,106 @@
+{
+  "slug": "plx-195-2026",
+  "billId": "Pl-x 195/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T20:08:25.338Z",
+  "inputHash": "a33137518be1",
+  "riskScore": 2.7,
+  "summary": "O lege bună și scurtă care închide o portiță reală de abuz, dar are o listă de motive incompletă și termeni nedefiniți care pot bloca instanțele.",
+  "good": [
+    {
+      "text": "Motivele pentru care un judecător poate fi scos din complet sunt scrise direct în lege, nu mai sunt lăsate la regulamentul instanțelor. Șefii instanței nu mai pot invoca motive vagi.",
+      "article": "art. unic (art. 57 alin. (1) teza a II-a)",
+      "quote": "Schimbarea membrilor completurilor de judecată se face în mod excepțional, în cazurile de incompatibilitate sau de absență a judecătorului.",
+      "weight": 3
+    },
+    {
+      "text": "Echilibrarea volumului de muncă nu mai poate justifica înlocuirea unui judecător. Astfel nu se mai poate relua un proces penal de la zero, mai ales când faptele sunt aproape de prescripție.",
+      "article": "art. unic (art. 57 alin. (1) teza a II-a)",
+      "quote": null,
+      "weight": 3
+    },
+    {
+      "text": "Rămâne regula că completurile se stabilesc la începutul anului cu scopul de a avea aceiași judecători pe tot procesul. Asta ajută ca judecătorul care decide să fi auzit martorii.",
+      "article": "art. unic (art. 57 alin. (1) teza I)",
+      "quote": "Colegiile de conducere stabilesc compunerea completurilor de judecată la începutul anului, urmărind asigurarea continuității completului.",
+      "weight": 2
+    },
+    {
+      "text": "Cu motive clare în lege, o înlocuire nelegală a judecătorului poate fi contestată mai ușor în căile de atac. Protecția părților devine mai fermă.",
+      "article": "art. unic (art. 57 alin. (1))",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Proiectul nu impune obligații noi cetățenilor sau firmelor și nu prevede cheltuieli bugetare directe.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Lista de motive e prea scurtă: lipsesc pensionarea, transferul, promovarea, detașarea, suspendarea sau eliberarea din funcție. Instanțele riscă blocaje sau interpretări forțate.",
+      "article": "art. unic (art. 57 alin. (1) teza a II-a)",
+      "quote": "Schimbarea membrilor completurilor de judecată se face în mod excepțional, în cazurile de incompatibilitate sau de absență a judecătorului.",
+      "weight": 3
+    },
+    {
+      "text": "„Absența” nu e definită: nu se știe dacă include doar o lipsă scurtă sau și plecarea definitivă ori un concediu lung. Marja de apreciere pe care legea vrea s-o elimine poate reapărea.",
+      "article": "art. unic (art. 57 alin. (1) teza a II-a)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "„Incompatibilitatea” e neclară: de regulă privește un singur dosar și se rezolvă prin abținere sau recuzare, nu prin schimbarea completului. Nici nu se spune dacă include incompatibilitățile din statut.",
+      "article": "art. unic (art. 57 alin. (1) teza a II-a)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Nu se spune cine constată absența sau incompatibilitatea și nici nu se cere o decizie motivată și contestabilă. Colegiul de conducere decide în continuare singur.",
+      "article": "art. unic (art. 57 alin. (1))",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Dispare orice flexibilitate la reorganizarea secțiilor sau la dezechilibre mari de încărcare. Asta poate întârzia alte procese, inclusiv pe cele ale cetățenilor obișnuiți.",
+      "article": "art. unic (art. 57 alin. (1))",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Formularea vagă poate genera litigii noi despre ce înseamnă „absență” și poate duce la anularea unor hotărâri. Asta poate prelungi procesele.",
+      "article": "art. unic (art. 57 alin. (1))",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Lipsesc reguli de tranziție: nu se spune ce se întâmplă cu completurile deja modificate și nici în ce termen trebuie adaptat regulamentul instanțelor.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Camera Deputaților a adoptat legea tacit, fără dezbatere. Lipsurile de redactare nu au fost corectate.",
+      "article": "formula de adoptare",
+      "quote": "Acest proiect de lege se consideră adoptat de Camera Deputaților în forma inițială, în condițiile art. 75 alin. (2) teza a III-a din Constituția României, republicată.",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Lista motivelor ar trebui completată cu încetarea sau suspendarea activității, transferul și detașarea, iar „absența” și „incompatibilitatea” ar trebui definite.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 4,
+    "verified": 4
+  }
+}

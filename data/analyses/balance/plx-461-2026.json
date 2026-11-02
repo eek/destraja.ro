@@ -1,0 +1,106 @@
+{
+  "slug": "plx-461-2026",
+  "billId": "Pl-x 461/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T19:53:59.354Z",
+  "inputHash": "5f331f5bf73c",
+  "riskScore": 3,
+  "summary": "O desființare cu efect bugetar modest și scop rezonabil, dar scrisă superficial: nu spune cine face lichidarea, cine plătește oamenii și cine răspunde de datorii.",
+  "good": [
+    {
+      "text": "Desființează o instituție plătită din bugetul Parlamentului. Economia anuală e de circa 1,5 milioane lei la nivelul bugetului pe 2025.",
+      "article": "art. 1, art. 7",
+      "quote": "Institutul Român pentru Drepturile Omului, înființat prin Legea nr. 9/1991 privind înființarea Institutului Român pentru Drepturile Omului, cu modificările și completările ulterioare, se desființează.",
+      "weight": 2
+    },
+    {
+      "text": "Bunurile institutului trec la Camera Deputaților și rămân în proprietatea statului, nu se pierd și nu se împrăștie.",
+      "article": "art. 4",
+      "quote": "În termen de 30 de zile de la data intrării în vigoare a prezentei legi, patrimoniul Institutului Român pentru Drepturile Omului se transferă în patrimoniul Camerei Deputaților.",
+      "weight": 2
+    },
+    {
+      "text": "Arhiva institutului este preluată de Camera Deputaților, așa că documentele nu se pierd la desființare.",
+      "article": "art. 6",
+      "quote": "Arhiva Institutului Român pentru Drepturile Omuluise preia de către Camera Deputaților în termen de 30 de zile de la data intrării în vigoare a prezentei legi.",
+      "weight": 1
+    },
+    {
+      "text": "Se știe cine întocmește ultimele raportări financiare ale institutului, deci contabilitatea poate fi închisă corect.",
+      "article": "art. 5",
+      "quote": "Obligațiile privind raportările financiare pentru Institutul Român pentru Drepturile Omului se preiau de către Camera Deputaților.",
+      "weight": 1
+    },
+    {
+      "text": "Legea veche este abrogată expres, cu datele de publicare, așa că nu rămân dubii despre ce normă se mai aplică.",
+      "article": "art. 7",
+      "quote": "Legea nr. 9/1991 privind înființarea Institutului Român pentru Drepturile Omului, publicată în Monitorul Oficial al României, Partea I, nr. 24 din 30 ianuarie 1991",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Activitatea încetează din prima zi, dar predarea bunurilor durează 30 de zile și concedierile 45. Nimeni nu e desemnat să semneze acte, să plătească salarii sau să predea bunurile.",
+      "article": "art. 2–4",
+      "quote": "Începând cu data intrării în vigoare a prezentei legi, activitatea Institutului Român pentru Drepturile Omului încetează.",
+      "weight": 3
+    },
+    {
+      "text": "Formula „în condițiile legii” nu spune dacă e concediere sau încetare de drept. Preavizul, procedura de concediere colectivă și compensațiile celor circa 22 de angajați rămân neclare.",
+      "article": "art. 3",
+      "quote": "În termen de 45 de zile de la data intrării în vigoare a prezentei legi, în condițiile legii, încetează toate contractele de muncă ale angajaților Institutului Român pentru Drepturile Omului.",
+      "weight": 2
+    },
+    {
+      "text": "Camera preia doar raportările financiare. Nu scrie clar cine plătește datoriile, cine continuă contractele cu terții și cine răspunde în procese, deci creditorii și angajații pot rămâne fără cine să-i plătească.",
+      "article": "art. 5",
+      "quote": "Obligațiile privind raportările financiare pentru Institutul Român pentru Drepturile Omului se preiau de către Camera Deputaților.",
+      "weight": 2
+    },
+    {
+      "text": "Atribuțiile de documentare, educație și informare despre drepturile omului nu trec la nicio altă instituție. Rolul dispare fără înlocuitor, în loc să fie reformat.",
+      "article": "art. 2, art. 7",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Transferul bunurilor nu are o procedură: nu se cere inventar, comisie sau proces-verbal de predare, deci e greu de verificat ce s-a predat efectiv.",
+      "article": "art. 4",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Consiliul director de 7 membri, directorul și adjunctul nu sunt menționați, deci nu e clar când și cum le încetează mandatele.",
+      "article": "art. 1–3",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Arhiva trece la Cameră, dar legea nu garantează că documentația rămâne accesibilă publicului și cercetătorilor.",
+      "article": "art. 6",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Costurile desființării (salarii pe preaviz, eventuale compensații, arhivare) nu sunt estimate, deci economia din primul an e mai mică decât cea anunțată.",
+      "article": "art. 3–6",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Institutul să-și păstreze personalitatea juridică până la finalizarea lichidării, cu un lichidator numit de Camera Deputaților, iar Camera să preia expres toate drepturile și obligațiile, inclusiv contractele și procesele, cu procedura de concediere precizată.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 8
+  }
+}

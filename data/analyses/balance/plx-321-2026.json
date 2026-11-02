@@ -1,0 +1,99 @@
+{
+  "slug": "plx-321-2026",
+  "billId": "Pl-x 321/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T19:57:55.149Z",
+  "inputHash": "a49182e7bcba",
+  "riskScore": 3,
+  "summary": "O lege în mare parte bună, care extinde accesul gratuit la handbal, dar e slăbită de o excepție prea largă la transmisia în direct și de o formulare neclară.",
+  "good": [
+    {
+      "text": "Meciurile naționalelor de handbal, feminin și masculin, la Mondiale și Europene trebuie să poată fi văzute gratuit de cel puțin 70% din populație, chiar dacă drepturile sunt exclusive.",
+      "article": "art. I pct. 2 (art. 21 alin. (3) lit. f) și g))",
+      "quote": "meciurile echipelor naționale de handbal feminin și masculin la Campionatul mondial",
+      "weight": 3
+    },
+    {
+      "text": "Pragul de acces este clar și ușor de verificat: cel puțin 70% din populația recenzată. Este acum fixat direct în lege.",
+      "article": "art. I pct. 2 (art. 21 alin. (2))",
+      "quote": "prin parte importantă a publicului din România se înțelege cel puțin 70% din populația recenzată a României",
+      "weight": 2
+    },
+    {
+      "text": "Lista evenimentelor protejate trece din hotărâre de Guvern în lege. Devine mai stabilă și nu mai poate fi restrânsă ușor. Dispare dublarea dintre lege și HG.",
+      "article": "art. I pct. 2 și art. II",
+      "quote": "La data intrării în vigoare a prezentei legi se abrogă Hotărârea Guvernului nr. 47/2003",
+      "weight": 2
+    },
+    {
+      "text": "Legea spune expres că transmisia în direct este regula, iar înregistrarea difuzată mai târziu este excepția.",
+      "article": "art. I pct. 3 (art. 21 alin. (5))",
+      "quote": "Difuzarea evenimentelor prevăzute la alin. (3) se face, de regulă, în direct.",
+      "weight": 2
+    },
+    {
+      "text": "Se păstrează obligația de a trimite lista și orice modificare a ei la Comisia Europeană, cum cere dreptul UE. Așa, lista poate fi aplicată și posturilor din alte state.",
+      "article": "art. I pct. 3 (art. 21 alin. (7))",
+      "quote": "Lista evenimentelor de importanță majoră prevăzută la alin. (3), precum și orice modificare sau completare a acesteia, se comunică Comisiei Europene de către Consiliu.",
+      "weight": 2
+    },
+    {
+      "text": "Definiția din lege trimite acum direct la o listă închisă de evenimente, deci se știe exact ce este protejat.",
+      "article": "art. I pct. 1 (art. 1 pct. 29)",
+      "quote": "eveniment care poate prezenta interes pentru o parte importantă a publicului și care este prevăzut la art. 21 alin. (3)",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Transmisia poate fi amânată doar pe baza înțelegerii dintre televiziuni și organizatori. Nu se cere un motiv de interes public și nu există limită de timp sau aviz CNA. Asta contravine Directivei UE.",
+      "article": "art. I pct. 3 (art. 21 alin. (6))",
+      "quote": "În funcție de condiții și de înțelegerile dintre radiodifuzori și organizatori, difuzarea evenimentelor de importanță majoră sau a unor părți componente ale acestora se poate face decalat.",
+      "weight": 3
+    },
+    {
+      "text": "La handbal lipsesc cuvintele «ale României». Textul poate fi citit ca acoperind toate meciurile turneului, ceea ce ar fi disproporționat pentru deținătorii de drepturi și riscant în fața Comisiei Europene.",
+      "article": "art. I pct. 2 (art. 21 alin. (3) lit. f) și g))",
+      "quote": "meciurile echipelor naționale de handbal feminin și masculin la Campionatul european",
+      "weight": 3
+    },
+    {
+      "text": "Orice schimbare a listei sau a pragului de 70% va cere o lege votată în Parlament. CNA nu mai are niciun rol de propunere, deci actualizarea devine lentă și rigidă.",
+      "article": "art. I pct. 2 și art. II",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Hotărârea de Guvern este abrogată imediat, fără reguli de tranziție. Nu se spune ce se întâmplă cu contractele de drepturi la handbal deja încheiate, ceea ce poate crea litigii.",
+      "article": "art. II",
+      "quote": "La data intrării în vigoare a prezentei legi se abrogă Hotărârea Guvernului nr. 47/2003",
+      "weight": 2
+    },
+    {
+      "text": "La fotbal sunt protejate și meciurile de calificare ale României, dar la handbal nu. Diferența nu este explicată.",
+      "article": "art. I pct. 2 (art. 21 alin. (3) lit. d)-g))",
+      "quote": "Campionatul mondial de fotbal și jocurile de calificare ale echipei naționale a României la acest campionat",
+      "weight": 1
+    },
+    {
+      "text": "Greșeală de redactare: scrie «importantă» în loc de «importanță» în definiția din lege.",
+      "article": "art. I pct. 1 (art. 1 pct. 29)",
+      "quote": "eveniment de importantă majoră - eveniment care poate prezenta interes pentru o parte importantă a publicului",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Amânarea transmisiei să fie permisă doar pentru motive obiective de interes public (de exemplu fusul orar), cu aviz CNA, iar la lit. f) și g) să se adauge «ale României».",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2.5
+  },
+  "quotes": {
+    "checked": 11,
+    "verified": 11
+  }
+}

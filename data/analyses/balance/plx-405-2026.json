@@ -1,0 +1,105 @@
+{
+  "slug": "plx-405-2026",
+  "billId": "PL-x 405/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T20:00:43.459Z",
+  "inputHash": "a0b6b7a316d8",
+  "riskScore": 3,
+  "summary": "O derogare îngustă și temporară, rezonabilă ca idee, dar lăsată fără plafoane, fără cifre și fără control.",
+  "good": [
+    {
+      "text": "Excepția e temporară: SPP poate cumpăra mașini doar până la 31 decembrie 2026, apoi interdicția generală se aplică din nou automat.",
+      "article": "OUG 27/2026, art. unic",
+      "quote": "de la data intrării în vigoare a prezentei ordonanțe de urgență și până la data de 31 decembrie 2026",
+      "weight": 3
+    },
+    {
+      "text": "Achizițiile se fac din bugetul deja aprobat pentru 2026, deci textul nu alocă bani noi pentru mașini.",
+      "article": "OUG 27/2026, art. unic",
+      "quote": "în limita fondurilor bugetare aprobate prin Legea bugetului de stat pe anul 2026 nr. 43/2026",
+      "weight": 2
+    },
+    {
+      "text": "Excepția e numai pentru SPP. Interdicția de a cumpăra mașini rămâne în vigoare pentru toate celelalte instituții publice.",
+      "article": "OUG 27/2026, art. unic",
+      "quote": "în vederea asigurării îndeplinirii misiunilor specifice, Serviciul de Protecție și Pază poate achiziționa autoturisme",
+      "weight": 2
+    },
+    {
+      "text": "Textul permite doar cumpărarea de mașini. Leasingul și închirierea rămân interzise, deci excepția e mai îngustă decât interdicția pe care o ridică.",
+      "article": "OUG 27/2026, art. unic",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Legea nu creează taxe, sancțiuni sau obligații noi pentru cetățeni ori firme.",
+      "article": "OUG 27/2026, art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Nu există un număr maxim de mașini, o valoare-limită sau o restricție la mașini operative. Se pot cumpăra orice autoturisme, inclusiv mașini de serviciu pentru conducere.",
+      "article": "OUG 27/2026, art. unic",
+      "quote": "poate achiziționa autoturisme, astfel cum sunt acestea definite la art. 3 pct. 2 din Ordonanța Guvernului nr. 27/2011 privind transporturile rutiere",
+      "weight": 3
+    },
+    {
+      "text": "Expunerea de motive nu spune câte mașini se cumpără, cât costă sau ce economii aduc. Rubricile de impact sunt bifate „nu se referă”, iar secțiunea financiară e trunchiată.",
+      "article": "Expunerea de motive, secț. 3.1–3.6 și secț. 4",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Plafonul este întregul buget al SPP, nu o sumă dedicată mașinilor. Banii pot fi mutați de la alte cheltuieli, iar o rectificare bugetară poate mări plafonul.",
+      "article": "OUG 27/2026, art. unic",
+      "quote": "în limita fondurilor bugetare aprobate prin Legea bugetului de stat pe anul 2026",
+      "weight": 2
+    },
+    {
+      "text": "SPP nu este obligat să raporteze public sau Parlamentului ce mașini a cumpărat și cu ce sume, așa că cheltuiala nu poate fi verificată ușor.",
+      "article": "OUG 27/2026, art. unic",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Urgența e motivată prin conflicte externe generale, fără o legătură demonstrată cu cumpărarea de mașini. Asta poate fi contestat față de condițiile art. 115 alin. (4) din Constituție.",
+      "article": "OUG 27/2026, preambul",
+      "quote": "întrucât prin raportare la conflictul ruso-ucrainian neadoptarea prin ordonanță de urgență a Guvernului a acestor măsuri imediate este de natură să genereze riscuri și amenințări la adresa securității naționale",
+      "weight": 2
+    },
+    {
+      "text": "Preambulul invocă mașinile poluante Euro 4, dar legea nu cere ca mașinile noi să respecte vreun standard de emisii și nici nu obligă la casarea celor vechi.",
+      "article": "OUG 27/2026, preambul și art. unic",
+      "quote": "unele autovehicule având normă de poluare Euro 4 sau inferioară ceea ce generează costuri ridicate de operare",
+      "weight": 2
+    },
+    {
+      "text": "Senatul a adoptat proiectul tacit, fără dezbatere, după luni de aplicare a ordonanței. Controlul Parlamentului vine după ce achizițiile au putut fi deja făcute.",
+      "article": "Lege de aprobare, formula finală",
+      "quote": "Acest proiect de lege se consideră adoptat de Senat în forma inițială, în condițiile articolului 115 alineatul (5) teza a III-a din Constituția României, republicată",
+      "weight": 1
+    },
+    {
+      "text": "Expunerea de motive descrie derogarea doar de la OUG 34/2023, deși textul ordonanței derogă și de la art. XXVIII din Legea 141/2025. E o neconcordanță de redactare.",
+      "article": "Expunerea de motive, secț. 2.3",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Ar trebui adăugate un număr maxim de mașini și o valoare-limită, restrângerea la vehicule operative de protecție și obligația SPP de a raporta Parlamentului achizițiile făcute.",
+    "removes": [
+      0,
+      3
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2
+  },
+  "quotes": {
+    "checked": 10,
+    "verified": 8
+  }
+}

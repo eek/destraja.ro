@@ -1,0 +1,106 @@
+{
+  "slug": "plx-464-2026",
+  "billId": "Pl-x 464/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T19:53:40.499Z",
+  "inputHash": "1aad2a39c294",
+  "riskScore": 3,
+  "summary": "O desființare clară și ieftină pentru buget, dar cu o tranziție scrisă în grabă, care lasă neclar cine încheie socotelile instituției.",
+  "good": [
+    {
+      "text": "Desființează institutul și abrogă legea lui. Statul nu mai plătește o structură pe care inițiatorii o consideră fără rezultate, iar banii (circa 2,3 mil. lei/an, după expunere) se economisesc.",
+      "article": "art. 1 și art. 7",
+      "quote": "Institutul Revoluției Române din Decembrie 1989, înființat prin Legea nr. 556/2004 privind înființarea Institutului Revoluției Române din Decembrie 1989, cu modificările și completările ulterioare, se desființează.",
+      "weight": 3
+    },
+    {
+      "text": "Arhiva nu se pierde: o preia Senatul într-un termen fix de 30 de zile, deci documentele rămân la o instituție publică.",
+      "article": "art. 6",
+      "quote": "Arhiva Institutului se preia de către Senatul României în termen de 30 de zile de la data intrării în vigoare a prezentei legi.",
+      "weight": 2
+    },
+    {
+      "text": "Desființarea se face prin lege votată în Parlament, nu prin ordonanță de urgență, cum s-a încercat în 2019 și a picat la Curtea Constituțională.",
+      "article": "formula de adoptare",
+      "quote": "Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor articolului 75 și ale articolului 76 alineatul (2) din Constituția României, republicată.",
+      "weight": 2
+    },
+    {
+      "text": "Bunurile institutului nu rămân fără stăpân: Guvernul trebuie să decidă în 30 de zile unde ajung.",
+      "article": "art. 4",
+      "quote": "Guvernul, prin hotărâre, va stabili destinația patrimoniului Institutului Revoluției Române din Decembrie 1989.",
+      "weight": 1
+    },
+    {
+      "text": "Senatul răspunde de raportările financiare ale institutului, așa că ultimele conturi pot fi închise și verificate.",
+      "article": "art. 5",
+      "quote": "Obligațiile privind raportările financiare pentru Institutul Revoluției Române din Decembrie 1989 se preiau de către Senatul României.",
+      "weight": 1
+    },
+    {
+      "text": "Contractele de muncă încetează „în condițiile legii”, deci angajații păstrează protecțiile din Codul muncii.",
+      "article": "art. 3",
+      "quote": "în condițiile legii, încetează toate contractele de muncă ale angajaților Institutului",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Institutul se oprește și legea lui dispare din prima zi, dar concedierile, salariile și predarea arhivei vin abia în 30–45 de zile. Nu e clar cine semnează și cine plătește în acest timp.",
+      "article": "art. 2, art. 3, art. 6 și art. 7",
+      "quote": "Începând cu data intrării în vigoare a prezentei legi, activitatea Institutului încetează.",
+      "weight": 3
+    },
+    {
+      "text": "Nu se spune cine preia datoriile, banii de încasat, contractele în curs și procesele institutului. Senatul preia doar raportările financiare, nu și obligațiile de plată.",
+      "article": "art. 5",
+      "quote": "Obligațiile privind raportările financiare pentru Institutul Revoluției Române din Decembrie 1989 se preiau de către Senatul României.",
+      "weight": 3
+    },
+    {
+      "text": "„Plata oricăror indemnizații” e prea larg. Poate fi citit ca tăind și drepturi legale ale angajaților la plecare, de exemplu banii pentru concediul neefectuat.",
+      "article": "art. 3",
+      "quote": "încetează toate contractele de muncă ale angajaților Institutului, precum și plata oricăror indemnizații.",
+      "weight": 2
+    },
+    {
+      "text": "Destinația bunurilor o decide Guvernul, deși institutul e finanțat de Senat și arhiva merge la Senat. Legea nu numește beneficiarul, iar bunurile și actele pot ajunge în locuri diferite.",
+      "article": "art. 4",
+      "quote": "În termen de 30 de zile de la data intrării în vigoare a prezentei legi, Guvernul, prin hotărâre, va stabili destinația patrimoniului",
+      "weight": 2
+    },
+    {
+      "text": "Pentru arhivă nu se cer inventar, un responsabil de predare sau acces garantat pentru cercetători. Nici munca de cercetare a institutului nu e preluată de nimeni.",
+      "article": "art. 6",
+      "quote": "Arhiva Institutului se preia de către Senatul României în termen de 30 de zile de la data intrării în vigoare a prezentei legi.",
+      "weight": 2
+    },
+    {
+      "text": "Data exactă a încetării contractelor nu e clară. Desființarea angajatorului încheie contractele de drept, iar cele 45 de zile nu sunt automat preaviz, deci pot apărea litigii.",
+      "article": "art. 3",
+      "quote": "În termen de 45 de zile de la data intrării în vigoare a prezentei legi, în condițiile legii, încetează toate contractele de muncă",
+      "weight": 2
+    },
+    {
+      "text": "Legea nu spune ce se întâmplă cu banii deja alocați institutului în bugetul Senatului pe anul în curs. Economia nu e garantată prin text.",
+      "article": "art. 1–7 (lipsă)",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Păstrați personalitatea juridică a institutului până la finalul lichidării (cel puțin 45 de zile), numiți Senatul succesor pentru toate drepturile, datoriile și procesele și limitați art. 3 la indemnizațiile din Legea nr. 556/2004.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2
+  },
+  "quotes": {
+    "checked": 12,
+    "verified": 12
+  }
+}

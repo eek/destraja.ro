@@ -1,0 +1,106 @@
+{
+  "slug": "plx-512-2026",
+  "billId": "PL-x 512/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T20:08:55.450Z",
+  "inputHash": "e42cfc198a85",
+  "riskScore": 2.7,
+  "summary": "O lege bună și utilă pentru pacienți, dar scrisă incomplet: dă un drept fără să spună cine fixează prețul, cum se aplică și din ce bani se plătește.",
+  "good": [
+    {
+      "text": "Statul plătește 80% din prețul scutecelor pentru adulți. Pentru bolnavii care le folosesc zilnic, asta scade mult o cheltuială lunară grea.",
+      "article": "art. unic (art. 2²)",
+      "quote": "au dreptul la scutece pentru adulți, compensate în proporție de 80% dintr-un preț de referință",
+      "weight": 3
+    },
+    {
+      "text": "Dreptul se acordă și pentru boli de scurtă durată (după operație, după AVC), nu doar pentru boli permanente. Ajută și pe cei aflați în recuperare.",
+      "article": "art. unic (art. 2²)",
+      "quote": "în baza prescripției medicului specialist, indiferent de caracterul temporar sau permanent al afecțiunii",
+      "weight": 2
+    },
+    {
+      "text": "Orice asigurat poate primi dreptul. Nu se cer condiții de venit, certificat de handicap sau statut de pensionar, deci nu se fac dosare suplimentare.",
+      "article": "art. unic (art. 2²)",
+      "quote": "Pacienții asigurați în cadrul sistemului de asigurări sociale de sănătate au dreptul la scutece pentru adulți",
+      "weight": 2
+    },
+    {
+      "text": "E nevoie de rețetă de la medicul specialist. Astfel produsele ajung doar la cine are nevoie medicală reală, iar riscul de abuz scade.",
+      "article": "art. unic (art. 2²)",
+      "quote": "compensate în proporție de 80% dintr-un preț de referință, în baza prescripției medicului specialist",
+      "weight": 1
+    },
+    {
+      "text": "Compensarea se calculează dintr-un preț de referință, nu din prețul cerut de vânzător. Asta poate ține sub control cheltuiala publică.",
+      "article": "art. unic (art. 2²)",
+      "quote": "au dreptul la scutece pentru adulți, compensate în proporție de 80% dintr-un preț de referință",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Legea nu spune ce este „prețul de referință”, cine îl stabilește (Ministerul Sănătății sau CNAS) și prin ce act. Fără el, 80% nu se poate calcula.",
+      "article": "art. unic (art. 2²)",
+      "quote": "compensate în proporție de 80% dintr-un preț de referință, în baza prescripției medicului specialist",
+      "weight": 3
+    },
+    {
+      "text": "Nu există termen pentru norme de aplicare și nicio trimitere la Contractul-cadru, care apare doar în expunerea de motive. Dreptul poate rămâne doar pe hârtie sau poate duce la procese cu casele de sănătate.",
+      "article": "art. unic (art. 2²)",
+      "quote": null,
+      "weight": 3
+    },
+    {
+      "text": "În materialele disponibile nu apare cât costă măsura și din ce bani se plătește, deși cheltuiala e permanentă. Constituția (art. 138 alin. 5) și Legea 69/2010 cer o sursă de finanțare.",
+      "article": "art. unic; expunerea de motive",
+      "quote": null,
+      "weight": 3
+    },
+    {
+      "text": "Dreptul e pus în legea drepturilor pacientului, nu în Legea 95/2006, care stabilește ce plătește asigurarea de sănătate. Cele două legi pot ajunge să nu se potrivească.",
+      "article": "art. unic",
+      "quote": "După articolul 2¹ din Legea drepturilor pacientului nr. 46/2003, publicată în Monitorul Oficial al României, Partea I, nr. 51 din 29 ianuarie 2003",
+      "weight": 2
+    },
+    {
+      "text": "Textul spune doar „scutece pentru adulți”, deși expunerea vorbește de produse absorbante. Pot rămâne pe dinafară chiloții absorbanți, alezele, inserțiile și copiii cu dizabilități.",
+      "article": "art. unic (art. 2²)",
+      "quote": "Pacienții asigurați în cadrul sistemului de asigurări sociale de sănătate au dreptul la scutece pentru adulți",
+      "weight": 2
+    },
+    {
+      "text": "Doar medicul specialist poate da rețeta, iar medicul de familie nu o poate reînnoi. Unde specialiștii sunt greu de găsit, mai ales la sate, accesul devine greoi.",
+      "article": "art. unic (art. 2²)",
+      "quote": "în baza prescripției medicului specialist, indiferent de caracterul temporar sau permanent al afecțiunii",
+      "weight": 2
+    },
+    {
+      "text": "Legea nu spune câte bucăți se dau, pe ce perioadă și de unde se iau (farmacii, alți furnizori). Fiecare casă de asigurări le poate aplica diferit.",
+      "article": "art. unic (art. 2²)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Restul de 20% rămâne de plătit pentru toți. Nu există scutire pentru cei cu venituri mici sau pentru pensionarii pe care expunerea de motive spune că vrea să-i ajute.",
+      "article": "art. unic (art. 2²)",
+      "quote": "au dreptul la scutece pentru adulți, compensate în proporție de 80% dintr-un preț de referință",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Articolul ar trebui completat cu trei lucruri: cine stabilește prețul de referință și prin ce act (de exemplu CNAS, prin Contractul-cadru), un termen pentru normele de aplicare și o fișă financiară cu sursa banilor.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2
+  },
+  "quotes": {
+    "checked": 10,
+    "verified": 10
+  }
+}

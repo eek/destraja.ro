@@ -1,25 +1,28 @@
 # Partea 1: „Ce e bine și ce strică” (cloud/bine-rau)
 
-Actualizat: 2026-11-02 19:44 UTC
+Actualizat: 2026-11-02 20:15 UTC
 
 ## Făcut
-- Test pe 3 proiecte galbene, `--model=claude --paralel=1`, textele din data/texts:
-  - PL-x 410/2026 (1,2k caractere): 4 bune, 7 rele, citate 7/7, $0,135
-  - Pl-x 269/2026 (3,6k): 5 bune, 10 rele, citate 13/14, $0,185
-  - PL-x 318/2026 (72k, tăiat la 60k): 16 bune, 29 rele, citate 45/45, $0,695
-- Costul măsurat din evenimentul `result` al CLI-ului claude (total_cost_usd), printr-un înveliș în jurul binarului; codul scriptului nu e schimbat.
+- 498 de proiecte noi în data/analyses/balance/, toate cu `--model=claude`, textele din data/texts (fără cereri spre
+  cdep.ro sau senat.ro), 0 eșuate:
+  - testul: 3 proiecte galbene (`--paralel=1`);
+  - toate cele 305 proiecte galbene (`--risc=yellow --paralel=4`);
+  - 190 de proiecte verzi, cele cu scorul de consens cel mai mare (3,7 până la 2,7), `--paralel=4`.
+- Cu cele 52 roșii de dinainte: 550 de proiecte au acum „Ce e bine și ce strică”.
+- Citate verificate cuvânt cu cuvânt în text: 9.143 din 9.369 (97,6%). 408 din 498 au și o „schimbare care l-ar face
+  acceptabil”. Niciun rezultat gol.
 
-## Estimare
-- Cost ≈ $0,124 + $0,0000095 × caractere de text (tăiat la 60k).
-- Rămase: 305 galbene (≈ $76) și 417 verzi (≈ $81), total ≈ $157, peste ținta de $130.
-- Plan: toate galbenele, apoi verzile cu scorul cel mai mare până la ≈ $130 în total.
+## Cost
+- Măsurat din evenimentul `result` al CLI-ului claude (total_cost_usd), printr-un înveliș în jurul binarului; codul
+  scriptului nu e schimbat. 498 de rulări, $126,44 în total:
+  - test: $1,01 (de la $0,135 la 1,2k caractere până la $0,69 la 72k caractere, tăiat la 60k);
+  - galbene: ≈ $81,8 (≈ $0,27 pe proiect);
+  - verzi: ≈ $43,6 (≈ $0,23 pe proiect).
+- Nu include costul sesiunii care a coordonat lucrul și al subagentului pentru partea 3.
 
-## Făcut (galbene)
-- Toate cele 305 proiecte galbene: 305 analizate, 0 eșuate. Cost total măsurat, cu testul: $82,84 (≈ $0,27 pe proiect, cu 7,7% peste estimare).
-
-## În lucru
-- Lotul verde, `--model=claude --paralel=4`: cele 190 de proiecte verzi cu scorul cel mai mare (3,7 până la 2,7), alese să încapă în ≈ $45, adică ≈ $130 în total. Rămân 227 de verzi (scor 2,7 și mai mic), pentru când mai e buget.
-- Progres verde: 102 făcute, 0 eșuate. Cost total măsurat: $105.66.
+## Rămase
+- 227 de proiecte verzi, cu scorul 2,7 și mai mic. Estimare: ≈ $50 cu aceeași setare
+  (`node scripts/straja-balance.mjs --risc=green --model=claude --paralel=4`; sare singur peste cele făcute).
 
 ## Eșuate
-- (niciunul încă)
+- Niciunul.

@@ -38,7 +38,8 @@ const olderForms = (pdfDir) => {
 };
 
 async function extractPdfTextsForBill(bill) {
-  if (TEXTS_FROM_DISK) {
+  // Proiectele Guvernului au textele deja scrise de scripts/straja-guvern.mjs (doar stratul de text al documentelor).
+  if (TEXTS_FROM_DISK || bill.guvern) {
     const dir = path.join(TEXT_DIR, bill.slug);
     if (!fs.existsSync(dir)) return {};
     return Object.fromEntries(
@@ -83,12 +84,23 @@ function buildCouncilPrompt(bill, texts, version) {
     .join(', ');
 
   const cam = bill.chamber;
-  const intro = cam
+  const gov = bill.guvern;
+  const intro = gov
+    ? `Analizează următorul proiect de act normativ (${gov.tip}) pus în consultare publică de ${gov.institutie}, înainte să fie adoptat sau trimis Parlamentului`
+    : cam
     ? AT_CHAMBER.test(cam.stadiu)
       ? `Analizează următorul proiect de lege aflat în dezbatere la Camera Deputaților`
       : `Analizează următorul proiect de lege înregistrat la Camera Deputaților (stadiul de acum: ${cam.stadiu})`
     : `Analizează următoarea propunere legislativă aflată în consultare publică la Senatul României`;
-  const facts = cam
+  const facts = gov
+    ? `DATE OFICIALE (pagina de transparență decizională a instituției):
+- Instituția inițiatoare: ${gov.institutie}
+- Tipul actului: ${gov.tip}
+- Titlu oficial: ${bill.officialTitle}
+- Publicat pentru consultare: ${gov.publicat}
+- Termen pentru propuneri: ${gov.termen}${gov.termenEstimat ? ' (estimat: pagina nu spune termenul)' : ''}
+- Propunerile se trimit la: ${gov.email || 'vezi pagina instituției'}`
+    : cam
     ? `DATE OFICIALE CAMERA DEPUTAȚILOR:
 - Indicativ: ${bill.id}${cam.numarSenat ? ` (la Senat: ${cam.numarSenat})` : ''}
 - Titlu oficial: ${bill.officialTitle}
@@ -105,11 +117,14 @@ function buildCouncilPrompt(bill, texts, version) {
 - Termen consultare publică: ${bill.consultationDeadline}
 - Procedură de urgență solicitată: ${bill.emergencyRequested ? 'DA' : 'NU'}
 - Inițiatori: ${initiatorsStr || 'Vezi documentele PDF'}`;
-  const textLabel =
-    form === FORMS.initiator
+  const textLabel = gov
+    ? 'TEXT EXTRAS DIN PROIECTUL DE ACT NORMATIV (dacă e disponibil, altfel bazează-te pe titlu și context)'
+    : form === FORMS.initiator
       ? 'TEXT EXTRAS DIN FORMA INIȚIATORULUI (dacă e disponibil, altfel bazează-te pe titlu și context)'
       : `TEXT EXTRAS DIN ${form.label} (evaluează această formă a textului)`;
-  const formRule = cam
+  const formRule = gov
+    ? `4. Câmpul "senatForm" conține aici propunerea pe care un cetățean o trimite prin e-mail instituției inițiatoare în perioada de consultare publică (Legea nr. 52/2003): articleRef = articolul vizat, proposalContent = textul propus pentru articol (sau eliminarea lui), argumentation = motivarea, otherComments = alte observații. Respectă STRICT limitele de caractere:`
+    : cam
     ? `4. Câmpul "senatForm" conține aici propunerea de modificare pe care un cetățean o trimite prin e-mail comisiei Camerei care face raportul (un deputat o poate prelua ca amendament): articleRef = articolul vizat, proposalContent = textul propus pentru articol (sau eliminarea lui), argumentation = motivarea, otherComments = alte observații. Respectă STRICT limitele de caractere:`
     : `4. Pentru formularul Senatului, respectă STRICT limitele de caractere:`;
 
@@ -120,7 +135,7 @@ ${facts}
 ${textLabel}:
 ${fgSnippet || '[PDF scanat ca imagine sau indisponibil text]'}
 
-TEXT EXTRAS DIN EXPUNEREA DE MOTIVE:
+TEXT EXTRAS DIN ${gov ? 'NOTA DE FUNDAMENTARE / REFERATUL DE APROBARE' : 'EXPUNEREA DE MOTIVE'}:
 ${emSnippet || '[PDF scanat ca imagine sau indisponibil text]'}
 
 REGULI DE RIGOARE:
@@ -773,11 +788,68 @@ async function mainVersions(args) {
   writeVersionsStatus(index, read);
 }
 
+// ─── Guvernul, înainte de Parlament ─────────────────────────────────────────────────────────────────────────────
+// node scripts/straja-council.mjs --guvern [slug] [--tip=lege,OUG] [--max=10] [--force]
+// Proiectele puse în consultare publică de ministere (scripts/straja-guvern.mjs, data/guvern/index.json), încă deschise
+// și fără analiză sau, cu COUNCIL_MODELS, fără răspunsul modelelor cerute (Claude în cloud, apoi agy,codex local).
+// Slugurile „guv-…” nu se ciocnesc cu cele de la Senat sau Cameră, deci analiza stă tot în data/analyses/<slug>.json.
+// Ca la Cameră, mai multe loturi pot rula în paralel.
+function guvernBill(p) {
+  return {
+    id: p.slug,
+    slug: p.slug,
+    officialTitle: p.titlu,
+    guvern: { institutie: p.institutie, tip: p.tip, publicat: p.publicat, termen: p.termen, termenEstimat: p.termenEstimat, email: p.email, pagina: p.pagina },
+  };
+}
+
+async function mainGuvern(args) {
+  const slug = args.find((a) => !a.startsWith('--'));
+  const max = Number(args.find((a) => a.startsWith('--max='))?.split('=')[1] ?? 10);
+  const types = args.find((a) => a.startsWith('--tip='))?.slice(6).split(',');
+  const { proiecte } = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'guvern', 'index.json'), 'utf8'));
+  const todo = (s) => {
+    const file = path.join(ANALYSES_DIR, `${s}.json`);
+    return !fs.existsSync(file) || missingModels(readJsonFile(file));
+  };
+  const targets = slug
+    ? proiecte.filter((p) => p.slug === slug)
+    : proiecte.filter((p) => p.deschis && todo(p.slug) && (!types || types.includes(p.tip))).sort((a, b) => a.termen.localeCompare(b.termen));
+
+  const claim = claimer('guvern');
+  let done = 0;
+  let failed = 0;
+  for (const p of targets) {
+    if (done >= max) break;
+    const release = slug ? () => {} : claim(p.slug);
+    if (!release || (!slug && !todo(p.slug))) {
+      release?.();
+      continue;
+    }
+    try {
+      // Doar după titlu nu analizăm: fără textul proiectului (PDF scanat, format necitit) îl sărim.
+      if (!fs.existsSync(path.join(TEXT_DIR, p.slug, 'forma_initiatorului.txt'))) {
+        console.log(`⏭️  ${p.slug}: fără textul proiectului`);
+        continue;
+      }
+      await analyzeBillWithCouncil(guvernBill(p), args.includes('--force'));
+      done++;
+    } catch (err) {
+      console.log(`⚠️  ${p.slug}: ${err.message}`);
+      failed++;
+    } finally {
+      release();
+    }
+  }
+  console.log(`🏛️ Guvern: ${done} proiecte analizate${failed ? `, ${failed} cu erori` : ''}`);
+}
+
 async function main() {
   const args = process.argv.slice(2);
   // --status singur e tot raportul comparațiilor: fără asta pornea modul implicit și rescria analizele Senatului.
   if (args.includes('--versions') || args.includes('--status')) return mainVersions(args);
   if (args.includes('--camera')) return mainChamber(args);
+  if (args.includes('--guvern')) return mainGuvern(args);
   const extractOnly = args.includes('--extract-texts');
   const targetSlug = args.find((a) => !a.startsWith('--'));
 

@@ -1,12 +1,57 @@
 {
   "slug": "b598-2026",
   "billId": "B598/2026",
-  "checkedAt": "2026-10-31T08:30:19.210Z",
+  "checkedAt": "2026-11-02T07:30:32.109Z",
   "models": {
+    "agy": "error: cod 3: error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 23h42m15s. AGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 23h42m15s.\",\"status\":\"RESOURCE_EXHAU",
     "claude": "ok",
     "codex": "ok"
   },
   "articles": [
+    {
+      "url": "https://www.cotidianul.ro/?p=1030624",
+      "title": "Proiect legislativ în Parlament. Tinerii cu salarii sub 4.000 de lei primesc bani pentru chirie și reduceri la transport",
+      "outlet": "Cotidianul",
+      "domain": "cotidianul.ro",
+      "publishedAt": "2026-11-02",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Un grup de deputați de la PNL, USR și UDMR a depus în Parlament un proiect legislativ în acest sens.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-02",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-02",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.861,
+            "source": "national_news",
+            "sourceP": 0.802,
+            "about": 0.971,
+            "release": 0.129
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.872,
+            "source": "national_news",
+            "sourceP": 0.731,
+            "about": 0.905,
+            "release": 0.148
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.88,
+            "source": "national_news",
+            "sourceP": 0.94,
+            "about": 0.99,
+            "release": 0.02
+          }
+        }
+      }
+    },
     {
       "url": "https://www.capital.ro/sprijin-financiar-pentru-chirie-ajutorul-lunar-acordat-de-stat-ar-ajunge-la-600-de-lei-cine-ar-putea-beneficia.html",
       "title": "Sprijin financiar pentru chirie. Ajutorul lunar acordat de stat ar ajunge la 600 de lei. Cine ar putea beneficia",
@@ -60,7 +105,7 @@
       "foundBy": [
         "claude"
       ],
-      "quote": "Inițiatorii proiectului sunt deputații liberali Raluca Turcan, Ovidiu-Vasile Cîmpean, precum și Alin-Bogdan Stoica",
+      "quote": "Inițiativa legislativă prevede și reducerea la jumătate a costurilor la abonamentele pentru transportul în comun",
       "match": "quote",
       "firstSeenAt": "2026-10-31",
       "decision": {
@@ -91,6 +136,50 @@
             "sourceP": 0.88,
             "about": 0.99,
             "release": 0.02
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.stirilekanald.ro/proiect-de-lege-ajutor-de-pana-la-600-de-lei-lunar-pentru-plata-chiriei-si-reducere-de-50-la-abonamentele-pentru-transport-in-comun-sprijinul-se-adreseaza-tinerilor-care-au-pana-in-29-de-ani-si-venituri-mici-20549186",
+      "title": "Proiect de lege: ajutor de până la 600 de lei lunar pentru plata chiriei și reducere de 50% la abonamentele pentru transport în comun. Sprijinul se adresează tinerilor care au până în 29 de ani și venituri mici",
+      "outlet": "Știrile Kanal D",
+      "domain": "stirilekanald.ro",
+      "publishedAt": "2026-10-30",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Potrivit proiectului, 600 de lei ar urma să primească tinerii care locuiesc în București și Cluj-Napoca.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-02",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-02",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.843,
+            "source": "national_news",
+            "sourceP": 0.848,
+            "about": 0.97,
+            "release": 0.116
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.738,
+            "source": "aggregator",
+            "sourceP": 0.412,
+            "about": 0.893,
+            "release": 0.223
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.96,
+            "source": "national_news",
+            "sourceP": 0.98,
+            "about": 0.99,
+            "release": 0.01
           }
         }
       }
@@ -192,7 +281,7 @@
       "foundBy": [
         "claude"
       ],
-      "quote": "o propunere legislativă depusă miercuri, 28 octombrie, la Senat",
+      "quote": "Momentan, ajutoarele pentru chirie și transport reprezintă doar o propunere legislativă, înregistrată la Senat.",
       "match": "quote",
       "firstSeenAt": "2026-10-31",
       "decision": {

@@ -1,9 +1,9 @@
 {
   "slug": "b563-2026",
   "billId": "B563/2026",
-  "checkedAt": "2026-10-31T08:13:17.176Z",
+  "checkedAt": "2026-11-02T07:41:05.509Z",
   "models": {
-    "agy": "error: răspuns gol după 603s (probabil timp depășit)",
+    "agy": "error: cod 3: error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 23h33m57s. AGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 23h33m57s.\",\"status\":\"RESOURCE_EXHAU",
     "claude": "ok",
     "codex": "ok"
   },
@@ -610,6 +610,29 @@
       "firstSeenAt": "2026-10-28"
     },
     {
+      "issuer": "Consiliul de Mediere",
+      "issuerType": "profesie",
+      "stance": "modificare",
+      "documentType": "comunicat",
+      "title": "Consiliul de Mediere solicită retragerea/respingerea dispozițiilor privind exceptarea avocaților de la autorizarea și supravegherea profesională în domeniul medierii",
+      "quote": "Consiliul de Mediere solicită inițiatorilor retragerea dispozițiilor art. I pct. 3 din propunerea legislativă B563/2026, referitoare la modificarea art. 3 alin. (1) lit. f) din Legea nr. 51/1995 pentru organizarea și exercitarea profesiei de avocat.",
+      "quoteIn": "pagina",
+      "date": "2026-10-26",
+      "dateSource": "adresa",
+      "pageUrl": "https://agerpres.ro/comunicate/2026/10/26/comunicat-de-presa---consiliul-de-mediere--1606710",
+      "documentUrl": null,
+      "domain": "agerpres.ro",
+      "viaPress": true,
+      "ownSite": false,
+      "billMatch": "numar",
+      "signatories": null,
+      "foundBy": [
+        "claude"
+      ],
+      "verifiedAt": "2026-11-02",
+      "firstSeenAt": "2026-11-02"
+    },
+    {
       "issuer": "IMM România",
       "issuerType": "patronat",
       "stance": "respingere",
@@ -630,7 +653,10 @@
         "claude"
       ],
       "firstSeenAt": "2026-10-27",
-      "verifiedAt": "2026-10-27"
+      "verifiedAt": "2026-10-27",
+      "alsoAt": [
+        "https://startupcafe.ro/avocatul-obligatoriu-pentru-contractele-firmelor-imm-romania-anunta-eliminarea-prevederii-controversate-din-proiectul-de-lege-109355"
+      ]
     },
     {
       "issuer": "Baroul Alba",
@@ -658,17 +684,17 @@
   ],
   "pending": [
     {
-      "issuer": "Consiliul de Mediere",
-      "stance": "modificare",
+      "issuer": "Uniunea Națională a Barourilor din România (UNBR)",
+      "stance": "sustinere",
       "pageUrl": "https://unbr.ro/precizari-privind-propunerea-de-modificare-a-legii-nr-51-1995-si-observatiile-consiliului-de-mediere",
       "documentUrl": null,
-      "quote": "Consiliul de Mediere solicită retragerea sau respingerea acestei prevederi",
+      "quote": "Simplificarea organizării activității avocatului trebuie însoțită de garanții clare pentru părți.",
       "claimedSignatories": null,
       "foundBy": [
         "claude"
       ],
-      "reason": "citatul nu arată poziția „modificare”",
-      "checkedAt": "2026-10-31"
+      "reason": "citatul nu arată poziția „sustinere”",
+      "checkedAt": "2026-11-02"
     },
     {
       "issuer": "Uniunea Națională a Barourilor din România (UNBR)",
@@ -707,19 +733,6 @@
         "claude"
       ],
       "reason": "nici pagina, nici documentul nu pomenesc proiectul",
-      "checkedAt": "2026-10-28"
-    },
-    {
-      "issuer": "Consiliul de Mediere",
-      "stance": "modificare",
-      "pageUrl": "https://agerpres.ro/comunicate/2026/10/26/comunicat-de-presa---consiliul-de-mediere--1606710",
-      "documentUrl": null,
-      "quote": "În cazul menținerii acestora, solicită Parlamentului României respingerea lor.",
-      "claimedSignatories": null,
-      "foundBy": [
-        "codex"
-      ],
-      "reason": "citatul nu arată poziția „modificare”",
       "checkedAt": "2026-10-28"
     },
     {

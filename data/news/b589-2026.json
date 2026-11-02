@@ -1,8 +1,9 @@
 {
   "slug": "b589-2026",
   "billId": "B589/2026",
-  "checkedAt": "2026-10-31T08:30:57.315Z",
+  "checkedAt": "2026-11-02T07:30:18.521Z",
   "models": {
+    "agy": "error: cod 3: error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 23h45m17s. AGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 23h45m17s.\",\"status\":\"RESOURCE_EXHAU",
     "claude": "ok",
     "codex": "ok"
   },
@@ -16,7 +17,7 @@
       "foundBy": [
         "claude"
       ],
-      "quote": "Partidul Alianţa pentru Unirea Românilor (AUR) a depus în Parlament un proiect de lege care introduce termene stricte şi proceduri de judecată rapidă pentru contestaţiile consilierilor locali şi judeţeni excluşi din partide, pentru a elimina situaţiile în care aleşii îşi păstrează mandatele pe durata unor procese întinse pe mai mulţi ani, potrivit unui comunicat publicat pe site-ul oficial al form",
+      "quote": "Mandatul alesului local încetează de drept dacă instanţa respinge definitiv contestaţia.",
       "match": "quote",
       "firstSeenAt": "2026-10-31",
       "decision": {
@@ -60,7 +61,7 @@
       "foundBy": [
         "claude"
       ],
-      "quote": "Proiectul a fost depus de deputatul AUR Georgel Badiu și propune termene clare atât pentru contestarea deciziei de excludere, cât și pentru soluționarea cauzelor în instanță.",
+      "quote": "Pe durata procesului, consilierul își păstrează mandatul până la pronunțarea unei hotărâri definitive.",
       "match": "quote",
       "firstSeenAt": "2026-10-31",
       "decision": {
@@ -104,7 +105,7 @@
       "foundBy": [
         "claude"
       ],
-      "quote": "Inițiativa legislativă, depusă de deputatul AUR Georgel Badiu, propune termene stricte și judecarea de urgență a contestațiilor, fără a afecta dreptul la apărare.",
+      "quote": "Dacă instanța admite definitiv contestația, excluderea nu produce efectul încetării mandatului.",
       "match": "quote",
       "firstSeenAt": "2026-10-31",
       "decision": {
@@ -141,6 +142,50 @@
     }
   ],
   "pending": [
+    {
+      "url": "https://www.amosnews.ro/aur-pune-capat-proceselor-care-permit-consilierilor-exclusi-din-partide-sa-isi-pastreze-mandatele-ani-de-zile",
+      "title": "AUR pune capăt proceselor care permit consilierilor excluși din partide să își păstreze mandatele ani de zile -",
+      "outlet": "amosnews.ro",
+      "domain": "amosnews.ro",
+      "publishedAt": "2026-10-30",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Pe durata procedurii judiciare, consilierul își păstrează mandatul până la pronunțarea unei hotărâri definitive.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-02",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-02",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "supportive",
+            "stanceP": 0.708,
+            "source": "party_or_politician",
+            "sourceP": 0.656,
+            "about": 0.966,
+            "release": 0.933
+          },
+          "d1": {
+            "stance": "supportive",
+            "stanceP": 0.656,
+            "source": "party_or_politician",
+            "sourceP": 0.634,
+            "about": 0.867,
+            "release": 0.531
+          },
+          "luna": {
+            "stance": "supportive",
+            "stanceP": 0.99,
+            "source": "party_or_politician",
+            "sourceP": 0.91,
+            "about": 0.99,
+            "release": 0.99
+          }
+        }
+      }
+    },
     {
       "url": "https://www.jurnaldeconstanta.ro/proiect-modalitati-rapide-prin-care-consilierii-exclusi-din-partide-isi-pot-mentine-mandatele-pe-termen-lung",
       "title": "Proiect: Modalități rapide prin care consilierii excluși din partide își pot menține mandatele pe termen lung - Jurnal de Constanta",
@@ -194,7 +239,7 @@
       "foundBy": [
         "claude"
       ],
-      "quote": "Inițiativa, depusă de deputatul AUR Georgel Badiu, urmărește scurtarea proceselor care pot dura ani întregi, perioadă în care aleșii locali își păstrează mandatele chiar dacă nu mai sunt membri ai formațiunii politice.",
+      "quote": "Proiectul nu prevede pierderea automată a mandatului în momentul în care partidul hotărăște excluderea",
       "match": "quote",
       "firstSeenAt": "2026-10-31",
       "decision": {

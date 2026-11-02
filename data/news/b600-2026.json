@@ -1,12 +1,57 @@
 {
   "slug": "b600-2026",
   "billId": "B600/2026",
-  "checkedAt": "2026-10-31T08:31:43.636Z",
+  "checkedAt": "2026-11-02T07:32:08.264Z",
   "models": {
+    "agy": "error: cod 3: error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 23h41m1s. AGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 23h41m1s.\",\"status\":\"RESOURCE_EXHAUST",
     "claude": "ok",
     "codex": "ok"
   },
   "articles": [
+    {
+      "url": "https://www.dcbusiness.ro/schimbari-privind-contractele-si-facturile-romanilor_701067.html",
+      "title": "Schimbări privind contractele și facturile românilor",
+      "outlet": "DC Business",
+      "domain": "dcbusiness.ro",
+      "publishedAt": "2026-11-01",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "A fost înregistrată la Senat o propunere legislativă pentru modificarea și completarea Ordonanței Guvernului nr. 21/1992 privind protecția consumatorilor și a Ordonanței de urgență a Guvernului nr. 111/2011 privind comunicațiile electronice, în vederea asigurării stabilității și predictibilității prețului contractual.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-02",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-02",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.801,
+            "source": "national_news",
+            "sourceP": 0.351,
+            "about": 0.961,
+            "release": 0.497
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.912,
+            "source": "trade_press",
+            "sourceP": 0.807,
+            "about": 0.755,
+            "release": 0.133
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.97,
+            "source": "trade_press",
+            "sourceP": 0.88,
+            "about": 0.99,
+            "release": 0.08
+          }
+        }
+      }
+    },
     {
       "url": "https://www.napocanews.ro/2026/10/deputat-robert-alecu-act-pretul-in-lei-de-la-inceput.html",
       "title": "Deputat Robert Alecu ( ACT): Prețul în lei, de la început",

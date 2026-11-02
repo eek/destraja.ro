@@ -1,11 +1,234 @@
 {
   "slug": "b606-2026",
   "billId": "B606/2026",
-  "checkedAt": "2026-10-31T08:33:01.263Z",
+  "checkedAt": "2026-11-02T07:33:34.523Z",
   "models": {
+    "agy": "error: cod 3: error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 23h38m51s. AGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 23h38m51s.\",\"status\":\"RESOURCE_EXHAU",
     "claude": "ok",
     "codex": "ok"
   },
-  "articles": [],
-  "pending": []
+  "articles": [
+    {
+      "url": "https://www.money.ro/stiri/senator-aur-actionar-la-companii-listate-la-bursa-vrea-taxe-mai-mici-pentru-inve-mvwqbg59",
+      "title": "Senator AUR, acționar la companii listate la bursă, vrea taxe mai mici pentru investitori ca el: impozitul prin brokerii europeni ar putea scădea de la 16% la 3% sau 6%",
+      "outlet": "Money.ro",
+      "domain": "money.ro",
+      "publishedAt": "2026-10-31",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Inițiatorul proiectului, Petrișor Gabriel Peiu (59 ani), este prim-vicepreședinte AUR și liderul senatorilor partidului.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-02",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-02",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.689,
+            "source": "trade_press",
+            "sourceP": 0.513,
+            "about": 0.961,
+            "release": 0.026
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.674,
+            "source": "national_news",
+            "sourceP": 0.312,
+            "about": 0.818,
+            "release": 0.182
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.78,
+            "source": "trade_press",
+            "sourceP": 0.72,
+            "about": 0.99,
+            "release": 0.03
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.zf.ro/zf-24/senatorul-aur-petrisor-peiu-actionar-la-20-de-companii-listate-la-bursa-propune-ca-impozitul-pe-castigurile-prin-brokeri-din-ue-sa-scada-de-la-16-la-3-sau-6-la-fel-ca-prin-brokerii-romani-23271559",
+      "title": "Senatorul AUR Petrişor Peiu, acţionar la 20 de companii listate la bursă, propune ca impozitul pe câştigurile prin brokeri din UE să scadă de la 16% la 3% sau 6%, la fel ca prin brokerii români",
+      "outlet": "Ziarul Financiar",
+      "domain": "zf.ro",
+      "publishedAt": "2026-10-31",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Proiectul a fost publicat vineri pe site-ul AUR şi este susţinut de 61 de parlamentari ai partidului.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-02",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-02",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.777,
+            "source": "national_news",
+            "sourceP": 0.497,
+            "about": 0.969,
+            "release": 0.043
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.65,
+            "source": "party_or_politician",
+            "sourceP": 0.272,
+            "about": 0.881,
+            "release": 0.269
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.94,
+            "source": "trade_press",
+            "sourceP": 0.96,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    }
+  ],
+  "pending": [
+    {
+      "url": "https://www.comisarul.ro/articol/proiect-de-lege-controversat-al-liderului-aur-petr_1645038.html",
+      "title": "Proiect de lege controversat al liderului AUR Petrişor Peiu, acţionar la 20 de companii listate la bursă",
+      "outlet": "comisarul.ro",
+      "domain": "comisarul.ro",
+      "publishedAt": "2026-11-01",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Pentru a corecta această situație, inițiativa propune completarea Codului fiscal cu un articol nou, 96^2.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-02",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-02",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.616,
+            "source": "national_news",
+            "sourceP": 0.453,
+            "about": 0.962,
+            "release": 0.05
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.501,
+            "source": "party_or_politician",
+            "sourceP": 0.393,
+            "about": 0.867,
+            "release": 0.223
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.88,
+            "source": "aggregator",
+            "sourceP": 0.82,
+            "about": 0.99,
+            "release": 0.02
+          }
+        }
+      }
+    },
+    {
+      "url": "https://financiarul.ro/economie/petrisor-peiu-propune-impozit-de-3-sau-6-in-loc-de-16-pe-castigurile-prin-brokeri-din-ue-si-see-fara-sediu-permanent-in-romania-dar-fara-scaderea-pierderilor",
+      "title": "Petrișor Peiu propune impozit de 3% sau 6%, în loc de 16%, pe câștigurile prin brokeri din UE și SEE fără sediu permanent în România, dar fără scăderea pierderilor",
+      "outlet": "Financiarul",
+      "domain": "financiarul.ro",
+      "publishedAt": "2026-10-31",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Proiectul introduce un articol nou, 96^2, pentru brokerii din UE și SEE fără sediu permanent în România.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-02",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-02",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.763,
+            "source": "trade_press",
+            "sourceP": 0.545,
+            "about": 0.97,
+            "release": 0.031
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.561,
+            "source": "trade_press",
+            "sourceP": 0.564,
+            "about": 0.867,
+            "release": 0.245
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.94,
+            "source": "trade_press",
+            "sourceP": 0.83,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
+      "url": "https://flux24.ro/liderul-aur-petrisor-peiu-a-facut-proiect-de-lege-ca-sa-castige-mai-multi-bani-pe-bursa",
+      "title": "Liderul AUR Petrișor Peiu a făcut proiect de lege ca să câstige mai mulți bani pe Bursă",
+      "outlet": "Flux24.ro",
+      "domain": "flux24.ro",
+      "publishedAt": "2026-10-31",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Proiectul a fost publicat vineri pe site-ul AUR şi este susţinut de 61 de parlamentari ai partidului.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-02",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-02",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.812,
+            "source": "national_news",
+            "sourceP": 0.621,
+            "about": 0.95,
+            "release": 0.074
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.691,
+            "source": "party_or_politician",
+            "sourceP": 0.314,
+            "about": 0.818,
+            "release": 0.321
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.76,
+            "source": "aggregator",
+            "sourceP": 0.91,
+            "about": 0.99,
+            "release": 0.03
+          }
+        }
+      }
+    }
+  ]
 }

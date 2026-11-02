@@ -1,0 +1,112 @@
+{
+  "slug": "plx-271-2026",
+  "billId": "Pl-x 271/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T18:15:48.859Z",
+  "inputHash": "c62ec07a8ffa",
+  "riskScore": 5.3,
+  "summary": "Un scop de sănătate publică legitim, dar prea larg și scris în grabă: scumpește multe alimente, nu doar pâinea, și are erori de calendar și de coerență.",
+  "good": [
+    {
+      "text": "Coboară pragul de zahăr pentru TVA redus. Producătorii sunt astfel împinși să pună mai puțin zahăr în alimente, așa cum cere scopul de sănătate publică.",
+      "article": "art. unic",
+      "quote": "alimentelor cu zahăr adăugat, al căror conținut total de zahăr este de minimum 5 g/100 g produs",
+      "weight": 2
+    },
+    {
+      "text": "Cele două condiții trebuie îndeplinite împreună. Alimentele fără zahăr adăugat, ca fructele sau laptele simplu, păstrează TVA redus chiar dacă au zaharuri naturale.",
+      "article": "art. unic",
+      "quote": "alimentelor cu zahăr adăugat, al căror conținut total de zahăr",
+      "weight": 2
+    },
+    {
+      "text": "Laptele praf pentru bebeluși și copii mici rămâne cu TVA redus. Familiile cu copii mici nu plătesc mai mult pentru acest produs.",
+      "article": "art. unic",
+      "quote": "altele decât laptele praf pentru nou-născuți, sugari și copii de vârstă mică",
+      "weight": 2
+    },
+    {
+      "text": "Produsele care nu sunt reformulate trec la TVA standard, ceea ce poate aduce bani în plus la buget.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Pragul este un număr clar, ușor de verificat pe eticheta nutrițională, care este deja obligatorie.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Expunerea de motive vorbește doar despre pâine, dar pragul nou se aplică tuturor alimentelor cu zahăr adăugat. Cele între 5 și 10 g trec de la 11% la 21% TVA, o scumpire de circa 9%.",
+      "article": "art. unic",
+      "quote": "alimentelor cu zahăr adăugat, al căror conținut total de zahăr este de minimum 5 g/100 g produs",
+      "weight": 3
+    },
+    {
+      "text": "Se socotește zahărul total, inclusiv cel natural. Un iaurt cu puțin zahăr adăugat (laptele are deja ~4,7 g lactoză) sau un sos de roșii trece ușor de 5 g și se scumpește.",
+      "article": "art. unic",
+      "quote": "al căror conținut total de zahăr este de minimum 5 g/100 g produs, altele decât laptele praf",
+      "weight": 3
+    },
+    {
+      "text": "Legea intră în vigoare după 60 de zile. Codul fiscal cere minimum 6 luni și aplicare de la 1 ianuarie pentru creșteri de taxe, iar abaterea nu este justificată.",
+      "article": "art. 3",
+      "quote": "Prezenta lege intră în vigoare la 60 de zile de la data publicării în Monitorul Oficial al României, Partea I.",
+      "weight": 3
+    },
+    {
+      "text": "Guvernul trebuie să stabilească procentul de zahăr adăugat, deși legea folosește zahărul total. Contradicția deschide loc pentru norme care schimbă criteriul stabilit de lege.",
+      "article": "art. 2",
+      "quote": "în vederea stabilirii procedurilor detaliate de determinare a procentului de zaharuri adăugate și a oricăror alte prevederi necesare aplicării prezentei legi",
+      "weight": 2
+    },
+    {
+      "text": "Normele pot apărea până la 30 de zile după intrarea în vigoare. Firmele ar aplica pragul nou fără reguli clare, cu risc de amenzi și interpretări diferite.",
+      "article": "art. 2",
+      "quote": "În termen de 30 de zile de la intrarea în vigoare a prezentei legi, Guvernul va modifica și completa normele metodologice",
+      "weight": 2
+    },
+    {
+      "text": "Expunerea de motive descrie greșit regula actuală, ca prag de zahăr adăugat, deși legea se referă la zahărul total. Motivarea nu se potrivește cu textul votat.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Nu există nicio estimare a efectului asupra prețurilor și a bugetului. Scumpirea alimentelor de bază lovește mai tare familiile sărace.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Argumentul cu Ordinul ANPC compară două lucruri diferite: zahăr în substanța uscată față de zahăr la 100 g produs. Cele două praguri de 5% nu sunt echivalente.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Legea începe cu „Articol unic”, apoi continuă cu Art. 2 și Art. 3. Este o greșeală de redactare; corect ar fi Art. I–III.",
+      "article": "art. unic, art. 2, art. 3",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Art. 3 să prevadă intrarea în vigoare de la 1 ianuarie, la cel puțin 6 luni de la publicare; Art. 2 să se refere la zahărul total și să ceară normele înainte de intrarea în vigoare.",
+    "removes": [
+      2,
+      3,
+      4
+    ],
+    "levelAfter": "yellow",
+    "scoreAfter": 4
+  },
+  "quotes": {
+    "checked": 12,
+    "verified": 8
+  }
+}

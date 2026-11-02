@@ -1,0 +1,107 @@
+{
+  "slug": "plx-393-2026",
+  "billId": "Pl-x 393/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T18:34:14.859Z",
+  "inputHash": "b35c80806f19",
+  "riskScore": 4,
+  "summary": "O protecție utilă pentru datornicii cu venituri mici, dar scrisă într-o singură frază care lovește pensia alimentară a copiilor și creează un prag brusc la 5.000 lei.",
+  "good": [
+    {
+      "text": "Când un om cu venit net de cel mult 5.000 lei are mai mulți creditori, i se pot lua cel mult 30% din venit, nu 50% ca acum. Îi rămân cel puțin 70% pentru traiul zilnic.",
+      "article": "art. unic (art. 729 alin. (2¹) CPC)",
+      "quote": "dacă sunt mai multe urmăriri asupra aceleiași sume, urmărirea nu poate depăși 30% din venitul lunar net al debitorului",
+      "weight": 3
+    },
+    {
+      "text": "Protecția se aplică doar veniturilor mici și medii, sub salariul mediu. Cei cu venituri mari rămân la regula de acum, deci creditorii nu pierd peste tot.",
+      "article": "art. unic (art. 729 alin. (2¹) CPC)",
+      "quote": "în cazul în care venitul lunar net al debitorului este mai mic sau egal cu 5.000 de lei",
+      "weight": 2
+    },
+    {
+      "text": "Regula nouă se adaugă, nu înlocuiește nimic. Protecția mai mare pentru cei sub salariul minim (alin. 3) și regulile speciale din alte legi rămân în vigoare.",
+      "article": "art. unic (art. 729 alin. (2¹) CPC)",
+      "quote": "Prin derogare de la alin. (2), în cazul în care venitul lunar net al debitorului este mai mic sau egal cu 5.000 de lei",
+      "weight": 1
+    },
+    {
+      "text": "Regula este simplă: un prag și un procent. Angajatorii și executorii o pot calcula ușor, fără proceduri noi, taxe sau formulare.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Statul nu are de făcut cheltuieli noi din buget ca să aplice legea.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Prin „indiferent de natura creanțelor”, plafonul de 30% prinde și pensia alimentară. Dacă mai apare un creditor, copiii pot primi mai puțin decât azi, când se poate ajunge la 50%.",
+      "article": "art. unic (art. 729 alin. (2¹) CPC)",
+      "quote": "urmărirea nu poate depăși 30% din venitul lunar net al debitorului, indiferent de natura creanțelor",
+      "weight": 3
+    },
+    {
+      "text": "Pragul e brusc: la 5.000 lei se iau maximum 1.500 lei, la 5.001 lei se pot lua până la ~2.500 lei. O mărire de 1 leu poate costa ~1.000 lei lunar și împinge spre munca la negru.",
+      "article": "art. unic (art. 729 alin. (2¹) CPC)",
+      "quote": "în cazul în care venitul lunar net al debitorului este mai mic sau egal cu 5.000 de lei",
+      "weight": 3
+    },
+    {
+      "text": "Cine are o singură datorie poate plăti mai mult (o treime, iar pentru întreținere jumătate) decât cine are mai multe (30%). Asta e nedrept și poate încuraja o a doua datorie fictivă.",
+      "article": "art. unic (art. 729 alin. (2¹) CPC) raportat la art. 729 alin. (1)",
+      "quote": "dacă sunt mai multe urmăriri asupra aceleiași sume, urmărirea nu poate depăși 30% din venitul lunar net al debitorului",
+      "weight": 2
+    },
+    {
+      "text": "Nu e clar dacă pragul de 5.000 lei privește tot venitul omului sau doar salariul de la un loc. Cine are două joburi de câte 4.000 lei ar putea primi protecția deși câștigă 8.000.",
+      "article": "art. unic (art. 729 alin. (2¹) CPC)",
+      "quote": "venitul lunar net al debitorului este mai mic sau egal cu 5.000 de lei",
+      "weight": 2
+    },
+    {
+      "text": "Pragul de 5.000 lei e o sumă fixă, nelegată de salariul minim, cum e alin. (3). Odată cu creșterea salariilor și cu inflația, tot mai puțini oameni vor fi protejați.",
+      "article": "art. unic (art. 729 alin. (2¹) CPC)",
+      "quote": "este mai mic sau egal cu 5.000 de lei, dacă sunt mai multe urmăriri asupra aceleiași sume",
+      "weight": 2
+    },
+    {
+      "text": "La venituri care variază de la o lună la alta, cum sunt sporurile sau primele, omul poate trece lunar de la 30% la 50%. Calculul devine greu de urmărit și duce la dispute.",
+      "article": "art. unic (art. 729 alin. (2¹) CPC)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Legea nu spune ce se întâmplă cu popririle deja începute. Unii oameni pot rămâne la 50%, iar alții, în aceeași situație, trec la 30%.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Plafonul poate încetini și recuperarea datoriilor către stat (taxe, amenzi), iar efectul asupra bugetului nu a fost calculat.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Pensia alimentară trebuie scoasă din plafonul de 30%. Plafonul nu trebuie să depășească limita pentru o singură datorie. Saltul de la 5.000 lei trebuie înlocuit cu o garanție de 3.500 lei rămași, iar pragul trebuie legat de salariul minim.",
+    "removes": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "levelAfter": "yellow",
+    "scoreAfter": 2.5
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 8
+  }
+}

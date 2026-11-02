@@ -1,0 +1,99 @@
+{
+  "slug": "plx-265-2026",
+  "billId": "Pl-x 265/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T18:15:01.571Z",
+  "inputHash": "dd60b4a87024",
+  "riskScore": 5.3,
+  "summary": "Un scop corect pentru cei cu cariere în două sisteme de pensii, stricat de o formulare care poate duce la plată dublă și de o prevedere străină despre ajutorul la energie.",
+  "good": [
+    {
+      "text": "Cine a lucrat în condiții deosebite sau speciale și în sistemul public, și într-o casă separată poate primi reducerea vârstei de pensionare adunând anii din ambele sisteme.",
+      "article": "art. I pct. 2 (art. 162 alin. (1²))",
+      "quote": "Persoanele care au realizat cumulat în cele două sisteme numărul de ani necesar stagiului complet de cotizare contributive, au dreptul la pensie pentru limită de vârstă",
+      "weight": 3
+    },
+    {
+      "text": "Anii din casele de pensii separate se adună cu cei din sistemul public pentru pragul de 25 de ani la punctele de stabilitate, ca oamenii cu cariere mixte să nu piardă bonusul.",
+      "article": "art. I pct. 2 (art. 162 alin. (1¹))",
+      "quote": "în cazul în care au realizat în cele două sisteme cumulat stagiu de cotizare contributiv pentru o perioadă mai mare de 25 de ani",
+      "weight": 2
+    },
+    {
+      "text": "Guvernul are un termen fix de 60 de zile ca să schimbe normele de aplicare, deci schimbarea nu rămâne doar pe hârtie.",
+      "article": "art. II",
+      "quote": "În termen de 60 zile de la data intrării în vigoare a prezentei legi, Guvernul va modifica în mod corespunzător Normele metodologice",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Dispare cuvântul „numai”: statul ar calcula pensia publică și pentru anii plătiți la alte case, care își plătesc propria pensie pentru aceiași ani. Se pot plăti de două ori aceiași ani, din bani publici.",
+      "article": "art. I pct. 1 (art. 162 alin. (1))",
+      "quote": "În aceste situații, pensia din sistemul public de pensii se stabilește pentru perioadele de stagiu de cotizare realizate în oricare dintre sisteme.",
+      "weight": 3
+    },
+    {
+      "text": "Art. 48 alin. (2) rămâne neschimbat și spune exact opusul: reducerea vârstei se dă numai pentru anii din sistemul public. Două reguli contrare blochează aplicarea.",
+      "article": "art. I pct. 2 (art. 162 alin. (1²))",
+      "quote": "cu reducerea vârstelor standard de pensionare, în condițiile prevăzute la art. 48 alin. (1) lit. a) și b)",
+      "weight": 3
+    },
+    {
+      "text": "Ajutorul pentru sărăcie energetică se dă după venit, nu după anii de cotizare. Legea nu spune care e proporția și schimbă pe ocolite o ordonanță străină de pensii.",
+      "article": "art. I pct. 2 (art. 162 alin. (1³))",
+      "quote": "Persoanele, care au contribuit în sistemul public de pensii și/sau în sistemele proprii de asigurări sociale neintegrate acestuia beneficiază proporțional de drepturi sociale prevăzute la Ordonanță de urgență 35/2025",
+      "weight": 3
+    },
+    {
+      "text": "Nu spune cine plătește partea de puncte de stabilitate pentru casa separată, după ce formulă, nici ce se face cu anii suprapuși. Art. 85 alin. (4), care limitează la sistemul public, rămâne neschimbat.",
+      "article": "art. I pct. 2 (art. 162 alin. (1¹))",
+      "quote": "punctele de stabilitate se acordă proporțional cu stagiul de cotizare din fiecare sistem",
+      "weight": 2
+    },
+    {
+      "text": "Proiectul crește cheltuielile cu pensiile, dar nu arată nici cât costă, nici de unde vin banii, cum cere Constituția pentru orice cheltuială nouă.",
+      "article": "art. I (ansamblu)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Pensia anticipată, reducerile pentru mame cu mai mulți copii, persoane cu handicap sau persecutați politic sunt promise în motivare, dar nu apar în niciun articol.",
+      "article": "art. I (ansamblu)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Nu spune ce se întâmplă cu pensiile deja în plată: dacă se recalculează, de când și la cererea cui. Asta poate duce la tratament inegal și la procese.",
+      "article": "art. I (ansamblu)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Dispare precizarea că anii se recunosc „în vederea deschiderii drepturilor de pensie”, deci nu mai e clar pentru ce anume se recunosc.",
+      "article": "art. I pct. 1 (art. 162 alin. (1))",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Textul are greșeli de redactare („stagile”, „se introduce trei noi alineate”, „contributive”), care slăbesc claritatea legii.",
+      "article": "art. I pct. 2",
+      "quote": "La articolul 162 după alin. (1) se introduce trei noi alineate cu următorul cuprins",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Păstrează „numai” în art. 162 alin. (1), scoate alin. (1³) despre energie și modifică în paralel art. 48 alin. (2) și art. 85 alin. (4), ca să nu contrazică noile reguli.",
+    "removes": [
+      0,
+      2
+    ],
+    "levelAfter": "yellow",
+    "scoreAfter": 3.5
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 8
+  }
+}

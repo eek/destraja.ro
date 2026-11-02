@@ -1,0 +1,175 @@
+{
+  "slug": "plx-275-2026",
+  "billId": "Pl-x 275/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T18:17:28.844Z",
+  "inputHash": "821a0ca875b1",
+  "riskScore": 5.7,
+  "summary": "O idee legitimă, cu limite bune (doar comisioane, prag de 750 mil. euro, cotă de 2%), dar redactată superficial: localizarea, contribuabilul, scutirea pentru rezidenți și dubla impunere au goluri în mai multe articole.",
+  "good": [
+    {
+      "text": "Taxa se aplică doar comisionului încasat de platformă, nu valorii întregi a comenzii, a cursei sau a rezervării.",
+      "article": "art. 4 alin. (1)-(2)",
+      "quote": "Baza de calcul a contribuției o reprezintă veniturile brute din comisioanele de intermediere digitală aferente tranzacțiilor realizate pe territoriul României.",
+      "weight": 3
+    },
+    {
+      "text": "Doar grupurile foarte mari, cu peste 750 de milioane de euro venituri anuale, plătesc. Firmele mici și mijlocii și start-up-urile sunt în afara taxei.",
+      "article": "art. 3 alin. (1) lit. a)",
+      "quote": "realizează venituri globale consolidate mai mari de 750 milioane euro în anul fiscal precedent",
+      "weight": 3
+    },
+    {
+      "text": "Plătește firma care controlează efectiv serviciul, chiar dacă banii sunt încasați prin altă entitate. Asta limitează mutarea veniturilor pe firme-paravan.",
+      "article": "art. 6 alin. (1)",
+      "quote": "Obligația de plată a contribuției revine platformei digitale care controlează sau exploatează economic serviciul de intermediere, indiferent de entitatea juridică prin care sunt încasate veniturile",
+      "weight": 2
+    },
+    {
+      "text": "Taxa se administrează după Codul de procedură fiscală, deci platformele păstrează garanțiile obișnuite: contestații, termene, reguli de control.",
+      "article": "art. 7 alin. (2)",
+      "quote": "se administrează potrivit dispozițiilor Codului fiscal și Codului de procedură fiscală, în măsura în care prezenta lege nu prevede altfel",
+      "weight": 2
+    },
+    {
+      "text": "Cota de 2% este moderată, sub nivelul din Franța (3%), deci apasă mai puțin pe piață.",
+      "article": "art. 5",
+      "quote": "Contribuția asupra veniturilor din intermediere digitală se stabilește la nivelul de 2% din baza de calcul prevăzută la art. 4.",
+      "weight": 2
+    },
+    {
+      "text": "Cele 9 luni până la intrarea în vigoare dau timp platformelor și ANAF să se pregătească.",
+      "article": "art. 10",
+      "quote": "Prezenta lege intră în vigoare la 9 luni de la data publicării în Monitorul Oficial al României, Partea I.",
+      "weight": 2
+    },
+    {
+      "text": "Persoanele fizice și serviciile digitale care nu intermediază tranzacții între terți (de exemplu, vânzarea de abonamente proprii) nu sunt taxate.",
+      "article": "art. 3 alin. (2) lit. a) și c)",
+      "quote": "serviciilor digitale care nu presupun intermedierea unei tranzacții economice între terți",
+      "weight": 1
+    },
+    {
+      "text": "Platformele străine trebuie să numească un reprezentant fiscal în România, ceea ce face taxa colectabilă în practică.",
+      "article": "art. 7 alin. (3)",
+      "quote": "Platformele digitale nerezidente au obligația de a desemna un reprezentant fiscal în România",
+      "weight": 1
+    },
+    {
+      "text": "Același venit nu e taxat de două ori în România dacă e deja impozitat printr-un regim echivalent.",
+      "article": "art. 8",
+      "quote": "Contribuția prevăzută de prezenta lege nu se aplică veniturilor pentru care se face dovada impozitării effective în România",
+      "weight": 1
+    },
+    {
+      "text": "Taxa e declarată temporară și legată de soluția internațională OCDE, deci nu e gândită ca o povară permanentă.",
+      "article": "art. 9",
+      "quote": "va fi reevaluată în funcție de evoluțiile cadrului fiscal european și internațional privind economia digitală, inclusiv în contextul implementării Pilonului Unu OCDE",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Legea nu spune cum se stabilește că o parte „se află” în România (IP, adresă, cont, card). Astfel, se poate taxa și rezervarea făcută din România pentru un hotel din Italia.",
+      "article": "art. 2 lit. b)",
+      "quote": "intermedierea tranzacțiilor în care cel puțin una dintre părți se află pe territoriul României ori bunul sau serviciul este livrat sau prestat în România",
+      "weight": 3
+    },
+    {
+      "text": "Dubla impunere e evitată doar în interiorul României. Același comision poate fi taxat și aici, și în Franța, Italia sau Spania, fără reguli de împărțire.",
+      "article": "art. 8 coroborat cu art. 2 lit. b)",
+      "quote": null,
+      "weight": 3
+    },
+    {
+      "text": "Scutirea pentru „rezidenți în România” contrazice art. 1 („indiferent de rezidență”). Poate fi citită ca favorizare a firmelor locale, contestabilă după dreptul UE.",
+      "article": "art. 3 alin. (2) lit. b)",
+      "quote": "operatorilor economici rezidenți în România pentru activitățile desfășurate în nume propriu",
+      "weight": 3
+    },
+    {
+      "text": "Nu există un prag minim de venituri în România. Un grup mare cu doar câteva mii de euro comisioane aici ar avea declarații trimestriale și reprezentant fiscal.",
+      "article": "art. 3 alin. (1) lit. b)",
+      "quote": "obțin venituri din intermediere digitală aferente tranzacțiilor realizate pe territoriul României",
+      "weight": 2
+    },
+    {
+      "text": "„Platforma” e definită ca infrastructură, nu ca firmă. Nu e clar cine plătește când o firmă controlează serviciul și alta îl exploatează.",
+      "article": "art. 2 lit. a) și art. 6 alin. (1)",
+      "quote": "orice infrastructură digitală care, prin intermediul tehnologiei informației, pune în legătură utilizatori în scopul realizării unei tranzacții economice",
+      "weight": 2
+    },
+    {
+      "text": "Nu e clar dacă „venituri globale consolidate” înseamnă ale firmei sau ale grupului, după ce reguli contabile se calculează și la ce curs se convertesc în euro.",
+      "article": "art. 3 alin. (1) lit. a)",
+      "quote": "realizează venituri globale consolidate mai mari de 750 milioane euro în anul fiscal precedent",
+      "weight": 2
+    },
+    {
+      "text": "Definiția prinde aproape orice intermediere contra cost, inclusiv servicii financiare și de plată deja reglementate. Modelul francez și propunerea UE le excludeau.",
+      "article": "art. 2 lit. a)",
+      "quote": "percepe un comision, tarif sau altă formă de remunerație pentru serviciul de intermediere",
+      "weight": 2
+    },
+    {
+      "text": "„Regim fiscal echivalent, asupra aceleiași baze” e vag. Nu se știe dacă impozitul pe profit sau impozitul minim pe cifra de afaceri plătit de filiala din România contează.",
+      "article": "art. 8",
+      "quote": "dovada impozitării effective în România, în baza unui regim fiscal echivalent, asupra aceleiași baze de calcul",
+      "weight": 2
+    },
+    {
+      "text": "Art. 2 vorbește de comisioane, tarife și alte plăți, dar art. 4 taxează doar comisioanele. Lipsesc reguli pentru abonamente, anulări, rambursări și banii încasați pentru alții.",
+      "article": "art. 2 lit. c) și art. 4 alin. (1)",
+      "quote": "veniturile brute reprezentând comisioane, tarife sau alte forme de remunerație percepute de platforma digitală pentru serviciile de intermediere",
+      "weight": 2
+    },
+    {
+      "text": "Protecția restaurantelor, șoferilor, gazdelor și clienților e doar declarativă: nimic nu împiedică platformele să-și mărească comisioanele ca să recupereze taxa.",
+      "article": "art. 4 alin. (2)",
+      "quote": "nu poate fi recalificată ca taxă asupra consumatorului final sau asupra prestatorilor de servicii ori furnizorilor de bunuri intermediati",
+      "weight": 2
+    },
+    {
+      "text": "ANAF poate estima baza „pe datele disponibile”, fără să se spună ce date. Riscul e atenuat parțial de regulile generale din Codul de procedură fiscală.",
+      "article": "art. 6 alin. (3)",
+      "quote": "organul fiscal competent poate determina baza de calcul prin estimare, pe baza datelor disponibile privind tranzacțiile intermediate",
+      "weight": 1
+    },
+    {
+      "text": "Condițiile pentru reprezentantul fiscal sunt lăsate integral la decizia ANAF, fără criterii în lege.",
+      "article": "art. 7 alin. (3)",
+      "quote": "au obligația de a desemna un reprezentant fiscal în România, în condițiile stabilite de Agenția Națională de Administrare Fiscală",
+      "weight": 1
+    },
+    {
+      "text": "Formula anti-evitare e foarte largă și nu spune cine dovedește „scopul evitării”, ceea ce lasă loc de reîncadrări arbitrare.",
+      "article": "art. 6 alin. (2)",
+      "quote": "Recalificarea contractuală a serviciilor, fragmentarea artificială a activității sau utilizarea unor structuri juridice cu scopul evitării contribuției nu produc efecte juridice",
+      "weight": 1
+    },
+    {
+      "text": "Taxa e „tranzitorie”, dar nu are o dată de expirare sau o condiție clară de încetare. Doar „va fi reevaluată”.",
+      "article": "art. 9",
+      "quote": "Prezenta contribuție are caracter tranzitoriu și va fi reevaluată în funcție de evoluțiile cadrului fiscal european și internațional",
+      "weight": 1
+    },
+    {
+      "text": "Taxa nouă e pusă într-o lege separată, în afara Codului fiscal. Intrarea în vigoare nu e legată de 1 ianuarie și nu există reguli pentru primul trimestru incomplet.",
+      "article": "art. 7 alin. (2) și art. 10",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Estimarea de 200–400 milioane lei pe an nu are surse sau calcul prezentate, așa că efectul bugetar nu poate fi verificat.",
+      "article": "expunerea de motive, pct. III",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": null,
+  "quotes": {
+    "checked": 24,
+    "verified": 23
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "plx-279-2026",
+  "billId": "Pl-x 279/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T18:17:57.314Z",
+  "inputHash": "26f8b5de4745",
+  "riskScore": 4,
+  "summary": "O clarificare utilă ca intenție, dar formulată atât de neclar încât creează mai multă incertitudine decât rezolvă; problemele sunt concentrate în două fraze care se pot repara.",
+  "good": [
+    {
+      "text": "Legea intră în vigoare abia după 6 luni, deci furnizorii și clienții au timp să se pregătească. Asta respectă regula din Codul fiscal privind previzibilitatea schimbărilor fiscale.",
+      "article": "art. II alin. (1)",
+      "quote": "Prezenta lege intră în vigoare la 6 luni de la data publicării în Monitorul Oficial al României, Partea I.",
+      "weight": 3
+    },
+    {
+      "text": "Textul interzice expres recalcularea facturilor din trecut, așa că nimeni nu poate primi diferențe de TVA pentru perioade deja închise.",
+      "article": "art. II alin. (2) teza a II-a",
+      "quote": "Pentru contractele în derulare, cota de TVA se determină potrivit regulii faptului generator, fără recalculări retroactive pentru perioade anterioare.",
+      "weight": 3
+    },
+    {
+      "text": "La utilitățile cu contor, consumul făcut înainte de o majorare a TVA ar fi taxat cu cota veche, chiar dacă factura vine după majorare. Asta e corect pentru consumatori.",
+      "article": "art. I (art. 281 alin. (8))",
+      "quote": "iar cota de taxă pe valoarea adăugată aplicabilă este cea în vigoare la momentul prestării/consumului efectiv",
+      "weight": 2
+    },
+    {
+      "text": "Se păstrează limita de un an pentru perioada de decontare, deci furnizorii nu pot amâna TVA la nesfârșit prin contracte cu plăți foarte rare.",
+      "article": "art. I (art. 281 alin. (8)) teza finală",
+      "quote": "Perioada de decontare nu poate depăși un an.",
+      "weight": 1
+    },
+    {
+      "text": "Proiectul nu introduce taxe noi, autorizații sau declarații suplimentare pentru cetățeni.",
+      "article": "întregul proiect",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Textul se contrazice singur. Livrarea se consideră făcută la data de plată din contract, dar cota se ia de la data consumului. Nu spune cum se împarte o factură când cota se schimbă la mijlocul lunii.",
+      "article": "art. I (art. 281 alin. (8))",
+      "quote": "se consideră că livrarea de bunuri/prestarea de servicii este efectuată la fiecare dată prevăzută în contract pentru plata bunurilor livrate/serviciilor prestate",
+      "weight": 3
+    },
+    {
+      "text": "Dispare regula de rezervă care folosea data facturii când contractul nu are o dată de plată. Pentru astfel de contracte, legea nu mai spune când are loc livrarea.",
+      "article": "art. I (art. 281 alin. (8))",
+      "quote": null,
+      "weight": 3
+    },
+    {
+      "text": "Regula de tranziție se poate citi în două feluri. Abonații vechi ar putea rămâne pe regimul vechi, iar cei noi trec pe cel nou, deci două regimuri pentru același serviciu.",
+      "article": "art. II alin. (2)",
+      "quote": "Dispozițiile art. I se aplică operațiunilor pentru care faptul generator intervine după data intrării în vigoare a prezentei legi.",
+      "weight": 3
+    },
+    {
+      "text": "La chirii, leasing, concesiuni, arendă, uzufruct sau superficie nu există un consum măsurabil. Regula cotei după consum nu are aici niciun înțeles practic.",
+      "article": "art. I (art. 281 alin. (8))",
+      "quote": "de închiriere, de leasing, de concesionare, de arendare de bunuri, de acordare cu plată pentru o anumită perioadă a unor drepturi reale",
+      "weight": 2
+    },
+    {
+      "text": "Proiectul nu e corelat cu articolele din Codul fiscal despre cota de TVA, avansuri și regularizări la schimbarea cotei (art. 282 și 291). Pot apărea reguli contradictorii și litigii.",
+      "article": "art. I (art. 281 alin. (8))",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Directiva UE privind TVA (art. 93) cere cota în vigoare la data faptului generator. Legarea cotei de alt moment, consumul, riscă un conflict cu dreptul UE, deși expunerea pretinde contrariul.",
+      "article": "art. I (art. 281 alin. (8))",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Furnizorii trebuie să-și adapteze programele de facturare și să justifice cum au împărțit consumul, ceea ce e mai greu pentru firmele mici. Impactul bugetar nu e estimat deloc.",
+      "article": "întregul proiect",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Motivarea pornește de la fapte inexacte: majorarea TVA la 21% s-a aplicat din 1 august 2025. Iar regula actuală nu permitea o alegere liberă între factură și consum.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Trebuie păstrată regula de rezervă a facturii și precizat cum se împarte consumul între două cote (după index sau pe zile). Regula cotei după consum trebuie limitată la utilitățile contorizate și corelată cu art. 282 și 291. Art. II alin. (2) trebuie reformulat ca un singur regim pentru toate contractele.",
+    "removes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 7
+  }
+}

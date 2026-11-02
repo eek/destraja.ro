@@ -1,0 +1,107 @@
+{
+  "slug": "plx-315-2026",
+  "billId": "Pl-x 315/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T18:22:39.006Z",
+  "inputHash": "d6aee15c797f",
+  "riskScore": 4,
+  "summary": "O prelungire cu scop practic rezonabil, dar redactată neglijent: fără dată-limită pentru construcții și fără reguli de tranziție, poate legaliza și abuzuri viitoare.",
+  "good": [
+    {
+      "text": "Redeschide calea de a scoate din circuitul agricol terenurile din extravilan cu case deja construite, așa că proprietarii blocați își pot regla actele.",
+      "article": "art. unic",
+      "quote": "Dispozițiile alineatului (1) al articolului II din Legea nr.186/2017 pentru modificarea și completarea Legii fondului funciar nr.18/1991",
+      "weight": 2
+    },
+    {
+      "text": "Păstrează tariful triplu din legea veche. Cine a construit fără aprobare plătește mai mult, iar bugetul încasează bani în loc să rămână situații ilegale.",
+      "article": "art. unic (prin trimitere la art. II alin. (1) din Legea nr. 186/2017)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Măsura e temporară, limitată la 5 ani, nu o derogare permanentă de la protecția terenului agricol.",
+      "article": "art. unic",
+      "quote": "se aplică pe o perioadă de 5 ani de la data intrării în vigoare a prezentei legi.",
+      "weight": 1
+    },
+    {
+      "text": "Nu introduce amenzi, taxe sau obligații noi pentru cetățeni ori firme.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Nu cere ca locuința să fi fost construită înainte de o anumită dată. Și clădirile ridicate ilegal de acum încolo pot fi legalizate cu tarif triplu, ceea ce încurajează abuzurile pe teren agricol.",
+      "article": "art. unic",
+      "quote": "se aplică pe o perioadă de 5 ani de la data intrării în vigoare a prezentei legi.",
+      "weight": 3
+    },
+    {
+      "text": "Reînvie o regulă al cărei termen a expirat la 12.12.2025 în loc să scrie o regulă nouă, de sine stătătoare. Asta e tehnică legislativă greșită și dă loc la contestații.",
+      "article": "art. unic",
+      "quote": "Dispozițiile alineatului (1) al articolului II din Legea nr.186/2017 pentru modificarea și completarea Legii fondului funciar nr.18/1991",
+      "weight": 2
+    },
+    {
+      "text": "Nu spune ce se întâmplă cu cererile depuse înainte de expirare și nesoluționate sau respinse, nici cu intervalul fără lege de după 12.12.2025.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Formula finală o declară lege ordinară (art. 76 alin. (2)), deși privește regimul proprietății și fondul funciar, materie de lege organică. Aceasta e o posibilă neconstituționalitate.",
+      "article": "formula de atestare",
+      "quote": "Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.",
+      "weight": 2
+    },
+    {
+      "text": "Este al treilea termen în 9 ani (2+5+5). Excepția devine regulă, iar oamenii învață că o prelungire vine mereu.",
+      "article": "art. unic",
+      "quote": "se aplică pe o perioadă de 5 ani de la data intrării în vigoare a prezentei legi.",
+      "weight": 2
+    },
+    {
+      "text": "Textul nu spune ce se permite, ci trimite la altă lege. Ca să-l înțelegi, trebuie citite trei legi: 186/2017, 287/2020 și cea nouă.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Nu precizează că scoaterea terenului din circuitul agricol nu înlocuiește autorizația de construire. Oamenii pot crede greșit că s-au legalizat complet.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Nu rezolvă cauzele invocate în motivare: cadastru lipsă, succesiuni nedezbătute, procese. Doar mută termenul mai încolo.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Nu spune ce se întâmplă cu dosarele încă nesoluționate la finalul noilor 5 ani, deci problema se poate repeta.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Articolul unic trebuie rescris ca normă nouă, de sine stătătoare, valabilă doar pentru construcțiile existente la 12.12.2025, cu reguli pentru cererile pendinte și respinse, iar formula finală trebuie corectată la art. 76 alin. (1).",
+    "removes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2.5
+  },
+  "quotes": {
+    "checked": 6,
+    "verified": 6
+  }
+}

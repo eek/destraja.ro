@@ -1,0 +1,101 @@
+{
+  "slug": "plx-417-2026",
+  "billId": "Pl-x 417/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T18:38:01.137Z",
+  "inputHash": "5a802016c161",
+  "riskScore": 4.3,
+  "summary": "Un scop util pentru fermieri, pus în practică printr-o singură literă scrisă vag și fără acordul UE de care are nevoie.",
+  "good": [
+    {
+      "text": "Fermierii înregistrați în scopuri de TVA nu mai plătesc dealerului 21% TVA la tractoare și utilaje noi. Taxa se declară și se deduce în același decont, deci nu le mai blochează bani.",
+      "article": "art. unic (art. 331 alin. (2) lit. m) Cod fiscal)",
+      "quote": "Alin (2) – m) livrările interne de tractoare și utilaje agricole noi.",
+      "weight": 3
+    },
+    {
+      "text": "Fermierii vor cere mai rar rambursări de TVA, deci au mai puține dosare și controale. ANAF are mai puțină muncă administrativă.",
+      "article": "art. unic (art. 331 alin. (2) lit. m) Cod fiscal)",
+      "quote": "Alin (2) – m) livrările interne de tractoare și utilaje agricole noi.",
+      "weight": 2
+    },
+    {
+      "text": "Cumpărarea de la un dealer din România devine la fel de avantajoasă ca de la unul din UE, unde fermierul deja nu avansează TVA. Asta ajută firmele locale.",
+      "article": "art. unic (art. 331 alin. (2) lit. m) Cod fiscal)",
+      "quote": "Alin (2) – m) livrările interne de tractoare și utilaje agricole noi.",
+      "weight": 2
+    },
+    {
+      "text": "Măsura nu scade TVA-ul încasat de stat, ci schimbă doar cine îl declară. Pentru cumpărătorii cu drept integral de deducere, bugetul nu pierde bani.",
+      "article": "art. unic (art. 331 alin. (2) lit. m) Cod fiscal)",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Tractoarele și utilajele agricole nu sunt pe lista UE de bunuri unde se poate aplica taxarea inversă. Fără o aprobare de la Consiliul UE, măsura încalcă Directiva TVA.",
+      "article": "art. unic (art. 331 alin. (2) lit. m) Cod fiscal)",
+      "quote": "Alin (2) – m) livrările interne de tractoare și utilaje agricole noi.",
+      "weight": 3
+    },
+    {
+      "text": "Nu e clar ce înseamnă „utilaje agricole”, pentru că nu sunt date coduri vamale (NC). Remorcile, dronele sau irigațiile rămân la aprecierea ANAF, cu risc de TVA în plus și penalități.",
+      "article": "art. unic (art. 331 alin. (2) lit. m) Cod fiscal)",
+      "quote": "Alin (2) – m) livrările interne de tractoare și utilaje agricole noi.",
+      "weight": 3
+    },
+    {
+      "text": "Legea nu are dată de aplicare, termenul de 6 luni cerut de Codul fiscal sau reguli pentru contractele în curs. Nici nu își condiționează aplicarea de aprobarea UE.",
+      "article": "art. unic (lipsă dispoziții tranzitorii)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Nu se spune când un utilaj e „nou”. Utilajele demonstrative, recondiționate sau cumpărate și revândute repede pot fi încadrate diferit la control.",
+      "article": "art. unic (art. 331 alin. (2) lit. m) Cod fiscal)",
+      "quote": "Alin (2) – m) livrările interne de tractoare și utilaje agricole noi.",
+      "weight": 2
+    },
+    {
+      "text": "Câștigul de 2 milioane EUR pe an promis la buget nu decurge din text. Taxarea inversă nu hotărăște în ce țară își înregistrează firmele profitul.",
+      "article": "art. unic (justificare bugetară)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "TVA-ul de recuperat poate trece de la fermieri la distribuitori, care plătesc în continuare TVA la propriile cheltuieli. Problema se mută, nu dispare.",
+      "article": "art. unic (art. 331 alin. (2) lit. m) Cod fiscal)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Micii fermieri neînregistrați în scopuri de TVA nu beneficiază de măsură. Ei plătesc TVA ca înainte, deci ajutorul merge doar la fermele mai mari.",
+      "article": "art. unic (art. 331 alin. (2) lit. m) Cod fiscal)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Formularea e neglijentă: legea spune că alineatul „se modifică”, deși doar adaugă o literă. Nici trimiterea „Alin (2) – m)” nu respectă tehnica legislativă.",
+      "article": "art. unic, partea introductivă",
+      "quote": "se modifică si se completeaza cu o nouă literă, litera m), care va avea următorul cuprins",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Lit. m) trebuie rescrisă: produsele să fie definite prin coduri NC și criterii pentru „nou”, aplicarea să fie condiționată de derogarea Consiliului UE (art. 395), iar intrarea în vigoare să fie la cel puțin 6 luni.",
+    "removes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "levelAfter": "yellow",
+    "scoreAfter": 2.5
+  },
+  "quotes": {
+    "checked": 7,
+    "verified": 7
+  }
+}

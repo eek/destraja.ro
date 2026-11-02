@@ -1,0 +1,1977 @@
+{
+ "descriere": "Harta site-urilor consiliilor județene, a CGMB și a consiliilor de sector, și a municipiilor reședință de județ: unde se publică proiectele de hotărâri și Monitorul Oficial Local. „verificat: true” = pagina s-a deschis de aici și am citit-o; restul vine doar din căutări sau lipsește.",
+ "verificat": "2026-11-02",
+ "metoda": "o cerere la 3 secunde pe host, User-Agent DeStraja/1.0; prima pagină, apoi pagina de proiecte și pagina MOL; formatul din linkurile de pe pagină și un PDF de probă (strat de text sau scanat); actualizarea estimată din datele vizibile pe pagini.",
+ "institutii": [
+  {
+   "id": "cj-ab",
+   "nume": "Consiliul Județean Alba",
+   "tip": "consiliu județean",
+   "judet": "AB",
+   "site": "https://judetul-alba.ro/",
+   "accesibil": false,
+   "eroare": "Cloudflare cere o verificare JavaScript (HTTP 403 „Just a moment…”); cjalba.ro redirecționează aici",
+   "proiecte": null,
+   "mol": null,
+   "verificat": false
+  },
+  {
+   "id": "cj-ar",
+   "nume": "Consiliul Județean Arad",
+   "tip": "consiliu județean",
+   "judet": "AR",
+   "site": "https://www.cjarad.ro/",
+   "accesibil": true,
+   "platforma": "WordPress",
+   "proiecte": {
+    "url": "https://www.cjarad.ro/activitate/hotarari/proiecte-de-hotarare/",
+    "verificat": true,
+    "documente": "PDF (2)",
+    "mostraPdf": "cu strat de text",
+    "ultimaData": "2026-11-02",
+    "dateUltimele90Zile": 3
+   },
+   "mol": {
+    "url": "https://www.cjarad.ro/monitorul-oficial-local/",
+    "verificat": true,
+    "ultimaData": "2020-08-31"
+   },
+   "actualizare": "lunar",
+   "rss": [
+    "https://www.cjarad.ro/feed/",
+    "https://www.cjarad.ro/comments/feed/"
+   ],
+   "verificat": true
+  },
+  {
+   "id": "cj-ag",
+   "nume": "Consiliul Județean Argeș",
+   "tip": "consiliu județean",
+   "judet": "AG",
+   "site": "https://www.cjarges.ro/",
+   "accesibil": false,
+   "eroare": "Cloudflare cere o verificare JavaScript (HTTP 403)",
+   "proiecte": null,
+   "mol": null,
+   "verificat": false
+  },
+  {
+   "id": "cj-bc",
+   "nume": "Consiliul Județean Bacău",
+   "tip": "consiliu județean",
+   "judet": "BC",
+   "site": "https://www.csjbacau.ro/",
+   "accesibil": true,
+   "platforma": "IBM Domino (…/dm_<uat>/portal.nsf)",
+   "proiecte": {
+    "url": "https://www.csjbacau.ro/dm_cj/portalweb.nsf/AllByUNID/8CD664E9557925EFC2258D7D0049EA93?OpenDocument",
+    "verificat": true,
+    "documente": "PDF (1)",
+    "mostraPdf": "scanat",
+    "ultimaData": "2026-10-30",
+    "dateUltimele90Zile": 5
+   },
+   "mol": {
+    "url": "https://www.csjbacau.ro/dm_cj/portalweb.nsf/AllByUNID/Monitorul-000021E2?OpenDocument",
+    "verificat": true,
+    "ultimaData": null
+   },
+   "actualizare": "lunar",
+   "rss": null,
+   "verificat": true
+  },
+  {
+   "id": "cj-bh",
+   "nume": "Consiliul Județean Bihor",
+   "tip": "consiliu județean",
+   "judet": "BH",
+   "site": "https://www.cjbihor.ro/",
+   "accesibil": true,
+   "platforma": "WordPress",
+   "proiecte": {
+    "url": "https://www.cjbihor.ro/informatii-publice/proiecte-de-hotarare/",
+    "verificat": true,
+    "documente": "PDF (4)",
+    "mostraPdf": "cu strat de text",
+    "ultimaData": "2026-10-29",
+    "dateUltimele90Zile": 15
+   },
+   "mol": {
+    "url": "https://www.cjbihor.ro/monitorul-oficial-local/",
+    "verificat": true,
+    "ultimaData": "2026-10-29"
+   },
+   "actualizare": "săptămânal sau mai des",
+   "rss": [
+    "https://www.cjbihor.ro/feed/",
+    "https://www.cjbihor.ro/comments/feed/"
+   ],
+   "verificat": true
+  },
+  {
+   "id": "cj-bn",
+   "nume": "Consiliul Județean Bistrița-Năsăud",
+   "tip": "consiliu județean",
+   "judet": "BN",
+   "site": "https://www.cjbn.ro/",
+   "accesibil": false,
+   "eroare": "Connect Timeout după 10 s (cu și fără www)",
+   "proiecte": null,
+   "mol": null,
+   "verificat": false
+  },
+  {
+   "id": "cj-bt",
+   "nume": "Consiliul Județean Botoșani",
+   "tip": "consiliu județean",
+   "judet": "BT",
+   "site": "https://www.cjbotosani.ro/",
+   "accesibil": true,
+   "platforma": "WordPress",
+   "proiecte": {
+    "url": "https://www.cjbotosani.ro/monitorul-oficial/proiecte-de-hotarari-ale-autoritatii-deliberative/",
+    "verificat": true,
+    "documente": "PDF (1736)",
+    "mostraPdf": "cu strat de text",
+    "ultimaData": "2026-10-21",
+    "dateUltimele90Zile": 28
+   },
+   "mol": {
+    "url": "https://www.cjbotosani.ro/monitorul-oficial/",
+    "verificat": true,
+    "ultimaData": "2019-11-05"
+   },
+   "actualizare": "săptămânal sau mai des",
+   "rss": [
+    "https://www.cjbotosani.ro/feed/",
+    "https://www.cjbotosani.ro/comments/feed/"
+   ],
+   "verificat": true
+  },
+  {
+   "id": "cj-bv",
+   "nume": "Consiliul Județean Brașov",
+   "tip": "consiliu județean",
+   "judet": "BV",
+   "site": "https://www.judbrasov.ro/",
+   "accesibil": false,
+   "eroare": "Connect Timeout după 10 s; în sesiunea anterioară, conexiune resetată după ~15 s",
+   "proiecte": null,
+   "mol": null,
+   "verificat": false
+  },
+  {
+   "id": "cj-br",
+   "nume": "Consiliul Județean Brăila",
+   "tip": "consiliu județean",
+   "judet": "BR",
+   "site": "https://www.cjbraila.ro/",
+   "accesibil": true,
+   "platforma": "IBM Domino (…/dm_<uat>/portal.nsf)",
+   "proiecte": {
+    "url": "https://www.cjbraila.ro/dm_cj/portal.nsf/AllByUNID/0003F832?OpenDocument",
+    "verificat": true,
+    "documente": "PDF (32)",
+    "mostraPdf": "scanat",
+    "ultimaData": "2026-06-12",
+    "dateUltimele90Zile": 0
+   },
+   "mol": null,
+   "actualizare": "rar (ultima dată 2026-06-12)",
+   "rss": null,
+   "verificat": true
+  },
+  {
+   "id": "cj-bz",
+   "nume": "Consiliul Județean Buzău",
+   "tip": "consiliu județean",
+   "judet": "BZ",
+   "site": "https://cjbuzau.ro/",
+   "accesibil": true,
+   "platforma": "WordPress",
+   "proiecte": {
+    "url": "https://cjbuzau.ro/categorie/dezbatere-publica/",
+    "verificat": true,
+    "documente": "PDF (15), imagini (4)",
+    "mostraPdf": "cu strat de text",
+    "ultimaData": "2026-10-19",
+    "dateUltimele90Zile": 3
+   },
+   "mol": {
+    "url": "https://cjbuzau.ro/monitorul-oficial-al-judetului-buzau/",
+    "verificat": true,
+    "ultimaData": null
+   },
+   "actualizare": "lunar",
+   "rss": [
+    "https://cjbuzau.ro/feed/",
+    "https://cjbuzau.ro/comments/feed/"
+   ],
+   "verificat": true
+  },
+  {
+   "id": "cj-cs",
+   "nume": "Consiliul Județean Caraș-Severin",
+   "tip": "consiliu județean",
+   "judet": "CS",
+   "site": "https://www.cjcs.ro/",
+   "accesibil": true,
+   "platforma": "IBM Domino (…/dm_<uat>/portal.nsf)",
+   "proiecte": {
+    "url": "https://www.cjcs.ro/dm_cjcs/portal.nsf/pagini/transparenta+decizionala-00002482?Open",
+    "verificat": true,
+    "documente": "PDF (6), Word (2)",
+    "mostraPdf": "scanat",
+    "ultimaData": null,
+    "dateUltimele90Zile": 0
+   },
+   "mol": {
+    "url": "https://www.cjcs.ro/dm_cjcs/portal.nsf/pagini/monitorul+oficial+local-000021CA?Open",
+    "verificat": true,
+    "ultimaData": "2025-05-04"
+   },
+   "actualizare": "pare neactualizat (ultima dată 2025-05-04)",
+   "rss": null,
+   "verificat": true
+  },
+  {
+   "id": "cj-cl",
+   "nume": "Consiliul Județean Călărași",
+   "tip": "consiliu județean",
+   "judet": "CL",
+   "site": "https://www.cjcalarasi.ro/",
+   "accesibil": false,
+   "eroare": "gateway-ul proxy-ului răspunde 502 la CONNECT (cu și fără www)",
+   "proiecte": null,
+   "mol": null,
+   "verificat": false
+  },
+  {
+   "id": "cj-cj",
+   "nume": "Consiliul Județean Cluj",
+   "tip": "consiliu județean",
+   "judet": "CJ",
+   "site": "https://cjcluj.ro/",
+   "accesibil": true,
+   "platforma": "WordPress",
+   "proiecte": {
+    "url": "https://cjcluj.ro/proiect-hotarare/",
+    "verificat": true,
+    "documente": "PDF (3)",
+    "mostraPdf": "scanat",
+    "ultimaData": "2026-11-02",
+    "dateUltimele90Zile": 9
+   },
+   "mol": {
+    "url": "https://cjcluj.ro/monitorul-oficial-loca",
+    "verificat": true,
+    "ultimaData": "2026-11-02"
+   },
+   "actualizare": "săptămânal sau mai des",
+   "rss": [
+    "https://cjcluj.ro/feed/",
+    "https://cjcluj.ro/comments/feed/"
+   ],
+   "verificat": true
+  },
+  {
+   "id": "cj-ct",
+   "nume": "Consiliul Județean Constanța",
+   "tip": "consiliu județean",
+   "judet": "CT",
+   "site": "https://www.cjc.ro/",
+   "accesibil": true,
+   "platforma": null,
+   "proiecte": {
+    "url": "https://www.cjc.ro/sectiune.php?s=83",
+    "verificat": true,
+    "documente": "listă HTML, documentele pe pagini separate",
+    "mostraPdf": null,
+    "ultimaData": "2026-04-08",
+    "dateUltimele90Zile": 0
+   },
+   "mol": {
+    "url": "https://www.cjc.ro/sectiune.php?s=192",
+    "verificat": true,
+    "ultimaData": "2026-03-11"
+   },
+   "actualizare": "rar (ultima dată 2026-04-08)",
+   "rss": null,
+   "verificat": true
+  },
+  {
+   "id": "cj-cv",
+   "nume": "Consiliul Județean Covasna",
+   "tip": "consiliu județean",
+   "judet": "CV",
+   "site": "https://www.kvmt.ro/ro/",
+   "accesibil": true,
+   "platforma": null,
+   "proiecte": {
+    "url": "https://www.kvmt.ro/ro/proiecte-de-hotarari.html",
+    "verificat": true,
+    "documente": "listă HTML, documentele pe pagini separate",
+    "mostraPdf": null,
+    "ultimaData": "2026-10-22",
+    "dateUltimele90Zile": 1
+   },
+   "mol": {
+    "url": "https://www.kvmt.ro/ro/monitorul-oficial-local.html",
+    "verificat": true,
+    "ultimaData": null
+   },
+   "actualizare": "rar (o dată în ultimele 90 de zile)",
+   "rss": null,
+   "verificat": true,
+   "nota": "site-ul CJ Covasna e kvmt.ro (covasna.info.ro e o pagină de portal)"
+  },
+  {
+   "id": "cj-db",
+   "nume": "Consiliul Județean Dâmbovița",
+   "tip": "consiliu județean",
+   "judet": "DB",
+   "site": "https://www.cjd.ro/",
+   "accesibil": true,
+   "platforma": null,
+   "proiecte": {
+    "url": "https://www.cjd.ro/transparenta-decizionala",
+    "verificat": true,
+    "documente": "PDF (9)",
+    "mostraPdf": "cu strat de text",
+    "ultimaData": null,
+    "dateUltimele90Zile": 0
+   },
+   "mol": {
+    "url": "https://www.cjd.ro/monitor-oficial-local",
+    "verificat": true,
+    "ultimaData": "2024-06-09"
+   },
+   "actualizare": "pare neactualizat (ultima dată 2024-06-09)",
+   "rss": null,
+   "verificat": true
+  },
+  {
+   "id": "cj-dj",
+   "nume": "Consiliul Județean Dolj",
+   "tip": "consiliu județean",
+   "judet": "DJ",
+   "site": "https://www.cjdolj.ro/",
+   "accesibil": true,
+   "platforma": "IBM Domino (…/dm_<uat>/portal.nsf)",
+   "proiecte": null,
+   "mol": {
+    "url": "https://www.cjdolj.ro/dm_dolj/site.nsf/pagini/monitorul+oficial+local-000011E6",
+    "verificat": true,
+    "ultimaData": null
+   },
+   "actualizare": "necunoscut (fără date pe pagină)",
+   "rss": null,
+   "verificat": true,
+   "nota": "proiectele apar ca anunțuri PDF pe prima pagină; registrul proiectelor e în arhivă"
+  },
+  {
+   "id": "cj-gl",
+   "nume": "Consiliul Județean Galați",
+   "tip": "consiliu județean",
+   "judet": "GL",
+   "site": "https://cjgalati.ro/",
+   "accesibil": true,
+   "platforma": "WordPress",
+   "proiecte": {
+    "url": "https://cjgalati.ro/proiecte-de-hotarare-sedinta-ordinara-cjg-oct2026/",
+    "verificat": true,
+    "documente": "PDF (40)",
+    "mostraPdf": "cu strat de text",
+    "ultimaData": "2026-09-30",
+    "dateUltimele90Zile": 1
+   },
+   "mol": {
+    "url": "https://cjgalati.ro/mongl-2/",
+    "verificat": true,
+    "ultimaData": null
+   },
+   "actualizare": "rar (o dată în ultimele 90 de zile)",
+   "rss": [
+    "https://cjgalati.ro/feed/",
+    "https://cjgalati.ro/comments/feed/"
+   ],
+   "verificat": true,
+   "nota": "pagina găsită e a unei ședințe (octombrie 2026); lista generală e sub „Proiecte de hotărâri”"
+  },
+  {
+   "id": "cj-gr",
+   "nume": "Consiliul Județean Giurgiu",
+   "tip": "consiliu județean",
+   "judet": "GR",
+   "site": "https://cjgiurgiu.ro/",
+   "accesibil": true,
+   "platforma": "WordPress",
+   "proiecte": {
+    "url": "https://cjgiurgiu.ro/ova_sev/proiecte-de-hotarari/",
+    "verificat": true,
+    "documente": "PDF (352), imagini (1)",
+    "mostraPdf": "cu strat de text",
+    "ultimaData": "2026-10-29",
+    "dateUltimele90Zile": 15
+   },
+   "mol": {
+    "url": "https://cjgiurgiu.ro/monitorul-oficial-al-judetului/",
+    "verificat": true,
+    "ultimaData": "2026-10-29"
+   },
+   "actualizare": "săptămânal sau mai des",
+   "rss": [
+    "https://cjgiurgiu.ro/feed/",
+    "https://cjgiurgiu.ro/comments/feed/"
+   ],
+   "verificat": true
+  },
+  {
+   "id": "cj-gj",
+   "nume": "Consiliul Județean Gorj",
+   "tip": "consiliu județean",
+   "judet": "GJ",
+   "site": "https://www.cjgorj.ro/",
+   "accesibil": true,
+   "platforma": "WordPress",
+   "proiecte": {
+    "url": "https://www.cjgorj.ro/monitorul-oficial-local/hotararile-autoritatii-deliberative/",
+    "verificat": true,
+    "documente": "PDF (1867)",
+    "mostraPdf": null,
+    "ultimaData": "2026-10-29",
+    "dateUltimele90Zile": 10
+   },
+   "mol": {
+    "url": "https://www.cjgorj.ro/monitorul-oficial-local/",
+    "verificat": true,
+    "ultimaData": "2021-02-23"
+   },
+   "actualizare": "săptămânal sau mai des",
+   "rss": null,
+   "verificat": true
+  },
+  {
+   "id": "cj-hr",
+   "nume": "Consiliul Județean Harghita",
+   "tip": "consiliu județean",
+   "judet": "HR",
+   "site": "https://judetulharghita.ro/",
+   "accesibil": true,
+   "platforma": "WordPress",
+   "proiecte": {
+    "url": "https://judetulharghita.ro/43-2026-proiect-de-hotarare/",
+    "verificat": true,
+    "documente": "PDF (4)",
+    "mostraPdf": "cu strat de text",
+    "ultimaData": "2026-11-02",
+    "dateUltimele90Zile": 1
+   },
+   "mol": {
+    "url": "https://judetulharghita.ro/monitorul-oficial-local/",
+    "verificat": true,
+    "ultimaData": "2026-11-02"
+   },
+   "actualizare": "săptămânal sau mai des",
+   "rss": null,
+   "verificat": true,
+   "nota": "pagina găsită e a unui proiect (43/2026); site bilingv"
+  },
+  {
+   "id": "cj-hd",
+   "nume": "Consiliul Județean Hunedoara",
+   "tip": "consiliu județean",
+   "judet": "HD",
+   "site": "https://www.cjhunedoara.ro/",
+   "accesibil": true,
+   "platforma": "Joomla",
+   "proiecte": {
+    "url": "https://www.cjhunedoara.ro/index.php/transparenta-decizionala",
+    "verificat": true,
+    "documente": "PDF (560), Word (1), imagini (1)",
+    "mostraPdf": "cu strat de text",
+    "ultimaData": "2026-10-30",
+    "dateUltimele90Zile": 15
+   },
+   "mol": {
+    "url": "https://www.cjhunedoara.ro/index.php/monitorul-oficial-local",
+    "verificat": true,
+    "ultimaData": "2026-10-30"
+   },
+   "actualizare": "săptămânal sau mai des",
+   "rss": null,
+   "verificat": true
+  },
+  {
+   "id": "cj-il",
+   "nume": "Consiliul Județean Ialomița",
+   "tip": "consiliu județean",
+   "judet": "IL",
+   "site": "https://cjialomita.ro/",
+   "accesibil": true,
+   "platforma": "WordPress",
+   "proiecte": null,
+   "mol": {
+    "url": "https://cjialomita.ro/monitorul-oficial-al-judetului/",
+    "verificat": true,
+    "ultimaData": null
+   },
+   "actualizare": "necunoscut (fără date pe pagină)",
+   "rss": [
+    "https://cjialomita.ro/feed/",
+    "https://cjialomita.ro/comments/feed/"
+   ],
+   "verificat": true,
+   "nota": "site-ul CJ Ialomița e cjialomita.ro (cicnet.ro: 502 la CONNECT); pagina cu proiecte nu a fost găsită de pe prima pagină"
+  },
+  {
+   "id": "cj-is",
+   "nume": "Consiliul Județean Iași",
+   "tip": "consiliu județean",
+   "judet": "IS",
+   "site": "https://www.icc.ro/",
+   "accesibil": false,
+   "eroare": "gateway-ul proxy-ului răspunde 502 la CONNECT (cu și fără www)",
+   "proiecte": null,
+   "mol": null,
+   "verificat": false
+  },
+  {
+   "id": "cj-if",
+   "nume": "Consiliul Județean Ilfov",
+   "tip": "consiliu județean",
+   "judet": "IF",
+   "site": "https://cjilfov.ro/",
+   "accesibil": true,
+   "platforma": "WordPress",
+   "proiecte": {
+    "url": "https://cjilfov.ro/transparenta/anunturi-de-intentie-elaborare-proiecte-de-hotarari/",
+    "verificat": true,
+    "documente": "PDF (93), Word (1)",
+    "mostraPdf": "cu strat de text",
+    "ultimaData": "2026-05-15",
+    "dateUltimele90Zile": 0
+   },
+   "mol": {
+    "url": "https://cjilfov.ro/monitorul-oficial-local/",
+    "verificat": true,
+    "ultimaData": null
+   },
+   "actualizare": "rar (ultima dată 2026-05-15)",
+   "rss": [
+    "https://cjilfov.ro/feed/",
+    "https://cjilfov.ro/comments/feed/"
+   ],
+   "verificat": true
+  },
+  {
+   "id": "cj-mm",
+   "nume": "Consiliul Județean Maramureș",
+   "tip": "consiliu județean",
+   "judet": "MM",
+   "site": "https://www.cjmaramures.ro/",
+   "accesibil": true,
+   "platforma": "Joomla",
+   "proiecte": {
+    "url": "https://www.cjmaramures.ro/activitate/transparenta-decizionala/proiect-de-hotarare-privind-aprobarea-tarifelor-pentru-utilizarea-locurilor-de-parcare-din-incinta-spitalului-clinic-judetean-de-urgenta-dr-constantin-opris-baia-mare",
+    "verificat": true,
+    "documente": "PDF (8)",
+    "mostraPdf": "cu strat de text",
+    "ultimaData": "2026-10-14",
+    "dateUltimele90Zile": 4
+   },
+   "mol": {
+    "url": "https://www.cjmaramures.ro/monitorul-oficial-local",
+    "verificat": true,
+    "ultimaData": null
+   },
+   "actualizare": "lunar",
+   "rss": null,
+   "verificat": true,
+   "nota": "pagina găsită e a unui proiect aflat în transparență decizională"
+  },
+  {
+   "id": "cj-mh",
+   "nume": "Consiliul Județean Mehedinți",
+   "tip": "consiliu județean",
+   "judet": "MH",
+   "site": "https://www.cjmehedinti.ro/",
+   "accesibil": true,
+   "platforma": "Liferay",
+   "proiecte": {
+    "url": "https://www.cjmehedinti.ro/web/guest/proiecte-de-hot%C4%83r%C3%A2ri",
+    "verificat": true,
+    "documente": "listă HTML, documentele pe pagini separate",
+    "mostraPdf": null,
+    "ultimaData": "2026-10-22",
+    "dateUltimele90Zile": 11
+   },
+   "mol": {
+    "url": "https://www.cjmehedinti.ro/web/guest/monitorul-oficial-al-jude%C8%9Bului",
+    "verificat": true,
+    "ultimaData": null
+   },
+   "actualizare": "săptămânal sau mai des",
+   "rss": null,
+   "verificat": true
+  },
+  {
+   "id": "cj-ms",
+   "nume": "Consiliul Județean Mureș",
+   "tip": "consiliu județean",
+   "judet": "MS",
+   "site": "https://ro.cjmures.ro/",
+   "accesibil": false,
+   "eroare": "fără răspuns în 25 s (www.cjmures.ro redirecționează aici), de două ori",
+   "proiecte": null,
+   "mol": null,
+   "verificat": false
+  },
+  {
+   "id": "cj-nt",
+   "nume": "Consiliul Județean Neamț",
+   "tip": "consiliu județean",
+   "judet": "NT",
+   "site": "https://cjneamt.ro/",
+   "accesibil": false,
+   "eroare": "TLS: lanțul de certificate e incomplet; www.cjneamt.ro: gateway-ul proxy-ului răspunde 502 la CONNECT",
+   "proiecte": null,
+   "mol": null,
+   "verificat": false
+  },
+  {
+   "id": "cj-ot",
+   "nume": "Consiliul Județean Olt",
+   "tip": "consiliu județean",
+   "judet": "OT",
+   "site": "https://www.cjolt.ro/",
+   "accesibil": false,
+   "eroare": "TLS: lanțul de certificate e incomplet (unable to verify the first certificate)",
+   "proiecte": null,
+   "mol": null,
+   "verificat": false
+  },
+  {
+   "id": "cj-ph",
+   "nume": "Consiliul Județean Prahova",
+   "tip": "consiliu județean",
+   "judet": "PH",
+   "site": "https://www.cjph.ro/",
+   "accesibil": false,
+   "eroare": "TLS: lanțul de certificate e incomplet (unable to verify the first certificate)",
+   "proiecte": null,
+   "mol": null,
+   "verificat": false
+  },
+  {
+   "id": "cj-sm",
+   "nume": "Consiliul Județean Satu Mare",
+   "tip": "consiliu județean",
+   "judet": "SM",
+   "site": "https://www.cjsm.ro/",
+   "accesibil": true,
+   "platforma": null,
+   "proiecte": {
+    "url": "https://www.cjsm.ro/deliberativ",
+    "verificat": true,
+    "documente": "listă HTML, documentele pe pagini separate",
+    "mostraPdf": null,
+    "ultimaData": null,
+    "dateUltimele90Zile": 0
+   },
+   "mol": {
+    "url": "https://www.cjsm.ro/monitorul-oficial",
+    "verificat": true,
+    "ultimaData": null
+   },
+   "actualizare": "necunoscut (fără date pe pagină)",
+   "rss": null,
+   "verificat": true
+  },
+  {
+   "id": "cj-sj",
+   "nume": "Consiliul Județean Sălaj",
+   "tip": "consiliu județean",
+   "judet": "SJ",
+   "site": "https://www.cjsj.ro/",
+   "accesibil": true,
+   "platforma": "Joomla",
+   "proiecte": {
+    "url": "https://www.cjsj.ro/index.php/informatii-publice/transparenta-decizionala",
+    "verificat": true,
+    "documente": "PDF (122)",
+    "mostraPdf": "cu strat de text",
+    "ultimaData": "2026-01-01",
+    "dateUltimele90Zile": 0
+   },
+   "mol": {
+    "url": "https://www.cjsj.ro/index.php/informatii-publice/monitorul-oficial-local",
+    "verificat": true,
+    "ultimaData": null
+   },
+   "actualizare": "rar (ultima dată 2026-01-01)",
+   "rss": null,
+   "verificat": true
+  },
+  {
+   "id": "cj-sb",
+   "nume": "Consiliul Județean Sibiu",
+   "tip": "consiliu județean",
+   "judet": "SB",
+   "site": "https://www.cjsibiu.ro/",
+   "accesibil": true,
+   "platforma": "WordPress",
+   "proiecte": {
+    "url": "https://www.cjsibiu.ro/proiecte-in-consultare-publica/",
+    "verificat": true,
+    "documente": "PDF (10)",
+    "mostraPdf": "cu strat de text",
+    "ultimaData": "2025-12-28",
+    "dateUltimele90Zile": 0
+   },
+   "mol": null,
+   "actualizare": "rar (ultima dată 2025-12-28)",
+   "rss": [
+    "https://www.cjsibiu.ro/feed/",
+    "https://www.cjsibiu.ro/comments/feed/"
+   ],
+   "verificat": true
+  },
+  {
+   "id": "cj-sv",
+   "nume": "Consiliul Județean Suceava",
+   "tip": "consiliu județean",
+   "judet": "SV",
+   "site": "https://www.cjsuceava.ro/",
+   "accesibil": false,
+   "eroare": "Connect Timeout după 10 s (cu și fără www)",
+   "proiecte": null,
+   "mol": null,
+   "verificat": false
+  },
+  {
+   "id": "cj-tr",
+   "nume": "Consiliul Județean Teleorman",
+   "tip": "consiliu județean",
+   "judet": "TR",
+   "site": "https://www.cjteleorman.ro/",
+   "accesibil": true,
+   "platforma": null,
+   "proiecte": {
+    "url": "https://www.cjteleorman.ro/ro/544/index+.htm",
+    "verificat": true,
+    "documente": "PDF (137)",
+    "mostraPdf": "cu strat de text",
+    "ultimaData": "2025-08-07",
+    "dateUltimele90Zile": 0
+   },
+   "mol": {
+    "url": "https://www.cjteleorman.ro/monitor.html",
+    "verificat": true,
+    "ultimaData": null
+   },
+   "actualizare": "pare neactualizat (ultima dată 2025-08-07)",
+   "rss": null,
+   "verificat": true
+  },
+  {
+   "id": "cj-tm",
+   "nume": "Consiliul Județean Timiș",
+   "tip": "consiliu județean",
+   "judet": "TM",
+   "site": "https://www.cjtimis.ro/",
+   "accesibil": true,
+   "platforma": "WordPress",
+   "proiecte": {
+    "url": "https://www.cjtimis.ro/transparenta-decizionala/proiecte-de-acte-normative-aflate-in-consultare-publica/",
+    "verificat": true,
+    "documente": "PDF (98)",
+    "mostraPdf": "scanat",
+    "ultimaData": "2026-10-20",
+    "dateUltimele90Zile": 6
+   },
+   "mol": {
+    "url": "https://www.cjtimis.ro/monitorul-oficial-local/",
+    "verificat": true,
+    "ultimaData": null
+   },
+   "actualizare": "săptămânal sau mai des",
+   "rss": [
+    "https://www.cjtimis.ro/feed/",
+    "https://www.cjtimis.ro/comments/feed/"
+   ],
+   "verificat": true
+  },
+  {
+   "id": "cj-tl",
+   "nume": "Consiliul Județean Tulcea",
+   "tip": "consiliu județean",
+   "judet": "TL",
+   "site": "https://www.cjtulcea.ro/",
+   "accesibil": true,
+   "platforma": "Microsoft SharePoint",
+   "proiecte": {
+    "url": "https://www.cjtulcea.ro/transparenta-decizionala",
+    "verificat": true,
+    "documente": "PDF (2)",
+    "mostraPdf": "cu strat de text",
+    "ultimaData": null,
+    "dateUltimele90Zile": 0
+   },
+   "mol": {
+    "url": "https://www.cjtulcea.ro/monitorul-oficial-local",
+    "verificat": true,
+    "ultimaData": null
+   },
+   "actualizare": "necunoscut (fără date pe pagină)",
+   "rss": null,
+   "verificat": true,
+   "nota": "Microsoft SharePoint"
+  },
+  {
+   "id": "cj-vs",
+   "nume": "Consiliul Județean Vaslui",
+   "tip": "consiliu județean",
+   "judet": "VS",
+   "site": "https://cjvs.eu/",
+   "accesibil": true,
+   "platforma": "WordPress",
+   "proiecte": {
+    "url": "https://cjvs.eu/categorie/sedinte/proiecte-de-hotarari/",
+    "verificat": true,
+    "documente": "PDF (4)",
+    "mostraPdf": "scanat",
+    "ultimaData": "2026-10-30",
+    "dateUltimele90Zile": 7
+   },
+   "mol": null,
+   "actualizare": "săptămânal sau mai des",
+   "rss": [
+    "https://cjvs.eu/feed/",
+    "https://cjvs.eu/comments/feed/"
+   ],
+   "verificat": true
+  },
+  {
+   "id": "cj-vl",
+   "nume": "Consiliul Județean Vâlcea",
+   "tip": "consiliu județean",
+   "judet": "VL",
+   "site": "https://www.cjvalcea.ro/",
+   "accesibil": false,
+   "eroare": "TLS: lanțul de certificate e incomplet (unable to verify the first certificate)",
+   "proiecte": null,
+   "mol": null,
+   "verificat": false
+  },
+  {
+   "id": "cj-vn",
+   "nume": "Consiliul Județean Vrancea",
+   "tip": "consiliu județean",
+   "judet": "VN",
+   "site": "https://cjvrancea.ro/",
+   "accesibil": true,
+   "platforma": "WordPress",
+   "proiecte": {
+    "url": "https://cjvrancea.ro/transparenta-decizionala/",
+    "verificat": true,
+    "documente": "PDF (160), Word (341), imagini (1)",
+    "mostraPdf": null,
+    "ultimaData": "2026-10-27",
+    "dateUltimele90Zile": 6
+   },
+   "mol": {
+    "url": "https://cjvrancea.ro/monitorul-oficial-al-judetului",
+    "verificat": true,
+    "ultimaData": null
+   },
+   "actualizare": "săptămânal sau mai des",
+   "rss": [
+    "https://cjvrancea.ro/feed/"
+   ],
+   "verificat": true
+  },
+  {
+   "id": "cgmb",
+   "nume": "Consiliul General al Municipiului București",
+   "tip": "consiliu general",
+   "judet": "B",
+   "site": "https://www.pmb.ro/",
+   "accesibil": true,
+   "platforma": null,
+   "proiecte": {
+    "url": "https://doc.pmb.ro/consiliu/sedinte/",
+    "verificat": false
+   },
+   "mol": null,
+   "actualizare": "necunoscut",
+   "rss": null,
+   "verificat": false,
+   "nota": "pmb.ro (unde trimite cgmb.ro) e o aplicație JavaScript: HTML-ul are 2 kB, fără conținut; doc.pmb.ro răspunde gol. Din căutări: convocările și proiectele CGMB sunt PDF-uri sub doc.pmb.ro/consiliu/sedinte/<nr>/files/"
+  },
+  {
+   "id": "s1",
+   "nume": "Consiliul Local Sector 1",
+   "tip": "consiliu local de sector",
+   "judet": "B",
+   "site": "https://primariasector1.ro/",
+   "accesibil": false,
+   "eroare": "Cloudflare cere o verificare JavaScript (HTTP 403)",
+   "proiecte": null,
+   "mol": null,
+   "verificat": false
+  },
+  {
+   "id": "s2",
+   "nume": "Consiliul Local Sector 2",
+   "tip": "consiliu local de sector",
+   "judet": "B",
+   "site": "https://www.ps2.ro/",
+   "accesibil": true,
+   "platforma": "Joomla",
+   "proiecte": {
+    "url": "https://www.ps2.ro/index.php/transparenta/transparenta-decizionala",
+    "verificat": true,
+    "documente": "PDF (2)",
+    "mostraPdf": "scanat",
+    "ultimaData": null,
+    "dateUltimele90Zile": 0
+   },
+   "mol": {
+    "url": "https://ps2.ro/monitorul-oficial-local-ps2",
+    "verificat": true,
+    "ultimaData": null
+   },
+   "actualizare": "necunoscut (fără date pe pagină)",
+   "rss": null,
+   "verificat": true
+  },
+  {
+   "id": "s3",
+   "nume": "Consiliul Local Sector 3",
+   "tip": "consiliu local de sector",
+   "judet": "B",
+   "site": "https://www.primarie3.ro/",
+   "accesibil": true,
+   "platforma": "CMS comun „index.php/<modul>”",
+   "proiecte": {
+    "url": "https://www.primarie3.ro/index.php/consiliul_local/proiecte_hotarari",
+    "verificat": true,
+    "documente": "PDF (36)",
+    "mostraPdf": "scanat",
+    "ultimaData": "2026-10-28",
+    "dateUltimele90Zile": 3
+   },
+   "mol": {
+    "url": "https://www.primarie3.ro/index.php/monitorul_local",
+    "verificat": true,
+    "ultimaData": "2025-09-26"
+   },
+   "actualizare": "lunar",
+   "rss": null,
+   "verificat": true
+  },
+  {
+   "id": "s4",
+   "nume": "Consiliul Local Sector 4",
+   "tip": "consiliu local de sector",
+   "judet": "B",
+   "site": "https://ps4.ro/",
+   "accesibil": true,
+   "platforma": "WordPress",
+   "proiecte": {
+    "url": "https://ps4.ro/monitorul-oficial-local/hotararile-autoritatii-deliberative/proiecte-de-hotarare/",
+    "verificat": true,
+    "documente": "PDF (33)",
+    "mostraPdf": "scanat",
+    "ultimaData": "2026-11-02",
+    "dateUltimele90Zile": 10
+   },
+   "mol": {
+    "url": "https://ps4.ro/monitorul-oficial-local/",
+    "verificat": true,
+    "ultimaData": null
+   },
+   "actualizare": "săptămânal sau mai des",
+   "rss": null,
+   "verificat": true
+  },
+  {
+   "id": "s5",
+   "nume": "Consiliul Local Sector 5",
+   "tip": "consiliu local de sector",
+   "judet": "B",
+   "site": "https://sector5.ro/",
+   "accesibil": true,
+   "platforma": "TYPO3",
+   "proiecte": {
+    "url": "https://sector5.ro/transparenta-decizionala/",
+    "verificat": true,
+    "documente": "PDF (2)",
+    "mostraPdf": "cu strat de text",
+    "ultimaData": "2026-10-22",
+    "dateUltimele90Zile": 8
+   },
+   "mol": {
+    "url": "https://sector5.ro/category/monitor-oficial/",
+    "verificat": true,
+    "ultimaData": "2026-10-29"
+   },
+   "actualizare": "săptămânal sau mai des",
+   "rss": [
+    "https://sector5.ro/feed/",
+    "https://sector5.ro/comments/feed/"
+   ],
+   "verificat": true
+  },
+  {
+   "id": "s6",
+   "nume": "Consiliul Local Sector 6",
+   "tip": "consiliu local de sector",
+   "judet": "B",
+   "site": "https://www.primarie6.ro/",
+   "accesibil": true,
+   "platforma": "Drupal",
+   "proiecte": {
+    "url": "https://www.primarie6.ro/primarie_sector6/consiliu/proiecte-locale",
+    "verificat": true,
+    "documente": "PDF (10), Word (2)",
+    "mostraPdf": "cu strat de text",
+    "ultimaData": "2026-10-29",
+    "dateUltimele90Zile": 5
+   },
+   "mol": {
+    "url": "https://www.primarie6.ro/primarie_sector6/monitor-oficial",
+    "verificat": true,
+    "ultimaData": null
+   },
+   "actualizare": "lunar",
+   "rss": null,
+   "verificat": true
+  },
+  {
+   "id": "cl-alba-iulia",
+   "nume": "Consiliul Local Alba Iulia",
+   "tip": "consiliu local (municipiu)",
+   "judet": "AB",
+   "site": "https://www.apulum.ro/",
+   "accesibil": true,
+   "platforma": "CMS comun „index.php/<modul>”",
+   "proiecte": {
+    "url": "https://www.apulum.ro/index.php/primaria/consultare",
+    "verificat": true,
+    "documente": "PDF (80), Word (1), imagini (5)",
+    "mostraPdf": "cu strat de text",
+    "ultimaData": "2026-11-02",
+    "dateUltimele90Zile": 7
+   },
+   "mol": null,
+   "actualizare": "săptămânal sau mai des",
+   "rss": null,
+   "verificat": true
+  },
+  {
+   "id": "cl-arad",
+   "nume": "Consiliul Local Arad",
+   "tip": "consiliu local (municipiu)",
+   "judet": "AR",
+   "site": "https://www.primariaarad.ro/",
+   "accesibil": true,
+   "platforma": "IBM Domino (…/dm_<uat>/portal.nsf)",
+   "proiecte": {
+    "url": "https://www.primariaarad.ro/dm_arad/portal.nsf/AllByUNID/7C98BD762888CECAC22587640045125E?OpenDocument",
+    "verificat": true,
+    "documente": "PDF (1), Word (1)",
+    "mostraPdf": "cu strat de text",
+    "ultimaData": null,
+    "dateUltimele90Zile": 0
+   },
+   "mol": {
+    "url": "https://www.primariaarad.ro/dm_arad/portal.nsf/AllByUNID/Monitorul-0000218E?OpenDocument",
+    "verificat": true,
+    "ultimaData": null
+   },
+   "actualizare": "necunoscut (fără date pe pagină)",
+   "rss": null,
+   "verificat": true
+  },
+  {
+   "id": "cl-pitesti",
+   "nume": "Consiliul Local Pitești",
+   "tip": "consiliu local (municipiu)",
+   "judet": "AG",
+   "site": "https://www.primariapitesti.ro/",
+   "accesibil": true,
+   "platforma": null,
+   "proiecte": {
+    "url": "https://www.primariapitesti.ro/proiecte-de-hotarari-ale-consiliului-local-p429",
+    "verificat": true,
+    "documente": "PDF (6), Word (1)",
+    "mostraPdf": "scanat",
+    "ultimaData": null,
+    "dateUltimele90Zile": 0
+   },
+   "mol": {
+    "url": "https://www.primariapitesti.ro/monitorul-oficial-local-p9",
+    "verificat": true,
+    "ultimaData": null
+   },
+   "actualizare": "necunoscut (fără date pe pagină)",
+   "rss": null,
+   "verificat": true
+  },
+  {
+   "id": "cl-bacau",
+   "nume": "Consiliul Local Bacău",
+   "tip": "consiliu local (municipiu)",
+   "judet": "BC",
+   "site": "https://municipiulbacau.ro/",
+   "accesibil": false,
+   "eroare": "fără răspuns în 25 s (primariabacau.ro redirecționează aici), de două ori",
+   "proiecte": null,
+   "mol": null,
+   "verificat": false
+  },
+  {
+   "id": "cl-oradea",
+   "nume": "Consiliul Local Oradea",
+   "tip": "consiliu local (municipiu)",
+   "judet": "BH",
+   "site": "https://www.oradea.ro/",
+   "accesibil": false,
+   "eroare": "Cloudflare cere o verificare JavaScript (HTTP 403)",
+   "proiecte": null,
+   "mol": null,
+   "verificat": false
+  },
+  {
+   "id": "cl-bistrita",
+   "nume": "Consiliul Local Bistrița",
+   "tip": "consiliu local (municipiu)",
+   "judet": "BN",
+   "site": "https://primariabistrita.ro/",
+   "accesibil": true,
+   "platforma": "WordPress",
+   "proiecte": null,
+   "mol": {
+    "url": "https://primariabistrita.ro/monitorul-oficial-local/",
+    "verificat": true,
+    "ultimaData": null
+   },
+   "actualizare": "necunoscut (fără date pe pagină)",
+   "rss": [
+    "https://primariabistrita.ro/feed/",
+    "https://primariabistrita.ro/comments/feed/"
+   ],
+   "verificat": true
+  },
+  {
+   "id": "cl-botosani",
+   "nume": "Consiliul Local Botoșani",
+   "tip": "consiliu local (municipiu)",
+   "judet": "BT",
+   "site": "https://www.primariabt.ro/",
+   "accesibil": false,
+   "eroare": "TLS: lanțul de certificate e incomplet (unable to verify the first certificate)",
+   "proiecte": null,
+   "mol": null,
+   "verificat": false
+  },
+  {
+   "id": "cl-brasov",
+   "nume": "Consiliul Local Brașov",
+   "tip": "consiliu local (municipiu)",
+   "judet": "BV",
+   "site": "https://www.brasovcity.ro/",
+   "accesibil": true,
+   "platforma": null,
+   "proiecte": {
+    "url": "https://www.brasovcity.ro/consiliul-local/proiecte-de-hotarare-dezbatere-publica",
+    "verificat": true,
+    "documente": "PDF (1026), Word (20)",
+    "mostraPdf": "scanat",
+    "ultimaData": "2026-11-02",
+    "dateUltimele90Zile": 11
+   },
+   "mol": {
+    "url": "https://www.brasovcity.ro/monitorul-oficial-local/hotararile-autoritatii-deliberative",
+    "verificat": true,
+    "ultimaData": null
+   },
+   "actualizare": "săptămânal sau mai des",
+   "rss": null,
+   "verificat": true,
+   "nota": "mostra (primul PDF din pagină) e scanată, dar cele 3 proiecte deschise citite de pilot au strat de text; starea fiecărui proiect e scrisă pe pagină („În dezbatere publică”, „Termen expirat”, „Aprobat prin HCL”)"
+  },
+  {
+   "id": "cl-braila",
+   "nume": "Consiliul Local Brăila",
+   "tip": "consiliu local (municipiu)",
+   "judet": "BR",
+   "site": "https://www.primariabraila.ro/",
+   "accesibil": true,
+   "platforma": "WordPress",
+   "proiecte": {
+    "url": "https://www.primariabraila.ro/monitor-oficial-local/alte-documente/sedinte-consiliul-local-municipal",
+    "verificat": true,
+    "documente": "PDF (12)",
+    "mostraPdf": "cu strat de text",
+    "ultimaData": "2026-10-30",
+    "dateUltimele90Zile": 2
+   },
+   "mol": {
+    "url": "https://www.primariabraila.ro/monitor-oficial-local/",
+    "verificat": true,
+    "ultimaData": null
+   },
+   "actualizare": "lunar",
+   "rss": [
+    "https://www.primariabraila.ro/feed",
+    "https://www.primariabraila.ro/comments/feed"
+   ],
+   "verificat": true
+  },
+  {
+   "id": "cl-buzau",
+   "nume": "Consiliul Local Buzău",
+   "tip": "consiliu local (municipiu)",
+   "judet": "BZ",
+   "site": "https://primariabuzau.ro/",
+   "accesibil": true,
+   "platforma": "WordPress",
+   "proiecte": {
+    "url": "https://primariabuzau.ro/categorie/propuneri-proiecte-hotarari/",
+    "verificat": true,
+    "documente": "PDF (10)",
+    "mostraPdf": "scanat",
+    "ultimaData": "2026-03-31",
+    "dateUltimele90Zile": 0
+   },
+   "mol": {
+    "url": "https://primariabuzau.ro/monitorul-oficial-local/",
+    "verificat": true,
+    "ultimaData": "2026-10-29"
+   },
+   "actualizare": "lunar",
+   "rss": [
+    "https://primariabuzau.ro/feed/",
+    "https://primariabuzau.ro/comments/feed/"
+   ],
+   "verificat": true
+  },
+  {
+   "id": "cl-resita",
+   "nume": "Consiliul Local Reșița",
+   "tip": "consiliu local (municipiu)",
+   "judet": "CS",
+   "site": "https://www.primariaresita.ro/",
+   "accesibil": false,
+   "eroare": "Connect Timeout după 10 s (primaria-resita.ro redirecționează aici)",
+   "proiecte": null,
+   "mol": null,
+   "verificat": false
+  },
+  {
+   "id": "cl-calarasi",
+   "nume": "Consiliul Local Călărași",
+   "tip": "consiliu local (municipiu)",
+   "judet": "CL",
+   "site": "https://primariacalarasi.ro/",
+   "accesibil": true,
+   "platforma": "Avansis Portal",
+   "proiecte": {
+    "url": "https://primariacalarasi.ro/monitorul-oficial-local/alte-documente/proiecte-de-acte-normative-aflate-in-consultare-publica/",
+    "verificat": true,
+    "documente": "PDF (35), imagini (2)",
+    "mostraPdf": "scanat",
+    "ultimaData": "2026-10-08",
+    "dateUltimele90Zile": 1
+   },
+   "mol": {
+    "url": "https://primariacalarasi.ro/monitorul-oficial-local/",
+    "verificat": true,
+    "ultimaData": "2026-10-08"
+   },
+   "actualizare": "rar (o dată în ultimele 90 de zile)",
+   "rss": [
+    "https://primariacalarasi.ro/feed/",
+    "https://primariacalarasi.ro/comments/feed/"
+   ],
+   "verificat": true
+  },
+  {
+   "id": "cl-cluj-napoca",
+   "nume": "Consiliul Local Cluj-Napoca",
+   "tip": "consiliu local (municipiu)",
+   "judet": "CJ",
+   "site": "https://primariaclujnapoca.ro/",
+   "accesibil": true,
+   "platforma": "WordPress",
+   "proiecte": {
+    "url": "https://primariaclujnapoca.ro/consiliu-local/sedinte-de-consiliu/",
+    "verificat": true,
+    "documente": "PDF (2)",
+    "mostraPdf": null,
+    "ultimaData": "2026-10-20",
+    "dateUltimele90Zile": 6
+   },
+   "mol": {
+    "url": "https://primariaclujnapoca.ro/monitorul-oficial-local/",
+    "verificat": true,
+    "ultimaData": "2026-10-30"
+   },
+   "actualizare": "săptămânal sau mai des",
+   "rss": [
+    "https://primariaclujnapoca.ro/feed/",
+    "https://primariaclujnapoca.ro/comments/feed/"
+   ],
+   "verificat": true
+  },
+  {
+   "id": "cl-constanta",
+   "nume": "Consiliul Local Constanța",
+   "tip": "consiliu local (municipiu)",
+   "judet": "CT",
+   "site": "https://primaria-constanta.ro/",
+   "accesibil": true,
+   "platforma": "WordPress",
+   "proiecte": {
+    "url": "https://primaria-constanta.ro/pagina-pmc/informatii-de-interes-public/transparenta-decizionala/informare-si-consultare-publica/",
+    "verificat": true,
+    "documente": "PDF (197), Word (5), imagini (1)",
+    "mostraPdf": "cu strat de text",
+    "ultimaData": "2026-09-16",
+    "dateUltimele90Zile": 5
+   },
+   "mol": {
+    "url": "https://primaria-constanta.ro/pagina-pmc/monitorul-oficial-local/",
+    "verificat": true,
+    "ultimaData": null
+   },
+   "actualizare": "lunar",
+   "rss": [
+    "https://primaria-constanta.ro/feed/",
+    "https://primaria-constanta.ro/comments/feed/"
+   ],
+   "verificat": true
+  },
+  {
+   "id": "cl-sfantu-gheorghe",
+   "nume": "Consiliul Local Sfântu Gheorghe",
+   "tip": "consiliu local (municipiu)",
+   "judet": "CV",
+   "site": "https://www.sfantugheorghe.ro/",
+   "accesibil": false,
+   "eroare": "gateway-ul proxy-ului răspunde 502 la CONNECT; sepsiszentgyorgy.ro: Connect Timeout; sepsi.ro trimite la un site de turism",
+   "proiecte": null,
+   "mol": null,
+   "verificat": false
+  },
+  {
+   "id": "cl-targoviste",
+   "nume": "Consiliul Local Târgoviște",
+   "tip": "consiliu local (municipiu)",
+   "judet": "DB",
+   "site": "https://www.pmtgv.ro/",
+   "accesibil": true,
+   "platforma": null,
+   "proiecte": {
+    "url": "https://www.pmtgv.ro/MonitorPMT/MOL6.i/phot2026.html",
+    "verificat": true,
+    "documente": "PDF (346)",
+    "mostraPdf": "cu strat de text",
+    "ultimaData": null,
+    "dateUltimele90Zile": 0
+   },
+   "mol": {
+    "url": "https://www.pmtgv.ro/monitor.html",
+    "verificat": true,
+    "ultimaData": null
+   },
+   "actualizare": "necunoscut (fără date pe pagină)",
+   "rss": null,
+   "verificat": true,
+   "nota": "pagini HTML statice pe an (MonitorPMT/MOL6.i/phot2026.html), 346 de PDF-uri"
+  },
+  {
+   "id": "cl-craiova",
+   "nume": "Consiliul Local Craiova",
+   "tip": "consiliu local (municipiu)",
+   "judet": "DJ",
+   "site": "https://www.primariacraiova.ro/",
+   "accesibil": true,
+   "platforma": null,
+   "proiecte": {
+    "url": "https://www.primariacraiova.ro/ro/c/208/2026",
+    "verificat": true,
+    "documente": "listă HTML, documentele pe pagini separate",
+    "mostraPdf": null,
+    "ultimaData": "2026-10-29",
+    "dateUltimele90Zile": 12
+   },
+   "mol": {
+    "url": "https://www.primariacraiova.ro/ro/c/5/monitor-oficial-local",
+    "verificat": true,
+    "ultimaData": null
+   },
+   "actualizare": "săptămânal sau mai des",
+   "rss": null,
+   "verificat": true,
+   "nota": "lista din 2026 e HTML, fără linkuri directe spre PDF pe pagină"
+  },
+  {
+   "id": "cl-galati",
+   "nume": "Consiliul Local Galați",
+   "tip": "consiliu local (municipiu)",
+   "judet": "GL",
+   "site": "https://www.primariagalati.ro/",
+   "accesibil": true,
+   "platforma": "IBM Domino (…/dm_<uat>/portal.nsf)",
+   "proiecte": {
+    "url": "https://www.primariagalati.ro/portal/galati/portal.nsf/AllByUNID/proiecte-de-hotarari-0001b8da?OpenDocument",
+    "verificat": true,
+    "documente": "listă HTML, documentele pe pagini separate",
+    "mostraPdf": null,
+    "ultimaData": "2026-10-29",
+    "dateUltimele90Zile": 2
+   },
+   "mol": {
+    "url": "https://www.primariagalati.ro/portal/galati/portal.nsf/AllByUNID/Monitorul+Oficial+Local-0001B7AA?OpenDocument",
+    "verificat": true,
+    "ultimaData": "2019-08-06"
+   },
+   "actualizare": "lunar",
+   "rss": null,
+   "verificat": true
+  },
+  {
+   "id": "cl-giurgiu",
+   "nume": "Consiliul Local Giurgiu",
+   "tip": "consiliu local (municipiu)",
+   "judet": "GR",
+   "site": "https://primariagiurgiu.ro/",
+   "accesibil": true,
+   "platforma": "Avansis Portal",
+   "proiecte": {
+    "url": "https://primariagiurgiu.ro/monitorul-oficial-local/hotararile-autoritatii-deliberative/proiecte-de-hotarari-ale-consiliului-local/",
+    "verificat": true,
+    "documente": "PDF (1)",
+    "mostraPdf": "cu strat de text",
+    "ultimaData": "2022-08-03",
+    "dateUltimele90Zile": 0
+   },
+   "mol": {
+    "url": "https://primariagiurgiu.ro/monitorul-oficial-local/",
+    "verificat": true,
+    "ultimaData": null
+   },
+   "actualizare": "pare neactualizat (ultima dată 2022-08-03)",
+   "rss": [
+    "https://primariagiurgiu.ro/feed/",
+    "https://primariagiurgiu.ro/comments/feed/"
+   ],
+   "verificat": true,
+   "nota": "www.primariagiurgiu.ro are certificat doar pentru primariagiurgiu.ro (fără www)"
+  },
+  {
+   "id": "cl-targu-jiu",
+   "nume": "Consiliul Local Târgu Jiu",
+   "tip": "consiliu local (municipiu)",
+   "judet": "GJ",
+   "site": "https://www.targujiu.ro/",
+   "accesibil": true,
+   "platforma": "IBM Domino (…/dm_<uat>/portal.nsf)",
+   "proiecte": {
+    "url": "https://www.targujiu.ro/dm_tgjiu/portal.nsf/pagini/proiecte+de+hotarare-0000182E",
+    "verificat": true,
+    "documente": "PDF (2)",
+    "mostraPdf": "scanat",
+    "ultimaData": "2022-11-10",
+    "dateUltimele90Zile": 0
+   },
+   "mol": {
+    "url": "https://www.targujiu.ro/dm_tgjiu/portal.nsf/pagini/monitorul+oficial+local-00001736",
+    "verificat": true,
+    "ultimaData": "2021-10-26"
+   },
+   "actualizare": "pare neactualizat (ultima dată 2022-11-10)",
+   "rss": null,
+   "verificat": true
+  },
+  {
+   "id": "cl-miercurea-ciuc",
+   "nume": "Consiliul Local Miercurea Ciuc",
+   "tip": "consiliu local (municipiu)",
+   "judet": "HR",
+   "site": "https://szereda.ro/ro",
+   "accesibil": true,
+   "platforma": "PyroCMS",
+   "proiecte": {
+    "url": "https://szereda.ro/ro/plan-hotarari",
+    "verificat": true,
+    "documente": "PDF (24)",
+    "mostraPdf": "scanat",
+    "ultimaData": "2026-09-12",
+    "dateUltimele90Zile": 1
+   },
+   "mol": {
+    "url": "https://szereda.ro/ro/monitorul-official-local",
+    "verificat": true,
+    "ultimaData": null
+   },
+   "actualizare": "rar (o dată în ultimele 90 de zile)",
+   "rss": null,
+   "verificat": true,
+   "nota": "site bilingv (szereda.ro/ro), PyroCMS"
+  },
+  {
+   "id": "cl-deva",
+   "nume": "Consiliul Local Deva",
+   "tip": "consiliu local (municipiu)",
+   "judet": "HD",
+   "site": "https://www.primariadeva.ro/",
+   "accesibil": true,
+   "platforma": "CMS comun „index.php/<modul>”",
+   "proiecte": {
+    "url": "https://www.primariadeva.ro/index.php/consiliul_local/proiecte_hotarari",
+    "verificat": true,
+    "documente": "PDF (1)",
+    "mostraPdf": "scanat",
+    "ultimaData": "2018-04-20",
+    "dateUltimele90Zile": 0
+   },
+   "mol": {
+    "url": "https://www.primariadeva.ro/index.php/monitorul_oficial",
+    "verificat": true,
+    "ultimaData": "2018-04-20"
+   },
+   "actualizare": "pare neactualizat (ultima dată 2018-04-20)",
+   "rss": null,
+   "verificat": true
+  },
+  {
+   "id": "cl-slobozia",
+   "nume": "Consiliul Local Slobozia",
+   "tip": "consiliu local (municipiu)",
+   "judet": "IL",
+   "site": "https://municipiulslobozia.ro/",
+   "accesibil": true,
+   "platforma": "WordPress (temă LSVR TownPress)",
+   "proiecte": {
+    "url": "https://municipiulslobozia.ro/presa/transparenta-decizionala/",
+    "verificat": true,
+    "documente": "listă HTML, documentele pe pagini separate",
+    "mostraPdf": null,
+    "ultimaData": "2026-10-29",
+    "dateUltimele90Zile": 4
+   },
+   "mol": {
+    "url": "https://municipiulslobozia.ro/informatii-de-interes-public/monitorul-oficial-local/",
+    "verificat": true,
+    "ultimaData": null
+   },
+   "actualizare": "lunar",
+   "rss": [
+    "https://municipiulslobozia.ro/feed/",
+    "https://municipiulslobozia.ro/comments/feed/"
+   ],
+   "verificat": true,
+   "nota": "site-ul primăriei e municipiulslobozia.ro (sloboziaonline.ro: 502; slobozia.ro: eroare Cloudflare 520)"
+  },
+  {
+   "id": "cl-iasi",
+   "nume": "Consiliul Local Iași",
+   "tip": "consiliu local (municipiu)",
+   "judet": "IS",
+   "site": "https://www.primaria-iasi.ro/",
+   "accesibil": true,
+   "platforma": "IBM Domino (…/dm_<uat>/portal.nsf)",
+   "proiecte": {
+    "url": "https://www.primaria-iasi.ro/dm_iasi/portal.nsf/pagini/proiecte+de+hotarari+ale+consiliului+local-000145FA?Open",
+    "verificat": true,
+    "documente": "PDF (4)",
+    "mostraPdf": "cu strat de text",
+    "ultimaData": "2025-06-10",
+    "dateUltimele90Zile": 0
+   },
+   "mol": {
+    "url": "https://www.primaria-iasi.ro/dm_iasi/portal.nsf/pagini/monitorul+oficial+local-000018FA?Open",
+    "verificat": true,
+    "ultimaData": null
+   },
+   "actualizare": "pare neactualizat (ultima dată 2025-06-10)",
+   "rss": null,
+   "verificat": true,
+   "nota": "ultima dată vizibilă pe pagina de proiecte: iunie 2025"
+  },
+  {
+   "id": "cl-buftea",
+   "nume": "Consiliul Local Buftea",
+   "tip": "consiliu local (oraș)",
+   "judet": "IF",
+   "site": "https://www.primariabuftea.ro/",
+   "accesibil": true,
+   "platforma": "WordPress (temă LSVR TownPress)",
+   "proiecte": {
+    "url": "https://www.primariabuftea.ro/legea-52-din-2003-privind-transparenta-decizionala/",
+    "verificat": true,
+    "documente": "imagini (4)",
+    "mostraPdf": null,
+    "ultimaData": "2019-12-01",
+    "dateUltimele90Zile": 0
+   },
+   "mol": null,
+   "actualizare": "pare neactualizat (ultima dată 2019-12-01)",
+   "rss": [
+    "https://www.primariabuftea.ro/feed/"
+   ],
+   "verificat": true,
+   "nota": "Ilfov nu are municipiu reședință: reședința e orașul Buftea; pagina de transparență are date din 2019"
+  },
+  {
+   "id": "cl-baia-mare",
+   "nume": "Consiliul Local Baia Mare",
+   "tip": "consiliu local (municipiu)",
+   "judet": "MM",
+   "site": "https://www.baiamare.ro/",
+   "accesibil": false,
+   "eroare": "Cloudflare: „Attention Required” (HTTP 403)",
+   "proiecte": null,
+   "mol": null,
+   "verificat": false
+  },
+  {
+   "id": "cl-drobeta",
+   "nume": "Consiliul Local Drobeta-Turnu Severin",
+   "tip": "consiliu local (municipiu)",
+   "judet": "MH",
+   "site": "https://primariadrobeta.ro/",
+   "accesibil": true,
+   "platforma": "WordPress",
+   "proiecte": {
+    "url": "https://primariadrobeta.ro/consiliul-local/sedinte-consiliul-local/",
+    "verificat": true,
+    "documente": "PDF (543)",
+    "mostraPdf": "scanat",
+    "ultimaData": "2026-01-13",
+    "dateUltimele90Zile": 0
+   },
+   "mol": null,
+   "actualizare": "rar (ultima dată 2026-01-13)",
+   "rss": [
+    "https://primariadrobeta.ro/feed/",
+    "https://primariadrobeta.ro/comments/feed/"
+   ],
+   "verificat": true
+  },
+  {
+   "id": "cl-targu-mures",
+   "nume": "Consiliul Local Târgu Mureș",
+   "tip": "consiliu local (municipiu)",
+   "judet": "MS",
+   "site": "https://www.tirgumures.ro/",
+   "accesibil": true,
+   "platforma": "Joomla",
+   "proiecte": {
+    "url": "https://www.tirgumures.ro/index.php?option=com_content&view=article&id=623&Itemid=195&lang=ro",
+    "verificat": true,
+    "documente": "PDF (20)",
+    "mostraPdf": "cu strat de text",
+    "ultimaData": "2024-06-09",
+    "dateUltimele90Zile": 0
+   },
+   "mol": {
+    "url": "https://www.tirgumures.ro/index.php?option=com_content&view=article&id=7604%3Amonitorul-oficial-local&catid=44%3Apagini&Itemid=321&lang=ro",
+    "verificat": true,
+    "ultimaData": "2024-06-09"
+   },
+   "actualizare": "pare neactualizat (ultima dată 2024-06-09)",
+   "rss": null,
+   "verificat": true
+  },
+  {
+   "id": "cl-piatra-neamt",
+   "nume": "Consiliul Local Piatra Neamț",
+   "tip": "consiliu local (municipiu)",
+   "judet": "NT",
+   "site": "https://www.primariapn.ro/",
+   "accesibil": true,
+   "platforma": null,
+   "proiecte": {
+    "url": "https://primariapn.ro/proiecte-de-hotarari",
+    "verificat": true,
+    "documente": "PDF (9)",
+    "mostraPdf": "cu strat de text",
+    "ultimaData": null,
+    "dateUltimele90Zile": 0
+   },
+   "mol": {
+    "url": "https://www.primariapn.ro/monitorul-oficial-local",
+    "verificat": true,
+    "ultimaData": null
+   },
+   "actualizare": "necunoscut (fără date pe pagină)",
+   "rss": null,
+   "verificat": true
+  },
+  {
+   "id": "cl-slatina",
+   "nume": "Consiliul Local Slatina",
+   "tip": "consiliu local (municipiu)",
+   "judet": "OT",
+   "site": "https://www.primariaslatina.ro/",
+   "accesibil": false,
+   "eroare": "conexiune resetată (ECONNRESET) după ~7 s, cu și fără www",
+   "proiecte": null,
+   "mol": null,
+   "verificat": false
+  },
+  {
+   "id": "cl-ploiesti",
+   "nume": "Consiliul Local Ploiești",
+   "tip": "consiliu local (municipiu)",
+   "judet": "PH",
+   "site": "https://ploiesti.ro/",
+   "accesibil": true,
+   "platforma": "WordPress",
+   "proiecte": {
+    "url": "https://ploiesti.ro/transparenta-decizionala/",
+    "verificat": true,
+    "documente": "listă HTML, documentele pe pagini separate",
+    "mostraPdf": null,
+    "ultimaData": "2026-11-02",
+    "dateUltimele90Zile": 10
+   },
+   "mol": {
+    "url": "https://ploiesti.ro/monitorul-oficial-local/",
+    "verificat": true,
+    "ultimaData": null
+   },
+   "actualizare": "săptămânal sau mai des",
+   "rss": [
+    "https://ploiesti.ro/feed/rss/"
+   ],
+   "verificat": true,
+   "nota": "proiectele sunt pagini HTML, fără PDF-uri pe pagina de listă"
+  },
+  {
+   "id": "cl-satu-mare",
+   "nume": "Consiliul Local Satu Mare",
+   "tip": "consiliu local (municipiu)",
+   "judet": "SM",
+   "site": "https://www.primariasm.ro/",
+   "accesibil": true,
+   "platforma": null,
+   "proiecte": {
+    "url": "https://www.primariasm.ro/transparenta-decizionala",
+    "verificat": true,
+    "documente": "listă HTML, documentele pe pagini separate",
+    "mostraPdf": null,
+    "ultimaData": "2026-10-28",
+    "dateUltimele90Zile": 3
+   },
+   "mol": {
+    "url": "https://www.primariasm.ro/monitorul-oficial-al-municipiului-satu-mare",
+    "verificat": true,
+    "ultimaData": "2026-09-24"
+   },
+   "actualizare": "lunar",
+   "rss": null,
+   "verificat": true,
+   "nota": "site-ul primăriei e primariasm.ro (www.satu-mare.ro are certificat pentru gis.satu-mare.ro); proiectele sunt articole separate, documentele .docx/.doc"
+  },
+  {
+   "id": "cl-zalau",
+   "nume": "Consiliul Local Zalău",
+   "tip": "consiliu local (municipiu)",
+   "judet": "SJ",
+   "site": "https://www.zalausj.ro/",
+   "accesibil": true,
+   "platforma": "IBM Domino (…/dm_<uat>/portal.nsf)",
+   "proiecte": {
+    "url": "https://www.zalausj.ro/portal/zalau/portal.nsf/AllByUNID/transparenta-decizionala-00001a5e?OpenDocument",
+    "verificat": true,
+    "documente": "PDF (66), Word (1)",
+    "mostraPdf": "cu strat de text",
+    "ultimaData": "2026-10-29",
+    "dateUltimele90Zile": 13
+   },
+   "mol": {
+    "url": "https://www.zalausj.ro/portal/zalau/portal.nsf/AllByUNID/Monitorul+Oficial-00006EEE?OpenDocument",
+    "verificat": true,
+    "ultimaData": "2019-08-02"
+   },
+   "actualizare": "săptămânal sau mai des",
+   "rss": null,
+   "verificat": true
+  },
+  {
+   "id": "cl-sibiu",
+   "nume": "Consiliul Local Sibiu",
+   "tip": "consiliu local (municipiu)",
+   "judet": "SB",
+   "site": "https://www.sibiu.ro/",
+   "accesibil": true,
+   "platforma": "CMS comun „index.php/<modul>”",
+   "proiecte": {
+    "url": "https://www.sibiu.ro/index.php/consiliu/proiecte_hotarari",
+    "verificat": true,
+    "documente": "PDF (61)",
+    "mostraPdf": "cu strat de text",
+    "ultimaData": "2026-10-29",
+    "dateUltimele90Zile": 5
+   },
+   "mol": {
+    "url": "https://www.sibiu.ro/index.php/monitorul_local",
+    "verificat": true,
+    "ultimaData": null
+   },
+   "actualizare": "lunar",
+   "rss": null,
+   "verificat": true
+  },
+  {
+   "id": "cl-suceava",
+   "nume": "Consiliul Local Suceava",
+   "tip": "consiliu local (municipiu)",
+   "judet": "SV",
+   "site": "https://www.primariasv.ro/",
+   "accesibil": true,
+   "platforma": "IBM Domino (…/dm_<uat>/portal.nsf)",
+   "proiecte": {
+    "url": "https://www.primariasv.ro/dm_suceava/site.nsf/pagini/consiliul+local-00001346",
+    "verificat": true,
+    "documente": "PDF (3)",
+    "mostraPdf": "cu strat de text",
+    "ultimaData": "2020-12-21",
+    "dateUltimele90Zile": 0
+   },
+   "mol": {
+    "url": "https://www.primariasv.ro/dm_suceava/site.nsf/pagini/monitorul+oficial+local-000012A6",
+    "verificat": true,
+    "ultimaData": "2021-04-01"
+   },
+   "actualizare": "pare neactualizat (ultima dată 2021-04-01)",
+   "rss": null,
+   "verificat": true
+  },
+  {
+   "id": "cl-alexandria",
+   "nume": "Consiliul Local Alexandria",
+   "tip": "consiliu local (municipiu)",
+   "judet": "TR",
+   "site": "https://www.alexandria.ro/",
+   "accesibil": false,
+   "eroare": "TLS: lanțul de certificate e incomplet (unable to verify the first certificate)",
+   "proiecte": null,
+   "mol": null,
+   "verificat": false
+  },
+  {
+   "id": "cl-timisoara",
+   "nume": "Consiliul Local Timișoara",
+   "tip": "consiliu local (municipiu)",
+   "judet": "TM",
+   "site": "https://www.primariatm.ro/",
+   "accesibil": false,
+   "eroare": "Cloudflare cere o verificare JavaScript (HTTP 403)",
+   "proiecte": null,
+   "mol": null,
+   "verificat": false
+  },
+  {
+   "id": "cl-tulcea",
+   "nume": "Consiliul Local Tulcea",
+   "tip": "consiliu local (municipiu)",
+   "judet": "TL",
+   "site": "https://www.primariatulcea.ro/",
+   "accesibil": true,
+   "platforma": "WordPress",
+   "proiecte": {
+    "url": "https://www.primariatulcea.ro/transparenta-decizionala/",
+    "verificat": true,
+    "documente": "PDF (28)",
+    "mostraPdf": "cu strat de text",
+    "ultimaData": "2026-04-30",
+    "dateUltimele90Zile": 0
+   },
+   "mol": {
+    "url": "https://www.primariatulcea.ro/monitorul-oficial-local/",
+    "verificat": true,
+    "ultimaData": null
+   },
+   "actualizare": "rar (ultima dată 2026-04-30)",
+   "rss": [
+    "https://www.primariatulcea.ro/feed/",
+    "https://www.primariatulcea.ro/comments/feed/"
+   ],
+   "verificat": true
+  },
+  {
+   "id": "cl-vaslui",
+   "nume": "Consiliul Local Vaslui",
+   "tip": "consiliu local (municipiu)",
+   "judet": "VS",
+   "site": "https://primariavaslui.ro/",
+   "accesibil": true,
+   "platforma": "WordPress",
+   "proiecte": {
+    "url": "https://primariavaslui.ro/consultare-publica-proiect-de-hotarare-privind-infiintarea-comisiei-de-acord-unic-la-nivelul-municipiului-vaslui-si-aprobarea-regulamentului-de-organizare-si-functionare-a-acesteia/",
+    "verificat": true,
+    "documente": "PDF (8), imagini (3)",
+    "mostraPdf": "cu strat de text",
+    "ultimaData": "2026-10-13",
+    "dateUltimele90Zile": 4
+   },
+   "mol": {
+    "url": "https://primariavaslui.ro/monitorul-oficial-local/",
+    "verificat": true,
+    "ultimaData": "2026-10-13"
+   },
+   "actualizare": "lunar",
+   "rss": [
+    "https://primariavaslui.ro/feed/",
+    "https://primariavaslui.ro/comments/feed/"
+   ],
+   "verificat": true,
+   "nota": "pagina găsită e a unei consultări publice anume; proiectele apar ca articole"
+  },
+  {
+   "id": "cl-ramnicu-valcea",
+   "nume": "Consiliul Local Râmnicu Vâlcea",
+   "tip": "consiliu local (municipiu)",
+   "judet": "VL",
+   "site": "https://www.primariarm.ro/",
+   "accesibil": false,
+   "eroare": "gateway-ul proxy-ului răspunde 502 la CONNECT (cu și fără www)",
+   "proiecte": null,
+   "mol": null,
+   "verificat": false
+  },
+  {
+   "id": "cl-focsani",
+   "nume": "Consiliul Local Focșani",
+   "tip": "consiliu local (municipiu)",
+   "judet": "VN",
+   "site": "https://www.focsani.info/",
+   "accesibil": true,
+   "platforma": null,
+   "proiecte": {
+    "url": "https://www.focsani.info/pagina/rapoarte-privind-transparenta-decizionala-in-administratia-publica",
+    "verificat": true,
+    "documente": "PDF (21)",
+    "mostraPdf": "cu strat de text",
+    "ultimaData": "2017-07-10",
+    "dateUltimele90Zile": 0
+   },
+   "mol": {
+    "url": "https://www.focsani.info/pagina/monitorul-oficial-local",
+    "verificat": true,
+    "ultimaData": "2017-07-10"
+   },
+   "actualizare": "pare neactualizat (ultima dată 2017-07-10)",
+   "rss": null,
+   "verificat": true
+  }
+ ]
+}

@@ -203,7 +203,7 @@ const SOURCES = [
     // Lista (Drupal) are titlul și data; documentele, termenul și adresa pentru propuneri sunt pe pagina proiectului.
     async list() {
       const html = await get(this.url, { maxAgeH: 2 });
-      const items = [...html.matchAll(/<article data-history-node-id="(\d+)" class="edu-teaser">([\s\S]*?)<\/article>/g)].map(([, , block]) => ({
+      const items = [...html.matchAll(/<article data-history-node-id="\d+" class="edu-teaser">([\s\S]*?)<\/article>/g)].map(([, block]) => ({
         href: /<a href="([^"]+)"/.exec(block)?.[1],
         titlu: line(/<span>([\s\S]*?)<\/span>/.exec(block)?.[1] ?? ''),
         publicat: isoDate(line(/edu-teaser__date">([\s\S]*?)<\/div>/.exec(block)?.[1] ?? '')),

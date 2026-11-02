@@ -1,6 +1,6 @@
 # Partea 1: „Ce e bine și ce strică” (cloud/bine-rau)
 
-Actualizat: 2026-11-02 18:38 UTC
+Actualizat: 2026-11-02 19:13 UTC
 
 ## Făcut
 - Test pe 3 proiecte galbene, `--model=claude --paralel=1`, textele din data/texts:
@@ -15,7 +15,7 @@ Actualizat: 2026-11-02 18:38 UTC
 - Plan: toate galbenele, apoi verzile cu scorul cel mai mare până la ≈ $130 în total.
 
 ## În lucru
-- Lotul galben, `--risc=yellow --model=claude --paralel=4`: 200 făcute, 0 eșuate până acum. Cost total măsurat (cu testul): $54.22.
+- Lotul galben, `--risc=yellow --model=claude --paralel=4`: 300 făcute, 0 eșuate până acum. Cost total măsurat (cu testul): $81.58.
 
 ## Eșuate
 - (niciunul încă)

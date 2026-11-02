@@ -1,0 +1,94 @@
+{
+  "slug": "plx-442-2026",
+  "billId": "Pl-x 442/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T18:42:48.890Z",
+  "inputHash": "239290fd95aa",
+  "riskScore": 4.7,
+  "summary": "Un scop legitim, dar o singură normă scrisă defectuos: trimitere greșită, beneficiari nedefiniți și suprapunere nerezolvată cu protecția deja existentă.",
+  "good": [
+    {
+      "text": "Pedepsele pentru amenințarea, lovirea sau rănirea personalului medical aflat în serviciu devin mai mari, ceea ce poate descuraja agresiunile din spitale și UPU.",
+      "article": "art. unic pct. 1 (art. 257 alin. (5))",
+      "quote": "săvârșite asupra unui cadru medical, aflat în exercitarea atribuțiilor de serviciu",
+      "weight": 2
+    },
+    {
+      "text": "Protecția acoperă și agresiunile făcute din răzbunare pentru actul medical, chiar dacă au loc după încheierea turei.",
+      "article": "art. unic pct. 1 (art. 257 alin. (5))",
+      "quote": "aflat în exercitarea atribuțiilor de serviciu sau în legătură cu exercitarea acestor atribuții",
+      "weight": 2
+    },
+    {
+      "text": "Cresc doar limitele minimă și maximă ale pedepsei. Judecătorul stabilește în continuare pedeapsa concretă pentru fiecare caz, fără majorări automate.",
+      "article": "art. unic pct. 1 (art. 257 alin. (5))",
+      "quote": "se sancționează cu pedeapsa prevăzută de lege pentru acea infracțiune, ale cărei limite se majorează cu jumătate",
+      "weight": 1
+    },
+    {
+      "text": "Nu creează infracțiuni noi. Reclamațiile, critica sau impolitețea pacienților rămân în afara legii penale dacă nu sunt deja infracțiuni.",
+      "article": "art. unic pct. 1 (art. 257 alin. (5))",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Trimiterea la alin. (1)-(3) e defectă: acele fapte privesc funcționari cu autoritate de stat, iar medicii nu sunt, deci instanțele pot aplica textul diferit sau deloc.",
+      "article": "art. unic pct. 1 (art. 257 alin. (5))",
+      "quote": "Faptele prevăzute la alin (1)-(3) săvârșite asupra unui cadru medical, aflat în exercitarea atribuțiilor de serviciu",
+      "weight": 3
+    },
+    {
+      "text": "„Cadru medical” nu e definit: nu reiese dacă intră asistenții, paramedicii, infirmierii, brancardierii, farmaciștii sau cei din privat. O lege penală trebuie să fie clară.",
+      "article": "art. unic pct. 1 (art. 257 alin. (5))",
+      "quote": "săvârșite asupra unui cadru medical, aflat în exercitarea atribuțiilor de serviciu sau în legătură cu exercitarea acestor atribuții",
+      "weight": 3
+    },
+    {
+      "text": "Inițiatorul spune că nu există protecție specială, dar nu analizează normele care protejează deja personalul sanitar. Riscă două texte paralele pentru aceeași faptă.",
+      "article": "expunerea de motive / art. unic pct. 1",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Alin. (2)-(3) privesc orice infracțiune, inclusiv contra bunurilor sau a rudelor. Textul nu explică cum se aplică acestea medicilor, ceea ce lasă loc de interpretări.",
+      "article": "art. unic pct. 1 (art. 257 alin. (5))",
+      "quote": "Faptele prevăzute la alin (1)-(3) săvârșite asupra unui cadru medical",
+      "weight": 2
+    },
+    {
+      "text": "Majorarea cu jumătate egalează regimul polițiștilor și depășește sporul de o treime pentru alți funcționari cu autoritate de stat. Diferența nu este justificată.",
+      "article": "art. unic pct. 1 (art. 257 alin. (5))",
+      "quote": "se sancționează cu pedeapsa prevăzută de lege pentru acea infracțiune, ale cărei limite se majorează cu jumătate",
+      "weight": 1
+    },
+    {
+      "text": "Motivarea invocă violența verbală, dar textul nu o acoperă: înjurăturile și insultele rămân nepedepsite penal, deci scopul declarat e atins doar parțial.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Eroare formală: tabelul inițiatorilor indică art. 256 în loc de art. 257, semn de redactare neglijentă.",
+      "article": "tabelul inițiatorilor",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Alin. (5) ar trebui rescris cu enumerarea directă a faptelor (amenințare, lovire, vătămare, omor), cu definirea exactă a personalului protejat (public și privat) și corelat expres cu Legea nr. 95/2006.",
+    "removes": [
+      0,
+      1,
+      3
+    ],
+    "levelAfter": "yellow",
+    "scoreAfter": 3
+  },
+  "quotes": {
+    "checked": 10,
+    "verified": 7
+  }
+}

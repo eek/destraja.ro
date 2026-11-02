@@ -1,0 +1,96 @@
+{
+  "slug": "plx-456-2026",
+  "billId": "Pl-x 456/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T18:45:21.392Z",
+  "inputHash": "61256a5ce933",
+  "riskScore": 4.3,
+  "summary": "Un scop rezonabil, dar singurul alineat al legii face contrariul a ce promite motivarea: formatul examenului se poate schimba de la un examen la altul, fără obligația de a-l anunța public.",
+  "good": [
+    {
+      "text": "Legea spune clar cine alege forma examenului de notar: Consiliul Uniunii. Asta reduce disputele despre competență.",
+      "article": "art. unic, alin. (15) nou al art. 25",
+      "quote": "Modalitatea de examinare se stabileste de catre Consiliul Uniunii, pentru toate formele de intrare in profesie",
+      "weight": 2
+    },
+    {
+      "text": "Aceeași regulă se aplică tuturor căilor de intrare în profesie, deci nu se mai pot face diferențe între ele.",
+      "article": "art. unic, alin. (15) nou al art. 25",
+      "quote": "se stabileste de catre Consiliul Uniunii, pentru toate formele de intrare in profesie",
+      "weight": 2
+    },
+    {
+      "text": "Forma examenului trebuie decisă înainte de anunțarea concursului, nu după. Asta oferă un minim de previzibilitate.",
+      "article": "art. unic, alin. (15) nou al art. 25",
+      "quote": "cu 30 de zile înainte de anunțarea datei concursului",
+      "weight": 1
+    },
+    {
+      "text": "Consiliul poate alege doar între două formate, sinteză sau grilă, nu orice formă de examinare.",
+      "article": "art. unic, alin. (15) nou al art. 25",
+      "quote": "la fiecare examen in parte, respectiv prin probă de tip sinteza sau grila",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Motivarea promite o decizie anuală, în prima ședință a anului. Legea permite însă schimbarea formatului la fiecare examen, adică exact variația pe care spune că o elimină.",
+      "article": "art. unic, alin. (15) nou al art. 25",
+      "quote": "la fiecare examen in parte, respectiv prin probă de tip sinteza sau grila",
+      "weight": 3
+    },
+    {
+      "text": "Legea nu obligă la publicarea deciziei, nici pe site, nici în anunțul de concurs. Candidații pot afla târziu ce tip de examen vor da.",
+      "article": "art. unic, alin. (15) nou al art. 25",
+      "quote": "Modalitatea de examinare se stabileste de catre Consiliul Uniunii, pentru toate formele de intrare in profesie",
+      "weight": 3
+    },
+    {
+      "text": "Cele 30 de zile se socotesc până la anunțul concursului, a cărui dată o fixează tot Consiliul. Nu e garantat un timp minim de pregătire și nu e clar dacă înseamnă exact 30 sau cel puțin 30 de zile.",
+      "article": "art. unic, alin. (15) nou al art. 25",
+      "quote": "cu 30 de zile înainte de anunțarea datei concursului",
+      "weight": 2
+    },
+    {
+      "text": "Nu există criterii pentru alegerea între grilă și sinteză. Pregătirea și corectarea diferă mult între ele, iar alegerea rămâne la discreția Consiliului.",
+      "article": "art. unic, alin. (15) nou al art. 25",
+      "quote": "respectiv prin probă de tip sinteza sau grila, cu 30 de zile",
+      "weight": 2
+    },
+    {
+      "text": "Nu e clar dacă cele două tipuri se pot combina. Nici nu e clar cum se leagă «proba» unică de probele deja prevăzute în restul legii și în regulamentul examenului.",
+      "article": "art. unic, alin. (15) nou al art. 25",
+      "quote": "la fiecare examen in parte, respectiv prin probă de tip sinteza sau grila",
+      "weight": 2
+    },
+    {
+      "text": "Legea nu spune ce se întâmplă cu sesiunile deja anunțate când intră în vigoare.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Formula de introducere spune «se modifică și se completează», deși legea doar adaugă un alineat. Este o greșeală de redactare legislativă.",
+      "article": "art. unic, partea introductivă",
+      "quote": "se modifică și se completează cu următorul alineat",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Alineatul (15) ar trebui rescris: formatul să fie stabilit anual, în prima ședință a Consiliului, apoi publicat pe site-ul Uniunii, cu cel puțin un termen fix înainte de examen, plus o regulă pentru sesiunile deja anunțate și formula corectă «se completează».",
+    "removes": [
+      0,
+      1,
+      2,
+      5,
+      6
+    ],
+    "levelAfter": "yellow",
+    "scoreAfter": 2.5
+  },
+  "quotes": {
+    "checked": 10,
+    "verified": 10
+  }
+}

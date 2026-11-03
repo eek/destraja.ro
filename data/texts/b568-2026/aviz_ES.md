@@ -1,0 +1,45 @@
+Cod fiscal: 10464660
+
+E-mail: ces@ces.ro
+
+www.ces.ro
+
+Membru fondator al Asociației Internaționale a Consiliilor Economice și Sociale și Instituților Similare (AICESIS) Membru al Uniunii Consiliilor Economice și Sociale și Instituților Similare Francofone (UCESIF)
+
+„Consiliul Economic și Social este organ consultativ al Parlamentului și al Guvernului în domeniile de specialitate stabilite prin legea sa organică de înființare, organizare și funcționare.” (Art. 141 din Constituția României revizuită)
+
+Nr. 7048/28.10.2026
+
+Biroul permanent al Senatului
+
+## AVIZ
+
+## referitor la propunerea legislativă pentru completarea Legii nr.47/1994 privind serviciile din subordinea Președintelui României, precum și pentru reglementarea utilizării fondurilor publice aferente deplasărilor oficiale externe ale Președintelui României (b568/14.10.2026)
+
+În temeiul art. 2 alin. (1) din Legea nr. 248/2013 privind organizarea și funcționarea Consiliului Economic și Social, republicată, cu modificările și completările ulterioare, și art. 11 lit. a) din Regulamentul de organizare și funcționare, Consiliul Economic și Social a fost sesizat cu privire la avizarea propunerii legislative pentru completarea Legii nr.47/1994 privind serviciile din subordinea Președintelui României, precum și pentru reglementarea utilizării fondurilor publice aferente deplasărilor oficiale externe ale Președintelui României (b568/14.10.2026).
+
+## CONSILIUL ECONOMIC ȘI SOCIAL
+
+În temeiul art. 5 lit. a) din Legea nr. 248/2013 privind organizarea și funcționarea Consiliului Economic și Social, republicată, cu modificările și completările ulterioare, în ședința din data de 28.10.2026, desfășurată online, conform prevederilor art. 30 alin. (1) din Regulamentul de organizare și funcționare, avizează NEFAVORABIL prezentul proiect de act normativ, cu următoarea motivare:
+
+\- o lege trebuie să aibă un caracter general și impersonal, nefiind justificată adoptarea unei reglementări pentru soluționarea situației unei singure persoane. Totodată, subliniem următoarele aspecte:
+
+## 1. Omisiunea copiilor din reglementare
+
+Propunerea legislativă nu reglementează situațiile în care copiii președintelui îl însoțesc în deplasări externe cu caracter oficial, atunci când participarea lor este justificată de protocol, de programul vizitei sau de necesități obiective de protecție și îngrijire. Or, există situații în care programul unei vizite poate include activități familiale, evenimente culturale sau ceremonii la care participarea copiilor este justificată. În cazul copiilor minori, trebuie avute în vedere prevederile art. 49 din Constituție referitoare la protecția copiilor și a tinerilor, și principiul interesului superior al copilului, consacrat de Legea nr. 272/2004 privind protecția șui promovarea drepturilor copilului;
+
+## 2. Tratamentul diferențiat între soț/soție și partenerul de viață
+
+Art. 7¹ alin.(4) din propunerea legislativă permite expres soțului sau soției președintelui să facă parte din delegația oficială și să beneficieze de suportarea cheltuielilor de deplasare din fonduri publice, atunci când participarea este prevăzută de caracterul, programul sau protocolul vizitei, însă aceeași posibilitate nu este recunoscută partenerului de viață, chiar dacă acesta îndeplinește, în fapt, același rol familial și protocolar.
+
+Statutul matrimonial nu ar trebui să constituie singurul criteriu de recunoaștere a rolului de însoțitor în cadrul unei vizite oficiale. Nu certificatul de căsătorie ar trebui să determine posibilitatea însoțirii președintelui într-o deplasare oficială, ci existența unei relații familiale reale și justificarea participării prin programul sau protocolul vizitei. În același timp, nu poate fi ignorată situația copiilor minori și interesul superior al acestora, astfel că reglementarea trebuie să fie neutră față de statutul matrimonial, dar riguroasă în privința justificării cheltuielilor publice.
+
+În plus, art. 16 alin.(1) din Constituție consacră egalitatea în fața legii, iar art. 26 protejează viața intimă, familială și privată. De asemenea, art. 8 din Convenția europeană a drepturilor omului protejează viața de familie, noțiune care, în jurisprudența CEDO, nu este limitată exclusiv la relațiile întemeiate pe căsătorie. Aceste dispoziții nu creează automat un drept la deplasări finanțate public, dar constituie argumente pentru ca legiuiitorul să justificatione obiectiv orice tratament diferențiat. Ar fi oportună introducerea și definirea sintagmei „partener de viață” printr-o relație de conviețuire stabilă, asumată public și verificabilă, fără a impune existența unei căsătorii. Modalitatea de declarare trebuie să respecte viața privată și protecția datelor personale.
+
+3\. Interdicția excesiv de largă privind persoanele fără statut oficial Art. 7¹ alin.(3) și (5) instituie interdicții pentru persoanele care nu dețin o funcție sau un statut oficial recunoscut de lege. Aceste dispoziții trebuie corelate cu excepțiile pentru participarea familială, astfel încât însoțirea președintelui de către partener sau copii să nu fie confundată cu exercitarea atribuțiilor de reprezentare a statului. Participarea ca însoțitor în cadrul protocolului nu conferă persoanei respective calitatea de reprezentant al statului român.
+
+p. Președinte,
+
+Stericã-FUDULEA
+
+ROMÂNIA S

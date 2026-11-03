@@ -1,0 +1,19 @@
+# ROMANIA
+
+# PARLAMENTUL ROMÂNIEI
+
+Câtre Biroul Permanent al Senatului,
+
+Subsemnata, Simu Aurora Tasica, deputat ales în circumscripția electorală nr. 13 Cluj, prin prezenta vă adresez rugămintea de a-mi aproba solicitarea de a deveni coinițiator al următoarei propuneri legislative:
+
+B580/2026 – Propunere legislativă privind înființarea, organizarea și funcționarea instituției Avocatul Furnizorului de Servicii Sociale, precum și pentru modificarea și completarea unor acte normative.
+
+Cu stimă,
+
+Deputat Aurora Tasica Simu
+
+Data: 26.10.2026
+
+Aurora Tasica SIMU Deputat în Parlamentul României
+
+Telefon: +40 712 212 701 Adresă: Str. Decebal nr 11, ap 5, Cluj-Napoca, Romania

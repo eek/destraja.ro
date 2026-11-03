@@ -1,0 +1,93 @@
+{
+  "slug": "plx-266-2026",
+  "billId": "Pl-x 266/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:54:59.170Z",
+  "inputHash": "33c7f50823b2",
+  "riskScore": 1.7,
+  "summary": "O lege simbolică, fără obligații pentru nimeni, cu câteva neclarități mărunte privind banii publici și formulări vagi.",
+  "good": [
+    {
+      "text": "Legea nu impune nimic cetățenilor, firmelor sau autorităților: evenimentele sunt opționale și nu există sancțiuni.",
+      "article": "art. 1 și art. 2 alin. (1)",
+      "quote": "se pot organiza evenimente menite să consolidateze relația strategică româno-americană",
+      "weight": 2
+    },
+    {
+      "text": "Cheltuielile pot fi făcute doar din bugetele deja aprobate, deci legea nu cere bani noi și nu ocolește regulile cheltuielilor publice.",
+      "article": "art. 2 alin. (2)",
+      "quote": "autoritățile administrației publice centrale și locale pot organiza sau sprijini material ori logistic, în limita alocărilor bugetare aprobate",
+      "weight": 2
+    },
+    {
+      "text": "Radioul și televiziunea publică pot difuza materiale tematice, dar nu sunt obligate, deci decizia editorială rămâne a lor.",
+      "article": "art. 2 alin. (3)",
+      "quote": "Societatea Română de Radiodifuziune și Societatea Română de Televiziune pot difuza materiale tematice",
+      "weight": 2
+    },
+    {
+      "text": "Anul este doar simbolic: nu se creează zile libere sau alte costuri pentru economie.",
+      "article": "art. 1",
+      "quote": "Se instituie anul 2026 ca Anul Statelor Unite ale Americii în România.",
+      "weight": 1
+    },
+    {
+      "text": "Activitățile enumerate (conferințe, evenimente culturale și educaționale) sunt concrete și de interes public.",
+      "article": "art. 2 alin. (2) lit. a)-c)",
+      "quote": "evenimente culturale, academice și educaționale dedicate istoriei și valorilor americane;",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Formula „orice alte activități” lasă ministerelor și primăriilor mână liberă să finanțeze aproape orice sub această etichetă.",
+      "article": "art. 2 alin. (2) lit. d)",
+      "quote": "orice alte activități de promovare a cooperării româno-americane și a valorilor democratice.",
+      "weight": 2
+    },
+    {
+      "text": "Nu există plafoane, criterii de alegere sau obligația de a raporta cât s-a cheltuit, deci banii publici sunt greu de urmărit.",
+      "article": "art. 2 alin. (2)",
+      "quote": "pot organiza sau sprijini material ori logistic, în limita alocărilor bugetare aprobate, organizarea și desfășurarea de:",
+      "weight": 2
+    },
+    {
+      "text": "Termeni vagi și încărcați politic, ca „democrația autentică”, pot justifica finanțarea din bani publici a unor evenimente partizane.",
+      "article": "art. 2 alin. (1)",
+      "quote": "să reafirme angajamentul României față de valorile lumii libere, libertatea de exprimare și democrația autentică.",
+      "weight": 2
+    },
+    {
+      "text": "Legea aduce puțin nou: autoritățile pot organiza deja astfel de evenimente, deci adaugă mai mult text decât efect.",
+      "article": "art. 1 și art. 2",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Adoptată la jumătatea lui 2026 pentru un an care se termină curând, legea are efect scurt și poate împinge cheltuieli grăbite la final de an.",
+      "article": "formula de adoptare",
+      "quote": "Acest proiect de lege a fost adoptat de Camera Deputaților în ședința din 30 iunie 2026",
+      "weight": 1
+    },
+    {
+      "text": "Greșeală de scriere: „consolidateze” în loc de „consolideze”. Nu schimbă sensul, dar trebuie corectată.",
+      "article": "art. 2 alin. (1)",
+      "quote": "evenimente menite să consolidateze relația strategică româno-americană și să reafirme angajamentul României",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Scoaterea lit. d) sau înlocuirea ei cu o listă clară și introducerea obligației de a publica sumele cheltuite.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 10,
+    "verified": 10
+  }
+}

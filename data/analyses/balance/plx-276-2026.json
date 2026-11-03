@@ -1,0 +1,100 @@
+{
+  "slug": "plx-276-2026",
+  "billId": "Pl-x 276/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:55:28.882Z",
+  "inputHash": "6377b17e9d4d",
+  "riskScore": 2.7,
+  "summary": "O lege mică, de corelare, care nu rezolvă problema anunțată (compensarea de la buget) și introduce un criteriu nou și neclar de acordare.",
+  "good": [
+    {
+      "text": "Leagă scutirile din Codul fiscal pentru casă, teren și un vehicul de OG 27/1996, deci cele două legi nu se mai contrazic atât de mult.",
+      "article": "art. I pct. 1-3",
+      "quote": "Hotărârea Guvernului nr. 395/1996, cu modificările ulterioare, în conformitate cu Ordonanța Guvernului nr. 27/1996",
+      "weight": 2
+    },
+    {
+      "text": "Păstrează sprijinul fiscal pentru localitățile sărace și izolate din Munții Apuseni și din Delta Dunării.",
+      "article": "art. I pct. 1",
+      "quote": "localitățile prevăzute în Hotărârea Guvernului nr. 323/1996 privind aprobarea Programului special pentru sprijinirea dezvoltării economico-sociale a unor localități din Munții Apuseni",
+      "weight": 2
+    },
+    {
+      "text": "Facilitatea e limitată la casa de domiciliu, terenul ei și un singur vehicul, ceea ce ține costul sub control.",
+      "article": "art. I pct. 1-3",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Proiectul nu creează declarații, taxe sau sancțiuni noi pentru cetățeni ori firme mici.",
+      "article": "art. I",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Problema anunțată, adică banii de la bugetul de stat pentru primării, nu e rezolvată în text. Există doar o trimitere generală la OG 27/1996.",
+      "article": "art. I pct. 1-3",
+      "quote": "în conformitate cu Ordonanța Guvernului nr. 27/1996 privind acordarea unor facilități persoanelor care domiciliază sau lucrează în unele localități din Munții Apuseni",
+      "weight": 3
+    },
+    {
+      "text": "Consiliul local poate da scutire totală, dar OG 27/1996 compensează doar reducerea de 50%. Nu e clar cine plătește diferența.",
+      "article": "art. I pct. 1-3 (alin. (2) al art. 456, 464, 469)",
+      "quote": null,
+      "weight": 3
+    },
+    {
+      "text": "„Locuiesc efectiv” nu e definit, iar OG 27/1996 vorbește de domiciliu. Primăria nu are cum verifica, iar asta deschide calea la refuzuri sau cereri abuzive.",
+      "article": "art. I pct. 1-3",
+      "quote": "clădirea folosită ca domiciliu aflată în proprietatea persoanelor care locuiesc efectiv în localitățile prevăzute în Hotărârea Guvernului nr. 323/1996",
+      "weight": 3
+    },
+    {
+      "text": "Scutirea rămâne la mâna consiliului local („pot hotărî”) și nu devine un drept sigur al locuitorilor.",
+      "article": "art. I pct. 1-3 (partea introductivă a alin. (2), nemodificată)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Costul pentru bugetul de stat nu e calculat și nu are sursă de finanțare. Consiliul Fiscal a semnalat că cerințele legii responsabilității fiscale nu sunt îndeplinite.",
+      "article": "art. I",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Textul spune doar „în proprietatea”, fără „coproprietate”. Casele deținute de soți sau moștenitori în comun pot fi excluse printr-o interpretare strictă.",
+      "article": "art. I pct. 1-3",
+      "quote": "terenul aferent clădirii folosite ca domiciliu aflate în proprietatea persoanelor care locuiesc efectiv în localitățile prevăzute",
+      "weight": 1
+    },
+    {
+      "text": "Legea nu are dată de aplicare. Schimbarea criteriului în mijlocul anului fiscal poate încurca impozitele locale, care se stabilesc anual.",
+      "article": "art. I",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Pct. 3 nu spune care vehicul e scutit dacă omul are mai multe. Textul are și greșeli de redactare („Hotărârea 59 Guvernului”, „nr. nr.”).",
+      "article": "art. I pct. 3",
+      "quote": "un mijloc de transport în cazul celor aflate în proprietatea persoanelor care locuiesc efectiv în localitățile prevăzute în Hotărârea 59 Guvernului nr. 323/1996",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Înlocuirea „locuiesc efectiv” cu „domiciliază” (ca în OG 27/1996) și scrierea expresă în lege a compensării de la bugetul de stat, cu precizarea procentului acoperit.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 6,
+    "verified": 6
+  }
+}

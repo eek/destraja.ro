@@ -1,0 +1,105 @@
+{
+  "slug": "plx-383-2026",
+  "billId": "PL-x 383/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:00:35.899Z",
+  "inputHash": "3ed6d4903048",
+  "riskScore": 2,
+  "summary": "O lege simbolică și inofensivă, fără obligații sau costuri noi, cu câteva scăpări de redactare și de transparență.",
+  "good": [
+    {
+      "text": "Toate prevederile sunt facultative («poate», «pot»): nimeni nu e obligat să organizeze ceva și nu există sancțiuni, autorizații sau raportări noi pentru cetățeni și firme.",
+      "article": "art. 1 alin. (2), art. 2",
+      "quote": "Sărbătorirea anuală a Zilei Naționale a Antreprenoriatului Feminin poate fi marcată de autoritățile administrației publice centrale și locale",
+      "weight": 2
+    },
+    {
+      "text": "Ziua este doar simbolică: textul nu o face zi liberă și nu modifică Codul muncii, așa că angajatorii nu au niciun cost.",
+      "article": "art. 1 alin. (1)",
+      "quote": "Se instituie ziua de 19 noiembrie ca Ziua Națională a Antreprenoriatului Feminin.",
+      "weight": 2
+    },
+    {
+      "text": "Sprijinul public pentru evenimente se poate da doar din bugetele deja aprobate, deci legea nu cere bani noi de la buget.",
+      "article": "art. 2 alin. (1)",
+      "quote": "pot sprijini material sau logistic organizarea și desfășurarea acțiunilor și evenimentelor prevăzute la art. 1 alin. (2), în limita alocărilor bugetare aprobate",
+      "weight": 2
+    },
+    {
+      "text": "Radioul, televiziunea publică și AGERPRES «pot», nu «trebuie», să difuzeze materiale, deci independența lor editorială e respectată.",
+      "article": "art. 2 alin. (2)",
+      "quote": "Societatea Română de Radiodifuziune, Societatea Română de Televiziune și Agenția Națională de Presă AGERPRES, în calitate de servicii publice, pot produce, difuza sau redifuza conținut editorial",
+      "weight": 1
+    },
+    {
+      "text": "Nicio organizație privată (nici CONAF, lăudată în expunerea de motive) nu e numită în lege și nu primește exclusivitate sau finanțare garantată.",
+      "article": "art. 1, art. 2",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Oferă un prilej oficial pentru activități educative în școli și universități despre rolul femeilor în economie și inițiativa privată.",
+      "article": "art. 1 alin. (2)",
+      "quote": "prin care să fie promovate libertățile economice, proprietatea și inițiativa privată, rolul femeilor în dezvoltarea economică, în inovație și sustenabilitate",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Patronatele, care sunt private, sunt puse alături de autorități și legate de «alocări bugetare aprobate», noțiune care nu li se aplică. E o greșeală de redactare care creează confuzie.",
+      "article": "art. 2 alin. (1)",
+      "quote": "serviciile publice deconcentrate, structurile associative ale patronatelor, precum și instituțiile de învățământ preuniversitar și universitar pot sprijini material sau logistic",
+      "weight": 2
+    },
+    {
+      "text": "Nu există reguli despre cum se aleg evenimentele sprijinite cu bani sau resurse publice, ceea ce poate favoriza anumite organizații. Regulile generale despre banii publici rămân însă valabile.",
+      "article": "art. 2 alin. (1)",
+      "quote": "Autoritățile administrației publice centrale și locale, serviciile publice deconcentrate",
+      "weight": 2
+    },
+    {
+      "text": "Textul nu limitează sprijinul la bugetele care au chiar această destinație, cum susține expunerea de motive. Instituțiile ar putea muta bani de la alte cheltuieli deja aprobate.",
+      "article": "art. 2 alin. (1)",
+      "quote": "organizarea și desfășurarea acțiunilor și evenimentelor prevăzute la art. 1 alin. (2), în limita alocărilor bugetare aprobate",
+      "weight": 1
+    },
+    {
+      "text": "Dintre actorii privați, ca organizatori sunt numite doar patronatele. ONG-urile, asociațiile de femei și camerele de comerț lipsesc, iar lista nu se potrivește cu cea din art. 2.",
+      "article": "art. 1 alin. (2)",
+      "quote": "de unitățile de învățământ preuniversitar și universitar, de structurile associative ale patronatelor prin organizarea de activități și evenimente",
+      "weight": 1
+    },
+    {
+      "text": "Legea sugerează presei publice și teme cu tentă de doctrină economică («economia liberă»). Formularea e facultativă, dar e neobișnuit ca legea să indice mesajul.",
+      "article": "art. 2 alin. (2)",
+      "quote": "conținut editorial care promovează antreprenoriatul feminin din România, egalitatea de șanse, drepturile și libertățile economice fundamentale, economia liberă",
+      "weight": 1
+    },
+    {
+      "text": "Apar greșeli de redactare: «associative» în loc de «asociative», iar școlile sunt numite «unități» în art. 1 și «instituții» în art. 2.",
+      "article": "art. 1 alin. (2), art. 2 alin. (1)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Legea aduce puțin efect juridic nou, pentru că autoritățile și școlile pot organiza deja astfel de evenimente fără ea.",
+      "article": "art. 1, art. 2",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Patronatele ar trebui scoase din lista celor care sprijină «în limita alocărilor bugetare aprobate» și ar trebui adăugată obligația de a publica ce evenimente primesc sprijin public și după ce criterii.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 10,
+    "verified": 10
+  }
+}

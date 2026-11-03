@@ -1,0 +1,100 @@
+{
+  "slug": "plx-298-2026",
+  "billId": "Pl-x 298/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:56:59.418Z",
+  "inputHash": "df5a96da90df",
+  "riskScore": 2.7,
+  "summary": "O lege scurtă, cu un scop legitim de protecție a minorităților, dar care face permanentă, fără niciun prag minim, o regulă gândită inițial ca tranzitorie.",
+  "good": [
+    {
+      "text": "Oamenii dintr-o comunitate minoritară care scade sub 20% își păstrează dreptul de a folosi limba maternă la primărie, la consiliu și pe documente. Nu pierd peste noapte servicii pe care le foloseau.",
+      "article": "art. unic (art. 604 alin. (1))",
+      "quote": "sunt aplicabile și în cazul în care, din diferite motive, după intrarea în vigoare a prezentului cod, ponderea cetățenilor aparținând unei minorități naționale scade sub procentul prevăzut la art. 94",
+      "weight": 3
+    },
+    {
+      "text": "Primăriile nu mai trebuie să desființeze și să refacă plăcuțe bilingve, formulare și posturi la fiecare recensământ. Asta aduce previzibilitate și stabilitate administrativă.",
+      "article": "art. unic (art. 604 alin. (1))",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Protecția nu se extinde automat la localități noi. Se aplică doar acolo unde pragul de 20% a fost atins și apoi ponderea a scăzut după intrarea în vigoare a Codului.",
+      "article": "art. unic (art. 604 alin. (1))",
+      "quote": "din diferite motive, după intrarea în vigoare a prezentului cod, ponderea cetățenilor aparținând unei minorități naționale scade",
+      "weight": 1
+    },
+    {
+      "text": "Modificarea e minimă și nu introduce taxe, sancțiuni, autorizații sau obligații noi pentru cetățeni ori firme.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Obligațiile lingvistice devin permanente, fără un prag minim. Rămân valabile chiar dacă minoritatea ajunge la câteva procente, ceea ce intră în tensiune cu «pondere semnificativă» din art. 120 alin. (2) din Constituție.",
+      "article": "art. unic (art. 604 alin. (1))",
+      "quote": null,
+      "weight": 3
+    },
+    {
+      "text": "Dreptul depinde de istoric, nu de situația actuală: o comunitate scăzută la 12% îl păstrează, una cu 19% constant nu îl are. Diferența poate fi contestată sub art. 16 din Constituție.",
+      "article": "art. unic (art. 604 alin. (1))",
+      "quote": "după intrarea în vigoare a prezentului cod, ponderea cetățenilor aparținând unei minorități naționale scade sub procentul prevăzut la art. 94",
+      "weight": 2
+    },
+    {
+      "text": "Nu e clar față de care recensământ se măsoară scăderea (2011 sau 2021). Nici nu e clar dacă legea doar prelungește drepturile sau le reînvie acolo unde termenul vechi a expirat deja.",
+      "article": "art. unic (art. 604 alin. (1))",
+      "quote": "din diferite motive, după intrarea în vigoare a prezentului cod",
+      "weight": 2
+    },
+    {
+      "text": "Motivarea spune că legea nu costă nimic, dar personalul care știe limba, traducerile și formularele bilingve costă anual. Lipsesc estimarea costurilor și lista localităților afectate.",
+      "article": "art. unic; expunerea de motive",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Consiliile locale pot deja decide singure folosirea limbii minorității sub 20% (art. 94 alin. (2)). Legea transformă această opțiune locală într-o obligație permanentă impusă de la centru.",
+      "article": "art. unic (art. 604 alin. (1))",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "O regulă permanentă e pusă la «dispoziții tranzitorii și finale», în loc să fie scrisă în art. 94. Este greu de găsit, iar titlul vorbește de «completare» deși doar se modifică un alineat.",
+      "article": "art. unic",
+      "quote": "Alineatul (1) al articolului 604 se modifică și va avea următorul cuprins",
+      "weight": 1
+    },
+    {
+      "text": "Lista include articole cu condiții proprii, de pildă art. 138 alin. (3), legat de numărul consilierilor. Nu e clar cum se combină aceste condiții cu ponderea minorității din populație.",
+      "article": "art. unic (art. 604 alin. (1))",
+      "quote": "Prevederile art. 94, art. 135 alin. (5), art. 138 alin. (3), art. 195 alin. (2)-(6), art. 198 alin. (3) și ale art. 199 alin. (3)",
+      "weight": 1
+    },
+    {
+      "text": "Exemplele din motivare sunt practici voluntare și nu arată de ce e nevoie de o obligație legală permanentă.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Adăugați un prag minim sub care obligația încetează (de exemplu 10%) și precizați recensământul de referință. Mutați regula în art. 94, păstrând protecția doar pentru scăderi moderate.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 10,
+    "verified": 6
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "plx-258-2026",
+  "billId": "PL-x 258/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:55:00.939Z",
+  "inputHash": "be4e91217c42",
+  "riskScore": 2.7,
+  "summary": "O lege scurtă și bine intenționată, care ajută familiile, dar e scrisă incomplet: nu spune cine plătește evaluările și nu definește audierea online.",
+  "good": [
+    {
+      "text": "Familiile și persoana pentru care se cere ocrotirea nu mai plătesc evaluarea medicală și psihologică, oriunde în țară. Se termină practica diferită de la un județ la altul.",
+      "article": "art. unic pct. 1 (art. 938 alin. (3¹))",
+      "quote": "Cheltuielile ocazionate de efectuarea evaluării medicale și a raportului de evaluare psihologică nu vor fi impuse în sarcina persoanei ocrotite/examinate sau familiei acesteia",
+      "weight": 3
+    },
+    {
+      "text": "Audierea persoanei de către judecător rămâne obligatorie. Textul nu preia derogarea anunțată în expunerea de motive, așa că persoana are mereu ocazia să fie auzită.",
+      "article": "art. unic pct. 2 (art. 940 alin. (3))",
+      "quote": "instanța este obligată să îl asculte, în camera de consiliu, pe cel a cărui punere sub ocrotire este cerută",
+      "weight": 2
+    },
+    {
+      "text": "Judecătorul poate asculta persoana și online, nu doar acasă sau la locul de îngrijire. Asta e util pentru cei care nu se pot deplasa, iar varianta e permisă doar dacă e în interesul persoanei.",
+      "article": "art. unic pct. 2 (art. 940 alin. (3))",
+      "quote": "Dacă este în interesul celui a cărui punere sub ocrotire este cerută, acesta va fi ascultat la locuința sa",
+      "weight": 2
+    },
+    {
+      "text": "Legea nu introduce taxe, amenzi sau obligații noi pentru firme ori cetățeni.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Legea spune doar cine nu plătește evaluarea, nu și cine plătește. Medicii și psihologii fără contract cu casa de asigurări nu au de la cine încasa, deci evaluările se pot bloca.",
+      "article": "art. unic pct. 1 (art. 938 alin. (3¹))",
+      "quote": "nu vor fi impuse în sarcina persoanei ocrotite/examinate sau familiei acesteia",
+      "weight": 3
+    },
+    {
+      "text": "„Mijloace tehnice online” nu e definit. Nu se știe dacă e obligatorie imaginea, dacă merge telefonul, cine stă lângă persoană, dacă avocatul asistă și cum e ferită de presiuni.",
+      "article": "art. unic pct. 2 (art. 940 alin. (3))",
+      "quote": "în alt loc sau prin mijloace tehnice online apreciat de instanță ca fiind potrivit",
+      "weight": 2
+    },
+    {
+      "text": "Nu e clar dacă gratuitatea acoperă și reevaluările de la prelungirea, înlocuirea sau ridicarea măsurii, deși aceste reevaluări costă la fel.",
+      "article": "art. unic pct. 1 (art. 938 alin. (3¹))",
+      "quote": "Cheltuielile ocazionate de efectuarea evaluării medicale și a raportului de evaluare psihologică",
+      "weight": 2
+    },
+    {
+      "text": "Costurile pentru stat (evaluările gratuite și echipamentele pentru audieri online) nu sunt calculate și nu au o sursă de finanțare indicată în documentele furnizate.",
+      "article": "art. unic pct. 1 și pct. 2",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Audierea online îl poate împiedica pe judecător să vadă direct starea persoanei. Există riscul ca instanțele s-o aleagă din comoditate, nu pentru binele persoanei.",
+      "article": "art. unic pct. 2 (art. 940 alin. (3))",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Cuvântul „familie” nu e definit. Nu se știe dacă include ruda care a cerut ocrotirea, iar formularea „ocrotite/examinate” cu bară oblică e neclară.",
+      "article": "art. unic pct. 1 (art. 938 alin. (3¹))",
+      "quote": "fi impuse în sarcina persoanei ocrotite/examinate sau familiei acesteia",
+      "weight": 1
+    },
+    {
+      "text": "Fraza finală are un dezacord gramatical și amestecă locul audierii cu modul în care se face. Trebuie rescrisă ca să fie clară.",
+      "article": "art. unic pct. 2 (art. 940 alin. (3))",
+      "quote": "acesta va fi ascultat la locuința sa, acolo unde este îngrijit, în alt loc sau prin mijloace tehnice online",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Să se spună expres că evaluările se plătesc de stat (prin Ministerul Justiției/Ministerul Public), inclusiv la prestatorii fără contract cu casa de asigurări. Audierea online să fie definită ca legătură audio-video în timp real, cu verificarea identității și cu asistența avocatului.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 8
+  }
+}

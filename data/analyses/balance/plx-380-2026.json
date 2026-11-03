@@ -1,0 +1,95 @@
+{
+  "slug": "plx-380-2026",
+  "billId": "Pl-x 380/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:00:29.520Z",
+  "inputHash": "d7fefbbd0fc6",
+  "riskScore": 2.7,
+  "summary": "O lege utilă și cu scop bun, dar scrisă într-o singură frază prea vagă, fără regulile care să împiedice favoritismul la atribuirea locurilor de veci.",
+  "good": [
+    {
+      "text": "Familiile pot primi un loc de veci direct de la primărie, fără licitație publică, o procedură lungă și costisitoare, nepotrivită pentru o înmormântare.",
+      "article": "art. I (art. 14 alin. (3) nou)",
+      "quote": "Statul sau unitățile administrativ-teritoriale pot concesiona prin atribuire directă către persoanele fizice locurile de înhumare",
+      "weight": 3
+    },
+    {
+      "text": "Practica actuală a primăriilor, care dau deja locuri de veci fără licitație, primește bază legală clară, așa că oamenii și funcționarii nu mai riscă contracte contestabile.",
+      "article": "art. I",
+      "quote": "La articolul 14 din Legea nr. 102/2014 privind cimitirele, crematoriile umane și serviciile funerare",
+      "weight": 2
+    },
+    {
+      "text": "Atribuirea directă e permisă doar către persoane fizice, nu către firme, deci nu deschide calea preluării cimitirelor sau a serviciilor funerare de către companii.",
+      "article": "art. I (art. 14 alin. (3) nou)",
+      "quote": "pot concesiona prin atribuire directă către persoanele fizice locurile de înhumare ori de păstrare a urnelor de cenușă",
+      "weight": 2
+    },
+    {
+      "text": "Regula acoperă și nișele pentru urne din crematorii, nu doar mormintele, deci tratează la fel familiile care aleg incinerarea.",
+      "article": "art. I (art. 14 alin. (3) nou)",
+      "quote": "locurile de înhumare ori de păstrare a urnelor de cenușă din cimitirele sau din zonele special amenajate ale crematoriilor",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Legea nu spune după ce criterii se dau locurile, cine are prioritate când mai mulți le cer, nici că atribuirile trebuie publicate. Primăria poate alege după bunul plac.",
+      "article": "art. I (art. 14 alin. (3) nou)",
+      "quote": "Statul sau unitățile administrativ-teritoriale pot concesiona prin atribuire directă către persoanele fizice locurile de înhumare ori de păstrare a urnelor de cenușă",
+      "weight": 3
+    },
+    {
+      "text": "Motivarea promite atribuirea doar după deces, pe baza certificatului de deces, dar textul nu conține această condiție. Se pot da locuri dinainte și oricâte, ceea ce permite acapararea lor.",
+      "article": "art. I (art. 14 alin. (3) nou) / expunerea de motive",
+      "quote": null,
+      "weight": 3
+    },
+    {
+      "text": "Nu se spune expres că se derogă de la Codul administrativ, nici ce reguli rămân valabile: durată, preț (redevență), studiu de oportunitate. Primăriile vor aplica legea diferit.",
+      "article": "art. I (art. 14 alin. (3) nou)",
+      "quote": "pot concesiona prin atribuire directă către persoanele fizice locurile de înhumare ori de păstrare a urnelor de cenușă din cimitirele",
+      "weight": 2
+    },
+    {
+      "text": "Textul permite concesionarea și de către cine doar administrează terenul, deși poate concesiona doar proprietarul. Contractele astfel încheiate pot fi contestate.",
+      "article": "art. I (art. 14 alin. (3) nou)",
+      "quote": "din cimitirele sau din zonele special amenajate ale crematoriilor aflate în proprietatea sau administrarea lor, după caz",
+      "weight": 2
+    },
+    {
+      "text": "Lipsa unor reguli despre preț poate duce la sume foarte mici sau foarte diferite de la o primărie la alta. Afirmația că bugetele locale nu sunt afectate nu e argumentată.",
+      "article": "expunerea de motive (impact bugetar)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Motivarea vorbește doar de primării, dar textul include și statul, fără nicio explicație de ce și în ce cimitire.",
+      "article": "art. I (art. 14 alin. (3) nou)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Motivarea pare să indice greșit articolul din Codul administrativ care impune licitația, ceea ce sporește riscul unei derogări imprecise.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Textul ar trebui completat cu atribuirea după deces sau pe baza regulamentului consiliului local, criterii de prioritate, limită de locuri pe persoană, publicarea atribuirilor și derogare expresă de la Codul administrativ, iar „sau administrarea” ar trebui scos.",
+    "removes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 10,
+    "verified": 7
+  }
+}

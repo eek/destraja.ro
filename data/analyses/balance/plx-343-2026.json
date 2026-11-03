@@ -1,0 +1,99 @@
+{
+  "slug": "plx-343-2026",
+  "billId": "Pl-x 343/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:58:32.302Z",
+  "inputHash": "24eba20fe9f4",
+  "riskScore": 2.3,
+  "summary": "O lege simplă și în general rezonabilă, care pune în practică voința locuitorilor, dar este scrisă neglijent și nu are reguli de tranziție.",
+  "good": [
+    {
+      "text": "Readuce clar Căzăneștiul la statutul de comună, cum au cerut locuitorii la referendumul local invocat în expunerea de motive.",
+      "article": "art. 1",
+      "quote": "orașul Căzănești, județul Ialomița, trece la rangul de comună, deținut anterior intrării în vigoare a Legii nr. 134/2004",
+      "weight": 3
+    },
+    {
+      "text": "Coborârea rangului localității reduce impozitele locale care depind de rang, mai ales impozitul pe teren intravilan, deci localnicii plătesc mai puțin.",
+      "article": "art. 1",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Abrogă expres legea care a declarat localitatea oraș, așa că nu rămân în vigoare două legi care se contrazic.",
+      "article": "art. 3",
+      "quote": "publicată în Monitorul Oficial al României, Partea I, nr. 376 din 29 aprilie 2004, se abrogă.",
+      "weight": 2
+    },
+    {
+      "text": "Legea intră în vigoare abia după 30 de zile, ceea ce lasă primăriei și instituțiilor un minim de timp pentru pregătire.",
+      "article": "art. 5",
+      "quote": "Prezenta lege intră în vigoare la 30 de zile de la publicarea în Monitorul Oficial al României, Partea I.",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Nu există reguli de tranziție pentru bugetul în curs, contractele și proiectele finanțate pentru zone urbane. Primăria riscă să piardă bani sau să fie obligată să-i returneze.",
+      "article": "art. 5 (lipsă dispoziții tranzitorii)",
+      "quote": "Prezenta lege intră în vigoare la 30 de zile de la publicarea în Monitorul Oficial al României, Partea I.",
+      "weight": 3
+    },
+    {
+      "text": "Anexele celor două legi se modifică doar „în mod corespunzător”, fără textul nou. Nu se știe exact ce se scoate și ce se înscrie, iar interpretările pot diferi.",
+      "article": "art. 2 și art. 4",
+      "quote": "Rețeaua de localități, publicată în Monitorul Oficial al României, Partea I, nr. 408 din 24 iulie 2001, cu modificările și completările ulterioare, punctul 5.6 se modifică în mod corespunzător.",
+      "weight": 2
+    },
+    {
+      "text": "Proiectul nu estimează cu cât scad veniturile primăriei și nici costurile trecerii la comună, deși bugetul local e descris ca dezechilibrat.",
+      "article": "întregul proiect",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Referendumul invocat are 11 ani, iar din documente nu reiese o hotărâre recentă a consiliului local. Voința actuală a locuitorilor nu este verificată.",
+      "article": "art. 1 (fundamentare)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Legea nu spune ce sate formează comuna și care este satul reședință, deși rangul IV se acordă tocmai satului reședință.",
+      "article": "art. 1",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Nu se precizează că actele de identitate, actele de stare civilă și înscrierile din cartea funciară rămân valabile, ceea ce poate crea confuzie la ghișee.",
+      "article": "art. 5 (lipsă dispoziții tranzitorii)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Textul amestecă termenii: „comuna” este un tip de unitate administrativă, nu un rang de localitate. Formularea e imprecisă juridic.",
+      "article": "art. 1",
+      "quote": "La data intrării în vigoare a prezentei legi, orașul Căzănești, județul Ialomița, trece la rangul de comună",
+      "weight": 1
+    },
+    {
+      "text": "Titlul legii adoptate diferă de cel al propunerii și omite modificarea altor acte normative, deși art. 2 și art. 4 le modifică.",
+      "article": "titlul",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Art. 2 și art. 4 ar trebui să redea exact modificările din anexe, iar legea ar trebui completată cu dispoziții tranzitorii pentru buget, contracte, proiecte finanțate și documente.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 6,
+    "verified": 6
+  }
+}

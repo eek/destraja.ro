@@ -1,0 +1,105 @@
+{
+  "slug": "plx-319-2026",
+  "billId": "PL-x 319/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:57:32.159Z",
+  "inputHash": "5d2eca13dbc6",
+  "riskScore": 2,
+  "summary": "O lege simbolică, inofensivă și fără costuri obligatorii, cu o formulare greșită la colaborarea cu ONG-urile și o noțiune de „eroi” nedefinită.",
+  "good": [
+    {
+      "text": "Toate activitățile sunt opționale: autoritățile și instituțiile „pot” organiza evenimente, fără obligații, termene sau sancțiuni pentru nimeni.",
+      "article": "art. 2",
+      "quote": "precum și organizațiile aparținând minorităților naționale pot organiza activități culturale, sociale, educative și artistice",
+      "weight": 3
+    },
+    {
+      "text": "Banii și sprijinul logistic se dau doar din resursele existente, deci legea nu cere cheltuieli publice noi.",
+      "article": "art. 3 alin. (1)",
+      "quote": "pentru organizarea de evenimente culturale și educative dedicate Zilei Naționale a Rezistenței Anticomuniste din România, în limita resurselor financiare și logistice disponibile",
+      "weight": 2
+    },
+    {
+      "text": "18 iulie devine zi oficială de comemorare, fără să fie zi liberă. Firmele și angajații nu au costuri sau obligații noi.",
+      "article": "art. 1",
+      "quote": "Se instituie ziua de 18 iulie ca Ziua Națională a Rezistenței Anticomuniste din România.",
+      "weight": 2
+    },
+    {
+      "text": "Presa publică poate face emisiuni dedicate, dar nu e obligată. Libertatea editorială e respectată, iar presa privată nu e vizată.",
+      "article": "art. 4",
+      "quote": "în calitate de servicii publice, pot produce, difuza sau redifuza conținut editorial care promovează memoria eroilor rezistenței anticomuniste din România",
+      "weight": 2
+    },
+    {
+      "text": "Scopul educativ e pus în text: evenimentele trebuie să facă cunoscută istoria regimului comunist.",
+      "article": "art. 2",
+      "quote": "prin care să fie promovate istoria comunismului din România și eroii rezistenței anticomuniste române",
+      "weight": 1
+    },
+    {
+      "text": "Pot participa și instituțiile culturale din străinătate și organizațiile minorităților, deci comemorarea nu e limitată la autoritățile din țară.",
+      "article": "art. 2",
+      "quote": "autoritățile administrației publice centrale și locale, instituțiile publice de cultură din țară și străinătate",
+      "weight": 1
+    },
+    {
+      "text": "Autoritățile pot lucra cu muzee, școli și culte, adică instituții care au deja expertiză și spații pentru astfel de evenimente.",
+      "article": "art. 3 alin. (2)",
+      "quote": "pot organiza manifestări culturale în colaborare cu muzee, centre culturale, școli, instituții religioase",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Colaborarea e permisă doar cu ONG-uri care au în statut promovarea unei zile care încă nu există. Citit literal, textul exclude asociațiile care studiază de ani de zile victimele comunismului.",
+      "article": "art. 3 alin. (2)",
+      "quote": "asociații și fundații care au ca obiect de activitate promovarea Zilei Naționale a Rezistenței Anticomuniste din România",
+      "weight": 2
+    },
+    {
+      "text": "Legea nu spune cine sunt „eroii rezistenței”. Fără o limită clară, bani publici ar putea promova și persoane cu un trecut contestat, de exemplu condamnate pentru crime grave.",
+      "article": "art. 2 și art. 4",
+      "quote": "conținut editorial care promovează memoria eroilor rezistenței anticomuniste din România",
+      "weight": 2
+    },
+    {
+      "text": "Sprijinul financiar poate fi dat fără criterii de selecție sau reguli de transparență proprii. Asta lasă loc pentru finanțări după preferințe.",
+      "article": "art. 3 alin. (1)",
+      "quote": "pot acorda sprijin material, financiar și logistic pentru organizarea de evenimente culturale și educative",
+      "weight": 1
+    },
+    {
+      "text": "Din cauza virgulelor, nu e clar dacă limitarea la cultură, turism și educație privește toate autoritățile sau doar serviciile deconcentrate.",
+      "article": "art. 3 alin. (1)",
+      "quote": "serviciile publice deconcentrate, cu atribuții în domeniile culturii, turismului și educației, precum și instituțiile de învățământ superior",
+      "weight": 1
+    },
+    {
+      "text": "Textul vorbește de „sărbătorire” pentru o zi care comemorează execuții. Formularea e nepotrivită și contrazice caracterul de comemorare.",
+      "article": "art. 4",
+      "quote": "Cu ocazia sărbătoririi anuale a Zilei Naționale a Rezistenței Anticomuniste din România",
+      "weight": 1
+    },
+    {
+      "text": "Autoritățile și presa publică pot organiza deja astfel de activități. Legea e mai ales simbolică și adaugă puțin efect juridic concret.",
+      "article": "art. 2–4",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "La art. 3 alin. (2), colaborarea ar trebui permisă cu organizațiile care se ocupă de memoria victimelor și a rezistenței anticomuniste. Legea ar trebui să excludă de la promovare persoanele condamnate pentru crime împotriva umanității sau de război.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 12,
+    "verified": 12
+  }
+}

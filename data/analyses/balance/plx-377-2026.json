@@ -1,0 +1,99 @@
+{
+  "slug": "plx-377-2026",
+  "billId": "PL-x 377/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:59:51.852Z",
+  "inputHash": "8f05d55d5179",
+  "riskScore": 2.3,
+  "summary": "O lege mică și utilă, care informează primăriile despre gestionarul vânătorii, cu câteva scăpări de redactare, dar fără vreo prevedere care să strice totul.",
+  "good": [
+    {
+      "text": "Gestionarul fondului de vânătoare trebuie să anunțe toate primăriile din zonă. Astfel, primăria știe cui să se adreseze pentru pagube produse de animale și pentru plângerile oamenilor.",
+      "article": "art. I pct. 1 (art. 9 alin. (1²))",
+      "quote": "să notifice unitățile administrativ-teritoriale pe raza cărora este situat fondul cinegetic",
+      "weight": 3
+    },
+    {
+      "text": "Obligația are un termen clar de 30 de zile și se repetă la fiecare act adițional, deci informația primăriei rămâne la zi pe toată durata contractului.",
+      "article": "art. I pct. 1 (art. 9 alin. (1²))",
+      "quote": "în termen de cel mult 30 de zile de la data încheierii contractului de gestionare, prevăzut la alin. (1), precum și de la data fiecărui act adițional la acesta",
+      "weight": 2
+    },
+    {
+      "text": "Notificarea se poate trimite ieftin: prin e-mail, prin scrisoare recomandată sau direct la registratură, deci costul e mic și pentru gestionarii mici.",
+      "article": "art. I pct. 1 (art. 9 alin. (1²))",
+      "quote": "Notificarea se transmite prin scrisoare recomandată cu aviz de primire, prin poștă electronică sau prin depunere directă la registratura unității administrativ-teritoriale.",
+      "weight": 2
+    },
+    {
+      "text": "Cine nu anunță primăria riscă o amendă de 500–1.500 lei. Suma e moderată, potrivită unei obligații de informare, și e trecută în categoria existentă a abaterilor ușoare.",
+      "article": "art. I pct. 2 (art. 48 alin. (1) lit. b))",
+      "quote": "încălcarea dispozițiilor prevăzute la art. 9 alin. (1²), art. 23 alin. (l) lit. c), d), j), k), l), q) și w), precum și la art. 39 alin. (1) lit. h), k), n) și r), cu amendă de la 500 lei la 1.500 lei",
+      "weight": 2
+    },
+    {
+      "text": "Legea intră în vigoare abia la 30 de zile de la publicare, iar gestionarii au timp să afle de noua obligație.",
+      "article": "art. II",
+      "quote": "Prezenta lege intră în vigoare la 30 de zile de la data publicării în Monitorul Oficial al României, Partea I.",
+      "weight": 1
+    },
+    {
+      "text": "Cetățenilor nu li se cer acte sau taxe noi, iar textul nu creează cheltuieli noi de la buget.",
+      "article": "art. I",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Nu există regulă pentru contractele deja în vigoare, care pot dura mulți ani. Primăriile nu vor afla cine e gestionarul până la un eventual act adițional.",
+      "article": "art. II",
+      "quote": "Prezenta lege intră în vigoare la 30 de zile de la data publicării în Monitorul Oficial al României, Partea I.",
+      "weight": 3
+    },
+    {
+      "text": "Legea nu spune ce trebuie să conțină notificarea (nume, contact, fond, durată). Expunerea de motive vorbește de comunicarea contractului, dar textul nu o cere. Amenzile pot fi date diferit de la caz la caz.",
+      "article": "art. I pct. 1 (art. 9 alin. (1²))",
+      "quote": "Gestionarul fondului cinegetic are obligația ca, în termen de cel mult 30 de zile de la data încheierii contractului de gestionare",
+      "weight": 2
+    },
+    {
+      "text": "La e-mail nu se precizează cum se dovedește trimiterea sau primirea. Pot apărea dispute dacă primăria spune că nu a primit nimic și dă amendă.",
+      "article": "art. I pct. 1 (art. 9 alin. (1²))",
+      "quote": "prin poștă electronică sau prin depunere directă la registratura unității administrativ-teritoriale",
+      "weight": 1
+    },
+    {
+      "text": "Gestionarul trebuie să anunțe toate primăriile după orice act adițional, chiar și unul mărunt care nu schimbă gestionarul. Asta înseamnă birocrație inutilă.",
+      "article": "art. I pct. 1 (art. 9 alin. (1²))",
+      "quote": "precum și de la data fiecărui act adițional la acesta, să notifice unitățile",
+      "weight": 1
+    },
+    {
+      "text": "Primăriile nu sunt obligate să facă publică informația primită. Oamenii păgubiți de animale sălbatice tot trebuie să întrebe la primărie cine e gestionarul.",
+      "article": "art. I pct. 1 (art. 9 alin. (1²))",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Greșeală de redactare: scrie „alin. (l)” (litera l) în loc de „alin. (1)”. Poate crea confuzie la aplicarea amenzilor.",
+      "article": "art. I pct. 2 (art. 48 alin. (1) lit. b))",
+      "quote": "art. 23 alin. (l) lit. c), d), j), k), l), q) și w)",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Trebuie adăugată o regulă care obligă gestionarii cu contracte în derulare să notifice primăriile în 30–60 de zile de la intrarea în vigoare. Trebuie stabilit și conținutul minim al notificării.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.2
+  },
+  "quotes": {
+    "checked": 10,
+    "verified": 10
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "plx-378-2026",
+  "billId": "Pl-x 378/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:00:11.650Z",
+  "inputHash": "6c6310507755",
+  "riskScore": 2.5,
+  "summary": "O lege utilă pentru pensionari, cu o contradicție între cele două puncte și formulări vagi care trebuie reparate, nu o lege rea.",
+  "good": [
+    {
+      "text": "Legea spune clar că adeverința de venit pentru pensie se poate face și din fișele de salarii, nu doar din statele de plată, deci casele de pensii nu le mai pot respinge pe motiv formal.",
+      "article": "art. unic pct. 1",
+      "quote": "eliberată pe baza statelor de plată sau a fișelor de evidență a retribuțiilor/salariilor, de către angajatori",
+      "weight": 3
+    },
+    {
+      "text": "Fișele nominale de salarii primesc aceeași valoare ca statele de plată când acestea s-au pierdut, ajutând oamenii cu arhive incomplete, mai ales pentru perioade vechi.",
+      "article": "art. unic pct. 2 (Anexa nr. 6, alin. 2)",
+      "quote": "fișele de evidență a retribuțiilor/salariilor întocmite nominal pentru fiecare salariat sunt recunoscute ca documente justificative valide",
+      "weight": 3
+    },
+    {
+      "text": "Fișa este acceptată doar dacă e întocmită pe numele salariatului și arată venitul lunar, ceea ce limitează folosirea unor documente incomplete.",
+      "article": "art. unic pct. 2 (Anexa nr. 6, alin. 2)",
+      "quote": "având aceeași valoare probatorie, în măsura în care conțin toate elementele necesare stabilirii venitului lunar realizat",
+      "weight": 2
+    },
+    {
+      "text": "Adeverința rămâne eliberată doar de angajatori sau deținători de arhive autorizați, în original, ceea ce păstrează un control asupra autenticității.",
+      "article": "art. unic pct. 1",
+      "quote": "deținătorii legali de arhive sau operatorii economici autorizați de Arhivele Naționale pentru prestarea serviciilor arhivistice, care au dreptul legal de a certifica aceste date, în original",
+      "weight": 2
+    },
+    {
+      "text": "Articolul din lege și modelul de adeverință din anexă sunt puse de acord, ceea ce poate reduce refuzurile diferite de la o casă de pensii la alta și procesele.",
+      "article": "art. unic pct. 1 și pct. 2",
+      "quote": "Adeverința se eliberează în baza statelor de plată sau a fișelor de evidență a retribuțiilor/salariilor, aflate în arhiva angajatorului",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Pct. 1 acceptă fișele oricând, dar anexa le acceptă doar dacă statele de plată nu mai există. Cele două reguli se bat cap în cap și casele de pensii pot alege varianta restrictivă.",
+      "article": "art. unic pct. 1 și pct. 2 (Anexa nr. 6, alin. 2)",
+      "quote": "În situația în care statele de plată nu mai există sau nu se mai regăsesc în arhive",
+      "weight": 3
+    },
+    {
+      "text": "Inițiatorii spun că nu există cost pentru buget, fără nicio cifră. Recunoașterea unor venituri noi poate mări pensiile plătite, deci costul nu e estimat.",
+      "article": "Expunerea de motive",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "„Toate elementele necesare” nu sunt enumerate (nume, perioadă, venit, cine a semnat), așa că fiecare casă de pensii poate decide altfel ce fișă e bună.",
+      "article": "art. unic pct. 2 (Anexa nr. 6, alin. 2)",
+      "quote": "în măsura în care conțin toate elementele necesare stabilirii venitului lunar realizat",
+      "weight": 2
+    },
+    {
+      "text": "Nu se spune cine și cum dovedește că statele de plată nu mai există, ceea ce poate duce la cereri de acte în plus sau la refuzuri arbitrare.",
+      "article": "art. unic pct. 2 (Anexa nr. 6, alin. 2)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Nu se cere nicio verificare a autenticității fișei (semnătură, ștampilă, confruntare cu alte acte), deci crește riscul unor adeverințe greșite sau false.",
+      "article": "art. unic pct. 2",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Legea nu spune ce se întâmplă cu cei cărora li s-au respins deja adeverințele: dacă pot cere recalculare și de la ce dată.",
+      "article": "Articol unic (lipsă dispoziție tranzitorie)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Oamenii trebuie în continuare să obțină și să plătească adeverințele de la arhive; legea nu prevede gratuitate sau termene de eliberare.",
+      "article": "art. unic pct. 1",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Pct. 1 și pct. 2 trebuie puse de acord, alegând o singură regulă, iar elementele obligatorii ale fișei și modul de dovedire a lipsei statelor de plată trebuie enumerate explicit.",
+    "removes": [
+      0,
+      2,
+      3
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 7
+  }
+}

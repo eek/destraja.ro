@@ -7,8 +7,15 @@ const upper = (s: string) => s.replace(/^./, (c) => c.toUpperCase());
 
 /** „Raport, termen: 10.11.2026”: de ce e proiectul pe ordinea de zi, cum scrie pe pagina oficială. */
 export function purpose(a: AgendaAppearance) {
-  const why = a.punct.scop || a.punct.capitol;
-  const due = a.punct.termen && (/^termen/i.test(a.punct.termen) ? a.punct.termen : `termen: ${a.punct.termen}`);
+  // Senatul scrie „RAPORT\n, trimis pentru aviz la … (TERMEN: 22-09-2026)”: îl aducem la forma unei propoziții, iar
+  // termenul nu-l mai adăugăm o dată când e deja în scop.
+  const why = (a.punct.scop || a.punct.capitol)
+    .replace(/\s+/g, ' ')
+    .replace(/ ,/g, ',')
+    .replace(/,(?=\S)/g, ', ')
+    .replace(/\b(RAPORT|AVIZ|TERMEN)\b/g, (w) => w.toLowerCase())
+    .replace(/[,\s]+$/, '');
+  const due = a.punct.termen && !/termen/i.test(why) && (/^termen/i.test(a.punct.termen) ? a.punct.termen : `termen: ${a.punct.termen}`);
   return [why && upper(why), due].filter(Boolean).join(', ');
 }
 

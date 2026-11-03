@@ -1,0 +1,13 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+## Către Biroul permanent
+
+Subsemnata Rodica Cușnir, senator ales în Circumscripția electorală nr.35 Suceava, solicit să aprobați dobândirea calității de coinițiator al Propunerii legislative pentru modificarea și completarea Legii nr.51/1995 pentru organizarea și exercitarea profesiei de avocat, precum și pentru completarea Legea nr.287/2009 privind Codul Civil (B563/2026).
+
+Vă mulțumesc.
+
+Senator Rodica CUȘNIR
+
+28.10.2026

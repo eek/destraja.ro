@@ -1,0 +1,21 @@
+# PARLAMENTUL ROMÂNIEI SENATUL
+
+Catre: Biroul Permanent al Senatului
+
+Subiect: Retragerea semnăturii de co-initiatoare a propunerii legislative 8563/2026
+
+Subsemnata, Simona Spătaru, senatoare aleasă în Circumscripția electorală nr. 42 București, vă rog să dați curs solicitării mele de retragere a semnăturii de co-initiatoare a propunerii legislative B563/2026- pentru modificarea și completarea Legii nr.51/1995 pentru organizarea și exercitarea profesiei de avocat, precum și pentru completarea Legea nr.287/2009 privind Codul Civil.
+
+Cu deosebită consideratie,
+
+ROMANIA Parlamentul României Camera Deputaților CABINET VICEPREȘEDINTE Adrian Felician COZMA Palatul Parlamentului, Str. Izvor nr.2-4, sector 5, București 021.414.1026/1027; fax 021.316.0370
+
+## Catre
+
+## Biroul Permanent al Senatului Romaniei
+
+Subsemnatul COZMA Adrian Felician (deputat ales in Circumscriptia electorala nr.32 Satu Mare) prin prezenta va rog sa mi aprobati retragerea semnaturii ca, coinitiator al propunerii legislative B563/2026- Propunere legislativa pentru modificarea si completarea Legii nr.51/1995 pentru organizarea si exercitarea profesiei de avocat, precum si pentru completarea Legii nr.287/2009 privind Codul Civil.
+
+Va multumesc,
+
+Adrian Felician Cozma Deputat

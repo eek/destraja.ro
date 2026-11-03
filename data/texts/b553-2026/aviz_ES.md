@@ -1,0 +1,59 @@
+Cod fiscal: 10464660
+
+E-mail: ces@ces.ro
+
+www.ces.ro
+
+Membru fondator al Asociației Internaționale a Consiliilor Economice și Sociale și Instituțiilor Similare (AICESIS) Membru al Uniunii Consiliilor Economice și Sociale și Instituțiilor Similare Francofone (UCESIF)
+
+„Consiliul Economic și Social este organ consultativ al Parlamentului și al Guvernului în domeniile de specialitate stabilite prin legea sa organică de înființare, organizare și funcționare.” (Art. 141 din Constituția României revizuită)
+
+Nr. 7043/28.10.2026
+
+Biroul permanent al Senatului
+
+Bp....553/30.10.2026
+
+## AVIZ
+
+# referitor la propunerea legislativă pentru modificarea și completarea Legii nr.227/2015 privind Codul fiscal și a Legii nr.208/2015 privind alegerea Senatului și a Camerei Deputaților, precum și pentru organizarea și funcționarea Autorității Electorale Permanente, în vederea instituirii unei bonificații fiscale suplimentare anuale pentru participarea electorală (b553/07.10.2026)
+
+În temeiul art. 2 alin. (1) din Legea nr. 248/2013 privind organizarea și funcționarea Consiliului Economic și Social, republicată, cu modificările și completările ulterioare, și art. 11 lit. a) din Regulamentul de organizare și funcționare, Consiliul Economic și Social a fost sesizat cu privire la avizarea propunerii legislative pentru modificarea și completarea Legii nr.227/2015 privind Codul fiscal și a Legii nr.208/2015 privind alegerea Senatului și a Camerei Deputaților, precum și pentru organizarea și funcționarea Autorității Electorale Permanente, în vederea instituirii unei bonificații fiscale suplimentare anuale pentru participarea electorală (b553/07.10.2026).
+
+## CONSILIUL ECONOMIC ȘI SOCIAL
+
+În temeiul art. 5 lit. a) din Legea nr. 248/2013 privind organizarea și funcționarea Consiliului Economic și Social, republicată, cu modificările și completările ulterioare, în ședința din data de 28.10.2026, desfășurată online, conform prevederilor art. 30 alin. (1) din Regulamentul de organizare și funcționare, avizează NEFAVORABIL prezentul proiect de act normativ, cu următoarea motivare:
+
+\- pentru punerea în aplicare a măsurilor propuse, inițiativa legislativă prevede înființarea unui serviciu electronic special administrat de Autoritatea Electorală Permanentă (AEP), prin care primăriile verifică automat dacă un cetățean este „eligibil” sau „neeligibil” (dacă a votat sau nu), fără a se transmite informații despre opțiunea politică sau votul efectiv. Măsura este facultativă, decizia finală de a o aplica aparținând fiecărei localități în parte.
+
+\- propunerea legislativă prezintă o serie de vulnerabilități de ordin juridic și de tehnică legislativă:
+
+\- măsura instituie o discriminare vădită între cetățeni pe criterii territoriale și patrimoniale. Mecanismul fiind facultativ pentru administrațiile locale (în virtutea autonomiei financiare), doi cetățeni cu același comportament civic (prezența completă la vot) vor fi tratați diferit: unul va beneficia de reducere dacă locuiește într-o localitate bogată, iar celălalt nu, dacă localitatea de domiciliu are un buget slab. Bonificația fiind procentuală (până la 5%), ea generează un avantaj valoric net superior pentru persoanele cu un patrimoniu mai mare, viciind principiul justei așezări a sarcinilor fiscale prevăzut de art. 56 din Constituție;
+
+\- dreptul de vot (constituțional, liber și opțional ca exercițiu) nu poate fi utilizat juridic drept instrument de condiționare pentru acordarea unor facilități fiscale legate de bunuri (clădiri, terenuri, autoturisme). Fiscalitatea și drepturile electorale aparțin unor ramuri de drept complet diferite, iar condiționarea unora de celelalte afectează substanța libertății votului;
+
+\- circuitul juridic propus încarcă nejustificat atât Autoritatea Electorală Permanentă (AEP), cât și instanțele de judecată. Reglementarea unor termene de 15-30 de zile pentru soluționarea contestațiilor de către AEP, urmată de obligația atacării în contencios administrativ, va genera un volum masiv de litigii pentru sume derizorii (bonificația individuală la nivel local). Prevederea conform căreia organul fiscal este obligat să reexamineze din oficiu actul fiscal și să modifice decizia de impunere chiar și după expirarea termenelor legale de contestare, doar în baza unei corectări ulterioare a statutului electoral, încalcă grav principiul stabilității raporturilor juridice și al securității circuitului fiscal;
+
+\- deși propunerea legislativă stipulează că organul fiscal primește doar calificativul „eligibil" sau „neeligibil", interogarea anuală și jurnalizarea acestor date pentru 19 milioane de cetățeni creează premisele unei prelucrări masive și potențial abuzive de date cu caracter personal. Corelarea repetată pe parcursul a 5 ani a stării de „neeligibilitate" fiscal-electorală poate duce la deducerea indirecta a comportamentului sau opiniilor politice ale persoanelor, fapt ce contravine Regulamentului (UE) 2016/679;
+
+\- art. 36 din Constituția României consacră dreptul de vot, a cărui exercitare trebuie să reprezinte expresia liberă a voinței cetățeanului. Condiționarea acordării unui avantaj fiscal de participarea la alegeri introduce un stimulent economic susceptibil să influențeze exercitarea unui drept fundamental. Libertatea electorală presupune inclusiv posibilitatea cetățeanului de a decide să nu participe la un anumit scrutin, fără consecințe patrimoniale defavorabile în raport cu persoanele care participă. Deși inițiativa nu instituie formal obligativitatea votului, diferențierea fiscală propusă poate genera o formă indirectă de presiune economică, incompatibilă cu exigențele unui proces electoral autentic liber;
+
+\- potrivit art. 16 și art. 56 alin. (2) din Constituție, cetățenii beneficiază de egalitate în fața legii, iar sistemul fiscal trebuie să asigure așezarea justă a sarcinilor fiscale. Acordarea unei bonificații în funcție de conduita electorală instituie un tratament diferențiat între contribuabili aflați în situații fiscale comparabile, fără o legătură directă cu veniturile, capacitatea contributivă sau situația social-economică. Totodată, condițiile privind participarea la toate scrutinurile relevante, precum și excluderea anumitor categorii de alegători, pot produce diferențe de tratament dificil de justificat obiectiv și proporțional;
+
+\- mecanismul de verificare propus presupune interconectarea informațiilor electorale administrate de Autoritatea Electorală Permanentă cu evidențele fiscale ale autorităților locale. Această prelucrare necesită garanții stricte privind legalitatea, limitarea scopului, minimizarea datelor, securitatea informațiilor și păstrarea acestora, potrivit Regulamentului (UE) 2016/679. Propunerea legislativă necesită o evaluare riguroasă a necesității și proporționalității accesului autorităților fiscale la informații individualizate privind participarea electorală, precum și delimitarea responsabilităților instituțiilor implicate;
+
+\- bonificația suplimentară de 5% determină diminuarea veniturilor proprii ale unităților administrativ-teritoriale, fără instituirea unui mecanism de compensare bugetară. Această reducere poate afecta finanțarea serviciilor publice locale, investițiile și capacitatea administrațiilor de a-și îndeplini obligațiile față de cetățeni. În absența unor estimări privind numărul potențialilor beneficiari și pierderile de venituri, impactul financiar al inițiativei rămâne insuficient fundamentat;
+
+\- instituirea unui serviciu electronic de verificare a eligibilității presupune dezvoltarea infrastructurii informatice, interoperabilitate instituțională, personal specializat și proceduri suplimentare de soluționare a contestațiilor. Aceste obligații pot genera cheltuieli administrative disproporționate în raport cu beneficiile anticipate, în special pentru unitățile administrativ-teritoriale cu resurse limitate;
+
+\- în concluzie, considerăm că acordarea unei bonificații pentru încurajarea participării la vot nu reprezintă o măsură oportună, aceasta amestecând două domenii care ar trebui să rămână distincte: obligațiile fiscale ale cetățenilor și exercitarea unui drept fundamental într-o societate democratică;
+
+\- în primul rând, participarea electorală trebuie să fie rezultatul unei convingeri civice, nu al unui stimulent financiar. Votul reprezintă un drept fundamental și o formă de exprimare liberă a voinței cetățeanului. Încurajarea participării la alegeri este legitimă, însă recompensa financiară poate transforma un act de responsabilitate civică într-un comportament motivat de un avantaj material;
+
+\- în al doilea rând, măsura ridică probleme de echitate fiscală. Impozitul pe clădiri este o obligație stabilită în funcție de criterii fiscale și patrimoniale, nu un instrument de recompensare a comportamentului electoral;
+
+\- în al treilea rând, o astfel de bonificație poate afecta percepția asupra libertății votului. Chiar dacă nu condiționează alegerea unui anumit candidat sau partid, asocierea unui beneficiu fiscal cu prezența la urne introduce un stimulent material într-un proces care trebuie să rămână liber de presiuni și interese financiare.
+
+p. Președinte,
+
+Sterică FUDULEA

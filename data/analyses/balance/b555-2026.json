@@ -1,0 +1,98 @@
+{
+  "slug": "b555-2026",
+  "billId": "B555/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:33:09.900Z",
+  "inputHash": "d236da0a215f",
+  "riskScore": 1.5,
+  "summary": "O lege simbolică, fără costuri obligatorii și cu garanții reale pentru libertatea de conștiință, cu doar câteva neclarități minore de redactare.",
+  "good": [
+    {
+      "text": "Elevii nu sunt obligați să participe la activitățile religioase, iar refuzul nu poate aduce sancțiuni, avantaje sau tratament diferit.",
+      "article": "art. 3 alin. (4)",
+      "quote": "Participarea elevilor la activitățile cu caracter confesional organizate în aplicarea prezentei legi este facultativă și nu poate constitui criteriu pentru acordarea unor avantaje",
+      "weight": 3
+    },
+    {
+      "text": "Orice activitate din școli trebuie să respecte libertatea de conștiință, nediscriminarea și opțiunea elevului privind ora de religie.",
+      "article": "art. 3 alin. (3)",
+      "quote": "Activitățile organizate în unitățile și instituțiile de învățământ se desfășoară cu respectarea libertății de gândire, de conștiință și de religie",
+      "weight": 3
+    },
+    {
+      "text": "Legea nu obligă statul sau primăriile să aloce bani în plus, deci nu împovărează bugetul.",
+      "article": "art. 5 alin. (3)",
+      "quote": "Aplicarea prezentei legi nu generează obligația alocării unor fonduri suplimentare de la bugetul de stat sau de la bugetele locale.",
+      "weight": 2
+    },
+    {
+      "text": "Ziua se adresează profesorilor de religie din toate cultele recunoscute, cu respectarea egalității între culte, nu doar unuia singur.",
+      "article": "art. 2",
+      "quote": "se adresează profesorilor care predau disciplina Religie, potrivit legii, pentru cultele recunoscute în România, cu respectarea principiului egalității cultelor și a libertății de conștiință",
+      "weight": 2
+    },
+    {
+      "text": "Radioul și televiziunea publică doar pot, nu sunt obligate, să difuzeze emisiuni, iar autonomia lor editorială este păstrată expres.",
+      "article": "art. 4",
+      "quote": "pot include în programele proprii, cu respectarea autonomiei editoriale, emisiuni și materiale dedicate Zilei Naționale a Profesorului de Religie",
+      "weight": 1
+    },
+    {
+      "text": "Instituțiile pot organiza activități, dar nu sunt obligate, deci nu se creează sarcini administrative noi.",
+      "article": "art. 3 alin. (2)",
+      "quote": "precum și cultele recunoscute potrivit legii pot organiza sau sprijini manifestările prevăzute la alin. (1), în condițiile legii.",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Garanția explicită de participare facultativă acoperă doar activitățile „cu caracter confesional”; nu e clar cine decide ce e confesional și ce nu.",
+      "article": "art. 3 alin. (4)",
+      "quote": "Participarea elevilor la activitățile cu caracter confesional organizate în aplicarea prezentei legi este facultativă",
+      "weight": 2
+    },
+    {
+      "text": "Deși nu e obligatoriu, instituțiile pot cheltui bani din bugetele existente și pot primi sponsorizări, fără reguli speciale de transparență.",
+      "article": "art. 5 alin. (1)-(2)",
+      "quote": "Pentru organizarea manifestărilor pot fi utilizate sponsorizări, donații și alte surse legal constituite, în condițiile legii.",
+      "weight": 1
+    },
+    {
+      "text": "Cultele pot organiza manifestări și în școli; protecțiile din art. 3 reduc riscul de presiune religioasă, dar nu îl elimină complet.",
+      "article": "art. 3 alin. (2)",
+      "quote": "unitățile și instituțiile de învățământ, instituțiile publice de cultură, precum și cultele recunoscute potrivit legii pot organiza sau sprijini manifestările prevăzute la alin. (1)",
+      "weight": 1
+    },
+    {
+      "text": "Data aleasă (Sfinții Trei Ierarhi) vine din tradiția ortodoxă, ceea ce poate părea o preferință simbolică pentru un cult, deși legea vizează toate cultele.",
+      "article": "art. 1",
+      "quote": "Se instituie ziua de 30 ianuarie ca „Ziua Națională a Profesorului de Religie”, dedicată recunoașterii contribuției profesorilor de religie",
+      "weight": 1
+    },
+    {
+      "text": "Formula finală invocă art. 76 alin. (1) (majoritate pentru legi organice), deși expunerea spune că e lege ordinară – greșeală de procedură.",
+      "article": "formula de adoptare",
+      "quote": "cu respectarea prevederilor art. 75 și art. 76 alin. (1) din Constituția României, republicată",
+      "weight": 1
+    },
+    {
+      "text": "Greșeală de redactare („organize” în loc de „organizate”), care trebuie corectată înainte de adoptare.",
+      "article": "art. 3 alin. (1)",
+      "quote": "Cu prilejul Zilei Naționale a Profesorului de Religie pot fi organize activități educaționale, culturale și științifice",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Extinderea caracterului facultativ și a interdicției de sancțiuni la toate activitățile din școli organizate în baza legii, nu doar la cele „confesionale”.",
+    "removes": [
+      0
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 12,
+    "verified": 12
+  }
+}

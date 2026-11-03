@@ -1,0 +1,89 @@
+{
+  "slug": "b596-2026",
+  "billId": "B596/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:37:49.060Z",
+  "inputHash": "1cf2188c6721",
+  "riskScore": 2.3,
+  "summary": "O lege simplă și în esență benefică, ce ridică doar plafonul tichetelor de masă, cu probleme de calendar și o înghețare neclară a plafonului în art. II.",
+  "good": [
+    {
+      "text": "Crește suma maximă permisă pe un tichet de masă de la 45 la 50 lei. Angajatorii pot da mai mult salariaților, ca să compenseze scumpirea alimentelor.",
+      "article": "art. I",
+      "quote": "Valoarea nominală a unui tichet de masă nu poate depăși suma de 50 lei.",
+      "weight": 3
+    },
+    {
+      "text": "E doar o limită maximă, deci opțională. Angajatorii și IMM-urile nu primesc obligații, costuri forțate sau sancțiuni noi. Decid ei, singuri sau prin negociere.",
+      "article": "art. I",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Fixează clar plafonul de 50 lei până în septembrie 2027. Angajatorii și salariații își pot planifica bugetele și negocierile fără schimbări la fiecare semestru.",
+      "article": "art. II alin. (2)",
+      "quote": "valoarea nominală a tichetelor de masă prevăzută la art. I se aplică și în semestrul I al anului 2027",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Oprește ajustarea plafonului după inflație până în septembrie 2027. Dacă mâncarea se scumpește mult, tichetul rămâne blocat la 50 lei și pierde din valoare.",
+      "article": "art. II alin. (2)",
+      "quote": "Prin derogare de la prevederile art. 32 din Legea nr. 165/2018 privind acordarea biletelor de valoare",
+      "weight": 2
+    },
+    {
+      "text": "Nu spune ce plafon se aplică din octombrie 2027. Nu spune nici dacă indexarea reîncepe și de la ce sumă. Rămâne loc de interpretări contradictorii.",
+      "article": "art. II alin. (2)",
+      "quote": "precum și în primele trei luni ale semestrului II al anului 2027, respectiv iulie, august și septembrie 2027",
+      "weight": 2
+    },
+    {
+      "text": "Se aplică pentru drepturile din noiembrie 2026, deși legea nu e încă adoptată. Nu e clar ce se întâmplă cu tichetele deja acordate pentru luna respectivă.",
+      "article": "art. II alin. (1)",
+      "quote": "Prevederile art. I se aplică începând cu drepturile aferente lunii noiembrie 2026.",
+      "weight": 2
+    },
+    {
+      "text": "Estimările din Expunere presupun că toți cei 3,2 milioane de beneficiari primesc integral majorarea. Dar creșterea e opțională, deci efectele sunt umflate.",
+      "article": "Expunerea de motive",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Cifrele din Expunere nu se potrivesc între ele. Textul spune TVA de 1,3 miliarde, iar tabelul 564 milioane. Impozitul pe profit apare o dată 253 și o dată 129 milioane. Calculul nu e de încredere.",
+      "article": "Expunerea de motive",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Art. II alin. (2) vorbește de „valoarea nominală” care „se aplică”. Poate fi citit ca sumă fixă, nu ca maxim, ceea ce contrazice art. I.",
+      "article": "art. II alin. (2)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Expunerea nu arată costul pentru instituțiile publice care dau tichete. Nu arată nici efectul deducerilor suplimentare asupra încasărilor statului. Prezintă doar câștiguri.",
+      "article": "Expunerea de motive",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "La art. II alin. (1), aplicarea să înceapă cu luna următoare intrării în vigoare. La art. II alin. (2), să se elimine înghețarea sau să se prevadă reluarea indexării din octombrie 2027, pornind de la 50 lei.",
+    "removes": [
+      0,
+      1,
+      2,
+      5
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 7,
+    "verified": 5
+  }
+}

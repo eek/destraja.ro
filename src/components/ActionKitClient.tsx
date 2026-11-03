@@ -29,7 +29,10 @@ export default function ActionKitClient({ bill, press }: ActionKitClientProps) {
   const [activeTab, setActiveTab] = useState<'senat' | 'email' | 'share'>('senat');
 
   // Active AI model in the 3-AI Council switcher
-  const [activeAi, setActiveAi] = useState<'agy' | 'claude' | 'codex'>('agy');
+  // Un model care n-a răspuns (cotă, autentificare) rămâne cu tabul lui, dar pagina se deschide pe primul care a răspuns.
+  const [activeAi, setActiveAi] = useState<'agy' | 'claude' | 'codex'>(
+    () => (['agy', 'claude', 'codex'] as const).find((k) => bill.analysis.council[k]?.status === 'ok') ?? 'agy',
+  );
 
   // Editable form fields pre-populated with strict Senate limits
   const [articleRef, setArticleRef] = useState(c.senatForm.articleRef);
@@ -626,7 +629,7 @@ export default function ActionKitClient({ bill, press }: ActionKitClientProps) {
                 Ce a găsit în textul oficial
               </h3>
               <ul className="space-y-2 text-[15px] text-body prose-measure">
-                {currentModel.keyFindings.map((kf, i) => (
+                {(currentModel.keyFindings ?? []).map((kf, i) => (
                   <li key={i} className="flex items-start gap-2.5">
                     <span aria-hidden className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-muted" />
                     <span>{kf}</span>

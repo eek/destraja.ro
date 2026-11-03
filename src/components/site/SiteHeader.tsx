@@ -32,7 +32,7 @@ export default function SiteHeader() {
           <Logo className="h-9 w-auto sm:h-11" />
         </Link>
 
-        <nav aria-label="Navigație principală" className="ml-auto hidden items-center gap-1 md:flex">
+        <nav aria-label="Navigație principală" className="ml-auto hidden items-center gap-1 lg:flex">
           {NAV.map((n) => {
             const active = n.match(pathname);
             return (
@@ -40,7 +40,7 @@ export default function SiteHeader() {
                 key={n.href}
                 href={n.href}
                 aria-current={active ? 'page' : undefined}
-                className={`rounded-lg px-3 py-2 text-sm font-medium transition-colors ${
+                className={`whitespace-nowrap rounded-lg px-3 py-2 text-sm font-medium transition-colors ${
                   active ? 'text-ink underline decoration-2 underline-offset-[10px]' : 'text-muted hover:bg-sunken hover:text-ink'
                 }`}
               >
@@ -50,7 +50,7 @@ export default function SiteHeader() {
           })}
         </nav>
 
-        <div className="ml-auto flex items-center gap-1 md:ml-2">
+        <div className="ml-auto flex items-center gap-1 lg:ml-2">
           <ThemeToggle />
           <button
             type="button"
@@ -58,14 +58,14 @@ export default function SiteHeader() {
             aria-expanded={open}
             aria-controls="meniu-mobil"
             aria-label={open ? 'Închide meniul' : 'Deschide meniul'}
-            className="inline-flex h-10 w-10 items-center justify-center rounded-lg text-ink transition-colors hover:bg-sunken md:hidden"
+            className="inline-flex h-10 w-10 items-center justify-center rounded-lg text-ink transition-colors hover:bg-sunken lg:hidden"
           >
             {open ? <X className="h-5 w-5" aria-hidden /> : <Menu className="h-5 w-5" aria-hidden />}
           </button>
         </div>
       </div>
 
-      <nav id="meniu-mobil" aria-label="Navigație principală" hidden={!open} className="border-t border-line bg-paper md:hidden">
+      <nav id="meniu-mobil" aria-label="Navigație principală" hidden={!open} className="border-t border-line bg-paper lg:hidden">
         <ul className="mx-auto max-w-[1240px] px-4 py-2 sm:px-8">
           {NAV.map((n) => (
             <li key={n.href}>

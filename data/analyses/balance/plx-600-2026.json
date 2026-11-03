@@ -1,0 +1,81 @@
+{
+  "slug": "plx-600-2026",
+  "billId": "Pl-x 600/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:10:22.607Z",
+  "inputHash": "5805fee06d03",
+  "riskScore": 1.3,
+  "summary": "O lege tehnică și utilă pentru transparență, fără prevederi dăunătoare, cu doar câteva omisiuni minore de formulare.",
+  "good": [
+    {
+      "text": "Orice proiect care schimbă o lege trebuie să arate alăturat textul vechi și textul nou, așa că oricine vede imediat ce se schimbă.",
+      "article": "art. unic (art. 30 alin. (1) lit. e) din Legea nr. 24/2000)",
+      "quote": "tabelul comparativ care cuprinde, într-o primă coloană, reglementarea în vigoare, atunci când este cazul, iar într-o a doua coloană, forma propusă spre adoptare",
+      "weight": 3
+    },
+    {
+      "text": "Comparația se cere pentru fiecare dispoziție schimbată, nu doar pentru cele alese de inițiator, deci nicio modificare nu poate fi ascunsă.",
+      "article": "art. unic (art. 30 alin. (1) lit. e) din Legea nr. 24/2000)",
+      "quote": "pentru fiecare dispoziție care face obiectul modificării sau completării",
+      "weight": 2
+    },
+    {
+      "text": "Regula intră în lista documentelor obligatorii pentru toate proiectele de acte normative, deci se aplică și ordonanțelor, hotărârilor de Guvern și altor acte, nu doar legilor.",
+      "article": "art. unic",
+      "quote": "La alineatul (1) al articolului 30 din Legea nr. 24/2000 privind normele de tehnică legislativă pentru elaborarea actelor normative",
+      "weight": 2
+    },
+    {
+      "text": "Nu impune taxe, amenzi, autorizații sau alte sarcini pentru cetățeni ori firme. Obligația cade doar pe cei care redactează actele normative.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Textul cere comparația doar pentru modificări și completări, nu și pentru abrogări. Tocmai eliminarea unor articole poate trece neobservată.",
+      "article": "art. unic (art. 30 alin. (1) lit. e) din Legea nr. 24/2000)",
+      "quote": "forma propusă spre adoptare, pentru fiecare dispoziție care face obiectul modificării sau completării",
+      "weight": 2
+    },
+    {
+      "text": "Tabelul este cerut doar la depunerea proiectului. Nu există obligația de a-l actualiza după amendamente, așa că poate ajunge depășit la votul final.",
+      "article": "art. unic (art. 30 alin. (1) lit. e) din Legea nr. 24/2000)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Formula „atunci când este cazul” și includerea în lista documentelor obligatorii lasă neclar dacă și proiectele de acte complet noi trebuie să aibă tabel.",
+      "article": "art. unic (art. 30 alin. (1) lit. e) din Legea nr. 24/2000)",
+      "quote": "reglementarea în vigoare, atunci când este cazul, iar într-o a doua coloană, forma propusă spre adoptare",
+      "weight": 1
+    },
+    {
+      "text": "Adaugă muncă pentru toți elaboratorii, inclusiv autoritățile locale și cetățenii care fac inițiativă legislativă. Costul pare mic, dar nu e calculat.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Nu spune ce se întâmplă dacă tabelul lipsește sau e greșit, deci respectarea regulii depinde de disciplina instituțiilor.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Extinderea obligației și la dispozițiile abrogate și introducerea obligației de a actualiza tabelul după amendamentele adoptate în fiecare Cameră.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 0.7
+  },
+  "quotes": {
+    "checked": 5,
+    "verified": 5
+  }
+}

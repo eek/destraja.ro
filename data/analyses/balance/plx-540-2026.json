@@ -1,0 +1,88 @@
+{
+  "slug": "plx-540-2026",
+  "billId": "Pl-x 540/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:07:36.537Z",
+  "inputHash": "8d4f1c8051be",
+  "riskScore": 2.7,
+  "summary": "O lege bună, scurtă și coerentă, cu probleme doar la momentul aplicării, nu la fondul ei.",
+  "good": [
+    {
+      "text": "Elimină concursul separat organizat de licee pentru până la jumătate din locuri. Admiterea se face după o singură regulă, nota de la Evaluarea Națională, deci elevii dau mai puține examene.",
+      "article": "art. I pct. 1",
+      "quote": "La articolul 101, alineatele (2), (5), (6), (7), (8) și (9) se abrogă.",
+      "weight": 3
+    },
+    {
+      "text": "Locurile prioritare pentru elevii cu dizabilități sau cerințe speciale și pentru elevii romi rămân. Ele se ocupă primele, iar restul locurilor se împart abia după aceea.",
+      "article": "art. I pct. 2 (art. 101 alin. (4))",
+      "quote": "Locurile rămase neocupate după repartizarea prevăzută la alin. (3) se atribuie pe baza rezultatelor obținute la evaluarea națională",
+      "weight": 3
+    },
+    {
+      "text": "Probele de aptitudini pentru liceele vocaționale (artă, sport, teologie etc.) rămân. Trimiterea e corectată ca să nu mai indice un alineat abrogat.",
+      "article": "art. I pct. 3 (art. 101 alin. (10))",
+      "quote": "Prin excepție de la prevederile alin. (3) și (4), unitățile de învățământ organizează, pentru filiera vocațională, anterior susținerii evaluării naționale, probe de aptitudini specifice pentru admitere.",
+      "weight": 2
+    },
+    {
+      "text": "Dispare o contradicție din legea actuală. Un alineat spunea că probele concursului le stabilește fiecare liceu, iar următorul că sunt unice la nivel național.",
+      "article": "art. I pct. 1 (abrogarea art. 101 alin. (7) și (8))",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Ministrul e obligat să schimbe în 30 de zile metodologia și calendarul admiterii, așa că regulile practice se aliniază repede cu legea.",
+      "article": "art. II alin. (1)",
+      "quote": "În termen de 30 de zile de la data intrării în vigoare a prezentei legi, ministrul educației și cercetării modifică în mod corespunzător ordinul de aprobare a metodologiei-cadru",
+      "weight": 2
+    },
+    {
+      "text": "Fără probe naționale suplimentare de elaborat, tipărit și corectat, statul și școlile cheltuiesc mai puțin cu admiterea.",
+      "article": "art. I pct. 1",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Noile reguli se aplică și admiterilor deja în pregătire, fără să spună ce se întâmplă cu pașii deja făcuți. Elevii de clasa a VIII-a care se pregăteau pentru concurs își schimbă planul în timpul anului.",
+      "article": "art. II alin. (2)",
+      "quote": "Procedurile de admitere în învățământul liceal aflate în curs de organizare la data intrării în vigoare a prezentei legi se derulează în continuare exclusiv pe baza rezultatelor evaluării naționale",
+      "weight": 2
+    },
+    {
+      "text": "Legea spune că se aplică din anul școlar 2026-2027, dar admiterea pentru acel an s-a terminat în vara lui 2026. Nu e clar dacă vizează admiterea din 2027, deci textul poate fi interpretat diferit.",
+      "article": "art. III alin. (2)",
+      "quote": "Prevederile prezentei legi se aplică începând cu anul școlar 2026-2027.",
+      "weight": 2
+    },
+    {
+      "text": "Formularea „în termen de 3 zile” e greșită. Constituția cere ca legea să intre în vigoare la 3 zile de la publicare sau la o dată ulterioară, nu „în termen de”.",
+      "article": "art. III alin. (1)",
+      "quote": "Prezenta lege intră în vigoare în termen de 3 zile de la data publicării în Monitorul Oficial al României, Partea I.",
+      "weight": 1
+    },
+    {
+      "text": "Liceele pierd posibilitatea de a-și selecta o parte din elevi prin probe legate de specializare. Asta e o alegere de politică educațională, nu un risc pentru drepturi.",
+      "article": "art. I pct. 1",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Art. II alin. (2) și art. III trebuie reformulate: legea să se aplice explicit de la admiterea pentru anul școlar 2027-2028, cu protejarea etapelor deja finalizate și cu intrarea în vigoare „la 3 zile” de la publicare.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 7,
+    "verified": 7
+  }
+}

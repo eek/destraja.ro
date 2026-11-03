@@ -1,0 +1,100 @@
+{
+  "slug": "plx-559-2026",
+  "billId": "PL-x 559/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:08:34.486Z",
+  "inputHash": "1d8cfcf91ec9",
+  "riskScore": 2.3,
+  "summary": "O lege mică și în mare inofensivă, care nu face ce promite expunerea de motive și are goluri de aplicare ușor de reparat.",
+  "good": [
+    {
+      "text": "Legea însăși obligă la verificarea a patru manevre pentru categoria B: mers înapoi, întoarcere, parcare și oprire. Ministerul nu le mai poate scoate din examen printr-un ordin.",
+      "article": "art. I (alin. (9⁷) nou la art. 23 din OUG 195/2002)",
+      "quote": "candidatul execută în mod obligatoriu manevre de deplasare în marșarier, întoarcere, parcare și oprire",
+      "weight": 2
+    },
+    {
+      "text": "Nu cere poligoane noi, nu introduce taxe și nu impune investiții. Nu apar costuri pentru buget, pentru școli sau pentru candidați.",
+      "article": "art. I",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Stabilește în lege principiul că examenul practic trebuie să verifice stăpânirea tehnică a mașinii, nu doar comportamentul în trafic.",
+      "article": "art. I (alin. (9⁶) nou la art. 23 din OUG 195/2002)",
+      "quote": "se verifică în mod obligatoriu aptitudinile candidatului privind efectuarea manevrelor tehnice de bază necesare pentru controlul și manevrarea în siguranță a autovehiculului",
+      "weight": 1
+    },
+    {
+      "text": "Ministerul primește un termen clar, de 90 de zile, pentru a adapta procedura de examinare.",
+      "article": "art. II",
+      "quote": "În termen de 90 de zile de la data publicării prezentei legi în Monitorul Oficial al României, Partea I, ministrul afacerilor interne modifică în mod corespunzător",
+      "weight": 1
+    },
+    {
+      "text": "Legea nu se aplică imediat. Intră în vigoare abia după 90 de zile, deci regulile nu se schimbă peste noapte.",
+      "article": "art. III",
+      "quote": "Prezenta lege intră în vigoare la 90 de zile de la data publicării în Monitorul Oficial al României, Partea I.",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Ordinul cu regulile noi are 90 de zile, exact cât rămâne până intră legea în vigoare. Poate apărea în ultima zi, fără timp de pregătire și fără regulă pentru examenele deja programate.",
+      "article": "art. II și art. III",
+      "quote": "Prezenta lege intră în vigoare la 90 de zile de la data publicării în Monitorul Oficial al României, Partea I.",
+      "weight": 2
+    },
+    {
+      "text": "Legea nu spune ce fel de parcare se cere, câte încercări are candidatul și dacă o manevră greșită înseamnă picarea examenului. Toate se decid prin ordin, în afara Parlamentului.",
+      "article": "art. I (alin. (9⁷) nou la art. 23 din OUG 195/2002)",
+      "quote": "Condițiile de executare și criteriile de evaluare a acestora se stabilesc prin ordinul ministrului afacerilor interne prevăzut la alin. (10).",
+      "weight": 2
+    },
+    {
+      "text": "Manevrele se fac în trafic, nu în poligon. Locurile și condițiile diferă de la oraș la oraș, deci evaluarea rămâne neuniformă. Chiar expunerea de motive critică acest lucru.",
+      "article": "art. I (alin. (9⁶) nou la art. 23 din OUG 195/2002)",
+      "quote": "în cadrul probei practice de conducere pe drumurile publice se verifică în mod obligatoriu aptitudinile candidatului",
+      "weight": 2
+    },
+    {
+      "text": "Cuvântul „oprire” e vag. Poate însemna o manevră precisă, evaluată, sau orice oprire obișnuită în trafic, iar ordinul poate alege oricare variantă.",
+      "article": "art. I (alin. (9⁷) nou la art. 23 din OUG 195/2002)",
+      "quote": "candidatul execută în mod obligatoriu manevre de deplasare în marșarier, întoarcere, parcare și oprire",
+      "weight": 1
+    },
+    {
+      "text": "Textul votat nu mai are legătură cu motivarea, care cere poligon în două etape și 6 luni de adaptare. Soluția adoptată nu are nicio justificare și niciun studiu de impact.",
+      "article": "art. I – art. III (față de expunerea de motive)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Nu se întâmplă nimic dacă ministerul nu modifică ordinul la timp. Legea ar intra în vigoare cu o procedură de examen veche, care nu i se potrivește.",
+      "article": "art. II",
+      "quote": "ministrul afacerilor interne modifică în mod corespunzător Ordinul ministrului administrației și internelor nr. 268/2010",
+      "weight": 1
+    },
+    {
+      "text": "Patru manevre obligatorii pot lungi fiecare examen. În orașele mari, asta poate însemna așteptare mai lungă pentru o programare.",
+      "article": "art. I (alin. (9⁷) nou la art. 23 din OUG 195/2002)",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Legea să intre în vigoare la cel puțin 30 de zile după publicarea ordinului modificat, cu o regulă clară pentru examenele deja programate, iar „oprirea” să fie definită ca manevră de oprire precisă, evaluată.",
+    "removes": [
+      0,
+      3,
+      5
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 9,
+    "verified": 9
+  }
+}

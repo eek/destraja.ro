@@ -1,0 +1,94 @@
+{
+  "slug": "plx-587-2026",
+  "billId": "Pl-x 587/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:09:51.637Z",
+  "inputHash": "9dbdf716d3a5",
+  "riskScore": 2.3,
+  "summary": "O lege bună și prudentă, cu lacune de procedură: lipsesc un termen pentru confirmarea casei de sănătate, data stingerii datoriei și regulile de decontare între bugete.",
+  "good": [
+    {
+      "text": "Firmele pot folosi banii de concedii medicale pe care casa de sănătate li-i datorează pentru a-și plăti taxele la ANAF, fără să mai aștepte plata. Asta le ajută să aibă bani în cont.",
+      "article": "art. I (art. 167¹ alin. (1))",
+      "quote": "pot fi stinse prin compensare cu obligațiile fiscale datorate de aceștia și administrate de organul fiscal central.",
+      "weight": 3
+    },
+    {
+      "text": "Compensarea se face doar dacă o cere firma. ANAF nu o poate impune, așa că firma alege între a primi banii și a-și stinge taxele.",
+      "article": "art. I (art. 167¹ alin. (2))",
+      "quote": "Compensarea prevăzută la alin. (1) se efectuează numai la cererea angajatorului, în limita celei mai mici sume",
+      "weight": 2
+    },
+    {
+      "text": "Se pot compensa doar sumele deja verificate și aprobate de casa de sănătate, nu cererile încă nevalidate. Asta reduce riscul de fraudă și de pierderi la buget.",
+      "article": "art. I (art. 167¹ alin. (2)-(3))",
+      "quote": "În sensul prezentului articol, sunt exigibile numaî sumele aprobate la restituire potrivit legii speciale.",
+      "weight": 2
+    },
+    {
+      "text": "Aceeași posibilitate este scrisă și în legea concediilor medicale. Astfel, regula se vede în ambele legi pe care le folosesc firmele.",
+      "article": "art. II (art. 38 alin. (1¹) din OUG nr. 158/2005)",
+      "quote": "La cererea angajatorului, sumele prevăzute la alin. (1), aprobate la restituire potrivit legii, pot fi stinse prin compensare cu obligațiile fiscale administrate de organul fiscal central",
+      "weight": 1
+    },
+    {
+      "text": "Legea intră în vigoare după 90 de zile și cere o procedură comună Finanțe–CNAS. Instituțiile au astfel timp să pregătească schimbul de date.",
+      "article": "art. III-IV",
+      "quote": "Prezenta lege intră în vigoare la 90 de zile de la data publicării în Monitorul Oficial al României, Partea I.",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Compensarea depinde de confirmarea casei de sănătate, dar legea nu îi dă niciun termen. Instituția care datorează banii poate amâna oricât compensarea.",
+      "article": "art. I (art. 167¹ alin. (4))",
+      "quote": "Compensarea se constată de organul fiscal central competent, pe baza confirmării transmise de casa de asigurări de sănătate competentă cu privire la suma aprobată la restituire.",
+      "weight": 3
+    },
+    {
+      "text": "Nu se spune ce buget suportă compensarea și cum decontează Trezoreria între bugetul de stat și fondul de sănătate. Bugetul de stat încasează mai puțin fără reguli clare de regularizare.",
+      "article": "art. I (art. 167¹) și art. III",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Legea nu spune de la ce dată se consideră plătită taxa: la cerere, la confirmare sau la constatarea ANAF. De această dată depind dobânzile și penalitățile firmei.",
+      "article": "art. I (art. 167¹ alin. (2)-(4))",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Derogarea vizează doar alin. (1) din art. 167. Nu e clar dacă restul regulilor generale de compensare se aplică și noului mecanism, cum ar fi ordinea stingerii datoriilor.",
+      "article": "art. I (art. 167¹ alin. (1))",
+      "quote": "Prin derogare de la dispozițiile art. 167 alin. (1), sumele de recuperat de către angajatori",
+      "weight": 1
+    },
+    {
+      "text": "Termenul pentru ordin curge de la publicare, nu de la intrarea în vigoare, și nu are sancțiune. Dacă ordinul întârzie, mecanismul rămâne blocat în practică.",
+      "article": "art. III-IV",
+      "quote": "În termen de 60 de zile de la data publicării prezentei legi în Monitorul Oficial al României, Partea I, ministrul Finanțelor",
+      "weight": 1
+    },
+    {
+      "text": "Art. II repetă art. I cu o formulare puțin diferită: lipsește cuvântul „datorate”. Două texte pentru aceeași regulă pot duce la interpretări diferite.",
+      "article": "art. II",
+      "quote": "pot fi stinse prin compensare cu obligațiile fiscale administrate de organul fiscal central, în condițiile Legii nr. 207/2015 privind Codul de procedură fiscală",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Trebuie adăugate în lege un termen scurt pentru confirmarea casei de sănătate, data la care se stinge datoria și regula de decontare prin Trezorerie între bugetul de stat și FNUASS.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 9,
+    "verified": 9
+  }
+}

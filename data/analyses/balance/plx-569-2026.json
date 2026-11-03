@@ -1,0 +1,101 @@
+{
+  "slug": "plx-569-2026",
+  "billId": "Pl-x 569/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:08:35.622Z",
+  "inputHash": "caf6a468f833",
+  "riskScore": 2.7,
+  "summary": "O lege mică, cu scop bun dar mai mult declarativă, care trimite la actul greșit și lasă neclar cine recuperează banii și pentru cine.",
+  "good": [
+    {
+      "text": "Dă Ministerului Finanțelor un rol clar ca să ceară în instanță sau pe alte căi banii pierduți de instituțiile publice din cauza înțelegerilor ilegale între firme. Bugetul poate recupera sume.",
+      "article": "art. unic pct. 1 – art. 3 alin. (4)",
+      "quote": "Ministerul Finanțelor, în calitate de reprezentant al statului, este abilitat să întreprindă toate demersurile legale necesare, inclusiv formularea de acțiuni în justiție",
+      "weight": 2
+    },
+    {
+      "text": "Spune limpede că oamenii păgubiți de practici anticoncurențiale pot da împreună în judecată firma vinovată. Așa își pot împărți costurile și pot afla mai ușor că au această posibilitate.",
+      "article": "art. unic pct. 1 – art. 3 alin. (5)",
+      "quote": "În scopul facilitării accesului efectiv la justiție și al asigurării unei protecții eficiente a drepturilor consumatorilor, persoanele fizice vor putea fi împreună reclamante",
+      "weight": 1
+    },
+    {
+      "text": "Proiectul nu impune cetățenilor sau firmelor mici raportări, autorizații ori taxe noi.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Legea trimite la actul greșit. Titlul citat este cel al OUG 39/2017 despre despăgubiri, nu al OUG 170/2020. Dacă nu se corectează, modificarea ar ajunge în alt act sau ar fi greu de aplicat.",
+      "article": "titlu și art. unic",
+      "quote": "OUG nr. 170/2020 privind acțiunile în despăgubire în cazurile de încălcare a dispozițiilor legislației în materie de concurență",
+      "weight": 3
+    },
+    {
+      "text": "Ministerul poate acționa și pentru primării și județe fără acordul lor. Banii de despăgubire sunt ai acestora, nu ai statului, așa că apare un conflict cu autonomia locală din Constituție.",
+      "article": "art. unic pct. 1 – art. 3 alin. (4)",
+      "quote": "în vederea recuperării despăgubirilor cuvenite autorităților și instituțiilor publice centrale și locale care au calitatea de parte prejudiciată",
+      "weight": 3
+    },
+    {
+      "text": "Nu e clar dacă ministerul reprezintă instituția păgubită sau acționează în nume propriu. Nici nu e clar dacă instituția mai poate da singură în judecată, ce se întâmplă cu procesele începute sau cine poate face o înțelegere.",
+      "article": "art. unic pct. 1 – art. 3 alin. (4)",
+      "quote": "Ministerul Finanțelor, în calitate de reprezentant al statului, este abilitat să întreprindă toate demersurile legale necesare",
+      "weight": 3
+    },
+    {
+      "text": "Textul nu spune în ce buget intră banii recuperați: în bugetul de stat sau în bugetul instituției ori al localității păgubite.",
+      "article": "art. unic pct. 1 – art. 3 alin. (4)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Ministerul „este abilitat”, dar nu e obligat să facă ceva. Lipsesc termene, criterii de alegere a cazurilor și raportări publice, așa că măsura poate rămâne doar pe hârtie.",
+      "article": "art. unic pct. 1 – art. 3 alin. (4)",
+      "quote": "este abilitat să întreprindă toate demersurile legale necesare, inclusiv formularea de acțiuni în justiție, în vederea recuperării despăgubirilor",
+      "weight": 2
+    },
+    {
+      "text": "Dreptul de a da împreună în judecată există deja în Codul de procedură civilă. Repetarea lui într-o altă lege nu aduce nimic nou și încalcă regula care interzice dublarea normelor.",
+      "article": "art. unic pct. 1 – art. 3 alin. (5)",
+      "quote": "persoanele fizice vor putea fi împreună reclamante, prevederile art. 59-60 din Codul de procedură civilă fiind aplicabile",
+      "weight": 2
+    },
+    {
+      "text": "Măsura nu creează o acțiune colectivă reală. Fiecare om trebuie să intre în proces și să-și dovedească singur paguba. Pentru prejudicii mici și răspândite, ajutorul e mic, iar Legea 414/2023 este ignorată.",
+      "article": "art. unic pct. 1 – art. 3 alin. (5)",
+      "quote": "persoanele fizice vor putea fi împreună reclamante",
+      "weight": 2
+    },
+    {
+      "text": "Norma pomenește doar persoanele fizice. Asta poate fi citit greșit ca și cum firmele mici păgubite n-ar putea acționa împreună. Totodată, nu limitează textul la consumatori, deși acesta este scopul declarat.",
+      "article": "art. unic pct. 1 – art. 3 alin. (5)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Ministerul va avea costuri cu personal, experți și procese, dar nu există nicio estimare a lor. Afirmația că cheltuielile sunt nesemnificative nu este susținută.",
+      "article": "art. unic pct. 1 – art. 3 alin. (4)",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Corectarea trimiterii la OUG nr. 39/2017 și rescrierea alin. (4) astfel: acord prealabil al autorităților locale, precizarea că ministerul le reprezintă fără a le lua dreptul de a acționa singure, și destinația banilor către bugetul entității păgubite.",
+    "removes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 8
+  }
+}

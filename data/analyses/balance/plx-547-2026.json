@@ -1,0 +1,94 @@
+{
+  "slug": "plx-547-2026",
+  "billId": "Pl-x 547/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:07:44.378Z",
+  "inputHash": "a4400519ef10",
+  "riskScore": 2.7,
+  "summary": "O lege bună și necesară, care închide portița pentru țigările electronice, cu câteva formulări vagi și fără termen de adaptare.",
+  "good": [
+    {
+      "text": "Interdicția de fumat din spațiile publice închise, de la locul de muncă, din transportul public și de pe locurile de joacă se aplică și țigărilor electronice și tutunului încălzit. Nefumătorii și copiii sunt mai bine protejați.",
+      "article": "art. I pct. 1 (art. 2 lit. e))",
+      "quote": "precum și a aerosolilor rezultați din încălzirea sau vaporizarea de produse care conțin tutun, nicotină",
+      "weight": 3
+    },
+    {
+      "text": "Interdicția acoperă și produsele fără nicotină. Nimeni nu o mai poate ocoli spunând că lichidul lui nu conține nicotină.",
+      "article": "art. I pct. 1 (art. 2 lit. e))",
+      "quote": "produse care conțin tutun, nicotină sau alte substanțe destinate inhalării",
+      "weight": 2
+    },
+    {
+      "text": "Dispare regula separată pentru țigara electronică doar în transportul public. Până acum, ea lăsa impresia că vapatul ar fi permis în restaurante, birouri sau școli.",
+      "article": "art. I pct. 2",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Proiectul nu creează taxe, autorizații, raportări sau instituții noi. Folosește interdicțiile și amenzile care există deja, deci costurile pentru stat și firme sunt mici.",
+      "article": "art. I",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Produsele de uz medical, de exemplu inhalatoarele, nu intră în interdicție. Pacienții nu sunt afectați.",
+      "article": "art. I pct. 1 (art. 2 lit. e))",
+      "quote": "nicotină sau alte substanțe destinate inhalării, cu excepția produselor de uz medical",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Formula „alte substanțe destinate inhalării” nu se limitează la dispozitivele personale. Ar putea fi aplicată la difuzoare de arome, saune cu uleiuri esențiale sau saline artificiale.",
+      "article": "art. I pct. 1 (art. 2 lit. e))",
+      "quote": "aerosolilor rezultați din încălzirea sau vaporizarea de produse care conțin tutun, nicotină sau alte substanțe destinate inhalării",
+      "weight": 2
+    },
+    {
+      "text": "Lipsește un termen de adaptare. Legea intră în vigoare la 3 zile de la publicare, iar localurile și angajatorii riscă amenzi înainte să-și schimbe regulamentele și afișele.",
+      "article": "art. I (lipsă dispoziție tranzitorie)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Proiectul nu definește „produsele de uz medical”. Nu spune dacă e nevoie de autorizare ca medicament sau dispozitiv medical, așa că fiecare inspector o poate interpreta diferit.",
+      "article": "art. I pct. 1 (art. 2 lit. e))",
+      "quote": "sau alte substanțe destinate inhalării, cu excepția produselor de uz medical",
+      "weight": 2
+    },
+    {
+      "text": "Arderea este definită doar pentru tutun. Țigările din plante fără tutun, care ard și nu se încălzesc, pot rămâne într-o zonă neclară.",
+      "article": "art. I pct. 1 (art. 2 lit. e))",
+      "quote": "inhalarea voluntară a fumului rezultat în urma arderii tutunului conținut în țigarete, țigări de foi, cigarillos și pipe",
+      "weight": 1
+    },
+    {
+      "text": "Abrogarea regulii pentru transportul public e sigură doar dacă interdicția generală acoperă toate mijloacele de transport din definiția legii. Comisia trebuie să verifice acest lucru.",
+      "article": "art. I pct. 2",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Expunerea de motive nu estimează costurile de aplicare și control și nici economiile pentru sănătate. Lipsa unor cheltuieli noi nu înseamnă că impactul e zero.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Trei lucruri ar trebui schimbate: „alte substanțe” să se refere doar la dispozitivele de inhalare personală, „uz medical” să trimită la medicamente și dispozitive medicale autorizate, iar legea să aibă un termen de adaptare de 30–60 de zile.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 6,
+    "verified": 6
+  }
+}

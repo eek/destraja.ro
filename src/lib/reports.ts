@@ -19,6 +19,8 @@ export interface PublicReport {
   before?: string;
   after?: string;
   name?: string;
+  /** Legătura dintre citat și fraza noastră sau corectură, scrisă fără raportul cititorului. */
+  why?: string;
 }
 
 /** Rapoartele verificate ale unui proiect, cele mai noi primele. */

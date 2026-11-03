@@ -46,21 +46,26 @@ export function reportResultEmail(bill, raw) {
         line(`<s>„${esc(entry.before)}”</s>`) +
         label('Acum scrie') +
         line(`„${esc(entry.after)}”`) +
-        label('Textul oficial') +
-        line(`„${esc(entry.quote)}”`, true),
+        label('Ce scrie în proiect') +
+        line(`„${esc(entry.quote)}”`, !entry.why) +
+        (entry.why ? label('De ce am corectat') + line(esc(entry.why), true) : ''),
       ) +
       p(`Corectura apare pe pagina proiectului${entry.name ? ', cu numele tău' : ''}, la „Greșeli semnalate”.`) +
       button(url, 'Vezi pagina proiectului');
-    text = `Ai avut dreptate. Am corectat analiza.\n\nMulțumim${entry.name ? `, ${entry.name}` : ''}! Gemini, Claude și ChatGPT au comparat raportul tău cu textul oficial al proiectului ${bill.id} și au confirmat greșeala. Am corectat ${where}, iar textul nou l-au aprobat Gemini și ChatGPT.\n\nAm scris: „${entry.before}”\nAcum scrie: „${entry.after}”\nTextul oficial: „${entry.quote}”\n\nPagina proiectului: ${url}`;
+    text = `Ai avut dreptate. Am corectat analiza.\n\nMulțumim${entry.name ? `, ${entry.name}` : ''}! Gemini, Claude și ChatGPT au comparat raportul tău cu textul oficial al proiectului ${bill.id} și au confirmat greșeala. Am corectat ${where}, iar textul nou l-au aprobat Gemini și ChatGPT.\n\nAm scris: „${entry.before}”\nAcum scrie: „${entry.after}”\nCe scrie în proiect: „${entry.quote}”\n${entry.why ? `De ce am corectat: ${entry.why}\n` : ''}\nPagina proiectului: ${url}`;
   } else {
     subject = `Am verificat raportul tău despre ${bill.id}`;
     body =
       h1('Am verificat raportul tău') +
       p(`Mulțumim${name} că ai semnalat. Gemini, Claude și ChatGPT au comparat raportul cu textul oficial al proiectului <strong>${esc(bill.id)}</strong> și au ajuns toate trei la aceeași concluzie: pe acest punct, ${esc(where)} se potrivește cu textul.`) +
-      box((entry.claim ? label('Ce scrie în analiză') + line(`„${esc(entry.claim)}”`, !entry.quote) : '') + (entry.quote ? label('Textul oficial') + line(`„${esc(entry.quote)}”`, true) : '')) +
+      box(
+        (entry.claim ? label('Ce scrie în analiză') + line(`„${esc(entry.claim)}”`, !entry.quote && !entry.why) : '') +
+          (entry.quote ? label('Ce scrie în proiect') + line(`„${esc(entry.quote)}”`, !entry.why) : '') +
+          (entry.why ? label('De ce rămâne așa') + line(esc(entry.why), true) : ''),
+      ) +
       p(`Dacă tot crezi că am greșit, răspunde la acest mesaj și ne uităm noi.`) +
       button(url, 'Vezi pagina proiectului');
-    text = `Am verificat raportul tău.\n\nMulțumim${entry.name ? `, ${entry.name},` : ''} că ai semnalat. Gemini, Claude și ChatGPT au comparat raportul cu textul oficial al proiectului ${bill.id} și au ajuns toate trei la aceeași concluzie: pe acest punct, ${where} se potrivește cu textul.\n\n${entry.claim ? `Ce scrie în analiză: „${entry.claim}”\n` : ''}${entry.quote ? `Textul oficial: „${entry.quote}”\n` : ''}\nDacă tot crezi că am greșit, răspunde la acest mesaj și ne uităm noi.\n\nPagina proiectului: ${url}`;
+    text = `Am verificat raportul tău.\n\nMulțumim${entry.name ? `, ${entry.name},` : ''} că ai semnalat. Gemini, Claude și ChatGPT au comparat raportul cu textul oficial al proiectului ${bill.id} și au ajuns toate trei la aceeași concluzie: pe acest punct, ${where} se potrivește cu textul.\n\n${entry.claim ? `Ce scrie în analiză: „${entry.claim}”\n` : ''}${entry.quote ? `Ce scrie în proiect: „${entry.quote}”\n` : ''}${entry.why ? `De ce rămâne așa: ${entry.why}\n` : ''}\nDacă tot crezi că am greșit, răspunde la acest mesaj și ne uităm noi.\n\nPagina proiectului: ${url}`;
   }
   const reason =
     'Primești acest mesaj pentru că ți-ai lăsat adresa când ai semnalat o greșeală pe destrajă.ro. Îți scriem o singură dată: după acest mesaj am șters adresa și nu te-am abonat la nimic.';

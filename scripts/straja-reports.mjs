@@ -22,6 +22,7 @@
 //   node scripts/straja-reports.mjs            rapoartele noi din D1 (remote)
 //   node scripts/straja-reports.mjs --local    baza locală din wrangler dev
 //   node scripts/straja-reports.mjs --dry-run  nu scrie nimic (nici D1, nici analize)
+//   node scripts/straja-reports.mjs --explain  scrie explicația intrărilor din data/reports care nu o au
 
 import fs from 'node:fs';
 import path from 'node:path';
@@ -412,11 +413,61 @@ function readPublic(bill) {
   return fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : { billId: bill.id, items: [] };
 }
 
+// Același raport trimis pe mai multe taburi (ca la B584) apare o singură dată, cu toate analizele atinse.
+const sameEntry = (x, entry) => x.status === entry.status && x.claim && norm(x.claim) === norm(entry.claim) && x.name === entry.name;
+
+// Explicația de pe pagină: legătura dintre citatul oficial și fraza noastră sau corectură. Claude primește doar fraza,
+// citatul și textul oficial, nu raportul cititorului, așa că un raport nu poate pune cuvinte pe pagină.
+function explainPrompt({ bill, entry, official }) {
+  const nonce = crypto.randomBytes(6).toString('hex');
+  const fixed = entry.status === 'fixed';
+  return `Scrii o explicație scurtă pentru pagina proiectului de lege ${bill.id} de pe destrajă.ro, pentru un cititor obișnuit.
+
+${fixed ? `Analiza noastră scria: „${entry.before}”. Am corectat-o în: „${entry.after}”.` : `Un cititor a contestat această frază din analiza noastră: „${entry.claim}”. Trei verificatori au găsit-o corectă.`}
+Citatul din textul oficial al proiectului: „${entry.quote}”
+
+<OFFICIAL-${nonce}>
+${official}
+</OFFICIAL-${nonce}>
+
+Scrie una sau două propoziții simple care arată legătura dintre citat și ${fixed ? 'corectură: ce spune proiectul și de ce fraza veche era greșită' : 'fraza din analiză: cum arată citatul, împreună cu restul textului, că fraza e corectă'}. Folosește doar ce scrie în textul oficial; nu adăuga opinii, cifre sau informații din afara lui. Fără linkuri sau HTML, cel mult 300 de caractere.
+Răspunde EXCLUSIV cu JSON: { "explanation": "<textul>" }`;
+}
+
+async function explain(bill, entry) {
+  const official = officialText(bill.slug);
+  if (!official || !entry.quote || !(entry.claim || entry.before)) return null;
+  const r = await runModel('claude', explainPrompt({ bill, entry, official }), { mode: 'offline', timeoutMs: 240000 });
+  const text = r.status === 'ok' && typeof r.data?.explanation === 'string' ? r.data.explanation.trim() : '';
+  // Ce pune între ghilimele trebuie să fie chiar în textul oficial.
+  const quoted = [...text.matchAll(/„([^”]{8,})”/g)].map((m) => m[1]);
+  const ok = text.length >= 40 && text.length <= 360 && !/<|>|https?:|```/.test(text) && quoted.every((q) => norm(official).includes(norm(q)));
+  return ok ? text : null;
+}
+
+// --explain: completează explicația intrărilor publice care nu o au încă.
+async function backfillExplanations() {
+  for (const f of fs.existsSync(REPORTS_DIR) ? fs.readdirSync(REPORTS_DIR).filter((x) => x.endsWith('.json')) : []) {
+    const file = path.join(REPORTS_DIR, f);
+    const data = JSON.parse(fs.readFileSync(file, 'utf8'));
+    const bill = { id: data.billId, slug: f.replace(/\.json$/, '') };
+    let changed = false;
+    for (const entry of data.items.filter((x) => !x.why)) {
+      const why = await explain(bill, entry);
+      console.log(`  ${bill.id}: ${why ?? 'fără explicație'}`);
+      if (why && !DRY) {
+        entry.why = why;
+        changed = true;
+      }
+    }
+    if (changed) fs.writeFileSync(file, JSON.stringify(data, null, 2) + '\n', 'utf8');
+  }
+}
+
 function savePublic(bill, entry) {
   const file = path.join(REPORTS_DIR, `${bill.slug}.json`);
   const data = readPublic(bill);
-  // Același raport trimis pe mai multe taburi (ca la B584) apare o singură dată, cu toate analizele atinse.
-  const same = data.items.find((x) => x.status === entry.status && x.claim && norm(x.claim) === norm(entry.claim) && x.name === entry.name);
+  const same = data.items.find((x) => sameEntry(x, entry));
   if (same) {
     same.targets = [...new Set([...same.targets, ...entry.targets])];
     same.ids = [...new Set([...same.ids, ...entry.ids])];
@@ -479,6 +530,7 @@ async function notify(bills) {
 }
 
 async function main() {
+  if (args.has('--explain')) return backfillExplanations();
   const bills = new Map(JSON.parse(fs.readFileSync(path.join(DATA, 'senat-bills.json'), 'utf8')).map((b) => [b.id, b]));
   // Proiectele de la Cameră au analiza și textele în aceleași foldere, după slug („plx-94-2026”); raportul vine cu numărul lor.
   const chamber = JSON.parse(fs.readFileSync(path.join(DATA, 'cdep', 'index.json'), 'utf8')).proiecte;
@@ -504,7 +556,15 @@ async function main() {
     counts[result.status] = (counts[result.status] ?? 0) + 1;
     console.log(`  ${report.bill_id} ${report.target}: ${result.status}${result.note ? ` (${result.note})` : ''}`);
     entries.push(digestEntry(report, result));
-    if (!DRY && (result.status === 'fixed' || result.status === 'rejected')) savePublic(bills.get(report.bill_id), publicEntry(report, result));
+    if (!DRY && (result.status === 'fixed' || result.status === 'rejected')) {
+      const bill = bills.get(report.bill_id);
+      const entry = publicEntry(report, result);
+      if (!readPublic(bill).items.some((x) => sameEntry(x, entry))) {
+        const why = await explain(bill, entry);
+        if (why) entry.why = why;
+      }
+      savePublic(bill, entry);
+    }
     if (!DRY) {
       const triage = JSON.stringify({ ...result.triage, note: result.note ?? null, suspicious: !!result.suspicious });
       await d1(`UPDATE reports SET status = ${sqlText(result.status)}, triage = ${sqlText(triage)}, reviewed_at = ${sqlText(new Date().toISOString())} WHERE id = ${sqlText(report.id)}`);

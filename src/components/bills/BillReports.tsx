@@ -48,15 +48,21 @@ function Report({ r }: { r: PublicReport }) {
       ) : (
         r.claim && (
           <div className="mt-3">
-            <p className={label}>Fraza contestată</p>
+            <p className={label}>Fraza contestată din analiză</p>
             <p className="mt-1 text-[15.5px] leading-relaxed text-ink">„{bare(r.claim)}”</p>
           </div>
         )
       )}
       {r.quote && (
         <div className="mt-3">
-          <p className={label}>Textul oficial</p>
+          <p className={label}>Ce scrie în proiect</p>
           <Quote text={r.quote} />
+        </div>
+      )}
+      {r.why && (
+        <div className="mt-3">
+          <p className={label}>{fixed ? 'De ce am corectat' : 'De ce rămâne așa'}</p>
+          <p className="mt-1 text-[15.5px] leading-relaxed text-ink">{r.why}</p>
         </div>
       )}
       <p className="mt-3 text-sm leading-6 text-muted">
@@ -85,7 +91,7 @@ export default function BillReports({ reports, manual = [] }: { reports: PublicR
       </div>
       <p className="mt-1.5 max-w-[62ch] text-base leading-relaxed text-body">
         Cititorii ne spun când analiza nu se potrivește cu textul oficial. Fiecare raport e verificat de Gemini, Claude și ChatGPT, iar
-        corectăm doar ce confirmă toate trei, cu citat din lege.
+        corectăm doar ce confirmă toate trei, cu citat din textul proiectului.
       </p>
       <ul className="mt-6 divide-y divide-line border-t border-line pt-5">
         {reports.map((r) => (
@@ -99,7 +105,7 @@ export default function BillReports({ reports, manual = [] }: { reports: PublicR
         ))}
       </ul>
       <p className="mt-5 border-t border-line pt-4 text-xs leading-5 text-muted">
-        Textul rapoartelor nu îl publicăm: apar doar fraza verificată, citatul din textul oficial și numele, dacă cititorul l-a lăsat.
+        Textul rapoartelor nu îl publicăm: apar doar fraza verificată, citatul din proiect, explicația noastră și numele, dacă cititorul l-a lăsat.
       </p>
     </section>
   );

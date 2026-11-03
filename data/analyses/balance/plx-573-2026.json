@@ -1,0 +1,77 @@
+{
+  "slug": "plx-573-2026",
+  "billId": "Pl-x 573/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T20:07:42.408Z",
+  "inputHash": "e6815c178a82",
+  "riskScore": 2.7,
+  "summary": "O abrogare simplă, cu efect concret pentru cumpărători și curieri, dar făcută fără reguli de tranziție și fără calculul pierderii pentru buget.",
+  "good": [
+    {
+      "text": "Elimină o taxă fixă pe coletele din afara UE, care apăsa mai greu pe cumpărăturile mici și ieftine, indiferent de valoarea lor.",
+      "article": "art. unic",
+      "quote": "Articolul XXII din Legea nr. 239/2025 privind stabilirea unor măsuri de redresare și eficientizare a resurselor publice și pentru modificarea și completarea unor acte normative",
+      "weight": 3
+    },
+    {
+      "text": "Curierii și operatorii poștali nu mai sunt obligați să strângă taxa pentru stat și nu mai riscă sancțiunile legate de această obligație.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Textul e scurt și precis: arată exact ce articol dispare și din ce lege, inclusiv modificările ulterioare, deci nu lasă loc de dubii asupra obiectului.",
+      "article": "art. unic",
+      "quote": "publicată în Monitorul Oficial al României, Partea I, nr. 1160 din 15 decembrie 2025, cu modificările și completările ulterioare, se abrogă.",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Bugetul pierde venituri, dar proiectul nu are nicio cifră, nicio fișă financiară și nicio sursă de compensare. Afirmația că taxa ar reduce veniturile nu e dovedită.",
+      "article": "art. unic; expunerea de motive",
+      "quote": null,
+      "weight": 3
+    },
+    {
+      "text": "Lipsesc regulile de tranziție. Nu se știe ce se întâmplă cu coletele deja intrate în țară și cu banii luați de la clienți, dar nevirați încă la stat.",
+      "article": "art. unic",
+      "quote": "Articolul XXII din Legea nr. 239/2025 privind stabilirea unor măsuri de redresare și eficientizare a resurselor publice și pentru modificarea și completarea unor acte normative",
+      "weight": 3
+    },
+    {
+      "text": "Odată cu articolul dispar și pedepsele. Cine a încasat taxa și n-a virat-o înainte de abrogare poate scăpa nesancționat, pentru că se aplică legea mai blândă.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Nu are dată de aplicare, deci intră în vigoare la 3 zile de la publicare. Termenul e scurt pentru ca operatorii să-și adapteze sistemele și declarațiile.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Nimic din text nu garantează că prețul pentru cumpărător scade. Economia poate rămâne la platforme sau expeditori.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Adăugați un articol tranzitoriu: taxa încasată înainte rămâne de virat și sancțiunile se aplică faptelor anterioare. Fixați aplicarea de la 1 a lunii și atașați fișa financiară.",
+    "removes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 5,
+    "verified": 3
+  }
+}

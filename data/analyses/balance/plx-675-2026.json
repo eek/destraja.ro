@@ -1,0 +1,88 @@
+{
+  "slug": "plx-675-2026",
+  "billId": "PL-x 675/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T20:09:04.826Z",
+  "inputHash": "7f450cfdc1d2",
+  "riskScore": 2.7,
+  "summary": "O lege corectă ca idee, dar care ratează exact cazul pentru care a fost scrisă, angajarea, și nu spune cum se face recalcularea.",
+  "good": [
+    {
+      "text": "Cine plătește voluntar CASS și apoi intră în cursul anului într-o categorie scutită nu mai e obligat să plătească integral; suma datorată se recalculează.",
+      "article": "art. unic (art. 180 alin. (5) Cod fiscal)",
+      "quote": "se încadrează în categoriile de persoane exceptate de la plata contribuției potrivit art. 154 alin. (1), contribuția de asigurări sociale de sănătate datorată potrivit alin. (2) se recalculează",
+      "weight": 3
+    },
+    {
+      "text": "Recalcularea se aplică doar schimbărilor apărute după alegerea plății voluntare, deci nu poate fi folosită pentru a evita plata de către cine era deja scutit.",
+      "article": "art. unic (art. 180 alin. (5) Cod fiscal)",
+      "quote": "iar în cursul aceluiași an, ulterior exprimării opțiunii, se încadrează în categoriile de persoane exceptate",
+      "weight": 1
+    },
+    {
+      "text": "Scade riscul de a pierde bani dacă te asiguri voluntar, ceea ce poate încuraja mai mulți oameni fără venituri să intre în sistemul de sănătate.",
+      "article": "art. unic (art. 180 alin. (5) Cod fiscal)",
+      "quote": "persoanelor fizice care optează în anul curent pentru plata contribuției de asigurări sociale de sănătate potrivit alin. (1)",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Textul acoperă doar persoanele scutite (art. 154), nu și pe cele care se angajează și plătesc CASS din salariu (art. 155). Plata dublă din motivare rămâne.",
+      "article": "art. unic (art. 180 alin. (5) Cod fiscal)",
+      "quote": "exceptate de la plata contribuției potrivit art. 154 alin. (1)",
+      "weight": 3
+    },
+    {
+      "text": "Legea spune doar «se recalculează», fără să spună cum: proporțional cu lunile, ce se întâmplă cu luna începută, de la ce dată. ANAF poate interpreta cum vrea.",
+      "article": "art. unic (art. 180 alin. (5) Cod fiscal)",
+      "quote": "contribuția de asigurări sociale de sănătate datorată potrivit alin. (2) se recalculează",
+      "weight": 3
+    },
+    {
+      "text": "Nu e stabilită procedura: dacă recalcularea e automată sau la cerere, ce acte trebuie, ce termen are ANAF, cum se restituie sau se compensează banii plătiți în plus.",
+      "article": "art. unic (art. 180 alin. (5) Cod fiscal)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Motivarea spune că statul nu pierde bani, dar cei scutiți nu mai plătesc deloc CASS după recalculare. Impactul asupra bugetului nu e calculat.",
+      "article": "Expunerea de motive, cap. III",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Limita «în cursul aceluiași an» poate lăsa pe dinafară scutirea apărută după 31 decembrie, dacă obligația voluntară trece în anul următor.",
+      "article": "art. unic (art. 180 alin. (5) Cod fiscal)",
+      "quote": "iar în cursul aceluiași an, ulterior exprimării opțiunii",
+      "weight": 1
+    },
+    {
+      "text": "Formularea «optează în anul curent» e vagă: nu e clar dacă e vorba de anul depunerii declarației sau de anul pentru care se plătește.",
+      "article": "art. unic (art. 180 alin. (5) Cod fiscal)",
+      "quote": "persoanelor fizice care optează în anul curent pentru plata contribuției",
+      "weight": 1
+    },
+    {
+      "text": "Senatul a adoptat proiectul tacit, prin depășirea termenului, așa că textul nu a fost corectat în prima cameră, deși diferă clar de motivare.",
+      "article": "formula de adoptare",
+      "quote": "Acest proiect de lege se consideră adoptat de Senat în forma inițială, în condițiile articolului 75 alineatul (2)",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Articolul unic ar trebui să includă și persoanele care devin plătitoare obligatorii de CASS (art. 155, de exemplu salariații) și să prevadă recalcularea proporțională pe luni, data de referință și procedura de restituire sau compensare.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2
+  },
+  "quotes": {
+    "checked": 9,
+    "verified": 8
+  }
+}

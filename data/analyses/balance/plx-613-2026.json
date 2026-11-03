@@ -1,0 +1,102 @@
+{
+  "slug": "plx-613-2026",
+  "billId": "Pl-x 613/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T19:02:36.826Z",
+  "inputHash": "80146715011b",
+  "riskScore": 5,
+  "summary": "O idee utilă pentru turism, dar construită greșit: creditul fiscal îi dezavantajează pe unii angajatori față de regimul actual, iar detaliile cheie sunt lăsate neclare sau Guvernului.",
+  "good": [
+    {
+      "text": "Firmele cu profit își recuperează din impozit întreaga valoare a voucherelor date angajaților, deci au un motiv real să ofere vouchere de vacanță și în privat.",
+      "article": "art. I pct. 2 (art. 25 alin. (4) lit. h¹) C. fiscal)",
+      "quote": "contribuabilii care efectuează cheltuieli cu acordarea voucherelor de vacanță, potrivit prevederilor Legii nr. 165/2018 privind acordarea biletelor de valoare",
+      "weight": 2
+    },
+    {
+      "text": "Costul pentru buget are o limită clară: cel mult valoarea voucherelor date și cel mult 20% din impozitul pe profit al firmei.",
+      "article": "art. I pct. 2 (art. 25 alin. (4) lit. h¹) pct. 1–2 C. fiscal)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Legea se aplică doar de la 1 ianuarie a anului următor, deci firmele nu își schimbă regulile fiscale în mijlocul anului.",
+      "article": "art. IV",
+      "quote": "Prezenta lege intră în vigoare la data de 1 ianuarie a anului fiscal următor publicării în Monitorul Oficial",
+      "weight": 1
+    },
+    {
+      "text": "Guvernul are un termen fix de 60 de zile să adapteze normele, ceea ce reduce riscul ca legea să rămână neaplicată.",
+      "article": "art. III",
+      "quote": "În termen de 60 de zile de la data intrării în vigoare a prezentei legi Guvernul, la propunerea Ministerului Finanțelor",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Voucherele nu mai sunt deloc deductibile. Partea peste 20% din impozit și voucherele date de firmele pe pierdere se pierd, fără reportare. Pentru acestea legea e mai rea decât azi.",
+      "article": "art. I pct. 1 și 2 (art. 25 alin. (3) lit. c) și alin. (4) lit. h¹) C. fiscal)",
+      "quote": "h¹) cheltuielile reprezentând voucherele de vacanță, acordate de angajatori, potrivit legii;",
+      "weight": 3
+    },
+    {
+      "text": "Statul plătește practic tot voucherul, nu doar circa 16% ca azi. Plătește și pentru voucherele pe care firmele le dădeau oricum, fără niciun câștig pentru turism.",
+      "article": "art. I pct. 2 (art. 25 alin. (4) lit. h¹) pct. 1 C. fiscal)",
+      "quote": "1. valoarea totală a voucherelor de vacanță acordate angajaților în anul fiscal respectiv;",
+      "weight": 3
+    },
+    {
+      "text": "Guvernul primește dreptul să fixeze singur „plafonul anual”, deși legea fixează deja plafonul. Nu se spune nici dacă e vorba de plafonul pe angajat sau de limita creditului.",
+      "article": "art. II (art. 24¹ alin. (3) din Legea nr. 165/2018)",
+      "quote": "Condițiile, plafonul anual și procedura de aplicare se stabilesc prin Normele metodologice de aplicare a Legii nr. 227/2015 privind Codul fiscal",
+      "weight": 3
+    },
+    {
+      "text": "Trimiterea vagă la regimul „veniturilor salariale” poate fi citită ca obligație de a plăti toate contribuțiile pe salariu, nu doar impozitul și CASS ca azi.",
+      "article": "art. II (art. 24¹ alin. (2) din Legea nr. 165/2018)",
+      "quote": "Voucherele de vacanță acordate potrivit alin. (1) se supun regimului fiscal prevăzut de legislația fiscală în vigoare pentru veniturile salariale.",
+      "weight": 2
+    },
+    {
+      "text": "Nu e clar din ce sumă se calculează cei 20% și în ce ordine se aplică față de sponsorizări și alte reduceri. Fiecare poate calcula altfel, iar ANAF poate contesta.",
+      "article": "art. I pct. 2 (art. 25 alin. (4) lit. h¹) C. fiscal)",
+      "quote": "scad sumele aferente din impozitul pe profit datorat la nivelul valorii minime dintre următoarele:",
+      "weight": 2
+    },
+    {
+      "text": "Beneficiază doar firmele care au impozit pe profit de plată. Microîntreprinderile, PFA-urile, ONG-urile și firmele pe pierdere nu primesc nimic, deși motivarea vorbește de tot mediul privat.",
+      "article": "art. I pct. 2 (art. 25 alin. (4) lit. h¹) C. fiscal)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Expunerea de motive nu estimează cât va costa bugetul și nu arată de unde vin banii, deși măsura reduce direct încasările din impozitul pe profit.",
+      "article": "Expunerea de motive",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Formula „din impozitul pe profit redus” sugerează greșit că voucherele se plătesc din impozit. În realitate firma le plătește, apoi își reduce impozitul. Formularea e confuză.",
+      "article": "art. II (art. 24¹ alin. (1) din Legea nr. 165/2018)",
+      "quote": "Angajatorii pot acorda vouchere de vacanță angajaților proprii din impozitul pe profit redus potrivit prevederilor Legii nr. 227/2015",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Partea din vouchere care nu e acoperită de credit să rămână deductibilă sau să poată fi reportată, baza de 20% să fie definită clar, iar art. 24¹ să fie rescris fără delegarea plafonului și cu regimul fiscal actual al voucherelor.",
+    "removes": [
+      0,
+      2,
+      3,
+      4,
+      7
+    ],
+    "levelAfter": "yellow",
+    "scoreAfter": 3.5
+  },
+  "quotes": {
+    "checked": 9,
+    "verified": 9
+  }
+}

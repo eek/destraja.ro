@@ -1,0 +1,86 @@
+{
+  "slug": "plx-19-2026",
+  "billId": "PL-x 19/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T19:33:45.372Z",
+  "inputHash": "2828c1616da7",
+  "riskScore": 3.3,
+  "summary": "O lege scurtă, cu o singură schimbare, care prelungește așteptarea cumpărătorului pentru a-i ușura pe vânzători, dar păstrează garanțiile de bază.",
+  "good": [
+    {
+      "text": "Rămân obligatorii termenul rezonabil și acordul scris cu cumpărătorul. Limita de 15 zile lucrătoare e un maxim, nu un termen pe care vânzătorul îl primește automat.",
+      "article": "art. unic (art. 12 alin. (1) lit. b))",
+      "quote": "care este stabilit de comun acord, în scris, între vânzător și consumator, luându-se în considerare natura și complexitatea bunurilor",
+      "weight": 2
+    },
+    {
+      "text": "Termenul curge în continuare din ziua în care cumpărătorul anunță defectul, nu de când convine vânzătorului. Cumpărătorul nu pierde timp din cauza formalităților.",
+      "article": "art. unic (art. 12 alin. (1) lit. b))",
+      "quote": "din momentul în care vânzătorul a fost informat de către consumator cu privire la neconformitate",
+      "weight": 2
+    },
+    {
+      "text": "Vânzătorii și service-urile mici nu mai sunt amendați pentru zilele de weekend și sărbători în care furnizorii și curierii nu lucrează. Termenul devine mai ușor de respectat.",
+      "article": "art. unic (art. 12 alin. (1) lit. b))",
+      "quote": "într-un termen rezonabil care nu poate depăși 15 zile lucrătoare",
+      "weight": 1
+    },
+    {
+      "text": "Legea nu costă bani publici și nu introduce taxe, autorizații, formulare sau bariere noi pentru firme.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Schimbarea rămâne compatibilă cu dreptul UE, care cere doar un termen rezonabil, fără neplăceri serioase pentru cumpărător, și nu fixează un număr de zile.",
+      "article": "art. unic (art. 12 alin. (1) lit. b))",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Timpul maxim în care cumpărătorul rămâne fără produsul defect crește de la 15 la cel puțin 21 de zile, iar în preajma sărbătorilor ajunge la circa 28 de zile. Amenzile pentru întârziere devin mai rare.",
+      "article": "art. unic (art. 12 alin. (1) lit. b))",
+      "quote": "într-un termen rezonabil care nu poate depăși 15 zile lucrătoare din momentul în care vânzătorul a fost informat de către consumator cu privire la neconformitate",
+      "weight": 3
+    },
+    {
+      "text": "Termenul mai lung se aplică și la înlocuirea produsului, nu doar la reparație. Un produs aflat pe stoc se poate da mult mai repede, deci trei săptămâni de așteptare sunt greu de justificat.",
+      "article": "art. unic (art. 12 alin. (1) lit. b))",
+      "quote": "natura și gravitatea neconformității și efortul necesar pentru finalizarea reparației sau înlocuirii",
+      "weight": 2
+    },
+    {
+      "text": "Cumpărătorul așteaptă mai mult, dar nu primește nimic în schimb: nici produs de folosit temporar, nici despăgubire pentru perioada lungă fără bun.",
+      "article": "art. unic (art. 12 alin. (1) lit. b))",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Numărul de zile calendaristice diferă după perioada din an, iar textul nu spune clar ce înseamnă zi lucrătoare, de exemplu dacă sâmbăta contează pentru magazine. Cumpărătorul calculează mai greu termenul.",
+      "article": "art. unic (art. 12 alin. (1) lit. b))",
+      "quote": "termen rezonabil care nu poate depăși 15 zile lucrătoare din momentul",
+      "weight": 1
+    },
+    {
+      "text": "Expunerea de motive spune că legea protejează mai bine consumatorii, dar textul doar le prelungește așteptarea. Beneficiul real e pentru vânzători.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Zilele lucrătoare să se aplice doar la reparație, iar la înlocuirea unui produs disponibil să rămână termenul de 15 zile calendaristice.",
+    "removes": [
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2.5
+  },
+  "quotes": {
+    "checked": 7,
+    "verified": 6
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "plx-139-2026",
+  "billId": "Pl-x 139/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T19:58:27.097Z",
+  "inputHash": "19e4194e86aa",
+  "riskScore": 3,
+  "summary": "O lege bună pentru românii din străinătate, scrisă incomplet: nu spune ce se întâmplă cu urnele și voturile în nopțile dintre zilele de vot.",
+  "good": [
+    {
+      "text": "Românii din străinătate pot vota trei zile (vineri, sâmbătă, duminică), nu doar una. Asta reduce cozile și șansa ca oamenii să plece fără să fi votat.",
+      "article": "art. unic pct. 5 (art. 46 alin. (1¹))",
+      "quote": "votarea în străinătate se desfășoară și pe parcursul zilelor de vineri și sâmbătă imediat anterioare zilei votării",
+      "weight": 3
+    },
+    {
+      "text": "În țară votul rămâne doar duminică, între 7 și 21. Pentru alegătorii din România nu se schimbă nimic.",
+      "article": "art. unic pct. 4 (art. 46 alin. (1))",
+      "quote": "Votarea în ziua de duminică începe la ora 7,00 și se încheie la ora 21,00",
+      "weight": 2
+    },
+    {
+      "text": "Secțiile din străinătate sunt organizate pentru cei aflați acolo pe toată perioada de vot, nu doar într-o zi. Regula se potrivește astfel cu votul pe trei zile.",
+      "article": "art. unic pct. 1 (art. 34 alin. (7))",
+      "quote": "se organizează una sau mai multe secții de votare pentru alegătorii care se află în străinătate în perioada de vot",
+      "weight": 1
+    },
+    {
+      "text": "În fiecare dimineață, președintele secției verifică urnele, listele, buletinele și ștampilele, de față cu membrii biroului și cu observatorii, și notează totul în procesul-verbal.",
+      "article": "art. unic pct. 3 (art. 45 alin. (5))",
+      "quote": "Președintele birouului electoral al secției de votare, în prezența celorlalți membri și, după caz, a observatorilor, verifică urnele, listele electorale, buletinele de vot și ștampilele",
+      "weight": 1
+    },
+    {
+      "text": "Interdicția de a vinde și consuma alcool lângă secție se aplică în toate zilele de vot, nu doar duminică. Asta ajută la păstrarea ordinii.",
+      "article": "art. unic pct. 3 (art. 45 alin. (12))",
+      "quote": "În zilele de vot, între orele 7,00-21,00 sunt interzise comercializarea și consumul băuturilor alcoolice în spațiul de protecție",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Nu există reguli pentru închiderea de vineri și sâmbătă seara: sigilarea urnelor, numărarea celor care au votat, paza peste noapte a urnelor și ștampilelor, prezența observatorilor.",
+      "article": "art. unic pct. 5 (art. 46 alin. (1¹))",
+      "quote": "iar în ziua de sâmbătă, votarea se deschide la ora locală 7,00 și se încheie la ora locală 21,00",
+      "weight": 3
+    },
+    {
+      "text": "Biroul trebuie să înceapă activitatea zilnic la 6 și să sigileze urnele ca la deschidere. Dar vineri votul începe la 12, iar sâmbătă și duminică urnele au deja voturi în ele.",
+      "article": "art. unic pct. 3 (art. 45 alin. (5))",
+      "quote": "Activitatea birouului electoral al secției de votare începe în fiecare zi la ora 6,00",
+      "weight": 3
+    },
+    {
+      "text": "Regulile despre încheierea votului, numărare și anularea buletinelor nefolosite nu sunt adaptate. Nu se face diferența între închiderea de peste noapte și închiderea finală de duminică.",
+      "article": "art. unic pct. 3 (art. 45 alin. (5)); omisiune la art. 48–49 din lege",
+      "quote": "consemnând în procesul-verbal prevăzut la art. 49 numărul persoanelor înscrise în copiile listelor electorale permanente",
+      "weight": 2
+    },
+    {
+      "text": "Campania electorală se încheie tot sâmbătă dimineața, deși în străinătate se votează de vineri la prânz. Suprapunerea dintre campanie și vot nu este reglementată.",
+      "article": "omisiune (art. 35 alin. (1) din lege, nemodificat)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "„Perioada de vot” nu este definită. „Preziua” ei poate fi joi pentru străinătate sau sâmbătă pentru țară, deci nu e clar când se afișează buletinul model.",
+      "article": "art. unic pct. 2 (art. 44 alin. (5))",
+      "quote": "În preziua perioadei de vot, la sediul fiecărei secții de votare se afișează un buletin de vot, vizat și anulat",
+      "weight": 2
+    },
+    {
+      "text": "Formula „zilele de vot” poate fi citită ca vineri–duminică și pentru secțiile din țară. Vineri, interdicția de alcool începe la 7, cu cinci ore înainte de deschiderea votului.",
+      "article": "art. unic pct. 3 (art. 45 alin. (12))",
+      "quote": "sunt interzise comercializarea și consumul băuturilor alcoolice în spațiul de protecție al secției de votare prevăzut la alin. (6)",
+      "weight": 1
+    },
+    {
+      "text": "Textul are greșeli de redactare: „vineri” apare de două ori în aceeași frază, iar „birouului” este scris greșit. Nu schimbă sensul, dar textul pare neglijent.",
+      "article": "art. unic pct. 5 (art. 46 alin. (1¹)); art. unic pct. 3",
+      "quote": "În ziua de vineri, votarea începe în ziua de vineri, ora locală 12,00 și se încheie la ora locală 21,00",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Trebuie adăugate reguli pentru închiderea temporară de vineri și sâmbătă: sigilarea urnelor, un proces-verbal pentru fiecare zi, paza peste noapte și accesul observatorilor. Art. 45 alin. (5) și art. 48–49 trebuie adaptate pentru votul pe mai multe zile.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2
+  },
+  "quotes": {
+    "checked": 11,
+    "verified": 11
+  }
+}

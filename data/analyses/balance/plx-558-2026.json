@@ -1,0 +1,102 @@
+{
+  "slug": "plx-558-2026",
+  "billId": "PL-x 558/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T18:54:58.902Z",
+  "inputHash": "faf8f1a7497b",
+  "riskScore": 5.3,
+  "summary": "O singură scutire cu o intenție de înțeles, dar scrisă atât de vag și de larg încât poate goli bugetele comunelor sărace fără să ajute neapărat pe cine are nevoie.",
+  "good": [
+    {
+      "text": "Scutește de impozit pe clădire proprietarii fără rețele publice, mai ales familiile din sate care plătesc impozit fără să aibă apă, canalizare sau gaze.",
+      "article": "art. 1",
+      "quote": "clădirile aflate în proprietatea persoanelor fizice care nu au acces la o infrastructură aflată în funcțiune pentru rețele publice de alimentare cu apă, de canalizare ori de distribuire a gazelor naturale",
+      "weight": 2
+    },
+    {
+      "text": "Intră în vigoare abia de la 1 ianuarie a anului următor, așa că primăriile își pot pregăti bugetele și nu se schimbă impozitul în mijlocul anului.",
+      "article": "art. 2",
+      "quote": "Prezenta lege intră în vigoare la data de 1 ianuarie a anului următor publicării în Monitorul Oficial al României",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Din cauza lui „ori”, nu e clar dacă scutirea se dă când lipsește o singură rețea (majoritatea caselor de la sat) sau doar când lipsesc toate trei. Costul diferă enorm.",
+      "article": "art. 1",
+      "quote": "de alimentare cu apă, de canalizare ori de distribuire a gazelor naturale",
+      "weight": 3
+    },
+    {
+      "text": "„Nu au acces” nu e definit: rețea în localitate, pe stradă sau racord efectiv? Citit ca racord, scutește și pe cine refuză să se lege la o rețea existentă.",
+      "article": "art. 1",
+      "quote": "care nu au acces la o infrastructură aflată în funcțiune",
+      "weight": 3
+    },
+    {
+      "text": "Nu e limitată la casa în care locuiești, nu are plafon de valoare sau număr de clădiri: scapă de impozit vile noi, case de vacanță și spații comerciale ale persoanelor fizice.",
+      "article": "art. 1",
+      "quote": "clădirile aflate în proprietatea persoanelor fizice care nu au acces la o infrastructură",
+      "weight": 3
+    },
+    {
+      "text": "Banii pierduți ies din bugetele locale, fără nicio estimare a costului și fără compensare de la stat. Comunele cu cele mai puține rețele pierd cel mai mult.",
+      "article": "art. 1",
+      "quote": null,
+      "weight": 3
+    },
+    {
+      "text": "Contrazice propriul scop: primăriile care pierd impozitul vor avea și mai puțini bani să construiască exact rețelele care lipsesc.",
+      "article": "art. 1 (raportat la expunerea de motive)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Gazele sunt distribuite de companii concesionare, nu de primării. Comunele sunt penalizate pentru o rețea pe care nu o pot construi, iar scutirea poate deveni permanentă.",
+      "article": "art. 1",
+      "quote": "pentru rețele publice de alimentare cu apă, de canalizare ori de distribuire a gazelor naturale",
+      "weight": 2
+    },
+    {
+      "text": "Nu spune ce acte dovedesc lipsa accesului, cine verifică și când se reia impozitul după ce rețeaua apare. Rezultă practici diferite între primării și procese.",
+      "article": "art. 1",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Tratament inegal: un pensionar dintr-un bloc racordat plătește, un proprietar înstărit fără canalizare nu; o firmă plătește pentru o clădire identică cu a unei persoane fizice.",
+      "article": "art. 1",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Introduce o „lit. q)” după lit. p), deși art. 456 alin. (1) are deja litere și mai departe, inclusiv q). Se suprapune peste o scutire existentă și creează confuzie.",
+      "article": "art. 1 (partea introductivă)",
+      "quote": "după litera p) se introduce o nouă literă, lit.q), cu următorul cuprins",
+      "weight": 2
+    },
+    {
+      "text": "Codul fiscal dă deja valori impozabile mai mici clădirilor fără apă, canalizare, curent sau încălzire. Proiectul nu ține cont de asta și adaugă o scutire totală peste reducere.",
+      "article": "art. 1 (raportat la art. 457 Cod fiscal)",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Rescrierea art. 1: scutire doar pentru locuința de domiciliu, cu precizarea clară dacă lipsesc una sau toate rețelele, „acces” definit ca rețea inexistentă pe stradă, act doveditor, reluarea impozitului la racordare și numerotare corectă.",
+    "removes": [
+      0,
+      1,
+      2,
+      6,
+      8
+    ],
+    "levelAfter": "yellow",
+    "scoreAfter": 4
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 7
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "plx-104-2026",
+  "billId": "PL-x 104/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T19:55:07.904Z",
+  "inputHash": "9344c04311b3",
+  "riskScore": 3,
+  "summary": "O lege mică și utilă, care le permite primăriilor sărace să coopereze, dar e scrisă neglijent și are un termen de aplicare confuz.",
+  "good": [
+    {
+      "text": "Comunele și orașele fără bani sau personal își pot îndeplini obligația de a avea un serviciu pentru câinii fără stăpân împreună cu alte localități, printr-o asociație, în loc să fie sancționate.",
+      "article": "art. I pct. 1 (art. 1 alin. (1²))",
+      "quote": "această obligație poate fi îndeplinită prin asociere în cadrul unei asociații de dezvoltare intercomunitară constituită potrivit legii",
+      "weight": 3
+    },
+    {
+      "text": "Primăria poate plăti o firmă specializată în loc să își construiască propriul adăpost. Asta poate reduce costurile pentru localitățile mici.",
+      "article": "art. I pct. 1 (art. 1 alin. (1²))",
+      "quote": "serviciul poate fi externalizat către un operator al serviciilor specializate pentru gestionarea câinilor fară stăpân",
+      "weight": 2
+    },
+    {
+      "text": "Aceleași variante, asocierea sau contractarea unei firme, sunt permise și pentru județe, consilii locale și Consiliul General al Municipiului București când nu au bani pentru adăposturi.",
+      "article": "art. I pct. 2 (art. 2 alin. (1¹))",
+      "quote": "În cazul în care Consiliile județene, consiliile locale, respectiv Consiliul General al Municipiului București nu dispun de fondurile necesare",
+      "weight": 2
+    },
+    {
+      "text": "Proiectul nu desființează obligația de a gestiona câinii fără stăpân și nu ocolește regulile de achiziții publice. Doar adaugă moduri de a o îndeplini.",
+      "article": "art. I",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Articolul despre termen e incomplet (lipsește cuvântul „legi”). Amână cu 2 ani niște permisiuni, iar unele primării l-ar putea citi ca pe o amânare a obligațiilor pe care le au deja.",
+      "article": "art. II",
+      "quote": "Prevederile prezentei se vor pune în aplicare în termen de 24 de luni de la data intrării în vigoare a prezentei legi.",
+      "weight": 3
+    },
+    {
+      "text": "Nu se spune cine stabilește că o primărie „nu are fonduri sau capacitate” și pe ce bază. Condiția poate fi invocată după bunul plac.",
+      "article": "art. I pct. 1 (art. 1 alin. (1²))",
+      "quote": "În cazul în care unitatea administrativ-teritorială nu dispune de fondurile sau capacitatea administrativă necesară pentru înființarea unui astfel de serviciu propriu",
+      "weight": 2
+    },
+    {
+      "text": "Câinii pot fi duși la o firmă din orice colț al țării. Stăpânii și localnicii care vor să adopte ar putea să nu ajungă la ei la timp, iar transportul lung le face rău animalelor.",
+      "article": "art. I pct. 1 și 2",
+      "quote": "către un operator al serviciilor specializate pentru gestionarea câinilor fâră stăpân de pe teritoriul național",
+      "weight": 2
+    },
+    {
+      "text": "Cele două alineate nu se potrivesc. Unul acceptă și lipsa de personal, celălalt doar lipsa banilor. Unul spune „poate”, celălalt „va fi”, deci nu e clar dacă asocierea devine obligatorie.",
+      "article": "art. I pct. 2 (art. 2 alin. (1¹))",
+      "quote": "nu dispun de fondurile necesare această obligație prin asociere va fi îndeplinită în cadrul unei asociații de dezvoltare intercomunitară",
+      "weight": 2
+    },
+    {
+      "text": "Nu se cer condiții pentru firma contractată: autorizare, standarde pentru bunăstarea animalelor, controale. Nu se spune nici că primăria rămâne răspunzătoare.",
+      "article": "art. I pct. 1 și 2",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "La consiliile județene nu e clar la ce obligație se referă „această obligație”, adăposturile sau serviciul, și nici cum ar îndeplini-o o firmă contractată.",
+      "article": "art. I pct. 2 (art. 2 alin. (1¹))",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Citit invers, textul sugerează că primăriile care au bani nu se pot asocia, deși Codul administrativ le permite oricum asocierea pentru servicii publice.",
+      "article": "art. I pct. 1 și 2",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Textul are greșeli de scriere („fară”, „fâră”, „territoriul”, „Consiliile” cu majusculă), semn de redactare grăbită.",
+      "article": "art. I pct. 1 și 2",
+      "quote": "pentru gestionarea câinilor fară stăpân de pe territoriul național",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Art. II trebuie rescris, cu intrarea imediată în vigoare a permisiunilor și fără nicio amânare a obligațiilor existente, iar art. 2 alin. (1¹) trebuie aliniat la art. 1 alin. (1²), cu „poate” și cu o obligație clar identificată.",
+    "removes": [
+      0,
+      3,
+      5
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 8
+  }
+}

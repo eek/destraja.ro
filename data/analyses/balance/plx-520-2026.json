@@ -1,0 +1,99 @@
+{
+  "slug": "plx-520-2026",
+  "billId": "Pl-x 520/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T19:37:54.242Z",
+  "inputHash": "e851215f2448",
+  "riskScore": 3.3,
+  "summary": "O lege de aprobare standard și în mare parte corectă, slăbită de delegarea largă către Guvern pentru modificarea ulterioară a acordului fără Parlament.",
+  "good": [
+    {
+      "text": "Parlamentul aprobă explicit împrumutul și suma exactă, deci datoria nouă nu se face fără votul legislativului.",
+      "article": "art. 1",
+      "quote": "în valoare de 16.680.055.394 euro, denumit în continuare Acord de împrumut",
+      "weight": 3
+    },
+    {
+      "text": "Guvernul poate modifica acordul doar dacă România nu ajunge să datoreze mai mult UE, deci există o limită clară pentru împuternicirea dată.",
+      "article": "art. 3 alin. (1)",
+      "quote": "amendamente la Acordul de împrumut care nu sunt de natură să majoreze obligațiile financiare asumate de România față de Uniunea Europeană",
+      "weight": 2
+    },
+    {
+      "text": "Dobânzile și celelalte costuri au linii bugetare precise, separate pe dobânzi și pe bunuri și servicii, ceea ce le face ușor de urmărit în buget.",
+      "article": "art. 2 alin. (2)-(3)",
+      "quote": "se va asigura de la bugetul de stat prin bugetul Ministerului Finanțelor - Acțiuni generale, din capitolul 55.01 „Tranzacții privind datoria publică și împrumuturi” titlul 30 „Dobânzi”",
+      "weight": 2
+    },
+    {
+      "text": "Costul împrumutului se calculează după o regulă europeană publică, aceeași pentru toate statele, nu după o negociere separată.",
+      "article": "art. 2 alin. (2)",
+      "quote": "Costul de finanțare, cuprinzând dobânda și alte taxe conform Deciziei de punere în aplicare (EU, EURATOM) 2024/1974 a Comisiei din 12 iulie 2024",
+      "weight": 2
+    },
+    {
+      "text": "Rambursarea se face prin regulile obișnuite ale datoriei publice, gestionate de Ministerul Finanțelor, fără un regim special sau excepții.",
+      "article": "art. 2 alin. (1)",
+      "quote": "se asigură de Ministerul Finanțelor conform legislației în vigoare privind datoria publică, prin mecanismul aferent finanțărilor rambursabile contractate de Guvernul României",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Guvernul poate schimba acordul doar prin hotărâre, fără vot în Parlament, deși e vorba de un tratat internațional cu obligații pe zeci de ani.",
+      "article": "art. 3 alin. (2)",
+      "quote": "Amendamentele convenite potrivit alin. (1) se aprobă prin hotărâre a Guvernului.",
+      "weight": 3
+    },
+    {
+      "text": "Legea nu fixează dobânda și nici un plafon al costurilor, iar formula include „alte costuri”. Parlamentul nu poate ști cât va plăti în total bugetul.",
+      "article": "art. 2 alin. (2)-(3)",
+      "quote": "Costul de administrare a lichidității, costul serviciilor pentru cheltuielile de regie și alte costuri aferente împrumutului",
+      "weight": 3
+    },
+    {
+      "text": "Legea aprobă doar suma totală. Ce se cumpără, de către cine și cu ce termene se decide în afara ei (Plan CSAT, hotărâri de Guvern).",
+      "article": "art. 1",
+      "quote": "Se aprobă Acordul de împrumut (SAFE) între Uniunea Europeană și România, semnat la București, la 12 mai 2026",
+      "weight": 2
+    },
+    {
+      "text": "Se creează datorie publică nouă de aproape 16,7 mld. euro, plătită din buget, dar legea nu arată un calendar de plăți sau efectul asupra bugetului.",
+      "article": "art. 2 alin. (1)",
+      "quote": "rambursarea capitalului, achitarea costurilor de finanțare, a costurilor de administrare a lichidității, a costurilor serviciilor pentru cheltuielile de regie",
+      "weight": 2
+    },
+    {
+      "text": "„Obligații financiare” nu e definit. Guvernul ar putea schimba termene, scadențe sau condiții fără Parlament, invocând că suma nu crește.",
+      "article": "art. 3 alin. (1)",
+      "quote": "Se autorizează Guvernul României ca, prin Ministerul Finanțelor, să convină cu Comisia Europeană amendamente la Acordul de împrumut",
+      "weight": 2
+    },
+    {
+      "text": "Nu există obligația de a raporta Parlamentului cum se îndeplinesc jaloanele, deși ratarea lor poate bloca tranșe sau afecta compensarea prefinanțării.",
+      "article": "art. 1-3 (lipsă)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Formularea despre finanțarea deficitului și refinanțare poate crea confuzie privind folosirea banilor, deși descrie doar mecanismul de plată.",
+      "article": "art. 2 alin. (1)",
+      "quote": "în vederea finanțării deficitului bugetului de stat, refinanțării și rambursării anticipate a datoriei publice guvernamentale",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Art. 3 trebuie să trimită în Parlament amendamentele care schimbă scadențe, costuri sau condiții. Celelalte se aprobă prin HG, cu informarea Parlamentului.",
+    "removes": [
+      0,
+      4
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2.5
+  },
+  "quotes": {
+    "checked": 11,
+    "verified": 11
+  }
+}

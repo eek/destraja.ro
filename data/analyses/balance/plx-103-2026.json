@@ -1,0 +1,102 @@
+{
+  "slug": "plx-103-2026",
+  "billId": "PL-x 103/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T19:53:19.089Z",
+  "inputHash": "4d8f0e9517e5",
+  "riskScore": 3,
+  "summary": "O lege scurtă, cu un scop bun (protecția medicilor din UPU), dar lăsată neterminată: plata cade pe spitale, iar regulile reale sunt amânate pe o hotărâre de Guvern fără termen.",
+  "good": [
+    {
+      "text": "UPU și CPU pot cere pază cu jandarmi, care pot interveni legal în agresiuni, spre deosebire de firmele private. Este un răspuns direct la violența împotriva medicilor.",
+      "article": "art. unic pct. 2 (art. 6 alin. (3¹))",
+      "quote": "unitățile de primiri urgențe (UPU) și compartimentele de primiri urgențe (CPU) pot beneficia, la cerere, de pază cu effective de jandarmi",
+      "weight": 3
+    },
+    {
+      "text": "Paza cu jandarmi este opțională: fiecare spital decide dacă are nevoie de ea, deci nu primește automat o cheltuială nouă.",
+      "article": "art. unic pct. 2 (art. 6 alin. (3¹))",
+      "quote": "pot beneficia, la cerere, de pază cu effective de jandarmi, contra cost, stabilită prin hotărâre a Guvernului",
+      "weight": 2
+    },
+    {
+      "text": "Sănătatea este recunoscută ca domeniu de importanță deosebită, așa că Guvernul poate include unități sanitare critice printre obiectivele păzite de jandarmi.",
+      "article": "art. unic pct. 1 (art. 6 alin. (1))",
+      "quote": "Paza obiectivelor de importanță deosebită pentru apărarea țării, activitatea statului, economie, sănătate, știință, cultură și artă",
+      "weight": 2
+    },
+    {
+      "text": "Proiectul nu impune amenzi, taxe sau formalități noi pentru pacienți ori cetățeni.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Legea folosește mecanismul existent al Legii 333/2003, fără să creeze o instituție sau o structură nouă.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Spitalul plătește paza, dar legea nu spune din ce bani: din bugetul MS, din CNAS sau de la autoritățile locale. Spitalele sărace, poate cele mai expuse, ar putea rămâne fără jandarmi.",
+      "article": "art. unic pct. 2 (art. 6 alin. (3¹))",
+      "quote": "pot beneficia, la cerere, de pază cu effective de jandarmi, contra cost, stabilită prin hotărâre a Guvernului",
+      "weight": 3
+    },
+    {
+      "text": "Tarifele, procedura, criteriile și ordinea în care se rezolvă cererile sunt lăsate unei HG fără termen. Până la adoptarea ei, prevederea poate rămâne fără efect.",
+      "article": "art. unic pct. 2 (art. 6 alin. (3¹))",
+      "quote": "compartimentele de primiri urgențe (CPU) pot beneficia, la cerere, de pază cu effective de jandarmi, contra cost, stabilită prin hotărâre a Guvernului",
+      "weight": 3
+    },
+    {
+      "text": "Alin. (1) spune că paza obiectivelor din sănătate «se asigură» cu jandarmi (obligatoriu), iar alin. (3¹) o face opțională pentru UPU/CPU. Nu e clar ce regim se aplică unei unități de urgență.",
+      "article": "art. unic pct. 1 și pct. 2 (art. 6 alin. (1) și (3¹))",
+      "quote": "Paza obiectivelor de importanță deosebită pentru apărarea țării, activitatea statului, economie, sănătate, știință, cultură și artă",
+      "weight": 2
+    },
+    {
+      "text": "Domeniul «sănătate» e mult mai larg decât UPU-urile din expunerea de motive. Ce intră efectiv în el decide Guvernul ulterior, fără limite puse de lege.",
+      "article": "art. unic pct. 1 (art. 6 alin. (1))",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Doar UPU/CPU «din spitalele de urgență» sunt acoperite. Compartimentele de primiri urgențe din alte spitale, unde agresiunile pot fi la fel de frecvente, rămân pe dinafară.",
+      "article": "art. unic pct. 2 (art. 6 alin. (3¹))",
+      "quote": "În cadrul spitalelor de urgență, unitățile de primiri urgențe (UPU) și compartimentele de primiri urgențe (CPU) pot beneficia",
+      "weight": 2
+    },
+    {
+      "text": "Legea nu prevede efective sau resurse suplimentare pentru Jandarmerie. Dacă cererile depășesc capacitatea, nu se știe cine are prioritate.",
+      "article": "art. unic pct. 2 (art. 6 alin. (3¹))",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Greșeală de scriere repetată: «effective» în loc de «efective», de două ori în textul legii. Trebuie corectată înainte de adoptarea finală.",
+      "article": "art. unic pct. 1 și pct. 2",
+      "quote": "precum și a transporturilor valorilor deosebite sau speciale se asigură cu effective de jandarmi",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Alin. (3¹) ar trebui să indice sursa de finanțare (de exemplu bugetul MS), să fixeze un termen și criterii pentru HG, să includă toate UPU/CPU, să clarifice relația cu alin. (1) și să corecteze «effective».",
+    "removes": [
+      0,
+      1,
+      2,
+      4,
+      6
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 8
+  }
+}

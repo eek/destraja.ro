@@ -1,0 +1,108 @@
+{
+  "slug": "plx-207-2026",
+  "billId": "Pl-x 207/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T19:18:00.240Z",
+  "inputHash": "d72f3f565ccb",
+  "riskScore": 3.7,
+  "summary": "Un scop rezonabil, TVA de 11% și la peleții din paie și resturi agricole, dar redactat prost: șterge regulile clare de azi și riscă un conflict cu dreptul UE.",
+  "good": [
+    {
+      "text": "Peleții și brichetele din paie, coceni sau alte resturi agricole ar avea TVA 11% în loc de 21%. Încălzirea pentru gospodării se ieftinește cu circa 8%, dacă reducerea ajunge în preț.",
+      "article": "art. unic, lit. i)",
+      "quote": "precum și deșeuri și resturi vegetale agricole sau din alte materii vegetale, aglomerate sub formă de peleți, brichete sau sub forme similare",
+      "weight": 3
+    },
+    {
+      "text": "Școlile, spitalele, dispensarele și centrele sociale, care de regulă nu își pot recupera TVA-ul, ar plăti mai puțin pe acest combustibil. Asta înseamnă economii pentru bani publici.",
+      "article": "art. unic, lit. j)",
+      "quote": "inclusiv școli, spitale, dispensare medicale și unități de asistență socială, a lemnului de foc",
+      "weight": 2
+    },
+    {
+      "text": "Combustibilii cu aceeași utilizare ar avea același TVA, indiferent dacă vin din lemn sau din resturi agricole. Asta elimină un dezavantaj pentru producătorii de peleți din paie.",
+      "article": "art. unic, lit. i) și j)",
+      "quote": "indiferent de proveniența materialului din care sunt obținute, utilizate drept combustibil de încălzire",
+      "weight": 2
+    },
+    {
+      "text": "Resturile agricole ar deveni mai rentabile ca peleți. Asta poate reduce arderea lor pe câmp și cererea de lemn de foc din păduri.",
+      "article": "art. unic, lit. j)",
+      "quote": "precum și a deșeurilor și resturilor vegetale agricole sau din alte materii vegetale, aglomerate sub formă de peleți, brichete",
+      "weight": 2
+    },
+    {
+      "text": "Dispare declarația pe propria răspundere cerută azi la cumpărarea rumegușului neaglomerat, deci există mai puține formalități pentru cumpărători.",
+      "article": "art. unic, lit. i) și j)",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Sunt șterse toate codurile vamale (NC 4401...) care spun azi exact ce produse au TVA 11%. Lista devine o descriere vagă, ușor de contestat între ANAF și firme.",
+      "article": "art. unic, lit. i) și j)",
+      "quote": "livrarea către persoanele fizice de lemn de foc, sub formă de trunchiuri, butuci, vreascuri, ramuri sau sub forme similare",
+      "weight": 3
+    },
+    {
+      "text": "Directiva TVA permite cota redusă pentru lemnul de foc, cel mult până în 2030, nu pentru orice combustibil solid din paie. Afirmația contrară din motivare e greșită și există risc de infringement.",
+      "article": "art. unic, lit. i) și j); expunerea de motive",
+      "quote": null,
+      "weight": 3
+    },
+    {
+      "text": "E neclar dacă rumegușul și resturile de lemn neaglomerate mai au TVA 11%, fiindcă «aglomerate» poate fi citit pentru toată enumerarea. Cumpărătorii pot pierde o reducere pe care o au azi.",
+      "article": "art. unic, lit. i)",
+      "quote": "precum și de rumeguș, deșeuri și resturi de lemn, precum și deșeuri și resturi vegetale agricole",
+      "weight": 3
+    },
+    {
+      "text": "Singura condiție este folosirea la încălzire, dar nu se cere nicio dovadă. Firmele, inclusiv cele industriale, pot cumpăra tocătură sau resturi la 11% fără vreun control.",
+      "article": "art. unic, lit. j)",
+      "quote": "livrarea către persoane juridice sau alte entități, indiferent de forma juridică de organizare a acestora",
+      "weight": 2
+    },
+    {
+      "text": "Formulele «forme similare», «alte materii vegetale» și «indiferent de proveniență» nu au limite. Nu e clar ce se întâmplă cu amestecurile sau cu produsele vândute și pentru alte utilizări.",
+      "article": "art. unic, lit. i) și j)",
+      "quote": "aglomerate sub formă de peleți, brichete sau sub forme similare, indiferent de proveniența materialului din care sunt obținute",
+      "weight": 2
+    },
+    {
+      "text": "Proiectul reduce veniturile din TVA fără nicio estimare în cifre și fără o sursă de compensare. Legea responsabilității fiscal-bugetare cere ambele.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Redactarea e neglijentă: lit. j) nu mai descrie formele lemnului de foc, ca lit. i), iar enumerarea are greșeli gramaticale. Asta creează diferențe de interpretare între persoane fizice și firme.",
+      "article": "art. unic, lit. j)",
+      "quote": "a lemnului de foc, a rumegușului, a deșeurilor și resturilor de lemn",
+      "weight": 1
+    },
+    {
+      "text": "Motivarea dă vina pe nomenclatura UE, deși aceasta doar clasifică mărfurile. Omisiunea e în Codul fiscal, iar peleții din paie au alt cod, care putea fi adăugat simplu.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Păstrarea textului actual al lit. i) și j), cu codurile NC și regimul cu declarație pentru rumegușul neaglomerat, plus o teză nouă pentru peleții din resturi vegetale, cu codurile lor NC.",
+    "removes": [
+      0,
+      2,
+      3,
+      4,
+      6
+    ],
+    "levelAfter": "yellow",
+    "scoreAfter": 3
+  },
+  "quotes": {
+    "checked": 12,
+    "verified": 9
+  }
+}

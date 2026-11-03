@@ -1,0 +1,82 @@
+{
+  "slug": "plx-591-2026",
+  "billId": "Pl-x 591/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T19:16:16.444Z",
+  "inputHash": "891fe5995ded",
+  "riskScore": 3.7,
+  "summary": "O corecție rezonabilă pentru funcțiile vacante, slăbită de o singură prevedere formulată prea larg: fără termen, fără definiții și fără regula pentru votul dublu.",
+  "good": [
+    {
+      "text": "Când un post din CSAT e vacant, instituția respectivă nu mai rămâne fără vot: interimarul votează, iar deciziile de securitate nu se iau fără vocea ei.",
+      "article": "art. unic, art. 8 alin. (2)",
+      "quote": "persoana care, potrivit legii, asigură interimar atribuțiile respectivei funcții, participă la ședințele Consiliului cu drept de vot",
+      "weight": 2
+    },
+    {
+      "text": "La o absență obișnuită de la ședință, înlocuitorul rămâne fără vot, deci titularii nu își pot delega votul după bunul plac.",
+      "article": "art. unic, art. 8 alin. (1)",
+      "quote": "În situația în care un membru al Consiliului Suprem de Apărare a Țării nu poate participa la ședință, el poate fi reprezentat, fără drept de vot, de înlocuitorul său legal.",
+      "weight": 2
+    },
+    {
+      "text": "Dreptul de vot al interimarului încetează automat când e numit un titular nou, deci are cel puțin o limită de final.",
+      "article": "art. unic, art. 8 alin. (2)",
+      "quote": "până la numirea în funcție a unui nou titular",
+      "weight": 1
+    },
+    {
+      "text": "Nu schimbă componența CSAT, nu adaugă membri, nu creează cheltuieli bugetare și nu impune obligații cetățenilor sau firmelor.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Nu există termen-limită: un interimar, inclusiv la SRI sau SIE, unde șeful e numit de Parlament, poate vota în CSAT ani la rând fără acest aviz, blocând consensul.",
+      "article": "art. unic, art. 8 alin. (2)",
+      "quote": "participă la ședințele Consiliului cu drept de vot, în aceleași condiții ca titularul acesteia, până la numirea în funcție a unui nou titular",
+      "weight": 3
+    },
+    {
+      "text": "„Vacantarea funcției” nu e definită, iar Expunerea numește concediile „vacantare temporară”. Astfel, votul ar putea fi dat și în cazul unui concediu, exact ce exclude alin. (1).",
+      "article": "art. unic, art. 8 alin. (2)",
+      "quote": "în situația în care un membru al Consiliului Suprem de Apărare a Țării nu poate participa la ședință ca urmare a vacantării funcției",
+      "weight": 2
+    },
+    {
+      "text": "Nu spune ce se întâmplă când interimatul e preluat de cineva deja membru CSAT, de pildă premierul sau un alt ministru. Rămâne neclar dacă votează o dată sau de două ori.",
+      "article": "art. unic, art. 8 alin. (2)",
+      "quote": "persoana care, potrivit legii, asigură interimar atribuțiile respectivei funcții",
+      "weight": 2
+    },
+    {
+      "text": "Expunerea promite vot și la suspendarea titularului sau la imposibilitatea exercitării funcției, dar textul acoperă doar postul vacant. Motivarea și legea nu se potrivesc.",
+      "article": "art. unic, art. 8 alin. (2)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Nu e clar cine e „interimar”: Expunerea include delegarea conducerii sau un înlocuitor desemnat, așa că numirile la discreție pot decide cine votează în CSAT.",
+      "article": "art. unic, art. 8 alin. (2)",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Limitați votul interimarului la un termen scurt (de ex. 45–90 de zile), definiți vacanța ca post fără titular (excluzând concediile) și precizați că un membru deja în CSAT nu primește un vot în plus.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 6,
+    "verified": 6
+  }
+}

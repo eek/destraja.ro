@@ -1,0 +1,101 @@
+{
+  "slug": "plx-295-2026",
+  "billId": "PL-x 295/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T19:37:51.994Z",
+  "inputHash": "515194ce4ff4",
+  "riskScore": 3.3,
+  "summary": "O lege cu scop legitim, de economie și echitate, dar cu excluderi formulate prea larg și neclar, mai ales criteriul proprietății, și fără reguli de tranziție.",
+  "good": [
+    {
+      "text": "Diurna magistraților delegați sau detașați nu mai e un procent din indemnizație, ci aceeași sumă ca pentru ceilalți bugetari. Se economisesc bani publici și se reduce o diferență greu de justificat.",
+      "article": "art. unic pct. 1 (art. 13 alin. (1) lit. a))",
+      "quote": "diurnă în cuantumul stabilit pentru personalul autorităților și instituțiilor publice pe perioada delegării și detașării în altă localitate",
+      "weight": 3
+    },
+    {
+      "text": "Drepturile se acordă doar dacă magistratul e trimis în altă localitate decât cea în care lucrează permanent. Nu se mai plătește diurnă pentru muncă în același oraș, situație admisă prin Decizia ÎCCJ 80/2025.",
+      "article": "art. unic pct. 1 (partea introductivă a art. 13 alin. (1))",
+      "quote": "care sunt detașați sau delegați în altă localitate decât cea în care au locul de muncă permanent",
+      "weight": 3
+    },
+    {
+      "text": "Cine e delegat chiar în localitatea în care are domiciliul nu mai primește diurnă, cazare și transport. Acolo nu are cheltuieli suplimentare reale.",
+      "article": "art. unic pct. 2 (art. 13 alin. (1¹) lit. a))",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Delegarea într-o localitate lipită de cea de domiciliu (sub 5 km) nu mai dă drept la diurnă. Excluderea e logică, dar prinde puține cazuri.",
+      "article": "art. unic pct. 2 (art. 13 alin. (1¹) lit. c))",
+      "quote": "într-o localitate situată la o distanță mai mică de 5 km față de localitatea de domiciliu",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Orice locuință deținută de magistrat, soț sau copii taie toate drepturile, chiar dacă e o cotă moștenită, nudă proprietate sau e închiriată și nu poate fi folosită. Rezultatul poate fi inechitabil.",
+      "article": "art. unic pct. 2 (art. 13 alin. (1¹) lit. b))",
+      "quote": "într-o localitate în care ei ori soțul/soția sau copiii aflați în întreținerea lor dețin o locuință în proprietate",
+      "weight": 3
+    },
+    {
+      "text": "Excluderile elimină și decontarea transportului, nu doar diurna și cazarea. Magistratul are totuși costuri de drum, mai ales în cazul proprietății, iar proprietatea nu le face să dispară.",
+      "article": "art. unic pct. 2 (art. 13 alin. (1¹) partea introductivă)",
+      "quote": "Nu beneficiază de drepturile prevăzute la alin.(1) judecătorii, procurorii, personalul asimilat acestora și magistrații-asistenți care sunt delegați sau detașați",
+      "weight": 2
+    },
+    {
+      "text": "Legea nu are dispoziții tranzitorii. Se aplică de la intrarea în vigoare și detașărilor deja în curs, cu reducerea bruscă a drepturilor, ceea ce poate genera procese.",
+      "article": "art. unic (întreg proiectul)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Textul nu spune cum se măsoară cei 5 km: între centre, între limitele localităților sau pe drum. Instituțiile pot aplica regula diferit.",
+      "article": "art. unic pct. 2 (art. 13 alin. (1¹) lit. c))",
+      "quote": "într-o localitate situată la o distanță mai mică de 5 km față de localitatea de domiciliu",
+      "weight": 2
+    },
+    {
+      "text": "Excluderile se raportează la domiciliul din acte, nu la locul unde omul locuiește efectiv. Poate pierde drepturi cine chiar face naveta și poate evita excluderea cine își ține domiciliul în altă parte.",
+      "article": "art. unic pct. 2 (art. 13 alin. (1¹) lit. a) și c))",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Cuantumul diurnei magistraților ajunge să depindă de o hotărâre a Guvernului, care poate fi schimbată oricând. Pot apărea obiecții privind independența justiției și stabilirea drepturilor prin lege.",
+      "article": "art. unic pct. 1 (art. 13 alin. (1) lit. a))",
+      "quote": "diurnă în cuantumul stabilit pentru personalul autorităților și instituțiilor publice pe perioada delegării și detașării în altă localitate",
+      "weight": 2
+    },
+    {
+      "text": "Senatul a adoptat pragul de 5 km, deși expunerea de motive argumentează pentru 20 km. Nu se explică de ce s-a schimbat, iar efectul real al excluderii scade mult.",
+      "article": "art. unic pct. 2 (art. 13 alin. (1¹) lit. c))",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Limitele „rezonabile” pentru cazare și transport promise în expunere nu apar în text. Regimul special actual rămâne neschimbat pentru cei care își păstrează drepturile.",
+      "article": "art. unic (art. 13 alin. (1) lit. b) și c), nemodificate)",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Criteriul proprietății ar trebui limitat la o locuință efectiv disponibilă și doar la diurnă și cazare, nu la transport. Mai trebuie precizat cum se măsoară distanța și adăugată o dispoziție tranzitorie pentru detașările în curs.",
+    "removes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2
+  },
+  "quotes": {
+    "checked": 7,
+    "verified": 7
+  }
+}

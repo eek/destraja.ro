@@ -1,0 +1,94 @@
+{
+  "slug": "plx-554-2026",
+  "billId": "Pl-x 554/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T19:36:03.509Z",
+  "inputHash": "bec02a6541d4",
+  "riskScore": 3.3,
+  "summary": "O lege scurtă și în mare parte simbolică, al cărei singur efect real (o zi liberă plătită în plus) vine fără calcul de cost și fără o sursă reală de finanțare.",
+  "good": [
+    {
+      "text": "Toți salariații primesc o zi liberă plătită în plus pe 10 mai, timp pentru odihnă și familie. Cei care lucrează în acea zi primesc timp liber sau spor de cel puțin 100%.",
+      "article": "art. II",
+      "quote": "(1) Zilele de sărbătoare legală în care nu se lucrează sunt:",
+      "weight": 3
+    },
+    {
+      "text": "Prevederea e clară și ușor de aplicat: o dată fixă, adăugată în lista unică din Codul muncii. Regulile existente pentru munca în zilele de sărbătoare se aplică automat.",
+      "article": "art. II",
+      "quote": "La articolul 139 din Legea nr.53/2003 – Codul muncii, republicată în Monitorul Oficial al României, Partea I",
+      "weight": 2
+    },
+    {
+      "text": "Lista rescrisă păstrează toate zilele libere existente, inclusiv 6 și 7 ianuarie și zilele pentru cultele necreștine. Salariații nu pierd nicio zi liberă pe care o au deja.",
+      "article": "art. II",
+      "quote": "două zile pentru fiecare dintre cele 3 sărbători religioase anuale, declarate astfel de cultele religioase legale, altele decât cele creștine",
+      "weight": 1
+    },
+    {
+      "text": "Reafirmă 10 mai ca sărbătoare națională fără să atingă Ziua Națională de 1 Decembrie din Constituție. Efectul e doar simbolic, fiindcă ziua era deja recunoscută.",
+      "article": "art. I pct. 2",
+      "quote": "Se declară ziua de 10 mai ca Ziua Independenței Naționale a României, zi de sărbătoare națională.",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Toți angajatorii, privați și publici, pierd o zi de lucru plătită pe an. Costul pentru economie nu este estimat nicăieri.",
+      "article": "art. II",
+      "quote": null,
+      "weight": 3
+    },
+    {
+      "text": "Spitalele, poliția și alte servicii publice care nu se opresc vor plăti spor sau vor da zile libere. Banii indicați sunt cei pentru organizarea de evenimente, deci finanțarea e doar pe hârtie.",
+      "article": "art. II (sursa de finanțare din expunere)",
+      "quote": null,
+      "weight": 3
+    },
+    {
+      "text": "Lipsește un studiu de impact. Beneficiul pentru turism e doar afirmat, iar consultările „unanim favorabile” nu spun cu cine s-au purtat.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Legea nu are o dată de aplicare amânată. Noua zi liberă poate apărea în mijlocul anului bugetar, fără timp de pregătire pentru firme și instituții.",
+      "article": "întregul proiect",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Rescrie toată lista de sărbători în loc să adauge doar un rând. Dacă lista se modifică între timp prin altă lege, se pot pierde sau dubla zile din greșeală.",
+      "article": "art. II",
+      "quote": "alineatul (1) se modifică și va avea următorul cuprins:",
+      "weight": 1
+    },
+    {
+      "text": "Noul titlu propus conține greșit chiar numărul legii, „Legea nr. 189/2021”, ca parte din titlu. Este o eroare de redactare.",
+      "article": "art. I pct. 1",
+      "quote": "Legea nr. 189/2021 privind declararea zilei de 10 mai ca Ziua Independenței Naționale a României",
+      "weight": 1
+    },
+    {
+      "text": "Ghilimelele sunt puse greșit: art. II apare inclus în textul care modifică Legea 189/2021, ceea ce creează confuzie despre ce lege se modifică.",
+      "article": "art. I – art. II",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Păstrarea zilei libere, dar cu aplicare de la începutul anului bugetar următor, însoțită de un calcul real al costurilor și de o sursă de finanțare pentru sporurile din sectorul public.",
+    "removes": [
+      1,
+      2,
+      3
+    ],
+    "levelAfter": "yellow",
+    "scoreAfter": 2.5
+  },
+  "quotes": {
+    "checked": 9,
+    "verified": 6
+  }
+}

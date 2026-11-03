@@ -1,0 +1,75 @@
+{
+  "slug": "plx-331-2026",
+  "billId": "PL-x 331/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T19:53:00.901Z",
+  "inputHash": "c34c1750c7f0",
+  "riskScore": 3,
+  "summary": "O lege de redenumire în mare parte inofensivă, dar cu o schimbare de salarizare și o schimbare de statut care nu sunt explicate.",
+  "good": [
+    {
+      "text": "Institutul existent primește doar un nume nou. Nu se creează o instituție nouă și nu se adaugă structuri noi plătite din bani publici.",
+      "article": "art. unic pct. 1 și 2",
+      "quote": "Se înființează Institutul Levant de Studii Avansate pentru Cultura Păcii - ILSACP, denumit în continuare Institut",
+      "weight": 2
+    },
+    {
+      "text": "Trimiterea veche privind salariile este înlocuită cu una la legislația actuală de salarizare din fonduri publice, ceea ce face textul mai ușor de aplicat.",
+      "article": "art. unic pct. 3 (art. 6 alin. (2))",
+      "quote": "Salarizarea personalului Institutului se face potrivit legislației privind salarizarea personalului plătit din fonduri publice",
+      "weight": 1
+    },
+    {
+      "text": "Institutul rămâne instituție publică, de interes național, cu personalitate juridică. Statutul de bază se păstrează, deci activitatea continuă fără întrerupere.",
+      "article": "art. unic pct. 2 (art. 1 alin. (1))",
+      "quote": "instituție publică de specialitate, autonomă, de interes național, cu personalitate juridică",
+      "weight": 1
+    },
+    {
+      "text": "Legea nu impune taxe, obligații, autorizații sau sancțiuni pentru cetățeni ori firme.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Salariile se aliniază la nivelul administrației centrale de specialitate, care poate fi mai mare. Textul nu garantează că salariile rămân la nivelul actual.",
+      "article": "art. unic pct. 3 (art. 6 alin. (2))",
+      "quote": "la nivelul prevăzut de lege pentru personalul contractual din administrația publică centrală de specialitate",
+      "weight": 3
+    },
+    {
+      "text": "Institutul devine „autonom” și „de specialitate”, dar legea nu spune ce înseamnă asta și cine îl controlează, de pildă dacă mai răspunde în fața Senatului.",
+      "article": "art. unic pct. 2 (art. 1 alin. (1))",
+      "quote": "instituție publică de specialitate, autonomă, de interes național, cu personalitate juridică",
+      "weight": 2
+    },
+    {
+      "text": "Inițiatorii afirmă că legea nu are efecte bugetare, dar nu prezintă calcule sau comparații salariale. Nici schimbarea de statut nu este justificată.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Redenumirea aduce costuri mici, din bani publici, pentru ștampile, documente și site. Ele nu sunt estimate nicăieri.",
+      "article": "art. unic pct. 1 și 2",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "La pct. 3 să se păstreze explicit încadrarea salarială actuală, iar la pct. 2 să se elimine „autonomă” sau să se precizeze sub ce autoritate funcționează institutul.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 6,
+    "verified": 5
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "plx-272-2026",
+  "billId": "Pl-x 272/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T19:32:57.173Z",
+  "inputHash": "0c16db5f0d78",
+  "riskScore": 3.3,
+  "summary": "O idee de simplificare cu efect real (ITP doar la cerere), dar scrisă atât de neclar încât nu e sigur că elimină obligația, plus o intrare în vigoare neconstituțională.",
+  "good": [
+    {
+      "text": "Dacă textul înlocuiește regula actuală, deținătorii nu mai sunt obligați să ducă periodic armele la inspecție, ceea ce reduce costurile și drumurile lungi până la puținii armurieri autorizați.",
+      "article": "art. unic, alin. (1) propus",
+      "quote": "Inspecția tehnică periodică a armelor se efectuează de către armurieri autorizați în condițiile legii, la solicitarea deținătorilor legali",
+      "weight": 3
+    },
+    {
+      "text": "Poliția poate cere în continuare inspecția când are motive, deci siguranța nu este abandonată, ci verificarea devine țintită în loc să fie generală.",
+      "article": "art. unic, alin. (1) propus",
+      "quote": "la solicitarea deținătorilor legali sau a structurilor specializate din cadrul Poliției Române",
+      "weight": 2
+    },
+    {
+      "text": "Inspecția rămâne în sarcina armurierilor autorizați, iar scopul ei rămâne siguranța în folosire, deci calitatea verificării nu scade atunci când are loc.",
+      "article": "art. unic, alin. (1) propus",
+      "quote": "în vederea verificării îndeplinirii condițiilor tehnice de siguranță în utilizare",
+      "weight": 1
+    },
+    {
+      "text": "Proiectul nu introduce taxe, sancțiuni noi sau cheltuieli de la buget.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Proiectul spune că „completează” art. 94, dar dă textului numărul unui alineat care există deja și îi spune tot „periodică”. Nu e clar dacă obligația actuală dispare sau rămâne alături de noua regulă.",
+      "article": "art. unic (partea introductivă și alin. (1) propus)",
+      "quote": "cu modificările și completările ulterioare, se completează după cum urmează",
+      "weight": 3
+    },
+    {
+      "text": "Poliția poate cere inspecția fără criterii, fără cerere scrisă, fără termen și fără cale de contestare, iar textul nu spune cine plătește. Obligația poate reveni oricând, după bunul plac al fiecărui serviciu.",
+      "article": "art. unic, alin. (1) propus",
+      "quote": "la solicitarea deținătorilor legali sau a structurilor specializate din cadrul Poliției Române",
+      "weight": 2
+    },
+    {
+      "text": "Legea ar intra în vigoare chiar în ziua publicării, deși art. 78 din Constituție cere cel puțin 3 zile de la publicare.",
+      "article": "art. unic, formula finală",
+      "quote": "Prezenta lege intră în vigoare la data publicării în Monitorul Oficial al României, Partea I.",
+      "weight": 2
+    },
+    {
+      "text": "Problema invocată, adică prea puțini armurieri autorizați și departe, rămâne nerezolvată. Când poliția cere inspecția, omul trebuie să ajungă tot la ei, pentru că cercul celor care o pot face nu se lărgește.",
+      "article": "art. unic, alin. (1) propus",
+      "quote": "Inspecția tehnică periodică a armelor se efectuează de către armurieri autorizați în condițiile legii",
+      "weight": 2
+    },
+    {
+      "text": "Proiectul nu corelează noua regulă cu alte prevederi care leagă inspecția de prelungirea permisului sau de alte autorizări, așa că pot rămâne norme contradictorii.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Expunerea de motive nu dovedește afirmațiile pe care se sprijină, adică faptul că ar exista doar patru armurieri și că nu au existat incidente, și nu estimează economiile. Lipsa datelor nu arată că verificarea e inutilă.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Să modifice expres alin. (1) al art. 94, să spună clar că obligația periodică dispare, să stabilească criterii, formă scrisă, termen și cale de contestare pentru cererea poliției și să intre în vigoare la 3 zile de la publicare.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2
+  },
+  "quotes": {
+    "checked": 7,
+    "verified": 7
+  }
+}

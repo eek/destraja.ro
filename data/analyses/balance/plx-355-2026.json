@@ -1,0 +1,87 @@
+{
+  "slug": "plx-355-2026",
+  "billId": "Pl-x 355/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T18:27:51.393Z",
+  "inputHash": "e3f8f190580a",
+  "riskScore": 4.3,
+  "summary": "Un scop legitim, sprijinirea presei locale tipărite, dar prost pus în practică: obligă la livrare oriunde fără să spună cum se calculează tarifele și cine plătește diferența.",
+  "good": [
+    {
+      "text": "Livrarea ziarelor și revistelor la domiciliu intră în serviciul poștal universal, așa că abonații din zone izolate își pot primi presa locală chiar dacă sunt puțini.",
+      "article": "art. I pct. 2 (art. 8 alin. (3) lit. f^2)",
+      "quote": "serviciu de distribuire a publicațiilor cu caracter jurnalistic la domiciliul beneficiarilor, indiferent de numărul de abonamente care fac obiectul acestui serviciu",
+      "weight": 3
+    },
+    {
+      "text": "Beneficiul e legat de publicații cu răspundere editorială asumată de un furnizor media profesionist, nu de orice tipăritură, ceea ce limitează parțial abuzurile.",
+      "article": "art. I pct. 1 (art. 2 pct. 16^7)",
+      "quote": "tipărite la inițiativa, pe răspunderea editorială și sub supravegherea unei persoane fizice sau juridice a cărei activitate profesională constă în furnizarea unui serviciu mass-media",
+      "weight": 2
+    },
+    {
+      "text": "ANCOM trebuie să adopte reguli scrise pentru tarifele acestui serviciu, deci stabilirea prețurilor ar urma să fie făcută după o procedură publică, nu discreționar.",
+      "article": "art. II alin. (1)",
+      "quote": "autoritatea de reglementare va adopta procedurile privind stabilirea tarifelor pentru serviciu de distribuție a publicațiilor cu caracter jurnalistic",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Tarifele trebuie să „permită primirea informațiilor de interes public”, un criteriu vag: nu spune dacă tariful e redus sau plafonat și poate contrazice regula tarifelor bazate pe costuri.",
+      "article": "art. I pct. 3 (art. 16 alin. (2) lit. d)",
+      "quote": "stabilirea tarifelor pentru serviciu de distribuție publicații cu conținut jurnalistic care să permită destinatarilor serviciilor mass-media primirea informațiilor de interes public",
+      "weight": 3
+    },
+    {
+      "text": "Poșta e obligată să livreze și un singur abonament oriunde, fără prag de volum și fără să se spună cine acoperă pierderea, deși expunerea de motive susține că nu există impact financiar.",
+      "article": "art. I pct. 2 (art. 8 alin. (3) lit. f^2)",
+      "quote": "indiferent de numărul de abonamente care fac obiectul acestui serviciu",
+      "weight": 3
+    },
+    {
+      "text": "Definiția e largă: nu exclude publicațiile mai ales publicitare sau editate de partide și nu se limitează la presa locală, deci avantajul poate ajunge la cine nu era vizat.",
+      "article": "art. I pct. 1 (art. 2 pct. 16^7)",
+      "quote": "publicații periodice care au ca scop de a oferi publicului larg publicații de presă, astfel cum sunt definite la articolul 2 punctul 4 din Directiva (UE) 2019/790",
+      "weight": 2
+    },
+    {
+      "text": "ANCOM are doar 30 de zile pentru reguli tarifare, prea puțin pentru o analiză de costuri și o consultare publică reală. Legea intră în vigoare după 3 zile, fără reguli de tranziție.",
+      "article": "art. II alin. (1) și (2)",
+      "quote": "În termen de 30 zile de la intrarea în vigoare a legii, autoritatea de reglementare va adopta procedurile",
+      "weight": 2
+    },
+    {
+      "text": "Definiția se învârte în cerc, adică publicațiile sunt definite ca publicații care oferă publicații de presă, ceea ce o face greu de aplicat.",
+      "article": "art. I pct. 1 (art. 2 pct. 16^7)",
+      "quote": "publicații periodice care au ca scop de a oferi publicului larg publicații de presă",
+      "weight": 1
+    },
+    {
+      "text": "Textul folosește ba „cu caracter jurnalistic”, ba „cu conținut jurnalistic”, așa că se poate discuta dacă regula tarifară vizează aceleași publicații ca definiția.",
+      "article": "art. I pct. 1-3",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Proiectul nu spune cum se împacă noul serviciu cu regulile existente din serviciul universal privind trimiterile tipărite, ceea ce lasă loc de interpretări contradictorii.",
+      "article": "art. I pct. 2",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Înlocuiți criteriul tarifar vag cu o regulă clară (tarif orientat pe cost sau plafonat, cu sursa de finanțare a diferenței precizată) și stabiliți limite de cost sau volum pentru obligația de livrare.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "yellow",
+    "scoreAfter": 3
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 8
+  }
+}

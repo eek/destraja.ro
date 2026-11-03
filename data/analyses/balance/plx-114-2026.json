@@ -1,0 +1,102 @@
+{
+  "slug": "plx-114-2026",
+  "billId": "PL-x 114/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T19:53:08.730Z",
+  "inputHash": "5fffd34f6b11",
+  "riskScore": 3,
+  "summary": "O lege mică și în mare parte utilă, cu o singură excepție formulată prea vag, fără controale clare înainte de folosirea bunurilor clasate.",
+  "good": [
+    {
+      "text": "Permite cântatul pe instrumente muzicale clasate (ex. o vioară Stradivarius) și folosirea bunurilor tehnice clasate (ex. locomotive cu abur), care altfel rămân închise în depozit.",
+      "article": "art. unic (art. 23 alin. (4) din Legea nr. 182/2000)",
+      "quote": "sunt permise utilizarea și punerea în valoare, în cadrul unor proiecte culturale, a bunurilor culturale mobile clasate constând în instrumente muzicale și bunuri de importanță tehnică",
+      "weight": 3
+    },
+    {
+      "text": "Excepția e îngustă: privește doar două categorii de bunuri și doar proiecte culturale, nu orice folosire a patrimoniului clasat.",
+      "article": "art. unic (art. 23 alin. (4) din Legea nr. 182/2000)",
+      "quote": "Prin excepție de la prevederile alin.(1) lit.e), sunt permise utilizarea și punerea în valoare, în cadrul unor proiecte culturale",
+      "weight": 2
+    },
+    {
+      "text": "Folosirea se poate face doar pe bază de contract scris, ceea ce lasă o urmă clară a obligațiilor și a răspunderii părților.",
+      "article": "art. unic (art. 23 alin. (4) din Legea nr. 182/2000)",
+      "quote": "pe baza unui contract civil cu clauze specifice",
+      "weight": 2
+    },
+    {
+      "text": "Spune clar cine poate semna contractul, inclusiv muzeele care administrează bunuri ale statului, nu doar proprietarul. Evită blocaje și dispute.",
+      "article": "art. unic (art. 23 alin. (4) din Legea nr. 182/2000)",
+      "quote": "încheiat între proprietar, titularul dreptului de administrare sau titularul altor drepturi reale asupra acestor bunuri",
+      "weight": 2
+    },
+    {
+      "text": "Potrivit expunerii de motive, ordonanța aprobată cere contracte cu clauze de pază, protecție și condiții de mediu pentru bunurile trimise în străinătate.",
+      "article": "art. unic (OG nr. 4/2026, art. 38, conform expunerii de motive)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Potrivit expunerii de motive, ordonanța clarifică când e nevoie de hotărâre de Guvern pentru expoziții în străinătate, evitând proceduri inutile.",
+      "article": "art. unic (OG nr. 4/2026, art. 34^1, conform expunerii de motive)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Potrivit expunerii de motive, ordonanța detaliază în lege procedura certificatului de export, ceea ce aduce mai multă previzibilitate.",
+      "article": "art. unic (OG nr. 4/2026, art. 37, conform expunerii de motive)",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Textul nu cere aviz sau verificare de la Ministerul Culturii ori de la experți înainte ca un bun clasat, unic, să fie folosit. Uzura sau deteriorarea pot fi ireversibile.",
+      "article": "art. unic (art. 23 alin. (4) din Legea nr. 182/2000)",
+      "quote": "pe baza unui contract civil cu clauze specifice, încheiat între proprietar, titularul dreptului de administrare sau titularul altor drepturi reale asupra acestor bunuri",
+      "weight": 2
+    },
+    {
+      "text": "„Clauze specifice” nu sunt definite în acest alineat. Din textul dat nu se vede o listă minimă obligatorie (pază, asigurare, răspundere), deci contractele pot fi slabe.",
+      "article": "art. unic (art. 23 alin. (4) din Legea nr. 182/2000)",
+      "quote": "pe baza unui contract civil cu clauze specifice",
+      "weight": 2
+    },
+    {
+      "text": "Muzeele publice pot da bunuri ale statului unor organizatori privați fără procedură transparentă, chirie sau selecție în textul legii. Asta deschide loc favoritismului.",
+      "article": "art. unic (art. 23 alin. (4) din Legea nr. 182/2000)",
+      "quote": "titularul dreptului de administrare sau titularul altor drepturi reale asupra acestor bunuri, pe de o parte, și utilizatorul bunurilor sau organizatorul evenimentului, pe de altă parte",
+      "weight": 2
+    },
+    {
+      "text": "„Proiecte culturale” nu e definit. Poate acoperi și evenimente comerciale sau private, nu doar activități de interes public.",
+      "article": "art. unic (art. 23 alin. (4) din Legea nr. 182/2000)",
+      "quote": "sunt permise utilizarea și punerea în valoare, în cadrul unor proiecte culturale, a bunurilor culturale mobile clasate",
+      "weight": 1
+    },
+    {
+      "text": "Trimiterea la art. 3 alin. (2) pct. 5 e ambiguă: nu reiese dacă privește și instrumentele muzicale sau doar bunurile tehnice.",
+      "article": "art. unic (art. 23 alin. (4) din Legea nr. 182/2000)",
+      "quote": "instrumente muzicale și bunuri de importanță tehnică prevăzute la art.3 alin.(2) pct.5",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Reformularea alin. (4): aviz prealabil al Ministerului Culturii sau al unui expert, clauze minime obligatorii, procedură transparentă pentru bunurile publice și trimitere clară la ambele categorii.",
+    "removes": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 12,
+    "verified": 9
+  }
+}

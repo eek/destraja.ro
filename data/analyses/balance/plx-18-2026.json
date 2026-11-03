@@ -1,0 +1,76 @@
+{
+  "slug": "plx-18-2026",
+  "billId": "PL-x 18/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T19:17:02.255Z",
+  "inputHash": "1f9d8ec12726",
+  "riskScore": 3.7,
+  "summary": "O lege scurtă cu un scop bun și concret, dar scrisă prea sumar: interdicția e clară ca idee, însă nu spune cine o aplică, ce anume acoperă și de când.",
+  "good": [
+    {
+      "text": "Interzice reclamele la jocuri de noroc pe stradă, unde oricine le vede, inclusiv copiii, fără să le poată evita. Reduce expunerea persoanelor vulnerabile la dependență.",
+      "article": "art. unic (art. 13²)",
+      "quote": "Publicitatea stradală pentru jocurile de noroc, reglementate potrivit art.10 alin.(1) din Ordonanța de urgență a Guvernului nr.77/2009 privind organizarea și exploatarea jocurilor de noroc",
+      "weight": 3
+    },
+    {
+      "text": "Interdicția se aplică tuturor jocurilor de noroc, inclusiv loteriei de stat. Nu există excepții sau favoruri pentru vreun operator, deci regula e egală pentru toți.",
+      "article": "art. unic (art. 13²)",
+      "quote": "reglementate potrivit art.10 alin.(1) din Ordonanța de urgență a Guvernului nr.77/2009",
+      "weight": 2
+    },
+    {
+      "text": "Noul articol e pus între art. 9 și 14, pentru care legea are deja amenzi de 1.500–4.000 lei. Potrivit Consiliului Legislativ, nerespectarea interdicției poate fi amendată.",
+      "article": "art. unic",
+      "quote": "După articolul 13¹ din Legea nr.148/2000 privind publicitatea, publicată în Monitorul Oficial al României, Partea I, nr.359 din 2 august 2000",
+      "weight": 2
+    },
+    {
+      "text": "Regula e simplă, scurtă și folosește legea existentă. Nu creează instituții noi și nu costă bani publici.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Legea spune pe articole ce autoritate verifică și amendează (art. 24), dar noul articol nu e dat nimănui. Fără asta, interdicția riscă să rămână doar pe hârtie.",
+      "article": "art. unic",
+      "quote": "se introduce un nou articol, art.13², cu următorul cuprins",
+      "weight": 3
+    },
+    {
+      "text": "„Publicitate stradală” nu e definită aici și nu trimite la Legea 185/2013. Nu e clar dacă intră firma sălii de joc, ecranele LED vizibile din stradă, mașinile sau stadioanele.",
+      "article": "art. unic (art. 13²)",
+      "quote": "Publicitatea stradală pentru jocurile de noroc, reglementate potrivit art.10 alin.(1)",
+      "weight": 3
+    },
+    {
+      "text": "Nu există perioadă de tranziție: legea se aplică la 3 zile de la publicare, inclusiv pentru panouri autorizate și contracte deja plătite. Asta poate duce la procese și cereri de despăgubiri.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Interdicția acoperă doar strada. Reclamele online, TV și sponsorizările rămân, așa că bugetele se pot muta acolo, iar efectul real asupra dependenței poate fi mic.",
+      "article": "art. unic (art. 13²)",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Să se precizeze în art. 24 autoritatea care constată și amendează încălcarea art. 13², să se definească publicitatea stradală prin trimitere la Legea nr. 185/2013 (cu regim clar pentru firmele de identificare) și să se dea un termen de tranziție, de exemplu 6 luni.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 5,
+    "verified": 5
+  }
+}

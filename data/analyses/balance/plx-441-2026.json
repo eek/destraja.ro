@@ -1,0 +1,88 @@
+{
+  "slug": "plx-441-2026",
+  "billId": "Pl-x 441/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T18:42:49.202Z",
+  "inputHash": "29437eecb15d",
+  "riskScore": 5,
+  "summary": "O lege cu scop legitim și garanții corecte, slăbită de o intrare în vigoare neconstituțională și de un text prea îngust care lasă goluri și inegalități.",
+  "good": [
+    {
+      "text": "Liberarea rămâne posibilă: crește doar numărul de ani executați, iar instanța verifică în continuare conduita, despăgubirile și îndreptarea fiecărui condamnat.",
+      "article": "art. I pct. 1 (art. 99 alin. (1¹) CP)",
+      "quote": "Prin derogare de la dispozițiile alin. (1) lit. a), în cazul persoanei condamnate la pedeapsa detențiunii pe viață",
+      "weight": 3
+    },
+    {
+      "text": "Regula mai aspră se aplică doar faptelor comise după intrarea în vigoare, nu și celor deja condamnați, așa cum cer Constituția și CEDO.",
+      "article": "art. II",
+      "quote": "se aplică numai persoanelor condamnate definitiv pentru fapte săvârșite după intrarea în vigoare a prezentei legi",
+      "weight": 3
+    },
+    {
+      "text": "Regula e simplă și precisă: un singur prag, 30 de ani executați efectiv, introdus ca excepție clară de la regula generală, fără termeni vagi.",
+      "article": "art. I pct. 1 (art. 99 alin. (1¹) CP)",
+      "quote": "liberarea condiționată poate fi dispusă numai dacă persoana condamnată a executat efectiv 30 de ani de detențiune",
+      "weight": 2
+    },
+    {
+      "text": "Pentru cele mai grave crime împotriva vieții, perioada minimă în închisoare crește, ceea ce face pedeapsa mai proporțională cu fapta.",
+      "article": "art. I pct. 1 (art. 99 alin. (1¹) CP)",
+      "quote": "în cazul persoanei condamnate la pedeapsa detențiunii pe viață pentru săvârșirea infracțiunii de omor calificat prevăzute la art. 189",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Legea ar intra în vigoare chiar în ziua publicării, dar Constituția (art. 78) cere cel puțin 3 zile de la publicare. Articolul e neconstituțional.",
+      "article": "art. III",
+      "quote": "Prezenta lege intră în vigoare la data publicării în Monitorul Oficial al României, Partea I.",
+      "weight": 3
+    },
+    {
+      "text": "Pragul de 30 de ani vizează doar omorul calificat. Genocidul, crimele de război sau mai multe omoruri pedepsite cu detențiune pe viață rămân la 20 de ani: inegalitate greu de justificat.",
+      "article": "art. I pct. 1 (art. 99 alin. (1¹) CP)",
+      "quote": "în cazul persoanei condamnate la pedeapsa detențiunii pe viață pentru săvârșirea infracțiunii de omor calificat prevăzute la art. 189",
+      "weight": 3
+    },
+    {
+      "text": "Proiectul nu ține cont că, la 65 de ani, detențiunea pe viață poate fi înlocuită cu 30 de ani de închisoare, iar liberarea devine posibilă după 20 de ani. Pragul nou poate fi ocolit.",
+      "article": "art. I pct. 1 (lipsa corelării cu art. 58 și art. 100 alin. (3) CP)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "30 de ani depășesc reperul de 25 de ani folosit de CEDO și de Statutul Curții Penale Internaționale. CEDO a acceptat 30 de ani, dar măsura e la limită și poate fi contestată.",
+      "article": "art. I pct. 1 (art. 99 alin. (1¹) CP)",
+      "quote": "liberarea condiționată poate fi dispusă numai dacă persoana condamnată a executat efectiv 30 de ani de detențiune",
+      "weight": 2
+    },
+    {
+      "text": "Nu e clar ce se întâmplă dacă detențiunea pe viață rezultă din cumularea omorului calificat cu alte infracțiuni. Instanțele pot interpreta diferit.",
+      "article": "art. I pct. 1 (art. 99 alin. (1¹) CP)",
+      "quote": "condamnate la pedeapsa detențiunii pe viață pentru săvârșirea infracțiunii de omor calificat",
+      "weight": 1
+    },
+    {
+      "text": "Detenția mai lungă înseamnă costuri mai mari pentru penitenciare și mai multă aglomerare. Proiectul nu estimează aceste costuri.",
+      "article": "art. I pct. 1",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Eliminarea art. III (sau intrarea în vigoare la 3 zile de la publicare). Extinderea pragului la toate infracțiunile pedepsite cu detențiune pe viață și corelarea cu art. 58 și art. 100 alin. (3) CP.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "yellow",
+    "scoreAfter": 3
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 8
+  }
+}

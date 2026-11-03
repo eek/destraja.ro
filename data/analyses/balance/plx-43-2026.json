@@ -1,0 +1,107 @@
+{
+  "slug": "plx-43-2026",
+  "billId": "PL-x 43/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T17:43:49.996Z",
+  "inputHash": "bd2aa8344fec",
+  "riskScore": 4,
+  "summary": "Un scop bun și o singură regulă scurtă, scrisă însă în grabă: fără perioadă de tranziție, fără excepții, fără bani și cu o trimitere de articol care trebuie verificată.",
+  "good": [
+    {
+      "text": "Elevii de clasa a VIII-a, care se pregătesc pentru Evaluarea Națională, ar învăța dimineața de acum, nu abia din 2030, deci cu mai puțină oboseală și condiții mai egale.",
+      "article": "art. unic",
+      "quote": "Învățământul gimnazial pentru clasa a VIII-a se organizează și funcționează cu program de dimineață.",
+      "weight": 3
+    },
+    {
+      "text": "Regula devine una națională și obligatorie, nu mai depinde de decizia fiecărei școli. Elevii de a VIII-a din orașe diferite ar fi tratați la fel.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Textul nou e scurt și ușor de înțeles de părinți și școli: o singură regulă, fără trimiteri complicate.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Nu există perioadă de tranziție: regula se aplică la 3 zile de la publicare, deci și în mijlocul anului școlar. Școlile ar trebui să refacă orarele peste noapte.",
+      "article": "art. unic",
+      "quote": "Învățământul gimnazial pentru clasa a VIII-a se organizează și funcționează cu program de dimineață.",
+      "weight": 3
+    },
+    {
+      "text": "Scoaterea lui „de regulă” elimină orice excepție: școli în renovare mutate temporar, clase simultane la sate, calamități. Orice abatere devine încălcare a legii.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 3
+    },
+    {
+      "text": "Legea nu dă bani, săli sau o autoritate responsabilă pentru școlile din 2-3 schimburi. Obligația cade pe școli fără mijloace de a o îndeplini.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 3
+    },
+    {
+      "text": "În școlile aglomerate, singura soluție rapidă e mutarea claselor a V-a – a VII-a după-amiaza. Problema se mută la alți copii și la profesori, nu se rezolvă.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Proiectul modifică art. 24 alin. (3), dar documentele nu arată că acolo e regula despre clasa a VIII-a. Dacă trimiterea e greșită, legea ar înlocui un alt alineat.",
+      "article": "art. unic",
+      "quote": "La articolul 24 din Legea învățământului preuniversitar nr.198/2023, alineatul (3) se modifică și va avea următorul cuprins",
+      "weight": 2
+    },
+    {
+      "text": "„Program de dimineață” nu e definit prin ore. O clasă care începe la 11:00 sau 12:00 ar putea fi declarată conformă, iar garanția rămâne goală.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Nu se spune cine verifică regula sau ce se întâmplă dacă nu e respectată, așa că poate rămâne doar pe hârtie.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Expunerea invocă orele de 40 de minute și învățământul în trei schimburi, dar textul nu schimbă nimic din acestea; protejează doar clasa a VIII-a.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Partea introductivă spune că legea „se modifică și se completează”, deși proiectul doar modifică un alineat și nu adaugă nimic. E o greșeală de redactare.",
+      "article": "art. unic, partea introductivă",
+      "quote": "publicată în Monitorul Oficial al României, Partea I, nr. 613 din 5 iulie 2023, se modifică și se completează după cum urmează",
+      "weight": 1
+    },
+    {
+      "text": "Senatul a adoptat proiectul tacit, prin depășirea termenului, fără dezbatere. Problemele de mai sus nu au fost discutate acolo.",
+      "article": "formula de adoptare",
+      "quote": "Acest proiect de lege se consideră adoptat de Senat în forma inițială, în condițiile articolului 75 alineatul (2) teza a III-a din Constituția României, republicată.",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Corectarea trimiterii la articolul corect, aplicarea de la începutul anului școlar următor, o excepție strictă și temporară aprobată de inspectorat și definirea programului de dimineață prin ore.",
+    "removes": [
+      0,
+      1,
+      4,
+      5
+    ],
+    "levelAfter": "yellow",
+    "scoreAfter": 3
+  },
+  "quotes": {
+    "checked": 5,
+    "verified": 5
+  }
+}

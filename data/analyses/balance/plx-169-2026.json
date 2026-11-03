@@ -1,0 +1,104 @@
+{
+  "slug": "plx-169-2026",
+  "billId": "Pl-x 169/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T18:02:18.566Z",
+  "inputHash": "a4b17ab724b0",
+  "riskScore": 5.3,
+  "summary": "O idee legitimă, limitarea mandatelor primarilor, scrisă într-un singur rând prea dur, neclar și fără reguli de aplicare.",
+  "good": [
+    {
+      "text": "Pune o limită clară de mandate pentru primari, ceea ce poate împiedica ocuparea aceleiași funcții timp de decenii și poate aduce rotație la conducerea localităților.",
+      "article": "art. unic (art. 151 alin. (4))",
+      "quote": "(4) Primarul nu poate aveam mai mult de 2 mandate (consecutive sau nu).",
+      "weight": 2
+    },
+    {
+      "text": "Regula este aceeași pentru toți primarii, indiferent de mărimea localității sau de partid, fără excepții sau scutiri.",
+      "article": "art. unic (art. 151 alin. (4))",
+      "quote": "(4) Primarul nu poate aveam mai mult de 2 mandate (consecutive sau nu).",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Limita este pe viață: după 2 mandate, chiar nesuccesive, omul nu mai poate fi primar niciodată, oricât l-ar vrea alegătorii. E mai dur decât o pauză obligatorie și greu de justificat ca proporțional.",
+      "article": "art. unic (art. 151 alin. (4))",
+      "quote": "(4) Primarul nu poate aveam mai mult de 2 mandate (consecutive sau nu).",
+      "weight": 3
+    },
+    {
+      "text": "Nu există nicio regulă de tranziție. Nu se spune dacă se numără și mandatele de dinainte, iar dacă se numără, mulți primari în funcție n-ar mai putea candida în 2028.",
+      "article": "art. unic",
+      "quote": "după alineatul (3) se introduce un nou alineat, alin. (4), cu următorul cuprins:",
+      "weight": 3
+    },
+    {
+      "text": "Legea alegerilor locale (115/2015) nu e modificată. Birourile electorale nu au temei clar să respingă o candidatură, iar disputa poate apărea abia la validare, după vot.",
+      "article": "art. unic",
+      "quote": "La articolul 151 din Ordonanța de urgență a Guvernului nr.57/2019 privind Codul Administrativ",
+      "weight": 3
+    },
+    {
+      "text": "„Nu poate avea” nu spune clar dacă interzice candidatura sau doar exercitarea mandatului, deci un câștigător ar putea pierde funcția după alegeri.",
+      "article": "art. unic (art. 151 alin. (4))",
+      "quote": "(4) Primarul nu poate aveam mai mult de 2 mandate (consecutive sau nu).",
+      "weight": 2
+    },
+    {
+      "text": "Nu se precizează dacă limita privește aceeași localitate sau orice localitate din țară, deci regula poate fi interpretată în ambele feluri.",
+      "article": "art. unic (art. 151 alin. (4))",
+      "quote": "(4) Primarul nu poate aveam mai mult de 2 mandate (consecutive sau nu).",
+      "weight": 2
+    },
+    {
+      "text": "Nu se spune cum se numără un mandat scurt, câștigat la alegeri parțiale, sau unul încheiat mai devreme prin demisie sau demitere.",
+      "article": "art. unic (art. 151 alin. (4))",
+      "quote": "(4) Primarul nu poate aveam mai mult de 2 mandate (consecutive sau nu).",
+      "weight": 2
+    },
+    {
+      "text": "Motivarea afirmă că vechimea în funcție duce la corupție, dar nu dă date sau studii. Nu arată de ce tocmai 2 mandate pe viață ar fi soluția necesară.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Motivarea invocă Italia, Portugalia și Polonia, unde limitele vizează de regulă mandatele consecutive. Textul propus e mai strict decât aceste modele.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Limita se aplică doar primarilor, nu și altor aleși locali cu putere executivă, cum sunt președinții consiliilor județene. Asta creează un tratament inegal nejustificat.",
+      "article": "art. unic (art. 151 alin. (4))",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Textul are o greșeală de scriere („aveam” în loc de „avea”) și o paranteză explicativă, nepotrivite într-o lege și semn de redactare neglijentă.",
+      "article": "art. unic (art. 151 alin. (4))",
+      "quote": "(4) Primarul nu poate aveam mai mult de 2 mandate (consecutive sau nu).",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Alin. (4) ar trebui rescris ca limită de 2 mandate consecutive în aceeași localitate, cu regulă pentru mandatele parțiale. Ar trebui adăugată o normă tranzitorie pentru mandatele viitoare și introdusă condiția în Legea 115/2015.",
+    "removes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      9
+    ],
+    "levelAfter": "yellow",
+    "scoreAfter": 3
+  },
+  "quotes": {
+    "checked": 11,
+    "verified": 9
+  }
+}

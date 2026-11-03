@@ -1,0 +1,82 @@
+{
+  "slug": "plx-363-2026",
+  "billId": "Pl-x 363/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T18:29:27.578Z",
+  "inputHash": "27fe4c840b9f",
+  "riskScore": 4,
+  "summary": "O completare utilă în principiu, cu o singură prevedere formulată prea vag și fără protecție împotriva folosirii ei abuzive în divorțurile conflictuale.",
+  "good": [
+    {
+      "text": "Legea spune explicit că un părinte care nu se interesează de copil și își încalcă repetat obligațiile poate pierde dreptul de a decide împreună cu celălalt. Practica nu mai depinde de interpretarea judecătorului.",
+      "article": "art. unic (art. 36 alin. (7) din Legea 272/2004)",
+      "quote": "dezinteresul și incălcarea în mod repetat și cu rea credință a obligațiilor ce-i revin",
+      "weight": 3
+    },
+    {
+      "text": "Încălcările trebuie să fie repetate și făcute cu rea-credință. O greșeală izolată sau o neputință reală nu ajung, deci pragul de probă e ridicat.",
+      "article": "art. unic (art. 36 alin. (7) din Legea 272/2004)",
+      "quote": "dezinteresul și incălcarea în mod repetat și cu rea credință a obligațiilor ce-i revin",
+      "weight": 2
+    },
+    {
+      "text": "Decizia rămâne la instanță, de la caz la caz. Părintele pierde doar dreptul de a decide împreună cu celălalt, nu drepturile părintești și nici legătura cu copilul.",
+      "article": "art. unic (art. 36 alin. (7) din Legea 272/2004)",
+      "quote": "Se consideră motive întemeiate pentru ca instanța să decidă ca autoritatea părintească să se exercite de către un singur părinte",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Nu există nicio excepție pentru cazul în care obligațiile nu sunt respectate din vina celuilalt părinte, de exemplu când acesta împiedică întâlnirile. Motivul poate deveni o armă în divorțuri.",
+      "article": "art. unic (art. 36 alin. (7) din Legea 272/2004)",
+      "quote": "dezinteresul și incălcarea în mod repetat și cu rea credință a obligațiilor ce-i revin",
+      "weight": 3
+    },
+    {
+      "text": "Nu se spune care obligații contează: pensia, programul de vizită sau acordul pentru școală și tratament. Expunerea de motive vorbește de obligații stabilite de instanță, dar textul legii nu spune asta.",
+      "article": "art. unic (art. 36 alin. (7) din Legea 272/2004)",
+      "quote": "dezinteresul și incălcarea în mod repetat și cu rea credință a obligațiilor ce-i revin, oricare altă imposibilitate obiectivă",
+      "weight": 3
+    },
+    {
+      "text": "„Dezinteresul” nu e definit: nu se spune față de cine sau prin ce se vede. Nu e clar dacă e nevoie de toate cele trei condiții sau de una singură, deci judecătorii pot decide diferit.",
+      "article": "art. unic (art. 36 alin. (7) din Legea 272/2004)",
+      "quote": "infracțiuni de violență, dezinteresul și incălcarea în mod repetat și cu rea credință a obligațiilor ce-i revin",
+      "weight": 2
+    },
+    {
+      "text": "Legea are deja soluții pentru aceste situații: deciziile luate de un singur părinte când celălalt nu răspunde și motivul general al riscurilor. Promisiunea că vor scădea procesele nu e susținută de date.",
+      "article": "art. unic (art. 36 alin. (7) din Legea 272/2004)",
+      "quote": "precum și orice",
+      "weight": 1
+    },
+    {
+      "text": "Proiectul se numește „completare”, dar de fapt rescrie tot alineatul. În plus, scrie „completează” în loc de „se completează”, încălcând regulile de redactare a legilor.",
+      "article": "art. unic, partea introductivă",
+      "quote": "La articolul 36 alin. (7) completează și va avea următorul cuprins:",
+      "weight": 1
+    },
+    {
+      "text": "Ghilimelele se închid în mijlocul frazei, după „precum și orice”. Restul frazei rămâne în afara textului nou, așa că legea ar putea fi publicată trunchiată.",
+      "article": "art. unic (art. 36 alin. (7) din Legea 272/2004)",
+      "quote": "oricare altă imposibilitate obiectivă a părinților de a colabora pentru luarea în comun a deciziilor privitoare la copil, precum și orice",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Să se precizeze că e vorba de obligațiile față de copil stabilite de lege sau de instanță, să se definească dezinteresul și să se excludă cazurile în care neîndeplinirea vine din vina celuilalt părinte, din boală sau din sărăcie.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2
+  },
+  "quotes": {
+    "checked": 9,
+    "verified": 9
+  }
+}

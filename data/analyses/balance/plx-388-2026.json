@@ -1,0 +1,109 @@
+{
+  "slug": "plx-388-2026",
+  "billId": "Pl-x 388/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T19:20:33.961Z",
+  "inputHash": "0844a7919a7e",
+  "riskScore": 3.7,
+  "summary": "O lege cu o idee bună și bine formulată în miezul ei (nu se mai decontează din buget ce au plătit donatorii), dar cu reguli de evidență neclare și repetate care o pot face greu de aplicat.",
+  "good": [
+    {
+      "text": "Statul nu mai rambursează din buget partea din cheltuielile de campanie plătită deja din donații, deci contribuabilii nu mai plătesc a doua oară ce au acoperit donatorii.",
+      "article": "art. I pct. 3 (art. 48 alin. (11) lit. e))",
+      "quote": "e) partea din sumele aferente cheltuielilor electorale care a fost finanțată din donații primite potrivit prezentei legi, sumele respective nefiind rambursabile din bugetul de stat.",
+      "weight": 3
+    },
+    {
+      "text": "Excluderea e proporțională: se taie doar partea din donații, nu toată cheltuiala. Banii proprii sau împrumuturile rămân decontabili, deși expunerea de motive spune mai mult.",
+      "article": "art. I pct. 4 (art. 48 alin. (14))",
+      "quote": "sursa fondurilor utilizate pentru fiecare cheltuială electorală și proporția provenită din donații",
+      "weight": 2
+    },
+    {
+      "text": "Cere ca pentru fiecare cheltuială să se poată vedea din ce bani a fost plătită, ceea ce crește transparența finanțării campaniilor.",
+      "article": "art. I pct. 1 (art. 28 alin. (15¹))",
+      "quote": "astfel încât să fie asigurată trasabilitatea integrală a sursei fiecărei cheltuieli",
+      "weight": 2
+    },
+    {
+      "text": "Mandatarul financiar semnează că evidența e corectă, deci există o persoană care răspunde concret pentru declarațiile depuse la AEP.",
+      "article": "art. I pct. 1 (art. 28 alin. (15¹))",
+      "quote": "Mandatarul financiar certifică această evidență la depunerea documentelor justificative la Autoritatea Electorală Permanentă",
+      "weight": 1
+    },
+    {
+      "text": "Normele de aplicare trebuie să prevadă controale proporționale, adică fără birocrație excesivă pentru partide mici sau candidați independenți.",
+      "article": "art. II lit. c)",
+      "quote": "c) proceduri de verificare și control proporționale și eficiente;",
+      "weight": 1
+    },
+    {
+      "text": "Regula se aplică la fel tuturor competitorilor electorali, fără excepții pentru vreun partid sau tip de candidat.",
+      "article": "art. I pct. 1, 3 și 4",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Legea nu spune cum se calculează partea din donații când în același cont intră și alți bani. Donațiile pot fi „puse” pe cheltuieli oricum nedecontabile, iar economia la buget poate fi zero.",
+      "article": "art. I pct. 2 și 4 (art. 30 alin. (4), art. 48 alin. (14))",
+      "quote": "Mandatarul financiar are obligația de a certifica, pentru fiecare cheltuială, proporția fondurilor provenite din donații și de a le evidenția distinct în documentele contabile",
+      "weight": 3
+    },
+    {
+      "text": "Nu e clar dacă „evidențierea distinctă în conturile bancare” cere un cont separat pentru donații. Banca nu marchează proveniența banilor într-un cont unic, iar alegerea e lăsată normelor.",
+      "article": "art. I pct. 1 (art. 28 alin. (15¹))",
+      "quote": "competitorii electorali au obligația de a evidenția distinct aceste fonduri în conturile bancare de campanie și în documentele contabile aferente",
+      "weight": 3
+    },
+    {
+      "text": "Aceeași obligație de evidență apare de trei ori, cu formulări diferite. Asta încalcă regulile de redactare a legilor și poate duce la interpretări contradictorii la controlul AEP.",
+      "article": "art. I pct. 1, 2 și 4 (art. 28 alin. (15¹), art. 30 alin. (4), art. 48 alin. (14",
+      "quote": "competitorii electorali au obligația de a evidenția distinct, în documentele justificative depuse la Autoritatea Electorală Permanentă, sursa fondurilor utilizate pentru fiecare cheltuială electorală",
+      "weight": 2
+    },
+    {
+      "text": "Legea intră în vigoare după 30 de zile, dar normele de aplicare pot veni după încă 60. Obligațiile noi s-ar aplica o vreme fără reguli practice despre cum se țin evidențele.",
+      "article": "art. II și art. III",
+      "quote": "În termen de 60 de zile de la data intrării în vigoare a prezentei legi, Autoritatea Electorală Permanentă are obligația să modifice",
+      "weight": 2
+    },
+    {
+      "text": "Normele metodologice sunt aprobate prin hotărâre de Guvern, deci AEP nu le poate modifica singură. Competența trebuie corectată (Guvernul, la propunerea AEP).",
+      "article": "art. II",
+      "quote": "Autoritatea Electorală Permanentă are obligația să modifice în mod corespunzător normele metodologice de aplicare a Legii nr. 334/2006",
+      "weight": 2
+    },
+    {
+      "text": "Nu spune dacă regulile noi se aplică și campaniilor începute sau cheltuielilor făcute înainte de intrarea în vigoare. Rămâne loc de dispute la decontare.",
+      "article": "art. III",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Expunerea de motive spune că se exclude toată cheltuiala finanțată și parțial din donații, iar textul doar partea din donații. Diferența poate fi folosită pentru interpretări contradictorii.",
+      "article": "art. I pct. 3 (art. 48 alin. (11) lit. e))",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Comasați pct. 1, 2 și 4 într-o singură regulă care fixează în lege metoda de calcul a părții din donații (de ex. cont separat sau pondere globală), iar la art. II Guvernul să aprobe normele la propunerea AEP, înainte de intrarea în vigoare, cu regulă de aplicare în timp.",
+    "removes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2
+  },
+  "quotes": {
+    "checked": 10,
+    "verified": 10
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "plx-394-2026",
+  "billId": "Pl-x 394/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T18:34:48.031Z",
+  "inputHash": "d34597079b7b",
+  "riskScore": 4,
+  "summary": "Un scop util, pus în practică sumar, cu costuri necalculate și cu o dată de intrare în vigoare deja depășită.",
+  "good": [
+    {
+      "text": "Toți elevii din clasa pregătitoare până în clasa a VIII-a ar avea o oră obligatorie pe săptămână despre emoții și prevenirea violenței, la fel în toată țara.",
+      "article": "art. I, alin. (4¹)",
+      "quote": "includ „Educație pentru dezvoltare emoțională și prevenirea violenței” ca disciplină școlară obligatorie, parte a trunchiului comun, cu o durată de o oră pe săptămână.",
+      "weight": 3
+    },
+    {
+      "text": "Ministerul Educației primește clar sarcina de a face programa, manualele și materialele. Se știe cine răspunde de conținutul disciplinei.",
+      "article": "art. I, alin. (4²)",
+      "quote": "Programa școlară, manualele, materialele didactice și metodologiile specifice pentru disciplina „Educație pentru dezvoltare emoțională și prevenirea violenței” se elaborază de către Ministerul Educației și Cercetării.",
+      "weight": 2
+    },
+    {
+      "text": "Formarea profesorilor poate fi făcută cu sprijinul Ministerului Sănătății, al Ministerului Muncii și al autorității pentru protecția copilului. Aceste instituții au experiență directă în domeniu.",
+      "article": "art. I, alin. (4³)",
+      "quote": "în colaborare cu Ministerul Sănătății, Ministerul Muncii, Familiei, Tineretului și Solidarității Sociale și Autoritatea Națională pentru Protecția Drepturilor Copilului și Adopție, potrivit competențelor legale ale acestora",
+      "weight": 2
+    }
+  ],
+  "bad": [
+    {
+      "text": "Legea ar intra în vigoare la 1 septembrie 2026, dată deja trecută. O lege nu se poate aplica înainte de publicare, iar introducerea unei discipline noi în mijlocul anului școlar nu e realistă.",
+      "article": "art. II",
+      "quote": "prezenta lege intră în vigoare la data de 1 septembrie 2026",
+      "weight": 3
+    },
+    {
+      "text": "O oră în plus la fiecare clasă din primar și gimnaziu costă salarii, manuale și formare. Expunerea spune doar că impactul e „limitat”, fără cifre și fără sursă de bani.",
+      "article": "art. I, alin. (4¹)-(4³); expunerea de motive",
+      "quote": null,
+      "weight": 3
+    },
+    {
+      "text": "Ora fixată prin lege nu spune dacă se adaugă la orar sau înlocuiește altă materie. Elevii pot avea mai multe ore, ori altă disciplină pierde timp.",
+      "article": "art. I, alin. (4¹)",
+      "quote": "parte a trunchiului comun, cu o durată de o oră pe săptămână",
+      "weight": 2
+    },
+    {
+      "text": "Chiar expunerea admite că teme similare se predau deja la alte materii, dar legea nu le corelează. Pot apărea două ore paralele pe același subiect.",
+      "article": "art. I, alin. (4¹); expunerea de motive",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Legea nu spune ce pregătire trebuie să aibă profesorul care predă materia, iar formarea e doar o posibilitate. Ora poate fi predată de oameni nepregătiți.",
+      "article": "art. I, alin. (4³)",
+      "quote": "Cadrele didactice care predau disciplina prevăzută la alin. (4¹) pot beneficia de pregătire profesională și cursuri de perfecționare de specialitate",
+      "weight": 2
+    },
+    {
+      "text": "Nu există niciun termen pentru programă și manuale, care trebuie făcute pentru nouă ani de studiu. Disciplina poate deveni obligatorie fără materiale.",
+      "article": "art. I, alin. (4²)",
+      "quote": "manualele, materialele didactice și metodologiile specifice pentru disciplina „Educație pentru dezvoltare emoțională și prevenirea violenței” se elaborază",
+      "weight": 2
+    },
+    {
+      "text": "Cursurile în străinătate sunt permise fără criterii sau limite de cost, deci rămâne loc pentru cheltuieli greu de controlat.",
+      "article": "art. I, alin. (4³)",
+      "quote": "pot beneficia de pregătire profesională și cursuri de perfecționare de specialitate, în țară sau în străinătate, sub coordonarea Ministerului Educației și Cercetării",
+      "weight": 1
+    },
+    {
+      "text": "Creșterea violenței e afirmată fără date, iar legea nu prevede nicio evaluare a efectului noii materii. Nu se va ști dacă ora chiar reduce violența.",
+      "article": "expunerea de motive; art. I",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Textul are greșeli de redactare: virgulă între subiect și verb și forma „se elaborază”. Sunt greșeli mărunte, dar nepotrivite într-o lege.",
+      "article": "art. I, alin. (4¹) și (4²)",
+      "quote": "Planurile-cadru ale învățământului primar și gimnazial, includ „Educație pentru dezvoltare emoțională",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Data de intrare în vigoare trebuie mutată la 1 septembrie 2027. Ministerul trebuie lăsat să integreze ora în numărul de ore existent, prin corelare cu disciplinele de dezvoltare personală deja prezente.",
+    "removes": [
+      0,
+      2
+    ],
+    "levelAfter": "yellow",
+    "scoreAfter": 3
+  },
+  "quotes": {
+    "checked": 12,
+    "verified": 9
+  }
+}

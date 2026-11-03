@@ -1,0 +1,93 @@
+{
+  "slug": "plx-528-2026",
+  "billId": "PL-x 528/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T18:52:26.614Z",
+  "inputHash": "ae659439cb19",
+  "riskScore": 4,
+  "summary": "O lege bugetară tehnică și utilă, slăbită de faptul că dă Guvernului mână liberă, fără plafon în lege, pentru angajamente de circa 12,8 miliarde lei.",
+  "good": [
+    {
+      "text": "Permite statului să plătească gazele din Marea Neagră pe care a ales să le cumpere cu drept de prioritate, ceea ce ajută rezervele și securitatea energetică.",
+      "article": "art. I alin. (1)",
+      "quote": "să introducă în bugetul propriu creditele de angajament aferente achizițiilor efectuate ca urmare a aplicării prevederilor art. 21 alin. (4) din Legea nr. 256/2018",
+      "weight": 2
+    },
+    {
+      "text": "Contractele pe mai mulți ani nu pot depăși suma aprobată pentru angajamente. Asta pune o limită, chiar dacă limita nu e scrisă în lege.",
+      "article": "art. I alin. (3)",
+      "quote": "Se autorizează Administrația Națională a Rezervelor de Stat și Probleme Speciale să încheie contracte multianuale în limita creditelor de angajament majorate potrivit alin. (1).",
+      "weight": 2
+    },
+    {
+      "text": "Suma se aprobă prin hotărâre de Guvern, care se publică în Monitorul Oficial și poate fi atacată în instanță, nu printr-un memorandum, cum se propunea inițial.",
+      "article": "art. I alin. (1)",
+      "quote": "prin hotărâre inițiată de Secretariatul General al Guvernului, la propunerea Administrației Naționale a Rezervelor de Stat și Probleme Speciale",
+      "weight": 2
+    },
+    {
+      "text": "Dă un nou termen pentru plata a 511 milioane lei la capitalul BID. Așa nu se pierd banii din PNRR, iar suma și destinația rămân aceleași.",
+      "article": "art. II",
+      "quote": "în condițiile art. 67 din Legea bugetului de stat pe anul 2026 nr. 43/2026, se plătesc până la data de 30 septembrie 2026.",
+      "weight": 2
+    },
+    {
+      "text": "Modificările făcute în buget trebuie anunțate Ministerului Finanțelor în 10 zile și nu pot depăși limita din hotărârea de Guvern.",
+      "article": "art. I alin. (2)",
+      "quote": "să le comunice Ministerului Finanțelor în termen de 10 zile de la efectuarea acestora, în limita stabilită potrivit hotărârii prevăzute la alin. (1)",
+      "weight": 1
+    },
+    {
+      "text": "Autorizarea e valabilă doar în 2026, deci nu devine o putere permanentă a instituției.",
+      "article": "art. I alin. (1)",
+      "quote": "În anul 2026, începând cu data intrării în vigoare a prevederilor prezentei legi, se autorizează Administrația Națională a Rezervelor de Stat și Probleme Speciale",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Legea nu spune câți bani se pot angaja. Parlamentul lasă Guvernul să fixeze singur o sumă estimată la 12,8 miliarde lei, deși bugetul ar trebui aprobat de Parlament.",
+      "article": "art. I alin. (1)",
+      "quote": "Nivelul creditelor de angajament se aprobă de către Guvern, prin hotărâre inițiată de Secretariatul General al Guvernului",
+      "weight": 3
+    },
+    {
+      "text": "Contractele pot lega bugetele pe mulți ani (cam până în 2033), dar legea nu spune durata maximă, plățile pe fiecare an sau de unde vin banii.",
+      "article": "art. I alin. (3)",
+      "quote": "să încheie contracte multianuale în limita creditelor de angajament majorate potrivit alin. (1)",
+      "weight": 3
+    },
+    {
+      "text": "Instituția își poate schimba singură „celelalte anexe” ale bugetului și doar anunță Finanțele. Nu e clar ce anexe sunt și nici cine verifică modificările.",
+      "article": "art. I alin. (2)",
+      "quote": "Se autorizează ordonatorul principal de credite să introducă modificările corespunzătoare în celelalte anexe la bugetul propriu",
+      "weight": 2
+    },
+    {
+      "text": "Legea s-a votat pe 31 iulie, după ce termenul de 30 iunie trecuse deja. Textul nu spune ce se întâmplă cu întârzierea anterioară.",
+      "article": "art. II",
+      "quote": "Sumele de bani necesare acoperirii vărsămintelor în numerar pentru majorarea capitalului social al Băncii de Investiții și Dezvoltare S.A.",
+      "weight": 1
+    },
+    {
+      "text": "Art. II nu modifică direct termenul din Legea bugetului 43/2026. Rămân astfel două texte cu termene diferite, ceea ce poate crea confuzie.",
+      "article": "art. II",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Să se scrie în lege plafonul maxim al angajamentelor (circa 12,8 miliarde lei), durata maximă a contractelor (7 ani) și eșalonarea anuală a plăților, cu sursa de finanțare.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "yellow",
+    "scoreAfter": 2.5
+  },
+  "quotes": {
+    "checked": 10,
+    "verified": 10
+  }
+}

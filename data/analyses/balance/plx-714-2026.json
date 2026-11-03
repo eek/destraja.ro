@@ -1,0 +1,112 @@
+{
+  "slug": "plx-714-2026",
+  "billId": "Pl-x 714/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T19:56:01.051Z",
+  "inputHash": "81b0d70301b3",
+  "riskScore": 3,
+  "summary": "O lege cu un scop clar și util pentru firmele mici, dar scrisă neglijent și fără calculul costului pentru buget.",
+  "good": [
+    {
+      "text": "Plafonul pentru regimul micro crește de la 100.000 la 500.000 euro. Mai multe firme mici rămân la impozitul pe venit și la evidența simplificată, cu costuri mai mici de conformare.",
+      "article": "art. I pct. 1",
+      "quote": "a realizat venituri care nu au depășit echivalentul în lei a 500.000 euro",
+      "weight": 3
+    },
+    {
+      "text": "La firmele legate între ele, veniturile se adună când se verifică plafonul. Astfel, o afacere nu se poate împărți în mai multe firme ca să rămână artificial la micro.",
+      "article": "art. I pct. 2 (art. 52 alin. (5¹))",
+      "quote": "limita fiscală privitoare la plafonul de 500.000 euro, prevăzută la alin. (1), se verifică luând în calcul veniturile realizate de microîntreprindere",
+      "weight": 2
+    },
+    {
+      "text": "Cursul euro folosit la încadrare este fixat clar: cel de la închiderea exercițiului financiar. Asta evită dispute despre ce curs se aplică.",
+      "article": "art. I pct. 1",
+      "quote": "Cursul de schimb pentru determinarea echivalentului în euro este cel valabil la închiderea exercițiului financiar în care s-au înregistrat veniturile",
+      "weight": 1
+    },
+    {
+      "text": "Ieșirea din regim în cursul anului rămâne coerentă: firma care depășește noul plafon trece la impozit pe profit din trimestrul depășirii, nu retroactiv.",
+      "article": "art. I pct. 2 (art. 52 alin. (1))",
+      "quote": "aceasta datorează impozit pe profit începând cu trimestrul în care s-a depășit această limită",
+      "weight": 1
+    },
+    {
+      "text": "Legea intră în vigoare la 1 ianuarie, nu în mijlocul anului, deci regulile nu se schimbă în timpul unui exercițiu fiscal.",
+      "article": "art. III",
+      "quote": "Prezenta lege intră în vigoare la data de 1 ianuarie a anului următor publicării în Monitorul Oficial, Partea I.",
+      "weight": 1
+    },
+    {
+      "text": "Codul fiscal va fi republicat cu modificările, ceea ce face textul în vigoare mai ușor de găsit și de citit.",
+      "article": "art. II",
+      "quote": "precum și cu modificările aduse prin prezenta lege, va fi republicată, dându-se textelor o nouă numerotare",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Dosarul primit nu conține nicio estimare a veniturilor pe care bugetul le pierde și nici sursa de acoperire. Asta contravine art. 138 alin. (5) din Constituție.",
+      "article": "Expunerea de motive (secțiunea de impact bugetar)",
+      "quote": null,
+      "weight": 3
+    },
+    {
+      "text": "Se abrogă două alineate din art. 54 fără să se spună ce reguli conțin. Efectul asupra calculului plafonului nu poate fi evaluat din dosar.",
+      "article": "art. I pct. 3",
+      "quote": "3. La articolul 54, alineatele (3) și (4) se abrogă.",
+      "weight": 2
+    },
+    {
+      "text": "Pragul de ieșire din regim în cursul anului este dat în euro fără curs de schimb, deși art. 47 îl precizează. Contribuabilul și fiscul pot folosi cursuri diferite.",
+      "article": "art. I pct. 2 (art. 52 alin. (1))",
+      "quote": "Dacă în cursul unui an fiscal o microîntreprindere realizează venituri mai mari de 500.000 euro, aceasta datorează impozit pe profit",
+      "weight": 2
+    },
+    {
+      "text": "Data intrării în vigoare nu garantează un preaviz de 6 luni. Dacă legea apare în decembrie, firmele au doar câteva zile să se adapteze, contrar art. 4 din Codul fiscal.",
+      "article": "art. III",
+      "quote": "Prezenta lege intră în vigoare la data de 1 ianuarie a anului următor publicării în Monitorul Oficial, Partea I.",
+      "weight": 2
+    },
+    {
+      "text": "Art. 52 alin. (1) este rescris integral. Dacă forma actuală conține și alte motive de ieșire din regim, ele dispar fără ca Expunerea de motive să o spună.",
+      "article": "art. I pct. 2 (art. 52 alin. (1))",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Impozitul de 1% pe venit e mai mare decât 16% pe profit când marja e sub 6,25%. Firmele cu marjă mică sau pe pierdere pot plăti mai mult, contrar celor susținute în Expunere.",
+      "article": "Expunerea de motive / art. I pct. 1",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Este a patra schimbare a plafonului în câțiva ani. Deși legea invocă stabilitatea, o nouă inversare de direcție adaugă la instabilitatea pe care o critică.",
+      "article": "art. I pct. 1 și 2",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Eroare de redactare: textul trimite la „art. 47, litera c)” și omite alineatul (1). Se corectează ușor.",
+      "article": "art. I pct. 1",
+      "quote": "La articolul 47, litera c) se modifică și va avea următorul cuprins",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Precizați în art. 52 alin. (1) cursul de schimb și conținutul păstrat, iar abrogarea art. 54 alin. (3)-(4) fie se scoate, fie se motivează explicit.",
+    "removes": [
+      1,
+      2,
+      4
+    ],
+    "levelAfter": "yellow",
+    "scoreAfter": 2.5
+  },
+  "quotes": {
+    "checked": 11,
+    "verified": 10
+  }
+}

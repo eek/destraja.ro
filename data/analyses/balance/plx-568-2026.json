@@ -1,0 +1,89 @@
+{
+  "slug": "plx-568-2026",
+  "billId": "PL-x 568/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T18:57:29.917Z",
+  "inputHash": "be1640324db0",
+  "riskScore": 4.3,
+  "summary": "O lege cu un scop util, mutarea proceselor de cetățenie din București în tot țara, dar scrisă neglijent: o eroare gravă la retragerea cetățeniei și un gol pentru diaspora.",
+  "good": [
+    {
+      "text": "Oamenii pot da în judecată ANC la tribunalul de lângă casă, nu doar la București. Asta scade drumurile, costurile și aglomerarea de la Tribunalul București.",
+      "article": "art. unic pct. 1, 2 și 4",
+      "quote": "tribunalului în a cărui circumscripție reclamantul are domiciliul sau reședința ori în a cărui circumscripție se află biroul teritorial din subordinea Autorității Naționale pentru Cetățenie",
+      "weight": 3
+    },
+    {
+      "text": "Regula nouă acoperă și procesele pentru dosare nesoluționate la timp. Acestea sunt cele mai multe (mii pe an la București), deci descongestionarea poate avea efect real.",
+      "article": "art. unic pct. 4 (art. 37¹)",
+      "quote": "respectiv litigiile privind nesoluționarea cererilor în termenul prevăzut de lege sunt de competența secției de contencios administrativ și fiscal a tribunalului",
+      "weight": 3
+    },
+    {
+      "text": "Se păstrează două trepte de judecată: tribunal, apoi recurs la curtea de apel din aceeași zonă. Și calea de atac se judecă local, nu tot la București.",
+      "article": "art. unic pct. 1, 2 și 4",
+      "quote": "Hotărârea tribunalului poate fi atacată cu recurs la secția de contencios administrativ și fiscal a curții de apel în a cărei circumscripție se află tribunalul sesizat.",
+      "weight": 2
+    },
+    {
+      "text": "Termenul de 15 zile pentru contestarea respingerii rămâne același, deci nu se scurtează drepturile solicitanților.",
+      "article": "art. unic pct. 1 și 2",
+      "quote": "Ordinul de respingere a cererii de acordare sau redobândire a cetățeniei române poate fi atacat, în termen de 15 zile de la data comunicării",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "La retragerea cetățeniei, ordinul se atacă la curtea de apel „a tribunalului sesizat”, dar în acest caz nu e sesizat niciun tribunal. Nu se știe la ce instanță mergi, deci e greu să te aperi.",
+      "article": "art. unic pct. 3 (art. 32 alin. (7))",
+      "quote": "Ordinul poate fi atacat, în termen de 15 zile de la data comunicării, la secția de contencios administrativ și fiscal a curții de apel în a cărei circumscripție se află tribunalul sesizat.",
+      "weight": 3
+    },
+    {
+      "text": "Cine nu are domiciliu sau reședință în România (diaspora, dosare depuse la consulat sau la sediul ANC din București) nu are o instanță clar stabilită, pentru că Bucureștiul nu mai apare în text.",
+      "article": "art. unic pct. 1, 2 și 4",
+      "quote": "a tribunalului în a cărui circumscripție reclamantul are domiciliul sau reședința ori în a cărui circumscripție se află biroul teritorial",
+      "weight": 3
+    },
+    {
+      "text": "Textul spune „biroul teritorial” fără să zică care: cel unde ai depus dosarul sau oricare. Pot apărea dispute între instanțe și alegerea unei instanțe fără nicio legătură cu cazul.",
+      "article": "art. unic pct. 1, 2 și 4",
+      "quote": "ori în a cărui circumscripție se află biroul teritorial din subordinea Autorității Naționale pentru Cetățenie",
+      "weight": 2
+    },
+    {
+      "text": "Art. 37¹ cuprinde orice act dat în baza legii, deci se suprapune cu regulile speciale din art. 19, 31 și 32. Lipsește precizarea „dacă legea nu prevede altfel”, ceea ce creează confuzie.",
+      "article": "art. unic pct. 4 (art. 37¹)",
+      "quote": "precum și litigiile privind actele emise sau adoptate în aplicarea dispozițiilor prezentei legi",
+      "weight": 2
+    },
+    {
+      "text": "Dacă mulți aleg tribunalele unde ANC are birouri, aglomerarea se poate muta din București pe câteva tribunale mici, fără să se rezolve problema duratei proceselor.",
+      "article": "art. unic pct. 1, 2 și 4",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "ANC va trebui să se apere în procese la tribunale din toată țara, ceea ce poate crește cheltuielile cu reprezentarea și deplasările.",
+      "article": "art. unic pct. 1, 2 și 4",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Rescrieți art. 32 alin. (7) cu o curte de apel clar numită. Adăugați Bucureștiul ca instanță pentru cei fără domiciliu în țară, precizați că biroul ANC e cel unde s-a depus dosarul și introduceți în art. 37¹ „dacă prezenta lege nu prevede altfel”.",
+    "removes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 8
+  }
+}

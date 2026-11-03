@@ -1,0 +1,163 @@
+{
+  "slug": "plx-314-2026",
+  "billId": "Pl-x 314/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T18:23:11.818Z",
+  "inputHash": "6188046faf18",
+  "riskScore": 4.7,
+  "summary": "O idee utilă pentru cei fără acces digital, dar scrisă atât de vag încât aproape fiecare articol ridică probleme serioase.",
+  "good": [
+    {
+      "text": "Oamenii, mai ales vârstnicii și cei de la sate, pot depune acte la instituții prin oficiul poștal din apropiere, fără să se mai deplaseze la sediul instituției.",
+      "article": "art. 1",
+      "quote": "poate presta, contra cost, la cererea utilizatorilor, servicii de preluare, digitizare, certificare și transmitere electronică a documentelor către instituții publice",
+      "weight": 3
+    },
+    {
+      "text": "Instituțiile nu mai pot refuza actele trimise astfel și trebuie să le înregistreze, deci nu mai pot cere prezența fizică doar din obișnuință.",
+      "article": "art. 3 alin. (2)",
+      "quote": "Instituțiile publice au obligația de a accepta aceste documente și de a le înregistra în sistemele proprii.",
+      "weight": 2
+    },
+    {
+      "text": "Se creează un registru oficial unic cu datele de contact ale tuturor instituțiilor, legat de sistemul național de schimb de date între instituții.",
+      "article": "art. 6 alin. (1)-(2)",
+      "quote": "Se înființează Registrul național al datelor de contact, denumit în continuare RNDC, care reprezintă un registru de bază",
+      "weight": 2
+    },
+    {
+      "text": "Instituțiile sunt obligate să-și actualizeze datele de contact în 10 zile lucrătoare, ca actele să nu ajungă la adrese vechi.",
+      "article": "art. 6 alin. (3)",
+      "quote": "Autoritățile și instituțiile publice au obligația operării modificărilor privind datele de contact în termen de 10 zile lucrătoare de la apariția lor",
+      "weight": 2
+    },
+    {
+      "text": "Fișierele scanate primesc un sigiliu electronic calificat, care arată de unde vin și că nu au fost modificate pe drum.",
+      "article": "art. 2 alin. (1)",
+      "quote": "Furnizorul de serviciu poștal aplică asupra documentelor digitizate un sigiliu electronic calificat, conform Regulamentului (UE) nr. 910/2014 (eIDAS).",
+      "weight": 2
+    },
+    {
+      "text": "Taxele și amenzile către stat pot fi plătite la oficiul poștal, iar banii trebuie să ajungă în conturile Trezoreriei.",
+      "article": "art. 5 alin. (1)-(2)",
+      "quote": "Furnizorul de serviciu poștal va vira sumele încasate de la utilizatori în conturile de trezorerie aferente sumelor încasate.",
+      "weight": 1
+    },
+    {
+      "text": "Cel care depune actele trebuie să confirme că scanările corespund originalelor, deci își asumă răspunderea pentru ce depune.",
+      "article": "art. 2 alin. (2)",
+      "quote": "Utilizatorul confirmă conformitatea documentelor scanate cu originalele, prin semnătură electronică olografă pe dispozitivul electronic de scanare a furnizorului de serviciu poștal.",
+      "weight": 1
+    },
+    {
+      "text": "Serviciul este opțional: cine vrea poate depune în continuare actele direct la instituție sau online.",
+      "article": "art. 1",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Firmele poștale primesc acces la datele despre impozite și amenzi ale oamenilor, fără să se ceară acordul persoanei și fără reguli de secret fiscal sau protecția datelor.",
+      "article": "art. 5 alin. (3)",
+      "quote": "furnizorul de serviciu poștal va încheia acorduri de acces la date din cuprinsul deciziilor de impunere, amenzi sau taxe, cu fiecare instituție în parte",
+      "weight": 3
+    },
+    {
+      "text": "Scanarea are aceeași valoare ca actul depus la sediu, fără excepții pentru cazurile în care alte legi cer originalul, copie legalizată sau prezența persoanei. Legile se contrazic.",
+      "article": "art. 3 alin. (1)-(2)",
+      "quote": "Documentele electronice certificate transmise prin intermediul furnizorului de serviciu poștal au aceeași valoare juridică precum documentele depuse direct la sediul instituției publice / autorității publice.",
+      "weight": 3
+    },
+    {
+      "text": "Firma poștală răspunde pentru actele aduse de client, deși nu poate ști dacă un original e fals. Nu se spune ce fel de răspundere, ce sancțiuni, nici cum se împarte cu clientul.",
+      "article": "art. 4",
+      "quote": "Furnizorul de serviciu poștal răspunde pentru autenticitatea certificării și conformitatea documentelor furnizate de utilizator.",
+      "weight": 3
+    },
+    {
+      "text": "„Semnătura electronică olografă” nu există ca noțiune în lege. O semnătură pe tabletă este doar o semnătură simplă, ușor de contestat, nu una cu forța celei calificate.",
+      "article": "art. 2 alin. (2)",
+      "quote": "prin semnătură electronică olografă pe dispozitivul electronic de scanare a furnizorului de serviciu poștal",
+      "weight": 3
+    },
+    {
+      "text": "Nu se spune când se consideră depus actul, cum se dovedește primirea și ce se întâmplă dacă e-mailul nu ajunge. Omul poate pierde un termen deși a predat actele la poștă.",
+      "article": "art. 3 alin. (3)",
+      "quote": "transmite documentele către instituțiile publice, la adresa de e-mail specificată în cadrul Registrului Național al Datelor de Contact și le pune la dispoziție pe o platformă proprie",
+      "weight": 3
+    },
+    {
+      "text": "Nu se cere verificarea identității celui care depune, deci cineva poate depune acte în numele altcuiva.",
+      "article": "art. 1, art. 2 alin. (2)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Orice firmă poștală poate face acest serviciu fără autorizare specială, condiții tehnice, control sau sancțiuni, deși manevrează acte oficiale și bani publici.",
+      "article": "art. 1",
+      "quote": "Furnizorul de serviciu poștal în sensul legii Legii nr. 187/2013",
+      "weight": 2
+    },
+    {
+      "text": "Lipsesc reguli despre cât timp și unde păstrează firmele copiile actelor (buletine, acte medicale, fiscale) și când le șterg, deci datele personale sunt expuse.",
+      "article": "art. 3 alin. (3)",
+      "quote": "le pune la dispoziție pe o platformă proprie, de unde pot fi descărcate sau sincronizate cu sistemele acestora",
+      "weight": 2
+    },
+    {
+      "text": "Nu există termen pentru virarea banilor și nu se spune că plata la poștă stinge datoria. Dacă firma întârzie, omul poate plăti penalități pentru o amendă deja achitată.",
+      "article": "art. 5 alin. (1)-(2)",
+      "quote": "Furnizorul de serviciu poștal va vira sumele încasate de la utilizatori în conturile de trezorerie aferente sumelor încasate.",
+      "weight": 2
+    },
+    {
+      "text": "Sigiliul firmei dovedește doar că fișierul vine de la ea și nu a fost modificat, nu că actul scanat e autentic. Legea îl tratează însă ca garanție completă.",
+      "article": "art. 2 alin. (1), art. 3 alin. (1)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Instituțiile ar trebui să urmărească platformele private ale fiecărei firme poștale, ceea ce aduce costuri și haos, deși expunerea spune că nu sunt costuri.",
+      "article": "art. 3 alin. (3)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Doar ANCOM, autoritatea pentru comunicații, scrie regulile, deși ele privesc și plăți la Trezorerie, ghiseul.ro și sistemele tuturor instituțiilor.",
+      "article": "art. 8",
+      "quote": "Autoritatea Națională pentru Administrare și Reglementare în Comunicații (ANCOM) vor elabora normele metodologice de aplicare a prezentei legi.",
+      "weight": 2
+    },
+    {
+      "text": "Încasarea e limitată la bugetul de stat, deși multe taxe și amenzi plătite prin ghiseul.ro merg la primării. Textul e incoerent.",
+      "article": "art. 5 alin. (1) și (3)",
+      "quote": "Furnizorul de serviciu poștal poate încasa contra-cost veniturile aferente bugetului de stat de la utilizatori.",
+      "weight": 1
+    },
+    {
+      "text": "Termenele de 30 de zile curg „de la adoptare”, nu de la intrarea în vigoare, deci momentul de start e neclar, iar termenul e oricum nerealist.",
+      "article": "art. 7, art. 8",
+      "quote": "În termen de 30 de zile de la adoptarea prezentei legi, Secretariatul General al Guvernului va operaționaliza Registrul Național al Datelor de Contact (RNDC).",
+      "weight": 1
+    },
+    {
+      "text": "Serviciul e contra cost fără nicio limită de preț, deși depunerea la ghișeu e gratuită. Tocmai cei vulnerabili ar putea plăti mult.",
+      "article": "art. 1",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Erori de redactare: „legii Legii nr. 187/2013”, „ANCOM vor elabora”, iar titlul final vorbește de „servicii universale”, nu poștale.",
+      "article": "art. 1, art. 8, titlu",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": null,
+  "quotes": {
+    "checked": 18,
+    "verified": 18
+  }
+}

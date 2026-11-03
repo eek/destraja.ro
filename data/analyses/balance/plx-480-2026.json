@@ -1,0 +1,101 @@
+{
+  "slug": "plx-480-2026",
+  "billId": "Pl-x 480/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T18:47:14.660Z",
+  "inputHash": "3f0db7a7c2ca",
+  "riskScore": 4.3,
+  "summary": "O soluție utilă pentru instanțele fără personal, dar extinsă fără verificarea pregătirii și cu mai mulți bani din pensia de serviciu pentru cei reîncadrați.",
+  "good": [
+    {
+      "text": "Păstrează limita: reîncadrarea e permisă doar la instanțe sau parchete care nu pot funcționa normal, nu oriunde și oricând.",
+      "article": "art. unic (art. 216 alin. (2) teza a II-a)",
+      "quote": "Reîncadrarea se face numai la instanțe sau parchete care nu pot funcționa normal din cauza numărului mare al posturilor vacante ori din alte cauze obiective",
+      "weight": 2
+    },
+    {
+      "text": "Mărește de la 3 la 6 ani grupul de foști magistrați care pot fi chemați rapid la instanțele cu posturi goale, ceea ce poate scurta durata proceselor.",
+      "article": "art. unic (art. 216 alin. (2) teza a II-a)",
+      "quote": "numai dacă judecătorul sau procurorul a fost eliberat din funcție prin pensionare în ultimii 6 ani anterior reîncadrării",
+      "weight": 2
+    },
+    {
+      "text": "Cât lucrează, cel reîncadrat pierde 75% din pensie, deci statul plătește mai puțin decât dacă ar ține pensionarul acasă și ar angaja pe altcineva.",
+      "article": "art. unic (art. 216 alin. (2) teza a III-a)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Fostul magistrat poate reveni doar la nivelul de instanță sau parchet corespunzător gradului avut la pensionare, fără avansare prin această cale.",
+      "article": "art. unic (art. 216 alin. (2) teza I)",
+      "quote": "în cadrul cărora au dreptul să funcționeze potrivit gradului profesional avut la data pensionării",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Oameni plecați din sistem până la 6 ani revin fără concurs, fără examen și fără formare la INM, deși legile și practica instanțelor se schimbă între timp.",
+      "article": "art. unic (art. 216 alin. (2) teza I)",
+      "quote": "se face fără concurs la instanțele sau, după caz, la parchetele de pe lângă acestea",
+      "weight": 3
+    },
+    {
+      "text": "Partea de pensie păstrată lângă salariul întreg crește de la 15% la 25% (cu două treimi). La 20.000 lei pensie, de la 3.000 la 5.000 lei pe lună.",
+      "article": "art. unic (art. 216 alin. (2) teza a III-a)",
+      "quote": "Pe perioada reîncadrării, cuantumul pensiei de serviciu se reduce cu 75%.",
+      "weight": 3
+    },
+    {
+      "text": "Fereastra mai lungă și pensia păstrată mai mare fac avantajos ca un magistrat să iasă la pensie și apoi să revină, cumulând salariu și pensie.",
+      "article": "art. unic (art. 216 alin. (2))",
+      "quote": "foștilor judecători sau procurori eliberați din funcție prin pensionare",
+      "weight": 2
+    },
+    {
+      "text": "Costul suplimentar nu e calculat și nu are sursă de finanțare; Constituția (art. 138 alin. (5)) cere sursa pentru orice cheltuială nouă, deci risc de neconstituționalitate.",
+      "article": "expunerea de motive / art. unic",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Formula „alte cauze obiective” rămâne vagă și nu spune cine constată situația; cu fereastra dublată, crește spațiul pentru reîncadrări după preferințe.",
+      "article": "art. unic (art. 216 alin. (2) teza a II-a)",
+      "quote": "ori din alte cauze obiective și numai dacă judecătorul sau procurorul a fost eliberat din funcție prin pensionare",
+      "weight": 2
+    },
+    {
+      "text": "Merge invers față de reformele care limitează cumulul pensiei de serviciu cu salariul, inclusiv angajamente asumate de România prin PNRR.",
+      "article": "art. unic (art. 216 alin. (2) teza a III-a)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Avantajul se extinde și la „celălalt personal” din alin. (1), fără ca proiectul să spună clar cine e și cum se aplică „în mod corespunzător”.",
+      "article": "art. unic (art. 216 alin. (2) teza finală)",
+      "quote": "Prevederile prezentului alineat se aplică în mod corespunzător și celuilalt personal prevăzut la alin. (1).",
+      "weight": 1
+    },
+    {
+      "text": "Nu spune dacă noua reducere de 75% se aplică și celor deja reîncadrați, ceea ce lasă loc de interpretări și litigii.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Renunțarea la scăderea reducerii pensiei (rămâne 85%) și condiționarea reîncadrării după mai mult de 3 ani de o evaluare profesională sau formare la INM.",
+    "removes": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "levelAfter": "yellow",
+    "scoreAfter": 3
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 8
+  }
+}

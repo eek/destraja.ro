@@ -1,0 +1,100 @@
+{
+  "slug": "plx-382-2026",
+  "billId": "PL-x 382/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T19:36:56.380Z",
+  "inputHash": "1e7d25c4e9e1",
+  "riskScore": 3.3,
+  "summary": "O lege simbolică, facultativă și ieftină, umbrită de premii fără reguli și de posibilitatea ca firmele să finanțeze sărbătorirea aleșilor locali.",
+  "good": [
+    {
+      "text": "Marcarea zilei este opțională pentru autorități și nu devine zi liberă, deci nu obligă la cheltuieli și nu costă angajatorii.",
+      "article": "art. 1 alin. (3)",
+      "quote": "Ziua Alesului Local poate fi marcată de către autoritățile și instituțiile publice prin organizarea unor programe și manifestări cultural-educative-evocative.",
+      "weight": 2
+    },
+    {
+      "text": "Cheltuielile publice pentru evenimente sunt plafonate la bugetele deja aprobate, deci legea nu cere bani noi de la buget.",
+      "article": "art. 3 alin. (2)",
+      "quote": "pot fi asigurate din bugetele locale sau, după caz, din bugetele autorităților administrației publice centrale ori ale instituțiilor publice în limita alocațiilor bugetare aprobate",
+      "weight": 2
+    },
+    {
+      "text": "Data are un reper istoric real: 9 februarie 1992, primele alegeri locale libere după 1989. Poate servi la educație civică despre autonomia locală.",
+      "article": "art. 1 alin. (1)-(2)",
+      "quote": "Prin instituirea acestei zile se marchează data primelor alegeri ale autorităților administrației publice locale după Revoluția din 1989.",
+      "weight": 1
+    },
+    {
+      "text": "Radioul și televiziunea publică pot, dar nu sunt obligate, să difuzeze emisiuni despre această zi, deci libertatea lor editorială e respectată.",
+      "article": "art. 4",
+      "quote": "Societatea Română de Radiodifuziune și Societatea Română de Televiziune, în calitate de servicii publice, pot include în programele lor emisiuni culturale ori aspecte de la manifestările dedicate acestei sărbători.",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Oameni și firme „interesate” pot plăti sărbătorirea politicienilor locali, fără limite, fără transparență și fără reguli de conflict de interese.",
+      "article": "art. 3 alin. (3)",
+      "quote": "Persoane fizice sau juridice interesate pot sprijini logistic și/sau financiar, după caz, organizarea manifestărilor dedicate sărbătoririi acestei zile.",
+      "weight": 3
+    },
+    {
+      "text": "Premiile pentru aleși nu au cine să le dea, criterii, valoare sau procedură. Nu se spune dacă pot fi bani, iar consiliile își pot premia propriii membri.",
+      "article": "art. 2",
+      "quote": "Cu prilejul acestei sărbători, se pot acorda premii, distincții, medalii și titluri onorifice aleșilor locali, pentru merite deosebite.",
+      "weight": 3
+    },
+    {
+      "text": "Sindicatele sunt obligate să organizeze sărbătorirea aleșilor, deși sunt independente de stat (art. 9 din Constituție). Motivarea nu explică de ce.",
+      "article": "art. 3 alin. (1)",
+      "quote": "Guvernul, autoritățile administrației publice centrale, sindicatele și structurile associative ale autorităților administrației publice locale iau măsurile necesare pentru organizarea în bune condiții a unor manifestări cu caracter simbolic",
+      "weight": 2
+    },
+    {
+      "text": "Banii și resursele publice pot fi folosite pentru a sărbători politicieni locali, fără nicio estimare a costului în documentele proiectului.",
+      "article": "art. 3 alin. (2)",
+      "quote": "Autoritățile administrației publice centrale și locale pot sprijini material sau logistic organizarea și desfășurarea manifestărilor dedicate Zilei Alesului Local.",
+      "weight": 2
+    },
+    {
+      "text": "Guvernul și autoritățile „iau măsurile necesare” (formulare obligatorie), ceea ce contrazice caracterul opțional din art. 1 alin. (3) și creează confuzie.",
+      "article": "art. 3 alin. (1) raportat la art. 1 alin. (3)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Medaliile și distincțiile nu sunt legate de regimul decorațiilor naționale, pe care le conferă Președintele (Legea nr. 29/2000), deci pot apărea suprapuneri.",
+      "article": "art. 2",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Nu spune cine trece ziua în statutul localității, până când și cum. Peste 3.000 de consilii ar trebui să adopte hotărâri doar pentru asta.",
+      "article": "art. 1 alin. (4)",
+      "quote": "Ziua Alesului Local se evidențiază în Statutul unității administrativ-teritoriale.",
+      "weight": 1
+    },
+    {
+      "text": "Motivarea recunoaște că parlamentarii depind de aleșii locali pentru a ajunge în Parlament, deci există riscul ca evenimentele să devină autopromovare politică.",
+      "article": "expunerea de motive, pct. 2",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Eliminarea finanțării private de la art. 3 alin. (3). Art. 2 ar trebui eliminat sau limitat la titluri onorifice fără valoare materială, cu autoritate și criterii clare.",
+    "removes": [
+      0,
+      1,
+      5
+    ],
+    "levelAfter": "yellow",
+    "scoreAfter": 2
+  },
+  "quotes": {
+    "checked": 10,
+    "verified": 9
+  }
+}

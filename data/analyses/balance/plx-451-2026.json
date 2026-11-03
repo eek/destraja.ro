@@ -1,0 +1,106 @@
+{
+  "slug": "plx-451-2026",
+  "billId": "Pl-x 451/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T19:33:07.135Z",
+  "inputHash": "b97a5ac41ab8",
+  "riskScore": 3.3,
+  "summary": "O corectură măruntă și utilă, dar scrisă prea vag: termenul nou „persoana păgubită” nu spune clar cine încasează banii și în ce ordine.",
+  "good": [
+    {
+      "text": "Primăria sau statul pot cere explicit banii pe terenurile vândute pe un titlu nul când nu există fost proprietar (terenuri rămase la dispoziția comisiei), fără procese complicate de drept comun.",
+      "article": "art. unic (art. III alin. (2⁴) din Legea nr. 169/1997)",
+      "quote": "În cazul unor înstrăinări successive ale terenurilor, cel care a vândut terenul pe baza titlului constatat nul este obligat să remită prețul actualizat persoanei păgubite.",
+      "weight": 2
+    },
+    {
+      "text": "Cine a vândut un teren primit ilegal nu păstrează banii: trebuie să dea înapoi prețul actualizat. Asta descurajează obținerea și vânzarea de titluri ilegale.",
+      "article": "art. unic (art. III alin. (2⁴) din Legea nr. 169/1997)",
+      "quote": "cel care a vândut terenul pe baza titlului constatat nul este obligat să remită prețul actualizat",
+      "weight": 2
+    },
+    {
+      "text": "Fostul proprietar rămas fără teren nu pierde nimic: noul termen, mai larg, îl include în continuare printre cei care pot primi banii.",
+      "article": "art. unic (art. III alin. (2⁴) din Legea nr. 169/1997)",
+      "quote": "este obligat să remită prețul actualizat persoanei păgubite",
+      "weight": 1
+    },
+    {
+      "text": "Proiectul nu introduce taxe, autorizații sau obligații noi pentru cetățeni ori firme. Afectează doar pe cei care au vândut pe baza unui titlu anulat.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "„Persoana păgubită” nu e definită nicăieri. Pot cere banii fostul proprietar, primăria, statul, cei încă neîmproprietăriți, chiar ultimul cumpărător. Rezultatul: procese și interpretări diferite.",
+      "article": "art. unic (art. III alin. (2⁴) din Legea nr. 169/1997)",
+      "quote": "este obligat să remită prețul actualizat persoanei păgubite",
+      "weight": 3
+    },
+    {
+      "text": "Nu există o ordine: nu scrie că primăria ia banii doar dacă nu există fost proprietar îndreptățit, nici că plata către unul îl liberează pe vânzător față de ceilalți. Risc de dublă plată.",
+      "article": "art. unic (art. III alin. (2⁴) din Legea nr. 169/1997)",
+      "quote": "cel care a vândut terenul pe baza titlului constatat nul este obligat",
+      "weight": 3
+    },
+    {
+      "text": "Motivarea spune că primarul, ca șef al comisiei funciare, poate fi „păgubit”. Primarul și comisia nu au avere proprie; doar primăria (UAT) sau statul pot fi păgubite. Poate induce instanțele în eroare.",
+      "article": "Expunerea de motive",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Motivarea amestecă dreptul de a cere anularea titlului cu dreptul de a primi banii. Faptul că poți porni procesul nu dovedește că tu ai fost păgubit.",
+      "article": "Expunerea de motive",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Nu se spune dacă noua regulă se aplică și în procesele în curs sau la titlurile deja anulate. Lipsa unor reguli de tranziție aduce soluții diferite și riscuri de retroactivitate.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "„Prețul actualizat” nu are o metodă de calcul (inflație, curs valutar). Fiecare instanță poate calcula altfel suma de plătit.",
+      "article": "art. unic (art. III alin. (2⁴) din Legea nr. 169/1997)",
+      "quote": "este obligat să remită prețul actualizat persoanei păgubite",
+      "weight": 1
+    },
+    {
+      "text": "La vânzări succesive nu e clar dacă plătește doar primul vânzător cu titlu nul sau și cei care au revândut după el.",
+      "article": "art. unic (art. III alin. (2⁴) din Legea nr. 169/1997)",
+      "quote": "În cazul unor înstrăinări successive ale terenurilor, cel care a vândut terenul",
+      "weight": 1
+    },
+    {
+      "text": "Singura frază a legii conține o greșeală de scriere („successive”, cu doi „c”), care ar intra în legea în vigoare.",
+      "article": "art. unic (art. III alin. (2⁴) din Legea nr. 169/1997)",
+      "quote": "În cazul unor înstrăinări successive ale terenurilor, cel care a vândut terenul",
+      "weight": 1
+    },
+    {
+      "text": "Nu se estimează câți bani ar recupera primăriile sau statul și nici cât ar crește procesele pentru vânzători, inclusiv firme.",
+      "article": "Expunerea de motive",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Definiți „persoana păgubită” cu o ordine clară (întâi fostul proprietar sau persoana îndreptățită, apoi UAT-ul ori statul ca proprietar), cu liberarea vânzătorului după plată și reguli pentru procesele în curs.",
+    "removes": [
+      0,
+      1,
+      4
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.8
+  },
+  "quotes": {
+    "checked": 10,
+    "verified": 8
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "plx-11-2026",
+  "billId": "PL-x 11/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T19:36:10.601Z",
+  "inputHash": "05ae2a4871b1",
+  "riskScore": 3.3,
+  "summary": "O lege utilă, care repară o problemă reală din retrocedări, dar scrisă neglijent: rolul comisiei județene e neclar și trimite la o hotărâre de Guvern abrogată.",
+  "good": [
+    {
+      "text": "Permite finalizarea retrocedării când terenul a ajuns în comuna vecină după reorganizarea din 1968. Deblochează dosare vechi de zeci de ani.",
+      "article": "art. I (art. 38 alin. (2))",
+      "quote": "iar vechiul amplasament se află pe teritoriul unei alte unități administrativ-teritoriale, se poate finaliza procedura de restituire la comisia locală unde s-a aprobat retrocedarea",
+      "weight": 3
+    },
+    {
+      "text": "Păstrează regula că pământul se restituie pe locul unde a fost, nu pe alte terenuri date la schimb. Asta protejează și proprietarii, și terenurile statului.",
+      "article": "art. I (art. 38 alin. (1))",
+      "quote": "Reconstituirea dreptului de proprietate se face pe vechile amplasamente în condițiile prezentei legi.",
+      "weight": 2
+    },
+    {
+      "text": "Cere un protocol scris, aprobat de ambele comisii locale, deci comuna pe al cărei teritoriu e terenul nu e ocolită. Procedura lasă urme verificabile.",
+      "article": "art. I (art. 38 alin. (3))",
+      "quote": "Protocolul prevăzut la alin.(2) va fi aprobat de către cele două comisii locale, iar după aprobare, va fi transmis la comisia județeană de fond funciar.",
+      "weight": 2
+    },
+    {
+      "text": "Obligă Guvernul să adapteze regulile de aplicare într-un termen fix, ca noua procedură să poată funcționa efectiv.",
+      "article": "art. II",
+      "quote": "În termen de 60 de zile de la data intrării în vigoare a prezentei legi, prin hotărâre a Guvernului",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Protocolul doar se „transmite” comisiei județene. Nu scrie dacă aceasta îl validează, deși tot ea validează retrocedările conform Legii 18/1991. Asta lasă loc de abuz și de contestații.",
+      "article": "art. I (art. 38 alin. (3))",
+      "quote": "iar după aprobare, va fi transmis la comisia județeană de fond funciar.",
+      "weight": 3
+    },
+    {
+      "text": "Trimite la regulamentul aprobat prin HG 1.172/2001, abrogat de HG 890/2005. Guvernul primește o sarcină pe un act care nu mai există, iar termenul de 60 de zile nu are sancțiune.",
+      "article": "art. II",
+      "quote": "aprobat prin Hotărârea Guvernului nr.1.172/2001, cu modificările și completările ulterioare",
+      "weight": 2
+    },
+    {
+      "text": "Totul depinde de acordul ambelor comisii, fără termen, criterii sau obligația de a motiva refuzul. Comuna gazdă poate bloca dosarul la nesfârșit.",
+      "article": "art. I (art. 38 alin. (2))",
+      "quote": "se poate finaliza procedura de restituire la comisia locală unde s-a aprobat retrocedarea cu condiția încheierii unui protocol în acest sens între cele două comisii locale în cauză",
+      "weight": 2
+    },
+    {
+      "text": "Textul vorbește de o singură comisie județeană. Nu spune care decide când cele două comune sunt în județe diferite, caz probabil la granițele mutate în 1968.",
+      "article": "art. I (art. 38 alin. (3))",
+      "quote": "va fi transmis la comisia județeană de fond funciar",
+      "weight": 2
+    },
+    {
+      "text": "Nu cere verificarea că terenul e liber și că nu s-au dat deja titluri altor persoane pe acel loc. Pot apărea suprapuneri și procese noi.",
+      "article": "art. I (art. 38 alin. (2))",
+      "quote": "vechiul amplasament se află pe teritoriul unei alte unități administrativ-teritoriale",
+      "weight": 2
+    },
+    {
+      "text": "Nu spune cum pune în posesie o comisie un teren aflat în afara comunei ei, cine face măsurătorile și cine eliberează titlul. Poate duce la acte contestabile.",
+      "article": "art. I (art. 38 alin. (2))",
+      "quote": "se poate finaliza procedura de restituire la comisia locală unde s-a aprobat retrocedarea",
+      "weight": 2
+    },
+    {
+      "text": "Dispare interdicția clară de azi privind mutarea terenurilor între comune. Rămâne doar regula generală a vechilor amplasamente, care poate fi interpretată larg.",
+      "article": "art. I (art. 38 alin. (1))",
+      "quote": "Reconstituirea dreptului de proprietate se face pe vechile amplasamente în condițiile prezentei legi.",
+      "weight": 1
+    },
+    {
+      "text": "Spune că cererea a fost „aprobată” de comisia locală, deși aceasta doar propune, iar validarea o face comisia județeană. Termenul greșit creează confuzie.",
+      "article": "art. I (art. 38 alin. (2))",
+      "quote": "În situația în care cererea de restituire a fost aprobată de către comisia locală unde s-a depus cererea",
+      "weight": 1
+    },
+    {
+      "text": "Nu precizează dacă se aplică doar dosarelor în curs sau și celor respinse ori închise după interdicția din 2000. Pot apărea aplicări diferite de la o comună la alta.",
+      "article": "art. I (art. 38)",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Rescrieți alin. (3): protocolul se supune validării comisiei județene (sau ambelor, dacă județele diferă). Corectați art. II spre regulamentul aprobat prin HG nr. 890/2005.",
+    "removes": [
+      0,
+      1,
+      3
+    ],
+    "levelAfter": "yellow",
+    "scoreAfter": 2.3
+  },
+  "quotes": {
+    "checked": 12,
+    "verified": 12
+  }
+}

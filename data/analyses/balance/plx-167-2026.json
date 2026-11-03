@@ -1,0 +1,88 @@
+{
+  "slug": "plx-167-2026",
+  "billId": "Pl-x 167/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T18:01:39.282Z",
+  "inputHash": "d534376349a4",
+  "riskScore": 4,
+  "summary": "Un singur articol cu o idee rezonabilă, scăderea pragului de prezență, dar formulat atât de vag încât poate bloca validarea sau poate lăsa circa 10% din alegători să decidă.",
+  "good": [
+    {
+      "text": "Scade prezența minimă de la 30% la 20% la referendumurile locale pentru schimbarea granițelor localităților. Votul celor care merg la urne nu mai e anulat atât de ușor de absenteism.",
+      "article": "art. unic (art. 95 alin. (5) nou)",
+      "quote": "referendumul prevăzut la alin. (4) este valabil dacă la acesta participă cel puțin 20% din numărul persoanelor înscrise în listele electorale permanente",
+      "weight": 2
+    },
+    {
+      "text": "Referendumul rămâne obligatoriu și se schimbă doar pragul. Relaxarea se aplică numai referendumurilor pentru limitele teritoriale, nu și celorlalte referendumuri locale sau naționale.",
+      "article": "art. unic (art. 95 alin. (5) nou)",
+      "quote": "după alineatul (4), se introduce un nou alineat, alin. (5), cu următorul cuprins",
+      "weight": 1
+    },
+    {
+      "text": "Nu creează taxe, amenzi, autorizații sau cheltuieli noi pentru cetățeni, firme sau buget.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Nu spune dacă mai trebuie ca voturile valabile să fie cel puțin 25% din înscriși. Dacă da, la o prezență de 20–24% rezultatul nu poate fi validat. Dacă nu, circa 10% din alegători pot decide.",
+      "article": "art. unic (art. 95 alin. (5) nou)",
+      "quote": "Prin derogare de la prevederile art. 5 din Legea 3/2000 privind organizarea și desfășurarea referendumului",
+      "weight": 3
+    },
+    {
+      "text": "Derogă de la tot art. 5 din legea referendumului, fără să numească alineatele vizate. Rămâne neclar ce reguli se mai aplică, iar asta deschide calea spre interpretări diferite și procese.",
+      "article": "art. unic (art. 95 alin. (5) nou)",
+      "quote": "Prin derogare de la prevederile art. 5 din Legea 3/2000 privind organizarea și desfășurarea referendumului",
+      "weight": 2
+    },
+    {
+      "text": "Pragul redus se aplică oricărei schimbări de granițe, nu doar comasărilor. Devin la fel de ușoare desprinderea de sate și mutarea unor terenuri valoroase între localități.",
+      "article": "art. unic (art. 95 alin. (5) nou)",
+      "quote": "referendumul prevăzut la alin. (4) este valabil dacă la acesta participă",
+      "weight": 2
+    },
+    {
+      "text": "Nu spune dacă pragul se calculează separat în fiecare localitate consultată sau pe total. O localitate mare ar putea decide în locul uneia mici.",
+      "article": "art. unic (art. 95 alin. (5) nou)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Proiectul a trecut de Camera Deputaților tacit, fără dezbatere și fără vot, deși schimbă regulile unei consultări populare.",
+      "article": "formula de adoptare",
+      "quote": "Acest proiect de lege se consideră adoptat de Camera Deputaților în forma inițială, în condițiile art. 75 alin. (2) teza a III-a din Constituția României",
+      "weight": 1
+    },
+    {
+      "text": "Pragul rămâne raportat la liste electorale umflate cu oameni plecați din localitate, deci cauza prezenței mici nu e rezolvată.",
+      "article": "art. unic (art. 95 alin. (5) nou)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Nu are reguli de tranziție pentru referendumurile deja convocate sau aflate în desfășurare.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Derogarea ar trebui limitată expres la art. 5 alin. (2) din Legea nr. 3/2000. Legea ar trebui să spună clar ce prag de voturi valabile sau favorabile validează rezultatul și că pragurile se aplică separat în fiecare localitate consultată.",
+    "removes": [
+      0,
+      1,
+      3
+    ],
+    "levelAfter": "yellow",
+    "scoreAfter": 3
+  },
+  "quotes": {
+    "checked": 6,
+    "verified": 6
+  }
+}

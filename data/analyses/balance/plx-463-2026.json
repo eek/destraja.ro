@@ -1,0 +1,106 @@
+{
+  "slug": "plx-463-2026",
+  "billId": "Pl-x 463/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T19:54:33.628Z",
+  "inputHash": "8cae67d24af0",
+  "riskScore": 3,
+  "summary": "O lege cu un scop bugetar clar și legitim, slăbită de prevederi de tranziție lacunare care lasă datoriile, închiderea instituției și unele bunuri fără un responsabil clar.",
+  "good": [
+    {
+      "text": "Oprește plata indemnizațiilor lunare către membrii ASTR. Expunerea estimează o economie de circa 4 milioane lei pe an la bugetul de stat.",
+      "article": "art. 3",
+      "quote": "Începând cu data intrării în vigoare a prezentei legi, încetează plata indemnizațiilor către oricare dintre membrii ASTR.",
+      "weight": 3
+    },
+    {
+      "text": "Desființează explicit instituția și abrogă legea ei de înființare. Nu rămân în vigoare norme moarte sau finanțări care s-ar putea relua.",
+      "article": "art. 1, art. 8",
+      "quote": "Academia de Științe Tehnice din România, denumită în continuare ASTR, înființată prin Legea nr. 230/2008, cu modificările ulterioare, se desființează.",
+      "weight": 2
+    },
+    {
+      "text": "Arhiva nu se pierde: o preia Academia Română într-un termen fix, deci documentele rămân păstrate și consultabile.",
+      "article": "art. 7",
+      "quote": "Arhiva Academiei se preia de către Academia Română, în termen de 30 de zile de la data intrării în vigoare a prezentei legi.",
+      "weight": 2
+    },
+    {
+      "text": "Bunurile ASTR rămân sub controlul statului: Guvernul le stabilește destinația prin hotărâre, într-un termen scurt și fix.",
+      "article": "art. 5",
+      "quote": "În termen de 30 de zile de la data intrării în vigoare a prezentei legi, Guvernul, prin hotărâre, va stabili destinația patrimoniului ASTR",
+      "weight": 2
+    },
+    {
+      "text": "Angajații nu sunt concediați peste noapte: contractele încetează în 45 de zile și potrivit legislației muncii, ceea ce permite preaviz.",
+      "article": "art. 4",
+      "quote": "În termen de 45 de zile de la data intrării în vigoare a prezentei legi, în condițiile legii, toate contractele de muncă ale angajaților ASTR încetează.",
+      "weight": 1
+    },
+    {
+      "text": "Ministerul preia raportările financiare, deci conturile instituției desființate pot fi închise și verificate.",
+      "article": "art. 6",
+      "quote": "Obligațiile privind raportările financiare pentru Academia de Științe Tehnice din România se preiau de către Ministerul Educației și Cercetării.",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Ministerul preia doar raportările financiare. Nimeni nu preia datoriile, creanțele, contractele în curs și procesele ASTR, așa că creditorii și angajații nu au cui cere banii.",
+      "article": "art. 6",
+      "quote": "Obligațiile privind raportările financiare pentru Academia de Științe Tehnice din România se preiau de către Ministerul Educației și Cercetării.",
+      "weight": 3
+    },
+    {
+      "text": "Activitatea și legea ASTR încetează imediat, dar concedierile și predările durează 30-45 de zile. Nimeni nu e desemnat să semneze actele sau să conducă închiderea în acest timp.",
+      "article": "art. 2, art. 8 față de art. 4, 5, 7",
+      "quote": "Începând cu data intrării în vigoare a prezentei legi, activitatea ASTR încetează",
+      "weight": 3
+    },
+    {
+      "text": "Bunurile aduse de membrii fostei asociații «revin acestora». Nu se spune dacă revin asociației sau fiecărui membru, nici pe ce dovezi. Există riscul ca bunuri publice să iasă din patrimoniul statului.",
+      "article": "art. 5",
+      "quote": "cu excepția bunurilor care au făcut obiectul contribuției membrilor Asociației Academia de Științe Tehnice din România, care revin acestora, în condițiile legii, după caz.",
+      "weight": 2
+    },
+    {
+      "text": "Oprirea indemnizațiilor nu separă sumele viitoare de cele deja datorate. Nu se spune cine plătește restanțele, deși expunerea promite respectarea drepturilor câștigate.",
+      "article": "art. 3",
+      "quote": "Începând cu data intrării în vigoare a prezentei legi, încetează plata indemnizațiilor către oricare dintre membrii ASTR.",
+      "weight": 2
+    },
+    {
+      "text": "Guvernul decide liber unde ajung bunurile, fără niciun criteriu. Legea nu separă bunurile proprii ale ASTR de cele ale statului sau de cele primite doar în folosință.",
+      "article": "art. 5",
+      "quote": "Guvernul, prin hotărâre, va stabili destinația patrimoniului ASTR",
+      "weight": 2
+    },
+    {
+      "text": "Nu se spune cine plătește salariile și eventualele compensații ale angajaților până la încetarea contractelor, după ce instituția nu mai are activitate.",
+      "article": "art. 4",
+      "quote": "toate contractele de muncă ale angajaților ASTR încetează",
+      "weight": 1
+    },
+    {
+      "text": "Nu e clar dacă «arhiva» include și dosarele de personal. Foștii angajați au nevoie de ele pentru a-și dovedi vechimea la pensie.",
+      "article": "art. 7",
+      "quote": "Arhiva Academiei se preia de către Academia Română",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Ministerul Educației și Cercetării ar trebui desemnat succesor în toate drepturile și obligațiile ASTR și lichidator până la finalizarea predărilor. Bunurile restituibile ar trebui limitate la cele dovedite ca aport privat, restituite asociației pe bază de inventar.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 13,
+    "verified": 13
+  }
+}

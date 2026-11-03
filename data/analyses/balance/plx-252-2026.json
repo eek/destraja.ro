@@ -1,0 +1,88 @@
+{
+  "slug": "plx-252-2026",
+  "billId": "Pl-x 252/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T20:08:25.925Z",
+  "inputHash": "4ab89c2b0267",
+  "riskScore": 2.7,
+  "summary": "O scutire utilă pentru agricultori, dar formulată prea larg și cu greșeli de redactare.",
+  "good": [
+    {
+      "text": "Serele, solarele, răsadnițele, ciupercăriile, silozurile și pătulele nu mai plătesc impozit pe clădiri. Asta scade costurile producătorilor agricoli.",
+      "article": "art. unic pct. 1",
+      "quote": "clădirile care sunt utilizate ca sere, solare, răsadnițe, ciupercării, silozuri pentru furaje, silozuri și/sau pătule pentru depozitarea și conservarea cerealelor",
+      "weight": 3
+    },
+    {
+      "text": "Scutirea intră în lista scutirilor date direct de lege. Nu depinde de decizia consiliului local, deci regula e aceeași în toată țara.",
+      "article": "art. unic pct. 1",
+      "quote": "La articolul 456, alineatul (1) după litera p) se introduce litera r) cu următorul cuprins",
+      "weight": 2
+    },
+    {
+      "text": "Încăperile din aceste clădiri folosite pentru alte afaceri rămân impozabile. Asta limitează folosirea scutirii ca paravan pentru alte activități.",
+      "article": "art. unic pct. 1",
+      "quote": "silozuri și/sau pătule pentru depozitarea și conservarea cerealelor, cu excepția încăperilor care sunt folosite pentru alte activități economice",
+      "weight": 2
+    }
+  ],
+  "bad": [
+    {
+      "text": "Scutirea depinde doar de folosința clădirii, nu de cine o deține. Marii comercianți de cereale sau terminalele portuare sunt scutiți la fel ca fermele mici invocate în expunere.",
+      "article": "art. unic pct. 1",
+      "quote": null,
+      "weight": 3
+    },
+    {
+      "text": "Bugetele locale pierd bani. Pierderea nu e calculată, nu există fișă financiară și nici compensare pentru primării.",
+      "article": "art. unic pct. 1 și 2",
+      "quote": null,
+      "weight": 3
+    },
+    {
+      "text": "Se abrogă integral alin. (3), dar nici legea, nici expunerea nu spun ce prevede el. Efectul real al abrogării nu poate fi verificat din proiect.",
+      "article": "art. unic pct. 2",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Formula «după litera p) se introduce litera r)» sare peste q). Noua literă poate intra în conflict cu o literă r) care există deja, ceea ce creează confuzie la aplicare.",
+      "article": "art. unic pct. 1",
+      "quote": "La articolul 456, alineatul (1) după litera p) se introduce litera r) cu următorul cuprins",
+      "weight": 2
+    },
+    {
+      "text": "Nu e clar ce înseamnă încăperi «folosite pentru alte activități economice». Cazurile de folosință mixtă sau depozitarea pentru alții pot duce la dispute cu fiscul local.",
+      "article": "art. unic pct. 1",
+      "quote": "cu excepția încăperilor care sunt folosite pentru alte activități economice",
+      "weight": 2
+    },
+    {
+      "text": "Grajdurile, adăposturile de animale, depozitele frigorifice și halele care nu sunt silozuri rămân impozabile. Construcții agricole cu rol asemănător sunt tratate diferit.",
+      "article": "art. unic pct. 1",
+      "quote": "sere, solare, răsadnițe, ciupercării, silozuri pentru furaje, silozuri și/sau pătule pentru depozitarea și conservarea cerealelor",
+      "weight": 1
+    },
+    {
+      "text": "Proiectul nu spune de când se aplică și nu are reguli de tranziție pentru anul fiscal în curs.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Scutirea ar trebui limitată la producătorii agricoli care folosesc clădirile pentru propria producție. Trebuie corectată numerotarea literei și precizat ce se abrogă prin alin. (3).",
+    "removes": [
+      0,
+      2,
+      3
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2
+  },
+  "quotes": {
+    "checked": 9,
+    "verified": 6
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "plx-410-2026",
+  "billId": "PL-x 410/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T17:27:49.843Z",
+  "inputHash": "b1eafacb6860",
+  "riskScore": 4.3,
+  "summary": "O completare scurtă, cu un scop rezonabil, dar formulată atât de vag încât amână creditorii fără să dea băncilor și instituțiilor reguli clare de aplicare.",
+  "good": [
+    {
+      "text": "Pune pe picior de egalitate conturile instituțiilor de la bănci cu cele de la Trezorerie. Termenul de 6 luni nu mai poate fi ocolit prin poprirea conturilor bancare.",
+      "article": "art. unic (art. 2¹ nou)",
+      "quote": "sumelor aflate în conturile instituțiilor și autorităților publice deschise la instituțiile de credit",
+      "weight": 2
+    },
+    {
+      "text": "Poate evita blocarea imediată a conturilor folosite pentru salarii, plăți curente sau încasări, cât timp instituția face demersuri de plată, deci serviciile publice pot continua.",
+      "article": "art. unic (art. 2¹ nou)",
+      "quote": "inclusiv în ceea ce privește măsurile de executare silită prin poprire",
+      "weight": 2
+    },
+    {
+      "text": "Nu creează o imunitate nouă și nici un termen nou. Preia doar termenul de 6 luni existent, iar după expirarea lui creditorul poate executa în continuare, potrivit art. 3.",
+      "article": "art. unic (art. 2¹ nou)",
+      "quote": "Prevederile art. 2 se aplică în mod corespunzător",
+      "weight": 2
+    },
+    {
+      "text": "Nu introduce taxe, declarații sau sancțiuni noi pentru cetățeni ori firme.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Oamenii și firmele care au câștigat în instanță bani de la stat pot aștepta încă până la 6 luni, fără acces la banii instituției din bănci. Executarea hotărârilor devine mai lentă.",
+      "article": "art. unic (art. 2¹ nou)",
+      "quote": "Prevederile art. 2 se aplică în mod corespunzător și sumelor aflate în conturile instituțiilor și autorităților publice deschise la instituțiile de credit",
+      "weight": 3
+    },
+    {
+      "text": "Formula „în mod corespunzător” nu spune cine dovedește lipsa banilor, dacă banca oprește poprirea singură sau la cerere, nici ce se întâmplă cu banii care intră ulterior în cont.",
+      "article": "art. unic (art. 2¹ nou)",
+      "quote": "Prevederile art. 2 se aplică în mod corespunzător",
+      "weight": 3
+    },
+    {
+      "text": "Băncile nu pot verifica dacă instituția chiar nu are fonduri. Riscă procese fie cu creditorul, dacă refuză poprirea, fie cu instituția, dacă o aplică.",
+      "article": "art. unic (art. 2¹ nou)",
+      "quote": "inclusiv în ceea ce privește măsurile de executare silită prin poprire",
+      "weight": 2
+    },
+    {
+      "text": "Expunerea de motive promite suspendare de drept, notificare scrisă către bancă și derogare expresă de la Codul de procedură civilă. Textul votat nu conține nimic din toate acestea.",
+      "article": "art. unic (art. 2¹ nou)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Legea nu spune dacă se aplică și popririlor deja înființate pe conturi bancare, ceea ce va genera procese și soluții diferite de la o instanță la alta.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Se aplică tuturor conturilor și sumelor din bănci, fără să deosebească între banii pentru salarii și alte venituri. O instituție poate invoca lipsa fondurilor ca să-și protejeze toate conturile.",
+      "article": "art. unic (art. 2¹ nou)",
+      "quote": "sumelor aflate în conturile instituțiilor și autorităților publice deschise la instituțiile de credit",
+      "weight": 2
+    },
+    {
+      "text": "Impactul bugetar nu este documentat. Fișa financiară a fost doar cerută, iar întârzierea plăților poate aduce dobânzi și penalități suportate din bani publici.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Formula „în mod corespunzător” ar trebui înlocuită cu o procedură clară: notificare scrisă cu dovada lipsei fondurilor, obligații și termene precise pentru bănci, regim clar pentru încasările viitoare și o regulă tranzitorie pentru popririle existente.",
+    "removes": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "levelAfter": "yellow",
+    "scoreAfter": 3
+  },
+  "quotes": {
+    "checked": 7,
+    "verified": 7
+  }
+}

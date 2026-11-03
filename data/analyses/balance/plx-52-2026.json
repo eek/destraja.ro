@@ -1,0 +1,106 @@
+{
+  "slug": "plx-52-2026",
+  "billId": "Pl-x 52/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T19:17:17.303Z",
+  "inputHash": "c846f398681d",
+  "riskScore": 3.7,
+  "summary": "O lege mică, cu un scop rezonabil, dar în mare parte redundantă și formulată atât de larg și neclar încât poate crea mai multe probleme decât rezolvă.",
+  "good": [
+    {
+      "text": "Confirmă explicit că fermierii și proprietarii de păduri pot folosi vehicule neînmatriculate la muncă pe terenul lor, ceea ce aduce liniște juridică și elimină temerile de amenzi.",
+      "article": "art. I (art. 12 alin. (1¹) nou)",
+      "quote": "pot fi utilizate exclusiv în scopuri agricole sau forestiere, pe terenuri aflate în proprietate privată",
+      "weight": 2
+    },
+    {
+      "text": "Păstrează clar interdicția de a circula cu aceste vehicule pe drumurile publice, deci siguranța în trafic nu scade.",
+      "article": "art. I (art. 12 alin. (1¹) nou)",
+      "quote": "cu condiția ca acestea să nu fie conduse pe drumurile publice",
+      "weight": 2
+    },
+    {
+      "text": "Nu introduce cereri, avize, taxe sau acte noi pentru cetățeni ori firme mici și nici costuri pentru buget.",
+      "article": "art. I",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Obligă Guvernul să pună regulamentul de aplicare în acord cu noua regulă într-un termen fix, ca normele să nu se contrazică.",
+      "article": "art. II",
+      "quote": "În termen de 60 de zile de la intrarea în vigoare a prezentei legi",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Cuvântul „exclusiv” poate fi citit invers: folosirea vehiculelor neînmatriculate în afara drumurilor în alte scopuri (curți de fabrici, șantiere, circuite private, uz personal) ar părea interzisă.",
+      "article": "art. I (art. 12 alin. (1¹) nou)",
+      "quote": "pot fi utilizate exclusiv în scopuri agricole sau forestiere",
+      "weight": 3
+    },
+    {
+      "text": "„Alte zone” care nu sunt drumuri publice e vag: nu cere acordul proprietarului, nu ține cont de regulile pentru păduri și arii protejate și poate fi invocat ca scuză pentru off-road în natură.",
+      "article": "art. I (art. 12 alin. (1¹) nou)",
+      "quote": "pe terenuri aflate în proprietate privată sau în alte zone care nu fac parte din categoria drumurilor publice",
+      "weight": 3
+    },
+    {
+      "text": "Regula e în mare parte inutilă: obligația de înmatriculare privește doar drumurile publice, deci folosirea pe teren privat închis nu era interzisă nici până acum. Derogarea creează confuzie.",
+      "article": "art. I (art. 12 alin. (1¹) nou)",
+      "quote": "Prin derogare de la prevederile alin. (1), toate tipurile de vehicule neînmatriculate",
+      "weight": 2
+    },
+    {
+      "text": "Acoperă orice vehicul, fără nicio condiție de vârstă a șoferului, stare tehnică sau proveniență, deși motivarea vorbește de vehicule mici. Riscul de răsturnări sau minori la volan rămâne nereglementat.",
+      "article": "art. I (art. 12 alin. (1¹) nou)",
+      "quote": "toate tipurile de vehicule neînmatriculate — inclusiv autoturisme, autoutilitare, tractoare și motociclete — pot fi utilizate",
+      "weight": 2
+    },
+    {
+      "text": "Nu spune nimic despre asigurare și despăgubirea victimelor unui accident pe câmp, iar oamenii pot crede greșit că sunt scutiți și de RCA.",
+      "article": "art. I",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Condiția scopului agricol sau forestier nu are sancțiune și nimeni nu o poate verifica pe un teren privat, deci rămâne doar pe hârtie.",
+      "article": "art. I (art. 12 alin. (1¹) nou)",
+      "quote": "exclusiv în scopuri agricole sau forestiere, pe terenuri aflate în proprietate privată",
+      "weight": 1
+    },
+    {
+      "text": "Nu clarifică dacă drumurile de exploatare agricolă sau forestieră sunt incluse. Fiindcă traversarea unui drum public rămâne interzisă, utilitatea practică scade și traversările ilegale devin tentante.",
+      "article": "art. I (art. 12 alin. (1¹) nou)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Vorbește doar de vehicule „neînmatriculate”, deși legea face diferența între înmatriculare și înregistrare. Vehiculele care trebuie doar înregistrate rămân într-o zonă neclară.",
+      "article": "art. I (art. 12 alin. (1¹) nou)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Lasă Guvernului să modifice regulamentul „în mod corespunzător”, fără să spună ce trebuie schimbat. Termenul de 60 de zile nu are nicio consecință dacă nu e respectat.",
+      "article": "art. II",
+      "quote": "Guvernul modifică în mod corespunzător prevederile Regulamentului de aplicare a Ordonanței de urgență a Guvernului nr. 195/2002",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Scoate cuvântul „exclusiv” și sintagma „alte zone”. Precizează că regula privește doar terenuri folosite cu acordul proprietarului, fără a afecta regulile silvice, de arii protejate și de asigurare.",
+    "removes": [
+      0,
+      1,
+      5
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2
+  },
+  "quotes": {
+    "checked": 9,
+    "verified": 9
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "b565-2026",
+  "billId": "B565/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T17:34:24.719Z",
+  "inputHash": "15295a0b6102",
+  "riskScore": 6.4,
+  "summary": "O corectură rezonabilă împotriva plății duble, stricată de limitarea despăgubirii la inflație, care îl dezavantajează pe angajatul găsit nevinovat.",
+  "good": [
+    {
+      "text": "Funcționarul suspendat care a lucrat între timp la o instituție publică nu mai primește de două ori banii pentru aceeași perioadă. Se evită plata dublă din bani publici.",
+      "article": "art. I (art. 513 alin. (5) Cod administrativ)",
+      "quote": "drepturile salariale aferente perioadei de suspendare, acordate în condițiile prevederilor alin. (4), vor fi diminuate cu salariile și alte drepturi încasate",
+      "weight": 3
+    },
+    {
+      "text": "Legea scrie clar că despăgubirea pentru cel găsit nevinovat se actualizează cu inflația, deci banii nu își pierd valoarea în timpul procesului.",
+      "article": "art. I (art. 513 alin. (6)) și art. II (art. 52 alin. (2¹) Codul muncii)",
+      "quote": "Despăgubirea acordată conform prevederilor alin. (2) pentru cazurile prevăzute la alin. (1) lit. a) și b), va fi actualizată",
+      "weight": 2
+    },
+    {
+      "text": "Aceeași metodă de calcul pentru toți poate reduce diferențele dintre instanțe în procesele de acest tip.",
+      "article": "art. I (art. 513 alin. (6)) și art. II (art. 52 alin. (2¹))",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Cuvântul „exclusiv” lasă doar actualizarea cu inflația și exclude dobânda legală. Cine e găsit nevinovat după ani de proces nu mai primește nimic pentru că a stat atâta timp fără bani.",
+      "article": "art. I (art. 513 alin. (6)) și art. II (art. 52 alin. (2¹))",
+      "quote": "va fi actualizată exclusiv cu indicele prețurilor de consum comunicat de Institutul Național de Statistică la data plății",
+      "weight": 3
+    },
+    {
+      "text": "Omul nevinovat primește mai puțin decât orice alt păgubit, care are dreptul la dobândă. Asta poate încălca egalitatea în fața legii, dreptul de proprietate și Convenția Europeană a Drepturilor Omului.",
+      "article": "art. I (art. 513 alin. (6)) și art. II (art. 52 alin. (2¹))",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Nu sunt scrise cazurile vechi. Nu se știe dacă regulile noi se aplică suspendărilor și proceselor deja începute. Aplicarea lor în trecut poate încălca interzicerea retroactivității.",
+      "article": "art. I și art. II (lipsa dispozițiilor tranzitorii)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Fără dobândă, angajatorul sau statul nu are niciun motiv să plătească repede după hotărâre. Întârzierea îl costă doar inflația.",
+      "article": "art. I (art. 513 alin. (6)) și art. II (art. 52 alin. (2¹))",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "„Alte drepturi încasate” e vag. Nu se spune dacă se scade suma brută sau netă, nici ce venituri intră la socoteală. Fiecare instituție poate calcula altfel.",
+      "article": "art. I (art. 513 alin. (5))",
+      "quote": "vor fi diminuate cu salariile și alte drepturi încasate",
+      "weight": 1
+    },
+    {
+      "text": "Se scad doar veniturile luate de la instituții publice, nu și cele din sectorul privat. Funcționarii aflați în situații asemănătoare sunt tratați diferit.",
+      "article": "art. I (art. 513 alin. (5))",
+      "quote": "Pentru situația în care funcționarul public a fost angajat pe perioada suspendării la aceeași sau la o altă autoritate sau instituție publică",
+      "weight": 1
+    },
+    {
+      "text": "Textul nu spune cum se calculează inflația: lună de lună sau de la ce dată. Aplicarea poate diferi de la caz la caz.",
+      "article": "art. I (art. 513 alin. (6))",
+      "quote": "vor fi actualizate exclusiv cu indicele prețurilor de consum comunicat de Institutul Național de Statistică la data plății",
+      "weight": 1
+    },
+    {
+      "text": "Se cere procedură de urgență pentru o lege care reduce drepturile angajaților, fără să se explice de ce e urgentă. Asta scurtează dezbaterea.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Scoateți cuvântul „exclusiv”, ca inflația să se poată cumula cu dobânda legală, și adăugați o regulă care să spună clar că legea nu se aplică suspendărilor deja începute.",
+    "removes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "levelAfter": "yellow",
+    "scoreAfter": 3
+  },
+  "quotes": {
+    "checked": 7,
+    "verified": 6
+  }
+}

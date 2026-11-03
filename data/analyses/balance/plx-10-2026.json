@@ -1,0 +1,81 @@
+{
+  "slug": "plx-10-2026",
+  "billId": "PL-x 10/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T19:53:09.426Z",
+  "inputHash": "d419712e5a16",
+  "riskScore": 3,
+  "summary": "O clarificare utilă și îngustă, slăbită de formula „indiferent de cetățenie”, care nu amintește limitele din Constituție pentru străinii din afara UE.",
+  "good": [
+    {
+      "text": "Spune clar cine poate cere terenul de sub casele vechi: proprietarul construcției. Pune capăt practicii în care unele primării refuzau, iar altele acceptau aceleași cereri.",
+      "article": "art. unic, art. 48 alin. (2)",
+      "quote": "cererea poate fi făcută de către orice persoană, care are drept de proprietate asupra construcției aferente terenului în cauză",
+      "weight": 3
+    },
+    {
+      "text": "Proprietarii caselor ridicate înainte de 1990 pot deveni și proprietarii terenului de sub ele, chiar dacă locuiesc în străinătate. Casa și terenul ajung la același proprietar, iar circulația lor devine mai sigură.",
+      "article": "art. unic, art. 48 alin. (2)",
+      "quote": "în cazul terenurilor care fac obiectul art.27 alin.(2³), cererea poate fi făcută de către orice persoană",
+      "weight": 2
+    },
+    {
+      "text": "Excepția are un domeniu îngust. Privește doar terenul casei, al anexelor, al curții și al grădinii de la art. 27 alin. (2³), nu și reconstituirea pe terenuri agricole sau forestiere în general.",
+      "article": "art. unic, art. 48 alin. (2)",
+      "quote": "Prin derogare de la alin.(1), în cazul terenurilor care fac obiectul art.27 alin.(2³)",
+      "weight": 2
+    },
+    {
+      "text": "Dreptul de a cere terenul aparține doar celui care deține deja construcția, nu oricărei persoane interesate. Așa se limitează cererile speculative.",
+      "article": "art. unic, art. 48 alin. (2)",
+      "quote": "care are drept de proprietate asupra construcției aferente terenului în cauză, indiferent de cetățenia acesteia",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Formula „indiferent de cetățenie” nu trimite la art. 44 alin. (2) din Constituție și nici la Legea 312/2005. Poate fi citită ca permisiune pentru cetățenii din afara UE să ia teren fără tratat de reciprocitate.",
+      "article": "art. unic, art. 48 alin. (2)",
+      "quote": "care are drept de proprietate asupra construcției aferente terenului în cauză, indiferent de cetățenia acesteia",
+      "weight": 3
+    },
+    {
+      "text": "Prin „orice persoană” intră și persoanele juridice, inclusiv firmele. Textul nu precizează că este vorba doar de persoane fizice, deși scopul îi privește pe proprietarii de locuințe.",
+      "article": "art. unic, art. 48 alin. (2)",
+      "quote": "în cazul terenurilor care fac obiectul art.27 alin.(2³), cererea poate fi făcută de către orice persoană",
+      "weight": 2
+    },
+    {
+      "text": "Mai mulți solicitanți pot cere teren din patrimoniul statului sau al primăriilor. Proiectul nu estimează câte cereri vor fi și ce valoare are terenul care iese din proprietate publică.",
+      "article": "art. unic, art. 48 alin. (2)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Textul inversează lucrurile: construcția apare ca „aferentă terenului”, deși art. 27 alin. (2³) vorbește despre terenul aferent construcției. Formularea este imprecisă și poate da naștere la dispute.",
+      "article": "art. unic, art. 48 alin. (2)",
+      "quote": "proprietate asupra construcției aferente terenului în cauză, indiferent de cetățenia acesteia",
+      "weight": 1
+    },
+    {
+      "text": "Cuvântul „derogare” de la alin. (1), care reglementează reconstituirea, este folosit greșit. Atribuirea de la art. 27 alin. (2³) este o procedură separată, iar formularea amestecă cele două regimuri.",
+      "article": "art. unic, art. 48 alin. (2)",
+      "quote": "Prin derogare de la alin.(1), în cazul terenurilor care fac obiectul art.27 alin.(2³), cererea poate fi făcută",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Înlocuirea formulei „indiferent de cetățenia acesteia” cu „cu respectarea art. 44 alin. (2) din Constituție și a Legii nr. 312/2005” și precizarea că solicitantul este persoană fizică.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 8
+  }
+}

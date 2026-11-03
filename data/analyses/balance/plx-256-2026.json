@@ -1,0 +1,106 @@
+{
+  "slug": "plx-256-2026",
+  "billId": "PL-x 256/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T19:36:08.997Z",
+  "inputHash": "ecbd2980ded2",
+  "riskScore": 3.3,
+  "summary": "O lege utilă și aliniată la standardul OCDE, care închide o portiță de evitare a impozitului, slăbită de o frază explicativă prea largă și de o dată de aplicare neclară.",
+  "good": [
+    {
+      "text": "Firma străină datorează impozit în România și când agentul local negociază tot și are rolul decisiv, chiar dacă nu semnează. Închide o portiță folosită pentru a evita impozitul pe profit.",
+      "article": "art. I (art. 8 alin. (5) lit. a))",
+      "quote": "are în mod curent rolul principal în procesul de încheiere a contractelor",
+      "weight": 3
+    },
+    {
+      "text": "Un contract negociat integral în România este considerat încheiat aici, chiar dacă e semnat în străinătate. Semnarea formală peste graniță nu mai poate fi folosită pentru a evita impozitul.",
+      "article": "art. I (art. 8 alin. (5) lit. a), ultimul paragraf)",
+      "quote": "O persoană care negociază în România toate elementele și detaliile unui contract care angajează compania nerezidentă se consideră că a încheiat contractul în România",
+      "weight": 2
+    },
+    {
+      "text": "Textul urmează aproape literal Modelul de Convenție OCDE 2017, folosit de multe state. Asta face regula mai previzibilă și mai ușor de corelat cu tratatele fiscale.",
+      "article": "art. I (art. 8 alin. (5) lit. a))",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Rămân excluse activitățile doar pregătitoare sau auxiliare, de exemplu depozitarea. Firmele străine care fac doar astfel de activități în România nu sunt afectate.",
+      "article": "art. I (art. 8 alin. (5) lit. a), teza finală a enumerării)",
+      "quote": "cu excepția cazurilor în care activitățile respective sunt limitate la cele prevăzute la alin. (4) lit. a) – f)",
+      "weight": 2
+    },
+    {
+      "text": "Noul criteriu se aplică numai contractelor semnate de obicei fără schimbări importante de firma străină. Simplii intermediari, ale căror propuneri sunt renegociate, nu sunt vizați.",
+      "article": "art. I (art. 8 alin. (5) lit. a))",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Aplicarea de la 1 ianuarie a anului următor potrivește regula cu anul fiscal și lasă firmelor ceva timp să se adapteze.",
+      "article": "art. II",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Fraza spune că un contract „încheiat fără negociere” intră în definiție. Citită singură, poate face din orice agent care folosește contracte-tip un sediu permanent, cu risc de abuz din partea ANAF.",
+      "article": "art. I (art. 8 alin. (5) lit. a), ultimul paragraf)",
+      "quote": "Expresia „încheie contracte” vizează situațiile în care un contract este încheiat fără nicio negociere activă a termenilor acelui contract",
+      "weight": 3
+    },
+    {
+      "text": "Legea nu spune când intră în vigoare. Nu e clar dacă se respectă termenul minim de 6 luni de la publicare cerut de Codul fiscal pentru modificări, deci data aplicării e incertă.",
+      "article": "art. II",
+      "quote": "Prevederile articolului I se aplică de la data de 1 ianuarie a anului următor intrării în vigoare a prezentei legi.",
+      "weight": 2
+    },
+    {
+      "text": "Formula „încheiat în România, conform legii” nu precizează care lege. Firmele nu pot ști sigur când un contract semnat în străinătate e socotit încheiat în România.",
+      "article": "art. I (art. 8 alin. (5) lit. a), ultimul paragraf)",
+      "quote": "sau este încheiat în România, conform legii, chiar dacă acel contract este semnat în afara României",
+      "weight": 2
+    },
+    {
+      "text": "Textul vorbește când de „societate”, când de „companie” nerezidentă. Persoanele fizice străine sau fondurile fără personalitate juridică pot rămâne în afara regulii ori pot genera dispute.",
+      "article": "art. I (art. 8 alin. (5) lit. a) pct. (iii) și ultimul paragraf)",
+      "quote": "pentru prestarea unor servicii de către acea societate nerezidentă",
+      "weight": 2
+    },
+    {
+      "text": "Termenii „rol principal” și „modificări semnificative” nu sunt definiți în lege. Explicația OCDE apare doar în expunerea de motive, deci ANAF are prea multă libertate de interpretare.",
+      "article": "art. I (art. 8 alin. (5) lit. a))",
+      "quote": "care se semnează în mod obișnuit, fără modificări semnificative din partea societății nerezidente, iar aceste contracte sunt",
+      "weight": 2
+    },
+    {
+      "text": "Cuvântul „proprietăți” sună în română a imobile, deși regula vizează bunuri de orice fel. Asta poate duce la dispute de interpretare.",
+      "article": "art. I (art. 8 alin. (5) lit. a) pct. (ii))",
+      "quote": "pentru a transfera dreptul de proprietate sau pentru a acorda dreptul de utilizare a unor proprietăți deținute de către acea societate",
+      "weight": 1
+    },
+    {
+      "text": "Caracterul obișnuit e cerut clar pentru „rolul principal”, dar nu și pentru autoritatea de a semna contracte. Teoretic, și un caz izolat ar putea fi suficient pentru sediu permanent.",
+      "article": "art. I (art. 8 alin. (5) lit. a))",
+      "quote": "persoana este autorizată și exercită în România autoritatea de a încheia contracte sau are în mod curent rolul principal",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Reformulați fraza despre contractele „fără negociere activă” ca să vizeze doar acceptarea de către agent a contractelor-tip în numele firmei străine, precizați legea după care un contract e „încheiat în România” și fixați expres o dată de aplicare la cel puțin 6 luni de la publicare.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2
+  },
+  "quotes": {
+    "checked": 10,
+    "verified": 10
+  }
+}

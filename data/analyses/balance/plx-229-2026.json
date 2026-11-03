@@ -1,0 +1,87 @@
+{
+  "slug": "plx-229-2026",
+  "billId": "PL-x 229/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-02T20:08:16.249Z",
+  "inputHash": "fca2de6fcbfe",
+  "riskScore": 2.7,
+  "summary": "O lege scurtă și în mare parte bună, care întărește protecția executorilor judecătorești, dar are o formulare care poate fi citită mai larg decât pentru judecători și lasă neclar cine e protejat.",
+  "good": [
+    {
+      "text": "Cine amenință, lovește, rănește sau ucide un executor judecătoresc pentru munca lui primește o pedeapsă mai mare (limitele cresc cu jumătate), ca în cazul judecătorilor, procurorilor și avocaților.",
+      "article": "art. unic (art. 279 alin. (5) C.pen.)",
+      "quote": "Dispozițiile alin. (1)-(3) se aplică în mod corespunzător și faptelor comise împotriva unui executor judecătoresc aflat în exercitarea atribuțiilor de serviciu",
+      "weight": 3
+    },
+    {
+      "text": "Executorii merg des la locuința debitorilor și sunt expuși la violență. O protecție mai bună îi ajută să aplice hotărârile instanțelor, deci oamenii își pot recupera mai sigur ce li s-a dat dreptate.",
+      "article": "art. unic (art. 279 alin. (5) C.pen.)",
+      "quote": "faptelor comise împotriva unui executor judecătoresc aflat în exercitarea atribuțiilor de serviciu sau în legătură cu exercitarea atribuțiilor de serviciu",
+      "weight": 2
+    },
+    {
+      "text": "Folosește aceeași tehnică deja aplicată pentru avocați (un alineat nou care trimite la regulile existente), deci legea rămâne coerentă și nu creează o infracțiune nouă de la zero.",
+      "article": "art. unic",
+      "quote": "după alineatul (4) se introduce un nou alineat, alin. (5), cu următorul cuprins",
+      "weight": 2
+    },
+    {
+      "text": "Nu impune taxe, autorizații, raportări sau alte obligații pentru cetățeni ori firme și nu cere cheltuieli directe de la buget.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Pentru judecători, atacul simplu e agravat doar dacă are loc în timpul serviciului; „în legătură cu” serviciul cere scop de intimidare. Pentru executor, textul pare să nu ceară acest scop.",
+      "article": "art. unic (art. 279 alin. (5) C.pen.)",
+      "quote": "faptelor comise împotriva unui executor judecătoresc aflat în exercitarea atribuțiilor de serviciu sau în legătură cu exercitarea atribuțiilor de serviciu",
+      "weight": 2
+    },
+    {
+      "text": "Trimite „în mod corespunzător” la toate regulile existente, fără să spună clar dacă și cum sunt protejați familia și bunurile executorului. Aceeași formulare e deja criticată la avocați.",
+      "article": "art. unic (art. 279 alin. (5) C.pen.)",
+      "quote": "Dispozițiile alin. (1)-(3) se aplică în mod corespunzător și faptelor comise împotriva unui executor judecătoresc",
+      "weight": 2
+    },
+    {
+      "text": "Protecția acoperă orice atribuție a executorului, inclusiv comunicarea actelor sau recuperarea amiabilă a datoriilor, nu doar executarea hotărârilor invocată ca motiv al legii.",
+      "article": "art. unic (art. 279 alin. (5) C.pen.)",
+      "quote": "unui executor judecătoresc aflat în exercitarea atribuțiilor de serviciu sau în legătură cu exercitarea atribuțiilor de serviciu",
+      "weight": 1
+    },
+    {
+      "text": "Executorul stagiar și angajații biroului nu sunt protejați la fel. Executorii fiscali (ANAF, primării), care fac acte asemănătoare, rămân cu o protecție mai mică. Asta creează inegalități.",
+      "article": "art. unic (art. 279 alin. (5) C.pen.)",
+      "quote": "faptelor comise împotriva unui executor judecătoresc aflat în exercitarea atribuțiilor de serviciu",
+      "weight": 1
+    },
+    {
+      "text": "Nu există nicio estimare a costurilor pentru instanțe și penitenciare. Nici efectul promis, adică mai puține agresiuni, nu e susținut de date.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Motivarea trimite greșit la art. 297 (abuzul în serviciu) în loc de art. 279. Textul legii e corect, dar greșeala arată o redactare neglijentă.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Reformulați alin. (5) ca să urmeze exact regulile pentru judecători: agravare simplă doar în timpul serviciului, iar „în legătură cu” serviciul doar cu scop de intimidare sau răzbunare. Spuneți explicit ce membri de familie sunt protejați.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 9,
+    "verified": 7
+  }
+}

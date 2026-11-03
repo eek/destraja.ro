@@ -1,0 +1,63 @@
+{
+  "slug": "plx-254-2026",
+  "billId": "PL-x 254/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:54:44.983Z",
+  "inputHash": "2b6f1f7e35b7",
+  "riskScore": 1.3,
+  "summary": "O lege pur onorifică și inofensivă, fără costuri sau privilegii, al cărei singur cusur este că nu spune clar ce înseamnă titlul acordat.",
+  "good": [
+    {
+      "text": "Legea doar acordă un titlu. Nu cere bani de la buget, nu introduce taxe, obligații, birocrație sau sancțiuni pentru cetățeni ori firme.",
+      "article": "art. unic",
+      "quote": "din spațiul românesc în perioada medievală, se declară municipiul Târgoviște ca Oraș Voievodal",
+      "weight": 3
+    },
+    {
+      "text": "Titlul nu dă Târgoviștei privilegii sau exclusivitate și nu interzice altor orașe să-și invoce propriul trecut istoric. Nu afectează concurența și nu creează avantaje comerciale.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Motivarea din lege se bazează pe fapte istorice verificabile și e formulată prudent („important centru”, nu „principal”). Nu preia greșelile istorice din expunerea de motive.",
+      "article": "art. unic",
+      "quote": "de important centru politic, administrativ și cultural din spațiul românesc în perioada medievală",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Legea nu explică ce înseamnă juridic „Oraș Voievodal”, ce efecte are și cine se ocupă de aplicare. Lipsa unui conținut real lasă loc unor interpretări ulterioare.",
+      "article": "art. unic",
+      "quote": "din spațiul românesc în perioada medievală, se declară municipiul Târgoviște ca Oraș Voievodal",
+      "weight": 2
+    },
+    {
+      "text": "Cuvântul „simbolic” a fost scos din titlu, iar textul nu spune că titlul nu dă drepturi sau bani. Pe viitor, el ar putea fi invocat pentru a cere fonduri sau un statut special.",
+      "article": "titlul legii și art. unic",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Legea privește un singur oraș, deși și alte localități au fost capitale sau reședințe domnești. Riscă un tratament inegal și o serie de legi similare pentru fiecare oraș.",
+      "article": "art. unic",
+      "quote": "rolului său istoric de fostă reședință domnească și capitală a Țării Românești",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Adăugarea unui alineat care să precizeze că titlul este exclusiv onorific și nu creează drepturi, obligații sau cheltuieli pentru bugetul de stat ori cel local.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 0.7
+  },
+  "quotes": {
+    "checked": 4,
+    "verified": 4
+  }
+}

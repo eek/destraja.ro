@@ -1,0 +1,87 @@
+{
+  "slug": "plx-247-2026",
+  "billId": "PL-x 247/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:53:48.420Z",
+  "inputHash": "19ca9750e9aa",
+  "riskScore": 2,
+  "summary": "O lege scurtă și utilă, care rezolvă o problemă reală, cu o singură condiție formulată prea vag (conflictul de interese).",
+  "good": [
+    {
+      "text": "Funcționarii publici pot fi și rezerviști voluntari fără să fie declarați incompatibili de ANI și fără să riște demiterea sau interdicția de a ocupa funcții publice.",
+      "article": "art. unic, art. 94 alin. (2⁴)",
+      "quote": "Nu se află în situație de incompatibilitate, în sensul prevederilor alin.(1) și (2), funcționarul public care deține calitatea de rezervist voluntar",
+      "weight": 3
+    },
+    {
+      "text": "Excepția acoperă atât alin. (1), cât și alin. (2). Astfel nu se mai poate susține că funcția de rezervist ar fi o altă „funcție publică” interzisă. Regula devine clară.",
+      "article": "art. unic, art. 94 alin. (2⁴)",
+      "quote": "Nu se află în situație de incompatibilitate, în sensul prevederilor alin.(1) și (2), funcționarul public care deține calitatea de rezervist voluntar",
+      "weight": 2
+    },
+    {
+      "text": "Pe durata instruirii și a concentrării sau mobilizării, funcționarul trebuie să-și suspende postul civil. Astfel nu poate lucra în două locuri deodată și nici nu e plătit de două ori din bani publici.",
+      "article": "art. unic, art. 94 alin. (2⁴)",
+      "quote": "cu respectarea dispozițiilor privind suspendarea raportului de serviciu pe durata instruirii inițiale și a concentrării/mobilizării",
+      "weight": 2
+    },
+    {
+      "text": "Excepția nu este absolută: se pierde dacă rezervistul ajunge în conflict de interese. Principiul de integritate rămâne în lege.",
+      "article": "art. unic, art. 94 alin. (2⁴)",
+      "quote": "în măsura în care această calitate nu generează un conflict de interese",
+      "weight": 1
+    },
+    {
+      "text": "Beneficiază doar funcționarii publici care au contract de rezervist voluntar conform legii speciale. Nu apar obligații sau costuri noi pentru cetățeni sau firme.",
+      "article": "art. unic, art. 94 alin. (2⁴)",
+      "quote": "în condițiile Legii nr.270/2015 privind Statutul rezerviștilor voluntari, republicată, cu completările ulterioare",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Nu se spune ce înseamnă aici „conflict de interese”, cine îl constată și după ce criteriu. Nu sunt excluși expres, ca la alin. (2²), funcționarii cu atribuții de control sau audit. Rămâne loc de interpretări diferite.",
+      "article": "art. unic, art. 94 alin. (2⁴)",
+      "quote": "în măsura în care această calitate nu generează un conflict de interese",
+      "weight": 2
+    },
+    {
+      "text": "Nu e clar dacă un conflict de interese punctual, rezolvat legal prin abținere (art. 79), îl face pe funcționar să piardă complet excepția și să devină incompatibil.",
+      "article": "art. unic, art. 94 alin. (2⁴)",
+      "quote": "în măsura în care această calitate nu generează un conflict de interese",
+      "weight": 2
+    },
+    {
+      "text": "Prin trimiterea la Legea 270/2015 (art. 41), excepția îi acoperă și pe rezerviștii din MAI și din serviciile de informații, nu doar din MApN. Această extindere nu e explicată și nici limitată.",
+      "article": "art. unic, art. 94 alin. (2⁴)",
+      "quote": "în condițiile Legii nr.270/2015 privind Statutul rezerviștilor voluntari, republicată, cu completările ulterioare",
+      "weight": 2
+    },
+    {
+      "text": "Lipsesc dispozițiile tranzitorii: nu se spune ce se întâmplă cu dosarele ANI deja deschise sau cu rapoartele de incompatibilitate emise înainte de intrarea în vigoare.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Titlul legii conține o greșeală de redactare („transparente” în loc de „transparenței”), care trebuie corectată înainte de promulgare.",
+      "article": "titlul legii",
+      "quote": "pentru completarea art.94 din Legea nr.161/2003 privind unele măsuri pentru asigurarea transparente în exercitarea demnităților publice",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Condiția privind conflictul de interese ar trebui precizată: funcționarii excluși expres (de exemplu cei cu atribuții de control sau achiziții legate de instituția militară) și faptul că un conflict punctual gestionat prin abținere nu anulează excepția.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 9,
+    "verified": 9
+  }
+}

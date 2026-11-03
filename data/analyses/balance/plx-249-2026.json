@@ -1,0 +1,93 @@
+{
+  "slug": "plx-249-2026",
+  "billId": "PL-x 249/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:54:18.918Z",
+  "inputHash": "e0636939362f",
+  "riskScore": 2.7,
+  "summary": "O lege mai mult declarativă: confirmă în lege ce există deja, dar nu dă medicilor zilele de vechime în plus promise și are o prevedere neclară care poate restrânge drepturi.",
+  "good": [
+    {
+      "text": "Scrie direct în lege că garda medicală este timp de muncă. Asta respectă dreptul UE și împiedică tratarea gărzii ca simplă disponibilitate neplătită.",
+      "article": "art. I, art. 386¹ alin. (1)",
+      "quote": "organizată potrivit reglementărilor legale speciale privind timpul de muncă și efectuare gărzilor, constituie timp de muncă",
+      "weight": 2
+    },
+    {
+      "text": "Ridică la nivel de lege regula, existentă până acum doar într-un ordin de ministru, că orele de gardă contează la vechimea în muncă și în specialitate.",
+      "article": "art. I, art. 386¹ alin. (2) și (3)",
+      "quote": "se valorifică la stabilirea vechimii în muncă și, după caz, în specialitate, potrivit regulilor generale aplicabile raporturilor de muncă",
+      "weight": 2
+    },
+    {
+      "text": "Precizează că nu se umblă la regulile despre odihnă și ore suplimentare. Medicii nu pot fi obligați la gărzi mai lungi, iar pacienții nu sunt puși în pericol.",
+      "article": "art. I, art. 386¹ alin. (5)",
+      "quote": "nu aduc atingere drepturilor și obligațiilor stabilite de legislația muncii",
+      "weight": 1
+    },
+    {
+      "text": "Nu costă bugetul, nu creează taxe sau formulare noi și dă 30 de zile de pregătire înainte de aplicare.",
+      "article": "art. II",
+      "quote": "Prezenta lege intră în vigoare la 30 de zile de la data publicării în Monitorul Oficial al României, Partea I",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Motivarea promite că fiecare zi acoperită de o gardă de 24 de ore va conta ca zi separată de vechime. Textul votat nu spune asta, ba chiar exclude orice excepție de la regulile generale.",
+      "article": "art. I, art. 386¹ alin. (5)",
+      "quote": "Prevederile prezentului articol nu instituie derogări de la regimul juridic general al timpului de muncă, al muncii suplimentare și al timpului de odihnă",
+      "weight": 3
+    },
+    {
+      "text": "Gărzile făcute pe un contract separat ar urma regulile orelor suplimentare. Pe contractele cu timp parțial, folosite de obicei pentru gărzi, orele suplimentare sunt în principiu interzise, deci textul poate fi citit ca o restrângere a vechimii.",
+      "article": "art. I, art. 386¹ alin. (3)",
+      "quote": "se valorifică la stabilirea vechimii în muncă și în specialitate în măsura și în condițiile prevăzute de legislația muncii aplicabile muncii suplimentare",
+      "weight": 3
+    },
+    {
+      "text": "Alin. (2)-(4) spun doar că se aplică regulile deja existente, deci nu schimbă nimic față de azi. Este o dublare de norme pe care legea tehnicii legislative cere să fie evitată.",
+      "article": "art. I, art. 386¹ alin. (2)-(4)",
+      "quote": "regulile de valorificare a acesteia din perspectiva vechimii în muncă și în specialitate se stabilesc potrivit reglementărilor legale speciale în vigoare",
+      "weight": 2
+    },
+    {
+      "text": "Vechimea pentru gărzi depinde de faptul că acestea au fost compensate. Un angajator care nu plătește ar putea pretinde că munca făcută nu contează la vechime.",
+      "article": "art. I, art. 386¹ alin. (2)",
+      "quote": "fac parte din durata normală a timpului de muncă sau sunt efectuate în completarea acesteia și sunt compensate conform legii",
+      "weight": 2
+    },
+    {
+      "text": "Recunoașterea se referă doar la spitalele publice. Personalul din unitățile private rămâne fără această mențiune expresă, iar „personal medical” nu e definit (de exemplu, dacă include asistenții).",
+      "article": "art. I, art. 386¹ alin. (1)",
+      "quote": "Activitatea de gardă desfășurată de personalul medical în unitățile sanitare publice, organizată potrivit reglementărilor legale speciale privind timpul de muncă",
+      "weight": 2
+    },
+    {
+      "text": "Motivarea anunță obligația angajatorilor de a nota separat zilele de gardă în registrul salariaților, dar textul nu o mai prevede. Nu există un mecanism nou de evidență.",
+      "article": "art. I, art. 386¹ alin. (4)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Textul are greșeli de redactare: „contact” în loc de „contract” și „efectuare gărzilor” în loc de „efectuarea gărzilor”.",
+      "article": "art. I, art. 386¹ alin. (1) și (3)",
+      "quote": "Orele de gardă suplimentare, efectuate în baza unui contact individual de muncă distinct sau a unui act adițional",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Alin. (3) ar trebui rescris astfel încât gărzile făcute pe contract distinct sau act adițional să conteze integral la vechime, fără trimitere la regulile orelor suplimentare. Din alin. (2) ar trebui scoasă condiția „și sunt compensate conform legii”.",
+    "removes": [
+      1,
+      3
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 10,
+    "verified": 10
+  }
+}

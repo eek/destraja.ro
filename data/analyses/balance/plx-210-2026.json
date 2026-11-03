@@ -1,0 +1,86 @@
+{
+  "slug": "plx-210-2026",
+  "billId": "Pl-x 210/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:51:01.293Z",
+  "inputHash": "29323b47e04d",
+  "riskScore": 1.7,
+  "summary": "O lege simbolică și aproape inofensivă, fără costuri obligatorii, dar care vine prea târziu și are o prevedere inutilă despre presa publică.",
+  "good": [
+    {
+      "text": "Autoritățile nu sunt obligate să facă nimic și nu primesc bani în plus: pot organiza evenimente doar din bugetele deja aprobate, deci nu apar cheltuieli publice noi obligatorii.",
+      "article": "art. 2",
+      "quote": "în limita alocărilor bugetare aprobate, pot organiza sau sprijini acțiuni dedicate Centenarului Partidului Național Țărănesc",
+      "weight": 2
+    },
+    {
+      "text": "Legea nu impune taxe, autorizații, declarații sau sancțiuni pentru cetățeni ori firme, așa că nu creează nicio povară pentru oameni sau IMM-uri.",
+      "article": "întregul proiect",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Activitățile permise sunt educative și științifice (conferințe, expoziții, lucrări documentare), ceea ce poate ajuta la cunoașterea istoriei interbelice și a represiunii comuniste.",
+      "article": "art. 2 lit. a)-c)",
+      "quote": "publicarea de lucrări științifice și materiale documentare privind istoria Partidului Național Țărănesc",
+      "weight": 1
+    },
+    {
+      "text": "Colaborarea e deschisă mai multor tipuri de parteneri (universități, muzee, arhive, biblioteci, ONG-uri), fără un beneficiar exclusiv sau excepții de la regulile de cheltuire a banilor publici.",
+      "article": "art. 3 alin. (1)",
+      "quote": "pot fi realizate în colaborare cu instituții academice, muzee, arhive, biblioteci și organizații neguvernamentale",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Legea privește doar anul 2026, iar aniversarea (10 octombrie) a trecut deja. Până la adoptare, promulgare și publicare, anul se încheie, deci legea va avea efect foarte scurt sau deloc.",
+      "article": "art. 1 alin. (1)",
+      "quote": "Se instituie anul 2026 „Anul Centenar al Partidului Național Țărănesc”.",
+      "weight": 2
+    },
+    {
+      "text": "Radioul, televiziunea publică și AGERPRES sunt independente editorial prin Constituție și prin lege. Să le sugerezi prin lege o temă nu adaugă nimic juridic și rămâne un semnal politic nepotrivit.",
+      "article": "art. 3 alin. (2)",
+      "quote": "Societatea Română de Radiodifuziune și Societatea Română de Televiziune, în calitate de servicii publice, pot produce, difuza sau redifuza conținut editorial care marchează Centenarul Partidului Național Țărănesc",
+      "weight": 2
+    },
+    {
+      "text": "Motivarea laudă și rolul partidului după 1989, adică al PNȚCD, care există și azi. Asta contrazice promisiunea din același document că legea nu promovează un partid actual.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Cuvântul „sprijini” e vag. Nu spune cum și pe cine pot finanța autoritățile, deci bani locali ar putea ajunge, fără criterii clare, la organizații apropiate politic.",
+      "article": "art. 2",
+      "quote": "Autoritățile administrației publice centrale și locale, în limita alocărilor bugetare aprobate, pot organiza sau sprijini acțiuni dedicate",
+      "weight": 1
+    },
+    {
+      "text": "Legea consfințește oficial o evaluare istorică a unui partid politic. Aprecierea istorică ar trebui lăsată istoricilor, nu fixată prin lege.",
+      "article": "art. 1 alin. (2)",
+      "quote": "recunoașterea contribuției istorice a acestuia la dezvoltarea democratică a României, la modernizarea satului românesc și la apărarea valorilor constituționale",
+      "weight": 1
+    },
+    {
+      "text": "Proiectul doar permite lucruri pe care autoritățile și instituțiile le pot face oricum. Nu are efect juridic real și încarcă legislația cu o lege pur declarativă.",
+      "article": "întregul proiect",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Eliminarea art. 3 alin. (2), care menționează inutil presa publică independentă editorial; problema de calendar și caracterul pur declarativ rămân.",
+    "removes": [
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 7
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "plx-189-2026",
+  "billId": "Pl-x 189/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:49:27.863Z",
+  "inputHash": "efd61b887e34",
+  "riskScore": 2.7,
+  "summary": "O lege cu scop bun și mecanism în mare parte echilibrat, slăbită de prevederea pentru procesul penal, care e prea largă și poate presa spre soluții grăbite.",
+  "good": [
+    {
+      "text": "Când o instanță constată că un proces civil e tergiversat, trebuie să spună exact ce trebuie făcut și până când, nu doar să constate întârzierea.",
+      "article": "art. I (art. 525 alin. (6) C.proc.civ.)",
+      "quote": "arătând care sunt acestea și stabilind un termen pentru îndeplinirea lor",
+      "weight": 3
+    },
+    {
+      "text": "Judecătorul care, din vina lui, nu face actul concret cerut de instanță în termen poate fi sancționat. Hotărârea de deblocare a procesului are astfel efect real și nu atinge soluția dată.",
+      "article": "art. II pct. 1 (art. 271 lit. g¹) din Legea 303/2022)",
+      "quote": "neîndeplinirea actului de procedură ori neluarea măsurii legale necesare de către judecător, din motive imputabile, în termenul stabilit prin hotărârea de admitere a contestației privind tergiversarea procesului",
+      "weight": 3
+    },
+    {
+      "text": "Sancțiunea vine doar după ce o instanță a constatat deja întârzierea nejustificată și a dat un termen, deci există un filtru judiciar înaintea oricărei răspunderi.",
+      "article": "art. II pct. 1 (art. 271 lit. g¹) și g²))",
+      "quote": "în termenul stabilit prin încheierea de admitere a contestației privind durata procesului penal",
+      "weight": 2
+    },
+    {
+      "text": "În completurile cu mai mulți judecători răspunde doar cel vinovat de întârziere, nu toți automat, ceea ce evită pedepsele colective.",
+      "article": "art. II pct. 2 (art. 271¹ din Legea 303/2022)",
+      "quote": "răspunderea disciplinară se stabilește individual față de judecătorul ori judecătorii a căror conduită, prin acțiuni ori omisiuni imputabile, a determinat atragerea răspunderii disciplinare",
+      "weight": 2
+    },
+    {
+      "text": "Ancheta disciplinară nu poate afla cine cum a votat în deliberare, deci judecătorii sunt protejați de presiuni asupra modului în care decid.",
+      "article": "art. II pct. 2 (art. 271¹ teza a II-a)",
+      "quote": "Stabilirea răspunderii disciplinare se realizează fără a aduce atingere secretului deliberării.",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "În penal, termenul privește terminarea întregului dosar, nu un act anume. Asta poate împinge procurori și judecători spre clasări sau soluții grăbite, ca să evite sancțiunea.",
+      "article": "art. II pct. 1 (art. 271 lit. g²) din Legea 303/2022)",
+      "quote": "nerezolvarea cauzei de către procuror sau nesoluționarea de către instanța de judecată a cauzei, din motive imputabile",
+      "weight": 3
+    },
+    {
+      "text": "Procurorii lucrează sub controlul șefilor, dar textul nu spune ce se întâmplă când întârzierea vine din decizii ierarhice. Riscul e ca procurorul de caz să plătească pentru alții.",
+      "article": "art. II pct. 1 (art. 271 lit. g²))",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Ajunge o singură depășire a termenului, spre deosebire de abaterea existentă, care cere întârzieri repetate. Pot urma toate sancțiunile legii, inclusiv excluderea din magistratură.",
+      "article": "art. II pct. 1 (art. 271 lit. g¹) și g²))",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Legea nu definește „motive imputabile”. Excepțiile precum lipsa de personal sau volumul mare apar doar în expunerea de motive, așa că judecătorii pot răspunde pentru lipsuri ale sistemului.",
+      "article": "art. II pct. 1 (art. 271 lit. g¹) și g²))",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Termenul trebuie fixat mereu, dar fără criterii de realism. Un termen prea scurt devine, legat de răspunderea disciplinară, o capcană pentru judecătorul care preia dosarul.",
+      "article": "art. I (art. 525 alin. (6) C.proc.civ.)",
+      "quote": "va dispune ca instanța care judecă procesul să îndeplinească actul de procedură sau să ia măsurile legale necesare",
+      "weight": 1
+    },
+    {
+      "text": "Când întârzierea ține de deliberare sau de redactarea hotărârii, e greu de aflat cine e vinovat fără a încălca secretul deliberării. Regula poate fi greu de aplicat.",
+      "article": "art. II pct. 2 (art. 271¹)",
+      "quote": "în cazul în care cauza se judecă în complet de judecată compus din mai mulți judecători",
+      "weight": 1
+    },
+    {
+      "text": "Inspecția Judiciară și CSM vor avea mai multe cercetări disciplinare, fără nicio estimare a costului sau a resurselor necesare.",
+      "article": "art. II",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Abaterea penală (lit. g²) ar trebui limitată la acte concrete indicate în încheiere, nu la soluționarea întregii cauze. Trebuie precizat și că procurorul nu răspunde pentru întârzieri cauzate de dispoziții ierarhice.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 2
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 8
+  }
+}

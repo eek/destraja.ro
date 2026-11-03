@@ -1,0 +1,95 @@
+{
+  "slug": "plx-620-2026",
+  "billId": "PL-x 620/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:11:36.707Z",
+  "inputHash": "060577752c93",
+  "riskScore": 2,
+  "summary": "O lege bună și simplă, cu o formulare stângace și fără reguli clare de aplicare, ușor de corectat.",
+  "good": [
+    {
+      "text": "Părinții care își cresc singuri copiii primesc cel puțin 3 zile de concediu plătit în plus pe an, pentru ședințe, serbări, zile libere de la școală sau programări medicale.",
+      "article": "art. I",
+      "quote": "precum și salariații care au calitatea de familie monoparentală, astfel cum este definită la art.22 alin.(5) și (6) din Legea asistenței sociale nr.292/2011",
+      "weight": 3
+    },
+    {
+      "text": "Beneficiarii sunt stabiliți prin trimitere la o definiție care există deja în legea asistenței sociale, așa că nu se inventează o categorie nouă și vagă.",
+      "article": "art. I",
+      "quote": "astfel cum este definită la art.22 alin.(5) și (6) din Legea asistenței sociale nr.292/2011, cu modificările și completările ulterioare",
+      "weight": 2
+    },
+    {
+      "text": "Legea intră în vigoare abia la 1 ianuarie a anului următor. Firmele și instituțiile au timp să planifice concediile și bugetul.",
+      "article": "art. II",
+      "quote": "Prevederile prezentei legi intră în vigoare la data de 1 ianuarie a anului următor publicării în Monitorul Oficial al României, Partea I.",
+      "weight": 2
+    },
+    {
+      "text": "Se stabilește doar un minim de 3 zile. Contractele colective sau cele individuale pot acorda mai mult.",
+      "article": "art. I",
+      "quote": "beneficiază de un concediu de odihnă suplimentar de cel puțin 3 zile lucrătoare",
+      "weight": 1
+    },
+    {
+      "text": "Intervenția este minimă: categoriile care aveau deja concediu suplimentar rămân neschimbate, iar restul Codului muncii nu este atins.",
+      "article": "art. I",
+      "quote": "Salariații care lucrează în condiții grele, periculoase sau vătămătoare, nevăzătorii, alte persoane cu handicap, tinerii în vârstă de până la 18 ani",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Nu se spune ce acte trebuie să prezinte salariatul. Fiecare angajator va cere altceva, cu risc de litigii sau de cereri excesive de date personale.",
+      "article": "art. I",
+      "quote": "salariații care au calitatea de familie monoparentală, astfel cum este definită la art.22 alin.(5) și (6) din Legea asistenței sociale",
+      "weight": 2
+    },
+    {
+      "text": "Salariatul nu este obligat să anunțe când situația se schimbă (recăsătorie, conviețuire, copil devenit major), deci concediul poate fi acordat și după ce dreptul a încetat.",
+      "article": "art. I",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Nu e clar dacă cine are deja concediu suplimentar din alt motiv (de exemplu, handicap) primește încă 3 zile ca părinte singur sau doar aceleași 3 zile.",
+      "article": "art. I",
+      "quote": "alte persoane cu handicap, tinerii în vârstă de până la 18 ani, precum și salariații care au calitatea de familie monoparentală",
+      "weight": 2
+    },
+    {
+      "text": "Formularea e greșită juridic: un salariat nu poate fi o „familie”. Textul ar trebui să vorbească despre părintele sau persoana singură din familia monoparentală.",
+      "article": "art. I",
+      "quote": "precum și salariații care au calitatea de familie monoparentală",
+      "weight": 1
+    },
+    {
+      "text": "Beneficiarii depind de altă lege. Orice modificare a Legii 292/2011 schimbă automat cine primește zilele, iar definiția nu are condiție de venit și nu coincide exact cu scopul declarat.",
+      "article": "art. I",
+      "quote": "astfel cum este definită la art.22 alin.(5) și (6) din Legea asistenței sociale nr.292/2011, cu modificările și completările ulterioare",
+      "weight": 1
+    },
+    {
+      "text": "Costul zilelor libere plătite cade pe angajatori, inclusiv pe firmele mici și pe instituțiile publice, iar textul nu evaluează acest impact.",
+      "article": "art. I",
+      "quote": "beneficiază de un concediu de odihnă suplimentar de cel puțin 3 zile lucrătoare",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Reformulați art. I ca să se refere la „salariatul care este persoana singură din familia monoparentală”, precizați actele doveditoare, obligația de a anunța schimbarea situației și regula de cumul.",
+    "removes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 10,
+    "verified": 10
+  }
+}

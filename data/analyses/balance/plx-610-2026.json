@@ -1,0 +1,105 @@
+{
+  "slug": "plx-610-2026",
+  "billId": "PL-x 610/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:11:29.187Z",
+  "inputHash": "a0c9777790ca",
+  "riskScore": 1.7,
+  "summary": "O lege bună și punctuală, cu câteva lacune tehnice mici, dar fără nicio prevedere care să o strice.",
+  "good": [
+    {
+      "text": "Medicii specialiști formați în Regatul Unit, mulți dintre ei români care vor să revină, pot folosi aceeași procedură de echivalare ca cei din SUA, Canada sau Australia.",
+      "article": "art. I pct. 2",
+      "quote": "Titlurile oficiale de calificare ca medic specialist eliberate de Australia, Canada, Israel, Noua Zeelandă, Statele Unite ale Americii și Regatul Unit al Marii Britanii și Irlandei de Nord",
+      "weight": 3
+    },
+    {
+      "text": "Echivalarea nu e automată. Condițiile obligatorii din ordonanță rămân neschimbate, deci se păstrează controlul asupra calității și siguranța pacienților.",
+      "article": "art. I pct. 2",
+      "quote": "cu condiția îndeplinirii, în mod cumulativ, a următoarelor condiții:",
+      "weight": 3
+    },
+    {
+      "text": "Se echivalează doar specialitățile care există și în lista oficială românească, deci un titlu britanic nu poate crea o specialitate inexistentă în România.",
+      "article": "art. I pct. 2",
+      "quote": "în una dintre specialitățile medicale clinice și paraclinice prevăzute de Nomenclatorul specialităților medicale, medico-dentare și farmaceutice pentru rețeaua de asistență medicală",
+      "weight": 2
+    },
+    {
+      "text": "Ministerul Sănătății are un termen clar de 30 de zile pentru a adapta regulile practice, ca procedura să funcționeze efectiv și pentru titlurile britanice.",
+      "article": "art. II",
+      "quote": "Ministerul Sănătății modifică în mod corespunzător Criteriile și metodologia de echivalare",
+      "weight": 2
+    },
+    {
+      "text": "Titlul ordonanței este actualizat, așa că textul rămâne coerent și ușor de găsit de cei interesați.",
+      "article": "art. I pct. 1",
+      "quote": "Ordonanța de urgență privind echivalarea titlurilor de medic specialist eliberate de Australia, Canada, Israel, Noua Zeelandă, Statele Unite ale Americii și Regatul Unit al Marii Britanii și Irlandei de Nord",
+      "weight": 1
+    },
+    {
+      "text": "Proiectul nu introduce taxe, sancțiuni sau privilegii noi. Poate ajuta spitalele și clinicile, inclusiv pe cele mici, să angajeze mai ușor medici.",
+      "article": "art. I – art. II",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Nu se spune ce document britanic contează ca titlu de specialist (de exemplu certificatul CCT sau înscrierea în registrul GMC), așa că pot apărea interpretări diferite la dosare.",
+      "article": "art. I pct. 2",
+      "quote": "Titlurile oficiale de calificare ca medic specialist eliberate de Australia, Canada, Israel, Noua Zeelandă, Statele Unite ale Americii și Regatul Unit",
+      "weight": 2
+    },
+    {
+      "text": "Nu se spune ce se întâmplă cu cererile depuse până la modificarea metodologiei. Metodologia actuală menționează doar cele cinci state, deci medicii din UK pot aștepta fără reguli clare.",
+      "article": "art. II",
+      "quote": "Criteriile și metodologia de echivalare a titlurilor oficiale de medic specialist eliberate de Australia, Canada, Israel, Noua Zeelandă și Statele Unite ale Americii",
+      "weight": 2
+    },
+    {
+      "text": "Termenul de 30 de zile pentru minister nu are nicio consecință dacă nu e respectat, deci aplicarea legii poate fi amânată în practică.",
+      "article": "art. II",
+      "quote": "În termen de 30 de zile de la data intrării în vigoare a prezentei legi",
+      "weight": 2
+    },
+    {
+      "text": "Legea acoperă doar titlul de specialist, nu și diploma de bază de medic. Cine are și diploma de bază din UK după Brexit trece în continuare prin altă procedură, contrar celor sugerate în motivare.",
+      "article": "art. I pct. 2",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Nu se precizează legătura cu regulile generale de recunoaștere pentru alte state din afara UE, deci pot apărea suprapuneri sau confuzii între proceduri.",
+      "article": "art. I",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Nu e estimat volumul suplimentar de dosare pentru Minister și Colegiul Medicilor, deci nu se știe dacă vor avea oameni suficienți să le analizeze la timp.",
+      "article": "art. I – art. II",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Greșeală de redactare: „certificătul” în loc de „certificatul”. Nu schimbă sensul, dar trebuie corectată.",
+      "article": "art. I pct. 2",
+      "quote": "se echivalează cu certificătul de medic specialist eliberat de Ministerul Sănătății pentru specialitatea respectivă",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Trebuie precizat ce document britanic se acceptă ca titlu de specialist și trebuie adăugată o regulă de tranziție pentru cererile depuse înainte de actualizarea metodologiei.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 9,
+    "verified": 9
+  }
+}

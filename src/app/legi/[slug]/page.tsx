@@ -5,7 +5,6 @@ import { ArrowLeft, ChevronDown, ExternalLink, FileDown, FileText } from 'lucide
 import { getAllBills, getBillBySlug, getBillExtractedTexts, toLite } from '@/lib/bills';
 import { mpSlugs, oneLiner } from '@/lib/stats';
 import { RISK } from '@/lib/risk';
-import { MODELS } from '@/lib/site';
 import { formatDateRo, formatDeadline, todayISO } from '@/lib/format';
 import { trackAttrs } from '@/lib/analytics';
 import ActionKitClient from '@/components/ActionKitClient';
@@ -16,6 +15,8 @@ import LiveDeadline from '@/components/bills/LiveDeadline';
 import BillRoute from '@/components/bills/BillRoute';
 import BillAgenda from '@/components/bills/BillAgenda';
 import { getBillAgenda } from '@/lib/agenda';
+import BillReports from '@/components/bills/BillReports';
+import { getBillReports, manualCorrections } from '@/lib/reports';
 import BillNews, { PressLink } from '@/components/bills/BillNews';
 import BillPositions, { PositionsLink } from '@/components/bills/BillPositions';
 import { Container, PartyTag, RiskChip, panel } from '@/components/ui';
@@ -60,6 +61,9 @@ export default async function BillDetailPage({ params }: PageProps) {
   const extractedTexts = await getBillExtractedTexts(bill);
   const balance = await getBalance(slug);
   const agenda = await getBillAgenda(`/legi/${slug}`);
+  const reports = await getBillReports(slug);
+  const manual = manualCorrections(bill.analysis.corrections, reports);
+  const corrected = manual.length > 0 || reports.some((r) => r.status === 'fixed');
   const news = bill.news;
   const builtOn = todayISO();
   const lite = toLite(bill);
@@ -145,22 +149,18 @@ export default async function BillDetailPage({ params }: PageProps) {
         </header>
 
         <ModelsVerdict score={c.riskScore} level={c.riskLevel} summary={c.summaryTlDr} council={bill.analysis.council}>
-          {bill.analysis.corrections?.map((fix) => (
-            <p key={fix.reportId} className="mt-4 rounded-lg bg-brand-soft px-3 py-2 text-sm leading-6 text-ink">
-              <strong className="font-semibold">Corectat la {formatDateRo(fix.date)}:</strong>{' '}
-              {fix.note ?? (
-                <>
-                  {fix.target === 'consensus' ? 'concluzia comună a fost refăcută' : `analiza ${MODELS.find((m) => m.key === fix.target)?.name} a fost refăcută`} după
-                  raportul unui cititor, confirmat în textul oficial.
-                </>
-              )}
-            </p>
-          ))}
+          {corrected && (
+            <a href="#greseli" className="mt-4 block rounded-lg bg-brand-soft px-3 py-2 text-sm leading-6 text-ink">
+              <strong className="font-semibold">Corectat după raportul unui cititor,</strong> confirmat în textul oficial.{' '}
+              <span className="font-semibold text-link underline underline-offset-4">Vezi ce s-a schimbat</span>
+            </a>
+          )}
           <a href="#audit-ai" className="mt-4 inline-flex min-h-11 items-center gap-1.5 text-sm font-semibold text-link underline underline-offset-4">
             Ce a găsit fiecare model în text
             <ChevronDown className="h-4 w-4" aria-hidden />
           </a>
         </ModelsVerdict>
+        <BillReports reports={reports} manual={manual} />
         {balance && <BillBalance data={balance} level={c.riskLevel} />}
 
         <BillRoute bill={bill} />

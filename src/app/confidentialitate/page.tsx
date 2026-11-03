@@ -198,17 +198,19 @@ export default function PrivacyPage() {
           Când semnalezi o greșeală
         </h2>
         <p className={p}>
-          Formularul „Semnalează o greșeală” de pe pagina unui proiect ne trimite textul tău, proiectul și analiza la care te referi. Nu cerem nume
-          sau e-mail și nu păstrăm adresa IP.
+          Formularul „Semnalează o greșeală” de pe pagina unui proiect ne trimite textul tău, proiectul și analiza la care te referi. Numele și
+          e-mailul sunt opționale. Nu păstrăm adresa IP.
         </p>
         <Ticks
           icon={Check}
           tone="text-link"
           items={[
             'Verificarea anti-roboți e făcută de Cloudflare Turnstile și pornește doar când deschizi formularul. Cloudflare primește pentru asta adresa IP și semnale despre browser și le folosește ca să deosebească oamenii de roboți.',
-            'Raportul e citit de noi și trimis spre reverificare modelelor Gemini (Google), Claude (Anthropic) și ChatGPT (OpenAI), împreună cu textul oficial al proiectului. De aceea te rugăm să nu scrii date personale.',
+            'Raportul e citit de noi și trimis spre reverificare modelelor Gemini (Google), Claude (Anthropic) și ChatGPT (OpenAI), împreună cu textul oficial al proiectului. De aceea te rugăm să nu scrii date personale în text. Numele și e-mailul nu ajung la modele.',
+            'Textul raportului nu îl publicăm. După verificare, pe pagina proiectului, la „Greșeli semnalate”, apar fraza din analiză pe care ai contestat-o, citatul din textul oficial, corectura, dacă a fost nevoie, și numele tău, dacă l-ai scris.',
+            'Dacă îți lași e-mailul, îți trimitem o singură dată rezultatul verificării, prin Cloudflare Email Service, apoi ștergem adresa. Dacă rezultatul nu e gata în 30 de zile, o ștergem oricum. Nu te abonăm la nimic.',
             'Păstrăm rapoartele cel mult 90 de zile după ce le-am verificat, apoi le ștergem.',
-            'Temeiul este interesul nostru legitim de a corecta analizele publicate (art. 6 alin. 1 lit. f din Regulamentul (UE) 2016/679).',
+            'Temeiul este interesul nostru legitim de a corecta analizele publicate (art. 6 alin. 1 lit. f din Regulamentul (UE) 2016/679); pentru nume și e-mail, consimțământul tău, dat când le scrii (art. 6 alin. 1 lit. a). Ne poți cere oricând să scoatem numele de pe pagină, la contact@destraja.ro.',
           ]}
         />
         <p className={p}>

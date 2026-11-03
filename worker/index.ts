@@ -2,19 +2,21 @@
 // wrangler.jsonc); orice altă cerere ajunge direct la fișierele din out/.
 //
 // /api/report                 rapoartele cititorilor despre greșeli în analize (report.ts)
+// /api/report/result          rezultatul verificării, pe e-mail, doar cu DIGEST_TOKEN (report.ts)
 // /api/subscribe, /api/confirm, /api/preferences, /api/unsubscribe   alertele pe e-mail (subscribe.ts)
 // /api/digest, /api/digest/stats   trimiterea ediției zilnice, doar cu DIGEST_TOKEN (digest.ts)
 // cron la 15 minute              confirmările rămase la coadă (subscribe.ts, sendQueued)
 
 import { handleDigest, handleDigestStats } from './digest';
 import { json, logError } from './http';
-import { handleReport } from './report';
+import { handleReport, handleReportResult } from './report';
 import { handleConfirm, handlePreferences, handleSubscribe, handleUnsubscribe, sendQueued } from './subscribe';
 
 type Handler = (request: Request, env: Env, url: URL) => Promise<Response>;
 
 const POST_ROUTES: Record<string, Handler> = {
   '/api/report': handleReport,
+  '/api/report/result': handleReportResult,
   '/api/subscribe': handleSubscribe,
   '/api/confirm': handleConfirm,
   '/api/preferences': handlePreferences,

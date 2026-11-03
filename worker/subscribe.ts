@@ -14,7 +14,7 @@ import { FROM, LEVELS, REPLY_TO, SITE, button, emailLayout, esc, footerHtml, SAN
 import { base64url, json, logError, randomToken, readSiteJson, sha256, verifyTurnstile } from './http';
 
 const LEVEL_SET = new Set<Level>(['all', 'yellow', 'red']);
-const EMAIL_RE = /^[^\s@<>()[\]\\,;:"]{1,64}@(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z]{2,63}$/;
+export const EMAIL_RE = /^[^\s@<>()[\]\\,;:"]{1,64}@(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z]{2,63}$/;
 const CONFIRM_HOURS = 48;
 // Același e-mail nu primește alt mesaj de confirmare mai devreme de atât, oricâte cereri ar veni.
 const RESEND_MINUTES = 10;

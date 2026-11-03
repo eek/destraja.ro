@@ -21,6 +21,8 @@ import LiveDeadline from '@/components/bills/LiveDeadline';
 import { getBalance } from '@/lib/balance';
 import { getBillAgenda } from '@/lib/agenda';
 import BillAgenda from '@/components/bills/BillAgenda';
+import BillReports from '@/components/bills/BillReports';
+import { getBillReports, manualCorrections } from '@/lib/reports';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -48,7 +50,7 @@ const LAW_TYPE: Record<string, string> = { ordinar: 'Ordinară', organic: 'Organ
 
 export default async function CameraBillPage({ params }: PageProps) {
   const { slug } = await params;
-  const [bill, analysis, committees, versions, versionsStatus, balance, amendments, agenda] = await Promise.all([
+  const [bill, analysis, committees, versions, versionsStatus, balance, amendments, agenda, reports] = await Promise.all([
     getCdepBill(slug),
     getCdepAnalysis(slug),
     getCommittees(),
@@ -57,6 +59,7 @@ export default async function CameraBillPage({ params }: PageProps) {
     getBalance(slug),
     getBillAmendments(slug),
     getBillAgenda(`/camera/${slug}`),
+    getBillReports(slug),
   ]);
   const mpPages = amendments ? await getMpPageSlugs() : new Set<string>();
   const comparing = !versions && versionsStatus?.pending.includes(slug);
@@ -212,6 +215,7 @@ export default async function CameraBillPage({ params }: PageProps) {
             <ReportIssue billId={bill.numar} target="consensus" />
           </ModelsVerdict>
         )}
+        <BillReports reports={reports} manual={manualCorrections(analysis?.corrections, reports)} />
         {c && balance && <BillBalance data={balance} level={c.riskLevel} />}
 
         <section aria-labelledby="traseu" className={`${panel} mt-6 p-6 sm:p-8`}>

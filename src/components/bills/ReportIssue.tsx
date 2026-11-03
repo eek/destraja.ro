@@ -22,6 +22,8 @@ const ERRORS: Record<string, string> = {
   captcha: 'Verificarea anti-roboți nu a mers. Bifeaz-o din nou și retrimite.',
   comment_length: `Scrie între ${MIN} și ${MAX} de caractere.`,
   busy: 'Avem acum prea multe rapoarte de verificat. Revino mâine, te rugăm.',
+  name: 'Numele poate avea doar litere, spații, punct, apostrof și cratimă, până la 60 de caractere.',
+  email: 'Adresa de e-mail nu pare corectă.',
 };
 
 export default function ReportIssue({ billId, target: initialTarget }: { billId: string; target: ReportTarget }) {
@@ -29,6 +31,8 @@ export default function ReportIssue({ billId, target: initialTarget }: { billId:
   const [open, setOpen] = useState(false);
   const [target, setTarget] = useState<ReportTarget>(initialTarget);
   const [comment, setComment] = useState('');
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
   const [status, setStatus] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle');
   const [error, setError] = useState('');
   const ids = useId();
@@ -54,7 +58,7 @@ export default function ReportIssue({ billId, target: initialTarget }: { billId:
       const r = await fetch('/api/report', {
         method: 'POST',
         headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({ billId, target, comment, token }),
+        body: JSON.stringify({ billId, target, comment, token, name: name.trim(), email: email.trim() }),
       });
       if (r.ok) {
         setStatus('sent');
@@ -97,8 +101,9 @@ export default function ReportIssue({ billId, target: initialTarget }: { billId:
       <div role="status" className="flex items-start gap-3 rounded-2xl bg-brand-soft p-5 text-[15px] leading-7 text-ink">
         <Check className="mt-1 h-5 w-5 shrink-0" aria-hidden />
         <p>
-          <strong className="font-semibold">Mulțumim, am primit raportul.</strong> Îl verificăm în zilele lucrătoare, dimineața. Dacă greșeala se
-          confirmă în textul oficial, corectăm analiza și o notăm pe această pagină.
+          <strong className="font-semibold">Mulțumim, am primit raportul.</strong> Gemini, Claude și ChatGPT îl compară cu textul oficial. Dacă
+          greșeala se confirmă, corectăm analiza; rezultatul apare pe această pagină, la „Greșeli semnalate”
+          {email.trim() ? ', și ți-l trimitem pe e-mail' : ''}.
         </p>
       </div>
     );
@@ -129,7 +134,7 @@ export default function ReportIssue({ billId, target: initialTarget }: { billId:
             Ce nu se potrivește?
           </label>
           <p id={`${ids}-hint`} className="text-sm leading-6 text-muted">
-            Spune ce afirmație e greșită și, dacă poți, ce articol din textul oficial spune altceva. Nu scrie date personale.
+            Spune ce afirmație e greșită și, dacă poți, ce articol din textul oficial spune altceva. Nu scrie date personale în text.
           </p>
           <textarea
             id={`${ids}-comment`}
@@ -144,6 +149,44 @@ export default function ReportIssue({ billId, target: initialTarget }: { billId:
             {length < MIN ? `Încă cel puțin ${MIN - length} caractere` : `${comment.length}/${MAX}`}
           </p>
         </div>
+        <fieldset className="grid gap-4 sm:grid-cols-2">
+          <legend className="mb-1.5 text-sm font-semibold text-ink">Opțional</legend>
+          <div className="grid content-start gap-1.5">
+            <label htmlFor={`${ids}-name`} className="text-sm font-semibold text-ink">
+              Numele tău
+            </label>
+            <input
+              id={`${ids}-name`}
+              aria-describedby={`${ids}-name-hint`}
+              autoComplete="name"
+              maxLength={60}
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              className={`${inputCls} px-3 font-normal`}
+            />
+            <p id={`${ids}-name-hint`} className="text-xs leading-5 text-muted">
+              Apare pe această pagină, lângă rezultatul verificării. Poate fi doar prenumele.
+            </p>
+          </div>
+          <div className="grid content-start gap-1.5">
+            <label htmlFor={`${ids}-email`} className="text-sm font-semibold text-ink">
+              E-mailul tău
+            </label>
+            <input
+              id={`${ids}-email`}
+              type="email"
+              aria-describedby={`${ids}-email-hint`}
+              autoComplete="email"
+              maxLength={254}
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              className={`${inputCls} px-3 font-normal`}
+            />
+            <p id={`${ids}-email-hint`} className="text-xs leading-5 text-muted">
+              Îți scriem o singură dată, cu rezultatul, apoi ștergem adresa. Nu te abonăm la nimic.
+            </p>
+          </div>
+        </fieldset>
         <div ref={widgetEl} className="min-h-[65px]" />
         {error && (
           <p role="alert" className="text-sm font-semibold text-ink">
@@ -152,7 +195,8 @@ export default function ReportIssue({ billId, target: initialTarget }: { billId:
         )}
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-xs leading-5 text-muted">
-            Păstrăm doar textul raportului, proiectul și data. Îl citim noi și modelele AI care reverifică analiza.{' '}
+            Textul raportului îl citim doar noi și modelele AI; pe pagină apar fraza verificată, citatul oficial și numele, dacă îl
+            scrii.{' '}
             <Link href="/confidentialitate#rapoarte" className="font-semibold text-link underline underline-offset-4">
               Detalii
             </Link>

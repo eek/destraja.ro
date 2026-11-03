@@ -14,7 +14,10 @@
 //    Corectura e aplicată doar dacă Gemini și GPT o aprobă amândoi și trece verificările din cod.
 // 5. Restul: toate trei spun că analiza e corectă → rejected; cel puțin două spun spam → spam;
 //    altfel → review, în digestul operatorului (ops/digest/AAAA-LL-ZZ.md, ignorat de git).
-// 6. Rapoartele verificate de peste 90 de zile se șterg din D1.
+// 6. Corectat sau respins: fraza noastră, citatul oficial și corectura merg în data/reports/<slug>.json, pe pagina
+//    proiectului, cu numele cititorului dacă l-a lăsat. Cine și-a lăsat e-mailul primește rezultatul o dată, prin
+//    Worker (POST /api/report/result): scriptul face mesajul, Worker-ul găsește adresa, trimite și o șterge.
+// 7. Rapoartele verificate de peste 90 de zile se șterg din D1; adresele nefolosite, după 30 de zile.
 //
 //   node scripts/straja-reports.mjs            rapoartele noi din D1 (remote)
 //   node scripts/straja-reports.mjs --local    baza locală din wrangler dev
@@ -26,6 +29,8 @@ import crypto from 'node:crypto';
 import { spawn } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { MODEL_KEYS, runModel } from './lib/ai-cli.mjs';
+import { SITE } from '../email/layout.mjs';
+import { reportResultEmail } from '../email/report-result.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = path.join(ROOT, 'data');
@@ -34,6 +39,7 @@ const args = new Set(process.argv.slice(2));
 const LOCAL = args.has('--local');
 const DRY = args.has('--dry-run');
 const RETENTION_DAYS = 90;
+const EMAIL_DAYS = 30;
 
 const MODEL_NAMES = { agy: 'Gemini', claude: 'Claude', codex: 'ChatGPT' };
 const CONSENSUS_FIELDS = ['plainTitle', 'citizenOneLiner', 'summaryTlDr', 'initiatorClaim', 'realityCheck'];
@@ -209,8 +215,8 @@ ${comment}
 Răspunde cu:
 {
   "verdict": "error_confirmed" | "analysis_correct" | "unclear" | "spam_or_abuse",
-  "claim": "fragmentul greșit copiat EXACT, literă cu literă, dintr-o valoare din ANALYSIS-${nonce} (cel puțin 20 de caractere; gol dacă verdictul nu e error_confirmed)",
-  "evidence": "fragmentul copiat EXACT, literă cu literă, din OFFICIAL-${nonce} care arată greșeala (cel puțin 20 de caractere; gol dacă verdictul nu e error_confirmed)",
+  "claim": "fragmentul contestat de cititor, copiat EXACT, literă cu literă, dintr-o valoare din ANALYSIS-${nonce} (cel puțin 20 de caractere; gol dacă verdictul e unclear sau spam_or_abuse)",
+  "evidence": "fragmentul copiat EXACT, literă cu literă, din OFFICIAL-${nonce} care arată greșeala (la error_confirmed) sau care susține analiza (la analysis_correct); cel puțin 20 de caractere; gol dacă verdictul e unclear sau spam_or_abuse",
   "injection": true | false
 }
 
@@ -363,6 +369,63 @@ async function triageReport(report, bills) {
   return { status: 'fixed', votes, triage, patches, reasons };
 }
 
+// --- ce apare pe pagina proiectului -----------------------------------------------------------------
+// data/reports/<slug>.json: pentru fiecare raport corectat sau respins, fraza noastră contestată și citatul oficial,
+// verificate literal mai sus, plus ce am scris în loc. Textul cititorului nu ajunge aici: e scris de un necunoscut, iar
+// formularul promite că îl citim doar noi și modelele. Numele apare doar dacă cititorul l-a lăsat pentru asta.
+
+const REPORTS_DIR = path.join(DATA, 'reports');
+
+// Ce a luat locul frazei contestate: textul nou dintre aceleași început și sfârșit ca în cel vechi.
+function replacement(oldText, newText, claim) {
+  const i = claim ? oldText.indexOf(claim) : -1;
+  if (i >= 0) {
+    const pre = oldText.slice(0, i);
+    const post = oldText.slice(i + claim.length);
+    if (newText.startsWith(pre) && newText.endsWith(post)) return [claim, newText.slice(pre.length, newText.length - post.length)];
+  }
+  return changedFragment(oldText, newText);
+}
+
+function publicEntry(report, result) {
+  const votes = Object.values(result.votes ?? {});
+  // Ghilimelele din jurul citatului le pune pagina; în textul oficial unele fragmente le au deja.
+  const bare = (s = '') => s.trim().replace(/^[„“"«]+|[”“"»]+$/g, '');
+  const claim = bare(votes.find((v) => v.claimFound)?.claim);
+  const quote = bare(votes.find((v) => v.evidenceFound)?.evidence);
+  const main = result.patches?.find((p) => contains(p.old, claim)) ?? result.patches?.[0];
+  const [before, after] = main ? replacement(main.old, main.new, claim) : [];
+  return {
+    ids: [report.id],
+    date: new Date().toISOString(),
+    status: result.status,
+    targets: [report.target],
+    claim,
+    quote,
+    ...(main ? { before, after } : {}),
+    ...(report.name ? { name: report.name } : {}),
+  };
+}
+
+function readPublic(bill) {
+  const file = path.join(REPORTS_DIR, `${bill.slug}.json`);
+  return fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : { billId: bill.id, items: [] };
+}
+
+function savePublic(bill, entry) {
+  const file = path.join(REPORTS_DIR, `${bill.slug}.json`);
+  const data = readPublic(bill);
+  // Același raport trimis pe mai multe taburi (ca la B584) apare o singură dată, cu toate analizele atinse.
+  const same = data.items.find((x) => x.status === entry.status && x.claim && norm(x.claim) === norm(entry.claim) && x.name === entry.name);
+  if (same) {
+    same.targets = [...new Set([...same.targets, ...entry.targets])];
+    same.ids = [...new Set([...same.ids, ...entry.ids])];
+  }
+  else data.items.push(entry);
+  fs.mkdirSync(REPORTS_DIR, { recursive: true });
+  fs.writeFileSync(file, JSON.stringify(data, null, 2) + '\n', 'utf8');
+}
+
 function digestEntry(report, result) {
   const lines = [
     `## ${result.status.toUpperCase()} · ${report.bill_id} · ${report.target === 'consensus' ? 'concluzia comună' : MODEL_NAMES[report.target]}`,
@@ -394,6 +457,27 @@ function digestEntry(report, result) {
   return lines.filter((l) => l !== '').join('\n');
 }
 
+// Rezultatul, pe e-mail, celor care și-au lăsat adresa. Scriptul nu vede adresele: întreabă doar care rapoarte au una.
+async function notify(bills) {
+  const token = process.env.DIGEST_TOKEN ?? loadDotEnv().DIGEST_TOKEN;
+  if (!token) return console.log('✉️  fără DIGEST_TOKEN în .env: rezultatele nu pleacă pe e-mail');
+  const waiting = await d1("SELECT id, bill_id FROM reports WHERE email IS NOT NULL AND notified_at IS NULL AND status IN ('fixed', 'rejected')");
+  let sent = 0;
+  for (const r of waiting) {
+    const bill = bills.get(r.bill_id);
+    const entry = bill && readPublic(bill).items.find((x) => x.ids.includes(r.id));
+    if (!entry) continue;
+    const res = await fetch(`${LOCAL ? 'http://localhost:8787' : SITE}/api/report/result`, {
+      method: 'POST',
+      headers: { authorization: `Bearer ${token}`, 'content-type': 'application/json' },
+      body: JSON.stringify({ id: r.id, ...reportResultEmail(bill, entry) }),
+    }).catch((err) => ({ ok: false, status: err.message }));
+    if (res.ok && (await res.json()).sent) sent++;
+    else if (!res.ok) console.log(`  ✉️  ${r.bill_id}: rezultatul n-a plecat (${res.status}), reîncercăm data viitoare`);
+  }
+  if (waiting.length) console.log(`✉️  ${sent} rezultate trimise pe e-mail`);
+}
+
 async function main() {
   const bills = new Map(JSON.parse(fs.readFileSync(path.join(DATA, 'senat-bills.json'), 'utf8')).map((b) => [b.id, b]));
   // Proiectele de la Cameră au analiza și textele în aceleași foldere, după slug („plx-94-2026”); raportul vine cu numărul lor.
@@ -401,7 +485,10 @@ async function main() {
   for (const p of chamber) {
     if (!bills.has(p.numar) && fs.existsSync(path.join(DATA, 'analyses', `${p.slug}.json`))) bills.set(p.numar, { id: p.numar, slug: p.slug });
   }
-  const reports = await d1("SELECT id, bill_id, target, comment, created_at FROM reports WHERE status = 'new' ORDER BY created_at LIMIT 50");
+  // Numele și e-mailul vin cu migrația 0004; până la aplicarea ei pe baza vizată, scriptul merge ca înainte.
+  const contact = (await d1("SELECT name FROM pragma_table_info('reports') WHERE name = 'email'")).length > 0;
+  // Numele nu ajunge la modele: e doar pentru pagină.
+  const reports = await d1(`SELECT id, bill_id, target, comment, created_at${contact ? ', name' : ''} FROM reports WHERE status = 'new' ORDER BY created_at LIMIT 50`);
   console.log(`📮 ${reports.length} rapoarte noi${LOCAL ? ' (local)' : ''}${DRY ? ', fără scriere' : ''}`);
 
   const entries = [];
@@ -417,14 +504,17 @@ async function main() {
     counts[result.status] = (counts[result.status] ?? 0) + 1;
     console.log(`  ${report.bill_id} ${report.target}: ${result.status}${result.note ? ` (${result.note})` : ''}`);
     entries.push(digestEntry(report, result));
+    if (!DRY && (result.status === 'fixed' || result.status === 'rejected')) savePublic(bills.get(report.bill_id), publicEntry(report, result));
     if (!DRY) {
       const triage = JSON.stringify({ ...result.triage, note: result.note ?? null, suspicious: !!result.suspicious });
       await d1(`UPDATE reports SET status = ${sqlText(result.status)}, triage = ${sqlText(triage)}, reviewed_at = ${sqlText(new Date().toISOString())} WHERE id = ${sqlText(report.id)}`);
     }
   }
 
+  if (!DRY && contact) await notify(bills);
   if (!DRY) {
     await d1(`DELETE FROM reports WHERE status != 'new' AND reviewed_at < strftime('%Y-%m-%dT%H:%M:%fZ', 'now', '-${RETENTION_DAYS} days')`);
+    if (contact) await d1(`UPDATE reports SET email = NULL WHERE email IS NOT NULL AND created_at < strftime('%Y-%m-%dT%H:%M:%fZ', 'now', '-${EMAIL_DAYS} days')`);
   }
 
   if (entries.length) {

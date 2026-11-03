@@ -48,6 +48,8 @@ const LOCK = path.join(ROOT, 'ops', 'daily.lock');
 const PUBLISH_PAUSE = path.join(ROOT, '.cache', 'publish-paused');
 const ANUNT_FILE = path.join(ROOT, '.cache', 'digest-anunt');
 const AGENDA_VM = path.join(ROOT, '.cache', 'agenda-vm');
+// Jobul de la 10 minute care verifică rapoartele cititorilor (scripts/straja-reports-job.mjs); așteptăm să termine.
+const REPORTS_LOCK = path.join(ROOT, 'ops', 'reports.lock');
 const args = new Set(process.argv.slice(2));
 const day = new Date().toLocaleDateString('sv-SE', { timeZone: 'Europe/Bucharest' });
 const monday = new Date().toLocaleDateString('en-US', { weekday: 'short', timeZone: 'Europe/Bucharest' }) === 'Mon';
@@ -120,6 +122,15 @@ async function main() {
     }
   }
   fs.writeFileSync(LOCK, String(process.pid));
+  // Jobul rapoartelor poate fi la jumătatea unei publicări; îl lăsăm să termine (cel mult 30 de minute).
+  for (let i = 0; i < 60 && fs.existsSync(REPORTS_LOCK); i++) {
+    try {
+      process.kill(Number(fs.readFileSync(REPORTS_LOCK, 'utf8')), 0);
+    } catch {
+      break;
+    }
+    await new Promise((r) => setTimeout(r, 30_000));
+  }
   const summary = [];
   try {
     log(`=== Actualizarea din ${day} ===`);
@@ -183,7 +194,8 @@ async function main() {
       if (!mps.ok) summary.push('contactele parlamentarilor au eșuat');
     }
 
-    const reports = await step('Rapoarte', 'node', ['scripts/straja-reports.mjs'], { timeoutMs: 3_600_000 });
+    // Rezultatele pe e-mail pleacă după publicare, ca pagina să le arate deja.
+    const reports = await step('Rapoarte', 'node', ['scripts/straja-reports.mjs', '--defer-notify'], { timeoutMs: 3_600_000 });
     const triaged = reports.tail.match(/✅ (\{.*\}) · în așteptare: (\{.*\})/);
     if (!reports.ok) summary.push('rapoartele au eșuat');
     else if (triaged) {
@@ -228,6 +240,8 @@ async function main() {
       summary.push(deploy.ok ? 'publicat' : 'NEPUBLICAT');
       // Linkurile din e-mail duc la paginile abia publicate; fără publicare nu trimitem nimic.
       if (deploy.ok) {
+        const results = await step('Rezultatele rapoartelor', 'node', ['scripts/straja-reports.mjs', '--notify']);
+        if (!results.ok) summary.push('rezultatele rapoartelor n-au plecat');
         const digest = await step('Alerte e-mail', 'node', ['scripts/straja-digest.mjs', '--send', ...(anunt ? [`--anunt=${anunt}`] : [])], { timeoutMs: 1_800_000 });
         const sent = digest.tail.match(/✅ trimise: (\{.*\})/);
         // Ce n-a plecat azi din cauza limitei se trimite cu --day=<azi>; anunțul nu se repetă mâine.

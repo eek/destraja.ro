@@ -23,6 +23,8 @@
 //   node scripts/straja-reports.mjs --local    baza locală din wrangler dev
 //   node scripts/straja-reports.mjs --dry-run  nu scrie nimic (nici D1, nici analize)
 //   node scripts/straja-reports.mjs --explain  scrie explicația intrărilor din data/reports care nu o au
+//   --defer-notify                             nu trimite încă rezultatele pe e-mail (pagina se publică după)
+//   --notify                                   doar trimite rezultatele rămase, după publicare
 
 import fs from 'node:fs';
 import path from 'node:path';
@@ -39,6 +41,7 @@ const DIGEST_DIR = path.join(ROOT, 'ops', 'digest');
 const args = new Set(process.argv.slice(2));
 const LOCAL = args.has('--local');
 const DRY = args.has('--dry-run');
+const DEFER_NOTIFY = args.has('--defer-notify');
 const RETENTION_DAYS = 90;
 const EMAIL_DAYS = 30;
 
@@ -529,14 +532,20 @@ async function notify(bills) {
   if (waiting.length) console.log(`✉️  ${sent} rezultate trimise pe e-mail`);
 }
 
-async function main() {
-  if (args.has('--explain')) return backfillExplanations();
+function knownBills() {
   const bills = new Map(JSON.parse(fs.readFileSync(path.join(DATA, 'senat-bills.json'), 'utf8')).map((b) => [b.id, b]));
   // Proiectele de la Cameră au analiza și textele în aceleași foldere, după slug („plx-94-2026”); raportul vine cu numărul lor.
   const chamber = JSON.parse(fs.readFileSync(path.join(DATA, 'cdep', 'index.json'), 'utf8')).proiecte;
   for (const p of chamber) {
     if (!bills.has(p.numar) && fs.existsSync(path.join(DATA, 'analyses', `${p.slug}.json`))) bills.set(p.numar, { id: p.numar, slug: p.slug });
   }
+  return bills;
+}
+
+async function main() {
+  if (args.has('--explain')) return backfillExplanations();
+  const bills = knownBills();
+  if (args.has('--notify')) return notify(bills);
   // Numele și e-mailul vin cu migrația 0004; până la aplicarea ei pe baza vizată, scriptul merge ca înainte.
   const contact = (await d1("SELECT name FROM pragma_table_info('reports') WHERE name = 'email'")).length > 0;
   // Numele nu ajunge la modele: e doar pentru pagină.
@@ -571,7 +580,7 @@ async function main() {
     }
   }
 
-  if (!DRY && contact) await notify(bills);
+  if (!DRY && contact && !DEFER_NOTIFY) await notify(bills);
   if (!DRY) {
     await d1(`DELETE FROM reports WHERE status != 'new' AND reviewed_at < strftime('%Y-%m-%dT%H:%M:%fZ', 'now', '-${RETENTION_DAYS} days')`);
     if (contact) await d1(`UPDATE reports SET email = NULL WHERE email IS NOT NULL AND created_at < strftime('%Y-%m-%dT%H:%M:%fZ', 'now', '-${EMAIL_DAYS} days')`);

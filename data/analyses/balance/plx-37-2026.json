@@ -1,0 +1,94 @@
+{
+  "slug": "plx-37-2026",
+  "billId": "PL-x 37/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:42:18.636Z",
+  "inputHash": "e3cfe76b9cbd",
+  "riskScore": 2.3,
+  "summary": "O lege măruntă și inofensivă, cu un scop bun, dar formulată prea slab: cere doar trimiterea unei cereri de aviz, fără efect obligatoriu sau sancțiune.",
+  "good": [
+    {
+      "text": "Ministerele care pregătesc acte ce afectează firmele trebuie să ceară avizul autorității pentru IMM-uri înainte de adoptare. E un filtru în plus împotriva regulilor scrise fără gândul la firmele mici.",
+      "article": "art. unic din OUG 75/2025 (art. 9 alin. (4²) din Legea 346/2004)",
+      "quote": "Inițiatorul actului normativ cu impact asupra întreprinderilor mici și mijlocii sau asupra mediului de afaceri are obligația de a solicita avizul",
+      "weight": 2
+    },
+    {
+      "text": "Obligația acoperă nu doar actele despre IMM-uri, ci orice act cu impact asupra mediului de afaceri, deci poate prinde și măsuri fiscale sau administrative din alte domenii.",
+      "article": "art. unic din OUG 75/2025 (art. 9 alin. (4²) din Legea 346/2004)",
+      "quote": "cu impact asupra întreprinderilor mici și mijlocii sau asupra mediului de afaceri are obligația",
+      "weight": 1
+    },
+    {
+      "text": "Ajută la îndeplinirea unei ținte din PNRR legate de Testul IMM, ceea ce reduce riscul ca România să piardă bani europeni.",
+      "article": "preambulul OUG 75/2025",
+      "quote": "menținerea riscului major de neîndeplinire a indicatorului aferent Țintei 245 din Planul Național de Redresare și Reziliență",
+      "weight": 1
+    },
+    {
+      "text": "Nu introduce taxe, amenzi, costuri sau condiții noi pentru cetățeni ori firme; este doar o regulă de procedură pentru administrație.",
+      "article": "art. unic din OUG 75/2025",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Legea cere doar ca avizul să fie cerut, nu obținut sau respectat. Guvernul poate adopta actul și cu aviz negativ, deci obligația poate fi bifată formal.",
+      "article": "art. unic din OUG 75/2025 (art. 9 alin. (4²) din Legea 346/2004)",
+      "quote": "are obligația de a solicita avizul autorității publice centrale cu atribuții în domeniul întreprinderilor mici și mijlocii sau a mediului de afaceri",
+      "weight": 3
+    },
+    {
+      "text": "Nu există termen pentru emiterea avizului și nicio consecință dacă inițiatorul nu îl cere. Regula poate fi ignorată fără urmări.",
+      "article": "art. unic din OUG 75/2025 (art. 9 alin. (4²) din Legea 346/2004)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Preambulul spune că problema este omiterea Testului IMM, dar noul text nu pomenește testul și nu explică legătura cu avizul GEIEAN deja existent. Pot apărea două avize suprapuse.",
+      "article": "preambulul OUG 75/2025 și art. 9 alin. (4²)",
+      "quote": "Procedurile accelerate din practica recentă au determinat omiterea aplicării Testului IMM pentru anumite proiecte de acte normative",
+      "weight": 2
+    },
+    {
+      "text": "Nu se spune cine decide dacă un act are „impact asupra mediului de afaceri”. Inițiatorul își poate declara singur actul fără impact și scapă de obligație.",
+      "article": "art. unic din OUG 75/2025 (art. 9 alin. (4²) din Legea 346/2004)",
+      "quote": "Inițiatorul actului normativ cu impact asupra întreprinderilor mici și mijlocii sau asupra mediului de afaceri",
+      "weight": 2
+    },
+    {
+      "text": "Guvernul repară o problemă cauzată de procedurile grăbite tot printr-o ordonanță de urgență, motivată în principal de termenul PNRR. Urgența reală pentru o regulă de procedură e discutabilă.",
+      "article": "preambulul OUG 75/2025",
+      "quote": "fiind necesară o intervenție legislativă imediată pentru corectarea acestei situații",
+      "weight": 1
+    },
+    {
+      "text": "Regula pare să se aplice doar actelor adoptate de Guvern. Ordinele miniștrilor sau ANAF și inițiativele parlamentarilor, care pot împovăra firmele, rămân în afara ei.",
+      "article": "art. unic din OUG 75/2025 (art. 9 alin. (4²) din Legea 346/2004)",
+      "quote": "sau a mediului de afaceri, anterior adoptării acestuia de către",
+      "weight": 1
+    },
+    {
+      "text": "În textul primit, noul alineat se oprește la „de către”, fără să se încheie fraza. Formularea completă trebuie verificată în Monitorul Oficial.",
+      "article": "art. unic din OUG 75/2025 (art. 9 alin. (4²) din Legea 346/2004)",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "În art. 9 alin. (4²), înlocuiți „a solicita” cu „a obține” avizul, stabiliți un termen de emitere, legați avizul explicit de efectuarea Testului IMM și prevedeți că lipsa lui blochează adoptarea actului.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 8
+  }
+}

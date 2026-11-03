@@ -1,0 +1,86 @@
+{
+  "slug": "plx-20-2026",
+  "billId": "PL-x 20/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:41:32.179Z",
+  "inputHash": "5611a1cdae7d",
+  "riskScore": 1.7,
+  "summary": "O lege mică și utilă, cu o singură problemă reală: o delegare prea largă către Guvern pentru modificarea cotizațiilor.",
+  "good": [
+    {
+      "text": "Aprobă plata cotizațiilor la FIRST și Trusted Introducer, astfel încât echipa națională de răspuns la atacuri informatice rămâne în rețelele internaționale de schimb de informații.",
+      "article": "art. 1 alin. (1) și (2)",
+      "quote": "Se aprobă plata cotizației anuale ce revine Directoratului Național de Securitate Cibernetică pentru participarea în calitate de membru cu drepturi depline la Forumul TF/CSIRT Trusted Introducer (TI)",
+      "weight": 3
+    },
+    {
+      "text": "Sumele au plafoane clare (2.800 dolari și 1.200 euro pe an), deci cheltuiala publică este mică și limitată.",
+      "article": "art. 1 alin. (1) și (2)",
+      "quote": "în limita echivalentului în lei al sumei de 2.800 dolari/an",
+      "weight": 2
+    },
+    {
+      "text": "Legea spune clar de unde vin banii: din bugetul de stat, prin bugetul Secretariatului General al Guvernului. Astfel, cheltuiala are o sursă de finanțare stabilită.",
+      "article": "art. 1 alin. (4)",
+      "quote": "Sumele prevăzute la alin.(1) și (2) se asigură de la bugetul de stat, prin bugetul anual aprobat Secretariatului General al Guvernului.",
+      "weight": 2
+    },
+    {
+      "text": "Stabilește momentul conversiei în lei (data plății), ceea ce reduce discuțiile despre valoarea efectivă plătită.",
+      "article": "art. 1 alin. (3)",
+      "quote": "Echivalentul în Lei al sumelor prevăzute la alin. (1) și (2) se va calcula pe baza cursului de schimb leu/dolar",
+      "weight": 1
+    },
+    {
+      "text": "Cetățenii și firmele nu primesc taxe, obligații sau formalități noi; legea privește doar o cheltuială a statului.",
+      "article": "întregul proiect",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Guvernul poate schimba prin hotărâre cotizațiile la orice organizație neguvernamentală în care intră DNSC, nu doar la cele două, fără plafon și fără criterii, ocolind limitele puse de Parlament.",
+      "article": "art. 2",
+      "quote": "cuantumul cotizațiilor anuale la organismele internaționale neguvernamentale la care Directoratul Național de Securitate Cibernetică este parte se actualizează prin hotărâre a Guvernului",
+      "weight": 2
+    },
+    {
+      "text": "TVA-ul se adaugă automat peste plafonul de 1.200 euro, fără să se verifice dacă se datorează în acel stat. Suma finală rămâne deschisă și poate apărea riscul unei plăți nedatorate.",
+      "article": "art. 1 alin. (2)",
+      "quote": "în limita echivalentului în lei al sumei de 1.200 euro/an, la care se adaugă TVA-ul din statul membru în care este stabilită asociația",
+      "weight": 1
+    },
+    {
+      "text": "Legea nu precizează ce curs de schimb se folosește (de exemplu, cursul BNR), deci rămâne loc de interpretare.",
+      "article": "art. 1 alin. (3)",
+      "quote": "pe baza cursului de schimb leu/dolar, respectiv leu/euro, în vigoare Ia data efectuării plății",
+      "weight": 1
+    },
+    {
+      "text": "Expunerea de motive invocă facturi restante pentru 2024–2025, dar textul nu spune de când se aplică plata și nici dacă acoperă restanțele.",
+      "article": "art. 1 alin. (1) și (2)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Textul adoptat conține greșeli de redactare («Foram» în loc de «Forum», «Ia data» în loc de «la data»), care trebuie corectate înainte de publicare.",
+      "article": "art. 1 alin. (1) și (3)",
+      "quote": "(Foram of Incident Response and Security Teams-FIRST), în limita echivalentului în lei al sumei de 2.800 dolari/an",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Art. 2 ar trebui limitat la FIRST și TI și să permită actualizarea doar după o decizie oficială a organizației, cu o justificare publicată.",
+    "removes": [
+      0
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 0.8
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 8
+  }
+}

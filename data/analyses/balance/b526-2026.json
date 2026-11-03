@@ -1,0 +1,102 @@
+{
+  "slug": "b526-2026",
+  "billId": "B526/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:39:27.637Z",
+  "inputHash": "a1c853e65a00",
+  "riskScore": 1.7,
+  "summary": "Un scop bun și o idee utilă, dar alin. (6) e scris prea vag: nu spune cum se dovedește că locurile rezervate erau ocupate, ce înseamnă „orice loc” și cine suportă costul.",
+  "good": [
+    {
+      "text": "Dacă locurile pentru persoane cu handicap sunt ocupate, acestea pot parca gratuit pe alte locuri publice. Dreptul la parcare gratuită devine folosibil și în practică.",
+      "article": "art. unic pct. 1, art. 65 alin. (6)",
+      "quote": "pot utiliza, cu titlu gratuit, orice loc de parcare situat pe domeniul public sau privat al statului ori al unităților administrativ-teritoriale, fără plata tarifelor de parcare",
+      "weight": 3
+    },
+    {
+      "text": "Beneficiul e legat de cardul-legitimație existent. Nu apar beneficiari noi și nici o procedură nouă de eliberare.",
+      "article": "art. unic pct. 1, art. 65 alin. (6)",
+      "quote": "autovehiculele care transportă persoane cu handicap, deținători ai cardului-legitimație prevăzut la alin. (2)",
+      "weight": 2
+    },
+    {
+      "text": "Facilitatea nu permite oprirea în locuri periculoase sau interzise, cum ar fi trecerile de pietoni, intersecțiile sau stațiile de autobuz. Siguranța circulației rămâne protejată.",
+      "article": "art. unic pct. 1, art. 65 alin. (7)",
+      "quote": "se aplică fără a aduce atingere siguranței circulației și fără a permite parcarea în locuri unde oprirea sau staționarea este interzisă prin lege",
+      "weight": 2
+    }
+  ],
+  "bad": [
+    {
+      "text": "Nu e clar care locuri rezervate trebuie să fie ocupate: cele din aceeași parcare, de pe stradă sau din tot cartierul. Ocuparea nici nu poate fi dovedită ulterior, deci amenzile sau scutirile vor fi arbitrare.",
+      "article": "art. unic pct. 1, art. 65 alin. (6)",
+      "quote": "În situația în care locurile de parcare adaptate, rezervate și semnalizate conform alin. (1) sunt ocupate",
+      "weight": 3
+    },
+    {
+      "text": "„Orice loc” poate include locurile închiriate de rezidenți cu abonament sau cele pentru ambulanțe, taxiuri ori încărcare electrică. Asta afectează drepturile celor care plătesc pentru acele locuri.",
+      "article": "art. unic pct. 1, art. 65 alin. (6)",
+      "quote": "pot utiliza, cu titlu gratuit, orice loc de parcare situat pe domeniul public sau privat al statului ori al unităților administrativ-teritoriale",
+      "weight": 3
+    },
+    {
+      "text": "Alin. (2) dă deja parcare gratuită vehiculului cu card. Noul text poate fi citit ca limitare: gratuitate în alte locuri doar când cele rezervate sunt pline. Asta ar restrânge un drept existent.",
+      "article": "art. unic pct. 1, art. 65 alin. (6)",
+      "quote": "În situația în care locurile de parcare adaptate, rezervate și semnalizate conform alin. (1) sunt ocupate",
+      "weight": 2
+    },
+    {
+      "text": "Primăriile și operatorii privați de parcări concesionate pierd venituri. Nu există calcul de impact, sursă de finanțare sau mecanism de compensare, deși Constituția cere sursa de finanțare.",
+      "article": "art. unic pct. 1, art. 65 alin. (6)",
+      "quote": "orice loc de parcare situat pe domeniul public sau privat al statului ori al unităților administrativ-teritoriale, fără plata tarifelor de parcare",
+      "weight": 2
+    },
+    {
+      "text": "Nu există o limită de timp. Un loc plătit poate fi ocupat gratuit o zi întreagă sau mai multe zile, chiar după ce locurile rezervate s-au eliberat.",
+      "article": "art. unic pct. 1, art. 65 alin. (6)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Un beneficiu mai larg crește tentația de a folosi cardul fără ca persoana cu handicap să fie în mașină. Proiectul nu adaugă controale sau sancțiuni noi.",
+      "article": "art. unic pct. 1, art. 65 alin. (6)",
+      "quote": "autovehiculele care transportă persoane cu handicap, deținători ai cardului-legitimație prevăzut la alin. (2)",
+      "weight": 1
+    },
+    {
+      "text": "„Domeniul privat al statului” poate include parcări de instituții cu acces restricționat. Nu e clar dacă și acestea trebuie deschise.",
+      "article": "art. unic pct. 1, art. 65 alin. (6)",
+      "quote": "orice loc de parcare situat pe domeniul public sau privat al statului ori al unităților administrativ-teritoriale",
+      "weight": 1
+    },
+    {
+      "text": "Finalul alin. (7) e formulat confuz. Se poate înțelege că unele locuri cu interdicție de staționare ar fi totuși permise.",
+      "article": "art. unic pct. 1, art. 65 alin. (7)",
+      "quote": "fără a permite parcarea în locuri unde oprirea sau staționarea este interzisă prin lege, altele decât cele destinate parcării",
+      "weight": 1
+    },
+    {
+      "text": "Tabelul comparativ conține greșeli de redactare („deținători al”, „parcăril”) care trebuie corectate înainte de adoptare.",
+      "article": "tabel comparativ",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Alin. (6) ar trebui rescris astfel: să se refere la locurile rezervate din aceeași parcare, să excludă locurile închiriate sau cu altă destinație specială, să prevadă o limită de timp, să precizeze că alin. (2) nu se restrânge și să stabilească compensarea din bugetul local.",
+    "removes": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 10,
+    "verified": 10
+  }
+}

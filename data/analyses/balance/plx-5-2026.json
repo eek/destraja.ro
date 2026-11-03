@@ -1,0 +1,88 @@
+{
+  "slug": "plx-5-2026",
+  "billId": "PL-x 5/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:40:50.405Z",
+  "inputHash": "0b52cb1bbf34",
+  "riskScore": 2.3,
+  "summary": "O ratificare tehnică utilă pentru bugetul național, cu notificările din art. 2 copiate ca șablon necompletat, care lasă cititorul fără liste concrete.",
+  "good": [
+    {
+      "text": "România aderă la regula care îi permite să impoziteze suplimentar plățile (dobânzi, redevențe, servicii) trimise spre state unde sunt taxate foarte puțin. Asta limitează mutarea profiturilor și ajută bugetul.",
+      "article": "art. 1",
+      "quote": "Se ratifică Convenția multilaterală pentru a facilita implementarea pilonului doi al regulii de supunere la impozitare, adoptată la Paris, la 15 septembrie 2023",
+      "weight": 3
+    },
+    {
+      "text": "Regula se aplică unui tratat abia la 30 de zile după ce ambele state confirmă că și-au încheiat procedurile interne. Firmele și administrația au timp să se pregătească.",
+      "article": "art. 2 alin. (5)",
+      "quote": "30 de zile de la data primirii de către Depozitar a ultimei dintre notificările făcute de fiecare Jurisdicție Contractantă",
+      "weight": 2
+    },
+    {
+      "text": "Se folosește o definiție comună a „fondului de pensii recunoscut” în tratatele vizate, ceea ce reduce disputele despre ce fonduri intră sub regulă.",
+      "article": "art. 2 alin. (3)",
+      "quote": "alege să includă în acordurile sale fiscale vizate definiția expresiei „fond de pensii recunoscut” din Anexa IV",
+      "weight": 1
+    },
+    {
+      "text": "România declară deschis că are un impozit calculat altfel decât pe profit. Astfel, cota sa reală poate fi luată corect în calcul de statele partenere.",
+      "article": "art. 2 alin. (2)",
+      "quote": "confirmă faptul că aplică un impozit care este calculat altfel decât pe baza venitului net",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Legea nu spune care tratate fiscale sunt afectate. A copiat instrucțiunea din formularul OCDE („dorește să listeze... indicând titlul”) în loc să dea lista efectivă.",
+      "article": "art. 2 alin. (1)",
+      "quote": "dorește să listeze acordurile sale fiscale care să fie acoperite de Convenție, indicând titlul acordului fiscal vizat, jurisdicția contractantă parteneră la acord",
+      "weight": 3
+    },
+    {
+      "text": "Impozitul notificat nu este numit. Cine citește legea nu află ce impozit românesc este declarat, pe ce temei legal și de la ce dată se aplică.",
+      "article": "art. 2 alin. (2)",
+      "quote": "indicând denumirea impozitului respectiv, referințele sale juridice și data de la care se aplică acesta",
+      "weight": 2
+    },
+    {
+      "text": "Nu sunt enumerate statele pentru care se aplică definiția fondului de pensii recunoscut. Textul lasă doar instrucțiunea de completare.",
+      "article": "art. 2 alin. (3)",
+      "quote": "indicând pentru fiecare acord fiscal vizat în parte jurisdicția contractantă parteneră la acord",
+      "weight": 1
+    },
+    {
+      "text": "Se activează „prevederea de întrerupere” din Anexa V fără nicio explicație în lege despre ce face. Efectul nu poate fi evaluat din textul votat.",
+      "article": "art. 2 alin. (4)",
+      "quote": "alege să includă Anexa V (Completări la regula de supunere la impozitare: Prevederea referitoare la întrerupere) în acordurile sale fiscale vizate",
+      "weight": 1
+    },
+    {
+      "text": "Textul analizat nu reproduce Convenția și anexele ei. Parlamentul ratifică prin trimitere, fără ca regulile concrete (cotă, praguri, plăți vizate) să apară în proiect.",
+      "article": "art. 1",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Potrivit motivării, 31 de state pot cere aplicarea regulii pe plăți către România. Firmele românești taxate cu cote mici pot suporta reținere suplimentară în străinătate.",
+      "article": "art. 2 alin. (2)",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Înlocuiți formulările-șablon din art. 2 alin. (1)-(3) cu listele efective: tratatele și partenerii vizați și denumirea, temeiul și data impozitului notificat, eventual într-o anexă la lege.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 8
+  }
+}

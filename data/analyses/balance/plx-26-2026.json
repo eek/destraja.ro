@@ -1,0 +1,88 @@
+{
+  "slug": "plx-26-2026",
+  "billId": "Pl-x 26/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:41:46.049Z",
+  "inputHash": "e1622bed90bd",
+  "riskScore": 2.7,
+  "summary": "O lege bună, cu risc mic, căreia îi lipsește regula despre cine îl alege pe reprezentantul pacienților și cum.",
+  "good": [
+    {
+      "text": "Pacienții primesc un loc, prin asociațiile lor, în consiliile de administrație ale tuturor spitalelor publice: locale, ale Ministerului Sănătății și ale altor ministere.",
+      "article": "art. unic pct. 1-3 (art. 187 alin. (2) lit. g), alin. (3) lit. f), alin. (4) lit",
+      "quote": "un reprezentant al asociațiilor și organizațiilor de pacienți, cu statut de invitat și rol consultativ",
+      "weight": 3
+    },
+    {
+      "text": "Reprezentantul are dreptul să vină la toate ședințele și să își spună părerea despre orice document, inclusiv buget și achiziții. Asta aduce mai multă transparență pentru banii publici.",
+      "article": "art. unic pct. 4 (art. 187 alin. (10¹))",
+      "quote": "Reprezentantul asociațiilor și organizațiilor de pacienți are dreptul de a participa la toate ședințele consiliului de administrație",
+      "weight": 2
+    },
+    {
+      "text": "Reprezentantul nu votează, deci majoritățile și răspunderea conducerii rămân aceleași. Modelul există deja pentru invitatul Ordinului Asistenților Medicali, deci riscul de blocaj e mic.",
+      "article": "art. unic pct. 1-3",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Legea nu spune cine alege reprezentantul dintre multele asociații de pacienți, după ce criterii, pe ce durată și cine îl poate revoca. Pot apărea dispute sau locul poate rămâne gol.",
+      "article": "art. unic pct. 1-3",
+      "quote": "un reprezentant al asociațiilor și organizațiilor de pacienți, cu statut de invitat și rol consultativ",
+      "weight": 3
+    },
+    {
+      "text": "Reprezentantul vede bugetul și achizițiile, dar textul nu cere declarație de interese. Unele asociații primesc bani de la firme de medicamente sau aparatură, deci există risc de influență.",
+      "article": "art. unic pct. 4 (art. 187 alin. (10¹))",
+      "quote": "inclusiv asupra celor care vizează activitatea principală a consiliului de administrație",
+      "weight": 2
+    },
+    {
+      "text": "Părerea pacienților e doar consultativă. Consiliul nu e obligat să o consemneze sau să răspundă la ea, așa că efectul real poate fi mic.",
+      "article": "art. unic pct. 4 (art. 187 alin. (10¹))",
+      "quote": "de a emite un punct de vedere consultativ asupra documentelor înscrise pe ordinea de zi",
+      "weight": 2
+    },
+    {
+      "text": "Reprezentantul primește acces la documente interne, inclusiv date despre achiziții, dar textul nu îi impune nicio obligație de confidențialitate.",
+      "article": "art. unic pct. 4 (art. 187 alin. (10¹))",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Dreptul de a participa nu e însoțit de obligația spitalului de a-l convoca și de a-i trimite documentele la timp. Nu există nici sancțiune dacă nu e invitat.",
+      "article": "art. unic pct. 4 (art. 187 alin. (10¹))",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "La spitalele locale, lista ar ajunge la 9 persoane trecute ca membri, peste plafonul de 5-8 din alin. (1). Trebuie precizat că invitații nu intră în acest număr.",
+      "article": "art. unic pct. 1 (art. 187 alin. (2) lit. g))",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Nu e clar dacă invitatul primește indemnizație. Costurile de organizare și comunicare pentru spitale nu sunt calculate, deși se afirmă că legea nu are impact financiar.",
+      "article": "art. unic pct. 1-4",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Adăugați o procedură de desemnare (cine organizează, criterii, mandat, revocare) și obligația de a declara interesele și de a păstra confidențialitatea, aplicabile reprezentantului.",
+    "removes": [
+      0,
+      1,
+      3
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 5,
+    "verified": 5
+  }
+}

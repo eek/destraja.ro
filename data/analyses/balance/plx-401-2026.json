@@ -1,0 +1,96 @@
+{
+  "slug": "plx-401-2026",
+  "billId": "Pl-x 401/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:01:44.286Z",
+  "inputHash": "42e2910534a8",
+  "riskScore": 2.7,
+  "summary": "O idee utilă, certificarea profesională mai devreme, scrisă însă prea vag într-un singur alineat care lasă deschise întrebări esențiale.",
+  "good": [
+    {
+      "text": "Elevii din liceele tehnologice primesc dreptul la un examen care le recunoaște oficial meseria mai devreme, ca să nu plece din școală fără nicio calificare.",
+      "article": "art. unic, art. 15 alin. (5)",
+      "quote": "în cazul învățământului liceal tehnologic, beneficiarii primari au dreptul de a participa la examenul de certificare a calificării profesionale",
+      "weight": 3
+    },
+    {
+      "text": "Cine promovează examenul primește un certificat național de calificare de nivel 2, pe care îl poate arăta la angajare și care poate ajuta la un loc de muncă legal.",
+      "article": "art. unic, art. 15 alin. (5)",
+      "quote": "În urma promovării acestui examen, absolvenții primesc certificat de calificare profesională corespunzător nivelului 2.",
+      "weight": 2
+    },
+    {
+      "text": "Măsura nu impune taxe elevilor și nici obligații directe firmelor. Folosește sistemul de certificare deja existent în școli.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Legea nu spune când se dă examenul: lipsește „finalul clasei a X-a”, care e chiar scopul legii, și nu există o durată minimă de pregătire. Teoretic ar putea participa orice elev, din orice clasă.",
+      "article": "art. unic, art. 15 alin. (5)",
+      "quote": "beneficiarii primari au dreptul de a participa la examenul de certificare a calificării profesionale",
+      "weight": 3
+    },
+    {
+      "text": "Excepția trimite la regula despre durata liceului fără să spună ce se schimbă. Poate fi citită ca o scurtare a liceului, nu doar ca o certificare intermediară.",
+      "article": "art. unic, art. 15 alin. (5)",
+      "quote": "Prin excepție de la prevederile alin. (1) lit. d), în cazul învățământului liceal tehnologic",
+      "weight": 3
+    },
+    {
+      "text": "Legea nu precizează că certificatul nu înlocuiește absolvirea liceului și nu scutește de școala obligatorie. Astfel poate fi luat drept „permis” de a părăsi școala.",
+      "article": "art. unic, art. 15 alin. (5)",
+      "quote": null,
+      "weight": 3
+    },
+    {
+      "text": "Măsurile anti-abandon promise în motivare lipsesc din lege: burse, practică plătită, legătura cu clasa a XI-a, facilități pentru angajatori și monitorizare.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Cuvântul „absolvenții” e nepotrivit pentru elevi care încă sunt în liceu: nu e clar dacă e vorba de absolvenții clasei a X-a sau ai liceului.",
+      "article": "art. unic, art. 15 alin. (5)",
+      "quote": "În urma promovării acestui examen, absolvenții primesc certificat",
+      "weight": 2
+    },
+    {
+      "text": "Legea nu cere o metodologie, standarde pentru nivelul 2 sau un termen de aplicare. Dreptul poate rămâne doar pe hârtie sau poate fi aplicat diferit de la o școală la alta.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Examenele, evaluatorii și materialele vor costa bani publici și vor aduce sarcini noi pentru școli, dar nu există nicio estimare a costurilor și nicio sursă de finanțare.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Proiectul a trecut tacit de Camera Deputaților, fără dezbatere care să corecteze lipsurile de redactare.",
+      "article": "formula de adoptare",
+      "quote": "se consideră adoptat de Camera Deputaților în forma inițială, în condițiile art. 75 alin. (2) teza a III-a din Constituția României",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Alineatul (5) trebuie rescris astfel: examenul să se dea după promovarea clasei a X-a, excepția să fie clarificată, să se precizeze că certificatul nu înlocuiește absolvirea liceului și nici școala obligatorie, iar Ministerul să emită metodologia într-un termen fix.",
+    "removes": [
+      0,
+      1,
+      2,
+      4,
+      5
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.8
+  },
+  "quotes": {
+    "checked": 6,
+    "verified": 6
+  }
+}

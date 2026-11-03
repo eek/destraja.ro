@@ -1,0 +1,99 @@
+{
+  "slug": "plx-346-2026",
+  "billId": "Pl-x 346/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:58:26.973Z",
+  "inputHash": "ac617ba54dd8",
+  "riskScore": 2,
+  "summary": "O lege bună de transparență, cu riscuri mici, din cauza câtorva formulări incomplete, nu a unei prevederi care strică tot.",
+  "good": [
+    {
+      "text": "Toți aleșii locali, inclusiv primarii și președinții de consiliu județean, trebuie să prezinte anual un raport despre ce au făcut în mandat, așa că oamenii pot verifica activitatea fiecăruia.",
+      "article": "art. I pct. 1 (art. 225 alin. (2))",
+      "quote": "Aleșii locali, în înțelesul art. 5, lit. f), sunt obligați să prezinte anual un raport de activitate.",
+      "weight": 3
+    },
+    {
+      "text": "Primarul și președintele consiliului județean trebuie să-și prezinte raportul public, într-o ședință ordinară a consiliului, nu doar să-l depună într-un sertar.",
+      "article": "art. I pct. 2 (art. 225 alin. (2¹))",
+      "quote": "Primarul și Președintele de consiliu județean sunt obligați să prezinte raportul de activitate într-o ședință ordinară a organului deliberativ.",
+      "weight": 3
+    },
+    {
+      "text": "Fixează un termen clar, 31 martie a anului următor, pentru rapoarte. Termenul face obligația previzibilă și ușor de urmărit de cetățeni.",
+      "article": "art. I pct. 3 (art. 225 alin. (3¹))",
+      "quote": "Rapoartele prevăzute la alin. (2) și alin. (3) se prezintă până la data de 31 martie a anului următor celui pentru care se face raportarea.",
+      "weight": 2
+    },
+    {
+      "text": "Publicarea raportului revine secretarului general, un funcționar, nu alesului însuși, deci nu depinde de bunăvoința celui care raportează.",
+      "article": "art. I pct. 1 (art. 225 alin. (2))",
+      "quote": "Raportul se face public prin grija secretarului general al unității/subdiviziunii administrativ-teritoriale.",
+      "weight": 2
+    },
+    {
+      "text": "Obligația se aplică și aleșilor deja în funcție, nu doar celor din mandatele viitoare.",
+      "article": "art. II",
+      "quote": "Pentru aleșii locali aflați în exercițiul mandatului la data intrării în vigoare a prezentei legi, obligația de prezentare a raportului anual de activitate se aplică",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Nu e clar ce an se raportează prima dată și când e primul termen: anul în curs, cu termen în martie viitor, sau un raport chiar în anul intrării în vigoare.",
+      "article": "art. II",
+      "quote": "obligația de prezentare a raportului anual de activitate se aplică începând cu anul calendaristic în curs la data intrării în vigoare a acesteia.",
+      "weight": 2
+    },
+    {
+      "text": "Nu spune unde și până când se publică raportul (site-ul primăriei, Monitorul Oficial Local), așa că publicarea poate fi greu de găsit sau întârziată.",
+      "article": "art. I pct. 1 (art. 225 alin. (2))",
+      "quote": "Raportul se face public prin grija secretarului general al unității/subdiviziunii administrativ-teritoriale.",
+      "weight": 2
+    },
+    {
+      "text": "Nu cere un conținut minim. Un raport de câteva rânduri ar respecta legea, iar rapoartele aleșilor nu pot fi comparate între ele.",
+      "article": "art. I pct. 1 (art. 225 alin. (2))",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Nu există nicio sancțiune pentru cine nu depune raportul sau îl depune târziu, deci obligația se poate ignora fără urmări.",
+      "article": "art. I pct. 3 (art. 225 alin. (3¹))",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Pentru consilieri și viceprimari, legea spune doar că „prezintă” raportul, dar nu spune cui sau unde. Pot apărea interpretări diferite de la o primărie la alta.",
+      "article": "art. I pct. 1 (art. 225 alin. (2))",
+      "quote": "Aleșii locali, în înțelesul art. 5, lit. f), sunt obligați să prezinte anual un raport de activitate.",
+      "weight": 1
+    },
+    {
+      "text": "Primarul va avea două rapoarte anuale cu același termen, cel personal și cel despre starea localității. Legea nu spune dacă pot fi unite, deci pot rezulta documente dublate.",
+      "article": "art. I pct. 2 și pct. 3",
+      "quote": "Rapoartele prevăzute la alin. (2) și alin. (3) se prezintă până la data de 31 martie a anului următor celui pentru care se face raportarea.",
+      "weight": 1
+    },
+    {
+      "text": "Formulare tehnică imperfectă: partea introductivă spune doar că articolul „se modifică”, deși proiectul adaugă și alineate noi.",
+      "article": "art. I partea introductivă",
+      "quote": "cu modificările și completările ulterioare, se modifică, după cum urmează:",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Art. II ar trebui să precizeze explicit primul an raportat și prima scadență, iar alin. (2) să indice canalul și termenul publicării (de exemplu pagina de internet a UAT, în 10 zile).",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 10,
+    "verified": 10
+  }
+}

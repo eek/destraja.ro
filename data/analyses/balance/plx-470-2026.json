@@ -1,0 +1,100 @@
+{
+  "slug": "plx-470-2026",
+  "billId": "PL-x 470/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:03:47.148Z",
+  "inputHash": "c1e099734ffd",
+  "riskScore": 1.3,
+  "summary": "O lege simbolică, inofensivă, cu mici scăpări de redactare la finanțare.",
+  "good": [
+    {
+      "text": "Ziua e doar de omagiu, nu e zi liberă. Angajatorii și firmele nu pierd nimic și nu au costuri noi.",
+      "article": "art. 1",
+      "quote": "Se instituie ziua de 22 ianuarie ca „Ziua Națională Ana Aslan”, în semn de recunoaștere a contribuției fundamentale a academicianului Ana Aslan",
+      "weight": 3
+    },
+    {
+      "text": "Autoritățile și instituțiile publice pot organiza evenimente, dar nu sunt obligate. Nu apar cheltuieli impuse și nici sarcini birocratice noi.",
+      "article": "art. 2 alin. (1)",
+      "quote": "autoritățile administrației publice centrale și locale, precum și instituțiile publice, pot organiza manifestări cu caracter științific, cultural și educativ",
+      "weight": 3
+    },
+    {
+      "text": "Sprijinul dat de ministere e limitat la banii deja aprobați în buget, deci legea nu cere cheltuieli în plus.",
+      "article": "art. 4",
+      "quote": "Ministerul Sănătății și Ministerul Educației și Cercetării vor putea sprijini logistic și/sau financiar, în limita bugetelor aprobate",
+      "weight": 2
+    },
+    {
+      "text": "Banii ministerelor pot merge doar spre scopuri utile: prevenție, îmbătrânire activă și o viață mai bună pentru vârstnici.",
+      "article": "art. 4",
+      "quote": "în scopul promovării medicinei profilactice, a îmbătrânirii active și a creșterii calității vieții persoanelor vârstnice",
+      "weight": 2
+    },
+    {
+      "text": "Școlile, inclusiv cele private, și institutele de cercetare pot organiza concursuri și evenimente despre cercetarea medicală, fără să fie obligate.",
+      "article": "art. 2 alin. (2)",
+      "quote": "Unitățile de învățământ de stat și private, precum și institutele de cercetare, pot organiza sesiuni de comunicări, concursuri sau evenimente de promovare a cercetării medicale românești.",
+      "weight": 1
+    },
+    {
+      "text": "Televiziunea și radioul public nu sunt obligate să difuzeze emisiuni, deci libertatea lor editorială rămâne neatinsă.",
+      "article": "art. 3",
+      "quote": "Societatea Română de Televiziune și Societatea Română de Radiodifuziune, în calitate de servicii publice, pot include în programele lor emisiuni dedicate personalității Anei Aslan",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "La primării lipsește limita „în limita bugetelor aprobate”, deși expunerea de motive spune că ea se aplică. Textul și motivarea nu se potrivesc.",
+      "article": "art. 5",
+      "quote": "Autoritățile administrației publice locale pot sprijini material sau financiar organizarea manifestărilor prevăzute la art.2, prin alocarea de fonduri din bugetele locale",
+      "weight": 2
+    },
+    {
+      "text": "Ministerele pot finanța orice eveniment dedicat zilei, inclusiv al unor organizatori privați, fără criterii de selecție și fără reguli de transparență.",
+      "article": "art. 4",
+      "quote": "vor putea sprijini logistic și/sau financiar, în limita bugetelor aprobate, evenimentele dedicate acestei zile",
+      "weight": 2
+    },
+    {
+      "text": "Primăriile pot folosi sponsorizări și donații fără garanții de transparență. Firmele care vând produse asociate numelui Ana Aslan ar putea profita de evenimente pentru reclamă.",
+      "article": "art. 5",
+      "quote": "prin alocarea de fonduri din bugetele locale sau din sponsorizări și donații",
+      "weight": 1
+    },
+    {
+      "text": "Articolul despre televiziunea și radioul public nu schimbă nimic. Ele pot difuza oricum astfel de emisiuni, deci prevederea e inutilă.",
+      "article": "art. 3",
+      "quote": "Societatea Română de Televiziune și Societatea Română de Radiodifuziune, în calitate de servicii publice, pot include în programele lor emisiuni dedicate personalității Anei Aslan",
+      "weight": 1
+    },
+    {
+      "text": "Data aleasă se bazează pe afirmații fără surse: ziua exactă a înființării institutului și titlul de „primul din lume”.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Art. 4 folosește „vor putea”, iar restul legii „pot”. Inconsecvența e minoră, dar arată o redactare neîngrijită.",
+      "article": "art. 4",
+      "quote": "Ministerul Sănătății și Ministerul Educației și Cercetării vor putea sprijini logistic și/sau financiar",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Adăugarea sintagmei „în limita bugetelor aprobate” la art. 5 și a unor reguli minime de transparență pentru finanțări și sponsorizări la art. 4 și art. 5.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 0.7
+  },
+  "quotes": {
+    "checked": 12,
+    "verified": 11
+  }
+}

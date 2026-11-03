@@ -1,0 +1,100 @@
+{
+  "slug": "plx-550-2026",
+  "billId": "PL-x 550/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:07:56.130Z",
+  "inputHash": "f3b56453cd63",
+  "riskScore": 2.3,
+  "summary": "O derogare tehnică, în mare neutră pentru buget, slăbită de regulile vagi privind carburantul și de o ultimă frază neclară.",
+  "good": [
+    {
+      "text": "Fixează prin lege un plafon total de 115 autovehicule pentru ANADSPA. Agenția nu își poate mări parcul auto peste acest număr fără o nouă lege.",
+      "article": "art. unic alin. (1)",
+      "quote": "are în dotare un număr total de 115 autovehicule, repartizat astfel:",
+      "weight": 2
+    },
+    {
+      "text": "Pentru bărci și șalupe, carburantul se dă doar în limita banilor prevăzuți în buget, deci consumul nu poate depăși bugetul aprobat.",
+      "article": "art. unic alin. (3)",
+      "quote": "cu o limită maximă litri/lună/barcă/șalupă ce se stabilește în limitele prevederilor bugetare",
+      "weight": 2
+    },
+    {
+      "text": "Ambarcațiunile sunt enumerate pe tipuri și număr, pentru controlul apelor. Astfel se știe exact ce mijloace plutitoare folosește agenția.",
+      "article": "art. unic alin. (3)",
+      "quote": "12 bărci pescărești din fibră de sticlă (motor și peridoc), 9 șalupe fluviale de control și 6 șalupe maritime de control",
+      "weight": 1
+    },
+    {
+      "text": "Toate categoriile de vehicule sunt pentru activități de teren, autospeciale sau autoutilitare. Nu apar mașini de conducere sau de protocol.",
+      "article": "art. unic alin. (1)",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Consumul lunar de carburant pentru cele 115 vehicule e lăsat în întregime unui ordin de ministru. Spre deosebire de bărci, nu se cere încadrarea în buget.",
+      "article": "art. unic alin. (2)",
+      "quote": "Limita maximă litri/lună pentru autovehiculele din dotarea ANADSPA se va stabili prin ordin al ministrului agriculturii și dezvoltării rurale.",
+      "weight": 2
+    },
+    {
+      "text": "Fraza finală poate fi citită ca privind toate ambarcațiunile, nu doar ultimele 7 vehicule. Nu spune nici cum vor fi alimentate și plătite acestea.",
+      "article": "art. unic alin. (3) ultima teză",
+      "quote": "Pentru acestea nu se stabilește și nu se alocă consum lunar de carburanți.",
+      "weight": 2
+    },
+    {
+      "text": "Cele 4 autoutilitare frigorifice apar separat de totalul de 115. Nu e clar dacă intră în cele 28 de autoutilitare sau se adaugă peste plafon.",
+      "article": "art. unic alin. (3)",
+      "quote": "ANADSPA mai utilizează un număr de 3 ambarcațiuni transport- aprovizionare, precum și 4 autoutilitare frigorifice.",
+      "weight": 2
+    },
+    {
+      "text": "Expunerea de motive justifică doar schimbarea a 4 mașini cu 4 autoutilitare. Legea fixează însă tot parcul auto și naval, fără să arate cifrele vechi.",
+      "article": "art. unic (ansamblu)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "La lit. a) nu se spune ce fel de vehicule sunt cele 78 (de ex. autoturisme). Asta lasă loc de interpretare în achiziții.",
+      "article": "art. unic alin. (1) lit. a)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Pentru bărci și șalupe nu se spune cine stabilește limita de carburant și nici cum. Se spune doar că limita trebuie să se încadreze în buget.",
+      "article": "art. unic alin. (3)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Nu există un termen până la care ministrul trebuie să emită ordinul privind carburantul.",
+      "article": "art. unic alin. (2)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Textul are greșeli de redactare: titlul spune „modificare”, deși e o derogare; apar „specific” și „PREȘEDINTEĂE”; expunerea spune ADS, iar legea ANADSPA.",
+      "article": "titlu, art. unic alin. (1) lit. a)",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Adăugați la alin. (2) „în limitele prevederilor bugetare” și reformulați ultima teză a alin. (3), ca să fie clar că privește doar cele 3 ambarcațiuni și 4 frigorifice și dacă acestea intră în plafonul de 115.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 6,
+    "verified": 6
+  }
+}

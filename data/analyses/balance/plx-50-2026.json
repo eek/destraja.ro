@@ -1,0 +1,106 @@
+{
+  "slug": "plx-50-2026",
+  "billId": "PL-x 50/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:42:50.251Z",
+  "inputHash": "65eec08a6b05",
+  "riskScore": 2,
+  "summary": "O lege necesară, care închide o datorie veche către SUA, slăbită de un cost final fără plafon și de legarea plății strict de bugetul pe 2026.",
+  "good": [
+    {
+      "text": "Statul plătește în sfârșit o datorie restantă din 1998. Plata oprește penalitățile care cresc zilnic și pun în pericol relația financiară cu SUA.",
+      "article": "art. 1",
+      "quote": "Datoria publică aferentă împrumutului acordat de Guvernul SUA, prin Departamentul Agriculturii și Commodity Credit Corporation (CCC), în baza programului CCC - Legea publică nr.480/1992, pentru cumpărarea de bumbac fibră din SUA",
+      "weight": 3
+    },
+    {
+      "text": "Achitarea datoriei permite României să plătească eșalonat, nu integral în avans, achizițiile multianuale de tehnică militară din SUA, ceea ce ușurează bugetul.",
+      "article": "art. 1 (efect descris în expunerea de motive)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Suma e defalcată exact pe capital, dobânzi și penalități, la o dată fixă. Calculul se verifică aritmetic, deci plata poate fi controlată ușor.",
+      "article": "art. 1",
+      "quote": "în cuantum de 6.793.115,54 USD înregistrată la data de 30.06.2025, reprezentând rate de capital 4.890.152,09 USD, dobânzi 821.066,45 USD și penalități de întârziere 1.081.897,00 USD",
+      "weight": 2
+    },
+    {
+      "text": "Banii se plătesc dintr-o poziție separată în buget. Astfel se vede clar cât costă această datorie și nu se amestecă cu alte cheltuieli.",
+      "article": "art. 1",
+      "quote": "în bugetul Ministerului Economiei, Digitalizării, Antreprenoriatului și Turismului în anul 2026, de la o poziție bugetară distinctă",
+      "weight": 2
+    },
+    {
+      "text": "Sunt acoperite și costurile transferului bancar, deci plata poate fi făcută integral, fără să rămână resturi neachitate care să genereze noi penalități.",
+      "article": "art. 2",
+      "quote": "comunicată de Departamentul Agriculturii al SUA, precum și alte costuri asociate de transfer bancar",
+      "weight": 1
+    },
+    {
+      "text": "Legea nu creează taxe, obligații sau sancțiuni pentru cetățeni ori firme. Efectul se limitează la bugetul public.",
+      "article": "art. 1–2",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Penalitățile suplimentare nu au plafon și se calculează după o rată stabilită doar de partea americană. Costul final pentru buget rămâne deschis.",
+      "article": "art. 2",
+      "quote": "includ penalitățile de întârziere datorate până la data plății effective, în raport de dobânda zilnică de întârziere comunicată de Departamentul Agriculturii al SUA",
+      "weight": 3
+    },
+    {
+      "text": "Plata e legată strict de bugetul pe anul 2026. Dacă legea intră în vigoare sau plata se face în 2027, temeiul legal al plății devine neclar.",
+      "article": "art. 1",
+      "quote": "se rambursează din fondurile aprobate în condițiile legii cu această destinație în bugetul Ministerului Economiei, Digitalizării, Antreprenoriatului și Turismului în anul 2026",
+      "weight": 2
+    },
+    {
+      "text": "Nu există un termen limită pentru plată. Orice amânare face penalitățile să crească, iar istoria acestei datorii arată că amânările sunt frecvente.",
+      "article": "art. 1–2",
+      "quote": "Fondurile prevăzute în bugetul Ministerului Economiei, Digitalizării, Antreprenoriatului și Turismului includ penalitățile de întârziere datorate până la data plății effective",
+      "weight": 2
+    },
+    {
+      "text": "Pentru perioada de după 30.06.2025 sunt acoperite doar penalitățile și costurile bancare. Dobânzile facturate separat ar putea rămâne fără temei de plată.",
+      "article": "art. 2",
+      "quote": "precum și alte costuri asociate de transfer bancar",
+      "weight": 2
+    },
+    {
+      "text": "Legea nu separă penalitățile noi de cele deja incluse la 30.06.2025 și nu arată pe ce clauză din contract se bazează calculul. Asta îngreunează verificarea.",
+      "article": "art. 1–2",
+      "quote": "reprezentând rate de capital 4.890.152,09 USD, dobânzi 821.066,45 USD și penalități de întârziere 1.081.897,00 USD",
+      "weight": 1
+    },
+    {
+      "text": "Textul calculează penalitățile după o „dobândă de întârziere”, amestecând noțiunile de dobândă și penalitate. Formularea poate fi interpretată în mai multe feluri.",
+      "article": "art. 2",
+      "quote": "în raport de dobânda zilnică de întârziere comunicată de Departamentul Agriculturii al SUA",
+      "weight": 1
+    },
+    {
+      "text": "Legea nu cere ministerului să raporteze public suma totală plătită efectiv. Lipsa raportării e cu atât mai problematică cu cât costul final e variabil.",
+      "article": "art. 1–2",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Înlocuiți „în anul 2026” cu o formulare care permite plata și din bugetul anului următor, și prevedeți un termen de plată și un plafon maxim pentru penalitățile suplimentare.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 10,
+    "verified": 10
+  }
+}

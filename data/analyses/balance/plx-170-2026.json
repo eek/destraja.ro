@@ -1,0 +1,82 @@
+{
+  "slug": "plx-170-2026",
+  "billId": "Pl-x 170/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:48:05.078Z",
+  "inputHash": "dba86382f73f",
+  "riskScore": 2,
+  "summary": "O lege mică și în mare parte inofensivă, care fixează în lege durata studiilor de arhitectură, cu o formulare puțin ambiguă și o greșeală de redactare.",
+  "good": [
+    {
+      "text": "Scrie clar în lege că diploma de arhitect se dă pentru programul Arhitectură de 6 ani și 360 de credite. Absolvenții și angajatorii știu exact ce atestă diploma.",
+      "article": "art. unic (art. 46 alin. (1))",
+      "quote": "diploma de arhitect pentru programul de studii Arhitectură cu o durată de 6 ani de studii și 360 credite",
+      "weight": 2
+    },
+    {
+      "text": "Durata de 6 ani depășește minimul cerut de UE, deci diploma rămâne recunoscută automat în celelalte state membre. Arhitecții români pot lucra în străinătate.",
+      "article": "art. unic (art. 46 alin. (1))",
+      "quote": "cu o durată de 6 ani de studii și 360 credite de studii transferabile ECTS/SECT",
+      "weight": 2
+    },
+    {
+      "text": "Se aplică doar programului Arhitectură. Nu lungește programe mai scurte din același domeniu, precum Arhitectură de interior sau Peisagistică, deși Expunerea de motive vorbește mai larg.",
+      "article": "art. unic (art. 46 alin. (1))",
+      "quote": "respectiv diploma de arhitect pentru programul de studii Arhitectură",
+      "weight": 1
+    },
+    {
+      "text": "Nu creează instituții, taxe, avize sau proceduri noi și nu afectează alte profesii reglementate. Costul pentru buget este practic zero.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Durata de 6 ani apare doar ca o condiție pentru a primi diploma de arhitect. Nu e clar dacă un program de 5 ani ar fi interzis sau doar nu ar mai da această diplomă.",
+      "article": "art. unic (art. 46 alin. (1))",
+      "quote": "respectiv diploma de arhitect pentru programul de studii Arhitectură cu o durată de 6 ani de studii și 360 credite de studii transferabile ECTS/SECT",
+      "weight": 2
+    },
+    {
+      "text": "Legea fixează exact 6 ani, deși UE permite și alte variante, de exemplu 5 ani sau 4 ani plus 2 ani de stagiu. Universitățile pierd flexibilitatea, iar orice schimbare va cere o nouă lege.",
+      "article": "art. unic (art. 46 alin. (1))",
+      "quote": "pentru programul de studii Arhitectură cu o durată de 6 ani de studii",
+      "weight": 1
+    },
+    {
+      "text": "Proiectul nu spune ce se întâmplă cu studenții deja înscriși sau cu programele care ar avea acum altă durată. Lipsesc regulile de trecere.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Justificarea citează o formă veche a directivei UE și sugerează că cei 6 ani sunt impuși de UE. Nu sunt: directiva actuală cere minimum 5 ani.",
+      "article": "Expunerea de motive",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Greșeală de redactare în partea introductivă: scrie „La articolului 46” în loc de „La articolul 46”.",
+      "article": "art. unic, partea introductivă",
+      "quote": "La articolului 46 din Legea învățământului superior nr. 199/2023, publicată în Monitorul Oficial al României",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Textul ar trebui să spună explicit că programul Arhitectură se organizează pe 6 ani și 360 de credite, să adauge reguli de trecere pentru cei deja înscriși și să corecteze „La articolului” în „La articolul”.",
+    "removes": [
+      0,
+      2,
+      4
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 7,
+    "verified": 6
+  }
+}

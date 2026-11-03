@@ -1,0 +1,101 @@
+{
+  "slug": "plx-190-2026",
+  "billId": "Pl-x 190/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:49:43.500Z",
+  "inputHash": "5cbca580b639",
+  "riskScore": 2,
+  "summary": "O lege scurtă și în esență bună, care readuce corectarea soluțiilor procurorilor pe trepte ierarhice, cu câteva scăpări de redactare ușor de reparat.",
+  "good": [
+    {
+      "text": "Procurorul General nu mai poate anula direct soluțiile oricărui procuror din țară. Corectarea trece prin șefii intermediari, deci rămâne o urmă scrisă și cineva răspunde la fiecare nivel.",
+      "article": "art. unic, art. 68 alin. (3)",
+      "quote": "Măsurile și soluțiile adoptate de procuror pot fi infirmate în scris și motivat de către procurorul ierarhic superior, atunci când acesta constată că sunt nelegale sau netemeinice.",
+      "weight": 3
+    },
+    {
+      "text": "Nici șefii DNA și DIICOT nu mai pot sări peste șefii de secții sau servicii pentru a anula direct soluții. Scade riscul ca o singură persoană numită politic să influențeze dosare.",
+      "article": "art. unic, art. 68 alin. (4)",
+      "quote": "pot fi infirmate în seris și motivat numai de către procurorul ierarhic superior, atunci când acesta constată că sunt nelegale sau netemeinice",
+      "weight": 3
+    },
+    {
+      "text": "Controlul nu dispare: soluțiile greșite pot fi în continuare anulate, dar numai în scris, cu motivare și doar dacă sunt nelegale sau netemeinice. Procurorul de caz nu devine incontrolabil.",
+      "article": "art. unic, art. 68 alin. (3) și (4)",
+      "quote": "pot fi infirmate în scris și motivat de către procurorul ierarhic superior",
+      "weight": 2
+    },
+    {
+      "text": "Cuvântul „numai” arată clar că soluțiile DNA și DIICOT pot fi anulate doar din interiorul acestor structuri, ceea ce le protejează de intervenții din afară.",
+      "article": "art. unic, art. 68 alin. (4)",
+      "quote": "motivat numai de către procurorul ierarhic superior, atunci când acesta constată că sunt nelegale",
+      "weight": 2
+    },
+    {
+      "text": "Proiectul nu creează taxe, amenzi sau obligații pentru cetățeni și firme și nu cere bani noi de la buget.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Legea nu spune că e vorba de șeful direct. Expresia „procurorul ierarhic superior” poate fi citită ca orice șef mai mare, inclusiv Procurorul General, și ocolirea treptelor ar putea continua.",
+      "article": "art. unic, art. 68 alin. (3) și (4)",
+      "quote": "de către procurorul ierarhic superior, atunci când acesta constată că sunt nelegale sau netemeinice",
+      "weight": 2
+    },
+    {
+      "text": "Alin. (4) spune „numai”, iar alin. (3) nu. Diferența poate fi interpretată ca și cum, pentru parchetele obișnuite, și alte persoane decât șeful ierarhic ar putea anula soluții.",
+      "article": "art. unic, art. 68 alin. (3) și (4)",
+      "quote": "pot fi infirmate în seris și motivat numai de către procurorul ierarhic superior",
+      "weight": 2
+    },
+    {
+      "text": "Art. 69 alin. (3), care permite conducerii să controleze direct procurorii subordonați, rămâne neschimbat. Nu e clar dacă acest control poate fi folosit ca să ocolească noua regulă.",
+      "article": "art. unic (raportul cu art. 69 alin. (3) nemodificat din Legea 304/2022)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Textul are greșeli de scriere („Infrațiuunilor”, „seris”) într-o normă care stabilește competențe. Ele trebuie corectate înainte de adoptare.",
+      "article": "art. unic, art. 68 alin. (4)",
+      "quote": "Direcției de Investigare a Infrațiuunilor de Criminalitate Organizată și Terorism pot fi infirmate în seris și motivat",
+      "weight": 1
+    },
+    {
+      "text": "Corectarea pe trepte poate fi mai lentă. În dosare urgente sau aproape de prescriere, o soluție greșită poate rămâne mai mult timp neanulată.",
+      "article": "art. unic, art. 68 alin. (3) și (4)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Proiectul nu spune ce se întâmplă cu infirmările directe deja începute sau cu dosarele în curs la intrarea în vigoare, ceea ce poate duce la practici diferite.",
+      "article": "art. unic (lipsă dispoziții tranzitorii)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Nu s-a estimat cât de mult crește volumul de muncă pentru șefii intermediari din parchete.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Precizați „procurorul ierarhic superior direct” în ambele alineate, folosiți aceeași formulare (cu sau fără „numai”), clarificați legătura cu art. 69 alin. (3) și corectați greșelile de scriere.",
+    "removes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 7,
+    "verified": 7
+  }
+}

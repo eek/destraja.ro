@@ -1,0 +1,107 @@
+{
+  "slug": "plx-479-2026",
+  "billId": "Pl-x 479/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:04:16.796Z",
+  "inputHash": "a4a80d60d61c",
+  "riskScore": 2.3,
+  "summary": "O lege bună și utilă, dar formulată prea îngust, care poate lăsa pe dinafară tocmai cazul pe care spune că îl rezolvă.",
+  "good": [
+    {
+      "text": "Elevii admiși condiționat sau înscriși la admitere la o universitate din străinătate primesc prin lege acces la sesiunea specială de bacalaureat, nu doar prin bunăvoința ministerului.",
+      "article": "art. I (art. 103 alin. (6) lit. a))",
+      "quote": "face dovada că a fost admis condiționat sau că participă la un concurs de admitere la o instituție de învățământ superior acreditată dintr-un stat membru al Uniunii Europene sau dintr-un stat terț",
+      "weight": 3
+    },
+    {
+      "text": "Faptul că situațiile sunt numite în lege drept „cazuri temeinic justificate” face mult mai greu de apărat un refuz al ministerului, inclusiv în instanță. Asta reduce procesele.",
+      "article": "art. I (art. 103 alin. (6) teza a II-a)",
+      "quote": "Constituie cazuri temeinic justificate, în sensul prezentului alineat, următoarele situații:",
+      "weight": 2
+    },
+    {
+      "text": "Olimpicii și participanții la competiții internaționale sportive sau artistice primesc protecție în lege, nu doar într-un ordin de ministru care poate fi schimbat oricând.",
+      "article": "art. I (art. 103 alin. (6) lit. b))",
+      "quote": "elevii din clasa a XII-a/a XIII-a participanți la loturile olimpice și la competițiile sportive și artistice internaționale care se desfășoară în perioada sesiunii normale de bacalaureat",
+      "weight": 2
+    },
+    {
+      "text": "Ministerul are un termen clar de 30 de zile pentru a adapta metodologia, deci legea nu rămâne fără aplicare din lipsă de reguli.",
+      "article": "art. II",
+      "quote": "În termen de 30 de zile de la data intrării în vigoare a prezentei legi, Ministerul Educației și Cercetării va modifica metodologia",
+      "weight": 2
+    },
+    {
+      "text": "Universitatea trebuie să fie acreditată, ceea ce limitează abuzurile. Sunt acoperite deopotrivă statele UE și cele din afara UE, deci nimeni nu e discriminat după țara aleasă.",
+      "article": "art. I (art. 103 alin. (6) lit. a))",
+      "quote": "acreditată dintr-un stat membru al Uniunii Europene sau dintr-un stat terț, iar termenul impus de instituție",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Sesiunea specială rămâne opțională („se poate organiza”), cu aprobare prin ordin de ministru. Ministerul poate deci să nu o organizeze, iar dreptul promis nu e garantat.",
+      "article": "art. I (art. 103 alin. (6) teza I)",
+      "quote": "în cazuri temeinic justificate, se poate organiza și o sesiune de bacalaureat specială, aprobată prin ordin al ministrului educației",
+      "weight": 3
+    },
+    {
+      "text": "Elevul al cărui examen de admitere cade în zilele bacalaureatului, dar are termen de dosar mai târziu, nu se califică. Expunerea de motive prezintă exact această suprapunere drept problemă principală.",
+      "article": "art. I (art. 103 alin. (6) lit. a))",
+      "quote": "iar termenul impus de instituție pentru prezentarea diplomei de bacalaureat este anterior",
+      "weight": 3
+    },
+    {
+      "text": "„Data de eliberare” a diplomei e neclară: după rezultate se dă întâi o adeverință, iar diploma vine mai târziu. Criteriul poate fi citit foarte larg sau foarte îngust.",
+      "article": "art. I (art. 103 alin. (6) lit. a))",
+      "quote": "este anterior datei de eliberare a acesteia în sesiunea normală",
+      "weight": 2
+    },
+    {
+      "text": "Lista devine închisă: orice altă situație gravă, de exemplu o spitalizare, ar cere o nouă lege, în loc de o simplă modificare a metodologiei.",
+      "article": "art. I (art. 103 alin. (6) teza a II-a și lit. c))",
+      "quote": "Constituie cazuri temeinic justificate, în sensul prezentului alineat, următoarele situații:",
+      "weight": 2
+    },
+    {
+      "text": "Legea nu spune când are loc sesiunea specială. Dacă e organizată prea târziu, elevul tot ratează termenul universității.",
+      "article": "art. I (art. 103 alin. (6))",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Nu se spune ce documente dovedesc admiterea și acreditarea universității, nici până când trebuie rezolvată cererea. Asta lasă loc de refuzuri arbitrare sau aplicare neunitară.",
+      "article": "art. I (art. 103 alin. (6) lit. a))",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Lit. a) vorbește de „absolvent”, iar lit. b) de „elevi”, deși cererea se face de regulă înainte de încheierea anului. Poate apărea confuzie despre cine e eligibil și când.",
+      "article": "art. I (art. 103 alin. (6) lit. a))",
+      "quote": "absolventul clasei a XII-a/a XIII-a face dovada că a fost admis condiționat",
+      "weight": 1
+    },
+    {
+      "text": "Art. II leagă modificarea de metodologia „în vigoare la data adoptării” și numește alt minister decât alin. (6). Formulări imprecise, care pot crea confuzie tehnică.",
+      "article": "art. II",
+      "quote": "va modifica metodologia de organizare și desfășurare a examenului de bacalaureat, în vigoare la data adoptării prezentei legi",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "La alin. (6), „se poate organiza” trebuie înlocuit cu „se organizează”, iar „stabilite prin lege” cu „stabilite prin metodologie”. Lit. a) trebuie să acopere și suprapunerea zilelor de examen și să clarifice că e vorba de diplomă sau adeverință.",
+    "removes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 11,
+    "verified": 11
+  }
+}

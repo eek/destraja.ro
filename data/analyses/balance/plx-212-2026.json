@@ -1,0 +1,105 @@
+{
+  "slug": "plx-212-2026",
+  "billId": "PL-x 212/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:51:40.030Z",
+  "inputHash": "5a28441ebacd",
+  "riskScore": 2,
+  "summary": "O lege standard și în mare parte corectă de aprobare a unui împrumut BEI, fără prevederi care să strice tot, dar cu câteva goluri de transparență privind costul și modificările ulterioare.",
+  "good": [
+    {
+      "text": "Aprobă un împrumut cu valoare plafonată la 500 mil. euro de la BEI, legat de autostrada Sibiu–Pitești, parte din rețeaua europeană TEN-T și prima care trece Carpații.",
+      "article": "art. 1",
+      "quote": "semnat la București la 15 ianuarie 2026 și la Luxemburg la 19 ianuarie 2026, în valoare de 500 de milioane de euro, denumit în continuare Contract de finanțare",
+      "weight": 3
+    },
+    {
+      "text": "Banii pentru proiect se cheltuie doar prin bugetul anual votat de Parlament, deci cheltuielile rămân sub control parlamentar și vizibile în legea bugetului.",
+      "article": "art. 3",
+      "quote": "se cuprind în bugetul Ministerului Transporturilor și Infrastructurii, în limita sumelor aprobate anual cu această destinație prin legile bugetare anuale.",
+      "weight": 2
+    },
+    {
+      "text": "Guvernul poate modifica singur contractul doar dacă nu crește obligațiile financiare ale României față de BEI. Limita protejează bugetul de datorii noi fără vot.",
+      "article": "art. 6 alin. (1)",
+      "quote": "să convină cu Banca Europeană de Investiții amendamente la conținutul Contractului de finanțare care nu sunt de natură să majoreze obligațiile financiare asumate de România față de Banca Europeană de Investiții.",
+      "weight": 2
+    },
+    {
+      "text": "Stabilește clar cine răspunde: Ministerul Transporturilor are toată responsabilitatea, CNAIR implementează, iar un acord scris fixează drepturile și obligațiile fiecăruia.",
+      "article": "art. 2 alin. (1)-(3)",
+      "quote": "Ministerul Transporturilor și Infrastructurii asigură implementarea Proiectului prin Compania Națională de Administrare a Infrastructurii Rutiere - S.A., în calitate de agenție de implementare.",
+      "weight": 2
+    },
+    {
+      "text": "Rambursarea, dobânzile și comisioanele se plătesc prin mecanismul obișnuit al datoriei publice, fără scheme speciale sau garanții ascunse.",
+      "article": "art. 5",
+      "quote": "Plata serviciului datoriei publice aferent împrumutului, respectiv rambursarea capitalului, plata dobânzilor, comisioanelor și a altor costuri aferente împrumutului se asigură, conform legislației în vigoare privind datoria publică",
+      "weight": 1
+    },
+    {
+      "text": "Împrumutul acoperă cel mult jumătate din costul proiectului și poate avea scadențe lungi, de până la 27 de ani, ceea ce împarte povara rambursării în timp.",
+      "article": "expunerea de motive, secț. 2.3",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Dobânda, scadența și modul de rambursare se decid de Guvern la fiecare tragere, deci Parlamentul aprobă o datorie al cărei cost total nu îl cunoaște.",
+      "article": "expunerea de motive, secț. 2.3",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Modificările contractului se aprobă doar prin hotărâre de Guvern, fără informarea Parlamentului; „obligații financiare” e vag și nu spune cine verifică respectarea limitei.",
+      "article": "art. 6 alin. (2)",
+      "quote": "Amendamentele convenite potrivit alin. (1) se aprobă prin hotărâre a Guvernului.",
+      "weight": 2
+    },
+    {
+      "text": "Împrumutul nu garantează bani pentru șantier: dacă bugetul anual e tăiat, lucrările întârzie și o parte din împrumut poate rămâne netrasă la expirarea celor 36 de luni.",
+      "article": "art. 3; expunerea de motive, secț. 2.3",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Banii trași nu merg direct la autostradă, ci în contul Finanțelor, pentru deficit și refinanțarea datoriei. Eticheta „împrumut pentru A1” arată justificarea, nu destinația banilor.",
+      "article": "art. 4",
+      "quote": "se utilizează pe măsura necesităților de finanțare a deficitului bugetului de stat și de refinanțare a datoriei publice guvernamentale",
+      "weight": 1
+    },
+    {
+      "text": "Legea nu cere nicio raportare publică sau către Parlament despre sumele trase, costul fiecărei tranșe și stadiul lucrărilor.",
+      "article": "întregul proiect",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Camera Deputaților nu a dezbătut proiectul: a fost adoptat tacit, prin depășirea termenului, iar dezbaterea reală rămâne doar la Senat.",
+      "article": "formula de adoptare",
+      "quote": "Acest proiect de lege se consideră adoptat de Camera Deputaților în forma inițială, în condițiile art. 75 alin. (2) teza a III-a din Constituția României, republicată.",
+      "weight": 1
+    },
+    {
+      "text": "Textul are greșeli de redactare („Autostrada Al” în loc de A1, „Transporturifor”, „Prorectului”), care arată neglijență, deși nu schimbă sensul.",
+      "article": "art. 1; art. 2 alin. (3)",
+      "quote": "Se aprobă Contractul de finanțare - Autostrada Al Cofinanțare aferentă fondurilor de coeziune ale UE B",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Art. 6 ar trebui să prevadă informarea Parlamentului și publicarea motivării pentru fiecare amendament, iar legea să ceară un raport anual public privind tragerile, costul tranșelor și stadiul lucrărilor.",
+    "removes": [
+      1,
+      4
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 12,
+    "verified": 9
+  }
+}

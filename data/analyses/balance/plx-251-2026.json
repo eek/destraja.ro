@@ -1,0 +1,81 @@
+{
+  "slug": "plx-251-2026",
+  "billId": "Pl-x 251/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:54:23.886Z",
+  "inputHash": "10f3d3ad816d",
+  "riskScore": 2.7,
+  "summary": "Un scop educativ legitim, stricat de o redactare stângace a unei singure fraze care încurcă denumirea disciplinei și calendarul ei.",
+  "good": [
+    {
+      "text": "Adaugă în programa de istorie a comunismului un modul obligatoriu despre Mineriada din iunie 1990. Elevii vor afla despre o represiune violentă petrecută după 1989.",
+      "article": "art. unic (art. 88 alin. (3))",
+      "quote": "Istoria comunismului din România, care conține și modulul obligatoriu despre Mineriada din iunie 1990",
+      "weight": 2
+    },
+    {
+      "text": "Confirmă că istoria Holocaustului și istoria comunismului rămân discipline obligatorii pentru toți liceenii, în trunchiul comun.",
+      "article": "art. unic (art. 88 alin. (3))",
+      "quote": "(3) Planurile-cadru ale învățământului liceal includ \"Istoria evreilor. Holocaustul\" și",
+      "weight": 1
+    },
+    {
+      "text": "Modulul nou începe abia în 2027-2028. Ministerul are timp să pregătească programa, materialele și profesorii.",
+      "article": "art. unic (art. 88 alin. (3))",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Nu impune taxe, autorizații, raportări sau sancțiuni pentru cetățeni ori firme. Nu rezervă manualele unui anumit furnizor.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Ghilimelele se închid după descrierea modulului. Legal, numele disciplinei devine o frază lungă, care ar trebui trecută ca atare în cataloage, foi matricole și planuri-cadru.",
+      "article": "art. unic (art. 88 alin. (3))",
+      "quote": "modulul obligatoriu despre Mineriada din iunie 1990 ca parte a tranziției democratice post-comuniste\", ca discipline școlare",
+      "weight": 3
+    },
+    {
+      "text": "Alineatul e rescris în întregime, cu un singur an de start pentru ambele discipline. Pare să le amâne până în 2027-2028, deși ele se predau deja și au termene proprii în dispozițiile tranzitorii.",
+      "article": "art. unic (art. 88 alin. (3))",
+      "quote": "ca discipline școlare, parte a trunchiului comun, începând cu anul școlar 2027-2028",
+      "weight": 3
+    },
+    {
+      "text": "Conținutul pe module ține de programa școlară, aprobată de ministru împreună cu instituțiile de specialitate (art. 88 alin. (2) și (6)), nu de lege. Legea devine rigidă la orice actualizare.",
+      "article": "art. unic (art. 88 alin. (3))",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Nu prevede ore în plus și nici o estimare a costurilor pentru programă, materiale și formarea profesorilor. Modulul intră în timpul deja alocat, iar impactul bugetar nu e evaluat.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Are greșeli de redactare: „nru.” în loc de „nr.” și ghilimele deschise „ și închise \" fără pereche. Sunt mărunte, dar arată o tehnică legislativă neglijentă.",
+      "article": "art. unic (partea introductivă)",
+      "quote": "publicată în Monitorul Oficial al României, Partea I, nru. 613 din data de 5 iulie 2023",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Păstrați alin. (3) nemodificat. Adăugați un alineat nou care să spună doar că programa disciplinei „Istoria comunismului din România” include, din 2027-2028, un modul despre Mineriada din iunie 1990.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 5,
+    "verified": 5
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "plx-385-2026",
+  "billId": "PL-x 385/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:00:40.157Z",
+  "inputHash": "46468610494a",
+  "riskScore": 2.3,
+  "summary": "O lege utilă și cu risc mic, dar incompletă: dă o opțiune nouă fermierilor fără să spună cum se face concret transformarea în cooperativă.",
+  "good": [
+    {
+      "text": "Societățile agricole pot deveni cooperative agricole, nu doar firme obișnuite (SRL, SA). Fermierii asociați primesc o formă de organizare apropiată de cea pe care o au deja.",
+      "article": "art. unic (art. 4¹ alin. (1))",
+      "quote": "sau în cooperative agricole cu respectarea Legii cooperației agricole nr.566/2004, cu modificările și completările ulterioare",
+      "weight": 3
+    },
+    {
+      "text": "Transformarea e o posibilitate, nu o obligație. Nicio societate agricolă nu e forțată să se schimbe, iar varianta de a deveni SRL sau SA rămâne valabilă.",
+      "article": "art. unic (art. 4¹ alin. (1))",
+      "quote": "Societățile agricole se pot transforma, în condițiile prezentei legi, în societăți cu respectarea dispozițiilor Legii nr.31/1990",
+      "weight": 2
+    },
+    {
+      "text": "Cooperativa rezultată trebuie să respecte legea cooperației (de exemplu numărul minim de membri). Transformarea nu poate fi folosită ca scurtătură peste aceste reguli.",
+      "article": "art. unic (art. 4¹ alin. (1))",
+      "quote": "în cooperative agricole cu respectarea Legii cooperației agricole nr.566/2004",
+      "weight": 2
+    },
+    {
+      "text": "Trecerea se face prin transformare, nu prin desființare și reînființare, deci ar putea păstra activitatea și istoricul. Textul nu garantează însă explicit contractele și terenurile.",
+      "article": "art. unic (art. 4¹ alin. (1))",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Nu introduce taxe, amenzi sau cheltuieli noi de la buget.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Trimite la „condițiile prezentei legi”, dar restul legii descrie doar transformarea în SRL sau SA. Pentru cooperative nu e clar ce procedură se aplică, așa că pot apărea interpretări diferite.",
+      "article": "art. unic (art. 4¹ alin. (1))",
+      "quote": "Societățile agricole se pot transforma, în condițiile prezentei legi",
+      "weight": 3
+    },
+    {
+      "text": "Nu spune câți asociați trebuie să fie de acord, ce se întâmplă cu cei care se opun, cum ies și cum li se evaluează și plătește partea. Minoritarii pot fi dezavantajați.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 3
+    },
+    {
+      "text": "Nu clarifică soarta terenurilor aduse de asociați în folosință și a contractelor de arendă la trecerea în cooperativă. Proprietarii de teren pot rămâne în incertitudine.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Nu spune cine verifică, la înregistrare, că societatea care se transformă respectă regulile cooperativei (aderare liberă, vot egal). Se pot crea cooperative doar formal, pentru facilități și fonduri.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Expunerea de motive invocă facilități fiscale și fonduri europene, dar nu are studiu de impact și nicio cifră despre câte societăți ar fi interesate sau ce costă.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Completarea articolului cu reguli clare pentru transformarea în cooperativă: majoritatea de vot, drepturile asociaților care se opun, evaluarea părților, soarta terenurilor și autoritatea care verifică înregistrarea.",
+    "removes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 4,
+    "verified": 4
+  }
+}

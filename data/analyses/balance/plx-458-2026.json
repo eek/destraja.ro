@@ -1,0 +1,101 @@
+{
+  "slug": "plx-458-2026",
+  "billId": "Pl-x 458/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:03:09.966Z",
+  "inputHash": "c3abb26bafe3",
+  "riskScore": 2.3,
+  "summary": "O lege bună și necesară, cu un singur articol redactat prea vag, care trebuie precizat, nu eliminat.",
+  "good": [
+    {
+      "text": "Spune clar că oamenii care lucrează în instanțe și parchete, deci și judecătorii și procurorii, pot fi avertizori protejați. Închide astfel interpretarea care îi excludea.",
+      "article": "art. unic pct. 1 (art. 2 alin. (1) lit. b¹))",
+      "quote": "persoanele care își exercită funcția în cadrul instanțelor de judecată și parchetelor",
+      "weight": 3
+    },
+    {
+      "text": "Magistrații care semnalează corupție sau presiuni nelegale din sistem primesc protecțiile din legea de bază: interdicția represaliilor, exonerarea de răspundere și inversarea sarcinii probei.",
+      "article": "art. unic pct. 1 (art. 2 alin. (1) lit. b¹))",
+      "quote": "persoanele care își exercită funcția în cadrul instanțelor de judecată și parchetelor",
+      "weight": 3
+    },
+    {
+      "text": "Textul nu se limitează la magistrați. Acoperă tot personalul instanțelor și parchetelor, deci și grefierii și angajații administrativi, care văd adesea neregulile primii.",
+      "article": "art. unic pct. 1 (art. 2 alin. (1) lit. b¹))",
+      "quote": "persoanele care își exercită funcția în cadrul instanțelor de judecată și parchetelor",
+      "weight": 1
+    },
+    {
+      "text": "Proiectul doar adaugă o literă la o listă. Nu atinge excepțiile din legea de bază, cum sunt secretul deliberării și informațiile clasificate, deci nu deschide dosarele publicării libere.",
+      "article": "art. unic pct. 1",
+      "quote": "Alineatul (1) se completează cu o nouă literă, b¹), cu următorul cuprins:",
+      "weight": 2
+    },
+    {
+      "text": "Apropie România de standardele europene: directiva UE privind avertizorii acoperă și sectorul public, iar GRECO cere protecția avertizorilor din justiție.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Nu introduce taxe, autorizații sau sancțiuni noi și nu impune formalități cetățenilor ori firmelor.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Nu e corelat cu legile magistraților (303/2022, 305/2022). Rămâne neclar dacă protecția acoperă evaluările, transferurile și acțiunile disciplinare ale CSM și Inspecției Judiciare, principalele căi de represalii.",
+      "article": "art. unic pct. 1 (art. 2 alin. (1) lit. b¹))",
+      "quote": null,
+      "weight": 3
+    },
+    {
+      "text": "Formularea „persoanele care își exercită funcția” nu numește direct judecătorii și procurorii. Îndoiala pe care proiectul vrea s-o elimine poate rămâne.",
+      "article": "art. unic pct. 1 (art. 2 alin. (1) lit. b¹))",
+      "quote": "persoanele care își exercită funcția în cadrul instanțelor de judecată și parchetelor",
+      "weight": 2
+    },
+    {
+      "text": "Lasă pe dinafară CSM, Inspecția Judiciară, INM și SNG, magistrații detașați la Ministerul Justiției și auditorii de justiție. Și aceștia pot afla de nereguli grave în sistem.",
+      "article": "art. unic pct. 1 (art. 2 alin. (1) lit. b¹))",
+      "quote": "persoanele care își exercită funcția în cadrul instanțelor de judecată și parchetelor",
+      "weight": 2
+    },
+    {
+      "text": "Nu spune cum se împacă dreptul de a raporta cu obligația de rezervă a magistraților și nici prin ce canale și la ce autoritate raportează aceștia.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Folosește „instanțe de judecată”, deși Constituția și legile de organizare judiciară spun „instanțe judecătorești”. E o imprecizie de termeni care poate stârni discuții.",
+      "article": "art. unic pct. 1 (art. 2 alin. (1) lit. b¹))",
+      "quote": "persoanele care își exercită funcția în cadrul instanțelor de judecată și parchetelor",
+      "weight": 1
+    },
+    {
+      "text": "Nu estimează costurile de informare și de adaptare a procedurilor în instanțe și parchete, chiar dacă acestea par mici.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Lit. b¹) ar trebui reformulată astfel încât să numească expres judecătorii, procurorii, auditorii de justiție, grefierii și restul personalului, inclusiv magistrații detașați la CSM, Inspecția Judiciară, INM și Ministerul Justiției, și să precizeze că protecția acoperă și deciziile de carieră și disciplinare luate în baza Legilor 303/2022 și 305/2022.",
+    "removes": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 7,
+    "verified": 7
+  }
+}

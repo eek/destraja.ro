@@ -1,0 +1,70 @@
+{
+  "slug": "plx-552-2026",
+  "billId": "PL-x 552/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:08:20.398Z",
+  "inputHash": "f3a59798c29e",
+  "riskScore": 2,
+  "summary": "O lege mică și utilă, care clarifică cine poate folosi zilieri, dar al cărei singur alineat nou este redactat stângaci și poate rata o parte din țintă.",
+  "good": [
+    {
+      "text": "Entitățile fără cod CAEN, cum ar fi multe parohii sau asociații, pot folosi legal zilieri. Munca lor ocazională iese astfel din zona muncii la negru.",
+      "article": "art. unic pct. 2 (art. 13 alin. (3))",
+      "quote": "Activitățile prevăzute la alin.(1) pot fi prestate inclusiv de către beneficiarii care nu au cod CAEN prevăzute la art.1 alin.(1) lit.b).",
+      "weight": 3
+    },
+    {
+      "text": "Asociațiile, fundațiile, unitățile de cult și instituțiile cultelor sunt numite expres ca beneficiari. Se încheie interpretările diferite de la o instituție la alta.",
+      "article": "art. unic pct. 1 (art. 1 alin. (1) lit. b))",
+      "quote": "inclusiv asociațiile și fundațiile, precum și unitățile de cult și instituțiile aparținând cultelor religioase recunoscute potrivit legii",
+      "weight": 2
+    },
+    {
+      "text": "Extinderea privește doar activitățile deja permise de lege. Nu adaugă domenii noi și nu atinge durata maximă, plata minimă sau drepturile zilierului.",
+      "article": "art. unic pct. 2 (art. 13 alin. (3))",
+      "quote": "Activitățile prevăzute la alin.(1) pot fi prestate inclusiv",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Textul vizează doar cine „nu are cod CAEN”. Asociațiile sau parohiile care au un cod din alt domeniu (ex. 9491) pot rămâne pe dinafară, deși sunt în aceeași situație.",
+      "article": "art. unic pct. 2 (art. 13 alin. (3))",
+      "quote": "pot fi prestate inclusiv de către beneficiarii care nu au cod CAEN",
+      "weight": 2
+    },
+    {
+      "text": "Textul spune că activitățile sunt prestate „de către beneficiari”, dar munca o face zilierul pentru beneficiar. Formularea greșită lasă loc de interpretări.",
+      "article": "art. unic pct. 2 (art. 13 alin. (3))",
+      "quote": "Activitățile prevăzute la alin.(1) pot fi prestate inclusiv de către beneficiarii",
+      "weight": 2
+    },
+    {
+      "text": "„Prevăzute” nu se acordă cu „beneficiarii”. Nu e clar dacă trimiterea la art. 1 privește beneficiarii sau activitățile, deci textul e neclar.",
+      "article": "art. unic pct. 2 (art. 13 alin. (3))",
+      "quote": "beneficiarii care nu au cod CAEN prevăzute la art.1 alin.(1) lit.b)",
+      "weight": 2
+    },
+    {
+      "text": "Fără cod CAEN, nu se mai poate verifica dacă munca zilierului are legătură cu activitatea reală a beneficiarului. Controlul devine mai greu pentru inspectori.",
+      "article": "art. unic pct. 2 (art. 13 alin. (3))",
+      "quote": "inclusiv de către beneficiarii care nu au cod CAEN",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Alin. (3) ar trebui rescris: „Activitățile prevăzute la alin. (1) pot fi desfășurate de zilieri și pentru beneficiarii prevăzuți la art. 1 alin. (1) lit. b) care nu au cod CAEN sau al căror cod CAEN nu corespunde acestor domenii.”",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 7,
+    "verified": 7
+  }
+}

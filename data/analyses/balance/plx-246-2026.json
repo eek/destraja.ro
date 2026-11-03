@@ -1,0 +1,75 @@
+{
+  "slug": "plx-246-2026",
+  "billId": "PL-x 246/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:53:25.139Z",
+  "inputHash": "2d2c043b1331",
+  "riskScore": 2.7,
+  "summary": "O lege scurtă, cu un scop rezonabil (tratament egal pentru auditorii interni), dar scrisă superficial și fără calculul costurilor.",
+  "good": [
+    {
+      "text": "Auditorii interni din universitățile de stat primesc același statut ca cei din școli, deși fac aceeași muncă. Asta elimină o diferență de tratament greu de justificat.",
+      "article": "art. unic (art. 1¹ din anexa nr. I, cap. I lit. B)",
+      "quote": "funcția de auditor intern este inclusă în categoria personalului didactic auxiliar și beneficiază de prevederile aplicabile personalului didactic auxiliar",
+      "weight": 3
+    },
+    {
+      "text": "Schimbarea e strict limitată la o singură funcție din universitățile de stat. Efectul e mic și previzibil, iar cetățenii și firmele nu primesc obligații noi.",
+      "article": "art. unic (art. 1¹ din anexa nr. I, cap. I lit. B)",
+      "quote": "În cadrul instituțiilor de învățământ superior de stat, funcția de auditor intern este inclusă în categoria personalului didactic auxiliar",
+      "weight": 2
+    }
+  ],
+  "bad": [
+    {
+      "text": "Expunerea de motive spune greșit că nu costă nimic: universitățile de stat sunt plătite în principal din bugetul public. Lipsește fișa financiară, semnalată și de Consiliul Fiscal.",
+      "article": "Expunerea de motive",
+      "quote": null,
+      "weight": 3
+    },
+    {
+      "text": "Trimiterea generală la regulile personalului didactic auxiliar nu spune clar ce salariu, ce nivel de studii și ce reguli de reîncadrare se aplică. Asta lasă loc de interpretări diferite între universități.",
+      "article": "art. unic (art. 1¹ din anexa nr. I, cap. I lit. B)",
+      "quote": "beneficiază de prevederile aplicabile personalului didactic auxiliar, prevăzute în prezenta anexă",
+      "weight": 2
+    },
+    {
+      "text": "Statutul se schimbă doar în legea salarizării, nu și în Legea învățământului superior (199/2023). Pot apărea neconcordanțe la ocuparea postului, evaluare și alte drepturi.",
+      "article": "art. unic (art. 1¹ din anexa nr. I, cap. I lit. B)",
+      "quote": "funcția de auditor intern este inclusă în categoria personalului didactic auxiliar",
+      "weight": 2
+    },
+    {
+      "text": "Nu e clar dacă se aplică și șefilor compartimentelor de audit intern sau doar auditorilor de execuție.",
+      "article": "art. unic (art. 1¹ din anexa nr. I, cap. I lit. B)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Prevederea despre personal auxiliar e pusă în secțiunea dedicată personalului didactic, ceea ce face textul mai greu de urmărit.",
+      "article": "art. unic (partea introductivă)",
+      "quote": "capitolul I litera B - Reglementări specifice personalului didactic din învățământ",
+      "weight": 1
+    },
+    {
+      "text": "Alte funcții administrative din universități, cu activități asemănătoare, ar putea cere și ele același tratament, pe baza aceluiași argument al egalității.",
+      "article": "art. unic (art. 1¹ din anexa nr. I, cap. I lit. B)",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Să se atașeze fișa financiară cu costul real și să se precizeze în articol grila de salarizare, condițiile de studii și regulile de reîncadrare aplicabile.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 6,
+    "verified": 5
+  }
+}

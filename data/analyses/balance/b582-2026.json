@@ -1,0 +1,69 @@
+{
+  "slug": "b582-2026",
+  "billId": "B582/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:37:47.324Z",
+  "inputHash": "c00609092dad",
+  "riskScore": 1.5,
+  "summary": "O lege mică și în mare parte inofensivă, care elimină o publicare dublă, dar nu garantează prin lege că documentele vor rămâne publice online.",
+  "good": [
+    {
+      "text": "Scoate obligația de a publica a doua oară în Monitorul Oficial întrebările parlamentarilor rămase fără răspuns. Ele apar deja gratuit pe site-urile Camerelor.",
+      "article": "art. unic pct. 1",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Economisește bani publici, dar puțini: circa 21.300 lei în 2024-2026, sumă care include și cheltuieli estimate.",
+      "article": "art. unic pct. 1",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Legea nu obligă Camerele să publice online întrebările care nu mai apar în Monitor. Publicarea pe site rămâne o practică internă, care poate fi schimbată oricând.",
+      "article": "art. unic pct. 1",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Monitorul Oficial este o arhivă oficială și permanentă. Site-urile pot fi refăcute, iar documentele mutate sau șterse, fără o garanție că rămân autentice și păstrate.",
+      "article": "art. unic pct. 1",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Textul legii nu spune ce conține litera E abrogată. Cititorul trebuie să caute legea veche ca să afle exact ce publicare dispare.",
+      "article": "art. unic pct. 1",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Expunerea de motive exagerează economia, numind-o „substanțială”. În realitate e vorba de câteva mii de lei pe an, deci argumentul financiar e slab.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Formulare imprecisă: legea spune că „se modifică”, deși singurul lucru pe care îl face este o abrogare.",
+      "article": "art. unic",
+      "quote": "Legea nr. 202/1998 privind organizarea Monitorului Oficial al României republicată în Monitorul Oficial, Partea I nr. 511 din 03 iulie 2017, se modifică după cum urmează:",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Să se adauge în lege obligația ca întrebările și interpelările fără răspuns să fie publicate și păstrate permanent, accesibile gratuit, pe site-urile oficiale ale Camerelor.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 0.5
+  },
+  "quotes": {
+    "checked": 6,
+    "verified": 1
+  }
+}

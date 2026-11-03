@@ -1,0 +1,105 @@
+{
+  "slug": "plx-202-2026",
+  "billId": "PL-x 202/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:50:45.994Z",
+  "inputHash": "de35be68841a",
+  "riskScore": 2,
+  "summary": "Lege tehnică, cu calcule corecte și cost mic pe an, care are probleme de transparență și o anexă cu greșeli, dar nicio prevedere care să o strice.",
+  "good": [
+    {
+      "text": "România nu își pierde puterea de vot: ajunge la 380.256 acțiuni (14,08%), la egalitate cu Ucraina. Fără participare, cota ar fi scăzut la circa 10%.",
+      "article": "Anexa (Rezoluția nr. 220), secț. I",
+      "quote": "Romania – 380,256 shares with a value of EUR 437,294,400, representing 14.08% of the BSTDB allocated capital",
+      "weight": 3
+    },
+    {
+      "text": "Plata e întinsă pe 8 ani, câte 4,32 mil. EUR pe an (circa 21–22 mil. lei), o povară anuală mică pentru buget.",
+      "article": "art. 2",
+      "quote": "se realizează în opt tranșe anuale successive, fiecare în valoare de 4.323.540 EUR începând cu anul 2027.",
+      "weight": 2
+    },
+    {
+      "text": "Legea spune clar de unde vin banii: din bugetul de stat, prin Ministerul Finanțelor. Asta face cheltuiala ușor de urmărit.",
+      "article": "art. 2",
+      "quote": "Sumele necesare efectuării plății se asigură anual de la bugetul de stat, prin bugetul Ministerului Finanțelor.",
+      "weight": 2
+    },
+    {
+      "text": "Banca primește capital suplimentar. Asta o ajută să își păstreze ratingul bun și să finanțeze în continuare proiecte în regiune, inclusiv în România.",
+      "article": "art. 1",
+      "quote": "Se aprobă majorarea capitalului deținut de România, în calitate de membru fondator, la Banca pentru Comerț și Dezvoltare a Mării Negre cu 100.256 de acțiuni",
+      "weight": 2
+    },
+    {
+      "text": "Sumele sunt corecte: 100.256 × 1.150 = 115.294.400 EUR; 30% înseamnă 34.588.320 EUR; 8 × 4.323.540 acoperă exact partea de plătit.",
+      "article": "art. 1–2",
+      "quote": "Plata capitalului vărsat în valoare de 34.588.320 EUR reprezentând 30% din capitalul subscris",
+      "weight": 1
+    },
+    {
+      "text": "Toate statele primesc aceleași condiții, iar drepturile de vot se transferă doar după ce statul face dovada plății.",
+      "article": "Anexa, secț. II lit. b) pct. (i) și (iv)",
+      "quote": "reiterează principiul fundamental al tratamentului adecvat și echitabil al tuturor statelor membre în ceea ce privește toate detaliile",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Legea nu spune că 80,7 mil. EUR (70% din total) rămân capital apelabil. Statul poate fi obligat să plătească această sumă dacă Banca are nevoie, iar ea nu apare nicăieri.",
+      "article": "art. 1–2",
+      "quote": "cu 100.256 de acțiuni în valoare totală de 115.294.400 EUR și modalitățile de plată a acesteia",
+      "weight": 2
+    },
+    {
+      "text": "Anexa face parte din lege, dar are erori: Grecia apare cu 447.774 acțiuni în loc de 447.744, Bulgaria cu 321 mil. în loc de 421 mil. EUR, iar traducerea are pasaje stricate.",
+      "article": "Anexa, secț. I",
+      "quote": "Hellenic Republic – 447,774 shares with a value of EUR 514,905,600, representing 16.58% of the BSTDB allocated capital",
+      "weight": 2
+    },
+    {
+      "text": "Termenul pentru biletele la ordin e 31 decembrie 2026. Legea nu dă Ministerului un mandat expres să le emită. O întârziere ar amâna transferul acțiunilor și al voturilor.",
+      "article": "art. 2; Anexa, secț. II lit. b) pct. (iv)",
+      "quote": "statele membre beneficiază de o perioadă de până la 31 decembrie 2026 pentru a finaliza procedurile interne",
+      "weight": 2
+    },
+    {
+      "text": "Art. 2 nu precizează instrumentul de plată (biletul la ordin) și nici moneda. Plata e în euro, dar banii vin din buget în lei, deci bugetul suportă riscul de curs valutar.",
+      "article": "art. 2; Anexa, secț. II lit. b) pct. (ii)",
+      "quote": "vor fi suportate de către statul membru care optează să efectueze plata(plățile) valabilă (valabile) și efectivă (effective) în moneda sa națională",
+      "weight": 1
+    },
+    {
+      "text": "Prin anexă, România aprobă și majorarea cotei Rusiei, care rămâne la 16,58%. Derogarea de la sancțiunile UE acoperă juridic operațiunea, dar rămâne un risc de imagine.",
+      "article": "Anexa, preambul",
+      "quote": "Banca a depus o cerere de derogare la Autoritatea relevantă a UE; această derogare a fost primită la 10 ianuarie 2024.",
+      "weight": 1
+    },
+    {
+      "text": "Câștigul de influență e mic: doar 352 acțiuni în plus din cota Albaniei, iar România rămâne sub Rusia, Turcia și Grecia. Funcția de conducere invocată în motivare nu e asigurată.",
+      "article": "Anexa, secț. I pct. (i)(2)",
+      "quote": "14.272 acțiuni oferite, dar nesubscrise de către Republica Albania, care astfel sunt disponibile spre alocare către statele membre care supra-subscriu, România și Ucraina",
+      "weight": 1
+    },
+    {
+      "text": "Legea nu cere nicio raportare către Parlament despre plățile efectuate sau despre ce se întâmplă cu participația.",
+      "article": "art. 1–2",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Art. 2 ar trebui să menționeze expres capitalul apelabil de 80.706.080 EUR, iar erorile din anexă și din traducere ar trebui corectate.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 12,
+    "verified": 12
+  }
+}

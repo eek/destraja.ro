@@ -1,0 +1,99 @@
+{
+  "slug": "plx-618-2026",
+  "billId": "PL-x 618/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:11:37.809Z",
+  "inputHash": "81046bab46cd",
+  "riskScore": 1.7,
+  "summary": "O lege simbolică și aproape inofensivă, fără costuri obligatorii, cu o formulare ambiguă în art. 1 și câteva greșeli de redactare.",
+  "good": [
+    {
+      "text": "Banii publici se pot cheltui doar din bugetele deja aprobate sau din sponsorizări și donații. Legea nu cere fonduri noi de la buget.",
+      "article": "art. 4",
+      "quote": "pot fi asigurate din bugetele autorităților și instituțiilor publice organizatoare, în limita creditelor bugetare aprobate, precum și din sponsorizări, donații ori alte surse legal constituite",
+      "weight": 3
+    },
+    {
+      "text": "Primăriile, școlile, cluburile și ONG-urile pot organiza evenimente, dar nu sunt obligate. Autonomia locală rămâne neatinsă.",
+      "article": "art. 2",
+      "quote": "autoritățile administrației publice centrale și locale, instituțiile publice de cultură și sport, unitățile de învățământ, federațiile sportive naționale, cluburile sportive și organizațiile neguvernamentale pot organiza",
+      "weight": 2
+    },
+    {
+      "text": "Radioul și televiziunea publică pot difuza emisiuni despre această zi, dar nu sunt obligate. Independența editorială e respectată.",
+      "article": "art. 3",
+      "quote": "Societatea Română de Radiodifuziune și Societatea Română de Televiziune, în calitate de servicii publice, pot include în programele lor emisiuni ori aspecte de la manifestările dedicate acestei zile.",
+      "weight": 2
+    },
+    {
+      "text": "Legea nu adaugă 7 aprilie la zilele libere din Codul muncii. Nu apar costuri pentru angajatori și nici pierderi pentru economie.",
+      "article": "art. 1",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Legea nu impune cetățenilor sau firmelor taxe, autorizații, raportări ori sancțiuni.",
+      "article": "art. 1–5",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Cele 30 de zile până la intrarea în vigoare lasă timp instituțiilor să se pregătească.",
+      "article": "art. 5",
+      "quote": "Prezenta lege intră în vigoare la 30 de zile de la publicarea în Monitorul Oficial al României, Partea I.",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Formula „sărbătoare națională” îi poate face pe oameni să creadă că 7 aprilie e zi liberă. Doar expunerea de motive spune că nu este, legea nu o spune.",
+      "article": "art. 1",
+      "quote": "Se declară ziua de 7 aprilie „Ziua Mircea Lucescu”, ca sărbătoare națională.",
+      "weight": 2
+    },
+    {
+      "text": "Instituțiile pot da sprijin „material” cluburilor și ONG-urilor fără criterii, plafon sau transparență. Costurile nu sunt estimate nicăieri.",
+      "article": "art. 2 și art. 4",
+      "quote": "sprijini logistic și material manifestări sportive, culturale, educative și comemorative dedicate personalității, moștenirii sportive și contribuției lui Mircea Lucescu",
+      "weight": 2
+    },
+    {
+      "text": "Expresia „afirmarea României în sportul românesc european și mondial” e greșită. România nu se poate afirma în propriul sport, iar virgula lipsește.",
+      "article": "art. 2",
+      "quote": "contribuției lui Mircea Lucescu la afirmarea României în sportul românesc european și mondial",
+      "weight": 1
+    },
+    {
+      "text": "Formula „și/sau” este evitată în tehnica legislativă, pentru că lasă loc de interpretări.",
+      "article": "art. 2",
+      "quote": "organizațiile neguvernamentale pot organiza și/sau sprijini logistic și material manifestări sportive, culturale",
+      "weight": 1
+    },
+    {
+      "text": "Legea e doar declarativă: instituțiile puteau organiza astfel de evenimente și fără ea. Înmulțirea zilelor „naționale” le scade importanța.",
+      "article": "art. 1–3",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Doar art. 5 are titlu, articolele 1–4 nu au. Structura e inconsecventă.",
+      "article": "art. 5",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "În art. 1 trebuie precizat că ziua nu este nelucrătoare, iar în art. 2 formularea trebuie corectată în „afirmarea României în sportul european și mondial”.",
+    "removes": [
+      0,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 0.8
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 8
+  }
+}

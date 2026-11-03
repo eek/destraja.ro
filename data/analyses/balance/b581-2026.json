@@ -1,0 +1,87 @@
+{
+  "slug": "b581-2026",
+  "billId": "B581/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:35:07.198Z",
+  "inputHash": "b484605f0fbd",
+  "riskScore": 1.4,
+  "summary": "O lege mică și utilă care reduce examinările repetate, cu câteva formulări imprecise, fără nicio prevedere care să strice proiectul.",
+  "good": [
+    {
+      "text": "Profesorul care a luat „admis” la proba de limbă nu mai trebuie să o dea din nou timp de 5 ani. Asta înseamnă mai puțin stres, mai puțină birocrație și mai puține comisii plătite.",
+      "article": "art. I pct. 2, alin. (10¹)",
+      "quote": "Rezultatul «admis» obținut la proba de competențe lingvistice de specialitate prevăzută la alin. (10) este valabil timp de 5 ani de la data promovării probei.",
+      "weight": 3
+    },
+    {
+      "text": "Cine predă efectiv în limba respectivă își păstrează rezultatul cât timp predă. Nu mai e retestat doar pentru că a trecut un termen, deși folosește zilnic limba.",
+      "article": "art. I pct. 2, alin. (10²)",
+      "quote": "Termenul de valabilitate prevăzut la alin. (10¹) se prelungește pe întreaga durată a desfășurării activității didactice în limba pentru care a fost obținut",
+      "weight": 2
+    },
+    {
+      "text": "Noile reguli se aplică abia de la următoarea metodologie de mobilitate. Regulile nu se schimbă în mijlocul unui concurs aflat în desfășurare, deci candidații știu dinainte ce li se cere.",
+      "article": "art. II alin. (2)",
+      "quote": "se aplică tuturor etapelor de mobilitate a personalului didactic de predare și concursului național pentru ocuparea posturilor didactice/catedrelor",
+      "weight": 2
+    },
+    {
+      "text": "Proba de limbă rămâne obligatorie și se dă în fața unei comisii de specialitate. Proiectul nu coboară standardul de competență cerut profesorilor.",
+      "article": "art. I pct. 1, alin. (10)",
+      "quote": "susține, în fața unei comisii de specialitate, o probă de competențe lingvistice de specialitate pentru limba de predare.",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Textul scutește doar pe cine a absolvit ULTIMUL program de studii în limba postului. Cine a făcut licența în acea limbă și apoi un master în română trebuie să dea proba, deși motivarea promite contrariul.",
+      "article": "art. I pct. 1, alin. (10)",
+      "quote": "cu predare în altă limbă decât cea în care a absolvit ultimul program de studii susține",
+      "weight": 2
+    },
+    {
+      "text": "Legea nu spune câte ore trebuie predate și nici ce înseamnă „încetarea activității”. Câteva ore predate o dată la câțiva ani pot face ca rezultatul să rămână valabil practic toată viața.",
+      "article": "art. I pct. 2, alin. (10²)",
+      "quote": "precum și pentru un termen de 5 ani de la data încetării activității.",
+      "weight": 2
+    },
+    {
+      "text": "Legea nu precizează dacă rezultatele „admis” obținute înainte de intrarea ei în vigoare beneficiază de cei 5 ani. Fiecare inspectorat poate interpreta diferit.",
+      "article": "art. II alin. (2)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "„Program de studii” nu este definit. Un curs postuniversitar scurt făcut în acea limbă ar putea fi folosit pentru a evita proba, chiar dacă nu dovedește competența cerută.",
+      "article": "art. I pct. 1, alin. (10)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Formularea „angajarea cu contract individual de muncă” poate lăsa loc de dispută: proba se cere și la transferuri sau pretransferuri? Legea nu spune nici cine ține evidența valabilității rezultatelor.",
+      "article": "art. I pct. 1, alin. (10)",
+      "quote": "Candidatul care solicită angajarea cu contract individual de muncă pe un post didactic/o catedră",
+      "weight": 1
+    },
+    {
+      "text": "Legea ocolește regula din Legea 198/2023 privind intrarea în vigoare a modificărilor din educație și intră în vigoare în 3 zile. Efectul practic e mic, pentru că aplicarea este oricum amânată.",
+      "article": "art. II alin. (1)",
+      "quote": "Prin derogare de la prevederile art. 10 alin. (2) din Legea învățământului preuniversitar nr. 198/2023",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Alin. (10) ar trebui să scutească orice absolvent al unui program universitar (licență, master, doctorat) în limba postului, iar alin. (10²) ar trebui să ceară o perioadă minimă de predare și să definească încetarea activității.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 0.8
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 8
+  }
+}

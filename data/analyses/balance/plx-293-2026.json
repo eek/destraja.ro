@@ -1,0 +1,111 @@
+{
+  "slug": "plx-293-2026",
+  "billId": "PL-x 293/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:56:25.339Z",
+  "inputHash": "f8ab6696ab98",
+  "riskScore": 2.7,
+  "summary": "O lege bună și îngustă, care lasă banii plătiți de beneficiari în serviciile sociale, cu formulări imprecise despre cine plătește și de când se aplică.",
+  "good": [
+    {
+      "text": "Banii plătiți de beneficiari pentru serviciile sociale ale ONG-urilor acreditate nu mai sunt impozitați, deci pot fi folosiți integral pentru îngrijire, mese, personal sau terapii.",
+      "article": "art. I (art. 15 alin. (2) lit. q) Cod fiscal)",
+      "quote": "contribuțiile bănești achitate de beneficiarii serviciilor sociale furnizate, în condițiile legii, de către asociații, fundații sau federații acreditate ca furnizori de servicii sociale",
+      "weight": 3
+    },
+    {
+      "text": "Scutirea se acordă doar furnizorilor acreditați oficial, care sunt verificați de stat. Astfel scade riscul ca firme sau entități fictive să ascundă venituri comerciale sub această etichetă.",
+      "article": "art. I (art. 15 alin. (2) lit. q) Cod fiscal)",
+      "quote": "de către asociații, fundații sau federații acreditate ca furnizori de servicii sociale",
+      "weight": 2
+    },
+    {
+      "text": "Codul fiscal se aliniază cu legea asistenței sociale, care prevede deja că aceste contribuții finanțează serviciile. Se elimină o contradicție între cele două legi.",
+      "article": "art. I",
+      "quote": "contribuțiile bănești achitate de beneficiarii serviciilor sociale furnizate, în condițiile legii",
+      "weight": 2
+    },
+    {
+      "text": "Guvernul este obligat să actualizeze normele de aplicare într-un termen clar, de 30 de zile, ca regula să fie aplicabilă repede în practică.",
+      "article": "art. II",
+      "quote": "În termen de 30 de zile de la data intrării în vigoare a prezentei legi, Guvernul modifică în mod corespunzător Normele metodologice",
+      "weight": 1
+    },
+    {
+      "text": "Modificarea este scurtă și țintită. Nu creează declarații sau obligații noi pentru cetățeni ori firme, iar efectul asupra bugetului e probabil mic.",
+      "article": "art. I",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Textul scutește doar sumele „achitate de beneficiari”. Banii plătiți de părinți, copii sau tutori, cazul obișnuit la vârstnici și copii, pot fi contestați de ANAF la control.",
+      "article": "art. I (art. 15 alin. (2) lit. q) Cod fiscal)",
+      "quote": "contribuțiile bănești achitate de beneficiarii serviciilor sociale furnizate, în condițiile legii",
+      "weight": 2
+    },
+    {
+      "text": "Scutirea nu are plafon. Un ONG mare care cere tarife de piață primește avantajul fiscal integral, nu doar până la 15.000 euro sau 10% din veniturile neimpozabile, cum e azi.",
+      "article": "art. I (art. 15 alin. (2) lit. q) Cod fiscal)",
+      "quote": "după litera p) se introduce o nouă literă, lit.q), cu următorul cuprins",
+      "weight": 2
+    },
+    {
+      "text": "Legea nu spune de la ce dată se aplică scutirea, deși impozitul se calculează anual. Nu e clar nici cum se împacă cu regula din Codul fiscal privind intrarea în vigoare a modificărilor fiscale.",
+      "article": "art. I",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "O firmă licențiată care are același tip de cămin sau centru plătește impozit în continuare, iar unitățile de cult nu sunt menționate. Diferența e justificabilă, dar nu e explicată în text.",
+      "article": "art. I",
+      "quote": "de către asociații, fundații sau federații acreditate ca furnizori de servicii sociale",
+      "weight": 1
+    },
+    {
+      "text": "Estimarea de 0,8 milioane lei aplică cota de 16% pe încasări presupuse, nu pe profit, și nu se bazează pe date verificabile. Costul real pentru buget rămâne nedemonstrat.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Expunerea pomenește doar plafonul de 15.000 euro și omite limita de 10% din veniturile neimpozabile. Efectul real al eliminării plafonului e astfel prezentat incomplet.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Promisiunea de simplificare e exagerată. ONG-urile vor trebui în continuare să țină evidență separată și să împartă cheltuielile comune între veniturile scutite și cele impozabile.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Termenul de 30 de zile dat Guvernului pentru actualizarea normelor nu are nicio consecință dacă e depășit, deci poate rămâne doar pe hârtie.",
+      "article": "art. II",
+      "quote": "În termen de 30 de zile de la data intrării în vigoare a prezentei legi, Guvernul modifică în mod corespunzător Normele metodologice",
+      "weight": 1
+    },
+    {
+      "text": "Expunerea invocă o „Directivă europeană privind statul de drept” care nu există ca temei fiscal. Trimiterea la dreptul UE e imprecisă și slăbește fundamentarea.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Scutirea ar trebui extinsă explicit și la sumele plătite de susținătorii legali sau de familie, iar legea ar trebui să stabilească o dată clară de aplicare, de exemplu 1 ianuarie a anului fiscal următor.",
+    "removes": [
+      0,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 12,
+    "verified": 8
+  }
+}

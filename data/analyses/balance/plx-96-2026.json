@@ -1,0 +1,57 @@
+{
+  "slug": "plx-96-2026",
+  "billId": "Pl-x 96/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:44:22.489Z",
+  "inputHash": "5236806a8a18",
+  "riskScore": 2,
+  "summary": "O lege mică, cu un scop echitabil pentru viceprimari, dar redactată neglijent: o trimitere vagă și o mențiune greșită despre Revisal.",
+  "good": [
+    {
+      "text": "Anii de mandat ca viceprimar contează ca vechime în muncă, la fel ca la primari și președinții sau vicepreședinții de consilii județene. Se elimină o diferență greu de justificat între aleși.",
+      "article": "art. unic (art. 152 alin. (9))",
+      "quote": "Durata mandatului viceprimarului constituie vechime în muncă și în specialitatea studiilor absolvite",
+      "weight": 2
+    },
+    {
+      "text": "Cine revine în profesia sa după mandat nu pierde anii de vechime în specialitate, de care are nevoie pentru posturi sau trepte profesionale.",
+      "article": "art. unic (art. 152 alin. (9))",
+      "quote": "vechime în muncă și în specialitatea studiilor absolvite, în aceleași condiții ca pentru primari",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Cere ca mandatul să fie trecut în registrul salariaților (Revisal), deși viceprimarul nu are contract de muncă, ci o funcție de demnitate publică. Pot apărea confuzii și înregistrări greșite.",
+      "article": "art. unic (art. 152 alin. (9))",
+      "quote": "și se înregistrează în Registrul general de evidență a salariaților (Revisal), conform legii.",
+      "weight": 2
+    },
+    {
+      "text": "Spune „în aceleași condiții ca pentru primari”, dar nu arată unde sunt scrise acele condiții. Fiecare primărie poate înțelege altceva, deci aplicarea poate diferi de la un loc la altul.",
+      "article": "art. unic (art. 152 alin. (9))",
+      "quote": "în aceleași condiții ca pentru primari, președinți și vicepreședinți de consilii județene",
+      "weight": 2
+    },
+    {
+      "text": "Regula este adăugată separat, fără legătură cu prevederea existentă pentru primari. Pot rezulta două reguli paralele pe același subiect, care se pot contrazice la modificări viitoare.",
+      "article": "art. unic (partea introductivă)",
+      "quote": "La articolul 152, după alineatul (8) se introduce un alineat nou, alin. (9), cu următorul cuprins:",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Scoateți mențiunea despre Revisal și înlocuiți „în aceleași condiții ca pentru primari” cu trimiterea exactă la articolul care reglementează vechimea primarilor, eventual extins și la viceprimari.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 5,
+    "verified": 5
+  }
+}

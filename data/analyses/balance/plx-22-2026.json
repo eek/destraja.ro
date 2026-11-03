@@ -1,0 +1,93 @@
+{
+  "slug": "plx-22-2026",
+  "billId": "Pl-x 22/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:41:40.405Z",
+  "inputHash": "bf960b5ddc16",
+  "riskScore": 2,
+  "summary": "O corectură de formulare mică și utilă, fără prevederi dăunătoare, căreia îi lipsește doar o regulă pentru ordinele deja emise.",
+  "good": [
+    {
+      "text": "Ordinul prefectului atribuie direct dreptul de proprietate, nu un „titlu”. Titlurile le emit comisiile județene, deci dispare o suprapunere de atribuții.",
+      "article": "art. unic (art. 27 alin. (2³) partea introductivă)",
+      "quote": "prefectul emite ordin privind atribuirea dreptului de proprietate pe baza propunerii primăriilor",
+      "weight": 3
+    },
+    {
+      "text": "Atribuirea nu e automată: primăria verifică toate condițiile și face propunerea, iar abia apoi prefectul emite ordinul. Astfel se reduc abuzurile.",
+      "article": "art. unic (art. 27 alin. (2³) partea introductivă)",
+      "quote": "pe baza propunerii primăriilor, care verifică întrunirea cumulativă a următoarelor condiții:",
+      "weight": 2
+    },
+    {
+      "text": "Se păstrează limita: doar terenul de sub casele și anexele construite înainte de 1990, plus curtea și grădina. Nu e o împroprietărire generală.",
+      "article": "art. unic (art. 27 alin. (2³) partea introductivă)",
+      "quote": "În cazul terenurilor aferente casei de locuit și anexelor gospodărești edificate anterior datei de 1 ianuarie 1990, precum și curții și grădinii din jurul acestora",
+      "weight": 2
+    },
+    {
+      "text": "Pot cere terenul și cei care au cumpărat casa după Legea 112/1995 sau prin alte acte de vânzare. Așa își pot regla situația proprietarii reali ai casei.",
+      "article": "art. unic (art. 27 alin. (2³) partea introductivă)",
+      "quote": "inclusiv cei care au cumpărat imobilul potrivit prevederilor Legii nr. 112/1995 pentru reglementarea situației juridice a unor imobile cu destinația de locuințe",
+      "weight": 1
+    },
+    {
+      "text": "Dacă terenul se întinde pe mai multe localități, cererea se poate face la fiecare primărie implicată, ceea ce evită blocajele.",
+      "article": "art. unic (art. 27 alin. (2³) partea introductivă)",
+      "quote": "pot solicita primăriei localității sau, după caz, primăriilor localităților în raza căreia/cărora se află situat/situate terenul/terenurile",
+      "weight": 1
+    },
+    {
+      "text": "Proiectul nu introduce taxe, amenzi sau obligații noi pentru cetățeni, firme sau autorități. Costul pentru buget e practic zero.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Nu există o regulă pentru ordinele deja emise „privind atribuirea titlului de proprietate” după Legea 136/2025. Valabilitatea și înscrierea lor în cartea funciară pot ajunge în dispută.",
+      "article": "art. unic",
+      "quote": "partea introductivă a alineatului (2³) se modifică și va avea următorul cuprins",
+      "weight": 2
+    },
+    {
+      "text": "Textul nu spune explicit că ordinul prefectului ajunge pentru înscrierea în cartea funciară. Nici nu modifică legea cadastrului, deci blocajele la OCPI pot continua.",
+      "article": "art. unic (art. 27 alin. (2³) partea introductivă)",
+      "quote": "prefectul emite ordin privind atribuirea dreptului de proprietate pe baza propunerii primăriilor",
+      "weight": 2
+    },
+    {
+      "text": "„Terenurile deținute”, „curtea și grădina” nu au o limită de suprafață în partea modificată. Fără condițiile din litere, nu se poate verifica dacă există riscul de a lua teren public.",
+      "article": "art. unic (art. 27 alin. (2³) partea introductivă)",
+      "quote": "situat/situate terenul/terenurile, atribuirea în proprietate a terenurilor deținute; prefectul emite ordin privind atribuirea dreptului de proprietate",
+      "weight": 1
+    },
+    {
+      "text": "Nu se arată cum își pot apăra drepturile terții, de exemplu foștii proprietari care cer restituirea, față de un ordin al prefectului. Rămâne doar calea generală a instanței.",
+      "article": "art. unic (art. 27 alin. (2³) partea introductivă)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Expunerea de motive anunță și o modificare a Legii 136/2025, dar proiectul schimbă doar un cuvânt în Legea 18/1991. E o neconcordanță de redactare.",
+      "article": "titlul / art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "De adăugat un articol tranzitoriu: ordinele emise deja „privind atribuirea titlului de proprietate” sunt valabile și se înscriu direct în cartea funciară.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 8
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "plx-597-2026",
+  "billId": "Pl-x 597/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:10:31.503Z",
+  "inputHash": "7e98aef5b467",
+  "riskScore": 2.3,
+  "summary": "O modificare mică și în mare utilă, care adaptează procesul-verbal la cartea electronică de identitate, dar lasă goluri la comunicarea amenzii și la minori.",
+  "good": [
+    {
+      "text": "Agentul nu mai e obligat să treacă în procesul-verbal domiciliul, care nu mai apare tipărit pe cartea electronică. Identificarea se face prin nume, prenume și CNP, iar actul nu mai riscă anularea pentru asta.",
+      "article": "art. unic, art. 16 alin. (1)",
+      "quote": "numele, prenumele și codul numeric personal ale contravenientului, descrierea faptei contravenționale cu indicarea datei, orei și locului în care a fost săvârșită",
+      "weight": 3
+    },
+    {
+      "text": "Dispare un motiv pentru care instanțele dădeau soluții diferite în cazuri identice, anulând sau nu amenda după lipsa domiciliului. Legea devine mai previzibilă.",
+      "article": "art. unic, art. 16 alin. (1)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Rămân obligatorii garanțiile pentru om: descrierea faptei, legea încălcată, plata a jumătate din minim în 15 zile, termenul de contestare și instanța.",
+      "article": "art. unic, art. 16 alin. (1)",
+      "quote": "posibilitatea achitării, în termen de 15 zile de la data înmânării sau comunicării procesului-verbal, a jumătate din minimul amenzii prevăzute de actul normativ",
+      "weight": 2
+    },
+    {
+      "text": "Adresa nu mai e scrisă pe un act care poate fi afișat sau văzut de alții, deci se colectează mai puține date personale.",
+      "article": "art. unic, art. 16 alin. (1)",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Amenda trimisă prin poștă sau afișată cere tot o adresă, dar legea nu spune de unde o ia instituția fără acces la evidența persoanelor. Omul poate afla târziu și poate rata termenul de contestare.",
+      "article": "art. unic, art. 16 alin. (1), corelat cu art. 27 din OG nr. 2/2001 (nemodificat)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "La minori dispare și domiciliul părinților sau al ocrotitorilor. Rămân doar numele lor, fără CNP, deci găsirea și anunțarea lor poate deveni dificilă.",
+      "article": "art. unic, art. 16 alin. (5)",
+      "quote": "În cazul în care contravenientul este minor procesul-verbal va cuprinde și numele și prenumele părinților sau ale altor reprezentanți ori ocrotitori legali ai acestuia",
+      "weight": 2
+    },
+    {
+      "text": "Cine primește o amendă cu adresa greșită sau lipsă nu mai poate invoca asta în instanță ca motiv de anulare, chiar dacă a fost afectat.",
+      "article": "art. unic, art. 16 alin. (1)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Expunerea de motive vorbește doar de domiciliul contravenientului. Eliminarea domiciliului părinților minorului nu e explicată separat, deci schimbarea e mai puțin transparentă.",
+      "article": "art. unic, art. 16 alin. (5)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Titlul spune „și completarea”, dar proiectul doar modifică. Punctele nu sunt numerotate. Totuși, formula „Alineatul (1) va avea următorul cuprins” nu abrogă celelalte alineate.",
+      "article": "titlu și art. unic",
+      "quote": "Lege pentru modificarea și completarea Ordonanței Guvernului nr. 2/2001 privind regimul juridic al contravențiilor",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Să se adauge un mecanism prin care instituția obține adresa din evidența persoanelor pentru comunicare și să se păstreze la minori CNP-ul sau adresa părinților.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 4,
+    "verified": 4
+  }
+}

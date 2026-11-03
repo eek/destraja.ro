@@ -1,0 +1,93 @@
+{
+  "slug": "plx-143-2026",
+  "billId": "Pl-x 143/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:46:49.120Z",
+  "inputHash": "21823a6807e2",
+  "riskScore": 2.3,
+  "summary": "O lege bună și scurtă, slăbită de o formulare vagă despre ce document dovedește capacitatea de muncă.",
+  "good": [
+    {
+      "text": "Persoanele cu invaliditate de gradul I sau II care pot munci sunt recunoscute ca angajați cu handicap. Asta le deschide accesul la locuri de muncă și la protecția legii.",
+      "article": "art. unic (art. 77 alin. (2))",
+      "quote": "prin persoană cu handicap încadrată în muncă se înțelege și persoana încadrată în grad de invaliditate I, II sau III",
+      "weight": 3
+    },
+    {
+      "text": "Angajatorii cu cel puțin 50 de salariați vor avea mai mulți candidați pe care îi pot angaja pentru cota obligatorie de 4%. Asta ajută integrarea acestor oameni în muncă.",
+      "article": "art. unic (efect asupra art. 78 alin. (2) din Legea nr. 448/2006)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Recunoașterea se aplică numai la angajare. Nu acordă automat alte drepturi sau ajutoare pentru persoanele cu handicap, deci nu creează privilegii noi.",
+      "article": "art. unic (art. 77 alin. (2))",
+      "quote": "În sensul prezentei legi și numai în contextul încadrării în muncă, prin persoană cu handicap încadrată în muncă se înțelege",
+      "weight": 2
+    },
+    {
+      "text": "Recunoașterea depinde de capacitatea reală de muncă a persoanei, nu doar de gradul trecut în acte. Asta pune legea în acord cu noua lege a pensiilor.",
+      "article": "art. unic (art. 77 alin. (2))",
+      "quote": "care desfășoară activitate profesională potrivit pregătirii, aptitudinilor și capacității sale de muncă, atestate prin documente legale",
+      "weight": 2
+    },
+    {
+      "text": "Gradul III de invaliditate rămâne în text, deci cei deja recunoscuți nu pierd recunoașterea.",
+      "article": "art. unic (art. 77 alin. (2))",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Proiectul nu introduce taxe, amenzi sau obligații noi pentru firme sau cetățeni.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Textul nu spune ce act dovedește capacitatea de muncă (de exemplu decizia medicală) și nici cine îl emite. Inspectorii și angajatorii pot interpreta diferit, exact în problema pe care legea vrea s-o rezolve.",
+      "article": "art. unic (art. 77 alin. (2))",
+      "quote": "capacității sale de muncă, atestate prin documente legale, în condițiile legislației în vigoare",
+      "weight": 3
+    },
+    {
+      "text": "Inițiatorii afirmă că legea nu costă nimic, fără nicio calculație. Consiliul Legislativ a cerut o estimare pe anul curent și pe următorii cinci ani, iar aceasta lipsește.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Firmele pot trece în cotă angajați pe care îi au deja. Astfel plătesc mai puțin la buget sau cumpără mai puțin de la unitățile protejate, fără să creeze locuri de muncă noi.",
+      "article": "art. unic (efect asupra art. 78 alin. (2)-(3) din Legea nr. 448/2006)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Este modificat doar un alineat. Alte reguli din lege cer în continuare certificat de handicap, iar persoanele cu invaliditate nu au neapărat unul. Nu e clar cum se aplică celelalte prevederi.",
+      "article": "art. unic (lipsa corelării cu art. 78 alin. (1) din Legea nr. 448/2006)",
+      "quote": "alineatul (2) se modifică și va avea următorul cuprins",
+      "weight": 2
+    },
+    {
+      "text": "Condiția de dovedire prin documente se aplică acum și celor cu gradul III. Pentru ei poate apărea un drum administrativ în plus față de situația actuală.",
+      "article": "art. unic (art. 77 alin. (2))",
+      "quote": "persoana încadrată în grad de invaliditate I, II sau III, care desfășoară activitate profesională",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Formula „documente legale, în condițiile legislației în vigoare” ar trebui înlocuită cu trimitere expresă la decizia medicală asupra capacității de muncă emisă potrivit Legii nr. 360/2023, iar art. 78 alin. (1) ar trebui corelat cu această decizie.",
+    "removes": [
+      0,
+      3
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.8
+  },
+  "quotes": {
+    "checked": 7,
+    "verified": 6
+  }
+}

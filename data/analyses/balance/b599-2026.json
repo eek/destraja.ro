@@ -1,0 +1,81 @@
+{
+  "slug": "b599-2026",
+  "billId": "B599/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:37:48.075Z",
+  "inputHash": "557d50a74fc2",
+  "riskScore": 2.3,
+  "summary": "O lege mică și în general bună, care lărgește corect accesul la concurs, dar are o greșeală de procedură privind majoritatea de vot, ușor de corectat.",
+  "good": [
+    {
+      "text": "Juriștii cu cel puțin 5 ani la Autoritatea Electorală Permanentă pot da concursul pentru magistratură, la fel ca cei din Parlament sau Consiliul Legislativ. Se elimină o diferență nejustificată.",
+      "article": "art. I",
+      "quote": "persoanele care au îndeplinit funcții de specialitate juridică în aparatul Parlamentului, Administrației Prezidențiale, Guvernului, ministerelor, Curții Constituționale, Avocatului Poporului, Curții de Conturi, Consiliului Legislativ, Autorității Electorale Permanente",
+      "weight": 3
+    },
+    {
+      "text": "Intrarea rămâne doar prin concurs și cu aceleași condiții pentru toți. Nu există locuri rezervate, scutiri de probe sau statut special pentru cei veniți de la AEP.",
+      "article": "art. I",
+      "quote": "Pot fi numiți în magistratură, pe bază de concurs, dacă îndeplinesc condițiile prevăzute la art. 5 alin. (3)",
+      "weight": 2
+    },
+    {
+      "text": "Se păstrează vechimea minimă de 5 ani în domeniul juridic, deci experiența cerută viitorilor judecători și procurori nu scade.",
+      "article": "art. I",
+      "quote": "cadrele didactice din învățământul juridic superior acreditat, precum și magistrații-asistenți, cu o vechime în specialitate de cel puțin 5 ani",
+      "weight": 1
+    },
+    {
+      "text": "CSM trebuie să actualizeze regulamentul de concurs, iar hotărârea se publică în Monitorul Oficial. Astfel, regula nouă se aplică repede și transparent.",
+      "article": "art. II",
+      "quote": "Plenul Consiliului Superior al Magistraturii, la propunerea Institutului Național al Magistraturii, modifică în mod corespunzător Regulamentul privind concursul de admitere în magistratură",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Legea despre statutul magistraților este organică și cere votul majorității membrilor fiecărei Camere. Formula trimite la regula pentru legi ordinare, iar un vot greșit ar face legea neconstituțională.",
+      "article": "formula de adoptare",
+      "quote": "Aceasta lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.",
+      "weight": 3
+    },
+    {
+      "text": "Legea nu spune ce se întâmplă cu concursurile deja anunțate când intră în vigoare. Candidații de la AEP nu știu dacă pot participa, iar asta poate duce la contestații.",
+      "article": "art. II",
+      "quote": "În termen de 30 de zile de la data intrării în vigoare a prezentei legi, Plenul Consiliului Superior al Magistraturii",
+      "weight": 2
+    },
+    {
+      "text": "Obligația de a modifica regulamentul „în mod corespunzător” nu spune ce anume trebuie schimbat. Poate fi chiar inutilă dacă regulamentul trimite deja la art. 63.",
+      "article": "art. II",
+      "quote": "modifică în mod corespunzător Regulamentul privind concursul de admitere în magistratură, prin hotărâre care se publică în Monitorul Oficial al României, Partea I",
+      "weight": 1
+    },
+    {
+      "text": "Expunerea de motive spune greșit că juriștii din Parlament sunt asimilați magistraților. Ei pot doar să dea concursul, iar asta îi poate induce în eroare pe parlamentari.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Motivarea vorbește de admiterea la INM, dar articolul modificat privește intrarea directă în magistratură, nu admiterea la INM. Scopul declarat nu se potrivește cu textul.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Formula de adoptare să trimită la art. 76 alin. (1) din Constituție, iar legea să spună clar că noua regulă se aplică doar concursurilor anunțate după intrarea ei în vigoare.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 9,
+    "verified": 7
+  }
+}

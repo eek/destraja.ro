@@ -1,0 +1,99 @@
+{
+  "slug": "plx-12-2026",
+  "billId": "PL-x 12/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:41:25.360Z",
+  "inputHash": "f539825b56db",
+  "riskScore": 1.7,
+  "summary": "O lege bună și scurtă, care îi ajută mai ales pe românii din străinătate. Are doar mici neclarități de redactare și nicio prevedere care să strice tot.",
+  "good": [
+    {
+      "text": "Românii din străinătate pot cere transcrierea actelor de stare civilă străine prin avocat, pe baza împuternicirii avocațiale, fără să vină în țară sau să facă procură la notar ori consulat.",
+      "article": "art. unic (art. 59¹)",
+      "quote": "Cererile prevăzute la art. 41 alin. (1)-(6) și (11)-(16), art. 41³ alin. (1), art. 41¹⁷ alin. (2)",
+      "weight": 3
+    },
+    {
+      "text": "Avocatul este doar o variantă în plus, nu o obligație. Cine vrea poate depune cererea personal sau prin alte căi, fără costuri noi impuse.",
+      "article": "art. unic (art. 59¹)",
+      "quote": "pot fi depuse și prin avocat împuternicit de către titular, de către reprezentanții legali ai acestuia sau de către persoanele îndreptățite, după caz",
+      "weight": 2
+    },
+    {
+      "text": "Regula nu se oprește la transcriere. Avocatul poate depune și alte cereri de stare civilă enumerate în lege, deci cetățenii au aceeași facilitate în mai multe proceduri.",
+      "article": "art. unic (art. 59¹)",
+      "quote": "art. 44 alin. (1), (1²), (2) și (4), art. 46 alin. (2), art. 47, 48 și art. 54 alin. (1³)",
+      "weight": 2
+    },
+    {
+      "text": "Avocatul poate fi împuternicit de titular, dar și de părinți, tutori sau alte persoane îndreptățite, deci sunt acoperite și cazurile minorilor ori ale persoanelor reprezentate.",
+      "article": "art. unic (art. 59¹)",
+      "quote": "împuternicit de către titular, de către reprezentanții legali ai acestuia sau de către persoanele îndreptățite, după caz",
+      "weight": 2
+    },
+    {
+      "text": "Împuternicirea trebuie făcută după regulile profesiei de avocat. Avocatul răspunde disciplinar, iar asta oferă o garanție de seriozitate și control.",
+      "article": "art. unic (art. 59¹)",
+      "quote": "în baza împuternicirii avocațiale emise cu respectarea prevederilor Legii nr. 51/1995, republicată, cu modificările și completările ulterioare",
+      "weight": 1
+    },
+    {
+      "text": "Legea nu introduce taxe, amenzi, obligații pentru firme sau cheltuieli de la buget.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Legea nu spune clar că funcționarul nu mai poate cere și procură notarială pe lângă împuternicirea avocatului. Vechea practică riscă să continue.",
+      "article": "art. unic (art. 59¹)",
+      "quote": "în baza împuternicirii avocațiale emise cu respectarea prevederilor Legii nr. 51/1995, republicată, cu modificările și completările ulterioare",
+      "weight": 2
+    },
+    {
+      "text": "Procedurile acoperite apar doar ca trimiteri la articole, greu de înțeles pentru oricine. Unele, ca art. 41 alin. (7)-(10), sunt excluse fără nicio explicație.",
+      "article": "art. unic (art. 59¹)",
+      "quote": "Cererile prevăzute la art. 41 alin. (1)-(6) și (11)-(16), art. 41³ alin. (1), art. 41¹⁷ alin. (2)",
+      "weight": 1
+    },
+    {
+      "text": "Articolul este rescris integral, deși motivarea vorbește de o simplă completare. Fără vechiul text nu se poate verifica dacă dispare ceva ce exista înainte.",
+      "article": "art. unic",
+      "quote": "nr. 339 din 18 mai 2012, cu modificările și completările ulterioare, se modifică și va avea următorul cuprins",
+      "weight": 1
+    },
+    {
+      "text": "Motivarea vorbește doar de transcrierea actelor străine. Textul acoperă și alte proceduri, ale căror efecte nu sunt explicate.",
+      "article": "art. unic (art. 59¹)",
+      "quote": "art. 44 alin. (1), (1²), (2) și (4), art. 46 alin. (2), art. 47, 48 și art. 54 alin. (1³)",
+      "weight": 1
+    },
+    {
+      "text": "Identitatea clientului e verificată de avocat, nu de notar. Riscul de acte false în stare civilă crește puțin, dar avocatul răspunde disciplinar și penal.",
+      "article": "art. unic (art. 59¹)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Avocatul costă și el, iar economiile promise pentru cetățeni și consulate nu sunt calculate nicăieri.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Să se precizeze că împuternicirea avocațială e suficientă și nu se poate cere procură suplimentară, iar în motivare să se explice ce proceduri acoperă lista și de ce unele sunt excluse.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 9,
+    "verified": 9
+  }
+}

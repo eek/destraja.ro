@@ -1,0 +1,93 @@
+{
+  "slug": "plx-30-2026",
+  "billId": "Pl-x 30/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:42:06.955Z",
+  "inputHash": "787fc50451d8",
+  "riskScore": 2.3,
+  "summary": "O lege în mare parte bună și cu risc redus, dar formulată imprecis: nu spune explicit că salariile nu se restituie și lasă goluri de aplicare.",
+  "good": [
+    {
+      "text": "Militarii și elevii MAI care nu își respectă angajamentul nu mai trebuie să dea înapoi solda primită la cursuri, ci doar costurile pregătirii. Răspunderea lor se limitează la prejudiciul real.",
+      "article": "art. I pct. 1 (art. 91¹ alin. 5 din Legea nr. 80/1995)",
+      "quote": "este obligat să restituie, proporțional cu perioada rămasă de executat, cheltuielile efectuate pe timpul școlarizării/desfășurării programelor/cursurilor, după caz, potrivit reglementărilor în vigoare.",
+      "weight": 3
+    },
+    {
+      "text": "Aceeași regulă se aplică polițiștilor, care nu mai trebuie să returneze salariul încasat la cursuri. Tratamentul devine la fel pentru militari și polițiști.",
+      "article": "art. II (art. 70 alin. (5) din Legea nr. 360/2002)",
+      "quote": "(5) Elevul, studentul sau polițistul care refuză încheierea unui nou angajament în condițiile alin. (2) și (3) sau care nu respectă condițiile angajamentelor încheiate",
+      "weight": 3
+    },
+    {
+      "text": "Rămâne obligația de a plăti, proporțional cu timpul rămas, costurile școlarizării. Statul își poate recupera în continuare banii investiți în pregătire.",
+      "article": "art. I pct. 1 și art. II",
+      "quote": "care refuză încheierea unui nou angajament în condițiile alin. 2 și 3 sau care nu respectă condițiile angajamentelor încheiate",
+      "weight": 2
+    },
+    {
+      "text": "Cadrele SRI clasate „apt limitat” nu mai pot fi trecute în rezervă din acest motiv. Oamenii cu experiență rămân în activitate pe posturi potrivite sănătății lor.",
+      "article": "art. I pct. 2 (art. 109 alin. 17 din Legea nr. 80/1995)",
+      "quote": "Dispozițiile art. 85 alin. 1 lit. c) nu se aplică ofițerilor, maiștrilor militari și subofițerilor din Ministerul Afacerilor Interne și din Serviciul Român de Informații.",
+      "weight": 2
+    },
+    {
+      "text": "Titlul legii a fost corectat ca să arate alineatul modificat efectiv din Statutul polițistului (alin. 5, nu alin. 3). Asta evită confuzii la aplicare.",
+      "article": "titlul legii",
+      "quote": "pentru modificarea Legii nr. 80/1995 privind statutul cadrelor militare și pentru modificarea art. 70 alin. (5) din Legea nr. 360/2002",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Textul nu spune explicit că salariile nu se restituie, ci doar șterge vechea mențiune. „Cheltuieli efectuate” poate fi interpretat tot ca incluzând salariile, ceea ce invită la procese.",
+      "article": "art. I pct. 1 și art. II",
+      "quote": "cheltuielile efectuate pe timpul școlarizării/desfășurării programelor/cursurilor, după caz, potrivit reglementărilor în vigoare",
+      "weight": 2
+    },
+    {
+      "text": "Nu există nicio regulă pentru sumele deja cerute sau în curs de recuperare după vechea lege. Rămâne neclar dacă cei aflați deja în litigiu sau la plată beneficiază de schimbare.",
+      "article": "art. I pct. 1 și art. II (lipsă dispoziție tranzitorie)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Cadrele SPP sunt lăsate în afara excepției pentru „apt limitat”, deși au același statut. Rezultă tratament diferit între instituții, fără nicio explicație.",
+      "article": "art. I pct. 2 (art. 109 alin. 17)",
+      "quote": "nu se aplică ofițerilor, maiștrilor militari și subofițerilor din Ministerul Afacerilor Interne și din Serviciul Român de Informații.",
+      "weight": 2
+    },
+    {
+      "text": "Legea nu spune ce se întâmplă dacă pentru un cadru SRI „apt limitat” nu există niciun post compatibil. Practica actuală, de trecere în rezervă în acest caz, nu mai are temei clar.",
+      "article": "art. I pct. 2 (art. 109 alin. 17)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Statul va recupera mai puțini bani, iar păstrarea cadrelor „apt limitat” costă salarii. Aceste efecte asupra bugetului nu sunt estimate.",
+      "article": "art. I și art. II (impact bugetar)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Art. 91¹ numește doar MAI, iar aplicarea la SRI și SPP depinde de o trimitere din altă parte a legii. Textul are și formulări tehnice neîngrijite („alin. 2 și 3” fără paranteze).",
+      "article": "art. I pct. 1 (art. 91¹ alin. 5)",
+      "quote": "Elevul/Studentul unei instituții de formare profesională inițială a Ministerului Afacerilor Interne sau care formează personal pentru nevoile Ministerului Afacerilor Interne",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Trebuie adăugată o mențiune expresă că drepturile salariale nu intră în cheltuielile de restituit, plus o dispoziție tranzitorie pentru recuperările aflate în curs.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 8
+  }
+}

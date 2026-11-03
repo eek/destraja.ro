@@ -1,0 +1,86 @@
+{
+  "slug": "plx-124-2026",
+  "billId": "PL-x 124/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:45:32.706Z",
+  "inputHash": "8ce071bf7b4e",
+  "riskScore": 2,
+  "summary": "O lege bună care simplifică divorțul și dă fiecăruia controlul asupra propriului nume, cu riscuri mici: fostul soț nu se mai poate opune și lipsesc reguli de tranziție.",
+  "good": [
+    {
+      "text": "Fiecare fost soț decide singur dacă păstrează numele din căsătorie sau revine la cel vechi. Nu mai are nevoie de acordul celuilalt și nu mai trebuie să dovedească motive în instanță.",
+      "article": "art. unic pct. 3 (art. 383 alin. (1) C.civ.)",
+      "quote": "fiecare dintre soți poate alege să păstreze numele purtat în timpul căsătoriei sau să revină la numele purtat anterior",
+      "weight": 3
+    },
+    {
+      "text": "Dezacordul asupra numelui nu mai blochează divorțul la notar sau la primărie. Cererea se respinge doar dacă soții nu se înțeleg asupra copiilor, deci se evită procese inutile.",
+      "article": "art. unic pct. 2 (art. 376 alin. (5) C.civ.)",
+      "quote": "Dacă soții nu se înțeleg, în cazul prevăzut la art. 375 alin. (2), asupra exercitării în comun a drepturilor părintești",
+      "weight": 3
+    },
+    {
+      "text": "Numele nu mai este o condiție pentru divorțul la notar când există copii minori. Condițiile care privesc copiii rămân aceleași.",
+      "article": "art. unic pct. 1 (art. 375 alin. (2) C.civ.)",
+      "quote": "dacă soții convin asupra tuturor aspectelor referitoare la exercitarea autorității părintești de către ambii părinți, stabilirea locuinței copiilor după divorț",
+      "weight": 2
+    },
+    {
+      "text": "Dacă nimeni nu alege, fiecare își păstrează numele din căsătorie. Se evită schimbarea forțată a actelor și confuzia la locul de muncă și în relația cu copiii.",
+      "article": "art. unic pct. 3 (art. 383 alin. (2) C.civ.)",
+      "quote": "Dacă soții nu aleg numele pe care îl vor purta după divorț, fiecare dintre foștii soți va păstra numele purtat în timpul căsătoriei.",
+      "weight": 2
+    },
+    {
+      "text": "Se păstrează verificarea prin ancheta socială: dacă acordul părinților nu e în interesul copilului, divorțul nu se mai face la notar și cazul ajunge în instanță.",
+      "article": "art. unic pct. 1 (art. 375 alin. (2) C.civ.)",
+      "quote": "Dacă din raportul de anchetă socială rezultă că acordul soților privind exercitarea în comun a autorității părintești sau cel privind stabilirea locuinței copiilor nu este în interesul copilului",
+      "weight": 2
+    },
+    {
+      "text": "Mai puține cereri respinse și procese doar pentru nume înseamnă costuri mai mici pentru oameni și mai puțină încărcare a instanțelor.",
+      "article": "art. unic pct. 1-3",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Fostul soț de la care provine numele nu se mai poate opune, nici în cazuri grave, de exemplu dacă numele e folosit abuziv. Îi rămân doar căile generale din Codul civil.",
+      "article": "art. unic pct. 3 (art. 383 alin. (1) C.civ.)",
+      "quote": "fiecare dintre soți poate alege să păstreze numele purtat în timpul căsătoriei sau să revină la numele purtat anterior",
+      "weight": 2
+    },
+    {
+      "text": "Regula implicită se inversează: cine nu se exprimă păstrează automat numele din căsătorie. Cei neinformați pot rămâne cu un nume pe care nu l-ar fi vrut.",
+      "article": "art. unic pct. 3 (art. 383 alin. (2) C.civ.)",
+      "quote": "Dacă soții nu aleg numele pe care îl vor purta după divorț, fiecare dintre foștii soți va păstra numele purtat în timpul căsătoriei.",
+      "weight": 1
+    },
+    {
+      "text": "Textul spune doar că instanța ia act de alegere. Pentru notar și primărie se aplică doar o trimitere generală, deci nu e clar cum se consemnează opțiunea.",
+      "article": "art. unic pct. 3 (art. 383 alin. (1) teza a II-a C.civ.)",
+      "quote": "Instanța ia act de această manifestare de voință prin hotărârea de divorț.",
+      "weight": 1
+    },
+    {
+      "text": "Lipsesc regulile de tranziție. Nu e clar ce se întâmplă cu divorțurile aflate în curs sau cu cei care au fost obligați anterior să revină la numele vechi.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Adăugarea unei căi prin care fostul soț de la care provine numele să poată cere instanței, pentru motive temeinice, interzicerea folosirii lui abuzive.",
+    "removes": [
+      0
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 8
+  }
+}

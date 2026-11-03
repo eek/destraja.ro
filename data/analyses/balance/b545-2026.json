@@ -1,0 +1,94 @@
+{
+  "slug": "b545-2026",
+  "billId": "B545/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:32:38.569Z",
+  "inputHash": "3c463f372939",
+  "riskScore": 1.5,
+  "summary": "O scutire mică și cu scop bun, care e corectă în ansamblu, dar e scrisă vag la controlul folosirii exclusive și la omologarea RAR, iar costul pentru buget nu e calculat.",
+  "good": [
+    {
+      "text": "Scutește de rovinietă vehiculele special amenajate pentru mutarea stupilor între zonele cu flori, deci scad costurile apicultorilor care practică stupăritul pastoral.",
+      "article": "art. unic pct. 1 (art. 3 alin. (1) lit. f))",
+      "quote": "specializate pentru transportul stupilor în cadrul practicării apiculturii pastorale, astfel cum sunt omologate în acest sens de Registrul Auto Român",
+      "weight": 3
+    },
+    {
+      "text": "Scutirea se dă doar vehiculelor omologate de RAR pentru transportul stupilor, nu oricărui vehicul al unui apicultor. Asta limitează lista beneficiarilor.",
+      "article": "art. unic pct. 1 (art. 3 alin. (1) lit. f))",
+      "quote": "astfel cum sunt omologate în acest sens de Registrul Auto Român, folosite exclusiv pentru transportul stupilor în pastoral.",
+      "weight": 2
+    },
+    {
+      "text": "Vehiculul trebuie folosit numai pentru transportul stupilor. Folosirea lui la altceva ar pierde, în principiu, dreptul la scutire.",
+      "article": "art. unic pct. 1 (art. 3 alin. (1) lit. f))",
+      "quote": "folosite exclusiv pentru transportul stupilor în pastoral.",
+      "weight": 1
+    },
+    {
+      "text": "Proiectul doar adaugă o literă la lista de scutiri existentă. Nu schimbă alte reguli ale rovinietei, deci efectele sunt previzibile și ușor de controlat.",
+      "article": "art. unic",
+      "quote": "La articolul 3 alineatul (1), după litera e) se introduce o nouă literă, lit. f), cu următorul cuprins:",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Nu spune cine verifică și cum se dovedește că vehiculul e folosit „exclusiv” pentru stupi. Un camion scutit poate căra și alte mărfuri în restul anului, fără control clar.",
+      "article": "art. unic pct. 1 (art. 3 alin. (1) lit. f))",
+      "quote": "folosite exclusiv pentru transportul stupilor în pastoral.",
+      "weight": 3
+    },
+    {
+      "text": "Nu e clar dacă RAR are deja o omologare „pentru stupi”. Lipsesc criteriile și termenul pentru norme, deci aplicarea poate întârzia sau poate fi interpretată diferit.",
+      "article": "art. unic pct. 1 (art. 3 alin. (1) lit. f))",
+      "quote": "astfel cum sunt omologate în acest sens de Registrul Auto Român",
+      "weight": 2
+    },
+    {
+      "text": "Costul pentru buget e declarat „nesemnificativ” fără cifre: nu se dau numărul de vehicule, suma pierdută sau sursa de compensare cerută de legea finanțelor publice.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Scutirea nu cere ca proprietarul să fie apicultor înregistrat (de exemplu în evidențele sanitar-veterinare). Oricine își omologhează un vehicul o poate obține.",
+      "article": "art. unic pct. 1 (art. 3 alin. (1) lit. f))",
+      "quote": "specializate pentru transportul stupilor în cadrul practicării apiculturii pastorale, astfel cum sunt omologate în acest sens de Registrul Auto Român",
+      "weight": 2
+    },
+    {
+      "text": "Textul nu trimite la condițiile din directiva UE privind taxarea vehiculelor grele (folosire ocazională, fără distorsionarea concurenței). Asta lasă loc de contestare.",
+      "article": "art. unic pct. 1 (art. 3 alin. (1) lit. f))",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Denumirea ordonanței e scrisă diferit: titlul pomenește și „tariful de trecere”, articolul unic nu. Lista de semnături spune „modificarea și completarea”, deși proiectul doar completează.",
+      "article": "titlu / art. unic",
+      "quote": "Ordonanța Guvernului nr. 15/2002 privind aplicarea tarifului de utilizare a rețelei de drumuri naționale din România, aprobată cu modificări",
+      "weight": 1
+    },
+    {
+      "text": "Ghilimelele deschise la noua literă f) nu sunt închise. E o greșeală de redactare care trebuie corectată la adoptare.",
+      "article": "art. unic pct. 1",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Completați lit. f) cu: obligația ca beneficiarul să fie apicultor înregistrat, criteriile omologării RAR, un termen pentru normele de aplicare și un mecanism de control al folosirii exclusive.",
+    "removes": [
+      0,
+      1,
+      3
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 9,
+    "verified": 8
+  }
+}

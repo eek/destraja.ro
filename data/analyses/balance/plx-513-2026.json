@@ -1,0 +1,106 @@
+{
+  "slug": "plx-513-2026",
+  "billId": "PL-x 513/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:06:00.282Z",
+  "inputHash": "5d0754544abe",
+  "riskScore": 2,
+  "summary": "O lege bună și punctuală, cu o excepție formulată prea larg și o interdicție prea îngustă, ambele ușor de corectat.",
+  "good": [
+    {
+      "text": "Funcționarii de la evidența persoanelor sunt obligați să verifice singuri, în bazele de date ale statului, datele de stare civilă, la buletin nou, preschimbare, minori și buletin provizoriu.",
+      "article": "art. I pct. 2 (art. 20¹ alin. (1))",
+      "quote": "În cazul eliberării actelor de identitate potrivit art.12 și 12¹, al eliberării unui nou act de identitate potrivit art.19",
+      "weight": 3
+    },
+    {
+      "text": "Ghișeul nu mai poate cere certificatul de naștere, de căsătorie sau copii ale lor dacă datele se găsesc în sistem. Omul nu mai cară hârtii pe care statul le are deja.",
+      "article": "art. I pct. 2 (art. 20¹ alin. (2))",
+      "quote": "nu pot solicita persoanei prezentarea ori depunerea certificatelor de stare civilă sau a copiilor acestora",
+      "weight": 3
+    },
+    {
+      "text": "Cine nu are certificatul la el nu mai primește din acest motiv doar buletin provizoriu, dacă datele se pot verifica în sistem. Primește buletin normal.",
+      "article": "art. I pct. 1 (art. 20 alin. (4))",
+      "quote": "Neprezentarea certificatelor de stare civilă nu constituie motiv pentru eliberarea cărții de identitate provizorii",
+      "weight": 3
+    },
+    {
+      "text": "Când funcționarul cere totuși documente, trebuie să spună de ce verificarea în sistem nu a fost posibilă. Asta oferă un minim de transparență și o bază pentru contestare.",
+      "article": "art. I pct. 2 (art. 20¹ alin. (3))",
+      "quote": "pot solicita documentele justificative strict necesare, cu indicarea motivului pentru care verificarea din oficiu nu poate fi realizată",
+      "weight": 2
+    },
+    {
+      "text": "Se verifică doar datele strict necesare cererii, iar în excepții se pot cere doar documentele strict necesare. Asta limitează excesul de date și de acte cerute.",
+      "article": "art. I pct. 2 (art. 20¹ alin. (1) și (3))",
+      "quote": "verifică din oficiu, prin sistemele informatice prevăzute de lege, datele de stare civilă strict necesare soluționării cererii",
+      "weight": 2
+    },
+    {
+      "text": "Guvernul trebuie să adapteze normele de aplicare în 90 de zile, ca listele de acte de la ghișee să fie aliniate la lege.",
+      "article": "art. II",
+      "quote": "În termen de 90 de zile de la data intrării în vigoare a prezentei legi, Guvernul va modifica și completa",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Excepția e largă: „nu pot fi verificate” acoperă și defecțiunile sistemului statului. Funcționarul decide singur și poate reveni la cererea de hârtii.",
+      "article": "art. I pct. 2 (art. 20¹ alin. (3))",
+      "quote": "datele necesare nu sunt disponibile, sunt incomplete, prezintă neconcordanțe ori nu pot fi verificate prin sistemele informatice prevăzute de lege",
+      "weight": 2
+    },
+    {
+      "text": "Interdicția acoperă doar certificatele de stare civilă. Sentințele de divorț sau actele de schimbare a numelui, invocate în expunerea de motive, pot fi cerute în continuare.",
+      "article": "art. I pct. 2 (art. 20¹ alin. (2))",
+      "quote": "certificatelor de stare civilă sau a copiilor acestora, dacă datele necesare soluționării cererii pot fi verificate din oficiu",
+      "weight": 2
+    },
+    {
+      "text": "Motivul refuzului verificării nu trebuie comunicat în scris și nici consemnat. Fără urmă scrisă, cetățeanul contestă greu o cerere abuzivă de acte.",
+      "article": "art. I pct. 2 (art. 20¹ alin. (3))",
+      "quote": "cu indicarea motivului pentru care verificarea din oficiu nu poate fi realizată",
+      "weight": 1
+    },
+    {
+      "text": "Legea nu prevede nicio consecință și nicio cale rapidă de reclamare dacă ghișeul cere totuși certificatele. Rămân doar căile generale, lente.",
+      "article": "art. I pct. 2 (art. 20¹)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Dacă sistemul nu funcționează, omul poate primi tot buletin provizoriu din cauza statului. Formula „în condițiile legii” e vagă.",
+      "article": "art. I pct. 1 (art. 20 alin. (4))",
+      "quote": "dacă datele respective pot fi verificate din oficiu, în condițiile legii",
+      "weight": 1
+    },
+    {
+      "text": "Până la modificarea normelor, care pot întârzia peste 90 de zile fără nicio consecință, ghișeele pot aplica liste vechi, contrare legii.",
+      "article": "art. II",
+      "quote": "Normele metodologice de aplicare unitară a dispozițiilor în materie de stare civilă, aprobate prin Hotărârea Guvernului nr.255/2024",
+      "weight": 1
+    },
+    {
+      "text": "Există greșeli de redactare: lipsește „se” în formula de introducere, iar la finalul art. II apar ghilimele rătăcite.",
+      "article": "art. I pct. 2; art. II",
+      "quote": "După articolul 20 introduce un nou articol, art.20¹, cu următorul cuprins",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Excepția din alin. (3) ar trebui să excludă defecțiunile tehnice ale autorității și să ceară motivare scrisă, consemnată, iar alin. (2) ar trebui extins la toate actele privind starea civilă.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 12,
+    "verified": 12
+  }
+}

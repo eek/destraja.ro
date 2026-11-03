@@ -26,6 +26,9 @@
 //
 // Pauză: cât există .cache/publish-paused, rularea adună datele (pașii 1–7), dar nu aplică migrațiile, nu publică, nu
 // trimite e-mailuri și nu face commit sau push. Scoți fișierul când vrei să publici din nou.
+// Ediție specială: un nume în .cache/digest-anunt (de exemplu „camera”) face din ediția zilei anunțul acela
+// (straja-digest --anunt=…). Imaginile lui se fac înainte de build, ca să fie pe site când pleacă e-mailul; fișierul
+// se șterge după ce anunțul a plecat.
 //   --skip-news   fără căutarea în presă
 //   --skip-positions  fără căutarea pozițiilor organizațiilor
 //   --skip-mps    fără datele de contact ale parlamentarilor
@@ -40,6 +43,7 @@ const DATA = path.join(ROOT, 'data');
 const LOG_DIR = path.join(ROOT, 'ops', 'logs');
 const LOCK = path.join(ROOT, 'ops', 'daily.lock');
 const PUBLISH_PAUSE = path.join(ROOT, '.cache', 'publish-paused');
+const ANUNT_FILE = path.join(ROOT, '.cache', 'digest-anunt');
 const args = new Set(process.argv.slice(2));
 const day = new Date().toLocaleDateString('sv-SE', { timeZone: 'Europe/Bucharest' });
 const monday = new Date().toLocaleDateString('en-US', { weekday: 'short', timeZone: 'Europe/Bucharest' }) === 'Mon';
@@ -200,21 +204,25 @@ async function main() {
       log(`⏸ Publicarea e oprită (${path.relative(ROOT, PUBLISH_PAUSE)}): fără migrații, build, publicare, e-mailuri, commit și push`);
       summary.push('publicare oprită');
     } else if (!args.has('--no-deploy')) {
+      const anunt = fs.existsSync(ANUNT_FILE) ? fs.readFileSync(ANUNT_FILE, 'utf8').trim() : '';
+      if (anunt) await step('Imaginile anunțului', 'node', ['scripts/straja-digest.mjs', `--anunt=${anunt}`, '--images']);
       const migrate = await step('Migrații D1', 'npx', ['wrangler', 'd1', 'migrations', 'apply', 'lastraja', '--remote']);
       const build = migrate.ok ? await step('Build', 'npx', ['next', 'build']) : { ok: false };
       const deploy = build.ok ? await step('Publicare', 'npx', ['wrangler', 'deploy']) : { ok: false };
       summary.push(deploy.ok ? 'publicat' : 'NEPUBLICAT');
       // Linkurile din e-mail duc la paginile abia publicate; fără publicare nu trimitem nimic.
       if (deploy.ok) {
-        const digest = await step('Alerte e-mail', 'node', ['scripts/straja-digest.mjs', '--send'], { timeoutMs: 1_800_000 });
+        const digest = await step('Alerte e-mail', 'node', ['scripts/straja-digest.mjs', '--send', ...(anunt ? [`--anunt=${anunt}`] : [])], { timeoutMs: 1_800_000 });
         const sent = digest.tail.match(/✅ trimise: (\{.*\})/);
+        // Ce n-a plecat azi din cauza limitei se trimite cu --day=<azi>; anunțul nu se repetă mâine.
+        if (anunt && sent && JSON.parse(sent[1]).sent > 0) fs.rmSync(ANUNT_FILE, { force: true });
         if (!digest.ok) summary.push('alertele NU au plecat');
         else if (sent) summary.push(`${JSON.parse(sent[1]).sent} e-mailuri`);
       }
     }
 
     if (!paused) {
-      await step('Pregătire commit', 'git', ['add', 'data', 'public/docs']);
+      await step('Pregătire commit', 'git', ['add', 'data', 'public/docs', 'public/email']);
       const commit = await step('Commit', 'git', ['commit', '-q', '-m', `Date: actualizarea din ${day}`], { timeoutMs: 60_000 });
       if (!commit.ok && !/nothing to commit|nimic de comis/i.test(commit.tail)) summary.push('datele au rămas necomise');
 

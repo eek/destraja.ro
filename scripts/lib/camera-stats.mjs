@@ -11,9 +11,10 @@ const nameKey = (name) => name.normalize('NFKD').replace(/\p{M}/gu, '').toLowerC
 
 /**
  * Cifrele despre Cameră din datele de azi: proiecte, analize, forme comparate, parlamentari. `senateBills` sunt proiectele
- * Senatului cu analiză (pentru numărul parlamentarilor, ca pe /parlamentari).
+ * Senatului cu analiză (pentru numărul parlamentarilor, ca pe /parlamentari). `today` (AAAA-LL-ZZ) e ziua față de care
+ * numărăm termenele încă deschise, ca pe cardul Camerei de pe prima pagină.
  */
-export function cameraStats(DATA, senateBills) {
+export function cameraStats(DATA, senateBills, today = new Date().toISOString().slice(0, 10)) {
   const index = readJson(path.join(DATA, 'cdep', 'index.json'), { proiecte: [] });
   const rows = index.proiecte.filter((p) => !p.senat);
   const bills = rows
@@ -23,6 +24,9 @@ export function cameraStats(DATA, senateBills) {
   const levels = { red: 0, yellow: 0, green: 0 };
   for (const b of bills) levels[b.level]++;
   const here = bills.filter((b) => AT_CHAMBER.test(b.stadiu));
+  // Termenele încă deschise: amendamentele și consultarea publică a Camerei (src/app/page.tsx).
+  const amend = here.map((b) => b.sheet?.fisa.comisii?.termenAmendamente).filter((d) => d && d >= today);
+  const consult = here.map((b) => b.sheet?.fisa.consultare?.termen).filter((d) => d && d >= today);
   const government = bills.filter((b) => b.sheet && !b.sheet.fisa.initiatori.length).length;
 
   // Comparația formelor: direcția ultimei schimbări, ca în lista de pe site.
@@ -56,7 +60,12 @@ export function cameraStats(DATA, senateBills) {
     here: here.length,
     hereRed: here.filter((b) => b.level === 'red').length,
     hereLevels: { red: 0, yellow: 0, green: 0, ...Object.fromEntries(['red', 'yellow', 'green'].map((l) => [l, here.filter((b) => b.level === l).length])) },
-    top: here.filter((b) => b.level === 'red').sort((a, b) => b.score - a.score),
+    top: here
+      .filter((b) => b.level === 'red')
+      .sort((a, b) => b.score - a.score)
+      .map((b) => ({ ...b, bad: readJson(path.join(DATA, 'analyses', 'balance', `${b.slug}.json`), null)?.bad.toSorted((x, y) => y.weight - x.weight)[0]?.text ?? null })),
+    amendOpen: amend.length,
+    lastTerm: [...amend, ...consult].sort().at(-1) ?? null,
     government,
     compared: versions.length,
     comparePending: status?.pending.length ?? 0,

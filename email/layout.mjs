@@ -89,6 +89,8 @@ const DARK_CSS = `
   .lt-pad { padding-left:20px !important; padding-right:20px !important; }
   .lt-h1 { font-size:24px !important; line-height:30px !important; }
   .lt-stack { display:block !important; width:100% !important; }
+  .lt-card { padding-left:16px !important; padding-right:16px !important; }
+  .lt-big { font-size:36px !important; line-height:36px !important; }
 }`;
 
 /**

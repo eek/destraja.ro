@@ -1,0 +1,87 @@
+{
+  "slug": "plx-179-2026",
+  "billId": "PL-x 179/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:49:02.187Z",
+  "inputHash": "be5b99fbb0bc",
+  "riskScore": 1.7,
+  "summary": "O corecție tehnică utilă și bine țintită, cu riscuri mici care vin mai ales din formularea largă și din lipsa evaluării de impact.",
+  "good": [
+    {
+      "text": "Fondul care plătește deponenții poate încasa repede garanțiile date de bănci pentru contribuțiile datorate, chiar dacă banca intră în faliment. Așa banii pentru deponenți sunt mai bine protejați.",
+      "article": "art. unic (art. 3 lit. e) din OG nr. 9/2004)",
+      "quote": "fondul de garantare a depozitelor bancare, acționând potrivit dispozițiilor Legii nr.311/2015 privind schemele de garantare a depozitelor și Fondul de garantare a depozitelor bancare",
+      "weight": 3
+    },
+    {
+      "text": "Aceeași protecție se aplică și fondului de rezoluție bancară administrat de FGDB. Contribuțiile promise de bănci pentru salvarea băncilor în dificultate devin sigure.",
+      "article": "art. unic (art. 3 lit. e) din OG nr. 9/2004)",
+      "quote": "Legii nr.312/2015 privind redresarea și rezoluția instituțiilor de credit și a firmelor de investiții",
+      "weight": 2
+    },
+    {
+      "text": "FGDB poate oferi garanții când se împrumută în criză, de exemplu de la BNR. Banii ajung mai repede și mai ieftin la deponenții unei bănci căzute.",
+      "article": "art. unic (art. 3 lit. e) din OG nr. 9/2004)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Legea română se aliniază la regulile europene privind garanțiile financiare și la ghidul EBA, care cer explicit acest regim pentru angajamentele de plată ale băncilor.",
+      "article": "art. unic",
+      "quote": "La articolul 3 din Ordonanța Guvernului nr.9/2004 privind unele contracte de garanție financiară",
+      "weight": 2
+    },
+    {
+      "text": "Schimbarea este scurtă și precisă. Nu creează taxe, obligații sau sancțiuni pentru cetățeni ori firme și nu cere bani de la buget.",
+      "article": "art. unic",
+      "quote": "după litera d) se introduce o nouă literă, lit.e), cu următorul cuprins",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Textul acoperă toate activitățile FGDB din cele două legi, nu doar cazurile enumerate în expunere. Regimul privilegiat ar putea fi folosit și în operațiuni neprevăzute azi.",
+      "article": "art. unic (art. 3 lit. e) din OG nr. 9/2004)",
+      "quote": "acționând potrivit dispozițiilor Legii nr.311/2015 privind schemele de garantare a depozitelor",
+      "weight": 2
+    },
+    {
+      "text": "La falimentul unei bănci, FGDB își ia garanția înaintea celorlalți creditori și fără instanță. Ceilalți creditori, inclusiv deponenții cu sume peste plafon, pot recupera mai puțin.",
+      "article": "art. unic (efect combinat cu OG nr. 9/2004)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Când FGDB se împrumută cu garanții, creditorii (bănci sau alte instituții) le pot executa rapid fără instanță. Activele fondului pot fi pierdute repede dacă FGDB nu poate plăti.",
+      "article": "art. unic (art. 3 lit. e) din OG nr. 9/2004)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Expunerea de motive răspunde „Nu este cazul” la toate capitolele de impact. Nu sunt estimate efectele asupra creditorilor băncilor sau costurile operaționale.",
+      "article": "expunerea de motive, secțiunea 3",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Instituția este numită cu litere mici („fondul de garantare...”), nu cu denumirea oficială. Este o mică neclaritate de redactare.",
+      "article": "art. unic (art. 3 lit. e) din OG nr. 9/2004)",
+      "quote": "e) fondul de garantare a depozitelor bancare, acționând potrivit dispozițiilor",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Limitarea lit. e) la garanțiile aferente angajamentelor de plată și împrumuturilor FGDB prevăzute expres de lege, plus folosirea denumirii oficiale a instituției.",
+    "removes": [
+      0,
+      4
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.2
+  },
+  "quotes": {
+    "checked": 6,
+    "verified": 6
+  }
+}

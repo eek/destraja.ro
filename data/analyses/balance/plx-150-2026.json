@@ -1,0 +1,100 @@
+{
+  "slug": "plx-150-2026",
+  "billId": "Pl-x 150/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:47:04.889Z",
+  "inputHash": "e2be2e28bdd7",
+  "riskScore": 2.3,
+  "summary": "O lege scurtă și utilă pentru profesorii pensionari, scrisă neglijent: are o contradicție internă și formulări vagi, dar nicio prevedere care să o strice în fond.",
+  "good": [
+    {
+      "text": "Profesorii pensionari care predau cel puțin jumătate de normă primesc contract de muncă și salariu după funcție și fracțiunea de normă, nu tariful mic de plata cu ora.",
+      "article": "art. I pct. 1 (art. 183 alin. (5) teza a II-a)",
+      "quote": "acesta încheie un contract individual de muncă, similar unei persoane aflate în activitate, salarizarea fiind corespunzător funcției și fracțiunii de normă ocupate",
+      "weight": 3
+    },
+    {
+      "text": "Pragul de jumătate de normă este un criteriu clar și ușor de verificat: sub prag rămâne plata cu ora, de la prag în sus se plătește salariu pe fracțiune de normă.",
+      "article": "art. I pct. 2 (art. 229 alin. (9))",
+      "quote": "dacă însumează mai puțin de jumătate din numărul de ore care constituie norma didactică prevăzută de lege pentru funcția respectivă",
+      "weight": 2
+    },
+    {
+      "text": "Postul se ocupă tot prin concurs. Pensionarii nu primesc titularizare automată și nici prioritate față de alți candidați.",
+      "article": "art. I pct. 1 (art. 183 alin. (5))",
+      "quote": "au ocupat un post didactic/o catedră vacant(ă)/rezervat(ă), indiferent de numărul de ore din care este constituită, prin concursul prevăzut la art. 181 alin. (5)",
+      "weight": 2
+    },
+    {
+      "text": "Proiectul modifică în același sens ambele articole care se ocupă de pensionari (încadrarea și salarizarea), ca să nu rămână reguli contradictorii între ele.",
+      "article": "art. I pct. 1 și pct. 2",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Proiectul nu introduce taxe, sancțiuni sau obligații noi pentru cetățeni sau firme.",
+      "article": "art. I",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Prima frază spune că pensionarii au plata cu ora „indiferent de numărul de ore”, iar a doua spune contrariul de la jumătate de normă. Lipsește formula „prin excepție”, deci textul se contrazice.",
+      "article": "art. I pct. 1 (art. 183 alin. (5))",
+      "quote": "indiferent de numărul de ore din care este constituită, prin concursul prevăzut la art. 181 alin. (5), încheie contract individual de muncă în regim de plata cu ora",
+      "weight": 3
+    },
+    {
+      "text": "Formula „similar unei persoane aflate în activitate” nu spune ce durată are contractul (cel mult un an școlar?) și nici dacă se plătesc gradația de vechime și concediul de odihnă.",
+      "article": "art. I pct. 1 (art. 183 alin. (5))",
+      "quote": "acesta încheie un contract individual de muncă, similar unei persoane aflate în activitate",
+      "weight": 2
+    },
+    {
+      "text": "Condiția „după împlinirea vârstei standard de pensionare” e pusă la finalul frazei. Poate fi citită ca valabilă doar pentru a doua situație, iar inspectoratele o pot aplica diferit.",
+      "article": "art. I pct. 2 (art. 229 alin. (9))",
+      "quote": "dacă însumează jumătate sau mai mult de jumătate din numărul de ore care constituie norma didactică prevăzută de lege pentru funcția respectivă, după împlinirea vârstei standard de pensionare",
+      "weight": 2
+    },
+    {
+      "text": "Nu se spune dacă orele de la mai multe școli se adună pentru pragul de jumătate de normă, nici ce se întâmplă cu contractul dacă orele scad sub prag în timpul anului.",
+      "article": "art. I pct. 1 și pct. 2",
+      "quote": "În situația în care activitatea cadrului didactic pensionat însumează jumătate sau mai mult de jumătate din numărul de ore",
+      "weight": 2
+    },
+    {
+      "text": "Salariul pe fracțiune de normă poate costa mai mult decât plata cu ora. Proiectul nu are o estimare a costului și nu arată de unde vin banii. Faptul că posturile sunt bugetate nu dovedește că suma ajunge.",
+      "article": "art. I pct. 1 și pct. 2",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Cadrele didactice asociate care nu sunt pensionate rămân la plata cu ora și când predau jumătate de normă sau mai mult. Diferența de tratament nu este explicată.",
+      "article": "art. I pct. 1 (art. 183 alin. (5))",
+      "quote": "Cadrele didactice asociate și pensionate care au ocupat un post didactic",
+      "weight": 1
+    },
+    {
+      "text": "Titlul spune „modificarea și completarea”, dar proiectul doar modifică. Trimiterile „Alin (5) al art 183” au punctuația greșită. Sunt scăpări minore de redactare.",
+      "article": "titlu; art. I pct. 1 și pct. 2",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Art. 183 alin. (5) ar trebui rescris cu „prin excepție”, cu precizarea că e contract pe durată determinată de cel mult un an școlar și cu drepturile salariale incluse. Condiția de vârstă de la art. 229 alin. (9) ar trebui mutată la începutul frazei.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 8
+  }
+}

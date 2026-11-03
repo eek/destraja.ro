@@ -1,0 +1,106 @@
+{
+  "slug": "plx-126-2026",
+  "billId": "PL-x 126/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:45:50.477Z",
+  "inputHash": "bdf9196c6538",
+  "riskScore": 2,
+  "summary": "O lege simbolică, fără cheltuieli obligatorii și aproape în întregime facultativă, al cărei principal defect este rolul atribuit stângaci COSR.",
+  "good": [
+    {
+      "text": "Cheltuielile sunt facultative și se fac doar din bugetele deja aprobate, deci legea nu obligă statul la cheltuieli noi.",
+      "article": "art. 2 alin. (1)",
+      "quote": "organizate în vederea respectării prevederilor art. 1, în limita bugetelor aprobate",
+      "weight": 3
+    },
+    {
+      "text": "Prevede un calendar concret de activități sportive și educative, transmis autorităților și ambasadelor, ceea ce face din anul omagial ceva mai mult decât o declarație.",
+      "article": "art. 1 alin. (2)",
+      "quote": "care va elabora un calendar cu activități sportive și educative care va fi transmis autorităților naționale și misiunilor diplomatice",
+      "weight": 2
+    },
+    {
+      "text": "Radioul și televiziunea publică pot face emisiuni dedicate, dar nu sunt obligate. Nu există cote de difuzare, iar presa privată nu este afectată.",
+      "article": "art. 2 alin. (2)",
+      "quote": "Societatea Română de Radiodifuziune și Societatea Română de Televiziune, în calitate de servicii publice, pot produce, difuza sau redifuza conținut editorial",
+      "weight": 2
+    },
+    {
+      "text": "Autoritățile, instituțiile sportive și organizațiile minorităților pot organiza evenimente fără să fie obligate, deci nu apar sarcini impuse primăriilor.",
+      "article": "art. 1 alin. (3)",
+      "quote": "precum și organizațiile cetățenilor aparținând minorităților naționale pot organiza acțiuni și evenimente cu caracter sportiv, educativ și artistic",
+      "weight": 1
+    },
+    {
+      "text": "Permite folosirea sponsorizărilor și a altor surse legale, ceea ce poate reduce presiunea pe banii publici.",
+      "article": "art. 2 alin. (1)",
+      "quote": "pot aloca fonduri din bugetele proprii sau din alte surse atrase potrivit legii",
+      "weight": 1
+    },
+    {
+      "text": "Instituie un an omagial clar delimitat în timp, care oferă un cadru pentru promovarea sportului în rândul tinerilor.",
+      "article": "art. 1 alin. (1)",
+      "quote": "Se instituie anul 2027 ca Anul Ilie Năstase.",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "COSR este numit «instituție coordonatoare» și primește o sarcină obligatorie, deși este o organizație privată și autonomă (Legea nr. 69/2000), nu o instituție a statului.",
+      "article": "art. 1 alin. (2)",
+      "quote": "Se desemnează Comitetul Olimpic și Sportiv Român ca instituție coordonatoare a întregii activități derulate pe perioada anului 2027",
+      "weight": 2
+    },
+    {
+      "text": "Obligația de a face calendarul nu are termen, conținut minim sau sursă de finanțare, așa că poate rămâne neîndeplinită fără nicio consecință.",
+      "article": "art. 1 alin. (2)",
+      "quote": "care va elabora un calendar cu activități sportive și educative",
+      "weight": 2
+    },
+    {
+      "text": "COSR ar coordona «întreaga activitate», dar Parlamentul, Președinția și Guvernul își organizează singure evenimentele. Coordonarea rămâne doar pe hârtie.",
+      "article": "art. 1 alin. (2) și art. 2 alin. (1)",
+      "quote": "Parlamentul, Administrația Prezidențială, Guvernul, autoritățile administrației publice locale, precum și instituțiile publice aflate în subordinea sau în coordonarea acestora",
+      "weight": 2
+    },
+    {
+      "text": "Banii publici pot fi folosiți fără o estimare a costului și fără o raportare separată a cheltuielilor. Legea nu adaugă filtre, se aplică doar regulile generale.",
+      "article": "art. 2 alin. (1)",
+      "quote": "pentru a organiza sau sprijini logistic și/sau financiar manifestările sportive, culturale, artistice, educaționale sau programele de promovare",
+      "weight": 2
+    },
+    {
+      "text": "Formula «legendă a sportului național și mondial» este o laudă, nu o normă. Încalcă sobrietatea cerută textelor de lege de Legea nr. 24/2000.",
+      "article": "art. 1 alin. (3)",
+      "quote": "Cu prilejul marcării Anului Ilie Năstase, legendă a sportului național și mondial, autoritățile administrației publice centrale și locale",
+      "weight": 1
+    },
+    {
+      "text": "«Instituțiile sportive» nu sunt definite, iar Federația Română de Tenis nu este menționată. Lista e neclară, dar nu interzice nimic altor organizatori.",
+      "article": "art. 1 alin. (3)",
+      "quote": "instituțiile sportive din țară, precum și organizațiile cetățenilor aparținând minorităților naționale pot organiza acțiuni",
+      "weight": 1
+    },
+    {
+      "text": "Expresia «în vederea respectării prevederilor art. 1» e neclară, pentru că art. 1 nu impune nimic acestor autorități care ar trebui respectat.",
+      "article": "art. 2 alin. (1)",
+      "quote": "programele de promovare organizate în vederea respectării prevederilor art. 1, în limita bugetelor aprobate",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "La art. 1 alin. (2), rolul de coordonator ar trebui dat unei autorități publice (de exemplu ministerul de resort), în parteneriat cu COSR, cu termen și conținut minim pentru calendar.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 13,
+    "verified": 13
+  }
+}

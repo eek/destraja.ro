@@ -1,0 +1,76 @@
+{
+  "slug": "plx-130-2026",
+  "billId": "Pl-x 130/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:46:01.013Z",
+  "inputHash": "21bb757daf66",
+  "riskScore": 1.7,
+  "summary": "O lege mică, inofensivă și cu scop simbolic bun, dar redactată neglijent: trimiteri greșite, formulări neclare și veteranii omiși.",
+  "good": [
+    {
+      "text": "Asociațiile rezerviștilor militari primesc dreptul să depună coroane în partea oficială a ceremoniilor, o recunoaștere publică a contribuției militarilor.",
+      "article": "art. unic (lit. h) nouă)",
+      "quote": "h) asociațiile și fundațiile rezerviștilor militari, recunoscute ca fiind de utilitate publică;",
+      "weight": 2
+    },
+    {
+      "text": "Doar organizațiile cu statut de utilitate publică pot depune coroane. Statutul se acordă oficial, deci criteriul e verificabil și lista de participanți rămâne scurtă.",
+      "article": "art. unic (lit. h) nouă)",
+      "quote": "h) asociațiile și fundațiile rezerviștilor militari, recunoscute ca fiind de utilitate publică;",
+      "weight": 2
+    },
+    {
+      "text": "Proiectul nu impune taxe, raportări sau autorizații cetățenilor ori firmelor și nu obligă statul să plătească coroanele.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Trimiterea pare greșită. Chiar expunerea arată că lista de coroane e separată de regula privind cooperarea cu ministerele, deci alin. (1) e probabil greșit. Și litera h) ar putea exista deja.",
+      "article": "art. unic și titlul legii",
+      "quote": "după litera g) se introduce o nouă literă, lit. h), cu următorul cuprins",
+      "weight": 2
+    },
+    {
+      "text": "Legea permite o singură coroană de la fiecare entitate, dar categoria nouă cuprinde mai multe asociații. Nu se spune dacă depun toate sau una singură, nici în ce ordine. Decide organizatorul.",
+      "article": "art. unic (lit. h) nouă)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Expunerea promite loc și pentru veterani, dar textul vorbește doar de rezerviști. Asociațiile veteranilor de război sau din misiuni și ale cadrelor în retragere rămân neclar acoperite.",
+      "article": "art. unic (lit. h) nouă) vs. Expunerea de motive",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Asociațiile fără statut de utilitate publică sunt excluse, oricât de reprezentative ar fi. Statutul îl acordă Guvernul, deci accesul depinde de o decizie a executivului.",
+      "article": "art. unic (lit. h) nouă)",
+      "quote": "h) asociațiile și fundațiile rezerviștilor militari, recunoscute ca fiind de utilitate publică;",
+      "weight": 1
+    },
+    {
+      "text": "Afirmația că proiectul nu costă nimic nu e susținută de vreun calcul. Pot apărea mici costuri de organizare, chiar dacă nu e prevăzută o finanțare publică.",
+      "article": "Expunerea de motive",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Corectarea trimiterii la alineatul și litera potrivite, stabilirea clară a numărului de coroane și a ordinii între asociații și includerea explicită a organizațiilor de veterani.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 0.5
+  },
+  "quotes": {
+    "checked": 7,
+    "verified": 4
+  }
+}

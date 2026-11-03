@@ -1,0 +1,107 @@
+{
+  "slug": "plx-175-2026",
+  "billId": "PL-x 175/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:48:45.655Z",
+  "inputHash": "b5048a4ee9a0",
+  "riskScore": 2,
+  "summary": "O lege scurtă și utilă pentru apicultori, cu câteva scăpări de redactare ușor de corectat, nu o lege rea.",
+  "good": [
+    {
+      "text": "Hrana pentru albine (turte proteice, siropuri, amestecuri cu zahăr) intră la cota redusă de TVA, deci apicultorii plătesc mai puțin pentru hrana necesară iarna și primăvara.",
+      "article": "art. unic (art. 291 alin. (2) lit. o) Cod fiscal)",
+      "quote": "livrarea de turte proteice, siropuri pe bază de zahăr sau amestecuri al căror conținut total de zahăr este mai mare de 10g/100g, destinate consumului albinelor",
+      "weight": 3
+    },
+    {
+      "text": "Corectează o inechitate: hrana albinelor era exclusă de la cota redusă doar din cauza zahărului, deși celelalte hrane pentru animale beneficiau de ea.",
+      "article": "art. unic; Expunerea de motive",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Beneficiul se aplică produselor, nu unor firme sau asociații anume, deci orice furnizor și orice apicultor îl pot folosi în aceleași condiții.",
+      "article": "art. unic (lit. o)",
+      "quote": "livrarea de turte proteice, siropuri pe bază de zahăr sau amestecuri al căror conținut total de zahăr este mai mare de 10g/100g, destinate consumului albinelor",
+      "weight": 2
+    },
+    {
+      "text": "Numește explicit tipurile de produse vizate (turte proteice, siropuri, amestecuri), ceea ce reduce discuțiile despre ce intră în categorie.",
+      "article": "art. unic (lit. o)",
+      "quote": "livrarea de turte proteice, siropuri pe bază de zahăr sau amestecuri al căror conținut total de zahăr este mai mare de 10g/100g",
+      "weight": 1
+    },
+    {
+      "text": "Modificarea e mică și se integrează direct în Codul fiscal, fără reguli paralele sau excepții greu de urmărit.",
+      "article": "art. unic",
+      "quote": "după litera n) se introduce o nouă literă, lit. o), cu umătorul cuprins",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Nu spune cum se dovedește că produsul e „destinat albinelor” (etichetă, documente, declarația cumpărătorului). La control, furnizorul riscă reîncadrarea la cota standard.",
+      "article": "art. unic (lit. o)",
+      "quote": "amestecuri al căror conținut total de zahăr este mai mare de 10g/100g, destinate consumului albinelor",
+      "weight": 2
+    },
+    {
+      "text": "Fără un criteriu clar de destinație, siropurile de zahăr pot fi vândute „pentru albine” cu TVA redus și folosite în alte scopuri, cu pierderi la buget.",
+      "article": "art. unic (lit. o)",
+      "quote": "siropuri pe bază de zahăr sau amestecuri al căror conținut total de zahăr este mai mare de 10g/100g, destinate consumului albinelor",
+      "weight": 2
+    },
+    {
+      "text": "Expunerea de motive (partea prezentată) nu estimează cât pierde bugetul din TVA și nu indică sursa de compensare.",
+      "article": "Expunerea de motive",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Nu e clar dacă pragul de peste 10g zahăr/100g se aplică doar amestecurilor sau și turtelor și siropurilor, ceea ce permite interpretări diferite.",
+      "article": "art. unic (lit. o)",
+      "quote": "livrarea de turte proteice, siropuri pe bază de zahăr sau amestecuri al căror conținut total de zahăr este mai mare de 10g/100g",
+      "weight": 1
+    },
+    {
+      "text": "Expunerea spune că excluderea începe de la „minimum 10g”, dar legea acoperă doar „mai mare de 10g”. Un produs cu exact 10g/100g rămâne descoperit.",
+      "article": "art. unic (lit. o); Expunerea de motive",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Textul nu fixează data de la care se aplică noua cotă și nicio perioadă de tranziție pentru furnizori.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Nimic nu garantează că reducerea de TVA ajunge în prețul plătit de apicultor; poate rămâne în marja vânzătorului.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Greșeli de redactare („umătorul”, „Codul Fiscal”) care arată o pregătire neatentă a textului.",
+      "article": "art. unic",
+      "quote": "după litera n) se introduce o nouă literă, lit. o), cu umătorul cuprins",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Precizați că destinația se dovedește prin eticheta de furaj pentru albine (Regulamentul (CE) nr. 767/2009) și că pragul de zahăr se aplică tuturor produselor, de la 10g/100g inclusiv.",
+    "removes": [
+      0,
+      1,
+      3,
+      4
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 10,
+    "verified": 8
+  }
+}

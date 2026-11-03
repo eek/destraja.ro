@@ -1,0 +1,88 @@
+{
+  "slug": "plx-158-2026",
+  "billId": "PL-x 158/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:47:43.961Z",
+  "inputHash": "948d66874280",
+  "riskScore": 1.7,
+  "summary": "O lege simbolică și inofensivă, fără costuri sau obligații, cu câteva neclarități minore de redactare, mai ales la lit. f²).",
+  "good": [
+    {
+      "text": "AFDPR, asociația foștilor deținuți politici, poate depune coroane la ceremoniile oficiale, multe dedicate chiar victimelor comunismului. Este o formă de recunoaștere a acestora.",
+      "article": "art. unic (lit. f¹)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Legea nu impune cetățenilor sau firmelor taxe, cereri, autorizații ori sancțiuni. Dă doar unor asociații dreptul de a depune coroane, deci nu cere bani publici noi.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Veteranii de război și militarii veterani cu dizabilități primesc și ei loc la ceremoniile oficiale. Este un gest de respect față de serviciul lor.",
+      "article": "art. unic (lit. f²)",
+      "quote": "Asociația Națională a Veteranilor de Război și Asociația Militarilor Veterani și Veteranilor cu Dizabilități",
+      "weight": 1
+    },
+    {
+      "text": "Legea este scurtă și adaugă două litere într-o lege existentă, fără să schimbe restul regulilor. Efectul ei este ușor de înțeles și de aplicat.",
+      "article": "art. unic, partea introductivă",
+      "quote": "după litera f) se introduc două noi litere, literele f¹) și f²), cu următorul cuprins:",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Cele două asociații de veterani au fost adăugate fără nicio justificare scrisă. Expunerea de motive vorbește doar despre AFDPR, așa că nu se știe de ce au fost alese tocmai ele.",
+      "article": "art. unic (lit. f²)",
+      "quote": "f²) Asociația Națională a Veteranilor de Război și Asociația Militarilor Veterani și Veteranilor cu Dizabilități",
+      "weight": 2
+    },
+    {
+      "text": "Legea numește asociații private anume. Alte asociații de veterani sau de foști deținuți politici aflate în aceeași situație rămân pe dinafară, ceea ce poate părea tratament inegal.",
+      "article": "art. unic (lit. f¹ și f²)",
+      "quote": "f²) Asociația Națională a Veteranilor de Război și Asociația Militarilor Veterani și Veteranilor cu Dizabilități «Sfântul Mare Mucenic Dimitrie Izvorâtorul de Mir»",
+      "weight": 2
+    },
+    {
+      "text": "Dreptul depinde de denumirea exactă a fiecărei asociații. Dacă una își schimbă numele, fuzionează sau se dizolvă, prevederea rămâne fără obiect și legea trebuie modificată din nou.",
+      "article": "art. unic (lit. f¹ și f²)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Formula «reprezentative la nivel național și de utilitate publică» doar descrie asociațiile, nu este o condiție. Nu se spune ce se întâmplă dacă își pierd acest statut.",
+      "article": "art. unic (lit. f²)",
+      "quote": "asociații militare reprezentative la nivel național și de utilitate publică",
+      "weight": 1
+    },
+    {
+      "text": "Două asociații diferite sunt puse în aceeași literă. Nu e clar dacă depun o coroană comună sau câte una fiecare, ceea ce poate crea dispute la ceremonii.",
+      "article": "art. unic (lit. f²)",
+      "quote": "Veteranilor de Război și Asociația Militarilor Veterani și Veteranilor cu Dizabilități «Sfântul Mare Mucenic Dimitrie Izvorâtorul de Mir»",
+      "weight": 1
+    },
+    {
+      "text": "Afirmația că legea nu costă nimic nu este însoțită de vreo analiză. Eventualele mici costuri de organizare a ceremoniilor nu sunt estimate.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Lit. f²) ar trebui motivată în scris și rescrisă cu câte o literă pentru fiecare asociație, cu statutul de utilitate publică pus explicit drept condiție.",
+    "removes": [
+      0,
+      3,
+      4
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 6
+  }
+}

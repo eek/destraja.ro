@@ -1,0 +1,77 @@
+{
+  "slug": "plx-140-2026",
+  "billId": "Pl-x 140/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:46:32.461Z",
+  "inputHash": "bc8bb68868d9",
+  "riskScore": 2.3,
+  "summary": "O lege scurtă și în esență bună, care oprește amenzile date greșit proprietarilor de mașini lovite în parcare, dar scrisă neglijent.",
+  "good": [
+    {
+      "text": "Proprietarul unei mașini lovite cât timp era parcată, fără nimeni la volan, nu mai poate fi amendat și nu mai poate rămâne fără permis pentru că n-a mers la poliție în 24 de ore.",
+      "article": "art. unic pct. 1",
+      "quote": "proprietarul, deținătorul sau utilizatorul unui vehicul avariat în timp ce acesta se afla parcat ori staționat fără conducător la bord",
+      "weight": 3
+    },
+    {
+      "text": "Spune clar ce instanțele spuneau deja. Poliția ar trebui să aplice regula la fel peste tot, iar procesele pentru anularea acestor amenzi ar trebui să fie mai puține.",
+      "article": "art. unic pct. 1",
+      "quote": "La articolul 79 alineatul (2) după litera b) se introduce o nouă literă c) cu următorul cuprins",
+      "weight": 2
+    },
+    {
+      "text": "Schimbarea e îngustă: adaugă o singură excepție. Nu modifică amenzile, punctele de penalizare sau alte reguli și nu costă bani publici.",
+      "article": "art. unic",
+      "quote": "La articolul 79 alineatul (2) după litera b) se introduce o nouă literă c) cu următorul cuprins",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Textul doar scutește păgubitul de obligație. Nu spune că poliția trebuie să-i dea ulterior actele de constatare, de care are nevoie la asigurare (RCA sau CASCO).",
+      "article": "art. unic pct. 1",
+      "quote": "proprietarul, deținătorul sau utilizatorul unui vehicul avariat în timp ce acesta se afla parcat ori staționat fără conducător la bord",
+      "weight": 2
+    },
+    {
+      "text": "Regula modificată vorbește despre șoferii implicați, iar excepția nouă despre proprietar, deținător sau utilizator. Nepotrivirea poate naște interpretări diferite.",
+      "article": "art. unic pct. 1",
+      "quote": "proprietarul, deținătorul sau utilizatorul unui vehicul avariat în timp ce acesta se afla parcat ori staționat fără conducător la bord",
+      "weight": 2
+    },
+    {
+      "text": "Textul nu acoperă oprirea, care e altceva decât staționarea. Nici nu cere ca mașina să fi fost parcată regulamentar, așa că rămân cazuri neclare.",
+      "article": "art. unic pct. 1",
+      "quote": "proprietarul, deținătorul sau utilizatorul unui vehicul avariat în timp ce acesta se afla parcat ori staționat fără conducător la bord",
+      "weight": 2
+    },
+    {
+      "text": "Textul nu lămurește legătura cu art. 80, care cere declararea avariilor în 24 de ore de la constatare. Oamenii pot crede greșit că nu mai trebuie să declare nimic.",
+      "article": "art. unic pct. 1",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Forma e neglijentă: titlul repetă „și completarea”, scrie „se modifică” deși doar completează, lipsește mențiunea republicării, iar textul se termină cu „.x.”.",
+      "article": "titlu; art. unic",
+      "quote": "pentru modificarea și completarea și completarea Ordonanței de Urgență a Guvernului nr. 195/2002 privind circulația pe drumurile publice",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Reformulați lit. c) ca să se potrivească cu regula, să includă oprirea și să garanteze că păgubitul primește actele de la poliție. Corectați titlul și greșeala „.x.”.",
+    "removes": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 7,
+    "verified": 7
+  }
+}

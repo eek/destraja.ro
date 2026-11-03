@@ -1,0 +1,111 @@
+{
+  "slug": "plx-129-2026",
+  "billId": "PL-x 129/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T07:46:07.856Z",
+  "inputHash": "91aa780749aa",
+  "riskScore": 1.7,
+  "summary": "O lege comemorativă mai mult simbolică, fără obligații sau costuri impuse, cu câteva scăpări mărunte de redactare și o finanțare lăsată neprecizată.",
+  "good": [
+    {
+      "text": "Ziua nu este liberă, deci nu costă nimic angajatorii, firmele sau statul și nu schimbă programul de lucru.",
+      "article": "art. 5",
+      "quote": "Ziua Națională de Comemorare a Victimelor Legionarilor nu este zi liberă legală.",
+      "weight": 3
+    },
+    {
+      "text": "Statul recunoaște oficial victimele violenței legionare și condamnă public violența politică, printr-o zi anuală de comemorare.",
+      "article": "art. 1",
+      "quote": "Se instituie ziua de 29 decembrie ca Ziua Națională de Comemorare a Victimelor Legionarilor.",
+      "weight": 2
+    },
+    {
+      "text": "Ministerul poate recomanda școlilor lecții despre extremism, violența politică și valorile democratice, ceea ce ajută la prevenirea extremismului.",
+      "article": "art. 3 alin. (1)",
+      "quote": "poate recomanda unităților de învățământ introducerea unor activități educative tematice privind istoria extremismului legionar, efectele violenței politice și importanța valorilor democratice",
+      "weight": 2
+    },
+    {
+      "text": "Victimele sunt definite larg: nu doar cei uciși, ci și cei persecutați sau afectați, inclusiv minoritățile și opozanții.",
+      "article": "art. 2 alin. (1)",
+      "quote": "în memoria persoanelor asasinate, persecutate sau afectate de violențele și acțiunile extremiste ale Mișcării Legionare",
+      "weight": 2
+    },
+    {
+      "text": "Implică institutele de specialitate (IICCMER, Institutul „Elie Wiesel”) în cercetare și publicații, deci comemorarea se poate sprijini pe documentare serioasă.",
+      "article": "art. 3 alin. (2)",
+      "quote": "pot susține activități de documentare, cercetare și publicare de materiale dedicate victimelor legionarilor",
+      "weight": 2
+    },
+    {
+      "text": "Nicio prevedere nu impune obligații, sancțiuni, taxe sau formulare: instituțiile, școlile și cetățenii nu primesc sarcini noi.",
+      "article": "art. 2, 3, 4 și 6",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "TVR, radioul public și AGERPRES pot face materiale despre comemorare, dar fără cote obligatorii, deci independența lor editorială rămâne neatinsă.",
+      "article": "art. 4",
+      "quote": "pot produce, difuza sau redifuza conținut editorial care promovează manifestări, ceremonii, conferințe",
+      "weight": 1
+    },
+    {
+      "text": "Legea intră în vigoare la 30 de zile după publicare, lăsând timp instituțiilor să se pregătească.",
+      "article": "art. 7",
+      "quote": "Prezenta lege intră în vigoare la 30 de zile de la data publicării în Monitorul Oficial al României, Partea I.",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Guvernul și primăriile pot da bani pentru evenimente, dar legea nu spune cât, cui, după ce criterii și cu ce procedură; costul nu e estimat.",
+      "article": "art. 6",
+      "quote": "pot acorda sprijin financiar, în condițiile legii, pentru organizarea de manifestări, ceremonii, conferințe",
+      "weight": 2
+    },
+    {
+      "text": "Aproape totul e formulat cu „pot”: autoritățile puteau face oricum aceste lucruri, deci efectul practic depinde doar de bunăvoința lor.",
+      "article": "art. 2 alin. (1), art. 3, art. 4, art. 6",
+      "quote": "Parlamentul, Administrația Prezidențială, Guvernul, autoritățile administrației publice locale pot organiza",
+      "weight": 2
+    },
+    {
+      "text": "Drapelul în bernă „conform legii” nu spune ce lege se aplică și cine decide, deci fiecare instituție poate proceda altfel.",
+      "article": "art. 2 alin. (2)",
+      "quote": "Instituțiile publice pot arbora drapelul României în bernă, conform legii.",
+      "weight": 1
+    },
+    {
+      "text": "29 decembrie cade de regulă în vacanța de iarnă, iar legea nu prevede o altă perioadă pentru activitățile din școli.",
+      "article": "art. 3 alin. (1)",
+      "quote": "Ministerul Educației și Cercetării poate recomanda unităților de învățământ introducerea unor activități educative tematice",
+      "weight": 1
+    },
+    {
+      "text": "Greșeală de redactare: scrie „activități organize” în loc de „activități organizate”; trebuie corectată înainte de adoptarea finală.",
+      "article": "art. 4",
+      "quote": "activități organize în conformitate cu prevederile art.2 alin.(1), activități susținute potrivit art.3 alin.(2)",
+      "weight": 1
+    },
+    {
+      "text": "Termenii nu sunt unitari: titlul vorbește de „victimele legionarilor”, iar art. 4 de „victimele extremismului legionar”.",
+      "article": "art. 1 și art. 4",
+      "quote": "precum și alte materiale informative privind comemorarea victimelor extremismului legionar",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "La art. 6 trebuie precizate sursa banilor, criteriile și procedura de acordare a sprijinului financiar, iar la art. 4 trebuie corectat „organize” în „organizate”.",
+    "removes": [
+      0,
+      4
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 13,
+    "verified": 13
+  }
+}

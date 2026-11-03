@@ -1,0 +1,69 @@
+{
+  "slug": "plx-677-2026",
+  "billId": "PL-x 677/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:32:59.067Z",
+  "inputHash": "a27d16f11328",
+  "riskScore": 2.3,
+  "summary": "O lege bună și țintită, care extinde concediul la investigații, dar adaugă o condiție de recomandare medicală neclară care poate îngreuna și cazurile deja acoperite.",
+  "good": [
+    {
+      "text": "Însoțitorul unui bolnav de cancer adult primește concediu plătit și pentru zilele de investigații (CT, RMN, biopsii, analize), nu doar pentru operații și tratamente.",
+      "article": "art. unic, art. 30¹ alin. (1)",
+      "quote": "îl însoțește pe acesta la investigații, la intervenții chirurgicale și tratamente prescrise de medicul curant de specialitate",
+      "weight": 3
+    },
+    {
+      "text": "Rămâne un singur însoțitor plătit pe zi, dar familia poate alterna de la o zi la alta. Regula se aplică acum și la investigații, ceea ce ține costurile sub control.",
+      "article": "art. unic, art. 30¹ alin. (2)",
+      "quote": "numai pentru o singură persoană pentru fiecare zi de investigație, intervenție chirurgicală, respectiv tratament",
+      "weight": 2
+    },
+    {
+      "text": "Recomandarea medicului curant leagă concediul de o nevoie medicală reală și reduce riscul ca dreptul să fie folosit abuziv din bani publici.",
+      "article": "art. unic, art. 30¹ alin. (1)",
+      "quote": "cu acordul pacientului, la recomandarea medicului curant de specialitate, îl însoțește pe acesta",
+      "weight": 1
+    },
+    {
+      "text": "Modificarea e îngustă: schimbă doar situațiile în care se poate lua concediul. Nu creează un concediu nou și nu mărește durata maximă sau indemnizația.",
+      "article": "art. unic",
+      "quote": "alineatele (1) și (2) se modifică și vor avea următorul cuprins",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Condiția nouă a recomandării medicului se aplică și la operații și tratamente, unde dreptul exista deja fără ea. Unii însoțitori pot pierde concediul sau îl pot primi mai târziu.",
+      "article": "art. unic, art. 30¹ alin. (1)",
+      "quote": "asiguratul care, cu acordul pacientului, la recomandarea medicului curant de specialitate, îl însoțește pe acesta",
+      "weight": 2
+    },
+    {
+      "text": "Legea nu spune în ce document se dă recomandarea și după ce criterii. Nici nu cere actualizarea normelor CNAS, așa că medicii și casele pot aplica regula diferit.",
+      "article": "art. unic, art. 30¹ alin. (1)",
+      "quote": "la recomandarea medicului curant de specialitate, îl însoțește pe acesta la investigații",
+      "weight": 2
+    },
+    {
+      "text": "Investigațiile trebuie prescrise de medicul curant de specialitate. Cele trimise de medicul de familie, cum sunt unele analize de rutină, par să rămână în afara dreptului.",
+      "article": "art. unic, art. 30¹ alin. (1) și (2)",
+      "quote": "fiecare zi de investigație, intervenție chirurgicală, respectiv tratament, prescrise de medicul curant de specialitate",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Condiția «la recomandarea medicului curant de specialitate» ar trebui scoasă sau limitată la investigații, iar legea ar trebui să spună în ce document se consemnează.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.3
+  },
+  "quotes": {
+    "checked": 7,
+    "verified": 7
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "slug": "plx-700-2026",
+  "billId": "Pl-x 700/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:38:16.973Z",
+  "inputHash": "74bf2b2d1ed0",
+  "riskScore": 2.3,
+  "summary": "Un scop bun, dar scris incomplet: le redă pensionarilor dreptul de a redirecționa 3,5% din impozit, fără regulile care să facă dreptul aplicabil.",
+  "good": [
+    {
+      "text": "Pensionarii ar putea din nou să trimită până la 3,5% din impozitul pe pensie către ONG-uri, culte sau burse private, fără să plătească nimic în plus.",
+      "article": "art. unic pct. 1",
+      "quote": "Contribuabilii care realizează venituri din pensii pot dispune asupra destinației unei sume reprezentând până la 3,5% din impozitul stabilit la alin. (1)",
+      "weight": 3
+    },
+    {
+      "text": "ONG-urile, unitățile de cult și programele de burse ar primi o sursă suplimentară de bani de la o categorie mare de contribuabili.",
+      "article": "art. unic pct. 1 și pct. 2",
+      "quote": "pentru susținerea entităților nonprofit care se înființează și funcționează în condițiile legii și a unităților de cult, precum și pentru acordarea de burse private",
+      "weight": 2
+    },
+    {
+      "text": "Îi trece pe pensionari în același articol și în aceleași condiții ca pe salariați (aceeași limită de 3,5%, aceiași beneficiari), eliminând o diferență de tratament.",
+      "article": "art. unic pct. 2",
+      "quote": "Contribuabilii pot dispune asupra destinației unei sume reprezentând până la 3,5% din impozitul stabilit potrivit art.78 alin.(6), art 82 alin. (6) și art.101 alin.(1)",
+      "weight": 2
+    },
+    {
+      "text": "Este o opțiune, nu o obligație: nu creează taxe, sancțiuni sau sarcini noi pentru pensionari.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Modifică doar regula generală din art. 123¹. Cererea, calculul și plata rămân scrise doar pentru salariați și nimeni nu e pus să le aplice la pensii, deci dreptul poate rămâne pe hârtie.",
+      "article": "art. unic pct. 2",
+      "quote": "La articolul 123¹ alineatul (1) se modifică și va avea următorul cuprins",
+      "weight": 3
+    },
+    {
+      "text": "O ordonanță din 2023 spune că impozitul pe pensii rămâne integral la bugetul de stat. Proiectul nu o modifică, așa că cele două legi s-ar contrazice.",
+      "article": "art. unic (lipsă)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Codul fiscal are deja un alin. (6) la art. 101, despre pensiile stabilite de instanțe. Noul text ar trebui numerotat (7), altfel apar confuzii sau suprascrieri.",
+      "article": "art. unic pct. 1",
+      "quote": "La articolul 101, după alineatul (5) se introduce un nou alineat, alin.(6), cu următorul cuprins",
+      "weight": 2
+    },
+    {
+      "text": "Nu spune de când se aplică. Cererea se face pentru impozitul anului trecut, deci nu e clar ce an acoperă, iar Codul fiscal cere de regulă 6 luni între publicare și aplicare.",
+      "article": "art. unic (lipsă)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Nu spune câți pensionari plătesc impozit și câți bani ar pleca de la buget. Lipsește calculul de cost cerut de lege pentru măsurile care reduc veniturile statului.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Expunerea de motive dă greșit actul care a eliminat dreptul (o ordonanță din 2023, nu OUG 89/2025) și spune greșit că alte venituri, în general, mai au acest drept.",
+      "article": "expunerea de motive, pct. 1 și 2",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Expunerea invocă un articol din Codul fiscal care nu are legătură cu egalitatea de tratament, deci unul dintre argumentele juridice e greșit ales.",
+      "article": "expunerea de motive, pct. 2",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Același drept e scris de două ori, în art. 101 și în art. 123¹, iar cele două articole trimit unul la altul. Dublarea poate crea confuzie la aplicare.",
+      "article": "art. unic pct. 1 și pct. 2",
+      "quote": "burse private, potrivit legii, în conformitate cu reglementările art.123¹",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Numerotați noul alineat ca (7), extindeți la pensii procedura din art. 123¹, derogați expres de la OUG 115/2023 și stabiliți aplicarea de la 1 ianuarie a anului următor.",
+    "removes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 9,
+    "verified": 6
+  }
+}

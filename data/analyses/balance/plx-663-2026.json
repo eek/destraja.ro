@@ -1,0 +1,87 @@
+{
+  "slug": "plx-663-2026",
+  "billId": "Pl-x 663/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:31:57.897Z",
+  "inputHash": "8e82705be2e7",
+  "riskScore": 2.3,
+  "summary": "O lege scurtă și în mare parte bună, care scade costurile firmelor cu numerarul, dar ridică plafonul mai mult decât justifică cifrele prezentate.",
+  "good": [
+    {
+      "text": "Firmele pot ține în casă până la 200.000 lei la final de zi, nu doar 50.000. Merg mai rar la bancă și au costuri și riscuri de transport mai mici, mai ales la sate.",
+      "article": "art. unic (art. 4² alin. (1) teza I)",
+      "quote": "Sumele în numerar aflate în casieria persoanelor prevăzute la art. 1 alin. (1) nu pot depăși, la sfârșitul fiecărei zile, plafonul de 200.000 lei.",
+      "weight": 3
+    },
+    {
+      "text": "Micșorează avantajul super- și hipermagazinelor, care au voie la 500.000 lei. Acum pot ține de 2,5 ori mai mult decât restul firmelor, nu de 10 ori.",
+      "article": "art. unic (art. 4² alin. (1) teza II)",
+      "quote": "sumele în numerar aflate în casierie nu pot depăși, la sfârșitul fiecărei zile, plafonul de 500.000 lei.",
+      "weight": 2
+    },
+    {
+      "text": "Regula de bază rămâne: banii peste plafon trebuie duși la bancă în două zile lucrătoare. Controlul asupra numerarului nu dispare.",
+      "article": "art. unic (art. 4² alin. (1) teza III)",
+      "quote": "Sumele în numerar care depășesc plafonul se depun în conturile bancare ale acestor persoane în termen de două zile lucrătoare.",
+      "weight": 2
+    },
+    {
+      "text": "Textul e simplu și clar: schimbă o singură cifră și nu adaugă obligații, taxe sau pedepse noi.",
+      "article": "art. unic",
+      "quote": "La articolul 4² din Legea nr. 70/2015 pentru întărirea disciplinei financiare",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Firmele pot ține de patru ori mai mulți bani gheață în afara băncii. Asta poate face mai ușoară ascunderea încasărilor de fisc, contrar scopului legii.",
+      "article": "art. unic (art. 4² alin. (1) teza I)",
+      "quote": "Sumele în numerar aflate în casieria persoanelor prevăzute la art. 1 alin. (1) nu pot depăși, la sfârșitul fiecărei zile, plafonul de 200.000 lei.",
+      "weight": 2
+    },
+    {
+      "text": "Creșterea de 4 ori nu e explicată cu cifre. Expunerea invocă datele INS și BNR, dar nu dă niciun număr, iar inflația din ultimii ani e mult sub +300%.",
+      "article": "expunerea de motive (fundamentarea documentară)",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Plafonul nou se aplică tuturor firmelor, inclusiv celor mari care nu sunt magazine. Motivul invocat însă este doar ajutorarea micilor comercianți.",
+      "article": "art. unic (art. 4² alin. (1) teza I)",
+      "quote": "Sumele în numerar aflate în casieria persoanelor prevăzute la art. 1 alin. (1) nu pot depăși",
+      "weight": 1
+    },
+    {
+      "text": "Expunerea spune că bugetul nu pierde nimic, dar nu estimează câte firme sunt afectate sau cum se schimbă colectarea taxelor.",
+      "article": "expunerea de motive (impactul financiar)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Plafonul rămâne o sumă fixă, fără actualizare automată cu inflația. Problema invocată acum va reapărea și va cere o nouă lege.",
+      "article": "art. unic (art. 4² alin. (1))",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Textul folosește termenii „supermagazine” și „hipermagazine” fără să îi definească. Nu e clar cine are dreptul la plafonul de 500.000 lei.",
+      "article": "art. unic (art. 4² alin. (1) teza II)",
+      "quote": "În cazul magazinelor de tipul cash and carry, supermagazinelor și hipermagazinelor care sunt organizate și funcționează în baza legislației în vigoare",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Plafonul general ar trebui calculat după inflația reală, cu cifrele puse în expunere, deci probabil o creștere mai mică, eventual cu actualizare periodică.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 9,
+    "verified": 7
+  }
+}

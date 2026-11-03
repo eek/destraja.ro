@@ -1,0 +1,76 @@
+{
+  "slug": "plx-683-2026",
+  "billId": "Pl-x 683/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:34:32.048Z",
+  "inputHash": "e8a7d5545b16",
+  "riskScore": 1.7,
+  "summary": "O schimbare simbolică de dată, fără costuri, cu un accent impus presei publice și câteva greșeli mărunte de redactare.",
+  "good": [
+    {
+      "text": "Mută ziua pe 16 august și o leagă de arestarea opoziției democratice. Astfel scade riscul ca ceremonia oficială să fie folosită pentru cultul unor figuri legionare.",
+      "article": "art. I pct. 1 (art. 1)",
+      "quote": "Se instituie Ziua Națională de Cinstire a Martirilor din Temnițele Comuniste, care se va marca în fiecare an la data de 16 august.",
+      "weight": 2
+    },
+    {
+      "text": "Păstrează ziua națională și obligația presei publice de a vorbi în acea zi despre prigoana comunistă, deci memoria victimelor rămâne prevăzută în lege.",
+      "article": "art. I pct. 2 (art. 3)",
+      "quote": "emisiuni și materiale informative despre evenimentele petrecute în perioada prigoanei comuniste",
+      "weight": 2
+    },
+    {
+      "text": "Nu creează zi liberă, cheltuieli obligatorii, taxe sau obligații pentru oameni ori firme. Schimbă doar o dată din calendar.",
+      "article": "art. I",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "TVR, Radio România și Agerpres primesc prin lege nu doar subiectul, ci și un accent anume. Asta restrânge autonomia editorială pe care Constituția o garantează presei publice.",
+      "article": "art. I pct. 2 (art. 3)",
+      "quote": "În ziua de 16 august, Societatea Română de Televiziune, Societatea Română de Radiodifuziune și Agenția Națională de Presă AGERPRES vor difuza, cu prioritate",
+      "weight": 2
+    },
+    {
+      "text": "Accentul pe arestările din 1952 ale membrilor partidelor lasă în umbră preoții, țăranii, partizanii și deținuții de la Canal, deși motivarea spune că se schimbă doar data.",
+      "article": "art. I pct. 2 (art. 3)",
+      "quote": "cu referire specială la operațiunile de represiune împotriva reprezentanților partidelor politice democratice desfășurate începând cu noaptea de 15 spre 16 august 1952",
+      "weight": 2
+    },
+    {
+      "text": "Formula finală invocă art. 77 alin. (2) din Constituție. Acel articol privește reexaminarea cerută de Președinte, nu o lege nouă, deci e o eroare de redactare.",
+      "article": "formula de adoptare",
+      "quote": "Această lege a fost adoptată de Parlamentul României, în condițiile art.77 alin. (2), cu respectarea prevederilor art. 75 și ale art. 76 alin. (2)",
+      "weight": 1
+    },
+    {
+      "text": "Motivarea invocă o contradicție cu legea antilegionară care nu există juridic. Mutarea zilei e o alegere politică legitimă, prezentată însă ca obligație legală.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Proiectul are un singur articol, dar îl numerotează «Art. I» în loc de «Articol unic», cum cer regulile de redactare a legilor.",
+      "article": "art. I",
+      "quote": "Art. I - Legea nr. 127/2017 privind instituirea Zilei Naționale de Cinstire a Martirilor din Temnițele Comuniste, publicată în Monitorul Oficial al României",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Art. 3 ar trebui să spună că presa publică «poate» difuza materialele, fără «referirea specială», iar din formula finală trebuie scoasă trimiterea la art. 77 alin. (2).",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 6,
+    "verified": 6
+  }
+}

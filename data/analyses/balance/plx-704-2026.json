@@ -1,0 +1,75 @@
+{
+  "slug": "plx-704-2026",
+  "billId": "PL-x 704/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:38:47.557Z",
+  "inputHash": "67fcd733f481",
+  "riskScore": 2,
+  "summary": "O prelungire simplă și utilă a unei interdicții care se aplică deja, cu riscuri mici de calendar și de proporționalitate.",
+  "good": [
+    {
+      "text": "Menține până la sfârșitul lui 2035 interdicția pentru programele antivirus și de securitate controlate de Rusia în instituțiile publice. Altfel, interdicția ar expira la 31 decembrie 2026.",
+      "article": "art. unic (noul art. 3)",
+      "quote": "Interdicția prevăzută la art.2 se aplică până la data de 31 decembrie 2035.",
+      "weight": 3
+    },
+    {
+      "text": "Schimbă doar data de final. Nu lărgește interdicția, nu adaugă amenzi și nu impune nimic nou firmelor sau cetățenilor.",
+      "article": "art. unic",
+      "quote": "Articolul 3 din Legea nr.354/2022 privind protecția sistemelor informatice ale autorităților și instituțiilor publice",
+      "weight": 2
+    },
+    {
+      "text": "Nu cere bani publici în plus: instituțiile lucrează deja fără aceste produse din 2022, deci nu trebuie să înlocuiască nimic.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Un termen lung dă stabilitate. Instituțiile și furnizorii cunosc din timp regulile pentru achizițiile IT și nu mai depind de prelungiri repetate.",
+      "article": "art. unic; expunerea de motive, pct. 2.2",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Dacă legea apare în Monitorul Oficial după 31 decembrie 2026, interdicția expiră între timp. Proiectul nu spune ce se întâmplă cu acest gol, deși expunerea îl declară urgent.",
+      "article": "art. unic; expunerea de motive, pct. 2.3",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Interdicția e prelungită automat cu nouă ani, fără nicio reevaluare a amenințării pe parcurs, chiar dacă situația se schimbă.",
+      "article": "art. unic (noul art. 3)",
+      "quote": "Interdicția prevăzută la art.2 se aplică până la data de 31 decembrie 2035.",
+      "weight": 1
+    },
+    {
+      "text": "Păstrează neschimbate criteriile largi de control rusesc «direct sau indirect», fără să lămurească limita. Furnizorii pot rămâne nesiguri dacă un produs e interzis.",
+      "article": "art. unic (prin trimitere la art. 1 și 2 din Legea nr. 354/2022)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Expunerea susține că firmele nu sunt afectate. Totuși, revânzătorii români ai acestor produse rămân excluși din achizițiile publice încă nouă ani. Efectul e mic și există din 2022.",
+      "article": "expunerea de motive, secț. 3",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "De adăugat o regulă care repune interdicția în vigoare și dacă legea apare după 31.12.2026, precum și o reevaluare obligatorie a interdicției la jumătatea perioadei.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 7,
+    "verified": 3
+  }
+}

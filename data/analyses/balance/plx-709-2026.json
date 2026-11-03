@@ -1,0 +1,101 @@
+{
+  "slug": "plx-709-2026",
+  "billId": "PL-x 709/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:39:50.515Z",
+  "inputHash": "ba51286f0bb9",
+  "riskScore": 2.3,
+  "summary": "O lege mică și în general bună pentru parcurile științifice, cu două formulări vagi despre firma administrator care trebuie lămurite.",
+  "good": [
+    {
+      "text": "Parcurile care funcționează deja nu o iau de la capăt cu autorizarea dacă administratorul își adaugă activități. E suficientă o notificare.",
+      "article": "art. II alin. (2)",
+      "quote": "Actualizarea obiectului de activitate prevăzută la alin.(1) nu afectează valabilitatea autorizației de funcționare a parcului științific și tehnologic și nu necesită reluarea procedurii de autorizare",
+      "weight": 2
+    },
+    {
+      "text": "Spune clar că mai multe universități sau institute de cercetare pot înființa împreună un parc, nu doar unul singur.",
+      "article": "art. I pct. 1 (art. 1 alin. (4))",
+      "quote": "contract de asociere în participațiune încheiat între una sau mai multe instituții de învățământ superior acreditate și/sau unități de cercetare-dezvoltare",
+      "weight": 2
+    },
+    {
+      "text": "Firma care administrează parcul nu mai e limitată strict la administrare. Poate face și alte activități, dar numai dacă servesc obiectivelor parcului.",
+      "article": "art. I pct. 1 (art. 1 alin. (5))",
+      "quote": "precum și orice alte activități necesare atingerii obiectivelor prevăzute la art.2, putând fi înregistrate ca activități secundare",
+      "weight": 2
+    },
+    {
+      "text": "Condiția de autorizare cere „cel puțin o” universitate sau unitate de cercetare, la fel ca regula de înființare a parcului, deci cele două texte se potrivesc.",
+      "article": "art. I pct. 2 (art. 6 alin. (2) lit. b))",
+      "quote": "face dovada că din asocierea în participațiune fac parte cel puțin o instituție de învățământ superior acreditată și/sau o unitate de cercetare-dezvoltare",
+      "weight": 1
+    },
+    {
+      "text": "Înlocuiește termenul vechi „societăți comerciale” cu trimiterea corectă la Legea societăților nr. 31/1990, cum cere legislația de azi.",
+      "article": "art. I pct. 1 (art. 1 alin. (4) și (5))",
+      "quote": "societăți reglementate de Legea societăților nr.31/1990, republicată, cu modificările și completările ulterioare",
+      "weight": 1
+    },
+    {
+      "text": "Legea intră în vigoare după 30 de zile, așa că parcurile și administratorii au timp să se pregătească.",
+      "article": "art. III",
+      "quote": "Prezenta lege intră în vigoare la 30 de zile de la data publicării în Monitorul Oficial al României, Partea I.",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Administratorul poate face „orice alte activități necesare”, dar nimeni nu verifică dacă sunt chiar necesare. Poate face afaceri proprii, chiar în concurență cu firmele din parc.",
+      "article": "art. I pct. 1 (art. 1 alin. (5))",
+      "quote": "orice alte activități necesare atingerii obiectivelor prevăzute la art.2, putând fi înregistrate ca activități secundare",
+      "weight": 2
+    },
+    {
+      "text": "Nu se spune ce majoritate alege administratorul: după numărul de asociați sau după cât a investit fiecare. Un investitor mare și-ar putea impune firma, peste universitate.",
+      "article": "art. I pct. 1 (art. 1 alin. (5), teza finală)",
+      "quote": "Administratorul este desemnat de asocierea în participațiune, cu votul majorității",
+      "weight": 2
+    },
+    {
+      "text": "Un vot cu majoritate „în actul de constituire” nu are sens, fiindcă actul e un contract semnat de toți. Nici schimbarea ulterioară a administratorului nu e reglementată.",
+      "article": "art. I pct. 1 (art. 1 alin. (5), teza finală)",
+      "quote": "cu votul majorității, în cadrul actului de constituire prevăzut la alin.(4)",
+      "weight": 1
+    },
+    {
+      "text": "Fraza e scrisă confuz: se poate citi că și celelalte activități fac parte din activitatea principală. Nimic nu asigură că administrarea parcului rămâne pe primul loc.",
+      "article": "art. I pct. 1 (art. 1 alin. (5))",
+      "quote": "a cărei activitate principală este administrarea parcului științific și tehnologic, precum și orice alte activități necesare",
+      "weight": 1
+    },
+    {
+      "text": "Textul trimite greșit la „Ordonanța nr. 14/2022” în loc de 14/2002. Eroarea trebuie corectată, ca să nu creeze dubii la aplicare.",
+      "article": "art. II alin. (1)",
+      "quote": "art.1 alin (5) din Ordonanța Guvernului nr.14/2022 privind constituirea și funcționarea parcurilor științifice și tehnologice",
+      "weight": 1
+    },
+    {
+      "text": "Nu există nicio urmare dacă administratorul nu își actualizează obiectul de activitate sau nu notifică autoritatea, așa că obligația poate rămâne doar pe hârtie.",
+      "article": "art. II alin. (2)",
+      "quote": "Actualizarea obiectului de activitate se notifică autorității competente în termen de 30 de zile de la înregistrarea acesteia",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Precizați ce majoritate alege și înlocuiește administratorul (pe asociați sau pe cote), cereți autorității să verifice la notificare că activitățile secundare servesc parcului și corectați trimiterea la OG 14/2002.",
+    "removes": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 12,
+    "verified": 12
+  }
+}

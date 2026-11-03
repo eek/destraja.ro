@@ -1,0 +1,82 @@
+{
+  "slug": "plx-702-2026",
+  "billId": "Pl-x 702/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:38:41.514Z",
+  "inputHash": "0c1ff80cffdf",
+  "riskScore": 2,
+  "summary": "O lege bună și punctuală, care deschide arhivele diplomatice după 30 de ani, cu o excepție de securitate formulată prea îngust.",
+  "good": [
+    {
+      "text": "Documentele de politică externă devin accesibile după 30 de ani, nu după 50, ca restul arhivelor și ca în UE. Cercetătorii și presa pot studia mai devreme diplomația statului.",
+      "article": "art. unic (liniuța a 7-a din anexa nr. 6)",
+      "quote": "documentele privind politica externă, după 30 de ani de la crearea lor",
+      "weight": 3
+    },
+    {
+      "text": "Documentele strict secrete rămân închise până la expirarea clasificării, așa că deschiderea arhivelor nu expune informațiile cele mai sensibile ale statului.",
+      "article": "art. unic (liniuța a 7-a din anexa nr. 6)",
+      "quote": "strict secret și strict secret de importanță deosebită care pot fi date în consultare după expirarea termenelor de clasificare",
+      "weight": 2
+    },
+    {
+      "text": "Schimbă o singură liniuță. Termenele pentru dosare medicale, viață privată sau siguranță națională rămân neatinse, deci protecția datelor personale nu slăbește.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Excepția omite nivelul «secret», a cărui clasificare poate fi prelungită peste 30 de ani. S-ar putea susține că astfel de documente se deschid la 30 de ani fără declasificare.",
+      "article": "art. unic (liniuța a 7-a din anexa nr. 6)",
+      "quote": "cu excepția documentelor clasificate strict secret și strict secret de importanță deosebită",
+      "weight": 2
+    },
+    {
+      "text": "Leagă accesul de «expirarea termenelor», nu de declasificare, și trimite la Legea 182/2002, deși termenele sunt în HG 585/2002. E neclar ce se întâmplă când clasificarea e prelungită.",
+      "article": "art. unic (liniuța a 7-a din anexa nr. 6)",
+      "quote": "după expirarea termenelor de clasificare conform Legii nr. 182/2002 privind protecția informațiilor clasificate",
+      "weight": 1
+    },
+    {
+      "text": "Nu spune nimic despre documentele clasificate primite de la UE sau NATO, deși expunerea citează chiar regula UE că acestea nu pot fi deschise înainte de declasificare.",
+      "article": "art. unic (liniuța a 7-a din anexa nr. 6)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Deschide dintr-odată circa 20 de ani de dosare (aprox. 1976–1996), fără perioadă de tranziție. Expunerea nu estimează costurile pentru arhive și declară că nu are niciun impact.",
+      "article": "art. unic; expunerea de motive, secț. 3–4",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Nu lămurește ce termen se aplică unui document diplomatic care ține și de siguranța națională (100 de ani). Instituția poate alege termenul mai lung și golește astfel reforma.",
+      "article": "art. unic (anexa nr. 6)",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Terminologia nu e unitară: textul spune «în consultare», titlul anexei «în cercetare», iar tabelul din expunere «perioade de protecție» în loc de «termene de clasificare».",
+      "article": "art. unic; titlul anexei nr. 6",
+      "quote": "care pot fi date în consultare după expirarea termenelor de clasificare",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Excepția ar trebui să acopere toate documentele clasificate, inclusiv cele primite de la UE sau NATO, și să permită accesul doar după declasificarea lor potrivit Legii 182/2002.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 5,
+    "verified": 5
+  }
+}

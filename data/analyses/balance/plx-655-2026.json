@@ -1,0 +1,98 @@
+{
+  "slug": "plx-655-2026",
+  "billId": "PL-x 655/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:29:55.164Z",
+  "inputHash": "64ac6aa35c33",
+  "riskScore": 2,
+  "summary": "O lege scurtă și bună, care face aplicabile amenzile existente pentru comerțul cu lucrări de licență și are o formulare de clarificat.",
+  "good": [
+    {
+      "text": "Oricine poate sesiza poliția despre vânzarea de lucrări de licență sau disertație: studenți, profesori, jurnaliști, ONG-uri. Până acum doar universitatea putea cere intervenția.",
+      "article": "art. unic (art. 259 alin. (6))",
+      "quote": "la solicitarea oricărei persoane fizice sau juridice de drept public sau drept privat",
+      "weight": 3
+    },
+    {
+      "text": "Poliția poate acționa și din proprie inițiativă, de exemplu când vede reclame online, fără să aștepte o cerere. Așa poate interveni înainte ca anunțurile să fie șterse sau mutate.",
+      "article": "art. unic (art. 259 alin. (6))",
+      "quote": "drept public sau drept privat, precum și din oficiu",
+      "weight": 3
+    },
+    {
+      "text": "Dispare condiția ca universitatea să ceară motivat intervenția. Amenzile date fără o astfel de cerere nu mai pot fi anulate în instanță pe acest motiv.",
+      "article": "art. unic (art. 259 alin. (6))",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Se schimbă doar cine poate porni verificarea. Nu apar fapte noi interzise, amenzi noi, taxe sau obligații pentru oameni și firme.",
+      "article": "art. unic",
+      "quote": "cu modificările și completările ulterioare, alineatul (6) se modifică și va avea următorul cuprins",
+      "weight": 2
+    },
+    {
+      "text": "Regula devine aceeași ca la celelalte contravenții, unde poliția acționează la plângerea oricui sau din oficiu. Legea devine mai coerentă.",
+      "article": "art. unic (art. 259 alin. (6))",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "„La solicitarea oricărei persoane” poate fi citit ca și cum poliția amendează la cerere. Textul ar trebui să spună că sesizarea doar pornește verificarea, iar agentul constată fapta.",
+      "article": "art. unic (art. 259 alin. (6))",
+      "quote": "la solicitarea oricărei persoane fizice sau juridice de drept public sau drept privat, precum și din oficiu",
+      "weight": 2
+    },
+    {
+      "text": "Amenzile foarte mari deja în lege, de până la 200.000 lei, inclusiv pentru studentul care cumpără, vor fi aplicate mai des, fără ca proiectul să verifice dacă sunt proporționale.",
+      "article": "art. unic (art. 259 alin. (6))",
+      "quote": "Constatarea contravenției și aplicarea amenzilor contravenționale prevăzute la alin.(5) se fac",
+      "weight": 2
+    },
+    {
+      "text": "Oricine, inclusiv un concurent, poate cere verificarea. Cu amenzi atât de mari, firme de corectură sau meditații pot fi hărțuite cu sesizări, fără vreo protecție specială în text.",
+      "article": "art. unic (art. 259 alin. (6))",
+      "quote": "oricărei persoane fizice sau juridice de drept public sau drept privat",
+      "weight": 1
+    },
+    {
+      "text": "Inițiatorii spun că nu costă nimic, dar mai multe sesizări înseamnă mai multă muncă pentru poliție și mai multe contestații. Lipsește o estimare.",
+      "article": "expunerea de motive",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Schimbarea se aplică tuturor amenzilor de la alin. (5), nu doar celor pentru lucrări vândute, dar expunerea de motive nu analizează efectul asupra celorlalte fapte.",
+      "article": "art. unic (art. 259 alin. (6))",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Poliția decide singură dacă o lucrare e făcută pentru un examen, fără obligația de a anunța sau consulta universitatea în cauză, care are expertiza.",
+      "article": "art. unic (art. 259 alin. (6))",
+      "quote": "se fac de către ofițerii sau agenții de poliție din cadrul Ministerului Afacerilor Interne",
+      "weight": 1
+    },
+    {
+      "text": "Nu se spune ce structură a poliției se ocupă, mai ales de cazurile online. Formularea vagă rămâne din legea actuală și poate duce la pasarea sesizărilor de la unii la alții.",
+      "article": "art. unic (art. 259 alin. (6))",
+      "quote": "agenții de poliție din cadrul Ministerului Afacerilor Interne, care au competențe în domeniu",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Înlocuirea lui „la solicitarea” cu „la sesizarea” și precizarea că agentul constată el fapta după verificare.",
+    "removes": [
+      0
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 10,
+    "verified": 8
+  }
+}

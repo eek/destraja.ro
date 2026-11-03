@@ -1,0 +1,99 @@
+{
+  "slug": "plx-646-2026",
+  "billId": "PL 646/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:28:10.499Z",
+  "inputHash": "6ffcb6fc5e6d",
+  "riskScore": 2.3,
+  "summary": "O lege mică și utilă pentru clienți, cu o scăpare: operatorii independenți de ATM-uri pot rămâne în afara obligației și a amenzii.",
+  "good": [
+    {
+      "text": "ATM-ul trebuie să te lase să scrii exact suma pe care o vrei. Butoanele cu sume fixe pot rămâne, dar nu pot fi singura variantă, deci nu mai ești forțat să scoți mai mult.",
+      "article": "art. I pct. 1 (art. 221¹ alin. (1) și (3))",
+      "quote": "au obligația de a pune la dispoziția utilizatorilor, prin interfața acestora, opțiunea introducerii unei sume personalizate pentru retragerea de numerar",
+      "weight": 3
+    },
+    {
+      "text": "Regula se aplică și clienților altor bănci, oricare ar fi emitentul cardului, rețeaua (Visa, Mastercard) sau moneda. Se termină cu situația în care doar clienții băncii proprii pot alege suma.",
+      "article": "art. I pct. 1 (art. 221¹ alin. (2))",
+      "quote": "indiferent de emitentul cardului, de schema de card utilizată sau de moneda contului ori a retragerii",
+      "weight": 3
+    },
+    {
+      "text": "Băncile nu sunt obligate la imposibil: suma trebuie să poată fi dată cu banii și bancnotele existente în aparat. Asta face regula realistă și ușor de respectat.",
+      "article": "art. I pct. 1 (art. 221¹ alin. (4))",
+      "quote": "se aplică în limitele disponibilului existent în automatul bancar și ale structurii bancnotelor disponibile",
+      "weight": 2
+    },
+    {
+      "text": "Limitele tehnice sau de securitate invocate de bancă trebuie să fie obiective, proporționale și aceleași pentru toți clienții aflați în aceeași situație, ceea ce limitează abuzurile.",
+      "article": "art. I pct. 1 (art. 221¹ alin. (4))",
+      "quote": "aceste din urmă limite trebuie să fie obiective, nediscriminatorii, proporționale și aplicate în mod identic utilizatorilor aflați în situații comparabile",
+      "weight": 2
+    },
+    {
+      "text": "Încălcarea obligației devine contravenție, cu amendă de 50.000–100.000 lei pentru bănci și instituțiile de plată, așa că regula nu rămâne doar pe hârtie.",
+      "article": "art. I pct. 2 (art. 230)",
+      "quote": "art.221¹ alin.(1) și (2) în situația în care sunt afectate sau pot fi afectate interesele consumatorilor, și se sancționează cu amendă de la 50.000 lei la 100.000 lei",
+      "weight": 2
+    },
+    {
+      "text": "Legea intră în vigoare după 120 de zile, ceea ce lasă operatorilor timp să actualizeze programele ATM-urilor.",
+      "article": "art. II",
+      "quote": "Prezenta lege intră în vigoare în termen de 120 de zile de la data publicării în Monitorul Oficial al României, Partea I",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Amenda se aplică doar prestatorilor de la art. 2 (bănci, instituții de plată). Operatorii independenți de ATM-uri, pomeniți în noul articol, pot încălca regula fără să fie amendați.",
+      "article": "art. I pct. 2 (art. 230)",
+      "quote": "Constituie contravenție încălcarea de către prestatorii de servicii de plată prevăzuți la art. 2 a dispozițiilor art. 4 alin. (4)",
+      "weight": 3
+    },
+    {
+      "text": "Obligația e pusă pe „prestatorii de servicii de plată”, dar textul pomenește și operatorii independenți de ATM, pe care legea îi exclude din domeniul ei. Nu e clar dacă ei sunt obligați.",
+      "article": "art. I pct. 1 (art. 221¹ alin. (1))",
+      "quote": "indiferent dacă terminalul este operat direct de prestatorul emitent al cardului sau de un furnizor de servicii de retragere de numerar prin ATM în sensul art.4 alin.(1) lit.p)",
+      "weight": 2
+    },
+    {
+      "text": "Cardurile băncilor străine care nu activează în România (turiști, unii români din diaspora) nu sunt protejate: pentru ele ATM-ul poate oferi în continuare doar sume fixe.",
+      "article": "art. I pct. 1 (art. 221¹ alin. (2))",
+      "quote": "cardurilor emise de prestatori de servicii de plată care desfășoară activitate pe territoriul României",
+      "weight": 2
+    },
+    {
+      "text": "„Limitele tehnice” nu sunt definite: un operator poate invoca un program vechi, iar „situații comparabile” îi permite să susțină că un card al altei bănci nu e în aceeași situație.",
+      "article": "art. I pct. 1 (art. 221¹ alin. (4))",
+      "quote": "precum și ale limitelor tehnice și de securitate aplicabile operațiunii",
+      "weight": 2
+    },
+    {
+      "text": "Amenda se aplică doar când sunt afectați consumatorii. Dacă operatorul refuză suma personalizată pe cardurile firmelor, nu există sancțiune.",
+      "article": "art. I pct. 2 (art. 230)",
+      "quote": "în situația în care sunt afectate sau pot fi afectate interesele consumatorilor",
+      "weight": 1
+    },
+    {
+      "text": "Greșeală de redactare: „territoriul” în loc de „teritoriul”. Nu schimbă sensul, dar trebuie corectată.",
+      "article": "art. I pct. 1 (art. 221¹ alin. (2))",
+      "quote": "pe territoriul României, fie în temeiul autorizării acordate de Banca Națională a României, fie în temeiul dreptului de stabilire",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Art. 221¹ alin. (1) și art. 230 ar trebui să numească expres și operatorii independenți de ATM de la art. 4 alin. (1) lit. p), ca obligația și amenda să li se aplice și lor.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 12,
+    "verified": 12
+  }
+}

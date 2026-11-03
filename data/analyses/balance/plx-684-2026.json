@@ -1,0 +1,97 @@
+{
+  "slug": "plx-684-2026",
+  "billId": "Pl-x 684/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:35:27.686Z",
+  "inputHash": "b51eb806faa4",
+  "riskScore": 2,
+  "summary": "O lege utilă și cu risc mic, a cărei singură prevedere e scrisă neglijent și lasă girofarul pe prea multe mașini, prea mult timp.",
+  "good": [
+    {
+      "text": "Mașinile echipelor sociale de stradă pot folosi girofar galben, ca să fie văzute când opresc noaptea pe marginea drumului; asta îi protejează pe angajați și pe oamenii ajutați.",
+      "article": "art. unic pct. 1",
+      "quote": "autovehiculele aparținând furnizorilor de servicii sociale acreditați, potrivit legii, care desfășoară activități de asistență socială stradală sau servicii mobile de intervenție în regim de urgență",
+      "weight": 3
+    },
+    {
+      "text": "Dreptul e dat doar furnizorilor acreditați potrivit legii, nu oricărei asociații care se declară socială, ceea ce limitează abuzurile.",
+      "article": "art. unic pct. 1",
+      "quote": "precum și autovehiculele aparținând furnizorilor de servicii sociale acreditați, potrivit legii",
+      "weight": 2
+    },
+    {
+      "text": "Mașinile intră la lumina galbenă, nu la albastră sau roșie: nu primesc prioritate în trafic, doar îi avertizează pe ceilalți șoferi să fie atenți.",
+      "article": "art. unic pct. 1",
+      "quote": "c) pentru lumina galbenă - autovehiculele cu mase și/sau dimensiuni de gabarit depășite ori care însoțesc asemenea vehicule",
+      "weight": 2
+    },
+    {
+      "text": "Nu apar obligații, taxe sau amenzi noi pentru cetățeni ori firme; montarea girofarului rămâne o alegere a furnizorului.",
+      "article": "art. unic pct. 1",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "„Care desfășoară” se poate lega de furnizor, nu de mașină: un DGASPC sau un ONG mare cu o singură echipă de stradă ar putea pune girofar pe toate mașinile sale.",
+      "article": "art. unic pct. 1",
+      "quote": "furnizorilor de servicii sociale acreditați, potrivit legii, care desfășoară activități de asistență socială stradală",
+      "weight": 2
+    },
+    {
+      "text": "„În timpul programului de lucru” e vag și îl stabilește chiar furnizorul: girofarul poate merge la orice drum de rutină, nu doar când echipa intervine sau stă pe carosabil.",
+      "article": "art. unic pct. 1",
+      "quote": "servicii mobile de intervenție în regim de urgență, în timpul programului de lucru",
+      "weight": 2
+    },
+    {
+      "text": "„Servicii mobile de intervenție în regim de urgență” nu e definit, iar prin „sau” nu cere muncă în stradă, așa că poate cuprinde multe alte servicii sociale.",
+      "article": "art. unic pct. 1",
+      "quote": "care desfășoară activități de asistență socială stradală sau servicii mobile de intervenție în regim de urgență",
+      "weight": 2
+    },
+    {
+      "text": "„Aparținând” înseamnă proprietate: mașinile în leasing, închiriate sau în comodat, des folosite de ONG-uri, rămân pe dinafară la control. „Utilizate de” ar fi mai corect.",
+      "article": "art. unic pct. 1",
+      "quote": "precum și autovehiculele aparținând furnizorilor de servicii sociale acreditați",
+      "weight": 2
+    },
+    {
+      "text": "Limita de timp stă la finalul întregii liste și poate fi citită ca valabilă și pentru deszăpezire, tractări sau transporturi agabaritice, restrângându-le fără motiv.",
+      "article": "art. unic pct. 1",
+      "quote": "curățeniei străzilor, deszăpezirii sau tractării, transportului și depanării autovehiculelor rămase în pană sau avariate",
+      "weight": 1
+    },
+    {
+      "text": "Se cere doar acreditarea furnizorului, nu și licența serviciului de stradă, deși Legea 197/2012 le tratează separat.",
+      "article": "art. unic pct. 1",
+      "quote": "autovehiculele aparținând furnizorilor de servicii sociale acreditați, potrivit legii",
+      "weight": 1
+    },
+    {
+      "text": "Expunerea spune că nu costă bugetul, dar furnizorii publici, ca DGASPC-urile, ar plăti girofarele tot din bani publici; costul e mic și opțional.",
+      "article": "expunerea de motive, pct. 6",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Folosiți „utilizate legal de” în loc de „aparținând”, limitați dreptul la mașinile alocate serviciilor licențiate de stradă sau urgență, definite clar, și înlocuiți „în timpul programului de lucru” cu „numai pe durata intervenției”, valabil doar pentru această categorie.",
+    "removes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 9,
+    "verified": 9
+  }
+}

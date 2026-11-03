@@ -1,0 +1,68 @@
+{
+  "slug": "plx-648-2026",
+  "billId": "PL-x 648/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:27:52.127Z",
+  "inputHash": "cd52fcef9581",
+  "riskScore": 1.7,
+  "summary": "O redenumire onorifică simplă, fără costuri pentru bugetul de stat și fără obligații noi, cu o mică neclaritate de redactare la art. II.",
+  "good": [
+    {
+      "text": "Stațiunea de la Dăbuleni primește numele cercetătorului Petre Baniță. Se schimbă doar denumirea, nu atribuțiile, banii, personalul sau terenurile, deci contractele continuă.",
+      "article": "art. I",
+      "quote": "sintagma „Stațiunea de Cercetare-Dezvoltare pentru Cultura Plantelor pe Nisipuri Dăbuleni” se înlocuiește cu sintagma „Stațiunea de Cercetare-Dezvoltare pentru Cultura Plantelor pe Nisipuri «Prof. univ. dr. Petre Baniță» Dăbuleni”",
+      "weight": 2
+    },
+    {
+      "text": "Guvernul are 90 de zile să-și pună hotărârile de acord cu noul nume, ca legea și actele Guvernului să nu folosească denumiri diferite.",
+      "article": "art. II",
+      "quote": "În termen de 90 de zile de la data intrării în vigoare a prezentei legi, Guvernul va modifica în mod corespunzător Hotărârea Guvernului nr.837/2017",
+      "weight": 2
+    },
+    {
+      "text": "Legea nu creează obligații, taxe sau amenzi pentru cetățeni ori firme și nu prevede cheltuieli noi de la bugetul de stat.",
+      "article": "întregul proiect",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Art. II citează titlul HG 837/2017 fără ghilimele. Nu e clar unde se termină titlul, iar „desființarea” unui centru și modificarea inventarului pot părea sarcini noi.",
+      "article": "art. II",
+      "quote": "prin desființarea Centrului de Cercetare-Dezvoltare pentru Cultura Plantelor pe Nisipuri Dăbuleni, și modificarea anexei nr.3 la Hotărârea Guvernului nr.1.705/2006",
+      "weight": 2
+    },
+    {
+      "text": "Legea scrie „Prof. univ. dr.”, iar expunerea de motive scrie „Prof. dr.”. Diferența poate duce la ștampile și acte cu nume diferite. Contează doar textul legii.",
+      "article": "art. I",
+      "quote": "sintagma „Stațiunea de Cercetare-Dezvoltare pentru Cultura Plantelor pe Nisipuri «Prof. univ. dr. Petre Baniță» Dăbuleni”",
+      "weight": 1
+    },
+    {
+      "text": "Numele se schimbă automat doar în Legea 45/2009 și, prin art. II, în două hotărâri. Alte acte și evidențe trebuie actualizate separat, deși expunerea de motive spune altceva.",
+      "article": "art. I",
+      "quote": "În tot cuprinsul Legii nr.45/2009 privind organizarea și funcționarea Academiei de Științe Agricole și Silvice",
+      "weight": 1
+    },
+    {
+      "text": "Ștampilele, panourile și actele noi se plătesc din veniturile proprii ale stațiunii, bani care altfel ar merge la cercetare. Costul nu este estimat nicăieri.",
+      "article": "art. I",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Titlul HG nr. 837/2017 să fie pus între ghilimele, iar obligația de actualizare a inventarului bunurilor publice să fie scrisă separat.",
+    "removes": [
+      0
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.2
+  },
+  "quotes": {
+    "checked": 5,
+    "verified": 5
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "plx-711-2026",
+  "billId": "Pl-x 711/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:40:05.566Z",
+  "inputHash": "4ff6cb7bc836",
+  "riskScore": 2.3,
+  "summary": "O lege bună și scurtă care ascunde CNP-ul și domiciliul antreprenorilor, dar e prea vagă despre ce anume se ascunde și ce trebuie să rămână public.",
+  "good": [
+    {
+      "text": "Monitorul Oficial va ascunde din oficiu CNP-ul, domiciliul și alte date personale din actele firmelor și cooperativelor, fără cerere, reducând riscul de furt de identitate.",
+      "article": "art. I (art. 12¹ alin. (1))",
+      "quote": "Actele care se publică în Monitorul Oficial al României, Partea a IV-a și Partea a VII-a, care conțin date cu caracter personal, se anonimizează",
+      "weight": 3
+    },
+    {
+      "text": "Spune clar cine răspunde (Regia „Monitorul Oficial”) și când (înainte de publicare). Până acum se cerea protecția datelor, dar nimeni anume nu era obligat s-o aplice.",
+      "article": "art. I (art. 12¹ alin. (1))",
+      "quote": "care conțin date cu caracter personal, se anonimizează de către Regia Autonomă „Monitorul Oficial” înainte de publicare",
+      "weight": 2
+    },
+    {
+      "text": "Numele, prenumele și rolul persoanei rămân publice, deci se vede în continuare cine conduce sau reprezintă o firmă. Asta contează pentru parteneri și creditori.",
+      "article": "art. I (art. 12¹ alin. (2))",
+      "quote": "Dintre datele cu caracter personal menționate la alineatul (1), se exceptează de la anonimizare numele și prenumele persoanei fizice, precum și calitatea acesteia",
+      "weight": 2
+    },
+    {
+      "text": "Cere actualizarea procedurii tehnice de publicare într-un termen fix de 30 de zile, ca regula să se aplice efectiv.",
+      "article": "art. II",
+      "quote": "secretarul general al Camerei Deputaților va modifica Ordinul nr. 367/2022 privind procedurile publicării, republicării și rectificării",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Nu se corelează cu legile care spun ce trebuie publicat despre firme și cooperative. Strict citit, ar ascunde și sediul aflat acasă sau cota asociaților, utile creditorilor.",
+      "article": "art. I (art. 12¹ alin. (2))",
+      "quote": "Dintre datele cu caracter personal menționate la alineatul (1), se exceptează de la anonimizare numele și prenumele persoanei fizice",
+      "weight": 2
+    },
+    {
+      "text": "Nu spune ce înseamnă „anonimizare” și ce date se șterg. Cum numele rămâne, e doar o mascare parțială, iar Regia decide singură ce taie, cu riscul unor practici diferite.",
+      "article": "art. I (art. 12¹ alin. (1))",
+      "quote": "se anonimizează de către Regia Autonomă „Monitorul Oficial” înainte de publicare",
+      "weight": 2
+    },
+    {
+      "text": "Obligația se aplică la 3 zile după publicarea legii, dar procedura poate veni abia după 30 de zile. În acest interval nu e clar cum se lucrează și pot apărea întârzieri.",
+      "article": "art. II",
+      "quote": "În termen de 30 de zile de la data intrării în vigoare a prezentei legi",
+      "weight": 2
+    },
+    {
+      "text": "„Calitatea” persoanei nu e definită. Legea nu spune că e rolul în firmă sau cooperativă (administrator, asociat); asta apare doar în expunerea de motive.",
+      "article": "art. I (art. 12¹ alin. (2))",
+      "quote": "se exceptează de la anonimizare numele și prenumele persoanei fizice, precum și calitatea acesteia",
+      "weight": 1
+    },
+    {
+      "text": "Se aplică doar actelor publicate de acum înainte. Actele deja publicate, cu CNP-uri și adrese, rămân accesibile și nu există nicio prevedere pentru ele.",
+      "article": "art. I (art. 12¹ alin. (1))",
+      "quote": "Actele care se publică în Monitorul Oficial al României, Partea a IV-a și Partea a VII-a",
+      "weight": 1
+    },
+    {
+      "text": "Nu spune cine plătește munca în plus a Regiei și nu interzice scumpirea publicării pentru firme. Impactul financiar nu e estimat.",
+      "article": "art. I și art. II",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Art. 12¹ să enumere datele ascunse (CNP, domiciliu, act de identitate), să păstreze ce cer legile speciale și să definească „calitatea”, iar obligația să se aplice după modificarea procedurii.",
+    "removes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 9,
+    "verified": 9
+  }
+}

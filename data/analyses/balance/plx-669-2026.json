@@ -1,0 +1,95 @@
+{
+  "slug": "plx-669-2026",
+  "billId": "Pl-x 669/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:32:50.612Z",
+  "inputHash": "e6e04b2da449",
+  "riskScore": 2.3,
+  "summary": "O lege bună și ieftină pentru tinerii cu CES, cu câteva formulări neclare care trebuie reparate, nu o lege rea.",
+  "good": [
+    {
+      "text": "Fiecare universitate de stat trebuie să dea cel puțin 5 locuri fără taxă la licență și 5 la master pentru tinerii cu cerințe educaționale speciale. Poate da și mai multe.",
+      "article": "art. I pct. 1 (art. 128 alin. (8¹))",
+      "quote": "Instituțiile de învățământ superior de stat acordă câte cel puțin 5 locuri bugetate",
+      "weight": 3
+    },
+    {
+      "text": "Locurile se iau din numărul de locuri deja aprobat. Măsura nu cere bani în plus de la buget, iar ceilalți candidați pierd foarte puține locuri.",
+      "article": "art. I pct. 1 (art. 128 alin. (8¹))",
+      "quote": "programele de studii universitare de master, în cadrul cifrei de școlarizare aprobate",
+      "weight": 2
+    },
+    {
+      "text": "Locurile rezervate care nu se ocupă trec la ceilalți candidați, așa că nu rămân goale și banii nu se irosesc.",
+      "article": "art. I pct. 2 (art. 128 alin. (9))",
+      "quote": "În cazul în care locurile prevăzute la alin. (8) și alin. (8¹) nu se ocupă",
+      "weight": 2
+    },
+    {
+      "text": "Ministerul are un termen clar, 90 de zile, să facă regulile de aplicare, ca măsura să nu rămână doar pe hârtie.",
+      "article": "art. II",
+      "quote": "Ministerul Educației și Cercetării va actualiza Normele privind accesibilizarea învățământului superior pentru persoanele cu dizabilități",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Nu scrie dacă cele 5 locuri sunt pe universitate, pe facultate sau pe fiecare program. Citit pe program, la un program mic ar lua o treime din locurile gratuite.",
+      "article": "art. I pct. 1 (art. 128 alin. (8¹))",
+      "quote": "câte cel puțin 5 locuri bugetate atât la programele de studii universitare de licență, cât și la programele de studii universitare de master",
+      "weight": 2
+    },
+    {
+      "text": "Legea nu spune cine are cerințe educaționale speciale la facultate. Un ordin al ministrului decide cine primește locurile, iar ordinul se poate schimba ușor.",
+      "article": "art. II",
+      "quote": "în vederea stabilirii condițiilor de încadrare în categoria prevăzută la art.128 alin. (8¹)",
+      "weight": 2
+    },
+    {
+      "text": "Ținta declarată sunt tinerii cu CES fără dizabilitate, dar textul nu-i separă de cei cu dizabilitate, care au deja locuri. Cele 5 locuri pot ajunge tot la aceștia.",
+      "article": "art. I pct. 1 (art. 128 alin. (8¹)) și art. II",
+      "quote": "proveniți din rândul persoanelor cu cerințe educaționale speciale",
+      "weight": 2
+    },
+    {
+      "text": "La master textul cere doar diploma de bacalaureat, deși la master intri numai cu diplomă de licență. E o greșeală de redactare care poate crea confuzie.",
+      "article": "art. I pct. 1 (art. 128 alin. (8¹))",
+      "quote": "de master, în cadrul cifrei de școlarizare aprobate, absolvenților cu diplomă de bacalaureat",
+      "weight": 2
+    },
+    {
+      "text": "Legea se aplică imediat, dar regulile vin abia în 90 de zile și nu sunt legate de calendarul admiterii. O sesiune de admitere poate începe fără reguli clare.",
+      "article": "art. II",
+      "quote": "În termen de 90 de zile de la intrarea în vigoare a prezentei legi",
+      "weight": 1
+    },
+    {
+      "text": "Nu se spune când se redistribuie locurile neocupate. Dacă se face prea devreme, candidații cu CES pot pierde locurile rezervate pentru ei.",
+      "article": "art. I pct. 2 (art. 128 alin. (9))",
+      "quote": "nu se ocupă, instituțiile de învățământ superior le redistribuie către ceilalți candidați",
+      "weight": 1
+    },
+    {
+      "text": "Greșeli de redactare: art. I spune doar „se modifică”, deși adaugă și un alineat nou, iar alineatul apare scris „(8')” în loc de „(8¹)”.",
+      "article": "art. I partea introductivă și pct. 1",
+      "quote": "cu modificările și completările ulterioare, se modifică după cum urmează",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "În alin. (8¹) scrieți că pragul e pe universitate, separat la licență și la master, cereți diploma de licență pentru master și definiți în lege cine are CES, separat de locurile pentru dizabilitate.",
+    "removes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 11,
+    "verified": 11
+  }
+}

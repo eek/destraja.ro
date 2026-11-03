@@ -1,0 +1,84 @@
+{
+  "slug": "plx-687-2026",
+  "billId": "Pl-x 687/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:36:05.086Z",
+  "inputHash": "a048a7524e97",
+  "riskScore": 2.3,
+  "summary": "O clarificare mică și în general utilă, dar formulată imprecis, ceea ce poate fie îngreuna măsura, fie înmulți procesele.",
+  "good": [
+    {
+      "text": "Spune clar că un părinte care, cu rea-credință, își încalcă grav sau repetat obligațiile (de pildă blochează decizii despre copil) poate pierde exercitarea în comun a autorității.",
+      "article": "art. unic (art. 398 alin. (3) C.civ.)",
+      "quote": "poate constitui motiv întemeiat încălcarea cu rea-credință, gravă ori repetată, a obligațiilor care decurg din exercitarea autorității părintești",
+      "weight": 2
+    },
+    {
+      "text": "Nu e o sancțiune automată: judecătorul verifică în fiecare caz faptele și interesul copilului, pentru că textul spune „poate constitui” și trimite la alin. (1).",
+      "article": "art. unic (art. 398 alin. (3) C.civ.)",
+      "quote": "În sensul alin. (1), poate constitui motiv întemeiat încălcarea cu rea-credință",
+      "weight": 2
+    },
+    {
+      "text": "Măsura rămâne mai blândă decât decăderea: celălalt părinte păstrează dreptul de a urmări creșterea copilului și de a consimți la adopție, fiindcă alin. (2) nu se schimbă.",
+      "article": "art. unic (partea introductivă)",
+      "quote": "După alineatul (2) al articolului 398 din Legea nr. 287/2009 privind Codul civil",
+      "weight": 1
+    },
+    {
+      "text": "Nu creează taxe, instituții, formulare sau cheltuieli noi de la buget; se aplică în procesele care există deja.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Virgulele fac textul ambiguu: poate fi citit ca trei variante alternative, deci ar ajunge orice încălcare repetată, chiar măruntă; și certurile obișnuite pe program pot alimenta procese.",
+      "article": "art. unic (art. 398 alin. (3) C.civ.)",
+      "quote": "motiv întemeiat încălcarea cu rea-credință, gravă ori repetată, a obligațiilor",
+      "weight": 2
+    },
+    {
+      "text": "Dacă se cere rea-credință, ea trebuie dovedită, deși legea prezumă buna-credință; părintele care cere autoritatea exclusivă ar trebui să arate intenția celuilalt, nu doar răul făcut copilului.",
+      "article": "art. unic (art. 398 alin. (3) C.civ.)",
+      "quote": "poate constitui motiv întemeiat încălcarea cu rea-credință, gravă ori repetată",
+      "weight": 2
+    },
+    {
+      "text": "Pentru decădere, o măsură mult mai dură, ajunge neglijența gravă (art. 508 C.civ.); aici se cere rea-credință, așa că un părinte doar neglijent pare să scape de măsura mai blândă.",
+      "article": "art. unic (art. 398 alin. (3) C.civ.)",
+      "quote": "încălcarea cu rea-credință, gravă ori repetată, a obligațiilor care decurg din exercitarea autorității părintești",
+      "weight": 2
+    },
+    {
+      "text": "Nu spune ce obligații contează și nu numește cazul din expunere (blocarea deciziilor despre școală sau sănătate), așa că instanțele pot aplica textul foarte diferit.",
+      "article": "art. unic (art. 398 alin. (3) C.civ.)",
+      "quote": "a obligațiilor care decurg din exercitarea autorității părintești",
+      "weight": 1
+    },
+    {
+      "text": "Adaugă puțin față de alin. (1) actual și nu e corelat cu art. 36 alin. (7) din Legea 272/2004, care enumeră deja motive întemeiate; rezultă două liste paralele.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Reformulați ca „încălcarea gravă sau repetată, cu rea-credință ori din neglijență gravă, a obligațiilor părintești, inclusiv blocarea deciziilor importante”, corelat cu art. 36 din Legea 272/2004.",
+    "removes": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 7,
+    "verified": 7
+  }
+}

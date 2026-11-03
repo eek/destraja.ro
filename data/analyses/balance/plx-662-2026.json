@@ -1,0 +1,89 @@
+{
+  "slug": "plx-662-2026",
+  "billId": "Pl-x 662/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:31:14.249Z",
+  "inputHash": "a3c2f3fdcf72",
+  "riskScore": 2,
+  "summary": "O lege simbolică, ieftină și inofensivă, cu o dată greșit scrisă în art. 1 care contrazice propriul titlu.",
+  "good": [
+    {
+      "text": "Cheltuielile sunt facultative și se fac doar din bugetele deja aprobate. Legea nu obligă nicio instituție să plătească și nu cere bani noi.",
+      "article": "art. 2 alin. (2)",
+      "quote": "în vederea organizării și derularea în bune condiții a manifestărilor prevăzute la alin. (1), în limita alocărilor bugetare aprobate",
+      "weight": 2
+    },
+    {
+      "text": "Ziua nu devine zi liberă legală. Nu apar taxe, amenzi sau obligații pentru cetățeni ori firme, deci nu costă economia nimic.",
+      "article": "art. 1–2",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Recunoaște oficial obștile, composesoratele și celelalte forme de proprietate comună ca parte a istoriei țării, fără să le schimbe regimul juridic.",
+      "article": "art. 1",
+      "quote": "Ziua Națională a Composesoratelor, Obștilor, Pădurilor Grănicerești, Comunelor Politice și a altor forme associative de proprietate",
+      "weight": 2
+    },
+    {
+      "text": "Dă instituțiilor publice un temei clar să organizeze sau să sprijine evenimente dedicate acestor comunități.",
+      "article": "art. 2 alin. (1)",
+      "quote": "pot organiza sau sprijini logistic și material manifestările dedicate zilei naționale prevăzute la art. 1",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Art. 1 fixează ziua pe 31 mai, nu în ultima duminică, cum spun titlul și motivele. Datele coincid rar (în 2027, 31 mai e luni), deci nu e clar când e ziua.",
+      "article": "art. 1",
+      "quote": "Se declară ultima zi din luna mai ca Ziua Națională a Composesoratelor, Obștilor, Pădurilor Grănicerești",
+      "weight": 3
+    },
+    {
+      "text": "Art. 1 spune „Tezaurul României”, nu „Tezaurul Istoric”, și nu trimite la Codul silvic, care limitează sfera la formele de dinainte de 1948. Nu e clar ce forme intră.",
+      "article": "art. 1",
+      "quote": "a altor forme associative de proprietate care fac parte din Tezaurul României",
+      "weight": 2
+    },
+    {
+      "text": "Autoritățile pot cheltui bani publici pe manifestări fără plafon sau criterii. Riscul e mic, dar rămâne loc pentru cheltuieli de protocol greu de controlat.",
+      "article": "art. 2 alin. (2)",
+      "quote": "precum și instituțiile aflate în subordinea sau coordonarea acestora, pot aloca fonduri din bugetele proprii",
+      "weight": 1
+    },
+    {
+      "text": "Alin. (1) lasă Parlamentul și Administrația Prezidențială să sprijine material, dar alin. (2) dă dreptul la fonduri doar administrației publice. Textele nu se potrivesc.",
+      "article": "art. 2 alin. (1)–(2)",
+      "quote": "Parlamentul, Administrația Prezidențială, Guvernul, autoritățile administrației publice, precum și instituțiile publice aflate în subordinea sau coordonarea acestora",
+      "weight": 1
+    },
+    {
+      "text": "Greșeală de scriere: „associative” în loc de „asociative”, în titlu și în art. 1. E mărunt, dar într-o lege trebuie corectat.",
+      "article": "titlu și art. 1",
+      "quote": "Comunelor Politice și a altor forme associative de proprietate care fac parte din Tezaurul Istoric al României",
+      "weight": 1
+    },
+    {
+      "text": "Greșeală gramaticală: „organizării și derularea” în loc de „derulării”. Nu schimbă sensul, dar trebuie corectată.",
+      "article": "art. 2 alin. (2)",
+      "quote": "pot aloca fonduri din bugetele proprii în vederea organizării și derularea în bune condiții",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Art. 1 să spună „ultima duminică din luna mai” și „Tezaurul Istoric al României”, cu trimitere la art. 8 din Codul silvic; se corectează și greșelile de scriere.",
+    "removes": [
+      0,
+      1,
+      4,
+      5
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 9,
+    "verified": 9
+  }
+}

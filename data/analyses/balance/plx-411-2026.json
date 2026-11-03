@@ -1,0 +1,107 @@
+{
+  "slug": "plx-411-2026",
+  "billId": "Pl-x 411/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:02:10.718Z",
+  "inputHash": "9fc4e98e3841",
+  "riskScore": 2.3,
+  "summary": "O lege scurtă și bine intenționată, care obligă statul să plătească la timp concediile medicale, dar e scrisă neclar în ambele prevederi.",
+  "good": [
+    {
+      "text": "Pune un termen limită de 90 de zile în care statul trebuie să plătească concediile medicale, ca oamenii și firmele să nu mai aștepte la nesfârșit banii.",
+      "article": "art. I (art. 40¹ alin. (1))",
+      "quote": "CNAS, în termen de 90 de zile de la primirea documentelor justificative de plată a concediului medical, asigură plata indemnizației aferentă certificatului de concediu medical",
+      "weight": 3
+    },
+    {
+      "text": "Statul plătește penalități dacă întârzie plata, așa cum plătesc și firmele când întârzie plățile către stat. E un început de tratament egal.",
+      "article": "art. I (art. 40¹ alin. (2))",
+      "quote": "Neplata indemnizației aferentă certificatului de concediu medical în termenul prevăzut la alin.(1) atrage după sine penalități de 0,01% pe zi",
+      "weight": 3
+    },
+    {
+      "text": "Regula se aplică tuturor celor cu drept la concediu medical: salariați, șomeri și asigurați care se plătesc direct prin casa de sănătate.",
+      "article": "art. I (art. 40¹ alin. (1))",
+      "quote": "pentru persoanele prevăzute la art.1 alin.(1) și (2) și art.36 alin.(3) lit.a) și b)",
+      "weight": 2
+    },
+    {
+      "text": "Legea intră în vigoare abia la 30 de zile după publicare, deci casele de sănătate au timp să se pregătească.",
+      "article": "art. II",
+      "quote": "intră în vigoare la 30 de zile de la publicarea în Monitorul Oficial al României, Partea I",
+      "weight": 1
+    },
+    {
+      "text": "Nu cere formulare noi și nu impune obligații noi asiguraților sau angajatorilor. Toate obligațiile noi cad pe instituția publică.",
+      "article": "art. I",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Nu spune ce documente trebuie depuse și ce se întâmplă dacă sunt incomplete. Casa poate cere mereu completări și astfel poate amâna termenul de 90 de zile.",
+      "article": "art. I (art. 40¹ alin. (1))",
+      "quote": "de la primirea documentelor justificative de plată a concediului medical",
+      "weight": 3
+    },
+    {
+      "text": "Penalitatea nu are reguli clare: nu spune cine o primește, la ce sumă se calculează, din ce zi curge și cum se cere. Trimite la o regulă fiscală gândită pentru firme, nu pentru stat.",
+      "article": "art. I (art. 40¹ alin. (2))",
+      "quote": "atrage după sine penalități de 0,01% pe zi conform prevederilor art.176 din Legea nr.207/2015 privind Codul de procedură fiscală",
+      "weight": 3
+    },
+    {
+      "text": "Nu e clar dacă e vorba de plata către bolnav sau de banii dați înapoi angajatorului. Termenul ar putea fi folosit ca scuză ca salariatul să aștepte banii.",
+      "article": "art. I (art. 40¹ alin. (1))",
+      "quote": "asigură plata indemnizației aferentă certificatului de concediu medical pentru persoanele prevăzute la art.1 alin.(1) și (2)",
+      "weight": 2
+    },
+    {
+      "text": "Obligația e pusă pe CNAS, deși cererile se depun și banii se plătesc prin casele județene de sănătate. Nu e clar cine răspunde concret pentru întârziere.",
+      "article": "art. I (art. 40¹ alin. (1))",
+      "quote": "CNAS, în termen de 90 de zile de la primirea documentelor justificative",
+      "weight": 2
+    },
+    {
+      "text": "90 de zile e un termen lung și nu e legat de termenele care există deja în alte reguli. Întârzierile de până la 3 luni ar putea deveni ceva acceptat și normal.",
+      "article": "art. I (art. 40¹ alin. (1))",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Penalitatea e mică (circa 3,65% pe an) și nu există dobândă. Statul ar plăti mai puțin decât plătește o firmă care întârzie, deci nu prea are motiv să se grăbească.",
+      "article": "art. I (art. 40¹ alin. (2))",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Nu spune ce se întâmplă cu cererile depuse înainte de intrarea în vigoare. Nu e clar dacă termenul și penalitățile se aplică și restanțelor vechi.",
+      "article": "art. II",
+      "quote": "Prevederile art.40¹ din Ordonanța de urgență a Guvernului nr.158/2005 privind concediile și indemnizațiile de asigurări sociale de sănătate",
+      "weight": 1
+    },
+    {
+      "text": "Penalitățile se plătesc tot din bani publici, din fondul de sănătate. Proiectul nu estimează cât vor costa.",
+      "article": "art. I (art. 40¹ alin. (2))",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Rescrieți cele două alineate: spuneți ce documente se cer, opriți termenul doar o dată pentru completări, puneți obligația pe casele de sănătate și spuneți cine primește penalitatea, la ce sumă și de când.",
+    "removes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1.5
+  },
+  "quotes": {
+    "checked": 9,
+    "verified": 9
+  }
+}

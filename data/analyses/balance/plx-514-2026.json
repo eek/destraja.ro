@@ -1,0 +1,81 @@
+{
+  "slug": "plx-514-2026",
+  "billId": "PL-x 514/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:05:50.537Z",
+  "inputHash": "6d2fe471822a",
+  "riskScore": 1,
+  "summary": "O lege simbolică și inofensivă, fără obligații sau costuri noi, cu doar câteva scăpări minore de redactare.",
+  "good": [
+    {
+      "text": "Ziua doar se instituie, nu devine zi liberă, deci angajatorii și economia nu suportă costuri.",
+      "article": "art. 1",
+      "quote": "Se instituie ziua de 8 septembrie ca Ziua Națională a Atletismului Românesc.",
+      "weight": 2
+    },
+    {
+      "text": "Autoritățile și școlile pot organiza activități sportive, dar nu sunt obligate. Nu există termene, raportări sau sancțiuni, iar cheltuielile rămân în bugetele deja aprobate.",
+      "article": "art. 2 alin. (1)",
+      "quote": "pot organiza, în limita bugetelor aprobate, manifestări dedicate, având ca obiectiv promovarea atletismului și încurajarea practicării activităților fizice.",
+      "weight": 2
+    },
+    {
+      "text": "Legea spune clar că nu cere bani noi de la bugetul de stat sau de la bugetele locale.",
+      "article": "art. 4",
+      "quote": "Aplicarea prevederilor prezentei legi nu necesită alocări bugetare suplimentare la bugetul de stat sau la bugetele locale.",
+      "weight": 2
+    },
+    {
+      "text": "Radioul și televiziunea publică decid singure dacă difuzează emisiuni despre această zi, deci independența lor editorială e respectată.",
+      "article": "art. 3 alin. (1)",
+      "quote": "pot include în programele lor, potrivit propriei politici editoriale, emisiuni dedicate semnificației Zilei Naționale a Atletismului Românesc",
+      "weight": 2
+    },
+    {
+      "text": "Federațiile, cluburile și ONG-urile pot participa din resurse proprii. Niciuna nu primește statut de organizator exclusiv sau monopol.",
+      "article": "art. 2 alin. (2)",
+      "quote": "Federația Română de Atletism, Comitetul Olimpic și Sportiv Român, federațiile sportive naționale, cluburile sportive și organizațiile neguvernamentale pot sprijini, promova",
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Art. 4 spune că nu sunt bani noi, dar instituțiile pot cheltui din bugetele existente. Costul nu e zero, iar proiectul nu estimează cât s-ar putea cheltui.",
+      "article": "art. 3 alin. (2), art. 2 alin. (1), art. 4",
+      "quote": "pot acorda sprijin logistic și informațional pentru desfășurarea manifestărilor prevăzute la art. 2, în limita bugetelor aprobate și în condițiile legii.",
+      "weight": 1
+    },
+    {
+      "text": "Expresia „coordonarea metodologică” făcută de federații și ONG-uri nu e explicată. Nu se știe ce înseamnă concret și cine decide.",
+      "article": "art. 2 alin. (2)",
+      "quote": "pot sprijini, promova sau participa la coordonarea metodologică a activităților organize la nivel național cu acest prilej",
+      "weight": 1
+    },
+    {
+      "text": "Greșeală de redactare: în text apare „organize” în loc de „organizate”, o scăpare care nu ar trebui să ajungă într-o lege.",
+      "article": "art. 2 alin. (2)",
+      "quote": "a activităților organize la nivel național cu acest prilej, în colaborare cu autoritatea publică centrală de resort",
+      "weight": 1
+    },
+    {
+      "text": "Legea nu adaugă nimic ce instituțiile nu puteau face și înainte. Are efect mai mult simbolic și încarcă legislația.",
+      "article": "art. 2, art. 3",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Corectați „organize” în „organizate” și explicați sau eliminați expresia „coordonarea metodologică” de la art. 2 alin. (2).",
+    "removes": [
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 0.5
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 8
+  }
+}

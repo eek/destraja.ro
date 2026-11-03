@@ -1,0 +1,99 @@
+{
+  "slug": "plx-395-2026",
+  "billId": "Pl-x 395/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:01:13.165Z",
+  "inputHash": "63b2839ac76f",
+  "riskScore": 2,
+  "summary": "O lege bună și punctuală, care deschide sesizarea poliției pentru oricine, cu câteva stângăcii de redactare și o legătură lipsă cu universitățile.",
+  "good": [
+    {
+      "text": "Oricine (student, profesor, jurnalist, ONG, firmă) poate sesiza poliția despre vânzarea de lucrări. Până acum, procedura pornea doar la cererea motivată a universității.",
+      "article": "art. unic (art. 259 alin. (6))",
+      "quote": "la solicitarea oricărei persoane fizice sau juridice de drept public sau drept privat, precum și din oficiu.",
+      "weight": 3
+    },
+    {
+      "text": "Poliția poate acționa din proprie inițiativă. Asta ajută la anunțurile online care sunt șterse sau mutate rapid pe alte site-uri înainte ca universitatea să reacționeze.",
+      "article": "art. unic (art. 259 alin. (6))",
+      "quote": "de drept public sau drept privat, precum și din oficiu.",
+      "weight": 3
+    },
+    {
+      "text": "Elimină o excepție nejustificată și aliniază procedura la regula generală a contravențiilor, unde constatarea se face la plângerea oricui sau din oficiu.",
+      "article": "art. unic (art. 259 alin. (6))",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Modificarea este îngustă: nu creează fapte noi interzise și nu schimbă amenzile. Schimbă doar cine poate porni verificarea, deci efectul este previzibil.",
+      "article": "art. unic (art. 259 alin. (6))",
+      "quote": "Constatarea contravenției și aplicarea amenzilor contravenționale prevăzute la alin. (5) se fac de către ofițerii sau agenții de poliție",
+      "weight": 2
+    },
+    {
+      "text": "Competența rămâne la polițiștii specializați. O sesizare nu duce automat la amendă: fapta trebuie verificată și constatată de un agent abilitat.",
+      "article": "art. unic (art. 259 alin. (6))",
+      "quote": "ofițerii sau agenții de poliție din cadrul Ministerului Afacerilor Interne, care au competențe în domeniu",
+      "weight": 1
+    },
+    {
+      "text": "Nu impune taxe, raportări sau autorizații noi pentru cetățeni sau firme. Doar le dă posibilitatea, nu obligația, de a sesiza.",
+      "article": "art. unic",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Legea nu obligă poliția să anunțe universitatea când amendează un student sau un absolvent. Astfel, anularea lucrării ori a diplomei sau sancțiunea disciplinară pot să nu mai aibă loc.",
+      "article": "art. unic (art. 259 alin. (6))",
+      "quote": null,
+      "weight": 2
+    },
+    {
+      "text": "Cuvântul „solicitare” poate fi citit ca obligație a poliției de a da curs oricărei cereri. „Sesizare”, pe care agentul o verifică și o apreciază, ar fi mai clar.",
+      "article": "art. unic (art. 259 alin. (6))",
+      "quote": "la solicitarea oricărei persoane fizice sau juridice de drept public sau drept privat",
+      "weight": 2
+    },
+    {
+      "text": "Fără rolul universității, poliția poate stabili greu dacă o lucrare era chiar destinată unei evaluări. Textul nu prevede consultarea instituției pentru această verificare.",
+      "article": "art. unic (art. 259 alin. (6))",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Lipsește orice filtru pentru sesizările rău-intenționate, de exemplu între colegi sau între concurenți. Amenzile foarte mari existente fac miza unor astfel de reclamații ridicată.",
+      "article": "art. unic (art. 259 alin. (6))",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Afirmația că legea nu costă nimic nu are o analiză în spate. Mai multe sesizări pot aduce muncă în plus pentru poliție și mai multe procese.",
+      "article": "Expunerea de motive",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Formula „persoane fizice sau juridice de drept public sau drept privat” e redundantă. „Orice persoană” ar spune același lucru mai simplu.",
+      "article": "art. unic (art. 259 alin. (6))",
+      "quote": "oricărei persoane fizice sau juridice de drept public sau drept privat",
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "Înlocuirea lui „la solicitarea” cu „la sesizarea oricărei persoane” și adăugarea obligației poliției de a comunica universității procesele-verbale privind studenții sau absolvenții ei.",
+    "removes": [
+      0,
+      1
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 1
+  },
+  "quotes": {
+    "checked": 7,
+    "verified": 6
+  }
+}

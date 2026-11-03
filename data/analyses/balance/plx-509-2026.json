@@ -1,0 +1,100 @@
+{
+  "slug": "plx-509-2026",
+  "billId": "PL-x 509/2026",
+  "schema": 1,
+  "model": "claude",
+  "updatedAt": "2026-11-03T08:05:34.159Z",
+  "inputHash": "a403934ac811",
+  "riskScore": 1.7,
+  "summary": "O lege bună și punctuală, cu câteva goluri de redactare, dar fără vreo prevedere care să strice tot.",
+  "good": [
+    {
+      "text": "Fundațiile primesc dreptul clar de a deschide sucursale în alte localități fără să creeze o nouă persoană juridică, ca asociațiile, deci cu costuri mai mici.",
+      "article": "art. unic, art. 18¹ alin. (1)",
+      "quote": "Fundațiile își pot constitui sucursale, ca structuri teritoriale fără personalitate juridică.",
+      "weight": 3
+    },
+    {
+      "text": "Sucursala apare într-un registru public după decizia unei instanțe. Asta aduce transparență și dă fundației un act oficial pe care îl poate arăta la ANAF.",
+      "article": "art. unic, art. 18¹ alin. (3) teza I",
+      "quote": "Sucursalele își pot desfășura activitatea numai după înscrierea lor în Registrul asociațiilor și fundațiilor.",
+      "weight": 3
+    },
+    {
+      "text": "Decizia de a înființa o sucursală o ia consiliul director, fără proceduri interne complicate sau costisitoare.",
+      "article": "art. unic, art. 18¹ alin. (2)",
+      "quote": "Sucursalele se constituie prin hotărâre a consiliului director.",
+      "weight": 2
+    },
+    {
+      "text": "Fundația decide ce face sucursala, deci controlul și răspunderea rămân la fundație. Nu apare o structură care să scape de sub control.",
+      "article": "art. unic, art. 18¹ alin. (4)",
+      "quote": "Sucursalele desfășoară activitățile date în competența lor de către fundație.",
+      "weight": 2
+    },
+    {
+      "text": "Fundația depune toate dosarele la o singură instanță, cea de la sediul ei, ca în cazul asociațiilor. Regula e previzibilă și evită hotărâri contradictorii între instanțe.",
+      "article": "art. unic, art. 18¹ alin. (3) teza a II-a",
+      "quote": "se va depune la grefa judecătoriei în a cărei circumscripție își are sediul fundația",
+      "weight": 1
+    },
+    {
+      "text": "Sucursala e o posibilitate, nu o obligație. Legea nu impune taxe, amenzi sau cheltuieli de la buget și nu dă privilegii unor fundații anume.",
+      "article": "art. unic, art. 18¹ alin. (1)",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "bad": [
+    {
+      "text": "Trimiterea vagă la art. 15-17 „în mod corespunzător” poate face instanțe diferite să ceară acte diferite, chiar și un patrimoniu minim, deși sucursala nu e persoană juridică.",
+      "article": "art. unic, art. 18¹ alin. (3) teza a II-a",
+      "quote": "își are sediul fundația, prevederile art. 15-17 aplicându-se în mod corespunzător",
+      "weight": 2
+    },
+    {
+      "text": "Legea nu spune cine conduce sucursala, cine semnează în numele ei și cum se dovedește dreptul de reprezentare, de exemplu față de ANAF, bănci sau parteneri.",
+      "article": "art. unic, art. 18¹ alin. (4)",
+      "quote": "Sucursalele desfășoară activitățile date în competența lor de către fundație.",
+      "weight": 2
+    },
+    {
+      "text": "Legea nu spune cum se înscriu în registru schimbarea adresei, a conducerii sau desființarea sucursalei, așa că registrul poate rămâne neactualizat.",
+      "article": "art. unic, art. 18¹",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Textul cere doar cererea și hotărârea consiliului director. Nu spune ce trebuie să cuprindă hotărârea, de exemplu adresa sucursalei sau dovada spațiului.",
+      "article": "art. unic, art. 18¹ alin. (3) teza a II-a",
+      "quote": "Cererea de înscriere, însoțită de hotărârea consiliului director, se va depune la grefa judecătoriei",
+      "weight": 1
+    },
+    {
+      "text": "Legea nu pomenește înregistrarea fiscală. Rezolvarea blocajului la ANAF depinde de practica ANAF, nu e garantată de text.",
+      "article": "art. unic, art. 18¹",
+      "quote": null,
+      "weight": 1
+    },
+    {
+      "text": "Înscrierea costă taxe și uneori avocat și aduce mai multe dosare la instanțe. Lipsește o perioadă de tranziție pentru fundațiile care au deja personal în alte județe.",
+      "article": "art. unic, art. 18¹ alin. (3)",
+      "quote": null,
+      "weight": 1
+    }
+  ],
+  "fix": {
+    "text": "În locul trimiterii la art. 15-17 „în mod corespunzător”, legea ar trebui să enumere actele cerute la înscriere. Ar trebui să adauge și reguli despre conducătorul sucursalei, dreptul lui de semnătură și înscrierea modificării sau desființării sucursalei.",
+    "removes": [
+      0,
+      1,
+      2
+    ],
+    "levelAfter": "green",
+    "scoreAfter": 0.8
+  },
+  "quotes": {
+    "checked": 8,
+    "verified": 8
+  }
+}

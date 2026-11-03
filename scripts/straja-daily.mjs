@@ -29,6 +29,9 @@
 // Ediție specială: un nume în .cache/digest-anunt (de exemplu „camera”) face din ediția zilei anunțul acela
 // (straja-digest --anunt=…). Imaginile lui se fac înainte de build, ca să fie pe site când pleacă e-mailul; fișierul
 // se șterge după ce anunțul a plecat.
+// Agendele: ordinile de zi ale Senatului le citește VM-ul destraja din 2 în 2 ore (scripts/straja-agenda.mjs); le aducem
+// în data/agenda/senat înainte de build. Gazda prin care ajungem la VM („utilizator@nas”) stă în .cache/agenda-vm, care
+// nu intră în git; fără fișier pasul lipsește, iar dacă VM-ul nu răspunde rămân cele de ieri.
 //   --skip-news   fără căutarea în presă
 //   --skip-positions  fără căutarea pozițiilor organizațiilor
 //   --skip-mps    fără datele de contact ale parlamentarilor
@@ -44,6 +47,7 @@ const LOG_DIR = path.join(ROOT, 'ops', 'logs');
 const LOCK = path.join(ROOT, 'ops', 'daily.lock');
 const PUBLISH_PAUSE = path.join(ROOT, '.cache', 'publish-paused');
 const ANUNT_FILE = path.join(ROOT, '.cache', 'digest-anunt');
+const AGENDA_VM = path.join(ROOT, '.cache', 'agenda-vm');
 const args = new Set(process.argv.slice(2));
 const day = new Date().toLocaleDateString('sv-SE', { timeZone: 'Europe/Bucharest' });
 const monday = new Date().toLocaleDateString('en-US', { weekday: 'short', timeZone: 'Europe/Bucharest' }) === 'Mon';
@@ -195,6 +199,18 @@ async function main() {
       // Proiectele de la Cameră n-au memoriu pentru formularul Senatului.
       .filter((slug) => !slug.startsWith('plx-'));
     if (changed.length) await step('Memorii .docx', 'node', ['scripts/straja-docx.mjs', ...changed]);
+
+    if (fs.existsSync(AGENDA_VM)) {
+      // Dosarul se înlocuiește doar după ce arhiva a venit întreagă și s-a dezarhivat.
+      const jump = fs.readFileSync(AGENDA_VM, 'utf8').trim();
+      const fetchAgenda = [
+        `ssh -o BatchMode=yes -o ConnectTimeout=20 -i ~/.ssh/destraja_vm -J ${jump} destraja@192.168.153.10 'tar -czf - -C agenda-data senat' > .cache/agenda.tgz`,
+        'rm -rf .cache/agenda-new && mkdir .cache/agenda-new && tar -xzf .cache/agenda.tgz -C .cache/agenda-new',
+        'rm -rf data/agenda/senat && mv .cache/agenda-new/senat data/agenda/senat',
+      ].join(' && ');
+      const agenda = await step('Agendele Senatului', 'sh', ['-c', fetchAgenda], { timeoutMs: 120_000 });
+      if (!agenda.ok) summary.push('agendele Senatului au rămas de ieri');
+    }
 
     const counts = checkData();
     log(`Date verificate: ${counts.analysed}/${counts.bills} proiecte cu analiză`);

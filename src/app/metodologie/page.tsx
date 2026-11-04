@@ -10,14 +10,14 @@ import { trackAttrs } from '@/lib/analytics';
 
 export const metadata: Metadata = {
   title: 'Metodologie',
-  description: 'Cum preluăm proiectele de pe senat.ro, cum le citesc Gemini, Claude și ChatGPT, ce înseamnă nivelurile de risc și ce limite au analizele.',
+  description: 'Cum preluăm proiectele de pe senat.ro și cdep.ro, cum le citesc Gemini, Claude și ChatGPT, ce înseamnă nivelurile de risc și ce limite au analizele.',
 };
 
 const STEPS = [
   {
     icon: FileText,
     title: 'Preluăm',
-    text: 'Fiecare proiect pus în consultare publică pe senat.ro: textul, expunerea de motive, avizele, inițiatorii și termenul. Documentele Senatului sunt scanate, așa că textul lor e recunoscut automat cu MinerU (OpenDataLab) și verificat pagină cu pagină cu Tesseract.',
+    text: 'Fiecare proiect pus în consultare publică pe senat.ro și toate proiectele înregistrate în 2026 la Camera Deputaților, de pe cdep.ro, inclusiv cele la care Camera e prima sesizată: textul, expunerea de motive, avizele, inițiatorii, stadiul și termenele. Documentele scanate sunt recunoscute automat cu MinerU (OpenDataLab) și verificate pagină cu pagină cu Tesseract.',
   },
   { icon: Sparkles, title: 'Trei lecturi', text: 'Gemini, Claude și ChatGPT analizează independent fiecare proiect și dau fiecare un scor de risc de la 1 la 10.' },
   { icon: Scale, title: 'Consens', text: 'Publicăm un scor comun, o propoziție pe înțelesul oricui și locurile în care modelele nu sunt de acord.' },

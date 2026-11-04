@@ -43,7 +43,7 @@ export default function CiteTerms({ copied, onCopy }: { copied: string | null; o
       <div className="lg:col-span-5 lg:border-l lg:border-line lg:pl-8">
         <h3 className="text-sm font-semibold text-ink">Ce nu intră în licență</h3>
         <ul className="mt-2 space-y-3 text-sm leading-6 text-body">
-          <li>Textele oficiale ale proiectelor și documentele de pe senat.ro. Nu au drepturi de autor (art. 9 din Legea nr. 8/1996), deci le poți prelua oricum.</li>
+          <li>Textele oficiale ale proiectelor și documentele de pe senat.ro și cdep.ro. Nu au drepturi de autor (art. 9 din Legea nr. 8/1996), deci le poți prelua oricum.</li>
           <li>Titlurile și citatele din articolele de presă. Aparțin publicațiilor; citează articolul original.</li>
           <li>Datele de contact ale parlamentarilor, preluate de pe cdep.ro și senat.ro.</li>
           <li>Logoul destrajă.ro.</li>

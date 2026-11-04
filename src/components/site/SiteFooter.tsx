@@ -19,7 +19,7 @@ export default function SiteFooter({ syncedAt }: { syncedAt: string | null }) {
             destrajă.ro: radarul cetățenesc al proiectelor de lege aflate în consultare publică la Senatul României. Proiect civic
             independent; nu reprezentăm Senatul și nu lucrăm pentru niciun partid.
           </p>
-          {syncedAt && <p className="mt-3 text-xs text-muted">Date preluate de pe senat.ro la {formatDateRo(syncedAt)}.</p>}
+          {syncedAt && <p className="mt-3 text-xs text-muted">Date preluate de pe senat.ro și cdep.ro la {formatDateRo(syncedAt)}.</p>}
           {/* Alt proiect open source al autorului. Fără noreferrer, ca acolo să se vadă că vizitatorii vin de aici. */}
           <p className="mt-6 max-w-sm text-sm leading-6 text-muted">
             Alt proiect open source al autorului:{' '}
@@ -52,6 +52,11 @@ export default function SiteFooter({ syncedAt }: { syncedAt: string | null }) {
                 </a>
               </li>
               <li>
+                <a href="https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.lista?cam=2&anp=2026" target="_blank" rel="noopener noreferrer" className={`${linkCls} inline-flex items-center gap-1`}>
+                  Proiecte pe cdep.ro <ExternalLink className="h-3 w-3" aria-hidden />
+                </a>
+              </li>
+              <li>
                 <a href="https://www.ces.ro" target="_blank" rel="noopener noreferrer" className={`${linkCls} inline-flex items-center gap-1`}>
                   Consiliul Economic și Social <ExternalLink className="h-3 w-3" aria-hidden />
                 </a>
@@ -75,7 +80,7 @@ export default function SiteFooter({ syncedAt }: { syncedAt: string | null }) {
       </div>
       <div className="border-t border-line">
         <div className="mx-auto w-full max-w-[1240px] space-y-1 px-4 py-5 text-xs leading-5 text-muted sm:px-8 lg:px-10">
-          <p>Analizele sunt generate cu AI și pot conține erori. Nu sunt consultanță juridică; verifică întotdeauna textul oficial pe senat.ro.</p>
+          <p>Analizele sunt generate cu AI și pot conține erori. Nu sunt consultanță juridică; verifică întotdeauna textul oficial pe senat.ro sau cdep.ro.</p>
           <p>
             Analizele și datele sunt sub licența{' '}
             <a href={CONTENT_LICENSE.url} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-ink">

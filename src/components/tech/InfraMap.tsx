@@ -100,7 +100,7 @@ export default function InfraMap() {
   return (
     <figure aria-labelledby="harta-caption">
       <figcaption id="harta-caption" className="sr-only">
-        Harta infrastructurii, pe o singură linie: datele vin de pe senat.ro pe Mac-ul întreținătorului; Mac-ul publică site-ul pe Cloudflare, trimite
+        Harta infrastructurii, pe o singură linie: datele vin de pe senat.ro și cdep.ro pe Mac-ul întreținătorului; Mac-ul publică site-ul pe Cloudflare, trimite
         ediția alertelor și pune datele pe GitHub, pe o ramură separată; tu citești paginile de pe Cloudflare și trimiți acolo rapoarte și abonări.
       </figcaption>
       <ol className="lg:grid lg:grid-cols-[minmax(0,0.95fr)_minmax(0,1.15fr)_minmax(0,1.15fr)_minmax(0,0.85fr)]">

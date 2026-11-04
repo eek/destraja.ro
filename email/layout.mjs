@@ -140,5 +140,5 @@ export function footerHtml({ reason, links = [] }) {
     .join(' &nbsp;·&nbsp; ');
   return `<p class="lt-muted" style="margin:0;font-family:${SANS};font-size:12px;line-height:19px;color:${C.muted}">${reason}</p>
 ${linkHtml ? `<p class="lt-muted" style="margin:10px 0 0;font-family:${SANS};font-size:12px;line-height:19px;color:${C.muted}">${linkHtml}</p>` : ''}
-<p class="lt-muted" style="margin:14px 0 0;font-family:${SANS};font-size:12px;line-height:19px;color:${C.muted}">Analizele sunt făcute cu AI și pot conține erori. Nu sunt consultanță juridică; verifică textul oficial pe senat.ro.<br>destrajă (destraja.ro) · proiect civic independent, administrat de Radu-Sebastian Amarie · ${REPLY_TO}</p>`;
+<p class="lt-muted" style="margin:14px 0 0;font-family:${SANS};font-size:12px;line-height:19px;color:${C.muted}">Analizele sunt făcute cu AI și pot conține erori. Nu sunt consultanță juridică; verifică textul oficial pe senat.ro sau cdep.ro.<br>destrajă (destraja.ro) · proiect civic independent, administrat de Radu-Sebastian Amarie · ${REPLY_TO}</p>`;
 }

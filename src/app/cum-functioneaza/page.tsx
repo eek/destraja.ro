@@ -112,7 +112,7 @@ export default async function TechPage() {
             </h1>
             <div>
               <p className="max-w-[62ch] text-lg leading-8 text-body">
-                De la PDF-ul de pe senat.ro până la pagina pe care o citești: ce rulează, unde rulează și ce verifică codul înainte să publicăm ceva.
+                De la PDF-ul de pe senat.ro sau cdep.ro până la pagina pe care o citești: ce rulează, unde rulează și ce verifică codul înainte să publicăm ceva.
                 {facts.articles > 0 && facts.documents > 0 && (
                   <>
                     {' '}

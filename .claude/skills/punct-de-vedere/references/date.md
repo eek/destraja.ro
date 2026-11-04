@@ -40,5 +40,6 @@ iar `juridica@senat.ro` și `comisia.juridica@senat.ro` întorc eroarea 550 (iss
 ## Memoriul .docx
 
 Adresa: `https://destraja.ro/docs/Punct_de_vedere_<ID>.docx`, unde `<ID>` e `id` cu cratimă în loc de bară:
-`B563-2026`. În `word/document.xml`, numele semnatarului e locul `{{NUME_CETATEAN}}`. Înlocuiește-l cu numele
-cititorului, cu caracterele speciale XML scăpate (`&`, `<`, `>`), și păstrează restul arhivei neschimbat.
+`B563-2026`. În `word/document.xml`, locul gol pentru nume e un șir de caractere „…” (U+2026) și apare de două ori: după
+„Subsemnatul(a)” și după „Nume și prenume:”. Înlocuiește fiecare șir întreg cu numele cititorului, cu caracterele
+speciale XML scăpate (`&`, `<`, `>`), și păstrează restul arhivei neschimbat.

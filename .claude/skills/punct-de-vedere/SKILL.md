@@ -74,7 +74,7 @@ celelalte câmpuri la cel mult 400, ca textul să fie citit. Numără caracterel
 diacritice e un caracter) și scrie numărul lângă fiecare câmp.
 
 **Memoriul .docx** (pentru e-mail; pentru formular când cititorul vrea să-l pună la „Fișier anexat”): descarcă memoriul proiectului după [references/date.md](references/date.md) și
-pune numele cititorului în locul `{{NUME_CETATEAN}}`. Restul memoriului e argumentația generală a site-ului, iar cazul
+pune numele cititorului în fiecare loc gol pentru nume. Restul memoriului e argumentația generală a site-ului, iar cazul
 cititorului stă în e-mail. Când locul gol lipsește din `word/document.xml`, spune-i cititorului să ia memoriul cu
 numele lui din kitul de pe pagina proiectului.
 

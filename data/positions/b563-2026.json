@@ -1,9 +1,9 @@
 {
   "slug": "b563-2026",
   "billId": "B563/2026",
-  "checkedAt": "2026-11-02T07:41:05.509Z",
+  "checkedAt": "2026-11-04T08:43:26.205Z",
   "models": {
-    "agy": "error: cod 3: error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 23h33m57s. AGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 23h33m57s.\",\"status\":\"RESOURCE_EXHAU",
+    "agy": "error: cod 3: error: print timeout after 10m0s with the turn still in progress; the response is partial AGY_ERROR: {\"short_error\":\"print timeout after 10m0s with the turn still in progress; the response is partial\",\"status\":\"DEADLINE_EXCEEDED\",\"retryable\":false,\"reason\":\"print_timeout\"}",
     "claude": "ok",
     "codex": "ok"
   },
@@ -610,6 +610,29 @@
       "firstSeenAt": "2026-10-28"
     },
     {
+      "issuer": "Ordinul Consilierilor Juridici din România (O.C.J.R.)",
+      "issuerType": "profesie",
+      "stance": "modificare",
+      "documentType": "comunicat",
+      "title": "Comunicat de presă - Ordinul Consilierilor Juridici din România",
+      "quote": "solicităm examinarea amendamentelor O.C.J.R privind",
+      "quoteIn": "pagina",
+      "date": "2026-10-30",
+      "dateSource": "adresa",
+      "pageUrl": "https://agerpres.ro/comunicate/2026/10/30/comunicat-de-presa---ordinul-consilierilor-juridici-din-romania--1608426",
+      "documentUrl": null,
+      "domain": "agerpres.ro",
+      "viaPress": true,
+      "ownSite": false,
+      "billMatch": "numar",
+      "signatories": null,
+      "foundBy": [
+        "claude"
+      ],
+      "verifiedAt": "2026-11-04",
+      "firstSeenAt": "2026-11-04"
+    },
+    {
       "issuer": "Consiliul de Mediere",
       "issuerType": "profesie",
       "stance": "modificare",
@@ -683,6 +706,19 @@
     }
   ],
   "pending": [
+    {
+      "issuer": "Uniunea Națională a Barourilor din România (UNBR)",
+      "stance": "sustinere",
+      "pageUrl": "https://unbr.ro/de-ce-actualizam-legea-nr-51-1995",
+      "documentUrl": null,
+      "quote": "Actualizarea Legii nr. 51/1995 nu mai poate fi amânată",
+      "claimedSignatories": null,
+      "foundBy": [
+        "claude"
+      ],
+      "reason": "nici pagina, nici documentul nu pomenesc proiectul",
+      "checkedAt": "2026-11-04"
+    },
     {
       "issuer": "Uniunea Națională a Barourilor din România (UNBR)",
       "stance": "sustinere",

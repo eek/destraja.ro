@@ -1,10 +1,10 @@
 {
   "slug": "b583-2026",
   "billId": "B583/2026",
-  "checkedAt": "2026-11-03T07:05:56.578Z",
+  "checkedAt": "2026-11-04T07:56:22.518Z",
   "models": {
-    "agy": "error: cod 3: error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 5m47s. AGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 5m47s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"e",
-    "claude": "error: răspunsul nu conține JSON valid: „Failed to authenticate: OAuth session expired and could not be refreshed”",
+    "agy": "error: cod 3: error: print timeout after 10m0s with the turn still in progress; the response is partial AGY_ERROR: {\"short_error\":\"print timeout after 10m0s with the turn still in progress; the response is partial\",\"status\":\"DEADLINE_EXCEEDED\",\"retryable\":false,\"reason\":\"print_timeout\"}",
+    "claude": "ok",
     "codex": "ok"
   },
   "articles": [
@@ -153,7 +153,7 @@
         "agy",
         "claude"
       ],
-      "quote": "Conform proiectului, statul ar urma să acopere 100% din valoarea impozitelor neîncasate ca urmare a aplicării facilității.",
+      "quote": "Inițiativa nu prevede o scutire generală pentru toate vehiculele aflate în proprietatea unei persoane.",
       "match": "quote",
       "firstSeenAt": "2026-10-27",
       "decision": {
@@ -504,7 +504,7 @@
         "agy",
         "claude"
       ],
-      "quote": "Potrivit proiectului analizat de Profit.ro, dacă o persoană deține un singur autoturism, scutirea s-ar acorda automat.",
+      "quote": "O propunere legislativă depusă în Parlament prevede scutirea de la plata impozitului auto pentru un singur autoturism",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -548,7 +548,7 @@
         "claude",
         "agy"
       ],
-      "quote": "Propunerea nu modifică taxele și tarifele legate de achiziție, combustibil, utilizarea infrastructurii sau activitatea economică.",
+      "quote": "Opțiunea legislativă este construită în jurul proprietății personale de bază.",
       "match": "quote",
       "decision": {
         "v": 2,

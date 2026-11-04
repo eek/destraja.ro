@@ -1,10 +1,10 @@
 {
   "slug": "b570-2026",
   "billId": "B570/2026",
-  "checkedAt": "2026-11-03T07:05:12.055Z",
+  "checkedAt": "2026-11-04T07:32:50.310Z",
   "models": {
-    "agy": "error: cod 3: error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 6m34s. AGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 6m34s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"e",
-    "claude": "error: răspunsul nu conține JSON valid: „Failed to authenticate: OAuth session expired and could not be refreshed”",
+    "agy": "ok",
+    "claude": "ok",
     "codex": "ok"
   },
   "articles": [
@@ -97,50 +97,6 @@
       }
     },
     {
-      "url": "https://www.digi24.ro/digieconomic/financiar/peste-27-000-de-pensionari-militari-ar-putea-primi-inapoi-impozitul-progresiv-pe-pensii-cum-ar-urma-sa-fie-restituiti-banii-124499",
-      "title": "Peste 27.000 de pensionari militari ar putea primi înapoi impozitul progresiv pe pensii. Cum ar urma să fie restituiți banii",
-      "outlet": "Digi24",
-      "domain": "digi24.ro",
-      "publishedAt": "2026-10-26",
-      "foundBy": [
-        "codex"
-      ],
-      "quote": "Proiectul de lege prevede restituirea eșalonată a sumelor reținute suplimentar cu titlu de impozit progresiv, de la bugetul de stat.",
-      "match": "quote",
-      "firstSeenAt": "2026-10-27",
-      "decision": {
-        "v": 2,
-        "checkedAt": "2026-10-27",
-        "text": "trafilatura",
-        "models": {
-          "clef": {
-            "stance": "neutral",
-            "stanceP": 0.849,
-            "source": "national_news",
-            "sourceP": 0.9,
-            "about": 0.96,
-            "release": 0.19
-          },
-          "d1": {
-            "stance": "neutral",
-            "stanceP": 0.873,
-            "source": "national_news",
-            "sourceP": 0.68,
-            "about": 0.818,
-            "release": 0.223
-          },
-          "luna": {
-            "stance": "neutral",
-            "stanceP": 0.93,
-            "source": "national_news",
-            "sourceP": 0.99,
-            "about": 0.99,
-            "release": 0.01
-          }
-        }
-      }
-    },
-    {
       "url": "https://www.digi24.ro/stiri/actualitate/politica/proiect-de-lege-care-vizeaza-pensionarii-militari-depus-de-fostul-ministru-al-apararii-radu-miruta-4009325",
       "title": "Proiect de lege care vizează pensionarii militari, depus de fostul ministru al Apărării, Radu Miruță",
       "outlet": "Digi24",
@@ -185,6 +141,51 @@
       }
     },
     {
+      "url": "https://www.digi24.ro/digieconomic/financiar/peste-27-000-de-pensionari-militari-ar-putea-primi-inapoi-impozitul-progresiv-pe-pensii-cum-ar-urma-sa-fie-restituiti-banii-124499",
+      "title": "Peste 27.000 de pensionari militari ar putea primi înapoi impozitul progresiv pe pensii. Cum ar urma să fie restituiți banii",
+      "outlet": "Digi24",
+      "domain": "digi24.ro",
+      "publishedAt": "2026-10-26",
+      "foundBy": [
+        "codex",
+        "agy"
+      ],
+      "quote": "Potrivit inițiativei legislative, banii reținuți în perioada 1 ianuarie 2024 - 30 ianuarie 2025 ar urma să fie restituiți în trei tranșe, în decembrie 2026, martie 2027 și martie 2028.",
+      "match": "quote",
+      "firstSeenAt": "2026-10-27",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-27",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.849,
+            "source": "national_news",
+            "sourceP": 0.9,
+            "about": 0.96,
+            "release": 0.19
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.873,
+            "source": "national_news",
+            "sourceP": 0.68,
+            "about": 0.818,
+            "release": 0.223
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.93,
+            "source": "national_news",
+            "sourceP": 0.99,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
       "url": "https://evz.ro/pensionarii-care-ar-putea-primi-bani-inapoi-de-la-stat-cum-ar-urma-sa-fie-restituite-sumele.html",
       "title": "Pensionarii care ar putea primi bani înapoi de la stat",
       "outlet": "Evenimentul Zilei",
@@ -194,7 +195,7 @@
         "codex",
         "agy"
       ],
-      "quote": "Proiectul USR prevede ca sumele reţinute cu titlul de impozit progresiv în perioada 1 ianuarie 2024 – 30 ianuarie 2025 să se restituie în tranşe anuale: 10% în luna decembrie 2026, 40% în luna martie 2027, 50% în luna martie 2028”, subliniază USR în comunicat.",
+      "quote": "Proiectul USR prevede ca sumele reţinute cu titlul de impozit progresiv în perioada 1 ianuarie 2024 – 30 ianuarie 2025 să se restituie în tranşe anuale: 10% în luna decembrie 2026, 40% în luna martie 2027, 50% în luna martie 2028",
       "match": "quote",
       "firstSeenAt": "2026-10-28",
       "decision": {
@@ -265,6 +266,50 @@
           "luna": {
             "stance": "critical",
             "stanceP": 0.99,
+            "source": "national_news",
+            "sourceP": 0.99,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.libertatea.ro/stiri/pensionarii-ar-putea-primi-inapoi-banii-retinuti-ca-impozit-in-perioada-2024-2025-ce-prevede-proiectul-w9mfcf4",
+      "title": "Pensionarii ar putea primi înapoi banii reținuți ca impozit în perioada 2024-2025. Ce prevede proiectul",
+      "outlet": "Libertatea",
+      "domain": "libertatea.ro",
+      "publishedAt": "2026-10-26",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Propunerea legislativă, depusă pe 19 octombrie 2026 la Senat, urmează să fie dezbătută în Parlament.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.887,
+            "source": "national_news",
+            "sourceP": 0.911,
+            "about": 0.961,
+            "release": 0.056
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.909,
+            "source": "national_news",
+            "sourceP": 0.728,
+            "about": 0.881,
+            "release": 0.119
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.96,
             "source": "national_news",
             "sourceP": 0.99,
             "about": 0.99,
@@ -503,7 +548,7 @@
       "foundBy": [
         "agy"
       ],
-      "quote": "Proiectul de lege cu numărul B570/2026 prevede restituirea sumelor reținute în perioada în care s-a aplicat impozitarea progresivă a pensiilor.",
+      "quote": "Potrivit unui proiect de lege depus la Senat pe 19 octombrie, pensionarii cărora li s-a reținut impozit progresiv în perioada 1 ianuarie 2024 - 30 ianuarie 2025 ar putea primi înapoi o parte din banii plătiți, în trei tranșe, până în martie 2028, notează Adevărul.ro.",
       "match": "quote",
       "firstSeenAt": "2026-10-29",
       "decision": {
@@ -548,7 +593,7 @@
         "claude",
         "agy"
       ],
-      "quote": "Proiectul face trimitere și la alte categorii prevăzute de legislația în vigoare.",
+      "quote": "Potrivit unui proiect de lege înregistrat la Senat pe 19 octombrie 2026, banii ar urma să fie returnați în trei tranșe, ultima fiind programată pentru martie 2028.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -812,7 +857,7 @@
       "foundBy": [
         "claude"
       ],
-      "quote": "Proiectul depus acum stabilește cum ar urma să fie plătite sumele reținute înainte.",
+      "quote": "Proiectul B570/2026 era la Senat, trimis pentru avize la 26 octombrie 2026, fără procedură de urgență.",
       "match": "quote",
       "firstSeenAt": "2026-10-31",
       "decision": {

@@ -1,12 +1,234 @@
 {
   "slug": "b612-2026",
   "billId": "B612/2026",
-  "checkedAt": "2026-11-03T07:07:22.637Z",
+  "checkedAt": "2026-11-04T08:27:47.707Z",
   "models": {
-    "agy": "error: cod 3: error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 4m25s. AGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 4m25s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"e",
-    "claude": "error: răspunsul nu conține JSON valid: „Failed to authenticate: OAuth session expired and could not be refreshed”",
+    "agy": "error: cod 3: error: print timeout after 10m0s with the turn still in progress; the response is partial AGY_ERROR: {\"short_error\":\"print timeout after 10m0s with the turn still in progress; the response is partial\",\"status\":\"DEADLINE_EXCEEDED\",\"retryable\":false,\"reason\":\"print_timeout\"}",
+    "claude": "ok",
     "codex": "ok"
   },
-  "articles": [],
-  "pending": []
+  "articles": [
+    {
+      "url": "https://www.gandul.ro/politica/usr-a-luat-la-tinta-parlamentarii-avocati-vrea-sa-le-interzica-sa-reprezinte-clienti-in-procese-impotriva-statului-roman-ce-prevede-proiectul-de-lege-21053767",
+      "title": "USR a luat la țintă parlamentarii-avocați. Vrea să le interzică să reprezinte clienți în procese împotriva statului român. Ce prevede proiectul de lege",
+      "outlet": "Gândul",
+      "domain": "gandul.ro",
+      "publishedAt": "2026-11-03",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Măsura este prevăzută într-un proiect de lege inițiat de USR și înregistrat la Senat",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.888,
+            "source": "national_news",
+            "sourceP": 0.878,
+            "about": 0.963,
+            "release": 0.228
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.636,
+            "source": "national_news",
+            "sourceP": 0.446,
+            "about": 0.835,
+            "release": 0.269
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.94,
+            "source": "national_news",
+            "sourceP": 0.98,
+            "about": 0.99,
+            "release": 0.02
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.mediafax.ro/politic/usr-propune-ca-parlamentarii-avocati-sa-nu-mai-poata-reprezenta-clienti-in-procese-impotriva-statului-roman-ce-interdictii-prevede-proiectul-de-lege-23836413",
+      "title": "USR propune ca parlamentarii-avocați să nu mai poată reprezenta clienți în procese împotriva statului român. Ce interdicții prevede proiectul de lege",
+      "outlet": "Mediafax",
+      "domain": "mediafax.ro",
+      "publishedAt": "2026-11-03",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Proiectul modifică Legea integrității nr. 161/2003 și propune reintroducerea unor interdicții",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.803,
+            "source": "national_news",
+            "sourceP": 0.755,
+            "about": 0.949,
+            "release": 0.641
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.743,
+            "source": "aggregator",
+            "sourceP": 0.348,
+            "about": 0.893,
+            "release": 0.593
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.91,
+            "source": "national_news",
+            "sourceP": 0.98,
+            "about": 0.99,
+            "release": 0.04
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.rador.ro/2026/11/03/parlamentarii-avocati-nu-vor-putea-sustine-interesele-unor-clienti-impotriva-statului-roman-prevede-un-proiect-de-lege",
+      "title": "Parlamentarii avocați nu vor putea susţine interesele unor clienţi împotriva statului român, prevede un proiect de lege | Agenția de presă Rador",
+      "outlet": "Rador",
+      "domain": "rador.ro",
+      "publishedAt": "2026-11-03",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Proiectul USR modifică legea integrităţii în sensul reinstituirii unor interdicţii",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.851,
+            "source": "national_news",
+            "sourceP": 0.702,
+            "about": 0.944,
+            "release": 0.643
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.799,
+            "source": "national_news",
+            "sourceP": 0.352,
+            "about": 0.893,
+            "release": 0.438
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.91,
+            "source": "national_news",
+            "sourceP": 0.87,
+            "about": 0.99,
+            "release": 0.64
+          }
+        }
+      }
+    }
+  ],
+  "pending": [
+    {
+      "url": "https://lumeapolitica.ro/actualitate/usr-parlamentari-avocati-proiect-lege",
+      "title": "USR vrea restricții pentru parlamentarii-avocați din România",
+      "outlet": "Lumea Politică",
+      "domain": "lumeapolitica.ro",
+      "publishedAt": "2026-11-04",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "USR a depus la Senat un proiect de lege care limitează activitatea parlamentarilor care practică și avocatura.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.848,
+            "source": "national_news",
+            "sourceP": 0.564,
+            "about": 0.958,
+            "release": 0.286
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.672,
+            "source": "national_news",
+            "sourceP": 0.393,
+            "about": 0.818,
+            "release": 0.269
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.97,
+            "source": "national_news",
+            "sourceP": 0.76,
+            "about": 0.99,
+            "release": 0.04
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.espress.ro/politic-intern/proiect-usr-pentru-ca-parlamentarii-avocati-sa-nu-poata-reprezenta-clienti-impotriva-statului-80312",
+      "title": "Proiect USR pentru ca parlamentarii-avocați să nu poată reprezenta clienți împotriva statului",
+      "outlet": "Espress | Știri, politici europene & Actori UE online",
+      "domain": "espress.ro",
+      "publishedAt": null,
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Proiectul USR modifică Legea integrității (161/2003) în sensul reinstituirii unor interdicții",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.746,
+            "source": "national_news",
+            "sourceP": 0.384,
+            "about": 0.956,
+            "release": 0.685
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.74,
+            "source": "aggregator",
+            "sourceP": 0.304,
+            "about": 0.777,
+            "release": 0.438
+          },
+          "luna": {
+            "stance": "supportive",
+            "stanceP": 0.82,
+            "source": "national_news",
+            "sourceP": 0.57,
+            "about": 0.99,
+            "release": 0.84
+          }
+        }
+      }
+    }
+  ]
 }

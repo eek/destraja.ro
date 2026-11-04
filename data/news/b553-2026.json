@@ -1,12 +1,57 @@
 {
   "slug": "b553-2026",
   "billId": "B553/2026",
-  "checkedAt": "2026-11-03T07:04:24.079Z",
+  "checkedAt": "2026-11-04T07:18:39.185Z",
   "models": {
-    "agy": "error: cod 3: error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 7m21s. AGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 7m21s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"e",
-    "claude": "error: răspunsul nu conține JSON valid: „Failed to authenticate: OAuth session expired and could not be refreshed”",
+    "agy": "ok",
+    "claude": "ok",
     "codex": "ok"
   },
   "articles": [],
-  "pending": []
+  "pending": [
+    {
+      "url": "https://www.crisanaonline.ro/participarea-la-toate-alegerile-ar-putea-aduce-romanilor-reduceri-de-taxe-si-impozite-pentru-locuinte-terenuri-si-masini-potrivit-unei-initiative-legislative-neobisnuite",
+      "title": "Participarea la toate alegerile ar putea aduce românilor reduceri de taxe și impozite pentru locuințe, terenuri și mașini, potrivit unei inițiative legislative neobișnuite - Crisana Online",
+      "outlet": "Crisana Online",
+      "domain": "crisanaonline.ro",
+      "publishedAt": "2026-10-28",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Inițiativa propune modificarea Codului fiscal și a legislației electorale, astfel încât consiliile locale să poată acorda o reducere suplimentară de până la 5% persoanelor fizice care își plătesc integral, până la 31 martie, impozitele pentru clădiri, terenuri și mijloace de transport.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.748,
+            "source": "local_news",
+            "sourceP": 0.542,
+            "about": 0.966,
+            "release": 0.082
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.797,
+            "source": "aggregator",
+            "sourceP": 0.402,
+            "about": 0.881,
+            "release": 0.294
+          },
+          "luna": {
+            "stance": "critical",
+            "stanceP": 0.88,
+            "source": "local_news",
+            "sourceP": 0.96,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    }
+  ]
 }

@@ -1,10 +1,10 @@
 {
   "slug": "b566-2026",
   "billId": "B566/2026",
-  "checkedAt": "2026-11-03T07:05:06.639Z",
+  "checkedAt": "2026-11-04T07:30:57.250Z",
   "models": {
-    "agy": "error: cod 3: error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 6m46s. AGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 6m46s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"e",
-    "claude": "error: răspunsul nu conține JSON valid: „Failed to authenticate: OAuth session expired and could not be refreshed”",
+    "agy": "error: cod 3: error: print timeout after 10m0s with the turn still in progress; the response is partial AGY_ERROR: {\"short_error\":\"print timeout after 10m0s with the turn still in progress; the response is partial\",\"status\":\"DEADLINE_EXCEEDED\",\"retryable\":false,\"reason\":\"print_timeout\"}",
+    "claude": "ok",
     "codex": "ok"
   },
   "articles": [
@@ -64,7 +64,7 @@
         "claude",
         "codex"
       ],
-      "quote": "Propunerea legislativă depusă de deputatul USR Vasile Ciprian Rus nu produce, în prezent, efecte juridice.",
+      "quote": "Inițiativa aparține deputatului USR Vasile Ciprian Rus și urmărește eliminarea obligației de a prezenta adeverințe de venit atunci când informațiile pot fi obținute direct de la ANAF.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -152,7 +152,7 @@
         "claude",
         "codex"
       ],
-      "quote": "Proiectul nu elimină verificarea veniturilor.",
+      "quote": "Instituțiile publice nu vor mai putea cere adeverințe de venit dacă pot verifica datele online, prevede un proiect de lege depus la Senat.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -241,7 +241,7 @@
         "agy",
         "claude"
       ],
-      "quote": "Proiectul de lege depus în Parlament nu produce efecte juridice doar prin înregistrarea sa.",
+      "quote": "Deputatul USR Vasile Ciprian Rus susține că proiectul are ca obiectiv reducerea birocrației în relația dintre cetățeni și administrația publică.",
       "match": "quote",
       "decision": {
         "v": 2,

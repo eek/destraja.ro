@@ -1,13 +1,57 @@
 {
   "slug": "b596-2026",
   "billId": "B596/2026",
-  "checkedAt": "2026-11-03T07:06:42.183Z",
+  "checkedAt": "2026-11-04T08:13:37.371Z",
   "models": {
-    "agy": "error: cod 3: error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 5m3s. AGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 5m3s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"err",
-    "claude": "error: răspunsul nu conține JSON valid: „Failed to authenticate: OAuth session expired and could not be refreshed”",
+    "agy": "ok",
+    "claude": "ok",
     "codex": "ok"
   },
   "articles": [
+    {
+      "url": "https://epitesti.ro/stiri/economic/tichetele-de-masa-ar-putea-creste-la-50-de-lei-pe-zi-cati-bani-le-raman-romanilor",
+      "title": "Tichetele de masă ar putea crește la 50 de lei pe zi. Câți bani le rămân românilor",
+      "outlet": "ePitești",
+      "domain": "epitesti.ro",
+      "publishedAt": "2026-10-30",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Valoarea tichetelor de masă ar putea fi majorată de la 45 la 50 de lei pe zi, potrivit unui proiect depus în Senat.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.803,
+            "source": "local_news",
+            "sourceP": 0.473,
+            "about": 0.948,
+            "release": 0.037
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.687,
+            "source": "aggregator",
+            "sourceP": 0.327,
+            "about": 0.755,
+            "release": 0.085
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.91,
+            "source": "aggregator",
+            "sourceP": 0.88,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
     {
       "url": "https://www.aktual24.ro/deputatii-social-democrati-vor-sa-creasca-valoarea-bonurilor-de-masa-cu-5-lei-impactul-economic-este-de-peste-4-miliarde-de-lei-anual",
       "title": "Deputații PSD vor să crească valoarea bonurilor de masă cu 5 lei. Impactul economic este de peste 4 miliarde de lei anual - Aktual24",
@@ -62,7 +106,7 @@
         "agy",
         "claude"
       ],
-      "quote": "Proiectul prevede majorarea plafonului legal pentru tichetele de masă cu cinci lei, de la 45 la 50 de lei.",
+      "quote": "Proiectul propune înlocuirea acestui plafon cu suma de 50 de lei pentru fiecare tichet de masă.",
       "match": "quote",
       "firstSeenAt": "2026-10-29",
       "decision": {
@@ -104,9 +148,10 @@
       "domain": "bihon.ro",
       "publishedAt": "2026-10-29",
       "foundBy": [
-        "agy"
+        "agy",
+        "claude"
       ],
-      "quote": "Propunerea legislativă a fost depusă de deputații PSD Marius Constantin Budăi și Adrian Solomon, care au solicitat dezbaterea în procedură de urgență.",
+      "quote": "Proiectul propune majorarea valorii nominale maxime a unui tichet de masă de la 45 la 50 de lei.",
       "match": "quote",
       "firstSeenAt": "2026-10-29",
       "decision": {
@@ -186,6 +231,50 @@
       }
     },
     {
+      "url": "https://www.cotidianul.ro/noiembrie-ar-putea-aduce-o-majorare-a-valorii-tichetelor-de-masa-proiect-de-lege-depus-in-parlament",
+      "title": "Noiembrie ar putea aduce o majorare a valorii tichetelor de masă. Proiect de lege depus în Parlament",
+      "outlet": "Cotidianul",
+      "domain": "cotidianul.ro",
+      "publishedAt": "2026-10-28",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Această inițiativă legislativă susține modificarea Legii nr. 165/2018 privind acordarea biletelor de valoare, scopul său fiind majorarea la 50 de lei a valorii tichetelor de masă.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "citat",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.83,
+            "source": "national_news",
+            "sourceP": 0.783,
+            "about": 0.949,
+            "release": 0.145
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.894,
+            "source": "national_news",
+            "sourceP": 0.641,
+            "about": 0.867,
+            "release": 0.076
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.97,
+            "source": "national_news",
+            "sourceP": 0.92,
+            "about": 0.99,
+            "release": 0.02
+          }
+        }
+      }
+    },
+    {
       "url": "https://www.digi24.ro/digieconomic/consumer/tichetele-de-masa-ar-putea-creste-la-50-de-lei-din-noiembrie-2026-proiect-depus-in-senat-124845",
       "title": "Tichetele de masă ar putea crește la 50 de lei din noiembrie 2026. Proiect depus în Senat",
       "outlet": "Digi24",
@@ -240,7 +329,7 @@
         "agy",
         "claude"
       ],
-      "quote": "Potrivit propunerii legislative, noua valoare a tichetelor de masă ar urma să se aplice din luna noiembrie și să rămână în vigoare până în septembrie 2027.",
+      "quote": "Partidul Social Democrat (PSD) a depus în Parlament în procedură de urgență, miercuri, prin deputații Adrian Solomon și Marius Budăi, o propunere legislativă care prevede creșterea valorii maxime a tichetelor de masă de la 45 la 50 de lei pe zi.",
       "match": "quote",
       "firstSeenAt": "2026-10-29",
       "decision": {
@@ -329,7 +418,7 @@
         "agy",
         "claude"
       ],
-      "quote": "Conform propunerii legislative, valoarea tichetelor de masă va crește de la maximum 45 de lei/zi la 50 de lei/zi începând cu luna noiembrie.",
+      "quote": "PSD a depus în Parlament în procedură de urgență, miercuri, prin deputații Adrian Solomon și Marius Budăi, o propunere legislativă pentru creșterea valorii bonurilor de masă zilnice pe care salariații le pot primi de la angajator.",
       "match": "quote",
       "firstSeenAt": "2026-10-29",
       "decision": {
@@ -538,6 +627,50 @@
             "sourceP": 0.96,
             "about": 0.99,
             "release": 0.01
+          }
+        }
+      }
+    },
+    {
+      "url": "https://oficiuldestiri.ro/bani-in-plus-pentru-angajatii-care-primesc-bonuri-de-masa-cu-cat-ar-putea-creste-valoarea-tichetelor-din-noiembrie-2026",
+      "title": "Bani în plus pentru angajații care primesc bonuri de masă. Cu cât ar putea crește valoarea tichetelor din noiembrie 2026 | Oficiul de Știri",
+      "outlet": "Oficiul de Știri | Stiri de ultima ora interne si externe, breaking news, stiri online, stirile zilei",
+      "domain": "oficiuldestiri.ro",
+      "publishedAt": "2026-10-28",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Valoarea maximă a unui tichet de masă ar urma să crească de la 45 la 50 de lei pe zi, potrivit unui proiect de lege depus în Parlament de deputații PSD Marius Budăi și Adrian Solomon.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.819,
+            "source": "national_news",
+            "sourceP": 0.621,
+            "about": 0.966,
+            "release": 0.047
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.819,
+            "source": "party_or_politician",
+            "sourceP": 0.315,
+            "about": 0.798,
+            "release": 0.294
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.96,
+            "source": "national_news",
+            "sourceP": 0.64,
+            "about": 0.99,
+            "release": 0.02
           }
         }
       }

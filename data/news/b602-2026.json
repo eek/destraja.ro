@@ -1,12 +1,369 @@
 {
   "slug": "b602-2026",
   "billId": "B602/2026",
-  "checkedAt": "2026-11-03T07:07:04.071Z",
+  "checkedAt": "2026-11-04T08:16:46.390Z",
   "models": {
-    "agy": "error: cod 3: error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 4m42s. AGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 4m42s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"e",
-    "claude": "error: răspunsul nu conține JSON valid: „Failed to authenticate: OAuth session expired and could not be refreshed”",
+    "agy": "ok",
+    "claude": "ok",
     "codex": "ok"
   },
-  "articles": [],
-  "pending": []
+  "articles": [
+    {
+      "url": "https://www.gandul.ro/politica/aur-a-depus-un-proiect-de-lege-pentru-infiintarea-scolii-nationale-de-diplomatie-21053406",
+      "title": "Deputatul Cosmin Corendea (AUR) a depus un proiect de lege pentru înființarea Școlii Naționale de Diplomație. \"Ducem mai departe o tradiție valoroasă, valorificăm experiența acumulată și investim în viitoarele generații ",
+      "outlet": "Gândul",
+      "domain": "gandul.ro",
+      "publishedAt": "2026-11-03",
+      "foundBy": [
+        "agy",
+        "claude"
+      ],
+      "quote": "AUR a depus un proiect de lege pentru înființarea, organizarea și funcționarea Școlii Naționale de Diplomație",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.628,
+            "source": "national_news",
+            "sourceP": 0.757,
+            "about": 0.967,
+            "release": 0.799
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.523,
+            "source": "national_news",
+            "sourceP": 0.621,
+            "about": 0.798,
+            "release": 0.593
+          },
+          "luna": {
+            "stance": "supportive",
+            "stanceP": 0.99,
+            "source": "national_news",
+            "sourceP": 0.91,
+            "about": 0.99,
+            "release": 0.96
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.mediafax.ro/politic/aur-a-depus-un-proiect-de-lege-pentru-infiintarea-scolii-nationale-de-diplomatie-23836525",
+      "title": "AUR a depus un proiect de lege pentru înființarea Școlii Naționale de Diplomație",
+      "outlet": "Mediafax",
+      "domain": "mediafax.ro",
+      "publishedAt": "2026-11-03",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "AUR a depus un proiect de lege pentru înființarea, organizarea și funcționarea Școlii Naționale de Diplomație",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "pagina",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.67,
+            "source": "national_news",
+            "sourceP": 0.558,
+            "about": 0.966,
+            "release": 0.781
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.614,
+            "source": "national_news",
+            "sourceP": 0.345,
+            "about": 0.835,
+            "release": 0.438
+          },
+          "luna": {
+            "stance": "supportive",
+            "stanceP": 0.98,
+            "source": "national_news",
+            "sourceP": 0.98,
+            "about": 0.99,
+            "release": 0.82
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.realitatea.net/stiri/politica/deputatul-cosmin-corendea-aur-a-depus-un-proiect-de-lege-pentru-infiintarea-scolii-nationale-de-diplomatie-srjx7g",
+      "title": "Deputatul Cosmin Corendea (AUR) a depus un proiect de lege pentru înființarea Școlii Naționale de Diplomație",
+      "outlet": "Realitatea",
+      "domain": "realitatea.net",
+      "publishedAt": "2026-11-03",
+      "foundBy": [
+        "agy",
+        "claude"
+      ],
+      "quote": "Proiectul de lege urmează să parcurgă procedura parlamentară de dezbatere și adoptare.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.803,
+            "source": "national_news",
+            "sourceP": 0.715,
+            "about": 0.954,
+            "release": 0.605
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.668,
+            "source": "national_news",
+            "sourceP": 0.611,
+            "about": 0.777,
+            "release": 0.407
+          },
+          "luna": {
+            "stance": "supportive",
+            "stanceP": 0.87,
+            "source": "national_news",
+            "sourceP": 0.95,
+            "about": 0.99,
+            "release": 0.82
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.stiripesurse.ro/romania-ar-putea-avea-o-scoala-nationala-de-diplomatie-un-deputat-aur-vrea-sa-schimbe-modul-in-care-sunt-pregatiti-viitorii-diplomati_3933542",
+      "title": "Deputatul AUR Cosmin Corendea a depus un proiect de lege care prevede înființarea Școlii Naționale de Diplomație",
+      "outlet": "Știri pe surse",
+      "domain": "stiripesurse.ro",
+      "publishedAt": "2026-11-03",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Deputatul AUR Cosmin Corendea a depus un proiect de lege care prevede înființarea Școlii Naționale de Diplomație",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.733,
+            "source": "aggregator",
+            "sourceP": 0.503,
+            "about": 0.962,
+            "release": 0.724
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.869,
+            "source": "aggregator",
+            "sourceP": 0.54,
+            "about": 0.852,
+            "release": 0.294
+          },
+          "luna": {
+            "stance": "supportive",
+            "stanceP": 0.82,
+            "source": "national_news",
+            "sourceP": 0.78,
+            "about": 0.99,
+            "release": 0.88
+          }
+        }
+      }
+    },
+    {
+      "url": "https://agerpres.ro/politic/2026/11/03/camera-deputatilor-deputatul-cosmin-corendea-aur-a-depus-un-proiect-de-lege-pentru-infiintarea-scoli--1609475",
+      "title": "Camera Deputaților/Deputatul Cosmin Corendea (AUR) a depus un proiect de lege pentru înființarea Școlii Naționale de Diplomație",
+      "outlet": "Agerpres",
+      "domain": "agerpres.ro",
+      "publishedAt": null,
+      "foundBy": [
+        "agy",
+        "claude"
+      ],
+      "quote": "Deputatul AUR Cosmin Corendea a depus un proiect de lege pentru înființarea, organizarea și funcționarea Școlii Naționale",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.797,
+            "source": "national_news",
+            "sourceP": 0.845,
+            "about": 0.951,
+            "release": 0.626
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.875,
+            "source": "national_news",
+            "sourceP": 0.661,
+            "about": 0.867,
+            "release": 0.321
+          },
+          "luna": {
+            "stance": "supportive",
+            "stanceP": 0.84,
+            "source": "national_news",
+            "sourceP": 0.99,
+            "about": 0.99,
+            "release": 0.72
+          }
+        }
+      }
+    }
+  ],
+  "pending": [
+    {
+      "url": "https://www.amosnews.ro/aur-a-depus-un-proiect-de-lege-pentru-infiintarea-scolii-nationale-de-diplomatie",
+      "title": "AUR a depus un proiect de lege pentru înființarea Școlii Naționale de Diplomație -",
+      "outlet": "amosnews.ro",
+      "domain": "amosnews.ro",
+      "publishedAt": "2026-11-03",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "AUR a depus un proiect de lege pentru înființarea, organizarea și funcționarea Școlii Naționale de Diplomație",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "supportive",
+            "stanceP": 0.549,
+            "source": "party_or_politician",
+            "sourceP": 0.596,
+            "about": 0.97,
+            "release": 0.921
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.69,
+            "source": "national_news",
+            "sourceP": 0.417,
+            "about": 0.835,
+            "release": 0.349
+          },
+          "luna": {
+            "stance": "supportive",
+            "stanceP": 0.99,
+            "source": "party_or_politician",
+            "sourceP": 0.97,
+            "about": 0.99,
+            "release": 0.99
+          }
+        }
+      }
+    },
+    {
+      "url": "https://giurgiu247.ro/proiect-de-lege-aur-pentru-infiintarea-scolii-nationale-de-diplomatie-1e4ec81980",
+      "title": "Proiect de lege AUR pentru înființarea Școlii Naționale de Diplomație - Giurgiu 247",
+      "outlet": "Giurgiu 247",
+      "domain": "giurgiu247.ro",
+      "publishedAt": "2026-11-03",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Deputatul Cosmin Corendea, profesor doctor, a depus un proiect de lege care vizează înființarea, organizarea și funcționarea Școlii Naționale de Diplomație.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.782,
+            "source": "local_news",
+            "sourceP": 0.664,
+            "about": 0.958,
+            "release": 0.645
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.639,
+            "source": "local_news",
+            "sourceP": 0.715,
+            "about": 0.881,
+            "release": 0.5
+          },
+          "luna": {
+            "stance": "supportive",
+            "stanceP": 0.78,
+            "source": "local_news",
+            "sourceP": 0.95,
+            "about": 0.99,
+            "release": 0.7
+          }
+        }
+      }
+    },
+    {
+      "url": "https://pressonline.ro/deputatul-cosmin-corendea-aur-a-depus-un-proiect-de-lege-pentru-infiintarea-scolii-nationale-de-diplomatie",
+      "title": "Deputatul Cosmin Corendea (AUR) a depus un proiect de lege pentru înființarea Școlii Naționale de Diplomație!",
+      "outlet": "Press Online",
+      "domain": "pressonline.ro",
+      "publishedAt": "2026-11-03",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Inițiativa legislativă urmărește crearea unui cadru instituțional care să reunească pregătirea profesională, formarea academică și cercetarea în domeniul diplomației, al relațiilor internaționale și al politicii externe.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.65,
+            "source": "aggregator",
+            "sourceP": 0.328,
+            "about": 0.963,
+            "release": 0.804
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.611,
+            "source": "national_news",
+            "sourceP": 0.409,
+            "about": 0.798,
+            "release": 0.469
+          },
+          "luna": {
+            "stance": "supportive",
+            "stanceP": 0.98,
+            "source": "aggregator",
+            "sourceP": 0.91,
+            "about": 0.99,
+            "release": 0.97
+          }
+        }
+      }
+    }
+  ]
 }

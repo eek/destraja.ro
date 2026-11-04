@@ -1,13 +1,57 @@
 {
   "slug": "b549-2026",
   "billId": "B549/2026",
-  "checkedAt": "2026-11-03T07:04:11.502Z",
+  "checkedAt": "2026-11-04T07:15:15.237Z",
   "models": {
-    "agy": "error: cod 3: error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 7m35s. AGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 7m35s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"e",
-    "claude": "error: răspunsul nu conține JSON valid: „Failed to authenticate: OAuth session expired and could not be refreshed”",
+    "agy": "ok",
+    "claude": "ok",
     "codex": "ok"
   },
   "articles": [
+    {
+      "url": "https://www.capital.ro/banii-de-pensie-inainte-de-finalizarea-dosarului-conditia-prevazuta-intr-un-proiect-legislativ.html",
+      "title": "Banii de pensie, înainte de finalizarea dosarului? Condiția prevăzută într-un proiect legislativ",
+      "outlet": "Capital",
+      "domain": "capital.ro",
+      "publishedAt": "2026-10-30",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Proiectul legislativ B549/2026 propune modificarea și completarea Legii nr. 360/2023 privind sistemul public de pensii.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.898,
+            "source": "national_news",
+            "sourceP": 0.693,
+            "about": 0.963,
+            "release": 0.079
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.928,
+            "source": "trade_press",
+            "sourceP": 0.555,
+            "about": 0.835,
+            "release": 0.148
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.97,
+            "source": "national_news",
+            "sourceP": 0.91,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
     {
       "url": "https://www.capital.ro/cum-se-acorda-pensia-provizorie-cine-are-dreptul-la-ea-si-in-ce-conditii-ar-putea-primi-banii-inainte-de-finalizarea-dosarului.html",
       "title": "Cum se acordă pensia provizorie, cine are dreptul la ea și în ce condiții ar putea primi banii înainte de finalizarea dosarului",
@@ -47,6 +91,50 @@
             "stanceP": 0.97,
             "source": "national_news",
             "sourceP": 0.88,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
+      "url": "https://evz.ro/ce-sunt-pensiile-provizorii-pentru-romanii-din-diaspora-banii-inainte-de-documente.html",
+      "title": "Ce sunt pensiile provizorii pentru românii din diaspora",
+      "outlet": "Evenimentul Zilei",
+      "domain": "evz.ro",
+      "publishedAt": "2026-10-29",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Proiectul urmărește modificarea Legii nr. 360/2023 privind sistemul public de pensii, astfel încât beneficiarii să nu mai fie nevoiți să aștepte finalizarea tuturor procedurilor administrative internaționale pentru a încasa banii.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.841,
+            "source": "national_news",
+            "sourceP": 0.875,
+            "about": 0.967,
+            "release": 0.072
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.789,
+            "source": "national_news",
+            "sourceP": 0.432,
+            "about": 0.679,
+            "release": 0.095
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.96,
+            "source": "national_news",
+            "sourceP": 0.98,
             "about": 0.99,
             "release": 0.01
           }
@@ -106,7 +194,7 @@
       "foundBy": [
         "claude"
       ],
-      "quote": "Proiectul propune modificarea Legii nr. 360/2023 privind sistemul public de pensii",
+      "quote": "Inițiatorii susțin că practicile actuale nu sunt uniforme.",
       "match": "quote",
       "firstSeenAt": "2026-10-29",
       "decision": {
@@ -238,7 +326,7 @@
       "foundBy": [
         "claude"
       ],
-      "quote": "Consiliul Economic și Social (CES) a avizat favorabil inițiativa legislativă, însă a formulat două observații.",
+      "quote": "Inițiatorii susțin că, în prezent, casele teritoriale de pensii nu soluționează dosarele în același mod.",
       "match": "quote",
       "firstSeenAt": "2026-10-28",
       "decision": {
@@ -548,7 +636,7 @@
       "foundBy": [
         "agy"
       ],
-      "quote": "Propunerea legislativă B549/2026 urmărește modificarea Legii nr. 360/2023 privind sistemul public de pensii, astfel încât persoanele care au lucrat în România și în alte state să nu mai fie obligate să aștepte toate documentele externe atunci când dreptul lor poate fi deja stabilit.",
+      "quote": "Românii care au lucrat în străinătate ar putea primi o pensie provizorie înainte de finalizarea tuturor verificărilor internaționale, potrivit unei propuneri legislative înregistrate la Senat în octombrie 2026.",
       "match": "quote",
       "firstSeenAt": "2026-10-29",
       "decision": {
@@ -680,7 +768,7 @@
       "foundBy": [
         "claude"
       ],
-      "quote": "Inițiativa propune modificarea Legii nr. 360/2023 privind sistemul public de pensii.",
+      "quote": "Propunerea legislativă este în consultare publică la Senat până pe 6 noiembrie 2026.",
       "match": "quote",
       "firstSeenAt": "2026-10-31",
       "decision": {

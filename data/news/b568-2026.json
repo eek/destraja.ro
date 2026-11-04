@@ -1,10 +1,10 @@
 {
   "slug": "b568-2026",
   "billId": "B568/2026",
-  "checkedAt": "2026-11-03T07:05:01.977Z",
+  "checkedAt": "2026-11-04T07:32:05.096Z",
   "models": {
-    "agy": "error: cod 3: error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 6m39s. AGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 6m39s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"e",
-    "claude": "error: răspunsul nu conține JSON valid: „Failed to authenticate: OAuth session expired and could not be refreshed”",
+    "agy": "ok",
+    "claude": "ok",
     "codex": "ok"
   },
   "articles": [
@@ -48,6 +48,50 @@
             "source": "national_news",
             "sourceP": 0.99,
             "about": 0.73,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
+      "url": "https://hotnews.ro/cat-a-cheltuit-statul-roman-pentru-deplasarile-externe-ale-mirabelei-gradinaru-raspunsul-administratiei-prezidentiale-dupa-proiectul-de-lege-depus-de-aur-2378530",
+      "title": "Cât a cheltuit statul român pentru deplasările externe ale Mirabelei Grădinaru. Răspunsul Administrației Prezidențiale, după proiectul de lege depus de AUR - HotNews.ro",
+      "outlet": "HotNews",
+      "domain": "hotnews.ro",
+      "publishedAt": "2026-10-17",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Răspunsul vine la scurt timp după ce AUR a depus în Parlament un proiect de lege „pentru a opri cheltuirea nejustificată a banului public în deplasările externe ale Președintelui României”.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.824,
+            "source": "national_news",
+            "sourceP": 0.921,
+            "about": 0.688,
+            "release": 0.03
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.744,
+            "source": "national_news",
+            "sourceP": 0.455,
+            "about": 0.562,
+            "release": 0.245
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.94,
+            "source": "national_news",
+            "sourceP": 0.99,
+            "about": 0.12,
             "release": 0.01
           }
         }
@@ -195,7 +239,7 @@
         "agy",
         "claude"
       ],
-      "quote": "Proiectul propune interzicerea utilizării resurselor financiare, umane sau tehnice ale instituțiilor publice",
+      "quote": "AUR a depus în Parlament un proiect de lege potrivit căruia cheltuielile persoanelor care îl însoțesc pe președintele României în deplasări externe pot fi suportate din fonduri publice doar dacă acestea dețin „o funcție sau un statut oficial recunoscut de lege”.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -373,7 +417,7 @@
         "agy",
         "claude"
       ],
-      "quote": "Un grup de parlamentari, majoritatea de la AUR, a depus miercuri, 14 octombrie, un proiect de modificare a Legii nr. 47/1994 privind serviciile din subordinea Președintelui României.",
+      "quote": "Propunerea legislativă a fost înregistrată la Senat cu numărul B568/2026 și se află în procedură de dezbatere.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -584,6 +628,50 @@
       }
     },
     {
+      "url": "https://www.stiripesurse.ro/mirabela-gradinaru-nicusor-dan-lege-propunere-aur-deplasari_3928599",
+      "title": "Concubina lui Nicușor Dan, sub asalt în Parlament: AUR vrea să-i interzică Mirabelei Grădinaru să-l însoțească pe șeful statului și să reprezinte România în plan extern",
+      "outlet": "Știri pe surse",
+      "domain": "stiripesurse.ro",
+      "publishedAt": "2026-10-15",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "În acest context, 68 de parlamentari AUR printre care liderul formațiunii, George Simion, au depus în Parlament, miercuri, un proiect de modificare a Legii nr.47/1994 privind serviciile din subordinea Președintelui României.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.74,
+            "source": "national_news",
+            "sourceP": 0.597,
+            "about": 0.911,
+            "release": 0.046
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.621,
+            "source": "aggregator",
+            "sourceP": 0.559,
+            "about": 0.148,
+            "release": 0.245
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.78,
+            "source": "national_news",
+            "sourceP": 0.94,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
       "url": "https://tvrinfo.ro/aur-a-depus-un-proiect-de-lege-pentru-a-opri-cheltuirea-nejustificata-a-banului-public-in-deplasarile-externe-ale-presedintelui-romaniei",
       "title": "AUR a depus un proiect de lege pentru a opri cheltuirea nejustificată a banului public în deplasările externe ale Președintelui României - tvrinfo.ro",
       "outlet": "TVR Info",
@@ -674,6 +762,50 @@
     }
   ],
   "pending": [
+    {
+      "url": "https://damboviteanul.com/2026/10/17/aur-propune-limitarea-cheltuielilor-din-bani-publici-pentru-persoanele-care-il-insotesc-pe-presedinte-in-vizitele-externe",
+      "title": "AUR propune limitarea cheltuielilor din bani publici pentru persoanele care îl însoțesc pe președinte în vizitele externe",
+      "outlet": "DAMBOVITEANUL",
+      "domain": "damboviteanul.com",
+      "publishedAt": "2026-10-17",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Inițiativa legislativă, înregistrată la Senat la 14 octombrie 2026, urmărește completarea Legii nr. 47/1994 privind serviciile din subordinea președintelui României și reglementarea utilizării fondurilor publice pentru deplasările oficiale externe ale șefului statului.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.849,
+            "source": "local_news",
+            "sourceP": 0.554,
+            "about": 0.957,
+            "release": 0.147
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.782,
+            "source": "local_news",
+            "sourceP": 0.334,
+            "about": 0.706,
+            "release": 0.269
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.91,
+            "source": "local_news",
+            "sourceP": 0.94,
+            "about": 0.99,
+            "release": 0.03
+          }
+        }
+      }
+    },
     {
       "url": "https://www.activenews.ro/stiri/Mirabela-Gradinaru-in-vizorul-AUR-68-de-parlamentari-au-depus-proiectul-care-ii-inchide-usa-delegatiilor-oficiale-si-ii-interzice-orice-rol-de-reprezentare-a-Romaniei-208653",
       "title": "Mirabela Grădinaru, în vizorul AUR: 68 de parlamentari au depus proiectul care îi închide ușa delegațiilor oficiale și îi interzice orice rol de reprezentare a României",
@@ -899,7 +1031,8 @@
       "domain": "ziartarguneamt.ro",
       "publishedAt": "2026-10-16",
       "foundBy": [
-        "codex"
+        "codex",
+        "agy"
       ],
       "quote": "Alături de deputata Andra-Claudia Constantinescu și de alți parlamentari, Dumitrina Mitrea a semnat proiectul B568/2026, înregistrat la Senat la data de 14 octombrie.",
       "match": "quote",
@@ -943,9 +1076,10 @@
       "domain": "ziarpiatraneamt.ro",
       "publishedAt": "2026-10-15",
       "foundBy": [
-        "codex"
+        "codex",
+        "agy"
       ],
-      "quote": "Propunerea legislativă se află deocamdată în procedură parlamentară și nu produce efecte juridice.",
+      "quote": "Proiectul, care o are printre inițiatori pe Dumitrina Mitrea, alături de Andra-Claudia Constantinescu și alți parlamentari, urmărește introducerea unor restricții explicite privind utilizarea resurselor instituțiilor publice pentru persoanele care nu dețin funcții sau atribuții oficiale.",
       "match": "quote",
       "firstSeenAt": "2026-10-28",
       "decision": {

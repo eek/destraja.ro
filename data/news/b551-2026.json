@@ -1,13 +1,57 @@
 {
   "slug": "b551-2026",
   "billId": "B551/2026",
-  "checkedAt": "2026-11-03T07:04:12.114Z",
+  "checkedAt": "2026-11-04T07:16:16.438Z",
   "models": {
-    "agy": "error: cod 3: error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 7m34s. AGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 7m34s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"e",
-    "claude": "error: răspunsul nu conține JSON valid: „Failed to authenticate: OAuth session expired and could not be refreshed”",
+    "agy": "ok",
+    "claude": "ok",
     "codex": "ok"
   },
   "articles": [
+    {
+      "url": "https://www.dailybusiness.ro/actualitate/bns-critica-subventiile-pentru-companiile-energo-intensive-si-cere-explicatii-pentru-preturile-ridicate-la-energie-554476",
+      "title": "BNS critică subvențiile pentru companiile energo-intensive și cere explicații pentru prețurile ridicate la energie - DailyBusiness.ro",
+      "outlet": "DailyBusiness",
+      "domain": "dailybusiness.ro",
+      "publishedAt": "2026-10-29",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Blocul Național Sindical (BNS) critică intenția autorităților de a introduce o schemă de ajutor de stat pentru reducerea temporară a prețului energiei electrice pentru întreprinderile din sectoarele energo-intensive expuse comerțului internațional, susținând că măsura riscă să trateze efectele crizei energetice fără să rezolve cauzele prețurilor ridicate.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "critical",
+            "stanceP": 0.814,
+            "source": "national_news",
+            "sourceP": 0.441,
+            "about": 0.912,
+            "release": 0.423
+          },
+          "d1": {
+            "stance": "critical",
+            "stanceP": 0.937,
+            "source": "trade_press",
+            "sourceP": 0.493,
+            "about": 0.651,
+            "release": 0.133
+          },
+          "luna": {
+            "stance": "critical",
+            "stanceP": 0.99,
+            "source": "trade_press",
+            "sourceP": 0.86,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
     {
       "url": "https://www.bursa.ro/aur-a-depus-in-parlament-un-proiect-de-lege-pentru-o-schema-de-ajutor-de-stat-destinata-marilor-consumatori-de-energie-07935060",
       "title": "AUR a depus în Parlament un proiect de lege pentru o schemă de ajutor de stat destinată marilor consumatori de energie",
@@ -19,7 +63,7 @@
         "claude",
         "codex"
       ],
-      "quote": "Proiectul prevede un buget total de cel mult 1,05 miliarde de euro, cu un plafon anual de maximum 350 de milioane de euro, conform sursei.",
+      "quote": "AUR a depus în Parlament un proiect de lege prin care propune instituirea unei scheme de ajutor de stat",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -64,7 +108,7 @@
         "claude",
         "codex"
       ],
-      "quote": "Proiectul prevede un plafon anual de maximum 350 de milioane de euro.",
+      "quote": "AUR a depus în Parlament un proiect de lege prin care propune introducerea unei scheme de ajutor de stat",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -109,7 +153,7 @@
         "claude",
         "codex"
       ],
-      "quote": "Potrivit AUR, proiectul prevede un buget total de cel mult 1,05 miliarde de euro, cu un plafon anual de maximum 350 de milioane de euro.",
+      "quote": "AUR a depus în Parlament un proiect de lege prin care propune instituirea unei scheme de ajutor de stat pentru reducerea temporară a preţului energiei electrice pentru întreprinderile mari consumatoare de energie din sectoarele electro-intensive expuse comerţului internaţional.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -273,6 +317,50 @@
           }
         }
       }
+    },
+    {
+      "url": "https://agerpres.ro/economic/2026/10/29/bns-politicienii-ignora-criza-energetica-pe-care-acum-vor-sa-o-subventioneze-din-bani-publici--1608054",
+      "title": "BNS: Politicienii ignoră criza energetică, pe care acum vor să o subvenționeze din bani publici",
+      "outlet": "Agerpres",
+      "domain": "agerpres.ro",
+      "publishedAt": null,
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Reprezentanții Blocului Național Sindical (...) în Consiliul Economic și Social (CES) au avizat nefavorabil propunerea legislativă privind instituirea unei scheme de ajutor de stat pentru reducerea temporară a prețului energiei electrice pentru întreprinderile din sectoarele energo-intensive expuse comerțului internațional (B551).",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "critical",
+            "stanceP": 0.785,
+            "source": "national_news",
+            "sourceP": 0.644,
+            "about": 0.907,
+            "release": 0.796
+          },
+          "d1": {
+            "stance": "critical",
+            "stanceP": 0.919,
+            "source": "national_news",
+            "sourceP": 0.37,
+            "about": 0.755,
+            "release": 0.245
+          },
+          "luna": {
+            "stance": "critical",
+            "stanceP": 0.99,
+            "source": "national_news",
+            "sourceP": 0.99,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
     }
   ],
   "pending": [
@@ -286,7 +374,7 @@
         "claude",
         "agy"
       ],
-      "quote": "Proiectul mai prevede ca sprijinul financiar acordat să fie condiționat de investiții.",
+      "quote": "AUR a depus în Parlament un proiect de lege care prevede instituirea unei scheme de ajutor de stat",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -505,7 +593,7 @@
         "agy",
         "claude"
       ],
-      "quote": "Un proiect de lege depus în Parlament de AUR propune reducerea temporară a costurilor cu energia electrică pentru întreprinderile din sectoarele electro-intensive expuse comerțului internațional.",
+      "quote": "Un proiect de lege depus în Parlament de AUR propune reducerea temporară a costurilor cu energia electrică",
       "match": "quote",
       "decision": {
         "v": 2,

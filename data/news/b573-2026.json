@@ -1,10 +1,10 @@
 {
   "slug": "b573-2026",
   "billId": "B573/2026",
-  "checkedAt": "2026-11-03T07:05:23.586Z",
+  "checkedAt": "2026-11-04T07:42:01.017Z",
   "models": {
-    "agy": "error: cod 3: error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 6m22s. AGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 6m22s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"e",
-    "claude": "error: răspunsul nu conține JSON valid: „Failed to authenticate: OAuth session expired and could not be refreshed”",
+    "agy": "error: cod 3: error: print timeout after 10m0s with the turn still in progress; the response is partial AGY_ERROR: {\"short_error\":\"print timeout after 10m0s with the turn still in progress; the response is partial\",\"status\":\"DEADLINE_EXCEEDED\",\"retryable\":false,\"reason\":\"print_timeout\"}",
+    "claude": "ok",
     "codex": "ok"
   },
   "articles": [
@@ -243,7 +243,7 @@
         "claude",
         "agy"
       ],
-      "quote": "AUR a depus un proiect de lege prin care propune eliminarea pragului electoral alternativ de 20% din voturi în cel puțin patru circumscripții electorale și menținerea exclusivă a pragului național de 5%.",
+      "quote": "Inițiativa îi aparține liderului senatorilor AUR, Petrișor Peiu, și urmărește simplificarea regulilor electorale.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -328,9 +328,10 @@
       "domain": "rador.ro",
       "publishedAt": "2026-10-23",
       "foundBy": [
-        "agy"
+        "agy",
+        "claude"
       ],
-      "quote": "Inițiativa legislativă aparține liderului senatorilor formațiunii, Petrișor Peiu, și prevede eliminarea pragului electoral alternativ de 20% din voturile valabil exprimate în cel puțin patru circumscripţii electorale și menținerea exclusivă a pragului național de cinci procente.",
+      "quote": "AUR propune modificarea condițiilor în care competitorii electorali pot participa la repartizarea mandatelor parlamentare.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -418,7 +419,7 @@
         "agy",
         "codex"
       ],
-      "quote": "AUR vrea să elimine pragul electoral alternativ de 20% din voturi în cel puțin patru circumscripții, de care beneficiază UDMR, și să păstreze doar pragul național de 5% pentru repartizarea mandatelor parlamentare.",
+      "quote": "AUR vrea să schimbe legea electorală și să lase UDMR în afara Parlamentului.",
       "match": "quote",
       "decision": {
         "v": 2,

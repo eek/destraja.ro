@@ -1,10 +1,10 @@
 {
   "slug": "b587-2026",
   "billId": "B587/2026",
-  "checkedAt": "2026-11-03T07:06:12.713Z",
+  "checkedAt": "2026-11-04T07:59:12.977Z",
   "models": {
-    "agy": "error: cod 3: error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 5m32s. AGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 5m32s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"e",
-    "claude": "error: răspunsul nu conține JSON valid: „Failed to authenticate: OAuth session expired and could not be refreshed”",
+    "agy": "ok",
+    "claude": "ok",
     "codex": "ok"
   },
   "articles": [
@@ -282,7 +282,7 @@
         "agy",
         "claude"
       ],
-      "quote": "Deputata îi cere Executivului abia instalat să sprijine iniţiativa legislativă",
+      "quote": "Deputatele neafiliate Dumitrița Albu și Aurora Tasica Simu (Uniunea Națională pentru Inovație și Tradiție) au depus în Parlament un proiect de lege care prevede eliminarea TVA pentru mai multe categorii de produse de igienă, printre care absorbantele, scutecele pentru copii, produsele destinate persoanelor cu incontinenţă urinară şi prezervativele.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -405,6 +405,51 @@
       }
     },
     {
+      "url": "https://www.capital.ro/produsele-de-igiena-scutecele-si-prezervativele-s-ar-putea-ieftini-proiect-in-parlament-pentru-eliminarea-completa-a-tva-la-acestea.html",
+      "title": "Produsele de igienă, scutecele și prezervativele s-ar putea ieftini. Proiect în Parlament pentru eliminarea completă a TVA la acestea",
+      "outlet": "Capital",
+      "domain": "capital.ro",
+      "publishedAt": "2026-10-21",
+      "foundBy": [
+        "agy",
+        "claude"
+      ],
+      "quote": "Deputatele Dumitrița Albu și Aurora Simu au depus la Parlament un proiect de lege care propune eliminarea completă a TVA-ului",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.828,
+            "source": "national_news",
+            "sourceP": 0.723,
+            "about": 0.956,
+            "release": 0.497
+          },
+          "d1": {
+            "stance": "supportive",
+            "stanceP": 0.527,
+            "source": "national_news",
+            "sourceP": 0.558,
+            "about": 0.867,
+            "release": 0.294
+          },
+          "luna": {
+            "stance": "supportive",
+            "stanceP": 0.94,
+            "source": "trade_press",
+            "sourceP": 0.78,
+            "about": 0.99,
+            "release": 0.06
+          }
+        }
+      }
+    },
+    {
       "url": "https://www.digi24.ro/stiri/actualitate/social/proiect-depus-in-parlament-pentru-eliminarea-tva-la-mai-multe-produse-de-igiena-nu-este-populism-ci-o-masura-sociala-4002941",
       "title": "Proiect depus în Parlament pentru eliminarea TVA la mai multe produse de igienă: Nu este populism, ci o măsură socială",
       "outlet": "Digi24",
@@ -415,7 +460,7 @@
         "claude",
         "codex"
       ],
-      "quote": "Propunem ca statul să nu mai perceapă TVA pentru produse care răspund unor nevoi fundamentale.",
+      "quote": "Un proiect privind eliminarea TVA pentru scutece, absorbante, alte produse de igienă, dar şi prezervative, a fost depus",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -499,9 +544,10 @@
       "domain": "gandul.ro",
       "publishedAt": "2026-10-21",
       "foundBy": [
-        "agy"
+        "agy",
+        "claude"
       ],
-      "quote": "Două deputate neafiliate, Dumitriţa Albu şi Tăsica Simu, cer ieftinirea scutecelor şi prezervativelor, prin eliminarea aplicării cotei de TVA.",
+      "quote": "Proiectul celor două parlamentare a fost depus miercuri un proiect pentru completarea Legii 227/2015, privind Codul Fiscal.",
       "match": "quote",
       "firstSeenAt": "2026-10-29",
       "decision": {
@@ -633,7 +679,7 @@
         "claude",
         "agy"
       ],
-      "quote": "Propunem ca statul să nu mai perceapă TVA pentru produse care răspund unor nevoi fundamentale.",
+      "quote": "Un proiect privind eliminarea TVA pentru scutece, absorbante, alte produse de igienă, dar şi prezervative, a fost depus",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -722,7 +768,7 @@
         "claude",
         "codex"
       ],
-      "quote": "Două deputate au depus în Parlament o inițiativă legislativă în care propun eliminarea TVA-ului de 21% în cazul unor „produse care răspund unor nevoi fundamentale” și de care oamenii „nu se pot lipsi”.",
+      "quote": "Două deputate au depus miercuri în Senat o inițiativă legislativă în care propun eliminarea TVA-ului de 21% în cazul unor „produse care răspund unor nevoi fundamentale” și de care oamenii „nu se pot lipsi”, precum absorbante și alte produse de igienă menstruală, scutece pentru copii, produse destinate persoanelor care suferă de incontinență, dar și prezervative.",
       "match": "quote",
       "decision": {
         "v": 2,

@@ -1,10 +1,10 @@
 {
   "slug": "b604-2026",
   "billId": "B604/2026",
-  "checkedAt": "2026-11-03T07:07:05.593Z",
+  "checkedAt": "2026-11-04T08:23:17.742Z",
   "models": {
-    "agy": "error: cod 3: error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 4m33s. AGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 4m33s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"e",
-    "claude": "error: răspunsul nu conține JSON valid: „Failed to authenticate: OAuth session expired and could not be refreshed”",
+    "agy": "ok",
+    "claude": "ok",
     "codex": "ok"
   },
   "articles": [
@@ -15,9 +15,10 @@
       "domain": "alba24.ro",
       "publishedAt": "2026-10-30",
       "foundBy": [
-        "claude"
+        "claude",
+        "agy"
       ],
-      "quote": "Proiectul legislativ este semnat de mai mulți parlamentari de la PSD.",
+      "quote": "Mai mulți parlamentari propun eliminarea a trei incompatibilități aplicabile consilierilor locali și județeni, introduse în legislație în anul 2026.",
       "match": "quote",
       "firstSeenAt": "2026-10-31",
       "decision": {
@@ -53,5 +54,94 @@
       }
     }
   ],
-  "pending": []
+  "pending": [
+    {
+      "url": "https://ardeal24.ro/consilierii-locali-si-judeteni-ar-putea-ocupa-simultan-mai-multe-functii-parlamentarii-vor-eliminarea-unor-incompatibilitati-304829.html",
+      "title": "Consilierii locali și județeni ar putea ocupa simultan mai multe funcții. Parlamentarii vor eliminarea unor incompatibilități - Ardeal24",
+      "outlet": "Ardeal24",
+      "domain": "ardeal24.ro",
+      "publishedAt": "2026-10-30",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Mai mulți parlamentari propun eliminarea a trei incompatibilități aplicabile consilierilor locali și județeni",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.822,
+            "source": "local_news",
+            "sourceP": 0.752,
+            "about": 0.941,
+            "release": 0.117
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.699,
+            "source": "local_news",
+            "sourceP": 0.49,
+            "about": 0.755,
+            "release": 0.133
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.81,
+            "source": "local_news",
+            "sourceP": 0.98,
+            "about": 0.99,
+            "release": 0.03
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.bucovinaonline.ro/alesii-locali-ar-putea-ocupa-simultan-mai-multe-functii-dupa-ce-parlamentarii-au-propus-eliminarea-unor-incompatibilitati",
+      "title": "Aleșii locali ar putea ocupa simultan mai multe funcții, după ce parlamentarii au propus eliminarea unor incompatibilități - Bucovina Online",
+      "outlet": "Bucovina Online",
+      "domain": "bucovinaonline.ro",
+      "publishedAt": "2026-10-30",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Inițiativa legislativă, înregistrată la Senat miercuri, 28 octombrie, propune modificarea unor prevederi din Legea nr. 161/2003, care reglementează transparența în exercitarea demnităților și funcțiilor publice, precum și prevenirea și sancționarea corupției.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.79,
+            "source": "local_news",
+            "sourceP": 0.715,
+            "about": 0.966,
+            "release": 0.056
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.746,
+            "source": "national_news",
+            "sourceP": 0.284,
+            "about": 0.852,
+            "release": 0.165
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.91,
+            "source": "local_news",
+            "sourceP": 0.93,
+            "about": 0.99,
+            "release": 0.02
+          }
+        }
+      }
+    }
+  ]
 }

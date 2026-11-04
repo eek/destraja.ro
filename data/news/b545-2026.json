@@ -1,10 +1,10 @@
 {
   "slug": "b545-2026",
   "billId": "B545/2026",
-  "checkedAt": "2026-11-03T07:03:52.000Z",
+  "checkedAt": "2026-11-04T07:15:21.020Z",
   "models": {
-    "agy": "error: cod 1: error: invalid model selection (--model \"gemini-4-argon-high\" --effort \"\"): model gemini-4-argon-high is not recognized as a known model or custom model in settings",
-    "claude": "error: răspunsul nu conține JSON valid: „Failed to authenticate: OAuth session expired and could not be refreshed”",
+    "agy": "error: cod 3: error: print timeout after 10m0s with the turn still in progress; the response is partial AGY_ERROR: {\"short_error\":\"print timeout after 10m0s with the turn still in progress; the response is partial\",\"status\":\"DEADLINE_EXCEEDED\",\"retryable\":false,\"reason\":\"print_timeout\"}",
+    "claude": "ok",
     "codex": "ok"
   },
   "articles": [
@@ -19,7 +19,7 @@
         "codex",
         "agy"
       ],
-      "quote": "Propunerea legislativă prevede eliminarea taxei pentru vehiculele specializate.",
+      "quote": "Un proiect de lege depus la Parlament prevede această inițiativă pentru reducerea cheltuielilor pentru anumite transporturi.",
       "match": "quote",
       "firstSeenAt": "2026-10-28",
       "decision": {
@@ -152,7 +152,7 @@
       "foundBy": [
         "claude"
       ],
-      "quote": "Proiectul a fost depus la Senat și trebuie să parcurgă procedura legislativă",
+      "quote": "Proiectul a fost depus la Senat și trebuie să parcurgă procedura legislativă înainte ca noile prevederi să poată fi aplicate.",
       "match": "quote",
       "firstSeenAt": "2026-10-29",
       "decision": {
@@ -197,7 +197,7 @@
         "claude",
         "codex"
       ],
-      "quote": "Parlamentarii propun ca vehiculele folosite exclusiv pentru această activitate să nu mai plătească rovinieta.",
+      "quote": "Vehiculele folosite special pentru transportul stupilor ar putea fi scutite de plata rovinietei.",
       "match": "quote",
       "firstSeenAt": "2026-10-28",
       "decision": {
@@ -413,6 +413,50 @@
       }
     },
     {
+      "url": "https://www.dobrogeaonline.ro/autovehiculele-folosite-de-apicultori-ar-putea-beneficia-de-scutire-de-la-plata-rovinietei",
+      "title": "Autovehiculele folosite de apicultori ar putea beneficia de scutire de la plata rovinietei - Dobrogea Online",
+      "outlet": "Dobrogea Online",
+      "domain": "dobrogeaonline.ro",
+      "publishedAt": "2026-10-28",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Prevederea este inclusă într-un proiect de lege depus în Parlament.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.696,
+            "source": "local_news",
+            "sourceP": 0.762,
+            "about": 0.967,
+            "release": 0.064
+          },
+          "d1": {
+            "stance": "mixed",
+            "stanceP": 0.617,
+            "source": "local_news",
+            "sourceP": 0.698,
+            "about": 0.777,
+            "release": 0.095
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.91,
+            "source": "local_news",
+            "sourceP": 0.98,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
       "url": "https://oficiuldestiri.ro/cine-ar-putea-scapa-de-plata-rovinietei-in-romania-o-categorie-de-soferi-ar-economisi-bani-prin-modificarea-og-nr-15-2002-ce-vehicule-sunt-vizate",
       "title": "Cine ar putea scăpa de plata rovinietei în România. O categorie de șoferi ar economisi bani prin modificarea OG nr. 15/2002. Ce vehicule sunt vizate",
       "outlet": "Oficiul de Știri | Stiri de ultima ora interne si externe, breaking news, stiri online, stirile zilei",
@@ -421,7 +465,7 @@
       "foundBy": [
         "claude"
       ],
-      "quote": "Propunerea legislativă B545/2026 urmărește reducerea cheltuielilor de transport pentru anumiți proprietari de vehicule",
+      "quote": "Proiectul B545/2026 trebuie să parcurgă etapele procedurii legislative.",
       "match": "quote",
       "firstSeenAt": "2026-10-28",
       "decision": {

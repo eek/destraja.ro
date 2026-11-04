@@ -1,10 +1,10 @@
 {
   "slug": "b543-2026",
   "billId": "B543/2026",
-  "checkedAt": "2026-11-03T07:03:54.428Z",
+  "checkedAt": "2026-11-04T07:09:46.920Z",
   "models": {
-    "agy": "error: cod 1: error: invalid model selection (--model \"gemini-4-argon-high\" --effort \"\"): model gemini-4-argon-high is not recognized as a known model or custom model in settings",
-    "claude": "error: răspunsul nu conține JSON valid: „Failed to authenticate: OAuth session expired and could not be refreshed”",
+    "agy": "ok",
+    "claude": "ok",
     "codex": "ok"
   },
   "articles": [
@@ -19,7 +19,7 @@
         "claude",
         "codex"
       ],
-      "quote": "Proiectul lui Becali permite biserici de până la 130 m2 fără studii de impact, chiar în arii Natura 2000",
+      "quote": "Scopul inițiativei nu este eliminarea protecției mediului.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -63,7 +63,7 @@
         "agy",
         "claude"
       ],
-      "quote": "Propunerea legislativă vizează modificarea și completarea Codului amenajării teritoriului, urbanismului și construcțiilor.",
+      "quote": "Am băgat legea cultelor acum, o votează Parlamentul imediat.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -93,6 +93,50 @@
             "sourceP": 0.94,
             "about": 0.99,
             "release": 0.01
+          }
+        }
+      }
+    },
+    {
+      "url": "https://business24.ro/gigi-becali/gigi-becali-modificare-cod-urbanism-lacasuri-cult-1670298",
+      "title": "Gigi Becali propune modificarea Codului urbanismului: lăcașuri de cult de până la 130 mp în mediul rural",
+      "outlet": "Business24",
+      "domain": "business24.ro",
+      "publishedAt": "2026-10-06",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Deputatul Gigi Becali propune modificarea Codului urbanismului, intrat în vigoare la 25 august, pentru ca lăcașurile de cult cu o suprafață de până la 130 mp să poată fi construite în mediul rural, inclusiv în arii naturale protejate, pe baza unei notificări adresate autorităților locale, în scopul simplificării autorizării și facilitării exercitării libertății religioase.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.878,
+            "source": "national_news",
+            "sourceP": 0.517,
+            "about": 0.962,
+            "release": 0.379
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.832,
+            "source": "national_news",
+            "sourceP": 0.368,
+            "about": 0.835,
+            "release": 0.202
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.94,
+            "source": "trade_press",
+            "sourceP": 0.83,
+            "about": 0.99,
+            "release": 0.08
           }
         }
       }
@@ -197,7 +241,7 @@
         "agy",
         "codex"
       ],
-      "quote": "Din postura de deputat și membru al Comisiei juridice, acesta a depus la Senat, pe 5 octombrie, o inițiativă prin care vrea să simplifice semnificativ procedurile pentru construirea lăcașurilor de cult de mici dimensiuni, inclusiv în arii naturale protejate.",
+      "quote": "Omul de afaceri a propus crearea unei excepții pentru lăcașurile de cult de mici dimensiuni.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -288,7 +332,7 @@
         "agy",
         "claude"
       ],
-      "quote": "Potrivit documentului, procedura simplificată nu ar elimina cerințele privind calitatea și siguranța construcțiilor.",
+      "quote": "Gigi Becali, în calitatea sa de deputat neafiliat în Parlamentul României, a înaintat o propunere legislativă privind simplificarea procedurilor pentru construirea, în mediul rural, a lăcașurilor de cult de mici dimensiuni, inclusiv în ariile naturale protejate.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -363,6 +407,50 @@
             "sourceP": 0.94,
             "about": 0.99,
             "release": 0.03
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.prosport.ro/diverse/gigi-becali-lege-arii-protejate-20538249",
+      "title": "Neverosimil! Gigi Becali vrea ca proprietarii să facă orice vor în ariile protejate: „Am băgat legea”",
+      "outlet": "Prosport",
+      "domain": "prosport.ro",
+      "publishedAt": "2026-10-02",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Am băgat legea cultelor acum, o votează Parlamentul imediat.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.627,
+            "source": "national_news",
+            "sourceP": 0.608,
+            "about": 0.758,
+            "release": 0.1
+          },
+          "d1": {
+            "stance": "critical",
+            "stanceP": 0.694,
+            "source": "national_news",
+            "sourceP": 0.506,
+            "about": 0.469,
+            "release": 0.378
+          },
+          "luna": {
+            "stance": "critical",
+            "stanceP": 0.97,
+            "source": "national_news",
+            "sourceP": 0.82,
+            "about": 0.99,
+            "release": 0.02
           }
         }
       }

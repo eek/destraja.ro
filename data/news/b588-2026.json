@@ -1,11 +1,11 @@
 {
   "slug": "b588-2026",
   "billId": "B588/2026",
-  "checkedAt": "2026-11-03T07:06:11.219Z",
+  "checkedAt": "2026-11-04T08:06:27.533Z",
   "models": {
-    "agy": "error: cod 3: error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 5m27s. AGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 5m27s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"e",
-    "claude": "error: răspunsul nu conține JSON valid: „Failed to authenticate: OAuth session expired and could not be refreshed”",
-    "codex": "error: răspunsul nu conține JSON valid: „Voi căuta articole despre acest proiect și voi verifica în pagini citatele și datele publicării.”"
+    "agy": "error: cod 3: error: print timeout after 10m0s with the turn still in progress; the response is partial AGY_ERROR: {\"short_error\":\"print timeout after 10m0s with the turn still in progress; the response is partial\",\"status\":\"DEADLINE_EXCEEDED\",\"retryable\":false,\"reason\":\"print_timeout\"}",
+    "claude": "ok",
+    "codex": "ok"
   },
   "articles": [
     {
@@ -18,7 +18,7 @@
         "agy",
         "claude"
       ],
-      "quote": "O inițiativă legislativă depusă recent la Senat propune schimbarea modului în care sunt finanțate centrele militare",
+      "quote": "O inițiativă legislativă depusă recent la Senat propune schimbarea modului în care sunt finanțate centrele militare din România.",
       "match": "quote",
       "firstSeenAt": "2026-10-27",
       "decision": {
@@ -63,7 +63,7 @@
         "claude",
         "codex"
       ],
-      "quote": "Inițiativa privind finanțarea centrelor militare a fost prezentată de Nicoleta Pauliuc într-o postare pe Facebook.",
+      "quote": "Deocamdată, schimbarea este doar o propunere legislativă.",
       "match": "quote",
       "firstSeenAt": "2026-10-27",
       "decision": {
@@ -153,7 +153,7 @@
         "claude",
         "codex"
       ],
-      "quote": "mută cheltuielile de întreţinere ale centrelor militare de la Consiliile judeţene şi Primăriile de sector",
+      "quote": "Eu voi susţine ca propunerea să fie dezbătută rapid, ca să poată intra în vigoare de la 1 ianuarie 2027",
       "match": "quote",
       "firstSeenAt": "2026-10-27",
       "decision": {
@@ -198,7 +198,7 @@
         "claude",
         "codex"
       ],
-      "quote": "Senatorul PNL Nicoleta Pauliuc anunţă că a depus la Parlament o iniţiativă legislativă",
+      "quote": "Ea îşi propune ca legea să intre în vigoare de la 1 ianuarie 2027.",
       "match": "quote",
       "firstSeenAt": "2026-10-27",
       "decision": {
@@ -424,7 +424,7 @@
         "agy",
         "claude"
       ],
-      "quote": "Senatoarea PNL Nicoleta Pauliuc a anunțat luni depunerea unui proiect de lege",
+      "quote": "Propunerea urmărește aplicarea noii reguli de la 1 ianuarie 2027.",
       "match": "quote",
       "firstSeenAt": "2026-10-27",
       "decision": {

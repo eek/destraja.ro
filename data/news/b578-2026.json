@@ -1,10 +1,10 @@
 {
   "slug": "b578-2026",
   "billId": "B578/2026",
-  "checkedAt": "2026-11-03T07:05:39.558Z",
+  "checkedAt": "2026-11-04T07:51:10.911Z",
   "models": {
-    "agy": "error: cod 3: error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 6m5s. AGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 6m5s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"err",
-    "claude": "error: răspunsul nu conține JSON valid: „Failed to authenticate: OAuth session expired and could not be refreshed”",
+    "agy": "error: cod 3: error: print timeout after 10m0s with the turn still in progress; the response is partial AGY_ERROR: {\"short_error\":\"print timeout after 10m0s with the turn still in progress; the response is partial\",\"status\":\"DEADLINE_EXCEEDED\",\"retryable\":false,\"reason\":\"print_timeout\"}",
+    "claude": "ok",
     "codex": "ok"
   },
   "articles": [
@@ -19,7 +19,7 @@
         "codex",
         "agy"
       ],
-      "quote": "Deputații și senatorii ar putea fi obligați să facă teste antidrog la începutul fiecărei sesiuni parlamentare",
+      "quote": "Documentul se află în dezbatere la Senat, prima Cameră sesizată, iar măsurile propuse nu sunt încă în vigoare.",
       "match": "quote",
       "firstSeenAt": "2026-10-28",
       "decision": {
@@ -153,7 +153,7 @@
         "claude",
         "codex"
       ],
-      "quote": "Senatorii și deputații ar putea fi testați antidrog la începutul fiecărei sesiuni parlamentare",
+      "quote": "Inițiativa cuprinde și sancțiuni pentru cei care refuză testarea, atât pentru aleși, cât și pentru angajații din Parlament.",
       "match": "quote",
       "decision": {
         "v": 2,

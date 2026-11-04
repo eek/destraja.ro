@@ -1,10 +1,10 @@
 {
   "slug": "b591-2026",
   "billId": "B591/2026",
-  "checkedAt": "2026-11-03T07:06:34.110Z",
+  "checkedAt": "2026-11-04T08:09:13.745Z",
   "models": {
-    "agy": "error: cod 3: error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 5m10s. AGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 5m10s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"e",
-    "claude": "error: răspunsul nu conține JSON valid: „Failed to authenticate: OAuth session expired and could not be refreshed”",
+    "agy": "ok",
+    "claude": "ok",
     "codex": "ok"
   },
   "articles": [
@@ -17,7 +17,7 @@
       "foundBy": [
         "claude"
       ],
-      "quote": "depus, marți, la Senat, de senatorii PACE Ninel Peia și Clement Sava și deputatul Mădălin-Laurenţiu Făget",
+      "quote": "Dacă proiectul va fi adoptat în această formă, primăriile nu vor mai putea decide dacă acordă sau nu norma de hrană.",
       "match": "quote",
       "firstSeenAt": "2026-10-29",
       "decision": {
@@ -61,9 +61,10 @@
       "domain": "newsbuzau.ro",
       "publishedAt": "2026-10-31",
       "foundBy": [
-        "claude"
+        "claude",
+        "agy"
       ],
-      "quote": "Inițiativa a fost depusă la Senat de senatorii PACE Ninel Peia și Clement Sava și de deputatul Mădălin-Laurențiu Făget.",
+      "quote": "Proiectul de lege propune modificarea articolului 35^1 prin înlocuirea expresiei „pot acorda” cu formularea „acordă”.",
       "match": "quote",
       "firstSeenAt": "2026-10-31",
       "decision": {
@@ -94,6 +95,50 @@
             "sourceP": 0.98,
             "about": 0.99,
             "release": 0.01
+          }
+        }
+      }
+    },
+    {
+      "url": "https://bpnews.ro/2026/10/28/senatorul-ninel-peia-chestor-al-senatului-presedintele-partidului-pace-intai-romania-apara-drepturile-politistilor-locali",
+      "title": "Senatorul Ninel Peia, Chestor al Senatului, Președintele Partidului Pace Întâi România, apără drepturile polițiștilor l",
+      "outlet": "Stiri Business &amp; Politics News",
+      "domain": "bpnews.ro",
+      "publishedAt": "2026-10-28",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Senatorul Ninel PEIA, Președintele PACE – Întai România, a propus inițiativa legislativă privind acordarea obligatorie a normei de hrană pentru polițiștii locali, fără a mai depinde de aprobarea consiliului local.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "supportive",
+            "stanceP": 0.49,
+            "source": "party_or_politician",
+            "sourceP": 0.48,
+            "about": 0.915,
+            "release": 0.875
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.54,
+            "source": "trade_press",
+            "sourceP": 0.319,
+            "about": 0.438,
+            "release": 0.531
+          },
+          "luna": {
+            "stance": "supportive",
+            "stanceP": 0.99,
+            "source": "party_or_politician",
+            "sourceP": 0.9,
+            "about": 0.99,
+            "release": 0.98
           }
         }
       }

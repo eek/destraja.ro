@@ -1,10 +1,10 @@
 {
   "slug": "b563-2026",
   "billId": "B563/2026",
-  "checkedAt": "2026-11-03T07:04:43.733Z",
+  "checkedAt": "2026-11-04T07:26:30.162Z",
   "models": {
-    "agy": "error: cod 3: error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 7m5s. AGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 7m5s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"err",
-    "claude": "error: răspunsul nu conține JSON valid: „Failed to authenticate: OAuth session expired and could not be refreshed”",
+    "agy": "ok",
+    "claude": "ok",
     "codex": "ok"
   },
   "articles": [
@@ -92,6 +92,51 @@
             "sourceP": 0.8,
             "about": 0.99,
             "release": 0.02
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.g4media.ro/senatorul-daniel-fenechiu-pnl-legea-avocaturii-va-fi-modificata-fara-completarea-codului-civil-nu-am-vazut-atata-hate.html",
+      "title": "Senatorul Daniel Fenechiu (PNL): Legea avocaturii va fi modificată fără completarea Codului civil. Nu am văzut atâta „hate”",
+      "outlet": "G4Media",
+      "domain": "g4media.ro",
+      "publishedAt": "2026-10-29",
+      "foundBy": [
+        "agy",
+        "claude"
+      ],
+      "quote": "Proiectul are ca obiect actualizarea și clarificarea sferei activităților avocațiale.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "mixed",
+            "stanceP": 0.422,
+            "source": "national_news",
+            "sourceP": 0.511,
+            "about": 0.933,
+            "release": 0.184
+          },
+          "d1": {
+            "stance": "mixed",
+            "stanceP": 0.531,
+            "source": "trade_press",
+            "sourceP": 0.55,
+            "about": 0.852,
+            "release": 0.294
+          },
+          "luna": {
+            "stance": "mixed",
+            "stanceP": 0.82,
+            "source": "national_news",
+            "sourceP": 0.99,
+            "about": 0.99,
+            "release": 0.01
           }
         }
       }
@@ -415,7 +460,7 @@
         "agy",
         "codex"
       ],
-      "quote": "Pe fișa oficială a proiectului B563/2026 figurează zece parlamentari din mai multe formațiuni politice, inclusiv senatoarea USR Elena-Simona Spătaru.",
+      "quote": "Inițiativa legislativă B563/2026, înregistrată la Senat pe 14 octombrie 2026, propune modificarea Legii nr. 51/1995 privind organizarea și exercitarea profesiei de avocat, precum și completarea Codului civil.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -537,6 +582,50 @@
       }
     },
     {
+      "url": "https://www.digi24.ro/stiri/actualitate/consultanta-juridica-oferita-de-ai-ar-putea-fi-interzisa-in-romania-ce-prevede-proiectul-de-lege-sustinut-de-avocati-si-parlamentari-4001537",
+      "title": "Consultanța juridică oferită de AI ar putea fi interzisă în România. Ce prevede proiectul de lege susținut de avocați și parlamentari",
+      "outlet": "Digi24",
+      "domain": "digi24.ro",
+      "publishedAt": "2026-10-21",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Proiectul a fost depus la Senat săptămâna trecută, pe 14 octombrie.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.579,
+            "source": "national_news",
+            "sourceP": 0.903,
+            "about": 0.962,
+            "release": 0.029
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.591,
+            "source": "national_news",
+            "sourceP": 0.504,
+            "about": 0.818,
+            "release": 0.182
+          },
+          "luna": {
+            "stance": "critical",
+            "stanceP": 0.75,
+            "source": "national_news",
+            "sourceP": 0.99,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
       "url": "https://www.juridice.ro/862309/proiectul-legii-nr-51-1995-nu-impune-avocat-pentru-orice-contract-al-unei-firme.html",
       "title": "Proiectul Legii nr. 51/1995 nu impune avocat pentru orice contract al unei firme",
       "outlet": "Juridice.ro",
@@ -619,6 +708,50 @@
             "sourceP": 0.99,
             "about": 0.99,
             "release": 0.02
+          }
+        }
+      }
+    },
+    {
+      "url": "https://spotmedia.ro/stiri/economie/avocat-obligatoriu-pentru-actele-firmelor-si-unele-contracte-rbl-cere-respingerea-proiectului-costuri-de-peste-100-de-milioane-euro-pe-an",
+      "title": "Avocat obligatoriu pentru actele firmelor și unele contracte. RBL cere respingerea proiectului: Costuri de peste 100 de milioane euro pe an. Replica barourilor",
+      "outlet": "Spotmedia",
+      "domain": "spotmedia.ro",
+      "publishedAt": "2026-10-21",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Propunerea legislativă (B563/2026) a fost înregistrată la Senat pe 14 octombrie și vizează modificarea Legii avocaturii și a Codului Civil.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "mixed",
+            "stanceP": 0.574,
+            "source": "trade_press",
+            "sourceP": 0.461,
+            "about": 0.957,
+            "release": 0.038
+          },
+          "d1": {
+            "stance": "critical",
+            "stanceP": 0.855,
+            "source": "trade_press",
+            "sourceP": 0.537,
+            "about": 0.893,
+            "release": 0.269
+          },
+          "luna": {
+            "stance": "critical",
+            "stanceP": 0.86,
+            "source": "national_news",
+            "sourceP": 0.98,
+            "about": 0.99,
+            "release": 0.01
           }
         }
       }
@@ -1024,7 +1157,7 @@
         "claude",
         "agy"
       ],
-      "quote": "Propunerea legislativă B563/2026, înregistrată la Senat pe 14 octombrie 2026, modifică Legea nr. 51/1995",
+      "quote": "Documentul se află în etapa dezbaterii la Senat, prima cameră sesizată.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -1463,7 +1596,7 @@
         "agy",
         "claude"
       ],
-      "quote": "Propunerea legislativă, înregistrată cu nr. B563/2026 la data de 14 octombrie 2026",
+      "quote": "Propunerea legislativă, înregistrată cu nr. B563/2026 la data de 14 octombrie 2026, este inițiată de parlamentari din mai multe formațiuni politice.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -1596,7 +1729,7 @@
       "foundBy": [
         "claude"
       ],
-      "quote": "Proiectul a fost depus la Parlament în 14 octombrie, în procedură de urgență, fiind inițiat de Daniel Fenechiu",
+      "quote": "Proiectul a fost depus la Parlament în 14 octombrie, în procedură de urgență.",
       "match": "quote",
       "firstSeenAt": "2026-11-02",
       "decision": {

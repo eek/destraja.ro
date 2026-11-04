@@ -1,13 +1,101 @@
 {
   "slug": "b606-2026",
   "billId": "B606/2026",
-  "checkedAt": "2026-11-03T07:07:14.768Z",
+  "checkedAt": "2026-11-04T08:19:13.419Z",
   "models": {
-    "agy": "error: cod 3: error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 4m32s. AGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 4m32s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"e",
-    "claude": "error: răspunsul nu conține JSON valid: „Failed to authenticate: OAuth session expired and could not be refreshed”",
+    "agy": "ok",
+    "claude": "ok",
     "codex": "ok"
   },
   "articles": [
+    {
+      "url": "https://www.zf.ro/burse-fonduri-mutuale/petrisor-peiu-aur-retrage-proiectul-care-ar-fi-aliniat-impozitul-pe-23273396",
+      "title": "Petrişor Peiu, AUR, retrage proiectul care ar fi aliniat impozitul pe câştigurile prin brokeri din UE la 3% sau 6%, ca la brokerii români, pentru a-l rescrie. Senatorul îl va redepune",
+      "outlet": "Ziarul Financiar",
+      "domain": "zf.ro",
+      "publishedAt": "2026-11-03",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Proiectul fusese înregistrat la Senat pe 30 octombrie, cu numărul B606/2026.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.73,
+            "source": "national_news",
+            "sourceP": 0.517,
+            "about": 0.953,
+            "release": 0.049
+          },
+          "d1": {
+            "stance": "critical",
+            "stanceP": 0.457,
+            "source": "national_news",
+            "sourceP": 0.395,
+            "about": 0.881,
+            "release": 0.202
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.97,
+            "source": "trade_press",
+            "sourceP": 0.99,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.zf.ro/burse-fonduri-mutuale/petrisor-peiu-aur-retrage-proiectul-care-ar-fi-aliniat-impozitul-pe-castigurile-prin-brokeri-din-ue-la-3-sau-6-ca-la-brokerii-romani-pentru-a-l-rescrie-senatorul-il-va-redepune-23273396",
+      "title": "Petrişor Peiu, AUR, retrage proiectul care ar fi aliniat impozitul pe câştigurile prin brokeri din UE la 3% sau 6%, ca la brokerii români, pentru a-l rescrie. Senatorul îl va redepune",
+      "outlet": "Ziarul Financiar",
+      "domain": "zf.ro",
+      "publishedAt": "2026-11-03",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Proiectul fusese înregistrat la Senat pe 30 octombrie, cu numărul B606/2026.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.73,
+            "source": "national_news",
+            "sourceP": 0.517,
+            "about": 0.953,
+            "release": 0.049
+          },
+          "d1": {
+            "stance": "critical",
+            "stanceP": 0.457,
+            "source": "national_news",
+            "sourceP": 0.395,
+            "about": 0.881,
+            "release": 0.202
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.91,
+            "source": "trade_press",
+            "sourceP": 0.88,
+            "about": 0.99,
+            "release": 0.02
+          }
+        }
+      }
+    },
     {
       "url": "https://www.money.ro/stiri/senator-aur-actionar-la-companii-listate-la-bursa-vrea-taxe-mai-mici-pentru-inve-mvwqbg59",
       "title": "Senator AUR, acționar la companii listate la bursă, vrea taxe mai mici pentru investitori ca el: impozitul prin brokerii europeni ar putea scădea de la 16% la 3% sau 6%",
@@ -17,7 +105,7 @@
       "foundBy": [
         "claude"
       ],
-      "quote": "Inițiatorul proiectului, Petrișor Gabriel Peiu (59 ani), este prim-vicepreședinte AUR și liderul senatorilor partidului.",
+      "quote": "Proiectul conține și o prevedere cu efect retroactiv.",
       "match": "quote",
       "firstSeenAt": "2026-11-02",
       "decision": {
@@ -107,7 +195,7 @@
       "foundBy": [
         "claude"
       ],
-      "quote": "Pentru a corecta această situație, inițiativa propune completarea Codului fiscal cu un articol nou, 96^2.",
+      "quote": "Potrivit publicației Ziarul Financiar (ZF), senatorul AUR Petrișor Peiu a inițiat un proiect de lege care prevede reducerea impozitului de la 16% la cotele de 3% sau 6% pentru românii care tranzacționează prin brokeri din Uniunea Europeană fără sediu permanent în țara noastră.",
       "match": "quote",
       "firstSeenAt": "2026-11-02",
       "decision": {
@@ -143,15 +231,60 @@
       }
     },
     {
+      "url": "https://www.businessmagazin.ro/actualitate/senatorul-aur-petrisor-peiu-actionar-la-20-de-companii-listate-la-bursa-propune-ca-impozitul-pe-castigurile-prin-brokeri-din-ue-sa-scada-de-la-16-la-3-sau-6-la-fel-ca-prin-brokerii-romani-23271616",
+      "title": "Senatorul AUR Petrişor Peiu, acţionar la 20 de companii listate la bursă, propune ca impozitul pe câştigurile prin brokeri din UE să scadă de la 16% la 3% sau 6%, la fel ca prin brokerii români",
+      "outlet": "BusinessMagazin",
+      "domain": "businessmagazin.ro",
+      "publishedAt": "2026-10-31",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Senatorul AUR Petrişor Peiu propune ca românii care obţin câştiguri la bursă prin brokeri din Uniunea Europeană fără sediu permanent în România să plătească impozit de 3% sau 6%, la fel ca prin brokerii români, în loc de 16%, cât plătesc acum.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.746,
+            "source": "trade_press",
+            "sourceP": 0.512,
+            "about": 0.97,
+            "release": 0.046
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.632,
+            "source": "national_news",
+            "sourceP": 0.251,
+            "about": 0.905,
+            "release": 0.294
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.84,
+            "source": "trade_press",
+            "sourceP": 0.91,
+            "about": 0.99,
+            "release": 0.03
+          }
+        }
+      }
+    },
+    {
       "url": "https://financiarul.ro/economie/petrisor-peiu-propune-impozit-de-3-sau-6-in-loc-de-16-pe-castigurile-prin-brokeri-din-ue-si-see-fara-sediu-permanent-in-romania-dar-fara-scaderea-pierderilor",
       "title": "Petrișor Peiu propune impozit de 3% sau 6%, în loc de 16%, pe câștigurile prin brokeri din UE și SEE fără sediu permanent în România, dar fără scăderea pierderilor",
       "outlet": "Financiarul",
       "domain": "financiarul.ro",
       "publishedAt": "2026-10-31",
       "foundBy": [
-        "claude"
+        "claude",
+        "agy"
       ],
-      "quote": "Proiectul introduce un articol nou, 96^2, pentru brokerii din UE și SEE fără sediu permanent în România.",
+      "quote": "Proiectul ar aduce aceleași cote pentru brokerii vizați din UE și SEE, dar nu și reținerea impozitului de către broker.",
       "match": "quote",
       "firstSeenAt": "2026-11-02",
       "decision": {

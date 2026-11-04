@@ -1,13 +1,57 @@
 {
   "slug": "b598-2026",
   "billId": "B598/2026",
-  "checkedAt": "2026-11-03T07:06:42.044Z",
+  "checkedAt": "2026-11-04T08:12:37.995Z",
   "models": {
-    "agy": "error: cod 3: error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 5m1s. AGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 5m1s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"err",
-    "claude": "error: răspunsul nu conține JSON valid: „Failed to authenticate: OAuth session expired and could not be refreshed”",
+    "agy": "ok",
+    "claude": "ok",
     "codex": "ok"
   },
   "articles": [
+    {
+      "url": "https://adevarul.ro/economie/chirie-subventionata-cu-pana-la-600-de-lei-si-2568387.html",
+      "title": "Chirie subvenționată cu până la 600 de lei și transport la jumătate de preț. Cine poate primi ajutorul",
+      "outlet": "Adevărul",
+      "domain": "adevarul.ro",
+      "publishedAt": "2026-11-02",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "O inițiativă legislativă depusă la Senat propune un ajutor lunar pentru chirie de până la 600 de lei și reducerea cu 50% a unor abonamente de transport, pentru angajații cu vârste între 18 și 29 de ani și venituri salariale nete de cel mult 4.000 de lei pe lună.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.853,
+            "source": "national_news",
+            "sourceP": 0.896,
+            "about": 0.971,
+            "release": 0.063
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.895,
+            "source": "national_news",
+            "sourceP": 0.711,
+            "about": 0.818,
+            "release": 0.119
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.98,
+            "source": "national_news",
+            "sourceP": 0.99,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
     {
       "url": "https://www.cotidianul.ro/?p=1030624",
       "title": "Proiect legislativ în Parlament. Tinerii cu salarii sub 4.000 de lei primesc bani pentru chirie și reduceri la transport",
@@ -48,6 +92,94 @@
             "sourceP": 0.94,
             "about": 0.99,
             "release": 0.02
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.cotidianul.ro/proiect-legislativ-in-parlament-tinerii-cu-salarii-sub-4-000-de-lei-primesc-bani-pentru-chirie-si-reduceri-la-transport",
+      "title": "Proiect legislativ în Parlament. Tinerii cu salarii sub 4.000 de lei primesc bani pentru chirie și reduceri la transport",
+      "outlet": "Cotidianul",
+      "domain": "cotidianul.ro",
+      "publishedAt": "2026-11-02",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Documentul vizează modificarea Legii numărul 76/2002 cu privire la sistemul asigurărilor pentru șomaj și stimularea ocupării forței de muncă.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "citat",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.771,
+            "source": "national_news",
+            "sourceP": 0.782,
+            "about": 0.946,
+            "release": 0.222
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.879,
+            "source": "national_news",
+            "sourceP": 0.665,
+            "about": 0.755,
+            "release": 0.076
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.91,
+            "source": "national_news",
+            "sourceP": 0.96,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.libertatea.ro/stiri/tineri-18-29-ani-salarii-sub-4000-lei-primesc-600-lei-chirie-transport-la-jumatate-pret-proiect-lege-depus-parlament-mj86qzr",
+      "title": "Tinerii cu salarii sub 4.000 de lei ar putea primi 600 de lei pentru chirie și transport la jumătate de preț",
+      "outlet": "Libertatea",
+      "domain": "libertatea.ro",
+      "publishedAt": "2026-11-01",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Tinerii între 18 și 29 de ani cu venituri nete sub 4.000 de lei ar putea primi sprijin financiar pentru plata chiriei, conform unui proiect legislativ propus de deputați din PNL, USR și UDMR.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.863,
+            "source": "national_news",
+            "sourceP": 0.894,
+            "about": 0.975,
+            "release": 0.094
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.865,
+            "source": "national_news",
+            "sourceP": 0.728,
+            "about": 0.835,
+            "release": 0.165
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.97,
+            "source": "national_news",
+            "sourceP": 0.99,
+            "about": 0.99,
+            "release": 0.01
           }
         }
       }
@@ -105,7 +237,7 @@
       "foundBy": [
         "claude"
       ],
-      "quote": "Inițiativa legislativă prevede și reducerea la jumătate a costurilor la abonamentele pentru transportul în comun",
+      "quote": "Inițiativa legislativă prevede și reducerea la jumătate a costurilor la abonamentele pentru transportul în comun pentru această categorie de tineri.",
       "match": "quote",
       "firstSeenAt": "2026-10-31",
       "decision": {
@@ -235,9 +367,10 @@
       "domain": "dcbusiness.ro",
       "publishedAt": "2026-10-29",
       "foundBy": [
-        "claude"
+        "claude",
+        "agy"
       ],
-      "quote": "A fost înregistrată la Senat pentru dezbateri şi vot o propunere legislativă pentru completarea Legii nr.76/2002",
+      "quote": "A fost înregistrată la Senat pentru dezbateri şi vot o propunere legislativă pentru completarea Legii nr.76/2002 privind sistemul asigurărilor pentru șomaj și stimularea ocupării forței de muncă.",
       "match": "quote",
       "firstSeenAt": "2026-10-29",
       "decision": {
@@ -268,6 +401,50 @@
             "sourceP": 0.84,
             "about": 0.99,
             "release": 0.08
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.digi24.ro/digieconomic/consumer/tinerii-cu-salarii-de-cel-mult-4-000-de-lei-ar-putea-primi-bani-pentru-chirie-si-transport-care-sunt-conditiile-124909",
+      "title": "Tinerii cu salarii de cel mult 4.000 de lei ar putea primi bani pentru chirie și transport. Care sunt condițiile",
+      "outlet": "Digi24",
+      "domain": "digi24.ro",
+      "publishedAt": "2026-10-29",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Măsurile sunt prevăzute într-o propunere legislativă depusă miercuri, 28 octombrie, la Senat, care urmărește reducerea cheltuielilor suportate de tinerii aflați la începutul vieții profesionale.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-04",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-04",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.86,
+            "source": "national_news",
+            "sourceP": 0.905,
+            "about": 0.975,
+            "release": 0.045
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.87,
+            "source": "national_news",
+            "sourceP": 0.667,
+            "about": 0.852,
+            "release": 0.133
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.98,
+            "source": "national_news",
+            "sourceP": 0.99,
+            "about": 0.99,
+            "release": 0.99
           }
         }
       }

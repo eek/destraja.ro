@@ -1,10 +1,10 @@
 {
   "slug": "b544-2026",
   "billId": "B544/2026",
-  "checkedAt": "2026-11-03T07:08:48.075Z",
+  "checkedAt": "2026-11-04T08:50:09.530Z",
   "models": {
-    "agy": "error: cod 3: error: Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 2m58s. AGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Individual quota reached. Please upgrade your subscription to increase your limits. Resets in 2m58s.\",\"status\":\"RESOURCE_EXHAUSTED\",\"e",
-    "claude": "error: răspunsul nu conține JSON valid: „Failed to authenticate: OAuth session expired and could not be refreshed”",
+    "agy": "error: cod 3: error: print timeout after 10m0s with the turn still in progress; the response is partial AGY_ERROR: {\"short_error\":\"print timeout after 10m0s with the turn still in progress; the response is partial\",\"status\":\"DEADLINE_EXCEEDED\",\"retryable\":false,\"reason\":\"print_timeout\"}",
+    "claude": "ok",
     "codex": "ok"
   },
   "positions": [
@@ -83,6 +83,19 @@
     }
   ],
   "pending": [
+    {
+      "issuer": "Federația Neguvernamentală Antidrog",
+      "stance": "modificare",
+      "pageUrl": "https://agerpres.ro/comunicate/2026/10/10/comunicat-de-presa---ciado-romania--1601765",
+      "documentUrl": null,
+      "quote": "Orice modificare legislativă trebuie corelată cu o clauză de activare ulterioară (2-3 ani)",
+      "claimedSignatories": null,
+      "foundBy": [
+        "claude"
+      ],
+      "reason": "nici pagina, nici documentul nu pomenesc proiectul",
+      "checkedAt": "2026-11-04"
+    },
     {
       "issuer": "Federația Neguvernamentală Antidrog",
       "stance": "respingere",

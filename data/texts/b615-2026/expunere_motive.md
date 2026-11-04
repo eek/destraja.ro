@@ -1,0 +1,51 @@
+## EXPUNERE DE MOTIVE
+
+Prezenta inițiativă legislativă vizează excluderea de la plata taxei speciale („taxa de lux”) a autovehiculelor destinate exclusiv competițiilor sportive, categorie care se regăsește în prezent, în mod nejustificat, sub incidența Articolului 500^1 alin. (1) lit. b) din Codul fiscal. Deși valoarea de achiziție a acestor vehicule depășește pragul de 375.000 lei stabilit de lege, prețul lor nu reflectă un caracter de lux, ci este impus de standardele tehnice și de siguranță ale Federației Internaționale de Automobilism (FIA). Aceste autoturisme au înscrisă expres în Cartea de Identitate mențiunea „destinate exclusiv competițiilor” și circulă pe drumurile publice doar în cadru organizat, sub supravegherea autorităților, cu ocazia raliurilor.
+
+Impactul bugetar al acestei măsuri este nesemnificativ. Categoria vizată cuprinde un lot de aproximativ 50-60 de autovehicule la nivel național, astfel încât sumele colectate în prezent din aplicarea taxei asupra acestora reprezintă o fracțiune infîmă din veniturile bugetare generate de întreaga categorie de autoturisme de lux. Eliminarea acestei taxe pentru vehiculele de competiție nu produce, prin urmare, niciun dezechilibru la nivelul bugetului de stat.
+
+Dimpotrivă, apreciem că la nivelul bugetului consolidat vom înregistra un câștig net, prin păstrarea și relansarea activității economice conexe sportului cu motor: turism, cazare, alimentație publică, servicii tehnice și organizare de evenimente. Aceste activități generează TVA, impozite pe venit și contribuții sociale semnificativ mai mari decât taxa de lux percepută în prezent pentru cele câteva zeci de autovehicule vizate. Menținerea taxei riscă, în schimb, să determine dispariția definitivă a competițiilor și, odată cu ea, a întregului lanț economic pe care acestea îl susțin, așa cum demonstrează deja cazul Tess Rally Brașov, eveniment care nu se va mai organiza după 47 de ani de istorie neîntreruptă.
+
+Din perspectiva imaginii României, sportul cu motor reprezintă o vitrină internațională care atrage vizibilitate, turiști și investiții private, iar descurajarea participării sportivilor și cluburilor românești la competiții interne și internaționale afectează negativ percepția asupra capacității țării noastre de a susține performanța sportivă. Nu în ultimul rând, prin această modificare legislativă susținem concursurile de tradiție, evenimente care fac parte din patrimoniul sportiv și cultural local, generând coeziune comunitară și transmitere intergenerațională a pasiunii pentru sport.
+
+Pentru aceste considerente, propunem adoptarea prezentei modificări legislative.
+
+INIȚIATOR
+
+Rusu Sebastian-Mihai
+
+| Nr.crt. | Nume, Prenume | Semnătura | GrupParlamentar |
+| --- | --- | --- | --- |
+| 1. | Rusu Sebastian-Mihai |  | PNL |
+| 2. | Testoriin kudrei-Jonad |  | PNL |
+| 3 | Gulooj riz'hoel |  | PNL |
+| 4 | COZMA ADRIAN |  | PNL |
+| 5 | BOGDAN IONEL |  | PNL |
+| 6 | Cijmian shru |  | PNL |
+| 7 | Rbsca Mircea |  | PNL |
+| 8 | Shidu Guel |  | PNL |
+| 9 | MOISEEV ALEXAUDRIN |  | PNL |
+| 10 | CIOBOTANU DRAGOS |  | PNL |
+| 11 | Onua Octouiom |  | PNL |
+| 12 | I MOS ARINA |  | PNL |
+| 13 | Cofinescu Avrolian |  | PNL |
+| 14 | Mirao Teclut |  | PNL |
+| 15. | George Ferbau |  | PNL |
+| 16 | Măcua'Gamma |  | PNL |
+| 17. | GAL'KA'DOLY |  | USMR |
+| 18 | Joucai Csaba |  | UDMR |
+| 19 | Kolespar KA'DOLY |  | UDMR |
+| 20 | ZAHORATIXETI BEIGITA |  | UOTE |
+| 21. | Bende Sonidoor |  | UDUR |
+| 22. | SIPCEA DILTIJE |  | PNL |
+| 23. | Jofouoy Adiou |  | PSA |
+| 24 | Veech supern |  | P&D |
+| 25 | Itdouiucai Mulel |  | PSA |
+| 26 | Ringer ANA SHARANDA | PDL |  |
+| 27 | Yulucò Zagdon | PNL |  |
+| 28 | BURJUYA SEBASTIAN-IOAN | PNL |  |
+| 29 | AùNA BORGEHUE | PNL |  |
+| 30 | EADARJ MITITELD |  |  |
+| 31 | MATEI ANETA | PNL |  |
+| 32 | ANDREI ALEXANDRU | PNL |  |
+| 33 | Pandea Ciprian | PNL |  |

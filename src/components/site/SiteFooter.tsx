@@ -16,8 +16,8 @@ export default function SiteFooter({ syncedAt }: { syncedAt: string | null }) {
             <Logo className="h-11 w-auto" />
           </Link>
           <p className="mt-4 max-w-sm text-sm leading-6 text-muted">
-            destrajă.ro: radarul cetățenesc al proiectelor de lege aflate în consultare publică la Senatul României. Proiect civic
-            independent; nu reprezentăm Senatul și nu lucrăm pentru niciun partid.
+            destrajă.ro: radarul cetățenesc al proiectelor de lege din Parlament: cele în consultare publică la Senat și cele în dezbatere la
+            Camera Deputaților. Proiect civic independent; nu reprezentăm Parlamentul și nu lucrăm pentru niciun partid.
           </p>
           {syncedAt && <p className="mt-3 text-xs text-muted">Date preluate de pe senat.ro și cdep.ro la {formatDateRo(syncedAt)}.</p>}
           {/* Alt proiect open source al autorului. Fără noreferrer, ca acolo să se vadă că vizitatorii vin de aici. */}

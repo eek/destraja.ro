@@ -29,13 +29,13 @@ export const metadata: Metadata = {
     template: '%s · destrajă.ro',
   },
   description:
-    'Proiectele de lege aflate în consultare publică la Senatul României, explicate într-o propoziție, evaluate de Gemini, Claude și ChatGPT, cu obiecția oficială pregătită în 60 de secunde.',
+    'Proiectele de lege din consultarea publică a Senatului și din dezbaterea Camerei Deputaților, explicate într-o propoziție, evaluate de Gemini, Claude și ChatGPT, cu obiecția oficială pregătită în 60 de secunde.',
   openGraph: {
     type: 'website',
     locale: 'ro_RO',
     siteName: 'destrajă.ro',
     title: 'destrajă.ro · Stăm de strajă. Să știi ce se pregătește.',
-    description: 'Proiectele de lege aflate în consultare la Senat, ce înseamnă pentru tine și cum îți spui părerea oficial.',
+    description: 'Proiectele de lege de la Senat și de la Camera Deputaților, ce înseamnă pentru tine și cum îți spui părerea oficial.',
   },
   twitter: { card: 'summary_large_image' },
 };

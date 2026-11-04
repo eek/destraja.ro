@@ -181,10 +181,13 @@ const NO_TOOLS_RETRY = `
 NOTĂ: în această sesiune nu ai unelte, internet sau fișiere. Nu anunța ce urmează să verifici: răspunde acum, direct, cu obiectul JSON complet, pe baza textului de mai sus și a ce știi deja.`;
 
 // Același apel izolat ca în restul scripturilor (scripts/lib/ai-cli.mjs): fără unelte, într-un director gol,
-// fără variabilele din .env. Proiectele lungi pot cere câteva minute. Un răspuns fără scor sau un JSON stricat se mai
-// încearcă o dată; un timeout nu, ar mai costa încă 7 minute.
+// fără variabilele din .env. Proiectele lungi pot cere câteva minute. Limita prinde doar procesele blocate: un model
+// oprit la jumătatea răspunsului pierde ce a consumat din cotă, iar o limită strânsă (7 minute până pe 4 noiembrie)
+// tăia și răspunsuri lente, dar bune. Un răspuns fără scor sau un JSON stricat se mai încearcă o dată; un timeout nu.
+const MODEL_TIMEOUT_MS = 30 * 60_000;
+
 async function runSingleAi(modelKey, prompt, label, retry = true) {
-  const res = await runModel(modelKey, prompt, { mode: 'offline', timeoutMs: 420000, label });
+  const res = await runModel(modelKey, prompt, { mode: 'offline', timeoutMs: MODEL_TIMEOUT_MS, label });
   const scored = res.status === 'ok' && Number.isFinite(res.data?.riskScore);
   if (scored) return { model: modelKey, durationMs: res.durationMs, ...res.data, status: 'ok' };
   const error = res.status === 'ok' ? `răspuns fără analiză: „${JSON.stringify(res.data).slice(0, 120)}”` : res.error;
@@ -598,7 +601,7 @@ Returnează EXCLUSIV un obiect JSON valid:
   }
 }
 În "changes" pune 2-6 schimbări, cele mai importante întâi; o listă goală doar dacă nu s-a schimbat nimic de fond.`;
-  const res = await runModel('claude', prompt, { mode: 'offline', timeoutMs: 420000, label: `${bill.id} ${a.key}→${b.key}` });
+  const res = await runModel('claude', prompt, { mode: 'offline', timeoutMs: MODEL_TIMEOUT_MS, label: `${bill.id} ${a.key}→${b.key}` });
   if (res.status !== 'ok') throw new Error(`comparația ${a.key}→${b.key}: ${res.error}`);
   const d = res.data;
   const direction = ['mai_riscant', 'mai_putin_riscant', 'la_fel'].includes(d.direction) ? d.direction : 'la_fel';

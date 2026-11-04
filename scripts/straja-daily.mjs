@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Actualizarea de dimineață: luni–vineri la 08:00 prin launchd (scripts/launchd/), sau manual cu
+// Actualizarea de dimineață: luni–vineri la 09:30 prin launchd (scripts/launchd/; între 08:10 și 09:10 Mac-ul e pe drum, fără rețea), sau manual cu
 // `npm run straja:daily`.
 //
 // 1. senat.ro → data/senat-bills.json, cu PDF-urile noi și textul lor: scanările citite cu MinerU și verificate pagină cu
@@ -143,7 +143,8 @@ async function main() {
     summary.push(sync.ok ? `${after - before >= 0 ? after - before : 0} proiecte noi` : 'sincronizarea a eșuat');
 
     const missing = readBills().filter((b) => !fs.existsSync(analysisPath(b.slug)));
-    for (const b of missing) await step(`Analiză ${b.id}`, 'node', ['scripts/straja-council.mjs', b.slug], { timeoutMs: 1_200_000 });
+    // Cele trei modele rulează în paralel, fiecare cu limita lui de 30 de minute (straja-council.mjs).
+    for (const b of missing) await step(`Analiză ${b.id}`, 'node', ['scripts/straja-council.mjs', b.slug], { timeoutMs: 40 * 60_000 });
     const stillMissing = readBills().filter((b) => !fs.existsSync(analysisPath(b.slug)));
     if (stillMissing.length) summary.push(`${stillMissing.length} fără analiză`);
 

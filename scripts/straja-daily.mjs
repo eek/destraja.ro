@@ -5,7 +5,8 @@
 // 1. senat.ro → data/senat-bills.json, cu PDF-urile noi și textul lor: scanările citite cu MinerU și verificate pagină cu
 //    pagină cu Tesseract (straja-sync, scripts/lib/pdf-text.mjs)
 // 2. analiza celor trei modele pentru proiectele noi (straja-council <slug>), apoi motivele avizelor negative CES (straja-ces);
-//    la Cameră, și amendamentele din rapoartele comisiilor, cu autorii lor (straja-amendments)
+//    la Cameră, și amendamentele din rapoartele comisiilor, cu autorii lor (straja-amendments), apoi voturile nominale din
+//    plen ale fișelor noi sau schimbate, la Cameră și la Senat (straja-votes)
 // 3. presa pentru proiectele aflate în consultare (straja-news), apoi poziția articolelor noi față de proiect, cu două
 //    modele de decizie rulate local, Clef și d1-3B (straja-stance)
 // 4. pozițiile organizațiilor (straja-positions --due): proiectele cu risc ridicat sau cu cel mult 3 zile până la
@@ -161,6 +162,10 @@ async function main() {
       const amendments = await step('Camera: amendamente', 'node', ['scripts/straja-amendments.mjs', '--max=100'], { timeoutMs: 7_200_000 });
       if (!amendments.ok) summary.push('amendamentele Camerei au eșuat');
     }
+    // Voturile nominale din plen (Camera și Senat) pentru fișele noi sau schimbate: cel mult 15 cereri la cdep.ro, cu
+    // pauza comună, și 30 de minute de cereri; ce rămâne se cere mâine.
+    const votes = await step('Voturi', 'node', ['scripts/straja-votes.mjs', '--max=15', '--minutes=30'], { timeoutMs: 2_700_000 });
+    if (!votes.ok) summary.push('voturile din plen au eșuat');
 
     const ces = await step('Avize CES', 'node', ['scripts/straja-ces.mjs'], { timeoutMs: 1_800_000 });
     if (!ces.ok) summary.push('rezumatul avizelor CES a eșuat');

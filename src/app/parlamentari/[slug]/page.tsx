@@ -13,6 +13,8 @@ import BillGrid from '@/components/bills/BillGrid';
 import MpContactPanel from '@/components/mps/MpContactPanel';
 import RiskInfo from '@/components/bills/RiskInfo';
 import { getMpContact } from '@/lib/mp-contacts';
+import MpVotes from '@/components/mps/MpVotes';
+import { getVotesByMp } from '@/lib/votes';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -51,6 +53,7 @@ export default async function MpPage({ params }: PageProps) {
   const ownChamber = chamber.filter((b) => ids.has(b.id)).sort(byRiskDesc);
   const contact = await getMpContact(mp.name);
   const admitted = ((await getAmendmentsByMp()).get(mp.slug) ?? []).filter((a) => a.status === 'admis');
+  const votes = (await getVotesByMp()).get(mp.slug) ?? [];
 
   const shared = new Map<string, number>();
   for (const b of [...own, ...ownChamber]) {
@@ -163,6 +166,8 @@ export default async function MpPage({ params }: PageProps) {
           </>
         )}
       </section>
+
+      <MpVotes votes={votes} role={mp.role} />
 
       {cosigners.length > 0 && (
         <section aria-labelledby="cosemnatari-title" className={`${panel} mt-12 p-5 sm:p-7`}>

@@ -48,6 +48,8 @@ Proiect civic independent: nu reprezentăm Senatul și nu lucrăm pentru niciun 
 - **Ce spun organizațiile:** scrisorile, petițiile și punctele de vedere ale ONG-urilor, sindicatelor, patronatelor și
   organizațiilor profesionale, cu semnatarii numărați din document.
 - **Parlamentarii:** proiectele fiecăruia și datele de contact oficiale de pe cdep.ro și senat.ro.
+- **Cum s-a votat:** voturile nominale din plenul Camerei și al Senatului, pe grupuri și pe nume, cu linkul oficial; pe
+  pagina fiecărui parlamentar, cum a votat la proiectele urmărite.
 - **Alerte pe e-mail** în zilele lucrătoare, doar când apare ceva nou.
 - **Camera de presă:** rezumat, titluri verificabile, harta coalițiilor și export CSV.
 
@@ -91,9 +93,13 @@ flowchart LR
    sau aproape de termen sunt verificate zilnic, cele cu risc moderat la 3 zile, restul o dată pe săptămână, cel mult 16
    pe zi.
 5. **Parlamentarii** (`straja-mps.mjs`): datele de contact de pe fișele oficiale, o cerere pe secundă.
-6. **Rapoartele cititorilor** (`straja-reports.mjs`): o greșeală semnalată pe site e reverificată de cele trei modele față
+6. **Voturile din plen** (`straja-votes.mjs`): lista nominală a fiecărui vot, de pe pagina legată din fișa proiectului.
+   La Cameră, `evot2015.Nominal?idv=N` (doar deputații prezenți); la Senat, `VoturiPlenDetaliu.aspx?AppID=…`, legată din
+   rândul „adoptat/respins de Senat” al fișei. Zilnic doar fișele noi sau schimbate, cel mult 15 cereri la cdep.ro;
+   `--backfill` trece prin tot anul. Comisiile nu votează nominal: din raportul comisiei păstrăm fraza cu majoritatea.
+7. **Rapoartele cititorilor** (`straja-reports.mjs`): o greșeală semnalată pe site e reverificată de cele trei modele față
    de textul oficial.
-7. **Memoriile .docx** (`straja-docx.mjs`), apoi verificări, build, publicare pe Cloudflare și ediția zilnică a alertelor
+8. **Memoriile .docx** (`straja-docx.mjs`), apoi verificări, build, publicare pe Cloudflare și ediția zilnică a alertelor
    (`straja-digest.mjs`).
 
 Rezultatele intră în `data/`, cu tot istoricul lor în git.
@@ -165,7 +171,7 @@ verificării datelor: fără date valide nu publicăm. Dacă semnarea commit-uri
 necomise până la următorul commit.
 
 Fiecare pas merge și separat: `npm run straja:sync`, `straja:council <slug>`, `straja:news`, `straja:stance`,
-`straja:positions`, `straja:mps`, `straja:reports`, `straja:docx`, `straja:digest`. `--skip-news`, `--skip-positions` și
+`straja:positions`, `straja:mps`, `straja:votes`, `straja:reports`, `straja:docx`, `straja:digest`. `--skip-news`, `--skip-positions` și
 `--skip-mps` sar peste pașii respectivi în rularea zilnică. Textele PDF-urilor se refac cu
 `node scripts/straja-texts.mjs --force [slug]`; rezultatele OCR rămân în `.cache/ocr`, așa că o refacere după o schimbare
 de cod durează secunde, iar o recitire completă (`--fresh`) durează 1,5–2 ore.
@@ -178,6 +184,10 @@ de cod durează secunde, iar o recitire completă (`--fresh`) durează 1,5–2 o
   ca text simplu (`.txt`, pentru modele și pentru verificarea citatelor). `_meta.json` spune cum a fost citit:
   `mineru`, `mineru+ocr` (unele pagini de la Tesseract), `ocr` (doar Tesseract) sau `text` (stratul PDF-ului).
 - `data/ces/`, `data/news/`, `data/mp-contacts.json`: avizele CES, presa verificată, contactele parlamentarilor.
+- `data/votes/<slug>.json`: voturile nominale din plen ale proiectului (Camera și Senatul), cu totalurile, grupurile, votul
+  fiecărui parlamentar (`mp` e slug-ul paginii lui) și pagina oficială, plus ce spune raportul comisiei despre majoritate.
+  Paginile oficiale stau în `.cache/cdep-votes` și `.cache/senat-votes`, ce s-a verificat în `.cache/votes-state.json`;
+  `node scripts/straja-votes.mjs --offline` reface fișierele din cache, fără nicio cerere.
 - `data/positions/<slug>.json`: pozițiile organizațiilor. `positions` sunt cele verificate (pe site): emitentul, poziția
   (`retragere`, `respingere`, `modificare`, `sustinere`), citatul, data, pagina și documentul, semnatarii numărați din
   document (doar organizațiile cu nume) și ziua verificării. `pending` sunt propunerile care au picat o verificare, cu

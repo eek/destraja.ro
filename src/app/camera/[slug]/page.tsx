@@ -23,6 +23,8 @@ import { getBillAgenda } from '@/lib/agenda';
 import BillAgenda from '@/components/bills/BillAgenda';
 import BillReports from '@/components/bills/BillReports';
 import { getBillReports, manualCorrections } from '@/lib/reports';
+import BillVotes from '@/components/bills/BillVotes';
+import { getBillVotes } from '@/lib/votes';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -50,7 +52,7 @@ const LAW_TYPE: Record<string, string> = { ordinar: 'Ordinară', organic: 'Organ
 
 export default async function CameraBillPage({ params }: PageProps) {
   const { slug } = await params;
-  const [bill, analysis, committees, versions, versionsStatus, balance, amendments, agenda, reports] = await Promise.all([
+  const [bill, analysis, committees, versions, versionsStatus, balance, amendments, agenda, reports, votes] = await Promise.all([
     getCdepBill(slug),
     getCdepAnalysis(slug),
     getCommittees(),
@@ -60,8 +62,9 @@ export default async function CameraBillPage({ params }: PageProps) {
     getBillAmendments(slug),
     getBillAgenda(`/camera/${slug}`),
     getBillReports(slug),
+    getBillVotes(slug),
   ]);
-  const mpPages = amendments ? await getMpPageSlugs() : new Set<string>();
+  const mpPages = amendments || votes ? await getMpPageSlugs() : new Set<string>();
   const comparing = !versions && versionsStatus?.pending.includes(slug);
   if (!bill) notFound();
 
@@ -240,6 +243,7 @@ export default async function CameraBillPage({ params }: PageProps) {
           </p>
         </section>
         <BillAgenda items={agenda} billId={bill.numar} />
+        <BillVotes data={votes} pages={mpPages} billId={bill.numar} />
 
         {versions && <BillVersions data={versions} amendments={amendments} pages={mpPages} />}
         {amendments && <BillAmendments data={amendments} pages={mpPages} />}

@@ -30,7 +30,8 @@ export interface CdepSheet {
   /** rol: din eticheta grupului („deputati - PSD:”); lipsește pe fișele citite înainte să-l păstrăm. */
   initiatori: { idm: number; nume: string; partid: string | null; rol?: 'deputat' | 'senator' }[];
   obiect: string | null;
-  timeline: { camera: string | null; data: string; actiune: string }[];
+  /** idv: votul din plen (lista nominală de pe cdep.ro), pe fișele citite din noiembrie 2026; vezi data/votes. */
+  timeline: { camera: string | null; data: string; actiune: string; idv?: number }[];
   documente?: { url: string; eticheta: string }[];
   comisii?: { raport: CdepCommittee[]; aviz: CdepCommittee[]; termenAmendamente: string | null; termenRaport: string | null } | null;
   /** Consultarea publică de la Cameră (când e prima sesizată): termenul, câte propuneri s-au trimis și formularul de pe cdep.ro. */

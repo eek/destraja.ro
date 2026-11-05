@@ -17,6 +17,9 @@ import BillAgenda from '@/components/bills/BillAgenda';
 import { getBillAgenda } from '@/lib/agenda';
 import BillReports from '@/components/bills/BillReports';
 import { getBillReports, manualCorrections } from '@/lib/reports';
+import BillVotes from '@/components/bills/BillVotes';
+import { getBillVotes } from '@/lib/votes';
+import { getMpPageSlugs } from '@/lib/mp-pages';
 import BillNews, { PressLink } from '@/components/bills/BillNews';
 import BillPositions, { PositionsLink } from '@/components/bills/BillPositions';
 import { Container, PartyTag, RiskChip, panel } from '@/components/ui';
@@ -62,6 +65,8 @@ export default async function BillDetailPage({ params }: PageProps) {
   const balance = await getBalance(slug);
   const agenda = await getBillAgenda(`/legi/${slug}`);
   const reports = await getBillReports(slug);
+  const votes = await getBillVotes(slug);
+  const mpPages = votes ? await getMpPageSlugs() : new Set<string>();
   const manual = manualCorrections(bill.analysis.corrections, reports);
   const corrected = manual.length > 0 || reports.some((r) => r.status === 'fixed');
   const news = bill.news;
@@ -165,6 +170,7 @@ export default async function BillDetailPage({ params }: PageProps) {
 
         <BillRoute bill={bill} />
         <BillAgenda items={agenda} billId={bill.id} />
+        <BillVotes data={votes} pages={mpPages} billId={bill.id} />
 
         <section aria-labelledby="realitate" className="mt-6 grid gap-4 md:grid-cols-2">
           <h2 id="realitate" className="sr-only">

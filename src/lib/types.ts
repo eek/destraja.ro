@@ -441,3 +441,66 @@ export interface BillBalance {
   /** Schimbarea care ar face proiectul acceptabil și riscul estimat după ea; null dacă e problematic în ansamblu. */
   fix: { text: string; removes: number[]; levelAfter: RiskLevel | null; scoreAfter: number | null } | null;
 }
+
+/** Votul unui parlamentar, cum îl scrie camera: „fără vot” = listat la Senat, dar fără niciun vot înregistrat. */
+export type VoteChoice = 'pentru' | 'contra' | 'abtinere' | 'nu a votat' | 'fără vot';
+
+export interface VoteTotals {
+  prezenti: number;
+  pentru: number;
+  contra: number;
+  abtineri: number;
+  /** Prezenți care n-au votat. */
+  nuAuVotat: number;
+  /** Doar la Senat: senatorii listați fără niciun vot (absenții nu apar în lista Camerei). */
+  faraVot?: number;
+}
+
+export interface VoteMember {
+  name: string;
+  party: string;
+  vote: VoteChoice;
+  /** Slug-ul paginii lui de pe site (/parlamentari/<mp>), dacă are una. */
+  mp: string;
+  afiliat?: boolean;
+}
+
+/** Un vot nominal din plen (scripts/straja-votes.mjs → data/votes/<slug>.json). */
+export interface PlenaryVote {
+  chamber: 'cdep' | 'senat';
+  id: string;
+  /** Pagina oficială a votului. */
+  url: string;
+  date: string;
+  time: string | null;
+  /** Subiectul, cum îl scrie camera („Vot final, Respingere”, „raport de respingere”). */
+  subject: string;
+  /** Ce înseamnă „pentru”: pentru adoptare sau pentru respingere. */
+  question: 'adoptare' | 'respingere';
+  result: 'adoptat' | 'respins' | 'fara-majoritate' | null;
+  /** Rândul din fișa proiectului, cu rezultatul oficial. */
+  official: string;
+  billNumber: string | null;
+  totals: VoteTotals;
+  parties: (Omit<VoteTotals, 'faraVot'> & { party: string })[];
+  members: VoteMember[];
+}
+
+/** Ce spune raportul unei comisii despre votul ei (comisiile nu votează nominal). */
+export interface CommitteeStatement {
+  report: string | null;
+  majority: 'unanimitate' | 'majoritate';
+  proposal: 'adoptare' | 'respingere' | null;
+  /** Raport preliminar, trimis comisiei care face raportul, nu plenului. */
+  preliminary: boolean;
+  quote: string;
+  billNumber?: string;
+}
+
+export interface BillVotes {
+  slug: string;
+  page: string;
+  updatedAt: string | null;
+  committee: CommitteeStatement[];
+  votes: PlenaryVote[];
+}

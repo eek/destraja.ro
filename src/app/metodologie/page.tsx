@@ -17,7 +17,7 @@ const STEPS = [
   {
     icon: FileText,
     title: 'Preluăm',
-    text: 'Fiecare proiect pus în consultare publică pe senat.ro și toate proiectele înregistrate în 2026 la Camera Deputaților, de pe cdep.ro, inclusiv cele la care Camera e prima sesizată: textul, expunerea de motive, avizele, inițiatorii, stadiul și termenele. Documentele scanate sunt recunoscute automat cu MinerU (OpenDataLab) și verificate pagină cu pagină cu Tesseract.',
+    text: 'Fiecare proiect pus în consultare publică pe senat.ro și toate proiectele înregistrate în 2026 la Camera Deputaților, de pe cdep.ro, inclusiv cele la care Camera e prima sesizată, plus cele înregistrate din 2020 încoace și aflate încă în dezbatere: textul, expunerea de motive, avizele, inițiatorii, stadiul și termenele. Documentele scanate sunt recunoscute automat cu MinerU (OpenDataLab) și verificate pagină cu pagină cu Tesseract.',
   },
   { icon: Sparkles, title: 'Trei lecturi', text: 'Gemini, Claude și ChatGPT analizează independent fiecare proiect și dau fiecare un scor de risc de la 1 la 10.' },
   { icon: Scale, title: 'Consens', text: 'Publicăm un scor comun, o propoziție pe înțelesul oricui și locurile în care modelele nu sunt de acord.' },
@@ -37,7 +37,7 @@ const FAQ = [
   },
   {
     q: 'Ce urmăriți la Camera Deputaților?',
-    a: 'Toate proiectele înregistrate la Cameră în anul curent, din lista și fișele publice de pe cdep.ro: stadiul, comisiile care fac raportul sau dau aviz, termenul pentru amendamente și documentele. Camera nu are o consultare publică pentru fiecare proiect; amendamentele oficiale le depun deputații. Pe pagina proiectului găsești un mesaj gata de trimis comisiei care face raportul, iar un deputat îl poate prelua. Modelele analizează întâi proiectele aflate acum la Cameră (cele programate la vot primele), apoi restul anului: cele trimise la Senat, promulgate sau respinse.',
+    a: 'Toate proiectele înregistrate la Cameră în anul curent și cele din anii trecuți (din 2020) aflate încă în dezbatere, din listele și fișele publice de pe cdep.ro: stadiul, comisiile care fac raportul sau dau aviz, termenul pentru amendamente și documentele. Camera nu are o consultare publică pentru fiecare proiect; amendamentele oficiale le depun deputații. Pe pagina proiectului găsești un mesaj gata de trimis comisiei care face raportul, iar un deputat îl poate prelua. Modelele analizează întâi proiectele aflate acum la Cameră (cele programate la vot primele), apoi restul anului: cele trimise la Senat, promulgate sau respinse.',
   },
   {
     q: 'Chiar contează dacă trimit o obiecție?',

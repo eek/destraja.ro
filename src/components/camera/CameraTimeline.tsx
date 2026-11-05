@@ -33,6 +33,7 @@ function monthSeries(list: CdepListItem[]) {
 /** Cronologia: înapoi, înregistrările pe luni (roșul la bază); înainte, termenele de amendamente pe zile. */
 export const Timeline = memo(function Timeline({
   list,
+  year,
   today,
   withPage,
   month,
@@ -41,6 +42,8 @@ export const Timeline = memo(function Timeline({
   onDay,
 }: {
   list: CdepListItem[];
+  /** Lunile sunt doar ale acestui an; proiectele din anii trecuți (încă la Cameră) apar într-o notă, nu în coloane. */
+  year: number;
   today: string;
   withPage: Set<string>;
   month: string | null;
@@ -54,7 +57,8 @@ export const Timeline = memo(function Timeline({
   }, [day]);
   const refs = useRef<(HTMLButtonElement | null)[]>([]);
 
-  const months = monthSeries(list);
+  const months = monthSeries(list.filter((p) => p.an === year));
+  const older = list.length - months.reduce((s, m) => s + m.items.length, 0);
   const peak = months.reduce((a, b) => (b.items.length > a.items.length ? b : a), months[0]);
   const recess = months.filter((m) => /-0[78]$/.test(m.ym));
   const days = Object.entries(
@@ -159,6 +163,11 @@ export const Timeline = memo(function Timeline({
           {recess.length > 0 && (
             <p className="mt-3 text-sm text-muted">
               {recess.map((m) => monthLabel(m.ym)).join(' și ').replace(/^./, (c) => c.toUpperCase())}: Parlamentul e între sesiuni.
+            </p>
+          )}
+          {older > 0 && (
+            <p className="mt-3 text-sm text-muted">
+              Pe lângă acestea, {countWord(older, 'proiect înregistrat', 'proiecte înregistrate')} în anii trecuți {older === 1 ? 'e' : 'sunt'} încă la Cameră.
             </p>
           )}
           <details className="mt-5">

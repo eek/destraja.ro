@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState, type KeyboardEvent, type ReactNode } from 'react';
 import Link from 'next/link';
-import { ArrowDown, ArrowDownRight, ArrowUpRight, ChevronDown, Clock, Info, Landmark, Megaphone, Search, Wrench, X } from 'lucide-react';
+import { ArrowDown, ArrowDownRight, ArrowUpRight, CalendarClock, ChevronDown, Clock, Info, Landmark, Megaphone, Search, Wrench, X } from 'lucide-react';
 import type { CdepListItem } from '@/lib/cdep';
 import type { RiskLevel } from '@/lib/types';
 import { RISK } from '@/lib/risk';
@@ -40,7 +40,20 @@ function Section({ id, children, first = false }: { id: string; children: ReactN
   );
 }
 
-export default function CameraExplorer({ items, pages, builtOn, compared }: { items: CdepListItem[]; pages: string[]; builtOn: string; compared: number }) {
+export default function CameraExplorer({
+  items,
+  pages,
+  builtOn,
+  year,
+  compared,
+}: {
+  items: CdepListItem[];
+  pages: string[];
+  builtOn: string;
+  /** Anul listei de pe cdep.ro; proiectele cu `an` mai mic vin din anii trecuți și sunt încă în dezbatere. */
+  year: number;
+  compared: number;
+}) {
   const [today, setToday] = useState(builtOn);
   useEffect(() => setToday(todayISO()), []);
   const withPage = useMemo(() => new Set(pages), [pages]);
@@ -57,6 +70,8 @@ export default function CameraExplorer({ items, pages, builtOn, compared }: { it
   const [fixOnly, setFixOnly] = useState(false);
   // Doar proiectele în consultare publică la Cameră (când e prima sesizată), cu termenul încă deschis.
   const [consultOnly, setConsultOnly] = useState(false);
+  // Doar proiectele înregistrate în anii trecuți și încă în dezbatere (scripts/straja-cdep-vechi.mjs).
+  const [oldOnly, setOldOnly] = useState(false);
   const [sort, setSort] = useState<Sort>('risc');
   const [visible, setVisible] = useState(PAGE);
   const [ready, setReady] = useState(false);
@@ -77,6 +92,7 @@ export default function CameraExplorer({ items, pages, builtOn, compared }: { it
     setOpenOnly(q.get('termen') === 'deschis');
     setFixOnly(q.get('reparabile') === 'da');
     setConsultOnly(q.get('consultare') === 'deschisa');
+    setOldOnly(q.get('an') === 'vechi');
     const ordine = q.get('ordine') as Sort | null;
     if (ordine && SORTS.some((s) => s.key === ordine)) setSort(ordine);
     setQuery(q.get('q') ?? '');
@@ -94,15 +110,19 @@ export default function CameraExplorer({ items, pages, builtOn, compared }: { it
     else if (openOnly) q.set('termen', 'deschis');
     if (fixOnly) q.set('reparabile', 'da');
     if (consultOnly) q.set('consultare', 'deschisa');
+    if (oldOnly) q.set('an', 'vechi');
     if (sort !== 'risc') q.set('ordine', sort);
     if (query.trim()) q.set('q', query.trim());
     const url = `${window.location.pathname}${q.size ? `?${q}` : ''}${window.location.hash}`;
     if (url !== `${window.location.pathname}${window.location.search}${window.location.hash}`) window.history.replaceState(null, '', url);
-  }, [ready, scope, stage, risk, drum, month, day, openOnly, fixOnly, consultOnly, sort, query]);
+  }, [ready, scope, stage, risk, drum, month, day, openOnly, fixOnly, consultOnly, oldOnly, sort, query]);
 
-  // „Acum” = proiectele aflate la Cameră; „toate” = tot ce s-a înregistrat în an. Distribuția, vitrina și cronologia descriu universul ales.
+  // „Acum” = proiectele aflate la Cameră, inclusiv cele înregistrate în anii trecuți; „toate” = tot ce s-a înregistrat în
+  // anul listei. Distribuția, vitrina și cronologia descriu universul ales.
   const here = useMemo(() => items.filter((p) => CHAMBER.includes(p.stage)), [items]);
-  const universe = scope === 'acum' ? here : items;
+  const thisYear = useMemo(() => items.filter((p) => p.an === year), [items, year]);
+  const universe = scope === 'acum' ? here : thisYear;
+  const olderCount = useMemo(() => universe.filter((p) => p.an < year).length, [universe, year]);
   const counts = useMemo(() => byLevel(universe), [universe]);
   const rated = LEVELS.reduce((s, l) => s + counts[l], 0);
   const open = (p: CdepListItem) => p.termenAmendamente !== null && p.termenAmendamente >= today;
@@ -122,6 +142,7 @@ export default function CameraExplorer({ items, pages, builtOn, compared }: { it
       .filter((p) => !month || p.inregistrat.startsWith(month))
       .filter((p) => !fixOnly || Boolean(p.balance?.fix))
       .filter((p) => !consultOnly || consulting(p))
+      .filter((p) => !oldOnly || p.an < year)
       .filter((p) => (day ? p.termenAmendamente === day : !openOnly || (p.termenAmendamente !== null && p.termenAmendamente >= today)))
       .filter((p) => {
         const text = normalize(`${p.numar} ${p.titlu} ${p.risk?.plainTitle ?? ''} ${p.raport.join(' ')}`);
@@ -137,7 +158,7 @@ export default function CameraExplorer({ items, pages, builtOn, compared }: { it
           b.inregistrat.localeCompare(a.inregistrat) ||
           b.idp - a.idp,
       );
-  }, [universe, stage, risk, drum, month, day, openOnly, fixOnly, consultOnly, query, sort, today]);
+  }, [universe, stage, risk, drum, month, day, openOnly, fixOnly, consultOnly, oldOnly, year, query, sort, today]);
 
   const touched = () => setVisible(PAGE);
   const reset = () => {
@@ -150,6 +171,7 @@ export default function CameraExplorer({ items, pages, builtOn, compared }: { it
     setOpenOnly(false);
     setFixOnly(false);
     setConsultOnly(false);
+    setOldOnly(false);
     setVisible(PAGE);
   };
   const pickScope = (s: Scope) => {
@@ -184,12 +206,12 @@ export default function CameraExplorer({ items, pages, builtOn, compared }: { it
   const worse = universe.filter((p) => p.textChange?.direction === 'mai_riscant');
   const better = universe.filter((p) => p.textChange?.direction === 'mai_putin_riscant');
   const openList = universe.filter(open);
-  const where = scope === 'acum' ? 'aflate acum la Cameră' : 'înregistrate la Cameră în 2026';
+  const where = scope === 'acum' ? 'aflate acum la Cameră' : `înregistrate la Cameră în ${year}`;
   const n = (k: number) => countWord(k, 'proiect', 'proiecte');
 
   // Filtrele active, ca etichete care se pot scoate una câte una.
   const active: { key: string; label: string; level?: RiskLevel; clear: () => void }[] = [
-    scope === 'toate' && { key: 'domeniu', label: 'Toate din 2026', clear: () => pickScope('acum') },
+    scope === 'toate' && { key: 'domeniu', label: `Toate din ${year}`, clear: () => pickScope('acum') },
     stage && { key: 'etapa', label: stageLabel(stage), clear: () => setStage(null) },
     risk && { key: 'risc', label: RISK[risk].label, level: risk, clear: () => setRisk(null) },
     drum && { key: 'drum', label: drum === 'mai_riscant' ? 'Mai riscante pe drum' : 'Îmblânzite pe drum', clear: () => setDrum(null) },
@@ -198,6 +220,7 @@ export default function CameraExplorer({ items, pages, builtOn, compared }: { it
     !day && openOnly && { key: 'termen', label: 'Termen de amendamente deschis', clear: () => setOpenOnly(false) },
     fixOnly && { key: 'reparabile', label: 'Se pot repara', clear: () => setFixOnly(false) },
     consultOnly && { key: 'consultare', label: 'În consultare publică', clear: () => setConsultOnly(false) },
+    oldOnly && { key: 'an', label: 'Din anii trecuți', clear: () => setOldOnly(false) },
     query.trim() && { key: 'q', label: `„${query.trim()}”`, clear: () => setQuery('') },
   ].filter(Boolean) as { key: string; label: string; level?: RiskLevel; clear: () => void }[];
   const narrowed = active.some((f) => f.key !== 'domeniu' && f.key !== 'q');
@@ -253,7 +276,7 @@ export default function CameraExplorer({ items, pages, builtOn, compared }: { it
             {(
               [
                 ['acum', 'La Cameră acum', here.length],
-                ['toate', 'Toate din 2026', items.length],
+                ['toate', `Toate din ${year}`, thisYear.length],
               ] as const
             ).map(([k, label, total]) => {
               const on = scope === k;
@@ -280,8 +303,8 @@ export default function CameraExplorer({ items, pages, builtOn, compared }: { it
           </div>
           <p className="max-w-[56ch] text-[14.5px] leading-relaxed text-muted">
             {scope === 'acum'
-              ? 'Proiectele aflate acum la comisii, cu raport, pe ordinea de zi, la avize sau în reexaminare.'
-              : 'Tot ce s-a înregistrat la Cameră în 2026, inclusiv proiectele trimise la Senat, cele la promulgare, cele devenite lege și cele încheiate.'}
+              ? 'Proiectele aflate acum la comisii, cu raport, pe ordinea de zi, la avize sau în reexaminare, inclusiv cele înregistrate în anii trecuți.'
+              : `Tot ce s-a înregistrat la Cameră în ${year}, inclusiv proiectele trimise la Senat, cele la promulgare, cele devenite lege și cele încheiate.`}
           </p>
         </div>
       </Container>
@@ -400,6 +423,23 @@ export default function CameraExplorer({ items, pages, builtOn, compared }: { it
                     <span className="font-normal tabular-nums opacity-80">{fixable}</span>
                   </button>
                 )}
+                {olderCount > 0 && (
+                  <button
+                    type="button"
+                    aria-pressed={oldOnly}
+                    title="Proiecte înregistrate la Cameră înainte de acest an și aflate încă în dezbatere"
+                    onClick={() => {
+                      setOldOnly(!oldOnly);
+                      touched();
+                    }}
+                    {...trackAttrs('camera_filter', { filter: 'older_years', value: oldOnly ? 'off' : 'on' })}
+                    className={chipCls(oldOnly)}
+                  >
+                    <CalendarClock className="h-4 w-4" aria-hidden />
+                    Din anii trecuți
+                    <span className="font-normal tabular-nums opacity-80">{olderCount}</span>
+                  </button>
+                )}
                 {(
                   [
                     ['mai_riscant', 'Mai riscante pe drum', worse.length, ArrowUpRight],
@@ -452,7 +492,7 @@ export default function CameraExplorer({ items, pages, builtOn, compared }: { it
             </p>
             <div className="flex flex-wrap items-center gap-2">
               {active
-                .filter((f) => !['risc', 'termen', 'reparabile', 'consultare', 'drum', 'q'].includes(f.key))
+                .filter((f) => !['risc', 'termen', 'reparabile', 'consultare', 'an', 'drum', 'q'].includes(f.key))
                 .map((f) => (
                   <button
                     key={f.key}
@@ -491,7 +531,7 @@ export default function CameraExplorer({ items, pages, builtOn, compared }: { it
             <>
               <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
                 {list.slice(0, shown).map((p) => (
-                  <CameraCard key={p.slug} p={p} today={today} withPage={withPage} />
+                  <CameraCard key={p.slug} p={p} today={today} year={year} withPage={withPage} />
                 ))}
               </div>
               <div className="mt-8 flex flex-col items-center justify-between gap-4 sm:flex-row">
@@ -516,7 +556,7 @@ export default function CameraExplorer({ items, pages, builtOn, compared }: { it
           proiectele ei.
         </SectionHeading>
         <StagePath list={here} stage={stage} risk={risk} onStage={pickStage} />
-        <OutsideLine items={items} stage={stage} onStage={pickStage} />
+        <OutsideLine items={thisYear} year={year} stage={stage} onStage={pickStage} />
       </Section>
 
       <Section id="cronologie">
@@ -525,6 +565,7 @@ export default function CameraExplorer({ items, pages, builtOn, compared }: { it
         </SectionHeading>
         <Timeline
           list={universe}
+          year={year}
           today={today}
           withPage={withPage}
           month={month}

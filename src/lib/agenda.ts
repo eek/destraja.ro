@@ -233,7 +233,10 @@ async function loadTracked(root: string): Promise<Tracked> {
   }
 
   const index = await readJson<{ proiecte: CdepRow[] }>(path.join(data, 'cdep', 'index.json'));
-  for (const row of index?.proiecte ?? []) {
+  // Și proiectele din anii trecuți încă în dezbatere (data/cdep/ani/<an>.json, scripts/straja-cdep-vechi.mjs), ca în getCdepIndex.
+  const oldFiles = (await fs.readdir(path.join(data, 'cdep', 'ani')).catch(() => [] as string[])).filter((f) => /^\d{4}\.json$/.test(f));
+  const oldYears = await Promise.all(oldFiles.map((f) => readJson<{ proiecte: CdepRow[] }>(path.join(data, 'cdep', 'ani', f))));
+  for (const row of [...(index?.proiecte ?? []), ...oldYears.flatMap((y) => y?.proiecte ?? [])]) {
     if (row.senat) continue;
     const sheet = await readJson<{ fisa: { numarSenat: string | null } }>(path.join(data, 'cdep', 'proiecte', `${row.slug}.json`));
     if (!sheet) continue;

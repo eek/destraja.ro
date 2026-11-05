@@ -2,7 +2,19 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { ArrowLeft, ExternalLink, FileText, Megaphone } from 'lucide-react';
-import { type CdepSheet, cdepParty, getBillAmendments, getBillVersions, getCdepAnalysis, getCdepBill, getCdepSlugs, getCommittees, getVersionsStatus, initiatorLabel } from '@/lib/cdep';
+import {
+  type CdepSheet,
+  cdepParty,
+  getBillAmendments,
+  getBillVersions,
+  getCdepAnalysis,
+  getCdepBill,
+  getCdepSlugs,
+  getCommittees,
+  getVersionsStatus,
+  initiatorLabel,
+  registeredYear,
+} from '@/lib/cdep';
 import { dayDiff, shortCommittee, shortDate, stageLabel, stageOf } from '@/lib/cdep-text';
 import { RISK } from '@/lib/risk';
 import { formatDateRo, todayISO } from '@/lib/format';
@@ -70,6 +82,9 @@ export default async function CameraBillPage({ params }: PageProps) {
   const builtOn = todayISO();
   const stage = stageOf(bill.stadiu);
   const atChamber = ['comisii', 'raport', 'plen', 'altele'].includes(stage);
+  // Proiectele din anii trecuți încă în dezbatere (scripts/straja-cdep-vechi.mjs): anul înregistrării se vede lângă număr.
+  const year = registeredYear(bill);
+  const older = year < Number(builtOn.slice(0, 4));
   // Camera decizională votează a doua: dacă decide Camera, Senatul a votat deja.
   const senateFirst = /camera/i.test(f.cameraDecizionala ?? '');
   const senateVote = f.timeline.find((t) => t.camera === 'Senat' && /adoptat|respins/i.test(t.actiune));
@@ -163,6 +178,7 @@ export default async function CameraBillPage({ params }: PageProps) {
               <span className="tabular-nums text-muted">
                 {bill.numar}
                 {f.numarSenat && ` · ${f.numarSenat} la Senat`}
+                {older && ` · înregistrat în ${year}`}
               </span>
             </div>
             <h1 className="font-display mt-5 text-[clamp(1.7rem,3.6vw,2.6rem)] font-normal leading-[1.15]">{c?.plainTitle ?? bill.titlu}</h1>
@@ -237,6 +253,7 @@ export default async function CameraBillPage({ params }: PageProps) {
             {senateFirst
               ? 'Senatul a votat primul, iar Camera Deputaților decide la final.'
               : 'Camera Deputaților votează prima, iar Senatul decide la final.'}
+              {older && ` A fost înregistrat la Cameră pe ${formatDateRo(bill.inregistrat)}${atChamber ? ' și e încă în dezbatere.' : '.'}`}
           </p>
         </section>
         <BillAgenda items={agenda} billId={bill.numar} />

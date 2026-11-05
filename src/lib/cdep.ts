@@ -63,6 +63,8 @@ export interface CdepBill extends CdepRow {
 
 /** Rândul din listă, cu ce afișăm din fișă și din analiză, pentru pagina /camera. */
 export interface CdepListItem extends CdepRow {
+  /** Anul înregistrării la Cameră; mai mic decât anul listei pentru proiectele din anii trecuți încă în dezbatere. */
+  an: number;
   stage: StageKey;
   cameraDecizionala: string | null;
   initiator: string | null;
@@ -94,8 +96,29 @@ async function readJson<T>(file: string): Promise<T | null> {
   }
 }
 
-export async function getCdepIndex(): Promise<{ an: number; cititLa: string; proiecte: CdepRow[] } | null> {
-  return readJson(path.join(DIR, 'index.json'));
+export interface CdepIndex {
+  /** Anul curent: lista din data/cdep/index.json. */
+  an: number;
+  cititLa: string;
+  proiecte: CdepRow[];
+}
+
+/** Anul înregistrării la Cameră, din „2025-10-20”. */
+export const registeredYear = (row: Pick<CdepRow, 'inregistrat'>) => Number(row.inregistrat.slice(0, 4));
+
+/**
+ * Lista anului curent (data/cdep/index.json, scripts/straja-cdep.mjs), apoi proiectele din anii trecuți încă în
+ * dezbatere sau urmărite deja (data/cdep/ani/<an>.json, scripts/straja-cdep-vechi.mjs). Slug-ul conține anul
+ * (plx-400-2025), deci rândurile nu se ciocnesc. `an` și `cititLa` sunt ale anului curent.
+ */
+export async function getCdepIndex(): Promise<CdepIndex | null> {
+  const current = await readJson<CdepIndex>(path.join(DIR, 'index.json'));
+  if (!current) return null;
+  const files = (await fs.readdir(path.join(DIR, 'ani')).catch(() => [] as string[])).filter((f) => /^\d{4}\.json$/.test(f)).sort().reverse();
+  const years = await Promise.all(files.map((f) => readJson<{ proiecte: CdepRow[] }>(path.join(DIR, 'ani', f))));
+  const seen = new Set(current.proiecte.map((p) => p.slug));
+  const old = years.flatMap((y) => y?.proiecte ?? []).filter((p) => !seen.has(p.slug));
+  return { ...current, proiecte: [...current.proiecte, ...old] };
 }
 
 export async function getCdepBill(slug: string): Promise<CdepBill | null> {
@@ -177,6 +200,7 @@ export async function getCdepList(): Promise<CdepListItem[]> {
       const last = versions?.changes.at(-1);
       return {
         ...row,
+        an: registeredYear(row),
         senat: row.senat ?? bill?.senat,
         stage: stageOf(row.stadiu),
         cameraDecizionala: bill?.fisa.cameraDecizionala ?? null,
@@ -219,7 +243,9 @@ async function loadSigned(): Promise<CdepSigned[]> {
       .filter(([, c]) => c.matched || c.endedOn)
       .map(([name, c]) => [slugify(name), c.chamber === 'senat' ? 'senator' : 'deputat']),
   );
-  const rows = [...index.proiecte].filter((r) => !r.senat).sort((a, b) => b.inregistrat.localeCompare(a.inregistrat));
+  // Doar proiectele anului curent, ca până acum: cele din anii trecuți (multe din legislatura 2020–2024) ar aduce în
+  // statistici foști deputați; /metodologie și /parlamentari spun „proiectele din 2026”.
+  const rows = [...index.proiecte].filter((r) => !r.senat && registeredYear(r) === index.an).sort((a, b) => b.inregistrat.localeCompare(a.inregistrat));
   const out = await Promise.all(
     rows.map(async (row): Promise<CdepSigned | null> => {
       const [bill, analysis, versions] = await Promise.all([getCdepBill(row.slug), getCdepAnalysis(row.slug), getBillVersions(row.slug)]);

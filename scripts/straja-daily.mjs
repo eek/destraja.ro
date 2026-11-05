@@ -229,6 +229,12 @@ async function main() {
       const agenda = await step('Agendele Senatului', 'sh', ['-c', fetchAgenda], { timeoutMs: 120_000 });
       if (!agenda.ok) summary.push('agendele Senatului au rămas de ieri');
     }
+    // Fișele Camerei din anii trecuți citite între timp de VM (scripts/vm/cdep-vm.mjs): HTML-ul vine prin ssh și tar, ca
+    // agendele, și îl citim aici cu același parser; nicio cerere la cdep.ro. Dacă VM-ul nu răspunde, vin mâine.
+    if (fs.existsSync(AGENDA_VM)) {
+      const vmSheets = await step('Camera: fișele de pe VM', 'node', ['scripts/straja-cdep-vechi.mjs', '--doar-vm'], { timeoutMs: 600_000 });
+      if (!vmSheets.ok) summary.push('fișele Camerei de pe VM au rămas acolo');
+    }
 
     const counts = checkData();
     log(`Date verificate: ${counts.analysed}/${counts.bills} proiecte cu analiză`);

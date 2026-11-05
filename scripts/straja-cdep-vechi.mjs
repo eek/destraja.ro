@@ -14,11 +14,18 @@
 // e fără rețea, așa că așteaptă până la 09:20; cât ops/daily.lock al copiei principale numește un proces viu, îi lasă
 // rândul actualizării zilnice; după un captcha așteaptă cele două ore o singură dată, la al doilea se oprește. Se poate
 // relua oricând: citește doar ce lipsește.
+//
+// VM-ul destraja citește și el fișe din aceeași coadă (scripts/vm/cdep-vm.mjs; un buget pe IP, vezi
+// scripts/lib/cdep-peer.mjs): la pornire și apoi o dată la 15 minute aducem prin ssh HTML-ul citit de el, îl citim aici cu
+// același parseSheet și îi trimitem coada nouă. El ia fișele de la coada cozii, noi de la cap, și fiecare fișă se
+// revendică întâi pe VM, deci nu se cere de două ori. Cu --asteapta, când tot ce a rămas e la VM, așteptăm și aducem.
+//   --doar-vm   doar aduce și citește fișele de pe VM, fără nicio cerere la cdep.ro (pasul din actualizarea zilnică)
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { CdepBlocked, committeeUrl, fetchCdep, listUrl, parseCommitteeEmail, parseList, parseSheet, sheetUrl } from './lib/cdep.mjs';
 import { AT_CHAMBER, oldYearsDir } from './lib/cdep-index.mjs';
+import { peerEnabled, peerHello, pullVmHtml, vmCall } from './lib/cdep-peer.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = path.join(ROOT, 'data');
@@ -38,6 +45,7 @@ const MAX = +arg('max', 10);
 const FORCE_LISTS = has('liste');
 const WAIT = has('asteapta');
 const FIRST = new Set(arg('intai', '').split(',').filter(Boolean));
+const VM_ONLY = has('doar-vm');
 // O săptămână, cu o oră de toleranță: rularea de luni 09:30 trebuie să prindă lista citită lunea trecută la 09:35.
 const LIST_EVERY_MS = 7 * 86_400_000 - 3_600_000;
 
@@ -145,7 +153,7 @@ let note = '';
 const listsRead = [];
 
 try {
-  for (const year of YEARS) {
+  for (const year of VM_ONLY ? [] : YEARS) {
     const previous = readJson(yearFile(year));
     if (!FORCE_LISTS && previous && Date.now() - Date.parse(previous.cititLa) < LIST_EVERY_MS) continue;
     const html = await request(listUrl('anp', year));
@@ -198,36 +206,126 @@ const pending = all.filter((p) => {
   const sheet = readJson(sheetFile(p.slug));
   return !sheet || changed(p, sheet);
 });
-const todo = pending.sort((a, b) => rank(a) - rank(b) || b.inregistrat.localeCompare(a.inregistrat)).slice(0, MAX);
+pending.sort((a, b) => rank(a) - rank(b) || b.inregistrat.localeCompare(a.inregistrat));
+// Ce e încă de citit, în ordine; o fișă iese de aici când o citim noi sau când vine de pe VM.
+const left = new Map(pending.map((p) => [p.slug, p]));
+// Versiunea rândului: o fișă citită de VM pentru alt stadiu decât cel din listă nu se folosește.
+const keyOf = (p) => `${p.stadiu}|${p.stadiuData ?? ''}`;
 
 const committeesFile = path.join(DATA, 'cdep', 'comisii.json');
 const committees = readJson(committeesFile) ?? {};
 let read = 0;
+let fromVm = 0;
+
+/** O fișă citită (de noi sau de VM): HTML-ul în .cache, fișa în data/cdep/proiecte, ca la anul curent. */
+function save(p, html, cititLa) {
+  // Ca la anul curent: HTML-ul rămâne o vreme în .cache, ca straja-amendments să nu ceară fișa a doua oară.
+  fs.writeFileSync(path.join(HTML_CACHE, `${p.slug}.html`), html);
+  const fisa = parseSheet(html);
+  const senat = (fisa.numarSenat && ours.get(fisa.numarSenat)) || null;
+  if (senat) p.senat = senat;
+  writeJson(sheetFile(p.slug), { ...p, cititLa, fisa });
+  left.delete(p.slug);
+  return fisa;
+}
+
+/** Adresa de e-mail a comisiilor noi dintr-o fișă (o cerere pe comisie, o singură dată). */
+async function readCommittees(fisa) {
+  for (const c of [...(fisa.comisii?.raport ?? []), ...(fisa.comisii?.aviz ?? [])]) {
+    if (committees[c.idc]) continue;
+    committees[c.idc] = { nume: c.nume, url: committeeUrl(c.idc), email: parseCommitteeEmail(await request(committeeUrl(c.idc))) };
+    requests++;
+    writeJson(committeesFile, committees);
+  }
+}
+
+// ─── Fișele citite de VM ──────────────────────────────────────────────────────────────────────────────────────────
+let vmClaims = new Map();
+let lastSync = 0;
+let lastPush = Date.now();
+const vmSheets = [];
+/** Aduce HTML-ul de pe VM și îl citește aici, apoi îi trimite coada nouă (ce a rămas, în ordinea noastră). */
+async function syncVm() {
+  if (!peerEnabled) return;
+  lastSync = Date.now();
+  const dir = path.join(ROOT, '.cache', `cdep-vm-${process.pid}`);
+  if (await pullVmHtml(dir)) {
+    const htmlDir = path.join(dir, 'html');
+    const got = [];
+    let now = 0;
+    for (const f of fs.existsSync(htmlDir) ? fs.readdirSync(htmlDir).sort() : []) {
+      if (!f.endsWith('.meta.json')) continue;
+      const meta = readJson(path.join(htmlDir, f));
+      const htmlFile = path.join(htmlDir, `${meta?.slug}.html`);
+      if (!meta?.slug || !fs.existsSync(htmlFile)) continue;
+      got.push(meta.slug);
+      const p = left.get(meta.slug);
+      // Citită între timp, sau rândul din listă arată alt stadiu: fișa se cere din nou.
+      if (!p || meta.key !== keyOf(p)) continue;
+      vmSheets.push(save(p, fs.readFileSync(htmlFile, 'utf8'), meta.fetchedAt));
+      now++;
+    }
+    fromVm += now;
+    if (got.length) await vmCall('ack', { slugs: got });
+    if (now) log(`VM: ${now} fișe aduse și citite aici (${fromVm} în rularea asta)`);
+  }
+  fs.rmSync(dir, { recursive: true, force: true });
+  const queue = [...left.values()].map((p) => ({ slug: p.slug, url: p.url, key: keyOf(p) }));
+  const reply = await vmCall('push', { queue }, { timeoutMs: 120_000 });
+  if (reply?.claims) {
+    vmClaims = new Map(Object.entries(reply.claims));
+    lastPush = Date.now();
+  } else if (Date.now() - lastPush > 3_600_000) {
+    // VM-ul nu mai răspunde de o oră: ce revendicase îl citim noi.
+    vmClaims = new Map();
+  }
+}
+
+// Fișele care au comisii fără adresă (de exemplu cele aduse de pe VM de pasul --doar-vm) le completăm la prima cerere.
+if (!VM_ONLY) {
+  for (const p of all) {
+    const fisa = left.has(p.slug) ? null : readJson(sheetFile(p.slug))?.fisa;
+    if ([...(fisa?.comisii?.raport ?? []), ...(fisa?.comisii?.aviz ?? [])].some((c) => !committees[c.idc])) vmSheets.push(fisa);
+  }
+}
+
+// Fără el, VM-ul se oprește după 8 minute (lib/cdep-peer.mjs); pe același IP, fiecare cerere a noastră e și semn de viață.
+const keepalive = WAIT && peerEnabled ? setInterval(() => peerHello(), 3 * 60_000) : null;
+const SYNC_EVERY = 15 * 60_000;
 if (!note) {
   try {
-    for (const p of todo) {
+    await syncVm();
+    while (!VM_ONLY && read < MAX) {
+      if (!(await mayRequest())) throw new Pause('fără rețea acum (drumul spre birou) sau rulează actualizarea zilnică');
+      if (Date.now() - lastSync > SYNC_EVERY) await syncVm();
+      for (const fisa of vmSheets.splice(0)) await readCommittees(fisa);
+      const p = [...left.values()].find((x) => vmClaims.get(x.slug) !== 'vm');
+      if (!p) {
+        // Ce a rămas e revendicat de VM: cu --asteapta îl așteptăm și aducem fișele o dată la 5 minute.
+        if (!WAIT || !peerEnabled || !left.size) break;
+        await sleep(5 * 60_000);
+        lastSync = 0;
+        continue;
+      }
+      // Revendicarea pe VM; dacă VM-ul nu răspunde, cerem oricum (cel mult o fișă citită de două ori).
+      const claim = await vmCall('claim', { slug: p.slug, key: keyOf(p) });
+      if (claim?.by === 'vm') {
+        vmClaims.set(p.slug, 'vm');
+        continue;
+      }
       const html = await request(p.url);
       requests++;
-      // Ca la anul curent: HTML-ul rămâne o vreme în .cache, ca straja-amendments să nu ceară fișa a doua oară.
-      fs.writeFileSync(path.join(HTML_CACHE, `${p.slug}.html`), html);
-      const fisa = parseSheet(html);
-      const senat = (fisa.numarSenat && ours.get(fisa.numarSenat)) || null;
-      if (senat) p.senat = senat;
-      writeJson(sheetFile(p.slug), { ...p, cititLa: new Date().toISOString(), fisa });
+      const fisa = save(p, html, new Date().toISOString());
       read++;
-      if (read % 10 === 0 || read === todo.length) log(`${read}/${todo.length} fișe citite (ultima: ${p.numar}, ${p.stadiu})`);
-      for (const c of [...(fisa.comisii?.raport ?? []), ...(fisa.comisii?.aviz ?? [])]) {
-        if (committees[c.idc]) continue;
-        committees[c.idc] = { nume: c.nume, url: committeeUrl(c.idc), email: parseCommitteeEmail(await request(committeeUrl(c.idc))) };
-        requests++;
-        writeJson(committeesFile, committees);
-      }
+      if (read % 10 === 0) log(`${read} fișe citite, ${left.size} încă de citit (ultima: ${p.numar}, ${p.stadiu})`);
+      await readCommittees(fisa);
     }
   } catch (err) {
     if (!(err instanceof CdepBlocked) && !(err instanceof Pause)) throw err;
     note = ` (${err.message})`;
   }
 }
+if (keepalive) clearInterval(keepalive);
 
 // `senat` aflat din fișe ajunge și în fișierele anilor, ca proiectul să nu apară de două ori pe site.
 for (const y of years) {
@@ -239,5 +337,5 @@ const missing = all.filter((p) => !fs.existsSync(sheetFile(p.slug))).length;
 const perYear = years.map((y) => `${y.an}: ${y.proiecte.filter((p) => AT_CHAMBER.test(p.stadiu)).length}`).join(', ');
 console.log(
   `🏛️ Camera, anii trecuți: ${all.filter((p) => AT_CHAMBER.test(p.stadiu)).length} proiecte aflate la Cameră (${perYear}); ` +
-    `${listsRead.length ? `liste citite: ${listsRead.join(', ')}; ` : ''}${read} fișe citite, ${pending.length - read} încă de citit (${missing} lipsă); ${requests} cereri${note}`,
+    `${listsRead.length ? `liste citite: ${listsRead.join(', ')}; ` : ''}${read} fișe citite${peerEnabled ? `, ${fromVm} aduse de pe VM` : ''}, ${left.size} încă de citit (${missing} lipsă); ${requests} cereri${note}`,
 );

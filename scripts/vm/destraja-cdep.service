@@ -1,0 +1,22 @@
+[Unit]
+Description=destrajă.ro: citește fișe de pe cdep.ro pentru Mac (doar HTML, o cerere pe minut)
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+User=destraja
+WorkingDirectory=/home/destraja/cdep-vm
+Environment=CDEP_ROLE=vm
+ExecStart=/usr/local/bin/node scripts/vm/cdep-vm.mjs run
+Restart=always
+RestartSec=60
+MemoryMax=256M
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/home/destraja/cdep-vm
+
+[Install]
+WantedBy=multi-user.target

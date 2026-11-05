@@ -1,7 +1,7 @@
 {
   "slug": "b551-2026",
   "billId": "B551/2026",
-  "checkedAt": "2026-11-04T07:16:16.438Z",
+  "checkedAt": "2026-11-05T08:51:45.477Z",
   "models": {
     "agy": "ok",
     "claude": "ok",
@@ -46,6 +46,50 @@
             "stanceP": 0.99,
             "source": "trade_press",
             "sourceP": 0.86,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
+      "url": "https://tvrinfo.ro/bns-politicienii-ignora-criza-energetica-pe-care-acum-vor-sa-o-subventioneze-din-bani-publici",
+      "title": "BNS: Politicienii ignoră criza energetică, pe care acum vor să o subvenţioneze din bani publici - tvrinfo.ro",
+      "outlet": "TVR Info",
+      "domain": "tvrinfo.ro",
+      "publishedAt": "2026-10-29",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Reprezentanţii Blocului Naţional Sindical (…) în Consiliul Economic şi Social (CES) au avizat nefavorabil propunerea legislativă privind instituirea unei scheme de ajutor de stat pentru reducerea temporară a preţului energiei electrice pentru întreprinderile din sectoarele energo-intensive expuse comerţului internaţional (B551).",
+      "match": "quote",
+      "firstSeenAt": "2026-11-05",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-05",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "critical",
+            "stanceP": 0.8,
+            "source": "national_news",
+            "sourceP": 0.478,
+            "about": 0.908,
+            "release": 0.79
+          },
+          "d1": {
+            "stance": "critical",
+            "stanceP": 0.907,
+            "source": "national_news",
+            "sourceP": 0.671,
+            "about": 0.755,
+            "release": 0.182
+          },
+          "luna": {
+            "stance": "critical",
+            "stanceP": 0.99,
+            "source": "national_news",
+            "sourceP": 0.99,
             "about": 0.99,
             "release": 0.01
           }
@@ -108,7 +152,7 @@
         "claude",
         "codex"
       ],
-      "quote": "AUR a depus în Parlament un proiect de lege prin care propune introducerea unei scheme de ajutor de stat",
+      "quote": "AUR a depus în Parlament un proiect de lege prin care propune introducerea unei scheme de ajutor de stat pentru întreprinderile mari consumatoare de energie din sectoarele electro-intensive expuse comerțului internațional.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -153,7 +197,7 @@
         "claude",
         "codex"
       ],
-      "quote": "AUR a depus în Parlament un proiect de lege prin care propune instituirea unei scheme de ajutor de stat pentru reducerea temporară a preţului energiei electrice pentru întreprinderile mari consumatoare de energie din sectoarele electro-intensive expuse comerţului internaţional.",
+      "quote": "AUR a depus în Parlament un proiect de lege prin care propune instituirea unei scheme de ajutor de stat",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -237,9 +281,10 @@
       "domain": "ziuadevest.ro",
       "publishedAt": "2026-10-07",
       "foundBy": [
-        "agy"
+        "agy",
+        "claude"
       ],
-      "quote": "AUR a depus în Parlament un proiect de lege prin care propune instituirea unei scheme de ajutor de stat pentru reducerea temporară a preţului energiei electrice pentru întreprinderile mari consumatoare de energie din sectoarele electro-intensive expuse comerţului internaţional.",
+      "quote": "AUR a depus în Parlament un proiect de lege prin care propune instituirea unei scheme de ajutor de stat",
       "match": "quote",
       "firstSeenAt": "2026-10-27",
       "decision": {
@@ -374,7 +419,7 @@
         "claude",
         "agy"
       ],
-      "quote": "AUR a depus în Parlament un proiect de lege care prevede instituirea unei scheme de ajutor de stat",
+      "quote": "AUR a depus în Parlament un proiect de lege care prevede instituirea unei scheme de ajutor de stat, menită să reducă temporar prețul energiei electrice pentru întreprinderile mari consumatoare din sectoarele electro-intensive expuse comerțului internațional.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -628,6 +673,50 @@
       }
     },
     {
+      "url": "https://stiridinromania.ro/aur-propune-un-ajutor-de-stat-pentru-industria-electro-intensive-din-romania",
+      "title": "AUR propune un ajutor de stat pentru industria electro-intensive din România",
+      "outlet": "Ştiri din România",
+      "domain": "stiridinromania.ro",
+      "publishedAt": "2026-10-07",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "AUR propune un proiect de lege pentru sprijinirea industriei grele din România, prin reducerea temporară a prețului energiei electrice pentru întreprinderile mari consumatoare de energie din sectoarele electro-intensive expuse comerțului internațional.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-05",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-05",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.662,
+            "source": "aggregator",
+            "sourceP": 0.696,
+            "about": 0.963,
+            "release": 0.845
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.562,
+            "source": "party_or_politician",
+            "sourceP": 0.387,
+            "about": 0.852,
+            "release": 0.593
+          },
+          "luna": {
+            "stance": "supportive",
+            "stanceP": 0.84,
+            "source": "aggregator",
+            "sourceP": 0.82,
+            "about": 0.99,
+            "release": 0.9
+          }
+        }
+      }
+    },
+    {
       "url": "https://e-nergia.ro/un-miliard-de-euro-pentru-industria-electro-intensiva-cum-il-transformam-din-ajutor-la-factura-in-capacitate-noua-de-productie-analiza",
       "title": "Un miliard de euro pentru industria electro-intensivă: cum îl transformăm din ajutor la factură în capacitate nouă de producție ANALIZĂ – e-nergia",
       "outlet": "e-nergia.ro",
@@ -679,9 +768,10 @@
       "domain": "e-nergia.ro",
       "publishedAt": null,
       "foundBy": [
-        "claude"
+        "claude",
+        "agy"
       ],
-      "quote": "Potrivit AUR, proiectul prevede un buget total de cel mult 1,05 miliarde de euro, cu un plafon anual de maximum 350 de milioane de euro.",
+      "quote": "AUR a depus în Parlament un proiect de lege prin care propune instituirea unei scheme de ajutor de stat pentru reducerea temporară a preţului energiei electrice pentru întreprinderile mari consumatoare de energie din sectoarele electro-intensive expuse comerţului internaţional, potrivit News.ro.",
       "match": "quote",
       "decision": {
         "v": 2,

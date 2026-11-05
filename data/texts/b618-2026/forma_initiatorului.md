@@ -1,0 +1,61 @@
+SENATUL
+
+# LEGE
+
+# pentru completarea unor acte normative privind sistemele fotovoltaice de balcon
+
+Parlamentul României adoptă prezenta lege.
+
+Art. I. – Legea nr. 169/2026 privind Codul amenajării teritoriului, urbanismului și construcțiilor, publicată în Monitorul Oficial al României, Partea I, nr. 661 din 10 august 2026, se completează după cum urmează:
+
+1\. La articolul 78, după alineatul (6) se introduce un nou alineat, alineatul (7), cu următorul cuprins:
+
+„(7) În afara zonelor construite protejate și a zonelor de protecție a monumentelor istorice, regulamentul local de urbanism nu poate interzice montarea pe balcoane și logiile locuințelor a sistemelor fotovoltaice de balcon prevăzute la art. 299 alin. (2) lit. a) pct. 13¹ și poate stabili, fără a putea face imposibilă sau excesiv de dificilă, în fapt, montarea acestor sisteme, numai condiții privind amplasarea, dimensiunile, culoarea și modul de prindere ale acestora, astfel încât să se păstreze aspectul armonios și unitar al zonei.”
+
+2\. La articolul 299 alineatul (2) litera a), după punctul 13 se introduce un nou punct, punctul 13¹, cu următorul cuprins:
+
+„13¹. montarea pe balcoane și logiile locuințelor a sistemelor fotovoltaice de balcon, astfel cum sunt definite la art. 3 pct. 115¹ din Legea energiei electrice și a gazelor naturale nr. 123/2012, cu modificările și completările ulterioare, prin prinderi reversibile, fără intervenții asupra structurii de rezistență, cu respectarea reglementărilor privind securitatea la incendiu, a condițiilor stabilite prin regulamentul local de urbanism și, după caz, a art. 34¹ din Legea nr. 196/2018, precum și cu înștiințarea prealabilă a autorităților administrației publice locale. Elementele de prindere trebuie să preia încărcările rezultate din greutatea proprie a sistemului, din acțiunea vântului și din depunerile de zăpadă;”
+
+Art. II. – Legea energiei electrice și a gazelor naturale nr. 123/2012, publicată în Monitorul Oficial al României, Partea I, nr. 485 din 16 iulie 2012, cu modificările și completările ulterioare, se completează după cum urmează:
+
+1\. La articolul 3, după punctul 115 se introduce un nou punct, punctul 115¹, cu următorul cuprins:
+
+„115¹. sistem fotovoltaic de balcon – instalație de producere a energiei electrice din surse regenerabile, conectată la instalația de utilizare a locului de consum al unui client casnic, fără modificarea instalației de racordare, formată din unul sau cel mult patru panouri fotovoltaice alăturate, un inverter cu puterea maximă continuă la ieșire, în curent alternativ, de cel mult 800 VA și, opțional, o instalație de stocare a energiei electrice;"
+
+2\. După articolul 73¹ se introduce un nou articol, art. 73², cu următorul cuprins:
+
+„Art. 73². – (1) Clientul casnic poate utiliza la locul său de consum un singur sistem fotovoltaic de balcon pe baza notificării prealabile a operatorului de distribuție, potrivit procedurii aprobate de ANRE, fără racordarea ca prosumator prevăzută la art. 73¹ alin. (6).
+
+(2) Sistemul fotovoltaic de balcon este configurat să limiteze efectiv la zero injecția de energie electrică în rețeaua de distribuție, prin soluții tehnice integrate în invertor sau externe acestuia. Sistemul care nu poate limita injecția la zero nu se pune în funcțiune potrivit prezentului articol.
+
+(3) Invertorul sistemului fotovoltaic de balcon asigură deconectarea automată la pierderea tensiunii rețelei. Invertorul care se poate conecta la internet respectă cerințele esențiale aplicabile la data introducerii sale pe piață, prevăzute de Regulamentul delegat (UE) 2022/30 al Comisiei din 29 octombrie 2021 de completare a Directivei 2014/53/UE a Parlamentului European și a Consiliului în ceea ce privește aplicarea cerințelor esențiale menționate la articolul 3 alineatul (3) literele (d), (e) și (f) din directiva respectivă sau, pentru invertoarele introduse pe piață începând cu 11 decembrie 2027, cerințele esențiale de securitate cibernetică prevăzute în anexa I la Regulamentul (UE) 2024/2847 al Parlamentului European și al Consiliului din 23 octombrie 2024 privind cerințele orizontale în materie de securitate cibernetică pentru produsele cu elemente digitale și de modificare a Regulamentelor (UE) nr. 168/2013 și (UE) 2019/1020, precum și a Directivei (UE) 2020/1828 (Regulamentul privind reziliența cibernetică).
+
+(4) Pentru punerea în funcțiune a sistemelor fotovoltaice de balcon nu se percep tarife sau taxe. Notificarea prevăzută la alin. (1) nu poate fi condiționată de obținerea unui aviz tehnic individual, de efectuarea unui studiu de soluție sau de executarea unor lucrări de întărire a rețelei.”
+
+Art. III. – Legea nr. 196/2018 privind înființarea, organizarea și funcționarea asociațiilor de proprietari și administrarea condominiilor, publicată în Monitorul Oficial al României, Partea I, nr. 660 din 30 iulie 2018, cu modificările și completările ulterioare, se completează după cum urmează:
+
+## 1. După articolul 34 se introduce un nou articol, art. 34¹, cu următorul cuprins:
+
+„Art. 34¹. – (1) Proprietarul poate amplasa în interiorul balconului sau al logiei proprietății individuale un sistem fotovoltaic de balcon, astfel cum este definit la art. 3 pct. 115¹ din Legea energiei electrice și a gazelor naturale nr. 123/2012, cu modificările și completările ulterioare, fără prinderi în elemente aflate în proprietate comună, cu respectarea condițiilor stabilite potrivit art. 53 lit. e¹).
+
+(2) Prinderea sistemului pe fața exterioară a parapetului balconului sau pe alte elemente de fațadă aflate în proprietate comună se face numai în baza hotărârii adunării generale privind atribuirea în folosință exclusivă a părții comune, adoptate cu majoritatea prevăzută la art. 650 alin. (2) din Legea nr. 287/2009 privind Codul civil, republicată, cu modificările și completările ulterioare, și cu respectarea art. 32 alin. (2).
+
+(3) Fixarea sistemului prevăzut la alin. (2) este permisă numai pe balustrade metalice sau parapete din beton armat. Sistemul se asigură suplimentar printr-o prindere independentă de cea principală, iar fiecare panou fotovoltaic față de structura de susținere, prin mijloace de retenție independente de prinderile principale, astfel încât cedarea unei prinderi principale să nu determine căderea sistemului sau a vreunuia dintre panouri.
+
+(4) Locatarul poate amplasa un sistem fotovoltaic de balcon numai cu acordul scris al proprietarului.
+
+(5) Proprietarul răspunde pentru prejudiciile cauzate proprietății comune sau altor proprietăți individuale prin montarea ori exploatarea sistemului, potrivit art. 30 alin. (5).
+
+(6) Prevederile alin. (2) nu aduc atingere clauzelor cuprinse în contractele încheiate între proprietari și dezvoltatorul imobiliar, prin care părțile au convenit menținerea aspectului architectural-estetic al fațadei condominiului. În cazul în care un astfel de contract este în vigoare la data solicitării amplasării sistemului fotovoltaic de balcon, amplasarea pe elementele de fațadă aflate în proprietate comună este permisă numai cu respectarea cumulativă a condițiilor prevăzute la alin. (2) și a obligațiilor asumate prin contractul respectiv, acestea prevalând în raporturile dintre părțile contractante.”
+
+2\. La articolul 53, după litera e) se introduc două noi litere, literele e¹) și e²), cu următorul cuprins: „e¹) stabilește condițiile privind amplasarea, dimensiunile și culoarea sistemelor fotovoltaice de balcon, precum și numărul de panouri ce pot fi instalate, astfel încât să se păstreze aspectul armonios și unitar al condominiului prevăzut la art. 32 alin. (1), fără a putea face imposibilă, în fapt, montarea sistemului fotovoltaic de balcon. e²) adoptă hotărârile privind atribuirea în folosință exclusivă a părților comune, prevăzute la art. 34¹ alin. (2);”
+
+Art. IV. – (1) Prezenta lege intră în vigoare la 90 de zile de la data publicării în Monitorul Oficial al României, Partea I, cu excepția alin. (2), care intră în vigoare la 3 zile de la data publicării. (2) În termen de 60 de zile de la data publicării prezentei legi în Monitorul Oficial al României, Partea I, Autoritatea Națională de Reglementare în Domeniul Energiei aprobă, cu aplicare de la data intrării în vigoare a prezentei legi, procedura de notificare prevăzută la art. 73² alin. (1) din Legea energiei electrice și a gazelor naturale nr. 123/2012, cu modificările și completările ulterioare, precum și cu completările aduse prin prezenta lege.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (1) din Constituția României, republicată.
+
+Președintele Camerei Deputaților, Sorin-Mihai GRINDEANU
+
+Președintele Senatului,
+
+Mircea ABRUDEAN

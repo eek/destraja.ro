@@ -1,0 +1,27 @@
+# PARLAMENTUL ROMÂNIEI
+
+## SENATUL
+
+# Câtre: Biroul permanent al Senatului
+
+În temeiul prevederilor art. 75 din Constituția României, respectiv art. 93 din Regulamentul Senatului, republicat, vă înaintăm spre dezbatere și adoptare Propunerea legislativă pentru completarea Legii nr. 196/2018 privind înființarea, organizarea și funcționarea asociațiilor de proprietari și administrarea condominiilor și pentru modificarea art. 299 din Legea nr. 169/2026 privind Codul amenajării teritoriului, urbanismului și construcțiilor
+
+## Inițiatori:
+
+Cezar-Mihail Drăgoescu, deputat USR Dolj
+
+Cristina-Mădălina Prună USR București
+
+George Gima, deputat USR Constanța
+
+Istvân-Lorânt Antal, senator UDMR Harghita
+
+Sebastian-Ioan Burduja, deputat PNL București
+
+Florin-Eugen Cîrligea, deputat AUR Brăila
+
+BOGDAN IVAN GRUJA
+
+Silvia Claudia Mihalcea
+
+CIPRIAN SERBAN

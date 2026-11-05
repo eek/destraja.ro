@@ -1,9 +1,9 @@
 {
   "slug": "b583-2026",
   "billId": "B583/2026",
-  "checkedAt": "2026-11-04T07:56:22.518Z",
+  "checkedAt": "2026-11-05T09:24:49.276Z",
   "models": {
-    "agy": "error: cod 3: error: print timeout after 10m0s with the turn still in progress; the response is partial AGY_ERROR: {\"short_error\":\"print timeout after 10m0s with the turn still in progress; the response is partial\",\"status\":\"DEADLINE_EXCEEDED\",\"retryable\":false,\"reason\":\"print_timeout\"}",
+    "agy": "ok",
     "claude": "ok",
     "codex": "ok"
   },
@@ -63,7 +63,7 @@
         "claude",
         "codex"
       ],
-      "quote": "Propunerea a fost înregistrată la Senat pe 21 octombrie 2026, cu numărul B583/2026.",
+      "quote": "Proiectul, intitulat „Ai plătit-o, e a ta”, prevede că fiecare persoană fizică ar putea beneficia de scutirea de la plata impozitului local pentru o singură mașină aflată în proprietatea sau coproprietatea sa.",
       "match": "quote",
       "firstSeenAt": "2026-10-27",
       "decision": {
@@ -94,6 +94,50 @@
             "sourceP": 0.99,
             "about": 0.99,
             "release": 0.03
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.bihon.ro/stirile-judetului-bihor/economic/schimbare-importanta-pentru-soferi-impozitul-pentru-un-autoturism-ar-putea-fi-eliminat-5443551",
+      "title": "Schimbare importantă pentru șoferi: impozitul pentru un autoturism ar putea fi eliminat - BIHON",
+      "outlet": "Bihon",
+      "domain": "bihon.ro",
+      "publishedAt": "2026-10-26",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Proiectul prevede reguli diferite în funcție de numărul autoturismelor deținute.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-05",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-05",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.865,
+            "source": "national_news",
+            "sourceP": 0.426,
+            "about": 0.966,
+            "release": 0.217
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.903,
+            "source": "local_news",
+            "sourceP": 0.379,
+            "about": 0.867,
+            "release": 0.245
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.91,
+            "source": "local_news",
+            "sourceP": 0.99,
+            "about": 0.99,
+            "release": 0.01
           }
         }
       }
@@ -153,7 +197,7 @@
         "agy",
         "claude"
       ],
-      "quote": "Inițiativa nu prevede o scutire generală pentru toate vehiculele aflate în proprietatea unei persoane.",
+      "quote": "O propunere legislativă privind eliminarea impozitului anual pentru un autoturism deținut de fiecare persoană fizică a fost înregistrată la Senat, în 21 octombrie 2026.",
       "match": "quote",
       "firstSeenAt": "2026-10-27",
       "decision": {
@@ -548,7 +592,7 @@
         "claude",
         "agy"
       ],
-      "quote": "Opțiunea legislativă este construită în jurul proprietății personale de bază.",
+      "quote": "A fost înregistrată la Senat o propunere legislativă pentru modificarea și completarea Legii nr.227/2015 privind Codul fiscal și pentru compensarea veniturilor bugetelor locale.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -584,6 +628,50 @@
     }
   ],
   "pending": [
+    {
+      "url": "https://adevarulfinanciar.ro/analize/impozitul-auto-pentru-o-masina-ar-putea-fi-2566898.html",
+      "title": "Un autoturism de persoană, scutit de impozit: ce prevede propunerea și cât ar pierde bugetele locale",
+      "outlet": "Adevărul Financiar",
+      "domain": "adevarulfinanciar.ro",
+      "publishedAt": "2026-10-27",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "O propunere legislativă înregistrată la Senat prevede scutirea persoanelor fizice de la plata impozitului anual pentru un singur autoturism.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-05",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-05",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.865,
+            "source": "national_news",
+            "sourceP": 0.509,
+            "about": 0.965,
+            "release": 0.03
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.916,
+            "source": "national_news",
+            "sourceP": 0.419,
+            "about": 0.835,
+            "release": 0.133
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.98,
+            "source": "trade_press",
+            "sourceP": 0.78,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
     {
       "url": "https://financiarul.ro/economie/impozitul-pe-masina-nu-dispare-inca",
       "title": "Ai o mașină? Un proiect de lege ar putea elimina impozitul pe ea, dar cel pentru anul 2026 trebuie plătit",
@@ -847,6 +935,50 @@
             "sourceP": 0.76,
             "about": 0.99,
             "release": 0.02
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.cancan.ro/romanii-care-vor-scapa-de-impozitul-pe-masina-un-nou-proiect-de-lege-se-discuta-in-parlament-21535173",
+      "title": "Românii care vor scăpa de impozitul pe mașină. Un nou proiect de lege se discută în Parlament",
+      "outlet": "Cancan",
+      "domain": "cancan.ro",
+      "publishedAt": "2026-10-23",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Propunerea legislativă se adresează românilor care dețin pe numele lor un singur autoturism.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-05",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-05",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.873,
+            "source": "national_news",
+            "sourceP": 0.649,
+            "about": 0.97,
+            "release": 0.079
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.89,
+            "source": "aggregator",
+            "sourceP": 0.358,
+            "about": 0.924,
+            "release": 0.202
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.91,
+            "source": "aggregator",
+            "sourceP": 0.76,
+            "about": 0.99,
+            "release": 0.03
           }
         }
       }

@@ -1,0 +1,209 @@
+# PARLAMENTUL ROMÂNIEI
+
+SENAT
+
+CAMERA DEPUTAȚILOR
+
+## LEGE
+
+# privind acordarea sprijinului financiar sezonier
+
+Parlamentul României adoptă prezenta lege
+
+## Articolul 1
+
+(1) Prezenta lege reglementează acordarea unui beneficiu de asistență socială sub forma unui sprijin financiar suplimentar destinat persoanelor vârstnice și persoanelor aparținând grupurilor vulnerabile, denumit în continuare sprijin financiar sezonier, în scopul prevenirii și diminuării situațiilor de dificultate economică și socială generate sau accentuate în perioada sezonului rece.
+
+(2) Sprijinul financiar sezonier nu se consideră venit în înțelesul art. 10 alin. (1) din Legea nr. 196/2016 privind venitul minim de incluziune, cu modificările și completările ulterioare, și nu se ia în calcul la stabilirea altor drepturi de natură socială și nici la stabilirea obligațiilor legale de întreținere.
+
+(3) Sprijinul financiar sezonier reprezintă venit neimpozabil, conform prevederilor art. 62 lit. a) din Legea nr. 227/2015 privind Codul fiscal, cu modificările și completările ulterioare.
+
+## Articolul 2
+
+În înțelesul prezentei legi, termenii și expresiile de mai jos au următoarele semnificații:
+
+a) Sprijin financiar sezonier – ajutor bănesc acordat o singură dată în sezonul rece, beneficiarilor care îndeplinesc condițiile de acordare prevăzute de prezenta lege;
+
+b) Sezon rece – perioada cuprinsă între data de 1 noiembrie a fiecărui an și data de 31 martie a anului următor, inclusiv;
+
+c) Persoană vârstnică vulnerabilă – persoana care a împlinit vârsta de 65 de ani, cu domiciliul în România, ale cărei venituri nete lunare nu depășesc 1.800 lei, în cazul celei care locuiește singură, respectiv 1.800 lei pe membru de gospodărie, în cazul celei care locuiește împreună cu alte persoane;
+
+d) Persoană cu dizabilități – persoana încadrată în grad de handicap grav sau accentuat, potrivit prevederilor Legii nr. 448/2006 privind protecția și promovarea drepturilor persoanelor cu handicap, republicată, cu modificările și completările ulterioare, ale cărei venituri nete lunare nu depășesc 1.800 lei, în cazul celei care locuiește singură, respectiv 1.800 lei pe membru de gospodărie, în cazul celei care locuiește împreună cu alte persoane;
+
+e) Familie monoparentală – familia definită la art. 6 alin. (1) lit. c) din Legea nr. 196/2016, cu modificările și completările ulterioare, ale cărei venituri nete lunare nu depășesc 1.800 lei pe membru de familie;
+
+f) Venit net lunar – media lunară a veniturilor realizate de persoana solicitantă sau, după caz, de membrii gospodăriei, în cele 3 luni calendaristice anterioare lunii depunerii cererii, din salarii, pensii, activități independente, cedarea folosinței bunurilor, investiții, activități agricole și din alte surse, după deducerea impozitelor și contribuțiilor sociale obligatorii datorate potrivit legii. Veniturile provenite din activități agricole și din valorificarea produselor agroalimentare se iau în calcul numai dacă depășesc 2000 lei anual și în funcție de realizarea efectivă în cele 3 luni calendaristice anterioare lunii depunerii cererii, în baza documentelor justificative prevăzute de lege;
+
+g) Venit brut – totalitatea veniturilor obținute de o persoană înainte de deducerea impozitelor, contribuțiilor sociale obligatorii și a altor rețineri prevăzute de lege;
+
+h) Gospodărie – unitatea definită la art. 6 lit. o) din Legea asistenței sociale nr. 292/2011, cu modificările și completările ulterioare.
+
+## Articolul 3
+
+(1) Beneficiază de sprijinul financiar sezonier următoarele categorii de persoane și familii:
+
+a) Persoanele vârstnice vulnerabile;
+
+b) Familiile monoparentale;
+
+c) Persoanele cu dizabilități;
+
+d) Persoanele beneficiare ale venitului minim de incluziune conform Legii nr. 196/2016, cu modificările și completările ulterioare.
+
+(2) În cazul beneficiarilor prevăzuți la alin. (1) lit. a), b) și d) sprijinul financiar sezonier se acordă o singură dată pentru fiecare familie sau gospodărie, indiferent de numărul membrilor acesteia care îndeplinesc condițiile de eligibilitate.
+
+(3) În situația în care doi sau mai mulți membri ai aceleiași familii ori gospodării aparțin unor categorii diferite de beneficiari dintre cele prevăzute la alin. (1) lit. a), b) și d) sprijinul financiar sezonier se acordă în cuantumul cel mai mare dintre cele prevăzute pentru categoriile respective.
+
+(4) Sprijinul financiar sezonier se acordă individual fiecărei persoane prevăzute la alin. (1) lit. c), independent de acordarea acestuia altor membri ai aceleiași familii sau gospodării, în temeiul alin. (1).
+
+(5) Nu beneficiază de sprijinul financiar sezonier cei prevăzuți la alin. (1) ale căror venituri brute realizate din închirierea bunurilor imobile, arendarea terenurilor agricole, dobânzi, dividende sau din alte bunuri ori active generatoare de venituri, depășesc echivalentul a 2.000 lei/lună calculat de la 1 ianuarie a anului aferent depunerii cererii, precum și cei sancționați, în ultimii 3 ani, pentru furnizarea de declarații false în vederea obținerii unor beneficii de asistență socială.
+
+## Articolul 4
+
+(1) Cuantumul sprijinului financiar sezonier se stabilește diferențiat, în funcție de categoria beneficiarilor și de nivelul veniturilor nete lunare, după cum urmează:
+
+a) 1.000 lei pentru persoanele vârstnice vulnerabile al căror venit net lunar individual sau pe membru de gospodărie, după caz, nu depășește 1300 lei;
+
+b) 800 lei pentru persoanele vârstnice vulnerabile al căror venit net lunar individual sau pe membru de gospodărie, după caz, depășește 1300 lei;
+
+c) 1200 lei pentru familiile monoparentale al căror venit net lunar pe membru de familie nu depășește 1000 lei;
+
+d) 900 lei pentru familiile monoparentale al căror venit net lunar pe membru de familie depășește 1000 lei;
+
+e) 1000 lei pentru persoanele cu dizabilități;
+
+f) 600 lei pentru persoanele beneficiare ale venitului minim de incluziune, acordat potrivit Legii nr. 196/2016, cu modificările și completările ulterioare.
+
+(2) În cazul beneficiarilor care primesc și ajutorul pentru încălzirea locuinței prevăzut la art. 6 din Legea nr. 226/2021, cu modificările și completările ulterioare, suma dintre cuantumul total al ajutorului pentru încălzire aferent tuturor lunilor sezonului rece și cuantumul sprijinului financiar sezonier nu poate depăși 1500 lei.
+
+(3) Depășirea plafonului prevăzut la alin. (2), nu afectează dreptul la ajutorul pentru încălzirea locuinței stabilit potrivit Legii nr. 226/2021, cu modificările și completările ulterioare, și nu constituie temei pentru modificarea, suspendarea sau încetarea acestuia ori pentru diminuarea cuantumului acordat.
+
+(4) În situația prevăzută la alin. (2), cuantumul sprijinului financiar sezonier se stabilește la nivelul diferenței dintre suma de 1500 lei și cuantumul total al ajutorului pentru încălzirea locuinței și nu poate fi mai mare decât suma prevăzută la alin. (1), aferentă categoriei din care beneficiarul face parte.
+
+(5) Prin excepție de la prevederile alin. (2), în cazul în care diferența prevăzută la alin. (4) este mai mică de 300 lei, sprijinul financiar sezonier se acordă în cuantum de 300 lei.
+
+## Articolul 5
+
+(1) Sprijinul financiar sezonier se acordă pe bază de cerere și declarație pe propria răspundere privind componența gospodăriei ori familiei, veniturile realizate și bunurile deținute de solicitant și, după caz, de membrii familiei sau gospodăriei. Cererea împreună cu documentele necesare pentru stabilirea dreptului se depun până la data de 1 decembrie a fiecărui an.
+
+(2) Modelul cererii și al declarației pe propria răspundere, precum și documentele necesare stabilirii dreptului la sprijinul financiar sezonier se aprobă prin normele metodologice de aplicare a prezentei legi.
+
+(3) Solicitantul are obligația de a declara, în mod complet și corespunzător realității, veniturile realizate, bunurile mobile și imobile deținute, precum și componența gospodăriei ori familiei, după caz, în vederea verificării îndeplinirii condițiilor de eligibilitate prevăzute de prezenta lege.
+
+(4) Cererea și declarația pe propria răspundere, însoțite de documentele justificative, se depun la serviciul public de asistență socială din cadrul aparatului de specialitate al primarului unității administrativ-teritoriale în a cărei rază teritorială solicitantul își are domiciliul.
+
+(5) În vederea stabilirii dreptului la sprijinul financiar sezonier, primarul verifică îndeplinirea condițiilor de eligibilitate pe baza documentelor depuse și a informațiilor obținute de la autoritățile și instituțiile publice competente, în condițiile legii.
+
+(6) În situațiile în care documentele și informațiile prevăzute la alin. (5) nu sunt suficiente pentru stabilirea îndeplinirii condițiilor de eligibilitate, serviciul public de asistență socială efectuează o anchetă socială, în condițiile legii.
+
+(7) Cererea pentru acordarea sprijinului financiar sezonier se soluționează prin dispoziție a primarului, în termen de cel mult 30 de zile de la data înregistrării acesteia.
+
+(8) Dispoziția prevăzută la alin. (7) se comunică solicitantului în termen de cel mult 5 zile de la data emiterii, iar plata sprijinului financiar sezonier se efectuează în termen de cel mult 30 de zile de la data comunicării dispoziției de acordare.
+
+(9) Prin excepție de la prevederile alin. (8), în situațiile prevăzute la alin. (10), plata sprijinului financiar sezonier se efectuează în termen de cel mult 15 zile de la data emiterii dispoziției de acordare.
+
+(10) Nerespectarea nejustificată a termenelor prevăzute la alin. (7)-(9) atrage răspunderea persoanelor responsabile, în condițiile legii.
+
+(11) Pe parcursul perioadei de acordare a sprijinului financiar sezonier, serviciul public de asistență socială poate efectua anchete sociale, din oficiu, la sesizarea terților sau la solicitarea agențiilor pentru plăți și inspecție socială, în vederea verificării respectării condițiilor de acordare și a identificării situațiilor în care dreptul a fost stabilit pe baza unor informații neconforme cu realitatea.
+
+## Articolul 6
+
+(1) Fondurile necesare acordării sprijinului financiar sezonier se asigură de la bugetul de stat, prin bugetul Ministerului Muncii, Familiei, Tineretului și Solidarității Sociale.
+
+(2) Finanțarea sprijinului financiar sezonier poate fi completată din bugetele locale, în baza hotărârilor consiliilor locale, precum și din fonduri externe nerambursabile, inclusiv fonduri europene, în condițiile de eligibilitate și finanțare stabilite prin programele aplicabile.
+
+(3) Plata sprijinului financiar sezonier se efectuează într-o singură tranșă, pentru fiecare sezon rece, prin agențiile pentru plăți și inspecție socială județene, respectiv a municipiului București, denumite în continuare agenții teritoriale, pe baza situațiilor centralizatoare transmise de primari.
+
+(4) În vederea efectuării plății, primarii transmit agentilor territoriale situațiile centralizatoare privind beneficiarii pentru care a fost stabilit dreptul la sprijinul financiar sezonier, precum și cuantumurile aprobate prin dispozițiile de acordare.
+
+(5) Agențiile territoriale verifică situațiile centralizatoare prevăzute la alin. (4) și efectuează plata sprijinului financiar sezonier.
+
+(6) Cheltuielile administrative aferente stabilirii, modificării sau încetării dreptului la sprijinul financiar sezonier, inclusiv cele privind verificarea îndeplinirii condițiilor de eligibilitate și tipărirea formularelor necesare acordării acestuia, se suportă din bugetele locale.
+
+(7) Modalitățile de efectuare a plății se stabilesc prin normele metodologice de aplicare a prezentei legi.
+
+## Articolul 7
+
+(1) Situațiile centralizatoare prevăzute la art. 6 alin. (4) se transmit agențiilor territoriale în format electronic, în condițiile stabilite prin normele metodologice de aplicare a prezentei legi.
+
+(2) Pe baza situațiilor centralizatoare prevăzute la alin. (1), agențiile territoriale constituie și actualizează evidența beneficiarilor sprijinului financiar sezonier, a cuantumurilor acordate și a plăților efectuate.
+
+(3) Evidența prevăzută la alin. (2) se utilizează pentru efectuarea plăților, verificarea respectării condițiilor de acordare, identificarea eventualelor plăți necuvenite și prevenirea acordării multiple a sprijinului financiar sezonier pentru aceeași perioadă.
+
+(4) Procedura de transmitere și verificare a situațiilor centralizatoare, precum și termenele aferente se stabilesc prin normele metodologice de aplicare a prezentei legi.
+
+## Articolul 8
+
+(1) În cazul în care solicitantul refuză să furnizeze informațiile sau documentele solicitate de primar, necesare verificării condițiilor de eligibilitate și care nu pot fi obținute de la autoritățile și instituțiile publice competente, cererea de acordare a sprijinului financiar sezonier se respinge prin dispoziție a primarului.
+
+(2) În situația în care, în urma anchetei sociale efectuată potrivit art. 5, se constată că dreptul la sprijinul financiar sezonier a fost stabilit pe baza unor informații neconforme cu realitatea privind veniturile, bunurile deținute ori componența gospodăriei, primarul dispune, după caz, modificarea sau încetarea dreptului.
+
+(3) Dispoziția prevăzută la alin. (2) se comunică solicitantului și agenției territoriale în termen de cel mult 5 zile de la data emiterii.
+
+(4) Agențiile teritoriale pot efectua verificări privind îndeplinirea condițiilor care au stat la baza acordării sprijinului financiar sezonier și legalitatea plăților efectuate, în condițiile legii.
+
+(5) Sumele acordate necuvenit din bugetul de stat cu titlu de sprijin financiar sezonier se recuperează potrivit Ordonanței de urgență a Guvernului nr. 44/2014 pentru reglementarea unor măsuri privind recuperarea debitelor pentru beneficiile de asistență socială, precum și pentru modificarea art. 101 din Legea nr. 448/2006 privind protecția și promovarea drepturilor persoanelor cu handicap, aprobată cu modificări prin Legea nr. 266/2015, cu modificările și completările ulterioare.
+
+(6) Recuperarea sumelor prevăzute la alin. (5) se dispune prin decizie a directorului executiv al agenției territoriale competente, în condițiile legii.
+
+(7) Sumele acordate necuvenit din bugetele locale sau din fonduri externe nerambursabile se recuperează potrivit dispozițiilor legale aplicabile sursei de finanțare din care au fost efectuate plățile.
+
+(8) În cazul în care, în urma verificărilor efectuate, există indicii privind săvârșirea unei infrațiuni, autoritatea sau instituția publică ce a efectuat verificarea sesizează organele de urmărire penală competente, potrivit legii.
+
+## Articolul 9
+
+(1) Ministerul Muncii, Familiei, Tineretului și Solidarității Sociale monitorizează aplicarea prevederilor prezentei legi, iar verificarea respectării condițiilor de acordare a sprijinului financiar sezonier se realizează prin Agenția Națională pentru Plăți și Inspecție Socială și agențiile teritoriale, potrivit competențelor legale.
+
+(2) Primarii și celelalte autorități și instituții publice implicate în aplicarea prezentei legi au obligația de a furniza, la solicitarea organelor de control competente, datele, informațiile și documentele necesare verificării legalității stabilirii dreptului și efectuării plăților.
+
+(3) În exercitarea atribuțiilor de control, personalul împuternicit poate efectua verificări, documentare și anchete sociale, în condițiile legii, în vederea stabilirii îndeplinirii condițiilor de eligibilitate și a corectitudinii informațiilor care au stat la baza acordării sprijinului financiar sezonier.
+
+(4) Agenția Națională pentru Plăți și Inspecție Socială centralizează anual datele privind numărul beneficiarilor, cuantumurile acordate, sumele plătite și rezultatele verificărilor efectuate, pe care le transmite Ministerului Muncii, Familiei, Tineretului și Solidarității Sociale.
+
+(5) Ministerul Muncii, Familiei, Tineretului și Solidarității Sociale întocmește anual un raport privind aplicarea prezentei legi, pe baza datelor prevăzute la alin. (4), pe care îl publică pe pagina proprie de internet.
+
+## Articolul 10
+
+(1) Constituie contravenții, dacă nu au fost săvârșite în astfel de condiții încât să fie considerate, potrivit legii penale, infracțiuni, următoarele fapte:
+
+a) nerespectarea de către primar a termenelor prevăzute la art. 5 alin. (7) și (8), privind soluționarea cererilor și comunicarea dispozițiilor de acordare sau de respingere a sprijinului financiar sezonier;
+
+b) netransmiterea de către primar a situațiilor centralizatoare prevăzute la art. 6 alin. (4), în condițiile și termenele stabilite potrivit art. 7 alin. (1) și (4);
+
+c) refuzul nejustificat al primarilor sau al celorlalte autorități și instituții publice implicate de a furniza datele, informațiile ori documentele solicitate de organele de control competente, potrivit art. 9 alin. (2);
+
+d) nerespectarea de către agențiile territoriale a termenelor de plată prevăzute la art. 5 alin. (8) și (9), din motive imputabile personalului responsabil.
+
+(2) Contravențiile prevăzute la alin. (1) lit. a) și c) se sancționează cu amendă de la 1.000 lei la 5.000 lei, iar cele prevăzute la lit. b) și d), cu amendă de la 500 lei la 2.000 lei.
+
+(3) Constatarea contravențiilor și aplicarea sancțiunilor se efectuează de către inspectorii sociali, potrivit competențelor legale.
+
+(4) Constatarea contravențiilor se poate efectua și de către celelalte organe de control ale Ministerului Muncii, Familiei, Tineretului și Solidarității Sociale, în cadrul controalelor de fond sau tematice proprii dispuse de ministrul muncii, familiei, tineretului și solidarității sociale, conform atribuțiilor prevăzute la art. 4 alin. (2) lit. g) din Hotărârea Guvernului nr. 29/2025 privind organizarea și funcționarea Ministerului Muncii, Familiei, Tineretului și Solidarității Sociale, cu completările ulterioare.
+
+(5) În situația prevăzută la alin. (4), organul de control al Ministerului Muncii, Familiei, Tineretului și Solidarității Sociale notifică de îndată organul de control competent potrivit prevederilor alin. (3) în vederea aplicării sancțiunilor prevăzute de lege.
+
+(6) Contravențiilor prevăzute la alin. (1) le sunt aplicabile dispozițiile Ordonanței Guvernului nr. 2/2001 privind regimul juridic al contravențiilor, aprobată cu modificări și completări prin Legea nr. 180/2002, cu modificările și completările ulterioare.
+
+## Articolul 11
+
+Dispozițiile primarului privind acordarea, respingerea, modificarea sau încetarea dreptului la sprijinul financiar sezonier pot fi contestate potrivit prevederilor Legii nr. 554/2004, cu modificările și completările ulterioare.
+
+## Articolul 12
+
+(1) Depunerea cererilor și a documentelor justificative, comunicarea dispozițiilor primarului, precum și transmiterea situațiilor centralizatoare și a celorlalte informații necesare aplicării prezentei legi se pot realiza prin mijloace electronice, în condițiile legii.
+
+(2) Prelucrarea datelor cu caracter personal necesare stabilirii, acordării, plății și verificării dreptului la sprijinul financiar sezonier se realizează cu respectarea prevederilor Regulamentului (UE) 2016/679 al Parlamentului European și al Consiliului din 27 aprilie 2016 privind protecția persoanelor fizice în ceea ce privește prelucrarea datelor cu caracter personal și privind libera circulație a acestor date și de abrogare a Directivei 95/46/CE (Regulamentul general privind protecția datelor), precum și a legislației naționale aplicabile.
+
+## Articolul 13
+
+În termen de 30 de zile de la data publicării prezentei legi în Monitorul Oficial al României, Partea I, Ministerul Muncii, Familiei, Tineretului și Solidarității Sociale elaborază normele metodologice de aplicare a acesteia, care se aprobă prin hotărâre a Guvernului.
+
+## Articolul 14
+
+Prin derogare de la prevederile art. 5 alin. (1), pentru sezonul rece aflat în curs la data intrării în vigoare a prezentei legi, cererile pentru acordarea sprijinului financiar sezonier se pot depune până la data încheierii sezonului rece respectiv.
+
+Această lege a fost adoptată de Parlamentul României, cu respectarea prevederilor art. 75 și ale art. 76 alin. (2) din Constituția României, republicată.
+
+Președintele Senatului
+
+Președintele Camerei Deputaților

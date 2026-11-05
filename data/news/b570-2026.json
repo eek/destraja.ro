@@ -1,9 +1,9 @@
 {
   "slug": "b570-2026",
   "billId": "B570/2026",
-  "checkedAt": "2026-11-04T07:32:50.310Z",
+  "checkedAt": "2026-11-05T09:11:33.018Z",
   "models": {
-    "agy": "ok",
+    "agy": "error: cod 3: error: print timeout after 10m0s with the turn still in progress; the response is partial AGY_ERROR: {\"short_error\":\"print timeout after 10m0s with the turn still in progress; the response is partial\",\"status\":\"DEADLINE_EXCEEDED\",\"retryable\":false,\"reason\":\"print_timeout\"}",
     "claude": "ok",
     "codex": "ok"
   },
@@ -462,7 +462,7 @@
         "codex",
         "agy"
       ],
-      "quote": "Proiectul B570/2026 prevede restituirea sumelor reținute în perioada în care s-a aplicat impozitarea progresivă a pensiilor.",
+      "quote": "Propunerea legislativă a fost înregistrată la Senat pe 19 octombrie 2026 și se află în etapa dezbaterii parlamentare.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -492,6 +492,50 @@
             "sourceP": 0.99,
             "about": 0.99,
             "release": 0.99
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.bzi.ro/banii-retinuti-din-pensiile-speciale-si-militare-ar-putea-fi-restituiti-pana-in-2028-cine-este-exclus-de-la-plata-5629634",
+      "title": "Banii reținuți din pensiile speciale și militare ar putea fi restituiți până în 2028. Cine este exclus de la plată",
+      "outlet": "BZI",
+      "domain": "bzi.ro",
+      "publishedAt": "2026-10-24",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Inițiativa se află în dezbatere parlamentară și nu a intrat încă în vigoare.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-05",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-05",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.882,
+            "source": "national_news",
+            "sourceP": 0.635,
+            "about": 0.965,
+            "release": 0.09
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.884,
+            "source": "trade_press",
+            "sourceP": 0.308,
+            "about": 0.798,
+            "release": 0.148
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.98,
+            "source": "local_news",
+            "sourceP": 0.96,
+            "about": 0.99,
+            "release": 0.01
           }
         }
       }
@@ -593,7 +637,7 @@
         "claude",
         "agy"
       ],
-      "quote": "Potrivit unui proiect de lege înregistrat la Senat pe 19 octombrie 2026, banii ar urma să fie returnați în trei tranșe, ultima fiind programată pentru martie 2028.",
+      "quote": "Proiectul se află în prezent în dezbatere parlamentară și nu a fost adoptat.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -621,6 +665,50 @@
             "stanceP": 0.98,
             "source": "local_news",
             "sourceP": 0.94,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
+      "url": "https://jurnalul.ro/special-jurnalul/miruta-inamicul-pensiilor-serviciu-initiat-lege-restituire-impozite-retinute-pensionarii-militari-1047539.html",
+      "title": "Miruță, vicepremierul lui Bolojan – inamicul pensiilor de serviciu, a inițiat o lege prin care vrea restituirea impozitelor reținute de la pensionarii militari",
+      "outlet": "Jurnalul",
+      "domain": "jurnalul.ro",
+      "publishedAt": "2026-10-23",
+      "foundBy": [
+        "codex"
+      ],
+      "quote": "Așa cum am arătat mai sus, inițiativa lui Radu Miruță, dincolo de argumentația care a stat la baza ei, este una ipocrită.",
+      "match": "quote",
+      "firstSeenAt": "2026-10-28",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-28",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "critical",
+            "stanceP": 0.375,
+            "source": "national_news",
+            "sourceP": 0.768,
+            "about": 0.971,
+            "release": 0.026
+          },
+          "d1": {
+            "stance": "critical",
+            "stanceP": 0.781,
+            "source": "national_news",
+            "sourceP": 0.352,
+            "about": 0.731,
+            "release": 0.182
+          },
+          "luna": {
+            "stance": "critical",
+            "stanceP": 0.99,
+            "source": "national_news",
+            "sourceP": 0.95,
             "about": 0.99,
             "release": 0.01
           }
@@ -666,50 +754,6 @@
             "sourceP": 0.97,
             "about": 0.99,
             "release": 0.02
-          }
-        }
-      }
-    },
-    {
-      "url": "https://jurnalul.ro/special-jurnalul/miruta-inamicul-pensiilor-serviciu-initiat-lege-restituire-impozite-retinute-pensionarii-militari-1047539.html",
-      "title": "Miruță, vicepremierul lui Bolojan – inamicul pensiilor de serviciu, a inițiat o lege prin care vrea restituirea impozitelor reținute de la pensionarii militari",
-      "outlet": "Jurnalul",
-      "domain": "jurnalul.ro",
-      "publishedAt": "2026-10-23",
-      "foundBy": [
-        "codex"
-      ],
-      "quote": "Așa cum am arătat mai sus, inițiativa lui Radu Miruță, dincolo de argumentația care a stat la baza ei, este una ipocrită.",
-      "match": "quote",
-      "firstSeenAt": "2026-10-28",
-      "decision": {
-        "v": 2,
-        "checkedAt": "2026-10-28",
-        "text": "trafilatura",
-        "models": {
-          "clef": {
-            "stance": "critical",
-            "stanceP": 0.375,
-            "source": "national_news",
-            "sourceP": 0.768,
-            "about": 0.971,
-            "release": 0.026
-          },
-          "d1": {
-            "stance": "critical",
-            "stanceP": 0.781,
-            "source": "national_news",
-            "sourceP": 0.352,
-            "about": 0.731,
-            "release": 0.182
-          },
-          "luna": {
-            "stance": "critical",
-            "stanceP": 0.99,
-            "source": "national_news",
-            "sourceP": 0.95,
-            "about": 0.99,
-            "release": 0.01
           }
         }
       }

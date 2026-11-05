@@ -1,13 +1,102 @@
 {
   "slug": "b612-2026",
   "billId": "B612/2026",
-  "checkedAt": "2026-11-04T08:27:47.707Z",
+  "checkedAt": "2026-11-05T09:55:20.270Z",
   "models": {
-    "agy": "error: cod 3: error: print timeout after 10m0s with the turn still in progress; the response is partial AGY_ERROR: {\"short_error\":\"print timeout after 10m0s with the turn still in progress; the response is partial\",\"status\":\"DEADLINE_EXCEEDED\",\"retryable\":false,\"reason\":\"print_timeout\"}",
+    "agy": "ok",
     "claude": "ok",
     "codex": "ok"
   },
   "articles": [
+    {
+      "url": "https://www.bursa.ro/parlamentarii-avocati-nu-vor-pleda-impotriva-statului-proiect-43698062",
+      "title": "Parlamentarii avocaţi nu vor pleda împotriva statului (proiect)",
+      "outlet": "Bursa",
+      "domain": "bursa.ro",
+      "publishedAt": "2026-11-03",
+      "foundBy": [
+        "agy",
+        "claude"
+      ],
+      "quote": "printr-un proiect de lege iniţiat de Alexandru Dimitriu, deputat USR",
+      "match": "quote",
+      "firstSeenAt": "2026-11-05",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-05",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.733,
+            "source": "party_or_politician",
+            "sourceP": 0.327,
+            "about": 0.962,
+            "release": 0.842
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.741,
+            "source": "party_or_politician",
+            "sourceP": 0.662,
+            "about": 0.777,
+            "release": 0.651
+          },
+          "luna": {
+            "stance": "supportive",
+            "stanceP": 0.92,
+            "source": "trade_press",
+            "sourceP": 0.91,
+            "about": 0.99,
+            "release": 0.94
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.cotidianul.ro/usr-vrea-sa-puna-capat-dublei-loialitati-a-parlamentarilor-avocati-ce-dosare-nu-ar-mai-avea-voie-sa-preia",
+      "title": "USR vrea să pună capăt dublei loialități a parlamentarilor-avocați. Ce dosare nu ar mai avea voie să preia",
+      "outlet": "Cotidianul",
+      "domain": "cotidianul.ro",
+      "publishedAt": "2026-11-03",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Proiectul USR modifică oficial Legea numărul 161/2003 privind integritatea, și reinstituie o serie de interdicții care fuseseră eliminate anterior.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-05",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-05",
+        "text": "citat",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.819,
+            "source": "national_news",
+            "sourceP": 0.837,
+            "about": 0.941,
+            "release": 0.133
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.811,
+            "source": "national_news",
+            "sourceP": 0.468,
+            "about": 0.755,
+            "release": 0.294
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.78,
+            "source": "national_news",
+            "sourceP": 0.94,
+            "about": 0.99,
+            "release": 0.03
+          }
+        }
+      }
+    },
     {
       "url": "https://www.gandul.ro/politica/usr-a-luat-la-tinta-parlamentarii-avocati-vrea-sa-le-interzica-sa-reprezinte-clienti-in-procese-impotriva-statului-roman-ce-prevede-proiectul-de-lege-21053767",
       "title": "USR a luat la țintă parlamentarii-avocați. Vrea să le interzică să reprezinte clienți în procese împotriva statului român. Ce prevede proiectul de lege",
@@ -17,7 +106,7 @@
       "foundBy": [
         "claude"
       ],
-      "quote": "Măsura este prevăzută într-un proiect de lege inițiat de USR și înregistrat la Senat",
+      "quote": "Măsura este prevăzută într-un proiect de lege inițiat de USR",
       "match": "quote",
       "firstSeenAt": "2026-11-04",
       "decision": {
@@ -61,7 +150,7 @@
       "foundBy": [
         "claude"
       ],
-      "quote": "Proiectul modifică Legea integrității nr. 161/2003 și propune reintroducerea unor interdicții",
+      "quote": "USR a anunțat depunerea unui proiect de lege care prevede că parlamentarii care exercită și profesia de avocat",
       "match": "quote",
       "firstSeenAt": "2026-11-04",
       "decision": {
@@ -103,9 +192,10 @@
       "domain": "rador.ro",
       "publishedAt": "2026-11-03",
       "foundBy": [
-        "claude"
+        "claude",
+        "agy"
       ],
-      "quote": "Proiectul USR modifică legea integrităţii în sensul reinstituirii unor interdicţii",
+      "quote": "Parlamentarii avocați nu vor putea susţine interesele unor clienţi împotriva statului român, prevede un proiect de lege",
       "match": "quote",
       "firstSeenAt": "2026-11-04",
       "decision": {
@@ -149,7 +239,8 @@
       "domain": "lumeapolitica.ro",
       "publishedAt": "2026-11-04",
       "foundBy": [
-        "claude"
+        "claude",
+        "agy"
       ],
       "quote": "USR a depus la Senat un proiect de lege care limitează activitatea parlamentarilor care practică și avocatura.",
       "match": "quote",
@@ -182,6 +273,50 @@
             "sourceP": 0.76,
             "about": 0.99,
             "release": 0.04
+          }
+        }
+      }
+    },
+    {
+      "url": "https://radioregional.ro/parlamentarii-avocati-nu-ar-mai-putea-pleda-impotriva-statului-potrivit-unui-proiect-usr",
+      "title": "Parlamentarii avocați nu ar mai putea pleda împotriva statului, potrivit unui proiect USR - Activ FM - Un Radio Regional",
+      "outlet": "Activ FM - Un Radio Regional",
+      "domain": "radioregional.ro",
+      "publishedAt": "2026-11-04",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Proiectul modifică legea integrității și reintroduce interdicții care au existat până la modificările de acum câteva luni.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-05",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-05",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.894,
+            "source": "local_news",
+            "sourceP": 0.775,
+            "about": 0.956,
+            "release": 0.16
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.756,
+            "source": "local_news",
+            "sourceP": 0.885,
+            "about": 0.835,
+            "release": 0.269
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.98,
+            "source": "local_news",
+            "sourceP": 0.99,
+            "about": 0.99,
+            "release": 0.02
           }
         }
       }

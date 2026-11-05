@@ -1,9 +1,9 @@
 {
   "slug": "b589-2026",
   "billId": "B589/2026",
-  "checkedAt": "2026-11-04T08:07:03.355Z",
+  "checkedAt": "2026-11-05T09:32:34.711Z",
   "models": {
-    "agy": "error: cod 3: error: print timeout after 10m0s with the turn still in progress; the response is partial AGY_ERROR: {\"short_error\":\"print timeout after 10m0s with the turn still in progress; the response is partial\",\"status\":\"DEADLINE_EXCEEDED\",\"retryable\":false,\"reason\":\"print_timeout\"}",
+    "agy": "ok",
     "claude": "ok",
     "codex": "ok"
   },
@@ -15,9 +15,10 @@
       "domain": "bursa.ro",
       "publishedAt": "2026-10-30",
       "foundBy": [
-        "claude"
+        "claude",
+        "agy"
       ],
-      "quote": "Partidul Alianţa pentru Unirea Românilor (AUR) a depus în Parlament un proiect de lege care introduce termene stricte",
+      "quote": "Partidul Alianţa pentru Unirea Românilor (AUR) a depus în Parlament un proiect de lege care introduce termene stricte şi proceduri de judecată rapidă pentru contestaţiile consilierilor locali şi judeţeni excluşi din partide, pentru a elimina situaţiile în care aleşii îşi păstrează mandatele pe durata unor procese întinse pe mai mulţi ani, potrivit unui comunicat publicat pe site-ul oficial al form",
       "match": "quote",
       "firstSeenAt": "2026-10-31",
       "decision": {
@@ -59,9 +60,10 @@
       "domain": "digi24.ro",
       "publishedAt": "2026-10-30",
       "foundBy": [
-        "claude"
+        "claude",
+        "agy"
       ],
-      "quote": "Proiectul a fost depus de deputatul AUR Georgel Badiu și propune termene clare",
+      "quote": "Proiectul a fost depus de deputatul AUR Georgel Badiu și propune termene clare atât pentru contestarea deciziei de excludere, cât și pentru soluționarea cauzelor în instanță.",
       "match": "quote",
       "firstSeenAt": "2026-10-31",
       "decision": {
@@ -97,15 +99,60 @@
       }
     },
     {
+      "url": "https://romanialibera.ro/la-zi/aur-propune-judecarea-in-regim-de-urgenta-a-contestatiilor-depuse-de-consilierii-exclusi-din-partide",
+      "title": "AUR propune proceduri mai rapide pentru consilierii excluși",
+      "outlet": "România Liberă",
+      "domain": "romanialibera.ro",
+      "publishedAt": "2026-10-30",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Alianța pentru Unirea Românilor (AUR) a depus un proiect de lege prin care propune scurtarea procedurilor judiciare în cazul consilierilor locali și județeni excluși din partidele pe listele cărora au fost aleși.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-05",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-05",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.809,
+            "source": "national_news",
+            "sourceP": 0.841,
+            "about": 0.967,
+            "release": 0.729
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.51,
+            "source": "national_news",
+            "sourceP": 0.616,
+            "about": 0.881,
+            "release": 0.321
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.94,
+            "source": "national_news",
+            "sourceP": 0.98,
+            "about": 0.99,
+            "release": 0.03
+          }
+        }
+      }
+    },
+    {
       "url": "https://www.stiripesurse.ro/aur-a-depus-un-proiect-de-lege-pentru-a-nu-le-mai-parmite-consilierilor-exclusi-din-partide-sa-isi-pastreze-mandatele-ani-de-zile_3932583",
       "title": "AUR a depus un proiect de lege pentru a nu le mai parmite consilierilor excluși din partide să își păstreze mandatele ani de zile",
       "outlet": "Știri pe surse",
       "domain": "stiripesurse.ro",
       "publishedAt": "2026-10-30",
       "foundBy": [
-        "claude"
+        "claude",
+        "agy"
       ],
-      "quote": "Inițiativa legislativă, depusă de deputatul AUR Georgel Badiu, propune termene stricte",
+      "quote": "Concret, inițiativa legislative prevede un termen de 10 zile pentru contestarea în instanță a hotărârii de excludere, calculat de la comunicarea acesteia.",
       "match": "quote",
       "firstSeenAt": "2026-10-31",
       "decision": {
@@ -143,6 +190,50 @@
   ],
   "pending": [
     {
+      "url": "https://pressera.ro/actualitate/politica/aur-propune-zece-zile-pentru-contestarea-excluderii-consilierilor-din-partid-34935226",
+      "title": "AUR propune zece zile pentru contestarea excluderii consilierilor din partid | PressEra",
+      "outlet": "PressEra",
+      "domain": "pressera.ro",
+      "publishedAt": "2026-10-31",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "AUR a prezentat pe 30 octombrie un proiect potrivit căruia consilierii locali și județeni excluși din partidul pe lista căruia au fost aleși ar avea zece zile de la comunicarea deciziei pentru a o contesta în instanță.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-05",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-05",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.83,
+            "source": "national_news",
+            "sourceP": 0.521,
+            "about": 0.955,
+            "release": 0.142
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.797,
+            "source": "national_news",
+            "sourceP": 0.436,
+            "about": 0.755,
+            "release": 0.349
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.98,
+            "source": "national_news",
+            "sourceP": 0.78,
+            "about": 0.99,
+            "release": 0.02
+          }
+        }
+      }
+    },
+    {
       "url": "https://www.amosnews.ro/aur-pune-capat-proceselor-care-permit-consilierilor-exclusi-din-partide-sa-isi-pastreze-mandatele-ani-de-zile",
       "title": "AUR pune capăt proceselor care permit consilierilor excluși din partide să își păstreze mandatele ani de zile -",
       "outlet": "amosnews.ro",
@@ -151,7 +242,7 @@
       "foundBy": [
         "claude"
       ],
-      "quote": "Concret, inițiativa legislative prevede un termen de 10 zile pentru contestarea în instanță a hotărârii de excludere",
+      "quote": "AUR a depus un proiect de lege pentru a pune capăt situațiilor în care consilierii locali și județeni excluși din partidele pe listele cărora au fost aleși își pot păstra mandatele ani de zile, în timp ce procesele se prelungesc în instanță.",
       "match": "quote",
       "firstSeenAt": "2026-11-02",
       "decision": {
@@ -195,7 +286,7 @@
       "foundBy": [
         "claude"
       ],
-      "quote": "Proiectul, depus de deputatul AUR Georgel Badiu, propune termene clare pentru contestarea deciziilor de excludere",
+      "quote": "AUR a inițiat un proiect de lege care vizează judecarea în regim de urgență a contestațiilor formulate de consilierii locali și județeni excluși din partidele pe listele cărora au fost aleși.",
       "match": "quote",
       "firstSeenAt": "2026-10-31",
       "decision": {
@@ -237,9 +328,10 @@
       "domain": "oficiuldestiri.ro",
       "publishedAt": "2026-10-30",
       "foundBy": [
-        "claude"
+        "claude",
+        "agy"
       ],
-      "quote": "Inițiativa, depusă de deputatul AUR Georgel Badiu, urmărește scurtarea proceselor care pot dura ani întregi",
+      "quote": "Inițiativa, depusă de deputatul AUR Georgel Badiu, urmărește scurtarea proceselor care pot dura ani întregi, perioadă în care aleșii locali își păstrează mandatele chiar dacă nu mai sunt membri ai formațiunii politice.",
       "match": "quote",
       "firstSeenAt": "2026-10-31",
       "decision": {

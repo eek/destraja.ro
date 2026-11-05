@@ -1,14 +1,58 @@
 {
   "slug": "b581-2026",
   "billId": "B581/2026",
-  "checkedAt": "2026-11-04T07:54:00.073Z",
+  "checkedAt": "2026-11-05T09:27:34.538Z",
   "models": {
-    "agy": "error: răspunsul nu conține JSON valid: „{\"articles\":[{\"url\":\"htt”",
+    "agy": "ok",
     "claude": "ok",
     "codex": "ok"
   },
   "articles": [],
   "pending": [
+    {
+      "url": "https://puls24.ro/mai-putina-birocratie-pentru-cadrele-didactice-care-au-diplome-de-studii-din-strainatate",
+      "title": "Mai puțină birocrație pentru cadrele didactice care au diplome de studii din străinătate",
+      "outlet": "Puls24",
+      "domain": "puls24.ro",
+      "publishedAt": "2026-10-31",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Parlamentarii USR, Mihai Botez, Cătălin Mîndru și Ciprian Rigman au depus un proiect de lege care permite cadrelor didactice care au obținut diplome de absolvire de studii de lungă durată în alte țări să le fie recunoscut testul de limbă cel puțin 5 ani, nu un an ca acum.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-05",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-05",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.542,
+            "source": "national_news",
+            "sourceP": 0.358,
+            "about": 0.963,
+            "release": 0.779
+          },
+          "d1": {
+            "stance": "supportive",
+            "stanceP": 0.629,
+            "source": "national_news",
+            "sourceP": 0.581,
+            "about": 0.867,
+            "release": 0.378
+          },
+          "luna": {
+            "stance": "supportive",
+            "stanceP": 0.99,
+            "source": "party_or_politician",
+            "sourceP": 0.96,
+            "about": 0.99,
+            "release": 0.98
+          }
+        }
+      }
+    },
     {
       "url": "https://turdanews.net/gata-cu-birocratia-absurda-in-educatie-deputatul-turdean-ciprian-rigman-propune-valabilitatea-de-5-ani-pentru-examenul-de-competente-lingvistice",
       "title": "Proiect: examen lingvistic valabil 5 ani pentru profesori",

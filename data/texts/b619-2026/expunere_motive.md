@@ -1,0 +1,284 @@
+# EXPUNERE DE MOTIVE
+
+la propunerea legislativă pentru completarea Legii nr. 196/2018 privind înființarea, organizarea și funcționarea asociațiilor de proprietari și administrarea condominiilor și pentru modificarea art. 299 din Legea nr. 169/2026 privind Codul amenajării teritoriului, urbanismului și construcțiilor
+
+## I. DESCRIEREA SITUAȚIEI ACTUALE
+
+Tranziția către utilizarea energiei din surse regenerabile, reducerea consumului de energie electrică achiziționată din rețea și creșterea eficienței energetice a clădirilor reprezintă obiective de interes public, cu implicații economice, sociale și de mediu. Realizarea acestor obiective presupune identificarea unor soluții accesibile nu numai proprietarilor de locuințe individuale, ci și persoanelor care locuiesc în condominii, unde acoperișurile, terasele și celelalte părți comune pot constitui amplasamente adecvate pentru instalații fotovoltaice.
+
+În cazul clădirilor cu mai multe apartamente, utilizarea energiei solare pentru alimentarea instalațiilor și serviciilor comune poate contribui la diminuarea energiei electrice cumpărate de asociația de proprietari și, în funcție de configurația tehnică a instalației, de profilul consumului și de condițiile de valorificare a energiei excedentare, la reducerea cheltuielilor suportate de proprietari. Beneficiile effective depind de caracteristicile fiecărui imobil, de costul investiției, de producția realizată, de consumul propriu și de condițiile aplicabile racordării și comercializării energiei.
+
+Cadrul juridic existent permite asociațiilor de proprietari să adopte hotărâri privind modernizarea, repararea, reabilitarea și creșterea eficienței energetice a condominiului. Potrivit art. 51 din Legea nr. 196/2018, adunarea generală hotărăște asupra acțiunilor de modernizare cu acordul a două treimi din numărul total al proprietarilor din condominiu. Totodată, art. 53 lit. e) atribuie adunării generale competența de a decide asupra lucrărilor de întreținere, reparații, modernizare, consolidare, reabilitare termică și eficiență energetică.
+
+Cu toate acestea, cadrul general privind modernizarea condominiului nu reglementează distinct toate aspectele specifice instalării și exploatații unor sisteme fotovoltaice pe părțile comune. Sunt necesare reguli explicite cu privire la conținutul hotărârii adunării generale, identificarea suprafeței ocupate, stabilirea surselor de finanțare, repartizarea costurilor, întreținerea instalației, valorificarea energiei excedentare și evidențierea transparentă a beneficiilor economice obținute.
+
+O dificultate juridică suplimentară rezultă din raportul dintre art. 39 și art. 51 din Legea nr. 196/2018. Primul reglementează anumite modificări constructive și utilizări ale părților comune, condiționându-le de obținerea acordurilor prevăzute de lege și de respectarea regimului autorizării lucrărilor. Cel de-al doilea stabilește cadrul decizional pentru modernizarea condominiului. În absența unei reglementări speciale și suficient de clare pentru instalațiile fotovoltaice, raportul dintre aceste dispoziții și regimul autorizării poate genera incertitudine cu privire la procedura aplicabilă fiecărui proiect.
+
+Această incertitudine trebuie soluționată fără a elimina protecția juridică a proprietarilor direct afectați și fără a diminua exigențele tehnice aplicabile construcției. Acoperișul și terasa sunt părți comune, iar folosirea lor pentru amplasarea unor echipamente trebuie să respecte drepturile coproprietarilor, siguranța clădirii, accesul necesar lucrărilor de întreținere și reparație, precum și obligațiile privind exploatarea în condiții de siguranță.
+
+În materia siguranței construcțiilor, cerințele fundamentale privind rezistența mecanică și stabilitatea, respectiv securitatea la incendiu, nu pot fi tratate ca formalități facultative. Amplasarea sistemelor fotovoltaice trebuie să țină seama de capacitatea elementelor de construcție de a prelua încărcările suplimentare, inclusiv greutatea echipamentelor și efectele acțiunii vântului și ale depunerilor de zăpadă. În consecință, simplificarea procedurilor administrative nu trebuie să echivaleze cu dispensarea de obligațiile tehnice impuse de legislația aplicabilă.
+
+Un al doilea domeniu în care se constată nevoia unei intervenții normative privește regimul veniturilor asociației de proprietari. Potrivit art. 70 alin. (1) și (2) din Legea nr. 196/2018, veniturile obținute din exploatarea proprietății comune aparțin asociației și, în reglementarea generală actuală, alimentează fondul de reparații, fără a fi plătite proprietarilor. Această regulă urmărește conservarea resurselor comune și protejarea interesului colectiv al proprietarilor.
+
+Totuși, în cazul investițiilor fotovoltaice, veniturile rezultate din energia excedentară pot reprezenta un flux financiar legat direct de investiția realizată pentru reducerea cheltuielilor condominiului. Regula generală nu oferă, în forma sa actuală, un mecanism special prin care adunarea generală să poată decide, în limite prestabilite și cu păstrarea unei destinații pentru fondul de reparații, utilizarea unei părți din aceste venituri pentru diminuarea contribuțiilor lunare ale proprietarilor.
+
+Această lacună de reglementare justifică analizarea unei soluții care să permită valorificarea economică a investiției în beneficiul condominiului, fără a transforma veniturile asociației în distribuiri discreționare și fără a modifica regulile legale de repartizare a cheltuielilor.
+
+În prezent, art. 71 alin. (2) din Legea nr. 196/2018 stabilește destinațiile fondului de reparații, între care consolidarea, reabilitarea termică, îmbunătățirea proprietății comune și creșterea călității ambiental-arhitecturale a construcțiilor. Prin urmare, soluția legislativă trebuie să evite suprapunerea inutilă a destinațiilor fondului de reparații cu cele deja prevăzute de lege și să delimiteze clar veniturile care pot fi utilizate pentru reducerea contribuțiilor de partea care rămâne afectată fondului.
+
+De asemenea, art. 74 din Legea nr. 196/2018 reglementează obligațiile de evidență contabilă și regularizare a sumelor rezultate din activitatea asociației. Un mecanism nou de repartizare a veniturilor din energia excedentară trebuie să fie compatibil cu aceste obligații, să permită verificarea calculelor și să asigure informarea fiecărui proprietar asupra beneficiului care îi revine.
+
+În ceea ce privește regimul energetic, art. 3 pct. 95 și art. 73¹ din Legea energiei electrice și a gazelor naturale nr. 123/2012 constituie reperele legislative pentru definirea prosumatorului și pentru valorificarea energiei produse din surse regenerabile. Art. 94 alin. (2) lit. a) din Legea nr. 196/2018 recunoaște asociației de proprietari calitatea de titular al contractului de furnizare pentru situațiile în care instalațiile de utilități sunt racordate la instalațiile comune ale condominiului. Aceste dispoziții oferă puncte de legătură pentru integrarea producției fotovoltaice în regimul juridic al consumului aferent părților comune, dar nu înlătură necesitatea îndeplinirii condițiilor specifice aplicabile prosumatorilor, racordării, măsurării energiei și relației contractuale cu furnizorul.
+
+La nivelul Uniunii Europene, Directiva (UE) 2018/2001 privind promovarea utilizării energiei din surse regenerabile stabilește un cadru de promovare a autoconsumului de energie regenerabilă și prevede, la art. 21 alin. (4), posibilitatea participării colective a autoconsumatorilor aflați în aceeași clădire, inclusiv în blocuri de apartamente, în condițiile prevăzute de directivă. Totodată, Directiva (UE) 2019/944 privind normele comune pentru piața internă de energie electrică, astfel cum a fost modificată prin Directiva (UE) 2024/1711, introduce la art. 15a un cadru privind dreptul clienților activi de a participa la partajarea energiei.
+
+Aceste reglementări europene indică direcția dezvoltării cadrului energetic către participarea activă a consumatorilor și utilizarea în comun a energiei din surse regenerabile.
+
+În acest context, intervenția legislativă urmărește să clarifice și să completeze cadrul aplicabil instalării sistemelor fotovoltaice pe părțile comune ale condominiilor și utilizării veniturilor rezultate, cu respectarea drepturilor proprietarilor și a cerințelor tehnice și energetice aplicabile.
+
+## II. SCOPUL URMĂRIT PRIN PREZENTUL PROIECT DE LEGE ȘI SCHIMBĂRILE PRECONIZATE
+
+Scopul principal al propunerii legislative este crearea unui cadru juridic coerent și previzibil pentru instalarea și exploatarea sistemelor fotovoltaice pe acoperișurile, terasele și celelalte părți comune ale condominiilor, precum și pentru folosirea transparentă și echitabilă a veniturilor obținute din energia excedentară.
+
+Proiectul urmărește să permită asociațiilor de proprietari să adopte decizii informate cu privire la astfel de investiții, să reducă incertitudinile de ordin procedural și să ofere un mecanism clar prin care beneficiile economice să poată fi utilizate atât pentru diminuarea contribuțiilor proprietarilor, cât și pentru alimentarea fondului de reparații.
+
+Prin introducerea art. 51¹ în Legea nr. 196/2018, proiectul instituie o procedură specială pentru adoptarea hotărârii de montare a instalațiilor de producere a energiei electrice din surse regenerabile pe părțile comune ale condominiului.
+
+Soluția propusă păstrează o majoritate calificată, respectiv acordul a două treimi din numărul total al proprietarilor din condominiu și impune acordul scris al proprietarilor direct afectați. Prin această opțiune, decizia nu este lăsată la discreția exclusivă a organelor de conducere ale asociației, ci rămâne supusă voinței colective a proprietarilor și unei garanții suplimentare pentru persoanele ale căror drepturi sunt afectate în mod direct.
+
+Reglementarea specială este justificată de natura investiției: sistemul fotovoltaic poate contribui la exploatarea eficientă a proprietății comune, însă amplasarea sa presupune folosirea unei suprafețe comune, realizarea unor lucrări de montaj și asumarea unor obligații de întreținere. Prin urmare, hotărârea trebuie să fie suficient de precisă pentru a permite proprietarilor să înțeleagă obiectul, costurile, beneficiile și riscurile investiției.
+
+În acest scop, proiectul stabilește elementele minime pe care trebuie să le cuprindă hotărârea adunării generale: partea comună utilizată și suprafața ocupată, caracteristicile tehnice principale și puterea instalată, sursele de finanțare, criteriul de repartizare a costurilor neacoperite, condițiile de funcționare și întreținere, precum și procentul veniturilor destinat diminuării contribuțiilor proprietarilor.
+
+Această enumerare urmărește să prevină adoptarea unor hotărâri generale sau insuficient determinate, care ar putea genera ulterior dispute cu privire la amplasament, finanțare, administrare ori repartizarea beneficiilor.
+
+În privința finanțării, trimiterea la art. 53 lit. f) din Legea nr. 196/2018 păstrează garanția legală aplicabilă contractării împrumuturilor bancare. Astfel, facilitatea de a instala sisteme fotovoltaice nu trebuie să fie interpretată ca o derogare implicită de la condițiile legale de aprobare a împrumuturilor sau de la obligațiile asumate de asociație față de creditori.
+
+Proiectul propune ca expertiza tehnică privind capacitatea elementelor de construcție de a prelua încărcările suplimentare să fie efectuată atunci când este solicitată de adunarea generală sau de proprietarii direct afectați, fără a fi transformată, prin textul propus, într-o condiție automată pentru adoptarea hotărârii.
+
+Rațiunea soluției este evitarea impunerii nediferențiate a aceleiași formalități pentru toate situațiile, indiferent de caracteristicile clădirii, ale instalației și ale lucrărilor propuse. Necesitatea și întinderea verificărilor tehnice trebuie însă apreciate în raport cu cerințele legale aplicabile construcției și cu riscurile concrete ale intervenției.
+
+În același timp, proiectul menține expres obligația respectării cerințelor privind rezistența mecanică, stabilitatea și securitatea la incendiu. Aceste cerințe sunt esențiale pentru protejarea vieții și integrității persoanelor, a proprietăților individuale și comune, precum și pentru prevenirea unor prejudicii produse de desprinderea echipamentelor, de suprasolicitarea structurii sau de funcționarea necorespunzătoare a instalațiilor electrice.
+
+Dispoziția referitoare la expertiză nu trebuie interpretată ca derogând de la obligațiile tehnice imperative prevăzute de legislația privind calitatea în construcții, securitatea la incendiu, proiectarea și executarea lucrărilor ori exploatarea instalațiilor electrice. Atunci când alte dispoziții legale impun o expertiză, o verificare, un proiect sau o altă documentație tehnică, acestea rămân aplicabile.
+
+Prin urmare, simplificarea urmărită este una procedurală și trebuie realizată în limitele permise de reglementările tehnice și de siguranță, fără diminuarea nivelului de protecție a construcției.
+
+Introducerea art. 51¹ alin. (6) urmărește să clarifice posibilitatea asociației de proprietari de a dobândi și exercita calitatea de prosumator pentru locul de consum aferent părților comune, în condițiile Legii nr. 123/2012. Soluția se întemeiază pe caracterul colectiv al consumului aferent părților comune și pe rolul asociației în administrarea acestora. Art. 94 alin. (2) lit. a) din Legea nr. 196/2018 recunoaște asociației calitatea de titular al contractului de furnizare pentru instalațiile comune în situațiile prevăzute de lege. În acest context, reglementarea propusă urmărește să faciliteze folosirea energiei produse pentru consumul aferent condominiului, fără a crea un regim paralel față de cel aplicabil prosumatorilor.
+
+Prin completarea art. 70 din Legea nr. 196/2018, proiectul instituie un regim special pentru veniturile obținute de asociație din excedentul de producție al instalațiilor fotovoltaice prevăzute de noul art. 51¹.
+
+Potrivit soluției propuse, adunarea generală poate stabili ca până la 85% din aceste venituri să fie utilizate pentru diminuarea cotei de contribuție la cheltuielile asociației datorate de fiecare proprietar, proporțional cu cota-parte indiviză deținută. Partea rămasă alimentează fondul de reparații. Procentul de până la 85% reprezintă un plafon, nu o obligație de a distribui întotdeauna acest nivel de venituri; adunarea generală poate decide un procent inferior.
+
+Această soluție urmărește să ofere proprietarilor flexibilitatea de a alege, prin hotărârea adunării generale, echilibrul adecvat între diminuarea contribuțiilor lunare și constituirea resurselor necesare lucrărilor viitoare asupra proprietății comune.
+
+În etapa inițială a investiției, de exemplu, proprietarii pot decide orientarea integrală a veniturilor către fondul de reparații, în măsura în care aceasta corespunde nevoilor condominiului și destinațiilor legale ale fondului. Ulterior, după consolidarea resurselor financiare, adunarea generală poate decide utilizarea unei părți a veniturilor pentru diminuarea contribuțiilor lunare.
+
+Reglementarea nu urmărește să desființeze fondul de reparații sau să modifice destinațiile legale ale acestuia. Ea creează o excepție limitată de la regula generală a art. 70 alin. (2), exclusiv pentru veniturile rezultate din excedentul de producție al instalațiilor fotovoltaice vizate de proiect.
+
+Prin raportare la art. 75 alin. (2) din Legea nr. 196/2018, proiectul precizează că reducerea contribuției reprezintă un credit acordat din veniturile asociației și nu modifică regulile legale de repartizare a cheltuielilor. Această precizare este importantă: calculul obligației fiecărui proprietar se realizează potrivit criteriilor prevăzute de lege, iar creditul se aplică ulterior asupra sumei datorate. Prin urmare, mecanismul propus nu trebuie să fie utilizat pentru a institui criterii alternative de repartizare a cheltuielilor comune.
+
+Reportarea creditului care depășește contribuția lunară urmărește păstrarea beneficiului economic în lunile în care suma datorată este mai mică decât creditul acumulat. Această situație poate apărea, de exemplu, ca urmare a variațiilor sezoniere ale producției fotovoltaice și ale consumului condominiului. Regula reportării permite evitarea pierderii automate a diferenței și asigură continuitatea evidenței individuale.
+
+Propunerea prevede, de asemenea, soluționarea soldului nevalorificat la transferul proprietății, prin restituirea către proprietarul care transmite dreptul, după compensarea datoriilor față de asociație. Scopul acestei reguli este de a clarifica situația creditului acumulat și de a limita disputele dintre fostul și noul proprietar. Pentru aplicarea sa previzibilă, evidența creditului trebuie să permită identificarea sumelor efectiv alocate fiecărui proprietar, a utilizărilor acestora și a soldului rămas la data transferului.
+
+Proiectul impune evidențierea distinctă, în lista lunară de plată și în raportul asociației, a energiei produse, a consumului aferent părților comune, a energiei livrate în rețea, a veniturilor obținute, a reducerilor și a soldurilor reportate. Această obligație susține transparența financiară, verificabilitatea calculelor și controlul exercitat de proprietari asupra modului în care sunt utilizate veniturile.
+
+Prin modificarea art. 299 alin. (2) lit. a) pct. 13 din Legea nr. 169/2026, proiectul urmărește includerea expresă a asociațiilor de proprietari între subiectele care pot realiza instalarea sistemelor fotovoltaice în condițiile normei privind lucrările care nu necesită autorizație de construire.
+
+Reglementarea este menită să asigure coerența dintre regimul urbanistic al instalării sistemelor fotovoltaice și noua procedură de adoptare a hotărârii de către asociația de proprietari. În condițiile textului propus, exceptarea de la autorizare operează în afara zonelor construite protejate și a zonelor de protecție a monumentelor istorice, cu înștiințarea prealabilă a autorităților administrației publice locale și cu respectarea legislației aplicabile.
+
+Mentinerea acestor delimitări este importantă pentru protejarea valorilor arhitecturale și istorice și pentru evitarea unei derogări generale care ar putea afecta regimul special al zonelor protejate. În mod corespunzător, înștiințarea prealabilă nu trebuie confundată cu o autorizare implicită și nici cu o dispensă de la alte avize, acorduri sau condiții tehnice care sunt obligatorii potrivit legii.
+
+Proiectul păstrează, de asemenea, obligația ca structura de susținere să asigure stabilitatea întregului ansamblu și să preia încărcările rezultate din greutatea proprie, acțiunea vântului și depunerile de zăpadă. Această cerință este esențială pentru ca facilitarea montajului să nu se realizeze în detrimentul siguranței persoanelor și a clădirii.
+
+Propunerea legislativă este în concordanță cu obiectivul general de promovare a energiei din surse regenerabile și de creștere a participării consumatorilor la producerea și utilizarea energiei electrice.
+
+Instalarea sistemelor fotovoltaice pe părțile comune poate permite utilizarea unei suprafețe care, în lipsa unei asemenea investiții, nu este valorificată energetic. Energia produsă poate fi utilizată pentru consumurile comune, iar excedentul poate fi valorificat în condițiile legislației energetice. Efectul economic concret depinde de condițiile tehnice și contractuale, însă mecanismul creează posibilitatea ca o parte din valoarea generată de proprietatea comună să fie reinvestită în condominiu sau să contribuie la reducerea cheltuielilor proprietarilor.
+
+În același timp, proiectul respectă principiul autonomiei decizionale a proprietarilor, întrucât investiția nu este impusă tuturor condominiilor. Fiecare asociație poate decide, prin procedura și majoritatea prevăzute de lege, dacă investiția este oportună, care sunt condițiile sale și cum se utilizează veniturile obținute.
+
+În procesul de elaborare a prezentei propuneri legislative, au fost avute în vedere punctele de vedere și preocupările exprimate de Asociația Prosumatorilor și a Comunităților de Energie din România (APCE) și de Liga Asociațiilor de Proprietari HABITAT, în considerarea experienței acestora în domeniul promovării drepturilor prosumatorilor, respectiv al reprezentării proprietarilor și al administrării condominiilor. Prin raportare la aspectele semnalate de aceste organizații, au fost analizate necesitatea clarificării dispozițiilor legale incidente, dificultățile de aplicare a acestora în practică și oportunitatea unor soluții legislative care să asigure o mai bună corelare între drepturile proprietarilor, atribuțiile asociațiilor de proprietari și cadrul normativ aplicabil. Demersul de consultare a urmărit valorificarea atât a perspectivei tehnice și a intereselor prosumatorilor, susținute de APCE, cât și a experienței practice a Ligii Asociațiilor de Proprietari HABITAT în ceea ce privește administrarea condominiilor și aplicarea regulilor referitoare la proprietatea comună. În acest mod, inițiativa legislativă urmărește să răspundă unor probleme concrete de aplicare a legislației și să promoveze soluții clare, coerente și previzibile, în concordanță cu obiectul și finalitatea modificărilor propuse.
+
+## III. IMPACTUL FINANCIAR-BUGETAR ȘI EFECTELE PROIECTULUI ASUPRA LEGISLAȚIEI ÎN VIGOARE
+
+Proiectul poate produce efecte economice favorabile la nivelul condominiilor care decid instalarea sistemelor fotovoltaice. În funcție de costul investiției, producția realizată, consumul comun și condițiile de valorificare a energiei excedentare, utilizarea energiei produse poate reduce cantitatea de energie achiziționată din rețea și poate genera venituri suplimentare pentru asociație.
+
+Mecanismul propus permite ca aceste venituri să fie utilizate fie pentru diminuarea contribuțiilor proprietarilor, în procentul aprobat de adunarea generală, fie pentru alimentarea fondului de reparații. În acest mod, beneficiile investiției pot fi reflectate atât în cheltuielile curente ale proprietarilor, cât și în capacitatea financiară a asociației de a efectua lucrări asupra proprietății comune.
+
+Efectele asupra mediului pot fi favorabile în măsura în care energia fotovoltaică produsă înlocuiește energia achiziționată din alte surse. Amploarea efectului depinde de producția efectivă, de energia autoconsumată și de caracteristicile sistemului energetic.
+
+La nivel social, propunerea poate extinde posibilitatea participării la producerea energiei regenerabile și pentru proprietarii care locuiesc în clădiri colective, pentru care instalarea unor sisteme individuale poate fi limitată de configurația locuinței sau de lipsa unor suprafețe adecvate. Totodată, procedura de aprobare și obligația de informare financiară urmăresc să reducă riscul conflictelor interne și să păstreze controlul proprietarilor asupra deciziei de investiție.
+
+Propunerea nu instituie, prin ea însăși, o schemă de finanțare publică, o subvenție bugetară sau o obligație directă de cheltuieli în sarcina bugetului de stat ori a bugetelor locale. Investițiile vizate sunt decise de asociațiile de proprietari și finanțate din sursele aprobate de acestea, inclusiv din resurse proprii sau, în condițiile legii, din finanțare bancară. În consecință, proiectul nu generează în mod direct o cheltuială bugetară publică identificabilă numai prin efectul adoptării sale.
+
+La nivelul asociațiilor de proprietari, proiectul poate presupune cheltuieli inițiale pentru achiziția, proiectarea, montarea și punerea în funcțiune a instalațiilor, precum și costuri ulterioare de întreținere, reparație și eventuală înlocuire. Acestea sunt costuri private, asumate în urma hotărârii adunării generale și în funcție de soluția tehnică aleasă.
+
+Veniturile din energia excedentară și economiile rezultate din autoconsum pot contribui la recuperarea investiției și la reducerea cheltuielilor asociației, dar rezultatul financiar net trebuie calculat individual pentru fiecare proiect, luând în considerare costurile inițiale și recurrente, producția estimată, energia autoconsumată și condițiile de valorificare a surplusului.
+
+În plan european, proiectul este relevant pentru obiectivele Directivei (UE) 2018/2001 privind promovarea utilizării energiei din surse regenerabile, în special pentru cadrul referitor la autoconsum și participarea colectivă a autoconsumatorilor aflați în aceeași clădire, precum și pentru obiectivele Directivei (UE) 2019/944, astfel cum a fost modificată prin Directiva (UE) 2024/1711, privind dreptul clienților activi de a participa la partajarea energiei.
+
+Compatibilitatea deplină cu aceste acte europene trebuie apreciată prin raportare la ansamblul legislației naționale de transpunere și implementare, nu exclusiv prin prisma prezentei propuneri. În mod special, regimul prosumatorului, partajarea energiei și comunitățile de energie sunt instituții juridice distincte, chiar dacă pot interacționa în practică. Adoptarea proiectului nu trebuie să fie prezentată ca realizând, de una singură, transpunerea integrală a dispozițiilor europene referitoare la partajarea energiei.
+
+În ansamblu, proiectul urmărește să asigure coerența normativă între regimul proprietății comune, procedura decizională a asociației, normele privind autorizarea lucrărilor și cadrul juridic al producerii și valorificării energiei din surse regenerabile. Pentru asigurarea unei integrări complete, textul final trebuie verificat în raport cu formele consolidate oficiale ale tuturor actelor normative incidente și cu eventualele modificări legislative intervenite până la adoptare.
+
+Punerea în aplicare a proiectului presupune, în principal, adoptarea hotărârilor de către adunările generale ale asociațiilor de proprietari, respectarea cerințelor tehnice și energetice aplicabile și organizarea unei evidențe financiare distincte pentru veniturile și beneficiile rezultate din exploatarea instalațiilor.
+
+Asociația de proprietari va trebui să asigure documentarea hotărârii de instalare, identificarea amplasamentului, aprobarea finanțării, respectarea condițiilor tehnice și stabilirea modului de repartizare a veniturilor. Administratorul va avea responsabilitatea evidențierii operațiunilor în documentele financiar-contabile și în lista lunară de plată, potrivit legii și hotărârilor adoptate.
+
+Proiectul nu presupune, prin el însuși, înființarea unor noi autorități sau structuri administrative. Aplicarea sa se realizează în principal prin utilizarea competențelor și mecanismelor instituționale existente, cu respectarea normelor tehnice și a procedurilor sectoriale incidente.
+
+Adoptarea propunerii legislative este justificată de necesitatea clarificării cadrului juridic pentru instalarea sistemelor fotovoltaice pe părțile comune ale condominiilor și pentru utilizarea transparentă a veniturilor rezultate din energia excedentară.
+
+Prin instituirea unei proceduri speciale de aprobare, definirea conținutului hotărârii adunării generale, menținerea garanțiilor privind siguranța construcțiilor, clarificarea posibilității asociației de a exercita calitatea de prosumator și reglementarea unui mecanism verificabil de utilizare a veniturilor, proiectul urmărește să ofere reguli previzibile și aplicabile în practică.
+
+Soluția propusă păstrează caracterul voluntar al investiției, respectă rolul decizional al proprietarilor și permite adaptarea destinației veniturilor la nevoile fiecărui condominiu, în limitele stabilite de lege. În același timp, obligațiile privind siguranța tehnică, drepturile proprietarilor direct afectați și transparentă financiară rămân elemente esențiale ale reglementării.
+
+În aceste condiții, proiectul urmărește să contribuie la utilizarea mai eficientă a proprietății comune, la creșterea accesului locatarilor din condominii la energia din surse regenerabile și la dezvoltarea unui cadru legislativ coerent, stabil și compatibil cu reglementările naționale și europene aplicabile.
+
+Față de cele expuse, solicităm dezbaterea și adoptarea prezentei propuneri legislative.
+
+## Inițiatori:
+
+Cezar-Mihail Drăgoescu, deputat USR Dolj
+
+Cristina-Mădălina Prună USR București
+
+George Gima, deputat USR Constanța
+
+Istvân-Lorănt Antal, senator UDMR Harghita
+
+Sebastian-Ioan Burduja, deputat PNL Bucurest
+
+Florin-Eugen Cîrligea, deputat AUR Brăila
+
+SILYIA MHALCEA - RSI
+
+CIPRIAM SERBAN,
+
+# PARLAMENTUL ROMÂNIEI
+
+# SENATUL
+
+## Către: Biroul permanent al Senatului
+
+Subsemnatul Cezar-Mihail Drăgoescu, deputat în circumscripția Nr. 17 Dolj, în calitate de co-inițiator al Propunerii legislative pentru completarea Legii nr. 196/2018 privind înființarea, organizarea și funcționarea asociațiilor de proprietari și administrarea condominiilor și pentru modificarea art. 299 din Legea nr. 169/2026 privind Codul amenajării teritoriului, urbanismului și construcțiilor, înaintată Biroului permanent al Senatului, în temeiul prevederilor art. 115 alin. (1) din Regulamentul Senatului, solicit dezbaterea și adoptarea propunerii legislative în procedură de urgență, având în vedere necesitatea de a stabili fără întârziere regulile privind instalarea sistemelor fotovoltaice pe părțile comune ale condominiilor și utilizarea veniturilor rezultate, în acord cu cadrul european care încurajează autoconsumul colectiv și partajarea energiei din surse regenerabile. În lipsa unor norme clare, asociațiile de proprietari decid neunitar, ceea ce generează conflicte între coproprietari, litigii și blocarea unor investiții care ar reduce costurile cu energia ale locatarilor.
+
+Cu aleasă considerație,
+
+Cezar-Mihail Drăgoescu\\
+
+Deputat USR Dolj
+
+## Lista inițiatorilor
+
+la propunerea legislativă pentru completarea Legii nr. 196/2018 privind înființarea, organizarea și funcționarea asociațiilor de proprietari și administrarea condominiilor și pentru modificarea art. 299 din Legea nr. 169/2026 privind Codul amenajării teritoriului, urbanismului și construcțiilor
+
+<table>
+<tbody>
+<tr><td>NR.</td><td>DEPUTAT/SENATOR</td><td>SEMNĂTURĂ</td><td>PARTID</td></tr>
+<tr><td>1.</td><td>ȘENAR OIU VL AO - IO AN</td><td rowspan="12"></td><td>USR</td></tr>
+<tr><td>2.</td><td>TAMAȘA SIOFAK</td><td>USR</td></tr>
+<tr><td>3.</td><td>BUASA DANIEL</td><td>USR</td></tr>
+<tr><td>4.</td><td>Norussi Georgyi</td><td>USR</td></tr>
+<tr><td>5.</td><td>Bulearcı Fehir</td><td>UVR</td></tr>
+<tr><td>6.</td><td>Bimitniv Acesanom</td><td>VSA</td></tr>
+<tr><td>7.</td><td>MURARIU OANA</td><td>USR</td></tr>
+<tr><td>8.</td><td>ECHET ARIAN</td><td>USA</td></tr>
+<tr><td>9.</td><td>ALIN SROJEN</td><td>USR</td></tr>
+<tr><td>10.</td><td>POUYANNA HANQAN</td><td>USR</td></tr>
+<tr><td>11.</td><td>VADUTA JUNITHU</td><td>USR</td></tr>
+<tr><td>12.</td><td>BOTEZ MIHAI-CATALIM</td><td>USR</td></tr>
+<tr><td>13.</td><td>Gral Coliu</td><td>PNL</td><td rowspan="5"></td></tr>
+<tr><td>14.</td><td>COZMA AURAN</td><td>PNL</td></tr>
+<tr><td>15.</td><td>Belou Laan</td><td>PNL</td></tr>
+<tr><td>16.</td><td>Mevue Fechet</td><td>PNL</td></tr>
+<tr><td>17.</td><td>Ciolotou Dnogas</td><td>PNL</td></tr>
+<tr><td>18.</td><td></td><td></td><td></td></tr>
+<tr><td>19.</td><td>Jntolwo natalia eleuca</td><td rowspan="7"></td><td>PNC</td></tr>
+<tr><td>20.</td><td>CIOBAU ADZIAN</td><td>PNL</td></tr>
+<tr><td>21.</td><td>PISTRU POPA GEBANINA</td><td>PNL,</td></tr>
+<tr><td>22.</td><td>ROMAN FODIN</td><td>PNL</td></tr>
+<tr><td>23.</td><td>BUICAN ERISITIAN</td><td>PNL</td></tr>
+<tr><td>24.</td><td>GOPGUU AUNA</td><td>PNL</td></tr>
+<tr><td>25.</td><td>Crosoveam MARIAN</td><td>PNL</td></tr>
+<tr><td>26.</td><td>KOLAR GUARD</td><td>NUE</td><td></td></tr>
+<tr><td>27.</td><td>Popovici KORIM - CORNEC</td><td rowspan="6"></td><td>AVR</td></tr>
+<tr><td>28.</td><td>Gurlei shroiz - octaviaa</td><td>AVR</td></tr>
+<tr><td>29.</td><td>OZABO OBOH</td><td>UWUR.</td></tr>
+<tr><td>30.</td><td>FIIUBO ZOLLBU</td><td>UWHR</td></tr>
+<tr><td>31.</td><td></td><td></td></tr>
+<tr><td>32.</td><td></td><td></td></tr>
+<tr><td>33.</td><td></td><td></td><td></td></tr>
+<tr><td>34.</td><td></td><td></td><td></td></tr>
+<tr><td>35.</td><td></td><td></td><td></td></tr>
+<tr><td>36.</td><td></td><td></td><td></td></tr>
+<tr><td>37.</td><td></td><td></td><td></td></tr>
+<tr><td>38.</td><td></td><td></td><td></td></tr>
+<tr><td>39.</td><td></td><td></td><td></td></tr>
+<tr><td>40.</td><td></td><td></td><td></td></tr>
+<tr><td>41.</td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+
+| Nr.crt. | Nume și prenume | Grup | Semnătură |
+| --- | --- | --- | --- |
+| 1 | Gluja Sunmituța | PSD |  |
+| 2 | Busăi Marius CONSTANH | PSS |  |
+| 3 | CILHT BHEL | PSD |  |
+| 4 | ANDRUȘED WIEDIX | PSD |  |
+| 5 | ENE CORINA | PSD |  |
+| 6 | GAVICI CU GADN EUL | PSS |  |
+| 7 | MUKBAU GEORGEHT | PSA |  |
+| 8 | JAPOPDAU GIUCO | PSD |  |
+| 9 | WEBER MITTAT | PSD |  |
+| 10 | NEAS EUPAN | PSD |  |
+| 11 | MAIÇARECU MINECA | PSD |  |
+| 12 | GOUOR JUIREEA | PSD |  |
+| 13 | ISAE MARIUS | PSD |  |
+| 14 | TOMOESCU TÜB | ISK |  |
+| 15 | SCOENLIEN IRUKIA | PSA |  |
+| 16 | PELA STEFANESCU ELIZA | PSD |  |
+| 17 | COTEA AELEA | PSD |  |
+| 18 | PCOPEAKU ROADCY | PSD |  |
+| 19 | TOPA MANICEI | PSA |  |
+
+| Nr.crt. | Nume și prenume | Grup |
+| --- | --- | --- |
+| 20 | AOLINEASCHI AND REI | PSD |
+| 21 | QHIRICĂ ŠIRCAIL-ALIM | P.S.D |
+| 22 | CONSTANT'VEEAU FĂRSĂY | P.SD |
+| 23 | SĂHHOILĂ IOW | PSD |
+| 24 | CoriCLET PAUL | PSD |
+| 25 | GROZA CACIN F20RIN | PSD |
+| 26 | Shyupdan YRGYCAU | PSD |
+| 27 | SĂEZ KATOEIU EVCM | PSD |
+| 28 | MYHURI BOGDAN | PSD |
+| 29. | CQ4OCARU BOGDAN | PSD |
+| 30 | Shauda LiORICA | PSD |
+| 31 | TINTA STIB7AN | PSD |
+| 32. | RAFIINT AZEXANDRU | P.S.D |
+| 33 | LĂPUȘAN NEMUS | PSD |
+| 34 | Bucure HETAVA | PSD |
+| 35 | DEINCAZTNU UUA DPOEZNIN | PSD |
+| 36 | VĂDAERE BOGDAN | PSD |
+| 37 | Michelee Reuces | PSD |
+| 38. | Nuvara-02RU JIMON | P.S.D |
+| 39 | Angel TILVA | P.S.D |
+| 40. | MORARE LUCIITI-IOAN-TIT | P.S.PSL |
+| 41 | LIPĂ ELISABETA | PSD |
+| 42. | Baisanne J.P.AEX | P.S.D |
+| 43 | Cucau Doimuta | PSD |
+
+| Nr.crt. | Nume și prenume | Grup |
+| --- | --- | --- |
+| hh | Chelof Curna Froela | PSD |
+| 45 | NASAR RODICA | PSD |
+| 46 | MHALCEA 10AN | PSD |
+| 47 | BORS MABUN | PSD |
+| 48 | GEORGESCU GHE. DANIEL | PSD |
+| 49 | BARA AORIAN | PSD |
+| 50. | RINNER ANA SHAKANDA | PSD |
+| 51 | RADUANV SEBASTIAN | PSD |
+| 52 | TRIF BOGBAV | PSD |
+| 53 | MHALCEA SILVIA | PSD |

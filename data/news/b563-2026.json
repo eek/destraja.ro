@@ -1,7 +1,7 @@
 {
   "slug": "b563-2026",
   "billId": "B563/2026",
-  "checkedAt": "2026-11-04T07:26:30.162Z",
+  "checkedAt": "2026-11-05T08:57:28.070Z",
   "models": {
     "agy": "ok",
     "claude": "ok",
@@ -106,7 +106,7 @@
         "agy",
         "claude"
       ],
-      "quote": "Proiectul are ca obiect actualizarea și clarificarea sferei activităților avocațiale.",
+      "quote": "Propunerea legislativă B563/2026 a fost înregistrată la Senat la 14 octombrie 2026.",
       "match": "quote",
       "firstSeenAt": "2026-11-04",
       "decision": {
@@ -223,6 +223,50 @@
             "stanceP": 0.96,
             "source": "national_news",
             "sourceP": 0.99,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
+      "url": "https://cursdeguvernare.ro/concordia-avocat-obligatoriu-propunere-controversata.html",
+      "title": "Concordia cere retragerea proiectului care ar obliga firmele să plătească un avocat pentru majoritatea contractelor comerciale. „Firmele mici ar plăti la fel de mult ca o companie mare”",
+      "outlet": "Curs de guvernare",
+      "domain": "cursdeguvernare.ro",
+      "publishedAt": "2026-10-26",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "O propunere legislativă depusă la Senat (B563/2026, cunoscută în spațiul public drept „Avocat obligatoriu”) ar impune firmelor din România să plătească un avocat ca să le scrie majoritatea contractelor.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-05",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-05",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "critical",
+            "stanceP": 0.577,
+            "source": "national_news",
+            "sourceP": 0.301,
+            "about": 0.951,
+            "release": 0.046
+          },
+          "d1": {
+            "stance": "critical",
+            "stanceP": 0.726,
+            "source": "trade_press",
+            "sourceP": 0.798,
+            "about": 0.835,
+            "release": 0.182
+          },
+          "luna": {
+            "stance": "critical",
+            "stanceP": 0.99,
+            "source": "trade_press",
+            "sourceP": 0.82,
             "about": 0.99,
             "release": 0.01
           }
@@ -721,7 +765,7 @@
       "foundBy": [
         "agy"
       ],
-      "quote": "Propunerea legislativă (B563/2026) a fost înregistrată la Senat pe 14 octombrie și vizează modificarea Legii avocaturii și a Codului Civil.",
+      "quote": "În timp ce Bruxelles-ul taie birocrația pentru companii, în Parlamentul României apare un proiect care le obligă să plătească un avocat pentru acte pe care le fac singure de zeci de ani.",
       "match": "quote",
       "firstSeenAt": "2026-11-04",
       "decision": {
@@ -886,49 +930,6 @@
       }
     },
     {
-      "url": "https://economedia.ro/imm-romania-solicita-respingerea-propunerii-legislative-care-ar-impune-firmelor-sa-angajeze-avocati-pentru-acte-noi-costuri-in-favoarea-avocatilor.html",
-      "title": "IMM România solicită respingerea propunerii legislative care ar impune firmelor să angajeze avocați pentru acte",
-      "outlet": "Economedia",
-      "domain": "economedia.ro",
-      "publishedAt": "2026-10-20",
-      "foundBy": [
-        "agy"
-      ],
-      "quote": "Este vorba despre propunerea legislativă B563/2026 pentru modificarea și completarea Legii nr.51/1995 pentru organizarea și exercitarea profesiei de avocat, precum și pentru completarea Legii nr.287/2009 privind Codul Civil prin care sunt introduse obligații de conformare pentru antreprenori și noi costuri de funcționare în favoarea avocaților.",
-      "match": "quote",
-      "decision": {
-        "v": 2,
-        "checkedAt": "2026-10-27",
-        "text": "trafilatura",
-        "models": {
-          "clef": {
-            "stance": "critical",
-            "stanceP": 0.784,
-            "source": "trade_press",
-            "sourceP": 0.447,
-            "about": 0.956,
-            "release": 0.086
-          },
-          "d1": {
-            "stance": "critical",
-            "stanceP": 0.846,
-            "source": "trade_press",
-            "sourceP": 0.593,
-            "about": 0.881,
-            "release": 0.182
-          },
-          "luna": {
-            "stance": "critical",
-            "stanceP": 0.98,
-            "source": "trade_press",
-            "sourceP": 0.87,
-            "about": 0.99,
-            "release": 0.01
-          }
-        }
-      }
-    },
-    {
       "url": "https://economedia.ro/romanian-business-leaders-critica-proiectul-care-ar-impune-un-avocat-pentru-actele-firmelor-romania-risca-sa-adauge-o-noua-factura-pentru-antreprenori.html",
       "title": "RBL critică proiectul privind avocatul obligatoriu pentru actele firmelor",
       "outlet": "Economedia",
@@ -1016,6 +1017,50 @@
       }
     },
     {
+      "url": "https://economedia.ro/imm-romania-solicita-respingerea-propunerii-legislative-care-ar-impune-firmelor-sa-angajeze-avocati-pentru-acte-noi-costuri-in-favoarea-avocatilor.html",
+      "title": "IMM România solicită respingerea propunerii legislative care ar impune firmelor să angajeze avocați pentru acte",
+      "outlet": "Economedia",
+      "domain": "economedia.ro",
+      "publishedAt": "2026-10-20",
+      "foundBy": [
+        "agy",
+        "claude"
+      ],
+      "quote": "Propunerea legislativă B563/2026 a fost înregistrată la Senat la 14 octombrie 2026.",
+      "match": "quote",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-10-27",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "critical",
+            "stanceP": 0.784,
+            "source": "trade_press",
+            "sourceP": 0.447,
+            "about": 0.956,
+            "release": 0.086
+          },
+          "d1": {
+            "stance": "critical",
+            "stanceP": 0.846,
+            "source": "trade_press",
+            "sourceP": 0.593,
+            "about": 0.881,
+            "release": 0.182
+          },
+          "luna": {
+            "stance": "critical",
+            "stanceP": 0.98,
+            "source": "trade_press",
+            "sourceP": 0.87,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
       "url": "https://start-up.ro/proiect-legislativ-care-cere-imm-urilor-sa-aiba-un-avocat-pentru-anumite-acte-rbl-avertizeaza-asupra-unor-costuri-de-peste-100-de-milioane-de-euro-anual",
       "title": "Proiect legislativ care cere IMM-urilor să aibă un avocat pentru anumite acte | RBL avertizează asupra unor costuri de",
       "outlet": "Start-up.ro",
@@ -1052,6 +1097,50 @@
             "stanceP": 0.99,
             "source": "trade_press",
             "sourceP": 0.91,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
+      "url": "https://business24.ro/b563-2026/majorare-costuri-firme-romania-milioane-euro-1671769",
+      "title": "Proiectul B563/2026 ar putea majora costurile firmelor din România cu peste 100 de milioane de euro anual",
+      "outlet": "Business24",
+      "domain": "business24.ro",
+      "publishedAt": "2026-10-19",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Inițiatorii proiectului nu au prezentat o evaluare a efectelor asupra firmelor.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-05",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-05",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "critical",
+            "stanceP": 0.857,
+            "source": "trade_press",
+            "sourceP": 0.536,
+            "about": 0.954,
+            "release": 0.488
+          },
+          "d1": {
+            "stance": "critical",
+            "stanceP": 0.916,
+            "source": "trade_press",
+            "sourceP": 0.642,
+            "about": 0.867,
+            "release": 0.085
+          },
+          "luna": {
+            "stance": "critical",
+            "stanceP": 0.99,
+            "source": "trade_press",
+            "sourceP": 0.84,
             "about": 0.99,
             "release": 0.01
           }
@@ -1157,7 +1246,7 @@
         "claude",
         "agy"
       ],
-      "quote": "Documentul se află în etapa dezbaterii la Senat, prima cameră sesizată.",
+      "quote": "Un proiect de lege depus în Parlament ar putea obliga firmele din România să apeleze la avocați pentru întocmirea actelor de înființare, modificarea documentelor societății și anumite contracte comerciale.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -1287,7 +1376,7 @@
         "agy",
         "claude"
       ],
-      "quote": "Propunerea legislativă B563/2026 a fost înregistrată la Senat la 14 octombrie 2026.",
+      "quote": "„Dacă proiectul trece, ar ajunge să fie redactate de avocat angajarea, actul adițional pentru mărirea de salariu, asigurarea sau actele firmei, fără ca cineva să fi calculat cât i-ar costa asta pe oameni și pe firme”, a scris Dimitriu pe Facebook.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -1758,6 +1847,94 @@
             "stanceP": 0.99,
             "source": "local_news",
             "sourceP": 0.98,
+            "about": 0.99,
+            "release": 0.02
+          }
+        }
+      }
+    },
+    {
+      "url": "https://dnews24.ro/proiectul-de-lege-privind-modificarea-legii-avocaturii-a-ajuns-in-parlament-avocatul-serban-niculae-lovin-sustine-ca-aceasta-initiativa-legislativa-pune-accentul-pe-extinderea-secretului-profesional-c",
+      "title": "Proiectul de lege privind modificarea legii avocaturii a ajuns în Parlament. Avocatul Șerban Niculae Lovin susține că aceast",
+      "outlet": "DNews24.ro",
+      "domain": "dnews24.ro",
+      "publishedAt": "2026-10-18",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Proiectul de modificare a Legii nr. 51/1995 intră în etapa dezbaterii parlamentare.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-05",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-05",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.503,
+            "source": "aggregator",
+            "sourceP": 0.288,
+            "about": 0.942,
+            "release": 0.389
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.628,
+            "source": "national_news",
+            "sourceP": 0.52,
+            "about": 0.562,
+            "release": 0.245
+          },
+          "luna": {
+            "stance": "supportive",
+            "stanceP": 0.94,
+            "source": "aggregator",
+            "sourceP": 0.78,
+            "about": 0.99,
+            "release": 0.18
+          }
+        }
+      }
+    },
+    {
+      "url": "https://newscenter.ro/actualitate-stiri-exacte/proiectul-avocatilor-din-parlament-care-ar-putea-restrange-accesul-la-inteligenta-artificiala-in-domeniul-juridic-antreprenorii-acuza-un-monopol-transpartinic",
+      "title": "Proiectul avocaților din Parlament care ar putea restrânge accesul la inteligența artificială în domeniul juridic. Antreprenorii acuză un monopol transpartinic",
+      "outlet": "NewsCenter.ro",
+      "domain": "newscenter.ro",
+      "publishedAt": "2026-10-18",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Un proiect de lege inițiat de parlamentari din PSD, PNL, USR, AUR și PACE, înregistrat la Senat, a declanșat o controversă privind limitele profesiei de avocat, accesul cetățenilor la informație juridică și viitorul platformelor digitale care folosesc inteligența artificială.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-05",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-05",
+        "text": "pagina",
+        "models": {
+          "clef": {
+            "stance": "critical",
+            "stanceP": 0.546,
+            "source": "national_news",
+            "sourceP": 0.555,
+            "about": 0.961,
+            "release": 0.059
+          },
+          "d1": {
+            "stance": "mixed",
+            "stanceP": 0.642,
+            "source": "national_news",
+            "sourceP": 0.703,
+            "about": 0.915,
+            "release": 0.202
+          },
+          "luna": {
+            "stance": "critical",
+            "stanceP": 0.98,
+            "source": "national_news",
+            "sourceP": 0.67,
             "about": 0.99,
             "release": 0.02
           }

@@ -1,9 +1,9 @@
 {
   "slug": "b598-2026",
   "billId": "B598/2026",
-  "checkedAt": "2026-11-04T08:12:37.995Z",
+  "checkedAt": "2026-11-05T09:44:56.835Z",
   "models": {
-    "agy": "ok",
+    "agy": "error: cod 3: error: print timeout after 10m0s with the turn still in progress; the response is partial AGY_ERROR: {\"short_error\":\"print timeout after 10m0s with the turn still in progress; the response is partial\",\"status\":\"DEADLINE_EXCEEDED\",\"retryable\":false,\"reason\":\"print_timeout\"}",
     "claude": "ok",
     "codex": "ok"
   },
@@ -15,9 +15,10 @@
       "domain": "adevarul.ro",
       "publishedAt": "2026-11-02",
       "foundBy": [
-        "agy"
+        "agy",
+        "claude"
       ],
-      "quote": "O inițiativă legislativă depusă la Senat propune un ajutor lunar pentru chirie de până la 600 de lei și reducerea cu 50% a unor abonamente de transport, pentru angajații cu vârste între 18 și 29 de ani și venituri salariale nete de cel mult 4.000 de lei pe lună.",
+      "quote": "Propunerea B598/2026 a fost înregistrată la Senat pe 28 octombrie 2026 și vizează completarea Legii nr. 76/2002 privind sistemul asigurărilor pentru șomaj și stimularea ocupării forței de muncă.",
       "match": "quote",
       "firstSeenAt": "2026-11-04",
       "decision": {
@@ -281,7 +282,7 @@
       "foundBy": [
         "claude"
       ],
-      "quote": "Potrivit proiectului, 600 de lei ar urma să primească tinerii care locuiesc în București și Cluj-Napoca.",
+      "quote": "Un proiect de lege elaborat de deputați PNL, USR și UDMR vine în ajutorul tinerilor cu vârste cuprinse între 18 și 29 de ani.",
       "match": "quote",
       "firstSeenAt": "2026-11-02",
       "decision": {
@@ -495,6 +496,50 @@
     }
   ],
   "pending": [
+    {
+      "url": "https://www.bugetul.ro/tinerii-intre-18-si-29-de-ani-cu-salariul-de-maximum-4-000-de-lei-ar-putea-primi-bani-pentru-chirie-valoarea-ajutorului-si-celelalte-beneficii-propuse",
+      "title": "Tinerii între 18 și 29 de ani, cu salariul de maximum 4.000 de lei, ar putea primi bani pentru chirie. Valoarea ajutorului și celelalte beneficii propuse",
+      "outlet": "Bugetul.ro",
+      "domain": "bugetul.ro",
+      "publishedAt": "2026-11-02",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Măsura este o inițiativă legislativă, nu un drept de plată deja intrat în vigoare.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-05",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-05",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.827,
+            "source": "national_news",
+            "sourceP": 0.557,
+            "about": 0.965,
+            "release": 0.037
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.887,
+            "source": "aggregator",
+            "sourceP": 0.415,
+            "about": 0.706,
+            "release": 0.148
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.98,
+            "source": "aggregator",
+            "sourceP": 0.76,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
     {
       "url": "https://www.brasov.net/tinerii-care-castiga-sub-4-000-de-lei-ar-putea-primi-600-de-lei-pe-luna-pentru-chirie-proiectul-depus-in-parlament",
       "title": "Tinerii care câștigă sub 4.000 de lei ar putea primi 600 de lei pe lună pentru chirie. Proiectul depus în Parlament",

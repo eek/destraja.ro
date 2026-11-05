@@ -1,13 +1,57 @@
 {
   "slug": "b571-2026",
   "billId": "B571/2026",
-  "checkedAt": "2026-11-04T07:31:57.227Z",
+  "checkedAt": "2026-11-05T09:12:38.632Z",
   "models": {
     "agy": "ok",
     "claude": "ok",
     "codex": "ok"
   },
   "articles": [
+    {
+      "url": "https://www.b1tv.ro/eveniment/newsweek-bonusuri-de-milioane-pentru-angajatii-din-aparare-10-din-penalitatile-aplicate-firmelor-impartiti-de-angati-1744766.html",
+      "title": "Newsweek: Bonusuri de milioane pentru angajații din Apărare. 10% din penalitățile aplicate firmelor, împărțiți de angați - B1TV.ro",
+      "outlet": "B1 TV",
+      "domain": "b1tv.ro",
+      "publishedAt": "2026-10-28",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Un proiect de lege care a fost înregistrat în Parlament cere ca penalitățile impuse unor firme din industria de apărare să se transforme în bonusuri către angajați.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-05",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-05",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.843,
+            "source": "national_news",
+            "sourceP": 0.698,
+            "about": 0.805,
+            "release": 0.061
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.778,
+            "source": "aggregator",
+            "sourceP": 0.439,
+            "about": 0.706,
+            "release": 0.107
+          },
+          "luna": {
+            "stance": "critical",
+            "stanceP": 0.72,
+            "source": "aggregator",
+            "sourceP": 0.86,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
     {
       "url": "https://newsweek.ro/actualitate/bonusuri-de-milioane-pentru-angajatii-din-aparare-10-din-penalitatile-aplicate-firmelor-impartiti-de-angati",
       "title": "Bonusuri de milioane în Apărare. Angajații împart 10% din penalitățile aplicate firmelor • Newsweek România",
@@ -18,7 +62,7 @@
         "agy",
         "claude"
       ],
-      "quote": "Un proiect de lege care a fost înregistrat în Parlament cere ca penalitățile impuse unor firme din industria de apărare să se transforme în bonusuri către angajați.",
+      "quote": "10% din aceste penalități ar urma să fie împărțite între angajații din structurile Ministerului Apărării.",
       "match": "quote",
       "firstSeenAt": "2026-10-28",
       "decision": {

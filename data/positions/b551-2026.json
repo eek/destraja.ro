@@ -1,13 +1,38 @@
 {
   "slug": "b551-2026",
   "billId": "B551/2026",
-  "checkedAt": "2026-11-04T08:47:21.810Z",
+  "checkedAt": "2026-11-05T10:20:39.219Z",
   "models": {
-    "agy": "ok",
+    "agy": "error: cod 3: error: print timeout after 10m0s with the turn still in progress; the response is partial AGY_ERROR: {\"short_error\":\"print timeout after 10m0s with the turn still in progress; the response is partial\",\"status\":\"DEADLINE_EXCEEDED\",\"retryable\":false,\"reason\":\"print_timeout\"}",
     "claude": "ok",
     "codex": "ok"
   },
-  "positions": [],
+  "positions": [
+    {
+      "issuer": "Asociația pentru Combustibili Sustenabili (ACS)",
+      "issuerType": "asociatie",
+      "stance": "modificare",
+      "removesProvisions": true,
+      "documentType": "punct de vedere",
+      "title": "Un miliard de euro pentru industria electro-intensivă: cum îl transformăm din ajutor la factură în capacitate nouă de producție",
+      "quote": "Eliminarea cerinței de „livrare în bandă”: contracte de cel puțin cinci ani, cu livrare fizică sau financiară, în bandă, în profil sau pe măsura producției, cu transferul garanțiilor de origine către cumpărător.",
+      "quoteIn": "pagina",
+      "date": null,
+      "dateSource": null,
+      "pageUrl": "https://e-nergia.ro/un-miliard-de-euro-pentru-industria-electro-intensiva-cum-il-transformam-din-ajutor-la-factura-in-capacitate-noua-de-productie-analiza",
+      "documentUrl": null,
+      "domain": "e-nergia.ro",
+      "viaPress": false,
+      "ownSite": false,
+      "billMatch": "numar",
+      "signatories": null,
+      "foundBy": [
+        "claude"
+      ],
+      "verifiedAt": "2026-11-05",
+      "firstSeenAt": "2026-11-05"
+    }
+  ],
   "pending": [
     {
       "issuer": "Blocul Național Sindical (BNS)",
@@ -21,19 +46,6 @@
       ],
       "reason": "nici pagina, nici documentul nu pomenesc proiectul",
       "checkedAt": "2026-11-04"
-    },
-    {
-      "issuer": "Asociația pentru Combustibili Sustenabili (ACS)",
-      "stance": "modificare",
-      "pageUrl": "https://e-nergia.ro/un-miliard-de-euro-pentru-industria-electro-intensiva-cum-il-transformam-din-ajutor-la-factura-in-capacitate-noua-de-productie-analiza",
-      "documentUrl": null,
-      "quote": "Calcularea ajutorului față de prețul pieței, indiferent de unde își cumpără firma energia, cum prevede cadrul european",
-      "claimedSignatories": null,
-      "foundBy": [
-        "claude"
-      ],
-      "reason": "citatul nu arată poziția „modificare”",
-      "checkedAt": "2026-10-28"
     }
   ]
 }

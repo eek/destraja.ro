@@ -1,13 +1,58 @@
 {
   "slug": "b615-2026",
   "billId": "B615/2026",
-  "checkedAt": "2026-11-04T08:33:21.630Z",
+  "checkedAt": "2026-11-05T09:58:28.104Z",
   "models": {
-    "agy": "error: cod 3: error: print timeout after 10m0s with the turn still in progress; the response is partial AGY_ERROR: {\"short_error\":\"print timeout after 10m0s with the turn still in progress; the response is partial\",\"status\":\"DEADLINE_EXCEEDED\",\"retryable\":false,\"reason\":\"print_timeout\"}",
+    "agy": "ok",
     "claude": "ok",
     "codex": "ok"
   },
   "articles": [
+    {
+      "url": "https://alba24.ro/taxa-de-lux-ar-putea-fi-eliminata-pentru-anumite-autoturisme-proiect-legislativ-depus-la-senat-1166120.html",
+      "title": "Taxa de lux ar putea fi eliminată pentru anumite autoturisme. Proiect legislativ, depus la Senat",
+      "outlet": "Alba24",
+      "domain": "alba24.ro",
+      "publishedAt": "2026-11-04",
+      "foundBy": [
+        "agy",
+        "claude"
+      ],
+      "quote": "O propunere legislativă care prevede modificarea Codului fiscal a fost înregistrată la Senat, pe 3 noiembrie 2026.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-05",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-05",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.856,
+            "source": "local_news",
+            "sourceP": 0.69,
+            "about": 0.959,
+            "release": 0.228
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.815,
+            "source": "national_news",
+            "sourceP": 0.442,
+            "about": 0.905,
+            "release": 0.165
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.86,
+            "source": "local_news",
+            "sourceP": 0.99,
+            "about": 0.99,
+            "release": 0.02
+          }
+        }
+      }
+    },
     {
       "url": "https://www.dcbusiness.ro/modificare-a-codului-fiscal-la-senat-taxa-pe-lux-eliminata-pentru-o-categorie-de-autovehicule_701301.html",
       "title": "Modificare a Codului fiscal, la Senat: Taxa pe lux, eliminată pentru o categorie de autovehicule",
@@ -15,7 +60,8 @@
       "domain": "dcbusiness.ro",
       "publishedAt": "2026-11-03",
       "foundBy": [
-        "claude"
+        "claude",
+        "agy"
       ],
       "quote": "Proiect depus la Senat pentru instituirea unei excepţii la taxa pe lux.",
       "match": "quote",
@@ -59,9 +105,10 @@
       "domain": "digi24.ro",
       "publishedAt": "2026-11-03",
       "foundBy": [
-        "claude"
+        "claude",
+        "agy"
       ],
-      "quote": "Autovehiculele destinate exclusiv competițiilor sportive ar putea fi scutite de impozitul special aplicat autoturismelor",
+      "quote": "Propunerea legislativă urmărește completarea articolului 500¹ din Legea nr. 227/2015 privind Codul fiscal, care reglementează impozitul special pe bunurile imobile și mobile de valoare mare.",
       "match": "quote",
       "firstSeenAt": "2026-11-04",
       "decision": {
@@ -99,6 +146,50 @@
   ],
   "pending": [
     {
+      "url": "https://www.brasov.net/sportul-cu-motor-in-atentia-parlamentului-deputatul-sebastian-rusu-propune-eliminarea-taxei-de-lux-pentru-masinile-de-competitie",
+      "title": "Sportul cu motor, în atenția Parlamentului. Deputatul Sebastian Rusu propune eliminarea taxei de lux pentru mașinile de competiție",
+      "outlet": "Brasov.net",
+      "domain": "brasov.net",
+      "publishedAt": "2026-11-02",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Deputatul Sebastian Rusu a depus o inițiativă legislativă prin care propune exceptarea de la plata așa-numitei „taxe pe lux” a autovehiculelor destinate exclusiv competițiilor sportive.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-05",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-05",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.699,
+            "source": "local_news",
+            "sourceP": 0.581,
+            "about": 0.963,
+            "release": 0.799
+          },
+          "d1": {
+            "stance": "supportive",
+            "stanceP": 0.547,
+            "source": "local_news",
+            "sourceP": 0.52,
+            "about": 0.731,
+            "release": 0.294
+          },
+          "luna": {
+            "stance": "supportive",
+            "stanceP": 0.89,
+            "source": "local_news",
+            "sourceP": 0.98,
+            "about": 0.99,
+            "release": 0.91
+          }
+        }
+      }
+    },
+    {
       "url": "https://newsbv.ro/sebastian-rusu-propune-eliminarea-taxei-de-lux",
       "title": "Deputatul Sebastian Rusu propune eliminarea „taxei de lux” pentru mașinile de raliu - Stiri Brasov - News Brasov",
       "outlet": "Stiri Brasov - News Brasov",
@@ -107,7 +198,7 @@
       "foundBy": [
         "claude"
       ],
-      "quote": "a depus o inițiativă legislativă prin care propune eliminarea autovehiculelor destinate exclusiv competițiilor sportive",
+      "quote": "Sebastian Rusu îi solicită ministrului Finanțelor, Alexandru Nazare, să analizeze propunerea și să transmită un punct de vedere favorabil.",
       "match": "quote",
       "firstSeenAt": "2026-11-04",
       "decision": {
@@ -193,9 +284,10 @@
       "domain": "bzb.ro",
       "publishedAt": null,
       "foundBy": [
-        "claude"
+        "claude",
+        "agy"
       ],
-      "quote": "dacă va fi adoptată, va scoate de sub incidenţa „taxei de lux” autovehiculele destinate exclusiv competiţiilor sportive.",
+      "quote": "Deputatul braşovean Sebastian Rusu (PNL) a depus o iniţiativă legislativă la Parlament, care, dacă va fi adoptată, va scoate de sub incidenţa „taxei de lux” autovehiculele destinate exclusiv competiţiilor sportive.",
       "match": "quote",
       "firstSeenAt": "2026-11-04",
       "decision": {
@@ -226,6 +318,50 @@
             "sourceP": 0.99,
             "about": 0.99,
             "release": 0.08
+          }
+        }
+      }
+    },
+    {
+      "url": "https://primanews.ro/stiri/proiect-de-lege-masinile-de-curse-ar-putea-sa-fie-exceptate-de-la-plata-taxei-de-lux-cine-sunt-initiatorii-22931871",
+      "title": "Proiect de lege: maşinile de curse ar putea să fie exceptate de la plata „taxei de lux”. Cine sunt iniţiatorii",
+      "outlet": "Primanews",
+      "domain": "primanews.ro",
+      "publishedAt": null,
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Un proiect de lege depus marţi la Senat propune eliminarea obligaţiei de plată a aşa-numitei „taxe de lux” pentru autoturismele utilizate exclusiv în competiţiile sportive.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-05",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-05",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.784,
+            "source": "national_news",
+            "sourceP": 0.536,
+            "about": 0.965,
+            "release": 0.323
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.787,
+            "source": "national_news",
+            "sourceP": 0.666,
+            "about": 0.867,
+            "release": 0.202
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.91,
+            "source": "national_news",
+            "sourceP": 0.95,
+            "about": 0.99,
+            "release": 0.03
           }
         }
       }

@@ -12,6 +12,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
+import { peerBlocked, peerTurn } from './cdep-peer.mjs';
 
 export const CDEP = 'https://www.cdep.ro';
 export const listUrl = (kind, year) => `${CDEP}/ords/pls/proiecte/upl_pck2015.lista?cam=2&${kind}=${year}`;
@@ -98,12 +99,19 @@ export async function pace({ quiet } = {}) {
       wait = Math.max(next - now, quiet?.() ?? 0);
       if (wait <= 0) {
         fs.writeFileSync(PACE_FILE, JSON.stringify([...times, now]));
-        return;
+        break;
       }
     } finally {
       fs.rmSync(LOCK, { recursive: true, force: true });
     }
     await sleep(Math.min(wait, 30_000));
+  }
+  // Când Mac-ul are același IP public ca VM-ul destraja, bugetul e unul singur, ținut pe VM (scripts/lib/cdep-peer.mjs).
+  const { blockedUntil, hold } = await peerTurn();
+  if (hold) throw new CdepBlocked(hold);
+  if (blockedUntil) {
+    fs.writeFileSync(BLOCK_FILE, String(blockedUntil));
+    throw new CdepBlocked(`cdep.ro a cerut captcha pe VM, de pe același IP; nu mai cerem nimic până la ${new Date(blockedUntil).toLocaleTimeString('ro-RO', { hour: '2-digit', minute: '2-digit' })}`);
   }
 }
 
@@ -116,6 +124,7 @@ export function blocked(url = CDEP) {
   const announced = readNumber(BLOCK_FILE) > Date.now();
   fs.writeFileSync(BLOCK_FILE, String(Date.now() + BACKOFF_MS));
   fs.writeFileSync(CAPTCHA_URL_FILE, `${url}\n`);
+  peerBlocked(Date.now() + BACKOFF_MS);
   if (!announced && process.platform === 'darwin') {
     const msg = `cdep.ro cere captcha. Deschide ${url} și rezolvă-l, apoi spune-i lui Claude.`;
     spawnSync('osascript', ['-e', `display notification ${JSON.stringify(msg)} with title "destrajă" sound name "Glass"`], { timeout: 10_000 });

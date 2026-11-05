@@ -6,9 +6,8 @@
 //     că Mac-ul cere. Cât semnul e mai nou de 3 minute, VM-ul nu cere nimic: Mac-ul are întâietate.
 //   - Un captcha oprește doar IP-ul pe care a venit: pe al Mac-ului îl anunțăm VM-ului doar când e același IP.
 // IP-ul Mac-ului vine de la api.ipify.org (ținut 10 minute), al VM-ului din răspunsurile VM-ului (ținut o oră). Dacă
-// nu le știm, le considerăm același IP. Dacă ssh-ul nu merge, Mac-ul cere ca înainte, pe ritmul lui (un buget), iar
-// VM-ul, care cere doar cât a auzit de Mac în ultimele 8 minute (ssh … hello, cel mult o dată la 3 minute) sau cât Mac-ul
-// e sigur pe drum, se oprește și el.
+// nu le știm, le considerăm același IP. VM-ul cere tot timpul; dacă ssh-ul nu merge și IP-ul pare comun, Mac-ul nu cere
+// deloc de pe el (pace() aruncă CdepBlocked), ca să nu fie două ritmuri pe un IP.
 // Fără .cache/agenda-vm (gazda prin care ajungem la VM) sau pe VM însuși (CDEP_ROLE=vm), totul de aici e inactiv.
 import fs from 'node:fs';
 import os from 'node:os';
@@ -120,17 +119,19 @@ export async function peerHello() {
 export async function peerTurn() {
   if (!peerEnabled) return {};
   await myIp();
-  if (failedLately()) return {};
-  if (!vmIpNow()) await peerHello();
+  if (!vmIpNow() && !failedLately()) await peerHello();
   const s = readState();
   if (!sameIp(s)) {
-    if (Date.now() - (s.helloAt ?? 0) > HELLO_EVERY) await peerHello();
+    if (Date.now() - (s.helloAt ?? 0) > HELLO_EVERY && !failedLately(s)) await peerHello();
     return {};
   }
-  if (failedLately(s)) return {};
-  const reply = await vmCall('reserve', {}, { timeoutMs: 15 * MIN });
-  if (reply) writeState({ helloAt: Date.now() });
-  return reply?.blockedUntil > Date.now() ? { blockedUntil: reply.blockedUntil } : {};
+  // Același IP (sau nu știm): VM-ul cere tot timpul, deci Mac-ul cere doar cu rândul luat de pe VM. Fără VM la capătul
+  // ssh-ului, Mac-ul nu cere deloc de pe IP-ul comun: VM-ul poate fi pornit și să ceară, iar două ritmuri pe un IP aduc
+  // captcha-ul.
+  const reply = failedLately(s) ? null : await vmCall('reserve', {}, { timeoutMs: 15 * MIN });
+  if (!reply) return { hold: 'Mac-ul e pe același IP ca VM-ul și VM-ul nu răspunde; nu cerem de pe IP-ul comun' };
+  writeState({ helloAt: Date.now() });
+  return reply.blockedUntil > Date.now() ? { blockedUntil: reply.blockedUntil } : {};
 }
 
 /** Chemată de blocked(): un captcha pe Mac oprește și VM-ul, doar dacă au același IP (sau nu știm). */

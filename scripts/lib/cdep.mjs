@@ -100,7 +100,8 @@ export async function pace() {
     await sleep(Math.min(wait, 30_000));
   }
   // Când Mac-ul are același IP public ca VM-ul destraja, bugetul e unul singur, ținut pe VM (scripts/lib/cdep-peer.mjs).
-  const { blockedUntil } = await peerTurn();
+  const { blockedUntil, hold } = await peerTurn();
+  if (hold) throw new CdepBlocked(hold);
   if (blockedUntil) {
     fs.writeFileSync(BLOCK_FILE, String(blockedUntil));
     throw new CdepBlocked(`cdep.ro a cerut captcha pe VM, de pe același IP; nu mai cerem nimic până la ${new Date(blockedUntil).toLocaleTimeString('ro-RO', { hour: '2-digit', minute: '2-digit' })}`);

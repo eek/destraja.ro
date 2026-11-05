@@ -13,8 +13,8 @@
 //
 // Coada o scrie Mac-ul (push): fișele lipsă sau schimbate, în ordinea lui. VM-ul ia de la coada cozii, Mac-ul de la cap,
 // și fiecare fișă se revendică întâi aici, în state/claims.json, sub lacăt: nicio fișă nu se cere de două ori.
-// VM-ul cere doar dacă: n-are captcha pe IP-ul lui; Mac-ul i-a vorbit în ultimele 8 minute sau e sigur pe drum (în zilele
-// lucrătoare, 08:00–09:15); și, când Mac-ul are același IP, Mac-ul n-a cerut nimic în ultimele 3 minute (reserve).
+// VM-ul e cititorul principal și cere tot timpul, cât n-are captcha pe IP-ul lui; când Mac-ul are același IP, îi lasă
+// rândul cât Mac-ul a cerut ceva în ultimele 3 minute (reserve). Mac-ul ajută când e pornit și pe alt IP (acasă).
 // Pe același IP, Mac-ul își ia rândul din același registru (.cache/cdep-last-request de aici), deci tot o cerere pe minut.
 import fs from 'node:fs';
 import path from 'node:path';
@@ -30,7 +30,6 @@ const PACE_FILE = path.join(ROOT, '.cache', 'cdep-last-request');
 const file = (name) => path.join(STATE, name);
 const MIN = 60_000;
 const HEARTBEAT_MS = 3 * MIN;
-const LEASE_MS = 8 * MIN;
 // O fișă revendicată de VM și necitită în 30 de minute (VM oprit la mijloc) poate fi luată de Mac; una a Mac-ului, în 12 ore.
 const VM_CLAIM_MS = 30 * MIN;
 const MAC_CLAIM_MS = 12 * 60 * MIN;
@@ -94,17 +93,6 @@ async function vmIp(force = false) {
   return saved.ip ?? null;
 }
 
-/** Zilele lucrătoare, 08:00–09:15 la București: Mac-ul e pe drum, fără rețea, deci nu cere nimic. */
-function macCommuting(now = new Date()) {
-  const p = Object.fromEntries(
-    new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Bucharest', weekday: 'short', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' })
-      .formatToParts(now)
-      .map((x) => [x.type, x.value]),
-  );
-  const m = +p.hour * 60 + +p.minute;
-  return p.weekday !== 'Sat' && p.weekday !== 'Sun' && m >= 8 * 60 && m < 9 * 60 + 15;
-}
-
 const hhmm = (t) => new Date(t).toLocaleTimeString('ro-RO', { timeZone: 'Europe/Bucharest', hour: '2-digit', minute: '2-digit' });
 
 /** De ce nu cerem acum („” = putem cere). */
@@ -112,9 +100,9 @@ function holdReason(ip) {
   const now = Date.now();
   const until = readNumber(BLOCK_FILE);
   if (now < until) return `captcha pe IP-ul VM-ului, până la ${hhmm(until)}`;
+  // VM-ul e cititorul principal și cere tot timpul; doar îi lasă rândul Mac-ului cât acesta cere de pe același IP.
+  // (Până pe 5 noiembrie seara se oprea când nu mai auzea de Mac, deci stătea cât laptopul era închis.)
   const lease = readJson(file('lease.json'), {});
-  const commuting = macCommuting();
-  if (now - (lease.at ?? 0) > LEASE_MS && !commuting) return 'Mac-ul nu ne-a mai vorbit de 8 minute';
   const shared = !lease.macIp || !ip || lease.macIp === ip;
   const beat = readJson(file('heartbeat.json'), {});
   if (shared && now - (beat.at ?? 0) < HEARTBEAT_MS) return 'Mac-ul cere de pe același IP';

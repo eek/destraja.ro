@@ -23,6 +23,8 @@ import { getBillAgenda } from '@/lib/agenda';
 import BillAgenda from '@/components/bills/BillAgenda';
 import BillReports from '@/components/bills/BillReports';
 import { getBillReports, manualCorrections } from '@/lib/reports';
+import { getRelatedActs, relatedCount } from '@/lib/related';
+import RelatedActs, { RelatedActsLink } from '@/components/bills/RelatedActs';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -50,7 +52,7 @@ const LAW_TYPE: Record<string, string> = { ordinar: 'Ordinară', organic: 'Organ
 
 export default async function CameraBillPage({ params }: PageProps) {
   const { slug } = await params;
-  const [bill, analysis, committees, versions, versionsStatus, balance, amendments, agenda, reports] = await Promise.all([
+  const [bill, analysis, committees, versions, versionsStatus, balance, amendments, agenda, reports, related] = await Promise.all([
     getCdepBill(slug),
     getCdepAnalysis(slug),
     getCommittees(),
@@ -60,6 +62,7 @@ export default async function CameraBillPage({ params }: PageProps) {
     getBillAmendments(slug),
     getBillAgenda(`/camera/${slug}`),
     getBillReports(slug),
+    getRelatedActs({ camera: slug }),
   ]);
   const mpPages = amendments ? await getMpPageSlugs() : new Set<string>();
   const comparing = !versions && versionsStatus?.pending.includes(slug);
@@ -168,6 +171,11 @@ export default async function CameraBillPage({ params }: PageProps) {
             <h1 className="font-display mt-5 text-[clamp(1.7rem,3.6vw,2.6rem)] font-normal leading-[1.15]">{c?.plainTitle ?? bill.titlu}</h1>
             {c && <p className="mt-4 text-lg leading-8 text-ink">{c.summaryTlDr}</p>}
             {c && <p className="mt-4 text-sm leading-6 text-muted">Titlul oficial: {bill.titlu}</p>}
+            {related.length > 0 && (
+              <div className="mt-2">
+                <RelatedActsLink count={relatedCount(related)} acts={related.length} />
+              </div>
+            )}
             {f.obiect && (
               <div className="mt-5 rounded-xl bg-sunken px-4 py-3">
                 <p className="text-xs font-semibold text-muted">Ce scrie pe fișa Camerei</p>
@@ -354,6 +362,8 @@ export default async function CameraBillPage({ params }: PageProps) {
             )}
           </section>
         )}
+
+        <RelatedActs acts={related} />
 
         {(f.documente?.length ?? 0) > 0 && (
           <section aria-labelledby="documente" className="mt-12">

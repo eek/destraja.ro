@@ -25,6 +25,8 @@ import { Flags } from '@/components/bills/Flags';
 import CiteBill from '@/components/bills/CiteBill';
 import DocumentText from '@/components/bills/DocumentText';
 import { citation } from '@/lib/export';
+import { getRelatedActs, relatedCount } from '@/lib/related';
+import RelatedActs, { RelatedActsLink } from '@/components/bills/RelatedActs';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -62,6 +64,7 @@ export default async function BillDetailPage({ params }: PageProps) {
   const balance = await getBalance(slug);
   const agenda = await getBillAgenda(`/legi/${slug}`);
   const reports = await getBillReports(slug);
+  const related = await getRelatedActs({ senat: slug });
   const manual = manualCorrections(bill.analysis.corrections, reports);
   const corrected = manual.length > 0 || reports.some((r) => r.status === 'fixed');
   const news = bill.news;
@@ -125,6 +128,7 @@ export default async function BillDetailPage({ params }: PageProps) {
               <Flags bill={lite} />
               {news && <PressLink press={lite.press} builtOn={builtOn} />}
               <PositionsLink summary={lite.positions} />
+              <RelatedActsLink count={relatedCount(related)} acts={related.length} />
             </div>
             {bill.announcedDeadline && bill.leftListAt && (
               <p className="mt-3 text-sm leading-6 text-body">
@@ -276,6 +280,8 @@ export default async function BillDetailPage({ params }: PageProps) {
             </div>
           </section>
         )}
+
+        <RelatedActs acts={related} className="mt-14" />
 
         <div className="deferred mt-14 space-y-3">
           <details open={bill.publicOpinions.length > 0} className={`${panel} overflow-hidden`}>

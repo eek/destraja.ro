@@ -29,6 +29,8 @@ import CiteBill from '@/components/bills/CiteBill';
 import DocumentText from '@/components/bills/DocumentText';
 import { citation } from '@/lib/export';
 import BillAvize from '@/components/bills/BillAvize';
+import { getRelatedActs, relatedCount } from '@/lib/related';
+import RelatedActs, { RelatedActsLink } from '@/components/bills/RelatedActs';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -68,6 +70,7 @@ export default async function BillDetailPage({ params }: PageProps) {
   const reports = await getBillReports(slug);
   const votes = await getBillVotes(slug);
   const mpPages = votes ? await getMpPageSlugs() : new Set<string>();
+  const related = await getRelatedActs({ senat: slug });
   const manual = manualCorrections(bill.analysis.corrections, reports);
   const corrected = manual.length > 0 || reports.some((r) => r.status === 'fixed');
   const news = bill.news;
@@ -131,6 +134,7 @@ export default async function BillDetailPage({ params }: PageProps) {
               <Flags bill={lite} />
               {news && <PressLink press={lite.press} builtOn={builtOn} />}
               <PositionsLink summary={lite.positions} />
+              <RelatedActsLink count={relatedCount(related)} acts={related.length} />
             </div>
             {bill.announcedDeadline && bill.leftListAt && (
               <p className="mt-3 text-sm leading-6 text-body">
@@ -285,8 +289,11 @@ export default async function BillDetailPage({ params }: PageProps) {
           </section>
         )}
 
+        <RelatedActs acts={related} className="mt-14" />
+
         <div className="deferred mt-14 space-y-3">
-          <details open={bill.publicOpinions.length > 0} className={`${panel} overflow-hidden`}>
+          {/* Închisă implicit: la proiectele discutate sunt sute de opinii, unele de pagini întregi. */}
+          <details className={`${panel} overflow-hidden`}>
             <summary className={summaryCls}>
               Opiniile depuse pe senat.ro ({bill.publicOpinions.length})
               <ChevronDown className="chevron h-5 w-5 shrink-0 text-muted" aria-hidden />

@@ -60,6 +60,10 @@ const FAQ = [
     a: 'E media scorurilor proiectelor pe care le-a semnat ca inițiator, dintre cele analizate: cele din consultarea publică a Senatului și cele din 2026 de la Camera Deputaților. Semnătura arată cine a propus proiectul, nu cum votează. Proiectele Guvernului nu intră, pentru că nu au semnături de parlamentari.',
   },
   {
+    q: 'De unde știți cum a votat fiecare parlamentar?',
+    a: 'Din voturile nominale pe care Camera Deputaților și Senatul le publică pentru fiecare vot din plen, legate din fișa proiectului: pe cdep.ro lista deputaților prezenți, cu votul fiecăruia, și pe senat.ro lista senatorilor. Le preluăm așa cum sunt, cu totalurile pe grupuri și linkul spre pagina oficială. Camera nu-i listează pe cei absenți, așa că o absență nu apare. La un vot pe raportul de respingere, „pentru” înseamnă pentru respingerea proiectului. În comisii nu se votează nominal; arătăm ce scrie în raportul comisiei, de obicei „cu majoritate” sau „cu unanimitate de voturi”. Scorul parlamentarului nu ține cont de voturi.',
+  },
+  {
     q: 'Cum sunt numărate partidele?',
     a: `Un proiect e atribuit fiecărui partid care are cel puțin un inițiator pe el, așa că totalurile pe partide nu se adună. Pentru harta coalițiilor folosim împărțirea putere/opoziție de la învestirea guvernului Niculescu (${ARC_DATE}): putere ${[...PUTERE].join(', ')}; opoziție ${[...OPOZITIE].join(', ')}; ${[...SPRIJIN].join(', ')} au votat guvernul fără să intre în el. Multe proiecte au fost semnate înainte, sub coaliția Bolojan (PSD, PNL, USR, UDMR și minoritățile; PSD a ieșit în aprilie 2026). Co-semnarea nu spune cum va vota un partid.`,
   },

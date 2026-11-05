@@ -3,6 +3,8 @@
 //   upl_pck2015.lista?cam=2&anb=AN   propunerile deputaților trimise întâi la Senat (BP), încă fără număr de Cameră
 //   upl_pck2015.proiect?cam=2&idp=N  fișa proiectului; `idp` rămâne același de la BP la PL-x
 //   structura2015.co?idc=N&leg=2024&cam=2  pagina unei comisii (adresa de e-mail)
+//   /ords/pls/steno/evot2015.Nominal?idv=N  un vot din plen, legat din fișă („rezultat vot”): subiectul, totalurile pe
+//            grupuri și lista nominală a celor prezenți (absenții nu apar); aceeași listă e și în evot2015.xml?par1=2&par2=N
 // cdep.ro are un firewall care, după prea multe cereri, răspunde cu HTTP 200 și o pagină de captcha: o recunoaștem
 // după conținut și ne oprim două ore, iar cererile sunt rare, comune tuturor proceselor (vezi pace).
 
@@ -15,6 +17,7 @@ export const CDEP = 'https://www.cdep.ro';
 export const listUrl = (kind, year) => `${CDEP}/ords/pls/proiecte/upl_pck2015.lista?cam=2&${kind}=${year}`;
 export const sheetUrl = (idp) => `${CDEP}/ords/pls/proiecte/upl_pck2015.proiect?cam=2&idp=${idp}`;
 export const committeeUrl = (idc) => `${CDEP}/ords/pls/parlam/structura2015.co?idc=${idc}&leg=2024&cam=2`;
+export const voteUrl = (idv) => `${CDEP}/ords/pls/steno/evot2015.Nominal?idv=${idv}`;
 
 /** Adresa de e-mail publicată pe pagina unei comisii (cp11@cdep.ro, cti@cdep.ro…), fără cea a webmasterului. */
 export const parseCommitteeEmail = (html) =>
@@ -74,8 +77,12 @@ async function lock() {
   }
 }
 
-/** Așteaptă rândul la cdep.ro: PAUSE_MS după cererea de dinainte și cel mult PER_HOUR cereri într-o oră. */
-export async function pace() {
+/**
+ * Așteaptă rândul la cdep.ro: PAUSE_MS după cererea de dinainte și cel mult PER_HOUR cereri într-o oră.
+ * `quiet`, opțional: o funcție care spune câte milisecunde mai trebuie așteptat înainte de orice cerere (0 = acum se
+ * poate), verificată chiar când vine rândul; așa o rulare lungă nu cere nimic în orele în care Mac-ul e pe drum.
+ */
+export async function pace({ quiet } = {}) {
   fs.mkdirSync(path.dirname(PACE_FILE), { recursive: true });
   for (;;) {
     const until = readNumber(BLOCK_FILE);
@@ -88,7 +95,7 @@ export async function pace() {
       const now = Date.now();
       const times = recentRequests(now);
       const next = Math.max((times.at(-1) ?? 0) + PAUSE_MS, times.length >= PER_HOUR ? times[times.length - PER_HOUR] + HOUR : 0);
-      wait = next - now;
+      wait = Math.max(next - now, quiet?.() ?? 0);
       if (wait <= 0) {
         fs.writeFileSync(PACE_FILE, JSON.stringify([...times, now]));
         return;
@@ -118,8 +125,8 @@ export function blocked(url = CDEP) {
 
 export class CdepBlocked extends Error {}
 
-export async function fetchCdep(url) {
-  await pace();
+export async function fetchCdep(url, { quiet } = {}) {
+  await pace({ quiet });
   const res = await fetch(url, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(60_000) });
   if (!res.ok) throw new Error(`HTTP ${res.status} la ${url}`);
   const html = await res.text();
@@ -225,7 +232,9 @@ export function parseSheet(html) {
     // Camera se vede după culoarea celulei cu data: albastru la Senat, portocaliu la Cameră.
     const color = row.match(/bgcolor="#(dfefff|fff0d8)"[^>]*>\s*\d{2}\.\d{2}\.\d{4}/i)?.[1]?.toLowerCase();
     const camera = color === 'dfefff' ? 'Senat' : color === 'fff0d8' ? 'Camera Deputaților' : null;
-    if (action) timeline.push({ camera, data: date, actiune: action });
+    // Votul din plen are linkul „rezultat vot” către lista nominală (scripts/straja-votes.mjs o citește).
+    const idv = Number(row.match(/evot2015\.Nominal\?idv=(\d+)/i)?.[1]) || null;
+    if (action) timeline.push({ camera, data: date, actiune: action, ...(idv && { idv }) });
   }
 
   // Documentele: fiecare PDF stă într-o celulă, iar eticheta lui („Forma adoptată de Senat”) în celula următoare.
@@ -286,4 +295,57 @@ export function parseSheet(html) {
     consultare: consultare?.termen ? consultare : null,
     rapoarte,
   };
+}
+
+const LUNI = ['ianuarie', 'februarie', 'martie', 'aprilie', 'mai', 'iunie', 'iulie', 'august', 'septembrie', 'octombrie', 'noiembrie', 'decembrie'];
+/** Grupurile cum le scrie Camera („Neafil.”, „Mino”, „SOS RO”, „PSD(afiliat)”) → numele de pe site. */
+export function voteParty(raw = '') {
+  const p = clean(raw).replace(/\s*\(afiliat\)\s*$/i, '').trim();
+  if (!p || /^neafil/i.test(p)) return 'Neafiliați';
+  if (/^mino/i.test(p)) return 'Minorități';
+  if (/^SOS\b/i.test(p)) return 'SOS';
+  return p.toUpperCase();
+}
+const CDEP_VOTE = { DA: 'pentru', NU: 'contra', AB: 'abtinere', '-': 'nu a votat' };
+const TOTAL_ROWS = { prezenti: /^- Prezenti/i, pentru: /^- Pentru/i, contra: /^- Contra/i, abtineri: /^- Abtineri/i, nuAuVotat: /^- Nu au votat/i };
+
+/**
+ * Pagina unui vot din plen (evot2015.Nominal): data și ora, subiectul („Vot final” / „Respingere”, numărul proiectului),
+ * totalurile (pe toată Camera și pe grupuri) și lista nominală a celor prezenți, cu `idm`-ul fișei fiecărui deputat.
+ * Deputații afiliați unui grup („PSD(afiliat)”) sunt numărați de Cameră la grupul acela; îi păstrăm la fel, cu `afiliat`.
+ */
+export function parseVote(html) {
+  const head = clean(html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i)?.[1] ?? '');
+  const d = head.match(/(\d{1,2})\s+([a-zăâîșț]+)\s+(\d{4})/i);
+  const month = d ? LUNI.indexOf(d[2].toLowerCase()) + 1 : 0;
+  const date = d && month ? `${d[3]}-${String(month).padStart(2, '0')}-${d[1].padStart(2, '0')}` : null;
+  const time = head.match(/ora\s+(\d{1,2}:\d{2})/)?.[1] ?? null;
+
+  const subjectCell = html.match(/Subiect vot:<\/td>\s*<td[^>]*>([\s\S]*?)<\/td>/i)?.[1] ?? '';
+  const subiect = clean(subjectCell.match(/<b>([\s\S]*?)<\/b>/i)?.[1] ?? '') || null;
+  const detaliu = clean(subjectCell.replace(/<b>[\s\S]*?<\/b>/i, '').split(/<a /i)[0]) || null;
+  const bill = subjectCell.match(/upl_pck2015\.proiect\?idp=(\d+)[^>]*>([^<]+)<\/a>/i);
+
+  // Tabelul totalurilor: prima coloană e eticheta, a doua totalul, apoi câte una pe grup, în ordinea din antet.
+  const table = html.match(/<b>Optiune:<\/b>([\s\S]*?)<\/table>/i)?.[1] ?? '';
+  const rows = [...table.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/gi)].map((r) => [...r[1].matchAll(/<td[^>]*>([\s\S]*?)(?=<td|$)/gi)].map((c) => clean(c[1])));
+  const header = (table.split(/<tr/i)[0].match(/<td[^>]*>[\s\S]*?(?=<td|$)/gi) ?? []).map((c) => clean(c));
+  const groups = header.slice(1).map(voteParty); // fără „Total”
+  const num = (s) => (/^\d+$/.test(s ?? '') ? Number(s) : 0);
+  const totals = { prezenti: 0, pentru: 0, contra: 0, abtineri: 0, nuAuVotat: 0 };
+  const parties = groups.map((party) => ({ party, prezenti: 0, pentru: 0, contra: 0, abtineri: 0, nuAuVotat: 0 }));
+  for (const cells of rows) {
+    const key = Object.keys(TOTAL_ROWS).find((k) => TOTAL_ROWS[k].test(cells[0] ?? ''));
+    if (!key) continue;
+    totals[key] = num(cells[1]);
+    cells.slice(2).forEach((c, i) => parties[i] && (parties[i][key] = num(c)));
+  }
+
+  const members = [];
+  for (const [, idm, nume, grup, vot] of html.matchAll(
+    /structura2015\.mp\?idm=(\d+)[^"]*">([^<]+)<\/a><\/td>\s*<td[^>]*>([^<]*)<\/td>\s*<td[^>]*>\s*([^<]*?)\s*<\/td>/gi,
+  )) {
+    members.push({ idm: +idm, nume: clean(nume), partid: voteParty(grup), ...(/\(afiliat\)/i.test(grup) && { afiliat: true }), vot: CDEP_VOTE[vot.trim()] ?? (vot.trim() || 'nu a votat') });
+  }
+  return { date, time, subiect, detaliu, proiect: bill ? { idp: +bill[1], numar: clean(bill[2]) } : null, totals, parties, members };
 }

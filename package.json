@@ -18,6 +18,7 @@
     "straja:news": "node scripts/straja-news.mjs",
     "straja:positions": "node scripts/straja-positions.mjs",
     "straja:mps": "node scripts/straja-mps.mjs",
+    "straja:votes": "node scripts/straja-votes.mjs",
     "deploy": "wrangler d1 migrations apply lastraja --remote && next build && wrangler deploy",
     "preview": "next build && wrangler dev",
     "straja:reports": "node scripts/straja-reports.mjs",

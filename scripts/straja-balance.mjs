@@ -12,6 +12,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { runModel } from './lib/ai-cli.mjs';
+import { readCdepIndex } from './lib/cdep-index.mjs';
 import { clean, quoteKey, verifiedQuote } from './lib/quotes.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -65,7 +66,7 @@ function load(slug) {
 function targets() {
   if (slugs.length) return slugs;
   const senate = (readJson(path.join(DATA, 'senat-bills.json')) ?? []).map((b) => b.slug);
-  const chamber = (readJson(path.join(DATA, 'cdep', 'index.json'))?.proiecte ?? []).filter((p) => !p.senat).map((p) => p.slug);
+  const chamber = readCdepIndex(DATA).proiecte.filter((p) => !p.senat).map((p) => p.slug);
   return [...senate, ...chamber].filter((s) => {
     const a = readJson(path.join(DATA, 'analyses', `${s}.json`));
     return a?.consensus && (level === 'toate' || a.consensus.riskLevel === level);

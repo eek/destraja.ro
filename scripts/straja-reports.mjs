@@ -32,6 +32,7 @@ import crypto from 'node:crypto';
 import { spawn } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { MODEL_KEYS, runModel } from './lib/ai-cli.mjs';
+import { readCdepIndex } from './lib/cdep-index.mjs';
 import { SITE } from '../email/layout.mjs';
 import { reportResultEmail } from '../email/report-result.mjs';
 
@@ -535,7 +536,7 @@ async function notify(bills) {
 function knownBills() {
   const bills = new Map(JSON.parse(fs.readFileSync(path.join(DATA, 'senat-bills.json'), 'utf8')).map((b) => [b.id, b]));
   // Proiectele de la Cameră au analiza și textele în aceleași foldere, după slug („plx-94-2026”); raportul vine cu numărul lor.
-  const chamber = JSON.parse(fs.readFileSync(path.join(DATA, 'cdep', 'index.json'), 'utf8')).proiecte;
+  const chamber = readCdepIndex(DATA).proiecte;
   for (const p of chamber) {
     if (!bills.has(p.numar) && fs.existsSync(path.join(DATA, 'analyses', `${p.slug}.json`))) bills.set(p.numar, { id: p.numar, slug: p.slug });
   }

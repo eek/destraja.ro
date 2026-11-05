@@ -2,11 +2,10 @@
 // de share (straja-share): aceleași numere în ambele.
 import fs from 'node:fs';
 import path from 'node:path';
+import { AT_CHAMBER, readCdepIndex } from './cdep-index.mjs';
 
 const readJson = (file, fallback) => (fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : fallback);
 
-// Proiectele aflate acum în dezbatere la Cameră (aceeași regulă ca în scripts/straja-council.mjs).
-const AT_CHAMBER = /^(la comisii|raport|pe ordinea de zi|în reexaminare|aviz|sesizare)/i;
 const nameKey = (name) => name.normalize('NFKD').replace(/\p{M}/gu, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
 /**
@@ -15,15 +14,20 @@ const nameKey = (name) => name.normalize('NFKD').replace(/\p{M}/gu, '').toLowerC
  * numărăm termenele încă deschise, ca pe cardul Camerei de pe prima pagină.
  */
 export function cameraStats(DATA, senateBills, today = new Date().toISOString().slice(0, 10)) {
-  const index = readJson(path.join(DATA, 'cdep', 'index.json'), { proiecte: [] });
-  const rows = index.proiecte.filter((p) => !p.senat);
-  const bills = rows
+  // Totalurile („toate cele N proiecte din 2026”) sunt ale anului listei; „în dezbatere acum” (here) cuprinde și
+  // proiectele din anii trecuți încă la Cameră (data/cdep/ani, scripts/straja-cdep-vechi.mjs).
+  const index = readCdepIndex(DATA);
+  const all = index.proiecte
+    .filter((p) => !p.senat)
     .map((p) => ({ ...p, analysis: readJson(path.join(DATA, 'analyses', `${p.slug}.json`), null), sheet: readJson(path.join(DATA, 'cdep', 'proiecte', `${p.slug}.json`), null) }))
     .filter((b) => b.analysis)
     .map((b) => ({ ...b, level: b.analysis.consensus.riskLevel, score: b.analysis.consensus.riskScore, title: b.analysis.consensus.plainTitle }));
+  const thisYear = (p) => !index.an || p.inregistrat?.startsWith(String(index.an));
+  const rows = index.proiecte.filter((p) => !p.senat && thisYear(p));
+  const bills = all.filter(thisYear);
   const levels = { red: 0, yellow: 0, green: 0 };
   for (const b of bills) levels[b.level]++;
-  const here = bills.filter((b) => AT_CHAMBER.test(b.stadiu));
+  const here = all.filter((b) => AT_CHAMBER.test(b.stadiu));
   // Termenele încă deschise: amendamentele și consultarea publică a Camerei (src/app/page.tsx).
   const amend = here.map((b) => b.sheet?.fisa.comisii?.termenAmendamente).filter((d) => d && d >= today);
   const consult = here.map((b) => b.sheet?.fisa.consultare?.termen).filter((d) => d && d >= today);

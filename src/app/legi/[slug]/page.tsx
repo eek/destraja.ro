@@ -25,6 +25,7 @@ import { Flags } from '@/components/bills/Flags';
 import CiteBill from '@/components/bills/CiteBill';
 import DocumentText from '@/components/bills/DocumentText';
 import { citation } from '@/lib/export';
+import BillAvize from '@/components/bills/BillAvize';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -161,6 +162,7 @@ export default async function BillDetailPage({ params }: PageProps) {
           </a>
         </ModelsVerdict>
         <BillReports reports={reports} manual={manual} />
+        <BillAvize slug={slug} />
         {balance && <BillBalance data={balance} level={c.riskLevel} />}
 
         <BillRoute bill={bill} />

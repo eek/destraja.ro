@@ -17,6 +17,7 @@ import BillBalance from '@/components/bills/BillBalance';
 import ModelsVerdict from '@/components/bills/ModelsVerdict';
 import ReportIssue from '@/components/bills/ReportIssue';
 import RiskInfo from '@/components/bills/RiskInfo';
+import BillAvize from '@/components/bills/BillAvize';
 import LiveDeadline from '@/components/bills/LiveDeadline';
 import { getBalance } from '@/lib/balance';
 import { getBillAgenda } from '@/lib/agenda';
@@ -216,6 +217,7 @@ export default async function CameraBillPage({ params }: PageProps) {
           </ModelsVerdict>
         )}
         <BillReports reports={reports} manual={manualCorrections(analysis?.corrections, reports)} />
+        <BillAvize slug={slug} />
         {c && balance && <BillBalance data={balance} level={c.riskLevel} />}
 
         <section aria-labelledby="traseu" className={`${panel} mt-6 p-6 sm:p-8`}>

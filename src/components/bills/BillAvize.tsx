@@ -4,7 +4,7 @@ import { formatDateRo } from '@/lib/format';
 import { trackAttrs } from '@/lib/analytics';
 import { panel } from '@/components/ui';
 
-const label = 'text-xs font-semibold uppercase tracking-[0.06em] text-muted';
+const label = 'text-xs font-semibold text-muted';
 
 // Citatele vin uneori cu ghilimelele lor; le punem o singură dată.
 const bare = (s: string) => s.trim().replace(/^[„“"«]+|[”“"»]+$/g, '');

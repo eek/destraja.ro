@@ -4,7 +4,7 @@ import { type PublicReport, targetsLabel } from '@/lib/reports';
 import { formatDateRo } from '@/lib/format';
 import { panel } from '@/components/ui';
 
-const label = 'text-xs font-semibold uppercase tracking-[0.06em] text-muted';
+const label = 'text-xs font-semibold text-muted';
 
 // Citatele din textul oficial vin uneori cu ghilimelele lor („g) …;”); le punem o singură dată.
 const bare = (s: string) => s.trim().replace(/^[„“"«]+|[”“"»]+$/g, '');

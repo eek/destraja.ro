@@ -67,6 +67,17 @@ export const CHANGELOG: ChangeDay[] = [
       },
       {
         kind: 'schimbat',
+        title: 'Presa, din indexul nostru de știri',
+        text: 'Citim feed-urile a peste 100 de publicații la fiecare 30 de minute și potrivim articolele cu proiectele. În fiecare dimineață, ChatGPT citește articolele găsite și le păstrează doar pe cele chiar despre proiect, cu un citat, iar codul verifică apoi linkul și citatul, ca până acum. Căutarea pe web cu cele trei modele rămâne o dată pe săptămână, pentru publicațiile fără feed.',
+        link: { href: '/metodologie#verificare', label: 'Cum verificăm presa' },
+      },
+      {
+        kind: 'schimbat',
+        title: 'Poziția presei, citită și de GLiDE',
+        text: 'Unul dintre cele trei modele care spun dacă un articol susține sau critică proiectul e acum GLiDE (Fastino), rulat pe calculatorul nostru, cu greutăți publice. Eticheta apare tot doar unde cel puțin două modele sunt de acord.',
+      },
+      {
+        kind: 'schimbat',
         title: 'Formele noi, comparate în aceeași zi',
         text: 'Când pe fișa unui proiect apare o formă nouă, de exemplu cea adoptată de Senat, o analizăm și o comparăm cu cea dinainte chiar în dimineața aceea, iar scorul proiectului trece pe forma nouă. La fel se completează zilnic avizele instituțiilor și lista „ce e bine și ce strică”.',
       },

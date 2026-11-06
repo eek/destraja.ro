@@ -277,13 +277,15 @@ export const StagePath = memo(function StagePath({
   );
 });
 
-/** Proiectele care au plecat deja de la Cameră: un rând sub etape, fiecare etapă duce la „Toate din 2026”, filtrat. */
+/** Proiectele anului care au plecat deja de la Cameră: un rând sub etape, fiecare etapă duce la „Toate din <an>”, filtrat. */
 export const OutsideLine = memo(function OutsideLine({
   items,
+  year,
   stage,
   onStage,
 }: {
   items: CdepListItem[];
+  year: number;
   stage: StageKey | null;
   onStage: (s: StageKey | null) => void;
 }) {
@@ -294,7 +296,7 @@ export const OutsideLine = memo(function OutsideLine({
     <div className="mt-10 border-t border-line pt-6 lg:mt-12">
       <p className="text-[15px] leading-relaxed text-body">
         Au plecat deja de la Cameră <strong className="font-semibold text-ink">{countWord(total, 'proiect', 'proiecte')}</strong> din cele înregistrate în
-        an. Le vezi în „Toate din 2026”:
+        an. Le vezi în „Toate din {year}”:
       </p>
       <div role="group" aria-label="Proiectele plecate de la Cameră" className="mt-3 flex flex-wrap gap-2">
         {rows.map((r) => {

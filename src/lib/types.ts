@@ -123,7 +123,7 @@ export interface BillNews {
   articles: PressArticle[];
 }
 
-/** Poziția articolului față de proiect, clasificată de Clef (scripts/straja-stance.mjs). */
+/** Poziția articolului față de proiect, clasificată de cei trei cititori (scripts/straja-stance.mjs). */
 export type PressStance = 'critical' | 'supportive' | 'neutral' | 'mixed';
 export type PressSource =
   | 'national_news'

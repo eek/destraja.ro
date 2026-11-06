@@ -1,6 +1,7 @@
 import type { PressArticle, PressSource, PressStance } from './types';
 
-// Pragurile pentru clasificarea făcută de cei trei cititori (scripts/straja-stance.mjs): Clef, d1-3B și GPT-6 Luna.
+// Pragurile pentru clasificarea făcută de cei trei cititori (scripts/straja-stance.mjs): GLiDE, d1-3B și GPT-6 Luna
+// (până pe 6 noiembrie 2026, Clef în locul lui GLiDE; articolele încă neclasificate de GLiDE îl păstrează pe Clef).
 // Punem o etichetă doar unde cel puțin doi aleg aceeași variantă, fiecare cu cel puțin 60% siguranță (cu un singur
 // răspuns, doar el): „neclar” e mai cinstit decât o ghicire.
 const AGREE_MIN = 0.6;

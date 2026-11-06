@@ -1,8 +1,9 @@
-// Datele paginii /cum-functioneaza: ce rulează, unde și cu ce. Cifrele se calculează la build din aceleași
+// Datele părții tehnice din /metodologie: ce rulează, unde și cu ce. Cifrele se calculează la build din aceleași
 // date ca restul site-ului (getAllBills); ce nu se poate număra din date nu apare pe pagină.
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { getAllBills, getBillExtractedTexts } from './bills';
+import { getCdepSlugs } from './cdep';
 import { countOrganisations } from './positions';
 import { FEATURED_ID } from './site';
 
@@ -18,7 +19,15 @@ export const OCR_ENGINE = { name: 'MinerU', maker: 'OpenDataLab', check: 'Tesser
  * fixe din PRESS_QUESTIONS, cu o probabilitate pentru fiecare variantă.
  */
 export const LOCAL_MODELS = [
-  { name: 'Clef', maker: 'Cloudflare', license: 'Apache-2.0', params: '27 de miliarde', runtime: 'MLX, pe 8 biți', engine: 'MLX', weights: 'mlx-community/clef-8bit' },
+  {
+    name: 'GLiDE',
+    maker: 'Fastino',
+    license: 'Fastino Community License',
+    params: '27 de miliarde',
+    runtime: 'MLX, pe 8 biți',
+    engine: 'MLX',
+    weights: 'fastino/GLiDE v1.2, convertit de noi',
+  },
   { name: 'd1-3B', maker: 'Liquid AI', license: 'LFM Open License v1.0', params: '3 miliarde', runtime: 'PyTorch, pe GPU-ul Mac-ului', engine: 'PyTorch', weights: 'LiquidAI/d1-3B' },
 ] as const;
 
@@ -79,6 +88,8 @@ export async function getTechFacts() {
 
   return {
     bills: bills.length,
+    /** Proiectele Camerei cu fișă citită (anul curent și cei trecuți), fără cele urmărite deja de la Senat. */
+    chamber: (await getCdepSlugs()).length,
     open: bills.filter((b) => b.daysRemaining >= 0).length,
     documents,
     ocr,

@@ -1,5 +1,5 @@
 import { getAllBills, getDataSyncedAt, toLite } from '@/lib/bills';
-import { getCdepIndex, getCdepList, getCdepSigned, getVersionsStatus } from '@/lib/cdep';
+import { getCdepIndex, getCdepList, getCdepSigned, getVersionsStatus, registeredYear } from '@/lib/cdep';
 import { STAGES } from '@/lib/cdep-text';
 import { computeMpStats } from '@/lib/stats';
 import { formatDateRo, todayISO } from '@/lib/format';
@@ -61,7 +61,8 @@ export default async function HomePage() {
       mpCount={mpCount}
       cam={{
         total: rated.length,
-        registered: index?.proiecte.length ?? cdep.length,
+        // Înregistrate în anul curent; cele din anii trecuți încă în dezbatere intră doar în `total`, dacă au analiză.
+        registered: index?.proiecte.filter((p) => registeredYear(p) === index.an).length ?? cdep.length,
         counts,
         // Termenele trecute nu mai pot reveni; restul se filtrează în browser, după ziua de azi.
         amend: rated.filter((p) => p.deadline && p.deadline >= builtOn).sort((a, b) => a.deadline!.localeCompare(b.deadline!) || byScore(a, b)),

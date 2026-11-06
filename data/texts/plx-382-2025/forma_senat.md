@@ -1,0 +1,15 @@
+# PARLAMENTUL ROMÂNIEI SENAT
+
+## LEGE
+
+pentru aprobarea Ordonanței de urgență a Guvernului nr.46/2025 privind modificarea și completarea Ordonanței de urgență a Guvernului nr.17/2005 pentru stabilirea unor măsuri organizatorice la nivelul administrației publice centrale, precum și pentru modificarea unor acte normative
+
+Senatul adoptă prezentul proiect de lege
+
+Articol unic.- Se aprobă Ordonanța de urgență a Guvernului nr.46 din 18 septembrie 2025 privind modificarea și completarea Ordonanței de urgență a Guvernului nr.17/2005 pentru stabilirea unor măsuri organizatorice la nivelul administrației publice centrale, precum și pentru modificarea unor acte normative, publicată în Monitorul Oficial al României, Partea I, nr. 863 din 19 septembrie 2025.
+
+Acest proiect de lege a fost adoptat de Senat în ședința din 13 octombrie 2025, cu respectarea prevederilor articolului 76 alineatul (2) din Constituția României, republicată.
+
+PREȘEDINTELE SENATULUI
+
+MIRCEA ABRUDEAN

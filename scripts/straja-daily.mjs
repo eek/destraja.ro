@@ -8,7 +8,7 @@
 //    la Cameră, și amendamentele din rapoartele comisiilor, cu autorii lor (straja-amendments), apoi voturile nominale din
 //    plen ale fișelor noi sau schimbate, la Cameră și la Senat (straja-votes)
 // 3. presa pentru proiectele aflate în consultare (straja-news), apoi poziția articolelor noi față de proiect, cu două
-//    modele de decizie rulate local, Clef și d1-3B (straja-stance)
+//    modele de decizie rulate local, GLiDE și d1-3B (straja-stance)
 // 4. pozițiile organizațiilor (straja-positions --due): proiectele cu risc ridicat sau cu cel mult 3 zile până la
 //    termen zilnic, cele cu risc moderat la 3 zile, restul o dată pe săptămână; cel mult 16 proiecte pe zi
 // 5. datele de contact oficiale ale parlamentarilor (straja-mps): lunea toate fișele, în celelalte zile
@@ -149,15 +149,27 @@ async function main() {
     const stillMissing = readBills().filter((b) => !fs.existsSync(analysisPath(b.slug)));
     if (stillMissing.length) summary.push(`${stillMissing.length} fără analiză`);
 
-    const camera = await step('Camera Deputaților', 'node', ['scripts/straja-camera.mjs'], { timeoutMs: 900_000 });
+    // La o cerere pe minut (cdep.ro, 5 noiembrie), legătura cu Camera are nevoie de 20–40 de minute: listele și fișele
+    // proiectelor de la Senat ajunse acolo. Cu 15 minute era oprită înainte să termine (5 și 6 noiembrie).
+    const camera = await step('Camera Deputaților', 'node', ['scripts/straja-camera.mjs'], { timeoutMs: 3_600_000 });
     if (!camera.ok) summary.push('legătura cu Camera Deputaților a eșuat');
-    // Lista Camerei și fișele noi sau schimbate (cel mult 50, la 5 secunde una de alta), apoi analiza câtorva proiecte:
-    // întâi cele pe ordinea de zi, apoi cele cu raport, apoi cele mai noi.
-    const cdep = await step('Camera: proiecte', 'node', ['scripts/straja-cdep.mjs', '--max=50'], { timeoutMs: 1_800_000 });
+    // Proiectele din anii trecuți încă în dezbatere (straja-cdep-vechi): listele anilor 2020–2025 cel mult o dată pe
+    // săptămână, fișele doar când lipsesc sau când rândul lor din listă s-a schimbat, cel mult 10 pe zi. În celelalte
+    // zile nu cere nimic de la cdep.ro. Analizele lor vin mai jos („Camera: analize”), în aceeași ordine ca anul curent.
+    const cdepOld = await step('Camera: anii trecuți', 'node', ['scripts/straja-cdep-vechi.mjs', '--max=10'], { timeoutMs: 2_400_000 });
+    if (!cdepOld.ok) summary.push('proiectele Camerei din anii trecuți au eșuat');
+    // Lista Camerei și fișele noi sau schimbate (cel mult 40, câte una pe minut), apoi analiza câtorva proiecte: întâi
+    // cele pe ordinea de zi, apoi cele cu raport, apoi cele mai noi. Fișele citite se scriu pe loc, deci o rulare oprită
+    // nu pierde nimic; restul vine mâine.
+    const cdep = await step('Camera: proiecte', 'node', ['scripts/straja-cdep.mjs', '--max=40'], { timeoutMs: 3_000_000 });
     if (!cdep.ok) summary.push('lista Camerei a eșuat');
     else {
       const cdepCouncil = await step('Camera: analize', 'node', ['scripts/straja-council.mjs', '--camera', '--due', '--max=8'], { timeoutMs: 7_200_000 });
       if (!cdepCouncil.ok) summary.push('analizele Camerei au eșuat');
+      // O formă nouă pe fișă (de exemplu cea adoptată de Senat): analiza ei, comparația cu forma dinainte și analiza
+      // principală mutată pe ea; apoi câte unul din proiectele încă necomparate.
+      const forms = await step('Camera: forme noi', 'node', ['scripts/straja-council.mjs', '--versions', '--max=5'], { timeoutMs: 5_400_000 });
+      if (!forms.ok) summary.push('comparațiile formelor au eșuat');
       // Amendamentele din rapoartele comisiilor, cu autorii lor; doar proiectele cu raport sau comparație nouă ajung la model.
       const amendments = await step('Camera: amendamente', 'node', ['scripts/straja-amendments.mjs', '--max=100'], { timeoutMs: 7_200_000 });
       if (!amendments.ok) summary.push('amendamentele Camerei au eșuat');
@@ -169,6 +181,14 @@ async function main() {
 
     const ces = await step('Avize CES', 'node', ['scripts/straja-ces.mjs'], { timeoutMs: 1_800_000 });
     if (!ces.ok) summary.push('rezumatul avizelor CES a eșuat');
+    // Ce spun instituțiile (Guvernul, comisia, Consiliul Legislativ, Consiliul Fiscal) la proiectele de pe ordinea de zi
+    // și cu raport: documentele deja citite stau în .cache/avize, deci la model ajung doar cele noi. Cererile la cdep.ro
+    // au pauza comună; ce nu încape în oră rămâne pentru mâine.
+    const avize = await step('Avize', 'node', ['scripts/straja-avize.mjs', '--max=40', '--yield-to=nimic'], { timeoutMs: 3_600_000 });
+    if (!avize.ok) summary.push('avizele instituțiilor au eșuat');
+    // Ce e bine și ce strică, pentru proiectele noi și cele cu textul sau scorul schimbat.
+    const balance = await step('Ce e bine și ce strică', 'node', ['scripts/straja-balance.mjs', '--risc=toate', '--max=30', '--limita=1800'], { timeoutMs: 3_600_000 });
+    if (!balance.ok) summary.push('„ce e bine și ce strică” a eșuat');
 
     if (!args.has('--skip-news')) {
       const news = await step('Presă', 'node', ['scripts/straja-news.mjs', '--max-age=20'], { timeoutMs: 5_400_000 });
@@ -229,6 +249,12 @@ async function main() {
       const agenda = await step('Agendele Senatului', 'sh', ['-c', fetchAgenda], { timeoutMs: 120_000 });
       if (!agenda.ok) summary.push('agendele Senatului au rămas de ieri');
     }
+    // Fișele Camerei din anii trecuți citite între timp de VM (scripts/vm/cdep-vm.mjs): HTML-ul vine prin ssh și tar, ca
+    // agendele, și îl citim aici cu același parser; nicio cerere la cdep.ro. Dacă VM-ul nu răspunde, vin mâine.
+    if (fs.existsSync(AGENDA_VM)) {
+      const vmSheets = await step('Camera: fișele de pe VM', 'node', ['scripts/straja-cdep-vechi.mjs', '--doar-vm'], { timeoutMs: 600_000 });
+      if (!vmSheets.ok) summary.push('fișele Camerei de pe VM au rămas acolo');
+    }
 
     const counts = checkData();
     log(`Date verificate: ${counts.analysed}/${counts.bills} proiecte cu analiză`);
@@ -263,7 +289,9 @@ async function main() {
       if (!commit.ok && !/nothing to commit|nimic de comis/i.test(commit.tail)) summary.push('datele au rămas necomise');
 
       // Întâi ce s-a aprobat între timp prin PR pe GitHub, altfel push-ul e respins.
-      const pull = await step('Sincronizare GitHub', 'git', ['pull', '--rebase', '--autostash', '-q', 'origin', 'main'], { timeoutMs: 120_000 });
+      // --rebase=merges: fără el, commit-urile de unire ale ramurilor (de exemplu „Merge branch 'voturi'”) se refac unul
+      // câte unul și dau conflicte chiar când GitHub n-are nimic nou (6 noiembrie).
+      const pull = await step('Sincronizare GitHub', 'git', ['pull', '--rebase=merges', '--autostash', '-q', 'origin', 'main'], { timeoutMs: 120_000 });
       if (!pull.ok) {
         await step('Anulare rebase', 'git', ['rebase', '--abort'], { timeoutMs: 60_000 });
         summary.push('GitHub: sincronizarea a eșuat');

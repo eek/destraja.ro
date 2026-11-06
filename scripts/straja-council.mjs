@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url';
 import { textName, writeBillTexts } from './lib/pdf-text.mjs';
 import { runModel } from './lib/ai-cli.mjs';
 import { CdepBlocked, fetchCdepFile } from './lib/cdep.mjs';
+import { readCdepIndex } from './lib/cdep-index.mjs';
 import { unitDiff } from './lib/text-diff.mjs';
 import { clean, quoteKey, verifiedQuote } from './lib/quotes.mjs';
 
@@ -278,7 +279,10 @@ async function analyzeBillWithCouncil(bill, force = false, { texts: given, versi
 // node scripts/straja-council.mjs --camera [slug] [--due] [--max=10]
 // Fără slug, --due alege proiectele fără analiză și neurmărite de la Senat: întâi cele aflate acum la Cameră (ordinea
 // de zi, apoi cele cu raport, apoi celelalte), apoi restul anului (trimise la Senat, la promulgare, legi, respinse), de la
-// cele mai noi. Fiecare rulare face cel mult --max, ca analizele să se strângă treptat.
+// cele mai noi. Fiecare rulare face cel mult --max, ca analizele să se strângă treptat. Proiectele din anii trecuți încă
+// în dezbatere (data/cdep/ani, straja-cdep-vechi.mjs) intră în aceeași ordine.
+// Cu COUNCIL_MODELS, --due ia și analizele cărora le lipsește răspunsul unui model cerut: analizele făcute fără Claude
+// (COUNCIL_MODELS=agy,codex) se completează mai târziu cu COUNCIL_MODELS=claude, fără să se refacă Gemini și ChatGPT.
 const CDEP_DIR = path.join(DATA_DIR, 'cdep');
 const AT_CHAMBER = /^(la comisii|raport|pe ordinea de zi|în reexaminare|aviz|sesizare)/i;
 const PRIORITY = [/^pe ordinea de zi/i, /^raport/i];
@@ -366,10 +370,15 @@ function claimer(kind) {
 async function mainChamber(args) {
   const slug = args.find((a) => !a.startsWith('--'));
   const max = Number(args.find((a) => a.startsWith('--max='))?.split('=')[1] ?? 10);
-  const index = JSON.parse(fs.readFileSync(path.join(CDEP_DIR, 'index.json'), 'utf8')).proiecte;
+  const index = readCdepIndex(DATA_DIR).proiecte;
   const read = (s) => {
     const file = path.join(CDEP_DIR, 'proiecte', `${s}.json`);
     return fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : null;
+  };
+  // Fără analiză sau, cu COUNCIL_MODELS, cu un model cerut care n-a răspuns încă (vezi missingModels).
+  const due = (s) => {
+    const file = path.join(ANALYSES_DIR, `${s}.json`);
+    return !fs.existsSync(file) || missingModels(readJsonFile(file));
   };
   const rank = (p) => {
     const i = PRIORITY.findIndex((re) => re.test(p.stadiu));
@@ -378,7 +387,7 @@ async function mainChamber(args) {
   const targets = slug
     ? [read(slug)].filter(Boolean)
     : index
-        .filter((p) => !p.senat && !fs.existsSync(path.join(ANALYSES_DIR, `${p.slug}.json`)))
+        .filter((p) => !p.senat && due(p.slug))
         .sort((a, b) => rank(a) - rank(b) || b.inregistrat.localeCompare(a.inregistrat))
         .map((p) => read(p.slug))
         .filter((s) => s && !s.senat);
@@ -391,7 +400,7 @@ async function mainChamber(args) {
   for (const sheet of targets) {
     if (done >= max) break;
     const release = slug ? () => {} : claim(sheet.slug);
-    if (!release || (!slug && fs.existsSync(path.join(ANALYSES_DIR, `${sheet.slug}.json`)))) {
+    if (!release || (!slug && !due(sheet.slug))) {
       release?.();
       continue;
     }
@@ -705,6 +714,8 @@ async function versionsForBill(sheet, force, recompare = false) {
     slug: sheet.slug,
     billId: bill.id,
     updatedAt: new Date().toISOString(),
+    // Formele de pe fișă la comparația asta, și cele fără text: doar o formă în plus față de ele cere o comparație nouă.
+    plan: versionPlan(sheet).map((v) => v.key),
     versions: withText.map((v) => ({
       key: v.key,
       label: VERSION_LABEL[v.key],
@@ -748,7 +759,7 @@ async function mainVersions(args) {
   const force = args.includes('--force');
   // --recompare: doar comparațiile făcute cu instrucțiuni mai vechi (COMPARE_SCHEMA), fără analize noi; se poate relua.
   const recompare = args.includes('--recompare');
-  const index = JSON.parse(fs.readFileSync(path.join(CDEP_DIR, 'index.json'), 'utf8')).proiecte;
+  const index = readCdepIndex(DATA_DIR).proiecte;
   const read = (s) => readJsonFile(path.join(CDEP_DIR, 'proiecte', `${s}.json`));
   // --status: doar data/cdep/versions-status.json, fără comparații.
   if (args.includes('--status')) {
@@ -760,12 +771,25 @@ async function mainVersions(args) {
     const dir = path.join(VERSIONS_DIR, s);
     return fs.existsSync(path.join(VERSIONS_DIR, `${s}.json`)) && fs.existsSync(dir) && fs.readdirSync(dir).some((f) => missingModels(readJsonFile(path.join(dir, f))));
   };
-  // Proiectele cu analiză principală și cel puțin două forme posibile; întâi cele aflate acum la Cameră.
+  // O formă apărută pe fișă după ultima comparație (de exemplu cea adoptată de Senat): versionsForBill analizează doar
+  // forma nouă, mută analiza principală pe ea și compară doar perechea nouă. Comparațiile dinainte de câmpul „plan” se
+  // judecă după formele pe care le au.
+  const newForm = (s) => {
+    const prev = readJsonFile(path.join(VERSIONS_DIR, `${s.slug}.json`));
+    if (!prev) return false;
+    const seen = prev.plan ?? prev.versions.map((v) => v.key);
+    return versionPlan(s).some((v) => !seen.includes(v.key));
+  };
+  // Proiectele cu analiză principală și cel puțin două forme posibile; întâi cele cu o formă nouă, apoi cele aflate acum
+  // la Cameră.
+  const compared = (s) => fs.existsSync(path.join(VERSIONS_DIR, `${s.slug}.json`));
   const targets =(slug ? [{ slug }] : index.filter((p) => !p.senat && fs.existsSync(path.join(ANALYSES_DIR, `${p.slug}.json`))))
     .map((p) => read(p.slug))
     .filter((s) => s && versionPlan(s).length >= 2)
-    .filter((s) => slug || force || (canRun('claude') ? recompare === fs.existsSync(path.join(VERSIONS_DIR, `${s.slug}.json`)) : incomplete(s.slug)))
-    .sort((a, b) => Number(!AT_CHAMBER.test(a.stadiu ?? '')) - Number(!AT_CHAMBER.test(b.stadiu ?? '')));
+    .filter((s) => slug || force || (canRun('claude') ? (recompare ? compared(s) : !compared(s) || newForm(s)) : incomplete(s.slug)))
+    .map((s) => ({ s, first: newForm(s) ? 0 : AT_CHAMBER.test(s.stadiu ?? '') ? 1 : 2 }))
+    .sort((a, b) => a.first - b.first)
+    .map(({ s }) => s);
   const claim = claimer('versions');
   let done = 0;
   let failed = 0;

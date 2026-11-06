@@ -64,10 +64,10 @@ export default function InfraMap() {
     {
       id: 'mac',
       title: 'Mac-ul întreținătorului',
-      sub: 'Apple Silicon · luni–vineri, 08:00, prin launchd',
+      sub: 'Apple Silicon · luni–vineri, 09:30, prin launchd',
       items: [
         'Scripturile lanțului, în Node.js',
-        'Gemini, Claude și ChatGPT, prin CLI-urile lor, închise',
+        'Gemini, Claude și ChatGPT, prin CLI-urile lor, închise, pe serverul nostru virtual, mereu pornit',
         `OCR: ${OCR_ENGINE.name}, verificat cu ${OCR_ENGINE.check}`,
         `${LOCAL_MODELS.map((m) => m.name).join(' și ')}, modelele de decizie locale`,
         'Build-ul site-ului static',

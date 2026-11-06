@@ -1,0 +1,43 @@
+Expunere de motive
+
+Ordonanța Guvernului nr. 38/2025 privind soluționarea alternativă a litigiilor dintre consumatori și comercianți, publicată în Monitorul Oficial al României, Partea l, nr. 654 din 28 august 2015 a fost emisă pentru a respecta principiile Uniunii Europene conform cărora este importantă implementarea în toate statele membre a unor criterii comune în baza cărora să funcționeze sistemele de soluționare a litigiilor astfel încât consumatorii din toate statele membre să aibă la dispoziție un sistem de soluționare a litigiilor simplu, rapid, accesibil și la preț redus, care să acopere toate sectoarele de activitate.
+
+In acest sens, în data de 18 mai 2013 au fost adoptate Directiva nr. 2013/11/UE a Parlamentului European și a Consiliului privind soluționarea alternativă a litigiilor în materie de consum și de modificare a Regulamentului (CE) nr. 2006/2004 și a Directivei 2009/22/CE și Regulamentul (UE) nr. 524/2013 al Parlamentului European și al Consiliului privind soluționarea online a litigiilor în materie de consum și de modificare a Regulamentului (CE) nr. 2006/2004 și a Directivei 2009/22/CE.
+
+Directiva nr. 2013/11/UE urmărește să asigure un nivel înalt de protecție a consumatorilor și o bună funcționare a pieței interne prin garantarea faptului că reclamațiile împotriva comercianților pot fi prezentate de către consumatori, în mod voluntar, unor entități care aplică proceduri de soluționare alternativă a litigillor care sunt independente, imparțiale, transparente, eficace, rapide și echitabile. In acest context, datorită complexității și impactului pe care serviciile bancare le au asupra consumatorilor, prin dispozițiile articolului 22 și ale articolului 23 din Ordonanța Guvernului nr. 38/2025 privind soluționarea alternativă a litigiilor dintre consumatori și comercianți, publicată în Monitorul Oficial al României, Partea I, nr. 654 din 28 august 2015, a fost înființat Centrul de soluționare alternativă a litigiilor din sistemul bancar, activitatea acestuia fiind coordonată de un Colegiu de Coordonare format din 5 membri desemnați, câte unul, de către următoarele entități:
+
+a) Autoritatea Națională pentru Protecția Consumatorilor;
+
+b) Asociația Română a Băncilor;
+
+c) Banca Națională a României;
+
+d) asociațiile de consumatori care îndeplinesc condițiile prevăzute în art. 32 sau în art. 33 din Ordonanța Guvernului nr. 21/1992, republicată, cu modificările și completările ulterioare;
+
+e) un membru independent ales de către cei 4 membri desemnați conform lit.a)- d).
+
+Având în vedere că în prezent una dintre entitățile prevăzute la art. 22 alin. (1) nu a desemnat un reprezentantul în Colegiul de Coordonare, în condițiile legii, precum și datorită faptului că această situație blochează activitatea Colegiului, pentru a evita pe viitor situații similare, supunem Parlamentului, spre dezbatere și adoptare, prezenta inițiativă legislativă.
+
+Inițiatori,
+
+Nr. | Deputați/Senatori | Grupul | Semnătura crt. | parlamentar 1.
+
+bogdau Ciuco | PSD 3. Gabried Andronache | PNL 4. ROMAM FORIM | PHL 5. ragu Fere- Emani | 6. | FiNUTA STEFAAA PSD TOHDESW ALIL | 7≤% 8. EXE CORINA | PSD 9. COTiRLET PAUL | PSs 10. ADOMNICHi MIRELA | PSD
+
+11\. | PSD Samoilś ion 12. TOADER BOGDAN | FSP 13. TOULA IVE 14. Quongu Rome Serial RS1 15. BEJINARIU EÜGEN | PSD 16. MILIA MARIALI | PSI 17. BUSĂI MARIUS COXISTANTIM 18. NESTÊ EUGEN | PIs 19. RiNDER ANt SHARINSS . PSD 20. GAVRILESO GRATEVA | →3S G 21. BORS MADAL'N | PSD 22. MATICHESCU MIRELA FLORENTE PS1 23. CONSTANTIVESM SERGiU 24. | P SA LĂPUSAN | HEMIS 25. Sande | Viorica 26 Băizann Itfen Ateroa - Akaficinp 27. CHIRILTT VIRGIL -ALiM 28. DiMiTriu ALazansn. 29. MURARIU | OANA | USR 30. VADUVA DUMITRU | USH 31.
+
+32\.
+
+Către, BIROUL PERMANENT AL SENATULUI
+
+Subsemnata, Doina-Elena Federovici, senator ales în Circumscripția electorală nr. O1, Botoșani, solicit sa aprobați dobandirea calității de coinițiator al următoarelor propuneri legislative:
+
+\- Propunere legislativă pentru completarea art. 143 din Legea învățământului preuniversitar nr. 198/2023 (L158/2025);
+
+\- Propunere legislativă pentru completarea Legii nr.46/2003 privind drepturile pacientului cu modificările și completările ulterioare (b220/2025);
+
+\- Propunere legislativă pentru completarea Ordonanței Guvernului nr.38/2015 privind soluționarea alternativă a litigiilor dintre consumatori și comercianți (b194/2025).
+
+Vă mulțumesc.
+
+Senator Doina-Elena FEDEROVICI, Secretar al Senatului

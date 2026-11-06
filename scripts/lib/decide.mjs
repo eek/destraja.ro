@@ -86,9 +86,12 @@ export async function decide(model, requests, label, { onProgress } = {}) {
   return read();
 }
 
-/** Textul articolelor cu trafilatura (extract.py); pagini HTML după id → text după id. Fără mediu, o hartă goală. */
+/**
+ * Textul articolelor cu trafilatura (extract.py), în mediul lui, .venv-text; pagini HTML după id → text după id. Fără
+ * mediu, o hartă goală. (Până pe 6 noiembrie rula în mediul primului model, iar cu GLiDE în locul lui Clef a rămas fără trafilatura.)
+ */
 export async function extractArticles(pages) {
-  const venv = DECISION_MODELS[0].venv;
+  const venv = '.venv-text';
   if (!fs.existsSync(python(venv)) || !pages.length) return new Map();
   const out = await run(venv, ['extract.py'], pages.map(([id, html]) => JSON.stringify({ id, html })).join('\n') + '\n');
   return new Map(

@@ -24,12 +24,14 @@ doi cititori în 93,8% din cazuri, față de 90,1% la Clef, găsește articolele
 știe româna (aceeași poziție pe text românesc și pe traducerea lui în 28 din 30). Licența permite folosirea comercială
 sub 10 milioane de dolari venit pe an; conversia pe 8 biți e o copie derivată, rămâne locală, lângă `LICENSE` și `NOTICE`.
 
-Textul articolelor îl scoate [trafilatura](https://github.com/adbar/trafilatura) (`extract.py`), fără meniuri și reclame.
+Textul articolelor îl scoate [trafilatura](https://github.com/adbar/trafilatura) (`extract.py`), fără meniuri și reclame,
+în mediul lui, `.venv-text`, separat de modele.
 
 ## Instalare
 
 ```bash
 cd scripts/local-models
+uv venv --python 3.12 .venv-text && uv pip install --python .venv-text/bin/python -r requirements-text.txt
 uv venv --python 3.12 .venv-glide && uv pip install --python .venv-glide/bin/python -r requirements-glide.txt
 .venv-glide/bin/hf download fastino/GLiDE --revision d199b6d7e04523d87986b8b68cd62272ed1cefc0 --exclude "assets/*"
 # greutățile la MLX pe 8 biți: ~/work/destraja-glide/scripts/convert.sh (~28 GB; altă cale cu GLIDE_WEIGHTS)

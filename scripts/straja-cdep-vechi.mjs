@@ -25,7 +25,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { CdepBlocked, committeeUrl, fetchCdep, listUrl, parseCommitteeEmail, parseList, parseSheet, sheetUrl } from './lib/cdep.mjs';
 import { AT_CHAMBER, oldYearsDir } from './lib/cdep-index.mjs';
-import { peerEnabled, peerHello, pullVmHtml, vmCall } from './lib/cdep-peer.mjs';
+import { mirrorEntries, mirrorHtml, peerEnabled, peerHello, syncMirror, vmCall } from './lib/cdep-peer.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DATA = path.join(ROOT, 'data');
@@ -244,34 +244,27 @@ let vmClaims = new Map();
 let lastSync = 0;
 let lastPush = Date.now();
 const vmSheets = [];
-/** Aduce HTML-ul de pe VM și îl citește aici, apoi îi trimite coada nouă (ce a rămas, în ordinea noastră). */
+/**
+ * Aduce HTML-ul de pe VM în copia comună a Mac-ului (lib/cdep-peer.mjs, .cache/cdep-mirror) și citește de acolo fișele
+ * noastre, apoi îi trimite VM-ului coada nouă (ce a rămas, în ordinea noastră), ca sursa „vechi”.
+ */
 async function syncVm() {
   if (!peerEnabled) return;
   lastSync = Date.now();
-  const dir = path.join(ROOT, '.cache', `cdep-vm-${process.pid}`);
-  if (await pullVmHtml(dir)) {
-    const htmlDir = path.join(dir, 'html');
-    const got = [];
+  if (await syncMirror({ force: true })) {
     let now = 0;
-    for (const f of fs.existsSync(htmlDir) ? fs.readdirSync(htmlDir).sort() : []) {
-      if (!f.endsWith('.meta.json')) continue;
-      const meta = readJson(path.join(htmlDir, f));
-      const htmlFile = path.join(htmlDir, `${meta?.slug}.html`);
-      if (!meta?.slug || !fs.existsSync(htmlFile)) continue;
-      got.push(meta.slug);
+    for (const meta of mirrorEntries()) {
       const p = left.get(meta.slug);
       // Citită între timp, sau rândul din listă arată alt stadiu: fișa se cere din nou.
       if (!p || meta.key !== keyOf(p)) continue;
-      vmSheets.push(save(p, fs.readFileSync(htmlFile, 'utf8'), meta.fetchedAt));
+      vmSheets.push(save(p, mirrorHtml(meta.slug), meta.fetchedAt));
       now++;
     }
     fromVm += now;
-    if (got.length) await vmCall('ack', { slugs: got });
     if (now) log(`VM: ${now} fișe aduse și citite aici (${fromVm} în rularea asta)`);
   }
-  fs.rmSync(dir, { recursive: true, force: true });
   const queue = [...left.values()].map((p) => ({ slug: p.slug, url: p.url, key: keyOf(p) }));
-  const reply = await vmCall('push', { queue }, { timeoutMs: 120_000 });
+  const reply = await vmCall('push', { source: 'vechi', queue }, { timeoutMs: 120_000 });
   if (reply?.claims) {
     vmClaims = new Map(Object.entries(reply.claims));
     lastPush = Date.now();

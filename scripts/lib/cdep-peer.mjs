@@ -166,3 +166,86 @@ export async function pullVmHtml(dir) {
   noted(unpacked ? {} : null);
   return unpacked;
 }
+
+// ─── Copia de pe Mac a ce a citit VM-ul ────────────────────────────────────────────────────────────────────────────
+// VM-ul citește tot timpul (listele anului la câteva ore, fișele cu stadiul schimbat, cozile scripturilor). HTML-ul lui
+// vine aici, în .cache/cdep-mirror (<slug>.html și <slug>.meta.json cu adresa și ora citirii), iar fetchCdep() din
+// cdep.mjs îl folosește înaintea oricărei cereri: o listă dacă e citită în ultimele 6 ore, o fișă în ultimele 12. Toate
+// procesele de pe Mac împart copia; aducerea de pe VM se face cel mult o dată la 10 minute, sub lacăt, și confirmă
+// VM-ului ce a venit (ack), ca să nu vină a doua oară.
+const MIRROR = path.join(ROOT, '.cache', 'cdep-mirror');
+const MIRROR_LOCK = `${MIRROR}.lock`;
+const MIRROR_STAMP = path.join(MIRROR, '.adus');
+const MIRROR_KEEP_MS = 3 * 24 * 60 * MIN;
+let mirrorIndex = null;
+
+/** Aduce HTML-ul nou de pe VM în copia locală; false dacă n-a mers (fără VM, ssh căzut). */
+export async function syncMirror({ force = false } = {}) {
+  if (!peerEnabled) return false;
+  fs.mkdirSync(MIRROR, { recursive: true });
+  const last = fs.existsSync(MIRROR_STAMP) ? fs.statSync(MIRROR_STAMP).mtimeMs : 0;
+  if (!force && Date.now() - last < 10 * MIN) return true;
+  try {
+    fs.mkdirSync(MIRROR_LOCK);
+  } catch {
+    // Alt proces aduce chiar acum: folosim ce e deja în copie. Un lacăt mai vechi de 15 minute e al unui proces mort.
+    if (Date.now() - fs.statSync(MIRROR_LOCK).mtimeMs > 15 * MIN) fs.rmSync(MIRROR_LOCK, { recursive: true, force: true });
+    return true;
+  }
+  try {
+    const dir = path.join(ROOT, '.cache', `cdep-vm-${process.pid}`);
+    if (!(await pullVmHtml(dir))) return false;
+    const got = [];
+    const htmlDir = path.join(dir, 'html');
+    for (const f of fs.existsSync(htmlDir) ? fs.readdirSync(htmlDir) : []) {
+      if (!f.endsWith('.meta.json')) continue;
+      const slug = f.slice(0, -'.meta.json'.length);
+      if (!fs.existsSync(path.join(htmlDir, `${slug}.html`))) continue;
+      // Întâi HTML-ul, apoi meta: cine citește copia ia doar fișele cu meta.
+      fs.renameSync(path.join(htmlDir, `${slug}.html`), path.join(MIRROR, `${slug}.html`));
+      fs.renameSync(path.join(htmlDir, f), path.join(MIRROR, f));
+      got.push(slug);
+    }
+    fs.rmSync(dir, { recursive: true, force: true });
+    if (got.length) await vmCall('ack', { slugs: got }, { timeoutMs: 120_000 });
+    for (const f of fs.readdirSync(MIRROR)) {
+      const full = path.join(MIRROR, f);
+      if (f !== '.adus' && Date.now() - fs.statSync(full).mtimeMs > MIRROR_KEEP_MS) fs.rmSync(full, { force: true });
+    }
+    fs.writeFileSync(MIRROR_STAMP, String(Date.now()));
+    mirrorIndex = null;
+    return true;
+  } finally {
+    fs.rmSync(MIRROR_LOCK, { recursive: true, force: true });
+  }
+}
+
+/** Intrările din copie: [{ slug, url, key, fetchedAt }], cele mai noi întâi. */
+export function mirrorEntries() {
+  if (!fs.existsSync(MIRROR)) return [];
+  return fs
+    .readdirSync(MIRROR)
+    .filter((f) => f.endsWith('.meta.json'))
+    .map((f) => {
+      try {
+        return JSON.parse(fs.readFileSync(path.join(MIRROR, f), 'utf8'));
+      } catch {
+        return null;
+      }
+    })
+    .filter((m) => m?.slug && m.url && fs.existsSync(path.join(MIRROR, `${m.slug}.html`)))
+    .sort((a, b) => (b.fetchedAt ?? '').localeCompare(a.fetchedAt ?? ''));
+}
+
+/** HTML-ul de la `url` din copie, dacă e citit în ultimele `maxAgeMs` (și, cu `key`, pentru același stadiu); altfel null. */
+export function mirrorGet(url, maxAgeMs, key = null) {
+  if (!peerEnabled) return null;
+  mirrorIndex ??= new Map(mirrorEntries().reverse().map((m) => [m.url, m]));
+  const m = mirrorIndex.get(url);
+  if (!m || Date.now() - Date.parse(m.fetchedAt) > maxAgeMs || (key != null && m.key !== key)) return null;
+  return fs.readFileSync(path.join(MIRROR, `${m.slug}.html`), 'utf8');
+}
+
+/** HTML-ul unei intrări din copie, după slug (pentru fișele cu cheie, ca în straja-cdep-vechi). */
+export const mirrorHtml = (slug) => fs.readFileSync(path.join(MIRROR, `${slug}.html`), 'utf8');
+

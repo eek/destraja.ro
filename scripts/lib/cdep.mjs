@@ -12,7 +12,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
-import { peerBlocked, peerTurn } from './cdep-peer.mjs';
+import { mirrorGet, peerBlocked, peerTurn, syncMirror } from './cdep-peer.mjs';
 
 export const CDEP = 'https://www.cdep.ro';
 export const listUrl = (kind, year) => `${CDEP}/ords/pls/proiecte/upl_pck2015.lista?cam=2&${kind}=${year}`;
@@ -134,7 +134,21 @@ export function blocked(url = CDEP) {
 
 export class CdepBlocked extends Error {}
 
+// Ce a citit VM-ul destraja (scripts/lib/cdep-peer.mjs, copia din .cache/cdep-mirror) vine înaintea oricărei cereri:
+// o listă citită în ultimele 6 ore, o fișă sau altă pagină în ultimele 12. Cine știe stadiul din listă (straja-cdep) cere
+// cu `key` și acceptă o fișă din ultimele 24 de ore, dacă VM-ul a citit-o pentru același stadiu: cea citită de VM după-amiază
+// trebuie să ajungă în rularea de a doua zi, la 09:30. Copia se aduce de pe VM o dată pe proces.
+const MIRROR_AGE = (url) => (url.includes('.lista?') ? 6 : 12) * 3_600_000;
+let mirrorSynced = null;
+export async function fromMirror(url, { key = null } = {}) {
+  mirrorSynced ??= syncMirror().catch(() => false);
+  await mirrorSynced;
+  return key != null ? mirrorGet(url, 24 * 3_600_000, key) : mirrorGet(url, MIRROR_AGE(url));
+}
+
 export async function fetchCdep(url, { quiet } = {}) {
+  const cached = await fromMirror(url);
+  if (cached != null) return cached;
   await pace({ quiet });
   const res = await fetch(url, { headers: { 'User-Agent': UA }, signal: AbortSignal.timeout(60_000) });
   if (!res.ok) throw new Error(`HTTP ${res.status} la ${url}`);

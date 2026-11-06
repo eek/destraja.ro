@@ -15,6 +15,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { CdepBlocked, fetchCdep, listUrl, parseList, parseSheet, sheetUrl } from './lib/cdep.mjs';
+import { vmCall } from './lib/cdep-peer.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = path.join(ROOT, 'data', 'camera');
@@ -47,12 +48,24 @@ async function list(kind, year) {
   return lists.get(key);
 }
 
+// Fișa citită de straja-cdep.mjs pentru anul curent (data/cdep/proiecte), dacă e a aceluiași rând și din ultimele zile.
+const slugOf = (row) => `${row.tip.toLowerCase().replace(/[^a-z]/g, '')}-${row.nr}-${row.an}`.replace(/^pl(x)?-/, 'plx-');
+function chamberSheet(row) {
+  try {
+    const s = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'cdep', 'proiecte', `${slugOf(row)}.json`), 'utf8'));
+    const ok = s.idp === row.idp && s.stadiu === row.stadiu && s.stadiuData === row.stadiuData && Date.now() - Date.parse(s.cititLa) < STALE_DAYS * 86_400_000;
+    return ok ? s.fisa : null;
+  } catch {
+    return null;
+  }
+}
+
 async function sheetFor(row, previous) {
   const fresh =
     previous?.idp === row.idp &&
     previous.listStadiu === `${row.stadiu} ${row.stadiuData}` &&
     Date.now() - Date.parse(previous.cititLa) < STALE_DAYS * 86_400_000;
-  return fresh ? previous.fisa : parseSheet(await fetchCdep(sheetUrl(row.idp)));
+  return fresh ? previous.fisa : (chamberSheet(row) ?? parseSheet(await fetchCdep(sheetUrl(row.idp))));
 }
 
 function verdict(bill, row, sheet) {
@@ -140,5 +153,8 @@ try {
   if (!(err instanceof CdepBlocked)) throw err;
   notes.push(err.message);
 }
+
+// Listele citite azi le recitește de acum VM-ul destraja la 3 ore; mâine vin din copia locală, fără cereri.
+await vmCall('push', { lists: [...lists.keys()].map((k) => ({ slug: `lista-${k.slice(0, 3)}-${k.slice(3)}`, url: listUrl(k.slice(0, 3), +k.slice(3)), everyMs: 3 * 3_600_000 })) }, { timeoutMs: 120_000 });
 
 console.log(`🏛️ Camera Deputaților: ${linked} proiecte legate${notes.length ? `\n  ${notes.join('\n  ')}` : ''}`);

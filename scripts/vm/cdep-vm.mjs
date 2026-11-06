@@ -1,17 +1,20 @@
 #!/usr/bin/env node
-// Pe VM-ul destraja (la birou, deci mereu IP-ul biroului): citește fișe de proiecte de pe cdep.ro pentru Mac și păstrează
-// doar HTML-ul brut. Mac-ul îl aduce prin ssh și tar și îl citește cu parserul lui (scripts/straja-cdep-vechi.mjs), deci
-// fișele ies la fel ca cele citite de Mac. Aici nu se parsează nimic, nu rulează modele și nu se face OCR: VM-ul are
-// ~1 GB de RAM. Cererile trec prin fetchCdep() din scripts/lib/cdep.mjs (același User-Agent, aceeași recunoaștere a
-// captcha-ului, același ritm: o cerere pe minut, 60 pe oră, două ore de pauză după un captcha), cu registrul lui în
-// ~/cdep-vm/.cache.
+// Pe VM-ul destraja (la birou, deci mereu IP-ul biroului): cititorul principal al cdep.ro, pornit tot timpul. Citește
+// pentru Mac și păstrează doar HTML-ul brut; Mac-ul îl aduce prin ssh și tar în copia lui (scripts/lib/cdep-peer.mjs,
+// .cache/cdep-mirror), unde fetchCdep() îl găsește înaintea oricărei cereri. Aici nu se parsează fișe, nu rulează
+// modele și nu se face OCR; doar lista anului curent o citim, ca să știm ce fișe s-au schimbat. Cererile trec prin
+// fetchCdep() din scripts/lib/cdep.mjs (același User-Agent, aceeași recunoaștere a captcha-ului, același ritm: o cerere
+// pe minut, 60 pe oră, două ore de pauză după un captcha), cu registrul lui în ~/cdep-vm/.cache.
 //
 //   node scripts/vm/cdep-vm.mjs run        citirea, ca serviciu (scripts/vm/destraja-cdep.service)
-//   node scripts/vm/cdep-vm.mjs status     ce e în coadă, ce s-a citit, cererile din ultima oră
+//   node scripts/vm/cdep-vm.mjs status     ce e în cozi, ce s-a citit, cererile din ultima oră
 //   … hello | reserve | block | push | claim | ack   comenzile Mac-ului (scripts/lib/cdep-peer.mjs), prin ssh, cu JSON
 //                                          pe stdin și pe stdout
 //
-// Coada o scrie Mac-ul (push): fișele lipsă sau schimbate, în ordinea lui. VM-ul ia de la coada cozii, Mac-ul de la cap,
+// Ce citim, în ordine: listele cerute de Mac (state/lists.json, fiecare la câteva ore; după lista anului curent, fișele
+// cu alt stadiu decât cel știut intră în coada „auto”), apoi cozile: „curent” (fișele anului pe care Mac-ul n-a apucat
+// să le citească), „auto”, „vechi” (proiectele din anii trecuți, scripts/straja-cdep-vechi.mjs).
+// Cozile le scrie Mac-ul (push), câte una pe sursă, în ordinea lui. Din „vechi” VM-ul ia de la coada cozii, Mac-ul de la cap,
 // și fiecare fișă se revendică întâi aici, în state/claims.json, sub lacăt: nicio fișă nu se cere de două ori.
 // VM-ul e cititorul principal și cere tot timpul, cât n-are captcha pe IP-ul lui; când Mac-ul are același IP, îi lasă
 // rândul cât Mac-ul a cerut ceva în ultimele 3 minute (reserve). Mac-ul ajută când e pornit și pe alt IP (acasă).
@@ -19,7 +22,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { CdepBlocked, fetchCdep, pace } from '../lib/cdep.mjs';
+import { CdepBlocked, fetchCdep, pace, parseList, sheetUrl } from '../lib/cdep.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const STATE = path.join(ROOT, 'state');
@@ -34,6 +37,9 @@ const HEARTBEAT_MS = 3 * MIN;
 const VM_CLAIM_MS = 30 * MIN;
 const MAC_CLAIM_MS = 12 * 60 * MIN;
 const IP_EVERY = 10 * MIN;
+// Cozile, în ordinea în care le citim: fișele cerute de Mac pentru anul curent, cele găsite aici schimbate în lista
+// anului (vezi lists.json), apoi proiectele din anii trecuți. Fără „source”, o coadă trimisă de Mac e „vechi”.
+const SOURCES = ['curent', 'auto', 'vechi'];
 
 for (const dir of [STATE, HTML, IMPORTED]) fs.mkdirSync(dir, { recursive: true });
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -75,6 +81,15 @@ async function withLock(fn) {
   }
 }
 
+/** Cozile pe surse ({ curent: [...], auto: [...], vechi: [...] }); queue.json vechi era doar coada „vechi”. */
+const readQueues = () => {
+  const q = readJson(file('queue.json'), {});
+  return Array.isArray(q) ? { vechi: q } : q;
+};
+const allQueued = (queues) => SOURCES.flatMap((s) => queues[s] ?? []);
+const slugOf = (row) => `${row.tip.toLowerCase().replace(/[^a-z]/g, '')}-${row.nr}-${row.an}`.replace(/^pl(x)?-/, 'plx-');
+const keyOf = (row) => `${row.stadiu}|${row.stadiuData ?? ''}`;
+
 /** Fișele citite și încă neaduse pe Mac: au HTML-ul și, scris după el, .meta.json. */
 const ready = () => new Set(fs.readdirSync(HTML).filter((f) => f.endsWith('.meta.json')).map((f) => f.slice(0, -'.meta.json'.length)));
 
@@ -110,13 +125,15 @@ function holdReason(ip) {
 }
 
 function status() {
-  const queue = readJson(file('queue.json'), []);
+  const queues = readQueues();
   const claims = readJson(file('claims.json'), {});
   const times = readJson(PACE_FILE, []);
   const lastHour = (Array.isArray(times) ? times : [times]).filter((t) => t > Date.now() - 60 * MIN).length;
   return {
     vmIp: readJson(file('ip.json'), {}).ip ?? null,
-    queue: queue.length,
+    queue: allQueued(queues).length,
+    queues: Object.fromEntries(SOURCES.map((s) => [s, (queues[s] ?? []).length])),
+    lists: readJson(file('lists.json'), []).map((l) => ({ slug: l.slug, at: l.at ?? null })),
     claimedByVm: Object.values(claims).filter((c) => c.by === 'vm').length,
     claimedByMac: Object.values(claims).filter((c) => c.by === 'mac').length,
     ready: ready().size,
@@ -158,20 +175,43 @@ const commands = {
     return { ok: true, blockedUntil: until, vmIp: await vmIp() };
   },
 
-  /** Coada nouă a Mac-ului ([{ slug, url, key }], în ordinea lui); revendicările care nu mai au rost se șterg. */
+  /**
+   * Coada nouă a Mac-ului pentru o sursă ([{ slug, url, key }], în ordinea lui); revendicările care nu mai au rost se
+   * șterg. Opțional: `lists`, listele de recitit aici ([{ slug, url, everyMs, parse }]; parse: 'curent' pune în coada
+   * „auto” fișele cu alt stadiu decât cel știut), și `known`, stadiul fișelor citite deja de Mac ({ slug: key }).
+   */
   async push(input) {
+    const source = SOURCES.includes(input.source) ? input.source : 'vechi';
     const queue = Array.isArray(input.queue) ? input.queue.filter((q) => q?.slug && q?.url) : [];
     const result = await withLock(() => {
       const claims = readJson(file('claims.json'), {});
       const done = ready();
-      const bySlug = new Map(queue.map((q) => [q.slug, q]));
+      // Fără `queue` (de exemplu doar listele de la straja-camera), cozile rămân cum sunt.
+      const queues = Array.isArray(input.queue) ? { ...readQueues(), [source]: queue } : readQueues();
+      if (input.known && typeof input.known === 'object') {
+        const known = { ...readJson(file('known.json'), {}), ...input.known };
+        writeJson(file('known.json'), known);
+        // Ce a citit Mac-ul între timp nu mai trebuie citit aici.
+        queues.auto = (queues.auto ?? []).filter((q) => known[q.slug] !== q.key);
+      }
+      if (Array.isArray(input.lists)) {
+        const lists = readJson(file('lists.json'), []);
+        for (const l of input.lists.filter((x) => x?.slug && x?.url)) {
+          const old = lists.find((x) => x.slug === l.slug);
+          // Aceeași listă trimisă de două scripturi: „parse” rămâne cât timp unul dintre ele l-a cerut.
+          if (old) Object.assign(old, { url: l.url, everyMs: l.everyMs ?? old.everyMs, parse: l.parse ?? old.parse });
+          else lists.push({ slug: l.slug, url: l.url, everyMs: l.everyMs, parse: l.parse, at: 0 });
+        }
+        writeJson(file('lists.json'), lists);
+      }
+      const bySlug = new Map(allQueued(queues).map((q) => [q.slug, q]));
       for (const [slug, c] of Object.entries(claims)) {
         if (done.has(slug)) continue;
         const q = bySlug.get(slug);
         const stale = Date.now() - c.at > (c.by === 'vm' ? VM_CLAIM_MS : MAC_CLAIM_MS);
         if (!q || q.key !== c.key || stale) delete claims[slug];
       }
-      writeJson(file('queue.json'), queue);
+      writeJson(file('queue.json'), queues);
       writeJson(file('claims.json'), claims);
       return { claims: Object.fromEntries(Object.entries(claims).map(([s, c]) => [s, c.by])), ready: [...done] };
     });
@@ -196,7 +236,7 @@ const commands = {
     let moved = 0;
     await withLock(() => {
       for (const slug of input.slugs ?? []) {
-        if (!/^[a-z]+-\d+-\d{4}$/.test(slug)) continue;
+        if (!/^[a-z0-9-]+$/.test(slug)) continue;
         for (const ext of ['.html', '.meta.json']) {
           const from = path.join(HTML, slug + ext);
           if (fs.existsSync(from)) fs.renameSync(from, path.join(IMPORTED, slug + ext));
@@ -214,19 +254,41 @@ const commands = {
 };
 
 // ─── Citirea ──────────────────────────────────────────────────────────────────────────────────────────────────────
-/** Ultima fișă din coadă pe care n-a luat-o nimeni; o revendică pentru VM. */
+/**
+ * Următoarea fișă pe care n-a luat-o nimeni, pe surse în ordinea din SOURCES; o revendică pentru VM. Din „vechi” luăm
+ * de la coada cozii (Mac-ul o citește de la cap); celelalte, de la cap.
+ */
 function claimNext(errors) {
-  const queue = readJson(file('queue.json'), []);
+  const queues = readQueues();
   const claims = readJson(file('claims.json'), {});
   const done = ready();
-  for (let i = queue.length - 1; i >= 0; i--) {
-    const q = queue[i];
-    if (claims[q.slug] || done.has(q.slug) || (errors.get(q.slug) ?? 0) >= 3) continue;
-    claims[q.slug] = { by: 'vm', at: Date.now(), key: q.key ?? null };
-    writeJson(file('claims.json'), claims);
-    return q;
+  for (const source of SOURCES) {
+    const queue = queues[source] ?? [];
+    const order = source === 'vechi' ? [...queue].reverse() : queue;
+    for (const q of order) {
+      if (claims[q.slug] || done.has(q.slug) || (errors.get(q.slug) ?? 0) >= 3) continue;
+      claims[q.slug] = { by: 'vm', at: Date.now(), key: q.key ?? null };
+      writeJson(file('claims.json'), claims);
+      return { ...q, source };
+    }
   }
   return null;
+}
+
+/** O listă de recitit acum (cea mai veche dintre cele cu termenul trecut), sau null. */
+function dueList() {
+  const lists = readJson(file('lists.json'), []);
+  return lists.filter((l) => Date.now() - (l.at ?? 0) > (l.everyMs ?? 3 * 60 * MIN)).sort((a, b) => (a.at ?? 0) - (b.at ?? 0))[0] ?? null;
+}
+
+/** După ce am citit lista anului: fișele cu alt stadiu decât cel știut intră în coada „auto”. */
+function queueChanged(html) {
+  const rows = parseList(html).filter((r) => r.tip !== 'BP');
+  const known = readJson(file('known.json'), {});
+  const queues = readQueues();
+  const auto = rows.filter((r) => known[slugOf(r)] !== keyOf(r)).map((r) => ({ slug: slugOf(r), url: sheetUrl(r.idp), key: keyOf(r) }));
+  writeJson(file('queue.json'), { ...queues, auto });
+  return auto.length;
 }
 
 function release(slug) {
@@ -251,6 +313,32 @@ async function run() {
       await sleep(30_000);
       continue;
     }
+    const list = dueList();
+    if (list) {
+      shown = '';
+      try {
+        const html = await fetchCdep(list.url);
+        writeAtomic(path.join(HTML, `${list.slug}.html`), html);
+        writeJson(path.join(HTML, `${list.slug}.meta.json`), { slug: list.slug, url: list.url, key: 'lista', fetchedAt: new Date().toISOString() });
+        note('vm', list.slug);
+        const changed = list.parse === 'curent' ? await withLock(() => queueChanged(html)) : null;
+        log(`${list.slug}${changed != null ? `: ${changed} fișe cu alt stadiu` : ''}`);
+      } catch (err) {
+        if (err instanceof CdepBlocked) log(err.message);
+        else {
+          log(`${list.slug}: ${err.message}`);
+          await sleep(MIN);
+        }
+      }
+      // Și după o eroare: nu cerem lista din nou la fiecare minut.
+      await withLock(() => {
+        const lists = readJson(file('lists.json'), []);
+        const l = lists.find((x) => x.slug === list.slug);
+        if (l) l.at = Date.now();
+        writeJson(file('lists.json'), lists);
+      });
+      continue;
+    }
     const item = await withLock(() => claimNext(errors));
     if (!item) {
       if (shown !== 'coada e goală') log('coada e goală');
@@ -265,6 +353,9 @@ async function run() {
       writeAtomic(path.join(HTML, `${item.slug}.html`), html);
       writeJson(path.join(HTML, `${item.slug}.meta.json`), { slug: item.slug, url: item.url, key: item.key ?? null, fetchedAt: new Date().toISOString() });
       note('vm', item.slug);
+      if (item.source !== 'vechi' && item.key) {
+        await withLock(() => writeJson(file('known.json'), { ...readJson(file('known.json'), {}), [item.slug]: item.key }));
+      }
       fetched++;
       log(`${item.slug} (${fetched} de la pornire)`);
     } catch (err) {

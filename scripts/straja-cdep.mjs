@@ -13,7 +13,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { CdepBlocked, committeeUrl, fetchCdep, listUrl, parseCommitteeEmail, parseList, parseSheet, sheetUrl } from './lib/cdep.mjs';
+import { CdepBlocked, committeeUrl, fetchCdep, fromMirror, listUrl, parseCommitteeEmail, parseList, parseSheet, sheetUrl } from './lib/cdep.mjs';
+import { vmCall } from './lib/cdep-peer.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DIR = path.join(ROOT, 'data', 'cdep');
@@ -79,15 +80,17 @@ const partiesLost = (p) => {
 };
 
 // Ce fișe citim acum: cele lipsă, cu stadiul schimbat sau în consultare; întâi cele aflate la Cameră, apoi cele mai noi.
+// Stadiul se compară cu cel din fișa citită, nu cu indexul de ieri: o fișă schimbată care nu încape azi în --max rămâne
+// de citit (până pe 6 noiembrie, indexul se rescria cu stadiul nou și fișa era uitată).
+// Fișele citite deja de VM (din copia locală, vezi lib/cdep.mjs) nu se numără la --max.
+const keyOf = (p) => `${p.stadiu}|${p.stadiuData ?? ''}`;
 const todo = index
   .filter((p) => {
-    const file = path.join(SHEETS, `${p.slug}.json`);
-    if (!fs.existsSync(file)) return true;
-    const old = before.get(p.slug);
-    return !old || old.stadiu !== p.stadiu || old.stadiuData !== p.stadiuData || consultationDue(p) || partiesLost(p);
+    const sheet = sheetOf(p.slug);
+    if (!sheet) return true;
+    return sheet.stadiu !== p.stadiu || sheet.stadiuData !== p.stadiuData || consultationDue(p) || partiesLost(p);
   })
-  .sort((a, b) => Number(AT_CHAMBER.test(b.stadiu)) - Number(AT_CHAMBER.test(a.stadiu)) || b.inregistrat.localeCompare(a.inregistrat))
-  .slice(0, MAX);
+  .sort((a, b) => Number(AT_CHAMBER.test(b.stadiu)) - Number(AT_CHAMBER.test(a.stadiu)) || b.inregistrat.localeCompare(a.inregistrat));
 
 // Fișele deja citite primesc datele noi din listă (titlul, stadiul) fără o cerere în plus.
 const ROW_KEYS = ['numar', 'tip', 'inregistrat', 'titlu', 'stadiu', 'stadiuData', 'url'];
@@ -105,17 +108,25 @@ const committeesFile = path.join(DIR, 'comisii.json');
 const committees = fs.existsSync(committeesFile) ? JSON.parse(fs.readFileSync(committeesFile, 'utf8')) : {};
 
 let read = 0;
+let fromVm = 0;
 let note = '';
+const left = [];
 try {
   for (const p of todo) {
-    const html = await fetchCdep(p.url);
+    const cached = await fromMirror(p.url, { key: keyOf(p) });
+    if (cached == null && read >= MAX) {
+      left.push(p);
+      continue;
+    }
+    const html = cached ?? (await fetchCdep(p.url));
+    if (cached == null) read++;
+    else fromVm++;
     // Păstrăm și HTML-ul o săptămână: straja-amendments îl refolosește în loc să ceară fișa a doua oară.
     fs.writeFileSync(path.join(HTML_CACHE, `${p.slug}.html`), html);
     const fisa = parseSheet(html);
     const senat = (fisa.numarSenat && ours.get(fisa.numarSenat)) || null;
     if (senat) p.senat = senat;
     fs.writeFileSync(path.join(SHEETS, `${p.slug}.json`), JSON.stringify({ ...p, cititLa: new Date().toISOString(), fisa }, null, 1) + '\n');
-    read++;
     // Comisiile noi (sunt vreo 20 la Cameră): o cerere fiecare, o singură dată.
     for (const c of [...(fisa.comisii?.raport ?? []), ...(fisa.comisii?.aviz ?? [])]) {
       if (committees[c.idc]) continue;
@@ -128,9 +139,26 @@ try {
   const network = err?.cause?.code && /^(ENOTFOUND|EAI_AGAIN|ECONNRESET|ECONNREFUSED|ETIMEDOUT|UND_ERR_)/.test(err.cause.code);
   if (!(err instanceof CdepBlocked) && !network) throw err;
   note = ` (${network ? `rețea: ${err.cause.code}` : err.message})`;
+  left.push(...todo.filter((p) => !sheetOf(p.slug) || sheetOf(p.slug).stadiu !== p.stadiu || sheetOf(p.slug).stadiuData !== p.stadiuData));
 }
+
+// VM-ul destraja citește peste zi ce n-a încăput azi, recitește lista anului la 3 ore și pune singur în coadă fișele
+// cu alt stadiu decât cel știut de noi (scripts/vm/cdep-vm.mjs); mâine le luăm din copia locală, fără cereri.
+const known = Object.fromEntries(index.filter((p) => sheetOf(p.slug)?.stadiu === p.stadiu && sheetOf(p.slug)?.stadiuData === p.stadiuData).map((p) => [p.slug, keyOf(p)]));
+await vmCall(
+  'push',
+  {
+    source: 'curent',
+    queue: [...new Map(left.map((p) => [p.slug, { slug: p.slug, url: p.url, key: keyOf(p) }])).values()],
+    lists: [{ slug: `lista-anp-${YEAR}`, url: listUrl('anp', YEAR), everyMs: 3 * 3_600_000, parse: 'curent' }],
+    known,
+  },
+  { timeoutMs: 120_000 },
+);
 
 fs.writeFileSync(indexFile, JSON.stringify({ an: YEAR, cititLa: new Date().toISOString(), proiecte: index }, null, 1) + '\n');
 const atChamber = index.filter((p) => AT_CHAMBER.test(p.stadiu)).length;
 const missing = index.filter((p) => !fs.existsSync(path.join(SHEETS, `${p.slug}.json`))).length;
-console.log(`🏛️ Camera ${YEAR}: ${index.length} proiecte, ${atChamber} aflate acum la Cameră; ${read} fișe citite, ${missing} încă de citit${note}`);
+console.log(
+  `🏛️ Camera ${YEAR}: ${index.length} proiecte, ${atChamber} aflate acum la Cameră; ${read} fișe citite aici, ${fromVm} de la VM, ${left.length} lăsate VM-ului, ${missing} încă de citit${note}`,
+);

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { ArrowRight, Clock, ExternalLink, Landmark, Megaphone } from 'lucide-react';
+import { ArrowRight, CalendarClock, Clock, ExternalLink, Landmark, Megaphone } from 'lucide-react';
 import type { CdepListItem } from '@/lib/cdep';
 import { dayDiff, shortCommittee, stageLabel } from '@/lib/cdep-text';
 import { countWord, fmt } from '@/lib/format';
@@ -21,8 +21,9 @@ function pageOf(p: CdepListItem, withPage: Set<string>) {
 const left = (d: number) => (d === 0 ? 'ultima zi azi' : d === 1 ? 'ultima zi mâine' : `mai ai ${countWord(d, 'zi', 'zile')}`);
 
 // Cardul unui proiect de la Cameră: la fel ca cel de la Senat. Când Camera e prima sesizată și consultarea publică e
-// deschisă, termenul și butonul sunt ale consultării; altfel, ale amendamentelor.
-export default function CameraCard({ p, today, withPage }: { p: CdepListItem; today: string; withPage: Set<string> }) {
+// deschisă, termenul și butonul sunt ale consultării; altfel, ale amendamentelor. Un proiect înregistrat înainte de
+// `year` (anul listei) are și anul înregistrării: e încă în dezbatere, deși numărul lui pare vechi.
+export default function CameraCard({ p, today, year, withPage }: { p: CdepListItem; today: string; year: number; withPage: Set<string> }) {
   const href = pageOf(p, withPage);
   const days = p.termenAmendamente ? dayDiff(p.termenAmendamente, today) : null;
   const consultDays = p.consultare ? dayDiff(p.consultare.termen, today) : null;
@@ -89,6 +90,12 @@ export default function CameraCard({ p, today, withPage }: { p: CdepListItem; to
 
         {/* Ca la Senat: etichetele stau lipite de subsol, ca un rând de carduri să aibă aceeași înălțime. */}
         <div className="mt-auto space-y-2 pt-4">
+          {p.an < year && (
+            <p className="flex min-h-7 items-center gap-1.5 text-xs font-semibold leading-5 text-body">
+              <CalendarClock className="h-3.5 w-3.5 shrink-0" aria-hidden />
+              Înregistrat la Cameră în {p.an}
+            </p>
+          )}
           {consulting && (
             <p className="inline-flex min-h-7 items-center gap-1.5 rounded-md bg-brand-soft px-2 text-xs font-semibold text-ink">
               <Megaphone className="h-3.5 w-3.5" aria-hidden />

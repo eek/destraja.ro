@@ -17,6 +17,9 @@ export default async function CameraPage() {
   const analysed = items.filter((p) => p.risk).length;
   const atChamber = items.filter((p) => ['comisii', 'raport', 'plen', 'altele'].includes(p.stage)).length;
   const read = pages.length + items.filter((p) => p.senat).length;
+  const year = index?.an ?? Number(builtOn.slice(0, 4));
+  // Cel mai vechi an din care avem proiecte încă în dezbatere (scripts/straja-cdep-vechi.mjs), pentru nota despre surse.
+  const oldest = Math.min(year, ...items.map((p) => p.an));
 
   return (
     <>
@@ -24,7 +27,7 @@ export default async function CameraPage() {
         <h1 className="font-display text-[clamp(2.6rem,6.4vw,4.6rem)] font-normal leading-[1.02] tracking-[-0.03em]">La Camera Deputaților</h1>
       </Container>
 
-      <CameraExplorer items={items} pages={pages} builtOn={builtOn} compared={versionsStatus?.compared ?? 0} />
+      <CameraExplorer items={items} pages={pages} builtOn={builtOn} year={year} compared={versionsStatus?.compared ?? 0} />
 
       <Container className="pb-16">
         {(read < items.length || analysed < atChamber || comparePending > 0) && (
@@ -51,7 +54,8 @@ export default async function CameraPage() {
         )}
 
         <p className="mt-8 max-w-2xl text-xs leading-5 text-muted">
-          Datele vin din lista proiectelor înregistrate la Camera Deputaților în {index?.an ?? 'acest an'} și din fișa fiecărui proiect de pe cdep.ro
+          Datele vin din lista proiectelor înregistrate la Camera Deputaților în {year}
+          {oldest < year && `, din listele anilor ${oldest}–${year - 1} pentru proiectele încă în dezbatere,`} și din fișa fiecărui proiect de pe cdep.ro
           {index ? `, citite pe ${formatDateRo(index.cititLa.slice(0, 10))}` : ''}. Analiza modelelor AI apare pe proiectele noi și pe cele programate la
           vot; pentru celelalte arătăm deocamdată doar datele oficiale.
         </p>

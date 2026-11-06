@@ -151,6 +151,11 @@ async function main() {
 
     const camera = await step('Camera Deputaților', 'node', ['scripts/straja-camera.mjs'], { timeoutMs: 900_000 });
     if (!camera.ok) summary.push('legătura cu Camera Deputaților a eșuat');
+    // Proiectele din anii trecuți încă în dezbatere (straja-cdep-vechi): listele anilor 2020–2025 cel mult o dată pe
+    // săptămână, fișele doar când lipsesc sau când rândul lor din listă s-a schimbat, cel mult 10 pe zi. În celelalte
+    // zile nu cere nimic de la cdep.ro. Analizele lor vin mai jos („Camera: analize”), în aceeași ordine ca anul curent.
+    const cdepOld = await step('Camera: anii trecuți', 'node', ['scripts/straja-cdep-vechi.mjs', '--max=10'], { timeoutMs: 2_400_000 });
+    if (!cdepOld.ok) summary.push('proiectele Camerei din anii trecuți au eșuat');
     // Lista Camerei și fișele noi sau schimbate (cel mult 50, la 5 secunde una de alta), apoi analiza câtorva proiecte:
     // întâi cele pe ordinea de zi, apoi cele cu raport, apoi cele mai noi.
     const cdep = await step('Camera: proiecte', 'node', ['scripts/straja-cdep.mjs', '--max=50'], { timeoutMs: 1_800_000 });
@@ -240,6 +245,12 @@ async function main() {
       ].join(' && ');
       const agenda = await step('Agendele Senatului', 'sh', ['-c', fetchAgenda], { timeoutMs: 120_000 });
       if (!agenda.ok) summary.push('agendele Senatului au rămas de ieri');
+    }
+    // Fișele Camerei din anii trecuți citite între timp de VM (scripts/vm/cdep-vm.mjs): HTML-ul vine prin ssh și tar, ca
+    // agendele, și îl citim aici cu același parser; nicio cerere la cdep.ro. Dacă VM-ul nu răspunde, vin mâine.
+    if (fs.existsSync(AGENDA_VM)) {
+      const vmSheets = await step('Camera: fișele de pe VM', 'node', ['scripts/straja-cdep-vechi.mjs', '--doar-vm'], { timeoutMs: 600_000 });
+      if (!vmSheets.ok) summary.push('fișele Camerei de pe VM au rămas acolo');
     }
 
     const counts = checkData();

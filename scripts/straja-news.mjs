@@ -34,7 +34,8 @@ const LAST_RUN = path.join(ROOT, '.cache', 'news-last-run.json');
 // primul loc), așa că un singur model (ChatGPT, fără unelte) citește textul articolelor și spune care sunt chiar despre
 // proiect, cu un citat. Apoi aceeași verificare ca la căutare: pagina se deschide și citatul apare în ea.
 //   --min=0.85 (scorul de la care cerem părerea modelului)  --zile=3 (potrivirile din ultimele zile)
-// .cache/news-index are gazda de salt spre VM; fără el, --index nu face nimic. Perechile articol–proiect citite deja
+// .cache/news-index are gazda de salt spre VM (destraja-jump, cheia fără 1Password, odată ce NAS-ul o lasă și spre
+// 192.168.154.10; până atunci eek@eek-nas.eek.ro, care cere 1Password deblocat); fără el, --index nu face nimic. Perechile articol–proiect citite deja
 // stau în .cache/news-index-seen.json, ca să nu le dăm modelului de două ori.
 const NOT_PRESS = ['senat.ro', 'cdep.ro', 'gov.ro', 'just.ro', 'lastraja.ro', 'destraja.ro', 'destraja.md', 'facebook.com', 'instagram.com', 'x.com', 'twitter.com', 'linkedin.com', 'youtube.com', 'tiktok.com', 'reddit.com', 'google.com', 'vertexaisearch.cloud.google.com'];
 const MAX_ARTICLES = 6;
@@ -147,7 +148,7 @@ function indexCandidates() {
   const since = new Date(Date.now() - INDEX_DAYS * 864e5).toISOString().slice(0, 16);
   const remote = `cd ~/app/service && PYTHONPATH=$HOME/app DESTRAJA_DATA=$HOME/data/destraja/data ~/venv/bin/python news.py candidati --since ${since} --min ${INDEX_MIN}`;
   const key = path.join(os.homedir(), '.ssh', 'destraja_search_vm');
-  const res = spawnSync('ssh', ['-o', 'BatchMode=yes', '-o', 'ConnectTimeout=20', '-o', 'IdentitiesOnly=yes', '-i', key, '-J', jump, SEARCH_VM, remote], { encoding: 'utf8', maxBuffer: 256 * 1024 * 1024, timeout: 120_000 });
+  const res = spawnSync('ssh', ['-o', 'BatchMode=yes', '-o', 'ConnectTimeout=20', '-o', 'IdentitiesOnly=yes', '-o', 'IdentityAgent=none', '-i', key, '-J', jump, SEARCH_VM, remote], { encoding: 'utf8', maxBuffer: 256 * 1024 * 1024, timeout: 120_000 });
   if (res.status !== 0) throw new Error(`indexul de știri nu răspunde: ${(res.stderr || '').trim().split('\n').at(-1)}`);
   const bySlug = {};
   for (const m of JSON.parse(res.stdout)) (bySlug[m.slug] ??= []).push(m);

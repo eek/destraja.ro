@@ -108,7 +108,7 @@ export default async function TechPage() {
           <div className="grid gap-6 lg:grid-cols-[minmax(0,1.25fr)_minmax(0,0.75fr)] lg:items-start lg:gap-14">
             <h1 id="tech-title" className="font-display text-[clamp(2.4rem,4.6vw,3.75rem)] font-normal leading-[1.05] tracking-[-0.025em]">
               <span className="block text-muted">Cum funcționează?</span>
-              <span className="block text-ink">În fiecare dimineață, la 8, un Mac citește Senatul.</span>
+              <span className="block text-ink">În fiecare dimineață, la 9:30, un Mac citește Senatul.</span>
             </h1>
             <div>
               <p className="max-w-[62ch] text-lg leading-8 text-body">
@@ -242,8 +242,8 @@ export default async function TechPage() {
           <QHead
             id="infra-title"
             q="Unde rulează?"
-            a="Pe un Mac, pe Cloudflare și pe GitHub."
-            lead="Lanțul rulează pe calculatorul întreținătorului. Site-ul e static: pagini gata făcute, servite de Cloudflare. Un singur Worker răspunde la formulare și trimite e-mailurile."
+            a="Pe un Mac, pe un server virtual, pe Cloudflare și pe GitHub."
+            lead="Lanțul rulează pe calculatorul întreținătorului, iar Gemini, Claude și ChatGPT pe un server virtual al nostru, mereu pornit. Site-ul e static: pagini gata făcute, servite de Cloudflare. Un singur Worker răspunde la formulare și trimite e-mailurile."
           />
           <div className="mt-12">
             <InfraMap />

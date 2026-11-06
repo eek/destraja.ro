@@ -377,7 +377,7 @@ export default async function MethodPage() {
             id="verificare-title"
             q="Cum alegem presa?"
             a="Un link ajunge pe site doar dacă trece de cod."
-            lead="Un model poate inventa o adresă sau un citat. De aceea nu-l credem pe cuvânt: fiecare link trece prin cinci verificări făcute de noi, în cod."
+            lead="Articolele vin din indexul nostru de știri, care citește feed-urile a peste 100 de publicații la fiecare 30 de minute, și, o dată pe săptămână, din căutarea pe web a celor trei modele. Un model poate inventa o adresă sau un citat, așa că nu-l credem pe cuvânt: fiecare link trece prin cinci verificări făcute de noi, în cod."
           />
           <div className="mt-12">
             <PressGates facts={facts} />

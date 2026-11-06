@@ -31,7 +31,12 @@ function steps(f: TechFacts): Step[] {
       n: 3,
       name: 'Presa',
       web: true,
-      text: <>Cele trei modele caută articole; rămân doar linkurile care trec de cod. {f.articles > 0 && fact(`${countWord(f.articles, 'articol', 'articole')}.`)}</>,
+      text: (
+        <>
+          Indexul nostru de știri citește peste 100 de publicații la 30 de minute, iar ChatGPT spune care articole sunt chiar despre proiect; lunea, cele
+          trei modele caută și pe web. Rămân doar linkurile care trec de cod. {f.articles > 0 && fact(`${countWord(f.articles, 'articol', 'articole')}.`)}
+        </>
+      ),
     },
     {
       n: 4,

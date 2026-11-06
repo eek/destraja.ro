@@ -191,8 +191,15 @@ async function main() {
     if (!balance.ok) summary.push('„ce e bine și ce strică” a eșuat');
 
     if (!args.has('--skip-news')) {
-      const news = await step('Presă', 'node', ['scripts/straja-news.mjs', '--max-age=20'], { timeoutMs: 5_400_000 });
-      if (!news.ok) summary.push('presa a eșuat');
+      // În fiecare zi, articolele din indexul de știri (VM-ul de căutare, feed-urile a peste 100 de publicații la 30 de
+      // minute), citite de ChatGPT: un minut în loc de o oră și jumătate. Căutarea pe web cu cele trei modele, pentru
+      // publicațiile fără feed, doar lunea.
+      const newsIndex = await step('Presă din index', 'node', ['scripts/straja-news.mjs', '--index'], { timeoutMs: 1_800_000 });
+      if (!newsIndex.ok) summary.push('presa din index a eșuat');
+      if (monday) {
+        const news = await step('Presă', 'node', ['scripts/straja-news.mjs', '--max-age=20'], { timeoutMs: 5_400_000 });
+        if (!news.ok) summary.push('presa a eșuat');
+      }
     }
 
     if (!args.has('--skip-positions')) {

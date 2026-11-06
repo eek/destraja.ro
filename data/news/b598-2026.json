@@ -2,12 +2,79 @@
   "slug": "b598-2026",
   "billId": "B598/2026",
   "checkedAt": "2026-11-06T09:51:12.672Z",
+  "indexCheckedAt": "2026-11-06T14:37:31.693Z",
   "models": {
     "agy": "error: cod 3: error: print timeout after 10m0s with the turn still in progress; the response is partial AGY_ERROR: {\"short_error\":\"print timeout after 10m0s with the turn still in progress; the response is partial\",\"status\":\"DEADLINE_EXCEEDED\",\"retryable\":false,\"reason\":\"print_timeout\"}",
     "claude": "ok",
-    "codex": "ok"
+    "codex": "ok",
+    "index": "ok"
   },
   "articles": [
+    {
+      "url": "https://www.b1tv.ro/economic/bani-pentru-chirie-si-transport-mai-ieftin-pentru-tinerii-care-muncesc-1747375.html",
+      "title": "Bani pentru chirie și transport mai ieftin pentru tinerii care muncesc",
+      "outlet": "B1 TV",
+      "domain": "b1tv.ro",
+      "publishedAt": "2026-11-05",
+      "foundBy": [
+        "index"
+      ],
+      "quote": "Măsurile sunt prevăzute într-un proiect de lege depus în Parlament de deputații USR Alin Stoica și Diana Stoica, împreună cu parlamentari din alte formațiuni politice.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-06"
+    },
+    {
+      "url": "https://www.libertatea.ro/stiri/ajutor-chirie-transport-redus-tineri-angajati-proiect-lege-parlament-yrgqf6h",
+      "title": "Până la 600 de lei pe lună pentru chiria tinerilor care muncesc și transport la jumătate de preț. Cine se încadrează la noul sprijin propus în Parlament",
+      "outlet": "Libertatea",
+      "domain": "libertatea.ro",
+      "publishedAt": "2026-11-05",
+      "foundBy": [
+        "index"
+      ],
+      "quote": "Un proiect de lege depus recent în Parlament vizează acordarea unei subvenții lunare pentru chiria locuinței, alături de o reducere consistentă pentru transportul în comun și cel feroviar, măsuri gândite pentru a stimula independența tinerilor salariați.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-06"
+    },
+    {
+      "url": "https://www.mediafax.ro/politic/chiria-si-transportul-mai-ieftine-pentru-tineri-ce-prevede-proiectul-de-lege-propus-in-parlament-pentru-salariati-23838102",
+      "title": "Chiria și transportul, mai ieftine pentru tineri. Ce prevede proiectul de lege propus în Parlament pentru salariați",
+      "outlet": "Mediafax",
+      "domain": "mediafax.ro",
+      "publishedAt": "2026-11-05",
+      "foundBy": [
+        "index"
+      ],
+      "quote": "Un proiect de lege depus în Parlament prevede ajutoare lunare pentru chirie și reduceri de 50% la transportul public și la abonamentele de tren pentru tinerii cu vârste între 18 și 29 de ani, care câștigă cel mult 4.000 de lei net pe lună.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-06"
+    },
+    {
+      "url": "https://observatornews.ro/economic/bani-de-chirie-pentru-tinerii-care-castiga-pana-la-4000-de-lei-ce-alte-beneficia-prevede-proiectul-de-lege-671398.html",
+      "title": "Bani de chirie pentru tinerii care câştigă până la 4.000 de lei. Ce alte beneficii prevede proiectul de lege",
+      "outlet": "Observator",
+      "domain": "observatornews.ro",
+      "publishedAt": "2026-11-05",
+      "foundBy": [
+        "index"
+      ],
+      "quote": "Un proiect legislativ înregistrat la Parlament prevede că tinerii cu vârste cuprinse între 18-29 de ani care câştigă până la 4.000 de lei pe lună vor beneficia de ajutor pentru plata chiriei şi de transport la jumătate de preţ.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-06"
+    },
+    {
+      "url": "https://www.sfin.ro/sprijin-chirie-tineri",
+      "title": "Sprijin pentru chirie și transport pentru tineri",
+      "outlet": "Săptămâna Financiară",
+      "domain": "sfin.ro",
+      "publishedAt": "2026-11-05",
+      "foundBy": [
+        "index"
+      ],
+      "quote": "Tinerii cu vârste între 18 și 29 de ani, care muncesc și au un venit salarial net de cel mult 4.000 de lei pe lună, ar putea primi sprijin pentru plata chiriei și reduceri de 50% la transport, potrivit unui proiect depus în Parlament de parlamentari din mai multe partide.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-06"
+    },
     {
       "url": "https://spotmedia.ro/stiri/politica/usr-propune-pana-la-600-de-lei-pe-luna-pentru-chirie-si-transport-la-jumatate-de-pret-pentru-tinerii-care-muncesc",
       "title": "USR propune până la 600 de lei pe lună pentru chirie și transport la jumătate de preț pentru tinerii care muncesc",
@@ -103,9 +170,10 @@
       "domain": "ziare.com",
       "publishedAt": "2026-11-05",
       "foundBy": [
-        "claude"
+        "claude",
+        "index"
       ],
-      "quote": "Am depus o inițiativă legislativă în ajutorul lor și sper ca ea să fie votată de toate partidele din Parlament.",
+      "quote": "Un proiect legislativ înregistrat la Parlament prevede că tinerii cu vârste cuprinse între 18-29 de ani care câștigă până la 4.000 de lei pe lună vor beneficia de ajutor pentru plata chiriei și de transport la jumătate de preț.",
       "match": "quote",
       "firstSeenAt": "2026-11-06",
       "decision": {

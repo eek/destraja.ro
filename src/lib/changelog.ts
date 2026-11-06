@@ -175,7 +175,7 @@ export const CHANGELOG: ChangeDay[] = [
         kind: 'nou',
         title: 'Cum funcționează',
         text: 'O pagină care arată ce rulează în fiecare dimineață, cum citesc modelele proiectele și ce verificăm în cod înainte să publicăm ceva.',
-        link: { href: '/cum-functioneaza', label: 'Cum funcționează' },
+        link: { href: '/metodologie#lant', label: 'Cum funcționează' },
       },
       {
         kind: 'nou',

@@ -1,8 +1,9 @@
-// Datele paginii /cum-functioneaza: ce rulează, unde și cu ce. Cifrele se calculează la build din aceleași
+// Datele părții tehnice din /metodologie: ce rulează, unde și cu ce. Cifrele se calculează la build din aceleași
 // date ca restul site-ului (getAllBills); ce nu se poate număra din date nu apare pe pagină.
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { getAllBills, getBillExtractedTexts } from './bills';
+import { getCdepSlugs } from './cdep';
 import { countOrganisations } from './positions';
 import { FEATURED_ID } from './site';
 
@@ -87,6 +88,8 @@ export async function getTechFacts() {
 
   return {
     bills: bills.length,
+    /** Proiectele Camerei cu fișă citită (anul curent și cei trecuți), fără cele urmărite deja de la Senat. */
+    chamber: (await getCdepSlugs()).length,
     open: bills.filter((b) => b.daysRemaining >= 0).length,
     documents,
     ocr,

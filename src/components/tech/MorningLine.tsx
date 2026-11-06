@@ -141,7 +141,7 @@ function WideMap({ facts }: { facts: TechFacts }) {
   return (
     <svg viewBox="0 0 1160 392" className="block h-auto w-full font-sans" aria-hidden focusable="false">
       <text x={4} y={120} className="font-display fill-ink text-[40px]">
-        08:00
+        09:30
       </text>
       <text x={6} y={146} className={NOTE}>
         luni–vineri, pe Mac
@@ -314,7 +314,7 @@ function TallMap({ facts }: { facts: TechFacts }) {
       <circle cx={X} cy={30} r={15} className="fill-brand" />
       <circle cx={X} cy={30} r={5.5} className="fill-surface" />
       <text x={94} y={41} textAnchor="end" className="font-display fill-ink text-[30px]">
-        08:00
+        09:30
       </text>
       <text x={144} y={35} className={NOTE}>
         luni–vineri, pe Mac

@@ -1,7 +1,7 @@
 {
   "slug": "b576-2026",
   "billId": "B576/2026",
-  "checkedAt": "2026-11-05T09:22:42.082Z",
+  "checkedAt": "2026-11-06T09:26:14.578Z",
   "models": {
     "agy": "error: cod 3: error: print timeout after 10m0s with the turn still in progress; the response is partial AGY_ERROR: {\"short_error\":\"print timeout after 10m0s with the turn still in progress; the response is partial\",\"status\":\"DEADLINE_EXCEEDED\",\"retryable\":false,\"reason\":\"print_timeout\"}",
     "claude": "ok",
@@ -107,7 +107,7 @@
         "claude",
         "codex"
       ],
-      "quote": "Noile prevederi sunt, deocamdată, în stadiul de propunere legislativă.",
+      "quote": "Un proiect de lege inițiat de parlamentarul UDMR Cseke Attila propune simplificarea unor proceduri administrative și clarificarea regulilor aplicabile construcțiilor existente.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -144,6 +144,50 @@
   ],
   "pending": [
     {
+      "url": "https://maszol.ro/belfold/Tisztaztuk-jar-e-buntetes-az-illegalis-erkelybeepitesert-s-kire-csap-le-kemenyen-a-torveny",
+      "title": "Tisztáztuk, jár-e büntetés az illegális erkélybeépítésért, s kire csap le keményen a törvény",
+      "outlet": "Maszol",
+      "domain": "maszol.ro",
+      "publishedAt": "2026-10-28",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Ugyanakkor egy új cikkelyt is bevezetnének, a kódex módosítására törvénytervezetet múlt héten Cseke Attila szenátor – korábbi fejlesztési miniszter – kezdeményezéseként nyújtottak be a szenátusba.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-06",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-06",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.741,
+            "source": "national_news",
+            "sourceP": 0.548,
+            "about": 0.601,
+            "release": 0.311
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.451,
+            "source": "trade_press",
+            "sourceP": 0.444,
+            "about": 0.119,
+            "release": 0.245
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.84,
+            "source": "local_news",
+            "sourceP": 0.89,
+            "about": 0.34,
+            "release": 0.02
+          }
+        }
+      }
+    },
+    {
       "url": "https://www.constructiv.ro/2026/10/codul-urbanismului-modificat-dupa-intrarea-in-vigoare-reguli-noi-pentru-constructiile-fara-autorizatie-si-calculul-pot",
       "title": "Codul urbanismului, modificat după intrarea în vigoare: reguli noi pentru construcțiile fără autorizație și calculul POT",
       "outlet": "constructiv.ro",
@@ -154,7 +198,7 @@
         "claude",
         "codex"
       ],
-      "quote": "Proiectul propune enumerarea explicită a categoriilor de titulari care pot solicita autorizarea lucrărilor.",
+      "quote": "Un proiect legislativ inițiat de senatorul UDMR Cseke Attila, fost ministru al Dezvoltării, urmărește clarificarea unor prevederi care au generat dificultăți de interpretare pentru autoritățile locale și pentru cei care doresc să construiască.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -285,7 +329,7 @@
         "agy",
         "claude"
       ],
-      "quote": "Proiectul stabilește și reguli pentru certificatele de urbanism solicitate sau emise anterior intrării în vigoare a Codului.",
+      "quote": "Codul Urbanismului, intrat în vigoare pe 25 august, ar urma să fie modificat, potrivit unui proiect de lege propus de Cseke Attila, parlamentar UDMR (fișier atasat la finalul știrii).",
       "match": "quote",
       "decision": {
         "v": 2,

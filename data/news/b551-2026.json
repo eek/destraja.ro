@@ -1,9 +1,9 @@
 {
   "slug": "b551-2026",
   "billId": "B551/2026",
-  "checkedAt": "2026-11-05T08:51:45.477Z",
+  "checkedAt": "2026-11-06T08:41:08.414Z",
   "models": {
-    "agy": "ok",
+    "agy": "error: cod 3: error: print timeout after 10m0s with the turn still in progress; the response is partial AGY_ERROR: {\"short_error\":\"print timeout after 10m0s with the turn still in progress; the response is partial\",\"status\":\"DEADLINE_EXCEEDED\",\"retryable\":false,\"reason\":\"print_timeout\"}",
     "claude": "ok",
     "codex": "ok"
   },
@@ -197,7 +197,7 @@
         "claude",
         "codex"
       ],
-      "quote": "AUR a depus în Parlament un proiect de lege prin care propune instituirea unei scheme de ajutor de stat",
+      "quote": "Potrivit AUR, proiectul prevede un buget total de cel mult 1,05 miliarde de euro, cu un plafon anual de maximum 350 de milioane de euro.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -419,7 +419,7 @@
         "claude",
         "agy"
       ],
-      "quote": "AUR a depus în Parlament un proiect de lege care prevede instituirea unei scheme de ajutor de stat, menită să reducă temporar prețul energiei electrice pentru întreprinderile mari consumatoare din sectoarele electro-intensive expuse comerțului internațional.",
+      "quote": "AUR propune o schemă de ajutor de stat pentru reducerea prețului energiei în industria electro-intensivă",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -629,6 +629,50 @@
       }
     },
     {
+      "url": "https://www.jurnaldeconstanta.ro/aur-sugereaza-un-plan-de-sprijin-guvernamental-pentru-diminuarea-costurilor-energetice-in-randul-consumatorilor-industriali-avand-in-vedere-compania-alro-slatina",
+      "title": "AUR sugerează un plan de sprijin guvernamental pentru diminuarea costurilor energetice în rândul consumatorilor industriali, având în vedere compania Alro Slatina - Jurnal de Constanta",
+      "outlet": "Jurnal de Constanta",
+      "domain": "jurnaldeconstanta.ro",
+      "publishedAt": "2026-10-07",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Proiectul prevede un buget total de cel mult 1,05 miliarde de euro, cu un plafon anual de maximum 350 de milioane de euro.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-06",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-06",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.825,
+            "source": "local_news",
+            "sourceP": 0.6,
+            "about": 0.953,
+            "release": 0.717
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.535,
+            "source": "trade_press",
+            "sourceP": 0.321,
+            "about": 0.798,
+            "release": 0.438
+          },
+          "luna": {
+            "stance": "supportive",
+            "stanceP": 0.83,
+            "source": "local_news",
+            "sourceP": 0.84,
+            "about": 0.99,
+            "release": 0.37
+          }
+        }
+      }
+    },
+    {
       "url": "https://oficiuldestiri.ro/ajutor-de-pana-la-105-miliarde-de-euro-pentru-marii-consumatori-de-energie-din-romania-reducerea-poate-ajunge-la-50-din-pretul-de-referinta",
       "title": "Ajutor de până la 1,05 miliarde de euro pentru marii consumatori de energie din România. Reducerea poate ajunge la 50% din prețul de referință",
       "outlet": "Oficiul de Știri | Stiri de ultima ora interne si externe, breaking news, stiri online, stirile zilei",
@@ -638,7 +682,7 @@
         "agy",
         "claude"
       ],
-      "quote": "Un proiect de lege depus în Parlament de AUR propune reducerea temporară a costurilor cu energia electrică",
+      "quote": "Schema de ajutor pentru marii consumatori de energie nu este în prezent o facilitate care poate fi solicitată.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -771,7 +815,7 @@
         "claude",
         "agy"
       ],
-      "quote": "AUR a depus în Parlament un proiect de lege prin care propune instituirea unei scheme de ajutor de stat pentru reducerea temporară a preţului energiei electrice pentru întreprinderile mari consumatoare de energie din sectoarele electro-intensive expuse comerţului internaţional, potrivit News.ro.",
+      "quote": "Potrivit AUR, proiectul prevede un buget total de cel mult 1,05 miliarde de euro, cu un plafon anual de maximum 350 de milioane de euro.",
       "match": "quote",
       "decision": {
         "v": 2,

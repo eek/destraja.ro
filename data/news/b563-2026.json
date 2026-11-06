@@ -1,13 +1,57 @@
 {
   "slug": "b563-2026",
   "billId": "B563/2026",
-  "checkedAt": "2026-11-05T08:57:28.070Z",
+  "checkedAt": "2026-11-06T08:47:10.791Z",
   "models": {
     "agy": "ok",
     "claude": "ok",
     "codex": "ok"
   },
   "articles": [
+    {
+      "url": "https://jurnalul.ro/special-jurnalul/nu-va-fi-obligatoriu-avocat-redactare-contracte-1048099.html",
+      "title": "Nu va fi obligatoriu un avocat pentru redactarea contractelor",
+      "outlet": "Jurnalul",
+      "domain": "jurnalul.ro",
+      "publishedAt": "2026-10-30",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Ieri a avut loc, la Senat, o dezbatere cu toate părțile afectate de proiect.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-06",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-06",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "mixed",
+            "stanceP": 0.407,
+            "source": "national_news",
+            "sourceP": 0.698,
+            "about": 0.955,
+            "release": 0.031
+          },
+          "d1": {
+            "stance": "critical",
+            "stanceP": 0.422,
+            "source": "trade_press",
+            "sourceP": 0.499,
+            "about": 0.915,
+            "release": 0.245
+          },
+          "luna": {
+            "stance": "mixed",
+            "stanceP": 0.83,
+            "source": "national_news",
+            "sourceP": 0.95,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
     {
       "url": "https://alba24.ro/avocat-pentru-contracte-imm-romania-anunta-ca-a-obtinut-in-parlament-eliminarea-obligatiei-pentru-firme-din-proiectul-de-lege-1165088.html",
       "title": "Avocat pentru contracte: IMM România anunță că a obținut în Parlament eliminarea obligației pentru firme, din proiectul de lege",
@@ -150,7 +194,7 @@
       "foundBy": [
         "claude"
       ],
-      "quote": "Propunerea legislativă B563/2026, înregistrată la Senat pe 14 octombrie, vizează modificarea Legii nr. 51/1995",
+      "quote": "Propunerea legislativă B563/2026 a fost înregistrată la Senat la 14 octombrie 2026.",
       "match": "quote",
       "firstSeenAt": "2026-10-31",
       "decision": {
@@ -591,7 +635,7 @@
         "claude",
         "agy"
       ],
-      "quote": "Reacția CECCAR publicată într-un comunicat vine în contextul dezbaterilor provocate de propunerea legislativă B563/2026, depusă la Senat pe 14 octombrie.",
+      "quote": "Inițiativa urmărește modificarea Legii nr. 51/1995 privind profesia de avocat și completarea Codului civil.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -765,7 +809,7 @@
       "foundBy": [
         "agy"
       ],
-      "quote": "În timp ce Bruxelles-ul taie birocrația pentru companii, în Parlamentul României apare un proiect care le obligă să plătească un avocat pentru acte pe care le fac singure de zeci de ani.",
+      "quote": "Un proiect de lege depus la Senat obligă firmele să apeleze la un avocat pentru actele de înființare a societății, diverse modificări legale (mutarea sediului, schimbarea denumirii, modificarea capitalului social), dar și pentru contractele pentru care legea cere forma scrisă.",
       "match": "quote",
       "firstSeenAt": "2026-11-04",
       "decision": {
@@ -1246,7 +1290,7 @@
         "claude",
         "agy"
       ],
-      "quote": "Un proiect de lege depus în Parlament ar putea obliga firmele din România să apeleze la avocați pentru întocmirea actelor de înființare, modificarea documentelor societății și anumite contracte comerciale.",
+      "quote": "Propunerea legislativă B563/2026, înregistrată la Senat pe 14 octombrie 2026, modifică Legea nr. 51/1995 privind organizarea profesiei de avocat și Codul civil.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -1376,7 +1420,7 @@
         "agy",
         "claude"
       ],
-      "quote": "„Dacă proiectul trece, ar ajunge să fie redactate de avocat angajarea, actul adițional pentru mărirea de salariu, asigurarea sau actele firmei, fără ca cineva să fi calculat cât i-ar costa asta pe oameni și pe firme”, a scris Dimitriu pe Facebook.",
+      "quote": "Propunerea legislativă B563/2026 a fost înregistrată la Senat la 14 octombrie 2026.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -1685,7 +1729,7 @@
         "agy",
         "claude"
       ],
-      "quote": "Propunerea legislativă, înregistrată cu nr. B563/2026 la data de 14 octombrie 2026, este inițiată de parlamentari din mai multe formațiuni politice.",
+      "quote": "O propunere legislativă înregistrată la Senat urmărește modificarea și completarea Legii nr. 51/1995 pentru organizarea și exercitarea profesiei de avocat, precum și completarea Legii nr. 287/2009 privind Codul civil, prin extinderea atribuțiilor profesionale ale avocaților și introducerea unor noi cerințe privind asistența juridică și redactarea anumitor contracte.",
       "match": "quote",
       "decision": {
         "v": 2,
@@ -1765,6 +1809,50 @@
     }
   ],
   "pending": [
+    {
+      "url": "https://financialintelligence.ro/daniel-fenechiu-legea-avocaturii-va-fi-modificata-fara-completarea-codului-civil-traian-briciu-unbr-proiectul-noii-legi-a-avocaturii-nu-isi-propune-sa-rapeasca-din-competentele-aflate-in-aria",
+      "title": "Daniel Fenechiu: Legea avocaturii va fi modificată fără completarea Codului civil; Traian Briciu, UNBR: Proiectul noii Legi a avocaturii nu îşi propune \"să răpească\" din competenţele aflate în aria altor profesionişti - ",
+      "outlet": "Financial Intelligence",
+      "domain": "financialintelligence.ro",
+      "publishedAt": "2026-10-29",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Potrivit formei inițiale a propunerii legislative B563/2026, articolul II introducea în Codul civil o prevedere referitoare la redactarea de către avocat a înscrisurilor constatatoare ale contractelor pentru care legea impune forma scrisă sub semnătură privată.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-06",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-06",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "mixed",
+            "stanceP": 0.542,
+            "source": "trade_press",
+            "sourceP": 0.451,
+            "about": 0.944,
+            "release": 0.081
+          },
+          "d1": {
+            "stance": "mixed",
+            "stanceP": 0.572,
+            "source": "trade_press",
+            "sourceP": 0.762,
+            "about": 0.818,
+            "release": 0.245
+          },
+          "luna": {
+            "stance": "mixed",
+            "stanceP": 0.93,
+            "source": "trade_press",
+            "sourceP": 0.84,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
     {
       "url": "https://newscenter.ro/actualitate-stiri-exacte/proiect-avocat-obligatoriu-pentru-contractele-firmelor-si-acordurile-de-divort",
       "title": "Avocat obligatoriu pentru contractele firmelor și acordurile de divorț. Proiect de lege",

@@ -1,13 +1,145 @@
 {
   "slug": "b598-2026",
   "billId": "B598/2026",
-  "checkedAt": "2026-11-05T09:44:56.835Z",
+  "checkedAt": "2026-11-06T09:51:12.672Z",
   "models": {
     "agy": "error: cod 3: error: print timeout after 10m0s with the turn still in progress; the response is partial AGY_ERROR: {\"short_error\":\"print timeout after 10m0s with the turn still in progress; the response is partial\",\"status\":\"DEADLINE_EXCEEDED\",\"retryable\":false,\"reason\":\"print_timeout\"}",
     "claude": "ok",
     "codex": "ok"
   },
   "articles": [
+    {
+      "url": "https://spotmedia.ro/stiri/politica/usr-propune-pana-la-600-de-lei-pe-luna-pentru-chirie-si-transport-la-jumatate-de-pret-pentru-tinerii-care-muncesc",
+      "title": "USR propune până la 600 de lei pe lună pentru chirie și transport la jumătate de preț pentru tinerii care muncesc",
+      "outlet": "Spotmedia",
+      "domain": "spotmedia.ro",
+      "publishedAt": "2026-11-05",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Proiectul de lege a fost depus în Parlament de deputații USR Alin Stoica și Diana Stoica",
+      "match": "quote",
+      "firstSeenAt": "2026-11-06",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-06",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.809,
+            "source": "national_news",
+            "sourceP": 0.422,
+            "about": 0.957,
+            "release": 0.775
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.656,
+            "source": "aggregator",
+            "sourceP": 0.387,
+            "about": 0.881,
+            "release": 0.407
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.91,
+            "source": "national_news",
+            "sourceP": 0.96,
+            "about": 0.99,
+            "release": 0.08
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.stiripesurse.ro/pana-la-600-de-lei-pe-luna-pentru-chirie-si-reduceri-la-transport-cine-ar-putea-beneficia-de-noile-masuri-propuse-in-parlament_3934253",
+      "title": "Până la 600 de lei pe lună pentru chirie și reduceri la transport. Cine ar putea beneficia de noile măsuri propuse în Parlament",
+      "outlet": "Știri pe surse",
+      "domain": "stiripesurse.ro",
+      "publishedAt": "2026-11-05",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Proiectul este semnat de deputaţii USR Alin Stoica şi Diana Stoica, alături de parlamentari de la alte partide.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-06",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-06",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.78,
+            "source": "national_news",
+            "sourceP": 0.403,
+            "about": 0.96,
+            "release": 0.73
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.55,
+            "source": "aggregator",
+            "sourceP": 0.726,
+            "about": 0.867,
+            "release": 0.469
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.84,
+            "source": "national_news",
+            "sourceP": 0.88,
+            "about": 0.99,
+            "release": 0.08
+          }
+        }
+      }
+    },
+    {
+      "url": "https://ziare.com/tineri/castig-4000-lei-ajutor-stat-plata-chirie-transport-2046007",
+      "title": "Bani pentru chirie și transport la jumătate de preț pentru tinerii care câștigă până la 4.000 de lei. Sumele și condițiile prevăzute în proiectul de lege",
+      "outlet": "Ziare.com",
+      "domain": "ziare.com",
+      "publishedAt": "2026-11-05",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Am depus o inițiativă legislativă în ajutorul lor și sper ca ea să fie votată de toate partidele din Parlament.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-06",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-06",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.701,
+            "source": "aggregator",
+            "sourceP": 0.491,
+            "about": 0.969,
+            "release": 0.804
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.761,
+            "source": "aggregator",
+            "sourceP": 0.448,
+            "about": 0.881,
+            "release": 0.407
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.91,
+            "source": "national_news",
+            "sourceP": 0.96,
+            "about": 0.99,
+            "release": 0.03
+          }
+        }
+      }
+    },
     {
       "url": "https://adevarul.ro/economie/chirie-subventionata-cu-pana-la-600-de-lei-si-2568387.html",
       "title": "Chirie subvenționată cu până la 600 de lei și transport la jumătate de preț. Cine poate primi ajutorul",
@@ -238,7 +370,7 @@
       "foundBy": [
         "claude"
       ],
-      "quote": "Inițiativa legislativă prevede și reducerea la jumătate a costurilor la abonamentele pentru transportul în comun pentru această categorie de tineri.",
+      "quote": "Inițiativa legislativă prevede și reducerea la jumătate a costurilor la abonamentele pentru transportul în comun",
       "match": "quote",
       "firstSeenAt": "2026-10-31",
       "decision": {

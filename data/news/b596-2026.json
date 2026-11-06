@@ -1,13 +1,57 @@
 {
   "slug": "b596-2026",
   "billId": "B596/2026",
-  "checkedAt": "2026-11-05T09:38:12.184Z",
+  "checkedAt": "2026-11-06T09:44:38.319Z",
   "models": {
     "agy": "ok",
     "claude": "ok",
     "codex": "ok"
   },
   "articles": [
+    {
+      "url": "https://www.dcbusiness.ro/vesti-bune-pentru-angajati-majorarea-valorii-tichetelor-de-masa-in-parlament_701052.html",
+      "title": "Vești bune pentru angajați: Majorarea valorii tichetelor de masă, în Parlament",
+      "outlet": "DC Business",
+      "domain": "dcbusiness.ro",
+      "publishedAt": "2026-11-01",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Concret, proiectul de lege propune majorarea valorii bonurilor/tichetelor de masă.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-06",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-06",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.585,
+            "source": "national_news",
+            "sourceP": 0.415,
+            "about": 0.952,
+            "release": 0.314
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.63,
+            "source": "trade_press",
+            "sourceP": 0.79,
+            "about": 0.777,
+            "release": 0.148
+          },
+          "luna": {
+            "stance": "supportive",
+            "stanceP": 0.96,
+            "source": "trade_press",
+            "sourceP": 0.81,
+            "about": 0.99,
+            "release": 0.08
+          }
+        }
+      }
+    },
     {
       "url": "https://epitesti.ro/stiri/economic/tichetele-de-masa-ar-putea-creste-la-50-de-lei-pe-zi-cati-bani-le-raman-romanilor",
       "title": "Tichetele de masă ar putea crește la 50 de lei pe zi. Câți bani le rămân românilor",
@@ -142,6 +186,50 @@
       }
     },
     {
+      "url": "https://www.avocatnet.ro/articol_72934/Proiect-Valoarea-maxim%C4%83-a-tichetelor-de-mas%C4%83-ar-putea-cre%C8%99te-la-50-de-lei-incepand-cu-noiembrie.html",
+      "title": "Proiect: Valoarea maximă a tichetelor de masă ar putea crește la 50 de lei, începând cu noiembrie",
+      "outlet": "avocatnet.ro",
+      "domain": "avocatnet.ro",
+      "publishedAt": "2026-10-29",
+      "foundBy": [
+        "claude"
+      ],
+      "quote": "Concret, propunerea legislativă urmărește modificarea Legii nr. 165/2018 privind acordarea biletelor de valoare",
+      "match": "quote",
+      "firstSeenAt": "2026-11-06",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-06",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.836,
+            "source": "trade_press",
+            "sourceP": 0.466,
+            "about": 0.969,
+            "release": 0.034
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.62,
+            "source": "trade_press",
+            "sourceP": 0.551,
+            "about": 0.905,
+            "release": 0.148
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.91,
+            "source": "trade_press",
+            "sourceP": 0.98,
+            "about": 0.99,
+            "release": 0.01
+          }
+        }
+      }
+    },
+    {
       "url": "https://www.bihon.ro/stirile-judetului-bihor/economic/un-nou-proiect-de-lege-vizeaza-milioane-de-salariati-tichetele-de-masa-ar-putea-creste-din-noiembrie-5447388",
       "title": "Un nou proiect de lege vizează milioane de salariați. Tichetele de masă ar putea crește din noiembrie - BIHON",
       "outlet": "Bihon",
@@ -226,6 +314,50 @@
             "sourceP": 0.99,
             "about": 0.99,
             "release": 0.01
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.b1tv.ro/economic/bonurile-de-masa-ar-putea-creste-la-50-de-lei-pe-zi-1744877.html",
+      "title": "Bonurile de masă ar putea crește la 50 de lei pe zi",
+      "outlet": "B1 TV",
+      "domain": "b1tv.ro",
+      "publishedAt": "2026-10-28",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Deputatul Adrian Solomon și fostul ministru al Muncii Marius Budăi au semnat propunerea care ridică plafonul zilnic de la 45 la 50 de lei.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-06",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-06",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.798,
+            "source": "national_news",
+            "sourceP": 0.788,
+            "about": 0.967,
+            "release": 0.165
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.577,
+            "source": "national_news",
+            "sourceP": 0.44,
+            "about": 0.867,
+            "release": 0.294
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.83,
+            "source": "national_news",
+            "sourceP": 0.98,
+            "about": 0.99,
+            "release": 0.02
           }
         }
       }
@@ -627,6 +759,50 @@
             "sourceP": 0.78,
             "about": 0.99,
             "release": 0.02
+          }
+        }
+      }
+    },
+    {
+      "url": "https://adevarulfinanciar.ro/cariera-and-pensii/tichetele-de-masa-ar-putea-creste-la-50-de-lei-din-2567639.html",
+      "title": "Tichetele de masă ar putea crește la 50 de lei din noiembrie. Proiect depus la Senat",
+      "outlet": "Adevărul Financiar",
+      "domain": "adevarulfinanciar.ro",
+      "publishedAt": "2026-10-30",
+      "foundBy": [
+        "agy"
+      ],
+      "quote": "Propunerea legislativă pentru modificarea Legii nr. 165/2018 privind acordarea biletelor de valoare a fost înregistrată la Senat pe 28 octombrie 2026, cu numărul B596/2026.",
+      "match": "quote",
+      "firstSeenAt": "2026-11-06",
+      "decision": {
+        "v": 2,
+        "checkedAt": "2026-11-06",
+        "text": "trafilatura",
+        "models": {
+          "clef": {
+            "stance": "neutral",
+            "stanceP": 0.814,
+            "source": "national_news",
+            "sourceP": 0.583,
+            "about": 0.97,
+            "release": 0.097
+          },
+          "d1": {
+            "stance": "neutral",
+            "stanceP": 0.737,
+            "source": "national_news",
+            "sourceP": 0.484,
+            "about": 0.893,
+            "release": 0.107
+          },
+          "luna": {
+            "stance": "neutral",
+            "stanceP": 0.94,
+            "source": "national_news",
+            "sourceP": 0.68,
+            "about": 0.99,
+            "release": 0.01
           }
         }
       }

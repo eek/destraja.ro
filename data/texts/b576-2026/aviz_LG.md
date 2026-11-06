@@ -1,0 +1,133 @@
+## AVIZ
+
+# referitor la propunerea legislativă pentru modificarea și completarea Legii nr. 169/2026 privind Codul amenajării teritoriului, urbanismului și construcțiilor
+
+Analizând propunerea legislativă pentru modificarea și completarea Legii nr. 169/2026 privind Codul amenajării teritoriului, urbanismului și construcțiilor (b576/19.10.2026), transmisă de Secretarul General al Senatului cu adresa nr. XXXV/5149/26.10.2026 și înregistrată la Consiliul Legislativ cu nr. D885/26.10.2026,
+
+## CONSILIUL LEGISLATIV
+
+În temeiul art. 2 alin. (1) lit. a) din Legea nr. 73/1993, republicată, și al art. 29 alin. (3) din Regulamentul de organizare și funcționare a Consiliului Legislativ,
+
+Avizează favorabil propunerea legislativă, cu următoarele observații și propuneri:
+
+1\. Propunerea legislativă are ca obiect de reglementare modificarea și completarea Legii nr. 169/2026 privind Codul amenajării teritoriului, urbanismului și construcțiilor.
+
+Potrivit Expunerii de motive, prezenta inițiativă legislativă urmărește „corectarea și clarificarea unor situații punctuale, în scopul asigurării aplicării effective a Codului, al creșterii securității juridice și al menținerii continuității proceselor de planificare urbană și autorizare a investițiilor”.
+
+2\. Propunerea legislativă face parte din categoria legilor ordinare, prima Cameră sesizată fiind Senatul, în conformitate cu dispozițiile art. 75 alin. (1) din Constituția României, republicată.
+
+3\. Precizăm că, prin avizul pe care îl emite, Consiliul Legislativ nu se pronunță asupra oportunității soluțiilor legislative preconizate.
+
+4\. Menționăm că Legea nr. 169/2026 privind Codul amenajării teritoriului, urbanismului și construcțiilor a fost publicată în Monitorul Oficial al României, Partea I, nr. 661 din 10 august 2026, iar, potrivit prevederilor art. 575 alin. (1) din acest act normativ, codul sus-menționat a intrat în vigoare la 15 zile de la data publicării.
+
+Atenționăm că modificarea, respectiv completarea unui act normativ la scurt timp după intrarea acestuia în vigoare este de natură să afecteze stabilitatea și coerența legislației, aducând atingere principiului securității raporturilor juridice, ceea ce este contrar prevederilor art. 6 din Legea nr. 24/2000, republicată, cu modificările și completările ulterioare, potrivit cărora „Proiectul de act normativ trebuie să instituie reguli necesare, suficiente și posibile care să conducă la o cât mai mare stabilitate și eficiență legislativă. (...)”.
+
+Astfel, din această perspectivă, propunerea legislativă ar putea genera critici de neconstituționalitate, pentru încălcarea prevederilor art. 1 alin. (5) din Constituția României, republicată, potrivit cărora „În România, respectarea Constituției, a supremației sale și a legilor este obligatorie”.
+
+5\. Semnalăm că Expunerea de motive trebuie să respecte structura instrumentului de prezentare și motivare prevăzută la art. 31 din Legea nr. 24/2000, republicată, cu modificările și completările ulterioare, potrivit căruia acesta trebuie să cuprindă secțiuni distincte privind motivul emiterii actului normativ, impactul socioeconomic cu prezentarea efectelor asupra mediului macroeconomic, de afaceri, social și asupra mediului înconjurător, inclusiv evaluarea costurilor și beneficiilor, impactul financiar asupra bugetului general consolidat, impactul asupra sistemului juridic, inclusiv compatibilitatea cu reglementările Uniunii Europene în materie, consultările derulate în vederea elaborării prezentei propuneri, informarea publică privind elaborarea și implementarea acesteia, precum și măsurile de implementare, respectiv modificările instituționale și funcționale la nivelul administrației publice centrale și locale pe care le presupune aplicarea noului act normativ.
+
+Referitor la conținutul instrumentului de motivare, constatăm că acesta se referă doar la principalele soluții legislative propuse și la compatibilitatea cu Planul național de redresare și reziliență al României.
+
+6\. Pentru respectarea prevederilor art. 42 alin. (2) din Legea nr. 24/2000, republicată, cu modificările și completările ulterioare, formula introductivă se va reda astfel:
+
+„Parlamentul României adoptă prezenta lege.”
+
+7\. Întrucât propunerea legislativă este structurată într-un singur articol, în aplicarea dispozițiilor art. 47 alin. (3) teza finală din Legea nr. 24/2000, republicată, cu modificările și completările ulterioare, acesta va fi marcat cu sintagma „Articol unic”, în loc de „Art. I.”.
+
+De asemenea, la partea introductivă a actualului art. I, după titlul legii se va insera sintagma „publicată în Monitorul Oficial al României, Partea I, nr. 661 din 10 august 2026”.
+
+8\. Semnalăm faptul că, la numerotarea părților dispozitive ale punctelor actualului art. I, a fost omisă cifra „2”, iar două dintre acestea sunt marcate cu numărul „10”, fiind necesară revederea corespunzătoare a numerotării actualelor pct. 1 - 10.
+
+9\. La pct. 1, partea dispozitivă se va reda astfel:
+
+„1. La articolul 66 alineatul (1), după litera g) se introduce o nouă literă, lit. h), cu următorul cuprins:”.
+
+La textul propus pentru art. 66 alin. (1) lit. h), pentru unitate redacțională cu norma în care urmează a se încorpora, sintagma „în vederea stabilirii” se va înlocui cu termenul „stabilirea”.
+
+În plus, pentru un spor de rigoare a redactării, sintagma „anterior aprobate. Prevederile art. 361 și art. 573 se aplică corespunzător” se va reda sub forma „anterior aprobate; prevederile art. 361 și 573 se aplică în mod corespunzător”.
+
+10\. La actualul pct. 4, partea dispozitivă se va reformula după cum urmează:
+
+„3. La articolul 257 alineatul (9), după litera d) se introduce o nouă literă, lit. e), cu următorul cuprins:”.
+
+La textul propus pentru art. 257 alin. (9) lit. e), pentru unitate redacțională cu norma în care urmează a se încorpora, verbul „să permită” se va reda sub forma „permite”. Este însă de reflectat dacă acesta este potrivit în context.
+
+11\. La actualul pct. 7, partea dispozitivă se va reda sub forma:
+
+„6. La articolul 352 alineatul (5), litera b) se modifică și va avea următorul cuprins:”.
+
+12\. La actualul pct. 8, partea dispozitivă se va redacta astfel:
+
+„7. La articolul 352 alineatul (5), după litera d) se introduce o nouă literă, lit. e), cu următorul cuprins:”.
+
+13\. La actualul pct. 9 partea dispozitivă, sintagma „un alineat nou, 5¹, care va avea următorul cuprins” se va scrie sub forma „un nou alineat, alin. (5¹), cu următorul cuprins”.
+
+Reiterăm această observație și pentru cazul asemănător de la al doilea pct. 10.
+
+La textul propus pentru art. 357 alin. (5¹), întrucât titlul actului normativ la care se face trimitere este redat anterior în actul normativ de bază, dar și pentru o completă informare legislativă, sintagma „Ordonanța Guvernului nr. 2/2001 privind regimul juridic al contravențiilor, cu modificările și completările ulterioare” se va reda sub forma „Ordonanța Guvernului nr. 2/2001, aprobată cu modificări și completări prin Legea nr. 180/2002, cu modificările și completările ulterioare”.
+
+Reiterăm această observație și pentru cazul asemănător de la actualul pct. 13.
+
+14\. La actualul prim punct marcat cu numărul 10, cu privire la teza a II-a din textul propus pentru art. 361 alin. (4), unde se face referire la situații juridice anterioare momentului „intrării în vigoare a prezentei legi”, semnalăm că respectivul text nu poate fi încorporat în această formă în actul normativ de bază.
+
+În acest sens, pe de o parte, precizăm că, potrivit prevederilor art. 62 din Legea nr. 24/2000, republicată, cu modificările și completările ulterioare, „Dispozițiile de modificare și de completare se încorporează, de la data intrării lor în vigoare, în actul de bază, identificându-se cu acesta. Intervențiile ulterioare de modificare sau de completare a acestora trebuie raportate tot la actul de bază”.
+
+Pe de altă parte, potrivit prevederilor art. 6 alin. (2) și (5) din Legea nr. 287/2009 privind Codul civil, republicată, cu modificările și completările ulterioare, „(2) Actele și faptele juridice încheiate ori, după caz, săvârșite sau produse înainte de intrarea în vigoare a legii noi nu pot genera alte efecte juridice decât cele prevăzute de legea în vigoare la data încheierii sau, după caz, a săvârșirii ori producerii lor”, respectiv „(5) Dispozițiile legii noi se aplică tuturor actelor și faptelor încheiate sau, după caz, produse ori săvârșite după intrarea sa în vigoare, precum și situațiilor juridice născute după intrarea sa în vigoare".
+
+Ca urmare a celor de mai sus, pentru a se evita încălcarea dispozițiilor art. 15 alin. (2) din Constituția României referitoare la neretroactivitatea legii, se impune, așadar, revederea soluției legislative preconizate, astfel încât expresia „Prevederile prezentului alineat se aplică în mod corespunzător și pentru unitățile administrativ-teritoriale ale căror Planuri Urbanistice Generale au fost anulate definitiv de către instanțele judecătorești anterior intrării în vigoare a prezentei legi, dacă la data intrării în vigoare a prezentei legi nu a fost aprobat un nou PUG” să facă obiectul unui articol de sine stătător al propunerii legislative, marcat cu cifră romană, utilizându-se norma de trimitere la prevederile art. 361 alin. (4) din Legea nr. 169/2026 privind Codul amenajării teritoriului, urbanismului și construcțiilor.
+
+Reiterăm observația de mai sus pentru situația asemănătoare de la actualul pct. 11, unde se face raportare la data de 25 august 2026.
+
+15\. La actualul al doilea pct. 10 referitor la textul preconizat pentru art. 361 alin. (4¹), semnalăm că alin. (4) la care se face trimitere nu prevede in terminis o decizie de anulare, motiv pentru care propunem reformularea alin. (4¹).
+
+Totodată, pentru o redactare specific normativă, propunem înlocuirea sintagmei „se aplică de drept prevederile ...” cu expresia „sunt aplicabile prevederile ...”.
+
+16\. La actualul pct. 13 referitor la textul propus pentru art. 581 alin. (3), semnalăm că, în prezent, urmare a intervențiilor legislative aduse prin Ordonanța de urgență a Guvernului nr. 7/2026, alin. (1¹) al art. 28 din Ordonanța Guvernului nr. 2/2001 prevede în mod expres, pentru amenzile aplicate în domeniul autorizării executării lucrărilor de construcții și urbanismului, posibilitatea contravenientului de a achita jumătate din cuantumul amenzii aplicate de agentul constatator.
+
+Având în vedere regimul expres stabilit în prezent pentru diferitele categorii de contravenții din cuprinsul codului, precum și soluția preconizată prin proiect, apreciem că norma din art. 28 alin. (1¹) din Ordonanța Guvernului ar trebui abrogată în mod expres, și nu exclusă de la aplicare.
+
+Pe de altă parte, norma propusă prin proiect trebuie reanalizată și în ceea ce privește trimiterea la celelalte alineate ale art. 28 din
+
+Ordonanța Guvernului nr. 2/2002, care nu se referă, similar normelor din alin. (1) și (1¹) ale articolului, la aplicarea sistemului ablațiunii, ci au ca obiect stabilirea unor reguli referitoare la modalitatea de plată a amenzilor.
+
+Precizăm că, în măsura în care se are în vedere și exceptarea acestor norme de la aplicare, proiectul trebuie completat cu dispoziții exprese referitoare la plata amenzilor pentru contravențiile prevăzute de cod. Se impune, de aceea, reanalizarea textului preconizat pentru art. 581 alin. (3) sub toate aceste aspecte.
+
+17\. La actualul pct. 14 referitor la textul propus pentru art. 582 alin. (4), semnalăm că exprimarea „în baza avizelor, a documentelor solicitate” nu asigură cursivitatea acestuia, imprimând chiar neclaritate normei. Prin urmare, este necesară reformularea acesteia, în funcție de intenția de reglementare.
+
+18\. Pentru respectarea succesiunii firești a elementelor structurale asupra cărora se intervine, actualele pct. 15 și 16 se vor inversa.
+
+De asemenea, întrucât și la actualele pct. 15 și pct. 17 se intervine asupra anexei nr. 1, recomandăm comasarea celor două puncte.
+
+Prin urmare, la actualul pct. 15, care va deveni pct. 16, partea dispozitivă se va reformula astfel:
+
+„16. La anexa nr. 1, definițiile expresiilor „drept de execuție a lucrărilor de construcții” și „Procent de ocupare a terenului (POT)” se modifică și vor avea următorul cuprins:”.
+
+În continuare, se vor reda textele preconizate pentru cele două expresii.
+
+În ceea ce privește textul propus pentru expresia „drept de execuție a lucrărilor de construcții”, pentru o redactare unitară cu prevederile similare din cadrul actului de bază, în debutul acestuia recomandăm să fie inserată expresia respectivă.
+
+Pe de altă parte, este necesară revederea și reformularea normei preconizate, astfel încât textul să fie formulat clar, fluent și inteligibil.
+
+În mod special, avem în vedere că enumerarea drepturilor reale principale de la pct. 1 nu conține și dreptul de folosință cu titlu gratuit, așa cum se prevede în cadrul normei preconizate la actualul pct. 3 pentru art. 245 alin. (3) lit. c).
+
+La actualul pct. 16, care va deveni pct. 15, este necesară inserarea următoarei părți dispozitive:
+
+„15. După articolul 582 se va introduce un nou articol, art. 582¹, cu următorul cuprins:”.
+
+Referitor la norma propusă pentru art. 582¹ alin. (1), precizăm că în materia succesiunii actelor normative prin care se stabilesc și se sancționează contravenții legiuiitorul nu poate stabili printr-o dispoziție generală care este legea aplicabilă pentru contravențiile săvârșite sub imperiul legii vechi, întrucât în acest domeniu sunt incidente dispozițiile art. 15 alin. (2) din Constituție, dezvoltate în cuprinsul art. 12 din Ordonanța Guvernului nr. 2/2001, referitoare la aplicarea legii contravenționale mai favorabile.
+
+Menționăm că aplicarea acestui principiu implică analizarea in concreto a faptelor săvârșite, care nu poate fi realizată de legiutor, ci numai de către organele care aplică legea, respectiv organele care au competența aplicării sancțiunii contravenționale și, după caz, instanțele de judecată învestite cu soluționarea unei plângeri contravenționale.
+
+Prin urmare, norma propusă pentru alin. (1) trebuie eliminată.
+
+În ceea ce privește normele din cuprinsul alin. (2) și (3), semnalăm că instituirea unor reguli referitoare la modalitatea de stabilire a datei săvârșirii contravenției pentru fapte a căror săvârșire a început înainte de intrarea în vigoare a prezentelor norme ridică probleme în ceea ce privește aplicarea legii contravenționale în timp, fiind necesar să se evite ca, prin aplicarea lor concomitentă cu reglementarea anterioară Codului, să se ajungă la o modificare retroactivă a acestei reglementări.
+
+Se impune, de aceea, reanalizarea, sub acest aspect, a textelor propuse prin proiect.
+
+PRESEDINTE
+
+Florin IORDACHE
+
+București
+
+Nr. 918/04.11.2026

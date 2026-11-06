@@ -124,6 +124,8 @@ function commuteWait(marginMin, now = new Date()) {
   return min >= 480 - marginMin && min < 560 ? (560 - min) * 60_000 : 0;
 }
 function dailyRunning() {
+  // --yield-to=nimic: chemat chiar din rularea zilnică, care ține lacătul.
+  if (YIELD_TO === 'nimic') return false;
   try {
     process.kill(Number(fs.readFileSync(YIELD_TO, 'utf8')), 0);
     return true;

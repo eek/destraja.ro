@@ -158,6 +158,10 @@ async function main() {
     else {
       const cdepCouncil = await step('Camera: analize', 'node', ['scripts/straja-council.mjs', '--camera', '--due', '--max=8'], { timeoutMs: 7_200_000 });
       if (!cdepCouncil.ok) summary.push('analizele Camerei au eșuat');
+      // O formă nouă pe fișă (de exemplu cea adoptată de Senat): analiza ei, comparația cu forma dinainte și analiza
+      // principală mutată pe ea; apoi câte unul din proiectele încă necomparate.
+      const forms = await step('Camera: forme noi', 'node', ['scripts/straja-council.mjs', '--versions', '--max=5'], { timeoutMs: 5_400_000 });
+      if (!forms.ok) summary.push('comparațiile formelor au eșuat');
       // Amendamentele din rapoartele comisiilor, cu autorii lor; doar proiectele cu raport sau comparație nouă ajung la model.
       const amendments = await step('Camera: amendamente', 'node', ['scripts/straja-amendments.mjs', '--max=100'], { timeoutMs: 7_200_000 });
       if (!amendments.ok) summary.push('amendamentele Camerei au eșuat');
@@ -169,6 +173,14 @@ async function main() {
 
     const ces = await step('Avize CES', 'node', ['scripts/straja-ces.mjs'], { timeoutMs: 1_800_000 });
     if (!ces.ok) summary.push('rezumatul avizelor CES a eșuat');
+    // Ce spun instituțiile (Guvernul, comisia, Consiliul Legislativ, Consiliul Fiscal) la proiectele de pe ordinea de zi
+    // și cu raport: documentele deja citite stau în .cache/avize, deci la model ajung doar cele noi. Cererile la cdep.ro
+    // au pauza comună; ce nu încape în oră rămâne pentru mâine.
+    const avize = await step('Avize', 'node', ['scripts/straja-avize.mjs', '--max=40', '--yield-to=nimic'], { timeoutMs: 3_600_000 });
+    if (!avize.ok) summary.push('avizele instituțiilor au eșuat');
+    // Ce e bine și ce strică, pentru proiectele noi și cele cu textul sau scorul schimbat.
+    const balance = await step('Ce e bine și ce strică', 'node', ['scripts/straja-balance.mjs', '--risc=toate', '--max=30', '--limita=1800'], { timeoutMs: 3_600_000 });
+    if (!balance.ok) summary.push('„ce e bine și ce strică” a eșuat');
 
     if (!args.has('--skip-news')) {
       const news = await step('Presă', 'node', ['scripts/straja-news.mjs', '--max-age=20'], { timeoutMs: 5_400_000 });

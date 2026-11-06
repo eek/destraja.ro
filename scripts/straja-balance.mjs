@@ -3,7 +3,8 @@
 // articolul și cu un citat verificat cuvânt cu cuvânt, plus schimbarea care ar face proiectul acceptabil. Site-ul arată
 // primele trei din fiecare și restul la cerere.
 //
-//   node scripts/straja-balance.mjs [slug…] [--risc=red|yellow|green|toate] [--model=agy] [--paralel=4] [--limita=SECUNDE] [--force]
+//   node scripts/straja-balance.mjs [slug…] [--risc=red|yellow|green|toate] [--model=agy] [--paralel=4] [--limita=SECUNDE] [--max=N]
+//                                   [--force]
 //
 // Fără slug-uri: proiectele de la Senat și de la Cameră cu nivelul cerut (implicit risc ridicat), fără rezultat la zi.
 // Rezultatul: data/analyses/balance/<slug>.json. Se refac doar cele al căror text sau scor s-a schimbat.
@@ -29,6 +30,8 @@ const parallel = Number(opt('paralel', 4));
 // Fără limită de timp, implicit: proiectele lungi au liste lungi și ar fi păcat să tăiem un răspuns aproape gata.
 const limit = Number(opt('limita', 24 * 3600)) * 1000;
 const force = args.includes('--force');
+// Cel mult atâtea proiecte într-o rulare (rularea zilnică); restul rămân pentru data viitoare.
+const max = Number(opt('max', Infinity));
 
 const readJson = (file) => {
   try {
@@ -168,7 +171,8 @@ fs.mkdirSync(OUT, { recursive: true });
 const queue = targets()
   .map(load)
   .filter(Boolean)
-  .filter((b) => force || readJson(path.join(OUT, `${b.slug}.json`))?.inputHash !== hash(b));
+  .filter((b) => force || readJson(path.join(OUT, `${b.slug}.json`))?.inputHash !== hash(b))
+  .slice(0, max);
 console.log(`⚖️  ${queue.length} proiecte de analizat cu ${model} (${parallel} în paralel)`);
 let done = 0;
 let failed = 0;

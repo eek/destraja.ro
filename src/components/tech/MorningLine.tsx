@@ -22,7 +22,11 @@ function steps(f: TechFacts): Step[] {
         </>
       ),
     },
-    { n: 2, name: 'Analiza', text: 'Gemini, Claude și ChatGPT citesc separat fiecare proiect nou. Apoi motivele avizelor negative CES, cu citate verificate.' },
+    {
+      n: 2,
+      name: 'Analiza',
+      text: 'Gemini, Claude și ChatGPT citesc separat fiecare proiect nou și fiecare formă nouă a unui proiect. Apoi ce spun instituțiile și ce e bine și ce strică, cu citate verificate.',
+    },
     {
       n: 3,
       name: 'Presa',

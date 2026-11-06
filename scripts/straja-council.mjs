@@ -705,6 +705,8 @@ async function versionsForBill(sheet, force, recompare = false) {
     slug: sheet.slug,
     billId: bill.id,
     updatedAt: new Date().toISOString(),
+    // Formele de pe fișă la comparația asta, și cele fără text: doar o formă în plus față de ele cere o comparație nouă.
+    plan: versionPlan(sheet).map((v) => v.key),
     versions: withText.map((v) => ({
       key: v.key,
       label: VERSION_LABEL[v.key],
@@ -760,12 +762,25 @@ async function mainVersions(args) {
     const dir = path.join(VERSIONS_DIR, s);
     return fs.existsSync(path.join(VERSIONS_DIR, `${s}.json`)) && fs.existsSync(dir) && fs.readdirSync(dir).some((f) => missingModels(readJsonFile(path.join(dir, f))));
   };
-  // Proiectele cu analiză principală și cel puțin două forme posibile; întâi cele aflate acum la Cameră.
+  // O formă apărută pe fișă după ultima comparație (de exemplu cea adoptată de Senat): versionsForBill analizează doar
+  // forma nouă, mută analiza principală pe ea și compară doar perechea nouă. Comparațiile dinainte de câmpul „plan” se
+  // judecă după formele pe care le au.
+  const newForm = (s) => {
+    const prev = readJsonFile(path.join(VERSIONS_DIR, `${s.slug}.json`));
+    if (!prev) return false;
+    const seen = prev.plan ?? prev.versions.map((v) => v.key);
+    return versionPlan(s).some((v) => !seen.includes(v.key));
+  };
+  // Proiectele cu analiză principală și cel puțin două forme posibile; întâi cele cu o formă nouă, apoi cele aflate acum
+  // la Cameră.
+  const compared = (s) => fs.existsSync(path.join(VERSIONS_DIR, `${s.slug}.json`));
   const targets =(slug ? [{ slug }] : index.filter((p) => !p.senat && fs.existsSync(path.join(ANALYSES_DIR, `${p.slug}.json`))))
     .map((p) => read(p.slug))
     .filter((s) => s && versionPlan(s).length >= 2)
-    .filter((s) => slug || force || (canRun('claude') ? recompare === fs.existsSync(path.join(VERSIONS_DIR, `${s.slug}.json`)) : incomplete(s.slug)))
-    .sort((a, b) => Number(!AT_CHAMBER.test(a.stadiu ?? '')) - Number(!AT_CHAMBER.test(b.stadiu ?? '')));
+    .filter((s) => slug || force || (canRun('claude') ? (recompare ? compared(s) : !compared(s) || newForm(s)) : incomplete(s.slug)))
+    .map((s) => ({ s, first: newForm(s) ? 0 : AT_CHAMBER.test(s.stadiu ?? '') ? 1 : 2 }))
+    .sort((a, b) => a.first - b.first)
+    .map(({ s }) => s);
   const claim = claimer('versions');
   let done = 0;
   let failed = 0;

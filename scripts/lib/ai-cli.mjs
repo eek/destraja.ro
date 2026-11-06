@@ -20,6 +20,11 @@
 // Git: dosarul gol e în repo, iar un CLI care rula git de acolo cerea cheia SSH din 1Password. GIT_CEILING_DIRECTORIES
 // oprește căutarea repo-ului la .cache/, iar GIT_SSH_COMMAND nu lasă ssh să folosească agentul de chei.
 // Nu folosim niciodată --dangerously-skip-permissions sau flagurile „dangerously” ale codex.
+//
+// Pe VM. Cu .cache/ai-vm (gazda prin care ajungem la VM-ul destraja, ca .cache/agenda-vm), apelurile rulează pe VM, prin
+// ssh, cu scripts/vm/ai-run.mjs: aceleași argumente, același dosar gol și același mediu minim, cu autentificările
+// făcute acolo. Mac-ul doar trimite promptul și citește fluxul de evenimente. Dacă VM-ul nu răspunde (ssh eșuat) sau nu
+// poate rula cererea, apelul se face aici, ca înainte. AI_LOCAL=1 rulează totul aici.
 
 import fs from 'node:fs';
 import os from 'node:os';
@@ -58,6 +63,18 @@ skill_mcp_dependency_install = false
 `;
 
 export const MODEL_KEYS = ['agy', 'claude', 'codex'];
+
+const AI_VM_FILE = path.join(ROOT_DIR, '.cache', 'ai-vm');
+const VM_HOST = 'destraja@192.168.153.10';
+/** Gazda de salt spre VM, dacă apelurile merg pe VM; altfel null. */
+function vmJump() {
+  if (process.env.AI_LOCAL === '1') return null;
+  try {
+    return fs.readFileSync(AI_VM_FILE, 'utf8').trim() || null;
+  } catch {
+    return null;
+  }
+}
 
 // CLI-urile stau implicit în ~/.local/bin; AGY_BIN, CLAUDE_BIN și CODEX_BIN le pot muta.
 const LOCAL_BIN = path.join(os.homedir(), '.local', 'bin');
@@ -199,7 +216,7 @@ function looksComplete(answer) {
   }
 }
 
-function run(cmd, argv, stdin, timeoutMs, { parse, live } = {}) {
+function run(cmd, argv, stdin, timeoutMs, { parse, live, model, vm } = {}) {
   fs.mkdirSync(SANDBOX_DIR, { recursive: true });
   const out = live ? fs.createWriteStream(live, { flags: 'a' }) : null;
   let pending = '';
@@ -220,8 +237,16 @@ function run(cmd, argv, stdin, timeoutMs, { parse, live } = {}) {
     if (r.final != null) final = r.final;
   };
   return new Promise((resolve, reject) => {
-    // Grup de procese propriu: la expirare oprim și procesele pornite de CLI, nu doar CLI-ul.
-    const child = spawn(cmd, argv, { cwd: SANDBOX_DIR, env: minimalEnv(cmd), stdio: ['pipe', 'pipe', 'pipe'], detached: true });
+    // Grup de procese propriu: la expirare oprim și procesele pornite de CLI, nu doar CLI-ul. Pe VM, procesul local e
+    // ssh-ul; ai-run.mjs oprește CLI-ul de acolo la limita lui de timp sau când ssh-ul se închide.
+    const child = vm
+      ? spawn('ssh', ['-o', 'BatchMode=yes', '-o', 'ConnectTimeout=20', '-o', 'ServerAliveInterval=30', '-J', vm, VM_HOST, 'node destraja-ai/ai-run.mjs'], {
+          cwd: SANDBOX_DIR,
+          env: { PATH: '/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin', HOME: os.homedir(), USER: process.env.USER ?? '', LANG: 'en_US.UTF-8' },
+          stdio: ['pipe', 'pipe', 'pipe'],
+          detached: true,
+        })
+      : spawn(cmd, argv, { cwd: SANDBOX_DIR, env: minimalEnv(cmd), stdio: ['pipe', 'pipe', 'pipe'], detached: true });
     const killGroup = (signal) => {
       try {
         process.kill(-child.pid, signal);
@@ -269,6 +294,8 @@ function run(cmd, argv, stdin, timeoutMs, { parse, live } = {}) {
       settleIfComplete();
     });
     child.stderr.on('data', (c) => {
+      // Rândurile goale de pe VM sunt semnele de viață ale lui ai-run.mjs.
+      if (vm && !String(c).trim()) return;
       stderr += c;
       out?.write(c);
     });
@@ -288,9 +315,15 @@ function run(cmd, argv, stdin, timeoutMs, { parse, live } = {}) {
       out?.end();
       // Cu evenimente în flux, `text` e răspunsul final al modelului (sau bucățile lui, dacă lipsește evenimentul final).
       const answer = parse ? (final ?? text) : stdout;
-      if (code !== 0 && !answer.trim()) reject(new Error(`cod ${code}: ${(stderr || stdout).trim().split('\n').slice(-2).join(' ').slice(0, 300)}`));
-      else resolve({ stdout: answer, raw: stdout, stderr, code });
+      if (code !== 0 && !answer.trim()) {
+        const err = new Error(`cod ${code}: ${(stderr || stdout).trim().split('\n').slice(-2).join(' ').slice(0, 300)}`);
+        // 255: ssh n-a ajuns la VM; 3: ai-run.mjs n-a putut rula cererea acolo. În ambele cazuri o rulăm local.
+        err.local = Boolean(vm) && (code === 255 || code === 3);
+        reject(err);
+      } else resolve({ stdout: answer, raw: stdout, stderr, code });
     });
+    child.stdin.on('error', () => {});
+    if (vm) child.stdin.write(`${JSON.stringify({ model, argv, timeoutMs, codexConfig: model === 'codex' ? CODEX_CONFIG : undefined })}\n`);
     if (stdin) child.stdin.write(stdin);
     child.stdin.end();
   });
@@ -326,13 +359,23 @@ export async function runModel(model, prompt, { mode = 'offline', timeoutMs = 30
   const finish = (status) => fs.appendFileSync(live, `\n# gata: ${status} în ${Math.round((Date.now() - start) / 1000)}s\n`);
   try {
     const argv = args(model, mode, codexModel);
-    const stream = { parse: STREAM[model], live };
     // agy primește promptul ca argument; ceilalți îl citesc din stdin. Jurnalul intern al lui agy (cererile HTTP) arată,
-    // când un apel durează, dacă modelul încă lucrează sau dacă agy reîncearcă.
-    const res =
-      model === 'agy'
-        ? await run(BINS.agy, [...argv, '--log-file', live.replace(/\.log$/, '.agy.txt'), '--print-timeout', `${Math.round(timeoutMs / 1000)}s`, '-p', prompt], null, timeoutMs + 15000, stream)
-        : await run(BINS[model], argv, prompt, timeoutMs, stream);
+    // când un apel durează, dacă modelul încă lucrează sau dacă agy reîncearcă (doar local: pe VM ar rămâne acolo).
+    const call = (vm) => {
+      const stream = { parse: STREAM[model], live, model, vm };
+      return model === 'agy'
+        ? run(BINS.agy, [...argv, ...(vm ? [] : ['--log-file', live.replace(/\.log$/, '.agy.txt')]), '--print-timeout', `${Math.round(timeoutMs / 1000)}s`, '-p', prompt], null, timeoutMs + 15000, stream)
+        : run(BINS[model], argv, prompt, timeoutMs, stream);
+    };
+    const vm = vmJump();
+    let res;
+    try {
+      res = await call(vm);
+    } catch (err) {
+      if (!err.local) throw err;
+      fs.appendFileSync(live, `\n# VM-ul n-a rulat cererea (${err.message}); o rulez aici\n`);
+      res = await call(null);
+    }
     const quota = /usage limit|rate limit|quota/i.test(res.stdout + res.stderr) && !/\{[\s\S]*\}/.test(res.stdout.split('\n').slice(-40).join('\n'));
     if (quota) throw new Error((res.stdout + res.stderr).match(/[^\n]*(usage limit|rate limit|quota)[^\n]*/i)?.[0]?.trim().slice(0, 200) ?? 'limită de utilizare');
     if (!res.stdout.trim()) throw new Error(`răspuns gol după ${Math.round((Date.now() - start) / 1000)}s (probabil timp depășit)`);

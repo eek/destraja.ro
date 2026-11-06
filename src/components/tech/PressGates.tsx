@@ -125,7 +125,7 @@ export function LocalModels() {
                 {m.name} <span className="font-normal text-muted">· {m.maker}</span>
               </p>
               <p className="mt-1 text-sm leading-6 text-body">
-                Model de decizie open source ({m.license}), cu {m.params} de parametri. Rulează cu {m.runtime} ({m.weights}).
+                Model de decizie cu greutăți publice ({m.license}), cu {m.params} de parametri. Rulează cu {m.runtime} ({m.weights}).
               </p>
             </li>
           ))}

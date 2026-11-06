@@ -8,6 +8,7 @@ Primește cereri JSONL, câte una pe linie: {"id": ..., "state": ..., "questions
 ordine: {"id": ..., "answers": {...}, "usage": {...}, "ms": ...}. O cerere greșită primește {"id": ..., "error": "..."}
 și nu oprește restul.
 
+  .venv-glide/bin/python decide.py glide intrare.jsonl iesire.jsonl
   .venv-mlx/bin/python decide.py clef intrare.jsonl iesire.jsonl
   .venv-torch/bin/python decide.py d1 intrare.jsonl iesire.jsonl
 
@@ -27,6 +28,14 @@ os.environ.setdefault("HF_HUB_OFFLINE", "1")
 from huggingface_hub import snapshot_download  # noqa: E402
 
 MODELS = {
+    # GLiDE v1.2 (Fastino, Fastino Community License), 27B. Din repo luăm promptul, tokenizerul și stratul de decizie;
+    # greutățile sunt conversia noastră la MLX pe 8 biți, locală (copie derivată: nu se publică). Din 6 noiembrie 2026
+    # ține locul lui Clef la presă: pe 514 articole e mai des de acord cu ceilalți doi cititori (93,8% față de 90,1%).
+    "glide": {
+        "repo": "fastino/GLiDE",
+        "revision": "d199b6d7e04523d87986b8b68cd62272ed1cefc0",
+        "weights": os.path.expanduser(os.environ.get("GLIDE_WEIGHTS", "~/work/destraja-glide/models/glide-mlx-8bit")),
+    },
     # Clef (Cloudflare, Apache-2.0), 27B, convertit la MLX pe 8 biți de mlx-community.
     "clef": {"repo": "mlx-community/clef-8bit", "revision": "1c8887c20827d91cb1b0c6f186e24f5bc5b0e0ce"},
     # d1-3B (Liquid AI, LFM Open License v1.0), 3B, PyTorch pe MPS.
@@ -36,6 +45,8 @@ MODELS = {
 
 def load(key: str):
     model = MODELS[key]
+    if key == "glide":
+        return load_glide(model)
     path = snapshot_download(model["repo"], revision=model["revision"], local_files_only=True)
     sys.path.insert(0, path)
     start = time.time()
@@ -53,6 +64,24 @@ def load(key: str):
         answer = lambda request: d1.system_one(request["state"], request["questions"])  # noqa: E731
     print(f"{model['repo']} încărcat în {time.time() - start:.0f}s", file=sys.stderr, flush=True)
     return answer
+
+
+def load_glide(model: dict):
+    from pathlib import Path
+
+    from huggingface_hub.constants import HF_HUB_CACHE
+
+    # python -I nu pune folderul scriptului în sys.path; glide_mlx.py și footprint.py sunt lângă decide.py.
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import glide_mlx
+
+    # Direct din cache: imaginile din assets/ nu sunt descărcate, deci snapshot_download ar spune că lipsește ceva.
+    snap = Path(HF_HUB_CACHE) / f"models--{model['repo'].replace('/', '--')}" / "snapshots" / model["revision"]
+    if not (snap / "glide" / "prompt.py").exists():
+        sys.exit(f"{model['repo']}@{model['revision']} nu e în cache-ul Hugging Face (vezi README)")
+    glide = glide_mlx.load(Path(model["weights"]), snap)
+    print(f"{model['repo']} încărcat în {glide.load_s:.0f}s", file=sys.stderr, flush=True)
+    return lambda request: glide.decide(request["state"], request["questions"])
 
 
 def main() -> None:

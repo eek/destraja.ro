@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Clasifică articolele din data/news/<slug>.json cu trei cititori: două modele de decizie rulate local
-// (scripts/local-models), Clef (Cloudflare) și d1-3B (Liquid AI), plus GPT-6 Luna prin Codex, în același mediu izolat
+// (scripts/local-models), GLiDE (Fastino) și d1-3B (Liquid AI), plus GPT-6 Luna prin Codex, în același mediu izolat
 // ca restul modelelor (scripts/lib/ai-cli.mjs). Pentru fiecare link verificat, din `articles` și din `pending`, fiecare
 // răspunde la patru întrebări cu variante fixe: poziția față de proiect, tipul sursei, dacă articolul chiar e despre
 // proiect și dacă e de fapt comunicatul unui partid sau politician. Niciunul nu are unelte; articolul e doar „starea”
@@ -207,6 +207,8 @@ async function main() {
       }
       // Ce lipsește încă (de exemplu Luna, fără răspuns azi) se cere la rularea următoare.
       if (!Object.keys(answers).length) return;
+      // GLiDE a luat locul lui Clef: cu amândoi ar fi patru cititori și „doi din trei” n-ar mai fi o majoritate.
+      if (answers.glide) delete answers.clef;
       item.decision = { v: VERSION, checkedAt: today, text: sources[i], models: answers };
       delete item.clef;
       touched.add(file);

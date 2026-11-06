@@ -8,7 +8,7 @@
 //    la Cameră, și amendamentele din rapoartele comisiilor, cu autorii lor (straja-amendments), apoi voturile nominale din
 //    plen ale fișelor noi sau schimbate, la Cameră și la Senat (straja-votes)
 // 3. presa pentru proiectele aflate în consultare (straja-news), apoi poziția articolelor noi față de proiect, cu două
-//    modele de decizie rulate local, Clef și d1-3B (straja-stance)
+//    modele de decizie rulate local, GLiDE și d1-3B (straja-stance)
 // 4. pozițiile organizațiilor (straja-positions --due): proiectele cu risc ridicat sau cu cel mult 3 zile până la
 //    termen zilnic, cele cu risc moderat la 3 zile, restul o dată pe săptămână; cel mult 16 proiecte pe zi
 // 5. datele de contact oficiale ale parlamentarilor (straja-mps): lunea toate fișele, în celelalte zile

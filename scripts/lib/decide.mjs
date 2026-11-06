@@ -1,4 +1,4 @@
-// Modelele de decizie rulate local (scripts/local-models): Clef și d1-3B. Primesc un lot de cereri System One și
+// Modelele de decizie rulate local (scripts/local-models): GLiDE și d1-3B. Primesc un lot de cereri System One și
 // întorc răspunsurile după id. Rulează în mediul lor Python, cu `python -I`, fără variabilele din .env și fără rețea.
 
 import fs from 'node:fs';
@@ -10,7 +10,8 @@ const DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', 'lo
 const WORK = path.resolve(DIR, '..', '..', '.cache', 'decide');
 
 export const DECISION_MODELS = [
-  { key: 'clef', name: 'Clef', maker: 'Cloudflare', venv: '.venv-mlx' },
+  // GLiDE ține locul lui Clef din 6 noiembrie 2026; răspunsurile vechi ale lui Clef rămân la articolele fără GLiDE.
+  { key: 'glide', name: 'GLiDE', maker: 'Fastino', venv: '.venv-glide' },
   { key: 'd1', name: 'd1-3B', maker: 'Liquid AI', venv: '.venv-torch' },
 ];
 

@@ -188,7 +188,7 @@ export async function getBillNews(slug: string): Promise<BillNews | null> {
     const raw = JSON.parse(await fs.readFile(path.join(NEWS_DIR, `${slug}.json`), 'utf8'));
     const seen = new Set<string>();
     const articles: BillNews['articles'] = [];
-    // Întâi publicațiile din listă, apoi celelalte linkuri verificate, dacă Clef le-a clasificat ca fiind despre proiect.
+    // Întâi publicațiile din listă, apoi celelalte linkuri verificate, dacă cititorii le-au clasificat ca fiind despre proiect.
     const items: [RawPressItem, boolean][] = [
       ...(raw.articles ?? []).map((it: RawPressItem) => [it, true] as [RawPressItem, boolean]),
       ...(raw.pending ?? []).map((it: RawPressItem) => [it, false] as [RawPressItem, boolean]),

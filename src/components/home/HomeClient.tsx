@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useMemo } from 'react';
+import { Fragment, useEffect, useMemo } from 'react';
 import Link from 'next/link';
 import { ArrowRight, ArrowUpRight, Megaphone, MessageCircle, PenLine } from 'lucide-react';
 import type { BillLite, RiskLevel } from '@/lib/types';
@@ -11,10 +11,15 @@ import { riskCounts } from '@/lib/stats';
 import { useLiveBills, useToday } from '@/lib/useLiveBills';
 import { trackAttrs } from '@/lib/analytics';
 import { ALERTS_LIVE } from '@/lib/site';
+import { searchHref } from '@/lib/search';
 import { TowerIcon } from '@/components/Logo';
 import { Container, btnSecondary, linkCls } from '@/components/ui';
 import { WorstLine } from '@/components/bills/BalanceBlock';
 import VillageHero from './sat/VillageHero';
+import SearchBox from '@/components/search/SearchBox';
+
+// Exemplele de sub căutarea din prima pagină: un subiect, un număr de proiect, o lege.
+const HERO_EXAMPLES = ['chirii pentru tineri', 'B598/2026', 'Codul fiscal'];
 
 /** Un proiect aflat acum la Cameră, cu ce arată pagina principală despre el. */
 export type HomeCamItem = {
@@ -403,7 +408,22 @@ export default function HomeClient({
               <span className="block text-muted">Stăm de strajă.</span>
               <span className="block font-medium text-ink">Să știi ce se pregătește.</span>
             </h1>
-            <p className="mt-6 max-w-[42ch] text-[clamp(1.12rem,1.9vw,1.3rem)] leading-relaxed text-body">
+            <div className="mt-8 max-w-[40rem]">
+              <SearchBox variant="hero" />
+              <p className="mt-3 text-sm leading-6 text-muted">
+                Încearcă{' '}
+                {HERO_EXAMPLES.map((e, i) => (
+                  <Fragment key={e}>
+                    <Link href={searchHref(e)} className="font-medium text-link underline decoration-1 underline-offset-4 hover:decoration-2">
+                      {e}
+                    </Link>
+                    {i < HERO_EXAMPLES.length - 1 ? ', ' : ' '}
+                  </Fragment>
+                ))}
+                sau numele unui senator ori deputat.
+              </p>
+            </div>
+            <p className="mt-7 max-w-[42ch] text-[clamp(1.12rem,1.9vw,1.3rem)] leading-relaxed text-body">
               Urmărim proiectele de lege din Senat și din Camera Deputaților și le explicăm pe înțelesul tuturor. Fiecare primește un scor de risc, ca să vezi repede ce
               merită atenția ta și unde mai poți interveni.
             </p>

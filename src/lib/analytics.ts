@@ -4,7 +4,8 @@
 // Evenimentele se marchează pe elemente cu trackAttrs(); un singur ascultător de click din
 // AnalyticsBoot le trimite. track() direct doar unde nu e un click (liste derulante, tastatură).
 // Parametrii conțin doar identificatori publici (B563/2026, PSD, numele câmpului), niciodată
-// texte scrise de vizitator: numele din .docx, căutările sau textele editate rămân în browser.
+// texte scrise de vizitator: numele din .docx sau textele editate rămân în browser. Căutările de pe /cauta nu ajung la
+// Google: le păstrează Worker-ul nostru, fără date care să identifice pe cineva (worker/search.ts, /confidentialitate#cautari).
 //
 // Evenimente: senat_form_open, senat_portal_open, docx_download, text_copy, email_open, kit_tab, ai_model_view,
 // official_source_open, bill_open, village_select, list_shortcut, bill_filter, party_select,

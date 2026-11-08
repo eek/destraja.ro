@@ -5,11 +5,13 @@
 // /api/report/result          rezultatul verificării, pe e-mail, doar cu DIGEST_TOKEN (report.ts)
 // /api/subscribe, /api/confirm, /api/preferences, /api/unsubscribe   alertele pe e-mail (subscribe.ts)
 // /api/digest, /api/digest/stats   trimiterea ediției zilnice, doar cu DIGEST_TOKEN (digest.ts)
+// /api/cauta                  jurnalul căutărilor de pe /cauta, fără date care să identifice pe cineva (search.ts)
 // cron la 15 minute              confirmările rămase la coadă (subscribe.ts, sendQueued)
 
 import { handleDigest, handleDigestStats } from './digest';
 import { json, logError } from './http';
 import { handleReport, handleReportResult } from './report';
+import { handleSearchLog } from './search';
 import { handleConfirm, handlePreferences, handleSubscribe, handleUnsubscribe, sendQueued } from './subscribe';
 
 type Handler = (request: Request, env: Env, url: URL) => Promise<Response>;
@@ -21,6 +23,7 @@ const POST_ROUTES: Record<string, Handler> = {
   '/api/confirm': handleConfirm,
   '/api/preferences': handlePreferences,
   '/api/digest': handleDigest,
+  '/api/cauta': handleSearchLog,
 };
 
 export default {

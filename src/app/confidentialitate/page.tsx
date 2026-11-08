@@ -91,7 +91,8 @@ export default function PrivacyPage() {
         <p className={p}>
           Statisticile de vizitare (Google Analytics) pornesc doar dacă accepți. Până atunci nu se încarcă nimic de la Google și nu se setează
           niciun cookie. Le folosim ca să vedem ce pagini sunt citite și ce funcții ajută cu adevărat, de exemplu câți oameni deschid formularul
-          Senatului. Nu afișăm reclame, nu aflăm cine ești și nu trimitem nimic din ce scrii pe site.
+          Senatului. Nu afișăm reclame și nu aflăm cine ești. Din ce scrii pe site ne ajung doar căutările, fără nimic care să te identifice,
+          și ce alegi să ne trimiți: un raport despre o greșeală sau adresa pentru alerte.
         </p>
       </div>
 
@@ -187,8 +188,35 @@ export default function PrivacyPage() {
           items={[
             'Numele pe care îl treci în documentul .docx personalizat este folosit doar în browserul tău, ca să genereze fișierul. Nu ajunge la noi și nici în statistici.',
             'Textele pentru formularul Senatului și e-mailurile către instituții sau parlamentari se copiază sau se deschid în aplicația ta de e-mail. Le trimiți tu, direct. Statisticile numără doar că ai copiat sau ai deschis un text, nu și ce scrie în el.',
-            'Ne trimiți ceva doar dacă alegi: raportul despre o greșeală sau adresa de e-mail pentru alerte (mai jos).',
+            'Ce cauți pe site ajunge la serverul nostru de căutare, ca să găsească proiectele, și rămâne în jurnalul căutărilor fără nimic care să te identifice (mai jos).',
+            'Altfel, ne trimiți ceva doar dacă alegi: raportul despre o greșeală sau adresa de e-mail pentru alerte (mai jos).',
             'Când deschizi senat.ro sau alt site extern, se aplică politica acelui site.',
+          ]}
+        />
+      </section>
+
+      <section aria-labelledby="cautari" className="mt-12 scroll-mt-24">
+        <h2 id="cautari" className={h2}>
+          Când cauți
+        </h2>
+        <p className={p}>
+          Ce scrii în căutare ajunge la serverul nostru de căutare, prin Cloudflare, ca să găsească proiectele potrivite. Parlamentarii se caută
+          direct în browserul tău. Ca să vedem ce caută oamenii și nu găsesc, păstrăm un jurnal al căutărilor de pe pagina{' '}
+          <Link href="/cauta" className={linkCls}>
+            Caută
+          </Link>
+          .
+        </p>
+        <Ticks
+          icon={Check}
+          tone="text-link"
+          items={[
+            'Păstrăm textul căutării, câte rezultate au ieșit, ce rezultat ai deschis (la un articol de presă, doar publicația) și ziua. Atât.',
+            'Nu păstrăm adresa IP, browserul sau ora și nu folosim cookie-uri, deci două căutări nu pot fi legate între ele sau de tine. Adresa IP trece doar prin limita de căutări pe minut a Cloudflare, care oprește roboții.',
+            'Statisticile Google nu primesc niciodată textul căutării.',
+            'Te rugăm să nu scrii date personale despre tine în căutare.',
+            'Ștergem căutările după un an.',
+            'Temeiul este interesul nostru legitim de a face căutarea să găsească ce caută oamenii (art. 6 alin. 1 lit. f din Regulamentul (UE) 2016/679).',
           ]}
         />
       </section>

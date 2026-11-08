@@ -184,6 +184,11 @@ body {
   border-radius: 4px;
 }
 
+/* Câmpul de căutare: focusul se vede pe toată caseta (inelul din SearchBox), nu și pe câmpul din ea. */
+.search-field:focus-visible {
+  outline: none;
+}
+
 a {
   text-underline-offset: 0.22em;
   text-decoration-thickness: 1px;

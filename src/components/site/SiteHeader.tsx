@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Menu, X } from 'lucide-react';
+import { Menu, Search, X } from 'lucide-react';
 import { Logo } from '@/components/Logo';
 import { ALERTS_LIVE } from '@/lib/site';
 import { ThemeToggle } from './ThemeControls';
@@ -51,6 +51,14 @@ export default function SiteHeader() {
         </nav>
 
         <div className="ml-auto flex items-center gap-1 lg:ml-2">
+          <Link
+            href="/cauta"
+            aria-label="Caută"
+            aria-current={pathname.startsWith('/cauta') ? 'page' : undefined}
+            className={`inline-flex h-10 w-10 items-center justify-center rounded-lg transition-colors hover:bg-sunken ${pathname.startsWith('/cauta') ? 'bg-sunken text-ink' : 'text-ink'}`}
+          >
+            <Search className="h-5 w-5" aria-hidden />
+          </Link>
           <ThemeToggle />
           <button
             type="button"

@@ -28,6 +28,17 @@ export interface ChangeDay {
 
 export const CHANGELOG: ChangeDay[] = [
   {
+    date: '2026-11-07',
+    items: [
+      {
+        kind: 'nou',
+        title: 'Căutare',
+        text: 'Pe prima pagină și din bara de sus poți căuta orice proiect: după număr („B598/2026”, „PL-x 136”), după numele unui senator sau deputat, cu sau fără diacritice, ori cu vorbele tale („chirii pentru tineri”). La fiecare proiect vezi pasajul din text care se potrivește, iar alături, articolele de presă despre ce cauți, din indexul nostru de știri. Ce cauți nu ajunge la Google; păstrăm doar textul căutării, fără nimic care să te identifice, ca să vedem ce nu găsesc oamenii.',
+        link: { href: '/cauta', label: 'Caută' },
+      },
+    ],
+  },
+  {
     date: '2026-11-06',
     items: [
       {

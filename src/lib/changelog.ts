@@ -33,8 +33,32 @@ export const CHANGELOG: ChangeDay[] = [
       {
         kind: 'nou',
         title: 'Căutare',
-        text: 'Pe prima pagină și din bara de sus poți căuta orice proiect: după număr („B598/2026”, „PL-x 136”), după numele unui senator sau deputat, cu sau fără diacritice, ori cu vorbele tale („chirii pentru tineri”). La fiecare proiect vezi pasajul din text care se potrivește, iar alături, articolele de presă despre ce cauți, din indexul nostru de știri. Ce cauți nu ajunge la Google; păstrăm doar textul căutării, fără nimic care să te identifice, ca să vedem ce nu găsesc oamenii.',
-        link: { href: '/cauta', label: 'Caută' },
+        text: 'Poți căuta orice proiect: după număr („B598/2026”, „PL-x 136”) sau cu vorbele tale („chirii pentru tineri”). La fiecare proiect vezi pasajul din text care se potrivește, iar alături, articolele de presă despre ce cauți, din indexul nostru de știri, cu link spre publicație. Ce cauți nu ajunge la Google; păstrăm doar textul căutării, fără nimic care să te identifice, ca să vedem ce nu găsesc oamenii.',
+        link: { href: '/cauta?q=chirii%20pentru%20tineri', label: 'Caută „chirii pentru tineri”' },
+        shot: {
+          id: '2026-11-08-cauta',
+          alt: 'Pagina Caută pentru „chirii pentru tineri”: în stânga proiectele, primul fiind B598/2026, cu pasajul din expunerea de motive care se potrivește; în dreapta, articole de presă despre chiria pentru tineri.',
+        },
+      },
+      {
+        kind: 'nou',
+        title: 'Caută un parlamentar sau o lege',
+        text: 'Scrie numele unui senator sau deputat, cu sau fără diacritice, și vezi întâi proiectele pe care le-a inițiat, cu eticheta „Inițiat de”, plus articolele despre el. Scrie o lege („Legea 227/2015”, „legea nr 46 din 2008”, „OUG 57/2019”) și vezi întâi proiectele care se referă la ea.',
+        link: { href: '/cauta?q=Legea%20227%2F2015', label: 'Caută „Legea 227/2015”' },
+        shot: {
+          id: '2026-11-08-cauta-nume',
+          alt: 'Pagina Caută pentru „Marian Neacșu”: proiectele lui, fiecare cu eticheta „Inițiat de Neacșu Marian”, deputatul în dreapta și, sub el, articole de presă despre el.',
+        },
+      },
+      {
+        kind: 'schimbat',
+        title: 'Prima pagină începe cu căutarea',
+        text: 'Caseta de căutare stă acum chiar sub titlul primei pagini, cu câteva exemple. O găsești și în bara de sus, pe orice pagină, la iconița cu lupa.',
+        link: { href: '/', label: 'Prima pagină' },
+        shot: {
+          id: '2026-11-08-acasa',
+          alt: 'Prima pagină: sub titlul „Stăm de strajă. Să știi ce se pregătește.”, caseta mare de căutare „Proiect, parlamentar sau subiect” și exemple de căutări; în dreapta, satul cu proiectele în consultare.',
+        },
       },
     ],
   },

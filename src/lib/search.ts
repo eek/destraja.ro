@@ -33,8 +33,11 @@ export type BillHit = {
 /** Un articol de presă găsit de căutare: titlul, publicația, data și linkul, niciodată textul. */
 export type PressHit = { url: string; title: string; domain: string; outlet: string | null; published: string | null };
 
-/** /cauta/presa.json: domeniu → numele publicației; articol (pressKey) → [numărul proiectului, pagina lui]. */
-export type PressIndex = { outlets: Record<string, string>; about: Record<string, [string, string][]> };
+/** /cauta/presa.json: domeniu → numele publicației; slug → proiectul și articolele verificate la el ([url, titlu, domeniu, data]). */
+export type PressIndex = {
+  outlets: Record<string, string>;
+  bills: Record<string, { id: string; href: string; articles: [string, string, string, string | null][] }>;
+};
 
 /** Adresa unui articol fără protocol, www, parametri și bară finală, ca aceeași pagină să se potrivească oricum ar fi scrisă. */
 export const pressKey = (url: string) => url.replace(/^https?:\/\/(www\.)?/i, '').replace(/[?#].*$/, '').replace(/\/+$/, '').toLowerCase();
@@ -78,12 +81,33 @@ export function loadPeople(): Promise<Person[]> {
 let pressIndex: Promise<PressIndex> | null = null;
 export function loadPressIndex(): Promise<PressIndex> {
   pressIndex ??= fetch('/cauta/presa.json')
-    .then((r) => (r.ok ? (r.json() as Promise<PressIndex>) : { outlets: {}, about: {} }))
+    .then((r) => (r.ok ? (r.json() as Promise<PressIndex>) : { outlets: {}, bills: {} }))
     .catch(() => {
       pressIndex = null;
-      return { outlets: {}, about: {} };
+      return { outlets: {}, bills: {} };
     });
   return pressIndex;
+}
+
+/** Articol (pressKey) → proiectele la care l-am verificat: [numărul, pagina]. */
+export function pressAbout(index: PressIndex): Record<string, [string, string][]> {
+  const about: Record<string, [string, string][]> = {};
+  for (const b of Object.values(index.bills)) for (const [url] of b.articles) (about[pressKey(url)] ??= []).push([b.id, b.href]);
+  return about;
+}
+
+/** Presa de arătat: întâi articolele verificate la proiectele cu numărul căutat, apoi ce a găsit căutarea, fără dubluri. */
+export function mergePress(found: PressHit[], exactSlugs: string[], index: PressIndex | null): PressHit[] {
+  const verified: PressHit[] = exactSlugs.flatMap((slug) =>
+    (index?.bills[slug]?.articles ?? []).map(([url, title, domain, published]) => ({ url, title, domain, outlet: null, published })),
+  );
+  const seen = new Set<string>();
+  return [...verified, ...found].filter((a) => {
+    const key = pressKey(a.url);
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
 }
 
 /** Proiectele și presa pentru o căutare, într-o singură cerere (vectorul întrebării se calculează o dată). */

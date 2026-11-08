@@ -28,7 +28,7 @@ export interface ChangeDay {
 
 export const CHANGELOG: ChangeDay[] = [
   {
-    date: '2026-11-07',
+    date: '2026-11-08',
     items: [
       {
         kind: 'nou',

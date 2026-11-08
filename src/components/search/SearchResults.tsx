@@ -1,6 +1,6 @@
 'use client';
 
-import { Fragment, useEffect, useRef, useState } from 'react';
+import { Fragment, useEffect, useMemo, useRef, useState } from 'react';
 import Link from 'next/link';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { ExternalLink, UserRound } from 'lucide-react';
@@ -13,6 +13,8 @@ import {
   loadPressIndex,
   logSearch,
   matchPeople,
+  mergePress,
+  pressAbout,
   pressKey,
   searchHref,
   searchSite,
@@ -84,9 +86,9 @@ function PersonRow({ p, onOpen }: { p: Person; onOpen: () => void }) {
 }
 
 /** Un articol: publicația, data, titlul (spre site-ul publicației) și, dacă l-am verificat la un proiect, proiectul. */
-function PressRow({ a, index, onOpen }: { a: PressHit; index: PressIndex | null; onOpen: () => void }) {
-  const outlet = index?.outlets[a.domain] ?? a.outlet ?? a.domain;
-  const about = index?.about[pressKey(a.url)] ?? [];
+function PressRow({ a, outlets, about: aboutAll, onOpen }: { a: PressHit; outlets: Record<string, string>; about: Record<string, [string, string][]>; onOpen: () => void }) {
+  const outlet = outlets[a.domain] ?? a.outlet ?? a.domain;
+  const about = aboutAll[pressKey(a.url)] ?? [];
   return (
     <li className="py-3.5">
       <p className="text-sm text-muted">
@@ -182,7 +184,15 @@ export default function SearchResults() {
   }, [q]);
 
   const found = people ? matchPeople(people, q, 8) : [];
-  const press = bills.state === 'done' ? bills.press.slice(0, PRESS_SHOWN) : [];
+  const about = useMemo(() => (pressIndex ? pressAbout(pressIndex) : {}), [pressIndex]);
+  const press =
+    bills.state === 'done'
+      ? mergePress(
+          bills.press,
+          bills.hits.filter((h) => h.exact).map((h) => h.slug),
+          pressIndex,
+        ).slice(0, PRESS_SHOWN)
+      : [];
   const done = bills.state === 'done' || bills.state === 'error';
 
   // O intrare în jurnal pentru fiecare căutare, după ce știm câte rezultate au ieșit.
@@ -286,7 +296,7 @@ export default function SearchResults() {
               </h2>
               <ul className="divide-y divide-line">
                 {press.map((a, i) => (
-                  <PressRow key={a.url} a={a} index={pressIndex} onOpen={open(`presa:${a.domain}`, i + 1)} />
+                  <PressRow key={a.url} a={a} outlets={pressIndex?.outlets ?? {}} about={about} onOpen={open(`presa:${a.domain}`, i + 1)} />
                 ))}
               </ul>
               <p className="mt-3 text-xs leading-5 text-muted">Din indexul nostru de știri, cu titlul și linkul spre publicație.</p>
